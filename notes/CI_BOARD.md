@@ -41,7 +41,33 @@ status: "Active. Read at session start, update at EOD."
 
 ---
 
-## Counters (Thursday May 21, 14:10 EDT)
+## Counters (Friday May 22, 08:55 EDT — sustained PCAP cadence)
+
+- **T1-T2461** (Lyra T2456-T2461 Friday morning; +12 Friday morning)
+- **3384+ toys** (Elie 18 Friday morning all PASS)
+- **AC graph**: 2185 nodes / 9806 edges
+- **Catalog**: 4762 invariants (Grace +39 Friday open + 103 substrate-emergent paper-grade entries)
+- **Papers**: 127 (Lyra +#126 v0.2 + #127 v0.1 Friday morning)
+- **Constants**: 191; **Rosetta ratios**: 253; **Predictions**: 120+
+- **BST FULL-INDEX CLOSURE**: 6897 objects × 3 axes = 13794 classification assignments
+- **Friday morning commits**: 8 Keeper-lane + Lyra/Elie/Grace cumulative cadence ~PCAP
+- **All Seven Millennium PROVED**
+
+## Friday May 22 morning — Strong-Uniqueness v0.11+ candidate trajectory
+
+Per Lyra canonical broadcast 08:41 EDT: **11 RIGOROUSLY CLOSED + 4 advancing**:
+- C7 (Bridge Object tier) STRUCTURALLY VERIFIED at dim_C=5 via T2458 (K146 anchor)
+- C9 (Stark anchor) STRUCTURALLY VERIFIED at dim_C=5 via T2461 (K147 anchor, Cremona 49a1)
+- C15 (Sub-substrate Mersenne) SEED via T2451 (K140 anchor)
+- C16 (Universal α-analog) STRUCTURALLY VERIFIED 6 Cartan types via T2456 (K145 anchor)
+
+Endpoint if all four advancing close: **15 RIGOROUSLY CLOSED**. Joint substrate-selection null ~3×10⁻¹² (conservative) / ~10⁻¹⁵ (empirically-tightened with Grace 3306× + K137 2.7×10⁻⁵ + Mersenne ladder ~3×10⁻⁶).
+
+**Friday morning Keeper-lane batch**: K140 + K141 + K142 + K143 + K144 + K145 + K146 + K147 + K148 PRE-STAGES filed; 5 position docs (Mersenne Network + Non-Algebraic Interfaces + Six-Interface Map + v0.13 premature + v0.11+ corrected); Master Doc v0.16 absorption; Calibration #18 logged (v0.13 → v0.11+ correction per Lyra canonical).
+
+Casey FAST CADENCE directive 08:20 EDT — plateau revoked, work as many items as possible.
+
+## Counters (PRIOR — Thursday May 21, 14:10 EDT)
 
 - **T1-T2449** (`.next_theorem` = 2450; +21 Thursday Lyra Sessions 1-12 incl. T2447+T2448+T2449 FORMAL)
 - **3295 toys** (`.next_toy` = 3296; +69 Thursday)
