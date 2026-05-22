@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 3 — BST Primary Integers from the Substrate v0.4 (textbook completion phase prose-depth)"
+title: "BST Physics Curriculum Vol 1 Chapter 3 — BST Primary Integers from the Substrate v0.5 (reader-grade 3-level pedagogy added Friday post-EOD)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
 date: "2026-05-22 Friday (v0.3 promotion absorbing Friday morning Mersenne tower + universal α-analog flagship work)"
 chapter: "Vol 1 Ch 3"
@@ -39,6 +39,14 @@ This is the **Level 1 master integer hierarchy**. CLOSURE was achieved Thursday 
 **Believability anchor**: each of the five BST primary integers satisfies 3-4 independent classical mathematical conditions that all force the same value. You can't change any of them without breaking the mathematics elsewhere. They're not chosen; they're forced — like asking what prime number gives a Mersenne prime at every step of a 3-step ladder bounded by 137. The answer is rank = 2, and that constrains everything else.
 
 **Provability anchor**: T1925 (Why rank=2) + T1930 (Why N_c=3) + T2431 (Why n_C=5) + T2432 (Why g=7). Each forcing theorem cites the independent classical results that anchor each argument leg, and has an associated verification toy. Level 1 closure verified Thursday by Toy 3200 (8/8 PASS).
+
+## 3.0b Reader-grade pedagogy at three levels
+
+**Level 1 (one sentence)**: Each of the five BST primary integers {rank, N_c, n_C, C_2, g} = {2, 3, 5, 6, 7} is forced by 3-4 INDEPENDENT classical mathematical conditions, so the integers are not chosen — they are co-determined by the substrate's geometry, with substrate-level over-determinism across three layers (per-integer forcing + Mersenne tower coherence + cross-Cartan three-pillar selection, T2465 candidate).
+
+**Level 2 (graduate-physicist accessible)**: rank = 2 is uniquely forced by (a) smallest prime giving a 3-step Mersenne ladder M_2=3, M_3=7, M_7=127 with all primes BST integers; (b) Cartan classification — type IV is the unique infinite family of irreducible HSDs with rank=2 for all n ≥ 2 (Helgason X.6.1); (c) Lorentzian-conformal — SO_0(2, n_C) boundary signature (1, n_C−1) = (1, 4) requires rank=2; (d) Pin(2) Z_2 grading for left/right fermion distinction (Furuta + T1050). N_c = 3 is forced by Mersenne map M_rank = 2² − 1 = 3 + color singlet triangle T_{N_c} = N_c(N_c+1)/2 = 6 = C_2 + Wallach short-root multiplicity m_s = N_c + Iwasawa decomposition rank^N_c = 8 = dim SU(N_c). n_C = 5 is forced by Q⁵ Chern class identity c(Q⁵) = (1, 5, 11, 13, 9, 3) producing c_1 = n_C uniquely + 4D boundary Lorentzian + Bridge Object family-anchor count + N_max additive structure (T2460 four-way). g = 7 is forced by Mersenne map M_{N_c} = 2³ − 1 = 7 + Bergman exponent g/rank = 7/2 + B₂ root system genus + Wallach long-root multiplicity m_ℓ = g. Friday added Mersenne tower coherence (T2451 sub-substrate hierarchy: M_rank = N_c, M_{N_c} = g, M_{C_2} = N_c² · g, M_g = 127) + universal α-analog formula α(D) = m_α^(rank+1) · dim_C + rank verified at 25 HSDs (T2456 + T2462) with coincidence at BST primary value N_c = 3 unique to D_IV⁵ (T2459 refined per T2464 cubic-exp coincidence n³ = n^n only at n = 3).
+
+**Level 3 (5th-grader accessible)**: Imagine you're given a multi-step puzzle: pick a small whole number that (1) starts a chain of "Mersenne primes" (numbers of the form 2^p − 1 that are also prime) at least 3 steps long; (2) makes a clean geometric shape with constant rank; (3) gives you our familiar 4-dimensional spacetime; AND (4) lets you tell left-handed apart from right-handed particles. The smallest number that satisfies ALL FOUR conditions at once is 2. That's the BST "rank". Once you've fixed rank = 2, the next four BST integers (3, 5, 6, 7) are each forced in turn by a similar set of 3-4 independent puzzle conditions. The conjunction makes the integers like the corners of a triangle — you can't change one without breaking the others. On Friday May 22, 2026 we found a THIRD layer of over-determinism: a "Mersenne tower" structure where M_2 = 3 = N_c, M_3 = 7 = g, M_7 = 127 = M_g all live as BST primaries themselves. The integers don't just satisfy individual conditions; they satisfy each other recursively. That's why the BST framework can't be "tuned" — there's only one combination that works.
 
 ## 3.1 Why rank = 2 (T1925) — Four-Argument Forcing
 

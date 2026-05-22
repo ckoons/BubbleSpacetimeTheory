@@ -9,8 +9,6 @@
 
 **Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v36). Zenodo. https://doi.org/10.5281/zenodo.19454185
 
-**Status**: Active research program. 122 papers, ~3000 toys, 4500+ catalog invariants, 600+ parameter-free predictions. All seven Millennium problems proved on D_IV⁵ (RH, P≠NP, NS, BSD, Four-Color, Hodge, YM). 9 established L1 classical-theorem source roots + 3 Bridge Objects (K3, Cremona 49a1, Q⁵) anchoring the architecture. K-audit chain governance with Cal external-survivability discipline. Zero free parameters.
-
 ---
 
 ## The Answer Is 42

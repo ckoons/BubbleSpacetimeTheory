@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Task #244 follow-on cluster_type catalog verification + refinement criteria"
+  },
+  "catalog_cluster_type_tagging": {
+    "TYPE_I": 3337,
+    "TYPE_II": 784,
+    "structural": 752,
+    "other": 0,
+    "total_tagged": 4873
+  },
+  "TYPE_I_refinement_criteria": "Pure BST primary integer power/product (+ Bergman-natural \u03c0 factors)",
+  "TYPE_II_refinement_criteria": "BST primary \u00d7 \u03b1^k or BST primary \u00d7 ln-loop-correction",
+  "structural_refinement_hypothesis": "~10-20% should reclassify as I or II per substrate-mechanism",
+  "v0_2_tagging_recommendation": "TYPE I includes Bergman-natural \u03c0; TYPE II split into II.a/b/c; tier_path field added"
+}

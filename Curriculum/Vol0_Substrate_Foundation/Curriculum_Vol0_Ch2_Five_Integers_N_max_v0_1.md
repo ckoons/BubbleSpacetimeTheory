@@ -18,9 +18,13 @@ BST has six fundamental numerical inputs:
 - **g = 7** (gauge dimension)
 - **N_max = 137** (fine structure constant inverse + Hilbert polynomial)
 
-These are not free parameters chosen to match experiment. Each is uniquely forced by substrate structure: alternative values either trivialize the geometry, contradict observed physics, or fail multi-criterion convergence.
+These are not free parameters chosen to match experiment. Each is uniquely forced by substrate structure: alternative values either trivialize the geometry, contradict observed physics, or fail multi-criterion convergence (Strong-Uniqueness Theorem v0.10.5 FORMAL, Paper #125, current ratified state per Calibration #19 — see Vol 0 Ch 9).
 
-This chapter exposes the per-integer "Why X" forcing theorems. Six theorems, six integers. Level 1 of the master integer hierarchy is closed: rank + N_c + n_C + C_2 + g are all derived from D_IV⁵ substrate structure; N_max emerges as their composition.
+This chapter exposes the per-integer "Why X" forcing theorems. Six theorems, six integers. Level 1 of the master integer hierarchy is closed: rank + N_c + n_C + C_2 + g are all derived from D_IV⁵ substrate structure; N_max emerges as their composition (and admits two independent + three notational variant BST primary algebraic forms — see Section 2.9b).
+
+**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate physicist with Lie group + Hermitian symmetric domain background can read this chapter linearly. A 5th-grader can follow the intuitive summary: **the substrate has exactly five numbers in it, and each number is what it is because the geometry forces it to be that.** The chapter walks through each forcing. The most surprising result (Section 2.5b Friday Lyra-lane): the five integers are themselves connected by a Mersenne tower (M_rank = N_c = 3, M_{N_c} = g = 7), so the substrate effectively has ONE generating input (rank) — everything else cascades from it.
+
+**Diagram preview** (v1.0): Section 2.1 will include (a) the five-integer ladder diagram showing how rank, N_c, n_C, C_2, g, N_max interconnect; (b) the Mersenne tower visualization rank → N_c → g via Mersenne map iteration (Friday T2451 Sub-Substrate Mersenne Hierarchy); (c) the cubic-exponential coincidence diagram at N_c = 3 (n³ = n^n unique at n = 3, T2464 Friday) showing why Hilbert polynomial form (N_c³·n_C+rank) and Mersenne tower form (N_c^{N_c}·n_C+rank) coincide at N_max = 137 specifically.
 
 ## Section 2.1 — The five primary integers + N_max
 

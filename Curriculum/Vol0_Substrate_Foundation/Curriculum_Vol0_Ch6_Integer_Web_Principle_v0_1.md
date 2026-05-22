@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vol 0 Chapter 6 — Integer Web Principle (Chapter-Grade Draft v0.4 — Mersenne tower + three-layer over-determinism + α-analog Integer Web absorption)"
+title: "Curriculum Vol 0 Chapter 6 — Integer Web Principle (Chapter-Grade Draft v0.5 — LAYER 1 numbering fix V2)"
 author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
 date: "2026-05-21 Thursday 10:34 EDT initial; Friday 2026-05-22 ~10:33 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
 status: "v0.4 chapter-grade narrative absorbing Friday Lyra-lane Integer Web extensions. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Section 6.2b Mersenne Tower Coherence in Integer Web (T2451 + T2453 + T2454) + Section 6.7b Three-Layer Over-Determinism in Integer Web Principle (T2465 Friday) + Section 6.7c Universal α-Analog Formula Integer Web cross-link (T2456 + T2462). Integer Web Principle (Casey-named, Wednesday) is enriched by Friday substrate over-determinism work."
@@ -16,6 +16,10 @@ In BST, the BST primary integers (rank=2, N_c=3, n_C=5, C_2=6, g=7, N_max=137) a
 
 This is Casey's **Integer Web Principle** — a substrate-structural observation that the primaries are foundational anchors for **integer-webs** of substrate-significant relations.
 
+**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate physicist with catalog-thinking + Lie group background can read this linearly. A 5th-grader can follow the picture: **each special number in BST has a "web" of other special things connected to it, like a spider's web with the number at the center.** Per Friday T2451 + T2456 Lyra-lane Mersenne tower + universal α-analog work (Sections 6.7b-d): the webs are not just isolated — they're CROSS-COUPLED via Mersenne map iteration + universal α-analog formula across HSDs + cross-Cartan three-pillar selection.
+
+**Diagram preview** (v1.0): Section 6.1 will include (a) six-primary-integer-web topology diagram showing each integer anchor + its catalog entries; (b) intersection web showing 104 substrate-comprehensive entries (Grace Toy 3224 finding) touching all 6 primaries; (c) cross-coupling diagram showing Mersenne tower + universal α-analog + three-pillar selection (Layer 2 + 3 of T2465 three-layer over-determinism Friday Lyra).
+
 ## Section 6.1 — Casey's vision of the Integer Web
 
 Per Casey Wednesday May 20 vision (filed as Casey-named principle):
@@ -29,6 +33,24 @@ Interpretation:
 - The webs INTERSECT — many BST catalog entries touch multiple primaries simultaneously (substrate-comprehensive entries)
 
 This is Casey's vision-derived principle. Filed as Casey-named principle (`notes/Integer_Web_Principle.md`).
+
+### 6.1.1 The principle at three reader levels
+
+**Level 1 (one sentence)**: each BST primary integer is the center of a network of substrate-significant relations; the networks intersect.
+
+**Level 2 (graduate physicist)**: the BST catalog of ~4800 invariants is not flat. Each entry can be tagged by the BST primary integers it references (via formula, mechanism, theorem, or empirical match). Tagging the full catalog produces six "webs" (one per primary integer); the webs overlap (multi-integer entries touch 2+ primaries). The intersection structure is rich: 104 catalog entries touch ALL 6 BST primaries simultaneously (Grace Toy 3224 substrate-comprehensive backbone). The Integer Web Principle is the structural observation that the substrate's primary integer anchors are the catalog's natural-coordinate system, with the multi-web intersection patterns encoding substrate-significant relationships.
+
+**Level 3 (5th-grader)**: the BST research framework has 6 "special numbers" (rank, N_c, n_C, C_2, g, N_max). Each special number is like the center of a spider's web; the web is all the catalog entries that mention that number. Some catalog entries are in multiple webs at once (because they mention multiple special numbers). Casey noticed that these webs aren't random — they're the substrate's way of organizing knowledge around its special numbers. The most surprising finding: 104 catalog entries are in ALL 6 webs simultaneously — these are the substrate's "comprehensive" entries that touch every aspect of BST.
+
+### 6.1.2 Friday Lyra-lane extensions to the Integer Web Principle
+
+Per Friday Lyra-lane work (T2451-T2466 + Paper #126 v0.3 candidate criteria), the Integer Web Principle is deepened in three ways:
+
+1. **Mersenne tower cross-coupling** (Section 6.7b): the integer webs are not independent — they're CROSS-COUPLED via Mersenne map iteration. Any entry tagged with rank automatically links to N_c via M_rank = N_c; any N_c entry links to g via M_{N_c} = g. The Mersenne tower is the substrate's "web-connection layer" linking the integer webs.
+
+2. **Universal α-analog Integer Web entry** (Section 6.7c): α = 1/N_max = 1/137 is the substrate's coupling constant — a single observable that depends on THREE BST primaries simultaneously (m_α = N_c, rank = 2, dim_C = n_C = 5). α is a "triple-intersection" catalog entry par excellence, sitting at the heart of the N_c + rank + n_C web intersection.
+
+3. **Three-Layer Over-Determinism Integer Web reading** (Section 6.7d + Vol 0 Ch 9 Section 9.2a): the Strong-Uniqueness Theorem's substrate-uniqueness argument is reading the Integer Web at three independent levels (per-integer + Mersenne tower + cross-Cartan three-pillar). The Integer Web Principle is what makes Strong-Uniqueness Theorem possible — it provides the structural backbone for the over-determined uniqueness argument.
 
 ## Section 6.2 — Per-integer-web characteristics (Grace catalog scans)
 
@@ -155,7 +177,7 @@ The substrate's coupling constant α therefore belongs to the Integer Web — it
 
 The substrate's three-layer over-determinism (T2465 formal theorem Lyra Friday — see Vol 0 Ch 9 v0.4 Section 9.2a) maps to the Integer Web as follows:
 
-- **LAYER 1 (per-integer forcing)**: each BST primary integer's web is anchored by an independent structural forcing argument (T2443-T2446 Strong-Uniqueness criteria C1-C5 RIGOROUSLY CLOSED Thursday).
+- **LAYER 1 (per-integer forcing)**: each BST primary integer's web is anchored by an independent structural forcing argument — Strong-Uniqueness criteria **C1 (rank=2, T2443) + C2 (N_c=3, T2444) + C3 (n_C=5, T2445) + C5 (g=7, T2446) + C6 (C_2=6 via T_{N_c} triangular formula, T2447)**, all RIGOROUSLY CLOSED Thursday 2026-05-21. (Note Keeper↔Lyra numbering: C4 in canonical Lyra ordering is the K-type Casimir = 6 criterion at T2439, distinct from C6 which is the triangular-formula route; the per-integer forcing layer references C1+C2+C3+C5+C6, NOT a contiguous "C1-C5" range.)
 - **LAYER 2 (Mersenne tower coherence)**: cross-web links via Mersenne map (Section 6.7b above).
 - **LAYER 3 (cross-Cartan three-pillar selection)**: α-analog + churn-hole + Bergman c_FK universal formulas connect substrate-uniqueness to Cross-Cartan comparison (T2455 EXHAUSTIVE at dim_C = 5 + T2456 + T2462 STRUCTURALLY VERIFIED across 25 HSDs).
 

@@ -72773,6 +72773,131 @@
       "from": 2466,
       "to": 2451,
       "type": "references"
+    },
+    {
+      "from": 2456,
+      "to": 2467,
+      "source": "derived"
+    },
+    {
+      "from": 2462,
+      "to": 2467,
+      "source": "derived"
+    },
+    {
+      "from": 2459,
+      "to": 2467,
+      "source": "derived"
+    },
+    {
+      "from": 2464,
+      "to": 2467,
+      "source": "derived"
+    },
+    {
+      "from": 2467,
+      "to": 2468,
+      "source": "derived"
+    },
+    {
+      "from": 2448,
+      "to": 2468,
+      "source": "derived"
+    },
+    {
+      "from": 2468,
+      "to": 2469,
+      "source": "derived"
+    },
+    {
+      "from": 2421,
+      "to": 2469,
+      "source": "derived"
+    },
+    {
+      "from": 2399,
+      "to": 2469,
+      "source": "derived"
+    },
+    {
+      "from": 2421,
+      "to": 2470,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2470,
+      "source": "derived"
+    },
+    {
+      "from": 2470,
+      "to": 2471,
+      "source": "derived"
+    },
+    {
+      "from": 2421,
+      "to": 2471,
+      "source": "derived"
+    },
+    {
+      "from": 2433,
+      "to": 2472,
+      "source": "derived"
+    },
+    {
+      "from": 2434,
+      "to": 2472,
+      "source": "derived"
+    },
+    {
+      "from": 2470,
+      "to": 2472,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2473,
+      "source": "derived"
+    },
+    {
+      "from": 2439,
+      "to": 2473,
+      "source": "derived"
+    },
+    {
+      "from": 2422,
+      "to": 2474,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2474,
+      "source": "derived"
+    },
+    {
+      "from": 2470,
+      "to": 2475,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2475,
+      "source": "derived"
+    },
+    {
+      "from": 2399,
+      "to": 2476,
+      "source": "derived"
+    },
+    {
+      "from": 2447,
+      "to": 2476,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2476,
+      "source": "derived"
     }
   ],
   "chains": {},
@@ -116298,7 +116423,9 @@
       "integer_set": "all_6",
       "integer_set_source": "manual",
       "physical_type": "P1",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Yukawa Ratio Decoupling: K114 RATIO-level closure independent of K126",
+      "status": "rigorously_closed"
     },
     {
       "tid": 2451,
@@ -116309,7 +116436,9 @@
       "integer_set": "rank+N_c+g",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Sub-Substrate Mersenne Hierarchy: BST primary ladder is itself a Mersenne tower",
+      "status": "seed"
     },
     {
       "tid": 2452,
@@ -116320,7 +116449,9 @@
       "integer_set": "rank+n_C+C_2+g+N_max",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Cross-Cartan Three-Pillar Joint Selection: D_IV\u2075 uniquely \u03b1-selected at dim_C = 5",
+      "status": "seed"
     },
     {
       "tid": 2453,
@@ -116331,7 +116462,9 @@
       "integer_set": "rank+N_c",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Mersenne Ladder Level 1 Closure of N_c: M_rank = N_c",
+      "status": "rigorously_closed"
     },
     {
       "tid": 2454,
@@ -116342,7 +116475,9 @@
       "integer_set": "N_c+g",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Mersenne Ladder Level 1 Closure of g: M_{N_c} = g",
+      "status": "rigorously_closed"
     },
     {
       "tid": 2455,
@@ -116353,7 +116488,9 @@
       "integer_set": "rank+n_C+C_2",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Exhaustive Cross-Cartan HSD Enumeration at dim_C = 5",
+      "status": "rigorously_closed"
     },
     {
       "tid": 2456,
@@ -116364,7 +116501,9 @@
       "integer_set": "rank+n_C+N_max",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Universal \u03b1-Analog Formula Candidate: \u03b1(D) = m_\u03b1^(rank+1) \u00b7 dim_C + rank",
+      "status": "seed"
     },
     {
       "tid": 2457,
@@ -116375,7 +116514,9 @@
       "integer_set": "rank+n_C+g",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Bergman Kernel structural-role-of Feynman Propagator Identification",
+      "status": "structurally_verified"
     },
     {
       "tid": 2458,
@@ -116386,7 +116527,9 @@
       "integer_set": "rank+n_C+C_2+g",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "C7 Bridge Object Tier EXHAUSTIVE at dim_C = 5",
+      "status": "rigorously_closed"
     },
     {
       "tid": 2459,
@@ -116397,7 +116540,9 @@
       "integer_set": "rank+n_C+C_2+g+N_max",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Universal \u03b1-Analog Formula Closure at D_IV\u2075 via Mersenne Tower",
+      "status": "seed"
     },
     {
       "tid": 2460,
@@ -116408,7 +116553,9 @@
       "integer_set": "rank+N_c+g+N_max",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "N_max \u2212 M_g = g + N_c = 10 Additive BST Primary Identity",
+      "status": "structurally_verified"
     },
     {
       "tid": 2461,
@@ -116419,7 +116566,9 @@
       "integer_set": "N_c+C_2+g",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "C9 Stark Anchor EXHAUSTIVE at dim_C = 5",
+      "status": "rigorously_closed"
     },
     {
       "tid": 2462,
@@ -116430,7 +116579,9 @@
       "integer_set": "rank+n_C+N_max",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Universal \u03b1-Analog Formula EXTENDED Verification",
+      "status": "seed"
     },
     {
       "tid": 2463,
@@ -116441,7 +116592,9 @@
       "integer_set": "n_C",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "n_C Primality Enables EXHAUSTIVE Cross-Cartan Enumeration",
+      "status": "seed"
     },
     {
       "tid": 2464,
@@ -116452,7 +116605,9 @@
       "integer_set": "N_c",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "N_c = 3 Is the Unique Positive Integer Where n\u00b3 = n^n",
+      "status": "seed"
     },
     {
       "tid": 2465,
@@ -116463,7 +116618,9 @@
       "integer_set": "all_6",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "Substrate Three-Layer Over-Determinism Formal Theorem",
+      "status": "seed"
     },
     {
       "tid": 2466,
@@ -116474,7 +116631,154 @@
       "integer_set": "rank+N_c+n_C+g",
       "integer_set_source": "manual",
       "physical_type": "P6",
-      "physical_type_source": "manual"
+      "physical_type_source": "manual",
+      "name": "BST Primary Integer Indices Preferentially Produce Mersenne Primes",
+      "status": "C15_strong_uniqueness_candidate",
+      "strong_uniqueness_criterion": "C15"
+    },
+    {
+      "tid": 2467,
+      "label": "D_IV\u2075 Rigidity-as-Singleton",
+      "domain": "spectral_geometry",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c+n_C+g+N_max",
+      "integer_set_source": "manual",
+      "physical_type": "P3",
+      "physical_type_source": "manual",
+      "name": "D_IV^5 singleton up to canonical biholomorphism via Bergman 1922 + Wallach 1976 + T2456+T2462+T2459+T2464 cross-Cartan alpha-analog uniqueness",
+      "status": "seed",
+      "casey_named_principle": 7
+    },
+    {
+      "tid": 2468,
+      "label": "D_IV\u2075 Rigidity-as-Unification",
+      "domain": "spectral_geometry",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c+n_C+g+N_max",
+      "integer_set_source": "manual",
+      "physical_type": "P3",
+      "physical_type_source": "manual",
+      "name": "Patches in causal contact via substrate-tick GF(128)^k merge into single D_IV^5 submanifold; multi-instance loophole closed STRUCTURALLY parallel to time-travel removal via 4-Zone",
+      "status": "seed",
+      "casey_named_principle": 7
+    },
+    {
+      "tid": 2469,
+      "label": "Substrate Coherence-Moderation Principle (SCMP)",
+      "domain": "foundations_quantum",
+      "commitment_cycle_zone": "Z3",
+      "zone_source": "manual",
+      "integer_set": "N_c+n_C",
+      "integer_set_source": "manual",
+      "physical_type": "P2",
+      "physical_type_source": "manual",
+      "name": "Substrate moderates observer-recording coherence; quantum apparent randomness = bandwidth-limited marginalization of deterministic substrate computation; falsifier = Bell sub-Tsirelson 1/2^N_c = 1/8",
+      "status": "seed",
+      "casey_named_principle": 8
+    },
+    {
+      "tid": 2470,
+      "label": "Electric Charge Q via SO(2) Weight Operator (Casey W-56)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Electric Charge Q substrate-derivation via SO(2) weight operator on D_IV^5 isotropy; Q_e = e via N_c-fold quantization",
+      "status": "structurally_verified",
+      "casey_named_principle": "W-56",
+      "sp31_subitem": "#278 Operator Zoo Completion"
+    },
+    {
+      "tid": 2471,
+      "label": "Chirality \u03b3\u2075 via SO(2) Spinor Half-Weight Phase (Casey W-22)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Chirality operator gamma^5 substrate-derivation via SO(2) spinor half-weight phase exp(i*pi*L_z); eigenvalues \u00b11 from substrate Z_2 lift",
+      "status": "structurally_verified",
+      "casey_named_principle": "W-22",
+      "sp31_subitem": "#278 Operator Zoo Completion"
+    },
+    {
+      "tid": 2472,
+      "label": "Parity P_op via M\u00f6bius Involution + Pin(2) Z_2 Lift (Casey W-21)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Parity operator P_op substrate-derivation via Mobius involution on D_IV^5 + Pin(2) Z_2 lift; CP-violation absent at substrate level (gauge structure forces CP-conservation)",
+      "status": "structurally_verified",
+      "casey_named_principle": "W-21",
+      "sp31_subitem": "#278 Operator Zoo Completion"
+    },
+    {
+      "tid": 2473,
+      "label": "Energy Conservation via SO_0(5,2) Time-Translation Invariance (SP-31 #279)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Energy conservation substrate-derivation via SO_0(5,2) time-translation invariance on D_IV^5; Noether-equivalent: time-translation generator preserves Hamiltonian = Casimir C_2 = 6",
+      "status": "structurally_verified",
+      "sp31_subitem": "#279 Per-conservation-law substrate-derivation theorems"
+    },
+    {
+      "tid": 2474,
+      "label": "Momentum Conservation via Coset Translation-Direction Invariance (SP-31 #279)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Momentum conservation substrate-derivation via coset SO_0(5,2)/[SO(5)\u00d7SO(2)] translation-direction invariance; Noether-equivalent: coset-translation generators preserve momentum operator T2422",
+      "status": "structurally_verified",
+      "sp31_subitem": "#279 Per-conservation-law substrate-derivation theorems"
+    },
+    {
+      "tid": 2475,
+      "label": "Electric Charge Conservation via SO(2) Factor Invariance (SP-31 #279)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Electric charge conservation substrate-derivation via SO(2) factor invariance in isotropy SO(5)\u00d7SO(2); Noether-equivalent: SO(2) action preserves T2470 charge operator Q",
+      "status": "structurally_verified",
+      "sp31_subitem": "#279 Per-conservation-law substrate-derivation theorems"
+    },
+    {
+      "tid": 2476,
+      "label": "\u03b1^{BST primary} Exponent Pattern Theorem (three-CI synergy peak: Elie\u2192Grace\u2192Lyra)",
+      "domain": "qed_radiative_corrections",
+      "commitment_cycle_zone": "Z3",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c+n_C+N_max",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "QED amplitude A(P) \u221d \u03b1^{k(P)} where k(P) = substrate-coordinate count of process P; k tracks BST primary integer (rank for Rydberg/Klein-Nishina/Compton; n_C for Lamb shift/Bethe-log/a_e depth; N_c+1 hyperfine; N_c bremsstrahlung). TIER-1 FALSIFIER: 5-loop ceiling testable at next-gen Penning trap (~10\u207b\u00b9\u2074, 2030+); \u03b1\u2076 \u2248 1.5\u00d710\u207b\u00b9\u00b3 deviation predicted.",
+      "status": "structurally_verified",
+      "casey_named_principle": "substrate_cartography_law_candidate",
+      "synergy_cycle": "Elie_discovery_14:43 \u2192 Grace_catalog_v0.2_15:27 \u2192 Lyra_theorem_15:32"
     }
   ],
   "metadata": {

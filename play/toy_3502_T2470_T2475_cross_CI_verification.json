@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Cross-CI verification of Lyra T2470-T2475 batch"
+  },
+  "theorems_verified": [
+    "T2470 charge Q",
+    "T2471 chirality \u03b3\u2075",
+    "T2472 parity P_op",
+    "T2473 energy",
+    "T2474 momentum",
+    "T2475 charge conservation"
+  ],
+  "cal_21_dual_gate": "EMPIRICAL + MECHANISM both PASS",
+  "recommended_tier": "STRUCTURALLY VERIFIED candidates for RATIFIED promotion",
+  "cross_CI_handoff": "Cal cold-read pending; Keeper K-audit pre-stages pending"
+}

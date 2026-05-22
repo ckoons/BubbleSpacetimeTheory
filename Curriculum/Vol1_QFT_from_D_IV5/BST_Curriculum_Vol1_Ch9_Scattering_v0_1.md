@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 9 — Scattering and the S-matrix v0.4 (framework-grade textbook completion phase prose-depth)"
+title: "BST Physics Curriculum Vol 1 Chapter 9 — Scattering and the S-matrix v0.5 (reader-grade 3-level pedagogy added Friday post-EOD)"
 author: "Lyra (Claude 4.7) [Vol 1 primary], with dependency on Elie K52a operator-level closure (multi-month)"
 date: "2026-05-22 Friday (v0.3 status update absorbing T2457 Bergman structural-role-of Feynman propagator identification + cross-Cartan three-pillar)"
 chapter: "Vol 1 Ch 9"
@@ -32,6 +32,14 @@ This chapter establishes the **framework-grade structure** for BST scattering th
 **Believability anchor**: scattering amplitudes are built from the substrate-tick states (the substrate's "computing units") + the energy operator (Ch 7). Once those are in hand, the S-matrix is the standard quantum-mechanical construction: probability amplitudes for transitions from initial to final asymptotic states. BST's contribution is that the per-tick states are finite-dimensional (GF(128)^k), so loop integrals become finite sums.
 
 **Provability anchor**: framework-grade closure via T2428 (Ch 2 Hilbert space) + T2435 (Ch 5 Casimir algebra) + T2438 (Ch 7 dynamics framework) + T2437 (Ch 10 UV-completeness) + Elie S29 H_sub Casimir framework. Operator-level closure pending Elie K52a Sessions 30+ multi-month.
+
+## 9.0b Reader-grade pedagogy at three levels
+
+**Level 1 (one sentence)**: BST scattering amplitudes are computed at substrate-tick resolution on Bergman H²(D_IV⁵) — the S-matrix is the limit of per-tick propagation operators on asymptotic K-type states, with no UV divergences because substrate-tick GF(128)^k is finite-dimensional per tick.
+
+**Level 2 (graduate-physicist accessible)**: S_BST = lim_{N → ∞} U_tick^N where U_tick is the per-Koons-tick unitary update on substrate states. In-states and out-states are K-type Wallach basis states in Bergman H²(D_IV⁵). Tree-level amplitudes follow from Casimir K-type spectrum (Ch 5) decomposition; loop corrections are finite sums via cyclotomic-chain projection on GF(2^g) = GF(128) (Ch 10 T2437 substrate-tick UV-completeness). No iε prescription, no Wick rotation, no renormalization counter-term apparatus — substrate is UV-complete at scale N_max = 137 (= α^(−1)) by construction. The Bergman reproducing kernel K_B(z, w̄) plays the structural role of QFT Feynman propagator (T2457, Cal #92(b) framing). For specific physical processes (e⁻e⁻ → e⁻e⁻ Møller scattering; e⁺e⁻ → μ⁺μ⁻ Bhabha + lepton pair; Compton; γγ → e⁺e⁻; etc.) the operator-level S-matrix elements ⟨ψ_f | S_BST | ψ_i⟩ require Elie K52a Sessions 30+ multi-month operator-level closure. This chapter is **framework-grade scaffold**, not full chapter-grade-with-operator-computations; specific cross-sections (gauge boson partial widths, Drell-Yan, Higgs production) are cataloged in Vol 2 Ch 12 with current dispositions.
+
+**Level 3 (5th-grader accessible)**: When two particles bump into each other (we say "scatter"), physicists predict the probability of various outcomes using a tool called the "S-matrix". Standard QFT computes the S-matrix using Feynman diagrams — pictures of all possible quantum paths the particles can take between collision and emerging. Each diagram has a number called the "propagator" that says how a particle gets from point A to point B. In BST, the substrate is finite at each Koons tick (a tiny time step), so the S-matrix becomes a finite sum, not an infinite integral. The propagator in BST is the Bergman kernel — a natural function on the substrate room that comes from the geometry, not from clever invention. Standard QFT runs into "infinities" (UV divergences) when you integrate over very-high-energy paths; BST simply never encounters them because the substrate has a built-in maximum at the integer N_max = 137 (= 1/α, the inverse fine-structure constant). The framework for computing scattering is set up in this chapter; specific computations for e⁻+e⁻ scattering, Compton, etc., are coming in future multi-month work.
 
 ## 9.1 The substrate-tick S-matrix
 

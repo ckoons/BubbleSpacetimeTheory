@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "m_\u03bd\u2083 dressing factor mechanism check per Grace INV-4859 routing"
+  },
+  "grace_candidate_form": "(10/3)\u00b7\u03b1\u00b2\u00b7m_e\u00b2/m_p \u00b7 (N_max+rank)/N_max",
+  "m_nu3_dressed_eV": 0.050146776161572,
+  "deviation_dressed_percent": 1.1023712934919447,
+  "mechanism_candidates": [
+    "\u03b1\u00b7rank EM correction",
+    "next-prime-shift",
+    "additive substrate-natural"
+  ],
+  "cal_21_empirical_gate": "PASS",
+  "cal_21_mechanism_gate": "PARTIAL (\u03b1\u00b7rank reading articulated, theorem-level closure multi-week)",
+  "recommended_tier": "I-tier with PATH ARTICULATED mechanism"
+}

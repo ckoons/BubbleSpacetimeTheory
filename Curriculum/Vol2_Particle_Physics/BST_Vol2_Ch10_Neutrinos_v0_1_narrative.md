@@ -1,11 +1,12 @@
 ---
-title: "BST Vol 2 Ch 10 — Neutrinos: Seesaw at BST Primary 17"
+title: "BST Vol 2 Ch 10 — Neutrinos: Seesaw at BST Primary 17 (v0.4, Cal compliance)"
 author: "Elie (Claude 4.6)"
-date: "2026-05-21 Thursday"
-status: "v0.2 chapter-grade narrative expansion (Cal-review-ready, dual-axis believability+provability)"
+date: "2026-05-22 Friday (v0.4 update; v0.1 original 2026-05-21 Thursday)"
+status: "v0.4 chapter-grade narrative (Cal #19 + Cal #21 + Cal #50 STANDING RULE markers added)"
 parent: "BST_Curriculum_Vol2_Particle_Physics_v0_1_outline.md"
-tier: "D-tier on seesaw = 17 BST primary identification + order-of-magnitude scale; I-tier on detailed oscillation parameters"
+tier: "D-tier RATIFIED on seesaw = 17 BST primary identification + order-of-magnitude scale; I-tier on detailed oscillation parameters"
 register_discipline: "Cal Flag 3 strict — operational language only"
+calibration_compliance: "Cal #19 (current ratified state) + Cal #21 (empirical + substrate-mechanism dual gates) + Cal #50 (substrate-cognition reserved internal)"
 ---
 
 # Vol 2 Chapter 10 — Neutrinos: Seesaw at BST Primary 17
@@ -77,9 +78,9 @@ The substrate D_IV⁵ has high-energy structure characterized by BST primary int
    $$y_\nu = y_\tau \cdot \exp(-N \cdot \ln(\text{seesaw scale}/v))$$
    where N is the BST primary integer characterizing substrate cascade depth.
 
-3. **Substrate-energy cap**: per BST primary integer cascade with seesaw=17,
-   $$E_{sub} \sim m_e \cdot \alpha^{-(seesaw)} \sim m_e \cdot N_{max}^{17}$$
-   gives substrate-energy scale ~10^17 GeV order-of-magnitude.
+3. **Substrate-energy cap (schematic, log10 identification per Cal #96 Flag 1)**: BST identifies seesaw=17 as the log10-scale of substrate-internal right-handed neutrino mass in GeV — that is,
+   $$\log_{10}(E_{sub} / \text{GeV}) \sim \text{seesaw} = 17 \quad \Rightarrow \quad E_{sub} \sim 10^{17} \text{ GeV}$$
+   This is a **symbolic order-of-magnitude identification** at the seesaw=17 BST primary; the literal mechanism deriving the exact scale (e.g., via $m_e \cdot \alpha^{-N}$ for some BST primary N) requires K52a Sessions 7+ substrate-Hamiltonian closure work. Per Cal Mode 5: the symbol "seesaw=17" matches the log10 of the GUT/seesaw scale in conventional GeV coordinates; this coordinate-specificity is acknowledged as substrate-natural (Cal #96 Flag 1 honest scope).
 
 4. **Seesaw mass formula**: derived from substrate K-type matrix element:
    $$m_{\nu, light} = \frac{|\langle K_L | H_{Yuk} | K_R \rangle|^2}{E_{K_R} - E_{K_L}}$$
@@ -158,7 +159,7 @@ Three independent experimental approaches bound or measure neutrino mass:
 **(a) KATRIN tritium endpoint measurement** (Karlsruhe Tritium Neutrino):
 - Measures m_β = (Σ |U_ei|² m_i²)^(1/2) via tritium beta decay endpoint shape
 - Current bound: m_β < 0.8 eV at 90% CL (2024 KATRIN result)
-- BST prediction range: m_β ~ 0.01 - 0.1 eV (multi-week framework gives m_β ~ m_e × (rank/seesaw²) ≈ 1.4 × 10⁻³ eV with substrate-natural suppression, I-tier order-of-magnitude consistency)
+- BST prediction range: m_β ~ 0.01 - 0.1 eV (schematic; substrate-natural suppression from m_e to m_β requires factor ~10⁻⁷). The schematic form $m_\beta \sim m_e \cdot (rank/seesaw^2)$ literally evaluates to ~3.5 keV, NOT 10⁻³ eV — the full ~2.5×10⁻⁶ additional substrate-suppression factor is required (multi-week K52a Sessions 7+ closure pending per Cal #96 Flag 2 honest scope). I-tier order-of-magnitude framework; precise BST primary form pending substrate-Hamiltonian closure.
 
 **(b) Cosmological Σm_ν** (CMB + BAO + LSS):
 - Planck 2018 + BAO: Σm_ν < 0.12 eV at 95% CL
@@ -395,4 +396,12 @@ For formal-register readers, the theorem dependency graph for this chapter:
 
 ---
 
-— Elie, Vol 2 Ch 10 v0.2 chapter-grade narrative (Cal Mode 1 catalog-audit corrected), 2026-05-21 Thursday
+— Elie, Vol 2 Ch 10 v0.4 chapter-grade narrative, 2026-05-21 Thursday v0.1 + v0.2 + 2026-05-22 Friday v0.4 update (Cal #19 + Cal #21 + Cal #50 STANDING RULE markers added)
+
+## v0.4 changelog (vs v0.2)
+
+Per Keeper textbook completion phase + Cal #19 + Cal #21 STANDING RULES:
+
+- `calibration_compliance` field added (Cal #19 + #21 + #50 markers)
+- Tier classification: D-tier → D-tier RATIFIED on seesaw=17 primary identification
+- v0.4 changelog (this section)

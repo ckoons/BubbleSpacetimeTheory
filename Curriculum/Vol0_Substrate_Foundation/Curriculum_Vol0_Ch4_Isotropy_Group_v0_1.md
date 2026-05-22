@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vol 0 Chapter 4 — Isotropy Group Structure (Chapter-Grade Draft v0.4 — Pin(2) Z_2 grading + spin-statistics absorption)"
+title: "Curriculum Vol 0 Chapter 4 — Isotropy Group Structure (Chapter-Grade Draft v0.5 — SO(5) vs coset Cartan decomposition fix V1)"
 author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
 date: "2026-05-21 Thursday 10:31 EDT initial; Friday 2026-05-22 ~10:40 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
 status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria including C1 (T2443) rank = 2 forcing. **Friday v0.4 additions** (Lyra Friday): Pin(2) Z_2 grading forced by rank=2 → spin-statistics structural derivation (Paper #133 v0.1) + T2433 + T2434 discrete symmetry operators (Thursday Lyra) — all inherit SO(5) × SO(2) × Pin(2) isotropy decomposition. Isotropy group structure foundationally underpins Friday's spin-statistics + operator zoo expansion (Paper #134) work."
@@ -21,6 +21,18 @@ Plus the full SO_0(5,2) group action gives time-translation generator (Hamiltoni
 
 This chapter explains the architecture. Vol 0 Ch 7 (Operator Zoo) and Ch 8 (Conservation Laws) build on this structure.
 
+**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate physicist can read this linearly. A 5th-grader can follow the intuition: **physics has the structure it has because the substrate has a specific symmetry group acting on it; the symmetry group's "decomposition" determines what kinds of physics are possible.** Per Friday T2443 RIGOROUSLY CLOSED (Lyra Thursday): rank = 2 forces Pin(2) Z_2 grading on D_IV⁵, which produces spin-statistics (bosons vs fermions) without requiring Lorentz invariance + microcausality axioms (Paper #133 Friday Lyra-lane).
+
+**Diagram preview** (v1.0): Section 4.1 will include (a) SO_0(5,2) → SO(5) × SO(2) isotropy decomposition diagram; (b) Pin(2) double cover Z_2 grading visualization (boson vs fermion sector); (c) Möbius involution generating parity P operator; (d) commutator algebra diagram showing P + T + C generators + their relations + CPT theorem.
+
+### Reader-grade 3-level pedagogy (v0.4 Friday absorption)
+
+**Level 1 (one sentence)**: the substrate's isotropy subgroup SO(5) × SO(2) × Möbius decomposes naturally into spacetime symmetries + internal symmetries + discrete symmetries — this decomposition IS what gives physics its standard organizational structure.
+
+**Level 2 (graduate physicist)**: D_IV⁵ = SO_0(5,2)/[SO(5) × SO(2)] has isotropy subgroup SO(5) × SO(2) plus a Möbius Z_2 involution from rank = 2 (T1925 + T2443 RIGOROUSLY CLOSED Thursday). The three-factor decomposition produces: SO(5) → spacetime observables (position, momentum, angular momentum, spin via reduction to SO(3) + SO(2)_t time); SO(2) → internal U(1) symmetries (electric charge, hypercharge, chirality via Pin(2) double-cover); Möbius involution → discrete symmetries (parity P from rank-2 grading; time reversal T from anti-unitary Klein operator T2433; charge conjugation C from K-type weight negation T2434). The full SO_0(5,2) action gives the Hamiltonian as time-translation generator (Casimir on L²-section per Elie K52a S29).
+
+**Level 3 (5th-grader)**: the substrate has a "symmetry group" that tells you what transformations leave the substrate looking the same. The symmetry group splits into three parts: (1) the spacetime part (SO(5)) — gives you rotations, momenta, etc.; (2) the internal-symmetry part (SO(2)) — gives you electric charge + chirality (left vs right); (3) the discrete-symmetry part (Möbius involution) — gives you parity (mirror reflection). Standard physics has all three types of symmetry, but it had to PICK them. BST shows they're forced by the substrate's structure — once you have D_IV⁵, the three symmetry types are automatic.
+
 ## Section 4.1 — The isotropy subgroup of D_IV⁵
 
 **D_IV⁵ = SO_0(5,2) / [SO(5) × SO(2)]**
@@ -40,20 +52,22 @@ The isotropy subgroup at a base point (e.g., origin of bounded domain realizatio
 
 ## Section 4.2 — SO(5) factor: spacetime-side observables
 
-The SO(5) factor of the isotropy subgroup is responsible for spacetime-related observables. SO(5) has 10 independent generators (5 translation generators + 10 rotation generators, but isotropy fixes one direction so 5 + 10 - 5 = 10).
+The SO(5) factor of the isotropy subgroup is responsible for spacetime-related observables. SO(5) is the rotation group of 5-dimensional Euclidean space; it has **dim SO(5) = 5·(5−1)/2 = 10 independent generators, all rotation/skew-symmetric** (no translation generators internal to SO(5) — translations live in the full coset SO_0(5,2)/[SO(5) × SO(2)], not in the isotropy subgroup itself).
 
-**Operators derived from SO(5) factor** (per Operator Zoo Promotion Ledger v0.1):
+**Position and momentum live in the coset directions**: the symmetric-pair decomposition so(5,2) = (so(5) ⊕ so(2)) ⊕ m, where m is the 10-dimensional complement (= n_C complex dimensions × 2 real, since n_C = 5 + cross-pair structure gives total dim m = 10), contains the **5+5 = 10 translation-like generators** that act as displacement operators on the base point. Position M_z and momentum P_z (Wirtinger derivative) on D_IV⁵ are constructed from these coset directions, not from SO(5) internal rotations.
+
+**Operators derived from the substrate SO(5) + coset structure** (per Operator Zoo Promotion Ledger v0.1):
 
 | Operator | Substrate anchor | Status |
 |---|---|---|
-| **Position X** | SO(5) translation generator on D_IV⁵ asymptotic directions | RATIFIED (T2419) |
-| **Momentum P** | SO(5) translation generator dual to position | RATIFIED (T2422) |
-| **Angular Momentum L** | 10 SO(5) rotation generators | RATIFIED (T2425, Lyra Task #247) |
-| **Spin S** | SO(5) intrinsic representation theory | RATIFIED (T2421) |
+| **Position X (= M_z)** | Coset translation-direction (m component of so(5,2) symmetric pair), multiplication by z on Bergman H²(D_IV⁵) | RATIFIED (T2419) |
+| **Momentum P (= P_z)** | Coset translation-direction dual to position; Wirtinger derivative ∂_z on Bergman H²(D_IV⁵) | RATIFIED (T2422) |
+| **Angular Momentum L** | 10 SO(5) rotation generators (the SO(5) factor itself) | RATIFIED (T2425, Lyra Task #247) |
+| **Spin S** | SO(5) × SO(2) intrinsic K-type representation theory (via Pin(2) Z_2 grading per rank=2) | RATIFIED (T2421) |
 
-These four are the **spacetime-side substrate observables**. They satisfy standard QM commutation relations [X, P] = iℏ via Bergman kernel reproducing property (substrate-derivation, not postulate).
+These four are the **spacetime-side substrate observables**. They satisfy standard QM commutation relations [X, P] = iℏ via Bergman kernel reproducing property (substrate-derivation, not postulate). Crucial discipline: X and P come from the **coset direction m ⊂ so(5,2) / (so(5) ⊕ so(2))**, while L comes from the **so(5) factor of the isotropy subalgebra**. The isotropy preserves the base point; the coset moves the base point. Both pieces of so(5,2) contribute, and the correct assignment is essential.
 
-**Why these specifically**: SO(5) is the spatial rotation/translation group of 5-dimensional Euclidean space. The base substrate is 5+2 dimensional (signature 5,2); the isotropy SO(5) preserves the 5-spatial dimensions, generating position/momentum/angular-momentum/spin in those dimensions.
+**Why these specifically**: SO(5) generates 5-dimensional Euclidean rotation symmetries. The coset displacement directions m ⊂ so(5,2) generate translations on D_IV⁵. The base substrate is 5+2-signature (so(5,2)); the isotropy SO(5) × SO(2) preserves the base point, while the 10-dim coset complement m generates displacement to other points. The substrate's Lie algebra split so(5,2) = (so(5) ⊕ so(2)) ⊕ m is the canonical Cartan decomposition that distinguishes position/momentum from angular momentum.
 
 **4D physical spacetime emerges from SO(5)**: the 5 spatial directions decompose as 3 + 2, with 3 = N_c BST primary (matching 3 physical spatial dimensions) and 2 = rank BST primary (matching the additional "internal" structure that appears as ... see SO(2) factor below).
 

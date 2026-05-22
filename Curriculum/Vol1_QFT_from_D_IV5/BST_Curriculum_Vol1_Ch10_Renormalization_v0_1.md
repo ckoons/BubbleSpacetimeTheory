@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 10 — Renormalization: Substrate-Tick Cutoff at N_max v0.4 (textbook completion phase prose-depth)"
+title: "BST Physics Curriculum Vol 1 Chapter 10 — Renormalization: Substrate-Tick Cutoff at N_max v0.5 (reader-grade 3-level pedagogy added Friday post-EOD)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
 date: "2026-05-22 Friday (v0.3 absorbing T2457 Bergman structural-role-of Feynman + T2460 N_max additive identity + four equivalent forms of N_max)"
 chapter: "Vol 1 Ch 10"
@@ -27,6 +27,14 @@ The chapter does four things:
 **Believability anchor**: BST has a built-in UV cutoff — the substrate ticks at a finite rate (Koons tick, ~10⁻¹²⁰ seconds) and produces 128^k states per tick. There's no infinity to renormalize away; just a finite tick computation. The fine-structure constant α = 1/137 is the cutoff scale; the cosmological constant Λ ≈ 10⁻¹²¹ emerges from the same substrate vacuum at a different limit.
 
 **Provability anchor**: T2437 (SP-31-10 substrate-tick UV-completeness, Lyra Thursday) + T2429 (RS GF(128)^k substrate-tick discretization, Lyra Thursday SP-31-1) + T1485 (cosmological Λ formula, existing BST) + T2418 (Casimir-Λ structural unification, Lyra Wednesday) + K59 (cyclotomic mechanism framework RATIFIED Tuesday). Lyra Toy 3214 (8/8 PASS Thursday).
+
+## 10.0b Reader-grade pedagogy at three levels
+
+**Level 1 (one sentence)**: BST does not need standard QFT renormalization because the substrate is UV-complete by construction — per-tick Hilbert space is finite-dimensional GF(128)^k, with natural cutoff at N_max = 137 (= α^(−1)), so renormalization-group "flow" becomes a finite 7-step cyclotomic chain on Mersenne field GF(2^g) = GF(2^7).
+
+**Level 2 (graduate-physicist accessible)**: T2429 establishes per-Koons-tick substrate Hilbert space = GF(2^g)^k = GF(128)^k, finite-dimensional. T2437 (SP-31-10) proves substrate-tick UV-completeness — every per-tick computation finite-step, no momentum cutoff Λ to remove. T2447 gives N_max = N_c³ · n_C + rank = 27 · 5 + 2 = 137 = α^(−1) (fine-structure constant inverse, T2460 four equivalent BST primary algebraic forms: Hilbert polynomial + Mersenne tower additive identity + universal α-analog + (M_g = 127) + (g = 7) + (N_c = 3) cumulative). RG flow becomes a 7-step cyclotomic projection chain on GF(128) per K59 cyclotomic mechanism RATIFIED — g = 7 Mersenne exponent ↔ 7 steps. T2418 cosmological constant Λ ≈ 10⁻¹²¹ emerges from same substrate vacuum at outer-edge Zone-4 limit (T2420 four-zone decomposition); Casimir-Λ structural unification: experimental Casimir + cosmological Λ share substrate vacuum at different scales. Bergman reproducing kernel positive-definite by Bergman 1922 — no iε prescription required for propagator convergence (T2457, Cal #92(b) framing). c_FK · π^((g+rank)/rank) = (N_c · n_C)² = 225 EXACT (T2442 RIGOROUSLY CLOSED). Substrate-cutoff structure is over-determined via 4 independent algebraic forms of N_max.
+
+**Level 3 (5th-grader accessible)**: Standard physics has a famous problem: when you compute particle interactions, the math sometimes gives you infinity. Physicists invented "renormalization" — a clever trick where you subtract one infinity from another to get a finite answer. It works, but it's ugly. BST doesn't have this problem at all. The substrate's "computing memory" at each tiny time-step is FINITE — exactly 128 states (= 2^7, where 7 is the BST integer g). The substrate has a built-in maximum at the number 137 (= 27·5 + 2 from BST integers N_c³ · n_C + rank), which is exactly 1/α where α is the famous "fine-structure constant" you've heard physicists obsess about. The number 137 is not chosen; it's forced by the substrate's geometry, and it's the natural place where the substrate's calculations stop needing more precision. "Renormalization group flow" — a continuous-looking process in standard physics — becomes in BST a FINITE 7-step procedure on the GF(128) substrate field. (Why 7? Because g = 7 in BST primaries.) Even the famous "cosmological constant problem" (the universe's vacuum energy density Λ ≈ 10⁻¹²¹ being weird) falls out of the same substrate at a different limit. One cutoff, many physics problems solved at once.
 
 ## 10.1 The substrate is UV-complete
 

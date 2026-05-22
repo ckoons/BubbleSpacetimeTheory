@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 2 — The Substrate Hilbert Space v0.4 (textbook completion phase prose-depth)"
+title: "BST Physics Curriculum Vol 1 Chapter 2 — The Substrate Hilbert Space v0.5 (reader-grade 3-level pedagogy added Friday post-EOD)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
 date: "2026-05-22 Friday (v0.3 absorbing T2457 Bergman structural-role-of Feynman propagator + Paper #127 standalone cross-link)"
 chapter: "Vol 1 Ch 2"
@@ -24,6 +24,14 @@ The chapter does three things:
 **Believability anchor**: The substrate is a bounded "room" (D_IV⁵ is a bounded complex manifold). Inside that room there is a unique space of "well-behaved functions" — the Bergman space — and quantum mechanics happens on that space. Three classical theorems from 1922, 1976, and 1994 tell us this is the right space; we don't choose it.
 
 **Provability anchor**: T2428 (Bergman H²(D_IV⁵) substrate Hilbert space sufficiency) + T2429 (RS GF(128)^k substrate-tick discretization) + T2430 (L²-section equivariant complement). Lyra Toy 3198 (8/8 PASS Thursday). Elie Toy 3202 cross-lane verification (8/8 PASS Thursday).
+
+## 2.0b Reader-grade pedagogy at three levels
+
+**Level 1 (one sentence)**: Every quantum-mechanical observable in BST lives in a single Hilbert space — the Bergman space of square-integrable holomorphic functions on the substrate D_IV⁵ — and the reproducing kernel of that space plays the structural role that the Feynman propagator plays in standard QFT.
+
+**Level 2 (graduate-physicist accessible)**: D_IV⁵ ⊂ ℂ⁵ is a bounded 5-complex-dimensional manifold. The Bergman space H²(D_IV⁵) is the unique separable Hilbert space of holomorphic L²-functions, with a reproducing kernel K_B(z, w̄) = c_FK · h(z, w̄)^(−g/rank) where h is the generic norm, g/rank = 7/2 is the Bergman exponent, and c_FK · π^((g+rank)/rank) = (N_c·n_C)² = 225 EXACT (T2442 RIGOROUSLY CLOSED). The space has two complementary derived views: (a) Reed-Solomon GF(128)^k substrate-tick discretization (per-tick layer; substrate operates on GF(2^g) = GF(128) per Koons tick of ~10⁻¹²⁰ s, T2405); (b) L²-section equivariant complement over D_IV⁵ → SO_0(5,2)/[SO(5)×SO(2)] (representation-theoretic layer with Wallach K-type decomposition). Three Cartan-Helgason classical theorems (Bergman 1922 + Wallach 1976 + Faraut-Koranyi 1994) force the choice — no alternative reproducing-kernel Hilbert space exists on D_IV⁵ with the substrate-coherent normalization.
+
+**Level 3 (5th-grader accessible)**: Imagine a special 5-dimensional bounded "room" (the substrate). Inside this room there is a single "best" collection of mathematical functions — smooth ones that don't blow up, called the Bergman space. Quantum mechanics happens on this collection. There is one special function in this collection, called the reproducing kernel, that has the magic property: if you know any other function at every point in the room, the reproducing kernel "tells you back" the value of that function at any single point you ask about. This kernel is the BST version of what physicists call the "propagator" — the thing that says how a particle gets from point A to point B. In standard physics, the propagator is a clever construction; in BST, it falls out of the geometry of the room automatically, and its size is exactly (3·5)² ÷ π^(9/2) = 225 ÷ π^(9/2) — a number built only from the BST integers 3, 5, 7, and 2.
 
 ## 2.1 Bergman H²(D_IV⁵): the canonical anchor
 

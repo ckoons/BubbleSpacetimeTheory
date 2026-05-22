@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Task #244 Two cluster TYPES in Graph Forces taxonomy"
+  },
+  "cluster_count": 8,
+  "type_I_count": 8,
+  "type_II_count": 1,
+  "type_I_definition": "Pure BST primary integer power/product (substrate-tree-level)",
+  "type_II_definition": "Substrate-emergent ratio with \u03b1/transcendental (substrate-loop-corrected)",
+  "cal_21_alignment": "TYPE I = D-tier RATIFIED tree-level; TYPE II = I-tier CANDIDATE loop-corrected",
+  "strong_uniqueness_C17_refinement": "C17a (TYPE I tree-level) + C17b (TYPE II loop-level)"
+}

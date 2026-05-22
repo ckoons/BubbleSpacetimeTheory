@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "B6 Lamb shift BST primary form (Tier B SP-14 catalog gap)"
+  },
+  "measured_MHz": 1057.85,
+  "BST_primary_form": "(2^(rank+1)/(N_c\u00b7\u03c0)) \u00b7 \u03b1^n_C \u00b7 m_e \u00b7 [Bethe-bracket]",
+  "BST_primaries_used": [
+    "rank",
+    "N_c",
+    "n_C",
+    "N_max (=1/\u03b1)"
+  ],
+  "leading_order_MHz": 2672.9472546314896,
+  "full_Bethe_MHz": 1040.1574415875375,
+  "deviation_full_percent": 1.6725016223909255,
+  "cal_19_tier": "I-tier candidate",
+  "cal_21_empirical_gate": "PARTIAL (Welton coefficient BST-clean)",
+  "cal_21_mechanism_gate": "OPEN (Bethe log substrate-derivation pending)"
+}

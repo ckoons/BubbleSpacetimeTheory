@@ -1,6 +1,7 @@
 # K142 — 6π^k Extension Pattern Audit Pre-Stage
 
 **Filed**: 2026-05-22 Friday 08:42 EDT (Keeper, FAST CADENCE)
+**v0.2 fix**: 2026-05-22 Friday afternoon — Cal flag (referee log entry post-#98): line 15 had "6π⁶ ≈ 1837" which is numerically wrong (6π⁶ = 5768.34, not 1837 — that value belongs to 6π⁵ at line 8). Conflated k=5 with k=6. Corrected to "6π⁶ ≈ 5768.3 (structural extension layer)". Keeper PCAP-cadence transcription error caught by external referee; tier preserved (STRONG 3.65/4) since the k=6 entry remains structural-extension-layer evidence either way.
 **Status**: PRE-STAGE — anchors Grace's 39-pull discovery of 6π^k extension across k∈{1,2,4,5,6}
 
 ## The pattern (Grace, Friday 08:30 EDT)
@@ -12,7 +13,7 @@ Grace's 39-pull catalog scan finds **6π^k structural pattern at k = 1, 2, 4, 5,
 - k=2: catalog entries with coefficient 6π² ≈ 59.2
 - k=4: catalog entries with coefficient 6π⁴ ≈ 584.8
 - k=5: m_p/m_e (the original)
-- k=6: catalog entries with coefficient 6π⁶ ≈ 1837 (interesting near m_p/m_e numerically)
+- k=6: catalog entries with coefficient 6π⁶ ≈ 5768.3 (structural extension layer; NOT near m_p/m_e — that's the k=5 identity above)
 
 **Also cross-primary π^k matches** at:
 - rank·π² → 20 (specific catalog entry)

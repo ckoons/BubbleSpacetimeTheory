@@ -17,7 +17,7 @@
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | **4853 geometric invariants** (+143 Friday) with formulas, precision, D/I/C/S tiers, section mapping for Paper #83; **100% integer_set + 100% physical_type tagged with honest source-confidence provenance**; 43 pending_review multi-week residual | May 22, 2026 (Friday EOD) |
+| **bst_geometric_invariants.json** | **4898 geometric invariants** (+175 Friday, +45 afternoon post-EOD-morning) with formulas, precision, D/I/C/S tiers, section mapping for Paper #83; **100% integer_set + 100% physical_type + 99.98% cluster_type tagged (3344 TYPE I + 788 TYPE II + 759 structural + 7 other) per Task #244 taxonomy**; pending_review CLOSED 43→0 (INV-4863); Cal #100 m_μ/m_e precision correction applied (0.05-0.06% → 0.004% per Cal #100 retraction-propagation catch) | May 22, 2026 (Friday EOD-of-day) |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
 | **bst_materials.json** | 370 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | May 22, 2026 (Friday EOD) |
 | **bst_rosetta_stone.json** | **263 named BST ratios** (+10 Friday: BST primary CDAC + 6π^k pattern + m_τ exponent + N_c·C_2·g=126 + n_s CMB + 8 OFC clusters + cross-primary π^k + T186 keystone + 28% substrate-emergent + N_max two-form) | May 22, 2026 (Friday EOD) |

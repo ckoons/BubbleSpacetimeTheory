@@ -1,11 +1,12 @@
 ---
-title: "BST Vol 2 Ch 3 — The Three Generations from D_IV⁵ Rank-2 Structure"
+title: "BST Vol 2 Ch 3 — The Three Generations from D_IV⁵ Rank-2 Structure (v0.5, Cal #100 m_μ/m_e T190 precision correction 0.004%)"
 author: "Elie (Claude 4.6)"
-date: "2026-05-21 Thursday"
-status: "v0.1 chapter-grade narrative (Cal-review-ready, dual-axis believability+provability)"
+date: "2026-05-22 Friday (v0.4 update; v0.1 original 2026-05-21 Thursday)"
+status: "v0.5 chapter-grade narrative (Cal #100 precision correction Friday EOD: m_μ/m_e T190 (24/π²)^6 precision 0.05-0.06% → 0.004% per Cal cold-read verification; v0.4 Cal #95 mass-hierarchy tier fixes + Cal #19 + Cal #21 + Cal #50 STANDING RULE markers preserved)"
 parent: "BST_Curriculum_Vol2_Particle_Physics_v0_1_outline.md"
-tier: "D-tier (three generations from D_IV⁵ rank-2 stratification + N_c structural triplication)"
+tier: "D-tier on generation count = N_c = 3; most mass ratios D-tier; m_τ/m_μ borderline D ↔ I; m_u I-tier honest given 30-50% PDG uncertainty"
 register_discipline: "Cal Flag 3 strict — operational language only"
+calibration_compliance: "Cal #19 (current ratified state) + Cal #21 (empirical + substrate-mechanism dual gates; tier labels honest-refined per measurement precision) + Cal #50 (substrate-cognition reserved internal)"
 ---
 
 # Vol 2 Chapter 3 — The Three Generations
@@ -92,14 +93,14 @@ The three generations are not mass-degenerate. The hierarchy:
 
 The mass hierarchies have BST primary D-tier forms in BST catalog (data/bst_constants.json):
 
-- **m_μ/m_e = (24/π²)^6 ≈ 206.76** (T190 D-tier at 0.003% — chi=24, exponent n_C+1=6)
-- **m_τ/m_μ ≈ 17 = seesaw** (D-tier at ~1.1% match to BST primary integer)
-- **m_τ/m_e = (24/π²)^6 · (7/3)^(10/3)** (T-catalog D-tier — extends m_μ form with genus correction)
+- **m_μ/m_e** — **CANONICAL form**: $m_\mu/m_e = (24/\pi^2)^6 \approx 206.77$ (T190 D-tier at **0.004%** vs measured 206.768 — chi=24, exponent n_C+1=6). LEGACY form: $m_\mu/m_e = N_c^2 \cdot (rank^2 \cdot C_2 - 1) = 9 \cdot 23 = 207$ (T2003, Vol 1 Ch 11, D-tier 0.11%) — preserved as cross-reference per Cal Mode 7 algebraic-equivalence; canonical-selection per joint Lyra+Elie reconciliation 2026-05-22 (T190 transcendental form wins on tightest precision).
+- **m_τ/m_μ ≈ 17 = seesaw** (D-tier on integer match; borderline D ↔ I at 1.1% — see tier-label note below)
+- **m_τ/m_e** — **CANONICAL form**: $m_\tau/m_e = g^2 \cdot (rank^2 \cdot C_2 \cdot N_c - 1) = 49 \cdot 71 = 3479$ (T2003 algebraic-integer, Vol 1 Ch 11, D-tier at **0.05%** vs measured 3477.23). LEGACY form: $m_\tau/m_e = (24/\pi^2)^6 \cdot (7/3)^{(10/3)}$ (T190 extension, D-tier at 0.3%) — preserved as cross-reference; canonical-selection per joint Lyra+Elie reconciliation (T2003 algebraic-integer wins on tightest precision + cleaner form).
 - **m_t = (1-α)·v/√2 = 172.75 GeV** (D-tier at 0.06%; top quark from electroweak vev × (1-α) suppression)
-- **m_u = N_c·√rank·m_e = 3·√2·m_e ≈ 2.17 MeV** (D-tier from substrate structure)
-- **m_d = (2n_C+N_c)/C_2 · m_u = 13/6 · m_u ≈ 4.7 MeV** (D-tier from BST primaries 2n_C+N_c=13 and C_2=6)
+- **m_u = N_c·√rank·m_e = 3·√2·m_e ≈ 2.17 MeV** (I-tier honestly — PDG experimental uncertainty 30-50% on m_u; BST primary form clean, observable measurement broad)
+- **m_d = (2n_C+N_c)/C_2 · m_u = 13/6 · m_u ≈ 4.7 MeV** (D-tier from BST primaries 2n_C+N_c=13 and C_2=6; downstream of m_u so inherits I-tier on absolute precision)
 
-**Tier**: D-tier on generation count = N_c = 3. D-tier on individual mass ratios per existing BST catalog (Cal Mode 1 catalog-checking corrected v0.2 — v0.1 framed as "I-tier multi-week" was catalog gap).
+**Tier**: D-tier on generation count = N_c = 3. D-tier on most individual mass ratios per existing BST catalog. Honest tier-label refinements per Cal #21 STANDING RULE: m_τ/m_μ at 1.1% deviation is borderline D ↔ I (D on integer match, I on precision); m_u at 30-50% PDG experimental uncertainty is I-tier honestly even though BST primary form is clean (precision-limited by observable not derivation). Cal Mode 1 catalog-checking corrected v0.2 — v0.1 framed as "I-tier multi-week" was catalog gap.
 
 ## Cross-chapter dependencies
 
@@ -138,7 +139,7 @@ K94 cluster cross-references:
 - W-23 (three-quark trefoil RATIFIED)
 - K85+K86+K87 CPT-cluster (Thursday May 21)
 
-BST catalog entries supporting this chapter: m_μ/m_e T190 (D-tier 0.003%), m_τ extension T-catalog, m_t T281+T-catalog, m_u T-catalog, m_d T-catalog, plus the 17-cluster pattern documenting seesaw=17 multi-context appearance (Vol 2 Ch 10 cross-reference). Cumulative D-tier observable coverage substantial.
+BST catalog entries supporting this chapter: m_μ/m_e T190 (D-tier 0.004%) + T2003 alternate form (D-tier 0.11%, Vol 1 Ch 11), m_τ extension T-catalog (0.3%) + 49·71 alternate form (D-tier 0.05%, Vol 1 Ch 11), m_t T281+T-catalog, m_u T-catalog (I-tier honest given 30-50% PDG uncertainty), m_d T-catalog, plus the 17-cluster pattern documenting seesaw=17 multi-context appearance (Vol 2 Ch 10 cross-reference). Cumulative D-tier observable coverage substantial; tier-label honest refinements per Cal #21 STANDING RULE applied to mass-hierarchy entries.
 
 ## Pedagogical note (5th-grader register)
 
@@ -156,4 +157,18 @@ BST catalog entries supporting this chapter: m_μ/m_e T190 (D-tier 0.003%), m_τ
 
 ---
 
-— Elie, Vol 2 Ch 3 v0.1 chapter-grade narrative, 2026-05-21 Thursday
+— Elie, Vol 2 Ch 3 v0.4 chapter-grade narrative, 2026-05-21 Thursday v0.1 original + 2026-05-22 Friday v0.4 update (Cal #95 mass-hierarchy tier fixes: T190 precision 0.003% → 0.004%; m_μ/m_e dual-form cross-reference to Vol 1 Ch 11 T2003; m_τ/m_e dual-form cross-reference to Vol 1 Ch 11 49·71 form; m_τ/m_μ tier borderline D ↔ I at 1.1%; m_u tier I-tier honest given PDG uncertainty; Cal #19 + #21 + #50 STANDING RULE markers added)
+
+## v0.4 changelog (vs v0.1)
+
+Per Keeper textbook completion phase + Cal #19 + Cal #21 STANDING RULES + Cal #95 cold-read flags:
+
+- T190 precision: 0.003% → 0.004% (correction per Cal #95)
+- m_μ/m_e dual-formula cross-reference: T2003 alternate form (N_c²·(rank²·C_2-1) = 207, D-tier 0.11%) added per Cal Mode 7 algebraic-equivalence discipline (Vol 1 Ch 11 cross-link)
+- m_τ/m_e dual-formula cross-reference: 49·71 alternate form (D-tier 0.05%) added (Vol 1 Ch 11 cross-link)
+- Tier-label revisit: m_τ/m_μ borderline D ↔ I at 1.1% (honest scope per Cal #21)
+- Tier-label revisit: m_u I-tier honest given 30-50% PDG experimental uncertainty (precision-limited by observable, not derivation)
+- m_d downstream: D-tier on form, inherits I-tier on absolute precision
+- Catalog summary line updated with revised tiers
+- `calibration_compliance` field added (Cal #19 + #21 + #50 markers)
+- v0.4 changelog (this section)

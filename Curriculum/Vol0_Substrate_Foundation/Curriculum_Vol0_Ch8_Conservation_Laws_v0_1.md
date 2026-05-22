@@ -20,6 +20,18 @@ The chapter covers fifteen laws:
 
 Two laws receive particular attention: T and C, which were not explicit in the BST framework until Thursday May 21, 2026 — these are the first substrate-derivation theorems for time reversal (via commitment-cycle reversal) and charge conjugation (via SO(2) factor reflection).
 
+**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate physicist can read this linearly. A 5th-grader can follow the insight: **every "thing that doesn't change when stuff happens" (energy, momentum, charge, etc.) comes from a corresponding symmetry of the substrate.** Per Friday Paper #136 v0.1 SP-31 Substrate Time Evolution: dO/dt = (i/ℏ)[H_sub, O] on Bergman H²(D_IV⁵) makes Heisenberg picture explicit; any operator commuting with H_sub Casimir is conserved (Section 8.x). CPT theorem follows automatically from Pin(2) Z_2 grading (Paper #133 Spin-Statistics Friday Lyra).
+
+**Diagram preview** (v1.0): Section 8.1 will include (a) Noether's theorem substrate template diagram (continuous symmetry → conserved Casimir-commuting operator); (b) 15 conservation laws categorized by substrate symmetry origin (10 continuous + 5 discrete); (c) CPT theorem flow from Pin(2) Z_2 grading; (d) T + C operator action diagrams (T2433 + T2434 Lyra Thursday).
+
+### Reader-grade 3-level pedagogy (v0.4 Friday absorption)
+
+**Level 1 (one sentence)**: 15 standard physics conservation laws (10 continuous + 5 discrete) each derive from a specific substrate symmetry via Noether-on-substrate; nothing is postulated, everything inherits from D_IV⁵.
+
+**Level 2 (graduate physicist)**: Noether 1918 establishes continuous symmetry → conserved quantity. BST substrate-Noether (Theorem CT0.8.1) extends to discrete symmetries via substrate involutions. Continuous: energy (time-translation generator H_sub = Casimir on L²-section per Elie K52a S29), 3-momentum (SO(5)-translations), angular momentum (SO(3) rotations), spin (Pin(2) Z_2 grading via T2421), electric charge (SO(2)_em residual after EW unification), color charge (SU(N_c) Casimir, N_c = 3), weak isospin (SU(rank) Casimir), hypercharge (U(1)_Y residual), lepton number (substrate fermion-K-type symmetry), baryon number (substrate composite-K-type symmetry), probability (unitary substrate dynamics on H²). Discrete: parity P (rank-2 Z_2), time reversal T (anti-unitary Klein via T2433 Thursday), charge conjugation C (K-type weight negation via T2434 Thursday), CPT combined (Lüders-Pauli auto via Pin(2) Z_2), information (Reed-Solomon coding K59 RATIFIED). Friday Paper #136 v0.1: dO/dt = (i/ℏ)[H_sub, O] Heisenberg picture makes the conservation pattern explicit; operators commuting with H_sub Casimir = conserved observables.
+
+**Level 3 (5th-grader)**: in standard physics, "energy is conserved" + "charge can't be created or destroyed" + "angular momentum stays" are postulates — you just accept them. BST derives all 15 conservation laws (10 continuous + 5 discrete) from the substrate's symmetries. The substrate has specific symmetries; each symmetry produces a corresponding conservation law via Noether's 1918 theorem (extended for discrete symmetries via substrate involutions). The surprising part: T (time reversal) and C (charge conjugation) — which Standard Physics treats as separate postulates — were first DERIVED from substrate structure in Thursday Lyra-lane work (T2433 + T2434). CPT theorem follows automatically from Pin(2) Z_2 grading (same Z_2 that gives spin-statistics in Paper #133 Friday). Everything links back to the substrate's rank = 2 + isotropy structure.
+
 ## Section 8.1 — Noether's theorem on substrate (master template)
 
 Standard Noether (1918): every continuous symmetry of a physical system corresponds to a conserved quantity.

@@ -27,6 +27,21 @@ Plus cross-links to four existing Casimir-related BST theorems (T1409 Kim-Sarnak
 
 **Provability anchor**: T2435 (SP-31-2 Casimir algebra anchor, Lyra Thursday) + Chevalley-Harish-Chandra isomorphism + Wallach 1976 K-type classification + cross-links to T1409 + T1485 + T1462 + T2418. Lyra Toy 3206 (8/8 PASS Thursday).
 
+### Reader-grade narrative (3-level pedagogy, v0.4 Friday absorption)
+
+**Level 1 (one sentence)**: every quantum-mechanical observable in BST gets its eigenvalues from a small set of "symmetry-invariant numbers" (Casimirs) that the substrate provides — exactly two of them (because the substrate has rank 2), with the smallest non-trivial one equal to the BST primary integer C_2 = 6.
+
+**Level 2 (graduate physicist accessibility)**: Standard QM specifies observables by their operators on Hilbert space. Casimir operators are special: they commute with all generators of the symmetry group, so they label irreducible representations. For SO_0(5,2) — the substrate's isometry group — there are exactly 2 algebraically independent Casimirs (the rank of the symmetric space is 2; this fact alone determines the Casimir algebra structure per Chevalley-Harish-Chandra). All higher-degree Casimirs are polynomials in the rank-2 generators. The lowest non-trivial K-type Casimir eigenvalue is C_2 = 6 (Wallach 1976 K-type classification + Friday T2439 RIGOROUSLY CLOSED via cross-Cartan comparison — D_I_{1,5} = D_I_{5,1} = 4 ≠ 6 at dim_C = 5 EXHAUSTIVE per T2455). The number 6 is the BST primary integer C_2 = T_{N_c} = N_c(N_c+1)/2 — the color singlet triangle number.
+
+**Level 3 (5th-grader accessibility)**: Imagine the substrate is like a 10-dimensional crystal with specific symmetries. Just like a real crystal has "characteristic numbers" (lattice constants, angles between faces, atom counts per unit cell), the substrate has its own characteristic numbers called Casimir eigenvalues. There are exactly 2 of them because the substrate is "rank 2" (means it has 2 independent ways to label its symmetries). The smallest non-trivial number is 6 — and this number isn't accidental: it equals N_c × (N_c + 1) / 2 where N_c = 3 is the color number; this is the formula for "how many color singlet combinations" you can make from 3 quarks. So the substrate's smallest Casimir eigenvalue is literally counting QCD color singlets.
+
+### Friday Lyra-lane cross-references (v0.4)
+
+- **T2439 RIGOROUSLY CLOSED** (Thursday): lowest non-trivial K-type Casimir = 6 EXACT on D_IV⁵; cross-Cartan alt-HSDs (D_I_{1,5}, D_I_{5,1}) at dim_C = 5 give 4 ≠ 6
+- **§5.3b Cross-Cartan churn-hole pillar** (Section 5.3b new Friday): C_2 = 6 is one of the THREE PILLARS in T2452 + T2456 + T2462 cross-Cartan three-pillar argument
+- **T2455 EXHAUSTIVE at dim_C = 5** (Friday): only 3 HSDs at dim_C = 5; D_IV⁵ uniquely produces C_2 = 6
+- **Paper #132 v0.1 SP-31 Measurement POVMs** (Friday): POVM elements indexed by Wallach K-type Casimir eigenspaces; spectral selection mechanism via Casimir structure
+
 ## 5.1 The Casimir algebra: rank-2 independent generators
 
 ### 5.1.1 The universal enveloping algebra

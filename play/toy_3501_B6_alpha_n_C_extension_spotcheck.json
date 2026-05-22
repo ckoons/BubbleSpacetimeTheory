@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "B6 Lamb shift \u03b1^n_C extension spot-check"
+  },
+  "observables_checked": [
+    "Bohr radius",
+    "Rydberg",
+    "Klein-Nishina",
+    "Hyperfine",
+    "Lamb shift",
+    "a_e"
+  ],
+  "alpha_exponent_pattern": {
+    "rank=2 dominant": [
+      "Rydberg \u03b1\u00b2",
+      "Klein-Nishina \u03b1\u00b2",
+      "Hyperfine \u03b1^{rank\u00b2}=\u03b1^4"
+    ],
+    "n_C=5 emerges": [
+      "Lamb shift \u03b1^{n_C}=\u03b1^5",
+      "a_e 5-loop depth = n_C"
+    ]
+  },
+  "hypothesis": "BST primary integers index natural \u03b1-exponents in EM observables",
+  "cross_CI_handoff": "Grace INV-4867 multi-week survey + Lyra theorem candidate Sessions 17+"
+}

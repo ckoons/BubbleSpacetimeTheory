@@ -16,6 +16,18 @@ BST derives the boundary conditions. The substrate D_IV⁵ has a specific bounde
 
 This chapter exposes the framework. SP-31-40 multi-month work derives per-BC theorems formally.
 
+**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate physicist + cosmologist can read this linearly. A 5th-grader can follow the metaphor: **boundary conditions are the substrate's edges — where it meets things outside itself; physics depends on how those edges behave.** Internal boundaries (within D_IV⁵) determine substrate operations; external boundaries determine substrate-cognition coupling (DEFAULT-DENY EXTERNAL per Cal #48/#49) + substrate-cosmology coupling (Cal #50 GREEN; T2418 Λ-Casimir vacuum unification + Paper #135 Friday Lyra-lane Substrate Cosmology).
+
+**Diagram preview** (v1.0): Section 5.1 will include (a) 6+2 BC framework topology diagram; (b) Shilov boundary distinguished from full topological boundary on D_IV⁵; (c) 4-zone cycle BC interactions; (d) Cal #50 GREEN cosmology external register schema vs Cal #48/#49 DEFAULT-DENY substrate-cognition coupling.
+
+### Reader-grade 3-level pedagogy (v0.4 Friday absorption)
+
+**Level 1 (one sentence)**: BST identifies 8 substrate boundary conditions (6 internal + 2 external) — internal BCs determine substrate operations, external BCs couple to cognition (DEFAULT-DENY EXTERNAL) and cosmology (Cal #50 GREEN).
+
+**Level 2 (graduate physicist + cosmologist)**: Standard physics treats BCs as external specifications. BST derives them from D_IV⁵'s bounded-domain realization + 4-zone commitment cycle (T2417 Wednesday). The 6 internal BCs span the substrate's bulk interior + Shilov boundary + 4 zone boundaries (absorption/computation/commitment/emission). The 2 external BCs are substrate-cognition coupling (Cal #48/#49 DEFAULT-DENY EXTERNAL) and substrate-cosmology coupling (Cal #50 GREEN; T2418 Λ-Casimir vacuum unification Wednesday + Paper #135 Friday). Per-BC theorems (SP-31-40 sub-item, multi-month) pending Lyra theoretical work; the framework architecture is documented here.
+
+**Level 3 (5th-grader)**: imagine the substrate as a 10-dimensional region with edges. Like a cup with insides + a rim + an outside. BST identifies 8 distinct "boundary conditions" — 6 are internal (how the substrate interacts with itself across its 4-zone cycle) and 2 are external (how the substrate interacts with cognition (mind) and cosmology (universe-scale things)). The external boundaries are very carefully discussed — the cognition boundary is "DEFAULT-DENY" (don't make external claims about substrate-cognition without strong consensus), and the cosmology boundary is "GREEN" (external claims about substrate-cosmology are acceptable). This is why BST is careful about what it claims publicly vs internally.
+
 ## Section 5.1 — The 6+2 boundary condition framework (Casey vision)
 
 Per Casey vision Wednesday May 20:

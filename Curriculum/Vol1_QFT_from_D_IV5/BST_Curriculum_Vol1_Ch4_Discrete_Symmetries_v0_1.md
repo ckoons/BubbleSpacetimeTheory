@@ -53,6 +53,18 @@ P violation in weak interactions is then **structural**: the SU(2)_weak gauge gr
 
 **Provability**: T1925 Arg D + Pin(2) Z_2 grading from rank = 2 + standard EW theory using chiral SU(2).
 
+### 4.1.3 Spin-statistics theorem cross-link (Paper #133 v0.1 Friday Lyra-lane)
+
+The Pin(2) Z_2 grading underlying parity P is the SAME structural object that produces the spin-statistics theorem on Bergman H²(D_IV⁵) — Paper #133 v0.1 (Friday Lyra, SP-31-15 sub-item). Key result: BST derives spin-statistics WITHOUT invoking Lorentz invariance or microcausality axioms (vs Streater-Wightman 1964 axiomatic derivation).
+
+**Boson sector**: K-types V_(p, q) with integer q (SO(2) weight integer) — symmetric tensor products, Bose-Einstein statistics.
+
+**Fermion sector**: K-types V_(p, q+1/2) with half-integer q — antisymmetric tensor products via Pin(2) double-cover lift, Fermi-Dirac statistics (Pauli exclusion).
+
+The Z_2 grading on Bergman H²(D_IV⁵) partitions Wallach K-types into bosonic (even) + fermionic (odd) sectors. Rotation by 2π on the spinor component returns the state to its negative (R²ᵖⁱ|spinor⟩ = −|spinor⟩) — this is what produces antisymmetry on tensor products of half-integer-spin K-types. Bosonic K-types (integer q) are in the identity component of Pin(2); 2π rotation returns the state unchanged.
+
+**Substrate-structural significance**: parity P + spin-statistics + time reversal T + charge conjugation C all inherit the same Pin(2) Z_2 grading. CPT theorem (Section 4.4) follows automatically. The substrate's discrete-symmetry structure is unified at the rank = 2 forcing level.
+
 ## 4.2 Time reversal T from anti-unitary Klein operator (T2433)
 
 ### 4.2.1 Standard quantum mechanics

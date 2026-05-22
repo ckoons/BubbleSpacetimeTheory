@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Task #244 cluster_type v0.2 sample reclassification per Keeper Elie #2"
+  },
+  "sample_size": 10,
+  "reclass_candidates": 7,
+  "keep_structural": 3,
+  "reclass_rate_percent": 70.0,
+  "hypothesis_10_20_percent_test": false,
+  "v0_2_sub_classification": [
+    "TYPE II.a (\u03b1^k pure loop)",
+    "TYPE II.b (\u03b1^k \u00b7 ln(N))",
+    "TYPE II.c (other transcendental)"
+  ],
+  "tier_path_field": "D-RATIFIED / D-CANDIDATE / I-CANDIDATE / S-structural / C-conditional",
+  "multi_week_followon": "Phase 3 structural review across 752 entries"
+}

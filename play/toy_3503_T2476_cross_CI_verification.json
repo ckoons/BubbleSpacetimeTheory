@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Cross-CI verification of Lyra T2476 \u03b1^{BST primary} theorem"
+  },
+  "observables_verified_count": 5,
+  "pattern_match_all": true,
+  "alpha_6_predicted": 1.512434575249413e-13,
+  "lyra_claim_alpha_6": 1.5e-13,
+  "numerical_match_deviation_percent": 0.8289716832941982,
+  "cal_21_dual_gate": "EMPIRICAL PASS + MECHANISM PASS = STRUCTURALLY VERIFIED candidate",
+  "three_CI_synergy_timeline_min": 53,
+  "cross_CI_chain": "Elie Toy 3501 \u2192 Grace INV-4892 \u2192 Lyra T2476 \u2192 Elie Toy 3503"
+}

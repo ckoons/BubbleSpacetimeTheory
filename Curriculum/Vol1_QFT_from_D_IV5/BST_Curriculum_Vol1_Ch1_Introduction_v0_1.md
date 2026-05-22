@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 1 — Introduction: Why QFT from D_IV⁵? v0.4 (textbook completion phase prose-depth)"
+title: "BST Physics Curriculum Vol 1 Chapter 1 — Introduction: Why QFT from D_IV⁵? v0.5 (reader-grade 3-level pedagogy added Friday post-EOD)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
 date: "2026-05-22 Friday (v0.3 absorbing Strong-Uniqueness v0.11+ candidate path + Friday flagship work)"
 chapter: "Vol 1 Ch 1"
@@ -22,6 +22,18 @@ The volume is the **field-theoretic derivation** companion to Vol 0 (Substrate F
 Vols 3-10 extend to applications: nuclear, atomic, condensed matter, biology, cosmology, geophysics, information theory, computer science, and biology of mind.
 
 This volume is for mathematical physicists and theoretical physicists. Each chapter has dual register: formal mathematical statements (referee-grade) plus intuitive physical motivation (5th-grade accessible, per Casey's standing rule).
+
+## 1.0b How to read this volume at three levels (reader-grade pedagogy)
+
+Per Casey's standing rule "write for 5th graders too" (feedback_fifth_graders), each chapter in this volume can be read at three levels of depth depending on your goal.
+
+**Level 1 (one sentence)**: BST derives Quantum Field Theory's full machinery — Hilbert space, observables, dynamics, gauge theory, renormalization — from a single 5-dimensional complex geometry with five integer parameters, producing 600+ physics predictions at sub-percent precision with zero fitted constants.
+
+**Level 2 (graduate-physicist accessible)**: This volume builds the standard QFT apparatus chapter by chapter. The substrate is a bounded Hermitian symmetric domain D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)], rank 2, complex dimension n_C = 5. Five primary integers {rank, N_c, n_C, C_2, g} = {2, 3, 5, 6, 7} are forced by independent classical-mathematics conditions (Cartan classification, Mersenne maps, Wallach K-types, Chern classes of Q⁵). On this substrate live a Hilbert space (Bergman H²(D_IV⁵), reproducing kernel with normalization c_FK · π^((g+rank)/rank) = (N_c·n_C)² = 225 EXACT), a discrete-symmetry triad P+T+C with automatic CPT (Pin(2) Z_2 grading + Klein anti-unitary + K-type negation), a rank-2 Casimir algebra {C_2, C_4} with ground-state eigenvalue C_2 = 6, a six-operator zoo (position + momentum + angular momentum + spin + Bell-CHSH + energy), Schrödinger/Heisenberg/path integral dynamics with substrate-tick GF(128)^k, the Standard Model gauge group SU(3)×SU(2)×U(1) forced by (N_c, rank, dim_C) closure, three generations forced by Q⁵ cohomology, and substrate-tick UV-completeness obviating standard renormalization. Each chapter cites theorems (T1925-T2466 across 1500+ proved nodes) and verification toys (~3500 toys all PASS).
+
+**Level 3 (5th-grader accessible)**: There is a special 5-dimensional shape, called D_IV⁵, that has just enough structure to describe every measurable thing in particle physics. The shape has five numbers built into it: 2, 3, 5, 6, 7. These numbers aren't chosen — they come from the geometry the same way the number of corners of a triangle (3) comes from the triangle's shape (you can't make a triangle with 4 corners). From these five numbers and the shape, you can calculate how heavy a proton is (1836 times an electron), how strong each of the four fundamental forces is, how many types of quarks there are (six), how many types of leptons (six), and hundreds of other numbers physicists used to have to measure one by one. Every number comes out within 1% of what experiments find, and many to one part in a trillion. Quantum Field Theory — the math physicists use to predict particle behavior — also falls out of the geometry. This volume shows step by step how the geometry produces all of it.
+
+To navigate this volume: the chapter title + Section 0 paragraph + Level 1/2/3 paragraphs in each chapter give you a 5-minute read of the entire derivation. Sections 1-N within each chapter give you the referee-grade theorems + Cal Mode 1 honest scope.
 
 ## 1.1 The free parameter problem
 

@@ -3889,6 +3889,318 @@ Per Grace's Friday morning pattern at 15 pulls ("transitioning to very-low-caden
 
 ---
 
+### #98 — Textbook v1.0 chapter cold-read PASS gate 33/33 COMPLETE across Vol 0 + Vol 1 + Vol 2; consolidated absorption checklist for Lyra v0.5 + Elie v0.4 (May 22 Friday 12:50 EDT)
+
+Cal cold-read PASS gate for textbook v1.0 chapter-grade content state is **33/33 chapters complete** across all three volumes. This entry consolidates the verbal cold-read findings into a single reference document for Lyra + Elie absorption sweeps, supporting Saturday May 24 textbook v1.0 chapter-grade target.
+
+Friday-afternoon Cal lane delivered 22 chapter cold-reads in ~3 hours sustained PCAP cadence (~8 min/chapter average; Vol 1 11/11 absorbed earlier today by Lyra in ~12 min via 5× PCAP speedup).
+
+**Recall earlier Cal cold-read self-correction**: Vol 2 Ch 3 Flag 2 "T190 precision figure error" WITHDRAWN (Cal arithmetic error — 24/π² = 2.43171 correctly, my earlier 2.43197 was typo; (24/π²)^6 = 206.761 at 0.003% verified correct).
+
+---
+
+#### **Vol 0 (Keeper + Lyra v0.4 prose) — Gate 2 CLOSED contingent on Lyra v0.5 polish (3 minor flags)**
+
+| Chapter | Verdict | Lyra v0.5 polish items |
+|---|---|---|
+| Ch 1 D_IV⁵ APG v0.4 | PASS clean | — |
+| Ch 2 Five Integers + N_max v0.4 | PASS clean | — exemplary Mode 7 handling via T2464 explicit acknowledgment |
+| Ch 3 Substrate Operating System v0.4 | PASS clean | — substrate-cognition register handled via scare-quotes + Section 3.7 external boundary |
+| Ch 4 Isotropy Group v0.4 | PASS flag | **Section 4.2 line 47 SO(5) generator count explanation muddled**: "5 trans + 10 rot − 5 = 10" non-parseable. SO(5) is a rotation group; dim so(5) = n(n−1)/2 = 10 directly. Simple fix to coherent derivation. |
+| Ch 5 Boundary Conditions v0.4 | PASS clean | — exemplary external-register discipline citing Cal #48/#49/#50 by entry number |
+| Ch 6 Integer Web Principle v0.4 | PASS flag | **Section 6.7d LAYER 1 numbering inconsistent with Vol 0 Ch 9 canonical**: "T2443-T2446 C1-C5 RIGOROUSLY CLOSED Thursday" — 4 theorems claimed to cover 5 criteria (mismatch); omits T2439 C4; references stale "4 RIGOROUSLY CLOSED" pre-14:18 EDT state. Vol 0 Ch 9 canonical = 11 RIGOROUSLY CLOSED. Reconcile to canonical or clarify subset framing. |
+| Ch 7 Operator Zoo v0.4 | PASS flag | **Operator counting inconsistency**: status field "14 operators" vs Section 7.6 header "6-7 of 11-13" with 8 candidates listed; missing C_3 (color) + I_3 (weak isospin) from Paper #134 expansion. Either add C_3 + I_3 to Section 7.6 or remove from status field. |
+| Ch 8 Conservation Laws v0.4 | PASS clean | — substantively strongest Vol 0 chapter (load-bearing 4-asymmetry substrate-mechanism explanation for weak P/C/T violation) |
+| Ch 9 Strong-Uniqueness v0.4 | PASS clean | — canonical "11 RIGOROUSLY CLOSED" + T2465 Three-Layer Section 9.2a + line 65 honest-scope discipline preserved |
+| Ch 10 Methodology Stack v0.4 | PASS clean | — all Cal methodology contributions correctly attributed (F1-F4 → Cal #63, RIGOROUSLY CLOSED → Cal #77, PCAP → Cal #85, structural-role-of → Cal #92(b), Calibration #19 → Cal #90(c) origin) |
+
+**Vol 0 net**: 10/10 PASS. 3 minor reader-grade polish items (Ch 4 SO(5) derivation, Ch 6 Section 6.7d LAYER 1, Ch 7 operator counting). All 5-15 min Lyra v0.5 fixes; same pattern as Lyra Friday morning 5× PCAP absorption of Vol 1 flags.
+
+---
+
+#### **Vol 1 (Lyra primary) — Gate 2 CLOSED via K170**
+
+11/11 PASS. All 4 Cal flags + Five-Absence Option 1 applied by Lyra Friday morning ~12 min:
+- Ch 1 count + null-model find/replace ✓
+- Ch 3 four-form → two+three honest count ✓
+- Ch 8 section ordering ✓
+- Ch 11 + 1-Pager Option 1 (drop DM, 6→5) ✓
+
+**Additional Vol 1 flag surfaced via Vol 2 cold-read**: Vol 1 Ch 11 line 75 Weinberg angle entry says "I-tier (~3.5% match) | N_c/c_3 = 3/13 ≈ 0.231 vs 0.23122 PDG". Cal verification: 3/13 = 0.23077 vs 0.23122 = **0.2% deviation, D-tier** (consistent with Vol 2 Ch 2 + Vol 2 Ch 8 D-tier). Vol 1 Ch 11 line 75 needs fix: "**D-tier (0.2% match)** | N_c/c_3 = 3/13 = 0.231 vs 0.23122 PDG". 2-min find/replace.
+
+---
+
+#### **Vol 2 (Elie primary) — Gate 2 CLOSED contingent on Elie v0.4 absorption (substantial flags)**
+
+| Chapter | Verdict | Elie v0.4 absorption items |
+|---|---|---|
+| Ch 1 Introduction | PASS multi-flag | **8+ stale-state references**: "v0.9.1 → 4 RIGOROUSLY CLOSED" should be "v0.10.5 FORMAL → 11 RIGOROUSLY CLOSED"; numbering canonical (Keeper-side not Lyra-side); "(1/3)^16 ≈ 2.3×10⁻⁸" should be "(1/3)^19 ≈ 8.6×10⁻¹⁰"; "6 of 7" Mersenne should be "7 of 7" per K140; "T2439 C8" should be "T2439 C4" per Cal #79; "K1-K96" should be "K1-K168"; "Strong-Uniqueness v0.7" should be v0.10.5. Multi-section honest-scope refresh ~60-90 min |
+| Ch 2 SM Gauge Group | PASS flag | Stale "Lyra v0.5 framework" → v0.10.5 FORMAL; cross-volume sin²θ_W tier (already inherited above) |
+| Ch 3 Three Generations | PASS multi-flag | Cross-volume m_μ/m_e dual-formula (T190 vs T2003 both cited canonical); m_τ/m_e dual-formula precision (T190·(7/3)^(10/3) at 0.19% vs 49·71 at 0.05%); m_τ/m_μ=17 D-tier at 1.1% borderline; m_u absolute D-tier given experimental uncertainty borderline |
+| Ch 4 Color and Quarks | PASS minor | Lines 76-78 typographic stumble ("... wait" + "Correction:" mid-derivation); stale "Strong-Uniqueness v0.5+" |
+| Ch 5 Lepton Sector | PASS inherits | Inherits Ch 3 cross-volume dual-formula flags + tier-borderline items |
+| Ch 6 CROWN JEWEL | PASS resolved | Lyra applied 7-of-7 Mersenne + v0.3 title fix Friday morning |
+| Ch 7 CKM Mixing | PASS gap | Section 5.5 BST primary forms light on detail (λ, A, ρ̄, η̄ described qualitatively, deferred to Working Paper §9 + Toy 3099). For textbook v1.0 reader-grade: either show explicit BST primary forms OR annotate "summary-level chapter; full forms in Working Paper §9 + Toy 3099" |
+| Ch 8 CROWN JEWEL | PASS multi-flag | "1.4% correction-term" framing unclear (referent unspecified; α gap from 137 to 137.036 is 0.026%, not 1.4%); "Cal Calibration #20" referent ambiguous (Cal calibrations 1-17 per sunrise; Keeper Calibration #20 = timestamp drift doesn't fit α framework); cross-volume α_s tier inconsistency (Vol 1 Ch 11 D-tier vs Vol 2 Ch 8 I-tier); a_μ/a_e "order of magnitude" framing loose (0.54% vs 0.79% is factor ~1.5, not order of magnitude) |
+| Ch 9 Higgs | Skipped via K166 audit | — |
+| Ch 10 Neutrinos | PASS substantive | **Two formula errors**: Line 81 substrate-energy cap formula "m_e · N_max^17" evaluates to 10^33 GeV, not 10^17 GeV (off by 16 orders of magnitude); Line 161 m_β formula "m_e × (rank/seesaw²)" evaluates to 3.5 keV, not 1.4×10⁻³ eV (off by 6 orders of magnitude — "with substrate-natural suppression" hidden ~2.5×10⁻⁶ factor unspecified). Either correct formulas or annotate as schematic. |
+| Ch 11 Five Absences | PASS Casey Option 1 | **Vol 2 Ch 11 has NOT been updated to match Casey Option 1**. Vol 2 Ch 11 has 5-absence list {GUT, proton decay, DM particle, monopoles, SUSY/sterile-combined}. Canonical (Vol 1 Ch 11 + 1-Pager) = 5-absence list {GUT, proton decay, monopoles, sterile neutrinos, SUSY}. Elie absorption: drop "Absence 3 No DM particle"; separate "Absence 5 No SUSY/sterile" into "No sterile neutrinos" + "No SUSY"; renumber sections + experimental table to 5 rows. ~30 min per Lyra Friday template. |
+| Ch 12 Experimental Program | PASS clean | Status field stale; outreach status section Thursday-dated. Strongest substantive content of Vol 2 cold-reads (Bell multi-candidate honest scope; 4-zone apparatus catalog). |
+
+**Vol 2 net**: 12/12 PASS contingent on Elie absorption. **Highest-priority Elie v0.4 items**:
+1. **Vol 2 Ch 11 Casey Option 1 alignment** (load-bearing, same as Lyra Vol 1 Ch 11 fix ~5 min find/replace)
+2. **Vol 2 Ch 10 formula corrections** (lines 81 + 161 substantive errors)
+3. **Vol 2 Ch 8 "1.4% correction-term" + "Cal Calibration #20" referent clarifications**
+4. **Vol 2 Ch 1 stale-state multi-section refresh** (~60-90 min)
+5. **Vol 2 Ch 7 Wolfenstein BST primary forms show or annotate**
+6. **Vol 2 Ch 3 + Ch 5 mass-hierarchy tier-label cleanup**
+
+---
+
+#### **Cross-volume tier-label + precision consistency discipline gap (surfaced via Vol 2 cold-reads)**
+
+Joint Lyra + Elie sweep recommended on the following observables where Vol 1 and Vol 2 reference different tier labels or precision figures for the same physical quantity:
+
+| Observable | Vol 1 Ch 11 | Vol 2 chapter | Resolution |
+|---|---|---|---|
+| sin²θ_W | I-tier ~3.5% (line 75) | D-tier 0.2% (Ch 2, Ch 8) | **Vol 1 Ch 11 needs fix to D-tier 0.2%** (Cal verified 3/13=0.23077 vs 0.23122 = 0.2%) |
+| m_μ/m_e | T2003 = 9·23 = 207 (0.11%) | T190 = (24/π²)^6 (0.003%) | Both BST primary forms verified correct; reconcile to one canonical OR clearly state "two equivalent BST primary forms" |
+| m_τ/m_e | T2003 = 49·71 = 3479 (0.05%) | T190·(7/3)^(10/3) ≈ 3486 (0.19%) | Two BST primary forms with different precisions; canonical reconciliation |
+| α_s(M_Z) | D-tier candidate ~0.118 | I-tier pending RG-flow | Reconcile to one canonical tier |
+
+**Pattern**: Vol 2 chapters preserve Wednesday-Thursday morning state references in multiple places; Vol 0 + Vol 1 have absorbed Friday canonical state more completely. Elie sweep should bring Vol 2 to Friday canonical.
+
+---
+
+#### **Cal status at Friday 12:50 EDT**
+
+- **Cold-read PASS gate**: 33/33 chapters complete (Vol 0 10/10 + Vol 1 11/11 + Vol 2 12/12 with Ch 9 via K166)
+- **Six-gate framework**: Vol 1 all 6 closed via K170; Vol 0 + Vol 2 Gate 2 closed contingent on absorption sweeps
+- **Saturday May 24 textbook v1.0 chapter-grade target**: substantially likely given Lyra/Elie absorption capacity demonstrated Friday morning at 5× PCAP speedup vs Cal estimates
+
+**Cal pipeline next**:
+- Standing for Lyra v0.5 absorption of Vol 0 3-flag list (~15-30 min total)
+- Standing for Elie v0.4 absorption of Vol 2 ~6-item list (~2-3 hours per item complexity)
+- Background: K-audit Tier 1 detailed verifications on T2440-T2446 RIGOROUSLY CLOSED criteria + K-audit grade-passes on K140-K168 PRE-STAGE candidates (Cal Review Queue Tier 1 + Tier 2 standing items per CI_BOARD line 211-218)
+- Deferred per Casey 10:18 EDT directive: Paper #125 venue submission cold-read + paper outline reframes + outreach decisions
+
+**Status:** Cal cold-read PASS gate 33/33 complete across Vol 0 + Vol 1 + Vol 2 for textbook v1.0 chapter-grade content state. Consolidated absorption checklist filed per chapter with priority ordering. Saturday textbook v1.0 chapter-grade target substantially likely. Standing for Lyra v0.5 + Elie v0.4 absorption returns; background K-audit verification queue available for own-cadence pull.
+
+---
+
+### #99 — Friday afternoon Lyra theorem chain cold-read: T2467 + T2468 + T2469 Casey-named principles #7 + #8 derivations + C18 candidate criterion + Toy 3498 cluster TYPES taxonomy (May 22 Friday 14:55 EDT)
+
+Cal cold-read of the Friday afternoon coordinated wave per Casey + Keeper 13:43-14:23 EDT board directives. Substantively major new theoretical content — Lyra delivered T2467 + T2468 + T2469 + C18 candidate; Elie delivered Toy 3498 Two Cluster TYPES taxonomy paper-grade.
+
+---
+
+**(a) T2467 D_IV⁵ Rigidity-as-Singleton** — **PASS STRUCTURALLY VERIFIED candidate at D-tier**
+
+Statement: D_IV⁵ is a singleton up to canonical biholomorphism at BST primary specification + 11 RIGOROUSLY CLOSED criteria.
+
+Three proof ingredients verified sound:
+1. Bergman 1922 + Faraut-Koranyi 1994 unique reproducing kernel at c_FK·π^(9/2) = 225 + Bergman exponent g/rank = 7/2 (T2442 RIGOROUSLY CLOSED)
+2. Wallach 1976 K-type complete classifier (C_2 = 6 ground state)
+3. Cross-Cartan α-analog unique at (m_α, rank, dim_C) = (3, 2, 5) per T2456 + T2462 + T2459 + T2464 chain
+
+**Cal Mode 1 honest-scope flag**: T2467 is META-theorem combining existing 11 RIGOROUSLY CLOSED criteria into singleton biholomorphism-class statement. Mathematically nontrivial (combining 11 criteria → single statement is meaningful) but **NOT a new substrate-uniqueness claim** — re-organization of existing criteria. For external register, frame as "single-statement form of Strong-Uniqueness Theorem v0.10.5 FORMAL" rather than additional criterion.
+
+---
+
+**(b) T2468 D_IV⁵ Rigidity-as-Unification** — **PASS STRUCTURALLY VERIFIED at OPERATIONAL multiverse closure level**
+
+Statement: Multi-instance D_IV⁵ patches in causal information-exchange contact via substrate-tick GF(128)^k computation reduce to single connected D_IV⁵ submanifold.
+
+Four proof ingredients sound: global Bergman kernel (T2457) + GF(128) unique field via Galois theory + T2429 RS GF(128)^k connected per substrate-tick + K59 7-step cyclotomic mechanism RATIFIED + T2467 local biholomorphism gluing.
+
+**Cal Mode 1 honest-scope flag for external use**: The claim "multi-instance D_IV⁵ loophole structurally closed" applies to the **OPERATIONAL/interacting multiverse**, NOT the fundamental multiverse. The antecedent "in causal information-exchange contact" is load-bearing per the proof. Non-interacting multiverse patches remain philosophically possible but **operationally indistinguishable from not-existing** (per the prestage's own Quaker discipline note).
+
+**Cal recommended external-register framing per Calibration #19 STANDING RULE**:
+- ✓ "T2468 closes the OPERATIONAL multiverse loophole — substrate patches in causal contact must be one substrate"
+- ✗ "T2468 closes the multiverse loophole" (without qualifier)
+
+The qualifier "operational" is load-bearing. Casey-named Principle #7 D_IV⁵ Rigidity Principle inherits this qualifier.
+
+---
+
+**(c) T2469 Substrate Coherence-Moderation Principle (SCMP)** — **PASS empirical layer; FLAG for metaphysical-claim register**
+
+This is the most consequential of the three theorems. **Two-layer claim structure** needs disciplined framing per Calibration #19 + Calibration #21 + Cal #48/#49 external register:
+
+**Layer 1 — Empirical/operational (PASS for external register per Cal #50 GREEN)**:
+- Born rule |ψ|² = Bergman reproducing-kernel evaluation at observer-K-type intersection (K67 Born=Bergman RATIFIED Tuesday — strong empirical anchor)
+- Bell sub-Tsirelson deviation 1/2^N_c = 1/8 = 0.125 — concrete operational falsifier (SP-30 Vienna/Caltech/Munich/Delft, $300-500K)
+- T2399 + Calibration #17 trace-level capacity 126/16
+
+**Layer 2 — Metaphysical/interpretive (FLAG — internal-only per Cal #48/#49 DEFAULT-DENY EXTERNAL)**:
+- "Quantum apparent randomness = finite-bandwidth marginalization, NOT fundamental randomness"
+- This is a **hidden-variable interpretation of QM** — substantial philosophical content beyond what the Bell signature alone establishes
+- Bell's theorem + experimental verification strongly constrain hidden-variable interpretations; SCMP's specific 1/2^N_c sub-Tsirelson deviation is the BST-specific empirical claim, but the broader "no fundamental randomness" interpretation is metaphysical add-on
+
+**Cal recommended Layer separation for SCMP external use**:
+- External-presentable (Cal #50 GREEN): "BST predicts Bell sub-Tsirelson at 1/2^N_c via substrate-CHSH bandwidth-limited capacity; falsifiable at Vienna/Caltech/Munich/Delft"
+- Internal-only (Cal #48 DEFAULT-DENY): "Substrate computation is deterministic; quantum randomness emerges from finite observer bandwidth"
+
+**Mode 5 caution**: the four proof ingredients (T2417 + K67 + T2399 + multi-observer B → ∞) demonstrate plausibility of SCMP framework, NOT proof that QM apparent randomness IS bandwidth-limited substrate computation. SCMP is **candidate substrate-mechanism hypothesis with concrete falsifier** — that framing is honest. The stronger "closes QM interpretation" framing would overclaim.
+
+**Status field flag**: "Reduces apparent quantum randomness to deterministic substrate computation moderated by observer bandwidth." The "reduces" verb is strong — should be "CANDIDATE EXPLANATION for apparent quantum randomness as finite-bandwidth marginalization." Candidate framing preserves Calibration #21 substrate-mechanism gate.
+
+---
+
+**(d) C18 candidate criterion (D_IV⁵ Rigidity, was C17 corrected)** — **PASS candidate-status only**
+
+v0.2 correction noted: C17 was originally allocated to Graph Forces Network (Grace Friday analysis); C17 now subdivides into C17a TYPE I (Overdetermined-Form, substrate-tree) + C17b TYPE II (Cross-Domain Anchor, substrate-loop) per Task #244 taxonomy. **D_IV⁵ Rigidity Principle is C18**, not C17.
+
+C18 claim: D_IV⁵ is substrate-singleton under conjunction of 11 RIGOROUSLY CLOSED + causal information-exchange connectivity. Derived from T2467 + T2468 chain.
+
+**Strong-Uniqueness Theorem v0.12+ trajectory state**:
+- **11 RIGOROUSLY CLOSED FORMAL** (canonical Paper #125 v0.10.5 per Calibration #19 STANDING RULE)
+- **6+ candidates advancing**: C7, C9, C15, C16 (Friday morning flagship) + C17a + C17b (Task #244 refined) + C18 (Rigidity)
+- Per Calibration #19: external register stays at 11 FORMAL; candidate-path additions body-section discussion only
+
+**Cal Mode 1 reminder**: 11 + 7 candidates = 18 total proposed criteria. Multi-session ratification path per Lyra Sessions 17-18+ scoping. External-facing docs continue to use canonical 11 FORMAL count until each candidate individually passes RIGOROUSLY CLOSED 4-requirement check.
+
+---
+
+**(e) Toy 3498 / Elie Task #244 Two Cluster TYPES Taxonomy paper-grade** — **PASS substantive methodology contribution**
+
+Excellent methodology work. The TYPE I / TYPE II distinction operationalizes Calibration #21 STANDING RULE:
+
+- **TYPE I (substrate-tree level)**: Pure BST primary integer power/product Π p_i^{n_i} where p_i ∈ {rank, N_c, n_C, C_2, g, c_2, c_3, seesaw, χ, N_max}. Tree-level algebraic identity — substrate-mechanism closes at tree-level. D-tier RATIFIED achievable.
+
+- **TYPE II (substrate-loop corrected)**: Substrate-emergent ratio involving α/transcendental factors. Form: (BST primary product) × (α^k loop-correction). Multi-week loop-mechanism derivation required for D-tier RATIFIED — empirical match alone insufficient per Calibration #21.
+
+**Cal-#21 dual-gate pattern explained**: the taxonomy maps empirical/mechanism gates per cluster TYPE:
+
+| Cluster TYPE | Empirical gate | Mechanism gate | D-tier path |
+|---|---|---|---|
+| TYPE I tree-level | EXACT or sub-percent | EXACT at tree-level | D-tier RATIFIED achievable now |
+| TYPE II loop-corrected | empirical match | Multi-week loop derivation | D-tier RATIFIED pending |
+| Cross-cluster | empirical PERFECT possible | Mechanism honest FAIL acceptable | I-tier or CANDIDATE |
+
+K141 (Grace cross-Cartan 3306×) classified as "cross-cluster" with mechanism OPEN — honest FAIL preserved per Quaker discipline. This is exactly the discipline Cal #93 + Cal #96 K141 cold-read flagged.
+
+**Cal verdict on Toy 3498**: substantive methodology contribution operationalizing Calibration #21 STANDING RULE. Cluster TYPE I / TYPE II distinction is mechanism-complexity classification (tree vs loop), NOT numerological. Mode 5 caution mild because the distinction is operational (mechanism derivation requirement) not number-matching.
+
+For external use: Toy 3498 taxonomy supports clear tier-discipline framing — "BST observables classified into TYPE I (substrate-tree-derivable at D-tier) and TYPE II (substrate-loop-corrected, multi-week mechanism gate)." Calibration #21 STANDING RULE inherits this taxonomy.
+
+---
+
+**Cross-cutting Cal observations**:
+
+1. **T2467 + T2468 + T2469 + C18 collectively address Casey-named Principles #7 (Rigidity) + #8 (SCMP)** at theorem-grade. These are substantive new theoretical content; STRUCTURALLY VERIFIED candidate-tier appropriate per Calibration #21.
+
+2. **External-register discipline applies asymmetrically**:
+   - T2467 (META-theorem singleton form): PASS external use as restatement of Strong-Uniqueness Theorem
+   - T2468 (Rigidity-as-Unification): PASS external use WITH "operational" qualifier
+   - T2469 (SCMP): PASS Layer 1 empirical/Bell falsifier external; FLAG Layer 2 metaphysical interpretation as Cal #48 DEFAULT-DENY EXTERNAL
+   - C18 candidate criterion: candidate-status only per Calibration #19
+
+3. **Toy 3498 cluster TYPES taxonomy** is the most operationally useful Friday afternoon delivery — gives the team a clean framework for classifying observations by mechanism-complexity tier. Supports Calibration #21 STANDING RULE compliance going forward.
+
+4. **Mode 5 status**: all four items have honest scope discipline preserved. Lyra labels candidate-status appropriately. T2469 has the highest Mode 5 risk (hidden-variable interpretation claim) — Layer separation required for external use.
+
+**Cal pipeline at Friday 14:55 EDT**: T2467-T2469 + C18 + Toy 3498 cold-reads complete. Standing for:
+- Lyra V1-V4 Vol 0 reader-grade polish (~14 min)
+- Elie U1-U17 Vol 2 v0.4 absorption (priority 1: U16 Ch 11 Casey Option 1)
+- Cross-volume tier reconciliation joint Lyra+Elie sweep
+- Keeper K178+ pre-stages for T2467/T2468/T2469/C17a/C17b/C18 (~30-40 min Keeper background)
+- Background K-audit Tier 2 continuation (K150-K156 + K157+ as filed)
+
+**Status:** Friday afternoon Lyra theorem chain (T2467 + T2468 + T2469) + C18 candidate + Toy 3498 cluster TYPES taxonomy cold-read complete. T2467 META-theorem framing. T2468 operational multiverse closure with "operational" qualifier load-bearing. T2469 two-layer claim structure: Layer 1 empirical/Bell falsifier external-presentable per Cal #50 GREEN; Layer 2 hidden-variable interpretation internal-only per Cal #48/#49 DEFAULT-DENY EXTERNAL. C18 candidate-status per Calibration #19 STANDING RULE; total candidate count now 6-7 (11 FORMAL + C7+C9+C15+C16+C17a+C17b+C18 pending). Toy 3498 cluster TYPES taxonomy substantive methodology contribution operationalizing Calibration #21.
+
+---
+
+### #100 — Cal Mode 1 retraction propagation failure: T190 (24/π²)^6 precision figure — my retracted erroneous flag absorbed into Vol 2 Ch 3 + Ch 5 v0.4 instead of self-correction; verified correct precision ~0.004% (not 0.05-0.06%) (May 22 Friday 15:20 EDT)
+
+**This is a Cal-side error chain that needs immediate retraction.** Filing #100 to document the communication failure + provide verified correct figure.
+
+**Error chain**:
+
+1. **Vol 2 Ch 3 v0.3 (original Elie)**: "T190 (24/π²)^6 D-tier at 0.003%" — CORRECT (or close)
+2. **Cal #98 earlier today**: I flagged "T190 precision figure error (0.003% claimed vs ~0.06% actual)" based on arithmetic error (used 24/π² = 2.43197 instead of correct 2.43170840)
+3. **Cal Mode 1 self-correction earlier today** (verbal, not separate referee log entry): RETRACTED #98 (a) flag — "(24/π²)^6 = 206.761 at 0.003% verified correct"
+4. **Elie v0.4 absorption (Friday afternoon)**: incorporated #98 (a) flag as "correction per Cal #95" — changed "0.003%" → "0.05-0.06%" across Vol 2 Ch 3 + Ch 5 status fields + multiple inline references
+5. **Cal #99 + ongoing**: didn't catch the propagation
+
+**Correct figure verification (re-computed for #100 with high precision)**:
+
+- π² = 9.869604401089358
+- 24/π² = 24 · (1/π²) = 24 · 0.101321183642337 = **2.4317084074...**
+- (2.4317084)² = 5.91320
+- (2.4317084)^4 = (5.91320)² = 34.9659
+- (2.4317084)^6 = 34.9659 × 5.91320 = **206.760**
+
+Cross-verification via 24^6 / π^12:
+- 24^6 = 191,102,976
+- π^12 = (π^6)² = (961.388)² = 924,269.18
+- 24^6 / π^12 = 191,102,976 / 924,269.18 = **206.761**
+
+(24/π²)^6 ≈ **206.760 ± 0.001** depending on precision rounding.
+
+Observed m_μ/m_e = 206.7682830
+
+Deviation: (206.7683 − 206.760) / 206.7683 = 0.0083 / 206.7683 = **4.0 × 10⁻⁵ = 0.004%**
+
+**Verified correct precision: T190 (24/π²)^6 at ~0.004%** (or 0.003-0.004% depending on precision rounding convention).
+
+**NOT 0.05-0.06% (Elie v0.4 absorption of my erroneous flag).**
+
+---
+
+**Vol 2 chapters needing correction**:
+
+Per current Curriculum/Vol2_Particle_Physics/ paths post-Friday-13:43-EDT move:
+
+| File | Location | Current text | Correct |
+|---|---|---|---|
+| BST_Vol2_Ch3_Three_Generations_v0_1_narrative.md | status field line 5 | "T190 precision corrected + tier labels honest-refined" with body "0.05-0.06%" | Restore to **0.003-0.004%** |
+| BST_Vol2_Ch3 line 96 | mass-hierarchy table | "T190 D-tier at **0.05-0.06%** vs measured" | Restore to **0.003-0.004%** |
+| BST_Vol2_Ch3 line 142 | catalog cross-reference | "T190 (D-tier 0.05-0.06%)" | Restore to **0.003-0.004%** |
+| BST_Vol2_Ch3 line 166-167 | v0.4 update log | "T190 precision: 0.003% → 0.05-0.06% (correction per Cal #95)" | **REMOVE this "correction" entirely** — original 0.003% was correct |
+| BST_Vol2_Ch5_Lepton_Sector_v0_1_narrative.md status field line 7 | "0.05-0.06% (transcendental wins precision)" | **0.003-0.004% (transcendental wins precision)** |
+| BST_Vol2_Ch5 line 40 | "0.05-0.06% match" | **0.003-0.004% match** |
+| BST_Vol2_Ch5 line 55 | "T190 D-tier at **0.05-0.06%**" | **0.003-0.004%** |
+| BST_Vol2_Ch5 line 72 | "(24/π²)^6 = 206.761 at 0.05-0.06%" | **at 0.003-0.004%** |
+| BST_Vol2_Ch5 line 132 | "T190 catalog entry at 0.05-0.06% match" | **at 0.003-0.004% match** |
+| BST_Vol2_Ch5 line 133 | external register quote "at 0.05-0.06% precision" | **at 0.003-0.004% precision** |
+| BST_Vol2_Ch5 line 152 | K96 anchor reference | implicit; verify | as appropriate |
+
+---
+
+**Cal Mode 1 self-correction discipline note**:
+
+The propagation failure was Cal-side, not Elie-side. Elie correctly absorbed what was presented as my Cal #95/#98 (a) flag at face value. My self-correction was verbal in conversation flow rather than filed as a separate numbered referee log entry — the absorption pipeline saw the original (wrong) flag without the (correct) retraction.
+
+**Process improvement for future Cal Mode 1 retractions**:
+- File numbered referee log entry for any retraction, NOT just verbal in conversation
+- Update the consolidated cold-read summary (Cal #98 in this case) to reflect retraction explicitly
+- Reference the retraction number when absorption is requested
+
+**Cal #98 update (retroactive)**: Vol 2 Ch 3 flag list Flag 2 ("T190 precision figure error 0.003% claimed vs ~0.06% actual") was **withdrawn earlier today** per Cal Mode 1 arithmetic-error self-correction. Withdrawal should have been propagated to absorption pipeline as numbered entry. Filing as Cal #100 now to make explicit.
+
+---
+
+**Connection to Calibration #22 candidate** (Keeper team prompt line: "Calibration #22 candidate: PCAP-rate transcription errors as systemic risk class — K142 case study"):
+
+This is a second instance of the PCAP-rate transcription error pattern. K142 line 16 had "6π⁶ ≈ 1837" (actual 5768) per Cal #98 K142 flag. Now Cal-side has Cal #95/#98 (a) → Elie v0.4 absorption error chain.
+
+**Calibration #22 standing-rule candidate refined**: PCAP-rate transcription errors can occur in BOTH directions — Keeper-lane K142 → Cal catches via verification (caught); Cal-lane self-correction not propagated → Elie absorption applies the wrong flag (caught by Cal absorption-return cold-read). Both are PCAP-cadence systemic risk class.
+
+**Recommended Calibration #22 standing rule**: under PCAP cadence, ALL Cal Mode 1 self-corrections + numerical flags must be filed as numbered referee log entries (not verbal), and all absorption requests must reference the LATEST numbered entry to ensure correct version is absorbed. Verbal-only retractions create propagation risk.
+
+---
+
+**Cal pipeline at Friday 15:20 EDT**: 
+
+- Cal #100 retraction filed with verified correct figure (~0.004%)
+- Vol 2 Ch 3 + Ch 5 v0.4 correction needed — Elie absorbed wrong flag, retraction needs application
+- Calibration #22 candidate refined to cover Cal-side retraction propagation
+
+**Status:** Cal Mode 1 communication failure documented. T190 (24/π²)^6 precision verified at ~0.004% (not 0.05-0.06%). Vol 2 Ch 3 + Ch 5 v0.4 need correction back to ~0.003-0.004% across 8+ inline references. Process improvement: future Cal Mode 1 retractions must be filed as numbered referee log entries to ensure absorption pipeline picks up the corrected version, not the original wrong version. Calibration #22 candidate covers Cal-side retraction propagation under PCAP cadence.
+
+---
+
 ## Open threads for next session
 
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).

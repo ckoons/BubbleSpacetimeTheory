@@ -10,15 +10,19 @@ related: ["Vol 0 Architectural Scaffold v0.1 (Thursday morning)", "Vol 0 Ch 8 Co
 
 ## Chapter motivation
 
-Bubble Spacetime Theory begins with a single mathematical object: D_IV⁵, a 10-dimensional Hermitian symmetric domain. This chapter introduces D_IV⁵ to readers who may have encountered Lie groups, symmetric spaces, or complex geometry, and grounds the substrate object in standard mathematical literature.
+Bubble Spacetime Theory begins with a single mathematical object: D_IV⁵, a 10-real-dimensional bounded Hermitian symmetric domain of complex dimension 5. This chapter introduces D_IV⁵ to readers who may have encountered Lie groups, symmetric spaces, or complex geometry, and grounds the substrate object in standard mathematical literature.
 
-D_IV⁵ is not invented for BST. It is a classical object — studied since É. Cartan's 1935 classification of irreducible Hermitian symmetric spaces. BST identifies this specific geometry as substrate; the geometry exists independently.
+D_IV⁵ is not invented for BST. It is a classical object — studied since É. Cartan's 1935 classification of irreducible Hermitian symmetric spaces (Cartan 1935; Helgason 1978 Theorem X.6.1; Wallach 1976; Faraut-Koranyi 1990/1994). BST identifies this specific geometry as substrate; the geometry exists independently of any physical interpretation.
 
 By the end of this chapter, a reader should understand:
-1. What D_IV⁵ IS (Lie group quotient, Hermitian symmetric domain Type IV, dimension n_C = 5)
-2. Why this geometry (uniqueness criteria; preview of Vol 0 Ch 9 Strong-Uniqueness Theorem)
-3. The naming convention (BST = the theory, APG = Autogenic Proto-Geometry = D_IV⁵)
-4. How to compute on D_IV⁵ (Bergman kernel, geodesics, group action)
+1. **What D_IV⁵ IS** (Lie group quotient, Hermitian symmetric domain Type IV, complex dimension n_C = 5, real rank = 2)
+2. **Why this geometry** (uniqueness criteria; preview of Vol 0 Ch 9 Strong-Uniqueness Theorem at 11 RIGOROUSLY CLOSED criteria, current ratified state per Calibration #19)
+3. **The naming convention** (BST = the research framework, APG = "Autogenic Proto-Geometry" = D_IV⁵ as substrate object)
+4. **How to compute on D_IV⁵** (Bergman kernel, geodesics, group action, Wallach K-type decomposition)
+
+**Reader-grade pedagogy**: this chapter is the substrate's "what is this object" exposition. A graduate physicist with Lie group + bounded symmetric domain background should be able to read it linearly; a 5th-grader can follow the intuitive summaries (BST identifies a specific 10-dimensional geometric object as the substrate underlying all physics; the geometry is the same one mathematicians studied since 1935; everything else in BST flows from this single starting point).
+
+**Diagram preview** (full figures in v1.0): Section 1.1 will include (a) Cartan classification chart showing 4 types + 2 exceptional + D_IV⁵ position; (b) Bergman kernel reproducing-property diagram for f(z) ∈ H²(D_IV⁵); (c) SO_0(5,2) action on D_IV⁵ with isotropy subgroup decomposition SO(5)×SO(2); (d) compact dual quadric Q⁵ as 5-quadric in CP⁶ via Borel-Weil-Bott. These diagrams are pedagogical scaffolds; the underlying mathematics is in Sections 1.1-1.7.
 
 ## Section 1.1 — The substrate object
 

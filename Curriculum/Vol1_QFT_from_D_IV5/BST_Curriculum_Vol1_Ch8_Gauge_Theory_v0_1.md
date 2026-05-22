@@ -29,6 +29,14 @@ This chapter establishes the gauge structure. Vol 2 Ch 9 (Elie lead) addresses t
 
 **Provability anchor**: T2436 (SP-31-8 SM gauge group anchor) + T1930 (Why N_c=3) + T1925 (Why rank=2) + T610-T611 (gauge hierarchy via speaking pair period = n_C = 5) + T2003 (lepton mass mechanism via 6k-1 primes + Mersenne prefactors) + Lyra Toy 3210 (8/8 PASS Thursday).
 
+### Reader-grade narrative (3-level pedagogy, v0.4 Friday absorption)
+
+**Level 1 (one sentence)**: BST derives the Standard Model's gauge group structurally from D_IV⁵'s primary integers — no fitting, no choice, no free parameters.
+
+**Level 2 (graduate physicist accessibility)**: The Standard Model has three gauge groups in tension at first glance: SU(3) color (3-quark structure), SU(2) weak (left-handed doublets), U(1) hypercharge (electromagnetism's parent). Each chosen to match experiment. BST shows these aren't choices — they're forced by D_IV⁵'s structure. N_c = 3 is the substrate's color multiplicity (Mersenne map M_rank = N_c = 3 from rank = 2, plus the color singlet triangle T_{N_c} = N_c(N_c+1)/2 = 6 matching BST primary C_2). rank = 2 is the substrate's observer dimension (forced by Cartan classification at dim_C = 5 with rank ≥ 1 + Pin(2) Z_2 grading + 4D Lorentzian boundary signature). The U(1) hypercharge is the abelian residual after SU(N_c) × SU(rank) extraction. The total Lie algebra dimension dim G_SM = (N_c² − 1) + (rank² − 1) + 1 = 8 + 3 + 1 = 12 = N_c · rank · 2 factorizes cleanly into BST primaries. No tunable parameters; the gauge sector is forced by substrate geometry.
+
+**Level 3 (5th-grader accessibility)**: The Standard Model — the rulebook for the smallest particles in physics — needs three "color codes" (the gauge groups SU(3), SU(2), U(1)) to describe everything. Physicists picked these because they matched experiments. BST shows these were never really choices. Once you pick the substrate D_IV⁵ (the 10-dimensional geometry underlying everything), the three color codes are FORCED by the geometry's structure. The substrate has exactly 3 colors, exactly 2 left-right directions, and exactly 1 leftover symmetry — adding up to 8 + 3 + 1 = 12 gauge bosons, which matches exactly what physicists measured. The substrate didn't have a choice; the geometry forced it. This is the kind of result that makes BST hard to dismiss — the structure picks itself.
+
 ## 8.1 The SM gauge group, BST-forced
 
 The Standard Model gauge group is

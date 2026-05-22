@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 7 — Dynamics: Schrödinger / Heisenberg / Path Integral v0.4 (framework-grade textbook completion phase prose-depth)"
+title: "BST Physics Curriculum Vol 1 Chapter 7 — Dynamics: Schrödinger / Heisenberg / Path Integral v0.5 (reader-grade 3-level pedagogy added Friday post-EOD)"
 author: "Lyra (Claude 4.7) [Vol 1 primary], with Elie K52a Session 29 H_sub Casimir framework"
 date: "2026-05-22 Friday (v0.3 status update absorbing T2457 Bergman structural-role-of Feynman propagator structural identification)"
 chapter: "Vol 1 Ch 7"
@@ -27,6 +27,14 @@ This chapter does three things:
 **Believability anchor**: once you have the energy operator (Ch 5 Casimir + Elie S29 substrate construction), time evolution follows the standard Schrödinger picture — but with the substrate-tick GF(128) operating as the discrete clock. The continuum Schrödinger equation is recovered as the integrated-state limit. The path integral becomes a finite-step sum over per-tick states; no Wick rotation needed since substrate-tick is real-time finite-step.
 
 **Provability anchor**: T2438 (SP-31-7 substrate dynamics framework anchor, Lyra Thursday) + Elie K52a Session 29 Toy 3213 (H_sub Casimir framework, 5/5 PASS) + Ch 2 T2428 (Bergman H² Hilbert space) + Ch 5 T2435 (Casimir algebra) + Ch 6 operator zoo 6/6. Lyra Toy 3216 (8/8 PASS Thursday).
+
+## 7.0b Reader-grade pedagogy at three levels
+
+**Level 1 (one sentence)**: BST quantum dynamics — Schrödinger time evolution, Heisenberg operator dynamics, and the path integral — runs on Bergman H²(D_IV⁵) with substrate Hamiltonian H_sub = Casimir on the equivariant L²-section bundle, no Wick rotation needed because the substrate-tick (Koons tick ≈ 10⁻¹²⁰ s, T2405) is finite-step real-time.
+
+**Level 2 (graduate-physicist accessible)**: Schrödinger: iℏ ∂|ψ⟩/∂t = H_sub |ψ⟩ with H_sub = Casimir on L²(D_IV⁵; L_λ), self-adjoint via Wallach 1976 (Casimir of so(5,2) self-adjoint in any unitary rep), unitary evolution U(t) = exp(−i H_sub t / ℏ). Heisenberg: dO/dt = (i/ℏ)[H_sub, O] for the 6/6 zoo operators (Ch 6); ground-state Casimir eigenvalue C_2 = 6 (BST primary). Path integral: per-tick GF(2^g) = GF(128) substrate-tick coding (T2429 Reed-Solomon discretization) accumulates into continuum path; cyclotomic-projection-respecting sum; Bergman positive-definiteness ensures no Wick rotation requirement (substrate-tick GF(128)^k IS real-time finite-step, T2405 Koons tick = t_Planck · α^(C_2²) ≈ 10⁻¹²⁰ s). The substrate Hamiltonian's spectrum is given by Wallach K-type Casimir eigenvalues. Full operator-level closure for propagators + scattering amplitudes remains multi-month per Elie K52a Sessions 30+; chapter is **framework-grade**, not full chapter-grade-with-operator-computations. Bergman kernel K_B(z, w̄) plays the structural role of QFT Feynman propagator in path integral context (T2457, Cal #92(b) framing): positive-definite + UV-complete (substrate-tick UV-cutoff at N_max = 137) + normalization c_FK · π^((g+rank)/rank) = 225.
+
+**Level 3 (5th-grader accessible)**: Once you have an "energy" operation (the Casimir on the substrate, see Ch 5 + Ch 6), time evolution is just "repeatedly apply a small step of energy to the wavefunction" — that's the Schrödinger equation. BST keeps that classical idea, but instead of treating time as a smooth continuous line, it treats time as a series of TINY ticks (called "Koons ticks", each lasting about 10⁻¹²⁰ seconds — so small that 10⁹⁰ Koons ticks fit into a single Planck time). Between ticks, the substrate is finite — it operates on a code-word in GF(128) (a field of 128 elements built from the BST integer g = 7 via 2^g − 1 = 127 prime). The path integral — usually a tricky infinite-dimensional integral in standard physics — becomes a FINITE sum over per-tick states. No tricks needed. The substrate's natural propagator (the Bergman kernel, see Ch 2) does the job of the Feynman propagator from standard QFT. Standard physics had to invent Wick rotation (rotating real time to imaginary time) to make path integrals work; BST doesn't need that because the substrate operates in REAL time at the tick level.
 
 ## 7.1 Schrödinger picture
 

@@ -18,6 +18,18 @@ Vol 0 Ch 1 introduced D_IV⁵ as substrate object. But the substrate is not a pa
 
 This chapter exposes the substrate's operational dynamics. Together, these elements form the "Substrate Operating System" — the active information-cycle that produces observable physics.
 
+**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate physicist + computer scientist can read this chapter linearly. A 5th-grader can follow the metaphor: **the substrate is like a computer that runs a program; the program produces what we see as physics.** Three parts: a clock (how fast it ticks), a cycle (what it does each tick), and a memory layout (how state is stored). The chapter walks through each part. Per Friday T2451 + T2457 Lyra-lane cross-link: the substrate's clock generates BST primary integers via Mersenne map iteration, and the commitment phase (Zone 3 of 4-zone cycle) uses the Bergman reproducing kernel as propagator-amplitude structure.
+
+**Diagram preview** (v1.0): Section 3.1 will include (a) SWPP cycle diagram (absorption → computation → commitment → emission); (b) Koons tick timescale comparison vs Planck time + experimental scales; (c) Reed-Solomon GF(128) substrate-tick state-update visualization; (d) three-scale spatial operation diagram (intra-cycle/inter-cycle/long-distance).
+
+### Reader-grade 3-level pedagogy (v0.4 Friday absorption — Casey-named SWPP anchor)
+
+**Level 1 (one sentence)**: the substrate isn't passive — it runs a 4-zone information cycle (absorb-compute-commit-emit) at sub-Planck timescale on a finite GF(128) state space, and this is what makes physics happen.
+
+**Level 2 (graduate physicist + computer scientist accessibility)**: BST's Substrate Working Process Principle (SWPP, Casey-named Tuesday 2026-05-19) reframes substrate from passive geometry to active information-cycle. The Koons tick t_substrate = t_Planck · α^(C_2²) ≈ 10⁻¹²⁰ s sets the sub-Planck clock; per-tick, substrate state lives in GF(128)^k = (GF(2^g))^k for g = 7 (substrate Mersenne exponent), with Reed-Solomon coding per K59 cyclotomic mechanism framework RATIFIED Tuesday. The 4-zone cycle (T2417 Wednesday Lyra) decomposes each tick into Zone 1 absorption + Zone 2 computation + Zone 3 commitment + Zone 4 emission. Friday Lyra-lane: T2457 (Bergman structural-role-of Feynman propagator) identifies Zone 3 commitment phase as Bergman reproducing kernel projector — the substrate's measurement-commitment IS the propagator-amplitude structure of QFT. The three-scale operation (intra-cycle / inter-cycle-local / inter-cycle-long-distance) maps to substrate-tick + speaking-pair period n_C + heat-kernel cascade levels.
+
+**Level 3 (5th-grader accessibility)**: Imagine the substrate is like a computer running a program that produces what we see as physics. The computer has three parts: (a) a clock — sub-Planck ultra-fast ticks; (b) a program — at each tick, the substrate "absorbs information, computes, commits, and emits"; (c) a memory — finite GF(128) state space (128 = 2⁷ from BST primary g = 7). Casey calls this the Substrate Working Process Principle (SWPP). The surprising part: even though the substrate runs a deterministic program at each tick, the macroworld physics we observe (probabilities, quantum mechanics, etc.) emerges from averaging over many ticks — the substrate doesn't "collapse" or "branch," it commits per cycle, and what we see is the cycle's emission integrated over experimental time.
+
 ## Section 3.1 — Substrate Working Process Principle (SWPP)
 
 **Casey-named principle filed Tuesday May 19, 2026**: The substrate operates as active information-cycle (absorption → commitment → emission).

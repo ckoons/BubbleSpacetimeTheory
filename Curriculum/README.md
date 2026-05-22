@@ -4,13 +4,25 @@
 
 ---
 
-## Status (Friday 2026-05-22 EOD)
+## Status (Friday 2026-05-22 EOD, ~16:04 EDT `date`-verified)
 
-- **Vol 0 Substrate Foundation**: 10/10 chapters at v0.4 with reader-grade 3-level pedagogy; Cal cold-read PASS 10/10 (per K85-K106 + K176); v1.0 chapter-grade content state contingent on ~14 min reader-grade polish (V1-V4 flags in CI_BOARD)
-- **Vol 1 QFT from D_IV⁵**: 11/11 chapters at v0.4 with reader-grade 3-level pedagogy; **v1.0 CHAPTER-GRADE CONTENT STATE REACHED** (Cal cold-read PASS 11/11 per K170; all Cal flags absorbed by Lyra Friday)
-- **Vol 2 Particle Physics**: 12/12 chapters at v0.4 with Cal STANDING RULE compliance; Cal cold-read PASS 12/12 (per K166 + K172 + K173 + K174 + K175 + K177); v1.0 chapter-grade content state contingent on Elie v0.4 absorption (U1-U17 in CI_BOARD)
+- **Vol 0 Substrate Foundation**: 10/10 chapters at v0.4+ with reader-grade 3-level pedagogy; Cal cold-read PASS 10/10 (per K85-K106 + K176 + K177); V1-V4 reader-grade polish DONE Lyra 14:00 EDT; Vol 0 v1.0 chapter-grade content state REACHED contingent on Saturday morning Vol 0 PDF regenerate + T2467-T2475 absorption into Ch 7+8+9+10
+- **Vol 1 QFT from D_IV⁵**: 11/11 chapters at v0.4+ with reader-grade 3-level pedagogy; **v1.0 chapter-grade content state REACHED** (Cal cold-read PASS 11/11 per K170) contingent on **Cal #100 Ch 11 v0.7 → v0.8 correction sweep** (m_μ/m_e precision 0.05-0.06% → 0.004%)
+- **Vol 2 Particle Physics**: 12/12 chapters at v0.4+ with Cal STANDING RULE compliance; 6/12 chapters at 3-level walkthrough reader-grade pedagogy (Ch 1, 6, 8, 9, 11, 12); Cal cold-read PASS 12/12 (per K166+K172+K173+K174+K175+K177); cross-volume tier reconciliation canonical forms applied (m_μ/m_e = T190 (24/π²)⁶ + m_τ/m_e = T2003 49·71); v1.0 chapter-grade content state REACHED contingent on **Cal #100 Ch 3+Ch 5 v0.4 → v0.5 correction sweep** (8+ inline references per Cal #100)
 
-**Saturday May 24 textbook v1.0 chapter-grade content target on track.**
+**Saturday May 24 textbook v1.0 chapter-grade content target HIGHLY LIKELY on track.** Cal #100 correction sweep is load-bearing remaining work. See `notes/Saturday_May24_v1_0_Preflight_Checklist.md`.
+
+## Friday afternoon theoretical wave absorbed (Lyra T2466-T2476 + Cal #99/#100)
+
+Three Casey-named principles addressed Friday afternoon (eight standing total): #7 D_IV⁵ Rigidity (T2467 Singleton META-theorem + T2468 Unification operational closure of multiverse loophole) + #8 SCMP (T2469 Bell sub-Tsirelson 1/2^N_c=1/8 falsifier) + W-21/W-22/W-56 (T2470/T2471/T2472 charge/chirality/parity substrate-derivations).
+
+Operator zoo 12/14 STRUCTURALLY VERIFIED or RATIFIED or FRAMEWORK-COMPLETE (only N_op + T_op CANDIDATE).
+
+Strong-Uniqueness enumeration (Cal #99 reconciled): 11 RIGOROUSLY CLOSED + 7 candidates (C7+C9+C15+C16+C17a+C17b+C18). C18 = D_IV⁵ Rigidity via T2467+T2468 chain; if ratifies, null-model ≤ (1/3)^20 ≈ 2.9×10⁻¹⁰.
+
+T2476 α^{BST primary} exponent pattern substrate-mechanism delivered via three-CI synergy peak (Elie Toy 3501 14:43 → Grace catalog v0.2 15:27 → Lyra T2476 15:32 = 50 min cascade). Falsifiable prediction: α⁶ ≈ 1.5×10⁻¹³ at 5-loop ceiling testable at next-generation Penning trap (~10⁻¹⁴ precision, 2030+).
+
+Calibration #22 STANDING RULE filed (18th methodology layer): PCAP-rate transcription error class + numbered-artifact discipline for all Mode 1 corrections. Bidirectional case study K142 (Keeper-lane) + Cal #100 (Cal-lane).
 
 ## Volume directory layout
 

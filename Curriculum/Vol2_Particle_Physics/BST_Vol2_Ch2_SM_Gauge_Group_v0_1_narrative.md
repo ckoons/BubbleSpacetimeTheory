@@ -1,12 +1,13 @@
 ---
-title: "BST Vol 2 Ch 2 — The Standard Model Gauge Group from D_IV⁵"
+title: "BST Vol 2 Ch 2 — The Standard Model Gauge Group from D_IV⁵ (v0.4, Cal compliance + Friday updates)"
 author: "Elie (Claude 4.6) with cross-lane dependency on Lyra SP-31-12"
-date: "2026-05-21 Thursday"
-status: "v0.1 chapter-grade narrative (Cal-review-ready, dual-axis believability+provability)"
+date: "2026-05-22 Friday (v0.4 update; v0.1 original 2026-05-21 Thursday)"
+status: "v0.4 chapter-grade narrative (Cal #93+#94 stale-state items resolved Friday afternoon; Cal #19 + Cal #21 + Cal #50 STANDING RULE markers added)"
 parent: "BST_Curriculum_Vol2_Particle_Physics_v0_1_outline.md"
 lead_theorem: "T2436 SM Gauge Group SU(3) × SU(2) × U(1) from D_IV⁵ (Lyra SP-31-8)"
-tier: "D-tier (forced by D_IV⁵ K = SO(5) × SO(2) maximal compact)"
+tier: "D-tier RATIFIED (forced by D_IV⁵ K = SO(5) × SO(2) maximal compact)"
 register_discipline: "Cal Flag 3 strict — operational language only"
+calibration_compliance: "Cal #19 (Paper #125 v0.10.5 FORMAL canonical) + Cal #21 (empirical + substrate-mechanism dual gates) + Cal #50 (substrate-cognition reserved internal)"
 ---
 
 # Vol 2 Chapter 2 — The Standard Model Gauge Group from D_IV⁵
@@ -91,8 +92,8 @@ Per BST Referee Methodology v1.1 D-tier criteria:
 - ✓ Mechanism explicit (D_IV⁵ K = SO(5) × SO(2) + N_c/rank identifications)
 - ✓ External cross-reference (classical Cartan classification + Wallach 1976)
 - ✓ Cal Mode 1 vigilance (gauge group forced by uniqueness theorem, not chosen)
-- ✓ Strong-Uniqueness C2-C5 STRUCTURALLY VERIFIED criteria all involve this gauge group structure
-- ✓ Audit-chain ratified (Lyra Paper #125 v0.5 framework)
+- ✓ Strong-Uniqueness 11 RIGOROUSLY CLOSED criteria (Paper #125 v0.10.5 FORMAL canonical) all involve this gauge group structure
+- ✓ Audit-chain ratified (Paper #125 v0.10.5 FORMAL canonical)
 
 ## Cross-chapter dependencies
 
@@ -155,4 +156,14 @@ BST catalog entries supporting this chapter: sin²θ_W = 3/13 D-tier per T280; g
 
 ---
 
-— Elie, Vol 2 Ch 2 v0.1 chapter-grade narrative, 2026-05-21 Thursday
+— Elie, Vol 2 Ch 2 v0.4 chapter-grade narrative, 2026-05-21 Thursday v0.1 original + 2026-05-22 Friday v0.4 update (Cal #93+#94 stale-state line 94+95 fixes applied; Cal #19 + Cal #21 + Cal #50 STANDING RULE markers added; Strong-Uniqueness Paper #125 reference updated to v0.10.5 FORMAL canonical with 11 RIGOROUSLY CLOSED current ratified-state count)
+
+## v0.4 changelog (vs v0.1)
+
+Per Keeper textbook completion phase + Cal #19 + Cal #21 STANDING RULES + Cal #93+#94 cold-read flags:
+
+- Line 94: "C2-C5 STRUCTURALLY VERIFIED" → "11 RIGOROUSLY CLOSED (Paper #125 v0.10.5 FORMAL canonical)" per Cal #94
+- Line 95: "Paper #125 v0.5 framework" → "Paper #125 v0.10.5 FORMAL canonical" per Cal #93
+- `calibration_compliance` field added (Cal #19 + #21 + #50 markers)
+- Tier classification: D-tier → D-tier RATIFIED
+- v0.4 changelog (this section)

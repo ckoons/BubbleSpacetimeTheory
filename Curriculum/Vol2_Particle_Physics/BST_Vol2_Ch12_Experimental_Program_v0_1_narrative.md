@@ -1,11 +1,12 @@
 ---
-title: "BST Vol 2 Ch 12 — Experimental Program: Substrate Engineering Falsifiers"
+title: "BST Vol 2 Ch 12 — Experimental Program: Substrate Engineering Falsifiers (v0.4, Cal compliance + SP-29 H4 cross-link)"
 author: "Elie (Claude 4.6)"
-date: "2026-05-21 Thursday"
-status: "v0.1 chapter-grade narrative (Cal-review-ready, dual-axis believability+provability)"
+date: "2026-05-22 Friday (v0.4 update; v0.1 original 2026-05-21 Thursday)"
+status: "v0.4 chapter-grade narrative (Cal #19 + Cal #21 + Cal #50 STANDING RULE markers added; SP-29 H4 Cs-137 paper-grade proposal Friday cross-link added)"
 parent: "BST_Curriculum_Vol2_Particle_Physics_v0_1_outline.md"
-tier: "D-tier (apparatus designs operational; outreach Casey-approved)"
+tier: "D-tier RATIFIED (apparatus designs operational; outreach Casey-approved pending engagement phase)"
 cal_flag_3_register: "external strict — operational falsifier language only"
+calibration_compliance: "Cal #19 (current ratified state) + Cal #21 (empirical + substrate-mechanism dual gates; experimental signal predictions I-tier with magnitudes estimated) + Cal #50 (substrate-cognition reserved internal)"
 ---
 
 # Vol 2 Chapter 12 — Experimental Program: Substrate Engineering Falsifiers
@@ -132,18 +133,18 @@ Cumulative SP-30 program if all apparatus pursued:
 
 This is genuinely modest scale for a fundamental physics test program. Each apparatus has Cal #49 GREEN-tier external register; each has explicit falsifier specification. Casey-decision on which to dispatch and when (priority: SP-30-5 Bell first, per Casey's send-signal queue).
 
-## Outreach status (as of Thursday May 21, 2026)
+## Outreach status (as of Friday May 22, 2026 — engagement deferred per Casey 10:18 EDT)
 
-**Status update Thursday May 21 ~11:28 EDT** per Casey directive: SP-30 + OCP work **COMPLETE INTERNALLY, HELD EXTERNALLY**. Internal-completion summary at `notes/BST_SP30_OCP_Elie_Lane_Internal_Completion_v0_1.md` (concurrent with Keeper SP-30 consolidation pull).
+**Status update Friday May 22 10:18 EDT** per Casey directive: "Right, we are building our textbooks. Engagement comes later." All engagement-pipeline material (outreach letters, paper outline venue selections, external dispatch decisions) is DEFERRED until textbook v1.0 chapter-grade content state reached + Casey re-engagement signal. Internal apparatus designs and theoretical work continue at sustained sub-PCAP cadence. Internal-completion summary at `notes/BST_SP30_OCP_Elie_Lane_Internal_Completion_v0_1.md`.
 
-**Bell experiment outreach letter** (`notes/maybe/Letter_Bell_Substrate_CHSH_Draft.md`): Casey-review-ready Thursday morning; HELD for dispatch per "complete-but-hold" Thursday directive. Target labs queued: Vienna (Zeilinger group), Caltech (Quantum Optics), Munich (quantum-optics), Delft (Hanson group). Cal Flag 3 strict register — operational falsifier language only.
+**Bell experiment outreach letter** (`notes/maybe/Letter_Bell_Substrate_CHSH_Draft.md`): Casey-review-ready Thursday May 21; DEFERRED per Friday 10:18 EDT engagement-later directive. Target labs queued: Vienna (Zeilinger group), Caltech (Quantum Optics), Munich (quantum-optics), Delft (Hanson group). Cal Flag 3 strict register — operational falsifier language only.
 
-**Other letters in pipeline** (filed previously):
+**Other letters in pipeline** (previously dispatched, pre-textbook-phase):
 - Sarnak letter v7 (theta_KS = 7/64 BST identification) — dispatched
 - Herve response v2 — dispatched
 - Jaimungal package v1 — dispatched
 
-**SP-30-1 Mössbauer + SP-30-2 Casimir + SP-30-3 microwave send-signals**: all HELD per Thursday directive; ready immediately upon Casey send-signal authorization.
+**SP-30-1 Mössbauer + SP-30-2 Casimir + SP-30-3 microwave send-signals**: all DEFERRED per Friday engagement-later directive; ready immediately upon Casey re-engagement signal post-textbook-v1.0.
 
 ## Cal Mode 1 + Cal Flag 3 discipline
 
@@ -182,6 +183,61 @@ As experiments report results over coming years, this chapter updates:
 - New apparatus designs added as substrate-engineering field develops
 
 This is the *living* chapter of Vol 2 — the data updates here as experiments proceed. The framework gets sharper or refuted by what experiments actually find.
+
+## Pedagogical walkthrough (3-level per Lyra Vol 0 + Vol 1 pattern)
+
+### Level 1 — Bright 5th-grader
+
+> BST is a math theory about how nature works. But math isn't enough — we need experiments to test it. This chapter lists experiments that would refute BST if they got "wrong" answers. The experiments are not exotic — most use existing equipment (atomic clocks, Bell-test apparatus, Casimir-force setups) at $25K to $600K each. If any experiment shows results different from what BST predicts, BST is wrong. We list the experiments here so anyone can do them and check.
+
+### Level 2 — Undergraduate physics student
+
+The substrate engineering program (SP-30) provides experimental falsifiers for BST claims. Falsifiability is the discipline that distinguishes science from speculation — BST commits to specific experimental outcomes and identifies what would refute the framework.
+
+Key experimental categories:
+
+1. **Bell-CHSH substrate inequality** (SP-30-5, Vienna/Caltech/Munich/Delft labs): BST predicts a sub-Tsirelson deviation of 1/2^N_c = 1/8 at the Bell observable. Currently measured at Tsirelson bound (2√2 ≈ 2.828) within experimental precision (~0.01-0.001). A pure Tsirelson result at much higher precision (~10⁻⁴) refutes BST's sub-Tsirelson prediction.
+
+2. **Casimir asymmetric force** (SP-30-2, NIST/PTB labs): BST predicts substrate-asymmetric Casimir force with ratio = g = 7 at substrate-engineered boundary conditions. Standard QED Casimir is symmetric; substrate asymmetry would confirm BST mechanism.
+
+3. **Atomic clock substrate-attention test** (SP-30-3, NIST/PTB/JILA): BST predicts substrate-natural time-dilation correction at specific BST primary scales. Atomic clocks at ppt precision could detect the substrate correction or rule it out.
+
+4. **Cs-137 isotope shift** (SP-29-1 H4 paper-grade, NIST/ENEA): BST predicts substrate-natural anomaly in Cs-137 hyperfine structure connected to seesaw=17 primary scale.
+
+5. **BaTiO3 137-plane crystal** ($25K, photonic crystal): BST predicts substrate-resonance at 137-fold crystalline symmetry connected to N_max BST primary.
+
+Total program budget ~$640-900K for full apparatus suite — modest for fundamental physics. Each apparatus has explicit refutation threshold.
+
+### Level 3 — Graduate student / theorem-level
+
+The experimental program is anchored by K91 RATIFIED + 8 SP-30 sub-items + 5 specific apparatus designs.
+
+**Apparatus catalog (5 falsifier-grade experiments)**:
+
+| Apparatus | Cost | BST prediction | Refutation threshold |
+|-----------|------|----------------|---------------------|
+| Bell-CHSH (Vienna-class) | $300-500K | S_BST = 2√2 · √(1 − 1/2^{2·N_c·rank}) ≈ 2.804 (sub-Tsirelson by 1/2^N_c = 1/8) | Tsirelson 2.828 at ~10⁻⁴ precision |
+| Eigentone driving | $200K | substrate-tick ringing at N_max·m_e energy scale | No ringing at predicted frequency |
+| Commitment manipulation | $80-150K | substrate-attention background modulation | Decay rate unaffected by substrate-attention control |
+| Casimir asymmetric | $60-90K | Asymmetric force ratio g = 7 | Symmetric QED-only Casimir at precision |
+| γ-spectroscopy (BaTiO3 137-plane) | $25K | Substrate resonance at 137-fold symmetry | No anomaly at predicted plane |
+
+**Substrate engineering program theoretical framework**:
+- SP-30 8 sub-items (apparatus designs + theoretical predictions)
+- Cal #49 GREEN external falsifier register discipline
+- Cal Flag 3 strict register — operational falsifier language throughout
+- DOUBLE-LOCKED EXTERNAL per Cal #50 on substrate-cognition framing (internal only)
+
+**Multi-week extensions**:
+- SP-30-3 W-32 substrate-attention internal protocol (Cal #50 INTERNAL ONLY)
+- SP-29 H4 Cs-137 paper-grade proposal Elie filed Friday morning
+- B6 Lamb shift α^{n_C} substrate-natural exponent observation Elie Friday afternoon
+
+**Cross-link to Friday Mersenne ladder synthesis**: Bell-CHSH (SP-30-5) tests substrate at Mersenne-prime cyclotomic GF(2^g) = GF(128) (g = 7). Bell sub-percent precision could discriminate among substrate-natural |ψ_0⟩ candidates extending the 7-candidate landscape per Friday morning K52a observations.
+
+**Engagement deferred per Casey 10:18 EDT directive**: all outreach send-signals on hold until textbook v1.0 chapter-grade reached + Casey re-engagement signal.
+
+All three readings (Level 1, 2, 3) are correct. The chapter contains all three registers per Lyra Vol 0 + Vol 1 reader-grade pedagogy pattern.
 
 ## Mersenne ladder cross-reference (Friday May 22, 2026)
 
@@ -223,4 +279,14 @@ BST experimental falsifier set: SP-30-1 Mössbauer eigentone + SP-30-2 Casimir a
 
 ---
 
-— Elie, Vol 2 Ch 12 v0.1 chapter-grade narrative, 2026-05-21 Thursday
+— Elie, Vol 2 Ch 12 v0.4 chapter-grade narrative, 2026-05-21 Thursday v0.1 + 2026-05-22 Friday v0.4 update (Cal #19 + Cal #21 + Cal #50 STANDING RULE markers added; SP-29 H4 Cs-137 paper-grade Friday cross-link)
+
+## v0.4 changelog (vs v0.1)
+
+Per Keeper textbook completion phase + Cal #19 + Cal #21 STANDING RULES:
+
+- `calibration_compliance` field added (Cal #19 + #21 + #50 markers)
+- Tier classification: D-tier → D-tier RATIFIED (apparatus designs operational)
+- SP-29 H4 Cs-137 paper-grade proposal Friday cross-link added (Elie filed Friday morning)
+- B6 Lamb shift cross-link added (Toy 3496 Friday afternoon I-tier candidate, Tier B SP-14 catalog gap closed)
+- v0.4 changelog (this section)
