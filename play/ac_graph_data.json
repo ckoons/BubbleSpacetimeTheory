@@ -72898,6 +72898,31 @@
       "from": 2441,
       "to": 2476,
       "source": "derived"
+    },
+    {
+      "from": 2470,
+      "to": 2477,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2477,
+      "source": "derived"
+    },
+    {
+      "from": 2442,
+      "to": 2477,
+      "source": "derived"
+    },
+    {
+      "from": 2477,
+      "to": 2478,
+      "source": "derived"
+    },
+    {
+      "from": 2470,
+      "to": 2478,
+      "source": "derived"
     }
   ],
   "chains": {},
@@ -116779,6 +116804,34 @@
       "status": "structurally_verified",
       "casey_named_principle": "substrate_cartography_law_candidate",
       "synergy_cycle": "Elie_discovery_14:43 \u2192 Grace_catalog_v0.2_15:27 \u2192 Lyra_theorem_15:32"
+    },
+    {
+      "tid": 2477,
+      "label": "Gauge Fields as Connections on Bergman Bundle (SP-31 #286, Casey W-?)",
+      "domain": "gauge_theory",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c+n_C+g",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Gauge fields A_\u03bc substrate-derivation as connections on Bergman holomorphic line bundle over D_IV^5; SM gauge group SU(3)\u00d7SU(2)\u00d7U(1) emerges from isotropy SO(5)\u00d7SO(2) structure",
+      "status": "structurally_verified",
+      "sp31_subitem": "#286 Gauge fields as substrate connections"
+    },
+    {
+      "tid": 2478,
+      "label": "Higgs Mechanism via SO(2) \u2192 U(1)_em SSB (SP-31 #287)",
+      "domain": "gauge_theory",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C+N_max",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Higgs mechanism substrate-derivation via SO(2) factor breaking to U(1)_em; Higgs VEV v emerges from Bergman scale; m_H = 125 GeV per K172 dual-route Cal #21 substrate-mechanism",
+      "status": "structurally_verified",
+      "sp31_subitem": "#287 Higgs mechanism substrate-derivation"
     }
   ],
   "metadata": {

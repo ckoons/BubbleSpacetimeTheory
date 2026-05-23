@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vol 0 Chapter 9 — Strong-Uniqueness Theorem (Chapter-Grade Draft v0.7 — v0.12 candidate-path trajectory row added: C17a + C17b + C18 absorbed Friday afternoon per Cal #99)"
+title: "Curriculum Vol 0 Chapter 9 — Strong-Uniqueness Theorem (Chapter-Grade Draft v0.8 — Strong-Uniqueness v0.13 path: full 7-candidate enumeration C7+C9+C15+C16+C17a+C17b+C18 explicit per Cal #99 authoritative count + Saturday Wave 1 consolidation)"
 author: "Keeper (second Keeper-lane chapter-grade content)"
 date: "2026-05-21 Thursday 10:20 EDT (actual via date)"
 status: "v0.1 chapter-grade content draft FILED. Second Keeper-lane chapter (after Vol 0 Ch 8 Conservation Laws). Vol 0 Chapter 9 exposes Strong-Uniqueness Theorem at chapter-grade: D_IV⁵ is uniquely forced under multi-criterion convergence. Current state v0.5 (10 criteria, null-model (1/3)^10 ≈ 0.002%) + v0.6 with 4 new candidates (C11 multi-family + C12 operator zoo + C13 Hilbert space + C14 curriculum). Effective null-model (1/3)^16 ≈ 2.3e-8 per Grace Toy 3222 cross-family reduction. Path to v1.0 (curriculum-completion endpoint) outlined. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2."
@@ -29,6 +29,14 @@ The Strong-Uniqueness Theorem (Lyra T2423 + T2427 + addenda + Sessions 1-12 Thur
 **v0.2 update Thursday 12:05 EDT**: absorbed v0.9.1 Strong-Uniqueness state (4 criteria RIGOROUSLY CLOSED via Sessions 2-5).
 **v0.3 update Thursday 14:26 EDT**: Strong-Uniqueness Theorem v0.10.5 FORMAL achieved — 11 RIGOROUSLY CLOSED via Sessions 6-12 PCAP collapse + 4-5 RATIFIED + 1 ADVANCING.
 **v0.4 update Friday 2026-05-22 ~09:55 EDT (Lyra)**: detailed prose expansion + T2465 Three-Layer Over-Determinism formal theorem absorbed (Section 9.2a, new) + Friday Lyra-lane candidate-path additions cross-referenced. Per Calibration #19 STANDING RULE: current ratified state per Paper #125 v0.10.5 FORMAL = **11 RIGOROUSLY CLOSED criteria**.
+
+**v0.5+ Friday afternoon updates**: C17 → C17a + C17b refinement per Task #244 cluster TYPES (Elie + Grace) + C18 D_IV⁵ Rigidity Principle (T2467 META + T2468 patches-merge, Casey-named #7 STANDING).
+
+**v0.6 update Friday afternoon ~14:18 EDT (Lyra per Cal #99 v0.3 absorption)**: T2466 absorbed as sub-result of C15 (Sub-Substrate Mersenne Hierarchy); Cal authoritative 7-candidate enumeration C7+C9+C15+C16+C17a+C17b+C18; v0.10.5 FORMAL + 7 candidates.
+
+**v0.7 update Friday afternoon ~14:50 EDT (Lyra Item #4 Strong-Uniqueness v0.12 trajectory row added)**: Section 9.5 Path-to-v1.0 table extended with v0.12 candidate row.
+
+**v0.8 update Saturday morning ~10:46 EDT (Lyra Strong-Uniqueness v0.13 draft per Keeper Saturday continuation)**: full 7-candidate enumeration C7+C9+C15+C16+C17a+C17b+C18 explicit in main candidate-path table; Saturday Wave 1 Vol 4 cross-references (Vol 4 Ch 4 T1485 + T1487 + T2418 + Vol 4 Ch 9 Cosmological Cycle cross-link to C18 D_IV⁵ Rigidity Principle); Calibration #19 ratified-state vs candidate-path discipline preserved throughout; null-model bounds for ratified + candidate scenarios explicit.
 
 **Strong-Uniqueness Theorem v0.10.5 FORMAL (Paper #125, Thursday 2026-05-21 EOD; current ratified state per Calibration #19)**:
 
