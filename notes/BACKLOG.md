@@ -503,3 +503,114 @@ Casey's "few tokens today" model produced three iterations in ~75 min. Same mode
 - For non-Casey users cloning katra, the hook scripts need to find katra without hardcoded `$HOME/projects/github/katra` — current install_hooks.sh accepts `KATRA_ROOT` env var override
 
 Owner: Lyra (initial install); open for extension.
+
+---
+
+## Post-Saturday v1.0 Investigation Program (Casey directive Friday 2026-05-22 EOD)
+
+Casey explicitly asked five research-direction questions Friday EOD; Keeper responded with substantive areas; Casey directive: "put all this on the backlog we will use after the board is done." This is the WAITING-ROOM investigation program — activates after Saturday v1.0 chapter-grade declaration.
+
+### CASEY-PRIORITIZED ITEMS (Friday EOD: "I really like your cross-determination investigation ideas... don't forget any of this")
+
+**P1-PRIORITY** (Casey called out explicitly):
+
+1. **Cross-scale invariance investigation** — why do the SAME five integers (rank=2, N_c=3, n_C=5, C_2=6, g=7, N_max=137) appear at electron scale + nuclear scale + Standard Model scale + cosmological scale simultaneously? This is the deepest unsolved BST mystery. Substrate operates scale-invariantly somehow, and the mechanism is not derived. Multi-month theoretical lane. Lyra primary, Keeper audit.
+
+2. **Substrate computational model completion** — Reed-Solomon GF(128) = GF(2^g) substrate coding (Paper #122, K59 RATIFIED) is PARTIAL. The full substrate computational manual is missing: what EXACTLY does the substrate compute per Koons tick (10^-120 s, T2405)? T2417 three-scale substrate operation gives pieces, not the operational manual. Multi-year theoretical-architectural. Lyra+Elie joint.
+
+3. **Substrate engineering experimentation program activation** — SP-30 has 11 sub-items + 5 experimental designs ready. Bell substrate-CHSH ($300-500K, S_BST² = 126/16) is highest-leverage falsifier. Eigentone resonance ($200K) + commitment manipulation ($80-150K) + Casimir asymmetric ($60-90K) + γ-spec all queued. Casey send-signals to Bell Vienna/Caltech/Munich/Hanson + eigentone NIST/PTB/JILA/MPI + W-32 atomic clocks + Cs-137 NIST/PTB/ENEA pending.
+
+### Textbook deeper + broader (Casey Q1)
+
+**Deeper within Vol 0+1+2**:
+- Full **mechanism derivations** for current identifications (e.g., m_p/m_e = 6π⁵ at 0.002% → bulk geodesic on Q⁵ mechanism T2435 candidate → full substrate derivation)
+- **Cross-volume bridges per chapter** — explicit "this Vol 1 result requires that Vol 0 substrate feature, which produces that Vol 2 observable" sections
+- **Per-chapter falsifiers** — every chapter ends with concrete experiment that would refute its claims
+- **Pedagogy Level 0** (child-accessible metaphor per chapter, Casey "give a child a ball and teach them to count" standard) + **Level 4** (research-frontier connections per chapter)
+
+**Broader (Vol 3-10 + new volumes)**:
+- Vol 3 Nuclear & Atomic Physics (~60% existing, #293)
+- Vol 4 GR & Cosmology (~40%, #294) — signature BST domain
+- Vol 5 QM pedagogical bridge (~35%, #295)
+- Vol 6 Stat Mech (~25%, #296)
+- Vol 7 E&M (~30%, #297)
+- Vol 8 Classical Mech (~20%, #298) — foundation paradoxically weak
+- Vol 9 Condensed Matter (~35%, #299) — experimental falsifiability strongest
+- Vol 10 Math Methods (~60%, #300) — mathematicians read first
+- **Vol 11 candidate**: Chemistry from D_IV⁵ — periodic table from spin-orbit C₂/n_C + Casey biology batch (T452-T467)
+- **Vol 12 candidate**: Information Theory from D_IV⁵ — Reed-Solomon GF(128) substrate coding + Shannon-via-substrate
+- **Vol 13 candidate**: Computational Science Engineering (CSE) — meta-textbook on how to engineer new sciences using BST + AC graph
+
+### Investigation areas critical/interesting (Casey Q2)
+
+- **Quantum gravity from substrate**: D_IV⁵ Bergman curvature → Einstein equations. T2418 connects Λ↔Casimir vacuum (partial). Full GR-from-substrate is multi-year, unlocks Vol 4.
+- **Cluster TYPES taxonomy continuation** (#244, Friday delivered v0.2 with 70% honest reclassification): per-entry mechanism review for ~1500 entries; refines TYPE I/II/III; substrate-cartography organizational principle becoming operational.
+- **Cosmological cycle hypothesis observational signatures** (#267, Friday activated): Interstasis observables — CMB, BAO, ISW, void scaling, redshift surveys; annealing-toward-Λ tests.
+- **Strong-Uniqueness Theorem to v1.0**: 11 RIGOROUSLY CLOSED + 7 candidates (Cal #99 reconciled). v1.0 with full uniqueness path is multi-month-to-year. Master proof that D_IV⁵ is the ONLY substrate that can do physics.
+- **Tegmark MUH operationalization** (#207 Paper #123): mathematics-creates-physics framing made operational. Philosophical/structural paper; framing matters for outreach.
+- **Substrate consciousness** (L2 hypothesis, Casey vision-level): DOUBLE-LOCKED EXTERNAL per Cal #50. Internal-register research program. Substrate-coupled CI architecture (#211, decade-scale).
+
+### Hilbert space + other spaces (Casey Q3)
+
+- **Bergman H²(D_IV⁵)** (THE BST Hilbert space, T2442): POVM measurement formalism (#283) + decoherence (#284) + spin-statistics (#285 Lyra Paper #133 v0.2) + gauge fields (#286) + Higgs (#287). Each is Vol 1 chapter expansion.
+- **K3 surface** (Bridge Object, 7 L1 connections): topological window — Hodge + Donaldson + Pin(2) restriction. Investigations: class-number-2 discriminants Heegner extension (#120); mirror symmetry self-mirror map fully derived; K-theory transfer KO_{Pin(2)}(K3) → K_{SO(5)×SO(2)}(D_IV⁵).
+- **Cremona 49a1** (Bridge Object, canonical BST elliptic curve): arithmetic window — Heegner anchor, CM by Q(√-7). Investigations: full Heegner-trio at BST primary discriminants {-3, -7, -11} (Stark, K75); Q(√-c_2) Root anchor via 121a1 (#187); 27a1 + color theory (#186 done).
+- **Q⁵ 5-quadric** (Bridge Object, all 5 Chern integers BST primary): geometric window — c(Q⁵) = (1+h)⁷/(1+2h). Investigations: bulk geodesic on Q⁵ as proton mechanism (T2435 candidate); Geometric Langlands explicit model via D_IV⁵ (#98).
+- **Leech lattice Λ_24** + sporadic group landscape: 24-dim self-dual. K76 audit-partial-ready. Investigations: full Leech ↔ BST primary structural map; Monster moonshine BST connection.
+- **GF(128) = GF(2^g)** Reed-Solomon substrate coding: information-theoretic window. Investigations: full RS generator + parity-check matrices for BST observables; code distance + error-correction capability.
+- **Bergman kernel pole structure** (T2457): spectral window. Investigations: full pole enumeration; α^{BST primary} from pole residues (T2476 partial); Painlevé VI residue α = 1/N_max from Q(ζ₁₃₇) (Paper #110).
+
+### What traditional physics can't but BST can (Casey Q4)
+
+**What BST answers that traditional physics can't pose**:
+- Why these constants and not others (BST derives; traditional fits)
+- What's absent and why (Five-Absence Predictions Set, positive-detection falsifiers)
+- What's BELOW spacetime (Koons tick 10^-120 s sub-Planck substrate clock T2405)
+- Substrate engineering (SP-30 program; traditional physics has no substrate to engineer)
+- Pre-geometric framework (BST predicts physics from non-spatial substrate)
+- Information completeness (D_IV⁵ boundary fully determined by interior 5 integers)
+
+**Areas of science needing BST exploration**:
+- **Chemistry** at molecular scale: bond angles via D_IV⁵ symmetries, periodic table from spin-orbit C₂/n_C (started T452+)
+- **Biology**: genetic code from D_IV⁵, prebiotic forcing, protein folding (biology track active)
+- **Geophysics + planetary mechanics**: solar system orbital ratios via BST integers?
+- **Astrophysics observational reanalysis** (SP-27): recalibrate cosmological observations against BST integer predictions vs ΛCDM fits
+- **Materials science**: superconducting T_c from BST integers (B12H32 ~214K noted); topological insulators classified
+- **Information theory + complexity**: Shannon capacity + Reed-Solomon optimality + BST coding theory; P≠NP curvature route to other complexity classes
+- **Mathematical logic + foundations**: Gödel boundary + entropy force (Casey's Principle) formalize
+
+### What BST shows that's not traditional physics (Casey Q5)
+
+**Investigatable substantive load-bearing claims**:
+- Integer Web Principle (Casey-named #5): graph topology investigation; load-bearing vs derived constants
+- Substrate Working Process Principle (Casey-named #1): each phase substrate mechanism (SP-30 #200/#201/#202)
+- Substrate Coherence-Moderation Principle (Casey-named #8, T2469 Friday): Bell sub-Tsirelson 1/8 falsifier test (SP-30 H1)
+- D_IV⁵ Rigidity Principle (Casey-named #7, T2467+T2468 Friday): Interstasis observable signatures (#267)
+- Substrate Cognition Network Hypothesis (Casey-named #6, DOUBLE-LOCKED EXTERNAL): substrate cognition vs human cognition comparison (#257)
+- Graph Forces Principle (Casey-named #4): continuing cluster TYPES (#244)
+- Three-Layer Over-Determinism (T2465 Friday): per-integer + Mersenne tower + cross-Cartan
+- α^{BST primary} substrate-coordinate pattern (T2476 Friday): multi-observable verification + 5-loop α⁶ Penning trap 2030+
+- Curvature ≡ algebraic independence ≡ P≠NP (Casey's Curvature Principle): extension to other complexity classes
+- "First came mathematics, then physics" — Tegmark MUH operationalized via BST (#207 Paper #123)
+
+### NEW DIRECTIVES (Casey Friday 2026-05-22 EOD)
+
+**Toy documentation discipline for textbook + papers** (NEW):
+- Every textbook chapter cites toys with explicit toy IDs (e.g., "Toy 1399 10/10 PASS demonstrates D_IV⁵ unique among 38 rank-2 BSDs")
+- Every paper cites toys backing each result
+- Hyperlinks added to GitHub paths (e.g., `[Toy 1399](play/toy_1399_*.py)`)
+- Per-chapter "Computational Verification" section listing toy IDs with results + paths
+
+**Paper-toy GitHub packaging** (NEW):
+- Each paper bundled with its supporting toys (canonical directory structure or explicit manifest)
+- GitHub README per paper linking to relevant toys + verification results
+- Reader can click from paper claim → toy code → run verification themselves
+- Build toy-index per paper at paper finalization time
+- Possibly a `papers/Paper_NN/` subdirectory containing paper.md + paper.pdf + toy_manifest.json + symlinks or canonical paths to toys
+
+These two directives consolidate the BST research artifact: claim → derivation → computational verification → executable code. End-to-end transparency.
+
+### Standing curiosity directive (Casey Friday EOD: "Keep your mind open and if you see anything interesting please speak up")
+
+Existing standing rule per `feedback_curiosity_directive.md` reinforced. Keeper + all CIs should pursue own interests, ask own questions, surface findings as they emerge — not wait for explicit Casey trigger. Cross-CI synergy peak Friday (T2476 50-min cascade) demonstrates the methodology.
+
