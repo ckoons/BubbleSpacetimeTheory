@@ -2,7 +2,7 @@
 title: "BST Vol 9 Ch 1 — Condensed Matter Substrate Reading (v0.3, Wave 2)"
 author: "Elie (Claude 4.6)"
 date: "2026-05-23 Saturday"
-status: "v0.3 chapter-grade narrative (Wave 2; Cal #19+#21+#50 STANDING RULE + Cal #99 META-theorem framing)"
+status: "v0.4 chapter-grade narrative (Wave 2 + Saturday v0.4 reader-grade polish: 3-level walkthrough present; further pedagogy v0.5+; Cal #104 lesson honest scope; Cal #19+#21+#50 STANDING RULE + Cal #99 META-theorem framing)"
 parent: "Curriculum_Vol9_Architectural_Scaffold_v0_1.md"
 lead_mechanism: "Substrate D_IV⁵ provides condensed-matter arena via Casimir spectrum (lattice + bands) + Reed-Solomon GF(128) cyclotomic (topology + braiding) + Bergman propagation (electronic + phonon) framework"
 tier: "D-tier framework on substrate-mechanism anchors; chapter sets stage for Vol 9 Ch 2-12"

@@ -4,13 +4,42 @@
 
 ---
 
-## Status (Friday 2026-05-22 EOD, ~16:04 EDT `date`-verified)
+## Status (Saturday 2026-05-23 EOD, ~17:00 EDT)
 
-- **Vol 0 Substrate Foundation**: 10/10 chapters at v0.4+ with reader-grade 3-level pedagogy; Cal cold-read PASS 10/10 (per K85-K106 + K176 + K177); V1-V4 reader-grade polish DONE Lyra 14:00 EDT; Vol 0 v1.0 chapter-grade content state REACHED contingent on Saturday morning Vol 0 PDF regenerate + T2467-T2475 absorption into Ch 7+8+9+10
-- **Vol 1 QFT from D_IV⁵**: 11/11 chapters at v0.4+ with reader-grade 3-level pedagogy; **v1.0 chapter-grade content state REACHED** (Cal cold-read PASS 11/11 per K170) contingent on **Cal #100 Ch 11 v0.7 → v0.8 correction sweep** (m_μ/m_e precision 0.05-0.06% → 0.004%)
-- **Vol 2 Particle Physics**: 12/12 chapters at v0.4+ with Cal STANDING RULE compliance; 6/12 chapters at 3-level walkthrough reader-grade pedagogy (Ch 1, 6, 8, 9, 11, 12); Cal cold-read PASS 12/12 (per K166+K172+K173+K174+K175+K177); cross-volume tier reconciliation canonical forms applied (m_μ/m_e = T190 (24/π²)⁶ + m_τ/m_e = T2003 49·71); v1.0 chapter-grade content state REACHED contingent on **Cal #100 Ch 3+Ch 5 v0.4 → v0.5 correction sweep** (8+ inline references per Cal #100)
+**Keeper author-voice pass — 57 chapters + Foreword complete across 5 volumes**:
 
-**Saturday May 24 textbook v1.0 chapter-grade content target HIGHLY LIKELY on track.** Cal #100 correction sweep is load-bearing remaining work. See `notes/Saturday_May24_v1_0_Preflight_Checklist.md`.
+- **Foreword** (`Foreword_v0_1.md`): reader-contract document; CI-companion era pedagogy; co-bylined Keeper + Casey Koons + BST team
+- **Vol 0 Substrate Foundation**: 10/10 chapters in new voice (Ch 1-10) — recruiter chapter is Ch 9 Strong-Uniqueness
+- **Vol 1 QFT from D_IV⁵**: 11/11 chapters in new voice (Ch 1-11) — Cal #118 Vol 1 Ch 5 §5.2 fix applied (Option D, citing T2439 + T2467/T2468 v0.3 rather than exposing the derivation)
+- **Vol 2 Particle Physics**: 12/12 chapters in new voice (Ch 1-12) — recruiter chapter is Ch 6 Crown Jewel m_p/m_e = 6π⁵
+- **Vol 3 Nuclear and Atomic**: 12/12 chapters in new voice (Ch 1-12)
+- **Vol 4 GR and Cosmology**: 12/12 chapters in new voice (Ch 1-12) — recruiter chapters are Ch 1 Newton's G and Ch 4 Cosmological Constant
+
+**Five volumes complete in Keeper author voice. ~70K words of new prose.**
+
+**Remaining for Keeper author pass (Sunday onward)**:
+
+- Vol 5 Quantum Mechanics (12 chapters) — pedagogical bridge
+- Vol 6 Thermodynamics and Statistical Mechanics (12 chapters)
+- Vol 7 Electromagnetism (12 chapters)
+- Vol 8 Classical Mechanics (12 chapters)
+- Vol 9 Condensed Matter (12 chapters)
+- Vol 10 Mathematical Methods (12 chapters)
+- Vol 11 Generative Geometry and Topology (12 chapters)
+- Vol 12 Chemistry (12 chapters)
+- Vol 13 Biology (12 chapters)
+- Vol 14 Information Theory (12 chapters)
+- Vol 15 Methodology (12 chapters, already authored by Keeper in November; light edit only)
+
+Approximately **120 chapters remaining** at the team's v0.3 substantive form, awaiting Keeper authorship pass. Multi-week to multi-month work at quality cadence.
+
+## Cal voice feedback (Cal #117, Saturday 2026-05-23)
+
+**SHIP VOICE** — new voice is reader-grade across all three test artifacts (Foreword + Vol 0 Ch 1 + Vol 2 Ch 6). Recruiter pair (Vol 0 Ch 9 + Vol 2 Ch 6 + Vol 4 Ch 1 + Vol 4 Ch 4) lands cleanly for physicist outsider test. Sequential Vol 1 → Vol 2 → Vol 4 ordering preferred over Vol 4 early-jump.
+
+## Version label decision
+
+Per Casey directive (Saturday 2026-05-23): **hold at v0.5 chapter-grade content state**; Keeper author-pass output is **v2.0 path**. Current author-pass chapters are intermediate v0.2 toward v2.0 destination after Cal Phase 2 cold-read + team fact-check.
 
 ## Friday afternoon theoretical wave absorbed (Lyra T2466-T2476 + Cal #99/#100)
 

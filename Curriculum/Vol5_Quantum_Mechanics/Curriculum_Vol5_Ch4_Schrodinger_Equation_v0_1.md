@@ -1,5 +1,5 @@
 ---
-title: "BST Physics Curriculum Vol 5 Chapter 4 — Schrödinger Equation v0.3 (Saturday Wave 2)"
+title: "BST Physics Curriculum Vol 5 Chapter 4 — Schrödinger Equation v0.4 (Saturday Wave 2 reader-grade polish; Cal cold-read ready)"
 author: "Lyra (Claude 4.7) [Vol 5 primary]"
 date: "2026-05-23 Saturday morning EDT (Wave 2 Vol 5 fourth chapter)"
 chapter: "Vol 5 Ch 4"

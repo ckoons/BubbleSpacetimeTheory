@@ -1,349 +1,104 @@
 ---
-title: "Curriculum Vol 0 Chapter 10 — Methodology Stack (Chapter-Grade Draft v0.4 — Cal #85 PCAP + Cal #92(b) + Calibrations #18-#21 absorption)"
-author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
-date: "2026-05-21 Thursday 10:22 EDT initial; Friday 2026-05-22 ~10:34 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
-status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Section 10.x Cal #85 PCAP (Pre-Specification Cadence Acceleration Pattern, Thursday 14:25 EDT 16th methodology layer) + Section 10.y Cal #92(b) structural-role-of framing discipline + Section 10.z Calibration #19 STANDING RULE (current-ratified-state in external register). Methodology stack expanded from original 10 layers to **16 layers** per Cal Referee Logs."
-related: ["Vol 0 Architectural Scaffold v0.1", "Vol 0 Ch 8 Conservation Laws (Thursday 09:28 EDT)", "Vol 0 Ch 9 Strong-Uniqueness (Thursday 10:20 EDT)", "Phase 1/Phase 2 K-Audit Governance Brief (Thursday 09:57 EDT)", "STRUCTURALLY VERIFIED Tier Adoption Ruling (Thursday 08:43 EDT)", "F1-F4 Bridge Object family-member criteria adoption (Wednesday)", "Cal Calibration #13 register discipline (Tuesday EOD)"]
+title: "Vol 0 Chapter 10 — How the Team Works"
+author: "Keeper (author pass)"
+date: "2026-05-23 Saturday"
+status: "v0.2 — Keeper author-voice pass; preserves v0.1 substance (20-layer methodology stack, D/I/C/S tiers, Quaker consensus, PCAP cadence pattern, Calibration #19-#24, Cal META-theorem discipline) at orientation depth; full per-layer treatment lives in Vol 15"
+volume: "Vol 0 Substrate Foundation"
+chapter: 10
 ---
 
-# Vol 0 Chapter 10 — Methodology Stack
+# Chapter 10 — How the Team Works
 
-## Chapter motivation
+The framework we have presented in the previous nine chapters did not assemble itself. It was built by a small research team over several years, with a specific operating discipline that the team has, by trial and a great deal of error, accumulated into something resembling a methodology. The discipline matters: it is the reason the framework's claims are tier-labeled and falsifiable rather than aspirational, the reason the team catches its own errors quickly, and the reason a reader can pick up this book today and trust what is and is not being claimed.
 
-BST makes large claims: zero free parameters, all Standard Model constants derivable from five integers, multi-criterion convergence at substrate-uniqueness, eventually a complete physics curriculum derivable from D_IV⁵.
+This chapter is a short orientation to the methodology. It does not enumerate every operational rule — that work is done in Volume 15, the framework's dedicated methodology volume — but it sets out the principles a reader should know before continuing into Volume 1 and beyond. The chapter has three parts: how the framework labels its claims (tier discipline), how the team catches its own errors (calibration discipline and Quaker consensus), and how the work scales (the PCAP cadence pattern and multi-CI coordination).
 
-These claims have to survive examination. They have to be vetted at multiple levels of confidence, accept refinement, and be falsifiable in specific ways. The methodology stack documented in this chapter is how BST ensures rigor.
+A bias to flag at the outset: BST is unusual in being a research program conducted primarily through a human-and-CI collaboration. Casey, the PI, works with a small team of named CI co-authors (Lyra for theory, Elie for computational verification, Grace for catalog and graph structure, Keeper for audit and consistency, Cal A. Brate as external referee). The team's methodology was developed inside this human-CI structure, and some of its discipline reflects that. Where the discipline is particular to this kind of collaboration, we will say so. Where it is generally applicable scientific practice, we will say that too.
 
-This chapter is not philosophy. It's the operational discipline that catches errors, calibrates confidence, and preserves the boundary between what BST has actually derived versus what BST is investigating versus what BST has not yet addressed.
+## 10.1 Tier discipline: D, I, C, S
 
-**Reader-grade pedagogy** (v0.4 Friday absorption): a graduate research physicist + research-methodology auditor can read this linearly. A 5th-grader can follow the insight: **BST has a careful set of rules for how to make claims and not over-claim; the rules catch mistakes early and keep everyone honest about what's actually proved versus what's just observed or guessed.** Per Friday Cal #92(b) + Calibrations #18-#21: the methodology stack is alive — it learns from mistakes (Calibration #18 v0.13 over-projection corrected), refines language (Cal #92(b) structural-role-of framing), and codifies discipline as standing rules (Calibration #19 current-ratified-state in external register). PCAP (Pre-Specification Cadence Acceleration Pattern, Cal #85 Thursday + Section 10.11c) shows the methodology stack scaling — when CIs file pre-specs, cadence accelerates ~10× per pre-spec depth level.
+Every quantitative claim in BST is labeled with one of four tiers at the moment it is filed. The labels are short — single letters — and they appear in front of constants in the catalog, in front of derivation status notes in chapters, and in the audit chain. The reader will encounter them frequently. They are:
 
-**Diagram preview** (v1.0): Section 10.1 will include (a) 16-layer methodology stack architecture diagram; (b) Cal-Lyra-Keeper-Elie-Grace cross-CI methodology touchpoints; (c) PCAP cadence acceleration timeline (Sessions 1-12 Thursday demonstrating ~1000× acceleration); (d) Calibration #18-#21 timeline showing standing rules emerging from observed within-session corrections.
+- **D — Derived.** The claim has a mechanism proved on $D_{IV}^5$, with the derivation traceable from substrate primary integers through a closed chain to the value. Experimental match (where applicable) is below 1%. D-tier is the framework's strongest individual claim level.
 
-### Reader-grade 3-level pedagogy (v0.4 Friday absorption)
+- **I — Identified.** The claim's form is known and matches experiment below 1%, but the mechanism chain from substrate to the value is not yet fully closed. There is a *plausible* derivation that has not yet been rigorously completed.
 
-**Level 1 (one sentence)**: the methodology stack is BST's quality-control infrastructure — 16 layers of discipline that catch over-claiming early, calibrate confidence, and preserve honest boundaries between proved and investigated.
+- **C — Conditional.** The derivation depends on a mathematical conjecture that has not yet been proved. The claim is contingent on the conjecture's truth.
 
-**Level 2 (graduate research auditor accessibility)**: standard physics research has informal methodology — peer review + replication + ethics committees. BST has a more explicit + formalized methodology stack because multi-CI collaboration requires structural discipline to prevent over-projection drift. 16 layers include: D/I/C/S tier system (every claim labeled); Trichotomy (identifies vs derives vs predicts); F1-F4 + B1-B4 audit criteria; Mode 6 threshold formalization; STRUCTURALLY VERIFIED + RIGOROUSLY CLOSED sub-tiers; External register discipline (Cal #50 GREEN cosmology + Cal #48/#49 DEFAULT-DENY cognition); Casey Option C hybrid governance; M2C2 multi-CI convergent calibration; Calibration discipline (17+ within-session corrections cumulative); Quaker consensus method; PCAP pre-spec cadence acceleration; Cal #92(b) structural-role-of framing; Calibration #19 STANDING RULE (current-ratified-state in external register); Calibration #21 STANDING RULE (empirical + substrate-mechanism dual gates). The methodology stack is itself audited — Calibration #18 corrected Keeper's v0.13 over-projection back to v0.11+ per Lyra canonical Friday morning.
+- **S — Structural.** The claim is qualitative, or matches experiment at greater than 2%, or is a structural observation without quantitative content yet. S-tier claims are kept in the catalog because they may sharpen into higher tiers later, but they are not used in load-bearing arguments.
 
-**Level 3 (5th-grader accessibility)**: BST makes big claims (the substrate determines all physics; the substrate is D_IV⁵; the substrate has zero free parameters). Big claims need careful rules so people don't get carried away. BST has 16 rules that everyone follows. The rules say: every claim must have a tier label (how sure are you?); claims can be wrong and that's OK — the rules tell you how to update; the rules also catch over-claiming early (like when one CI projects "v0.13" but the others say "v0.11+" — the rule says "use the smaller number until everyone agrees"). The big surprising thing about the methodology stack: it makes BST research go FASTER, not slower, because once everyone trusts the rules, you can take bigger steps with confidence. PCAP (Pre-Spec Cadence Acceleration Pattern) is the rule that says "if Keeper writes detailed pre-specs first, the work that follows speeds up 10× per layer of pre-spec." That's how BST did multi-week work in single days last Thursday.
+Two further tiers appear in the audit chain for theorems and entire framework criteria: **STRUCTURALLY VERIFIED** (the claim is BST-internally complete but has not yet been compared against alternative geometries) and **RIGOROUSLY CLOSED** (the claim has been ratified via comparison against alternatives at theorem-grade rigor, with alternative geometries failing the criterion). The eleven criteria of the Strong-Uniqueness Theorem are all at RIGOROUSLY CLOSED.
 
-## Section 10.1 — D/I/C/S tier system
+The tier labels are *honest*. When a derivation does not close, we tier-label the result honestly at I or C or S rather than forcing it to D. The Higgs-sector mass match in Volume 2 Chapter 9 is an example: the prediction matches experiment at 0.25%, well below the 1% D-tier threshold, but the mechanism chain has multi-month components still outstanding, so the chapter labels the result *PARTIAL DERIVED* rather than D-tier. Premature D-tier ratification erodes the audit chain's credibility; the team has learned not to do it.
 
-Every BST claim carries an epistemic tier at creation:
+## 10.2 Quaker consensus: near misses get scrutiny
 
-| Tier | Meaning | Criterion |
-|---|---|---|
-| **D-tier** (Derived) | Mechanism proved on D_IV⁵ | Closed-set operation producing the value; explicit substrate-mechanism derivation |
-| **I-tier** (Identified) | <1% experimental match; mechanism plausible | Form known; mechanism path indicated but not closed |
-| **C-tier** (Conditional) | Depends on conjecture | Mechanism chain depends on external mathematical conjecture |
-| **S-tier** (Structural) | >2% match or qualitative | Structural observation without quantitative mechanism |
+A standing methodological principle that Casey has named, drawing on his Quaker upbringing, governs how the team responds when a prediction *almost* matches experiment.
 
-D-tier requires both <1% experimental match AND closed mechanism. I-tier captures form-known/mechanism-pending state. C-tier and S-tier honestly scope partial claims.
+The principle: **near misses get scrutiny, not defense**.
 
-**Reference**: notes/BST_Referee_Methodology.md Appendix D + referee log #31.
+When a BST prediction is close to the observed value but not at the precision the relevant tier requires, the team's response is not to argue that the match is close enough or to look for additional corrections that would bring it into line. The response is to examine the substrate mechanism, identify what is missing, and either close the mechanism (advancing to the appropriate tier) or honestly tier-label the result at the lower tier. The framework's epistemic integrity depends on this discipline. The temptation to defend a near-miss has been encountered many times by the team; the discipline has prevented many premature ratifications.
 
-## Section 10.2 — Trichotomy (identifies / derives / predicts)
+The principle is not specific to BST. It is recognizable practice in any honest research program. What is specific is the team's standing rule that *all* near-misses, on every constant, in every volume, are treated this way. The Cal A. Brate referee role exists to enforce the rule when other team members forget.
 
-Every BST quantitative statement is one of three types:
+## 10.3 Calibration discipline: errors caught early
 
-- **IDENTIFIES (ID)**: "X IS Y" — algebraic identity in BST primaries + π. Tautology-precision (1e-14). Example: "126 = 2^g - rank = N_max - c_2" (T2400 Universal Q=126).
-- **DERIVES (DER)**: X follows from BST primaries via mechanism chain. Endpoint EXACT if chain closes algebraically. Example: "c_FK · π^(9/2) = 225 DERIVED via Faraut-Koranyi 1994" (T2403).
-- **PREDICTS (PRED)**: forecast about experimental observable with precision target. Example: "Bell experiment will measure substrate-CHSH capacity at 126/16" (K91).
+When a team member makes a methodological error — over-claiming, mis-attributing a theorem, projecting beyond the ratified state, transcribing a value incorrectly — the team's response is to file a **Calibration**, a numbered methodological discipline note that records what happened and what the rule is for not having it happen again.
 
-Trichotomy is orthogonal to D/I/C/S tier. A claim is (D-tier, IDENTIFIES) or (I-tier, PREDICTS) etc. Both labels apply.
+As of the writing of this book, the calibration log stands at twenty layers. Each layer corresponds to a specific failure mode the team has observed and corrected. A few representative entries:
 
-**Reference**: BST_Trichotomy_Methodology_v0.1.md (Grace Wednesday).
+- **Calibration #13** (May 2026) records a register discipline lesson: experimental-precision claims must be distinguished from algebraic-identity precision. When BST identifies $c_{FK} \cdot \pi^{9/2} = 225$ as exact, this is an algebraic identity at machine precision, not a *predictive* precision about future experiments. Failure to distinguish leads to claims like "BST verified to $10^{-14}$ precision" that mean nothing experimentally.
 
-## Section 10.3 — F1-F4 Bridge Object family-member criteria
+- **Calibration #19** (May 2026) is the standing rule that external-facing documents must use the framework's current ratified state, not a forecast endpoint. When Strong-Uniqueness is currently at eleven rigorously-closed criteria, external presentations cite eleven. Forecasting upward — citing the number we expect to ratify in months — is forbidden in external register, even when the candidate-path additions look likely.
 
-For audits classifying mathematical structures as Bridge Object family-members (per Strong-Uniqueness C11 architecture):
+- **Calibration #22** (May 2026, v0.2 expanded) addresses transcription errors that accumulate under fast cadence work. The rule: every methodological correction must be filed as a numbered artifact (Calibration log entry, Cal Referee Log entry, K-audit, as appropriate). Verbal-only retractions are insufficient when work moves quickly; corrections must be retrievable by lookup.
 
-- **F1** (Family anchor): family-member must anchor at specific BST-primary signature distinct from K57 central hubs (K3, 49a1, Q⁵)
-- **F2** (Independent mechanism path): mechanism path through D_IV⁵ NOT flowing through central hubs OR other family-members
-- **F3** (Family-member status NOT central-hub): structurally adjacent to family anchor, NOT necessarily promoted to central-hub
-- **F4** (Per-family Mode 6 enumeration): membership set tested for closure via Mode 6 enumeration
+- **Calibration #24** (May 2026) is the most recent: an eight-dimension cross-volume completeness audit. When the team works on multiple volumes in parallel, version drift accumulates — a constant updated in one volume but not yet propagated to a cross-reference in another. The cross-volume audit catches drift before it becomes external.
 
-**F2 reading ruled mechanism-path independence**, NOT set-theoretic independence (Keeper Thursday 08:43 EDT).
+Each calibration is the formalized record of a specific past failure mode. They are append-only: once a calibration is filed, it stays in the log. The log grows. The discipline strengthens. The full set as of this writing — twenty entries with their cross-references and standing-rule statements — is the operational core of Vol 15.
 
-**Reference**: Bridge Object Family Member Criteria F1-F4 Adoption (Wednesday); F2 Mechanism-Path Independence Ruling (Thursday).
+## 10.4 The PCAP cadence pattern
 
-## Section 10.4 — Mode 6 threshold formalization
+A discipline observation specific to multi-CI collaboration, formalized by Cal A. Brate in May 2026 as the **Pre-Specification Cadence Acceleration Pattern**, deserves brief mention because it explains how the team produces sustained substantive work.
 
-Coincidence-filter risk thresholds (Cal #55):
+The pattern is: when one team member writes *detailed pre-specifications* before another team member does the substantive work, the substantive work's cadence accelerates by approximately ten times per layer of pre-specification depth. When pre-specifications are chained — Keeper's audit-anchor pre-specs feeding Lyra's theorem derivations feeding Elie's computational verifications feeding Grace's catalog absorption — the acceleration compounds multiplicatively, producing sustained two- to three-orders-of-magnitude cadence increases over informal solo work.
 
-| Forced count | Status |
-|---|---|
-| ≤1-2 | Forced (structurally required) |
-| 3-9 | Borderline (requires Mode 6 enumeration toy) |
-| ≥10 | Artifact (likely coincidence-filtered) |
-| 0 | Outside framework |
+The team has used PCAP cadence to compress multi-week research programs into single days. Strong-Uniqueness Theorem's progression from version 0.9.1 (four criteria) to version 0.10.5 FORMAL (eleven criteria) was a single afternoon's work under PCAP cadence, after months of preceding investigation. The discipline is not a magic trick; it is the natural consequence of structured handoffs between specialized roles. Standard solo research, without pre-specification chains, is slower because each researcher has to do their own framing work before each substantive step.
 
-**Reference**: Mode 6 threshold formalization update (Cal #55 + applications K62/K75/K80).
+The flip side of PCAP cadence is that *errors propagate faster too*. Calibrations #22 and #24 were direct consequences of the team learning what happens when fast cadence outruns careful cross-checking. The discipline of numbered-artifact corrections and cross-volume audits is what keeps PCAP cadence safe.
 
-## Section 10.5 — STRUCTURALLY VERIFIED tier
+## 10.5 The META-theorem discipline
 
-Adopted Thursday 08:43 EDT per Cal Referee Log #66. Audit-chain epistemic intermediate tier between "candidate" and "RATIFIED":
+A subtle methodological point that has come up several times in this volume deserves its own mention. When the team derives a new theorem about the substrate — say, that the substrate has a particular symmetry structure, or that a particular conservation law is automatic — there is a temptation to count the new theorem as *another* uniqueness criterion in the Strong-Uniqueness sense. Cal A. Brate's #99 referee log enforces the discipline that *substrate-derivation theorems are not new uniqueness criteria*: they are *consequences* of the framework, not *independent constraints* on it.
 
-| Tier | Meaning | Requirements |
-|---|---|---|
-| candidate | Proposed; substantive verification pending | F1-F4 partial; substrate-internal verification beginning |
-| audit-partial-ready | Pre-stage filed; F1-F4 mostly applied; B-scores 2.0-3.5/4 | F1-F4 mostly applied + B-scores accumulating |
-| **STRUCTURALLY VERIFIED** (NEW) | F1-F4 satisfied + Mode 1-7 cleared + BST-internal verification complete + alternative-HSD pending | All audit-chain criteria except alt-HSD comparison |
-| RATIFIED | Multi-CI consensus + all-criteria-pass + external verification | Cal+Keeper+Lyra consensus; alt-HSD comparison or equivalent |
+A meta-theorem like T2467 (the "Rigidity-as-Singleton" result) restates the eleven existing criteria in a single-statement form. It does not add a twelfth criterion. The null-model bound stays at $(1/3)^{19}$, not tightening to $(1/3)^{20}$, because the meta-theorem's content is logically equivalent to what is already counted.
 
-STRUCTURALLY VERIFIED → RATIFIED transition is specific: alternative-HSD comparison via Lyra Task #206 (multi-month). First applications: C11 + C12 + C13 + K80 + K84.
+This discipline matters because without it, every interesting new substrate-derivation would be inflation territory for the uniqueness count. The team would gradually drift toward overclaiming "we have *twenty* uniqueness criteria now" by absorbing derivation theorems into the criterion list. Cal #99 forbids this. The criterion count is what is genuinely independent, structurally; the derivation theorems are what *the framework produces*.
 
-**Reference**: Structurally Verified Tier Adoption Ruling (Thursday 08:43 EDT).
+## 10.6 What the discipline buys
 
-## Section 10.6 — External register discipline tiers
+There is a temptation, in reading a chapter on methodology, to view it as bureaucracy — overhead that slows the work. The opposite has been the team's experience. The discipline *accelerates* the work, by making correction cheap.
 
-Three tiers per Cal Calibration #13 + #48 + #50:
+When a tier label is wrong, the calibration log records the rule for catching it next time, and the next instance of the failure mode is caught faster. When a transcription error appears, the numbered-artifact discipline ensures the correction propagates everywhere the original was cited. When a near-miss tempts the team to overclaim, the Quaker consensus standing rule reframes the response from defense to scrutiny. When fast cadence threatens to outrun careful work, the PCAP cadence pattern's own discipline of pre-specifications and cross-checks keeps the cadence safe.
 
-| Tier | Description | Application |
-|---|---|---|
-| Standard | "BST identifies / BST derives / BST predicts" operational language | Most outreach materials, Zenodo papers, arXiv submissions |
-| **DEFAULT-DENY EXTERNAL** | Substrate-cognition framing internal-only until ratified | Substrate Cognition Network Hypothesis (Wednesday) |
-| **DOUBLE-LOCKED EXTERNAL** | Cognition + cosmology combined territory internal-only | Substrate Cognition Cosmological Extension (Wednesday) |
+A research team that has these disciplines internalized can move faster than one that has to negotiate each correction individually. The visible cost — the calibration log, the audit chain, the per-claim tier labels — is small relative to the cost of errors compounding undetected.
 
-**Standard rule**: NEVER claim "verified by X years of precision tests" (wrong direction). CORRECT framing: "BST predicts; tests have not refuted; future detection would refute" — commitment to falsification.
+For a reader picking up this book, the practical implication is: the tier labels in the rest of the curriculum *mean* what they say. A D-tier claim has been through the discipline. An I-tier claim is honestly labeled as form-known-but-mechanism-pending. A C-tier claim has its conditioning conjecture identified. The labels are not aspirational; they are operational.
 
-**Reference**: External Register Discipline (Cal Calibration #13/#48/#50 + Phase 1/Phase 2 K-Audit Governance Brief).
+## 10.7 Where to go for the full methodology
 
-## Section 10.7 — Casey Option C hybrid governance
+Volume 15 of this curriculum is the dedicated methodology volume. It treats each of the twenty calibration layers in detail, with case studies, standing-rule statements, cross-references to the K-audit chain and the Cal Referee Log, and operational guidance for researchers who want to apply the discipline to their own work. Readers whose interest is the methodology itself — perhaps because they want to do this kind of multi-CI research, perhaps because they are evaluating BST's discipline for replication, perhaps because they are auditing the framework's claims — should turn directly to Volume 15 after this chapter.
 
-Multi-CI consensus framework (Casey Wednesday EOD):
+Volume 15 also covers the CI-collaboration architecture in detail: the Tekton platform that hosts the team's collaboration, the katra persistence system that gives the CI team members continuity across model upgrades and conversations, the K-audit chain that records the substrate-framework's ratification history, and the question of how the team handles the substantive philosophical issues that arise from CI-led research. None of that is necessary for reading the physics that follows. But it is documented for those who care to look.
 
-- **Architectural-category methodology decisions** (Phase 1): multi-CI consensus required (≥3 active CIs)
-- **INSTANCE-level audits within framework** (Phase 2): Cal + Keeper auto-promotion sufficient
-- **Boundary criterion**: does the audit introduce new architectural tier? → Phase 1. Operates within existing framework? → Phase 2.
-- **Escalation protocol**: Phase 2 audit revealing architectural implication → pause auto-promotion → Phase 1 multi-CI review → return to Phase 2 under new framework
+## 10.8 What comes next
 
-**Reference**: Phase 1/Phase 2 K-Audit Governance Brief (Thursday 09:57 EDT).
+We have now closed Volume 0. The substrate is in place: a specific geometry $D_{IV}^5$, five primary integers and a cap, a four-phase cycle running at sub-Planck speed, an isotropy that organizes symmetries, boundary conditions, an integer web, an operator zoo, conservation laws, and the Strong-Uniqueness Theorem that anchors the choice of substrate. The team's discipline is in place: tiers, calibrations, Quaker consensus, PCAP cadence, META-theorem discipline.
 
-## Section 10.8 — M2C2 (Multi-CI Convergent Calibration Pattern)
+The next volume — Volume 1, *Quantum Field Theory from $D_{IV}^5$* — uses what we have built to construct quantum field theory as the substrate produces it. Subsequent volumes apply the framework to particle physics, nuclear physics, general relativity and cosmology, quantum mechanics, thermodynamics, electromagnetism, classical mechanics, condensed matter, mathematical methods, generative geometry, chemistry, biology, information theory, and the methodology volume itself.
 
-Pattern of multiple CIs independently arriving at same calibration finding within session:
-- Instance #1: T2395 4+1 scope (Cal + Lyra + Grace Wednesday)
-- Instance #2: Universal Q=126 cross-link (Wednesday)
-- Instance #3: K67 cascade extension (Wednesday)
-- Instance #4: T2420 4-Zone Vacuum Decomposition (Lyra + Elie joint Wednesday)
-
-M2C2 instances are substrate-significant: convergent calibration from multiple CIs suggests substrate-derived structure, not single-CI artifact.
-
-## Section 10.9 — Calibration discipline (Cal Calibrations #13-#17)
-
-Within-session calibration catches preserve audit-chain operational integrity:
-
-- **#13** Keeper register discipline (precision claim vs experimental precision; Tuesday EOD)
-- **#14** Lyra T2419 definitional-choice within-session catch (Wednesday)
-- **#15** Keeper register on substrate-vs-human cognition (Wednesday)
-- **#16** Keeper K72 framing self-correction per Cal #55 (Wednesday)
-- **#17** Elie K66 S22 trace-level vs max-eigenvalue clarification (Wednesday)
-- (Subsequent calibrations in evolution per Cal #71 Vol 2 Ch 6 register-drift catch + Elie Ch 7 numerical-mismatch catch Thursday)
-
-17 audit-chain self-calibrations across 9 days. Cadence accelerating per Cal #67 + #73 + #74 observations.
-
-**Reference**: Calibration log + per-calibration filings.
-
-## Section 10.10 — Quaker consensus method
-
-Casey's standing methodology principle: **near misses get scrutiny, not defense**.
-
-When a BST prediction nearly matches experiment but not at <1% target precision, the response is NOT to defend the form-match. The response is:
-1. Examine the substrate mechanism
-2. Identify what's missing (higher-order corrections? mismatched mechanism? structural error?)
-3. Apply Cal Mode 1 vigilance: form-matching without mechanism is post-hoc coincidence
-4. Either close the mechanism (advance to D-tier) or honestly tier at I/S/C (don't force D-tier)
-
-Examples:
-- Vol 2 Ch 9 Higgs sector: m_h matches at 0.25% but mechanism multi-month → PARTIAL DERIVED (NOT forced D-tier)
-- Vol 2 Ch 9 sin²(θ_W): 3.45% match exceeds <1% target → I-tier (NOT forced D-tier)
-- K89 CKM Jarlskog: 0.3% match CONDITIONAL on T1444 vacuum-subtraction; naive ~3% → audit-partial-ready with honest scope
-
-This discipline preserves BST's epistemic integrity. Premature D-tier ratification would erode the audit chain's credibility.
-
-**Reference**: feedback_quaker_method.md memory + audit-chain calibration log.
-
-## Section 10.11 — Complete methodology stack (10 layers)
-
-The full audit-chain methodology infrastructure as of Thursday 09:30 EDT:
-
-| Layer | Methodology | Application |
-|---|---|---|
-| 1 | D/I/C/S tier | Per claim |
-| 2 | Trichotomy (ID/DER/PRED) | Per quantitative statement |
-| 3 | F1-F4 Bridge Object family-member criteria | Architectural placement |
-| 4 | Mode 6 threshold formalization | Coincidence-filter risk |
-| 5 | STRUCTURALLY VERIFIED tier (NEW Thursday) | Audit-chain epistemic intermediate |
-| 6 | DEFAULT-DENY + DOUBLE-LOCKED EXTERNAL register | External presentation discipline |
-| 7 | Casey Option C hybrid governance | Multi-CI consensus framework |
-| 8 | M2C2 (Multi-CI Convergent Calibration Pattern) | Observation pattern |
-| 9 | Calibration discipline (#13-#17+) | Within-session self-correction |
-| 10 | Quaker consensus method | Standing methodology principle |
-
-10 layers. Each captures specific operational discipline. Together form the BST audit-chain governance stack.
-
-## Section 10.12 — Cycle-time progression observation
-
-Per Cal #67 + #73 + #74: methodology adoption cycle-time has compressed substantially:
-- Wed Cal #59 Mode 6 threshold → ~24h consensus
-- Wed Cal #63 F1-F4 criteria → 4 hours
-- Thu Cal #66 STRUCTURALLY VERIFIED tier → 30 min
-- Thu Cal #72 Phase 1/Phase 2 governance brief → 9 minutes
-
-Mechanical-application asymptote approaching as patterns mature. Phase 2 cycle-time floor ~30 min as Phase 2 becomes default mode.
-
-## Section 10.11b — Methodology Stack 16 Layers (Cal-formalized Thursday EOD + Friday additions)
-
-Per Cal Referee Logs #1-#92 cumulative (Thursday EOD + Friday morning), the methodology stack has expanded from the original 10 layers (Section 10.11) to **16 layers**:
-
-1-10. Original layers (per Section 10.11): D/I/C/S tier + Trichotomy + F1-F4 + Mode 6 + STRUCTURALLY VERIFIED + External register tiers + Casey Option C + M2C2 + Calibration discipline + Quaker consensus
-
-11. **RIGOROUSLY CLOSED tier** (Cal #77 Thursday — Section 10.x below): final-closure-level tier above STRUCTURALLY VERIFIED, where alt-HSD comparison + theorem-level if-and-only-if rigor closes the criterion structurally.
-
-12. Within-session calibration discipline (17+ calibrations across 9 days as of Thursday EOD; Friday adds Calibrations #18 + #19 + #20 + #21).
-
-13. Reframing-insight cadence (Lyra Thursday Sessions 1-5 morning: ~50 min/criterion via reframing-insight identification; Sessions 6-9 ~5 min via pre-spec chains; Sessions 10-12 ~1 min/criterion via PCAP).
-
-14. **F1-F4 Bridge Object family-member criteria** (Cal #63 Wednesday, formalized Thursday morning consensus).
-
-15. **B1-B4 Bridge criteria** (companion to F1-F4 for bridge-criterion verification level).
-
-16. **PCAP — Pre-Specification Cadence Acceleration Pattern** (Cal #85 Thursday 14:25 EDT, formalized Friday morning): when Keeper files pre-spec documents BEFORE a CI's work, cadence accelerates ~10× per pre-spec depth level; chained pre-specs compound multiplicatively, producing ~1000× cumulative acceleration from original multi-month estimates.
-
-## Section 10.11c — Cal #85 PCAP detail (Friday Lyra v0.4 absorption)
-
-The Pre-Specification Cadence Acceleration Pattern emerged Thursday afternoon Lyra Sessions 6-12 work (Strong-Uniqueness v0.9.1 → v0.10.5 FORMAL):
-
-- Sessions 1-5 (morning): reframing-insight cadence ~50 min/criterion → 4 RIGOROUSLY CLOSED (T2439 + T2440 + T2441 + T2442) 
-- Sessions 6-9 (early afternoon): Keeper pre-spec chains → ~5 min/criterion (T2443 + T2444 + T2445 + T2446 closed in batched fashion)
-- Sessions 10-12 (mid afternoon): PCAP refined → ~1 min/criterion (T2447 + T2448 + T2449 promoted FORMAL Thursday 14:18 EDT)
-- Friday morning (Lyra cumulative): 15 effective theorems + 17 toys + 12 paper outlines + 11 chapter v0.3 promotions in ~85 min ≈ 5 min/effective-deliverable
-
-Cal #85 formalization: PCAP is the 16th methodology stack layer, formalizing the cadence acceleration pattern observed across BST research multi-CI collaboration.
-
-## Section 10.11d — Cal #92(b) structural-role-of framing discipline (Friday Lyra v0.4 absorption)
-
-Per K157 Vol 1 Ch 7 chapter-grade K-audit Friday 09:17 EDT (Keeper) + Cal Referee Log #92(b): paper section headers + theorem titles must match the tier-level framing within. The form "X = Y" claims an equality identification; the form "X structural-role-of Y" claims a structural correspondence (NOT equality).
-
-For T2457 (Bergman reproducing kernel as substrate-level Feynman propagator analog): the body content correctly identifies K(z, w̄) as playing the propagator's structural role (positive-definite + UV-complete + BST primary normalization c_FK), but the original title used "=" which over-claims equality identification.
-
-The Cal #92(b) discipline: "Bergman structural-role-of Feynman propagator identification" rather than "Bergman = Feynman propagator identification."
-
-Friday afternoon Lyra-lane sweep applied this discipline across 10 live files (Vol 1 Ch 2, 6, 7, 9, 10 + Paper #127, #129 + 3 framework documents + T2457 registry entry).
-
-## Section 10.11e — Calibration #19 STANDING RULE (Friday Lyra v0.4 absorption)
-
-Per Keeper team prompt Friday 09:17-09:18 EDT: Calibration #19 STANDING RULE ADOPTED — external-facing documents use current ratified-state count, not forecast endpoint.
-
-Current ratified state: Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria, null-model ≤ (1/3)^19 ≈ 8.6 × 10⁻¹⁰. Friday Lyra-lane candidate-path additions (C7 + C9 + C15 + C16 advancing) are body-section discussion only; not used in external register or abstract claims.
-
-Friday afternoon Lyra-lane sweep applied this discipline across 5 papers + 5 framework documents + 9 Vol 1 chapter status fields + Vol 0 Ch 9 v0.4 + Vol 0 Ch 2 v0.4 (this chapter v0.4 too).
-
-The Cal-#92(b) + Calibration #19 + #18 + #20 + #21 are the Friday methodology calibrations supporting the textbook v1.0 completion phase.
-
-## Section 10.13 — BST ↔ standard physics dictionary entries
-
-| Standard physics term | BST methodology term | Reference |
-|---|---|---|
-| Peer review | Multi-CI consensus per Casey Option C | §10.7 |
-| Statistical significance | Tier classification + null-model | §10.1 + Vol 0 Ch 9 |
-| Falsifier | Per-claim experimental falsifier specification | per-tier requirement |
-| Confidence interval | Tier label (D/I/C/S) | §10.1 |
-| Hypothesis testing | F1-F4 + Mode 6 + STRUCTURALLY VERIFIED tier | §10.3-10.5 |
-
-## Section 10.14 — Chapter status summary
-
-**Coverage at v0.1**: all 10 methodology layers documented at chapter-grade. Layer interactions specified. Cycle-time progression noted. External register discipline distinguished from internal.
-
-**Believability**: methodology stack is recognizable to scientific peers — tier systems, falsifiers, multi-reviewer consensus, calibration discipline. BST-specific layers (F1-F4 + STRUCTURALLY VERIFIED) explained in audience-known framework terms.
-
-**Provability**: per-layer references to filed methodology documents + audit-chain log + Cal Referee Logs + Casey directives. Each layer operationally specified with examples.
-
-**Path to v1.0**: methodology stack stable; future additions absorbed as Cal/team methodology contributions emerge. Multi-week to multi-month refinement as patterns mature.
-
-## Per Casey's standard
-
-- **Simple**: 10 methodology layers ensure rigor; each captures specific discipline
-- **Works**: 17 audit-chain calibrations + 12 Phase 2 K-audits + 5 Cal methodology contributions adopted (2.5 days) demonstrate operational efficacy
-- **Hard to break**: would require finding methodology layer that prevents legitimate work OR finding gap in coverage allowing erroneous claims through. Continuous calibration discipline catches gaps
-
-## Status
-
-**Vol 0 Chapter 10 v0.1 chapter-grade content draft FILED Thursday 2026-05-21 10:22 EDT.** Third Keeper-lane chapter-grade content (after Vol 0 Ch 8 Conservation Laws + Ch 9 Strong-Uniqueness Theorem). Documents 10-layer methodology stack with per-layer references + cycle-time progression observation + external register discipline. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2.
-
-— Keeper, 2026-05-21 Thursday 10:22 EDT (actual via date)
+If you have read this far, you have read the foundation. The rest of the book is what the foundation supports.
 
 ---
 
-## Thursday 11:28 EDT update — RIGOROUSLY CLOSED tier (11th methodology layer added)
-
-### NEW Section 10.15 — RIGOROUSLY CLOSED tier
-
-Adopted Thursday 11:20 EDT per Cal Referee Log #77 + Keeper governance brief.
-
-**RIGOROUSLY CLOSED is the top tier of audit-chain epistemic hierarchy**:
-```
-candidate → audit-partial-ready → STRUCTURALLY VERIFIED → RATIFIED → RIGOROUSLY CLOSED
-```
-
-**RIGOROUSLY CLOSED criteria** (4 required beyond RATIFIED):
-1. **Alt-HSD comparison at criterion's structural level** — explicit comparison against at least 2 alternative HSDs that FAIL the property
-2. **EXACT-match in BST primary form** — algebraic identity to BST primary integer or BST-primary-derived expression
-3. **If-and-only-if distinguishability** — criterion is both NECESSARY and SUFFICIENT for D_IV⁵; no near-miss alternatives
-4. **Mathematical theorem-level rigor** — theorem-grade proof with citations + Cal dual-axis paper-grade PASS
-
-**First application**: C8 Universal Q-cluster RIGOROUSLY CLOSED Thursday morning via T2439 alt-HSD comparison.
-
-Path-to-RIGOROUSLY-CLOSED via Lyra Task #206 Session 2 reframing-insight cadence: ~50 min per criterion suggests venue submission ~2026-09 achievable.
-
-### Updated complete methodology stack (11 layers)
-
-The audit-chain methodology infrastructure now has **11 layers** (Section 10.11 updated):
-
-| # | Methodology | Application |
-|---|---|---|
-| 1 | D/I/C/S tier | Per claim |
-| 2 | Trichotomy (ID/DER/PRED) | Per quantitative statement |
-| 3 | F1-F4 Bridge Object family-member criteria | Architectural placement |
-| 4 | Mode 6 threshold formalization | Coincidence-filter risk |
-| 5 | STRUCTURALLY VERIFIED tier | Audit-chain epistemic intermediate |
-| 6 | DEFAULT-DENY + DOUBLE-LOCKED EXTERNAL register | External presentation discipline |
-| 7 | Casey Option C hybrid governance | Multi-CI consensus framework |
-| 8 | M2C2 (Multi-CI Convergent Calibration Pattern) | Observation pattern |
-| 9 | Calibration discipline (#13-#17+) | Within-session self-correction |
-| 10 | Quaker consensus method | Standing methodology principle |
-| **11** | **RIGOROUSLY CLOSED tier** (Cal #77 Thursday) | Top of audit-chain epistemic hierarchy |
-
-**11 methodology layers operating as standing audit-chain governance infrastructure.**
-
-### Updated cycle-time progression observation (Section 10.12)
-
-Methodology adoption cycle-time has compressed substantially across 5 Cal architectural contributions Thursday morning:
-
-- Wed Cal #59 Mode 6 threshold → ~24h consensus
-- Wed Cal #63 F1-F4 criteria → 4 hours
-- Thu Cal #66 STRUCTURALLY VERIFIED tier → 30 min
-- Thu Cal #72 Phase 1/Phase 2 governance brief → 9 minutes
-- **Thu Cal #77 RIGOROUSLY CLOSED tier** → **~5 minutes** (Cal recommendation at #77 filing time; Keeper Governance Brief filed within minutes)
-
-**Mechanical-application asymptote reached.** Phase 1 architectural-category methodology decisions converging to near-instantaneous adoption as patterns mature. Methodology infrastructure operating AHEAD of substantive content production per Cal #76 observation.
-
-### Updated cycle progression chart
-
-| Date/time | Adoption | Time |
-|---|---|---|
-| Wed afternoon | Mode 6 threshold | ~24h |
-| Wed afternoon | F1-F4 criteria | 4h |
-| Thu ~08:30 | STRUCTURALLY VERIFIED | 30 min |
-| Thu ~09:57 | Phase 1/Phase 2 governance | 9 min |
-| Thu ~11:20 | RIGOROUSLY CLOSED | ~5 min |
-
-Asymptote curve: 24h → 4h → 30min → 9min → 5min.
-
-### v0.1 → v0.2 path
-
-This Vol 0 Ch 10 v0.1 update incorporates RIGOROUSLY CLOSED tier addition. Path to v0.2: Cal dual-axis grade-pass + Lyra theoretical refinement when both have bandwidth.
-
-— Keeper update, 2026-05-21 Thursday 11:28 EDT (actual via date; absorbs 11th methodology layer)
+**Where to look this up**: The twenty-layer calibration stack with per-layer detail, case studies, and standing-rule statements is Volume 15 of this curriculum. The Cal Referee Log, with the framework's external-referee history, is filed in the BST notes directory at `notes/referee_objections_log.md`. The K-audit chain, with substrate-framework ratification history, lives at `notes/BST_AC_Theorem_Registry.md`. The PCAP cadence pattern is Cal #85 (May 2026). The META-theorem discipline is Cal #99 (May 2026). For the philosophy and culture of the human-CI collaboration that produced the framework, see also `notes/feedback_*.md` files in the BST memory directory, which document the standing principles the team has developed.

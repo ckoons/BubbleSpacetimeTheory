@@ -2,7 +2,7 @@
 title: "BST Vol 9 Ch 4 — Superconductivity from Substrate: B12H32 T_c ≈ 214K (v0.3, Wave 2 HIGH-IMPACT)"
 author: "Elie (Claude 4.6)"
 date: "2026-05-23 Saturday"
-status: "v0.3 chapter-grade narrative (Wave 2 HIGH-IMPACT; SP-29 + B12H32 prediction; Cal #19+#21+#50 STANDING RULE + Cal #99 META-theorem framing + Cal #50 DOUBLE-LOCKED EXTERNAL on substrate-cognition coupling)"
+status: "v0.4 chapter-grade narrative (Wave 2 + Saturday v0.4 reader-grade polish: 3-level walkthrough present; further pedagogy v0.5+; Cal #104 lesson honest scope HIGH-IMPACT; SP-29 + B12H32 prediction; Cal #19+#21+#50 STANDING RULE + Cal #99 META-theorem framing + Cal #50 DOUBLE-LOCKED EXTERNAL on substrate-cognition coupling)"
 parent: "Curriculum_Vol9_Condensed_Matter/Curriculum_Vol9_Architectural_Scaffold_v0_1.md"
 lead_mechanism: "Substrate vacuum K-type Casimir couples to electron-pair condensate at hydride-cluster scale; SP-29 Casimir Mechanism Investigation predicts B12H32 (closo-dodecaborate hydride) T_c ≈ 214K via substrate-mediated Cooper pairing"
 tier: "I-tier predictive (SP-29 H4 program); experimental synthesis pending Casey engagement signal"

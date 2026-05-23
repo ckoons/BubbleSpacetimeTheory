@@ -44,7 +44,7 @@ The volume is the QFT-physics-derivation companion to Vol 0 (Substrate Foundatio
 
 *Keeper-lead chapter; scaffolded here for Vol 1 integration.*
 
-Motivation: standard QFT has ~25 free parameters fit to data. BST derives all of them from {rank=2, N_c=3, n_C=5, C_2=6, g=7} with the substrate D_IV⁵. The five integers are not chosen but forced (Ch 3); the substrate is not assumed but uniquely selected under 10 criteria (Strong-Uniqueness Theorem, Paper #125). The QFT apparatus then emerges from substrate structure (Ch 2-10), with observable predictions (Ch 11) matching experiment at sub-percent precision across 600+ quantities.
+Motivation: standard QFT has ~25 free parameters fit to data. BST derives all of them from {rank=2, N_c=3, n_C=5, C_2=6, g=7} with the substrate D_IV⁵. The five integers are not chosen but forced (Ch 3); the substrate is not assumed but uniquely selected under **11 RIGOROUSLY CLOSED criteria + 7 candidates per Cal #99 authoritative enumeration** (Strong-Uniqueness Theorem v0.10.5 FORMAL, Paper #125; null-model ≤ (1/3)^19 ≈ 8.6 × 10⁻¹⁰ at ratified state per Calibration #19). The QFT apparatus then emerges from substrate structure (Ch 2-10), with observable predictions (Ch 11) matching experiment at sub-percent precision across 600+ quantities.
 
 This volume is the field-theoretic derivation showing HOW physics emerges from the substrate. Vol 0 (Substrate Foundation) establishes WHY this substrate; Vol 2 (Particle Physics) catalogs WHAT it produces; Vols 3-10 cover applications (nuclear, atomic, condensed matter, biology, cosmology, etc.).
 

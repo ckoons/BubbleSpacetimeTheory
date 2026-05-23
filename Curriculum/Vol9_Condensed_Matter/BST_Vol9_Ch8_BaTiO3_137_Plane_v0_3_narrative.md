@@ -2,7 +2,7 @@
 title: "BST Vol 9 Ch 8 — BaTiO3 137-Plane Crystallography: $25K Cheapest BST Falsifier (v0.3, Wave 2 HIGH-IMPACT)"
 author: "Elie (Claude 4.6)"
 date: "2026-05-23 Saturday"
-status: "v0.3 chapter-grade narrative (Wave 2 HIGH-IMPACT; $25K cheapest BST falsifier; Cal #19+#21+#50 STANDING RULE + Cal #99 META-theorem framing)"
+status: "v0.4 chapter-grade narrative (Wave 2 + Saturday v0.4 reader-grade polish: 3-level walkthrough present; further pedagogy v0.5+; Cal #104 lesson honest scope HIGH-IMPACT; $25K cheapest BST falsifier; Cal #19+#21+#50 STANDING RULE + Cal #99 META-theorem framing)"
 parent: "Curriculum_Vol9_Condensed_Matter/Curriculum_Vol9_Architectural_Scaffold_v0_1.md"
 lead_mechanism: "Substrate D_IV⁵ predicts crystallographic resonance at 137-fold plane symmetry; BaTiO3 (or related ferroelectric) selected as experimental target for cheapest clean BST falsifier ($25K equipment investment)"
 tier: "I-tier predictive ($25K experimental program); D-tier confirmable via X-ray + neutron diffraction at predicted plane"

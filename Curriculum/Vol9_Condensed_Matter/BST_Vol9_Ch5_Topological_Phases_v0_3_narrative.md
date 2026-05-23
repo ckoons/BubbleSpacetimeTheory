@@ -2,7 +2,7 @@
 title: "BST Vol 9 Ch 5 — Quantum Hall + Topological Phases via GF(2^g) Braiding (v0.3, Wave 2)"
 author: "Elie (Claude 4.6)"
 date: "2026-05-23 Saturday"
-status: "v0.3 chapter-grade narrative (Wave 2; Cal #19+#21+#50 + Cal #99 META-theorem framing)"
+status: "v0.4 chapter-grade narrative (Wave 2 + Saturday v0.4 reader-grade polish: 3-level walkthrough present; further pedagogy v0.5+; Cal #104 lesson honest scope; Cal #19+#21+#50 + Cal #99 META-theorem framing)"
 parent: "Curriculum_Vol9_Condensed_Matter/Curriculum_Vol9_Architectural_Scaffold_v0_1.md"
 lead_mechanism: "Topological phases inherit substrate rigidity (Lyra T2467 D_IV⁵ Rigidity) + braiding statistics via Reed-Solomon GF(2^g) = GF(128) cyclotomic structure"
 tier: "I-tier framework on substrate-topological connection; quantum Hall filling factors at BST primary integers"
