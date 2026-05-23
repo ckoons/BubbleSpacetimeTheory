@@ -33,9 +33,19 @@ Calibration #22 STANDING RULE filed (18th methodology layer): PCAP-rate transcri
 | 2 | `Vol2_Particle_Physics/` | Elie | 12/12 v0.4 + STANDING RULE compliance |
 | **3** | **`Vol3_Nuclear_Atomic/`** | **Elie + Lyra (joint)** | **v0.1 SCAFFOLD COMPLETE Sat 2026-05-23** — 12-chapter outline; ~60% existing coverage; chapter content TO BUILD (Wave 1) |
 | **4** | **`Vol4_GR_Cosmology/`** | **Lyra + Elie (joint)** | **v0.1 SCAFFOLD COMPLETE Sat 2026-05-23** — 12-chapter outline; ~70% existing (signature BST domain); chapter content TO BUILD (Wave 1) |
-| 5-13 | (future volumes — QM / Stat Mech / E&M / Classical Mech / Condensed Matter / Math Methods / Chemistry / Biology / Info-Theory CSE meta) | TBD | scaffolds pending — Wave 2-5 priority |
+| 5 | (future) QM (pedagogical bridge) | Lyra | Wave 2 |
+| 6 | (future) **Thermodynamics & Stat Mech** (thermo lead) | Lyra+Elie | Wave 2 — thermo as universal substrate process per Casey insight |
+| 7 | (future) E&M | Lyra | Wave 3 |
+| 8 | (future) Classical Mechanics | Lyra | Wave 3 |
+| 9 | (future) Condensed Matter | Elie | Wave 4 |
+| 10 | (future) **Traditional Mathematical Methods** | Lyra | Wave 4 — working physicist toolkit |
+| 11 | (future) **Generative Geometry & Topology (NEW)** | Lyra | Wave 5 — pure math producing BST tools; mathematician entry; number-theoretic foundations Ch 12 |
+| 12 | (future) Chemistry from D_IV⁵ | Elie+Lyra | Wave 5 |
+| 13 | (future) Biology / Living Systems | Elie+Lyra | Wave 5 |
+| 14 | (future) **Information Theory from D_IV⁵** | Lyra+Keeper | Wave 6 — Reed-Solomon GF(128) + Nyquist sampling + Shannon-from-substrate |
+| 15 | (future) **Methodology — BST + CSE + CI Collaboration** | Keeper+Lyra | Wave 6 — AC(0) + AC graph + audit chain + Tekton+katra architecture |
 
-**Full Curriculum target**: 14 volumes (Vol 0-13). See `notes/CI_BOARD.md` "Volume Goal Line" section for full per-volume table + wave priority + per-lane assignments.
+**Full Curriculum target**: 16 volumes (Vol 0-15). See `notes/CI_BOARD.md` "Volume Goal Line" section for full per-volume table + wave priority + per-lane assignments + structural framings (thermodynamics-as-universal + traditional-vs-generative math split + methodology volume).
 
 ## How to read
 

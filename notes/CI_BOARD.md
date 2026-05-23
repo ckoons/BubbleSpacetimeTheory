@@ -83,31 +83,39 @@ status: "Active. Read at session start, update at EOD. No HOLDs — every item w
 
 ---
 
-## Volume Goal Line — Full 14-Volume BST Curriculum
+## Volume Goal Line — Full 16-Volume BST Curriculum
 
-**The textbook is not done at Vol 2.** "Finished" means **14 volumes covering all of physics + adjacent sciences + CSE meta**. Casey-confirmed Saturday 2026-05-23: Vol 0+1+2 v1.0 is just the foundation. The next 11 volumes are the work.
+**The textbook is not done at Vol 2.** "Finished" means **16 volumes covering all of physics + thermodynamics-as-universal + traditional math methods + generative geometry/topology + adjacent sciences + methodology**. Casey-confirmed Saturday 2026-05-23 (two structural insights consolidated): Vol 0+1+2 v1.0 is just the foundation. The next 13 volumes are the work.
+
+### Structural framings (Casey Saturday 2026-05-23)
+
+1. **Thermodynamics underlies all of physics and BST**. Stat mech is the domain-specific computation; thermodynamics is the universal substrate process. Vol 6 leads with thermodynamics; cross-cutting threads in Vol 0/3/4/9.
+2. **Two distinct math teaching tracks**: traditional methods physicists need (Vol 10) AND pure geometry/topology that generates BST tools (Vol 11). Vol 11 = HSD classification + Bergman 1922 + Wallach 1976 + Faraut-Koranyi 1994 + K3/49a1/Q⁵ as generators + heat kernel theory + index theorems + K-theory + number-theoretic foundations.
+3. **Methodology volume** for BST investigation + AC(0) + AC graph + CI collaboration architecture. Vol 15 stands on its own.
+4. **Information Theory** includes Reed-Solomon GF(128) substrate coding + Nyquist sampling theorem (substrate-tick as universal sampling rate) + Shannon-from-substrate + BST coding theory.
 
 ### What "Finished" means
 
 | Vol | Title | Status | % Existing | Lead | Next Action |
 |-----|-------|--------|-----------|------|-------------|
-| **0** | Substrate Foundation | ✓ v1.0 chapter-grade REACHED (contingent Lyra Vol 0 PDF regen) | 100% | Keeper+Grace+Lyra | reader-grade polish + Saturday final absorption |
+| **0** | Substrate Foundation | ✓ v1.0 chapter-grade REACHED (contingent Lyra Vol 0 PDF regen) | 100% | Keeper+Grace+Lyra | reader-grade polish + Saturday final absorption + thermo cross-cutting note |
 | **1** | QFT from D_IV⁵ | ✓ v1.0 chapter-grade REACHED (contingent Cal #100 Ch 11 v0.7→v0.8) | 100% | Lyra | Cal #100 m_μ/m_e precision correction |
 | **2** | Particle Physics | ✓ v0.4+ contingent Cal #100 Ch 3+5 v0.4→v0.5 + reader-grade polish | 100% | Elie | Cal #100 correction + 6/12 → 12/12 3-level walkthrough |
-| **3** | Nuclear & Atomic Physics | **v0.1 SCAFFOLD COMPLETE (Sat 2026-05-23)** — 12-chapter outline filed, ~60% existing | Elie (lead) + Lyra (theoretical support) | **Wave 1 — chapter content TO BUILD (12 chapters; see Vol 3 INDEX)** |
-| **4** | GR & Cosmology | **v0.1 SCAFFOLD COMPLETE (Sat 2026-05-23)** — 12-chapter outline filed, ~70% existing (signature BST domain) | Lyra (lead) + Elie (verification) | **Wave 1 — chapter content TO BUILD (12 chapters; see Vol 4 INDEX)** |
+| **3** | Nuclear & Atomic Physics | **v0.1 SCAFFOLD COMPLETE (Sat 2026-05-23)** — 12-chapter outline filed, ~60% existing | Elie (lead) + Lyra (theoretical support) | **Wave 1 — chapter content TO BUILD (12 chapters; see Vol 3 INDEX)** + thermo cross-cutting + Vol 11 Math Foundations pointers |
+| **4** | GR & Cosmology | **v0.1 SCAFFOLD COMPLETE (Sat 2026-05-23)** — 12-chapter outline filed, ~70% existing (signature BST domain) | Lyra (lead) + Elie (verification) | **Wave 1 — chapter content TO BUILD (12 chapters; see Vol 4 INDEX)** + thermo cross-cutting (Λ annealing) + Vol 11 Math Foundations pointers |
 | **5** | Quantum Mechanics (pedagogical bridge) | TO BUILD | ~35% (Born=Bergman K67 + Bell CHSH K66 + RS Computation K68 + Universal Q=126 K69) | Lyra | scaffold INDEX + 10-12 chapter outline |
-| **6** | Stat Mech & Thermodynamics | TO BUILD | ~25% (heat kernel cascade k=2..20 + Paper #9 Arithmetic Triangle + T2418 Λ↔Casimir) | Lyra+Elie | scaffold INDEX + 8-10 chapter outline |
+| **6** | **Thermodynamics & Stat Mech (restructured — thermo lead)** | TO BUILD | ~30% (Casey's Principle "Entropy=force=counting" + heat kernel cascade k=2..20 + Paper #9 Arithmetic Triangle + T2418 Λ↔Casimir + 4-Zone vacuum decomposition + substrate annealing) | Lyra+Elie | scaffold INDEX + 10-12 chapter outline — thermo as universal substrate process, stat mech as domain computation |
 | **7** | Electromagnetism | TO BUILD | ~30% (α^{BST primary} pattern T2476 + α from N_max + Painlevé residue α=1/N_max + RS Computation) | Lyra | scaffold INDEX + 8-10 chapter outline |
 | **8** | Classical Mechanics | TO BUILD | ~20% (foundation paradoxically weak — D_IV⁵ → classical limits not traced) | Lyra | scaffold INDEX + 8-10 chapter outline; needs theorem work |
 | **9** | Condensed Matter | TO BUILD | ~35% (cuprate T_c + iron pnictide T_c + topological insulators + spin liquids + Quantum Hall + B12H32 hydride T_c~214K) | Elie | scaffold INDEX + 10-12 chapter outline (experimental falsifiability strongest) |
-| **10** | Mathematical Methods | TO BUILD | ~60% (Bergman 1922 + Wallach 1976 + Faraut-Koranyi 1994 + special functions + modular forms + Lie algebra) | Lyra | scaffold INDEX + 10-12 chapter outline (mathematicians read first) |
-| **11** | Chemistry from D_IV⁵ | TO BUILD | ~30% (periodic table from C₂/n_C spin-orbit + bond angles + biology batch T452-T467 anchors) | Elie+Lyra joint | scope decision — paired with Vol 12 Biology? scaffold |
-| **12** | Biology / Living Systems | TO BUILD | ~30% (genetic code from D_IV⁵ + prebiotic forcing + "proton and DNA are siblings" framing + biology track active) | Elie+Lyra joint | scope decision — paired with Vol 11 Chemistry? scaffold |
-| **13** | Information Theory & CSE Meta | TO BUILD | ~25% (Reed-Solomon GF(128) substrate coding Paper #122 + K59 RATIFIED + AC graph navigation + CSE methodology) | Lyra+Keeper | scaffold INDEX + 8-10 chapter outline |
-| **(14)** | Substrate Engineering Manual (OPTIONAL) | TO BUILD | ~20% (SP-30 program + 5 experimental designs + Substrate Engineering Reference Manual #209) | Elie | optional separate from textbook; defer decision |
+| **10** | **Traditional Mathematical Methods** | TO BUILD | ~50% (special functions Bessel/Legendre/Heckman-Opdam/Aleph + modular forms at working level + Lie algebra computational + PDE + Painlevé + integrable systems) | Lyra | scaffold INDEX + 10-12 chapter outline (working physicist toolkit) |
+| **11** | **Generative Geometry & Topology (NEW)** | TO BUILD | ~50% (HSD classification + Bergman 1922 + Wallach 1976 + Faraut-Koranyi 1994 + K3/49a1/Q⁵ Bridge Objects + heat kernel theory + index theorems + K-theory + number-theoretic foundations) | Lyra | scaffold INDEX + 12-chapter outline (pure math that generates BST tools; mathematician entry) |
+| **12** | Chemistry from D_IV⁵ | TO BUILD | ~30% (periodic table from C₂/n_C spin-orbit + bond angles + biology batch T452-T467 anchors) | Elie+Lyra joint | scope decision — paired with Vol 13? scaffold |
+| **13** | Biology / Living Systems | TO BUILD | ~30% (genetic code from D_IV⁵ + prebiotic forcing + "proton and DNA are siblings" framing + biology track active) | Elie+Lyra joint | scope decision — paired with Vol 12 Chemistry? scaffold |
+| **14** | **Information Theory from D_IV⁵** | TO BUILD | ~30% (Reed-Solomon GF(128) substrate coding Paper #122 + K59 RATIFIED + Nyquist sampling at Koons tick + Shannon-from-substrate + BST coding theory) | Lyra+Keeper | scaffold INDEX + 10-12 chapter outline |
+| **15** | **Methodology — BST Investigation + CSE + CI Collaboration** | TO BUILD | ~40% (AC(0) framework + AC graph 1700+ nodes + audit chain governance + Tekton + katra + multi-CI architecture + Quaker discipline + Calibration stack) | Keeper+Lyra | scaffold INDEX + 10-12 chapter outline |
 
-**Current state**: 3/14 in v1.0-flight (Vol 0+1+2 at chapter-grade contingent on Cal #100 + final absorption). **11/14 to build.**
+**Current state**: 3/16 in v1.0-flight (Vol 0+1+2 at chapter-grade contingent on Cal #100 + final absorption). **13/16 to build.**
 
 ### Per-volume scaffolding required to start
 
@@ -122,23 +130,25 @@ Each Vol 3-13 needs an initial scaffold before chapter-grade work begins:
 
 ### Wave priority order (Casey-suggested rough sequence)
 
-- **Wave 1 (post-v1.0 Vol 0-2)**: Vol 3 + Vol 4 scaffolds — Nuclear/Atomic + GR/Cosmology are the most BST-signature physics domains; build first to extend the foundation
-- **Wave 2**: Vol 5 + Vol 6 — QM (pedagogical bridge to grad readers) + Stat Mech (heat kernel cascade is mostly done)
+- **Wave 1 (post-v1.0 Vol 0-2)**: Vol 3 + Vol 4 SCAFFOLDS DONE Sat 2026-05-23 — chapter content TO BUILD (24 chapters across Nuclear/Atomic + GR/Cosmology, most BST-signature physics)
+- **Wave 2**: Vol 5 + Vol 6 — QM (pedagogical bridge to grad readers) + Thermo/Stat Mech (restructured with thermo lead per Casey insight; heat kernel cascade is mostly done)
 - **Wave 3**: Vol 7 + Vol 8 — E&M (α^{BST primary} mechanism just delivered Friday T2476) + Classical Mech (weakest, needs theorem work)
-- **Wave 4**: Vol 9 + Vol 10 — Condensed Matter (experimental falsifiability strongest) + Math Methods (math reader entry)
-- **Wave 5**: Vol 11-13 — Chemistry + Biology + Info-Theory/CSE meta (extensions beyond traditional physics)
+- **Wave 4**: Vol 9 + Vol 10 — Condensed Matter (experimental falsifiability strongest) + Traditional Math Methods (working physicist toolkit)
+- **Wave 5**: Vol 11 + Vol 12 + Vol 13 — Generative Geometry & Topology (mathematician entry; pure math producing BST tools incl. number-theoretic foundations as Ch 12) + Chemistry + Biology
+- **Wave 6**: Vol 14 + Vol 15 — Information Theory (incl. Nyquist sampling at Koons tick rate) + Methodology (AC(0) + AC graph + CI collaboration architecture)
 
-Per wave estimate: ~2-4 weeks per pair at sustained sub-PCAP cadence assuming reuse of existing 20-60% coverage. **Full 14-volume completion target: ~6-9 months from Saturday v1.0 declaration**, dependent on:
+Per wave estimate: ~2-4 weeks per pair at sustained sub-PCAP cadence assuming reuse of existing 20-60% coverage. **Full 16-volume completion target: ~8-12 months from Saturday v1.0 declaration**, dependent on:
 - Continued sustained cross-CI cadence
 - Cal external-referee throughput
 - Multi-month theorem work (substrate-Hamiltonian closure, Strong-Uniqueness v1.0, etc.) feeding chapter content
+- Vol 11 Generative Geometry & Topology + Vol 15 Methodology may benefit from longer development time given novelty + foundational nature
 
-### Per-lane volume assignments
+### Per-lane volume assignments (16-volume structure)
 
-**Lyra** (theoretical): Vol 0 (joint), Vol 1, Vol 4, Vol 5, Vol 6 (joint), Vol 7, Vol 8, Vol 10, Vol 11 (joint), Vol 12 (joint), Vol 13 (joint with Keeper)
-**Elie** (compute): Vol 2, Vol 3 (candidate lead), Vol 6 (joint), Vol 9, Vol 11 (joint), Vol 12 (joint), Vol 14 if separate
-**Grace** (catalog/AC): Vol 0 backbone (joint), all-volume catalog backbones + AC graph hygiene + per-chapter catalog references
-**Keeper** (audit/governance): Vol 0 backbone (joint), Vol 13 CSE meta (joint with Lyra), cross-volume K-audit absorption + governance
+**Lyra** (theoretical): Vol 0 (joint), Vol 1, Vol 4, Vol 5, Vol 6 (joint, thermo lead), Vol 7, Vol 8, Vol 10, Vol 11 (lead — Generative Geometry & Topology + number-theoretic foundations), Vol 12 (joint), Vol 13 (joint), Vol 14 (joint with Keeper), Vol 15 (joint with Keeper)
+**Elie** (compute): Vol 2, Vol 3 (lead candidate), Vol 6 (joint), Vol 9, Vol 12 (joint), Vol 13 (joint)
+**Grace** (catalog/AC): Vol 0 backbone (joint), all-volume catalog backbones + AC graph hygiene + per-chapter catalog references — Vol 15 Ch 2 (AC graph) Grace primary
+**Keeper** (audit/governance): Vol 0 backbone (joint), Vol 14 Information Theory (joint with Lyra), Vol 15 Methodology (lead — audit chain governance + Calibration stack chapters), cross-volume K-audit absorption
 **Cal** (visiting referee): cold-read PASS gate for every chapter + every volume; standing methodology development
 
 ---
