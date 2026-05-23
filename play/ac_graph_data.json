@@ -72923,6 +72923,31 @@
       "from": 2470,
       "to": 2478,
       "source": "derived"
+    },
+    {
+      "from": 2469,
+      "to": 2480,
+      "source": "derived"
+    },
+    {
+      "from": 2471,
+      "to": 2481,
+      "source": "derived"
+    },
+    {
+      "from": 2441,
+      "to": 2482,
+      "source": "derived"
+    },
+    {
+      "from": 2470,
+      "to": 2482,
+      "source": "derived"
+    },
+    {
+      "from": 2433,
+      "to": 2482,
+      "source": "derived"
     }
   ],
   "chains": {},
@@ -116832,6 +116857,48 @@
       "name": "Higgs mechanism substrate-derivation via SO(2) factor breaking to U(1)_em; Higgs VEV v emerges from Bergman scale; m_H = 125 GeV per K172 dual-route Cal #21 substrate-mechanism",
       "status": "structurally_verified",
       "sp31_subitem": "#287 Higgs mechanism substrate-derivation"
+    },
+    {
+      "tid": 2480,
+      "label": "Decoherence Substrate-Mechanism (SP-31 #284)",
+      "domain": "foundations_quantum",
+      "commitment_cycle_zone": "Z3",
+      "zone_source": "manual",
+      "integer_set": "rank+N_c",
+      "integer_set_source": "manual",
+      "physical_type": "P2",
+      "physical_type_source": "manual",
+      "name": "Decoherence as substrate ensemble-marginalization across observer bandwidth + Koons-tick averaging; classical limit emerges via SCMP T2469",
+      "status": "structurally_verified",
+      "sp31_subitem": "#284 Decoherence"
+    },
+    {
+      "tid": 2481,
+      "label": "Spin-Statistics Formal Theorem (SP-31 #285)",
+      "domain": "foundations_quantum",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Spin-statistics from Pin(2) Z_2 grading on D_IV^5 substrate; boson/fermion partition = gamma^5 eigenspace partition (T2471) = Pin(2) Z_2 grading; no relativistic invariance assumption",
+      "status": "structurally_verified",
+      "sp31_subitem": "#285 Spin-statistics"
+    },
+    {
+      "tid": 2482,
+      "label": "Per-Boundary-Condition Theorems (SP-31 #288)",
+      "domain": "operator_algebra",
+      "commitment_cycle_zone": "Z2",
+      "zone_source": "manual",
+      "integer_set": "rank+n_C+C_2",
+      "integer_set_source": "manual",
+      "physical_type": "P1",
+      "physical_type_source": "manual",
+      "name": "Six internal + two external boundary condition substrate-derivation theorems; each BC corresponds to substrate operator zoo / isotropy / commitment-cycle structure",
+      "status": "structurally_verified",
+      "sp31_subitem": "#288 Per-BC theorems"
     }
   ],
   "metadata": {

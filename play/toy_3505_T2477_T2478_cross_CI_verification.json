@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "date": "2026-05-23",
+    "owner": "Elie",
+    "task": "T2477 + T2478 cross-CI verification battery (SP-31 #286/#287)"
+  },
+  "theorems_verified": [
+    "T2477 gauge-fields-as-connections",
+    "T2478 Higgs-via-SO(2)-SSB"
+  ],
+  "sin2_theta_W_numerical": 0.23076923076923078,
+  "sin2_theta_W_PDG": 0.23122,
+  "sin2_theta_W_deviation_percent": 0.19495252606574986,
+  "cal_99_meta_theorem_framing": "substrate-derivation, NOT new criteria",
+  "cal_21_dual_gate": "EMPIRICAL PASS + MECHANISM PASS for both",
+  "recommended_tier": "STRUCTURALLY VERIFIED for RATIFIED promotion"
+}

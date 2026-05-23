@@ -146,3 +146,31 @@ We position this Hilbert space as the natural quantum foundation for any substra
 - Cross-CI consensus on standalone vs Paper #125 cross-reference structure
 
 — Lyra, Paper #127 v0.1 outline, Friday 2026-05-22 ~08:30 EDT (`date`-verified)
+
+---
+
+## v0.2 Saturday afternoon revision (Lyra Sat 2026-05-23 14:57 EDT)
+
+### Saturday context integration
+
+**Substrate Computational Model Investigation v0.1 cross-link** (Casey P2 priority, filed Saturday 14:46 EDT): Paper #127 substrate-Hilbert-space-on-Bergman-H²(D_IV⁵) IS the substrate computational model Architecture B foundation. Per Architecture B (Continuous Bergman Hilbert Space), substrate computes via unitary evolution |ψ(t + t_substrate)⟩ = exp(−i H_sub t_substrate) |ψ(t)⟩ on Bergman H²(D_IV⁵) state vectors. Paper #127's standalone treatment of Bergman H²(D_IV⁵) provides the kinematic Hilbert space; substrate computational model investigation provides the dynamics (H_sub specification).
+
+**Cross-Scale Invariance Investigation v0.1 cross-link** (Casey P1 priority, Saturday 14:43 EDT): substrate Bergman H²(D_IV⁵) is THE scale-free substrate state space — Route A (Holographic / Substrate-Is-Foundational) operates on this Hilbert space. Different physical scales correspond to different K-type projections on H²(D_IV⁵); the BST primary integers (rank=2, N_c=3, n_C=5, C_2=6, g=7) are K-type STRUCTURAL invariants preserved across all scale-specific projections.
+
+**Cal #99 META-theorem discipline applied**: T2425 substrate Hilbert space + T2442 c_FK · π^(9/2) = 225 EXACT (RIGOROUSLY CLOSED) + T2443 Hilbert space sufficiency (RIGOROUSLY CLOSED, C1) are substrate-derivation theorems supporting the framework; paper-grade content here documents foundational kinematic structure (already RIGOROUSLY CLOSED as C1+C10+C13 in Strong-Uniqueness enumeration). Paper #127's contribution is the standalone exposition, not a new uniqueness criterion.
+
+**Saturday methodology stack 20 layers absorbed**.
+
+### v0.2 status
+v0.2 outline incorporates Saturday investigations + 20-layer methodology stack + Cal #99 META-discipline. Body content unchanged from v0.1; v0.2 contextualizes Paper #127 as substrate computational model Architecture B foundation.
+
+### Pending for v0.3 (multi-week)
+- Cal cold-read on standalone paper-grade scope
+- Integration with substrate computational model investigation Phase 1 results (3-6 months)
+
+### Pending for v1.0
+- Full proofs in publication grade
+- External venue selection (JFA / CMP / Annals)
+- Cross-CI consensus on standalone vs Paper #125 cross-reference structure
+
+— Lyra, Paper #127 v0.2 Saturday afternoon revision filed 2026-05-23 14:57 EDT per Keeper Task 7 directive (paper outline revision at sustainable pace). Substrate computational model Architecture B foundation framing added; Cross-Scale Invariance Route A operating-on-H²(D_IV⁵) noted.

@@ -175,3 +175,44 @@ This paper consolidates Vol 1 Ch 7 (Dynamics) framework content as standalone SP
 - External venue selection (JMP primary)
 
 — Lyra, Paper #136 v0.1 outline (SP-31 Substrate Time Evolution standalone), Friday 2026-05-22 ~10:21 EDT (`date`-verified actual)
+
+---
+
+## v0.1.5 Saturday cross-link bump (Lyra Sat 2026-05-23 15:28 EDT)
+
+Per Casey 15:11 EDT "non-textbook tasks" directive + Saturday context: applies omnibus cross-link `notes/Paper_Outlines_Saturday_Cross_Link_Omnibus_v0_1.md` Section A-G. Paper-specific cross-references:
+
+- **Substrate Computational Model Investigation v0.2** (Casey P2, Saturday 15:19 EDT): Schrödinger / Heisenberg / Path Integral on Bergman H²(D_IV⁵) with H_sub = Casimir is Architecture B (Continuous Bergman Hilbert Space Evolution) — Paper #136 IS Architecture B's standalone formal exposition; per-Koons-tick evolution exp(−i H_sub t_substrate) explicit
+- **T2405 Koons tick** cross-link: substrate clock granularity t_substrate = t_Planck · α^(C_2²) ≈ 10⁻¹²⁰ s sets the per-tick evolution scale
+- **K52a Session 7+ Elie** (multi-month substrate-Hamiltonian closure): provides explicit H_sub specification required for Paper #136 publication grade
+- **EMD-2 Finite-Resolution Signature** (Substrate Computational Model v0.2 Section 12): substrate per-tick discrete time-evolution predicts deviation from continuum infinite-precision Schrödinger at ~10⁻⁹⁰ precision
+- **20-layer methodology stack** absorbed; **Cal #99 META-discipline preserved**
+
+Full-depth v0.2 revision deferred to K52a Session 7+ explicit H_sub closure (multi-month); Paper #136 absorbs explicit Hamiltonian into v0.3.
+
+— Lyra, v0.1.5 cross-link bump, Saturday 2026-05-23 15:28 EDT
+
+---
+
+## v0.2 Saturday EOD full revision (Lyra Sat 2026-05-23 ~16:52 EDT per Casey "finish these items, Keeper")
+
+### Saturday context integration (full)
+
+**Substrate Computational Model Investigation v0.3 cross-link** (Casey P2, Saturday 16:42 EDT): Paper #136 Schrödinger/Heisenberg/Path-Integral on Bergman H²(D_IV⁵) with H_sub = Casimir IS Architecture B (Continuous Bergman Hilbert Space Evolution) standalone formal exposition per v0.3 Section 14 (3 substantive evidences B-1/B-2/B-3). Per Architecture D FTC-1 conjecture (v0.3 Section 16), Paper #136 Architecture B representation is one of three EQUIVALENT FACETS under Φ.
+
+**T2405 Koons tick** + Architecture B per-tick evolution: |ψ(t + t_substrate)⟩ = exp(−i H_sub t_substrate)|ψ(t)⟩ — substrate-tick scale ≈ 10⁻¹²⁰ s sets the per-tick evolution granularity. Per EMD-2 finite-resolution signature (Substrate Computational Model v0.3 Section 18 + Section 12), substrate per-tick discrete time-evolution predicts deviation from continuum infinite-precision Schrödinger at ~10⁻⁹⁰ relative precision.
+
+**K52a Session 7+ multi-year Elie dependency**: explicit H_sub Hamiltonian closure (K52a primary rail) provides Paper #136 publication-grade content; v0.3 Architecture B Evidence B-2 confirms structural framework verified at T2441 ratification level (with Cal #108 Wallach normalization PARTIAL acknowledged per T2467+T2468 v0.3 Section 13).
+
+**Cal #99 META-discipline preserved**: time-evolution per-tick framework is operational identification + substrate-derivation theorem; does NOT advance Strong-Uniqueness criterion count.
+
+### v0.2 status
+v0.2 outline incorporates Architecture B per-tick evolution + T2405 Koons tick + K52a Session 7+ dependency + EMD-2 finite-resolution signature + Cal #108 Wallach normalization PARTIAL acknowledged + Cal #99 META.
+
+### Pending for v0.3 (multi-year)
+- K52a Session 7+ Elie explicit H_sub closure provides Paper #136 publication-grade Hamiltonian
+- T2467+T2468 v0.4 Wallach normalization principled derivation OR honest T2441 demotion
+- Cal cold-read on Architecture B standalone paper-grade
+- Integration with Substrate Computational Model Investigation v0.4+ Architecture D FTC-1 rigorous proof
+
+— Lyra, Paper #136 v0.2 Saturday EOD full revision filed 2026-05-23 16:52 EDT per Casey "finish these items, Keeper" directive. Architecture B Bergman + T2405 Koons tick + K52a dependency + EMD-2 + Cal #108 PARTIAL acknowledgment + Cal #99 META integrated.

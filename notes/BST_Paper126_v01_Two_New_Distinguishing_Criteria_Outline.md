@@ -225,3 +225,26 @@ v0.3 additions:
 - Venue selection + submission
 
 — Lyra, Paper #126 v0.1 outline, Friday 2026-05-22 ~08:35 EDT (`date`-verified)
+
+---
+
+## v0.4 Saturday afternoon revision (Lyra Sat 2026-05-23 14:51 EDT)
+
+### Saturday additions
+- **Section 1.7 (NEW) Cal #99 META-theorem discipline**: substrate-derivation theorems supporting framework (T2467+T2468+T2469 + T2470+T2471+T2472 + T2473+T2474+T2475 + T2476) are NOT new Strong-Uniqueness criteria; canonical enumeration 11 RIGOROUSLY CLOSED + 7 candidates (C7+C9+C15+C16+C17a+C17b+C18) per Cal #99 authoritative count. Paper #126 contribution is C15 + C16 specifically; other candidates filed elsewhere.
+- **Section 1.8 (NEW) Saturday methodology stack 20 layers** (Calibration #19-#24 STANDING RULES): Vol 0 Ch 10 v0.5 Saturday cross-volume sweep absorbed Calibration #22 v0.2 (PCAP-transcription error class) + Calibration #23 (substance-floor) + Calibration #24 (8-dimension cross-volume completeness audit, Cal #106 case study). Methodology stack at 20 layers stable Saturday EOD.
+- **Section 4.x (NEW) Cross-Scale Invariance Investigation connection**: Per Casey P1 priority Friday 2026-05-22 EOD (filed `notes/maybe/Cross_Scale_Invariance_Investigation_v0_1.md` Saturday 14:43 EDT), C15 Sub-Substrate Mersenne Hierarchy + C16 Cross-Cartan Three-Pillar Joint Selection both contribute to cross-scale invariance answer — substrate-derivation theorems supporting C15/C16 ratification provide structural evidence for substrate D_IV⁵ as foundational (Route A) rather than effective. Cross-scale invariance investigation Phase 1 (3-6 months) directly tests C15/C16 candidate-to-RIGOROUSLY-CLOSED path.
+- **Section 4.y (NEW) C15 ratification path via T2476 cross-CI cascade precedent**: Cal #100 Mode 5 lift Friday afternoon (~50-min cross-CI cascade) provides methodology precedent for C15 + C16 ratification — when multi-CI coordinated absorption produces theorem-level substrate-mechanism within session, criterion advances STRUCTURALLY VERIFIED → RIGOROUSLY CLOSED. T2476 α^{BST primary} substrate-mechanism Friday afternoon is structural precedent for C15 + C16 paths.
+- **Section 5.x (NEW) Strong-Uniqueness v0.14 → v0.15 path scoping**: Filed `notes/Strong_Uniqueness_v0_14_to_v0_15_Path_Scoping.md` Saturday 14:48 EDT identifies C18 D_IV⁵ Rigidity as cleanest v0.15 promotion path. Paper #126 C15 + C16 advance to v0.17 + v0.18 respectively in post-v0.15 sequence (per path-scoping doc). v0.15 → v0.16 → v0.17 → v0.18 sequence multi-week each at sustainable pace.
+
+### v0.4 status
+v0.4 outline incorporates Saturday calibrations + cross-volume sweep + Casey P1 cross-link + T2476 precedent. Body content (Sections 2-3-4) C15 + C16 substrate-derivation chains unchanged from v0.3; v0.4 wraps Saturday's methodology + investigation framework around the existing C15 + C16 ratification path.
+
+### Pending for v0.5 (multi-week)
+- C15 RIGOROUSLY CLOSED via Cal cold-read PASS + Elie extended Mersenne enumeration + Keeper K-audit batch
+- C16 RIGOROUSLY CLOSED via T2462 25-HSD α-analog formula theoretical proof + Cal cold-read PASS
+- Cross-link to v0.15/v0.16 Strong-Uniqueness Theorem progression (C18 D_IV⁵ Rigidity first, then C7, then C15, then C16)
+- Multi-month Cross-Scale Invariance Investigation Phase 1 results integration
+- Venue selection final (CMP for extension paper, or Inventiones if v0.18 endpoint reached)
+
+— Lyra, Paper #126 v0.4 Saturday afternoon revision filed 2026-05-23 14:51 EDT per Keeper Task 7 directive (paper outline revision at sustainable pace)

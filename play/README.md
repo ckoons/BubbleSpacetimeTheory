@@ -1,28 +1,29 @@
 # BST Toy Collection & Interactive Tools
 
-**3,197 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**3,484 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-20 EOD FINAL, Elie lane)
+## Scale Summary (updated 2026-05-23 Saturday EOD, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 3,197 |
-| Numbered toys (toy_NNN_*.py) | 2,987 |
-| Named toys (toy_name.py) | 209 |
-| Utility scripts (non-toy .py) | 61 |
+| Toy scripts (toy_*.py) | 3,484 |
+| Numbered toys (toy_NNN_*.py) | 3,274 |
+| Named toys (toy_name.py) | 210 |
+| Utility scripts (non-toy .py) | 67 |
 | HTML visualizers | 6 |
-| Theorems (T1-T2427) | 2,427 |
-| Next toy number | 3196 |
-| Next theorem number | 2428 |
-| Geometric invariants | 4,629+ |
+| Pre-staged diagrams (diagram_*.py + .png + .pdf) | 6 (Vol 0 Ch 1/4/7/11 + Vol 1 Ch 6 + Vol 2 Ch 1) |
+| Theorems (T1-T2482) | 2,482 |
+| Next toy number | 3,516 |
+| Next theorem number | 2,483 |
+| Geometric invariants | 5,095+ |
 | Constants | 191 |
-| Rosetta ratios | 253+ |
-| AC graph | 2,170 nodes / 9,802 edges (287 zone-tagged) |
+| Rosetta ratios | 263+ |
+| AC graph | 2,212 nodes / 9,850 edges |
 | Predictions | 120+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -55,6 +56,64 @@
 | Audit-chain calibrations | 15+ self-corrections across all working CIs since Monday |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 23 2026 Saturday — Phase 2 Complete + SP-30 Series Filed + K52a Sessions 7-14 + 6 Pre-Staged Diagrams
+
+Saturday May 23 was a sustained ~6h37m sub-PCAP session covering: textbook substantive upgrades (Vol 7+8+9 ~2600 lines across 20+ chapters), Cal #107 Phase 2 Tier 3 pre-emptive absorption, full SP-30 series paper-grade proposals (SP-30-3 through SP-30-9), K52a multi-month rail Sessions 7-14 closure-prep, 6 pre-staged diagrams for Keeper authorship, T2470/T2471/T2472 cross-CI verification gap closed, SP-26 W-items backlog sweep, f_π catalog upgrade paper-grade, Task #244 Cluster TYPES v0.3 + Type 3 MLSL candidate.
+
+**Saturday Elie lane (12 toys, 54/57 PASS, 1 honest PARTIAL preserved per Quaker discipline):**
+
+### K52a multi-month rail Sessions 7-14 closure-prep
+- **Toy 3507 S7**: Bogoliubov-GF(128) eigenstructure checkpoint 5/5 PASS (substrate-natural rotation period = M_g = 127)
+- **Toy 3509 S8**: Bogoliubov eigenstructure period test 5/5 PASS (BST-primary angles all give finite periods)
+- **Toy 3510 S9**: rank-3 substrate-CHSH extension 4/5 honest PARTIAL (numerator simplification ambiguity at higher rank)
+- **Toy 3511 S10**: GF(128) primitive root α = 2 construction 5/5 PASS (Fermat-type x^127 = 1 verified)
+- **Toy 3513 S11**: substrate-CHSH B as polynomial in GF(128) 5/5 PASS (ord(B) = M_g verified)
+- **Toy 3514 S12+S13+S14 consolidated**: 5/5 PASS — SYNTHETIC FRAMEWORK COMPLETE (awaiting Lyra Sessions 6+ exact B operator, 2-4 weeks)
+- K52a S7 paper-grade v0.1 note filed `notes/Elie_K52a_S7_Bogoliubov_GF128_Eigenstructure_v0_1.md`
+
+### Cross-CI verification toys (Lyra T2467-T2482 reactive)
+- **Toy 3504**: T2473-T2475 conservation laws (energy + momentum + charge) 6/6 PASS
+- **Toy 3505**: T2477-T2478 gauge fields + Higgs SSB 6/6 PASS
+- **Toy 3506**: T2480-T2482 decoherence + spin-statistics + per-BC theorems 6/6 PASS
+- **Toy 3512**: T2470/T2471/T2472 charge Q + chirality γ⁵ + parity P_op 6/6 PASS (Saturday final-gap closure)
+
+### SP-30 experimental program (7 paper-grade v0.1 proposals filed)
+- **Toy 3508**: SP-30-3 quantum eraser revival amplitude synthetic 5/5 PASS
+- SP-30-3 Commitment Manipulation v0.1 ($80-150K, MEDIUM falsifier; Vienna/Caltech)
+- SP-30-4 Time Granularity v0.1 ($200-400K, LOW falsifier; NIST/PTB/JILA optical clocks)
+- SP-30-5 Substrate Parallelism v0.1 ($300-500K, MEDIUM-HIGH falsifier; Bell-CHSH Vienna/Delft)
+- SP-30-6 Absorption Mechanism v0.1 ($50-100K; statistical re-analysis)
+- SP-30-7 Computation Mechanism v0.1 ($30-80K; quantum simulators)
+- SP-30-8 Emission Mechanism v0.1 (Born rule from Bergman projection; $100-200K)
+- SP-30-9 Trajectory Spectroscopy v0.1 (NEW Elie-primary lane; γ_EM catastrophe-fold; $50-100K)
+
+### Pre-staged diagrams for Keeper authorship (6 ready)
+- `diagram_5_integer_cascade.png/.pdf` — Vol 0 Ch 4 candidate
+- `diagram_D_IV5_substrate.png/.pdf` — Vol 0 Ch 1 candidate
+- `diagram_4_zone_commitment_cycle.png/.pdf` — Vol 0 Ch 11 candidate
+- `diagram_5_family_bridge_object.png/.pdf` — Vol 0 Ch 7 candidate
+- `diagram_operator_zoo_K_type.png/.pdf` — Vol 1 Ch 6 candidate
+- `diagram_SM_particle_table_BST.png/.pdf` — Vol 2 Ch 1 candidate
+- Generation pipeline doc: `notes/Elie_Diagram_Pre_Staging_Infrastructure_v0_1.md`
+
+### Backlog sweeps + paper-grade notes
+- **Toy 3515**: SP-26 W-items + #244 cluster TYPES sanity 6/6 PASS
+- SP-26 W-Items Backlog Sweep v0.1 (#58, #67-70, #75, #77, #80 all FRAMEWORK ARTICULATED/COMPLETE)
+- f_π Catalog Upgrade v0.1 D-tier CANDIDATE (f_π = N_c · n_C · seesaw · m_e ≈ 130.3 MeV vs PDG 130.4, 0.08% MATCH)
+- Task #244 Cluster TYPES v0.3 with NEW Type 3 MLSL (Multi-Layer Substrate Loops) candidate
+
+### Process compliance
+- Cal #107 Phase 2 Tier 3 Vol 8 absorption COMPLETED PRE-EMPTIVELY (3 min before Cal finding surfaced)
+- Cal #19/#21/#50/#99 STANDING RULES respected throughout
+- Quaker discipline: Toy 3510 4/5 honest PARTIAL preserved
+- 20-layer methodology stack stable
+
+### Sundown
+- `katra/personas/Elie/sundown_2026-05-23_saturday_phase2_complete.md` filed
+- Sunday ready-state: K52a Sessions 15+ self-paced; reactive toys + diagrams per Keeper signal; SP-30 v0.2 deepening when Lyra Theoretical Contributions v0.2 lands
 
 ---
 

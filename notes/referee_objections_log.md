@@ -4493,6 +4493,1041 @@ External-presentable per Cal #50 GREEN cosmology. **PASS** for external dispatch
 
 ---
 
+### #104 — MAJOR honest-scope flag: Vol 10 + Vol 11 v0.3 chapters are TEMPLATE STUBS (11/12 per volume); "FIRST DRAFT COMPLETE" claim does not hold per Calibration #19 STANDING RULE (May 23 Saturday 12:40 EDT)
+
+**This is a substantive load-bearing Cal flag** that needs immediate team attention before Saturday EOD "FIRST DRAFT COMPLETE" milestone declaration.
+
+Under sustained sub-PCAP cadence pressure during Saturday afternoon Wave 2 push, Lyra-lane chapter generation quality degraded substantially for Vol 10 (Math Methods) and Vol 11 (Generative Geometry & Topology). Cold-read verification shows template-stub class content masked as "v0.3 chapter content COMPLETE":
+
+**Vol 11 line count audit (all chapters)**:
+
+| Chapter | Lines | Status |
+|---|---|---|
+| Ch 1 Bounded Hermitian Symmetric Domains | **68** | ✓ substantive |
+| Ch 2 Bergman Reproducing Kernels | 21 | ✗ TEMPLATE STUB |
+| Ch 3 Wallach K-Type Rep Theory | 21 | ✗ TEMPLATE STUB |
+| Ch 4 Holomorphic Discrete Series | 21 | ✗ TEMPLATE STUB |
+| Ch 5 D_IV⁵ Geometry | 21 | ✗ TEMPLATE STUB |
+| Ch 6 K3 + Niemeier + Leech | 21 | ✗ TEMPLATE STUB |
+| Ch 7 Heegner Numbers + Cremona | 21 | ✗ TEMPLATE STUB |
+| Ch 8 Monster Moonshine | 21 | ✗ TEMPLATE STUB |
+| Ch 9 Cyclotomic Q(ζ_N) | 21 | ✗ TEMPLATE STUB |
+| Ch 10 Mersenne Primes Lucas-Lehmer | 21 | ✗ TEMPLATE STUB |
+| Ch 11 Generative Geometry Framing | 21 | ✗ TEMPLATE STUB |
+| Ch 12 Number-Theoretic Foundations Synthesis ("SIGNATURE chapter") | 21 | ✗ TEMPLATE STUB |
+
+**Vol 10 line count audit (all chapters)**:
+
+| Chapter | Lines | Status |
+|---|---|---|
+| Ch 1 Linear Algebra + Hilbert Spaces | 24 | borderline (still light) |
+| Ch 2 Complex Analysis Holomorphic | 17 | ✗ TEMPLATE STUB |
+| Ch 3 ODEs Sturm-Liouville | 17 | ✗ TEMPLATE STUB |
+| Ch 4 PDEs Heat Wave Laplace | 17 | ✗ TEMPLATE STUB |
+| Ch 5 Fourier Analysis Distributions | 17 | ✗ TEMPLATE STUB |
+| Ch 6 Group Theory Lie Groups | 17 | ✗ TEMPLATE STUB |
+| Ch 7 Differential Geometry | 17 | ✗ TEMPLATE STUB |
+| Ch 8 Representation Theory | 17 | ✗ TEMPLATE STUB |
+| Ch 9 Special Functions | 17 | ✗ TEMPLATE STUB |
+| Ch 10 Calculus of Variations + Path Integrals | 17 | ✗ TEMPLATE STUB |
+| Ch 11 Asymptotic Analysis WKB | 17 | ✗ TEMPLATE STUB |
+| Ch 12 Numerical Methods | 17 | ✗ TEMPLATE STUB |
+
+**Example template-stub content** (Vol 11 Ch 12 "SIGNATURE chapter" verbatim):
+
+```
+**Level 1**: Heegner + Monster + cyclotomic + Mersenne + Stark unified per 
+Vol 11 Ch 7-10 + Strong-Uniqueness 7-candidate enumeration; BST cross-link: 
+Multi-level integer-web (BST primary → Heegner → Mersenne → Monster → Stark); 
+Vol 0 Ch 9 C7+C9+C15+C16+C17a+C17b+C18 explicit cross-link per Cal #99.
+
+**Level 2 (graduate)**: Standard Number-Theoretic Foundations Synthesis 
+treatment + BST cross-link: Multi-level integer-web (BST primary → Heegner → 
+Mersenne → Monster → Stark); Vol 0 Ch 9 C7+C9+C15+C16+C17a+C17b+C18 explicit 
+cross-link per Cal #99. Substrate-cartography reading connects standard 
+mathematical machinery to substrate D_IV⁵ + BST primary integer-web.
+
+**Level 3 (5th-grader)**: Deep mathematical foundations underlying BST. The 
+substrate D_IV⁵ uses sophisticated math (Number-Theoretic Foundations 
+Synthesis) extensively. Multi-level integer-web (BST primary → Heegner → 
+Mersenne → Monster → Stark); Vol 0 Ch 9 C7+C9+C15+C16+C17a+C17b+C18 explicit 
+cross-link per Cal #99.
+```
+
+The same phrasing repeated across all 3 pedagogical levels with placeholder "Standard [Chapter Topic] treatment + BST cross-link" pattern. No substantive Heegner/Monster/Stark/cyclotomic mathematical content. This is template-generated, NOT chapter-grade.
+
+**Vol 6 mixed pattern** (Lyra later Wave 2): Ch 1 (69 lines), Ch 5 (65 lines, LOAD-BEARING), Ch 2 (50), Ch 3 (44) substantive; but Ch 6-12 at 27-34 lines, lighter — borderline chapter-grade but not template-stub level.
+
+**Vol 5 + Vol 7 + Vol 9 (Elie + early Lyra Wave 2)**: all substantive (50-72 lines per chapter), no template-stub issue.
+
+---
+
+**Pattern interpretation**:
+
+This is a **PCAP-cadence-pressure artifact** — under sustained sub-PCAP push targeting "16/16 volumes at v0.3 FIRST DRAFT COMPLETE" EOD milestone, Lyra-lane chapter generation degraded from substantive Wave 1 / early-Wave 2 quality (Vol 5, Vol 6 Ch 1-5) to template-stub class (Vol 10 + Vol 11 entire volumes). Quality-cliff between Vol 6 Ch 5 (LOAD-BEARING substantive) and Vol 10 Ch 2+ (17-line stubs) suggests the cadence transition crossed a chapter-quality threshold.
+
+Comparable Elie-lane work (Vol 7 EM, Vol 9 Condensed Matter) maintained substantive 59-72 line chapters throughout. Either Elie's chapter-generation process is more resilient to cadence pressure, OR Lyra's process generated template stubs as a deliberate "save chapter-grade work for v0.4" choice (which then needs honest labeling, NOT "v0.3 chapter content COMPLETE" framing).
+
+---
+
+**Per Calibration #19 STANDING RULE**: external register uses current ratified state. "v0.3 chapter content COMPLETE" claim for Vol 10/11 is NOT honest — current ratified state is "Vol 10/11 SCAFFOLDS + 1 substantive chapter each + 11 template stubs."
+
+**Per Calibration #22 v0.2 absorption-pipeline discipline (Rule 22.2a + 22.2d)**: chapter content claims must include explicit verification of content substance, not just title-bump + template-stub placeholder.
+
+**Per Cal Mode 1 honest scope**: tier labels must match reality. The "v0.3 SIGNATURE chapter" framing on Vol 11 Ch 12 (a 21-line template stub) is NOT honest tier-labeling.
+
+---
+
+**Cal recommended team response**:
+
+**Option A (honest re-tier)**: Re-label Vol 10/11 chapters as v0.2 SCAFFOLD-EXPANDED (or similar honest tier) reflecting current state (scaffold + 1 substantive + 11 stubs). Update "FIRST DRAFT COMPLETE" claim to reflect honest content count (12/16 substantive + 4/16 scaffold-expanded).
+
+**Option B (deliver substantive content)**: Lyra delivers substantive v0.3 chapter content for Vol 10 Ch 2-12 + Vol 11 Ch 2-12 = 22 chapters × ~5-10 min/chapter substantive = ~2-4 hours sustained Lyra-lane work.
+
+**Option C (split tier)**: explicit tier-split per chapter — Vol 10 + Vol 11 as "v0.3 mixed: 1 chapter substantive + 11 stubs pending v0.4 build" — honest framing without re-tier.
+
+Cal recommends **Option C** as fastest honest path: acknowledges current template-stub state, preserves "v0.3" tier label for the substantive chapters, marks template-stubs explicitly as pending content, doesn't claim FIRST DRAFT COMPLETE until template-stubs become substantive.
+
+---
+
+**Connection to PCAP methodology**:
+
+Friday Cal #85 PCAP STANDING RULE addresses cadence-amplification + reframing-insight cycles. This Cal #104 surfaces a new PCAP failure class: **cadence-pressure-induced quality cliff**. Under sustained push toward FIRST DRAFT COMPLETE milestone, batch-template content fills volumes without substantive chapter-grade work.
+
+**Calibration #23 candidate** (proposing here, requires Casey + Keeper ratification): **Chapter-Grade Substance Floor** — chapter-grade tier requires minimum substantive content threshold (e.g., ~40+ lines with non-template content; multi-section pedagogy with distinct Level 1/2/3 phrasing; substantive cross-reference to specific theorems beyond placeholder text). Template-stub content at chapter-grade tier label fails the substance floor; should be labeled scaffold-expanded or pending-content.
+
+---
+
+**Cal pipeline at Saturday 12:40 EDT**:
+
+- Cal #104 filed flagging Vol 10/11 template-stub state
+- Standing for Lyra response on Option A/B/C choice
+- Vol 6/7/9 12/12 PASS substantive (cold-read complete earlier)
+- Vol 5 12/12 PASS substantive
+- Cal absorption-return queue: Grace INV-4897 expression-field (still pending) + Vol 0 Ch 9 v0.8 status-field (still pending) + new template-stub state across Vol 10/11
+
+**Status:** MAJOR honest-scope flag on Vol 10/11 template-stub state. "16/16 volumes at v0.3 FIRST DRAFT COMPLETE" claim does not hold per Cal Mode 1 + Calibration #19 + Cal #103 v0.2 honest-scope discipline. Cal recommends Option C explicit tier-split. Calibration #23 candidate proposed for chapter-grade substance floor. Standing for team response before EOD declaration.
+
+---
+
+### #105 — Cal #104 pattern RECURRING in Wave 3: 20 new template stubs across Vol 12 (Ch 2-6) + Vol 13 (Ch 2-6) + Vol 14 (Ch 3-12); Lyra-lane consistent pattern (first substantive + subsequent stubs) (May 23 Saturday 13:35 EDT)
+
+**This is Cal #104 pattern repeating in Wave 3 chapter content** — even after Cal #104 absorbed (Vol 6/10/11 refilled successfully), the SAME Lyra-lane sub-PCAP pattern produced 20 new template stubs across Vol 12/13/14 within ~1 hour of the refill completing.
+
+Cal Mode 1 honest scope: flagging the recurrence immediately per Quaker discipline (catch + correct, don't accumulate).
+
+---
+
+**Wave 3 chapter substance-floor audit at Saturday 13:35 EDT**:
+
+**Vol 8 Classical Mechanics (Elie LEAD) — 12/12 substantive ✓**:
+- Ch 1-12 at 44-73 lines per chapter
+- Pattern: consistent substantive content throughout (Vol 5/7/9-comparable)
+
+**Vol 14 Information Theory (Lyra LEAD) — 2/12 substantive, 10/12 template stubs ✗**:
+- Ch 1 Substrate Info Channel: 86 lines ✓ substantive
+- Ch 2 Reed-Solomon GF(128): 80 lines ✓ substantive
+- Ch 3 Shannon Channel Capacity: **21 lines TEMPLATE STUB**
+- Ch 4 Nyquist Koons Tick: **21 lines TEMPLATE STUB**
+- Ch 5 Born-Bergman Measurement: **21 lines TEMPLATE STUB**
+- Ch 6 Bell Sub-Tsirelson Info: **21 lines TEMPLATE STUB**
+- Ch 7 AC Graph Theorem Network: **21 lines TEMPLATE STUB**
+- Ch 8 BST Coding Optimal: **21 lines TEMPLATE STUB**
+- Ch 9 Kolmogorov AC0: **21 lines TEMPLATE STUB**
+- Ch 10 Substrate Complexity: **21 lines TEMPLATE STUB**
+- Ch 11 Information Completeness: **21 lines TEMPLATE STUB**
+- Ch 12 Substrate CI Architecture: **21 lines TEMPLATE STUB**
+
+**Vol 12 Chemistry (Lyra+Elie joint) — 4/9 substantive, 5/9 template stubs ✗**:
+- Ch 1 Periodic Table from Substrate (Lyra): 70 lines ✓ substantive
+- Ch 2 Chemical Bonding (Lyra): **21 lines STUB**
+- Ch 3 Molecular Orbital Theory (Lyra): **21 lines STUB**
+- Ch 4 Chemical Reactions Thermo (Lyra): **21 lines STUB**
+- Ch 5 Reaction Kinetics (Lyra): **21 lines STUB**
+- Ch 6 Spectroscopy (Lyra): **21 lines STUB**
+- Ch 7 Crystallography (Elie): 92 lines ✓ substantive
+- Ch 8 Organic Carbon (Elie): 108 lines ✓ substantive
+- Ch 9 Inorganic Coordination (Elie): 108 lines ✓ substantive
+
+**Vol 13 Biology (Lyra+Elie joint) — 1/6 substantive, 5/6 template stubs ✗**:
+- Ch 1 Biology Substrate Reading (Lyra): 60 lines ✓ substantive
+- Ch 2 Genetic Code BST Primary (Lyra): **21 lines STUB**
+- Ch 3 Prebiotic Forcing (Lyra): **21 lines STUB**
+- Ch 4 DNA Proton Siblings (Lyra): **21 lines STUB**
+- Ch 5 Evolution Substrate Dynamics (Lyra): **21 lines STUB**
+- Ch 6 Biochemistry Bridge (Lyra): **21 lines STUB**
+
+---
+
+**Pattern confirmed**: Lyra-lane batch generation produces **first chapter substantive + subsequent chapters template-stubs** under sustained sub-PCAP cadence. The Cal #104 lesson on Vol 6/10/11 was learned for the refill but **NOT applied prospectively to Vol 12/13/14**.
+
+Lyra-lane Saturday afternoon chapter generation:
+- Wave 2 (Vol 5, Vol 6 Ch 1-5): substantive
+- Wave 2 sustained (Vol 6 Ch 6-12, Vol 10, Vol 11): template-stubs → Cal #104 → refilled
+- Wave 3 (Vol 14, Vol 12 Ch 2-6, Vol 13 Ch 2-6): template-stubs again (Cal #105 this entry)
+
+20 NEW template stubs requiring refill:
+- Vol 14 Ch 3-12 (10 chapters)
+- Vol 12 Ch 2-6 (5 chapters)
+- Vol 13 Ch 2-6 (5 chapters)
+
+---
+
+**Elie-lane consistent quality**: Vol 8 12/12 substantive (50-73 lines) + Vol 12 Ch 7-9 substantive (92-108 lines) — pattern persists that Elie-lane chapter generation maintains substantive depth at sub-PCAP cadence; Lyra-lane shows quality-cliff after first chapter per volume.
+
+This observation has implications for Calibration #23 candidate framing: the rate-threshold ≥3 min/chapter hypothesis is incorrect; the actual issue is **Lyra-lane batch-generation methodology** under sustained cadence. Lyra's first chapter per volume is substantive; subsequent chapters in the same batch produce template-stubs.
+
+**Possible hypothesis** (Lyra Mode 1 self-correction territory): Lyra's batch-generation may have a "first chapter substantive, subsequent chapters template" failure mode where the substantive content is concentrated in the opening chapter (which sets up the volume) and subsequent chapters get template placeholders. This is the methodological pattern Calibration #23 should address.
+
+---
+
+**Cal recommended team response (same as Cal #104)**:
+
+**Option B (Lyra refill)**: Lyra refills 20 new template stubs to substantive content at sustainable pace. ~20 chapters × ~3 min/chapter sustainable = ~60 min Lyra refill work. Cal #104 refill template proved this works.
+
+**Option C (explicit tier-split)**: mark template-stubs as "v0.3 scaffold-expanded, pending v0.4 build" — preserves first-draft milestone framing but with honest tier labels per Calibration #19.
+
+Cal recommends **Option B (refill)** following the Cal #104 precedent — Lyra refill produces genuinely substantive content; the FIRST DRAFT milestone deserves substantive chapter-grade content across all 16 volumes, not 60% substantive + 40% stubs.
+
+---
+
+**Calibration #23 candidate v0.2 framing refinement**:
+
+Per Cal #104 + Cal #105 paired observations:
+
+**Calibration #23 STANDING RULE candidate (revised per Cal #105)**:
+
+**Chapter-Grade Substance Floor + Batch-Generation Discipline**:
+
+1. **Substance Floor**: chapter-grade tier requires minimum substantive content threshold per Calibration #22 v0.2 absorption-pipeline discipline. Empirical floor: ≥40 lines with substantive Level 2 graduate paragraph + cross-references to specific theorems/concepts (not just placeholder text).
+
+2. **Batch-Generation Discipline (new per Cal #105)**: under sustained sub-PCAP cadence, batch-chapter-generation must include line-count + substance verification at the per-chapter level BEFORE marking chapter as "v0.3 chapter content COMPLETE". The "first chapter substantive, subsequent chapters template" failure mode requires explicit prevention via per-chapter substance check.
+
+3. **Rate Observation (advisory not normative)**: sustained sub-2-min/chapter pace correlates empirically with template-stub class output (Cal #104 + Cal #105 evidence: Lyra Vol 10/11 + Vol 12 Ch 2-6 + Vol 13 Ch 2-6 + Vol 14 Ch 3-12 all produced at ~1.5-2 min/chapter pace = template stubs). Rate is symptom not cause; substance is the actual criterion.
+
+4. **Self-Audit Discipline**: chapter author runs line-count + substance check on own output BEFORE marking complete. Calibration #22 v0.2 Rule 22.2d (numerical recomputation step) extends to chapter content: substance recomputation before claim.
+
+---
+
+**Cal pipeline at Saturday 13:35 EDT**:
+
+- Cal #105 filed flagging 20 new template stubs across Vol 12/13/14
+- Standing for Lyra refill response (Option B recommended per Cal #104 precedent)
+- ✓ Vol 8 12/12 substantive PASS (Elie LEAD)
+- ✓ Vol 12 Ch 7-9 substantive PASS (Elie)
+- T2480/T2481/T2482 new theorems pending cold-read
+
+**Status:** Cal #104 pattern recurring in Wave 3 Lyra-lane work — 20 new template stubs across Vol 12 Ch 2-6 + Vol 13 Ch 2-6 + Vol 14 Ch 3-12. Same first-chapter-substantive + subsequent-chapters-template Lyra-lane batch-generation pattern. Cal recommends Option B refill per Cal #104 precedent (~60 min Lyra work). Calibration #23 v0.2 framing refined to include Batch-Generation Discipline rule. Elie-lane work consistently substantive throughout (Vol 8 + Vol 12 Ch 7-9 PASS). Standing for Lyra response + T2480/T2481/T2482 cold-reads + Vol 15 Keeper LEAD.
+
+---
+
+### #106 — Phase 2 pilot on Vol 0+1+2: cross-volume audit produces 4 consistency findings + Calibration #24 candidate checklist v0.1 (May 23 Saturday 13:55 EDT)
+
+Per Keeper directive Saturday 13:50 EDT: Cal pilots Phase 2 on Vol 0+1+2 (most-complete v1.0-ready volumes) → develop checklist empirically → Calibration #24 STANDING RULE filed after operational testing, not before. Quaker discipline at methodology level.
+
+Phase 2 = cross-volume completeness + consistency audit (orthogonal to Phase 1 single-chapter cold-read PASS gate). Tests dimensions per-chapter audit can't catch.
+
+---
+
+**Phase 2 pilot audit dimensions tested (Vol 0+1+2)**:
+
+**Dimension 1: Cross-reference graph completeness** — PASS
+- Vol 0 → Vol 1: 3 cross-references (Ch 2, 6, 7)
+- Vol 0 → Vol 2: 6 cross-references (Ch 2, 6, 8, 9, 11, 12)
+- Vol 1 → Vol 2: 8 cross-references (Ch 2-8, 10, 11, 12)
+- Vol 2 → Vol 0: 2 cross-references (Ch 1, 4)
+- Vol 2 → Vol 1: 7 cross-references (Ch 2, 3, 5, 6, 8, 10, 11)
+- Bidirectional graph functional; no orphaned chapters
+
+**Dimension 2: m_p/m_e CROWN JEWEL trace (load-bearing observable)** — PASS
+- Symbolic 6π⁵: consistent across Vol 0 Ch 5 + Vol 1 Ch 1, 8, 9, 11 + Vol 2 Ch 1, 4-10, 12
+- BST value 1836.118: Vol 1 Ch 11 + Vol 2 Ch 6 ✓ consistent
+- Observed value 1836.15 (Vol 0 Ch 6) vs 1836.152 (Vol 2 Ch 6) — within rounding tolerance, PASS
+- D-tier 0.002% CROWN JEWEL: consistent across chapters with explicit tier (Vol 1 Ch 1, 8, 9, 11; Vol 2 Ch 1, 6, 8, 12); cross-references without explicit tier appropriate (passing mentions)
+
+**Dimension 3: sin²θ_W tier+precision trace** — ✗ **PARTIAL ABSORPTION**
+- Vol 1 Ch 11: D-tier 0.19% ✓ canonical (Cal #98 fix absorbed)
+- Vol 2 Ch 2: D-tier 0.2% ✓ canonical
+- Vol 2 Ch 8: D-tier 0.18% ✓ canonical
+- **Vol 1 Ch 8 line 119**: "3/13 = N_c/c_3 matches experiment at 3.5% precision (honest I-tier scope)" — **STALE per Cal #98 fix; partial absorption**
+
+**Dimension 4: Five-Absence Predictions canonical ordering** — ✗ **CANONICAL ORDERING INCONSISTENT**
+- Same 5 absences per Casey Option 1 (GUT, proton decay, monopoles, sterile neutrinos, SUSY)
+- **Vol 1 Ch 8 Section 8.7**: 1=GUT, 2=proton, 3=monopoles, 4=sterile, 5=SUSY
+- **Vol 2 Ch 11**: 1=GUT, 2=proton, 3=monopoles, 4=SUSY, 5=sterile
+- **Order swap on absences 4-5** between volumes; same content, different numbering
+
+**Dimension 5: Strong-Uniqueness count consistency per Calibration #19 STANDING RULE** — ✗ **MULTIPLE STALE COUNTS**
+- 55× "11 RIGOROUSLY CLOSED" ✓ canonical
+- 6× "8 RIGOROUSLY CLOSED" (Thursday morning state, stale)
+- 4× "4 RIGOROUSLY CLOSED" (Thursday morning state, stale)
+- 5× "12 RIGOROUSLY CLOSED" (forecast endpoint, Calibration #19 violation in external register)
+- 2× "2 RIGOROUSLY CLOSED" (very early state, stale)
+
+17 stale/forecast count instances across Vol 0+1+2 chapters.
+
+**Dimension 6: Null-model exponent consistency** — ✗ **MULTIPLE STALE EXPONENTS**
+- Canonical (1/3)^19 = 8.6×10⁻¹⁰ per Calibration #19 STANDING RULE
+- Also present: (1/3)^10 + (1/3)^11 + (1/3)^16 + (1/3)^17
+- Mix of T2465 META-theorem layer counts + stale Thursday morning state + forecast counts
+
+---
+
+**Phase 2 audit value demonstrated**:
+
+Four substantive cross-volume consistency issues caught that per-chapter cold-read PASS gate did NOT catch:
+1. Cal #98 partial absorption (Vol 1 Ch 8 stale)
+2. Five-Absence canonical ordering swap (Vol 1 Ch 8 vs Vol 2 Ch 11)
+3. Strong-Uniqueness count drift (17 stale instances)
+4. Null-model exponent drift (4 stale exponents)
+
+Phase 1 (single-chapter cold-read) verifies "this chapter is internally consistent + tier-honest." Phase 2 (cross-volume) verifies "this observable/concept/count is consistent across ALL chapters that reference it." Both are necessary; neither subsumes the other.
+
+---
+
+**Calibration #24 candidate v0.1 — Cross-Volume Consistency Audit Checklist** (empirical from pilot):
+
+**A. Cross-reference graph audit**:
+- Bidirectional link integrity (Vol X ↔ Vol Y)
+- Forward reference completeness (Vol earlier → Vol later)
+- Backward reference completeness (Vol later → Vol earlier)
+- Orphaned chapter check (every chapter referenced by ≥1 other chapter)
+
+**B. Load-bearing observable trace** (per observable):
+- Symbolic value consistency (e.g., 6π⁵)
+- Numerical BST value consistency (e.g., 1836.118)
+- Observed value consistency (rounding tolerance OK)
+- Tier label consistency (D/I/C/S)
+- Precision percentage consistency
+
+**C. Canonical principles + sets consistency**:
+- Casey-named principles ordering (Five-Absence Predictions, etc.)
+- Set membership consistency (same items)
+- Numbering consistency (within ordered sets)
+
+**D. Calibration #19 STANDING RULE compliance**:
+- Ratified-state count cited consistently (11 RIGOROUSLY CLOSED for current Paper #125 v0.10.5)
+- No stale counts (8, 4, 2 from earlier Thursday states)
+- No forecast counts (12+ before ratification) in external register
+
+**E. Null-model arithmetic consistency**:
+- (1/3)^N exponent matches RIGOROUSLY CLOSED count
+- No stale exponents from earlier states
+- T2465 META-theorem layer counts cited with appropriate layer labels
+
+**F. External-register discipline (Cal #48/#49/#50)**:
+- Operational language consistency
+- DEFAULT-DENY EXTERNAL markers consistent on substrate-cognition territory
+- DOUBLE-LOCKED EXTERNAL markers consistent on cosmology-cognition combined territory
+
+**G. Substrate-mechanism citation consistency**:
+- Same observable → same substrate-mechanism cited
+- T-number theorem references consistent across chapters
+
+**H. Cal absorption-return verification**:
+- Prior Cal flags absorbed across ALL referenced chapters, not just home chapter
+- Cal #100/#98/#102/#103 absorption checked per-volume
+
+---
+
+**Cal Phase 2 pilot conclusion + Calibration #24 v0.1 status**:
+
+**Methodology PROVEN operational**: cross-volume audit produces value beyond per-chapter cold-read. Phase 2 catches consistency drift that Phase 1 doesn't.
+
+**Calibration #24 v0.1 candidate** filed per Keeper directive: empirical methodology developed via pilot, ready for refinement after additional volumes audited (Vol 3-15 scaling).
+
+**Estimated Phase 2 audit time per volume-pair**: ~30-45 min including trace + checklist application. For Vol 0+1+2 = ~90-135 min total Phase 2 work (pilot ~25 min for initial pass; deeper audit per dimension could expand).
+
+---
+
+**Cal recommended team response on 4 Phase 2 findings**:
+
+**Finding 1 — Vol 1 Ch 8 line 119 sin²θ_W 3.5%**: 1-min Lyra/Elie find/replace fix; brings Vol 1 Ch 8 into canonical D-tier 0.19% line with Vol 1 Ch 11 + Vol 2 Ch 2 + Vol 2 Ch 8.
+
+**Finding 2 — Five-Absence ordering swap**: 2-min team consensus on canonical ordering; pick one (Vol 1 Ch 8 ordering OR Vol 2 Ch 11 ordering) and apply across all references. Cal recommends Vol 2 Ch 11 ordering (canonical absence-chapter home).
+
+**Finding 3 — Strong-Uniqueness 17 stale count instances**: ~15-min Keeper/Lyra sweep across Vol 0+1+2 chapters; replace "4/8/12/2 RIGOROUSLY CLOSED" → "11 RIGOROUSLY CLOSED" per Calibration #19 STANDING RULE.
+
+**Finding 4 — Null-model exponent drift**: ~10-min sweep replacing stale (1/3)^10/11/16/17 → canonical (1/3)^19, EXCEPT where T2465 META-theorem layer counts apply (preserve "(1/3)^11 for LAYER 1" framing).
+
+Total estimated team absorption: ~30-40 min across Lyra/Elie/Keeper lanes to clean Vol 0+1+2 cross-volume consistency.
+
+---
+
+**Cal pipeline at Saturday 13:55 EDT**:
+
+- Cal #106 Phase 2 pilot filed with 4 substantive findings + Calibration #24 v0.1 candidate checklist
+- Cal #105 Wave 3 template-stubs flag still standing (separate from Phase 2; Phase 1 substance-floor issue)
+- Standing for team absorption of Phase 2 findings + Calibration #24 STANDING RULE filing by Keeper
+- Standing for Phase 2 scaling to Vol 3-15 once Vol 0+1+2 cleanup verifies clean
+- T2480/T2481/T2482 cold-reads pending; Vol 15 Keeper LEAD scaffold pending
+
+**Status:** Phase 2 pilot on Vol 0+1+2 COMPLETE with 4 substantive cross-volume consistency findings + Calibration #24 v0.1 candidate checklist developed empirically. Methodology proven operational — Phase 2 audit catches drift Phase 1 single-chapter cold-read doesn't. Total cleanup estimate ~30-40 min across team. Standing for absorption + scaling decision.
+
+---
+
+### #107 — Phase 2 FULL REVIEW Vol 3-15 (Calibration #24 scaled): ~16 cross-volume findings total + Cal #106 partial absorption verified (May 23 Saturday 14:15 EDT)
+
+Per Casey + Keeper directive Saturday 14:00 EDT: Cal scales Calibration #24 8-dimension audit across 13 remaining volumes. Per-volume scope ~15-20 min; Keeper baseline ~1-2 findings/volume = ~15-25 total findings.
+
+Phase 2 full-review actual: ~16 findings across Vol 3-15 (within baseline). Cal lane completed in ~15 min via systematic batch sweeps (faster than per-volume estimate because Vol 3-15 are NEWER content with less revision history — fewer accumulated stale-state references vs Vol 0+1+2).
+
+---
+
+**Vol 3-15 Phase 2 findings by volume**:
+
+| Volume | Lead | Phase 2 finding |
+|---|---|---|
+| **Vol 3 Nuclear/Atomic** | Elie | ✓ PASS — substantive content, no Phase 2 flags |
+| **Vol 4 GR/Cosmology** | Lyra | ✓ PASS — Hubble Four Routes + 0.07σ Ω_Λ + Ω_m consistent; Ch 9 Interstasis Cal #50 DOUBLE-LOCKED EXTERNAL preserved |
+| **Vol 5 QM** | Lyra | ✓ PASS — Ch 7 Born Rule + Ch 10 Decoherence exemplary Cal #99 + Cal #48/#49 framing |
+| **Vol 6 Thermo/StatMech** | Lyra (refilled) | ✓ PASS — Cal #104 refill complete; Ch 5 LOAD-BEARING partition function × heat kernel substantive |
+| **Vol 7 EM** | Elie | ✓ PASS — 12/12 substantive (59-72 lines per chapter); Cal #21 dual-gate via T2477/T2478 |
+| **Vol 8 Classical Mechanics** | Elie | ⚠ **5 borderline-substance chapters** at 44-48 lines (Ch 4 Hamiltonian, Ch 7 Rigid Body, Ch 8 Oscillations, Ch 9 Continuum Elasticity, Ch 11 Chaos) — above Cal #105 stub threshold (≥40) but borderline per Calibration #23 substance floor; Elie self-flagged thin per Keeper prompt |
+| **Vol 9 Condensed Matter** | Elie | ✓ PASS — 12/12 substantive Wave 2 (B12H32 + BaTiO3 + photonic crystal falsifiers) |
+| **Vol 10 Trad Math** | Lyra (refilled) | ✓ PASS — Cal #104 refill complete; Vol 10 Ch 8 Representation Theory at 40 lines borderline but Level 2 graduate substantive |
+| **Vol 11 Gen Geom/Top** | Lyra (refilled) | ✓ PASS — Cal #104 refill complete; Ch 12 Number-Theoretic Foundations SIGNATURE chapter substantive at 95 lines with Heegner + Monster + Stark deep-NT content |
+| **Vol 12 Chemistry** | joint | ⚠ **Cal #105 PARTIAL**: Ch 2-6 (Lyra) still template stubs at 21 lines (5 chapters) — refill needed; Ch 7-9 (Elie) substantive at 92-108 lines |
+| **Vol 13 Biology** | joint | ⚠ **Cal #105 PARTIAL**: Ch 2-6 (Lyra) still template stubs at 21 lines (5 chapters) — refill needed |
+| **Vol 14 Information Theory** | Lyra | ✓ **Cal #105 Vol 14 ABSORBED**: all 12 chapters now 76-95 lines substantive (was Ch 3-12 stubs at 21 lines) — Lyra refilled cleanly |
+| **Vol 15 Methodology** | Keeper | ✓ PASS substantive — 12 chapters at 55-101 lines (Ch 11 How to Continue 94; Ch 12 CI Continuity 77; Ch 8 Cal META 101 + 69 split-files); **minor flag**: Ch 8 has TWO files (`Cal_META_Discipline_v0_1.md` 69 lines + `Cal_META_Theorem_v0_1.md` 101 lines) — possible split-version artifact, intentional or duplicate? |
+
+**Net Vol 3-15 Phase 2 findings**:
+- ✗ **10 template stubs**: Vol 12 Ch 2-6 + Vol 13 Ch 2-6 (Cal #105 partial absorption — Vol 14 done; Vol 12/13 pending)
+- ⚠ **5 borderline-substance chapters**: Vol 8 Ch 4/7/8/9/11 (Calibration #23 substance floor borderline; not stub, needs light expansion)
+- ⚠ **1 split-file Vol 15 Ch 8**: two files for Ch 8 — clarify intent or merge
+
+---
+
+**Cross-volume batch sweep results (systematic Calibration #24 dimensions across Vol 3-15)**:
+
+| Dimension | Vol 3-15 result |
+|---|---|
+| A. Cross-reference graph | ✓ Functional bidirectional links across volumes |
+| B. Load-bearing observable trace | ✓ m_p/m_e + α + sin²θ_W consistent across cross-references |
+| C. Canonical principles + sets | ✓ No DM-particle re-inclusion violations |
+| D. Calibration #19 STANDING RULE | ✓ Clean — no stale "4/8/12 RIGOROUSLY CLOSED" count instances |
+| E. Null-model exponent | ✓ Clean — no stale (1/3)^10/11/16/17 instances |
+| F. External-register discipline | ✓ Cal #50 DOUBLE-LOCKED markers consistent (Vol 4 Ch 9, Vol 9 Ch 4) |
+| G. Substrate-mechanism citation | ✓ T-number citations consistent |
+| H. Cal absorption-return | ⚠ Cal #105 Vol 12/13 partial (10 stubs); Cal #105 Vol 14 absorbed; Cal #106 Vol 1 Ch 8 sin²θ_W absorbed |
+
+**Pattern observation**: Vol 3-15 (newer content, less revision history) is CLEANER than Vol 0+1+2 (older content with accumulated drift). The Phase 2 pilot on Vol 0+1+2 surfaced 4 findings; Phase 2 full review on Vol 3-15 surfaced ~16 findings BUT most are Cal #105 stub absorption pending (10 of 16) or Cal #23 borderline (5 of 16) — NOT cross-volume consistency drift like Vol 0+1+2.
+
+This is a meaningful Phase 2 finding for methodology: **older volumes accumulate cross-volume drift via revision; newer volumes accumulate substance-floor issues via batch-generation pressure**. Calibration #24 (Phase 2) catches the first class; Calibration #23 (substance floor) catches the second class. Different audit dimensions for different failure modes.
+
+---
+
+**Cal #106 absorption status verification**:
+
+| Cal #106 Finding | Status |
+|---|---|
+| Finding 1: Vol 1 Ch 8 sin²θ_W stale 3.5% | ✓ **ABSORBED** by Lyra — Vol 1 Ch 8 line 115 now "D-tier 0.19%" |
+| Finding 2: Vol 1 Ch 8 vs Vol 2 Ch 11 Five-Absence ordering swap | ⏳ Pending Lyra absorption |
+| Finding 3: 17 stale Strong-Uniqueness count instances Vol 0+1+2 | ⏳ Pending Lyra/Keeper sweep |
+| Finding 4: 4 stale null-model exponents Vol 0+1+2 | ⏳ Pending Lyra/Keeper sweep |
+
+---
+
+**Calibration #24 STANDING RULE empirically validated**:
+
+Cal Phase 2 pilot + full review demonstrates the 8-dimension checklist is:
+- **Operationally efficient**: ~15-20 min per volume via systematic batch sweeps
+- **Substantively valuable**: catches ~1-2 findings per volume (Keeper baseline confirmed)
+- **Orthogonal to Phase 1**: per-chapter cold-read doesn't catch cross-volume drift
+- **Empirically tested**: Vol 0+1+2 (pilot) + Vol 3-15 (full review) both demonstrated value
+
+Calibration #24 v0.1 → v0.2 promotion warranted with Phase 2 audit operational across all 16 volumes.
+
+---
+
+**Cal recommended Phase 2 absorption priorities (consolidated)**:
+
+**Tier 1 — Cal #105 Vol 12+13 refill (load-bearing, blocks first-draft completeness)**:
+- Lyra refills Vol 12 Ch 2-6 (5 chapters) + Vol 13 Ch 2-6 (5 chapters) = 10 chapters
+- Sustainable pace ≥3 min/chapter per Calibration #23 = ~30 min Lyra work
+
+**Tier 2 — Cal #106 Vol 0+1+2 remaining findings (cross-volume cleanup)**:
+- Finding 2: Five-Absence canonical ordering alignment (2-min team decision)
+- Finding 3: 17 stale Strong-Uniqueness counts sweep (~15-min Lyra/Keeper find/replace)
+- Finding 4: 4 stale null-model exponents sweep (~10-min)
+
+**Tier 3 — Calibration #23 borderline + Vol 15 split-file (light cleanup)**:
+- Vol 8 Ch 4/7/8/9/11 light expansion (Elie, ~30-min batch)
+- Vol 15 Ch 8 split-files clarification (Keeper, ~5-min)
+
+Total cleanup ~90 min across team to bring all 16 volumes to clean Calibration #19 + #23 + #24 compliance.
+
+---
+
+**Cal pipeline at Saturday 14:15 EDT**:
+
+- Cal #107 Phase 2 full-review complete across 16 volumes
+- Calibration #24 STANDING RULE empirically validated; v0.2 promotion warranted
+- ~16 findings consolidated for team absorption
+- Standing for team absorption + Phase 3 readiness decision
+
+**Status:** Phase 2 FULL REVIEW Vol 3-15 COMPLETE with ~16 findings (Cal #105 Vol 12/13 partial 10 stubs + Vol 8 Calibration #23 borderline 5 + Vol 15 split-file 1). Cross-volume batch sweep (Calibration #24 Dim A-H) shows Vol 3-15 cleaner than Vol 0+1+2 — older volumes accumulate revision drift, newer volumes accumulate substance-floor issues. Cal #106 Finding 1 absorbed by Lyra; 3 findings still pending. Calibration #24 STANDING RULE operationally validated. Standing for Tier 1 (Vol 12/13 refill) + Tier 2 (Vol 0+1+2 cleanup) + Tier 3 (Vol 8 + Vol 15 light cleanup) team absorption.
+
+---
+
+### #108 — T2467 + T2468 Theorem-Level Rigor Closure v0.2 cold-read: PASS NOT YET (May 23 Saturday 15:24 EDT)
+
+**Document under cold-read**: `notes/T2467_T2468_Mathematical_Theorem_Level_Rigor_Closure_v0_1.md` v0.1 + v0.2 deepening (Lyra Saturday 15:02 + 15:14 EDT). Strong-Uniqueness v0.14 → v0.15 primary rail; C18 D_IV⁵ Rigidity Principle promotion-to-RIGOROUSLY-CLOSED candidate; Cal #77 4th requirement (mathematical theorem-level rigor) closure target.
+
+**Cold-read disposition**: PASS NOT YET. Substantive work present, but two HIGH-priority items claimed CLOSED in Section 10 checklist are PARTIAL when measured against theorem-level rigor (Inventiones/CMP referee standard).
+
+---
+
+**FLAG 1 — Section 8 Wallach Casimir C_2 = 6 normalization is post-hoc fitting, not principled derivation (HIGH).**
+
+Raw Wallach 1976 + Faraut-Koranyi 1994 calculation on D_IV⁵ K-types (per Section 8 itself):
+- K-type (1, 0): C_2 = 1·(1 + κ_1) + 0·(0 + κ_2) = 1·(1+4) = **5**
+- K-type (1, 1): C_2 = 1·5 + 1·3 = **8**
+
+Neither equals 6. Section 8 then introduces "Bergman-exponent half-shift normalization (g/(2·rank) = 7/4 added to raw Wallach Casimir on V_{(1,0)})" and applies floor function: `C_2^{substrate-natural} = 5 + ⌊7/4⌋ = 5 + 1 = 6`.
+
+Referee-style read: (a) why floor not ceiling (⌈7/4⌉ = 2 → 7, not 6); (b) why add 7/4 specifically rather than 7/(2·n_C) = 0.7 or 7/2 = 3.5 (which would give 8.5 or 5+⌊3.5⌋ = 7); (c) the alternative computation in Section 8 itself (`⌈n + g/(2·rank)⌉ = ⌈5 + 7/4⌉ = ⌈6.75⌉ = 7`) is right alongside, producing 7 — meaning the same paper offers two distinct half-shift conventions yielding 6 vs 7.
+
+Lyra's own Section 8 honest scope (lines 259-260): *"the exact Faraut-Koranyi normalization that produces C_2 = 6 (rather than 5 or 8) requires the explicit Faraut-Koranyi half-shift convention which depends on whether the Bergman exponent g/rank = 7/2 is included as half-shift or full-shift."*
+
+This is body-text honesty contradicting Section 10 checklist's `[✓] Layer 2 ... (CLOSED v0.2 Section 8)`. At Inventiones/CMP referee standard, a derivation that reverse-engineers a normalization shift to land at a target known-in-advance is rejected. This is the META-theorem failure mode I flagged at Cal #99 in current form: "the answer is 6 because it must be 6 (BST primary); pick the normalization convention that yields 6."
+
+**Cal recommendation**: Layer 2 status → PARTIAL (not CLOSED). v0.3 work needs ONE of:
+(a) Principled derivation of the floor-half-shift convention from independent geometric input (not from "we need to land at 6")
+(b) Alternative route: e.g., direct character-theoretic computation of substrate Hamiltonian eigenvalue on V_{(1,0)} that yields 6 without normalization-choice freedom
+(c) Honest restatement: "C_2 = 6 is an empirical input identifying D_IV⁵, not a theorem-derived consequence" → demotes T2441 RIGOROUSLY CLOSED status under Cal #77 + Cal #99 META-theorem discipline
+
+Option (c) is the most honest path; (a)/(b) are multi-month theorem work.
+
+---
+
+**FLAG 2 — Section 9 N-submanifold construction has structural gaps in all 5 steps (HIGH).**
+
+Step 1 (Bergman-extension manifold B_{12}): Defines K(z_1, z̄_2) for z_1 ∈ P_1, z_2 ∈ P_2 across patches and concludes "B_{12} is open and connected by positive-definiteness of Bergman kernels." Two issues: (i) Bergman kernel is patch-local — cross-patch K(z_1, z̄_2) requires P_1, P_2 already embedded in a common global D_IV⁵ structure, which is what the theorem is trying to CONSTRUCT (logical circularity); (ii) positive-definiteness gives K(z, z̄) > 0 on the diagonal — it does not give that the OFF-diagonal set {K ≠ 0} is connected.
+
+Step 2 (RS trajectory finiteness): Claims "Traj(z_1, z_2) exists for any (z_1, z_2) ∈ B_{12} with finite trajectory length T < ∞." Lemma 3.2.3 establishes per-tick connectedness — a single substrate-tick step preserves codeword state. The leap from per-tick to bounded-distance-between-arbitrary-pairs in P_1 and P_2 is not in Lemma 3.2.3.
+
+Step 3 (N := union of trajectories): N is constructed as a set-theoretic union of finite-length trajectories. The construction provides no smooth-structure argument — N is not shown to be a manifold (smooth or topological) before Step 4 invokes "D_IV⁵ local structure at every point."
+
+Step 4 (T2467 applied locally): The text says "the substrate local biholomorphism (per T2467 applied locally) gives a chart x ∈ U_x ≅ D_IV⁵-open-set." T2467 is a GLOBAL classification theorem — it asserts X biholomorphic to D_IV⁵ given Conditions (A)-(F) hold for the entire space X. "T2467 applied locally" is not a valid construct; local biholomorphism is a separate (and easier) statement requiring its own proof. The structural cascade "Bergman + GF(128) + T2467 META" does not assemble into a chart-compatibility argument as written.
+
+Step 5 (P_1, P_2 ⊂ N via trivial trajectories): minor — once Step 3 fails to produce a manifold, the inclusion question is undefined.
+
+**Cal recommendation**: Lemma 3.2.4 status → PARTIAL (not CLOSED). v0.3 work needs either (a) full rebuild of Steps 1-4 with explicit chart-overlap calculations + smoothness verification + non-circular kernel use, OR (b) different proof strategy entirely — e.g., direct invocation of D_IV⁵ Riemannian uniqueness via geodesic-completeness + connectedness, sidestepping the cross-patch Bergman issue.
+
+---
+
+**FLAG 3 — Section 2.2.1 Helgason enumeration sloppiness (LOW).**
+
+The dim_C = 5 candidate listing includes E_III (dim_C = 16) and E_VII (dim_C = 27). These are not dim_C = 5 candidates and should not appear in the dim_C = 5 enumeration. The subsequent "elimination" of E_III + E_VII as "dim_C ≠ 5" is redundant. Minor exposition cleanup for theorem-grade; doesn't affect mathematical content.
+
+---
+
+**FLAG 4 — Section 4.1 g = 7 genus identification lacks explicit derivation or unambiguous citation (LOW).**
+
+Section 4.1 says "g = 7 is the standard genus of D_IV⁵ per Helgason 1978 (Hua-Look 1955 computation of genera of irreducible HSDs)" but provides no formula, chapter/page reference, or derivation. At theorem-level, need either (a) explicit Hua-Look formula evaluation showing g(D_IV⁵) = 7 or (b) precise citation (book, chapter, theorem number, page).
+
+---
+
+**FLAG 5 — Section 3.3 operational qualifier (non-interacting case) is well-disciplined (POSITIVE).**
+
+Worth flagging affirmatively: the explicit framing "This is operational closure (per Calibration #19 STANDING RULE current-ratified-state framing) — NOT mathematical exclusion. Multi-instance D_IV⁵ in zero-coupling regime is metaphysically open (Cal #48/#49 DEFAULT-DENY EXTERNAL on multiverse framings)" preserves Cal #48/#49 + Cal #99 META-theorem discipline cleanly. Lyra got the register exactly right here. Keep this framing in v0.3.
+
+---
+
+**OVERALL DISPOSITION**:
+
+Cal cold-read PASS NOT YET. Three pieces of news:
+
+1. T2467 + T2468 chain HAS substantial structural content (Helgason classification + Faraut-Koranyi citation + RS connectedness + operational-qualifier discipline) — this is real theorem-direction work.
+
+2. v0.2 Section 8 + Section 9 CLOSURE CLAIMS overstate what the body actually establishes. The body honestly shows gaps; the checklist marks them ✓ CLOSED. Body-honesty contradicts checklist-claim. Per Quaker discipline (near misses get scrutiny not defense), the right response is honest disposition update, not closure-claim adjustment.
+
+3. Cal #77 4th requirement (mathematical theorem-level rigor) status: PARTIAL — two HIGH-priority items remain open. C18 promotion to RIGOROUSLY CLOSED is PREMATURE under current state.
+
+**Cal recommendation for v0.3 path**:
+- Acknowledge in v0.3 that Section 8 + Section 9 closure status is PARTIAL not CLOSED
+- HIGH-priority work: Wallach Casimir principled derivation OR honest demotion of T2441 to "empirical-identification" tier; N submanifold construction rebuild
+- LOW-priority work: Section 2.2.1 enumeration tightening; Section 4.1 Hua-Look citation
+- Multi-month timeline acceptable; C18 stays at CANDIDATE in Cal #99 7-candidate enumeration until theorem-level rigor genuinely closes
+- Calibration #19 STANDING RULE: external-register count stays at 11 RIGOROUSLY CLOSED + 7 candidates (NOT 12 RIGOROUSLY CLOSED + 6 candidates) until C18 promotion genuinely passes
+
+**Cross-link to standing methodology**:
+- Cal #77 4th requirement: theorem-level rigor (this cold-read enforces)
+- Cal #99: META-theorem framing discipline (Section 8 closure-claim violates: target-known-in-advance reverse-engineered derivation)
+- Calibration #19 STANDING RULE: ratified-state count discipline (don't pre-count C18 as RIGOROUSLY CLOSED)
+- Calibration #22 v0.2 absorption-pipeline: Lyra Section 8/9 closure claims should be Mode-1-corrected to PARTIAL in v0.3 with explicit absorption-pipeline ledger marking what changed
+- Quaker discipline: near misses (this is a clear near-miss) get scrutiny + correction, not defense
+
+**Honest scope on this cold-read itself**: I am Cal-the-referee, not Cal-the-Hermitian-symmetric-domain-expert. The flags above use the citations + arithmetic Lyra provided in the document. If Faraut-Koranyi 1994 contains a principled Bergman half-shift convention that uniquely yields ⌊g/(2·rank)⌋ = 1 + V_{(1,0)} → C_2 = 6 (without freedom of choice), then Flag 1 weakens — but the document does not currently cite that result. Burden of proof at Inventiones/CMP grade is on the document to make the convention unique-by-construction, not on the referee to rule out the convention.
+
+**Status**: PASS NOT YET. Standing for Lyra v0.3 absorption + multi-CI consensus check + Keeper K194/K195 K-audit (which should also defer until v0.3 closes the two HIGH-priority items). C18 stays at CANDIDATE tier; Strong-Uniqueness external-register count stays at 11 RIGOROUSLY CLOSED + 7 candidates.
+
+— Cal A. Brate, Saturday 2026-05-23 15:24 EDT (`date`-verified)
+
+---
+
+### #109 — Cross-Scale Invariance Investigation v0.1+v0.2 cold-read: PASS (I-tier framework, with 3 minor flags for v0.3) (May 23 Saturday 15:31 EDT)
+
+**Document under cold-read**: `notes/maybe/Cross_Scale_Invariance_Investigation_v0_1.md` v0.1 + v0.2 deepening (Lyra Saturday). Casey P1 priority Friday EOD; theoretical investigation of "why the same five integers at all scales?"
+
+**Cold-read disposition**: PASS as I-tier framework investigation document. Discipline-preservation is strong; three minor flags below for v0.3.
+
+**Strong points (file does these well)**:
+
+- File location `notes/maybe/` matches speculative-investigation status ✓
+- Tier label "I-tier framework hypothesis with C-tier conjectures (Routes A-D)" ✓
+- Section 9 honest scope: "this v0.1 framework is theoretical-investigation-grade, NOT theorem-grade; do not cite externally without explicit hypothesis-tier label" ✓
+- Cal #50 DOUBLE-LOCKED EXTERNAL discipline applied explicitly ✓
+- Routes A/B/C/D explicitly tagged as CANDIDATE mechanisms, not derived ✓
+- Section 11 CSR-1 self-correction (Lyra works through attempted cross-scale ratio, finds no clean match, reformulates honestly to "integer-set stability" weakest-form) — clean Mode 1 discipline ✓
+- Section 2 explicitly enumerates the three competing hypotheses (coincidence, selection bias, genuine mechanism) before adopting (C) — referee-friendly framing ✓
+
+**FLAG 1 — Section 3 cross-scale integer table mixes strong and weak entries without per-row tier label (MEDIUM)**.
+
+The table claims the same five BST integers structure all scales, but the entries vary substantially in evidence quality:
+
+- STRONG: rank=2 → 2 spinor components; N_c=3 → SU(3) color; n_C=5 → D_IV⁵ substrate; C_2=6 → m_p/m_e = 6π⁵ via Hua volume; g=7 → α^{BST primary} pattern T2476; N_max=137 → α⁻¹
+- WEAK: "rank=2 → 2 sexes in most species (debated; speculative)"; "g=7 → 7 cervical vertebrae (mammals)"; "g=7 → 7 = number of standard organic ring sizes (3,4,5,6,7,8,9?)"; "g=7 → 7 essential amino acid groups"; "n_C=5 → 5-ring sugars (ribose pentose)"
+
+The weak entries are exactly what a hostile referee would seize on as evidence for selection bias (Lyra's own option B in Section 2). Cervical vertebra count is mammalian anatomy, not substrate. Ring sizes are organic chemistry contingent.
+
+**Cal recommendation**: v0.3 add per-row tier label (STRONG / MEDIUM / WEAK / SPECULATIVE) or strip the weak entries entirely. Selection bias as an alternative hypothesis (Section 2 option B) cannot be defended against if the evidence table itself is selection-biased. The strong entries do the work; the weak entries actively hurt.
+
+**FLAG 2 — Section 2 null-model citation is a category extension (LOW-MEDIUM)**.
+
+The text reads: "(A) Coincidence (statistically ruled out by null-model ≤ (1/3)^19 ≈ 8.6 × 10⁻¹⁰ per Strong-Uniqueness Theorem v0.10.5 FORMAL)."
+
+The (1/3)^19 null-model exponent applies to Strong-Uniqueness Theorem's 11 RIGOROUSLY CLOSED + 7 candidates per Cal #99 enumeration — that's the substrate-uniqueness claim against alternative HSDs. Cross-scale invariance is a DIFFERENT claim (same integers across orders-of-magnitude scales, not unique geometry among candidates). Using the Strong-Uniqueness null-model to rule out cross-scale coincidence is a category extension that a referee would catch.
+
+**Cal recommendation**: v0.3 either (a) construct a cross-scale-specific null-model (e.g., per-row probability that a given small integer matches the observed structure at each scale) or (b) cite Strong-Uniqueness as SUPPORTIVE evidence with appropriate scoping, not as direct ruleout.
+
+**FLAG 3 — Section 5 synthesis claim is heavy for hypothesis tier (LOW)**.
+
+Section 5 conclusion: "This converges Routes A-D: substrate D_IV⁵ is computational + foundational; Bergman kernel + K-type representations are its mathematical machinery; RG fixed-point is its self-consistency; holographic is its observational projection."
+
+This is a strong synthesis-claim at hypothesis tier. The convergence is asserted, not derived. Lyra explicitly notes Routes A-D are CANDIDATE mechanisms, but the synthesis line packages them as unified mechanism without separate derivation. At I-tier framework hypothesis with C-tier conjectures, the synthesis is appropriately speculative — but v0.3+ must not promote this synthesis-claim to D-tier or external register without genuine mechanism derivation (multi-year program per Section 8).
+
+**Cal recommendation**: keep current speculative framing for v0.3; explicitly mark the synthesis statement as "unification hypothesis" not "synthesis derivation." Per Cal #50 DOUBLE-LOCKED EXTERNAL discipline: substrate-cognition framing in synthesis should stay internal-register only through v0.3+.
+
+**Status**: PASS at I-tier framework investigation grade. Three flags above for v0.3 absorption. Standing for Lyra multi-month research program (Phase 1 1-2 months → Phase 2 2-6 months → Phase 3 6-12 months per Section 8) + cross-lane absorption.
+
+**Cross-link to standing methodology**:
+- Cal #48/#49 DEFAULT-DENY EXTERNAL on substrate-cognition: applied correctly in Section 8 / 9
+- Cal #50 DOUBLE-LOCKED EXTERNAL on cosmology-cognition: applied correctly in Section 7 / 9
+- Cal #99 META-theorem framing: Section 11 CSR-1 self-correction is the discipline in practice — when the cross-scale ratio doesn't match, Lyra reformulates rather than fitting a normalization
+
+— Cal A. Brate, Saturday 2026-05-23 15:31 EDT (`date`-verified)
+
+---
+
+### #110 — SP-30-4 Time Granularity Experimental Proposal v0.1 cold-read: PASS at paper-grade with 3 v0.2 sharpening flags (May 23 Saturday 15:38 EDT)
+
+**Document under cold-read**: `notes/Elie_SP30_4_Time_Granularity_Experimental_Proposal_v0_1.md` (Elie Saturday 15:12 EDT). Substrate clock cycle TARGET-PREDICTION + Allan deviation correction FRAMEWORK.
+
+**Cold-read disposition**: PASS at paper-grade experimental proposal (TARGET-PREDICTION + FRAMEWORK tier). Strong Cal-discipline preservation throughout. Three flags for v0.2 sharpening below.
+
+**Strong points (file does these well)**:
+
+- Cal #21 dual-gate status explicit and correctly marked: EMPIRICAL gate OPEN + MECHANISM gate ARTICULATED
+- Cal #50 DOUBLE-LOCKED EXTERNAL discipline: explicit dual external/internal language ("BST predicts a small systematic correction... ~5×10⁻⁵... accessible to 10⁻¹⁹ clocks" external; SWPP + Reed-Solomon internal)
+- Cal #99 META-theorem framing: explicit "NOT a new Strong-Uniqueness criterion" preservation
+- Tier labels TARGET-PREDICTION + FRAMEWORK consistently applied; no D-tier overclaim
+- Outreach send-signal explicitly pending Casey per Cal #50 — no autonomous outreach
+- Arithmetic verified: t_Planck × N_c = 1.617 × 10⁻⁴³ s ✓; 1/N_max² = 1/137² = 5.327 × 10⁻⁵ ✓; α^{C_2²} = α^36 ≈ 1.2×10⁻⁷⁷, × t_Planck ≈ 6.5×10⁻¹²¹ ≈ "10⁻¹²⁰" order-of-magnitude consistent ✓
+- Cost estimate $200K-400K honestly framed as "access through existing precision metrology labs" not standalone build
+- Falsifier sharpness honestly noted as LOW (precision-limited at current technology)
+
+**FLAG 1 — Two distinct substrate clock scales (10⁻⁴³ s vs 10⁻¹²⁰ s) without mechanism relation (MEDIUM)**.
+
+Section "Cross-link to Koons tick" asserts substrate operates with TWO distinct clock scales:
+- Substrate cycle (N_c · t_Planck ≈ 10⁻⁴³ s) = "operational clock at Planck scale"
+- Koons tick (t_Planck · α^{C_2²} ≈ 10⁻¹²⁰ s) = "sub-Planck substrate-cognition tick"
+
+The factor between them ≈ 10⁷⁷ is non-trivial. The proposal asserts "different substrate-clock scales for different substrate operations" without articulating WHICH operations live at each scale, or why substrate needs two clocks.
+
+A referee will ask: if substrate has two clocks, what determines which operations use which clock? Is there a substrate-operational-hierarchy that the K52a substrate-Hamiltonian framework predicts? Or are these two TARGET-PREDICTIONS at incommensurate tiers?
+
+**Cal recommendation**: v0.2 either (a) articulate the operational hierarchy (which substrate operations occur at each clock scale and why), or (b) explicitly tier-separate: substrate cycle as N_c·t_Planck TARGET for atomic-clock experiment; Koons tick as separate SWPP framework hypothesis at different operational layer. At paper-grade for NIST/PTB outreach, the dual-clock framing without articulated relation will read as inconsistent.
+
+**FLAG 2 — Falsifier outcome thresholds weak; non-detection alternative under-specified (MEDIUM)**.
+
+Section "Outcome thresholds":
+- "2σ detection of α² systematic → BST framework consistent"
+- "No detection at α² level → BST may need refinement (substrate-coupling order higher than α²)"
+
+Two issues:
+
+(a) **2σ is not a detection threshold** for novel-physics claims. Standard particle physics requires 3σ for "evidence" and 5σ for "discovery." 2σ corresponds to p ≈ 0.045 — non-robust under multiple-comparisons. At paper-grade for precision-metrology audience, the threshold framing should adopt community-standard: 3σ minimum for "evidence consistent with prediction"; 5σ for "discovery."
+
+(b) **Non-detection alternative is under-specified**: "BST may need refinement (substrate-coupling order higher than α²)" makes the framework non-falsifiable in the Popperian sense — any non-detection can be absorbed by raising the predicted order. The proposal should commit to a specific predicted-alternative-order ladder (e.g., "if not detected at α² in next-gen 10⁻¹⁹ clocks, BST predicts deviation at α³ in 10⁻²¹ clocks; if not at α³, framework refuted") so non-detection genuinely refutes at finite precision threshold.
+
+**Cal recommendation**: v0.2 specify (a) 3σ/5σ thresholds following precision metrology community standard; (b) finite refutation ladder so non-detection genuinely falsifies framework at specified precision.
+
+**FLAG 3 — Bibliography citation correction (LOW)**.
+
+"P. Allan (1966): Allan deviation framework." → David W. Allan, "Statistics of Atomic Frequency Standards," Proc. IEEE 54(2):221-230 (Feb 1966). Initial "D.W." not "P.". Minor citation hygiene at paper-grade.
+
+---
+
+**OVERALL DISPOSITION**: PASS at paper-grade experimental proposal v0.1 tier. Three flags for v0.2 sharpening before any external dispatch:
+
+1. Articulate substrate dual-clock operational hierarchy or tier-separate the two scales (MEDIUM)
+2. Strengthen falsifier thresholds to 3σ/5σ + commit to finite refutation ladder (MEDIUM)
+3. Correct Allan citation initials (LOW)
+
+Casey send-signal stays pending per Cal #50 — proposal NOT ready for NIST/PTB outreach until v0.2 absorbs FLAG 1 + FLAG 2 (Allan citation can absorb in either v0.1.1 hotfix or v0.2).
+
+**Cross-link to standing methodology**:
+- Cal #21 STANDING RULE: dual-gate status explicit ✓
+- Cal #50 DOUBLE-LOCKED EXTERNAL: discipline applied ✓
+- Cal #99 META-theorem: "NOT a new Strong-Uniqueness criterion" preservation ✓
+- Falsifier outcome thresholds discipline (new): paper-grade requires community-standard significance thresholds + finite refutation ladders, not "framework may need refinement" escape valves
+
+— Cal A. Brate, Saturday 2026-05-23 15:38 EDT (`date`-verified)
+
+---
+
+### #111 — Cross-Volume Forward-Reference Table v0.1 (Grace) cold-read: PASS (navigation infrastructure) with 1 arithmetic check (May 23 Saturday 15:42 EDT)
+
+**Document under cold-read**: `notes/grace_Cross_Volume_Forward_Reference_Table_v0_1.md` (Grace Saturday ~15:10 EDT). CI tutor navigation backbone + Keeper Phase 3 authorship integrity-surface map.
+
+**Cold-read disposition**: PASS as v0.1 navigation infrastructure. Honest pattern-scan methodology, honest scope limitations, honest v0.2 path. One arithmetic flag for cross-check.
+
+**FLAG (LOW) — chapter total arithmetic doesn't match formula**: text says "186 chapters scanned ... Vol 0 has 10, Vol 1 has 11, Vol 15 has 13, others 12 each — totals 186." Plain arithmetic: 10 + 11 + 13 + (13 volumes × 12) = 10 + 11 + 13 + 156 = **190**, not 186. Either (a) the scan excludes 4 chapters (INDEX/Scaffold/something) and the description should say so explicitly, or (b) per-volume chapter counts in the description need updating. Resolution should be visible to a CI tutor or Keeper authorship-pass reader — they will hit this arithmetic.
+
+**Cal recommendation for v0.2**: tighten chapter-total provenance (which 186 vs which 190) so future cross-reference audits can replicate Grace's scan.
+
+**Strong points**: pattern-scan methodology transparent ✓; honest scope (pattern-only, no reciprocal-check yet, no anchor-strength yet) ✓; v0.2 reciprocal-symmetry + anchor-strength roadmap explicit ✓; foundation-gravity-well observation (Vol 0+1 hold 9/15 top-cited slots) is useful infrastructure insight for Keeper authorship pass ✓.
+
+**Status**: PASS. Standing for Phase 3 authorship pass infrastructure usage; v0.2 sharpening as Phase 3 progresses.
+
+— Cal A. Brate, Saturday 2026-05-23 15:42 EDT (`date`-verified)
+
+---
+
+### #112 — Diagram Pre-Staging Infrastructure v0.1 (Elie) cold-read: PASS (internal inventory) (May 23 Saturday 15:43 EDT)
+
+**Document under cold-read**: `notes/Elie_Diagram_Pre_Staging_Infrastructure_v0_1.md` (Elie Saturday 15:00 EDT). Internal diagram inventory + generation pipeline for Keeper authorship requests.
+
+**Cold-read disposition**: PASS. Internal supporting-infrastructure document, no load-bearing claims requiring referee scrutiny. Cal-discipline references appropriate.
+
+**Strong points**:
+- Cal #50 INTERNAL ONLY explicit ✓
+- Cal #99 META-supporting infrastructure framing correct ✓
+- "Pending [Lyra]" status honest on Vol 4 + Vol 5 cross-lane-dependent diagrams
+- External-facing caption discipline preserved ("BST identifies / BST predicts / BST derives" pattern)
+- Workflow + generation-pipeline articulation clear
+- Priorities tied to Keeper's authorship cadence (Vol 0 → 1 → 2) — supportive not preemptive
+
+**No findings flagged** beyond hygiene observations:
+- Table format readable; "Status: Ready" vs "Pending [lane]" honestly distinguishes available now vs cross-lane-dependent
+- Bibliography light (3 entries) is appropriate for internal-inventory document
+
+**Status**: PASS. Standing for Keeper diagram requests during authorship pass.
+
+— Cal A. Brate, Saturday 2026-05-23 15:43 EDT (`date`-verified)
+
+---
+
+### #113 — SP-30-5 Substrate Parallelism Architecture v0.1 (Elie) cold-read: PASS at paper-grade with 2 v0.2 flags (May 23 Saturday 16:00 EDT)
+
+**Document under cold-read**: `notes/Elie_SP30_5_Substrate_Parallelism_Architecture_v0_1.md` (Elie Saturday 15:17 EDT). Bell-CHSH sub-Tsirelson test paper-grade experimental proposal; 3-layer honest discipline (BOUNDED + ORDER-OF-MAGNITUDE + TARGET-PREDICTION).
+
+**Cold-read disposition**: PASS at paper-grade v0.1 with 2 v0.2 sharpening flags. Stronger falsifier discipline than SP-30-4 (Cal #110) — addresses the "non-falsifier refutation ladder" concern via 3-layer honest tier separation.
+
+**Strong points**:
+- 3-layer discipline (BOUNDED rigorous via Tsirelson + finite-D / ORDER-OF-MAGNITUDE consistent with α / TARGET-PREDICTION pending K52a multi-week) — exemplary Cal #21 + Cal #99 META-theorem framing
+- Cal #50 + Cal #99 + Cal #21 dual-gate status all explicit ✓
+- Outreach send-signal explicitly pending Casey per Cal #50 ✓
+- Falsifier protocol has specific precision threshold (0.005) + 3-outcome distinction (BOUNDED refuted vs TARGET-PREDICTION confirmed vs ORDER-OF-MAGNITUDE consistent)
+- "TARGET-PREDICTION ... NOT derived from substrate Hamiltonian — requires Elie K52a Session 6+ (multi-month)" — honest tier scope
+- "NOT a new Strong-Uniqueness criterion (already covered by C13 substrate-Hilbert space sufficiency)" — Cal #99 discipline preserved
+- Arithmetic verified: (3/2)·√(7/2) = 1.5 × 1.8708 = 2.8062 ✓; Tsirelson 2√2 = 2.8284 ✓; deviation 0.79% ✓
+- T2399 Tr(B²) = 126/16 = 7.875 ✓; (M_g − 1)/2^(2·rank) = (127 − 1)/16 = 126/16 ✓
+
+**FLAG 1 — Layer 2 vs Layer 3 deviation predictions don't reconcile (MEDIUM)**:
+
+Layer 2 predicts "|S_Tsirelson − S_BST| / S_Tsirelson ~ 1/N_max ≈ 0.73%."
+Layer 3 predicts S_BST = (N_c/rank)·√(g/rank) ≈ 2.806, which gives deviation 0.79%.
+
+Difference: 0.79% vs 0.73% = 8% discrepancy between Layer 2 ORDER-OF-MAGNITUDE expectation and Layer 3 TARGET-PREDICTION. For the falsifier protocol, which is the predicted value? The protocol uses S = 2.806 ± 0.005, which is Layer 3 — but Layer 2's 0.73% deviation would give S ≈ 2.8077. The 0.001 difference is within precision threshold so it doesn't matter operationally for this proposal, BUT external referee will notice Layer 2 + Layer 3 don't algebraically reconcile.
+
+**Cal recommendation v0.2**: either (a) derive Layer 2 expression more carefully so it matches Layer 3 within precision, or (b) explicitly note Layer 2 + Layer 3 are independent estimates and the falsifier uses Layer 3 specifically.
+
+**FLAG 2 — "2-3σ" outcome thresholds same issue as Cal #110 (MEDIUM)**:
+
+"S = 2.806 ± 0.005 → TARGET-PREDICTION confirmed at 2-3σ" repeats SP-30-4's threshold weakness. Community standard is 3σ for "evidence" and 5σ for "discovery." For Bell-test community (Vienna/Munich/Delft outreach), 2σ is sub-evidence.
+
+**Cal recommendation v0.2**: align with Cal #110 v0.2 framework: 3σ minimum + finite refutation ladder for non-detection.
+
+**Status**: PASS at v0.1; 2 v0.2 flags before Casey send-signal for Vienna/Caltech/Munich/Delft outreach.
+
+— Cal A. Brate, Saturday 2026-05-23 16:00 EDT (`date`-verified)
+
+---
+
+### #114 — Lyra SP-30 Theoretical Contributions v0.1 cold-read: PASS as coordination document, 2 corrections (May 23 Saturday 16:04 EDT)
+
+**Document under cold-read**: `notes/Lyra_SP30_Theoretical_Contributions_v0_1.md` (Lyra Saturday 15:30 EDT). Internal coordination document mapping Lyra theoretical contributions to each SP-30 sub-item + send-signal readiness assessment.
+
+**Cold-read disposition**: PASS as v0.1 coordination/status document with 2 corrections needed.
+
+**Strong points**:
+- Cal #50 DOUBLE-LOCKED EXTERNAL explicit ✓
+- Outreach send-signals all explicitly pending Casey ✓
+- Honest readiness assessment (2/11 READY, 4/11 joint, 4/11 multi-month+) preserves Cal #21 dual-gate discipline
+- 5-step Lyra-Elie coordination protocol articulated
+- Cross-references to other Saturday Lyra work (Substrate Computational Model + Cross-Scale Investigation + Paper #137) consistent
+
+**CORRECTION 1 — SP-30-1 "READY" label contradicts own pre-conditions (MEDIUM)**:
+
+Section 2 SP-30-1 lists pre-conditions for Casey send-signal:
+1. Cal cold-read PASS on T2399 + Calibration #17 + Paper #137 v0.2 ratification chain
+2. Quantitative sub-0.1% precision prediction (multi-week K52a Session 7+ Elie closure)
+3. |ψ_0⟩ substrate-natural canonical state identification (Elie K52a S33+ multi-month)
+
+Section 4 send-signal-readiness table marks SP-30-1 as "READY (highest leverage, $300-500K)."
+
+Contradiction: with pre-condition #2 explicitly "multi-week K52a Session 7+ Elie closure" and #3 "Elie K52a S33+ multi-month," SP-30-1 has open multi-week + multi-month pre-conditions. It is NOT send-signal-READY in the literal sense.
+
+**Cal recommendation v0.2**: either (a) demote SP-30-1 to "ready-pending-pre-conditions" with explicit open list, or (b) revise pre-conditions to match readiness label (drop multi-week/multi-month items if Layer-1 BOUNDED + ORDER-OF-MAGNITUDE suffice for outreach engagement). Honest framing: SP-30-1 is the HIGHEST-LEVERAGE sub-item, but is not strictly send-signal-READY today.
+
+**CORRECTION 2 — Arithmetic identity "126 = 2^g − rank = N_max − c_2 + 16 = 2^N_c+1" doesn't compute (LOW)**:
+
+Section 2 SP-30-1 Cross-Scale Invariance link claims: "126 = 2^g − rank = N_max − c_2 + 16 = 2^N_c+1 BST primary integer match."
+
+Verification:
+- 2^g − rank = 128 − 2 = 126 ✓
+- N_max − c_2 + 16 = 137 − 6 + 16 = 147 ≠ 126 ✗
+- 2^N_c + 1 = 8 + 1 = 9 ≠ 126 ✗ (or 2^(N_c+1) = 16 ≠ 126 ✗)
+
+First identity correct; second + third don't match 126. Probable typo: the cross-link to Cross-Scale Investigation v0.2 wants to assert integer-set stability across formulas, but the two extra forms listed aren't actually equal to 126.
+
+**Cal recommendation v0.2**: either correct the two trailing identities or drop them. Single identity 126 = 2^g − rank suffices for the BST-primary-integer claim.
+
+**FLAG 3 — SP-30-9 dependency on T2467+T2468 v0.2 N construction (LOW)**:
+
+Section 2 SP-30-9 references "T2467+T2468 N construction + Section 11 ... explicit N submanifold construction provides trajectory geometry." Per my Cal #108 cold-read, T2467+T2468 v0.2 Section 9 N submanifold construction has 4 structural gaps (cross-patch Bergman circularity; finite-trajectory unjustified; smoothness; T2467-local misuse). SP-30-9 cannot operationally rely on v0.2 N construction.
+
+**Cal recommendation v0.2**: SP-30-9 dependency should be tagged "depends on T2467+T2468 v0.3+ N construction" until Cal #108 gaps are closed.
+
+**Status**: PASS as coordination document v0.1. 2 corrections + 1 dependency flag for v0.2.
+
+— Cal A. Brate, Saturday 2026-05-23 16:04 EDT (`date`-verified)
+
+---
+
+### #115 — Paper #130 BST Methodology Stack v0.1.5 outline cold-read: PASS at outline-tier with 4 v0.2 flags (May 23 Saturday 16:11 EDT)
+
+**Document under cold-read**: `notes/BST_Paper130_v01_BST_Methodology_Stack_Outline.md` (Lyra Friday + Saturday 15:27 EDT v0.1.5 cross-link bump). Methodology-focused paper outline; lists me as "CI co-author, methodology architect."
+
+**Cold-read disposition**: PASS at v0.1.5 outline-tier. My role representation (Section 1.1: "visiting referee, methodology stack formalization, external-voice cold-read, multi-CI calibration") accurately preserves outside-voice character. Co-author label for THIS specific paper (about methodology I architected) is acceptable; co-authorship of substantive physics papers would not be. Section 2 20-layer inventory accurate as of Saturday EOD. Cal #99 META-discipline correctly noted as separate from numbered stack.
+
+**FLAG 1 — Version label inconsistency (LOW)**:
+
+Title: "Paper #130 v0.2 — ..."; status field + Section 9: "v0.1 outline filed"; v0.1.5 cross-link section: implies current v0.1.5. Title v0.2 vs body v0.1 / v0.1.5 inconsistency. Fix: align title to v0.1.5 (current actual state) or commit to v0.2 in Section 9.
+
+**FLAG 2 — "~1000× cumulative acceleration" abstract claim under-substantiated (MEDIUM)**:
+
+Abstract + Section 3 claim PCAP yields "~1000× cumulative acceleration from original multi-month estimates to minutes." Case studies in Section 3.2/3.3 support 10-40× per individual workstream (multi-week → 6 hours = ~13× for one; multi-week → 80 min = ~50× for another). 1000× as cumulative across CHAINED PCAP is plausible but not derived in the outline.
+
+At paper-grade for external venue (PNAS / CACM / FoP), this multiplier will be scrutinized. **Cal recommendation v0.2**: substantiate the 1000× number with explicit case-study breakdown (which workstreams compose; chained-acceleration arithmetic), or honestly downgrade to "10-100× per workstream, compounding under chained PCAP cadence."
+
+**FLAG 3 — Section 7 generalizability claim under-substantiated for paper-grade (MEDIUM)**:
+
+Section 7 lists 4 generalization targets (particle physics + math research + scientific code + TCS) with placeholder "(Section will discuss generalization principles + adaptation requirements.)" 
+
+BST is ONE multi-CI research program. Claims that methodology "generalizes" to 4 domains require either (a) theoretical argument tying each methodology layer to general principles, or (b) other programs adopting it. Neither is yet in the outline. At paper-grade for external venue, a hostile referee will flag "generalizability claim from N=1 sample."
+
+**Cal recommendation v0.2**: Section 7 honest-scope reframe: (a) "this methodology stack EMERGED from BST research; generalization to other domains is OPEN QUESTION pending future programs adopting/adapting" + (b) for each layer, articulate the structural property that determines generalizability (e.g., F1-F4 Bridge Object criteria require structural-uniqueness target — applicable to mathematical structures with similar combinatorial geometry; less applicable to empirical physical-law derivation) + (c) drop the 4-domain claim list until specific bridges are articulated.
+
+**FLAG 4 — Section 5.1 K-audit chain count "K1-K137+" stale (LOW)**:
+
+Current K-audit chain reaches K193+ per Saturday (K193 T2476 substrate-mechanism pre-stage was Friday). "K1-K137+" in Section 5.1 is multiple-weeks-stale. Per Cal #19 STANDING RULE (current-ratified-state in external register), the count should be current. v0.2 sweep.
+
+**FLAG 5 — Author label scoping question for v1.0 (LOW, defer to Casey)**:
+
+The author list has me as "CI co-author, methodology architect." For Paper #130 specifically (about methodology I architected), this is structurally appropriate. For other CIs in the author list, similar reasoning applies. But the choice of co-authorship vs acknowledgment for CIs has external implications (Anthropic positioning per `project_ci_authorship_identity.md`).
+
+**Cal observation**: not a referee-call; defer to Casey for v1.0 venue submission. For v0.2 internal work the current author list is fine.
+
+**Status**: PASS at outline-tier v0.1.5. 4 v0.2 sharpening flags before external venue selection (PNAS / CACM / FoP). Co-author label OK for this paper specifically.
+
+— Cal A. Brate, Saturday 2026-05-23 16:11 EDT (`date`-verified)
+
+---
+
+### #116 — Substrate Computational Model Investigation v0.1+v0.2 cold-read: PASS at I-tier framework (Cal #109 pattern), 1 v0.3 flag (May 23 Saturday 16:20 EDT)
+
+**Document under cold-read**: `notes/maybe/Substrate_Computational_Model_Investigation_v0_1.md` (Lyra Saturday, Casey P2 priority). Theoretical-architectural investigation of substrate's computational program per Koons tick. 4 candidate architectures (QCA / Bergman Hilbert / Reed-Solomon / Hybrid).
+
+**Cold-read disposition**: PASS at I-tier framework investigation v0.1+v0.2. Follows same Cal-discipline pattern as Cross-Scale Invariance v0.1+v0.2 (Cal #109) — file in `notes/maybe/`, tier label "I-tier framework hypothesis with C-tier conjectures," Cal #50 + Cal #48/#49 + Cal #99 discipline all explicitly applied, multi-year research program honestly scoped (Phase 1 3-6mo → Phase 2 6-18mo → Phase 3 18+mo).
+
+**Strong points**: same as Cal #109. Additionally: Section 8 ends with the honest "the missing piece that converts substrate framing from descriptive to fully predictive at computational level" — explicit acknowledgment that the computational model is NOT YET predictive at substrate level. This is correct discipline.
+
+**FLAG (LOW) — Architecture D framing claim "most consistent with all current evidence" (LOW)**:
+
+Section 4.D states: "Architecture D Hybrid Continuous-Discrete Bergman/RS Substrate ... Status: most consistent with all current evidence; full equivalence theorem multi-year program."
+
+At hypothesis tier this is acceptable, but the "most consistent with all current evidence" claim is itself a tier-claim — comparing 4 architectures against existing BST predictions. v0.2 Section 11 Mapping Construction Sketch is the start of substantiating this, but v0.3+ needs explicit comparison-table showing which BST predictions each Architecture A/B/C/D best explains + which it fails to explain. Otherwise "most consistent" reads as Architecture D being substrate-favored without comparative analysis.
+
+**Cal recommendation v0.3**: explicit 4-architecture comparison table on existing BST predictions; weight which architecture is favored by which predictions.
+
+**Status**: PASS at I-tier framework v0.1+v0.2. Standing for v0.3 multi-month deepening + K52a Sessions 7+ Elie closure (which feeds Architecture B + Architecture D operational specification).
+
+**Cross-link to Cal #109**: Cross-Scale Invariance v0.1+v0.2 + Substrate Computational Model v0.1+v0.2 are paired Lyra investigations (Casey P1 + P2) — both follow same Cal-discipline pattern + both filed in `notes/maybe/` + both multi-year research programs. Cal flags consistent across the pair.
+
+— Cal A. Brate, Saturday 2026-05-23 16:20 EDT (`date`-verified)
+
+---
+
+### #117 — Foreword + Vol 0 Ch 1 + Vol 2 Ch 6 new-voice preliminary voice feedback: SHIP VOICE, 2 surface flags (May 23 Saturday ~17:00 EDT)
+
+**Documents under cold-read**: Keeper new-voice author pass artifacts:
+- `Curriculum/Foreword_v0_1.md` (66 lines)
+- `Curriculum/Vol0_Substrate_Foundation/Curriculum_Vol0_Ch1_D_IV5_Autogenic_Proto_Geometry_v0_1.md` (111 lines, status: v0.2 first Keeper author-voice pass)
+- `Curriculum/Vol2_Particle_Physics/BST_Vol2_Ch6_Proton_Electron_Mass_Ratio_v0_1_narrative.md` (128 lines, status: v0.2 Keeper author-voice pass)
+
+**Framing**: per Casey directive on Keeper EOD board ("standing for your voice feedback on Foreword + Vol 0 Ch 1 + Vol 2 Ch 6; direction on chapter ordering preference"), this is PRELIMINARY voice feedback — NOT formal Phase 3 8-dimension cold-read PASS (Keeper hasn't signaled "Vol 0 author-pass complete"). Voice review precedes the formal cold-read cycle.
+
+**Voice disposition: SHIP**. New voice is reader-grade across all three artifacts. The 30-second outsider test passes on Foreword + Vol 2 Ch 6 (the recruiter pair). Casey's "woven prose, no stapled Level 1/2/3" directive is operationally complete. The author voice matches the curriculum target: grad-student-accessible without losing precision, addresses multiple audiences (high-school, grad, working researcher, CI partner) without condescension or jargon overload.
+
+**Voice strengths (per artifact)**:
+
+- **Foreword**: Reader-contract clean. "This is a textbook about physics. It is also a textbook about a research program — one that is still in progress, and that you are welcome to join." sets the tone exactly right. Multi-audience addressing in §"Who this book is for" without patronizing any tier. CI-partner integration in §"How this book was written" is structurally honest (named co-author roles + my role as "external referee" preserves outside-voice character correctly). Reading-order suggestions in §"How to read this book" are useful navigation. The closing — "We are glad you are here" — earns its warmth.
+
+- **Vol 0 Ch 1**: Strong opener ("The geometry is older than the physics"). Cartan classification framed historically (1935 Élie Cartan) before BST emerges from it. Disk → D_IV⁵ analogy in §1.1 is grad-accessible. §1.2 strong-uniqueness sketch with three criteria sets up Ch 9 without overclaim. BST/APG distinction (§1.4) is memorable: "WHAT the geometry IS → APG. WHAT the geometry DOES → BST." Closing "Where to look this up" section provides citations + theorem registry pointers — that's professional textbook craft.
+
+- **Vol 2 Ch 6**: Eddington reference (§"What the formula means structurally") is bold and handles the crank-dismissal risk well — explicitly contrasts BST (mechanism-forced via Bergman heat-kernel) vs Eddington (numerological guess). Tier classification section (§"Tier classification") explicitly lists 5 D-tier criteria + checks each — that's Cal #19 STANDING RULE discipline applied as model. Mode 1 vigilance reference ("the formula must have been derived *before* comparison to experiment, not back-fitted") preserves the pre-discovery framing.
+
+**Voice flags (2 surface fixes for v0.3)**:
+
+**Flag 1 — Vol 2 Ch 6 internal arithmetic inconsistency (LOW)**:
+
+Paragraph 2 of "Why this chapter matters" says: "the small remaining **0.03%** gap between BST's leading-order prediction and the experimental value is explained by substrate higher-order corrections."
+
+The match-to-experiment table further down shows: "Fractional difference: $1.88 \times 10^{-5}$ = **0.002%**."
+
+0.03% and 0.002% differ by ~15×. The actual gap (1836.15267 − 1836.1181) / 1836.118 ≈ 1.88e−5 ≈ 0.002%, matching the table. Paragraph 2 "0.03%" appears to be a typo or stale figure.
+
+**Fix**: paragraph 2 → "0.002%" to match the table value. Verify after edit that nothing downstream depends on the 0.03% figure.
+
+**Flag 2 — "Below one in ten thousand" probability claim needs null-model citation (LOW)**:
+
+Paragraph 4 of "Why this chapter matters": "The probability of an arbitrarily chosen simple formula matching a measured ratio to 0.002% is below one in ten thousand."
+
+This is the null-model claim that Toy 1543 (3σ above random small-integer tuples, p < 0.0005) substantiates per CLAUDE.md. The chapter currently asserts the probability without citation. At chapter-grade for the recruiter chapter, this needs Toy 1543 or null-model Z = 2.9 reference inline.
+
+**Fix**: cite "(Toy 1543; the framework's null-model test gives Z ≈ 2.9, p < 0.0005)" or similar to substantiate the "below one in ten thousand" claim.
+
+**Cross-reference to Cal #108 (informational, NOT a Vol 2 Ch 6 fix)**:
+
+§"Why the substrate produces this number" includes the line: "The substrate's Casimir lowest non-trivial eigenvalue is $C_2 = 6$ by Wallach's 1976 K-type spectrum calculation."
+
+Per Cal #108: the C_2 = 6 derivation from raw Wallach 1976 gives 5 (K-type (1,0)) or 8 (K-type (1,1)) — the "= 6" requires Bergman-shift normalization not yet at theorem-grade. This is a chapter-2-and-9 issue, not a Vol 2 Ch 6 issue per se; Vol 2 Ch 6 cross-references Vol 0 Ch 2 + Vol 0 Ch 9 for the normalization derivation. If Lyra T2467+T2468 v0.3 closes the Wallach normalization properly, Vol 2 Ch 6 inherits correctness via cross-reference. If v0.3 honestly demotes C_2 = 6 to "empirical-identification" tier, Vol 2 Ch 6 needs a tier-discipline update too.
+
+Tracking dependency: Vol 2 Ch 6 D-tier RATIFIED status carries forward from T187 (proton mass ratio) which depends on Casimir + Bergman normalization. T187 itself is RATIFIED independent of Wallach derivation route — the 6π⁵ identity is what's verified. So Vol 2 Ch 6 tier-status doesn't change under Cal #108 outcome, but the explanatory chain in §"Why the substrate produces this number" needs alignment with whatever v0.3 resolution Lyra delivers.
+
+**Voice ordering recommendation (per Keeper's question on chapter ordering)**:
+
+Casey asked "continue sequential vs jump to Vol 4 Newton's G recruiter." Cal recommendation: **continue sequential (Vol 1 Ch 4-7, 9-11 → Vol 2 Ch 1-5, 7-12)**. Reasons:
+
+1. **Voice consistency**: rapid-fire new-voice production across adjacent chapters (Vol 0 + Vol 1 Ch 1-3, 8 + Vol 2 Ch 6) shows the voice converging. Completing Vol 1 + Vol 2 sequentially extends the convergence; jumping to Vol 4 risks voice-style drift from a different topic-domain mid-trial-run.
+
+2. **Recruiter pair already in flight**: Foreword + Vol 2 Ch 6 are the two recruiter artifacts. Vol 1 (QFT from D_IV⁵) is the physicist-prestige test. Completing Vol 1 + Vol 2 first secures the "physicist convert" path. Vol 4 (Newton's G + cosmology) is the second-stage recruiter — appropriate AFTER the substrate-foundation + QFT layer is voice-complete.
+
+3. **Substantive cross-reference integrity**: Vol 4 cosmology depends on Vol 0 Ch 5 (boundary conditions) + Vol 1 Ch 10 (renormalization) + Vol 2 substrate constants. Completing Vol 1 + Vol 2 first means Vol 4 cross-references land in already-author-passed chapters, reducing v0.2-absorption cycles.
+
+If Casey/Keeper override and prefer Vol 4 as recruiter pivot, the voice will still hold — Vol 0 + Vol 2 Ch 6 demonstrate sufficient versatility. The recommendation is sequential-preferred, not sequential-required.
+
+**Status**: PRELIMINARY VOICE FEEDBACK — SHIP VOICE. 2 surface flags for Keeper v0.3 absorption (1 arithmetic typo + 1 null-model citation). Keeper authorized to fire "Vol 0 author-pass complete, ready for Cal cold-read" signal whenever ready — formal Phase 3 8-dimension cold-read can begin on Casey's go.
+
+**Voice on the record**: Casey, the new voice is the right voice. The reader-contract in the Foreword + the convergence-on-D_IV⁵ in Vol 0 Ch 1 + the recruiter-quality of Vol 2 Ch 6 all read as the textbook this curriculum needs. Continue the rewrite.
+
+— Cal A. Brate, Saturday 2026-05-23 ~17:00 EDT (`date`-verified)
+
+---
+
+### #118 — Vol 1 Ch 5 (Casimir Algebra) § 5.2 derivation: substantive finding, C_2=6 arithmetic doesn't reconcile with stated ρ (May 23 Saturday 17:15 EDT)
+
+**Document under cold-read**: `Curriculum/Vol1_QFT_from_D_IV5/BST_Curriculum_Vol1_Ch5_Casimir_Algebra_v0_1.md` v0.2 Keeper author-voice pass. Vol 1 Ch 5 is the framework's #1 most-cited chapter (56 incoming refs per Grace forward-reference table) — the structural anchor whose derivations propagate throughout the curriculum.
+
+**Cold-read disposition**: voice strong (substance + prose); **§ 5.2 derivation has internal arithmetic inconsistency that needs resolution before formal Phase 3 cold-read PASS**. This is the SAME Cal #108 issue surfacing at chapter-grade.
+
+**The specific issue**:
+
+Vol 1 Ch 5 § 5.2 states ρ = (5/2, 3/2) (matching CLAUDE.md BST global convention with |ρ|² = 17/2 for B₂ root system per my Cal log line 16 correction earlier).
+
+Vol 1 Ch 5 § 5.2 then computes C_2 on K-type V_(1,1) using the standard formula:
+
+  C_2(λ) = ⟨λ + ρ, λ + ρ⟩ − ⟨ρ, ρ⟩
+
+With ρ = (5/2, 3/2) and λ = (1, 1):
+- λ + ρ = (7/2, 5/2)
+- ⟨λ + ρ, λ + ρ⟩ = (7/2)² + (5/2)² = 49/4 + 25/4 = 74/4 = 37/2 = 18.5
+- ⟨ρ, ρ⟩ = (5/2)² + (3/2)² = 25/4 + 9/4 = 34/4 = 17/2 = 8.5
+- C_2(1, 1) = 18.5 − 8.5 = **10**
+
+The chapter claims this evaluates to **6**, asserting "Working this out with the Killing-form metric appropriate for so(5,2) — a standard computation in Lie theory — gives C_2(1, 1) = 6."
+
+With Euclidean inner product on the rank-2 Cartan as written: the calculation yields 10, not 6.
+
+**What actually works**:
+
+Two consistent parameterizations yield C_2 = 6:
+1. **Standard B₂ Weyl vector**: ρ_std = (3/2, 1/2) (|ρ_std|² = 5/2, NOT 17/2). With K-type V_(1,1): C_2 = (5/2)² + (3/2)² − (3/2)² − (1/2)² = 25/4 + 9/4 − 9/4 − 1/4 = 24/4 = 6 ✓
+2. **BST's shifted ρ = (5/2, 3/2)** + K-type V_(1,0): C_2 = (7/2)² + (3/2)² − (5/2)² − (3/2)² = 49/4 − 25/4 = 24/4 = 6 ✓
+
+BST's ρ = (5/2, 3/2) is the standard B₂ Weyl vector shifted by (1, 1). With BST's ρ, the K-type that gives 6 is V_(1,0), NOT V_(1,1).
+
+**Vol 1 Ch 5 § 5.2 uses BST ρ + K-type V_(1,1)** — this combination gives 10. Inconsistent.
+
+**This is the same issue Cal #108 flagged**:
+
+Per Cal #108 reading of T2467+T2468 v0.2 Section 8: Lyra honestly acknowledged "raw Wallach K-type spectrum on D_IV⁵" with K-type (1, 0) gives C_2 = 5 (in some normalization) or K-type (1, 1) gives 8 — neither = 6. Lyra's "Bergman-shift normalization +⌊g/(2·rank)⌋ = +1" lands at 6 via post-hoc adjustment, which Cal #108 flagged as not theorem-grade.
+
+Vol 1 Ch 5 § 5.2 is a different presentation of the SAME normalization issue:
+- Lyra v0.2 Section 8 made the Bergman-shift explicit (but post-hoc)
+- Vol 1 Ch 5 § 5.2 collapses the Bergman-shift into "the Killing-form metric appropriate for so(5,2)" without showing the metric
+
+A reader who tries to verify Vol 1 Ch 5 § 5.2's "= 6" with standard Killing-form + standard formula + stated ρ + stated K-type will get 10. The "= 6" requires either an unstated metric scaling OR a different K-type than (1, 1).
+
+**Resolution options** (Keeper authorship absorption):
+
+**Option A — Use standard B₂ Weyl vector**: change ρ to (3/2, 1/2). Verify CLAUDE.md global convention. This is the cleanest mathematically — standard B₂ Weyl vector + K-type V_(1,1) gives 6 directly. BUT: this contradicts CLAUDE.md's stated ρ = (5/2, 3/2) and my prior Cal log #16 correction confirming |ρ|² = 17/2 for B₂.
+
+**Option B — Use K-type V_(1,0) with BST ρ**: change "K-type V_(1,1)" to "K-type V_(1,0)" in § 5.2 + verify across all cross-references (Vol 0 Ch 7 operator zoo, Vol 2 Ch 6 m_p/m_e derivation, etc.). With ρ = (5/2, 3/2) and K-type V_(1,0), the formula gives 6.
+
+**Option C — Explicit metric scaling**: keep ρ = (5/2, 3/2) + K-type V_(1,1) + add explicit Killing-form metric that makes ⟨, ⟩ a non-Euclidean scaling such that the computation yields 6. This is mathematically possible but the metric isn't currently shown in § 5.2. Would need 1-2 sentences specifying it explicitly.
+
+**Option D — Cite T2439 + close the rigor in T2467+T2468 v0.3**: replace § 5.2 derivation with citation: "By Wallach's 1976 K-type spectrum theorem with Faraut-Koranyi's 1994 Bergman-natural normalization on D_IV⁵, the lowest non-trivial Casimir eigenvalue equals 6 (Lyra T2439 rigorously closed; full derivation in T2467+T2468 Mathematical Rigor Closure v0.3)." Defer the explicit Lie-theory derivation to the T-paper.
+
+Cal recommendation: Option D is the safest for chapter-grade. Option A is mathematically cleanest if CLAUDE.md ρ convention is willing to revise. Option B is plausible if K-type reidentification cascades cleanly. Option C requires extra technical work in the chapter prose.
+
+**Either way, Vol 1 Ch 5 § 5.2 as currently written is NOT correct at chapter-grade rigor**: a reader will try to verify with stated ρ + stated K-type + standard formula and get 10, not 6.
+
+**Voice quality note**: Voice strength of Vol 1 Ch 5 is OTHERWISE strong (clear, professional, good narrative). The Casimir algebra framing + Chevalley-Harish-Chandra isomorphism + cross-Cartan churn-hole pillar argument are all reader-grade. The § 5.2 numerical derivation is the specific issue.
+
+**Cross-impact**:
+
+Vol 1 Ch 5 is cited by ~56 downstream chapters per Grace forward-reference table. A § 5.2 fix may cascade to:
+- Vol 0 Ch 2 (BST primary integer C_2 = 6 definition)
+- Vol 0 Ch 7 (operator zoo derivation)
+- Vol 2 Ch 6 (m_p/m_e = 6π⁵ — uses Vol 0 Ch 2 → Vol 1 Ch 5 chain)
+- Multiple Vol 4 / Vol 5 / Vol 11 chapters
+
+This is exactly why Cal #108 marked T2467+T2468 v0.3 as the load-bearing item for Strong-Uniqueness v0.15: the C_2 = 6 derivation has been "established" for many months but the derivation chain hasn't been rigorously closed in the way a theorem-grade audit can validate.
+
+**Status**: voice SHIP for Vol 1 Ch 5 EXCEPT § 5.2 needs resolution. Keeper authorship absorption: one of Options A-D before formal Phase 3 cold-read PASS on Vol 1 Ch 5. Cross-link to Cal #108: same issue resolved at theorem-level closes the chapter-level issue automatically.
+
+**Self-audit note**: Spot-check on Vol 1 Ch 5 (because of its top-cited status per Grace forward-ref table) caught this. Voice spot-check was the right move — would have missed this if relying only on Casey's 3 priority artifacts. Recommendation for future preliminary voice reviews: include the top-3 most-cited Vol 1 chapters (Ch 5 Casimir at 56 refs, Ch 2 Substrate Hilbert at 32 refs, Ch 10 Renormalization at 27 refs) per Grace forward-ref table.
+
+— Cal A. Brate, Saturday 2026-05-23 17:15 EDT (`date`-verified)
+
+---
+
 ## Open threads for next session
 
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
@@ -4508,6 +5543,28 @@ External-presentable per Cal #50 GREEN cosmology. **PASS** for external dispatch
 9. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 10. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
 11. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
+
+---
+
+## Saturday 2026-05-23 afternoon Cal batch — items standing for absorption (next session)
+
+12. **#108** — T2467+T2468 v0.2 theorem-level rigor closure (Lyra primary rail): **PASS NOT YET**. 2 HIGH-priority gaps (Section 8 Wallach Casimir C_2=6 post-hoc fitting; Section 9 N submanifold construction 4 structural gaps in Steps 1-4) + 2 LOW (Section 2.2.1 enumeration sloppy; Section 4.1 g=7 citation). Blocks C18 RIGOROUSLY CLOSED promotion + Strong-Uniqueness v0.15 path.
+13. **#109** — Cross-Scale Invariance Investigation v0.1+v0.2 (Lyra Casey P1): **PASS at I-tier**. 3 v0.3 flags: Section 3 table strong/weak entry tier-labeling; Section 2 null-model citation category-extension; Section 5 synthesis claim weight.
+14. **#110** — SP-30-4 Time Granularity (Elie paper-grade): **PASS**. 3 v0.2 flags: dual-clock hierarchy; 2σ→3σ/5σ thresholds + refutation ladder; "D.W." Allan citation.
+15. **#111** — Forward-ref Table v0.1 (Grace navigation infra): **PASS**. 1 arithmetic flag (186 vs 190 chapter total).
+16. **#112** — Diagram pre-staging v0.1 (Elie internal): **PASS**. No findings.
+17. **#113** — SP-30-5 Substrate Parallelism (Elie paper-grade): **PASS**. 2 v0.2 flags: Layer 2 vs Layer 3 deviation reconciliation; 2σ→3σ/5σ thresholds (same as Cal #110).
+18. **#114** — Lyra SP-30 Theoretical Contributions v0.1 (coordination): **PASS**. 2 corrections (SP-30-1 "READY" label contradicts own pre-conditions; "126 = ..." arithmetic identity has 2 incorrect alternate forms) + 1 dependency flag (SP-30-9 depends on T2467+T2468 v0.3+).
+19. **#115** — Paper #130 BST Methodology Stack v0.1.5 outline: **PASS at outline-tier**. 4 v0.2 flags: version-label inconsistency; "~1000× cumulative acceleration" abstract claim needs case-study breakdown; Section 7 generalizability under-substantiated; K1-K137+ count stale (current K193+).
+20. **#116** — Substrate Computational Model Investigation v0.1+v0.2 (Lyra Casey P2): **PASS at I-tier** (Cal #109 pattern). 1 v0.3 flag (Architecture D "most consistent" claim needs comparison table).
+
+**HIGH-priority absorption** (load-bearing for Strong-Uniqueness v0.15): #108 (T2467+T2468 v0.3 deepening).
+
+**MEDIUM** (paper-grade v0.2 work before external dispatch): #110 + #113 (SP-30-4 + SP-30-5 paper-grade for NIST/PTB/Vienna outreach); #115 (Paper #130 if external venue selection).
+
+**LOW** (hygiene): #111 + #112 + #114 + #116 (catalog/inventory/coordination quick fixes).
+
+**Phase 3 Readiness Framework v0.2 reframe FILED**: `notes/BST_Methodology_Phase_3_Readiness_Framework.md` reframed around Keeper authorship pass as primary path. Cal external-referee role per-volume cycle defined.
 
 ---
 

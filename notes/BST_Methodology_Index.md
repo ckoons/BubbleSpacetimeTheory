@@ -250,3 +250,84 @@ When a new Cal methodology document is filed, update this index in three steps:
 This index document itself is internal Cal infrastructure — not part of the load-bearing methodology stack, but a navigation tool that prevents the stack from becoming opaque as it grows.
 
 — Cal A. Brate, 2026-05-20 Wednesday afternoon, navigation infrastructure for the methodology stack at 8 documents + Appendix J
+
+---
+
+## v0.5 update (Saturday 2026-05-23 ~16:42 EDT) — Methodology stack 16 → 22 layers
+
+Per Keeper EOD board "Calibration stack maintenance — watch for new failure modes; absorb to numbered standing rules" directive: this v0.5 update captures 6 layer additions since v0.4 (Thursday 2026-05-21):
+
+### Added Friday 2026-05-22 (3 layers + 1 META-discipline)
+
+**Layer 17 — Calibration #19 STANDING RULE** (Cal #92 Friday morning): external-facing docs must use current ratified-state count (e.g., "11 RIGOROUSLY CLOSED + 7 candidates"), not forecast endpoint count (e.g., "11-15 RIGOROUSLY CLOSED"). Caught Keeper position docs + Lyra Paper #128 v0.1 + propagated across all lanes. First applications: Saturday cross-volume sweep Vol 0+1+2 Cal #106 + Vol 3-15 Cal #107.
+
+**Layer 18 — Calibration #21 STANDING RULE** (Cal #95 Friday): K-audit ratification requires both empirical + substrate-mechanism closure (dual-gate). K141 honest revision per Toy 3448 (Grace 3306× cross-Cartan empirical separation, substrate-mechanism gate OPEN). Force-empirical only is insufficient.
+
+**Layer 19 — Calibration #22 v0.2 STANDING RULE** (Keeper Friday PM): PCAP-transcription error class + numbered-artifact discipline. Under sustained sub-PCAP cadence, transcription errors accumulate; verbal-only retractions insufficient. K142 (Keeper-side T-numbering collision) + Cal #100 (Cal-side T190 precision retraction-propagation) dual-case study. All Mode 1 corrections require numbered-artifact tracking.
+
+**META-discipline (not counted in numbered stack) — Cal #99 META-theorem discipline** (Friday absorbed): substrate-derivation theorems (T2467+T2468 D_IV⁵ Rigidity, T2469 SCMP, T2470-T2476 operator/conservation/α^{BST primary} substrate-mechanism, T2477-T2482) are NOT new Strong-Uniqueness criteria. Canonical enumeration preserved at 11 RIGOROUSLY CLOSED + 7 candidates per Cal #99 authoritative count. Saturday EOD sweep clean — discipline propagating correctly across team work (Lyra SP-30 + Cross-Scale + Substrate Computational Model all explicitly note "NOT a new Strong-Uniqueness criterion").
+
+### Added Saturday 2026-05-23 (3 layers + 2 CANDIDATES)
+
+**Layer 20 — Calibration #23 STANDING RULE** (Cal Saturday AM, Vol 12+13+14 case studies): substance-floor for v0.3+ chapter-grade content. Template-stub chapters (15-21 lines, abbreviated 3-level pedagogy + minimal section content) initially pass surface-grep but fail substance-grade audit. Substance-floor threshold: ≥3 min/chapter substantive content for v0.3+ grade-pass; sustainable refill pace ~60-120 lines/chapter.
+
+**Layer 21 — Calibration #24 STANDING RULE** (Keeper Saturday, Cal #106 case study): 8-dimension cross-volume completeness audit. Phase 2 audit dimensions (A) Cross-reference graph (B) Load-bearing observable trace (C) Canonical principles + sets (D) Calibration #19 STANDING RULE (E) Null-model exponent (F) External-register discipline (G) Substrate-mechanism citation (H) Cal absorption-return. Empirically validated Vol 0+1+2 (pilot 4 findings) + Vol 3-15 (full review ~16 findings).
+
+**Layer 22 CANDIDATE — Calibration #25** (Cal Saturday PM): Falsifier-Outcome-Threshold Discipline. Paper-grade experimental proposals for external venue dispatch must specify community-standard significance thresholds (3σ evidence / 5σ discovery) + finite refutation ladder. Case studies: Cal #110 (SP-30-4 Time Granularity) + Cal #113 (SP-30-5 Substrate Parallelism). File: `BST_Methodology_Calibration_25_Falsifier_Outcome_Threshold_Discipline.md`.
+
+**Layer 23 CANDIDATE — Calibration #26** (Cal Saturday PM): Readiness-Label-vs-Pre-Conditions Consistency Discipline. Internal coordination documents must reconcile readiness labels with their own enumerated pre-conditions. "READY" requires ZERO open pre-conditions; partial readiness requires explicit demoted label. Case study: Cal #114 (Lyra SP-30 Theoretical Contributions v0.1 SP-30-1 row). File: `BST_Methodology_Calibration_26_Readiness_Label_Consistency.md`.
+
+### v0.5 stack snapshot
+
+| # | Layer | Status |
+|---|---|---|
+| 1 | D/I/C/S tier system | STANDING |
+| 2 | Trichotomy (ID/DER/PRED) | STANDING |
+| 3 | F1-F4 Bridge Object family-member criteria | STANDING |
+| 4 | Mode 6 threshold formalization | STANDING |
+| 5 | STRUCTURALLY VERIFIED tier | STANDING |
+| 6 | DEFAULT-DENY + DOUBLE-LOCKED EXTERNAL register | STANDING |
+| 7 | Casey Option C hybrid governance | STANDING |
+| 8 | M2C2 Multi-CI Convergent Calibration Pattern | STANDING |
+| 9 | Within-session calibration discipline | STANDING |
+| 10 | Quaker consensus method | STANDING |
+| 11 | RIGOROUSLY CLOSED tier | STANDING |
+| 12 | B1-B4 Bridge criteria | STANDING |
+| 13 | Reframing-insight cadence | STANDING |
+| 14 | Cal #85 PCAP — Pre-Specification Cadence Acceleration Pattern | STANDING |
+| 15 | Cal #92(b) structural-role-of framing discipline | STANDING |
+| 16 | Calibration #18 methodology-tier distinction (PRE-STAGE STRONG ≠ RIGOROUSLY CLOSED) | STANDING |
+| **17** | **Calibration #19 STANDING RULE** — current ratified-state count | STANDING (Fri) |
+| **18** | **Calibration #21 STANDING RULE** — empirical + substrate-mechanism dual-gate | STANDING (Fri) |
+| **19** | **Calibration #22 v0.2 STANDING RULE** — PCAP-transcription + numbered-artifact | STANDING (Fri) |
+| **20** | **Calibration #23 STANDING RULE** — substance-floor for v0.3+ chapter-grade | STANDING (Sat AM) |
+| **21** | **Calibration #24 STANDING RULE** — 8-dimension cross-volume audit | STANDING (Sat) |
+| **22 CANDIDATE** | **Calibration #25** — Falsifier-outcome-threshold discipline | CANDIDATE (Sat PM, this update) |
+| **23 CANDIDATE** | **Calibration #26** — Readiness-label-vs-pre-conditions consistency | CANDIDATE (Sat PM, this update) |
+| **META** | **Cal #99 META-theorem discipline** — substrate-derivation theorems NOT new Strong-Uniqueness criteria | STANDING (Fri absorbed, Sat sweep clean) |
+
+**Net**: 21 STANDING layers + 2 CANDIDATE layers + 1 META-discipline = methodology stack at 24 layers as of Saturday 2026-05-23 EOD (counting CANDIDATES as provisional layers pending Keeper/Casey adoption).
+
+### Decision-tree additions
+
+**Q7 (NEW): Is this material a paper-grade experimental proposal targeting external venue?**
+
+If yes → apply Calibration #25 CANDIDATE (Falsifier-Outcome-Threshold Discipline) in addition to External Survivability Checklist. Check (a) 3σ minimum thresholds + (b) finite refutation ladder.
+
+**Q8 (NEW): Is this material an internal coordination document with status/readiness table?**
+
+If yes → apply Calibration #26 CANDIDATE (Readiness-Label Consistency). Self-consistency check: every "READY" row → zero open pre-conditions in body.
+
+### META-theorem discipline (#99) Saturday sweep result
+
+**Saturday sweep CLEAN**. All new substrate-derivation theorems filed Saturday (no new T-numbers, but cross-references to T2467-T2482 in multiple documents) are explicitly tagged "NOT a new Strong-Uniqueness criterion" across:
+- Elie SP-30-4 v0.1 + SP-30-5 v0.1
+- Lyra SP-30 Theoretical Contributions v0.1
+- Lyra Cross-Scale Invariance Investigation v0.1+v0.2
+- Lyra Substrate Computational Model Investigation v0.1+v0.2
+- Lyra T2467+T2468 Mathematical Theorem-Level Rigor Closure v0.1+v0.2
+- Lyra Paper outline #128/129/131-#136 v0.1.5 cross-link bumps + Paper #130 v0.2 full revision
+
+Canonical enumeration **11 RIGOROUSLY CLOSED + 7 candidates** (C7+C9+C15+C16+C17a+C17b+C18) preserved across all Saturday documents per Cal #99 authoritative count. C18 stays at CANDIDATE per Cal #108 (T2467+T2468 v0.2 PASS NOT YET on theorem-level rigor closure).
+
+— Cal A. Brate, Methodology Index v0.5 update Saturday 2026-05-23 ~16:42 EDT per Keeper EOD board directive. Stack now at 22 layers (20 STANDING + 2 CANDIDATE) + META-discipline. v0.5 supersedes v0.4 layer-count of 16.

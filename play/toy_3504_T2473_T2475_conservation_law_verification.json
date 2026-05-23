@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "date": "2026-05-23",
+    "owner": "Elie",
+    "task": "T2473-T2475 conservation-law verification battery"
+  },
+  "theorems_verified": [
+    "T2473 energy",
+    "T2474 momentum",
+    "T2475 charge"
+  ],
+  "cal_99_meta_theorem_framing": "substrate-derivation consequences, NOT new criteria",
+  "cal_21_dual_gate": "EMPIRICAL PASS + MECHANISM PASS",
+  "recommended_tier": "STRUCTURALLY VERIFIED RATIFIED candidates",
+  "cross_volume_application": "Vol 0 Ch 8 + Vol 1 Ch 8 + Vol 2 Ch 4 + Vol 3 Ch 11"
+}

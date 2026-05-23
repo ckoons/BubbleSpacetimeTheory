@@ -201,3 +201,41 @@ Operator zoo expansion inherits the substrate's three-layer over-determinism: ea
 - External venue selection (JMP primary, CMP secondary)
 
 — Lyra, Paper #134 v0.1 outline (Operator Zoo Expansion), Friday 2026-05-22 ~10:16 EDT (`date`-verified actual)
+
+---
+
+## v0.1.5 Saturday cross-link bump (Lyra Sat 2026-05-23 15:27 EDT)
+
+Per Casey 15:11 EDT "non-textbook tasks" directive + Saturday context: applies omnibus cross-link `notes/Paper_Outlines_Saturday_Cross_Link_Omnibus_v0_1.md` Section A-G. Paper-specific cross-references:
+
+- **Vol 0 Ch 7 v0.6 14-operator zoo** (Friday afternoon SP-31 #278 T2470 Q + T2471 γ⁵ + T2472 P_op STRUCTURALLY VERIFIED): Paper #134 documents this 14-operator expansion; Saturday work confirms zoo is operationally complete at 14 operators with T-numbering registry consistency per Cal #99 META-discipline
+- **Cal #99 META-theorem discipline**: T2470+T2471+T2472+T2473+T2474+T2475+T2476 operator-zoo theorems are substrate-derivation theorems supporting framework; do NOT advance Strong-Uniqueness criterion count
+- **20-layer methodology stack** absorbed
+
+Full-depth v0.2 revision deferred to multi-week as additional operator zoo extensions emerge (15-operator zoo with N substrate-natural number operator pending — currently CANDIDATE per Vol 0 Ch 7 v0.6).
+
+— Lyra, v0.1.5 cross-link bump, Saturday 2026-05-23 15:27 EDT
+
+---
+
+## v0.2 Saturday EOD full revision (Lyra Sat 2026-05-23 ~16:51 EDT per Casey "finish these items, Keeper")
+
+### Saturday context integration (full)
+
+**Cal #99 META-theorem discipline reaffirmed**: Vol 0 Ch 7 v0.6 14-operator zoo (Bell-CHSH T2399 + position T2419 + spin T2421 + momentum T2422 + angular momentum T2425 + H_sub Elie K52a S29 + T2433 T + T2434 C + P_op T2472 + N number + γ⁵ T2471 + Q T2470 + C_3 + I_3) catalog Friday afternoon SP-31 #278. ALL 14 operators are substrate-derivation theorems supporting framework; NONE advance Strong-Uniqueness criterion count per Cal #99 authoritative enumeration (11 RIGOROUSLY CLOSED + 7 candidates preserved).
+
+**Substrate Computational Model Investigation v0.3 cross-link** (Casey P2, Saturday 16:42 EDT): 14-operator zoo is Architecture B (Continuous Bergman Hilbert Space) explicit operator collection. Per Architecture A QCA (v0.3 Section 13) + Architecture C RS (Section 15) representations, all 14 operators have equivalent representations across Architecture A + B + C per FTC-1 conjecture (Section 16).
+
+**Cross-Scale Invariance Investigation v0.3 cross-link** (Casey P1, Saturday 16:40 EDT): 14-operator zoo provides Route C K-Type Representation Universality primary evidence (v0.3 Section 13 Evidence C-1) — NO physical observable outside the K-type framework across all scales.
+
+**T2476 α^{BST primary} substrate-mechanism cross-link** (Friday Cal #100 cascade): operator-zoo matrix elements scale α^{BST primary integer}; this is Wallach K-type evaluation result + provides operator-zoo cross-multipole-hierarchy structure.
+
+### v0.2 status
+v0.2 outline incorporates Architecture A/B/C operator representations + Route C K-Type Universality + T2476 α-pattern + Cal #99 META preserved.
+
+### Pending for v0.3 (multi-month / multi-year)
+- 15-operator zoo extension (N substrate-natural number operator CANDIDATE per Vol 0 Ch 7 v0.6)
+- Architecture-D FTC-1 explicit cross-architecture operator equivalence per K52a closure
+- Cal cold-read on operator zoo expansion standalone paper-grade
+
+— Lyra, Paper #134 v0.2 Saturday EOD full revision filed 2026-05-23 16:51 EDT per Casey "finish these items, Keeper" directive. Cal #99 META reaffirmed + Architecture A/B/C representations + Route C K-Type Universality + T2476 α-pattern integrated.

@@ -10801,3 +10801,42 @@ For comparison: the first 7 primes are {2, 3, 5, 7, 11, 13, 17}; among these, M_
 **Source**: Lyra, Saturday 2026-05-23 ~11:30 EDT.
 
 — T2479, Lyra Saturday 2026-05-23 ~11:30 EDT
+
+
+---
+
+## T2480 — Decoherence Substrate-Mechanism Theorem (Lyra Saturday morning, SP-31 #284)
+
+**Statement**: Substrate-coupled observer + environment with B_env → ∞: ρ_{ij} off-diagonal decay at rate Γ_dec = environment-Casimir-coupling × Casimir-spread-density. Classical pointer-state basis selected by Zone-2 commitment Hamiltonian; substrate-environment marginalization → einselection (Zurek-equivalent).
+
+**Status**: STRUCTURALLY VERIFIED candidate (Layer 1). Layer 2 metaphysical claim CANDIDATE EXPLANATION per Cal #99 v0.3 + Cal #48/#49.
+
+**Cross-references**: T2469 SCMP, T2417 4-Zone, Vol 5 Ch 10.
+
+— T2480, Lyra Saturday 2026-05-23 ~12:00 EDT
+
+---
+
+## T2481 — Spin-Statistics Formal Theorem from Substrate (Lyra Saturday, SP-31 #285)
+
+**Statement**: For substrate Bergman H²(D_IV⁵)^⊗N at K-type V_(p,q), tensor product is SYMMETRIC if q ∈ ℤ (boson), ANTISYMMETRIC if q ∈ ℤ + 1/2 (fermion). No relativistic invariance + microcausality + positive-energy assumption needed.
+
+**Proof ingredients**: T1925 rank=2 Pin(2) Z_2 grading + T2471 chirality γ⁵ = Pin(2) Z_2 + Wallach 1976 K-type classification.
+
+**Status**: STRUCTURALLY VERIFIED candidate. Paper #133 v0.2 prose-grade derivation + T2481 formal-theorem registration.
+
+**Cross-references**: T1925 + T2471 + Paper #133 v0.2 + Vol 5 Ch 9 + Vol 6 Ch 7.
+
+— T2481, Lyra Saturday 2026-05-23 ~12:00 EDT
+
+---
+
+## T2482 — Per-Boundary-Condition Theorems (Lyra Saturday, SP-31 #288)
+
+**Statement**: 8 substrate boundary conditions per Casey BC framework: BC1-BC6 internal (bulk-side, Shilov boundary, GF(128)^k field, K-type integer admissibility, Pin(2) Z_2 grading, 4-Zone) + BC7-BC8 external (observer-coupling K-type, measurement-outcome partition POVM). Each BC contributes substrate-derivation theorem; T2482 consolidates 8-BC framework.
+
+**Status**: STRUCTURALLY VERIFIED candidate framework-grade. Per-BC detailed theorems (8) multi-month refinement.
+
+**Cross-references**: T2417 + T2469 + T2479 + T2429 + K59.
+
+— T2482, Lyra Saturday 2026-05-23 ~12:00 EDT

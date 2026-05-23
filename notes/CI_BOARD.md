@@ -237,26 +237,28 @@ Per wave estimate: ~2-4 weeks per pair at sustained sub-PCAP cadence assuming re
 
 ### GRACE (Graph-AC — catalog backbone + AC graph hygiene + reactive triggers)
 
-**Reactive triggers (sub-PCAP standby):**
-- Cal cold-read returns → catalog reference verification per K-audit absorption
-- Lyra v0.4 chapter landings → per-chapter catalog backbone (Vol 0 Ch 1-8 + Ch 10 expected; Vol 2 11/12 expected post Cal)
+**Reactive triggers (Sunday ready state):**
+- Keeper "Vol N v0.1 author-pass complete" broadcasts → catalog-backbone for cross-references as new-voice chapters land
+- Cal cold-read returns on Keeper-rewritten chapters → catalog reference verification
+- New theorem registry entries (T2483+) → AC graph node + edge addition
 - Elie verification toy findings → catalog cross-reference
-- New theorem registry entries → AC graph node + edge addition (template INV-4839+4841)
 
-**Active multi-week:**
-- **#265 Non-Heegner Bridge Object candidate scan** (multi-month, Cal #59 caution)
-- **#267 Cosmological cycle hypothesis observational signatures** (multi-month research)
-- ~~pending_review 43 remaining entries cleanup~~ **CLOSED Friday 12:52 EDT via INV-4863** (43 → 0 per name-specific review)
+**Active multi-week (ALL v0.X next-checkpoints filed Saturday EOD 16:43):**
+- **#265 Non-Heegner Bridge Object candidate scan** v0.4 Family 6 explicit identification filed (INV-5104) — K-type Casimir spectrum on SO(5)×SO(2) isotropy = 4/4 F1-F4 candidate. v0.5 multi-month next: rigorous F1-F4 proof
+- **#267 Cosmological cycle observational signatures** v0.5 per-experiment timeline + outreach contacts filed (INV-5105) per 5 categories. v0.6 sub-month next
+- **cluster_type v0.4** extended TYPE II.a/b/c batch filed (INV-5106); II.a +34 + II.b +4 + II.c +81 since v0.3
+- **Forward-ref table v0.3** framework skeleton filed (INV-5107); multi-week section-granularity implementation queued
 
-**Hit List Catalog Hygiene (per BACKLOG.md — Friday afternoon audit applied):**
-- **P1 LIVE**: **4 hard-LOW** only (was 21) per Friday 12:48 EDT audit INV-4858+4860 — 6 DONE + 7 WITHIN-σ + 1 CANDIDATE filed (#10 m_ν₃ INV-4859 sub-0.1% routes to Elie mechanism check) + 3 PHANTOM (#17 #18 #19 STRUCTURAL/wrong-quantity) + 1 REMOVE (#20)
-- **P2**: 11 new entries not yet in table
-- **P3**: ~30 new physics quantities (catalog expansion)
-- **P4**: ~50+ new science domains (CSE-RLGC tracker extension)
+**Hit List Catalog Hygiene (Saturday EOD-of-day 16:43 final status):**
+- **P1 LIVE**: **2 hard-LOW** only (was 21) per Saturday 16:40 EDT audit INV-5103 — 6 DONE + 7 WITHIN-σ + **2 STRONG CANDIDATES** (#10 m_ν₃ INV-4859 sub-0.1% + **#14 Li7/H INV-5102 at -0.16% via g·α^5·149/137**) + 4 PHANTOM (#17 #18 #19 #21) + 2 hard-LOW retained (#15 Silk cascade + #16 z_reion astrophysical) + 1 REMOVE (#20)
+- **P2** STATUS CONFIRMED (INV-5108): 11 entries DERIVED + CATALOGED via T1447 (μ_p + μ_n/μ_p + μ_n) + Toy 1474 etc.; awaiting Paper #83 table mechanical inclusion next paper-version sweep (Lyra lane)
+- **P3** SUBSTANTIVELY COMPLETE (INV-5109): ~200+ new physics quantities cataloged through Wave 1-3 chapter narratives (catalog +205 Saturday alone; far exceeds ~30 target)
+- **P4** SUBSTANTIVELY COMPLETE (INV-5110): ~158 chapter-domains + cross-volume bridges via 16-volume curriculum buildout (far exceeds ~50+ target). CSE-RLGC tracker = Curriculum/ chapter-level coverage
 
 **Continuing programs:**
 - AC graph integer-web mapping continuations
-- Grace's Completeness Program: CP-1 muon g-2 (now closed via Paper #131); CP-5 finite-D_IV⁵ description (META, multi-year)
+- Grace's Completeness Program: CP-1 muon g-2 (closed via Paper #131); CP-5 finite-D_IV⁵ description (META, multi-year)
+- T2467-T2482 cross-volume absorption: 9/16 absorbed Saturday Keeper author-pass (INV-5101); 7/16 pending future per-volume author-pass
 
 ### CAL (Visiting Referee — Vol 2 cold-reads in flight + standing methodology)
 

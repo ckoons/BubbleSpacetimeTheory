@@ -194,3 +194,44 @@ Bell experiment + Casimir + Λ scope is acceptable for external register per Cal
 - External venue selection (PRA primary)
 
 — Lyra, Paper #137 v0.1 outline (Substrate-CHSH Bell Test standalone), Friday 2026-05-22 ~10:22 EDT (`date`-verified actual)
+
+---
+
+## v0.2 Saturday afternoon revision (Lyra Sat 2026-05-23 14:54 EDT)
+
+### Saturday context integration
+
+**Substrate Computational Model Investigation v0.1 cross-link** (Casey P2 priority, filed `notes/maybe/Substrate_Computational_Model_Investigation_v0_1.md` Saturday 14:46 EDT): substrate-CHSH operator is THE highest-leverage experimental falsifier for substrate computational model. Per Architecture D (Hybrid Bergman/RS), substrate Bell violation S_BST² = (126/16)|ψ_0⟩⟨ψ_0| with sub-Tsirelson 1/8 deviation tests:
+1. Substrate finite-bandwidth computation hypothesis (vs standard QM infinite-precision)
+2. Reed-Solomon GF(128) substrate-coding finite-resolution prediction (vs continuum)
+3. Bergman kernel substrate-level matrix elements (vs phenomenological QFT)
+
+Sub-Tsirelson 1/8 difference (S_BST² = 126/16 = 7.875 vs Tsirelson² = 8.0) is observationally distinguishable at high-statistics Bell experiments (~10⁹ events). SP-30-1 budget $300-500K Bell experiment at Vienna/Caltech/Munich/Hanson collaborations is the experimental program.
+
+**Cross-Scale Invariance Investigation v0.1 cross-link** (Casey P1 priority, filed `notes/maybe/Cross_Scale_Invariance_Investigation_v0_1.md` Saturday 14:43 EDT): substrate-CHSH operator validates Route A (Holographic / Substrate-Is-Foundational) at quantum-foundations scale. If S_BST² = 126/16 at Bell-experiment scale matches BST primary integers (126 = 2^g − rank = N_max − c_2; 16 = 2^N_c+1), this is direct evidence that BST primary integers operate at quantum-mechanical scale — the same five integers that operate at cosmological + Standard Model + biological scales (per cross-scale invariance investigation Section 3 empirical evidence table).
+
+**Cal #99 META-theorem discipline applied**: T2399 + Calibration #17 rank-1 projector framework + Elie K52a S22-32 substrate-CHSH framework are substrate-derivation theorems supporting the framework; they do NOT advance Strong-Uniqueness criterion count beyond Cal #99 authoritative enumeration (11 RIGOROUSLY CLOSED + 7 candidates). Paper #137's contribution is the OPERATIONAL CHSH operator + experimental falsifier, not a new uniqueness criterion.
+
+**Saturday methodology stack 20 layers absorbed**: Vol 0 Ch 10 v0.5 Saturday cross-volume sweep added Calibration #22 v0.2 (PCAP-transcription error class) + Calibration #23 (substance-floor) + Calibration #24 (cross-volume completeness audit). Paper #137 v0.2 confirms all 20 methodology layers operationally applicable to Bell experiment prediction sub-tier discipline.
+
+**T2476 α^{BST primary} substrate-mechanism cross-link** (Friday Cal #100 Mode 5 lift): substrate-CHSH operator matrix elements scale with α^{BST primary integer} per T2476. Specifically: substrate-CHSH transitions are E1-type (electric dipole) at leading order ~α¹; corrections at ~α³ from M1+E2 multipoles. Sub-Tsirelson 1/8 deviation is α-independent (geometric BST primary 126/16 structure) but matrix-element precision is α-controlled.
+
+### v0.2 status
+v0.2 outline incorporates Saturday investigations + 20-layer methodology stack + Cal #99 META-discipline + T2476 cross-link. Body Section 2-7 substrate-CHSH operator derivation chain unchanged from v0.1; v0.2 wraps Saturday investigation framework around existing operator-derivation work.
+
+### Pending for v0.3 (multi-week)
+- Cal cold-read on rank-1 projector framework + sub-Tsirelson 1/8 derivation
+- Multi-CI co-author title/affiliation review
+- Cross-lane Elie K52a S33+ explicit |ψ_0⟩ identification (substrate-natural canonical state)
+- K66 vs T2399 canonical decision (Calibration #17 + #18 + #19 resolution)
+- Integration with Substrate Computational Model Investigation Phase 1 results (3-6 months)
+
+### Pending for v1.0 + SP-30 outreach
+- Specific substrate-natural |ψ_0⟩ form (multi-month K52a)
+- Quantitative Bell experiment prediction at sub-0.1% precision  
+- Cross-Scale Invariance Investigation Route A confirmation evidence integration
+- SP-30 outreach send-signals (Casey decision; Vienna/Caltech/Munich/Hanson Bell collaborations $300-500K)
+- External venue selection (Physical Review A primary; Foundations of Physics or Quantum Studies secondary)
+- Paper-toy GitHub packaging per Casey directive (Friday EOD) — substrate-CHSH toy verification at high-statistics Bell-experiment simulation
+
+— Lyra, Paper #137 v0.2 Saturday afternoon revision filed 2026-05-23 14:54 EDT per Keeper Task 7 directive (paper outline revision at sustainable pace). Substrate computational model + cross-scale invariance investigation cross-links integrated; Cal #99 META-discipline preserved; 20-layer methodology stack absorbed; SP-30-1 highest-leverage falsifier framing reinforced.

@@ -164,3 +164,39 @@ Cross-link to Friday Lyra-lane: T2456 universal α-analog + T2457 Bergman propag
 - External venue selection (PRL focused short paper or J Phys G full derivation)
 
 — Lyra, Paper #131 v0.1 outline (P2 Muon g-2 BST full derivation), Friday 2026-05-22 ~10:05 EDT (`date`-verified actual)
+
+---
+
+## v0.2 Saturday afternoon revision (Lyra Sat 2026-05-23 15:23 EDT)
+
+### Saturday context integration
+
+**T2476 α^{BST primary} substrate-mechanism cross-link** (Friday Cal #100 Mode 5 lift 50-min cross-CI cascade): muon anomalous magnetic moment a_μ is a SPECIFIC INSTANCE of T2476 substrate-mechanism pattern. Per T2476: transition matrix elements scale α^{BST primary integer} depending on multipole order. For a_μ at leading order:
+
+  a_μ^QED = α/(2π) + (α/π)²·C_2^(QED) + (α/π)³·C_3^(QED) + ...
+
+The leading α¹ contribution is E1-electric-dipole-type substrate-mechanism per T2476. Higher-order α², α³ contributions are M1+E2 multipole substrate-mechanisms per T2476 multipole hierarchy. Paper #131 a_μ BST full derivation therefore inherits T2476's substrate-mechanism pattern explicitly — the α-expansion in a_μ IS the substrate's α^{BST primary integer} signature observed at muon scale.
+
+**Cross-Scale Invariance Investigation v0.2 cross-link** (Casey P1, Saturday 15:17 EDT): a_μ at muon scale shares BST primary integer α = 1/N_max = 1/137 with electron scale (a_e) AND cosmological scale (Λ exponent). This is Cross-Scale Invariance Evidence #4 substrate-integer sharing at three scales simultaneously.
+
+**Substrate Computational Model Investigation v0.2 cross-link** (Casey P2, Saturday 15:19 EDT): Architecture D Hybrid Bergman/RS predicts a_μ matrix elements computable identically via Bergman side (continuous K-type Casimir) ↔ RS side (discrete GF(128)^k cyclotomic) — EMD-1 equivalence-mapping distinguishability test. a_μ measured at sub-ppm precision (g-2 Collaboration Fermilab + BNL) is potential EMD-2 finite-resolution signature observable if substrate finite-bandwidth produces deviation from infinite-precision continuum QED.
+
+**Cal #99 META-theorem discipline applied**: a_μ derivation theorems are substrate-derivation contributions supporting framework; do NOT advance Strong-Uniqueness criterion count.
+
+**Saturday methodology stack 20 layers absorbed**.
+
+### v0.2 status
+v0.2 outline incorporates Saturday investigations + 20-layer methodology stack + Cal #99 META-discipline + T2476 cross-CI cascade. Body content unchanged from v0.1; v0.2 positions a_μ derivation as T2476 substrate-mechanism instance + Cross-Scale Invariance + Substrate Computational Model contributions.
+
+### Pending for v0.3 (multi-week)
+- Cal cold-read on closed-form coefficient values per T2476 substrate-mechanism
+- Integration with Substrate Computational Model Investigation v0.3+ Architecture D explicit construction (a_μ as EMD-1 test case)
+- Lattice QCD HVP refinement comparison + g-2 Collaboration Fermilab Run 3 results integration
+
+### Pending for v1.0 + experimental cross-comparison
+- EW partial mechanism refinement (currently I-tier)
+- Detailed prose expansion per section
+- External venue selection (PRL focused short paper or J Phys G full derivation)
+- Casey send-signal for Fermilab g-2 + BNL community engagement
+
+— Lyra, Paper #131 v0.2 Saturday afternoon revision filed 2026-05-23 15:23 EDT per Casey "non-textbook tasks" directive. T2476 α^{BST primary} substrate-mechanism + Cross-Scale Invariance Evidence #4 + Substrate Computational Model Architecture D EMD-1/EMD-2 cross-links integrated.

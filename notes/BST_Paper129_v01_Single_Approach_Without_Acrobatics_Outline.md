@@ -195,3 +195,40 @@ For comparison: alternative theoretical-physics programs typically require new s
 - External venue selection (AJP / Foundations of Physics / Notices AMS)
 
 — Lyra, Paper #129 v0.1 outline (item #11 attempted with scope interpretation), Friday 2026-05-22 ~08:52 EDT (`date`-verified actual)
+
+---
+
+## v0.1.5 Saturday cross-link bump (Lyra Sat 2026-05-23 15:26 EDT)
+
+Per Casey 15:11 EDT "non-textbook tasks" directive + Saturday context: applies omnibus cross-link `notes/Paper_Outlines_Saturday_Cross_Link_Omnibus_v0_1.md` Section A-G. Paper-specific cross-references:
+
+- **Substrate Computational Model Investigation v0.2** (Casey P2, Saturday 15:19 EDT): "Single approach without acrobatics" = Architecture D Hybrid Bergman/RS — substrate maintains DUAL representation (continuous Bergman + discrete RS) that are EQUIVALENT FACETS, not separate machinery requiring acrobatic switching between formalisms. Paper #129's "single approach" framing IS Architecture D's substrate-foundational unity claim
+- **Cross-Scale Invariance Investigation v0.2** (Casey P1, Saturday 15:17 EDT): "Without acrobatics" extends to cross-scale invariance — same substrate D_IV⁵ at all scales avoids the acrobatic effective-field-theory tower of standard physics
+- **20-layer methodology stack** absorbed; **Cal #99 META-discipline preserved**
+
+Full-depth v0.2 revision deferred to Architecture D explicit construction (K52a Session 7+ multi-year + Substrate Computational Model Investigation v0.3+); Paper #129 absorbs explicit Φ mapping into v0.3.
+
+— Lyra, v0.1.5 cross-link bump, Saturday 2026-05-23 15:26 EDT
+
+---
+
+## v0.2 Saturday EOD full revision (Lyra Sat 2026-05-23 ~16:48 EDT per Casey "finish these items, Keeper")
+
+### Saturday context integration (full)
+
+**Substrate Computational Model Investigation v0.3 cross-link** (Casey P2, Saturday 16:42 EDT): "Single approach without acrobatics" framing IS Architecture D Hybrid Bergman/RS at deepened v0.3 state — substrate maintains DUAL representation (continuous Bergman + discrete RS) that are EQUIVALENT FACETS under FTC-1 conjecture (Architecture D foundational theorem). Per v0.3 Section 16 + v0.3 Section 18 EMD-5 + EMD-6 testable predictions, "single approach" is now operationally explicit: substrate-tick computation is one structure with multiple equivalent representations, not multiple acrobatic structures requiring formalism-switching.
+
+**Cross-Scale Invariance Investigation v0.3 cross-link** (Casey P1, Saturday 16:40 EDT): "Without acrobatics" extends to cross-scale via Routes A+C+D mutually reinforcing — same substrate D_IV⁵ at all scales avoids the acrobatic effective-field-theory tower of standard physics. 13 substantive evidences (Routes A 5 + C 3 + D 3 + B 2) cumulative.
+
+**T2467+T2468 v0.3 cross-link**: D_IV⁵ Rigidity Principle (C18 CANDIDATE per Cal #108) supports "single substrate" framing of Paper #129; one substrate (not multi-instance) means one approach, not parallel substrates requiring inter-substrate acrobatics.
+
+**Cal #99 META-discipline preserved**.
+
+### v0.2 status
+v0.2 outline incorporates Substrate Computational Model v0.3 Architecture D FTC-1 + Cross-Scale Invariance v0.3 Routes A+C+D convergence + T2467+T2468 v0.3 D_IV⁵ singleton support + Cal #99 META.
+
+### Pending for v0.3 (multi-year)
+- FTC-1 rigorous proof via K52a multi-year H_sub closure provides "single approach" definitive substantiation
+- Cal cold-read on standalone Paper #129 framing
+
+— Lyra, Paper #129 v0.2 Saturday EOD full revision filed 2026-05-23 16:48 EDT per Casey "finish these items, Keeper" directive. Architecture D FTC-1 conjecture + Routes A+C+D convergence + T2467+T2468 v0.3 D_IV⁵ singleton support integrated.

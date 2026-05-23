@@ -198,3 +198,39 @@ Casimir experiments (SP-29) test substrate-vacuum structure (Zone 4 Casimir-Λ).
 - External venue selection (Foundations of Physics primary, JMP secondary)
 
 — Lyra, Paper #132 v0.1 outline (SP-31 Measurement Formalism POVMs), Friday 2026-05-22 ~10:10 EDT (`date`-verified actual)
+
+---
+
+## v0.1.5 Saturday cross-link bump (Lyra Sat 2026-05-23 15:27 EDT)
+
+Per Casey 15:11 EDT "non-textbook tasks" directive + Saturday context: applies omnibus cross-link `notes/Paper_Outlines_Saturday_Cross_Link_Omnibus_v0_1.md` Section A-G. Paper-specific cross-references:
+
+- **Substrate Computational Model Investigation v0.2** (Casey P2, Saturday 15:19 EDT): T2417 4-Zone Commitment Cycle measurement framework IS Architecture D's per-tick input/output specification — POVMs are the formal mathematical structure of Zone-1 absorption + Zone-3 emission per substrate-tick
+- **EMD-3 Cyclotomic-Chain Periodicity** (Substrate Computational Model v0.2 Section 12): substrate measurement events have K59 7-step cyclotomic periodicity; POVM measurement-outcome statistics should reflect period-7 substrate-tick structure
+- **20-layer methodology stack** absorbed; **Cal #99 META-discipline preserved**
+
+Full-depth v0.2 revision deferred to Substrate Computational Model Investigation v0.3+ Architecture D explicit construction; Paper #132 absorbs explicit per-tick POVM specification into v0.3.
+
+— Lyra, v0.1.5 cross-link bump, Saturday 2026-05-23 15:27 EDT
+
+---
+
+## v0.2 Saturday EOD full revision (Lyra Sat 2026-05-23 ~16:49 EDT per Casey "finish these items, Keeper")
+
+### Saturday context integration (full)
+
+**Substrate Computational Model Investigation v0.3 cross-link** (Casey P2, Saturday 16:42 EDT): POVMs are formal mathematical structure of T2417 4-Zone Commitment Cycle Zone-1 absorption + Zone-3 emission per substrate-tick. Per Architecture D Hybrid Bergman/RS (v0.3 Section 16) + EMD-3 + EMD-5 cyclotomic period-7 cross-scale signature (v0.3 Section 12 + Section 18), POVM measurement-outcome statistics should reflect K59 7-step cyclotomic substrate-tick structure.
+
+**Lyra SP-30 Theoretical Contributions v0.2 cross-link** (Casey P3, Saturday 16:45 EDT): SP-30-6 Absorption Mechanism + SP-30-7 Computation Mechanism + SP-30-8 Emission Mechanism formalization (v0.2 Sections 8.SP-30-6/7/8) are multi-month theoretical work providing rigorous POVM operator definitions for Paper #132 publication-grade content.
+
+**Cal #99 META-discipline preserved**.
+
+### v0.2 status
+v0.2 outline incorporates Architecture D Hybrid Bergman/RS per-tick I/O + EMD-3 cyclotomic period + SP-30-6/7/8 multi-month theoretical formalization roadmap + Cal #99 META.
+
+### Pending for v0.3 (multi-month)
+- Cal cold-read on POVM formalization standalone paper-grade
+- SP-30-6/7/8 multi-month theoretical formalization closure
+- Integration with K52a Session 7+ Elie H_sub explicit closure
+
+— Lyra, Paper #132 v0.2 Saturday EOD full revision filed 2026-05-23 16:49 EDT per Casey "finish these items, Keeper" directive. T2417 4-Zone POVM measurement + Architecture D Hybrid Bergman/RS + SP-30-6/7/8 multi-month roadmap integrated.

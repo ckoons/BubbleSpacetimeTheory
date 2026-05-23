@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Cross-Volume Forward-Reference Table v0.2 \u2014 Reciprocal + Anchor-Strength",
+    "author": "Grace",
+    "date": "2026-05-23 Saturday ~16:28 EDT",
+    "parent": "data/cross_volume_forward_reference_table_v0_1.json"
+  },
+  "totals": {
+    "total_edges": 992,
+    "reciprocal_pairs": 108,
+    "one_way_edges": 776,
+    "reciprocity_rate_percent": 21.8
+  },
+  "classification_counts": {
+    "HUB (foundation, incoming>=10 outgoing<=3)": 3,
+    "APPLICATION (synthesis, outgoing>=10 incoming<=3)": 10,
+    "WORKHORSE (cross-domain, both>=8)": 13,
+    "LEAF (peripheral, both<=3)": 30
+  },
+  "hubs": [
+    {
+      "chapter": "Vol1.Ch5",
+      "incoming": 56,
+      "outgoing": 2
+    },
+    {
+      "chapter": "Vol1.Ch2",
+      "incoming": 32,
+      "outgoing": 1
+    },
+    {
+      "chapter": "Vol1.Ch7",
+      "incoming": 20,
+      "outgoing": 3
+    }
+  ],
+  "applications": [
+    {
+      "chapter": "Vol12.Ch12",
+      "incoming": 0,
+      "outgoing": 21
+    },
+    {
+      "chapter": "Vol5.Ch12",
+      "incoming": 0,
+      "outgoing": 19
+    },
+    {
+      "chapter": "Vol7.Ch12",
+      "incoming": 0,
+      "outgoing": 16
+    },
+    {
+      "chapter": "Vol0.Ch10",
+      "incoming": 1,
+      "outgoing": 16
+    },
+    {
+      "chapter": "Vol9.Ch1",
+      "incoming": 2,
+      "outgoing": 12
+    },
+    {
+      "chapter": "Vol11.Ch12",
+      "incoming": 2,
+      "outgoing": 11
+    },
+    {
+      "chapter": "Vol9.Ch12",
+      "incoming": 0,
+      "outgoing": 10
+    },
+    {
+      "chapter": "Vol3.Ch12",
+      "incoming": 1,
+      "outgoing": 10
+    },
+    {
+      "chapter": "Vol10.Ch7",
+      "incoming": 0,
+      "outgoing": 10
+    },
+    {
+      "chapter": "Vol15.Ch8",
+      "incoming": 1,
+      "outgoing": 10
+    }
+  ],
+  "workhorses": [
+    {
+      "chapter": "Vol1.Ch8",
+      "incoming": 17,
+      "outgoing": 10
+    },
+    {
+      "chapter": "Vol1.Ch11",
+      "incoming": 11,
+      "outgoing": 16
+    },
+    {
+      "chapter": "Vol5.Ch1",
+      "incoming": 14,
+      "outgoing": 9
+    },
+    {
+      "chapter": "Vol0.Ch1",
+      "incoming": 14,
+      "outgoing": 9
+    },
+    {
+      "chapter": "Vol2.Ch9",
+      "incoming": 15,
+      "outgoing": 8
+    },
+    {
+      "chapter": "Vol4.Ch6",
+      "incoming": 9,
+      "outgoing": 13
+    },
+    {
+      "chapter": "Vol3.Ch2",
+      "incoming": 11,
+      "outgoing": 11
+    },
+    {
+      "chapter": "Vol3.Ch4",
+      "incoming": 13,
+      "outgoing": 8
+    },
+    {
+      "chapter": "Vol11.Ch3",
+      "incoming": 8,
+      "outgoing": 10
+    },
+    {
+      "chapter": "Vol4.Ch2",
+      "incoming": 8,
+      "outgoing": 9
+    },
+    {
+      "chapter": "Vol2.Ch10",
+      "incoming": 8,
+      "outgoing": 8
+    },
+    {
+      "chapter": "Vol3.Ch11",
+      "incoming": 8,
+      "outgoing": 8
+    },
+    {
+      "chapter": "Vol2.Ch5",
+      "incoming": 8,
+      "outgoing": 8
+    }
+  ]
+}

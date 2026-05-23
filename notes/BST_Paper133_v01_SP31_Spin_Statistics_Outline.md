@@ -211,3 +211,41 @@ Spin-statistics derivation inherits Layer 1 (per-integer rank = 2 forcing) of T2
 - External venue selection (JMP primary)
 
 — Lyra, Paper #133 v0.1 outline (SP-31 Spin-Statistics), Friday 2026-05-22 ~10:13 EDT (`date`-verified actual)
+
+---
+
+## v0.1.5 Saturday cross-link bump (Lyra Sat 2026-05-23 15:27 EDT)
+
+Per Casey 15:11 EDT "non-textbook tasks" directive + Saturday context: applies omnibus cross-link `notes/Paper_Outlines_Saturday_Cross_Link_Omnibus_v0_1.md` Section A-G. Paper-specific cross-references:
+
+- **Vol 0 Ch 7 v0.6 14-operator zoo**: T2421 spin operator + T2471 chirality γ⁵ (Pin(2) Z₂ grading) directly underlies spin-statistics theorem on Bergman H²(D_IV⁵); Paper #133 (title already at v0.2 absorbing T2471 chirality identification Friday afternoon) inherits 14-operator zoo framework
+- **Cal #99 META-theorem discipline**: T2471 spin-half identification is substrate-derivation theorem supporting framework; does NOT advance Strong-Uniqueness criterion count
+- **20-layer methodology stack** absorbed
+
+Full-depth v0.3 revision deferred to Vol 0 Ch 7 v0.7 update (when Keeper authorship pass reaches Vol 0).
+
+— Lyra, v0.1.5 cross-link bump, Saturday 2026-05-23 15:27 EDT
+
+---
+
+## v0.2 Saturday EOD full revision (Lyra Sat 2026-05-23 ~16:50 EDT per Casey "finish these items, Keeper")
+
+### Saturday context integration (full)
+
+**T2467+T2468 v0.3 cross-link** (Cal #108 absorption Saturday 16:00 EDT): Pin(2) Z₂ grading on Bergman H²(D_IV⁵) underlying spin-statistics theorem is part of D_IV⁵ K-type structure; per v0.3 Section 13 honest scope on Wallach normalization PARTIAL, the spin-statistics theorem inherits the same K-type identification dependencies — substantively, the Z₂ grading IS rigorous (T2421 spin + T2471 chirality γ⁵), but the underlying K-type ground-state Casimir = 6 identification carries PARTIAL status until v0.4 principled Wallach normalization closes.
+
+**Cross-Scale Invariance Investigation v0.3 cross-link** (Casey P1, Saturday 16:40 EDT): spin-statistics applies at ALL scales (electron + nuclear + atomic + molecular + biological + cosmological) — this is Route C K-Type Representation Universality (v0.3 Section 13) primary evidence. Spin-statistics is the same K-type Z₂ grading observed across all 7 scales of Cross-Scale Invariance empirical evidence table.
+
+**Substrate Computational Model Investigation v0.3 cross-link** (Casey P2, Saturday 16:42 EDT): per Architecture A QCA (v0.3 Section 13) + Architecture C RS (Section 15), spin-statistics emerges from cell-level Pin(2) Z₂ grading consistent across Architecture A + B + C representations per FTC-1 conjecture.
+
+**Cal #99 META-discipline preserved**: T2421 + T2471 are substrate-derivation theorems supporting framework; spin-statistics theorem proper is operational identification, NOT new Strong-Uniqueness criterion.
+
+### v0.2 status
+v0.2 outline incorporates T2467+T2468 v0.3 PARTIAL acknowledgment on underlying K-type normalization + Cross-Scale Invariance Route C primary evidence + Architecture A/B/C consistency + Cal #99 META.
+
+### Pending for v0.3 (multi-week)
+- Cal cold-read on spin-statistics standalone paper-grade
+- v0.4 T2467+T2468 Wallach normalization closure unlocks fully rigorous spin-statistics derivation
+- Integration with Vol 0 Ch 7 v0.7 + Keeper authorship pass when reaches Vol 0
+
+— Lyra, Paper #133 v0.2 Saturday EOD full revision filed 2026-05-23 16:50 EDT per Casey "finish these items, Keeper" directive. T2421 spin + T2471 chirality γ⁵ Pin(2) Z₂ grading + Route C K-Type Universality + Architecture A/B/C consistency + Cal #99 META integrated.

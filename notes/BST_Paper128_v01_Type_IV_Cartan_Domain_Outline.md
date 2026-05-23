@@ -129,3 +129,41 @@ D_IV⁵ as physical substrate offers a mathematically clean, structurally over-d
 - External venue selection (Bulletin AMS / Notices AMS / Inventiones)
 
 — Lyra, Paper #128 v0.1 outline, Friday 2026-05-22 ~08:51 EDT (`date`-verified actual)
+
+---
+
+## v0.1.5 Saturday cross-link bump (Lyra Sat 2026-05-23 15:25 EDT)
+
+Per Casey 15:11 EDT "non-textbook tasks" directive + Saturday context: applies omnibus cross-link `notes/Paper_Outlines_Saturday_Cross_Link_Omnibus_v0_1.md` Section A-G. Paper-specific cross-references:
+
+- **Cross-Scale Invariance Investigation v0.2** (Casey P1, Saturday 15:17 EDT): D_IV⁵ Cartan-type classification per Helgason 1978 + per Paper #128 directly underlies Route A (Holographic / Substrate-Is-Foundational) — D_IV⁵ as the unique Cartan-type matching all BST primary integer + cross-Cartan constraints is THE substrate-foundational claim Paper #128 documents
+- **T2467+T2468 D_IV⁵ Rigidity v0.2** (theorem-level rigor closure Saturday 15:14 EDT): Paper #128 Cartan-classification content is exactly the Lemma 2.2.1 (Cartan type forcing) ingredient + supports T2467 META proof structure
+- **20-layer methodology stack** absorbed; **Cal #99 META-discipline preserved**
+
+Full-depth v0.2 revision deferred to Strong-Uniqueness v0.15 RIGOROUSLY CLOSED ratification (estimated ~1-2 days; Paper #128 absorbs ratified state into v0.3).
+
+— Lyra, v0.1.5 cross-link bump, Saturday 2026-05-23 15:25 EDT
+
+---
+
+## v0.2 Saturday EOD full revision (Lyra Sat 2026-05-23 ~16:47 EDT per Casey "finish these items, Keeper")
+
+### Saturday context integration (full, per Cal #108 absorption + Casey "finish" directive)
+
+**Cross-Scale Invariance Investigation v0.3 cross-link** (Casey P1, Saturday 16:40 EDT): Paper #128 documents the D_IV⁵ Cartan-type classification (D_IV family, rank=2, dim_C=5) that underlies Route A (Holographic / Substrate-Is-Foundational). Per v0.3 Section 12-14, Cartan-type classification provides Layer 1 Lemma 2.2.1 ingredient for T2467 META-theorem singleton claim + supports Routes A+C+D mutually reinforcing substrate-foundational hypothesis (13 substantive evidences cumulative).
+
+**T2467+T2468 v0.3 absorption cross-link** (Cal #108): Paper #128 Cartan classification is canonical mathematical foundation (Helgason 1978 + Hua 1963 standard) — not affected by v0.3 Wallach Casimir + N submanifold PARTIAL status. Paper #128's Cartan-classification content stays at standard-mathematics grade.
+
+**Subsidiary clarification** (per T2467+T2468 v0.3 Section 13 distinction): Paper #128 should explicitly distinguish BST primary integer g = 7 (Mersenne tower lift) from standard Hua-Look genus g_HuaLook = 2n − 2 = 8 for D_IV⁵. This distinction is load-bearing for Bergman exponent claims; should be made explicit in v0.3 Paper #128 publication-grade.
+
+**Cal #99 META-theorem discipline applied**: Cartan-type classification per Helgason 1978 is standard mathematics; Paper #128 documents D_IV⁵ as substrate-foundational selection; this is operational identification, NOT new Strong-Uniqueness criterion (Cal #99 META preserved).
+
+### v0.2 status
+v0.2 outline incorporates Cross-Scale Invariance v0.3 cross-link + T2467+T2468 v0.3 subsidiary BST g vs Hua-Look g distinction acknowledged + Cal #99 META preserved.
+
+### Pending for v0.3 (multi-week)
+- Cal cold-read on Paper #128 standalone Cartan-classification grade
+- Explicit BST g = 7 vs Hua-Look g_HuaLook = 8 distinction in publication-grade body
+- Integration with T2467+T2468 v0.4 rigorous closure (multi-week mathematical work)
+
+— Lyra, Paper #128 v0.2 Saturday EOD full revision filed 2026-05-23 16:47 EDT per Casey "finish these items, Keeper" directive. Cross-Scale Invariance Route A foundation + T2467+T2468 v0.3 subsidiary distinction + Cal #99 META preserved.

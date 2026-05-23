@@ -177,3 +177,36 @@ Cosmological observables (Λ, Casimir, CMB n_s) inherit substrate three-layer ov
 - External venue selection (JCAP primary)
 
 — Lyra, Paper #135 v0.1 outline (Substrate Cosmology: Λ-Casimir Vacuum Unification), Friday 2026-05-22 ~10:18 EDT (`date`-verified actual)
+
+---
+
+## v0.2 Saturday afternoon revision (Lyra Sat 2026-05-23 15:21 EDT)
+
+### Saturday context integration
+
+**Cross-Scale Invariance Investigation v0.2 cross-link** (Casey P1, filed Saturday 15:17 EDT): Λ-Casimir vacuum unification (T2418 Wednesday) is Cross-Scale Invariance Evidence #4 substrate-integer-sharing — the same BST primary integers (g, C_2, rank) appear in α = 1/N_max = 1/(N_c²·n_C + rank) electron-scale formula AND Λ/M_Pl⁴ = g · exp(−C_2(g² − rank)) cosmological-scale formula. Paper #135's substantive contribution to Cross-Scale Invariance v0.3+ is the explicit Λ-Casimir unification mechanism.
+
+**Substrate Computational Model Investigation v0.2 cross-link** (Casey P2, filed Saturday 15:19 EDT): Λ at Zone-4 outer-edge of T2417 4-Zone Commitment Cycle represents substrate vacuum bookkeeping at outermost zone (cosmological scale); Casimir force at Zone-2 represents substrate vacuum bookkeeping at experimental scale (laboratory). T2418 Wednesday unification establishes these are the same substrate vacuum at different zones. Per Architecture D Hybrid Bergman/RS, Λ-Casimir unification is substrate-tick-level vacuum-state computation observed at different scale-windows.
+
+**T2467+T2468 D_IV⁵ Rigidity cross-link** (theorem-level rigor closure v0.2 Saturday 15:14 EDT): Λ-Casimir vacuum unification operates on single substrate D_IV⁵ per T2468 — if substrate were multi-instance D_IV⁵ (non-interacting case), Λ-Casimir unification would not hold across instances; observed Λ-Casimir unification provides corroborating evidence for T2468 patches-merge (interacting case STRUCTURALLY VERIFIED).
+
+**Cal #99 META-theorem discipline applied**: T2418 Λ↔Casimir vacuum unification is substrate-derivation theorem supporting the framework; does NOT advance Strong-Uniqueness criterion count per Cal #99 authoritative enumeration. Paper #135's contribution is the OPERATIONAL Λ-Casimir mechanism + cosmological-scale substrate observable, not a new uniqueness criterion.
+
+**Cal #50 DOUBLE-LOCKED EXTERNAL preserved**: cosmological substrate-vacuum framings used internal register only; external presentation uses operational language ("BST identifies Λ-Casimir vacuum unification as substrate Zone-4 ↔ Zone-2 unification per T2417 4-Zone Commitment Cycle").
+
+**Saturday methodology stack 20 layers absorbed**.
+
+### v0.2 status
+v0.2 outline incorporates Saturday investigations + 20-layer methodology stack + Cal #99 META-discipline. Body content unchanged from v0.1; v0.2 positions Paper #135 as Cross-Scale Invariance Evidence #4 substantive contribution + Substrate Computational Model Architecture D vacuum-state operation.
+
+### Pending for v0.3 (multi-week)
+- Cal cold-read on Λ-Casimir mechanism
+- Quantitative Λ_obs sub-percent prediction (substrate-tick computation) — requires Substrate Computational Model Investigation v0.3+ Architecture D explicit construction
+- Integration with Cross-Scale Invariance v0.3+ Routes B/C/D analysis (Λ-Casimir as Route A primary-evidence + Route D Bergman-kernel-universality test)
+
+### Pending for v1.0 + cosmological outreach
+- Substrate-tick boundary-condition specification (Vol 0 Ch 5 + SP-27)
+- Casey send-signal for cosmology outreach (Bogdanovic EHT + Penrose + others)
+- External venue selection (JCAP primary, MNRAS secondary)
+
+— Lyra, Paper #135 v0.2 Saturday afternoon revision filed 2026-05-23 15:21 EDT per Casey "non-textbook tasks" directive. Cross-Scale Invariance Evidence #4 + Substrate Computational Model Architecture D vacuum-state + T2467+T2468 Rigidity cross-link integrated.
