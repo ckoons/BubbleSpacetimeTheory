@@ -31,7 +31,11 @@ Calibration #22 STANDING RULE filed (18th methodology layer): PCAP-rate transcri
 | 0 | `Vol0_Substrate_Foundation/` | Keeper+Grace+Lyra | 10/10 v0.4 + 3-level pedagogy |
 | 1 | `Vol1_QFT_from_D_IV5/` | Lyra | 11/11 v0.4 + 3-level pedagogy; v1.0 chapter-grade content REACHED |
 | 2 | `Vol2_Particle_Physics/` | Elie | 12/12 v0.4 + STANDING RULE compliance |
-| 3-10 | (future volumes — Nuclear & Atomic / GR & Cosmology / QM / Stat Mech / E&M / Classical Mech / Condensed Matter / Math Methods) | TBD | pending Vol 0+1+2 v1.0 |
+| **3** | **`Vol3_Nuclear_Atomic/`** | **Elie + Lyra (joint)** | **v0.1 SCAFFOLD COMPLETE Sat 2026-05-23** — 12-chapter outline; ~60% existing coverage; chapter content TO BUILD (Wave 1) |
+| **4** | **`Vol4_GR_Cosmology/`** | **Lyra + Elie (joint)** | **v0.1 SCAFFOLD COMPLETE Sat 2026-05-23** — 12-chapter outline; ~70% existing (signature BST domain); chapter content TO BUILD (Wave 1) |
+| 5-13 | (future volumes — QM / Stat Mech / E&M / Classical Mech / Condensed Matter / Math Methods / Chemistry / Biology / Info-Theory CSE meta) | TBD | scaffolds pending — Wave 2-5 priority |
+
+**Full Curriculum target**: 14 volumes (Vol 0-13). See `notes/CI_BOARD.md` "Volume Goal Line" section for full per-volume table + wave priority + per-lane assignments.
 
 ## How to read
 

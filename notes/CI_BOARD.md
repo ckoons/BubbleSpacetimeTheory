@@ -94,8 +94,8 @@ status: "Active. Read at session start, update at EOD. No HOLDs — every item w
 | **0** | Substrate Foundation | ✓ v1.0 chapter-grade REACHED (contingent Lyra Vol 0 PDF regen) | 100% | Keeper+Grace+Lyra | reader-grade polish + Saturday final absorption |
 | **1** | QFT from D_IV⁵ | ✓ v1.0 chapter-grade REACHED (contingent Cal #100 Ch 11 v0.7→v0.8) | 100% | Lyra | Cal #100 m_μ/m_e precision correction |
 | **2** | Particle Physics | ✓ v0.4+ contingent Cal #100 Ch 3+5 v0.4→v0.5 + reader-grade polish | 100% | Elie | Cal #100 correction + 6/12 → 12/12 3-level walkthrough |
-| **3** | Nuclear & Atomic Physics | TO BUILD | ~60% (T1452+ biology batch + nuclear shell model + magic numbers) | OPEN — Lyra or Elie lead candidates | scaffold INDEX + 10-12 chapter outline |
-| **4** | GR & Cosmology | TO BUILD | ~40% (T2418 Λ↔Casimir + T2417 cosmological cycle + Hubble routes A/B/C/D + ΛCDM-from-BST) | Lyra (signature BST domain) | scaffold INDEX + 10-12 chapter outline |
+| **3** | Nuclear & Atomic Physics | **v0.1 SCAFFOLD COMPLETE (Sat 2026-05-23)** — 12-chapter outline filed, ~60% existing | Elie (lead) + Lyra (theoretical support) | **Wave 1 — chapter content TO BUILD (12 chapters; see Vol 3 INDEX)** |
+| **4** | GR & Cosmology | **v0.1 SCAFFOLD COMPLETE (Sat 2026-05-23)** — 12-chapter outline filed, ~70% existing (signature BST domain) | Lyra (lead) + Elie (verification) | **Wave 1 — chapter content TO BUILD (12 chapters; see Vol 4 INDEX)** |
 | **5** | Quantum Mechanics (pedagogical bridge) | TO BUILD | ~35% (Born=Bergman K67 + Bell CHSH K66 + RS Computation K68 + Universal Q=126 K69) | Lyra | scaffold INDEX + 10-12 chapter outline |
 | **6** | Stat Mech & Thermodynamics | TO BUILD | ~25% (heat kernel cascade k=2..20 + Paper #9 Arithmetic Triangle + T2418 Λ↔Casimir) | Lyra+Elie | scaffold INDEX + 8-10 chapter outline |
 | **7** | Electromagnetism | TO BUILD | ~30% (α^{BST primary} pattern T2476 + α from N_max + Painlevé residue α=1/N_max + RS Computation) | Lyra | scaffold INDEX + 8-10 chapter outline |
@@ -276,6 +276,51 @@ Per wave estimate: ~2-4 weeks per pair at sustained sub-PCAP cadence assuming re
 - **#271 K71 EXEMPLAR audit pattern inclusion** in BST_Referee_Methodology.md (Cal + Keeper)
 - **#272 Mode 6 threshold formalization update** to BST_Methodology_Coincidence_Filter_Risk.md
 - **#10 Cal referee log #42 — Casey gate function formalization**
+
+### WAVE 1 — Vol 3 + Vol 4 chapter build (scaffolds COMPLETE Sat 2026-05-23, content TO BUILD)
+
+**Wave 1 begins after Saturday Vol 0+1+2 v1.0 chapter-grade declaration.** Two volumes in parallel, ~24 chapters total across Vol 3 + Vol 4. Estimated 3-7 weeks at sustained sub-PCAP cadence.
+
+#### Vol 3 Nuclear & Atomic — chapter assignments (Elie lead, Lyra theoretical support)
+
+| Ch | Title | Existing | Owner | Priority | Notes |
+|----|-------|----------|-------|----------|-------|
+| 3.1 | Nuclear Substrate Reading | ~70% | Elie | medium | D_IV⁵ scale → nuclear arena |
+| 3.2 | Magic Numbers from Spin-Orbit | ~95% D-tier | Elie | **FAST** | C₂/n_C = 6/5 → 7/7 magic numbers exact |
+| 3.3 | Nuclear Shell Model top 30 | ~85% | Elie | medium | Task #86 framework extension |
+| 3.4 | SEMF Coefficients | ~90% | Elie | **FAST** | All 5 SEMF coeffs at <2% from BST integers |
+| 3.5 | Halo Nuclei | ~60% | Elie + Lyra | slow | Li-11, Be-11, B-17 mechanism |
+| 3.6 | Superheavy Island | ~70% | Elie | medium | Task #111 framework |
+| 3.7 | Atomic Structure (orbital sequence) | ~95% D-tier | Lyra | **FAST** | (2l+1) = 1, N_c, n_C, g exact |
+| 3.8 | Hyperfine + Lamb Shift | ~70% | Elie + Lyra | medium | T2476 α^{n_C} substrate-mechanism partial Mode 5 lift |
+| 3.9 | Atomic Spectroscopy via BST | ~60% | Lyra | medium | T2476 multi-observable + α⁶ Penning trap 2030+ falsifier |
+| 3.10 | Atomic Clocks + Time Granularity | ~40% | Elie + Lyra | slow | Sr-clock falsifier + Koons tick |
+| 3.11 | Nuclear Decay | ~40% | Elie + Lyra | slow | Casey neutron decay winding rearrangement (Task #58) |
+| 3.12 | Cross-volume bridge | ~50% | Lyra | last | Vol 2 inputs / Vol 4 outputs |
+
+#### Vol 4 GR & Cosmology — chapter assignments (Lyra lead, Elie verification, signature domain)
+
+| Ch | Title | Existing | Owner | Priority | Notes |
+|----|-------|----------|-------|----------|-------|
+| 4.1 | Newton's G from Bergman | ~80% | Lyra | **FAST** | G derivation via 12 = 2C₂ Bergman round trips (0.07%) |
+| 4.2 | Gravity as Eigentone | ~60% | Lyra | medium | T2418 + AB-11 |
+| 4.3 | BST-SR / BST-GR Boundary | ~50% | Lyra | slow | when does GR emerge? multi-week theorem work |
+| 4.4 | Λ from Substrate | ~85% | Lyra | **FAST** | T1485 + T2418 |
+| 4.5 | Hubble Four Routes | ~80% | Lyra + Elie | medium | A/B/C/D tension resolution |
+| 4.6 | CMB Structure | ~90% | Lyra | **FAST** | n_s, Ω_m, Ω_Λ at 0.07σ — signature highest-precision content |
+| 4.7 | Inflation Parameters | ~75% | Lyra | medium | r, n_t, α_s running |
+| 4.8 | BBN Element Abundances | ~80% | Elie + Lyra | medium | T_c + Li-7 problem |
+| 4.9 | Cosmological Cycle + Interstasis | ~30% | Lyra | slow | Casey-named #7 D_IV⁵ Rigidity + Task #267 multi-month |
+| 4.10 | Dark Energy + Dark Matter | ~85% | Lyra | **FAST** | DM/Ω_b = 16/3 + Shannon channel |
+| 4.11 | Gravitational Waves | ~70% | Lyra | medium | NANOGrav prediction + black holes |
+| 4.12 | SP-27 Observational Reanalysis | ~30% | Elie + Lyra | slow | pending Casey scoping |
+
+**Wave 1 priority order**: FAST chapters first (high existing coverage; 6/24 chapters at ≥85% can reach v0.3 quickly) → medium → slow (multi-week theorem work).
+
+**Per-CI lane support**:
+- **Grace**: per-chapter catalog backbones as chapters land (Vol 3 → INV catalog refs; Vol 4 → all cosmological observables already cataloged)
+- **Cal**: cold-read PASS gate for every chapter (start with FAST chapters: 3.2, 3.4, 3.7, 4.1, 4.4, 4.6, 4.10 = 7 candidates for early Wave 1 cold-reads)
+- **Keeper**: K-audit absorption per chapter v0.3+ landings; cross-volume consistency sweeps; Curriculum PDF rebuilds per chapter
 
 ### KEEPER (Audit — chapter K-audit absorption + cross-volume + governance)
 
