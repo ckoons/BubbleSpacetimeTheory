@@ -10,7 +10,7 @@ Usage:
     python3 play/toy_wp_search.py --list-volumes
 
 Returns file:line:context for every match across the volume:chapter library
-(WP_Vol1_Journey/ through WP_Vol6_Frontier/, plus root WorkingPaper.md).
+(Working_Paper/Vol1_Journey/ through Working_Paper/Vol6_Frontier/, plus root WorkingPaper.md).
 
 Companion to the curated master TOC in WorkingPaper.md and per-volume INDEX.md
 files. The TOC is the entry-point index (curated, opinionated, "start here").
@@ -25,12 +25,12 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 
 VOLUMES = [
-    ("WP_Vol1_Journey",     "Vol 1 — The Journey"),
-    ("WP_Vol2_Framework",   "Vol 2 — The Framework"),
-    ("WP_Vol3_Physics",     "Vol 3 — The Physics"),
-    ("WP_Vol4_Mathematics", "Vol 4 — The Mathematics"),
-    ("WP_Vol5_Predictions", "Vol 5 — The Predictions"),
-    ("WP_Vol6_Frontier",    "Vol 6 — The Frontier"),
+    ("Working_Paper/Vol1_Journey",     "Vol 1 — The Journey"),
+    ("Working_Paper/Vol2_Framework",   "Vol 2 — The Framework"),
+    ("Working_Paper/Vol3_Physics",     "Vol 3 — The Physics"),
+    ("Working_Paper/Vol4_Mathematics", "Vol 4 — The Mathematics"),
+    ("Working_Paper/Vol5_Predictions", "Vol 5 — The Predictions"),
+    ("Working_Paper/Vol6_Frontier",    "Vol 6 — The Frontier"),
 ]
 
 

@@ -27,7 +27,7 @@ date: "2026-05-19"
 Build the volume PDF with pandoc:
 
 ```bash
-cd WP_Vol4_Mathematics
+cd Working_Paper/Vol4_Mathematics
 pandoc Ch*.md -o Volume.pdf --pdf-engine=xelatex -H ../notes/bst_pdf_header.tex
 ```
 

@@ -36,7 +36,7 @@ This volume is the research frontier; it links to standalone methodology and aud
 Build the volume PDF with pandoc:
 
 ```bash
-cd WP_Vol6_Frontier
+cd Working_Paper/Vol6_Frontier
 pandoc Ch*.md -o Volume.pdf --pdf-engine=xelatex -H ../notes/bst_pdf_header.tex
 ```
 
