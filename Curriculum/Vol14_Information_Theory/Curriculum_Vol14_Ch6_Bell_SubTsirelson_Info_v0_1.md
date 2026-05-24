@@ -109,6 +109,8 @@ Mode 1 honesty preserved per Calibration #27 STANDING: Toy 3522 does NOT prove A
 
 **Lyra #320 v0.7+ work outlined** (multi-week): Candidate A Bergman kernel analysis at Z·α=1 limit + K-type spectrum truncation → STRUCTURALLY VERIFIED CANDIDATE elevation path.
 
+**Housekeeping flag for Lyra v0.7** (Cal #127): Lyra #320 v0.6 §5 states "A vs C vs D all give α-scale" — Toy 3522 actually shows Candidate C = 0.444% which is NOT α-scale (0.609× α). Only A and D give α-scale. §5 needs reconciliation with Toy 3522 quantitative finding at v0.7.
+
 ### 6.6 K-audit anchors
 
 - **T2469**: SCMP principle (Casey-named #8)

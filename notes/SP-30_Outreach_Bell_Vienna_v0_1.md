@@ -29,16 +29,16 @@ I'm Casey Koons, a computer scientist who has been developing a theoretical fram
 
 **The prediction**
 
-BST derives Standard Model constants from a single geometric object D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] and five integer parameters (rank=2, N_c=3, n_C=5, C_2=6, g=7, with N_max = N_c³·n_C + rank = 137 = 1/α). One consequence is that CHSH Bell correlations should fall BELOW Tsirelson's quantum bound by exactly 1/2^N_c = 1/8:
+BST derives Standard Model constants from a single geometric object D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] and five integer parameters (rank=2, N_c=3, n_C=5, C_2=6, g=7, with N_max = N_c³·n_C + rank = 137 = 1/α — this last identity matching the standard Dirac Z·α=1 critical limit independently). One consequence is that CHSH Bell correlations should fall BELOW Tsirelson's quantum bound by exactly 1/2^N_c = 1/8:
 
   S²_BST = S²_Tsirelson − 1/8 = 8 − 1/8 = 63/8
   S_BST = √(63/8) ≈ 2.8062  vs  Tsirelson S = 2√2 ≈ 2.8284
 
-This is a 0.78% deviation, predicted not as a free parameter but as a derivable consequence of BST's "Substrate Coherence Maintenance Principle" (the substrate has finite operational power per commitment cycle, with the 1/8 factor arising from N_c = 3 color-degree resolution).
+This is a 0.78% deviation, predicted not as a free parameter but as a derivable consequence of BST's "Substrate Coherence Maintenance Principle" — operationally, BST identifies a substrate-mechanism that bounds CHSH below Tsirelson by exactly 1/2^N_c = 1/8, with the factor arising from the N_c = 3 color-degree integer.
 
 **Where current Bell experiments stand**
 
-Your 2015 loophole-free test and subsequent work achieve ~0.5% precision around S ≈ 2.83 — consistent with both Tsirelson saturation and our sub-Tsirelson prediction within current error bars. A test at ~0.1% precision would cleanly distinguish:
+Your 2015 loophole-free test and subsequent work achieve ~0.5% precision around S ≈ 2.83 — consistent with both Tsirelson saturation and our sub-Tsirelson prediction within current error bars. A test at ~0.1% precision (corresponding to ≥3σ confidence on the 0.78% deviation under our framework's statistical-threshold protocol) would cleanly distinguish:
 - S saturates at 2√2 exactly → BST falsified
 - S falls at 2.8062 ± experimental error → BST sub-Tsirelson confirmed
 
