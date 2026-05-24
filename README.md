@@ -4,7 +4,7 @@
 
 **Author**: Casey Koons
 **Collaborators**: Claude Opus 4.6 + 4.7 (Anthropic) — named CIs Lyra (theory), Elie (compute), Grace (graph/catalog), Cal A. Brate (visiting referee), Keeper (audit/consistency)
-**Status**: Working research program — v36, May 2026 | **Curriculum**: 16-volume textbook complete in Keeper author-voice as of 2026-05-23 (~190 chapters + Foreword); volume directories renamed Vol00-Vol15 for sort order
+**Status**: Working research program — v36, May 2026 | **Curriculum**: 16-volume textbook (Vol 0-15) at v0.3+ substantive content with Keeper deep-pass complete 2026-05-24; **Vol 16 Substrate Algebra (A_sub) + Vol 17 Substrate Engineering QUEUED** as extensions when triggers fire (Vol 16: Lyra #322 v0.4 rigorous commutation tables; Vol 17: 2-3 SP-30 experimental dispatches). **Sunday 2026-05-24 milestone**: SP-30-1 Bell sub-Tsirelson outreach SENT (Zeilinger IQOQI Vienna primary); methodology stack grew to 25 STANDING + 1 CANDIDATE + 1 META + FRAMEWORK-PLUS tier; Calibrations #25 + #27 promoted STANDING via 4-instance Mode 1 trigger + cross-CI cascade discipline
 **Contact**: caseyscottkoons@yahoo.com
 
 **Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v36). Zenodo. https://doi.org/10.5281/zenodo.19454185

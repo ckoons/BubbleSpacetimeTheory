@@ -1,0 +1,55 @@
+======================================================================
+TOY 671d — k=22 HYBRID: 1600-dps (n<=40) + 3200-dps (n>40)
+======================================================================
+  Dimensions: n=3..90 (88 total)
+  Hybrid cutoff: n<=40 from 1600-dps, n>40 fresh at 3200-dps
+  Points per dimension: 48
+  Target: a_22 polynomial (degree 44)
+  Casey's optimization: skip low-n recomputation
+
+--- Step 1: Loading + computing heat traces ---
+
+  n= 3: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n= 4: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n= 5: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n= 6: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n= 7: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n= 8: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n= 9: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=10: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=11: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=12: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=13: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=14: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=15: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=16: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=17: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=18: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=19: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=20: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=21: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=22: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=23: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=24: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=25: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=26: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=27: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=28: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=29: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=30: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=31: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=32: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=33: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=34: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=35: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=36: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=37: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=38: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=39: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=40: loaded 1600-dps, promoted to 3200-dps arithmetic
+  n=41: loaded 3200-dps checkpoint
+  n=42: loaded 3200-dps checkpoint
+  n=43: loaded 3200-dps checkpoint
+  n=44: loaded 3200-dps checkpoint
+  n=45: loaded 3200-dps checkpoint
+  n=46: loaded 3200-dps checkpoint

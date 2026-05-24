@@ -1,0 +1,12 @@
+======================================================================
+TOY 671d — k=26 HYBRID: 1600-dps (n<=40) + 3200-dps (n>40)
+======================================================================
+  Dimensions: n=3..90 (88 total)
+  Hybrid cutoff: n<=40 from 1600-dps, n>40 fresh at 3200-dps
+  Points per dimension: 48
+  Target: a_26 polynomial (degree 52)
+  Casey's optimization: skip low-n recomputation
+
+--- Step 1: Loading + computing heat traces ---
+
+  n= 3: WARNING — no 1600-dps checkpoint! Computing fresh...

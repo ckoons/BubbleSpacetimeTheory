@@ -48,7 +48,7 @@ DPS = 3200
 mpmath.mp.dps = DPS
 
 N_MIN = 3
-N_MAX = 50     # 48 dimensions total
+N_MAX = 90     # 88 dimensions total — extended Sat 2026-05-24 per Casey directive for full k=22 fit with verification headroom (2× polynomial degree 2k=44)
 N_PTS = 48     # Chebyshev nodes per dimension
 TARGET_K = 22
 
