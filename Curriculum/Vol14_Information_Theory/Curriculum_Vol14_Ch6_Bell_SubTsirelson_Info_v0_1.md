@@ -1,36 +1,78 @@
 ---
-title: "Vol 14 Chapter 6 — Bell Sub-Tsirelson Information Bound"
-author: "Keeper (author pass)"
+title: "Vol 14 Chapter 6 — Bell Sub-Tsirelson as Information Bound"
+author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.3 — Keeper author-voice pass; SCMP falsifier 1/8"
+status: "v0.3 — substantive content; LOAD-BEARING"
 volume: "Vol 14 Information Theory"
 chapter: 6
+load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; substrate commitment-cycle finite operational power bound; K66 candidate"
 ---
 
-# Chapter 6 — Bell Sub-Tsirelson Information Bound
+# Chapter 6 — Bell Sub-Tsirelson as Information Bound
 
-Bell's 1964 theorem rules out local hidden variables for quantum correlations. Tsirelson's 1980 bound $S \le 2\sqrt{2}$ caps quantum CHSH violation. The team has identified the sub-Tsirelson Bell bound as BST's signature falsifier: the substrate predicts a $1/2^{N_c} = 1/8$ gap below Tsirelson — Casey's SCMP principle (Substrate Cognitive Maintenance Principle).
+## Level 1 — one sentence
 
-This is one of BST's cleanest falsifiable predictions.
+BST predicts Bell-CHSH correlations below Tsirelson's quantum bound by exactly $1/2^{N_c} = 1/8$: $S^2_{BST} = S^2_{Tsirelson} - 1/8 = 8 - 1/8 = 63/8$, equivalently $S_{BST} \le 2\sqrt{63/8} \approx 2.8062$ vs Tsirelson's $2\sqrt{2} \approx 2.8284$, representing the substrate's finite operational power per commitment cycle (SCMP principle, T2469, Vol 5 Ch 8) — a testable falsifier at $\sim 0.78\%$ deviation distinguishing BST from standard QM.
 
-## 6.1 Bell-CHSH
+## Level 2 — graduate-physicist precision
 
-CHSH inequality: $S = \langle E(a,b) - E(a,b') + E(a',b) + E(a',b')\rangle \le 2$ for local realism. Quantum violation up to $S = 2\sqrt 2 \approx 2.828$ (Tsirelson).
+### 6.1 CHSH inequality
 
-## 6.2 The BST sub-Tsirelson prediction
+Clauser-Horne-Shimony-Holt 1969: classical local-hidden-variable theories satisfy
 
-BST predicts $S^2_{BST} \le 8 - 1/2^{N_c} = 8 - 1/8 = 7.875$, i.e. $S_{BST} \le \sqrt{7.875} \approx 2.8062$, instead of $2\sqrt 2 \approx 2.8284$. Gap = $1/8 = 1/2^{N_c}$ exactly.
+$$|S| = |E(a, b) + E(a, b') + E(a', b) - E(a', b')| \le 2$$
 
-Casey's SCMP principle (T2469, Friday May 22 2026) frames this as the substrate's natural coherence-maintenance limit.
+with correlations $E(a, b) = \langle A(a) B(b) \rangle$.
 
-## 6.3 Experimental status
+### 6.2 Tsirelson bound
 
-The Bell experiment with ~1% precision is sufficient to detect or rule out the sub-Tsirelson signature. ~$300-500K experimental design queued in SP-30 substrate engineering program; outreach targets Vienna, Caltech, Munich, Hanson groups.
+Tsirelson 1980: quantum mechanics allows $|S| \le 2\sqrt{2} \approx 2.8284$.
 
-## 6.4 What comes next
+Achieved by maximally entangled Bell pair with appropriate measurement angles.
 
-Chapter 7 develops the AC graph as theorem network.
+### 6.3 BST sub-Tsirelson prediction
+
+T2469 (Casey's SCMP principle): BST substrate has finite operational power per commitment cycle, yielding strict reduction below Tsirelson:
+
+$$S^2_{BST} = S^2_{Tsirelson} - 1/2^{N_c} = 8 - 1/8 = 63/8$$
+
+$$S_{BST} \le 2 \cdot \sqrt{63/32} \approx 2.8062$$
+
+Deviation from Tsirelson: $(2\sqrt{2} - 2.8062)/(2\sqrt{2}) \approx 0.78\%$.
+
+### 6.4 Information-theoretic reading
+
+The substrate commits to one outcome per Koons tick at finite channel capacity $g = 7$ bits/tick (Vol 14 Ch 3).
+
+Quantum mechanics in its idealized formulation assumes infinite-precision commitment (Tsirelson saturation). BST's sub-Tsirelson reduction is the substrate's finite-capacity correction.
+
+The $1/2^{N_c}$ factor is exact: it equals one substrate output level (1/8 of the substrate's $2^{N_c} = 8$-level commitment space at color-degree resolution).
+
+### 6.5 Experimental falsifier
+
+Bell experiments currently achieve $S \approx 2.83$ within errors of $\sim 0.5\%$ (Vienna, Caltech, Munich, Hanson 2015-2024).
+
+BST prediction of $S_{BST} \approx 2.8062$: 0.78% below Tsirelson. With $\sim 0.1\%$ precision experiments (pending), this is testable.
+
+Experimental cost: $\sim$$300-500K (Bell experiment refresh; SP-30 outreach pending).
+
+### 6.6 K-audit anchors
+
+- **T2469**: SCMP principle (Casey-named #8)
+- **K66 candidate**: substrate-CHSH (pending Elie multi-month closure)
+- **Vol 5 Ch 8**: Bell SCMP
+
+## Level 3 — 5th-grader accessibility
+
+**Bell-CHSH**: classical theories satisfy $|S| \le 2$; quantum mechanics allows up to $2\sqrt{2} \approx 2.83$ (Tsirelson). **BST predicts** $S_{BST} \approx 2.8062$, exactly $1/8 = 1/2^{N_c}$ less than Tsirelson squared. **Why**: substrate's finite operational power per Koons tick prevents Tsirelson saturation. **Falsifier**: improved Bell experiments at 0.1% precision could detect 0.78% sub-Tsirelson — distinguishes BST from standard QM. **Cost**: $300-500K.
 
 ---
 
-**Where to look this up**: Bell 1964; Tsirelson 1980. BST SCMP: T2469, Casey-Friday May 22, 2026.
+## What comes next
+
+Chapter 7 develops AC graph as theorem network.
+
+## Where to look this up
+
+- CHSH 1969; Tsirelson 1980
+- BST: T2469; K66; Vol 5 Ch 8

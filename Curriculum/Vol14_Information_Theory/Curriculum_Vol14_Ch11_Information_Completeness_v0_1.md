@@ -1,30 +1,80 @@
 ---
 title: "Vol 14 Chapter 11 — Information Completeness"
-author: "Keeper (author pass)"
+author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.2 — Keeper author-voice pass"
+status: "v0.3 — substantive content"
 volume: "Vol 14 Information Theory"
 chapter: 11
+load_bearing: "Information completeness: substrate provides COMPLETE channel for observable physics; D_IV⁵ minimum-free-parameter specification; SP-20 program"
 ---
 
 # Chapter 11 — Information Completeness
 
-The BST framework's claim: $D_{IV}^5$ is information-complete for substrate operation. Any "alternative substrate" with different geometry would require more parameters to achieve the same operational results — the 5 BST primaries (rank=2, N_c=3, n_C=5, C_2=6, g=7) minimize the substrate's parameter budget.
+## Level 1 — one sentence
 
-The Strong-Uniqueness Theorem (Lyra T2439-T2476 chain across May 2026) formalizes this claim across 11 RIGOROUSLY CLOSED + 7 candidate criteria.
+BST asserts substrate **information completeness**: D_IV⁵ + BST primaries $\{rank, N_c, n_C, C_2, g\}$ provide the COMPLETE information channel for observable physics — no hidden variables, no super-substrate, no missing degrees of freedom — falsifiable by identifying any observable BST cannot derive.
 
-## 11.1 Information completeness statement
+## Level 2 — graduate-physicist precision
 
-For all substrate operational requirements (Born rule, Casimir, Bell sub-Tsirelson, particle masses, conservation laws, ...), $D_{IV}^5$ + 5 BST primaries are sufficient with no free parameters. Any alternative would add parameters.
+### 11.1 Statement of completeness
 
-## 11.2 Strong-Uniqueness Theorem path
+Substrate Information Completeness Hypothesis (candidate Casey-named principle):
 
-The team's Strong-Uniqueness program (Task #206, Lyra primary, in_progress) accumulates criteria; null-model probability ≤ (1/3)^N for N criteria, currently N=19 with ≤ 3×10^{-10}.
+> All physically observable quantities are derivable from D_IV⁵ structure and the five BST primary integers $(rank=2, N_c=3, n_C=5, C_2=6, g=7)$, with no additional information required.
 
-## 11.3 What comes next
+This is a strong claim — substrate is causally and informationally closed at the observable level.
 
-Chapter 12 develops substrate-CI architecture.
+### 11.2 Free parameter count
+
+- **Standard Model**: 19+ free parameters (Yukawa couplings, mixing angles, neutrino masses, QCD theta, cosmological parameters)
+- **GR + Cosmology**: 6+ free parameters (Λ, dark matter, baryon density, etc.)
+- **BST**: 0 free parameters; everything derives from {rank, N_c, n_C, C_2, g}
+
+### 11.3 Empirical support
+
+Current BST status (as of 2026-05-24):
+- 600+ predictions verified within precision (Vol 0 Status)
+- All 7 Millennium problems addressed (RH conditional, others closed)
+- 100+ derived constants with explicit BST formulas
+- Substrate Strong-Uniqueness Theorem 11 RIGOROUSLY CLOSED + 7 candidates
+
+### 11.4 Falsification
+
+To falsify substrate completeness: identify an observable physical quantity that BST cannot derive.
+
+Categories of candidate falsifiers (none yet successful):
+- New particle outside BST-predicted spectrum (e.g., SUSY, GUT proton decay, sterile neutrinos)
+- Constant cleanly outside BST-primary expressions (e.g., baryogenesis $\eta_B$ — open in BST)
+- Tsirelson saturation (Bell at $2\sqrt 2$ exact, contradicting BST 1/8 sub-Tsirelson)
+
+Falsifiers BST predicts to be NULL: GUT, proton decay, DM particle, monopoles, sterile neutrinos, SUSY (Five-Absence Predictions Set, Casey-named principle).
+
+### 11.5 Reduction-mathematics view (SP-20-3)
+
+Reverse mathematics question: what minimum substrate is required to derive each physics theorem?
+
+BST conjecture: D_IV⁵ + 5 integers is the minimum sub-structure.
+
+Open in BST: explicit per-theorem minimum-substrate enumeration (SP-20-3 BST-RM program).
+
+### 11.6 K-audit anchors
+
+- **Strong-Uniqueness Theorem** v0.10.5
+- **Five-Absence Predictions Set** (Casey-named #2)
+- **SP-20** Information Completeness Program
+
+## Level 3 — 5th-grader accessibility
+
+**Information completeness**: BST claims D_IV⁵ + 5 integers ($rank, N_c, n_C, C_2, g$) = (2, 3, 5, 6, 7) is the COMPLETE specification of observable physics. Standard Model has 19+ free parameters; BST has 0. **Falsifier**: find any observable BST can't derive. **None yet**. **BST predicts NULL**: GUT, proton decay, DM particle, monopoles, sterile neutrinos, SUSY (Five-Absence). **Reverse math (SP-20-3)**: what minimum substrate suffices? Conjecture: D_IV⁵ + 5 integers.
 
 ---
 
-**Where to look this up**: BST Strong-Uniqueness Theorem v0.10.5; Lyra T2439-T2476 chain.
+## What comes next
+
+Chapter 12 develops substrate-CI architecture.
+
+## Where to look this up
+
+- BST Strong-Uniqueness Theorem
+- Five-Absence Predictions Set
+- SP-20 program

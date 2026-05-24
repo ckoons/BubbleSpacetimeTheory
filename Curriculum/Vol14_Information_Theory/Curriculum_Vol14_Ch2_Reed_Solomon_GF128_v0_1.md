@@ -1,34 +1,80 @@
 ---
 title: "Vol 14 Chapter 2 — Reed-Solomon Coding on GF(128)"
-author: "Keeper (author pass)"
+author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.3 — Keeper author-voice pass; load-bearing"
+status: "v0.3 — substantive content; LOAD-BEARING"
 volume: "Vol 14 Information Theory"
 chapter: 2
+load_bearing: "Reed-Solomon RS(n,k) coding on GF(2^g)=GF(128); BST primary g=7 selects substrate's natural alphabet size"
 ---
 
 # Chapter 2 — Reed-Solomon Coding on GF(128)
 
-Reed-Solomon (RS) codes — error-correcting codes based on polynomial evaluation over finite fields — were introduced 1960 and are workhorses in CD/DVD storage, satellite communications, and disk arrays. RS codes are MDS (maximum distance separable): for a code with $n$ symbols and $k$ message length, the minimum distance is $d = n - k + 1$.
+## Level 1 — one sentence
 
-In BST, the substrate uses RS coding on $\text{GF}(2^g) = \text{GF}(128)$ as its native information channel. The choice of $\text{GF}(128)$ is determined by the BST primary $g = 7$.
+Reed-Solomon codes — block codes over finite field $GF(2^g) = GF(128)$ with the BST primary $g = 7$ selecting the natural alphabet size — provide optimal Maximum Distance Separable (MDS) error correction up to $\lfloor (n-k)/2 \rfloor$ symbol errors per codeword, and BST identifies this as the substrate's native error-correction mechanism (Paper #122).
 
-## 2.1 Finite fields and GF(128)
+## Level 2 — graduate-physicist precision
 
-$\text{GF}(q^n)$ is the unique finite field of $q^n$ elements. $\text{GF}(2^7) = \text{GF}(128)$ has 128 elements; the BST substrate uses this specific field.
+### 2.1 GF(2^g) = GF(128)
 
-## 2.2 Reed-Solomon construction
+Finite field $GF(2^7) = GF(128)$: 128 elements, characteristic 2, dimension 7 over $GF(2)$.
 
-For message polynomial $m(x)$ of degree $< k$ and evaluation points $\alpha_1, ..., \alpha_n$ in $\text{GF}(q)$, the RS codeword is $(m(\alpha_1), ..., m(\alpha_n))$. Decoding via Berlekamp-Massey or Welch-Berlekamp.
+Constructed: $GF(128) \cong GF(2)[x]/(p(x))$ where $p(x)$ is an irreducible degree-7 polynomial over $GF(2)$.
 
-## 2.3 BST substrate RS
+Multiplicative group $GF(128)^* \cong \mathbb{Z}/127$ (cyclic of order $128 - 1 = 127 = N_{\max} - 10$, prime).
 
-The substrate at the Koons-tick rate emits RS-coded symbols on $\text{GF}(128)$. The maximum codeword length is $n = 127 = N_\max - g - N_c$ (or related BST-natural identity per K59 cyclotomic framework). Error correction up to $(d-1)/2$ symbols.
+### 2.2 Reed-Solomon RS(n, k)
 
-## 2.4 What comes next
+Encode message $m = (m_0, m_1, ..., m_{k-1}) \in GF(128)^k$ as codeword $c \in GF(128)^n$ with $n \le 127$.
 
-Chapter 3 develops Shannon channel capacity.
+Singleton bound: minimum distance $d \le n - k + 1$. RS codes achieve equality (MDS).
+
+Error correction: can correct any $t = \lfloor (n-k)/2 \rfloor$ symbol errors.
+
+### 2.3 Standard parameters
+
+Common RS choices:
+- RS(255, 223) over GF(256): used in NASA Voyager, Compact Disc audio
+- **RS(127, k) over GF(128)**: BST-natural
+- RS(n, k) with $n - k = 2t$ for $t$-error correction
+
+### 2.4 BST primary anchoring
+
+- **g = 7** → field $GF(2^g) = GF(128)$ — substrate alphabet
+- Block length $n \le 127 = N_{\max} - 10$ — close to substrate ceiling
+- **127 = M_g** (g-th Mersenne prime = $2^7 - 1$) — Vol 11 Ch 10 substrate Mersenne ladder
+- Cyclic group $\mathbb{Z}/127$: substrate's natural cyclic structure
+
+### 2.5 Substrate implementation hypothesis
+
+Hypothesis (Paper #122): substrate implements RS-like coding on GF(128) at the Koons-tick rate, providing error correction against substrate-level noise.
+
+Evidence:
+- Genetic code (Vol 13 Ch 2): codon-amino acid redundancy $64 \to 20$ is RS-like
+- Cosmological information bounds (Vol 4): consistent with substrate-RS
+- BST primary $g = 7$ selects $GF(128)$ uniquely
+
+Falsifier: identify a different finite field implementing BST observables better → would refute g = 7 as the substrate-natural alphabet exponent.
+
+### 2.6 K-audit anchors
+
+- **K59**: cyclotomic mechanism framework
+- **K68**: RS computation
+- **Paper #122**: Information Substrate
+
+## Level 3 — 5th-grader accessibility
+
+**Reed-Solomon codes** are how your phone, CD, satellite communications correct errors. Use a **finite field** GF(128) — 128 numbers with addition and multiplication that wrap around. Add redundancy: send 127 symbols to encode 100, can correct up to $(127-100)/2 = 13$ errors. **In BST**: $128 = 2^g$ where $g = 7$ is a BST primary; substrate uses RS-coding on GF(128) at the Koons-tick rate. **Genetic code** uses similar redundancy (64 codons → 20 amino acids).
 
 ---
 
-**Where to look this up**: For standard RS: MacWilliams and Sloane. For BST RS: Paper #122 + K59 cyclotomic mechanism.
+## What comes next
+
+Chapter 3 develops Shannon channel capacity.
+
+## Where to look this up
+
+- Reed-Solomon 1960
+- MacWilliams-Sloane, *Theory of Error-Correcting Codes*
+- BST: K59, K68, Paper #122

@@ -1,28 +1,82 @@
 ---
 title: "Vol 14 Chapter 1 — The Substrate as Information Channel"
-author: "Keeper (author pass)"
+author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.2 — Keeper author-voice pass"
+status: "v0.3 — substantive content; LOAD-BEARING (Vol 14 launches information-theoretic core)"
 volume: "Vol 14 Information Theory"
 chapter: 1
+load_bearing: "Substrate as Reed-Solomon-coded info channel; 4-zone cycle (absorption / bulk / commitment=Bergman / emission); Koons tick at 10⁻¹²⁰ s"
 ---
 
 # Chapter 1 — The Substrate as Information Channel
 
-Volume 14 develops BST's information-theoretic core: the substrate as a Reed-Solomon-coded information channel operating at the Koons-tick rate, with Born-rule measurements emerging from Bergman-kernel projection. Paper #122 "Information Substrate" formalizes the framework; this volume teaches it.
+## Level 1 — one sentence
 
-## 1.1 The substrate channel
+BST's substrate operates as an information channel — accepting inputs (Zone 1 absorption), processing them (Zone 2 bulk computation), committing outputs (Zone 3 Bergman-kernel projection = Born rule), and emitting them (Zone 4) — with the full cycle at the Koons-tick rate $t_K = t_P \cdot \alpha^{C_2^2} \approx 10^{-120}$ s, and Reed-Solomon coding on GF(2^g) = GF(128) as the underlying error-correcting structure (Paper #122).
 
-The BST substrate is operationally an information channel: it accepts inputs (Zone 1 absorption), processes (Zone 2 bulk computation), commits (Zone 3 Bergman projection = Born rule), and emits outputs (Zone 4 emission). The cycle repeats at the Koons-tick rate $t_{Koons} = t_{Planck} \cdot \alpha^{C_2^2} \approx 10^{-120}$ s.
+## Level 2 — graduate-physicist precision
 
-## 1.2 What this volume covers
+### 1.1 The 4-zone substrate cycle
 
-Chapter 2: Reed-Solomon on GF(128). Chapter 3: Shannon channel capacity. Chapter 4: Nyquist and Koons tick. Chapter 5: Born=Bergman measurement. Chapter 6: Bell sub-Tsirelson information bound. Chapter 7: AC graph as theorem network. Chapter 8: BST coding optimal. Chapter 9: Kolmogorov and AC(0). Chapter 10: substrate complexity. Chapter 11: information completeness. Chapter 12: substrate-CI architecture.
+BST identifies four zones in substrate operation:
 
-## 1.3 What comes next
+- **Zone 1 (Absorption)**: substrate receives external boundary data; analogous to channel input
+- **Zone 2 (Bulk computation)**: substrate evaluates K-type configurations; analogous to channel processing
+- **Zone 3 (Commitment)**: Bergman projection $P_K: L^2(D_{IV}^5) \to H^2(D_{IV}^5)$ selects one outcome; analogous to channel output decoding; **= Born rule (Vol 5 Ch 7)**
+- **Zone 4 (Emission)**: outcome propagated to next absorption cycle
 
-Chapter 2 develops Reed-Solomon on GF(128).
+The cycle repeats at rate $1/t_K$ where $t_K$ is the Koons tick.
+
+### 1.2 Koons tick
+
+$$t_K = t_P \cdot \alpha^{C_2^2} = t_P \cdot \alpha^{36} \approx 10^{-120} \text{ s}$$
+
+with $t_P \approx 5.39 \cdot 10^{-44}$ s (Planck time), $\alpha \approx 1/137$ (Vol 0 Ch 5).
+
+This is **sub-Planckian**: substrate operates 76 orders of magnitude below the Planck time. Spacetime itself is the coarse-grained output of many substrate ticks.
+
+### 1.3 Reed-Solomon on GF(128)
+
+Substrate's natural alphabet: $GF(2^g) = GF(128)$ — finite field with $128 = 2^g$ elements.
+
+Reed-Solomon code: encode message of length $k$ as codeword of length $n$ with $n - k$ redundancy symbols. Correct up to $\lfloor (n-k)/2 \rfloor$ errors.
+
+Vol 14 Ch 2 develops the Reed-Solomon coding on GF(128) in detail.
+
+### 1.4 What this volume covers
+
+- Ch 2: Reed-Solomon on GF(128)
+- Ch 3: Shannon channel capacity
+- Ch 4: Nyquist sampling + Koons tick
+- Ch 5: Born = Bergman measurement (info-theoretic reading)
+- Ch 6: Bell sub-Tsirelson information bound
+- Ch 7: AC graph as theorem network
+- Ch 8: BST coding optimal (substrate-derived)
+- Ch 9: Kolmogorov complexity + AC(0)
+- Ch 10: Substrate complexity classes
+- Ch 11: Information completeness (D_IV⁵ minimizes free params)
+- Ch 12: Substrate-CI architecture
+
+### 1.5 K-audit anchors
+
+- **Paper #122**: Information Substrate
+- **K59**: cyclotomic mechanism framework
+- **K67**: Born = Bergman
+- **K68**: RS computation
+- **T2405**: Koons tick
+
+## Level 3 — 5th-grader accessibility
+
+**Substrate as information channel**: BST's substrate is like a CPU. Inputs come in (**Zone 1**), get processed (**Zone 2**), commitments are made (**Zone 3** = quantum measurement = Born rule), outputs go out (**Zone 4**). Cycle repeats every **Koons tick** ≈ $10^{-120}$ s — that's $10^{76}$ times faster than the Planck time. Information is coded **Reed-Solomon on GF(128)** — same scheme as your phone uses for error correction. Vol 14 develops this in 12 chapters.
 
 ---
 
-**Where to look this up**: BST Paper #122 Information Substrate; Volume 0 substrate framework.
+## What comes next
+
+Chapter 2 develops Reed-Solomon on GF(128).
+
+## Where to look this up
+
+- Paper #122 (Information Substrate)
+- Reed-Solomon 1960
+- BST: K59, K67, K68, T2405
