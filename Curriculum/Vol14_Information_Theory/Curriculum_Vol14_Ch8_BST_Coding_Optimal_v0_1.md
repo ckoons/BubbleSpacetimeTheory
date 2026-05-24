@@ -40,7 +40,7 @@ rank = 2 → 2-dimensional substrate degrees-of-freedom
 
 BST framework documented: **11 RIGOROUSLY CLOSED + 7 candidates** distinct uniqueness criteria for D_IV⁵.
 
-Combined null-model (1/3)^11 ≈ $1.7 \cdot 10^{-5}$, conservatively (pending C12-C18 ratifications could reach (1/3)^18 ≈ $7 \cdot 10^{-9}$).
+Combined null-model $(1/3)^{11} \approx 5.6 \cdot 10^{-6}$, conservatively (pending C12-C18 ratifications could reach $(1/3)^{18} \approx 2.6 \cdot 10^{-9}$). [Values corrected per Cal #119 v0.4 absorption 2026-05-24; exponents 11+7=18 verified against current Cal #19 enumeration.]
 
 D_IV⁵ is the unique substrate satisfying BST's optimality criteria.
 

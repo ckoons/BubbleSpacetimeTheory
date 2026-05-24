@@ -35,7 +35,10 @@ Degeneracy concentrated in 3rd position (wobble).
 
 - **4 nucleotides**: $N_c + 1 = 4$
 - **64 codons**: $4^{N_c} = 4^3 = 64$
-- **20 amino acids**: $C_2 \cdot N_c + 2 = 18 + 2 = 20$ (several BST-primary expressions match)
+- **20 amino acids** (**I-tier**, multiple BST-primary decompositions; canonical pick pending Lyra mechanism work per task #306):
+  - $C_2 \cdot N_c + 2 = 18 + 2 = 20$ (exact)
+  - $N_{\max}/g = 137/7 \approx 19.57$ (approximate, used in Vol 13 Ch 4)
+  - This multi-decomposability triggers Mode 6 (see `notes/BST_Methodology_Coincidence_Filter_Risk.md`). Mechanism-forced canonical form pending; treat as I-tier observation, not D-tier derivation.
 - **23 (20 + 3 stops)**: cf. $g \cdot N_c + 2 = 23$, or M_24 group order = 24 with one orbit missing
 - **3** in "3-nucleotide codon": $N_c$ literally
 
@@ -61,7 +64,7 @@ Universality argues for single common ancestor (LUCA) or substrate-forced. BST r
 
 ## Level 3 — 5th-grader accessibility
 
-**Genetic code**: DNA has 4 letters (A, T, G, C). Reads in 3-letter words (codons): $4^3 = 64$. Codons code for 20 amino acids (plus 3 "stops"). **In BST**: 4 = N_c + 1, 64 = $4^{N_c}$, 20 = $C_2 \cdot N_c + 2$ — substrate-natural numbers. **Degeneracy** (multiple codons → same amino acid) is **Reed-Solomon error-correction**: the substrate's universal coding mechanism applied at the genetic scale.
+**Genetic code**: DNA has 4 letters (A, T, G, C). Reads in 3-letter words (codons): $4^3 = 64$. Codons code for 20 amino acids (plus 3 "stops"). **In BST**: 4 = N_c + 1, 64 = $4^{N_c}$, 20 ≈ several BST-primary expressions (I-tier; mechanism canonical pending) — substrate-natural numbers. **Degeneracy** (multiple codons → same amino acid) is **Reed-Solomon error-correction**: the substrate's universal coding mechanism applied at the genetic scale.
 
 ---
 

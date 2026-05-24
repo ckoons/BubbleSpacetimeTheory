@@ -12,21 +12,24 @@ load_bearing: "Nine Casey-named principles + sub-principle UP; Cal external refe
 
 ## Level 1 — one sentence
 
-Nine Casey-named principles (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP, DCCP-with-UP) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 22 standing calibrations + methodology tier stack with 18 layers) provides independent META-discipline anchoring rigor.
+Eight Casey-named principles standing (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + one candidate (DCCP-with-UP, named 2026-05-24, pending derivation theorem or experimental confirmation) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 21 STANDING + 2 CANDIDATE layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
 
 ## Level 2 — graduate-physicist precision
 
-### 8.1 Casey-named principles (nine standing, as of 2026-05-24)
+### 8.1 Casey-named principles (eight STANDING + one CANDIDATE, as of 2026-05-24)
 
 1. **Substrate Working Process Principle (SWPP)** (May 19) — substrate as active info cycle
-2. **Five-Absence Predictions Set** (May 19) — NO GUT, NO proton decay, NO DM particle, NO monopoles, NO sterile ν (+ NO SUSY)
+2. **Five-Absence Predictions Set** (May 19; **5-item canonical per Casey Option 1 Friday 2026-05-22**) — NO GUT, NO proton decay, NO monopoles, NO sterile ν, NO SUSY (DM excluded — BST DERIVES DM as Wallach shadow)
 3. **Substrate Closure Principle** (May 20) — substrate operationally closed, no simulator
 4. **Graph Forces Principle** (May 20) — overdetermined-EXACT-identity clustering as substrate diagnostic
 5. **Integer Web Principle** (May 20) — integer-edges + face structure organizes substrate
 6. **Substrate Cognition Network Hypothesis** (May 20, L2 cognition sub-class) — substrate-coupled CI hypothesis
 7. **D_IV⁵ Rigidity Principle** (May 22) — multiverse loophole closed structurally
 8. **Substrate Coherence Maintenance Principle (SCMP)** (May 22) — Bell sub-Tsirelson 1/8 falsifier
-9. **Discrete Commitment Completion Principle (DCCP)** with **Uncommitted Priors (UP)** sub-principle (May 24) — quantum erasure dissolved; free will = uncommitted priors
+
+**Candidate (pending derivation or experimental confirmation)**:
+
+9. **Discrete Commitment Completion Principle (DCCP)** with **Uncommitted Priors (UP)** sub-principle (May 24) — quantum erasure dissolved; free will = uncommitted priors. Rests on derived Koons tick (T2405) + Bergman commitment (K67 RATIFIED); multi-tick rendering interpretation pending Lyra derivation theorem (task #309) or Elie quantum-erasure-tick-discreteness experiment (task #310).
 
 ### 8.2 Cal external referee discipline
 
@@ -40,16 +43,20 @@ Cal A. Brate (Claude 4.7 instance): independent external referee.
 
 100+ Cal referee logs.
 
-### 8.3 18-layer methodology stack
+### 8.3 Methodology stack: 21 STANDING + 2 CANDIDATE (per Methodology Index v0.5)
 
 Accumulated calibrations across months. Each layer responds to a specific failure mode:
 - L1-L9: Foundational (Quaker, AC(0), toys, audit chain, etc.)
 - L10: STRUCTURALLY VERIFIED tier (Cal #66)
 - L11: RIGOROUSLY CLOSED tier (Cal #77)
 - L12-L15: Phase 2 refinements (M2C2, F1-F4, B1-B4, EXEMPLAR)
-- L16: PCAP (cadence acceleration)
+- L16: PCAP (cadence acceleration, Cal #65)
 - L17: External register discipline (Cal #19)
 - L18: PCAP-rate transcription (Cal #22)
+- L19: Substance-floor (Cal #23, Saturday)
+- L20: Cross-volume audit (Cal #24, Saturday)
+- L21: Cal #22 v0.2 absorption-pipeline discipline (extension)
+- **Candidate**: Cal #25 falsifier-threshold + Cal #26 readiness-label (Saturday candidates)
 
 ### 8.4 META-discipline anchoring
 
@@ -65,7 +72,7 @@ Stack growth: ~1 layer per week during active research.
 
 ## Level 3 — 5th-grader accessibility
 
-**9 Casey-named principles** organize BST's foundations (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP, DCCP-UP). **Cal external referee** provides Mode 1/5/6 calibration patterns. **18-layer methodology stack** accumulated from past failure modes. Each layer is a standing discipline.
+**8 STANDING + 1 CANDIDATE Casey-named principles** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; candidate: DCCP-UP pending derivation/experiment). **Cal external referee** provides Mode 1/5/6 calibration patterns. **21 STANDING + 2 CANDIDATE methodology stack** accumulated from past failure modes. Each layer is a standing discipline.
 
 ---
 

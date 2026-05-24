@@ -20,7 +20,7 @@ The periodic table — Mendeleev's organizing structure for all chemistry — em
 
 Mendeleev 1869 / Meyer 1870: arranged elements by atomic weight; periodic recurrence of chemical properties. Refined to atomic number after Moseley 1913.
 
-Row capacities: $2, 8, 18, 32$ = $2 \cdot (1+3), 2 \cdot (1+3+5), 2 \cdot (1+3+5+7)$.
+Shell-cumulative capacities: $2, 8, 18, 32$ = $2 \cdot 1, 2 \cdot (1+3), 2 \cdot (1+3+5), 2 \cdot (1+3+5+7)$. (Each capacity recurs across two periodic-table rows: row 1 holds 2, rows 2-3 hold 8 each, rows 4-5 hold 18 each, rows 6-7 hold 32 each — per Madelung filling.)
 
 Madelung filling order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p, ...
 
@@ -28,7 +28,7 @@ Madelung filling order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 
 
 Vol 5 Ch 3 (substrate angular momentum + Pin(2) spin): orbital degeneracy $(2\ell+1) = 1, 3, 5, 7$ matches BST primary sequence $\{1, N_c, n_C, g\}$. Spin doubling × $(2\ell+1)$ gives shell capacities $2, 6, 10, 14$ for $\ell = 0, 1, 2, 3$ (s, p, d, f).
 
-Row capacities $2, 8, 18, 32$ = cumulative shell sums (Madelung). The substrate's $SO(5)$ K-type degeneracy structure × Pin(2) spin doubling = periodic-table structure.
+Shell-cumulative capacities $2, 8, 18, 32$ = cumulative shell sums (Madelung). The substrate's $SO(5)$ K-type degeneracy structure × Pin(2) spin doubling = periodic-table structure.
 
 ### 1.3 N_max = 137 = substrate stability ceiling
 
@@ -56,7 +56,7 @@ All chemistry follows from substrate atomic K-type structure:
 
 ## Level 3 — 5th-grader accessibility
 
-**Periodic table**: 118 elements arranged in 7 rows. Row capacities 2, 8, 18, 32. These come from $(2\ell+1)$ sequence: $1, 3, 5, 7$ — which is the BST primary integer sequence $\{1, N_c, n_C, g\}$. Spin doubling × orbital degeneracy → shell capacities. **N_max = 137**: substrate stability ceiling for elements. Beyond Z = 137: substrate can't hold the atom together.
+**Periodic table**: 118 elements arranged in 7 rows. Shell-cumulative capacities 2, 8, 18, 32 (each capacity recurs across two rows). These come from $(2\ell+1)$ sequence: $1, 3, 5, 7$ — where the three non-trivial degeneracies $\{3, 5, 7\} = \{N_c, n_C, g\}$ are BST primaries. Spin doubling × orbital degeneracy → shell capacities. **N_max = 137**: substrate stability ceiling for elements. Beyond Z = 137: substrate can't hold the atom together.
 
 ---
 

@@ -3,6 +3,7 @@ title: "Keeper Refinement Notes — Things to Address Tomorrow"
 author: "Keeper"
 date: "2026-05-24 Sunday onward"
 purpose: "Running list of refinements, investigations, new ideas, and gaps surfaced during the deep-pass rewrite of all volumes. Casey directive 2026-05-24: keep notes; we discuss tomorrow."
+last_v0_4_absorption: "2026-05-24 Sunday ~11:25 EDT — Cal #119 10 substantive flags absorbed; Vol 12 Ch 1 shell-capacity terminology + Vol 13 Ch 2 amino-acid Mode 6 I-tier + Vol 14 Ch 6 sqrt formula typo + Vol 14 Ch 8 null-model values + Vol 14 Ch 9 K~100 I-tier label + Vol 14 Ch 11 Five-Absence 6→5 + Vol 15 Ch 8 8 standing + DCCP candidate + Vol 15 Ch 8 file rename to 8a/8b + Vol 15 Ch 8b (1/3)^18 fix + Vol 15 Ch 10 calibration list extended through Sunday"
 ---
 
 # Keeper Refinement Notes

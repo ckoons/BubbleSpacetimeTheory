@@ -12,7 +12,7 @@ load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; 
 
 ## Level 1 — one sentence
 
-BST predicts Bell-CHSH correlations below Tsirelson's quantum bound by exactly $1/2^{N_c} = 1/8$: $S^2_{BST} = S^2_{Tsirelson} - 1/8 = 8 - 1/8 = 63/8$, equivalently $S_{BST} \le 2\sqrt{63/8} \approx 2.8062$ vs Tsirelson's $2\sqrt{2} \approx 2.8284$, representing the substrate's finite operational power per commitment cycle (SCMP principle, T2469, Vol 5 Ch 8) — a testable falsifier at $\sim 0.78\%$ deviation distinguishing BST from standard QM.
+BST predicts Bell-CHSH correlations below Tsirelson's quantum bound by exactly $1/2^{N_c} = 1/8$: $S^2_{BST} = S^2_{Tsirelson} - 1/8 = 8 - 1/8 = 63/8$, equivalently $S_{BST} \le \sqrt{63/8} \approx 2.8062$ vs Tsirelson's $2\sqrt{2} \approx 2.8284$, representing the substrate's finite operational power per commitment cycle (SCMP principle, T2469, Vol 5 Ch 8) — a testable falsifier at $\sim 0.78\%$ deviation distinguishing BST from standard QM.
 
 ## Level 2 — graduate-physicist precision
 

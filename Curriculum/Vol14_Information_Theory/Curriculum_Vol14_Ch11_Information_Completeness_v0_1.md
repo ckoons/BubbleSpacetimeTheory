@@ -47,7 +47,9 @@ Categories of candidate falsifiers (none yet successful):
 - Constant cleanly outside BST-primary expressions (e.g., baryogenesis $\eta_B$ — open in BST)
 - Tsirelson saturation (Bell at $2\sqrt 2$ exact, contradicting BST 1/8 sub-Tsirelson)
 
-Falsifiers BST predicts to be NULL: GUT, proton decay, DM particle, monopoles, sterile neutrinos, SUSY (Five-Absence Predictions Set, Casey-named principle).
+Falsifiers BST predicts to be NULL (Five-Absence Predictions Set, Casey-named principle #2, **canonical 5-item ordering per Casey Option 1 Friday 2026-05-22**): GUT, proton decay, monopoles, sterile neutrinos, SUSY.
+
+Note on DM: BST DERIVES dark matter as the Wallach shadow (16/3 at 0.2% precision), so DM is NOT in the absence set — BST has a positive DM prediction. The earlier K65 "4+1 scope" enumeration that included a sixth absence ("no NEW DM particle beyond Wallach shadow") has been retired in favor of the cleaner 5-item canonical per Casey 2026-05-22 decision.
 
 ### 11.5 Reduction-mathematics view (SP-20-3)
 

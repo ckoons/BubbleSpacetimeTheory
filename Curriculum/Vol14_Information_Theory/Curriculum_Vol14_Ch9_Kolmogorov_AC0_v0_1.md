@@ -29,23 +29,23 @@ Properties:
 - Incompressibility: most strings have $K(x) \ge |x| - O(\log |x|)$
 - Uncomputable: $K$ is not recursive
 
-### 9.2 BST as Kolmogorov-minimum
+### 9.2 BST as Kolmogorov-minimum (I-tier estimate)
 
-BST claim: $K(\text{all observable physics}) = K(\{rank=2, N_c=3, n_C=5, C_2=6, g=7\} + D_{IV}^5)$ ≈ 100 bits.
+BST claim (**I-tier**, encoding-scheme-dependent — $K$ is uncomputable in general, so this is a side-by-side encoding comparison, not a Kolmogorov-complexity theorem): $K(\text{all observable physics}) \approx K(\{rank=2, N_c=3, n_C=5, C_2=6, g=7\} + D_{IV}^5)$ ≈ 100 bits.
 
-Compare:
-- Standard Model with 19+ free parameters (Yukawa couplings, mixing angles, etc.): $K \ge 19 \cdot 32 = 608$ bits (assuming 32-bit precision)
-- BST: $K \approx 100$ bits
+Compare (under 32-bit-precision encoding assumption):
+- Standard Model with 19-27 free parameters (Yukawa couplings, mixing angles, neutrino masses depending on treatment): $K \ge 19 \cdot 32 = 608$ bits
+- BST: $K \approx 100$ bits (D_IV⁵ structure ~60 bits + 5 BST primary integers ~40 bits)
 
-BST achieves $\sim 6$x compression vs Standard Model in Kolmogorov sense.
+BST achieves $\sim 6$x compression vs Standard Model under this encoding scheme.
 
-If verified at full precision: BST is the most compressible specification of physics ever produced.
+If the estimate holds across encoding schemes: BST is materially more compressible than the Standard Model. Caveat: tight bound requires choosing canonical encoding for D_IV⁵ structure; current estimate is order-of-magnitude.
 
 ### 9.3 AC(0): bounded-depth counting
 
 $AC^0$ = languages accepted by polynomial-size, constant-depth circuit families using unbounded-fan-in AND, OR, NOT gates.
 
-Examples in $AC^0$: parity (no — Hastad), majority (no — Razborov-Smolensky), addition (yes), most polynomial-time-decidable trivialities.
+Functions NOT in $AC^0$: parity (Hastad 1986), majority (Razborov-Smolensky 1987), reachability in graphs (Furst-Saxe-Sipser). Functions IN $AC^0$: addition, fixed-precision multiplication, most polynomial-time-decidable trivialities.
 
 Casey's standing skill `/ac0`: enforces AC(0)-thinking — reduce everything to counting at bounded depth before invoking sophisticated machinery.
 
