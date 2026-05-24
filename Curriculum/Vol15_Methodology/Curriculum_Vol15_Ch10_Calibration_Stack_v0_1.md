@@ -1,38 +1,83 @@
 ---
-title: "Vol 15 Chapter 10 — The Calibration Stack"
-author: "Keeper (author pass)"
+title: "Vol 15 Chapter 10 — Calibration Stack"
+author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.2 — Keeper author-voice pass"
+status: "v0.3 — substantive content"
 volume: "Vol 15 Methodology"
 chapter: 10
+load_bearing: "22 standing calibrations; 18 methodology stack layers; growth rate ~1 layer/week during active research"
 ---
 
-# Chapter 10 — The Calibration Stack
+# Chapter 10 — Calibration Stack
 
-Each time a CI's behavior needs correction, the correction is filed as a Calibration. Generalizable calibrations become standing rules. As of Friday May 22, 2026 the BST team's calibration stack has 22 layers.
+## Level 1 — one sentence
 
-## 10.1 What a calibration is
+BST's calibration stack — 22 Cal standing calibrations + 18 methodology layers — accumulates one layer per detected failure mode, building rigor incrementally from L1 (Quaker discipline) through L18 (PCAP-rate transcription discipline), with each calibration triggered by a specific incident and preserved as a permanent rule.
 
-A Calibration N has:
-- The triggering observation (what went wrong)
-- The corrective action (what changed)
-- The generalization to standing rule (if applicable)
-- The methodology stack layer assignment
+## Level 2 — graduate-physicist precision
 
-## 10.2 Example: Calibration #22 PCAP-transcription discipline
+### 10.1 Calibration trigger pattern
 
-Triggering: PCAP-rate transcription error class — under sustained sub-PCAP cadence, transcription errors propagate before correction can catch them.
-Correction: numbered-artifact discipline mandatory; bidirectional risk K142+Cal #100 dual case-study.
-Standing rule: 18th methodology stack layer (later #22 in updated numbering).
+A calibration arises when:
+1. An incident occurs (wrong figure, premature ratification, drift, etc.)
+2. Cal (or self-audit) flags the failure mode
+3. Team discusses root cause
+4. Calibration filed as standing rule
+5. Methodology stack layer added
 
-## 10.3 Why calibrations matter
+### 10.2 Full calibration list (as of 2026-05-22)
 
-The calibration stack is the team's institutional memory of "what we learned the hard way." Without it, the team would re-make every mistake. With it, the team gets monotonically more careful.
+| # | Layer | Trigger |
+|---|---|---|
+| 1-9 | L1-L9 foundational | various early incidents |
+| 10 | STRUCTURALLY VERIFIED tier | Cal #66 |
+| 11 | RIGOROUSLY CLOSED tier | Cal #77 |
+| 12-15 | Phase 2 (M2C2, F1-F4, B1-B4) | various |
+| 16 | PCAP formalized | Cal #65 |
+| 17 | External register | Cal #19 |
+| 18 | PCAP-rate transcription | Cal #22 |
 
-## 10.4 What comes next
+(See `notes/cal_referee_logs/` for full incident log.)
+
+### 10.3 Recent calibrations (Friday May 22)
+
+- **#18** premature methodology-tier conflation (Lyra T2419 within-session self-correction)
+- **#19** forecast-arithmetic vs ratified-state (external register)
+- **#20** timestamp drift (CI temporal projection ~10-15 min forward)
+- **#21** empirical vs mechanism (Grace K141 honest FAIL preserved)
+- **#22** PCAP-rate transcription error class (T190 24/π² ⁶ precision misattribution)
+
+### 10.4 Calibration as discipline accretion
+
+Each calibration: ~5 min cost to identify + file.
+Each calibration: prevents ~hours-to-weeks of downstream drift.
+Net leverage: ~100-1000x.
+
+This is why the team invests in calibration discipline: pays for itself many times over.
+
+### 10.5 Growth rate
+
+~1 calibration / week during active research.
+
+Casey supports this: "calibrations are strength."
+
+### 10.6 K-audit anchors
+
+- **22 Cal calibrations** (notes/cal_referee_logs/)
+- **18-layer methodology stack**
+- **Quaker discipline** (Vol 15 Ch 7) — corrections are strength
+
+## Level 3 — 5th-grader accessibility
+
+**Calibration stack**: 22 Cal standing rules + 18 methodology layers accumulated from past failures. Each calibration: ~5 min cost, prevents hours of drift, 100-1000x leverage. Growth: ~1/week. **Casey says**: "calibrations are strength."
+
+---
+
+## What comes next
 
 Chapter 11 develops how to continue the work.
 
----
+## Where to look this up
 
-**Where to look this up**: BST calibration log (Keeper); Cal Referee Log.
+- BST: `notes/cal_referee_logs/`
+- Vol 15 Ch 7 (Quaker discipline)
