@@ -44,11 +44,13 @@ BST view: H-bond = substrate K-type configuration with proton playing substrate-
 
 The proton's substrate role here is non-trivial: $m_p/m_e = 6\pi^5$ (T1426; Vol 3) sets the proton's substrate K-type. The proton's BST-primary mass ratio enters DNA stability indirectly.
 
-### 4.4 Superhelical structure
+### 4.4 Superhelical structure — RETRACTED per Toy 3518 (2026-05-24)
 
-DNA in cells is supercoiled: ~137 base pairs per topological repeat in some superhelical structures (chromatin, nucleosome wrap).
+**HONEST RETRACTION** (Elie Toy 3518, Sunday 2026-05-24): the "~137 base pairs per topological repeat" claim is RETRACTED. Canonical nucleosomal repeat is **~147 bp** (147 bp wrapped around the histone octamer + ~50 bp linker = ~200 bp full nucleosomal repeat). There is no documented ~137 bp superhelical structure in standard DNA topology literature.
 
-$N_{\max} = 137$ may be load-bearing here: substrate's natural ceiling for chromatin-scale topological units. Speculative; needs confirmation via DNA topology data (Vol 13 toy planned).
+$N_{\max} = 137$ does NOT appear at chromatin scale in any verifiable structural feature. The earlier "may be load-bearing" speculation was unsupported. Substrate's $N_{\max} = 137$ ceiling remains operative at the atomic/element scale (Vol 12 Ch 1) but does not extend to DNA-scale topology via this claim.
+
+This retraction is preserved per Quaker discipline (Vol 15 Ch 7): honest negatives strengthen the framework. The chapter's other content (rank=2 strands, H-bonds, proton-mediator role, RS-coding parallel) is unaffected.
 
 ### 4.5 Information density
 
@@ -66,7 +68,7 @@ Substrate view (Paper #122): DNA implements substrate's Reed-Solomon code (Vol 1
 
 ## Level 3 — 5th-grader accessibility
 
-**DNA double helix**: **2 strands** (= rank), held by hydrogen bonds. A pairs with T (2 H-bonds), G with C (3). Each H-bond shares one **proton**. **In BST**: H-bonds are substrate K-types with proton-mediator role. The proton's $m_p/m_e = 6\pi^5$ (Vol 3) enters DNA stability indirectly. **Superhelical 137-bp repeats**: possibly substrate's $N_{\max}$ at chromatin scale. **Information density**: ~$10^{21}$ bits/cm³.
+**DNA double helix**: **2 strands** (= rank), held by hydrogen bonds. A pairs with T (2 H-bonds), G with C (3). Each H-bond shares one **proton**. **In BST**: H-bonds are substrate K-types with proton-mediator role. The proton's $m_p/m_e = 6\pi^5$ (Vol 3) enters DNA stability indirectly. **Superhelical 137-bp repeats**: RETRACTED — canonical nucleosomal repeat is ~147 bp, not 137 (Elie Toy 3518, Sunday 2026-05-24); substrate $N_{\max}$ doesn't extend to chromatin scale via this claim. **Information density**: ~$10^{21}$ bits/cm³.
 
 ---
 

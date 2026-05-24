@@ -29,17 +29,21 @@ Properties:
 - Incompressibility: most strings have $K(x) \ge |x| - O(\log |x|)$
 - Uncomputable: $K$ is not recursive
 
-### 9.2 BST as Kolmogorov-minimum (I-tier estimate)
+### 9.2 BST as Kolmogorov-minimum (computed per Toy 3519)
 
-BST claim (**I-tier**, encoding-scheme-dependent — $K$ is uncomputable in general, so this is a side-by-side encoding comparison, not a Kolmogorov-complexity theorem): $K(\text{all observable physics}) \approx K(\{rank=2, N_c=3, n_C=5, C_2=6, g=7\} + D_{IV}^5)$ ≈ 100 bits.
+BST claim (**I-tier**, encoding-scheme-dependent — $K$ is uncomputable in general, so this is a side-by-side encoding comparison, not a Kolmogorov-complexity theorem):
 
-Compare (under 32-bit-precision encoding assumption):
-- Standard Model with 19-27 free parameters (Yukawa couplings, mixing angles, neutrino masses depending on treatment): $K \ge 19 \cdot 32 = 608$ bits
-- BST: $K \approx 100$ bits (D_IV⁵ structure ~60 bits + 5 BST primary integers ~40 bits)
+$$K(\text{all observable physics}) \approx K(\{\text{rank}=2, N_c=3, n_C=5, C_2=6, g=7\} + D_{IV}^5) \approx 73 \text{ bits}$$
 
-BST achieves $\sim 6$x compression vs Standard Model under this encoding scheme.
+per **Elie Toy 3519** computation (Sunday 2026-05-24), updated from the earlier ~100 bit estimate.
 
-If the estimate holds across encoding schemes: BST is materially more compressible than the Standard Model. Caveat: tight bound requires choosing canonical encoding for D_IV⁵ structure; current estimate is order-of-magnitude.
+Compare (under canonical encoding assumption):
+- Standard Model with 19-27 free parameters: $K \ge 19 \cdot 32 = 608$ bits
+- BST: $K \approx 73$ bits (D_IV⁵ structure + 5 primaries minimum encoding)
+
+BST achieves $\sim 8$x compression vs Standard Model under this encoding scheme.
+
+If the estimate holds across encoding schemes: BST is materially more compressible than the Standard Model. Caveat: tight bound requires choosing canonical encoding for D_IV⁵ structure; Toy 3519 is computational best-effort, not provable lower bound.
 
 ### 9.3 AC(0): bounded-depth counting
 
@@ -75,7 +79,7 @@ Vol 14 Ch 7 AC graph supports this: substrate's path-finding (NP-like search) re
 
 ## Level 3 — 5th-grader accessibility
 
-**Kolmogorov complexity** $K(x)$ = shortest program producing $x$. Most strings are incompressible. **BST** has $K \approx 100$ bits for all observable physics vs $\ge 608$ bits for Standard Model — 6x compression. **AC(0)** = constant-depth circuits; can't compute parity or majority (Hastad, Razborov-Smolensky). **BST hypothesis**: substrate is AC(0) — bounded-depth counting only. **Casey's `/ac0` skill**: reduce to counting first, sophistication later. **P ≠ NP via curvature**: substrate K-type curvature prevents linearization.
+**Kolmogorov complexity** $K(x)$ = shortest program producing $x$. Most strings are incompressible. **BST** has $K \approx 73$ bits for all observable physics (Elie Toy 3519) vs $\ge 608$ bits for Standard Model — 8x compression. **AC(0)** = constant-depth circuits; can't compute parity or majority (Hastad, Razborov-Smolensky). **BST hypothesis**: substrate is AC(0) — bounded-depth counting only. **Casey's `/ac0` skill**: reduce to counting first, sophistication later. **P ≠ NP via curvature**: substrate K-type curvature prevents linearization.
 
 ---
 
