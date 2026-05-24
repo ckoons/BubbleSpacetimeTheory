@@ -62,15 +62,18 @@ Per DCCP (Casey-named CANDIDATE Sunday 2026-05-24, derivation in progress per Ly
 
 **Concrete quantification**: dust grain (~$10^{-15}$ kg) in air at 300K has standard decoherence rate $\gamma \approx 10^{41}/s$ (Joos-Zeh, Zurek). At Koons tick $t_K \approx 10^{-120}$ s, that's **~$10^{79}$ substrate ticks per decoherence event** — i.e., a $10^{79}$-tick Bergman commitment cycle.
 
-**Lyra DCCP derivation skeleton** (task #320 v0.2, 4 lemmas):
+**Lyra DCCP derivation skeleton** (task #320 v0.3, 7 lemmas/theorems — 2 RIGOROUS, 5 in progress):
 - **Lemma DCCP-1.1**: K67 per-tick commitment (Born=Bergman per single tick, RATIFIED)
 - **Lemma DCCP-1.2**: K-type projection accumulation over multi-tick interval
 - **Lemma DCCP-1.3**: Environment-system coupling rate at substrate level
-- **Lemma DCCP-1.4**: Macroscopic-limit matching — standard Joos-Zeh γ EMERGES from substrate Bergman-commitment rate
+- **Lemma DCCP-1.4**: Macroscopic-limit matching — standard Joos-Zeh γ EMERGES from substrate Bergman-commitment rate (sketch level, v0.4 multi-week)
+- **Lemma DCCP-1.5** (Substrate K-type Cardinality): $N_{\max} = 137$ K-type quantum levels per substrate-tick. Proof via T2447 RIGOROUSLY CLOSED C6 + Wallach 1976 + K59 cyclotomic GF(128)
+- **Theorem DCCP-1.6** (DCCP signature step, **RIGOROUS** per Lyra v0.3): $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ — matches Toy 3516 EXACTLY via uniform K-type projection distribution + minimum amplitude change per substrate-tick
+- **Theorem DCCP-1.7** (substrate-tick boundary, **RIGOROUS** per Lyra v0.3): $\theta_{boundary} = \pi/N_{\max} \approx 0.023$ rad — matches Toy 3516 via K-type uniform phase + Nyquist-like sampling boundary at half-step
 
-Mechanism sketches via T2447 C6 (RIGOROUSLY CLOSED) + T2476 (BST primary Mersenne-Prime Density) + K-type N_max quantization. If all 4 lemmas close, DCCP promotes from candidate to derived; ~70% probability clean proof within 1-2 months per Keeper estimate.
+**Two RIGOROUS theorems achieved Sunday 2026-05-24**: Theory v1 (Lyra #320 v0.3) reproduces Toy 3516's two specific empirical predictions at theorem-rigorous level. Theory v2 (Lyra #322 v0.2 A_sub re-proof) reaches FRAMEWORK level on the same predictions. Full DCCP-1 D-tier promotion still gated on Lemma DCCP-1.4 Joos-Zeh γ macroscopic-limit closure.
 
-This is the information-theoretic reading of measurement-induced classicality, made rigorous.
+This is the information-theoretic reading of measurement-induced classicality, made rigorous on 2 of 3 substrate-tick predictions.
 
 ### 5.6 K-audit anchors
 

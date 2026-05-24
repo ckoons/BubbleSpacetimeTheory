@@ -61,14 +61,19 @@ Experimental cost: $\sim$$300-500K (Bell experiment refresh; SP-30 outreach pend
 - DCCP signature step size $1/N_{\max} \approx 0.73\%$
 - Detection feasibility ~1.5σ at current 0.5% Bell precision
 
-**Three-route convergent evidence pattern (DCCP)**:
-| Route | Source | Status |
-|---|---|---|
-| Empirical | Toy 3516 (predicts $1/N_{\max} \approx 0.73\%$ tick step) | ✓ FILED v0.1 |
-| Theory v1 (standard tools) | Lyra task #320 v0.2 — 4 lemmas DCCP-1.1 through DCCP-1.4 | ⏳ v0.2 filed, multi-month closure |
-| Theory v2 ($\mathcal{A}_{sub}$ re-proof) | Lyra task #322 — substrate operator algebra Phase 2 | ⏳ v0.1 filed |
+**Three-route convergent evidence pattern (DCCP)** — major Sunday 2026-05-24 progress:
 
-Tight epistemic constraint: Lyra's #320 proof must reproduce BOTH standard Joos-Zeh γ for decoherence AND Toy 3516's $1/N_{\max} = 0.73\%$ tick step signature. Two independent ways to be wrong. Per Cal #21 dual-gate + Cal #99 META-theorem discipline: three-route convergence = D-tier RATIFIED when all three close.
+| Route | $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ | $\theta_{boundary} = \pi/N_{\max} \approx 0.023$ rad |
+|---|---|---|
+| Empirical (Toy 3516) | ✓ 6/6 PASS | ✓ 6/6 PASS |
+| Theory v1 (Lyra #320 v0.3) | **THEOREM RIGOROUS** (DCCP-1.6) | **THEOREM RIGOROUS** (DCCP-1.7) |
+| Theory v2 ($\mathcal{A}_{sub}$, Lyra #322 v0.2) | FRAMEWORK (DCCP-A_sub-1) | FRAMEWORK (DCCP-A_sub-2) |
+
+**Status**: 2 of 3 substrate-tick predictions are now THEOREM RIGOROUS on Theory v1 + FRAMEWORK on Theory v2 + 6/6 PASS empirical. Tight epistemic constraint already met for these two predictions: three routes converge on identical numerical values.
+
+Remaining: Lemma DCCP-1.4 macroscopic-limit matching to standard Joos-Zeh γ for full decoherence rate reproduction (sketch level, v0.4 multi-week).
+
+Per Cal #21 STANDING RULE: when Theory v2 elevates to RIGOROUS (multi-month), three-route convergence on all three predictions → D-tier RATIFICATION of DCCP-1.
 
 ### 6.6 K-audit anchors
 
