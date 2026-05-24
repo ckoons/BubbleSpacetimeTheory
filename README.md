@@ -483,7 +483,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 |---|---|
 | **`OneGeometry.md`** | **Start here (humans).** Narrative front door — 5 parts, 40 sections, entry points for every audience |
 | **`data/bst_seed.md`** | **Start here (CIs).** The complete theory in 162 lines — load this first |
-| `Master_Index.md` | Technical compendium — 46+ sections, all derivations, v35+ |
+| `Working_Paper/INDEX.md` | Working Paper index — 46+ sections, all derivations, v35+ (moved from root May 24, 2026) |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `data/` | **CI-native data layer** — 185 constants, 111 predictions, 33 function families, 65+ domains, GF(128) catalog, 4296 geometric invariants. See `data/README.md` |
@@ -570,7 +570,8 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 | `data/` | **CI-native structured JSON** — constants, particles, forces, predictions, domains, function catalog, seed file | `data/bst_seed.md` then `data/README.md` |
 | `notes/` | 104 numbered papers, 660+ research notes, theorem write-ups, proofs | `notes/README.md` |
 | `play/` | 2181+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
-| Root | OneGeometry.md (narrative front door), Master_Index.md (v34, 6300+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
+| Root | OneGeometry.md (narrative front door), DarkMatterCalculation.md | `OneGeometry.md` |
+| `Working_Paper/` | Modular Working Paper sections + INDEX.md (formerly Master_Index.md at root) | `Working_Paper/INDEX.md` |
 
 **Key files for any visitor:**
 - **`data/bst_seed.md`** — the theory in 162 lines (CI entry point)
