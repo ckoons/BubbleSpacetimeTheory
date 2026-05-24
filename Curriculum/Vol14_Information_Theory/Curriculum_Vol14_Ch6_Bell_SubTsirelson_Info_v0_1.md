@@ -61,19 +61,27 @@ Experimental cost: $\sim$$300-500K (Bell experiment refresh; SP-30 outreach pend
 - DCCP signature step size $1/N_{\max} \approx 0.73\%$
 - Detection feasibility ~1.5σ at current 0.5% Bell precision
 
-**Three-route convergent evidence pattern (DCCP)** — major Sunday 2026-05-24 progress:
+**Three-route convergent evidence pattern (DCCP)** — Sunday 2026-05-24 progress (demoted per Cal #121 from "RIGOROUS" to "STRUCTURALLY VERIFIED CANDIDATE"):
 
 | Route | $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ | $\theta_{boundary} = \pi/N_{\max} \approx 0.023$ rad |
 |---|---|---|
 | Empirical (Toy 3516) | ✓ 6/6 PASS | ✓ 6/6 PASS |
-| Theory v1 (Lyra #320 v0.3) | **THEOREM RIGOROUS** (DCCP-1.6) | **THEOREM RIGOROUS** (DCCP-1.7) |
+| Empirical (Toy 3520, Sunday PM) | ✓ confirms 0.7299% | ✓ confirms 0.02293 rad (1.31°) |
+| Theory v1 (Lyra #320 v0.3) | **STRUCTURALLY VERIFIED CANDIDATE** (DCCP-1.6) per Cal #121 | **STRUCTURALLY VERIFIED CANDIDATE** (DCCP-1.7) per Cal #121 |
 | Theory v2 ($\mathcal{A}_{sub}$, Lyra #322 v0.2) | FRAMEWORK (DCCP-A_sub-1) | FRAMEWORK (DCCP-A_sub-2) |
 
-**Status**: 2 of 3 substrate-tick predictions are now THEOREM RIGOROUS on Theory v1 + FRAMEWORK on Theory v2 + 6/6 PASS empirical. Tight epistemic constraint already met for these two predictions: three routes converge on identical numerical values.
+**Cal #121 cold-read findings (Sunday afternoon)**: Lyra's "RIGOROUS" claim is overstated. Two HIGH-priority flags:
+- **Flag 1 (DCCP-1.5)**: "exactly $N_{\max} = 137$ K-type levels per tick" asserted, not derived. Wallach K-types are infinite countable; K59 gives 7-step on GF(128)=128; T2447 gives 137 as substrate CAP (not per-tick count). Leap unjustified.
+- **Flag 2 (DCCP-1.7)**: uniform phase distribution $e^{i 2\pi k/N_{\max}}$ for $k=0..N_{\max}-1$ asserted, not derived. K59 gives 7-step phase chain ($g=7$), not 137-step.
 
-Remaining: Lemma DCCP-1.4 macroscopic-limit matching to standard Joos-Zeh γ for full decoherence rate reproduction (sketch level, v0.4 multi-week).
+**Status (corrected)**: 2 of 3 substrate-tick predictions are STRUCTURALLY VERIFIED CANDIDATE on Theory v1 + FRAMEWORK on Theory v2 + 6/6 PASS empirical (Toy 3516) + Toy 3520 numerical confirmation. Empirical-gate PASS; mechanism-gate PARTIAL.
 
-Per Cal #21 STANDING RULE: when Theory v2 elevates to RIGOROUS (multi-month), three-route convergence on all three predictions → D-tier RATIFICATION of DCCP-1.
+Remaining for D-tier RATIFICATION:
+1. Lemma DCCP-1.4 macroscopic-limit matching to standard Joos-Zeh γ (v0.4 multi-week)
+2. DCCP-1.5/1.6/1.7 forward derivation closing Cal #121 Flags 1+2 (v0.4)
+3. Theory v2 FRAMEWORK → RIGOROUS elevation (multi-month)
+
+Per Cal #21 STANDING RULE: cannot ratify until mechanism gate closes. Cal estimates ~50-60% probability of clean RIGOROUSLY CLOSED proof at v0.4 (vs Lyra's ~85% optimistic estimate).
 
 ### 6.6 K-audit anchors
 

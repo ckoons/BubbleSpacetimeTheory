@@ -61,6 +61,8 @@ A calibration arises when:
 
 **Sunday May 24**:
 - **Cal #119 self-catch** Cal #22 v0.2 absorption-pipeline applied to Cal: my own Cal #108 inherited (1/3)^19 ≈ 8.6×10⁻¹⁰ from Lyra T2467+T2468 v0.2 §6 without recomputing; correct (1/3)^18 ≈ 2.6×10⁻⁹ with 11+7=18 max-promotable. Vol 14 Ch 8 + Vol 15 Ch 8 Theorem inherited the same error. All corrected in v0.4 absorption pass.
+- **Cal #121 cold-read on Lyra DCCP v0.3**: demoted "RIGOROUS theorems" claim to STRUCTURALLY VERIFIED CANDIDATE per Cal #66 + Cal #77. Two HIGH-priority flags: Lemma DCCP-1.5 cardinality assertion (Wallach infinite K-types + K59 7-step + T2447 137 CAP → "exactly 137 levels per tick" unjustified leap); Theorem DCCP-1.7 uniform phase distribution assertion. Mode 1 pattern: numerical target known → intermediate structure asserted that produces target → forward arithmetic. **Third Mode 1 recurrence today** (Cal #108 + #119 + #121).
+- **Candidate Calibration #27 CANDIDATE** (per Cal #121): "BST-Primary-Target Forward-Derivation Discipline" — when a numerical target is known (1/N_max, π/N_max, etc.), intermediate derivation steps must be FORWARD from substrate structure, not BACKWARD-engineered from the target. Three Sunday instances justifies formalization watch; if 4th instance appears, promote candidate → standing.
 
 ### 10.4 Calibration as discipline accretion
 
