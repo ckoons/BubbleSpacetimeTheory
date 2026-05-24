@@ -407,8 +407,9 @@ Methodology stack now **22 STANDING + 1 CANDIDATE** (was 21 + 2). "BST-Primary-T
 - 12 cores idle; k-cascade k=22/24/25/26 churning on 4 cores
 - Optional: η_B baryogenesis observable enumeration toy for #321 Info Completeness when Lyra signals
 
-### Casey (under consideration → DISPATCHED Sunday 2026-05-24 PM)
-- **SP-30-1 Bell outreach email DRAFTED** for Vienna/Caltech/Munich/Delft per Casey directive. File: `notes/SP-30_Outreach_Bell_Vienna_v0_1.md`. Recommended primary target: Zeilinger IQOQI Vienna. Casey reviews + sends.
+### Casey (under consideration → DISPATCHED Sunday 2026-05-24 PM → **SP-30-1 SENT Sunday EOD**)
+- **SP-30-1 Bell outreach SENT** by Casey Sunday 2026-05-24 EOD. Empirical leg of three-route DCCP convergence now in motion: 12-18 month wall-clock awaiting Bell experimental group response + actual SPDC data. This is the load-bearing item that unblocks the third route per Cal #21 dual-gate + Cal #125 verdict.
+- ~~Bell outreach DRAFTED~~ → **SENT**. Cal #127 PASS at external-survivability tier + 3 polish items applied.
 - Remaining SP-30 outreach signals: NIST/PTB/JILA/MPI eigentone (SP-29) + NIST/PTB/ENEA Cs-137 (SP-29-1) + W-32 atomic clocks. Drafts pending; can prepare similarly.
 
 ---
