@@ -379,6 +379,39 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 
 ---
 
+## ACTIVE DISPATCH — Sunday 2026-05-24 PM (Casey directive "work the board")
+
+Per Casey directive after Cal #121 + Elie Toy 3516 self-critique:
+
+### Calibration #27 PROMOTED TO STANDING
+Methodology stack now **22 STANDING + 1 CANDIDATE** (was 21 + 2). "BST-Primary-Target Forward-Derivation Discipline" — when numerical target known, derivation must be FORWARD not BACKWARD; toys verify DERIVATIONS, not target values. Four-instance trigger satisfied today.
+
+### Lyra (Phase 1 v0.4 honest derivation, multi-week)
+- File v0.3 → v0.3.1 honest demotion (immediate)
+- File v0.4 work plan addressing Cal #121 4 items (immediate)
+- Begin Wallach + K59 honest derivation — NOT assuming 137 levels per tick; derive whatever the honest answer is
+- Consider T2476 α-mechanism as alternative substrate-mechanism for 1/N_max signature
+- Continue #321 Information Completeness Route A in parallel
+
+### Cal (two cold-reads dispatched)
+- Cold-read Toy 3516 + Toy 3520 per Elie volunteer (apply Cal #77 to empirical leg; same scrutiny as theory)
+- Cold-read Lyra #322 A_sub Deep Dive v0.2 (separate from #320 cold-read)
+
+### Grace (unblocked — Cal/Keeper gate cleared)
+- **#315** N_max=137 stability ceiling literature scan (Vol 12 Ch 1 anchor)
+- **#316** Hybridization "substrate K-type reorganization" mechanism status check (Vol 12 Ch 2)
+- **#317** Vol 12-15 cross-volume consistency audit (Bell + Kolmogorov + Info Completeness)
+
+### Elie (Joos-Zeh γ framework READY, NOT target-verification)
+- Per Calibration #27 STANDING: prepare Joos-Zeh γ verification toy framework READY for Lyra v0.4 hand-off. **Build to verify a DERIVATION when Lyra has it, NOT to verify a target value.**
+- 12 cores idle; k-cascade k=22/24/25/26 churning on 4 cores
+- Optional: η_B baryogenesis observable enumeration toy for #321 Info Completeness when Lyra signals
+
+### Casey (under consideration)
+- SP-30 outreach signals (Vienna/Caltech/Munich/Hanson Bell + NIST/PTB/JILA/MPI eigentone + NIST/PTB/ENEA Cs-137). Truly independent empirical anchor requires real lab experiments, not toys built to match predictions.
+
+---
+
 ## NEW CURRICULUM VOL 12-15 REFINEMENT WORK (Keeper deep-pass 2026-05-24 → Cal cold-read → team parallel)
 
 **Sequencing (Casey directive 2026-05-24 Sunday)**: Cal cold-read of Vol 12-15 first → Keeper absorbs Cal findings + does own refinement work → team items below run in parallel after that gate clears.
