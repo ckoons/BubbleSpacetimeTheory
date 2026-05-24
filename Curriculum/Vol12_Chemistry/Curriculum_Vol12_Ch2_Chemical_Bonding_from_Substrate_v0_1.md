@@ -1,32 +1,73 @@
 ---
 title: "Vol 12 Chapter 2 — Chemical Bonding from Substrate"
-author: "Keeper (author pass)"
+author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.2 — Keeper author-voice pass"
+status: "v0.3 — substantive content"
 volume: "Vol 12 Chemistry from D_IV⁵"
 chapter: 2
+load_bearing: "Ionic, covalent, metallic, hydrogen, van der Waals bonds; substrate K-type couplings"
 ---
 
 # Chapter 2 — Chemical Bonding from Substrate
 
-Chemical bonds — ionic, covalent, metallic, hydrogen — are atomic K-type couplings under multi-atom boundary conditions. The energy scales (eV), bond lengths (Angstroms), bond angles (geometry-determined) follow from substrate's natural multi-electron behavior at the molecular scale.
+## Level 1 — one sentence
 
-## 2.1 Ionic bonding
+Chemical bonds — ionic, covalent, metallic, hydrogen, van der Waals — are atomic K-type couplings under multi-atom boundary conditions, with bond energies (1-1000 kJ/mol) and lengths (0.7-3 Å) following from substrate's natural electron K-type configurations.
 
-Electron transfer between atoms with large electronegativity differences gives ionic bonds (NaCl, MgO). Coulomb attraction holds the resulting ions; lattice energy characterizes binding.
+## Level 2 — graduate-physicist precision
 
-## 2.2 Covalent bonding
+### 2.1 Bond classification
 
-Electron sharing between atoms of similar electronegativity gives covalent bonds (H₂, CH₄). Quantum-mechanical overlap of atomic orbitals gives bonding and anti-bonding combinations.
+- **Ionic** (NaCl, MgO): electron transfer; Coulomb-bound ions; 600-4000 kJ/mol
+- **Covalent** (H₂, CH₄, diamond): electron sharing; molecular orbitals; 150-1000 kJ/mol
+- **Metallic** (Fe, Cu, Al): delocalized electron sea; 80-800 kJ/mol
+- **Hydrogen** (H₂O, DNA, proteins): dipole-dipole via H; 10-40 kJ/mol
+- **Van der Waals** (noble gas dimers, lipids): induced dipole; 0.1-10 kJ/mol
 
-## 2.3 Metallic and hydrogen bonding
+### 2.2 Substrate-mechanism reading
 
-Metallic bonding: delocalized electron sea binds metal cations. Hydrogen bonding: dipole interaction; weaker than covalent but strong enough to organize water, DNA, proteins.
+Atomic K-types (Vol 5 Ch 6, Vol 9 Ch 3) under nuclear-skeleton boundary conditions interact via:
+- Electrostatic (ionic): substrate SO(2) weights → charges → Coulomb
+- Quantum overlap (covalent): substrate K-types share spatial structure
+- Delocalization (metallic): substrate K-types form continuous bands
+- Dipolar (hydrogen, vdW): substrate K-type asymmetry → moments
 
-## 2.4 What comes next
+### 2.3 Bond length and energy
 
-Chapter 3 develops molecular orbital theory.
+Bond length $\sim a_0$ (Bohr radius) up to a few × $a_0$. Bond energy $\sim$ eV per bond = 96 kJ/mol per eV.
+
+Examples:
+- H-H: 0.74 Å, 432 kJ/mol
+- C-C: 1.54 Å, 348 kJ/mol  
+- O=O: 1.21 Å, 498 kJ/mol
+- N≡N: 1.10 Å, 945 kJ/mol
+
+### 2.4 Hybridization
+
+Atomic orbitals mix into hybrid orbitals for bonding:
+- sp³: tetrahedral (CH₄, diamond)
+- sp²: trigonal planar (graphene, benzene)
+- sp: linear (acetylene)
+- sp³d, sp³d²: 5- and 6-coordinate
+
+Substrate reading: hybridization is the substrate's K-type reorganization under bonding-boundary-conditions.
+
+### 2.5 K-audit anchors
+
+- **Vol 5 Ch 6**: hydrogen atom (single-atom K-type)
+- **Vol 9 Ch 3**: band structure (multi-atom)
+
+## Level 3 — 5th-grader accessibility
+
+**Chemical bonds** hold atoms together. **Ionic** (NaCl): electron transferred, ions attract. **Covalent** (H₂): electrons shared. **Metallic** (Fe): delocalized electron sea. **Hydrogen** (water): dipole-dipole via H. **Van der Waals**: weak induced-dipole. Bond strengths: 0.1 kJ/mol (vdW) to 4000 kJ/mol (strong ionic). In BST: bonds are substrate K-type couplings under nuclear-skeleton boundary conditions.
 
 ---
 
-**Where to look this up**: For standard chemical bonding: Pauling, *The Nature of the Chemical Bond*; Atkins, *Physical Chemistry*.
+## What comes next
+
+Chapter 3 develops molecular orbital theory.
+
+## Where to look this up
+
+- Pauling, *Nature of the Chemical Bond*
+- BST: Vol 5 Ch 6; Vol 9 Ch 3
