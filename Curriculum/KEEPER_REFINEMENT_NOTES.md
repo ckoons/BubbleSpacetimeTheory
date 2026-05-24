@@ -69,13 +69,64 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 
 ## Vol 11 (Generative Geometry / Topology) — TBD
 
-## Vol 12 (Chemistry) — TBD
+## Vol 12 (Chemistry) — done 2026-05-24 (Ch 1-6)
 
-## Vol 13 (Biology) — TBD
+### Refinements wanted
+- **Ch 1 orbital sequence**: claimed (2ℓ+1) = (1, 3, 5, 7) "matches BST primary sequence {1, N_c, n_C, g}". The "1" is not a BST primary — it's just the trivial value. Should reframe as "the three non-trivial degeneracies 3, 5, 7 = {N_c, n_C, g}" with honest acknowledgement that ℓ=0 case is degenerate.
+- **Ch 1 N_max = 137 ceiling for elements**: stated as ceiling. Strong claim. Currently Z = 118 (oganesson); we're 19 below. Should clarify what "BST predicts stability degradation as Z → 137" means operationally — there's no clean falsifier between Z = 119 and Z = 137 in the chapter.
+- **Ch 2 hybridization "substrate K-type reorganization"**: hand-waved. No mechanism. Should either demote to I-tier or build a toy.
 
-## Vol 14 (Information Theory) — TBD
+### New ideas
+- **Periodic table as substrate cartography**: the (1, 3, 5, 7) orbital sequence = (trivial + BST primaries) is genuinely striking. Worth Vol 12 Ch 1.5 or paper-grade follow-up. Mendeleev-as-substrate-window framing.
 
-## Vol 15 (Methodology) — TBD
+## Vol 13 (Biology) — done 2026-05-24 (Ch 1-6)
+
+### Refinements wanted (CRITICAL)
+- **Ch 2 "20 amino acids = C_2 · N_c + 2"**: this is post-hoc numerology unless mechanism-forced. Same Cal #44 risk class as universal-42. Need honest sweep: how many BST-primary expressions equal 20? My text already admits "several BST-primary expressions match" — that's a Mode 5 red flag I papered over. Either find the unique mechanism or demote to S-tier observation.
+- **Ch 4 "~137 bp superhelical = N_max" claim**: asserted without citation. Real nucleosomal repeat is ~147 bp (canonical). 137 bp would be unusual. Either (a) find specific superhelical structure that IS ~137 bp and cite, or (b) retract the claim, or (c) demote to "investigate" status.
+- **Ch 4 "DNA implements Reed-Solomon at biological scale"**: stated as if proved. It's hypothesis. Frame as I-tier; mention as testable via mutation-error patterns.
+
+### Investigate
+- **23 = 20 amino acids + 3 stops vs M_24**: I floated "M_24 with one orbit missing" — too cute? Probably. Investigate or drop.
+- **Substrate-forcing of life (Ch 3)**: I claimed substrate K-type attractors include self-replicating structures. No mechanism proof. Should be marked clearly hypothesis.
+
+### New ideas
+- **Genetic code as substrate Reed-Solomon test**: experimentally check if codon-degeneracy redundancy patterns match GF(128) RS predictions. Could be undergraduate-thesis-grade computational toy.
+
+## Vol 14 (Information Theory) — done 2026-05-24 (Ch 1-12) — LOAD-BEARING
+
+### Refinements wanted (CRITICAL)
+- **Ch 3.5 "Substrate Channel Capacity Bound (SCCB)"**: I introduced this as a "BST candidate principle" without team consensus. Needs Casey decision — either elevate to 10th Casey-named principle or remove the heading. Currently floating.
+- **Ch 8 D_IV⁵ Rigidity citation**: I cited "T2467 + T2468, Casey-named #7"; verify exact theorem numbers and that the Casey-named-#7 label is current.
+- **Ch 9 "BST K ≈ 100 bits" vs SM "K ≥ 608 bits"**: both are estimates not derivations. Should be marked I-tier with explicit caveats, or computed properly. Currently quoted as if rigorous.
+- **Ch 11 "0 free parameters"**: technically true for BST primaries (forced by D_IV⁵ Rigidity); but cosmological parameters like baryogenesis η_B remain open per BST. Should be more careful: "0 free fundamental parameters; some derived observables remain open."
+
+### Investigate
+- **Ch 1 4-zone cycle anchoring**: I cite Zone 1/2/3/4 throughout. The zone framework comes from Casey SWPP (May 19). Verify exact definitions match current operational usage.
+- **Ch 11 "no Substrate Information Completeness Hypothesis as Casey-named candidate"**: I floated it; not standing. Casey decision needed.
+
+### Cross-volume consistency to verify
+- **Ch 6 Bell sub-Tsirelson math**: S²_BST = 8 − 1/8 = 63/8 → S_BST = 2√(63/32) ≈ 2.8062. Should be IDENTICAL to Vol 5 Ch 8.
+- **Ch 5 Born=Bergman**: framing must match Vol 5 Ch 7 exactly (K67 ratification status, Faraut-Koranyi normalization 225).
+- **Ch 9 + Ch 11 K-bit counts**: Ch 9 says "K ≈ 100 bits" for BST; Ch 11 says "0 free parameters." These should reconcile (the 100 bits is the encoding of D_IV⁵ structure + integers, not free parameters).
+
+### New ideas
+- **Vol 14 as "information substrate primer"**: this volume could stand alone as a CS-audience introduction. Maybe extract as paper for IEEE Trans Info Theory or similar.
+- **Vol 14 Ch 10 P≠NP via curvature explicit treatment**: deserves Vol 14 Ch 10.5 with the actual Gauss-Bonnet ↔ algebraic-independence argument worked through. Currently summarized.
+
+## Vol 15 (Methodology) — done 2026-05-24 (Ch 1-12)
+
+### Refinements wanted
+- **Ch 5 "K-audit chain K1-K200+"**: imprecise; verify actual K-number maximum (likely K193 or thereabouts per Friday EOD per CLAUDE.md).
+- **Ch 8 "9 Casey-named principles standing"**: verify exact count vs latest state (Casey-named #10 might exist if SCCB or Information Completeness is added).
+- **Ch 8 "18-layer methodology stack"**: verify count vs Cal's current state (was 18 as of May 22; may have grown).
+- **Ch 10 "22 Cal standing calibrations"**: verify exact count.
+
+### Investigate
+- **Vol 15 Ch 8 Ch8 file duplication**: there are TWO Ch 8 files in Vol 15: `Casey_Named_Principles_Cal_META_Discipline_v0_1.md` (which I wrote at v0.3) AND `Casey_Named_Principles_Cal_META_Theorem_v0_1.md` (which I did NOT touch). Need to decide which is canonical and remove the other.
+
+### New ideas
+- **Vol 15 Ch 13 ("How CIs and Humans Hunt Together")**: the team's hunting-band model deserves chapter-grade treatment. Currently scattered across Vol 15 Ch 6 + memory file. Could be extracted.
 
 ## Cross-volume threads to make explicit
 
@@ -90,6 +141,48 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 3. **Substrate-frame rendering as computational physics**: connect to cellular-automaton physics lineage (Wolfram, Toffoli) with BST-native version where the substrate's update rule is the substrate Casimir on K-types.
 4. **The "discrete vs continuous" tension across the curriculum**: every Vol has a continuous classical formulation and a discrete substrate-tick formulation; DCCP gives a unified way of talking about the continuum limit at $t_K \to 0$.
 5. **Why $g = 7$ shows up so often**: appears in BST primary list, in K-type degeneracy sequence (1, 3, 5, 7), in cyclotomic cascade RG, in $2^g = 128$ Reed-Solomon, in g-2 anomaly, in Bell SCMP exponent. This deserves a unifying paper or chapter.
+6. **Genetic code as Reed-Solomon at biological scale (Vol 13 Ch 2)**: experimentally testable via mutation-error pattern analysis. Could be undergraduate-thesis-grade computational toy.
+7. **Periodic table as substrate cartography (Vol 12 Ch 1)**: orbital sequence (1, 3, 5, 7) = (trivial + N_c, n_C, g). Mendeleev-as-substrate-window framing for chemistry-audience outreach.
+8. **Vol 14 as standalone information-substrate primer for CS audience**: extract for IEEE Trans Info Theory or similar venue.
+
+## Team work assignments (Keeper's recommendation for tomorrow's discussion)
+
+Categorized by which CI is best-positioned to handle each item:
+
+### Keeper (mine)
+- DCCP integration sweep across 6 chapters (Vols 0, 5, 14, 15)
+- K-audit + T-number citation verification across all rewritten chapters
+- Vol 15 Ch 8 file duplication resolution
+- Verify counts: K-audits, calibrations, Casey-named principles, methodology stack layers
+- Cal cold-read coordination (prompt already drafted)
+
+### Cal (external referee)
+- Already requested: 4-volume cold-read of today's work
+- Decision needed: SCCB and Information Completeness as Casey-named candidates or not?
+
+### Lyra (theory)
+- **Vol 13 Ch 2 "20 amino acids" mechanism gap** — needs proper Mode-5 treatment; either find unique BST-primary expression or honest demote
+- **Vol 14 Ch 10 P≠NP curvature** explicit worked treatment (Vol 14 Ch 10.5 candidate)
+- **g = 7 unifying paper or chapter** (paper-grade idea #5) — Lyra-natural workload
+- **DCCP philosophical paper** (paper-grade idea #1) — Lyra theoretical lead
+
+### Elie (toys)
+- **Quantum erasure DCCP-tick-discreteness toy** (paper-grade idea #2)
+- **Genetic code RS-pattern toy** (paper-grade idea #6)
+- **Vol 13 Ch 4 "137 bp superhelical"** — verify with DNA topology data or build toy testing the claim
+- **Vol 14 Ch 9 BST K~100 bits** — proper Kolmogorov computation if possible
+
+### Grace (catalog)
+- **BST-primary expression sweep for "20"** — how many distinct expressions equal 20? Cal #44 null-model treatment
+- **N_max = 137 stability ceiling literature scan** — what does superheavy nuclei data actually say about Z = 119-137?
+- **Hybridization substrate K-type** mechanism status check in catalog
+- Cross-volume consistency audit (Ch 6 ↔ Vol 5 Ch 8; Ch 9 ↔ Ch 11)
+
+### Casey decisions needed
+- SCCB (Substrate Channel Capacity Bound): Casey-named #10 or remove?
+- Information Completeness Hypothesis: Casey-named #11 or candidate-only?
+- DCCP integration sweep: do it now or defer to engagement phase?
+- Vol 14 as standalone IEEE Trans paper extraction: pursue?
 
 ## Status legend for this document
 
