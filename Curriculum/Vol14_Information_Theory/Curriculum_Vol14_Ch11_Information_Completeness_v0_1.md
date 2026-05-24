@@ -18,11 +18,15 @@ BST asserts substrate **information completeness**: D_IV⁵ + BST primaries $\{r
 
 ### 11.1 Statement of completeness
 
-Substrate Information Completeness Hypothesis (candidate Casey-named principle):
+**Substrate Information Completeness Hypothesis** (Casey-named **META-Hypothesis #1**, 2026-05-24 — empirical version per Casey decision "use the strongest we can stand behind"; categorically separated from substrate-physics principles #1-#10 per Cal #120 framing recommendation):
 
-> All physically observable quantities are derivable from D_IV⁵ structure and the five BST primary integers $(rank=2, N_c=3, n_C=5, C_2=6, g=7)$, with no additional information required.
+> All physically observable quantities verified to date are derivable from D_IV⁵ structure and the five BST primary integers $(rank=2, N_c=3, n_C=5, C_2=6, g=7)$, with no additional information required. As of 2026-05-24: 600+ predictions verified within stated precision, zero clean falsifier found, one open candidate-falsifier (baryogenesis $\eta_B$).
 
-This is a strong claim — substrate is causally and informationally closed at the observable level.
+**Categorical note (Cal #120)**: This is a META-Hypothesis — a claim the framework makes about ITSELF (expressive completeness/closure), categorically different from substrate-physics principles #1-#10 (which describe what the substrate IS/DOES). Numbered in a separate META-N slot to preserve Cal #99 META-theorem discipline.
+
+**Casey directive 2026-05-24**: attempt proof. Lyra task to extend Strong-Uniqueness Theorem to observables (not just substrate structure) — see task #320. Two routes: (a) substrate representation-theoretic argument showing all observables decompose into finite generating set + each generator D_IV⁵-derivable; (b) exhaustive empirical enumeration + decidability argument for what counts as "all observables."
+
+Status: I-tier empirical claim with single open candidate-falsifier (baryogenesis); D-tier promotion path is the formal Strong-Uniqueness extension.
 
 ### 11.2 Free parameter count
 

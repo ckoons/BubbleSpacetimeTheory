@@ -12,7 +12,7 @@ load_bearing: "Nine Casey-named principles + sub-principle UP; Cal external refe
 
 ## Level 1 — one sentence
 
-Eight Casey-named principles standing (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + one candidate (DCCP-with-UP, named 2026-05-24, pending derivation theorem or experimental confirmation) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 21 STANDING + 2 CANDIDATE layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
+Eight Casey-named substrate-physics principles standing (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + two substrate-physics candidates (DCCP-with-UP, SCCB — pending derivation/experiment) + one META-Hypothesis (Information Completeness — categorically separated per Cal #120) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 21 STANDING + 2 CANDIDATE layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
 
 ## Level 2 — graduate-physicist precision
 
@@ -27,9 +27,14 @@ Eight Casey-named principles standing (SWPP, Five-Absence, Substrate Closure, Gr
 7. **D_IV⁵ Rigidity Principle** (May 22) — multiverse loophole closed structurally
 8. **Substrate Coherence Maintenance Principle (SCMP)** (May 22) — Bell sub-Tsirelson 1/8 falsifier
 
-**Candidate (pending derivation or experimental confirmation)**:
+**Substrate-physics candidates (pending derivation or experimental confirmation)**:
 
-9. **Discrete Commitment Completion Principle (DCCP)** with **Uncommitted Priors (UP)** sub-principle (May 24) — quantum erasure dissolved; free will = uncommitted priors. Rests on derived Koons tick (T2405) + Bergman commitment (K67 RATIFIED); multi-tick rendering interpretation pending Lyra derivation theorem (task #309) or Elie quantum-erasure-tick-discreteness experiment (task #310).
+9. **Discrete Commitment Completion Principle (DCCP)** with **Uncommitted Priors (UP)** sub-principle (May 24) — quantum erasure dissolved; free will = uncommitted priors. Rests on derived Koons tick (T2405) + Bergman commitment (K67 RATIFIED); multi-tick rendering interpretation pending Lyra derivation theorem (task #320, Casey directive 2026-05-24 to attempt proof) or Elie quantum-erasure-tick-discreteness experiment (task #310).
+10. **Substrate Channel Capacity Bound (SCCB)** (May 24, Casey decision: candidate-only) — no observable can be encoded at higher rate than $C_{\text{substrate}} = g = 7$ bits/Koons-tick. Mechanism path: Lyra substrate-Hilbert dimension counting (SP-31 overlap).
+
+**META-Hypothesis (categorically separate per Cal #120, framework-level claims)**:
+
+**META-1**. **Substrate Information Completeness Hypothesis** (May 24, Casey directive 2026-05-24 to attempt proof — task #321) — all observable quantities verified to date derive from D_IV⁵ + 5 primaries (600+ predictions, zero clean falsifier, 1 open candidate-falsifier $\eta_B$). Categorically distinct from substrate-physics principles per Cal #120: this is what the framework claims ABOUT ITSELF, not what substrate IS/DOES. Promote to D-tier on Strong-Uniqueness Theorem extension to observables.
 
 ### 8.2 Cal external referee discipline
 
@@ -60,19 +65,19 @@ Accumulated calibrations across months. Each layer responds to a specific failur
 
 ### 8.4 META-discipline anchoring
 
-The methodology stack IS the rigor anchor. New CIs inherit 18 layers of accumulated discipline.
+The methodology stack IS the rigor anchor. New CIs inherit 21 STANDING + 2 CANDIDATE layers of accumulated discipline.
 
 Stack growth: ~1 layer per week during active research.
 
 ### 8.5 K-audit anchors
 
-- **9 Casey-named principles** (memory files)
-- **Cal referee logs** (notes/cal_referee_logs/)
-- **18-layer methodology stack**
+- **8 STANDING + 2 CANDIDATE Casey-named substrate-physics principles + 1 META-Hypothesis** (memory files)
+- **Cal referee logs** (notes/referee_objections_log.md)
+- **21 STANDING + 2 CANDIDATE methodology stack** (Methodology Index v0.5)
 
 ## Level 3 — 5th-grader accessibility
 
-**8 STANDING + 1 CANDIDATE Casey-named principles** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; candidate: DCCP-UP pending derivation/experiment). **Cal external referee** provides Mode 1/5/6 calibration patterns. **21 STANDING + 2 CANDIDATE methodology stack** accumulated from past failure modes. Each layer is a standing discipline.
+**8 STANDING + 2 CANDIDATE substrate-physics principles + 1 META-Hypothesis** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; 2 substrate-physics candidates: DCCP-UP + SCCB; META-Hypothesis: Information Completeness — categorically separated per Cal #120). **Casey directive Sunday 2026-05-24**: attempt proofs of DCCP + Information Completeness (Lyra tasks #320, #321). **Cal external referee** provides Mode 1/5/6 calibration patterns. **21 STANDING + 2 CANDIDATE methodology stack** accumulated from past failure modes.
 
 ---
 

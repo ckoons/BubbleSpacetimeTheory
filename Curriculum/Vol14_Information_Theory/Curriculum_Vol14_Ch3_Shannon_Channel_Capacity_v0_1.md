@@ -62,15 +62,15 @@ $$C_{\text{substrate}}/t_K = 7 / 10^{-120} = 7 \cdot 10^{120} \text{ bits/s}$$
 
 — astronomical. The substrate is computing at extraordinary rates; what we observe as physics is the coarse-grained output.
 
-### 3.5 Substrate Channel Capacity Bound (SCCB)
+### 3.5 Substrate Channel Capacity Bound (SCCB — Casey-named CANDIDATE, 2026-05-24)
 
-BST candidate principle: no observable can be encoded at higher rate than substrate channel capacity.
+**Candidate principle** (Casey decision 2026-05-24: candidate-only, pending mechanism work): no observable can be encoded at higher rate than substrate channel capacity $C_{\text{substrate}} = g = 7$ bits/Koons-tick $\approx 7 \cdot 10^{120}$ bits/s.
 
-Implications:
-- Cosmological information bounds (Bekenstein, holographic) consistent with SCCB
-- Black hole entropy as substrate-channel-capacity boundary
+Implications if ratified:
+- Cosmological information bounds (Bekenstein, holographic) reduce to SCCB at specific boundary conditions
+- Black hole entropy is substrate-channel-capacity boundary effect
 
-Speculative; needs formalization.
+Status: I-tier hypothesis. Mechanism path: Lyra to formalize via substrate-Hilbert-space dimension counting (overlaps SP-31). Falsifier: identify physical encoding rate above $C_{\text{substrate}}$ in any observable setting.
 
 ### 3.6 K-audit anchors
 
