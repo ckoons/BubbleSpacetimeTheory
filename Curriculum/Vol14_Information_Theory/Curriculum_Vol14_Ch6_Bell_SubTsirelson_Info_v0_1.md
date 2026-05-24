@@ -81,6 +81,15 @@ Per Cal #121 + Cal #123 + Calibration #27 STANDING: cannot ratify until honest f
 
 **The morning's lesson**: PCAP cadence amplifies BOTH legitimate framework progress AND Mode 1 forward-derivation risk. Calibration #27 STANDING was promoted Sunday afternoon precisely because of today's 4-instance trigger (Cal #108 + #119 + #121 + Elie Toy 3516 self-flag). The system caught itself.
 
+**The afternoon's recovery** (Cal #125 cold-read disposition): Lyra returned #320 v0.4 + #321 v0.2 + #322 v0.3 multi-week deepenings + Elie returned Toy 3521 Calibration #27-compliant derivation test harness, all within ~1 hour of Calibration #27 STANDING. Cal #125: **PASS at FRAMEWORK tier across all 4 artifacts**. Lyra honestly localized Mode 1 vulnerability to ONE specific assumption (per-substrate-tick scale = α-quantum); §3 explicit substrate-derived vs INHERITED distinction; exemplary Cal #121 retraction absorption. Cal #125 verdict: "the methodology stack is functioning as designed."
+
+**True D-tier still requires** (Cal #21 STANDING):
+1. Lyra #320 v0.5+ (multi-week): derive per-tick commitment scale = α-quantum from substrate-mechanism, not assumed
+2. Lyra #322 v0.3 Gap 3.1 (multi-month): substrate K-type accessibility from INDEPENDENT operator-algebra (not borrowing #320)
+3. SP-30-1 actual SPDC experiment (12-18 months): pending Casey send-signal to Vienna/Caltech/Munich/Hanson
+
+When all three close, three-route convergence becomes genuine + D-tier ratification per Cal #21 dual-gate.
+
 ### 6.6 K-audit anchors
 
 - **T2469**: SCMP principle (Casey-named #8)
