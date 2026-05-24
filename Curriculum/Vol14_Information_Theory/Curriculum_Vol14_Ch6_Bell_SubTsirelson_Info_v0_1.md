@@ -92,7 +92,22 @@ When all three close, three-route convergence becomes genuine + D-tier ratificat
 
 **Cross-CI cascade Sunday 2026-05-24 (morning → PM → late PM)**: Grace's INV-5123 Dirac Z·α=1 literature scan (morning task #315) → Keeper absorbed into Vol 12 Ch 1 as "one of the strongest moments of the day" (PM v0.8 absorption) → Lyra used same anchor for #320 v0.5 substrate-tick scale derivation (PM, same day) → Cal #126 cold-read confirmed FRAMEWORK-PLUS PASS + identified remaining META-vulnerability at substrate-hypothesis-selection layer (Cal called the team "exemplary today"). Grace catalog work materially advanced Lyra's theoretical closure within hours. This is the substrate-cartography → theory-derivation cross-lane pattern at sub-PCAP cadence.
 
-**Minor flag for v0.6** (Cal #126 LOW): Z_critical = 137 is the IDEALIZED point-nucleus Dirac limit; realistic finite-nuclear-size Z_critical ≈ 169-172. Three-way identity uses idealized limit (consistent with substrate-physics being fundamental layer below realistic phenomenology) but should be flagged in v0.6 §2 honest scope.
+**Minor flag for v0.6** (Cal #126 LOW): Z_critical = 137 is the IDEALIZED point-nucleus Dirac limit; realistic finite-nuclear-size Z_critical ≈ 169-172. Three-way identity uses idealized limit (consistent with substrate-physics being fundamental layer below realistic phenomenology) — **absorbed in Lyra #320 v0.6** with honest scope acknowledgment.
+
+**§6 Candidate quantitative discrimination** (Elie Toy 3522, Sunday 2026-05-24 evening, 7/7 PASS Calibration #27 compliant): side-by-side comparison of all four substrate-mechanism candidates produces UNIQUE match for Candidate A:
+
+| Candidate | Scale | Ratio to α-quantum | 1% match |
+|---|---|---|---|
+| A Dirac Z·α=1 | 0.007299 | 1.0000 | ✓ UNIQUE |
+| D GF(128) M_g | 0.007874 | 1.079× | ✗ (8% off) |
+| C Bergman FK 225 | 0.004444 | 0.609× | ✗ |
+| B Casimir C_2=6 | 0.166667 | 22.83× | ✗ |
+
+**Critical narrowing**: Candidates B + C numerically excluded. **A vs D is the only remaining distinction** at the substrate-mechanism layer. Toy 3520 SPDC experimental design at 5σ precision (469K photon pairs) can EXPERIMENTALLY discriminate A (0.730%) vs D (0.787%) — empirical discriminability built into the candidate-space, **not pure target-fitting**.
+
+Mode 1 honesty preserved per Calibration #27 STANDING: Toy 3522 does NOT prove A is correct (selection-bias risk remains); does NOT replace Lyra forward-derivation; does NOT close Cal #126 vulnerability. It quantitatively narrows the alternatives.
+
+**Lyra #320 v0.7+ work outlined** (multi-week): Candidate A Bergman kernel analysis at Z·α=1 limit + K-type spectrum truncation → STRUCTURALLY VERIFIED CANDIDATE elevation path.
 
 ### 6.6 K-audit anchors
 
