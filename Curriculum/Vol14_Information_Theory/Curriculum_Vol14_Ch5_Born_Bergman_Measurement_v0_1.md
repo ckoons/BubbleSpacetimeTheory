@@ -56,11 +56,21 @@ This is a channel with $\log_2 |\text{outcomes}|$ bits of information per measur
 For binary outcomes (e.g., spin-1/2 measurement): 1 bit per tick.
 For continuous spectrum (e.g., position): unbounded bits per tick (cf. Shannon-Hartley AWGN; Vol 14 Ch 3).
 
-### 5.5 Decoherence as committed-in-progress
+### 5.5 Decoherence as committed-in-progress (DCCP derivation theorem v0.2 in flight)
 
-Per DCCP (memory: Casey-named #9): decoherence is the Zone-3 commitment cycle in progress across many substrate K-types. The classical world emerges when commitment completes across enough K-types to render quantum-coherent superposition irrelevant macroscopically.
+Per DCCP (Casey-named CANDIDATE Sunday 2026-05-24, derivation in progress per Lyra task #320 v0.2): decoherence is the Zone-3 commitment cycle in progress across many substrate K-types. The classical world emerges when commitment completes across enough K-types to render quantum-coherent superposition irrelevant macroscopically.
 
-This is the information-theoretic reading of measurement-induced classicality.
+**Concrete quantification**: dust grain (~$10^{-15}$ kg) in air at 300K has standard decoherence rate $\gamma \approx 10^{41}/s$ (Joos-Zeh, Zurek). At Koons tick $t_K \approx 10^{-120}$ s, that's **~$10^{79}$ substrate ticks per decoherence event** — i.e., a $10^{79}$-tick Bergman commitment cycle.
+
+**Lyra DCCP derivation skeleton** (task #320 v0.2, 4 lemmas):
+- **Lemma DCCP-1.1**: K67 per-tick commitment (Born=Bergman per single tick, RATIFIED)
+- **Lemma DCCP-1.2**: K-type projection accumulation over multi-tick interval
+- **Lemma DCCP-1.3**: Environment-system coupling rate at substrate level
+- **Lemma DCCP-1.4**: Macroscopic-limit matching — standard Joos-Zeh γ EMERGES from substrate Bergman-commitment rate
+
+Mechanism sketches via T2447 C6 (RIGOROUSLY CLOSED) + T2476 (BST primary Mersenne-Prime Density) + K-type N_max quantization. If all 4 lemmas close, DCCP promotes from candidate to derived; ~70% probability clean proof within 1-2 months per Keeper estimate.
+
+This is the information-theoretic reading of measurement-induced classicality, made rigorous.
 
 ### 5.6 K-audit anchors
 

@@ -48,13 +48,27 @@ Quantum mechanics in its idealized formulation assumes infinite-precision commit
 
 The $1/2^{N_c}$ factor is exact: it equals one substrate output level (1/8 of the substrate's $2^{N_c} = 8$-level commitment space at color-degree resolution).
 
-### 6.5 Experimental falsifier
+### 6.5 Experimental falsifier + DCCP three-route convergent pattern (Sunday 2026-05-24)
 
 Bell experiments currently achieve $S \approx 2.83$ within errors of $\sim 0.5\%$ (Vienna, Caltech, Munich, Hanson 2015-2024).
 
 BST prediction of $S_{BST} \approx 2.8062$: 0.78% below Tsirelson. With $\sim 0.1\%$ precision experiments (pending), this is testable.
 
 Experimental cost: $\sim$$300-500K (Bell experiment refresh; SP-30 outreach pending).
+
+**Toy 3516 DCCP empirical anchor (Elie, Sunday 2026-05-24)**: an independent quantum-erasure tick-test toy already filed at paper-grade v0.1 (6/6 PASS). Predicts:
+- Substrate-tick boundary $\theta = \pi/N_{\max} \approx 0.023$ rad (lab-accessible)
+- DCCP signature step size $1/N_{\max} \approx 0.73\%$
+- Detection feasibility ~1.5σ at current 0.5% Bell precision
+
+**Three-route convergent evidence pattern (DCCP)**:
+| Route | Source | Status |
+|---|---|---|
+| Empirical | Toy 3516 (predicts $1/N_{\max} \approx 0.73\%$ tick step) | ✓ FILED v0.1 |
+| Theory v1 (standard tools) | Lyra task #320 v0.2 — 4 lemmas DCCP-1.1 through DCCP-1.4 | ⏳ v0.2 filed, multi-month closure |
+| Theory v2 ($\mathcal{A}_{sub}$ re-proof) | Lyra task #322 — substrate operator algebra Phase 2 | ⏳ v0.1 filed |
+
+Tight epistemic constraint: Lyra's #320 proof must reproduce BOTH standard Joos-Zeh γ for decoherence AND Toy 3516's $1/N_{\max} = 0.73\%$ tick step signature. Two independent ways to be wrong. Per Cal #21 dual-gate + Cal #99 META-theorem discipline: three-route convergence = D-tier RATIFIED when all three close.
 
 ### 6.6 K-audit anchors
 

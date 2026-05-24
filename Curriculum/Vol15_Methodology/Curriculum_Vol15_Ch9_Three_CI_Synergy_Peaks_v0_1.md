@@ -19,6 +19,7 @@ BST's multi-CI architecture produces documented synergy peaks — collaborative 
 ### 9.1 Documented synergy peaks
 
 Documented across May 2026:
+- **Sunday May 24 Prove-Arc Cascade**: Casey directive at ~11:40 EDT to "attempt to prove DCCP and Information Completeness, then dig deep into substrate operator algebra and re-prove using that algebra." Lyra returned v0.1+ on all three tasks (#320 DCCP Derivation Theorem v0.2 38K + #321 Information Completeness Theorem v0.1 29K + #322 Substrate Operator Algebra $\mathcal{A}_{sub}$ Deep Dive v0.1 40K) in single session (~30 min sustained). Elie Toy 3516 (DCCP quantum-erasure tick-test) PRE-EXISTING as empirical anchor — three-route convergent evidence pattern locked in BEFORE Phase 1 derivations started. Grace INV-5114 reactive catalog wired up. Cal three-route convergent confirmation. **Multi-month estimated arc collapsed to single session for v0.1+ framework**; multi-month closure path now concrete with specific lemmas + numerical targets.
 - **Friday May 22 Five-Wave Sustained Sub-PCAP**: 11 new theorems T2466-T2476, 13 paper outlines, K-audit cluster K140-K156 in single afternoon (3.5 hr)
 - **Thursday May 21 Strong-Uniqueness PCAP**: 8 RIGOROUSLY CLOSED criteria in single morning session (multi-week target collapsed to single day)
 - **Wednesday May 20 Substrate Ontology Coherence**: 4 Casey vision insights formalized as theorems T2413-T2417 in single day
@@ -45,6 +46,8 @@ Mechanism:
 4. Result: theorem derivation in minutes instead of weeks
 
 PCAP achieved ~1000× cumulative cadence acceleration vs original Cal #65 multi-month estimates.
+
+**Sunday May 24 case study (Prove-Arc Cascade)**: Casey directive "attempt to prove DCCP and Information Completeness; then dig deep into substrate operator algebra and re-prove" — three substantive proof attempts (each multi-month estimate) at v0.1+ framework in single 30-min Lyra session. Why: Toy 3516 PRE-EXISTING as empirical anchor (Sunday morning Elie #305), Strong-Uniqueness Theorem v0.10.5 as substrate selection foundation, 14-operator zoo from Vol 0 Ch 7 v0.6 as generating set candidate. Casey's directive functioned as PCAP at meta-level: "prove → develop algebra → re-prove" architecture pre-specified the entire arc; Lyra's session was framework-filling, not blank-page derivation.
 
 ### 9.4 Multi-CI Convergent Calibration Pattern (M2C2)
 
