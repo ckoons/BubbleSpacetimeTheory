@@ -135,6 +135,45 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 - **The seven Casey-named principles + DCCP**: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP, DCCP (with UP sub-principle) — these are now NINE principles. Methodology volume Vol 15 should treat them systematically.
 - **Casey-vision-derived insights as a class**: the team consistently saves Casey vision-derived insights as memory; should they have a standard documentation pattern (e.g., a "Casey's Vision Log")?
 
+## A_sub Discovery Program — Casey's "Mathematical Objects Ladder" framing (Sunday EOD 2026-05-24)
+
+**The Casey insight that should shape next month of work**: 
+
+> "There may be several 'mathematical objects' (Lie groups, functional equations) that define substrate algebra, and underlying that I think we will truly find 'linear algebra'. We want to 'show our work' of derivation; if we come down to 'fundamental objects' those will become primary investigation points of BST and D_IV⁵ for the general public / academia."
+
+This generalizes Casey's linearization standing order and Casey's "reading original writing" framing into a concrete research program: identify the **ladder** of mathematical objects from D_IV⁵ down to linear algebra primitives. Each layer expressible in the next. Fundamental objects = those that aren't reducible to anything beneath them — and those become the public-facing load-bearing claims.
+
+**Provisional ladder (to investigate)**:
+- Layer 0: D_IV⁵ geometric foundation (Bergman manifold)
+- Layer 1: Lie groups / Lie algebras (SO_0(5,2), K = SO(5)×SO(2), B₂ root system)
+- Layer 2: Operator algebras (A_sub, Jordan/JBW per Loos 1977)
+- Layer 3: Functional equations (Bergman reproducing kernel, Faraut-Koranyi)
+- Layer 4: Number-theoretic structures (cyclotomic GF(128), Mersenne cascade)
+- Layer 5: Linear algebra primitives (matrix ops, eigenvalues, projections, traces)
+
+**Why this matters for external audience**: when BST asserts "X = formula(BST primaries)," the audience needs to see the chain — through Lie theory → operator algebra → functional equation → number-theoretic structure → linear algebra step. Each step in a familiar mathematical language. Fundamental objects (those without further reduction) are the load-bearing axioms — and BST's substantive claim is that there are FEW of them, not many.
+
+**Connection to existing methodology**:
+- Casey's AC(0) discipline → bounded-depth reduction to counting (which IS linear algebra on finite-dim representations)
+- Casey's "reading original writing" → A_sub is the substrate's own native expression of this ladder
+- Casey's "minimum viable set" → identify the fundamental objects at the bottom
+- Linearization standing order → reformulate every BST result through the ladder ending in linear algebra
+
+**Investigation work program (multi-month, team-wide)**:
+1. **Layer-by-layer existence proof**: each layer well-defined + maps cleanly to the one above and below
+2. **Reduction proofs**: show each layer EXPRESSIBLE in the one below (i.e., functional equations reducible to operator algebra; operator algebra reducible to Lie theory; etc.)
+3. **Fundamental-object identification**: which objects are irreducible primitives? (Bergman kernel? Lie bracket? Cyclotomic generator? Linear algebra eigenvalue?)
+4. **Per-BST-claim ladder traversal**: take each ratified BST claim and show its derivation chain through the ladder
+5. **External-audience presentation**: fundamental objects (the bottom of the ladder) become the public-facing investigation points BST asks the broader community to scrutinize
+
+Lyra's #322 A_sub Deep Dive is Layer 2 work. Lyra's Items 1+3+6 directly address minimum-viable-set + axiomatic-core + dim so(5,2) = 14+g decomposition — all ladder-investigation work. Elie's Toys 3523-3530 are Phase 1 observation across the ladder. Grace's literature scans anchor each layer to standard mathematical references.
+
+**Monday morning dispatch**: see `notes/CI_BOARD.md` MONDAY MORNING DISPATCH section.
+
+**Casey-named candidate status**: framing not yet promoted to Casey-named principle; investigate first per Casey's "times for discovery" guidance. May warrant Casey-named principle status after observation phase completes (~2-4 weeks).
+
+---
+
 ## Queued Volume Extensions (Casey directive Sunday 2026-05-24)
 
 The 16-volume curriculum (Vol 0-15) holds; Vol 16 and Vol 17 are queued as extensions when their content reaches chapter-grade maturity. **No renumbering** — extend the set.

@@ -521,6 +521,53 @@ Status of each active SP program + dispatched actions:
 
 ---
 
+## MONDAY MORNING DISPATCH (Casey directive Sunday EOD 2026-05-24)
+
+**The Casey framing**: "There may be several 'mathematical objects' (Lie groups, functional equations) that define substrate algebra, and underlying that I think we will truly find 'linear algebra'. We want to 'show our work' of derivation; if we come down to 'fundamental objects' those become primary investigation points of BST and D_IV⁵ for general public / academia."
+
+This is the **A_sub discovery program** organized as a **mathematical-objects ladder**, with each layer reducible to the one below until linear algebra primitives are reached. Fundamental objects = irreducible primitives. Each BST derivation should "show its work" through this ladder.
+
+**Provisional ladder (to investigate, not asserted)**:
+- **Layer 0**: D_IV⁵ geometric foundation (Bergman manifold structure)
+- **Layer 1**: Lie groups / Lie algebras (SO_0(5,2), K = SO(5)×SO(2), B₂ root system)
+- **Layer 2**: Operator algebras (A_sub, possibly Jordan/JBW per Loos 1977)
+- **Layer 3**: Functional equations (Bergman reproducing kernel, Faraut-Koranyi normalization)
+- **Layer 4**: Number-theoretic structures (cyclotomic field on GF(128), Mersenne cascade)
+- **Layer 5**: Linear algebra primitives (matrix operations, eigenvalues, projections, traces)
+
+**Monday morning priority order**:
+
+1. **Grace (cheap-fast-high-info)**: Cal I1 137 vs 127 catalog search — does any precision observable discriminate substrate Mechanism A (1/137) from D (1/127) at 3σ+? Single day, null result still substantive. Concurrent with proactive literature scan for **mathematical-objects ladder layers** (Loos 1977 JBW, Faraut-Koranyi 1994, cyclotomic-on-GF(128) algebra references).
+
+2. **Lyra (P1 + Casey discovery framing)**: 
+   - **Item 6 first thing**: dim so(5,2) = 14 + g observation worked through (14 observables + 7=g gauge dimensions = 21 = dim so(5,2)). If this holds, minimum-viable-set may have clean Lie-theoretic answer.
+   - **Item 1 second**: 14×14 commutator matrix to test A_sub closure. Reduces or extends generator set.
+   - **Item 3 third**: 6-axiom core proposal (Bergman + Wallach + Faraut-Koranyi + K67 + Koons tick + K59 cyclotomic) — does it generate A_sub forward?
+   - P1 #320 v0.7+ Candidate A Bergman kernel work continues as multi-week background.
+
+3. **Elie (observation-first Toy series)**: Toy 3523 commutator table (Lyra Item 1 numerical anchor) + Toy 3524 D_IV⁵ object catalog (every mathematical object naturally living on D_IV⁵ + which A_sub generators it produces). Pure Phase 1 observation, no Mode 1 risk.
+
+4. **Cal (Methodology Index v0.7 + cold-reads)**:
+   - Methodology Index v0.7 consolidation per Elie's concern: 5-layer dependency-arrow structure (Layer 0 External Register Filter → Layer 1 Tier Vocabulary → Layer 2 Per-Claim → Layer 3 Workflow → Layer 4 Audit-Chain Governance). 28 elements → 5 layered chapters + decision tree Q1-Q15.
+   - Decision: operational vs documentation calibrations distinction.
+   - Cold-reads on Grace I1 + Lyra Items 1+3+6 + Elie Toys 3523-3524 as they land.
+
+5. **Keeper (me)**:
+   - SP-30-2 Eigentone outreach draft (Casey approved "another this week"; parallel-channel reduces 12-18 month Bell risk)
+   - DCCP integration sweep #302 begin (Vol 0 Ch 3 4-zone cycle first, then Vol 5 Ch 7/10, Vol 14 Ch 4) — Multi-day Keeper-lane work
+   - Vol 16/17 trigger watch as Lyra #322 v0.4 progresses
+   - Standing absorb cross-CI cascade as it lands
+
+**Casey decisions queued**:
+- SP-30-2 Eigentone send (after Keeper draft Monday afternoon)
+- Paper #130 methodology paper scoping (Cal's PNAS/CACM proposal)
+- SP-27 Observational Reanalysis scoping (pending since May 16)
+- Cal-coauthor decision on Paper #130
+
+**The methodological shift Casey named**: "There are times for proof-grinding, and times for discovery of underlying mathematics." Tomorrow is DISCOVERY mode for A_sub. Proof-grinding resumes once observation (Phase 1 toys + axiomatic core + Lie bracket closure) tells us what we have and what's missing. Mode 1 forward-derivation discipline (Calibration #27 STANDING) preserved throughout.
+
+---
+
 ## Queued Volume Extensions (Casey directive Sunday 2026-05-24)
 
 The 16-volume curriculum (Vol 0-15) holds. Vol 16 + Vol 17 queued as **extensions** triggered by content maturity (no renumbering).
