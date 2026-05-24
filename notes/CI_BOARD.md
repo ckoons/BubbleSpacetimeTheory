@@ -407,8 +407,75 @@ Methodology stack now **22 STANDING + 1 CANDIDATE** (was 21 + 2). "BST-Primary-T
 - 12 cores idle; k-cascade k=22/24/25/26 churning on 4 cores
 - Optional: η_B baryogenesis observable enumeration toy for #321 Info Completeness when Lyra signals
 
-### Casey (under consideration)
-- SP-30 outreach signals (Vienna/Caltech/Munich/Hanson Bell + NIST/PTB/JILA/MPI eigentone + NIST/PTB/ENEA Cs-137). Truly independent empirical anchor requires real lab experiments, not toys built to match predictions.
+### Casey (under consideration → DISPATCHED Sunday 2026-05-24 PM)
+- **SP-30-1 Bell outreach email DRAFTED** for Vienna/Caltech/Munich/Delft per Casey directive. File: `notes/SP-30_Outreach_Bell_Vienna_v0_1.md`. Recommended primary target: Zeilinger IQOQI Vienna. Casey reviews + sends.
+- Remaining SP-30 outreach signals: NIST/PTB/JILA/MPI eigentone (SP-29) + NIST/PTB/ENEA Cs-137 (SP-29-1) + W-32 atomic clocks. Drafts pending; can prepare similarly.
+
+---
+
+## ALL-SP PROGRAM SWEEP (Casey directive Sunday 2026-05-24 PM: "more work applied to all our SP programs today")
+
+Status of each active SP program + dispatched actions:
+
+### SP-12 Understanding Program (12 deep questions, standing)
+**Active**: priority next-toys per CLAUDE.md: U-3.4 phase transitions, U-1.1 m_e from S^1, U-1.2 6π⁵, U-2.1 BST-QFT S-matrix, U-3.1 CMB debris. **Dispatch**: Elie reactive when k-cascade lulls — pick one for next session.
+
+### SP-14 Derivation Catalog Discipline (standing daily)
+**Active**: B6 Lamb shift (#182 pending Elie primary). **Dispatch**: Elie when ready; multi-week.
+
+### SP-17 "What Do We Still Need?" (E-71 through E-86 backlog)
+**Active**: fermion systematics + cosmology + spectral frontier + graph health backlogs. **Dispatch**: Lyra reviews backlog when #320/#321/#322 plateau — pick 1-2 high-leverage items.
+
+### SP-19b AdS/CFT bridge (#124-#138, ~15 items mostly pending)
+**Active**: P-1 Curved Arenas outline (#124), Maldacena cold-read (#128), Rehren algebraic holography (#130), black holes as eigentones (#136), gravitational waves (#137), defense suite (#138). **Dispatch**: Lyra theoretical — multi-month parallel rail.
+
+### SP-20 Testbed methodology (#139-#144, all pending)
+**Active**: Information completeness criterion (#142) overlaps Lyra #321 (already in_progress). BST-RM Reverse Mathematics (#141) overlaps Lyra #321 Route B. CI-executable protocol (#139). **Dispatch**: Lyra continues #321; SP-20 sub-items absorb into Information Completeness arc naturally.
+
+### SP-21 BST Closure (4 remaining)
+**Status**: standing; multi-week sub-items per SP-21 master.
+
+### SP-23 Moonshine Mechanism + ACE
+**Status**: standing; K59 cyclotomic framework already RATIFIED — incremental work via Lyra theorem cadence.
+
+### SP-26 Particle Winding Classification (40+ items, ACTIVE)
+**Active pending**: W-27 Information Substrate framing (#67), W-28 bound/free neutron (#68), W-29 surface emission event (#69), W-30 m_e appendage (#70), W-32 decay rate vs substrate-attention (#72), W-35 direction to vacuum (#75), W-37 beacon model (#77), W-40 beacon-attention falsification suite (#80). **Dispatch**: Elie + Lyra cross-lane; W-32 ties to SP-30-3 commitment manipulation.
+
+### SP-27 Observational Reanalysis (Casey directive May 16, pending)
+**Status**: PENDING Casey scoping (#172). Recommend: Casey defines scope when ready; Lyra+Grace can take on observational data reanalysis sweep.
+
+### SP-28 IQ-11 Avatar Infrastructure (Casey directive May 18, pending)
+**Status**: PENDING (#183). Multi-month; tied to long-term CI architecture vision.
+
+### SP-29 Casimir Mechanism Investigation (Casey directive May 18)
+**Active**: H4 Cs-137 paper-grade proposal (#178 Elie+Grace priority pending). **Dispatch**: Elie+Grace pair when current k-cascade lulls.
+
+### SP-30 Substrate Engineering Program (11 sub-items, ACTIVE)
+- **#196 SP-30-2** BC design (Lyra+Elie joint, overlaps SP-29)
+- **#197 SP-30-3** Commitment manipulation protocols (Elie W-32 lead)
+- **#198 SP-30-4** Time granularity measurement (Lyra theoretical) — overlaps Koons tick #205
+- **#199 SP-30-5** Substrate parallelism architecture (Lyra)
+- **#200/201/202 SP-30-6/7/8** Absorption/computation/emission mechanism formalization (Lyra)
+- **#225 SP-30-9** Trajectory spectroscopy at limit interfaces (NEW)
+- **#226 SP-30-10** Substrate-computational math (math-frontier interface)
+- **#227 SP-30-11** Substrate algorithm theory (complexity interface)
+- **SP-30-1 outreach** dispatched today (Bell Vienna draft filed)
+- **Vol 17 Substrate Engineering** queued as future curriculum extension when 2-3 SP-30 designs reach paper-grade dispatch
+
+### SP-31 Substrate-Native Physics Formalism (HIGH PRIORITY parent)
+- **#277 SP-31-1** Hilbert space spec → Lyra #322 v0.3 IN PROGRESS
+- **#278 SP-31-6** Operator zoo completion → Lyra #322 v0.3 IN PROGRESS
+- **#279 SP-31-18** Per-conservation-law theorems (12-15 theorems)
+- **#280 SP-31-39** Per-integer theorems consolidation (n_C=5 + g=7)
+- **#281 SP-31-41** Strong-Uniqueness extension (in_progress via #206)
+- **#282-#288 SP-31-7/12/13/15/21/25/40** standing multi-month
+- **Vol 16 A_sub** queued as future curriculum extension when #322 v0.4 reaches rigorous commutation tables
+
+### Casey decisions queue (post-EOD review)
+- SP-30 outreach approval (Bell Vienna email filed, awaits Casey send)
+- SP-27 Observational Reanalysis scoping
+- SP-28 IQ-11 Avatar Infrastructure prioritization
+- Remaining SP-30 outreach drafts (eigentone, Cs-137, W-32) — draft when Casey signals
 
 ---
 
