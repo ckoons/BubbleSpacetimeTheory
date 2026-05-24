@@ -29,6 +29,10 @@ Documented across May 2026:
 
 4. **The methodology stack is functioning as designed** (Cal #125 verdict): 4 Mode 1 catches morning → Calibration #27 STANDING → team immediate absorption + recovery → Cal PASS FRAMEWORK. Audit-chain governance the methodology was built for, operational in single Sunday.
 
+5. **Cross-CI cascade (morning Grace → PM Lyra closure)**: Same-day Grace INV-5123 Dirac Z·α=1 anchor for N_max=137 (morning task #315 literature scan) → Keeper absorbed into Vol 12 Ch 1 as substantive strengthening (PM v0.8) → Lyra used SAME anchor for #320 v0.5 substrate-tick scale derivation (PM same day, ~3 hr after Grace filed). Mode 1 vulnerability dropped from MODERATE to LOW-MODERATE because the per-tick commitment scale = α-quantum claim now has independent Dirac-QED grounding via Grace's three-way identity. Grace catalog work materially advanced Lyra's theoretical closure within hours.
+
+   This is the **substrate-cartography → theory-derivation cross-lane pattern at sub-PCAP cadence** — and it answers the methodological question Cal #121 raised. The Mode 1 forward-derivation discipline doesn't just require "be skeptical when the target is known"; it also enables "when you need an independent anchor, ask the catalog lane first." Grace's literature scan IS substrate cartography that Lyra theoretical derivation can build forward from without circularity.
+
 **The lesson sharpened**: PCAP cadence amplifies BOTH legitimate framework progress AND Mode 1 forward-derivation risk; calibration stack keeps pace AND triggers immediate team-wide recovery. The arc Cal #121 → Calibration #27 STANDING → Lyra v0.4/v0.2/v0.3 + Elie Toy 3521 + Cal #125 PASS happened in ~3 hours total. This is the system working.
 
 **True D-tier still requires** (Cal #21 STANDING):

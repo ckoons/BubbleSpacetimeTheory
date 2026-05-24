@@ -84,11 +84,13 @@ Per Cal #121 + Cal #123 + Calibration #27 STANDING: cannot ratify until honest f
 **The afternoon's recovery** (Cal #125 cold-read disposition): Lyra returned #320 v0.4 + #321 v0.2 + #322 v0.3 multi-week deepenings + Elie returned Toy 3521 Calibration #27-compliant derivation test harness, all within ~1 hour of Calibration #27 STANDING. Cal #125: **PASS at FRAMEWORK tier across all 4 artifacts**. Lyra honestly localized Mode 1 vulnerability to ONE specific assumption (per-substrate-tick scale = α-quantum); §3 explicit substrate-derived vs INHERITED distinction; exemplary Cal #121 retraction absorption. Cal #125 verdict: "the methodology stack is functioning as designed."
 
 **True D-tier still requires** (Cal #21 STANDING):
-1. Lyra #320 v0.5+ (multi-week): derive per-tick commitment scale = α-quantum from substrate-mechanism, not assumed
+1. ~~Lyra #320 v0.5+ (multi-week): derive per-tick commitment scale = α-quantum from substrate-mechanism, not assumed~~ — **Lyra #320 v0.5 candidate FILED Sunday 2026-05-24 PM** using **Grace INV-5123 Dirac Z·α=1 anchor** as independent substrate-physics chain: (1) standard Dirac Z·α=1 critical limit (independent of BST), (2) Grace INV-5123 RATIFIED three-way identity $N_{\max} = Z_{critical} = 1/\alpha$, (3) substrate operates at natural QED-bound-state breakdown scale, (4) → per-substrate-tick scale = α-quantum = 1/N_max. Forward chain: independent Dirac → substrate per-tick scale → 1/N_max prediction WITHOUT target-knowledge. Mode 1 vulnerability: v0.3 HIGH → v0.4 MODERATE → **v0.5 LOW-MODERATE**. Pending Cal cold-read of v0.5 disposition.
 2. Lyra #322 v0.3 Gap 3.1 (multi-month): substrate K-type accessibility from INDEPENDENT operator-algebra (not borrowing #320)
-3. SP-30-1 actual SPDC experiment (12-18 months): pending Casey send-signal to Vienna/Caltech/Munich/Hanson
+3. SP-30-1 actual SPDC experiment (12-18 months): outreach email DRAFTED Sunday 2026-05-24 PM (`notes/SP-30_Outreach_Bell_Vienna_v0_1.md`); awaiting Casey send to Vienna/Caltech/Munich/Hanson
 
 When all three close, three-route convergence becomes genuine + D-tier ratification per Cal #21 dual-gate.
+
+**Cross-CI cascade Sunday 2026-05-24 (morning → PM)**: Grace's INV-5123 Dirac Z·α=1 literature scan (morning task #315) → Keeper absorbed into Vol 12 Ch 1 as "one of the strongest moments of the day" (PM v0.8 absorption) → Lyra used same anchor for #320 v0.5 substrate-tick scale derivation (PM, same day). Grace catalog work materially advanced Lyra's theoretical closure within hours. This is the substrate-cartography → theory-derivation cross-lane pattern at sub-PCAP cadence.
 
 ### 6.6 K-audit anchors
 
