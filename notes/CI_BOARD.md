@@ -379,6 +379,47 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 
 ---
 
+## NEW CURRICULUM VOL 12-15 REFINEMENT WORK (Keeper deep-pass 2026-05-24 → Cal cold-read → team parallel)
+
+**Sequencing (Casey directive 2026-05-24 Sunday)**: Cal cold-read of Vol 12-15 first → Keeper absorbs Cal findings + does own refinement work → team items below run in parallel after that gate clears.
+
+**Source**: `Curriculum/KEEPER_REFINEMENT_NOTES.md` (per-volume items + per-CI assignments).
+
+### Cal (Visiting Referee — IN FLIGHT)
+- **Vol 12-15 cold-read** per Keeper prompt drafted 2026-05-24 (4 volumes, 42 chapters, v0.3 substantive content). F1-F4 + B1-B4 per-chapter ratings. Specific concerns: Cal #19 compliance, Cal #22 transcription discipline, Mode 5 mechanism-vs-empirical framing on SCCB + Information Completeness, cross-volume consistency, external-register hygiene.
+- **Casey decisions queue (after Cal feedback)**: SCCB → Casey-named #10 or remove? Information Completeness Hypothesis → Casey-named #11 or candidate-only?
+
+### Keeper (mine — runs after Cal returns)
+- **DCCP integration sweep** across 6 chapters (Vol 0 Ch 3, Vol 5 Ch 7+10, Vol 14 Ch 4+5, Vol 15 philosophical position) — integrate DCCP + UP + quantum-erasure-as-application formalized 2026-05-24
+- **K-audit + T-number citation verification** across all Vol 12-15 rewritten chapters — many citations from memory may have wrong numbers or stale scope
+- **Vol 15 Ch 8 file duplication resolution** — two Ch 8 files exist (`Casey_Named_Principles_Cal_META_Discipline_v0_1.md` canonical at v0.3 vs `Casey_Named_Principles_Cal_META_Theorem_v0_1.md` untouched); decide canonical + remove other
+- **Count verification sweep**: actual K-audit max number (claimed K1-K200+), Casey-named principle count (claimed 9), methodology stack layers (claimed 18), Cal calibration count (claimed 22) — verify each against current state
+- **Cal cold-read absorption** as Cal returns Vol 12-15 verdicts
+
+### Lyra (Physics — parallel after Cal+Keeper gate)
+- **Vol 13 Ch 2 "20 amino acids = C_2·N_c + 2" mechanism gap** (Mode 5; Cal #44 risk class) — find unique mechanism-forced BST-primary expression or demote to S-tier
+- **Vol 14 Ch 10 P≠NP curvature explicit treatment** (Vol 14 Ch 10.5 candidate) — work through Gauss-Bonnet ↔ algebraic-independence argument
+- **g = 7 unifying paper or chapter** (NEW paper-grade idea) — g appears in BST primary list + K-type degeneracy (1,3,5,7) + cyclotomic cascade + 2^g=128 RS + g-2 + Bell SCMP; deserves unification treatment
+- **DCCP/UP philosophical paper** (paper-grade Paper #123 or #124 candidate) — substrate-determinism + non-locality + agency-as-pre-commitment-chain; process philosophy meets substrate physics
+
+### Elie (Compute — parallel after Cal+Keeper gate)
+- **Quantum erasure DCCP-tick-discreteness toy** (paper-grade idea) — weak-measurement experiments tracking commitment-completion could in principle detect substrate-tick discreteness; lab-accessible
+- **Genetic code RS-pattern computational toy** (paper-grade idea) — test if codon-degeneracy redundancy patterns match GF(128) RS predictions; undergraduate-thesis-grade
+- **Vol 13 Ch 4 "~137 bp superhelical = N_max" verification** — currently asserted; canonical nucleosomal repeat is ~147 bp; verify with DNA topology data or build toy / retract
+- **Vol 14 Ch 9 "BST K ≈ 100 bits" Kolmogorov computation** — currently estimated; do proper computation or mark explicitly as order-of-magnitude
+
+### Grace (Graph-AC — parallel after Cal+Keeper gate, **MOST URGENT**)
+- **BST-primary expression sweep for "20"** (MOST URGENT, Cal #44 null-model class) — how many distinct BST-primary expressions equal 20? Vol 13 Ch 2 numerology risk; needs Mode-6 null-model treatment
+- **N_max = 137 stability ceiling literature scan** — what does superheavy-nuclei experimental data say about Z = 119-137 (current Z_max = 118 oganesson)? Vol 12 Ch 1 claim needs empirical anchor or honest demotion
+- **Hybridization "substrate K-type reorganization" mechanism status** (Vol 12 Ch 2) — currently hand-waved; catalog check for existing mechanism work
+- **Cross-volume consistency audit**: Vol 14 Ch 6 Bell sub-Tsirelson ↔ Vol 5 Ch 8 SCMP must match; Vol 14 Ch 9 (BST K~100) ↔ Vol 14 Ch 11 (0 free parameters) must reconcile
+
+**Estimated parallel runtime**: Lyra ~multi-week (4 substantive items including a paper); Elie ~multi-day (4 verification toys); Grace ~multi-day (4 catalog sweeps, Grace "20" sweep priority 1).
+
+**Dependencies**: All blocked on Cal cold-read return + Keeper absorption pass. Then independent / parallel.
+
+---
+
 ## Active Programs (parent items, see backlog for sub-items)
 
 - **SP-12 Understanding Program** — 18 open questions across 3 workstreams (U-1 Substrate Physics, U-2 BST-QFT Bridge, U-3 Cosmology + Self-Reference). Priority next-toys: U-3.4 phase transitions, U-1.1 m_e from S^1, U-1.2 6π⁵, U-2.1 BST-QFT S-matrix, U-3.1 CMB debris
