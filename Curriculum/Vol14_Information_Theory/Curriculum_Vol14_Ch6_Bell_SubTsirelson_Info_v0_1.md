@@ -61,27 +61,25 @@ Experimental cost: $\sim$$300-500K (Bell experiment refresh; SP-30 outreach pend
 - DCCP signature step size $1/N_{\max} \approx 0.73\%$
 - Detection feasibility ~1.5σ at current 0.5% Bell precision
 
-**Three-route convergent evidence pattern (DCCP)** — Sunday 2026-05-24 progress (demoted per Cal #121 from "RIGOROUS" to "STRUCTURALLY VERIFIED CANDIDATE"):
+**Three-route convergent evidence pattern (DCCP)** — Sunday 2026-05-24 honest framing (per Cal #121 + Cal #123 + Cal #124 + Elie self-flag + Calibration #27 STANDING):
 
-| Route | $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ | $\theta_{boundary} = \pi/N_{\max} \approx 0.023$ rad |
+| Route | What it actually is | Status |
 |---|---|---|
-| Empirical (Toy 3516) | ✓ 6/6 PASS | ✓ 6/6 PASS |
-| Empirical (Toy 3520, Sunday PM) | ✓ confirms 0.7299% | ✓ confirms 0.02293 rad (1.31°) |
-| Theory v1 (Lyra #320 v0.3) | **STRUCTURALLY VERIFIED CANDIDATE** (DCCP-1.6) per Cal #121 | **STRUCTURALLY VERIFIED CANDIDATE** (DCCP-1.7) per Cal #121 |
-| Theory v2 ($\mathcal{A}_{sub}$, Lyra #322 v0.2) | FRAMEWORK (DCCP-A_sub-1) | FRAMEWORK (DCCP-A_sub-2) |
+| Theory v1 (Lyra #320 v0.4) | Forward derivation in progress; T2447+T2476 RATIFIED support at first 2 steps; Step 3 substrate-tick scale acknowledged as Mode 1 vulnerability | FRAMEWORK; v0.4 multi-week |
+| Theory v2 ($\mathcal{A}_{sub}$, Lyra #322 v0.3) | SP-31-1 Hilbert space mathematical foundation RATIFIED; 4 multi-month GAPS identified; §10 DCCP-A_sub re-proof inherits Lemma DCCP-1.5 from #320 → NOT independent | FRAMEWORK; v0.3+ multi-year for true independence |
+| "Empirical" (Toys 3516+3520) | Model self-consistency checks built to verify the prediction (Elie self-flag + Cal #123 confirms) — NOT empirical-leg verification | Demoted to model-self-consistency; true empirical = SP-30-1 SPDC 12-18 months |
+| Toy 3521 DERIVATION TEST HARNESS (Cal #27 compliant) | Framework accepts ANY $p$, tests scaling not target; 4 mechanisms side-by-side; awaits Lyra v0.4 `lyra_v04_interface_stub()` | 7/7 PASS; standing for Lyra v0.4 hand-off |
 
-**Cal #121 cold-read findings (Sunday afternoon)**: Lyra's "RIGOROUS" claim is overstated. Two HIGH-priority flags:
-- **Flag 1 (DCCP-1.5)**: "exactly $N_{\max} = 137$ K-type levels per tick" asserted, not derived. Wallach K-types are infinite countable; K59 gives 7-step on GF(128)=128; T2447 gives 137 as substrate CAP (not per-tick count). Leap unjustified.
-- **Flag 2 (DCCP-1.7)**: uniform phase distribution $e^{i 2\pi k/N_{\max}}$ for $k=0..N_{\max}-1$ asserted, not derived. K59 gives 7-step phase chain ($g=7$), not 137-step.
+**Honest assessment per Calibration #27 STANDING**: The morning's "three-route convergence" framing was structurally weaker than originally claimed. All three "routes" shared the same load-bearing assertion (Lemma DCCP-1.5: $N_{\max} = 137$ K-type levels per substrate-tick + uniform phase). Not independent epistemic confirmation.
 
-**Status (corrected)**: 2 of 3 substrate-tick predictions are STRUCTURALLY VERIFIED CANDIDATE on Theory v1 + FRAMEWORK on Theory v2 + 6/6 PASS empirical (Toy 3516) + Toy 3520 numerical confirmation. Empirical-gate PASS; mechanism-gate PARTIAL.
+**True independence requires**:
+1. **Lyra #320 v0.4** forward-derives cardinality from Wallach + K59 + Bergman normalization WITHOUT target-knowledge of 137 (multi-week)
+2. **Lyra #322 v0.3+** $\mathcal{A}_{sub}$ derives same from independent operator-algebra structure (NOT borrowing #320's lemma) — multi-year SP-31-6 closure
+3. **Actual SPDC experimental data** (12-18 month SP-30-1 program per Toy 3520's own experimental design); Casey send-signal pending
 
-Remaining for D-tier RATIFICATION:
-1. Lemma DCCP-1.4 macroscopic-limit matching to standard Joos-Zeh γ (v0.4 multi-week)
-2. DCCP-1.5/1.6/1.7 forward derivation closing Cal #121 Flags 1+2 (v0.4)
-3. Theory v2 FRAMEWORK → RIGOROUS elevation (multi-month)
+Per Cal #121 + Cal #123 + Calibration #27 STANDING: cannot ratify until honest forward derivations + independent algebra + real lab experiments close all three gates.
 
-Per Cal #21 STANDING RULE: cannot ratify until mechanism gate closes. Cal estimates ~50-60% probability of clean RIGOROUSLY CLOSED proof at v0.4 (vs Lyra's ~85% optimistic estimate).
+**The morning's lesson**: PCAP cadence amplifies BOTH legitimate framework progress AND Mode 1 forward-derivation risk. Calibration #27 STANDING was promoted Sunday afternoon precisely because of today's 4-instance trigger (Cal #108 + #119 + #121 + Elie Toy 3516 self-flag). The system caught itself.
 
 ### 6.6 K-audit anchors
 

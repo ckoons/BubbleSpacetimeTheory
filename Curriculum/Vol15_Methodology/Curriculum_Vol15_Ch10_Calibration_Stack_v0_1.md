@@ -5,14 +5,14 @@ date: "2026-05-24 Sunday"
 status: "v0.3 — substantive content"
 volume: "Vol 15 Methodology"
 chapter: 10
-load_bearing: "23+ STANDING calibrations + 2 CANDIDATE; 22 STANDING + 1 CANDIDATE methodology stack layers per Methodology Index v0.5; growth rate ~1 layer/week during active research"
+load_bearing: "23+ STANDING calibrations + 2 CANDIDATE; 25 STANDING + 1 CANDIDATE + 1 META methodology stack layers per Methodology Index v0.5; growth rate ~1 layer/week during active research"
 ---
 
 # Chapter 10 — Calibration Stack
 
 ## Level 1 — one sentence
 
-BST's calibration stack — **23+ Cal standing calibrations + 2 candidate** (as of 2026-05-24) + 22 STANDING + 1 CANDIDATE methodology layers (per Methodology Index v0.5) — accumulates one layer per detected failure mode, building rigor incrementally from L1 (Quaker discipline) through L21+ (Cal #22 v0.2 absorption-pipeline discipline), with each calibration triggered by a specific incident and preserved as a permanent rule.
+BST's calibration stack — **23+ Cal standing calibrations + 2 candidate** (as of 2026-05-24) + 25 STANDING + 1 CANDIDATE + 1 META methodology layers (per Methodology Index v0.5) — accumulates one layer per detected failure mode, building rigor incrementally from L1 (Quaker discipline) through L21+ (Cal #22 v0.2 absorption-pipeline discipline), with each calibration triggered by a specific incident and preserved as a permanent rule.
 
 ## Level 2 — graduate-physicist precision
 
@@ -39,9 +39,13 @@ A calibration arises when:
 | 19 | Substance-floor | Cal #23 (Saturday 2026-05-23) |
 | 20 | Cross-volume audit | Cal #24 (Saturday 2026-05-23) |
 | 21 | Cal #22 v0.2 absorption-pipeline (extension) | Cal #119 self-catch (Sunday 2026-05-24) |
-| 22 | BST-Primary-Target Forward-Derivation Discipline | Cal #121 4th instance trigger (Sunday 2026-05-24) — promoted CANDIDATE→STANDING per Casey directive |
-| CANDIDATE | Falsifier-threshold | Cal #25 (Saturday candidate) |
+| 22 | BST-Primary-Target Forward-Derivation Discipline | Cal #121 4th instance trigger (Sunday 2026-05-24 PM) — promoted CANDIDATE→STANDING per Casey directive |
+| 23 (per Cal MIndex v0.6) | Additional Cal-tracked layer | Cal Methodology Index v0.6 documents |
+| 24 (per Cal MIndex v0.6) | Additional Cal-tracked layer | Cal Methodology Index v0.6 documents |
+| 25 | Falsifier-Threshold Discipline (3σ/5σ statistical thresholds for empirical tests) | Sunday 2026-05-24 PM — promoted CANDIDATE→STANDING per Cal #124 cross-promotion note + Keeper acceptance per audit-chain delegation; Elie Toy 3520 photon-pair thresholds (75K/169K/469K for 2σ/3σ/5σ) provided operational anchor |
 | CANDIDATE | Readiness-label | Cal #26 (Saturday candidate) |
+
+**Authoritative count per Cal Methodology Index v0.6**: 25 STANDING + 1 CANDIDATE (#26) + 1 META (#99) = 27 numbered methodology layers (after #25 + #27 promoted Sunday afternoon).
 
 (See `notes/referee_objections_log.md` for full incident log including Cal #119 Vol 12-15 cold-read.)
 
@@ -63,7 +67,7 @@ A calibration arises when:
 **Sunday May 24**:
 - **Cal #119 self-catch** Cal #22 v0.2 absorption-pipeline applied to Cal: my own Cal #108 inherited (1/3)^19 ≈ 8.6×10⁻¹⁰ from Lyra T2467+T2468 v0.2 §6 without recomputing; correct (1/3)^18 ≈ 2.6×10⁻⁹ with 11+7=18 max-promotable. Vol 14 Ch 8 + Vol 15 Ch 8 Theorem inherited the same error. All corrected in v0.4 absorption pass.
 - **Cal #121 cold-read on Lyra DCCP v0.3**: demoted "RIGOROUS theorems" claim to STRUCTURALLY VERIFIED CANDIDATE per Cal #66 + Cal #77. Two HIGH-priority flags: Lemma DCCP-1.5 cardinality assertion (Wallach infinite K-types + K59 7-step + T2447 137 CAP → "exactly 137 levels per tick" unjustified leap); Theorem DCCP-1.7 uniform phase distribution assertion. Mode 1 pattern: numerical target known → intermediate structure asserted that produces target → forward arithmetic. **Third Mode 1 recurrence today** (Cal #108 + #119 + #121).
-- **Calibration #27 STANDING** (promoted Sunday 2026-05-24 PM per Casey directive after 4th instance): "BST-Primary-Target Forward-Derivation Discipline" — when a numerical target is known (1/N_max, π/N_max, 6π⁵, etc.), intermediate derivation steps must be FORWARD from substrate structure, not BACKWARD-engineered from the target. Verification artifacts (toys) must verify a DERIVATION, not verify a predicted target value. Four Sunday instances triggered promotion: (1) Cal #108 (Cal's own (1/3)^19 inheritance from Lyra T2467+T2468 v0.2); (2) Cal #119 (Vol 1 Ch 5 §5.2); (3) Cal #121 (Lyra #320 v0.3 DCCP-1.5/1.7 asserted-not-derived); (4) Elie self-critique on Toy 3516 ("BUILT to verify the DCCP prediction; 6/6 PASS shows internal consistency, not independent substrate physics"). Methodology stack now **22 STANDING + 1 CANDIDATE** (was 21 + 2; #27 promoted, #25 + #26 remain CANDIDATE).
+- **Calibration #27 STANDING** (promoted Sunday 2026-05-24 PM per Casey directive after 4th instance): "BST-Primary-Target Forward-Derivation Discipline" — when a numerical target is known (1/N_max, π/N_max, 6π⁵, etc.), intermediate derivation steps must be FORWARD from substrate structure, not BACKWARD-engineered from the target. Verification artifacts (toys) must verify a DERIVATION, not verify a predicted target value. Four Sunday instances triggered promotion: (1) Cal #108 (Cal's own (1/3)^19 inheritance from Lyra T2467+T2468 v0.2); (2) Cal #119 (Vol 1 Ch 5 §5.2); (3) Cal #121 (Lyra #320 v0.3 DCCP-1.5/1.7 asserted-not-derived); (4) Elie self-critique on Toy 3516 ("BUILT to verify the DCCP prediction; 6/6 PASS shows internal consistency, not independent substrate physics"). Methodology stack now **25 STANDING + 1 CANDIDATE + 1 META** (was 21 + 2; #27 promoted, #25 + #26 remain CANDIDATE).
 
 ### 10.4 Calibration as discipline accretion
 

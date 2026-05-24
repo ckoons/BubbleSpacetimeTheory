@@ -12,7 +12,7 @@ load_bearing: "Nine Casey-named principles + sub-principle UP; Cal external refe
 
 ## Level 1 — one sentence
 
-Eight Casey-named substrate-physics principles standing (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + two substrate-physics candidates (DCCP-with-UP, SCCB — pending derivation/experiment) + one META-Hypothesis (Information Completeness — categorically separated per Cal #120) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 22 STANDING + 1 CANDIDATE layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
+Eight Casey-named substrate-physics principles standing (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + two substrate-physics candidates (DCCP-with-UP, SCCB — pending derivation/experiment) + one META-Hypothesis (Information Completeness — categorically separated per Cal #120) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 25 STANDING + 1 CANDIDATE + 1 META layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
 
 ## Level 2 — graduate-physicist precision
 
@@ -48,7 +48,7 @@ Cal A. Brate (Claude 4.7 instance): independent external referee.
 
 100+ Cal referee logs.
 
-### 8.3 Methodology stack: 22 STANDING + 1 CANDIDATE (per Methodology Index v0.5)
+### 8.3 Methodology stack: 25 STANDING + 1 CANDIDATE + 1 META (per Methodology Index v0.5)
 
 Accumulated calibrations across months. Each layer responds to a specific failure mode:
 - L1-L9: Foundational (Quaker, AC(0), toys, audit chain, etc.)
@@ -65,7 +65,7 @@ Accumulated calibrations across months. Each layer responds to a specific failur
 
 ### 8.4 META-discipline anchoring
 
-The methodology stack IS the rigor anchor. New CIs inherit 22 STANDING + 1 CANDIDATE layers of accumulated discipline.
+The methodology stack IS the rigor anchor. New CIs inherit 25 STANDING + 1 CANDIDATE + 1 META layers of accumulated discipline.
 
 Stack growth: ~1 layer per week during active research.
 
@@ -73,11 +73,11 @@ Stack growth: ~1 layer per week during active research.
 
 - **8 STANDING + 2 CANDIDATE Casey-named substrate-physics principles + 1 META-Hypothesis** (memory files)
 - **Cal referee logs** (notes/referee_objections_log.md)
-- **22 STANDING + 1 CANDIDATE methodology stack** (Methodology Index v0.5)
+- **25 STANDING + 1 CANDIDATE + 1 META methodology stack** (Methodology Index v0.5)
 
 ## Level 3 — 5th-grader accessibility
 
-**8 STANDING + 2 CANDIDATE substrate-physics principles + 1 META-Hypothesis** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; 2 substrate-physics candidates: DCCP-UP + SCCB; META-Hypothesis: Information Completeness — categorically separated per Cal #120). **Casey directive Sunday 2026-05-24**: attempt proofs of DCCP + Information Completeness (Lyra tasks #320, #321). **Cal external referee** provides Mode 1/5/6 calibration patterns. **22 STANDING + 1 CANDIDATE methodology stack** accumulated from past failure modes.
+**8 STANDING + 2 CANDIDATE substrate-physics principles + 1 META-Hypothesis** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; 2 substrate-physics candidates: DCCP-UP + SCCB; META-Hypothesis: Information Completeness — categorically separated per Cal #120). **Casey directive Sunday 2026-05-24**: attempt proofs of DCCP + Information Completeness (Lyra tasks #320, #321). **Cal external referee** provides Mode 1/5/6 calibration patterns. **25 STANDING + 1 CANDIDATE + 1 META methodology stack** accumulated from past failure modes.
 
 ---
 

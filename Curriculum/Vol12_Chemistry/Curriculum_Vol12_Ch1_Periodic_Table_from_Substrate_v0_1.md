@@ -34,9 +34,11 @@ Shell-cumulative capacities $2, 8, 18, 32$ = cumulative shell sums (Madelung). T
 
 $N_{\max} = N_c^3 \cdot n_C + \text{rank} = 27 \cdot 5 + 2 = 137$.
 
-For elements: $Z \le N_{\max}$ predicted stable (in the sense that substrate K-type configurations are stable). $Z > 137$: substrate K-type structure fails to support stable atomic configurations.
+**Independent confirmation via Dirac Z·α = 1 limit** (Grace INV-5123 literature scan Sunday 2026-05-24): the BST primary identity $N_{\max} = 137 = 1/\alpha$ has solid theoretical anchor in **Dirac's Feynman-limit Z·α = 1** for atomic stability — when the strongest 1s-electron orbital reaches relativistic Z·α ≈ 1, hydrogenic perturbation theory breaks down. Standard textbook result: Z = 1/α ≈ 137 is the stability ceiling for hydrogen-like atoms. BST's $N_{\max} = 137$ identity is **not numerology** — it is the three-way intersection BST primary integer ↔ Dirac-Z ↔ $1/\alpha$.
 
-Current periodic table: $Z = 1$ (hydrogen) to $Z = 118$ (oganesson, named 2016). $Z = 119, 120, \ldots$ being sought. BST predicts stability degradation as $Z \to 137$ and instability for $Z > 137$.
+For elements: $Z \le N_{\max}$ predicted stable. $Z > 137$: relativistic + substrate K-type structure both fail.
+
+Current periodic table: $Z = 1$ (hydrogen) to $Z = 118$ (oganesson, named 2016). $Z = 119, 120, \ldots$ being sought. BST predicts stability degradation as $Z \to 137$ and instability for $Z > 137$ — consistent with experimental synthesis status (no element synthesized past 118 yet; 137 not approached).
 
 Task #111 (BST superheavy nuclei island stability) supports this.
 

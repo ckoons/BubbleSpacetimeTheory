@@ -42,15 +42,15 @@ Examples:
 - O=O: 1.21 Å, 498 kJ/mol
 - N≡N: 1.10 Å, 945 kJ/mol
 
-### 2.4 Hybridization
+### 2.4 Hybridization (S-tier per Grace INV-5124, 2026-05-24)
 
 Atomic orbitals mix into hybrid orbitals for bonding:
-- sp³: tetrahedral (CH₄, diamond)
-- sp²: trigonal planar (graphene, benzene)
-- sp: linear (acetylene)
+- sp³: tetrahedral (CH₄, diamond) — 4 hybrid orbitals
+- sp²: trigonal planar (graphene, benzene) — 3 hybrid orbitals
+- sp: linear (acetylene) — 2 hybrid orbitals
 - sp³d, sp³d²: 5- and 6-coordinate
 
-Substrate reading: hybridization is the substrate's K-type reorganization under bonding-boundary-conditions.
+**BST-primary pattern (partial, S-tier per Grace catalog)**: sp = 2 = **rank** ✓; sp² = 3 = **$N_c$** ✓; sp³ = 4 = **not a BST primary** ✗. The pattern breaks at sp³, so "substrate K-type reorganization" framing for hybridization is **ASSERTED, not derived** — demoted from I-tier to S-tier structural observation per Grace INV-5124 Sunday 2026-05-24. Promotion path: multi-week Lyra mechanism work (analogous to amino-acid #306) deriving substrate-natural hybridization from K-type representation theory, OR honest documentation that hybridization is a chemistry artifact without BST mechanism.
 
 ### 2.5 K-audit anchors
 
