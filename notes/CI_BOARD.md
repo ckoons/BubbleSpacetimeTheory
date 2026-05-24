@@ -420,6 +420,19 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 
 ---
 
+## Queued Volume Extensions (Casey directive Sunday 2026-05-24)
+
+The 16-volume curriculum (Vol 0-15) holds. Vol 16 + Vol 17 queued as **extensions** triggered by content maturity (no renumbering).
+
+| Vol | Title | Lane | Trigger | Estimate |
+|---|---|---|---|---|
+| **16** | Substrate Algebra (A_sub) | Lyra LEAD + full team-borrow auth | Lyra #322 v0.4 with rigorous commutation table + 5+ Casimir invariants | 2-4 weeks |
+| **17** | Substrate Engineering (SP-30) | Elie LEAD + Lyra theoretical + Grace catalog | 2-3 SP-30 experimental designs at paper-grade dispatch + first outreach happens | 1-2 months |
+
+Proposed 12-chapter outlines drafted in `Curriculum/KEEPER_REFINEMENT_NOTES.md`. Until triggers fire, content stays in current homes (A_sub in Vol 14 §1.5 + Lyra #322 paper; SP-30 in active program + scattered Vol 9 refs).
+
+---
+
 ## Active Programs (parent items, see backlog for sub-items)
 
 - **SP-12 Understanding Program** — 18 open questions across 3 workstreams (U-1 Substrate Physics, U-2 BST-QFT Bridge, U-3 Cosmology + Self-Reference). Priority next-toys: U-3.4 phase transitions, U-1.1 m_e from S^1, U-1.2 6π⁵, U-2.1 BST-QFT S-matrix, U-3.1 CMB debris

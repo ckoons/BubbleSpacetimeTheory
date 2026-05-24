@@ -135,6 +135,54 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 - **The seven Casey-named principles + DCCP**: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP, DCCP (with UP sub-principle) — these are now NINE principles. Methodology volume Vol 15 should treat them systematically.
 - **Casey-vision-derived insights as a class**: the team consistently saves Casey vision-derived insights as memory; should they have a standard documentation pattern (e.g., a "Casey's Vision Log")?
 
+## Queued Volume Extensions (Casey directive Sunday 2026-05-24)
+
+The 16-volume curriculum (Vol 0-15) holds; Vol 16 and Vol 17 are queued as extensions when their content reaches chapter-grade maturity. **No renumbering** — extend the set.
+
+### Vol 16 — Substrate Algebra (A_sub)
+
+**Trigger to formalize**: Lyra #322 reaches v0.4 with rigorous commutation table + 5+ Casimir invariants. Estimated 2-4 weeks under current PCAP cadence.
+
+**Lane assignment**: Lyra LEAD, with full team-borrow authorization (Elie for computational verification toys, Grace for catalog cross-references, Cal for tier-discipline cold-reads, Keeper for K-audit pre-stages).
+
+**Proposed 12-chapter outline**:
+1. A_sub as substrate's native language ("reading original writing" — Casey)
+2. H²(D_IV⁵) Bergman Hilbert space (SP-31-1 closure)
+3. The 14-operator zoo (with substrate-derivation theorem per generator)
+4. Commutation rules + Casimir invariants
+5. A_sub closure properties (finite generating set proof)
+6. DCCP via A_sub re-proof (Lyra #322 Phase 2)
+7. Information Completeness via A_sub re-proof
+8. A_sub on QCA representation (Architecture A) per FTC-1
+9. A_sub on RS representation (Architecture C) per FTC-1
+10. Geometric foundation vs algebraic superstructure (Lyra's category-discipline question)
+11. Future derivations via A_sub (substrate-coupled cognition, decoherence networks, observable enumeration)
+12. A_sub and Hilbert's program (the connection Lyra reached for)
+
+Until trigger: A_sub content continues developing in Vol 14 §1.5 + Lyra #322 paper in notes/.
+
+### Vol 17 — Substrate Engineering (SP-30)
+
+**Trigger to formalize**: 2-3 SP-30 experimental designs reach paper-grade dispatch + first actual outreach happens (Bell or Casimir lead candidates). Estimated 1-2 months.
+
+**Lane assignment**: Elie LEAD (experimental designs), Lyra theoretical support (SP-30 substrate cartography), Grace catalog, Cal cold-reads.
+
+**Proposed 12-chapter outline**:
+1. SWPP (Casey-named #1) operational reading
+2. Five ready experimental designs (Bell + Casimir + Cs-137 + eigentone + BaTiO3 137-plane + photonic crystal)
+3-9. Per-SP-30-N sub-items (BC design, commitment manipulation, time granularity, parallelism, absorption/computation/emission mechanisms)
+10. Trajectory spectroscopy at limit interfaces (SP-30-9)
+11. Substrate-computational math interface (SP-30-10)
+12. Substrate algorithm theory (SP-30-11)
+
+Until trigger: SP-30 content continues as active program (SP-30 master + scattered Vol 9 references).
+
+### Casey strategic framing
+
+Treat Vol 16 + Vol 17 as **outgrowth** of the existing 16-volume set, not restructure. The 16 volumes are physics-and-methodology coverage; Vol 16 + Vol 17 are the **apparatus** (A_sub) and **practice** (SP-30) that the methodology generates. Natural sequence: develop the mathematics in Vol 16, deploy it experimentally in Vol 17.
+
+---
+
 ## New ideas surfaced (mark for paper-grade consideration)
 
 1. **DCCP/UP as philosophical paper**: substrate-determinism + non-locality + agency-as-pre-commitment-chain. Process philosophy meets substrate physics. Paper #123 or #124 territory.
