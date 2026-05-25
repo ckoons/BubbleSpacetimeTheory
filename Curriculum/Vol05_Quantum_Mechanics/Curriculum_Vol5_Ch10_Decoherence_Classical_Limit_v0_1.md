@@ -66,6 +66,24 @@ The pointer basis is determined by the substrate-environment coupling: position-
 
 SP-31-13 (BST task #284) is the formal substrate-derivation of the decoherence mechanism; pending closure.
 
+### 10.4.5 DCCP — decoherence IS multi-tick Zone 3 commitment
+
+Sections 10.2-10.4 follow the standard decoherence-theory presentation: a system entangles with its environment, off-diagonal density-matrix coherence decays, and Zone 3 commitment then picks one outcome. That is two processes — decoherence + commitment — that combine to produce classicality.
+
+Casey's **Discrete Commitment Completion Principle (DCCP)**, named May 24, 2026, makes a sharper claim: these are not two processes but **one process at two scales**.
+
+DCCP claim: decoherence *is* Zone 3 commitment running over many Koons ticks. Each tick performs a single Bergman-kernel projection on a small subset of K-types coupled to the system; the macroscopic decoherence rate is the integrated rate over many ticks of the substrate working through environmental K-type after environmental K-type. The "off-diagonal density-matrix decay" of §10.2 *is* the substrate's commitment phase completing across the K-types that have not yet committed.
+
+The arithmetic comes from this chapter's own §10.3 timescales. A dust grain in air decoheres in $\tau_D \sim 10^{-31}$ s. At the Koons-tick rate $t_K \approx 10^{-120}$ s per tick, the dust grain takes about $10^{-31}/10^{-120} = 10^{89}$ substrate ticks to decohere. That is a $10^{89}$-tick Bergman-commitment cycle. The standard derivation in §10.4 (system-environment coupling, off-diagonal damping, pointer basis selection) is the macroscopic-average description of what the substrate is doing across those $10^{89}$ ticks; the per-tick microscopic description is Zone 3 commitment per K-type per tick.
+
+The reframe is conceptually clean: there is no "additional collapse process" added to decoherence. There is one substrate, one cycle, run many times. Decoherence is the macroscopic shadow.
+
+**Uncommitted Priors (UP)** — Casey's companion sub-principle, also May 24, 2026 — addresses the determinism question that this picture raises. Once a Zone 3 commitment completes at a given tick on a given K-type, the outcome on that tick is fixed. But during the $10^{89}$-tick multi-tick decoherence cycle, the K-types that have not yet committed remain *uncommitted priors*: substrate-modifiable, contingent, open. The chain of uncommitted priors leading up to each commitment is where freedom (or contingency, or modifiability — whichever language fits the system in question) lives. The macroscopic outcome is *not* fixed at the start of the $10^{89}$-tick cycle; it becomes fixed only as each prior commits.
+
+This is the BST-internal reading of the Laplacian determinism question that has hovered over physics since the early 19th century. Laplace's demon could compute the universe's future given complete present state. DCCP/UP says: there is no such *complete* present state, because the substrate's commitment cycles are mid-process. The state at any given external time is a mixture of committed outcomes (deterministic) and uncommitted priors (contingent). The demon would need to wait for the cycles to close — and by the time they did, the situation would have moved.
+
+Tier discipline: DCCP and UP are candidate principles, not ratified. Current tier is FRAMEWORK-PLUS (Cal A. Brate's #126 referee log disposition, May 24, 2026). They have framework support, a concrete substrate-tick step prediction $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ via the Dirac $Z\alpha = 1$ critical limit chain (Lyra Task #320 v0.6 + Grace INV-5123 Dirac anchor), and a concrete falsifier in the SP-30-1 Bell sub-Tsirelson experimental program (Vienna IQOQI outreach May 24, 2026). They have not closed at theorem-grade rigor. Volume 14 Chapters 5–6 give the current derivation and empirical status.
+
 ### 10.5 Classical limit at Scale 2
 
 Volume 0 Chapter 3 defines three substrate scales:
@@ -105,23 +123,28 @@ Substrate-mechanism reading: the cat's decoherence is the substrate's environmen
 
 ### 10.9 Implications for quantum interpretations
 
-Decoherence explains *the appearance of classicality* without resolving the measurement problem alone. The Born rule (Chapter 7) plus decoherence together give a coherent picture:
+Decoherence explains *the appearance of classicality* without resolving the measurement problem alone. The Born rule (Chapter 7) plus decoherence together give a coherent picture — though under DCCP (§10.4.5) the two are one process at two scales rather than two distinct processes:
 
-- Decoherence: branches separate; off-diagonal coherence dies
-- Born rule (Zone 3 commitment): substrate selects one branch per Koons tick
+- Decoherence: branches separate; off-diagonal coherence dies (multi-tick Zone 3 commitment across environmental K-types)
+- Born rule (Zone 3 commitment): substrate selects one branch per Koons tick per K-type
+- DCCP synthesis: same substrate cycle, viewed macroscopically (decoherence) vs microscopically (per-tick Born = Bergman projection)
 
 Together they answer:
-- Why do we see classical states? (Decoherence)
-- Why do we see one outcome? (Substrate Zone 3 commitment)
-- With what probabilities? (Born rule = Bergman projection)
+- Why do we see classical states? Decoherence-as-multi-tick-commitment averages over many K-types
+- Why do we see one outcome? Substrate Zone 3 commits each K-type per tick; the macroscopic outcome is what remains after the multi-tick cycle closes
+- With what probabilities? Born rule = Bergman projection (the per-tick projection magnitudes give the macroscopic frequencies)
+- What about determinism and agency? UP says: committed outcomes are fixed; uncommitted priors during the multi-tick cycle remain substrate-modifiable. The Laplacian demon needs the cycles to close before predicting; by then the situation has moved.
 
-The combination is the substrate framework's complete reading of the measurement process.
+The combination — Born rule + decoherence under the DCCP synthesis — is the substrate framework's complete reading of the measurement process and the quantum-to-classical transition.
 
 ### 10.10 K-audit anchors
 
 - **SP-31-13** (BST task #284): substrate decoherence mechanism
 - **K67 Born=Bergman** (Chapter 7): Zone 3 commitment + decoherence together give complete measurement picture
-- **Volume 0 Chapter 3**: substrate three-scale operation (decoherence operates between Scale 1 and Scale 2)
+- **DCCP + UP** (Casey-named candidate principles, May 24, 2026; FRAMEWORK-PLUS per Cal A. Brate's #126): decoherence-as-multi-tick-commitment + uncommitted-priors free-will reframe; §10.4.5 of this chapter
+- **Volume 0 Chapter 3 §3.4.5**: foundational DCCP framing in substrate operating-system description
+- **Volume 14 Chapter 5**: Born=Bergman information-theoretic + DCCP derivation chain
+- **Volume 14 Chapter 6**: SP-30-1 Bell sub-Tsirelson experimental program (Vienna IQOQI outreach May 24, 2026); three-route convergence status
 - **Volume 8 Classical Mechanics**: classical mechanics as substrate Scale 2 dynamics
 
 ## Level 3 — 5th-grader accessibility
