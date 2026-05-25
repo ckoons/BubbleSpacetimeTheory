@@ -166,7 +166,11 @@ This generalizes Casey's linearization standing order and Casey's "reading origi
 4. **Per-BST-claim ladder traversal**: take each ratified BST claim and show its derivation chain through the ladder
 5. **External-audience presentation**: fundamental objects (the bottom of the ladder) become the public-facing investigation points BST asks the broader community to scrutinize
 
-Lyra's #322 A_sub Deep Dive is Layer 2 work. Lyra's Items 1+3+6 directly address minimum-viable-set + axiomatic-core + dim so(5,2) = 14+g decomposition — all ladder-investigation work. Elie's Toys 3523-3530 are Phase 1 observation across the ladder. Grace's literature scans anchor each layer to standard mathematical references.
+Lyra's #322 A_sub Deep Dive is Layer 2 work. Lyra's Items 1+3+6 directly address minimum-viable-set + axiomatic-core + dim so(5,2) decomposition — all ladder-investigation work. Elie's Toys 3523-3530 are Phase 1 observation across the ladder. Grace's literature scans anchor each layer to standard mathematical references.
+
+**Memorial Day Monday 2026-05-25 correction** (Lyra honest correction per Calibration #27 STANDING applied at speculative-observation level): Sunday's "dim so(5,2) = 21 = 14 + 7 = observables + g gauge" framing was numerically wrong (miscounted discrete symmetries as Lie generators + double-counted angular momentum + included Casimir as independent). Correct Cartan decomposition: $21 = \dim \mathfrak{p} + \dim \mathfrak{k} = 10 + 11$ with $\dim \mathfrak{p} = 2 \cdot n_C = 10$ (tangent space / observable directions) + $\dim \mathfrak{k} = C_2 + n_C = 11$ (isotropy $K = SO(5) \times SO(2)$). Substrate-natural arithmetic identities preserved: $21 = N_c \cdot g$, $11 = C_2 + n_C$, $10 = 2 \cdot n_C$. The substantive remaining question: substrate isotropy K = 11 vs SM gauge dimension 12 → +1 excess needs substrate-mechanism explanation. Lyra filed 4 candidate mechanisms; cleanest is Candidate δ (SM gauge from K-type representations, not direct Lie subgroup embedding).
+
+**Methodological note**: Lyra's correction is itself the most important deliverable of Monday morning — Calibration #27 STANDING discipline now operates at speculative-observation level, upstream of any claim worth defending. The morning instinct that felt clean (g=7 as gauge dimension) was exactly the trigger for skepticism. The discipline has moved into the brainstorming layer, which is where it belongs.
 
 **Monday morning dispatch**: see `notes/CI_BOARD.md` MONDAY MORNING DISPATCH section.
 

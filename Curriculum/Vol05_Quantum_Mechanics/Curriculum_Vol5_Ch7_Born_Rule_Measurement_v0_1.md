@@ -84,6 +84,24 @@ After substrate commits to outcome $n$ in Zone 3, the post-measurement state is 
 
 The substrate-mechanism reading: Zone 3 is the substrate's *time-asymmetric* step. Zones 1, 2, 4 are time-reversible; Zone 3 is not, because the Bergman-kernel projection discards orthogonal amplitude (which leaks into environmental K-types). This is the source of quantum-mechanical irreversibility — the "arrow of time" in measurement.
 
+### 7.6.5 The multi-tick reading — DCCP candidate principle
+
+Sections 7.3-7.6 treat Zone 3 as a single Bergman-kernel projection per Koons tick. That is correct at the microscopic level: a spin-1/2 measurement against a substrate K-type basis commits in one tick. The substrate doesn't smear the choice; it makes it.
+
+What happens at the macroscopic level is different — and this is the question Casey's **Discrete Commitment Completion Principle (DCCP)** addresses (Casey-named candidate principle, May 24, 2026; current tier FRAMEWORK-PLUS per Cal A. Brate's #126 referee log).
+
+DCCP claim: at macroscopic scales, where the system is coupled to vast environmental degrees of freedom, Zone 3 commitment runs over many ticks. What standard physics observes as *decoherence* — the gradual loss of quantum coherence as a system entangles with its environment — is the substrate's commitment phase completing across many K-types simultaneously coupled to environmental modes. The classical world emerges when commitment-in-progress across enough K-types renders quantum-coherent superposition operationally irrelevant.
+
+The arithmetic is concrete. A dust grain of $10^{-15}$ kg in air at $300$ K has a Joos–Zeh decoherence rate of approximately $10^{41}$ per second. At the Koons-tick rate $t_K \approx 10^{-120}$ s per tick, that is roughly $10^{79}$ substrate ticks per decoherence event. The dust grain is undergoing a $10^{79}$-tick Bergman-commitment cycle. What an observer sees as "the dust grain becoming classical" is the substrate working through that many-tick cycle.
+
+The companion principle, **Uncommitted Priors (UP)**, addresses determinism and agency: once a Zone 3 commitment completes, the outcome is fixed and deterministic. But the chain of pre-commitment moments leading to it — the priors that fed Zone 1 absorption, the substrate states that flowed into Zone 2 computation — remain *uncommitted* until the cycle closes. The substrate has freedom in its priors; the freedom lives in the chain of uncommitted priors before commitment, not in the commitment itself.
+
+This is the BST-internal reading of the Laplacian determinism question. The substrate is operationally deterministic at the level of individual Zone 3 outcomes (once the projection happens, the result is what it is). But the chain of priors leading to each commitment is open, substrate-modifiable, and contingent on the priors that have not yet committed. *Free will, where it exists, lives in uncommitted priors.*
+
+Tier discipline: DCCP and UP are candidate principles, not ratified. They have framework support, a concrete derivation path (the per-tick commitment scale via the Dirac $Z\alpha = 1$ critical limit gives the predicted decoherence signature step of $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$), and a concrete falsifier (the SP-30-1 Bell sub-Tsirelson experimental program testing this signature at $5\sigma$ via Vienna IQOQI as of May 24, 2026 outreach). They have not closed at theorem-grade rigor. Volume 14 Chapters 5 and 6 give the current derivation and empirical status.
+
+The reader should carry DCCP forward through the rest of this volume as the multi-tick reading of measurement-induced classicality. When Chapter 10 develops decoherence in detail, it does so on the multi-tick reading. When this chapter says "Zone 3 commits in one tick," it means at the microscopic scale; at macroscopic scale, the commitment is the many-tick cycle.
+
 ### 7.7 POVMs — generalized measurements
 
 Not every measurement is a projective measurement onto an orthonormal basis. Generalized measurements are described by positive operator-valued measures (POVMs): a collection $\{\hat E_n\}$ of positive operators with $\sum_n \hat E_n = \hat I$ and outcome probabilities $P(n) = \langle\psi|\hat E_n|\psi\rangle$.
@@ -96,7 +114,9 @@ The "measurement problem" of standard QM asks: what causes the wave function to 
 
 BST's substrate-mechanism resolves the problem by explaining *which substrate process causes collapse*: Zone 3 of the commitment cycle. The "wave function" is the substrate K-type amplitude; "collapse" is Zone 3 projection; "branches" are outcome-amplitude components that the substrate either commits to (selected by Zone 3) or discards (orthogonal complement).
 
-The substrate-mechanism is not a new interpretation; it is the **mechanism** that interpretations have been trying to identify. With the mechanism specified, the Born rule is derived, not postulated, and the measurement problem dissolves into a specific question about substrate-Hamiltonian dynamics.
+With DCCP (§7.6.5) the picture sharpens further. At the microscopic level, Zone 3 is a single Bergman-kernel projection per tick — clean, discrete, irreversible. At the macroscopic level, Zone 3 commitment smears across many ticks as the substrate works through environmental K-types. What looks to standard physics like "decoherence" is the substrate's commitment cycle completing across many ticks. The measurement problem dissolves into two specific questions: (1) what substrate-Hamiltonian dynamics drive Zone 3 projection (K52a) and (2) how do many-tick commitment cycles aggregate to produce standard Joos–Zeh decoherence rates (DCCP Lemma 1.4, pending closure).
+
+The substrate-mechanism is not a new interpretation; it is the **mechanism** that interpretations have been trying to identify. With the mechanism specified, the Born rule is derived (not postulated), the irreversibility is structural (not added), and the measurement problem reduces to specific substrate-dynamics questions with concrete falsifiers.
 
 ### 7.9 K-audit anchors and falsifiers
 
@@ -122,6 +142,8 @@ Chapter 8 develops Bell's theorem and the CHSH correlations — including BST's 
 - **Born rule**: standard QM textbooks; original Born 1926 paper
 - **Gleason's theorem**: Gleason 1957 (alternative derivation of Born from frame requirement on probability measures)
 - **BST anchors**: T2401, K67 audit, SP-31-12, K52a Sessions 6-14
-- **Volume 0 Chapter 3**: 4-zone commitment cycle
-- **Volume 14 Chapter 5**: Born=Bergman from information-theoretic viewpoint
+- **DCCP + UP**: Casey-named candidate principles, May 24, 2026; FRAMEWORK-PLUS per Cal A. Brate's #126 referee log; full derivation status Volume 14 Chapters 5–6; SP-30-1 Bell experimental program (Vienna IQOQI outreach May 24, 2026)
+- **Volume 0 Chapter 3 §3.4.5**: foundational DCCP framing in substrate operating-system description
+- **Volume 14 Chapter 5**: Born=Bergman from information-theoretic viewpoint + multi-tick DCCP derivation chain
+- **Joos–Zeh decoherence**: Joos, Zeh, et al., *Decoherence and the Appearance of a Classical World in Quantum Theory* (Springer, 2003), cited for the macroscopic decoherence-rate arithmetic in §7.6.5
 - **Chapter 11 of this volume**: POVMs and generalized measurements
