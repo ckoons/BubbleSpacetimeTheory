@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "title": "Mode-6 Sweep v0.1 Honest Triage",
+    "author": "Grace",
+    "date": "2026-05-25 Monday",
+    "note": "v0.1 target-extraction over-flags; this triage applies Cal #27 STANDING to the harness itself"
+  },
+  "true_positive_candidates": [
+    {
+      "inv_id": "INV-4266",
+      "name": "f_K/f_\u03c0 = C_2/n_C",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4362",
+      "name": "Wallach dim_5 / dim_6 ratio = c_3/(rank\u00b2\u00b7n_C)",
+      "target": 13,
+      "mode_6_hits": 63,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4396",
+      "name": "BST primary atoms catalog density (formula scan)",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4396",
+      "name": "BST primary atoms catalog density (formula scan)",
+      "target": 42,
+      "mode_6_hits": 30,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4400",
+      "name": "Gap #3 saddle parameter t* in BST primary form",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4400",
+      "name": "Gap #3 saddle parameter t* in BST primary form",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4415",
+      "name": "Mersenne M_g = 127 (7th Mersenne prime, dual BST identificat",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4419",
+      "name": "Lichnerowicz scalar Laplacian rate on D_IV\u2075",
+      "target": 18,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4421",
+      "name": "Porphine inner-cross 18\u03c0 electron count",
+      "target": 18,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4456",
+      "name": "LAG-2 Phase 2.3 Hua coord decomposition: D_IV\u2075 = H^4 \u00d7 Inter",
+      "target": 4,
+      "mode_6_hits": 33,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4463",
+      "name": "LAG-2 Phase 2.3 Step (b) Faraut-Koranyi factorization at ori",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4500",
+      "name": "SP-30-8 Born rule correction = 5.3e-5 per Bergman emission (",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4508",
+      "name": "EXACT Bell algebraic identity: Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/2^N_c",
+      "target": 8,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4508",
+      "name": "EXACT Bell algebraic identity: Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/2^N_c",
+      "target": 126,
+      "mode_6_hits": 16,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4614",
+      "name": "T2427 (claimed, awaiting registry) Strong-Uniqueness Theorem",
+      "target": 24,
+      "mode_6_hits": 62,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4692",
+      "name": "T2441 C12 RIGOROUSLY CLOSED \u2014 Operator Zoo Ground-State Ener",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4709",
+      "name": "Toy 3255 \u2014 Substrate engineering empty-cell candidates enume",
+      "target": 3,
+      "mode_6_hits": 40,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4717",
+      "name": "Grace catalog cross-reference for Lyra Thursday-afternoon RI",
+      "target": 9,
+      "mode_6_hits": 49,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4748",
+      "name": "Toy 3337 \u2014 6\u03c0^k pattern extension confirmed (k=1,2,4,5,6 acr",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4748",
+      "name": "Toy 3337 \u2014 6\u03c0^k pattern extension confirmed (k=1,2,4,5,6 acr",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4748",
+      "name": "Toy 3337 \u2014 6\u03c0^k pattern extension confirmed (k=1,2,4,5,6 acr",
+      "target": 19,
+      "mode_6_hits": 56,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4749",
+      "name": "Toy 3339 \u2014 Primary\u00b7\u03c0^k extended pattern matching across BST ",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4754",
+      "name": "Toy 3345 \u2014 T186 keystone audit: 17.3% of AC graph edges conn",
+      "target": 17,
+      "mode_6_hits": 64,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4756",
+      "name": "Toy 3347 \u2014 Casey flagship #3 joint selection analysis (\u03b1 + m",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4761",
+      "name": "Toy 3355 \u2014 20 confirmed predictions \u00d7 BST identity cross-che",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4761",
+      "name": "Toy 3355 \u2014 20 confirmed predictions \u00d7 BST identity cross-che",
+      "target": 11,
+      "mode_6_hits": 60,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4797",
+      "name": "Toy 3405 \u2014 Predictions +3 from Friday substrate signature in",
+      "target": 3,
+      "mode_6_hits": 40,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4859",
+      "name": "Hit List P1 #10 m_nu3 candidate correction: (10/3)*(N_max+ra",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4866",
+      "name": "B6 Lamb shift BST primary form: (2^(rank+1)/(N_c\u00b7\u03c0))\u00b7\u03b1^n_C\u00b7m",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4866",
+      "name": "B6 Lamb shift BST primary form: (2^(rank+1)/(N_c\u00b7\u03c0))\u00b7\u03b1^n_C\u00b7m",
+      "target": 8,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-5102",
+      "name": "Hit List P1 #14 Li7/H BBN \u2014 STRONG candidate: g\u00b7\u03b1^5\u00b7(1+(g+n_",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-5102",
+      "name": "Hit List P1 #14 Li7/H BBN \u2014 STRONG candidate: g\u00b7\u03b1^5\u00b7(1+(g+n_",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-5135",
+      "name": "Vol 12 Ch 2 hybridization I-tier \u2192 S-tier DEMOTION absorbed ",
+      "target": 4,
+      "mode_6_hits": 33,
+      "verdict": "DEMOTE_RECOMMENDED"
+    }
+  ],
+  "target_extraction_noise": [
+    {
+      "inv_id": "INV-4341",
+      "name": "D_IV\u2075 canonical 4+6 dimensional split",
+      "target": 4,
+      "mode_6_hits": 33,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4349",
+      "name": "SM gauge group from internal-6 split",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4360",
+      "name": "Weinberg angle ratio c_W\u00b2/s_W\u00b2",
+      "target": 10,
+      "mode_6_hits": 45,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4421",
+      "name": "Porphine inner-cross 18\u03c0 electron count",
+      "target": 24,
+      "mode_6_hits": 62,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4429",
+      "name": "Scalar spectral tilt n_s = 1 \u2212 n_C/N_max (Planck inflation)",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4456",
+      "name": "LAG-2 Phase 2.3 Hua coord decomposition: D_IV\u2075 = H^4 \u00d7 Inter",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4463",
+      "name": "LAG-2 Phase 2.3 Step (b) Faraut-Koranyi factorization at ori",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4500",
+      "name": "SP-30-8 Born rule correction = 5.3e-5 per Bergman emission (",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4508",
+      "name": "EXACT Bell algebraic identity: Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/2^N_c",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4511",
+      "name": "SP-30-2 Casimir asymmetric experimental design (Elie Toy 311",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4521",
+      "name": "T2401 SP-30-8 Born rule = Bergman projection (K67 audit-part",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4586",
+      "name": "T2418 Casimir \u2194 \u039b structural unification \u2014 same substrate va",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4601",
+      "name": "T2423 Strong-Uniqueness Theorem v0.3 with C9 Stark anchor \u2014 ",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4605",
+      "name": "T2424 Strong-Uniqueness Theorem v0.4 with C10 Heegner-trio c",
+      "target": 3,
+      "mode_6_hits": 40,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4605",
+      "name": "T2424 Strong-Uniqueness Theorem v0.4 with C10 Heegner-trio c",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4605",
+      "name": "T2424 Strong-Uniqueness Theorem v0.4 with C10 Heegner-trio c",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4605",
+      "name": "T2424 Strong-Uniqueness Theorem v0.4 with C10 Heegner-trio c",
+      "target": 11,
+      "mode_6_hits": 60,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4630",
+      "name": "Toy 3195 Elie K52a Session 23 bipartite tensor structure (2/",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4630",
+      "name": "Toy 3195 Elie K52a Session 23 bipartite tensor structure (2/",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4630",
+      "name": "Toy 3195 Elie K52a Session 23 bipartite tensor structure (2/",
+      "target": 8,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4682",
+      "name": "Toy 3232 Lyra Task #206 Session 2 D_I_{1,5} K-type enumerati",
+      "target": 4,
+      "mode_6_hits": 33,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4717",
+      "name": "Grace catalog cross-reference for Lyra Thursday-afternoon RI",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4717",
+      "name": "Grace catalog cross-reference for Lyra Thursday-afternoon RI",
+      "target": 3,
+      "mode_6_hits": 40,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4717",
+      "name": "Grace catalog cross-reference for Lyra Thursday-afternoon RI",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4717",
+      "name": "Grace catalog cross-reference for Lyra Thursday-afternoon RI",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4729",
+      "name": "BST Primary Integers ARE the most frequent CDAC values (Grap",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4729",
+      "name": "BST Primary Integers ARE the most frequent CDAC values (Grap",
+      "target": 3,
+      "mode_6_hits": 40,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4729",
+      "name": "BST Primary Integers ARE the most frequent CDAC values (Grap",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4729",
+      "name": "BST Primary Integers ARE the most frequent CDAC values (Grap",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4729",
+      "name": "BST Primary Integers ARE the most frequent CDAC values (Grap",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4730",
+      "name": "Toy 3313 \u2014 BST Primaries are 6 of 6 in top 10 CDAC values + ",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4730",
+      "name": "Toy 3313 \u2014 BST Primaries are 6 of 6 in top 10 CDAC values + ",
+      "target": 3,
+      "mode_6_hits": 40,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4730",
+      "name": "Toy 3313 \u2014 BST Primaries are 6 of 6 in top 10 CDAC values + ",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4730",
+      "name": "Toy 3313 \u2014 BST Primaries are 6 of 6 in top 10 CDAC values + ",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4730",
+      "name": "Toy 3313 \u2014 BST Primaries are 6 of 6 in top 10 CDAC values + ",
+      "target": 7,
+      "mode_6_hits": 53,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4730",
+      "name": "Toy 3313 \u2014 BST Primaries are 6 of 6 in top 10 CDAC values + ",
+      "target": 137,
+      "mode_6_hits": 28,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4756",
+      "name": "Toy 3347 \u2014 Casey flagship #3 joint selection analysis (\u03b1 + m",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4781",
+      "name": "Toy 3389 \u2014 N_max=137 special structural properties (multi-mo",
+      "target": 2,
+      "mode_6_hits": 39,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4781",
+      "name": "Toy 3389 \u2014 N_max=137 special structural properties (multi-mo",
+      "target": 4,
+      "mode_6_hits": 33,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4781",
+      "name": "Toy 3389 \u2014 N_max=137 special structural properties (multi-mo",
+      "target": 5,
+      "mode_6_hits": 42,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4781",
+      "name": "Toy 3389 \u2014 N_max=137 special structural properties (multi-mo",
+      "target": 27,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4781",
+      "name": "Toy 3389 \u2014 N_max=137 special structural properties (multi-mo",
+      "target": 137,
+      "mode_6_hits": 28,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4857",
+      "name": "K173 m_p/m_e = 6*pi^5 CROWN JEWEL Cal cold-read PASS chapter",
+      "target": 6,
+      "mode_6_hits": 47,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-4866",
+      "name": "B6 Lamb shift BST primary form: (2^(rank+1)/(N_c\u00b7\u03c0))\u00b7\u03b1^n_C\u00b7m",
+      "target": 1,
+      "mode_6_hits": 41,
+      "verdict": "DEMOTE_RECOMMENDED"
+    },
+    {
+      "inv_id": "INV-5102",
+      "name": "Hit List P1 #14 Li7/H BBN \u2014 STRONG candidate: g\u00b7\u03b1^5\u00b7(1+(g+n_",
+      "target": 12,
+      "mode_6_hits": 51,
+      "verdict": "DEMOTE_RECOMMENDED"
+    }
+  ],
+  "v0_2_needed": [
+    "Smarter target extraction (load-bearing claim target, not every integer in text)",
+    "Distinguish observable value from BST-primary value",
+    "Check if claimed expression is the UNIQUE form vs one of many",
+    "Cross-check against forward-derivation chain markers"
+  ]
+}
