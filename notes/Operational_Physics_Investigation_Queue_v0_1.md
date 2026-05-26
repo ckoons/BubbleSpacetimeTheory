@@ -112,6 +112,25 @@ These three operational physics tracks begin AFTER (or as bandwidth allows durin
 
 Operational physics tracks (P + BC + DC) can begin in parallel with current tracks as bandwidth allows, but full focus shifts after Cal Thread 4 + Cal #28 cold-reads return.
 
+## Per Casey clarification 2026-05-25 EOD: parallel-track discipline
+
+Casey directive: "shouldn't we close known gaps in parallel?" — yes. Sequential framing in v0.1 was wrong. Corrected disposition:
+
+**Six parallel-ready tracks** (one sequentially-dependent):
+
+| Track | Lane | Dependency |
+|---|---|---|
+| Track A_sub — A_sub commutator closure + Lie superalgebra | Lyra theoretical (Task #346) | Independent |
+| K-type rep theory on A_sub | Elie K52a Sessions 7/15+/32+ | Already in flight (multi-year) |
+| Track P — K-type population principle | Lyra + Elie (Task #343) | Independent |
+| Track BC — hydrogen 1s Shilov BC | Lyra + Grace + Elie (Task #344) | Independent |
+| Track DC — DCCP composition + Bell 1/8 mechanism | Lyra + Elie + Grace (Task #345) | Light coupling to K52a Bell rail |
+| **(deferred sequential)** Universal enveloping U(A_sub) | Lyra theoretical | Hard dependency on Track A_sub completion |
+
+All six parallel tracks coordinate via cross-CI cascade with Lyra theoretical lead, Elie compute-side toy verification, Grace catalog support. Bandwidth is the constraint — six parallel tracks is heavy load for Lyra; pacing per Lyra capacity acknowledged. No artificial sequencing imposed beyond hard mathematical dependencies (U(A_sub) → after A_sub closure).
+
+Begin all parallel-ready tracks as current Memorial Day investigations land. No track gates another except where mathematical structure forces sequence.
+
 ## Discipline applied
 
 Each operational physics track honors:
