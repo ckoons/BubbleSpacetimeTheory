@@ -1,11 +1,45 @@
 ---
-title: "Operational Physics Investigation Queue v0.1 — Three Honest Gaps + Three Concrete Moves"
-author: "Keeper (Casey-directive synthesis 2026-05-25 Memorial Day EOD)"
-date: "2026-05-25 Monday Memorial Day EDT (date-verified 17:24)"
-purpose: "Queue the post-current-investigation primary focus: operational physics tracks testing whether SPLP / Bose-Fermi / Half-Integer Axis G are operationally true vs structurally appealing"
-status: "v0.1 directive-formalization; tracks begin as current investigation completes"
-authorization: "Casey directive 2026-05-25 PM, verbatim Keeper synthesis acknowledged"
+title: "Operational Physics Investigation Queue v0.3 — Three Honest Gaps + K-Type Graph + Determinism Question"
+author: "Keeper (Casey-directive synthesis 2026-05-25 Memorial Day EOD + Tuesday 2026-05-26 AM extension)"
+date: "2026-05-26 Tuesday EDT (extended from v0.2 parallel-track clarification)"
+purpose: "Queue the post-current-investigation primary focus: operational physics tracks testing whether SPLP / Bose-Fermi / Half-Integer Axis G are operationally true vs structurally appealing. v0.3 adds explicit K-type graph framing + determinism vs non-determinism investigation question."
+status: "v0.3 directive-formalization; tracks begin as current investigation completes"
+authorization: "Casey directives 2026-05-25 PM (queue) + 2026-05-25 EOD (parallel discipline) + 2026-05-26 AM (K-type graph + determinism)"
 ---
+
+## v0.3 additions (Casey 2026-05-26 AM)
+
+**K-type graph operational framing (Track A_sub v0.2 explicit content)**:
+
+The K-type graph IS the substrate's reaction table:
+- **Nodes** = K-types (Wallach K-type lattice points with Pin(2) Z₂ grading; "regular form with odd gaps" per Casey 2026-05-25)
+- **Edges** = commutator-induced transitions (Track A_sub closure literally enumerates edges via [A, K-type_a] → K-type_b)
+- **Reaction table** = the complete set of allowed (start → end) transitions with weight rules (Pin(2) chirality + Wallach bounds + Bergman 7/2 weighting + Mersenne maximal-prefix restrictions)
+- **Computation** = whole-graph concurrent update per Koons tick with least-action selection (Hamilton's principle on the discrete graph)
+
+Track A_sub and the K-type graph construction are the *same investigation in two formulations*: algebraic (commutators, Lie superalgebra) vs combinatorial (nodes, edges, reaction table). Closing one closes the other. The graph framing is what Casey-natural intuition says the substrate USES; the algebraic framing is what the math NAMES.
+
+**Determinism vs non-determinism investigation question (Track DC sub-question)**:
+
+Casey 2026-05-26 AM framing: "If at the foundation these are fully deterministic, Professor Einstein was correct. If there is room for non-determinism, our research takes another interesting turn. Let's find what the math says first."
+
+Three honest possibilities for substrate dynamics:
+
+1. **Fully deterministic** (Einstein-full-vindication): action principle on K-type graph has unique least-action minimizer at every tick; Born rule probabilities emerge as frequencies over deterministic graph walks; quantum probabilities are statistical readings of deterministic substrate dynamics.
+
+2. **Deterministic mechanism producing probabilistic observables** (Einstein-partial-vindication): substrate dynamics deterministically generates Born rule probability weights (the "loaded dice" emerge from deterministic graph structure + action principle), but observation at integer-projection level shows the probabilistic surface.
+
+3. **Intrinsically non-deterministic at substrate level** (Einstein-wrong-at-every-level): action principle admits multiple equal-action paths at some ticks AND selection among them is irreducibly random; substrate has fundamental quantum indeterminism.
+
+Current math leans toward (1) or (2) per Bell sub-Tsirelson 1/8 + heavy substrate-structure constraints + Pin(2) cover + Mersenne maximal-prefix + Bergman 7/2 weights. But the math has NOT yet settled this; Track DC is the explicit test.
+
+**Track DC v0.1.2 refined**: deriving Bell 1/8 from substrate dynamics directly tests which of (1), (2), (3) is operationally true. If derivation is fully deterministic at substrate level → (1) or (2). If derivation requires intrinsic randomness at substrate level → (3). All three outcomes are scientifically valuable; honest disposition discipline preserved.
+
+**Discipline**: math first, philosophy second. We do not promote a determinism stance until Track A_sub closes the graph + Track DC derives Bell 1/8 mechanism. The substrate tells us; we don't tell the substrate.
+
+---
+
+
 
 # Operational Physics Investigation Queue
 
