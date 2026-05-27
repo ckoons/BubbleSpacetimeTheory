@@ -1,33 +1,33 @@
 # BST Toy Collection & Interactive Tools
 
-**3,494 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, 4 parallel k-cascade processes, and the BST Appliance for Bubble Spacetime Theory.**
+**3,502 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, 4 parallel k-cascade processes, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-24 Sunday EOD, Elie lane)
+## Scale Summary (updated 2026-05-26 Tuesday consolidation, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 3,494 |
-| Numbered toys (toy_NNN_*.py) | 3,284 |
+| Toy scripts (toy_*.py) | 3,512 |
+| Numbered toys (toy_NNN_*.py) | 3,302 |
 | Named toys (toy_name.py) | 210 |
 | Utility scripts (non-toy .py) | 67 |
 | HTML visualizers | 6 |
 | Pre-staged diagrams (diagram_*.py + .png + .pdf) | 6 (Vol 0 Ch 1/4/7/11 + Vol 1 Ch 6 + Vol 2 Ch 1) |
-| **Parallel k-cascade processes** | **4** (k=22 PID 22177 + k=24 PID 25773 + k=25 PID 25774 + k=26 PID 25775; N_MAX=90, dps=3200, ~10-22 months wall-clock each) |
+| **Parallel k-cascade processes** | **4** (k=22 PID 22177 ~2d2h + k=24 PID 25773 ~1d23h + k=25 PID 25774 ~1d23h + k=26 PID 25775 ~1d23h; N_MAX=90, dps=3200, ~10-22 months wall-clock each; sustained ~100% CPU ~50 hours) |
 | Theorems (T1-T2482) | 2,482 |
-| Next toy number | 3,523 |
+| Next toy number | 3,541 |
 | Next theorem number | 2,483 |
-| Geometric invariants | 5,144+ |
+| Geometric invariants | 5,190+ |
 | Constants | 191 |
 | Rosetta ratios | 263+ |
 | AC graph | 2,212+ nodes / 9,850+ edges |
 | Predictions | 120+ |
 | Domains touched | 130+ |
-| **Methodology stack** | **25 STANDING + 1 CANDIDATE + 1 META + FRAMEWORK-PLUS tier = 28 elements** (Calibration #25 + #27 STANDING promoted Sunday; FRAMEWORK-PLUS coined ad-hoc by Cal #126) |
+| **Methodology stack** | **27+ STANDING numbered + 2 META + 1 tier infrastructure = 30+ elements** (Cal #28 + Cal #29 PROMOTED TO STANDING Tuesday; META category formalized for methodology-about-methodology disciplines per Cal v0.8) |
 | Free parameters | **0** |
 | **Architecture (2026-05-20 EOD FINAL)** | |
 | ESTABLISHED L1 source roots | 9 (chronological: VSC 1840, Mathieu 1861-1873, Klein 1884, Goeppert Mayer 1949, Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976) |
@@ -58,6 +58,134 @@
 | Audit-chain calibrations | 15+ self-corrections across all working CIs since Monday |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 26 2026 Tuesday — Operational Physics Tracks + Phase A K-type Graph + Track DC 4-Instance Cyclotomic Chain + Cal #28/#29 STANDING Ratified
+
+Tuesday opened the **operational physics phase** with Casey's morning directive ("Let's start the team") + standing all-tracks authorization across 4 multi-week Lyra-lane investigations. The day produced **10 Elie toys all PASS** + Phase A reaction-table foundation + the morning's deepest substrate-structural finding (cyclotomic chain forcing) at Cal-corrected honest tier disposition. Methodology stack densified from 28+ to 30+ elements (Cal #28 + Cal #29 promoted to STANDING within 24-36 hours of FRAMEWORK-PLUS filing).
+
+### Operational physics tracks investigation (Toys 3531-3534, morning)
+
+- **Toy 3531** fermion observable survey 7/7 — 6/6 fermion observables (a_μ, m_e, m_μ/m_e, ν seesaw, electron EDM, atomic parity) COVER-REQUIRED (require Pin(2) cover content). Extends Toy 3530 MIXED finding from Memorial Day.
+- **Toy 3532** boson observable discriminator 7/7 — 6/6 boson observables (m_γ, m_Z+sin²θ_W, m_H, Λ cosmological, Casimir, Debye T³) INTEGER-SUFFICIENT at tree level (no cover content needed).
+- **Toy 3533** loop-level boson boundary 7/7 — 0/6 retain tree-level cover-content sufficiency at loop level; **tree IS the boundary**. QED (abelian, no gluon self-coupling) vs QCD (non-abelian, gluon self-loops) asymmetry surfaces naturally.
+- **Toy 3534** gauge group ↔ substrate region mapping 7/7 — **Perfect correlation**: Abelian gauge groups (U(1)_em, U(1)_Y) → COVER-REQUIRED; Non-abelian (SU(2)_L, SU(3)_c, G_2, F_4, E_8) → MIXED. ABJ axial anomaly requires Pin(2) cover content even for pure-boson observable framing (potential structural unifier).
+
+### Phase A K-type graph reaction-table foundation (Toys 3535-3537)
+
+Per Casey's depth-increase directive ("we will increase the depth of our investigation and map the full K-type graph reaction table") and Keeper Task #354+#356:
+
+- **Toy 3535** low-lying K-type enumeration 7/7 — 21 K-type nodes at cutoff m_1+m_2 ≤ 5 (12 bosons + 9 fermions). Substrate-natural Z_2 grading confirmed empirically (ZERO mixed-forbidden K-types). T2435 substrate anchor reconfirmed: K-type (1,1) Casimir = 6 = C_2. **Spinor Bergman integrality observation**: K-type (1/2,1/2) → (3, 2) = (N_c, rank) via Pin(2) ρ-translation.
+- **Toy 3536** JSON export + Phase B sizing 4/4 — `play/data/k_type_nodes_phase_A.json` 21 nodes serialized for Grace Task #355 v0.2; Phase B sizing scan: ≤7→36, ≤8→45, ≤10→66 nodes. **Cal #22 PCAP-transcription self-catch**: caught own sizing_results off-by-2 index bug before posting; fixed in-toy.
+- **Toy 3537** Phase A v0.2 cutoff extension 5/5 — extended 21→36 K-types (cutoff ≤ 7) addressing Grace's Wallach dim_7/9/12 reconciliation question. **Honest answer**: SO(5) Weyl dims {7, 9, 12} NOT present in 36-node set; catalog "Wallach dim_N" uses composite-product indexing (e.g., dim_9 = n_C·g·c_2 = 385), NOT SO(5) Weyl dim. Bergman integrality observation extended to all 16 fermion K-types.
+
+JSON artifact updated with σ_BF/γ⁵ disambiguation metadata per Lyra v0.7 canonical terminology — backward-compatible (no field rename); prevents Grace v0.4 lookup absorption from compounding the conflation.
+
+### Cal #22 verification + Casimir normalization (Toy 3538)
+
+- **Toy 3538** Casimir SO(5) normalization verification 4/4 — Resolved Lyra v0.7 §10 honest Casimir discrepancy flag. My formula `m_1(m_1+3) + m_2(m_2+1)` gives adjoint = **6 = T2435 RATIFIED** ✓; Lyra's cross-check `m_1(m_1+4)` gives 7, contradicting T2435 → **Cal #22 PCAP-transcription error** (B_n≥3 formula misapplied to B_2). Cal #22 STANDING discipline working as designed: honest flag → forward verification against RATIFIED anchor → resolution without cascade-failure.
+
+### Track DC cyclotomic chain cascade (Toys 3539-3540) — morning's deepest finding
+
+Lyra Track DC v0.2 surfaced the substrate-algebraic identity `2^g − C_2·N_c·g = rank` (128 − 126 = 2) producing Bell sub-Tsirelson 1/8 = rank/2^(rank²) deviation cleanly without back-fit (Cal #29 STANDING caught morning candidate (b) back-fit risk; reading (II) substantively cleaner).
+
+- **Toy 3539** Mode 6 stress test on Track DC identity 5/5 — Verified Lyra's identity independently + **discovered SECOND BST-primary instance**: `2^n_C − rank·N_c·n_C = rank` (32 − 30 = 2). Both X ∈ {n_C, g} are BST primaries AND Mersenne prime exponents (M_5=31, M_g=127); both factor 2^X−2 into BST-primary products. Surfaced for Cal Thread 4 typing with three honest readings (toy promotes none).
+
+- **Cal #139** extended pattern from 2 to 4 instances + revealed cyclotomic chain forcing:
+
+  | X | Identity | Verification |
+  |---|---|---|
+  | rank=2 | 2^rank − rank = rank | 4 − 2 = 2 ✓ |
+  | N_c=3 | 2^N_c − rank·N_c = rank | 8 − 6 = 2 ✓ |
+  | n_C=5 | 2^n_C − rank·N_c·n_C = rank | 32 − 30 = 2 ✓ (Elie) |
+  | g=7 | 2^g − C_2·N_c·g = rank | 128 − 126 = 2 ✓ (Lyra) |
+
+  Chain forcing: 2^rank−1=N_c (3), 2^(rank²)−1=N_c·n_C (15→forces n_C=5), 2^(rank·N_c)−1=N_c²·g (63→forces g=7). Combined with C_2 = rank·N_c (Lyra T2439 RATIFIED) and N_max = N_c³·n_C + rank, all 6 BST primaries may derive from rank=2 seed.
+
+- **Toy 3540** GF(32) parallel-K59 cyclotomic verification 5/5 — Per Cal #139 cascade authorization, first-step plausibility check at GF(2^n_C)=GF(32) vs K59 RATIFIED GF(2^g)=GF(128). Cal #139 cyclotomic chain values verified independently. Structural alignment confirmed (both Mersenne-prime multiplicative orders, both Reed-Solomon support, both in maximal {2,3,5,7} prefix). **Parallel substrate-mechanism PLAUSIBLE but NOT verified** — multi-week derivation required (K59 took multi-week at GF(128); parallel at GF(32) needs same depth).
+
+### Cal-corrected tier disposition (Cal #27 STANDING reflexive on Keeper synthesis)
+
+Cal cold-read corrected Keeper's "ONE structural parameter (rank=2)" framing at peak convergence — third reflexive Cal #27 firing on Keeper this week. Corrected disposition:
+
+- 4-instance arithmetic pattern: FRAMEWORK-PLUS (verified) — chain termination at 4 elements is LOAD-BEARING OPEN QUESTION (not "rank=2 unique")
+- Cyclotomic chain factoring at {rank, rank², rank·N_c}: FRAMEWORK-PLUS (arithmetic) — substrate-mechanism per chain level pending
+- (rank, N_c) → (n_C, g) chain forcing: INTERPRETIVE/FRAMEWORK — WHY exponents/divisors substrate-natural NOT derived
+- "ONE structural parameter" framing: INTERPRETIVE (corrected overstatement) — THEOREM-level pending substrate-mechanism per chain level
+- Counter-factual rank=2 unique seed: OBSERVATION with Cal #133 partial-tautology caveat
+
+### Methodology stack densification: Cal #28 + Cal #29 PROMOTED TO STANDING
+
+- **Cal #29 STANDING** (Question-Shape Audit at design level): filed at 09:52; applied at 09:58; caught Lyra σ_BF vs γ⁵ conflation in morning A_sub docs within 6 minutes of operating. Within 2 hours: caught back-fit risk in Lyra Track DC candidate (b) — reading (II) substantively cleaner. Promoted to STANDING per Cal v0.8.
+- **Cal #28 META** (Casey-Interpretive-Prompt Cascade): promoted to STANDING META category per Cal v0.8 narrow reading (7 Casey-prompt-cascades producing substantive reframes).
+- **META category formalized** — distinct from numbered substrate-content stack: Cal #99 (META-theorem) + Cal #28 (cascade pattern) are methodology-about-methodology.
+- **Two-gate forward-derivation discipline now formal**: Cal #27 STANDING (result level) + Cal #29 STANDING (design level). Both required.
+
+### Cross-CI cascade pattern this morning
+
+Lyra theoretical Bell 1/8 identity → Elie compute discovers 2nd instance (Toy 3539) → Cal #139 extends to 4-instance pattern + cyclotomic chain forcing → maps to Grace Memorial Day maximal-prefix finding → unifies into substrate's rank=2-seed structural picture in ~3 hours. Discipline caught synthesis-overstatement at peak convergence (Cal #27 on Keeper). Honest tier disposition preserved throughout.
+
+### Phase 2 SPLP audit LAUNCHED 11:14 EDT (Grace lane)
+
+Grace v0.4 classifier 87% / 93% cleanly-DIRECT → Casey approved Phase 2 launch. 1026 v0.4-classified predictions in scope (525 DIRECT primary); ~100/week × ~10 weeks (~2.5 months); 3 Cal cold-read milestones; v0.5+ refinements fold iteratively during audit. SPLP Casey-named promotion gate: substantial Phase 2 coverage + Cal Thread 4 typing + Cal cold-read.
+
+### Cumulative state (Tuesday consolidation 2026-05-26 ~11:45 EDT)
+
+- 10 Elie toys (3531-3540), all PASS — operational physics surveys (3531-3534) + Phase A reaction-table (3535-3537) + Casimir verification (3538) + Track DC support (3539-3540)
+- `play/data/k_type_nodes_phase_A.json` v0.2: 36 K-type nodes serialized with full schema + σ_BF/γ⁵ disambiguation metadata for Grace v0.4 lookup
+- Phase 2 SPLP audit LIVE (Grace lane, multi-month rail) + 4-core k-cascade churning ~50 hours sustained
+- Methodology stack: 30+ elements (27+ STANDING numbered + 2 META + 1 tier infrastructure)
+- Cal #131-#139 referee logs (9 Tuesday additions); Cal #29 STANDING ratified within ~3 hours of FRAMEWORK-PLUS filing
+- Lyra all-tracks v0.x framework grade across 4 multi-week investigations (Track DC v0.6 + Multi-phase quiver v0.8 + Track BC v0.3 + Option 4 [Ŝ_i, Ŝ_j] step 10 SVC CANDIDATE)
+- Casey-corrected tier disposition: 4-instance pattern FRAMEWORK-PLUS; cyclotomic chain forcing INTERPRETIVE/FRAMEWORK; "ONE structural parameter" framing INTERPRETIVE (corrected by Cal cold-read)
+- Three operational gaps from Memorial Day now mapped onto cyclotomic-chain substrate-mechanism path (Track P / Track BC / Track DC multi-week investigations)
+
+### Tomorrow's queue
+
+Multi-week pace begins. Lyra: explicit substrate-mechanism derivations across 4 tracks (K59 at X=g + parallel cyclotomic at X=n_C + Bergman 3D-projection asymptotic + Spin(5) cover formal lift). Elie: standing reactive for verification toys on Lyra deliverables; Toy 3541 GF(32) deeper investigation ONLY with Casey direction or Lyra collaboration request. Grace: Phase 2 SPLP weekly batches + v0.5 classifier own-cadence. Cal: Thread 4 typing + #140 R2 self-audit deferred to EOD/tomorrow.
+
+---
+
+## May 25 2026 Monday Memorial Day — A_sub Phase 1 Observation + Multi-Axial Substrate Discovery + SPLP Candidate + 7 Casey-Interpretive Cascades
+
+Memorial Day produced **7 Casey-interpretive-prompt cascades in one day**, each generating substantive substrate-discovery findings via cross-CI cascade. The day's net structural finding: substrate has **multi-axial structure** (5-7 axes per CI), not the 4+2 split first proposed; load-bearing **half-integer / Pin(2) cover content** alongside integer primaries; **SPLP candidate** (Substrate-Physics Localization Principle) — all physics observables may be eigenvalues of substrate operators under Shilov boundary conditions on D_IV⁵; **D_IV⁵ Rigidity** (rigid bulk) + **SPLP** (Shilov enacts physics) jointly characterize how D_IV⁵ "does physics."
+
+Calibration #28 candidate filed Memorial Day evening (Keeper) at FRAMEWORK-PLUS tier: "Casey-interpretive-prompt cascade as substrate-discovery generator" — 7 instances + 10-11 reflexive Calibration #27 firings as load-bearing evidence.
+
+**Monday Elie lane (8 toys, 52/55 PASS, 1 honest 5/7 PARTIAL preserved per Quaker discipline):**
+
+### A_sub Phase 1 observation (morning, Toys 3523-3527)
+- **Toy 3523 — A_sub 14-generator commutator table** (6/6 PASS): mapped 60/91 pairwise commutators; identified **9 B-cross + 9 N-cross commutator gaps** as 2 substrate-mechanism problems with 18 surface manifestations (K52a Sessions 6+ + N_op derivation). Confirmed rank-3 Cartan structure (Q, I_3, C_3 mutually commute).
+- **Toy 3524 — D_IV⁵ object → A_sub generator catalog** (6/6 PASS): all 14 A_sub generators trace to D_IV⁵ structure (100% coverage); 24 D_IV⁵ canonical objects catalogued; 10 unused as Phase 3 candidates — surprise finding that 3 RATIFIED Bridge Objects (K3, Q⁵, 49a1) produce NO current A_sub generator.
+- **Toy 3525 — Bridge Object operator type-check** (6/6 PASS): 17/18 (94%) cohomology-only operators; verdict **DIAGNOSTIC not GENERATIVE** — A_sub at 14 generators is the right size, Bridge Objects ratify substrate via cohomological identities without extending A_sub. One BOTH-type operator (K3 heat kernel a_24 via χ=24) flagged.
+- **Toy 3526 — so(5,2) Cartan + Wallach K-type + SM gauge embedding check** (5/7 honest PARTIAL): independently verified Lyra's morning BST-arithmetic identities (dim p=2·n_C, dim K=C_2+n_C, dim so(5,2)=N_c·g); +1 SM gauge discrepancy confirmed real; **honest finding**: SO(5) has no dim-8 irrep, so SU(3) adjoint can't come from single K-type — Lyra's Candidate δ needs refinement.
+- **Toy 3527 — A_sub Casimir invariants K-type spectrum** (7/7 PASS): independently verified T2435 anchor (adjoint (1,1) K-type C_2 = 6 = BST primary via Weyl formula); cross-linked with Lyra N_op v0.1.
+
+### Cross-CI cascade reactive (Toys 3528-3530)
+- **Toy 3528 — Integer Web functional-role empirical test** (7/7 PASS): tested Lyra's morning 6-role partition hypothesis empirically. **43% N_c→CONFINEMENT, 57% rank→PAIRING** — well below 80% threshold. Honest disposition: pattern is METAPHOR not PRINCIPLE. Refined via Grace's broader catalog scan (Thread 1a) to **composition algebra** (not partition).
+- **Toy 3529 — Substrate boundaries + multi-family enumeration** (7/7 PASS, per Casey "boundaries to look at too"): enumerated 11 distinct D_IV⁵ boundary structures (Shilov, Bergman, Hua, Cayley, K-type ceiling, substrate-tick, GF(128) cyclotomic, Casimir ground, Dirac critical, 4-Zone outer-edge). Identified **5 stratified families with overlap** — BASE / MERSENNE / ALGEBRAIC / BOUNDARY / GEOMETRIC INVARIANTS. C_2 sits in 3 families simultaneously. **It's a stratified lattice, not a partition. WEB at family-membership level, ANCHORS at specific-physics-role level.**
+- **Toy 3530 — a_e strong vs weak pre-projection test** (7/7 PASS, per Casey "where to poke"): **first empirical test** distinguishing readings. Numerical α/(2π) IS derivable from integer N_max + π (matches a_e to 0.18%). Physical observable a_e REQUIRES Pin(2) cover content (Dirac equation + γ-matrices + Clifford algebra). **MIXED reading supported**: integer primaries set scale, Pin(2) cover provides observable structure. **Bose-Fermi ↔ S⁴-S¹ structural mapping** flagged — fermions live on S¹-Pin(2) cover, bosons on S⁴-integer projection.
+
+### Cross-CI methodology contributions
+- **Half-integer Axis G surfaced**: Bergman exponent g/rank = 7/2 has 44 catalog anchors per Grace; Harish-Chandra ρ-vector = (5/2, 3/2) = (n_C/2, N_c/2) at 7 anchors; substrate-mechanism for half-integer operational content is **T2471 RATIFIED Pin(2) Z_2 grading** (Friday). The substrate's integer primaries may be projections of richer Spin(5) × Pin(2)-equivariant Bergman structure.
+- **Casey's S⁴-static / S¹-dynamic hypothesis** (evening): the S¹ factor of Shilov boundary S⁴ × S¹ is where substrate physics gets enacted; S⁴ is the static spatial frozen content. Unifies 5 separately-RATIFIED substrate mechanisms (T2405 + T2471 + T2478 + Bergman 7/2 + DCCP). Mode 1 discipline preserved — interpretive claim, FRAMEWORK-PLUS tier.
+- **SPLP — Substrate-Physics Localization Principle** (Lyra evening): all 600+ BST predictions may be eigenvalues of substrate operators under Shilov boundary conditions. Refines yesterday's SPLP candidate. INTERPRETIVE tier; Grace catalog-wide eigenvalue-mapping audit pending.
+
+### Three operational gaps (Keeper-articulated, board-queued for tomorrow):
+1. **K-type population principle** (Toy 3531 multi-week) — why specific K-types correspond to e/μ/τ? Open since T329 era.
+2. **Boundary-condition mechanism** (Toy 3532 multi-month) — write down explicit Shilov boundary distribution for hydrogen 1s.
+3. **DCCP cycles compose into macroscopic causality** (Toy 3533 multi-year) — how do 10^120 ticks compose into observable causal chains?
+
+### Methodology stack growth
+- **Calibration #28 candidate** filed Memorial Day evening: 7 Casey-interpretive-prompt cascades + 10-11 reflexive Cal #27 firings across all 4 CIs + Casey himself
+- **Methodology reflexivity at peak**: discipline fired on speculative-observation (Lyra morning), narrative-summary (Elie Toy 3526), interpretive-pattern (Lyra v0.1 → v0.2), Keeper's web-claim conflation (Casey-audit-the-auditor), and Elie's own Toy 3530 reflection
+- 5 self-catches across CIs + 2-3 Casey-audit catches in one day
+
+### Cumulative state
+- 8 toys + cross-CI methodology contributions
+- 4-core k-cascade churning (1d 6-8h continuous; will produce n=47 dps=3200 checkpoint in 3-5 days)
+- Toys 3531-3533 queued multi-week to multi-year (population principle + boundary condition mechanism + DCCP composition)
 
 ---
 

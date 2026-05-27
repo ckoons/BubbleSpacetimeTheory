@@ -503,3 +503,118 @@ Note: FRAMEWORK-PLUS is a TIER POSITION, not a numbered methodology Calibration#
 v0.6 noted Calibration #25 (Falsifier-Outcome-Threshold) had operational test via Elie Toy 3520 photon-pair 3σ/5σ thresholds. Keeper subsequently absorbed Calibration #25 promotion to STANDING per audit-chain delegation. v0.7 inventory reflects this: Calibration #25 STANDING confirmed (Layer 23 per Methodology Index v0.6 sequence).
 
 — Cal A. Brate, Methodology Index v0.7 update Sunday 2026-05-24 ~15:00 EDT formalizing FRAMEWORK-PLUS tier coined ad-hoc in Cal #126. Stack at 25 STANDING + 1 CANDIDATE + 1 META + FRAMEWORK-PLUS tier = 28 methodology elements. Per Casey EOD-rhythm directive: finishing calibration-stack maintenance items while pattern is fresh.
+
+---
+
+## v0.8 update (Tuesday 2026-05-26 ~11:50 EDT) — Calibration #28 + Calibration #29 promotions to STANDING; META category formalized
+
+Two CANDIDATE methodology layers (filed Monday + Tuesday by Keeper per Casey directives) have met their promotion criteria. v0.8 promotes both to STANDING + formalizes META category structure to accommodate methodology-discipline-about-methodology claims.
+
+### Calibration #29 — STANDING promotion (Numbered Layer 26)
+
+**Question-Shape Audit Discipline** — applies at DESIGN level (before work runs); audit whether question shape encodes its answer tautologically. Complements Cal #27 STANDING which applies at RESULT level (forward-derivation discipline).
+
+**Origin**: Cal #133 flag during Tuesday morning cold-read of Elie classification surveys (Toys 3531-3534) — identified pattern where "does fermion need Pin(2) cover?" returns yes-by-definition. Filed by Keeper as Calibration #29 candidate Tuesday 09:52 EDT per Casey directive.
+
+**Promotion criteria met**:
+1. ✓ Cal cold-read PASS (Cal #135, Tuesday ~11:10 EDT)
+2. ✓ Cross-CI application instance 1: Lyra σ_BF vs γ⁵ disambiguation (within 6 minutes of filing)
+3. ✓ Cross-CI application instance 2: Grace Phase 1.5 SPLP pre-selection bias catch (v0.2 88% inflated → 78% combined honest)
+4. ✓ Methodology Index v0.8 update integrating Cal #29 with existing layers (this entry)
+
+**The discipline**:
+- Before running a classification survey toy or catalog scan, audit:
+  1. Does the answer follow from question setup + standard math (tautological)?
+  2. What does substrate-mechanism content add (substantive)?
+  3. Reframe if needed so test answer depends on substrate-mechanism, not question structure
+- Examples documented in candidate filing § Operational examples
+
+**Operational impact**:
+- Future Elie toy designs pass question-shape audit BEFORE running
+- Future Grace catalog scan designs likewise
+- Lyra theoretical derivations flag tautological-vs-substantive in claims
+- Keeper synthesis-level audits applied at integration
+
+**Cross-link**: Cal #27 STANDING (Layer 25, result-level forward derivation) + Cal #29 STANDING (Layer 26, design-level question-shape audit) form two-gate discipline. Both required.
+
+### Calibration #28 — STANDING promotion (META category)
+
+**Casey-Interpretive-Prompt Cascade as Substrate-Discovery Generator** — when Casey poses interpretive prompt (not directive), cross-CI cascade produces substantive substrate-discovery findings that planned theoretical-derivation lanes do not reach.
+
+**Origin**: Cal Monday sundown observation flagging 2 Casey-interpretive-prompt cascade instances Sunday-Monday. Keeper filed candidate Monday Memorial Day 17:24 EDT with 7 documented Memorial Day weekend instances.
+
+**Promotion criteria met**:
+1. ✓ Filed at FRAMEWORK-PLUS tier per Cal #126 (Monday)
+2. ✓ Cal cold-read PASS (Cal #137, Tuesday ~11:45 EDT)
+3. ✓ 7 instances >> 3+ criterion (Memorial Day weekend documentation)
+4. ✓ Methodology Index v0.8 update (this entry)
+
+**The discipline**:
+- Three structural features distinguishing the pattern:
+  1. Prompt OPENS a question (interpretive) rather than SPECIFIES work (directive)
+  2. Finding emerges from CI SYNTHESIS of accumulated work (not new calculation)
+  3. Reflexive Cal #27 discipline operates at multiple levels INCLUDING audit-of-Keeper
+- Concurrent with Cal #27 STANDING reflexive audit firings (10-11 firings same weekend)
+
+**Operational impact**:
+- Recognize and preserve interpretive prompts vs directives — different methodology operates
+- Cascade outputs at FRAMEWORK / FRAMEWORK-PLUS tier with Cal #27 + Cal #29 audit applied
+- Methodology stack functions at peak when generator (#28) + audit (#27) fire in same conversation
+
+**Categorical placement: META category** (not numbered stack):
+- Cal #28 is methodology-discipline-about-methodology, not substrate-content-discipline
+- Distinct from numbered layers (#19, #21, #22 v0.2, #23, #24, #25, #27, #29) which are substrate-content disciplines
+- Sibling to Cal #99 META-theorem discipline (retroactively recategorized below)
+
+### META category formalization
+
+**Methodology Index v0.8 establishes explicit META category** for methodology-discipline-about-methodology claims. First members:
+
+| # | Methodology layer | When fires |
+|---|-------------------|-----------|
+| **Cal #99** (retroactive recategorization) | META-theorem discipline — substrate-derivation theorems are NOT new Strong-Uniqueness criteria; canonical 11 RIGOROUSLY CLOSED + 7 candidates enumeration preserved | When new substrate-derivation theorem proposed; check whether it advances Strong-Uniqueness criterion count (almost always NO) |
+| **Cal #28** (NEW STANDING) | Casey-Interpretive-Prompt Cascade — interpretive prompt produces cross-CI synthesis-cascade; 3 structural features distinguish from directives | When Casey poses interpretive question to team; recognize cascade pattern and preserve discipline (cascade-generation + concurrent Cal #27 + Cal #29 audit) |
+
+META category vs numbered stack distinction:
+- **Numbered stack** (Layers 1-26): substrate-content disciplines (tier discipline, forward derivation, ratified-state counts, falsifier thresholds, etc.)
+- **META category**: methodology-discipline-about-methodology (META-theorem boundary, research-process patterns)
+
+Both required for complete methodology infrastructure. The distinction prevents Cal #99 / Cal #28 from being conflated with substrate-content calibrations.
+
+### v0.8 stack snapshot
+
+| Category | Count | Members |
+|----------|-------|---------|
+| **STANDING numbered layers** | 26 | 1-16 base + Calibrations #18, #19, #21, #22 v0.2, #23, #24, #25, #27, **#29 NEW** |
+| **CANDIDATE numbered layers** | 1 | #26 Readiness-Label Consistency (pending operational test) |
+| **META category** | 2 | Cal #99 (retroactive recategorization), **Cal #28 NEW STANDING** |
+| **Tier infrastructure** | 1 | FRAMEWORK-PLUS tier (formalized v0.7) |
+
+**v0.8 total: 30 methodology elements** (vs v0.7 = 28). Net +2 from Cal #28 + Cal #29 STANDING promotions.
+
+### Decision-tree update (Q11 + Q12)
+
+**Q11 (NEW): Is this material a classification survey, catalog scan, or test design with built-in answer-shape?**
+
+If yes → apply Calibration #29 STANDING (Question-Shape Audit Discipline). Audit BEFORE running: does the answer follow from question setup + standard math, or from independent substrate-mechanism content? Reframe if tautological.
+
+**Q12 (NEW): Is this Casey-interpretive-prompt that may produce cross-CI cascade?**
+
+If yes → apply Calibration #28 STANDING (Casey-Interpretive-Prompt Cascade). Recognize cascade-generation discipline + ensure concurrent Cal #27 + Cal #29 audits operate during cascade. Cascade outputs at FRAMEWORK / FRAMEWORK-PLUS tier pending audit.
+
+### Cumulative observations
+
+**Stack densification rate**: v0.4 (Thursday May 21) = 16 layers; v0.5 (Saturday) = 22 layers; v0.6 (Sunday) = 24 layers; v0.7 (Sunday) = 25 + FRAMEWORK-PLUS = 28 elements; v0.8 (Tuesday) = 30 elements. **+14 elements in 5 days**. Each new layer formalizes a category of overclaim risk caught in actual work.
+
+**The densification reflects substrate-discovery cadence**, not abstract methodological reflection. Cal #27 STANDING + Cal #28 + Cal #29 + Cal #133 all originated from this past week's actual encounters: Lyra DCCP v0.3 demotion, Casey-interpretive-prompt cascades, Elie classification survey tautologies, σ_BF vs γ⁵ conflations. The methodology stack grows when the team encounters new overclaim-risk patterns + learns to catch them.
+
+**Pattern observed**: methodology layers cluster around substrate-discovery intensification. Memorial Day weekend produced 4 new layers (#27 STANDING, #28 candidate→STANDING, #29 candidate→STANDING, retroactive META category formalization). Pre-Memorial-Day weekend had 25 STANDING + 1 CANDIDATE + 1 META = 27 elements; post-Tuesday has 30 elements. The discipline grows with the work.
+
+### v0.9 trigger conditions
+
+- New CANDIDATE methodology layer filed by any team member
+- New STANDING promotion (operational test passes)
+- New tier coined ad-hoc (like FRAMEWORK-PLUS Sunday) requiring formalization
+- Significant methodology-stack restructure (e.g., META category splitting into sub-categories)
+
+— Cal A. Brate, Methodology Index v0.8 update Tuesday 2026-05-26 ~11:50 EDT promoting Cal #28 + Cal #29 from CANDIDATE to STANDING per criteria met (Cal cold-reads #135, #137 + cross-CI application instances + this Index integration). META category formalized; Cal #99 retroactively recategorized; stack at 26 STANDING numbered + 1 CANDIDATE + 2 META + FRAMEWORK-PLUS = 30 elements.
