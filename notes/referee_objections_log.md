@@ -9152,6 +9152,263 @@ Thursday Cal output #7 (Cal #152). Batched with the Calibration_31 doc STANDING 
 
 — Cal A. Brate, Thursday 2026-05-28 ~10:24 EDT (`date`-verified). Calibration #31 → STANDING (28th layer; Keeper cross-CI cold-read PASS). Keeper's non-generic+load-bearing guard absorbed (fixes the "specialization launders coincidences" flaw) — Cal #31 now matched-pair positive partner to denominator-of-coincidence negative test; Q14 decision-tree branch added. Instance re-assessment under guard: 4 clean + 1 pending (#3 Bergman, on g=7 FK-exponent gate) + 1 borderline (#6 Coxeter). g=7 Bergman gate load-bearing for both Route-A + Cal #31 Instance 3 (Cal doesn't assert; Keeper's check). BIDIRECTIONAL-DISCIPLINE MILESTONE: Keeper caught a flaw in Cal's own Calibration #31 → 8th honest-negative-strengthens instance (Keeper→Cal direction) → Calibration #30 demonstrated bidirectional, not Cal-monopolized.
 
+---
+
+### Cal #153 — OWNING a Cal miss (Macdonald parameter-role) + Cal #32 candidate + PMNS typing (Thursday 2026-05-28 ~16:32 EDT)
+
+**Trigger**: Keeper's Macdonald parameter-role flag (`Keeper_Macdonald_Parameter_Role_Flag_v0_1.md`, surfaced via Elie Toy 3587): substrate base-2 is the Macdonald **t** (Hall-Littlewood corner, q=0), NOT Macdonald q. A1's "(q=2, t=1/137)" HELD pending Lyra reconciliation. This is a load-bearing catch — and it lands on framing I cold-read repeatedly.
+
+## Part A — Cal OWNS the miss (five-minute rule, applied to Cal)
+
+**The miss**: I cold-read the "substrate Hall algebra at q=2 / Macdonald at (q=2, t=α)" framing multiple times — Cal #147 (Serre constants), Calibration #31 Instances 1+5, Cal_Mathematical_Commentary_q2_Macdonald_Hall_Algebra_Framework, Cal_Prep_Substrate_Hall_Algebra_Paper — without flagging the parameter-role conflation Keeper caught.
+
+**Why it's a genuine miss (not just hindsight)**: the standard fact is that the Ringel-Hall algebra of a quiver over a field of size L IS the Hall-Littlewood / q=0 Macdonald object with parameter t = L. So substrate Hall algebra over GF(2) → Hall-Littlewood corner (q=0, t=2); base-2 is the t-slot, not q. **I had both pieces**: my own Cal_Mathematical_Commentary EXPLICITLY listed "q=0: Hall-Littlewood polynomials" as a Macdonald corner AND discussed Ringel-Green Hall algebras. I noted (q=2, t=α) "isn't one of the standard distinguished corners (Schur, Jack, Hall-Littlewood)" — I was ONE STEP from the flag (it isn't a standard corner BECAUSE the Hall-algebra content belongs at the Hall-Littlewood corner) and didn't take it. Assembly failure: had the components, didn't connect them.
+
+**Five-minute rule (Cal holds self to it)**: owned, no defensive elaboration. Keeper caught it (via Elie 3587). The bidirectional discipline I established in Cal #152 applies to exactly this — Cal gets caught too, owns it, the framework sharpens.
+
+**This is the 2nd Keeper→Cal catch in two entries** (Cal #152 guard on Calibration #31 + this parameter-role miss). The audit chain is catching the auditor repeatedly today — healthy (per Cal #151 R4: discipline distributed, not Cal-bottlenecked), but also a signal Cal's Hall-algebra/Macdonald cold-reads this week ran ahead of Cal's command of the specific Ringel-Hall↔Hall-Littlewood correspondence. Calibration note for self: when cold-reading identifications with frameworks I don't command in full detail, flag the parameter-role assignment as an EXPLICIT open question rather than passing it through.
+
+## Part B — impact on prior Cal cold-reads
+
+Per Keeper: rigorous content UNAFFECTED — the [n]_2 = 2^n−1 Serre constants are correct, simply correctly LOCATED at the Hall-Littlewood corner (q=0, t=2), not an interior (q=2) point. Assessment of my entries:
+- **Cal #147 Serre constants** ([2]_2=3, [3]_4=21): the constants STAND (they depend on field-size 2, not the q/t naming). LOCATION mis-stated (called it q=2 interior; correct is Hall-Littlewood q=0, t=2). Naming correction, content robust.
+- **Calibration #31 Instance 1** (Cal #139 chain = "q=2 specialization"): chain = Mersenne = [n]_2 at field-size-2 stands; "q=2 specialization" should read "Hall-Littlewood-corner / field-size-2 (t=2, q=0)." CORRECTING in the doc.
+- **Calibration #31 Instance 5** (Hall algebra = U_q^+(B_2) "at q=2"): identification stands; "at q=2" → "at Hall-Littlewood corner (q=0, t=2)." CORRECTING in the doc.
+- **Cal #150 Weinberg**: used rank/g/N_c directly, not q/t naming. UNAFFECTED.
+- **Cal_Mathematical_Commentary + Cal_Prep_Substrate_Hall_Algebra**: should carry the parameter-role correction; flagged for update.
+
+Net impact: NAMING/LOCATION correction (Hall-Littlewood corner, not interior q=2) across Cal Hall-algebra references; rigorous content (Serre constants, chain) robust. The mixing-angle spine, confinement, ρ-vector, c_FK all unaffected (didn't use the q/t naming).
+
+## Part C — Cal #32 candidate: Parameter-Role / Slot-Assignment Verification Discipline
+
+Keeper explicitly identifies the parameter-role flag as "the **same discipline class** as the three-genus and α-disambiguation mislabels (a parameter sitting in the wrong slot)." That's ≥3 instances of one pattern:
+1. Three-genus mislabel (standing convention now in force)
+2. α-disambiguation mislabel (standing convention now in force)
+3. Macdonald q-vs-t (base-2 in q-slot vs t-slot) — current
+
+**Cal #32 candidate — Parameter-Role Verification Discipline**: when a substrate quantity is identified with a parameter of a multi-parameter mathematical framework (Macdonald q,t; quantum-group v; genus; coupling α; etc.), VERIFY the slot assignment (which substrate quantity = which framework parameter) against the framework's standard structure — do not assume. Recurring mislabels each get a standing convention; the meta-discipline is the verification step.
+
+**Relation to existing layers**:
+- Distinct from Cal #31 (substrate-finding-as-specialization): Cal #31 RECOGNIZES the framework; Cal #32 verifies the PARAMETER ROLES once recognized. Sequential: recognize framework (Cal #31) → assign parameters correctly (Cal #32). The Macdonald case shows Cal #31 can PASS (it IS a Macdonald specialization) while Cal #32 FAILS (wrong slot) — so they're genuinely distinct failure modes.
+- Distinct from Cal #133 (partial-tautology): different axis (slot-assignment vs general-vs-substrate-specific).
+
+**Disposition**: file Cal #32 as CANDIDATE (3 instances: three-genus, α, Macdonald — already a recurring class per Keeper). STANDING gate: cross-CI cold-read + the series-wide Macdonald-parameter convention landing (Keeper's "one-line convention so it cannot recur") + Methodology Index integration. This is well-supported (3 instances) — consistent with Casey's calibration feedback (don't over-defer); filing as candidate now, not deferring.
+
+**Honest note**: it is slightly awkward that I'm proposing Cal #32 (parameter-role discipline) in the same entry where I OWN missing exactly this kind of parameter-role issue. But that's the right shape — the miss is the 3rd instance that crystallizes the pattern into a nameable discipline. The discipline I failed to apply is the discipline worth formalizing. (And the formalization is Keeper's framing as much as mine — he named the "same discipline class.")
+
+## Part D — PMNS form-typing (Keeper Cal item 1, close open item)
+
+PMNS mixing-angle sum = 120/137 = rank³·N_c·n_C / N_max (8·3·5 / 137). Cal #122 typing:
+- The form is an operational observable (PMNS mixing angles) = algebraic BST-primary ratio (120) over the geometric N_max (137).
+- **Type C (level-crossing operational)**: bridges operational (PMNS angles) ↔ algebraic (rank³·N_c·n_C = 120) ↔ geometric (N_max = 137 = 1/α). Same /N_max family as the other mixing-angle forms (Elie/Grace).
+- **Scheme-invariance check (Cal #148/#150)**: mixing angles (PMNS) are more scheme-robust than masses (they're ratios of mixing-matrix elements); the /N_max structure is anchored to N_max (geometric invariant per the invariant-anchor principle). PASSES the scheme-invariance ⊥ coincidence-denominator test better than the mass-ratio leads — this is forward-spine content, not a scheme-dependent lead.
+- **Mode 6**: 120 = rank³·N_c·n_C = 8·15; also 120 = other BST-primary expressions. Tier II-III; the rank³·N_c·n_C reading is the natural depth-decomposition. Denominator-of-coincidence: 120 is moderately reachable; but /N_max (137, genuinely-special per Elie 3578 LOW denominator) anchors it. The N_max anchor is what makes it forward.
+
+**Disposition**: PMNS sum = 120/137 typed Type C; forward-spine (scheme-invariant, N_max-anchored); FRAMEWORK-PLUS. Suitable for B-series papers' mixing-angle spine. PMNS form-typing CLOSED.
+
+## Cal cadence (batch)
+
+Thursday Cal output #8 (Cal #153). Batched: owns parameter-role miss + impact assessment + Cal #32 candidate + PMNS typing. Following: corrections to Calibration #31 Instances 1+5 naming. R5 self-audit trigger at Cal #160.
+
+— Cal A. Brate, Thursday 2026-05-28 ~16:32 EDT (`date`-verified). OWNED Cal miss: cold-read the q=2 Hall-algebra framing repeatedly (Cal #147, Calibration #31, math commentary, prep docs) without flagging the Ringel-Hall↔Hall-Littlewood (q=0 corner, base-2=t not q) parameter-role conflation — despite having both pieces in my own commentary. 2nd Keeper→Cal catch in two entries (five-minute rule applied). Impact: Serre constants ROBUST (field-size-2, not q/t naming); LOCATION correction (Hall-Littlewood corner q=0,t=2) across Cal Hall-algebra refs; mixing spine/confinement/ρ-vector/c_FK unaffected. Cal #32 candidate filed — Parameter-Role/Slot-Assignment Verification Discipline (3 instances: three-genus, α, Macdonald per Keeper's "same discipline class"); distinct from Cal #31 (recognize framework) + Cal #133. PMNS sum = 120/137 = rank³·N_c·n_C/N_max typed Type C, forward-spine (scheme-invariant, N_max-anchored); form-typing CLOSED.
+
+---
+
+### Cal #154 — C18/C19 cold-read (Lyra-requested) + g=7 Bergman gate resolution + Cal #32 sharpened (Thursday 2026-05-28 ~16:48 EDT)
+
+**Trigger**: Lyra requested Cal cold-read of Strong-Uniqueness v1.1 new criteria C18 (FK-measure forced) + C19 (ρ-vector pins 3 primaries). Plus Keeper's g=7 Bergman gate is now resolvable. Applying Cal #32 (the discipline I owned missing in Cal #153) to verify the ρ-vector parameter-role — correctly this time.
+
+## Part A — C18 cold-read (FK-measure forced): PASS
+
+The chain: T754 (Born rule = unique automorphism-invariant probability measure; Keeper K-audited PASS, D0) + standard BSD theory (the automorphism-invariant measure on an irreducible bounded symmetric domain is the Bergman/FK measure, unique up to scale; Lebesgue is NOT G-invariant) ⟹ substrate Hilbert space forced to L²(D_IV⁵, FK measure), c_FK = 225/π^(9/2) exact.
+
+**Cal cold-read**: PASS as a clean derived theorem. The logical chain is forward: (a) Born rule requires automorphism-invariance (T754, Gleason-type, proved); (b) the G-invariant measure on an irreducible BSD is unique up to scale (standard — G acts transitively, invariant measure determined by value at one point + invariance); (c) that measure is the Bergman/FK measure. Each step holds. The measure stops being a modeling input — it's compelled. Genuine free-choice reduction. **C18 strengthens Strong-Uniqueness by removing a free choice.**
+
+**Endorse Keeper's null-model discipline**: C18 is a DERIVED consequence, NOT an independent coincidence-criterion. Counting it as another (1/3) factor would DOUBLE-COUNT (coincidence-inflation error a referee catches immediately). Keeper held the line correctly: the honest framing is "number of INDEPENDENT structural choices DROPPED (measure was input → now derived)," not "more criteria → smaller null model." This is the same coincidence-inflation-avoidance discipline as Cal #55 scalar-multiplication caution + the denominator-of-coincidence test. **Cal records: derived criteria reduce the free-choice count; they are NOT additional independent coincidence draws.**
+
+## Part B — C19 cold-read (ρ-vector pins 3 primaries): PASS, parameter-role VERIFIED
+
+C19 claims ρ-vector = (5/2, 3/2) = (n_C/rank, N_c/rank) pins three primaries (rank, N_c, n_C) to one canonical invariant, split bulk/Shilov.
+
+**Cal #32 discipline applied** (the parameter-role verification I owned missing on Macdonald): is ρ = (5/2, 3/2) the GENUINE canonical ρ for D_IV⁵, or (n_C/2, N_c/2) relabeled as "ρ"? I computed it (`date`-stamped):
+
+The Harish-Chandra ρ for D_IV^n = SO_0(n,2)/(SO(n)×SO(2)) via type-IV restricted-root multiplicities (long roots ±e_1±e_2 mult 1; short roots ±e_i mult n−2):
+ρ = (1/2) Σ_{α>0} m_α α = (n/2, (n−2)/2).
+For n=5: **ρ = (5/2, 3/2)** ✓.
+
+This IS the genuine Harish-Chandra ρ for D_IV⁵. **Crucially, it is NOT the so(5) Lie-algebra ρ** (which is (3/2, 1/2) in orthogonal coordinates — the half-sum of so(5) roots). The substrate ρ-vector is the DOMAIN (symmetric-space / Harish-Chandra) ρ, whose components are (n/2, (n−2)/2). For D_IV⁵ this equals (n_C/2, N_c/2) BECAUSE N_c = n_C − 2 = n_C − rank = 3.
+
+**C19 PASS, forward**: ρ = (5/2, 3/2) is the canonical Harish-Chandra ρ (not reverse-engineered). It genuinely encodes n_C (ρ₁ = n_C/rank) + the type-IV relation N_c = n_C − rank (ρ₂ = (n_C−rank)/rank = N_c/rank). The three primaries DO collapse to the domain ρ-vector + the relation N_c = n_C − rank. Strengthens Strong-Uniqueness (reduces independent count, per Keeper 5→3→toward-1).
+
+**This is the Cal #32 discipline applied correctly** — recovery from the Cal #153 Macdonald miss. I checked whether the parameter (ρ) was the genuine canonical object or a relabeling, by computing it. Result: genuine. The check mattered: the naive read ("ρ = (n_C/2, N_c/2)") could have been a relabel; the computation confirms it's the Harish-Chandra ρ. (And it flags that the so(5) Lie-algebra ρ = (3/2,1/2) is a DIFFERENT object — itself a potential parameter-role trap avoided.)
+
+## Part C — g=7 Bergman gate RESOLVED (Keeper's open Route-A gate) + Cal #31 Instance 3 correction
+
+The ρ computation resolves Keeper's g=7 gate. The genus of D_IV⁵ is p = n = n_C = 5 (standard for type-IV Lie ball). The genuine FK/Bergman kernel exponent is genus-based: **genus/rank = n_C/rank = 5/2 = ρ₁** — which EXACTLY matches Lyra's corrected C2 ("kernel exponent = n_C/rank = 5/2 = ρ₁"). Independent confirmation via the ρ/genus computation.
+
+**g = 7 = genus + 2 = n_C + rank**, so the old "Bergman exponent g/rank = 7/2" used g = genus+2, NOT the genus. **Keeper's g=7 gate resolves: g=7 is NOT the genuine FK exponent — it's the genus+2 mislabel.** The genuine FK/Bergman exponent is n_C/rank = 5/2 (genus-based), per Lyra C2 + this computation.
+
+**Cal #31 Instance 3 CORRECTION**: I listed Instance 3 as "Bergman exponent g/rank = 7/2 at substrate-natural values." This is the mislabel. The genuine FK/Bergman exponent specialization is **n_C/rank = 5/2** (genus/rank). Correcting Instance 3 in the Calibration_31 doc. Under the Cal #31 guard, the CORRECTED Instance 3 (n_C/rank = 5/2 = genus/rank, genuine FK) PASSES (non-generic, load-bearing); the OLD g/rank=7/2 version was the parameter-role mislabel.
+
+**FLAG for Lyra/Keeper (not asserting)**: this creates a tension with T2440 RATIFIED ("Bergman exponent g/rank = 7/2"). Lyra's C2 correction (n_C/rank = 5/2) + this genus computation suggest the kernel exponent is n_C/rank = 5/2, not g/rank = 7/2. T2440 RATIFIED status needs reconciliation: either T2440's "g/rank=7/2" refers to a DIFFERENT quantity than the FK kernel exponent, or T2440 needs the C2-style correction. Cal does NOT assert T2440 wrong (RATIFIED; Keeper's audit lane) — flagging the reconciliation. The c_FK = 225/π^(9/2) normalization (T2442) is separate and unaffected.
+
+**This is a 4th Cal #32 instance**: g-vs-n_C in the Bergman-exponent slot (g=7=genus+2 mislabeled as the exponent; genuine is n_C/rank=5/2=genus/rank). Joins three-genus, α, Macdonald q/t. The parameter-role class is robust at 4 instances.
+
+## Part D — Cal #32 sharpened with the integrality test (Keeper's operational recommendation)
+
+Keeper recommended the integrality test as the operational Cal #32 discipline: a real Ringel-Hall algebra has INTEGER structure constants (they count submodules), so only the parameter-slot assignment that delivers integers is correct (Hall-Littlewood q=0,t=2 gives integer N_c=3; the mislabeled q=2,t=1/137 gives non-integer −46/45). 
+
+**Cal #32 operational discipline (sharpened)**: when verifying a parameter-slot assignment, use STRUCTURAL CONSTRAINTS that the correct assignment must satisfy:
+- Integrality (Hall algebras → integer structure constants)
+- Canonical-object match (ρ-vector → compute the genuine Harish-Chandra ρ, as in Part B)
+- Genus/dimension consistency (Bergman exponent → genus, as in Part C)
+Each provides an independent structural test distinguishing the genuine slot from the mislabel. This makes Cal #32 operational, not just "verify the slot."
+
+**Cal #32 now at 4 instances** (three-genus, α, Macdonald q/t, g-vs-n_C Bergman) + operational test (integrality / canonical-object / genus consistency). Strengthens the candidate toward STANDING (gate: cross-CI cold-read + series-wide convention + Methodology Index integration).
+
+## Disposition summary
+
+- C18 (FK-measure forced): PASS, derived theorem, genuine free-choice reduction; endorse Keeper don't-double-count
+- C19 (ρ-vector): PASS, forward, parameter-role VERIFIED via Harish-Chandra ρ computation (= (5/2,3/2), genuine, not so(5) Lie ρ); Cal #32 applied correctly
+- g=7 Bergman gate: RESOLVED — g=7=genus+2 mislabel; genuine FK exponent = n_C/rank=5/2 (confirms Lyra C2); Cal #31 Instance 3 corrected; T2440 reconciliation FLAGGED for Lyra/Keeper
+- Cal #32 sharpened (integrality + canonical-object + genus-consistency operational tests); 4 instances
+- Null-model discipline (Keeper): endorsed + recorded (derived criteria reduce free-choice count, not add coincidence draws)
+
+## Cal cadence (batch)
+
+Thursday Cal output #9 (Cal #154). Substantive: 2 requested cold-reads + g=7 gate resolution + Cal #32 sharpening + a CORRECT application of Cal #32 (the discipline owned-missing in #153). R5 self-audit at Cal #160 (6 away). Following: correct Cal #31 Instance 3 in the doc.
+
+— Cal A. Brate, Thursday 2026-05-28 ~16:48 EDT (`date`-verified). C18 PASS (FK-measure forced; derived theorem; endorse don't-double-count). C19 PASS, parameter-role VERIFIED — computed Harish-Chandra ρ(D_IV⁵) = (n/2,(n−2)/2) = (5/2,3/2) via type-IV multiplicities; genuine domain ρ (NOT so(5) Lie ρ=(3/2,1/2)); encodes n_C + relation N_c=n_C−rank; Cal #32 applied CORRECTLY (recovery from #153 miss). g=7 Bergman gate RESOLVED: genus=n_C=5, genuine FK exponent=n_C/rank=5/2 (confirms Lyra C2); g=7=genus+2 mislabel; Cal #31 Instance 3 corrected; T2440 (g/rank=7/2) reconciliation FLAGGED for Lyra/Keeper (not asserting). Cal #32 sharpened with integrality/canonical-object/genus-consistency operational tests; 4th instance (g-vs-n_C Bergman). Endorsed Keeper null-model discipline (derived criteria reduce free-choice count, not add coincidence draws).
+
+---
+
+### Cal #155 — A1 (Substrate Hall Algebra) primary-paper cold-read, v0.3 (Thursday 2026-05-28 ~16:56 EDT)
+
+**Trigger**: A1 v0.3 (`Lyra_Paper_Substrate_Hall_Algebra_Primary_Draft_v0_2.md`, content-labeled v0.3) — the Casey-PRIMARY paper, now unblocked (parameter-role gate cleared). Cold-read per Keeper theme A. Referee objections written before reading (parameter-role fix in? α role correct? forward spine led / leads excluded? operational language? tier labels? Bergman exponent corrected?).
+
+**Overall: PASS WITH MINOR FLAGS.** A1 v0.3 is a strong, disciplined draft. All 6 pre-read objections PASS:
+- Parameter-role fix IN (§5.1 Hall-Littlewood corner q_Mac=0, t_Mac=2; "(q=2,t=1/137)" retracted as mislabel) ✓
+- α_fine role correct (§5.1 RESOLVED: not a Macdonald parameter; representation level/coupling) ✓
+- Forward spine led (§7 scheme-invariant mixing); leads EXCLUDED (§8.3 mass-ratios, Macdonald-coeff→mass, back-fit relations) ✓
+- Operational/math language appropriate (Ringel-Green "is" is a theorem; physics uses "empirical contact") ✓
+- Tier labels explicit (§8.1 RIGOROUS / §8.2 FRAMEWORK / §8.3 EXCLUDED; Coxeter "matched not forced"; confinement FRAMEWORK-PLUS) ✓
+- Bergman exponent corrected (§8.4 kernel exponent = n_C/rank = 5/2; g/rank=7/2 mislabel) ✓
+
+**Convergence note**: A1 §8.4 reached my Cal #154 genus finding independently/convergently (Elie Toy 3580-3581 MC + Keeper structural + ρ_1 match): kernel exponent = n_C/rank = 5/2; g=7=embedding-dimension mislabel; T2440 correction flagged. Cross-CI convergence on the genus correction — my ρ computation, Elie's MC, Keeper's structural all land on n_C/rank=5/2. A1 also incorporated Cal #146 (§6 bulk-Shilov framing) + Cal #153 (§7 PMNS form-typing) + Cal #27 (§8.3 exclusions). The paper's discipline is strong.
+
+## Substantive flags (pre-external-dispatch)
+
+**Flag 1 (IMPORTANT — notation collision)**: the paper uses bare "U_q^+(B_2) at q=2" / "Serre constants at q=2" (abstract, §2-3, §3 title) ALONGSIDE "Macdonald q=0, t=2" (§5). The "q" in "U_q^+(B_2) at q=2" (quantum-group/field parameter) and the "q" in "Macdonald q=0" are DIFFERENT symbols colliding. This is exactly the parameter-role confusion that caused the original miss — and a referee will trip on it. **Recommend: use v=2 (quantum-group/field-size parameter) throughout — "U_v^+(B_2) at v=2", "[n]_v Serre constants" — reserving q_Mac/t_Mac for Macdonald.** This is the Cal #32 discipline applied to the paper's own notation: disambiguate the colliding symbols so the parameter-role fix can't be re-confused. Most valuable referee-proofing fix.
+
+**Flag 2 (substantive — Strong-Uniqueness citation)**: §1 cites "Strong-Uniqueness Theorem v1.0 (14 RATIFIED criteria)." Two issues: (a) v1.1 now exists (C18 measure-forced + C19 ρ-vector + corrected C2) — cite v1.1; (b) per Keeper's null-model discipline, the framing should be "independent structural choices dropped (5 → 3 → toward 1, the domain)" NOT "14 RATIFIED criteria" (raw criteria count invites the coincidence-inflation reading a referee catches). (c) Cal #143's 4 v1.0 flags (T-number C12-C14 assignment, Cal #99 META, C8 Five-Absence list, C17 sister principles) should be confirmed resolved in v1.1 before A1 cites it. Recommend: cite v1.1 + independent-choice-reduction framing.
+
+## Hygiene flags
+
+**Flag 3 (version labels)**: filename says v0.2, title/status/content say v0.3. The closing "Provenance of v0.2 changes" (§194) + abstract-era "HELD pending T2442 recheck" / "Ready for Cal cold-read once T2442 lands" (§202) are STALE — T2442 is now RESOLVED in the body (§8.4 "T2442 STANDS"). Reconcile version label to v0.3+ and remove stale HELD language.
+
+**Flag 4 (g channel, minor)**: §1 primaries table marks g=7 channel "arithmetic," but g=7 = embedding/signature dimension p+q is geometric (the Mersenne M_{N_c} over-determination is the arithmetic aspect). Minor channel-label ambiguity.
+
+**Flag 5 (PMNS reconciliation — already flagged §8.5)**: A1 honestly flags the T1935 (4/13, 6/11) vs /N_max (42/137, 75/137) PMNS-set coexistence for reconciliation. **Recommend the tool: the coincidence-denominator test (Cal #32/#154 matched pair) — which set has the lower denominator-of-coincidence / cleaner BST-primary numerator is the forward form.** The /N_max set has the unifying property (sum = 120/137); apply the denominator test to confirm it over T1935.
+
+**Flag 6 (Cabibbo, minor)**: §7 sin θ_C = N_c²/(2^N_c·n_C) = 9/40 = 0.225 (matches λ≈0.225). Recommend verifying its denominator-of-coincidence like the other mixing angles (appears scheme-invariant + BST-anchored; the 2^N_c base ties to the Hall-Littlewood field-size base 2 — reasonable).
+
+## Disposition
+
+A1 v0.3 PASS WITH MINOR FLAGS — strong primary-paper draft; forward spine clean; leads excluded; tier discipline explicit; parameter-role + genus corrections incorporated (convergent cross-CI). Pre-external-dispatch gates: Flag 1 (notation v=2 disambiguation — referee-proofing) + Flag 2 (Strong-Uniqueness v1.1 citation + independent-choice framing) are the substantive ones; Flags 3-6 hygiene. No premature RATIFIED; no overclaim. Ready for v0.4 final once Flags 1-2 addressed.
+
+## Cal cadence
+
+Thursday Cal output #10 (Cal #155). A1 primary-paper cold-read — load-bearing reactive (per R4 priority). Following: Cal #32 candidate-doc filing (Keeper theme E). R5 self-audit at Cal #160 (5 away).
+
+— Cal A. Brate, Thursday 2026-05-28 ~16:56 EDT (`date`-verified). A1 v0.3 primary-paper cold-read PASS WITH MINOR FLAGS. Strong disciplined draft; all 6 pre-read objections PASS; incorporated Cal #146/#153/#154 + Cal #27 + three-genus + invariant-anchor (convergent cross-CI on genus correction). 2 substantive flags: (1) notation collision "U_q^+ at q=2" vs "Macdonald q=0" — use v=2 throughout to disambiguate (Cal #32 applied to paper's own notation; referee-proofing); (2) Strong-Uniqueness citation → v1.1 + independent-choice-reduction framing (not raw "14 criteria"; Keeper null-model) + Cal #143 flags resolved. 4 hygiene flags (version labels, g channel, PMNS-set reconciliation via coincidence-denominator, Cabibbo denominator-check). Ready for v0.4 final once substantive flags addressed.
+
+---
+
+### Cal #156 — Strong-Uniqueness Theorem v1.1 full cold-read (theme C) (Thursday 2026-05-28 ~17:01 EDT)
+
+**Trigger**: full cold-read of `Lyra_Strong_Uniqueness_Theorem_v1_1.md` (Lyra cold-read requested on C18/C19 + null-model; I extend to full v1.1 + Cal #143 v1.0 flag-resolution check). Referee objections written before reading (Cal #143 flags resolved? null-model independent-choice-framed? C18 not double-counted? genus corrected? forcing chain conditional?).
+
+**Overall: STRONG STRENGTHENING, PASS-WITH-FLAGS.** v1.1 genuinely strengthens the theorem; but it did NOT resolve the Cal #143 v1.0 flags, and one is now a Cal #32 instance.
+
+## PASS (strong)
+
+- **Null-model framing (§6) — EXCELLENT**: Lyra explicitly CORRECTED her own first-pass ("more criteria → smaller null model") to Keeper's discipline ("count of independent structural choices DROPPED, 5→3→toward 1, NOT more 1/3 factors"). §6.1 independent-vs-derived taxonomy is exactly right (C18 derived → doesn't count; C19 reduces count; net residual = ONE choice, the domain). This is a **9th honest-negative-strengthens instance** (Keeper→Lyra direction): Keeper caught the coincidence-inflation error, Lyra reframed to sharper. Per Calibration #30 STANDING — the pattern continues (now so routine post-STANDING it's "how the team works"). PASS, strongest part of v1.1.
+- **C18 (FK-measure forced)**: derived theorem, NOT double-counted (per my Cal #154 + Keeper). PASS.
+- **C19 (ρ-vector)**: FRAMEWORK-PLUS; ρ verified canonical Harish-Chandra ρ (my Cal #154). PASS — and C19 benefits from the Cal #154 verification (ρ genuine, not reverse-engineered).
+- **C2 corrected (n_C/rank=5/2=ρ_1)**: matches my Cal #154 g=7-gate resolution. PASS.
+- **Forcing chain (3,3,5)→D_IV⁵ (§6.2)**: CONDITIONAL PASS leg, honestly conditional on B1 identifications. PASS.
+- **Route-A "choose D_IV⁵, zero inputs"**: the deepest uniqueness form; back-fit shortcuts (n_C=N_c²−rank², C_2=N_c·rank) correctly parked. PASS.
+
+## SUBSTANTIVE FLAGS — Cal #143 v1.0 flags NOT resolved in v1.1
+
+v1.1 focused on ADDING C18/C19/Route-A/null-model. It did not address the Cal #143 v1.0 flags:
+
+**Flag A (Cal #143 Flag 1 PERSISTS — and is now a Cal #32 instance)**: §5 table assigns C12 = Rigidity (T2467), C13 = SCMP coherence (T2468), C14 = Bell 1/8 (T2469). Per CLAUDE.md ratification record: T2467 = Rigidity-as-**Singleton** (META per Cal #99); T2468 = Rigidity-as-**Unification** (operational, multiverse); T2469 = **SCMP** (Bell falsifier). So C13's "SCMP (T2468)" mislabels — T2468 is Unification, SCMP is T2469. **This is a Cal #32 parameter-role/slot-assignment instance** (a T-number in the wrong criterion slot — the 5th Cal #32 instance, and it's been unresolved since Cal #143). **Apply the Cal #32 hard-constraint test**: don't value-match — check WHICH theorem actually PROVES which criterion content (T2467 Singleton-META content vs T2468 Unification-operational content vs T2469 SCMP-Bell content), then assign C12/C13/C14 to match. Routed to Lyra/Keeper for the T-number→criterion verification.
+
+**Flag B (Cal #143 Flag 2 PERSISTS)**: C12 = T2467 (Rigidity-as-Singleton, a META-theorem per Cal #99) listed as RIGOROUSLY CLOSED Strong-Uniqueness criterion. Cal #99 (substrate-derivation/META theorems ≠ Strong-Uniqueness criteria) not addressed. Either justify the META→criterion promotion explicitly or anchor C12 on the operational form (T2468 Unification). Combined with Flag A, the C12-C13-C14 cluster needs a T-number/META audit pass.
+
+**Flag C (Cal #143 Flag 3 PARTIAL)**: C8 now references K65 (canonical Five-Absence) — improvement over v1.0's divergent list — but doesn't re-list the absences, so I can't fully verify the list matches canonical (NO GUT/proton-decay/DM/monopoles/sterile/SUSY). Recommend stating the canonical K65 list explicitly.
+
+**Flag D (Cal #143 Flag 4 PARTIAL)**: C17 = "sister principles" candidates; TMAP-Bulk + OMAP-Shilov (Wednesday-PM Casey-decision) not explicitly listed. Update C17 candidate list.
+
+## Minor
+
+- §6.1 per-row "N_c derived once rank chosen" — the dependency is on the DOMAIN (D_IV⁵ → SO(5) → B_2), not rank alone (A_2/C_2/G_2 are also rank-2). §6.1 net residual ("ONE choice — the domain") is correct; the per-row "once rank chosen" is loose. Minor.
+- §6.1 "5 → 1 → ~0": the "~0" (domain forced from SM data) is CONDITIONAL on the §6.2 forcing-chain B1 identifications. Lyra flags the chain conditional in §6.2, but the §6.1 "~0" should carry the conditional tag explicitly (the domain is forced ONLY given colors=h^∨, generations=h−1, n_C=genus).
+- Second N_max rep (§6.1): N_max = 2^g + N_c² = 128 + 9 = 137 (Elie Toy 3594, exact) — forward, clean; g used legitimately as EXPONENT 2^g (Mersenne-base power), distinct from the genus role (Cal #32-consistent — g in the exponent slot, not the genus slot). Good.
+
+## Disposition
+
+v1.1 PASS-WITH-FLAGS: genuinely strengthens the theorem (null-model framing excellent + honest self-correction; C18/C19/C2/Route-A/forcing-chain solid). The Cal #143 v1.0 flags carry forward to v1.2 — **especially Flag A (C12-C14 T-number assignment, now a Cal #32 5th instance) + Flag B (Cal #99 META distinction)**. These are pre-external-publication gates (A1 cites Strong-Uniqueness; the criteria must be correctly labeled). Cal #27 honest-tier preserved by Lyra (§7: "stronger, not RATIFIED-complete; candidates open; no premature 'uniqueness proved'"). Good.
+
+**Recommendation**: a C12-C14 T-number/META audit pass (Flags A+B) applying the Cal #32 hard-constraint test (which theorem proves which content) + Cal #99 (META vs criterion) — before A1 or any paper cites the v1.1 criteria externally.
+
+## Cal cadence
+
+Thursday Cal output #11 (Cal #156). Strong-Uniqueness v1.1 full cold-read — central-theorem load-bearing. Notable: the Cal #143 flag (T-number assignment) is now recognizable as a Cal #32 instance — the parameter-role discipline applies to criterion T-number slots too. R5 self-audit at Cal #160 (4 away).
+
+— Cal A. Brate, Thursday 2026-05-28 ~17:01 EDT (`date`-verified). Strong-Uniqueness v1.1 full cold-read PASS-WITH-FLAGS. Strong strengthening: null-model framing EXCELLENT (Lyra corrected own first-pass to Keeper's independent-choice discipline — 9th honest-negative-strengthens, Keeper→Lyra); C18 derived-not-double-counted; C19 ρ verified-canonical (Cal #154); C2 corrected 5/2; forcing chain conditional leg; Route-A. BUT Cal #143 v1.0 flags NOT resolved: Flag A (C12-C14 T-number assignment — C13 "SCMP(T2468)" mislabels; T2468=Unification, SCMP=T2469 — now a Cal #32 5th instance, T-number-in-wrong-criterion-slot; apply hard-constraint test = which theorem proves which content); Flag B (C12=T2467 META-Singleton promoted to criterion — Cal #99 distinction); Flags C/D partial (Five-Absence list, TMAP/OMAP sister principles). C12-C14 T-number/META audit pass recommended before external citation. Cal #27 honest-tier preserved by Lyra.
+
+---
+
+### Cal #157 — A1 genus-contradiction: computation input to Keeper's FK-genus pin + Cal #32 6th instance (Thursday 2026-05-28 ~17:04 EDT)
+
+**Trigger**: Keeper's A1 K-audit (CONDITIONAL PASS) found 4 cross-section contradictions; the load-bearing one is the genus naming (§8.1 "n_C = FK genus = 5" vs §1/§8.4 "FK genus = C_2 = 6"). Keeper routed it to a primary-source pin, applying the discipline "I will not guess the name from memory — I was wrong on exactly this once today." Cal contributes a computation as INPUT (not a pre-emption) + the Cal #32 framing.
+
+## Convergence: Keeper's K-audit extends my Cal #155 flags
+
+Keeper's 4 contradictions overlap + systematize my Cal #155 flags: my Flag 3 (stale "HELD pending T2442" §202 vs RESOLVED §8.4) is Keeper's contradiction #2 (kernel exponent §1 stale vs §8.4); my version-label flag is part of the consistency-sweep problem. My cold-read caught individual flags; Keeper's K-audit caught the systematic cross-section consistency problem. Complementary — and the genus (#1) is the load-bearing overlap. Good cross-CI: cold-read + K-audit are different lenses, both needed.
+
+## Cal computation — INPUT to Keeper's FK-genus pin (not a pre-emption)
+
+Applying the Cal #32 hard-constraint test (don't assume the name — compute from the framework definition) to the genus question. The genus of an irreducible bounded symmetric domain: **p = (r−1)·a + b + 2** (r = rank, a, b = characteristic multiplicities). Type IV domain D_IV^n: rank r = 2, a = n−2, b = 0:
+**p = (2−1)(n−2) + 0 + 2 = n.** For D_IV⁵: **genus p = 5 = n_C.**
+
+So (by this standard BSD genus formula): the genus of D_IV⁵ is **5 = n_C** — a SINGLE value. C_2 = 6 is the quadratic Casimir (NOT a genus); g = 7 is the embedding/signature dimension p+q = 5+2 (NOT a genus). This means:
+- "**FK genus = C_2 = 6**" (A1 §1, §8.4) appears to be a **mislabel** — the FK/domain genus is 5, not 6; C_2 = 6 is the Casimir.
+- The "**three-genus convention**" (Hua=5, FK=6, embedding=7) conflates ONE genus (p = n_C = 5) + the Casimir (C_2 = 6) + the embedding dimension (g = 7). Only one of the three is a genus. The convention should read: **genus = n_C = 5; Casimir = C_2 = 6; embedding/signature = g = 7** — three distinct invariants, but only the first is a "genus."
+- This RESOLVES the §8.1-vs-§1/§8.4 contradiction in favor of §8.1's value (genus = n_C = 5) — but with the naming correction that there is ONE genus (5), not two (Hua 5 / FK 6); "FK genus = 6" drops.
+
+**Discipline note**: I offer this as a COMPUTATION (standard BSD genus formula), NOT a memory-guess, and explicitly recommend Keeper's primary-source pin (Faraut-Korányi's Type IV genus table) to CONFIRM — both the formula application AND whether "FK genus" and "Hua genus" are even distinct names (I believe they're the same p; the literature pin settles it). I do not pre-empt Keeper's pin; I support it with the computation. Per the same discipline Keeper invoked ("don't guess from memory") — a computed value + primary-source confirmation is the right form.
+
+## Cal #32 — 6th instance ("FK genus = C_2 = 6")
+
+The genus mislabel is a Cal #32 parameter-role/slot-assignment instance (6th): C_2 = 6 placed in the "FK genus" slot, where the genus is actually 5 (= n_C) and C_2 is the Casimir. Same failure mode as three-genus/α/Macdonald-q-t/g-vs-n_C/T-number-C12-C14. The hard-constraint test (genus multiplicity formula) catches it: the formula gives 5, not 6, so C_2=6 cannot be the genus.
+
+**Notable**: the A1 consistency sweep is substantially a Cal #32 parameter-role/slot sweep. The contradictions cluster around slot-assignments — genus naming (this), kernel exponent (g vs n_C, Cal #154), Macdonald q/t (Cal #153), and the T-number C12-C14 (Cal #156 Flag A). Four of the paper's consistency issues are parameter-role/slot issues = Cal #32. **Recommend the A1 sweep apply Cal #32's hard-constraint test systematically**: for each "X = Y" identification, check Y is in the right slot via the framework's hard constraint (genus formula, integrality, dimension consistency), not by value-match.
+
+**Endorse Keeper's self-applied discipline**: "I will not guess the name from memory — I was wrong on exactly this once today" IS the Cal #32 discipline applied to naming (don't assume the slot; pin it to the primary source / hard constraint). Keeper applying it to himself, after the morning's parameter-role catches, is the discipline maturing across the team.
+
+## Disposition
+
+The genus contradiction resolves to: genus = n_C = 5 (single value, via BSD genus formula); C_2 = 6 = Casimir; g = 7 = embedding dim; "FK genus = C_2 = 6" is a mislabel; the three-genus convention should distinguish genus/Casimir/embedding (only one is a genus). PENDING Keeper's primary-source pin to confirm the FK naming + formula. The other 3 A1 contradictions (kernel exponent, α placement, PMNS) are consistency-sweep items (stale §1 vs resolved §8.4) — my Cal #155 flags + Keeper's K-audit both cover them. A1 path: consistency sweep (Lyra) + genus pin (Keeper) → v0.4 → Cal cold-read of consistent v0.4 → final PASS.
+
+## Cal cadence
+
+Thursday Cal output #12 (Cal #157). Computation-input to unblock Keeper's A1 genus pin — the blocking item on the PRIMARY paper. Cal #32 6th instance. R5 self-audit at Cal #160 (3 away). The A1-consistency-sweep-is-a-Cal-#32-sweep observation is the synthesis worth carrying.
+
+— Cal A. Brate, Thursday 2026-05-28 ~17:04 EDT (`date`-verified). A1 genus contradiction: computed BSD genus p=(r−1)a+b+2 = n = 5 = n_C for D_IV⁵ (input to Keeper's FK-genus primary-source pin, NOT pre-empting it). So genus = 5 (single value); "FK genus = C_2 = 6" is a mislabel (C_2 = Casimir; g=7 = embedding dim; only n_C=5 is a genus); three-genus convention should distinguish genus/Casimir/embedding. Cal #32 6th instance. KEY SYNTHESIS: the A1 consistency sweep is substantially a Cal #32 parameter-role/slot sweep (genus + kernel exponent + Macdonald q/t + T-number C12-C14 all slot-assignment issues) — recommend applying Cal #32 hard-constraint test systematically. Endorsed Keeper's self-applied "don't guess from memory, pin to source" = Cal #32 discipline on naming. PENDING Keeper primary-source confirmation.
+
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD conditional status — UPDATED by #36 (May 7). Tier table added. All Cal findings resolved.
 3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Now superseded by four-line geometric proof (Theorem 6.5, v1.4).

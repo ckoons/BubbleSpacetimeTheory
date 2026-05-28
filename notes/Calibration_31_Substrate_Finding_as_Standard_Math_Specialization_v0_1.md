@@ -44,10 +44,11 @@ With explicit recognition, substrate-mechanism work can:
 ### Instance 1 — Cal #139 cyclotomic chain = q=2 specialization (Wednesday 2026-05-27)
 
 - **Initial framing**: substrate-specific cyclotomic chain at exponents {rank, rank², rank·N_c} producing BST-primary factorings
-- **Standard-math recognition**: Elie Toy 3554 identified Cal #139's 2^X − 1 structure as q=2 specialization of standard q-integers [n]_q = (q^n−1)/(q−1)
-- **Substrate-specific content shift**: substrate-specific content is now WHY substrate operates at q=2 (not q=3, q=5, etc.), not the cyclotomic chain structure itself
-- **Tractability gain**: q-deformation mathematics is well-established (Ringel-Green Hall algebras, Kac-Moody U_q(g), Macdonald polynomials); substrate inherits this machinery
-- **Tier**: FRAMEWORK-PLUS pending Elie Toy 3555 multi-q test verification
+- **Standard-math recognition**: Elie Toy 3554 identified Cal #139's 2^X − 1 structure as the Gaussian q-integer [n]_v = (v^n−1)/(v−1) at v=2 (field size)
+- **PARAMETER-ROLE CORRECTION (Cal #153, Thu 2026-05-28 per Keeper flag)**: the "2" is the Gaussian-integer / field-size parameter, which maps to the **Macdonald t at the Hall-Littlewood corner (Macdonald q=0, t=2)** — NOT Macdonald q=2. Earlier "q=2 specialization" phrasing conflated the Gaussian-q-integer parameter with Macdonald-q. The substrate-specific content is WHY substrate operates at field-size-2 / Hall-Littlewood corner, not at the (mislabeled) interior Macdonald q=2.
+- **Substrate-specific content shift**: substrate-specific content is WHY substrate operates at field-size 2 (Hall-Littlewood corner), not the cyclotomic chain structure itself
+- **Tractability gain**: q-deformation mathematics is well-established (Ringel-Hall = Hall-Littlewood q=0 corner, Kac-Moody U_v(g), Macdonald polynomials); substrate inherits this machinery
+- **Tier**: FRAMEWORK-PLUS pending Elie Toy 3555 multi-q test verification (multi-field-size: v=2 unique)
 
 ### Instance 2 — BST primaries as first 4 Mersenne-prime exponents (Grace Memorial Day → ongoing)
 
@@ -60,10 +61,11 @@ With explicit recognition, substrate-mechanism work can:
 ### Instance 3 — Bergman exponent g/rank = 7/2 at substrate-natural values (T2442 RIGOROUSLY CLOSED earlier)
 
 - **Initial framing**: substrate's Bergman kernel exponent g/rank = 7/2 with normalization c_FK · π^(9/2) = 225 EXACT
-- **Standard-math recognition**: Bergman kernels K(z, w̄) = c_FK · (1 − z·w̄)^(−p) for bounded symmetric domains are standard math (Faraut-Koranyi normalization, Hua-Look measures); D_IV⁵ has specific p value at substrate primaries
-- **Substrate-specific content shift**: substrate-specific content is the SELECTION of g/rank = 7/2 (within standard Bergman kernel framework), not the Bergman kernel structure
+- **Standard-math recognition**: Bergman kernels K(z, w̄) = c_FK · (1 − z·w̄)^(−p) for bounded symmetric domains are standard math (Faraut-Koranyi normalization, Hua-Look measures); D_IV⁵ has specific genus p at substrate primaries
+- **PARAMETER-ROLE CORRECTION (Cal #154, Thu 2026-05-28)**: the genuine FK/Bergman kernel exponent is the GENUS-based **n_C/rank = 5/2 = ρ₁** (genus p = n = n_C = 5 for D_IV^n; exponent = genus/rank), confirming Lyra's corrected C2. The earlier "g/rank = 7/2" was the parameter-role mislabel — g = 7 = genus + 2 = n_C + rank, NOT the FK exponent (this resolves Keeper's open g=7 Bergman gate: g=7 is the genus+2 mislabel). Cal cold-read computed the Harish-Chandra ρ(D_IV⁵) = (n/2,(n−2)/2) = (5/2,3/2), genus = n_C = 5.
+- **Substrate-specific content shift**: substrate-specific content is the SELECTION of genus n_C = 5 → kernel exponent n_C/rank = 5/2 (within standard Bergman framework), not the Bergman kernel structure
 - **Tractability gain**: bounded symmetric domain analysis is well-developed (Hua, Koranyi, Wolf, Faraut); substrate inherits machinery
-- **Tier**: T2442 RIGOROUSLY CLOSED — instance well-established
+- **Tier**: corrected exponent n_C/rank = 5/2 PASSES the Cal #31 guard (non-generic genus-based, load-bearing); c_FK = 225/π^(9/2) (T2442) unaffected. **FLAG**: tension with T2440 ("Bergman exponent g/rank=7/2") routed to Lyra/Keeper for reconciliation (Cal does not assert T2440 status — Keeper's audit lane).
 
 ### Instance 4 — Wallach K-types within standard Wallach representation theory
 
@@ -76,8 +78,9 @@ With explicit recognition, substrate-mechanism work can:
 ### Instance 5 — Substrate Hall algebra = U_q^+(B_2) at q=2 (Thursday 2026-05-28; CONFIRMED, was candidate)
 
 - **Initial framing**: substrate's operator algebra A_sub / multi-phase quiver structure appeared substrate-specific
-- **Standard-math recognition**: Lyra Phase 0 Closure v0.1 — substrate Hall algebra H(Q_B2) over GF(2) ≅ U_q^+(B_2) (positive part of quantum group) via Ringel-Green theorem, at substrate-natural q=2. The defining q-Serre structure constants are [2]_2 = 3 = N_c (short root) and [3]_4 = 21 = N_c·g (long root) — forward-consequences of (B_2 Cartan matrix) + (q=2)
-- **Substrate-specific content shift**: substrate-specific content is the SELECTION of (B_2 quiver, q=2) within the standard Hall-algebra / quantum-group framework, not the framework itself
+- **Standard-math recognition**: Lyra Phase 0 Closure v0.1 — substrate Hall algebra H(Q_B2) over GF(2) ≅ U_v^+(B_2) (positive part of quantum group) via Ringel-Hall theorem, at field size v=2. The defining Serre structure constants are [2]_2 = 3 = N_c (short root) and [3]_4 = 21 = N_c·g (long root) — forward-consequences of (B_2 Cartan matrix) + (field size 2)
+- **PARAMETER-ROLE CORRECTION (Cal #153, Thu 2026-05-28 per Keeper flag)**: the Ringel-Hall algebra over a field of size L is the **Hall-Littlewood / Macdonald q=0 corner with parameter t=L**. So substrate Hall algebra over GF(2) lives at the **Hall-Littlewood corner (Macdonald q=0, t=2)**, NOT an interior Macdonald q=2. Earlier "at q=2" phrasing mislabeled the corner. Serre constants robust (field-size-2 Gaussian integers); LOCATION corrected to Hall-Littlewood corner. (Cal cold-read missed this; Keeper caught it via Elie 3587 — see Cal #153.)
+- **Substrate-specific content shift**: substrate-specific content is the SELECTION of (B_2 quiver, field size 2 / Hall-Littlewood corner) within the standard Hall-algebra / quantum-group framework, not the framework itself
 - **Tractability gain**: Ringel-Green + quantum-group representation theory + PBW basis machinery all inherited
 - **Tier**: FRAMEWORK-PLUS (Serre coefficients forward-computed; full A_sub ↔ U_q^+(B_2) isomorphism multi-week per Lyra)
 - **Investigation context**: quantum groups / Ringel-Green Hall algebras — NEW context (distinct from #1-#4)

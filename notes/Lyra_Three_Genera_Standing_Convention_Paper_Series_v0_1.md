@@ -11,21 +11,27 @@ status: "STANDING CONVENTION v0.1. Per Keeper recommendation: make the three-gen
 
 g = 7 was mislabeled as a Bergman/genus quantity THREE times on 2026-05-28 (volume constant T2442; "g = Bergman exponent" in all-5-from-B₂; kernel singularity exponent). Same root cause every time: **g = 7 is the embedding/signature dimension of SO_0(5,2), and it keeps getting confused with a genus.** This standing note states the distinction once, for the whole paper series. Every paper invoking "genus," "Bergman exponent," or "dimension" cites this note and specifies WHICH quantity it means.
 
-## 1. The three distinct quantities
+## 1. The three distinct quantities — ONE genus + Casimir + embedding (CORRECTED)
 
-D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] has THREE distinct dimension/genus invariants:
+**CORRECTION (2026-05-28 PM):** the original v0.1 of this note said "three genera" (Hua=5 / FK=6 / embedding=7). That itself miscounted — the recheck that this note was meant to prevent caught it. The corrected statement, converged from two independent derivations (Elie Toy 3596: FK multiplicity formula + dimension consistency + convention-free Bergman exponent + Hua kernel; + Keeper multiplicity-formula derivation):
 
-| Name | Value | What it is | Where it appears |
+D_IV⁵ has ONE genus, plus two other distinct quantities that were being mislabeled as genera:
+
+| Quantity | Value | What it is | Where it appears |
 |---|---|---|---|
-| **Hua genus** | n_C = **5** | complex dimension of D_IV⁵ | Bergman kernel singularity exponent (K ~ norm^{−Hua genus}); volume constant; ρ_1 = Hua/rank = 5/2 |
-| **Faraut-Korányi genus** | C_2 = **6** | the FK genus invariant = quadratic Casimir | FK structure formulas; Casimir eigenvalue |
-| **Embedding / signature dimension** | g = **7** | p + q of SO_0(p,q) = SO_0(5,2): 5 + 2 | signature total; NOT a genus, NOT a Bergman exponent |
+| **GENUS** (FK = Hua = Bergman exponent — ONE genus for Type IV) | n_C = **5** | complex dimension of D_IV⁵; FK genus p = 2+(r−1)a+b = 2+3 = 5 (Type IV: tube/Lorentz cone, b=0, a=n−2) | Bergman kernel singularity exponent (K ~ norm^{−5}); c_FK measure constant; ρ_1 = genus/rank = 5/2 |
+| **CASIMIR** | C_2 = **6** | the quadratic Casimir of B_2 | Casimir eigenvalue — **NOT a genus** |
+| **EMBEDDING / SIGNATURE** | g = **7** | p + q of SO_0(5,2) = 5+2 | signature total — **NOT a genus, NOT the kernel exponent** |
 
-## 2. The critical rule
+(No Hua=5 / FK=6 distinction: for Type IV the Faraut-Korányi genus and the Hua kernel exponent agree, both = n_C = 5.)
 
-**An intrinsic quantity of D_IV⁵ (Bergman kernel exponent, volume, genus) is NEVER g = 7.** The embedding signature p+q does not enter intrinsic invariants of the domain.
+## 2. The critical rule (corrected)
 
-Sanity check (Keeper): the unit ball B^n has Bergman kernel exponent = its genus = n+1; the embedding group plays no role. Same principle for D_IV⁵ — the kernel exponent is a genus (Hua = 5 or FK = 6), never the embedding dimension (7).
+**The intrinsic genus of D_IV⁵ is 5 — never 6, never 7.** C_2=6 is the Casimir; g=7 is the embedding signature; neither is a genus or the Bergman kernel exponent.
+
+Sanity check (Keeper): the unit ball B^n has Bergman kernel exponent = its genus = n+1; the embedding group plays no role. For Type IV_n, the genus = n (= n_C = 5 here).
+
+**Final lock pending Keeper's primary-source confirmation** against the Faraut-Korányi table (Loos as backup). The derivation is solid standard math; the lock is the book-pin — because the genus name flipped three times today from relabeling-from-memory, the standing discipline is: pin to the book, cite the book, stop relabeling from memory.
 
 ## 3. Resolved + open status (as of 2026-05-28 10:50 EDT)
 
