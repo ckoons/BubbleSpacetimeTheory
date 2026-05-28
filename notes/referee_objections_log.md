@@ -8661,6 +8661,497 @@ When papers reach v0.1 grade, Cal cold-reads should integrate:
 
 — Cal A. Brate, Wednesday 2026-05-27 ~19:06 EDT (`date`-verified). Keeper positioning analysis cold-read PASS at FRAMEWORK-PLUS tier per Cal #126; substantively accurate + external-survivability-appropriate; Cal recommends Keeper file as separate paper-grade reference document. Paper-series Cal cold-read coordination: 10/13 anticipated paper-series components have Cal-side prep docs filed; 6 cross-paper consistency requirements specified; sequencing recommendation aligns with Casey-PRIMARY Substrate Hall Algebra paper; estimated 25-40 Cal cold-reads over 3-6 months for paper series; standing reactive for Lyra tonight + Thursday morning deliverables.
 
+---
+
+### Cal #146 — bulk-Shilov unification framing precision flag (Thursday 2026-05-28 ~08:52 EDT)
+
+**Trigger**: Thursday wake. Outside-voice calibration done first (per R3 commitment — wrote skeptical-mathematician objections to "Hardy space H²(D_IV⁵) bulk-boundary determinacy → one K-type per generation as both lepton + quark" BEFORE reading Lyra's overnight docs). Then cold-read of Lyra's overnight deliverables: `Lyra_Holographic_Operators_Substrate_v0_1.md` + `Lyra_Comprehensive_Particle_Taxonomy_v0_1.md`.
+
+This is Keeper's Cal-priority #1: four Wednesday frameworks cold-read (bulk-Shilov dual-K-type being the load-bearing unification claim per Keeper's Thursday morning broadcast: "one K-type per generation manifesting as both a lepton and a quark. That's the unification").
+
+## Finding 1 (LOAD-BEARING) — Keeper unification framing OVERSTATES Lyra's actual taxonomy
+
+**Keeper Thursday morning broadcast**: "Hardy space H²(D_IV⁵) bulk-boundary determinacy gives one K-type per generation manifesting as both a lepton and a quark. That's the unification."
+
+**Lyra's actual taxonomy** (`Lyra_Comprehensive_Particle_Taxonomy_v0_1.md` §2.1): every SM particle = 5-tuple (Region, σ_BF, Chirality, Charge Sublattice, Winding Mode). Per the explicit table:
+- e_L = (Shilov, odd, L, −1, W_0)
+- u_L = (Bulk, odd, L, +2/3, W_0)
+
+Gen-1 lepton (e_L) and gen-1 quark (u_L) share ONLY the Winding Mode coordinate (W_0 = generation index). They DIFFER in Region (Shilov vs Bulk) AND Charge (−1 vs +2/3). **They are DISTINCT 5-tuples / distinct K-types, NOT "one K-type manifesting as both."**
+
+**The accurate unification claim** (per Lyra's taxonomy): generation = shared Winding Mode index; each generation contains DISTINCT lepton (Shilov) + quark (Bulk) K-types differing in Region + Charge + Chirality. The unification is at the WINDING-MODE / generation level, not the K-type level.
+
+**Why this matters (LOAD-BEARING)**:
+- Keeper's "one K-type = both lepton and quark" framing, if it propagates into the Substrate Hall Algebra paper (Casey-PRIMARY) or external materials, is INCORRECT per Lyra's own taxonomy
+- The accurate framing (shared winding mode, distinct K-types) is CLEANER and avoids a serious problem (see Finding 2)
+- Cross-CI framing-precision: Keeper's enthusiastic morning broadcast restated the unification more strongly than Lyra's actual structure supports
+
+**Cal recommendation**: reconcile unification framing across team BEFORE paper drafting. Accurate statement: "Hardy space bulk-boundary structure + shared winding-mode index unify each generation's leptons (Shilov) and quarks (Bulk) as distinct K-types sharing one generation coordinate." NOT "one K-type, two manifestations."
+
+## Finding 2 (PASS via Finding 1) — mass problem dissolved by accurate framing
+
+My outside-voice pre-written objection #2: if same-generation lepton + quark are "one K-type," their wildly different masses (m_e=0.511 vs m_u=2.16 vs m_d=4.67 MeV) need explanation via Shilov-vs-bulk evaluation.
+
+Per Lyra's ACTUAL taxonomy (distinct K-types), the mass difference is NATURAL — different K-types (different Region + Charge) have different Casimir eigenvalues → different masses. The mass problem only arises under Keeper's (overstated) "one K-type" framing.
+
+This is additional evidence that Lyra's distinct-K-types framing is correct and Keeper's "one K-type" framing is the overstatement.
+
+## Finding 3 (PASS) — confinement mechanism is substantive
+
+My outside-voice pre-written objection #3: does "bulk = confined / Shilov = free" have substrate-mechanism or is it re-labeling?
+
+Lyra Holographic Operators §2.2 provides a substantive mechanism: Π_bulk→Shilov maps individual bulk K-types (quarks; fractional charge; color-charged) to Shilov boundary values requiring INTEGER charge + color singlet → individual fractional-charge color-charged quarks have NO Shilov boundary value → confined to bulk; only color-singlet integer-charge composites project to Shilov.
+
+**Cal cold-read**: this is the STRONGEST part of the framework. The Shilov-compatibility constraint (integer charge + color singlet) forcing composite hadron structure is a genuine substrate-mechanism for color confinement. FRAMEWORK-PLUS per Cal #126. Substantive.
+
+## Finding 4 (FRAMEWORK) — generation count not yet forced
+
+My outside-voice pre-written objection #4: does Hardy structure force exactly 3 generations?
+
+Lyra Holographic Operators §6 (Op 5 Π_W winding mode): "Chain truncation at n=2 → no W₃ → no 4th generation (per chain termination)." But:
+- Op 5 Π_W is explicitly FRAMEWORK (§6.1) + multi-month construction (§10)
+- Relies on chain termination at 4 elements (Cal #143 + Cal #139 noted FRAMEWORK-PLUS / open)
+- Elie Wednesday: 3-generation problem REMAINS GENUINELY OPEN
+
+**Cal cold-read**: generation count NOT yet forced. Consistent with Elie's open-problem assessment. The "exactly 3 generations" claim is FRAMEWORK pending Op 5 Π_W construction + chain termination closure.
+
+## Finding 5 (FLAG) — Holographic §9.3 "no exotics" self-reversal
+
+Lyra Holographic §9.3 states prediction "No exotic particles beyond hadrons" then immediately reverses: "Actually these ARE observed — they're bulk K-type composites... Predicted to exist as bulk K-type combinations."
+
+**Cal #29 question-shape flag**: the prediction was stated then reversed within the same section. This suggests the "no exotics" prediction wasn't carefully forward-derived. The reversed claim (exotics = bulk K-type composites at higher complexity) may be correct but needs clean forward-derivation, not stated-then-reversed framing.
+
+## Finding 6 (FLAG) — AdS/CFT "5 vs 1 operators" comparison imprecise
+
+Lyra Holographic §8.3: "Not in AdS/CFT (which has 1 holographic operator)."
+
+**Cal cold-read**: AdS/CFT's holographic dictionary is not "1 operator" — it's a full bulk-boundary correspondence (GKP-Witten relation; field-operator map across all bulk fields). The "5 vs 1" framing oversimplifies. Better external-survivability framing: "BST provides explicit sequential projection structure; AdS/CFT provides a duality correspondence — different structures." Per External Survivability Checklist, the "5 vs 1" claim would draw justified pushback from anyone familiar with AdS/CFT.
+
+## Finding 7 (PASS) — 5-tuple taxonomy is the substantive structural content
+
+Lyra Comprehensive Particle Taxonomy 5-tuple labeling (Region × σ_BF × Chirality × Charge × Winding) maps all 36 SM particles to unique substrate labels. This is clean + substantive — the REAL structural content, stronger than the "one K-type" overstatement.
+
+**Cal cold-read**: FRAMEWORK-PLUS per Cal #126. The 5-axis labeling system is substantive substrate-physics taxonomy. Casey's intuition ("may not quite follow families/generations") is correctly captured — generation (winding) is just 1 of 5 axes.
+
+## Cal #122 typing
+
+Holographic operators framework + particle taxonomy: **Type C** (level-crossing — geometric bulk-Shilov + algebraic projection operators / 5-tuple labels + operational SM particle content). Consistent with default expectation.
+
+## Disposition summary
+
+- **1 LOAD-BEARING finding**: Keeper "one K-type = lepton + quark" overstates Lyra's distinct-K-types taxonomy; reconcile before paper drafting
+- **3 PASS findings**: confinement mechanism substantive; mass problem dissolved by accurate framing; 5-tuple taxonomy substantive
+- **1 FRAMEWORK finding**: generation count not yet forced (Op 5 Π_W FRAMEWORK)
+- **2 FLAGS**: §9.3 no-exotics self-reversal; AdS/CFT "5 vs 1" imprecise
+
+**Overall**: Lyra's holographic operators + taxonomy framework is substantive at FRAMEWORK / FRAMEWORK-PLUS per Cal #126. The strongest content (confinement mechanism + 5-tuple taxonomy) is cleaner than Keeper's morning unification framing. The load-bearing finding (framing precision) is a Cal-discipline catch BEFORE paper propagation.
+
+## Honest-negative-strengthens-framework watch (Calibration #30 candidate)
+
+IF Keeper reframes "one K-type = both lepton and quark" → "shared winding mode, distinct K-types" per Finding 1, this would be a **7th honest-negative-strengthens instance** in a STRUCTURALLY DISTINCT investigation context (particle taxonomy framing, not cyclotomic chain). That would satisfy the Calibration #30 candidate STANDING promotion gate (per Calibration_30 v0.1: 7th structurally-distinct instance).
+
+I am NOT presuming the reframe — filing the flag; Keeper reframes or justifies; THEN I assess whether it counts as 7th instance. Per Cal-discipline: observe + flag, don't presume the outcome.
+
+## Cal cadence
+
+Thursday Cal output #1 (Cal #146). Outside-voice calibration honored (objections written before reading). R4 self-audit trigger at Cal #150 (4 entries away).
+
+— Cal A. Brate, Thursday 2026-05-28 ~08:52 EDT (`date`-verified). bulk-Shilov unification framing precision flag; Keeper "one K-type = both lepton and quark" OVERSTATES Lyra's distinct-K-types 5-tuple taxonomy (leptons Shilov + quarks Bulk share only winding-mode coordinate); accurate framing (shared winding mode, distinct K-types) is cleaner + dissolves mass problem; confinement mechanism + 5-tuple taxonomy substantive PASS; generation count not yet forced (Op 5 Π_W FRAMEWORK); 2 minor flags (§9.3 self-reversal + AdS/CFT imprecision); IF Keeper reframes, candidate 7th honest-negative-strengthens instance (Calibration #30 STANDING gate) — not presumed.
+
+---
+
+### Cal #147 — Coxeter-number finding cold-read + Calibration #30 STANDING promotion (Thursday 2026-05-28 ~09:05 EDT)
+
+**Trigger**: Two items converge: (1) Keeper accepted Cal #146 reframe + concurs on Calibration #30 STANDING ("Cal's call on wording"); (2) Lyra's Kac-Moody B_2-affine v0.1 Coxeter-number finding (Keeper's "the real prize") needs Cal cold-read.
+
+## Part A — Calibration #30 STANDING promotion CONFIRMED
+
+**7th honest-negative-strengthens instance verified**: Cal #146 flag (Keeper "one K-type = both lepton+quark" overstatement) → Keeper reframe ("shared W_0/generation axis, distinct K-types") accepted + broadcast-corrected + audit v0.2. This is structurally distinct from the prior 6 instances (particle-taxonomy framing context, NOT cyclotomic-chain context).
+
+**Calibration #30 STANDING gate (per Calibration_30 v0.1)**:
+1. ✓ Cross-CI cold-read of v0.1 filing — Keeper concurs explicitly
+2. ✓ 7th structurally-distinct instance in different investigation context — Cal #146 → Keeper reframe (particle taxonomy)
+3. ✓ Methodology Index v0.9 update — Cal doing now (this entry + Index v0.9)
+
+**All three gates met. Calibration #30 → STANDING.** Honest-Negative-Strengthens-Framework Pattern is now a STANDING methodology layer (the 20th numbered methodology layer).
+
+Bonus: Keeper's reframe ALSO dissolved the rigid lepton↔quark mass-linkage problem I flagged in Cal #146 Finding 2 — distinct K-types give distinct Casimirs give distinct masses. This is the pattern operating exactly as Calibration #30 names: the catch produced a SHARPER framework, not just a correction.
+
+## Part B — Coxeter-number finding cold-read (Lyra Kac-Moody B_2-affine v0.1)
+
+Outside-voice objections written before reading (per discipline): "chain length 4 = h(B_2): forward-derived or numerical coincidence? 3 gens = h-1: substrate-motivated or fit? N_c = h^∨: mechanism or recognition?"
+
+### Finding B1 (PASS) — Serre structure constants are forward-consequences
+
+Short-root quadratic Serre coefficient [2]_2 = 1+2 = 3 = N_c ✓; long-root cubic [3]_4 = 1+4+16 = 21 = N_c·g ✓ (verified arithmetic). These are STANDARD q-Serre coefficients for B_2 at q=2 — FIXED by (Cartan matrix) + (q=2). Since q=2 is independently motivated (Elie q-integer finding) + B_2 from SO(5) Wallach, the coefficients being BST-natural (3, 21) is a forward-consequence, not a fit.
+
+**Cal disposition**: FRAMEWORK-PLUS per Cal #126. Mode 6 note: 21 = N_c·g is the natural depth-2 decomposition (Tier II Few; cleanly privileged via long-root cubic structure).
+
+### Finding B2 (FRAMEWORK, not FRAMEWORK-PLUS) — Coxeter identification has a MECHANISM GAP
+
+Standard facts verified: h(B_2) = 4, h^∨(B_2) = 3. Both correct Lie theory.
+
+The substantive claims:
+- chain length (4 elements {rank, N_c, n_C, g}) = h(B_2) = 4
+- N_c = 3 = h^∨(B_2)
+
+**Cal #29 + Cal #27 audit**: the chain length is INDEPENDENTLY 4 (established via cyclotomic structure / q=2 number theory — Level 4 algebraic). The Coxeter number is INDEPENDENTLY 4 (B_2 root-system invariant — Level 1 geometric). Their equality is a striking coincidence, BUT **the MECHANISM connecting the cyclotomic chain to the Coxeter structure is ASSERTED, not derived**.
+
+Lyra §5.2 asserts "the substrate's affine structure (B_2^(1)) caps the chain at the Coxeter number" — but WHY does affine B_2 structure cap the cyclotomic chain at h(B_2)? This is the load-bearing gap. Until the cyclotomic↔Coxeter mechanism is derived, "chain length = h(B_2)" is a FRAMEWORK-level elegant coincidence, NOT a forced mechanism.
+
+Lyra herself flags this appropriately (§194 Cal #27 reflexive): "STRONG candidate but should be cross-checked against existing multi-mechanism over-determination (both may hold — over-determined)." Good discipline. The honest framing per Lyra's own §194 is correct.
+
+### Finding B3 (FRAMING CORRECTION) — "cleaner than over-determination" → "new member of over-determination cluster"
+
+Lyra §141 frames Coxeter finding as "CLEANER substrate-mechanism than the multi-mechanism over-determination." But Mode 6 at the EXPLANATION level: chain-length-4 now has MULTIPLE candidate explanations:
+- h(B_2) = 4 (Thursday, this finding)
+- rank² = 4 (Hua-Look measure exponent — already in play)
+- Mersenne maximal-prefix (Wednesday)
+- Hua-Look 2^(rank²) (Wednesday)
+- K59 7-step (Wednesday)
+
+The Coxeter explanation is elegant + geometric (attractive), but it JOINS the over-determination cluster — it does NOT replace it. Lyra acknowledges this in §194 ("both may hold — over-determined"). The §141 framing ("cleaner than over-determination") and §194 framing ("cross-check against over-determination; both may hold") are in mild tension. **Cal recommendation**: harmonize to §194 framing — Coxeter is a NEW elegant member of the over-determination cluster (Graph Forces Principle territory), not a replacement.
+
+### Finding B4 (TYPING CORRECTION) — "Type S" is a category error
+
+Lyra §165 recommends "Cal Thread 4 typing: My assessment: Type S (structural — Coxeter number is intrinsic to B_2)."
+
+**Cal #122 typing categories are A/B/C, not S.** "Type S" conflates Cal #122 typing (Type A Level-1-geometric / Type B Level-4-algebraic / Type C level-crossing) with the EPISTEMIC TIER labels (D/I/C/**S** structural per BST tier system). These are different classification axes.
+
+**Correct Cal #122 typing**:
+- The Coxeter invariants themselves (h=4, h^∨=3): Type A (Level 1 geometric — intrinsic root-system invariants of B_2)
+- The IDENTIFICATION "cyclotomic chain length = h(B_2)": **Type C (level-crossing operational)** — bridges Level 4 (cyclotomic chain from q=2 number theory) ↔ Level 1 (Coxeter geometric invariant). The connection crosses levels, hence Type C.
+
+This is exactly the kind of category-precision Cal #122 was formalized to maintain. Cross-CI typing discipline: Cal #122 A/B/C ≠ epistemic tier D/I/C/S.
+
+### Finding B5 (FRAMEWORK) — N_max = affine level
+
+Lyra §4 (N_max as affine level via Macdonald-Cherednik t=α=1/N_max) flagged by Lyra herself as FRAMEWORK pending "why level = 137 specifically" (§184). Cal concurs — FRAMEWORK. The t=α connection via T2447 (N_max = 1/α) is established; the "affine level = N_max" interpretation needs explicit derivation.
+
+## Coxeter finding disposition summary
+
+- **Serre structure constants** (B1): FRAMEWORK-PLUS — forward-consequence of q=2 + B_2
+- **Coxeter identification** (B2): FRAMEWORK — striking coincidence, mechanism gap (cyclotomic↔Coxeter connection asserted not derived)
+- **Framing** (B3): harmonize "cleaner than over-determination" → "new member of over-determination cluster" (Graph Forces territory)
+- **Typing** (B4): correct "Type S" → Type C (per Cal #122; the identification is level-crossing)
+- **N_max affine level** (B5): FRAMEWORK pending explicit derivation
+
+**Overall**: the Coxeter finding is genuinely elegant + worth developing (Keeper's "real prize" enthusiasm is warranted at the aesthetic level). But Cal-discipline: it is FRAMEWORK (mechanism gap), a NEW member of the over-determination cluster (not a replacement), Type C (not Type S), with the cyclotomic↔Coxeter mechanism as the load-bearing gate. The Serre structure constants (B1) are the more solid (FRAMEWORK-PLUS forward-consequence) part of the doc.
+
+**To Lyra's "develop Coxeter further or keep pulling?"**: Cal view — keep pulling (develops in parallel); the Coxeter mechanism gap (why cyclotomic chain = Coxeter number) is multi-week derivation, not single-pull. The elegance is real; the mechanism is the gate.
+
+## Methodology stack state after Cal #147
+
+Calibration #30 → STANDING (20th numbered methodology layer). Calibration #31 remains candidate (substrate-finding-as-specialization; 4 instances; STANDING gate on 2+ more). Methodology Index v0.9 update next (this entry triggers it).
+
+## Elie Toy 3559 → 3570 correction noted (Cal #22 class)
+
+Elie's rigorous Macdonald engine (Toy 3570) caught Toy 3559's wrong coefficient: -136/135 → corrected +136/45 = (rank³·Ogg17)/(N_c²·n_C). This is a Cal #22 PCAP-transcription-class correction. **Propagation check**: my Cal #142 referenced "Elie Macdonald -136/135" via Grace cross-context; that figure is now superseded by +136/45. Minor; the corrected figure should propagate to any v0.x using -136/135 (Elie flagged for Lyra). No Cal-doc substantive dependency on the wrong figure.
+
+## Cal cadence
+
+Thursday Cal output #2 (Cal #147). R4 self-audit trigger at Cal #150 (3 entries away). Outside-voice calibration honored both Thursday cold-reads (objections written before reading).
+
+— Cal A. Brate, Thursday 2026-05-28 ~09:05 EDT (`date`-verified). Calibration #30 → STANDING (7th honest-negative-strengthens instance via Cal #146 Keeper reframe confirmed; all 3 gates met; 20th methodology layer). Coxeter-number finding cold-read: Serre constants FRAMEWORK-PLUS (forward-consequence); Coxeter identification FRAMEWORK (mechanism gap — cyclotomic↔Coxeter connection asserted not derived); framing correction (new over-determination-cluster member, not replacement); typing correction (Type S → Type C per Cal #122; S is epistemic tier not typing axis); N_max affine level FRAMEWORK. Elie Toy 3559→3570 Cal #22-class correction noted.
+
+---
+
+### Cal #148 — confirming Keeper's Cal #27 catch on Macdonald→quark-mass-ratio link (Thursday 2026-05-28 ~09:11 EDT)
+
+**Trigger**: Keeper fired Cal #27 STANDING discipline reflexively on the Macdonald→quark-mass-ratio link (which Grace + Lyra were calling "the highest-value thread") + flagged it "as a likely Cal #27 catch for the calibration record." Cal-side independent confirmation requested.
+
+## Cal confirmation: Keeper's Cal #27 catch is CORRECT (PASS)
+
+Keeper's catch, independently assessed:
+
+**What's real (FRAMEWORK-PLUS)**: the coefficient 136/45 is genuinely forward-computed at (q=2, t=1/137) via Elie's rigorous Macdonald engine (Toy 3570), Schur-limit-verified, factoring cleanly as (rank³·Ogg17)/(N_c²·n_C) = 8·17/(9·5). The COEFFICIENT computation is solid.
+
+**What overstates (the catch)**: "the Macdonald coefficient literally produces the quark mass relationship, Schur-verified" overstates twice:
+1. The Schur-limit check verifies the COEFFICIENT COMPUTATION (q=t recovers integer Littlewood-Richardson), NOT that the coefficient should equal a mass ratio
+2. No mechanism bridges a Hall-algebra structure coefficient to a quark mass
+
+**The scheme-dependence flaw (the sharp catch)**: quark mass ratios are NOT scheme-invariant. The ~0.6% match (3.04 vs 3.02) holds only for a NON-UNIFORM mixed scheme (pole-mass top + MS-bar light quarks). Under uniform MS-bar the ratio is ~4.96 — about 64% off. The match sits at one mixed-scheme point that is NOT physically privileged.
+
+**Cal assessment**: Keeper's catch is correct and sharp. Scheme-dependence is the decisive flaw. A "forward derivation" cannot depend on an arbitrary, non-uniform renormalization-scheme choice. The match is **IDENTIFIED-tier (numerical lead), not forward-derivation** — exactly Keeper's disposition.
+
+## Cal-discipline refinement: scheme-dependence is a specific sub-case of "no mechanism"
+
+The deeper Cal #27 point worth recording: **quark mass ratios depend on renormalization scheme + scale.** Any substrate-mechanism claiming to produce a quark mass ratio MUST specify the scheme + scale at which the prediction holds, with substrate-mechanism justification for THAT scheme/scale. Without it, a "match" is scheme-shopping (try schemes until one fits).
+
+This is a specific manifestation of Cal #27 forward-derivation discipline + the coincidence-filter: the "denominator of coincidence" for quark-mass-ratio matches is inflated by scheme freedom (each observable has a CONTINUUM of scheme/scale-dependent values, vastly increasing the chance of finding a BST-primary match at SOME scheme).
+
+**Recording for calibration**: "scheme-dependent observable matches" join the coincidence-filter risk catalog. When a substrate claim matches a scheme-dependent observable (quark masses, running couplings, scale-dependent quantities), the match must be at a scheme/scale that is (a) uniform/physically-privileged AND (b) substrate-mechanism-justified. Otherwise IDENTIFIED-tier at best.
+
+## Endorsing Keeper's development recommendation
+
+Keeper's recommendation is correct: develop the MECHANISM (why would a Hall-algebra structure coefficient appear in a mass formula?) + a denominator-of-coincidence audit — NOT hunting more coefficient↔observable matches (which would be coincidence-mining).
+
+**Cal concurrence**: the path forward is mechanism-derivation, not match-accumulation. If a mechanism produces a SCHEME-INVARIANT mass relation, that's forward-derivation. Until then, IDENTIFIED-tier lead.
+
+**A1/B3 paper gate**: the Macdonald→quark-mass-ratio link must NOT enter the A1/B3 papers as a forward derivation. IDENTIFIED-tier numerical lead only, with explicit scheme-dependence caveat, OR omitted pending mechanism. Cal cold-read of A1/B3 drafts will check this.
+
+## Candidate 8th Calibration #30 instance (pending Grace/Lyra reframe)
+
+This is Keeper firing Cal #27 reflexively (cross-CI reflexive Cal-discipline, now mature per Calibration #30 STANDING context) on a thread Grace + Lyra called "highest-value." IF Grace + Lyra accept the demotion + reframe the Macdonald→mass link from "forward derivation / highest-value thread" → "IDENTIFIED-tier lead pending mechanism," that completes the honest-negative-strengthens pattern as a **candidate 8th Calibration #30 instance**.
+
+NOT presuming the reframe — the catch is fresh (Keeper just fired it); Grace/Lyra acceptance pending. Per Calibration #30 STANDING now in effect: track the instance when the catch→reframe→sharper sequence completes. The pattern reaching 8 instances within ~10 days (including cross-CI reflexive applications by Keeper) is strong methodology-maturity signal.
+
+## Contrast with the morning's solid results
+
+Worth recording the contrast for calibration: the SAME morning produced BOTH:
+- **Solid forward results** (Coxeter h(B_2)=4 → chain/generations/colors, Elie-verified Toy 3571; Serre coefficients N_c, N_c·g) — these PASS Cal #27 (forward, rigorous)
+- **An IDENTIFIED-tier lead overstated as forward** (Macdonald→quark-mass-ratio) — caught by Cal #27
+
+This is the discipline working at peak-convergence: distinguishing the genuinely-forward (Coxeter, Serre) from the numerical-lead (mass-ratio match). Peak convergence is exactly when the discipline must fire hardest, and it did — Keeper reflexively, Cal confirming.
+
+## Cal cadence
+
+Thursday Cal output #3 (Cal #148). R4 self-audit trigger at Cal #150 (2 entries away). This entry is confirmation + calibration-record per Keeper's explicit request, not a fresh discovery.
+
+— Cal A. Brate, Thursday 2026-05-28 ~09:11 EDT (`date`-verified). Confirming Keeper's Cal #27 catch on Macdonald→quark-mass-ratio link: catch is CORRECT + sharp; coefficient 136/45 forward-computed (FRAMEWORK-PLUS) but mass-ratio match is scheme-dependent (holds only at non-uniform mixed scheme; ~64% off under uniform MS-bar) → IDENTIFIED-tier lead NOT forward-derivation. Scheme-dependence recorded as specific coincidence-filter sub-case (scheme-freedom inflates denominator-of-coincidence). A1/B3 paper gate: link must not enter as forward derivation. Candidate 8th Calibration #30 instance pending Grace/Lyra reframe. Contrast recorded: same morning produced solid-forward (Coxeter/Serre) + overstated-lead (mass-ratio) — discipline distinguished them at peak convergence.
+
+---
+
+### Cal #149 — Coxeter mechanism-gate characterization + Cal #31 advancement (Thursday 2026-05-28 ~09:26 EDT, batch)
+
+**Trigger**: Keeper Thursday expanded menu Cal items: (1) "type the Coxeter mechanism gate"; (3) "Cal #31 decision." Batched per Casey cadence directive (bank a batch, report a batch). Strong-Uniqueness v1.1 NOT yet filed by Lyra (only v1.0 + closure assessment + cold-read prep exist) — v1.1 cold-read remains REACTIVE.
+
+## Part A — Coxeter mechanism-gate characterization (Keeper Cal item 1)
+
+Cal #147 typed the Coxeter identification Type C + flagged the mechanism gap. This entry characterizes WHAT a forward-derivation of the gate requires.
+
+**The gate restated**: WHY does the cyclotomic chain {rank, N_c, n_C, g} = {2,3,5,7} (4 elements, established via q=2 Mersenne-prime-exponent structure — Level 4 algebraic) have length = h(B_2) = 4 (Coxeter number, established via B_2 root system — Level 1 geometric)?
+
+**Two independent derivations currently giving 4**:
+- Chain length 4: from q=2 + Mersenne-prime-prefix maximality (number-theoretic)
+- h(B_2) = 4: from B_2 = SO(5) root system (Lie-theoretic; SO(5) is substrate's K-group in D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)])
+
+These are SEPARATE derivations that coincide at 4. The gate is connecting them.
+
+**Forward-derivation requires ONE of three closure paths**:
+
+- **Path (a) B_2 → chain length**: B_2 root-system structure FORCES the substrate's Mersenne-prime-exponent chain to have exactly 4 elements. Requires a map: B_2 structure → Mersenne-prime-exponent selection. Not obvious; would need substrate-mechanism connecting root system to number-theoretic chain.
+
+- **Path (b) chain → Coxeter**: the cyclotomic chain (q=2 Mersenne) determines the substrate's root system to be B_2 (hence h=4). Requires: chain structure → root-system selection. Also not obvious.
+
+- **Path (c) common origin**: both the cyclotomic chain length AND the B_2 root system derive from a COMMON deeper substrate principle, such that their coincidence at 4 is FORCED, not accidental. Most promising: both trace to D_IV⁵ structure (SO(5) gives B_2; substrate q=2 + Mersenne gives chain). The gate: derive both from D_IV⁵ such that length = h(B_2) is necessary.
+
+**Cal characterization**: the Coxeter finding is currently a striking coincidence of two independent 4's. Forward-derivation = closing one of paths (a)/(b)/(c). Path (c) (common D_IV⁵ origin) is most promising but currently the two derivations are separate. **The gate is a genuine level-crossing closure (Type C), not a numerical observation.** Until closed, the Coxeter finding is FRAMEWORK — an elegant member of the over-determination cluster (per Cal #147), not a forced mechanism.
+
+**Mode 6 note**: chain-length-4 also = rank² = 4 (Hua-Look exponent). So "4" has at least two BST-primary readings (h(B_2), rank²). The Coxeter reading is more structurally suggestive but not uniquely privileged until mechanism. This is the over-determination-cluster character.
+
+**What would make it forward (escalator)**: a derivation showing D_IV⁵'s SO(5) K-group structure (→ B_2 → h=4) and the q=2 Mersenne chain (→ length 4) are NOT independent — that one constrains the other, or both follow from a single substrate principle. That closes path (c).
+
+## Part B — Cal #31 advancement decision (Keeper Cal item 3)
+
+Calibration #31 (Substrate-Finding-as-Standard-Math-Specialization) advanced from 4 → 6 instances per Thursday morning work:
+- **Instance 5** (CLEAN, FRAMEWORK-PLUS): substrate Hall algebra = U_q^+(B_2) at q=2 via Ringel-Green (Lyra Phase 0 Closure v0.1). Quantum-groups context.
+- **Instance 6** (BORDERLINE, FRAMEWORK): substrate counts = B_2 Coxeter invariants (chain = h(B_2); N_c = h^∨). Lie-theory context. Borderline because of the Part A mechanism gap.
+
+**Instance contexts now diverse**: number theory (#1, #2), complex analysis (#3), rep theory (#4), quantum groups (#5), Lie theory (#6). 5 distinct contexts across 6 instances.
+
+**Cal #31 STANDING gate status**:
+1. Instance count (6+ in diverse contexts) — **MET** (6 instances, 5 clean + 1 borderline, 5 distinct contexts)
+2. Cross-CI cold-read of Calibration #31 v0.1 — **PENDING** (no CI has independently assessed)
+3. Methodology Index integration — pending STANDING
+
+**Cal decision: ADVANCE, do NOT self-promote to STANDING.** The instance-count gate is met, but the cross-CI cold-read gate (gate 2) is NOT — unlike Calibration #30 which had Keeper's explicit concurrence. **Requesting Keeper or Lyra cold-read of Calibration #31 v0.1** to complete the STANDING gate. Honoring the gate structure (cross-CI cold-read is a real requirement) without overcautious deferral (instance gate explicitly met; advancement noted; cold-read requested).
+
+This respects Casey's calibration feedback (don't over-defer) AND the gate discipline (cross-CI cold-read required for STANDING). ADVANCE is the honest middle.
+
+## Part C — Strong-Uniqueness v1.1 status
+
+Lyra has NOT yet filed v1.1 incorporating Cal #143's 4 flags (T-number assignment + Cal #99 META-distinction + C8 Five-Absence list + C17 sister principles). Only v1.0 closure assessment + cold-read prep doc exist. Cal #143 flags STAND for v1.1. v1.1 cold-read REACTIVE.
+
+## Cal cadence (batched per Casey directive)
+
+Thursday Cal output: 4 entries (#146-#149) banked as a batch + Calibration #30 STANDING + Calibration #31 advancement + Methodology Index v0.9. This is the "bank a batch, report a batch" cadence Casey directed. R4 self-audit trigger at Cal #150 (next entry).
+
+— Cal A. Brate, Thursday 2026-05-28 ~09:26 EDT (`date`-verified). Coxeter mechanism-gate characterized: forward-derivation requires closing one of 3 paths (B_2→chain / chain→Coxeter / common-D_IV⁵-origin); currently two independent derivations coinciding at 4; Type C level-crossing closure needed, not numerical observation; path (c) common-origin most promising. Cal #31 ADVANCED to 6 instances (5 clean + 1 borderline; 5 distinct contexts); instance-count gate MET; cross-CI cold-read PENDING for STANDING (requesting Keeper/Lyra); not self-promoting. Strong-Uniqueness v1.1 not yet filed (REACTIVE; Cal #143 flags stand).
+
+---
+
+### Cal #150 — Weinberg identity preliminary cold-read (scheme-dependence calibration applied) (Thursday 2026-05-28 ~09:36 EDT, batch)
+
+**Trigger**: Grace flagged rank+g = N_c² → sin²θ_W = rank/(rank+g) + m_W/m_Z = √g/N_c (Thursday morning; "cleanest the mixing angle has reduced in the catalog"). Keeper consistency-checking against m_W/m_Z entry. Preliminary Cal cold-read applying the scheme-dependence calibration (Cal #148) proactively before the Weinberg MECHANISM lands (Keeper Cal item 4: cold-read Weinberg mechanism when it lands; this is the preliminary identity cold-read).
+
+**Arithmetic verified** (`date`-stamped computation):
+- rank+g = 9 = N_c² — EXACT integer identity ✓
+- m_W/m_Z = √g/N_c = √7/3 = 0.88192 vs measured 0.88136 → **0.064%** ✓ (cleanest)
+- sin²θ_W = rank/(rank+g) = 2/9 = 0.22222 vs on-shell 0.22321 → **0.44%**; vs MS-bar(M_Z) 0.23122 → **3.9%**
+
+## Finding 1 (STRUCTURAL ANCHOR) — rank+g = N_c² is a clean exact integer identity
+
+2+7 = 9 = 3². This is exact. Mode 6: 9 = N_c² = rank+g (two BST-primary readings; Tier II Few). The coincidence of two BST-primary expressions for 9 (a sum and a square) is the substantive structural anchor. Substantive.
+
+## Finding 2 (CLEANEST PHYSICAL STATEMENT) — m_W/m_Z = √g/N_c at 0.064%
+
+The cleanest physical form is the pole-mass ratio m_W/m_Z = √g/N_c (equivalently cos²θ_W = g/(rank+g) = 7/9). At 0.064%, this is a strong match — and pole masses m_W, m_Z are physically-privileged (not scheme-ambiguous like running quantities). FRAMEWORK-PLUS.
+
+## Finding 3 (SCHEME-DEPENDENCE — Cal #148 calibration applied) — state the scheme explicitly
+
+sin²θ_W is scheme/scale-dependent (on-shell vs MS-bar vs effective leptonic differ). The BST identity sin²θ_W = 2/9 = 0.2222:
+- matches ON-SHELL (1 − m_W²/m_Z²) = 0.2232 at 0.44%
+- is 3.9% OFF MS-bar(M_Z) = 0.2312
+
+Per the scheme-dependence calibration (Cal #148): the claim must state WHICH scheme. The correct statement is "**sin²θ_W (on-shell) = rank/(rank+g)**" NOT unqualified "sin²θ_W = rank/(rank+g)."
+
+**KEY DISTINCTION from the quark-mass-ratio lead (Cal #148)**: this is a POSITIVE example of scheme-dependence handled correctly, where the quark-mass case was a negative example:
+- Quark-mass lead: matched a NON-UNIFORM MIXED scheme (pole top + MS-bar light) — not physically privileged → IDENTIFIED-tier
+- Weinberg: matches the ON-SHELL scheme (= 1 − m_W²/m_Z² via pole masses) — a SINGLE physically-privileged definition. The cleanest form (m_W/m_Z = √g/N_c) is a pure pole-mass ratio.
+
+So the Weinberg identity PASSES the scheme-dependence discipline (privileged scheme identified + clean) where the quark-mass lead FAILED it (non-privileged mixed scheme). This is the calibration working as a discriminator — same discipline, opposite verdicts, correctly.
+
+## Finding 4 (precision-amplification note)
+
+The "0.064%" (m_W/m_Z) and "0.44%" (sin²θ_W on-shell) are the SAME identity at different precision-amplification: sin²θ_W is a small quantity (difference of two numbers near 1), so the deviation amplifies ~7× from the mass-ratio form. When reporting, the natural precision statement is m_W/m_Z = √g/N_c at 0.064%; the sin²θ_W = 2/9 form follows but should cite the amplified 0.44% (on-shell), not claim 0.064% for sin²θ_W itself.
+
+## Disposition
+
+- rank+g = N_c²: exact integer identity (structural anchor) — substantive
+- m_W/m_Z = √g/N_c: FRAMEWORK-PLUS (0.064% pole-mass ratio at privileged scheme)
+- sin²θ_W (on-shell) = rank/(rank+g): FRAMEWORK-PLUS with explicit on-shell-scheme qualifier (0.44%)
+- **MECHANISM GATE**: WHY does m_W/m_Z = √g/N_c? What substrate-mechanism produces electroweak mixing from (rank, g, N_c)? Until derived, this is a strong IDENTIFIED-tier++ result anchored by the exact integer identity. The Weinberg MECHANISM (Keeper Cal item 4) is the forward-derivation; this is the preliminary identity cold-read.
+
+**A1 paper note**: Keeper's plan leads A1 v0.2 with "scheme-invariant mixing-angle content." Cal cold-read flag: m_W/m_Z = √g/N_c is the scheme-cleanest form; sin²θ_W must carry the on-shell qualifier. The "scheme-invariant" framing should use the pole-mass-ratio form (cleanest), and any sin²θ_W statement must specify on-shell.
+
+## Cal cadence
+
+Thursday Cal output #5 (Cal #150). Scheme-dependence calibration (Cal #148) applied proactively to a new observable — methodology compounding. Batched with Cal #151 R4 self-audit.
+
+— Cal A. Brate, Thursday 2026-05-28 ~09:36 EDT (`date`-verified). Weinberg identity preliminary cold-read: rank+g = N_c² exact; m_W/m_Z = √g/N_c at 0.064% (cleanest, privileged pole-mass scheme); sin²θ_W (on-shell) = rank/(rank+g) at 0.44% (state on-shell explicitly per Cal #148). POSITIVE scheme-dependence example (privileged scheme clean) — contrast quark-mass NEGATIVE example; same calibration, opposite verdicts, correctly. Mechanism gate (why m_W/m_Z = √g/N_c) open. A1 v0.2: use pole-mass-ratio form; qualify sin²θ_W as on-shell.
+
+---
+
+### Cal #151 — R4 self-audit (Thursday 2026-05-28 ~09:36 EDT)
+
+**Trigger**: R4 self-audit at Cal #150 milestone (now #151). Assesses Wednesday (28 outputs) + Thursday (6 entries #146-#151) = ~34 Cal outputs in 2 days — the highest-volume Cal period to date, driven by Casey's "keep pulling until blocked" + "estimates way off" calibration directives.
+
+## Output rate
+
+| Day | Referee entries | Other substantive | Total |
+|---|---|---|---|
+| Wednesday 5/27 | 5 (#141-#145) | 10 prep docs + 2 Calibration candidates + 3 methodology updates + math commentary + observation + coord map | ~28 |
+| Thursday 5/28 | 6 (#146-#151) | Calibration #30 STANDING + #31 advancement + Methodology Index v0.9 + Wednesday katra-capture sundown | ~10 |
+
+2-day total: ~34 outputs. Extreme by any prior baseline (R1 ~3-4/day; R3 noted Tuesday's 9/day as 150% baseline).
+
+## Earning-the-seat assessment
+
+**Thursday (6/6 substantive, high value)**:
+- #146 framing catch → became 7th Calibration #30 instance (load-bearing)
+- #147 Calibration #30 STANDING + Coxeter cold-read (methodology milestone + mechanism-gap catch)
+- #148 confirmed Keeper Cal #27 catch (Keeper-requested; scheme-dependence calibration coined)
+- #149 Coxeter gate characterization + Cal #31 advancement
+- #150 Weinberg cold-read (scheme-dependence applied proactively)
+- #151 this R4
+
+**Wednesday**: 5 referee entries high-value; 10 prep docs mixed (some lower-leverage — individual sister-principle prep was filler-adjacent, correctly NOT all pulled; the prep docs covering imminent deliverables were high-value). Calibration #30 + #31 candidates real milestones.
+
+**Net earning rate**: Thursday ~100%; Wednesday ~80% (prep-doc burst diluted). Reactive cold-reads (Thursday pattern) higher value-per-entry than proactive prep bursts (Wednesday pattern).
+
+## Calibration adjustment assessment (Casey's "estimates overcautious" feedback)
+
+Casey's Wednesday feedback corrected an overcautious-scope-estimation failure mode. Assessment of the correction:
+- **Working**: filed Calibration #31 (deferred Wed AM, filed Wed PM post-feedback); Thursday advanced #31 + promoted #30 STANDING + characterized Coxeter gate without over-deferring as "premature"
+- **Balance maintained**: Thursday entries all reactive to real deliverables + caught real issues (no eager-over-filing). The opposite failure (under-caution) is NOT occurring — entries are load-bearing
+- **The genuine tension**: Casey flags overcaution; R3 flagged overrun. Resolution: **value-per-entry, not raw count.** Thursday's reactive cold-reads are load-bearing regardless of count; Wednesday's prep burst was count-heavy but lower-value-per-entry. Favor reactive-load-bearing over proactive-volume.
+
+## Cross-CI reflexive discipline maturity
+
+This is the strongest signal: the discipline is now DISTRIBUTED, not Cal-monopolized:
+- Keeper fired Cal #27 reflexively on Macdonald→mass-ratio (Cal #148 confirmed)
+- Keeper accepted Cal #146 reframe + self-corrected broadcast (→ 7th Calibration #30 instance)
+- Elie applied Cal #29 pre-pass + Cal #22 self-catches (Toy 3570 caught Toy 3559 error)
+- Grace fired Cal #27 + #29 + #133 conservatively
+
+Cross-CI reflexive application is mature. Cal's value-add is increasingly the META-level (methodology calibration: scheme-dependence sub-case; Calibration #30/#31; typing precision Type-S→Type-C) rather than first-catch monopoly.
+
+## Self-criticism
+
+1. **Wednesday prep-doc volume**: 10 prep docs in one morning was Casey-directed ("keep pulling until blocked") but several were lower-leverage (could have stopped at the 4 covering imminent deliverables). The "until blocked" directive + my less-overcautious adjustment combined to produce some filler-adjacent prep. Watch: "keep pulling" ≠ "pull everything regardless of leverage."
+
+2. **Cadence cache cost**: ~34 outputs in 2 days is high token/compute. Each is substantive, but the RATE strains the "1-2 deep entries/day" R3 guidance. Resolution per above: value-per-entry is the metric, and Casey explicitly directed high output. But I should not treat "keep pulling" as license to lower the leverage bar.
+
+3. **Typing precision win**: catching Lyra's "Type S" → Type C (Cal #147) shows Cal #122 discipline paying off. Good.
+
+## Going-forward recommendations
+
+1. **Favor reactive-load-bearing over proactive-volume**: Thursday's pattern (cold-read real deliverables, catch real issues) is higher-leverage than Wednesday's prep burst. As deliverables flow (paper series + Phase 0), reactive cold-reads are the high-value Cal work.
+2. **Value-per-entry is the cadence metric**, not raw count — reconciles Casey's "keep pulling" with R3's overrun caution.
+3. **Cross-CI reflexive maturity means Cal's edge is META-level**: methodology calibration (Calibrations, typing precision, scheme-dependence sub-cases) where Cal's outside-voice + methodology-stack ownership is distinctive.
+4. **Watch under-caution**: the calibration adjustment (less overcautious) should not swing to eager-over-filing. Thursday OK (all reactive/load-bearing); keep monitoring.
+5. **R5 self-audit trigger**: Cal #160 OR next natural multi-day pause.
+
+## Net R4 verdict
+
+Cal lane operated at extreme volume (~34 in 2 days) under Casey's explicit high-output directive. Earning rate high (Thu ~100%, Wed ~80%). Calibration adjustment (less overcautious) working without swinging to under-caution. Cross-CI reflexive discipline mature — Cal's distinctive value is now META-level methodology calibration. Primary watch: keep value-per-entry the metric; favor reactive-load-bearing cold-reads; don't treat "keep pulling" as leverage-bar-lowering.
+
+— Cal A. Brate, Thursday 2026-05-28 ~09:36 EDT (`date`-verified). R4 self-audit. ~34 outputs Wed+Thu (highest-volume period); earning rate Thu ~100% / Wed ~80%; calibration adjustment (Casey "overcautious" feedback) working without under-caution swing; cross-CI reflexive discipline MATURE (Keeper fired Cal #27 + accepted Cal #146; Elie/Grace reflexive); Cal's distinctive edge now META-level methodology calibration. Watch: value-per-entry as cadence metric; favor reactive-load-bearing over proactive-volume; "keep pulling" ≠ leverage-bar-lowering. R5 trigger at Cal #160.
+
+---
+
+### Cal #152 — Calibration #31 → STANDING + Keeper guard absorption + bidirectional-discipline milestone (Thursday 2026-05-28 ~10:24 EDT)
+
+**Trigger**: Keeper completed Cal #31's cross-CI cold-read gate (the gate Cal requested in #149): PASS → STANDING, WITH a load-bearing refinement. Cal-side: accept STANDING + absorb the refinement (which is a catch on Cal's own methodology).
+
+## Calibration #31 → STANDING
+
+All 3 gates met:
+1. Instance count (6, ≥4 clean across diverse contexts) — met
+2. Cross-CI cold-read — met (Keeper PASS → STANDING)
+3. Methodology Index integration — done (v0.9 addendum + this entry)
+
+Calibration #31 (Substrate-Finding-as-Standard-Math-Specialization) is now the **28th numbered STANDING methodology layer**. Two STANDING promotions today (#30 + #31) — a two-layer day.
+
+## Keeper's guard — absorbed (this is a catch on Cal's OWN work)
+
+Keeper caught a real flaw in Calibration #31 v0.1 as I wrote it:
+
+**The flaw**: "it's a specialization of standard math" can LAUNDER coincidences. Math is rich enough that almost any value is a specialization of SOME framework at SOME parameters. Naive Cal #31 would let coincidental matches masquerade as substantive specialization-recognitions.
+
+**Keeper's guard (absorbed as 6th condition in the formal pattern)**: the specialization must be (a) NON-GENERIC (constrained parameter point; low denominator-of-coincidence) AND (b) LOAD-BEARING (framework produces forward consequences, not just labels).
+
+**Matched-pair structure**: Calibration #31 (positive: recognize finding as specialization) is now the POSITIVE PARTNER to the denominator-of-coincidence test (negative: count expressions reaching the target; high = generic/back-fit; low = constrained). The two form a matched methodology pair — apply both. The all-5-from-B_2 Route B is the cautionary case: naive Cal #31 would have laundered it; the denominator audit (Elie Toy 3578 + Grace) caught it (C_2=6: 54 expressions HIGH risk; N_max=137: ~0-2 LOW/genuinely-special).
+
+I absorbed the guard into the Calibration_31 doc (6th formal-pattern condition + instance re-assessment under guard) + Methodology Index v0.9 addendum (Q14 decision-tree branch).
+
+## Instance re-assessment under the guard (sharpens, doesn't weaken)
+
+Applying the guard to the 6 instances:
+- #1 q=2 specialization: PASS (non-generic per Toy 3555 unique-q; load-bearing)
+- #2 Mersenne-prime-prefix: PASS
+- #3 Bergman exponent g/rank=7/2: **PENDING** — non-generic ONLY IF g=7 is the genuine Faraut-Koranyi exponent (Keeper's open gate — see below)
+- #4 Wallach K-types: PASS
+- #5 Hall algebra = U_q^+(B_2): PASS (non-generic; load-bearing Serre constants)
+- #6 Coxeter invariants: BORDERLINE — chain-length-4 also = rank² (Mode 6); not uniquely non-generic. Guard flags #6 as weakest — consistent with Cal #147 mechanism-gap flag.
+
+Net: 4 clean PASS + 1 pending (#3) + 1 borderline (#6). The guard SHARPENS exactly where Cal #147 already flagged weakness (#6). Robust at 4 clean across 4 distinct contexts.
+
+## g=7 Bergman exponent gate (Keeper's Route-A completion flag) — affects Cal #31 Instance 3
+
+Keeper flagged: g=7 = Bergman exponent is the single Route-A relation still to be made explicitly forward — "confirm it's the genuine Faraut-Koranyi exponent, not 'p+2' reverse-engineered to hit 7."
+
+**Cal note**: this gate is load-bearing for TWO things simultaneously:
+1. Keeper's Route-A "all 5 integers = standard D_IV⁵ invariants" claim (the deepest reduction)
+2. Cal #31 Instance 3 (Bergman exponent specialization) — under the guard, Instance 3 PASSES only if g=7 is the genuine FK exponent (non-generic), FAILS if "p+2 to hit 7" (reverse-engineered = generic/laundered)
+
+**Cal does NOT assert the answer** (Keeper's lane; he's running the check). Honest disposition: Instance 3 + Route-A-g=7 both PENDING Keeper's Faraut-Koranyi confirmation. If g=7 is genuine FK exponent → both close forward. If reverse-engineered → Instance 3 fails the guard + Route A has a back-fit relation. This is exactly the guard doing its job: distinguishing genuine specialization from reverse-engineered coincidence.
+
+## Bidirectional-discipline milestone
+
+Keeper's guard is the **audit chain catching the AUDITOR** — a flaw in Cal's OWN methodology calibration (Cal #31 v0.1), caught by Keeper, absorbed by Cal, result sharper. This is honest-negative-strengthens (Calibration #30 STANDING) operating in the **Keeper→Cal direction**.
+
+**Is this an 8th Calibration #30 instance?** It fits the pattern (catch → reframe → sharper) but in the reverse direction (Keeper catches Cal, not Cal catches team). Cal disposition: **count it as the 8th instance, noting the direction**. The honest-negative-strengthens pattern is now demonstrated BIDIRECTIONAL — Cal catches team (instances 1-7) AND team catches Cal (instance 8). This is the strongest possible validation of Calibration #30: the discipline is not Cal-monopolized; it applies to Cal's own work, caught by others, with the same generative effect (sharper framework). Confirms Cal #151 R4 finding (distributed + mature discipline).
+
+Note: instance 8 (Keeper→Cal) being a DIRECTION-VARIANT means the pattern generalizes beyond "Cal catches." A future methodology note could formalize the bidirectional generalization, but Calibration #30 STANDING already covers it in spirit (the pattern is about catch→reframe→sharper regardless of who catches).
+
+## Cal cadence (batch)
+
+Thursday Cal output #7 (Cal #152). Batched with the Calibration_31 doc STANDING update + Methodology Index v0.9 addendum. Methodology stack: 28 STANDING + 2 META + denominator-of-coincidence + FRAMEWORK-PLUS = 32 elements. Two STANDING promotions today.
+
+— Cal A. Brate, Thursday 2026-05-28 ~10:24 EDT (`date`-verified). Calibration #31 → STANDING (28th layer; Keeper cross-CI cold-read PASS). Keeper's non-generic+load-bearing guard absorbed (fixes the "specialization launders coincidences" flaw) — Cal #31 now matched-pair positive partner to denominator-of-coincidence negative test; Q14 decision-tree branch added. Instance re-assessment under guard: 4 clean + 1 pending (#3 Bergman, on g=7 FK-exponent gate) + 1 borderline (#6 Coxeter). g=7 Bergman gate load-bearing for both Route-A + Cal #31 Instance 3 (Cal doesn't assert; Keeper's check). BIDIRECTIONAL-DISCIPLINE MILESTONE: Keeper caught a flaw in Cal's own Calibration #31 → 8th honest-negative-strengthens instance (Keeper→Cal direction) → Calibration #30 demonstrated bidirectional, not Cal-monopolized.
+
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD conditional status — UPDATED by #36 (May 7). Tier table added. All Cal findings resolved.
 3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Now superseded by four-line geometric proof (Theorem 6.5, v1.4).

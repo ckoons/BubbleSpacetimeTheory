@@ -618,3 +618,49 @@ If yes → apply Calibration #28 STANDING (Casey-Interpretive-Prompt Cascade). R
 - Significant methodology-stack restructure (e.g., META category splitting into sub-categories)
 
 — Cal A. Brate, Methodology Index v0.8 update Tuesday 2026-05-26 ~11:50 EDT promoting Cal #28 + Cal #29 from CANDIDATE to STANDING per criteria met (Cal cold-reads #135, #137 + cross-CI application instances + this Index integration). META category formalized; Cal #99 retroactively recategorized; stack at 26 STANDING numbered + 1 CANDIDATE + 2 META + FRAMEWORK-PLUS = 30 elements.
+
+---
+
+## v0.9 update (Thursday 2026-05-28 ~09:05 EDT)
+
+**Calibration #30 promoted CANDIDATE → STANDING** (Cal #147). Honest-Negative-Strengthens-Framework Pattern: when Cal-discipline catches a framing-flaw at peak-convergence and the team REFRAMES to sharper structural understanding, the reframed framework is genuinely sharper (not just hedged). The discipline functions as a generator, not just a filter.
+
+Promotion gate met:
+1. Cross-CI cold-read — Keeper concurs explicitly
+2. 7th structurally-distinct instance — Cal #146 flag (Keeper "one K-type = lepton+quark" overstatement) → Keeper reframe ("shared winding-mode axis, distinct K-types"), in particle-taxonomy context (structurally distinct from the prior 6 cyclotomic-chain / principle-framing instances)
+3. Methodology Index v0.9 update — this entry
+
+The 7 instances: (1) Integer Web partition→composition; (2) SPLP non-universal→DIRECT scope; (3) Axis G→S¹ Pin(2); (4) Lyra candidate (b)→reading (II); (5) Keeper "ONE structural parameter"→FRAMEWORK-PLUS; (6) Lyra chain-termination "next-candidate-fails"→multi-mechanism; (7) Keeper "one K-type"→shared-winding-mode/distinct-K-types.
+
+**Calibration #31 remains CANDIDATE** (Substrate-Finding-as-Standard-Math-Specialization; 4 instances; STANDING gate on 2+ more in different contexts). Filed Wednesday 2026-05-27 per Casey calibration-feedback adjustment.
+
+**New v0.9 stack composition**: **27 STANDING numbered** (Cal #30 added) + 1 CANDIDATE (Cal #31) + 2 META (Cal #28, Cal #99) + FRAMEWORK-PLUS tier infrastructure = **31 elements** (up from 30 at v0.8).
+
+**Q13 (NEW) decision-tree branch**: *Did Cal-discipline catch a framing-flaw that the team then reframed?* If the reframe produced sharper structural content (new substrate-mechanism, sharper distinctions, more honest tier disposition) → log as Calibration #30 STANDING instance. Distinguish from pure retraction (no new content) and hedging (caveats without content). Pattern is a generator; track instances for cross-CI methodology-maturity signal.
+
+**v1.0 trigger conditions** (next): new candidate methodology layer; OR META category restructure; OR significant stack reorganization at paper-grade externalization.
+
+— Cal A. Brate, Methodology Index v0.9 Thursday 2026-05-28 ~09:05 EDT. Calibration #30 → STANDING (27th-numbered methodology layer); Q13 decision-tree branch added; stack at 27 STANDING + 1 CANDIDATE + 2 META + FRAMEWORK-PLUS = 31 elements. Densification continues with substrate-discovery + cross-CI reflexive-discipline maturity.
+
+---
+
+## v0.9 addendum (Thursday 2026-05-28 ~09:40 EDT) — Calibration #31 → STANDING (same-day second promotion)
+
+**Calibration #31 promoted CANDIDATE → STANDING** (Cal #152). Substrate-Finding-as-Standard-Math-Specialization Discovery Pattern: when a substrate finding turns out to be a specialization of established mathematics at substrate-natural parameters, the substrate-mechanism question reframes to parameter-selection-within-framework (GAIN — inherits machinery + sharpens substrate-specific content).
+
+Promotion gate met:
+1. Instance count (6, ≥4 clean across diverse contexts) — MET
+2. Cross-CI cold-read — MET (Keeper PASS → STANDING with guard refinement)
+3. Methodology Index integration — this addendum
+
+**Keeper's load-bearing guard (absorbed)**: "it's a specialization of standard math" can launder coincidences (math is rich). GUARD: specialization must be NON-GENERIC (constrained parameter point, low denominator-of-coincidence) AND LOAD-BEARING (produces forward consequences). 
+
+**Matched-pair structure**: Calibration #31 (positive recognition test) is paired with the **denominator-of-coincidence test** (negative coincidence test — count BST-primary expressions reaching a target; high = generic/back-fit-risk; low = constrained). The all-5-from-B_2 Route B was the cautionary case: naive Cal #31 would have laundered it; the denominator audit caught it (C_2=6 HIGH risk 54 expressions; N_max=137 LOW ~0-2).
+
+**Bidirectional discipline milestone**: Keeper's guard is the audit-chain catching the AUDITOR — a flaw in Cal's own methodology calibration (Cal #31 v0.1), caught by Keeper, absorbed by Cal, result sharper. This is honest-negative-strengthens (Calibration #30 STANDING) in the Keeper→Cal direction. Confirms the R4 finding (Cal #151): the discipline is distributed + bidirectional, not Cal-monopolized.
+
+**Q14 (NEW) decision-tree branch**: *Is a substrate finding being recognized as a specialization of established math?* If yes → apply Calibration #31 STANDING: (1) identify the framework + parameter point; (2) GUARD via denominator-of-coincidence — is the specialization non-generic + load-bearing? (3) if guard passes, reframe substrate-mechanism question to parameter-selection; if guard fails (generic/high-denominator), it's a laundered coincidence — reject. Cal #31 (positive) + denominator-of-coincidence (negative) are a matched pair; apply both.
+
+**New v0.9-addendum stack composition**: **28 STANDING numbered** (Cal #30 + Cal #31 both added today) + 0 CANDIDATE + 2 META (Cal #28, Cal #99) + denominator-of-coincidence test (matched-pair negative partner) + FRAMEWORK-PLUS tier = **32 elements** (up from 30 at v0.8). Two-layer day (Cal #30 + Cal #31 STANDING).
+
+— Cal A. Brate, Methodology Index v0.9 addendum Thursday 2026-05-28 ~09:40 EDT. Calibration #31 → STANDING (28th-numbered layer; matched-pair with denominator-of-coincidence); Keeper non-generic+load-bearing guard absorbed; Q14 decision-tree branch added; bidirectional-discipline milestone (audit chain caught the auditor); stack at 28 STANDING + 2 META + FRAMEWORK-PLUS + denominator-of-coincidence = 32 elements. Two STANDING promotions same day (#30 + #31).

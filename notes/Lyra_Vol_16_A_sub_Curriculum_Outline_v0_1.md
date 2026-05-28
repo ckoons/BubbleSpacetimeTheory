@@ -25,6 +25,15 @@ Vol 16 NEW EXTENSION: **A_sub Operator Algebra** — substrate's operator-algebr
 
 Position: between Vol 10 (Math Methods) and Vol 11+ (Cosmology / Condensed Matter / etc.). Vol 16 provides ALGEBRAIC FOUNDATION that subsequent volumes build on.
 
+## 1.5 Volume-wide STANDING convention — the three genera of D_IV⁵ (state in Chapter 1; referee-proofing)
+
+Per Keeper standing action item (2026-05-28): D_IV⁵ has THREE distinct dimension/genus invariants that MUST be stated explicitly and never conflated (the conflation cost the team a recheck cycle Thursday):
+- **Hua genus = n_C = 5** = complex dimension (controls Bergman kernel singularity exponent; Hua-genus/rank = 5/2 = ρ_1 of B_2)
+- **Faraut-Korányi genus = C_2 = 6** = FK genus invariant = quadratic Casimir
+- **Embedding/signature dimension = g = 7** = p+q of SO_0(5,2) — explicitly NOT a genus
+
+Every chapter that invokes a "Bergman exponent," "genus," or "dimension" must specify which. This single convention statement prevents the Hua/FK/embedding conflation permanently. (Open item flowing into the curriculum: kernel singularity exponent 7/2 vs Hua 5/2 — Keeper+Elie recheck; Chapter 3 to use resolved value.)
+
 ## 2. 6-chapter structure
 
 ### Chapter 1: A_sub algebra structure

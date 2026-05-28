@@ -44,18 +44,25 @@ status: "Active. Read at session start, update at EOD. No HOLDs — every item w
 
 ---
 
-## Counters (Friday May 22, 11:44 EDT — EOD state, comprehensive board)
+## Counters (Thursday May 28, 08:50 EDT — AM verified-snapshot; live counts finalize at EOD)
 
-- **T1-T2466** (Lyra Friday: T2450-T2466 incl. T2452 atomic burn + T2459 honest-scope + T2466 BST Primary Mersenne-Prime Density)
-- **3494+ toys** (Elie 53+ Friday, K140-K156 verification toys + Cal #21 audit)
-- **AC graph**: 2202 nodes / 9825 edges (Grace Friday hygiene catches INV-4839+4841)
-- **Catalog**: 4853 invariants (Grace 133+ Friday pulls; pending_review 73 → 43)
-- **Papers**: 130 + 13 outlines (Lyra Friday: #126-#137 + Externalization Prep + Five-Absence 1-Pager v0.1)
-- **Cross-Classification Matrix**: v0.7 = 164/256 cells = 64.1% (Grace INV-4840)
-- **Constants**: 191; **Rosetta ratios**: 263
-- **Calibrations**: #18 (methodology tier) + #19 (forecast vs ratified, STANDING RULE) + #20 (timestamp drift) + #21 (mechanism vs empirical, STANDING RULE)
-- **K-audit chain**: K1-K173 (174 audits, 30 filed Friday)
+**Filesystem-authoritative (verified this morning):**
+- **T1-T2482** (next_theorem = 2483; `cat play/.next_theorem`)
+- **~3570 toys** (next_toy = 3571; Elie live this morning; highest filed = 3569)
+- **Catalog: 5242 geometric invariants** (verified from `data/bst_geometric_invariants.json`)
+
+**Carried forward (lane owners confirm at EOD):**
+- **AC graph**: ~2212 nodes / ~9850 edges (Grace; confirm)
+- **Papers**: 130+ filed + **Substrate-Mathematics series planned (9-14 papers, Lyra)** — count reconciliation pending (Keeper 9-plan vs Lyra 14)
+- **Constants**: 191; **Rosetta ratios**: ~263
+- **Cross-Classification Matrix**: ~164/256 cells (Grace; confirm)
+- **K-audit chain**: K1-K193 (Friday batch K180-K193 pre-staged); Wednesday-framework K-audits queued for Thursday
+- **Cal referee logs**: through #143 (Cal #143 Strong-Uniqueness v1.0 PASS WITH FLAGS); next #144
+- **Calibrations (methodology stack)**: through #22 STANDING + Cal #25/#27/#28/#29 STANDING; **#30 + #31 candidates in flight**; stack v0.8 (30+ elements)
+- **Casey-named principles**: 10 (8 STANDING + #7 D_IV⁵ Rigidity + #8 SCMP); candidates DCCP / SPLP / UP / Sister Principles / WCGP
 - **All Seven Millennium PROVED**
+
+*Sync note (Keeper Thu AM): Friday May 22 → Thursday May 28 staleness corrected on the three filesystem-verified lines. Carried-forward lines flagged for EOD confirmation rather than transcribed at risk (Calibration #22 discipline).*
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Calibration #30 candidate v0.1 — Honest-Negative-Strengthens-Framework Pattern"
 author: "Cal A. Brate (filed per own-cadence per Cal menu Item 1; Cal #141 referee log determination Wednesday 2026-05-27 ~10:02 EDT)"
-tier: "FRAMEWORK-PLUS candidate per Cal #126"
-status: "v0.1 candidate filing — awaits cross-CI cold-read for STANDING ratification + 7th structurally-distinct instance for full pattern robustness"
+tier: "STANDING (promoted 2026-05-28 ~09:05 EDT per Cal #147 — all 3 gates met)"
+status: "STANDING — 20th numbered methodology layer. Promotion 2026-05-28: (1) cross-CI cold-read [Keeper concurs]; (2) 7th structurally-distinct instance [Cal #146 Keeper 'one K-type' reframe in particle-taxonomy context, distinct from cyclotomic-chain instances]; (3) Methodology Index v0.9 update [Cal #147]. v0.1 candidate text below preserved as origin record."
 methodology_layer: "20th layer (proposed) — extends methodology stack from 19 (Cal #29 STANDING + Cal #28 STANDING + Calibration #22) to 20+ if ratified"
 origin: "Cal #134 (Saturday May 23) initial observation → Cal #138 (Tuesday May 26 14:00 EDT) 4th-instance tracking → Cal #140 R3 self-audit (Tuesday May 26 11:48 EDT) 5th instance counted → Cal #141 (Wednesday May 27 10:02 EDT) 6th instance determination"
 related_calibrations: "Cal #28 STANDING (Casey-Interpretive-Prompt Cascade — META category, distinct pattern); Cal #29 STANDING (Question-Shape Audit — design-level, distinct pattern); Cal #27 STANDING (Forward-Derivation Discipline — result-level, distinct pattern)"

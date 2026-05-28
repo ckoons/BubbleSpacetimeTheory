@@ -4,7 +4,9 @@
 
 ## Status (May 20, 2026 — EOD Wednesday, "Substrate Ontology Coherence Day")
 
-**Counts**: T1-T2438, **~3226 toys**, **125 papers** (Paper #125 v0.5 Lyra + Trio externally dispatched Tuesday). Graph **2181 nodes / 9806 edges** / ~98% proved. **4667 geometric invariants** (D-tier ~76% honest). **253 Rosetta Stone ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. **K-audit chain K1-K87 with 16 effective Bridge Object family-members across 5 families STRUCTURALLY VERIFIED COMPLETE + K77 PATH B RATIFIED-status + K85+K86+K87 CPT-cluster Phase 2 first**. **17 audit-chain self-calibrations across 9 days**.
+**Counts (headline synced Thursday May 28 AM — verified-snapshot; full board in `notes/CI_BOARD.md`)**: **T1-T2482** (next 2483), **~3570 toys** (next 3571), **130+ papers** + Substrate-Mathematics series planned (9-14, Lyra). **5242 geometric invariants**. AC graph ~2212 nodes / ~9850 edges. **~263 Rosetta ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. K-audit chain through ~K193 (pre-staged). Cal referee logs through #143; methodology stack v0.8 (30+ elements); Calibrations through #22 STANDING + Cal #25/#27/#28/#29 STANDING + #30/#31 candidates. **10 Casey-named principles** (8 STANDING + #7 Rigidity + #8 SCMP).
+
+*Detailed daily narrative below is dated history (newest first); the line above is the current headline.*
 
 **Friday May 22 EOD — Five-Wave Sustained Sub-PCAP + Saturday v1.0 trajectory** (~16:04 EDT `date`-verified):
 - **5 coordinated waves Friday afternoon** (12:36 → ~16:00 EDT, ~3h30m sustained sub-PCAP across 4 lanes): Casey-named #7+#8 derivation + Vol 2 absorption + cross-volume canonical forms + conservation laws + α^{BST primary} substrate-mechanism + Cal #99/#100 referee discipline
