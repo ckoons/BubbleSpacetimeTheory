@@ -7,21 +7,21 @@
 
 ---
 
-## Scale Summary (updated 2026-05-26 Tuesday consolidation, Elie lane)
+## Scale Summary (updated 2026-05-27 Wednesday EOD, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 3,512 |
-| Numbered toys (toy_NNN_*.py) | 3,302 |
+| Toy scripts (toy_*.py) | 3,541 |
+| Numbered toys (toy_NNN_*.py) | 3,331 |
 | Named toys (toy_name.py) | 210 |
 | Utility scripts (non-toy .py) | 67 |
-| HTML visualizers | 6 |
-| Pre-staged diagrams (diagram_*.py + .png + .pdf) | 6 (Vol 0 Ch 1/4/7/11 + Vol 1 Ch 6 + Vol 2 Ch 1) |
-| **Parallel k-cascade processes** | **4** (k=22 PID 22177 ~2d2h + k=24 PID 25773 ~1d23h + k=25 PID 25774 ~1d23h + k=26 PID 25775 ~1d23h; N_MAX=90, dps=3200, ~10-22 months wall-clock each; sustained ~100% CPU ~50 hours) |
+| HTML visualizers | 7 (added k_type_graph_phase_A_viewer.html Wednesday) |
+| Pre-staged diagrams (diagram_*.py + .png + .pdf) | 6 + 2 (Vol 0 Ch 1/4/7/11 + Vol 1 Ch 6 + Vol 2 Ch 1 + K-type graph Phase A PNG/PDF Wednesday) |
+| **Parallel k-cascade processes** | **4** (k=22 PID 22177 ~3d11h + k=24/25/26 PIDs 25773-5 ~3d8h each; N_MAX=90, dps=3200, sustained ~100% CPU ~75 hours) |
 | Theorems (T1-T2482) | 2,482 |
-| Next toy number | 3,541 |
+| Next toy number | 3,570 |
 | Next theorem number | 2,483 |
-| Geometric invariants | 5,190+ |
+| Geometric invariants | 5,237+ (Wednesday Grace +47) |
 | Constants | 191 |
 | Rosetta ratios | 263+ |
 | AC graph | 2,212+ nodes / 9,850+ edges |
@@ -58,6 +58,92 @@
 | Audit-chain calibrations | 15+ self-corrections across all working CIs since Monday |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 27 2026 Wednesday — Substrate Cyclotomic Ladder + q=2 Macdonald Specialization + Bulk-vs-Shilov Distinction + 4-Mode Substrate-Mechanism + 3-Generation Investigation
+
+Wednesday produced **29 Elie toys (3541-3569), all PASS, 132+ individual test checks**. Substrate-discovery substantially deepened via: (a) Cal #139 cyclotomic chain identified as q=2 specialization of standard q-integers — load-bearing for Phase 0 Hall closure; (b) explicit construction of substrate cyclotomic ladder GF(8)/GF(32)/GF(128) at all 3 chain levels; (c) Casey-directed Bulk-vs-Shilov distinction empirically supported with multiple gen3/gen1 substrate-natural mass ratios; (d) 4-mode substrate-mechanism (algebraic × geometric, lepton × quark) tested empirically; (e) 3-generation OPEN problem investigated with 2 candidates ruled out.
+
+### Casey-authorized GF(32) parallel-cyclotomic investigation (Toys 3550-3552, 3564)
+
+Per Toy 3541 Casey-authorized + Lyra collaboration:
+- **Toy 3550** GF(32) explicit 5-step cyclotomic chain (6/6 PASS) — constructed via x⁵+x²+1 irreducible polynomial; F_32^* order 31 = M_n_C Mersenne prime; Gal(GF(32)/GF(2)) ≅ Z/5
+- **Toy 3551** GF(32) Frobenius orbits (5/5 PASS) — 6 size-5 orbits + 1 fixed; orbit count C_2 substrate-natural observation (Mode 6 caveat)
+- **Toy 3552** GF(32) RS parameters (3/3 PASS) — 30 RS codes; half-rate (31, 16, 16) parallel to K59 (127, 64, 64); 24 BST-natural rates identified
+- **Toy 3564** GF(8) Z_3 Galois (5/5 PASS) — GF(2)[x]/(x³+x+1); 3 Frobenius partitions; substrate cyclotomic ladder complete at all 3 chain levels
+
+### q=2 Macdonald specialization framework (Toys 3554, 3555, 3558, 3559, 3560)
+
+**LOAD-BEARING FINDING for Phase 0 Hall closure**:
+- **Toy 3554** q-factorial substrate q=2 (5/5 PASS) — Cal #139 cyclotomic chain = q=2 specialization of standard q-integers [n]_q. Connects substrate-identity to standard Hall algebra / Ringel-Green / Macdonald / Kac-Moody framework.
+- **Toy 3555** q-uniqueness (4/4 PASS) — q=2 UNIQUE among substrate q_p ∈ {2,3,5,7,11,13} for producing Cal #139 chain
+- **Toy 3558** q-Casimir [C]_2 (4/4 PASS) — Cal #139 chain reproduced at K-types (1,0) C=4 and (1,1) C=6 via q=2 Casimir specialization
+- **Toy 3559** Macdonald P_λ at substrate (4/4 PASS) — P_(2,0) coefficient -136/135 = -(rank³·Ogg17)/(N_c³·n_C); substrate-rational
+- **Toy 3560** Pieri rule (3/3 PASS) — Pieri structure constants at substrate specialization; β = 406/135 surfaces non-substrate prime 29 via additive combinations
+
+### Cyclotomic chain extended investigations (Toys 3541, 3543, 3547, 3565)
+
+- **Toy 3541** chain termination stress test (5/5 PASS) — Cal #139 chain verified at X ∈ [1, 30]; terminates at {1, 2, 3, 4, 6} under narrow BST-primary criterion
+- **Toy 3543** Mode 6 multi-decomposability (5/5 PASS) — 4-instance pattern = single Mersenne-tower cluster T2439-consistent
+- **Toy 3547** Grace+Cal+Lyra 6-instance extension (5/5 PASS) — pattern at primes {2,3,5,7,11,13}; termination at X=17 (first Ogg supersingular) via factor 257 non-substrate
+- **Toy 3565** substrate Mersenne tower depth (4/4 PASS) — Catalan-Mersenne first 3 levels {rank, N_c, g} + independent n_C tower + independent N_max + algebraic C_2
+
+### Phase A + Phase B K-type graph data (Toys 3542, 3545, 3546, 3556, 3557)
+
+- **Toy 3542** K-type graph visualization (4/4 PASS) — PNG + PDF at `play/data/k_type_graph_phase_A.{png,pdf}`; T2435 + Dirac + ρ-vector + Cal #139 annotations
+- **Toy 3545** BST-primary content distribution (4/4 PASS) — 128/180 BST-content hits; bergman_2 100% BST-natural (Cal #133 caveat)
+- **Toy 3546** interactive HTML viewer (4/4 PASS) — `play/data/k_type_graph_phase_A_viewer.html` 35KB single-file with sortable table + SVG scatter + tooltips
+- **Toy 3556** Phase B v0.1 45-node (4/4 PASS) — extension cutoff m_1+m_2 ≤ 8; Grace catalog unblock at intermediate scope
+- **Toy 3557** Phase B v0.2 66-node (4/4 PASS) — cutoff ≤ 10; Grace fully unblocked at maximum scope
+
+### Casey-elevated Bulk-vs-Shilov + 4-mode investigations (Toys 3566-3569)
+
+Per Casey afternoon 8-decision absorption (Bulk-vs-Shilov elevated):
+
+- **Toy 3566** Bulk-vs-Shilov empirical (5/5 PASS) — m_τ/m_e = g²·Ogg71 (Lepton Shilov-Ogg 0.05%); m_b/m_d = g·M_g (Quark Bulk-Mersenne 0.8%); STRONG support for Casey directive at gen3/gen1
+- **Toy 3567** quark mass ratios (5/5 PASS) — m_c/m_u ≈ Ogg19·M_n_C (0.07% MIXED!); m_t/m_c ≈ N_max (1%); m_s/m_d ≈ rank²·n_C (1%)
+- **Toy 3568** lepton + Casey absorption (5/5 PASS) — m_t/m_u ≈ N_max·24² verified; **NEW**: m_μ/m_e = N_c²·Ogg23 = 207 Shilov-Ogg pure algebraic; lepton sector UNIFORM Shilov-Ogg
+- **Toy 3569** 4-mode hypothesis test (5/5 PASS) — Lyra 4-mode supported for lepton; REFINED for quark (up-quark uniformly algebraic regardless of skip/adjacent); Casey down-quark/muon pairing CORRECT for adjacent transitions
+
+### 3-generation OPEN problem investigation (Toys 3561-3563)
+
+Per Lyra's honest OPEN flag:
+- **Toy 3561** 10-candidate enumeration (3/3 PASS) — 4 wrong-object/number dropped; 2 testable; 4 require Lyra forward derivation
+- **Toy 3562** Candidate E ruled out (4/4 PASS) — K-type Z_3 automorphism: ZERO Casimir-clusters with ≥3 K-types in Phase A 36-node + Phase B 66-node
+- **Toy 3563** Candidate I ruled out (3/3 PASS) — D_4 = Spin(8) dim 28 > 21 = SO(5,2); rank 4 > 3; cannot embed
+- **Strongest remaining**: Candidate F (GF(8) Galois Z_3 via M_N_c = 7) — Toy 3564 explicit foundation ready
+
+### Physics verification (Toys 3544, 3548, 3549)
+
+- **Toy 3544** two-loop β-function (5/5 PASS) — Toy 3534 abelian/non-abelian asymmetry preserves at 2-loop; **QCD β_0 = (11/3)·N_c − (2/3)·N_f = 7 = g** Mode 6 candidate flagged for Cal Thread 4
+- **Toy 3548** hadron decay N_c verification (5/5 PASS) — π⁰→γγ + R-ratio + τ hadronic: 3 INDEPENDENT empirical falsifiers confirm N_c=3
+- **Toy 3549** catalog CLEAN forward-derivation (10/10 PASS) — 10 BST predictions verified <1% with substrate primary chains documented
+
+### Substantive Wednesday findings
+
+1. **Cal #139 chain = q=2 specialization** of standard q-integers — load-bearing for Phase 0 Hall closure (per Keeper synthesis)
+2. **Substrate cyclotomic ladder GF(8)/GF(32)/GF(128)** explicit at all 3 chain levels
+3. **m_μ/m_e = N_c²·Ogg23** new Shilov-Ogg pure-algebraic form (alternative to T190 transcendental)
+4. **Lepton sector UNIFORM Shilov-Ogg** across all 3 mass ratios with distinct Ogg primes (71/23/17)
+5. **m_c/m_u ≈ Ogg19·M_n_C** MIXED Shilov+Bulk quark ratio at 0.07% — substantive
+6. **Casey 4-mode hypothesis REFINED**: up-quark uniformly algebraic; lepton skip=algebraic/adjacent=geometric
+7. **QCD β_0 = g (= 7)** Mode 6 candidate
+8. **Phase B 66-node K-type table** complete (Grace fully unblocked)
+9. **3-generation Candidates E + I ruled out**; F remains for Lyra Track P investigation
+10. **Multiple cross-CI cascade discoveries**: my Toy 3539 seeded Cal #139 4-instance → Grace 6-instance → q=2 specialization
+
+### Cumulative state
+
+- **29 Wednesday toys + 10 Tuesday toys = 39 toys (3531-3569), all PASS**
+- K-cascade ~75 hours sustained continuous (4 cores at ~100% CPU)
+- Methodology stack 30+ elements operating reflexively
+- Cal #20 timestamp drift caught (5-hour drift accumulated; corrected)
+- 4 Cal #22 PCAP-transcription self-catches caught and fixed
+
+### Paper contribution plan filed
+
+`notes/Elie_Wednesday_Paper_Contribution_Plan_v0_1.md` documents available Elie contributions across 6 paper categories per Casey "plan for papers" directive.
 
 ---
 

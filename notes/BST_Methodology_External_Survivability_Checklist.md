@@ -161,6 +161,36 @@ For honest scope:
 
 The genuine work — the proofs, the derivation chains, the mechanism arguments — has to be solid for the paper to survive review past the first 30 seconds. This checklist is necessary but not sufficient.
 
+## Operational status update 2026-05-27 (~10 days post-filing)
+
+This checklist has been in standing use through K-audit chain expansion (K1-K193+), Strong-Uniqueness v0.13 ASPIRATIONAL, Three Papers Trio dispatch (May 20), Paper #125 v1.0 dispatch (Tuesday May 19), Bell outreach (Sunday May 24), 22 calibrations, methodology stack growth to 30+ elements.
+
+**Standing reminders since filing**:
+
+- **Calibration #13 (Tuesday May 19 EOD)**: EXACT algebraic identity precision (1e-14) ≠ experimental precision claim. See `BST_Methodology_EXACT_vs_Mechanism_Distinction.md` for institutionalization. Apply this check before any external claim invokes "1e-14 precision" terminology.
+- **Calibration #19 STANDING (Friday May 22 morning)**: external-facing docs use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + N candidates), NOT forecast endpoint. Cal #90(c) caught Keeper position docs; Cal #92 caught Lyra Paper #128 v0.1 within 30 min. Systematic risk under PCAP cadence.
+- **Calibration #22 STANDING (Friday May 22 afternoon)**: PCAP-rate transcription error class. Numbered-artifact discipline mandatory for all Mode 1 corrections. Bidirectional risk (K142 + Cal #100 dual case study). Apply when correcting precision figures or any retraction sweep.
+- **Cal #28 STANDING (Tuesday May 26)**: Casey-Interpretive-Prompt Cascade — META category. When external audiences receive interpretive prompts (Casey-style or otherwise), cascade can produce cross-document propagation. Pre-publication audit should check for cascade-derived claims that may not survive without Casey-style interpretive scaffolding.
+- **Cal #29 STANDING (Tuesday May 26)**: Question-Shape Audit Discipline — design-level. Before publishing classification surveys or catalog scans, audit whether the test's answer follows from question structure (tautological) vs substrate-mechanism (substantive). External readers will apply this audit silently; better to apply it ourselves first.
+
+**Tier-disposition discipline**: external materials should use **honest tier labels** explicitly. FRAMEWORK-PLUS per Cal #126 is the correct label for substantive-but-mechanism-pending claims. RATIFIED tier requires explicit conditions met; do not promote externally before audit-chain closure. The Cal #126 FRAMEWORK-PLUS tier is now sufficiently formalized for external citation.
+
+**Recent operational instances confirming discipline works**:
+
+- **Three Papers Trio dispatch (May 20)**: external-register language compliance preserved through dispatch via Cal cold-reads at boundary.
+- **Bell outreach send (Sunday May 24)**: Cal #127 PASS at FRAMEWORK-PLUS-appropriate framing before dispatch. Vienna IQOQI response window 1-4 weeks from Sunday outreach.
+- **Tuesday May 26 substrate-discovery cadence**: 10 Cal entries Tuesday produced FRAMEWORK-PLUS dispositions; 0 SVC promotions; 0 RATIFIED claims. Discipline holds at peak-convergence; external register would correctly characterize Tuesday's findings as "substantial framework-grade content awaiting substrate-mechanism closure," NOT as "BST proves Bell 1/8 mechanism."
+
+## Updated cross-reference table
+
+- **`BST_Methodology_Substrate_Cognition_External_Register.md`** — DOUBLE-LOCKED EXTERNAL discipline for substrate-cognition framing
+- **`BST_Methodology_EXACT_vs_Mechanism_Distinction.md`** — Calibration #13 institutionalization; 1e-14 ≠ experimental precision
+- **`BST_Methodology_Mode_6_Threshold_Formalization.md`** (Cal, 2026-05-27) — multi-decomposability tier criteria; external numerical claims should pass Mode 6 check
+- **`BST_Methodology_Index.md` v0.8** (Cal, 2026-05-26) — 30+ methodology elements; canonical methodology reference
+- **`BST_Methodology_Coincidence_Filter_Risk.md`** — 7-mode coincidence-filter check (companion doc, Mode 1-7 specifications)
+- **`BST_Methodology_Claim_Level_Positive_Patterns.md`** — Type 1 OFC + Type 2 CDAC + scalar-multiplication caution
+- **`BST_Referee_Methodology.md` Appendix J** (Cal, 2026-05-20 + updates 2026-05-27) — K-audit ruling-shape EXEMPLAR templates J.1 + J.2
+
 ---
 
-*— Cal, standing methodology document, May 17/18, 2026. Apply at external boundary. Companion: Coincidence-Filter Risk Recognition.*
+*— Cal, standing methodology document, May 17/18, 2026 (original); operational status update + cross-references resolved May 27, 2026. Apply at external boundary. Companion: Coincidence-Filter Risk Recognition + Mode 6 Threshold Formalization.*

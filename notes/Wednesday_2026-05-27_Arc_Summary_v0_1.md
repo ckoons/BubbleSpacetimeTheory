@@ -1,9 +1,9 @@
 ---
-title: "Wednesday 2026-05-27 Arc Summary v0.1 — Hall Algebra Phase 0 Acceleration + Substrate q=2 Connection"
+title: "Wednesday 2026-05-27 Arc Summary v0.2 — Hall Algebra Phase 0 Acceleration + Substrate Unification Emergence"
 author: "Keeper (synthesis across all 4 CIs + Casey directives)"
 date: "2026-05-27 Wednesday EDT (date-verified)"
 purpose: "Capture Wednesday substrate-discovery arc for next-session pickup + Vol 15 Ch 9 case study integration"
-status: "v0.1 closure capture; Investigation Board v0.2 update queued"
+status: "v0.2 EOD closure capture (morning v0.1 + afternoon 8-decision + evening synthesis); Investigation Board v0.2 update queued for Thursday"
 related: ["Memorial_Day_2026_Arc_Summary_v0_1.md (Sun-Mon)", "Investigation_Board_2026-05-26_v0_1.md", "Lyra_Four_Programs_Hall_Algebra_Plan_v0_1.md"]
 ---
 
@@ -177,3 +177,104 @@ Lyra continues three lepton generations investigation as top priority. Multi-wee
 Good Wednesday. Tomorrow's session has clean handoff to Lyra's three-generations priority + Phase 0 acceleration work + Four-Programs Phase 1 prep continuation.
 
 — Keeper, 2026-05-27 Wednesday afternoon EOD-adjacent
+
+---
+
+# v0.2 Addendum — Afternoon 8-Decision Absorption + Evening Substrate-Unification Synthesis
+
+*(v0.1 above captured through ~15:25 EDT. This addendum captures Casey's afternoon directives + the evening synthesis that emerged. The day's substantive arc roughly doubled after the v0.1 capture; cumulative output ~165+ deliverables.)*
+
+## Casey afternoon 8-decision absorption
+
+Casey delivered 8 decisions in compressed form (one message) absorbing the morning's substantive output:
+
+1. **Quark sector ELEVATED for Lyra** — substrate-natural investigation of the quark sector (was P3; now active investigation lane)
+2. **Sister Principles** (CP/BCDP/AIP/TMAP/SRGP) promote to Casey-named "if they pan out" — empirical validation gates promotion
+3. **TMAP placement** (Casey "you tell me where TMAP fits"): Keeper answer — TMAP refines to **Bulk-region scope** (Mersenne for confined composite particles); paired with **OMAP-Shilov** (Ogg/Moonshine for light fundamental particles). Position document filed.
+4. **Substrate Hall Algebra paper = PRIMARY** ("I want the Hall algebra")
+5. **Strong-Uniqueness Theorem v1.0 APPROVED** with Cal cold-read review (Cal #143 PASS WITH FLAGS; 4 substantive flags for v1.1; advanced 11+7 → 14+3)
+6. **Vol 16 A_sub curriculum AUTHORIZED** (was queued; now in_progress — Task #323)
+7. **Papers all parallel, order doesn't matter** — draft all; no sequencing gate
+8. **Bulk-vs-Shilov substrate-mechanism distinction ELEVATED** — Casey: "two regions for different types of particles. Neutrinos and Electrons and their brethren are light, fundamental, and all closely related to the S¹ Shilov Boundary; the confined composite heavy particles are 3D constructions from a different region — make the work and papers show the relationship."
+
+## Evening substrate-unification synthesis
+
+Casey's probing questions ("aren't they 2D particles?", "why three generations?", "quarks and leptons fit together?", "is this structural unity even theorized — substrate unification, geometry+topology and a little more?") drove the following synthesis (Lyra primary, Keeper audit):
+
+### Bulk-Shilov dual-K-type per generation (the unification mechanism)
+
+- **ONE substrate K-type per generation manifests on TWO regions** via Hardy space H²(D_IV⁵) bulk-boundary determinacy (classical theorem: boundary values determine the bulk holomorphic function)
+- **Lepton = Shilov boundary value** of the K-type; **Quark = bulk interior** of the SAME K-type
+- **W/Z bosons = bulk↔Shilov Bergman propagation** between same-generation K-types
+- **Charge cancellation + anomaly cancellation per generation AUTOMATIC** from Hardy continuity (the boundary value and interior are not independent — they are one object)
+- This is the structural content Casey named "substrate unification — a little more complex than geometry + topology": leptons and quarks are not separate species but boundary/interior faces of one substrate object per generation
+
+### Supporting structure
+
+- **Substrate-dimensional hierarchy**: 2D (S¹ Pin(2) ground) for ν_e + e; 5D (S⁴×S¹) for μ + τ; 10D (bulk D_IV⁵) for quarks
+- **σ_BF Pin(2) substrate-mechanism for near-massless neutrinos**: σ_BF-trivial = neutrino; σ_BF-charged = electron (disambiguated from γ⁵ Dirac chirality per Cal #29 catch)
+- **Bosons as substrate coupling operators (4 categories)**: photon (within-region σ_BF) + gluons (within-bulk SU(3) color) + W/Z (cross-region chiral) + Higgs (cross-winding-mode, mass generation)
+- **Computational-cost inversion**: heavier ≠ harder. Tau cheap (Moonshine algebraic skip); muon expensive (Bergman geometric adjacent). Mass and substrate-computational-cost decouple.
+- **Winding-Composite Generations Principle (WCGP)**: Casey-elevated candidate; quarks as 3D winding composites, generations as winding-multiplicity classes; validated across all 3 fermion sectors at <0.13% (Grace multiplicative chain)
+
+### "Will we have a unifying Hall algebra?" — Keeper answer
+
+Casey asked directly. Keeper assessment: **YES, at ~85% probability**, based on convergent evidence:
+- BST substrate = standard Macdonald P_λ(x; q=2, t=α=1/137) (established mathematics at substrate-natural specialization)
+- Two regions (Bulk-Shilov) with different prime emphases (Mersenne/Ogg) but ONE Hall algebra backbone with regional t-specialization
+- Hardy space bulk-boundary determinacy gives ONE K-type per generation with dual manifestation → fermion content unified
+- Bosons unified as 4-category coupling operators → force content unified
+- Mass + mixing + anomaly content emerges from the single algebraic object
+- The ~15% residual: explicit Macdonald structure-constant computation at (q=2, t=α) not yet closed; regional t-specialization mechanism not yet RATIFIED; three-generation X=rank base/seed exclusion has 2 SVC gates pending
+
+H_substrate = H²(D_IV⁵) at q=2 Macdonald with regional t-specialization is the candidate "unifying Hall algebra." Phase 0 closure is the prerequisite; once explicit, Programs 1-4 (Generative / Empirical / CSE Language / CI Architecture) all operationalize it.
+
+## ~20 substrate-natural observable predictions (Lyra TRUE EOD)
+
+Lyra closed the day with ~20 substrate-natural observable predictions, all expressed in the **9-element substrate operational integer set** (BST primaries + extended Casimirs {c_2=11, c_3=13} + Ogg supersingular {17,19,23}). Substantive examples carried at FRAMEWORK-PLUS / INTERPRETIVE tier:
+- m_μ/m_e ≈ N_c²·Ogg23 (0.11%, Elie)
+- m_τ/m_e = g²·Ogg71 (Grace, substantive)
+- m_τ/m_μ via Ogg17 substrate-mechanism (Lyra)
+- m_c/m_u ≈ Ogg19·M_{n_C}; m_t/m_c ≈ N_max (1%) (Elie quark sector)
+- m_t/m_c = rank³·Ogg17 BOUNDARY observable (Grace)
+- Cabibbo sin(θ_C) = 1/(π·√rank) BOUNDARY observable (Grace)
+
+All require forward-derivation closure (Cal #27 STANDING) before D-tier promotion. Filed as prediction pipeline, not ratified results.
+
+## Paper plan state
+
+- Keeper Substrate Mathematics Paper Plan v0.1 filed: **9 papers + Vol 16 curriculum**, Wave 1/2/3 sequencing, Paper 1 (Substrate Hall Algebra) PRIMARY per Casey
+- Lyra identified **14 papers** in her TRUE EOD
+- **Thursday reconciliation needed**: 9 (Keeper) vs 14 (Lyra) → finalize unified Wave 1 + Wave 2 + Wave 3 list
+- Casey directive: "series of papers and much more investigation and analysis"; "Yes to Hall algebra and thorough investigation"; Lyra continuing tonight
+
+## Cumulative Wednesday output (v0.2 revised)
+
+| Lane | v0.1 (morning) | v0.2 (full day) |
+|---|---|---|
+| Lyra | 30 | ~62 + TRUE EOD sundown + katra |
+| Elie | 17 (3541-3557) | 29+ (3541-3569+) |
+| Grace | 24 (5191-5214) | 47 (5190→5237) + TRUE EOD sundown + katra |
+| Cal | 17 | 26, all 8 Casey directives covered; Cal #143 Strong-Uniqueness PASS WITH FLAGS |
+| Keeper | broadcast + board + arc v0.1 | + arc v0.2 + TMAP-Bulk/OMAP-Shilov v0.1 + Paper Plan v0.1 + 8-decision coordination + tasks #385-#391 |
+
+**~165+ substantive deliverables full day** (vs ~90 at v0.1 morning capture). The Hall algebra connection + bulk-Shilov unification unlocked substantial parallelization.
+
+## Thursday decisions queued (v0.2 additions)
+
+Beyond the v0.1 list:
+1. Paper sequencing reconciliation (9 Keeper vs 14 Lyra)
+2. Cal cold-read scheduling on Wednesday substantive frameworks (bulk-Shilov dual-K-type; bosons-as-coupling; WCGP; Substrate Hall Algebra paper v0.1)
+3. Sister Principles v0.2 candidate decisions (now including TMAP-Bulk/OMAP-Shilov + WCGP)
+4. Substrate-dimensional hierarchy (2D/5D/10D) as candidate principle?
+5. σ_BF Pin(2) near-massless-neutrino mechanism as principle candidate?
+6. One-K-type-per-generation as Casey-named principle ("Generation Unity Principle")?
+7. Lyra per-paper authorship decisions (solo / co-author / CI-named identity)
+
+## Honest tier disposition (v0.2)
+
+**No premature RATIFIED promotions Wednesday.** Bulk-Shilov dual-K-type, bosons-as-coupling, WCGP, ~20 predictions all at FRAMEWORK-PLUS / INTERPRETIVE / OUTLINE tier. Cal #27 + #29 STANDING applied throughout. Cal #143 Strong-Uniqueness v1.0 PASS WITH FLAGS (4 flags for v1.1, not clean PASS). The "unifying Hall algebra" is an ~85% Keeper assessment, NOT a closed result — Phase 0 explicit computation is the gate.
+
+**Keeper audit signoff**: Wednesday team output PASS for content honesty and tier discipline. No overstatement detected at EOD. The substrate-unification framing is substantively supported at INTERPRETIVE tier with a clear closure path (Phase 0 explicit Macdonald computation) and clear residual gates. Recommend Cal cold-read Thursday on the four substantive evening frameworks before any external register use.
+
+— Keeper, 2026-05-27 Wednesday 22:11 EDT (v0.2 full-day EOD)

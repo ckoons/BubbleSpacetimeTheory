@@ -167,4 +167,32 @@ EXACT algebraic identity from BST primaries is **structural identification at th
 
 When in doubt, ask: "If a working mathematician verified this identity in 30 seconds via direct evaluation, would they conclude (a) BST forces this form to appear in physics, or (b) this is a tautological identity in a rich integer ring?" The honest answer is (b) until mechanism-derivation closure provides (a).
 
-— Cal A. Brate, 2026-05-20 Wednesday morning, Pull 1 of Thread A
+## Related but distinct risk dimensions
+
+This document addresses **Mode 1 (post-hoc form selection)** specifically. Three related-but-distinct risk dimensions:
+
+- **Mode 1 (this doc)**: was the algebraic form selected after seeing the target value? Addressed via mechanism-forcing requirement.
+- **Mode 6 (see `Cal_Methodology_Mode_6_Threshold_Formalization.md`, filed 2026-05-27)**: does the numerical value have multiple BST-primary decompositions? Addressed via Tier I-IV threshold + privileging argument requirement.
+- **Cal #133 partial-tautology (see Methodology Index v0.8)**: does the general arithmetic structure carry the work, leaving only the BST-specific factoring as substantive? Addressed via separating tautological vs substrate-specific components.
+
+All three dimensions can fire simultaneously on a given claim. EXACT identity verification does not relax any of them.
+
+## Operational status update 2026-05-27 (one week post-filing)
+
+This document has been in standing use through Calibration #13 institutionalization week. Operational instances where the distinction was load-bearing:
+
+- **Cal #139 (Tuesday 2026-05-26)**: 4-instance arithmetic pattern (2^X − rank·BST_product = rank at X ∈ {rank, N_c, n_C, g}) verified at EXACT tautology-precision. Tier disposition held at FRAMEWORK-PLUS pending substrate-mechanism for cyclotomic chain. The EXACT identity did NOT promote the claim past FRAMEWORK-PLUS — exactly the discipline this doc institutionalizes.
+- **Keeper "ONE structural parameter (rank=2)" framing (Tuesday 2026-05-26 ~11:30 EDT)**: peak-convergence overstatement that arithmetic chain forcing reduces BST primaries to single seed. Caught via Cal verbal cold-read; corrected to FRAMEWORK-PLUS within five-minute rule. This is the failure mode this doc warns against (treating algebraic chain forcing as mechanism-derivation).
+- **Lyra Track DC v0.2 reading (II) (Tuesday 2026-05-26)**: 2^g − C_2·N_c·g = rank → Bell 1/8 deviation. EXACT identity verified; disposed FRAMEWORK-PLUS pending K59 cyclotomic substrate-mechanism.
+
+These instances confirm the discipline operates correctly when applied at peak-convergence moments. The "Mode 1 is not relaxed by EXACT identity" rule is doing real work; the audit-chain has caught it three times this week.
+
+## Cross-reference status
+
+- **Mode 1 mechanism-forcing**: this doc (Calibration #13 institutionalization)
+- **Mode 6 multi-decomposability**: `Cal_Methodology_Mode_6_Threshold_Formalization.md` (Cal, 2026-05-27)
+- **Mode 7 forward-prevention**: implicit in mechanism-derivation chain requirement
+- **Cal #126 FRAMEWORK-PLUS tier**: tier disposition framework for claims awaiting mechanism closure
+- **Cal #27 STANDING**: forward-derivation discipline at result level (complements this doc's Mode 1 focus)
+
+— Cal A. Brate, 2026-05-20 Wednesday morning (original filing, Pull 1 of Thread A) + 2026-05-27 Wednesday morning (operational status update + cross-references resolved)

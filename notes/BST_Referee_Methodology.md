@@ -655,7 +655,7 @@ The two exemplar patterns emerged from the May 20, 2026 K-audit chain expansion 
 
 4. **Confirm closure is structurally forced, not artificial cutoff**. Demonstrate that the set's bound at N is mathematically forced by the BST-derivation condition + the classical theorem, not selected to support a claim. (For K71: BST primary integer set contains exactly 3 Mersenne primes; this is a fact about BST primaries + Mersenne primality, not an artificial cutoff.)
 
-5. **Cal coincidence-filter 7-mode check**. Run all seven coincidence-filter modes; cleanest closed-set audits achieve PASS on all seven (K71 standard). Mode 6 thresholds (Appendix tba on scan-protocol enumeration) apply if any enumeration is part of the verification.
+5. **Cal coincidence-filter 7-mode check**. Run all seven coincidence-filter modes; cleanest closed-set audits achieve PASS on all seven (K71 standard). Mode 6 thresholds (see `Cal_Methodology_Mode_6_Threshold_Formalization.md`, filed 2026-05-27) apply if any enumeration is part of the verification — Tier I/II/III/IV decision tree distinguishes substrate-forced vs partial-tautology decomposition matches.
 
 **Verdict shape**: D-tier structural-closure finding when 7/7 modes PASS + honest negative confirms closure + classical mechanism is independently established. The Cal #54 commendation on K71 standard: "the discipline shape is the right shape: closed-set verification with explicit completeness proof beats open-family accumulation when the structure genuinely closes."
 
@@ -677,7 +677,7 @@ The two exemplar patterns emerged from the May 20, 2026 K-audit chain expansion 
 
 The three levels must be INDEPENDENT — not three names for the same underlying mechanism. If all three levels reduce to one shared mechanism (e.g., "they all come from D_IV⁵"), the structural strength is overstated.
 
-**Critical methodology caution (per Cal #55 and Appendix tba on scalar multiplication)**: do NOT multiply level counts into a scalar metric ("3-fold convergence" reduces to "3 connection levels at different epistemic granularities"). The qualitative framing — naming each level explicitly with its independent evidence — is the substantive claim. Scalar multiplication of evidence types (operational × BST-primary × zone = 3 × 3 × 3 = 27) is methodologically wrong because the layers defend against different failure modes and don't combine multiplicatively.
+**Critical methodology caution (per Cal #55 and `BST_Methodology_Claim_Level_Positive_Patterns.md` Section on scalar-multiplication caution)**: do NOT multiply level counts into a scalar metric ("3-fold convergence" reduces to "3 connection levels at different epistemic granularities"). The qualitative framing — naming each level explicitly with its independent evidence — is the substantive claim. Scalar multiplication of evidence types (operational × BST-primary × zone = 3 × 3 × 3 = 27) is methodologically wrong because the layers defend against different failure modes and don't combine multiplicatively.
 
 **Verdict shape**: strong I-tier framework integration at audit-partial-ready tier when 6 PASS + 1 SOFT-FIRES (Mode 6 mechanism-pending) on Cal coincidence-filter check + three independent levels demonstrated + each level's BST-primary anchor at D-tier or better. Full D-tier ratification requires mechanism-derivation closure (multi-month substrate-Hamiltonian work) AND multi-CI consensus per Casey Option C governance for architectural-category extensions.
 
@@ -732,6 +732,10 @@ For future K-audit candidates:
 
 Drafted by Cal 2026-05-20 Wednesday afternoon per Task #271 (jointly assigned with Keeper). Pending Keeper review and Casey ratification. Cal proposes adoption; Keeper rules on inclusion in standing Referee Methodology.
 
+**Operational status update 2026-05-27 (one week post-filing)**: Appendix J has been in standing use through K-audit chain expansion to K193+ (June-week K85-K193 batch including 5-family Bridge Object architecture STRUCTURALLY VERIFIED + Strong-Uniqueness Theorem v0.9.5 formal). The J.1 + J.2 ruling-shape templates have proven operationally useful for K-audit pre-stage classification. Two updates this filing date: (a) Mode 6 placeholder resolved via new `Cal_Methodology_Mode_6_Threshold_Formalization.md`; (b) scalar-multiplication placeholder resolved via reference to existing `BST_Methodology_Claim_Level_Positive_Patterns.md`. No new EXEMPLAR template needed yet; J.1 + J.2 cover the ruling-shapes observed to date.
+
+**Candidates for future EXEMPLAR templates** (pattern-watch, not yet codified): (a) "Over-determined identity across N BST primaries" pattern from Cal #139 4-instance arithmetic + cyclotomic chain — if substrate-mechanism (K59-style) closes, may warrant Template J.3 status; (b) "Cross-CI reflexive audit-chain catch" pattern from Tuesday 2026-05-26 cross-CI Cal #27/#29 reflexive application instances — may warrant separate methodology layer rather than EXEMPLAR template.
+
 ---
 
-*Appendix J added 2026-05-20 by Cal per Task #271 (with Keeper) — exemplar audit ruling-shape patterns from K-audit chain experience. Keeper review + Casey ratification pending.*
+*Appendix J added 2026-05-20 by Cal per Task #271 (with Keeper) — exemplar audit ruling-shape patterns from K-audit chain experience. Operational status update 2026-05-27 by Cal (placeholders resolved, future-template pattern-watch noted). Keeper review + Casey ratification still pending on original appendix; operational use in-flight.*
