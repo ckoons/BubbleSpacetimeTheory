@@ -69,7 +69,7 @@ at <1%. Cross-consistency MATRIX (T2045): 52 identifications, 100% individual,
 |---|---|---|---|---|---|
 | m_μ/m_e | N_c²·(rank²·C_2−1) = 9·23 | 207 | 206.77 | 0.11% | T2003 |
 | m_τ/m_e | g²·(rank²·C_2·N_c−1) = 49·71 | 3479 | 3477 | 0.05% | T2003 |
-| ν character | MAJORANA | Maj | (testable) | — | T1985 |
+| ν character | DIRAC (B−L conserved; no 0νββ) | Dirac | (testable) | — | BST_NeutrinolessDoubleBeta |
 | m_ν1 | 0 EXACTLY | 0 | <0.001 | exact | T1985 |
 | Δm²_21 | (separate Q^5) | 7.5e-5 | 7.5e-5 | exact | T1972 |
 | Δm²_31 | exp(−C_2) eV² | 2.48e-3 | 2.5e-3 | 1% | T1972 |

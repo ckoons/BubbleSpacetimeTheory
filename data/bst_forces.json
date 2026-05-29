@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "title": "BST Force and Boundary Layer Data",
-    "description": "Three geometric layers of D_IV^5, each carrying one force and one boundary condition, plus the entropy/Godel information layer.",
+    "description": "Three geometric layers of D_IV^5, each carrying one force and one boundary condition, plus the entropy/Godel information layer. NOTE (2026-05-28 correction): 'gravity' (layer_4) is NOT a gauge force — it is the integrability/boundary condition of the S^1 fiber, retained here as an organizational layer, not a fourth force.",
     "count": 5,
     "last_updated": "2026-04-15",
     "source": "WorkingPaper Section 14, OneGeometry Ch 6"
@@ -87,12 +87,12 @@
       "id": "layer_4",
       "name": "Bulk D_IV^5 Geometry",
       "geometry": "D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]",
-      "role": "Gravity as emergent curvature of the contact graph",
+      "role": "Gravity as the integrability/boundary condition of the S^1 fiber (NOT a gauge force) — emergent curvature of the contact graph",
       "force": {
         "id": "force_gravity",
         "name": "Gravity",
         "mediator": "Contact graph curvature (no graviton in BST)",
-        "mediator_description": "Gravity is not mediated by a particle; it is the curvature of the contact graph itself, emergent from the Bergman metric on D_IV^5",
+        "mediator_description": "Gravity is NOT a gauge force and is not mediated by a particle. It is the integrability (boundary) condition of the S^1 communication fiber — the constraint the base manifold must satisfy for the S^1 phase fiber to be globally consistent — realized as curvature of the contact graph (Bergman metric on D_IV^5). Forces are charge-specific fiber-connection curvature; gravity is the universal base-metric curvature, which is why all objects fall the same way (the equivalence principle becomes a tautology).",
         "coupling_formula": "G = hbar*c*(6*pi^5)^2 * alpha^24 / m_e^2",
         "coupling_value": 6.674e-11,
         "bst_integers": ["C_2", "n_C", "N_max"],
