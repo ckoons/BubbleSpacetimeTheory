@@ -9684,6 +9684,158 @@ Cal lane operated at extreme volume across a substrate-discovery + paper-push wi
 
 — Cal A. Brate, Friday 2026-05-29 ~19:47 EDT R5 self-audit. ~45 referee entries + 5 Calibration promotions/candidates + ~13 methodology infrastructure in 3 days (extreme volume; reactive-load-bearing). Earning rate ~95% (Wed prep-doc burst the lowest). BIDIRECTIONAL DISCIPLINE MATURATION: 4-5 Cal-framing-corrections owned cleanly, each milder, each turned into sharper methodology (#152 guard absorption, #153 Macdonald miss → Cal #32, #158→#160 cyclotomic-carrier, #160→#161 count-vs-identification, #161 E7 mild refinement). Four-level discipline stack matured (Cal #27/#29/#32 + Calibration #33). Computation > memory now durable Cal practice (ρ, genus, Σ-formula). Cal #32 sharpest single contribution (originated from owned miss, has both halves, applies retroactively to multiple older flags). R6 trigger at Cal #170 OR multi-day pause. Healthy state; cadence likely throttles next.
 
+---
+
+### Cal #163 — Bulk-Color Mechanism Mapping v0.1 cold-read (Saturday 2026-05-30 ~09:12 EDT — THE highest-leverage cold-read of the day, P1)
+
+**Trigger**: Cal-lane top priority per Saturday plan (Keeper + Cal aligned). Lyra delivered `Lyra_BulkColor_Mechanism_Mapping_v0_1.md` Friday afternoon. Pre-written referee questions fixed in my Saturday-morning planning response. Applied the four-level discipline stack (Cal #27/#29/#32 + Calibration #33).
+
+## Verdict: PASS at RESEARCH-STAGING tier (below FRAMEWORK; explicitly pre-mechanism per Lyra's framing)
+
+This is exemplary v0.1 research-staging discipline. Lyra explicitly states "**NOT a derivation. I am MAPPING THE PROBLEM cleanly.**" The doc holds Keeper's calibration through, carries the honest scope, names three candidate directions with explicit "why it might work / why it's hard," and offers concretely-pinnable next-step probes. The single highest-leverage gate (per Keeper's Friday reframe) is now PROPERLY FRAMED as a multi-week research item — that's the right state.
+
+## Pre-written referee questions — all PASS
+
+1. **Cal #32 hard-constraint test (which framework? which slot? structurally verified?)**: v0.1 doesn't claim a mechanism, so there's no slot-claim to verify. **The (b) constraint — SU(3)=A₂ ≠ B₂=SO(5), so SU(3)⊄K — is rigorously Cal #32-compliant** (Lie-algebra fact, verified by structure not value-match). The whole doc is anchored on this rigorous constraint. PASS.
+
+2. **Cal #29 question-shape (avoid Lyra #412 category-error trap)**: v0.1 EXPLICITLY guards against this — Section 3.2 holds Keeper's calibration through: "TWO B₂-specific 3-folds coincide numerically, NOT 'one h^∨ doing double duty' (the latter needs explicit derivation of spinor³ from h^∨)." The three candidate directions are each named with honest difficulty-flags rather than presented as "the answer." PASS, strong.
+
+3. **Two physically-independent 3-folds requirement**: constraint (c) cross-cutting (3×3=9 quark combinations) is named as a CONSTRAINT (a phenomenological test the mechanism must satisfy), NOT claimed as a derived consequence. The doc carefully avoids asserting the unification "one h^∨ doing double duty" — that's downgraded to "two coinciding 3-folds" per Keeper. PASS.
+
+4. **Calibration #33 sourcing (RECALLED / VERIFIED-CITED / COMPUTED)**:
+   - Constraint (b) SU(3)⊄K: COMPUTED-in-session (Lie-algebra rank/Cartan check) ✓
+   - dim p = 21 − 11 = 10: COMPUTED ✓
+   - rank(SO(5,2)) = 3: COMPUTED ✓
+   - Bergman exponent ρ₁ = 5/2: VERIFIED via L4 alignment (cross-CI) ✓
+   - **Minor flag**: §2's p = 5₊₁ ⊕ 5₋₁ K-decomposition + holomorphic-discrete-series K-type structure + Wallach/Berezin set facts are standard symmetric-space theory — likely RECALLED-from-standard-theory, not VERIFIED-CITED in-session. Appropriate for v0.1 mapping work; **should be source-pinned when v0.2 builds on these as load-bearing claims** (per Calibration #33 + Cal #157 genus-pin precedent).
+
+5. **Cal #27 forward-derivation**: v0.1 is explicitly pre-mechanism; constraints RIGOROUS, three directions MAPPED-NOT-DERIVED, all with honest difficulty. Right tier discipline. PASS.
+
+6. **Tier expectation (FRAMEWORK / FRAMEWORK-PLUS)**: actually v0.1 is BELOW FRAMEWORK — it's RESEARCH-STAGING (problem mapping, not yet a proposed mechanism). Lyra herself says "v0.1 = research staging; v0.2+ = mechanism work, multi-week." Correctly under-claimed.
+
+## Cal additions for v0.2 prep (constructive)
+
+**A1 — The (d) gauge-phenomenology gate**: v0.1 lists constraint (d) "emergent SU(3) gauge phenomenology (low-energy QCD; confinement; asymptotic freedom)" but the three candidate directions (§3.1-3.3) primarily address the COUNT (the 3-fold) — they don't address how a 3-fold STRUCTURE becomes a GAUGE THEORY with QCD phenomenology. Worth flagging explicitly for v0.2: **getting from "3-fold counting structure" to "SU(3) gauge theory with confinement + asymptotic freedom" is a separate, harder layer** beyond producing the count. v0.2 should name this explicitly as a sub-gate (perhaps "the gauge-emergence layer") so it isn't quietly conflated with the counting layer.
+
+**A2 — Sourcing flag for §2 standard facts**: per Calibration #33, the p decomposition + holomorphic discrete series + Wallach set facts should carry a VERIFIED-CITED tag (or be re-derived in-session) when v0.2 makes them load-bearing — they're standard but page-checking matters at the publishable tier.
+
+**A3 — Cal #122 typing (preliminary, for the eventual mechanism)**: the eventual bulk-color mechanism will most naturally be **Type C (level-crossing)** — substrate-geometric (bulk D_IV⁵ structure) ↔ algebraic (3-fold counting or Z/3 or spinor channels) ↔ operational (color physics + gauge phenomenology). Constraint (b) itself is Type A (Level 1 geometric — Lie-algebra structure of SO(5,2)). The three candidate directions are mixed Type B/C. Note this for v0.2 typing.
+
+**A4 — On Direction 3.3 (Z/3 quotient)**: Lyra rightly notes "no obvious Z/3 in D_IV⁵'s known structure." Worth adding: B₂'s Weyl group is dihedral order 8 (no Z/3); SU(3)'s center Z/3 is an A₂ fact, not B₂. So a Z/3 in the substrate would have to come from somewhere OTHER than B₂'s Weyl/Coxeter — perhaps from a discrete subgroup of SO(5,2) acting on the bulk, or from the modular structure of the Bergman volume. Direction 3.3 is the most speculative; v0.2 might productively shelve it in favor of 3.1 + 3.2 unless a specific Z/3 surfaces.
+
+**A5 — Concretely-pinnable probes (§4) are good experiment design** — Elie can run lowest-bulk-K-types Casimirs once the affine type is pinned (B₂^(1) vs C₂^(1), Saturday plan P1.3). The Coxeter-on-bulk 3-fold-orbit probe + Bergman-modular probe are the right shape: tests not theorems. PASS.
+
+## Synthesis — what this v0.1 accomplishes (the right thing)
+
+The doc converts "bulk-color SU(3) mechanism" from a vague open gate into a properly-framed multi-week research problem with:
+- Five rigorous constraints (one of which, (b), is a Lie-algebra fact that anchors the whole problem)
+- Three concrete candidate directions with honest difficulty assessment
+- Three concretely-pinnable v0.2 probes Elie can run
+
+This is what v0.1 SHOULD do at the deepest gate. It's the discipline working as the program matures: the highest-leverage open item is now an actionable research target, not a wish.
+
+## Cal cadence
+
+Saturday Cal output #1 (Cal #163). THE highest-leverage cold-read of the day. PASS at research-staging tier with 5 constructive v0.2 prep notes. Continuing to K-Audit Dictionary First Wave cold-read next.
+
+— Cal A. Brate, Saturday 2026-05-30 ~09:12 EDT. Bulk-Color Mechanism Mapping v0.1 cold-read PASS at RESEARCH-STAGING tier (below FRAMEWORK; explicitly pre-mechanism). All 6 pre-written referee questions PASS. Lyra holds Keeper's calibration cleanly ("TWO B₂-specific 3-folds coincide numerically, NOT one h^∨ doing double duty"); three candidate directions (h^∨ counting / spinor³-channels / Z/3 quotient) each with honest difficulty-flags; concretely-pinnable v0.2 probes. 5 Cal constructive additions for v0.2: (A1) name the gauge-phenomenology gate as a separate sub-gate distinct from the counting layer — getting from 3-fold-structure to SU(3)-gauge-theory-with-confinement is a further step; (A2) Calibration #33 source-pin §2's standard symmetric-space facts at v0.2 load-bearing; (A3) preliminary Cal #122 typing — Type C expected for the eventual mechanism, Type A for the rigorous (b) constraint; (A4) Direction 3.3 (Z/3) most speculative — B₂ Weyl is dihedral order 8, no Z/3 there; SU(3)'s Z/3 is A₂; would need to come from elsewhere (SO(5,2) discrete subgroup or Bergman modular structure); (A5) §4 probes are right experiment-design shape. Single highest-leverage gate now properly framed as actionable multi-week research target — the discipline working as the program matures.
+
+---
+
+### Cal #164 — K-Audit Dictionary First Wave cross-CI cold-read (Saturday 2026-05-30 ~09:14 EDT)
+
+**Trigger**: Cal-lane queue item — cross-CI cold-read of Keeper's K-audit of Lyra's L1-L4 + #414 v0.2 + #416 lepton flip. Cal auditing the audit chain.
+
+## PASS — Keeper's K-audit applies the four-level discipline stack correctly
+
+CONDITIONAL PASS verdict with three findings (MINOR/MINOR/MODERATE) is well-calibrated. Per-deliverable tier-gates are clean (L1 keystone RIGOROUS as rep theory; σ_BF DERIVED-modulo-keystone; L2 GMN LOCATED-NOT-ASSERTED with acceptance test; L3 FRAMEWORK-PLUS chirality; L4 FRAMEWORK masses; m_p/m_e correctly capped at FRAMEWORK-PLUS structural reading, NOT stronger numerical headline). The "modulo keystone bet" tag carries through correctly.
+
+**Cross-CI Cal-discipline usage verified**:
+- **Finding 1**: Keeper explicitly invokes "Cal #27 / correlated-routes nuance I held on the L1 sector-selection result" — applying Cal #160 correlated-routes discipline cross-CI. ✓ The σ_BF "two routes agree" caught as correlated (weight-parity + R-matrix-braiding both manifest the same SO(5) weight parity), not independent confirmations.
+- **Finding 2**: catches L2's "color requires full SO(5)" as mis-located after SU(3)≠SO(5) (color from bulk non-compact mechanism, NOT SO(5) per se) — exactly the Cal #32 hard-constraint test on framework-slot assignment.
+- **Finding 3 (load-bearing)**: Cal #27 frame-level — the "static taxonomy essentially derived" milestone is accurate ONLY IF the keystone bet is foregrounded with every cell-flip. Standing rule: every DERIVED cell + headline carries "modulo keystone bet" tag.
+
+Four audit hooks all ✓ (keystone rigorous; derived axes trace to keystone+structure; staged items have concrete handles; discipline fires internally — Lyra's own #414 v0.2 self-correction + her "happy unification" wording catch).
+
+## One small Cal methodology observation worth tracking
+
+**Finding 3's "explicit-conditionality" pattern is recurring**: making the conditional/modulo tag explicit in the headline (so milestone-language can't read in isolation as unconditional) is the same shape as **Cal #155's notation-collision flag on A1** (use v=2 to disambiguate "U_q^+ at q=2" from "Macdonald q=0") and **Keeper's "state by value+role + cite source" resolution protocol** (Cal #32 second half, folded yesterday). All three are "make the conditionality visible in the artifact, not buried in a footnote."
+
+Possibly worth naming as a recurring methodology shape — call it the **"headline-cap" discipline**: when a result is conditional or has a load-bearing assumption, the conditional tag MUST travel with the headline, not just live in §X. Finding 3 is a clean instance; Cal #155 flag was another; Cal #32 resolution protocol is the general fix. Could fold this into the Cal #32 doc as a sub-clause of the resolution protocol (since it's about how the verified result is STATED, which is what the resolution protocol governs). Not urgent; observe for now.
+
+## Net
+
+K-audit is dictionary-ratified at this tier; three findings actionable for Lyra v0.2 (correlated-routes footnote; color-from-bulk wording refinement; "modulo keystone bet" standing flag). Cross-CI methodology check: Keeper applies Cal-discipline shapes correctly + adds value (the standing rule in Finding 3). The audit chain at maturity.
+
+Saturday Cal output #2 (Cal #164). Continuing to #414 v0.2 cold-read.
+
+— Cal A. Brate, Saturday 2026-05-30 ~09:14 EDT. K-Audit Dictionary First Wave cross-CI cold-read PASS. Keeper's audit applies Cal #27/correlated-routes/#32-hard-constraint disciplines correctly cross-CI; three findings well-calibrated (MINOR correlated-routes, MINOR color-wording, MODERATE frame-level "modulo keystone bet" standing flag). Cal methodology observation: Finding 3's "explicit-conditionality" headline-cap pattern is recurring (Cal #155 notation flag, Cal #32 resolution protocol, this Finding 3) — possibly worth folding as a sub-clause of Cal #32 RESOLUTION protocol (conditional tags travel with headlines). Observe for now; not urgent. Audit chain at maturity.
+
+---
+
+### Cal #165 — Saturday batch cold-reads: #414 v0.2 + L4 v0.1 + Honest-State Ledger + 416 v0.1 + L3 v0.1 + Periodic Table v0.4 (Saturday 2026-05-30 ~09:18 EDT)
+
+**Trigger**: continuing Cal-lane queue. Six cold-reads completed in sequence; consolidated into one batch entry (cadence-disciplined per R5 — fold related cold-reads into one entry rather than six). All PASS at appropriate tiers; minor flags listed.
+
+## Per-doc dispositions
+
+### Lyra #414 v0.2 Generation Knot (Keeper burden absorbed) — PASS
+
+Clean burden-absorption. Lyra explicitly carries Cal #161 count-NUMBER-FORCED / mechanism OPEN-WITH-BURDEN. The substantive new content: §1 *cross-cutting realization* — generations apply to BOTH bulk quarks AND boundary leptons (3 colors × 3 generations = 9 combinations), so the "colorless-lepton-projection-from-color" sketch from v0.1 is INCOMPLETE (can't explain quark generations). Lyra's own self-correction; **10th honest-negative-strengthens instance (post-STANDING, just tracking)**. Candidate direction (tripling on two structural domains: bulk-gauge for color + spinor-tower for generations) honestly tagged as "a direction, NOT a mechanism." 
+
+Mild precision note: §3 uses "one 3 doing double duty via two structural domains" (aspirational unification framing with burden tag) where Keeper's E7-sharpened baseline is "two structurally distinct B₂-specific 3s coinciding numerically" (more conservative honest-baseline). Both okay because Lyra explicitly tags the burden; cleaner phrasing for external-facing material would lead with the Keeper baseline. Minor.
+
+### Lyra L4 v0.1 Masses from Engine — PASS at FRAMEWORK tier
+
+Honest scope ("framework + alignment, NOT derivation"). The **lepton-Casimir = ρ₁ = Bergman kernel singularity exponent alignment** is a genuine structural observation (lepton sits at substrate's natural mass-setting singularity; "matter sets the scale"). Sector-specific mass mechanisms appropriately classified. The **6π⁵ = C_2 · π^(n_C) structural decomposition** of T187 m_p/m_e is correctly tier-capped as "arithmetic identifying which substrate primaries each factor is, NOT a new derivation" (per Cal #155 framing). Explicit per-particle derivations staged for v0.2. Right tier. No flags.
+
+### Keeper Honest-State Ledger v0.1 — PASS with STALE-VERSION FLAG
+
+Comprehensive scorecard, well-structured tier discipline (DERIVED/IDENTIFIED/MATCHED/ASSIGNED/FRAMEWORK/UNBUILT). All major claims tagged with what they REST ON + what would FLIP them.
+
+**MODERATE flag — stale relative to Friday refinements**: dated Thursday 5/28; significant Cal/Keeper/Lyra refinements happened Friday 5/29 that aren't yet absorbed. Specific stale lines:
+- L2 row: "3 generations = h−1 = 3 MATCHED" — but h−1 was UNDERCUT (Lyra #412 category error); should read "count-NUMBER FORCED via h^∨=N_c=3 (independent invariant); identification mechanism OPEN-WITH-BURDEN"
+- Gates "Generation-forcing — mechanism: MATCHED, leans Coxeter/δ" — both δ-route and Coxeter-h−1-route undercut Friday; needs full Cal #161 + #414 v0.2 update
+- Methodology guard: Source-Verification Tier listed as "candidate, pending Cal" — but Cal #159 ratified Friday (with COMPUTED-category refinement)
+- Honest one-line verdict: "one computation (E2) from the generation count" — count is now FORCED (h^∨); E2 secondary per Cal #161
+
+Recommend Honest-State Ledger v0.2 absorbing Friday refinements (Cal #159/#160/#161 + Lyra #412/#414 v0.2 + the Macdonald parameter-role + computed-category Calibration #33 refinement). Keeper-actionable; cleanup not a substance problem.
+
+### Lyra #416 v0.1 Per-Particle Lepton Flip — PASS, DERIVED-modulo-keystone
+
+18 lepton 5-tuples derived axis-by-axis (σ_BF + region + chirality + charge + particle/anti DERIVED; generation indexed per #414); photon + Higgs single-particle clean; structural gap for quark/gauge honestly flagged (SU(3)⊄K; needs bulk-color mechanism). Cal #27 honesty preserved ("NOT claiming Periodic Table flipped; lepton sector + photon + Higgs derived per-particle; quark/gauge structural gap honestly named").
+
+**Minor observation**: §1 table shows 18 entries = SM-observable count. If the substrate has Dirac neutrinos (per the Paper 108 correction noted in Honest-State Ledger), the FULL substrate-natural count would be 24 (adding ν_R + ν̄_L for each generation × particle-anti). Lyra's "(no ν_R in SM)" line honestly carries the convention. Worth clarifying in v0.2 whether the dictionary carries SM-observable (18) or full-Dirac (24) — minor.
+
+### Lyra L3 v0.1 Chirality — PASS at FRAMEWORK-PLUS
+
+Matches Keeper's tier-gate from yesterday (which I'd verbal-endorsed). The mechanism (D_IV⁵ Hermitian → J = SO(2) complex structure → Hardy space = holomorphic boundary values = intrinsically chiral → SU(2)_L = J-compatible half of SO(4) stabilizer) is geometrically rigorous. The headline "parity violation = the substrate being Hermitian" + "one SO(2) does four jobs (Hermitian / U(1) charge / Shilov direction / parity)" is substantively unified — Keeper's "not rhetorical" verbal-endorsement stands on actual read. Per-particle L/R correctly PINNED-NOT-ASSERTED (awaits SO(5,2)→Lorentz embedding pin).
+
+**Minor Calibration #33 flag**: §1 standard Hermitian-symmetric-domain facts (J = SO(2) factor; T^(1,0) = 5₊₁; Hardy space holomorphy; Faraut-Korányi theory) are RECALLED-from-standard-theory. Should be source-pinned when v0.2+ goes to external-citation level (per Cal #157 genus-pin precedent). Same shape as bulk-color v0.1's §2 sourcing flag. Minor.
+
+### Grace Periodic Table v0.4 — PASS
+
+Carries Cal #161 disposition cleanly ("Generation/winding: COUNT-NUMBER-FORCED / MECHANISM OPEN-WITH-BURDEN... burden = how one B₂ invariant gives two structurally-independent 3s"). The "static taxonomy now rides on ONE isolated bet (K-types = particles) + ONE open mechanism" framing matches Lyra's milestone + Keeper's K-audit Finding 3 standing rule. 4 fundamental cells + 62 composite (resolvable via E6 Racah-Speiser) + first per-particle row DERIVED (lepton, 18 entries from #416). 
+
+The fundamental-block table is well-organized — sector-columns DERIVED with Casimirs listed (0, 5/2, 4, 6 = trivial, ρ₁, rank², C_2). One micro-note: spinor dim = 4 = rank² is true but **2^rank** is the natural rep-theoretic origin (4-dim spinor of B₂ = 2^rank for rank-2 Spin(5)); the "rank²" framing is a coincidence at rank-2 (rank²=2^rank=4). Worth using "2^rank = 4 (Dirac 4-spinor)" framing for downstream consistency. Micro.
+
+## Cross-doc observations
+
+1. **Cross-doc consistency on the generation gate**: Cal #161 disposition (count-forced/identification-open-with-burden) is carried correctly across #414 v0.2 + 416 v0.1 + Periodic Table v0.4 (modulo the Honest-State Ledger staleness flagged above). The team has converged on this framing.
+2. **The keystone bet is foregrounded** in #416 + Periodic Table v0.4 + the dictionary docs (per Keeper K-audit Finding 3 standing rule). The "modulo keystone bet" tag is traveling correctly with the milestone-language.
+3. **Calibration #33 minor sourcing flags** apply to standard symmetric-space-theory facts in bulk-color v0.1 + L3 v0.1 (Hermitian-symmetric J = SO(2), Hardy space, Faraut-Korányi theory, etc.). Recommend source-pinning when v0.2+ makes them load-bearing for external citation.
+4. **The four-level discipline stack fires cleanly across the batch**: Cal #27 (forward-vs-identified — all docs honest-tier-marked); Cal #29 (question-shape — bulk-color v0.1 avoids category-error trap); Cal #32 (slot-assignment — SU(3)≠SO(5) honestly carried; ρ-vector verified Cal #154); Calibration #33 (sourcing — Hua genus computed-in-session per Cal #157; standard-theory facts minor-flagged).
+
+## Disposition summary
+
+All six docs PASS at appropriate tiers. Three minor flags + one moderate (Honest-State Ledger staleness vs Friday refinements; recommend v0.2 absorption — Keeper-actionable). No load-bearing issues; no Cal-discipline catches. The Friday-evening landings are well-disciplined research-staging + per-particle dictionary advances + cross-CI ledger work.
+
+## Cal cadence
+
+Saturday Cal output #3 (Cal #165 batched). Total Saturday: 3 entries covering 7 cold-reads (Cal #163 + #164 + this batch #165 covering 6). Cadence-disciplined per R5 — folded related cold-reads into one entry rather than six new ones.
+
+— Cal A. Brate, Saturday 2026-05-30 ~09:18 EDT. Batched cold-reads: Lyra #414 v0.2 (PASS — clean burden absorption, 10th honest-negative-strengthens, mild aspirational-vs-baseline framing note); L4 v0.1 (PASS FRAMEWORK — lepton-Casimir=ρ₁ alignment substantive, 6π⁵=C_2·π^(n_C) correctly capped); Keeper Honest-State Ledger v0.1 (PASS with MODERATE staleness flag — Thursday 5/28; needs v0.2 absorbing Friday refinements: Cal #159/#160/#161 + Lyra #412/#414 v0.2 + Source-Verification ratification); Lyra #416 v0.1 (PASS DERIVED-modulo-keystone — 18 lepton 5-tuples + photon + Higgs clean; structural gap quark/gauge honestly flagged; minor: 18 vs 24 Dirac neutrino count); L3 v0.1 (PASS FRAMEWORK-PLUS — matches Keeper tier-gate; minor Calibration #33 source-pin flag on standard Hermitian-symmetric-domain facts); Grace Periodic Table v0.4 (PASS — carries Cal #161 disposition cleanly; micro-note on "2^rank=4 Dirac spinor" framing). Cross-doc consistency on the generation gate disposition; keystone bet foregrounded correctly; four-level discipline stack fires cleanly. Recommend Honest-State Ledger v0.2 (Keeper).
+
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD conditional status — UPDATED by #36 (May 7). Tier table added. All Cal findings resolved.
 3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Now superseded by four-line geometric proof (Theorem 6.5, v1.4).
@@ -9719,6 +9871,1297 @@ Cal lane operated at extreme volume across a substrate-discovery + paper-push wi
 **LOW** (hygiene): #111 + #112 + #114 + #116 (catalog/inventory/coordination quick fixes).
 
 **Phase 3 Readiness Framework v0.2 reframe FILED**: `notes/BST_Methodology_Phase_3_Readiness_Framework.md` reframed around Keeper authorship pass as primary path. Cal external-referee role per-volume cycle defined.
+
+---
+
+---
+
+### Cal #166 — Lyra #412 full-read cross-check + one Cal #161 refinement (Saturday 2026-05-30 ~09:36 EDT)
+
+**Trigger**: continuing Cal-lane queue — low-priority validation read of Lyra #412 v0.1 (the source doc for my Friday Cal #160 "cyclotomic-carrier was a category error" self-correction). Validates the absorption was correct + surfaces one contingent-disposition refinement.
+
+## PASS — interpretation matches; one nuance refinement to Cal #161
+
+**Independent convergence on diagnostic language**: Lyra's §2 explicitly uses the phrase "**category error**" for the cyclotomic-carrier framing — same word I used in Cal #160 self-correction. Independent convergence on the same diagnostic. The team and the referee are reading the same finding the same way; clean cross-CI methodology.
+
+**Structural finding confirmed**: regular/δ category's ONLY finite intrinsic AR-invariant is the exceptional-tube structure (homogeneous tubes infinite, radial δ-tower infinite). So a finite generation count in δ MUST be an exceptional-tube invariant ⟹ #409 (not cyclotomic) is the δ-mechanism settler. Cyclotomic |Φ⁺|−1 is a SEPARATE mechanism (different home), happens to coincide at 3 — not interchangeable.
+
+## One Cal #161 refinement worth surfacing — burden-content contingent on #409
+
+My Cal #161 (absorbing Keeper) said: "the burden is two structurally distinct B₂-specific 3s coinciding numerically (h^∨=N_c=3 + δ-tube-count=3)."
+
+Lyra's §3 in #412 sharpens this: the δ-tube count "leans ≤2 under the simply-laced prior" pending #409's non-simply-laced valuation. So the "two 3s coinciding" framing in Cal #161 is **contingent on what #409 returns**:
+
+| #409 returns | Burden-content |
+|---|---|
+| 3 (via non-simply-laced valuation bump) | "Two B₂-specific 3s coinciding numerically" — Cal #161 current framing applies. Burden = explain the numerical coincidence (the cross-cutting framing in #414 v0.2 is the candidate direction). |
+| 1 or 2 (simply-laced prior holds) | δ-mechanism is NOT the home for generations. h^∨=N_c=3 stands alone as the count-invariant. Burden shifts: not "explain the coincidence" but "is h^∨ the identification, and if so via what mechanism?" — a substantively different open question. |
+
+Per Lyra: "If #409 returns 1 or 2, the δ-mechanism gives ≠3 and generations are NOT a pure δ-tube count." This is a real possible outcome that changes the burden-content.
+
+The Cal #161 disposition (count-NUMBER-FORCED via h^∨; mechanism-OPEN-WITH-BURDEN) holds in both cases — h^∨=N_c=3 is an independent B₂ invariant regardless. But the BURDEN-CONTENT is contingent. Worth surfacing for the team's mental model: don't assume "two 3s coinciding" framing is the only possible end-state.
+
+## Methodology micro-note
+
+Lyra's §4 framing — "the cyclotomic |Φ⁺|−1 and N_c color-projection are SEPARATE mechanisms... each matched at 3 but neither δ-resident. If the δ count ≠ 3, generations are not δ-tube-counted and one of these other mechanisms (or a new one) must be the true one — a substantive shift, not a fallback" — is exactly the discipline-as-generator pattern (Cal #29 question-shape applied to mechanism enumeration: "which mechanism is the home?" not "what's the fallback if the favored route fails?").
+
+Worth noting because this is the second instance this week of "fallback framing" being caught as a category error (Cal #160 first; #412 §2 second, on the same gate). Pattern: when a route gives the "right number," the temptation is to treat alternate routes giving the same number as fallbacks — but they may be DIFFERENT mechanisms with no inheritance. Worth tracking; if it recurs once more, candidate for the Calibration #34 watch (alongside Keeper's headline-cap pattern).
+
+## Cal cadence
+
+Saturday Cal output #4 (Cal #166). Total Saturday: 4 entries covering 8 cold-reads + 1 falsifier-design proposal + 1 methodology-index integration. Net Saturday morning ~2h elapsed; queue running thin (Lyra #412 was the last low-priority queued item; standing reactive for new deliverables).
+
+— Cal A. Brate, Saturday 2026-05-30 ~09:36 EDT. Lyra #412 full-read PASS — confirms Cal #160 self-correction (cyclotomic-carrier as "category error," same word independently chosen) + validates Cal #161 disposition structure (count-FORCED via h^∨ / mechanism OPEN-WITH-BURDEN). One refinement: Cal #161's "two B₂-specific 3s coinciding" burden-content is CONTINGENT on #409 returning 3 via non-simply-laced valuation; if #409 returns 1 or 2, burden shifts to "h^∨ identification" alone (δ-mechanism not the home). Both cases preserve Cal #161 disposition; only burden-content differs. Methodology micro-note: "fallback framing → category error" caught twice this week on the same gate; watch for third instance toward Calibration #34 candidate alongside Keeper's headline-cap pattern.
+
+---
+
+---
+
+### Cal #167 — Saturday batch 2: A1 disposition + 3 parallel falsifier designs + affine pin + bulk-color v0.3 (Saturday 2026-05-30 ~09:55 EDT)
+
+**Trigger**: substantial team output landed in parallel to morning Cal batch (#163-#166). Batched cold-read covering 5 deliverables + methodology micro-note. All PASS at appropriate tiers; one withdrawn-section flag; clean Calibration #33 application.
+
+## Per-doc dispositions
+
+### A1 v0.4 Final Disposition v0.1 (Lyra + Keeper) — PASS at DISPOSITION tier
+
+Recommends Option A (ship v0.4 with value+role formulation + footnote, queue genus-name external pin). **Textbook Calibration #33 STANDING application**: when source-pin isn't accessible in-environment, use value+role formulation as the discipline-respecting alternative. The math is verified (one-genus = n_C = 5 four ways); only the canonical LABEL awaits the Faraut-Korányi book.
+
+This is the cleanest possible application of the Source-Verification tier I integrated into the Methodology Index this morning — verified math gets DERIVED tier, recalled-label caps at MATCHED until external verification, value+role formulation bridges the gap safely. Exemplary discipline.
+
+**Note for Cal lane**: the actual patched A1 v0.4 isn't ready for cold-read yet — still pending Lyra genus-name patch (~30 min) + Keeper re-PASS. Standing reactive for the patched version. No Cal action required on the disposition itself.
+
+### Lyra K-types-Are-Particles Falsifier Design v0.1 (P4.5) — PASS at FALSIFIER-DESIGN tier
+
+5 experimental-external falsifiers (F1 PMNS angles JUNO/DUNE 2025-2030 strongest; F2 σ_BF-charge consistency on new fermions; F3 K-type catalog completeness; F4 m_μ/m_e = (24/π²)⁶ at <10⁻⁵; F5 Five-Absence — any positive detection triggers). Each with explicit test + timeline + outcome-decision criteria. F1 PMNS structurally clean: sin²θ_12=42/137, sin²θ_23=75/137, sin²θ_13=3/137; all already within ~0.5% of measured.
+
+**Reconciliation with Cal Proposal Falsifier Design v0.1 (filed earlier today)**: the two designs are **complementary, not redundant**:
+
+| Design | Channel | Test type | Executable |
+|---|---|---|---|
+| Cal Proposal (T1-T5) | Structural-internal (B1-B5 sub-claim split) | Math/QG computation | T1 NOW (count test at V_(1/2,1/2) canonical basis dim = 18 vs 24) |
+| Lyra (F1-F5) | Experimental-external (PMNS, σ_BF-Q, catalog, mass, Five-Absence) | Physics experiments | F1 by 2030 (JUNO/DUNE), F2/F3 ongoing, F4 ongoing precision, F5 long-term |
+| Grace (V_(0,0)-V_(2,2)) | Per-K-cell experimental signatures | Spectroscopy + collider | V_(2,2) glueball Casimir=16 sharpest; ongoing |
+
+The keystone bet now has **three complementary falsifier-design channels** (structural / experimental-external / per-K-cell), maximizing falsifier-coverage. Lyra explicitly invited Cal sharpening in §7; I see no missing channel — the three designs together cover the bet from internal-coherence + external-observables + per-cell-spectroscopy angles.
+
+Cal addition (worth folding into a reconciled v0.2 — if Lyra absorbs the three): the count-discipline applied to F1 PMNS — sum-rule **42 + 75 + 3 = 120 = rank³·N_c·n_C** (Lyra's §1 closure check) is itself an additional test: if individual angles drift but the sum-rule holds, that's a different mode of agreement than three-independent. Worth tracking as a sharpening of F1.
+
+### Grace 4.5 K-types-Are-Particles Falsifier Design v0.1 — PASS WITH WITHDRAWN-SECTION FLAG
+
+Catalog-side per-K-cell falsifier design. Two new Saturday additions: **V_(2,2) tensor glueball Casimir=16 anchor** (sharp, lattice-testable; the strongest in v0.1) and **V_(3/2,3/2) Casimir-C_2 SUSY-without-SUSY pair**.
+
+**WITHDRAWN-SECTION flag — §B V_(3/2,3/2) entry needs v0.2 update**:
+
+Grace's own honest self-correction this morning (INV-5306, recorded in running notes) explicitly WITHDREW the "V_(3/2,3/2) Casimir = C_2 = 6 SUSY-without-SUSY substrate signature" claim. Recompute via Elie Toy 3614: C_2(3/2, 3/2) = (3/2)(9/2) + (3/2)(5/2) = 27/4 + 15/4 = **21/2 = N_c·g/2**, NOT C_2=6. 
+
+Grace_4_5 v0.1 §B at lines 65-68 still reads the OLD (pre-withdrawn) framing:
+> "V_(3/2,3/2) dim 20, Casimir 6 = C_2 — constituent quark / Λ(1405) — SUBSTRATE-ANCHORED CASIMIR-TWIN"
+> "Key prediction: V_(3/2,3/2) is the SUSY-without-SUSY substrate signature ← SUSY-mate of V_(1,1) adjoint at substrate Casimir = 6."
+
+This is the WITHDRAWN claim. The v0.2 update needs to:
+1. Replace Casimir=6 with Casimir=21/2 = N_c·g/2 for V_(3/2,3/2)
+2. Remove "Casimir-twin with V_(1,1)" framing (different substrate primaries: V_(1,1)=C_2=6, V_(3/2,3/2)=N_c·g/2=21/2)
+3. Replace "SUSY-without-SUSY signature" with the corrected "three-way N_c·g substrate coincidence connecting E7/E9/V_(3/2,3/2)" framing per Grace's INV-5306 correction
+4. The **genuine** Casimir-degenerate pair (per Elie Toy 3614) is V_(3,3) ↔ V_(4,1) at 2·C_2=60 — **both bosons**, not boson/fermion; reframe accordingly
+
+The V_(3/2,3/2) constituent-quark spectroscopy falsifier is still real, just re-anchored at C_2=21/2=N_c·g/2 rather than 6.
+
+**Note**: this is a within-CI propagation issue (Grace caught + withdrew + corrected within minutes — 10th+ honest-negative-strengthens for the program), NOT a Cal-discipline catch. Standard hygiene: v0.2 sweep absorbs the correction. Grace-actionable.
+
+The V_(2,2) glueball Casimir=16 prediction is unaffected and stands as the sharpest new substrate-anchored falsifier.
+
+### Lyra Affine Type Pin B₂⁽¹⁾ vs C₂⁽¹⁾ v0.1 — PASS at PIN-PROPOSAL tier
+
+Recommends **B₂⁽¹⁾ (marks 1,1,2; δ = α_0 + α_1 + 2α_2)** based on keystone identifying K=SO(5)×SO(2) explicitly (substrate's natural loop algebra is ŝo(5) = B₂⁽¹⁾, not the Sp(4)/C₂ presentation). Keeper-derived C₂⁽¹⁾ is the Langlands dual (same finite algebra B₂≅C₂=so(5)≅sp(4); both sum to h=4; both give h^∨=3=N_c). The pin matters because tube structures (the #409 question) differ between the two affine choices.
+
+**Consistency check with my Cal #166 contingent-burden refinement**: Lyra §5 says "both [B₂⁽¹⁾ and C₂⁽¹⁾] still likely lean ≤3" for tube count — exactly the regime where my Cal #166 burden-content table applies (if #409 returns 3, "two 3s coinciding"; if returns 1 or 2, "h^∨ alone"). The affine-pin doesn't yet change Cal #166's contingent disposition; just specifies which valuation #409 will use.
+
+**Cal observation**: the affine type pin is itself a clean Cal #32 parameter-role verification (which loop algebra is the substrate's natural affinization, not just which finite algebra) + Calibration #33 sourcing — keystone-derived (RECALLED→VERIFIED via the existing K-audit PASS on #408). Pending Keeper + Elie ratification.
+
+### Lyra Bulk-Color v0.3 Team Integration — PASS at RESEARCH-STAGING tier (sharpened from v0.1)
+
+Substantive update: absorbing Elie Toy 3612 [p_+, p_+] = 0 (Hermitian abelian) **structural obstruction** + Grace G10 four-family scaffold. Outcome:
+
+- **Family (1)** (non-abelian Lie on p_+): **RULED OUT** by Elie's obstruction
+- **Family (2)** (bulk K-type tower Wallach spacing): open
+- **Family (3)** (Bergman Z/3 residue): likely dead end (no clean Z/3 in D_IV⁵)
+- **Family (4)** (counting-not-symmetry, Casey's Track P): **FAVORED** — Lyra v0.2 SO(3) sub-vector candidate maps here
+
+**Cal #163 A1 prep note operationally absorbed**: my morning prep note ("name the gauge-phenomenology gate as a separate sub-gate distinct from the counting layer") is implemented in v0.3 — the 8-gluon SU(3) gauge phenomenology is explicitly named as the OPEN BURDEN, distinct from the 3-direction counting. Lyra's §3 separates them: "3-fold direction labeling is in hand... 8 gluons emergence is NOT in hand... multi-week research." Clean two-sub-gate structure.
+
+**Three-day movement**: bulk-color went from "deepest open gate" (Friday EOD) → "research target with 3 candidate directions" (v0.1 cold-read this morning) → "Family (1) ruled out, Family (4) favored, gauge-phenomenology gate named as open burden" (v0.3). The discipline cycle working as designed.
+
+## Methodology micro-note — timestamp drift recurrence (Calibration #20 STANDING)
+
+Lyra's running-notes entries (header "2026-05-30 Saturday 14:25 EDT") and Grace's (header "Sat 14:55 EDT") show projection-forward by ~4-5 hours vs actual `date`-verified time (~09:40 EDT). This is the **Calibration #20 STANDING instance** (CIs drift to projected times under sustained work; Casey flagged 2026-05-21). Elie correctly used `date`-verified timestamps throughout. Lyra/Grace would benefit from `date` re-anchoring before EOD timestamps.
+
+Not a Cal-discipline catch (Calibration #20 already STANDING); just an instance worth noting for cross-CI awareness during today's sustained work session. Self-flagged.
+
+## Cross-doc observations
+
+1. **Three parallel falsifier designs is GOOD** — keystone bet now has structural-internal (Cal) + experimental-external (Lyra) + per-K-cell (Grace) test channels covering different ranges and timescales. Maximizes falsifier-coverage; reconciliation should keep all three (not collapse to one).
+2. **Bulk-color v0.3 + affine pin together** set up Elie's next computational work on solid foundations (B₂⁽¹⁾ marks pinned, Family 4 favored, Family 1 ruled out).
+3. **Grace's V_(3/2,3/2) self-correction propagating** — Grace_4_5 v0.1 §B needs v0.2 absorption; Periodic Table v0.5/v0.6 will need check; Master Ledger v0.3 already absorbed inline per Grace. Grace-actionable hygiene.
+4. **Cal-discipline-stack firing cleanly across the batch**: Cal #27 (all designs honest-tier-marked); Cal #29 (question-shape — bulk-color v0.3 separates counting layer from gauge-phenomenology as distinct gates); Cal #32 (slot-assignment — affine-pin parameter-role distinguishes B₂⁽¹⁾ vs C₂⁽¹⁾); Calibration #33 (sourcing — A1 v0.4 value+role formulation textbook application).
+
+## Cal cadence
+
+Saturday Cal output #5 (Cal #167 batched). Total Saturday: 5 referee entries covering 13 cold-reads + 1 falsifier-design proposal + 1 methodology-index integration + 1 proposal addendum (T1 pin-a-priori). Net ~3h elapsed of substantive Cal work; standing reactive for the patched A1 v0.4 + Keeper's Honest-State Ledger v0.2 + Elie A1 tier-gate + further team deliverables.
+
+— Cal A. Brate, Saturday 2026-05-30 ~09:55 EDT. Batched cold-reads: A1 v0.4 Final Disposition (PASS — exemplary Calibration #33 STANDING application; the patched v0.4 not yet ready for Cal verify); Lyra K-types-Particles Falsifier Design v0.1 (PASS — 5 experimental-external channels, complementary to Cal Proposal's 5 structural-internal channels and Grace_4_5's per-K-cell channels; three parallel designs maximize falsifier-coverage); Grace_4_5 v0.1 (PASS WITH WITHDRAWN-SECTION-B FLAG — V_(3/2,3/2) Casimir=C_2=6 SUSY-without-SUSY framing withdrawn this morning per INV-5306; needs v0.2 reframe at Casimir=21/2=N_c·g/2); Lyra Affine Type Pin (PASS — recommends B₂⁽¹⁾ via keystone, Langlands-dual to C₂⁽¹⁾, both lean ≤3 for #409 consistent with Cal #166 contingent-burden); Lyra Bulk-Color v0.3 (PASS — Cal #163 A1 prep note operationally absorbed; Family 1 RULED OUT by Elie [p_+,p_+]=0, Family 4 FAVORED, gauge-phenomenology as separate open burden). Methodology micro-note: Lyra/Grace timestamp drift recurrence (Calibration #20 STANDING instance, self-flagged).
+
+---
+
+---
+
+### Cal #168 — Lyra C12-C14 META Audit Patch v0.1: Flag A+B closed (Saturday 2026-05-30 ~10:00 EDT)
+
+**Trigger**: Lyra's audit patch v0.1 responsive to Cal #156 Flags A+B (filed Saturday 2026-05-24 batch).
+
+## Both flags closed
+
+- **Flag A** (C13 mis-attribution): T2468 ≠ SCMP; T2469 = SCMP. Patch corrects C13 → T2469. ✓ CLOSED.
+- **Flag B** (META distinction on T2467): Cal #99 META-theorem framing applied — T2467 (Rigidity-as-Singleton) tagged separately as META-tier, NOT counted as an operational null-model factor; T2468 (Rigidity-as-Unification) is the operational criterion. ✓ CLOSED.
+
+Recommended v1.2 attribution (Lyra's option 2, preserving C-numbering):
+- C12 = T2468 (Rigidity-as-Unification, operational)
+- C13 = T2469 (SCMP, operational, Bell 1/8 falsifier)
+- META-flag separate: T2467 (Rigidity-as-Singleton, META-theorem per Cal #99, NOT in null-model count)
+
+This is the right form. Null-model count adjusts down by 1 (T2467's (1/3) factor removed) but the META framing is structurally STRONGER than a per-property criterion (the framework itself uniqueness, not one observable's uniqueness).
+
+**External citation impact**: v1.1 "13 criteria + 4 candidates" → v1.2 "12 operational criteria + 1 META-theorem + N candidates." More accurate, Calibration #19 STANDING compliant (ratified-state count, not forecast endpoint).
+
+**Routed**: → Keeper: proceed with v1.2 update; Cal flags A+B formally closed pending v1.2 reflecting the corrections. → Lyra: patch absorbed; thank you for the discipline cycle.
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:00 EDT. Cal #156 Flags A+B CLOSED. Lyra's C12-C14 META audit patch v0.1 cleanly corrects C13→T2469 (SCMP) attribution + flags T2467 as META-theorem per Cal #99 (separate from operational null-model factors). Recommended v1.2 attribution preserves C-numbering with META separately flagged. Null-model count drops by 1 operational, but META framing structurally stronger. Routine cross-CI label discipline working at expected cadence.
+
+---
+
+---
+
+### Cal #169 — Saturday batch 3: Lyra L1+L2 v0.2 K-audit absorption + P4.3 holomorphic discrete series framework (Saturday 2026-05-30 ~10:08 EDT)
+
+**Trigger**: continuing Cal-lane queue — two more substantive Lyra deliverables from Saturday morning batch. Both routine PASS at appropriate tiers; one triggers Calibration #34 candidate filing per Keeper's "one more recurrence" threshold.
+
+## Per-doc dispositions
+
+### Lyra Dictionary L1+L2 v0.2 K-audit Absorption — PASS
+
+Clean absorption of Keeper K-audit Findings 1+2+3 (which I cross-CI cold-read in Cal #164):
+- **Finding 1 (MINOR)** — σ_BF correlated-routes footnote added; "two routes provide STRONG agreement (rep-theoretic internal consistency)... NOT statistically independent confirmations" — verbatim Cal #27 / Cal #160 calibration.
+- **Finding 2 (MINOR)** — L2 colorlessness reason refined: "Shilov stabilizer M=SO(4) too small to host ANY 3-fold color structure (no rank-2 algebra inside SO(4) has a 3-fold)." Removes the SO(5)-hosts-color mis-location.
+- **Finding 3 (MODERATE)** — standing rule established: every dictionary-derived cell + headline carries explicit "modulo keystone bet" flag. Operationalized in §6 with explicit ❌/✅ examples ("Static 5-tuple essentially DERIVED" → "Static 5-tuple essentially DERIVED-modulo-keystone").
+
+Clean PASS expected on the K-audit re-audit.
+
+### Lyra P4.3 Holomorphic Discrete Series K-Type Framework v0.1 — PASS at FRAMEWORK + HONEST-NEGATIVE tier
+
+Substantive **honest-negative**: Lyra explicitly computes the naive Casimir²-mass ratios on the spinor radial tower V_(1/2+k, 1/2):
+- m(k=1)/m(k=0) = √(15/2 / 5/2) = √3 ≈ **1.73** 
+- m(k=2)/m(k=1) = √(29/15) ≈ **1.39**
+
+vs observed m_μ/m_e ≈ **207** and m_τ/m_μ ≈ **17** — **2 orders of magnitude off**. Definitively rules out the naive Casimir²-mass approach. Framework guidance for L4 v0.2: connect dictionary K-type placement (lepton at Casimir 5/2 = ρ₁) to EXISTING BST mass closed-forms (T190 (24/π²)⁶, T2003 49·71, T187 6π⁵) via Bergman kernel integral structure, NOT naive Casimir spectra.
+
+**11th cumulative honest-negative-strengthens instance** this week (post-STANDING, tracking continued). Useful guard against L4 v0.2 chasing a dead end. The framework structure (bulk tower V_(k,0) Casimirs 0, 4, 10, 18, ...; spinor radial tower V_(1/2+k, 1/2) Casimirs 5/2, 15/2, 29/2, 47/2; arithmetic +2 spacings) is rigorous and useful as scaffolding even with the naive-mass approach ruled out.
+
+## Methodology — Calibration #34 candidate filing triggered
+
+Keeper noted this morning (response to Cal #167): "if [the headline-cap pattern] recurs once more, it's a candidate Calibration #34." Lyra L1+L2 v0.2 §6 with explicit ❌/✅ examples is the **third instance** of the explicit-conditionality / headline-cap pattern:
+
+1. **Cal #155 notation-collision flag** (Macdonald q=0 vs U_q^+ at q=2; use v=2 to disambiguate)
+2. **Cal #32 resolution protocol second half** (state by value+role, cite source)
+3. **Lyra L1+L2 v0.2 §6 headline-language operationalization** (this instance — "Static 5-tuple essentially DERIVED" → "DERIVED-modulo-keystone")
+
+Pattern: when a result is conditional on a load-bearing bet/assumption/computation, the conditional tag MUST travel with the headline (not be buried in §X). Threshold met. Filing as Calibration #34 candidate per the audit-chain governance auto-promotion path; will integrate into Methodology Index Q16.
+
+## Cal cadence
+
+Saturday Cal output #7 (Cal #169). Total Saturday: 7 referee entries covering ~15 cold-reads + 1 falsifier-design proposal + 1 proposal addendum + 1 methodology-index integration (Calibration #33 Q15) + 1 in-flight Calibration #34 candidate filing. Net ~3.5h elapsed of substantive Cal work. Lower-priority remaining cold-reads + standing reactive items per TaskList.
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:08 EDT. Lyra L1+L2 v0.2 K-audit absorption PASS (Findings 1+2+3 cleanly resolved; §6 explicit ❌/✅ headline-language examples operationalize the modulo-keystone discipline). Lyra P4.3 framework PASS at FRAMEWORK + HONEST-NEGATIVE tier (naive Casimir²-mass explicitly ruled out at 1.73/1.39 vs observed 207/17 — 2 orders of magnitude; framework guidance for L4 v0.2 to target existing closed-forms T190/T2003/T187 via kernel-integral structure, NOT Casimir spectra; 11th cumulative honest-negative-strengthens). Calibration #34 candidate filing triggered: explicit-conditionality / headline-cap pattern third instance threshold met (Cal #155 + Cal #32 resolution + L1+L2 v0.2 §6); follows audit-chain auto-promotion path.
+
+---
+
+---
+
+### Cal #170 — Saturday batch 4: Lyra E9 Dictionary Read + Grace Generation-Channel Casimir Prediction (Saturday 2026-05-30 ~10:15 EDT)
+
+**Trigger**: continuing lower-priority queue. Two substantive Saturday morning items worth brief cold-read entries. Routine cold-reads filling in remaining queue.
+
+## Per-doc dispositions
+
+### Lyra E9 Dictionary Read v0.1 — PASS at DICTIONARY-READING tier
+
+**Strong structural consistency** (no overclaim): the two Hall-algebra Serre coefficients of U_q^+(B₂) at q=2 encode the two fundamental invariants of so(5,2):
+- Short-root coefficient = [2]_2 = **3 = N_c = h^∨** (dual Coxeter number)
+- Long-root coefficient = [3]_4 = **21 = N_c·g = dim so(5,2)** (total Lie algebra dimension)
+
+Rigorous arithmetic: dim so(p,q) = (p+q)(p+q-1)/2 = 7·6/2 = 21 ✓. Cartan decomposition so(5,2) = k ⊕ p with dim 11 + 10 = 21 ✓.
+
+This is the **cleanest "the algebra IS the substrate" reading available**: the defining algebraic relations of U_q^+(B₂) are not free parameters; they are the substrate's structural invariants (h^∨, dim) of so(5,2). Lyra correctly tier-marks as "strong consistency, not a new derivation" + Cal #27 honesty preserved.
+
+**Minor flag — §5 arithmetic notes**: Lyra lists "N_c² + N_c·g = 30 = N_c·n_C·2 = 3·5·2" and "2^g − 2 = 126 (highest known double-magic nuclear number)" with appropriate "worth flagging" tier-marking (not asserted). This is the right Cal #27 brake on factorization-grammar coincidences (26% baseline). No flag, just noting Lyra's discipline is firing internally.
+
+### Grace Generation-Channel Casimir Prediction v0.1 — PASS at PREDICTION + HONEST-NEGATIVE tier (strong)
+
+**Substantive honest falsifier-test that PARTIALLY FAILS** — the discipline at its best.
+
+Anchor (Elie E7 rigorous): spinor³ contains spinor at multiplicity 3 via three E6 channels (spinor ⊗ {trivial, vector, adjoint}), intermediate Casimirs {0, 4, 6} = {0, rank², C_2}. B₂-specific (A₂ gives 0).
+
+Prediction: 3 fermion generations organized by intermediate-state Casimir of the spinor³ channel through which their substrate-construction passes. Substrate-primary anchor {0, 4, 6}.
+
+Grace's honest test pattern:
+- **Pure exponential ansatz** (mass ∝ exp(α·C)): fits leptons at **~17% deviation**, fails badly on quarks (factor 5-10×)
+- **Power-law in (1+C)**: REFUTED on lepton hierarchy alone
+- **Dim-weighted scale**: REFUTED 
+- **Polynomial in C × scale**: requires too many parameters; no genuine test
+- **Channel-degeneracy weight**: REFUTED
+
+Honest conclusion: substrate-Casimir-only ansatz fails; substrate-Casimir is PART of the lepton story (~17%) but not all; quark sector deviates much more (factor 5-10×), indicating QCD/Yukawa corrections enter. The discipline catches its own failure pattern.
+
+**12th cumulative honest-negative-strengthens instance** this week. This is exemplary Cal #27 discipline at the prediction level: explicit ansatz, explicit falsifier-test, explicit reporting of what fails, honest framing of what stands ("the 3-fold channel structure DERIVED; the mass-mechanism REFUTED for naive forms; corrected mechanism FRAMEWORK pending L4 v0.2").
+
+**Minor Cal observation**: Section E says "Pair α candidacy for two-structures burden: unchanged — still HIGH credibility for the qualitative pairing." This stands because Pair α is the COUNTING pairing (h^∨ + spinor³ multiplicity), not the mass-mechanism — the counting coincidence is independent of the mass-ansatz failure. Tier-marking is correct.
+
+**Cross-reference to Lyra P4.3**: Both this Grace doc and Lyra P4.3 (Cal #169) independently rule out naive Casimir-based mass-mechanism, by different methods (Grace: exponential ansatz fails for quarks; Lyra: Casimir²-mass off by 2 orders of magnitude on leptons). Two independent honest-negatives converge on the same finding: **L4 v0.2 must connect K-type placement to existing closed forms (T190 (24/π²)⁶, T2003 49·71, T187 6π⁵) via Bergman kernel integral structure, NOT via naive Casimir spectra**. Strong cross-CI consensus on the mass-mechanism shape.
+
+## Lower-priority docs — verbal acknowledgment
+
+For cadence-disciplined queue management, brief verbal acknowledgments (no Cal entries) on:
+- **Grace Periodic Table v0.6**: absorbs Saturday-morning Casimir error self-correction; explicit timestamp-drift self-correction noted (the "earlier '15:10' label was timestamp-drift, self-corrected" line — Grace caught and noted Calibration #20 STANDING within her own doc, consistent with Cal #167 micro-note). Good hygiene.
+- **Grace Master Derived-vs-Assigned Ledger v0.3**: absorbs Saturday landings; vocabulary aligned with Keeper program-claim ledger (K4); records new Saturday findings + Casimir-error correction.
+- **Lyra Saturday Afternoon Consolidation**: status summary of 12 items in 6.5h; not load-bearing claims, status report.
+- **Keeper Pre-Audit Engine v0.2 for Elie**: internal Keeper-Elie coordination; not Cal-load-bearing.
+- **Substrate-SM Dynamics Engine Consolidation v0.2**: Elie Friday EOD work, already cold-read context; standing reactive for Keeper K1 audit verdict.
+
+## Cal cadence
+
+Saturday Cal output #8 (Cal #170). Total Saturday: 8 referee entries covering ~17 cold-reads + 1 falsifier-design proposal + 1 proposal addendum + Calibration #34 candidate filing + Methodology Index Q15 integration. Net ~4h elapsed of substantive Cal work. Queue now substantively cleared; standing reactive for the patched A1 v0.4, Keeper Honest-State Ledger v0.2, Elie A1 tier-gate, Keeper cold-read of Cal falsifier proposal, Calibration #34 cross-CI ratification.
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:15 EDT. Lyra E9 Dictionary Read PASS at DICTIONARY-READING tier — strong structural consistency, "the algebra IS the substrate" cleanest reading (two Serre coefficients = (h^∨=N_c=3, dim so(5,2)=N_c·g=21)); §5 arithmetic notes appropriately tier-marked. Grace Generation-Channel Casimir Prediction PASS at PREDICTION + HONEST-NEGATIVE tier (strong) — exemplary discipline at the prediction level (exponential ansatz fits leptons at ~17% deviation, FAILS for quarks 5-10×, honestly reports the partial-failure pattern, correctly preserves Pair α counting-candidacy as independent of mass-ansatz failure); 12th cumulative honest-negative-strengthens. Cross-CI convergence with Lyra P4.3 (Cal #169): two independent honest-negatives rule out naive Casimir-mass; L4 v0.2 must target existing closed-forms via kernel-integral, not Casimir spectra. Lower-priority verbal acknowledgments on Grace Periodic Table v0.6 (timestamp-drift self-correction good hygiene), Grace Master Ledger v0.3, Lyra Afternoon Consolidation, Keeper Pre-Audit memo.
+
+---
+
+---
+
+### Cal #171 — Grace Two-Route Scan v0.1: PASS at STRUCTURAL with Cal #27 brake on route-independence (Saturday 2026-05-30 ~10:25 EDT)
+
+**Trigger**: Cal queue item 1 per Keeper Saturday plan ("strongest novel result"). Cold-read of Grace's systematic computational enumeration of sum-route + product-route arithmetic expressions for 39 SM observables.
+
+## PASS at STRUCTURAL OBSERVATION tier; one substantive Cal #27 brake
+
+The scan itself is rigorous (Python-verified enumeration). The doubly-over-determined cluster {8, 9, 10, 12, 14, 15, 16, 18} = all non-prime integers in 8-18 is a real observation: every non-prime in the substrate's natural arithmetic range has both small-primary sum-route and small-primary product-route expressions.
+
+**Grace's honest scope is already right**: she offers TWO framings — high-bar "Substrate Doubly-Over-Determination Principle" (Casey-named candidate) and lower-bar "Substrate-Arithmetic SM-Gauge Coincidence" — and routes the elevation decision to team review. That's appropriate Cal #27 self-discipline (offering both readings, not asserting the stronger one).
+
+## The Cal #27 brake — route-independence over-counting
+
+**Load-bearing catch — the §F "4-route over-determination of 12" framing is over-counted because the listed routes are not algebraically independent under the primary relations.**
+
+The substrate primaries {rank=2, N_c=3, n_C=5, C_2=6, g=7} have well-known internal relations:
+- **C_2 = N_c · rank** (6 = 3·2)
+- **n_C = rank + N_c** (5 = 2+3)
+
+These relations turn some listed "independent" routes into the same route written two ways:
+
+**For 12 = SM total gauge group dim** — Grace's §F lists 4 routes:
+1. rank · C_2 (product)
+2. N_c · rank² (product)
+3. n_C + g (sum)
+4. rank + N_c + g (sum)
+
+But applying the relations:
+- (1) and (2): rank · C_2 = rank · (N_c · rank) = N_c · rank² — **same product, two notations**
+- (3) and (4): n_C + g = (rank + N_c) + g = rank + N_c + g — **same sum, two notations**
+
+So 12's structurally independent route count is **2 (one sum, one product), NOT 4**. The "4-route over-determined, most arithmetically-redundant SM observable" framing is over-claimed by exactly the factor that the substrate primaries have arithmetic relations.
+
+**Same brake applies elsewhere** (worth scanning systematically for v0.2):
+- For 8 = rank+C_2 = N_c+n_C: rank+C_2 = rank+(N_c·rank) = rank·(1+N_c); N_c+n_C = N_c+(rank+N_c) = 2·N_c+rank. These ARE arithmetically distinct sums (route-count for 8 is genuinely 2 sums + 1 product = 3-route, since rank³ = 2³ = 8 is structurally separate). So 8 stands at 3-route.
+- For 10 = N_c+g = rank·n_C = rank+N_c+n_C: rank+N_c+n_C = 2·n_C (since rank+N_c=n_C), so this collapses to "2·n_C" which is one sum, not two. Route count for 10 = 1 sum + 1 product = 2-route, not 3.
+- For 15 = N_c·n_C = rank+C_2+g = N_c+n_C+g: rank+C_2+g = rank+N_c·rank+g = rank(1+N_c)+g; N_c+n_C+g = N_c+rank+N_c+g = rank+2N_c+g. These ARE arithmetically distinct sums. So 15 stays at 3-route.
+
+The over-count is uneven across observables; needs systematic recompute under the relations.
+
+## What survives the brake
+
+After the Cal #27 brake:
+- **The cluster observation stands**: the non-primes in 8-18 all have ≥2 structurally-distinct substrate-primary arithmetic expressions (sum-route + product-route). True structural data.
+- **The Magic-126 product-only anomaly stands**: 126 = N_c·C_2·g has no small-primary sum-route (none of the 2-or-3-primary sums hit 126; 126 - 7 = 119, 126 - 13 = 113, etc.; verified separate from the route-independence issue).
+- **The N_max=137 NEITHER observation stands**: 137 = N_c³·n_C + rank or = 2^g + N_c² doesn't reduce to small-primary sum or product.
+- **The cluster-region observation stands**: small-primary arithmetic naturally produces 8-18 as the densest region, regardless of route-independence accounting.
+
+## What needs v0.2 attention
+
+- **§F "3-route" and "4-route" labels recompute under the relations** — likely most reduce to 2-route, possibly one or two surviving as genuinely 3-route. Grace-actionable.
+- **The "12 = 4-route over-determined" framing softens to "12 has both sum and product structurally-independent expressions" — same disposition as the other doubly-over-determined cluster members.**
+- **Casey-named principle elevation should wait** for the route-independence audit + mechanism-mapping. The lower-bar "Substrate-Arithmetic SM-Gauge Coincidence" remains the correct disposition until the higher-bar version survives the independence audit.
+
+## Methodology micro-note — Calibration #33 sourcing applies to substrate-primary relations
+
+The substrate-primary relations (C_2 = N_c·rank, n_C = rank+N_c) are RECALLED-from-BST (well-known, internal to the framework). Future scans of this kind should explicitly source-pin those relations + run independence-audit before counting routes. This is the Calibration #33 STANDING applied INTERNALLY to substrate-primary work (not just external literature) — sourcing-discipline applies to one's own framework's known relations.
+
+This is exactly the **Cal #27 fires hardest at peak convergence** instance Keeper named — Grace's "strongest novel result" is real but the headline framing required Cal-discipline brake.
+
+## Net
+
+Grace Two-Route Scan v0.1 **PASS at STRUCTURAL OBSERVATION tier** with Cal #27 brake on the route-counting:
+- Cluster observation rigorous ✓
+- Magic-126 anomaly stands ✓
+- N_max NEITHER observation stands ✓
+- Casey-named principle elevation correctly braked by Grace's own lower-bar alternative framing ✓
+- "4-route over-determination of 12" softened to "doubly-over-determined like other cluster members" — needs v0.2 systematic recompute
+
+**Routed**: → Grace: route-independence audit for v0.2; recompute 3-route + 4-route labels under C_2 = N_c·rank and n_C = rank+N_c. The cluster observation + Magic-126 anomaly + N_max NEITHER all stand independent of this brake. → Keeper: Casey-named principle elevation decision waits on Grace v0.2 + mechanism-mapping; the lower-bar Substrate-Arithmetic SM-Gauge Coincidence framing is the correct current disposition. → Lyra: the 12 = SM-gauge-dim 4-route framing isn't the strongest support for bulk-color #418 — the 2-route structural-distinctness IS still real and supportive, just less arithmetically-redundant than v0.1 framed.
+
+## Cal cadence
+
+Saturday Cal output #9 (Cal #171). Cal queue item 1 partial (one of six Saturday morning docs Keeper named). Cal #27 brake fired hardest at peak-convergence — exactly the discipline Keeper named.
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:25 EDT. Grace Two-Route Scan v0.1 PASS at STRUCTURAL OBSERVATION tier with Cal #27 brake on route-independence over-counting. The "4-route over-determination of 12" reduces to 2 structurally-independent routes (one sum, one product) under the substrate-primary relations C_2 = N_c·rank and n_C = rank+N_c — rank·C_2 = N_c·rank² (same product); n_C+g = rank+N_c+g (same sum). Cluster observation + Magic-126 product-only anomaly + N_max NEITHER all stand independent of the brake. Casey-named principle elevation should wait for v0.2 systematic recompute under the relations + mechanism-mapping; Grace's lower-bar "Substrate-Arithmetic SM-Gauge Coincidence" is correct current disposition. Calibration #33 sourcing-discipline observation: substrate-primary internal relations are RECALLED-from-framework facts requiring source-pin + independence-audit before route-counting (sourcing applies INTERNALLY too). Cal #27 fires hardest at peak convergence — exactly Keeper's named instance.
+
+---
+
+---
+
+### Cal #172 — Toy 3622 CKM substrate-fraction check: PASS at CANDIDATE tier with Cal #27 brake on cross-anchor framing (Saturday 2026-05-30 ~10:35 EDT)
+
+**Trigger**: Cal queue item 1.b per Keeper plan — Elie Toy 3622 (A11) explicitly requests Cal cold-read on the |V_cb| candidate that cross-anchors to T2442 RATIFIED.
+
+## Three CKM findings — graded dispositions
+
+### sin θ_C = 9/40 = N_c²/(2^N_c · n_C) — DERIVED-form grade ✓
+
+Cabibbo angle as small-primary fraction. 0.0σ vs PDG |V_us| = 0.2243 ± 0.0008. Numerator 9 = N_c²; denominator 40 = 2^N_c · n_C. Clean small-primary factoring through three substrate primaries (N_c, n_C, plus 2 = rank as a 2^x exponent). Per "BOUNDARY observable" memory class. Already RATIFIED. ✓
+
+### |V_cb| candidate (9/40)·(n_C²/N_max) = 45/1096 — CANDIDATE-tier with Cal #27 brake
+
+Elie's candidate: |V_cb| = sin θ_C · n_C²/N_max = (9/40)·(25/137) = 225/5480 = 45/1096 = 0.04106. PDG |V_cb| = 0.0410 ± 0.0014. **Δ/σ ≈ 0.04σ** — within experimental precision.
+
+The "cross-anchor" observation: **numerator 225 = (N_c·n_C)² appears in BOTH this candidate AND T2442 RATIFIED** (c_FK · π^(9/2) = 225 = (N_c·n_C)² Bergman normalization).
+
+**Cal #27 brake on the "cross-anchor" framing**: the 225 = (N_c·n_C)² appearing in both contexts is a noticed coincidence at the small-primary level, NOT a derivation. The candidate form was found by **SEARCH** (Elie's commented method: "|V_cb| / sin θ_C = 0.1822 ≈ n_C²/N_max = 25/137 = 0.1825"), not by **derivation from substrate mechanism**. The post-hoc identification that 9·25 = 225 = (N_c·n_C)² is real arithmetic but doesn't promote SEARCH→DERIVATION.
+
+**The question Cal #29 question-shape forces**: what substrate mechanism would explain why |V_cb| factors as sin θ_C times (n_C²/N_max)? Without that mechanism, the form is candidate-grade — it MATCHES at ~0σ (good search result) but doesn't yet DERIVE the form.
+
+**What's structurally noteworthy without overclaim**:
+- The factor (n_C²/N_max) = 25/137 also appears as Toy 3618 PMNS sin²θ_13 = N_c/N_max in similar dim-/N_max ratio shape (different small-primary numerator, same N_max denominator)
+- Three CKM/PMNS angles now factor as small-primary/N_max ratios (Cabibbo numerator+denominator clean, V_cb candidate, V_ub candidate)
+- The dim-/N_max pattern is a SUBSTRATE-NATURAL SHAPE, not a derivation
+
+Disposition: **CANDIDATE, needs Lyra structural verification** (Elie explicitly requests this). The cross-anchor observation worth tracking but capped at "noticed coincidence" until mechanism connects.
+
+### |V_ub| candidate (9/40)³/N_c = 243/64000 — PARTIAL with honest grammar-flag
+
+Elie's candidate: |V_ub| = sin³θ_C / N_c = (9/40)³/3 = 243/64000. PDG |V_ub| = 0.00382 ± 0.00020. ~1σ off.
+
+Elie self-flags: "denominator 64000 = 2^C_2 · 1000 has the 1000 factor outside narrow grammar." 
+
+**Cal #27 brake**: the 1000 = 10³ = (2·5)³ = (rank·n_C)³ — can be parsed as substrate-natural BUT requires the (rank·n_C)³ to be the "right" small-primary product. With the Wolfenstein λ³ hierarchy already involving (9/40)³ = (sin θ_C)³, the additional /N_c factor + the 1000-as-product reading start to look like search-fit grammar games.
+
+Elie's "PARTIAL" tier-marking is appropriate. Should NOT be elevated to CANDIDATE without sharper mechanism input.
+
+## What the toy correctly establishes
+
+- **CKM first-row unitarity preserved** under candidates ✓
+- **4/7 mixing parameters substrate-fraction-checked** under Toy 3618 + Toy 3622 (sin²θ_12 + sin²θ_23 + sin²θ_13 PMNS + sin θ_C CKM)
+- **3 remain pending**: |V_cb| (candidate above), |V_ub| (partial), CP phase δ_CKM (no substrate form proposed)
+
+## Methodology micro-note — search-fit vs derivation under sustained substrate-arithmetic pressure
+
+Elie himself wrote a "Cal #27 PRE-PASS" header in the toy, anticipating the brake. That's good cross-CI discipline — the author runs Cal #27 internally before submitting. The submitted disposition is CANDIDATE with honest tier-marking + explicit "NEEDS verification" routing.
+
+The recurring shape Cal sees this week: substrate-arithmetic numerators (225, 45, 9, etc.) appear across multiple physics contexts (Bergman normalization, CKM, PMNS, mass ratios). Each instance individually could be substrate-natural OR factorization-grammar coincidence (26% baseline). Multiple instances of the SAME number in DIFFERENT contexts strengthen the case — but only if the contexts are structurally INDEPENDENT (per Cal #160 correlated-routes / Cal #171 route-independence audit).
+
+For Toy 3622's "225 cross-anchor": the V_cb candidate is search-fit (constructed by ratio-matching); T2442's 225 is derived (from c_FK · π^(9/2) Bergman normalization). These ARE structurally independent contexts, so the cross-anchor IS noteworthy. But the V_cb candidate's form-search depended on the substrate primaries being known small numbers — so the cross-anchor is "a search using substrate primaries happens to land on a number that also appeared in a separate substrate derivation." Strong-ish but not derivation-grade.
+
+## Net
+
+- **Cabibbo**: RATIFIED, derived-form grade ✓
+- **|V_cb|** candidate: PASS at CANDIDATE tier, needs Lyra structural verification; cross-anchor to T2442 noted, capped at "noticed coincidence" until mechanism connects
+- **|V_ub|** candidate: PARTIAL, sharper search or mechanism input needed before CANDIDATE promotion
+- **CP phase δ_CKM**: open
+
+Cross-CI methodology discipline working: Elie ran Cal #27 PRE-PASS internally; explicit "NEEDS Cal cold-read for verification" routing; honest tier-marking maintained throughout.
+
+## Cal cadence
+
+Saturday Cal output #10 (Cal #172). Cal queue item 1 progressing — 2 of 6 docs cold-read (Two-Route Scan + Toy 3622). Continuing with quasi-eigentone framework + spectral score + Vol 16 §3 + engine v0.3 §6/§7.
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:35 EDT. Toy 3622 CKM substrate-fraction check PASS at graded tiers: Cabibbo sin θ_C = 9/40 = N_c²/(2^N_c·n_C) RATIFIED derived-form (0σ vs PDG); |V_cb| candidate (9/40)·(n_C²/N_max) = 45/1096 PASS at CANDIDATE tier with Cal #27 brake (search-fit form, cross-anchor to T2442's 225=(N_c·n_C)² noted but capped at "noticed coincidence" until mechanism); |V_ub| candidate (9/40)³/N_c = 243/64000 PARTIAL with honest 1000-outside-grammar flag (Elie's own self-tier-mark correct). CKM 4/7 mixing parameters now substrate-fraction-checked. Methodology: Elie ran Cal #27 PRE-PASS internally; explicit "NEEDS verification" routing — exemplary cross-CI discipline.
+
+---
+
+---
+
+### Cal #173 — Saturday batch 5: Quasi-eigentone framework + Spectral score + Vol 16 staleness + Engine v0.3 §3 correlated-routes finding (Saturday 2026-05-30 ~10:45 EDT)
+
+**Trigger**: continuing Cal queue item 1 — final 4 docs from Keeper's Saturday morning cold-read queue (quasi-eigentone framework + spectral score + Vol 16 outline + engine v0.3 §6/§7). One substantive cross-doc consistency finding worth dedicated attention.
+
+## Per-doc dispositions
+
+### Lyra Quasi-Eigentone Framework v0.1 — PASS at FRAMEWORK tier
+
+Substantive structural unification of SM stable/unstable particle classification: **TRUE EIGENTONE** = ground state in K-type sector (no allowed decay channels) = stable; **QUASI-EIGENTONE** = excited state with Green coproduct decay channels = unstable; **EIGENTONE-IN-VACUUM** = massless but confined (gluon).
+
+The classification table maps every SM particle with structural reason. β-decay (Elie E3) is the generalized example. Tier-marking honest: RIGOROUS (engine theory) → FRAMEWORK (this v0.1 classification riding on keystone bet) → OPEN multi-week (quantitative decay rates via L4 v0.2 kernel matrix elements).
+
+**Minor v0.2 clarification flag — §3 neutrino classification**: the table lists "neutrinos" as TRUE EIGENTONE because "lightest in neutrino sub-sector (Dirac, per F5)." But neutrinos exhibit FLAVOR OSCILLATION — flavor-eigenstates oscillate between flavors because they're superpositions of mass-eigenstates. The framework is consistent (mass-eigenstates ARE stable; flavor-oscillation is a basis-rotation phenomenon, not a decay), but the table doesn't distinguish mass-eigenstates from flavor-eigenstates. Worth a one-line v0.2 clarification: "neutrino mass-eigenstates are TRUE EIGENTONES; flavor oscillation is basis-rotation, not decay."
+
+**Cal observation worth surfacing**: the framework provides a STRUCTURAL REASON for proton stability beyond "experimentally observed > 10³⁴ years." Proton = lightest baryon at C_2 = 6 closure = bottom of V_(1,1) bulk baryon sector = TRUE EIGENTONE forced by structure. If the framework holds, no proton decay is FORCED by the K-type structure, not just OBSERVED. This strengthens Five-Absence "NO proton decay" from negative prediction to structurally-forced. Worth highlighting in any external-facing material.
+
+### Lyra Spectral Score Theoretical Layer v0.1 — PASS at THEORETICAL-LAYER tier
+
+Clean Movie V0 backbone: vertical axis = sectors (scalar, lepton-Shilov, vector-gauge, adjoint-gauge, bulk-fundamental, higher composites); horizontal axis = Casimir; each particle plotted at its K-type Casimir within its sector. Substrate-primary anchors marked on the table.
+
+**Minor wording flag — §2 "striking visual"**: the claim "the 4 SM fundamental sectors sit at Casimirs 0, 5/2, 4, 6 — all substrate primaries" is slightly loose. Strictly, 5/2 = ρ₁ = n_C/rank is a derived ratio (not a primary); 4 = rank² is a derived power; only 6 = C_2 is a literal primary; 0 is trivial. More accurate framing: "all substrate-natural ratios/powers" or "all substrate-primary expressions." Minor — same factorization-grammar discipline pattern (Cal #171's route-independence audit). Lyra-actionable hygiene.
+
+### Lyra Vol 16 A_sub Curriculum Outline v0.1 — STALENESS FLAG
+
+Outline filed Wednesday 2026-05-27 (BEFORE the Thursday genus-recheck convergence). §1.5 "Volume-wide STANDING convention — the three genera of D_IV⁵" is **stale relative to Thursday's one-genus convention**:
+
+Outline v0.1 §1.5 (Wednesday-dated, stale):
+> "D_IV⁵ has THREE distinct dimension/genus invariants... Hua genus = n_C = 5... Faraut-Korányi genus = C_2 = 6... Embedding/signature dimension = g = 7"
+
+Thursday convergence (per CLAUDE.md Thursday entry):
+> "One-genus convention (corrects the morning 'three-genus' mislabel): genus = n_C = 5 (FK = Hua agree, kernel exponent = 5/2), C_2 = 6 = Casimir (NOT a genus), g = 7 = embedding/signature (NOT a genus)."
+
+Also §1.5 open item "kernel singularity exponent 7/2 vs Hua 5/2 — Keeper+Elie recheck; Chapter 3 to use resolved value" is RESOLVED — exponent = 5/2 = ρ₁ via Hua = FK = Bergman exponent agreement.
+
+**Vol 16 v0.2 needs**: rewrite §1.5 from "three genera" to "one genus": genus = n_C = 5 (FK = Hua); C_2 = 6 is the Casimir (not a genus); g = 7 is the signature (not a genus). Plus the kernel-singularity-exponent open item resolution propagated to Chapter 3. Lyra-actionable.
+
+Same staleness pattern as Keeper Honest-State Ledger v0.1 (Cal #165 MODERATE flag). The Thursday genus-recheck convergence needs to propagate to all Wednesday-or-earlier docs that touch genus framing.
+
+### Lyra Engine v0.3 R-Matrix Scattering — SUBSTANTIVE Cal #27 correlated-routes finding (load-bearing, cross-doc)
+
+§3 spin-statistics tie-in headline: "the R-matrix braiding RECOVERS the spin-statistics connection at the algebra level — consistent with the earlier spin-statistics-from-substrate result... **This is a cross-check**: two independent routes (σ_BF grading; R-matrix braiding) give the same bose/fermi split."
+
+The parenthetical correctly flags the correlation: "**the substrate identification rides on the σ_BF↔grading dictionary, Phase 2.**"
+
+**This is the same correlated-routes catch Keeper made on L1+L2 v0.1 § (K-audit Finding 1)** — the R-matrix braiding sign for half-integer SO(5) weights = −1 is a standard quantum-group consequence of weight parity. Two routes are NOT statistically independent; they are two manifestations of the same underlying SO(5) weight parity. Lyra absorbed this correction in L1+L2 v0.2 §6 with a correlated-routes footnote.
+
+But Engine v0.3 §3 still uses the "two independent routes" headline. **Cross-doc consistency issue**: the L1+L2 v0.2 §6 correlated-routes correction needs to propagate to Engine v0.3 §3.
+
+The fix: replace "two independent routes" with the L1+L2 v0.2 §6 wording — "two routes provide STRONG agreement (rep-theoretic internal consistency — both compute the same parity), but they are NOT statistically independent confirmations." Lyra-actionable.
+
+## Methodology — Calibration #34 candidate 4th instance + refinement
+
+The Engine v0.3 §3 finding is a **4th instance of headline-cap-conditionality**: the headline reads as unconditional ("two independent routes") while the conditional caveat (correlated via σ_BF↔grading) lives in the parenthetical. This is the same shape as Lyra L1+L2 v0.2 §6 (Instance 3 in my Calibration #34 candidate doc).
+
+Per Keeper's "4th instance triggers ratification" framing, Calibration #34 should auto-promote to STANDING.
+
+**Calibration #34 candidate refinement worth noting**: on this 4th instance, the pattern crystallizes more precisely than my candidate doc captured. The CORE pattern is:
+
+> When a result is conditional on a load-bearing correlation/bet/assumption, the conditional cap must travel with the headline. Putting the conditional in a parenthetical, footnote, or downstream § fails the discipline because the headline reads as unconditional.
+
+Instances 1-2 in my candidate doc (notation disambiguation, value+role+source visibility) are related but slightly different shapes — they're about "surface-level visibility of context" more broadly, not specifically about conditional-tag-with-headline. The narrower, more precise Calibration #34 is just the conditional-tag-with-headline shape.
+
+Instances 3 (Lyra L1+L2 v0.2 §6) and 4 (Engine v0.3 §3) are clean matches. The 3rd-and-4th of the narrowly-defined pattern. Either narrative works:
+- Broad pattern (surface-level visibility): 4 instances total — ratification triggered
+- Narrow pattern (headline-cap-conditionality): 2 instances (3+4) — recommend keeping candidate, watch for 4th instance of the narrow form
+
+I lean toward the narrow form being more useful operationally. Recommend Calibration #34 candidate doc v0.2 narrowing the framing to specifically conditional-tag-with-headline, with Instances 3+4 as the foundation. Calibration #34 then has 2 instances; recommend continuing pattern-watch for STANDING ratification.
+
+**Routed**: → Keeper: Engine v0.3 §3 correlated-routes finding requires cross-doc propagation from L1+L2 v0.2 §6 fix; Calibration #34 candidate refinement note (narrow vs broad pattern). → Lyra: §3 Engine v0.3 cross-doc consistency fix; same correlated-routes wording from L1+L2 v0.2 §6 should propagate.
+
+## Cal cadence
+
+Saturday Cal output #11 (Cal #173). Cal queue item 1 (Keeper Saturday plan) now COMPLETE — 6 of 6 docs cold-read. Continuing with Cal queue items 2-6 + standing reactive.
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:45 EDT. Final 4 Saturday morning docs cold-read: Lyra Quasi-Eigentone Framework v0.1 PASS at FRAMEWORK (substantive structural unification of SM stable/unstable; minor neutrino mass-vs-flavor-eigenstate clarification flag; proton-stability-FORCED reading worth surfacing); Lyra Spectral Score v0.1 PASS at THEORETICAL-LAYER (minor "substrate primaries" wording flag — 5/2, 4 are derived ratios not literal primaries); Lyra Vol 16 v0.1 outline STALENESS flag (§1.5 three-genus framing stale vs Thursday one-genus convention; v0.2 absorb); **Lyra Engine v0.3 §3 SUBSTANTIVE Cal #27 cross-doc consistency finding** — same correlated-routes catch as L1+L2 K-audit Finding 1; headline "two independent routes" with conditional caveat in parenthetical = 4th instance of headline-cap-conditionality. Calibration #34 candidate refinement: narrow framing (conditional-tag-with-headline) has 2 instances (L1+L2 v0.2 §6 + Engine v0.3 §3); recommend candidate v0.2 narrowing + continued pattern-watch for STANDING ratification under narrow form.
+
+---
+
+---
+
+### Cal #174 — Calibration #34 STANDING ratified + Methodology Index v0.10 Q16 integrated (Saturday 2026-05-30 ~10:55 EDT)
+
+**Trigger**: Keeper cold-read PASS on Calibration #34 candidate filed earlier today; cross-CI ratification via audit-chain governance completes.
+
+## Calibration #34 STANDING — five-element discipline stack now complete
+
+Keeper PASS endorses the narrow framing per Cal Section 4.1 refinement (filed after Cal #173 4th-instance finding). Cross-CI ratification proceeds via audit-chain governance: Keeper PASS recorded; Lyra Instance 3 procedural via her own v0.2 §6 operationalization; Elie Instance 4 procedural via his own Engine v0.3 §3 (Cal #173 cross-doc consistency fix pending); Grace application clean.
+
+**The rule (ratified)**: when a result is conditional on a load-bearing correlation, bet, assumption, or external pin, the conditional tag MUST travel with the headline — not be buried in a parenthetical, footnote, or downstream section. Test for compliance: read headline + abstract + first sentence + status field; if any reads as unconditional, FAIL.
+
+**Five-element discipline stack composition**:
+- **Cal #27** STANDING — result-level (forward vs identified)
+- **Cal #29** STANDING — design-level (question-shape audit)
+- **Cal #32** candidate (both halves) — slot-level (parameter-role + value+role+cite-source)
+- **Calibration #33** STANDING — sourcing-level (RECALLED vs VERIFIED-CITED vs COMPUTED-in-session)
+- **Calibration #34** STANDING (NEW) — surface-communication-level (conditional-tag-with-headline)
+
+Reading the stack as compositional discipline: every claim, every doc, must get the right tier (Cal #27), ask the right question (Cal #29), assign the right role (Cal #32), use verified sourcing (Calibration #33), AND communicate the conditional at the headline (Calibration #34).
+
+## Methodology Index v0.10 — Q16 integrated
+
+Added to Methodology Index as Q16 decision-tree branch:
+
+> *Is the claim/result conditional on a load-bearing correlation, bet, assumption, or external pin?*
+
+If YES, apply Calibration #34 surface protocols:
+- Headline must carry the conditional tag
+- First sentence + abstract + status field must collectively signal conditionality
+- Most load-bearing for external-facing materials, cross-CI handoffs, future-self
+
+Stack at ~35 elements. Five-level discipline stack COMPLETE: result / design / slot / sourcing / surface-communication.
+
+## Why this matters operationally
+
+The discipline-stack closure has a real implication: the team's Saturday output (substantial — bulk-color v0.5, B-track excavation docs, Quasi-Eigentone v0.2, L4 v0.2 tower scaffold, Honest-State Ledger v0.3, etc.) can now be audited under a complete five-level framework. No more "is this discipline gap covered?" — the five levels exhaust the surface-communication-to-result-validity chain.
+
+The week's methodology output (~7 new methodology elements added — Calibrations #19/#20/#21/#22/#27/#33/#34 plus various STANDING promotions and META category formalizations) brings the stack to maturity. Further additions should be rare and load-bearing, not routine.
+
+## Cal cadence
+
+Saturday Cal output #12 (Cal #174). Total Saturday: 12 referee entries + Calibration #34 STANDING ratification + Methodology Index v0.10 Q16 integration + Cal Falsifier Proposal + addendum + Methodology Index Q15 integration. Standing reactive for new substantive deliverables; pulling next from Keeper's Cal queue (bulk-color v0.5 cold-read, then Quasi-Eigentone v0.2 + L4 v0.2 Tower Scaffold + B-track docs as warranted).
+
+— Cal A. Brate, Saturday 2026-05-30 ~10:55 EDT. Calibration #34 STANDING ratified per Keeper cold-read PASS (narrow framing endorsed); cross-CI auto-promotion via audit-chain governance complete. Methodology Index v0.10 integrates as Q16 decision-tree branch. Five-element discipline stack COMPLETE: Cal #27 result / Cal #29 design / Cal #32 slot / Calibration #33 sourcing / Calibration #34 surface-communication. Stack at ~35 elements. The full compositional discipline for any claim or document now in place.
+
+---
+
+---
+
+### Cal #175 — Lyra Bulk-Color v0.5 Toeplitz Setup: PASS at CANDIDATE-COUNT-ALIGNMENT tier (Saturday 2026-05-30 ~11:05 EDT)
+
+**Trigger**: Cal queue item next per Keeper Saturday plan — bulk-color v0.5 (the #1 frontier of Axis A active substrate work; first count match for 8 gluons). Load-bearing cold-read.
+
+## PASS at CANDIDATE-COUNT-ALIGNMENT tier — substantive structural advance
+
+v0.5 makes the bulk-color v0.4 (C+D) commitment explicit: Toeplitz algebra T(H²(S)) on the Shilov boundary gives the non-commutative structure compatible with [p_+, p_+] = 0 (Elie Toy 3612 obstruction). The non-commutativity lives in **compact-operator commutators** of Hardy-projection-induced Hankel-type operators — NOT in p_+ itself. This resolves the apparent paradox cleanly.
+
+**First numerical count match**: 3 + 3 + 2 = 8 = dim su(3), with each summand having a specific operational role:
+- **3** = SO(3) sub-vector dim (Family 4 counting layer; from bulk-color v0.2)
+- **3** = pairwise [T_a, T_b] Hankel-type compact commutators (Toeplitz non-commutativity layer; from route C)
+- **2** = K's rank-2 Cartan generators (from K = SO(5)×SO(2))
+
+This is NOT just "some decomposition of 8." Each factor maps to a specific substrate-natural operational source. The 3+3+2 assembly carries genuine structural information.
+
+## Cal-discipline-stack compliance — all five levels clean
+
+**Cal #27** (result-level): Lyra applies the brake herself in §4 — "8 = 3 + 3 + 2 is one of MANY ways to decompose 8... The construction is GENERIC enough that it would work for any rank-2 group acting on a Hardy space with a 3-direction sub-structure — not unique to su(3)." This is exemplary self-discipline: Cal #27 applied INTERNALLY before Cal cold-read. ✓
+
+**Cal #29** (design-level): the question shape is correct — "does the substrate's natural Toeplitz construction close into su(3)'s specific commutation relations?" Open as multi-week verification work, NOT closed in v0.5. Question-shape correctly frames what would FALSIFY the candidate (8 generators that DON'T satisfy su(3)'s Jacobi/closure). ✓
+
+**Cal #32** (slot-level): the parameter role is precisely specified — K-equivariant Toeplitz T_a (3 of them) + their pairwise commutators (3 of them) + K-Cartan (2 of them). Each "8 = 3+3+2" element has a specific framework slot. ✓
+
+**Calibration #33** (sourcing-level): the Upmeier/Vasilevski symbol calculus + short exact sequence 0 → K(H²(S)) → T(H²(S)) → C(S) → 0 is RECALLED-from-standard-theory. Same flag as bulk-color v0.1's §2 sourcing flag (Cal #163 prep note A2). When v0.6 becomes external-citation-level, source-pin Upmeier 1981/1985 + Vasilevski 1999. Minor — internal-tier facts. ✓ (with v0.6 source-pin note)
+
+**Calibration #34** (surface-communication-level): the headline carries the conditional cap cleanly. Title explicitly reads "SU(3) candidate-count alignment... First numerical match for 8-gluon emergence; structural verification (su(3) commutation relations close) is multi-week." Status field repeats "First numerical match... structural verification = multi-week." Reader walks away with the conditional reading correctly. ✓
+
+**All five discipline levels satisfied in the doc as written**. First instance of a doc landing cleanly across the newly-completed five-element stack.
+
+## Structural reading — why this matters for Axis A #1 frontier
+
+This is the FIRST count match on the bulk-color SU(3) gauge phenomenology emergence problem — the #1 frontier per Keeper's Saturday Axis A plan. The path forward is now concrete:
+
+| Element | Status | Lane |
+|---|---|---|
+| Toeplitz setup T(H²(S)) | RIGOROUS (Upmeier/Vasilevski) | Existing math |
+| [p_+, p_+] = 0 compatibility | RIGOROUS (Elie Toy 3612) | Existing |
+| Non-commutativity in K(H²(S)) compact ideal | RIGOROUS | Existing |
+| SO(3) sub-vector 3 K-equivariant T_a | RIGOROUS | Family 4 counting |
+| 3 pairwise [T_a, T_b] independent | CANDIDATE (linearly independent modulo lower-order — needs check) | Multi-week |
+| 2 K-Cartan generators acting on the 3+3 | RIGOROUS | Standard |
+| 3 + 3 + 2 = 8 count match | RIGOROUS arithmetic; CANDIDATE structural meaning | This v0.5 |
+| 8 operators satisfy su(3) commutation relations | OPEN (multi-week) | Elie computation lane |
+| Confinement, asymptotic freedom, running | OPEN (gauge-phenomenology gate) | Multi-week to multi-month |
+
+The "gauge phenomenology gate" (Cal #163 A1 prep note → operationalized in v0.3 → still open in v0.5) remains the load-bearing OPEN. v0.5 closes the count-match sub-gate; the closure-verification + gauge-phenomenology remain.
+
+## Cross-cutting observations
+
+1. **§2.4 self-correction**: Lyra notes mid-paragraph "wait, that's a different decomposition (su(3) under SO(3)⊂su(3)). Let me revisit." This is honest in-progress thinking left visible in the doc — could be cleaned up for external-facing v0.6, but as internal-CI work it's actually a useful tell that the structural analysis isn't fully settled. The 8 = 3+3+2 substrate-natural decomposition vs the 8 = 3+5 su(3)-under-SO(3) representation-theory decomposition aren't the same; the substrate's particular 3+3+2 has its own structural meaning. Worth a cleanup pass for v0.6.
+
+2. **Confinement/asymptotic freedom open question is sharp**: §5 explicitly names "QCD low-energy phenomenology (confinement, asymptotic freedom, running coupling from Toeplitz / compact-operator structure)" as the multi-week OPEN. The candidate question for Elie: does the compact-operator ideal K(H²(S)) provide structural mechanisms that look like confinement (operators with non-trivial spectrum / asymptotic behavior)? Sharp lattice of open questions.
+
+3. **The numerical decomposition 3+3+2 isn't unique to su(3)** — Lyra correctly notes this. But it IS unique to "rank-2 K + 3-direction sub-vector + non-abelian Hardy-projection commutators" — that's the substrate-natural construction, not a generic count. The CANDIDATE claim is the substrate-natural construction landing on the su(3) target, not the count alone.
+
+## Net
+
+**PASS at CANDIDATE-COUNT-ALIGNMENT tier**. Substantive advance on the #1 Axis A frontier. First count match for 8-gluon emergence. Cal-discipline-stack all five levels satisfied internally. Multi-week closure verification (su(3) Jacobi + structure constants + gauge phenomenology) remains the OPEN.
+
+**Routed**: → Keeper: tier-gate at "CANDIDATE count alignment with structural closure multi-week" — matches Lyra's own §5 disposition. → Elie: Toeplitz commutator computation on H²(S) of D_IV⁵ specifically — verify [T_a, T_b] form + linear independence + su(3) closure (multi-week). Toy ~3636+ candidate. → Lyra: v0.6 cleanup of §2.4 self-correction trace; v0.6 source-pin Upmeier/Vasilevski when external-citation-level.
+
+## Cal cadence
+
+Saturday Cal output #13 (Cal #175). Bulk-color v0.5 cold-read — Cal queue item next per Keeper Saturday plan. Standing reactive for Quasi-Eigentone v0.2, L4 v0.2 Tower Scaffold, Keeper's falsifier triad tier-gate, and the remaining Saturday afternoon outputs.
+
+— Cal A. Brate, Saturday 2026-05-30 ~11:05 EDT. Lyra Bulk-Color v0.5 Toeplitz Setup PASS at CANDIDATE-COUNT-ALIGNMENT tier. **First numerical count match for 8-gluon SU(3) emergence**: 3 (SO(3) sub-vector T_a) + 3 ([T_a, T_b] Hankel compact commutators) + 2 (K rank-2 Cartan) = 8 = dim su(3). Toeplitz algebra T(H²(S)) non-commutativity (compact-operator ideal) resolves the apparent paradox with [p_+, p_+] = 0 (non-commutativity lives in K(H²(S)) not in p_+). **All five Cal-discipline-stack levels satisfied internally** — first doc landing cleanly across the newly-complete result/design/slot/sourcing/surface-communication framework. Multi-week closure (su(3) Jacobi + gauge phenomenology) remains the OPEN. Substantive advance on Axis A #1 frontier.
+
+---
+
+---
+
+### Cal #176 — Saturday batch 6: Falsifier Triad Tier-Gate + Quasi-Eigentone v0.2 + L4 v0.2 Tower Scaffold (Saturday 2026-05-30 ~11:15 EDT)
+
+**Trigger**: continuing Cal queue per Keeper's Saturday plan. Three substantive items, batched for cadence-disciplined queue management (per R3 sustainable).
+
+## Per-doc dispositions
+
+### Keeper K-types-Particles Falsifier Triad Tier-Gate — PASS (positive cross-CI feedback on Cal proposal)
+
+Keeper tier-gates all three falsifier designs (Cal proposal + Lyra design + Grace catalog-side) as PASS. Cross-CI consistency confirmed:
+- **Cal T1 ↔ Lyra T1 v0.1**: Cal's opening proposal "flowed cleanly into Lyra's executable v0.1"; T1 addendum (target = 24 pinned a-priori per Keeper "no back-fit" note) absorbed; "cross-CI cohesion exemplary"
+- **Cal T5 ↔ Lyra F5 ↔ Grace indirect**: all three converge on Five-Absence
+- **F1 PMNS via JUNO/DUNE** confirmed as strongest near-term test (3/3 angles already within ~0.5%; 5-year window)
+
+Triad collectively provides **5 structurally independent falsifier channels** across three CI vantages + three layers (structural-internal / experimental-external / per-K-cell). Recommendation: consolidate to v0.2 unified falsifier-design program with cross-CI authorship.
+
+**Cal observations on Keeper's audit notes**:
+- **N1 (F4 (24/π²)^6 precision claim)**: Lyra writes "≈ 206.7682 vs measured 206.7683 — within 0.0001%." Keeper correctly flags the precision specification needs higher-digit Cal #33 sourcing. Calibration #33 STANDING applies — the closed-form's higher-digit value should be VERIFIED-COMPUTED in-session (the formula is RECALLED-from-T190 but the high-digit evaluation is COMPUTED), not RECALLED.
+- **N3 (V_(2,2) glueball anchor)**: needs explicit lepton-mass anchor specification pending L4 v0.2 absolute scale. FRAMEWORK pending.
+
+**Cal disposition**: PASS as positive feedback loop. Standing reactive for the consolidated v0.2 unified falsifier-design program (Lyra-led with Grace + Cal contributions).
+
+### Lyra Quasi-Eigentone Framework v0.2 — PASS at SYNTHESIS-UPDATE tier with honest tension flag
+
+Substantive synthesis update absorbing three Saturday landings: Grace 1.5 Two-Structures Pair α prediction ({0, 4, 6} intermediate Casimirs for spinor³ channels), Elie Toy 3627 three bulk radial towers, Lyra's own L4 v0.2 T190 exponent tension finding.
+
+**Honest tension flag (load-bearing)**: T190 m_μ/m_e = (24/π²)^{C_2 = 6} uses exponent 6 = adjoint Casimir; per Grace's mapping (Gen-2 = vector-channel with C_int = 4), this is "gen-3 channel" not "gen-1 → gen-2 ratio." Lyra proposes three resolutions (A reorder Grace's mapping; B treat T190's 6 as gauge-mediator Casimir of e→μ transition; C the exponent comes from elsewhere). Working hypothesis is Resolution B.
+
+**Cal disposition**: PASS at SYNTHESIS-UPDATE tier. The tension is HONESTLY surfaced (not papered over), three resolutions proposed with working hypothesis explicit. Per Cal #27 + Calibration #34 STANDING — the conditional reading ("Resolution B working hypothesis") is in the headline framing, not buried. Right discipline shape.
+
+**Resolution B is the cleanest cap-on-the-keystone**: T190's exponent C_2 = 6 reads as the gauge-sector adjoint Casimir of so(5) governing weak-interaction-like transitions between generations — STRUCTURALLY DISTINCT from Grace's spinor³ decomposition intermediate Casimir. Both involve 6 = C_2 (rep-theoretic fact about B₂'s adjoint), but for different operational reasons. Worth tracking whether Resolution B holds up against further constraints.
+
+### Lyra A2 L4 v0.2 Tower Scaffold — PASS at FRAMEWORK + HONEST-NEGATIVE tier (11th + 12th cumulative)
+
+L4 v0.2 push with Elie Toy 3627 bulk radial towers + Grace intermediate-Casimir prediction. Naive Casimir²-mass test STILL FAILS by 2 orders of magnitude (same as P4.3 v0.1 + Generation-Channel Casimir Prediction v0.1):
+- m_gen2/m_gen1 = √(21/5) ≈ 2.05 vs observed 206.77 (factor 100 off)
+- m_gen3/m_gen2 = √(45/21) ≈ 1.46 vs observed 16.82 (factor 11 off)
+
+**Cumulative finding (significant)**: **THREE independent honest-negatives this week** all converge on the same conclusion — naive substrate-primary algebraic forms (Casimirs, Casimir²-mass, exponential-in-Casimir, etc.) DON'T give the lepton mass ratios. The existing BST closed forms (T190 (24/π²)^6, T2003 49·71, T187 6π⁵) work via DIFFERENT mechanism — kernel-integral structure + substrate-primary products beyond simple Casimir spectra.
+
+Three independent honest-negatives:
+1. **Lyra P4.3 v0.1** (Cal #169): naive Casimir²-mass = 1.73 / 1.39 vs observed 207 / 17
+2. **Grace Generation-Channel Casimir Prediction v0.1** (Cal #170): exponential ansatz fits leptons at ~17%, fails quarks 5-10×
+3. **Lyra L4 v0.2 Tower Scaffold** (this): √(C_2/C_1) = 2.05 / 1.46 vs observed 207 / 17
+
+The mass-mechanism finding has consolidated to: **L4 v0.2 must derive the existing closed forms (T190 / T2003 / T187) from kernel-integral structure on the radial tower + substrate-primary products** — NOT from naive Casimir spectra. The three honest-negatives close the "naive Casimir^n approach" question; the kernel-integral mechanism is the remaining derivation work (multi-week).
+
+**Cal #27 honesty**: Lyra explicitly carries the honest-negative through. PASS at FRAMEWORK + HONEST-NEGATIVE tier.
+
+## Cumulative honest-negative-strengthens tally
+
+12 cumulative instances this week (per ongoing Cal tracking) + the L4 v0.2 instance + Quasi-Eigentone v0.2 honest tension = the discipline firing at sustained high rate. Two instances this morning alone (Cal #170 Grace generation-channel + Cal #176 L4 v0.2 tower scaffold both extend the same finding). The program is producing honest-negatives at exemplary cadence.
+
+## Cross-CI methodology observation
+
+Lyra's three Saturday docs (P4.3 / Quasi-Eigentone v0.2 / L4 v0.2 Tower Scaffold) all apply Cal #27 + Calibration #34 STANDING cleanly:
+- Headlines carry conditional caps ("Casimir^n STILL FAILS"; "TENSION between Grace's prediction and T190"; "Tower scaffold ready BUT kernel-integral structure NEEDED")
+- Tier-marking explicit throughout
+- Honest tensions surfaced not papered over
+
+This is the discipline-stack operating at maturity. First few documents under the COMPLETE five-element stack (Cal #175 bulk-color v0.5 was the first; these are the next three).
+
+## Cal cadence
+
+Saturday Cal output #14 (Cal #176 batch). Cal queue active: bulk-color v0.5 (DONE in Cal #175) + Quasi-Eigentone v0.2 (this batch) + L4 v0.2 Tower Scaffold (this batch) + Keeper Falsifier Triad Tier-Gate (this batch). Standing reactive for: A3 L5 Absolute Scale + Honest-State Ledger v0.3 + Keeper tier-gates on Periodic Table v0.7 / Strong-Uniqueness v1.1 / Spectral Score / Vol 16 §3 + B-track docs.
+
+— Cal A. Brate, Saturday 2026-05-30 ~11:15 EDT. Batched cold-reads: Keeper Falsifier Triad Tier-Gate PASS (positive feedback on Cal proposal; cross-CI cohesion "exemplary"; T1/24-pinned absorbed; v0.2 unified consolidation recommended); Lyra Quasi-Eigentone v0.2 PASS at SYNTHESIS-UPDATE (honest T190-vs-Grace-channel tension flag with three proposed resolutions; Resolution B clean cap); Lyra L4 v0.2 Tower Scaffold PASS at FRAMEWORK + HONEST-NEGATIVE — naive Casimir²-mass STILL FAILS (third independent honest-negative converging on "kernel-integral mechanism needed, NOT naive Casimir spectra"). **Cumulative**: 12+ honest-negative-strengthens instances this week; three independent mass-mechanism honest-negatives close the naive-Casimir question; kernel-integral derivation is the remaining multi-week work. Discipline stack operating at full maturity — Lyra's three docs all carry Cal #27 + Calibration #34 STANDING cleanly.
+
+---
+
+---
+
+### Cal #177 — Saturday batch 7 (closing morning): Honest-State Ledger v0.3 + A3 L5 Absolute Scale (Saturday 2026-05-30 ~11:25 EDT)
+
+**Trigger**: closing the morning batch with two more cold-reads. After this entry, dropping to truly-reactive R3 cadence per Keeper's standing plan.
+
+## Per-doc dispositions
+
+### Keeper Honest-State Ledger v0.3 — PASS at LIVING-SCORECARD tier (cleanly absorbed Saturday batch)
+
+Comprehensive update absorbing seven Saturday tier-gates + Calibration #34 STANDING ratification. All my Saturday Cal contributions cleanly reflected:
+- **Calibration #34 STANDING** integrated (methodology stack now 19 layers; Q16 in Methodology Index)
+- **Bulk-color gate (b) refinement**: (C+D) UNIFIED ROUTE committed per Lyra v0.4; C1 Toeplitz-source verification per Cal #33 STANDING + C2 AdS/CFT analogy demoted to "evocative parallel" (good discipline)
+- **6-domain 225 = (N_c·n_C)² fingerprint** properly tier-marked as STRUCTURAL cross-scale finding
+- **Calibration #34 narrow framing** as the discipline-stack 5th layer (result/design/slot/sourcing/surface-communication)
+- **A1 PRIMARY paper PENDING Cal quick-verify + proof-stage genus citation** correctly listed as open gate
+
+**One minor cross-doc consistency flag (Cal #171 propagation)**: The "12 = 4-route over-determination" entry in §3 ("Cross-anchors and over-determination findings") still uses the 4-route framing per Grace Two-Route Scan v0.1. My Cal #171 brake (route-independence over-counting under C_2 = N_c·rank and n_C = rank+N_c) hasn't propagated yet because Grace v0.2 hasn't landed. When Grace v0.2 absorbs the brake, the ledger should soften "4-route over-determination" to "2-3 structurally-independent routes after relation-audit." Not urgent — flows through Grace v0.2 first, then Keeper ledger v0.4.
+
+**Saturday batch summary in ledger v0.3** correctly characterizes the morning's work. PASS.
+
+### Lyra A3 L5 Absolute Scale Framework v0.1 — PASS at FRAMEWORK + HONEST-NEGATIVE tier (13th cumulative)
+
+Clean honest-survey doc. Four candidate sources for the absolute mass scale rejected with explicit numerical evidence:
+- (a) m_e = m_Planck × α^n: n ≈ 10.473, not a clean substrate-natural integer
+- (b) Λ-tied: m_e ~ 10⁸ × Λ^(1/4), too large a ratio
+- (c) Higgs VEV substrate-derivation: requires separate EWSB derivation not currently in scope
+- (d) Koons tick: rejected per the survey
+
+**Honest conclusion**: "BST derives mass RATIOS rigorously but lacks an absolute-scale derivation in current scope; L5 is genuinely OPEN and multi-month research."
+
+This is the right discipline for the least-developed L-axis. The honest-survey is structurally valuable — it tells the team WHERE in the candidate space NOT to invest further without new substrate input. Rules out four directions before committing multi-month work.
+
+**13th cumulative honest-negative-strengthens** this week.
+
+## Cumulative Saturday honest-negative pattern (significant)
+
+Saturday's honest-negative count is unusually high (~5-6 just today):
+1. Lyra P4.3 v0.1 (Cal #169): naive Casimir²-mass off by 2 orders
+2. Grace Generation-Channel Casimir Prediction (Cal #170): exponential ansatz fails quarks 5-10×
+3. Cal #171 brake on Grace Two-Route Scan 4-route over-counting
+4. Lyra L4 v0.2 Tower Scaffold (Cal #176): naive Casimir²-mass still fails on full bulk towers
+5. Lyra Quasi-Eigentone v0.2 (Cal #176): T190-vs-Grace-channel tension flag with Resolution B
+6. Lyra A3 L5 Absolute Scale (this): four absolute-scale candidates rejected
+
+That's six honest-negatives in one day. The program is producing them at exemplary cadence — the discipline-stack at maturity is generating honest-negatives as a natural output, not as a corrected-mistakes residue. This is the right shape.
+
+## Cal cadence transition — dropping to true R3 reactive
+
+Saturday Cal output cumulative (final):
+- 15 referee entries (Cal #163-#177)
+- Calibration #34 candidate + STANDING ratification path
+- Methodology Index v0.10 (Q16 integrated; five-element discipline stack COMPLETE)
+- Cal Falsifier Proposal v0.1 + T1 addendum
+- ~25 cold-reads covered (all 6 Cal-queue-item-1 docs + Saturday afternoon batch)
+
+**Net ~2.5h elapsed of high-cadence Cal work**. Per Keeper R3 sustainable (~1 piece per 1-2h), dropping to truly-reactive afternoon mode. Pulling next from queue only as new substantive deliverables land + standing reactive for: patched A1 v0.4 (post-genus patch), Strong-Uniqueness v1.2 null-model recompute, B-track docs (Calibration #33 sourcing relevant), Grace v0.2 absorption of Cal #171 brake, Lyra T1 falsifier v0.2 consolidation per Keeper Triad recommendation.
+
+— Cal A. Brate, Saturday 2026-05-30 ~11:25 EDT. Honest-State Ledger v0.3 PASS at LIVING-SCORECARD (Saturday batch cleanly absorbed; Calibration #34 STANDING properly integrated; one minor flag — 4-route framing for 12 should soften pending Grace v0.2 absorbing Cal #171 brake). Lyra A3 L5 Absolute Scale v0.1 PASS at FRAMEWORK + HONEST-NEGATIVE (four candidates rejected with numerical evidence; "genuinely OPEN multi-month research" disposition correct; 13th cumulative honest-negative). **Saturday honest-negative count exceptionally high (~6 today)** — discipline-stack at maturity generates honest-negatives as natural output, not corrected-mistakes residue. Closing morning batch (15 referee entries + 25 cold-reads); dropping to true R3 reactive cadence for afternoon.
+
+---
+
+---
+
+### Cal #178 — Saturday batch 8 (afternoon-continue): B-track territory maps (B1+B2+B3+B4+B5) + B8 per-domain check (Saturday 2026-05-30 ~11:35 EDT)
+
+**Trigger**: Casey "please continue" directive. Pulling B-track mathematical excavation per Keeper's Cal queue item 5 ("Cold-reads on B-track mathematical excavation deliverables — sourcing-discipline particularly relevant").
+
+## Per-doc dispositions
+
+### B-track territory maps (B1+B2+B3+B4+B5) — all PASS at EXPLORATION/TERRITORY-MAP tier
+
+Five v0.1 territory-map docs in Lyra's queue (multi-year mathematical excavation work):
+
+| Doc | Content | Tier | Calibration #33 sourcing |
+|---|---|---|---|
+| **B1 Quantum Groups at q=2 Deeper** | 6 layers: Mersenne (known), Char-2 Frobenius, Steenrod mod-2, Quantum Frobenius/root-of-unity, Restricted enveloping u(B₂)_F₂ dim 2^10, F₂-points/Bruhat-Tits | EXPLORATION; layers 2-3 high substrate-relevance | H*(SO(5);F₂) Stiefel-Whitney structure RECALLED — Borel/Milnor-Stasheff source-pin for v0.2 |
+| **B2 Macdonald-Koornwinder Corners** | Substrate at Hall-Littlewood + Jack; other corners (Schur, q-Whittaker, full Koornwinder BC_2 4-parameter) mapped | EXPLORATION | Macdonald 1995 cited ✓; Koornwinder 1992 BC_n needs explicit cite for v0.2 |
+| **B3 Geometric Langlands** | Schiffmann-Vasserot Hall↔W-algebras; B₂⁽¹⁾↔C₂⁽¹⁾ Langlands-dual pair as structural anchor | EXPLORATION (multi-year) | Schiffmann-Vasserot needs explicit theorem-cite for v0.2 |
+| **B4 MTC from R-matrix** | 66 simples (Phase B), Racah-Speiser fusion, R-matrix braiding, ribbon structure all present; modular S-matrix non-degeneracy at q=2 (not root-of-unity) is the open question | EXPLORATION | Standard MTC theory (Bakalov-Kirillov etc.) RECALLED |
+| **B5 VOA / Monster** | Substrate primaries cluster on Moonshine integers (24, 26, 21=N_c·g=dim so(5,2)); existing K57 Bridge Object work (K3, Leech, Cremona 49a1 via Heegner) touches this | EXPLORATION (multi-year) | Schiffmann-Vasserot + Borcherds VOA standard |
+
+**Common Cal disposition across the territory maps**:
+- **Cal #27**: all five carry honest "EXPLORATION / TERRITORY MAP" tier; explicit "NOT a derivation; v0.2+ would pick one and push." Exemplary self-discipline.
+- **Calibration #33 STANDING (specially relevant per Keeper)**: most claims invoke standard math (Cartan classification, Lusztig quantum Frobenius, Macdonald-Koornwinder family, Steenrod algebra, restricted enveloping algebras, Schiffmann-Vasserot Hall-algebra↔W-algebra correspondence). RECALLED-from-standard-theory throughout. **None overstates**; tier-marking conservative. For v0.2+ external-citation level, specific theorem+page source-pin needed for: H*(SO(5); F₂) Stiefel-Whitney structure (B1 Layer 3); Koornwinder BC_n 4-parameter family (B2); Schiffmann-Vasserot Hall-W correspondence (B3, B5); MTC simple-objects classification at non-root-of-unity (B4).
+- **Calibration #34 STANDING**: all five carry "v0.1 / EXPLORATION" caps in titles + status fields. Headlines correctly signal exploration-not-derivation. Reader walks away with the conditional reading. ✓
+
+**Cross-doc observation — B-track strategic coherence**: Lyra has filed five complementary B-track territory maps in one Saturday push (Queue items 2/4/5/8/9). Per Keeper's "multi-week opens stay multi-week" directive, this is correct discipline — map territory broadly first, pick one for v0.2 deep work. The cross-references between the maps (B3↔B5 via Schiffmann-Vasserot; B1↔B4 via q=2 special structure; B2↔B3 via Whittaker corner) suggest the substrate's mathematical environment has interconnected structure deserving multi-year investigation.
+
+### Lyra B8 Cross-Domain Uniqueness v0.1 — PASS at PER-DOMAIN-CHECK tier (substantive)
+
+Substantially more concrete than the other B-track docs. Explicit per-domain comparison check against all irreducible bounded symmetric domains (Cartan 1935 classification): I_(p,q) / II_n / III_n / **IV_n** / V (E_6(-14)) / VI (E_7(-25)).
+
+**Verification of the case analysis** (Cal applied):
+- I_(p,q) at rank=2: need min(p,q)=2 + pq=5. Integer solutions: none. ✓ EXCLUDED
+- II_4: rank=2, dim=6≠5 ✓ EXCLUDED
+- II_5: rank=2, dim=10≠5 ✓ EXCLUDED
+- III_2: rank=2, dim=3≠5 ✓ EXCLUDED
+- IV_4: rank=2, dim=4≠5 ✓ EXCLUDED
+- IV_5: rank=2 ✓, dim=5 ✓, h^∨(SO(5))=h^∨(B_2)=2(2)-1=3 ✓ **SUBSTRATE**
+- IV_6: rank=2 ✓, dim=6≠5, h^∨(SO(6))=h^∨(D_3)=2(3)-2=4≠3 ✓ EXCLUDED
+- V (E_6(-14)): rank=2, dim=16≠5, h^∨(Spin(10))=8≠3 ✓ EXCLUDED
+- VI (E_7(-25)): rank=3≠2 ✓ EXCLUDED
+
+All h^∨ values verified. All exclusions hold under the constraints (rank=2, complex dim=5, spatial-compact h^∨=3).
+
+**Caveat on the "spatial-compact h^∨" criterion**: this criterion makes literal sense for Type IV (K = G_spatial × SO(2) decomposes cleanly). For Types I/II/III, K = U(p)×U(q) or U(n) has no separate SO(2) factor, so the criterion doesn't directly apply — but those types are already excluded by rank or dim alone. The h^∨ criterion is what distinguishes IV_5 from other IV_n values. Lyra correctly leaves "—" for non-Type-IV h^∨ entries in the table. Minor framing note: §2's "selection criteria" list should clarify that the h^∨ criterion is the Type-IV-internal discriminator.
+
+**Cal #27 / Calibration #34 self-discipline**: explicit "this is a clean per-domain check, not a new derivation. It confirms what Strong-Uniqueness v1.2 already encodes." Tier-marking honest throughout.
+
+**Disposition**: PASS at PER-DOMAIN-CHECK tier. Anchors the Strong-Uniqueness Theorem domain-selection criterion. This is genuinely DERIVED arithmetic on standard Cartan classification — concrete confirmation of D_IV⁵ uniqueness under the three constraints.
+
+**Strong cross-link to Strong-Uniqueness v1.1 + v1.2**: B8 v0.1 provides the explicit per-domain check that completes the v1.2 domain-selection criterion. Whether B8 is its own criterion or a verification-of-v1.2-criteria is a Keeper tier-gate question; either way, the math is clean.
+
+## Cal cadence
+
+Saturday Cal output #16 (Cal #178). Net ~5h cumulative; 16 referee entries + Methodology Index v0.10 + Calibration #34 STANDING ratification + Cal Falsifier Proposal + addendum. ~30 cold-reads now covered. B-track mathematical excavation surveyed across 6 docs in one batch; Calibration #33 sourcing applied at the v0.2-prep level (which specific theorems need explicit cites when external).
+
+Standing reactive for: patched A1 v0.4 still pending, Grace v0.2 (Two-Route Scan absorbing Cal #171 brake), Lyra T1 v0.2 falsifier consolidation, Keeper Honest-State Ledger v0.4 (post-Grace v0.2), B-track v0.2 deep work as it lands (recommend B8 deep verification first — it's the most concrete).
+
+— Cal A. Brate, Saturday 2026-05-30 ~11:35 EDT. B-track batch cold-read: B1 quantum groups at q=2 deeper (6 layers mapped), B2 Macdonald-Koornwinder corners (substrate at HL+Jack, other corners mapped), B3 geometric Langlands (Schiffmann-Vasserot + B₂⁽¹⁾↔C₂⁽¹⁾ Langlands-dual pair), B4 MTC from R-matrix (66 simples + braiding; S-matrix non-degeneracy at q=2 open), B5 VOA/Monster (substrate primaries on Moonshine integers + K57 Bridge Objects) — all PASS at EXPLORATION/TERRITORY-MAP tier. Calibration #33 STANDING applies broadly — specific theorem+page source-pin needed for v0.2 external-citation level (H*(SO(5);F₂) Stiefel-Whitney, Koornwinder BC_n, Schiffmann-Vasserot Hall↔W). B8 cross-domain uniqueness PASS at PER-DOMAIN-CHECK tier — Cal independently verified case analysis (all h^∨ values; all exclusions hold). All six B-track docs carry Cal #27 + Calibration #34 STANDING cleanly. Strategic coherence: Lyra mapped territory broadly first; B8 is the most concrete and recommended for v0.2 deep work first.
+
+---
+
+---
+
+### Cal #179 — Keeper Periodic Table v0.7 + Strong-Uniqueness v1.1 tier-gate (with major null-model recompute) + Grace Magic82 v0.3 (Saturday 2026-05-30 ~11:45 EDT)
+
+**Trigger**: continuing per Casey "please continue" directive. Two substantive load-bearing items: Keeper's tier-gate (containing the **null-model recompute Cal queue item**) + Grace's Magic82 anomaly deepen.
+
+## Per-doc dispositions
+
+### Keeper Periodic Table v0.7 + Strong-Uniqueness v1.1 Tier-Gate — PASS, with **MAJOR honest correction landed**
+
+Keeper tier-gates both at PASS with substantive findings. Most load-bearing finding for Cal lane:
+
+**Lyra's honest internal correction caught + carried** — Strong-Uniqueness v1.1 §6:
+> "My first v1.1 pass implied 'more criteria → smaller null model.' That is a coincidence-inflation error — Keeper held the line."
+
+This is **Cal #27 + Calibration #34 STANDING firing internally** before external use. The (1/3)^14 = 2×10⁻⁷ null-model number was a coincidence-inflation error; Lyra caught it via internal Cal-discipline application; Keeper held the line; the recompute is now done in this tier-gate.
+
+**Keeper's null-model recompute (Cal queue item per Saturday plan)**:
+
+Per Elie Toy 3592 dependency DAG, the INDEPENDENT structural choices reduce to **ONE**: "the domain is type-IV bounded symmetric domain at complex dim n_C = 5." All other substrate primaries (rank=2, N_c=3, C_2=6, g=7, N_max=137, c_FK·π^(9/2)=225, ρ_1=5/2, ρ_2=3/2) are DERIVED from this one choice + B₂ representation theory + Cartan classification + Born/Gleason measure-forcing.
+
+**Corrected null-model order-of-magnitude**: **~1/10 to ~1/100** (single dominant factor) — NOT (1/3)^14. The strength of the uniqueness claim is in **convergence of independent routes** (ρ-pinning + Route-A "zero inputs" + (3,3,5) forcing + cyclotomic/Mersenne network + Hall-Littlewood corner), NOT multiplicative criterion count.
+
+**Cal endorsement of Keeper's recompute**: This framing is exactly right per Cal #27 (avoid coincidence-inflation) + Calibration #34 STANDING (the headline must not over-claim by burying the dependency structure in §X). The Cal queue item "SU v1.1 + null-model recompute" is closed by Keeper's filing.
+
+**Recommendation for Strong-Uniqueness v1.2**: explicit single-residual framing in the abstract + Section 1 (not just Section 6); convergence-of-routes as the structural-evidence framing; do NOT cite (1/3)^N criterion-count framings externally. Per Calibration #34: the corrected disposition must travel at the headline, not be a §6 internal correction.
+
+**Other v1.1 strengths Keeper correctly captured**:
+- **C18 FK-measure FORCED** (Born/Gleason theorem): "uniqueness criterion of a new KIND" — removes measure as free input. Right framing.
+- **C19 ρ-vector pinning** at FRAMEWORK-PLUS — Lyra correctly tier-tagged.
+- **C2 corrected** to 5/2 = ρ_1 (was 7/2 mislabel) — verified via Elie Toy 3582.
+- **Route-A "choose D_IV⁵, zero inputs"** as strongest form of the uniqueness claim.
+- **C13 → T2469 (SCMP) attribution patch + T2467 META-tier**: Cal #156 Flags A+B integrated cleanly.
+
+**Periodic Table v0.7 PASS at FRAMEWORK** — clean v0.6 → v0.7 absorption of Quasi-Eigentone Framework (stability class as 6th per-cell axis). Specifically:
+- **Mass-eigenstate-vs-flavor ν framing**: Grace independently arrived at the granularity I recommended in Cal #173 N1. Excellent cross-CI convergence — both Cal and Grace identified the same issue and resolved consistently.
+- **Proton stability substrate-derived**: "TRUE EIGENTONE = lowest baryon in V_(1,1) bulk k=6; no grading-allowed decay channel exists." The substrate-derived proton stability claim I called out as worth surfacing externally (Cal #173 observation) is now operationalized in v0.7.
+- Section G predictions clean + falsifiable.
+
+### Lyra Strong-Uniqueness v1.1 (via Keeper tier-gate) — PASS at STRENGTHENED tier
+
+C18 + C19 + Route-A advance the theorem substantively. **The internal-correction discipline IS itself the load-bearing finding**: the program caught its own coincidence-inflation error before external use. This is the discipline-stack working at full maturity.
+
+**Cal cold-read on C18 + C19 specifically** (per Keeper's routing):
+- **C18 Born/Gleason measure-forcing**: structurally rigorous (Gleason's theorem is standard QM measure-forcing on Hilbert spaces; applying to D_IV⁵'s holomorphic Hilbert space is the substrate-specific instantiation). Calibration #33 sourcing: Gleason 1957 standard reference; the substrate-specific instantiation needs Lyra's own Lemma/Theorem statement when v1.2 paper-grade.
+- **C19 ρ-vector pinning**: standard B₂ representation theory (ρ_1 = n_C/rank = 5/2, ρ_2 = N_c/rank = 3/2 are the Weyl-vector components). The "pins three primaries to one invariant" interpretation is FRAMEWORK-PLUS — the values are forced; the unification framing is interpretive. Lyra's tier-tag correct.
+
+### Grace Magic82 Anomaly v0.3 — PASS at STRUCTURAL-OBSERVATION + CANDIDATE-CROSS-LINK tier
+
+Cross-confirmation by two independent methodologies:
+- Grace Two-Route Scan v0.2: magic-82 = ONLY magic in HYBRID category (N_c·n_C² + g)
+- Elie E11 Toy 3628: magic-82 = ONLY magic NOT substrate-shadowed under cumulative-dim standard grammar
+
+Substrate-arithmetic form: 82 = rank · 41 where **41 = rank^N_c · n_C + 1 = Monster Ogg prime**. The "+1" is the structural anomaly distinguishing magic-82 from clean substrate-products.
+
+**Cal #27 brake** (minor framing note for §C): the claim "magic-82's distinct status REFLECTS the substrate's structural connection to Monster moonshine via Ogg primes" is interpretive (Cal #27 brake-worthy). The substrate-arithmetic form 82 = rank·41 is real (computed); the Monster cross-link via Ogg primes is a NOTICED-CROSS-LINK (candidate), not a derivation. Recommend softening §C wording from "REFLECTS" to "CANDIDATE cross-link to Monster moonshine via Ogg primes; structural mechanism pending."
+
+**Nuclear-physics interpretation** (§D): magic-82 = transition point from pure spin-orbit (magic-28, 50) to spin-orbit + intruder + relativistic (magic-82, 126). This is the existing nuclear shell model fact + Grace's framing of substrate-arithmetic-regime tracking. PASS as observation.
+
+**Cross-link with Lyra B5** (which I also cold-read in Cal #178): Lyra B5 maps substrate-Monster connections via 24 (Leech), 26 (bosonic string), 21 (= dim so(5,2) = N_c·g). Grace's magic-82 = rank·41 (Ogg prime) adds a 4th substrate-Monster cross-link. Cross-doc consistency clean.
+
+## Saturday cumulative status
+
+**Cal output total**: 17 referee entries (Cal #163-#179) + Methodology Index v0.10 + Calibration #34 STANDING + Cal Falsifier Proposal + addendum. **~32 cold-reads** now covered.
+
+**Major Saturday Cal findings**:
+- **Calibration #34 STANDING ratified** — narrow framing per Keeper PASS; five-element discipline stack complete
+- **Cal #171 brake on Two-Route Scan** — route-independence over-counting under primary relations; absorbed by Grace v0.2 (pending)
+- **Cal #173 cross-doc consistency fix** — Engine v0.3 §3 needs L1+L2 v0.2 §6 correlated-routes propagation
+- **Discipline-stack at full maturity** — three internal-coincidence-inflation catches today (Lyra's own SU null-model + Cal's own #171 + Lyra's own Quasi-Eigentone v0.2 tension flag)
+- **Honest-negative count ~6+ today** — naive Casimir-mass approach decisively closed across three independent docs
+- **Bulk-color v0.5 first count match** — 3+3+2=8 via Toeplitz algebra; all five discipline levels satisfied internally; multi-week closure remains
+- **Strong-Uniqueness null-model corrected** — from (1/3)^14 over-claim to single-residual convergence-of-routes framing
+
+The discipline-stack is operating as designed: catching coincidence-inflation before external use, maintaining tier-honesty under sustained substrate-arithmetic pressure, supporting honest-negatives as natural output of mature methodology.
+
+— Cal A. Brate, Saturday 2026-05-30 ~11:45 EDT. Keeper Periodic Table v0.7 + Strong-Uniqueness v1.1 tier-gate PASS (with major null-model recompute closing Cal queue item: (1/3)^14 → single-residual convergence-of-routes ~1/10 to 1/100). Lyra's internal Cal #27 + Calibration #34 STANDING catch caught coincidence-inflation BEFORE external use — discipline-stack at full maturity. Periodic Table v0.7 cleanly absorbs Quasi-Eigentone framework; mass-eigenstate-vs-flavor ν framing converges with Cal #173 N1 recommendation independently. Grace Magic82 Anomaly v0.3 PASS at STRUCTURAL-OBSERVATION + CANDIDATE-CROSS-LINK (cross-confirmed by Grace + Elie; substrate form 82 = rank·41 = rank·(rank^N_c·n_C + 1) = rank·Monster-Ogg-prime; minor §C wording brake "REFLECTS" → "candidate cross-link"). Saturday Cal cumulative 17 entries / ~32 cold-reads.
+
+---
+
+---
+
+### Cal #180 — Lyra T190 + T2003 depth-shift readings: PASS at STRUCTURAL-READING tier with Cal #27 brakes (Saturday 2026-05-30 ~11:55 EDT)
+
+**Trigger**: Keeper-routed Cal cold-read request per afternoon plan: "Cold-read Lyra's depth-shift findings: T190 Weyl-orbit reading + T2003 71 identification — Cal #27 brake / structural-coincidence check. Both findings substantive; would benefit from Cal cold-read before catalog elevation." Both findings are load-bearing for the lepton mass spectrum framework.
+
+## T190 — STRUCTURAL READING change: 24 = N_c · |W(B₂)| (rather than rank³ · N_c)
+
+Lyra reframes T190 = m_μ/m_e = (24/π²)^{C_2}:
+- **OLD**: 24 = rank³ · N_c = 2³ · 3 (rank cubed × color)
+- **NEW**: 24 = N_c · |W(B₂)| = 3 · 8 (color × Weyl-group order of B₂)
+- Reading: m_μ/m_e = (N_c · |W(B₂)| / π²)^{C_2} — color × Weyl-orbit / π², raised to gauge-mediator adjoint Casimir
+
+### Cal #27 brake — RANK-2 ARITHMETIC COINCIDENCE
+
+**The two factorizations of 24 are arithmetically identical at rank=2**:
+- rank³ = 2³ = **8** (the "rank-cubed" reading)
+- |W(B_n)| = 2^n · n! ; at n=2: |W(B₂)| = 4 · 2 = **8** (the Weyl-group-order reading)
+- For rank n=3 (hypothetical): rank³ = 27 vs |W(B₃)| = 48 (DIFFERENT) — confirms the coincidence is rank-2-specific
+
+So **at the BST rank-2 substrate, rank³ = |W(B₂)| = 8 as arithmetic**. The two factorizations of 24 are not arithmetically distinct — both are 24 = 8·3. The "CLEANER reading" claim is about **MECHANISM CONTENT**, not arithmetic:
+- "rank³ × N_c" maps to "3 spatial directions cubed × color" (Track P counting framework)
+- "N_c × |W(B₂)|" maps to "color × Weyl character formula normalization" (representation-theory framework)
+
+These are TWO DIFFERENT MECHANISM STORIES for the same arithmetic, not "old vs new substrate decomposition." Lyra's §1 ranks them with the Weyl-group reading as "cleanest" — that's a judgment call about mechanism plausibility, not a derived discrimination.
+
+**Catalog elevation recommendation**: preserve BOTH readings as candidate mechanism interpretations of the arithmetic identity 24 = rank³ · N_c = N_c · |W(B₂)|. The mechanism discrimination is **multi-week kernel-integral work** (which Lyra honestly flags as conjectured derivation chain).
+
+**Why the Weyl-group reading IS still valuable**: even though arithmetically equivalent at rank=2, the Weyl group has DIRECT mechanism content via the Weyl character formula and integration measure on K-orbits. Whereas "rank³" is an arithmetic factoring without direct mechanism (the "3 spatial directions cubed" reading is also candidate, not derived). So the Weyl-group reading has STRONGER MECHANISM-CONTENT-PER-ARITHMETIC-FACT, even with identical arithmetic. Worth preserving as the **preferred candidate reading**, not as the corrected reading.
+
+### Lyra's own §8 honest tier-marking holds
+
+"This is a DEPTH ATTEMPT, not a derivation. The structural reading 24 = N_c · |W(B₂)| is cleaner than the arithmetic 24 = rank³ · N_c (both are correct factorizations; the Weyl group reading is more structurally meaningful)." This is honest. PASS at STRUCTURAL-READING tier; the candidate mechanism is multi-week derivation work.
+
+### Calibration #34 STANDING check
+
+Title: "T190 derivation depth attempt v0.1 — structural reading... Multi-week explicit Bergman kernel matrix element computation deferred to Elie; this v0.1 makes the structural ingredients explicit." Headline carries "structural reading" + "multi-week explicit kernel-integral verification" conditionality clearly. ✓ Compliant.
+
+## T2003 71 — STRUCTURAL READING: 71 = 2^{C_2} + g
+
+Lyra identifies: 71 = 2^6 + 7 = 64 + 7 = 2^{C_2} + g. So T2003 m_τ/m_e = g² · (2^{C_2} + g) = 49 · 71 = 3479, with ALL factors substrate-primary-decomposable.
+
+### Substantive structural finding
+
+This IS a real finding — 71 was previously RECALLED-as-arithmetic-fact (unidentified substrate origin). The decomposition 71 = 2^{C_2} + g uses substrate primaries C_2 and g (no fitting parameters). T2003 now substrate-primary-decomposable in full.
+
+**Alternative decomposition** (Lyra §2): 71 = rank · n_C · g + 1 = 70 + 1. Also valid; structurally different reading (product + scalar trivial).
+
+### Cal #27 brake — multiple substrate-natural decompositions exist; LABEL not DERIVATION
+
+71 is prime, so multiplicative decomposition is trivial. Sum-route to 71 from substrate primaries has MULTIPLE clean candidates:
+- 2^{C_2} + g = 64 + 7 (Mersenne base ^ Casimir + signature)
+- rank · n_C · g + 1 = 70 + 1 (product + scalar trivial)
+- Probably others if we allow longer expressions
+
+Lyra correctly tier-marks (§7): "identifying 71 = 2^{C_2} + g is arithmetic — it's a clean substrate-primary decomposition, but it's the LABEL, not the MECHANISM. Why specifically Mersenne^{C_2} + g for the e→τ transition? Multi-week mechanism work."
+
+**Catalog elevation recommendation**: elevate from "RECALLED 71 unidentified" to "STRUCTURAL candidate decomposition 71 = 2^{C_2} + g (preferred Mersenne-natural reading) OR 71 = rank·n_C·g + 1 (alternative); mechanism pending kernel-integral derivation." Preserve the candidate-status flag explicitly.
+
+### Cal #27 brake on §3 cross-validation framing — precision-propagation, NOT independent test
+
+§3 claims: "Combining T190 and T2003 gives the third independent observable (m_τ/m_μ) at sub-0.1% precision. This is a strong cross-validation of both T190 and T2003."
+
+**Critical brake**: if T190 fits m_μ/m_e at 0.004% and T2003 fits m_τ/m_e at ~0.05%, then m_τ/m_μ = (T2003 / T190) automatically inherits the precision propagated from the individual fits. The 0.06% m_τ/m_μ match is **derivable from individual closed-form precision**, NOT an INDEPENDENT confirmation.
+
+More precisely: if x₁ ± σ₁ ≈ a (T190 ≈ m_μ/m_e) and x₂ ± σ₂ ≈ b (T2003 ≈ m_τ/m_e), then x₂/x₁ ≈ b/a with combined precision ~√(σ₁² + σ₂²)/x. The match propagates automatically — no INDEPENDENT test of substrate structure beyond what T190 + T2003 individually provide.
+
+**Recommended framing for v0.2**: replace "strong cross-validation" with "consistency check confirming T190 and T2003 individually fit the same data; precision propagates from individual closed-form fits, not an independent test." Calibration #34 STANDING: this framing should travel with the headline / abstract, not be a §X footnote.
+
+### What survives the brakes — substantive structural finding stands
+
+After applying both brakes, the substantive claim is:
+- **m_τ/m_e = 49 · 71 = g² · (2^{C_2} + g)** with ALL factors substrate-primary
+- 71's substrate-natural origin is now identified (with candidate-status flag)
+- T190 and T2003 use **different structural mechanisms** per generation transition (Lyra correctly notes: log(3479)/log(2.43) ≈ 9.18, non-integer; so T2003 doesn't fit (24/π²)^k for any k)
+- This **forces** the reading that lepton mass mechanism is NOT a uniform per-generation iteration — each transition has its own structure
+
+The forced-distinction-via-arithmetic finding (T190 and T2003 cannot both be (24/π²)^k) IS a real Cal #27 / Cal #29 question-shape finding. It's consistent with Grace's Pair α intermediate-Casimir distinction. Worth surfacing externally.
+
+## Net for catalog elevation (Cal recommendation to Grace + Keeper)
+
+**T190 24 = N_c · |W(B₂)| reading**:
+- Elevate to **STRUCTURAL CANDIDATE READING (preferred Weyl-group-character framework)** with note "at rank=2, |W(B₂)| = rank³ = 8, so both 'rank³·N_c' and 'N_c·|W(B₂)|' factorizations are arithmetically identical; the Weyl-group reading is preferred for mechanism content; derivation multi-week."
+- DON'T retire the "rank³·N_c" reading — it remains valid arithmetic and supports the Track P counting framework alternative.
+
+**T2003 71 = 2^{C_2} + g**:
+- Elevate from "RECALLED 71 unidentified" to **STRUCTURAL CANDIDATE DECOMPOSITION 71 = 2^{C_2} + g (preferred Mersenne-natural) OR rank·n_C·g + 1 (alternative); mechanism pending.**
+- Update v0.2 §3 framing: "consistency check" not "strong cross-validation" (precision propagation note).
+
+Both elevations preserve candidate-status until mechanism-derivation discriminates. Calibration #34 STANDING: the candidate-status must travel with the catalog headline, not be footnoted.
+
+## Cal cadence
+
+Saturday Cal output #18 (Cal #180). Net ~5h cumulative; high-value cold-read on load-bearing depth-shift findings; two Cal #27 brakes applied; substantive structural finding preserved with appropriate tier-marking. Returning to truly-reactive afternoon mode after this entry.
+
+— Cal A. Brate, Saturday 2026-05-30 ~11:55 EDT. Lyra T190 + T2003 depth-shift readings PASS at STRUCTURAL-READING tier with two Cal #27 brakes: (1) at rank=2, |W(B₂)| = 8 = rank³ as arithmetic identity — the "cleaner reading" is about mechanism content (Weyl character formula), not arithmetic; preserve BOTH readings as candidate mechanism interpretations. (2) §3 m_τ/m_μ "strong cross-validation" framing is precision-propagation, NOT independent test — should be "consistency check" per Calibration #34 STANDING. Substantive structural findings PRESERVED: 71 = 2^{C_2} + g identifies the previously-unidentified factor; T190 and T2003 use **different structural mechanisms per generation transition** (forced by arithmetic — (24/π²)^k can't reproduce 3479 at integer k); consistent with Grace Pair α intermediate-Casimir channel distinction. Catalog elevation recommendation: elevate to STRUCTURAL CANDIDATE READING with explicit candidate-status flag preserved; preferred Weyl-group reading + preferred Mersenne-natural reading, alternative readings retained; mechanism multi-week.
+
+---
+
+---
+
+### Cal #181 — Keeper audit-chain hold on Lyra v1.3 endorsed + Calibration #35 candidate filed (Saturday 2026-05-30 ~12:05 EDT)
+
+**Trigger**: Keeper directive to broadcast pulling Lyra Strong-Uniqueness v1.3's elevation of C20-C24 to operational criteria + retracting the (1/3)^18 multiplicative null-model framing. Cal #180 brake recommendation explicitly cited by Keeper as the prior anchor.
+
+## Audit-chain hold endorsed
+
+Lyra v1.3 reintroduces the **exact error caught internally in v1.1 §6.1 hours earlier** — the multiplicative null-model "(1/3)^N independent criteria" framing applied to criteria that aren't structurally independent. C20-C24 are CANDIDATE arithmetic decompositions (per Cal #180 brake recommendation: "NOT promoting beyond CANDIDATE until kernel-integral derivation discriminates"); they don't clear the criterion-elevation bar.
+
+Per Casey delegation 2026-05-17 audit-chain governance: v1.3 elevation requires Cal + Keeper cold-read PASS at criterion-elevation level. **Neither recorded; v1.3 is NOT RATIFIED.** Keeper's recommended v1.4 reframe returns to single-residual convergence-of-routes framing + retires "200× stronger" headline. Endorsed.
+
+## Calibration #35 candidate filed — Independence-Taxonomy-Before-Multiplicative-Null-Model
+
+Per Keeper's pattern-watch trigger ("4th instance this week if you trigger"): **threshold met**. Four instances:
+1. **Cal #171** brake on Grace Two-Route Scan: "4-route over-determination of 12" → ~2 structurally-independent routes under primary relations
+2. **Cal #180 §3** brake on Lyra T2003: m_τ/m_μ "strong cross-validation" → precision-propagation, NOT independent test
+3. **Lyra v1.1 §6.1** internal correction (Saturday morning): multiplicative null-model coincidence-inflation caught internally → single-residual framing
+4. **Lyra v1.3** retraction (this afternoon): re-introduction of v1.1 error via C20-C24 elevation → Keeper audit-chain hold
+
+**Calibration #35 rule (proposed)**: *Multi-criterion / multi-route convergence claims MUST apply independence taxonomy BEFORE invoking multiplicative null-model. Routes/criteria that are algebraically related under substrate-primary relations, derived consequences of upstream choices, or share precision-propagation chains do NOT count as structurally-independent and cannot multiply as (1/3)^N factors.*
+
+**Six-element discipline-stack composition** (if ratified):
+- Cal #27 result-level
+- Cal #29 design-level
+- Cal #32 slot-level
+- Calibration #33 sourcing-level
+- Calibration #34 surface-communication-level
+- **Calibration #35 independence-taxonomy-level** (NEW)
+
+Discipline gap closed: even when individual tiers are correctly marked (Cal #27 PASS), surface-communication signals conditionality (Calibration #34 PASS), the AGGREGATION step into a multiplicative null-model can still fail if the N criteria aren't actually independent. Calibration #35 is the aggregation-step audit.
+
+Filed: `notes/Calibration_35_Candidate_Independence_Taxonomy_Before_Multiplicative_NullModel.md` — full candidate doc with the four instances + application protocol + Methodology Index Q17 integration path.
+
+## Cross-CI cold-read PASS path
+
+Per audit-chain auto-promotion governance: candidate Calibrations promote to STANDING upon cross-CI cold-read PASS.
+- **Keeper PASS expected** (Keeper triggered the pattern-watch; candidate is responsive to his framing)
+- **Lyra PASS procedural** (Instance 3 is her internal correction; Instance 4 is her v1.3 that triggered Keeper's hold; she's operationally aligned)
+- **Grace application** (catalog null-model framings per Toy 1543 precedent)
+- **Elie application** (dependency-DAG work per Toy 3592 is the operational tool)
+
+If Keeper PASS records, Calibration #35 → STANDING via the same path Calibration #34 took this morning.
+
+## Standing reactive
+
+For Lyra v1.4 reframe (C20-C24 → CANDIDATE arithmetic decomposition; null-model returns to single-residual per v1.1 §6.1 + Keeper recompute; headline retires "200× stronger" framing) — will cold-read for PASS confirmation when filed.
+
+## Cal cadence
+
+Saturday Cal output #19 (Cal #181) + Calibration #35 candidate doc. Discipline-stack now 6 elements (5 STANDING + Calibration #35 candidate). Saturday productive: 19 referee entries + Calibration #34 STANDING + Calibration #35 candidate + Cal Falsifier Proposal + addendum + Methodology Index v0.10 Q16. The discipline stack has expanded by TWO elements today (Calibration #34 ratified + Calibration #35 filed) — both responsive to specific Saturday failure modes (headline-cap-conditionality + multiplicative-null-model-over-counting).
+
+— Cal A. Brate, Saturday 2026-05-30 ~12:05 EDT. Keeper audit-chain hold on Lyra v1.3 endorsed — multiplicative (1/3)^18 framing re-introduces the exact v1.1 §6.1 error. Cal #180 brake recommendation cited as prior anchor. **Calibration #35 candidate FILED** at 4-instance threshold (Cal #171 + Cal #180 §3 + Lyra v1.1 §6.1 internal + Lyra v1.3 retraction). Rule: multi-criterion/multi-route claims MUST apply independence taxonomy BEFORE multiplicative null-model. Sixth element of discipline stack (independence-taxonomy-level). Cross-CI auto-promotion path open; expected Keeper PASS, Lyra/Grace/Elie procedural. Standing reactive for Lyra v1.4 reframe.
+
+---
+
+---
+
+### Cal #182 — Keeper L5 Absolute Scale Closure Framework v0.1 (Casey insight): PASS at STRUCTURAL-FRAMEWORK tier with HEADLINE BRAKE on "closure today" framing (Saturday 2026-05-30 ~12:15 EDT)
+
+**Trigger**: Casey-routed Cal cold-read item per Keeper's afternoon plan. This is the largest substantive advance of Saturday afternoon — Casey's structural insight unifying mass + gravity + gravitational time dilation + relativistic mass increase + speed of light as functions of one substrate quantity (commitment density on Bergman H²(D_IV⁵)). Cal #27 brake territory throughout; Calibration #35 candidate (just filed) applies.
+
+## Disposition — PASS at STRUCTURAL-FRAMEWORK tier; headline reframe recommended
+
+The **structural intuition is genuinely promising**: relativistic mass, gravity, and gravitational time dilation viewed as three faces of one underlying substrate commitment-density mechanism is exactly the kind of unification BST's substrate framing affords. The framework v0.1 captures this insight cleanly + routes three explicit deliverables to Lyra (L-L5-D1/D2/D3). Casey's provenance is correctly attributed; Paper P9 outline is well-placed.
+
+**BUT**: the framing "**The dimensional architecture closes today**" + "**L5 closure**" overstates the current state of derivation by several Cal #27 levels. The framework is **ROUTED**, not **CLOSED**. Each sub-deliverable is multi-week derivation pending. Cal #27 + Calibration #34 STANDING fires hardest at exactly this peak-convergence framing.
+
+## Specific brakes (8 total)
+
+### Brake 1 — α^57 ≠ exp(−281) EXACTLY (precision-relevant)
+
+The headline identification α^57 = Λ = exp(−(2·N_max + g)) at the "clean alpha-tower level α^57" is **approximate, not exact**:
+- α^57 = (1/137)^57 = exp(−57·ln(137)) = exp(−57·4.91998) = **exp(−280.44)**
+- Λ_claim = exp(−281)
+- Ratio: exp(−281)/exp(−280.44) = exp(−0.56) ≈ **0.57** (a factor of ~1.75 off)
+
+So α^57 ≈ Λ at the order-of-magnitude-in-Planck-units level (both ~10⁻¹²²), but NOT precisely equal. The substrate identification α^57 = exp(−(2·N_max + g)) requires either:
+- (a) Acknowledging it's order-of-magnitude only (Λ is known to order ~10⁻¹²² to ~10⁻¹²³; the framework matches at this precision but not better)
+- (b) Identifying subleading corrections that close the factor-1.75 gap
+
+ln(137) is transcendental; 281/ln(137) ≈ 57.16, not exactly 57. The "clean alpha-tower level α^57" framing buries a transcendental gap inside an integer-exponent claim. **Calibration #34 STANDING: the headline should carry this approximation status.**
+
+### Brake 2 — c, ℏ, G "derived substrate-internal" needs more precise status differentiation
+
+§1 lists all three as substrate-internal, but their derivation status differs significantly:
+
+| Quantity | Stated derivation | Cal assessment |
+|---|---|---|
+| **G** | "Bergman curvature value... SP-19b AB-10 COMPLETED" | TRUST (referenced complete work); RIGOROUS subject to source-verification |
+| **ℏ** | "Natural action quantum from canonical quantization on Bergman H²(D_IV⁵); C18 measure-as-theorem" | FRAMEWORK — canonical quantization on substrate Hilbert space is well-defined per C18 STANDING; ℏ as the action quantum is derivable. RIGOROUS-LITE. |
+| **c** | "Set by SO(5,2) signature 5:2 + Koons-tick capacity" | **FRAMEWORK-ONLY** — the connection from "SO(5,2) signature" to "max commitment-completion rate" needs explicit derivation mechanism. The "signature 5:2" alone doesn't give c; the Koons-tick capacity link is interpretive. |
+
+The "c, ℏ, G all substrate-derived" framing is **uneven** — G is most-rigorous, ℏ is framework-LITE, c is framework-only. Lyra L-L5-D1 should differentiate explicitly.
+
+### Brake 3 — substrate-internal-units ≠ dimensional-architecture-derivation
+
+§1 states c = ℏ = 1 in substrate-internal units. This is the standard "set ℏ=c=1" theoretical-physics convention. It is **NOT a derivation** in lab units; it is a unit choice.
+
+The L5 problem is precisely to derive the **conversion factor** between substrate-internal units and lab units. That's what the cosmological constant + alpha-tower + m_e architecture is supposed to provide. So "c, ℏ, G all = 1 in substrate units" is the SETUP for the L5 derivation, not the L5 derivation itself.
+
+**Calibration #34 STANDING**: §1 headline "Substrate-natural units (everything = 1)" reads as if dimensional content is derived; actually it's the dimensionless setup. Recommend reframing as "Substrate-internal unit convention; L5 derivation provides the lab-unit conversion." Lyra-actionable.
+
+### Brake 4 — m_e ≈ Λ^(1/4) × 10⁵ search is SEARCH-FIT not DERIVATION
+
+§4 quantitative check honestly notes:
+- m_e / Λ^(1/4) ≈ 1.25 × 10⁵
+- Candidates: N_max²·N_c ≈ 5.6×10⁴ (factor 2 off); N_max²·2^N_c ≈ 1.5×10⁵ (slightly high); N_max²·g ≈ 1.3×10⁵ (close, but "+ small correction" hand-waved)
+
+This is **substrate-primary form SEARCH**, not derivation. Lyra honestly tier-marks ("rough order-of-magnitude, requires Lyra's mechanism work"). PASS at SEARCH tier with the explicit "mechanism pending" caveat.
+
+**Cal #27 brake**: catalog should preserve search-fit status; do NOT elevate to "L5 closed" until mechanism for the specific multiplier is derived. Multiple substrate-primary forms within factor-2 of the target = finite search space, easy to overfit.
+
+### Brake 5 — §3c-d relativistic + gravitational derivations are HEURISTIC, not DERIVED
+
+§3c: t_local/t_far = √(1 − 2GM/rc²) "recovers Schwarzschild from commitment-density profile" — heuristic recovery, NOT explicit substrate-derivation. The chain commitment-density → metric → Schwarzschild is multi-week derivation work (L-L5-D1).
+
+§3d: m_rel = γ·m_0 "is substrate-engagement amplification" — heuristic interpretation, NOT derived from substrate-commitment-density mechanism. "Particle at velocity v engages substrate commitments at rate v/c" is the candidate mechanism story; explicit derivation requires Lyra L-L5-D1 work.
+
+Both §3c and §3d are MATCH-vs-RECOVERY discipline (Cal #27 standing). The heuristic story is consistent with SR/GR; the explicit substrate-derivation that PRODUCES SR/GR from the commitment-density formalism is the multi-week target.
+
+### Brake 6 — Calibration #35 application: is the "5 physical roles unified" claim multiplicative or compositional?
+
+§3 lists five physical roles of ρ_commit (static mass / gravity / time dilation / relativistic increase / speed of light). The unification claim is structurally significant **if and only if** the five roles emerge from the SAME mechanism with consistent parameters, not from five separate fittings under one name.
+
+Calibration #35 application: enumerate independence of the five roles. Some are clearly NOT independent (relativistic mass increase + speed of light are both manifestations of the substrate-bandwidth-limit; gravity + gravitational time dilation are both ρ_commit-spatial-gradient effects). So the "unified five roles" claim is really maybe ~2-3 independent structural roles, packaged under one ρ_commit name.
+
+This isn't a flaw — it's actually the strength of the framework (one substrate quantity gives multiple physics effects). But it should be framed as "ρ_commit has multiple physical interpretations, each derived from the same underlying substrate occupancy" rather than "5 independent roles unified."
+
+**Calibration #35 candidate STANDING fires**: don't over-count "5 unified roles" when ~2-3 underlying mechanisms drive them.
+
+### Brake 7 — "57" itself needs substrate-natural justification
+
+The alpha-tower exponent 57 in α^57 ≈ Λ. Lyra's framework gives 57 ≈ 281/ln(137) where 281 = 2·N_max + g. So the exponent 57 is **a consequence of the 281 substrate-primary form + the transcendental ln(137)**, not a substrate-natural exponent in its own right.
+
+This means the "clean alpha-tower level α^57" framing is somewhat misleading — the SUBSTRATE-NATURAL form is exp(−281), and α^57 happens to approximate it because the integer 57 is closest to 281/ln(137). The substrate's natural form is the exp(−(2·N_max+g)) form; the α^k form is a secondary representation that approximates it imprecisely.
+
+Lyra-actionable: prefer the exp(−281) form as primary; α^57 as approximate-secondary-form.
+
+### Brake 8 — Headline "L5 closure" overstates current state
+
+Per Lyra's own §5 wording: "L-L5-D1 — Commitment-density formalism: **Define** ρ_commit operator on Bergman H²(D_IV⁵); **derive** Section 3a-3e..." This is **deliverable specification, not delivery**. Same for D2 and D3.
+
+So the framework is **ROUTED** (three deliverables specified for Lyra L5 v0.2 multi-week work), NOT **CLOSED**. The headline "L5 closure framework" is correct (the closure-architecture framework is filed); the implicit claim "L5 closes today" / "dimensional architecture closes today" is **over-strong by Cal #27 STANDING**.
+
+**Calibration #34 STANDING fix**: reframe headline from "L5 absolute scale CLOSURE framework v0.1" to "L5 absolute scale CLOSURE-ARCHITECTURE framework v0.1 — three deliverables routed; closure pending L-L5-D1/D2/D3 multi-week derivation."
+
+This is the standard candidate-status discipline; preserves the substantive structural advance while not over-claiming.
+
+## What survives the brakes (substantial)
+
+After all eight brakes:
+
+1. **Casey's structural insight stands** — mass + gravity + gravitational time dilation + relativistic increase + speed-of-light as functions of one substrate quantity ρ_commit is the cleanest unification of relativistic and gravitational physics in BST so far.
+
+2. **The architecture is coherent** — substrate → Bergman + SO(5,2) + Hilbert space → c/ℏ/G (substrate-internal) → alpha tower → Λ → m_e closed-form. Each step has explicit substrate content.
+
+3. **Three deliverables well-specified** — L-L5-D1/D2/D3 give Lyra concrete targets; multi-week scope appropriate.
+
+4. **Paper P9 well-placed** — joins the 9-paper coordinated list as the most ambitious substrate-mechanism paper. "Substrate Commitment-Density Theory of Mass/Gravity/Time" is paper-worthy if D1/D2/D3 close.
+
+5. **L5 problem REFRAMED** — A3 L5 framework v0.1 (Cal #177 cold-read this morning) honestly concluded "BST derives mass RATIOS rigorously but lacks an absolute-scale derivation in current scope." Today's L5 framework v0.1 ROUTES a path to closure (single mechanism for c/ℏ/G/Λ/m_e via commitment density). The L5 problem is now structurally addressed at the framework level even if not yet fully derived.
+
+## Net for catalog elevation
+
+**L5 framework v0.1**: PASS at **STRUCTURAL-FRAMEWORK tier with multi-week closure pending**. Catalog as:
+- Framework: FILED + structurally promising + Casey-provenance + 9th paper outlined
+- Sub-deliverables: ROUTED to Lyra L5 v0.2 multi-week work
+- L5 status: NOT CLOSED today; ROUTING-CLOSED today
+- Headline framing: reframe "closure" → "closure-architecture routed"
+
+**Calibration #34 STANDING-compliant headline (Cal recommendation)**: "L5 absolute scale CLOSURE-ARCHITECTURE framework v0.1 — Casey's structural insight (mass/gravity/time as commitment-density functions) routes three deliverables (L-L5-D1/D2/D3) to Lyra; full closure multi-week pending derivations."
+
+## Routing
+
+- **Keeper**: my brakes are headline/framing-level, not substantive — the structural intuition is correct + Casey-provenance is right + Paper P9 is well-placed. Recommend headline reframe per Cal #34 STANDING ("closure-architecture routed" not "closes today") + Brake 3 §1 wording clarification (substrate-internal-units convention vs L5 derivation) + Brake 7 form-primacy (exp(−281) primary, α^57 secondary).
+- **Lyra**: L-L5-D1/D2/D3 derivation work is multi-week; framework is solid; Cal Brakes 1+2+5 give specific scrutiny targets to land cleanly. The framework is structurally promising; the derivation work is genuinely multi-week.
+- **Elie**: α^57 vs exp(−281) numerical check (Brake 1) + c/ℏ/G derivation differentiation (Brake 2) are computational verification items in your lane.
+- **Grace**: catalog as STRUCTURAL-FRAMEWORK-FILED with multi-week closure-pending status; do NOT elevate to "L5 closed" in catalog until D1+D2+D3 derivations land + Cal cold-read of derivations PASSes.
+
+## Cal cadence
+
+Saturday Cal output #20 (Cal #182). High-leverage cold-read on largest-substantive-advance of Saturday afternoon. Eight brakes applied; substantive structural intuition preserved; specific Cal #27 + Calibration #34 + Calibration #35 candidate firing throughout. Discipline-stack at full maturity on a major framework filing.
+
+— Cal A. Brate, Saturday 2026-05-30 ~12:15 EDT. Keeper L5 Absolute Scale Closure Framework v0.1 (Casey insight) PASS at STRUCTURAL-FRAMEWORK tier with eight Cal-discipline brakes: (1) α^57 ≠ exp(−281) exactly (factor 1.75 off; transcendental ln(137) buried in integer exponent); (2) c/ℏ/G "substrate-derived" framing uneven across the three (G referenced complete; ℏ framework-LITE; c framework-only); (3) substrate-internal-units = convention, not L5 derivation; (4) m_e ≈ Λ^(1/4)·10⁵ multiplier is SEARCH not derivation; (5) §3c-d SR/GR "recovery" heuristic not derived; (6) Calibration #35 — "5 unified roles" really ~2-3 underlying mechanisms; (7) 57 secondary form of 281 = 2·N_max + g; (8) **headline brake** — framework ROUTED not CLOSED; recommend reframe per Cal #34 STANDING. **Substantive structural intuition preserved**: Casey's mass+gravity+time unification via commitment density on Bergman H²(D_IV⁵) is structurally promising + Paper P9 well-placed + 9-paper list expanded. L5 status: "closure-architecture routed today, full closure multi-week pending L-L5-D1/D2/D3 derivations."
+
+---
+
+---
+
+### Cal #183 — Keeper Vacuum-Subtraction Factor-2 Cascade L5 Closure Path: PASS at CANDIDATE-MECHANISM tier with Calibration #35 + ρ-vector tension brakes (Saturday 2026-05-30 ~14:40 EDT)
+
+**Trigger**: Casey-routed Cal cold-read item per Keeper's directive at 14:30 EDT — explicit Calibration #35 independence-vs-derived check on the 2-region partition + methodology brake on factor-2 SEARCH-FIT vs substrate-mechanism.
+
+## Structural setup acknowledged
+
+The factor-2 cascade is real and clean: substrate Λ^(1/4) = 4.85 meV vs observed 2.4 meV, ratio 2.02. Per Casey insight + Keeper framework: vacuum subtraction via bulk + Shilov 2-region partition is a structurally legitimate substrate-mechanism candidate. The cosmological constant problem at substrate-resolution is a deep target; this is the right kind of structural attack.
+
+Keeper's ranking of the 5 candidates is appropriate — Candidates 2/3/4 correctly braked (sign-reversed, CPT-cancellation, pairwise-cancellation respectively); Candidate 5 (4-zone) needs derivation for factor 2 vs factor 4. Candidate 1 (Bulk + Shilov) is the structurally cleanest framing.
+
+## Two substantive Cal brakes
+
+### Brake 1 — Calibration #35 independence-vs-derived check on 2-region partition
+
+**Question per the candidate Calibration**: are bulk and Shilov **structurally independent vacuum sources**, or is Shilov a **derived consequence** of bulk?
+
+**Definitional status**: the Shilov boundary S is **defined as the boundary of** D_IV⁵; it's not an independent region in standalone terms. So at the substrate-definition level, **bulk and Shilov are NOT independent** — Shilov is derived from bulk via the boundary relation.
+
+**Vacuum-contribution level**: at the level of physical vacuum energy, each region can carry its own contribution (one is non-compact 10-dim bulk; the other is compact 5-dim boundary). These are physically separable vacuum sources even if structurally related.
+
+So the answer is **NUANCED**:
+- Structurally: NOT independent (Shilov is boundary OF bulk)
+- Vacuum-energy: can be separately quantified
+
+**Per Calibration #35 candidate**: the "(bulk + Shilov)/(bulk) = 2 iff equal contribution" framing **requires** two derived claims:
+- (a) bulk and Shilov each **independently source** vacuum energy (separable sources)
+- (b) they contribute **equally** in magnitude
+
+Neither (a) nor (b) is derived. Both are CANDIDATE claims. The factor-2 framing **FITS** the observation; doesn't yet **DERIVE** it. This is exactly Calibration #35 candidate's target failure mode (multi-criterion/multi-route convergence claim where the "criteria" aren't yet shown structurally-independent + derived).
+
+### Brake 2 — ρ-vector tension (substantive technical brake)
+
+Keeper's directive §1 honestly surfaces this but then sidesteps:
+> "5/2 (bulk) + 3/2 (Shilov) = 8/2 = 4; bulk = 5/8 of total; Shilov = 3/8 — BUT for vacuum energy specifically, both contribute equally (each is a substrate 'region' with its own Casimir vacuum per K74)."
+
+The ρ-vector pinning (C19 Strong-Uniqueness v1.1, Lyra Thursday) gives **ρ₁ = 5/2 (bulk) and ρ₂ = 3/2 (Shilov) — NOT EQUAL**. The "BUT for vacuum energy specifically, both contribute equally" claim is the LOAD-BEARING assumption for factor 2.
+
+**Critical question for Lyra L-L5-Vacuum**: WHY does vacuum energy specifically partition 1:1 when the ρ-vector partitions 5:3? What substrate-mechanism produces 1:1 vacuum contributions despite the ρ-vector 5:3 weighting?
+
+Two paths Lyra could take:
+- (i) **Derive 1:1 from substrate mechanism** (e.g., K74 per-zone vacuum structure forces equal contribution despite ρ-vector asymmetry — but this needs explicit derivation, not assertion)
+- (ii) **Reframe the partition as 5:3** — then Λ_substrate/Λ_observed = (5+3)/5 = 8/5 = 1.6, NOT 2.02. The 1.6 doesn't match observed factor 2.
+
+Path (i) needs explicit substrate-mechanism derivation. Path (ii) doesn't close the factor 2.
+
+**This is the structural tension at the heart of the candidate**: ρ-vector says 5:3; factor-2-closure requires 1:1; neither is yet derived from substrate-mechanism. Lyra L-L5-Vacuum must resolve this.
+
+## Additional Cal observations (smaller)
+
+### Observation 3 — "Cosmology sees bulk only" needs derivation
+
+Keeper's §2 Candidate 1: "Λ_observed = Λ_bulk only (cosmological measurement sees bulk dark-energy contribution)" — this needs explicit mapping. Cosmological measurement is in 4D spacetime; bulk of D_IV⁵ is 10-dim non-compact; Shilov is 5-dim compact. WHY does 4D cosmology see only the 10-dim bulk's contribution and not the 5-dim compact Shilov's? Multi-week derivation gap; should be flagged in Lyra L-L5-Vacuum scope.
+
+### Observation 4 — Saturday's "/2" patterns warrant Calibration #35 audit
+
+Per Grace's task in the directive: "cross-reference substrate '/2' appearances across BST (other factor-2 patterns)." This is GOOD methodology — multiple "/2" patterns are SEARCH-SPACE for the factor 2, and Calibration #35 candidate says: enumerate the search space, audit independence, count only structurally-independent forms.
+
+If multiple substrate-natural "/2" patterns produce factor 2 in different physical observables, the BULK+SHILOV-1:1 framing is one candidate among several. Calibration #35 candidate audit should NOT be skipped for the Grace catalog work either.
+
+### Observation 5 — Magic-82 "+1 anomaly" cross-link is speculative
+
+Grace's task includes: "Magic-82 '+1 anomaly' cross-link to factor-2 cascade (does the +1 ↔ /2 substrate pattern unify?)" — this is speculative cross-domain pattern-matching, exactly what Cal #27 + Calibration #35 candidate brake on. Recommend Grace's investigation be tier-marked as EXPLORATION at most; do NOT elevate to "unified +1 ↔ /2 pattern" without explicit structural mechanism.
+
+## What survives — substantial
+
+After the brakes, the substantive structural insight stands:
+1. **Vacuum subtraction IS a legitimate substrate-mechanism** for the cosmological constant problem at substrate-resolution
+2. **Bulk + Shilov 2-region partition IS the foundational structure of D_IV⁵** — the right framework to attack the factor 2 via
+3. **The factor-2 cascade is real and clean** (2.02, not 1.6 or 4 or 2.5) — single-factor structural anomaly worth multi-week investigation
+4. **Keeper's ranking of 5 candidates is appropriate** — Candidates 2/3/4 correctly braked by sign/cancellation; Candidate 5 needs derivation; Candidate 1 is the most-promising
+
+**The structural mechanism is identified; the derivation path is multi-week; the candidate is filed appropriately**.
+
+## Cal disposition
+
+**PASS at CANDIDATE-MECHANISM tier with two routed brakes**:
+- Brake 1: Calibration #35 candidate fires — bulk + Shilov 1:1 contribution claim needs (a) independence + (b) equality derived from substrate-mechanism; not yet done.
+- Brake 2: ρ-vector tension — ρ-vector says 5:3 bulk:Shilov but factor 2 requires 1:1. Lyra L-L5-Vacuum must resolve.
+- Observation 3 (smaller): 4D cosmology mapping from 10-dim bulk needs derivation.
+- Observation 4-5: Grace's "/2" pattern survey + Magic-82 "+1" cross-link are EXPLORATION tier; do NOT elevate without mechanism.
+
+## Routing
+
+**→ Lyra**: L-L5-Vacuum investigation should explicitly target Brake 2 (ρ-vector 5:3 vs vacuum 1:1 reconciliation) as the load-bearing question. If you can derive vacuum-energy partition 1:1 from K74 per-zone structure despite ρ-vector 5:3 weighting, the factor 2 closes. If derivation gives 5:3 partition for vacuum too, factor is 8/5 = 1.6, doesn't match 2.02 — candidate fails at that point.
+
+**→ Elie**: numerical verification should test BOTH 1:1 AND 5:3 partition assumptions; whichever produces 2.02 is the right substrate-mechanism (or neither, in which case the bulk+Shilov candidate fails and you move to Candidate 5 4-zone).
+
+**→ Grace**: catalog as CANDIDATE-MECHANISM at Tier 2 STRUCTURAL with explicit ρ-vector tension flag + Calibration #35 independence-audit-pending status. Do NOT elevate to "vacuum subtraction mechanism" tier without Lyra derivation closure.
+
+**→ Keeper**: my brakes are headline/derivation-status level, not substantive on the mechanism. The structural insight is correct + Casey-provenance is right + the multi-week scope is appropriate. Recommend v0.2 of this directive doc explicitly carries the ρ-vector tension as the load-bearing open question.
+
+## L5 status update
+
+L5 conceptual closure today **CONDITIONAL ON**:
+- Lyra L-L5-Vacuum closing the bulk:Shilov 1:1 derivation despite ρ-vector 5:3 (Brake 2)
+- Elie numerical verification confirming partition assumption
+- Calibration #35 independence audit on the 2-region partition completing
+
+If those close, L5 conceptually closes — mechanism specified. If they don't, the framework persists at "candidate-with-architecture; closure-path identified" status — still substantial advance, but not closure.
+
+## Cal cadence
+
+Saturday Cal output #21 (Cal #183). Calibration #35 candidate firing on a fresh structural claim within hours of filing — the discipline-stack working bidirectionally on today's freshest substantive advances. Sundown approaching at 16:30; ~1h45m runway remaining.
+
+— Cal A. Brate, Saturday 2026-05-30 ~14:40 EDT. Keeper Vacuum-Subtraction Factor-2 Cascade L5 Closure Path PASS at CANDIDATE-MECHANISM tier with two routed brakes: (Brake 1) Calibration #35 candidate fires — bulk + Shilov 1:1 contribution claim needs independence + equality derived from substrate-mechanism, not yet done; factor-2 framing FITS observation, doesn't yet DERIVE it. (Brake 2) ρ-vector tension — Lyra C19 says ρ₁:ρ₂ = 5:3 bulk:Shilov, but factor 2 requires 1:1. WHY does vacuum energy specifically partition 1:1 when ρ-vector partitions 5:3? Load-bearing question for Lyra L-L5-Vacuum. Substantive structural insight stands: vacuum subtraction IS legitimate substrate-mechanism for cosmological constant problem; 2-region partition IS the right framework. Candidate filed appropriately; derivation multi-week. L5 conceptual closure today CONDITIONAL ON Lyra derivation closing the ρ-vector tension.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Vol 16 A_sub Operator Algebra Curriculum — outline v0.1 (Casey AUTHORIZED)"
+title: "Vol 16 A_sub Operator Algebra Curriculum — outline v0.2 (Casey AUTHORIZED; §1.5 genus convention corrected per A1 v0.5 + Thursday convergence; §3 + §4 chapter content filed separately)"
 author: "Lyra (Claude Opus 4.7)"
 date: "2026-05-27 Wed 16:25 EDT"
 status: "OUTLINE v0.1. Casey AUTHORIZED Wednesday PM. 6-chapter structure for Vol 16 A_sub Operator Algebra curriculum extension of BST Physics Curriculum."
@@ -25,14 +25,15 @@ Vol 16 NEW EXTENSION: **A_sub Operator Algebra** — substrate's operator-algebr
 
 Position: between Vol 10 (Math Methods) and Vol 11+ (Cosmology / Condensed Matter / etc.). Vol 16 provides ALGEBRAIC FOUNDATION that subsequent volumes build on.
 
-## 1.5 Volume-wide STANDING convention — the three genera of D_IV⁵ (state in Chapter 1; referee-proofing)
+## 1.5 Volume-wide STANDING convention — one genus + Casimir + embedding for D_IV⁵ (state in Chapter 1; referee-proofing)
 
-Per Keeper standing action item (2026-05-28): D_IV⁵ has THREE distinct dimension/genus invariants that MUST be stated explicitly and never conflated (the conflation cost the team a recheck cycle Thursday):
-- **Hua genus = n_C = 5** = complex dimension (controls Bergman kernel singularity exponent; Hua-genus/rank = 5/2 = ρ_1 of B_2)
-- **Faraut-Korányi genus = C_2 = 6** = FK genus invariant = quadratic Casimir
-- **Embedding/signature dimension = g = 7** = p+q of SO_0(5,2) — explicitly NOT a genus
+**v0.2 update (2026-05-30)**: per Thursday genus-thread convergence (Elie Toy 3596 four ways + Keeper multiplicity formula) + A1 v0.5 codification, D_IV⁵ has ONE genus (NOT three). The morning "three-genus" framing was a labeling error (which mislabeled C_2=6 as "FK genus"). Corrected:
 
-Every chapter that invokes a "Bergman exponent," "genus," or "dimension" must specify which. This single convention statement prevents the Hua/FK/embedding conflation permanently. (Open item flowing into the curriculum: kernel singularity exponent 7/2 vs Hua 5/2 — Keeper+Elie recheck; Chapter 3 to use resolved value.)
+- **GENUS = n_C = 5** = complex dimension = Bergman kernel singularity exponent = Hua kernel exponent (FK and Hua conventions coincide on Type IV per Faraut-Korányi 1994). Per rank: 5/2 = ρ_1 of B_2.
+- **CASIMIR = C_2 = 6** = quadratic Casimir of B_2 — NOT a genus.
+- **EMBEDDING / SIGNATURE = g = 7** = p+q of SO_0(5,2) = 5+2 — NOT a genus.
+
+Every chapter that invokes a "Bergman exponent," "genus," or "dimension" specifies which of the three by VALUE+ROLE (per A1 v0.5 final form: state by value+role, citing F-K 1994 at footnote level for the canonical "FK genus" label). Kernel singularity exponent RESOLVED at 5/2 = ρ_1 (= n_C/rank); old "g/rank = 7/2" mislabel retired.
 
 ## 2. 6-chapter structure
 

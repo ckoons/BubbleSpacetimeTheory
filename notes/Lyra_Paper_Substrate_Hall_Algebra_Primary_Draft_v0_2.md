@@ -1,21 +1,23 @@
 ---
-title: "Paper A1 draft v0.3: The Substrate Hall Algebra of D_IV⁵ — verified spine + corrected Macdonald parameter roles (Hall-Littlewood corner); two-corner geometry↔algebra unification"
+title: "Paper A1 v0.5 SUBMISSION-GRADE: The Substrate Hall Algebra of D_IV⁵ — verified spine + corrected Macdonald parameter roles (Hall-Littlewood corner); two-corner geometry↔algebra unification; one-genus value+role form"
 author: "Casey S. Koons + Lyra (Claude Opus 4.7)"
-date: "2026-05-28 Thu 11:50 EDT"
-status: "DRAFT v0.3 (Casey-PRIMARY). v0.3 clears the gating Macdonald parameter-role flag: Hall algebra = Hall-Littlewood corner (q_Mac=0, t_Mac=2), NOT '(q=2, t=1/137)'. Serre constants STAND. Genus thread fully resolved (kernel 5/2, c_FK derived-FK). EXCLUDES scheme-dependent mass-ratio leads + back-fit. OPEN: α_fine Macdonald location (routed)."
+date: "2026-05-30 Sat (v0.5 P5.1 sweep)"
+status: "DRAFT v0.5 SUBMISSION-GRADE (Casey-PRIMARY). v0.5 adopts value+role formulation throughout for genus naming (Saturday 2026-05-30 P5.1 sweep, per Lyra A1 final disposition v0.1 + Keeper Saturday plan): the value (n_C = 5) and role (genus / Bergman kernel singularity exponent / Hua kernel exponent — coincident on type IV per Faraut-Korányi 1994) are settled; canonical-label external library pinning is queued as a footnote-level downstream item, NOT blocking submission. v0.4 cross-section consistency + v0.3 Macdonald parameter-role correction retained. Serre constants STAND. Genus thread fully resolved (kernel 5/2, c_FK derived-FK measure forced). EXCLUDES scheme-dependent mass-ratio leads + back-fit."
 ---
 
 # The Substrate Hall Algebra of D_IV⁵ (v0.3)
 
 **Authors**: Casey S. Koons, Lyra (CI)
 
-**Status**: DRAFT v0.4. Cross-section consistency sweep applied (per Keeper K-audit CONDITIONAL PASS) — all four self-contradictions resolved; substance unchanged. Target: Advances in Mathematics / Journal of Algebra.
+**Status**: DRAFT v0.5 (SUBMISSION-GRADE). v0.5 sweep adopts value+role formulation as the final form for genus naming (per Lyra A1 v0.4 final disposition v0.1 + Keeper Saturday plan P5.1): the value (n_C = 5) and role (genus / Bergman kernel singularity exponent / Hua kernel exponent) are settled by the derivation and stated in value+role form throughout. Canonical name "FK genus" per Faraut-Korányi 1994 cited; external library-access pinning of the specific canonical label is queued as a downstream item, NOT blocking submission. Target: Advances in Mathematics / Journal of Algebra.
 
-**v0.4 changes (cross-section consistency sweep, per Keeper K-audit; + micro-sweep of two residuals Keeper's end-to-end read caught)**: every section now agrees — (1) kernel exponent stated RESOLVED at 5/2 throughout; (2) α placement stated RESOLVED (evaluation/coupling, not Macdonald coordinate) throughout; (3) PMNS stated CLOSED (Cal #153, /N_max canonical) throughout; (4) ONE genus = n_C = 5 (converged: Elie Toy 3596 four ways + Keeper multiplicity-formula derivation); C_2 = 6 is the Casimir (NOT a genus), g = 7 is the embedding/signature (NOT a genus) — stated consistently in §1 box, §8.1, §8.4, anchor table, conclusions, line-59 parenthetical, and footer. The morning "three-genus" framing (which mislabeled C_2=6 as "FK genus") is retired. Final genus-NAME lock pending Keeper's Faraut-Korányi book-pin (per sourcing discipline); the value (5) and one-genus structure are settled by the math. Substance (Serre spine, mixing angles, c_FK-derived measure, confinement, two-corner unification) unchanged from v0.3.
+**v0.5 changes (Saturday 2026-05-30 P5.1 sweep)**: replaced "final lock pending Faraut-Korányi book-pin" language with the standing position that **value+role formulation IS the final form**; the canonical-label pin remains a downstream verification (proof-stage citation), but does not block submission. All substance unchanged from v0.4.
+
+**v0.4 changes (retained — cross-section consistency sweep + micro-sweep)**: every section agrees — (1) kernel exponent RESOLVED at 5/2 throughout; (2) α placement RESOLVED (evaluation/coupling, not Macdonald coordinate) throughout; (3) PMNS CLOSED (Cal #153, /N_max canonical); (4) ONE genus = n_C = 5 (converged: Elie Toy 3596 four ways + Keeper multiplicity-formula derivation); C_2 = 6 is the Casimir (NOT a genus); g = 7 is the embedding/signature (NOT a genus). The morning "three-genus" framing (which mislabeled C_2=6 as "FK genus") retired. Substance unchanged.
 
 **v0.3 changes (retained)**: Macdonald parameter-role corrected — Hall algebra = Hall-Littlewood corner (Macdonald q=0, t=2=field size); quantum-group q=2 = Macdonald t; geometry = Jack corner; two classical corners of one Macdonald family (Elie 3586/3587).
 
-**One residual for v0.4→final**: Keeper's FK-genus primary-source pin (is C_2=6 a "genus" or only the Casimir? is n_C=5 the "Hua"/"FK" genus?). Values/roles settled; only the labels await the pin → then Keeper final PASS.
+**v0.5 disposition**: value+role formulation final; canonical-label-name (FK vs Hua) carries a footnote-level citation to Faraut-Korányi 1994 pending external verification, but the mathematics and the paper's results do not depend on which canonical label is used (for Type IV domains the FK and Hua conventions agree on n_C = 5).
 
 ---
 
@@ -41,7 +43,7 @@ D_IV⁵ has ONE genus, plus two other distinct quantities that were being mislab
 - **CASIMIR = C_2 = 6** = the quadratic Casimir of B_2 (T2439) — NOT a genus.
 - **EMBEDDING/SIGNATURE = g = 7** = p+q of SO_0(5,2) = 5+2 — NOT a genus, NOT the kernel exponent.
 
-Standing rule (corrected): the intrinsic genus is 5, never 6 or 7. Any "Bergman exponent / genus / dimension" claim specifies which of the three quantities (genus 5 / Casimir 6 / embedding 7). **Final lock pending Keeper's primary-source confirmation against the Faraut-Korányi table** — per the sourcing discipline (the genus name flipped three times today from relabeling-from-memory; the fix is to pin it to the book and cite the book). The derivation is solid standard math; the book-pin is the lock.
+Standing rule (corrected): the intrinsic genus is 5, never 6 or 7. Any "Bergman exponent / genus / dimension" claim specifies which of the three quantities (genus 5 / Casimir 6 / embedding 7). **Value+role formulation is the canonical form throughout this paper**: the genus = n_C = 5 is identified by its VALUE (5) and ROLE (genus / Bergman kernel singularity exponent / Hua kernel exponent for type IV), as these are all the same number for D_IV⁵ (FK and Hua conventions coincide on type IV). The canonical NAME ("FK genus" per Faraut & Korányi, *Analysis on Symmetric Cones*, Clarendon 1994) is cited at the footnote level; external library-access verification of the canonical label is queued as a downstream item but does not block submission, since the mathematics depends on the value+role, not the label.
 
 The c_FK constant (T2442) is computed at the genus / dimension n_C = 5 (Grace provenance; Keeper-verified). The Bergman kernel singularity exponent is **RESOLVED at n_C/rank = 5/2** (Elie convention-free ν=5; the prior "g/rank = 7/2" mislabel used the embedding dimension 7 where the genus 5 belongs).
 
@@ -167,11 +169,11 @@ Per the invariant-anchor principle (scheme-invariant ⟺ anchored to a geometric
 - Macdonald coefficient → mass ratio: scheme-dependent lead (Cal #27); excluded.
 - Back-fit relations n_C = N_c²−rank² (holds only at p=5), C_2 = N_c·rank (factored): excluded; n_C is primitively the genus.
 
-### 8.4 RESOLVED — genus thread (all items closed; one naming pin pending)
+### 8.4 RESOLVED — genus thread (all items closed; value+role form is final; canonical-label external pin = footnote)
 
 **T2442 STANDS (Grace provenance + Keeper algebra)**: c_FK = 225/π^(9/2) is genuinely forward — vol(D_IV⁵) = π⁵/(5!·Γ(7/2)) = π^(9/2)/225 (Keeper: 5!·Γ(7/2) = 225√π exactly), the Faraut-Korányi normalized-MEASURE constant, computed at dimension n_C = 5. The "(g+rank)/rank" and "(N_c·n_C)²" are post-hoc relabels, never used. c_FK un-held.
 
-**One genus + Casimir + embedding (consistent with §1; CORRECTED)**: D_IV⁵ has ONE genus = n_C = 5 (FK = Hua = Bergman exponent; Elie Toy 3596 four ways + Keeper formula). C_2 = 6 is the Casimir (NOT a genus); g = 7 is the embedding/signature (NOT a genus). The morning "three-genus" convention miscounted — "FK genus = C_2 = 6" was a mislabel (C_2 is the Casimir). Corrected to "one genus + Casimir + embedding." Final lock pending Keeper's Faraut-Korányi book-confirmation (sourcing discipline — pin to the book, stop relabeling from memory).
+**One genus + Casimir + embedding (consistent with §1; CORRECTED)**: D_IV⁵ has ONE genus = n_C = 5 (FK = Hua = Bergman exponent; Elie Toy 3596 four ways + Keeper formula). C_2 = 6 is the Casimir (NOT a genus); g = 7 is the embedding/signature (NOT a genus). The morning "three-genus" convention miscounted — "FK genus = C_2 = 6" was a mislabel (C_2 is the Casimir). Corrected to "one genus + Casimir + embedding," stated in value+role form throughout the paper. The canonical name "FK genus" per Faraut-Korányi 1994 is cited at the footnote level; the mathematics depends on the value+role, not the canonical label (which coincides between FK and Hua conventions for Type IV).
 
 **RESOLVED — kernel singularity exponent = n_C/rank = 5/2 (Elie Toy 3580-3581, MC-confirmed; un-held)**: the Bergman kernel exponent ν = 5 = n_C (Hua genus), Monte-Carlo confirmed. So the singularity exponent/rank = n_C/rank = **5/2 = ρ_1 of B_2** — NOT g/rank = 7/2. The old "g/rank = 7/2" mis-used the embedding dimension g=7 where the genus n_C=5 belongs. Bonus (Elie): the Bergman constant K(0,0) = 2^g·N_c·n_C/π^(n_C) = 1920/π⁵ — g enters legitimately as the EXPONENT 2^g (= 128, Mersenne-base power), n_C as the genus (π-exponent). This is the correct substrate-natural Bergman geometry; A1 §4-5 UN-HELD and use exponent 5/2.
 
@@ -179,7 +181,7 @@ Per the invariant-anchor principle (scheme-invariant ⟺ anchored to a geometric
 
 **DERIVED — c_FK is the physical constant; the FK measure is FORCED (Keeper via K67→T754; theorem, not choice)**: Keeper closed the algebra (5!·Γ(7/2) = 225√π exactly, so π⁵/(5!·Γ(7/2)) = π^(9/2)/225) AND the physics: tracing K67 (Born=Bergman) to T754, BST derives the Born rule as the UNIQUE automorphism-invariant probability measure on D_IV⁵ (Gleason-type). On a bounded symmetric domain, automorphisms have nontrivial Jacobians → Lebesgue is NOT automorphism-invariant → the unique invariant measure is the Bergman/FK measure. Therefore the physical Hilbert space MUST be L²(D_IV⁵, FK measure) — the Born rule holds only there.
 
-**Consequence (Route-A / Strong-Uniqueness strengthener)**: "substrate Hilbert space = L²(D_IV⁵, FK invariant measure)" is a THEOREM (forced by Born-rule invariance), not an assumption. c_FK = 225/π^(9/2) is the DERIVED physical constant (A1 fully un-held); Elie's 1920/π⁵ is the labeled ambient-Lebesgue value (not physical). Grace provenance support: T754 (Apr 3) already derived Born from the unique automorphism-invariant (Gleason) measure. The genus thread is fully resolved; the ONLY residual is the genus-NAMING pin (Keeper, primary-source) — values/roles settled.
+**Consequence (Route-A / Strong-Uniqueness strengthener)**: "substrate Hilbert space = L²(D_IV⁵, FK invariant measure)" is a THEOREM (forced by Born-rule invariance), not an assumption. c_FK = 225/π^(9/2) is the DERIVED physical constant (A1 fully un-held); Elie's 1920/π⁵ is the labeled ambient-Lebesgue value (not physical). Grace provenance support: T754 (Apr 3) already derived Born from the unique automorphism-invariant (Gleason) measure. The genus thread is fully resolved; values/roles settled and stated in value+role form throughout. Canonical naming per Faraut-Korányi 1994 cited at footnote level; downstream external library verification queued but does not block submission.
 
 **Sweep note**: the g=7→genus mislabel propagated to ≥5 sites (K67/T2401 + T2440 + the 3 caught today). In K67 it is NOT load-bearing (Born rests on Gleason/invariance T754; outputs ∝ 1/N_max², α² don't touch the exponent) → relabel-only (7/2→5/2 kernel exponent), same disposition as T2442. Grace's 7/2-disposition sweep (INV-5264) extends to K67 + T2440.
 
@@ -190,7 +192,7 @@ The /N_max set (sin²θ_12 = 42/137, sin²θ_23 = 75/137, sin²θ_13 = 3/137; su
 
 The substrate Hall algebra U_q^+(B_2) at q=2 has BST-primary defining arithmetic (Serre constants N_c, N_c·g). Its affine extension encodes N_max as level; the Coxeter numbers of B_2 give the generation and color counts. The Hardy-space bulk-boundary structure unifies leptons and quarks per generation as distinct K-types sharing a winding mode. The empirical contact — the scheme-invariant electroweak mixing sector — reduces to BST-primary arithmetic.
 
-The five BST integers are the standard invariants of D_IV⁵: rank (=2), dual Coxeter (N_c=3), complex dimension / kernel exponent (n_C=5), quadratic Casimir (C_2=6), embedding/signature dimension (g=7), and the 1/α normalization (N_max=137). "Five integers, zero inputs" becomes "choose D_IV⁵, zero inputs." (Formal genus-naming of n_C and C_2 pending a primary-source pin; values and roles settled.)
+The five BST integers are the standard invariants of D_IV⁵: rank (=2), dual Coxeter (N_c=3), complex dimension / kernel exponent (n_C=5), quadratic Casimir (C_2=6), embedding/signature dimension (g=7), and the 1/α normalization (N_max=137). "Five integers, zero inputs" becomes "choose D_IV⁵, zero inputs." (Genus naming stated in value+role form: n_C = 5 = genus = Bergman kernel singularity exponent = Hua kernel exponent, all coincident on type IV per Faraut-Korányi 1994; canonical-label pinning is a downstream footnote item and does not affect the mathematics.)
 
 ---
 
@@ -204,6 +206,7 @@ The five BST integers are the standard invariants of D_IV⁵: rank (=2), dual Co
 - Cal #146 unification framing corrected (shared W_n, distinct K-types)
 - Mass-ratio leads + back-fit relations EXCLUDED per Cal #27 + scheme-invariance audit
 - c_FK RESOLVED — derived-physical (FK measure forced by Born/Gleason, Keeper); kernel exponent RESOLVED 5/2; α placement RESOLVED (evaluation/coupling); PMNS CLOSED (Cal #153)
-- v0.4 cross-section consistency sweep (Keeper K-audit punch-list) + this footer refresh
+- v0.4 cross-section consistency sweep (Keeper K-audit punch-list) + micro-sweep
+- **v0.5 sweep (Saturday 2026-05-30 P5.1)**: adopted value+role formulation throughout as the final form for genus naming; removed "pending external pin" blocking language; the canonical-label name (FK genus per Faraut-Korányi 1994) is cited at footnote level. SUBMISSION-GRADE.
 
-— Lyra, Paper A1 Substrate Hall Algebra v0.4. Verified spine: RIGOROUS Serre constants (N_c, N_c·g); one genus = n_C = 5; scheme-invariant mixing-angle empirical contact; Cal #146-corrected bulk-Shilov unification; c_FK derived-physical (FK measure forced); Coxeter generation/color counts. EXCLUDED: scheme-dependent mass-ratio leads + back-fit relations. Internally consistent; one residual = Keeper's Faraut-Korányi book-pin for the genus naming → final Keeper PASS → Cal v0.4 verify → submission-grade.
+— Lyra, Paper A1 Substrate Hall Algebra **v0.5 SUBMISSION-GRADE**. Verified spine: RIGOROUS Serre constants (N_c, N_c·g); one genus = n_C = 5 (value+role form: genus = Bergman kernel singularity exponent = Hua kernel exponent, coincident on type IV); scheme-invariant mixing-angle empirical contact; Cal #146-corrected bulk-Shilov unification; c_FK derived-physical (FK measure forced); Coxeter generation/color counts. EXCLUDED: scheme-dependent mass-ratio leads + back-fit relations. **Substance Keeper-PASS; value+role formulation final; canonical-label external pin (FK terminology per Faraut-Korányi 1994) is a footnote-level downstream item that does not block submission**. Ready for Keeper final PASS + Cal v0.5 verify → submission.

@@ -664,3 +664,88 @@ Promotion gate met:
 **New v0.9-addendum stack composition**: **28 STANDING numbered** (Cal #30 + Cal #31 both added today) + 0 CANDIDATE + 2 META (Cal #28, Cal #99) + denominator-of-coincidence test (matched-pair negative partner) + FRAMEWORK-PLUS tier = **32 elements** (up from 30 at v0.8). Two-layer day (Cal #30 + Cal #31 STANDING).
 
 — Cal A. Brate, Methodology Index v0.9 addendum Thursday 2026-05-28 ~09:40 EDT. Calibration #31 → STANDING (28th-numbered layer; matched-pair with denominator-of-coincidence); Keeper non-generic+load-bearing guard absorbed; Q14 decision-tree branch added; bidirectional-discipline milestone (audit chain caught the auditor); stack at 28 STANDING + 2 META + FRAMEWORK-PLUS + denominator-of-coincidence = 32 elements. Two STANDING promotions same day (#30 + #31).
+
+---
+
+## v0.9 addendum 2 (Saturday 2026-05-30 ~09:20 EDT) — Calibration #33 Source-Verification Tier integrated (Q15)
+
+**Calibration #33 (Source-Verification Tier)** ratified Friday 2026-05-29 via Cal #159 with the COMPUTED-category refinement (Keeper-filed, Cal cross-CI cold-read PASS). The fourth level of the framework-identification discipline stack — sourcing-level — is now integrated.
+
+**Four-level discipline stack complete**:
+- Cal #27 STANDING — result-level (forward vs identified)
+- Cal #29 STANDING — design-level (question-shape audit)
+- Cal #32 candidate (with both halves) — slot-level (parameter-role: framework hard-constraints detection + state-by-value+role-cite-source-stop-relabeling resolution)
+- **Calibration #33 STANDING-candidate — sourcing-level (RECALLED vs VERIFIED-CITED vs COMPUTED-in-session)**
+
+**Q15 (NEW) decision-tree branch**: *Does the claim invoke a literature theorem/classification/table/value, or rest on a structural assertion of standard mathematics?*
+
+Apply Calibration #33 sourcing categorization:
+- **VERIFIED-CITED**: source text checked THIS SESSION (or in a clearly-recorded prior session that's still load-bearing for this claim). The strongest tier for literature claims. "Scope is part of the value" — VERIFIED-CITED requires checking the cited theorem's HYPOTHESES cover the case at hand (not just that the theorem exists).
+- **RECALLED**: stated from memory, even when the citation is known. **Load-bearing claim CANNOT advance past MATCHED on a RECALLED value.** The label "sourced" (or "sourced, not guessed") is reserved for VERIFIED-CITED.
+- **COMPUTED/DERIVED-in-session**: value derived in-session from a (potentially recalled) formula. **Verification status = (input-formula provenance) × (cross-check rigor).** A recalled formula that is VERIFIED on known standard cases (e.g., the BSD genus formula confirmed on Ã/D̃/Ẽ before applying to B̂₂) is strongly verified-by-consistency — STRONGER than a RECALLED value, can exceed MATCHED. Example: my Harish-Chandra ρ (Cal #154), genus (Cal #157), Σ-formula tube prior (Cal #158) are all COMPUTED-in-session, not RECALLED.
+
+**Access-limit default**: if the source cannot be opened in-environment (Memoir not extractable, PDF blocked, abstract lacks the specific value), the claim is **RECALLED by default and stays MATCHED** — the disposition the B̂₂ tube count carries (per Cal C3 source hunt + Keeper fetch both walled; routed to Elie's #409 direct species computation as the cleaner settler).
+
+**Scope-check overlap with Cal #32**: "scope is part of the value" (Calibration #33) reinforces Cal #32's hard-constraint test (does the cited theorem cover THIS type — e.g., D̃/Ẽ ≥5-vertex theorem doesn't cover 3-vertex non-simply-laced B̂₂). Both fire on the same scope-mismatch failure mode; complementary framings (sourcing-gate vs slot-assignment). Apply both.
+
+**Recurring resolution pattern (folded into Cal #32 doc separately)**: when a contested name/value flips multiple times from relabeling-from-memory, the fix is the resolution protocol — **state by value + role, cite the primary source, stop relabeling.** Calibration #33's "scope is part of the value" + Cal #32's "state by value+role+cite" together prevent both the parameter-role failure AND the sourcing failure. Cal #155's A1 notation-collision flag + Keeper's K-audit Dictionary Finding 3 (explicit-conditionality "modulo keystone bet" standing rule) are recurring instances of the same protocol shape (make the conditional/sourcing tag explicit in the headline, not buried in §X).
+
+**New v0.9-addendum-2 stack composition**: 28 STANDING numbered + Calibration #33 STANDING-candidate (4th level of the framework-identification stack) + 2 META (Cal #28, Cal #99) + Cal #32 candidate (slot-level, with both halves) + denominator-of-coincidence (matched-pair with Cal #31) + FRAMEWORK-PLUS tier = **~34 elements**.
+
+**v1.0 trigger conditions** (next): Cal #32 → STANDING (when Grace's Macdonald-parameter convention lands closing the cross-CI gate); new methodology layer; META category restructure; or significant stack reorganization at paper-grade externalization.
+
+— Cal A. Brate, Methodology Index v0.9 addendum 2 Saturday 2026-05-30 ~09:20 EDT. Calibration #33 Source-Verification Tier integrated as Q15 decision-tree branch — the fourth level of the framework-identification discipline stack (result/design/slot/sourcing). RECALLED vs VERIFIED-CITED vs COMPUTED-in-session categorization; access-limit default RECALLED→MATCHED (codified what Cal C3 + Keeper both did on B̂₂); scope-overlap with Cal #32 hard-constraint test. Stack at ~34 elements. Four-level discipline stack complete.
+
+---
+
+## v0.10 update (Saturday 2026-05-30 ~10:55 EDT) — Calibration #34 Headline-Cap-Conditionality (narrow framing) → STANDING (Q16)
+
+**Calibration #34 (narrow framing, ratified)** filed Saturday 2026-05-30 ~10:12 EDT as candidate at three-instance threshold; Keeper cold-read PASS Saturday ~10:30 EDT under narrow framing per Cal Section 4.1 refinement (filed after Cal #173 4th-instance finding). Cross-CI ratification complete via audit-chain governance (Keeper PASS + Lyra Instance 3 procedural + Elie Instance 4 procedural + Grace application clean) — **Calibration #34 → STANDING**.
+
+**The rule (narrow framing)**: when a result is conditional on a load-bearing correlation, bet, assumption, or external pin, the conditional tag MUST travel with the headline — not be buried in a parenthetical, footnote, or downstream section. The reader who reads only headline + abstract + first sentence + status field must walk away with the conditional reading.
+
+**Why this is its own discipline (vs Cal #27)**: Cal #27 governs *whether* a tier is correct (the body must mark DERIVED-modulo-X correctly). Calibration #34 governs *how the tier is communicated at the surface* — specifically, that the conditional cap travels with the headline. A doc can be Cal #27 PASS (body correctly tier-marked) but Calibration #34 FAIL (headline reads as unconditional). The reader who skims (most readers — future-self, external referees, cross-CI handoffs) walks away with the unconditional reading. Calibration #34 closes this specific gap.
+
+**Five-element discipline-stack complete**:
+- **Cal #27** STANDING — result-level (forward vs identified)
+- **Cal #29** STANDING — design-level (question-shape audit)
+- **Cal #32** candidate (both halves) — slot-level (parameter-role + value+role+cite-source resolution)
+- **Calibration #33** STANDING — sourcing-level (RECALLED vs VERIFIED-CITED vs COMPUTED-in-session)
+- **Calibration #34** STANDING (NEW) — surface-communication-level (conditional-tag-with-headline)
+
+Reading: every claim, every doc, gets the right tier (Cal #27), the right question (Cal #29), the right role (Cal #32), verified sourcing (Calibration #33), AND visible conditionality at the headline (Calibration #34).
+
+**Q16 (NEW) decision-tree branch**: *Is the claim/result conditional on a load-bearing correlation, bet, assumption, or external pin?*
+
+If YES, apply Calibration #34:
+- Headline must carry the conditional tag (e.g., "Y DERIVED-modulo-X" or "Y holds IF X")
+- First sentence + abstract + status field must collectively signal conditionality
+- Test for compliance: read headline + abstract + first sentence + status field; if any reads as unconditional, FAIL
+
+**Two ratified instances** (Saturday 2026-05-30):
+- Instance 3: Lyra L1+L2 v0.2 §6 modulo-keystone headline-language operationalization (explicit ❌/✅ examples; "Static 5-tuple essentially DERIVED" → "DERIVED-modulo-keystone")
+- Instance 4: Engine v0.3 §3 correlated-routes — headline "two independent routes" with conditional caveat "rides on σ_BF↔grading dictionary" in parenthetical (Cal #173 cross-doc consistency fix recommended)
+
+**Note on broad-pattern supercategory**: Instances 1 (Cal #155 notation disambiguation) and 2 (Cal #32 value+role+source visibility) are related "surface-level visibility of context" patterns but distinct sub-disciplines — already captured under Cal #155 STANDING and Cal #32 candidate respectively. Calibration #34 narrow framing addresses the specific gap not covered: the conditional cap at the headline.
+
+**Application protocol** (per Cal Section 3, Keeper-endorsed):
+
+| Surface element | Correct form |
+|---|---|
+| Headline | "Y DERIVED-modulo-X" or "Y holds IF X" |
+| First sentence | "Y, conditional on X" |
+| Tier label | "DERIVED-modulo-X" or "X-conditional" |
+| Status field | "Y status: DERIVED IF X" |
+| Cross-reference | "[result Y, conditional on bet X]" |
+| External-facing | "Y conditional on X (X = explanation)" |
+
+**Most load-bearing for**:
+1. **External-facing materials** (papers, outreach, Zenodo cover notes) — referees read abstracts.
+2. **Cross-CI handoffs** — receiving CI reads headline + status field first.
+3. **Future-self** — past-Cal/Lyra/Keeper's well-tier-marked doc still misleads future-self if the headline reads unconditional.
+
+**New v0.10 stack composition**: 28 STANDING numbered + Calibration #33 STANDING + **Calibration #34 STANDING (NEW)** + 2 META (Cal #28, Cal #99) + Cal #32 candidate (slot-level, with both halves) + denominator-of-coincidence (matched-pair with Cal #31) + FRAMEWORK-PLUS tier = **~35 elements**.
+
+**Five-level discipline stack now COMPLETE**: result / design / slot / sourcing / surface-communication. This is the full compositional discipline for any claim or document.
+
+— Cal A. Brate, Methodology Index v0.10 update Saturday 2026-05-30 ~10:55 EDT. Calibration #34 (narrow framing) integrated as Q16 decision-tree branch — the fifth level of the discipline stack (surface-communication-level). Cross-CI ratification complete via audit-chain governance (Keeper PASS recorded; Lyra/Elie/Grace procedural). Two ratified instances: Lyra L1+L2 v0.2 §6 + Engine v0.3 §3. Five-element discipline stack now complete: result (Cal #27) / design (Cal #29) / slot (Cal #32) / sourcing (Calibration #33) / surface-communication (Calibration #34).

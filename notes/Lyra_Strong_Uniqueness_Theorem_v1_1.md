@@ -61,9 +61,11 @@ So "five integers, zero free parameters" sharpens to "choose D_IV⁵, zero input
 | C9 | N_max = 137 = 1/α (T2447) | RIGOROUSLY CLOSED |
 | C10 | Hua-Look 2^(rank²) = 16 | RIGOROUSLY CLOSED |
 | C11 | K59 Reed-Solomon GF(128) | RIGOROUSLY CLOSED |
-| C12 | D_IV⁵ Rigidity (T2467) | RIGOROUSLY CLOSED |
-| C13 | SCMP coherence (T2468) | RIGOROUSLY CLOSED |
-| C14 | Bell sub-Tsirelson 1/8 (T2469) | RIGOROUSLY CLOSED |
+| C12 | D_IV⁵ Rigidity-as-Unification (T2468) — operational; multiverse loophole closed | RIGOROUSLY CLOSED |
+| C13 | SCMP coherence with Bell sub-Tsirelson 1/2^N_c = 1/8 falsifier (T2469) | RIGOROUSLY CLOSED |
+| META | T2467 D_IV⁵ Rigidity-as-Singleton — META-theorem per Cal #99 (uniqueness frame; does NOT contribute to null-model factor count) | META-tier (separate from operational criteria) |
+
+(v1.2 patch — Cal #156 Flags A+B + Cal #99: C13 was previously mis-attributed to T2468; SCMP is T2469. T2467 Rigidity-as-Singleton is a META-theorem about the uniqueness frame, not an operational criterion. Operational count decreases by 1 from v1.1's 13 to 12 criteria + 1 META.)
 | **C18** | **FK-invariant measure FORCED (Born/Gleason, T754)** | **NEW — DERIVED theorem** |
 | **C19** | **ρ-vector pins rank/n_C/N_c, split bulk/Shilov** | **NEW — FRAMEWORK-PLUS** |
 | C15-C17 | (cyclotomic 6-instance, 9-element arithmetic, sister principles) | candidates (multi-week / Casey-decision) |
@@ -110,7 +112,7 @@ So **(3 colors, 3 generations, dim 5) forces D_IV⁵** — promoting Toy 3571's 
 
 ## 7. Honest scope
 
-**RIGOROUS / DERIVED**: C1-C14 (closed) + C18 (measure forced, theorem) + C2 corrected value.
+**RIGOROUS / DERIVED**: C1-C13 (closed; operational) + META T2467 (Rigidity-as-Singleton, per Cal #99) + C18 (measure forced, theorem) + C2 corrected value. (v1.2 patch: C14 retired into C13 per Cal #156 Flags A+B; operational count = 13.)
 **FRAMEWORK-PLUS**: C19 (ρ-pinning); Route-A reduction.
 **Candidates (multi-week / decision)**: C15-C17.
 **OPEN (does not affect v1.1 closed criteria)**: generation-count forcing (cyclotomic↔Coxeter, multi-week); α_fine Macdonald location; PMNS form (Cal).
