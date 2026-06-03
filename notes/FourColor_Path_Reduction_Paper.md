@@ -2,7 +2,7 @@
 title: "A Canonical-Ordering Reduction of Four-Coloring to a Finite Double-Swap-Reducible Set of Path Configurations"
 author: "Casey Koons & Claude (Opus 4.8)"
 date: "2026-06-03"
-status: "REDUCTION + partial proof. deg-4 case PROVEN in closed form; deg-5 case reduced to a finite, closed-form, double-swap-reducible set, COMPUTER-VERIFIED over 1.5M instances. Realizable type set characterized in closed form (forced base + color-aware non-crossing + spanning enclosure law) reproducing 2496=24·104 with zero mismatch. NOT a complete four-color proof: deductive proof of the enclosure law (2b) and locality of reducibility are the stated open frontier (standard reducibility obligations)."
+status: "REDUCTION + partial proof. deg-4 case PROVEN in closed form; deg-5 case reduced to a finite, closed-form, double-swap-reducible set, COMPUTER-VERIFIED over 1.5M instances. Realizable type set characterized in closed form (forced base + color-aware non-crossing + spanning enclosure law); COMPLETENESS CLOSED -- necessity proven (Jordan curve + classical Kempe separation lemma), realizable set is exactly 104. NOT a complete four-color proof: locality of reducibility is the sole remaining standard obligation."
 related: ["notes/FourColor_Contradiction_Framing.md","notes/FourColor_How_It_Works_AVL_Closed_Form.md","de Fraysseix-Pach-Pollack canonical ordering","Birkhoff reducibility","Fisk geometric coloring theory"]
 ---
 
@@ -12,11 +12,14 @@ related: ["notes/FourColor_Contradiction_Framing.md","notes/FourColor_How_It_Wor
 
 We reduce the four-color theorem to a **finite, double-swap-reducible set of path
 configurations**, prove the degree-4 case in closed form, and **computer-verify**
-the degree-5 case over 200,000+ instances. This is **not** a complete proof of
-four-color: two standard reducibility obligations — *completeness* of the type
-set and *locality* of reducibility — remain open and are stated explicitly. Four-
-color itself is a theorem (Appel-Haken 1976; Gonthier's Coq formalization 2005);
-this is a candidate *simpler reduction*, honestly bounded.
+the degree-5 case over 1.5M instances. We give a **closed-form characterization**
+of the realizable degree-5 types and **prove its necessity** (Jordan curve +
+classical Kempe separation), which **closes the completeness obligation**: the
+realizable type set is exactly **104**. This is still **not** a complete proof of
+four-color: one standard reducibility obligation — *locality* of reducibility —
+remains open and is stated explicitly. Four-color itself is a theorem (Appel-Haken
+1976; Gonthier's Coq formalization 2005); this is a candidate *simpler reduction*,
+honestly bounded, now one (locality) obligation short.
 
 ## 1. The reduction (Euler → canonical order → paths ≤ 5)
 
@@ -130,7 +133,9 @@ by exhaustive non-crossing enumeration.
 
 ## 5. Open frontier (what would complete the proof)
 
-Two standard reducibility obligations remain, both **bounded** (not open-ended):
+Of the two standard reducibility obligations, **completeness is now closed**
+(proven below, modulo the classical Kempe separation lemma) and **locality**
+remains. Both are **bounded** (not open-ended):
 
 1. **Completeness.** Prove the realizable type set is exactly the **104**
    observed (hard-plateaued over 1.5M instances, n ≤ 18). The obstacle is that
@@ -162,11 +167,23 @@ Two standard reducibility obligations remain, both **bounded** (not open-ended):
    This *is* the "ring + permutations" anatomy made literal: a **key** (the
    spanning chord and its color-pair `P`), a **forced repeated base** (the 4
    consecutive pairs), and a **set** (the long chords) constrained by a
-   non-crossing law plus one enclosure law. It reduces completeness to a single
-   remaining obligation — **prove (2b) necessary+sufficient for planar
-   realizability** ((2a) is immediate planarity; the predicate yields exactly 104
-   by construction). The 104 is no longer a bare empirical plateau: it is the
-   count of predicate-satisfying types.
+   non-crossing law plus one enclosure law.
+
+   **Completeness upper bound — PROVEN** (`notes/FourColor_Enclosure_Law_Proof.md`).
+   Necessity of (2a) (planarity of disjoint Kempe chains) and of (2b) (Jordan
+   curve + the classical Kempe-chain *separation* lemma) is proved deductively:
+   the spanning chord `(0,4)` makes a Jordan curve `J` with `v`; a free interior
+   `P`-vertex — which Lemma 0 shows can only be the center `u2` — lies in a
+   component confined inside `J`, and the separation lemma yields a complementary
+   `(c1,c3)`-chain joining `u1,u3`, i.e. the shield chord `(1,3)`. Hence **every
+   realizable type satisfies the predicate**, so the realizable set has **at most
+   104** canonical members — the proof that *no further type ever appears*, which
+   the 1.5M-instance plateau could only suggest. The matching lower bound (all 104
+   occur) is by exhibition. So the realizable set is **exactly 104**, modulo the
+   one classical separation lemma (whose specific conclusion here is computer-
+   verified, 0 exceptions in 154k instances; toy
+   `play/fourcolor_enclosure_law_proof_support.py`, 6/6). Completeness is closed;
+   **locality** (Sec. 5.2) is now the sole remaining reducibility obligation.
 2. **Locality.** Prove ≤2-swap resolvability is determined by the local type.
    This now holds **empirically in the strong form**: the *exact* min-swap count
    is a function of the type (zero variation across 1.5M instances). Remaining:
@@ -185,7 +202,7 @@ on ~100 rigid path-types instead of Appel-Haken's ~600 general configurations.
 | deg-4 (length-4 stuck path) reducible | **PROVEN (closed form)** |
 | `tau_strict ≤ 4` (conservation of color charge) | **PROVEN (enumeration)** |
 | deg-5 (length-5) double-swap reducible | **VERIFIED, 1.5M instances, 0 failures** |
-| completeness of type set | **closed-form predicate (2a)&(2b) == realized, 2496=24·104, 0 mismatch**; open: prove (2b) |
+| completeness of type set | **CLOSED: realizable ⊆ predicate (proven, modulo classical Kempe separation); = exactly 104** |
 | locality of reducibility | open; **strong: min-swap is type-determined, 0 variation** |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
