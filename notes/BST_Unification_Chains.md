@@ -15,7 +15,7 @@ date: "March 2026"
 
 Two observations:
 
-1. GR (3D bulk) and QM (2D substrate) are the same thing at different dimensions
+1. GR (D_IV⁵ bulk) and QM (5D Shilov boundary ∂_S D_IV⁵ substrate) are the same thing at different levels of the Hardy decomposition [June 2026 dimension correction: see README historical-correction note — 2022 framing of substrate as "2D" was a dimension-count error; substrate is the 5D Shilov boundary]
 2. Communication between contacts uses an S¹ fiber with packing number 137
 
 From these two points, everything follows.

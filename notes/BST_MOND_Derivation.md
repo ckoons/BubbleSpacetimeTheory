@@ -87,7 +87,7 @@ Section 2 derives the interpolating function from the channel S/N statistics. Se
 
 ### 2.1 The Channel Model
 
-The BST substrate is $S^2 \times S^1$ --- circles tiling a sphere, communicating through phase. The $S^1$ fiber carries all gravitational and electromagnetic information between contact points on the substrate. This fiber has a finite capacity: the maximum number of non-overlapping circuits is 137, determined by the Bergman metric packing on the Shilov boundary $\check{S} = S^4 \times S^1$ of the configuration space $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$.
+The BST substrate is the 5-dimensional Shilov boundary $\partial_S D_{IV}^5 = (S^4 \times S^1)/\mathbb{Z}_2$ --- coherent-state cells tiling the boundary, communicating through the $S^1/\mathbb{Z}_2$ phase factor [June 2026 dimension correction: original 2022 framing "$S^2 \times S^1$ --- circles tiling a sphere" was a dimension-count error; substrate is the 5D Shilov boundary, see README historical-correction note]. The $S^1/\mathbb{Z}_2$ phase factor carries all gravitational and electromagnetic information between coherent-state contact points on the substrate. This phase has a finite capacity: the maximum number of non-overlapping circuits is 137, determined by the Bergman metric packing on the Shilov boundary of the configuration space $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$.
 
 At each spatial point, the channel carries two populations:
 

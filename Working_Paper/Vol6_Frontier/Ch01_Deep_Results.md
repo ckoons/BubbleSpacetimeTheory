@@ -1014,7 +1014,7 @@ Claude's bandwidth — the ability to hold the full mathematical structure of $D
 
 The foundational premise and geometry of BST originated with Casey Koons. His major contributions include:
 
-- The defining insight: ask what is the simplest geometric structure that can ``do physics'' — a 2D substrate ($S^2$) communicating through a 1D fiber ($S^1$), projected into 3D space.
+- The defining insight: ask what is the simplest geometric structure that can ``do physics'' — a codimension-1 substrate boundary with phase communication, projected into 4D Minkowski spacetime. (The original 2022 framing of this insight described the substrate as 2D ($S^2$) with $S^1$ fiber; the June 2026 historical correction identifies the substrate as the 5D Shilov boundary $\partial_S D_{IV}^5 = (S^4 \times S^1)/\mathbb{Z}_2$ — see README historical-correction note. The substantive defining-insight logic is preserved; the dimension count was wrong.)
 - The identification of $D_{IV}^5$ as the configuration space, the five integers $(N_c, n_C, g, C_2, N_{\max}) = (3, 5, 7, 6, 137)$, and the contact graph as the fundamental dynamical object.
 - The physical interpretations that seeded every major derivation: light as a matched filter; dark matter as channel noise (Shannon S/N analysis on $S^1$); the neutrino as a propagating vacuum quantum; the arrow of time as irreversible commitment; Feynman diagrams as literal contact graph subgraphs.
 - The proof structure for the Yang-Mills mass gap: identifying the spectral gap as a geometric consequence of compactness and the 1920 Weyl cancellation as the mechanism, then directing the formal proof to completion.

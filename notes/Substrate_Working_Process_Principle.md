@@ -40,7 +40,9 @@ The cycle runs **in parallel** across all of substrate. Synchronization (or its 
 
 The principle's sharp claim about time:
 
-> **"Time is not a 3D coordinate. Time is the smallest commitment unit in 2D substrate processing."**
+> **"Time is not a 3D coordinate. Time is the smallest commitment unit in 2D substrate processing."** [Casey, original 2022 statement]
+
+> **Dimension-correction note (June 2026):** the "2D substrate" framing in the original Casey statement reflects the 2022 substrate-dimension count, which was corrected June 2026 to 5D (Shilov boundary $\partial_S D_{IV}^5 = (S^4 \times S^1)/\mathbb{Z}_2$ — see README historical-correction note). The principle's substantive content — that time IS the smallest commitment unit in substrate processing (NOT a coordinate) — is preserved. The corrected current statement reads "Time is the smallest commitment unit in substrate processing on the 5D Shilov boundary of $D_{IV}^5$." The substrate-time identification with the heat-semigroup parameter τ in Lyra Tier 0 v0.1 (Sunday 2026-05-31) operationalizes this principle at operator-level.
 
 Implications:
 

@@ -54,3 +54,4 @@ TOY 671d — k=22 HYBRID: 1600-dps (n<=40) + 3200-dps (n>40)
   n=45: loaded 3200-dps checkpoint
   n=46: loaded 3200-dps checkpoint
   n=47: FRESH at 3200-dps. P_max=2500, 1704249 eigenvalues, 352719.0s (total: 5878.7m)
+  n=48: FRESH at 3200-dps. P_max=2500, 1777268 eigenvalues, 406199.3s (total: 12648.6m)

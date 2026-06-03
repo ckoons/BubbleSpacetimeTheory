@@ -1,9 +1,38 @@
 ---
-title: "Calibration #35 candidate — Independence-Taxonomy-Before-Multiplicative-Null-Model discipline: when invoking (1/3)^N or similar multiplicative null-model framings, the N criteria/routes MUST be audited for structural independence FIRST. Routes that are algebraically related, derived consequences, or share precision-propagation chains do NOT count as independent and cannot multiply. Sixth element of the discipline stack."
+title: "Calibration #35 STANDING — Independence-Taxonomy-Before-Multiplicative-Null-Model discipline: when invoking (1/3)^N or similar multiplicative null-model framings, the N criteria/routes MUST be audited for structural independence FIRST. Routes that are algebraically related, derived consequences, or share precision-propagation chains do NOT count as independent and cannot multiply. Sixth element of the discipline stack."
 author: "Cal A. Brate (Claude Opus 4.7) — referee infrastructure"
-date: "2026-05-30 Saturday ~12:05 EDT — `date`-verified earlier today"
-status: "CANDIDATE — 4-instance threshold met this week (Cal #171 Grace Two-Route Scan route-counting brake + Cal #180 §3 Lyra T2003 precision-propagation brake + Lyra v1.1 §6.1 internal correction + Lyra v1.3 retraction triggered by Keeper audit-chain hold). Filing for cross-CI cold-read PASS via audit-chain governance auto-promotion."
-purpose: "Capture the recurring methodology pattern around (1/3)^N null-model coincidence-inflation. The pattern has fired four times this week — three Cal/Lyra catches + one team-level audit-chain hold. Documenting the rule, the four instances, and the application protocol for future use."
+date: "2026-05-30 Saturday filed as candidate ~12:05 EDT; 2026-06-01 Monday STANDING ratification recorded ~11:15 EDT — both `date`-verified"
+status: "**STANDING** — promoted from candidate to STANDING via Casey approval signal Monday 2026-06-01. Six-element discipline stack closes: Cal #27 + Cal #29 + Cal #32 candidate + Calibration #33 STANDING + Calibration #34 STANDING + **Calibration #35 STANDING (NEW)**. Methodology Index v0.11 Q17 integrates. Ratification basis: 7 firings of operational evidence (Sat 4 + Sun 1 + Mon 2 from matrix-element framework work); Keeper PASS Sunday afternoon; Lyra Lane E §7 self-application Monday morning; Cal #182 + Cal #184 brake-application precedents; Casey directive citing #35 in 'shortest route' strategy decision."
+purpose: "Capture the recurring methodology pattern around (1/3)^N null-model coincidence-inflation. The pattern has now fired SEVEN times in 4 days (Sat→Mon), spanning Cal/Lyra/Keeper/Elie-on-self-via-Cal/Lyra-on-self/Casey-strategy-decision. Documenting the rule, the seven firings, and the application protocol for STANDING use."
+---
+
+## RATIFICATION RECORD (Monday 2026-06-01 ~11:15 EDT)
+
+**Casey explicit signal**: "CAL — Calibration #35 STANDING RATIFICATION APPROVED. Formally promote Calibration #35 (Independence-Taxonomy-Before-Multiplicative-Null-Model) from candidate to STANDING. Integrate as Methodology Index v0.11 Q17. Six-element discipline stack closes: Cal #27 + #29 + #32 + Calibration #33 + #34 + #35 STANDING. The 7 firings of operational evidence (Sat 4 + Sun 1 + Mon 2 from the matrix-element framework work) are the ratification basis."
+
+**Audit-chain cross-CI consensus**:
+- Cal candidate filing — Saturday 2026-05-30 ~12:05 EDT (Cal #181)
+- Keeper PASS signal — Sunday 2026-05-31 afternoon ("Saturday 4 firings + working as designed = ratification criteria met")
+- Lyra procedural alignment — Sunday Lane E v0.2 §7 (self-application of Calibration #35 candidate, exemplary discipline maturity)
+- Grace + Elie procedural alignment — application across catalog and Step 5 framing
+- Casey explicit approval — Monday 2026-06-01 ~11:15 EDT
+
+**Seven firings of operational evidence**:
+
+| # | Instance | Date | Caught by | Disposition |
+|---|---|---|---|---|
+| 1 | Cal #171 brake on Grace Two-Route Scan "4-route over-determination of 12" | Sat AM | Cal | Reduced to ~2 structurally-independent routes under C_2=N_c·rank, n_C=rank+N_c |
+| 2 | Cal #180 §3 brake on Lyra T2003 "strong cross-validation" | Sat PM | Cal | Reframed as precision-propagation NOT independent test |
+| 3 | Lyra v1.1 §6.1 internal correction on multiplicative null-model | Sat AM | Lyra (self) | "More criteria → smaller null model is coincidence-inflation error" |
+| 4 | Lyra v1.3 retraction (Keeper audit-chain hold) | Sat PM | Keeper | C20-C24 → CANDIDATE; null-model returned to single-residual framing |
+| 5 | Keeper m_W/m_Z "new anchor" walk-back via Cal cross-check | Sun PM | Cal + Keeper-on-self | "EW Sector Boundary-Localization Anchor" reframed to "V_(1,1) Adjoint Decomposition Mechanism for Existing P1 §7 Weinberg Prediction" |
+| 6 | Cal pre-stage observation on ΔC_2 = rank framing (B_n general check) | Mon AM | Cal + Keeper K206 G3 | "ΔC_2 = 2 at rank-2 substrate, numerically equal to rank but NOT B_n general identity" |
+| 7 | Cal refinement on factor 4 = 2×2 "two independent mechanisms" framing | Mon AM | Cal + Keeper K206 G4 | "Two B_2-algebra-forced factors from distinct rep-theoretic mechanism types, NOT algebraically independent confirmations" |
+
+All seven absorbed in-place via the K200 cascade-discipline pattern. The audit-chain governance is producing the discipline as designed.
+
+**Calibration #35 promoted to STANDING; integrated as Methodology Index v0.11 Q17; six-element discipline stack closes.**
+
 ---
 
 # Calibration #35 candidate — Independence-Taxonomy-Before-Multiplicative-Null-Model discipline

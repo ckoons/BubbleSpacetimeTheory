@@ -67,9 +67,11 @@ $$S^1 \;\longrightarrow\; S^2 \text{ (tiled by } S^1\text{)}$$
 
 **Why not a different channel?** Any additional degree of freedom beyond $S^1$ phase would add dimensions that carry no new information. The phase on $S^1$ is the unique degree of freedom intrinsic to the tiling objects (circles). No external channel is needed because the circles ARE the channel.
 
-**Forced conclusion:** The substrate is $S^2 \times S^1$ — circles tiling a sphere, communicating through phase.
+**Forced conclusion:** The substrate is the 5-dimensional Shilov boundary $\partial_S D_{IV}^5 = (S^4 \times S^1)/\mathbb{Z}_2$ — coherent-state cells tiling the boundary, communicating through the $S^1/\mathbb{Z}_2$ phase factor.
 
-$$S^2 \;\longrightarrow\; S^2 \times S^1$$
+$$\text{boundary } \partial_S D_{IV}^5 = (S^4 \times S^1)/\mathbb{Z}_2$$
+
+> **Dimension-correction note (June 2026):** the original 2022 framing in this section described the substrate as $S^2 \times S^1$ ("circles tiling a 2-sphere"). This was a dimension-count error. The substantive forced-conclusion logic — that the substrate is a codimension-1 boundary structure with phase communication — was correct from the start; the dimension count was wrong. The substrate is properly the 5D Shilov boundary of $D_{IV}^5$, not a 2-sphere with $S^1$ fiber. See README historical-correction note + Tier 0 v0.1.5 Topology Addendum (Sunday 2026-05-31, Lyra) for full discussion.
 
 -----
 

@@ -31,7 +31,9 @@ Douglas Adams published the Answer in 1979. Hirzebruch had the formula in 1966. 
 
 ## What Is This?
 
-Bubble Spacetime Theory (BST) is a pre-geometric framework proposing that spacetime, quantum mechanics, and the Standard Model emerge from the contact topology of a two-dimensional substrate — circles tiling a sphere, communicating through phase. The configuration space of causal windings on this substrate is the bounded symmetric domain D(IV,5) = SO₀(5,2)/[SO(5)×SO(2)].
+Bubble Spacetime Theory (BST) is a pre-geometric framework proposing that spacetime, quantum mechanics, and the Standard Model emerge from the contact topology of a 5-dimensional substrate — the Shilov boundary ∂_S D_IV⁵ = (S⁴ × S¹)/Z₂ — where coherent-state cells communicate through phase. The bulk of the bounded symmetric domain D(IV,5) = SO₀(5,2)/[SO(5)×SO(2)] is the holomorphic extension of substrate boundary data via the Hardy decomposition H²(D_IV⁵) ≅ H²(∂_S D_IV⁵) (Wallach 1976; Faraut-Korányi 1994 Ch. XII-XIII).
+
+> **Honest historical correction (June 2026):** the original 2022 OneGeometry framing described the substrate as 2-dimensional ("circles tiling a sphere"). This was a dimension-count error. The substantive structural claim — that the substrate is a codimension-1 boundary with phase communication, and that the bounded symmetric domain D(IV,5) is the configuration-space holomorphic extension of substrate dynamics — was correct from the start; the dimension count was wrong. The substrate is the 5-dimensional Shilov boundary ∂_S D_IV⁵, not a 2-sphere. The original "circles tiling a sphere" intuition operationalizes as coherent-state localization on the Shilov boundary; phase communication operationalizes as the S¹/Z₂ phase factor of the boundary structure. (See Sunday 2026-05-31 Tier 0 v0.1.5 Topology Addendum: Reading A + dual K-type / coherent-state bases via Bergman kernel.)
 
 ### BST's evolving operational reading (May 19-20, 2026, working hypothesis)
 

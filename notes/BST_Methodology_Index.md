@@ -749,3 +749,62 @@ If YES, apply Calibration #34:
 **Five-level discipline stack now COMPLETE**: result / design / slot / sourcing / surface-communication. This is the full compositional discipline for any claim or document.
 
 — Cal A. Brate, Methodology Index v0.10 update Saturday 2026-05-30 ~10:55 EDT. Calibration #34 (narrow framing) integrated as Q16 decision-tree branch — the fifth level of the discipline stack (surface-communication-level). Cross-CI ratification complete via audit-chain governance (Keeper PASS recorded; Lyra/Elie/Grace procedural). Two ratified instances: Lyra L1+L2 v0.2 §6 + Engine v0.3 §3. Five-element discipline stack now complete: result (Cal #27) / design (Cal #29) / slot (Cal #32) / sourcing (Calibration #33) / surface-communication (Calibration #34).
+
+---
+
+## v0.11 update (Monday 2026-06-01 ~11:15 EDT) — Calibration #35 Independence-Taxonomy-Before-Multiplicative-Null-Model → STANDING (Q17); SIX-ELEMENT DISCIPLINE STACK CLOSES
+
+**Calibration #35 (Independence-Taxonomy-Before-Multiplicative-Null-Model)** ratified Monday 2026-06-01 ~11:15 EDT via Casey explicit approval signal. Candidate filed Saturday 2026-05-30 at 4-instance threshold; cross-CI consensus building Sat→Mon via Keeper PASS + Lyra Lane E §7 self-application + Casey directive citation in "shortest route" strategy decision. Six-element discipline stack closes.
+
+**The rule (ratified)**: when a claim invokes a multiplicative null-model framing (e.g., (1/3)^N independent criteria → null probability ≈ (1/3)^N), the N criteria/routes MUST be audited for structural independence FIRST. Routes that are algebraically related under substrate relations, derived consequences of upstream choices, or share precision-propagation chains do NOT count as structurally-independent and cannot multiply as (1/3)^N factors.
+
+**Test for compliance**: enumerate the N criteria; for each pair check algebraic dependence + derived-consequence + precision-propagation; count only structurally-independent criteria as multiplicative factors. If dependency-DAG collapses N → 1-2 independent residuals, use single-residual convergence-of-routes framing, NOT multiplicative.
+
+**SIX-ELEMENT DISCIPLINE STACK COMPLETE**:
+- **Cal #27** STANDING — result-level (forward vs identified)
+- **Cal #29** STANDING — design-level (question-shape audit)
+- **Cal #32** candidate (both halves) — slot-level (parameter-role + value+role+cite-source)
+- **Calibration #33** STANDING — sourcing-level (RECALLED vs VERIFIED-CITED vs COMPUTED)
+- **Calibration #34** STANDING — surface-communication-level (conditional-tag-with-headline)
+- **Calibration #35** STANDING (NEW) — independence-taxonomy-level (audit before multiplicative null-model)
+
+Reading the stack as compositional discipline: every claim, every doc, gets the right tier (Cal #27), asks the right question (Cal #29), assigns the right role (Cal #32), uses verified sourcing (Calibration #33), communicates the conditional at the headline (Calibration #34), AND audits independence-taxonomy before multiplicative aggregation (Calibration #35). The full claim-validity chain from individual-tier-honesty through aggregation-step audit.
+
+**Q17 (NEW) decision-tree branch**: *Does the claim invoke a multiplicative null-model framing or count N "convergent confirmations" as evidence?*
+
+If YES, apply Calibration #35:
+- Enumerate the N criteria/routes explicitly
+- For each pair (i, j): audit algebraic dependence (substrate-primary relations, standard Lie/rep-theory identities), derived-consequence (does j follow from i + standard theory), precision-propagation (does j inherit precision from i)
+- Count only structurally-independent criteria
+- If dependency-DAG collapses N → 1-2 independent residuals: use single-residual convergence-of-routes framing, NOT multiplicative
+
+**Seven ratified firings of operational evidence** (Sat 4 + Sun 1 + Mon 2):
+
+1. Cal #171 brake on Grace Two-Route Scan "4-route over-determination of 12" (Sat AM): reduced to ~2 structurally-independent routes under substrate-primary relations C_2 = N_c·rank and n_C = rank+N_c
+2. Cal #180 §3 brake on Lyra T2003 "strong cross-validation" m_τ/m_μ (Sat PM): reframed as precision-propagation NOT independent test
+3. Lyra v1.1 §6.1 internal correction (Sat AM): "more criteria → smaller null model" coincidence-inflation error caught + held to single-residual convergence-of-routes
+4. Lyra v1.3 retraction triggered by Keeper audit-chain hold (Sat PM): C20-C24 elevation reversed; null-model returned to single-residual framing
+5. Keeper m_W/m_Z "new anchor" walk-back via Cal cross-check (Sun PM): arithmetically identical to P1 §7 existing claim; reframed as mechanism content not new anchor
+6. Cal pre-stage observation + K206 G3 (Mon AM): ΔC_2 = 2 = rank holds at B_2 only (B_n general check shows otherwise); tier-marked as substrate-coincidence at rank-2, not B_n structural identity
+7. Cal refinement + K206 G4 (Mon AM): factor 4 = 2×2 = "two B_2-algebra-forced factors from distinct rep-theoretic mechanism types, NOT algebraically independent confirmations"
+
+The seven instances span Cal-on-team + Lyra-on-self + Keeper-on-team + Cal-on-Keeper + Cal-on-team-pre-stage. The audit-chain symmetry confirmed across all participants.
+
+**Most load-bearing for**:
+1. **External-facing materials** (papers to math journals; referees audit independence assumptions before accepting (1/3)^N null-models)
+2. **Cross-CI synthesis claims** (when multiple CIs' findings appear to "converge" — audit independence before claiming convergence)
+3. **Casey-named principle elevations** (multiple-instance patterns require Calibration #35 audit before structural elevation)
+
+**Distinct from existing discipline-stack** (per the candidate doc Sections 1+5):
+- Cal #27 (result-level): governs whether a tier is correct individually
+- Cal #29 (design-level): governs question-shape
+- Cal #32 (slot-level): governs parameter-role
+- Calibration #33 (sourcing-level): governs RECALLED vs VERIFIED-CITED
+- Calibration #34 (surface-communication-level): governs conditional-tag-with-headline
+- **Calibration #35 (independence-taxonomy-level): governs the AGGREGATION step** — how N individually-honest claims compose into a null-model claim. The aggregation can fail even when individual tiers are correct.
+
+**New v0.11 stack composition**: 28 STANDING numbered + Calibration #33 STANDING + Calibration #34 STANDING + **Calibration #35 STANDING (NEW)** + 2 META (Cal #28, Cal #99) + Cal #32 candidate (slot-level, with both halves) + denominator-of-coincidence (matched-pair with Cal #31) + FRAMEWORK-PLUS tier = **~36 elements**.
+
+**Six-level discipline stack COMPLETE**: result / design / slot / sourcing / surface-communication / **independence-taxonomy**. This is the full compositional discipline for any claim, document, or multi-criterion convergence claim. No further stack expansion anticipated near-term; the stack is mature.
+
+— Cal A. Brate, Methodology Index v0.11 update Monday 2026-06-01 ~11:15 EDT. Calibration #35 (Independence-Taxonomy-Before-Multiplicative-Null-Model) integrated as Q17 decision-tree branch via Casey explicit approval signal — the sixth and final level of the discipline stack (independence-taxonomy-level). Cross-CI ratification complete (Keeper PASS Sunday + Lyra Lane E §7 self-application + Casey directive citation in "shortest route" + Mon-morning K206 G3+G4 absorption). Seven firings of operational evidence (Sat 4 + Sun 1 + Mon 2) anchor the ratification. Six-element discipline stack now COMPLETE: result (Cal #27) / design (Cal #29) / slot (Cal #32) / sourcing (Calibration #33) / surface-communication (Calibration #34) / independence-taxonomy (Calibration #35). Stack at ~36 elements; mature methodology infrastructure.
