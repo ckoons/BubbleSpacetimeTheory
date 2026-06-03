@@ -90,6 +90,27 @@ symmetry exactly, and each chain-system count is a finite non-crossing
 enumeration on 5 collinear points — i.e. the reducible set members are expressible
 in closed form.
 
+**The "104" is a group quotient (ring + permutations).** Drop the color
+canonicalization and count *raw* types (the 5-tuple of colors on the path plus
+the boundary co-chaining): there are **2,496**. This set is **closed under the
+group**
+
+`  G = S_4 (relabel the 4 colors)  x  Z_2 (reflect the path),   |G| = 48,`
+
+and the closure is **forced, not coincidental**: relabeling colors is a bijection
+on proper colorings of the *same* graph, and path-reflection is induced by an
+orientation-reversing homeomorphism of the disk — so realizability is manifestly
+`G`-invariant. The color group `S_4` acts **freely** (`2496 = 24 * 104`), which is
+exactly why the canonical count is `104 = |raw| / |S_4|`. Adding reflection
+collapses the 104 into **58 orbits = 46 reflection-pairs (size-48 orbits) +
+12 reflection-fixed types (size-24 orbits)**, i.e. `2*46 + 12 = 104` — matching the
+6-geometry table above (the two reflection-self geometries `{0,4}` and `{1,3}`
+supply the fixed types; the two reflection-pair geometries supply the pairs). The
+colors live in `F_4 = Z_2 x Z_2` and the operative symmetries are `S_4 x Z_2`:
+this *is* Casey's "ring and a set of permutations." It reduces the completeness
+obligation from 104 types to **58 orbit representatives**, with `G` generating the
+rest. (Toy: `play/fourcolor_path_orbit_structure.py`, 6/6.)
+
 **Locality.** That reducibility is a function of the type (the ring-coloring plus
 ring Kempe-connectivity) is precisely the **standard reducibility-locality
 property** (Birkhoff): a configuration's reducibility depends only on its ring
@@ -120,7 +141,15 @@ Two standard reducibility obligations remain, both **bounded** (not open-ended):
    1760 → 104 (constraints beyond complementary-non-crossing, e.g. on
    same-color/bridge chains). This is the genuine hard core of completeness; the
    104 figure is firm empirically but not yet derived from a realizability
-   characterization.
+   characterization. **Group reduction (this work).** The realizable raw set is
+   a forced union of `G = S_4 x Z_2`-orbits (Sec. 3), so completeness need only
+   be established on **58 orbit representatives**, not 104 types — the colors
+   (`F_4`) and the symmetries (`S_4 x Z_2`) generate the rest. The remaining
+   content is a realizability characterization for *one representative per
+   orbit*, which is the right granularity: realizability is itself `G`-invariant,
+   so the characterization cannot depend on the color labeling or path
+   orientation, only on the bridge/co-chaining incidence — a 58-case, finite,
+   purely combinatorial obligation.
 2. **Locality.** Prove ≤2-swap resolvability is determined by the local type.
    This now holds **empirically in the strong form**: the *exact* min-swap count
    is a function of the type (zero variation across 1.5M instances). Remaining:
@@ -139,7 +168,7 @@ on ~100 rigid path-types instead of Appel-Haken's ~600 general configurations.
 | deg-4 (length-4 stuck path) reducible | **PROVEN (closed form)** |
 | `tau_strict ≤ 4` (conservation of color charge) | **PROVEN (enumeration)** |
 | deg-5 (length-5) double-swap reducible | **VERIFIED, 1.5M instances, 0 failures** |
-| completeness of type set | open; **104 types, hard-plateaued over 1.5M** |
+| completeness of type set | open; **104 = \|raw\|/\|S_4\|; reduces to 58 G-orbit reps** |
 | locality of reducibility | open; **strong: min-swap is type-determined, 0 variation** |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
