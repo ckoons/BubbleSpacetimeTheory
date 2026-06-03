@@ -112,11 +112,15 @@ by exhaustive non-crossing enumeration.
 Two standard reducibility obligations remain, both **bounded** (not open-ended):
 
 1. **Completeness.** Prove the realizable type set is exactly the **104**
-   observed. The count is hard-plateaued at 104 over 1.5M instances (n ≤ 18,
-   stable from the first checkpoint), and is bounded (chain-systems on 5 points
-   are Catalan-bounded). Remaining: a realizability bound showing no larger disk
-   adds a 105th type (e.g., enumerate abstract types restricted to realizable
-   and show the realizable subset is exactly these 104).
+   observed (hard-plateaued over 1.5M instances, n ≤ 18). The obstacle is that
+   **planar realizability is strong**: the abstract non-crossing model admits
+   **1,760** signatures (≈320 + 288×5), of which only **104 (≈6%) are
+   realizable.** So completeness is *not* "check all abstract types" — it
+   requires **characterizing the planar-realizability constraints** that cut
+   1760 → 104 (constraints beyond complementary-non-crossing, e.g. on
+   same-color/bridge chains). This is the genuine hard core of completeness; the
+   104 figure is firm empirically but not yet derived from a realizability
+   characterization.
 2. **Locality.** Prove ≤2-swap resolvability is determined by the local type.
    This now holds **empirically in the strong form**: the *exact* min-swap count
    is a function of the type (zero variation across 1.5M instances). Remaining:
