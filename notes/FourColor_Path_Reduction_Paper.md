@@ -74,6 +74,29 @@ hull degree-5 (path-link) vertices:
 So the degree-5 path case is double-swap reducible across everything tested, and
 reducibility is a local invariant of the (closed-form) type.
 
+**Closed-form breakdown of the 104 types.** They organize by the 6 non-adjacent
+repeat-positions of the doubled color on the 5-path, each carrying a fixed number
+of realizable (non-crossing) chain-systems:
+
+| repeat positions | geometry | # chain-systems |
+|---|---|---|
+| {0,4} | endpoints (reflection-self) | 20 |
+| {1,3} | centered (reflection-self) | 18 |
+| {0,3} ≅ {1,4} | reflection pair | 18 each |
+| {0,2} ≅ {2,4} | reflection pair | 15 each |
+
+Total `20 + 18 + 18 + 18 + 15 + 15 = 104`. The counts respect path-reflection
+symmetry exactly, and each chain-system count is a finite non-crossing
+enumeration on 5 collinear points — i.e. the reducible set members are expressible
+in closed form.
+
+**Locality.** That reducibility is a function of the type (the ring-coloring plus
+ring Kempe-connectivity) is precisely the **standard reducibility-locality
+property** (Birkhoff): a configuration's reducibility depends only on its ring
+data. Our type *is* that ring data, and the empirical zero-variation across 1.5M
+instances confirms it. Formalizing this for the double-swap/path setting is the
+remaining locality obligation.
+
 ## 4. The conserved quantity ("conservation of color charge")
 
 The Kempe classes of a planar triangulation's 4-colorings are separated by a
