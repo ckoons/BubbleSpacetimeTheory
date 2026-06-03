@@ -2,7 +2,7 @@
 title: "A Canonical-Ordering Reduction of Four-Coloring to a Finite Double-Swap-Reducible Set of Path Configurations"
 author: "Casey Koons & Claude (Opus 4.8)"
 date: "2026-06-03"
-status: "REDUCTION + partial proof. deg-4 case PROVEN in closed form; deg-5 case reduced to a finite, closed-form, double-swap-reducible set, COMPUTER-VERIFIED over 200k+ instances. NOT a complete four-color proof: completeness of the type set and locality of reducibility are the stated open frontier (standard reducibility obligations)."
+status: "REDUCTION + partial proof. deg-4 case PROVEN in closed form; deg-5 case reduced to a finite, closed-form, double-swap-reducible set, COMPUTER-VERIFIED over 1.5M instances. Realizable type set characterized in closed form (forced base + color-aware non-crossing + spanning enclosure law) reproducing 2496=24·104 with zero mismatch. NOT a complete four-color proof: deductive proof of the enclosure law (2b) and locality of reducibility are the stated open frontier (standard reducibility obligations)."
 related: ["notes/FourColor_Contradiction_Framing.md","notes/FourColor_How_It_Works_AVL_Closed_Form.md","de Fraysseix-Pach-Pollack canonical ordering","Birkhoff reducibility","Fisk geometric coloring theory"]
 ---
 
@@ -138,18 +138,35 @@ Two standard reducibility obligations remain, both **bounded** (not open-ended):
    **1,760** signatures (≈320 + 288×5), of which only **104 (≈6%) are
    realizable.** So completeness is *not* "check all abstract types" — it
    requires **characterizing the planar-realizability constraints** that cut
-   1760 → 104 (constraints beyond complementary-non-crossing, e.g. on
-   same-color/bridge chains). This is the genuine hard core of completeness; the
-   104 figure is firm empirically but not yet derived from a realizability
-   characterization. **Group reduction (this work).** The realizable raw set is
-   a forced union of `G = S_4 x Z_2`-orbits (Sec. 3), so completeness need only
-   be established on **58 orbit representatives**, not 104 types — the colors
-   (`F_4`) and the symmetries (`S_4 x Z_2`) generate the rest. The remaining
-   content is a realizability characterization for *one representative per
-   orbit*, which is the right granularity: realizability is itself `G`-invariant,
-   so the characterization cannot depend on the color labeling or path
-   orientation, only on the bridge/co-chaining incidence — a 58-case, finite,
-   purely combinatorial obligation.
+   1760 → 104. **A closed-form characterization (this work).** Record a type as
+   its 4-coloring 5-tuple plus its *long chords* (non-adjacent co-chained pairs);
+   the 4 consecutive pairs are always present (adjacent path vertices form a
+   2-vertex Kempe component — automatic, not a constraint). A type is realizable
+   **iff** its long-chord set obeys:
+   - **(2a) color-aware non-crossing.** No two chords whose color-pairs are
+     *equal* or *disjoint* (complementary) cross. (Necessary: equal/complementary
+     Kempe chains are vertex-disjoint, hence non-crossing in the disk; chords
+     sharing one color may cross.)
+   - **(2b) spanning-chord enclosure law.** If the full-span chord `(0,4)`
+     (a `{c0,c4}`-chain enclosing the interior) is present, then every interior
+     vertex `k∈{1,2,3}` colored in `P={c0,c4}` is either connected to an endpoint
+     `{0,4}` through present `P`-edges, or shielded by a present complementary-pair
+     chord enclosing `k`. (Jordan-curve enclosure: a free interior chain-color
+     vertex obstructs the spanning chain unless tied to an endpoint or separated
+     by the complement.)
+
+   Enumerated over all abstract long-chord sets, the predicate `(2a)&(2b)`
+   reproduces the realizable set **exactly: 2,496 raw = 24·104 canonical, zero
+   mismatch on every tested triangulation** (including a fresh seed disjoint from
+   discovery; toy `play/fourcolor_path_realizability_characterization.py`, 8/8).
+   This *is* the "ring + permutations" anatomy made literal: a **key** (the
+   spanning chord and its color-pair `P`), a **forced repeated base** (the 4
+   consecutive pairs), and a **set** (the long chords) constrained by a
+   non-crossing law plus one enclosure law. It reduces completeness to a single
+   remaining obligation — **prove (2b) necessary+sufficient for planar
+   realizability** ((2a) is immediate planarity; the predicate yields exactly 104
+   by construction). The 104 is no longer a bare empirical plateau: it is the
+   count of predicate-satisfying types.
 2. **Locality.** Prove ≤2-swap resolvability is determined by the local type.
    This now holds **empirically in the strong form**: the *exact* min-swap count
    is a function of the type (zero variation across 1.5M instances). Remaining:
@@ -168,7 +185,7 @@ on ~100 rigid path-types instead of Appel-Haken's ~600 general configurations.
 | deg-4 (length-4 stuck path) reducible | **PROVEN (closed form)** |
 | `tau_strict ≤ 4` (conservation of color charge) | **PROVEN (enumeration)** |
 | deg-5 (length-5) double-swap reducible | **VERIFIED, 1.5M instances, 0 failures** |
-| completeness of type set | open; **104 = \|raw\|/\|S_4\|; reduces to 58 G-orbit reps** |
+| completeness of type set | **closed-form predicate (2a)&(2b) == realized, 2496=24·104, 0 mismatch**; open: prove (2b) |
 | locality of reducibility | open; **strong: min-swap is type-determined, 0 variation** |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
