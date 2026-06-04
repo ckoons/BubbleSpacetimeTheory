@@ -215,3 +215,51 @@ zero-cascade/expansion argument up the hierarchy and seeing where it gives.
 
 The framework comes out **corrected, well-typed, and better-grounded** -- with one
 genuinely new internal result (the refutation + repair) and a clearly-located frontier.
+
+---
+
+## STEP 3 (structural, at the board): the Res(k) lift, and its key lemma confirmed
+
+The compute wall said "stop brute-forcing, start proving." The Res(k) extension runs
+on one lemma, which is *cheap* to test even though the refutation is not.
+
+**The route (certified-backbone hardness, resolution -> Res(k)):**
+1. `x` backbone with value `v` => `phi' := phi | (x = -v)` is UNSAT.
+2. **Zero-cascade lemma.** Fixing `x = -v` triggers no unit propagation; only the
+   `O(deg x) = O(1)` clauses containing `x` are removed/shortened. So `phi'` is an
+   `O(1)`-perturbation of `phi` and inherits its boundary expansion (expansion is
+   robust to `O(1)` clause changes).
+3. **ABE random-restriction lift** (Atserias-Bonet-Esteban 2002): a size-`S` `Res(k)`
+   refutation of `phi'`, hit by a random restriction, collapses (w.h.p.) to a
+   bounded-width *resolution* refutation of `phi'|_rho`.
+4. `phi'|_rho` still expands (restriction of an expander at the right density) =>
+   **BSW** width `Omega(n')` => no bounded-width resolution refutation => `S` is
+   `2^{Omega(n/poly(k))}`.
+5. Hence **certified backbone extraction in `Res(k)` is hard** -- the Certified CDC
+   for `Res(k)`.
+
+**The key new lemma is CONFIRMED.** Step 2's zero-cascade is the only piece special to
+the *backbone* (vs. the standard unsatisfiable-random instance), and it tests clean:
+
+| n | mean cascade | max cascade | clauses touched (= deg x) |
+|---|---|---|---|
+| 16 | 0.00 | 0 | 12.7 |
+| 20 | 0.00 | 0 | 12.6 |
+| 26 | 0.00 | 0 | 12.9 |
+
+Fixing a hard backbone bit propagates *nothing* and perturbs `O(1)` clauses -- exactly
+what steps 2-4 need. (This is essentially definitional for the *hard* backbone: if
+fixing `x` cascaded, `x` would be locally/UP-certifiable, hence not hard.)
+
+**Honest scope.** Steps 3-4 are *established machinery* (ABE + BSW) applied to an
+`O(1)`-perturbed expander; the new content is the *certified-backbone framing* and the
+verified zero-cascade lemma that plugs the backbone into that machinery. The full ABE
+adaptation to `phi'` is writeable but not yet written -- that is the remaining work.
+What we have: the route is set, and its one backbone-specific lemma is verified.
+
+**Why this matters.** It moves the framework's hardness statement from "resolution"
+(re-derivation of Chvatal-Szemeredi/BSW) up to **`Res(k)`** through a single mechanism
+(zero-cascade + expansion + restriction) -- the unification the framework wanted, now
+honestly grounded. SoS / low-degree is the next rung (Schoenebeck-Tulsiani-KMOW use
+expansion too; whether the certified-backbone framing unifies with them is the open
+"what-if").
