@@ -233,6 +233,7 @@ Completeness is closed; locality is closed except for (R).
 | deg-5 (length-5) double-swap reducible | **VERIFIED, 1.5M instances, 0 failures** |
 | completeness of type set | **CLOSED: realizable ⊆ predicate (proven, modulo classical Kempe separation); = exactly 104** |
 | locality of reducibility | **count type-local PROVEN modulo (R)**; lemmas A,B proven; (R) = ≤2-reducibility, verified 1.5M |
+| **(R) residual** | **decomposes to 7 explicit types / 4 ring-orbits** (97/104 are single-swap); rep-theory target (`R_Decomposition`) |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
 double-swap-reducible, closed-form set — honestly one completeness/locality
