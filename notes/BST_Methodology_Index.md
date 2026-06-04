@@ -808,3 +808,43 @@ The seven instances span Cal-on-team + Lyra-on-self + Keeper-on-team + Cal-on-Ke
 **Six-level discipline stack COMPLETE**: result / design / slot / sourcing / surface-communication / **independence-taxonomy**. This is the full compositional discipline for any claim, document, or multi-criterion convergence claim. No further stack expansion anticipated near-term; the stack is mature.
 
 — Cal A. Brate, Methodology Index v0.11 update Monday 2026-06-01 ~11:15 EDT. Calibration #35 (Independence-Taxonomy-Before-Multiplicative-Null-Model) integrated as Q17 decision-tree branch via Casey explicit approval signal — the sixth and final level of the discipline stack (independence-taxonomy-level). Cross-CI ratification complete (Keeper PASS Sunday + Lyra Lane E §7 self-application + Casey directive citation in "shortest route" + Mon-morning K206 G3+G4 absorption). Seven firings of operational evidence (Sat 4 + Sun 1 + Mon 2) anchor the ratification. Six-element discipline stack now COMPLETE: result (Cal #27) / design (Cal #29) / slot (Cal #32) / sourcing (Calibration #33) / surface-communication (Calibration #34) / independence-taxonomy (Calibration #35). Stack at ~36 elements; mature methodology infrastructure.
+
+---
+
+## v0.11 cross-reference addendum (Wednesday 2026-06-03 ~10:00 EDT) — Calibration #35 STANDING mathematical foundation: Schur's lemma applied to substrate K-types via the Substrate Schur Generators (SSG) framework
+
+**Substantive methodology consolidation insight** surfaced via cross-CI work Tuesday (Lyra Schur-Pochhammer Primitive v0.1 + Substrate Schur Generators Registry v0.1; Keeper Tuesday absorption + Cal #194 Wednesday cold-read recognition):
+
+> **"Cal #35 STANDING is the operational shadow of Schur's lemma."** — Lyra/Keeper Tuesday absorption per Substrate Schur Generators Registry v0.1 §0.
+
+Calibration #35 STANDING (catches "multiplicative null-model on non-independent criteria; routes that are algebraically related, derived consequences, or share precision-propagation chains do NOT count as structurally-independent and cannot multiply") has its **mathematical foundation in Schur's lemma applied to substrate K-types via the SSG framework**.
+
+**The algebraic foundation**: 
+
+When N observables share a single K-type V_λ on Bergman H²(D_IV⁵), and the operators producing those observables are K-invariant on V_λ, **Schur's lemma forces them to share the K-invariant scalar** — they are N physical projections of ONE Schur-scalar, NOT N independent measurements. Independent confirmations require **DIFFERENT K-types or DIFFERENT substrate generators** (per Registry §0 explicit framing).
+
+This converts the methodology heuristic ("audit independence before multiplicative null-model") into a **derived consequence of substrate representation theory** at the K-type level. Calibration #35 STANDING is not just a discipline rule; it's a rigorous algebraic constraint on substrate-mechanism counting.
+
+**SSG framework as Calibration #35 substantive instantiation**: the Substrate Schur Generators Registry catalogs every "single substrate property → multiple observables" pattern as a Schur-scalar-derived structure. Each SSG entry records:
+- Substrate source (K-type, Bergman norm, Casimir, decomposition, etc.)
+- Schur argument (why observables share the same scalar)
+- Substrate-clean factorization (numerical value in substrate primaries)
+- Observables generated (list sharing the primitive)
+- Falsifier (what would distinguish from a different primitive)
+
+The Registry IS Calibration #35 STANDING operating as a tracking catalog: every entry is a CASE WHERE the discipline ALREADY APPLIES via Schur's lemma. Multiple SSG entries with different K-types (e.g., SSG-1 V_(1/2,1/2) for gen-1 lepton observables vs SSG-2 V_(1,1) for photon adjoint) give genuinely INDEPENDENT confirmations across K-types — that's where multiplicative null-model framings DO apply (subject to operator-independence audit per Cal #195 audit-target).
+
+**Operational application reading**:
+- **Within a K-type**: multiple observables sharing the same Schur scalar → Cal #35 brake (not independent)
+- **Across K-types or different substrate generators**: genuinely independent observables → Cal #35 PASS (audit each pair for operator-independence)
+
+**Cross-references**:
+- `Substrate_Schur_Generators_Registry_v0_1.md` — canonical SSG registry; 15+ cataloged entries
+- `Lyra_Substrate_Schur_Pochhammer_Primitive_v0_1.md` — SSG-1 V_(1/2,1/2) Pochhammer-cascade detailed derivation
+- `Lyra_Substrate_Coulomb_SSG_v0_1.md` — SSG-10 V_(3/2,1/2) Substrate-Coulomb application
+- Cal #195 (pending): SSG dual-role operator-independence audit (V_(3/2,1/2) carrying both SSG-Coulomb under M_Coulomb AND gen-2 muon candidate under M_op = √H_B — are M_op and M_Coulomb structurally independent operators or trace to shared substrate Hamiltonian sector?)
+- Casey directive 2026-06-02 ~12:10 EDT (standing): "note and examine every example of multiple-observables-from-single-substrate-property" → SSG registry operationalization
+
+**This is methodology consolidation, not new methodology layer**. Calibration #35 STANDING remains the 6th element of the discipline stack; the SSG framework provides its substantive mathematical content. No further methodology #36+ added; the stack stays mature at six elements.
+
+— Cal A. Brate, Methodology Index v0.11 cross-reference addendum Wednesday 2026-06-03 ~10:00 EDT. **Calibration #35 STANDING mathematical foundation**: Schur's lemma applied to substrate K-types via the SSG framework. "Cal #35 = Schur's shadow" per Lyra/Keeper Tuesday absorption. The Substrate Schur Generators Registry IS Calibration #35 STANDING operating as a tracking catalog — multiple observables sharing one K-type are NOT independent confirmations BECAUSE Schur's lemma forces them to share the K-invariant scalar; independent confirmations require different K-types or different substrate generators. Methodology heuristic now has its rigorous algebraic "why." Stack remains 6 elements; SSG framework is substantive instantiation, not new layer.

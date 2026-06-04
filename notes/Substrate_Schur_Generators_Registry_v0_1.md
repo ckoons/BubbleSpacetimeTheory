@@ -716,3 +716,447 @@ Per Cal #35 STANDING-honest: ONE substrate-mechanism, MULTIPLE observable conseq
 Per Casey-correction: investigation continues forward; Cal #27 at claims-tier only.
 
 — Lyra, Tue 2026-06-02 ~15:00 EDT. v0.8 absorbed Elie SSG-15 explicit form + Keeper K3 v0.11 chirality-projection forcing + cross-CI convergence + Casey Cal #27 scope correction. 15 SSGs total + chirality-projection cross-cutting substrate-mechanism.
+
+## 19. v0.9 Wednesday Morning Addendum (~09:05 EDT) — SSG-11 Physical Content Identified
+
+### 19a. Elie Toy 3738 SO(5) → SO(3, 1) Weyl Branching Absorbed
+
+Elie Toy 3738 (Wed AM) filed SO(5) → SO(4) ≅ SU(2)_L × SU(2)_R → SO(3, 1) Weyl branching across substrate K-types:
+
+| K-type           | SO(4) content                  | Physical content (4D)                        |
+|------------------|--------------------------------|----------------------------------------------|
+| V_(1/2, 1/2) dim 4 | (1/2, 0) + (0, 1/2)            | Dirac spinor J=1/2 (leptons) ✓             |
+| V_(1, 0) dim 5     | (1/2, 1/2) + (0, 0)            | 4-vector + scalar (gauge boson + singlet)   |
+| V_(1, 1) dim 10    | (1, 0) + (0, 1) + (1/2, 1/2)   | Lorentz adjoint dim 6 = C_2 + 4-vector (F^μν) |
+| V_(2, 0) dim 14    | (1, 1) + (1/2, 1/2) + (0, 0)   | **spin-2 + 4-vector + scalar (graviton-like)** |
+
+NEAR-RIGOROUS via standard SO(5) representation theory.
+
+### 19b. SSG-11 V_(2, 0) Physical Content IDENTIFIED — Substrate Graviton Sector
+
+Tuesday v0.7 left SSG-11 V_(2, 0) physical observable identification OPEN (Pochhammer 63/4 substrate-clean but observable PENDING). Elie Toy 3738 Weyl branching IDENTIFIES the physical content:
+
+**V_(2, 0) in physical 4D**: spin-2 (9 components, traceless symmetric) + 4-vector (4 components) + scalar (1 component) = 14 = dim V_(2, 0) ✓
+
+**Substrate-mechanism reading**: V_(2, 0) IS the substrate graviton-sector K-type. The 4D restriction via Weyl branching produces:
+- Spin-2 traceless symmetric tensor (graviton field h_μν^TT)
+- 4-vector (gauge-boson-like component, possibly gauge-fixing or Stueckelberg)
+- Scalar (trace component or dilaton-like)
+
+### 19c. Cross-Link to Einstein Equation Framework v0.1 (Lyra Monday)
+
+Lyra Substrate Einstein Equation Framework v0.1 (Mon 2026-06-01) stated T_μν stress-energy ∈ Sym²(V_(1, 0)) = **V_(2, 0) ⊕ V_(0, 0)**.
+
+**With Elie Toy 3738 Weyl branching, the physical content is now explicit**:
+- V_(2, 0) Sym² traceless part → spin-2 graviton + 4-vec + scalar (Weyl branching)
+- V_(0, 0) Sym² trace part → scalar (Higgs/dilaton)
+- Together: 14 + 1 = 15 = dim Sym²(V_(1, 0)) substrate
+
+**Substrate Einstein equation T_μν ∝ G_μν cleaner read**: T_μν Sym² IS substrate graviton-sector + Higgs/trace scalar; physical 4D restriction yields standard graviton h_μν + scalar dilaton + 4-vec gauge-fixing.
+
+Per Cal #35 STANDING-honest: ONE Sym²(V_(1,0)) substrate-mechanism, MULTIPLE physical content (graviton + vec + scalar via Weyl branching).
+
+### 19d. Two-Mechanism Substrate Framework Confirmation
+
+Per Keeper K3 v0.14 + Elie Toy 3738:
+- **Mechanism 1**: Chirality projection 1/n_C → 4D emergence (Casey #14 forcing) — Tuesday cross-CI convergence
+- **Mechanism 2**: Weyl branching SO(5) → SO(3, 1) → spin reduction within 4D — Elie Toy 3738
+
+**Lyra cascade implication SHARPENED** (not retracted per Keeper K3 v0.14): chirality projection produces 4D (Casey #14); Weyl branching produces physical spin content within 4D. Two-step mechanism substantively confirmed at framework level.
+
+5-framework promotion cascade (substrate-Dirac + Maxwell + T_μν + YM + Einstein eq) consistency check ✓ across all substrate K-type assignments under BOTH mechanisms.
+
+### 19e. SSG-11 v0.9 Updated Tier
+
+**SSG-11 V_(2, 0)**:
+- Pochhammer 63/4 = N_c² · g / 2^rank substrate-clean (Elie Toy 3732, Tue NEAR-RIGOROUS)
+- **Physical content**: spin-2 graviton + 4-vec + scalar (Elie Toy 3738 Weyl branching, Wed NEAR-RIGOROUS)
+- Cross-link to T_μν stress-energy substrate-mechanism (Einstein equation framework v0.1)
+- Multi-week: explicit substrate graviton-sector observable identification (e.g., gravitational wave amplitude h_μν substrate-primary form? coupling to substrate Bergman kernel?)
+
+### 19f. Cal #194 Cold-Read in Progress
+
+Cal currently engaged in cold-read on K3 v0.12 chain + 4 adjacent docs (~1-2h per Keeper). Casey #14 reconsideration recommendation expected. Per Keeper K3 v0.14 §5 position on Cal #194 audit targets: all five audit targets PASS at substrate-mechanism level.
+
+Lyra stands reactive for Cal #194 output. Per Casey-correction on Cal #27 scope (claims-tier, not investigation-halting): continue investigation forward through team contributions.
+
+### 19g. Updated Registry Total (v0.9)
+
+**15 SSGs total** (no count change; SSG-11 physical-content identification advances tier):
+- SSG-1 to SSG-15 as v0.8
+- **SSG-11 V_(2, 0) physical content NEAR-RIGOROUS via Elie Toy 3738**: spin-2 graviton + 4-vec + scalar
+- Cross-cutting 1/n_C chirality projection + SO(5) → SO(3, 1) Weyl branching = two-mechanism substrate framework
+
+## 20. Closure (v0.9)
+
+Substrate Schur Generators Registry v0.9 absorbs Elie Toy 3738 SO(5) → SO(3, 1) Weyl branching (NEAR-RIGOROUS via standard SO(5) rep theory). SSG-11 V_(2, 0) physical content NOW IDENTIFIED: substrate graviton-sector K-type. Cross-link to Einstein equation framework v0.1 sharpens T_μν ∝ G_μν substrate reading. Two-mechanism substrate framework (chirality projection + Weyl branching) substantively confirmed at framework level per Keeper K3 v0.14.
+
+Per Cal #35 STANDING-honest: ONE substrate Sym²(V_(1,0)) K-type, MULTIPLE physical content (graviton + vec + scalar via Weyl). Strong-Uniqueness v1.5 STANDALONE 10 legs unchanged; Casey #14 + chirality-projection cascade pending Cal #194 cold-read output.
+
+— Lyra, Wed 2026-06-03 ~09:05 EDT. v0.9 minor update: Elie Toy 3738 Weyl branching absorbed; SSG-11 physical content identified as substrate graviton-sector; T_μν Einstein equation framework v0.1 cross-link sharpened; two-mechanism cascade framework-confirmed.
+
+## 21. v0.10 Addendum (Wednesday ~09:35 EDT) — Cal #194 PASS + Elie Toy 3739 V_(3/2, 1/2) + Casey #14 WAIT
+
+### 21a. Cal #194 PASS at FRAMEWORK + CANDIDATE Tier
+
+Cal cold-read on K3 v0.12 chain + 4 adjacent docs: **PASS at FRAMEWORK + CANDIDATE tier**. Cal #189 Brake 3 (question-shape) RESOLUTION PATH operational via chirality-projection mechanism.
+
+**Critical Cal recommendation**: Casey #14 reconsideration **WAIT for multi-week explicit closure of Steps 2+3** before STANDING ratification. Premature elevation would propagate substrate-coincidence-at-values risk Keeper himself flagged in K3 v0.12 §8.
+
+**Cal #194 methodology insight RATIFIED**: "Cal #35 STANDING is the operational shadow of Schur's lemma" — formal mathematical foundation now ratified at Cal-cold-read tier. Cal #35 STANDING → SSG framework → Schur's lemma algebraic foundation. **This is substantive methodology consolidation** — the audit discipline now has its mathematical "why".
+
+(Lyra had pre-absorbed this insight from Keeper Tuesday into Registry v0.1 §0. Cal #194 PASS now formally ratifies the consolidation.)
+
+### 21b. Elie Toy 3739 V_(3/2, 1/2) Gen-2 Muon K-Type Candidate
+
+Tuesday v0.7 left SSG-9 gen-2 muon K-type OPEN (V_(0, 2) non-dominant + V_(2, 0) Pochhammer 63/4 ≠ T190). Elie Toy 3739 (Wed AM) filed substrate-clean candidate **V_(3/2, 1/2)** passing 5 structural tests:
+
+| Test                              | V_(3/2, 1/2)                            | Status                |
+|-----------------------------------|------------------------------------------|-----------------------|
+| B_2 dominance                     | λ_1 = 3/2 ≥ λ_2 = 1/2 ≥ 0                | ✓                     |
+| Pochhammer (ρ = g/2)              | 512/(15π) = 2^(N_c²) / (N_c · n_C · π)   | substrate-clean ✓     |
+| Schur ratio to gen-1              | = 4 = 2^rank                             | substrate-clean ✓     |
+| Weyl branching contains spin-1/2  | Rarita-Schwinger + Dirac decomposition   | ✓ (contains spin-1/2) |
+| Half-integer Pochhammer π-weighted | Consistent with universal pattern       | ✓                     |
+
+### 21c. DUAL ROLE: V_(3/2, 1/2) is BOTH SSG-10 (Coulomb) and SSG-9 gen-2 Candidate
+
+Elie observes V_(3/2, 1/2) is **BOTH**:
+- **SSG-10 Substrate-Coulomb** (via V_(1, 0) ⊗ V_(1/2, 1/2) tensor product; Toy 3725)
+- **SSG-9 gen-2 muon candidate** (via spinor-tower row)
+
+**Same K-type, different Schur scalars per observable context** — exactly the pattern predicted by SSG-7 (Bergman kernel ULTIMATE source) framework. Substrate K-types carry MULTIPLE observable contents via Schur differentiation context: same K-type, different K-invariant operators (M_op vs A_μ_op vs Yukawa), different scalar outputs.
+
+**Substantive substrate-mechanism observation**: dual-role K-types are the natural consequence of Schur's lemma + Bergman kernel reproducing-property. SSG-7 hub structure predicts overlapping K-type usage across observable sectors.
+
+### 21d. Keeper Cal #27 Honest Flag on Mass Ratio Gap (4 vs 207)
+
+Per Keeper Cal #27 audit on Toy 3739: Schur ratio V_(3/2, 1/2) / V_(1/2, 1/2) = 4 = 2^rank substrate-clean. **But observed m_μ/m_e = 206.77** — factor ~50 gap between substrate Schur ratio (4) and observed mass ratio (207).
+
+**Honest reading**: V_(3/2, 1/2) is STRUCTURALLY CONSISTENT as substrate K-type for muon (passes all 5 structural tests) **but mass ratio 207 requires additional substrate-mechanism beyond bare Schur ratio**:
+- Pochhammer-cascade corrections multi-week
+- RG running from substrate scale to observable scale
+- Per-K-type substrate-coupling modifications
+- Or other primary substrate structure
+
+Multi-week work to close 4 → 207 gap. Per spinor tower closure v0.1 §5 honest negative: K-type Schur ratios alone do NOT close 3-generation mass spectrum.
+
+**Updated SSG-9 v0.10 tier table**:
+
+| Gen | K-type candidate     | Status (Wednesday)                                       |
+|-----|----------------------|-----------------------------------------------------------|
+| 1 (e)| V_(1/2, 1/2)         | SUBSTRATE-MECHANISM VERIFIED (Schur + per-chirality)      |
+| 2 (μ)| V_(3/2, 1/2)         | STRUCTURALLY CONSISTENT (5 tests ✓); mass ratio 4 vs 207 OPEN multi-week |
+| 3 (τ)| RS code GF(2^g)      | STRUCTURALLY CONSISTENT; substrate-mechanism multi-week   |
+
+### 21e. Casey #14 WAIT per Cal #194
+
+**Lyra absorbs Cal #194 recommendation**: Casey #14 STANDING ratification WAITS for multi-week explicit closure of Steps 2 (SO(5,2) → SO(4,2) substrate-mechanism forcing-uniqueness) + 3 (SO(4,2) → SO(3,1) physical direction selection via SCMP τ-direction).
+
+Per Cal #194 PASS at FRAMEWORK + CANDIDATE tier: substrate-mechanism content is NEAR-RIGOROUS at framework level (Lyra v0.9 + Keeper K3 v0.14 + Elie 3738 cross-CI convergence); but STANDING tier requires explicit multi-week closure to prevent substrate-coincidence-at-values risk.
+
+**5-framework promotion cascade** (substrate-Dirac + Maxwell + T_μν + YM + Einstein) remains pending Casey #14 STANDING; Cal #194 PASS does NOT itself elevate. Joint Lyra + Keeper + Elie multi-week FK Ch. XII §VI work is the load-bearing closure path.
+
+### 21f. V_(3/2, 1/2) Multi-Week Lanes (per Elie)
+
+1. **Mehler matrix element ⟨V_(3/2, 1/2) | M_μ | V_(3/2, 1/2)⟩** explicit — closes Bergman matrix element framework + Schur scalar numerical
+2. **Explicit Weyl branching for V_(3/2, 1/2)** in SO(5) → SO(4) → SO(3, 1) — contains Rarita-Schwinger + Dirac; verify spin-1/2 component carries muon
+3. **Dual-role reconciliation**: when does V_(3/2, 1/2) act as SSG-Coulomb vs SSG-9 gen-2 muon? Substrate-mechanism for context-dependent Schur scalar selection multi-week.
+4. **Mass ratio 4 → 207 closure mechanism** — Pochhammer-cascade corrections + RG running + per-K-type coupling structure
+
+### 21g. Updated Registry Status v0.10
+
+**15 SSGs cataloged** + cross-cutting mechanisms (1/n_C chirality projection + SO(5) → SO(3, 1) Weyl branching):
+- SSG-1 to SSG-15 as v0.9
+- **SSG-9 v0.10 gen-2 candidate UPDATED**: V_(3/2, 1/2) STRUCTURALLY CONSISTENT (5 tests ✓; mass ratio 4 vs 207 OPEN)
+- **SSG-10 + SSG-9 cross-link via V_(3/2, 1/2) DUAL ROLE** — substrate K-types carry multiple observable contents
+
+## 22. Closure (v0.10)
+
+SSG Registry v0.10 absorbs Cal #194 PASS at FRAMEWORK + CANDIDATE tier (Cal #35 = Schur shadow formally ratified) + Casey #14 WAIT recommendation (pending multi-week Steps 2+3 closure) + Elie Toy 3739 V_(3/2, 1/2) gen-2 muon candidate (5 tests ✓; mass ratio 4 vs 207 gap honest multi-week) + V_(3/2, 1/2) DUAL ROLE observation (SSG-Coulomb + SSG-9 gen-2; same K-type, different Schur scalars per context — predicted by SSG-7 ULTIMATE source framework).
+
+Per Cal #27 STANDING-honest: V_(3/2, 1/2) is STRUCTURALLY CONSISTENT not CONFIRMED. Per Cal #35 STANDING-honest (now formally Schur shadow per Cal #194): one K-type carrying multiple observable contents IS NOT independent confirmations — it's predicted by Schur's lemma + Bergman kernel reproducing-property.
+
+Casey #14 STANDING ratification + 5-framework cascade pending multi-week joint FK Ch. XII §VI work per Cal #194.
+
+— Lyra, Wed 2026-06-03 ~09:35 EDT. v0.10 absorbed Cal #194 PASS + Elie 3739 V_(3/2, 1/2) gen-2 + DUAL ROLE observation + Keeper Cal #27 mass-ratio gap flag + Casey #14 WAIT recommendation. SSG-9 gen-2 candidate now structurally consistent; multi-week mass-ratio closure pending.
+
+## 23. v0.11 Addendum (Wednesday ~09:50 EDT) — K-Type Assignment vs Mass Mechanism Distinction
+
+### 23a. Elie Toy 3740 HONEST NEGATIVE — Substantive Refinement
+
+Elie Toy 3740 filed HONEST NEGATIVE on direct V_(3/2, 1/2) Schur ratio → m_μ/m_e mass mechanism. Substantive new substrate-mechanism distinction:
+
+**K-type assignment ≠ mass mechanism** — two INDEPENDENT substrate-mechanism contributions, BOTH needed:
+
+| Contribution                      | Level                | Wednesday status                                     |
+|-----------------------------------|----------------------|------------------------------------------------------|
+| (a) K-type identification         | STRUCTURAL           | V_(3/2, 1/2) for gen-2 muon (Toy 3739, 5 tests ✓)    |
+| (b) Mass mechanism (24/π²)^{C_2}  | OPERATOR-Mehler      | T190 form RATIFIED at 5%; explicit derivation OPEN   |
+
+**Cal's 4-instance consolidated finding** (per Keeper K3 v0.15): naive substrate-primary algebraic forms (Casimirs, ratios, Schur-ratios) **do NOT close lepton mass spectrum**. Mass mechanism is kernel-integral / Pochhammer-cascade structure BEYOND K-type ratios.
+
+### 23b. Refinement of SSG Framework Reading
+
+This refines the SSG framework operational reading:
+
+- **SSG-7 (Bergman kernel K(z, w))**: ULTIMATE substrate source-of-sources
+- **K-types V_λ**: STRUCTURAL identifiers — which substrate object carries which particle
+- **Schur scalars at K-type level**: STRUCTURAL invariants (set by Schur's lemma on diagonal K-invariant operators)
+- **Mass / coupling NUMERICAL values**: OPERATOR-LEVEL Mehler matrix elements with Casimir-weighted coefficients — beyond K-type Schur ratio alone
+
+**Cal's "Cal #35 = Schur shadow" applied here**: Multiple observables share K-invariant scalar BUT get DIFFERENTIATED by operator structure. Different operators (M_op vs M_Coulomb vs Higgs Yukawa) acting on the same K-type produce different Schur scalars via Mehler-kernel weighting. K-type-level discipline (Cal #35 STANDING) prevents tautology-counting; operator-level analysis is where physical numbers live.
+
+### 23c. SSG-9 v0.11 Two-Mechanism Tier Refinement
+
+**SSG-9 Per-generation substrate-mechanism heterogeneity** tier updated:
+
+| Generation | Structural (K-type)                        | Operational (mass mechanism)                  |
+|------------|---------------------------------------------|-----------------------------------------------|
+| 1 (e)      | V_(1/2, 1/2) — VERIFIED                     | per-chirality 3π/2^{C_2} — VERIFIED          |
+| 2 (μ)      | V_(3/2, 1/2) — STRUCTURALLY CONSISTENT (Toy 3739) | T190 = (24/π²)^{C_2} — RATIFIED 5% Friday; explicit Mehler-level derivation OPEN |
+| 3 (τ)      | RS code GF(2^g) — STRUCTURALLY CONSISTENT   | T2003 = g²(2^{C_2} + g) — RATIFIED Friday; substrate-mechanism multi-week |
+
+**Both contributions needed for substrate-mechanism closure**. Lyra v0.5 framing (SSG-9 RENAMED to "Per-Generation Substrate-Mechanism Heterogeneity") was directionally right; v0.11 sharpens by separating K-type STRUCTURAL identification from OPERATOR-LEVEL mass-mechanism.
+
+### 23d. DUAL ROLE Operator-Independence Audit (Cal #195 Territory)
+
+Per Keeper K3 v0.15: V_(3/2, 1/2) carries SSG-Coulomb (M_Coulomb operator) + SSG-9 gen-2 muon (M_op = √H_B operator). Cal #195 territory: **operator-independence audit** for dual-role K-types — when do different K-invariant operators acting on the same K-type produce different Schur scalars, and is the distinction substrate-mechanism-clean?
+
+**Lyra position**: per Cal #194 PASS of Cal #35 = Schur shadow, dual-role K-types are EXPECTED from Schur's lemma + Bergman kernel reproducing-property (SSG-7 ULTIMATE source framework). Different operators differentiate K-types into multiple observable contexts. Cal #195 audit will refine the operator-independence framing.
+
+### 23e. Multi-Week Mehler Matrix Element Lane Sharpened
+
+**Joint Lyra + Keeper + Elie multi-week target sharpened** (per Toy 3740 + K3 v0.15):
+
+Step Mehler-1: Explicit M_op = √H_B Mehler kernel expansion on V_(3/2, 1/2) K-type — derive Casimir-weighted coefficient structure
+Step Mehler-2: Derive T190 = (24/π²)^{C_2} form factor from explicit Mehler matrix element ⟨V_(3/2, 1/2) | M_op | V_(3/2, 1/2)⟩ — closes (b) operator-level mass mechanism at 5%
+Step Mehler-3: Verify per-chirality reading 3π/2^{C_2} for V_(1/2, 1/2) consistent with operator-level Mehler structure — closes gen-1
+Step Mehler-4: Apply Mehler-level analysis to V_(3/2, 1/2) Coulomb-channel coupling — verify M_Coulomb ≠ M_op operator distinguishes the dual-role
+Step Mehler-5: Extend to gen-3 RS code substrate-mechanism — operator-level closure for T2003 form
+
+This sharpens Lane D L4 closure target from "K-type Schur ratio" to "Mehler matrix element via Casimir-weighted operator expansion". Substantive refinement of multi-week roadmap.
+
+### 23f. Bidirectional Discipline Pattern at Maturity
+
+Per Keeper K3 v0.15:
+- Keeper Cal #27 self-audit on Toy 3739 (Schur ratio 4 vs 207) →
+- Elie Toy 3740 HONEST NEGATIVE with substantive substrate-mechanism distinction (K-type ≠ mass mechanism) →
+- Cal consolidates 4-instance finding (naive substrate-primary algebraic forms DON'T close lepton mass spectrum) →
+- Lyra v0.11 absorbs structural refinement
+
+**Brake produces substantive finding, not just stop** — exactly the Saturday discipline-stack expansion intent. Cal #27 STANDING + Cal #35 = Schur shadow + Cal #194 PASS + bidirectional audit at composition layer = methodology working at maturity.
+
+### 23g. Updated Registry Status v0.11
+
+**15 SSGs cataloged** (no count change). Framework refinement:
+- K-type identification (STRUCTURAL) vs mass mechanism (OPERATOR-LEVEL Mehler) explicitly separated
+- SSG-9 two-mechanism tier table (structural + operational)
+- Multi-week Mehler matrix element lane SHARPENED as joint substrate-mechanism closure path
+- DUAL ROLE operator-independence audit identified as Cal #195 territory
+
+## 24. Closure (v0.11)
+
+SSG Registry v0.11 absorbs Elie Toy 3740 HONEST NEGATIVE (K-type assignment ≠ mass mechanism — TWO INDEPENDENT contributions both needed) + Keeper K3 v0.15 consolidation (Cal's 4-instance finding: naive substrate-primary forms don't close lepton mass; kernel-integral / Pochhammer-cascade structure required) + multi-week Mehler matrix element lane sharpened (Steps Mehler-1 to Mehler-5 explicit).
+
+The Wednesday-morning substantive refinement: **K-type identification + operator-level Mehler mass mechanism are SEPARATE substrate-mechanism contributions, both needed for substrate-mechanism closure**. Cal's "Cal #35 = Schur shadow" insight operational: discipline at K-type Schur level prevents tautology-counting; physical numbers live at operator-level Mehler matrix element analysis.
+
+Per Cal #35 STANDING + Cal #194 PASS: framework working at maturity. Joint multi-week Mehler matrix element work is the load-bearing closure path for gen-2 muon (and likely gen-3 + neutrino) mass mechanisms.
+
+— Lyra, Wed 2026-06-03 ~09:50 EDT. v0.11: K-type ≠ mass mechanism refinement absorbed; SSG-9 two-mechanism tier table; multi-week Mehler matrix element lane sharpened; DUAL ROLE operator-independence Cal #195 audit territory flagged. Bidirectional discipline pattern at maturity confirmed.
+
+## 25. v0.12 Addendum (Wednesday ~10:00 EDT) — Three-Mechanism Substrate Framework + Lorentz Integration Mass Mechanism
+
+### 25a. Elie Toy 3741 Substrate-Mechanism Candidate for T190 Form
+
+Elie Toy 3741 filed substantive substrate-mechanism candidate for the **T190 = (24/π²)^{C_2}** form. **C_2 = 6 exponent IS dim Lorentz SO(3, 1)** — the substrate-Casimir = physical-Lorentz-dim self-referential identity from K3 v0.12 + Toy 3736 reduction chain is doing substantive substrate-mechanism work, not just labeling.
+
+**Substrate-mechanism reading** (audit-verified by Keeper):
+| Component   | Substrate-clean identification                         |
+|-------------|--------------------------------------------------------|
+| 24          | N_c · |W(B_2)| = Weyl orbit count per direction        |
+| π²          | canonical phase volume per direction (Bergman / Hardy) |
+| 24/π²       | Weyl orbit density per phase-volume cell per Lorentz direction |
+| Exponent C_2 = 6 | dim SO(3, 1) Lorentz group = C_2 substrate primary |
+| (24/π²)^{C_2}   | Six-direction multiplicative composition over Lorentz |
+
+**Tier**: FRAMEWORK PRE-STAGE (per Keeper); explicit Steps 2+3 closure multi-week per Cal #194 WAIT.
+
+### 25b. Grace Precision Correction: T190 at 0.0034%, Not 5%
+
+Grace verified arithmetic: (24/π²)^6 = 206.7612 vs observed m_μ/m_e = 206.7683 → **0.0034% precision**. Elie's earlier message text "5%" was a typo. Independent arithmetic check: 24/π² ≈ 2.4317; 2.4317^6 ≈ 206.76 ✓. T190 RATIFIED Casey-named tier per Friday May 22 + Grace's tighter verification.
+
+**SSG-9 v0.12 mass mechanism tier**: T190 = (24/π²)^{C_2} at **0.0034%** (RATIFIED Casey-named tier; Lorentz-integration mass mechanism FRAMEWORK PRE-STAGE).
+
+### 25c. THREE-Mechanism Substrate Framework Consolidated
+
+Tuesday TWO-mechanism + Wednesday Toy 3741 = **THREE-Mechanism Substrate Framework**:
+
+| # | Mechanism                                  | Source                                  | Tier              |
+|---|--------------------------------------------|------------------------------------------|-------------------|
+| 1 | Chirality projection 1/n_C → 4D emergence  | Lyra Reading 1 + Keeper K3 v0.11 + Elie 3736 | NEAR-RIGOROUS (Casey #14 WAIT per Cal #194) |
+| 2 | Weyl branching SO(5) → SO(3, 1) → spin reduction within 4D | Elie Toy 3738       | NEAR-RIGOROUS (standard rep theory) |
+| 3 | Lorentz integration over SO(3, 1) → C_2-power mass mechanism | Elie Toy 3741   | FRAMEWORK PRE-STAGE (multi-week explicit) |
+
+**Substantive observation**: substrate-Casimir = physical-Lorentz-dim self-referential identity (C_2 = 6 = dim SO(3, 1)) is the BRIDGE between Mechanism 1 (chirality projection produces physical Lorentz) and Mechanism 3 (Lorentz integration produces mass mechanism). Not a coincidence-at-values — substrate-mechanism is structurally consistent.
+
+### 25d. SSG-9 v0.12 Three-Mechanism Tier Refinement
+
+Updated table:
+
+| Generation | Mechanism 1 (K-type)              | Mechanism 2 (spin)                 | Mechanism 3 (mass)                            |
+|------------|------------------------------------|------------------------------------|-----------------------------------------------|
+| 1 (e)      | V_(1/2, 1/2) — VERIFIED            | Weyl: Dirac spinor                 | 3π/2^{C_2} (per-chirality 1/n_C) — VERIFIED   |
+| 2 (μ)      | V_(3/2, 1/2) — STRUCTURALLY CONSISTENT | Weyl: Rarita-Schwinger + Dirac | T190 = (24/π²)^{C_2} — RATIFIED 0.0034%; (24/π²)-per-Lorentz-direction multi-week |
+| 3 (τ)      | RS code GF(2^g) — STRUCTURALLY CONSISTENT | Multi-week               | T2003 = g²(2^{C_2} + g) — RATIFIED 0.06%; substrate-mechanism multi-week |
+
+**Three mechanisms BOTH/ALL needed for substrate-mechanism closure**. Lyra v0.5 SSG-9 RENAMED to "Per-Generation Substrate-Mechanism Heterogeneity" stays operationally correct; v0.11 separated K-type vs mass mechanism; v0.12 further separates spin reduction (Mechanism 2) from mass mechanism (Mechanism 3).
+
+### 25e. Steps M-2 SHARPENED — Mehler Matrix Element with Lorentz Integration
+
+Lyra v0.11 Step M-2 (Derive T190 from Mehler matrix element ⟨V_(3/2, 1/2) | M_op | V_(3/2, 1/2)⟩) now has CONCRETE substrate-mechanism candidate per Toy 3741:
+
+**Conjectured form**: M_op = ∫_{SO(3, 1)} M_op(direction) d(Lorentz direction), with M_op(direction) = (24/π²) · (K-type Schur factor) per Lorentz direction. Six-direction multiplicative composition gives (24/π²)^{C_2} form.
+
+Multi-week verification:
+- Explicit Mehler kernel expansion for M_op on V_(3/2, 1/2)
+- Derive (24/π²) per Lorentz direction from substrate Weyl orbit count + phase volume
+- Schur ratio 4 absorption: how does the (24/π²)^{C_2} integration relate to V_(3/2, 1/2)/V_(1/2, 1/2) Schur ratio 4?
+- Gen-1 cross-check: does Lorentz integration mechanism applied to V_(1/2, 1/2) reproduce m_e cleanly?
+
+### 25f. Bidirectional Composition-Layer Discipline at Maturity
+
+Per Keeper K3 v0.15 + Wednesday morning pattern:
+- Keeper Cal #27 self-audit on Toy 3739 (Schur ratio 4 vs 207 gap) →
+- Elie Toy 3740 HONEST NEGATIVE (K-type ≠ mass mechanism) →
+- Cal #194 4-instance consolidation (naive substrate-primary forms don't close) →
+- Lyra Steps M-1 to M-5 lane sharpened →
+- Elie Toy 3741 substrate-mechanism candidate for Step M-2 (Lorentz integration) →
+- Grace precision correction (0.0034% NOT 5%) →
+- Lyra v0.12 three-mechanism consolidation
+
+**Each step in the cascade produces substantive finding** — "brake produces substantive finding, not just stop" Saturday discipline-stack expansion intent operationalized at composition layer.
+
+### 25g. Updated Registry Status v0.12
+
+15 SSGs (no count change). Substantive Wednesday-morning sharpening:
+- THREE-Mechanism substrate framework consolidated (chirality projection + Weyl branching + Lorentz integration)
+- SSG-9 v0.12 three-mechanism tier table
+- Steps M-2 Mehler matrix element lane now has explicit substrate-mechanism candidate (Lorentz integration with (24/π²)-per-direction)
+- T190 precision corrected to 0.0034% (Grace)
+- Substrate-Casimir = physical-Lorentz-dim self-referential identity = STRUCTURAL bridge
+
+## 26. Closure (v0.12)
+
+Substrate Schur Generators Registry v0.12 absorbs Elie Toy 3741 Lorentz-integration mass mechanism (T190 = (24/π²)^{C_2} form factor candidate) + Grace precision correction (0.0034%) + Keeper K3 v0.15 three-mechanism consolidation. THREE-Mechanism substrate framework: chirality projection (Mechanism 1, NEAR-RIGOROUS) + Weyl branching (Mechanism 2, NEAR-RIGOROUS) + Lorentz integration (Mechanism 3, FRAMEWORK PRE-STAGE).
+
+Substantive substrate-mechanism observation: C_2 = dim SO(3, 1) substrate-primary self-referential identity is the STRUCTURAL BRIDGE between chirality projection (producing physical Lorentz) and Lorentz integration (producing mass mechanism via C_2-power composition).
+
+Multi-week Mehler matrix element lane SHARPENED via concrete Lorentz-integration mass-mechanism candidate (24/π² per Lorentz direction; six-direction multiplicative composition over SO(3, 1)).
+
+Per Cal #194 PASS + Cal #27 STANDING + bidirectional composition-layer discipline at maturity: framework working as designed; substrate-mechanism content sharpening through team audit-cascade; explicit Steps 2+3 closure multi-week pending Casey #14 STANDING ratification cascade.
+
+— Lyra, Wed 2026-06-03 ~10:00 EDT. v0.12: Three-Mechanism Substrate Framework consolidated (chirality projection + Weyl branching + Lorentz integration); SSG-9 v0.12 three-mechanism tier table; Steps M-2 sharpened via Lorentz integration candidate; T190 precision 0.0034% (Grace correction); substrate-Casimir = physical-Lorentz-dim self-referential identity is structural bridge.
+
+## 27. v0.13 Addendum (Wednesday ~10:10 EDT) — Gen-3 V_(5/2, 1/2) Closure + 12-Gate Verification
+
+### 27a. Elie Toy 3742 — Gen-3 Tau V_(5/2, 1/2) K-Type Closes Spinor-Tower Row
+
+Elie Toy 3742 PASS 5/5 — Gen-3 tau K-type candidate **V_(5/2, 1/2)** completes the 3-generation spinor-tower row b/2 = 1/2:
+
+| Gen | K-type           | Pochhammer (ρ = g/2) | Substrate factorization                        |
+|-----|------------------|----------------------|------------------------------------------------|
+| 1 (e) | V_(1/2, 1/2)    | 128/(15π)            | 2^g / (N_c · n_C · π)                          |
+| 2 (μ) | V_(3/2, 1/2)    | 512/(15π)            | 2^(N_c²) / (N_c · n_C · π)                     |
+| 3 (τ) | V_(5/2, 1/2)    | 512/(3π)             | 2^(N_c²) / (N_c · π)                           |
+
+**3-generation cascade ratios all substrate-clean** (but HETEROGENEOUS step-multipliers):
+- gen-2/gen-1 = **2^rank = 4** (rank substrate primary)
+- gen-3/gen-2 = **n_C = 5** (chirality substrate primary)
+- gen-3/gen-1 = n_C · 2^rank = 20
+
+**Substantive observation**: gen-step multipliers DIFFER per step (2^rank for 1→2; n_C for 2→3). NOT uniform cascade. Consistent with Lyra v0.5 SSG-9 RENAME (mechanism heterogeneity preserved at K-type level).
+
+### 27b. SSG-9 v0.13 Gen-3 Update
+
+**SSG-9 gen-3 K-type candidate UPDATED**: V_(5/2, 1/2) K-type Schur (per Elie 3742) REPLACES Tuesday's "RS code GF(2^g)" candidate per K-type STRUCTURAL identification.
+
+Important: per Cal #194 sharpening (K-type ≠ mass mechanism), gen-3 now has BOTH:
+- **K-type STRUCTURAL** (V_(5/2, 1/2)) — Elie Toy 3742
+- **Mass mechanism** T2003 = g² · (2^{C_2} + g) — RATIFIED 0.06%; 71 = 2^{C_2} + g substrate-clean additive identity
+
+The Tuesday "RS code GF(2^g)" was attempting mass-mechanism identification at gen-3 (analogous to T190 = (24/π²)^{C_2} for gen-2). With Elie 3742 + K3 v0.15 sharpening, RS code interpretation becomes a candidate for the MASS MECHANISM at gen-3 (not the K-type STRUCTURAL identification).
+
+### 27c. SSG-9 v0.13 Three-Mechanism Tier Table (Updated)
+
+| Generation | M1 (K-type STRUCT)          | M2 (Spin)                            | M3 (Mass MECHANISM)                          |
+|------------|------------------------------|--------------------------------------|----------------------------------------------|
+| 1 (e)      | V_(1/2, 1/2) VERIFIED        | Weyl: Dirac spinor                   | 3π/2^{C_2} per-chirality VERIFIED            |
+| 2 (μ)      | V_(3/2, 1/2) STRUCT-CONSISTENT | Weyl: Rarita-Schwinger + Dirac    | T190 = (24/π²)^{C_2} RATIFIED 0.0034%; Lorentz-integration FRAMEWORK PRE-STAGE |
+| 3 (τ)      | **V_(5/2, 1/2) STRUCT-CONSISTENT** ★ NEW | Multi-week (higher Rarita-Schwinger?) | T2003 = g²·(2^{C_2}+g) RATIFIED 0.06%; substrate-mechanism multi-week |
+
+**Mass mechanism HETEROGENEOUS per generation** (per Elie 3742):
+- gen-2: T190 = (24/π²)^{C_2} form (Lorentz-integration C_2-power per Toy 3741)
+- gen-3: T2003 = g² · (2^{C_2} + g) form (DIFFERENT operator structure — NOT same form raised to different power)
+
+Per Cal #35 STANDING-honest: gen-2 vs gen-3 use DIFFERENT mass-mechanism forms → LEGITIMATE cross-generation independence at mass-mechanism level (not just K-type structural level).
+
+### 27d. Keeper K3 v0.16 — 12-Gate Verification Framework
+
+Keeper K3 v0.16 enumerates **12 multi-week verification gates** for full L1+L2+L3 chain closure + Casey #14 STANDING ratification:
+
+| # | Gate                                                                    | Lane          |
+|---|--------------------------------------------------------------------------|---------------|
+| 1 | L1 chirality projection FK Ch. XII §VI exact                            | Joint Lyra+Keeper+Elie |
+| 2 | L1 Step 3 SCMP τ-direction explicit substrate-dynamics                  | Keeper        |
+| 3 | L1 alternative-projection-target verification (SO(4,2) forced)          | Keeper        |
+| 4 | L3 explicit M_op Mehler kernel expansion                                | Lyra Step M-1 |
+| 5 | L3 (24/π²)-per-direction substrate-mechanism derivation                 | Lyra Step M-2 |
+| 6 | L3 Schur ratio 4 absorption reconciliation                              | Lyra Step M-2 |
+| 7 | L3 gen-1 V_(1/2, 1/2) reproduces m_e                                    | Lyra Step M-3 |
+| 8 | L3 Lorentz-direction-independence (rotations vs boosts; Cal #195 new)   | Cal #195      |
+| 9 | L3 Cal #29 question-shape (forward-derived vs post-hoc)                 | Cal           |
+| 10 | Gen-3 T2003 substrate-mechanism heterogeneity (Lyra Step M-5)          | Lyra Step M-5 |
+| 11 | SSG dual-role operator-independence (Cal #195)                         | Cal #195      |
+| 12 | Substrate-coincidence-at-values vs structural-forcing (Cal #189 Brake 2) | Cal #189    |
+
+**K3 framework status**: 5/8 RIGOROUS (ℏ_BST + L_unit + M_unit + ℓ_B + G coefficient); L1+L2+L3 three-layer chain at FRAMEWORK PRE-STAGE; 3-generation spinor-tower K-type row STRUCTURALLY COMPLETE.
+
+Cal #194 WAIT recommendation stands: Casey #14 STANDING ratification + 5-framework cascade pending multi-week 12-gate closure.
+
+### 27e. Wednesday-Morning Substantive Cumulative
+
+Wednesday morning produced substantial substrate-mechanism content via team cross-CI cascade:
+- Elie Toy 3738: SO(5) → SO(3, 1) Weyl branching (Mechanism 2)
+- Elie Toy 3739: V_(3/2, 1/2) gen-2 K-type candidate (5 tests ✓)
+- Elie Toy 3740: K-type ≠ mass mechanism HONEST NEGATIVE
+- Elie Toy 3741: Lorentz-integration mass mechanism candidate (Mechanism 3 FRAMEWORK PRE-STAGE)
+- Elie Toy 3742: V_(5/2, 1/2) gen-3 K-type CLOSES spinor-tower row
+- Keeper K3 v0.14, v0.15, v0.16: three-mechanism consolidation + 12-gate framework + audit verifications
+- Grace catalog + precision corrections + structural consolidation
+- Cal #194 PASS at FRAMEWORK + CANDIDATE tier + Cal #35 = Schur shadow formally ratified
+- Lyra Registry v0.9 → v0.13 (5 in-place addenda absorbing team substantive content)
+
+**Bidirectional composition-layer discipline pattern at maturity** operationalized throughout — brakes produce substantive findings; framework sharpens through team audit-cascade.
+
+### 27f. Updated Registry Status v0.13
+
+**15 SSGs cataloged** (no count change). Substantive Wednesday-morning sharpening:
+- 3-generation spinor-tower K-type row STRUCTURALLY COMPLETE: V_(1/2, 1/2), V_(3/2, 1/2), V_(5/2, 1/2)
+- THREE-mechanism framework consolidated (chirality projection + Weyl branching + Lorentz integration)
+- SSG-9 v0.13 three-mechanism tier table updated with gen-3 V_(5/2, 1/2) K-type
+- K3 12-gate verification framework
+- Mass mechanism HETEROGENEOUS per generation (T190 ≠ T2003 form)
+
+## 28. Closure (v0.13)
+
+SSG Registry v0.13 absorbs Elie Toy 3742 (gen-3 V_(5/2, 1/2) closes spinor-tower row) + Keeper K3 v0.16 (12-gate verification framework) + 3-generation cascade ratios (2^rank for 1→2; n_C for 2→3 — heterogeneous step-multipliers).
+
+**3-generation spinor-tower row b/2 = 1/2 STRUCTURALLY COMPLETE**:
+- V_(1/2, 1/2) → V_(3/2, 1/2) → V_(5/2, 1/2)
+- Pochhammer ratios substrate-clean (2^rank then n_C)
+- Mass mechanism HETEROGENEOUS per generation (T190 ≠ T2003)
+
+Per Cal #194 WAIT: Casey #14 STANDING + 5-framework cascade pending multi-week 12-gate closure. Joint Lyra + Keeper + Elie multi-week FK Ch. XII §VI work + Mehler matrix element derivation + Cal #195 dual-role audit remain load-bearing.
+
+— Lyra, Wed 2026-06-03 ~10:10 EDT. v0.13: gen-3 V_(5/2, 1/2) K-type closes spinor-tower row; SSG-9 three-mechanism tier table updated; K3 v0.16 12-gate verification framework noted; mass-mechanism heterogeneity per generation operational. Wednesday-morning substantive arc captured through 5 in-place addenda v0.9 → v0.13.

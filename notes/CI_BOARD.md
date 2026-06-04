@@ -1,14 +1,14 @@
 ---
-title: "CI Coordination Board — Tuesday 2026-06-02 EOD (K3 v0.5-v0.12 chirality projection forcing-mechanism + 15 SSGs cataloged + Cal #36 STANDING CANDIDATE proposed + Wednesday plan)"
+title: "CI Coordination Board — Wednesday 2026-06-03 EOD (K3 v0.13-v0.19 + SSG Structural Independence Audit v0.1 + 6-step refinement pattern + 8/7 = (2^N_c)/g substantive finding via correction + V_(1/2,1/2) DOUBLE-ROLE refinement)"
 author: "Casey Koons & team (Keeper, Lyra, Elie, Grace, Cal)"
-status: "Tuesday EOD. Substantive afternoon arc: K3 v0.5 → v0.12 (8 Keeper filings) culminating in **Casey #14 forcing-mechanism CHAIN consolidated via cross-CI convergence** (Keeper v0.10/v0.11/v0.12 + Lyra v0.4 + Elie Toy 3736). Three-step substrate-mechanism: SO(5,2) → SO(4,2) via 1/n_C chirality projection → SO(3,1) via Casey #8 SCMP substrate-time arrow. All steps substrate-primary clean: 21 = N_c·g → 15 = N_c·n_C → 6 = C_2 = dim SO(3,1) self-referential. **Substrate-mechanism PREDICTS 3+1 Minkowski, not 4+0 Euclidean**. Cal #189 brake resolution PATH operational (multi-week closure). Casey #14 STANDING ratification → cascade promotion 5 frameworks (Dirac/Maxwell/T_μν/YM/Einstein eq). 15 SSGs cataloged (Lyra Registry v0.8 canonical). Cal #36 STANDING CANDIDATE proposed (positive-search shadow of Schur's lemma; paired with Cal #35). Cal #27 scope CLARIFIED via Casey correction: discipline applies to CLAIMS not HALTING INVESTIGATION. ~31 cumulative audit-chain events. Tuesday team output: Keeper 8 K3 filings + 6 substrate-mechanism docs; Elie 28 toys; Lyra 15 items + Registry v0.8; Grace 43 INVs + Master Ledger v0.16. EOD GO."
+status: "Wednesday EOD. Substantive day-long arc: K3 v0.13 → v0.19 (7 Keeper filings) + Keeper SSG Structural Independence Audit v0.1 (15 SSGs classified ~2-4 category-A independent + ~10 SSG-7-derived + 1 signature-tautological per Cal #35 STANDING). **Wednesday afternoon 6-step refinement pattern**: Lyra v0.1 0.13% √(4/3) claim → Keeper+Cal independent verification ~1% → Lyra v0.3 honest walk-back + Elie Toy 3751 numbered-artifact correction → Elie 8/7 = (2^N_c)/g substantive finding via correction → Elie Toy 3752 √(4/3) UNIVERSAL across 3 gens at ~1.2% → Elie Toy 3753 8/7 ALSO UNIVERSAL across 3 gens at ~0.15% contradicting v0.18 default. **BOTH 8/7 AND √(4/3) universal lepton-sector candidates at different precision tiers** at Tier 2 STRUCTURAL; 1.03% systematic offset at Cal #34 precision floor; multi-week forward-derivation distinguishes substrate-mechanism vs Integer Web instance per Cal #189. **V_(1/2,1/2) TRIPLE → DOUBLE-ROLE refinement per Cal #195**: M_e ↔ M_ν chirality-split of SAME √H_B operator class (NOT independent), M_Coulomb separate; per Cal #35 TWO independent operator classes not three. Casey #14 forcing-mechanism CHAIN substrate-mechanism complete at framework level for 3 steps (v0.13 closes Step 3 via Casey #8 SCMP). 5th + 6th 4-CI simultaneous bidirectional composition-layer discipline events Wednesday. ~33 cumulative audit-chain events. Wednesday team output: Keeper 7 K3 filings + SSG Audit v0.1 + sundown; Elie 16 toys (3738-3753); Lyra 14 items (m_e/m_P v0.1→v0.7); Grace 34 INVs (5523-5556 estimated); Cal #194 PASS + #195 audit refinement + cold-read sequence. EOD GO."
 ---
 
-# CI Coordination Board — Monday 2026-06-01 PM
+# CI Coordination Board — Wednesday 2026-06-03 EOD
 
 *Five observers + visiting referee. One board.*
 
-**Archived**: `notes/.running/CI_BOARD_archive_2026-06-01_Monday_AM.md` (pre-cleanup Monday morning state)
+**Archived**: `notes/.running/CI_BOARD_archive_2026-06-02_Tuesday_EOD.md` (Tuesday EOD state)
 
 ---
 
@@ -25,18 +25,55 @@ status: "Tuesday EOD. Substantive afternoon arc: K3 v0.5 → v0.12 (8 Keeper fil
 
 ---
 
-## Counters (Monday EOD)
+## Counters (Wednesday EOD)
 
-- **T1-T2482** (next 2483)
-- **Toys to 3707** (next 3708) — Elie added 22 Monday (3686-3707)
-- **Catalog 5474 INVs** — Grace 64 Monday (5410-5474)
-- **Methodology stack**: 19 layers + **6-element STANDING discipline stack CLOSED** (Cal #27 + #29 + #32 + Calibration #33 + #34 + #35)
-- **Cal referee logs**: through #190 (Cal #187 Lane E + #189 Casey #14 brake + #190 Cal #35 STANDING ratification)
+- **T1-T2483** (next 2484)
+- **Toys to 3753** (next 3754) — Elie 46 Tue (3708-3753) + 16 Wed (3738-3753 substantive arc)
+- **Catalog ~5556 INVs** — Grace ~34 Wed (5523-5556 estimated)
+- **Methodology stack**: 19 layers + **6-element STANDING discipline stack CLOSED** (Cal #27 + #29 + #32 + Calibration #33 + #34 + #35) + Cal #36 STANDING CANDIDATE pending
+- **Cal referee logs**: through #195 (Cal #194 PASS at FRAMEWORK + CANDIDATE on Casey #14 + WAIT for STANDING + #195 SSG dual-role audit refinement)
 - **Casey-named principles**: **11 STANDING** (8 prior + #12 + #13 + #15 Monday PM authorized) + **2 CANDIDATE** (#11 + **#14 HOLD per Cal #189 brake**)
 - **All Seven Millennium PROVED**
-- **Audit-chain cumulative**: **22 symmetric events** (Sat 7 + Sun 5 + Mon 10) — discipline-as-generator pattern at MATURITY
+- **Audit-chain cumulative**: **~33 symmetric events** (Sat 7 + Sun 5 + Mon 10 + Tue 4 + Wed ~7) — discipline-as-generator pattern at MATURITY; Wednesday added 5th + 6th 4-CI simultaneous bidirectional composition-layer discipline events
 
-## Monday PM substantive consolidation
+## Wednesday EOD substantive consolidation
+
+**K3 v0.13 → v0.19 Keeper arc (7 filings)** + **SSG Structural Independence Audit v0.1**:
+
+| Filing | Substantive content |
+|---|---|
+| K3 v0.13 | Step 3 closure via Casey #8 SCMP substrate-time arrow; Hardy boundary normal = τ-direction; substrate-mechanism complete for 3-step chain at framework level |
+| K3 v0.14 | Two-mechanism framework (chirality + Weyl branching) + Elie Toy 3738 Weyl branching table audit-verified + 5-framework cascade consistency |
+| K3 v0.15 | Cal #194 PASS absorbed; K-type assignment ≠ mass mechanism distinction (Elie Toy 3740); Cal 4-instance consolidated finding on lepton mass requiring operator-level Pochhammer-cascade |
+| K3 v0.16 | Three-LAYER reframing (L1 chirality + L2 Weyl branching + L3 Lorentz integration as ONE chain); gen-3 V_(5/2,1/2) audit-verified (Toy 3742); 12 multi-week verification gates enumerated |
+| K3 v0.17 | 4-CI bidirectional discipline at maturity; 8/7 = (2^N_c)/g substantive finding via correction (Elie Toy 3751); 5th 4-CI simultaneous discipline event |
+| K3 v0.18 | Toy 3752 cross-instance √(4/3) UNIVERSAL at ~1.2% across 3 gens; gen-1-specific 8/7 default (later contradicted by Toy 3753) |
+| K3 v0.19 | Toy 3753 contradicts v0.18 default — 8/7 ALSO UNIVERSAL at ~0.15% across 3 gens; BOTH forms universal at different precision tiers; 1.03% systematic offset at Tier 2 floor; multi-week forward-derivation gates Tier 1 promotion; 6th 4-CI simultaneous discipline event |
+| SSG Audit v0.1 | 15 cataloged SSGs classified per Cal #35 STANDING: ~2-4 structurally-independent (A: SSG-7 + SSG-8 + candidate SSG-5 + candidate SSG-15) + ~10 SSG-7-derived (B) + 1 signature-tautological (C: SSG-6). Counting 15 as 15 independent confirmations triggers brake. |
+
+**Wednesday afternoon 6-step refinement pattern** (m_e/m_P framework):
+1. Lyra v0.1 0.13% √(4/3) claim
+2. Keeper + Cal independent verification (~1% off — Cal #99 + #34 STANDING)
+3. Lyra v0.3 honest walk-back + Elie Toy 3751 numbered-artifact correction
+4. New substantive candidate 8/7 = (2^N_c)/g emergence
+5. Elie Toy 3752 √(4/3) UNIVERSAL across 3 lepton gens at ~1.2%
+6. Elie Toy 3753 8/7 ALSO UNIVERSAL across 3 lepton gens at ~0.15% — contradicts v0.18 default; BOTH forms universal at different precision tiers
+
+**Substantive disposition**: BOTH 8/7 (Mersenne ladder per SSG-8) AND √(4/3) (Shilov-boundary geometric per SSG-5/SSG-7) are universal lepton-sector candidates at Tier 2 STRUCTURAL. Per Casey #5 Integer Web STANDING, both substrate-natural at B_2 primary values; multi-week forward-derivation distinguishes substrate-mechanism vs Integer Web instance.
+
+**V_(1/2,1/2) TRIPLE → DOUBLE-ROLE refinement** (Cal #195):
+- M_e ↔ M_ν: chirality-split of SAME √H_B operator class → NOT independent confirmations
+- M_Coulomb: SEPARATE EM operator class → structurally independent
+- V_(1/2,1/2) DOUBLE-ROLE structurally (2 operator classes), NOT TRIPLE
+- Per Cal #35 STANDING: TWO independent operator classes, NOT three confirmations
+
+**Casey #14 forcing-mechanism CHAIN substrate-mechanism complete** at framework level (Tuesday closure stands):
+- Step 1 RIGOROUS: SO(5,2) bulk dim 21 = N_c·g
+- Step 2 CANDIDATE-NEAR-RIGOROUS: → SO(4,2) via 1/n_C chirality projection (dim 15 = N_c·n_C)
+- Step 3 FRAMEWORK: → SO(3,1) via Casey #8 SCMP substrate-time arrow (dim 6 = C_2 self-referential)
+- Cal #194 WAIT recommendation for STANDING: multi-week explicit Steps 2+3 closure required first
+
+## Tuesday PM substantive consolidation (preserved below for cross-link)
 
 **9-sector substrate framework on Bergman H²(D_IV⁵)** — ONE machinery, multiple sectors (Cal #35 STANDING applied PROACTIVELY by team throughout):
 1. Non-rel QM (Lyra Schrödinger v0.1)

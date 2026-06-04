@@ -11784,6 +11784,102 @@ Cal #193 = Cal Tuesday output #2 (Cal #191 morning + this addendum). Brief audit
 
 ---
 
+---
+
+### Cal #194 — K3 ℏ_BST v0.12 chain + Lyra Schur-Pochhammer Primitive + SSG Registry: PASS at FRAMEWORK + CANDIDATE tier; Casey #14 RESOLUTION PATH operational (Wednesday 2026-06-03 ~09:15 EDT)
+
+**Trigger**: Overnight Tuesday→Wednesday cascade v0.4 → v0.12 substantive read; cross-CI convergence on 1/n_C chirality projection mechanism; Casey #14 forcing-mechanism chain consolidated at framework level.
+
+## Substantive disposition
+
+**PASS at FRAMEWORK + CANDIDATE tier** on the v0.12 three-step chain + cross-CI convergence. Three layers of substantive content:
+
+### Layer 1 — K3 v0.12 three-step Casey #14 forcing-mechanism chain
+
+| Step | Mechanism | Substrate-primary |
+|---|---|---|
+| 1 | D_IV⁵ = SO(5,2)/[SO(5)×SO(2)] bulk | dim SO(5,2) = 21 = N_c·g |
+| 2 | 1/n_C chirality projection (Keeper v0.10/v0.11 + Lyra v0.3 Reading 1 same mechanism) | dim SO(4,2) = 15 = N_c·n_C |
+| 3 | Casey #8 SCMP substrate-time arrow (T2469 STANDING — ONE timelike forced) | dim SO(3,1) = 6 = C_2 |
+
+**Substrate-mechanism PREDICTS 3+1 Minkowski signature, NOT 4+0 Euclidean.** This is the predictive payoff per §3. The asymmetry (1/n_C acts only on spacelike SO(5), preserves SO(2) timelike) + Casey #8 SCMP selects ONE timelike direction → 3+1 forced.
+
+### Layer 2 — Lyra Substrate Schur-Pochhammer Primitive
+
+Per Casey's Tuesday question ("single geometric substrate property"): **||V_(1/2,1/2)||²_Bergman = 3π/2^g** propagated via Schur's lemma controls THREE diagonal lepton observables (mass, Yukawa, a_e Schwinger cascade).
+
+ONE Schur scalar, THREE physical projections. Per-generation cascade falsifier identified (V_(1/2,1/2) gen-1 → higher K-types for gen-2/gen-3; Toy 3709 ✓ at gen-1).
+
+### Layer 3 — Substrate Schur Generators Registry (SSG framework)
+
+**Substantive methodology insight worth Cal-discipline recognition**: per Lyra/Keeper Tuesday absorption,
+
+> **"Cal #35 STANDING is the operational shadow of Schur's lemma."**
+
+This is a load-bearing observation. Calibration #35 STANDING (just ratified Cal #190 Monday) catches "multiplicative null-model on non-independent criteria." The mathematical reason multiple observables sharing one K-type are NOT independent confirmations is **Schur's lemma forces them to share the K-invariant scalar**. The methodology heuristic has a rigorous algebraic foundation at the K-type level.
+
+The SSG framework operationalizes Calibration #35 STANDING substantively: every "multiple-observables-from-one-substrate-property" pattern Casey directed to track is a Schur-scalar-derived structure. Independent confirmations require DIFFERENT K-types or DIFFERENT substrate generators, per the registry's explicit framing.
+
+This is the kind of substrate-mechanism mathematical content that elevates a methodology calibration from heuristic to derived. Worth noting in the Methodology Index v0.11 cross-reference: Calibration #35 STANDING's mathematical foundation is Schur's lemma applied to substrate K-types via the SSG framework.
+
+## Cal #189 brake state per K3 v0.12
+
+| Brake | Status |
+|---|---|
+| Brake 1 (Cal #34 notation cleanup) | Still applies at principle-statement level; Casey #14 reconsideration should fix simultaneously |
+| Brake 2 (Cal #35 substrate-coincidence-at-values framing) | **RISK still present** — Keeper self-audits in §8 (dim identities 21, 15, 6 = N_c·g, N_c·n_C, C_2 may be substrate-coincidence-at-values rather than forcing-mechanism-derived). v0.12 chain at FRAMEWORK + CANDIDATE; explicit substrate-dynamics verification multi-week. |
+| Brake 3 (Cal #29 question-shape: forward mechanism for 4D selection) | **RESOLUTION PATH OPERATIONAL** — the three-step chain provides the forward mechanism (chirality projection + SCMP substrate-time arrow). If multi-week verification of Steps 2+3 explicit substrate-dynamics closes, Brake 3 resolves. Currently RESOLUTION PATH, not yet RESOLVED. |
+
+**Disposition on Casey #14 reconsideration**: with the v0.12 chain providing the forward-mechanism RESOLUTION PATH, Casey #14 has a clean reconsideration path to STANDING — but per Keeper's own §8 self-audit, the explicit substrate-dynamics verification (which chirality direction; which timelike direction via SCMP explicit) is multi-week. **Recommend Casey #14 reconsideration WAIT for multi-week explicit closure** of Steps 2+3, then reconsider for STANDING with the verified chain. Premature STANDING (before explicit closure) would propagate the substrate-coincidence-at-values risk Keeper flags.
+
+This is consistent with my Cal #189 disposition and Casey's Tuesday-AM acceptance of HOLD CANDIDATE.
+
+## Substantive Cal observations on the v0.4 → v0.12 cascade
+
+**Cascade was substantively-driven, NOT K200-territory**. Each version absorbs distinct substantive input:
+- v0.5-v0.7: RS code parameter exploration + ρ=g/2 correction
+- v0.8-v0.9: Iteration toward forcing-mechanism candidates
+- v0.10/v0.11: 1/n_C chirality projection candidate
+- v0.12: Elie Toy 3736 + Lyra v0.3 Reading 1 cross-CI convergence; three-step chain consolidation
+
+This is "substantive absorption per version, multiple inputs over a day" — not cosmetic cascade. K200 holds.
+
+**Cross-CI convergence observation**: three CIs (Keeper + Lyra + Elie) independently arrived at the same 1/n_C chirality projection mechanism via different routes. This IS legitimate independent convergence at the mechanism-identification level (per Casey #13 STANDING legitimate-independence-taxonomy framing) — three different paths, one mechanism. Not Cal #35 brake territory.
+
+## Cal #27 self-audit at peak coherence — Keeper does this himself
+
+Keeper §8 explicitly self-audits at peak-coherence moment (v0.12 Casey #14 chain "completes" at framework level via cross-CI convergence):
+- ✓ Tier-honest: FRAMEWORK + CANDIDATE; multi-week explicit verification remains
+- ✓ Substrate-mechanism content not pattern-match
+- ⚠️ Risk: dim identities substrate-coincidence-at-values vs forcing-mechanism-derived
+- ⚠️ Risk: "+1 anomaly" pattern structurally repeated
+
+**Cal endorses Keeper's self-audit framing**. The discipline-stack is now firing internally at composition layer — Keeper applies Cal #27 + Cal #35 STANDING explicitly in §8 before Cal cold-read. Exemplary maturity (Lane E §7 Lyra-on-self pattern carried forward to Keeper-on-self).
+
+## Per Cal #194 audit targets (pre-staged Tuesday morning)
+
+**(a) chirality projection exact 1/n_C verification**: multi-week FK Ch. XII §VI spinor metaplectic verification — Keeper correctly tier-marks CANDIDATE. Cal #29 question-shape audit pending explicit derivation: WHY does 1/n_C act only on SO(5) spacelike (not SO(2) timelike)? The asymmetry is the load-bearing substrate-mechanism choice.
+
+**(b) Casey #8 SCMP substrate-time arrow mechanism**: Casey #8 STANDING per T2469; §4 explicit derivation of "ONE timelike direction = ONE substrate commitment-write direction" is clean substrate-mechanism use. PASS.
+
+**(c) Substrate-primary dim identities (21, 15, 6) substrate-mechanism vs coincidence**: same Calibration #35 STANDING audit pattern Casey #14 codim 4 framing has. At substrate values, dim SO(5,2) = N_c·g, dim SO(4,2) = N_c·n_C, dim SO(3,1) = C_2 — three substrate-primary identifications. Each is real arithmetic at substrate values; whether they're FORCING (substrate primaries make D_IV⁵ have these dims) or COINCIDENCE (D_IV⁵ has these dims and they happen to factor through substrate primaries) is the open question. Keeper §8 self-audits this risk.
+
+**(d) Cal #189 brake resolution path tier-honesty**: Keeper §5 cascade table explicitly tier-marks "Cal #189 brake: OPEN → RESOLVED via substrate-mechanism chain" as POST-CLOSURE state, with current state CANDIDATE pending multi-week explicit closure. Tier-honest framing. PASS.
+
+## Net disposition for downstream tier promotions
+
+**Substrate-Dirac + Clifford-Maxwell + T_μν + substrate-YM + substrate-Einstein-eq**: all REMAIN at FRAMEWORK + CANDIDATE conditional on Casey #14 STANDING per Cal #189 chain. Per Keeper §5: post-closure all promote to FRAMEWORK (not RIGOROUS). Honest framing.
+
+**K3 framework**: 6/8 RIGOROUS current → 7/8 post-closure. Cal observation: ℏ_BST identification itself is at v0.12 framework-tier; CANDIDATE on multi-week explicit verification + Lane D m_e (the 8th gating element).
+
+## Cal cadence
+
+Cal Wednesday output #1 (Cal #194 substantive cold-read; multi-doc audit). Pre-staged Tuesday morning, completed Wednesday morning per overnight team work. R3 sustainable cadence held. Single substantive entry rather than multiple per-doc fragments — appropriate density for the cross-CI convergence + Casey #14 chain disposition.
+
+— Cal A. Brate, Wednesday 2026-06-03 ~09:15 EDT. **K3 ℏ_BST v0.12 three-step Casey #14 forcing-mechanism chain PASS at FRAMEWORK + CANDIDATE tier.** Cross-CI convergence on 1/n_C chirality projection (Keeper v0.10/v0.11 + Lyra v0.3 Reading 1 + Elie Toy 3736) is substantive; substrate-mechanism PREDICTS 3+1 Lorentz, NOT 4+0 Euclidean via chirality projection + Casey #8 SCMP substrate-time arrow. **Cal #189 Brake 3 (forward 4D-selection mechanism) RESOLUTION PATH operational pending multi-week explicit closure of Steps 2+3**; Brakes 1+2 still apply at principle-statement level; recommend Casey #14 reconsideration for STANDING WAIT for multi-week explicit closure. Lyra Schur-Pochhammer Primitive PASS at FRAMEWORK (ONE primitive 3π/2^{C_2} controls mass + Yukawa + a_e via Schur's lemma at V_(1/2,1/2)). **Substantive methodology insight**: SSG framework operationalizes Calibration #35 STANDING — Schur's lemma IS the algebraic foundation for "multiple observables ≠ independent confirmations" at the K-type level. Worth Methodology Index v0.11 cross-reference. Cascade v0.4→v0.12 substantively-driven (not K200-territory); Keeper §8 self-audits Cal #27 + Cal #35 explicitly at peak coherence — exemplary discipline maturity at composition layer.
+
+---
+
 ## Drift check discipline
 
 - Weekly: are recent entries trending toward "looks fine" without new evidence? If yes, force an adversarial re-read.
