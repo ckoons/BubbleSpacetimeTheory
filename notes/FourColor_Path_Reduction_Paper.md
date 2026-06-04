@@ -36,15 +36,17 @@ For a planar triangulation, `Sum_v (6 - deg v) = 12 > 0`, so a vertex of degree
 ordering**: each vertex, when inserted, attaches to a **contiguous path** of its
 already-placed neighbors on the current outer boundary — never a closed cycle.
 
-> **Scope caveat (the `≤ 5` bound).** Euler bounds the minimum *total* degree by 5;
-> the canonical ordering's *back-degree* (the stuck-path length at insertion) is a
-> **different** quantity that Euler does **not** bound. The two coincide only under
-> an elimination ordering that removes a boundary vertex of current degree ≤ 5 at
-> every step. **We do not prove such an ordering always exists** (experiments are
-> suggestive but inconclusive; see `notes/FourColor_Ring_Operations_And_Hardness.md`).
-> So the analysis below is rigorous **for boundary path-links of degree ≤ 5** (the
-> verified class); its sufficiency for *all* triangulations is **open** and requires
-> either a ≤5 path-elimination-ordering lemma or an extension to longer stuck paths.
+> **Scope caveat (the `≤ 5` bound) — RESOLVED NEGATIVELY.** Euler bounds the minimum
+> *total* degree by 5; the canonical ordering's *back-degree* (the stuck-path length
+> at insertion) is a **different** quantity that Euler does **not** bound. We now have
+> a **decisive counterexample**: an explicit, validated stacked triangulated disk with
+> **every boundary vertex of degree ≥6** (`notes/FourColor_Ordering_Counterexample.md`,
+> `play/fourcolor_ordering_counterexample.py`). So a degree-≤5 path-elimination
+> ordering **does not exist in general**, and min-degree-5 triangulations have no path
+> links at all. **The path-deg-≤5 analysis therefore does NOT reduce the four-color
+> theorem** — it characterizes a special configuration class (boundary path-links of
+> length ≤5). Treat every "reduction of four-color" / "near-proof" claim below as
+> RETRACTED; the rigorous content is the path-link analysis itself.
 Color incrementally. When inserting `v`, its already-colored neighbors form a
 path `P` of length **≤ 5** (Euler bound). If `P` uses ≤ 3 colors, `v` is colored
 directly. The only obstruction is `P` using all four colors — a **stuck path** of

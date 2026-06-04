@@ -6,6 +6,13 @@ status: "FINAL FORM. A self-contained reduction of the four-color theorem (via a
 related: ["notes/FourColor_Path_Reduction_Paper.md","notes/FourColor_Cutspace_Linear_Form.md","notes/FourColor_Type_Flat.md","notes/FourColor_Hard_Core_Located.md","play/fourcolor_seven_flats.py"]
 ---
 
+> **RETRACTION (2026-06-04).** The "reduction of four-color" framing below is
+> **withdrawn**: a degree-≤5 path-elimination ordering does **not** exist in general
+> (explicit counterexample, `notes/FourColor_Ordering_Counterexample.md`). What
+> follows is rigorous as a **linear-algebra / coding analysis of the boundary
+> path-deg-≤5 Kempe-freeing configuration class**, not a reduction of the theorem.
+> Read "four-color residual" as "path-deg-≤5 residual" throughout.
+
 # Four-Color as Linear Algebra: a minimal representation
 
 ## One paragraph
