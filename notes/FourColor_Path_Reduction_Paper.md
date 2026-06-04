@@ -234,6 +234,7 @@ Completeness is closed; locality is closed except for (R).
 | completeness of type set | **CLOSED: realizable ⊆ predicate (proven, modulo classical Kempe separation); = exactly 104** |
 | locality of reducibility | **count type-local PROVEN modulo (R)**; lemmas A,B proven; (R) = ≤2-reducibility, verified 1.5M |
 | **(R) residual** | **decomposes to 7 explicit types / 4 ring-orbits** (97/104 are single-swap); rep-theory target (`R_Decomposition`) |
+| **linear-algebra form** | colors = `F_2^2`, swaps = additions, freeing = affine "miss"; single-swap layer = `F_2` feasibility, 0 mismatch/104k (`LinearAlgebra_Reduction`) |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
 double-swap-reducible, closed-form set — honestly one completeness/locality
