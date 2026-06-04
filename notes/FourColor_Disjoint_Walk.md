@@ -59,5 +59,10 @@ where the two regions necessarily interact along one boundary.**
   cut — candidate for a parity argument).
 - **Quotient by the terminal** `⟨(1,…,1)⟩` and test the disjoint decomposition in
   the reduced code, where the genuine freeing directions live.
-- Characterize the ~16% adjacent-only instances by their co-chaining: do they
-  concentrate in one of the two sets (spanning vs non-spanning)?
+- Characterize the adjacent-only instances by their co-chaining: **DONE** — they
+  appear in both sets but **concentrate in Set B (spanning), 28%, vs Set A
+  (non-spanning), 16%.** The spanning chord `(0,4)` is where the two disjoint
+  regions are most often forced to interact along a boundary — the same "key" that
+  governed completeness, the enclosure law, and the set split now also marks where
+  the realizability walk resists. The hard core lives, preferentially, on the
+  spanning code.
