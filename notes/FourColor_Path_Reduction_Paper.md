@@ -15,11 +15,14 @@ configurations**, prove the degree-4 case in closed form, and **computer-verify*
 the degree-5 case over 1.5M instances. We give a **closed-form characterization**
 of the realizable degree-5 types and **prove its necessity** (Jordan curve +
 classical Kempe separation), which **closes the completeness obligation**: the
-realizable type set is exactly **104**. This is still **not** a complete proof of
-four-color: one standard reducibility obligation — *locality* of reducibility —
-remains open and is stated explicitly. Four-color itself is a theorem (Appel-Haken
-1976; Gonthier's Coq formalization 2005); this is a candidate *simpler reduction*,
-honestly bounded, now one (locality) obligation short.
+realizable type set is exactly **104**. For *locality* we prove the min-swap count
+is type-local **modulo one residual reducibility statement (R)** — that every
+stuck path-deg-5 type is ≤2-swap reducible (verified over 1.5M instances). This is
+still **not** a complete proof of four-color: (R) is the lone remaining kernel,
+the direct analog of Birkhoff/Appel-Haken reducibility on ~100 rigid path-types.
+Four-color itself is a theorem (Appel-Haken 1976; Gonthier's Coq formalization
+2005); this is a candidate *simpler reduction*, honestly bounded — now everything
+but a single, sharp reducibility statement.
 
 ## 1. The reduction (Euler → canonical order → paths ≤ 5)
 
@@ -184,15 +187,26 @@ remains. Both are **bounded** (not open-ended):
    verified, 0 exceptions in 154k instances; toy
    `play/fourcolor_enclosure_law_proof_support.py`, 6/6). Completeness is closed;
    **locality** (Sec. 5.2) is now the sole remaining reducibility obligation.
-2. **Locality.** Prove ≤2-swap resolvability is determined by the local type.
-   This now holds **empirically in the strong form**: the *exact* min-swap count
-   is a function of the type (zero variation across 1.5M instances). Remaining:
-   the structural argument that the boundary co-chaining is a complete invariant
-   for the swap dynamics (the first swap's boundary effect is type-determined;
-   the obligation is that the second swap's existence is too).
+2. **Locality — PROVEN modulo one reducibility statement**
+   (`notes/FourColor_Locality_Status.md`). Two lemmas are proved deductively:
+   **(A) complementary-invariance** — an `(a,b)`-swap leaves every disjoint
+   `(c,d)`-subgraph and its co-chaining invariant (so a freeing 2-swap must share
+   a color; complementary 2-swaps free 0/6191 instances); **(B) single-swap
+   freeability is type-local** — a single swap's link-effect is read directly off
+   the local type, so whether 1 swap frees `v` is a function of the type (0
+   variation across all 2,496 signatures). Hence the **min-swap count is
+   type-local** given one residual: **(R) every stuck path-deg-5 type is ≤2-swap
+   reducible** (count `=1` on single-freeable types, `=2` on the rest). (R) is the
+   irreducible kernel — verified over 1.5M instances (0 failures), the direct
+   analog of Birkhoff/Appel-Haken reducibility but on ~100 rigid path-types and
+   one swap of search depth. Sharpened: the freeing recipe is genuinely non-local
+   (the good-first-swap set varies across instances, never empty), so (R) is not a
+   finite type-table lookup — it is a real reducibility theorem still to be
+   discharged.
 
-Closing both = a complete (computer-assisted) four-color proof via this reduction,
+Closing (R) = a complete (computer-assisted) four-color proof via this reduction,
 on ~100 rigid path-types instead of Appel-Haken's ~600 general configurations.
+Completeness is closed; locality is closed except for (R).
 
 ## 6. Summary
 
@@ -203,7 +217,7 @@ on ~100 rigid path-types instead of Appel-Haken's ~600 general configurations.
 | `tau_strict ≤ 4` (conservation of color charge) | **PROVEN (enumeration)** |
 | deg-5 (length-5) double-swap reducible | **VERIFIED, 1.5M instances, 0 failures** |
 | completeness of type set | **CLOSED: realizable ⊆ predicate (proven, modulo classical Kempe separation); = exactly 104** |
-| locality of reducibility | open; **strong: min-swap is type-determined, 0 variation** |
+| locality of reducibility | **count type-local PROVEN modulo (R)**; lemmas A,B proven; (R) = ≤2-reducibility, verified 1.5M |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
 double-swap-reducible, closed-form set — honestly one completeness/locality
