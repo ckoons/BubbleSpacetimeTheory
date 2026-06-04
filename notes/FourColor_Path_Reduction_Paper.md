@@ -240,3 +240,11 @@ Completeness is closed; locality is closed except for (R).
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
 double-swap-reducible, closed-form set — honestly one completeness/locality
 argument short of a proof.
+
+**Final form.** The whole arc is consolidated in
+`notes/FourColor_Minimal_Linear_Representation.md`: colors = `F_2^2`, Kempe swaps =
+translations (`S_4 = AGL(2,2)`), freeing = a fixed per-type `F_2`-subspace meeting
+an affine miss-set; everything reduces to whether **seven explicit subspaces of
+`F_2^{10}` realize their freedom** (the four-color-equivalent core), with the
+forward direction proven and all seven shown to meet the free-set
+(`play/fourcolor_seven_flats.py`).
