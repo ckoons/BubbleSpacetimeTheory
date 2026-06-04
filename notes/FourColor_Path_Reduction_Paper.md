@@ -235,6 +235,7 @@ Completeness is closed; locality is closed except for (R).
 | locality of reducibility | **count type-local PROVEN modulo (R)**; lemmas A,B proven; (R) = ≤2-reducibility, verified 1.5M |
 | **(R) residual** | **decomposes to 7 explicit types / 4 ring-orbits** (97/104 are single-swap); rep-theory target (`R_Decomposition`) |
 | **linear-algebra form** | colors = `F_2^2`, swaps = additions, freeing = affine "miss"; single-swap layer = `F_2` feasibility, 0 mismatch/104k (`LinearAlgebra_Reduction`) |
+| **cut-space form** | freeable ⇔ cut-vector span `W` meets the miss-set; `S_4=AGL(2,2)`; **0 mismatch / 67,550, all 104 types** (`Cutspace_Linear_Form`) |
 
 A clean reduction with the hard half (deg-5) compressed to a small, finite,
 double-swap-reducible, closed-form set — honestly one completeness/locality
