@@ -59,10 +59,27 @@ where the two regions necessarily interact along one boundary.**
   cut — candidate for a parity argument).
 - **Quotient by the terminal** `⟨(1,…,1)⟩` and test the disjoint decomposition in
   the reduced code, where the genuine freeing directions live.
-- Characterize the adjacent-only instances by their co-chaining: **DONE** — they
-  appear in both sets but **concentrate in Set B (spanning), 28%, vs Set A
-  (non-spanning), 16%.** The spanning chord `(0,4)` is where the two disjoint
-  regions are most often forced to interact along a boundary — the same "key" that
-  governed completeness, the enclosure law, and the set split now also marks where
-  the realizability walk resists. The hard core lives, preferentially, on the
-  spanning code.
+## Swing 1 conclusion: even regions + a single-coordinate correction
+
+Following the boundary-growth angle to its end:
+
+- The **link effect of every residual freeing 2-swap is two disjoint-support flips**
+  `g1·s1 ⊕ g2·s2` (the 100% disjoint result restated at link level) — always clean.
+- **83%** free with two **original** disjoint components (no growth at all; the
+  second swap is valid in the starting coloring).
+- Of the remaining ~17%, the required component **growth is usually interior-only**
+  (it does not touch the link in ~69% of them), so the link effect is *still* the
+  clean `g1·s1 ⊕ g2·s2`.
+- In the rare cases where growth reaches the link, it touches **exactly one link
+  position** (observed footprints are always singletons) — a **single-coordinate
+  `F_4` correction.**
+
+So the mechanism matches Casey's reading of the codes exactly: the bulk is an
+**even** pair of disjoint regional flips (swaps), and the only correction is a
+**single 1** — the weight-1 direction present in each code — atop the **terminal**.
+"All even parity except one single 1; all point to swaps, and a terminal" is the
+literal anatomy of the freeing walk.
+
+This did not close realizability (the existence of the pair for every interior is
+still the four-color-hard part), but it identifies the walk's structure completely:
+two even regional swaps plus, at worst, one single-coordinate move.
