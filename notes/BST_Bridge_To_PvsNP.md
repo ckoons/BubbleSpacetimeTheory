@@ -161,3 +161,40 @@ degree regime; the size regime is the famous open problem; the boundary between 
 EF/IPS, and the intermediary step is precisely *converting expansion into algebraic-
 circuit hardness for `phi'`* -- a real, named, currently-open research target, with the
 constant-depth case (LST machinery) the first place to attempt it.
+
+---
+
+## CORRECTION (after reading the IPS literature) — the CNF carry was wrong
+
+I asserted "constant-depth IPS = a reachable plank for the random CNF residual `phi'`"
+without checking how IPS lower bounds are actually proven. Reading the literature
+(Forbes-Shpilka-Tzameret-Wigderson; Govindasamy-Hakoniemi-Tzameret 2022;
+Hakoniemi-Limaye-Tzameret 2024) overturns that claim.
+
+**How IPS lower bounds are actually proven.** The **Functional Lower Bound Method**
+(FSTW): to lower-bound the IPS size of `f(x) = 0` with no Boolean roots, show that
+`1/f` over the Boolean cube requires large algebraic circuits. Constant-depth IPS
+lower bounds (GHT 2022 + LST) are proven for **subset-sum / knapsack** instances — a
+*single algebraic polynomial with no Boolean root*, so `1/f` is well-defined.
+
+**The barrier (decisive).** The functional method **cannot** prove IPS lower bounds
+for hard *Boolean* instances (CNFs); and over finite fields, CNF IPS lower bounds are
+**equivalent to full algebraic circuit lower bounds** (`VP` vs `VNP`). So:
+
+> The zero-cascade reduction outputs a **random CNF** `phi'` — exactly the instance
+> type the only known IPS method **cannot** touch. Constant-depth IPS for `phi'` is
+> NOT a reachable rung; it is barred by the method and equivalent to the full open
+> problem. My "reachable plank" claim is **retracted.**
+
+The bridge therefore really stops at the **degree regime (SoS/PC)** for CNF fuel; the
+jump to IPS is blocked for CNFs not merely by difficulty but by a known methodological
+barrier.
+
+**The constructive consequence: re-fuel with subset-sum.** The IPS technology runs on
+subset-sum (where `1/f` is meaningful). Subset-sum has a backbone, and **fixing a
+backbone bit of a subset-sum yields another subset-sum with no Boolean solution** — the
+exact single-polynomial shape the functional method needs. So re-fueling the vehicle
+with subset-sum instead of 3-SAT gives genuine **constant-depth IPS** certified-
+extraction hardness via GHT/FSTW, on the instance type the literature actually handles.
+That is the correct rung — subset-sum backbone, not random-3-SAT backbone (an honest
+narrowing, but the version that meshes with the real method).
