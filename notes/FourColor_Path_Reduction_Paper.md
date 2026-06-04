@@ -20,9 +20,14 @@ is type-local **modulo one residual reducibility statement (R)** — that every
 stuck path-deg-5 type is ≤2-swap reducible (verified over 1.5M instances). This is
 still **not** a complete proof of four-color: (R) is the lone remaining kernel,
 the direct analog of Birkhoff/Appel-Haken reducibility on ~100 rigid path-types.
-Four-color itself is a theorem (Appel-Haken 1976; Gonthier's Coq formalization
-2005); this is a candidate *simpler reduction*, honestly bounded — now everything
-but a single, sharp reducibility statement.
+**(R) is four-color-equivalent** given the reduction — (R) + the reduction imply
+four-color — so it carries the full hardness; the contribution is a clean
+*reformulation* that localizes all of four-color into one sharp ≤2-swap statement
+on ~100 ring-structured types, not a shortcut around it
+(`notes/FourColor_Ring_Operations_And_Hardness.md`). Two honest caveats bound the
+scope: (i) the `≤ 5` path bound is not proven (Section 1 caveat); (ii) (R) itself
+is verified, not proven. Four-color itself is a theorem (Appel-Haken 1976;
+Gonthier's Coq formalization 2005).
 
 ## 1. The reduction (Euler → canonical order → paths ≤ 5)
 
@@ -30,6 +35,16 @@ For a planar triangulation, `Sum_v (6 - deg v) = 12 > 0`, so a vertex of degree
 ≤ 5 always exists. Order the vertices by a **canonical (de Fraysseix-Pach-Pollack)
 ordering**: each vertex, when inserted, attaches to a **contiguous path** of its
 already-placed neighbors on the current outer boundary — never a closed cycle.
+
+> **Scope caveat (the `≤ 5` bound).** Euler bounds the minimum *total* degree by 5;
+> the canonical ordering's *back-degree* (the stuck-path length at insertion) is a
+> **different** quantity that Euler does **not** bound. The two coincide only under
+> an elimination ordering that removes a boundary vertex of current degree ≤ 5 at
+> every step. **We do not prove such an ordering always exists** (experiments are
+> suggestive but inconclusive; see `notes/FourColor_Ring_Operations_And_Hardness.md`).
+> So the analysis below is rigorous **for boundary path-links of degree ≤ 5** (the
+> verified class); its sufficiency for *all* triangulations is **open** and requires
+> either a ≤5 path-elimination-ordering lemma or an extension to longer stuck paths.
 Color incrementally. When inserting `v`, its already-colored neighbors form a
 path `P` of length **≤ 5** (Euler bound). If `P` uses ≤ 3 colors, `v` is colored
 directly. The only obstruction is `P` using all four colors — a **stuck path** of
