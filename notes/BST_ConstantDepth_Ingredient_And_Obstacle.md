@@ -75,3 +75,31 @@ object of a random expander 3-CNF constant-depth-algebraically hard (high SPD), 
 it constant-depth-easy (small circuit despite high degree)?** Settling that -- either
 direction -- is the genuine content. Our vehicle carries iff the answer is "hard," and
 the current evidence (sparse fuel, degree!=size) does not promise it.
+
+---
+
+## CORRECTION (test, don't assume): the small-scale SPD lean was unsupported
+
+I ran the actual test instead of leaning on the dense-vs-sparse heuristic, and it forces
+a retraction.
+
+**How the degree machine works (computed).** Nullstellensatz/PC refutation = a *rank
+threshold*: `1` enters `Span{ multilinear(m * p_C) : deg <= d }` exactly at the NS
+degree; below it, a dual functional witnesses the lower bound. Verified on UNSAT random
+3-CNF (`n=6,8,10`, NS degree `= 4` for these dense easy instances; the `Omega(n)` growth
+is a near-threshold/expander effect visible only at large `n`).
+
+**Why the SPD/constant-depth question is NOT testable at our scales.** At NS degree `4`
+with degree-3 clauses, the certificate components `g_C` have degree `<= 4 - 3 = 1` --
+**linear**. Linear polynomials have trivially tiny circuits and trivially small SPD. So
+at every computable size the certificate is *trivially constant-depth-easy*: **there is
+no circuit-hardness signal to read.** SPD/constant-depth hardness is asymptotic (high
+degree, many variables); the hardness regime (near-threshold, large `n`, high-degree
+certificate) is exactly where the certificate is computationally out of reach.
+
+**Retraction.** The earlier lean -- "sparse fuel leans low-SPD, so the carry probably
+fails" -- was an **assumption, not a test**. The `SPD(dense) > SPD(sparse)` computation
+was about *generic* polynomials, not the *actual random-formula certificate*, and does
+not transfer. The honest status of the constant-depth IPS carry for random `phi'` is
+**genuinely open** -- computation at accessible scales cannot settle it (no signal),
+and only the analytic LST/expansion machinery can. I should not have leaned either way.
