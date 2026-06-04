@@ -702,3 +702,88 @@ Per Cal #27 + Cal #34 + Cal #189: honest Tier 2 STRUCTURAL classification preser
 Multi-CI bidirectional discipline pattern continuing to refine the disposition at sharper framing through team verification.
 
 — Lyra, Wed 2026-06-03 ~16:42 EDT. v0.7: Elie Toy 3753 cross-instance 8/7 = (2^N_c)/g UNIVERSAL across 3 lepton/Planck generations at ~0.15% absorbed; CONTRADICTS K3 v0.18 + my v0.6 "gen-1 coincidence" framing; both 8/7 AND √(4/3) universal substrate-natural forms at different precision tiers; multi-week forward-derivation distinguishes substrate-mechanism FORCING form per Cal #189; honest Tier 2 STRUCTURAL preserved.
+
+---
+
+## v0.8 Thursday Cascade + Gate 2 Cross-Link (~09:35 EDT)
+
+### Casey #14 STANDING + Cal #36 STANDING + 5-Framework Cascade Absorption
+
+Per Thursday morning Casey directives:
+- **Casey #14 PROMOTED STANDING + RETITLED** "Substrate-Predicted 3+1 Minkowski Signature"
+- **Cal #36 STANDING RATIFIED** + 7-element discipline stack CLOSED
+- **5-framework cascade promotion** (substrate-Dirac + Maxwell + T_μν + YM + Einstein eq → FRAMEWORK)
+- **Strong-Uniqueness 10 → 11 STANDALONE legs** (C25 ratifies)
+- **K3 6/8 → 7/8 RIGOROUS path** via SSG-1 NEAR-RIGOROUS
+
+### Impact on m_e/m_P Framework
+
+Wednesday afternoon ended with TWO universal substrate-natural candidates:
+- 8/7 = (2^N_c)/g at ~0.15% (substrate-Mersenne algebraic Integer Web)
+- √(4/3) = √(Vol(S⁴)/Vol(S³)) at ~1.2% (substrate-Shilov-boundary geometric)
+
+Thursday Gate 2 Section 4.5 substrate-vacuum 2-region partition v0.1 (filed ~09:05 EDT) sets up explicit forward-derivation path for √(4/3) via:
+- Substrate-vacuum bulk + Shilov boundary 2-region partition
+- Casey #12 substrate bulk-boundary projection (STANDING)
+- Casey #14 codim-4 restriction (STANDING per Thursday promotion)
+- Vol(S⁴)/Vol(S³) = 4/3 surface-area Jacobian
+- Mass-dim-1 √-power
+
+### Casey #14 STANDING Strengthens √(4/3) Candidate
+
+With Casey #14 STANDING ratified, the substrate-mechanism chain for substrate-Shilov-boundary projection has substantively closed at FRAMEWORK level:
+- 1/n_C chirality projection → 4D physical Lorentz (Casey #14 STANDING)
+- 4D → 3D spatial observable projection via Shilov-boundary topology
+- Vol(S⁴)/Vol(S³) Jacobian + mass √-power → √(4/3) factor
+
+**Per Cal #189 question-shape (now operational at Casey #14 STANDING tier)**: forward-derivation has substrate-mechanism CHAIN content; explicit multi-week closure (Section 4.5 Steps 4.5-1 to 4.5-7) gates RIGOROUS promotion.
+
+### A/B/C Classification of m_e/m_P Candidates (SSG Registry v0.15)
+
+Per SSG Registry v0.15 A/B/C classification:
+- **√(4/3) substrate-Shilov-boundary**: derives from SSG-7 Bergman kernel ULTIMATE source (Category A) + Casey #12 bulk-boundary projection mechanism + Casey #14 codim-4 → Category B (SSG-7-derived via projection)
+- **8/7 = (2^N_c)/g**: derives from SSG-8 Mersenne ladder (Category A independent) + substrate-Clifford-restriction reading → Category A-derived via substrate-Mersenne mechanism
+
+Both candidates have Category A independent substrate-generator parents (SSG-7 Bergman kernel for √(4/3); SSG-8 Mersenne ladder for 8/7); they are SUBSTANTIVELY DISTINCT substrate-mechanisms not redundant readings.
+
+### Refined Hypothesis A/B/C (from v0.7 + Thursday cascade)
+
+**Hypothesis (A) refined**: √(4/3) leading substrate-Shilov-boundary substrate-mechanism FORCING form via Casey #12 + Casey #14 substrate-mechanism chain; 8/7 sub-leading substrate-Mersenne SSG-8 Integer Web instance coincidentally tracking √(4/3) within Cal #34 Tier 2 floor.
+
+**Hypothesis (B) refined**: 8/7 leading substrate-Mersenne SSG-8 substrate-mechanism FORCING form; √(4/3) substrate-Shilov-boundary projection is the universal substrate-geometric correction within Tier 2 STRUCTURAL.
+
+**Hypothesis (C) refined**: BOTH substrate-mechanisms simultaneously active at different levels — √(4/3) universal substrate-geometric prefactor + 8/7 substrate-Mersenne algebraic correction; cross-instance tightness of 8/7 (~0.15% vs 1.2%) reflects substrate-Mersenne completeness for substrate-mass observables.
+
+**Casey #14 STANDING tilts toward Hypothesis (A) or (C)**: substrate-Shilov-boundary substrate-mechanism CHAIN now substrate-mechanism-derived at FRAMEWORK level via Casey #14 + Casey #12 substrate-projection chain. Multi-week Section 4.5 explicit derivation distinguishes.
+
+### Cross-Instance Universality Implications (Wednesday 3752 + 3753)
+
+Wednesday Elie cross-instance verification: BOTH 8/7 AND √(4/3) UNIVERSAL across 3 lepton/Planck generations.
+
+**Per Cal #35 STANDING + Cal #36 STANDING (Schur shadow + positive search)**:
+- Cross-instance universality is substrate-mechanism EXPECTED per Casey #5 Integer Web + Cal #35-honest (one substrate machinery, multiple observables; cross-instance consistency NOT 3 independent confirmations since T190 + T2003 RATIFIED PRIOR)
+- Both 8/7 (Mersenne algebraic) and √(4/3) (Shilov geometric) universal across 3 generations IS substrate-mechanism content (both substrate-natural readings at substrate values; multi-week distinguishes)
+
+### Updated m_e/m_P Substantive Status v0.8
+
+**Substrate-mechanism candidate forms** (both universal at Tier 2 STRUCTURAL per Wednesday cascade + Thursday cascade absorption):
+$$\frac{m_e}{m_P} \approx \frac{8}{7} \cdot \alpha^{10.5}$$
+
+(SSG-8 Mersenne at 0.15 percent; substrate-Clifford-restriction)
+
+$$\frac{m_e}{m_P} \approx \sqrt{\frac{4}{3}} \cdot \alpha^{10.5}$$
+
+(SSG-7-derived Shilov at 1.2 percent; Casey-12 + Casey-14 chain)
+
+**Per Casey #14 STANDING + 7-element discipline stack CLOSED + Cal #194 WAIT**: substrate-mechanism CHAIN sufficient at FRAMEWORK level; Section 4.5 multi-week explicit derivation gates RIGOROUS promotion.
+
+### Closure v0.8
+
+m_e/m_P 1.156 Correction Framework v0.8 Thursday cascade absorption:
+- Casey #14 STANDING + Cal #36 STANDING + 5-framework cascade absorbed
+- A/B/C classification: √(4/3) Category B (SSG-7-derived via Casey #12 projection); 8/7 Category A (SSG-8 Mersenne ladder)
+- BOTH SUBSTANTIVELY DISTINCT substrate-mechanisms — not redundant readings of same substrate-mechanism
+- Casey #14 STANDING tilts toward Hypothesis (A) or (C): substrate-Shilov-boundary substrate-mechanism chain now substrate-mechanism-derived at FRAMEWORK level
+- Multi-week Section 4.5 Gate 2 explicit derivation distinguishes Hypothesis (A) vs (B) vs (C)
+
+— Lyra, Thu 2026-06-04 ~09:35 EDT. v0.8: Thursday cascade absorbed (Casey #14 STANDING + Cal #36 + 5-framework + SU 11 legs + K3 7/8 RIGOROUS path); A/B/C classification distinguishes √(4/3) Category B SSG-7-derived from 8/7 Category A SSG-8 Mersenne; both substantively distinct universal substrate-mechanism candidates; multi-week Section 4.5 Gate 2 forward-derivation distinguishes Hypothesis (A) substrate-Shilov-leading vs (B) substrate-Mersenne-leading vs (C) both-at-different-levels.

@@ -240,3 +240,107 @@ Per Cal #35 STANDING-honest: ONE substrate-mechanism (Lorentz-integration mass v
 Per Casey-correction on Cal #27 scope: investigation continues forward at framework level; explicit closure pending multi-week. The framework now has CONCRETE substrate-mechanism content for each gate, sharpening the multi-week verification target.
 
 — Lyra, Wed 2026-06-03 ~10:35 EDT. Mehler Matrix Element Framework v0.1: operator-level mass mechanism via M_op = √H_B + Lorentz integration over SO(3, 1); Casimir eigenvalues + Pochhammer ratios separated; W_λ Lorentz-integration weight identified as operator-level structure; gates #4-#7 at FRAMEWORK PRE-STAGE; multi-week Helgason / FK Ch. XII §VI closure path explicit.
+
+---
+
+## v0.2 Thursday Extension (~09:15 EDT) — Helgason Ch. IX Explicit Content + Casey #14 STANDING Absorption
+
+### Casey #14 STANDING Promotion — Cascade Impact
+
+Per Thursday morning Casey directive: Casey #14 STANDING ratifies the chirality-projection mechanism + Mechanism 2 Weyl branching + Mechanism 3 Lorentz integration THREE-mechanism framework at substrate-mechanism CHAIN level. SSG-1 V_(1/2, 1/2) Bergman norm promoted to NEAR-RIGOROUS.
+
+**Implication for Mehler matrix element framework**: M_op Mehler kernel acting on V_(1/2, 1/2) now has substrate-mechanism CHAIN sufficient at FRAMEWORK level. Explicit closure remains multi-week per Cal #189 question-shape.
+
+### Helgason Ch. IX Heat Semigroup on Bounded Symmetric Domains
+
+Per Helgason 1962/1984 Chapter IX (geodesic decomposition + heat kernel on bounded symmetric domains): for D_IV⁵ = SO_0(5, 2) / [SO(5) × SO(2)], the heat semigroup e^(-τ Δ_B) on Bergman H²(D_IV⁵) decomposes into K-type projections:
+
+$$e^{-\tau \Delta_B} = \sum_\lambda e^{-\tau \mu_\lambda} P_\lambda$$
+
+where Δ_B is the Bergman Laplacian, μ_λ is the eigenvalue on K-type V_λ, and P_λ is the projection onto V_λ.
+
+**Bergman Laplacian eigenvalue on K-type V_λ**:
+$$\mu_\lambda = \frac{1}{\hbar_{\text{BST}}} \langle \lambda, \lambda + 2\rho \rangle = \frac{C_\lambda}{\hbar_{\text{BST}}}$$
+
+where C_λ is the Casimir eigenvalue computed in v0.1 §2 + ρ = (3/2, 1/2) for B_2.
+
+**Mehler kernel form on D_IV⁵** (per Helgason 1962 + FK Ch. XII §VI):
+$$K_{\text{Mehler}}(z, w; \tau) = c_{FK} \cdot \sum_\lambda e^{-\tau C_\lambda / \hbar_{\text{BST}}} \cdot \frac{\overline{P_\lambda(w)} \cdot P_\lambda(z)}{\|V_\lambda\|^2_{FK}}$$
+
+where P_λ(z) are the K-type-projection polynomials and c_FK = 225/π^(9/2).
+
+### M_op = √H_B Mehler-Like Kernel
+
+M_op = √H_B = √Δ_B has a Mehler-like kernel via spectral calculus:
+
+$$\langle V_\lambda | M_{\text{op}} | V_\lambda \rangle = \sqrt{C_\lambda} \cdot \|V_\lambda\|^2_{FK}$$
+
+**For V_(1/2, 1/2) gen-1 spinor K-type** (using Keeper K3 v0.9 ρ = g/2 correction):
+- C_(1/2, 1/2) = 5/2 (computed v0.1)
+- ||V_(1/2, 1/2)||²_FK = 15π/2^g = 15π/128 ≈ 0.368 (Keeper K3 v0.9)
+- ⟨V_(1/2, 1/2) | M_op | V_(1/2, 1/2)⟩ = √(5/2) · 15π/128 = √(5/2) · 15π/2^g
+
+**Substrate-mass scalar at gen-1**:
+$$\langle V_{(1/2, 1/2)} | M_{\text{op}} | V_{(1/2, 1/2)} \rangle = \sqrt{\frac{5}{2}} \cdot \frac{15\pi}{128} = \sqrt{\frac{n_C}{rank}} \cdot \frac{N_c \cdot n_C \cdot \pi}{2^g}$$
+
+substrate-clean form (per K3 v0.9 corrected ρ = g/2).
+
+### Per-Chirality Reading (Casey #14 STANDING)
+
+Per Casey #14 STANDING "Substrate-Predicted 3+1 Minkowski Signature" + 1/n_C chirality projection mechanism: physical observable picks up 1/n_C projection from full FK Bergman norm.
+
+**Per-chirality M_op scalar**:
+$$\langle V_{(1/2, 1/2)} | M_{\text{op}} | V_{(1/2, 1/2)} \rangle_{\text{per-chirality}} = \frac{1}{n_C} \cdot \sqrt{\frac{5}{2}} \cdot \frac{15\pi}{2^g} = \sqrt{\frac{n_C}{rank}} \cdot \frac{N_c \cdot \pi}{2^g} = \sqrt{\frac{5}{2}} \cdot \frac{3\pi}{2^g}$$
+
+substrate-natural form matching Saturday Elie Toy 3695 ||f_(1/2, 1/2)||² = 3π/2^g × √(C_(1/2,1/2)) prefactor.
+
+### Mass-Coupling Primitive via "+1 Anomaly"
+
+Per Elie Toy 3680 "+1 anomaly" g - 1 = C_2:
+$$\frac{3\pi}{2^g} = \frac{3\pi}{2 \cdot 2^{C_2}} = \frac{1}{2} \cdot \frac{3\pi}{2^{C_2}}$$
+
+Combined with substrate matter-coupling bilinear factor 2:
+$$m_e^{\text{substrate}} = 2 \cdot \sqrt{\frac{n_C}{rank}} \cdot \frac{3\pi}{2^g} \cdot m_{\text{anchor}} = \sqrt{\frac{n_C}{rank}} \cdot \frac{3\pi}{2^{C_2}} \cdot m_{\text{anchor}}$$
+
+substrate-clean operator-level mass-coupling primitive.
+
+### Gate #4 + #7 v0.2 Status
+
+| Gate | Status v0.2 |
+|---|---|
+| #4 M_op Mehler kernel | **FRAMEWORK + Helgason Ch. IX explicit form** (this v0.2 section) |
+| #7 gen-1 V_(1/2, 1/2) cross-check | **FRAMEWORK + explicit √(5/2) · 3π/2^g substrate-clean form** |
+
+Multi-week explicit closure: explicit Helgason Ch. IX + FK Ch. XII §VI computation of (a) Casimir-weighted Mehler kernel coefficients for full M_op = √H_B, (b) Lorentz-integration weight W_λ for V_(3/2, 1/2) gen-2 producing T190 = (24/π²)^{C_2}, (c) extension to V_(5/2, 1/2) gen-3 T2003 mass mechanism heterogeneity.
+
+### Casimir Ratios Across Spinor-Tower
+
+Per v0.1 §2 + Wednesday Elie Toy 3742 spinor-tower row STRUCTURALLY COMPLETE:
+
+| Gen | K-type | Casimir C_λ | √(C_λ) | √(C_λ) ratio to gen-1 |
+|---|---|---|---|---|
+| 1 (e) | V_(1/2, 1/2) | 5/2 | √(5/2) ≈ 1.581 | 1.000 |
+| 2 (μ) | V_(3/2, 1/2) | 15/2 | √(15/2) ≈ 2.739 | √3 = 1.732 |
+| 3 (τ) | V_(5/2, 1/2) | 29/2 | √(29/2) ≈ 3.808 | √(29/5) ≈ 2.408 |
+
+Casimir-eigenvalue ratios contribute **√3 (gen-1→2) + √(29/5) (gen-1→3)** to operator-level M_op observables. These multiply with K-type Pochhammer ratios (Elie 3742: 2^rank for 1→2, n_C for 2→3) and Lorentz-integration W_λ weights (per Mechanism 3) to produce per-generation mass ratios.
+
+**Multi-week explicit composition**:
+$$\frac{m_\mu}{m_e} = \frac{\sqrt{C_{(3/2,1/2)}}}{\sqrt{C_{(1/2,1/2)}}} \cdot \frac{\|V_{(3/2,1/2)}\|^2}{\|V_{(1/2,1/2)}\|^2} \cdot \frac{W_{(3/2,1/2)}}{W_{(1/2,1/2)}}$$
+
+with K-type ratios + Lorentz-integration weights from Toy 3741 substrate-mechanism candidate.
+
+### Closure v0.2
+
+Mehler Matrix Element Framework v0.2 extends v0.1 with Helgason Ch. IX explicit Mehler kernel content + Casey #14 STANDING absorption + per-chirality projection mechanism + Casimir-eigenvalue spinor-tower table.
+
+**Explicit gen-1 M_op scalar substrate-clean form**:
+$$\langle V_{(1/2, 1/2)} | M_{\text{op}} | V_{(1/2, 1/2)} \rangle = \sqrt{\frac{n_C}{rank}} \cdot \frac{N_c \cdot n_C \cdot \pi}{2^g}$$
+
+at full FK Bergman norm + Casey #14 chirality-projection → per-chirality 3π/2^g → mass-coupling primitive 3π/2^{C_2} via "+1 anomaly".
+
+**Tier v0.2**: K3 v0.16 Gates #4 + #7 → **FRAMEWORK** with Helgason Ch. IX explicit content. Multi-week RIGOROUS closure pending explicit composition computation.
+
+Pulling next: SSG Registry next iteration with A/B/C classification per Keeper SSG Structural Independence Audit.
+
+— Lyra, Thu 2026-06-04 ~09:15 EDT. Mehler v0.2 extension: Helgason Ch. IX explicit Mehler kernel form + Casimir eigenvalues 5/2, 15/2, 29/2 spinor-tower + per-chirality reading + Casey #14 STANDING cascade absorbed; explicit gen-1 substrate-clean form derived; multi-week Gates #4 + #7 + #5 + #6 closure path.

@@ -196,3 +196,66 @@ If multi-week verification closes, SSG-15 substrate-Λ-coupling produces:
 - Five-Absence-consistent Dirac neutrino sector substrate-mechanism
 
 — Lyra, Wed 2026-06-03 ~10:55 EDT. SSG-15 Λ-Coupled Neutrino Framework v0.1: substrate-Λ-vacuum coupling candidate at 3% precision; (N_c · g − 1) · Λ^(1/4) substrate-clean form; substrate-mechanism CLASS distinct from SSG-9 per-generation cascade; Casey #12 cross-link; Five-Absence-consistent; multi-week three-requirement closure path explicit.
+
+---
+
+## v0.2 Thursday Extension — Casey #14 STANDING + (-1) Coefficient Substrate-Mechanism Candidate
+
+### Casey #14 STANDING Impact on SSG-15
+
+Per Thursday morning cascade: Casey #14 PROMOTED STANDING "Substrate-Predicted 3+1 Minkowski Signature". The substrate-mechanism chain (1/n_C chirality projection → 4D physical Lorentz) is now STANDING.
+
+**SSG-15 substrate-Λ-vacuum coupling** mechanism class operates IN the 4D physical Lorentz spacetime emerging via Casey #14 chirality projection. Cross-link:
+- Substrate has n_C = 5 directions (5-dim complex D_IV⁵)
+- Casey #14 chirality projection 1/n_C → 4 physical Lorentz directions
+- Remaining n_C − 1 = 4 substrate-Lie-algebra directions populate physical 4D Lorentz
+- Substrate-Λ-vacuum couples to neutrinos via the 4D Lorentz boundary projection (Casey #12 substrate bulk-boundary)
+
+### (N_c · g − 1) = 20 Coefficient Substrate-Mechanism Candidate
+
+Per Tuesday SSG-15 v0.1 § 2-4 + Thursday Casey #14 STANDING: the (-1) in (N_c · g − 1) = 21 − 1 = 20 has substrate-mechanism candidate via chirality-projection / boundary-projection structure.
+
+**Substrate-mechanism candidate reading**:
+- N_c · g = 21 = dim so(5, 2) substrate Lie algebra (full substrate-symmetry dimension)
+- (-1) substrate-Casimir = ONE substrate Lie-algebra direction is the **substrate-τ-evolution direction** (Elie Toy 3737 Hardy boundary normal / Casey commitment-density direction)
+- N_c · g − 1 = 20 = dim(so(5, 2)) − dim(substrate-τ direction) = substrate Lie algebra MINUS observer's own evolution direction
+
+**Substrate-mechanism rationale**: per Casey #14 STANDING + Casey #12 STANDING + Elie 3737 Hardy boundary normal candidate: substrate-τ direction is the substrate-time arrow direction along which observer cannot project (substrate observer cannot observe own time-arrow direction — epistemic closure per Tuesday Toy 3737). The (-1) reflects this projection-out of one substrate Lie algebra direction.
+
+### Hypothesis Refinement v0.2
+
+**Substrate-mechanism candidate forward-derivation chain**:
+
+1. **substrate-Λ-vacuum scale** Λ^(1/4) ≈ 2.4 meV (substrate cosmology v0.2)
+2. **(N_c · g − 1) = dim so(5, 2) - 1** counting substrate Lie algebra directions accessible to neutrino mass observable, minus substrate-τ direction (epistemic closure)
+3. **Neutrino mass scale** m_ν_atm = 20 · Λ^(1/4) ≈ 48 meV via substrate-Λ-vacuum × accessible-substrate-directions
+
+**Substrate-mechanism FORWARD-derivation chain** (now substantively closer to closure with Casey #14 STANDING):
+- Casey #12 substrate bulk → boundary projection (STANDING)
+- Casey #14 chirality projection → 4D Lorentz (STANDING)
+- Elie Toy 3737 substrate-τ direction candidate (Hardy boundary normal)
+- (-1) coefficient: substrate-τ-direction projected out via observer epistemic closure
+- 20 = dim so(5, 2) − 1 substrate-natural counting of accessible substrate directions
+
+### Multi-Week Verification
+
+Per Cal #189 question-shape: forward-derivation path now substantively closer to closure but multi-week explicit:
+
+(a) **Explicit Λ derivation from substrate cosmology v0.2 + Casey Saturday vacuum-subtraction factor 2.02** — substrate-vacuum 2-region partition Section 4.5 (Lyra Gate 2 Thursday)
+(b) **(N_c · g − 1) coefficient mechanism** — substrate-τ direction Hardy boundary normal candidate + Casey #12 substrate bulk-boundary projection
+(c) **m_ν Dirac mechanism** — Casey Five-Absence + Cal #194 Schur shadow (V_(1/2, 1/2) DOUBLE-ROLE per Cal #195 audit: M_e + M_ν chirality-split of √H_B + M_Coulomb separate; M_ν = M_e × Λ-coupling scale-shift)
+
+### Closure v0.2
+
+SSG-15 v0.2 Thursday extension absorbs Casey #14 STANDING + (-1) coefficient substrate-mechanism candidate:
+
+**Substrate-mechanism reading**:
+$$m_{\nu, \text{atm}} = (N_c \cdot g - 1) \cdot \Lambda^{1/4} = (\dim \text{so}(5, 2) - 1) \cdot \Lambda^{1/4} = 20 \cdot \Lambda^{1/4}$$
+
+The (-1) reflects substrate-τ direction projection-out per Casey #14 STANDING + Elie Toy 3737 + observer epistemic closure.
+
+**Tier**: FRAMEWORK CANDIDATE substantively strengthened by Casey #14 STANDING; forward-derivation multi-week per (a) + (b) + (c) gates closure to STANDING/RIGOROUS.
+
+**Cross-link to V_(1/2, 1/2) DOUBLE-ROLE** (Cal #195 Wednesday): M_e ↔ M_ν chirality-split same √H_B operator class; differ by chirality direction; substrate-Λ-vacuum coupling rescales mass-anchor via substrate-Λ-vacuum scale.
+
+— Lyra, Thu 2026-06-04 ~10:15 EDT. SSG-15 v0.2: Casey #14 STANDING absorbed; (-1) coefficient substrate-mechanism candidate via substrate-τ direction projection-out per Elie Toy 3737 + Casey #12 + observer epistemic closure; (N_c · g − 1) = dim so(5, 2) − dim(substrate-τ direction) = 20 accessible substrate directions; multi-week forward-derivation paths (a) + (b) + (c) gate closure.

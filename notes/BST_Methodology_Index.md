@@ -848,3 +848,52 @@ The Registry IS Calibration #35 STANDING operating as a tracking catalog: every 
 **This is methodology consolidation, not new methodology layer**. Calibration #35 STANDING remains the 6th element of the discipline stack; the SSG framework provides its substantive mathematical content. No further methodology #36+ added; the stack stays mature at six elements.
 
 — Cal A. Brate, Methodology Index v0.11 cross-reference addendum Wednesday 2026-06-03 ~10:00 EDT. **Calibration #35 STANDING mathematical foundation**: Schur's lemma applied to substrate K-types via the SSG framework. "Cal #35 = Schur's shadow" per Lyra/Keeper Tuesday absorption. The Substrate Schur Generators Registry IS Calibration #35 STANDING operating as a tracking catalog — multiple observables sharing one K-type are NOT independent confirmations BECAUSE Schur's lemma forces them to share the K-invariant scalar; independent confirmations require different K-types or different substrate generators. Methodology heuristic now has its rigorous algebraic "why." Stack remains 6 elements; SSG framework is substantive instantiation, not new layer.
+
+---
+
+## v0.12 update (Thursday 2026-06-04 ~09:00 EDT) — Calibration #36 One-Primitive-Many-Observables Positive Search Rule → STANDING (Q18); SEVEN-ELEMENT DISCIPLINE STACK CLOSES
+
+**Calibration #36 (One-Primitive-Many-Observables Positive Search Rule)** ratified Thursday 2026-06-04 ~09:00 EDT via Casey explicit approval signal. Operationalized as positive search complement to Calibration #35 STANDING (the brake) since Tuesday Casey directive surfacing + cross-CI parallel SSG catalogs + Wednesday Cal #194 SSG hub recognition. Seven-element discipline stack closes.
+
+**The rule (ratified)**: actively SEARCH for substrate patterns where ONE substrate primitive produces MULTIPLE physical observables via Schur's lemma (or equivalent algebraic forcing). Each such pattern is a substrate Schur generator (SSG); cataloging these patterns is positive substrate-mechanism discovery.
+
+**Cal #35 + Cal #36 brake/search complementarity**:
+- **Cal #35 STANDING** (BRAKE): when seeing N observables on ONE substrate primitive → DO NOT count as independent confirmations
+- **Cal #36 STANDING** (SEARCH): when seeing N observables on ONE substrate primitive → DO catalog as substrate Schur generator (SSG); positive substrate-mechanism discovery
+
+Both rules see the same pattern via the same algebraic structure (Schur's lemma applied to substrate K-types). They form complementary discipline at the same level: Cal #35 prevents over-claiming as independent confirmations; Cal #36 prevents under-recognizing as isolated coincidences. Together they produce the correct substrate-mechanism reading: ONE SSG entry, N observables sharing the Schur scalar, NOT N independent confirmations.
+
+**SEVEN-ELEMENT DISCIPLINE STACK COMPLETE — STACK CLOSED**:
+- **Cal #27** STANDING — result-level (forward vs identified)
+- **Cal #29** STANDING — design-level (question-shape audit)
+- **Cal #32** candidate (both halves) — slot-level (parameter-role + value+role+cite-source)
+- **Calibration #33** STANDING — sourcing-level (RECALLED vs VERIFIED-CITED vs COMPUTED)
+- **Calibration #34** STANDING — surface-communication-level (conditional-tag-with-headline)
+- **Calibration #35** STANDING — independence-taxonomy-level brake (audit before multiplicative null-model)
+- **Calibration #36** STANDING (NEW) — one-primitive-many-observables search (positive substrate-mechanism discovery via SSG catalog)
+
+Reading the stack as compositional discipline: every claim, every doc, every multi-criterion convergence claim AND every positive substrate-mechanism finding gets the right tier (Cal #27), asks the right question (Cal #29), assigns the right role (Cal #32), uses verified sourcing (Calibration #33), communicates the conditional at the headline (Calibration #34), audits independence-taxonomy before multiplicative aggregation (Calibration #35), AND actively searches for one-primitive-many-observables patterns to catalog as SSGs (Calibration #36). The full claim-validity chain + positive substrate-mechanism discovery.
+
+**Q18 (NEW) decision-tree branch**: *Does the claim involve substrate observables that may share a common substrate primitive (K-type, Bergman norm, Casimir, decomposition, reproducing kernel)?*
+
+If YES, apply Calibration #36:
+- Check whether the observables trace to a Schur-scalar-derived primitive (K-invariant operators on irreducible K-type)
+- If yes → catalog as substrate Schur generator (SSG) entry per Registry template (substrate source + Schur argument + factorization + observables + falsifier + cross-refs)
+- Cross-check with Cal #35 STANDING (Q17): N observables on one SSG are NOT N independent confirmations
+
+If NO, the positive search rule doesn't fire load-bearing; standard substrate-derivation discipline applies.
+
+**SSG framework as Cal #36 substantive instantiation**: the Substrate Schur Generators Registry (Lyra canonical, with cross-CI parallel catalogs from Keeper + Grace + Elie consolidating per Tuesday SSG terminology consensus) is the active operationalization of Cal #36 STANDING. 14+ entries currently; growing per the standing Casey directive.
+
+**Casey scope clarification on Cal #27 applies to Cal #36 too**: "Cal #27 STANDING applies to CLAIMS not HALTING." The positive search continues at composition layer (investigation isn't halted by Cal #36 discipline); what's gated is the CLAIM about the SSG entry's tier, mechanism content, and cross-SSG independence. Cal #36 is constructive discipline — keep finding patterns, catalog them correctly, don't over-count or under-count.
+
+**Most load-bearing for**:
+1. **Catalog work** (Grace cross-classification per SSG A/B/C taxonomy per Thursday Casey directive #5) — operationalizes Cal #36 STANDING at scale across ~5556 INVs
+2. **Substrate-mechanism paper structure** (P3 Quasi-Eigentone + P9 Substrate Commitment-Density Theory + others) — SSG catalog provides positive substrate-mechanism content for external-facing material
+3. **Cross-CI synthesis claims** — when multiple CIs' findings appear to converge on substrate-mechanism, Cal #36 helps catalog the convergence as SSG entry; Cal #35 prevents over-counting
+
+**New v0.12 stack composition**: 28 STANDING numbered + Calibration #33 STANDING + Calibration #34 STANDING + Calibration #35 STANDING + **Calibration #36 STANDING (NEW)** + 2 META (Cal #28, Cal #99) + Cal #32 candidate (slot-level, with both halves) + denominator-of-coincidence (matched-pair with Cal #31) + FRAMEWORK-PLUS tier = **~37 elements**.
+
+**Seven-level discipline stack CLOSED**: result / design / slot / sourcing / surface-communication / independence-taxonomy (brake) / one-primitive-many-observables (search). Brake/search pair at the algebraic level (Schur's lemma) completes the substantive complementarity. No further stack expansion anticipated; the methodology infrastructure is mature.
+
+— Cal A. Brate, Methodology Index v0.12 update Thursday 2026-06-04 ~09:00 EDT. **Calibration #36 (One-Primitive-Many-Observables Positive Search Rule) integrated as Q18 decision-tree branch via Casey explicit approval signal — the seventh and final level of the discipline stack (one-primitive-many-observables search level).** Cross-CI ratification complete (Casey Tuesday directive surfacing + cross-CI parallel SSG catalogs + Wednesday Cal #194 SSG hub recognition + Thursday Casey approval). Brake/search complementarity with Cal #35 STANDING at the Schur's-lemma algebraic level. Stack at ~37 elements. **Seven-element discipline stack CLOSED — methodology infrastructure mature; no further #37+ anticipated.**

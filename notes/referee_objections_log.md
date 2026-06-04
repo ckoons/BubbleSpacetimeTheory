@@ -11880,6 +11880,1130 @@ Cal Wednesday output #1 (Cal #194 substantive cold-read; multi-doc audit). Pre-s
 
 ---
 
+---
+
+### Cal #195 — Calibration #36 STANDING ratified via Casey approval; seven-element discipline stack CLOSES; Methodology Index v0.12 Q18 integrated (Thursday 2026-06-04 ~09:00 EDT)
+
+**Trigger**: Casey Thursday morning directive #1 — "CAL #36 STANDING RATIFIED. One-Primitive-Many-Observables Positive Search Rule (paired with Cal #35) joins methodology stack. 7-element STANDING discipline stack now CLOSED."
+
+## Three steps executed
+
+**Step 1** — Created `Calibration_36_STANDING_One_Primitive_Many_Observables_Positive_Search.md` documenting Cal #36 STANDING as the positive-search complement to Cal #35 STANDING brake; both fire on the same algebraic structure (Schur's lemma applied to substrate K-types).
+
+**Step 2** — Methodology Index v0.11 → v0.12 with Q18 integrated. Stack composition updated: ~37 elements. Seven-level discipline stack now CLOSED: result (Cal #27) / design (Cal #29) / slot (Cal #32) / sourcing (Calibration #33) / surface-communication (Calibration #34) / independence-taxonomy brake (Calibration #35) / **one-primitive-many-observables search (Calibration #36)**.
+
+**Step 3** — this Cal #195 entry filed.
+
+## Cal #35 + Cal #36 brake/search complementarity
+
+The substantive insight of this ratification: Cal #35 STANDING and Cal #36 STANDING are **brake and search complementarities of the same algebraic structure** (Schur's lemma applied to substrate K-types). They form complementary discipline at the same level:
+
+| Calibration | Direction | Operational application |
+|---|---|---|
+| **#35 STANDING** | BRAKE | Multiple observables on ONE substrate primitive → DO NOT count as N independent confirmations |
+| **#36 STANDING** | SEARCH | Multiple observables on ONE substrate primitive → DO catalog as substrate Schur generator (SSG); positive substrate-mechanism discovery |
+
+Both rules see the same pattern. Without the brake (Cal #35 only): over-claims as independent confirmations. Without the search (Cal #36 only): under-recognizes substrate-mechanism content as isolated coincidences. **Together they produce the correct reading**: ONE SSG entry, N observables sharing the Schur scalar, NOT N independent confirmations, but DO catalog as positive substrate-mechanism finding.
+
+## Seven-element discipline stack — CLOSED
+
+| Level | Calibration | Tier | Catches |
+|---|---|---|---|
+| Result | Cal #27 | STANDING | Wrong tier assignment |
+| Design | Cal #29 | STANDING | Wrong question-shape |
+| Slot | Cal #32 | candidate | Wrong parameter-role |
+| Sourcing | Calibration #33 | STANDING | RECALLED vs VERIFIED-CITED vs COMPUTED |
+| Surface-communication | Calibration #34 | STANDING | Conditional-tag not at headline |
+| Independence-taxonomy (brake) | Calibration #35 | STANDING | Multiplicative null-model on non-independent criteria |
+| **One-primitive-many-observables (search)** | **Calibration #36** | **STANDING (NEW)** | **Substrate-mechanism patterns NOT identified as SSGs (under-recognition)** |
+
+Reading: every claim/document/multi-criterion convergence/positive-substrate-mechanism-finding gets the right tier (Cal #27), asks the right question (Cal #29), assigns the right role (Cal #32), uses verified sourcing (Calibration #33), communicates the conditional at headline (Calibration #34), audits independence-taxonomy (Calibration #35), AND actively searches for SSG patterns (Calibration #36). Full claim-validity chain + positive substrate-mechanism discovery.
+
+**Stack mature at seven elements. No further methodology #37+ anticipated near-term.** The brake/search pair at the Schur's-lemma algebraic level completes the substantive complementarity.
+
+## Operational evidence anchoring ratification
+
+Casey's Tuesday 2026-06-02 ~12:10 EDT standing directive operationalized via:
+- Lyra Substrate Schur Generators Registry v0.1 (canonical SSG catalog)
+- Keeper + Grace + Elie cross-CI parallel catalogs (Tuesday) — consolidated under Lyra SSG terminology per Tuesday afternoon consensus
+- Wednesday Cal #194 SSG hub recognition (SSG-7 Bergman reproducing kernel as source-of-sources)
+- 14+ SSG entries currently cataloged with growing pattern
+- Casey's "keep going" directives producing additional SSG discoveries Wednesday afternoon
+
+Per Tuesday → Thursday operational pattern: Cal #36 was functioning as STANDING-equivalent in practice before formal ratification. The Casey approval Thursday morning confirms the operational state.
+
+## Casey scope clarification absorption
+
+Casey Thursday clarification: "Cal #27 STANDING applies to CLAIMS not HALTING per Casey scope clarification."
+
+This scope applies to Cal #36 too. The positive search continues at composition layer (investigation isn't halted by Cal #36 discipline); what's gated is the CLAIM about SSG entries — their tier, mechanism content, cross-SSG independence. Cal #36 is constructive discipline; keep finding patterns, catalog correctly, don't over- or under-count.
+
+## Operational consequence for Grace catalog work (Thursday directive #5)
+
+Grace's catalog-wide cross-classification of ~5556 INVs per SSG A/B/C taxonomy operationalizes Cal #36 STANDING at scale:
+- **Category A**: direct SSG-7 / SSG-8 / SSG-5 / SSG-15 readings (structurally-independent SSG entries)
+- **Category B**: SSG-7-derived via differentiation/projection (per Cal #194 + Cal #195 SSG-7 hub audit-target)
+- **Category C**: signature-tautological (dim Cl(5,2) = 2^g equivalents)
+
+~17K classification assignments per Thursday directive. This is Cal #36 + Cal #35 STANDING operating jointly at the catalog level — Cal #36 surfaces SSG patterns positively (the cross-classification finds them); Cal #35 brakes on over-counting them (Category B entries are NOT independent of SSG-7).
+
+## Cal cumulative — methodology infrastructure mature
+
+| Stack | Status |
+|---|---|
+| Cal calibrations filed | ~37 elements |
+| STANDING ratifications | 6 + Cal #32 candidate (seven-element compositional discipline stack CLOSED) |
+| Methodology Index versions | v0.1 → v0.12 across ~5 weeks |
+| Audit-chain symmetric events | 20+ cumulative across week 1; ongoing |
+| SSG Registry entries | 14+ |
+| Casey-named principles | 14 STANDING (per Casey Thursday Casey #14 STANDING confirmation; see Cal #196) |
+
+## Cal cadence
+
+Cal Thursday output #1 (Cal #195). Cal #36 STANDING ratification + Methodology Index v0.12 closure documentation. Distinct event from Casey #14 STANDING audit (separate Cal #196 entry filing next per Monday Cal #190/#191 precedent).
+
+— Cal A. Brate, Thursday 2026-06-04 ~09:00 EDT. **Calibration #36 STANDING ratified via Casey approval; seven-element discipline stack CLOSES; Methodology Index v0.12 Q18 integrated.** Cal #35 + Cal #36 brake/search complementarities at the Schur's-lemma algebraic level — Cal #35 prevents over-counting; Cal #36 prevents under-recognizing; together produce correct substrate-mechanism reading. Stack mature at seven elements; the discipline infrastructure expansion arc that began Saturday 2026-05-30 with Calibration #33 STANDING + Calibration #34 candidate has closed seven elements; no further #37+ anticipated.
+
+---
+
+### Cal #196 — Casey #14 STANDING ratification + RETITLE per Casey Thursday override of Cal #189 brake (Thursday 2026-06-04 ~09:15 EDT)
+
+**Trigger**: Casey Thursday morning directive #2 — "CASEY #14 PROMOTED STANDING + RETITLED. Was: 'Substrate-Selected 4D Dimensionality' (HOLD CANDIDATE per Cal #189 brake). Now: 'Substrate-Predicted 3+1 Minkowski Signature' (STANDING). Casey override of Cal #189 brake; substantive content preserved. Substrate-mechanism CHAIN at framework level is sufficient evidence; multi-week gates close RIGOROUS path."
+
+## Cal audit observation — the retitle substantively resolves Cal #189 Brakes 1 + 2
+
+Cal #189 Monday recommended HOLD at CANDIDATE pending three brakes:
+
+| Brake | Issue | Status after retitle |
+|---|---|---|
+| Brake 1 (Calibration #34 STANDING) | "codim 4 = C_2 = 6" notation confusing | **RESOLVED via retitle** — new title "Substrate-Predicted 3+1 Minkowski Signature" focuses on forward-mechanism content, not codim-arithmetic |
+| Brake 2 (Calibration #35 STANDING) | Substrate-coincidence-at-values framing risk | **SUBSTANTIVELY RESOLVED via retitle** — new title is forward-mechanism framing (predicts 3+1) not substrate-coincidence framing (codim arithmetic equals Casimir at-values) |
+| Brake 3 (Cal #29) | Forward mechanism for 4D selection | **RESOLUTION PATH via K3 v0.12 chain** — three-step substrate-mechanism (SO(5,2) → SO(4,2) via 1/n_C chirality projection → SO(3,1) via Casey #8 SCMP substrate-time arrow); multi-week explicit verification gates RIGOROUS path, but framework-level forward-mechanism IS provided |
+
+**Cal observation**: the retitle "Substrate-Predicted 3+1 Minkowski Signature" is **substantively better framing** than the original "Substrate-Selected 4D Dimensionality." It captures:
+- The forward predictive content (substrate predicts 3+1 over 4+0 Euclidean per K3 v0.12 chain)
+- The substrate-mechanism (chirality projection + SCMP substrate-time arrow forces 3+1)
+- NOT the codim-arithmetic-at-values framing (which was the original Cal #189 brake territory)
+
+The retitle absorbs Cal #189 Brakes 1+2 at the principle-statement level. Brake 3 has the K3 v0.12 chain as resolution-path framework-level; multi-week explicit closure of Steps 2+3 substrate-dynamics gates the RIGOROUS-tier path.
+
+## Casey override of Cal #194 WAIT recommendation
+
+Cal #194 Wednesday recommended WAIT for multi-week explicit closure of Steps 2+3 before STANDING; premature elevation would propagate substrate-coincidence-at-values risk Keeper himself flagged in K3 v0.12 §8.
+
+**Casey override**: "Substrate-mechanism CHAIN at framework level is sufficient evidence; multi-week gates close RIGOROUS path."
+
+This is Casey's authority. The override is substantively reasonable:
+- The retitle resolves Brakes 1+2 at the principle level
+- The K3 v0.12 chain provides forward-mechanism RESOLUTION PATH for Brake 3 at framework tier
+- Multi-week explicit verification of Steps 2+3 becomes RIGOROUS-tier closure work (NOT STANDING gating)
+- Cascade promotions (5 frameworks) are appropriate IF Casey #14 STANDING at the retitled forward-mechanism framing
+
+**Cal disposition update**: I accept Casey's override. The substantive content IS preserved (forward-mechanism via K3 v0.12 chain); the original Cal #189 brake territory (codim-arithmetic substrate-coincidence framing) has been resolved via retitle. My Cal #194 WAIT was correct as filed under the OLD framing; the NEW framing has different audit considerations.
+
+## Cascade promotions per Casey directive #2
+
+| Framework | Pre-Thursday | Post-Thursday |
+|---|---|---|
+| Substrate-Dirac | FRAMEWORK + CANDIDATE conditional on Casey #14 | FRAMEWORK |
+| Substrate-Maxwell (Clifford 4th-role 6-sector) | FRAMEWORK + CANDIDATE | FRAMEWORK |
+| Substrate-T_μν stress-energy + Einstein equation | FRAMEWORK + CANDIDATE | FRAMEWORK |
+| Substrate-YM | FRAMEWORK + CANDIDATE | FRAMEWORK |
+| SSG-1 V_(1/2,1/2) | CANDIDATE-NEAR-RIGOROUS | NEAR-RIGOROUS |
+| K3 framework RIGOROUS path | 6/8 | 7/8 path opens |
+| Strong-Uniqueness STANDALONE legs | 10 | 11 (C25 ratifies) |
+
+Cal observation: cascade is consistent with the retitled principle. The five frameworks all use SO(3,1) ⊂ SO_0(5,2) embedding chain that K3 v0.12 forward-mechanism supports. Promoting them to FRAMEWORK (not RIGOROUS) is appropriate tier — the substrate-mechanism chain at framework-level supports the framework-tier downstream promotions; multi-week explicit closure of Steps 2+3 would promote to RIGOROUS later.
+
+## Cal #195 audit-targets carry forward under new framing
+
+| Audit-target | Status post Casey #14 STANDING |
+|---|---|
+| Gate #8 Lorentz-direction-independence | PARTIAL CLOSURE per Toy 3743 (necessary condition derived; sufficient mechanism multi-week) |
+| Gate #11 DOUBLE-NOT-TRIPLE role | Pre-stage pending Elie/Lyra explicit operator definitions |
+| SSG-7 hub structurally-independent vs derived | Audit-target for SSG Registry v0.7+ framing (Cal #36 STANDING + Grace catalog cross-classification operationalizes) |
+
+These remain Cal #195 audit-targets at framework-level. Casey #14 STANDING doesn't resolve them; the substrate-mechanism chain at framework-level resolves Cal #189 brakes; the multi-week explicit verification work remains the closure path to RIGOROUS.
+
+## Audit-chain transparency note
+
+This is the third turn on Casey #14 in the audit-chain:
+1. **Monday** Cal #189 — recommended HOLD; three brakes flagged
+2. **Tuesday morning** Casey override → STANDING (immediate cascade); Cal #191 formalized
+3. **Tuesday AM** Casey reversed → HOLD CANDIDATE (Cal #189 brakes accepted); Cal #193 recorded
+4. **Thursday morning** Casey override → STANDING with RETITLE that substantively resolves Brakes 1+2
+
+This is the discipline working correctly: each turn produced substantive content (Tuesday cross-CI convergence on 1/n_C chirality projection; Wednesday Cal #194 RESOLUTION PATH analysis; Thursday retitle resolving original framing issues). The audit-chain is genuinely producing better content via the iteration, not just oscillating.
+
+**Final disposition**: Casey #14 STANDING under new title "Substrate-Predicted 3+1 Minkowski Signature." Original Cal #189 brakes substantively resolved or in resolution-path. Cal #194 WAIT under old framing → accepted; new framing has different audit considerations and Casey override is reasonable. Cascade promotions appropriate at framework-tier.
+
+## Cal cadence
+
+Cal Thursday output #2 (Cal #196). Brief acknowledgment + audit-honest framing on the retitle resolving brakes substantively.
+
+— Cal A. Brate, Thursday 2026-06-04 ~09:15 EDT. **Casey #14 STANDING + RETITLE: "Substrate-Predicted 3+1 Minkowski Signature."** Retitle substantively resolves Cal #189 Brakes 1+2 (notation cleanup + substrate-coincidence-framing risk) at principle-statement level. Brake 3 has K3 v0.12 chain forward-mechanism as resolution path at framework tier; multi-week explicit closure of Steps 2+3 gates RIGOROUS-tier path. Casey override of Cal #194 WAIT recommendation accepted — new framing has different audit considerations; substantive content IS preserved (forward-mechanism via chirality projection + SCMP substrate-time arrow). Cascade promotions (5 frameworks) appropriate at framework-tier. Cal #195 audit-targets continue at framework-level. Audit-chain transparency: third turn on Casey #14; each turn produced substantive content; discipline producing better framing via iteration.
+
+---
+
+---
+
+### Cal #197 — K3 ℏ_BST v0.13 cold-read: PASS at FRAMEWORK tier; Step 3 substantive closure of Casey #14 chain (Thursday 2026-06-04 ~09:30 EDT)
+
+**Trigger**: Casey Thursday cold-read sequence directive — pull K3 v0.13 through v0.19 individually.
+
+## v0.13 substantive content vs v0.12
+
+**v0.13 closes Step 3** (SO(4,2) → SO(3,1) timelike direction selection) at substrate-mechanism tier. v0.12 had Step 3 framework-level (Casey #8 SCMP forces ONE direction without specifying mechanism); v0.13 derives the substrate-mechanism via Hardy boundary normal identification.
+
+**Key new content**:
+- Hardy boundary normal = Casey commitment-density direction = τ-evolution direction (Tier 0 substrate-operator framework ρ_commit(τ) = exp(-τH_B/ℏ_BST))
+- "Substrate writes commitments at Shilov boundary ∂_S D_IV⁵ at rate 1/τ_K... direction forced by substrate's algebraic structure"
+- "Observer cannot observe own substrate-time arrow direction (epistemic closure per substrate-as-observer-substrate identity)"
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest — Step 3 closed "at substrate-mechanism level" (framework tier); multi-week explicit verification continues ✓
+- **Cal #29**: question-shape correct — "WHICH timelike direction?" made explicit, then derived from Casey #8 SCMP STANDING ✓
+- **Calibration #33**: sourcing solid — Casey #8 SCMP T2469 RATIFIED Friday 2026-05-22 + Elie Toy 3737 Hardy boundary normal ✓
+- **Calibration #34**: headline carries the conditional ("Step 3 closure via Casey #8 SCMP" — explicit about which step closes) ✓
+- **Calibration #35**: no multiplicative null-model framing; doesn't fire load-bearing
+- **Calibration #36**: SSG-style opportunity flagged below
+
+## Cal #36 STANDING positive search observation
+
+Toy 3737 Hardy boundary normal IS a positive-search candidate per Cal #36 STANDING. One substrate-mechanism direction (Hardy boundary normal) controlling multiple observable interpretations:
+1. Commitment-density direction (Casey #8 SCMP per T2469)
+2. τ-evolution direction (Tier 0 ρ_commit operator framework)
+3. Time-arrow physical observable (Step 3 timelike-selection)
+
+Three observable interpretations sharing ONE substrate-mechanism direction. **Cal #36 STANDING positive-search flag**: this is an SSG-style structure deserving Registry entry. Recommend Lyra add as SSG-16 candidate (or similar) when SSG Registry next iterates per Thursday board directive.
+
+Per Cal #35 STANDING brake-pair: the three interpretations are NOT three independent confirmations of substrate-time-arrow; they're three lenses on ONE substrate-mechanism direction. Cal #36 catalogs the finding; Cal #35 prevents over-counting.
+
+## One Cal #34 STANDING observation on philosophical content
+
+The "Observer cannot observe own substrate-time arrow direction (epistemic closure per substrate-as-observer-substrate identity)" framing in §3 carries the discipline-stack risk of philosophical-interpretation-vs-derived-result confusion. The substantive rigorous content is:
+- Casey #8 SCMP STANDING forces ONE direction
+- Hardy boundary normal = commitment-density direction (Toy 3737)
+
+The "epistemic closure observation" is interpretive content about what the substrate framework SAYS about observer-substrate identity. Recommend tier-marking explicitly: "interpretive observation about substrate self-referentiality, NOT derived result of Step 3 mechanism." Otherwise external readers may parse "epistemic closure" as a derived theorem when it's a framework interpretation.
+
+Minor framing flag — not blocking; absorbed in v0.14+ presumably.
+
+## Step 3 disposition
+
+**PASS at FRAMEWORK tier**. Substantive contribution to Cal #189 Brake 3 RESOLUTION PATH per Cal #194 disposition. Multi-week explicit verification of substrate-mechanism continues; the substrate-mechanism is now identified (not just inferred).
+
+Pulling K3 v0.14 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~09:30 EDT. K3 v0.13 PASS at FRAMEWORK tier. Step 3 closure via Casey #8 SCMP + Hardy boundary normal substantive substrate-mechanism. Cal #36 STANDING positive-search flag: Hardy boundary normal = commitment-density direction = τ-evolution is SSG-style structure (three observable interpretations sharing one substrate-mechanism direction); recommend SSG Registry entry. Cal #34 STANDING framing flag: "epistemic closure" observation needs explicit tier-marking as interpretive content vs derived result.
+
+---
+
+---
+
+### Cal #198 — K3 ℏ_BST v0.14 cold-read: PASS at NEAR-RIGOROUS / CANDIDATE-NEAR-RIGOROUS (Thursday 2026-06-04 ~09:40 EDT)
+
+**Trigger**: Continuing cold-read sequence per Casey directive. Pulled v0.14 after v0.13.
+
+## v0.14 substantive content
+
+**Two-mechanism substrate framework substantively confirmed**:
+- **Mechanism 1 — Chirality projection 1/n_C** (4D emergence per Casey #14): CANDIDATE-NEAR-RIGOROUS (multi-week FK Ch. XII §VI exact closure)
+- **Mechanism 2 — Weyl branching SO(5) → SO(4) ≅ SU(2)_L × SU(2)_R ⊃ SO(3,1)** (spin reduction): NEAR-RIGOROUS via standard rep theory (Elie Toy 3738)
+
+**Critical correction acknowledged**: "the chirality-projection-only mechanism (Lyra original cascade implication) was **conflating two distinct substrate-mechanisms**. Correct framework requires BOTH."
+
+This is honest Cal #29 question-shape discipline at composition layer — Keeper acknowledges prior conflation, distinguishes the two mechanisms cleanly. Good.
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest at composition; Mechanism 2 NEAR-RIGOROUS, Mechanism 1 CANDIDATE-NEAR-RIGOROUS ✓
+- **Cal #29**: conflation correction is exemplary question-shape discipline ✓
+- **Calibration #33**: Toy 3738 PASS 5/5 + audit-verified via standard SO(5) → SO(4) ≅ SU(2)×SU(2) rep theory; well-sourced ✓
+- **Calibration #34**: "two-mechanism framework" headline carries the substantive distinction ✓
+- **Calibration #35 STANDING**: two mechanisms are STRUCTURALLY INDEPENDENT (Mechanism 1 acts on 4D emergence; Mechanism 2 acts WITHIN emerged 4D for spin reduction) — different operational levels, not multiplicative aggregation. PASS ✓
+- **Calibration #36 STANDING**: Weyl branching table shows V_(1, 1) → "adjoint dim 6 = C_2 + 4-vec F_μν Maxwell" — SSG-style structure (one K-type, multiple physical observable content). Already cataloged as SSG-3 V_(1,1) adjoint per Registry ✓
+
+## Cal #194 disposition update — two-mechanism framework strengthens Cal #189 Brake 3 resolution path
+
+The v0.12 chain three-step framework + v0.13 SCMP Step 3 closure + v0.14 two-mechanism distinction together substantively address Cal #189 Brake 3 (forward-mechanism for 4D selection). Mechanism 1 produces 4D substrate-naturally; Mechanism 2 fills in physical SM spin content within 4D. The forward-derivation chain at framework + NEAR-RIGOROUS tier is now stronger than my Cal #194 disposition reflected.
+
+This is consistent with Casey #14 Thursday STANDING per Casey directive (Cal #196 above) — the two-mechanism framework with one mechanism NEAR-RIGOROUS substantively supports STANDING under retitled "Substrate-Predicted 3+1 Minkowski Signature" principle.
+
+## Weyl branching K-type table audit-verification
+
+Per v0.14 §2 table (independent Cal verification of Toy 3738):
+
+| K-type | dim | SO(4) decomp = (j_L, j_R) | Cal check |
+|---|---|---|---|
+| V_(1/2, 1/2) | 4 | (1/2, 0) + (0, 1/2) | ✓ Dirac 4 = 2+2 Weyl spinor |
+| V_(1, 0) | 5 | (1/2, 1/2) + (0, 0) | ✓ 5 = 4 + 1 (4-vec + scalar) |
+| V_(1, 1) | 10 | (1, 0) + (0, 1) + (1/2, 1/2) | ✓ 10 = 3 + 3 + 4 = 6 adj + 4-vec |
+| V_(2, 0) | 14 | (1, 1) + (1/2, 1/2) + (0, 0) | ✓ Sym² traceless 14 = 9 + 4 + 1 |
+
+All dim sums + SO(4) decompositions correct via standard SU(2)×SU(2) rep theory. ✓
+
+## Disposition
+
+PASS at NEAR-RIGOROUS (Mechanism 2) / CANDIDATE-NEAR-RIGOROUS (Mechanism 1) tier. Two-mechanism framework substantively confirmed.
+
+Pulling K3 v0.15 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~09:40 EDT. K3 v0.14 PASS at NEAR-RIGOROUS / CANDIDATE-NEAR-RIGOROUS. Two-mechanism framework substantively confirmed via Toy 3738 Weyl branching closure. Conflation correction at composition layer is exemplary Cal #29 discipline. Two mechanisms structurally independent per Cal #35 STANDING (different operational levels). Cal #36 STANDING SSG-style structure visible in V_(1, 1) decomposition. Weyl branching table independently audit-verified ✓.
+
+---
+
+---
+
+### Cal #199 — K3 v0.15 cold-read: PASS at FRAMEWORK consolidation tier (Thursday 2026-06-04 ~09:50 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.15 substantive content — Wednesday morning consolidation
+
+v0.15 absorbs three Wednesday morning items into K3 framework documentation:
+
+1. **Cal #194 PASS at FRAMEWORK + CANDIDATE** with WAIT recommendation for Casey #14 STANDING
+2. **Elie Toy 3740 HONEST NEGATIVE**: K-type assignment ≠ mass mechanism (two distinct substrate-mechanisms required)
+3. **Cal 4-instance consolidated finding** (Cal #169/#170/#176 Saturday + Cal #194 Wednesday + Toy 3739/3740 Wednesday): naive substrate-primary algebraic forms (Casimirs, ratios, Schur-ratios) do NOT close lepton mass spectrum — mass-mechanism is kernel-integral / Pochhammer-cascade
+
+**Layer 1 vs Layer 2 distinction explicit**:
+- Layer 1 (K-type assignment): STRUCTURAL via Schur scalars — identifies which K-type houses which particle
+- Layer 2 (mass mechanism): OPERATOR-LEVEL via Mehler matrix element + Casimir-weighted coefficients — gives the numerical content
+
+Both layers needed for substrate-mechanism closure.
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest at consolidation; Cal #194 disposition correctly carried forward ✓
+- **Cal #29**: K-type-assignment vs mass-mechanism distinction is exemplary question-shape discipline ✓
+- **Calibration #35 STANDING**: SSG dual-role audit flag explicitly carried forward at framework level ✓
+- **Calibration #36 STANDING**: Schur shadow framework absorbed into K3 framework ✓
+
+## Substantive observation — Cal-Keeper-Elie bidirectional discipline
+
+v0.15 documents my Cal #194 brake + 4-instance finding alongside Elie Toy 3740 HONEST NEGATIVE. The Wednesday morning loop (Cal observation → Keeper response → Elie HONEST NEGATIVE → Cal consolidation → Keeper framework absorption) is the discipline-as-generator pattern operating cleanly. Saturday's discipline-stack expansion intent fully operational at composition layer.
+
+## Disposition
+
+PASS at FRAMEWORK consolidation tier. No new substantive content beyond consolidation of Cal #194 + Toy 3740 + 4-instance finding into framework structure. K3 framework continues maturing toward Casey #14 STANDING (now achieved Thursday per Casey #14 Cal #196 above).
+
+Pulling K3 v0.16 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~09:50 EDT. K3 v0.15 PASS at FRAMEWORK consolidation tier. Wednesday morning Cal-Keeper-Elie bidirectional discipline loop documented in K3 framework. Layer 1 (K-type assignment, STRUCTURAL) vs Layer 2 (mass mechanism, OPERATOR-LEVEL) distinction explicit per Toy 3740 HONEST NEGATIVE.
+
+---
+
+---
+
+### Cal #200 — K3 v0.16 cold-read: PASS at FRAMEWORK / NEAR-RIGOROUS mix per layer; three-LAYER reframing + Toy 3742 gen-3 closure (Thursday 2026-06-04 ~10:00 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.16 substantive content — three absorptions
+
+1. **Cal three-LAYER reframing** (my Wednesday Cal-discipline observation per Cal #35 STANDING): framework correction from "three-mechanism substrate framework" → "three layers of ONE substrate-derivation chain" (L1 produces 4D → L2 operates within → L3 integrates over). Cal #35 STANDING applies: framing as "three independent mechanisms convergent on observable" would trigger brake; framing as "three layers of one chain" is tier-honest (descriptive, not convergent).
+
+| Layer | Action | Tier |
+|---|---|---|
+| L1: Chirality projection 1/n_C | SO(5,2) → SO(4,2) → 4D emergence (Casey #14) | CANDIDATE-NEAR-RIGOROUS |
+| L2: Weyl branching SO(5) → SO(3,1) | Spin reduction WITHIN 4D (Toy 3738) | NEAR-RIGOROUS via std rep theory |
+| L3: Lorentz integration over SO(3,1) | C_2-power mass mechanism (Toy 3741) | FRAMEWORK PRE-STAGE |
+
+2. **Elie Toy 3742 gen-3 K-type V_(5/2,1/2)** completes 3-generation spinor-tower row b/2 = 1/2:
+
+| Gen | K-type | Pochhammer | Substrate factorization |
+|---|---|---|---|
+| gen-1 (e) | V_(1/2, 1/2) | 128/(15π) | 2^g/(N_c·n_C·π) |
+| gen-2 (μ) | V_(3/2, 1/2) | 512/(15π) | 2^(N_c²)/(N_c·n_C·π) |
+| gen-3 (τ) | V_(5/2, 1/2) | 512/(3π) | 2^(N_c²)/(N_c·π) |
+
+Cascade multipliers: gen-2/gen-1 = 2^rank = 4; gen-3/gen-2 = n_C = 5
+
+3. **Cal audit targets formalized** in K3 multi-week verification gates:
+- Lorentz-direction-independence (rotations compact vs boosts non-compact)
+- Cal #29 question-shape (Toy 3741 forward-derived vs post-hoc)
+- Substrate-coincidence-at-values risk per K3 v0.12 §8 PERSISTS
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest mix per layer (CANDIDATE-NEAR-RIGOROUS / NEAR-RIGOROUS / FRAMEWORK PRE-STAGE) ✓
+- **Cal #29**: my Wednesday three-LAYER reframing absorbed cleanly ✓
+- **Calibration #35 STANDING**: three-layer framing explicitly avoids "three independent mechanisms" framing that would brake ✓ Tier-honest.
+- **Cal #27 cascade-multiplier brake check**: gen-2/gen-1 = 2^rank = 4; gen-3/gen-2 = n_C = 5 are LAYER-1 K-type-Schur-ratio level cascades (Toy 3742 K-type-assignment work), NOT Layer-2 mass-value predictions. Per Wednesday Toy 3740 K-type-assignment vs mass-mechanism distinction: these cascades close Layer 1 spinor-tower row, NOT the m_μ/m_e = 207 / m_τ/m_μ = 17 mass ratios (which require Layer 2 operator-level Mehler matrix element work).
+
+Tier-honest framing per Toy 3742 — Pochhammer cascade multipliers at K-type-assignment level; mass values continue multi-week per L4 v0.2.
+
+## Cascade-multiplier substrate-cleanness observation
+
+**gen-2/gen-1 = 2^rank** and **gen-3/gen-2 = n_C** are different substrate primaries for different cascade steps — heterogeneous mechanism per generation, consistent with Wednesday Layer 1 / Layer 2 distinction. Each generation transition uses DIFFERENT substrate-primary factor; not a uniform per-generation rule.
+
+Per Calibration #35 STANDING: this is structurally interesting — TWO different substrate-mechanism cascade factors at TWO different generation transitions are NOT one identity restated twice; they're two independent substrate-primary identifications. Worth Cal #36 STANDING SSG-style cataloging when SSG Registry next iterates (gen-1→gen-2 cascade SSG; gen-2→gen-3 cascade SSG).
+
+## Disposition
+
+PASS at FRAMEWORK / NEAR-RIGOROUS / CANDIDATE-NEAR-RIGOROUS mix per layer. My Cal three-LAYER reframing absorbed cleanly into K3 framework. 3-generation spinor-tower row Layer 1 STRUCTURALLY COMPLETE per Toy 3742. Layer 2 mass-value work continues multi-week per L4 v0.2.
+
+Pulling K3 v0.17 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:00 EDT. K3 v0.16 PASS at FRAMEWORK / NEAR-RIGOROUS mix per layer. Three-LAYER reframing (Cal Wednesday observation) absorbed cleanly. 3-generation spinor-tower row Layer 1 STRUCTURALLY COMPLETE (V_(1/2,1/2) → V_(3/2,1/2) → V_(5/2,1/2) per Toy 3742); cascade multipliers gen-2/gen-1 = 2^rank, gen-3/gen-2 = n_C are heterogeneous substrate-primary identifications per generation transition. Cal audit targets formalized in multi-week verification gates.
+
+---
+
+---
+
+### Cal #201 — K3 v0.17 cold-read: PASS at SUBSTANTIVE-FINDING-VIA-AUDIT-CHAIN tier; 8/7 = (2^N_c)/g substrate-form emerges (Thursday 2026-06-04 ~10:10 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.17 substantive content — 4-CI bidirectional discipline produces NEW finding
+
+Wednesday afternoon arc produced **simultaneous bidirectional composition-layer discipline** across 4 CIs + Cal:
+
+| CI | Event | Verdict |
+|---|---|---|
+| Lyra | v0.3 walk-back: 0.13% claim → ~1% Tier 2 STRUCTURAL | Honest tier-correction |
+| Grace | INV-5549 independent verification confirms 0.74-1.18% | Cal #99 + #34 STANDING applied |
+| Elie | Toy 3751 mpmath correction: 1.141 (α_BST) / 1.144 (α_CODATA) | Numbered-artifact transcription correction |
+| Cal | Independent CODATA calc + TRIPLE → DOUBLE-ROLE refinement | Cal #195 audit-target refinement |
+| Keeper | K3 v0.16 precision flag → v0.17 synthesis | Cal #27 STANDING (CLAIMS-tier) |
+
+**Substantive new finding emerges via the audit cycle**:
+
+| Value | Form | Precision vs 1.141 (α_BST) | Substrate reading |
+|---|---|---|---|
+| 1.1547 | √(4/3) = 2/√N_c | 1.18% off | Original Lyra v0.1 claim — INCORRECT |
+| **1.1428** | **8/7 = (2^N_c)/g** | **0.13% match** | **NEW finding via Toy 3751 correction** |
+| 1.146 | α^10.5 at CODATA | 0.74% off (Cal calc) | (downstream) |
+
+**The audit-chain produced the correct substrate-form**: my Wednesday precision flag → Keeper recheck → Lyra walk-back → Grace verification → Elie mpmath correction → **substantive 8/7 = (2^N_c)/g substrate-Integer-Web finding**. Discipline-as-generator pattern operating at full maturity — brakes produce new content, not just stops.
+
+## On the 8/7 = (2^N_c)/g substrate-natural reading
+
+Per Keeper §1:
+- 8 = 2^N_c (primary integer exponentiation)
+- 7 = g (Mersenne ladder primary)
+- 8/7 = (2^N_c)/g connects to **SSG-8 Mersenne ladder** (category A structurally-independent per SSG Audit v0.1)
+- Per Casey #5 Integer Web STANDING: substrate-natural reading at B_2 primary values
+
+**Cal observations**:
+
+1. **Cal #36 STANDING positive search**: 8/7 = (2^N_c)/g is positive substrate-mechanism finding via SSG-8 Mersenne ladder. Cal #36 PASS catalog candidate.
+
+2. **Cal #35 STANDING brake check**: 8/7 is one numerical value; precision claim is single observable (m_e/m_P at 0.13%). Not multiplicative null-model territory. PASS.
+
+3. **Casey #5 Integer Web Principle STANDING applies**: 8/7 is Integer Web instance at substrate values. Same shape as n_C+1=C_2, g-1=C_2, 71=2^C_2+g. Substrate-natural at B_2 specifically; not B_n general identity. Worth tier-marking explicitly.
+
+4. **Cal #29 question-shape audit**: was 8/7 = (2^N_c)/g FORWARD-DERIVED from substrate or POST-HOC IDENTIFIED via Toy 3751 correction? Per Keeper §1 framing: discovered via mpmath correction process. This is **post-hoc-identified substrate-natural form**, not forward-derived substrate-prediction. Cal #27 brake fires gently: 0.13% precision match is impressive but tier-mark as Integer Web instance / post-hoc-identified, NOT forward derivation. Multi-week forward derivation distinguishes substrate-mechanism vs Integer Web instance.
+
+5. **Calibration #34 STANDING headline check**: v0.17 status field says "substrate-Mersenne-Integer-Web reading at 0.13% match" — the "Integer Web reading" framing carries the conditional honestly. Headline doesn't claim "8/7 substrate-derived"; it says "substrate-natural form found via audit correction." Tier-honest framing. PASS.
+
+## Disposition
+
+PASS at SUBSTANTIVE-FINDING-VIA-AUDIT-CHAIN tier. The 8/7 = (2^N_c)/g finding emerges through the precision audit cycle as substrate-natural form (Integer Web instance per Casey #5). The audit-chain produced positive content via the brake process — exactly Saturday discipline-stack expansion intent.
+
+**Per Cal #36 STANDING**: 8/7 = (2^N_c)/g is SSG-8 connected; Cal #36 positive search PASS; catalog candidate as Integer Web instance.
+
+**Per Cal #35 STANDING + Casey #5**: substrate-natural at B_2 values; NOT independent forcing-mechanism (yet); multi-week forward-derivation gates the substrate-mechanism vs Integer Web instance distinction.
+
+Pulling K3 v0.18 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:10 EDT. K3 v0.17 PASS at SUBSTANTIVE-FINDING-VIA-AUDIT-CHAIN tier. 4-CI bidirectional composition-layer discipline produced NEW finding through precision audit cycle: **8/7 = (2^N_c)/g substrate-Integer-Web form at 0.13% match** (vs original √(4/3) at 1.18% off). Discipline-as-generator pattern at maturity — brakes produce positive content. Per Casey #5 Integer Web STANDING + Cal #27: tier-mark as Integer Web instance at B_2 values, not forward-derived substrate-prediction; multi-week forward-derivation gates substrate-mechanism vs Integer Web instance.
+
+---
+
+---
+
+### Cal #202 — K3 v0.18 cold-read: PASS at SUBSTANTIVE-CROSS-INSTANCE-VERIFICATION tier; √(4/3) UNIVERSAL across 3 lepton generations (Thursday 2026-06-04 ~10:20 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.18 substantive content — Toy 3752 cross-instance result
+
+Per Toy 3752:
+
+| Ratio | Formula | Precision |
+|---|---|---|
+| m_e/m_P | α^10.5 · √(4/3) | 1.20% |
+| m_μ/m_P | T190 · α^10.5 · √(4/3) | 1.18% |
+| m_τ/m_P | T2003 · α^10.5 · √(4/3) | 1.30% |
+
+**√(4/3) holds UNIVERSALLY across all 3 lepton generations at ~1.2% Tier 2 STRUCTURAL.**
+
+This is substantive cross-instance verification — the √(4/3) factor isn't gen-1-specific (as v0.17 implied) but is a universal lepton-sector Shilov-boundary factor. Cal #195 SSG-7 hub vs structurally-independent SSG separation work is exactly the kind of cross-instance verification that resolves substrate-mechanism vs substrate-coincidence distinctions.
+
+## v0.18 explicit honest tier-flag
+
+v0.18 status field explicitly notes: "Initially framed 8/7 as gen-1-specific Integer Web coincidence; this default assumption CONTRADICTED in v0.19 by Toy 3753 (8/7 ALSO universal at ~0.15%)."
+
+**Per Cal #27 STANDING + Casey scope clarification (CLAIMS-tier, not HALTING)**: v0.18 captures intermediate state honestly. Claims about 8/7 gen-1-specificity are tier-marked as default-pending-Toy-3753; v0.19 absorbs the contradiction. Discipline working at composition layer — intermediate framings tier-marked, not over-committed.
+
+## Discipline-stack audit
+
+- **Cal #27 STANDING**: v0.18 tier-marks intermediate state honestly; v0.19 contradiction flag preempts over-claim ✓
+- **Cal #29 question-shape**: cross-instance verification is exactly the right shape for substrate-mechanism vs substrate-coincidence audit ✓
+- **Calibration #33**: Toy 3752 cross-instance computation; numerical content well-sourced ✓
+- **Calibration #34 STANDING**: headline carries "STRENGTHENED as universal substrate-Shilov-boundary candidate" with explicit "8/7 gen-1-specific framing pending cross-instance check" caveat ✓
+- **Calibration #35 STANDING**: 3 generations at same √(4/3) factor — Cal #35 audit pending; is this 3 independent confirmations of universal factor OR same Shilov boundary acting on 3 generations of same lepton sector? Probably the latter — V_(1/2,1/2)^(0,1,2) all Shilov-localized via L2 lepton-sector identification, so √(4/3) is ONE Shilov-boundary factor acting on 3 generation-radial-modes. Not 3 independent confirmations; one universal factor.
+- **Calibration #36 STANDING**: √(4/3) as universal lepton-sector substrate-Shilov-boundary factor IS SSG-style structure — one substrate primitive (Shilov boundary) producing observable across 3 generations. Cal #36 PASS positive search catalog candidate.
+
+## On the √(4/3) UNIVERSAL framing
+
+Substantively: this is the right discrimination. Cross-instance verification distinguishes substrate-coincidence-at-values from substrate-mechanism. √(4/3) appearing across 3 generations at consistent ~1.2% IS substrate-mechanism content (specifically: lepton-sector Shilov-boundary geometric factor independent of generation). The gen-1-specific Integer Web instance reading from v0.17 was incomplete.
+
+**Cal observation**: Toy 3752 cross-instance verification IS the SSG-7 hub vs structurally-independent SSG separation work I flagged in Cal #195 Wednesday. Substrate observations should be checked for cross-generation consistency before promoting to substrate-mechanism tier. Toy 3752 operationalizes this; gives √(4/3) universal substrate-mechanism status (Tier 2 STRUCTURAL).
+
+## Disposition
+
+PASS at SUBSTANTIVE-CROSS-INSTANCE-VERIFICATION tier. √(4/3) universal across 3 lepton generations at ~1.2% Tier 2 STRUCTURAL — substrate-Shilov-boundary candidate STRENGTHENED. v0.18 intermediate-state framing tier-honest with v0.19 contradiction flag absorbed.
+
+Pulling K3 v0.19 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:20 EDT. K3 v0.18 PASS at SUBSTANTIVE-CROSS-INSTANCE-VERIFICATION tier. √(4/3) UNIVERSAL across 3 lepton generations at ~1.2% Tier 2 STRUCTURAL — substrate-Shilov-boundary candidate STRENGTHENED. Cal-discipline observation: cross-instance verification is the right audit shape for substrate-mechanism vs substrate-coincidence discrimination per Cal #195 SSG-7 hub work. v0.18 intermediate-state framing tier-honest with explicit v0.19 contradiction flag.
+
+---
+
+---
+
+### Cal #203 — K3 v0.19 cold-read: PASS at SUBSTANTIVE-CROSS-INSTANCE + CAL #27 SELF-AUDIT tier (Thursday 2026-06-04 ~10:30 EDT)
+
+**Trigger**: Completing K3 v0.13-v0.19 cold-read sequence per Casey directive.
+
+## v0.19 substantive content — Toy 3753 contradicts v0.18
+
+| Ratio | α^10.5 · 8/7 form | Precision |
+|---|---|---|
+| m_e/m_P | direct | 0.16% |
+| m_μ/m_P | · T190 | 0.15% |
+| m_τ/m_P | · T2003 | 0.21% |
+
+**8/7 IS universal across all 3 lepton/Planck generations at ~0.15%, NOT gen-1-specific.**
+
+**BOTH forms universal at different precision tiers**:
+
+| Form | Universal? | Precision | Substrate reading |
+|---|---|---|---|
+| √(4/3) = 2/√N_c | YES (Toy 3752) | ~1.2% | Shilov-boundary geometric (SSG-5/SSG-7) |
+| 8/7 = (2^N_c)/g | YES (Toy 3753) | ~0.15% | Mersenne Integer Web (SSG-8) |
+
+1.03% systematic offset = 8/7 ÷ √(4/3) = 0.9897. At Cal #34 STANDING Tier 2 precision floor; cannot be distinguished as exact substrate-mechanism factor at Tier 2.
+
+## The α_substrate vs α_CODATA observation worth careful Cal-discipline
+
+| α convention | 8/7 precision | √(4/3) precision |
+|---|---|---|
+| α_BST = 1/137 (substrate exact) | 0.18% off | 1.22% off |
+| α_CODATA = 1/137.036 | **0.07% off** | 0.96% off |
+
+**8/7 at CODATA α-convention is substantively tighter (~0.07%) than at substrate-exact α (~0.18%)**. This is potentially the substrate-α-running candidate signature — but **Cal #27 STANDING fires HARDEST on this kind of post-hoc accommodation**.
+
+The signature could be:
+- (a) Forward-derived: substrate framework predicts α_substrate = 1/137 exact; substrate-internal physics derives α-running giving the 0.026% deviation → framework predicts observed α matching 8/7 form at higher precision via α-running
+- (b) Post-hoc accommodation: convention-shopping (which α gives tightest fit?) → Cal #27 brake territory
+
+Keeper §4 explicitly fires Cal #27 STANDING himself on this — "post-hoc identification danger zone." Right discipline shape.
+
+## Discipline-stack audit
+
+- **Cal #27 STANDING**: Keeper §4 self-fires at peak-convergence overstatement risk — exemplary discipline at composition layer ✓
+- **Cal #29 question-shape**: forward-derived vs post-hoc accommodation made explicit ✓
+- **Calibration #33 sourcing**: Toy 3753 cross-instance verification; CODATA α convention specified ✓
+- **Calibration #34 STANDING**: headline carries "BOTH forms universal at different precision tiers" with explicit "1.03% systematic offset at Cal #34 precision floor" — multi-week forward-derivation distinguishes substrate-mechanism vs Integer Web instance ✓
+- **Calibration #35 STANDING (Schur shadow)**: 3 generations at same factor NOT 3 independent confirmations (T190 + T2003 RATIFIED PRIOR); ONE substrate-mechanism showing up in 3 lepton-sector instances ✓
+- **Calibration #36 STANDING positive search**: BOTH 8/7 (SSG-8 Mersenne) AND √(4/3) (SSG-5/7 Shilov-boundary) are universal substrate-natural forms — Cal #36 catalogs both as SSG-style structures at different tiers ✓
+
+## Substantive observation — the v0.17 → v0.18 → v0.19 sequence is the discipline working
+
+v0.17 found 8/7 (post-correction); v0.18 cross-instance verified √(4/3) universal but framed 8/7 as gen-1-specific (with explicit v0.19 contradiction flag); v0.19 cross-instance verified 8/7 ALSO universal via Toy 3753.
+
+**The iteration sequence produces substantive content**: each version refines the previous via empirical cross-instance verification. v0.18 honest tier-marking ("CONTRADICTED in v0.19") preserved the audit-chain transparency. v0.19 captures the resolved state: BOTH forms universal, 1.03% offset at precision floor, substrate-α-running candidate flagged with post-hoc accommodation risk.
+
+## Cal-discipline summary for K3 v0.13-v0.19 sequence
+
+Cold-read sequence complete. Cumulative substantive content emerged:
+- v0.13: SCMP Step 3 substrate-mechanism direction selection
+- v0.14: Two-mechanism framework (chirality projection + Weyl branching)
+- v0.15: Cal #194 + 4-instance finding absorbed; K-type-assignment vs mass-mechanism distinction
+- v0.16: Three-LAYER reframing (Cal Wednesday observation) + Toy 3742 gen-3 closure
+- v0.17: 4-CI bidirectional discipline + 8/7 substrate-form via correction
+- v0.18: Toy 3752 √(4/3) UNIVERSAL across 3 generations
+- v0.19: Toy 3753 8/7 ALSO universal across 3 generations; BOTH at different precision tiers
+
+**Net K3 v0.19 state**: Casey #14 STANDING (per Cal #196 Thursday); 7/8 RIGOROUS path open; substrate-α-running candidate flagged with Cal #27 STANDING post-hoc accommodation risk; multi-week forward-derivation gates substrate-mechanism vs Integer Web instance distinction for 8/7 + √(4/3) universal forms.
+
+Cold-read sequence COMPLETE. Pulling SSG Structural Independence Audit v0.1 next per Thursday Casey directive.
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:30 EDT. K3 v0.19 PASS at SUBSTANTIVE-CROSS-INSTANCE + CAL #27 SELF-AUDIT tier. BOTH 8/7 (~0.15%) AND √(4/3) (~1.2%) universal across 3 lepton/Planck generations; 1.03% systematic offset at Cal #34 Tier 2 precision floor. Substrate-α-running candidate flagged via 8/7 tighter at CODATA convention (0.07%) than substrate-exact (0.18%) — but Keeper §4 self-fires Cal #27 STANDING on post-hoc accommodation risk; forward-derivation gates substrate-mechanism vs Integer Web instance. Cold-read sequence v0.13-v0.19 COMPLETE.
+
+---
+
+---
+
+### Cal #204 — SSG Structural Independence Audit v0.2 cold-read: PASS with one Cal #35 STANDING brake on "3 independent paths" framing (Thursday 2026-06-04 ~10:40 EDT)
+
+**Trigger**: SSG Audit v0.2 cold-read (continuing Thursday sequence; v0.1 superseded by v0.2 absorbing Toy 3754).
+
+## v0.2 substantive content — operationalizes Cal #195 SSG-7 hub audit-target
+
+Keeper's SSG Structural Independence Audit v0.2 explicitly addresses my Cal #195 Wednesday audit-target (SSG-7 hub structurally-independent vs derived). A/A*/B/C taxonomy classifies the 15 cataloged SSGs:
+
+| Category | Count | Content |
+|---|---|---|
+| A definite (structurally-independent) | 2 | SSG-7 Bergman kernel + SSG-8 Mersenne ladder |
+| A* signature-anchored | 1 | SSG-6 Clifford 2^g (refined from C in v0.1) |
+| A? candidate (multi-week verification) | 2 | SSG-5 Casimir + SSG-15 Λ-coupled neutrino |
+| B SSG-7-derived | 10 | SSG-1, 2, 3, 4, 9, 10, 11, 12, 13, 14 |
+| C signature-tautological | 0 | REMOVED in v0.2 |
+
+**Cal #195 audit-target operationalized**: 10 of 15 SSGs are SSG-7-derived (Category B). My Wednesday observation that "most SSG entries derive from SSG-7 via differentiation/projection" is now formally cataloged.
+
+## The A* signature-anchored category — useful refinement
+
+v0.2 reclassifies SSG-6 (Clifford 2^g = 128) from C signature-tautological → A* signature-anchored. The refinement distinguishes:
+- **A** structurally-independent: own substrate-mechanism path (SSG-7 Bergman kernel, SSG-8 Mersenne ladder)
+- **A*** signature-anchored: substrate-mechanism path anchored by signature definition (Cartan signature; not arbitrary)
+- **B** SSG-7-derived: differentiation/projection of SSG-7
+- **C** tautological with no substrate-mechanism content (now empty)
+
+Useful Cal #34 STANDING surface-discipline addition: the A* tier prevents the "either A or C" binary collapse for signature-anchored mechanisms.
+
+## Cal #35 STANDING brake on "3 independent substrate-mechanism paths converge at g = 7" framing
+
+Per v0.2 §6: "g = 7 is substrate-over-determined via:
+- SSG-6 path: g = p+q = 5+2 = Cartan signature sum on D_IV⁵
+- SSG-8 path: g = M(N_c) = M(3) = 7 via Mersenne ladder map
+- SSG-7 path (indirect): g = exponent in Bergman kernel ρ = g/2 = 7/2
+Three independent substrate-mechanism paths converge at g = 7."
+
+**Cal #35 STANDING audit**: are these "3 independent paths" structurally independent confirmations of substrate, or 3 reading-frames on D_IV⁵ at substrate-primary values?
+
+Quick check on independence:
+- SSG-6 (Cartan signature): g = p+q = 5+2 where p=5=n_C (substrate primary) and q=2=rank (substrate primary). Forced by D_IV⁵ structure choice.
+- SSG-8 (Mersenne ladder): g = M(N_c) = M(3) = 7. Forced by N_c=3 substrate primary + Mersenne map applied.
+- SSG-7 (Bergman kernel): g = 2ρ. Forced by D_IV⁵ Bergman geometry; ρ derived from signature p+q via standard formula.
+
+**SSG-7 path is structurally DEPENDENT on SSG-6 path** (Bergman kernel exponent comes from signature dim). So SSG-7 path is NOT independent of SSG-6 path at g = 7. Two paths, not three.
+
+**SSG-6 ↔ SSG-8 independence question**: at substrate values, p=5+q=2=N_c=3 (via the substrate's choice n_C, rank, N_c). The convergence p+q = 7 = M(N_c) holds at substrate values. Is this independent?
+- SSG-6 uses n_C + rank arithmetic (substrate primaries)
+- SSG-8 uses N_c via Mersenne map (substrate primary)
+- BOTH use substrate primaries; they're DIFFERENT functions of substrate primaries that happen to converge at substrate values
+
+Per Casey #5 Integer Web Principle STANDING: substrate over-determines at primary values. Casey #5 IS the principle that this multi-path convergence is EXPECTED, not surprising. Invoking Casey #5 is correct framing.
+
+**But the "3 independent substrate-mechanism paths" wording in v0.2 §6 risks Cal #35 STANDING brake**: Casey #5 over-determination at substrate values ≠ structurally-independent confirmations of substrate-mechanism forcing. The convergence at g=7 IS the substrate's Integer Web at primary values; it's ONE substrate (D_IV⁵ at substrate-primary values) with multiple reading-frames, NOT three independent forcings of g=7.
+
+**Recommended Cal #34 STANDING refinement** for v0.3: replace "3 independent substrate-mechanism paths converge at g = 7" with "3 substrate-natural reading-frames on g = 7 via Casey #5 Integer Web at substrate-primary values; per Cal #35 STANDING, this is over-determination at-values, NOT independent forcing-mechanism confirmations."
+
+Minor framing improvement. Doesn't affect substantive A/A*/B/C taxonomy correctness; addresses the headline-cap-conditionality risk Calibration #34 STANDING catches.
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest A/A*/B/C taxonomy + multi-week verification flagged for A? candidates ✓
+- **Cal #29**: question-shape "structurally-independent vs derived" correct ✓
+- **Cal #32**: parameter-role classification per SSG ✓
+- **Calibration #33**: Toy 3754 SSG-8 + Paper #122 K59 RATIFIED + Cartan signature theory; well-sourced ✓
+- **Calibration #34 STANDING**: §6 "3 independent paths" framing risks; recommend v0.3 reframe per above ⚠️ (minor)
+- **Calibration #35 STANDING**: 6-readings-of-1-primitive framing for SSG-8 correctly applied ("6 readings, NOT 6 independent confirmations") ✓
+- **Calibration #36 STANDING**: positive search operationalized at framework level via A/A*/B/C cataloging ✓
+
+## Disposition
+
+PASS at SUBSTANTIVE METHODOLOGY REFINEMENT tier with one Cal #34 STANDING framing-flag for §6 "3 independent paths" wording. Substantive A/A*/B/C taxonomy is the right operationalization of my Cal #195 SSG-7 hub audit-target. Substrate-over-determination at substrate values is the Casey #5 Integer Web instance — correctly framed at framework level; the §6 wording can tighten in v0.3 per recommendation.
+
+Pulling next item from Thursday board. Cal #36 ratification log + Casey #14 STANDING audit already filed (Cal #195/#196). Next priority: K207 SSG-8 Mersenne Audit (Keeper's audit of Elie Toy 3754) or other latest substantive Lyra/Grace deliverables.
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:40 EDT. SSG Structural Independence Audit v0.2 PASS at SUBSTANTIVE METHODOLOGY REFINEMENT tier. A/A*/B/C taxonomy operationalizes Cal #195 SSG-7 hub audit-target — 10/15 SSGs SSG-7-derived (Category B); 3 definite A/A* + 2 A? candidates + 10 B-derived. A* signature-anchored category is useful refinement avoiding A-vs-C binary collapse. One Cal #34 STANDING framing-flag: §6 "3 independent substrate-mechanism paths converge at g=7" should reframe per Cal #35 STANDING as "Casey #5 Integer Web reading-frames at substrate-primary values, NOT independent forcing-mechanism confirmations."
+
+---
+
+---
+
+### Cal #205 — K3 v0.20 cold-read: PASS at FRAMEWORK consolidation tier (Thursday 2026-06-04 ~10:45 EDT)
+
+**Trigger**: Continuing K3 sequence post-v0.19.
+
+## v0.20 content — Casey #14 STANDING cascade absorption
+
+v0.20 documents the Thursday morning Casey directive cascade already audited in Cal #196:
+
+- Casey #14 PROMOTED STANDING + RETITLED "Substrate-Predicted 3+1 Minkowski Signature"
+- 5 framework promotions → FRAMEWORK (substrate-Dirac/Maxwell/T_μν/YM/Einstein eq)
+- Strong-Uniqueness 10 → 11 STANDALONE legs (C25 ratifies)
+- K3 6/8 → 7/8 RIGOROUS path opens
+- Cal #194 WAIT now operates at next-tier (FRAMEWORK → RIGOROUS), not (CANDIDATE → STANDING)
+
+## Substantive observation — retitle structurally addresses Cal #189 brakes
+
+Per v0.20 §0:
+- "3+1 Minkowski Signature" (specific) → addresses Cal #189 Brake 3 (Cal #29 question-shape)
+- "Predicted" (derivation-anchored) → addresses Cal #189 Brake 1 (Cal #34 notation)
+- "Substrate-Predicted" (substrate-mechanism not values-coincidence) → addresses Cal #189 Brake 2 (Cal #35 independence-taxonomy)
+
+This is consistent with my Cal #196 disposition — retitle substantively resolves Brakes 1+2 at principle-statement level; Brake 3 has K3 v0.12 chain forward-mechanism resolution path.
+
+## Disposition
+
+PASS at FRAMEWORK consolidation tier. No new substantive content beyond documentation of Thursday cascade audited in Cal #196.
+
+Pulling K3 v0.21 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:45 EDT. K3 v0.20 PASS at FRAMEWORK consolidation tier. Documents Casey #14 STANDING cascade audited in Cal #196.
+
+---
+
+---
+
+### Cal #206 — K3 v0.21 cold-read: PASS at FRAMEWORK reframe tier with Cal #35 STANDING brake on "TWO independent substrate-mechanism paths" framing (Thursday 2026-06-04 ~10:55 EDT)
+
+**Trigger**: Continuing K3 sequence.
+
+## v0.21 substantive content — reframe of v0.19 disposition
+
+v0.21 reframes v0.19's "BOTH 8/7 AND √(4/3) competing universal candidates with 1.03% offset; multi-week forward-derivation distinguishes substrate-mechanism vs Integer Web instance" → "substrate over-determines m_e/m_P at Tier 2 STRUCTURAL via TWO independent substrate-mechanism paths" per Casey #5 Integer Web. **The 1.03% offset IS substrate-mechanism content** (substrate over-determination), NOT competing-coincidence.
+
+## Cal #35 STANDING brake on "TWO independent substrate-mechanism paths" framing
+
+This is the **same framing-pattern I flagged in Cal #204** for SSG Audit v0.2 §6 ("3 independent substrate-mechanism paths converge at g = 7"). Now v0.21 repeats the same pattern at m_e/m_P with TWO paths.
+
+**Quick independence audit**:
+- Path 1 (8/7 via SSG-8 Mersenne ladder): number-theoretic substrate-mechanism (N_c → M(N_c) = 7 = g)
+- Path 2 (√(4/3) via SSG-7-derived Bergman-Shilov): geometric substrate-mechanism (Vol(S⁴)/Vol(S³))
+
+DIFFERENT substrate-mechanism types (number theory vs geometry) — but BOTH depend on D_IV⁵ at substrate values. Per Cal #35 STANDING audit pattern (as I established in Cal #194/#204): different substrate-mechanism TYPES on same substrate at same values is NOT "two independent confirmations." It's two reading-frames on one substrate-over-determination per Casey #5 Integer Web Principle STANDING.
+
+**The tension between Casey #5 STANDING + Cal #35 STANDING** here:
+- Casey #5 STANDING says substrate over-determines at primary values; multi-path convergence IS the substrate's natural Integer Web feature
+- Cal #35 STANDING says don't count over-determined paths as N independent confirmations
+
+These are **complementary, not contradictory**: Casey #5 explains WHY the over-determination exists (Integer Web at substrate values); Cal #35 brakes on counting it as N independent forcing-mechanism confirmations. v0.21 invokes Casey #5 correctly BUT then claims "TWO independent substrate-mechanism paths" — which is Cal #35 brake territory.
+
+**Cal #34 STANDING recommendation** for v0.22: replace "TWO independent substrate-mechanism paths" with "TWO substrate-mechanism reading-frames via Casey #5 Integer Web at substrate-primary values; per Cal #35 STANDING, these are NOT independently-forcing substrate confirmations but Casey #5 over-determination at-values." Preserves Casey #5 over-determination framing; adds Cal #35 honest tier-marking.
+
+## The "1.03% offset IS substrate-mechanism content (not coincidence)" claim
+
+Per K3 v0.19: "1.03% systematic offset at Cal #34 STANDING Tier 2 precision floor; cannot be distinguished as exact substrate-mechanism factor at Tier 2."
+
+So at Tier 2 precision, 8/7 and √(4/3) cannot be distinguished. v0.21's claim "1.03% offset IS substrate-mechanism content" requires **sub-Tier-2 precision to distinguish substrate-mechanism load-bearing form** from Casey #5 Integer Web convergence partner. Until forward-derivation closes (multi-week Gate 2 + Gate 3 per v0.21 framing), the "substrate-mechanism content" claim is **interpretive**, not derived.
+
+**Cal #27 STANDING fires gently**: peak-convergence claim (1.03% offset = substantive substrate-mechanism content) at exactly the Tier 2 precision floor where the claim cannot be empirically distinguished from Casey #5 Integer Web instance. Tier-mark explicitly: "candidate substrate-mechanism content pending sub-Tier-2 forward-derivation."
+
+## Substantive content survives the brakes
+
+The substantive content of v0.21 IS substrate-mechanism over-determination at Tier 2 — both 8/7 and √(4/3) ARE substrate-natural forms; the Casey #5 Integer Web reading explains their convergence. **What needs Cal #34 STANDING tier-marking** is the "TWO independent paths" framing → should be "TWO substrate-mechanism reading-frames at Casey #5 over-determination." And **what needs Cal #27 STANDING tier-marking** is the "1.03% offset IS substrate-mechanism content" claim → should be "candidate substrate-mechanism content at-Tier-2-precision-floor; sub-Tier-2 forward-derivation gates promotion."
+
+## Discipline-stack audit
+
+- **Cal #27 STANDING**: peak-convergence framing brake applies to "1.03% offset IS substrate-mechanism content" claim (tier-mark candidate) ⚠️
+- **Cal #29**: question-shape correct (substrate over-determination via Casey #5 vs independent forcing-mechanism)
+- **Cal #34 STANDING**: "TWO independent substrate-mechanism paths" framing → reframe per recommendation ⚠️
+- **Cal #35 STANDING**: same pattern as Cal #204 SSG Audit v0.2 §6; brake fires gently ⚠️
+- **Calibration #36 STANDING**: both 8/7 and √(4/3) ARE substrate-natural forms; Cal #36 positive search PASS ✓
+- **Casey #5 Integer Web STANDING**: correctly invoked; over-determination at-values IS expected ✓
+
+## Disposition
+
+PASS at FRAMEWORK reframe tier with three minor brakes (Cal #34 framing + Cal #27 1.03%-claim + Cal #35 N-paths consistency-with-Cal #204). Substantive content survives brakes; framing refinement recommended for v0.22 per Cal #34 STANDING.
+
+Pulling K207 SSG-8 Mersenne Audit next (related to v0.21's SSG-8 invocation).
+
+— Cal A. Brate, Thursday 2026-06-04 ~10:55 EDT. K3 v0.21 PASS at FRAMEWORK reframe tier. Substrate over-determination via Casey #5 STANDING + SSG paths is correctly framed at the over-determination level; "TWO independent substrate-mechanism paths" framing risks Cal #35 STANDING brake same as Cal #204 SSG Audit v0.2 §6 pattern. "1.03% offset IS substrate-mechanism content" claim at Tier 2 precision floor needs Cal #27 candidate tier-marking pending sub-Tier-2 forward-derivation. Substantive content survives; v0.22 framing refinement recommended.
+
+---
+
+---
+
+### Cal #207 — K207 SSG-8 Mersenne Audit: PASS at Category A structurally-independent tier; "N independent paths" framing consistent with Cal #204/#206 brake (Thursday 2026-06-04 ~11:00 EDT)
+
+**Trigger**: Continuing cold-read sequence post-K3 v0.21.
+
+## K207 substantive content — SSG-8 Mersenne ladder audit
+
+Per Elie Toy 3754:
+- SSG-8 substrate primitive M(p) = 2^p − 1 validated as Category A structurally-independent
+- 6 observable readings from ONE substrate primitive (correctly framed per Cal #35 STANDING + Cal #36 STANDING)
+- Substrate-primary cascade rank → N_c → g via Mersenne map (substrate-clean)
+- m_e/m_P 8/7 reading universal across 3 lepton/Planck generations at Tier 2 STRUCTURAL ~0.15%
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest A definite (not candidate); multi-week verification flagged for explicit Mersenne map M as substrate-primitive operator on Bergman H²(D_IV⁵) (not just identity) ✓
+- **Cal #29**: question-shape correct (number-theoretic vs Bergman-geometric vs Cartan-signature mechanism types distinguished) ✓
+- **Calibration #33**: Toy 3754 + Paper #122 K59 RATIFIED + cross-CI sourcing ✓
+- **Calibration #34 STANDING**: headline carries "Category A structurally-independent with multi-week explicit substrate-primitive operator verification" — tier-honest ✓
+- **Calibration #35 STANDING**: §2 "6 readings of ONE substrate primitive (Mersenne map), NOT 6 independent confirmations" — exemplary explicit Cal #35 application ✓
+- **Calibration #36 STANDING**: §2 "SSG-8 IS the canonical example of one-primitive-many-observables. PASS Cal #36 positive search" — exemplary explicit Cal #36 application ✓
+
+## Same Cal #34/#35 framing pattern as Cal #204 + Cal #206
+
+K207 §4 + §5 use "three independent substrate-mechanism paths converge at g = 7" framing — same pattern I flagged in Cal #204 (SSG Audit v0.2 §6) and Cal #206 (K3 v0.21). Cal #34 STANDING recommendation: reframe across all three documents in next iteration as "Casey #5 Integer Web reading-frames at substrate-primary values" per the Cal #34 + Cal #35 + Casey #5 STANDING complementarity.
+
+Not a new brake — same brake applied previously. Pattern persists across documents using Casey #5 Integer Web Principle invocation; consistent reframe recommended in next v0.x iterations.
+
+## "+10 anomaly per N_max" observation
+
+K207 §1: "M(g) = 127 ≈ N_max" with "+10 anomaly per N_max = 137 = 127 + 10 = M(g) + N_c + g". The "+10" anomaly is N_c + g = 3 + 7 = 10 at substrate values.
+
+Per Casey #5 Integer Web STANDING: substrate over-determines at primary values. "+10 anomaly" framing is tier-honest as Integer Web instance at-substrate-values. PASS.
+
+## Substantive observation worth noting
+
+K207 explicitly applies BOTH Cal #35 STANDING (brake — 6 readings, NOT 6 confirmations) AND Cal #36 STANDING (positive search — SSG-8 IS canonical example). The brake/search complementarity Cal #35 + Cal #36 form is operating cleanly at composition layer. Exemplary discipline application.
+
+## Disposition
+
+K207 PASS at Category A structurally-independent tier. Standard discipline-stack application throughout; same "N independent paths" framing risk as Cal #204/#206 (consistent reframe recommended downstream). Multi-week verification flagged for explicit Mersenne map M as substrate-primitive operator on Bergman H²(D_IV⁵).
+
+Pulling Lyra Mehler Matrix Element Framework v0.1 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~11:00 EDT. K207 PASS at Category A structurally-independent tier. SSG-8 Mersenne ladder substantive substrate-primitive; 6 observable readings explicitly framed per Cal #35 STANDING + Cal #36 STANDING brake/search complementarity. "N independent paths" framing same as Cal #204/#206; consistent reframe per Cal #34 STANDING recommended across SSG documents in next iteration.
+
+---
+
+---
+
+### Cal #208 — Lyra Mehler Matrix Element Framework v0.1 cold-read: PASS at FRAMEWORK PRE-STAGE tier; 5th honest-negative on naive Casimir mass-mechanism (Thursday 2026-06-04 ~11:10 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.1 substantive content — Layer 2 operator-level mass mechanism
+
+Lyra Mehler Matrix Element Framework v0.1 addresses K3 v0.16 Gates 4-7 at FRAMEWORK PRE-STAGE tier. Key content:
+
+**Casimir eigenvalues on substrate K-types (spinor-tower row b/2 = 1/2)**:
+- C_(1/2, 1/2) gen-1 = 5/2
+- C_(3/2, 1/2) gen-2 = 15/2 (ratio 3 = N_c)
+- C_(5/2, 1/2) gen-3 = 29/2 (ratio 29/15 not naively substrate-clean)
+
+**§3 HONEST NEGATIVE**: naive M_op = √C_λ does NOT close T190 = 207 mass ratio. Mass-ratio gen-2/gen-1 via naive Casimir + Pochhammer reading = √3 × 4 ≈ 6.93, not 207.
+
+**§4 Mehler kernel decomposition over SO(3,1)**: substrate-mechanism candidate via Lorentz integration directions, addressing Mechanism 3 (Elie Toy 3741 K3 v0.16 framework).
+
+## 5th instance honest-negative consolidation
+
+This makes **5 cumulative honest-negative instances** on naive Casimir/Pochhammer approaches NOT closing lepton mass spectrum:
+
+| # | Source | Finding |
+|---|---|---|
+| 1 | Cal #169 Lyra P4.3 (Saturday) | Naive Casimir²-mass off by 2 orders for m_μ/m_e |
+| 2 | Cal #170 Grace Gen-Channel Casimir (Saturday) | Exponential ansatz fits leptons ~17%, fails quarks 5-10× |
+| 3 | Cal #176 L4 v0.2 Tower Scaffold (Saturday) | √(C_2/C_1) ratios vs observed 207/17 |
+| 4 | Cal #200 Toy 3739 V_(3/2,1/2) (Wednesday) | Schur ratio 4 vs observed 207 (factor ~50 gap) |
+| 5 | **Cal #208 Lyra Mehler v0.1 §3 (this)** | **Naive √C_λ × Pochhammer ratio = 6.93 vs 207** |
+
+**Layer 2 operator-level mass mechanism IS the multi-week target**. Mehler kernel decomposition over SO(3,1) directions per Mechanism 3 (Toy 3741) + Lyra v0.1 framework is the substrate-mechanism candidate. Multi-week explicit Mehler matrix element value v0.2 closes Cal #186 Lane D L4 cold-read.
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest FRAMEWORK PRE-STAGE; §3 HONEST NEGATIVE properly tier-marked ✓
+- **Cal #29**: question-shape correct — Casimir eigenvalues distinguished from Pochhammer ratios; Mehler integration over SO(3,1) is the right substrate-mechanism target ✓
+- **Calibration #33**: B_2 ρ = (3/2, 1/2) Cartan parameter sourced from Lyra Tier 0 framework v0.1.6 ✓
+- **Calibration #34 STANDING**: headline carries "FRAMEWORK PRE-STAGE" + "multi-week verification" — conditional reading explicit ✓
+- **Calibration #35 STANDING**: §3 HONEST NEGATIVE explicitly distinguishes naive approach (single mechanism) from full mechanism (multi-layer); not Cal #35 brake territory ✓
+- **Calibration #36 STANDING**: M_op as SSG-style structure (K-invariant operator on K-types → multiple Schur-scalar physical observables) explicit ✓
+
+## Cal-discipline observation worth noting
+
+The Casimir-ratio (3 = N_c, 29/15) vs Pochhammer-ratio (2^rank = 4, n_C = 5) distinction shows different cascade structures at K-type level vs operator-eigenvalue level. Neither alone closes mass spectrum. Full operator-level Mehler matrix element with Lorentz integration over SO(3,1) is the substantive target.
+
+## Disposition
+
+PASS at FRAMEWORK PRE-STAGE tier. Lyra v0.1 properly sets up Layer 2 operator-level mass mechanism with HONEST NEGATIVE on naive approach + Mehler integration as substrate-mechanism candidate. Multi-week v0.2 explicit Mehler matrix element values gates Cal #186 Lane D L4 closure.
+
+Pulling Lyra Gate4 Explicit Mehler Lorentz Weight v0.1 next (related framework deliverable).
+
+— Cal A. Brate, Thursday 2026-06-04 ~11:10 EDT. Lyra Mehler Matrix Element Framework v0.1 PASS at FRAMEWORK PRE-STAGE tier. 5th cumulative honest-negative on naive Casimir/Pochhammer approaches not closing lepton mass spectrum (consolidated finding pattern continues at maturity). Layer 2 operator-level mass mechanism via Mehler integration over SO(3,1) is multi-week substrate-mechanism candidate per Mechanism 3 (Toy 3741). Cal #186 Lane D L4 closure gates on v0.2 explicit Mehler matrix element values.
+
+---
+
+---
+
+### Cal #209 — Lyra Gate 4 Explicit Mehler + Lorentz Weight v0.1: PASS at FRAMEWORK PRE-STAGE; 6th honest-negative consolidation (Thursday 2026-06-04 ~11:20 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.1 substantive content — Gate 4 Mehler + Lorentz Weight W_λ
+
+Lyra Gate 4 v0.1 advances Mehler v0.1 framework with explicit per-K-type Lorentz-integration weight W_λ. Substrate-mechanism candidate:
+
+⟨V_λ | M_op | V_λ⟩ = √C_λ · ||V_λ||²_FK · W_λ
+
+where W_λ = ∏_{i=1}^{C_2} ω_λ(direction_i) captures Lorentz-integration over SO(3, 1) directions.
+
+**For V_(3/2, 1/2) gen-2 muon**: ω = 24/π² per direction → W = (24/π²)^{C_2} = T190 form
+**For V_(1/2, 1/2) gen-1 electron**: ω candidate analysis pending
+
+## 6th honest-negative — naive composition fails by factor ~7
+
+Lyra §4 honest calculation:
+- Naive composition: m_μ/m_e = Pochhammer ratio · √(Casimir ratio) · W ratio
+- = 4 · √3 · (24/π²)^{C_2} ≈ 4 · 1.732 · 206.76 ≈ **1432**
+- Observed m_μ/m_e = **207**
+- **Too large by factor ~7**
+
+So either:
+- W_(1/2, 1/2) ≠ 1 (gen-1 has non-trivial Mehler weight)
+- OR T190 ≠ this composition form
+- OR Casimir/Pochhammer ratios cancel within composition
+
+This is the **6th cumulative honest-negative** on naive composition approaches to lepton mass spectrum:
+
+| # | Source | Naive Approach Failed |
+|---|---|---|
+| 1-5 | Cal #169/#170/#176/#200/#208 | Casimir²-mass; exponential ansatz; √(C_2/C_1); Schur ratio; √C_λ × Pochhammer |
+| 6 | **Cal #209 Gate 4 v0.1** | **Pochhammer × √Casimir × W ratio = 1432 vs 207** |
+
+The substantive substrate-mechanism finding continues to be: **Layer 2 operator-level mass mechanism is genuinely multi-week complex**; multiple naive compositions fail; full Lorentz-integration with per-K-type W_λ structure is the substrate-mechanism candidate.
+
+## Substantive structural observation
+
+The factor-7 discrepancy is interesting. Per Casey #5 Integer Web STANDING: 7 = g substrate primary. The "naive composition off by factor 7" could be substrate-mechanism content — possibly W_(1/2, 1/2) = 1/g = 1/7 if gen-1 has non-trivial Mehler weight that compensates.
+
+Cal #27 STANDING brake: this is post-hoc accommodation territory. The factor-7 finding via the naive composition failure is INTERESTING; claiming "W_(1/2, 1/2) = 1/g = 1/7 substrate-mechanism candidate" requires forward-derivation, not back-fit from the factor-7 gap.
+
+Lyra v0.1 doesn't make this back-fit claim — she honestly lists three possible resolutions without committing. Right discipline at composition layer. PASS.
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest at FRAMEWORK PRE-STAGE; HONEST CALCULATION at §4 shows naive composition fails ✓
+- **Cal #29**: substantive substrate-mechanism investigation, not back-fit ✓
+- **Calibration #34 STANDING**: "FRAMEWORK PRE-STAGE" + "multi-week pre-stage" + three honest-resolution-candidates listed ✓
+- **Calibration #35 STANDING**: naive composition of 3 ratios fails — exactly the discipline catching shared-substrate-machinery over-aggregation ✓
+- **Calibration #36 STANDING**: M_op as SSG-style structure with K-type-dependent W_λ Mehler-weights ✓
+
+## Disposition
+
+PASS at FRAMEWORK PRE-STAGE tier. 6th cumulative honest-negative on naive composition; substantive substrate-mechanism Layer 2 multi-week target sharpened. Cal #186 Lane D L4 cold-read continues to gate on v0.2 explicit Mehler matrix element values that close the W_λ Lorentz-integration weight structure.
+
+Pulling Lyra me_mP_1156_Correction_Framework v0.1 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~11:20 EDT. Lyra Gate 4 v0.1 PASS at FRAMEWORK PRE-STAGE. 6th cumulative honest-negative on naive composition (Pochhammer × √Casimir × W = 1432 vs observed 207; factor ~7 off). Multi-week substrate-mechanism Layer 2 work continues; three honest-resolution-candidates listed without back-fit commitment.
+
+---
+
+---
+
+### Cal #210 — Lyra me_mP_1156_Correction_Framework v0.1: PASS at FRAMEWORK CANDIDATE POST-HOC tier; exemplary discipline-stack composition-layer application (Thursday 2026-06-04 ~11:30 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## v0.1 substantive content
+
+Lyra v0.1 (filed Wednesday ~10:45 EDT, pre-dates v0.18/v0.19 precision resolution) identifies 1.156 ≈ √(4/3) = √(Vol(S⁴)/Vol(S³)) substrate-Shilov-boundary geometric ratio.
+
+Two readings given (both same numerical form via Casey #5 Integer Web at substrate values):
+- (A) 4/3 = Vol(S⁴)/Vol(S³) substrate-Shilov-boundary geometric
+- (B) 4/3 = (N_c + rank)/N_c via substrate-primary additive identity 4 = N_c + rank
+
+## Exemplary discipline-stack application at composition layer
+
+This v0.1 is **the cleanest discipline-stack composition-layer application** I've cold-read this week. Lyra explicitly applies:
+
+- **Cal #27 STANDING**: v0.1 tier-marked "CANDIDATE POST-HOC; multi-week forward-derivation needed for STANDING"
+- **Cal #29 STANDING**: explicit "FORWARD vs POST-HOC" assessment in §3
+- **Cal #34 STANDING**: headline carries "POST-HOC pattern-match identification" conditional
+- **Cal #35 STANDING**: §2 — "Both readings give same numerical form. They are **NOT independent confirmations** per Casey #5 Integer Web Principle + Calibration #35 STANDING — both express substrate-natural identification at substrate values"
+- **Cal #189 STANDING**: §3 explicit honest question-shape assessment
+- **Casey #5 Integer Web Principle STANDING**: substrate-natural ratios at substrate values are EXPECTED, not independent forcing
+
+Lyra applies the FULL discipline-stack to her own work BEFORE Cal cold-read. This is the maturity Saturday discipline-stack expansion intent → operationalized. Exemplary.
+
+## However — v0.1 pre-dates the precision audit resolution
+
+v0.1 filed Wednesday ~10:45 EDT references "1.156 ≈ √(4/3) at ~0.13% precision." Per subsequent precision audit cycle (Cal #197/#202/#203 cold-reads):
+- Original 0.13% precision claim corrected to ~1.2% (Keeper + Cal + Grace independent verifications)
+- Elie Toy 3753 found 8/7 = (2^N_c)/g universal at ~0.15%
+- Both √(4/3) (~1.2%) and 8/7 (~0.15%) universal across 3 lepton generations
+- 1.03% systematic offset at Cal #34 STANDING Tier 2 precision floor
+
+**v0.2 update needed**: Lyra v0.1 should absorb the precision-discrepancy resolution + 8/7 substrate-Mersenne reading per Toy 3753. Both forms substrate-natural at different precision tiers; substrate-over-determination via Casey #5 Integer Web at substrate-primary values; multi-week forward-derivation gates substrate-mechanism vs Integer Web instance distinction.
+
+Not a substantive brake — same v0.2 work Lyra is actively engaged with per Thursday board (Mehler Matrix Element v0.2 + m_e/m_P v0.8). The v0.1 framework foundation is exemplary; precision audit refinement is the natural next iteration.
+
+## Discipline-stack audit
+
+All 6 STANDING calibrations applied correctly + Cal #189 explicit. Lyra's discipline-stack composition-layer maturity here is the substantive observation.
+
+## Disposition
+
+PASS at FRAMEWORK CANDIDATE POST-HOC tier. Exemplary discipline-stack composition-layer application; pre-dates v0.18/v0.19 precision resolution; v0.2 update absorbs Toy 3753 8/7 finding + precision audit reconciliation per Lyra Thursday board work.
+
+Pulling Keeper Gate_Coordination_Gates_1_2_3_Multi_Week_Joint next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~11:30 EDT. Lyra me_mP_1156_Correction_Framework v0.1 PASS at FRAMEWORK CANDIDATE POST-HOC tier. **Exemplary discipline-stack composition-layer application** — Lyra explicitly applies Cal #27 + Cal #29 + Cal #34 + Cal #35 + Cal #189 + Casey #5 to her own work; this is Saturday discipline-stack expansion intent operationalized fully at composition layer. v0.1 pre-dates v0.18/v0.19 precision resolution; v0.2 update absorbs 8/7 Toy 3753 finding + precision audit reconciliation per Lyra active Thursday work.
+
+---
+
+---
+
+### Cal #211 — Keeper Gate Coordination Gates 1+2+3 multi-week joint: PASS at COORDINATION DIRECTIVE tier (Thursday 2026-06-04 ~11:40 EDT)
+
+**Trigger**: Continuing cold-read sequence.
+
+## Substantive content
+
+Three multi-week joint gates clearly defined under Casey #14 STANDING context:
+- **Gate 1**: FK Ch. XII §VI spinor metaplectic closure (Lyra+Elie+Keeper, 2-3 weeks)
+- **Gate 2**: Section 4.5 substrate-vacuum 2-region partition for √(4/3) substrate-mechanism (Lyra primary + Elie, 1-2 weeks)
+- **Gate 3**: SSG-8 Mersenne ladder explicit operator on Bergman H²(D_IV⁵) (Lyra+Elie+Keeper, 2-3 weeks)
+
+## §2 gate closure outcome matrix — substantively important honest framing
+
+Keeper explicitly enumerates four possible outcomes:
+- Both close → substrate-over-determination CONFIRMED via Casey #5
+- Gate 2 only → √(4/3) load-bearing; 8/7 is Casey #5 Integer Web instance
+- Gate 3 only → 8/7 load-bearing; √(4/3) is Casey #5 Integer Web instance
+- Neither → both remain Tier 2 STRUCTURAL substrate-natural; load-bearing identity unresolved; multi-week continues
+
+This is exactly the right honest framing per Cal #34 STANDING — explicit outcome enumeration with each tier-marked.
+
+## Cal #34 STANDING note carrying forward
+
+Keeper §1 "1.03% offset IS substrate-mechanism content (not coincidence)" framing is the same Cal #34/#35 STANDING brake I flagged in Cal #206 (K3 v0.21). The framing reads as if substrate-mechanism content is established; actually it's CANDIDATE pending Gate 2/3 closure per §2 outcome matrix.
+
+Recommend Cal #34 STANDING refinement in v0.2: "1.03% offset is **candidate substrate-mechanism content per K3 v0.21** pending Gate 2/3 closure outcome matrix resolution." Preserves substantive content; sharpens conditionality.
+
+## Discipline-stack audit
+
+- **Cal #27**: tier-honest multi-week with explicit 2-3 weeks / 1-2 weeks estimates ✓
+- **Cal #29**: question-shape correct (gate closure outcomes distinguish substrate-mechanism path) ✓
+- **Cal #34 STANDING**: outcome matrix §2 enumerates conditionality cleanly ✓; §1 "1.03% offset IS substrate-mechanism content" framing carries same brake-pattern as Cal #206 (minor refinement recommended) ⚠️
+- **Cal #35 STANDING**: outcome matrix correctly distinguishes substrate-mechanism vs Casey #5 Integer Web instance ✓
+- **Calibration #36 STANDING**: gates address SSG framework structure ✓
+
+## Disposition
+
+PASS at COORDINATION DIRECTIVE tier. Substantive multi-week joint work clearly defined; honest closure-outcome matrix exemplary; one Cal #34 framing refinement recommended for §1 carrying same pattern as Cal #206 brake.
+
+Pulling Cal #188 Lane C bulk-color independence audit next (next named Cal queue item).
+
+— Cal A. Brate, Thursday 2026-06-04 ~11:40 EDT. Keeper Gate Coordination Gates 1+2+3 PASS at COORDINATION DIRECTIVE tier. Multi-week joint work clearly framed under Casey #14 STANDING context; §2 outcome matrix substantively important honest framing (four outcomes enumerated with tier-marking). One Cal #34 STANDING refinement recommended for §1 "1.03% offset IS substrate-mechanism content" framing (same brake-pattern as Cal #206 K3 v0.21 framing).
+
+---
+
+---
+
+### Cal #212 — Lane C Bulk-Color v0.7 Mechanism Deepening: PASS at MECHANISM-DEEPENING tier; Cal #188 g + rank independence audit CLOSED (Thursday 2026-06-04 ~11:50 EDT)
+
+**Trigger**: Continuing cold-read sequence. **Closes long-pending Cal #188 audit-target** (Lane C g+rank=N_c² double-use independence audit; flagged Saturday Cal #167 → pending since).
+
+## v0.7 mechanism-deepening substantive content
+
+Operator-level content for Channels 1 + 2 two-channel decoupling:
+- **Channel 1 (g off-diagonal suppression)**: T_{|z|^g} Hardy-space Toeplitz operator with symbol |z|^g on Shilov boundary; substrate-primary g = 7 = embedding dimension. Suppresses long-extended root V_{α_1+2α_2} contribution; effective algebra reduces from B_2 to A_2.
+- **Channel 2 (rank Cartan rescaling)**: R_Cartan scales K-Cartan subspace by factor rank = 2; converts B_2-normalized Cartan to A_2-normalized (Killing form ratio).
+- **Combined Π_bulk**: Π_bulk = P_Szegő ∘ (R_Cartan ∘ T_{|z|^g}) ∘ P_Szegő^{-1} via Poisson-Szegő holomorphic extension. Bulk-color SU(3) emergence BOUNDARY-SIDE; interior inherits via holomorphic extension.
+
+## Cal #188 audit-target resolution — g + rank are STRUCTURALLY INDEPENDENT operators in v0.7
+
+**Cal #188 original concern** (Cal #167 Saturday): "g + rank = N_c² Weinberg-identity appearing twice — in sin²θ_W AND bulk-color SU(3) emergence. Independence audit pending."
+
+**v0.7 mechanism-deepening resolution**: g and rank act in **SEPARATE channels with SEPARATE operator roles**:
+- Channel 1 uses **g (= 7)** as Toeplitz symbol exponent |z|^g on Shilov boundary (FK Ch. XIII)
+- Channel 2 uses **rank (= 2)** as Cartan rescaling factor for B_2 → A_2 normalization
+
+These are TWO DIFFERENT substrate primaries used in TWO DIFFERENT operator roles. Not aggregated additively (g + rank); not multiplied; each plays a distinct structural function in distinct operators.
+
+The "g + rank = N_c²" Weinberg arithmetic identity is a Casey #5 Integer Web at-substrate-values fact, **separately observed** in the Weinberg context. The bulk-color v0.7 mechanism does NOT invoke the additive identity; it uses g and rank as independent substrate primaries in their respective operator roles.
+
+**Cal #188 audit-target CLOSED — PASS Cal #35 STANDING**: structurally-independent operator uses; not aggregation; Calibration #35 STANDING brake does NOT fire load-bearing.
+
+## Discipline-stack audit
+
+- **Cal #27 STANDING**: tier-honest MECHANISM-DEEPENING with multi-week falsifier verification (F-bulk-1 + F-bulk-2) ✓
+- **Cal #29 STANDING**: question-shape correct — substrate-mechanism operator content per Channel ✓
+- **Cal #32 candidate**: g and rank assigned distinct operator-role slots (Toeplitz symbol exponent vs Cartan rescaling factor) ✓
+- **Calibration #33 STANDING**: Faraut-Korányi Ch. XIII Toeplitz substrate-natural; Killing form ratio for Cartan rescaling — well-sourced ✓
+- **Calibration #34 STANDING**: headline carries operator-content conditional + multi-week falsifier verification ✓
+- **Calibration #35 STANDING**: g and rank structurally-independent in distinct operator roles; Cal #188 audit-target CLOSED ✓
+- **Calibration #36 STANDING**: Channel 1 + Channel 2 + Π_bulk substrate-natural mechanism structure ✓
+
+## Two explicit falsifiers — exemplary discipline
+
+- **F-bulk-1**: Elie verify only k = g = 7 (not k = 5 or 6) gives effective A_2 reduction via T_{|z|^k}; otherwise g is NOT load-bearing
+- **F-bulk-2**: Elie verify only rank = 2 (not other factors) gives su(3)-standard Cartan-Weyl commutation relations
+
+Sharp falsifiers per Calibration #34 STANDING — multi-week verification gates the substrate-mechanism content.
+
+## Cross-link to Tier 0 v0.1.6 + Lane E v0.2
+
+Bulk-color emergence is BOUNDARY mechanism with bulk manifestation per holographic structure. Lane E gluons (V_(1,1) bulk-projected), quarks (V_(1,0)/V_(0,1) bulk-projected), W charged (mixed bulk-Shilov) all derive via Π_bulk projection. Substrate-mechanism cleanness across SM gauge sector + quark sector under one Π_bulk.
+
+## Disposition
+
+PASS at MECHANISM-DEEPENING tier. **Cal #188 audit-target CLOSED**: g and rank structurally-independent operator roles in v0.7; not g+rank aggregation; Calibration #35 STANDING brake doesn't fire load-bearing. Two explicit falsifiers (F-bulk-1 + F-bulk-2) for multi-week verification. Substantive operator-level content addresses Casey #14 STANDING context bulk-color promotion.
+
+Cal queue update: **Cal #188 CLOSED** (was pending Saturday → Wednesday → now resolved Thursday). 
+
+Pulling next item — checking what's available beyond named sequence.
+
+— Cal A. Brate, Thursday 2026-06-04 ~11:50 EDT. Lane C Bulk-Color v0.7 Mechanism Deepening PASS at MECHANISM-DEEPENING tier. **Cal #188 audit-target CLOSED**: g (Channel 1 Toeplitz symbol exponent) and rank (Channel 2 Cartan rescaling factor) are structurally-independent operator roles in v0.7; NOT additive g+rank aggregation. Calibration #35 STANDING brake does NOT fire load-bearing. Two explicit falsifiers (F-bulk-1 + F-bulk-2) for multi-week verification. Substrate-mechanism bulk-color emergence operator content addresses Casey #14 STANDING context.
+
+---
+
+---
+
+### Cal #213 — Lyra Gate 11 SSG Dual-Role Operator-Independence v0.1: PASS at AUDIT-RESOLUTION tier; Cal #195 SSG dual-role audit-target CLOSED (Thursday 2026-06-04 ~12:00 EDT)
+
+**Trigger**: New deliverable landed during cold-read session. **Closes long-pending Cal #195 SSG dual-role operator-independence audit** (originally pre-staged Wednesday morning as TRIPLE → DOUBLE-NOT-TRIPLE hypothesis).
+
+## Gate 11 substantive resolution
+
+Lyra Gate 11 v0.1 substantively closes the Cal #195 SSG dual-role audit-target. **TWO STRUCTURALLY-INDEPENDENT operator classes on V_(1/2, 1/2)**:
+
+**Class A (substrate-Hamiltonian / Casimir-derived)**: M_e + M_ν + y_e
+- All derive from √H_B substrate Hamiltonian via Casimir + chirality projection + Higgs SSB
+- M_e ↔ M_ν: chirality-split (charged vs neutral lepton sector of SAME √H_B)
+- y_e: trilinear-via-V_(0,0) trivial K-type extracts SAME √H_B Schur scalar
+- **Same Schur scalar at substrate-mechanism level**
+
+**Class B (substrate-EM-coupling)**: M_Coulomb + a_e
+- M_Coulomb: substrate-Coulomb V_(3/2,1/2) ↔ V_(1/2,1/2) cross-K-type matrix element per SSG-10
+- a_e: one-loop substrate-Coulomb cascade
+- **Same Schur scalar at substrate-EM-mechanism level**
+
+**Class A ≠ Class B**: different substrate Hamiltonian sources (Casimir vs EM-coupling); different K-equivariance classes; legitimate Cal #35 STANDING independence per Schur's lemma + Bergman kernel reproducing property.
+
+## Substantive observation — my Wednesday pre-stage hypothesis confirmed
+
+My Cal #195 Wednesday pre-stage observation: "TRIPLE ROLE is plausibly DOUBLE ROLE + chirality-split decoration" — confirmed substantively via Gate 11.
+
+The TRIPLE ROLE framing initial was OVERCOUNTING within Class A. M_e + M_ν + y_e share substrate-mechanism source (√H_B + chirality + Higgs SSB). DOUBLE-ROLE captures structural-independence at operator-class level.
+
+**Cal #35 STANDING audit**: TWO Schur-scalar-distinct observable categories on V_(1/2, 1/2), NOT three independent confirmations. ✓
+
+**Cal #36 STANDING positive search**: Gate 11 §6 continues positive search for additional structurally-independent operator classes — appropriate ongoing discipline.
+
+## Discipline-stack audit
+
+- **Cal #27 STANDING**: tier-honest AUDIT v0.1; multi-week verification of substrate-mechanism content within each class flagged ✓
+- **Cal #29 STANDING**: question-shape correct — operator-class independence audit at the right structural level ✓
+- **Cal #34 STANDING**: headline carries "TWO STRUCTURALLY-INDEPENDENT operator classes" with explicit Class A / Class B specification ✓
+- **Cal #35 STANDING explicit application**: §5 — "TWO independent operator classes giving TWO Schur-scalar-distinct observable categories on V_(1/2, 1/2); NOT three independent confirmations" — exemplary ✓
+- **Cal #36 STANDING explicit application**: §6 positive search continues for additional structurally-independent classes ✓
+- **Cal #195 audit-target**: CLOSED per Gate 11 substantive resolution ✓
+
+## Cal queue update — substantial progress today
+
+| # | Status |
+|---|---|
+| Cal #188 Lane C bulk-color | CLOSED via Cal #212 |
+| Cal #195 SSG dual-role | **CLOSED via Cal #213 (this)** |
+| Cal #186 Lane D L4 v0.2 | Partially addressed via Cal #208/#209/#210 (Mehler v0.1 + Gate 4 v0.1 + 1.156 v0.1); full closure pending Lyra Mehler v0.2 with explicit values + 1.156 v0.8 with precision audit reconciliation |
+| Cal #192 matrix element framework | pending Elie Step 6 final value |
+| Cal #195 SSG-7 hub structurally-independent | addressed via SSG Audit v0.2 + Cal #204 |
+
+## Disposition
+
+PASS at AUDIT-RESOLUTION tier. **Cal #195 SSG dual-role operator-independence audit CLOSED** via substantive Gate 11 substrate-mechanism content. TWO structurally-independent operator classes (Class A substrate-Casimir + Class B substrate-EM) confirmed; TRIPLE ROLE framing was overcounting within Class A.
+
+Pulling Keeper K210 audit on Lyra Mehler v0.1 next.
+
+— Cal A. Brate, Thursday 2026-06-04 ~12:00 EDT. Lyra Gate 11 SSG Dual-Role Operator-Independence v0.1 PASS at AUDIT-RESOLUTION tier. **Cal #195 SSG dual-role audit-target CLOSED**: TWO structurally-independent operator classes on V_(1/2, 1/2) — Class A substrate-Casimir-derived (M_e + M_ν + y_e share √H_B Schur scalar) + Class B substrate-EM-coupling (M_Coulomb + a_e share substrate-Coulomb Schur scalar). Wednesday DOUBLE-NOT-TRIPLE pre-stage hypothesis confirmed substantively. Two Cal #195 audit-targets now CLOSED (Cal #188 Lane C g+rank independence Cal #212 + Cal #195 SSG dual-role Cal #213).
+
+---
+
 ## Drift check discipline
 
 - Weekly: are recent entries trending toward "looks fine" without new evidence? If yes, force an adversarial re-read.
