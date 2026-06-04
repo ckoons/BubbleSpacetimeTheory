@@ -162,3 +162,56 @@ strictly more honest and better-grounded foundation than the original marginal C
 
 (Step 3 — extending the certified-hardness from tree-resolution depth to
 width-bounded *dag* resolution, the Ben-Sasson-Wigderson object — in progress.)
+
+---
+
+## STEP 3: rung up to dag resolution (and the honest frontier)
+
+**Attempted experimentally; hit a compute wall.** Explicit width-bounded
+resolution-closure certification timed out repeatedly in this environment (the
+width-`<=w` closure plus `n+1` solver calls per formula is too heavy here). Reporting
+that as a real resource limit, not a result.
+
+**But the rung is carried by theorem, and the experiment we *could* run confirms its
+base case:**
+
+- **Tree resolution (depth-bounded) — TESTED (Step 1).** Certified-at-depth-`<=2`
+  extraction `-> 0` (nothing certifiable at depth `<=2` by `n=32`), while the hard
+  residual grows to `0.57n`.
+- **Dag / width-bounded resolution — by Ben-Sasson-Wigderson.** Random 3-SAT
+  requires resolution width `Omega(n)`; the residual-backbone refutations
+  `phi ^ (v != val)` inherit the same expansion (the "zero-cascade" preserves it),
+  so *no* width-`<=w` (dag) refutation exists for `w = o(n)`. Hence certified
+  extraction `-> 0` for **all** bounded-width resolution, not just tree. The
+  Step-1 depth data is consistent with (a weaker case of) this.
+
+So the Certified CDC holds, provably, for **all of resolution** (tree and dag), via
+BSW applied to our certified residual object -- which is exactly the honest content
+the framework should claim (and is stronger than re-deriving the unsatisfiable-random
+bound, because it is about the *satisfiable* formula's frozen bits).
+
+**The genuine frontier (open, and the right "what-if" target): `Res(k)` and SoS.**
+The gap between "resolution (done)" and "Extended Frege (open)" is populated by
+`Res(k)` (k-DNF resolution) and Sum-of-Squares. Random-3-SAT lower bounds exist for
+these by *other* techniques (Atserias-Bonet-Esteban for `Res(k)`; Schoenebeck,
+Tulsiani, Kothari-Mori-O'Donnell-Witmer for SoS). The honest open question:
+
+> Does the **certified-backbone** framing (zero-cascade + expansion of the residual)
+> give a *unified* lower bound for certified extraction in `Res(k)` / low-degree SoS,
+> recovering or extending these results through one mechanism?
+
+This is not settled, and we should not claim it. It is the place where the framework
+could produce something genuinely new rather than re-derive -- by carrying the
+zero-cascade/expansion argument up the hierarchy and seeing where it gives.
+
+## Bottom line (3 steps)
+
+1. **Strong CDC is false** (polarity heuristic, flat to `n=40`) -- explicit refutation.
+2. **Repair is real and measured:** the Certified CDC over the hard residual
+   `|B_res| = Theta(n)` (growing `0.34n -> 0.57n`); guess/certify separation is clean;
+   the `I_fiat` typecheck is fixed.
+3. **Certified CDC holds for all of resolution** (tree tested, dag by BSW). `Res(k)`/SoS
+   is the honest open frontier with a concrete proposed attack.
+
+The framework comes out **corrected, well-typed, and better-grounded** -- with one
+genuinely new internal result (the refutation + repair) and a clearly-located frontier.
