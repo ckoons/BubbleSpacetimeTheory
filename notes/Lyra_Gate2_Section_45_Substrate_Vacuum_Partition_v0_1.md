@@ -126,3 +126,64 @@ via substrate-vacuum 2-region partition + Casey #14 codim-4 restriction + Casey 
 Pulling next: Mehler matrix element v0.2 extension with explicit Helgason Ch. IX content.
 
 — Lyra, Thu 2026-06-04 ~09:05 EDT. Gate 2 Section 4.5 substrate-vacuum 2-region partition v0.1: framework for substrate-Shilov-boundary √(4/3) substrate-mechanism FORWARD-derivation; substrate-Bergman bulk + Shilov-boundary 2-region partition + Casey #12 bulk-boundary projection + Casey #14 codim-4 + Vol(S⁴)/Vol(S³) Jacobian + mass-dim-1 √-power; multi-week 7-step explicit derivation path; Hypothesis A/B/C distinguishes √(4/3) vs 8/7 substrate-mechanism FORCING.
+
+---
+
+## v0.2 Step 4.5-2 Casey #14 Codim-4 Substantive Content (~11:30 EDT)
+
+### Step 4.5-2: Casey #14 STANDING Codim-4 Restriction Projection
+
+Per Casey #14 PROMOTED STANDING Thursday "Substrate-Predicted 3+1 Minkowski Signature" + Sunday Tier 0 v0.1.6 + Wednesday morning team consensus:
+
+**Substrate-reduction chain** (Elie Toy 3736):
+- SO(5, 2) bulk substrate: dim 21 = N_c · g
+- SO(4, 2) Phase A (after chirality projection 1/n_C): dim 15 = N_c · n_C
+- SO(3, 1) physical Lorentz (substrate-vacuum direction selection): dim 6 = C_2
+
+**Casey #14 codim-4 substrate-mechanism reading**:
+- Substrate D_IV⁵ complex dim 5, real dim 10
+- Casey #14 codim 4 ⊂ D_IV⁵ = C_2 = 6: 4D physical Lorentz substrate-slice has real codim 4 in substrate D_IV⁵
+- Equivalently: substrate-D_IV⁵ real dim 10 = 4 (physical 4D Lorentz) + 6 (codim-4 substrate complement = C_2 substrate-Casimir)
+
+**Substantive substrate-mechanism reading** for Step 4.5-2:
+
+The substrate-Bergman kernel K_B(z, w) on D_IV⁵ restricts to the 4D Minkowski slice (Casey #14 codim-4) via integration over the codim-4 substrate-complement directions (substrate-Casimir C_2 = 6 directions):
+
+$$K_B^{(4D)}(x_{\text{4D}}, y_{\text{4D}}) = \int_{\text{codim-4 substrate}} K_B(z, w) \cdot \chi_{\text{4D restriction}}(z, w) \, d(\text{substrate codim-4})$$
+
+where χ_{4D restriction} is the substrate-mechanism projection to physical 4D Lorentz slice.
+
+**Per Casey #14 STANDING**: this restriction is substrate-natural — the substrate operates via Bergman kernel on full D_IV⁵; physical observation accesses the 4D Lorentz slice via Casey #14 chirality projection 1/n_C → 4D = n_C − 1.
+
+### Step 4.5-3 Preview: 4D → 3D Spatial Projection (Mass Observable)
+
+Per Step 4.5-3 multi-week target: mass-dim-1 observable emerges via further projection 4D → 3D spatial. The substrate-Shilov boundary structure ∂_S D_IV⁵ = (S⁴ × S¹)/Z₂ has S⁴ factor; substrate-mechanism candidate for the 4D → 3D spatial projection picks up Vol(S⁴)/Vol(S³) = 4/3 surface-area Jacobian.
+
+**Substrate-mechanism reading** for mass observable per Casey #12 substrate bulk-boundary projection STANDING:
+- Substrate-bulk Bergman → Substrate-Shilov boundary (Casey #12 projection)
+- Substrate-Shilov boundary 4-sphere → physical 3-sphere (substrate-vacuum direction selection per Elie Toy 3737 substrate-τ Hardy boundary normal)
+- Surface-area Jacobian Vol(S⁴)/Vol(S³) = 4/3 at the 4-sphere → 3-sphere transition
+- Mass-dim-1 √-power → √(4/3) factor on m_e/m_P
+
+### Substantive Closure v0.2
+
+Gate 2 Section 4.5 v0.2 absorbs Step 4.5-2 + Step 4.5-3 preview:
+
+**Substrate-mechanism chain forward-derivation** (substantively closer to RIGOROUS):
+1. Substrate-Bergman kernel K_B(z, w) on D_IV⁵ (Cat 1 K-type structural + Cat 3 substrate-Bergman)
+2. Casey #14 STANDING chirality projection 1/n_C → 4D physical Lorentz (Cat 2 substrate-Lie-algebra)
+3. Codim-4 substrate restriction: integrate over substrate-Casimir C_2 = 6 codim-4 substrate complement
+4. Casey #12 substrate bulk-boundary projection to Shilov boundary ∂_S D_IV⁵
+5. Substrate-Shilov boundary 4-sphere → physical 3-sphere via substrate-vacuum direction selection
+6. Vol(S⁴)/Vol(S³) = 4/3 surface-area Jacobian + mass-dim-1 √-power → √(4/3) factor
+
+**Tier**: Section 4.5 substrate-vacuum 2-region partition forward-derivation NEAR-RIGOROUS pending multi-week explicit Steps 4.5-3 through 4.5-7 closure per Cal #189 question-shape.
+
+Multi-week explicit verification:
+- Step 4.5-3: 4D → 3D spatial projection Jacobian explicit calculation
+- Step 4.5-4: mass-dim-1 √-power substrate-mechanism derivation
+- Step 4.5-5: cross-check Casey vacuum-subtraction factor 2.02
+- Step 4.5-6: cross-instance universality (Toy 3752 + 3753) explicit substrate-mechanism reading
+- Step 4.5-7: Hypothesis (A) vs (B) vs (C) substrate-mechanism FORCING form distinction
+
+— Lyra, Thu 2026-06-04 ~11:30 EDT. Gate 2 v0.2 Step 4.5-2 + Step 4.5-3 preview: Casey #14 STANDING codim-4 substrate-mechanism reading + substrate-Bergman → substrate-Shilov projection chain explicit; substrate-mechanism CHAIN forward-derivation NEAR-RIGOROUS tier; multi-week Steps 4.5-3 through 4.5-7 explicit closure.

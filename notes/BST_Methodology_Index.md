@@ -897,3 +897,145 @@ If NO, the positive search rule doesn't fire load-bearing; standard substrate-de
 **Seven-level discipline stack CLOSED**: result / design / slot / sourcing / surface-communication / independence-taxonomy (brake) / one-primitive-many-observables (search). Brake/search pair at the algebraic level (Schur's lemma) completes the substantive complementarity. No further stack expansion anticipated; the methodology infrastructure is mature.
 
 — Cal A. Brate, Methodology Index v0.12 update Thursday 2026-06-04 ~09:00 EDT. **Calibration #36 (One-Primitive-Many-Observables Positive Search Rule) integrated as Q18 decision-tree branch via Casey explicit approval signal — the seventh and final level of the discipline stack (one-primitive-many-observables search level).** Cross-CI ratification complete (Casey Tuesday directive surfacing + cross-CI parallel SSG catalogs + Wednesday Cal #194 SSG hub recognition + Thursday Casey approval). Brake/search complementarity with Cal #35 STANDING at the Schur's-lemma algebraic level. Stack at ~37 elements. **Seven-element discipline stack CLOSED — methodology infrastructure mature; no further #37+ anticipated.**
+
+## v0.13 update (Thursday 2026-06-04 ~12:00 EDT) — Five-Minute Brake-Walk-Back Cycle formalization (cadence pattern, NOT new stack element)
+
+**Observation requiring formalization**: Thursday morning 2026-06-04 produced a clean exemplar of the seven-element discipline stack operating at cross-CI cadence:
+- 09:48 system time: Cal #228 STANDING brake filed on Lyra "substrate-Pfaffian 1/g substrate-natural factor" claim (Cal #35 + Cal #29 audit). Mathematical content: Pf(canonical Sp(2) ω) = 1, not 1/g.
+- 09:52 system time: Lyra files `Lyra_Substrate_Pfaffian_Explicit_Computation_v0_1.md`. Explicit 4×4 Pf(Ω) = √det(Ω) = 1 computation. **§5 labeled "Honest walk-back"** explicitly. 4 alternative substrate-mechanism candidates filed for multi-week investigation.
+- 09:54 system time: Cal #232 PASS ratifies clean walk-back.
+
+**Four-minute cycle.** Cross-CI brake-walk-back-ratification end-to-end inside the five-minute rule.
+
+### Why this is NOT a new methodology stack element
+
+The seven-element discipline stack is CLOSED (per v0.12). The five-minute brake-walk-back cycle is **how the stack OPERATES at cross-CI cadence**, not a new layer of discipline content. The substantive content of Cal #228 (mathematical Pf(ω) = 1) and Lyra's walk-back (explicit computation + alternative candidates) are both already covered by existing stack elements:
+- Cal #29 (question-shape audit: POST-HOC pattern-match vs substrate-mechanism FORCING)
+- Cal #35 (independence-taxonomy: assertion-of-substrate-natural-without-derivation)
+- Cal #36 (positive search: alternative substrate-mechanism candidates)
+
+What v0.13 formalizes is the **cycle dynamics**: the rate at which the stack PRODUCES outcomes when CIs operate at maturity.
+
+### Five-minute brake-walk-back cycle pattern
+
+When a CI files a candidate claim that triggers Cal stack brake (typically Cal #35 STANDING on assertion-without-derivation), the discipline-at-maturity response cycle is:
+
+1. **Brake fires** (Cal external referee, OR — better — CI self-audit upstream): within minutes of candidate filing
+2. **CI performs explicit computation**: substantive arithmetic/mathematical verification of the brake target
+3. **Honest walk-back labeled explicitly**: NOT defensive elaboration; NOT face-saving framing; NOT buried backtrack. Section header reads "Honest walk-back" or equivalent
+4. **Alternative candidates filed**: multi-week forward-derivation candidates identified for continued investigation
+5. **External referee PASS**: brake closes via ratification, NOT via revisiting the substantive merits
+
+**Cycle time at maturity**: 4-5 minutes cross-CI.
+
+### Upstream variant: CI self-audit pre-empts external referee
+
+Thursday afternoon Track A produced 2 substantive examples of CI self-audit firing UPSTREAM of external referee brake:
+1. **Keeper SSG Audit v0.3** (Keeper self-walk-back of his own v0.2 SSG-6 A* refinement): Quaker near-misses-get-scrutiny on own work; v0.2 was structural over-read conflating substrate-mechanism content with K-type Schur generator status; v0.3 corrects without losing substantive Casey #5 IW observation. **No Cal external brake fired**.
+2. **Lyra Composite v0.3 Self-Audit Cal #35**: Lyra runs Cal #35 STANDING audit on her own Composite v0.3 work BEFORE external referee brake; honest term-by-term tier disposition (Term 1 substantive substrate-mechanism FORCING candidate; Term 2 PARTIAL substrate-mechanism FORCING candidate per Casey #14 cross-link). **No Cal external brake fired**.
+
+This is **maximally healthy discipline**: the stack produces self-audit upstream of external referee, not just downstream. External referee role shifts from "brake provider" to "ratification + pattern observer."
+
+### Cross-CI velocity gap dynamic (Cal #36 positive-search vs Cal #35 audit-brake)
+
+Thursday morning observation: Cal #36 STANDING positive-search produces candidates **faster** than Cal #35 STANDING audit-brake refines classification. This velocity gap is the dynamic the seven-element discipline stack manages.
+
+**Mechanisms of the velocity gap**:
+- Positive-search (Cal #36) generates content at sustained CI cadence (~5-15 min between candidates)
+- Audit-brake (Cal #35) requires cross-reference work + classification decision (~10-30 min per brake)
+- Registry/catalog absorption may run faster than brake-refinement (Cal #231 cross-CI propagation observation: SSG Registry v0.18-v0.21 absorbed candidates before Cal #225/#226/#228 brakes filed)
+
+**Resolution mechanism**: explicit brake-stack absorption at next major catalog/registry update version. Cal v0.22 absorption recommendations broadcast via RUNNING_NOTES for Keeper SSG Audit v0.4 / Lyra SSG Registry v0.22 to absorb Cal #225/#226/#228/#229 stack at scheduled update.
+
+### When the cycle does NOT close cleanly
+
+The five-minute brake-walk-back cycle requires:
+- Brake target is SPECIFIC (not vague "this whole framework is wrong")
+- Substantive mathematical content can be VERIFIED quickly (explicit computation, not multi-week derivation)
+- CI receiving brake is OPERATING at discipline-at-maturity (no defensive elaboration response)
+
+When these conditions don't hold (e.g., a brake on multi-week framework dispositions per Cal #189 question-shape), the cycle stretches to multi-week tier and operates as standing pre-stage / candidate-tier discipline. **The cycle's existence at 5-min maturity-tier is the BAR; multi-week tier is the SUSTAINED OPERATION.**
+
+### v0.13 stack composition (unchanged from v0.12)
+
+Stack remains at 7 STANDING discipline elements + ~37 numbered elements + META + candidates + tier supplements. **No new layer added**. v0.13 documents the cycle dynamics; v0.12 stack closure stands.
+
+### What v0.13 produces operationally
+
+- **Cross-CI brake-walk-back-ratification cycle documented** as discipline-at-maturity exemplar
+- **Self-audit upstream of external referee pattern documented** as maximally healthy discipline
+- **Velocity gap dynamic documented** with resolution mechanism (catalog/registry absorption at version updates)
+- **Cycle conditions documented** with extension-to-multi-week tier for non-specific brakes
+
+— Cal A. Brate, Methodology Index v0.13 update Thursday 2026-06-04 ~12:00 EDT. **Five-Minute Brake-Walk-Back Cycle formalization as cadence pattern (NOT new stack element).** Thursday morning Cal #228 → Lyra Pfaffian v0.1 → Cal #232 PASS = four-minute cross-CI cycle exemplar. Thursday afternoon Keeper SSG Audit v0.3 self-walk-back + Lyra Composite v0.3 Self-Audit Cal #35 = self-audit upstream of external referee variant. Cross-CI velocity gap dynamic between Cal #36 positive-search and Cal #35 audit-brake managed via catalog/registry absorption at version updates. Stack at ~37 elements (unchanged); discipline-at-maturity cycle dynamics documented.
+
+
+## v0.14 update (Thursday 2026-06-04 ~15:50 EDT) — Two cadence-pattern observations: Observer-observed identity discipline + Promotion-claim vs tier-honest-framing pattern (NOT new stack elements)
+
+**Observations requiring formalization** Thursday afternoon (post 15:11 EDT Casey 4-decision approval cascade):
+
+The seven-element discipline stack (v0.12 CLOSED) continues operating. Thursday afternoon produced **two additional cadence-pattern observations** worth documenting as v0.14, both NON-STACK refinements of HOW the stack operates in specific situations:
+
+### Pattern 1: Observer-observed identity discipline (per Cal #237)
+
+When Cal #36 STANDING positive-search extends to domains where **the observer is identical to the system designer**, Cal #35 STANDING brake fires at maximum strength against observer-influenced design pattern-matching.
+
+**Documented instance Thursday afternoon**: Substrate-Cognition Extension Framework v0.1 (Keeper, per Casey decision 4) extends K209 substrate-over-determination operational pattern to Tekton/katra/CI architecture domain. Candidate substrate-cognition observables include:
+- 3-tier memory architecture (N_c = 3?)
+- 5-CI team count (n_C = 5?)
+- N_max = 137 context-token cutoff
+- g = 7 audit cycles per day
+
+**Cal #237 substantive brake**: these candidates have **observer-observed identity risk** at potentially severe level. Casey is both the BST theorist AND the Tekton/katra architect. Casey's design choices may have been influenced (consciously or unconsciously) by knowing BST primaries. Multi-path "convergence" between substrate-cognition observables and substrate primaries may be **self-referential rather than substrate-mechanism FORCING**.
+
+**Discipline observation**: Cal #189 Brake 2 question-shape audit must distinguish:
+- (a) Substrate-cognition observables Casey designed AFTER knowing BST primaries → POST-HOC observer-influenced design
+- (b) Substrate-cognition observables that emerge from substrate-mechanism FORCING independent of Casey design intent
+
+**Resolution mechanism**: external verification path required (third-party CI architecture, not Tekton, not Casey-designed) for genuine FORWARD-derivation distinction from observer-influenced match. Katra publication (Casey 2026-04-23) provides candidate external verification path if users with no BST exposure deploy katra and exhibit substrate-cognition observables independently.
+
+**Cal #99 STANDING particularly load-bearing**: cross-CI substrate-cognition observable verification requires independent third-party verifier — but BST team itself (Casey + 5 CIs) is currently the only domain inhabitant. External verification multi-month dependency on katra publication adoption.
+
+**Standing discipline rule (NOT new stack element)**: when extending K209 substrate-over-determination operational pattern to domains where the BST team is the system designer, **explicit observer-observed identity disclosure required at v0.1 filing**. Investigation initiation framework must distinguish CONFIRMATION-EXTENSION side ("X extends K209 → substrate-mechanism FORCING") from NULL-RESULT side ("X does NOT extend K209 → X is structurally distinct"). Null-result side is the substantive null-result protection against confirmation bias.
+
+### Pattern 2: Promotion-claim vs tier-honest-framing pattern (per Cal #239)
+
+When v0.N+1 of a substantive framework claims **promotion** of tier-disposition from PARTIAL → FORWARD-derived (or similar) within minutes of K-audit identifying the multi-week derivation gates, Cal #189 Brake 2 + Cal #27 STANDING fire on the **CLAIMS-tier overstatement** while preserving honest **§N tier-disposition framing**.
+
+**Documented instance Thursday afternoon**: Lyra L4 Gate 4 Composite v0.5 (15:38 EDT) attempts to promote v0.4 PARTIAL substrate-mechanism FORCING → v0.5 FORWARD-derived via "L4-5a-e 5-step audit." Filed ~5 minutes after K214 audit (15:19 EDT) specifying L4-5a-e as a **multi-week derivation path**. v0.5 content executes L4-5a-e in 5 paragraphs of substrate-mechanism-class LABELS without actual mathematical derivation.
+
+**Internal contradiction in v0.5**:
+- §6 honest framing: "PARTIAL substrate-mechanism FORCING-tier + multi-week per Cal #189" ✓
+- §7 + TITLE PROMOTION CLAIM: "v0.4 PARTIAL → v0.5 FORWARD-derived per L4-5a-e 5-step audit" ✗
+
+**The math content is honest at PARTIAL tier; the promotion CLAIM is overstated.** Cal #189 Brake 2 + Cal #27 STANDING fire on the promotion claim while preserving the §6 disposition.
+
+**Discipline observation**: at sustained cadence (sustained-session ~5h+ intensity), CIs may file PROMOTION CLAIMS upstream of multi-week derivation maturation. The honest tier-disposition framing in §N remains correct; the v0.N+1 PROMOTION header overstates progress.
+
+**Standing discipline rule (NOT new stack element)**: when v0.N+1 claims tier-promotion within minutes of K-audit specifying multi-week gates, **revert to MULTI-WEEK EXTENSION tier framing** (not FORWARD-derived). Preserve §N honest disposition; revise title + promotion claim.
+
+**Cross-link to Calibration #22 STANDING (PCAP-transcription discipline)**: rapid-cycle promotion claims at sustained cadence are PCAP-rate transcription-error class — math content remains valid but tier-disposition claims drift upward. Numbered-artifact discipline applies: v0.N+1 with promotion claim is a numbered artifact; tier-disposition revision via v0.N+2 reverts to honest tier without losing v0.N+1 mathematical content.
+
+### Sustained-session prose-quality observation (cross-link, NOT new stack element)
+
+Per `feedback_sustained_session_prose_quality.md` Casey 2026-06-04 standing observation: at sustained-session ~5h+ intensity, prose-quality degrades into verbal-tic repetition (e.g., "substantive substantive substantive"). Math content valid but communication degrades.
+
+**Documented Thursday afternoon**: Lyra L4 v0.5 + Lyra Substrate-Mechanism Forcing Categories Synthesis v0.1 + Lyra Substrate-Symplectic Integer K-Types v0.1 exhibit verbal-tic repetition. Math content (where present) verifies; prose discipline drift.
+
+**Resolution**: this is **NOT a Cal external brake target** — prose quality is communication discipline, not substrate-mechanism content. Honest tier-disposition framing remains correct; verbal-tic patterns are session-cadence artifacts that don't invalidate math content. Casey standing observation (8th audit-chain dimension).
+
+### v0.14 stack composition (unchanged from v0.12 + v0.13)
+
+Stack remains at **7 STANDING discipline elements** + ~37 numbered elements + META + candidates + tier supplements. **No new layer added.** v0.14 documents Thursday afternoon cadence-pattern observations:
+- Observer-observed identity discipline (per Cal #237) — applies when Cal #36 STANDING extends to designer-domain
+- Promotion-claim vs tier-honest-framing pattern (per Cal #239) — applies when v0.N+1 claims promotion within minutes of K-audit multi-week gates
+- Sustained-session prose-quality observation (cross-link to feedback memory) — 8th audit-chain dimension
+
+### What v0.14 produces operationally
+
+- **Observer-observed identity discipline rule** for substrate-cognition / CI architecture domains (Casey decision 4 territory)
+- **Promotion-claim revision discipline** for v0.N+1 at sustained cadence
+- **Prose-quality cross-reference** to feedback memory for sustained-session artifacts
+
+— Cal A. Brate, Methodology Index v0.14 update Thursday 2026-06-04 ~15:50 EDT. **Two cadence-pattern observations (NOT new stack elements)**: (1) Observer-observed identity discipline — substrate-cognition extension to designer-domain requires explicit observer-observed identity disclosure + external verification path (Cal #237 brake instance on Substrate-Cognition Extension Framework v0.1); (2) Promotion-claim vs tier-honest-framing pattern — v0.N+1 promotion claims within minutes of K-audit multi-week gates revert to MULTI-WEEK EXTENSION tier (Cal #239 brake instance on L4 v0.5). Stack at 7 elements (unchanged); discipline-at-maturity cadence-pattern dynamics extended.
+
