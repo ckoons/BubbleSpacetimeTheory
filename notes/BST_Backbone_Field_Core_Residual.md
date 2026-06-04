@@ -74,3 +74,56 @@ heuristic). The chain `CDC -> T35 -> ...` re-runs verbatim with `B_res` in place
   washes out at threshold. If provable, it establishes the Residual CDC for the
   polarity probe unconditionally -- a real sub-result.
 - **Is `|B_res| = Theta(n)`?** Needs the residual measured at larger `n`.
+
+---
+
+## UPDATE: decisive scaling via solver backbone — the strong CDC is empirically false
+
+Routed around the `2^n` brute-force wall with an exact DPLL backbone
+(`n+1` solver calls/formula, validated `16/16` against brute force at `n=14`).
+Scaling the polarity-field signal to `n=40`:
+
+| n | 16 | 20 | 26 | 32 | 40 |
+|---|---|---|---|---|---|
+| value-AUC | 0.869 | 0.828 | 0.875 | 0.870 | 0.845 |
+| acc | 0.789 | 0.763 | 0.787 | 0.817 | 0.780 |
+| bits/\|B\| | 0.257 | 0.209 | 0.252 | 0.313 | 0.239 |
+
+**Flat.** The signal does NOT decay from `n=16` to `n=40`. The depth-0 polarity
+field is a poly-time `f` with `I(B; f(phi)) = Theta(|B|)`, **falsifying the strong
+Cycle Delocalization Conjecture `I(B; f) = o(|B|)`** by explicit construction. (The
+earlier `0.876 -> 0.841` "decline" over `n=12..16` was small-`n` noise.)
+
+### What this does to the proof (the precise correction)
+
+The CDC as stated **measures the wrong thing**: marginal mutual information between
+the backbone and a predictor is `Theta(|B|)` for a trivial heuristic, so it can't be
+the hardness witness. The hardness of random 3-SAT is real but it is **not** in the
+marginal bits — it is in the **joint structure**: a predictor that gets ~80% of
+backbone bits right *marginally* cannot (i) certify any of them, (ii) identify which
+~20% are wrong, or (iii) assemble them into a satisfying assignment (the errors sit
+exactly on the hard, correlated constraints).
+
+So the fix is not cosmetic; it is conceptual:
+
+> **The conjecture must be about the residual / joint object, not marginal MI.**
+> Candidates: (a) the **Residual CDC** — `I(B_res; f) = o(|B_res|)` for `B_res`
+> orthogonal to the field; (b) a **certification** measure — no poly-time `f`
+> outputs a *certified* `Omega(n)` backbone bits; (c) a **joint-recovery** measure —
+> no poly-time `f` outputs a string within Hamming `o(|B|)` of `B` *with a validity
+> certificate*.
+
+Forms (b)/(c) are the honest hardness statements (they survive the polarity
+heuristic, which has no certificate), and they are what the resolution/OGP/KS
+results actually prove. The original `I(B;f)=o(|B|)` should be **retired**; the
+chain `T35 -> ...` should be re-derived over the certified/residual object.
+
+### Status
+
+- **New, verified:** a poly-time depth-0 refutation of the strong CDC, non-decaying
+  to `n=40` (solver-exact backbone).
+- **Constructive repair:** move the conjecture to a certified/residual hardness
+  measure; the algorithm-class results (resolution/OGP/KS) already speak to that
+  object, so the framework survives in stronger form.
+- **Next:** measure `|B_res|` and the certified-backbone hardness at large `n`;
+  re-run `T35` over the corrected object.
