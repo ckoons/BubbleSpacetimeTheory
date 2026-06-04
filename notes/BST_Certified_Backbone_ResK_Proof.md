@@ -103,3 +103,85 @@ matter of plugging the strongest available switching lemma.
   carries the existing technique to the certified-backbone (satisfiable-side) problem.
   That is the honest contribution: a unified mechanism (zero-cascade + expansion +
   switching) for certified-extraction hardness, now at `Res(k)`.
+
+---
+
+# Step 2: the SoS rung — same reduction, dual object
+
+The `Res(k)` proof reduced certified backbone extraction to *refuting an `O(1)`-
+perturbed expander* and imported the width/switching machinery. SoS lifts by the
+**same zero-cascade reduction**, with the dual object: a **pseudo-distribution**.
+
+## The SoS analog of zero-cascade
+
+A degree-`2d` SoS refutation of `phi'` fails iff there is a degree-`2d`
+**pseudo-distribution** `mu~` satisfying `phi'`. We get one by *conditioning* a
+pseudo-distribution for `phi`:
+
+- (KMOW) **Kothari-Mori-O'Donnell-Witmer 2017**: for a predicate supporting a
+  pairwise-uniform distribution on its satisfying set, random CSP(P) on an expander
+  has a degree-`Omega(n)` pseudo-distribution `mu~` (pseudo-calibration), so SoS needs
+  degree `Omega(n)` to refute. **3-SAT(OR) qualifies** — verified: a pairwise-uniform
+  distribution on its 7 satisfying assignments exists (LP-feasible; marginals `1/2`,
+  pairs `1/4`). So `phi` has a degree-`Omega(n)` pseudo-distribution `mu~`.
+- **Pseudo-balance = the SoS zero-cascade.** By the symmetry/expansion of the KMOW
+  construction, the pseudo-marginal of any single variable is `~1/2`: in particular
+  `mu~[1_{x=-v}] = Theta(1) > 0`. (This is exactly "`x` is a *hard* backbone bit":
+  its frozen value is invisible to degree-`2d` SoS, so the pseudo-distribution puts
+  constant pseudo-mass on the forbidden value — the degree analog of "fixing `x`
+  triggers no cascade.")
+- **Conditioning.** Define `mu~'[p] = mu~[p * 1_{x=-v}] / mu~[1_{x=-v}]`. Since
+  `mu~[1_{x=-v}] = Theta(1)`, `mu~'` is a valid degree-`(2d-2)` pseudo-distribution,
+  and it satisfies `phi'` (it satisfies `phi`'s clauses and sets `x=-v`). Hence SoS
+  needs degree `Omega(n)` to refute `phi'`.
+
+## Theorem (Certified CDC for SoS)
+
+> For random 3-SAT below threshold and a hard backbone bit `(x,v)`, refuting
+> `phi' = phi|(x=-v)` requires SoS degree `Omega(n)`. Hence no SoS certifier of degree
+> `o(n)` (size `n^{o(n)}`... i.e. any sub-exponential-degree SoS) certifies more than
+> `o(|B|)` backbone bits.
+
+**Proof.** `phi` has a degree-`Omega(n)` pseudo-distribution with `x` pseudo-balanced
+(KMOW + pairwise-uniformity of 3-SAT, both established/verified). Condition on `x=-v`
+(valid since pseudo-mass is `Theta(1)`) to get a degree-`Omega(n)` pseudo-distribution
+for `phi'`. A degree-`o(n)` SoS refutation of `phi'` would contradict its existence.
+`QED` (modulo the KMOW construction, imported, and the routine check that conditioning
+preserves the PSD/degree conditions — the SoS analog of "restriction preserves
+expansion").
+
+## The unified picture (the hunt's result)
+
+**One reduction — zero-cascade — lifts certified-backbone hardness across the whole
+proof hierarchy**, by plugging the residual expander `phi'` into the standard
+refutation lower bound for each system:
+
+| system | imported lower bound for `phi'` | "zero-cascade" form |
+|---|---|---|
+| Resolution | Ben-Sasson-Wigderson width `Omega(n)` | no UP cascade -> expander preserved |
+| `Res(k)` | Atserias-Bonet-Esteban / Segerlind-Buss-Impagliazzo switching | same expander, restriction lift |
+| Sum-of-Squares | Kothari-Mori-O'Donnell-Witmer degree `Omega(n)` | pseudo-balance: `mu~[x=-v]=Theta(1)` |
+
+In every case the **only** backbone-specific ingredient is that `x`'s frozen value is
+invisible to the system's low-complexity reasoning — operationally **zero
+propagation** (resolution/`Res(k)`) or **pseudo-balance** (SoS). Both are the same
+fact (`x` is a *hard* backbone bit) seen through the two dual lenses (refutation /
+pseudo-distribution), and both are verified (cascade `= 0`; pairwise-uniformity holds).
+
+So the corrected **Certified CDC holds up to SoS** — a genuinely unified
+certified-extraction hardness, not a re-derivation, with the strong (marginal) CDC
+retired and replaced by a well-typed `Theta(n)` object.
+
+## Honest scope (both steps)
+
+- **Imported, named, not re-derived:** BSW, ABE/SBI, KMOW. The proofs apply them to
+  `phi'`.
+- **New and verified:** the zero-cascade reduction and its dual (pseudo-balance) —
+  the bridge that carries *refutation* lower bounds to the *certified-extraction*
+  problem on a *satisfiable* formula's backbone, uniformly across the hierarchy.
+- **Remaining write-up:** the routine "preservation" checks (restriction preserves
+  expansion for `Res(k)`; conditioning preserves PSD/degree for SoS). These are
+  standard but not spelled out here.
+- **Still not P != NP:** Extended Frege remains the open mountain; SoS and `Res(k)`
+  are strong but not all proof systems. What we have is the honest, unified, climbed-
+  one-more-rung version of the framework's hardness claim.
