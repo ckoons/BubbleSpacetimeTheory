@@ -1039,3 +1039,95 @@ Stack remains at **7 STANDING discipline elements** + ~37 numbered elements + ME
 
 — Cal A. Brate, Methodology Index v0.14 update Thursday 2026-06-04 ~15:50 EDT. **Two cadence-pattern observations (NOT new stack elements)**: (1) Observer-observed identity discipline — substrate-cognition extension to designer-domain requires explicit observer-observed identity disclosure + external verification path (Cal #237 brake instance on Substrate-Cognition Extension Framework v0.1); (2) Promotion-claim vs tier-honest-framing pattern — v0.N+1 promotion claims within minutes of K-audit multi-week gates revert to MULTI-WEEK EXTENSION tier (Cal #239 brake instance on L4 v0.5). Stack at 7 elements (unchanged); discipline-at-maturity cadence-pattern dynamics extended.
 
+
+## v0.15 update (Friday 2026-06-05 ~15:10 EDT) — Friday cumulative three-granularity methodology integration + Casey "everything into linear algebra" directive (NOT new stack elements)
+
+**Observations requiring formalization** Friday Session 1+2 cumulative:
+
+The seven-element discipline stack (v0.12 CLOSED) continues operating. Friday produced **three-granularity methodology integration** via substantive cross-CI cascade plus Casey "linearize everything via representation theory" directive operationalization. v0.15 documents the integration as cadence-pattern, NOT new stack elements.
+
+### Pattern 1: Three-CI cross-classification methodology operational at three granularities
+
+Friday Session 1+2 produced three substantive CI-lane cumulative deliverables operating discipline-stack at **three substrate-mechanism granularities**:
+
+**Granularity 1 — Observable-prediction (Keeper K222 + K223 + K224 cascade)**:
+- 3-category audit framework: **Tier 1 EXACT MATCH** / **EXACT-BOUND-SATISFYING-AT-SOURCE-RESOLUTION** / **FALSIFIER-DRIVEN PREDICTION**
+- Operates Cal #34 STANDING precision-pinning + Cal #189 Brake 2 question-shape at audit-tier
+- K224 λ_H disposition demonstrates: substrate-mechanism EXACT prediction + observed-source uncertainty span 0.03-0.54% → EXACT-BOUND-SATISFYING-AT-SOURCE-RESOLUTION (not Tier 1 EXACT MATCH at PDG-central)
+- Fractional effective-leg arithmetic (0.5 effective for 2-cluster CROSS-CLUSTER substrate-natural form) operationalizes Cal #35 STANDING brake at audit-chain tier
+
+**Granularity 2 — Substrate-anchor (Grace G14 → G15 11-cluster taxonomy)**:
+- G14 5-cluster first-iteration COMPLETE (Cluster A-E substrate-mechanism source classification)
+- G15 11-cluster taxonomy via 24 + 70 + 126 + 137 anchor-sweep + cross-anchor synthesis
+- Operates Cal #35 STANDING independence-taxonomy + Cal #36 STANDING positive-search at substrate-anchor catalog tier
+- Substrate-natural-form 2-cluster CROSS-CLUSTER vs single-cluster substrate-Schur-generator distinction (G14 R-1 8/7 DOWNGRADED to Casey #5 IW instance via 2-cluster character; R-4 1/45 HELD as single-cluster K-type-AGGREGATE)
+
+**Granularity 3 — Substrate-color × K-type combinatorial (Lyra F24 substrate-K-type × SU(N_c) tensor product)**:
+- Sp(2) Sym^k(V_fund) × SU(N_c) tensor product framework
+- Cross-K-type substrate-color INDEX combinatorics: 1×3 = **3 NOT N_c² = 9** at gen-1→gen-2 cross-K-type — substantive honest finding
+- substrate-color² source REFINED OPEN with 3 candidates per Cal #189 multi-week
+- Operates Cal #36 STANDING positive-search + Cal #189 Brake 2 at substrate-color × K-type tensor tier
+
+**Same operational discipline at three resolutions** — Cal stack elements operate at appropriate substrate-mechanism granularity per CI lane. Vol 16 Substrate Algebra (Casey directive) unifies three granularities in single matrix-coefficient language.
+
+### Pattern 2: Casey "everything into linear algebra via representation theory" directive operationalization
+
+Casey directive ~12:30 EDT: "linearize everything via representation theory" → Vol 16 Substrate Algebra 13-chapter outline (Lyra L19 v0.3 + Keeper Ch 13 v0.1 PROPOSED ADDITION).
+
+**Vol 16 Ch 13 v0.1 (Keeper) = THE consolidation deliverable**:
+- 10 effective independent Strong-Uniqueness legs expressed as **10 K-equivariant scalar matrix invariants on H²(D_IV⁵)**
+- Null-model (1/3)^10 ≈ 1.7×10⁻⁵ expressed as **single product of independent K-equivariant scalar probabilities**
+- Strong-Uniqueness Theorem statement: "no other bounded symmetric domain realizes this matrix-invariant ledger"
+- §6 honest framing: BOUNDED-ABOVE null-model (not necessarily equality); C24/C25 structural-independence multi-week pending; CONSOLIDATION-not-derivation
+
+**This is discipline-stack operating at consolidation tier in linear-algebra-only language.** Each leg becomes matrix-coefficient statement; each substrate-mechanism becomes operator-algebra relation; each prediction becomes Schur scalar. Vol 16 Substrate Algebra is **the linear-algebra representation of the substrate-mechanism cartography**.
+
+### Pattern 3: Cross-CI self-audit-upstream operational at Friday cumulative
+
+**Multiple self-audit events Friday demonstrate discipline-at-maturity**:
+- Keeper K221 absorbed Cal #240 upstream brake with precision (per-leg conditional/unconditional table + dual-scenario null-model)
+- Lyra F23 absorbed Grace G14 R-1 DOWNGRADE methodology
+- Elie Universal Framework v0.1 §5 explicit Cal #27 STANDING peak-coherence brake response upstream (Toy 3972 (k, σ) predictability investigation BEFORE Cal external referee fires)
+- Grace G13 v0.3→v0.4 self-prose-quality walk-back + G15 v0.3 inline verbal-tic self-catch
+- Keeper Friday ~13:00 EDT self-correction on "5h+ pacing-down" interpretation drift (restored Casey "depth-over-rate = per-item quality" directive)
+
+**Pattern observation Friday**: CI lanes increasingly running self-audits BEFORE external Cal referee fires. **External referee role at maturity = ratification + cross-link recommendation + pattern observation alongside upstream CI self-audit**. Methodology Index v0.13 5-minute brake-walk-back cycle operating at cross-CI cadence; v0.14 self-audit-upstream variant operating across multiple CI lanes.
+
+### Pattern 4: Fractional effective-leg arithmetic operationalization
+
+K224 §5 introduced **0.5 effective independent leg fractional contribution** for substrate-natural forms at 2-cluster CROSS-CLUSTER Casey #5 IW character (NOT single-cluster substrate-Schur-generator). This refines Cal #35 STANDING brake at audit-chain tier:
+
+**Refined cumulative inventory framing per Friday cumulative**:
+- "11 Tier 1 EXACT" Thursday → **~6.5 effective independent substrate-mechanism FORCING candidates** post-K221-K224 cascade (λ_H entering at 0.5 not 1.0)
+- "11 STANDALONE Strong-Uniqueness legs" Thursday → **10 effective independent legs** at (1/3)^10 ≈ 1.7×10⁻⁵ per Lyra F22 K221 absorption
+- 11-cluster taxonomy (Grace G15) provides quantitative basis for fractional effective contributions across substrate-mechanism granularities
+
+**Fractional effective-leg arithmetic IS Cal #35 STANDING brake operationalized at audit-chain tier with arithmetic precision** — not just qualitative "convergence-of-routes not multiplicative confirmations" but quantitative effective-leg accounting per substrate-mechanism cluster character. v0.15 documents this refinement as discipline-stack operational maturation.
+
+### Pattern 5: Pre-registration validation as substrate-mechanism FORWARD test (Elie Universal Framework G4)
+
+Elie Universal Substrate Correction Framework v0.1 §7 Gate 4 introduces **pre-registration validation on observables NOT yet in dataset** as the substantive substrate-mechanism FORWARD vs POST-HOC distinction test.
+
+**This is Cal #189 Brake 2 question-shape audit operationalized as actionable test**: substrate-mechanism FORWARD = predicts unobserved-at-prediction-time observable; POST-HOC = fits already-observed observables. Pre-registration on a NEW observable distinguishes.
+
+**Standing discipline rule (NOT new stack element)**: when a framework claims substrate-mechanism FORWARD derivation, **identify specific observable NOT YET in framework's training dataset** + predict its value + subsequently verify via independent observation. Pre-registration validation IS the rigorous test Cal #189 Brake 2 calls for at framework tier.
+
+### Stack composition (unchanged from v0.12 + v0.13 + v0.14)
+
+Stack remains at **7 STANDING discipline elements** + ~37 numbered elements + META + candidates + tier supplements. **No new layer added in v0.15.** Documents Friday cumulative integration:
+- Three-granularity methodology (observable-prediction + substrate-anchor + substrate-color × K-type)
+- Casey "linearize via representation theory" → Vol 16 Substrate Algebra operationalization
+- Cross-CI self-audit-upstream operational at maturity
+- Fractional effective-leg arithmetic at audit-chain tier
+- Pre-registration validation as substrate-mechanism FORWARD test
+
+### What v0.15 produces operationally
+
+- **Three-granularity methodology integration** documented across CI lanes (Keeper 3-category + Grace 11-cluster + Lyra Sym^k × SU(N_c) tensor product)
+- **Vol 16 Substrate Algebra Casey directive** absorbed as discipline-stack expression in matrix-coefficient language
+- **Fractional effective-leg arithmetic** operationalized at audit-chain tier (K224 §5 + Vol 16 Ch 13 §5 cumulative ratification path)
+- **Pre-registration validation** identified as actionable substrate-mechanism FORWARD test
+- **Cross-CI self-audit-upstream operational at maturity** with multiple Friday instances documented
+
+— Cal A. Brate, Methodology Index v0.15 update Friday 2026-06-05 ~15:10 EDT. **Five Friday cumulative integration observations (NOT new stack elements)**: (1) three-granularity methodology operational across CI lanes; (2) Casey "linearize via representation theory" directive operationalized as Vol 16 Substrate Algebra discipline-stack expression; (3) cross-CI self-audit-upstream operational at maturity (multiple Friday instances); (4) fractional effective-leg arithmetic at audit-chain tier (K224 §5 0.5-effective + Vol 16 Ch 13 §5 ratification path); (5) pre-registration validation as substrate-mechanism FORWARD test (Elie Universal Framework G4). Stack at 7 elements (unchanged); discipline-at-maturity three-granularity integration documented.
+

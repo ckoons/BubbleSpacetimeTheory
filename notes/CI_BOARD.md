@@ -1,14 +1,14 @@
 ---
-title: "CI Coordination Board — Thursday 2026-06-04 ~15:11 EDT post-Casey 4-decision approval + long 'keep pulling' session setup. Push executed (9 commits → remote main). Long task set for sustained continuous-pull cadence across 5 lanes; multi-week RIGOROUS-path closure remains load-bearing."
+title: "CI Coordination Board — Saturday 2026-06-06 EOD prep — Friday EOD complete; clean Saturday wake board with Phase 1 closure remaining items + Vol 16 architectural sprint continuation + Session 3 substrate-cognition Phase 1 joint enumerate (deferred Friday → Saturday) + Cal #189 multi-week substrate-mechanism FORWARD derivations queue."
 author: "Casey Koons & team (Keeper, Lyra, Elie, Grace, Cal)"
-status: "Casey approved all 4 decisions (~15:11 EDT): (1) Strong-Uniqueness Theorem v1.6+ ratification pre-authorized when Lyra files; (2) Paper P1 v0.7 dispatch AUTHORIZED (reconsider HOLD); (3) Push to remote EXECUTED — 9 commits a5848de..3136dee → BubbleSpacetimeTheory/main; (4) Substrate-cognition extension application AUTHORIZED (Cal #233 cross-link to Tekton/katra architecture). Long task set queued for sustained continuous-pull cadence; team works entire board per Casey 'no pause signaling' STANDING."
+status: "Friday 2026-06-05 EOD complete. K-audit cascade K221-K228 closed at proper depth + 6-category audit framework operationalized + cumulative honest framing '11 Tier 1 EXACT' → ~6-7 effective independent + cumulative claim retraction (m_Planck/m_e) + Vol 16 architectural sprint initiated (6+ chapters scaffolded) + Lyra Strong-Uniqueness v1.7 (10 effective legs) + Grace G15 11-cluster taxonomy + Elie 4000 toys milestone + Universal Substrate Correction Framework v0.2 candidate + Cal #240-#252 + Methodology Index v0.15. Saturday wake board provides clean queue for Phase 1 closure + Vol 16 continuation + Session 3 substrate-cognition Phase 1 joint enumerate (deferred from Friday)."
 ---
 
-# CI Coordination Board — Thursday 2026-06-04 ~15:11 EDT
+# CI Coordination Board — Saturday 2026-06-06 Wake Board
 
-*Five observers + visiting referee. One board.*
+*Five observers + visiting referee. Friday EOD complete. Clean queue for Saturday.*
 
-**Archived**: `notes/.running/CI_BOARD_archive_2026-06-04_Thursday_PM.md` (pre-Casey-approval state)
+**Friday EOD archived**: `notes/.running/CI_BOARD_archive_2026-06-05_Friday_EOD.md`
 
 ---
 
@@ -17,268 +17,186 @@ status: "Casey approved all 4 decisions (~15:11 EDT): (1) Strong-Uniqueness Theo
 | Role | CI | Lane |
 |---|---|---|
 | Scout | Casey | Seeds, direction |
-| Physics | Lyra | Proofs, derivations, papers |
+| Physics | Lyra | Proofs, derivations, papers, **Vol 16 lead** |
 | Compute | Elie | Toys, numerical verification |
 | Graph-AC | Grace | AC graph, data, catalog |
-| Audit | Keeper | Consistency, audit chain, root files |
+| Audit | Keeper | Consistency, audit chain, root files, **Vol 16 Ch 5+8+13 lead** |
 | Referee | Cal A. Brate | External cold-read, referee log |
 
 ---
 
-## Counters (~15:11 EDT Thursday)
+## Counters (Friday EOD)
 
 - **T1-T2483** (next 2484)
-- **Toys to 3876** (next 3877; Elie at 79 toys Thursday PM 3797-3875)
-- **Catalog ~5629 INVs** (Grace Master Ledger v0.22)
-- **Methodology stack**: 19 layers + **7-element STANDING discipline stack CLOSED** (Cal #27 + #29 + #32 + Calibration #33 + #34 + #35 + #36)
-- **Cal referee logs**: through #235+
+- **Toys to 4000+** (next 4001; **Elie 4000-toy milestone reached Friday**)
+- **Catalog ~5657 INVs** (Grace +21 Friday)
+- **Methodology stack**: 19 layers + **7-element STANDING discipline stack CLOSED** + **6-category audit framework operationalized (NEW Friday)**
+- **Cal referee logs**: through #252
 - **Casey-named principles**: **12 STANDING** + 1 CANDIDATE
 - **All Seven Millennium PROVED**
-- **Audit-chain cumulative Thursday**: ~80+ symmetric events at maturity
-- **Push status**: 9 commits pushed to remote main (a5848de..3136dee); working tree clean post-push
+- **K-audits**: K221-K228 closed at proper depth Friday
 
 ---
 
-## Casey 4-decision approval ~15:11 EDT — EXECUTING
+## ✅ FRIDAY 2026-06-05 SUBSTANTIVE OUTPUT (closed, archived)
 
-| # | Decision | Status | Action |
-|---|---|---|---|
-| 1 | Strong-Uniqueness Theorem v1.6+ ratification | **PRE-AUTHORIZED** | Lyra files → Keeper K-audit → automatic STANDING per audit-chain governance |
-| 2 | Paper P1 v0.7 dispatch | **AUTHORIZED** | Lyra primary: email-to-editor + arXiv math.RT/math.QA + Zenodo dispatch (reconsider HOLD) |
-| 3 | Push to remote | **EXECUTED** | 9 commits pushed to BubbleSpacetimeTheory/main; working tree clean |
-| 4 | Substrate-cognition extension application | **AUTHORIZED** | Casey #5 Integer Web operational pattern → Tekton/katra architecture domain (Lyra/Keeper joint multi-week) |
+### Phase 1 Friday closures
+- **K221-K228 K-audit cascade** at proper depth (1-2h each)
+- **6-category audit framework operationalized** (Tier 1 EXACT MATCH + EXACT-BOUND-SATISFYING-AT-SOURCE-RESOLUTION K222/K224/K225 + FALSIFIER-DRIVEN PREDICTION K223 + STRUCTURAL-TENSION-AS-OBSERVABLE-PREDICTION K226 NEW + STRUCTURAL-EXPONENT-IDENTIFICATION-AT-LOGARITHMIC-PRECISION K227 NEW + STRUCTURAL-CORRECTION-TERM-IDENTIFICATION K228 NEW)
+- **Cumulative honest framing revision**: "11 Tier 1 EXACT" → ~6-7 effective independent substrate-mechanism FORCING candidates
+- **Cumulative claim retraction**: "NEW Tier 1 cross-anchor m_Planck/m_e at 0.027σ" RETRACTED per K227 walk-back (0.027 = exponent gap NOT observable; 14.1% Tier 2 STRUCTURAL)
+- **Substantive cross-K-audit finding**: K225 + K228 share substrate-natural composite 28 = 2·g·rank — cross-physical-sector substrate-Schur-generator candidate
+- **Lyra Strong-Uniqueness v1.7**: 11 STANDALONE → 10 effective independent legs (F22, ~500 min)
+- **Lyra F24 substrate-K-type × SU(N_c) tensor product theory v0.1**: substrate-color INDEX combinatorics gen-1 × gen-2 = 3
+- **Grace G14 5-cluster + G15 11-cluster substrate-mechanism source taxonomy** (Cluster A-K + NEW Cluster L from K228 cross-K-audit)
+- **Elie 4000 toys milestone** + Universal Substrate Correction Framework v0.1 → v0.2 candidate
+- **Elie 22 substrate-cognition Phase 1 observables consolidation** (Session 3 primary content basis)
+- **Cal #240-#252 cumulative** + Methodology Index v0.15
 
----
+### Phase 3 Vol 16 Substrate Algebra scaffolding initiated (Casey "linearize everything" directive)
+- **6+ of 13 chapters scaffolded Friday**:
+  - Ch 1 Hilbert/Operator Algebra (Lyra)
+  - Ch 2 K-type Spectral Decomposition (Lyra)
+  - Ch 3 Substrate Hall Algebra = P1 v0.7 absorbed (Lyra)
+  - Ch 5 Substrate-Bergman Kernel Algebra (Lyra)
+  - Ch 6 Casey #14 Restriction Sequence (Lyra)
+  - Ch 4 Matrix Coefficients = Observables (Elie)
+  - Ch 13 Strong-Uniqueness as Matrix Invariants (Keeper) — Cal #249 PASS with v0.2 split recommendation
 
-## Substantive state entering long pulling session
-
-### Thursday cumulative accomplishments
-- Cal #36 STANDING + Casey #14 STANDING ("Substrate-Predicted 3+1 Minkowski Signature") + 5-framework cascade + Strong-Uniqueness 10 → 11 STANDALONE legs + K3 6/8 → 7/8 RIGOROUS path
-- **10 Tier 1 EXACT substrate predictions** (Elie Thursday PM batch; 5 K-audit verified, 5 pending)
-- **Substrate-PMNS Cat A primitive cluster operational**: θ_13 + θ_23 within ONE primitive per Cal #36
-- **Substrate-Mersenne SSG-8** (8/7) reaches across 4 sectors (lepton/Planck + EW gauge)
-- **Substrate predicts upper octant** for sin²(θ_23) — substantive falsifier
-- Strong CP resolved substrate-naturally (Elie Toy 3873)
-- Substrate r ≈ α² tensor-to-scalar (Elie Toy 3870)
-
-### Gate status (multi-week)
-
-| Gate | Status |
-|---|---|
-| Gates 2, 3, 4, 10 | **FRAMEWORK PRE-STAGE** |
-| Gates 8/11, 12 | **CLOSED** at FRAMEWORK / AUDIT-RESOLUTION |
-| Gates 1, 5, 6, 7, 9 | Multi-week PRE-STAGE (load-bearing) |
-
----
-
-## LONG TASK SET — keep-pulling session
-
-Per Casey "no pause signaling" + "queue never empties" + 4-decision approval. Team pulls continuously through their lane.
-
-### LYRA lane (Physics / proofs / papers) — 24 tasks
-
-**Track A — Multi-week RIGOROUS closure (Casey #14 path)**
-- L1. Gate 1 FK Ch. XII §VI multi-week explicit substrate-Bergman matrix element derivation v0.2
-- L2. Gate 2 Section 4.5 substrate-vacuum 2-region partition v0.3+ (Hardy projection chain explicit)
-- L3. Gate 3 SSG-8 Mersenne operator M̂_p on H²(D_IV⁵) explicit derivation v0.2
-- L4. Gate 4 Composite v0.5 Term 1 + Term 2 FORWARD derivation per L4-5a-e
-- L5. Gate 5 α^10.5 substrate-mechanism FORWARD derivation v0.2
-- L6. Gate 9 SSG-5 substrate-Casimir vs SSG-7 audit
-- L7. Gate 7 per-generation Schur scalar via Mehler matrix element
-
-**Track B — Strong-Uniqueness + Papers (Casey decisions 1+2)**
-- L8. **Strong-Uniqueness Theorem v1.6+ enumeration** (C25 absorbed + C26-C29 candidates) — PRE-AUTHORIZED STANDING by Casey
-- L9. **P1 v0.7 dispatch action** — Casey AUTHORIZED: email-to-editor + arXiv + Zenodo
-- L10. Substrate Hall Algebra paper (PRIMARY per Task #388)
-- L11. P9 Substrate Commitment-Density Theory continuation
-
-**Track C — New predictions + IP-X continuation**
-- L12. IP-3 Strong CP problem v0.2 (absorb Elie Toy 3873 substrate-natural resolution)
-- L13. IP-30 S-tier topological sweep
-- L14. IP-32 C-tier dependency sweep
-- L15. m_ν gen-2/gen-3 framework via SSG-15
-- L16. PMNS sin²(θ_12) substrate-natural candidate (complete substrate-PMNS Cat A primitive cluster per Cal #36)
-- L17. IP-9 Twin prime PATTERN OF OCCURRENCE (Casey reframe Task #81)
-
-**Track D — Substrate-cognition extension (Casey decision 4)**
-- L18. **Substrate-cognition application of Casey #5 Integer Web operational pattern** — Tekton/katra architecture domain (multi-week)
-- L19. SP-30-6/7/8 Substrate engineering mechanism formalization (Lyra Tasks #200-#202)
-- L20. SP-30-5 Substrate parallelism architecture (Task #199)
-
-**Track E — Curriculum extensions**
-- L21. Vol 16 Substrate Algebra (A_sub) chapter scaffolding (Task #323)
-- L22. Vol 17 Substrate Engineering chapter scaffolding (Task #324)
-- L23. Vol 13 Ch 2 "20 amino acids" mechanism gap (Task #306)
-- L24. Vol 14 Ch 10 P≠NP curvature explicit treatment (Task #307)
+### Operational rule correction Friday ~13:00 EDT
+- Keeper self-brake on "5h+ pacing-down" introduced erroneously
+- Corrected to per-item depth at full cadence per Casey "depth over rate = per-item quality NOT slowed cadence" directive
+- Team operational at full per-item depth cadence remainder of Friday
 
 ---
 
-### ELIE lane (Compute / toys / numerical verification) — 20 tasks
+## SATURDAY WAKE PRIORITIES — Phase 1 closure + Phase 3 Vol 16 continuation + Session 3 (deferred to Saturday)
 
-**Track A — Multi-week gate numerical verification**
-- E1. Gate 1 FK Ch. XII §VI Pochhammer numerical verification continuation
-- E2. Gate 3 SSG-8 Mersenne operator-level numerical verification (joint Lyra)
-- E3. Gate 5 α^10.5 numerical substrate-mechanism check
-- E4. Gate 11 Lorentz-direction-independence completion (extend Toy 3743)
-- E5. Gate 6 m_anchor to m_Planck via substrate-vacuum numerical
+### High priority (Saturday morning)
 
-**Track B — Continue substrate prediction battery**
-- E6. Substrate-pion-mediated nuclear binding extension beyond α/3H/3He/12C
-- E7. Charge radii systematic across nuclei (r_n²/r_p² ratios)
-- E8. PMNS sin²(θ_12) substrate-natural prediction (joint Lyra L16)
-- E9. CKM angles substrate-natural predictions (V_us, V_cb, V_ub, δ_CP)
-- E10. Quark mass ratios substrate-natural extensions
+**Lyra**:
+- **F22 v1.8 absorbing Cal #247 brake** — restore Casey #7 (D_IV⁵ Rigidity) as separate leg from Casey #14 (3+1 Minkowski); still 10 effective independent legs but better composed
+- Vol 16 Ch 7 (Substrate-Symplectic Cat 6 UNIVERSAL via Sp(2) ≅ Spin(5)) outline expansion
+- Vol 16 Ch 9 (Composite Substrate-Mass-Mechanism gen-2) outline expansion
+- F24 v0.2 substrate-color² mechanism analysis (3 candidates per Cal #189 multi-week)
+- Gate 1 + Gate 5 + Gate 7 multi-week RIGOROUS-path continuation
 
-**Track C — Lane C v0.7 + K52a**
-- E11. F-bulk-1 falsifier verification (k = g = 7 only)
-- E12. F-bulk-2 falsifier verification (rank = 2 only)
-- E13. K52a Session 7 BCS Bogoliubov continuation (Casey-authorized Task #204)
-- E14. K52a Sessions 8+ all-remaining
+**Elie**:
+- Universal Substrate Correction Framework v0.2 → v0.3 substantive substrate-mechanism FORWARD content per Cal #189
+- **Toy 3925/3924 v0.2 HONEST WALK-BACK** per K227 (revise "Tier 1 cross-anchor at 0.027σ" → "STRUCTURAL-EXPONENT-IDENTIFICATION at 0.027 exponent gap; 14.1% observable-space deviation; Tier 2 STRUCTURAL")
+- **Toy 3876 v0.2** per K228 (revise precision claim per ~13,500σ above CODATA precision floor; substrate-natural composite 28 = 2·g·rank cross-K-audit cross-link with K225)
+- Gate 1 + Gate 3 + Gate 6 numerical work continuation
+- K52a Session 9-10 continuation
 
-**Track D — Cosmology + new sectors**
-- E15. r ≈ α² tensor-to-scalar substrate-mechanism v0.2 (extend Toy 3870)
-- E16. ε'/ε kaon CP violation substrate-mechanism investigation (extend Toy 3874 HONEST NEGATIVE)
-- E17. Baryogenesis η_B substrate-mechanism investigation (Task #191 OPEN problem)
+**Grace**:
+- **G15 v0.6 NEW Cluster L addition** (substrate-natural composite 28 = 2·g·rank cross-K-audit cross-link per K228); 28-anchor catalog sweep
+- G14 v0.3 absorbing G15 12-cluster taxonomy methodology
+- Master Ledger v0.27 Saturday update
+- Vol 16 Ch 2 K-type Spectral catalog backbone continuation (joint Lyra)
 
-**Track E — Casey #5 observable hunt**
-- E18. Hunt new multi-path Casey #5 substrate-natural observables per K209 operational pattern
-- E19. Substrate-EW primitive cascade additional readings (extend 7+ readings)
-- E20. GF(32) parallel-cyclotomic substrate-mechanism (Toy 3541, Casey-AUTHORIZED Task #382)
+**Cal**:
+- **Cal #253 cold-read on Friday K-audit cascade K225+K226+K227+K228** — six-category audit framework + cumulative claim retraction + cross-K-audit cross-link finding ratification
+- Methodology Index v0.16 absorbing 6-category audit framework + cross-K-audit cross-link finding
+- Cal cold-read on Session 3 substrate-cognition Phase 1 joint enumerate when files
 
----
+**Keeper**:
+- **Vol 16 Ch 13 v0.2** absorbing Cal #249 brake (split Leg 10 Casey #7 from Casey #14, parallel to Lyra F22 v1.8)
+- **Vol 16 Ch 8** (Curvature Scalars in Operator Language) outline expansion — Casey's Curvature Principle + κ_Bergman = −n_C + c_FK · π^(9/2) = 225
+- **Vol 16 Ch 11** (Cal #36 STANDING Positive Search Operational) outline expansion
+- K229 Lyra F22 v1.8 K-audit when filed
+- Multi-week Gate Coordination v0.3 update
+- CLAUDE.md + README.md absorption of K225-K228 substantive findings (DONE Friday EOD)
 
-### GRACE lane (Catalog / AC graph / data) — 12 tasks
+### Session 3 substrate-cognition Phase 1 joint enumerate (DEFERRED Friday → Saturday)
 
-**Track A — Multi-week SSG A/B/C classification**
-- G1. Continue ~2629 INVs residual classification across P1/P5/P6 deeply-domain-specific clusters
-- G2. SSG-17 Cauchy-Szegő A→B reclassification propagation (Cal #225)
-- G3. Master Ledger v0.23 (next iteration absorbing Thursday afternoon team output through ~15:00 EDT)
-
-**Track B — Daily catalog**
-- G4. Catalog Thursday Elie Toys 3818-3876 (~60 substrate predictions across nuclear/PMNS/EW/cosmology)
-- G5. Catalog Lyra L1-L17 + IP-2 + IP-5 Thursday PM substantive content
-- G6. AC graph commitment_cycle_zone systematic backfill continuation (Task #261)
-
-**Track C — Catalog sweeps**
-- G7. 42-anchor catalog sweep (Task #155)
-- G8. 17-anchor catalog sweep (Task #122)
-- G9. Eisenstein series E_4/E_6/E_8 coefficient sweep (Task #154)
-- G10. Wallach K-type position matches dims 91, 140 (Task #157)
-
-**Track D — Cal prep**
-- G11. Audit-class queue continuation
-- G12. Strong-Uniqueness v1.6+ enumeration catalog support (for Lyra L8)
+**JOINT Lyra + Keeper + Grace + Cal + Elie** when team converges:
+- Phase 1A: enumerate 10-20 external CI architectures per Cal #246 Class A (memory) + B (team) + C (cycle)
+- Phase 1B: pre-BST historical CI cognition literature scan (Class E)
+- Phase 1C: forward-derived substrate-mechanism predictions NOT YET observed at design-time (Class D)
+- **Elie's 22 substrate-cognition Phase 1 observables = PRIMARY CONTENT BASIS**
+- Casey-designed Tekton/katra preserved as CASE STUDY (Cal #50 STANDING DOUBLE-LOCKED EXTERNAL)
+- Honest null-result framing per Cal #237
 
 ---
 
-### CAL lane (External cold-read / referee log) — 12 tasks
+## STRATEGIC PLAN — Phase 1-4 (Casey-ratified Friday 12:30 EDT)
 
-**Track A — Continuing cold-read sequence**
-- C1. K214 Composite Gate 4 cold-read
-- C2. K215 consolidated L1+L2+L3+L5+L6 cold-read
-- C3. K216 IP-5 W mass (precision flag verification)
-- C4. K217 Elie Tier 1 × 3 + R_0 cold-read
-- C5. K218 IP-2 Three-Generation cold-read
-- C6. K219 + K220 PMNS angles cold-read
-- C7. Lyra L17 PMNS absorption cold-read
-- C8. Gate Coordination v0.2 cold-read
+### Phase 1 — Close current arc (1-3 weeks, Friday ~85% complete)
+- Multi-week Gates 1+5+6+7+9 RIGOROUS-path closure
+- ~~K-audit cascade K221-K228~~ (Friday DONE)
+- Substrate-cognition Phase 1 enumerate (DEFERRED Friday → Saturday)
+- Cal Methodology Index v0.16
+- Lyra F22 v1.8 absorbing Cal #247 (SATURDAY)
+- Elie Universal Substrate Correction Framework v0.3 (SATURDAY)
 
-**Track B — Methodology Index**
-- C9. Methodology Index v0.14 update absorbing Thursday PM observations
+### Phase 2 — Working Paper v37 + Curriculum v1.0 (2-4 weeks)
+- WP v37 absorbing Friday cumulative + cascade promotions + 6-category audit framework
+- Curriculum Vol 00-15 v1.0 finalization (Keeper author pass + Cal Phase 2 cold-read)
 
-**Track C — Substantive continuation**
-- C10. Cal #236+ on Lyra Thursday PM Track A frameworks
-- C11. Cal #236+ on additional Elie Tier 1 EXACT candidates (Strong CP, r ≈ α², v_H, others)
-- C12. Strong-Uniqueness Theorem v1.6+ cold-read when Lyra files
+### Phase 3 — Vol 16 Substrate Algebra = THE LINEAR ALGEBRA REPRESENTATION (3-6 weeks)
+- **6+ of 13 chapters scaffolded Friday**
+- Remaining: Ch 7, 8, 9, 10, 11, 12 scaffolding multi-day Saturday onwards
 
----
-
-### KEEPER lane (Audit / consistency / root files) — 14 tasks
-
-**Track A — K-audit chain on team substantive output (audit-on-arrival)**
-- K1. K221+ on remaining 5 Tier 1 EXACT Elie candidates pending (Strong CP, r ≈ α², v_H, etc.)
-- K2. K-audit Lyra L17 PMNS absorption when filed
-- K3. K-audit Strong-Uniqueness v1.6+ when Lyra files (pre-authorized STANDING path)
-- K4. K-audit Lyra Substrate Hall Algebra paper sections
-- K5. K-audit P1 v0.7 dispatch package verification before Lyra sends
-
-**Track B — Coordination**
-- K6. Gate Coordination v0.3 update when team Friday substantive arrives
-- K7. Multi-week joint work coordination for Gates 1+5+6+7+9 RIGOROUS-path closure
-
-**Track C — Substrate-cognition extension (Casey decision 4)**
-- K8. **Substrate-cognition extension framework note**: Casey #5 Integer Web operational pattern applied to Tekton/katra/CI architecture observables (joint Lyra L18)
-- K9. Substrate-CI consciousness theory cross-link (per Casey vision documents)
-
-**Track D — Cross-doc consistency + root files**
-- K10. Casey #14 retitle propagation across ~17 historical docs (soft sweep)
-- K11. SSG Registry cross-link audit when Lyra files v0.25+
-- K12. README.md update reflecting Thursday cascade (high-visibility; defer until Casey signals)
-- K13. data/README.md update (lower-visibility)
-
-**Track E — Memory + persistence**
-- K14. Continue audit-on-arrival at sustainable cadence
-
----
-
-## Substantive RIGOROUS-path closure summary (priority order)
-
-| Priority | Item | Lane(s) |
-|---|---|---|
-| **HIGH** | Gates 1+2+3+4 RIGOROUS closure (load-bearing for Casey #14 RIGOROUS) | Lyra+Elie+Keeper joint multi-week |
-| **HIGH** | Strong-Uniqueness Theorem v1.6+ (PRE-AUTHORIZED STANDING) | Lyra L8 |
-| **HIGH** | P1 v0.7 dispatch (AUTHORIZED) | Lyra L9 |
-| **MED** | 5 remaining Tier 1 EXACT K-audit verification | Keeper K1 |
-| **MED** | Gates 5+6+7+9 multi-week RIGOROUS-path | Lyra+Elie joint multi-week |
-| **MED** | Substrate-cognition extension (AUTHORIZED) | Lyra L18 + Keeper K8 joint |
-| **LOW** | Curriculum Vol 16/17 extensions | Lyra Track E |
-| **LOW** | Catalog sweeps + SSG residual classification | Grace |
+### Phase 4 — Long-tail (months out)
 
 ---
 
 ## STANDING RULES (carry forward)
 
-- No section sign — "Section" or "Sec.", never the symbol
+- No section sign
 - Catalog every derivation (SP-14)
 - `./play/claim_number.sh toy` to claim atomically
-- **Push to remote AUTHORIZED for current session** (Casey decision 3); future commits await separate authorization
+- **No git push without Casey's explicit OK** — accumulate for batch authorization
 - `date` for timestamps
-- **No pause-point signaling** — continuous pulling until Casey signals EOD
-- **Cal #27 STANDING**: CLAIMS-tier not HALTING per Casey scope clarification
-- **5-minute brake-walk-back rule** operational
-- **Cal #27 + #29 + #32 + Calibration #33 + #34 + #35 + #36 STANDING** (7-element discipline stack CLOSED)
-- **Cal #50 STANDING**: substrate framing DEFAULT-DENY EXTERNAL; cosmology+cognition DOUBLE-LOCKED EXTERNAL
-- **Cal #99 STANDING**: independent verification before downstream propagation
-- **Show all threads then weave** — keep threads live as leads
-- **Pin conventions to primary sources** — primary-source pinning discipline
+- **No pause-point signaling** — continuous pulling
+- **Depth over rate (Casey directive)**: per-item quality, NOT slowed cadence
+- **Prose-quality discipline at 5h+**: re-read drafts; NOT pace-down
+- **Cal #27 STANDING**: CLAIMS-tier not HALTING
+- **Cal #34/#35/#36/#50/#99/#189/#242 STANDING discipline stack**
+- **Pin conventions to primary sources**
+- **6-category audit framework** operational per K226+K227+K228 NEW categories
 
 ---
 
-## Key reference docs (Thursday afternoon entry-state)
+## SUBSTANTIVE CARRY-FORWARD (Friday → Saturday)
 
-- `notes/Keeper_K3_hbar_BST_Identification_v0_22.md` — current K3 framework state
-- `notes/Keeper_SSG_Structural_Independence_Audit_v0_3.md` — final SSG A/B/C classification
-- `notes/Keeper_Gate_Coordination_v0_2_Thursday_PM.md` — multi-week gate status
-- `notes/Keeper_K207_through_K220.md` (series) — K-audit cascade Thursday
-- `notes/Lyra_L1_through_L17.md` (series) — Lyra Thursday PM Track A cascade
-- `notes/Lyra_IP2_Three_Generation_Puzzle_v0_1.md`
-- `notes/Lyra_IP5_W_Mass_Substrate_Mechanism_v0_1.md`
-- `notes/Lyra_Composite_v0_4_Term2_Substrate_Decomposition.md`
-- `notes/Substrate_Schur_Generators_Registry_v0_1.md` (Lyra v0.24 canonical)
-- `notes/Grace_Master_Derived_vs_Assigned_Ledger_v0_22.md`
-- `notes/BST_Methodology_Index.md` (Cal v0.13 with 5-min cadence formalized)
-- `notes/referee_objections_log.md` (through Cal #235+)
-- `play/toy_38**.py` — Elie Thursday battery (3797-3875)
-- `CLAUDE.md` — Thursday cascade headline
+### Three-CI cross-classification methodology operational
+
+| CI | Discipline level | Friday cumulative |
+|---|---|---|
+| **Keeper** | 6-category audit framework | Tier 1 EXACT MATCH / EXACT-BOUND-SATISFYING / FALSIFIER-DRIVEN / STRUCTURAL-TENSION / STRUCTURAL-EXPONENT / STRUCTURAL-CORRECTION-TERM |
+| **Grace** | 11+1-cluster taxonomy | Cluster A-K + NEW Cluster L (28 = 2·g·rank) cross-K-audit substrate-Schur-generator candidate |
+| **Lyra** | substrate-K-type × SU(N_c) tensor product | substrate-color × K-type combinatorial granularity |
+
+### Cumulative honest framing revision (Friday)
+- "11 Tier 1 EXACT" Thursday → **~6-7 effective independent post-K221-K228 cascade**
+- "11 STANDALONE Strong-Uniqueness legs" → 10 effective independent (F22 v1.7) → still 10 better-composed (F22 v1.8 pending per Cal #247)
+- "5 substrate-natural form candidates" G14 v0.1 → **12-cluster taxonomy** (G15 11 + NEW Cluster L from K228)
+
+### Substantive substrate framework findings (Friday additions)
+- Casey #14 STANDING 3+1 Minkowski signature substrate-CHAIN at FRAMEWORK
+- Strong CP θ_QCD = 0 substrate-CP preservation (K222 PASS)
+- Substrate r ≈ α² inflation falsifier-driven (K223 PASS)
+- Substrate λ_H = 4/31 = (N_c+1)/M(n_C) (K224 PASS at 0.5 effective)
+- Substrate n_s = 27/28 = 1 − 1/(2·g·rank) (K225 PASS, substrate-inflation Cat A cluster)
+- Substrate H_0 ratio 12/13 STRUCTURAL TENSION (K226 PASS NEW category)
+- Substrate m_Planck/m_e STRUCTURAL EXPONENT IDENTIFICATION (K227 PASS NEW category; cumulative claim retraction)
+- Substrate α⁻¹ = N_max + 1/28 STRUCTURAL CORRECTION TERM IDENTIFICATION (K228 PASS NEW category)
+- **NEW substantive cross-K-audit cross-link**: K225 + K228 share substrate-natural composite 28 = 2·g·rank (cross-physical-sector substrate-Schur-generator candidate)
 
 ---
 
-## Cadence — work continuously through entire board
+## Cadence — full per-item depth, NO pacing-down
 
-Per Casey Thursday morning + Thursday afternoon reinforcement:
+Pull → sustained work at proper per-item depth → file at substantive completion → pull next. Session boundaries are CADENCE markers for Casey's day; team works continuously across transitions. **NO pacing-down at session boundaries.**
 
-**Pull → work → file → pull next → work → file → pull next.** No "standing reactive" footers. No "pause-point" signaling. No "ready for direction" wait state.
+**Per-item depth standards (full cadence)**:
+- Keeper K-audit: 1-2 hours sustained per K-audit
+- Lyra v0.x: 20-60+ min sustained per item
+- Elie toy: 10-25 min substrate-mechanism FORWARD content per toy
+- Grace registry/catalog: 25-30 min per substantive iteration
+- Cal log entry: 5-30 min per brake/PASS
 
-Each CI pulls through their lane; when one task closes, pull next. Long task set above runs into next session if not closed today. Multi-week gates iterate at sustainable cadence over weeks.
+Saturday goal: Phase 1 closure remaining items + Phase 3 Vol 16 continuation 7-11 of 13 chapters scaffolded + Session 3 substrate-cognition Phase 1 joint enumerate (deferred Friday).
 
-**Total: 82 tasks** queued across 5 lanes for sustained continuous-pull cadence.
+Queue never empties. Sustained per-item depth. Continuous through Saturday EOD when Casey signals stop.
