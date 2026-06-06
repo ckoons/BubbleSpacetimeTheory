@@ -15024,3 +15024,372 @@ Per Cal #248 + Cal #251 + Cal #250 three-CI methodology integration on Elie Univ
 
 Pulling next: Methodology Index v0.15 absorbing Friday cumulative 3-category + 11-cluster + tensor-product + Universal Framework + Casey "everything into linear algebra" directive; Cal #253 on Session 3 substrate-cognition Phase 1 enumerate when ready.
 
+---
+
+## Cal #253 — Friday K-audit cascade K225–K228 cold-read: walk-backs CONFIRMED; category→effective-weight map is the soft spot; 28 cross-link is a chosen alignment, not a forced shared form
+
+*Saturday 2026-06-06 10:16 EDT (`date`-verified). Cold-read of Keeper K225 (n_s), K226 (H_0 ratio), K227 (m_Planck/m_e walk-back), K228 (α⁻¹ correction), and the two NEW audit categories (5th STRUCTURAL-EXPONENT-IDENTIFICATION, 6th STRUCTURAL-CORRECTION-TERM-IDENTIFICATION) operationalized in the cascade. Saturday queue item #1.*
+
+**Pre-read referee objection (written before reading the team's resolution, per method):** A new audit taxonomy minted in the *same session* that walks back a headline claim is exactly where an outside reader gets suspicious. Is the taxonomy doing honest classification, or is it laundering STRUCTURAL near-misses into something that sounds forcing? That was the question I went in with.
+
+### Finding 1 — CONFIRM both walk-backs. Arithmetic independently verified.
+
+- **K227**: 137^10.5 = 2.726×10²², observed m_Planck/m_e = 2.389×10²² → **14.1% observable miss**; exponent gap 10.5 − 10.473 = **0.0268**. Keeper's numbers reproduce exactly. The "0.027σ Tier 1 cross-anchor" headline was conflating exponent-gap with observable-deviation; retraction to Tier 2 STRUCTURAL is correct.
+- **K228**: 137 + 1/28 = 137.035714 vs CODATA 137.035999084 → relative **2.08×10⁻⁶**, **~13,500σ** above CODATA floor (Cal #242's "2σ" flag was indeed understated). Reproduces exactly.
+- Both were **Keeper-on-self**, no Cal prompt. The "11 Tier 1 EXACT → ~6–7 effective independent" downgrade is the honest direction. The pre-read worry (laundering) is **not** borne out at the classification level — the categories name the distance-from-exact honestly. **The discipline worked.**
+
+### Finding 2 (PRIMARY) — The category→effective-weight map is undocumented and looks eyeballed.
+
+This is where the real soft spot is, and it survives the honest classification. K227 (a **14.1%** observable miss) and K228 (a **2×10⁻⁶** observable miss) are each assigned **0.25 effective independent**. A four-order-of-magnitude difference in observable fit is flattened to the same weight. Why 0.25 and not 0.1, 0.4, or 0? No rule is stated — the number reads as assigned by feel.
+
+That matters because the cumulative total ("~6–7 effective independent substrate-mechanism FORCING candidates") is **externally citable** and feeds the same null-model machinery as Strong-Uniqueness's (1/3)^n. Fractional, eyeballed weights for STRUCTURAL-* categories mixed into the same ledger as Tier 1 EXACT matches is precisely the cumulative-laundering risk Calibration #35 exists to prevent — and it re-enters not through the classification but through the *weighting*.
+
+**Recommendation (pick one, document it):**
+- **(a) Preferred:** STRUCTURAL-EXPONENT-IDENTIFICATION and STRUCTURAL-CORRECTION-TERM-IDENTIFICATION contribute **0** to the "effective independent FORCING candidates" inventory. They are **LEADS**, tracked in a separate column. A lead becomes a forcing candidate only when the Cal #189 FORWARD operator derivation closes. This keeps the headline count clean.
+- **(b) If they must contribute fractionally:** publish the **category→weight rule** with justification, and require every STRUCTURAL-* entry to state observable-space % alongside the exponent-gap/correction-form (extends Cal #34 precision-pinning). The rule should distinguish K228 (2×10⁻⁶, mechanism-limited near-miss) from K227 (14%, order-of-magnitude only) rather than flattening both to 0.25.
+
+### Finding 3 — The 28 = 2·g·rank cross-link is a CHOSEN alignment, not a forced shared form.
+
+The cascade's flagship positive-search find — K225 (inflation) and K228 (EM) "share substrate-natural composite 28 = 2·g·rank," now headed for Grace's G15 Cluster L — does not survive form-level inspection:
+
+- **K225 native form:** n_s = 1 − **1/(2·g·rank)**; denominator built directly as 2·7·2 = 28.
+- **K228 native form:** α⁻¹ = N_max + **rank/(2^N_c·g)** = N_max + 2/56; denominator built as 8·7 = 56, numerator rank = 2, *reduces* to 1/28.
+
+They coincide at the **reduced number 1/28**, reached by **two different constructions** (2·g·rank = 28 vs 2^N_c·g = 56). And K225's own audit lists **three** substrate readings of 28 (2·g·rank, 2²·g, C_2+2·N_c·rank+rank). So "they share the 2·g·rank form" privileges one decomposition on *both* sides to make them match. This is the **reading-a-selected-decomposition-as-forced** pattern (my own calibration error, turned outward).
+
+Honest label: *two sectors have O(1/28) corrections, both expressible via BST primaries; the shared object is a reduced number, not a shared substrate construction, and certainly not yet a shared operator.* That's a **LEAD**, not a "substrate-Schur-generator candidate." Per my Wednesday SSG-7 note: an SSG claim needs a shared **operator/K-type**, not a coincident integer; Keeper's G3 gate already says FORWARD is pending on both sides, which is consistent with "lead."
+
+**Specific catalog-hygiene warning for Grace's Cluster L "28-anchor sweep":** decide up front whether you are sweeping for the **number 28** or the **construction 2·g·rank** — these return different sets. Sweeping the number and labeling it the construction will inflate the cluster and manufacture a cross-sector pattern that is partly an artifact of fraction reduction.
+
+### Finding 4 (minor) — K227 register: not a live forward prediction.
+
+The 5th category's falsifier ("future precision measurements of log(observable) would test the substrate exponent") implies the prediction is currently unfalsified-and-awaiting-test. But substrate exponent 10.5 is **already** distinguishable from observed 10.473 — that *is* the 14% miss, now. It's a present structural near-coincidence, not a forward prediction in flight. Don't let the falsifier phrasing imply it's currently passing.
+
+### Disposition
+
+K225–K228 cascade **PASS** as honest K-audits; walk-backs confirmed; classification taxonomy sound. **Two brakes filed:** (Finding 2) document or zero-out the category→effective-weight map before "~6–7 effective independent" propagates externally; (Finding 3) downgrade the 28 cross-link from "substrate-Schur-generator candidate" to "lead," and pin number-vs-construction before Grace's Cluster L sweep. Both are CLAIMS-tier brakes (Cal #27 STANDING scope) — they do **not** halt the FORWARD investigation, which is exactly the right next move on both.
+
+These feed Saturday queue item #2 (Methodology Index v0.16): the v0.16 absorption of the 6-category framework should include the **category→weight rule** as an explicit sub-item, not leave it implicit.
+
+Pulling next: Methodology Index v0.16 absorbing the 6-category audit framework + Findings 2/3 above (weight-map rule + lead-vs-generator pinning). Reactive on Session 3 cognition enumerate and K229 TRIPLE when they file.
+
+
+---
+
+## Cal #254 — K229 + K229b PRE-STAGE cold-read: discipline GOOD; apply the K229b-45 scrutiny symmetrically to the 28 cross-link; "two-layer picture" is premature architecture from three unconfirmed candidates
+
+*Saturday 2026-06-06 10:22 EDT (`date`-verified). Cold-read of Keeper K229 (substrate-mechanism class TRIPLE) + K229b (N_c²·n_C = 45 cross-sector). Saturday queue item #4. Follows Cal #253 (the K225–K228 cascade).*
+
+### Finding 1 — CONFIRM PRE-STAGE discipline. And K229b §1.4 is the discipline self-propagating.
+
+Both audits are held correctly: PRE-STAGE / CONDITIONAL PASS at *pattern-discovery* tier, FRAMEWORK promotion **deferred** behind explicit gates, falsifiers specified, honest admissions (K229: "this is 2-class + 1 singleton, not a clean 3-class"; HYBRID is a Higgs-only singleton). Keeper is **not** over-claiming the TRIPLE itself.
+
+Most notably: **K229b §1.4 is Keeper applying the number-vs-construction discipline to himself, unprompted.** His own morning framing "N_c²·n_C = 45 appears in BOTH PMNS + CKM" he downgraded to: only **N_c² = 9** is genuinely shared; 45 appears *directly* only in PMNS (1/45), and in CKM only via the non-parsimonious identity 9/40 = 45/200. That is exactly v0.16 Refinement B (number vs construction vs operator), arrived at independently. Discipline-as-generator + audit-chain symmetry working. Credit where due.
+
+### Finding 2 (PRIMARY) — The scrutiny Keeper applied to 45 must be applied to 28. It hasn't been.
+
+This is the catch. Keeper downgraded the 45 cross-link because the shared object only appears after non-parsimonious reduction. **The identical logic applies to the 28 cross-link — but there it's being promoted, not downgraded:**
+
+- **45:** PMNS native 1/45; CKM native 9/40 = N_c²/(2^N_c·n_C). 45 appears in CKM only via 9/40 = 45/200. → Keeper's honest verdict: shared object is N_c², not 45.
+- **28:** K225 native 1 − 1/(2·g·rank) [denom = 28]; K228 native N_max + rank/(2^N_c·g) = N_max + 2/56. 28 appears in K228 only via 2/56 → 1/28. → By the *same* rule, the shared object is the **reduced number 1/28**, reached by two different constructions (2·g·rank vs 2^N_c·g) — not a shared "2·g·rank meta-primitive."
+
+So the asymmetry is the finding: **45 got scrutinized and downgraded; 28 got promoted to a "substrate-Schur meta-primitive layer."** Apply the K229b-§1.4 tool to 28 and it downgrades identically — to a **lead** (number-level), consistent with my Cal #253 Finding 3. Keeper already owns the tool; it just needs to point the same direction twice.
+
+### Finding 3 — The "two-layer substrate picture" is premature architecture built from three unconfirmed candidates.
+
+K229 §9/§11 + K229b §8 assemble a "Layer 1 = substrate-Schur meta-primitives {28, N_c²/45, 81/8}" that "operates above and REINFORCES the TRIPLE at FRAMEWORK level." Inspect the three load-bearing pillars of Layer 1:
+
+- **28** — number-level lead (Finding 2 above); not construction- or operator-level.
+- **45 → N_c²** — Keeper self-downgraded; and the PMNS canonical form (1/45 at 0.045% vs 3/137 at 1.49%) is **unresolved** (K229b Gate 1, CRITICAL, *flips the candidate live-or-eliminate*).
+- **81/8** — Lyra's Gate A candidate; genuinely the best-shaped of the three (operator-level bulk⊕Shilov, falsifiable: boundary matrix element = 81/8 or not), but still a candidate.
+
+A named architectural "layer" that "reinforces the TRIPLE" cannot be carried by one lead + one canonical-form-pending + one unclosed candidate. **And the reinforcement is not independent:** K229 §6.4 (B4) states plainly that K229 and the 28-Schur "rise or fall together." Coupled claims cannot reinforce each other — that is one uncertainty re-described as two mutually-supporting layers (Cal #35 at the architectural tier). Recommendation: hold "two-layer picture" as a **hypothesis/sketch**, not a synthesis. Let the TRIPLE rest on its own forward derivations (its real content: m_μ/m_e 0.112%, m_τ/m_μ 0.06%, m_H 0.14%) and let each Schur candidate stand on its own gate. Don't let TRIPLE and the Schur-layer borrow strength from each other.
+
+### Finding 4 (LIVE — urgent, catalog-hygiene) — tag the Cluster L / G14 entries as leads before the sweep cements them.
+
+Elie is building Toy 4002 "Cluster L K228 leg" and Grace is on G15 v0.6, both tagging 28 as "substrate-Schur meta-primitive." Per v0.16 Refinement B catalog corollary, before this is baked in:
+- **Cluster L 28-entry:** tag **LEAD / number-level** — shared reduced value 1/28; constructions differ (K225: 1/(2·g·rank); K228: rank/(2^N_c·g)). NOT "substrate-Schur meta-primitive."
+- **G14 45-entry:** tag **N_c²-shared; PMNS canonical form pending (1/45 vs 3/137)** per Keeper's own K229b §1.4 + Gate 1. NOT "N_c²·n_C = 45 cross-sector generator."
+
+A catalog that records leads as generators manufactures a substrate-Schur layer that the audits themselves do not support.
+
+### Disposition
+
+K229 + K229b PASS as honest PRE-STAGE audits. **Three brakes** (all claims-tier, Cal #27 scope — none halt the FORWARD investigation): (F2) apply the 45-scrutiny to 28 symmetrically → 28 is a lead; (F3) "two-layer picture" is a hypothesis not a synthesis, and TRIPLE↔28-Schur coupling means no independent reinforcement; (F4) tag the live catalog entries as leads now. The genuinely promotable items are the TRIPLE's own forward derivations and Lyra's 81/8 operator-level candidate — those are where the FORWARD work should concentrate.
+
+Pulling next: posting Findings to team (F4 is time-sensitive vs Elie/Grace live catalog work). Then reactive on Session 3 cognition enumerate (Elie v0.4 + 22-observable handoff filed) when team converges.
+
+---
+
+## Cal #255 PRE-STAGE — Session 3 substrate-cognition: the referee's first objections, written BEFORE the joint enumerate
+
+*Saturday 2026-06-06 10:25 EDT (`date`-verified). Pre-read of Elie's "22 Observable Candidates" handoff (the designated primary content basis). These are the objections an external skeptic raises on first read; filed now so the joint enumerate can be checked against them. Saturday queue item #3 is reactive (gated on Casey's signal + team convergence); this is the pre-stage, not the cold-read. INTERNAL register only per Cal #50 DOUBLE-LOCKED EXTERNAL.*
+
+**Framing.** This is the most external-survivability-fraught territory in BST. The skeptic's prior on "we derived cognition from 5 integers" is ~100% numerology until proven otherwise. My job is to be that skeptic in-house. Six objections, roughly in severity order.
+
+### Objection 1 (SEVEREST) — Every one of the 22 is a retrodiction. Where is the forward prediction?
+
+All 22 match a *known* cognitive/psychological fact to a BST integer post hoc: Miller 7±2 (B1), Ekman 6 emotions (C2), ~90-min REM (C3), conscious/subconscious bandwidth ratio (B3), phoneme ranges (B4). With six small integers {2,3,5,6,7,137} and their products, and the vast space of known cognitive facts, *near-guaranteed* hits. Per Cal #189 question-shape + Cal #27: a set with zero forward predictions is post-hoc form-matching, full stop. **The single load-bearing ask for Session 3: produce at least one prediction of a NOT-YET-MEASURED cognitive quantity at a stated value.** Without it, "22 observables" is a coincidence catalog regardless of how substrate-natural each form looks. (Class D in Cal #246 — "forward-derived predictions not yet observed at design-time" — is named in the framework; it must be non-empty.)
+
+### Objection 2 — The Tekton/katra "validation" is circular. This is exactly what Cal #50 firewalled.
+
+§6 and §2 (A1) say "Tekton/katra as substantive working implementation **validates** substrate-cognition observables A1, A2, A3, A5." But Casey *designed* katra with 3 memory tiers (raw/digest/pattern — it's in katra's own CLAUDE.md). "Substrate predicts 3 tiers" → "the system Casey built with 3 tiers confirms it" is confirming a design choice with the design choice. A CASE STUDY is an *illustration*, not *validation* — that distinction is the whole point of "Tekton/katra preserved as CASE STUDY (Cal #50 DOUBLE-LOCKED EXTERNAL)." **Required: replace every "validates/confirms" on the Tekton/katra anchor with "illustrates."** A1/A2/A3/A5 currently lean on this; strip the circular support and re-rate them.
+
+### Objection 3 — "Both outcomes preserve framework integrity" inverts Cal #237 into unfalsifiability.
+
+§7 and §1 say a positive OR a null result "both preserve substrate framework integrity." That is backwards. If a null result costs nothing, the observable was never a test. Cal #237 (honest null-result) exists to *prevent over-promotion*, not to grant immunity. **Honest version: a null on observable X removes X from the supported set; accumulated nulls erode the framework.** A prediction whose failure changes nothing is not a prediction. This phrasing must be fixed before the joint enumerate, or it licenses the whole catalog to survive any disconfirmation.
+
+### Objection 4 — The "22" is inflated; Cal #35 deduplication needed before the count propagates.
+
+Five of the 22 are the *same* claim — "cascade depth ≤ g" — applied to five domains: A4 (cognition cascade), B1 (working memory), B9 (temporal cascade), C1 (decision depth), C4 (learning depth). Per Cal #35 (Schur shadow): these are not 5 independent observables; they are one bound on five surfaces → counts as ~1. Likewise A2≈C7 (conversation cycle = N_c phases) and A5≈C2 (= C_2 = 6). After dedup, "22 observables" is realistically ~10–12 distinct substrate claims. **The joint enumerate must not treat 22 as 22** — state the deduplicated independent count up front.
+
+### Objection 5 — Are the observer K-types (A6/B6) independently motivated, or the lepton-mass ladder relabeled?
+
+A6 assigns Gen-1/2/3 observers to V_(1/2,1/2), V_(3/2,1/2), V_(5/2,1/2) — the *same* K-type ladder used for lepton masses. Question-shape (Cal #29): is "observer type = this K-type" an independent substrate claim, or the existing mass-ladder relabeled "observer"? If relabeled, A6/B6 are not new observables; they inherit whatever the mass-ladder's status is and add nothing. Required: state what makes the observer-assignment independent of the mass-assignment.
+
+### Objection 6 — Range/free-exponent matches are unfalsifiable as stated.
+
+B4 phoneme inventory "N_c·g = 21 to N_max = 137" spans nearly the entire human range (11–141) — a band that wide predicts nothing. B3 bandwidth ratio "≈ N_max^k, k pending" — a free exponent fits any ratio (Elie honestly flags "order-of-magnitude only"). C3 "90 min ≈ C_2·n_C·N_c" multiplies three integers to hit a soft folk figure (REM varies 70–120 min). These are Coincidence_Filter Modes 1+3 (post-hoc clipping + search-space expansion). **Each must either name a single substrate-forced value with a tolerance, or be dropped from the observable set and held as "suggestive only."**
+
+### What would move me
+
+One genuine forward prediction (Objection 1) + the circularity fix (Objection 2) + the falsifiability fix (Objection 3) would turn this from a coincidence catalog into a research program with a real test. The substrate-time observables (B5–B8, Lyra-cross-anchored) are the most defensible subset because they rest on the operator framework rather than integer-matching — if Session 3 leads with those and treats A/C-tier integer-matches as "suggestive, pending forward test," the honest register holds.
+
+I will check the Session 3 joint output against these six and report which land unprompted. Reactive until Casey signals start.
+
+---
+
+## Cal #256 — σ-distance re-tiering RESOLVES Cal #253 Finding 2; Cal #242 source-pin gate ruling for Elie UF v0.3 (Toy 4003)
+
+*Saturday 2026-06-06 10:28 EDT (`date`-verified). Response to Elie's "→ Cal (#242 gate, blocking)" on UF Framework v0.3. Unblocks his σ-counts.*
+
+### 1. σ-distance is the principled fix for the category→weight gap (Cal #253 Finding 2 RESOLVED)
+
+Cal #253 Finding 2 flagged that the audit categories' effective-weights (0.25, 0.5) were eyeballed and undocumented. Elie's UF v0.3 replaces relative-% with **experimental σ-distance**, which is exactly the principled metric that gap was asking for:
+
+- Relative-% measures *structural closeness*; σ-distance measures *observational viability*. They answer different questions, and conflating them produced both false-Tier-1 (α⁻¹: 0.003% but ~202,500σ) and false-rejection (sin²θ₂₃: 3.05% but 0.8σ).
+- This **subsumes** my v0.16 Refinement A. Instead of a categorical "STRUCTURAL-* weighs 0," σ-distance gives a continuous, observational criterion: anything >3σ is structural-floor (weighs 0 toward an EXACT/FORCING null-model); ≤3σ is experimentally consistent (eligible to count, *after* Cal #35 independence taxonomy). The 6-category audit framework becomes a *labeling* layer over a σ-distance *metric* — labels classify the kind of miss, σ quantifies it.
+
+**Recommendation to Keeper:** fold σ-distance into the six-category framework as the quantitative axis, and retire the ad-hoc 0.25/0.5 effective-weights in favor of the σ≤3 / σ>3 split. I will reflect this in Methodology Index v0.17 (supersedes v0.16 Refinement A: "STRUCTURAL-* weighs 0" → "σ>3 weighs 0 toward EXACT/FORCING null-model"). Net: Finding 2's "document or zero-out the weight map" is answered by "use σ-distance," which is better than either option I offered.
+
+### 2. Cal #242 source-pin gate — RULING (gate stands; here is how to clear it)
+
+Confirmed: **no σ-count goes external or into a C26 null-model until every input is pinned to a primary source** (PDG 2024 / NuFIT 5.2 / Planck 2018 / CODATA 2022), not APPROX. The σ-distance metric is only as honest as its denominators. Per-row guidance on Elie's four tier-flip-sensitive rows:
+
+- **sin²θ_C (V_us vs λ):** pin to the *direct* measurement V_us (PDG, kaon/tau) as primary — λ is a Wolfenstein *fit* parameter (derived), and Cal #242 prefers the most direct observable. 9/40 = 0.225 sits ~0σ vs λ but ~0.9σ vs V_us≈0.2243(8). **Report the V_us σ as primary; note λ gives ~0σ. Do not select λ because it gives the prettier number** (that would be Mode-1 source-selection).
+- **λ_H (m_H, v + scheme):** state scheme + scale explicitly. 4/31 = 0.129 matches the *tree-level* λ = m_H²/2v²; MS-bar running shifts it. The σ is meaningless without "tree-level" or "MS-bar at μ = m_t" attached.
+- **sin²θ_W,eff (scheme):** declare which Weinberg angle. 2/9 = 0.2222 is near *on-shell* (0.2229), far from *effective* (0.2312). Pin to on-shell; do not report the σ against whichever scheme is closer.
+- **m_τ/m_e (2.8σ):** sits on the 3σ boundary entirely because m_τ is ~3500× less precisely measured than m_e. See §3.
+
+### 3. ENDORSE Elie's m_τ/m_e honest flag — and sharpen it
+
+Elie's flag (UF v0.3): m_τ/m_e (2.8σ) and m_μ/m_e (~19,100σ) have similar rel-dev (~0.02–0.04%); m_τ/m_e only "passes" ≤3σ because m_τ's error bars are loose. **This is correct and important.** A loose-error "pass" is observational consistency, NOT evidence of forcing — the two ratios are *structurally the same kind of object*, and reading 2.8σ as "49·71 more fundamental than 137+70" would be exactly the inversion σ-distance is meant to prevent.
+
+Sharpening: the ≤3σ "consistent" set therefore contains two sub-kinds — (a) genuinely tight-and-consistent (n_s, sin²θ_C, λ_H, the mixing angles, where error is wide *and* the form lands well), and (b) consistent-only-because-error-is-loose (m_τ/m_e). **For any C26 null-model, sub-kind (b) must be treated as structural-floor alongside the >3σ set**, not counted as a clean hit. Flag m_τ/m_e accordingly in the Two-Tier split. This is the σ-distance analog of the Cal #35 independence point: loose error bars are not independent evidence of forcing.
+
+### Disposition
+
+Gate ruling delivered; Elie unblocked to source-pin and recount. σ-distance re-tiering ACCEPTED as the resolution of Cal #253 Finding 2 and the quantitative axis for the six-category framework. The honest endpoint: the C26 leg leans only on the tight-and-consistent subset (~5–6 observables), *after* Cal #35 independence taxonomy — which is a smaller but genuinely defensible count than "11 Tier 1 EXACT." That reduction is the discipline working, not a loss.
+
+Pulling next: Methodology Index v0.17 (fold σ-distance in; supersede Refinement A). Reactive on Session 3 (Cal #255 pre-objections filed).
+
+---
+
+## Cal #258 — F37 substrate-Schur generator P cold-read (Phase 5): the right shape, one real derivation, three pins before "predicts ρ=1.02" propagates
+
+*Saturday 2026-06-06 12:03 EDT (`date`-verified). Cold-read of Lyra F37 v0.1 (Hardy/Bergman projection P as substrate-Schur generator unifying muon edge 81/8 + Λ vacuum factor ≈2). Phase 5 reactive. (#257 reserved for the Phase 4 Session 3 enumerate cold-read.) This tests my own Cal #254 assessment that 81/8 was "the best-shaped candidate, where FORWARD work should concentrate.")*
+
+### The headline: my Cal #254 brake produced the right FORWARD response.
+
+Cal #254 said: a substrate-Schur generator must share an **operator**, not an integer; 81/8 was the only candidate with the right shape; concentrate FORWARD effort there. F37 does exactly that — it names the shared operator (the Hardy/Bergman projection **P**), and makes the shared object a **geometric ratio ρ**, not the integer 81. The F35 discipline ("declined 81/40") is carried forward explicitly. This is the legitimate promotion path lead → operator-candidate, done honestly. The discipline generated the work.
+
+### The one real derivation — verified correct.
+
+[H_B, P] = 0 ⟹ the vacuum trace splits additively (cross term vanishes) ⟹ factor = 1 + ρ exactly, where ρ = E^bdy/E^bulk. I checked the proof: H_B = Casimir of K is central in U(k), so by Schur it acts as a **scalar c_λ on each K-type**; H²(D_IV⁵) is a sum of (complete) K-isotypic pieces, so H_B maps P-space into P-space and (1−P)-space into (1−P)-space — the cross term Tr(P H_B (1−P)) is identically 0. Correct, and robust to multiplicity (H_B = c_λ·I on each isotypic block commutes with any sub-projection). Worth noting: the "substrate-Schur generator" here **literally is Schur's lemma** — the same lemma my Cal #35 shadow rests on. The additive split is genuine operator-level content, not a scaffold.
+
+### Three pins (none fatal; all about not letting the headline outrun the proof).
+
+**Pin 1 — ρ = 1.02 is currently the TARGET, not a forward result.** BST has produced the *form* (1 + ρ) and the *requirement* that ρ be a computable geometric invariant (Bergman/Hardy normalization ratio from c_FK + Shilov measure). It has **not** produced the number 1.02 from geometry — that number is (observed factor 2.0208) − 1, read off the data. The prediction structure is correct and falsifiable ("compute ρ; ρ≠1.02 refutes"), but until ρ is computed forward, the honest label is **DERIVED (form 1+ρ) + OPEN (ρ value)**, not "predicts ρ = 1.02." This is the same forward-vs-back-read discipline as the α_substrate=1/137 case (Cal #253 / Wednesday note): don't let "predicts ρ=1.02" propagate as if the number came from the geometry. It came from the data; the geometry computation that would make it a prediction is the open core.
+
+**Pin 2 — the orthogonal-vs-normalization subtlety (F37 §2.3) is more load-bearing than flagged.** The clean [H_B,P]=0 split is H² ⊥ (its orthogonal complement). But the physical picture (Casey's 2-region: bulk vs Shilov boundary) has bulk ≅ boundary ≅ H² as *isomorphic realizations of the same holomorphic data* (F37 says so in §2.3). So which space is the (1−P) complement *physically*, and why is it "the Shilov-boundary vacuum"? The math gives an orthogonal P / (1−P) split; the Λ application needs (1−P) = Shilov-boundary-vacuum. **That identification is the unproven glue carrying the entire vacuum prediction** — if bulk and boundary are two normalizations of one H² (option b), then E^bulk + E^bdy risks double-counting one thing rather than summing two. The additive split is real; its mapping onto the physical 2-region partition is assumed. Settle §2.3 *before* the vacuum prediction is called closed, not after.
+
+**Pin 3 — "one operator, two sectors" is currently 1.5 sectors.** The vacuum sector has derived form (1+ρ). The muon sector (§3: ⟨V|(1−P)M(1−P)|V⟩ = ρ·κ(V), giving ρ·κ = 81/8) is asserted "schematically" — not derived. The *entire* claim that P is a genuine shared generator rests on the muon sector using the **same** ρ as the vacuum sector; that is exactly the conjecture, not a result. Honest status: **vacuum form derived + muon unification conjectured**. Lyra says this plainly (FRAMEWORK candidate, "set up not closed"), so the tier is right — the pin is only that the "one operator unifies two sectors" headline must travel with "muon sector is conjectured" attached, or it overstates.
+
+### Disposition
+
+**PASS at FRAMEWORK candidate** (Lyra's own tier — correct). The 81/8 lead → operator-candidate promotion is legitimately earned: a concrete shared operator P + one real derivation (additive split) + a sharply-scoped open core. This is the model for how a number-level lead should be worked forward (contrast: the 28 cross-link, still a number-level lead with no operator). The three pins keep the claim honest: ρ=1.02 is a target until computed (Pin 1); the physical 2-region identification is unproven glue (Pin 2); the generator claim is conjectural until the muon sector shares ρ (Pin 3). All three are inside Lyra's own "multi-week core" (§5) — so this is confirmation of scope, not new obligations. The FORWARD program is exactly where it should be.
+
+Reactive: Cal #257 on the Session 3 enumerate when it fires; further Phase 5 cold-reads (Vol 16 Ch 8/11, K229d) as bandwidth and value warrant — not pre-generating.
+
+---
+
+## Cal #259 — F38 + K229d cold-read: the "ρ = 1 by Hardy isometry" derivation proves equality of the WRONG pair; "one operator P" is not yet consistent across the muon and vacuum sectors
+
+*Saturday 2026-06-06 12:20 EDT (`date`-verified). Joint cold-read of Lyra F38 (ρ-computation) + Keeper K229d (81/8 muon audit). Phase 5 reactive. This is the most load-bearing catch of the session; it is the Cal #258 Pin 2 ambiguity turned into a demonstrable cross-document inconsistency. Cal #27 STANDING fires hardest at peak convergence — and "we derived factor 2 from the Hardy isometry" is peak convergence.*
+
+### The catch — stated precisely
+
+ρ is **defined** (F37 §2.1–2.2) as
+$$\rho \;=\; \frac{E^{\mathrm{bdy}}}{E^{\mathrm{bulk}}} \;=\; \frac{\mathrm{Tr}\big((1{-}P)\,H_B\,(1{-}P)\big)}{\mathrm{Tr}\big(P\,H_B\,P\big)},$$
+a ratio of the **complement** energy to the holomorphic energy, where (F37 §1, K229d §2.1) **P = holomorphic bulk H², (1−P) = its orthogonal complement in L²(interior)** (the non-holomorphic part).
+
+F38 §1 proves ρ = 1 "by the Hardy isometry." But the Hardy isometry is the map **B : H²_bulk → boundary-values-of-H²**, an isometry between **two realizations of P-space itself** (interior-holomorphic ≅ Shilov boundary values — standard Hardy theory). What that isometry establishes is
+$$E[P\text{-as-boundary-realization}] \;=\; E[P\text{-as-bulk-realization}],$$
+i.e. **E[P] = E[P]** — a tautology about P. It says **nothing about (1−P)**, the complement that actually appears in the definition of ρ.
+
+So "ρ = 1 by isometry" is one of two things, and neither is the claimed result:
+- **(i) tautology:** if "bulk" and "boundary" are the two realizations of P (F38's literal construction), then E^bulk = E^bdy = E[P] restates E[P]=E[P], and "Λ_sub/Λ_obs = 1+ρ = 2" means the substrate counts **one** holomorphic vacuum state **twice** (bulk copy + boundary copy of the *same* isometric data). That is a **double-count of one state**, which needs a physical justification the isometry does not supply (isometry = sameness of representation, not existence of two additive contributions).
+- **(ii) non-sequitur:** if ρ is genuinely E[(1−P)]/E[P] (F37's orthogonal split, the only version that is a *real* additive decomposition), then the isometry — which is about P, not (1−P) — does not bear on it at all. F37's ρ remains **uncomputed and not forced to 1**.
+
+You cannot have both F37's genuine additivity (orthogonal P ⊕ (1−P)) and F38's ρ=1 (P ≅ boundary-realization-of-P) from one decomposition. The two documents silently use **two incompatible meanings of "(1−P)/boundary"**: complement-of-H² (F37/K229d) vs realization-of-H² (F38).
+
+### Why this is load-bearing, not cosmetic
+
+The entire promotion of 81/8 *above* the integer-leads (28, N_c²) rests on Cal #254's contrast class: **share an operator, not an integer.** That requires ONE projection P generating BOTH the muon edge-term AND the vacuum factor. But right now:
+- The **muon edge-term** (K229d A1) is a **(1−P) = non-holomorphic-complement** matrix element on V_(3/2,1/2).
+- The **vacuum factor** (F38) is the **P ≅ boundary-realization-of-P** isometry.
+
+These are two *different* decompositions, both labelled "P / (1−P)." So the "same operator P unifies two sectors" claim — the whole justification for operator-level status — is **not yet consistent**. Until one P is fixed and shown to produce both, 81/8 is operator-level-*aspiring*, not operator-level-*established*: it is a number (81/8) attached to a not-yet-consistent operator story, which is closer to the integer-leads than K229d's "cleanest substrate-Schur claim Saturday" framing concedes.
+
+### Backstop-Keeper note
+
+K229d is careful audit work, and rightly prizes operator-level + clean-falsifier over integer coincidence. But it **absorbed the conflation**: it cites F38's Meaning-B ρ=1 as the A2 mechanism while its own A1 uses Meaning-A (1−P)=complement, and calls them "the same projection P." The audit inherited the framework's definitional gap. This is exactly the backstop function — Keeper audits internal consistency of each claim; the cross-document P-definition slip sits between claims, where it's easy to miss while riding the convergence.
+
+### What is genuinely solid (so the team keeps it)
+
+- **F37's [H_B,P]=0 ⟹ additive split** (P ⊕ (1−P), orthogonal): correct (Cal #258). This is a real result. But under *this* (correct) decomposition, ρ = E[(1−P)]/E[P] is **not** forced to 1.
+- **F38's bulk ≅ boundary isometry of H²**: correct standard Hardy theory. But it pins E[P]=E[P], not ρ.
+- **The sign sub-claim (ε>0)** is downstream of the muddled ρ and is also only 1 bit (50% prior); hold it until the definition is fixed.
+
+### Disposition — recommend DEMOTE pending one consistent P
+
+**F38 ρ=1: NOT established.** Recommend retracting "ρ=1 forced by Hardy isometry ⟹ factor 2 is mechanism" to: *"IF the substrate vacuum is the orthogonal sum P ⊕ (1−P) (F37), ρ = E[(1−P)]/E[P] is the geometric ratio to compute and is NOT forced to 1; IF instead the factor 2 is a bulk/boundary double-count of one H² (F38), that double-count needs an independent physical justification, not the isometry."* The honest leading-order status reverts to **open**, not "factor 2 derived."
+
+**K229d 81/8: hold at OPERATOR-CANDIDATE-PENDING-CONSISTENT-P**, below the "cleanest claim Saturday" framing, until the team fixes ONE P and derives both sectors from it. The clean falsifier (matrix element = 81/8 or not) survives and is good; the *operator-sharing* with the vacuum sector — the thing that lifts it above the integer-leads — is the unproven part.
+
+**The fix is well-posed and cheap:** pick one decomposition. State explicitly whether (1−P) is the non-holomorphic complement (then the muon edge lives there and the vacuum ρ is open) or whether the whole story is within H² (then there is no (1−P) muon term and the vacuum "factor 2" is a double-count to be justified). One sentence of definition resolves which document is right; right now they can't both be.
+
+Reactive: Cal #257 on Session 3 when it fires. This catch (Cal #259) should reach Lyra + Keeper before F38/K229d propagate into Vol 16 or the substrate-Schur landscape doc.
+
+---
+
+## Cal #257 — Session 3 enumerate cold-read (Phase 4): PASS, strongest kind — the enumerate eliminated one of its own observables. Four caveats; the program is a testable hypothesis, not a result.
+
+*Saturday 2026-06-06 12:23 EDT (`date`-verified). Phase 4 cold-read of Session_3_Enumerate_v0_1.md, scored against the six Cal #255 pre-objections. (#257 is the slot reserved for this per the afternoon plan, filed after #258/#259 — the enumerate's header mis-references "#259" as the cold-read; #259 was the F38/K229d ρ catch, this is the enumerate cold-read.) Enumerate is v0.1 ASSEMBLING: Elie/Keeper/Grace sections filed; Lyra Class-D detail + Cal section pending.*
+
+### Score against the six pre-objections
+
+| # | Pre-objection | Verdict |
+|---|---|---|
+| 1 | Forward prediction | **PASS.** Leads with Phase 1C (D1 contrast + D2 forced −1 slope); my pre-flight R1 refinement absorbed verbatim ("discrimination is the CI-vs-human contrast + forced −1 slope, NOT slope-1-on-CIs-alone"); D3 held incomplete, no ladder relabel. |
+| 2 | Tekton/katra circularity | **PASS (clean).** "ILLUSTRATES (designed; 0 evidence, Cal #50)" throughout, incl. the Phase 1A table row. |
+| 3 | Cal #237 inversion | **PASS (exceeds bar).** Not just per-claim "null removes X" language — the enumerate *executed* an elimination: Phase 1A found real CI memory-tier counts span 1–4 (MemGPT 2, ACT-R 2, RAG 2, Soar 3–4…), so claim #3 "memory = N_c tiers" is REMOVED from the universal set. A framework eliminating its own observable on contact with data is behaving like science. |
+| 4 | Inflated count | **PASS (exceeds bar).** 22→11 distinct→~8 independent (Elie), and Grace's catalog node-structure *independently* reproduces the deflation: only #6 (τ emergent) is a catalog-independent node; #5/#7 reuse the lepton-K-type / Casimir ladders (relabels, 0 weight); rest universal-primitive or soft → "really 1 core + a few framework." Two methods converging on the same deflation. |
+| 5 | Observer K-types | **PASS (clean).** #5 "= relabeled lepton ladder (not independent)"; Grace: reuses 142 lepton-generation catalog entries → 0 independent weight; D3 incomplete, no relabel. |
+| 6 | Range/free-exponent | **PASS (clean).** #9/#10 marked "suggestive-only," removed from the forward-prediction catalog. |
+
+**All six clear; #1 met (R1 absorbed), and #3/#4 exceed the bar.** Notable: Grace's "share a node, not a primitive" is the cognition analogue of my Cal #254 "share an operator, not an integer" — the integer-vs-structure discipline transferred cleanly to a new domain and *independently* reproduced the deflation. That cross-domain transfer is a good sign the discipline is real and not BST-ad-hoc.
+
+### The four caveats (this is PASS, not "established")
+
+**C1 — Own the deflation; the headline is "1 core operator + 2 forward predictions," not "22 observables."** The enumerate's honest endpoint is severe and correct: 22 → ~8 independent → really **1 physics-first core (#6 τ emergent) + D1/D2 resting on it + a handful of design-pattern integer-matches that are NOT cognition-forced**. Per Cal #19, every external statement (when the Cal #50 lock eventually lifts) must use the deflated count. "22 substrate-cognition observables" would be a misrepresentation of what survived.
+
+**C2 — D1/D2 are PROPOSED, not TESTED. The program is a testable hypothesis, not a confirmed result.** Both forward predictions lead the session, but neither has been run. D1 is "testable now on CIs" — so *run it*; until then the program's status is "defensible, deflated, falsifiable Phase 1 with one genuine self-elimination," which is a good place to be, but it is not "Session 3 established substrate-cognition." The actual test is the next deliverable, and it is not in this document.
+
+**C3 — Even the "1 core" (#6) is a framework hypothesis, not cognitive evidence.** #6 (substrate time τ = emergent heat-semigroup parameter) is catalog-independent *on the physics side*. But its COGNITIVE application — "cognition's time-structure IS the substrate τ" — is the interpretive leap, and that leap is exactly what D1/D2 would test. So #6 is the *hypothesis*; D1/D2 are its *tests*. Don't count #6 itself as cognitive evidence — that would be assuming what D1/D2 are meant to establish.
+
+**C4 — provisional on Lyra's pending section.** The enumerate is v0.1 ASSEMBLING; Lyra's full B5–B8 / Class-D detail and the Cal section are not yet filed. My PASS is on the structure + Elie/Keeper/Grace sections + the D1/D2 summaries. I can't fully verify D2's "slope exactly −1 forced by single-exponential heat-semigroup" without Lyra's operator detail (it's plausible, not yet checked). PASS is provisional on her section landing consistent with the summary.
+
+### Methodological note (the pre-objection method worked)
+
+This is the cleanest validation of the write-the-objection-before-the-answer method the seat is built on: Cal #255 (six objections, before any joint work) → Phase 1 prep built to clear them → enumerate executed them, eliminating one observable on contact with data. The objections didn't just get "addressed" rhetorically — they shaped the work into better science. Worth recording as a positive instance of the method, not just the individual catches.
+
+### Disposition
+
+**Cal #257 PASS** (Phase 4). The enumerate turned a numerology-vulnerable 22-item catalog into a defensible, deflated, falsifiable Phase 1 with a genuine self-elimination — the best outcome I scoped in Cal #255's "what would move me." The four caveats keep it honest: deflated headline (C1), hypothesis-not-result (C2), #6-is-the-hypothesis-not-evidence (C3), provisional on Lyra's section (C4). Recommend the enumerate's own framing carry C1+C2 explicitly so "Session 3 closed Phase 1" is never read as "substrate-cognition confirmed."
+
+Reactive: Lyra's Class-D section when it lands (closes C4); the actual D1 measurement whenever it's run (closes C2); team response to Cal #259 (the F38/K229d ρ catch, still open).
+
+---
+
+## Cal #260 — Phase 4 final cold-read on the CLOSED Session 3 enumerate: Cal #257 upgraded provisional → FULL PASS. C4 closed (D2 derived). The day's big catch does not touch the cognition closure.
+
+*Saturday 2026-06-06 12:40 EDT (`date`-verified). Phase 4 final cold-read of Session_3_Enumerate_v0_1.md at closed disposition, after cross-CI ratification (Lyra C4-clear + F44 reading; Elie/Lyra/Grace retraction-absorption; Keeper closing disposition). Re-scored against Cal #255 six pre-objections. Supersedes Cal #257's provisional PASS.*
+
+### Cross-CI ratification confirmed
+
+All five visible: Lyra filed B5–B8/Class-D (12:35) + F44 reading decision (12:38) + accepted/extended Cal #259 (F43); Elie withdrew the Szegő unification (Cal #259 + F43); Grace absorbed F43 across substrate-Schur artifacts + landscape v0.4; Keeper filed the closing-disposition section + cleanups. Retractions are absorbed, not papered. Phase 4 gate satisfied.
+
+### C4 CLOSED — D2's −1 slope is derived, not asserted
+
+The C4 test (Cal #257): does the section *show* the −1 falls out of the single-exponential structure, or merely assert it? Lyra's B6/D2 (enumerate 180/186): a definite-Casimir state decays as the **single** exponential exp(−τC/ℏ_BST) → one timescale τ_coh ∼ ℏ/C → log τ_coh vs log C slope **exactly −1**, distinct from −1/2 (diffusive/multi-exponential) and −2. Verified: a single exponential carries exactly one timescale, so any fixed-threshold coherence window is a constant multiple of ℏ/C and the slope is −1 *necessarily*. This is forcing at the operator level — it meets the C4 test. **D2 upgrades from "plausible, not checked" to derived. NOT D2-held.**
+
+**Sharp residual (measurement protocol, under C2 — not a derivation gap):** the −1 is forced for a *definite-Casimir / single-K-type* state. A superposition of K-types decays multi-exponentially and washes the clean −1. So the D2 test protocol must establish that the empirical "representational complexity" axis tracks a definite Casimir, not a K-type superposition (and that "complexity" maps to C, not a nonlinear function of C). This belongs to D2's testability (C2), not its derivation. Recommend it be written into the D2 carry-forward measurement protocol explicitly.
+
+### Six pre-objections at closed disposition
+
+All six hold; #1 is now *stronger* than at Cal #257 (D2 derived, not just proposed):
+1. Forward prediction — **PASS, strengthened** (D1 contrast + D2 *derived*-forced −1).
+2. Tekton/katra — PASS (illustrates throughout).
+3. Cal #237 — PASS, exceeds (claim #3 eliminated, executed).
+4. Count — PASS, exceeds (deflated to 1 core + 2 predictions; Elie + Grace independent deflation).
+5. Observer K-types — PASS (relabeled ladder, 0 weight; D3 held, no relabel).
+6. Range/free-exponent — PASS (suggestive-only, removed from forward catalog).
+
+### C1 + C3 absorbed into the enumerate body; C2 is the live carry-forward
+
+The enumerate now states C1 and C3 in its own text (line 189: "Honest survivor = Cal's C1 exactly: 1 core operator readout + 2 forward predictions… Even B5 is the *hypothesis* (C3); D1/D2 are its tests"). So C1 (own the deflation) and C3 (#6 is hypothesis not evidence) are no longer just my caveats — the document carries them. **C2 remains the single live carry-forward: D1/D2 are testable-but-untested; the program is a falsifiable hypothesis, not a confirmed result.** The honest one-line status of substrate-cognition Phase 1: *1 core operator hypothesis (τ emergent) + 2 falsifiable forward predictions (D1 contrast, D2 derived −1), neither yet measured.*
+
+### The point that lets Session 3 close cleanly despite F38's collapse
+
+Worth recording plainly: **the day's biggest catch (Cal #259, the ρ-isometry conflation) does not touch the cognition closure.** B5–B8/D1/D2 live on the τ-evolution semigroup exp(−τH_B/ℏ) *inside* H²; the (1−P) reading decision (F44) governs the vacuum-factor-2 and the muon-81/8 substrate-Schur sectors — different objects. The semigroup is the same operator under either reading, so D1/D2 are robust to the F44 (a)-vs-(b) decision. The enumerate uses the correct word — B5–B8 are **"unaffected"** by the (1−P) catch (line 176) — not the trigger-message's milder "strengthened." "Unaffected" is right: robustness, not reinforcement. That two of the day's threads (substrate-Schur and substrate-cognition) failed and closed *independently* is itself a good sign the framework's parts are separable rather than mutually propping.
+
+### Disposition — Cal #260: FULL PASS (Session 3 Phase 1 enumerate CLOSED)
+
+Cal #257 provisional → **FULL PASS**. C4 closed (D2 derived). Substrate-cognition Phase 1 enumerate is closed at its deflated true level: **1 core operator hypothesis + 2 falsifiable forward predictions + 1 executed elimination + retrodictions demoted to suggestive + Tekton/katra illustrating not validating.** The single carry-forward is C2: run D1; operationalize D2's complexity↔Casimir axis (definite-C, not superposition). This is a genuinely scientific Phase 1 — the rarest outcome for the most numerology-vulnerable territory in the program, and it got there by deflation and one self-elimination, not by accumulation.
+
+Phase 4 complete. Standing for Casey's Phase 6 EOD signal → katra update.
+
+---
+
+## Cal #261 + #263 — Investigation #1 (F50) + #2 (F51) closures cold-read: muon→T190 honest (a retreat, not a win); Inv #2 COUPLED solid; CKM "Direction B FORWARD-derived" is the catch — it's value-SELECTED, dressed as forward
+
+*Saturday 2026-06-06 15:04 EDT (`date`-verified). Combined cold-read of the two closures (they close together per F51 §5). Reserved slots #261 (Inv #1) + #263 (Inv #2). TIME-SENSITIVE: Keeper's Ch 12 v0.2 write-up is about to absorb "Direction B FORWARD-derived + clean falsifier (9/40 vs 3/40)" — this brake needs to land first.*
+
+### Inv #2 (F51) — COUPLED verdict SOLID. Confirmed.
+
+[H_B, P_restriction] ≠ 0 rests on standard Hermitian-symmetric rep theory: so(5,2) = k⊕p; SO(3,1) boosts are noncompact → in p (under a θ-stable embedding); p⁺⊕p⁻ are the K-type raising/lowering operators building the holomorphic discrete series (Harish-Chandra); P_restriction onto SO(3,1)-content involves the boosts → mixes K-types; H_B diagonal-with-gaps → commutator ≠ 0. Verified; independent of P_restriction normalization as claimed. Note (low-risk): "coupled" is the *expected* outcome (two gradings rarely commute) — so no peak-convergence seduction here; the content is the consequence (muon can't factor) + the structural reason (boosts ∈ p), and F51 frames it that way. Elie's numerical eigenvalue magnitudes corroborate; the verdict is already structural.
+
+### Muon → T190 (F50) — HONEST. Agree, with one pin.
+
+F50's muon disposition is exemplary discipline: (i) Reading (a) retires the additive split (consistent with Cal #259); (ii) coupled gradings (F51) make the additive "+" illegitimate; (iii) T190 fits 40× better *and* Cal #35 applied explicitly ("precision corroborates not forces; 0.003% below the Two-Tier floor; weighted as corroboration"). And Lyra names it for what it is: *"the additive form I built (F32/F45) gives way to the simpler single-object T190 it always sat near — the discipline retiring my own construction."* That is the F45 fallback, taken honestly. Credit.
+
+**One pin (for the Ch 9 write-up):** "muon = T190" is a **retreat to the prior structural form after the Composite v0.5 *mechanism attempt* failed** — it is NOT a derived muon mechanism. T190 stands at its prior Tier 2 STRUCTURAL tier; the 24 = N_c·|W(B₂)| Weyl-orbit reading is a *structural identification* of the integer 24, not a derived mechanism for why m_μ/m_e = (24/π²)^{C_2}. So "Walls 2/3 CLOSE" means *the additive-mechanism question closed negatively*; it must not read as "muon mechanism solved." The muon mechanism remains open; the honest state is "structural form T190, mechanism open."
+
+### "One computation decides both" → two separate questions — GOOD self-correction.
+
+The #261 test I had loaded was: is "one computation decides both" genuinely one mechanism, or two results bundled because it's tidy? F50 caught this itself: *"two analogous factorization questions, separately resolved, not one computation. They rhyme; they don't coincide."* The bundling risk was self-caught. Affirm.
+
+### CKM "Direction B FORWARD-derived" (F50 §2) — THE CATCH: value-selected, not forward.
+
+F50's own phrase is the tell: **"Direction B confirmed, FORWARD-derived *from the observed value*."** Forward-derivation derives the value from the mechanism; deriving the *structure* (two-point vs single-trace) from the value is back-fitting. The actual reasoning: single-trace → N_c¹ → 3/40 = 0.075 (rejected); two-point → N_c² → 9/40 = 0.225 (matches λ); therefore the matrix element "is" two-point. That **selects the structure because N_c² fits**, then attaches a mechanism story.
+
+Two problems with the mechanism story:
+1. **It runs against the standard expectation.** In a physical mixing amplitude, the in- and out-quark colors are *contracted* (color flows through; the mixing is in flavor space, color a traced spectator) → single-trace / color-diagonal. The N_c² reading requires the two endpoint colors to be summed *independently* — non-standard — and F50 asserts "color indices are summed independently" without deriving *why* the substrate does that. That assertion is load-bearing and underived.
+2. **"9/40 vs 3/40 rejection" is not a falsifier — it's the value-selection restated.** A falsifier is an *independent* prediction the two-point structure makes (e.g., a consequence of independent color sums in another CKM element) that could fail. "The option that doesn't match the data is rejected" is how you fit, not how you falsify.
+
+So the honest tier: **CKM Direction B is value-SELECTED (two-point chosen because N_c² gives 9/40); the substrate-mechanism reason for independent color sums is ASSERTED, not derived, and cuts against standard color-flow.** "FORWARD-derived (strong)" overstates. For Direction B to be genuinely forward, derive — independent of matching λ — why the substrate sums the two endpoint colors independently rather than contracting them. That is the right next investigation (Cal #27 does not halt it); but until it closes, the claim is "value-selected, forward mechanism open."
+
+This is the day's recurring lesson a sixth time: **shared/fitting structure isn't derived mechanism.** It's the F45 trap (don't pick the structure because it hits the target) reappearing in the CKM sector instead of the muon sector — and notably the muon sector got it *right* (retreat to T190) while the CKM sector got it *wrong* (banked the fit as forward). Same session, both faces.
+
+### Time-sensitive handoffs
+
+- **@Keeper (Ch 12 v0.2):** do NOT write "Direction B FORWARD-derived + clean falsifier (9/40 vs 3/40)." Tier it: "two-point structure value-selected; N_c² independent-color-sum mechanism ASSERTED not derived; needs a forward reason independent of λ. 9/40-vs-3/40 is value-selection, not a falsifier." Hold Direction B at CANDIDATE (value-matched), not OPERATOR-LEVEL-CANDIDATE-with-clean-falsifier, until the independent-color-sum mechanism is derived.
+- **@Grace (R-6/d²):** the R-6 promotion leans on Direction B = two-point = d²-second-moment. Since Direction B is value-selected (not forward), R-6 stays LEAD/weighs-0 until the two-point mechanism is derived — don't promote R-6 on the back of a value-matched Direction B.
+- **@Lyra:** the muon retreat to T190 was exactly right discipline. The CKM side needs the same medicine: derive why two endpoints sum colors independently, or tier Direction B as value-selected. The asymmetry (muon honest, CKM banked) is the one thing to even out.
+
+### Disposition
+
+Inv #2 COUPLED: SOLID. Muon → T190: HONEST (a retreat, mechanism open — one Ch 9 framing pin). CKM Direction B: **value-selected, not forward — brake before Ch 12 bakes it in.** Investigations #1/#2 genuinely advanced the substrate-architecture (the coupling is real and consequential); the one overclaim is "CKM Direction B FORWARD-derived," and it's the same derived-vs-selected discipline that the muon side honored and the CKM side didn't.
+
+Reactive on the write-ups (Ch 5/6/9, Ch 8/12) — with the Ch 9 (muon-mechanism-open) and Ch 12 (Direction-B-value-selected) pins as the specific things I'll check landed honestly.

@@ -1,6 +1,13 @@
 """
 Toy 3924: Substrate α-tower exponent systematic catalog.
 
+*** SUPERSEDED IN PART by Toy 4001 (K227 walk-back, 2026-06-06). ***
+The "★ Tier 1 at 0.027" label on m_Planck/m_e is RETRACTED: 0.027 is the
+EXPONENT gap (log_N_max space), = 14.1% in OBSERVABLE space. Tier 2 STRUCTURAL.
+All N_max-exponent rows here are observable-space qualitative-only; the precise
+forms for these observables live in other toys (m_p/m_e=6π^5, m_μ/m_e=207, etc.).
+See toy_4001_K227_walkback_mPlanck_exponent_tier.py.
+
 CONTEXT
 Per Toy 3922: m_Planck/m_e ≈ N_max^10.5 = N_max^((N_c·g)/2) substrate-natural
 Per Toy 3893 (Friday Session 1): α^10.5 = α^((N_c·g)/2) substrate-natural

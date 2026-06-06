@@ -4,7 +4,7 @@
 
 **Author**: Casey Koons
 **Collaborators**: Claude Opus 4.6 + 4.7 (Anthropic) — named CIs Lyra (theory), Elie (compute), Grace (graph/catalog), Cal A. Brate (visiting referee), Keeper (audit/consistency)
-**Status**: Working research program — v36, June 2026 | **Thursday 2026-06-04 EOD substantive headline**: Casey #14 STANDING ("Substrate-Predicted 3+1 Minkowski Signature") + Cal #36 STANDING ratified (7-element discipline stack CLOSED); 5-framework cascade → FRAMEWORK (Dirac/Maxwell/T_μν/YM/Einstein eq); Strong-Uniqueness Theorem 10 → 11 STANDALONE legs; K3 framework 6/8 → 7/8 RIGOROUS path opens; **11 Tier 1 EXACT substrate predictions across 12+ sectors** (Nuclear/PMNS/EW/Inflation/Cosmology/α-tower); Strong CP problem resolved substrate-naturally (θ_QCD = 0); substrate framework BOUNDARY identified via ε'/ε; substrate r ≈ α² tensor-to-scalar falsifier; substrate-PMNS Cat A primitive cluster COMPLETE; 12 Casey-named principles STANDING. **Curriculum**: 18-volume textbook (Vol 0-17) — Vol 16 Substrate Algebra + Vol 17 Substrate Engineering scaffolding initiated Thursday. **Substrate-mathematics paper series**: Strong-Uniqueness Theorem v1.6+ PRE-AUTHORIZED STANDING (Lyra Thursday); A1 *Substrate Hall Algebra* PRIMARY; P1 v0.7 dispatch AUTHORIZED Thursday (Casey decision). **Methodology stack** 19 layers + 7-element STANDING discipline stack CLOSED (Cal #27 + #29 + #32 + Calibration #33 + #34 + #35 + #36); 5-min brake-walk-back cadence formalized in Methodology Index v0.13
+**Status**: Working research program — v36, June 2026
 **Contact**: caseyscottkoons@yahoo.com
 
 **Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v36). Zenodo. https://doi.org/10.5281/zenodo.19454185

@@ -1,6 +1,13 @@
 """
 Toy 3925: m_Planck substrate cascade unified formula investigation.
 
+*** SUPERSEDED IN PART by Toy 4001 (K227 walk-back, 2026-06-06). ***
+The claim "cascade preserves Toy 3924 ★ Tier 1 finding" is RETRACTED. The
+m_Planck/m_e exponent identification 10.5=(N_c·g)/2 is Tier 2 STRUCTURAL
+(14.1% observable-space), not Tier 1. The cascade form here is a structural
+lead for the multi-week Lyra L5 joint, not a Tier 1 result.
+See toy_4001_K227_walkback_mPlanck_exponent_tier.py.
+
 CONTEXT
 Per Toy 3924 ★ Tier 1: m_Planck/m_e ≈ N_max^((N_c·g)/2) = N_max^10.5 at 0.027 dev
 Per Toy 3922: substantive cross-anchor with Toy 3893 α-tower

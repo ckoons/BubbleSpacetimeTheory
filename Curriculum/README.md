@@ -4,17 +4,9 @@
 
 ---
 
-## Status (Sunday 2026-05-24 EOD — KEEPER DEEP-PASS + CAL/LYRA/ELIE/GRACE CASCADE COMPLETE)
+## Status
 
-**All 16 volumes (Vol 00-15) at v0.3+ substantive content** with Foreword + 16 × 12 ≈ 192 chapters. Sunday 2026-05-24 deep-pass cycle: Cal #119-#127 cold-reads (9 referee logs) → Calibration #25 + #27 both promoted STANDING via 4-instance Mode 1 trigger + Cal cross-promotion → FRAMEWORK-PLUS new tier coined ad-hoc (Cal #126) → Grace lane formally expanded per Calibration #27 STANDING corollary (INV-5139) → DCCP arc compressed from "RIGOROUS claim" through honest demote → v0.6 META-vulnerability localized to 2-way Candidate A vs D discriminable choice (Toy 3522 numerical narrowing) → SP-30-1 Bell sub-Tsirelson outreach SENT (Casey EOD) starting empirical-leg 12-18 month clock.
-
-**Vol 16 Substrate Algebra (A_sub) + Vol 17 Substrate Engineering QUEUED** as curriculum extensions (no renumbering of Vol 0-15). Triggers: Vol 16 when Lyra #322 v0.4 reaches rigorous commutation tables + 5+ Casimir invariants (~2-4 weeks); Vol 17 when 2-3 SP-30 experimental dispatches reach paper-grade + outreach happens (~1-2 months). See `KEEPER_REFINEMENT_NOTES.md` for 12-chapter outlines.
-
-**Methodology stack**: 25 STANDING + 1 CANDIDATE + 1 META = 27 numbered layers + FRAMEWORK-PLUS new tier (per Cal Methodology Index v0.6 + Sunday Keeper acceptance of #25). 25 commits Sunday all pushed.
-
-**Original earlier scope**: 16 volumes covering substrate foundation, QFT, particles, nuclear, GR/cosmology, QM, thermo/statmech, EM, classical mechanics, condensed matter, math methods, generative geometry, chemistry, biology, information theory, methodology.
-
-Volume directories renamed to two-digit (Vol00, Vol01, ..., Vol15) for proper sort order including Foreword (Vol00_Foreword.md).
+18-volume textbook (Vol 00-17). Vol 00-15 at v0.3+ substantive content. Vol 16 Substrate Algebra + Vol 17 Substrate Engineering scaffolding initiated June 2026. Volume directories use two-digit sort order including Foreword (Vol00_Foreword.md).
 
 ## Volume directory layout
 

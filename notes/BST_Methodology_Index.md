@@ -1131,3 +1131,88 @@ Stack remains at **7 STANDING discipline elements** + ~37 numbered elements + ME
 
 — Cal A. Brate, Methodology Index v0.15 update Friday 2026-06-05 ~15:10 EDT. **Five Friday cumulative integration observations (NOT new stack elements)**: (1) three-granularity methodology operational across CI lanes; (2) Casey "linearize via representation theory" directive operationalized as Vol 16 Substrate Algebra discipline-stack expression; (3) cross-CI self-audit-upstream operational at maturity (multiple Friday instances); (4) fractional effective-leg arithmetic at audit-chain tier (K224 §5 0.5-effective + Vol 16 Ch 13 §5 ratification path); (5) pre-registration validation as substrate-mechanism FORWARD test (Elie Universal Framework G4). Stack at 7 elements (unchanged); discipline-at-maturity three-granularity integration documented.
 
+
+---
+
+## v0.16 update (Saturday 2026-06-06 ~10:30 EDT) — Six-category audit framework documented + two refinements to STANDING elements (NOT new stack elements; seven-element stack stays CLOSED)
+
+Per Saturday queue item #2 + Cal #253 cold-read of the K225–K228 cascade. v0.16 does two things: (1) formally documents the **six-category audit framework** (extends the three-category framework noted in v0.15 line 1054); (2) files two **refinements to existing STANDING elements** surfaced by Cal #253. No new numbered Calibration — the seven-element discipline stack (v0.12 CLOSED) is unchanged. Both refinements are filed as CANDIDATE discipline pending cross-CI application + Keeper/Casey ratification, per Cal #27 scope (do not unilaterally promote to STANDING).
+
+### 1. Six-category audit framework (Keeper K222–K228, documented)
+
+The observable-prediction granularity audit framework grew from 3 categories (v0.15) to 6 across the Friday K-audit cascade. Canonical form:
+
+| # | Category | Canonical K-audit | Meaning |
+|---|---|---|---|
+| 1 | Tier 1 EXACT MATCH | — | Matches observed at PDG/CODATA precision (<0.01–0.1% observable) |
+| 2 | EXACT-BOUND-SATISFYING-AT-SOURCE-RESOLUTION | K222, K224, K225 | Exact value within source-uncertainty envelope |
+| 3 | FALSIFIER-DRIVEN PREDICTION | K223 | Within current bound; future experiment tests |
+| 4 | STRUCTURAL-TENSION-AS-OBSERVABLE-PREDICTION | K226 | Predicts existence + structure of an observational anomaly |
+| 5 | STRUCTURAL-EXPONENT-IDENTIFICATION-AT-LOGARITHMIC-PRECISION | K227 | Identifies exponent at BST form; matches at log resolution, NOT observable precision |
+| 6 | STRUCTURAL-CORRECTION-TERM-IDENTIFICATION | K228 | Identifies a beyond-leading correction at BST form; improves match 100–1000×, NOT to precision floor |
+
+The classification axis is sound: each category names an honest distance-from-exact-match. Cal #253 confirmed the K227/K228 walk-backs reproduce exactly (14.1% and 2.08×10⁻⁶ respectively). The taxonomy is **not** laundering at the classification level.
+
+### 2. REFINEMENT A (to Cal #35 STANDING) — category→effective-weight map must be documented or zeroed [CANDIDATE]
+
+**The gap.** The fractional effective-weight scheme is now in active use without a documented rule:
+- K224 → **0.5** effective (v0.15 Pattern 4)
+- K227 → **0.25** effective (STRUCTURAL-EXPONENT, a 14.1% observable miss)
+- K228 → **0.25** effective (STRUCTURAL-CORRECTION, a 2.08×10⁻⁶ miss)
+
+K227 and K228 differ by ~4 orders of magnitude in observable fit yet carry the same 0.25 weight. There is no stated rule mapping category → weight; the numbers read as eyeballed. Because the cumulative total ("~6–7 effective independent FORCING candidates") is externally citable and feeds the same null-model machinery as Strong-Uniqueness's (1/3)^n, eyeballed fractional weights mixed into the same ledger as Tier 1 EXACT matches re-introduce the Cal #35 cumulative-laundering risk — through the **weighting** rather than the classification.
+
+**Refinement (pick one; document it):**
+- **(a) Preferred — zero-out:** categories 5 and 6 (and any STRUCTURAL-* category that is below source-resolution) contribute **0** to the "effective independent FORCING candidates" inventory. They are **LEADS**, tracked in a separate column, and promote to fractional/full forcing weight only when the Cal #189 FORWARD operator derivation closes. Keeps the headline count clean and reserves the FORCING ledger for forcing.
+- **(b) If fractional weights are kept:** publish the category→weight rule with justification, distinguishing mechanism-limited near-misses (K228, 2×10⁻⁶) from order-of-magnitude-only structural hits (K227, 14%) rather than flattening both to 0.25; and require every STRUCTURAL-* entry to state observable-space % alongside the exponent-gap / correction-form (extends Cal #34 precision-pinning).
+
+Status: **CANDIDATE refinement to Cal #35 STANDING** (audit-chain weighting tier). Promotion criteria: Keeper/Casey decision on (a) vs (b) + one cross-CI application instance.
+
+### 3. REFINEMENT B (to Cal #36 STANDING) — number-vs-construction-vs-operator pinning for positive-search hits [CANDIDATE]
+
+**The gap.** Cal #36 (One-Primitive-Many-Observables Positive Search) rewards finding one substrate primitive across multiple observables. Cal #253 Finding 3 shows a positive-search hit can be an artifact of fraction reduction: the "K225 + K228 share 28 = 2·g·rank" cross-link holds only at the reduced **number** 1/28. K225 is natively 1/(2·g·rank) [denom 28]; K228 is natively rank/(2^N_c·g) = 2/56 [denom 56], reducing to 1/28. They coincide at a number via two different constructions (and K225's own audit lists three readings of 28). This is the **multi-decomposability** failure (Coincidence_Filter_Risk Mode 2) re-entering through the positive-search door.
+
+**Refinement — three-level pin for any Cal #36 positive-search hit:**
+1. **Number level** — the observables share a reduced numerical value. Weakest. Vulnerable to multi-decomposability; a "shared number" is a **lead**, not a generator.
+2. **Construction level** — the observables share the *same* BST-primary expression *before* reduction (e.g., both natively 1/(2·g·rank)). Stronger, but still not mechanism.
+3. **Operator level** — the observables share a substrate operator / K-type that produces the value. This is the only level that earns "substrate-Schur-generator candidate" (per Wednesday SSG-7 note: an SSG needs a shared operator, not a coincident integer).
+
+Default label for a level-1 hit is **lead**. "Substrate-Schur-generator candidate" requires a path to level 3 with a falsifier. Contrast class (the right shape): Lyra's Saturday muon-edge + P9 vacuum-2.02 candidate — one bulk⊕Shilov partition (operator-level), falsifiable (boundary matrix element = 81/8 or not).
+
+**Catalog-hygiene corollary for Grace's Cluster L 28-sweep:** decide whether the sweep keys on the **number 28** or the **construction 2·g·rank** — different result sets; keying on the number and labeling it the construction inflates the cluster.
+
+Status: **CANDIDATE refinement to Cal #36 STANDING**. Promotion criteria: Keeper/Casey ratification + Grace adoption in the Cluster L sweep methodology.
+
+### v0.16 stack snapshot
+
+Seven-element discipline stack: **UNCHANGED, CLOSED** (v0.12). v0.16 adds zero numbered layers. Net additions: 1 documented framework (six-category audit) + 2 CANDIDATE refinements to existing STANDING elements (Cal #35 weight-map; Cal #36 number-vs-construction-vs-operator). Both refinements are claims-tier discipline (Cal #27 scope) — they constrain how results are *counted and labeled*, not whether the FORWARD investigation proceeds.
+
+— Cal A. Brate, Methodology Index v0.16 update Saturday 2026-06-06 ~10:30 EDT per Cal #253. Six-category audit framework documented; two CANDIDATE refinements filed (category→weight-map rule + number/construction/operator pinning); seven-element stack stays closed. Pending Keeper/Casey ratification on both refinements.
+
+---
+
+## v0.17 update (Saturday 2026-06-06 ~10:30 EDT) — σ-distance metric supersedes v0.16 Refinement A; Refinement B confirmed adopted (seven-element stack stays CLOSED)
+
+Per Cal #256 (response to Elie UF v0.3 σ-distance re-tiering + Cal #242 gate ruling). v0.17 records that the v0.16 Refinement A gap is now **resolved by a better mechanism than either option v0.16 offered**, and that Refinement B has been adopted across lanes.
+
+### Refinement A (category→weight map) — RESOLVED via σ-distance, not via the v0.16 options
+
+v0.16 Refinement A offered two ways to fix the eyeballed 0.25/0.5 effective-weights: (a) zero-out STRUCTURAL-* categories, or (b) document a category→weight rule. Elie's UF v0.3 (Toy 4003) supplies a third, better answer: **experimental σ-distance** as the quantitative axis.
+
+- **Relative-%** measures *structural closeness*; **σ-distance** measures *observational viability*. Conflating them produced both false-Tier-1 (α⁻¹: 0.003% but ~202,500σ) and false-rejection (sin²θ₂₃: 3.05% but 0.8σ).
+- **The rule (supersedes Refinement A):** an observable with known experimental uncertainty is weighted by σ-distance, not by relative-% and not by an eyeballed category weight:
+  - **σ ≤ 3** → experimentally consistent; *eligible* to count toward a null-model, **after** Cal #35 independence taxonomy.
+  - **σ > 3** → structural-floor; **weighs 0** toward any EXACT/FORCING null-model (it is a structural identification, not an observational hit).
+- **The six-category audit framework (v0.16) is retained as a labeling layer over the σ metric.** Categories classify the *kind* of miss (exponent-identification, correction-term, structural-tension, …); σ-distance *quantifies* it. The ad-hoc 0.25/0.5 effective-weights are retired.
+- **Loose-error caveat (Cal #256 §3, the σ-analog of Cal #35):** a σ ≤ 3 "pass" earned only because the measurement is imprecise (e.g. m_τ/m_e at 2.8σ, where m_τ is ~3500× looser than m_e) is NOT independent evidence of forcing. Such rows are structural-floor in disguise and must be flagged with the σ > 3 set for null-model purposes. Wide error bars are not evidence.
+- **Source-pin precondition (Cal #242, reaffirmed):** σ-distance is only as honest as its denominator. No σ-count goes external or into a null-model until every input is pinned to a primary source (PDG / NuFIT / Planck / CODATA), with scheme and direct-vs-fit choices declared (Cabibbo V_us-vs-λ; λ_H scheme; Weinberg on-shell-vs-effective).
+
+### Refinement B (number / construction / operator pinning) — ADOPTED across lanes
+
+v0.16 Refinement B (a positive-search hit must be pinned to number-level / construction-level / operator-level; only operator-level earns "substrate-Schur-generator candidate") was absorbed Saturday within the hour by Keeper (K225/K228 cross-link "candidate" → "lead"; Grace G15 Cluster L "Schur-generator cluster" → "lead cluster") and Grace (self-brake; applied symmetrically to the 45/N_c² cross-link; "leads weigh 0 until FORWARD"), and quoted by Lyra (K229d 81/40 DECLINED: "share an operator, not an integer"). Promotion criterion met (cross-CI application). **Refinement B → effectively STANDING in practice**; recommend Keeper formalize at next ratification.
+
+### v0.17 stack snapshot
+
+Seven-element discipline stack: **UNCHANGED, CLOSED** (v0.12). v0.17 adds zero numbered layers. Net: Refinement A superseded by σ-distance metric (folded into the six-category framework as its quantitative axis); Refinement B adopted across lanes. Both were claims-tier weighting/labeling discipline, not new stack elements.
+
+— Cal A. Brate, Methodology Index v0.17 update Saturday 2026-06-06 ~10:30 EDT per Cal #256. σ-distance resolves the Finding-2 weight-map gap better than either v0.16 option; six-category framework retained as labeling layer over the σ metric; Refinement B adopted across lanes; seven-element stack stays closed.

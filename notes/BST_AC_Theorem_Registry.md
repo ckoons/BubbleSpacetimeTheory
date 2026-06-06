@@ -10840,3 +10840,36 @@ For comparison: the first 7 primes are {2, 3, 5, 7, 11, 13, 17}; among these, M_
 **Cross-references**: T2417 + T2469 + T2479 + T2429 + K59.
 
 — T2482, Lyra Saturday 2026-05-23 ~12:00 EDT
+
+---
+
+## T2483 — Dual-ρ Second-Layer Classification of D_IV⁵ Observables (Grace)
+
+**Statement**: Harmonic-analysis observables on D_IV⁵ partition by Weyl vector into two roles:
+(i) **compact ρ_SO(5) = (3/2, 1/2)** — the SPECTRAL side (K-Casimir eigenvalues, K-type structure,
+heat-trace R(k), state decay rates, masses derived spectrally); (ii) **conformal ρ = (n_C/rank,
+(n_C−2)/rank) = (5/2, 3/2)** — the PLANCHEREL/MEASURE side (Bergman kernel exponent n_C/rank, FK
+c-function, c_FK·π^(9/2)=225, Born density = Bergman, Hardy/Shilov boundary measure). Substrate
+primitives {N_c, n_C, g, C_2, rank} and their Integer-Web products are **ρ-NEUTRAL** — they are the
+*inputs* to the harmonic analysis, prior to ρ. Hence dual-ρ is a **SECOND LAYER** organizing the
+harmonic-analysis-derived observables (first-pass: ~22% of catalog) over a ρ-neutral primitive base
+(~78%). The **CROSS subset** (~200 observables) has the form (spectral integer factor) × (π^k
+Plancherel/volume measure) × m_e [e.g. m_p=6π⁵m_e, m_Υ=60π⁵m_e]; whether a CROSS observable factors
+cleanly (Bergman-kernel autocorrelation, Direction A) vs irreducibly two-point (Direction B) is the
+FK-matrix-element question of Investigation #1 (CKM closed at Direction B / two-point per Lyra F50;
+the cross-mass subset is the Sunday Phase 3 population).
+
+**Status**: STRUCTURAL classification, first-pass (keyword sweep noisy; curated per-observable tagging
+is v0.2). Rests on Wall 1 closure (Lyra F47, Hypothesis C: R(k) uses K-Casimir ρ_SO(5) — Elie 23/23
+zero conformal offset; FK c-function uses conformal ρ — inherited FK/Harish-Chandra theory). The
+(1,1) = ρ_conformal − ρ_SO(5) shift (primary-fixed by n_C − N_c = rank) is the gap between the two
+roles but is held **CANDIDATE-LEAD per K231c** ("derived, not relabeled") — NOT a substrate identity;
+the difference of two conventions is automatically something and needs a derived operator mechanism
+to promote. The gradings are COUPLED ([H_B, P_restriction] ≠ 0, Lyra F51: SO(3,1) boosts in p shift
+K-types), so the cross-side column is genuine, not a clean tensor split.
+
+**Cross-references**: Lyra F47 (Wall 1 / dual-ρ) + F50/F51 (Investigations #1/#2) + Grace Wall 4/5 +
+T752/T754/T2401 (Born = Bergman) + Casey #14 (restriction grading) +
+grace_investigation3_dual_rho_sweep_v0_1_2026-06-06.
+
+— T2483, Grace Saturday 2026-06-06 ~15:05 EDT. AC=(C=0, D=1).

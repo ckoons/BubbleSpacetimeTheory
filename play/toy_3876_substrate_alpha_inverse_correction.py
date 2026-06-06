@@ -1,6 +1,13 @@
 """
 Toy 3876: Substrate α^(-1) correction substrate-natural form — Tier 1 BORDERLINE candidate.
 
+*** SUPERSEDED by Toy 4002 (K228 walk-back, 2026-06-06). ***
+"Tier 1 BORDERLINE / 0.0002%" is RETRACTED: substrate α^(-1)=137+1/28 sits
+~13,500σ above the CODATA floor. It is a STRUCTURAL-CORRECTION-TERM-IDENTIFICATION
+(captures 99.2% of the N_max→observed gap), Tier 2 STRUCTURAL. Preferred reading
+is 1/28 = 1/(2·g·rank); the 28=2·g·rank composite cross-links K225+K228 (Cluster L).
+See toy_4002_K228_walkback_alpha_inverse_correction_tier.py.
+
 CONTEXT
 Per T1543 RATIFIED: α = 1/N_max Tier 1 EXACT (substrate-anchor)
 Observed: α^(-1) = 137.035999084(21) (CODATA, precision ~1.5e-10)
