@@ -1,18 +1,18 @@
 # BST Toy Collection & Interactive Tools
 
-**3,502 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, 4 parallel k-cascade processes, and the BST Appliance for Bubble Spacetime Theory.**
+**4,014 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, 4 parallel k-cascade processes, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-27 Wednesday EOD, Elie lane)
+## Scale Summary (updated 2026-06-08 Monday EOD, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 3,541 |
-| Numbered toys (toy_NNN_*.py) | 3,331 |
+| Toy scripts (toy_*.py) | 4,014 |
+| Numbered toys (toy_NNN_*.py) | 3,804 |
 | Named toys (toy_name.py) | 210 |
 | Utility scripts (non-toy .py) | 67 |
 | HTML visualizers | 7 (added k_type_graph_phase_A_viewer.html Wednesday) |

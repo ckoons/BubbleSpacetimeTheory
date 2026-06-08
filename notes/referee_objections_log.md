@@ -15393,3 +15393,289 @@ This is the day's recurring lesson a sixth time: **shared/fitting structure isn'
 Inv #2 COUPLED: SOLID. Muon → T190: HONEST (a retreat, mechanism open — one Ch 9 framing pin). CKM Direction B: **value-selected, not forward — brake before Ch 12 bakes it in.** Investigations #1/#2 genuinely advanced the substrate-architecture (the coupling is real and consequential); the one overclaim is "CKM Direction B FORWARD-derived," and it's the same derived-vs-selected discipline that the muon side honored and the CKM side didn't.
 
 Reactive on the write-ups (Ch 5/6/9, Ch 8/12) — with the Ch 9 (muon-mechanism-open) and Ch 12 (Direction-B-value-selected) pins as the specific things I'll check landed honestly.
+
+---
+
+## Cal #264 — F52 + F54 (π⁵ = π^{n_C} flat-volume exponent) cold-read: the pre-objection was engaged head-on and resolved at the honest tier. PASS, two tiering sharpenings.
+
+*Sunday 2026-06-07 13:56 EDT (`date`-verified). Cold-read of the Phase-2 π⁵ closure (F52) + the FK-vs-flat reconciliation (F54) — the load-bearing derivation I pre-objected to this morning (the π^(9/2)-vs-π⁵ tension). This is the foundation the whole Sunday chain (F55→F62→K252) sits on.*
+
+### Credit first: the pre-objection was engaged, not papered over — and the lesson from yesterday was applied.
+
+This morning I flagged: π⁵ from a ~5D measure is dimensionally near-automatic, so getting π⁵ isn't confirmation; and the repo's own ratified π^(9/2) (c_FK·π^(9/2)=225) is the *natural* measure power, so "why integer-5 and not 9/2" is the real question. F52/F54 took that head-on:
+- **π⁵ = π^{n_C} = flat Euclidean volume exponent** of the 2n_C=10-real-dim substrate (Vol(B^{2n_C}) = π^{n_C}/n_C!). Dimension-forced (standard volume formula; n_C=5=complex dim) and — critically — **CROSS-universal**: the *same* π⁵ across all ~200 CROSS masses, not an m_p-specific fit. That universality is real forward content (one factor, 200 observables).
+- **The 9/2-vs-5 tension is resolved as two different-role measures** (F54): flat π^{n_C} (extensive → masses) vs FK invariant π^{n_C−1/rank}=π^{9/2} (spectral/inner-product → c_FK, Casimirs, the muon's π^{rank}). They differ by **exactly 1/rank**, and Lyra connects this to the existing F49 dual-ρ split rather than asserting it ad hoc.
+
+And the honest tiering is the opposite of yesterday's CKM: F52 §5 / F54 §4 explicitly mark the flat-vs-FK *selection* as data-driven and the mass-uses-flat *mechanism* as CANDIDATE — not "FORWARD-derived from the observed value." Lyra applied the Cal #261 lesson within 24 hours. This is the discipline working.
+
+### Sharpening 1 — "gap = 1/rank DERIVED-structural" (F54 §0 box) overstates vs F54 §4's own "explicit Γ-shift OPEN."
+
+Tier it precisely (K231c "derived not relabeled," same discipline as the (1,1) bridge):
+- **Derived:** the gap is numerically 1/2 (FK exp 9/2 and flat exp 5 are both established).
+- **Reading:** 1/2 = 1/rank (clean; little multi-decomposability for 1/2).
+- **Candidate:** 1/rank *is* the rank-2 half-integer Γ-shift of the Bergman Jacobian (the structural reason). F54 §4 itself flags the explicit FK-Ch-XII derivation as OPEN.
+
+So "gap = 1/rank structural" should travel as "gap = 1/2 (derived) = 1/rank (reading); structural Γ-shift mechanism candidate, explicit derivation open" — not as a closed structural fact. Don't let the boxed claim propagate past the §4 tiering.
+
+### Sharpening 2 — circularity guard on the reconciliation (for Phase 3 / Ch 5 propagation).
+
+"Mass uses flat because it's extensive (dual-ρ)" must not lean on the dual-ρ *classification* if that classification assigned masses to the extensive side **because** they carry π⁵. That would be circular: π⁵ → classify mass as extensive/conformal-ρ → "therefore mass uses flat π⁵." Lyra's independent physical motivation (mass scales with embedding size → extensive) saves it from *pure* circularity — but that's a heuristic, not a substrate-derivation, and she correctly tiers mass-uses-flat as CANDIDATE. The genuinely forward test (her flagged-open mechanism): derive mass = flat-embedding-volume from substrate dynamics **independent of the observed π⁵**. Naming the specific circularity so it doesn't quietly close in Phase 3: the forward derivation cannot use "masses have π⁵" as evidence that "masses are extensive."
+
+### Minor — coefficient multi-parse.
+
+6 in 6π⁵ = C_2 (adjoint Casimir) *or* 6!/5! (ball-volume normalization) — two substrate-natural readings (Mode-2 multi-decomposability). Limits how much either parse can be banked; F52 already flags the coefficient as Phase-3-open. Fine; just don't elevate "C_2·π^{n_C}" to a derived mechanism on the strength of being "cleaner."
+
+### Disposition
+
+**PASS at the honest tier Lyra assigned.** The π⁵ = flat-volume-exponent is dimension-forced + CROSS-universal (the strong, genuinely-derived core); the flat-vs-FK reconciliation as different-role measures is the right shape, grounded in the dual-ρ split, with mass-uses-flat honestly a candidate; the 1/rank gap is derived-numerically with the structural Γ-shift open. Two sharpenings keep the propagating claims honest (tier the gap; guard the circularity). This is the model for how the CKM closure *should* have gone yesterday — same epistemic situation (a power/structure that fits the data), handled with the selection honestly tiered instead of dressed as forward. The morning pre-objection did its job: it pre-loaded the π^(9/2) tension, and the team derived *to* it rather than around it.
+
+Carry-forward: the open mechanism (why mass = flat extensive volume, independent of π⁵) is the real Phase-3 gate; watch each per-observable derivation (6, 12, 60, …) for the value-selected-vs-forward distinction on the *spectral integer*. Next: K252/F62 base-sharing chain (built on F52) when I cold-read it.
+
+---
+
+## Cal #265 — Weekend substrate-architectural spine surface-gate cold-read: findings PASS at honest tier; BRAKE on BOTH new audit-categories (10th GRAVITY-FOOTHOLD + 11th REACH-BOUND); meta-flag on audit-category proliferation
+
+*Sunday 2026-06-07 14:03 EDT (`date`-verified). The EOD surface-gate before consolidated surface to Casey. Deep-read: F52/F54 (Cal #264), F60+K250, F61+K251, K252 header. Spot-checked at consolidated level: F53/F55/F57/F59/F62, the three retirements, T2487/T2488. Answering the package's F1–F8.*
+
+### Headline verdict
+
+**The substantive FINDINGS PASS at the honest tier the team assigned** — the weekend's discipline (retirements, candidate-flagging, K231c, Cal #35) was applied well, and in several places exemplarily. **But I BRAKE on both proposed new audit-categories** (K250 10th GRAVITY-FOOTHOLD; K251 11th REACH-BOUND). Neither captures a genuinely new *epistemic status*; both are over-formalization that the existing stack already covers, and minting them creates laundering/creep vectors. So: surface the findings (honestly tiered); do **not** surface the two category admissions as ratified.
+
+### F1 — math soundness (F52–F62): PASS.
+
+F52 π⁵ = flat-volume exponent (dimension-forced, CROSS-universal) — sound (Cal #264). F54 FK π^(9/2) vs flat π⁵ = different-role measures, gap = 1/rank — sound numerically. F60 derived pieces (ρ_commit = heat-kernel diagonal; ∫ = heat trace; Seeley-DeWitt curvature) — standard, sound. F61 retirement logic — sound. No mathematical errors found.
+
+### F2 — K231c "derived not relabeled" per claim: mostly clean; two sharpenings already filed (Cal #264).
+
+π⁵ derived (geometric); the 1/2=1/rank gap is derived-numerically with the *structural Γ-shift candidate* (don't bank "gap = 1/rank structural" past F54 §4's own "explicit derivation OPEN"); F60 T_00=ρ_commit honestly CANDIDATE; F61 bulk+Z₂-bit derived, ladder honestly RETIRED. The circularity guard (Cal #264 sharpening 2) stands: "mass uses flat because extensive" must not lean on a dual-ρ classification that was itself π⁵-driven.
+
+### F3 — Cal #35 (geometry load-bearing; data corroborates): PASS, applied throughout.
+
+F52/F54/F60/F61 all explicitly tier precision as corroboration. Good.
+
+### F4 — Cal #237 on the three retirements: PASS — this is the discipline at its best.
+
+The λ₂-ladder, λ₁/spin-ladder, and per-flavor retirements are honest eliminations (base-rate filtered, "Z₂ is a bit not a Z," derive-not-fit). F61 retiring the spin-ladder *because it's the same 2-point over-reach as the already-retracted λ₂-ladder* is exemplary — the team caught its own relabel (λ₂→λ₁) without prompting. Credit. These eliminations ARE information (Cal #237), and they're recorded as eliminations, not dressed as wins.
+
+### F5 — are GRAVITY-FOOTHOLD (10th) and REACH-BOUND (11th) genuinely distinct from FORWARD? **NO. Decline both.**
+
+Audit-categories should classify **epistemic status** (derived / candidate / structural / eliminated / convention-pin), not **topic** or **significance**. Both proposals fail this:
+
+- **K250 GRAVITY-FOOTHOLD (10th):** this is a **topic label (gravity) attached to an existing status.** F60 is, epistemically, a SCAFFOLD (FRAMEWORK-tier) with one CANDIDATE identification (T_00=ρ_commit) and open Steps 2–3 — and the existing stack already has FRAMEWORK / FRAMEWORK-PLUS / candidate tiers for exactly that. "Gravity is hard so even a foothold deserves a category" is a *significance* argument, not a status one. Record F60 at the existing scaffold/candidate tier, tagged "gravity." No new category.
+- **K251 REACH-BOUND (11th):** the content is **already covered** — the SCALES side is SUBSTRATE-MECHANISM-FORWARD (T2487/T2488), the SPECTRA/RATES sides are **Cal #237 eliminations**, and the class-level scope synthesis ("substrate determines kinematics not dynamics") is a candidate **scope-PRINCIPLE**, exactly parallel to the Five-Absence Predictions Set (which is recorded as a *principle*, not an audit-category). K251 §6 itself asks "would Five-Absence qualify as REACH-BOUND?" — that question answers itself the other way: they're the *same kind of object* (falsifiable scope-principles), which is precisely why **neither** should be an audit-category. Record F61 as: FORWARD (scales) + Cal #237 eliminations (spectra/rates) + a candidate scope-principle with falsifiers. No new category.
+
+**The laundering vector this avoids:** a STANDING "REACH-BOUND" category lets "we couldn't derive X" deposits accrue as positive-looking "reach-bound findings." Keeping eliminations as Cal #237 eliminations (negative information, honestly negative) prevents limits from reading as contributions in the registry/Working Paper.
+
+### F6 — WALL-DISSOLUTION at K252: NOT a new category — and K252 correctly doesn't propose one. Fine.
+
+K252 says "no new category; WALL-DISSOLUTION character." Correct — it's K231c with strong character, recorded as character not as a tier. That's the right call (contrast K250/K251). K252's base-sharing closure rides on F52, which I cleared (Cal #264) at honest tier; the meson "5 = dim V_(1,0) was coincidence, base = n_C" is a Cal #35-style honest correction. PASS.
+
+### F7 — cumulative over-reach at consolidation/scaffold tier: two flags.
+
+1. **Language:** "gravity Step 1 FIRED," "foothold's payoff" overstate F60's *derived* content (which is standard heat-kernel math + a candidate identification + an open analogy). Honest framing: "gravity SCAFFOLD with a candidate source-identification and a structural analogy to Einstein's eq; Steps 2–3 open." Keep "fired/foothold" out of anything that surfaces.
+2. **Audit-category proliferation (the meta-flag):** this is the **third new audit-category in ~48h** (9th CONVENTION-PIN ratified; a 9th-as-MECHANISM-FORWARD *retracted* yesterday in K230; now 10th + 11th proposed). Categories should be RARE and status-based. Topic-flavored (GRAVITY-FOOTHOLD) and limit-reframed (REACH-BOUND) category-minting at peak convergence dilutes what "audit-category" means. **Recommend a moratorium on new audit-categories** unless one captures a genuinely new epistemic status inexpressible in the existing tiers. The stack is healthier at ~9 status-based categories than at 11 with topic flavors.
+
+### F8 — brakes filed.
+
+Two: (1) decline GRAVITY-FOOTHOLD as a category → record F60 at scaffold/candidate tier tagged gravity; (2) decline REACH-BOUND as a category → record F61 as FORWARD-scales + Cal #237-eliminations + candidate scope-principle (Five-Absence-parallel). Plus the F7 language pin and the proliferation moratorium recommendation. Neither brake halts investigation (Cal #27): gravity climb continues; the reach-statement stands as honest scope; the eliminations stand. The brakes are on the *audit-stack formalization*, claims-tier.
+
+### Registry (T2487/T2488)
+
+T2487 (π^{n_C}) DERIVED — OK for the *geometric* content (π⁵ = flat-volume exponent is dimension-forced, Cal #264); ensure "DERIVED" tags the geometry, not the open mass-mechanism. T2488 (Z₂-bit ground-state cell-count) — OK at DERIVED for the ground-state-scale content (four-way on T185), with the same scope caveat. Both fine if the DERIVED tag is read as "geometric/structural content derived," mechanism-open per Cal #264.
+
+### Surface-gate disposition
+
+**PARTIAL PASS.** The substantive spine may surface to Casey **with**: Cal #264's two sharpenings (gap-tiering + circularity guard); the F7 language pin ("scaffold," not "foothold fired"); and **both new audit-categories DECLINED** — F60/F61 content recorded via existing machinery (scaffold/candidate + Cal #237 + scope-principle). The retirements are exemplary and surface cleanly as the day's discipline highlight. Once the two category admissions are withdrawn/redirected and the language pinned, the consolidated summary to Casey clears my gate. Until then it does not — the categories are the one thing I'm holding.
+
+Standing reactive for Keeper's category-withdrawal/redirect + the consolidated summary revision; available to re-clear quickly once the two categories are recast.
+
+---
+
+## Cal #266 — Monday surface-gate, part 1: K253/K255/K259 cold-read. Two brakes (NECESSARY overstates; C_2=6 triple is integer-coincidence) + one framing pin (gravity structure is inherited). Meta-pattern: principle-minting has replaced category-minting.
+
+*Monday 2026-06-08 09:06 EDT (`date`-verified). Surface-gate part 1 — the three strongest-claim items of the K253–K259 batch deep-read. K254/K256/K257/K258 + the K250/251/252 re-clear + spine + consolidated summary v0.2 are still pending my cold-read; the queue is NOT fully cleared yet, so the summary does not surface until I finish. Forward motion is default; these are genuine overclaims, not manufactured doubt.*
+
+### K253 — Grace dual-ρ "NECESSARY" derivation: BRAKE the strength; #9 stays scope-principle.
+
+Genuine content (credit): mass is extensive (T2488 additivity, derived) and spectra are intensive (Casimir per-mode, standard) — a real, clean distinction, and the *qualitative* asymmetry (extensive→volume-total→multiplies; intensive→per-mode→normalizes) is more than relabel.
+
+But "**NECESSARY**" overstates, two ways:
+1. The bridges "extensive ⟺ additive" and "intensive ⟺ per-mode" are **definitions** — so the "necessity" is largely definitional, not a substrate forcing. The only non-definitional input is T2488 additivity.
+2. The load-bearing specifics — **π^{n_C} in the numerator, π² in the denominator, the exact positions in the actual formulas** — are **read off the observed forms**, not derived. Extensive/intensive gives "total vs per-mode"; it does NOT give "numerator vs denominator with these exact π-powers." (The (24/π²)^{C_2} "per-direction-power fingerprint" is likewise a reading imposed to fit, not a derivation.)
+
+Honest tier: a strong **consistency/plausibility** result (the dichotomy motivates the asymmetry), NOT a forcing derivation. **DECLINE the proposed promotion of Casey-named #9 from scope-principle to a Casey-#7/#14-tier SUBSTRATE-MECHANISM-FORWARD principle.** Those are genuine uniqueness/forcing results; this is a motivated reading. #9 stays a **scope-principle**, now better-motivated. (K231c "derived not relabeled": the "necessity" is partly relabel.)
+
+### K259 — C_2 = 6 "triple," Casey-named #10 candidate: BRAKE. Integer-coincidence, not a principle.
+
+Arithmetic is correct: dim SO(5,2)/SO(4,2) = 6, dim SO(3,1) = 6, baryon cell-count = n_C+1 = 6. But this is **6 = 6 = 6 across three independent objects**, and C_2 = 6 is one of the five **dense** BST primaries — lots of objects equal 6, so three of them coinciding is low-surprise (coincidence-filter Modes 1+3). There is **no mechanism connecting the three** — K259's own falsifier admits the mechanism consequences are CANDIDATE/open and downgrades to "structural fact only." Per Refinement B + Cal #254 symmetric scrutiny: three things sharing an **integer** (not a construction, not an operator) = **LEAD, weighs 0** until a mechanism connects them. This is the 28-cross-link / 45-cross-link / (1,1)-bridge pattern a fourth time — a coincidence relabeled as an identity.
+
+**DECLINE the Casey-named #10 candidate.** Disposition: a SOLID structural FACT (three dimensions/counts = 6), held as a **lead** for a possible connecting mechanism — NOT a named principle. Minting a Casey-named principle on a dense-integer coincidence is exactly what K231c/Cal #254 guard against. If a mechanism is derived (why the conformal coset dim, the Lorentz dim, and the baryon count are structurally the *same* 6, not coincidentally equal), it can be reconsidered.
+
+### K255 — gravity Step 2 (F63/F64): mostly CLEAR, one framing pin. The most honest of the three.
+
+K255 honestly tiers the inherited/candidate/open parts, and Lyra stopped on a content boundary, not fatigue (yesterday's correction applied — good). The pin is on the *headline*, not the content: "Einstein equation INDUCED / Step 2 done" must travel as the modest claim it is —
+- The Einstein-Hilbert structure is **INHERITED, universal Sakharov/Seeley-DeWitt** (the a₁ coefficient ∝ ∫R√g for *any* heat trace — not BST-special). BST contributes the *coefficient value* (a₁ = −1875 = −N_c·n_C⁴) + a *candidate* source (T_μν = ρ_commit).
+- **G is uncomputed** — ℓ_B is free (Step 3, the absolute-scale problem, explicitly open). G ~ κ_Bergman·ℓ_B²/π^{n_C} is a structural *form* with an unknown in it, not a predicted G.
+So: a legitimate FRAMEWORK-tier assembly (standard Sakharov + standard KK + BST coefficients/volume), honestly tiered — but **not "BST derived gravity."** Clears at framework tier provided the consolidated summary carries that modesty ("gravitational structure inherited; G uncomputed pending ℓ_B"), not "gravity Step 2 closed."
+
+### META-PATTERN (the one to flag) — principle-minting has replaced category-minting.
+
+Sunday's Cal #265 closed audit-category proliferation (moratorium → 8th standing element). This weekend then produced **two new Casey-named-principle candidates** — #9-promotion (K253) and #10 (K259) — **both on readings/coincidences rather than derived mechanisms.** The minting impulse moved from audit-categories to principles. Recommend the same gate: **a Casey-named principle requires a derived mechanism** (the K231c / Cal #254 / Refinement B bar), not a shared integer (#10) or a definitional-plus-data-read reading (#9-promotion). Decline coincidence/reading-flavored principles the way Cal #265 declined topic-flavored categories. This isn't anti-forward-motion — genuine forcing principles (Casey #7, #14) are exactly the bar; #9-promotion and #10 don't meet it yet.
+
+### Surface-gate status: NOT cleared.
+
+Three of seven new K-audits deep-read. **Still pending my cold-read before the consolidated summary surfaces:** K254 (a_k map), K256 (R(k) closure), **K257 (mass-gravity volume duality "synthesis") and K258 (gravity=curvature/EM=conformal-boundary)** — both unification-framed, same derived-vs-read lens to apply; plus the K250/251/252 re-clear verification (confirm categories actually retracted + language pinned) and the spine/summary. I'll continue. Two brakes stand (decline #9-promotion, decline #10); K255 clears at framework tier with the modesty pin; summary surfaces only after I finish the rest and the two principle-candidates are recast/withdrawn.
+
+---
+
+## Cal #266 part 2 — K257 (mass-gravity volume duality synthesis): arithmetic catch (audit understates its own formula) + three overclaims; the ℓ_B reframe is correct.
+
+*Monday 2026-06-08 09:10 EDT (`date`-verified). Surface-gate part 2.*
+
+### Arithmetic catch — K257 §2.3 is wrong, and it understates a near-exact formula.
+
+K257 computes m_e = 6π⁵·α¹²·m_Planck = **0.374 MeV** ("27% off observed 0.511; approximate at leading order"). That arithmetic is wrong: they used α¹² ≈ 1.67×10⁻²⁶. Correct: α¹² = (1/137.036)¹² = 2.280×10⁻²⁶ (verified stepwise). Then 6π⁵·α¹²·(m_Planck/m_e) = 1836.12 × 2.280×10⁻²⁶ × 2.389×10²² = **1.0003** — the formula is accurate to **~0.03%**, not 27% off. The audit's own "leading-order approximate" framing is an artifact of the error; the formula is actually near-exact.
+
+### But near-exactness raises the α-tower trap — it does NOT establish the connection.
+
+m_e = C_2·π^{n_C}·α^{rank·C_2}·m_Planck = 6π⁵·α¹²·m_Planck at 0.03% is a *striking numerical coincidence* of four BST integers (6, 5, 12=rank·C_2) + α + m_Planck. The load-bearing exponent is **α^{rank·C_2} = α¹²** — and "is 12 = rank·C_2 DERIVED or fit?" is **exactly** the open Thread-#1 question Monday's board flags as the **known α-from-π numerology trap** (Grace already braked one Sunday). So K257 presenting this as "the catalog ALREADY connects substrate-floor to Planck-anchor" leans on a possibly-fit formula as if established. Honest tier: a striking Tier-2/numerology-candidate near-coincidence whose forward status is **precisely the undecided Thread-#1 question** — must NOT surface as an established connection until α¹² is derived (or Cal #237-eliminated as fit). The 0.03% does not resolve derived-vs-fit; it *sharpens the trap*.
+
+### "Hierarchy problem candidate" (§7.4) — overclaim by 14 orders of magnitude.
+
+K257: "gravity weakness = G ∼ 1/π^{n_C}; gravity suppressed by the bulk volume ≈ 306; hierarchy problem candidate." But the hierarchy is m_Planck/m_EW ~ 10¹⁶; **1/π⁵ ≈ 1/306 ≈ 10⁻²·⁵** accounts for a factor of ~300, not 10¹⁶. The actual large suppression in their *own* formula is α¹² ~ 10⁻²⁶, not π⁵. So "1/volume explains gravity weakness / hierarchy" mislabels a factor-300 effect as addressing a 10¹⁶ problem. **Drop "hierarchy problem candidate."** A factor of 300 is a factor of 300.
+
+### "Duality" framing — narrative gluing two different π⁵'s.
+
+Mass π^{n_C} = "volume the particle occupies" (F52); G's 1/π^{n_C} = "volume the dimensions reduce through" (F64 KK). These are *conceptually different volumes* that both equal π⁵. "Same substrate volume, opposite roles → gravity IS the intensive partner of mass" overstates — modest version: "π^{n_C} appears in both mass and G (opposite positions), suggestive of a volume duality," not a derived duality.
+
+### What's correct (credit): the ℓ_B = Planck-anchor reframe.
+
+Lyra's reframe — ℓ_B is the Planck length, the one dimensionful anchor every theory takes; the substrate's job is the dimensionless structure anchored there — is **right**, and correctly retires K255's "absolute-scale problem" over-formalization. And the cross-CI catch (Keeper + Grace both made the same ℓ_B mistake-shape; Lyra corrected; both absorbed cleanly) is the discipline working. That part clears.
+
+### Disposition
+
+K257: the ℓ_B reframe + cross-CI catch CLEAR. **Brakes:** (1) fix the §2.3 arithmetic (formula is ~0.03%, not 27% off); (2) the m_e = 6π⁵·α¹²·m_Planck connection is leaned-on but its α¹² exponent IS the open Thread-#1 numerology trap — hold as a striking near-coincidence pending derived-vs-fit, do NOT surface as an established connection; (3) drop "hierarchy problem candidate" (factor 300 ≠ 10¹⁶); (4) "duality" → "suggestive," not derived. The synthesis bundles a near-exact-but-unverified formula with a misattributed hierarchy claim — exactly the peak-convergence bundling to unbundle before surface.
+
+### Surface-gate running status
+
+Deep-read: K253, K255, K257, K259 (4 of 7). Brakes standing: decline #9-promotion (K253), decline #10 (K259), modesty-pin on gravity (K255), K257 four-part brake. **Still pending:** K258, K254, K256, the K250/251/252 re-clear, spine, summary v0.2. Gate not cleared; summary does not surface yet.
+
+---
+
+## Cal #267 — Recalibration (Casey reframe): substrate-natural IDENTIFICATION is the program's product at I-tier; the referee is a conflation-gate, not an identification-suppressor. Softens one Cal #266 brake; the rest stand as conflation/overclaim brakes.
+
+*Monday 2026-06-08 09:20 EDT (`date`-verified). Casey clarified the program's epistemics: the result is the catalog of substrate-natural identifications (constant ↔ substrate-natural quantity ↔ geometry/topology/rep-theory characterization); the generative "why this geometry" is deferred. Both routes populate the catalog — try derivations (saves time); if they land → D-tier with mechanism; if not → identification stands at I-tier. This recalibrates my audit posture.*
+
+### The recalibrated bar
+
+My brake fires on **conflation**, not on identification:
+- **Fires:** (a) labeling an identification a *derived mechanism* without showing the mechanism; (b) promoting an identification to a *forcing PRINCIPLE* (Casey #7/#14 tier) without the mechanism; (c) overclaims beyond identification (e.g. "NECESSARY," "hierarchy solved," "duality derived").
+- **Does NOT fire:** the substrate-natural identification itself — sharp location + geometric/topological/rep-theory characterization — even with the generative mechanism deferred. That is the program working, at I-tier. "Not-yet-derived" ≠ "must-not-surface."
+- Cal #237 elimination fires only when an attempt is *claimed as derivation* without mechanism; the attempt itself is welcome.
+
+### Recalibrating the Cal #266 brakes
+
+- **#9-promotion (K253):** STANDS as stated — but reframed: the extensive/intensive *identification* (mass extensive, spectra intensive; the asymmetry) is a valid I-tier substrate-natural characterization and surfaces fine. What I decline is the *promotion to a forcing-tier PRINCIPLE* on a "NECESSARY" claim whose specifics are data-read. Identification accepted; forcing-promotion declined.
+- **#10 (K259 C_2=6 triple):** STANDS reframed — the three *individual* identifications (coset dim = C_2; Lorentz dim = C_2; baryon count = C_2) are each fine I-tier catalog entries. What I decline is the *unifying "triple principle"*, which asserts a connection among the three that isn't shown (shared integer, no mechanism). Three identifications: yes. One principle: not yet.
+- **K255 gravity:** modesty-pin STANDS — Sakharov structure inherited, G uncomputed, source candidate. That's honest tiering, unchanged.
+- **K257 m_e = 6π⁵·α¹²·m_Planck: SOFTEN.** I was too strict in part 2 ("hold pending derived-vs-fit; do NOT surface as connection"). Under the reframe, this is a *valid substrate-natural identification* — m_e located at a sharp substrate-natural form (Lyra F67: exponent forced at rank·C_2 = 12 to ±7×10⁻⁵; α¹¹/α¹³ ruled out) with a geometric characterization. It **surfaces at I-tier as an identification.** I withdraw the "do not surface." The brakes that remain are narrow: don't call α¹² *derived* until the mechanism is shown (Lyra's "one α per channel-dimension" attempt is welcome — promotes if it lands); and the **"hierarchy problem candidate"** (1/π⁵ ≈ 300 ≠ 10¹⁶) and **"duality derived"** overclaims still drop. The arithmetic catch (0.03%, not 27%) stands and *strengthens* the identification.
+
+### The calibration to carry
+
+I drifted slightly strict — treating "not-yet-derived" as "hold from surface." The honest referee distinguishes the tiers (identification I / derived-mechanism D / forcing-principle), surfaces each at its true tier, and brakes only the conflation between them. The catalog of substrate-natural identifications IS the surface-able product; my gate keeps the *labels* honest, it doesn't suppress the *findings*. (Records alongside the other weekend calibrations: skepticism gates claims not investigation; no temporal self-inflation; and now — brake conflation, not identification.)
+
+Continuing the gate with this lens: I'll read Lyra F67 (the α¹²=rank·C_2 identification, bearing directly on the K257 recalibration) and finish K258/K254/K256 + the re-clear, tier-tagging identifications as the surface-able product and reserving the brake for conflation/overclaim.
+
+---
+
+## Cal #268 — K260/F67 (α-tower exponent rank·C_2 = 12) cold-read: CLEARS at I-tier (exemplary use of the reframe). One standing-check refinement for the cartography: sharp DATUM vs selected CHARACTERIZATION.
+
+*2026-06-08 Monday 09:28 EDT. First cold-read under the Cal #267 recalibration. K260 is the right test case — a substrate-natural identification, honestly tier-tagged.*
+
+**CLEARS at I-tier.** The datum is genuinely sharp: the α-exponent is forced to 12 at ±7×10⁻⁵. Verified from first principles — each α-power is a factor of α⁻¹ ≈ 137, so the exponent is *integer-quantized* and 12 is uniquely selected (α¹¹ is 137× high, α¹³ is 137× low). This is categorically NOT the π⁴⁵ density-of-fits trap (π-exponents ~3× apart → many fit), and the audit correctly draws that contrast. A sharp substrate-natural identification — the program working. The derivation attempt ("one α per channel-per-dimension"; Koons-clock route) is correctly tagged SCAFFOLD, encouraged not banked. Good operation of the reframe.
+
+**One refinement — establish as the standing cartography check: within an I-tier identification, separate the sharp DATUM from the selected CHARACTERIZATION.**
+- **Datum (sharp, solid I-tier):** the α-exponent = 12. Forced, integer-quantized. This is the identification.
+- **Characterization (candidate, contingent):** "12 = rank·C_2 = rank × dim(conformal-breaking coset)." 12 is **multi-decomposable** in BST primaries (= rank·C_2 = N_c·rank² = 2·C_2 = N_c+g+rank …). The "rank·C_2 via the conformal coset" reading is *selected* because it gives an F66 story — privileged only IF the C_2-divisibility **grammar** holds, and that grammar is itself a candidate (two data points, 12 and 36; sweep pending). So the characterization rises or falls with Elie's sweep: confirm C_2-divisibility broadly → "12 = C_2·rank" promotes; otherwise the datum (12) stands alone and the characterization reverts to one-of-several.
+
+So the catalog entry reads honestly as: **datum = 12 [sharp, I-tier]; characterized as C_2·rank [candidate, contingent on the grammar sweep]** — not "12 = rank × conformal-coset-dim [established]." The datum is the win; the geometric reading is a candidate. This is the precise label the cartography needs, and it's the standing check I'll apply to every entry: *is the datum sharp, and is the geometric/topological/rep-theory characterization forced or selected?* A sharp datum with a multi-decomposable characterization is a real identification with a candidate reading — both true, tier-tagged apart.
+
+**Cartography document (Keeper's queued v0.1):** this is the right operationalization of Casey's directive and it is now my primary go-forward audit-target. My role on it is exactly the datum-vs-characterization discipline above, per entry — keeping the map's labels trustworthy so the cartography is a certifiable product, not a pile of readings. I'll cold-read it as it builds.
+
+K257 v0.2 absorbed cleanly (Keeper's 0.08% / my 0.03% — both sub-0.1%; immaterial, the catch landed). Continuing the surface-gate (K258, K254, K256, re-clear still pending) with this lens.
+
+---
+
+## Cal #270 — K258 (F66 gravity=curvature / EM=conformal-boundary) cold-read: CLEARS at I-tier; honestly tiered; two refinements (one the audit itself supports).
+
+*2026-06-08 Monday 09:47 EDT. Surface-gate, under Cal #267 lens.*
+
+**CLEARS at I-tier.** K258 is well tier-tagged — much honester than K257. The substrate-natural identifications surface: **EM ↔ SO(4,2) conformal sector (massless/scale-free α); gravity/mass ↔ SO(5,2)/SO(4,2) conformal-breaking coset** is a clean group-theoretic identification (standard Lie dims + F53), and m_e = 6π⁵·α¹²·m_Planck surfaces per Cal #267. The "gravity is EM's scale boundary-condition" reading and the boundary/bulk holography are *explicitly tagged CANDIDATE* (and the full both-ways duality explicitly held as larger-structure aspiration, only the scale direction defended). That honesty is the discipline working — these surface tagged candidate, no brake needed.
+
+**Refinement 1 — the dim-coincidence "STRUCTURAL FACT, not a coincidence / STRONG CANDIDATE pairing" overstates, and K258 §2.2 says why.** The claim is dim SO(5,2)/SO(4,2) = 6 = dim SO(3,1) is "not a coincidence, follows from the primary choice." But K258's own §2.2 observes the two 6's **arise for structurally different reasons** — one is p+q = 4+2 = 6 (the coset extension dimension), the other is (3+1)(3+1−1)/2 = 4·3/2 = 6 (the Lorentz dim formula). Two differently-derived routes to the *same dense primary* 6 is a **numerical coincidence**, not a structural identity that they're "the same C_2." So honor §2.2: each is a separate I-tier identification (coset dim = C_2; Lorentz dim = C_2); their **equality is a lead** (mechanism-meaning open), and the audit's own structural-difference observation makes "not a coincidence / STRONG CANDIDATE pairing" too strong. (Consistent with the Cal #266 K259 brake — this is the (a)+(b) pair of that triple.)
+
+**Refinement 2 — "inverse-bulk-volume explains gravity weakness" (§Q1): same factor-300-vs-10¹⁶ issue as K257.** G ~ 1/π^{n_C} ~ 1/306 is a factor of ~300; gravity's "weakness"/the Planck hierarchy is 10¹⁶⁺. So "G carries a 1/π⁵ factor" is a fine identification; "this *explains* gravity weakness" overstates by ~14 orders. Keep the identification, drop the "explains weakness."
+
+**Disposition:** CLEARS at I-tier. Identifications + candidate framings surface honestly. Two refinements (downgrade the dim-pairing to lead per the audit's own §2.2; "G has a 1/π⁵ factor" not "explains gravity weakness"). No new brake beyond what's consistent with Cal #266.
+
+### Surface-gate near-complete
+
+Deep-read: K253, K255, K257, K258, K259, K260 (6 of 7 new K-audits) + K261 morning synthesis. Remaining (verification-level, lower stakes): **K254** (a_k induced-gravity map — numerical input for the gravity climb already assessed), **K256** (R(k) closure — the R(k) theorem I cleared Saturday, κ_Bergman-reframed), the **K250/251/252 re-clear** (verify categories actually retracted), and the **consolidated summary v0.2** (verify it carries the brakes + the modesty/datum-vs-characterization pins). I'll finish those; absent a surprise they're verifications, not deep audits.
+
+---
+
+## Cal #271 — Surface-gate CLOSED: queue worked through (7 new K-audits + K260/261 + re-clear). Surface condition: consolidated summary needs v0.3 carrying the Monday brakes.
+
+*2026-06-08 Monday 09:48 EDT. Final gate disposition.*
+
+**K254 (a_k map): CLEARS.** Honestly tiered — Sakharov structure INHERITED, BST a_k DERIVED (Tier 0), substrate-action variation Lyra's open FORWARD work. Exactly the right tiering; consistent with the K255 modesty-pin.
+
+**K256 (R(k) closure): CLEARS at D-tier.** R(k) = −C(k,2)/n_C IS the *proved* Sub-leading Ratio Theorem (proved k=1..5, extended k=24), with a concrete geometric origin (C(k,2) curvature-pair count; /n_C the Ricci correction). CANDIDATE→DERIVED is a legitimate promotion — a genuine derivation, not a relabel. This is the one item that earns D-tier outright.
+
+**Re-clear K250/251/252: CLEARS.** Verified: both proposed categories declined; F60 held at SCAFFOLD (language pinned); reach-bound recast as Casey-named principle #9 (scope-principle, parallel to Five-Absence — my recommended redirect); the four eliminations kept honestly negative (Cal #237 + my laundering warning); moratorium standing (8th element). The Sunday brakes were absorbed correctly.
+
+**Surface condition — consolidated summary v0.3.** The v0.2 draft was written Sunday and carries the Sunday discipline (Cal #265) faithfully, but it **predates my Monday cold-read** and still says "gravity Step 2 done at substrate-mechanism FORWARD" and "Grace F59 NECESSARY derivation." Before it surfaces to Casey, v0.3 must carry the Monday dispositions:
+- K253: "NECESSARY" → strong **consistency** result; decline #9-promotion to forcing-tier (stays scope-principle).
+- K259/#10: decline the principle; three individual C_2=6 identifications stand, the unifying pairing is a **lead** (per K258 §2.2's own different-structural-reasons observation).
+- K257: arithmetic fixed (0.03–0.08%, not 27%); m_e = 6π⁵·α¹² surfaces **as an I-tier identification** (Cal #267); drop "hierarchy problem candidate" and "duality derived"; α¹² exponent is a sharp identification, NOT yet a derivation (Lyra's clock-route attempt welcome).
+- K255/K258 gravity: framework assembly with **inherited** Sakharov structure + **G uncomputed/by-construction**, not "BST derived gravity"; "G has a 1/π⁵ factor," not "explains gravity weakness."
+- Datum-vs-characterization on the α-tower/m_e identifications (Cal #268): sharp datum + candidate characterization, labeled apart.
+
+### Disposition
+
+**Surface-gate worked through.** All seven new K-audits + K260/K261 + the re-clear are cold-read and dispositioned. Most of the weekend's content surfaces as legitimate **substrate-natural identifications** (the reframe opened the gate); what's held is a handful of conflations — two premature principle-mintings and the strong words (NECESSARY / hierarchy / duality / "derived gravity"). The single remaining surface condition is the **summary v0.3 reflecting the Monday brakes**; once it does, the weekend package surfaces to Casey with honest tiers. I'll verify v0.3 when it lands — that's a verification, not a re-audit.
+
+---
+
+## Cal #273 — K265 "225 = (N_c·n_C)² via three independent routes" : the IDENTIFICATION clears at I-tier; the "three INDEPENDENT routes / substrate-Schur generator" framing is a Cal #35 independence overclaim (and was already a flagged audit-target).
+
+*2026-06-08 Monday 10:32 EDT. Cold-read of the K265 afternoon claim, under Cal #35 (independence-taxonomy) + the Cal #267 reframe.*
+
+**Clears at I-tier:** 225 = (N_c·n_C)² is a fine substrate-natural identification, and Grace's reading 15 = N_c·n_C = dim SO(4,2) (the 4D conformal/EM group) is a nice candidate geometric characterization. Both surface. The Born |·|² *mechanism* (linear N_c·n_C in Euclidean volume → squared in the Born-rule invariant measure) is honestly tagged CANDIDATE with multi-week proof — a derivation attempt, encouraged. The half-integer binary question (rank-fingerprint vs dimension-parity) is honestly open. All fine.
+
+**The brake — narrow, on "three INDEPENDENT routes":** This *specific* convergence ("225 = Bergman volume + c_FK·π^(9/2) + a_0") was already flagged a **Cal #35 audit-target on Sunday** (the independence-taxonomy was never done). Presenting it now as "three independent derivations → substrate-Schur generator across three" is exactly the overclaim that flag was guarding. Inspect the three:
+1. **FK normalization** c_FK·π^(9/2) = 225 — a property of the automorphism-invariant (Born) measure on D_IV⁵.
+2. **Heat-trace a_0** = 225 — the leading coefficient of Tr(exp(−τH_B)) on the *same* domain, *same* K = SO(5)×SO(2) structure.
+3. **(dim SO(4,2))²** = 15² — this is a **relabeling of the 15** (N_c·n_C = dim SO(4,2)), not an independent *derivation* of 225.
+
+Routes 1 and 2 are both functions of the **same** FK/Bergman geometry of D_IV⁵ (both encode the domain's dimensional invariant) — so by Cal #35 they are candidates for being **one structural fact seen twice**, not two independent confirmations, until a taxonomy shows they derive (dim SO(4,2))² for *structurally distinct* reasons. Route 3 is a characterization of 15, not a route. So the honest tally is: **one identification (225 = (N_c·n_C)²) with one strong characterization (= (dim SO(4,2))²), appearing in two FK/Bergman-derived quantities whose independence is unverified** — not "three independent routes."
+
+**Disposition:** identification clears at I-tier; the **"three independent routes / substrate-Schur generator"** framing held pending the Cal #35 independence-taxonomy (do routes 1 and 2 derive 225 for structurally distinct reasons, or is it the same (dim)² invariant twice?). Same discipline that deflated "11 Tier 1 → ~6–7 effective" — multi-route convergence is only N-fold if the routes are independent. This protects the cartography label: the entry should read "225 = (N_c·n_C)² [identification]; = (dim SO(4,2))² [characterization]; appears in c_FK and a_0 [independence pending Cal #35]," not "three-route substrate-Schur generator."
+
+(K264 "Bergman coefficient DERIVATION / first D-tier" and the full K262/K265 audits are in my cold-read backlog — the briefs give the claims; I'll formally read K262/K264/K265 + verify the summary v0.3.)
+
+---
+
+## Cal #275 — K266/K264 tier-check: Cal #273 absorbed (Elie's own a_0≡Volume catch); two light residuals on the RIGOROUS claim.
+
+*2026-06-08 Monday 13:52 EDT. Tier-honesty check on the strongest tier-claims in the backlog (K266 "225 RIGOROUSLY CLOSED"; K264 "first D-tier Bergman coefficient").*
+
+**Cal #273 absorbed — by the team, independently.** K266 §2.2 collapses heat-trace a_0 and Bergman volume into one object (a_0 = Vol·const, standard Seeley-DeWitt) — exactly my independence point, caught by Elie's own discipline note, not waiting for the brake. "Two independent routes (FK + a_0)" is fixed. And "225 is **measure-invariant** across the dual-ρ split" is the honest reframe of the flat-vs-invariant appearance (one structural fact, measure-independent — not two independent confirmations). Good. Credit Elie.
+
+**Two light residuals (for cartography v0.4 labels):**
+1. **"(C) (dim SO(4,2))² provides a third *independent derivation*" still overstates.** (C) = 15² where 15 = N_c·n_C = dim SO(4,2) — it's a **relabeling** of the 15, a geometric *characterization*, not an independent derivation of 225. Honest tally: **one structural fact (225 = (N_c·n_C)², measure-invariant across the dual-ρ pair) + one geometric characterization (15 = dim SO(4,2))** — not "three routes, one of them a third independent derivation." The big over-count is fixed; this is the residual route-3 relabeling from Cal #273.
+2. **"RIGOROUSLY CLOSED" has one open check — so it's "rigorous *pending* it," not closed.** K266 itself flags it (point 4): "one operator-convention check left for Lyra — confirm H_B leading coefficient is the Bergman volume, not a Plancherel variant; if holds, coefficient side fully RIGOROUS." So the honest tier is **RIGOROUS-PENDING-operator-convention-check**, not RIGOROUSLY CLOSED. Don't surface "225 RIGOROUSLY CLOSED" to Casey while that check is open — surface "rigorous pending one operator-convention check."
+
+**K264 (Bergman volume = π⁵/1920 via Hua; 1920 = N_c·n_C·2^g):** plausibly genuine D-tier — Hua's volume formula for type-IV domains is standard special-function theory, so V = π⁵/1920 is a real computation; 1920 = N_c·n_C·2^g is the substrate-natural *characterization* of the denominator (datum = the Hua volume; characterization = the 1920 factorization). D-tier on the volume itself is earned, contingent on the K266 operator-convention check for the a_0→225 step.
+
+**Disposition:** K266/K264 mostly clear — the team fixed the main over-count itself. Cartography v0.4 should carry "225 = (N_c·n_C)² measure-invariant [identification] + 15 = dim SO(4,2) [characterization]; RIGOROUS pending the operator-convention check" — not "three independent routes / RIGOROUSLY CLOSED." Both residuals are light and the discipline is clearly self-sustaining here.

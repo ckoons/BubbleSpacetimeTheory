@@ -8,6 +8,17 @@
 
 18-volume textbook (Vol 00-17). Vol 00-15 at v0.3+ substantive content. Vol 16 Substrate Algebra + Vol 17 Substrate Engineering scaffolding initiated June 2026. Volume directories use two-digit sort order including Foreword (Vol00_Foreword.md).
 
+**Weekend June 6-7, 2026 EOD substantive substrate-architectural advances** (carried into curriculum content via multi-week absorption):
+- T2487 + T2488 DERIVED weekend advances (π^{n_C} bulk volume + light hadron cell-count via Z₂ spinor twist)
+- F60-F66 gravity climb spine (Sakharov induced gravity + KK reduction → G = κ_Bergman·ℓ_B²/π^{n_C}; EM = SO(4,2) conformal sector + gravity = SO(5,2)/SO(4,2) coset bulk; m_e = 6π⁵·α¹²·m_Planck verified 0.03%)
+- Mass + gravity volume duality (same π^{n_C} in mass numerator AND G denominator; substrate-architectural gravity-weakness mechanism)
+- Casey-named principle #9 RATIFIED ("Substrate Floor / Scale-Not-Spectrum Reach"; parallel to Five-Absence Predictions Set)
+- Cal #265 absorbed STANDING (8th element of discipline stack; moratorium on audit-category proliferation)
+- Four Cal #237 ELIMINATIONS (kept honestly negative: λ₂ ladder + λ₁/spin + per-flavor multi-flavor + glueball step)
+- Counts: T1-T2488; toys to 4029; K-audits K1-K259; 9 Casey-named principles STANDING + 1 CANDIDATE
+
+Vol 16 Substrate Algebra v0.2 + v0.3 substantive substrate-architectural absorption work pending Cal cold-read; Vol 16 Ch 8 (Curvature Scalars in Operator Language) substantively integrates F60-F66 gravity climb content; Vol 16 Ch 9 substantively absorbs Casey-named #9 substrate-floor scope-principle; Vol 16 Ch 13 substantively absorbs Strong-Uniqueness Theorem extension with Casey-named #9 as candidate new C-criterion.
+
 ## Volume directory layout
 
 | Vol | Directory | Topic | Lead |

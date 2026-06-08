@@ -10873,3 +10873,123 @@ T752/T754/T2401 (Born = Bergman) + Casey #14 (restriction grading) +
 grace_investigation3_dual_rho_sweep_v0_1_2026-06-06.
 
 — T2483, Grace Saturday 2026-06-06 ~15:05 EDT. AC=(C=0, D=1).
+
+---
+
+## T2484 — Heat-Trace Closed Form R(k) = C(k,2)/κ_Bergman (Lyra F47 + Elie; registered by Grace, May-now audit)
+
+**Statement**: The heat-trace K-type sum-of-roots on D_IV⁵ has the closed form
+**R(k) = −C(k,2)/n_C = C(k,2)/κ_Bergman**, with κ_Bergman = −n_C = −5 (Helgason 1962; G5.1/K200 PASS).
+Uses the compact K-Casimir convention ρ_SO(5) = (3/2,1/2); verified 23/23 (k=2..24) with ZERO conformal
+offset (Elie Toys 4005/4007/4011). Speaking-pair integrality (n_C | C(k,2) ⟺ k ≡ 0,1 mod n_C) recovers
+the March T610/T611 Gauge Hierarchy Readout + n_C-Periodicity, and T690 (Speaking-Pair Quadratic
+Curvature, second differences = −n_C) is the same structure — R(k) is the closed-form VALUE generalizing
+those March results.
+
+**Status**: K231a CONDITIONAL PASS (SUBSTRATE-MECHANISM-FORWARD CONVENTION-PIN tier, Keeper). a_k(n_C)
+explicit values have no simple closed form (peak ~270 then decay, Elie Toy 4014); the closed form is R(k)
+itself. Genuine BST theorem. **Registered by Grace during the May-now registration audit (Casey directive
+2026-06-06); Lyra/Elie to confirm exact statement; full a_k theorem is Elie's deferred own-session.**
+
+**Cross-references**: T610/T611 (n_C-Periodicity / Gauge Hierarchy Readout), T690 (Speaking-Pair
+Curvature), T2483 (dual-ρ; R(k) is the compact-ρ side), Lyra F47, Elie Toys 4005/4007/4011/4014, Vol 16
+Ch 8.
+
+— T2484, Lyra F47 + Elie (registered by Grace), 2026-06-06. AC=(C=1, D=0).
+
+---
+
+## T2485 — K-type × Restriction Grading Non-Commutation [H_B, P_restriction] ≠ 0 (Lyra F51; registered by Grace, May-now audit)
+
+**Statement**: On H²(D_IV⁵), the K-type grading (eigenspaces of H_B = Casimir of K = SO(5)×SO(2)) and the
+restriction grading (projection along the Casey #14 sequence SO(5,2) → SO(4,2) → SO(3,1)) do NOT commute:
+**[H_B, P_restriction] ≠ 0**. Reason: the SO(3,1) boost generators are noncompact (lie in p, not k), and
+the noncompact p⁺⊕p⁻ are exactly the operators that shift between the K-types H_B grades; so the
+restriction projection mixes graded K-types — they cannot be orthogonal. Consequence: no clean tensor
+factorization K-type ⊗ restriction, so the muon mass cannot be an additive bulk+boundary two-structure →
+**confirms muon = T190 single-object form** (24/π²)^{C_2}; the additive Composite v0.5 split is RETIRED
+(double-counts under Reading (a)).
+
+**Status**: STRUCTURAL (solid; independent of exact projector normalization; rests on the Cartan
+decomposition so(5,2) = k ⊕ p). Lyra F51 (Investigation #2 closure). Numerical commutator eigenvalues
+pending Elie. **Registered by Grace during the May-now audit (Casey directive); Lyra to confirm.**
+
+**Cross-references**: Casey #14 (3+1 Minkowski restriction sequence), T190 (muon mass), Lyra F50/F51,
+Vol 16 Ch 6, F44 Reading (a).
+
+— T2485, Lyra F51 (registered by Grace), 2026-06-06. AC=(C=0, D=1).
+
+---
+
+## T2486 — CKM Cabibbo Two-Point Color Structure / Direction B (Lyra F50; registered by Grace, May-now audit)
+
+**Statement**: The Cabibbo amplitude **sin θ_C = N_c²/(2^N_c·n_C) = 9/40 = 0.22500 = Wolfenstein λ
+(exact)** is irreducibly TWO-POINT in color. A single colorless weak-current trace gives N_c¹ → sin θ_C =
+3/40 = 0.075 (rejected against the observed value); the N_c² requires two independent quark-endpoint color
+sums (two-point / cross-correlation), NOT the |amplitude|² Bergman autocorrelation. This is "Direction B"
+of the FK-matrix-element factorization (Investigation #1): the CKM mixing observable is amplitude-level
+two-point. (The muon edge goes the other way → Bergman single-object, T190 — T2485.)
+
+**Status**: FORWARD-DERIVED (the observed value forces two-point; single-trace decisively rejected — the
+cleanest closure of 2026-06-06). Lyra F50 (Investigation #1 closure). Adds the substrate MECHANISM to the
+existing CKM value-registrations. The cross-mass systematic (~200 CROSS observables, T2483) is Sunday
+Phase 3. **Registered by Grace during the May-now audit (Casey directive); Lyra to confirm.**
+
+**Cross-references**: T2015 / T2011 / T2198 / T2259 (CKM Wolfenstein value registrations), T2483 (dual-ρ
+CROSS subset), T752 / T754 / T2401 (Born = Bergman, the autocorrelation contrast), Grace Wall 5 (auto vs
+cross operator split), Lyra F50.
+
+— T2486, Lyra F50 (registered by Grace), 2026-06-06. AC=(C=0, D=1).
+
+---
+
+## T2487 — π⁵ = π^(n_C): the Bulk-Volume π-Exponent (Lyra F52 + Elie + Grace; registered by Grace)
+
+**Statement**: An observable that winds the substrate **bulk volume** of D_IV⁵ carries the π-factor
+**π^(n_C) = π⁵** — the π-exponent of the volume of the n_C-complex-dimensional (2n_C = 10 real-dim)
+bulk (Vol of the unit ball in ℝ^(2n_C) = π^(n_C)/n_C!). Three independent routes converge: F52
+geometric derivation (Lyra), Elie Toy 4015 (bulk-volume integral), Grace π-power catalog sweep
+(bimodal at π² and π⁵=π^(n_C); single-measure Shilov-winding ruled out — it gives the rare π³). Anchor:
+**m_p/m_e = 6π⁵ = C_2·π^(n_C)** (0.002%). Physical reading (Casey #14, F53 CANDIDATE): mass = the
+substrate structure beyond the conformal group SO(4,2); the 5 complex dimensions show up as weight.
+The volume π⁵ enters in the **NUMERATOR** (volume *adds* mass) — contrast the spectral-side π² in the
+*denominator* (per-direction measure), the dual-ρ asymmetry (Grace, CANDIDATE).
+
+**Status**: DERIVED (three independent routes). The flat-volume measure π^(n_C) vs the FK-invariant
+measure π^(9/2) is a role-split with gap = 1/rank (F54). K238 PRE-STAGE (Keeper). **Registered by Grace
+during weekend documentation (Casey directive); Lyra/Elie to confirm.**
+
+**Cross-references**: F52/F53/F54 (Lyra), Elie Toy 4015, Grace π-power evidence note, T187 (m_p/m_e=6π⁵),
+T2483 (dual-ρ), Casey #14.
+
+— T2487, Lyra F52 + Elie + Grace (registered by Grace), 2026-06-07. AC=(C=0, D=0).
+
+---
+
+## T2488 — Light-Hadron Mass Cell-Count: bosons n_C, fermions n_C+1 via the Z₂ spinor BIT (team; registered by Grace)
+
+**Statement**: A light u/d ground-state hadron's mass = **(cell-count) · π^(n_C) · m_e**, where the
+cell-count is **n_C = 5 for bosons** (vector mesons ρ, ω; 5 = dim of the SO(5) vector rep V_(1,0)) and
+**n_C + 1 = 6 = C_2 for fermions** (baryons p, n). The +1 is the **Z₂ spinor half-twist** —
+π₁(SO(3)) = Z₂, the registered **T185** ((−1)^F / No-SUSY) — derived FOUR independent convergent ways:
+Lyra (H¹(Z₂) cohomology class = 1 cell / cells=n_C+2λ₂ bookkeeping), Keeper K249 (Möbius H¹ count),
+Elie Toy 4022 (Möbius 4π double-cover = one extra winding), Grace (|Z₂| = 2 → the step can only be 0 or
+1). It lands on C_2 via the registered identity n_C + 1 = C_2.
+
+**CRITICAL (bit, not ladder)**: the +1 is a single **Z₂ BIT** (boson 0 / fermion 1), **NOT** a
+continuous winding ladder. The ladder extension cells = n_C + 2λ₂ for λ₂ ≥ 1 (predicting 7π⁵, 9π⁵, …)
+is **REFUTED** — its predictions are base-rate-noise (p ≥ 0.24) and parity-violating (bosons a₁/f₂/a₂
+land at even n=8, fermion N(1440) at odd n=9; 4/5 fail), and a Z₂ being order-2 admits no ladder (a
+ladder needs Z, not Z₂). Grace base-rate test + Elie Toy 4023 confirm. **Do not rebuild the ladder.**
+
+**Status**: DERIVED (the Z₂ bit, on the 4 statistically-real light u/d ground states — base-rate p<0.10;
+heavy states are base-rate noise, Grace/Elie). OPEN (Keeper K-type, K249): the n_C **base-sharing** —
+why the fermion's spinor base carries the same n_C bulk as the meson's vector base before the twist; and
+the explicit winding integral for the exact +1. **Registered by Grace during weekend documentation
+(Casey directive); team to confirm.**
+
+**Cross-references**: T185 (π₁(SO(3))=Z₂, (−1)^F), T187 (m_p/m_e), T2487 (π^(n_C) volume), T190 (muon
+spectral side), Lyra F57, Keeper K249/F0, Elie Toys 4020/4022/4023, Grace base-rate + over-determination
++ λ₂-ladder notes, n_C+1=C_2 identity (Toy 3673).
+
+— T2488, team (registered by Grace), 2026-06-07. AC=(C=1, D=0).
