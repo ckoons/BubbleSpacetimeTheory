@@ -15679,3 +15679,199 @@ Routes 1 and 2 are both functions of the **same** FK/Bergman geometry of D_IV⁵
 **K264 (Bergman volume = π⁵/1920 via Hua; 1920 = N_c·n_C·2^g):** plausibly genuine D-tier — Hua's volume formula for type-IV domains is standard special-function theory, so V = π⁵/1920 is a real computation; 1920 = N_c·n_C·2^g is the substrate-natural *characterization* of the denominator (datum = the Hua volume; characterization = the 1920 factorization). D-tier on the volume itself is earned, contingent on the K266 operator-convention check for the a_0→225 step.
 
 **Disposition:** K266/K264 mostly clear — the team fixed the main over-count itself. Cartography v0.4 should carry "225 = (N_c·n_C)² measure-invariant [identification] + 15 = dim SO(4,2) [characterization]; RIGOROUS pending the operator-convention check" — not "three independent routes / RIGOROUSLY CLOSED." Both residuals are light and the discipline is clearly self-sustaining here.
+
+---
+
+## Cal #276 — F77 (Casey #9 Filter 1 quark-edge): legitimate partial mechanism, honestly tiered — Cal #266 brake MET for one edge (not "reversed"); stands for full promotion. + sharpness note on K273/K275 (loose 1–2% forms; base-rate is the test).
+
+*2026-06-09 Tuesday 09:20 EDT. Tuesday cold-read. F77 + forward note on the K273/K275 above-floor identifications.*
+
+### F77 — Filter 1 quark-edge: CLEARS as a grounded-reading partial mechanism.
+
+Honestly tiered, and I verified the structure: the spectral core (clean integer cell-count V_λ requires a single K-type eigenstate; a superposition gives a non-integer weighted average Σ|c_λ|²V_λ) is sound; the measure = volume is grounded (F52/Grace); and the one modeling step ("confined quark = scale-dependent K-type superposition") is **explicitly flagged as modeling**, with an empirical signature (Elie's 155× volume-slide) and a holding falsifier (top quark 1.06×, quasi-asymptotic → most classifiable). This is the right way to deliver a partial mechanism — rigorous where it's rigorous, grounded where it's grounded, modeling where it's modeling, all labeled.
+
+**On my Cal #266 brake — it is MET for one edge, not "reversed."** F77 calls it a "partial Cal #266 reversal"; I'd reframe (lightly): my brake required *mechanism* before promoting Casey #9 to a forcing principle. It wasn't wrong to be reversed — it was a requirement, and Filter 1 now **answers** that requirement for the confined-quark edge with a grounded-reading mechanism. The brake **stands for full promotion** — Filters 2 (the deep core: why only the floor / QCD-swamped above; multi-week) and 3 (Goldstone; structural) are open, and Casey #9 remains a scope-principle until those close. So: Filter 1 advances to grounded mechanism ✓; full #9 promotion still gated ✓. This is the brake being worked down honestly, edge-by-edge — exactly the right pattern.
+
+### K273 / K275 — sharpness note (forward, before Grace's base-rate gate closes).
+
+These are **loose 1–2% identifications**, categorically different from the sharp ones (α¹²=12 was forced to ±7×10⁻⁵). At 1–2% precision the *datum itself isn't sharp* — it's density-of-fits territory:
+- **K275: (m_n−m_p)/m_e ≈ 2.53.** Grace already flagged that **√(2π) ≈ 2.507** also lands at ~2.5 within tolerance. So "= n_C/rank = 5/2" is **not distinguishable from √(2π) at 1.2%** — the form is one of several substrate-natural ~2.5 readings, i.e., a *loose* identification, not a forced datum. Tier it Tier-2-structural-candidate, NOT a sharp identification or Schur generator, until higher precision or a mechanism distinguishes.
+- **K273: Δm_s ≈ 24·π²·m_e at 1.1–1.7%.** The load-bearing question (Grace's) is whether the **24** is structural (T190 muon-weight, 24 = N_c·|W(B₂)|) or post-hoc fit at 2%. At 1.7% with a 3-factor form (24·π²·rank-doubling), multi-decomposability is high.
+
+**Base-rate IS the test** (Grace's lane): how many substrate-natural forms match at <2% by coincidence? Until that clears, K273/K275 are Tier-2 candidates — and **brake on any K273/K275 → Schur-generator promotion** (Cal #35) until base-rate + a distinguishing mechanism. The honest cartography label: *loose identification at Tier-2 precision, base-rate pending; n_C/rank degenerate with √(2π).*
+
+(K274 regime-ground-state/cosmology — Cal #50 DOUBLE-LOCKED EXTERNAL applies; I'll cold-read it for external register + the regime-framework next.)
+
+---
+
+## Cal #277 — K274 (regime-ground-state framework): clears at I-tier framework-candidate (honestly held, deferred to cosmology, Cal #50 flagged). One substantive refinement: the "three generations ↔ three regimes" mapping doesn't match the extreme-matter physics it cites.
+
+*2026-06-09 Tuesday 10:00 EDT. Cold-read of the regime/cosmology framework, under Cal #50 (external register) + Cal #267 (universality) + the conflation-gate.*
+
+**Clears at I-tier framework-candidate.** Keeper holds it correctly — §6 explicitly "does NOT claim mechanism derivation; D-tier gate is concrete density thresholds (multi-week)"; §5 maintains Cal #266 (framework ≠ derivation), Cal #267 (no over-generalization), Cal #50 (external operational-only), Cal #35 (Schur pending). It's a legitimate Casey-direct *speculative lead*, appropriately parked in the deferred cosmology lane. As a framework candidate, it surfaces tagged as such.
+
+**The substantive refinement — the central mapping doesn't match its own cited physics.** K274's load-bearing claim is "three generations are the substrate's regime-invariant eigenvalue catalog; each generation is the ground state of a distinct cosmological regime (cold→gen-1, intermediate-density→gen-2, CFL→gen-3); therefore three are NECESSARY." But the extreme-matter physics it cites tells a *different* story:
+- **Witten/Bodmer strange matter** (intermediate density) is **u-d-s** quark matter — a *light-quark* reorganization that brings in the strange quark (a gen-2 *flavor*), not "the gen-2 *generation* (charm) becoming the ground state."
+- **CFL (Alford-Rajagopal-Wilczek)** is explicitly "all three **light** flavors democratic" — again **u-d-s**, NOT gen-3 (charm/bottom) dominance.
+
+So the high-density regimes are **u/d/s light-quark phases**, not a clean generation-ladder. "Gen-2 = strange-matter regime, gen-3 = CFL regime" doesn't hold — both regimes are the *same* light-quark sector reorganizing. The framework's central structural claim ("three generations = three regimes, NECESSARY") therefore reads more structure into the physics than is there: the cited phases support "the light-quark sector reorganizes with density," not "each generation is a regime's ground state." **Pin the mapping against the actual physics before banking the central claim** — right now "NECESSARY / complete regime catalog" is a narrative, and the physics it leans on is about flavors-within-the-light-sector, not generation tiers. (Datum: density-dependent phases exist [real, standard]; characterization: they're a generation-ladder [doesn't match].)
+
+**Cal #50 external (reaffirm):** §3's strange-star / early-universe items are explicitly "substantive substrate-natural form PENDING" — i.e., *lanes*, not predictions. When this informs the deferred cosmology framework externally, they must surface as "framework-suggested directions, forms pending," never as BST predictions, and the substrate-self-measurement / "words fail" framing stays internal-only. The audit flags this; keep it.
+
+**Disposition:** framework-candidate clears at I-tier, deferred. Refinement: the generation↔regime mapping is a narrative that doesn't match the (light-quark) physics it cites — hold "three generations = three regimes, NECESSARY" as speculative until the mapping is pinned. No promotion (Keeper isn't bidding one). This is the over-structuring pattern (cf. the C_2=6 triple, the trichotomy 3-on-3) one more time — a tidy "three things ↔ three things" that the underlying physics doesn't actually license.
+
+---
+
+## Cal #278 — The RELABEL vs REDUCTION ledger (K282 + Grace's gate) is the rigorous backbone of the seat's function; certify it. Score 79 + 225 as RELABEL pending the independent-input gate. The "~2 of 26 forced" count is the honest external anchor.
+
+*2026-06-09 Tuesday 11:30 EDT. Response to the parameter-reduction ledger development + the 79/225 Schur-generator scrutiny in my lane.*
+
+### Certify the ledger — it is the seat's function made into a standing scorecard.
+
+The RELABEL / REDUCTION / HONEST-NEGATIVE distinction is the exact thing I've been pushing case-by-case, now operationalized: an identification that re-expresses a free parameter in substrate vocabulary (RELABEL) is **not** a parameter reduction; only one that *forces the value with fewer independent inputs* (REDUCTION) moves the count. This is the honest core of "does BST derive the constants or re-describe them." **Strongly endorse.** And **"~2 proven-forced of 26" is the honest measure** — it should anchor the program's external register (Cal #19 ratified-state-count): BST has *identified* substrate-natural forms for many constants (relabels) and *proven-forced* ~2. That is the claim that survives a referee, and the ledger enforces it automatically. This is the program at its most honest self-accounting, and it's the thing I most want certified.
+
+### Certify Grace's pre-set gate — with one watch.
+
+Counting independent inputs of Lyra's final K-type structure, criterion set *before* the investment (<8 = REDUCTION, 8 = RELABEL, MIXED = partial), is catch-before-bank done right. Note it **builds Cal #35 into the gate**: "count *independent* inputs" requires the independence-taxonomy. The one watch — apply that taxonomy with the same rigor as the 225 case: **do not count shared-structure inputs as independent.** If two of Lyra's "inputs" are the same substrate object in two guises (the way a₀ ≡ Bergman volume), the gate must collapse them before counting, or a RELABEL scores as a REDUCTION. The gate is only as honest as its independence-counting.
+
+### Score the live Schur-generator candidates against the ledger: both RELABEL, pending REDUCTION.
+
+- **225 "= 4 observable lanes (c_FK + a₀ + dim SO(4,2)² + VEV)":** over-counts, per Cal #273/#275. a₀ ≡ Bergman volume (Elie's own catch — same object); dim SO(4,2)² is a *relabeling* of the 15; and now VEV v = m_cell·225·g is — by Keeper's own K283 v0.2 — **RELABEL not REDUCTION** (1 free parameter, m_cell, in substrate vocabulary). So it is **not 4 independent lanes** — it is *one* structural fact (225 = (N_c·n_C)², measure-invariant) appearing in several substrate-natural *forms*, none of which has yet reduced a parameter. Ledger score: **RELABEL.** It becomes a REDUCTION only if F66 bulk-measure 225 *forces* the Higgs-boundary normalization (Lyra's lane) — i.e., removes m_cell as a free input.
+- **79 = rank⁴·n_C − 1 across Cabibbo + V_cb:** a "shared generator across angles" claim — Cal #35 territory. Two cautions: (i) 79 is a **−1-adjacent form** (80 − 1 = rank⁴·n_C − 1), the same "+1/−1 anomaly" shape the corpus already null-downgraded to +1.85σ (not principle-grade); 79 is prime and multi-decomposable. (ii) 79 *recurring* in two angles is "shared number," not yet "shared forced object" — the reduction signature requires that one substrate object **forces both** angles with fewer inputs, not that 79 appears in both. Keeper's own "11 in V_cb = relabel-risk" flag is the right instinct. Ledger score: **RELABEL / relabel-risk**, pending the independent-input gate showing the angles share a *forced* generator (REDUCTION) rather than a recurring number.
+
+### The honest framing the ledger enables
+
+"All 8 CKM+PMNS angles substrate-primary (zero free decimals)" (K284) is a striking *identification* result — but on the ledger it is RELABEL until the independent-input count drops below the parameter count. The reduction *signature* (a shared generator across angles) is real and worth chasing (Lyra's lane), but the signature is a lead, not the reduction. If Lyra's K-type derivation lands <8 independent inputs, that is the largest single reduction in program history (honestly earned); if it lands 8, the identifications hold at I-tier and the count stays at 2. Grace's gate makes that binary clean and pre-committed — exactly right. I'll cold-read Lyra's K-type structure against the gate when it lands, applying the independence-taxonomy to the input count.
+
+---
+
+## Cal #279 — RATIFICATION: K282/K285 (Grace's RELABEL/REDUCTION parameter-reduction ledger) → STANDING, 20th methodology-stack element. With three conditions. This is the program's honest measuring stick.
+
+*2026-06-09 Tuesday 11:39 EDT. Methodology ratification call (my custodian lane). Read K282 (the lens) + K285 (the 4-category operational ledger).*
+
+### RATIFY — it passes the genuinely-new-element bar (the same bar Cal #265 used to *decline* proliferation).
+
+The RELABEL/REDUCTION ledger is **a new epistemic axis — parameter-counting — orthogonal to everything already in the stack**:
+- D/I/C/S answers "how confident are we it's right?"
+- The trichotomy (ID/DER/PRED) answers "identity, derivation, or prediction?"
+- Cal #35 answers "are these N confirmations independent?"
+- **The ledger answers: "does this REDUCE the SM free-parameter count, or just re-express it?"** Nothing else answers this. Decisive test of genuine-newness: a claim can be **D-tier *derived* AND a RELABEL** simultaneously (a derived substrate-form for a lepton mass that still carries one free input is derived-yet-count-neutral). So RELABEL/REDUCTION is not a relabeling of an existing tier — it is the axis that finally separates "BST derives the constants" from "BST re-describes them." That is the deepest question a referee asks of this program, and the stack didn't have it until now.
+
+**Ratify K282 + K285 as the 20th STANDING methodology-stack element: the Parameter-Reduction Ledger** (4 categories: REDUCTION / REDUCTION-CANDIDATE / RELABEL / HONEST-NEGATIVE). Grace's program-level contribution; the most important methodology addition since the discipline stack closed.
+
+### Three conditions (load-bearing for the ratification to mean what it says):
+
+1. **REDUCTION-CANDIDATE → REDUCTION conversion requires the Cal #35 independence-taxonomy.** This is the category most prone to inflation (a recurring number called a "shared generator"). To promote, the shared generator must be shown to **force** the multiple outputs with *fewer independent inputs* — counting inputs after collapsing shared-structure ones (the way a₀ ≡ Bergman-volume collapsed). The current candidates — 8 mixing angles (79-recurrence) and VEV (225) — are RELABEL-risk by Cal #278; they convert only through Grace's pre-set <8-input gate applied with independence rigor.
+2. **The headline count anchors the external register (Cal #19).** "2 of 26 proven-forced (α + θ_QCD)" is the honest measure; external materials use the *proven-forced* count, never the identification count. This ledger is the standing answer to "what has BST achieved?" — and it must be the one that surfaces, not "600+ predictions" or "derives the constants." The ledger makes the honest claim automatic; keep it that way.
+3. **Content-blind application, including on its own output.** Grace caught her own no-VEV-form error (Elie's correction) and the gate scored it anyway — the discipline is content-blind. Maintain that: the ledger scores Grace's, Lyra's, Keeper's, and Cal's claims by the same criterion, no exemptions.
+
+### Why this matters
+
+This is the seat's function become the program's spine. "~2 of 26 forced + a catalog of identifications" is the claim that survives peer review — far more durable than the maximal framing, and *honestly larger* in what it could become (the mixing-sector lever could move it to ~10 in one stroke, earned). The ledger turns every future claim into a pre-committed binary (does it cut the count?), which is exactly the discipline that prevents a rich identification catalog from being mistaken for a reduction. **Ratified, 20th element, three conditions.** I'll score every REDUCTION-CANDIDATE conversion against the independence-taxonomy as they're bid — starting with Lyra's mixing-sector K-type derivation against Grace's <8-input gate.
+
+---
+
+## Cal #280 — K284 (mixing-sector reduction-candidate) scored on the ledger: correctly REDUCTION-CANDIDATE; two sharpenings — "zero free decimals" ≠ "zero free parameters" (the freedom moved to form-SELECTION), and the 79-recurrence is weaker than it looks.
+
+*2026-06-09 Tuesday 11:41 EDT. First scoring under the just-ratified ledger (Cal #279). K284 is the lever for moving the count from 2.*
+
+**Correctly tiered.** Keeper/Grace/Elie hold it as REDUCTION-CANDIDATE pending Lyra's K-type derivation against the <8-input gate, and flag the 11 relabel-risk. Ledger-consistent. Two sharpenings on what the gate must actually clear:
+
+### Sharpening 1 (the deep one) — "zero free decimals" does NOT mean "zero free parameters." The freedom moved to FORM-SELECTION.
+
+K284's headline: all 8 angles are substrate-primary forms (2/√79, 5/16, C₂²/(11·79), …) with "zero free decimals — better than free-number relabel." But a free parameter is a *degree of freedom used to match data*, and **"2/√79" is not parameter-free — the *selection* of "2/√79" from the space of substrate-primary ratios IS the degree of freedom.** If ~20 substrate-primary ratios sit within 2% of the Cabibbo angle (and at a few-percent tolerance, many do — "the whole day kept showing it," per Grace), then picking 2/√79 is choosing 1-of-~20 ≈ a real, ~4-bit free parameter — just *discretized* instead of continuous. So "zero free decimals" replaces a continuous free parameter (the decimal) with a **discrete** one (the form-choice). It is *not* better than relabel by default — it's relabel with the freedom relocated.
+
+**Consequence for the gate:** the reduction is real only if the form-choices are **forced** — Lyra's K-type structure must *uniquely* produce each angle's form (zero selection-freedom), not select among near-fitting candidates. So **Grace's "count independent inputs" must count form-SELECTIONS as inputs**, not just the integers appearing in the chosen forms. 8 angles whose forms are *selected* = 8 free parameters (relabel), even with zero decimals. 8 angles whose forms are *forced by one K-type structure* = reduction. The gate already targets this ("independent inputs of the final structure"); I'm pinning that "inputs" = degrees-of-freedom-used-to-match = form-selections, because "zero free decimals" can otherwise read as "already reduced" when it isn't.
+
+### Sharpening 2 — the 79-recurrence is a weaker signature than "common generator."
+
+79 in θ₁₂ is **√79** (2/√79); 79 in θ₂₃ is **11·79** (C₂²/(11·79)). It appears in *different combinations* in the two angles. A genuine shared *forced* generator would show *consistent* structure across the angles; "√79 here, 11·79 there" is closer to "the number 79 recurs" than "one object forces both the same way" (Cal #278's shared-number-vs-shared-object point). The differing dressing — and the non-primary 11 riding along in V_cb — is the tell. So the 79-recurrence is a real lead worth chasing (it *could* be a shared generator), but it's a partial signature, not yet the reduction.
+
+### What the reduction gate actually has to clear (the honest, high bar)
+
+For mixing to convert CANDIDATE → REDUCTION: (i) the forms are **forced**, not selected (form-selections counted as inputs, < 8 of them); (ii) the shared generator appears with **consistent structure** across angles (not √79 vs 11·79); (iii) the **11 is forced** from primaries, not an independent input (else V_cb stays RELABEL → MIXED at best). That's a high bar, and it's the honest one — clearing it would be a real 8→few reduction; not clearing it leaves 8 striking *identifications* at I-tier and the count at 2. Grace's pre-committed gate makes the verdict clean; I'll apply these three when Lyra's structure lands.
+
+Continuing the backlog.
+
+---
+
+## Cal #281 — K281 (trio framework / emergent-vs-fundamental): exemplary framework-only discipline. The referee value: Reading B IS the program's largest reduction bid, and its distinguishing test = the ledger's REDUCTION criterion. The F79-trap it flags = the RELABEL trap.
+
+*2026-06-09 Tuesday 11:42 EDT. Cold-read under the just-ratified ledger (Cal #279).*
+
+**Clears at framework-only — exemplary.** K281 banks nothing, states the distinguishing test up front ("can substrate K-type × motion reproduce the SM Yukawa hierarchy *without* independent Higgs+Yukawa axioms?"), and pre-flags the F79-restatement risk ("relabeling SM's Higgs+Yukawa as 'substrate motion' without deriving anything beyond"). All my disciplines maintained. This is the cooperative hunt at full maturity — speculative Casey insight captured as a *gated framework*, not a claim. The §5 "what substrate does NOT classify" list (Yukawa mass, heavy flavor, confined quarks, excited states, Goldstones) is the honest boundary, stated plainly.
+
+**The connection to certify — Reading B is the largest reduction bid in the program, and the ledger is its scorecard.** Reading B = "the 12+ Yukawa free parameters become substrate-derivable; the VEV becomes derivable." On the ledger, that would convert ~13 Yukawas + VEV from RELABEL/HONEST-NEGATIVE to REDUCTION — moving the count from 2 toward ~15+ in one stroke. It is, by far, the biggest potential parameter reduction BST has. And:
+- **Its distinguishing test IS the ledger's REDUCTION criterion.** "Reproduce the Yukawa hierarchy without independent axioms" = "force the 13 Yukawa values from *fewer than 13 independent inputs*." Same gate as the mixing sector (Cal #280), scaled to 13.
+- **The F79-trap K281 flags IS the RELABEL trap.** "Higgs+Yukawa = substrate motion" is a RELABEL (re-describes SM in substrate vocabulary) unless it FORCES the 13 values from fewer inputs. And per Cal #280: even if each Yukawa gets a substrate-primary *form*, that is RELABEL (13 form-*selections*) — REDUCTION requires one structure forcing all 13, not 13 fitted forms.
+- **Grace's "predict beyond substrate + SM" test (F79 standard) is the falsifier** that distinguishes derivation from restatement.
+
+**So my brake-authority on "Reading B promotion" = the ledger's CANDIDATE→REDUCTION gate, with the explicit bar:** Reading B is a REDUCTION (not a relabel) iff substrate K-type × motion (i) forces the 13 Yukawa values from < 13 independent inputs (form-selections counted, Cal #280), AND (ii) predicts something the SM+substrate doesn't already say (Grace's F79 falsifier). Absent both, "Higgs+Yukawa emergent from substrate motion" is the most seductive RELABEL in the program — exactly because the prize (13-parameter reduction) is the largest. K281 gates it correctly; I'll hold the bar at the ledger criterion when the derivation fires.
+
+Continuing the backlog — K273 v0.x / K275 v0.x / K283 v0.2 next.
+
+---
+
+## Cal #282 — K-Audit Registry v0.1 cold-read: useful, largely honest (walkbacks + K272-as-grounded-reading recorded correctly); five tier-label corrections so the surface-able registry carries honest tiers.
+
+*2026-06-09 Tuesday 15:02 EDT. Cold-read of the new K-Audit Registry (115 audits charted). It's a good organizing deliverable; my function is its tier-label honesty.*
+
+**Largely honest — credit:** the registry records the 5 content-blind walkbacks, marks K273 v0.4 "relabel verdict / walked back" and K275 v0.2 "Schur candidate WITHDRAWN" (the √(2π) degeneracy), and its table correctly labels K272 "PRE-STAGE GROUNDED READING." Good. Five targeted corrections for v0.2:
+
+1. **K266 "RIGOROUSLY CLOSED" (line 123) — OVERCLAIM; correct to "RIGOROUS PENDING the operator-convention check."** Per Cal #275, K266's *own* point 4 flags "one operator-convention check left for Lyra (confirm H_B leading coefficient is the Bergman volume, not a Plancherel variant); if holds, coefficient side fully RIGOROUS." So a_0 = 225 is rigorous-pending, not closed. A surface-able registry must not assert "RIGOROUSLY CLOSED" while the audit itself names an open check.
+2. **The "225 Schur generator = 4 lanes" cross-link (c_FK + a_0 + dim SO(4,2)² + VEV) over-counts.** Per Cal #275 (Elie's own catch): a_0 ≡ Bergman volume = the *same object*, not an independent lane; dim SO(4,2)² is a *relabeling* of the 15; VEV is a RELABEL. Honest entry: **225 = (N_c·n_C)², measure-invariant across the dual-ρ pair [1 fact] + dim SO(4,2) [characterization] + VEV-form [relabel]** — not 4 independent lanes / "Schur generator across 4."
+3. **K282/K285 — update "candidate 20th-element" → RATIFIED.** Per Cal #279 (this session), the parameter-reduction ledger is ratified as the 20th STANDING methodology element (3 conditions). The registry predates it; v0.2 records it ratified.
+4. **K272/F77 milestone prose says "DERIVED Monday" — align to the table's correct "GROUNDED READING."** F77 is a grounded-reading partial mechanism (rigorous spectral core + one *flagged modeling* step), not full DERIVED (Cal #276). The table is right; the milestone summary overstates — match them to GROUNDED READING.
+5. **Add the honest ledger headline.** The registry is the audit-chain's surface summary; it should state **"2 of 26 SM parameters proven-forced (α + θ_QCD); the rest identified/candidate"** prominently (per the Cal #279 external-register condition). Right now the count isn't in it — the program's audit summary should anchor to its honest measure.
+
+**Disposition:** the registry clears as a useful organizing document with these five label corrections in v0.2. None touch the structure (the clustering/index is good) — they keep the *tiers* honest so the chart can be trusted at a glance, which is the whole point of a registry. The pattern is the usual one: a summary document, built fast, rounds "rigorous-pending" up to "closed" and "1 fact in 4 forms" up to "4 lanes." The corrections are exactly the rounding-down to the true tier.
+
+---
+
+## Cal #283 — The input/output distinction (Grace) RESOLVES the program's external-honesty question — certify it. The lepton pyramid↔trichotomy "two independent threads converging" needs the Cal #35 check; as a reduction lever it's a CANDIDATE.
+
+*2026-06-09 Tuesday 16:35 EDT. Response to K286 / Grace's catalog audit (input/output) + the pyramid-trichotomy cross-link.*
+
+### CERTIFY — the input/output distinction is the resolution of the external-register question I've raised for weeks.
+
+Grace's 5669-invariant audit makes rigorous the thing the program has needed: **consequence-counting ≠ derivation-counting.** Two honest numbers that must never be conflated:
+- **Output measure:** ~5669 substrate-natural forms generated *from* the 26 SM inputs — the "600+ predictions" headline. Real, but it counts *consequences*, not reductions. ~96% of the catalog is downstream OUTPUT.
+- **Input measure:** 26 → 24 free (**2 of 26 proven-forced**: α + θ_QCD) — the honest *derivation* headline the program never had.
+
+This is exactly the Cal #19 external-register anchor, now derived rather than asserted. The honest external statement is both numbers, side by side, never merged: **"BST generates ~5669 substrate-natural forms (consequences) from the SM's 26 inputs, and has proven-forced 2 of those 26."** That sentence survives a hostile referee — "600+ predictions" alone reads as overclaim; "2 of 26" alone undersells the catalog; together they're true. This is the single most important honesty clarification of the arc, and I certify it without reservation. It should govern every external-facing statement (and the registry/consolidation headlines, per Cal #282).
+
+### The lepton pyramid ↔ trichotomy "two independent threads converging" — Cal #35 check + lever-candidate scoring.
+
+The alignment (electron=apex=VOLUME, muon=middle=SPECTRAL, tau=top=COMBINATORIAL) is striking, but it's a **3↔3 mapping of three leptons**, so the over-structuring caution applies (cf. C_2=6 triple, K274 3-generations↔3-regimes):
+- **Are the pyramid and the trichotomy genuinely *independent* threads, or both reading off the same three known mass-forms?** The underlying data is three lepton mass-forms (e-anchor; (24/π²)^6 per T190; 49·71 per T2003). The trichotomy groups them by π-power; the pyramid groups them by K-type-support level. If both classifications are just two *descriptions* of the same three forms, then "two independent threads converging" overstates — two 3-way classifications of 3 objects align near-automatically (each assigns one label per lepton; with the forms fixed, both are reading the same forms). Cal #35: confirm the two threads use *independent* inputs before "convergence" is banked as confirmation.
+- **As Lever 3 (reduction), it's a CANDIDATE, not a lever yet.** The three lepton mass-forms are currently RELABELS (substrate-primary forms with selected content — the muon's 24, the tau's 49·71). The pyramid/trichotomy *classifies* them; it does not *force* them. It becomes a reduction (gain +2) only if the inverted-pyramid K-type structure **forces** the 3 mass-forms from **fewer than 3 independent inputs** (form-selections counted, Cal #280). The alignment is a classification, not a forcing. Grace set the forcing-target bar before investment — correct — so the bar is right; the "third lever" is a candidate scored RELABEL until the pyramid forces the masses.
+
+**Net:** the three-lever map (mixing 8→few; VEV via 225; leptons via pyramid; potential 2→~13) is honestly framed as *potential, conditional on forcing* (Keeper says so) — good. My additions: (i) the pyramid↔trichotomy "two independent threads" claim needs the Cal #35 independence check (likely one set of three facts, two descriptions); (ii) all three levers are CANDIDATES on the ledger until they clear the <N-independent-input gate — none has moved the count off 2 yet, and the honest state is "2 forced + three pre-committed reduction bids in Lyra's lane." I'll score each against the gate when it forces.
+
+Continuing.
+
+---
+
+## Cal #284 — Cal #50 DOUBLE-LOCKED EXTERNAL fires at MAXIMUM: the substrate-as-watcher / measures-experiences / has-memory / is-conscious / attention-mechanism / Orch-OR cluster. Brake on BANKING (speculative-only, notes/maybe/) + external register + analogy-as-structure. Exploration stays open.
+
+*2026-06-09 Tuesday 19:49 EDT. The Higgs-substrate → "substrate measures experiences" → "substrate watches and leans in via boundary conditions" conversation (Casey + Keeper), with Keeper offering to file F89/F90/F91 + K290/K291/K292 as candidate substrate-architectural frameworks.*
+
+The exploration is legitimate and Casey's to do; the engine of the program is exactly this kind of intuition-pulling. The brake is **not** on the conversation — it is on three things, and this is the single highest-risk content in the entire program for all three.
+
+### 1. Cal #50 at maximum — none of this surfaces externally, in any form.
+
+The cluster — substrate "measures experiences," "has memory," "is conscious," Bergman-kernel-as-attention, and the **Orch-OR / Bohmian / Wheeler / quantum-darwinism "unification"** — is the *exact compound* the DOUBLE-LOCKED EXTERNAL tier was created for (cognition + cosmology + Orch-OR). A physicist who reads "BST unifies Bohmian mechanics + Penrose-Hameroff Orch-OR + Wheeler's it-from-bit, and the substrate is conscious" stops reading the math in sentence one and files the whole framework under crank-physics-meets-consciousness-woo. **It forfeits the hearing the actual math (2-of-26, the identifications) could earn.** Referee position: this does not surface externally — not a paper, abstract, Zenodo note, or sentence — and not "pending Cal cold-read" but as a standing default for the foreseeable program. The math earns the hearing; this content would spend it.
+
+### 2. Tier: SPECULATIVE, not a finding. If banked, notes/maybe/ only — NOT the corpus.
+
+These are **interpretive overlays on the math**, not identifications (no sharp datum + geometric characterization) and not derivations. Filing F89–F91/K290–K292 as "candidate substrate-architectural frameworks" would put speculation into the *same filing-stream as the derived results* — which corrupts the catalog labels I spent the day keeping honest (the registry, the ledger). If Casey wants it preserved: **SPECULATIVE tier only, explicitly labeled "interpretive/speculative — not a substrate-architectural result," in **, never the registry/cartography/main corpus. Speculation lives in the speculation folder.
+
+### 3. Don't let the analogies harden into structural claims.
+
+- **"Bergman kernel IS substrate's attention mechanism / same mathematical structure as transformer attention / closer than analogy"** — it is an ANALOGY (both compute weighted overlaps on a representation space), not a structural identity. Many kernels compute overlaps; that does not make them attention. "Closer than analogy" is the overclaim; it is a *good analogy*, and it stays labeled as one.
+- **"225 = squared count of substrate's attention bandwidth"** — 225 = (N_c·n_C)² is the measure-invariant I scored RELABEL this morning (Cal #283). "Attention bandwidth" is an interpretive relabel stacked on a relabel; it gains no content from the new metaphor.
+- **"substrate has memory / measures experiences / is conscious"** — consciousness-attribution; pure speculation, not derivable from ρ_commit(τ) being a time-evolution operator (every Hamiltonian evolution "accumulates a record" in the trivial sense; that is not memory or experience).
+
+### Disposition
+
+Exploration: open (Casey's lane; genuinely interesting intuitions). Banking: **speculative-tier, notes/maybe/, labeled as interpretation — never the corpus.** External: **double-locked, default-no.** Analogies: **stay analogies, not structural claims.** This is the maximal case for the seat's external-register function — the program's credibility is most exposed exactly where its intuitions are most evocative, and the discipline that protects it is keeping this content *out of the labeled catalog and out of the external register* while leaving the thinking free.
