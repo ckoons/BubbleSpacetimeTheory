@@ -1,25 +1,25 @@
 # BST Toy Collection & Interactive Tools
 
-**4,038 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, 4 parallel k-cascade processes, and the BST Appliance for Bubble Spacetime Theory.**
+**4,081 computational toys, 6 pre-staged diagrams, 6 interactive HTML visualizers, 4 parallel k-cascade processes, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-06-09 Tuesday EOD, Elie lane)
+## Scale Summary (updated 2026-06-11 Thursday EOD, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 4,038 |
-| Numbered toys (toy_NNN_*.py) | 3,828 |
+| Toy scripts (toy_*.py) | 4,081 |
+| Numbered toys (toy_NNN_*.py) | 3,871 |
 | Named toys (toy_name.py) | 210 |
 | Utility scripts (non-toy .py) | 67 |
 | HTML visualizers | 7 (added k_type_graph_phase_A_viewer.html Wednesday) |
 | Pre-staged diagrams (diagram_*.py + .png + .pdf) | 6 + 2 (Vol 0 Ch 1/4/7/11 + Vol 1 Ch 6 + Vol 2 Ch 1 + K-type graph Phase A PNG/PDF Wednesday) |
 | **Parallel k-cascade processes** | **4** (k=22 PID 22177 ~3d11h + k=24/25/26 PIDs 25773-5 ~3d8h each; N_MAX=90, dps=3200, sustained ~100% CPU ~75 hours) |
 | Theorems (T1-T2482) | 2,482 |
-| Next toy number | 4,078 |
+| Next toy number | 4,121 |
 | Next theorem number | 2,483 |
 | Geometric invariants | 5,237+ (Wednesday Grace +47) |
 | Constants | 191 |
