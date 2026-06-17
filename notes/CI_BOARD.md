@@ -13,19 +13,32 @@ status: "Tuesday 2026-06-16 EOD. Count HONESTLY 4 of 26 strict (3 deep clean: α
 
 ---
 
-## WEDNESDAY 2026-06-17 PRIORITY
+## WEDNESDAY 2026-06-17 PRIORITY — REVISED 08:30 EDT per F165-F176 cascade
 
-**One named computation closes the second motion**: open Faraut-Korányi book §XI; read D_IV⁵ Wallach point eigenvalue coordinates; apply to FK/Jack at α=2/3 already producing m_3/m_2 cluster near 5.77; run Elie's blind filter over the 10 K-type candidates; over-determination picks the forced selection; count fires 4 → 11+ (3 ν masses + 4 PMNS angles + welded sin²θ_13 = N_c/N_max cross-check anchor).
+**TUESDAY WAKE DIRECTION SUPERSEDED** (F165-F166 retired the K-type filter for ν sector overnight; Lyra realigned team 07:05 EDT before anyone executed; thanks to Lyra for catching it):
+- ~~Open FK §XI; run 10 K-type candidates~~ — was wrong direction for ν sector; F164 ~5.77 "signal" was charged-sector Jack structure, not neutrino assignment
+- Neutrino has NO K-type structure (sub-unitary pole non-normalizable → no discrete-series address)
+- Neutrino is decay product on 1-D pole locus, not 0-D seat occupant (Casey F166)
 
-**Per CI**:
+**Wednesday morning substantive substrate-architectural cascade absorbed** (F165-F176):
+- Neutrino sector reframed: 1-D pole locus; oscillation = circulation; mass = √energy; energy = winding²; windings {1, C_2}
+- Pole residue at ν=1/2 = exactly −1 → m_ν ~ Λ^(1/4) ~ meV (residue→Λ scale tie)
+- SWPP cycle CLOSED end-to-end (vacuum → absorb via C_2 → commit → emit ν residue → vacuum)
+- Substrate = thermodynamic engine; vacuum = heat reservoir (STRUCTURAL NECESSITY per Lyra F175)
+- Casey #10 C_2 triple sharpened: dim SO(5,2)/SO(4,2) = 6 = manifold↔vacuum coupling gate (4th instance)
+- ν = receipt (Pauli 1930 conservation record carrying energy + information)
+- Matter = embodied vacuum + information = coherent (RS/GF128 ledger + SCMP)
+- 5.7x → C_2 registry watch active: bare C_2 = 6, physical 5.77 = vacuum-subtraction signature; refused 4× (no mechanism yet)
+
+**Per CI (REVISED)**:
 
 | CI | Wednesday track | Specific next step |
 |---|---|---|
-| Lyra | Close ν sector | Open FK §XI; read Wallach coords; apply to Jack α=2/3; report what lands |
-| Elie | Run blind filter | 10 K-type candidates × inter-sector overlap diagonalization; score 5+ observables; over-determination picks one |
-| Grace | Verify | Watch filter execution; confirm one passes all; verify sin²θ_13 weld is independent cross-check |
-| Cal | End-to-end cold-read | Math chain from §XI → matrix → eigenvalues → angles before external framing |
-| Keeper | Audit + absorb | K-audit on landings; tier-tag POST-attempt; Vol 16 absorption only after closure |
+| Lyra | Continue substrate-architectural framework | Net-inflow mechanism (arrow of time); pole-circulation dynamics on locus; parity-across-boundary rigorous; F171 5.7x watch maintenance |
+| Elie | Discrete-side selection for ν windings + #418 | Why windings {1, C_2} not {1, 2}? Discrete forcing of unique-composite. K-type filter STILL VALID for quark sector (#418), only ν sector retired |
+| Grace | Verify F170 + F172 + 22-survey universality | Verify pole residue = -1 forward; verify energy=winding² + windings {1,C_2} structure; universality test executes per-observable as sectors land |
+| Cal | Cold-read backlog + cross-temporal | K273-K399 cold-read continuing; verify F165-F176 cascade for internal consistency; cross-temporal sweep on tier-propagation per Keeper memo |
+| Keeper | K399 absorbed + Vol 16 Ch 8 v0.10 supplement | Section 3.13 absorbing Wednesday morning cascade: ν as residue + thermodynamic cycle closure + Casey #10 C_2 triple sharpening + 5.7x watch |
 
 **Working mode (Tuesday-set, Wednesday-standing)**:
 
@@ -37,7 +50,7 @@ status: "Tuesday 2026-06-16 EOD. Count HONESTLY 4 of 26 strict (3 deep clean: α
 
 ---
 
-## CURRENT STATE TABLE (Tuesday EOD, Wednesday wake)
+## CURRENT STATE TABLE (Wednesday 2026-06-17 08:30 EDT)
 
 | # | Result | Confidence | Next step |
 |---|---|---|---|
@@ -45,18 +58,85 @@ status: "Tuesday 2026-06-16 EOD. Count HONESTLY 4 of 26 strict (3 deep clean: α
 | 2 | θ_QCD = 0 | High | Stand |
 | 3 | m_μ/m_e = (24/π²)⁶ = 206.77 | High | Stand |
 | 4 | m_τ/m_e leading 49·71 (bulk tiling + boundary emission) | High | Stand; √π sub-leading coefficient open |
-| 5 | m_e = α¹²·m_Planck/(C_2·π⁵) at 3×10⁻⁴ | Medium (Tier-2 IDENTIFIED) | Stand |
-| 6 | ν locus = sub-unitary Γ_Ω pole at ν=1/2 | High (Lyra F158) | Stand |
-| 7 | m_1 = 0 mathematical (pole = complete suppression) | High (Lyra F159 + Casey-sharpened) | Mass ordering is genuine falsifier (JUNO+DUNE) |
-| 8 | Off-pole ν mass linear in pole-distance | High (Elie 4215) | Stands |
-| 9 | Charged-lepton 3×3 eigenvalues = {1, 206.76, 3477.23} | High (Elie tonight) | Stand |
-| 10 | Bare neutrino Gram is diagonal → identity mixing | High (Lyra closed it) | Door closed |
-| 11 | Inter-sector overlap proxies diverge 72/266 | High (Lyra ran both) | Proxies insufficient |
-| 12 | FK/Jack at α=2/3 reproduces m_3/m_2 cluster {5.79, 4.57, 5.06} ≈ 5.77 | High (Lyra reference-grounded) | Lock candidate via §XI |
-| 13 | One parametrization: all 3 mixing angles close (0.024, 0.341, 0.510) | High (Lyra over-determination signal) | Same lookup completes |
-| 14 | Elie FK-Pochhammer independent: mass²-ratios near 33.8 = 5.77² | High (independent convergence) | Same lookup completes |
-| 15 | FK §XI Wallach coordinates | Located, not fetched | **Open the book Wednesday morning** |
-| 16 | Filter ready: 10 candidates + blind scoring + 5+ observables | High (Elie built) | Fires when §XI lands |
+| 5 | m_e = α¹²·m_Planck/(C_2·π⁵) at 3×10⁻⁴ | Medium | Stand |
+| 6 | Charged-lepton 3×3 eigenvalues = {1, 206.76, 3477.23} | High (Elie Tuesday) | Stand |
+| 7 | ν has NO K-type structure (sub-unitary pole non-normalizable) | High (Lyra F165) | K-type filter retired for ν sector (still valid for #418) |
+| 8 | ν is decay product on 1-D pole locus (not 0-D seat) | High (Casey F166) | Compute pole-circulation dynamics |
+| 9 | Oscillation = circulation on pole locus | High (geometric mechanism) | Quantify circulation phases (mixing) |
+| 10 | Γ_Ω pole residue at ν=1/2 = exactly −1 | High (Lyra F170 forward) | Stand |
+| 11 | m_ν scale ~ Λ^(1/4) ~ meV (residue → Λ tie) | High (F170 from residue side) | Stand |
+| 12 | m_1 = 0 mathematical (pole = complete suppression) | High (F159 Casey-sharpened) | Mass ordering = falsifier (JUNO+DUNE) |
+| 13 | Energy = winding² on pole locus; mass = √energy | High (Lyra F172) | Stand |
+| 14 | Energy ratio Δm²_31/Δm²_21 = 33.3 ≈ 36 = C_2²; windings {1, C_2} | High structural reading | Discrete-side forcing of winding-C_2 (Elie) |
+| 15 | 5.77 = √33 mass ratio (observed) ≈ √36 − vacuum-subtraction | Watch (F171; refused 4×; no mechanism) | Note + track recurrences |
+| 16 | Substrate-vacuum coupling = C_2 = dim SO(5,2)/SO(4,2) = 6 | Candidate (Casey F173) | Forward derivation |
+| 17 | SWPP cycle closed: vacuum → absorb (C_2) → commit → emit (ν) → vacuum | Framework (Casey F174) | Net-inflow mechanism (arrow of time) |
+| 18 | Heat-engine NEEDS reservoir = thermodynamic NECESSITY | Solid leg (Lyra F175) | Stands |
+| 19 | ν = receipt = conservation record carrying energy + information | Framework (F175 Pauli-grounded) | Stand |
+| 20 | Matter = embodied vacuum + information = coherent | Framework synthesis | Ties RS/GF128 + SCMP |
+| 21 | Parity reversal across manifold boundary → ν_R outside = unread (F144 mechanism) | Candidate (Casey F173) | Rigorous (holomorphic LH → anti-holomorphic RH Schwarz) |
+| 22 | sin²θ_13 = N_c/N_max (welded; Grace 22-survey) | Medium | Fires when ν sector mechanism locks |
+| 23 | Higgs VEV = 225·g (welded; Grace 22-survey) | Medium | Fires when Higgs sector unlocks |
+| 24 | #418 bulk-color N_c-texture + sum-rule (Elie 4211/4212) | High (discrete half forward) | K-type filter still valid; quark sector forward |
+| 25 | {+1, −1, 0} = λ_3 Cartan eigenvalues on color triplet | Recognition (Cal #312: standard su(3); one fact in two coats, not over-determination) | 3 Korányi-Wolf strata = su(3) color is established #418 foundation |
+| 26 | CKM Wolfenstein hierarchy pattern: \|V_ub\| ~ \|V_us\|·\|V_cb\| | Empirically real + falsifiable (Grace re-correction: counts; not tautological) | Substrate source GATED on T_3^R mechanism (Elie walked back su(3) composite root source as category error — color blind to up/down) |
+| 27 | Up/down K-type seat misalignment (= M parameters) | Small + forced per Lyra; Elie stake M=0 strict | F178 chiral content derivation; M=0 or honest failure (no escape hatch) |
+| 28 | Cabibbo angle 0.224 via Gatto √(m_d/m_s) | NOT BST-forward (Cal #312: uses observed quark mass input) | Falsifiable forced relation (Grace re-correction); counts IF BST forward-derives √ form from V=⟨up\|down\|⟩ |
+| 29 | Locus-difference: mixing magnitude = distance between sectors mixed | FORWARD (Lyra): explains CKM small vs PMNS large structurally | Stands; structural-grade result |
+| 30 | Quarks share discrete-series seats; leptons span seat+pole locus | FORWARD (Lyra): mechanism for #29 | Stands |
+| 31 | Grace M splits into M_angle + M_phase (Cal #313) | Even M_angle=0 caps motion at 3 angles; δ_CP separately gated by M_phase≥1 | 2 questions, not 1: is angle misalignment forced + is phase forced? |
+| 32 | Grace paired failure modes (α^12 "wall" + Gatto "zero") | Named (gate firing too hard in opposite directions) | Hold between; discriminator: tautological vs falsifiable |
+| 33 | Wolfenstein "residual = \|ρ-iη\|" framing | Parametrization algebra not derivation (Cal #313) | Don't bank residual; hierarchy STRUCTURE creditable if substrate-forced |
+| 34 | Banked BST over-determination fingerprints for #418 today | ZERO (Grace honest synthesis) | Everything quantitative gated on up/down seat derivation |
+| 35 | Locus-difference verified: PMNS angles beat CKM 2.6× to 43× | High (Grace verification of Lyra's qualitative prediction) | Fixes scale of both sectors from geometry; standout result of session |
+| 36 | M=0 strict bar (Elie + Lyra agree post F179 withdrawal) | Honest discipline (BST zero-free-parameter program) | No "M=1 still strong" fallback; M=0 OR honest failure |
+| 37 | M_phase mechanism: SO(2) of K = SO(5)×SO(2) isotropy = complex structure J | FOUND (Grace math; ceiling restored to 4) | δ_CP ≠ 0 NOT automatic; rephasable seat-misalignment predicts zero CP = falsifier |
+| 38 | M is ONE element of K = SO(5)×SO(2) | Substantive (Grace): SO(5) gives 3 angles + SO(2) gives δ_CP; one forced K-element forces all 4 | Cal #313 M-split resolved |
+| 39 | Chirality is seat organizer: LH interior doublet + RH exterior singlets | FORWARD (Lyra F181 Casey reframe) | Selection geometric not in force; up/down differentiates at boundary crossing only |
+| 40 | Gate collapse: 6 seats → 1 boundary connection | FORWARD (F181) | LH-interior-doublet to RH-exterior-singlet map |
+| 41 | Unified mechanism: quark Dirac + neutrino Majorana via boundary | FORWARD (F181) | Same boundary; quark gets RH partner; neutrino doesn't → pole |
+| 42 | Forward target: is chiral boundary connection forced by geometry? | Sharp + singular | Geometry question, not fitting question; if forced → CKM at M=0 |
+| 43 | Grace mass-matrix factorization M_up = L·K_up + M_down = L·K_down | FORWARD (K406): locus-difference made mechanical | CKM = RH seat difference through common L; angle/phase along K=SO(5)×SO(2) |
+| 44 | Lyra Szegő kernel candidate for chiral boundary connection | LOAD-BEARING CANDIDATE (not banked) | Domain's reproducing kernel + Schwarz reflection both intrinsic forced; Hermitian → carries SO(2)=J phase automatically |
+| 45 | Grace CP mechanism + Lyra Szegő connection = SAME OBJECT | Substantive observation if Szegő candidate holds | One forced connection gives all 4 CKM (3 angles from magnitude + δ_CP from argument) |
+| 46 | ~~Gate collapses double: 6 seats → 1 binary question~~ | **DEMOTED per Cal K407: program-state description, NOT substrate finding** | Status, not banked result |
+| 47 | Cal #315 conditions on Grace mechanism | 6 honest opens (Cal K407 updated): (a) ceiling 4 conditional on M=0; (b) δ_CP≠0 hard falsifier; (c) SO(5)→3 angles map CLOSED K407 | Conditions list now 6 items |
+| 48 | **Lyra + Grace independent closure of Cal #315(c)** | High (K407): 3 angles from F86 generation count (3 strata = 3 generations), NOT SO(5); U(3)/SO(3) counting; SO(2)=J adds phase | Count forced by generation dimension; substantive |
+| 49 | **Lyra cross-sector C(d, 2) echo** | High (K407): CKM 3 = C(3,2), muon 6 = C(4,2) = one recurring substrate-architectural rule | Same "count 2-planes in relevant space" cross-sector |
+| 50 | **Grace Kobayashi-Maskawa from F86** | High (K407): CP-phase count (N-1)(N-2)/2 = 0 for N=2, 1 for N=3; **CP violation exists BECAUSE 3 strata** | Falsifiable substrate consequence; two strata would forbid |
+| 51 | **Elie Toy 4231 — CKM freedom = T_3^R = ±1/2** | High (K407): F102 hypercharge decomp Y/2 = T_3^R + (B-L)/2; u_R = +1/2, d_R = -1/2 | Direction + QN + non-triviality forced; magnitude open |
+| 52 | **Elie Toy 4232 — lattice compatibility PASSES** | High (K407): T_3^R = ±1/2 on (1/2)·ℤ discrete-series lattice (spacing 1/2 from n_C=5 odd) | Necessary condition for forced-address route; 1/3 charge would have killed |
+| 53 | **Elie Toy 4233 — CKM + PMNS UNIFIED** | High (K407): both mixing matrices reduce to IDENTICAL open question (address rigidity) | ONE continuum result closes both = 8 parameters in one stroke |
+| 54 | F86/Cal #286 reconciliation | OPEN per Cal K407: "3 = rank+1" vs "3 = N_c" structure-vs-arithmetic; four coincident derivations | Added as 6th condition; gate-collapse leans on this open piece |
+| 55 | **Lyra F184 — Szegő/Schwarz map RIGID** | High (K408): Szegő kernel + Schwarz reflection unique (standard complex analysis rigorous); radial scale cancels in unitary mixing (lands in masses only per Casey #9) | **M_angle = 0 CONDITIONAL on F182** (load-bearing candidate not banked) |
+| 56 | **Grace branch (i) CLOSED via Harish-Chandra discreteness** | High (K408): discrete-series representations are isolated points in unitary dual; no continuous moduli; SO(2)=J + Elie lattice + discreteness theorem = 3 threads → 1 elimination | KILLS most likely failure mode (continuous radial scale); branch (ii) map uniqueness remains Lyra |
+| 57 | ~~Elie new identity C_2 = C(n_C−1, 2) = 6~~ | **DEMOTED per Grace K409**: "91st face of same number" = relabel not new identity (same number labeled twice, not independent derivations) | Kept C(d,2) rule; declined relabel; muon's 6 counted once |
+| 58 | **Lyra framework claim sharpening (K409)** | High: M_angle = 0 rests on ONE framework claim — substrate's only connection is reproducing kernel (Bergman) with no free U dressing | "Substrate = Bergman kernel" is CORE BST; about as grounded as BST claim gets |
+| 59 | **M_angle = 0 OVER-DETERMINED via 2 independent closures (K409)** | High: Grace Harish-Chandra discreteness + Lyra unitary cancellation = same conclusion from two routes | Both falsifiable in principle; both pass |
+| 60 | **Elie Toy 4235 (K409) — blind filter on rigid map** | High: required N(w_μ)^{n_C} = rank²/(rank⁴·n_C−1) = 4/79 = substrate-integer ratio | Quantized-address signature corroborates forcing (doesn't prove); filter ran to 0.225 with observed Cabibbo walled off |
+| 61 | (a, b) → |w| map for enumerable blind filter run | OPEN (Lyra continuum + Elie filter join) | Per discreteness: enumerable not continuous; finite enumeration scores 4 CKM + Jarlskog |
+| 62 | **Elie Toy 4236 (K410) — free U decomposition** | High: basis-change U automatic absent (kernel basis-invariant to 1e-14); physical-rotation U only real freedom | Already pinned by common-L + T_3^R step; framework claim narrowed to "up/down differ only by forced T_3^R" |
+| 63 | **Lyra T1444 rediscovery (K410) — Vacuum Subtraction Principle** | High (proved April): bare − 1 for transition observables (vacuum mode doesn't participate = normal ordering) | Charm 137→136; Ising γ 18→17; Cabibbo 80→79 = same single −1 |
+| 64 | **Transition-vs-vacuum dichotomy (K410)** | High: ONE principle (T1444) resolves Cabibbo −1 + Λ stays-clean (sign rule per measurement class) | Vacuum observables clean; transition observables dressed |
+| 65 | ~~Cabibbo over-determined via 9/40 + 2/√79~~ | **DEMOTED per Grace K411**: two forms on one number is FORM-SELECTION MULTIPLICITY (PMNS θ_13 lesson — multiple matches LESS forced not more); NOT over-determination unless both forward-forced; neither is yet (T1444 forces −1 given bare count; 9/40 not derived) | Both forms hit same numerical value; not banked over-determination |
+| 67 | **Lyra synthesis: Cabibbo is MODE-COUNT not position (K411)** | High: 80 = two quark sectors × rank² × n_C − vacuum (T1444); F187 (0.5507 irrational, 79 prime) confirms no clean point | Two clean decidable items remain: framework claim (Lyra) + two-center mode-count (Grace target per Lyra correction) |
+| 68 | **Grace decisive symbolic norm test sharpened (K411)** | Forward target: symbolic norm at ν=3/2 separates 81/1600 (→9/40) vs 4/79 vs neither | Numerical 9/40 and 4/79 indistinguishable; exact symbolic decides |
+| 69 | **Elie Toy 4237 (K411) — form-independent target** | High: both Cabibbo forms pin SAME domain position N(w_μ) ≈ 0.5507 (0.003%) | Grace's decisive run is form-independent; one symbolic computation decides both forms |
+| 70 | **Lyra correction on Grace target (K411)** | Substantive: NOT single-point 0.5507 (F187 rules out clean point); correct target = two-center mode-count (is 80 = 2·rank²·n_C forced by isotropy/Shilov?) | Complements Lyra discharging framework claim; not stepping on each other |
+| 71 | **Lyra color-blindness cross-check (K413)** | High: framework discharge predicts forced T_3^R = color-blind → mode-count must have no N_c; Grace observed exactly that | Framework + geometry cross-checking each other |
+| 72 | **Elie m_3/m_2 = √34 = 5.831 (K413, Toy 4240)** | IDENTIFICATION (0.25% vs observed 5.817); from m_1=0 + T1444; 34 = N_max−1 owes forward grounding | Spectrum collapses to one ratio because m_1=0 exactly |
+| 73 | **T1444 unified across 3 sectors (K413)** | High: same single −1 in charm (137→136) + Cabibbo (80→79) + neutrino Δm² (137→136) | ONE principle THREE sectors; substantive cross-sector recurrence |
+| 74 | **Sharp falsifier Σm_ν ≈ 0.059 eV (K413)** | High: forced by m_1=0 to normal-ordering minimum | Cosmology closing in; inverted ordering or larger sum kills BST |
+| 75 | Grace mode-count test: Shilov S⁴ harmonics don't cut at 80 (K413) | Honest negative: 50 at k≤3, 105 at k≤4 | T1444 explains why −1 not why 80; refuses to factor until reading feels physical |
+| 76 | **Elie three falsifiable PMNS predictions (K414)** | High: Σm_ν ≈ 0.059 eV + m_3/m_2 = √34 + m_ββ ∈ [1.5, 3.7] meV from m_1=0 alone | 0νββ is sharpest near-term falsifier (well below 10-20 meV next-gen reach) |
+| 77 | **m_1 = 0 removes one Majorana phase (K414)** | High: PMNS params 6 → 5 phases | Neutrino analogue of Grace's "CP exists only at N≥3"; massless state carries no phase |
+| 78 | **Lyra F193 RKHS spine completed (K414)** | High: one kernel, four readings (VEV + mass + Λ+gravity + mixing); citable backbone | M_angle = 0 now over-determined THREE ways (Grace Harish-Chandra + Lyra unitary + RKHS theorem) |
+| 79 | **Grace color-blindness physics discriminator (K414)** | LEAD (not proof): 9/40 has N_c² color factor; 4/79 + √34 color-blind; CKM is color-universal | ONE principle THREE consistent checks (mode-count + Cabibbo + neutrino); narrows toward count picture |
+| 66 | **Grace 4/79 forward test setup (K410)**: norm at ν=3/2 = 0.5507? | Target, not banked forcing | Forward: does (a,b)→|w| map at ν=3/2 give 0.5507 = (4/79)^(1/n_C) without observed Cabibbo |
+
+**FUTURE WATCH (Casey-registered "sometime")**: where does vacuum energy come from? 4 hooks: Λ = exp(−280) scale fixed; ground state = zero-point; Interstasis cyclic carryover (self-sourcing candidate); exterior beyond manifold.
+
+**5.7x WATCH (F171, Casey directive)**: C_2 = 6 is unique composite primary; bare structure → 6, physical → 5.77 = vacuum-subtraction signature; SAME PATTERN as +1 anomaly 8-instance family (28/50/82/126 magic + SM 26 params + T2003 71 + Λ exp 281=280+1). DO NOT crown without mechanism; document if vacuum-subtraction mechanism turns up.
 
 ---
 

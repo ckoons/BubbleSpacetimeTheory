@@ -20,7 +20,13 @@ registry / CODATA / the toy. Unverified entries say `[verify — TRACK A]`, not 
 | PMNS sin²θ₁₂, δ_CP | `[open — M_ν cell-map]` | — | lands with Lyra+Elie M_ν |
 | 3 ν masses | `[open — M_ν cell-map]` | — | strip-edge placement; Grace harness fires on M_ν |
 | 6 quark masses | `[open — #418 bulk-color]` | — | discrete deposit-count addresses (Elie) + continuum (Lyra) |
-| 4 CKM angles | `[open — #418 bulk-color]` | — | boundary-emission angles |
+| color texture {+1,−1,0} | = λ₃ su(3) Cartan (diag 1,−1,0); sum=0 = tracelessness | exact (su(3) structure) | correct recognition; "two-halves converge" = one su(3) fact (Cal #35), not over-determination; rests on established "3 strata = su(3) color" (#418) |
+| θ_C (CKM θ₁₂, Cabibbo) | GST form sin θ_C = √(m_d/m_s) → 0.224 | 0.62% vs 0.2245 **but uses observed scheme-dependent m_d/m_s as input** | NOT banked: GST is textbook (1968) + observed-mass input. Next: verify the GST *form* is forward-derived from strata-coupling (Elie 4225); masses are Casey-#9 honest-negative |
+| CKM θ₂₃, θ₁₃, δ_CP | `[pending full strata-coupling matrix]` | — | cold-read end-to-end when Lyra's matrix populates; no observed-mass input admitted (#311 rule 1) |
+| Jarlskog J | `[= f(θ₁₂,θ₁₃,θ₂₃,δ)]` | — | consistency check, NOT an independent 5th observable (Cal #35) |
+| CKM hierarchy V_us:V_cb:V_ub | su(3) composite root → V_ub ~ V_us·V_cb (λ:λ²:λ³) | structure-grade **if forward**; residual \|ρ−iη\|=0.413 is Wolfenstein-algebra (definitional) + observed, **not derived** | verify the composite is forward-derived from su(3) roots (Elie); δ_CP separately gated |
+| δ_CP / CP magnitude \|ρ−iη\| | mechanism candidate: SO(2) factor of K = complex structure J (intrinsic CP) | mechanism solid; **δ_CP≠0 NOT automatic** (rephasable → 0 = hard falsifier) | gated on K-element forced (M=0); angle+phase unified in one K-element (resolves Cal #313 split); check non-rephasable |
+| PMNS ≫ CKM (mixing ordering) | locus-difference: mixing magnitude = distance between the mixed sectors | qualitative ordering + rough scale (covers observed PMNS/CKM spread 2.6×–43×); forward + blind | structural-grade; explains a real SM gap; verify seats are mass-placed not mixing-placed; NOT a quantitative per-angle prediction |
 | m_H, VEV | m_H D-tier 0.07–0.11% (dual route) `[verify]` | `[verify — TRACK A]` | deposit-count + VEV mechanism |
 | α_s, sin²θ_W, m_top running | `[open — running framework]` | — | honest-negative zone (couplings project per stratum) |
 
