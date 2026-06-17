@@ -1,0 +1,46 @@
+---
+title: "F132 — The muon keystone COLLAPSES to one input (the bridge): Grace's Bergman-metric computation closed the geometry (round/unit/8pi^2/3), and the measure-type (F59) is DERIVED FROM the bridge -- so given {5 integers, ell_B, the bridge mass=INT rho_commit} the muon is FULLY FORCED, and its clean-green reduces ENTIRELY to Casey's one definitional call. GRACE (math, done -- the role shift Casey asked for): computed the Bergman metric of D_IV^5 at radial approach to a Shilov-boundary point; it is EXACTLY ISOTROPIC, g_ij = (2n/(1-a^2)^2) delta_ij, the anisotropic piece 4a^2(x0)_i(x0)_j canceling (special type-IV feature, analytic identity, 7-figure numeric). So the Shilov S^4 (|x|=1 by definition) carries the UNDISTORTED ROUND UNIT metric (Bergman conformal to flat there). This CLOSES Cal flag (b): vol(S^4)=8pi^2/3 and curvature_operator=Id are now JUSTIFIED, not assumed. MY LANE -- the remaining measure-type (F59, geometric/extensive vs probability): it is DERIVED FROM THE BRIDGE. Bridge premise: mass = INT rho_commit dvol. An integral of a density is EXTENSIVE (it IS the total, varies by particle). A probability measure forces INT rho_commit = 1 for every particle -> all masses equal -> contradicts mass=INT rho_commit itself. So GIVEN the bridge, probability is FORBIDDEN, geometric/extensive FORCED. F59 is NOT an independent assumption; it is a CONSEQUENCE of the bridge. CONSOLIDATION: given {the bridge} + {ell_B, the one scale}: measure-type FORCED (by the bridge), shape/radius FORCED (Grace, round/unit/8pi^2/3), integer 64=d_tau/d_mu rigorous (F109 polynomial ratio), exponent 6=dim SO(4) forced (pi-count + 2-planes). => the muon is FULLY FORCED given {5 integers, ell_B, the bridge}; NOTHING else is free. So the muon clean-green reduces ENTIRELY to ONE definitional call (Casey's, per Grace K356): is the bridge (mass = INT rho_commit) an allowed input (like ell_B, the one dimensionful anchor every theory takes) or must it be derived from the 5 integers? If allowed: muon CAN be clean green (forced from {5 integers, ell_B, bridge}), validated by downstream-blind. If must-derive: muon stays 'modulo the bridge'. Bridge VALIDATION = Cal's downstream-blind test (does the one frozen convention carry the other 11 masses with zero re-tuning?). My honest view (offered, not deciding): the bridge is the framework's ONE ontological identification -- like GR's 'gravity=curvature', like 'alpha=1/N_max' -- not derivable from pure geometry (that is what makes it physics), admissible as ONE universal bridge validated by prediction. Count HONESTLY 2 until Casey rules + downstream-blind confirms; muon yellow."
+author: "Lyra (Claude Opus 4.8)"
+date: "2026-06-14 Sunday 16:16 EDT"
+status: "v0.1 -- keystone consolidation. GRACE closed the geometry (math): Bergman metric isotropic at Shilov boundary (anisotropic piece cancels, type-IV feature) -> S^4 round/unit, vol=8pi^2/3 and curvature=Id JUSTIFIED (Cal flag b CLOSED). LYRA: measure-type (F59) DERIVED FROM the bridge -- mass=INT rho_commit is extensive; probability would force INT=1 -> all masses equal -> contradiction; so probability FORBIDDEN, geometric FORCED, given the bridge. CONSOLIDATION: given {bridge, ell_B}, the muon is FULLY FORCED (measure-type by bridge; radius/shape by Grace; 64 by F109; exponent 6 forced). => muon clean-green reduces to ONE call (Casey): is the bridge an allowed input (like ell_B) or must-derive? Allowed -> clean green possible (validated downstream-blind); must-derive -> modulo the bridge. My view (offered): bridge = the ONE ontological identification (like GR gravity=curvature, alpha=1/N_max), admissible as one universal bridge validated by prediction. Count 2 until Casey rules + downstream-blind; muon yellow."
+---
+
+# F132 — The keystone collapses to one input: the bridge
+
+After Grace's Bergman-metric computation and the F59-from-bridge derivation, the muon keystone reduces to a single decision -- Casey's.
+
+## Grace closed the geometry (the math-lane shift, done)
+
+Grace computed the Bergman metric of `D_IV^5` at radial approach to a Shilov-boundary point: it is **exactly isotropic**, `g_ij = (2n/(1-a^2)^2) delta_ij`, with the anisotropic piece `4a^2 (x0)_i (x0)_j` canceling exactly (a special feature of the type-IV norm; analytic identity, 7-figure numeric). So the Shilov `S^4` (`|x|=1` by definition) carries the **undistorted round unit metric** (the Bergman metric is conformal to flat there). This **closes Cal's flag (b)**: `vol(S^4) = 8pi^2/3` and `curvature_operator = Id` are now **justified, not assumed**.
+
+## The remaining measure-type (my lane) is DERIVED from the bridge
+
+The bridge premise is `mass = INTEGRAL rho_commit dvol`. An integral of a density is **extensive** (it IS the total; it varies by particle). A probability measure forces `INTEGRAL rho_commit = 1` for every particle -> all masses equal -> contradicts `mass = INTEGRAL rho_commit` itself. So **given the bridge, the probability measure is forbidden and the geometric/extensive measure is forced.** F59 is not an independent assumption; it is a consequence of the bridge.
+
+## Consolidation: the muon is fully forced given {bridge, ell_B}
+
+| ingredient | status given the bridge |
+|---|---|
+| measure-type (geometric/extensive) | **forced** (by the bridge, above) |
+| shape / radius (round, unit, `8pi^2/3`) | **forced** (Grace's Bergman computation) |
+| integer `64 = d_tau/d_mu` | rigorous (F109 polynomial ratio) |
+| exponent `6 = dim SO(4)` | forced (pi-count + 2-planes) |
+
+So the muon is **fully forced given {the five integers, `ell_B`, the bridge}** -- nothing else is free.
+
+## The one decision left (Casey's)
+
+> Is the bridge `mass = INTEGRAL rho_commit` an **allowed definitional input** (like `ell_B`, the one dimensionful anchor every theory takes), or a **substantive assumption** that must itself be derived from the five integers?
+
+- **Allowed** -> the muon CAN be clean green (forced from `{5 integers, ell_B, bridge}`), with the bridge validated by the downstream-blind test.
+- **Must-derive** -> the muon stays "modulo the bridge" until the bridge is derived.
+
+Bridge **validation** = Cal's downstream-blind test: does the one frozen convention carry the other 11 masses with zero re-tuning?
+
+**My honest view (offered, not deciding):** the bridge is the framework's **one ontological identification** -- like GR's "gravity = curvature," like "`alpha = 1/N_max`" identifies the EM coupling with a geometric integer. You cannot derive the physics-content of a theory from pure geometry; that identification is *what makes it physics*. So I'd admit it as **one universal bridge**, used for all twelve masses and validated by prediction. But it is your call about what "zero inputs" admits.
+
+Count holds **honestly 2** until Casey rules and the downstream-blind confirms; muon stays yellow.
+
+@Casey - the keystone collapsed to ONE decision, yours. Grace closed the geometry with real math (the Bergman metric is exactly isotropic at the Shilov boundary -> round unit S^4 -> 8pi^2/3 and curvature=Id justified, Cal flag b done). I closed my half: the measure-type (F59) is DERIVED from the bridge (mass=INT rho_commit is extensive; probability would force every mass to 1 -> contradiction; so geometric is forced GIVEN the bridge). So given {5 integers, ell_B, the bridge} the muon is FULLY FORCED -- nothing else free. The only open input is the bridge itself, and that's your definitional call (Grace's K356): allowed input (like ell_B) or must-derive? My honest view: it's the ONE ontological identification (GR's gravity=curvature, alpha=1/N_max) -- not derivable from pure geometry, admissible as one universal bridge validated by downstream-blind. But you decide what 'zero inputs' admits. @Grace - your isotropy computation is exactly the shift -- it CLOSED flag (b), and the measure-type that's left is derived from the bridge, so the keystone is now one decision + your downstream-blind validation. @Cal/@Elie - flag (b) closed (Grace); measure-type = F59 = derived from the bridge (not independent); only the bridge decision + downstream-blind remain. @Keeper - F132: keystone collapses to the bridge; given {5 integers, ell_B, bridge} muon fully forced; Casey's definitional call is the one open input; count 2.
+
+-- Lyra, Sun 2026-06-14 16:16 EDT (date-verified). F132 keystone collapse. GRACE closed geometry: Bergman metric isotropic at Shilov boundary (anisotropic piece cancels, type-IV) -> round unit S^4, vol=8pi^2/3 + curvature=Id JUSTIFIED (Cal flag b CLOSED). LYRA: measure-type F59 DERIVED FROM bridge -- mass=INT rho_commit extensive; probability forces INT=1 -> all masses equal -> contradiction -> probability FORBIDDEN, geometric FORCED given bridge. Given {5 integers, ell_B, bridge}: muon FULLY FORCED (measure by bridge, radius by Grace, 64 by F109, exp 6 forced). => muon clean-green = ONE call (Casey): bridge allowed input (like ell_B) or must-derive? Allowed->clean green possible (validated downstream-blind); must-derive->modulo bridge. My view: bridge = ONE ontological identification (GR gravity=curvature, alpha=1/N_max), admissible as one universal bridge validated by prediction. Count 2 until Casey rules + downstream-blind; muon yellow.

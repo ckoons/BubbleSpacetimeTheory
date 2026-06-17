@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>D_IV^5 Substrate Atlas — how heat weaves the Standard Model</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --line:#30363d; --txt:#e6edf3; --dim:#9da7b3;
+    --forced:#3fb950; --derived:#58a6ff; --identified:#d29922; --open:#f85149; --framework:#a371f7;
+    --accent:#79c0ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  header{padding:18px 22px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#11161d,#0d1117)}
+  h1{margin:0 0 4px;font-size:20px}
+  .tag{color:var(--dim);font-size:13px}
+  .count{float:right;text-align:right}
+  .count b{font-size:26px;color:var(--forced)}
+  .count span{display:block;color:var(--dim);font-size:12px}
+  .wrap{display:flex;flex-wrap:wrap;gap:18px;padding:18px 22px}
+  .col{flex:1 1 420px;min-width:340px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px}
+  .card h2{margin:0 0 10px;font-size:15px;color:var(--accent);letter-spacing:.3px}
+  #q{width:100%;padding:10px 12px;background:#0d1117;border:1px solid var(--line);border-radius:8px;color:var(--txt);font-size:15px}
+  #q::placeholder{color:#5b6571}
+  .hint{color:var(--dim);font-size:12px;margin-top:6px}
+  svg{width:100%;height:auto;display:block}
+  .node{cursor:pointer}
+  .node circle{transition:all .15s}
+  .node:hover circle, .node.sel circle{stroke:#fff;stroke-width:3}
+  .nlabel{font-size:11px;fill:var(--txt)}
+  .nsub{font-size:9px;fill:var(--dim)}
+  .axislab{font-size:10px;fill:var(--dim)}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px}
+  tr.row{cursor:pointer}
+  tr.row:hover{background:#1b2230}
+  tr.hl{background:#1f2a1f}
+  .badge{display:inline-block;padding:1px 7px;border-radius:20px;font-size:10px;font-weight:700;letter-spacing:.3px;white-space:nowrap}
+  .b-FORCED{background:rgba(63,185,80,.18);color:var(--forced);border:1px solid var(--forced)}
+  .b-DERIVED{background:rgba(88,166,255,.16);color:var(--derived);border:1px solid var(--derived)}
+  .b-IDENTIFIED{background:rgba(210,153,34,.16);color:var(--identified);border:1px solid var(--identified)}
+  .b-OPEN{background:rgba(248,81,73,.14);color:var(--open);border:1px solid var(--open)}
+  .b-FRAMEWORK{background:rgba(163,113,247,.16);color:var(--framework);border:1px solid var(--framework)}
+  #detail .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.4px;margin-top:10px}
+  #detail .v{margin:2px 0 0}
+  #detail .math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:8px 10px;color:#9ecbff;font-size:13px;overflow-x:auto}
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+  .legend .badge{cursor:default}
+  .disc{color:var(--dim);font-size:12px;border-top:1px solid var(--line);padding:12px 22px}
+  .flow{font-family:ui-monospace,monospace;font-size:12px;color:var(--dim);background:#0d1117;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:8px;overflow-x:auto}
+  .flow b{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <div class="count"><b id="cnt">2</b><span>of 26 FORCED<br>(honest count)</span></div>
+  <h1>D_IV⁵ Substrate Atlas</h1>
+  <div class="tag">A toy map of how the manifold <b>D_IV⁵ = SO₀(5,2)/[SO(5)×SO(2)]</b> takes heat energy and <i>weaves</i> the Standard Model.
+  Ask a question below (e.g. <i>muon</i>, <i>pion</i>, <i>photon</i>, <i>alpha</i>, <i>gravity</i>) — the relevant landmark, trajectory, math, and <b>honest derivation status</b> light up.</div>
+</header>
+
+<div class="wrap">
+  <div class="col">
+    <div class="card">
+      <h2>Ask the substrate</h2>
+      <input id="q" placeholder="how is the muon mass derived?  /  pion  /  electron  /  alpha  /  Λ ..." autocomplete="off"/>
+      <div class="hint">type a particle, parameter, or process — try: <i>tau, weinberg, ckm, neutrino, higgs, three generations, light into matter</i></div>
+      <div class="legend">
+        <span class="badge b-FORCED">FORCED</span>
+        <span class="badge b-DERIVED">DERIVED*</span>
+        <span class="badge b-IDENTIFIED">IDENTIFIED</span>
+        <span class="badge b-OPEN">OPEN</span>
+        <span class="badge b-FRAMEWORK">FRAMEWORK</span>
+      </div>
+      <div class="hint">FORCED = zero-input derivation (banked). DERIVED* = derived, one gate pending. IDENTIFIED = closed form fits, derivation open. OPEN = mechanism not yet built. FRAMEWORK = structural/scale, not a dimensionless number.</div>
+    </div>
+
+    <div class="card">
+      <h2>The geometry in operation</h2>
+      <svg id="atlas" viewBox="0 0 760 320" role="img" aria-label="substrate schematic">
+        <!-- heat in -->
+        <text x="20" y="26" class="axislab">heat  e^(−τH_B)</text>
+        <path d="M18,34 q60,18 120,4 q60,-14 120,4 q60,18 120,4" fill="none" stroke="#a371f7" stroke-width="2" opacity=".7"/>
+        <text x="500" y="26" class="axislab">→ cascade:  a₀=Λ · a₁=gravity · a₂=running · ∂=masses</text>
+        <!-- cone -->
+        <polygon points="60,250 60,250 700,150 700,250" fill="rgba(121,192,255,.06)" stroke="#30363d"/>
+        <line x1="60" y1="250" x2="700" y2="250" stroke="#30363d"/>
+        <text x="60" y="300" class="axislab">tip / bulk (discrete)</text>
+        <text x="610" y="300" class="axislab">Shilov S⁴ boundary (continuum)</text>
+        <text x="350" y="300" class="axislab">ν  (conformal dimension / trajectory)</text>
+        <!-- emission boundary -->
+        <line x1="700" y1="120" x2="700" y2="260" stroke="#3fb950" stroke-dasharray="4 3" opacity=".6"/>
+        <text x="675" y="115" class="axislab" fill="#3fb950">emission · light↔matter</text>
+        <!-- ticks -->
+        <g id="nodes"></g>
+      </svg>
+      <div class="flow">heat <b>exp(−τH_B)</b> → boundary realization (concentration = mass) → particles emitted where the trajectory's factors <b>cancel</b> (π-free) or <b>remain</b> (π^−½) — Gindikin tracking.</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card" id="detailcard">
+      <h2 id="dtitle">Select a landmark or ask a question</h2>
+      <div id="detail"><div class="hint">Nothing selected. Click a node on the map, a table row, or type a query.</div></div>
+    </div>
+    <div class="card">
+      <h2>Derivation table — every characteristic, how it's defined &amp; its status</h2>
+      <table><thead><tr><th>Element</th><th>Substrate origin</th><th>Status</th></tr></thead>
+      <tbody id="tbody"></tbody></table>
+    </div>
+  </div>
+</div>
+
+<div class="disc">
+  <b>This is a toy / map, not a claim.</b> The substrate is the basis of "all," and this atlas shows how each piece <i>would</i> be produced — but the badges are honest: only <b>FORCED</b> entries are banked (currently α and θ_QCD = 2 of 26). DERIVED* (the muon) waits on one gate; IDENTIFIED means a closed form fits but isn't yet forced; OPEN means the mechanism is still research. The map explains the <i>forms</i>; the count moves only when a number is <i>forced</i>. — Lyra, for Casey, 2026-06-14.
+</div>
+
+<script>
+const DATA = [
+ {id:'alpha',name:'α — fine-structure',nu:null,where:'N_max = 137 = N_c³·n_C + rank',traj:'projection from the EM stratum',math:'α = 1/N_max = 1/137',status:'FORCED',note:'the founding result (zero inputs).'},
+ {id:'theta',name:'θ_QCD — strong CP',nu:null,where:'SO(10) marginality (no cubic Casimir)',traj:'the unique dim-4 gauge-invariant; θ-term vanishes',math:'θ_QCD = 0',status:'FORCED',note:'forced by the gauge operator being Yang-Mills.'},
+ {id:'gaugegroup',name:'gauge group SU(3)×SU(2)×U(1)',nu:null,where:'Spin(2·n_C) = Spin(10), chiral spinor',traj:'one generation = chiral 16 = 2^(n_C−1)',math:'n_C = 5 → Spin(10) → 16',status:'DERIVED',note:'the SM skeleton, forced from one integer.'},
+ {id:'gen',name:'three generations',nu:null,where:'three distinguished conformal scalar points',traj:'Δ = 0, (d−2)/2, d/2 (always exactly three)',math:'rank+1 strata = 3',status:'DERIVED',note:'why three: three universal conformal regimes.'},
+ {id:'hy',name:'hypercharges (all 6 exact)',nu:null,where:'Y/2 = T_3R + (B−L)/2',traj:'B−L = the color fiber',math:'all six values exact',status:'DERIVED'},
+ {id:'tau',name:'tau — mass m_τ/m_e',nu:0,where:'ν=0 trivial rep / identity / CONE TIP (discrete bulk)',traj:'discrete tiling cell count + odd-Peirce π^(−1/2) correction',math:'m_τ/m_e = g²(g+2^C₂) = 49·71 = 3479  (−~1.77 corr.)',status:'IDENTIFIED',note:'box derivation (why N_c=3 of side g, depth 2^C₂) OPEN — the deep wall.'},
+ {id:'muon',name:'muon — mass m_μ/m_e',nu:1.5,where:'ν=3/2 Rac scalar singleton / unitarity bound (□φ=0) / Shilov S⁴',traj:'continuum boundary spread over dim SO(4)=6 directions',math:'m_μ/m_e = [(d_τ/d_μ)/vol(S⁴)]^(dim SO(4)) = (24/π²)⁶ = 206.77',status:'DERIVED',note:'candidate count→3, gated on FK constant = 1 (Cal). The lever.'},
+ {id:'di',name:'spin-½ (Di spinor)',nu:2,where:'ν=2 Di spinor singleton (Flato–Fronsdal)',traj:'carries the fermionic spin; orthogonal to the mass-modes',math:'Δ_Di = 2',status:'FRAMEWORK',note:'where spin lives — the light→matter spin transition.'},
+ {id:'electron',name:'electron — mass (reference)',nu:2.5,where:'ν=5/2 BF / self-shadow / marginal / Hardy point',traj:'the log / the running / the unit everything is measured against',math:'BF-log coeff = 9/16 = N_c²/rank^(n_C−1)',status:'IDENTIFIED',note:'the reference scale; its running is the marginal log.'},
+ {id:'sinw',name:'sin²θ_W — Weinberg angle',nu:null,where:'corkscrew pitch / 3-strata projection',traj:'a forced geometric pitch (radius+winding → pitch)',math:'forced pitch — computation OPEN',status:'OPEN'},
+ {id:'alphas',name:'α_s — strong coupling',nu:null,where:'strata projection + Left-Right intermediate scale M_R',traj:'running shifted by SU(2)_R restoration',math:'OPEN',status:'OPEN'},
+ {id:'photon',name:'photon — light',nu:null,where:'U(1) field; Rac⊗Rac two-singleton composite',traj:'LIGHT = uncommitted boundary mode (spread, massless)',math:'massless (U(1) unbroken)',status:'FRAMEWORK',note:'pair production = composite → constituents (spin works).'},
+ {id:'l2m',name:'light → matter (commitment)',nu:null,where:'the boundary / tile edges (emission)',traj:'light = uncommitted energy; matter = committed (concentrated)',math:'committed light-emission = matter-emission',status:'FRAMEWORK',note:'matter is realized light at the boundary.'},
+ {id:'pion',name:'pion — lightest meson',nu:null,where:'composite quark–antiquark on the boundary',traj:'committed boundary emission (matter regime)',math:'OPEN',status:'OPEN',note:'composite / strong dynamics — Phase I.'},
+ {id:'nucleon',name:'proton / neutron',nu:null,where:'baryon trajectory (3 quarks); m_π decay threshold',traj:'n→p = trajectory relaxation to ground state; truncates at m_π',math:'p=uud, n=udd; n heavier; ddd = Δ⁻ (spin-3/2)',status:'OPEN',note:'nucleon trajectory framed; masses open.'},
+ {id:'quarks',name:'quark masses (u,d,s,c,b,t)',nu:null,where:'trajectory conjecture per quark sector + bulk-color',traj:'one particle per type, three ν-points',math:'OPEN',status:'OPEN',note:'gated on #418 (chiral content).'},
+ {id:'ckm',name:'CKM mixing (3 angles + phase)',nu:null,where:'trajectory-overlap between quark sectors',traj:'corkscrew windings (phase = winding)',math:'OPEN',status:'OPEN'},
+ {id:'pmns',name:'PMNS mixing (neutrinos)',nu:null,where:'trajectory-overlap, neutrino sector',traj:'corkscrew windings',math:'3/3 angles within 1σ (identified)',status:'IDENTIFIED'},
+ {id:'nu',name:'neutrino masses',nu:null,where:'ν_R forced (the 16 includes it); seesaw/Dirac scale',traj:'the boundary mode that almost doesn’t concentrate',math:'OPEN',status:'OPEN'},
+ {id:'higgsv',name:'Higgs vev v',nu:null,where:'the dimensionful anchor ℓ_B',traj:'the cone-tip scale ("collects the Higgs")',math:'sets the scale (the one input)',status:'FRAMEWORK'},
+ {id:'higgsm',name:'Higgs mass m_H',nu:null,where:'the substrate potential',traj:'OPEN',math:'OPEN',status:'OPEN'},
+ {id:'lambda',name:'Λ — cosmological constant',nu:null,where:'a₀ heat-kernel coefficient',traj:'the bulk volume term of the cascade',math:'Λ = exp(−280),  280 = 2^N_c · n_C · g',status:'IDENTIFIED'},
+ {id:'gravity',name:'gravity (Newton G)',nu:null,where:'a₁ heat-kernel coefficient (Sakharov-induced)',traj:'the curvature term of the cascade',math:'G = Bergman curvature',status:'FRAMEWORK'},
+];
+
+const elById = Object.fromEntries(DATA.map(d=>[d.id,d]));
+const nodeColor = {FORCED:'#3fb950',DERIVED:'#58a6ff',IDENTIFIED:'#d29922',OPEN:'#f85149',FRAMEWORK:'#a371f7'};
+
+// --- ν-axis nodes ---
+const onAxis = DATA.filter(d=>d.nu!==null);
+const x0=70,x1=690,nuMin=0,nuMax=2.5,y=250;
+function nx(nu){return x0 + (nu-nuMin)/(nuMax-nuMin)*(x1-x0);}
+function ny(nu){return 250 - (nu-nuMin)/(nuMax-nuMin)*100;} // ride the cone slope
+const ng = document.getElementById('nodes');
+onAxis.forEach(d=>{
+  const X=nx(d.nu),Y=ny(d.nu);
+  const g=document.createElementNS('http://www.w3.org/2000/svg','g');
+  g.setAttribute('class','node');g.setAttribute('data-id',d.id);
+  g.innerHTML=`<line x1="${X}" y1="${Y}" x2="${X}" y2="250" stroke="#30363d"/>
+    <circle cx="${X}" cy="${Y}" r="9" fill="${nodeColor[d.status]}" fill-opacity=".25" stroke="${nodeColor[d.status]}" stroke-width="2"/>
+    <text x="${X}" y="${Y-14}" text-anchor="middle" class="nlabel">${d.name.split(' —')[0].split(' (')[0]}</text>
+    <text x="${X}" y="250" dy="14" text-anchor="middle" class="nsub">ν=${d.nu}</text>`;
+  g.onclick=()=>select(d.id);
+  ng.appendChild(g);
+});
+
+// --- table ---
+const tb=document.getElementById('tbody');
+DATA.forEach(d=>{
+  const tr=document.createElement('tr');
+  tr.className='row';tr.setAttribute('data-id',d.id);
+  tr.innerHTML=`<td>${d.name}</td><td>${d.where}</td><td><span class="badge b-${d.status}">${d.status}</span></td>`;
+  tr.onclick=()=>select(d.id);
+  tb.appendChild(tr);
+});
+
+// --- detail / select ---
+function select(id){
+  const d=elById[id];if(!d)return;
+  document.querySelectorAll('.node').forEach(n=>n.classList.toggle('sel',n.dataset.id===id));
+  document.querySelectorAll('tr.row').forEach(r=>r.classList.toggle('hl',r.dataset.id===id));
+  document.getElementById('dtitle').innerHTML=`${d.name} &nbsp;<span class="badge b-${d.status}">${d.status}</span>`;
+  document.getElementById('detail').innerHTML=`
+    <div class="k">substrate origin</div><div class="v">${d.where}</div>
+    <div class="k">trajectory</div><div class="v">${d.traj}</div>
+    <div class="k">mathematics</div><div class="math">${d.math}</div>
+    ${d.note?`<div class="k">status note</div><div class="v">${d.note}</div>`:''}`;
+  const tr=document.querySelector(`tr.row[data-id="${id}"]`);if(tr)tr.scrollIntoView({block:'nearest'});
+}
+
+// --- query ---
+const KEYS={muon:'muon',mu:'muon',tau:'tau',electron:'electron',e:'electron',
+ alpha:'alpha','fine':'alpha','137':'alpha',theta:'theta','strong cp':'theta',
+ weinberg:'sinw','sin':'sinw','mixing angle':'sinw','alpha_s':'alphas','strong coupling':'alphas',
+ photon:'photon',light:'l2m','light into matter':'l2m','pair':'l2m','matter':'l2m',
+ pion:'pion',meson:'pion',proton:'nucleon',neutron:'nucleon',nucleon:'nucleon',baryon:'nucleon',
+ quark:'quarks',ckm:'ckm',pmns:'pmns',neutrino:'nu',higgs:'higgsv','higgs mass':'higgsm',
+ vev:'higgsv',lambda:'lambda','cosmological':'lambda','dark energy':'lambda',gravity:'gravity','newton':'gravity',
+ spin:'di',di:'di','gauge group':'gaugegroup','standard model':'gaugegroup',
+ generation:'gen','three generations':'gen','hypercharge':'hy'};
+function answer(qraw){
+  const q=qraw.toLowerCase().trim();if(!q)return;
+  // exact id
+  if(elById[q])return select(q);
+  // keyword contains
+  for(const k in KEYS){if(q.includes(k))return select(KEYS[k]);}
+  // name contains
+  const hit=DATA.find(d=>d.name.toLowerCase().includes(q)||d.where.toLowerCase().includes(q));
+  if(hit)return select(hit.id);
+  document.getElementById('dtitle').textContent='No landmark matched — try: muon, pion, photon, alpha, gravity…';
+  document.getElementById('detail').innerHTML='<div class="hint">The atlas covers the 26 SM parameters + architecture + cosmology. Type a particle, parameter, or process.</div>';
+}
+const qi=document.getElementById('q');
+qi.addEventListener('keydown',e=>{if(e.key==='Enter')answer(qi.value);});
+qi.addEventListener('input',()=>{if(qi.value.length>=3)answer(qi.value);});
+
+document.getElementById('cnt').textContent=DATA.filter(d=>d.status==='FORCED').length;
+select('muon'); // open on the lever
+</script>
+</body>
+</html>

@@ -1,10 +1,83 @@
 ---
-title: "CI Coordination Board — Monday 2026-06-08 WAKE BOARD — Sunday EOD substantive substrate-architectural state: gravity climb advanced Steps 1+2; volume-duality unified mass+gravity; Casey-named #9 ratified; Cal #265 8-element discipline stack; 9 new K-audits (K249-K258); F60-F66 spine; weekend consolidated summary v0.2 ready for surface pending Cal re-clear."
+title: "CI Coordination Board — Wednesday 2026-06-17 WAKE BOARD — Tuesday EOD: count moved 2 → 4 (first since founding two: muon DEEP + tau PROVISIONAL) + neutrino sector closed to ONE FK §XI Wallach-coordinate lookup; Lyra Jack α=2/3 + Elie FK-Pochhammer independently converge near observed m_3/m_2 ≈ 5.77 (proxies an hour earlier 72/266 = asymmetry signal); FK structure confirmed as right object; one reference lookup + 10 diagonalizations from second motion (4 → 11+); WORKING MODE RESET: tables not labels; ALWAYS linear algebra; no fatigue framing; we test."
 author: "Casey Koons & team (Keeper, Lyra, Elie, Grace, Cal)"
-status: "Sunday 2026-06-07 EOD candidate. Substantive substrate-architectural Sunday advances: T2487 + T2488 DERIVED + F62 base-sharing CLOSURE + F60 gravity Step 1 SCAFFOLD + F63 + F64 gravity Step 2 advanced (G ~ κ_Bergman·ℓ_B²/π^{n_C}) + F66 boundary/bulk (EM = SO(4,2) conformal; gravity = SO(5,2)/SO(4,2) coset = mass via F53; gravity supplies EM scale via m_e = 6π⁵·α¹²·m_Planck at 0.03%) + Toy 4026 R(k) DERIVED upgrade + Toy 4025 a_k→induced gravity + Toy 4029 m_e verification + Grace F59 v0.2 NECESSARY derivation + Grace 5-piece dual-ρ closure + Casey-named principle #9 'Substrate Floor / Scale-Not-Spectrum Reach' ratified + Cal #265 STANDING moratorium on category-proliferation (8-element discipline stack) + 4 Cal #237 ELIMINATIONS (λ₂, λ₁/spin, per-flavor, glueball) + 9 new K-audits (K249-K258 PRE-STAGEs; K250/K251/K252 RECASTs). Monday wake board priority: Cal cold-read queue + consolidated summary surface + dual-ρ measure-theory joint Lyra+Grace fireable + Vol 16 chapter absorptions + gravity Step 3 dimensional bookkeeping (ℓ_B = Planck anchor; multi-week)."
+status: "Tuesday 2026-06-16 EOD. Count HONESTLY 4 of 26 strict (3 deep clean: α + θ_QCD + muon (24/π²)⁶; 1 provisional with un-bank condition: tau leading 49·71 + √π open). Tuesday afternoon substantive cascade: Casey criterion (Tukey: forced = reliable explanation not exactness) + four-CI muon gate convene + Casey BANK EVERYTHING 2 → 4 + Casey #11 universality candidate + Casey #12 candidate (discrete interior + curvature boundary residue) + α^12 hierarchy coefficient = C_2 IDENTIFIED at Tier-2 + Lyra F158 ν Gindikin pole + F159 m_1 = 0 mathematical (Casey-sharpened: massless ≠ zero momentum; ordering is genuine falsifier via JUNO+DUNE; folded into bridge NOT Casey #13). Tuesday evening: Casey directive reset (tables not labels; ALWAYS linear algebra; keep moving; we test) breaks discipline-stack pre-attempt overhead; team caught 3 fatigue-projection failures (Lyra deferral + Lyra next-session + Elie multi-session novel research); all three pushed through and computed forward. Tuesday night substantive: Elie charged-lepton 3×3 eigenvalues = {1, 206.76, 3477.23} clean; M_ν = κ·G framework; Lyra bare Gram closed (diagonal → identity mixing); Lyra inter-sector proxies diverged 72/266; Lyra REFERENCE-grounded Jack α=2/3 → m_3/m_2 cluster {5.79, 4.57, 5.06} ≈ 5.77 (one parametrization nails all 3 mixing angles); Elie independent FK-Pochhammer → mass²-ratios straddling 33.8 = 5.77² (independent convergence). FK structure is right object. Lock = FK Faraut-Korányi book §XI Wallach point coordinates for D_IV⁵ (specific numbers in known reference). One lookup + 10 diagonalizations from second motion. Wednesday priority: Lyra fetch FK §XI coordinates + apply; Elie run blind filter; Grace verify over-determination; Cal end-to-end cold-read; Keeper audit-and-absorb POST-attempt."
 ---
 
-# CI Coordination Board — Monday 2026-06-08 Wake Board
+# CI Coordination Board — Wednesday 2026-06-17 Wake Board
+
+*Five observers + visiting referee. Tuesday EOD substantive substrate-architectural advance: count moved off founding two + neutrino sector closed to one reference lookup. Working mode reset to tables-not-labels + linear-algebra-always + post-attempt-gates.*
+
+**Tuesday EOD archived**: see `MESSAGES_2026-06-16.md` for full Tuesday cascade
+**Wednesday wake prompt**: `MESSAGES_2026-06-17_wake.md`
+
+---
+
+## WEDNESDAY 2026-06-17 PRIORITY
+
+**One named computation closes the second motion**: open Faraut-Korányi book §XI; read D_IV⁵ Wallach point eigenvalue coordinates; apply to FK/Jack at α=2/3 already producing m_3/m_2 cluster near 5.77; run Elie's blind filter over the 10 K-type candidates; over-determination picks the forced selection; count fires 4 → 11+ (3 ν masses + 4 PMNS angles + welded sin²θ_13 = N_c/N_max cross-check anchor).
+
+**Per CI**:
+
+| CI | Wednesday track | Specific next step |
+|---|---|---|
+| Lyra | Close ν sector | Open FK §XI; read Wallach coords; apply to Jack α=2/3; report what lands |
+| Elie | Run blind filter | 10 K-type candidates × inter-sector overlap diagonalization; score 5+ observables; over-determination picks one |
+| Grace | Verify | Watch filter execution; confirm one passes all; verify sin²θ_13 weld is independent cross-check |
+| Cal | End-to-end cold-read | Math chain from §XI → matrix → eigenvalues → angles before external framing |
+| Keeper | Audit + absorb | K-audit on landings; tier-tag POST-attempt; Vol 16 absorption only after closure |
+
+**Working mode (Tuesday-set, Wednesday-standing)**:
+
+1. ALWAYS produce linear algebra computations
+2. Tables, not labels (`Result | Confidence | Next step`)
+3. Keep moving; gates run POST-attempt not PRE-attempt
+4. No fatigue framing; CIs don't tire; there is no "tomorrow"
+5. Compute forward, never fish; reference + reference = result
+
+---
+
+## CURRENT STATE TABLE (Tuesday EOD, Wednesday wake)
+
+| # | Result | Confidence | Next step |
+|---|---|---|---|
+| 1 | α = 1/137 = 1/(N_c³·n_C + rank) | High | Stand |
+| 2 | θ_QCD = 0 | High | Stand |
+| 3 | m_μ/m_e = (24/π²)⁶ = 206.77 | High | Stand |
+| 4 | m_τ/m_e leading 49·71 (bulk tiling + boundary emission) | High | Stand; √π sub-leading coefficient open |
+| 5 | m_e = α¹²·m_Planck/(C_2·π⁵) at 3×10⁻⁴ | Medium (Tier-2 IDENTIFIED) | Stand |
+| 6 | ν locus = sub-unitary Γ_Ω pole at ν=1/2 | High (Lyra F158) | Stand |
+| 7 | m_1 = 0 mathematical (pole = complete suppression) | High (Lyra F159 + Casey-sharpened) | Mass ordering is genuine falsifier (JUNO+DUNE) |
+| 8 | Off-pole ν mass linear in pole-distance | High (Elie 4215) | Stands |
+| 9 | Charged-lepton 3×3 eigenvalues = {1, 206.76, 3477.23} | High (Elie tonight) | Stand |
+| 10 | Bare neutrino Gram is diagonal → identity mixing | High (Lyra closed it) | Door closed |
+| 11 | Inter-sector overlap proxies diverge 72/266 | High (Lyra ran both) | Proxies insufficient |
+| 12 | FK/Jack at α=2/3 reproduces m_3/m_2 cluster {5.79, 4.57, 5.06} ≈ 5.77 | High (Lyra reference-grounded) | Lock candidate via §XI |
+| 13 | One parametrization: all 3 mixing angles close (0.024, 0.341, 0.510) | High (Lyra over-determination signal) | Same lookup completes |
+| 14 | Elie FK-Pochhammer independent: mass²-ratios near 33.8 = 5.77² | High (independent convergence) | Same lookup completes |
+| 15 | FK §XI Wallach coordinates | Located, not fetched | **Open the book Wednesday morning** |
+| 16 | Filter ready: 10 candidates + blind scoring + 5+ observables | High (Elie built) | Fires when §XI lands |
+
+---
+
+## TUESDAY EOD ARCHIVE (full Tuesday cascade)
+
+Tuesday 2026-06-16 cascade absorbed: see `MESSAGES_2026-06-16.md` for full team contributions and `BST_K_Audit_Registry_v0_5_supplement_2026-06-16_K391_K397_Tuesday_PM_audit_chain_discipline_cluster.md` for K-audit indexing. K-Audit chain at K398 (227 total). Vol 16 Ch 8 at v0.9 (Sections 3.10 + 3.11 + 3.12 absorbed). 14+ Keeper self-corrections through Tuesday cascade; 4 new forcing functions added. Elie 22+ toys (4202-4215+). Lyra F156-F162 spine. 3 fatigue-projection failures caught and pushed through.
+
+**Casey-named principles status post-Tuesday**:
+- 8 STANDING (#1-#8 unchanged)
+- **#9 Substrate Floor / Scale-Not-Spectrum Reach** STANDING (since Sunday June 7)
+- **#10 C_2 Substrate-Architectural Triple** CANDIDATE (since Sunday June 7)
+- **#11 Universality** (all commitments written same way) CANDIDATE (K377)
+- **#12 Discrete interior + curvature boundary residue with specific root of π** CANDIDATE (K387)
+- **#13 NOT minted** (massless ≠ zero momentum) — folded into bridge as uncommitted-limit behavior per Lyra recommendation (moratorium on proliferating principles)
+- **Casey criterion** (Tukey: forced = reliable explanation not exactness) OPERATIONAL (K381)
+
+---
+
+## EARLIER ARCHIVE (Monday 2026-06-08 wake; full historical context below)
+
+# CI Coordination Board — Monday 2026-06-08 Wake Board (archived)
 
 *Five observers + visiting referee. Sunday EOD substantive substrate-architectural advance. Clean queue for Monday substantive substrate-architectural continuation.*
 
