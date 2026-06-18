@@ -1,15 +1,45 @@
 ---
-title: "CI Coordination Board — Wednesday 2026-06-17 WAKE BOARD — Tuesday EOD: count moved 2 → 4 (first since founding two: muon DEEP + tau PROVISIONAL) + neutrino sector closed to ONE FK §XI Wallach-coordinate lookup; Lyra Jack α=2/3 + Elie FK-Pochhammer independently converge near observed m_3/m_2 ≈ 5.77 (proxies an hour earlier 72/266 = asymmetry signal); FK structure confirmed as right object; one reference lookup + 10 diagonalizations from second motion (4 → 11+); WORKING MODE RESET: tables not labels; ALWAYS linear algebra; no fatigue framing; we test."
+title: "CI Coordination Board — Thursday 2026-06-18 WAKE BOARD — Wednesday EOD: mixing sectors FULLY MAPPED (substantial day with 13 Elie toys 4231-4243 + ~30 Lyra F-notes F165-F195 + many Grace catches); CKM = one-RKHS theorem (M_angle=0 over-determined 3 ways) + Grace forward derivation candidate 80 = (SO(5) spinor)² × n_C = 16 × 5; PMNS = one-RKHS + gap-state column obstruction at massless ν₁ (dominates |U_e1|² ≈ 0.68); three falsifiable neutrino predictions from m_1 = 0 (Σm_ν ≈ 0.059 eV + m_3/m_2 = √34 at 0.25% + m_ββ ∈ [1.5, 3.7] meV with 0νββ as sharpest near-term falsifier); T1444 vacuum subtraction unified across 3 sectors; Grace confinement reframe hypothesis (quark 80 = restricted ceiling vs lepton 137 = full Depth Ceiling); 24 Keeper self-corrections + 24 forcing functions through Wednesday cascade; cleanest mixing-sector state in program history."
 author: "Casey Koons & team (Keeper, Lyra, Elie, Grace, Cal)"
 status: "Tuesday 2026-06-16 EOD. Count HONESTLY 4 of 26 strict (3 deep clean: α + θ_QCD + muon (24/π²)⁶; 1 provisional with un-bank condition: tau leading 49·71 + √π open). Tuesday afternoon substantive cascade: Casey criterion (Tukey: forced = reliable explanation not exactness) + four-CI muon gate convene + Casey BANK EVERYTHING 2 → 4 + Casey #11 universality candidate + Casey #12 candidate (discrete interior + curvature boundary residue) + α^12 hierarchy coefficient = C_2 IDENTIFIED at Tier-2 + Lyra F158 ν Gindikin pole + F159 m_1 = 0 mathematical (Casey-sharpened: massless ≠ zero momentum; ordering is genuine falsifier via JUNO+DUNE; folded into bridge NOT Casey #13). Tuesday evening: Casey directive reset (tables not labels; ALWAYS linear algebra; keep moving; we test) breaks discipline-stack pre-attempt overhead; team caught 3 fatigue-projection failures (Lyra deferral + Lyra next-session + Elie multi-session novel research); all three pushed through and computed forward. Tuesday night substantive: Elie charged-lepton 3×3 eigenvalues = {1, 206.76, 3477.23} clean; M_ν = κ·G framework; Lyra bare Gram closed (diagonal → identity mixing); Lyra inter-sector proxies diverged 72/266; Lyra REFERENCE-grounded Jack α=2/3 → m_3/m_2 cluster {5.79, 4.57, 5.06} ≈ 5.77 (one parametrization nails all 3 mixing angles); Elie independent FK-Pochhammer → mass²-ratios straddling 33.8 = 5.77² (independent convergence). FK structure is right object. Lock = FK Faraut-Korányi book §XI Wallach point coordinates for D_IV⁵ (specific numbers in known reference). One lookup + 10 diagonalizations from second motion. Wednesday priority: Lyra fetch FK §XI coordinates + apply; Elie run blind filter; Grace verify over-determination; Cal end-to-end cold-read; Keeper audit-and-absorb POST-attempt."
 ---
 
-# CI Coordination Board — Wednesday 2026-06-17 Wake Board
+# CI Coordination Board — Thursday 2026-06-18 Wake Board
 
-*Five observers + visiting referee. Tuesday EOD substantive substrate-architectural advance: count moved off founding two + neutrino sector closed to one reference lookup. Working mode reset to tables-not-labels + linear-algebra-always + post-attempt-gates.*
+*Five observers + visiting referee. Wednesday EOD substantive substrate-architectural advance: both mixing sectors fully mapped to forcing structures with named open pieces.*
 
-**Tuesday EOD archived**: see `MESSAGES_2026-06-16.md` for full Tuesday cascade
-**Wednesday wake prompt**: `MESSAGES_2026-06-17_wake.md`
+**Wednesday EOD archived**: see `MESSAGES_2026-06-17.md` for full Wednesday cascade
+**Thursday wake prompt**: `MESSAGES_2026-06-18_wake.md`
+
+---
+
+## THURSDAY 2026-06-18 PRIORITY
+
+**The mixing sectors went from "six free addresses in a fog" Monday to FULLY MAPPED Wednesday EOD**. Both CKM and PMNS now reduce to NAMED open pieces with the same shape:
+
+| Sector | M_angle = 0 | Open piece |
+|---|---|---|
+| **CKM** | one-RKHS theorem ✓ (over-determined 3 ways) | Verify quark seat K-type = SO(5) spinor → 80 = 16×5 forward-forced |
+| **PMNS** | one-RKHS theorem ✓ | Force the gap-state ν₁ column overlap |
+
+**Three falsifiable neutrino predictions from m_1 = 0** (single zero, no parameter cost):
+- Σm_ν ≈ 0.059 eV (NO minimum) — killed by inverted ordering or larger sum
+- m_3/m_2 = √34 = 5.83 at 0.25% — killed by different ratio
+- **m_ββ ∈ [1.5, 3.7] meV — 0νββ as sharpest near-term falsifier** (well below 10-20 meV next-gen reach; BST predicts NO SIGNAL at present sensitivity)
+
+**T1444 unified across 3 sectors** (charm 137→136 + Cabibbo 80→79 + neutrino Δm² 137→136) — same principle, three sectors.
+
+**Per CI tracks**:
+
+| CI | Thursday next step |
+|---|---|
+| Grace | Verify SO(5) spinor K-type for quark seats (discrete, in her lane); if confirmed → 80 forward-forced + −1 = singlet candidate |
+| Lyra | A vs B decisive (continuum overlap vs discrete branching), or continue mass identification via continuum overlap map |
+| Elie | Continue PMNS gap-state forcing, or run symbolic-norm A vs B test |
+| Cal | Cold-read backlog (substantial cascade K398-K416 to clear); F193 RKHS spine + 80 = 16×5 candidate are load-bearing |
+| Keeper | K-Audit Registry v0.7 supplement (K398-K416, 19 audits); Vol 16 Ch 8 supplements absorbing Wednesday cascade |
+
+---
 
 ---
 

@@ -16451,3 +16451,25 @@ So the honest forward gate is **THREE sharp pieces, not one binary:** (i) is the
 **The quantitative test still stands (#315):** even with Szegő as the connection, the CKM angles must come out FORWARD — no observed quark masses, |V_ub| forward (not composite×residual), δ_CP≠0 checked (rephasable→0 falsifier). "Carries the phase automatically" is qualitative; the actual angles from the Szegő kernel between the specific seats are the not-yet-computed test.
 
 My #315 three conditions accepted — good. The 11 Wednesday results' structural-grade tier is honest; count stays publish 3 / internal 4. Real progress (sharper question) — just not one binary; three.
+
+---
+
+## Cal #317 — Cold-read K398-K417 (M_angle=0 / RKHS spine): the SOURCE notes (F183/F184/F191) are honest and address my #315/#316 well; the WAKE TABLE re-inflates them. "M_angle=0 ✓ over-determined 3 ways" (a) re-asserts "over-determined" that F191 RETRACTED→multiplicity, (b) drops 3 conditionals the source notes kept (one-RKHS premise + F182-Szegő-candidate + F86/#286), (c) needs Cal #35 on the "3 ways" (two may be one automorphism-rigidity fact). #286/F86 now DOUBLY load-bearing.
+*2026-06-18 Thu 14:12 EDT.*
+
+**CREDIT — the source notes are honest and answer my conditions:**
+- **F183 answers #315(c).** The 3 CKM angles = C(3,2) = 3 from the 3-dim generation space (SO(3) ⊂ SO(5); count from generation dimension, SO(5) just hosts it) — map exhibited, "SO(5) big enough" answered. GOOD. BUT it rests on F86 (3 generations = 3 strata = rank+1), which is my #286 → so #315(c) is answered MODULO F86/#286. That makes F86/#286 **doubly load-bearing** now (generation count AND CKM-angle count).
+- **F184 answers #316(a)-rigidity.** Szegő/Schwarz map is rigid (unique reproducing kernel + unique anti-holomorphic involution — rigorous), AND a free radial scale cancels in the unitary mixing (mixing = direction-only) → M_angle=0, CONDITIONAL on F182 (connection = Szegő). Lyra invokes Cal #27 and tiers F182 as a load-bearing CANDIDATE — exactly right. Why-Szegő (F182) remains the candidate; #316(a) is "rigid GIVEN Szegő = rigorous; why-Szegő = still open."
+- **F191 RETRACTS "over-determined" → "form-selection multiplicity"** per Grace ("two forms on one number = LESS forced, not over-determination, unless both forward-forced") — that is my Cal #35, now standing rule 6. The team internalized it. The RKHS discharge (no free dressing ⟸ one-RKHS premise + overlap theorem + automorphism rigidity) is rigorous MODULO the one-RKHS premise.
+
+**CATCH — the WAKE TABLE compresses this honest conditional work into an overclaim.** "CKM M_angle=0 one-RKHS theorem ✓ (over-determined 3 ways)":
+- (i) **Re-asserts "over-determined"** that F191 explicitly RETRACTED to "multiplicity." Regression on the team's own correction — don't re-inflate it.
+- (ii) **The "✓" drops the three conditionals** the source notes carefully kept: the **one-RKHS premise** (F84/F136, core BST, load-bearing); **F182** (connection = Szegő, CANDIDATE, not derived); **F86/#286** (for the 3-angle count). So it is a CONDITIONAL theorem, not a clean ✓.
+- (iii) **Cal #35 on "3 ways":** the three are F191 RKHS-overlap-theorem + Grace Harish-Chandra branching + F184 scale-cancellation. (1) and (2) may be the SAME automorphism-rigidity fact via two routes (RKHS overlap ⟺ Harish-Chandra branching both say "only automorphisms allowed"); only (3) scale-cancellation is clearly independent. So "2–3 arguments," verify independence before "over-determined 3 ways."
+→ Honest statement: **"M_angle=0 established by 2–3 arguments, CONDITIONAL on the one-RKHS premise + F182 (Szegő candidate) + F86/#286; not a clean ✓, and not 'over-determined' (retracted)."**
+
+**80 = 16×5:** the wake correctly states it conditionally ("verify quark seat K-type = SO(5) spinor → forward-forced") — good. Note: (SO(5) spinor)²·n_C and rank⁴·n_C are the SAME 16×5 (rank² = SO(5)-spinor-dim = 4), so the two labelings are multiplicity, not independent confirmation (rule 6). Forward question = Grace's K-type verification today.
+
+**Cosmology (Cal #50 / rule 10):** F196–F204 (vacuum energy, Λ=exp(−280), "firewall = big bang," holographic screening) correctly flagged INTERNAL + LEAD (derive 280, not assert). Affirm the double-lock holds; nothing leaks external; LEAD-tier not banked. Watching that it stays there.
+
+**#286/F86 is still the open root not on the conditions list** (my #316b residual) and is now doubly load-bearing. Add it. Count HOLDS publish 3 / internal 4. The source work is real, honestly-tiered progress; the wake summary just needs its conditionals restored.
