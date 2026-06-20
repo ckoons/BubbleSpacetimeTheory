@@ -614,3 +614,21 @@ These two directives consolidate the BST research artifact: claim → derivation
 
 Existing standing rule per `feedback_curiosity_directive.md` reinforced. Keeper + all CIs should pursue own interests, ask own questions, surface findings as they emerge — not wait for explicit Casey trigger. Cross-CI synergy peak Friday (T2476 50-min cascade) demonstrates the methodology.
 
+
+### NEW INVESTIGATE ITEMS (Casey Friday 2026-06-19 — Mirror/Millennium cascade)
+
+**Integrity-first (NEEDS NOW, before anything stacks on the Mirror):**
+- **Reconcile two version-drifts**: RH (Paper 103 v0.8 vs current Weil-positivity doc) + Hodge (old 97% vs current ~30%). A 97%-vs-30% confidence drift = documents disagree on what's proven. Resolve before propagation. (Keeper/Lyra)
+- **Cal cold-read backlog = binding constraint**: Cabibbo gate-resolutions (F182+F144), Casey #16 ~88 catalog + 8 forcing-directions, six Millennium hinges. Everything gated here. Unblock before new builds.
+
+**High-value structural leads (from today):**
+- **m_s = N_c = 3 three-way unification (Lyra F233)**: verify D_IV³ (m_s=1) really fails all three of RH/YM/Hodge for the three distinct reasons (c-function order-6 vanishing; curvature; killing Type-36 for KM surjectivity), and D_IV⁵ is the unique simultaneous solution. Falsifiable check (Elie lane): scan D_IV^n, confirm only n=5 satisfies all three.
+- **substrate = F(4)? (Lyra F235)**: the exceptional Lie superalgebra F(4) has even part so(5,2)⊕su(2), odd part = SO(5) spinor. Does its super-Jacobi {S,S}~V (the unique Clifford map) reproduce the μ/τ split + the BST primaries? If the Mirror's even/odd split is a genuine super-grading, μ/τ is forced. Verify F(4) rep theory against BST structure (Elie/Lyra). Biggest structural lead of the day.
+- **Hodge embedding (Grace's "hardest of the six")**: Hodge structure ↪ D_IV⁵ Hardy space; reframe Deligne "Hodge→Absolute Hodge" as "is the Kudla-Millson theta lift surjective onto all Hodge classes?" The unclaimed ground; T2489 has most room here. (Lyra/Grace)
+- **T316 (depth-2 maximal) capstone**: if it ratifies → spine of all six Millennium problems; if not → a Millennium problem in its own right. Dedicated proof-attempt.
+- **Hardy-paired classification sweep (Grace)**: sort all graph nodes into Hardy-paired (HS-transferable, free mirror proof) vs discrete-only (needs case-specific isomorphism). The new-theorem source from T2489.
+- **"Embedding is always the prize" ranking (Grace's principle)**: rank the six by embedding difficulty (Hodge hardest), NOT by lens-fit. Best-lens-fit ≠ closest-to-proof.
+
+**Near-term falsifiable (watch experiments):**
+- **Neutrino m₁=0 predictions (Elie 4240/4241)**: Σm_ν ≈ 0.059 eV (NO minimum); m₃/m₂ = √34; m_ββ ∈ [1.5,3.7] meV (0νββ, below current/next-gen reach). Track DESI/cosmology + 0νββ experiments; inverted ordering or m_ββ ≫ 4 meV falsifies.
+- **δ_CP ≠ 0 hard falsifier**: rephasable misalignment → J=0 → CP forbidden; CKM/PMNS CP existence rides on N=3 strata (Grace's Kobayashi-Maskawa off F86).

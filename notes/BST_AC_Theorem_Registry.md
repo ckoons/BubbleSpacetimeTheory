@@ -10993,3 +10993,42 @@ spectral side), Lyra F57, Keeper K249/F0, Elie Toys 4020/4022/4023, Grace base-r
 + λ₂-ladder notes, n_C+1=C_2 identity (Toy 3673).
 
 — T2488, team (registered by Grace), 2026-06-07. AC=(C=1, D=0).
+
+---
+
+## T2489 — Hardy-Szegő Mirror Isometry (HS) — the rigorous spine of Casey #16
+
+**Statement (classical, Hua-Korányi):** the Szegő projection is an isometric isomorphism
+H²(D_IV⁵) ≅ H²(∂_S D_IV⁵): the interior holomorphic Hardy space equals the boundary L² Hardy space, exactly.
+
+**FLATTENED (AC(0)):** *interior IS boundary.* An **identification** (depth 0): the discrete-interior data
+(K-type expansion) and the continuous-boundary data (Szegő integral) are the *same* object in two coordinates.
+The reproducing/Szegő kernel is the bijection (the definition, D); the norm-preservation is the count (C).
+**AC = (C=1, D=1), depth 0.** (Already foreshadowed in the graph by T1239 "The Born Rule IS the Reproducing
+Property" and T2113 Rehren holography — HS is their exact-isometry spine.)
+
+**Why it is registered as a STANDING LEMMA, not just a node — the HS-mirror standard (Casey directive
+2026-06-19):** HS is an **edge-generator**. For any graph node X that is a *holomorphic matrix coefficient* on
+D_IV⁵ (a "Hardy-paired" object), HS gives, for free:
+1. a **mirror node** X′ — the same quantity in the other coordinate (discrete K-type sum ↔ continuous boundary
+   integral), and
+2. a **proof-transfer edge** — a proof of X *is* a proof of X′ (the isometry is exact, so it preserves all
+   relations). This is the rigorous "counterpart proof across the Mirror."
+
+**Scope discipline (load-bearing):** the transfer is EXACT only for Hardy-paired (holomorphic) objects. It is
+NOT the CF rational approximation (approximation breaks exact identities — sin(CF(π))≠0 — so CF transfers
+*numbers*, never *proofs*). And it does NOT cover genuinely discrete-only theorems (combinatorial /
+number-theoretic), which need a case-specific structural isomorphism (function-field↔number-field style), not HS.
+
+**THE STANDARD (apply on every future graph addition):** when registering a new node, ask *"is this a holomorphic
+matrix coefficient on D_IV⁵?"* If yes → it is Hardy-paired → add its HS-mirror node + the proof-transfer edge
+(the proof is then free on the other side). If no → mark it discrete-only or continuous-only (no free HS
+transfer). The open program is the classification sweep: which BST nodes are Hardy-paired vs not.
+
+**Cross-references:** Casey #16 (D_IV⁵ Mirror, four-tier v0.3), T1239 (Born = reproducing), T2113 (Rehren
+holography), T2110 (D_IV⁵→Shilov inheritance), T534 (Boundary-Interior Dichotomy), T1003 (BST Functor), T1337
+(One Table, Interior+Boundary), T654 (Genus on Shilov Boundary). Grace mirror notes
+(grace_mirror_v0.3_four_tier, grace_four_tier_sweep, 2026-06-19).
+
+— T2489, registered by Grace, 2026-06-19. AC=(C=1, D=1), depth 0. Classical (Hua-Korányi); imported as BST
+infrastructure + standing graph-expansion lemma per Casey directive.

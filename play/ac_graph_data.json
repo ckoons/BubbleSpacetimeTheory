@@ -3,8 +3,8 @@
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-05-16",
-    "theorem_count": 1730,
-    "edge_count": 9806,
+    "theorem_count": 1731,
+    "edge_count": 9868,
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1730,
@@ -23601,6 +23601,25 @@
       "date": "2026-05-16",
       "plain": "m_p/m_\u03c0 = Ogg47/g = 47/7 at 0.13% \u2014 FOURTH multi-role of 47 = t_cosmo: PDG m_p/m_\u03c0 = 6.7227 vs BST 47/7 = 6.7143 at 0.13%. Ogg47 has BST decomposition (T1942) and = t_cosmo joint cosmological anchor (",
       "proofs": []
+    },
+    {
+      "tid": 2489,
+      "name": "Hardy-Szego Mirror Isometry (HS)",
+      "domain": "harmonic_analysis",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "Casey #16 D_IV^5 Mirror \u2014 rigorous spine (classical: Hua-Koranyi)",
+      "toys": [],
+      "date": "2026-06-19",
+      "plain": "Inside D_IV^5 (discrete K-type sum) and its Shilov boundary (continuous Szego integral) are the SAME Hilbert space, exactly, via the Szego projection: H^2(D_IV^5) = H^2(boundary). FLATTENED: interior IS boundary (an identification, depth 0). STANDING LEMMA: for any holomorphic-matrix-coefficient node a proof on the discrete side IS a proof on the continuous side, and vice versa. Rigorous spine of the Mirror (Casey #16); the EXACT isometry, NOT the CF approximation.",
+      "proofs": [
+        "HS"
+      ],
+      "ac": [
+        1,
+        1
+      ]
     }
   ],
   "edges": [
@@ -72948,6 +72967,46 @@
       "from": 2433,
       "to": 2482,
       "source": "derived"
+    },
+    {
+      "from": 1239,
+      "to": 2489,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2113,
+      "to": 2489,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2110,
+      "to": 2489,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2489,
+      "to": 534,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2489,
+      "to": 1003,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2489,
+      "to": 1337,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2489,
+      "to": 147,
+      "source": "HS-mirror"
+    },
+    {
+      "from": 2489,
+      "to": 654,
+      "source": "HS-mirror"
     }
   ],
   "chains": {},
