@@ -90,7 +90,9 @@ KNOWN_AK5 = {
     13: Fraction(238783750493609, 218931329925),
     14: Fraction(2946330175808374253, 884326193375625),
     15: Fraction(771845320, 74233),
-    17: Fraction(20329084105, 173988),
+    17: Fraction(6964243457, 59604),  # corrected 2026-06-20 (Elie); justification per Keeper K450:
+                                      # matches results_hybrid_3200.json a17_n5 (INDEPENDENT run that does
+                                      # NOT use this table) + Keeper direct poly-eval. Prior 20329084105/173988 stale.
 }
 
 MAX_PRIME_BY_LEVEL = {
