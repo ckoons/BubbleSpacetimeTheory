@@ -57,3 +57,31 @@ Which "c₂-Chern = 11" reading is load-bearing for χ should be pinned to a pri
 computation — same discipline that caught the C₂/B₂ root-system slip Sunday. Count UNAFFECTED 4 of 26.
 
 — Grace, Monday 2026-06-22 16:45 EDT
+
+---
+## v2 SHARPENING (2026-06-23 Tuesday 08:30 EDT) — the tangent/gauge bundle subtlety
+
+After the Chern pin (`grace_chern_convention_pin_Q5_tangent_vs_gauge_2026-06-23.md`): the anchor (0⁺⁺ = c_2 = 11
+seats) numerically **equals the tangent-bundle c₂-coefficient of Q⁵** (= 11). So the anchor *is itself* a
+tangent-bundle geometric coefficient — which means **any split built from the same tangent-bundle Chern set risks
+circularity with the anchor, not just the bare integer 11.**
+
+**Concrete risk in the stated compute route:** Elie's "χ_top from p₁ = N_c = 3, not 11" does **not** automatically
+escape the geometry — p₁ = c₁²−2c₂ is the **tangent-bundle** Pontryagin, the *same* bundle whose c₂-coefficient is
+the anchor 11. p₁ and the anchor live in one bundle. So "non-circular by construction" is **unverifiable** until the
+**gauge** bundle is explicitly separated from the tangent bundle.
+
+**Gate v2 (supersedes the v1 circular-set):**
+- **PRECONDITION (new):** the bundle identification must be **explicit** — χ_top shown to come from the
+  GAUGE/instanton bundle c₂ computed *separately* from the tangent bundle, OR the tangent↔gauge reduction (via
+  su(3)⊂g₂⊂so(7) holonomy) **derived**, not asserted "by construction." No explicit separation → the gate cannot pass.
+- **EXTENDED circular set (flag, don't bank):** predicted split factoring through 11, c_2/2 = 5.5, OR the
+  tangent-bundle Chern coefficients {5,11,13,9,3,6} / tangent p₁ = 3 — *when those are the same geometric structure
+  that fixes the anchor.*
+- **GENUINE (bankable):** split factors through GAUGE-bundle instanton quantities, or independent primaries reached
+  by a real correlator computation, landing near 5.5 seats for a physical (Witten-Veneziano) reason.
+- **Caution on N_c:** a split ~ N_c = 3 is **not automatically genuine** — must check whether the N_c arrives via the
+  GAUGE instanton (genuine) or via tangent p₁ (geometry that co-fixes the anchor). Same integer, different bundle,
+  different verdict. The bundle pin decides.
+
+— Grace, Tuesday 2026-06-23 08:30 EDT
