@@ -1,8 +1,8 @@
 ---
-title: "The Hodge Conjecture via Theta Correspondence on D_IV^5"
+title: "The D_IV^5-Shimura case of the Hodge Conjecture, via Theta Correspondence (PARTIAL — special case)"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
-date: "May 11, 2026"
-status: "Draft v23 — Paper H1 (Hodge Closure Sprint). Layer 1 proof: Shimura varieties of D_IV^5 via Kudla-Millson theta correspondence. Three Cal language fixes applied (May 9). Scope: D_IV^5 Shimura varieties only. Extension to general varieties via ring uniqueness in companion Paper H2."
+date: "May 11, 2026 (scope-pinned 2026-06-24, #157)"
+status: "Draft v23 — Paper H1 (Hodge Closure Sprint). SCOPE-PINNED (2026-06-24, #157): this is the SPECIAL CASE of Shimura varieties of D_IV^5 via the Kudla-Millson theta correspondence — NOT the full Hodge conjecture. Scope: D_IV^5 Shimura varieties ONLY. The extension to general smooth projective varieties (the full conjecture, the hard part) is OPEN — the companion Paper H2 'ring uniqueness' route is a PROGRAM, not a completed proof. Title reads 'the D_IV^5-Shimura case of the Hodge conjecture', not 'the Hodge conjecture proved'. (Three Cal language fixes applied May 9.)"
 target: "Annals of Mathematics / Compositio Mathematica"
 ci_board: "L33"
 toys: ""

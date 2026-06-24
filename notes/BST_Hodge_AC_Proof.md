@@ -1,8 +1,8 @@
 ---
-title: "Hodge Conjecture: The AC Proof"
+title: "Hodge Conjecture (substrate / D_IV⁵-Shimura case): an AC(0) framework — PARTIAL"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
-date: "March 29, 2026"
-status: "~98% — Rational FE (T1638 May 2) advances Deligne conjecture path. HO eigenfunctions algebraic (Toy 1783). Transfer to general varieties remains (~2%)."
+date: "March 29, 2026 (scope-pinned 2026-06-24, #157)"
+status: "PARTIAL / SCOPE-PINNED (2026-06-24, #157). The AC(0) (C=1, D=1) framework is set up for the SUBSTRATE / D_IV⁵-Shimura case (Rational FE T1638; HO eigenfunctions algebraic, Toy 1783). The load-bearing OPEN piece is the TRANSFER to general smooth projective varieties — this is the BULK of the Hodge conjecture, NOT a ~2% remainder. The earlier '~98%' figure is WITHDRAWN as a stale overclaim that mislabeled the hard part: the program's current honest overall self-assessment is ~30%. Honest tier: substrate-side machinery in hand; the general result OPEN."
 framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 ---
 
