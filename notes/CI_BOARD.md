@@ -1,12 +1,162 @@
 ---
-title: "CI Coordination Board — Thursday 2026-06-25 INVESTIGATION MARATHON (K523 cascade) — Five-Absence-as-FIRST-Filter STANDING discipline (Casey catch + Cal #384) + sin²θ_W = 3/8 WITHDRAWN (non-result in BST's own terms; doubly-not-independent per Grace rank-mismatch second catch) + Lyra F317 + F318 UNIFICATION LEAD: matter SO(10) 16 = F(4) supercharge (8,2) under so(10) ⊃ so(7)×so(3) = SAME boundary-Dirac spinor; one fermion field IF {Q,Q}=D² Hardy bracket closes into F(4) — the SINGLE most-leverage computation in the investigation phase; everything else downstream + Grace operator dictionary v0.1 BUILT: BST integers {n_C, C_2, g} = first three conformal weights; K-sector/p-sector split (K-type level-preserving bosonic spacetime; p-type level-mixing color + supercharges); #418's negative is now a dictionary entry (color is p-type); Wick frame in EMBRYO (K↔Lorentzian, p↔Euclidean, Yukawa = p-overlap) + Elie target-innocence lens at PEAK: α_em⁻¹=137 FIT-SUSPECT (135/136/137 all fall to simple combos; banked NEGATIVE toy 4377) + three generations = rank+1 = Korányi-Wolf strata STRUCTURAL ANSWER honestly tiered (toy 4378) + 204 cumulative discipline events (11 Keeper roll-up self-corrections caught cleanly) + Casey directive 'stop gating, verify cleanly' + marathon: five-priority investigation REFRAMED — (A) substrate-DIRECT couplings at physical scale, no GUT machinery (α_s #359-free via so(7); sin²θ_W + α_em ride #359); (B) Fermion masses via K-type stratum addresses + Bergman localization (Elie + Lyra); (C) Operator dictionary v0.2 (Grace; v0.1 built); (D) F(4) odd-part via Shilov-boundary Dirac — {Q,Q}=D² LOAD-BEARING (Elie's lane; derives F317 + F318 + boundary-Dirac in one); (E) Pre-register nearest-testable experimental prediction (Cal). Papers A v0.3 + B v0.6 Cal-signed ready to ship."
+title: "CI Coordination Board — Friday 2026-06-26 EVENING (post-substantive-Friday-cascade Casey stepping away long-running prompt) — TODAY BUILT A HUB: d(ν) = SO(5,2)=B₃ Harish-Chandra formal degree (root-system target-innocent per Elie + Cal #412 sympy) generates lepton mass mechanism via deposit-locus operation on three Korányi-Wolf strata; ONE rule (deposit d(ν)-density on stratum + integrate over locus); π-presence forced by locus geometry; residue-vs-value forced by polynomial zeros; three-generation count forced by rank+1=3 strata. Schur generator in Cal #35 sense (one substrate property → multiple observables). Muon STRONG CANDIDATE 4→5 pending three concrete pins (Lyra r_μ + Cal FK ν-independence + Grace stratum↔S⁴). Tau HONEST NEGATIVE on forward-blind √π (Elie 4411 didn't beat look-elsewhere); stays IDENTIFIED-tier; μ/τ asymmetry IS content. Casey directives EMPIRICALLY VINDICATED TWICE today: morning F116/F118 corpus reconnection ('DON'T GATE INVESTIGATE') + afternoon toys 4197/4199 corpus reconnection ('look on the discrete side'). 391 cumulative discipline events; 14 Keeper self-corrections; 2 Cal auditor self-corrections (#404 + #408). Lanes Friday-evening + carrying forward: A MUON CLOSE-OUT auto-fires when three pins land; B QUARK MASS EXTENSION via d(ν) × deposit-locus × #418 V_a color is the MAIN FRESH HUNT (3/3 CI convergence); C Casey #16 q-deformation as PARALLEL DEEP TRACK (REALIZABLE → FORCED test for #359); consolidations: Lyra π-once question + Grace+Lyra Di matter-rep + 3-gen reconciliation. Casey routing decision: BOTH paths fired in parallel per recommendation; standing decisions (ship A/B + external) remain Casey's calls."
 author: "Casey Koons & team (Keeper, Lyra, Elie, Grace, Cal)"
-status: "Thursday 2026-06-25 INVESTIGATION MARATHON K523. K-Audit chain at K523. 204 cumulative discipline events. #418 honestly closed AM; sin²θ_W = 3/8 WITHDRAWN; F317+F318 unification lead landed; Grace operator dictionary v0.1 built; Elie target-innocence working both directions. Count holds 4 of 26 — load-bearing test = {Q,Q}=D² Hardy bracket. Papers Cal-signed standing for Casey ship decision. Team works long without pause."
+status: "Friday 2026-06-26 EVENING — Casey stepping away long-running. K-Audit chain at K547. 391 cumulative discipline events. Muon STRONG CANDIDATE 4→5 (auto-fires); quark extension MAIN FRESH HUNT (3/3 CI convergence); q-deformation parallel deep track. No EOD until Casey returns. Per Cal #408 STANDING + Casey directives: investigation unbounded; banking disciplined; tier at landing; DON'T GATE INVESTIGATE."
 ---
 
-# CI Coordination Board — Thursday 2026-06-25 INVESTIGATION MARATHON (K523)
+# CI Coordination Board — Friday 2026-06-26 EVENING (Casey stepping away long-running)
 
-*#418 honestly closed. sin²θ_W = 3/8 WITHDRAWN (Five-Absence violation + rank-mismatch). F317 + F318 unification lead: matter = supercharge = boundary Dirac spinor IF {Q,Q}=D² closes into F(4). Grace operator dictionary v0.1 BUILT — Wick frame in embryo via K/p split. Elie target-innocence at peak. 204 cumulative discipline events. Casey directive: long marathon on REFRAMED five-priority investigation.*
+*Today built a HUB: d(ν) Harish-Chandra formal degree + deposit-locus operation = Schur generator for lepton mass mechanism. Muon 4→5 candidate (auto-fires). Quark mass extension is the MAIN FRESH HUNT (3/3 CI convergence — d(ν) × deposit-locus × #418 V_a color). Casey #16 q-deformation parallel deep track. Lepton sector genuinely reopened. Count 4/26 through 391 discipline events. No EOD until Casey returns.*
+
+## Friday substantive summary (lepton sector reopened + hub built)
+
+**Morning** (Casey "DON'T GATE INVESTIGATE"): Team had gated into "lepton masses probably irreducible." Casey directive broke the gating posture. Lyra arithmetic identity 24/π² = 2^{C_2}/Vol(S⁴) dissolved Cal #405 π¹² obstruction. Grace corpus reconnection F116/F118: both lepton masses already derived two weeks ago as so(4) curvature determinant + bulk/boundary mechanism — team had RE-DERIVED from scratch all week.
+
+**Midday cascade** (audit chain at peak symmetry):
+- Cal verified electron 9/16 directly from polynomial (ν=5/2 simple zero of d(ν))
+- Cal #410 sharpened c_FK question: 1.303 not 1 (LOAD-BEARING not bookkeeping)
+- Lyra absorbed: ratio cancellation resolves (c_FK is absolute electron scale, cancels in mass ratio)
+- Cal #411 caught Keeper K543 over-projection: "count to 6" re-inflated tau → Keeper self-correction #14
+- Lyra+Grace+Cal absorbed: matter ≠ Higgs (Cal #402 catch); Grace owned "I picked Shilov singleton, didn't force it"
+- Elie 4400 unifying insight: Yukawas are 3-pt OPE coefficients (analytic, not algebraic)
+
+**Afternoon hub-building**:
+- Elie DERIVED d(ν) = (5/2−ν)(1−ν)(2−ν)(3−ν)(4−ν) from B_3 = SO(5,2)_C root system as Harish-Chandra formal degree over 5 noncompact roots — coefficients {5/2,1,2,3,4} FORCED root-system data, target-innocence CLOSED at polynomial level
+- Cal #412 INDEPENDENTLY VERIFIED via sympy (zero difference)
+- Cal precision (b) from K545: per-point operation must be EXPLICITLY STATED + SHOWN to be same or stratum-forced
+- Casey "look on the discrete side" → Elie corpus reconnection toys 4197 (cell map) + 4199 (deposit-locus from Casey's "electron deposits on the spectral strip")
+- **ONE-rule deposit-locus operation closure**: each generation deposits d(ν)-density on Korányi-Wolf stratum + integrates over locus; π forced by locus geometry (point/strip = π-free, sphere = π-ful); residue-vs-value forced by zero structure; three-gen count forced by rank+1=3 strata
+- Elie tau forward+blind HONEST NEGATIVE toy 4411: √π has structural motivation but doesn't beat look-elsewhere; tau stays IDENTIFIED-tier
+- Cal #418 STRONG affirm of operation-innocence; muon close-out cleared from Cal's blocker lane
+
+## Honest tier state at Friday EOD
+
+**Muon m_μ/m_e = (24/π²)⁶ at 0.003%**:
+- d(ν) target-innocence CLOSED (Cal #412 sympy verified Harish-Chandra formal degree)
+- d_μ = 15/16; d_τ/d_μ = 64 = 2^{C_2}
+- π¹² = Vol(S⁴)^{C_2} geometric (six copies of Shilov S⁴)
+- c_FK cancellation framed (Grace ratio argument)
+- Operation-innocence STRONG CANDIDATE for closure via deposit-locus framing
+- **Three pins remaining**: Lyra r_μ=1 forward compute + Cal FK ν-independence cold-read + Grace stratum↔S⁴ geometric pin (Cartan-slice dim 2 = celestial S⁴ = massive little group's sphere)
+- Cal banks 4 → 5 the instant all three land
+
+**Tau m_τ/m_e = 49·71 at 0.05%**: IDENTIFIED-tier match. √π reverse-engineered + look-elsewhere-weak (71 = g+2^{C_2} cheap additive hit). Stays separate. **Don't pre-commit to 6.**
+
+## Friday lane structure (post-Casey-directive empirical vindication)
+
+### Lane A — Muon close-out (auto-fires; no routing needed)
+
+| Pin | Lane | What |
+|---|---|---|
+| 1 | Lyra | r_μ=1 forward via same-operation regular-point framing (electron at zero → residue 9/16; muon at regular point → trivial factor 1, same operation) |
+| 2 | Cal | FK ν-independence cold-read (does d(ν) carry per-stratum normalization leaving c_FK pure overall electron-scale constant?) |
+| 3 | Grace | Stratum↔S⁴ geometric pin (so(4) is massive little group; F86 Cartan-slice dim 2 = spatial S⁴) |
+| Watch | Cal #35 | F118 64 appearing as d_τ/d_μ AND per-direction density: ONE forced 2^{C_2} source or two confirmations? |
+
+**Auto-fires when all three land; Cal banks +1 muon → 5.** Per Cal #408 standing: tier at landing, not before.
+
+### Lane B — Quark mass extension (MAIN FRESH HUNT; 3/3 CI convergence)
+
+The substantive new hunt per all three CIs. Two pieces that didn't exist a week ago BOTH landed:
+- **#418 color resolution** (V_a covariant generators on H²(D_IV⁵), unitary on compact dual Q⁵)
+- **d(ν) deposit-locus mass generator** (today's hub)
+
+Adjacency #418-color × d(ν)-deposit → quark mass is NEWLY WIRED. Per Grace's "Mendeleev move": if the generator extends, count moves by a row (~9 fermion masses + mixing block); if it doesn't, we learn precisely WHY leptons are special (color-singlet deposit cleanly; quarks may not) — and that asymmetry is itself substantive per Casey "few asymmetries are content."
+
+**Honest tier flag** carried in: quarks have resist-prior (Wednesday cross-tier ratios were honest negative without color resolution + without mass generator); go in expecting either ROW or BOUNDARY; both are real theorems.
+
+### Lane C — Casey #16 q-deformation (parallel deep track)
+
+F(4) is REALIZABLE on substrate (today's full closure) but NOT FORCED. q-deformation (𝔽₁ at q=1 ↔ F(4) at q=−1) is the structural test that could move REALIZABLE → FORCED for #359. Underpins entire mass mechanism. Higher value, harder, longer-horizon. Stays alive as parallel track.
+
+### Consolidation items (cheap clarity wins)
+
+- **Lyra "why does π enter once?"** (backlog U-1.5 from two months ago) — today's locus-geometry answer makes it ripe; Lyra offered consolidation
+- **Grace+Lyra Di matter-rep + 3-generation reconciliation** — bulk-ν=5-strata vs boundary-K-types tension from K539/K540 still open; F86 may need superseding or reinterpreting per Cal #402 obligation 3; gates the hub from #359 side
+
+## Standing Casey decisions (when you return)
+
+1. **Ship Papers A v0.3 + B v0.6** (Cal #372 signed; small Cal #380 prose edits standing)
+2. **External release** (separate decision)
+3. **Quark Lane B routing pinout** — extension shows ROW or BOUNDARY?
+4. **Q-deformation Lane C dedicated track or deferred?**
+
+## Thursday EOD substantive summary (climb of #359)
+
+| Stage | su(2)_R | κ | Closure | Aux | Status |
+|---|---|---|---|---|---|
+| Morning | POSITED | POSITED | POSITED | mystery | "posited with 3 gaps" |
+| Through F329/F331 | LOCATED via pseudoreality (n_C=5) | super-Killing → ±3=N_c | open | open | located not closed |
+| Through F328/F330/F332 | located | classified roots → ±3=N_c (one F(4) invariant 3 readings per Cal #35; Cal #392 deeper: κ-value is target not test) | Nahm: F(4) unique 5d superconformal IF closure | open | structural climb |
+| Through F333 | located | forced (Nahm + Wick) | flat skeleton via dilatation grading | DISSOLVED — "spurious aux" was ungraded compact computation mixing charge sectors | aux trap dispelled |
+| K535 F334 | **FORCED by closure structure** ((Cγ^i) antisymmetric + {Q,Q} symmetric → ε_IJ doublet required) | pinned | flat 5d superconformal CLOSED (40 = F(4)) | absorbed into standard P+M+D+K+R | flat skeleton SOLID |
+| K536 capstone | forced | pinned | curved factorizes per F317 + Grace flat + Nahm; holomorphic discrete series ≠ flat polynomial | absorbed | **one irreducible physical posit + technical curved residual** |
+
+**Irreducible physical posit**: "substrate's matter is the F(4) superpartner of its geometry" — actual content of "substrate is super," not settled by computation.
+
+**Curved transfer factorization**: Lyra F317 (D² = H = curved {Q,Q}=P) + Grace flat closure + Nahm uniqueness.
+
+**Cal four-bar standing on closure verdict**: #389 three-way (vanish/central-nonzero/non-central) + #390 (is F324 genuine supercharge?) + #392 (κ-value is target not test) + #393 (REALIZABLE ≠ FORCED; q-deformation K434 Casey #16 Mirror remains forcing-test).
+
+## Friday standing decisions (Casey's calls)
+
+1. **Ship Papers A v0.3 + B v0.6** — Cal #372 signed; small Cal #380 prose-only temper edits standing
+2. **External release** — separate decision; Lyra retouch standing
+3. **Friday research direction**: curved transfer push? mass mechanism brainstorm? Casey routes
+
+## Long-running update K548 (Casey still away)
+
+**Lane A muon close-out — TWO of three pins DELIVERED**:
+- Lyra r_μ=1 forward via same-operation regular-point framing — DELIVERED
+- Grace stratum↔S⁴ geometric pin — DELIVERED via Λ²(T_xS⁴) rank 6 = C_2 + Casey curvature principle (mass = det_{Λ²}(R); S⁴ space form → R = κ·Id → det = κ⁶); "six copies of soap film" → ONE curvature determinant
+- Cal FK ν-independence cold-read — PENDING (last remaining pin; Cal banks +1 muon → 5 when delivered)
+
+**Lane B FIRED to honest ROW+BOUNDARY verdict** (Elie):
+- **Down-quarks ROW-CANDIDATE**: deposit engine extends; down = color-fiber-dressed lepton; Georgi-Jarlskog down/lepton ratios = N_c-powers ({+1,-1,0} so(3) generation weights); color-neutral vertex forces weight 0; if ±1 sign forces, down-row derives from leptons × N_c-texture
+- **Up-quarks BOUNDARY**: no clean texture; top y_t≈1 IS the EW scale itself, NOT a deposit ratio; substrate reproduces known SM asymmetry exactly
+- "Row OR boundary, both real" outcome landed as BOTH simultaneously
+- Lane B at clean dependency boundary: ±1 down-split sign + up-sector strata = Grace+Lyra rep-theory; CKM gated on up-sector
+
+**Substantive substrate-architectural finding** (Lyra K548 insight + Grace K549 sharpening):
+- Lepton/quark mass asymmetry IS the domain/dual asymmetry per #418
+- D_IV⁵ and Q⁵ are **two real forms of the same complexified B_3** (Grace K549)
+- d_q(ν) = SAME B_3 root product Lyra verified for leptons with highest weight shifted by color weight (su(3)⊂g₂⊂so(7), 7=3⊕3̄⊕1); leptons at zero-weight recover d(ν) exactly
+- "Same engine, different manifold" made precise: **real form changes, roots don't**
+- Casey "few asymmetries are the content" landing on lepton/quark axis
+
+**Grace K313 = THIRD CORPUS RECONNECTION today** (meta-lesson banked + verified empirically):
+- K313 from two weeks ago: m_μ/m_e = N_c²·m_s/m_d at 13% with color axis anchored
+- Stalled on TWO things: #418 + mass generator
+- Both landed this week → Lane B = K313 UNBLOCKED, not fresh hunt
+- Per [[feedback_corpus_reconnection_before_declaring_irreducible]] STANDING — verified empirically 3x today
+
+**Honest projection per Cal #411 + #408**: NONE BANKED YET. STRONG CANDIDATES: +1 muon (Cal FK pending); +3 down-row (±1 forces pending); +4 CKM (up-sector pending); up-sector BOUNDARY substantive.
+
+**Discipline events**: 405 cumulative; team self-routed per established patterns while Casey away.
+
+## Friday live work queue
+
+| Lane | Active work |
+|---|---|
+| **Lyra + Grace paired** | Curved transfer on H²(D_IV⁵) via F317 + Grace flat closure + Nahm — REAL research not quick verdict; per Grace K536 holomorphic discrete series ≠ flat polynomial requires non-compact Bergman framework |
+| **Cal** | Cold-read backlog (F328-F334 + K535 + K536 + Grace dictionary v0.2 + Lyra meta-lesson); #387 α-under-own-lens count-integrity item; #389 + #390 + #392 + #393 standing watches for closure verdict |
+| **Elie** | Live correctly-scoped dependency-to-verify curved closure verdict when lands; mass mechanism HONEST NEGATIVE banked — research direction depends on Casey routing (accept Yukawas as inputs? non-natural mechanism?) |
+| **Keeper** | Verify any landings per Cal four-bar standing; Cal #35 STANDING maintained; three-layer discipline line carried forward; standing for Casey direction |
+
+## Standing principles carried into Friday
+
+- **Five-Absence-as-FIRST-filter** STANDING (K522 Casey + Cal #384)
+- **Cal #35 STANDING**: one identity multiple readings ≠ N independent confirmations
+- **Cal #347 / B5 STANDING**: peer-level retractions logged cleanly
+- **Lyra meta-lesson (K530 → K536)**: separate "computation bugged" from "conclusion wrong" before retracting both — refines Cal #347 / B5 retraction discipline
+- **Grace meta-finding (K535)**: bugs CAREFULLY diagnosed become substantive physics; three setup-bugs this stretch each revealed substrate structure
+- **Three-layer discipline line** (located≠closed + verified-flat≠proven-curved + realizable≠forced)
+- **Cal four-bar closure verdict standing** (#389 + #390 + #392 + #393)
+- **q-deformation forcing-test** (K434 Casey #16 Mirror) — remaining forcing-test that realizability doesn't replace
+- **"Stop gating verify cleanly"** + **"Remember linear algebra"** (Casey standing) — confirmed exact unlocks this marathon
+- **Target-innocence lens** (Elie methodology) — confirmed operating at peak both directions (α_em FIT-SUSPECT + Λ=exp(−280) defended)
+- **"Engage don't label"** + **"Simplify reduce clarify"** + **"Find and prove theorems"** (Casey standing)
+- **Mass mechanism HONEST NEGATIVE on natural measures** — banked; new measure or accept as input is open question
 
 ## What the week earned (the foundation we now investigate from)
 
