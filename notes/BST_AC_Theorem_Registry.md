@@ -11032,3 +11032,11 @@ holography), T2110 (D_IV⁵→Shilov inheritance), T534 (Boundary-Interior Dicho
 
 — T2489, registered by Grace, 2026-06-19. AC=(C=1, D=1), depth 0. Classical (Hua-Korányi); imported as BST
 infrastructure + standing graph-expansion lemma per Casey directive.
+
+— T2499 (Down-Quark Texture from Color-Root Crossings) + T2500 (Genus-Multiplicity Cascade of the Type-IV
+Hua Measure), registered by Grace, 2026-06-27. AC=(C=1,D=1), depth 0. T2499: GJ texture {3,1/3,1}=N_c^{+1,-1,0}
+from sign(d)=color-root-crossing parity; e1-e2,e1-e3 simultaneously so(5,2)-noncompact AND su(3)-color roots
+(Cal-verified SOLID); mechanism PROVED, down-row +3 count STRONG CANDIDATE pending N_c-base. T2500: genus n_C
+and multiplicity N_c distinct-but-linked by n_C=N_c+2 in the FK measure (kernel exponent vs Vandermonde power).
+Edges: T2499→{T2496 #418, T2498 dual-Coxeter, T2500}; T2500→{T2498, T2490}. Counter → 2501. Weekend fermion-
+sector arc (down-row mechanism + CKM mass-mixing reconciliation); count holds 5/26 (muon banked; rest candidate).
