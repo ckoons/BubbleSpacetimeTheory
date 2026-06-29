@@ -1,0 +1,16 @@
+---
+title: "F418 — F66 exponent-12 blind-vs-fit provenance (the live thread, Lyra's rigor lane): honest verdict = CANDIDATE (the 2·C₂ form has a real mechanism-shape, but blind-vs-fit is UNSETTLED from corpus text). Grace correction taken: exponent 12 = 2·C₂ ('two Casimir round trips'); R(S⁴)=12=2·C₂=n(n−1) is the S⁴-BASE scalar curvature, NOT the D_IV⁵ bulk (−30); C₂=6=so(4) Casimir=muon K-type. CANDIDATE MECHANISM for 2·C₂: the gravity-EM bridge is bulk↔boundary (gravity=SO(5,2)/SO(4,2) coset, EM=SO(4,2) boundary); a bulk→boundary→bulk TRANSIT = 2 trips, each carrying the Casimir C₂ → exponent=2·C₂. The '2'=transit count (=|Z₂| Shilov-doubling? both give 2); C₂=so(4) Casimir. Both factors independently motivated → STRONGER than pure rich-vocabulary (F417 C-tier); candidate B-tier (mechanism-disambiguated) IF transit-count forced. HONEST LIMIT: cannot confirm F66 DERIVES exponent=2·C₂ BLIND (vs fit 12 then identify); 'two round trips' could be post-hoc. SETTLEMENT requires the F66 bulk-boundary derivation forcing transit-count=2 and per-transit-Casimir=C₂ from the coset geometry, independent of m_e. VERDICT (no rationalization): CANDIDATE (weak-B/strong-#286), blind-vs-fit UNSETTLED (matches Grace+Elie), NOT banked; won't promote to B via the round-trip story without the derivation. If it lands → m_e/m_P clean dimensionless prediction (count-mover); if not → scale-input identification. Concrete next step (Lyra+Grace geometry): derive transit-count and per-transit-Casimir from SO(5,2)/SO(4,2) blind. Count 9/26."
+author: "Lyra (Claude Opus 4.8)"
+date: "2026-06-29 Monday (date-verified)"
+status: "v0.1 — F66 exponent-12 provenance. 12=2·C₂ (Grace: S⁴-base curvature R(S⁴)=2C₂, not bulk −30; C₂=6 so(4) Casimir). Candidate mechanism: bulk→boundary→bulk=2 transits×C₂ (2=transit/Z₂, C₂=Casimir, both motivated) → candidate-B IF transit-count forced. HONEST: can't confirm blind derivation (vs fit-identify); 'two round trips' maybe post-hoc. VERDICT: CANDIDATE (weak-B/strong-#286), blind-vs-fit UNSETTLED, NOT banked, no rationalization. Settlement=F66 bulk-boundary derivation forcing transit=2 & per-transit=C₂. If lands→m_e/m_P clean prediction (count-mover); else scale-input. Count 9/26."
+---
+
+# F418 — F66 exponent-12 provenance: candidate (2·C₂), blind-vs-fit unsettled
+
+The live thread (my rigor lane). Grace's correction: exponent 12 = 2·C₂ ("two Casimir round trips"); R(S⁴)=12=2·C₂ is the S⁴-base curvature (not bulk −30); C₂=6 = so(4) Casimir.
+
+**Candidate mechanism:** the bridge is bulk↔boundary (gravity SO(5,2)/SO(4,2), EM SO(4,2) boundary); a bulk→boundary→bulk transit = 2 trips × C₂ per trip → 2·C₂. The "2" = transit count (=|Z₂|?); C₂ = Casimir. Both motivated → stronger than rich-vocabulary; candidate-B IF the transit-count is forced.
+
+**Honest limit:** can't confirm F66 derives exponent=2·C₂ blind (vs fit-12-then-identify). Settlement = the F66 bulk-boundary derivation forcing transit=2 & per-transit=C₂ from the coset geometry, independent of m_e.
+
+**Verdict (no rationalization):** CANDIDATE (weak-B/strong-#286), blind-vs-fit unsettled, NOT banked. If it lands → m_e/m_P clean dimensionless prediction (count-mover); else scale-input. Next step (Lyra+Grace): derive the transit-count blind from SO(5,2)/SO(4,2). Count 9/26.

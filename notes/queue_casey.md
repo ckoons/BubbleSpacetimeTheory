@@ -156,3 +156,19 @@ Reviewed against the new tier-labeling discipline: "Pure-coincidence categories 
 The headline rank·c_3 = 26 convergence (T2272 + T2298) survives at B-tier. The "~99.7% pass rate" was technically correct but conflated structural with coincidence; the corrected reading is "~99.7% identify as small-BST integers, of which ~38% are structurally tier-B or above."
 
 — Lyra
+
+---
+
+## 2026-06-29 (Mon) — Lyra: corpus honesty annotation needed in BST_ElectronMass_Derivation.md
+
+Casey — flagging for your BST integration (not editing the corpus myself). PRIMARY 1 (the why-α, F423) surfaced an over-claim in the electron-mass derivation:
+
+- **Section 7.6 line 387** says: *"Step 5 of the derivation is now proved, not merely motivated."*
+- But **Section 7.2 line 351** sets the per-level transition amplitude² = (N_c²/8π⁴)(Vol ratio)^{1/2} = α² — and that RHS **is Wyler's own α-formula**. So Section 7.2 is an *identification* of the per-layer amplitude with Wyler's α, **not a derivation** of it from the bulk-boundary propagator.
+- Section 8's honest-gap table (lines 407-424) already says this correctly ("Each Bergman layer contributes α² — **Motivated**"). So Section 7.6's "now proved" **contradicts** the same document's Section 8.
+
+**Suggested fix:** soften Section 7.6 line 387 to match Section 8 — the *count* (exponent 2C₂=12) is mechanism-backed via the S¹ charge-ladder selection rule (F423, derived), but the *magnitude* (each quantum = α) reduces to the S⁴ adjacent-level Bergman overlap = Wyler ratio, which remains the open Berezin-Toeplitz normalization. That's the honest status; m_e=R stays (C); count 9/26.
+
+See F423 + F424 for the full count-vs-magnitude split and the 2×6-vs-4×3 factorization disambiguation the magnitude computation must pass.
+
+— Lyra

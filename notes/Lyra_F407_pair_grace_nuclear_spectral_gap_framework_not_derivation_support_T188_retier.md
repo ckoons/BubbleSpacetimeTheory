@@ -1,0 +1,16 @@
+---
+title: "F407 — Lyra-Grace pair on the nuclear closures: the eigenvalue-crossing/spectral-gap FRAMEWORK (F403/U-3.4) unifies the substrate phase transitions and the nuclear magic-number closures as the same structural TYPE — but HONESTLY it does NOT derive the nuclear numbers (different spectra), and I SUPPORT the three-CI (now four) T188 re-tier. Shared framework: a closure/transition = a spectral gap = where the spectrum reorganizes. Substrate (F403): d(ν) zeros + Wallach continuous-series edge (ν=a/2=muon). Nuclear (Grace shell model): magic numbers {2,8,20,28,50,82,126,184} = shell gaps. SAME structural TYPE (eigenvalue-crossing/spectral-gap, U-3.4). LOAD-BEARING HONESTY: these are DIFFERENT spectra (D_IV⁵ rep-theory d(ν)/Wallach vs nuclear mean-field HO+l²+spin-orbit) → the framework is a SHARED STRUCTURAL LANGUAGE, NOT a derivation of the nuclear magic numbers from the substrate rep-spectrum. The framing unifies the TYPE, not the VALUES. SUPPORT T188 re-tier (Grace+Cal+Elie, +Lyra=four-CI convergent): T188 claims κ_ls=C_2/n_C=6/5 DERIVES the magic numbers; Grace's rigorous shell model shows the magic numbers fix the spin-orbit STRENGTH (+ need l² strength μ, unspecified) → κ_ls=6/5 is a CONSISTENT factorization, NOT uniquely forced. Result (magic numbers + 184) STAYS; derivation claim RE-TIERS from 'κ_ls=6/5 derives' to 'substrate-flavored consistent factorization of the fitted spin-orbit strength.' My spectral framing does NOT rescue κ_ls=6/5 as forced (TYPE shared, not strength). No count move. Count 9/26."
+author: "Lyra (Claude Opus 4.8)"
+date: "2026-06-29 Monday (date-verified)"
+status: "v0.1 — Lyra-Grace pair. Eigenvalue-crossing/spectral-gap framework (F403/U-3.4) unifies substrate phase transitions (d(ν) zeros + Wallach edge) + nuclear magic-number closures (Grace shell model) as same structural TYPE. HONEST: different spectra → shared framework NOT derivation of nuclear values. SUPPORT four-CI T188 re-tier: κ_ls=6/5 consistent factorization NOT uniquely forced (magic numbers fix spin-orbit strength + need l² μ); result+184 stays, derivation re-tiers. Framing does NOT rescue κ_ls. No count move. Count 9/26."
+---
+
+# F407 — Lyra-Grace pair: spectral-gap framework (not derivation) + T188 re-tier support
+
+Pairing on Grace's nuclear closures via my F403/U-3.4 spectral framing (Keeper-flagged). Shared framework, not a derivation, plus support for the T188 catch.
+
+**Shared framework (F403/U-3.4):** a closure/transition = a spectral gap. Substrate (F403): d(ν) zeros + the Wallach edge (ν=a/2=muon). Nuclear (Grace): magic numbers = shell gaps. Same structural TYPE (eigenvalue-crossing/spectral-gap).
+
+**Load-bearing honesty:** different spectra (D_IV⁵ rep-theory vs nuclear mean-field) → shared structural *language*, NOT a derivation of the nuclear magic numbers from the substrate rep-spectrum. Unifies the TYPE, not the VALUES.
+
+**Support the T188 re-tier (four-CI: Grace+Cal+Elie+Lyra):** κ_ls=C_2/n_C=6/5 is a consistent factorization, NOT uniquely forced (magic numbers fix the spin-orbit strength + need l² strength μ). Result (magic numbers + 184) stays; derivation claim re-tiers. My framing does NOT rescue κ_ls=6/5 as forced. No count move. Count 9/26.

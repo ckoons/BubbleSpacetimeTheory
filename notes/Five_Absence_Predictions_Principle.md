@@ -1,28 +1,31 @@
 ---
-title: "The Five-Absence Predictions Set — BST's Simultaneous-Null Falsifier Framework"
-author: "Casey Koons (named principle) + Elie (Toys 3102/3103 + Five-Absence synthesis) + Keeper (formalization)"
-date: "2026-05-19 Tuesday late afternoon"
-tier: "D-tier framework (per Grace INV-4474). K64 audit candidate pending for full external-survivability ratification."
-status: "FILED as internal standing document per Casey approval Tuesday 2026-05-19 (Option A). Companion external 1-pager queued (Option B): Lyra drafts + Cal gate-pass + Grace external-survivability check."
-related: ["Elie Toys 3102/3103 (proton-decay-null + NO-GUT)", "Grace catalog INV-4472 through INV-4476", "Pred_114 WIMP-null, pred_115 proton-decay null, pred_116 GUT-absence", "Casey's Curvature/Closure/Reframe/Substrate-Working Principles"]
+title: "The Five-Absence Predictions Set — BST's Simultaneous-Null Falsifier Framework (expanded to 7 entries 2026-06-29 via F397 Casey ratification)"
+author: "Casey Koons (named principle) + Elie (Toys 3102/3103 + Five-Absence synthesis) + Keeper (formalization) + Lyra (F395/F397 + 2026-06-29 expansion)"
+date: "2026-05-19 Tuesday late afternoon; expanded 2026-06-29 Monday with F397 NO 4th generation (Casey ratification per K596)"
+tier: "D-tier framework (per Grace INV-4474). K64 audit candidate pending for full external-survivability ratification. F397 NO 4th generation admitted by Cal K595 cold-read with F86-source rider."
+status: "FILED as internal standing document per Casey approval Tuesday 2026-05-19 (Option A). Expanded from 6 to 7 entries per Casey ratification 2026-06-29 (K596). Companion external 1-pager queued (Option B): Lyra drafts + Cal gate-pass + Grace external-survivability check."
+related: ["Elie Toys 3102/3103 (proton-decay-null + NO-GUT)", "Grace catalog INV-4472 through INV-4476", "Pred_114 WIMP-null, pred_115 proton-decay null, pred_116 GUT-absence", "Casey's Curvature/Closure/Reframe/Substrate-Working Principles", "Lyra F395 + F397 (Wallach set characterization + no-4th-gen)", "F86 Korányi-Wolf strata rigidity (true source of F397 per Cal #453 precision catch)"]
 ---
 
-# The Five-Absence Predictions Set
+# The Five-Absence Predictions Set (7 entries)
 
-## Casey-named statement
+*Name retained for historical continuity; count now SEVEN per Casey ratification 2026-06-29 (K596) admitting F397 NO 4th generation.*
 
-> **"BST predicts the simultaneous absence of six conjectured-but-unobserved physics objects: no Grand Unified Theory, no proton decay, no Dark Matter particle, no magnetic monopoles, no sterile neutrinos, and no supersymmetry. ANY single positive detection in any of these six channels refutes the entire BST framework. The simultaneous-null prediction cannot be evaded by parameter-adjusting — it is a structural commitment of D_IV⁵ geometry."**
+## Casey-named statement (updated 2026-06-29)
 
-## The six absences with BST mechanism
+> **"BST predicts the simultaneous absence of seven conjectured-but-unobserved physics objects: no Grand Unified Theory, no proton decay, no Dark Matter particle, no magnetic monopoles, no sterile neutrinos, no supersymmetry, and no fourth fermion generation. ANY single positive detection in any of these seven channels refutes the entire BST framework. The simultaneous-null prediction cannot be evaded by parameter-adjusting — it is a structural commitment of D_IV⁵ geometry."**
+
+## The seven absences with BST mechanism
 
 | # | Absence | BST mechanism | Current experimental status | Falsifier threshold |
 |---|---|---|---|---|
-| 1 | **No GUT** | Gauge groups from DISTINCT D_IV⁵ features: SU(3)←N_c=3 (color), SU(2)←rank=2 (symmetry), U(1)←c_2=11 (Chern). Never unify. The "10^16 GeV coupling convergence" is RG kinematic, not physical unification | No GUT confirmed at any energy scale (40+ years null) | Discovery of fourth gauge boson at unification scale OR proton decay (which would imply GUT) |
+| 1 | **No GUT** | Gauge groups from DISTINCT D_IV⁵ features: SU(3)←N_c=3 (color), SU(2)←rank=2 (symmetry), U(1)←c_2=11 (Chern). Never unify. The "10^16 GeV coupling convergence" is RG kinematic, not physical unification. **Confirmed via Elie 2026-06-29**: pairwise β-running crossings miss by ~10^4 in scale (10^13 / 2×10^14 / 10^17 GeV; GUT triangle does not close) | No GUT confirmed at any energy scale (40+ years null) | Discovery of fourth gauge boson at unification scale OR proton decay (which would imply GUT) |
 | 2 | **No proton decay** (τ_p = ∞) | Proton = bulk geodesic on D_IV⁵; complete N_c-phase commitment; topologically stable (3-component trefoil link, W-23). No GUT → no dim-6 operators → strict zero decay rate | Super-K limit τ_p > 1.6×10³⁴ yr; Hyper-K + DUNE will push limits | ANY positive proton decay observation refutes BST |
 | 3 | **No DM particle** | Dark Matter = geometric remainder, not new particle (per BST Saturday framework). DM is the "incomplete winding" residue accounting for cosmological observations | LZ + XENONnT + DARWIN extending direct-detection null limits; LHC no WIMP discovery | Direct WIMP detection at terrestrial detector refutes BST |
 | 4 | **No magnetic monopoles** | Substrate topology forbids isolated magnetic charge. No GUT-breaking → no Dirac-Polyakov-'tHooft monopoles | All searches null (MoEDAL, IceCube, etc.) | Positive monopole detection refutes BST |
 | 5 | **No sterile neutrinos** | PMNS triangle complete (T1932); three-generation closure is structural (per W-20 mass hierarchy from Wallach layer index). No fourth generation possible | MicroBooNE etc. null; no sterile evidence | Discovery of fourth-generation neutrino refutes BST |
-| 6 | **No supersymmetry** | BST has no SUSY structure; superpartners do not exist. The cancellations SUSY was invented to provide come from D_IV⁵ Bergman geometry directly | LHC null through Run 3; HL-LHC null projected | Discovery of any superpartner refutes BST |
+| 6 | **No supersymmetry** | BST has no SUSY structure; superpartners do not exist. The cancellations SUSY was invented to provide come from D_IV⁵ Bergman geometry directly. **Confirmed via Elie 2026-06-29**: SUSY was historically invented to force GUT-triangle closure; BST forbids SUSY → coupling crossings must miss → confirmed | LHC null through Run 3; HL-LHC null projected | Discovery of any superpartner refutes BST |
+| 7 | **No fourth fermion generation** (NEW 2026-06-29) | F86 Korányi-Wolf strata rigidity (theorem-level): rank-2 bounded symmetric domain D_IV⁵ has EXACTLY rank+1 = 3 boundary strata; no fourth stratum possible. Per Cal #453 precision rider: source is F86 strata rigidity (theorem), NOT Wallach set (which has a continuum with 2 discrete points). F395 Lyra+Grace Wallach/F86 dual characterization identifies generations with strata but only F86's rigidity forbids 4th. | LEP confirmed: 3 light neutrino species via Z width measurement (1989); no 4th-generation charged lepton, quark, or neutrino observed | Discovery of 4th-generation charged lepton, quark, or neutrino refutes BST |
 
 ## Why this is BST's strongest external argument
 
