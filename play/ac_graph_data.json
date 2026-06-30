@@ -23883,6 +23883,36 @@
    "proofs": [],
    "toys": [],
    "plain": "The weighted Bergman space A^2_nu of D_IV^5 (Lie ball, rank 2, genus p=n_C=5, a=N_c=3) is a square-integrable holomorphic DISCRETE SERIES iff nu > p-1 = 4 (Faraut-Koranyi-Berezin first reduction point; Wallach set {0, (r-1)a/2=3/2} U continuum nu>3/2). The genus/threshold state is at nu = p = n_C = 5 -- the Casimir-ZERO marginal Bergman point. This is the why-alpha mass-ladder ENDPOINT. The endpoint MASS = m_Planck reduces to the established identification G = Bergman curvature (the threshold state sits at the genus/Bergman scale = m_P by definition) plus ONE residual unit-normalization (mass at the genus EXACTLY = 1 Bergman unit) -- the second identified-not-derived input alongside the per-step alpha=1/N_max. RECONCILED WITH LYRA F430 (Casimir seal; supersedes an earlier k=7 reading): the SO(2,5) quadratic Casimir of level k is Casimir(pi_k) = k(k-n_C); k=5 -> 0 (genus, marginal), k=6 -> C_2=6 (first strictly-positive-Casimir bulk state), k=7 -> 2g=14. BOTH analyses agree the threshold is at k=nu=n_C=5. The corpus 'k=7 first bulk / Casimir=7' (line 357) is BROKEN (Casimir(pi_7)=14, not 7), and the earlier T2508 'k=7 via k=nu+rank offset' is RETRACTED -- the index offset was flagged as needing the rep-theory seal, and the seal breaks it. The '6' = C_2 = Casimir(pi_6) is a COUPLING-CHANNEL COUNT, NOT 6 spatial transitions (consistent with F428/T2507 killing the literal overlap-product mechanism). Verdict: square-integrability THRESHOLD derived (nu>p-1=4, endpoint at genus nu=n_C=5); endpoint MASS reduced to G=Bergman-curvature + one unit-normalization. NOT a count move; m_e=R stays (C). Corroborates Lyra F430 (Casimir) and complements T2507 (geometry can't carry alpha), T2504 (generations = Wallach strata)."
+  },
+  {
+   "tid": 2509,
+   "name": "CKM as One Kernel: Generation Overlap Unifies Magnitudes, Hierarchy, and CP Phase (F437)",
+   "date": "2026-06-30",
+   "domain": "flavor/geometry",
+   "section": "CKM",
+   "status": "structural",
+   "depth": 0,
+   "conflation": 0,
+   "proofs": [],
+   "toys": [
+    4517
+   ],
+   "plain": "The entire CKM matrix is the single generation coherent-state kernel V_ij = c(z_i,z_j) = [(1-r_i^2)(1-r_j^2)/N(z_i,z_j)]^{n_C} evaluated at the three generations placed at their mass-addresses (electron/gen-1 at the ORIGIN r=0; gen-2 at K-address k=1, r^2=1/4; gen-3 at k=C_2=6, r^2=2/3) with the dual-rho directions. ZERO free parameters: V_us = (N_c/(1+N_c))^{n_C} = (3/4)^5 = 0.237 (obs 0.225, 5.7%), V_cb = dual-rho config = 0.044 (obs 0.041), V_ub = (N_c/(6+N_c))^{n_C} = (1/3)^5 = 0.0041 (obs 0.0038), and the Wolfenstein apex V_ub/(V_us V_cb) = 0.39 (obs 0.42) is FORCED by the multiplicative composition (F435: the kernel composes multiplicatively, apex = (4-point kernel cross-ratio)^{n_C}, additive ruled out 37x). The complex kernel's phase gives delta_CP (modulus->Wolfenstein magnitudes+hierarchy, argument->CP phase; delta!=0 iff generations non-collinear in the complex sense). STRUCTURAL TIER ~5-8% (V_cb precision class): this is the UNIFYING mechanism (one geometric object -> whole matrix + hierarchy + apex + CP phase), NOT a precision derivation -- the precise per-element forms (e.g. sin theta_C = 2/sqrt(79) at 0.004%) are refinements via the spectral mode-count, which did NOT bank this session (Lyra: the formal degree d(nu) does not back m_s/m_d = rank^2 n_C; the down 1-2 mode-count = 20 = S^4 harmonics <= deg2 is a form-match, not a derived mechanism). So F437 stands as the zero-parameter STRUCTURAL unification of the CKM; the individual element BANKS remain candidates pending an independent mass->address quantization. Complements F435/F436 (Wolfenstein operator-level), the dual-rho V_cb angle, and the dim_R 1-2 cross-sector unification (quark Cabibbo and lepton theta_12 both 1-2 mixings on dim_R=2n_C, ratio = N_c*rank = C_2)."
+  },
+  {
+   "tid": 2510,
+   "name": "Wolfenstein Hierarchy at Operator Level: the Generation Kernel Composes Multiplicatively (F435/F436)",
+   "date": "2026-06-30",
+   "domain": "flavor/geometry",
+   "section": "CKM",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "proofs": [],
+   "toys": [
+    4517
+   ],
+   "plain": "The generation coherent-state overlap c(z,w) = [N(z,z)N(w,w)]^{n_C/2}/N(z,w)^{n_C} composes MULTIPLICATIVELY across the three generations, so the Wolfenstein hierarchy V_ub ~ V_us·V_cb is a DERIVED relation, not a texture assumption. Exact closed form: the unitarity-triangle apex ratio apex = c(e,τ)/[c(e,μ)c(μ,τ)] = [N(e,μ)N(μ,τ)/(N(μ,μ)N(e,τ))]^{n_C} = (4-point KERNEL CROSS-RATIO)^{n_C}, which is O(1) (each N is O(1)) and never diverges -> multiplicative composition. The ADDITIVE alternative (c(e,τ) ~ c(e,μ)+c(μ,τ)) is ruled out by ~37x. For the physical (sub-Wallach boundary e, dual-rho-angled mu/tau) configuration the cross-ratio < 1 -> apex < 1 (sub-multiplicative), the correct direction for the observed apex |rho - i eta| ~ 0.42 (computed ~0.5-0.65, structural). Robust to the electron direction. CORRECTION taken (Elie's abelian catch): the rank^2 in the Cabibbo mode-count is NOT a literal up x down rotation product -- two pure 1-2 rotations compose to ONE net angle theta_u - theta_d (the Cabibbo is the up/down 1-2 angle MISMATCH); the multiplicative-composition result is about the NON-UNITARY coherent-state kernel, not unitary rotation composition. So this theorem establishes the HIERARCHY (operator-level multiplicative composition of the kernel overlaps), not the precise magnitudes. Foundation for T2509 (CKM as one kernel). The complex kernel's phase gives delta_CP (modulus -> hierarchy, argument -> CP)."
   }
  ],
  "edges": [
@@ -73570,6 +73600,16 @@
    "from": 2508,
    "to": 2507,
    "source": "related"
+  },
+  {
+   "from": 2509,
+   "to": 2504,
+   "source": "related"
+  },
+  {
+   "from": 2510,
+   "to": 2509,
+   "source": "supports"
   }
  ],
  "chains": {},

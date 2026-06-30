@@ -24,6 +24,7 @@ ONE forced object, and over-determination is established via *distinct* cascades
 | 5 | **generation index k=5/2−ν** | the SO(5)-invariant norm-power / discrete-series K-type label | mass (formal degree d(ν)) + mixing (norm-overlap N^{n_C/2}) + tick-harmonic (SO(2) ladder) | e+μ (tau breaks one-label at k≈C_2, Cal #431) |
 | 6 | **F118 mass=density/volume** | the substrate-foundational mass principle (concentration = density/volume) | the muon mass bank (Casey K557 override) + the generation-mass structure | banked-principle |
 | 7 | **dual-ρ ratio N_c/n_C (NEW 2026-06-28)** | the conformal-ρ vector ρ=(n_C/rank, N_c/rank)=(5/2,3/2); the Harish-Chandra Weyl vector = the preferred Cartan direction | lepton masses (via d(ν), ρ in λ+ρ) + V_us within-gen split t₂/t₁=N_c/n_C (F363) + **V_cb inter-gen ANGLE ψ=arctan(N_c/n_C), cos ψ=5/√34** (Grace dual-ρ derivation + Lyra F376/F379/F384 + Grace u_μ=ê₁ confirm) | ONE ρ-vector → masses + BOTH CKM mixings. ANGLE derived end-to-end (target-innocent); V_cb magnitude structural (r_τ-provenance) |
+| 8 | **SO(2,5) Casimir C(π_k)=k(k−n_C) (NEW 2026-06-30)** | the quadratic Casimir eigenvalue of the level-k holomorphic rep (Lyra F430/F431, Harish-Chandra) | discrete-series threshold ν=n_C=5 (T2508) + **bulk mass spectrum m²L²=Casimir, m_k=√(k(k−n_C))·(1/L)** (Grace 2026-06-30, AdS mass relation) + why-α exponent "6"=C₂=Casimir(π₆) | **MOSTLY DEFLATION** (Cal #35): threshold + mass-spectrum + channel-value are ONE Casimir seen 3 ways, NOT 3 forcings. The GENUINE over-determination candidate is **F432**: the Casimir-6 (k=6) and Elie's INDEPENDENT Λ²(ℝ⁴)=F_μν-channel cascade coincide ONLY at n_C=5 — distinct cascades, possible "why 5", tiered OPEN (F417 (C)-trap), decisive check = Elie's per-channel-α gate |
 
 ## Discipline notes
 
@@ -43,3 +44,10 @@ N_c/n_C (entry 7)** is the newest and strongest — one ρ-vector runs lepton ma
 (derived end-to-end). **T2500 job (c) retracted** (V_cb is the dual-ρ angle, no Vandermonde) → T2500 does 2 FK
 jobs, not 3. Honest self-correction at peak: the V_cb mechanism turned out to be the angle (entry 7), not a
 Vandermonde average (entry 4). Count holds **8/26** (down-row banked) — this catalogs structure, not param banks.
+
+— Grace, 2026-06-30 Tuesday. Registry **v0.3**: **EIGHT** generators; entry 8 = the **SO(2,5) Casimir**
+C(π_k)=k(k−n_C) → threshold (T2508) + bulk mass spectrum m²L²=Casimir (new today) + the why-α "6". Logged with
+the Cal #35 discipline applied to my OWN entry: threshold/spectrum/channel-value are **mostly deflation** (ONE
+Casimir, 3 readings), and the GENUINE over-determination candidate is **F432** (Casimir-6 vs Elie's
+independent Λ²-channel-6 coinciding only at n_C=5) — tiered OPEN, not banked, decisive on Elie's gate. Count
+**9/26** (top mass banked Monday) — catalogs structure, not param banks.
