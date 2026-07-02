@@ -3,8 +3,8 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2245,
-  "edge_count": 9930,
+  "theorem_count": 1738,
+  "edge_count": 9900,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 1737,
@@ -14,7 +14,7 @@
    "D1": 525,
    "D2": 42
   },
-  "last_modified": "2026-07-02",
+  "last_modified": "2026-05-16",
   "D0": 1163,
   "D1": 525,
   "D2": 42,
@@ -25,203 +25,7 @@
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2145,
   "max_tid": 2402,
-  "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
-  "midyear_sync": {
-   "date": "2026-07-02",
-   "by": "Elie toy_4538",
-   "edge_schema": "canonicalized to {from,to,source[,label]}; migrated 316 minority {source,target,type} + 29 {from,to,type}",
-   "dangling_edges_flagged_not_deleted": [
-    {
-     "from": 1928,
-     "to": 2224,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1924,
-     "to": 2248,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1942,
-     "to": 2248,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1919,
-     "to": 2253,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1924,
-     "to": 2275,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1924,
-     "to": 2287,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1942,
-     "to": 2287,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2303,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2314,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2313,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2315,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2307,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2305,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1942,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2304,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2308,
-     "to": 2306,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2304,
-     "to": 2317,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2305,
-     "to": 2321,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1942,
-     "to": 2322,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2304,
-     "to": 2319,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2304,
-     "to": 2333,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1930,
-     "to": 2346,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1925,
-     "to": 2346,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 1918,
-     "to": 2347,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2385,
-     "to": 1922,
-     "missing_from": false,
-     "missing_to": true
-    },
-    {
-     "from": 2387,
-     "to": 1922,
-     "missing_from": false,
-     "missing_to": true
-    },
-    {
-     "from": 2448,
-     "to": 2468,
-     "missing_from": true,
-     "missing_to": false
-    },
-    {
-     "from": 2447,
-     "to": 2476,
-     "missing_from": true,
-     "missing_to": false
-    }
-   ],
-   "dangling_missing_tids": [
-    1918,
-    1919,
-    1922,
-    1924,
-    1925,
-    1928,
-    1930,
-    1942,
-    2303,
-    2304,
-    2305,
-    2307,
-    2308,
-    2313,
-    2314,
-    2315,
-    2447,
-    2448
-   ],
-   "note": "dangling refs are RETRACTED tids (in-range); Lyra registry backfill to confirm retracted-vs-missing; edges preserved as history"
-  }
+  "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level"
  },
  "theorems": [
   {
@@ -24109,66 +23913,6 @@
     4517
    ],
    "plain": "The generation coherent-state overlap c(z,w) = [N(z,z)N(w,w)]^{n_C/2}/N(z,w)^{n_C} composes MULTIPLICATIVELY across the three generations, so the Wolfenstein hierarchy V_ub ~ V_us·V_cb is a DERIVED relation, not a texture assumption. Exact closed form: the unitarity-triangle apex ratio apex = c(e,τ)/[c(e,μ)c(μ,τ)] = [N(e,μ)N(μ,τ)/(N(μ,μ)N(e,τ))]^{n_C} = (4-point KERNEL CROSS-RATIO)^{n_C}, which is O(1) (each N is O(1)) and never diverges -> multiplicative composition. The ADDITIVE alternative (c(e,τ) ~ c(e,μ)+c(μ,τ)) is ruled out by ~37x. For the physical (sub-Wallach boundary e, dual-rho-angled mu/tau) configuration the cross-ratio < 1 -> apex < 1 (sub-multiplicative), the correct direction for the observed apex |rho - i eta| ~ 0.42 (computed ~0.5-0.65, structural). Robust to the electron direction. CORRECTION taken (Elie's abelian catch): the rank^2 in the Cabibbo mode-count is NOT a literal up x down rotation product -- two pure 1-2 rotations compose to ONE net angle theta_u - theta_d (the Cabibbo is the up/down 1-2 angle MISMATCH); the multiplicative-composition result is about the NON-UNITARY coherent-state kernel, not unitary rotation composition. So this theorem establishes the HIERARCHY (operator-level multiplicative composition of the kernel overlaps), not the precise magnitudes. Foundation for T2509 (CKM as one kernel). The complex kernel's phase gives delta_CP (modulus -> hierarchy, argument -> CP)."
-  },
-  {
-   "tid": 2483,
-   "name": "Dual-ρ Second-Layer Classification of D_IV⁵ Observables",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2484,
-   "name": "Heat-Trace Closed Form R(k) = C(k,2)/κ_Bergman",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2485,
-   "name": "K-type × Restriction Grading Non-Commutation [H_B,P_restriction]≠0",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2486,
-   "name": "CKM Cabibbo Two-Point Color Structure / Direction B",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2487,
-   "name": "π⁵ = π^(n_C): the Bulk-Volume π-Exponent",
-   "domain": "geometry",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-07",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2488,
-   "name": "Light-Hadron Mass Cell-Count: bosons n_C, fermions n_C+1 via Z₂ spinor bit",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-07",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
   }
  ],
  "edges": [
@@ -64148,52 +63892,52 @@
   {
    "from": 1647,
    "to": 1648,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 186,
    "to": 1648,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 186,
    "to": 1649,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 147,
    "to": 1649,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 1648,
    "to": 1650,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 186,
    "to": 1650,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 186,
    "to": 1651,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 186,
    "to": 1652,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 1638,
    "to": 1653,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 186,
    "to": 1653,
-   "source": "derives"
+   "type": "derives"
   },
   {
    "from": 1654,
@@ -70878,1584 +70622,1584 @@
    "source": "derived"
   },
   {
-   "from": 2007,
-   "to": 2224,
-   "source": "references"
+   "source": 2007,
+   "target": 2224,
+   "type": "references"
   },
   {
-   "from": 1928,
-   "to": 2224,
-   "source": "references"
+   "source": 1928,
+   "target": 2224,
+   "type": "references"
   },
   {
-   "from": 2228,
-   "to": 2227,
-   "source": "references"
+   "source": 2228,
+   "target": 2227,
+   "type": "references"
   },
   {
-   "from": 2074,
-   "to": 2227,
-   "source": "references"
+   "source": 2074,
+   "target": 2227,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2230,
-   "source": "references"
+   "source": 2007,
+   "target": 2230,
+   "type": "references"
   },
   {
-   "from": 457,
-   "to": 2231,
-   "source": "references"
+   "source": 457,
+   "target": 2231,
+   "type": "references"
   },
   {
-   "from": 2198,
-   "to": 2232,
-   "source": "references"
+   "source": 2198,
+   "target": 2232,
+   "type": "references"
   },
   {
-   "from": 2233,
-   "to": 2232,
-   "source": "references"
+   "source": 2233,
+   "target": 2232,
+   "type": "references"
   },
   {
-   "from": 2010,
-   "to": 2232,
-   "source": "references"
+   "source": 2010,
+   "target": 2232,
+   "type": "references"
   },
   {
-   "from": 2011,
-   "to": 2232,
-   "source": "references"
+   "source": 2011,
+   "target": 2232,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2235,
-   "source": "references"
+   "source": 2007,
+   "target": 2235,
+   "type": "references"
   },
   {
-   "from": 2118,
-   "to": 2236,
-   "source": "references"
+   "source": 2118,
+   "target": 2236,
+   "type": "references"
   },
   {
-   "from": 2236,
-   "to": 2237,
-   "source": "references"
+   "source": 2236,
+   "target": 2237,
+   "type": "references"
   },
   {
-   "from": 2228,
-   "to": 2238,
-   "source": "references"
+   "source": 2228,
+   "target": 2238,
+   "type": "references"
   },
   {
-   "from": 2234,
-   "to": 2238,
-   "source": "references"
+   "source": 2234,
+   "target": 2238,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2241,
-   "source": "references"
+   "source": 2007,
+   "target": 2241,
+   "type": "references"
   },
   {
-   "from": 2243,
-   "to": 2242,
-   "source": "references"
+   "source": 2243,
+   "target": 2242,
+   "type": "references"
   },
   {
-   "from": 2132,
-   "to": 2242,
-   "source": "references"
+   "source": 2132,
+   "target": 2242,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2242,
-   "source": "references"
+   "source": 2007,
+   "target": 2242,
+   "type": "references"
   },
   {
-   "from": 2244,
-   "to": 2242,
-   "source": "references"
+   "source": 2244,
+   "target": 2242,
+   "type": "references"
   },
   {
-   "from": 2227,
-   "to": 2242,
-   "source": "references"
+   "source": 2227,
+   "target": 2242,
+   "type": "references"
   },
   {
-   "from": 1638,
-   "to": 2245,
-   "source": "references"
+   "source": 1638,
+   "target": 2245,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2247,
-   "source": "references"
+   "source": 2007,
+   "target": 2247,
+   "type": "references"
   },
   {
-   "from": 2249,
-   "to": 2248,
-   "source": "references"
+   "source": 2249,
+   "target": 2248,
+   "type": "references"
   },
   {
-   "from": 1924,
-   "to": 2248,
-   "source": "references"
+   "source": 1924,
+   "target": 2248,
+   "type": "references"
   },
   {
-   "from": 187,
-   "to": 2248,
-   "source": "references"
+   "source": 187,
+   "target": 2248,
+   "type": "references"
   },
   {
-   "from": 1942,
-   "to": 2248,
-   "source": "references"
+   "source": 1942,
+   "target": 2248,
+   "type": "references"
   },
   {
-   "from": 2160,
-   "to": 2251,
-   "source": "references"
+   "source": 2160,
+   "target": 2251,
+   "type": "references"
   },
   {
-   "from": 2231,
-   "to": 2252,
-   "source": "references"
+   "source": 2231,
+   "target": 2252,
+   "type": "references"
   },
   {
-   "from": 2227,
-   "to": 2252,
-   "source": "references"
+   "source": 2227,
+   "target": 2252,
+   "type": "references"
   },
   {
-   "from": 2235,
-   "to": 2253,
-   "source": "references"
+   "source": 2235,
+   "target": 2253,
+   "type": "references"
   },
   {
-   "from": 1919,
-   "to": 2253,
-   "source": "references"
+   "source": 1919,
+   "target": 2253,
+   "type": "references"
   },
   {
-   "from": 2254,
-   "to": 2253,
-   "source": "references"
+   "source": 2254,
+   "target": 2253,
+   "type": "references"
   },
   {
-   "from": 319,
-   "to": 2255,
-   "source": "references"
+   "source": 319,
+   "target": 2255,
+   "type": "references"
   },
   {
-   "from": 317,
-   "to": 2255,
-   "source": "references"
+   "source": 317,
+   "target": 2255,
+   "type": "references"
   },
   {
-   "from": 457,
-   "to": 2256,
-   "source": "references"
+   "source": 457,
+   "target": 2256,
+   "type": "references"
   },
   {
-   "from": 2009,
-   "to": 2257,
-   "source": "references"
+   "source": 2009,
+   "target": 2257,
+   "type": "references"
   },
   {
-   "from": 2225,
-   "to": 2257,
-   "source": "references"
+   "source": 2225,
+   "target": 2257,
+   "type": "references"
   },
   {
-   "from": 29,
-   "to": 2258,
-   "source": "references"
+   "source": 29,
+   "target": 2258,
+   "type": "references"
   },
   {
-   "from": 2198,
-   "to": 2258,
-   "source": "references"
+   "source": 2198,
+   "target": 2258,
+   "type": "references"
   },
   {
-   "from": 2093,
-   "to": 2258,
-   "source": "references"
+   "source": 2093,
+   "target": 2258,
+   "type": "references"
   },
   {
-   "from": 2259,
-   "to": 2258,
-   "source": "references"
+   "source": 2259,
+   "target": 2258,
+   "type": "references"
   },
   {
-   "from": 1638,
-   "to": 2260,
-   "source": "references"
+   "source": 1638,
+   "target": 2260,
+   "type": "references"
   },
   {
-   "from": 2262,
-   "to": 2261,
-   "source": "references"
+   "source": 2262,
+   "target": 2261,
+   "type": "references"
   },
   {
-   "from": 2260,
-   "to": 2261,
-   "source": "references"
+   "source": 2260,
+   "target": 2261,
+   "type": "references"
   },
   {
-   "from": 2096,
-   "to": 2261,
-   "source": "references"
+   "source": 2096,
+   "target": 2261,
+   "type": "references"
   },
   {
-   "from": 2224,
-   "to": 2261,
-   "source": "references"
+   "source": 2224,
+   "target": 2261,
+   "type": "references"
   },
   {
-   "from": 2223,
-   "to": 2261,
-   "source": "references"
+   "source": 2223,
+   "target": 2261,
+   "type": "references"
   },
   {
-   "from": 2240,
-   "to": 2263,
-   "source": "references"
+   "source": 2240,
+   "target": 2263,
+   "type": "references"
   },
   {
-   "from": 2239,
-   "to": 2263,
-   "source": "references"
+   "source": 2239,
+   "target": 2263,
+   "type": "references"
   },
   {
-   "from": 2199,
-   "to": 2264,
-   "source": "references"
+   "source": 2199,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2259,
-   "to": 2264,
-   "source": "references"
+   "source": 2259,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2233,
-   "to": 2264,
-   "source": "references"
+   "source": 2233,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2268,
-   "to": 2264,
-   "source": "references"
+   "source": 2268,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2132,
-   "to": 2264,
-   "source": "references"
+   "source": 2132,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 1976,
-   "to": 2264,
-   "source": "references"
+   "source": 1976,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2148,
-   "to": 2264,
-   "source": "references"
+   "source": 2148,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2055,
-   "to": 2264,
-   "source": "references"
+   "source": 2055,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2266,
-   "to": 2264,
-   "source": "references"
+   "source": 2266,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2269,
-   "to": 2264,
-   "source": "references"
+   "source": 2269,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2265,
-   "to": 2264,
-   "source": "references"
+   "source": 2265,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 1974,
-   "to": 2264,
-   "source": "references"
+   "source": 1974,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2267,
-   "to": 2264,
-   "source": "references"
+   "source": 2267,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 2010,
-   "to": 2264,
-   "source": "references"
+   "source": 2010,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 1954,
-   "to": 2264,
-   "source": "references"
+   "source": 1954,
+   "target": 2264,
+   "type": "references"
   },
   {
-   "from": 1924,
-   "to": 2275,
-   "source": "references"
+   "source": 1924,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 1830,
-   "to": 2275,
-   "source": "references"
+   "source": 1830,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 2148,
-   "to": 2275,
-   "source": "references"
+   "source": 2148,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 2269,
-   "to": 2275,
-   "source": "references"
+   "source": 2269,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 1960,
-   "to": 2275,
-   "source": "references"
+   "source": 1960,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 2273,
-   "to": 2275,
-   "source": "references"
+   "source": 2273,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 2085,
-   "to": 2275,
-   "source": "references"
+   "source": 2085,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 2276,
-   "to": 2275,
-   "source": "references"
+   "source": 2276,
+   "target": 2275,
+   "type": "references"
   },
   {
-   "from": 2248,
-   "to": 2279,
-   "source": "references"
+   "source": 2248,
+   "target": 2279,
+   "type": "references"
   },
   {
-   "from": 2238,
-   "to": 2279,
-   "source": "references"
+   "source": 2238,
+   "target": 2279,
+   "type": "references"
   },
   {
-   "from": 2254,
-   "to": 2280,
-   "source": "references"
+   "source": 2254,
+   "target": 2280,
+   "type": "references"
   },
   {
-   "from": 2282,
-   "to": 2280,
-   "source": "references"
+   "source": 2282,
+   "target": 2280,
+   "type": "references"
   },
   {
-   "from": 187,
-   "to": 2280,
-   "source": "references"
+   "source": 187,
+   "target": 2280,
+   "type": "references"
   },
   {
-   "from": 2283,
-   "to": 2280,
-   "source": "references"
+   "source": 2283,
+   "target": 2280,
+   "type": "references"
   },
   {
-   "from": 2281,
-   "to": 2280,
-   "source": "references"
+   "source": 2281,
+   "target": 2280,
+   "type": "references"
   },
   {
-   "from": 2251,
-   "to": 2284,
-   "source": "references"
+   "source": 2251,
+   "target": 2284,
+   "type": "references"
   },
   {
-   "from": 2241,
-   "to": 2284,
-   "source": "references"
+   "source": 2241,
+   "target": 2284,
+   "type": "references"
   },
   {
-   "from": 2230,
-   "to": 2284,
-   "source": "references"
+   "source": 2230,
+   "target": 2284,
+   "type": "references"
   },
   {
-   "from": 2248,
-   "to": 2285,
-   "source": "references"
+   "source": 2248,
+   "target": 2285,
+   "type": "references"
   },
   {
-   "from": 2257,
-   "to": 2285,
-   "source": "references"
+   "source": 2257,
+   "target": 2285,
+   "type": "references"
   },
   {
-   "from": 1924,
-   "to": 2287,
-   "source": "references"
+   "source": 1924,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 1958,
-   "to": 2287,
-   "source": "references"
+   "source": 1958,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 1942,
-   "to": 2287,
-   "source": "references"
+   "source": 1942,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 2288,
-   "to": 2287,
-   "source": "references"
+   "source": 2288,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 2086,
-   "to": 2287,
-   "source": "references"
+   "source": 2086,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 2290,
-   "to": 2287,
-   "source": "references"
+   "source": 2290,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 2289,
-   "to": 2287,
-   "source": "references"
+   "source": 2289,
+   "target": 2287,
+   "type": "references"
   },
   {
-   "from": 2272,
-   "to": 2298,
-   "source": "references"
+   "source": 2272,
+   "target": 2298,
+   "type": "references"
   },
   {
-   "from": 2263,
-   "to": 2299,
-   "source": "references"
+   "source": 2263,
+   "target": 2299,
+   "type": "references"
   },
   {
-   "from": 2264,
-   "to": 2302,
-   "source": "references"
+   "source": 2264,
+   "target": 2302,
+   "type": "references"
   },
   {
-   "from": 1956,
-   "to": 2306,
-   "source": "references"
+   "source": 1956,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2136,
-   "to": 2306,
-   "source": "references"
+   "source": 2136,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2312,
-   "to": 2306,
-   "source": "references"
+   "source": 2312,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 1427,
-   "to": 2306,
-   "source": "references"
+   "source": 1427,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2241,
-   "to": 2306,
-   "source": "references"
+   "source": 2241,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2282,
-   "to": 2306,
-   "source": "references"
+   "source": 2282,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2097,
-   "to": 2306,
-   "source": "references"
+   "source": 2097,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2311,
-   "to": 2306,
-   "source": "references"
+   "source": 2311,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2303,
-   "to": 2306,
-   "source": "references"
+   "source": 2303,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2314,
-   "to": 2306,
-   "source": "references"
+   "source": 2314,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2174,
-   "to": 2306,
-   "source": "references"
+   "source": 2174,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 1444,
-   "to": 2306,
-   "source": "references"
+   "source": 1444,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2131,
-   "to": 2306,
-   "source": "references"
+   "source": 2131,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 1788,
-   "to": 2306,
-   "source": "references"
+   "source": 1788,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2086,
-   "to": 2306,
-   "source": "references"
+   "source": 2086,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 187,
-   "to": 2306,
-   "source": "references"
+   "source": 187,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2313,
-   "to": 2306,
-   "source": "references"
+   "source": 2313,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2315,
-   "to": 2306,
-   "source": "references"
+   "source": 2315,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2307,
-   "to": 2306,
-   "source": "references"
+   "source": 2307,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2218,
-   "to": 2306,
-   "source": "references"
+   "source": 2218,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2199,
-   "to": 2306,
-   "source": "references"
+   "source": 2199,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2306,
-   "source": "references"
+   "source": 2007,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2140,
-   "to": 2306,
-   "source": "references"
+   "source": 2140,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2272,
-   "to": 2306,
-   "source": "references"
+   "source": 2272,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2305,
-   "to": 2306,
-   "source": "references"
+   "source": 2305,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2298,
-   "to": 2306,
-   "source": "references"
+   "source": 2298,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2093,
-   "to": 2306,
-   "source": "references"
+   "source": 2093,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2143,
-   "to": 2306,
-   "source": "references"
+   "source": 2143,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 1942,
-   "to": 2306,
-   "source": "references"
+   "source": 1942,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2304,
-   "to": 2306,
-   "source": "references"
+   "source": 2304,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2309,
-   "to": 2306,
-   "source": "references"
+   "source": 2309,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2308,
-   "to": 2306,
-   "source": "references"
+   "source": 2308,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2310,
-   "to": 2306,
-   "source": "references"
+   "source": 2310,
+   "target": 2306,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2316,
-   "source": "references"
+   "source": 2306,
+   "target": 2316,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2317,
-   "source": "references"
+   "source": 2320,
+   "target": 2317,
+   "type": "references"
   },
   {
-   "from": 2318,
-   "to": 2317,
-   "source": "references"
+   "source": 2318,
+   "target": 2317,
+   "type": "references"
   },
   {
-   "from": 2304,
-   "to": 2317,
-   "source": "references"
+   "source": 2304,
+   "target": 2317,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2317,
-   "source": "references"
+   "source": 2306,
+   "target": 2317,
+   "type": "references"
   },
   {
-   "from": 2321,
-   "to": 2317,
-   "source": "references"
+   "source": 2321,
+   "target": 2317,
+   "type": "references"
   },
   {
-   "from": 2316,
-   "to": 2318,
-   "source": "references"
+   "source": 2316,
+   "target": 2318,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2318,
-   "source": "references"
+   "source": 2306,
+   "target": 2318,
+   "type": "references"
   },
   {
-   "from": 2312,
-   "to": 2320,
-   "source": "references"
+   "source": 2312,
+   "target": 2320,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2320,
-   "source": "references"
+   "source": 2007,
+   "target": 2320,
+   "type": "references"
   },
   {
-   "from": 2316,
-   "to": 2320,
-   "source": "references"
+   "source": 2316,
+   "target": 2320,
+   "type": "references"
   },
   {
-   "from": 2318,
-   "to": 2320,
-   "source": "references"
+   "source": 2318,
+   "target": 2320,
+   "type": "references"
   },
   {
-   "from": 2321,
-   "to": 2320,
-   "source": "references"
+   "source": 2321,
+   "target": 2320,
+   "type": "references"
   },
   {
-   "from": 2305,
-   "to": 2321,
-   "source": "references"
+   "source": 2305,
+   "target": 2321,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2321,
-   "source": "references"
+   "source": 2320,
+   "target": 2321,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2322,
-   "source": "references"
+   "source": 2320,
+   "target": 2322,
+   "type": "references"
   },
   {
-   "from": 1942,
-   "to": 2322,
-   "source": "references"
+   "source": 1942,
+   "target": 2322,
+   "type": "references"
   },
   {
-   "from": 2316,
-   "to": 2322,
-   "source": "references"
+   "source": 2316,
+   "target": 2322,
+   "type": "references"
   },
   {
-   "from": 2119,
-   "to": 2322,
-   "source": "references"
+   "source": 2119,
+   "target": 2322,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2322,
-   "source": "references"
+   "source": 2306,
+   "target": 2322,
+   "type": "references"
   },
   {
-   "from": 2321,
-   "to": 2322,
-   "source": "references"
+   "source": 2321,
+   "target": 2322,
+   "type": "references"
   },
   {
-   "from": 2316,
-   "to": 2325,
-   "source": "references"
+   "source": 2316,
+   "target": 2325,
+   "type": "references"
   },
   {
-   "from": 2113,
-   "to": 2325,
-   "source": "references"
+   "source": 2113,
+   "target": 2325,
+   "type": "references"
   },
   {
-   "from": 2322,
-   "to": 2323,
-   "source": "references"
+   "source": 2322,
+   "target": 2323,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2323,
-   "source": "references"
+   "source": 2306,
+   "target": 2323,
+   "type": "references"
   },
   {
-   "from": 2317,
-   "to": 2324,
-   "source": "references"
+   "source": 2317,
+   "target": 2324,
+   "type": "references"
   },
   {
-   "from": 2127,
-   "to": 2324,
-   "source": "references"
+   "source": 2127,
+   "target": 2324,
+   "type": "references"
   },
   {
-   "from": 2304,
-   "to": 2319,
-   "source": "references"
+   "source": 2304,
+   "target": 2319,
+   "type": "references"
   },
   {
-   "from": 2324,
-   "to": 2319,
-   "source": "references"
+   "source": 2324,
+   "target": 2319,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2319,
-   "source": "references"
+   "source": 2306,
+   "target": 2319,
+   "type": "references"
   },
   {
-   "from": 2317,
-   "to": 2319,
-   "source": "references"
+   "source": 2317,
+   "target": 2319,
+   "type": "references"
   },
   {
-   "from": 2325,
-   "to": 2319,
-   "source": "references"
+   "source": 2325,
+   "target": 2319,
+   "type": "references"
   },
   {
-   "from": 2312,
-   "to": 2326,
-   "source": "references"
+   "source": 2312,
+   "target": 2326,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2326,
-   "source": "references"
+   "source": 2007,
+   "target": 2326,
+   "type": "references"
   },
   {
-   "from": 2324,
-   "to": 2326,
-   "source": "references"
+   "source": 2324,
+   "target": 2326,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2326,
-   "source": "references"
+   "source": 2320,
+   "target": 2326,
+   "type": "references"
   },
   {
-   "from": 2003,
-   "to": 2329,
-   "source": "references"
+   "source": 2003,
+   "target": 2329,
+   "type": "references"
   },
   {
-   "from": 2091,
-   "to": 2329,
-   "source": "references"
+   "source": 2091,
+   "target": 2329,
+   "type": "references"
   },
   {
-   "from": 2102,
-   "to": 2329,
-   "source": "references"
+   "source": 2102,
+   "target": 2329,
+   "type": "references"
   },
   {
-   "from": 2328,
-   "to": 2329,
-   "source": "references"
+   "source": 2328,
+   "target": 2329,
+   "type": "references"
   },
   {
-   "from": 2326,
-   "to": 2330,
-   "source": "references"
+   "source": 2326,
+   "target": 2330,
+   "type": "references"
   },
   {
-   "from": 2324,
-   "to": 2330,
-   "source": "references"
+   "source": 2324,
+   "target": 2330,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2330,
-   "source": "references"
+   "source": 2320,
+   "target": 2330,
+   "type": "references"
   },
   {
-   "from": 2127,
-   "to": 2330,
-   "source": "references"
+   "source": 2127,
+   "target": 2330,
+   "type": "references"
   },
   {
-   "from": 2327,
-   "to": 2332,
-   "source": "references"
+   "source": 2327,
+   "target": 2332,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2332,
-   "source": "references"
+   "source": 2320,
+   "target": 2332,
+   "type": "references"
   },
   {
-   "from": 2330,
-   "to": 2332,
-   "source": "references"
+   "source": 2330,
+   "target": 2332,
+   "type": "references"
   },
   {
-   "from": 2106,
-   "to": 2331,
-   "source": "references"
+   "source": 2106,
+   "target": 2331,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2333,
-   "source": "references"
+   "source": 2320,
+   "target": 2333,
+   "type": "references"
   },
   {
-   "from": 2330,
-   "to": 2333,
-   "source": "references"
+   "source": 2330,
+   "target": 2333,
+   "type": "references"
   },
   {
-   "from": 2304,
-   "to": 2333,
-   "source": "references"
+   "source": 2304,
+   "target": 2333,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2333,
-   "source": "references"
+   "source": 2306,
+   "target": 2333,
+   "type": "references"
   },
   {
-   "from": 1430,
-   "to": 2333,
-   "source": "references"
+   "source": 1430,
+   "target": 2333,
+   "type": "references"
   },
   {
-   "from": 2325,
-   "to": 2334,
-   "source": "references"
+   "source": 2325,
+   "target": 2334,
+   "type": "references"
   },
   {
-   "from": 2003,
-   "to": 2335,
-   "source": "references"
+   "source": 2003,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 1947,
-   "to": 2335,
-   "source": "references"
+   "source": 1947,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 2091,
-   "to": 2335,
-   "source": "references"
+   "source": 2091,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 2329,
-   "to": 2335,
-   "source": "references"
+   "source": 2329,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 1949,
-   "to": 2335,
-   "source": "references"
+   "source": 1949,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 2102,
-   "to": 2335,
-   "source": "references"
+   "source": 2102,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 2328,
-   "to": 2335,
-   "source": "references"
+   "source": 2328,
+   "target": 2335,
+   "type": "references"
   },
   {
-   "from": 2332,
-   "to": 2337,
-   "source": "references"
+   "source": 2332,
+   "target": 2337,
+   "type": "references"
   },
   {
-   "from": 2320,
-   "to": 2337,
-   "source": "references"
+   "source": 2320,
+   "target": 2337,
+   "type": "references"
   },
   {
-   "from": 2330,
-   "to": 2337,
-   "source": "references"
+   "source": 2330,
+   "target": 2337,
+   "type": "references"
   },
   {
-   "from": 2321,
-   "to": 2337,
-   "source": "references"
+   "source": 2321,
+   "target": 2337,
+   "type": "references"
   },
   {
-   "from": 2333,
-   "to": 2337,
-   "source": "references"
+   "source": 2333,
+   "target": 2337,
+   "type": "references"
   },
   {
-   "from": 2106,
-   "to": 2336,
-   "source": "references"
+   "source": 2106,
+   "target": 2336,
+   "type": "references"
   },
   {
-   "from": 2331,
-   "to": 2336,
-   "source": "references"
+   "source": 2331,
+   "target": 2336,
+   "type": "references"
   },
   {
-   "from": 2316,
-   "to": 2338,
-   "source": "references"
+   "source": 2316,
+   "target": 2338,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2338,
-   "source": "references"
+   "source": 2306,
+   "target": 2338,
+   "type": "references"
   },
   {
-   "from": 2337,
-   "to": 2338,
-   "source": "references"
+   "source": 2337,
+   "target": 2338,
+   "type": "references"
   },
   {
-   "from": 2326,
-   "to": 2327,
-   "source": "references"
+   "source": 2326,
+   "target": 2327,
+   "type": "references"
   },
   {
-   "from": 2332,
-   "to": 2327,
-   "source": "references"
+   "source": 2332,
+   "target": 2327,
+   "type": "references"
   },
   {
-   "from": 2312,
-   "to": 2327,
-   "source": "references"
+   "source": 2312,
+   "target": 2327,
+   "type": "references"
   },
   {
-   "from": 2007,
-   "to": 2327,
-   "source": "references"
+   "source": 2007,
+   "target": 2327,
+   "type": "references"
   },
   {
-   "from": 2333,
-   "to": 2327,
-   "source": "references"
+   "source": 2333,
+   "target": 2327,
+   "type": "references"
   },
   {
-   "from": 2239,
-   "to": 2340,
-   "source": "references"
+   "source": 2239,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2256,
-   "to": 2340,
-   "source": "references"
+   "source": 2256,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2245,
-   "to": 2340,
-   "source": "references"
+   "source": 2245,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2240,
-   "to": 2340,
-   "source": "references"
+   "source": 2240,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2340,
-   "source": "references"
+   "source": 2306,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2255,
-   "to": 2340,
-   "source": "references"
+   "source": 2255,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2272,
-   "to": 2340,
-   "source": "references"
+   "source": 2272,
+   "target": 2340,
+   "type": "references"
   },
   {
-   "from": 2106,
-   "to": 2341,
-   "source": "references"
+   "source": 2106,
+   "target": 2341,
+   "type": "references"
   },
   {
-   "from": 2328,
-   "to": 2341,
-   "source": "references"
+   "source": 2328,
+   "target": 2341,
+   "type": "references"
   },
   {
-   "from": 2091,
-   "to": 2341,
-   "source": "references"
+   "source": 2091,
+   "target": 2341,
+   "type": "references"
   },
   {
-   "from": 2335,
-   "to": 2341,
-   "source": "references"
+   "source": 2335,
+   "target": 2341,
+   "type": "references"
   },
   {
-   "from": 2340,
-   "to": 2341,
-   "source": "references"
+   "source": 2340,
+   "target": 2341,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2341,
-   "source": "references"
+   "source": 2306,
+   "target": 2341,
+   "type": "references"
   },
   {
-   "from": 2341,
-   "to": 2343,
-   "source": "references"
+   "source": 2341,
+   "target": 2343,
+   "type": "references"
   },
   {
-   "from": 2106,
-   "to": 2343,
-   "source": "references"
+   "source": 2106,
+   "target": 2343,
+   "type": "references"
   },
   {
-   "from": 2336,
-   "to": 2343,
-   "source": "references"
+   "source": 2336,
+   "target": 2343,
+   "type": "references"
   },
   {
-   "from": 2339,
-   "to": 2344,
-   "source": "references"
+   "source": 2339,
+   "target": 2344,
+   "type": "references"
   },
   {
-   "from": 2343,
-   "to": 2345,
-   "source": "references"
+   "source": 2343,
+   "target": 2345,
+   "type": "references"
   },
   {
-   "from": 2255,
-   "to": 2346,
-   "source": "references"
+   "source": 2255,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2306,
-   "to": 2346,
-   "source": "references"
+   "source": 2306,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2245,
-   "to": 2346,
-   "source": "references"
+   "source": 2245,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2340,
-   "to": 2346,
-   "source": "references"
+   "source": 2340,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2239,
-   "to": 2346,
-   "source": "references"
+   "source": 2239,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2256,
-   "to": 2346,
-   "source": "references"
+   "source": 2256,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2272,
-   "to": 2346,
-   "source": "references"
+   "source": 2272,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2240,
-   "to": 2346,
-   "source": "references"
+   "source": 2240,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 1930,
-   "to": 2346,
-   "source": "references"
+   "source": 1930,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 1925,
-   "to": 2346,
-   "source": "references"
+   "source": 1925,
+   "target": 2346,
+   "type": "references"
   },
   {
-   "from": 2041,
-   "to": 2355,
-   "source": "references"
+   "source": 2041,
+   "target": 2355,
+   "type": "references"
   },
   {
-   "from": 1948,
-   "to": 2355,
-   "source": "references"
+   "source": 1948,
+   "target": 2355,
+   "type": "references"
   },
   {
-   "from": 187,
-   "to": 2355,
-   "source": "references"
+   "source": 187,
+   "target": 2355,
+   "type": "references"
   },
   {
-   "from": 291,
-   "to": 2355,
-   "source": "references"
+   "source": 291,
+   "target": 2355,
+   "type": "references"
   },
   {
-   "from": 346,
-   "to": 2347,
-   "source": "references"
+   "source": 346,
+   "target": 2347,
+   "type": "references"
   },
   {
-   "from": 1918,
-   "to": 2347,
-   "source": "references"
+   "source": 1918,
+   "target": 2347,
+   "type": "references"
   },
   {
-   "from": 2107,
-   "to": 2347,
-   "source": "references"
+   "source": 2107,
+   "target": 2347,
+   "type": "references"
   },
   {
-   "from": 1485,
-   "to": 2348,
-   "source": "references"
+   "source": 1485,
+   "target": 2348,
+   "type": "references"
   },
   {
-   "from": 2049,
-   "to": 2348,
-   "source": "references"
+   "source": 2049,
+   "target": 2348,
+   "type": "references"
   },
   {
-   "from": 2074,
-   "to": 2348,
-   "source": "references"
+   "source": 2074,
+   "target": 2348,
+   "type": "references"
   },
   {
-   "from": 2041,
-   "to": 2357,
-   "source": "references"
+   "source": 2041,
+   "target": 2357,
+   "type": "references"
   },
   {
-   "from": 1948,
-   "to": 2357,
-   "source": "references"
+   "source": 1948,
+   "target": 2357,
+   "type": "references"
   },
   {
-   "from": 2323,
-   "to": 2357,
-   "source": "references"
+   "source": 2323,
+   "target": 2357,
+   "type": "references"
   },
   {
-   "from": 2355,
-   "to": 2357,
-   "source": "references"
+   "source": 2355,
+   "target": 2357,
+   "type": "references"
   },
   {
-   "from": 2339,
-   "to": 2349,
-   "source": "references"
+   "source": 2339,
+   "target": 2349,
+   "type": "references"
   },
   {
-   "from": 2350,
-   "to": 2349,
-   "source": "references"
+   "source": 2350,
+   "target": 2349,
+   "type": "references"
   },
   {
-   "from": 2354,
-   "to": 2349,
-   "source": "references"
+   "source": 2354,
+   "target": 2349,
+   "type": "references"
   },
   {
-   "from": 2334,
-   "to": 2350,
-   "source": "references"
+   "source": 2334,
+   "target": 2350,
+   "type": "references"
   },
   {
-   "from": 2339,
-   "to": 2350,
-   "source": "references"
+   "source": 2339,
+   "target": 2350,
+   "type": "references"
   },
   {
-   "from": 2351,
-   "to": 2350,
-   "source": "references"
+   "source": 2351,
+   "target": 2350,
+   "type": "references"
   },
   {
-   "from": 2350,
-   "to": 2351,
-   "source": "references"
+   "source": 2350,
+   "target": 2351,
+   "type": "references"
   },
   {
-   "from": 2353,
-   "to": 2351,
-   "source": "references"
+   "source": 2353,
+   "target": 2351,
+   "type": "references"
   },
   {
-   "from": 2354,
-   "to": 2351,
-   "source": "references"
+   "source": 2354,
+   "target": 2351,
+   "type": "references"
   },
   {
-   "from": 2350,
-   "to": 2352,
-   "source": "references"
+   "source": 2350,
+   "target": 2352,
+   "type": "references"
   },
   {
-   "from": 2351,
-   "to": 2352,
-   "source": "references"
+   "source": 2351,
+   "target": 2352,
+   "type": "references"
   },
   {
-   "from": 2334,
-   "to": 2353,
-   "source": "references"
+   "source": 2334,
+   "target": 2353,
+   "type": "references"
   },
   {
-   "from": 1316,
-   "to": 2353,
-   "source": "references"
+   "source": 1316,
+   "target": 2353,
+   "type": "references"
   },
   {
-   "from": 2352,
-   "to": 2353,
-   "source": "references"
+   "source": 2352,
+   "target": 2353,
+   "type": "references"
   },
   {
-   "from": 2351,
-   "to": 2353,
-   "source": "references"
+   "source": 2351,
+   "target": 2353,
+   "type": "references"
   },
   {
-   "from": 2342,
-   "to": 2354,
-   "source": "references"
+   "source": 2342,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2352,
-   "to": 2354,
-   "source": "references"
+   "source": 2352,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2353,
-   "to": 2354,
-   "source": "references"
+   "source": 2353,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2351,
-   "to": 2354,
-   "source": "references"
+   "source": 2351,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2349,
-   "to": 2354,
-   "source": "references"
+   "source": 2349,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2343,
-   "to": 2354,
-   "source": "references"
+   "source": 2343,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2346,
-   "to": 2354,
-   "source": "references"
+   "source": 2346,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 2350,
-   "to": 2354,
-   "source": "references"
+   "source": 2350,
+   "target": 2354,
+   "type": "references"
   },
   {
-   "from": 1971,
-   "to": 2355,
-   "source": "references"
+   "source": 1971,
+   "target": 2355,
+   "type": "references"
   },
   {
-   "from": 2351,
-   "to": 2356,
-   "source": "references"
+   "source": 2351,
+   "target": 2356,
+   "type": "references"
   },
   {
-   "from": 2352,
-   "to": 2356,
-   "source": "references"
+   "source": 2352,
+   "target": 2356,
+   "type": "references"
   },
   {
-   "from": 2329,
-   "to": 2356,
-   "source": "references"
+   "source": 2329,
+   "target": 2356,
+   "type": "references"
   },
   {
-   "from": 1971,
-   "to": 2357,
-   "source": "references"
+   "source": 1971,
+   "target": 2357,
+   "type": "references"
   },
   {
-   "from": 2322,
-   "to": 2358,
-   "source": "references"
+   "source": 2322,
+   "target": 2358,
+   "type": "references"
   },
   {
-   "from": 2355,
-   "to": 2358,
-   "source": "references"
+   "source": 2355,
+   "target": 2358,
+   "type": "references"
   },
   {
-   "from": 2321,
-   "to": 2358,
-   "source": "references"
+   "source": 2321,
+   "target": 2358,
+   "type": "references"
   },
   {
-   "from": 2334,
-   "to": 2359,
-   "source": "references"
+   "source": 2334,
+   "target": 2359,
+   "type": "references"
   },
   {
-   "from": 2325,
-   "to": 2359,
-   "source": "references"
+   "source": 2325,
+   "target": 2359,
+   "type": "references"
   },
   {
-   "from": 1807,
-   "to": 2359,
-   "source": "references"
+   "source": 1807,
+   "target": 2359,
+   "type": "references"
   },
   {
-   "from": 2049,
-   "to": 2360,
-   "source": "references"
+   "source": 2049,
+   "target": 2360,
+   "type": "references"
   },
   {
-   "from": 2348,
-   "to": 2360,
-   "source": "references"
+   "source": 2348,
+   "target": 2360,
+   "type": "references"
   },
   {
-   "from": 187,
-   "to": 2360,
-   "source": "references"
+   "source": 187,
+   "target": 2360,
+   "type": "references"
   },
   {
-   "from": 2362,
-   "to": 2363,
-   "source": "references"
+   "source": 2362,
+   "target": 2363,
+   "type": "references"
   },
   {
-   "from": 2360,
-   "to": 2363,
-   "source": "references"
+   "source": 2360,
+   "target": 2363,
+   "type": "references"
   },
   {
-   "from": 2049,
-   "to": 2363,
-   "source": "references"
+   "source": 2049,
+   "target": 2363,
+   "type": "references"
   },
   {
-   "from": 2358,
-   "to": 2364,
-   "source": "references"
+   "source": 2358,
+   "target": 2364,
+   "type": "references"
   },
   {
-   "from": 2361,
-   "to": 2364,
-   "source": "references"
+   "source": 2361,
+   "target": 2364,
+   "type": "references"
   },
   {
-   "from": 2357,
-   "to": 2366,
-   "source": "references"
+   "source": 2357,
+   "target": 2366,
+   "type": "references"
   },
   {
-   "from": 2323,
-   "to": 2366,
-   "source": "references"
+   "source": 2323,
+   "target": 2366,
+   "type": "references"
   },
   {
-   "from": 2358,
-   "to": 2367,
-   "source": "references"
+   "source": 2358,
+   "target": 2367,
+   "type": "references"
   },
   {
-   "from": 2364,
-   "to": 2367,
-   "source": "references"
+   "source": 2364,
+   "target": 2367,
+   "type": "references"
   },
   {
-   "from": 2366,
-   "to": 2367,
-   "source": "references"
+   "source": 2366,
+   "target": 2367,
+   "type": "references"
   },
   {
-   "from": 2358,
-   "to": 2369,
-   "source": "references"
+   "source": 2358,
+   "target": 2369,
+   "type": "references"
   },
   {
-   "from": 2364,
-   "to": 2369,
-   "source": "references"
+   "source": 2364,
+   "target": 2369,
+   "type": "references"
   },
   {
-   "from": 2366,
-   "to": 2369,
-   "source": "references"
+   "source": 2366,
+   "target": 2369,
+   "type": "references"
   },
   {
-   "from": 2365,
-   "to": 2368,
-   "source": "references"
+   "source": 2365,
+   "target": 2368,
+   "type": "references"
   },
   {
-   "from": 2351,
-   "to": 2368,
-   "source": "references"
+   "source": 2351,
+   "target": 2368,
+   "type": "references"
   },
   {
-   "from": 2364,
-   "to": 2370,
-   "source": "references"
+   "source": 2364,
+   "target": 2370,
+   "type": "references"
   },
   {
-   "from": 2369,
-   "to": 2370,
-   "source": "references"
+   "source": 2369,
+   "target": 2370,
+   "type": "references"
   },
   {
-   "from": 2370,
-   "to": 2371,
-   "source": "references"
+   "source": 2370,
+   "target": 2371,
+   "type": "references"
   },
   {
-   "from": 2358,
-   "to": 2371,
-   "source": "references"
+   "source": 2358,
+   "target": 2371,
+   "type": "references"
   },
   {
-   "from": 2370,
-   "to": 2372,
-   "source": "references"
+   "source": 2370,
+   "target": 2372,
+   "type": "references"
   },
   {
-   "from": 2371,
-   "to": 2372,
-   "source": "references"
+   "source": 2371,
+   "target": 2372,
+   "type": "references"
   },
   {
-   "from": 2358,
-   "to": 2372,
-   "source": "references"
+   "source": 2358,
+   "target": 2372,
+   "type": "references"
   },
   {
-   "from": 2370,
-   "to": 2373,
-   "source": "references"
+   "source": 2370,
+   "target": 2373,
+   "type": "references"
   },
   {
-   "from": 2371,
-   "to": 2373,
-   "source": "references"
+   "source": 2371,
+   "target": 2373,
+   "type": "references"
   },
   {
-   "from": 2358,
-   "to": 2373,
-   "source": "references"
+   "source": 2358,
+   "target": 2373,
+   "type": "references"
   },
   {
-   "from": 2365,
-   "to": 2372,
-   "source": "references"
+   "source": 2365,
+   "target": 2372,
+   "type": "references"
   },
   {
-   "from": 2349,
-   "to": 2372,
-   "source": "references"
+   "source": 2349,
+   "target": 2372,
+   "type": "references"
   },
   {
-   "from": 2372,
-   "to": 2375,
-   "source": "references"
+   "source": 2372,
+   "target": 2375,
+   "type": "references"
   },
   {
-   "from": 2370,
-   "to": 2375,
-   "source": "references"
+   "source": 2370,
+   "target": 2375,
+   "type": "references"
   },
   {
-   "from": 2375,
-   "to": 2377,
-   "source": "references"
+   "source": 2375,
+   "target": 2377,
+   "type": "references"
   },
   {
-   "from": 2376,
-   "to": 2377,
-   "source": "references"
+   "source": 2376,
+   "target": 2377,
+   "type": "references"
   },
   {
-   "from": 2339,
-   "to": 2377,
-   "source": "references"
+   "source": 2339,
+   "target": 2377,
+   "type": "references"
   },
   {
-   "from": 2352,
-   "to": 2377,
-   "source": "references"
+   "source": 2352,
+   "target": 2377,
+   "type": "references"
   },
   {
    "from": 2375,
@@ -73250,97 +72994,97 @@
   {
    "from": 187,
    "to": 2450,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2003,
    "to": 2450,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2439,
    "to": 2452,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2452,
    "to": 2455,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2452,
    "to": 2456,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2455,
    "to": 2456,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2441,
    "to": 2457,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2442,
    "to": 2457,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2440,
    "to": 2458,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2451,
    "to": 2459,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2452,
    "to": 2459,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2452,
    "to": 2461,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2456,
    "to": 2462,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2459,
    "to": 2462,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2455,
    "to": 2463,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2451,
    "to": 2465,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2452,
    "to": 2465,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2451,
    "to": 2466,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2466,
    "to": 2451,
-   "source": "references"
+   "type": "references"
   },
   {
    "from": 2456,
@@ -117817,276 +117561,11 @@
    "name": "Six internal + two external boundary condition substrate-derivation theorems; each BC corresponds to substrate operator zoo / isotropy / commitment-cycle structure",
    "status": "structurally_verified",
    "sp31_subitem": "#288 Per-BC theorems"
-  },
-  {
-   "tid": 2483,
-   "name": "Dual-ρ Second-Layer Classification of D_IV⁵ Observables",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2484,
-   "name": "Heat-Trace Closed Form R(k) = C(k,2)/κ_Bergman",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2485,
-   "name": "K-type × Restriction Grading Non-Commutation [H_B,P_restriction]≠0",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2486,
-   "name": "CKM Cabibbo Two-Point Color Structure / Direction B",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2487,
-   "name": "π⁵ = π^(n_C): the Bulk-Volume π-Exponent",
-   "domain": "geometry",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-07",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2488,
-   "name": "Light-Hadron Mass Cell-Count: bosons n_C, fermions n_C+1 via Z₂ spinor bit",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-07",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2489,
-   "name": "Hardy-Szegő Mirror Isometry (HS) — rigorous spine of Casey #16",
-   "domain": "geometry",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-19",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2490,
-   "name": "T2490 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2491,
-   "name": "T2491 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2492,
-   "name": "T2492 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2493,
-   "name": "T2493 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2494,
-   "name": "T2494 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2495,
-   "name": "T2495 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2496,
-   "name": "T2496 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2497,
-   "name": "T2497 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2498,
-   "name": "T2498 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2499,
-   "name": "Down-Quark Texture from Color-Root Crossings (GJ {3,1/3,1}=N_c^{+1,-1,0})",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-27",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2500,
-   "name": "Genus-Multiplicity Cascade of the Type-IV Hua Measure",
-   "domain": "geometry",
-   "status": "proved",
-   "depth": 0,
-   "date": "2026-06-27",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2501,
-   "name": "T2501 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2502,
-   "name": "T2502 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2503,
-   "name": "T2503 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2504,
-   "name": "T2504 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2505,
-   "name": "T2505 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2506,
-   "name": "T2506 (counter-advanced; registry entry PENDING backfill)",
-   "domain": "unknown",
-   "status": "stub_pending_registry",
-   "depth": 0,
-   "date": "2026-06",
-   "registration": "grace_midyear_graph_sync_2026-07-02_STUB"
-  },
-  {
-   "tid": 2507,
-   "name": "Geometry Cannot Carry α (3-way proven)",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-29",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2508,
-   "name": "Wallach Threshold ν=n_C=5 via FKB Square-Integrability",
-   "domain": "harmonic_analysis",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-29",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2509,
-   "name": "CKM as One Geometric Kernel, Zero Parameters (F437)",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-30",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
-  },
-  {
-   "tid": 2510,
-   "name": "Wolfenstein Hierarchy Operator-Level Derived (F435/F436)",
-   "domain": "particle_physics",
-   "status": "proved",
-   "depth": 1,
-   "date": "2026-06-30",
-   "registration": "grace_midyear_graph_sync_2026-07-02",
-   "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
   }
  ],
  "metadata": {
-  "node_count": 2245,
-  "edge_count": 9930,
-  "theorem_count": 1758
+  "node_count": 1443,
+  "edge_count": 9911,
+  "theorem_count": 1749
  }
 }

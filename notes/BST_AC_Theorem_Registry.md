@@ -11033,6 +11033,48 @@ holography), T2110 (D_IV⁵→Shilov inheritance), T534 (Boundary-Interior Dicho
 — T2489, registered by Grace, 2026-06-19. AC=(C=1, D=1), depth 0. Classical (Hua-Korányi); imported as BST
 infrastructure + standing graph-expansion lemma per Casey directive.
 
+— T2490 (Discrete-Series Spectrum Theorem), registered by Grace 2026-06-23; registry-backfilled by Lyra 2026-07-02.
+AC=(C=1,D=1), depth 0. Statement: the four dynamical substrate primaries {N_c, n_C, C_2, g} are EXACTLY the
+half-Casimirs of the four lowest non-trivial holomorphic discrete-series representations of SO₀(5,2), in increasing
+order; equivalently the glueball linear-energy ladder on H²(D_IV⁵) starts at genus λ₀=n_C and steps by spin/parity —
+the defining integers reappear as spectral levels (Integer-Web over-determination). Tier: D (exact rep-theory) for the
+spectral ladder; glueball mass-map I-tier with one BLIND leg (2++=g/n_C, F292). Edges: T2490→{T1829, Casey Integer-Web,
+F292}. Source: grace_T2490_primaries_are_discrete_series_spectrum.
+
+— T2491 (Primary Cascade from Rank), registered by Grace 2026-06-23; registry-backfilled by Lyra 2026-07-02.
+AC=(C=1,D=1), depth 0. Statement: the four dynamical primaries {N_c,n_C,C_2,g} are each generated from the single
+integer rank=2 by a structural D_IV⁵ rep-theory relation (3 SOLID + 1 structural-candidate); N_c=rank²−1 is PROVED
+(T1829, Toy 2151 26/26). Sharpens "zero free parameters" from "five integers" to "one seed (rank) + boundary integer
+N_max." Edges: T2491→{T1829, T2490}. Source: grace_T2491_primary_cascade_from_rank.
+
+— T2492 (Substrate Multiplicity Theorem / FDOSS = Wigner-Eckart completeness), registered by Grace 2026-06-24;
+registry-backfilled by Lyra 2026-07-02. AC=(C=1,D=1), depth 0. Statement: the realized multiplicity of any supported
+operator O on H²(D_IV⁵) equals EXACTLY its spectrum-allowed irreducible components — all and only. General
+derivation tool; Five-Absence becomes a corollary. Edges: T2492→{T2490, T1239/Wigner-Eckart}. Source:
+grace_T2492_T2493_general_theorems.
+
+— T2493 (Plancherel Wall-Convergence Lemma, D_IV⁵), registered by Grace 2026-06-24; registry-backfilled by Lyra
+2026-07-02. AC=(C=1,D=1), depth 0. Statement: the spherical/Plancherel inversion on D_IV⁵ converges through every
+restricted-root wall automatically (short-root density vanishes to order 2, multiplicity-independent), so no
+convergence side-condition is ever needed in a D_IV⁵ spectral argument. General derivation tool. Edges: T2493→{T1438
+OS axioms, T2489 HS-mirror}. Source: grace_T2492_T2493_general_theorems.
+
+— T2494 (Substrate Anomaly-Freedom from Completeness), registered by Grace 2026-06-24; registry-backfilled by Lyra
+2026-07-02. AC=(C=1,D=1), depth 0. Statement: BST chiral matter is automatically gauge-anomaly-free as the COMPLETE
+FDOSS multiplet (the SO(10) spinor 16 = chiral primary of the F(4) supercharge (8,2)-module, Lyra F304); SO(10) has no
+symmetric cubic invariant, so every complete SO(10) rep is anomaly-free. Second (physical) forcing of FDOSS: partial
+matter would be anomalous ⟹ inconsistent ⟹ the substrate cannot carry partial matter. Generalizes F304. **[Lyra
+backfill note 2026-07-02, Five-Absence flag — same class as F450:** the SO(10) 16 enters as a rep-theory/anomaly-safety
+fact, NOT a gauge GUT — but it is GUT-adjacent and a referee will probe it. Verify the 16-multiplet arises from D_IV⁵
+FDOSS completeness without an SO(10) gauge symmetry, exactly as the down-row (T2499) must reproduce GJ without SU(5).]
+Edges: T2494→{T2492, F304}. Source: grace_T2494_anomaly_freedom_from_completeness.
+
+— [Registry backfill IN PROGRESS, Lyra 2026-07-02 mid-year]: T2490–T2494 backfilled above from dedicated Grace notes.
+STILL PENDING (sourced, queued): T2495 (g=7 unified structural home, K506), T2496–T2498 (scattered: K519 #418, K529,
+grace laneB color-weight notes), T2501–T2506 (scattered: MESSAGES 2026-06-28/29, K594/K602 Wallach-to-gauge). These
+need careful extraction from K-audits/boards before formal statements; do not treat as sourced until backfilled. Graph
+stubs remain for these until then (Keeper #28 / K640).
+
 — T2499 (Down-Quark Texture from Color-Root Crossings) + T2500 (Genus-Multiplicity Cascade of the Type-IV
 Hua Measure), registered by Grace, 2026-06-27. AC=(C=1,D=1), depth 0. T2499: GJ texture {3,1/3,1}=N_c^{+1,-1,0}
 from sign(d)=color-root-crossing parity; e1-e2,e1-e3 simultaneously so(5,2)-noncompact AND su(3)-color roots
