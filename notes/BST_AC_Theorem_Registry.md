@@ -11069,11 +11069,41 @@ fact, NOT a gauge GUT — but it is GUT-adjacent and a referee will probe it. Ve
 FDOSS completeness without an SO(10) gauge symmetry, exactly as the down-row (T2499) must reproduce GJ without SU(5).]
 Edges: T2494→{T2492, F304}. Source: grace_T2494_anomaly_freedom_from_completeness.
 
-— [Registry backfill IN PROGRESS, Lyra 2026-07-02 mid-year]: T2490–T2494 backfilled above from dedicated Grace notes.
-STILL PENDING (sourced, queued): T2495 (g=7 unified structural home, K506), T2496–T2498 (scattered: K519 #418, K529,
-grace laneB color-weight notes), T2501–T2506 (scattered: MESSAGES 2026-06-28/29, K594/K602 Wallach-to-gauge). These
-need careful extraction from K-audits/boards before formal statements; do not treat as sourced until backfilled. Graph
-stubs remain for these until then (Keeper #28 / K640).
+— T2496 (#418 Color Resolution — color acts covariantly on the compact dual), registered by Grace; registry-backfilled
+by Lyra 2026-07-03 [from context: grace_laneB + K519; **flagged for Grace's confirm**]. Statement: the color su(3) ⊂ g₂
+⊂ so(7) acts covariantly (V_a covariant) as the compact-dual isometry of Q⁵ — resolving the #418 color bottleneck; the
+7 of so(7) decomposes under su(3) as 7 = 3 + 3̄ + 1 (color triplet + antitriplet + singlet). Five-Absence: this is
+compact-dual GEOMETRY (isometry of Q⁵), NOT a GUT gauge group (no SO(7) bosons, no unification scale). Edges:
+T2496→{#418, T2497, T2499}. Source: grace_laneB_quark_extension_setup_K313_unblocked, K519.
+
+— T2497 (Color Unitary on the Compact Dual Q⁵), registered by Grace; registry-backfilled by Lyra 2026-07-03 [from
+context: grace_laneB + K529; **flagged for Grace's confirm**]. Statement: the su(3) color measurement is a unitary
+structure on the compact dual Q⁵ (the color-fiber measurement in the little group); companion to T2496's covariance.
+Five-Absence clean (geometry, not GUT). Edges: T2497→{T2496, F92 color fiber}. Source: grace_laneB, K529.
+
+— T2498 (Dual-Coxeter Identity — SM gauge dual-Coxeter numbers ARE substrate primaries), registered by Grace;
+registry-backfilled by Lyra 2026-07-03 [from grace_wallach_to_gauge + registry edge; **flagged for Grace's confirm**].
+Statement: the two SM non-abelian gauge groups' dual-Coxeter numbers are exactly the substrate primaries — h^∨(SU(3)_c)
+= N_c and h^∨(SU(2)_L) = rank. Each ties the gauge sector to the generation sector (Cal #35 CROSS-ROLE, not an
+independent forcing). Five-Absence clean: gauge-GROUP structure, NOT a unified coupling — does NOT give sin²θ_W = 3/8.
+Edges: T2498→{T2496, T2504/T2505 rank double-duty, T2499, T2500}. Source: grace_wallach_to_gauge_double_duty, K594.
+
+— T2504 (Wallach/KW Three Generations), registered by Grace 2026-06-29; registry-backfilled by Lyra 2026-07-03 [from
+K594]. Statement: the rank-2 domain D_IV⁵ has exactly **rank + 1 = 3** Korányi–Wolf support-orbit strata (bulk / Cartan
+slice / Shilov), which ARE the three fermion generations (F86 inverted pyramid); the Wallach set / KW stratification
+forces the generation count. Edges: T2504→{F86, T2490 discrete series, T2505}. Source: K594.
+
+— T2505 (No Fourth Generation), registered by Grace 2026-06-29; registry-backfilled by Lyra 2026-07-03 [from K594].
+Statement: because the KW strata count is exactly rank + 1 = 3 (T2504), there is **no fourth generation** — a
+Five-Absence-class prediction (F397): a 4th generation would require a 4th support stratum the rank-2 domain does not
+have. Edges: T2505→{T2504, F397, Five-Absence}. Source: K594.
+
+— [Registry backfill state, Lyra 2026-07-03 EOD — 10 of 16 done: T2490–T2494 (dedicated Grace notes), T2496–T2498
+(context-sourced, Grace-confirm-flagged), T2504–T2505 (K594). STILL PENDING (5): T2495 (g=7 unified structural home,
+K506), T2501–T2503 (MESSAGES 2026-06-28 — general theorems), T2506 (Wallach f_N, K602). These need their dedicated
+K-audits read IN FULL before formal statements — statement boundaries are ambiguous in grep, and mis-transcription is
+exactly the drift the SOD check prevents. Do NOT register from grep. Graph stubs remain for the 5 (Keeper #28 / K640).
+Next-session task: fresh full-source reads of K506, K602, MESSAGES 06-28 to close the last 5.]
 
 — T2499 (Down-Quark Texture from Color-Root Crossings) + T2500 (Genus-Multiplicity Cascade of the Type-IV
 Hua Measure), registered by Grace, 2026-06-27. AC=(C=1,D=1), depth 0. T2499: GJ texture {3,1/3,1}=N_c^{+1,-1,0}
