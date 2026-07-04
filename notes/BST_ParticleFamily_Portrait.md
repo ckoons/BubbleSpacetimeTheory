@@ -74,13 +74,19 @@ The electron is a *boundary* excitation. It lives on the Shilov boundary Š = S�
 
 **The three generations:**
 
-| Generation | Domain | Embedding | Mass ratio |
-|---|---|---|---|
-| Electron (e) | D_IV^1 | Simplest — one complex dimension | 1 (definition) |
-| Muon (μ) | D_IV^3 | Three complex dimensions | (24/π²)⁶ = 206.761 (0.003%) |
-| Tau (τ) | D_IV^5 | Full domain | 3477.5 via Koide Q=2/3 from Z₃ on CP² (0.003%) |
+| Generation | Spectral level (on the single D_IV⁵) | Mass ratio |
+|---|---|---|
+| Electron (e) | level 1 — ground eigentone | 1 (definition) |
+| Muon (μ) | level 2 — deeper spectral mode | (24/π²)⁶ = 206.761 (0.003%) |
+| Tau (τ) | level 3 — deepest | 3477.5 via Koide Q=2/3 from Z₃ on CP² (0.003%) |
 
-Each generation is the electron-type circuit embedded in a progressively larger submanifold of D_IV^5. More dimensions → more Bergman weight → heavier. The muon is not "a fat electron" — it is the electron circuit threaded through three complex dimensions instead of one. The mass ratio is the Bergman Jacobian of the embedding.
+**[Single-manifold correction, Casey directive 2026-07-04: there is ONE manifold, D_IV⁵. Generation is a SPECTRAL
+LEVEL on it, NOT a different submanifold. The old "D_IV¹/D_IV³/D_IV⁵ embedding" framing was a bug.]** Each generation
+is the electron-type circuit at a progressively **deeper spectral level** of the single D_IV⁵ — "generation" is the
+spectral index. Deeper level → more Bergman weight → heavier. The muon is not "a fat electron" — it is the electron
+circuit at a deeper eigentone level. The mass is a quasi-eigentone overlap at that level (Lyra's overlap operator —
+the transcendental (24/π²)⁶ comes from the overlap integral, not a submanifold Jacobian; the down-quark overlap is
+the open computation).
 
 -----
 
@@ -167,9 +173,9 @@ An isolated quark is an *open Z₃ circuit* — it is a non-state. This is confi
 |---|---|---|---|
 | Up (u) | +2/3 | R, G, or B | 2/3 of an S¹ winding + 1/3 of Z₃ circuit |
 | Down (d) | −1/3 | R, G, or B | −1/3 of an S¹ winding + 1/3 of Z₃ circuit |
-| Charm (c) | +2/3 | R, G, or B | Up quark at D_IV^3 embedding depth |
-| Strange (s) | −1/3 | R, G, or B | Down quark at D_IV^3 embedding depth |
-| Top (t) | +2/3 | R, G, or B | Up quark at D_IV^5 embedding depth |
+| Charm (c) | +2/3 | R, G, or B | Up quark at spectral level 2 (on D_IV⁵) |
+| Strange (s) | −1/3 | R, G, or B | Down quark at spectral level 2 (on D_IV⁵) |
+| Top (t) | +2/3 | R, G, or B | Up quark at spectral level 3 (on D_IV⁵) |
 | Bottom (b) | −1/3 | R, G, or B | Down quark at D_IV^5 embedding depth |
 
 The fractional charges (2/3, −1/3) are not put in by hand. They follow from the requirement that three quarks form a complete S¹ winding (charge ±1) while simultaneously completing a Z₃ cycle on CP². The allowed charge fractions are {n/3 : n ∈ Z}, and the lightest stable configurations have charges 2/3 and −1/3.

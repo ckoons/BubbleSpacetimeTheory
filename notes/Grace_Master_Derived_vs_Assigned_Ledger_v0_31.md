@@ -13,6 +13,10 @@ refined the TIERING (σ-scoring) and REFRAMED the mass sector (two-layer). The l
 `python3 play/bst_26_table.py` — which computes dev% + σ (scheme-aware) + cheapness. This doc records the delta so
 the ledger artifact isn't stale; the numbers live in the tool.**
 
+## Section 00 — THE COUNT (single-source enumeration, for the SOD check)
+**The count is 8** banked (of 26 SM parameters), σ-scored: (1) θ_QCD (2) α [partial, EM-gated] (3) m_μ/m_e (4) m_d/m_e
+(5) m_s/m_μ (6) m_b/m_τ (7) θ₁₃ (8) m_t. **Derived-strong ≈ 2** (θ_QCD, δ_CKM). Live scoreboard: `bst_26_table.py`.
+
 ## Section 0 — the honest headline (EOD 2026-07-03)
 - **Count 8, σ-scored. Derived-strong (MATCH + not-cheap + forced-mechanism) ≈ 2:** θ_QCD (0σ exact), δ_CKM
   (arctan√n_C, triangle geometry). θ₁₃ (0.5σ, boundary mechanism), V_us, m_t (scheme-aware) are strong but
