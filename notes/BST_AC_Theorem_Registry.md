@@ -11098,6 +11098,22 @@ Statement: because the KW strata count is exactly rank + 1 = 3 (T2504), there is
 Five-Absence-class prediction (F397): a 4th generation would require a 4th support stratum the rank-2 domain does not
 have. Edges: T2505→{T2504, F397, Five-Absence}. Source: K594.
 
+— T2511 (Substrate 5 = N_c + rank Split IS the Spin-Factor Peirce Decomposition), registered by Grace 2026-07-05
+[closing-push Thread 3; Keeper-adjudicated tier]. Statement: D_IV⁵ is the tube over the forward Lorentz cone; its
+Jordan algebra is the rank-2 **spin factor** V = ℝ·e₀ ⊕ ℝ⁴ (Lorentzian, dim = n_C = 5). For primitive idempotents
+c₁,c₂ = (e₀ ± v)/2, the canonical **Peirce decomposition** is V = ℝc₁ ⊕ ℝc₂ ⊕ V₁₂, where the idempotent plane
+⟨e₀, v⟩ = a **(1,1) causal core (the rank-2 "floor")** and the Peirce off-diagonal **V₁₂ = ⊥v is 3D spacelike
+("color"), of dimension d = n_C − rank = N_c = 3** (the Peirce multiplicity). So Casey's split 5 = 3 + 2 (color +
+clock) is **not chosen — it is forced by the Jordan/Peirce structure of the substrate's own spin factor**, and the
+identity **N_c = n_C − rank** IS the Peirce-multiplicity statement. Corollary (descent relabeling): the emergent
+spatial rotation group is SO(V₁₂) = SO(3), so the 3 colors ARE the 3 emergent space dimensions (color = space as a
+relabeling, not a growth). **TIER: Structural (S), target-innocent (standard Jordan structure, no fit). HONEST
+BOUND (Keeper): this UPGRADES 5 = 3+2 from asserted to forced; it does NOT derive n_C = 5 from nothing (3 = 5−2
+given the rank-2 spin factor). A structural theorem, NOT a new integer derivation and NOT a "count" observable.**
+Edges: T2511→{T186 D_IV⁵ master, T2496/T2497 color-on-Q⁵, T2504 KW strata, Faraut-Koranyi spin factor}. Open bolt:
+Casey #14 chirality projection must land on the V₁₂ block (keep color, drop v) to close the descent — pending the
+explicit map. Source: grace_deep_think_peirce_2026-07-05.
+
 — [Registry backfill state, Lyra 2026-07-03 EOD — 10 of 16 done: T2490–T2494 (dedicated Grace notes), T2496–T2498
 (context-sourced, Grace-confirm-flagged), T2504–T2505 (K594). STILL PENDING (5): T2495 (g=7 unified structural home,
 K506), T2501–T2503 (MESSAGES 2026-06-28 — general theorems), T2506 (Wallach f_N, K602). These need their dedicated

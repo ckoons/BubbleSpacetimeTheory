@@ -14,7 +14,7 @@
 "D1": 525,
 "D2": 42
 },
-"last_modified": "2026-07-04",
+"last_modified": "2026-07-05",
 "D0": 1163,
 "D1": 525,
 "D2": 42,
@@ -73867,6 +73867,21 @@
 "from": 2510,
 "to": 2509,
 "source": "supports"
+},
+{
+"from": "T186",
+"to": "T2511",
+"source": "grace_peirce_2026-07-05"
+},
+{
+"from": "T2496",
+"to": "T2511",
+"source": "grace_peirce_2026-07-05"
+},
+{
+"from": "T2504",
+"to": "T2511",
+"source": "grace_peirce_2026-07-05"
 }
 ],
 "chains": {},
@@ -118083,6 +118098,15 @@
 "date": "2026-06-30",
 "registration": "grace_midyear_graph_sync_2026-07-02",
 "plain": "(registered in mid-year graph-currency sync; see registry/boards)"
+},
+{
+"tid": 2511,
+"name": "Substrate 5=N_c+rank Split IS the Spin-Factor Peirce Decomposition",
+"domain": "geometry",
+"status": "proved",
+"depth": 1,
+"date": "2026-07-05",
+"registration": "grace_deep_think_peirce_2026-07-05 (closing-push Thread 3; tier=Structural, target-innocent Jordan)"
 }
 ],
 "metadata": {
