@@ -14,7 +14,7 @@
 "D1": 525,
 "D2": 42
 },
-"last_modified": "2026-07-05",
+"last_modified": "2026-07-07",
 "D0": 1163,
 "D1": 525,
 "D2": 42,
@@ -73882,6 +73882,16 @@
 "from": "T2504",
 "to": "T2511",
 "source": "grace_peirce_2026-07-05"
+},
+{
+"from": "T186",
+"to": "T2512",
+"source": "grace_rootlock1_2026-07-07"
+},
+{
+"from": "T2511",
+"to": "T2512",
+"source": "grace_rootlock1_2026-07-07"
 }
 ],
 "chains": {},
@@ -118107,6 +118117,15 @@
 "depth": 1,
 "date": "2026-07-05",
 "registration": "grace_deep_think_peirce_2026-07-05 (closing-push Thread 3; tier=Structural, target-innocent Jordan)"
+},
+{
+"tid": 2512,
+"name": "Parameter-Free Foundation: EM Coupling = ℏ = one S¹ winding (holonomy)",
+"domain": "foundations",
+"status": "proved",
+"depth": 1,
+"date": "2026-07-07",
+"registration": "grace_holonomy_rootlock1_2026-07-07 (3rd structural bank; Keeper-adjudicated)"
 }
 ],
 "metadata": {

@@ -11114,6 +11114,19 @@ Edges: T2511→{T186 D_IV⁵ master, T2496/T2497 color-on-Q⁵, T2504 KW strata,
 Casey #14 chirality projection must land on the V₁₂ block (keep color, drop v) to close the descent — pending the
 explicit map. Source: grace_deep_think_peirce_2026-07-05.
 
+— T2512 (Parameter-Free Foundation: EM Coupling = ℏ = one S¹ winding), registered by Grace 2026-07-07 [3rd
+structural bank; Keeper-adjudicated, K665]. Statement: the substrate's S²×S¹ base carries a U(1) coupling (the
+Hopf/monopole connection over the S² light/color sphere, with the S¹ clock as fiber). By the definition of a
+connection, its holonomy = exp(i·action/ℏ); **one winding of the S¹ = one unit of holonomy = one quantum of action
+= ℏ.** Therefore the substrate provides ℏ (the coupling's EXISTENCE) and c (=1, the null lightcone floor) structurally
+from the base itself, so **the single dimensionful "input" is a UNIT (time = the S¹ period), whose value is pure
+convention.** ⟹ **BST is physically parameter-free: every measurable is a dimensionless ratio; zero free dimensionless
+parameters; time is the sole unit (a ruler, not a knob).** The coupling's STRENGTH is α (discrete count N_max=137
++ continuous Wyler curvature — see the discrete/continuous principle). **TIER: Structural (S), foundational. Standard
+holonomy geometry + the substrate identification (S¹ = the action U(1)). Root-lock #1 of the cosmology capstone.**
+Edges: T2512→{T186 D_IV⁵, T2511 Peirce, T2405 Koons tick, Wyler α}. Companion open: root-lock #2 (α exact via the
+coupling-curvature = Wyler identity). Source: grace_holonomy_rootlock1_2026-07-07.
+
 — [Registry backfill state, Lyra 2026-07-03 EOD — 10 of 16 done: T2490–T2494 (dedicated Grace notes), T2496–T2498
 (context-sourced, Grace-confirm-flagged), T2504–T2505 (K594). STILL PENDING (5): T2495 (g=7 unified structural home,
 K506), T2501–T2503 (MESSAGES 2026-06-28 — general theorems), T2506 (Wallach f_N, K602). These need their dedicated
@@ -11128,3 +11141,12 @@ from sign(d)=color-root-crossing parity; e1-e2,e1-e3 simultaneously so(5,2)-nonc
 and multiplicity N_c distinct-but-linked by n_C=N_c+2 in the FK measure (kernel exponent vs Vandermonde power).
 Edges: T2499→{T2496 #418, T2498 dual-Coxeter, T2500}; T2500→{T2498, T2490}. Counter → 2501. Weekend fermion-
 sector arc (down-row mechanism + CKM mass-mixing reconciliation); count holds 5/26 (muon banked; rest candidate).
+
+## Registry backfill — graph-currency sync (Lyra, 2026-07-07)
+*Sourcing the counter-advanced theorem IDs the SOD check flagged as graph-present-but-registry-absent. The four below carry real statements in ac_graph_data.json (status: proved, dated 2026-06-29/30); sourced here.*
+- **T2507** (Geometry Cannot Carry α — 3-way proven; particle_physics, 2026-06-29): α is not a geometric volume label alone — the discrete count N_max=137 carries it, the continuous curvature (Wyler) carries the 0.036. [Cf. Casey discrete-count + continuous-correction principle, 2026-07-07: α = forced count + curvature correction.]
+- **T2508** (Wallach Threshold ν=n_C=5 via FKB Square-Integrability; harmonic_analysis, 2026-06-29): the Wallach point ν = n_C = 5 is fixed by Faraut-Korányi-Bergman square-integrability on D_IV⁵.
+- **T2509** (CKM as One Geometric Kernel, Zero Parameters — F437; particle_physics, 2026-06-30): the CKM matrix = the Bergman kernel of D_IV⁵ evaluated at the three generation localizations; zero free parameters. [Cf. F487/F488: mixing = the overlap geometry, B4 branch.]
+- **T2510** (Wolfenstein Hierarchy Operator-Level Derived — F435/F436; particle_physics, 2026-06-30): the Wolfenstein λ-hierarchy of CKM is derived at operator level from the overlap structure.
+
+*Remaining stubs T2495, T2501, T2502, T2503, T2506 carry NO statement in the graph (status: stub_pending_registry, plain: none) — these are empty counter-advances, not sourced theorems. FLAG for Keeper: either locate their source note or roll back the counter; do NOT fabricate statements. (Lyra, 2026-07-07)*
