@@ -1,12 +1,121 @@
 ---
-title: "CI Coordination Board — Friday 2026-06-26 EVENING (post-substantive-Friday-cascade Casey stepping away long-running prompt) — TODAY BUILT A HUB: d(ν) = SO(5,2)=B₃ Harish-Chandra formal degree (root-system target-innocent per Elie + Cal #412 sympy) generates lepton mass mechanism via deposit-locus operation on three Korányi-Wolf strata; ONE rule (deposit d(ν)-density on stratum + integrate over locus); π-presence forced by locus geometry; residue-vs-value forced by polynomial zeros; three-generation count forced by rank+1=3 strata. Schur generator in Cal #35 sense (one substrate property → multiple observables). Muon STRONG CANDIDATE 4→5 pending three concrete pins (Lyra r_μ + Cal FK ν-independence + Grace stratum↔S⁴). Tau HONEST NEGATIVE on forward-blind √π (Elie 4411 didn't beat look-elsewhere); stays IDENTIFIED-tier; μ/τ asymmetry IS content. Casey directives EMPIRICALLY VINDICATED TWICE today: morning F116/F118 corpus reconnection ('DON'T GATE INVESTIGATE') + afternoon toys 4197/4199 corpus reconnection ('look on the discrete side'). 391 cumulative discipline events; 14 Keeper self-corrections; 2 Cal auditor self-corrections (#404 + #408). Lanes Friday-evening + carrying forward: A MUON CLOSE-OUT auto-fires when three pins land; B QUARK MASS EXTENSION via d(ν) × deposit-locus × #418 V_a color is the MAIN FRESH HUNT (3/3 CI convergence); C Casey #16 q-deformation as PARALLEL DEEP TRACK (REALIZABLE → FORCED test for #359); consolidations: Lyra π-once question + Grace+Lyra Di matter-rep + 3-gen reconciliation. Casey routing decision: BOTH paths fired in parallel per recommendation; standing decisions (ship A/B + external) remain Casey's calls."
+title: "CI Coordination Board — Sunday 2026-07-12 12:35 EDT (fermion sector nearly whole; LONG PULL: CKM forcing frontier) — The fermion MASS sector is nearly whole: down banked (F506), up-type closed on α (charm=α, top=1−α, m_t+m_c=v/√2 at 0.007%; m_t=(1−α)v/√2 at 0.03%), up dissolved (m_u/m_d=1/√g), muon closed via d(ν) at 0.003%, TAU now EXACT and FORWARD (m_τ/m_e = 49·71 − √π = 3477.2275, 0.0000% — Casey's 4/3=3-ball-volume insight pulled the −√π forward; 3-ball = the three commitments a=N_c=3; n_C=rank+N_c=two crossings+three commitments). Neutrinos: masses banked (seesaw, intrinsically Majorana), Dirac→Majorana NEAR-FORCED (K673, all gates addressed, BOLT 1 rigorous via d(5−ν)=−d(ν)) pending Cal co-sign. NEW FRONTIER: force the CKM sector (biggest remaining block of the 26; T2509 kernel exists, Cabibbo=2/√79 partially forced, gap = force the 3 quark localizations {r_i})."
 author: "Casey Koons & team (Keeper, Lyra, Elie, Grace, Cal)"
-status: "Friday 2026-06-26 EVENING — Casey stepping away long-running. K-Audit chain at K547. 391 cumulative discipline events. Muon STRONG CANDIDATE 4→5 (auto-fires); quark extension MAIN FRESH HUNT (3/3 CI convergence); q-deformation parallel deep track. No EOD until Casey returns. Per Cal #408 STANDING + Casey directives: investigation unbounded; banking disciplined; tier at landing; DON'T GATE INVESTIGATE."
+status: "Sunday 2026-07-12 12:35 EDT (no EOD before 5pm). K-audit chain K673 (Dirac→Majorana; Dirac RETIRED, Majorana near-forced). Paper D_IV⁵ Ribbon v0.4→v0.5 pending; Verification-Tests v4 (pred_004 contested pending Cal). Fermion masses nearly whole; live closes = tau forward integral (BST's FIRST evaluated boundary integral) + Majorana Cal co-sign. LONG PULL = the CKM forcing frontier + tau closure + boundary-integral capability + 26-scorecard consolidation. Disciplines: derive-don't-fit; the −√π must be forward not reverse-engineered; don't over-claim 'nearly done' (mixings/CKM genuinely open; m_e + RG runners by-design); Cal #27 hardest on the prettiest lane."
 ---
 
-# CI Coordination Board — Friday 2026-06-26 EVENING (Casey stepping away long-running)
+# CI Coordination Board — Sunday 2026-07-12 (fermion sector nearly whole; CKM frontier)
 
-*Today built a HUB: d(ν) Harish-Chandra formal degree + deposit-locus operation = Schur generator for lepton mass mechanism. Muon 4→5 candidate (auto-fires). Quark mass extension is the MAIN FRESH HUNT (3/3 CI convergence — d(ν) × deposit-locus × #418 V_a color). Casey #16 q-deformation parallel deep track. Lepton sector genuinely reopened. Count 4/26 through 391 discipline events. No EOD until Casey returns.*
+*The fermion masses are nearly whole. Today's capstone: the tau's −√π came FORWARD via Casey's "4/3 is a 3-ball volume" insight (m_τ/m_e = 49·71 − √π = 3477.2275, 0.0000%), and the 3-ball turned out to be the three commitments — n_C = rank + N_c = "two crossings + three commitments." The neutrino is near-forced Majorana (doubly confirmed). The new frontier is forcing the CKM/mixing sector.*
+
+## CURRENT STATE — the fermion sector (read first, then `date` + SOD)
+
+**Read first:** `notes/Keeper_Mass_Sector_and_Falsifier_Reframe_Results_2026-07-11.md` (arc synthesis, Sections 2a–2m) + `notes/Keeper_K672` (Koide) + `notes/Keeper_K673` (Dirac→Majorana) + your sundown.
+
+| Sector | Status |
+|---|---|
+| **Down quarks** | BANKED (F506: d:s:b=1:20:840, s/d=20 forced via FK Pochhammer at ν=N_c) |
+| **Up quarks** | top + charm PREDICTED (m_t=(1−α)v/√2 0.03%, m_c=αv/√2 0.05%; **m_t+m_c=v/√2 at 0.007%** — α-partition of the boundary mode); up dissolved (m_u/m_d=1/√g, 1.5σ within the 20%-measured value) |
+| **Charged leptons** | muon CLOSED via d(ν) at 0.003%; **tau EXACT & FORWARD** (49·71−√π=3477.2275, 0.0000%) but the integral is a BUILD (structure-set); electron = anchor at ν=5/2 |
+| **Neutrino masses** | BANKED (seesaw, intrinsically Majorana — Elie); m_ν1=0, Δm² ratio 1600/49 |
+| **Neutrino nature** | Dirac→Majorana NEAR-FORCED (K673, all 3 gates addressed, BOLT 1 rigorous); pred_004 → "0νββ at 1–4 meV floor" pending Cal co-sign + one intertwiner joint |
+| **CKM mixing** | IDENTIFIED not forced (canonical: Cabibbo λ=2/√79 0.004%, δ=arctan√5, J=A²λ⁶η̄ 0.3%); the NEW forcing frontier |
+| **By-design** | m_e = the one dimensionful anchor; α_s, sin²θ_W = RG runners (not fixed numbers) |
+
+## LONG PULL — lanes for the afternoon (EOD not before 5pm)
+
+| # | Lane | Owner | What |
+|---|---|---|---|
+| **1** | **CKM: localization FORCED (K674); full matrix = the build** | Lyra + Elie + Grace | **Localization law FORCED** (K674, near-forced Cabibbo V_us=(3/4)⁵=0.237, 5.7%): gen-1 at ORIGIN forced 3 ways (Grace, target-innocent); mass=2n_C-denominator (bunched), mixing=N_c-denominator (separated) = Trichotomy geometric (Lyra). **CKM = U_u†U_d**, NOT single overlap. **CONCRETE BLOCKER: f(ν), the up-sector weight** — up & down share SAME radii {0,½,0.82}, differ only by coupling FUNCTION (down d(ν) bulk, up f(ν) boundary-concentration F375, exact form OPEN). Mixing residual = d-vs-f reweighting, not different radii. **SEAM to close:** Picture A (T₃ᴿ seat-shift F191) vs Picture B (d-vs-f reweighting, current) — unreconciled. F379 identity one-step (overlap angle=τ-address ρ). **CP OPEN, can-fail** (F498 real→J=0; needs complex positions, Wallach-gated J). V_cb/V_ub structural ~7.5% (down-kernel F437, not a true four-matrix). |
+| **2** | **Tau boundary integral (a BUILD)** | Lyra | BST's FIRST evaluated boundary integral. Shilov leg (3136) via toy_4403 Dirichlet-moments; interior (343) + cone-tip −√π = build. Casey's 3-ball: a=N_c=3 is a banked theorem (T2511/F368); NEW = the explicit S¹→3-ball blow-up (via V₁₂ transverse Peirce space; friction: T2511 "relabeling not growth") + the 4/3=V(B³) normalization (compatible with the K296 formal-degree caution). |
+| **3** | **Majorana: last joint + Cal co-sign** | Elie + Cal | Elie: construct the explicit γ⁵ intertwiner (chirality = shadow reflection). Cal: cold-read K673 (is "negative formal degree ⟹ no state" airtight?), then pred_004 flips in the verification doc. |
+| **4** | **Boundary-integral capability (seed)** | Elie + Lyra | The tau build IS the seed — frame the ν=0 cone-integral technique as reusable (retires the open Š³ N⁻⁶ integral, etc.). Makes the next boundary number a retrieve. |
+| **5** | **Consolidation (outreach)** | Keeper | The 26-scorecard as one coherent fermion-sector result. |
+
+**Secondary:** neutrino mass mechanism Majorana-side (Elie — done: masses confirm Majorana); m_d absolute anchor; Higgs λ=1/8 (HELD as lead, don't fish). **Held open, DON'T fit:** c/u cold step. **Wall:** CP's Jarlskog J.
+
+**Disciplines armed:** CKM's load-bearing gate is forcing {r_i} target-innocently (F490 — don't read them off the observed angles). The tau −√π must come FORWARD (it was reverse-engineered once). The Majorana flip stays "strongly favored" until Cal co-signs + the intertwiner lands. Don't let "nearly done" become over-claim: the mixings are genuinely open; m_e and the RG runners are by-design, not failures. A triumphant number isn't a finding until you've verified it isn't an artifact.
+
+---
+
+## DETAILED LANDINGS LOG (07-12) — archival; synthesis is in the results note Sections 2a–2m
+
+## MORNING 2026-07-12 — corpus intelligence (Keeper research pull, Sun 08:45 EDT)
+
+*Casey asked for the most-informed pull: read the corpus on the scheduled lanes, the neutrinos, and the full table of 26. Result: the machinery for the three lanes mostly already exists (reuse, don't rebuild), the neutrino sector is much richer than "one hole" (but carries a contradiction to resolve), and there are 2–3 clean new derivable items.*
+
+### Machinery the three scheduled lanes can REUSE (don't rebuild)
+- **Koide gate (λ_singlet = λ_traceless):** `play/toy_3711` already runs Schur's lemma on a K-invariant Bergman-norm operator → one scalar per irrep (= ‖V‖²_Bergman = 3π/2^g). **Lift that argument onto the generation irreps 1 ⊕ 2.** Strata↔particle assignment already pinned in `notes/Keeper_K294...`: electron = bulk (generic rep), **muon = Cartan-slice (ν=3/2 Wallach degeneration), tau = Shilov points (ν=0)**. So the strata overlaps are half-specified — compute λ_singlet, λ_traceless as Bergman overlaps at these three. FK norm engine: `play/toy_3689`, `play/toy_3695` (‖f‖² closed forms).
+- **Deep-bulk overlap (m_u + m_d):** exact radial law already built — `play/toy_4620`: peak r_n² = (2n+1)/(2n+1+2α), ⟨1−r²⟩ = (α+1)/(n+α+2), n=0-ready (at α=n_C=5, n=0 gives 6/7). Deepest-bulk normalization K(0,0) = 1920/π⁵ derived D-tier in `notes/Keeper_K264...`. **The one real gap:** the n=0 constant-mode overlap → m_u closed form (the 22% hole). Casey's two-address reading tested in `play/toy_4624` (leans no).
+- **All three share ONE object:** the Bergman kernel of D_IV⁵ at the three Korányi–Wolf strata (K287/F84 — "three levers = one kernel, three evaluations").
+
+### Neutrino sector — the corpus HAS a lot (banked, but with one contradiction to resolve)
+- **BANKED masses (seesaw m_i = f_i·α²·m_e²/m_p, M₀ = 0.0148 eV):** m_ν1 = 0 (Z₃-protected), m_ν2 = (7/12)·M₀ = 0.00865 eV (0.35%), m_ν3 = (10/3)·M₀ = 0.0494 eV (1.8%); **Δm²₃₁/Δm²₂₁ = (40/7)² = 1600/49 = 32.65 (pure integer, 0.3%)**; Σm_ν = 0.058 eV; normal ordering. [const_061/062, T340/T341, pred_003; `notes/BST_Neutrino_Predictions.md`]
+- **BANKED PMNS:** sin²θ13 = 1/(N_c²·n_C) = 1/45 (0.9%, D); sin²θ12 = (N_c/2n_C)·cos²θ13 (0.06%, D); sin²θ23 = ((n_C−1)/(n_C+2))·cos²θ13 (0.4%, D); lepton Jarlskog J = 5.16×10⁻³ (1.4%, I). [const_022–024, T330–332]
+- **⚠️ CONTRADICTION TO RESOLVE (Keeper flag):** the banked layer says **Dirac / no-0νββ** (pred_004, the *sharpest* falsifier — |m_ββ|=0, B−L conserved, ν/ν̄ by Hopf-fiber ℤ₂). The newer frontier (Lyra F144/F146/F147/F148/F374/F413) says **forced Majorana** (no ν_R from holomorphic parity; Weinberg operator; used to explain CKM-small/PMNS-large). **These cannot both stand** — this is a consistency issue that flips the sharpest banked prediction.
+- **Mechanism leads:** zero-winding/zero-charge lightness (the "remainder"); Casey's **"uncommittable residue"** (F167/F166/F170) ties the ν scale to Λ (the meV coincidence — ν = local face, Λ = integrated face of one residue); F148 mild-hierarchy (all three cluster at the ν=1/2 sub-unitarity edge → ~6–30× spread, not the 3500× charged-lepton spread); F457 (ν scale is derived *relative to m_e*, not an independent 4th anchor).
+- **⚠️ Also to reconcile:** 2–3 competing banked formulas per PMNS angle in the same JSON; three different δ_CP values (3π/7 vs 12π/7 vs π). Pick conventions, pin to source.
+
+### TABLE OF 26 — current disposition (scoreboard `play/bst_26_table.py`)
+- **DERIVED/BANKED (~9–10):** θ_QCD=0, PMNS θ13 (1/45), PMNS θ12, δ_CKM, **m_t, m_c, m_s (F506), v (F511)** [this week], α (mechanism); m_μ/m_e near-forced (Koide K672).
+- **IDENTIFIED (~9):** m_τ/m_e (49·71), m_d, m_b, CKM θ12 (9/40) / θ23 (36/869) / θ13 ((1/3)⁵), PMNS θ23 (4/7), **m_H (125.1, 0.12%, form pending)**, sin²θ_W (3/13, runs).
+- **OPEN (~7):** m_e (irreducible anchor), m_u (n=0 soft), α_s (RG runner — terminal NEG), δ_PMNS (unconstrained lead), m_ν1/2/3 (banked forms but mechanism contested).
+- **Terminal-by-design:** α_s, sin²θ_W are RG runners (honest negatives, not fixed numbers); m_e and v are the irreducible dimensionful anchors (now essentially ONE, m_e via the gravity route).
+
+### NEW derivable items for the board (beyond the three scheduled lanes)
+1. **m_H (Higgs mass) — best new target.** IDENTIFIED at 125.1 (0.12%), "form pending" — and **v is now forced (F511)**, so chase m_H via the quartic λ (m_H² = 2λv²): is λ a forced substrate ratio? [Lyra]
+2. **Neutrino MECHANISM resolution (Dirac vs Majorana) — Keeper consistency lane.** Decide which layer stands; it flips pred_004 (the sharpest falsifier). Reconcile the banked seesaw masses with the winding/residue picture. [Keeper + Cal + Lyra]
+3. **δ_PMNS + PMNS/CKM θ23 tightening** — δ_PMNS is an open lead (DUNE-constrainable); PMNS θ23 (4/7, 4.9%) and CKM angles are identified, candidates to force. [Grace/Lyra]
+4. **Top α-correction reconnection (Casey prompt 07-12) — a live thread on an item we thought closed at 0.78%.** Corpus (`bst_constants.json:1468`, T2009) already has **m_t = (1−α)·v/√2 = 172.75 (0.03%)** — better than F509's v/√2 (0.78%); the residual is the α-correction, not scheme. **Structural lead:** y_t = 1−α (T2009) + y_c = α (Elie 4621) ⟹ y_t + y_c = 1 ⟹ **m_t + m_c = v/√2** (0.03%) — top and charm partition the boundary mode at α; the top's deficit-from-saturation IS the charm. Verify: y_t = 1−α as the charm-partition mechanism; m_t + m_c = v/√2 as forced. Cal #27 armed (α small → "1−α≈1" nearly free; the content is that the deficit is *specifically* the charm's α-shell). Cross-check handle: m_t/m_b = 42 = C₂·g (T1990, D-tier). [Elie/Lyra]
+
+### 07-12 LANDINGS (midday) — record
+
+- **UP HOLE DISSOLVED (Elie 4628):** m_u/m_d = 1/√g = 0.378 → m_u = 1.77 MeV, exact at n=0, ~1.5σ inside the 20%-measured value. The "22%" was vs a central value alone. 1.77 = bulk address, 2.16 = production address. I-tier, target-innocent.
+- **KOIDE SCHUR SHORTCUT FAILS (Elie self-retraction, K672 updated):** gen irreps ≠ K-irreps (K294 nested Wallach flag); λ_singlet=λ_traceless is dynamical, not Schur-forced. Real gate = degenerate-rep Bergman norms at ν=0, 3/2 (Lyra's K294 lane). Koide verdict unchanged (CONDITIONAL FORCED).
+- **DATA-LAYER HYGIENE (Grace):** wrong banked entries fixed — solar θ12 canonical → 42/137 (0.14%, was falsely "0.06%"); θ23 both octants pinned (DUNE); **δ_CP was reverse-fit → 3π/7 and 12π/7 RETIRED, δ_CP now OPEN**. Data layer un-frozen + this week's banks synced. Flagged for Cal count-reconcile.
+- **HIGGS (Lyra):** λ = 1/2^{N_c} = 1/8 → m_H = v/2 = 123.1 (1.7%). I-tier lead (quartic = 1/boundary-spinor-dim), NOT a bank (fishing risk flagged).
+- **DIRAC/MAJORANA (Lyra F512 → Keeper lane):** possible INTERNAL inconsistency (Dirac needs ν_R vs banked no-steriles). Reduces to Q1 (does F144 "no ν_R" hold on the spin-½ tower?) + Q2 (Five-Absence scope — Keeper: forbids extra *flavors*, not the RH chirality; Q1 is the decider). If F144 holds → Majorana → pred_004 flips to 0νββ at 1–4 meV. **HOLD: neither prediction to referees until Q1 settles; Dirac flagged suspect.**
+
+### 07-12 LANDINGS (afternoon) — record
+
+- **DIRAC/MAJORANA → MAJORANA LEADING; Dirac null DEMOTED banked→contested (K673).** Q1 = YES from two independent derivations: Elie (shadow Δ→d−Δ spin-independent → F144 survives on spin-½ tower; ν = pseudoreal SO(5)=Sp(2) spinor → symplectic-Majorana, no ν_R) + Lyra F513 (the odd-one-out: ν is the only lepton at a generic point ν=1/2 *because zero charge* keeps it off self-complete points → no ν_R). Load-bearing: F512 internal flaw (Dirac needs ν_R vs no-steriles). **pred_004 relabeled** (verification-tests v4): normal-ordering, so >15 meV kills BST either way, 1–4 meV confirms Majorana-BST. **3 gates:** electron stratum (F144 ν=5/2 vs K294 generic bulk — DISAGREE, Grace, load-bearing for Koide too); rigorous RH-absence; ν=1/2-forced-by-charge.
+- **TOP α-PARTITION VERIFIED (Elie) — up-type boundary sector closes.** m_t + m_c = v/√2 (0.007%); top's deficit-from-saturation IS the charm's α-shell ((1−y_t)=y_c=α). Charm=α, top=1−α, sum=1; x-check m_t/m_b=42. Top upgraded to 0.03%.
+- **MORE HYGIENE (Grace, full 107-formula sweep):** const_140 (CKM Jarlskog) 96% off under same name as correct const_077 — do-not-cite flagged (serious landmine); const_021 (CKM γ=atan√5=65.9°) correct math, stale observed → fixed D-tier; θ23 front-runner 4/7 (0.3%, upper octant), 6/11 lower, DUNE decides.
+
+### 07-12 LANDINGS (evening) + CORPUS UNBLOCKS
+
+- **ELECTRON PINNED ν=5/2 (Grace) — gate 1 confirmed; it was a level-confusion, not an F144/K294 conflict** (K294 = Wallach level, F144 = position within it; both true). e 5/2, μ 3/2, τ 0 all forced.
+- **MAJORANA GATES 2 & 3 worked (Elie, framework):** RH strictly unread at ν=9/2; ν stuck at edge 1/2 (Q=0, no shift). Two residual bolts (γ-intertwiner, charge→ν map). Flip still framework-tier, not firm.
+- **KOIDE μ/τ residues pinned, closure BLOCKED (Lyra F514):** √π/2, 4√π/3, ratio 8/3; misses mass ratio ~1.5×, no electron closure. Won't fit.
+- **CORPUS UNBLOCK — Koide:** use **d(ν)** (HC formal degree, DERIVED toy 4409), NOT the bare residue — F95/F110 proved the residue is the wrong object; the ~1.5× miss IS that substitution. Working map (toy 4408): muon = (24/π²)⁶ at 0.003%. **Real open piece = the TAU** (49·71 = g²(g+2^{C₂}), no forced vertex integral). For A²=rank: weight the overlap by d(ν).
+- **CORPUS UNBLOCK — Majorana:** BOLT 4 (pseudoreal Sp(2) symplectic-Majorana) essentially DONE — **F331, verified SOLID**, reuse directly. BOLT 1 pieces present (γ⁵ T2471, Szegő kernel, Bergman-Dirac tower Paper118); LANDMINE: σ_BF vs γ⁵ (intertwiner is γ⁵ side). BOLT 2 caveat: +2/+1/−½ are SO(2)-WEIGHTS not electric charges (physical Q=−1,−1,−1,0); ν's already pinned by ρ-vector (F93) — justify from source.
+
+### 07-12 LANDINGS (late) — Majorana near-forced, Koide muon closes, tau unblocked
+
+- **MAJORANA NEAR-FORCED; DIRAC RETIRED (K673 update).** BOLT 1 RIGOROUS (Elie): d(5−ν)=−d(ν) → RH partner at ν=9/2 has NEGATIVE formal degree = non-unitary = strictly not a state (not "elsewhere"). BOLT 2 corrected (ν=1/2 forced by zero SO(2)-weight, ρ-vector F93). BOLT 4 reused (F331). **One joint held:** chirality = shadow-reflection (explicit γ⁵ intertwiner). **pred_004 → "Majorana strongly favored, 0νββ at 1–4 meV floor," pending Cal cold-read + the joint.** (Verification doc stays at "contested" until Cal co-signs.)
+- **KOIDE muon closes via d(ν); tau explained (Lyra):** electron at ν=5/2 (d-zero anchor); muon = (24/π²)^{C₂} = 206.76 (0.003%, product); tau on Shilov boundary = SUM (bulk 64 + edge 7 = 71, ×g²=49). Muon leg solid; tau boundary-integral open (won't fudge).
+- **DATA HYGIENE BOUNDED (Grace):** referee-facing = the 4 constants fixes; invariants/predictions not hiding hundreds more. Caught her OWN 339 false-positives twice (parser + field-semantics artifacts). Invariants needs a gen-logic audit, not a per-entry hunt.
+- **CORPUS UNBLOCK — TAU (Keeper research):** her boundary-sum is ALREADY built forward (Toy 4208: g^{N_c}+g^{N_c−1}·2^{C₂}=49·71; Toy 4204 = g^{rank}·(g+2^{C₂}) = her exact form). **CRITICAL: 49·71 alone is 7.5σ HIGH — target is 49·71 − √π = 3477.23** (F157: √π = Gindikin Γ_Ω boundary residue). Path: F323 overlap integral at ν=0, split interior+Shilov regions, get counts + −√π together. GAPS: tau K-type seat (ν=0 vs ν=5, reconcile); Bergman exponent p (n_C vs g); the additive g (weakest leg). No integral exists yet — the BUILD.
+
+### 07-12 LANDINGS (midday) — tau structure-set; the closure is a BUILD
+
+- **TAU SETTLED (Lyra + Grace):** seat FORCED ν=0 (Elie antisymmetry: ν=5 mirror non-unitary), exponent pinned p=n_C=5 (Grace, kills g=7 mislabel), target **m_τ/m_e = 49·71 − √π = 3477.23** (PDG-exact). Muon closed; tau structure-set, integral-pending.
+- **KEY (Keeper corpus read): the tau closure is a genuine BUILD, not a retrieve.** BST has NEVER evaluated a boundary integral to a number — all closed numbers (6π⁵, muon (24/π²)^{C₂}) came from Casimir/formal-degree shortcuts where the Szegő norm CANCELS in a ratio or is asserted =1. The tau at ν=0 is the FIRST absolute sum (343+3136−√π) where nothing cancels — it forces BST to finally EVALUATE the boundary integral. Recalibrate "one integral away": it's foundational, not quick. Retrievable: Shilov leg via toy_4403 Dirichlet-moments. BUILD: interior 343, and the cone-tip −√π residue (novel, never computed forward).
+- **Grace: settle-first blockers cleared** (p=5, seat ν=0); hygiene bounded (invariants → gen-logic audit for auto-gen owner; caught own 339 tool false-positives twice). EOD-ready.
+- **Elie: EOD staged/persisted** (toys→4633). Next-day lanes: neutrino mass mechanism (Majorana side), m_d anchor, support tau integral.
+
+### STANDING NEXT-SESSION LANES (after mass sector) — Keeper assessment 07-12
+
+The fermion MASS sector is nearly whole (down banked, up-type closed on α, muon closed, tau structure-set, ν masses banked, ν Dirac→Majorana near-forced). Candidate ADDS once it closes:
+1. **Boundary-integral machinery** (foundational — the tau forces BST's first evaluated boundary integral; unlocks a whole class of "asserted count" results incl. 6π⁵). [Lyra/Elie]
+2. **CKM sector FORCED** — the biggest remaining coherent block of the 26; quark mixing (3 angles + J) is identified not forced; build the quark analog of the lepton d(ν)/strata work. [Lyra/Elie]
+3. **Higgs sector** — m_H via λ (the 1/8 = 1/2^{N_c} boundary-spinor lead), develop the mechanism. [Lyra]
+4. **Consolidation for outreach** — the 26-parameter scorecard as a coherent fermion-sector result (paper). [Keeper]
+5. **Gauge running** — reframe α_s/sin²θ_W from honest-negative to "derive the β-function running from the substrate." [Elie]
+
+---
+
+## [SUPERSEDED HISTORY BELOW — Friday 2026-06-26, kept for reference]
 
 ## Friday substantive summary (lepton sector reopened + hub built)
 

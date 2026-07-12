@@ -1,0 +1,27 @@
+# K674 — the CKM localization law is FORCED (Cabibbo near-forced at 5.7%); the full matrix (V_cb, V_ub, CP) is genuinely open, blocked on f(ν) + an unreconciled A/B seam + CP-can-fail.
+
+**Keeper | 2026-07-12 | The mixing sector's first forced piece — convergent across three CIs, and disciplined (F490 held: no radius read off the observed angle). Credit the forced localization law; hold the Cabibbo at near-forced; name the genuine open blockers so "one kernel gives all of CKM" does not become an over-claim.**
+
+## The result — the localization law is forced
+The over-mixing Lyra and Elie both hit (single-sector overlap ~0.9, V_us=0.756, over-mixing by 3.4×) was a **category error, and naming it is the result**: CKM = U_u†U_d (a two-sector relative rotation), and the localization law that feeds it is forced three convergent ways:
+- **Grace (the disciplined grounding): gen-1 sits at the ORIGIN, forced three independent ways** — T2517 (self-shadow center = d(ν) first zero = ρ₁), F359 (radial ground state n=0), F86/F381 (deepest stratum) — **none of which ever saw the Cabibbo.** The two candidate prescriptions differ in exactly one place (where gen-1 sits); the "bunched" prescription (gen-1 at r=½) is ruled out because it **contradicts electron-at-origin**, not because it misses V_us. That is the target-innocent forcing F490 demanded.
+- **Lyra (the Trichotomy made geometric):** mass uses the localization with denominator 2n_C (the measuring peak → bunched); mixing uses the localization with denominator N_c (the counting K-address → well-separated). The N_c-vs-2n_C denominator difference IS the mass/mixing Trichotomy (mass = measuring, mixing = counting) made geometric — the generations sit at different radii for mass than for mixing, forced.
+- **Elie (the Peirce reading — candidate, flagged):** mass = full-domain Higgs overlap → weight n_C; mixing → weight N_c, read as "living in the color Peirce space V₁₂" (dim = N_c = 3). This makes Casey's n_C = rank + N_c decomposition load-bearing in two places (tau cone-tip volume AND CKM localization weight). **Discipline flag:** CKM is *flavor* mixing, not color rotation; V₁₂ has dim N_c=3, but the "3" is over-determined (generation = color = transverse), so "mixing lives in the color subspace" needs the flavor-vs-color distinction made carefully — a candidate reading, not the load-bearing grounding. Grace's electron-at-origin is the grounding.
+
+**Forward value:** V_us = (1−r₂²)^{n_C} = (3/4)^{n_C} = (3/4)⁵ = **0.237 (obs 0.2245, 5.7%)**, every ingredient forced (gen-2 K-type k=1, N_c denominator, n_C kernel exponent), no radius read off the observed angle.
+
+## Verdict
+**CKM localization law FORCED; Cabibbo NEAR-FORCED (identified → near-forced), held at 5.7%, NOT banked.** 5.7% is loose for an angle known to <1%, and the full matrix is not closed.
+
+## The genuine open blockers (do not let "one kernel gives all of CKM" over-claim)
+The corpus read (Keeper, 2026-07-12) is explicit that the full four-matrix build is NOT done:
+1. **f(ν) — the up-sector weight function — is the concrete BLOCKER.** There is NO separate up-type K-address set: up and down sit at the SAME shared radii {0, ½, 0.82}; they differ only by the coupling FUNCTION (down = bulk deposit d(ν); up = boundary concentration f(ν), F375). The mixing residual comes from the **d-vs-f reweighting of the same Gram**, not different radii. The exact f(ν) is OPEN and explicitly unfished (F375). Without it there is no real U_u — only the down-like single kernel of F437 (which gives V_cb, V_ub at ~7.5%, structural, not a true four-matrix).
+2. **An UNRECONCILED A/B SEAM.** Picture A (F191, June): up = down shifted by a forced T₃ᴿ automorphism (seat-shift, |CKM₁₂|=0.091). Picture B (F381/F413/Grace 07-12, current): same radii, d-vs-f reweighting (NOT a seat-shift). **No note reconciles them.** (Keeper note: my prior prompt used Picture A — "up = down shifted by T₃ᴿ" — but the current adjudication is Picture B. Flag corrected; the team must close the seam.)
+3. **The F379 kernel identity** — why the overlap angle = the absolute τ-address direction ρ (cos ψ = 5/√34, arctan(N_c/n_C), Leg 1 rigorous) rather than the μ–τ relative angle — is one pinned step from rigorous; V_cb (0.20%) currently rides it as data-selected (Leg 2).
+4. **CP is entirely OPEN and CAN FAIL.** Real localizations give Jarlskog J = 0 identically (F498, verified); CP requires genuinely COMPLEX peak positions (F493: N_c=3 ℤ₃ cube-root phases make it *generic*, magnitude not forced). "The build decides, can fail." Connects to the Wallach-gated J.
+
+## Discipline
+- Both Lyra and Elie held F490 hard (refused to fit radii) — which is precisely why the corpus read could *resolve* the block (wrong object) rather than paper it. Credit that.
+- "Works at 5.7%" is not "banked." The localization LAW is forced; the Cabibbo NUMBER is near-forced; the full matrix is open. Cal #27 fires hardest on "the whole CKM from one kernel" — the honest state is: localization forced, Cabibbo near-forced, V_cb/V_ub structural (~7.5%), CP open-can-fail.
+
+— Keeper K674, 2026-07-12. CKM localization law FORCED (gen-1 at origin, 3 ways, target-innocent — Grace; mass/mixing Trichotomy denominators N_c vs 2n_C — Lyra; Peirce-weight candidate — Elie). Cabibbo V_us=(3/4)⁵=0.237 NEAR-FORCED (5.7%), not banked. Full matrix open: f(ν) blocker, A/B seam unreconciled, F379 identity one-step, CP can-fail. The mirror of where the leptons were before d(ν) closed them.

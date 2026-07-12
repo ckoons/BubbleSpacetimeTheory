@@ -24,7 +24,7 @@
   "nodes": 2064,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2145,
-  "max_tid": 2516,
+  "max_tid": 2517,
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -224,7 +224,9 @@
   },
   "graph_update_2026-07-04": "promoted 10 backfilled stubs to full nodes; 5 stubs remain (registry backfill pending Lyra): [2495, 2501, 2502, 2503, 2506]",
   "graph_reflatten_2026-07-11": "Grace: re-added 42 registered theorems the 2026-07-02 midyear-sync wrongly dropped as retracted (T1918-1943 load-bearing incl. T1929 3-generations, T1936 CKM, T1938/9 Pin(2)/N_max, T1949 parity; T2303-2315, T2443-2449, T2479). Verified against registry as active. T63 remains unassigned (genuine gap).",
-  "registrations_2026-07-11": "Grace registered T2513 (F506 down-quark ratios, banked), T2514 (m_top=v/\u221a2 predicted, F509), T2515 (m_charm=\u03b1\u00b7v/\u221a2, toy 4621) per Casey directive. Counter\u21922516."
+  "registrations_2026-07-11": "Grace registered T2513 (F506 down-quark ratios, banked), T2514 (m_top=v/\u221a2 predicted, F509), T2515 (m_charm=\u03b1\u00b7v/\u221a2, toy 4621) per Casey directive. Counter\u21922516.",
+  "registration_2026-07-12": "Grace registered T2517 (lepton strata pin, resolves F144/K294 fork; anchors Koide gate + Majorana gate-1). Counter\u21922518. Today otherwise framework/contested (Majorana K673, tau integral, Koide) \u2014 deliberately NOT banked.",
+  "note_2026-07-12_ckm": "K674 (Keeper/Elie audit registry): CKM localization law FORCED to the well-separated prescription (gen-1 at origin), grounded in the Peirce decomposition n_C=rank+N_c (mass weight n_C vs mixing weight N_c) + Grace electron-at-origin adjudication (T2517). NEAR-FORCED, NOT a banked T-theorem: Cabibbo 5.7%, A/B mechanism seam open, flavor-vs-color of V12 flagged. No counter advance. Graph stays max T2517."
  },
  "theorems": [
   {
@@ -74279,6 +74281,21 @@
    "from": 2511,
    "to": 2516,
    "source": "registry 2026-07-11"
+  },
+  {
+   "from": 2511,
+   "to": 2517,
+   "source": "registry 2026-07-12"
+  },
+  {
+   "from": 1929,
+   "to": 2517,
+   "source": "registry 2026-07-12"
+  },
+  {
+   "from": 190,
+   "to": 2517,
+   "source": "registry 2026-07-12"
   }
  ],
  "chains": {},
@@ -119177,11 +119194,25 @@
    "date": "2026-07-11",
    "plain": "Q=(\u03a3m)/(\u03a3\u221am)\u00b2=2/3=rank/N_c; \u03b8=45\u00b0 from rank-2 filling A\u00b2=rank; colorless-only (quark Koide misses); CONDITIONAL-FORCED, A\u00b2=rank gate open. Masses already in T1948 \u2014 structure only, no double-bank.",
    "source": "Grace reg 2026-07-11 (Elie K672); pending Cal ratification"
+  },
+  {
+   "tid": 2517,
+   "name": "Lepton Generation Strata = \u03c1-components {5/2,3/2,0}, forced (F144/K294 fork resolved)",
+   "domain": "flavor",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Registry 2026-07-12",
+   "toys": [],
+   "date": "2026-07-12",
+   "plain": "e at \u03bd=5/2 (self-shadow center=d(\u03bd) first zero=\u03c1\u2081, 3 pins), \u03bc at 3/2, \u03c4 at 0; all forced (3\u21920). Electron-at-origin now LOAD-BEARING in THREE places (Elie K674): Koide gate, Majorana gate-1, AND CKM localization (rules out the bunched mass-peak map \u2014 gen-1 must be at r=0). K294 & F144 reconciled (level distinction). Bergman exp p=n_C=5 not g=7.",
+   "source": "Grace 2026-07-12 (resolves K294 fork + F144/F513)",
+   "note_2026-07-12": "Third downstream role added: the electron-at-origin pin adjudicates the CKM localization prescription (Grace 07-12 + Elie K674) \u2014 selects the well-separated strata over the bunched mass-peak radii. NOTE: the CKM localization LAW is near-forced (K674), the Cabibbo VALUE is NOT banked (5.7%, loose for a <1%-known angle; Lyra/Elie holding F490). Two OPEN seams: (A) A/B mechanism seam [T3R-shift F191 vs same-radii-d-vs-f-reweighting F381] unresolved; (B) flavor-vs-color of the N_c-weight Peirce space V12 needs care. Do NOT bank a CKM T-theorem until seams close."
   }
  ],
  "metadata": {
-  "node_count": 2293,
-  "edge_count": 10012,
+  "node_count": 2294,
+  "edge_count": 10015,
   "theorem_count": 1758
  }
 }
