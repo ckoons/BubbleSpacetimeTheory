@@ -1,4 +1,6 @@
-# BST 26-Parameter Scorecard — v0.1, 2026-07-12 (fermion sector, honestly tiered)
+# BST 26-Parameter Scorecard — v0.2, 2026-07-13 (fermion sector, honestly tiered)
+
+*v0.2 changes (2026-07-13): α — retired the Wyler-1/4 route (numerology trap); α now framed as two clean pieces (137 mode-count + 0.036 curvature); Lemma A's combinatorial core closed by matrix (F525); the α residual now has a physical handle via Casey's Big Bang-generator conjecture (core confirmed by 3 independent matrix witnesses, α's boost = the generator that makes time — 2y/2z). CKM θ12 — added the Gatto V_us=1/√20 lead. All still IDENTIFIED/OPEN where they were; no new banks.*
 
 **Keeper | End of the two-day mass/mixing arc (2026-07-11 → 07-12). This is the referee-safe consolidation of where BST stands on the 26 free parameters of the Standard Model, with the exact tier each claim has earned. Nothing here is stronger than the arc's own discipline permitted. Detail: `Keeper_Mass_Sector_and_Falsifier_Reframe_Results_2026-07-11.md` Sections 2a–2r; adjudications K671 (F506), K672 (Koide), K673 (Majorana), K674 (CKM localization).**
 
@@ -40,7 +42,7 @@
 ### CKM quark mixing (4)
 | # | Param | Tier | BST | vs obs |
 |---|---|---|---|---|
-| 13 | θ12 (V_us) | **NEAR-FORCED** | (3/4)^{n_C} (localization forced K674; imports α-frame) | 5.7% |
+| 13 | θ12 (V_us) | IDENTIFIED / LEAD | Gatto **V_us = √(m_d/m_s) = 1/√20 = 0.2236** (Fritzsch texture zero at the electron self-shadow d(5/2)=0; fed by banked s/d=20) | 0.4% — but a near-saturated LEAD, NOT forced (the actual kernel gives K₁₂=0.237, doesn't saturate C–S); older (3/4)⁵ form 5.7% |
 | 14 | θ23 (V_cb) | NEAR-FORCED | ρ-direction (μ@ê₁, cos ψ=5/√34, DERIVED — Grace) | 0.041, 7.5% |
 | 15 | θ13 (V_ub) | OPEN (build) | full U_u†U_d cancellation (pairwise 21× too big) | joint run enabled |
 | 16 | δ_CKM | OPEN (can-fail) | CP needs complex positions (real → J=0) | Wallach-gated J |
@@ -58,7 +60,7 @@
 ### Gauge couplings (3)
 | # | Param | Tier | BST | note |
 |---|---|---|---|---|
-| 21 | α | **IDENTIFIED (Wyler), forward-derivation PENDING** | α = 1/N_max; N_max=137 IS derived (T1939 mode-count), but coupling=1/count is Wyler-identified (F429) | the deep keystone: deriving it forward = the compact-dual↔boundary bridge lemma (T1940 rules out a single-operator capacity) |
+| 21 | α | **IDENTIFIED (Wyler), forward-derivation PENDING** | α = 1/N_max; N_max=137 IS derived (T1939 mode-count), but coupling=1/count is Wyler-identified (F429) | the deep keystone — now framed as TWO CLEAN PIECES (not the Wyler Vol^(1/4), a retired 4-reading numerology trap): **(137)** the integer via the mode-count, Lemma A; **(0.036)** a separate boundary-curvature correction (κ_Bergman=−n_C; 1.4% principled, Grace). **Lemma A's combinatorial core CLOSED by matrix (F525): the naive-15 is not conformally closed → the boundary must carry 27.** Residual: does the boundary realize the conformal SO(5,2) action at level-rank (ρ-shift convergence). **NEW physical handle (2y/2z, core confirmed by 3 independent matrix witnesses): the generator forcing 15→27 is the non-compact boost J(V₅→V₂) — the SAME generator whose opening makes time (Euclidean→Lorentzian, Casey's Big Bang conjecture); so the boundary is conformal because the substrate opened via it.** *Retracted (do not cite): "α is a square ⇒ degree=rank" (F522); the trace=dim demotion (4643); n_C/N_max as a V_Wyler series; the Wyler-1/4 route.* α does not move from IDENTIFIED until the residual + the 0.036 clear + Keeper/Cal sign-off. |
 | 22 | sin²θ_W | BY-DESIGN (runner) | 3/13 (runs — RG) | honest negative |
 | 23 | α_s | BY-DESIGN (runner) | 7/20 (runs) | honest negative |
 

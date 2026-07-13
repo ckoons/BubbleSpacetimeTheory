@@ -18,6 +18,8 @@ $$\boxed{\text{The Big Bang is the unfreezing of exactly 1 of the 21 SO(7) gener
 
 Not an explosion. Not a singularity. Not a quantum fluctuation from nothing. The transition of one rotational degree of freedom in a 21-dimensional Lie algebra from frozen (symmetric, indistinguishable) to dynamical (broken, physically distinct).
 
+> **⚠️ CORRECTION FLAG (2026-07-13, Grace + team; Casey's α↔Big-Bang leap):** This note names the **compact SO(2)** rotation (the S¹ fiber) as *the* generator that unfreezes. That is correct for the role it actually plays — **supplying the complex structure** (the Hermitian J needed for the Bergman kernel, hence α; see "One SO(2) is the minimum for a complex structure" below). But a **compact rotation cannot change signature and cannot make time** — it is a closed circle that preserves the Euclidean metric (matrix-verified: it stays in so(7), signature (7,0)). The genuine **Euclidean→Lorentzian opening (the birth of time)** requires a **non-compact boost J(V₅→V₂)** — the same generator that forces α's boundary mode-count 15→27 (F525). Matrix-verified budget (three independent witnesses, 2026-07-13): (7,0) —2 boosts→ (5,2)=SO(5,2) —drop 1 space→ (4,2) —drop 1 space,1 time→ **(3,1)** physical Minkowski (Casey #14 descent). So: **the compact SO(2) makes the substrate complex; the non-compact boost makes it temporal.** This doc attributes the temporal/signature role to the compact circle — that specific attribution is the correction. Both generators are needed; α-coupling and time-emergence share the *boost*, not the circle. Detail: `grace_bigbang_matrix_independent_verification_2026-07-13.md`, Lyra F525/F526, Elie 4648.
+
 -----
 
 ## 1. The Algebra Before the Bang
