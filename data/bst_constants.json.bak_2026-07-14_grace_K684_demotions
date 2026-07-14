@@ -144,9 +144,9 @@
         "alpha^{-1} = (9/(8*pi^4)) * (pi^5/1920)^{1/4} * V(S^5)/V(S^4) = 137.036..."
       ],
       "category": "fundamental",
-      "tier": "I",
+      "tier": "D",
       "ac_depth": 0,
-      "mechanism": "\u03b1\u207b\u00b9 = N_max = 137 as the boundary channel-CAPACITY (charge-count / finite-capacity reciprocal; charge = SO(2)-weight T2470, democratic S\u00b9-winding count). WYLER-integral justification RETIRED (Robertson trap, 4-reading; K676/K680). \u03b1 = IDENTIFIED, not derived \u2014 value 1/137 used; exact-scale forward-derivation is the open KEYSTONE-A gauge-normalization step (favored 1/\u03b1=137, no stray factor, but the 4\u03c0 is convention-natural not independently proven). Predict-and-survive, not proven.",
+      "mechanism": "Wyler integral over D_IV^5 boundary yields alpha^{-1} = N_max = 137 as maximum quantum number of the domain.",
       "domain": "electromagnetism",
       "source_section": "Section 5",
       "source_theorems": [
@@ -157,8 +157,7 @@
       ],
       "status": "derived",
       "gf128_reading": "1/(x^7 + x^3 + 1) = 1/(defining polynomial of GF(128))",
-      "ace": "(0,0)",
-      "k684_demotion": "2026-07-14 Grace: tier D\u2192I (retired/reverse-fit/open \u2014 not forward-derived)"
+      "ace": "(0,0)"
     },
     {
       "id": "const_003",
@@ -828,9 +827,9 @@
         "gamma = arctan(sqrt(n_C)) = arctan(sqrt(5)) = 65.91 deg"
       ],
       "category": "mixing",
-      "tier": "I",
+      "tier": "D",
       "ac_depth": 0,
-      "mechanism": "\u03b3 = arctan(\u221a5) is a REVERSE-FIT (pattern-matched to observed \u03b3=65.5\u00b0), source note BST_CKM_CPPhase_Derivation DEPRECATED (K683). CP is OPEN / CAN-FAIL: F498 PROVES Jarlskog J=0 for real localizations; CP existence gated on the explicit complex generation-state build (Engine B), magnitude conditional on K-type quantization (K682). Do NOT cite as a forward derivation.",
+      "mechanism": "CP phase from geodesic angle on CP^2: gamma = arctan(sqrt(n_C)).",
       "domain": "particle_physics",
       "source_section": "Section 9",
       "source_theorems": [
@@ -839,8 +838,7 @@
       "source_toys": [],
       "status": "derived",
       "ace": "(0,0)",
-      "_hygiene_2026-07-12": "FIXED stale observed 1.196\u21921.150 rad (PDG \u03b3_CKM \u2248 65.9\u00b0). The FORMULA atan(\u221an_C)=atan(\u221a5)=65.9\u00b0 is CORRECT (0.0%, D-tier justified) \u2014 the 3.8% was a stale observed value, not a bad form. Grace hygiene sweep.",
-      "k684_demotion": "2026-07-14 Grace: tier D\u2192I (retired/reverse-fit/open \u2014 not forward-derived)"
+      "_hygiene_2026-07-12": "FIXED stale observed 1.196→1.150 rad (PDG γ_CKM ≈ 65.9°). The FORMULA atan(√n_C)=atan(√5)=65.9° is CORRECT (0.0%, D-tier justified) — the 3.8% was a stale observed value, not a bad form. Grace hygiene sweep."
     },
     {
       "id": "const_022",
@@ -881,7 +879,7 @@
       ],
       "status": "derived",
       "ace": "(0,0)",
-      "_reconciliation_2026-07-12": "SUPERSEDED (4.45% off). CANONICAL = sin\u00b2\u03b812 = C_2\u00b7g/N_max = 42/137 (T2093, 0.14%). Grace PMNS reconciliation."
+      "_reconciliation_2026-07-12": "SUPERSEDED (4.45% off). CANONICAL = sin²θ12 = C_2·g/N_max = 42/137 (T2093, 0.14%). Grace PMNS reconciliation."
     },
     {
       "id": "const_023",
@@ -919,7 +917,7 @@
       ],
       "status": "derived",
       "ace": "(0,0)",
-      "_reconciliation_2026-07-12": "SUPERSEDED (2.3% compromise). OCTANT-DEPENDENT canonical: 4/7=(n_C\u22121)/(n_C+2) [upper, 0.572, 0.10%] OR C_2/c_2=6/11 [lower, 0.546, 0.10%]. Octant-gated (DUNE/T2K). Grace reconciliation."
+      "_reconciliation_2026-07-12": "SUPERSEDED (2.3% compromise). OCTANT-DEPENDENT canonical: 4/7=(n_C−1)/(n_C+2) [upper, 0.572, 0.10%] OR C_2/c_2=6/11 [lower, 0.546, 0.10%]. Octant-gated (DUNE/T2K). Grace reconciliation."
     },
     {
       "id": "const_024",
@@ -1096,7 +1094,7 @@
       "theorem_id": "T700",
       "name": "H2O bond angle",
       "symbol": "theta_H2O",
-      "formula_latex": "\\theta_{H_2O} = \\arccos(-1/N_c) - n_C = 109.47\u00b0 - 5\u00b0",
+      "formula_latex": "\\theta_{H_2O} = \\arccos(-1/N_c) - n_C = 109.47° - 5°",
       "formula_display": "theta_H2O = arccos(-1/N_c) - n_C = arccos(-1/3) - 5 = 104.47 deg",
       "formula_code": "acos(-1.0/N_c) * 180/pi - n_C",
       "bst_value": 104.471,
@@ -1690,7 +1688,7 @@
       "source_toys": [],
       "status": "structural",
       "ace": "(1,0)",
-      "notes": " [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank\u00b2\u00b7\u210fc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]"
+      "notes": " [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank²·ℏc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]"
     },
     {
       "id": "const_046",
@@ -1902,7 +1900,7 @@
       "theorem_id": "T766",
       "name": "Rainbow angle",
       "symbol": "theta_rainbow",
-      "formula_latex": "\\theta_{\\text{rainbow}} = C_2 \\times g = 42\u00b0",
+      "formula_latex": "\\theta_{\\text{rainbow}} = C_2 \\times g = 42°",
       "formula_display": "theta_rainbow = C_2 * g = 42 degrees",
       "formula_code": "C_2 * g",
       "bst_value": 42.0,
@@ -2186,7 +2184,7 @@
         "N_max"
       ],
       "derivation_chain": [
-        "T408: Dunbar-N_max Isomorphism \u2014 cooperation breadth = N_max = 137",
+        "T408: Dunbar-N_max Isomorphism — cooperation breadth = N_max = 137",
         "T410: Dunbar hierarchy from five integers: 5, 15, 50, 137, 729, 1458",
         "Fourth level N_max = 137 is the Dunbar number (observed ~150, range 100-250)"
       ],
@@ -2760,9 +2758,9 @@
         "J = A^2 * lambda^6 * eta_bar = 3.072e-5 (observed 3.08e-5)"
       ],
       "category": "mixing",
-      "tier": "I",
+      "tier": "D",
       "ac_depth": 1,
-      "mechanism": "Jarlskog invariant. CP is OPEN / CAN-FAIL (F498: J=0 for real localizations). Value conditional on the complex generation-state build (Engine B) + K-type quantization (K682); the vacuum-subtracted Wolfenstein form is not a forward derivation. Demoted D\u2192I (K684).",
+      "mechanism": "CKM from Casimir eigenvalue gaps on D_IV^5. Vacuum-subtracted Wolfenstein parameters. Toy 1680 (17/17).",
       "domain": "particle_physics",
       "source_section": "Section 7.7",
       "source_theorems": [
@@ -2775,8 +2773,7 @@
       "status": "derived",
       "precision_percent": 0.3,
       "notes": "Updated April 30: was sqrt(2)/50000 at 2.1%, now vacuum-subtracted Wolfenstein at 0.3% (Toy 1680). Old observed 2.77e-5 was outdated PDG; current PDG 2024: (3.08 +/- 0.09)e-5.",
-      "ace": "(0,0)",
-      "k684_demotion": "2026-07-14 Grace: tier D\u2192I (retired/reverse-fit/open \u2014 not forward-derived)"
+      "ace": "(0,0)"
     },
     {
       "id": "const_078",
@@ -3325,7 +3322,7 @@
       "theorem_id": "T700",
       "name": "NH3 bond angle",
       "symbol": "theta_NH3",
-      "formula_latex": "\\theta_{\\rm NH_3} = \\theta_{\\rm tet} - T_1 \\Delta_1 = 107.807\u00b0",
+      "formula_latex": "\\theta_{\\rm NH_3} = \\theta_{\\rm tet} - T_1 \\Delta_1 = 107.807°",
       "formula_display": "theta_NH3 = arccos(-1/N_c) - (arccos(-1/N_c) - arccos(-1/2^rank))/N_c = 107.81 deg",
       "formula_code": "(acos(-1.0/N_c) - (acos(-1.0/N_c) - acos(-1.0/2**rank))/N_c) * 180/pi",
       "bst_value": 107.807,
@@ -3676,7 +3673,7 @@
         "Full LCDM integral: t_0 = (1/H_0) * int_0^inf dz/[(1+z)*sqrt(Omega_M*(1+z)^3 + Omega_Lambda)]",
         "BST inputs: Omega_Lambda = 13/19, H_0 = 67.29 km/s/Mpc",
         "t_0 = 13.78 Gyr vs Planck 13.797 Gyr (0.12%)",
-        "Note: matter-dominated approximation gives 13.6 Gyr (1.4%) \u2014 Toy 1182 corrected this"
+        "Note: matter-dominated approximation gives 13.6 Gyr (1.4%) — Toy 1182 corrected this"
       ],
       "mechanism": "Cosmic age from full LCDM integral with BST-derived parameters. 0.12% from Planck. Corrected from earlier 13.6 Gyr approximation.",
       "domain": "cosmology",
@@ -3803,7 +3800,7 @@
       "observed_value": 137,
       "precision": "exact",
       "source": "T1383",
-      "description": "N_max = 137 in binary IS the irreducible polynomial defining GF(128) over F\u2082",
+      "description": "N_max = 137 in binary IS the irreducible polynomial defining GF(128) over F₂",
       "id": "const_116",
       "tier": "S",
       "status": "structural",
@@ -3813,7 +3810,7 @@
       "name": "Frobenius orbit count",
       "symbol": "n_orbits",
       "value": 18,
-      "formula": "rank \u00d7 N_c\u00b2",
+      "formula": "rank × N_c²",
       "formula_code": "rank * N_c**2",
       "observed_value": 18,
       "precision": "exact",
@@ -3869,7 +3866,7 @@
       "name": "Transcendence gap",
       "symbol": "delta_trans",
       "value": 0.01339,
-      "formula": "28/137 - 3/(5\u03c0)",
+      "formula": "28/137 - 3/(5π)",
       "formula_code": "28/137 - 3/(5*pi)",
       "observed_value": null,
       "precision": "exact",
@@ -4649,7 +4646,7 @@
       "observed_value": 0.3,
       "precision": "exact",
       "unit": "dimensionless",
-      "notes": "K/G = 13/6 \u2192 nu = 3/10. Thirteen Theorem in elasticity.",
+      "notes": "K/G = 13/6 → nu = 3/10. Thirteen Theorem in elasticity.",
       "tier": "S",
       "status": "structural",
       "ace": "(1,0)"
@@ -4733,7 +4730,7 @@
       "observed_value": 3e-19,
       "precision": "0.46%",
       "unit": "GeV",
-      "notes": "Pure-BST closed form. m_\u03bc via T1948 (=N_c\u00b2\u00b723\u00b7m_e), v via T1969 (=c_2\u00b2\u00b7c_3\u00b7\u03c0^{n_C}\u00b7m_e), G_F=1/(\u221a2\u00b7v\u00b2). Adding standard \u03b4_QED=-1.81% gives \u03c4_\u03bc=2.207\u03bcs vs obs 2.197\u03bcs. Inherits I-tier from T1948 muon mass mechanism. T1995, Toy 2515.",
+      "notes": "Pure-BST closed form. m_μ via T1948 (=N_c²·23·m_e), v via T1969 (=c_2²·c_3·π^{n_C}·m_e), G_F=1/(√2·v²). Adding standard δ_QED=-1.81% gives τ_μ=2.207μs vs obs 2.197μs. Inherits I-tier from T1948 muon mass mechanism. T1995, Toy 2515.",
       "tier": "I",
       "status": "derived-pending-mass-mechanism",
       "ace": "(0,1)"
@@ -4747,7 +4744,7 @@
       "observed_value": 0.8414,
       "precision": "0.02%",
       "unit": "fm",
-      "notes": "r_p = rank\u00b2\u00b7\u210fc/m_p = 4\u00b7(reduced Compton wavelength of proton). BST sides with CREMA muonic hydrogen, deviates from old electronic-H by 4.2% \u2014 resolves the 2010-2018 proton radius puzzle. Falsifiable by future precision experiments (PRad-II, MUSE, JUDE all predicted to converge to 0.84122 fm). T1992, Toy 2512. [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank\u00b2\u00b7\u210fc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]",
+      "notes": "r_p = rank²·ℏc/m_p = 4·(reduced Compton wavelength of proton). BST sides with CREMA muonic hydrogen, deviates from old electronic-H by 4.2% — resolves the 2010-2018 proton radius puzzle. Falsifiable by future precision experiments (PRad-II, MUSE, JUDE all predicted to converge to 0.84122 fm). T1992, Toy 2512. [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank²·ℏc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]",
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)"
@@ -4803,7 +4800,7 @@
       "observed_value": 4.18,
       "precision": "0.83%",
       "unit": "GeV",
-      "notes": "m_t/m_b = 42 = total Chern Q^5 (T1990). Fourth observable using the 42 recurrence. T2013, Toy 2539. [Cal verdict #18 applied 2026-05-18 Grace: BST primary form C_2\u00b7g (D-tier mechanism) drives this derivation. The standalone 'm_t/m_b=42 recurrence' framing without C_2\u00b7g specification stays S-tier Type C catalog. Current entry uses C_2\u00b7g form correctly \u2014 D-tier preserved per T1990 STRUCTURAL stands.]",
+      "notes": "m_t/m_b = 42 = total Chern Q^5 (T1990). Fourth observable using the 42 recurrence. T2013, Toy 2539. [Cal verdict #18 applied 2026-05-18 Grace: BST primary form C_2·g (D-tier mechanism) drives this derivation. The standalone 'm_t/m_b=42 recurrence' framing without C_2·g specification stays S-tier Type C catalog. Current entry uses C_2·g form correctly — D-tier preserved per T1990 STRUCTURAL stands.]",
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)"
@@ -4892,7 +4889,7 @@
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)",
-      "_hygiene_2026-07-12": "DOMINATED CKM \u03c1\u0304: 3/20=0.150 is 5.66% off. CANONICAL = const_089 (1/(2\u221a10)=0.158, 0.56%, used in J_CKM const_077). Grace CKM scoping."
+      "_hygiene_2026-07-12": "DOMINATED CKM ρ̄: 3/20=0.150 is 5.66% off. CANONICAL = const_089 (1/(2√10)=0.158, 0.56%, used in J_CKM const_077). Grace CKM scoping."
     },
     {
       "name": "CKM Wolfenstein eta-bar",
@@ -4907,7 +4904,7 @@
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)",
-      "_hygiene_2026-07-12": "DOMINATED CKM \u03b7\u0304: 5/14=0.357 is 2.63% off. CANONICAL = const_090 (1/(2\u221a2)=0.354, 1.60%, used in J_CKM const_077). Grace CKM scoping."
+      "_hygiene_2026-07-12": "DOMINATED CKM η̄: 5/14=0.357 is 2.63% off. CANONICAL = const_090 (1/(2√2)=0.354, 1.60%, used in J_CKM const_077). Grace CKM scoping."
     },
     {
       "name": "Cabibbo angle squared",
@@ -4922,7 +4919,7 @@
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)",
-      "_hygiene_2026-07-12": "ALT Cabibbo (sin\u00b2\u03b8_c=g/N_max=7/137, 0.3%). CANONICAL sin\u03b8_C = const_020 (2/\u221a79, 0.10%). Grace CKM scoping."
+      "_hygiene_2026-07-12": "ALT Cabibbo (sin²θ_c=g/N_max=7/137, 0.3%). CANONICAL sinθ_C = const_020 (2/√79, 0.10%). Grace CKM scoping."
     },
     {
       "name": "PMNS sin^2 theta_12 (solar)",
@@ -4937,7 +4934,7 @@
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)",
-      "_reconciliation_2026-07-12": "ALTERNATE (rank\u00b2/c_3=4/13, 0.23%). CANONICAL = C_2\u00b7g/N_max = 42/137 (T2093, 0.14%, cleaner+more precise). Grace reconciliation."
+      "_reconciliation_2026-07-12": "ALTERNATE (rank²/c_3=4/13, 0.23%). CANONICAL = C_2·g/N_max = 42/137 (T2093, 0.14%, cleaner+more precise). Grace reconciliation."
     },
     {
       "name": "PMNS sin^2 theta_13 (reactor)",
@@ -4952,7 +4949,7 @@
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)",
-      "_reconciliation_2026-07-12": "ALTERNATE \u03b813 (3/137, 0.46%, shares N_max denom w/ \u03b812). CANONICAL kept at D-tier 1/45 (const_024) pending team; flagged as possible cleaner reading. Grace reconciliation."
+      "_reconciliation_2026-07-12": "ALTERNATE θ13 (3/137, 0.46%, shares N_max denom w/ θ12). CANONICAL kept at D-tier 1/45 (const_024) pending team; flagged as possible cleaner reading. Grace reconciliation."
     },
     {
       "name": "PMNS CP phase",
@@ -4964,12 +4961,10 @@
       "precision": "1.0%",
       "unit": "rad",
       "notes": "PMNS delta_CP = N_c*pi/g = 3*pi/7. Lepton CP-violating phase. T2018, Toy 2547.",
-      "tier": "I",
+      "tier": "D",
       "status": "derived",
       "ace": "(0,1)",
-      "_reconciliation_2026-07-12": "OPEN LEAD (\u03b4_CP barely constrained, DUNE-era). FIXED observed 1.36\u21923.44 rad (197\u00b0 NO; the 1.36 was an error matched to 3\u03c0/7). Retire 3\u03c0/7 (77\u00b0) and 12\u03c0/7 (309\u00b0) \u2014 neither fits. Closest: \u03c0=180\u00b0 (17\u00b0 off, within uncertainty). NOT a bank. Grace reconciliation.",
-      "mechanism": "\u03b4_PMNS = 3\u03c0/7 (N_c\u00b7\u03c0/g) was a REVERSE-FIT \u2014 RETIRED (Grace hygiene 2026-07-12; the 3\u03c0/7 and 12\u03c0/7 forms don't fit the best-fit ~197\u00b0\u00b140\u00b0). \u03b4_PMNS is OPEN, DUNE-constrainable. Do NOT cite as derived. Demoted D\u2192I (K684).",
-      "k684_demotion": "2026-07-14 Grace: tier D\u2192I (retired/reverse-fit/open \u2014 not forward-derived)"
+      "_reconciliation_2026-07-12": "OPEN LEAD (δ_CP barely constrained, DUNE-era). FIXED observed 1.36→3.44 rad (197° NO; the 1.36 was an error matched to 3π/7). Retire 3π/7 (77°) and 12π/7 (309°) — neither fits. Closest: π=180° (17° off, within uncertainty). NOT a bank. Grace reconciliation."
     },
     {
       "name": "Proton magnetic moment",
@@ -5139,14 +5134,14 @@
       "unit": "",
       "tier": "I",
       "domain": "qed",
-      "notes": "Sub-0.0004% \u2014 one of tightest BST matches. Refines T1924 family with n_C/N_max running correction. [Cal verdict #20 applied 2026-05-18 Grace: HONEST precision label. 0.0004% applies to FULL \u03b1\u207b\u00b9 value (137.0365 vs 137.036). The CORRECTION TERM precision is 1.4% \u2014 BST predicts correction n_C/N_max = 5/137 = 0.0365 vs observed 0.0360. The 137 baseline is exact by definition (N_max=137 is a BST integer). External-survivability framing: BST integer N_max=137 gives the leading exact value; correction term at 1.4% precision is the falsifiable BST claim.]",
+      "notes": "Sub-0.0004% — one of tightest BST matches. Refines T1924 family with n_C/N_max running correction. [Cal verdict #20 applied 2026-05-18 Grace: HONEST precision label. 0.0004% applies to FULL α⁻¹ value (137.0365 vs 137.036). The CORRECTION TERM precision is 1.4% — BST predicts correction n_C/N_max = 5/137 = 0.0365 vs observed 0.0360. The 137 baseline is exact by definition (N_max=137 is a BST integer). External-survivability framing: BST integer N_max=137 gives the leading exact value; correction term at 1.4% precision is the falsifiable BST claim.]",
       "id": "const_137"
     },
     {
       "theorem_id": "T2269",
-      "name": "BR(Z \u2192 invisible)",
+      "name": "BR(Z → invisible)",
       "symbol": "BR_Z_inv",
-      "formula_display": "BR(Z \u2192 inv) = 1/n_C = 1/5",
+      "formula_display": "BR(Z → inv) = 1/n_C = 1/5",
       "formula_code": "1/n_C",
       "bst_value": 0.2,
       "observed_value": 0.1996,
@@ -5159,9 +5154,9 @@
     },
     {
       "theorem_id": "T2276",
-      "name": "BR(Z \u2192 bb\u0304)",
+      "name": "BR(Z → bb̄)",
       "symbol": "BR_Z_bb",
-      "formula_display": "BR(Z \u2192 bb\u0304) = N_c/(rank\u00b2\u00b7n_C) = 3/20",
+      "formula_display": "BR(Z → bb̄) = N_c/(rank²·n_C) = 3/20",
       "formula_code": "N_c/(rank**2 * n_C)",
       "bst_value": 0.15,
       "observed_value": 0.1512,
@@ -5176,7 +5171,7 @@
       "theorem_id": "T2259",
       "name": "CKM Jarlskog J",
       "symbol": "J_CKM",
-      "formula_display": "J = g^4 \u00b7 c_2^2 / (n_C \u00b7 N_max^5)",
+      "formula_display": "J = g^4 · c_2^2 / (n_C · N_max^5)",
       "formula_code": "g**4 * c_2**2 / (n_C * N_max**5)",
       "bst_value": 3.01e-05,
       "observed_value": 3e-05,
@@ -5186,13 +5181,13 @@
       "tier": "I",
       "domain": "ckm_mixing",
       "id": "const_140",
-      "_hygiene_2026-07-12": "SUPERSEDED / WRONG FORMULA: g\u2074c_2\u00b2/(n_C\u00b7N_max\u2075)=1.2e-6 vs obs 3.08e-5 \u2192 96% off, NOT the stated 0.3%. CANONICAL J_CKM = const_077 (A\u00b2\u03bb\u2076\u03b7\u0304 = 3.07e-5, 0.3%, D). This duplicate is a bad form \u2014 do NOT cite. Grace hygiene sweep."
+      "_hygiene_2026-07-12": "SUPERSEDED / WRONG FORMULA: g⁴c_2²/(n_C·N_max⁵)=1.2e-6 vs obs 3.08e-5 → 96% off, NOT the stated 0.3%. CANONICAL J_CKM = const_077 (A²λ⁶η̄ = 3.07e-5, 0.3%, D). This duplicate is a bad form — do NOT cite. Grace hygiene sweep."
     },
     {
       "theorem_id": "T2233",
-      "name": "Kaon-pion decay constant ratio f_K/f_\u03c0",
+      "name": "Kaon-pion decay constant ratio f_K/f_π",
       "symbol": "fK_over_fpi",
-      "formula_display": "f_K/f_\u03c0 = C_2/n_C = 6/5",
+      "formula_display": "f_K/f_π = C_2/n_C = 6/5",
       "formula_code": "C_2 / n_C",
       "bst_value": 1.2,
       "observed_value": 1.198,
@@ -5205,9 +5200,9 @@
     },
     {
       "theorem_id": "T2266",
-      "name": "D-meson-pion decay constant ratio f_D/f_\u03c0",
+      "name": "D-meson-pion decay constant ratio f_D/f_π",
       "symbol": "fD_over_fpi",
-      "formula_display": "f_D/f_\u03c0 = c_3/rank\u00b3 = 13/8",
+      "formula_display": "f_D/f_π = c_3/rank³ = 13/8",
       "formula_code": "c_3 / rank**3",
       "bst_value": 1.625,
       "observed_value": 1.624,
@@ -5220,9 +5215,9 @@
     },
     {
       "theorem_id": "T2228",
-      "name": "BR(b \u2192 s\u03b3) inclusive radiative",
+      "name": "BR(b → sγ) inclusive radiative",
       "symbol": "BR_b_sgamma",
-      "formula_display": "BR(b\u2192s\u03b3) = 1/(rank\u00b7c_2\u00b7N_max) = 1/3014",
+      "formula_display": "BR(b→sγ) = 1/(rank·c_2·N_max) = 1/3014",
       "formula_code": "1/(rank * c_2 * N_max)",
       "bst_value": 0.000332,
       "observed_value": 0.000332,
@@ -5231,14 +5226,14 @@
       "unit": "",
       "tier": "I",
       "domain": "rare_decays",
-      "notes": "Striking sub-0.1% match. Pin(2) \u00d7 Bergman \u00d7 boundary product.",
+      "notes": "Striking sub-0.1% match. Pin(2) × Bergman × boundary product.",
       "id": "const_143"
     },
     {
       "theorem_id": "T2093",
-      "name": "PMNS sin\u00b2\u03b8_12 (solar)",
+      "name": "PMNS sin²θ_12 (solar)",
       "symbol": "sin2_theta_12",
-      "formula_display": "sin\u00b2\u03b8_12 = (C_2\u00b7g)/N_max = 42/137",
+      "formula_display": "sin²θ_12 = (C_2·g)/N_max = 42/137",
       "formula_code": "(C_2 * g) / N_max",
       "bst_value": 0.3066,
       "observed_value": 0.307,
@@ -5247,15 +5242,15 @@
       "unit": "",
       "tier": "I",
       "domain": "pmns_mixing",
-      "notes": "13th appearance of 42 = C_2\u00b7g = denom(B_6).",
+      "notes": "13th appearance of 42 = C_2·g = denom(B_6).",
       "id": "const_144",
-      "_reconciliation_2026-07-12": "CANONICAL \u03b812 (Grace PMNS reconciliation 2026-07-12): 42/137, 0.14%, cleanest+most-precise. Supersedes const_022 (4.45%) and 5762/18769 (form-cheap)."
+      "_reconciliation_2026-07-12": "CANONICAL θ12 (Grace PMNS reconciliation 2026-07-12): 42/137, 0.14%, cleanest+most-precise. Supersedes const_022 (4.45%) and 5762/18769 (form-cheap)."
     },
     {
       "theorem_id": "T2254",
-      "name": "cos\u00b2\u03b8_W Weinberg angle (refined)",
+      "name": "cos²θ_W Weinberg angle (refined)",
       "symbol": "cos2_theta_W",
-      "formula_display": "cos\u00b2\u03b8_W = g/N_c\u00b2 = 7/9",
+      "formula_display": "cos²θ_W = g/N_c² = 7/9",
       "formula_code": "g / N_c**2",
       "bst_value": 0.7778,
       "observed_value": 0.7769,
@@ -5264,14 +5259,14 @@
       "unit": "",
       "tier": "I",
       "domain": "ew_gauge",
-      "notes": "Refines Lyra T1919 (10/13 \u2192 7/9, factor 8 tighter).",
+      "notes": "Refines Lyra T1919 (10/13 → 7/9, factor 8 tighter).",
       "id": "const_145"
     },
     {
       "theorem_id": "T2290",
-      "name": "Proton-pion mass ratio m_p/m_\u03c0",
+      "name": "Proton-pion mass ratio m_p/m_π",
       "symbol": "mp_over_mpi",
-      "formula_display": "m_p/m_\u03c0 = Ogg47/g = 47/7",
+      "formula_display": "m_p/m_π = Ogg47/g = 47/7",
       "formula_code": "47 / g",
       "bst_value": 6.7143,
       "observed_value": 6.7227,
@@ -5285,9 +5280,9 @@
     },
     {
       "theorem_id": "T2218",
-      "name": "K-meson direct CP violation \u03b5'/\u03b5",
+      "name": "K-meson direct CP violation ε'/ε",
       "symbol": "eps_prime_over_eps",
-      "formula_display": "\u03b5'/\u03b5 = M_{n_C}/N_max\u00b2 = 31/N_max\u00b2",
+      "formula_display": "ε'/ε = M_{n_C}/N_max² = 31/N_max²",
       "formula_code": "31 / N_max**2",
       "bst_value": 0.00165,
       "observed_value": 0.00166,
@@ -5301,7 +5296,7 @@
     },
     {
       "theorem_id": "T2137",
-      "name": "BR(H\u2192WW)/BR(H\u2192ZZ) Higgs rare decay ratio",
+      "name": "BR(H→WW)/BR(H→ZZ) Higgs rare decay ratio",
       "symbol": "BR_HWW_over_BR_HZZ",
       "formula_display": "BR(WW)/BR(ZZ) = rank^N_c = 2^3 = 8",
       "formula_code": "rank**N_c",
@@ -5316,9 +5311,9 @@
     },
     {
       "theorem_id": "T2143",
-      "name": "Inflaton commitment threshold \u03b5(end)",
+      "name": "Inflaton commitment threshold ε(end)",
       "symbol": "epsilon_end_inflation",
-      "formula_display": "\u03b5(end) = N_c/rank\u2074 = 3/16",
+      "formula_display": "ε(end) = N_c/rank⁴ = 3/16",
       "formula_code": "N_c / rank**4",
       "bst_value": 0.1875,
       "observed_value": 0.1875,
@@ -5327,16 +5322,16 @@
       "unit": "",
       "tier": "I",
       "domain": "cosmology",
-      "notes": "Multi-role 16/3 = K3-cohom/N_c. Also DM mass and \u03a9_DM/\u03a9_b.",
+      "notes": "Multi-role 16/3 = K3-cohom/N_c. Also DM mass and Ω_DM/Ω_b.",
       "id": "const_149"
     },
     {
       "id": "const_150",
       "theorem_id": "T2363a",
-      "name": "Omega meson mass m_\u03c9",
-      "symbol": "m_\u03c9",
+      "name": "Omega meson mass m_ω",
+      "symbol": "m_ω",
       "formula_latex": "m_\\omega = m_p \\cdot c_2/c_3",
-      "formula_display": "m_\u03c9 = m_p * c_2/c_3 = m_p * 11/13",
+      "formula_display": "m_ω = m_p * c_2/c_3 = m_p * 11/13",
       "formula_code": "m_p * 11/13",
       "bst_value": 793.9225,
       "observed_value": 782.65,
@@ -5372,7 +5367,7 @@
       ],
       "tier": "I",
       "derivation_chain": [
-        "Charmed meson mass scale \u2248 2\u00b7m_p via rank-coupling identification",
+        "Charmed meson mass scale ≈ 2·m_p via rank-coupling identification",
         "Charm-light substrate at rank-level doubling"
       ],
       "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
@@ -5380,10 +5375,10 @@
     {
       "id": "const_152",
       "theorem_id": "T2363a",
-      "name": "J/\u03c8 charmonium mass",
-      "symbol": "m_J/\u03c8",
+      "name": "J/ψ charmonium mass",
+      "symbol": "m_J/ψ",
       "formula_latex": "m_{J/\\psi} = m_p \\cdot (N_c + 1/N_c)",
-      "formula_display": "m_J/\u03c8 = m_p * (N_c + 1/N_c) = m_p * 10/3",
+      "formula_display": "m_J/ψ = m_p * (N_c + 1/N_c) = m_p * 10/3",
       "formula_code": "m_p * (3 + 1/3)",
       "bst_value": 3127.5736,
       "observed_value": 3096.9,
@@ -5404,9 +5399,9 @@
       "id": "const_153",
       "theorem_id": "T2363a",
       "name": "Upsilon bottomonium 1S mass",
-      "symbol": "m_\u03a5",
+      "symbol": "m_Υ",
       "formula_latex": "m_\\Upsilon = m_p \\cdot (\\mathrm{rank} + \\chi/N_c)",
-      "formula_display": "m_\u03a5 = m_p * (rank + chi/N_c) = m_p * (2 + 24/3) = m_p * 10",
+      "formula_display": "m_Υ = m_p * (rank + chi/N_c) = m_p * (2 + 24/3) = m_p * 10",
       "formula_code": "m_p * (2 + 24/3)",
       "bst_value": 9382.7209,
       "observed_value": 9460.3,
@@ -5421,17 +5416,17 @@
       "tier": "I",
       "derivation_chain": [
         "Bottomonium mass via Euler characteristic chi=24 + N_c color coupling",
-        "Reads as m_p \u00b7 10 at structural level"
+        "Reads as m_p · 10 at structural level"
       ],
       "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
     },
     {
       "id": "const_154",
       "theorem_id": "T2363a",
-      "name": "Pion-nucleon coupling g_\u03c0NN",
-      "symbol": "g_\u03c0NN",
+      "name": "Pion-nucleon coupling g_πNN",
+      "symbol": "g_πNN",
       "formula_latex": "g_{\\pi NN} = c_3 \\cdot (1 + 1/\\chi)",
-      "formula_display": "g_\u03c0NN = c_3 * (1 + 1/chi) = 13 * 25/24",
+      "formula_display": "g_πNN = c_3 * (1 + 1/chi) = 13 * 25/24",
       "formula_code": "13 * 25/24",
       "bst_value": 13.5417,
       "observed_value": 13.54,
@@ -5474,7 +5469,7 @@
         "Cascade fingerprint per T1401 / Lyra T2380 IP-7"
       ],
       "source_toy": "play/toy_3055_combined_IP6_IP7_IP15.py",
-      "notes": "Same n_C/N_max correction class appears in \u03b1\u207b\u00b9 (const_137) at boundary-scale BST primary form."
+      "notes": "Same n_C/N_max correction class appears in α⁻¹ (const_137) at boundary-scale BST primary form."
     },
     {
       "id": "const_156",
@@ -5488,14 +5483,14 @@
       "observed_source": "PDG (current/MS-bar ratio, scale-invariant)",
       "precision": "0.5%",
       "tier": "D",
-      "notes": "F506: down-quark ratios d:s:b=1:20:840 from FK Pochhammer (\u03bd)_\u03bb at \u03bd=N_c (Wallach threshold, forced), degrees {1,3,5} (T1929), single-row forced by Q\u2075 cohomology. Zero params. Grace sync 2026-07-12."
+      "notes": "F506: down-quark ratios d:s:b=1:20:840 from FK Pochhammer (ν)_λ at ν=N_c (Wallach threshold, forced), degrees {1,3,5} (T1929), single-row forced by Q⁵ cohomology. Zero params. Grace sync 2026-07-12."
     },
     {
       "id": "const_157",
       "theorem_id": "T2514",
       "name": "Top quark mass (boundary saturation, y_t=1)",
       "symbol": "m_t",
-      "formula_display": "m_t = v/\u221a2 = m_p\u00b2/(\u221a2\u00b7g\u00b7m_e), v=m_p\u00b2/(g\u00b7m_e) forced",
+      "formula_display": "m_t = v/√2 = m_p²/(√2·g·m_e), v=m_p²/(g·m_e) forced",
       "formula_code": "m_p**2/(2**0.5*g*m_e)/1000",
       "bst_value": 174.0,
       "observed_value": 172.7,
@@ -5503,14 +5498,14 @@
       "precision": "0.8%",
       "tier": "I",
       "unit": "GeV",
-      "notes": "T2514/F509: top = maximal excitation saturating Shilov boundary \u2192 y_t=1 (Cauchy-Schwarz); v forced indep of m_t. Predicted, zero top input. Grace sync 2026-07-12."
+      "notes": "T2514/F509: top = maximal excitation saturating Shilov boundary → y_t=1 (Cauchy-Schwarz); v forced indep of m_t. Predicted, zero top input. Grace sync 2026-07-12."
     },
     {
       "id": "const_158",
       "theorem_id": "T2515",
-      "name": "Charm quark mass (y_charm = \u03b1)",
+      "name": "Charm quark mass (y_charm = α)",
       "symbol": "m_c",
-      "formula_display": "m_c = \u03b1\u00b7v/\u221a2 = v/(\u221a2\u00b7N_max)",
+      "formula_display": "m_c = α·v/√2 = v/(√2·N_max)",
       "formula_code": "alpha*m_p**2/(2**0.5*g*m_e)",
       "bst_value": 1269.0,
       "observed_value": 1270.0,
@@ -5518,37 +5513,36 @@
       "precision": "0.05%",
       "tier": "I",
       "unit": "MeV",
-      "notes": "T2515/toy4621: charm sits one boundary shell in; boundary coupling is \u03b1=1/N_max \u2192 y_charm=\u03b1. m_charm=\u03b1\u00b7v/\u221a2. Predicted, zero charm input. Grace sync 2026-07-12."
+      "notes": "T2515/toy4621: charm sits one boundary shell in; boundary coupling is α=1/N_max → y_charm=α. m_charm=α·v/√2. Predicted, zero charm input. Grace sync 2026-07-12."
     },
     {
       "id": "const_159",
       "theorem_id": "T2516",
       "name": "Koide relation (charged leptons)",
       "symbol": "Q_Koide",
-      "formula_display": "Q = (\u03a3m)/(\u03a3\u221am)\u00b2 = rank/N_c = 2/3 (\u03b8=45\u00b0 from rank-2)",
+      "formula_display": "Q = (Σm)/(Σ√m)² = rank/N_c = 2/3 (θ=45° from rank-2)",
       "formula_code": "rank/N_c",
       "bst_value": 0.66667,
       "observed_value": 0.66666,
       "observed_source": "PDG charged lepton masses",
       "precision": "0.001%",
       "tier": "C",
-      "notes": "T2516/K672: Koide Q=rank/N_c=2/3; \u221a-mass tilt \u03b8=45\u00b0 from rank-2 filling (A\u00b2=rank). CONDITIONAL-FORCED (A\u00b2=rank gate open). Colorless-only (quark Koide misses). NO double-bank: lepton mass ratios in T1948. Grace sync 2026-07-12."
+      "notes": "T2516/K672: Koide Q=rank/N_c=2/3; √-mass tilt θ=45° from rank-2 filling (A²=rank). CONDITIONAL-FORCED (A²=rank gate open). Colorless-only (quark Koide misses). NO double-bank: lepton mass ratios in T1948. Grace sync 2026-07-12."
     }
   ],
   "metadata": {
     "pmns_reconciliation_2026-07-12": {
       "by": "Grace",
       "canonical": {
-        "sin2_theta_12": "C_2\u00b7g/N_max = 42/137 (T2093, 0.14%) \u2014 supersedes const_022 (4.45%) + 5762/18769 (form-cheap)",
-        "sin2_theta_13": "1/(N_c\u00b2\u00b7n_C) = 1/45 (const_024, D-tier, 1.01%); ALT N_c/N_max=3/137 (0.46%) flagged",
-        "sin2_theta_23": "OCTANT-DEPENDENT: 4/7 (upper) OR 6/11 (lower), 0.10% each \u2014 supersedes const_023 (2.3%)",
-        "delta_CP": "OPEN LEAD, not banked; closest \u03c0=180\u00b0; retired 3\u03c0/7 & 12\u03c0/7 (wrong); fixed obs 1.36\u21923.44 rad"
+        "sin2_theta_12": "C_2·g/N_max = 42/137 (T2093, 0.14%) — supersedes const_022 (4.45%) + 5762/18769 (form-cheap)",
+        "sin2_theta_13": "1/(N_c²·n_C) = 1/45 (const_024, D-tier, 1.01%); ALT N_c/N_max=3/137 (0.46%) flagged",
+        "sin2_theta_23": "OCTANT-DEPENDENT: 4/7 (upper) OR 6/11 (lower), 0.10% each — supersedes const_023 (2.3%)",
+        "delta_CP": "OPEN LEAD, not banked; closest π=180°; retired 3π/7 & 12π/7 (wrong); fixed obs 1.36→3.44 rad"
       },
       "note": "derivation-hygiene reconciliation; pending Cal count ratification. Full data-sync (add F506/top/charm/Koide banks) is the next step."
     },
-    "banks_synced_2026-07-12": "Grace: added T2513 (m_s/m_d=20, F506), T2514 (m_t=v/\u221a2), T2515 (m_c=\u03b1\u00b7v/\u221a2), T2516 (Koide=rank/N_c). Data layer un-frozen (May 18\u2192now); mass frame PI-endorsed.",
-    "hygiene_sweep_2026-07-12": "Grace: swept all 107 evaluable banks for stated-vs-actual precision. Found 4 mis-precisioned: const_022/023 (\u03b812/\u03b823, reconciled earlier); const_140 (J_CKM 96% off = wrong duplicate \u2192 const_077); const_021 (\u03b3_CKM formula CORRECT but stale observed 1.196\u21921.150). 2 new landmines fixed.",
-    "ckm_scoping_2026-07-12": "Grace: CKM sector scoped for the forcing push. Canonical set = const_020 (\u03bb=2/\u221a79), const_087 (A=9/11), const_089 (\u03c1\u0304=1/(2\u221a10)), const_090 (\u03b7\u0304=1/(2\u221a2)), const_077 (J=A\u00b2\u03bb\u2076\u03b7\u0304, 0.3%). Dominated duplicates flagged (standalone \u03c1\u0304=3/20 @5.66%, \u03b7\u0304=5/14 @2.63%). const_140 J_CKM do-not-cite (96%). All D-tier IDENTIFIED, not forced. Forcing target: quark-generation Bergman overlaps (T2509 kernel) \u2014 the quark analog of the lepton d(\u03bd)/strata work.",
-    "k684_demotions_2026-07-14": "Grace demoted 4 tier-D over-claims (\u03b1/Wyler, CKM-CP/arctan\u221a5, Jarlskog, PMNS-CP/3\u03c07) \u2192 I; retired-Wyler + reverse-fit + CP-can-fail. External-facing honesty for verify_bst.py / outside readers."
+    "banks_synced_2026-07-12": "Grace: added T2513 (m_s/m_d=20, F506), T2514 (m_t=v/√2), T2515 (m_c=α·v/√2), T2516 (Koide=rank/N_c). Data layer un-frozen (May 18→now); mass frame PI-endorsed.",
+    "hygiene_sweep_2026-07-12": "Grace: swept all 107 evaluable banks for stated-vs-actual precision. Found 4 mis-precisioned: const_022/023 (θ12/θ23, reconciled earlier); const_140 (J_CKM 96% off = wrong duplicate → const_077); const_021 (γ_CKM formula CORRECT but stale observed 1.196→1.150). 2 new landmines fixed.",
+    "ckm_scoping_2026-07-12": "Grace: CKM sector scoped for the forcing push. Canonical set = const_020 (λ=2/√79), const_087 (A=9/11), const_089 (ρ̄=1/(2√10)), const_090 (η̄=1/(2√2)), const_077 (J=A²λ⁶η̄, 0.3%). Dominated duplicates flagged (standalone ρ̄=3/20 @5.66%, η̄=5/14 @2.63%). const_140 J_CKM do-not-cite (96%). All D-tier IDENTIFIED, not forced. Forcing target: quark-generation Bergman overlaps (T2509 kernel) — the quark analog of the lepton d(ν)/strata work."
   }
 }

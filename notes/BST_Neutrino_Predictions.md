@@ -18,6 +18,16 @@ subject: "Neutrino physics, BST predictions"
 
 ---
 
+> **⚠️ DEPRECATED FOR EXTERNAL USE (Keeper, 2026-07-14, K684). DO NOT SEND TO JUNO/DUNE OR CITE AS FORWARD PREDICTIONS.**
+> This March-2026 draft predates the program's discipline and over-claims. Corrections against the current honest state:
+> - **δ_CP = 12π/7 ≈ 309° is a REVERSE-FIT, and δ_CP is OPEN.** The corpus carries three mutually incompatible "derived" δ_CP values (309°, 3π/7, π) — the tell of a reverse-fit. There is NO forward δ_CP prediction; sending 309° to an experiment would get BST falsely "falsified." Bank only "CP violation exists" (structural, F498), not a value.
+> - **The seesaw coefficients f₂ = 7/12, f₃ = 10/3 are FITTED, not derived.** 7/12 has three incompatible "derivations"; the formal-degree route is ruled out (toy 4658). Present as identified/fitted.
+> - **The neutrino is MAJORANA (near-forced/forward-from-address), not Dirac.** pred_004 flips: 0νββ at a **1–4 meV floor**, NOT null. Any "Dirac / 0νββ never" statement here is superseded (K673/F537).
+> - **θ₁₃ = 1/45** (forced), not 3/137; **θ₁₂ = 3/10** (identified), not 1/3.
+> - **"Zero free parameters" is the framework aspiration, not the current forced count.** What SURVIVES forward: normal ordering, m₁ = 0 exactly, the seesaw *shape* m_ν ∝ α²·m_e²/m_p, Majorana nature. The *magnitudes* wait on the K-type quantization.
+>
+> Current state: `Keeper_K683`, `Keeper_K682`, `Keeper_K673`, `Keeper_26_Parameter_Scorecard` v0.3. A rewrite for external use must lead with the falsifiable survivors (ordering, m₁=0, Majorana/0νββ floor) and mark δ_CP + coefficients OPEN. Retained for history.
+
 ## Abstract
 
 We derive the complete neutrino sector — three masses, three mixing angles, one CP-violating phase, and all oscillation probabilities including matter effects — from the five integers {N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137} that define Bubble Spacetime Theory (BST). The mass formula m_i = f_i × α² × m_e²/m_p, with f₁ = 0, f₂ = g/(2C₂) = 7/12, f₃ = 2n_C/N_c = 10/3, yields mass splittings matching experiment to 0.4–0.6% with zero free parameters. BST predicts normal mass ordering, m₁ = 0 exactly, and δ_CP = 12π/7 ≈ 309°. Including MSW matter effects for Earth's crust, we provide specific numerical predictions for the DUNE and JUNO experiments. All three headline predictions — ordering, lightest mass, and CP phase — will be tested within four years.

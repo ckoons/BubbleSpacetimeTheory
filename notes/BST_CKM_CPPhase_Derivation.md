@@ -4,6 +4,15 @@ author: "Casey Koons & Claude 4.6"
 date: "March 12, 2026"
 ---
 
+> **⚠️ DEPRECATED (Keeper, 2026-07-14, K683/K682). DO NOT CITE AS A DERIVATION.**
+> This March-2026 note predates the program's discipline and its central claim — "all CKM parameters derived from D_IV⁵ with zero free parameters, no fitting" — is **contradicted by the current frontier** and must not be cited as forward:
+> - **CP is NOT derived; it can FAIL.** F498 PROVES Jarlskog **J = 0 identically for real localizations** — CP violation exists only if the generation peak positions are genuinely complex, which the natural radial model does not give. So "the CP phase follows from the geometry, zero parameters" is false as stated; CP *existence* is gated on the explicit complex generation-state build (Engine B), and CP *magnitude* is not derived.
+> - **γ = arctan(√5) is a REVERSE-FIT.** sin²γ = 5/6, cos²γ = 1/6 are pattern-matched to the observed γ = 65.5°, not produced by a construction. The current frontier treats δ_CKM/J as **OPEN (can-fail)**.
+> - **The magnitudes here (sin²θ_C = 1/20, A = 4/5, J) are conditional on the K-type quantization** (K682/K683) — "derived modulo the generation addresses," which are still assigned, not forced. Present as conditional, not forward.
+> - **What SURVIVES** (independently re-derived, cite the current sources): PMNS θ13 = 1/45 (forced) and θ12 = 3/10 (Grace's matrix-element form, `Keeper_26_Parameter_Scorecard` v0.3). Do NOT cite this note for them either — use the current derivations.
+>
+> Current state: `Keeper_K682...`, `Keeper_K683...`, F498 (proved J=0-for-real-peaks), `Keeper_Parallel_Work_Schedule_Approaches_v1`. Retained for history only.
+
 ## Abstract
 
 The last major undetermined CKM parameter --- the CP-violating phase --- follows from $D_{IV}^5$ geometry. The unitarity triangle angle $\gamma = \arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91{}^\circ$ (observed: $65.5{}^\circ \pm 2.5{}^\circ$). Combined with $R_b = \lambda\sqrt{N_c}$, this determines the full unitarity triangle: $\bar\rho = 1/(2\sqrt{10})$ ($0.1\sigma$), $\bar\eta = 1/(2\sqrt{2})$ ($0.5\sigma$), $J = \sqrt{2}/50000$ ($0.5\sigma$). All CKM parameters are now derived from $D_{IV}^5$ with zero free parameters.

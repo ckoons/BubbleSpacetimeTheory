@@ -63,7 +63,7 @@ PREDICTIONS = [
     ("alpha^-1 (inverse fine structure)",
      "N_max",
      float(N_max),
-     137.035999177, "CODATA 2022", "D"),
+     137.035999177, "CODATA 2022", "I"),   # K684 (Grace 2026-07-14): D->I. Value 1/137 used; alpha IDENTIFIED (finite-capacity charge-count), Wyler retired, exact-scale forward-derivation open (KEYSTONE A).
 
     ("N_gen (number of generations)",
      "N_c",
