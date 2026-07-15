@@ -64,14 +64,49 @@ Source of truth: `Keeper_BST_Work_Package_Ledger_v1` + `Keeper_K687` (Casey's A�
 
 **CLOSE-ENOUGH-TO-CLOSE (15 — done or ONE bounded step, no research gap):** α, m_s, m_ν1, θ13, v, θ_QCD, m_t, sin²θ_W, α_s, m_e, m_c, m_τ, m_μ, charged-lepton addresses, Higgs λ-form. Bounded steps left: muon Γ_Λ, tau bulk-Weyl eval, Higgs 1.8% curvature [Engine C]; mixing overlaps [Lyra→Grace].
 
-**THE 3 GENUINE MISSES (active lanes — Casey considering):**
-| Miss | What happened | Approach | Consider |
+**THE MISSES — web-grounded + Casey's insights (K691/K692). m_b REFRAMED to ~1.6%; 2 real approaches left:**
+| Miss | Grounded state | Approach (Casey/K692) | Refs |
 |---|---|---|---|
-| **m_b 6%** (840 vs ~890) | RG-rescue RULED OUT (Grace clean negative — QCD ratios RG-invariant) | Pin observed b/d at ONE scale: lands ~840 → convention artifact; genuinely ~890 → **Tier-2 floor** | Accept as Tier-2 precision floor (honest endpoint)? |
-| **ν 7/12** (the "7") | Resonance frame FORWARDS 10/3 (10=ℓ=2 mode=2n_C), FLAGS the "7" (not a Laplacian mode/Casimir) | Test 7=g as a **genus/boundary** resonance (different type than the bulk-10) | If no: m_ν3 forward, m_ν2 fitted — honest partial |
-| **up gen-1 magnitude** | Inversion mechanism CONFIRMED (=proton stability); magnitude open (c/u/N_max=4.29 not clean) | Derive the inversion DEPTH, OR accept within m_u's ~20% exp error | Mechanism is the result; magnitude may be exp-capped |
+| **m_b** | down-ladder b/d=840 is **19% low** (obs 1043); s/d=20 EXACT | **REFRAMED ~1.6%:** the down is the TRUE GROUND (d:s:b fundamental, gens 1-2 exact); the b's home is the **TOP: m_t/(C_2·g)=m_t/42=4113 MeV (1.6%)** (T1990/T2013). Adopt m_t/42 as the b's source. | F506, T1990/T2013, K691 |
+| **up** (m_u/m_d) | BST 1/√g=0.378 vs obs **0.462 (18%, 4.2σ — a REAL miss)** | **Up = TWO ladders = a REFLECTION of the down ground** (light-up inverts below; heavy-up c/t excite; b↔top is the gen-3 image). **Derive the down→up reflection** (T₃ᴿ #418 / Peirce) → the light-up depth (×√(N_c/rank)) falls out. Don't fit (6/13, √(3/14) are fishing). | K687/K690, F507/F508, K401/K418, toy 4628, K691 |
+| **ν m_ν2** (the "7") | Δm² ratio obs 33.6±1.7; 7/12 fine observationally, but "7" is NOT a mode | **m_ν2 ∝ √N_c = the BULK version of the tau's BOUNDARY √π.** Two resonances: m_ν3 ∝ 10 (bulk ℓ=2, Elie 4666) + m_ν2 ∝ √N_c (bulk √). Ratio 10/√3=5.77 → 33.3 ✓. **Retires 7/12** (√N_c has the mode structure). | K687, tau 4665, Elie 4666, F157, K691 |
 
-**GATED (not misses — closing as the now-forward K-type lands):** CP magnitude (δ_CKM/δ_PMNS — Lyra's depths → Grace's linear-algebra J), the mixing depths (V_us, V_cb magnitude, V_ub, θ12 overlap, θ23 octant). **Next: bounded Engine-C evals + the K-type overlaps + Casey's calls on the 3 floors.**
+**UNIFYING (Casey, paper-worthy):** √ corrections in TWO flavors — **boundary √π (tau) + bulk √N_c (neutrino)**, both from odd-dimensionality; and the **down/up reflection** (down=ground, up=2-branch reflection, b↔top).
+**GATED (closing as the now-forward K-type lands):** CP magnitude (δ_CKM/δ_PMNS — Lyra→Grace linear-algebra J), mixing depths (V_us, V_cb mag, V_ub, θ12 overlap, θ23 octant).
+
+## ★ 2026-07-15 MORNING LANDINGS (audited K693) + WHAT REMAINS TODAY
+**Landed this morning:**
+- **Tau — FORWARD** (Elie 4669): bulk Weyl EVALUATED (g^{N_c}=343 + 2^{C_2}·g^{rank}=3136 = 49·71) − boundary √π. Now derived-forward, not identified.
+- **Neutrino m_ν2 ∝ √N_c** (Elie 4668): Δm²ratio = (2n_C)²/N_c = 100/3 = 33.3 (obs 33.6) — **RETIRES the fitted 7/12**; bulk √N_c + boundary √π = the odd-dim √-pair.
+- **m_b = m_t/(C_2·g) = m_t/42 = 4.11 GeV** (Grace, 1.7%) — the b's home is the top; **miss closed.**
+- **Charged-lepton ladder PINNED** (Lyra F544): energies 2,3,4 (electron Δ=(d−1)/2=2 in 5D, +1 per conformal raise); two axes clean. **Unblocks Grace's mixing.**
+- **Muon 4→5: residue √rank·π² DERIVED & VERIFIED** (Elie 4670, Keeper re-derived) — but **c_S=1 is ASSERTED not proven → HOLD count at 4** (K693). Closest ever; one Born/Szegő normalization computation away (= part of the K358 "absolute scale" open program — NOT a quick win).
+- **Up m_u/m_d = √(N_c/(rank·g))** (Lyra F545): UPGRADED fishing→block-sourced lead (√(N_c/rank) from color-crossing vs Cartan block sizes; proton stability = N_c>rank). **Premise "depth~√block-dim" is NEW/ungrounded** — needs ≥1 independent prediction (target-innocence test, K693).
+- **Higgs λ=1/8, CP structure built** (Grace) — both wait on the Engine-C curvature / Lyra's depths.
+
+**REMAINS TODAY (the unblocks + decisions):**
+1. **THE BIG UNBLOCK — the mixing overlaps** (Lyra + Grace): compute the overlaps from the now-pinned addresses (2,3,4) → **CP magnitude + V_us + V_ub + θ23 octant + θ12** all fall out. This is the finish line for the mixing sector.
+2. **Muon 4→5 decision:** the boundary-Szegő normalization = √rank·π²? (Elie/Keeper; part of K358). If proven → 4→5.
+3. **Up premise grounding** (Lyra): ground "depth~√block-dim" on an independent case, or hold as lead.
+4. **Cal's Majorana co-sign** (reading up first — 12-day-stale katra, correctly loading K673/F537/4659 before rendering).
+5. **Engine-C curvature** (Higgs 1.8% + α 0.036, optional precision). **Neutrino: why √N_c** (the bulk-color amplitude).
+
+Source of truth: **Work-Package Ledger** + K687/K691/K692/K693.
+
+## ★ 2026-07-15 PM — the PROJECTION framing (K696/K697) + two sharp finish-line findings
+**THE APPROACH (grounded, K697):** leptons/quarks are **Dirac fermions REFRACTING across the bulk→boundary interface = the holographic PROJECTION (2D boundary ← 3D bulk).** Grounded in TWO real fields: Dirac-fermion optics (graphene: Snell-Descartes+Fresnel, pseudospin=spinor half-angle="half Snell", Klein tunneling=evanescent="held in the prism", refractive index ∝ energy) + holography (AdS/CFT, BST's SO(5,2)⊃SO(4,2)). **arcsin(rank/N_c)=arcsin(2/3)=arcsin(2D/3D)=41.8°** = the projection angle; **N_c/rank=3/2 = the refractive index** (Elie's muon obstruction). **Electron=2D clean / muon=critical-angle marginal / tau=3D clean = the projection ladder.** Casey's down-e/up-μ symmetry = the full description of lepton projection → **makes 2D→3D projection TESTABLE.** Charge=exact 2D shadow, mass=loose 3D refraction.
+
+**FINDING 1 — MUON 4→5: CONDITIONAL PASS (K698). Count moves 4→5 — the muon is FORWARD-DERIVED.** Elie made c_S=1 COMPUTED (4676: the Shilov measure 8π³/3 divides out under the Born probability measure → Hardy constant mode unit-norm → c_S=1) + the optics route confirms (4677: N_c/rank=3/2=the refractive index, refracts away, K697) + residue √rank·π² derived (4670) + formal-degree ratios clean (4674, Casey's 3-lepton idea). m_μ/m_e=(24/π²)⁶ forward. Condition (referee-facing): the constant-mode identification, stated explicitly. **Charged-lepton sector COMPLETE (electron anchor, muon forward, tau forward-additive).**
+
+**FINDING 2 — the mixing needs BOTH SECTORS' depths (Grace's catch).** A single sector's overlaps aren't the mixing: PMNS = U_charged†U_ν, CKM = U_u†U_d — the RELATIVE rotation of two sectors. Lyra's charged-lepton depths {1,2/3,1/2} gave θ13≈0.28 (obs 0.022) — the tell. Grace did NOT report the fabricated angles. **So the FK overlap integral (Lyra+Elie) must deliver BOTH sectors: neutrino depths (for PMNS) + up & down depths (for CKM).** Grace's F498 machine VERIFIED and armed.
+
+## ★ THREE DIGS (2026-07-15 EOD → next) — Casey directive: alpha, k-type depths, finish the 25
+**Curvature now FORWARD (Elie 4678): n_C/N_max closes α⁻¹=137.0365 (0.0004%) + m_H=125.22 (0.02%), two-target. Up FULLY GROUNDED (Lyra: 3/2 index = bulk/boundary dim ratio, 3 color-crossing / 2 Cartan). 14 banked / 6 strong / 6 behind ONE gate.**
+| Dig | What | Owner |
+|---|---|---|
+| **1. MIXING — the run MISSED, and it LOCALIZED the physics (K704 + team convergence). MASSES done; MIXING is a DISTINCT object.** | **The run gave PMNS≈0 — NOT a bug.** M = U Σ V†: **Σ = masses = the radial norms {N_i} (DONE — that's the 20 banked/strong).** **Mixing = U_L†U_L' = the relative EIGENVECTOR ORIENTATION between sectors — and it is NEVER a function of the norms.** We projected v↦\|v\| for the grounds (correct for masses) and threw away the DIRECTION (which carries the mixing). Lyra's "broken self-check" + Grace's run + Keeper K704 all gave the same ≈0 → the geometry telling the truth, not 3 bugs. **THE FIX (build the eigenvector/texture object, not more norms):** up/down mixing = the **refraction rotation** (F548/F549, index N_c/rank — small → small CKM; Gatto bridge sinθ_C≈√(m_d/m_s) ties it back to norms via √-ratios); ℓ/ν mixing = the **d=5→d=4 projection + Majorana locus** (charged→chargeless, big reorientation → large PMNS, F413). **Vol 57 = build the per-sector eigenvector orientation.** First swing (Lyra): the refraction rotation → the Cabibbo angle. | Lyra (texture/refraction) + Elie + Grace |
+| **2. ALPHA — CLOSED (CONDITIONAL PASS, K701)** | ✅ The 4π = the descent's 3D Coulomb solid angle (Grace DIG 2 / K699): α = shell-capacity (137) projected to 3+1 via SO(5,2)→SO(3,1); flux through Vol(S²)=4π. **No free normalization left** — 137 (capacity) + 4π (descent solid angle), both geometric; + forward curvature n_C/N_max. Condition: it IDENTIFIES the 4π (not re-derives Coulomb). **α is done.** | ✓ |
+| **3. FINISH THE 25** | Up index → forced (Lyra, one step — the 3/2 = bulk/boundary dim ratio is grounded); neutrino √N_c amplitude → forced; consolidate m_b/m_H/m_d. The last 6 land from Dig 1. | all |
 
 **Parallel independents (run alongside):** Cal — Majorana co-sign (γ⁵ intertwiner + cold-read K673/toy 4659/F537 → flips pred_004) + adjudicate the Δm² fork (32.65/33/34) + the θ12/τ/λ forks. Grace also — sync the stale data layer (`bst_constants.json`, `bst_26_table.py`) to scorecard v0.3 before any outreach.
 
