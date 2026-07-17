@@ -1,0 +1,30 @@
+# K738 — CONDITIONAL: Lyra's B−L Weinberg formula sin²θ_W = 1/(2 + ¼‖B−L‖²) is the RIGHT method (physical couplings, not the GUT formula — resolves Elie's K737 seam) and re-poses sin²θ_W as ONE geometric quantity ‖B−L‖². But verification surfaces TWO must-clear gates before it's even a valid lead: (1) POTENTIALLY FATAL — the charge formula Q = J₁₂ + (B−L)/2 does NOT reproduce right-handed charges with SU(2)_L alone; fixing it needs a right-handed isospin = Pati-Salam/SO(10) structure = Five-Absence-FORBIDDEN unless shown present without a new gauged force; (2) the needed ‖B−L‖² = 28/3 is NOT the fermion trace (13/3 or 16/3) — target-innocence of the value is unproven. sin²θ_W stays OPEN.
+
+**Keeper | 2026-07-17 | Auditing Lyra's re-derivation (the "proper problem"). Arithmetic verified clean; inputs stress-tested; `verify_BminusL_formula.py`. She was explicit she hasn't computed ‖B−L‖² — this audit sharpens exactly what must hold and flags a Five-Absence risk she did not foreground.**
+
+## What is VERIFIED and genuinely good (credit)
+- **The method is correct and resolves Elie's seam.** For a non-GUT theory you must use the physical gauge couplings (g ∝ 1/‖generator‖), not the GUT trace formula. Lyra did exactly that — no GUT formula smuggled in. This is the right response to K737.
+- **The formula arithmetic checks:** sin²θ_W = 1/(2 + ¼‖B−L‖²) gives **28/3 → 3/13** (obs 0.2312) and **8/3 → 3/8** (GUT). Confirmed.
+- **The re-posing is a real step up:** from "which formula, and why" (K737 fog) to "compute ONE geometric quantity, ‖B−L‖²." That is a sharply-posed door.
+- **The color mechanism is elegant IF the gates clear:** a quark's B = 1/3 = 1/N_c because it takes N_c quarks to make a baryon — so the color number enters the Weinberg angle through B−L geometrically. This is Casey's weak-color coupling with a named object. Worth keeping.
+
+## GATE 1 — POTENTIALLY FATAL (Five-Absence): does the charge formula need a GUT?
+`verify_BminusL_formula.py` part 3: **Q = J₁₂ + (B−L)/2 with J₁₂ = T³_L (SU(2)_L only) reproduces the LEFT-handed charges but FAILS every right-handed singlet** — it gives Q(e_R) = −1/2 (not −1), Q(u_R) = 1/6 (not 2/3), Q(d_R) = 1/6 (not −1/3). To fix the right-handed charges the formula needs a **right-handed isospin T³_R** piece: Q = T³_L + T³_R + (B−L)/2. **That is precisely the Pati-Salam / SO(10) structure** (SU(2)_L × SU(2)_R × SU(4)_c, with B−L the SU(4) charge).
+- **Five-Absence FORBIDS GUTs** (no proton decay, no extra gauged forces, no Z′, no SU(4)_c). If B−L is gauged as an independent force, or SU(2)_R is introduced, **the whole thing is forbidden** — and would resolve Elie's seam only by walking into the Five-Absence wall from the other side.
+- **The condition Lyra must meet:** show the required right-handed-isospin structure is **present in D_IV⁵'s geometry WITHOUT a new gauged force or extra light states** — i.e. that J₁₂ (the SO(2) charge circle, T2470) supplies the needed piece intrinsically, not as a gauged SU(2)_R/U(1)_{B−L}. **Concrete must-pass test:** reproduce Q(e_R)=−1, Q(u_R)=2/3, Q(d_R)=−1/3 from the geometry with NO new force. If it can't be done without gauging B−L or SU(2)_R → the formula is Five-Absence-dead, regardless of the pretty arithmetic. **This is the make-or-break, and it fires hardest precisely because the number came out right.**
+
+## GATE 2 — target-innocence of the VALUE 28/3
+- The needed ‖B−L‖² = 28/3. **The honest fermion trace Σ(B−L)² over one generation is 13/3 (no ν_R) or 16/3 (with ν_R) — NOT 28/3** (verified). So 28/3 is not the obvious trace; right now it is the value *reverse-engineered to hit 3/13*. The FORMULA is target-innocent; the VALUE is not yet.
+- **Mild encouragement, not proof:** 28/3 = rank²·g/N_c = 4·7/3 is a clean BST-primary form. **But so is the GUT value** 8/3 = rank³/N_c — so "has a BST form" does NOT discriminate 3/13 from 3/8. Do not lean on it.
+- **The condition:** compute the geometric ‖B−L‖² *independently* (as the norm of the B−L generator in D_IV⁵, whatever that turns out to be — note it is NOT the fermion trace, so "which norm" must be pinned) and show it lands 28/3 target-innocent. Until then the value is fit-suspect.
+
+## GATE 3 — Elie's running-scale gate still applies
+3/13 sits where the GUT 3/8 runs to near M_Z; the value can't self-certify. The geometric computation must fix the scale, not match at M_Z.
+
+## VERDICT
+**CONDITIONAL / OPEN — not closed, not yet even a banked lead.** The method is right and resolves K737; the re-posing to ‖B−L‖² is real progress; the color mechanism is elegant. But sin²θ_W remains **OPEN**, now gated on: **(1) Five-Absence — reproduce the SM charges without a gauged B−L/SU(2)_R/SU(4) [potentially fatal]; (2) target-innocent ‖B−L‖² = 28/3 from the geometry, not the fermion-trace 13/3; (3) the running gate.** Gate 1 is the priority — no point computing ‖B−L‖² if the charge structure requires a forbidden GUT. **Do not re-tier sin²θ_W upward until Gate 1 clears.** The earlier "two-candidate 1/3 vs 3/13" (K737) stands as the honest status; this adds a third candidate mechanism (B−L) that is conditional.
+
+## Handoff to Lyra
+Before ‖B−L‖²: **settle Gate 1.** Write out how Q = J₁₂ + (B−L)/2 reproduces ALL SM charges (especially the right-handed singlets e_R/u_R/d_R) from D_IV⁵'s geometry, and show the piece that plays the T³_R role is NOT a new gauged force (no Z′, no SU(2)_R, no SU(4)_c) — i.e. Five-Absence-safe. If it clears, THEN compute the geometric ‖B−L‖² and check it's 28/3 (= rank²g/N_c) target-innocent, not the trace 13/3.
+
+— Keeper K738, 2026-07-17. Lyra's sin²θ_W = 1/(2+¼‖B−L‖²): method RIGHT (physical couplings, resolves Elie K737), arithmetic VERIFIED (28/3→3/13, 8/3→3/8), color-via-B=1/N_c elegant. But Q=J₁₂+(B−L)/2 fails RH charges w/o T³_R = Pati-Salam/SO(10) → GATE 1 Five-Absence potentially FATAL; needed 28/3 ≠ fermion trace 13/3 → GATE 2 target-innocence unproven (28/3=rank²g/N_c clean but so is GUT 8/3=rank³/N_c); GATE 3 running. sin²θ_W OPEN. See [[Keeper_K737_elie_catch...]], [[Keeper_K736_RETRACTION...]], [[Five_Absence_Predictions_Principle]].
