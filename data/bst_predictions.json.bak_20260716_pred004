@@ -95,30 +95,25 @@
     },
     {
       "id": "pred_004",
-      "name": "Neutrinoless double-beta decay floor (Majorana neutrinos)",
+      "name": "Neutrinoless double-beta decay null (Dirac neutrinos)",
       "category": "not_yet_measured",
-      "prediction": "0nu-beta-beta OCCURS: neutrinos are Majorana (forced by F413/K673 - Weinberg operator, no steriles, gamma-5 shadow intertwiner nu_R non-unitary). Effective Majorana mass m_bb in [1.4, 3.7] meV, normal ordering with m_nu1 = 0 (hierarchical). The range spans the two Majorana phases (alpha_21, alpha_31).",
-      "bst_value": "|m_bb| in [1.4, 3.7] meV",
+      "prediction": "No neutrinoless double-beta decay. |m_bb| = 0 exactly. Neutrinos are Dirac, not Majorana.",
+      "bst_value": "|m_bb| = 0",
       "current_measurement": "Best limit: |m_bb| < 36-156 meV (KamLAND-Zen, 2023)",
-      "experiment": "LEGEND-1000, nEXO, KamLAND-Zen",
-      "timeline": "2027-2035",
-      "falsification_criterion": "0nu-beta-beta definitively excluded below ~1 meV, OR m_bb measured clearly above ~4 meV, with a confirmed hierarchical (m_nu1=0) spectrum.",
-      "impact_if_falsified": "Would break the Majorana neutrino sector (F413) and/or the banked PMNS forms (sin2_th12=3/10, sin2_th13=1/45) or the m_nu1=0 hierarchical spectrum.",
-      "status": "banked",
-      "bst_integers_used": [
-        "N_c",
-        "rank",
-        "n_C",
-        "g"
-      ],
+      "experiment": "LEGEND-1000, nEXO, CUPID",
+      "timeline": "2027-2032",
+      "falsification_criterion": "Confirmed detection of neutrinoless double-beta decay at any rate",
+      "impact_if_falsified": "FATAL to BST neutrino sector. Would require Majorana masses, contradicting Z_3 topology.",
+      "status": "untested",
+      "bst_integers_used": [],
       "source_section": "Section 7",
       "related_constants": [
         "const_061",
         "const_062"
       ],
       "sharpest_test": true,
-      "sharpest_test_reason": "REVERSED 2026-07-16 from the retired Dirac null (|m_bb|=0). BST now forces Majorana (F413/K673), so 0nu-beta-beta is PREDICTED, not forbidden. m_bb=|s12^2 c13^2 m2 e^{i a21} + s13^2 m3 e^{i a31}| with m_nu1=0, sin2_th12=3/10, sin2_th13=1/45, Dm2 ratio 100/3 (sqrt(N_c)), absolute scale = observed Dm2_31. Toy 4691. A detection in [1.4,3.7] meV strongly supports BST.",
-      "tier": "I",
+      "sharpest_test_reason": "Binary yes/no. If seen, BST is falsified. If not seen after next-generation experiments, BST is strongly supported.",
+      "tier": "S",
       "ace": "(1,0)"
     },
     {
