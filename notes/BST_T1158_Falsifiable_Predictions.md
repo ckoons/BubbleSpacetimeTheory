@@ -35,7 +35,7 @@ parents: "T186 (Five Integers), T914 (Prime Residue), T1141 (Prediction Confiden
 | 9 | Next magic number | 184 = $2^{N_c} \times 23$ | Unknown | — | FALSIFIABLE |
 | 10 | SEMF volume/surface ratio | $a_V/a_A = \text{rank}/N_c = 2/3$ | $0.66 \pm 0.02$ | 0.24% | YES |
 | 11 | Most stable nucleus | Fe-56 = $2^{N_c} \times g$ | Fe-56 | Exact | YES |
-| 12 | Neutrinless double beta | $0\nu\beta\beta = 0$ (Dirac) | Not yet observed | Consistent | YES if observed |
+| 12 | Neutrinoless double beta | $0\nu\beta\beta$ OCCURS, m_ββ∈[1.4,3.7]meV (Majorana, REVERSED 07-16) | Not yet observed | Predicted | YES if null <1meV |
 
 ### Condensed Matter (testable now)
 | # | Prediction | BST Value | Measured | Deviation | Kill? |
@@ -108,7 +108,7 @@ parents: "T186 (Five Integers), T914 (Prime Residue), T1141 (Prediction Confiden
 
 **Any ONE of these kills BST:**
 1. Proton decay observed → τ_p = ∞ is wrong
-2. 0νββ observed → neutrinos not Dirac
+2. 0νββ null below ~1 meV → would falsify the Majorana prediction (REVERSED 07-16: 0νββ now PREDICTED, not forbidden)
 3. EHT CP ≠ α → geometry-polarization link wrong
 4. Magic number 184 does NOT close a shell → κ_ls ≠ 6/5
 5. Next crystal system discovered (8th) → g ≠ 7

@@ -26,17 +26,17 @@ R=[
  ("m_b/m_s","mass","N_c^2 n_C=45", Nc**2*nC, 52.0, 3.0, "MISS-mixedscale"),
  # mixing (Lyra)
  ("V_us(th12)","CKM","1/(2 sqrt5)", 1/(2*sq(5)), 0.2243, 0.0008, "value-form"),
- ("V_cb(th23)","CKM","36/869", 36/869, 0.0409, 0.0008, "value-form"),
+ ("V_cb(th23)","CKM","struct ~0.044 (y_t bdry)", None, 0.0409, 0.0008, "STRUCTURAL(K711; 36/869 retired)"),
  ("V_ub(th13)","CKM","(1/3)^5", (1/Nc)**5, 0.00369, 0.0003, "STRUCTURAL"),
  ("delta_CKM","CKM","arctan(sqrt5) deg", math.degrees(math.atan(sq(5))), 65.9, 3.5, "FORCED(triangle)"),
  ("sin2_th12","PMNS","|U_e2|^2/(1-|U_e3|^2)", 0.30/c13, 0.307, 0.013, "FORCED(matrix-elt)"),
  ("sin2_th13","PMNS","1/(N_c^2 n_C)=1/45", 1/45, 0.02195, 0.0007, "FORCED(boundary)"),
  ("sin2_th23","PMNS","4/7", 4/7, 0.545, 0.03, "value-form"),
- ("delta_PMNS","PMNS","pi+arctan sqrt5 deg", 180+math.degrees(math.atan(sq(5))), 197.0, 40.0, "LEAD(unconstrained)"),
+ ("delta_PMNS","PMNS","|sin d|=2/7 LAW; branch data", 180+math.degrees(math.atan(sq(5))), 197.0, 40.0, "LAW-mag+DATA-branch(g^2=45+4)"),
  # scales (Elie)
- ("alpha_inv","gauge","Wyler closed form", 137.036082, 137.035999, 2.1e-8, "FORCED(Wyler geom) 0.6ppm"),
+ ("alpha_inv","gauge","137=N_c^3 n_C+rank (charge-count)", 137.0, 137.035999, 2.1e-8, "IDENTIFIED(K701 charge-count; Wyler retired)"),
  ("alpha_s","gauge","7/20 (runs)", None, 0.1179, 0.0, "NEG(runner)"),
- ("sin2_thW","gauge","3/13", 3/13, 0.23122, 0.00004, "APPROX(11sig, runs)"),
+ ("sin2_thW","gauge","3/8 hi-scale + RGE", None, 0.23122, 0.00004, "RUNNER(K739; 3/13 retired)"),
  ("vev_v","Higgs","pure scale", None, 246.22, 0.0, "FLOOR"),
  ("m_H","Higgs","(form pending)", 125.1, 125.25, 0.17, "MATCH(form-pin)"),
  ("theta_QCD","CP","0 (pi_1=0)", 0.0, 0.0, 1e-10, "FORCED-exact"),
@@ -80,9 +80,10 @@ print(f"\n coverage: all 26 have a scored first-pass attempt.")
 print(f" MATCH={tc['MATCH']}  APPROX={tc['APPROX']}  MISS={tc['MISS']}  FLOOR={tc['FLOOR']}  NEG={tc['NEG']}  OPEN={tc['OPEN']}")
 print(" (*) = WEAK match: coarse target (rel-err>2%) AND mechanism not forced -> a match here is weak evidence.")
 print(" DERIVED-STRONG (MATCH + forced-mechanism + not-weak), and its K645 caveat:")
-print("   sin2_th13 1/45      -- SOLID (expensive + boundary mechanism)")
+print("   sin2_th13 1/45      -- SOLID (LAW: g^2=45+4; boundary mechanism)")
+print("   sin2_thW            -- RUNNER (K739: 3/8 hi-scale + RGE; 3/13 retired as running coincidence)")
 print("   theta_QCD 0         -- pending: pi_1 vs gauge-pi_3/instanton; needs contractible->trivial-bundle explicit")
-print("   alpha Wyler 0.6ppm  -- mechanism FORCED (Wyler geom) but still APPROX (~4000 sigma, not exact)")
+print("   alpha 137           -- IDENTIFIED charge-count (K701; 137=N_c^3 n_C+rank exact; Wyler RETIRED)")
 print("   delta_CKM arctan5   -- mechanism-dependent: coarse target, must FORCE sqrt(n_C) over sqrt4/6/7")
 print("   sin2_th12 |U_e2|^2  -- FORCED (matrix-element) + un-cheapened (tells 3/10 from 5/16); NEW this pass")
 print("   m_t v/sqrt2         -- rests on the v FLOOR (not free-standing)")

@@ -125,7 +125,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Hubble constant $H_0$ (Route B)  |$\sqrt{19\Lambda/39} = 68.0$ km/s/Mpc (information-energy intersection)|$67.36 \pm 0.54$ (Planck)|$\checkmark$ 1.0%|
 |Cosmic age $t_0$                  |$(2/(3H_0\sqrt{\Omega_\Lambda})) \operatorname{arcsinh}\!\sqrt{\Omega_\Lambda/\Omega_m} = 13.718$ Gyr; $\operatorname{arcsinh}$ argument $= \sqrt{13/6} = \sqrt{(2C_2+1)/C_2}$|$13.80 \pm 0.02$ Gyr (Planck)|$\checkmark$ 0.57%|
 |Tsirelson bound                   |$2\sqrt{2}$ from $H^0(\mathcal{O}(1)) \cong \mathbb{C}^2$ on $\mathbb{CP}^1$|$2\sqrt{2}$ (exact, Tsirelson 1980)|$\checkmark$ exact|
-|$\|m_{\beta\beta}\|$ ($0\nu\beta\beta$)|0 (Dirac neutrinos, Hopf $h=1$ forbids Majorana)|—|exact prediction|
+|$\|m_{\beta\beta}\|$ ($0\nu\beta\beta$)|$[1.4,\,3.7]$ meV (Majorana; $m_1=0$, $\sin^2\theta_{12}=3/10$, $\sin^2\theta_{13}=1/45$, two Majorana phases sweep the band)|not yet measured|falsifiable prediction|
 |Primordial GW peak frequency      |BST phase transition at 3.1 s $\to$ 6.4 nHz|NANOGrav $\sim$ nHz band|$\checkmark$ consistent|
 |GW spectral index $\gamma$        |$g/n_C + 2 = 7/5 + 2 = 3.60$|NANOGrav $3.2$–$4.6$|$\checkmark$ consistent|
 |Width ratio $\Gamma_\rho/\Gamma_\phi$|$n_C \times g = 35$; dimension $\times$ genus|$35.09$|$\checkmark$ 0.26%|
@@ -301,7 +301,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 
 | Prediction | BST Value | Experiment | Timeline |
 |---|---|---|---|
-| Neutrinoless $\beta\beta$: null | $\|m_{\beta\beta}\| = 0$ exactly (Dirac) | LEGEND, nEXO, KamLAND-Zen | 2027--2030 |
+| Neutrinoless $\beta\beta$: **occurs** | $\|m_{\beta\beta}\| \in [1.4,\,3.7]$ meV (Majorana) — detection supports BST; null below $1$ meV falsifies | LEGEND, nEXO, KamLAND-Zen | 2027--2030 |
 | No dark matter particles | Null detection at all scales | LZ, XENONnT, PandaX | Ongoing |
 | Dark energy $w \neq -1$ | Substrate growth deviation | DESI, Euclid, Roman | 2025--2028 |
 | No primordial B-modes | $r < 10^{-10}$ | LiteBIRD, CMB-S4 | 2028+ |
@@ -359,7 +359,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |17|No singularities                                   |Observational evidence requiring curvature divergence|
 |18|No closed timelike curves                          |Demonstrated physical mechanism for time loops       |
 |19|Growing manifold consistent with all GR predictions|Any GR prediction failing on the committed manifold  |
-|20|No $0\nu\beta\beta$ at any scale (Dirac neutrinos)|Confirmed detection of neutrinoless double-beta decay|
+|20|$0\nu\beta\beta$ occurs, $\|m_{\beta\beta}\|\in[1.4,3.7]$ meV (Majorana)|A firm null below $1$ meV, or a value outside $[1.4,3.7]$ meV|
 |21|GW spectral index $\gamma = 3.60 \pm 0.30$        |$\gamma$ measured inconsistent with BST (e.g. $\gamma > 4$)|
 |22|No LISA primordial signal ($< 10^{-20}$)           |Primordial GW detected in LISA band                  |
 
@@ -417,11 +417,11 @@ This gives a 1.2% reduction, corresponding to $\Delta r_p \approx 0.010$ fm — 
 
 #### Neutrinoless Double Beta Decay — Clean Binary Test
 
-BST predicts Dirac neutrinos: neutrino and antineutrino carry opposite $S^1$ winding directions and are distinct particles. The conservation law $B - L$ is topologically protected by the Hopf invariant (Section 14.9). Neutrinoless double beta decay would require $\Delta(B - L) = 2$, violating a topologically protected conservation law. **BST prediction: neutrinoless double beta decay does not occur.** This is not a probabilistic statement — it is a categorical exclusion by topology.
+BST predicts Majorana neutrinos: the neutrino mass arises from the Weinberg operator on the chargeless $S^4$ locus, and the right-handed neutrino is a total gauge singlet ($Y = Q = 0$), so no Dirac mass partner exists in the light spectrum. Lepton number $L$ is conserved perturbatively (as an $S^1$ winding), but the Majorana mass term violates it by $\Delta L = 2$ — the odd substrate dimension $g = 7$ locks the neutrino to a single chirality (no light $\nu_R$), which is precisely the Majorana condition. **BST prediction: neutrinoless double beta decay occurs.**
 
-BST further predicts normal ordering with $m_1 = 0$ exactly (Section 7.6). The Hopf invariant $h = 1$ of the $S^3 \to S^2$ fibration provides a second, independent proof that Majorana mass terms are forbidden: the Hopf fiber winding number $h = 1$ is odd, which forces Dirac structure (even $h$ would permit Majorana). Therefore $|m_{\beta\beta}| = 0$ exactly — not merely small, but identically zero. Any detection of $0\nu\beta\beta$ at any scale falsifies BST. See `notes/BST_NeutrinolessDoubleBeta.md`. Inverted ordering is excluded by the BST prediction $m_1 = 0$.
+BST predicts normal ordering with $m_1 = 0$ exactly (Section 7.6). Combined with the derived mixing angles $\sin^2\theta_{12} = 3/10$ and $\sin^2\theta_{13} = 1/45$ and the two Majorana phases (which sweep the allowed band), this fixes the effective mass to $\|m_{\beta\beta}\| \in [1.4,\ 3.7]$ meV. A detection in this window **supports** BST; a firm null below $\sim 1$ meV falsifies it. See `notes/BST_NeutrinolessDoubleBeta.md`. Inverted ordering is excluded by the BST prediction $m_1 = 0$.
 
-Multiple experiments are searching at or approaching the sensitivity required by the inverted neutrino mass hierarchy ($\sim 20$ meV): GERDA/LEGEND, nEXO, KamLAND-Zen, CUPID. A null result at the inverted hierarchy scale is BST-consistent and progressively constrains Majorana alternatives. A confirmed detection falsifies BST at the topological conservation law level — it would require a fundamental modification of the Hopf bundle structure.
+Because $m_1 = 0$ suppresses $\|m_{\beta\beta}\|$ below the inverted-hierarchy scale, this is a next-generation target: experiments (GERDA/LEGEND, nEXO, KamLAND-Zen, CUPID) are approaching but have not yet reached the $[1.4, 3.7]$ meV window. Reaching $\sim 1$ meV sensitivity delivers the clean test — a detection in-band supports BST; a firm null below $1$ meV refutes it.
 
 This is the cleanest binary test of BST available in the near term.
 
@@ -449,7 +449,7 @@ Three BST null predictions are being actively tested:
 | Proton radius: $r_p^{(\mu)} < r_p^{(e)}$ (qualitative) | Confirmed | PRad, MUSE | Ongoing |
 | Proton radius: $g(n_C)$ (quantitative) | Open calculation | MUSE, PRad-II | 2026–2028 |
 | Tau radius: $r_p^{(\tau)} < r_p^{(\mu)}$ | Derived prediction | Infeasible (short lifetime) | — |
-| Neutrinoless $\beta\beta$: null result | Clean categorical prediction | LEGEND, nEXO | 2027–2030 |
+| Neutrinoless $\beta\beta$: signal $\|m_{\beta\beta}\| \in [1.4,3.7]$ meV (Majorana) | Clean categorical prediction | LEGEND, nEXO | 2027–2030 |
 | Dark energy $w \neq -1$ | Prediction confirmed in direction; magnitude open | DESI, Euclid | 2025–2028 |
 | No magnetic monopoles | Clean categorical prediction | MoEDAL | Ongoing |
 | No SUSY particles | Clean categorical prediction | LHC Run 3+ | Ongoing |

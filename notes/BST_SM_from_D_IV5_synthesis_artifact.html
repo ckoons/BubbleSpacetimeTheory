@@ -1,0 +1,339 @@
+<style>
+  :root {
+    --ground: #eef0f7; --panel: #ffffff; --panel-2: #f7f8fc;
+    --ink: #1a1d2b; --ink-soft: #565a70; --ink-faint: #8a8ea6;
+    --line: #dcdfec; --line-soft: #e8eaf3;
+    --accent: #a8791f; --accent-2: #c8a24a; --accent-wash: #f4ecd7;
+    --derived: #2f8f63; --supported: #3d7fb8; --open: #c07a1e; --retired: #7c8196;
+    --derived-wash: #e5f2ea; --supported-wash: #e6eff7; --open-wash: #f6ecda; --retired-wash: #eceef3;
+    --shadow: 0 1px 2px rgba(20,24,50,.05), 0 8px 30px rgba(20,24,50,.06);
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0d0f1c; --panel: #161a2c; --panel-2: #121525;
+      --ink: #e9eaf4; --ink-soft: #a6abc4; --ink-faint: #6e7391;
+      --line: #262b42; --line-soft: #1e2338;
+      --accent: #d8b25c; --accent-2: #c8a24a; --accent-wash: #2a2410;
+      --derived: #52b98a; --supported: #5fa3d8; --open: #e0a545; --retired: #8a90a8;
+      --derived-wash: #14261d; --supported-wash: #142130; --open-wash: #2a2110; --retired-wash: #1a1e2e;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 34px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #eef0f7; --panel: #ffffff; --panel-2: #f7f8fc;
+    --ink: #1a1d2b; --ink-soft: #565a70; --ink-faint: #8a8ea6;
+    --line: #dcdfec; --line-soft: #e8eaf3;
+    --accent: #a8791f; --accent-2: #c8a24a; --accent-wash: #f4ecd7;
+    --derived: #2f8f63; --supported: #3d7fb8; --open: #c07a1e; --retired: #7c8196;
+    --derived-wash: #e5f2ea; --supported-wash: #e6eff7; --open-wash: #f6ecda; --retired-wash: #eceef3;
+    --shadow: 0 1px 2px rgba(20,24,50,.05), 0 8px 30px rgba(20,24,50,.06);
+  }
+  :root[data-theme="dark"] {
+    --ground: #0d0f1c; --panel: #161a2c; --panel-2: #121525;
+    --ink: #e9eaf4; --ink-soft: #a6abc4; --ink-faint: #6e7391;
+    --line: #262b42; --line-soft: #1e2338;
+    --accent: #d8b25c; --accent-2: #c8a24a; --accent-wash: #2a2410;
+    --derived: #52b98a; --supported: #5fa3d8; --open: #e0a545; --retired: #8a90a8;
+    --derived-wash: #14261d; --supported-wash: #142130; --open-wash: #2a2110; --retired-wash: #1a1e2e;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 34px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink);
+    font-family: var(--sans); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px 96px; }
+  .band { padding: 40px 0; border-top: 1px solid var(--line-soft); }
+  .band:first-of-type { border-top: none; }
+
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance;
+    letter-spacing: -.01em; line-height: 1.15; margin: 0; }
+  .eyebrow { font-family: var(--sans); font-size: 12px; font-weight: 650;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0 0 14px; }
+  p { margin: 0 0 14px; max-width: 68ch; color: var(--ink-soft); }
+  .lead { font-size: 19px; color: var(--ink); max-width: 62ch; }
+  code, .mono { font-family: var(--mono); font-size: .88em; }
+  em { color: var(--ink); font-style: italic; }
+
+  /* Hero */
+  .hero { padding: 76px 0 44px; }
+  .hero h1 { font-size: clamp(34px, 5.4vw, 60px); letter-spacing: -.022em; }
+  .hero .sub { font-family: var(--mono); font-size: 13px; letter-spacing: .04em;
+    color: var(--ink-faint); margin-top: 20px; }
+  .hero .thesis { font-size: clamp(19px, 2.5vw, 24px); font-family: var(--serif);
+    color: var(--ink); max-width: 30ch; margin-top: 22px; line-height: 1.4; }
+  .accent-word { color: var(--accent); font-style: italic; }
+
+  /* integer strip */
+  .integers { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+  .chip-int { display: flex; flex-direction: column; gap: 2px; padding: 12px 16px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 3px;
+    box-shadow: var(--shadow); min-width: 92px; }
+  .chip-int b { font-family: var(--mono); font-size: 22px; color: var(--accent); font-weight: 600; }
+  .chip-int span { font-size: 11.5px; color: var(--ink-faint); letter-spacing: .02em; }
+  .chip-int em { font-family: var(--mono); font-size: 11px; color: var(--ink-soft); font-style: normal; }
+
+  /* three-column core */
+  .triptych { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; margin-top: 8px; }
+  .col { background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
+    padding: 22px 20px; box-shadow: var(--shadow); }
+  .col-tag { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .col h3 { font-size: 18px; margin-bottom: 12px; }
+  .col ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 11px; }
+  .col li { font-size: 13.5px; color: var(--ink-soft); padding-left: 15px; position: relative; }
+  .col li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px;
+    background: var(--accent-2); border-radius: 50%; }
+  .col li b { color: var(--ink); font-weight: 600; }
+  .flow-arrows { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px;
+    margin-top: 10px; color: var(--ink-faint); font-size: 11px; letter-spacing: .1em;
+    text-transform: uppercase; text-align: center; }
+
+  /* root canvas */
+  .rootbox { display: flex; gap: 28px; align-items: center; flex-wrap: wrap;
+    background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px;
+    padding: 24px; margin-top: 24px; }
+  canvas { display: block; }
+  .rootbox .cap { flex: 1; min-width: 260px; }
+
+  /* ledger */
+  .ledger { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 13.5px; }
+  .ledger-scroll { overflow-x: auto; }
+  .ledger th { text-align: left; font-family: var(--sans); font-size: 11px; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint);
+    padding: 0 14px 10px; border-bottom: 1px solid var(--line); }
+  .ledger td { padding: 13px 14px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+  .ledger tr td:first-child { color: var(--ink); font-weight: 600; min-width: 190px; }
+  .ledger td.note { color: var(--ink-soft); font-size: 12.5px; }
+  .ledger td.note code { color: var(--ink); }
+  .tier { display: inline-block; white-space: nowrap; font-size: 11px; font-weight: 700;
+    letter-spacing: .04em; padding: 3px 9px; border-radius: 20px; }
+  .t-derived { color: var(--derived); background: var(--derived-wash); }
+  .t-supported { color: var(--supported); background: var(--supported-wash); }
+  .t-open { color: var(--open); background: var(--open-wash); }
+  .t-retired { color: var(--retired); background: var(--retired-wash); }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 18px; font-size: 12px;
+    color: var(--ink-soft); }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; }
+
+  /* callout */
+  .callout { background: var(--panel); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent); border-radius: 5px; padding: 24px 26px;
+    box-shadow: var(--shadow); margin-top: 8px; }
+  .callout h3 { font-size: 19px; margin-bottom: 12px; }
+  .callout .kicker { font-size: 11px; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--retired); margin-bottom: 10px; }
+
+  /* frontier cards */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 8px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
+    padding: 20px; box-shadow: var(--shadow); }
+  .card .n { font-family: var(--mono); font-size: 12px; color: var(--accent); font-weight: 600; }
+  .card h4 { font-family: var(--serif); font-size: 16px; margin: 8px 0 8px; font-weight: 600; }
+  .card p { font-size: 13px; margin: 0; }
+
+  .foot { margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--line);
+    font-size: 12px; color: var(--ink-faint); }
+  .foot code { color: var(--ink-soft); }
+
+  @media (max-width: 760px) {
+    .triptych, .flow-arrows, .cards { grid-template-columns: 1fr; }
+    .flow-arrows { display: none; }
+    .hero { padding: 52px 0 32px; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="hero band">
+    <p class="eyebrow">Bubble Spacetime Theory · synthesis · 2026-07-18</p>
+    <h1>The Standard Model is quantum mechanics on one domain</h1>
+    <p class="thesis">The Born rule <em>is</em> this domain's natural measure — proven. So the couplings, masses, mixings, and forces are <span class="accent-word">one probability cloud, decomposed</span>.</p>
+    <p class="sub">D_IV⁵ = SO(5,2) / [ SO(5) × SO(2) ] &nbsp;·&nbsp; one seed (rank = 2) &nbsp;·&nbsp; one ruler (gravity) &nbsp;·&nbsp; Born = Bergman (proven)</p>
+  </header>
+
+  <section class="band">
+    <p class="eyebrow">The seed</p>
+    <p class="lead">Five integers are the invariants of the domain. Everything downstream is built from them — and they are themselves generated from a single number, <code>rank = 2</code>, the binary field.</p>
+    <div class="integers">
+      <div class="chip-int"><b>2</b><span>rank</span><em>the seed</em></div>
+      <div class="chip-int"><b>3</b><span>N_c</span><em>rank + 1</em></div>
+      <div class="chip-int"><b>5</b><span>n_C</span><em>rank² + 1</em></div>
+      <div class="chip-int"><b>6</b><span>C₂</span><em>rank² + rank</em></div>
+      <div class="chip-int"><b>7</b><span>g</span><em>rank² + rank + 1</em></div>
+      <div class="chip-int"><b>137</b><span>N_max</span><em>N_c³·n_C + rank</em></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <p class="eyebrow">How it fits together</p>
+    <h2 style="font-size:26px;margin-bottom:8px;">Geometry → bridge → algebra</h2>
+    <p style="margin-bottom:22px;">The domain on the left. The dimensionless numbers of the Standard Model on the right. The division-algebra structure of the domain is the bridge that carries one into the other.</p>
+    <div class="triptych">
+      <div class="col">
+        <div class="col-tag">Geometry</div>
+        <h3>The object</h3>
+        <ul>
+          <li><b>D_IV⁵</b> — rank-2 bounded symmetric domain, the interior where discrete substrate meets continuum.</li>
+          <li><b>Shilov boundary</b> (S⁴ × S¹)/ℤ₂ — where observable data lives; the S¹ is the charge circle.</li>
+          <li><b>Compact dual Q⁵</b> = SO(7)/[SO(5)×SO(2)] — the mirror face that hosts color.</li>
+          <li><b>Restricted roots</b> — a rank-2 system (SO(5) = B₂). The roots are the generators of every process.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="col-tag">Bridge</div>
+        <h3>Division algebras</h3>
+        <ul>
+          <li><b>ℂ</b> — the complex structure (charge circle) → <b>U(1)</b> electromagnetism.</li>
+          <li><b>ℍ</b> — the real-form spinor → <b>SU(2)</b> weak; doublets from SO(5) ≅ Sp(2).</li>
+          <li><b>𝕆</b> — the compact-dual spinor → <b>SU(3)</b> color.</li>
+          <li><b>Parity (V−A)</b> because <code>g = 7</code> is odd — the volume element is central, locking chirality.</li>
+          <li><b>Masses</b> = radial norms × the one gravity ruler. <b>Conservation laws</b> = Noether on the isometry group.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="col-tag">Algebra</div>
+        <h3>The 26 numbers</h3>
+        <ul>
+          <li><b>Multiplicative lattice</b> — the observables are monomials in {2, 3, 5, 7, π}, rank 4.</li>
+          <li><b>Syzygy laws</b> — forcing identities. The crown: <code>g² = N_c²·n_C + rank²</code> → <b>49 = 45 + 4</b>.</li>
+          <li><b>One generation</b> = ℍ⁴ = <b>16</b> Weyl fermions = the SO(5,2) spinor.</li>
+          <li><b>Three generations</b> = rank + 1 support strata.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="flow-arrows">
+      <div>the domain</div><div>— its structure —</div><div>the constants</div>
+    </div>
+
+    <div class="rootbox">
+      <canvas id="roots" width="240" height="240" aria-label="Rank-2 restricted root system of the domain"></canvas>
+      <div class="cap">
+        <p class="eyebrow" style="margin-bottom:8px;">The roots physics wants to find</p>
+        <p style="margin-bottom:0;font-size:14px;">A rank-2 root system has exactly two independent directions — <em>two</em> is the seed. The long and short roots (SO(5) = B₂, shown) are the elementary generators; every physical process is a word in these roots, and every observable is a function of their lengths and angles. When physicists hunt for "the underlying symmetry," this diagram is what they are hunting for.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <p class="eyebrow">The honest ledger</p>
+    <h2 style="font-size:26px;margin-bottom:8px;">What is derived, supported, open — and what closed as a runner</h2>
+    <p style="margin-bottom:4px;">The whole point of the program is that these lines are drawn <em>exactly</em>. Nothing below is claimed past what is forced.</p>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--derived)"></span> Derived — mechanism proved</span>
+      <span><span class="dot" style="background:var(--supported)"></span> Supported — geometry hosts it, dynamics pending</span>
+      <span><span class="dot" style="background:var(--open)"></span> Open — sharply posed, uncomputed</span>
+      <span><span class="dot" style="background:var(--retired)"></span> Closed / runner — resolved, no free number</span>
+    </div>
+    <div class="ledger-scroll">
+      <table class="ledger">
+        <thead><tr><th>Feature of the Standard Model</th><th>Geometric origin</th><th>Tier</th></tr></thead>
+        <tbody>
+          <tr><td>Gauge group SU(3)×SU(2)×U(1)</td><td class="note">the three division-algebra structures ℂ, ℍ, 𝕆 of the one domain</td><td><span class="tier t-supported">synthesis</span></td></tr>
+          <tr><td>Weak SU(2)_L, doublets</td><td class="note">SO(5) ≅ Sp(2) quaternionic → the electroweak doublets</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Parity violation (V−A)</td><td class="note"><code>g = 7</code> odd → central volume element → chirality lock (verified twice)</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Fermions, one generation</td><td class="note">ℍ⁴ = 16 = the SO(5,2) spinor</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Three generations</td><td class="note">rank + 1 = 3 support strata (Korányi–Wolf)</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Electroweak scale v (Higgs VEV)</td><td class="note"><code>v = (6π⁵)³·α¹²·m_Planck / g</code> — rides the one ruler, 0.01%</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Fine-structure constant α</td><td class="note">capacity N_max + the descent's 4π Coulomb solid angle, plus curvature; 0.0004%</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>All masses (20 of 26)</td><td class="note">radial norms — the singular values Σ of M = UΣV† — × the gravity ruler</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Mixing mechanism (CKM / PMNS)</td><td class="note">the angle between the domain's two stratifications = Born overlaps; small-CKM/large-PMNS is one fact; the exact angle values are identified, not yet derived</td><td><span class="tier t-derived">mechanism derived</span></td></tr>
+          <tr><td>Neutrino masses (m₁ = 0)</td><td class="note">m₁ = 0 because the Dirac coupling is rank-2 (2 = rank right-handed neutrinos, gauge singlets); Majorana via the odd-g lock</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Color confinement</td><td class="note">the Shilov boundary is color-blind → color non-singlets have exactly zero boundary support → confined (Schur; three routes)</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>Asymptotic freedom</td><td class="note">β₀ = 11N_c − 2N_f = 21 > 0 (N_c = 3, N_f = 6) → asymptotically free in the UV, confining in the IR — the sign of the QCD β-function from the content</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>SU(3) color, running &amp; gluon fields</td><td class="note">confinement + asymptotic freedom derived (above); α_s(scale) is a runner; the gluon fields are hosted-tier</td><td><span class="tier t-supported">supported</span></td></tr>
+          <tr><td>Conservation laws</td><td class="note">Noether currents of the SO(5,2) isometry group (E, p, L, charge, gauge) <em>plus</em> three topological charges — baryon = trefoil knot, lepton = winding, generation = cycle count</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>No right-handed W, no Z′</td><td class="note">the right-handed + B−L sector has 4 directions; the geometry gauges exactly one (hypercharge); the missing three are W_R and Z′</td><td><span class="tier t-derived">derived</span></td></tr>
+          <tr><td>The 26 constants</td><td class="note">monomials in {2,3,5,7,π}, all generated from rank = 2</td><td><span class="tier t-derived">skeleton</span></td></tr>
+          <tr><td>Weinberg angle sin²θ_W</td><td class="note">3/8 at high scale (fermion content = ℍ⁴), running to the measured 0.231 — a runner, no free number</td><td><span class="tier t-retired">runner</span></td></tr>
+          <tr><td>Soft spot: m_u</td><td class="note">the n=0 ground slot, and the up-quark is confined — its "mass" is scheme-dependent even experimentally, not a clean geometric observable (V_ub reclassified into mixing)</td><td><span class="tier t-open">honest-negative</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="band">
+    <p class="eyebrow">How we know what we know</p>
+    <div class="callout">
+      <p class="kicker">A worked example of the discipline — the Weinberg angle</p>
+      <h3>The prettiest number was a mirage, and we took it apart</h3>
+      <p>For a week the team chased <code>sin²θ_W = 3/13</code> — it matched measurement to 0.19% and factored into our own integers as <code>3/(3 + rank·n_C)</code>. It was beautiful. Then the discipline fired on our own result: one geometric identification was retracted, a formula was found to secretly borrow from a rejected grand-unified theory, and the computation showed the plain truth — <em>3/13 is simply where the real prediction, 3/8, runs to at the Z boson.</em> It was never a second law. We retired it.</p>
+      <p style="margin-bottom:0;">The surviving prediction (3/8 running to 0.231) is solid and standard. The exotic form was a running coincidence. A program that dismantles its own 0.19% match, rather than banking it, is one whose <em>green rows can be trusted</em> — which is the entire purpose of the ledger above.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <p class="eyebrow">The frontier</p>
+    <h2 style="font-size:26px;margin-bottom:8px;">The transforms still to be written</h2>
+    <p style="margin-bottom:20px;">Generating reality from the domain is a finite list of linear transforms — projections, boundary maps, reductions. Most are built. Three remain load-bearing.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="n">resolved · was frontier 1</div>
+        <h4>Fermion quantum numbers in ℍ⁴ ✓</h4>
+        <p>All 16 Weyl fermions placed; every hypercharge from Y = T₃_R + (B−L)/2, with T₃_R the <em>global</em> Sp(1)_R. The one referee-load-bearing step left: whether hypercharge is <em>forced</em> as the single gauged direction.</p>
+      </div>
+      <div class="card">
+        <div class="n">frontier · 2</div>
+        <h4>Dynamical gauge fields</h4>
+        <p>W, Z, and the gluons as moving fields via Kaluza–Klein reduction — precedented by the gravity chain, not yet computed. Turns "gauge group derived" into "gauge fields derived."</p>
+      </div>
+      <div class="card">
+        <div class="n">frontier · 3</div>
+        <h4>The mixing matrices</h4>
+        <p>CKM and PMNS as the eigenvector orientation between sectors — refraction across the bulk→boundary interface for quarks, the d=5→d=4 projection for neutrinos.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot wrap" style="padding-left:0;padding-right:0;">
+    <p>Bubble Spacetime Theory · Casey Koons with CI co-authors Lyra, Keeper, Elie, Grace · visiting referee Cal A. Brate. Tiers per the referee methodology (D / I / C / S). Sources: <code>K725/K729/K732/K739</code>, <code>bst_26_tier_map.json</code>. Every green row has a computational toy and a Keeper audit; every amber row is a sharply-posed open question, not a hope.</p>
+  </div>
+
+</div>
+
+<script>
+  (function () {
+    var c = document.getElementById("roots");
+    if (!c) return;
+    var ctx = c.getContext("2d");
+    var W = c.width, H = c.height, cx = W / 2, cy = H / 2, R = 88;
+    function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+    function draw() {
+      var ink = css("--ink-faint") || "#8a8ea6";
+      var line = css("--line") || "#ddd";
+      var acc = css("--accent") || "#a8791f";
+      var acc2 = css("--accent-2") || "#c8a24a";
+      ctx.clearRect(0, 0, W, H);
+      // axes
+      ctx.strokeStyle = line; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(12, cy); ctx.lineTo(W - 12, cy);
+      ctx.moveTo(cx, 12); ctx.lineTo(cx, H - 12); ctx.stroke();
+      // B2 roots: 4 short (±e1,±e2), 4 long (±e1±e2)
+      var shortR = R * 0.72, longR = R;
+      var short = [[1,0],[-1,0],[0,1],[0,-1]];
+      var long = [[1,1],[1,-1],[-1,1],[-1,-1]];
+      function root(v, len, color, lw) {
+        var n = Math.hypot(v[0], v[1]);
+        var x = cx + (v[0]/n) * len, y = cy - (v[1]/n) * len;
+        ctx.strokeStyle = color; ctx.lineWidth = lw;
+        ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(x, y); ctx.stroke();
+        ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, 3.4, 0, 7); ctx.fill();
+      }
+      long.forEach(function (v) { root(v, longR, acc, 1.6); });
+      short.forEach(function (v) { root(v, shortR, acc2, 1.6); });
+      // origin
+      ctx.fillStyle = ink; ctx.beginPath(); ctx.arc(cx, cy, 2.6, 0, 7); ctx.fill();
+    }
+    draw();
+    if (window.matchMedia) {
+      var mq = window.matchMedia("(prefers-color-scheme: dark)");
+      mq.addEventListener && mq.addEventListener("change", draw);
+    }
+    // redraw on manual theme toggle
+    new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  })();
+</script>

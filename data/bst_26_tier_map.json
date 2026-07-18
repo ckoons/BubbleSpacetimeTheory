@@ -1,57 +1,223 @@
 {
-  "title": "BST 26 — Tier Map (Substrate Linear Algebra Program): which layer/law each observable rides",
-  "author": "Grace (Claude Opus 4.8) + Keeper",
-  "date": "2026-07-17",
-  "legend": {
-    "LAW": "rides a POLYNOMIAL identity among primaries, true for ALL rank (deepest forcing). e.g. g^2=N_c^2*n_C+rank^2",
-    "VALUE_SPECIFIC": "rides an exact identity that holds only AT rank=2 (e.g. N_c+g=rank*n_C). Exact + target-innocent, but a value-coincidence, not a law.",
-    "LATTICE": "a monomial in the {2,3,5,7} prime lattice (Layer-1 multiplicative). Gatto is the one clean cross-observable syzygy.",
-    "CORRESPONDENCE": "rides the rep-theory/octonion spine (Layer 3) — strong correspondence, derivation-status open (real-form frontier).",
-    "GRAVITY_SCALE": "the ONE genuinely free dimensionful input; dimensionful observables ride it.",
-    "RUNNER": "scale-dependent coupling (RG endpoint); M_Z-value is a primary form but running is real physics.",
-    "STRUCTURAL": "no clean closed form; %-level structural tier (the honest holdouts).",
-    "EXACT_ZERO": "forced to zero by Five-Absence / substrate (target-innocent)."
+ "title": "BST 26 \u2014 Tier Map (Substrate Linear Algebra Program): which layer/law each observable rides",
+ "author": "Grace (Claude Opus 4.8) + Keeper",
+ "date": "2026-07-17",
+ "legend": {
+  "LAW": "rides a POLYNOMIAL identity among primaries, true for ALL rank (deepest forcing). e.g. g^2=N_c^2*n_C+rank^2",
+  "VALUE_SPECIFIC": "rides an exact identity that holds only AT rank=2 (e.g. N_c+g=rank*n_C). Exact + target-innocent, but a value-coincidence, not a law.",
+  "LATTICE": "a monomial in the {2,3,5,7} prime lattice (Layer-1 multiplicative). Gatto is the one clean cross-observable syzygy.",
+  "CORRESPONDENCE": "rides the rep-theory/octonion spine (Layer 3) \u2014 strong correspondence, derivation-status open (real-form frontier).",
+  "GRAVITY_SCALE": "the ONE genuinely free dimensionful input; dimensionful observables ride it.",
+  "RUNNER": "scale-dependent coupling (RG endpoint); M_Z-value is a primary form but running is real physics.",
+  "STRUCTURAL": "no clean closed form; %-level structural tier (the honest holdouts).",
+  "EXACT_ZERO": "forced to zero by Five-Absence / substrate (target-innocent)."
+ },
+ "map": {
+  "sin2_th13_PMNS": {
+   "form": "1/(N_c^2*n_C)=1/(g^2-rank^2)=1/45",
+   "tier": "LAW",
+   "depth": "2-DEEP",
+   "law": "g^2=N_c^2*n_C+rank^2 (Pythagorean 49=45+4, POLYNOMIAL law true for all rank)",
+   "precision": "0.1%"
   },
-  "map": {
-    "sin2_th13_PMNS": {"form": "1/(N_c^2*n_C)=1/(g^2-rank^2)=1/45", "tier": "LAW", "depth": "2-DEEP", "law": "g^2=N_c^2*n_C+rank^2 (Pythagorean 49=45+4, POLYNOMIAL law true for all rank)", "precision": "0.1%"},
-    "sin2_th23_PMNS": {"form": "rank^2/g=4/7", "tier": "LATTICE", "depth": "2-SHALLOW", "note": "monomial 4/7; octant deviation cos2th23=-1/g; NOT a deep law", "precision": "structural"},
-    "sin2_th12_PMNS": {"form": "N_c/(N_c+g)=3/10", "tier": "VALUE_SPECIFIC", "depth": "2-SHALLOW", "law": "N_c+g=rank*n_C=10 (VALUE-specific, zero only at rank=2)", "precision": "2%"},
-    "delta_PMNS_magnitude": {"form": "|sin d|=rank/g=2/7, cos d=-N_c*sqrt(n_C)/g", "tier": "LAW", "depth": "2-DEEP", "law": "g^2=45+4 makes sin^2+cos^2=1 EXACTLY -> |sin d|=2/7 LAW-derived (Pythagorean)", "precision": "matches NuFIT ~197"},
-    "delta_PMNS_branch": {"form": "197 (J<0) vs 163 (J>0)", "tier": "DATA_PICKED", "note": "F568 killed the chirality->sign bridge; sign(sin d) is a data input, NOT derived. Only the MAGNITUDE 2/7 is law."},
-    "sin2_thC_Cabibbo": {"form": "1/(rank^2*n_C)=1/20=m_d/m_s", "tier": "LATTICE", "law": "GATTO: sin2_thC*(m_s/m_d)=1 (the UNIQUE clean multiplicative syzygy)", "precision": "0.4%"},
-    "V_cb": {"form": "structural 0.044 (evanescent truncation, up refracts to boundary=y_t=1)", "tier": "STRUCTURAL", "note": "sub-percent 0.041 & 36/869 REJECTED as fits (K684/K711). ~8% structural.", "precision": "8%"},
-    "V_ub": {"form": "~sqrt(m_u/m_c) texture", "tier": "STRUCTURAL", "note": "the Fritzsch soft spot, weak (factor ~2)", "precision": "weak"},
-    "delta_CKM": {"form": "arctan(sqrt(n_C))", "tier": "VALUE_SPECIFIC", "note": "J_CKM~3e-5", "precision": "structural"},
-    "m_s/m_d": {"form": "rank^2*n_C=(N_c+1)(N_c+2)=20", "tier": "LATTICE", "note": "Gatto-linked (F506, independent of Cabibbo per Cal)", "precision": "0.5%"},
-    "m_u/m_d": {"form": "sqrt(3/14)=sqrt(N_c/(rank*g))", "tier": "LATTICE", "note": "refraction/Fresnel monomial in {2,3,7}", "precision": "0.09%"},
-    "m_t/m_b": {"form": "C_2*g=42", "tier": "LATTICE", "note": "the b's home is the top (T1990)", "precision": "1.7%"},
-    "m_c/m_s": {"form": "(N_max-1)/(2*n_C)=68/5", "tier": "LATTICE+ANCHOR", "note": "uses 17=(N_max-1)/8 anchor", "precision": "structural"},
-    "dm2_ratio_nu": {"form": "100/3 = rank^2*n_C^2/N_c", "tier": "LATTICE", "precision": "structural"},
-    "m_nu1": {"form": "0", "tier": "EXACT_ZERO", "note": "origin pin (nu1=origin), Z3-protected, no steriles (Five-Absence)"},
-    "alpha_inv": {"form": "N_c^3*n_C+rank=137=N_max", "tier": "LAW+ANCHOR", "law": "the N_max generative recipe; capacity-count (K701); 4pi=descent Coulomb solid angle", "precision": "exact integer, 0.026% with 2pi/4pi"},
-    "sin2_thW_MZ": {"form": "sin2thW = 1/(2 + (1/4)*||B-L||^2); = 3/13 when ||B-L||^2=28/3", "tier": "REDUCED_TO_ONE_GEOMETRIC_NORM (||B-L||^2)", "note": "RE-POSED PROPERLY (Lyra F576, supersedes the sqrt(rank)/two-spheres heuristic + resolves Elie's two-arrow seam): for a NON-grand-unified theory you must use the ACTUAL gauge couplings (g ~ 1/||generator||), NOT the GUT trace formula. Result collapses to ONE clean statement: sin2thW = 1/(2 + (1/4)||B-L||^2). Weak gen norm=1, electric charge Q=J12+(B-L)/2. VERIFIED anchors: ||B-L||^2=8/3 -> 3/8 (GUT); ||B-L||^2=28/3 -> 3/13 (observed, 0.2%). WEAK-COLOR MADE EXACT (Casey's coupling, named): quark baryon number B=1/3=1/N_c (takes N_c=3 quarks to make a baryon), so the color number N_c enters sin2thW THROUGH ||B-L||^2 geometrically, not by hand. GRACE LEAD (flagged to Lyra): the observed target ||B-L||^2=28/3 = rank^2*g/N_c (=4*7/3) is a CLEAN PRIMARY FORM (vs GUT 8/3=rank^3/N_c) -- target-innocent-shaped, worth testing as the derivation target. OPEN (the real next dig): ||B-L||^2 is NOT yet computed from the geometry (only measured-to-want 28/3); + Elie's running-scale gate. TIER: reduced-to-one-geometric-norm, NOT derived. I render reduced->DERIVED when ||B-L||^2 is forced target-innocent (one norm -> 3 closures: sin2_thW + gauge couplings + weak-color).", "precision": "0.2%"},
-    "alpha_s_MZ": {"form": "runner", "tier": "RUNNER", "note": "scale-dependent, RG endpoint; honest holdout"},
-    "lambda_Higgs": {"form": "1/rank^3=1/8", "tier": "LATTICE", "note": "boundary-count reciprocal; m_H=(v/2)sqrt(1+n_C/N_max) 0.02%", "precision": "0.02% (corrected)"},
-    "higgs_vev_v": {"form": "gravity-scale-tied", "tier": "GRAVITY_SCALE", "note": "the one free dimensionful input"},
-    "m_e": {"form": "6*pi^5*alpha^12*m_Planck (=gravity anchor)", "tier": "GRAVITY_SCALE", "note": "FORCED once the gravity scale is fixed; 0.03%"},
-    "m_t_absolute": {"form": "y_t=1 * v/sqrt(2)", "tier": "GRAVITY_SCALE+CORRESPONDENCE", "note": "top saturates the Shilov boundary (y_t=1)"},
-    "theta_QCD": {"form": "0", "tier": "EXACT_ZERO", "note": "strong-CP; Five-Absence / substrate-natural"},
-    "gauge_SU2_weak": {"form": "SU(2)_L; rank=2=h^dual(SU(2))", "tier": "DERIVED_NATIVE", "note": "K727-K729: SO(5)=Sp(2)=USp(4) is QUATERNIONIC; its 4-spinor = (2,1)_L + (1,2)_R = the EW doublet structure NATIVE, nothing added (F570, verified). SU(2)_L = an Sp(1) factor, rank=2 = h^dual = doublet dim. DERIVED (not hosted, unlike color). Residual: dynamical gauging (W/Z) only."},
-    "parity_violation_VmA": {"form": "weak couples to ONE chirality (V-A)", "tier": "DERIVED_NATIVE", "law": "g=7 ODD -> volume element omega=gamma_1..gamma_7=-i*1 is CENTRAL -> spacetime chirality LOCKED to internal weak chirality (omega=gamma5^ST*chi^int) -> weak doublet single-handed = parity violation FORCED (F571, verified K729)", "note": "NEW PHYSICS: parity violation is a consequence of the ODD substrate dimension g=7. Target-innocent (g fixed long ago), falsifiable (even substrate -> no parity violation). L-vs-R label = convention. Forbids light nu_R (consistent Majorana)."},
-    "gauge_SU3_color": {"form": "SU(3) via G2<SO(7), 8 gluons in g2", "tier": "SUPPORTED_via_intrinsic_complex_structure", "note": "K727+F572 (Casey's correction): D_IV^5 is a HERMITIAN domain -> INTRINSICALLY complex, with canonical complex structure J = the SO(2) charge-circle generator. So the complexification reaching the octonions uses the domain's OWN complex structure, NOT 'washing away minus signs' -> octonions POSITIVELY supported (not merely hosted). BUT color DYNAMICS (gluon fields) still NOT derived -- a geometric home, not yet the gauge fields. SUPPORTED-structural, not derivation. Three-doors: C(J=SO(2))->U(1), H(real-form spinor)->weak, O(intrinsic-complex/dual spinor)->color."},
-    "gauge_U1_hypercharge": {"form": "U(1) <- SO(2) charge circle", "tier": "CORRESPONDENCE", "note": "the S^1 charge weight (T2470); dim(SM)=8+3+1=12=rank*C_2"}
+  "sin2_th23_PMNS": {
+   "form": "rank^2/g=4/7",
+   "tier": "LATTICE",
+   "depth": "2-SHALLOW",
+   "note": "monomial 4/7; octant deviation cos2th23=-1/g; NOT a deep law",
+   "precision": "structural"
   },
-  "summary": {
-    "LAW_2deep_rides": ["sin2_th13_PMNS", "delta_PMNS_magnitude", "alpha_inv (N_max recipe)"],
-    "VALUE_SPECIFIC_2shallow": ["sin2_th12_PMNS", "delta_CKM"],
-    "LATTICE_monomials": ["sin2_thC (Gatto=unique clean syzygy)", "sin2_th23 (2-shallow)", "m_s/m_d", "m_u/m_d", "m_t/m_b", "m_c/m_s", "dm2_ratio", "lambda_Higgs"],
-    "NATIVE_candidate": ["gauge_SU2_weak (quaternionic spinor, K727 — the real derivation lane)"],
-    "CORRESPONDENCE_hosted": ["gauge_SU3_color (octonion, HOSTED not derived, K727)", "gauge_U1", "m_t (y_t=1)"],
-    "GRAVITY_SCALE_one_free": ["v", "m_e", "all 9 absolute masses ride it"],
-    "RUNNERS": ["sin2_thW", "alpha_s"],
-    "STRUCTURAL_holdouts": ["V_cb", "V_ub"],
-    "EXACT_ZERO": ["m_nu1", "theta_QCD"],
-    "count_26": "9 fermion masses (m_e=gravity anchor + 8 ratios in the lattice) + 4 CKM (Gatto-Cabibbo LATTICE, V_cb/V_ub STRUCTURAL, delta_CKM value-specific) + 4 PMNS (th13 LAW-2deep, th23+th12 2-shallow, delta LAW-magnitude+data-branch) + 3 gauge (alpha=N_max LAW, sin2_thW+alpha_s RUNNERS) + 2 Higgs (lambda=1/8 LATTICE, v=SCALE) + theta_QCD (EXACT ZERO) = 26.",
-    "headline": "The 26 as ONE honestly-tiered module: (1) deepest forcing = the Pythagorean LAW g^2=45+4 carries sin2_th13 + the delta magnitude (2-DEEP); (2) ONE clean multiplicative syzygy (Gatto); (3) ONE value-specific coincidence (N_c+g=10) carries theta12 (2-SHALLOW); (4) the gauge sector splits by K727 — SU(2)_weak is NATIVE (quaternionic spinor, a real derivation lane), SU(3)_color is HOSTED (octonion, correspondence not derivation); (5) ONE free dimensionful input (gravity scale); (6) two RUNNERS (sin2_thW, alpha_s); (7) two STRUCTURAL holdouts (V_cb, V_ub); (8) two EXACT ZEROS (m_nu1, theta_QCD). One seed (rank=2) + one ruler (gravity) + one circle number (pi), with the derived/hosted/free boundary drawn exactly where the math puts it."
+  "sin2_th12_PMNS": {
+   "form": "N_c/(N_c+g)=3/10",
+   "tier": "VALUE_SPECIFIC",
+   "depth": "2-SHALLOW",
+   "law": "N_c+g=rank*n_C=10 (VALUE-specific, zero only at rank=2)",
+   "precision": "2%"
+  },
+  "delta_PMNS_magnitude": {
+   "form": "|sin d|=rank/g=2/7, cos d=-N_c*sqrt(n_C)/g",
+   "tier": "LAW",
+   "depth": "2-DEEP",
+   "law": "g^2=45+4 makes sin^2+cos^2=1 EXACTLY -> |sin d|=2/7 LAW-derived (Pythagorean)",
+   "precision": "matches NuFIT ~197"
+  },
+  "delta_PMNS_branch": {
+   "form": "197 (J<0) vs 163 (J>0)",
+   "tier": "DATA_PICKED",
+   "note": "F568 killed the chirality->sign bridge; sign(sin d) is a data input, NOT derived. Only the MAGNITUDE 2/7 is law."
+  },
+  "sin2_thC_Cabibbo": {
+   "form": "1/(rank^2*n_C)=1/20=m_d/m_s",
+   "tier": "LATTICE",
+   "law": "GATTO: sin2_thC*(m_s/m_d)=1 (the UNIQUE clean multiplicative syzygy)",
+   "precision": "0.4%"
+  },
+  "V_cb": {
+   "form": "structural 0.044 (evanescent truncation, up refracts to boundary=y_t=1)",
+   "tier": "STRUCTURAL",
+   "note": "sub-percent 0.041 & 36/869 REJECTED as fits (K684/K711). ~8% structural.",
+   "precision": "8%"
+  },
+  "V_ub": {
+   "form": "CKM 1<->3 = bulk<->Shilov Born overlap (CKM analog of PMNS th13)",
+   "tier": "MIXING_MECHANISM_DERIVED (magnitude identified, rep-theory-open)",
+   "note": "RECLASSIFIED (K755, Directive 1): NOT a standalone soft spot. V_ub = the CKM 1<->3 element = the bulk<->Shilov orbit-pair overlap, the exact CKM analog of PMNS theta13. Inherits the mixing-mechanism-DERIVED status; its magnitude is identified/rep-theory-open like the PMNS angles (D-home = the bulk<->Shilov pair-space), not a weakness. The soft-spots list shrinks to just m_u."
+  },
+  "delta_CKM": {
+   "form": "arctan(sqrt(n_C))",
+   "tier": "VALUE_SPECIFIC",
+   "note": "J_CKM~3e-5",
+   "precision": "structural"
+  },
+  "m_s/m_d": {
+   "form": "rank^2*n_C=(N_c+1)(N_c+2)=20",
+   "tier": "LATTICE",
+   "note": "Gatto-linked (F506, independent of Cabibbo per Cal)",
+   "precision": "0.5%"
+  },
+  "m_u/m_d": {
+   "form": "sqrt(3/14)=sqrt(N_c/(rank*g))",
+   "tier": "LATTICE",
+   "note": "refraction/Fresnel monomial in {2,3,7}",
+   "precision": "0.09%",
+   "reframe_K755": "m_u is COMPUTABLE, NOT CLEANLY OBSERVABLE (Directive 1): the up-quark is confined -> NO pole mass; the quoted 'up mass' is a scheme-dependent Lagrangian parameter (un-sharp even in experiment). BST computes its radial moment of mu; the observable side isn't clean. NEW (Directive 2, tomorrow): candidate rank-2 Born DOUBLET -- n=0 quark projects onto BOTH Jordan idempotents (why-two = rank=2, same as 2 nu_R) -> two mass eigenvalues each with a Born probability, observed 'mass' = their mixture. The one remaining true soft spot."
+  },
+  "m_t/m_b": {
+   "form": "C_2*g=42",
+   "tier": "LATTICE",
+   "note": "the b's home is the top (T1990)",
+   "precision": "1.7%"
+  },
+  "m_c/m_s": {
+   "form": "(N_max-1)/(2*n_C)=68/5",
+   "tier": "LATTICE+ANCHOR",
+   "note": "uses 17=(N_max-1)/8 anchor",
+   "precision": "structural"
+  },
+  "dm2_ratio_nu": {
+   "form": "100/3 = rank^2*n_C^2/N_c",
+   "tier": "LATTICE",
+   "precision": "structural"
+  },
+  "m_nu1": {
+   "form": "0",
+   "tier": "EXACT_ZERO",
+   "note": "origin pin (nu1=origin), Z3-protected, no steriles (Five-Absence)"
+  },
+  "alpha_inv": {
+   "form": "N_c^3*n_C+rank=137=N_max",
+   "tier": "LAW+ANCHOR",
+   "law": "the N_max generative recipe; capacity-count (K701); 4pi=descent Coulomb solid angle",
+   "precision": "exact integer, 0.026% with 2pi/4pi"
+  },
+  "sin2_thW_MZ": {
+   "form": "high-scale 3/8 (fermion-content-forced) + RGE running -> 0.231",
+   "tier": "RUNNER",
+   "note": "CLOSED as a RUNNER (Keeper K739, 2026-07-17 EOD; the whole sqrt(rank)->two-spheres->B-L hunt K733-738 resolved NEGATIVE). BST predicts sin2thW = 3/8 at HIGH scale = SigmaT3^2/SigmaQ^2 (GUT-normalized, forced by the SM fermion content = the H^4=16 spinor, so as-derived-as the content -- but STANDARD, not a BST-specific win), running down to observed 0.231 by standard RGE. 3/13 = 3/(3+rank*n_C)=0.2308 is RETIRED as a running COINCIDENCE (it sits ~0.2% from where 3/8 runs to at M_Z; 28/3 needs ||B-L||^2 a factor g/rank=7/2 above standard color norm, which no standard normalization gives; RH charges need a T3_R piece Q=J12+(B-L)/2 fails). Three lines converged (Lyra ||B-L||^2=8/3 not 28/3; Elie running gate; Keeper+Cal RH-charge gap). DISCIPLINE WIN: a 0.19% match dismantled, NOT banked (tiered lead/reduced throughout, never entered derived ledger). KEPT (structural, supported): Casey's weak-color coupling via B=1/N_c (quark baryon number 1/N_c because N_c quarks make a baryon; target-innocent). Do NOT resurface 3/13 as derived/identified.",
+   "precision": "runner (3/8 high-scale + RGE)",
+   "reframe_K755": "COMPUTABLE, NOT CLEANLY OBSERVABLE (Directive 1): BST gives the high-scale value 3/8 (fermion-content-derived) + the RGE direction; the observed number is a scale-dependent extraction. The softness is in the OBSERVABLE (it runs, no scheme-independent value), not in BST's computation. Licensed by the containment theorem (mu is proven; every derived observable is a functional of it)."
+  },
+  "alpha_s_MZ": {
+   "form": "runner",
+   "tier": "RUNNER",
+   "note": "scale-dependent, RG endpoint; honest holdout",
+   "reframe_K755": "COMPUTABLE, NOT CLEANLY OBSERVABLE (Directive 1): confines (no IR fixed value) + runs; BST derives the beta-function SIGN (beta0=11N_c-2N_f=21>0 -> asymptotic freedom, from N_c=3 & N_f=6, both BST integers) but the exact alpha_s is a scale-dependent runner. Softness in the observable, not the computation."
+  },
+  "lambda_Higgs": {
+   "form": "1/rank^3=1/8",
+   "tier": "LATTICE",
+   "note": "boundary-count reciprocal; m_H=(v/2)sqrt(1+n_C/N_max) 0.02%",
+   "precision": "0.02% (corrected)"
+  },
+  "higgs_vev_v": {
+   "form": "gravity-scale-tied",
+   "tier": "GRAVITY_SCALE",
+   "note": "the one free dimensionful input"
+  },
+  "m_e": {
+   "form": "6*pi^5*alpha^12*m_Planck (=gravity anchor)",
+   "tier": "GRAVITY_SCALE",
+   "note": "FORCED once the gravity scale is fixed; 0.03%"
+  },
+  "m_t_absolute": {
+   "form": "y_t=1 * v/sqrt(2)",
+   "tier": "GRAVITY_SCALE+CORRESPONDENCE",
+   "note": "top saturates the Shilov boundary (y_t=1)"
+  },
+  "theta_QCD": {
+   "form": "0",
+   "tier": "EXACT_ZERO",
+   "note": "strong-CP; Five-Absence / substrate-natural"
+  },
+  "gauge_SU2_weak": {
+   "form": "SU(2)_L; rank=2=h^dual(SU(2))",
+   "tier": "DERIVED_NATIVE",
+   "note": "K727-K729: SO(5)=Sp(2)=USp(4) is QUATERNIONIC; its 4-spinor = (2,1)_L + (1,2)_R = the EW doublet structure NATIVE, nothing added (F570, verified). SU(2)_L = an Sp(1) factor, rank=2 = h^dual = doublet dim. DERIVED (not hosted, unlike color). Residual: dynamical gauging (W/Z) only."
+  },
+  "parity_violation_VmA": {
+   "form": "weak couples to ONE chirality (V-A)",
+   "tier": "DERIVED_NATIVE",
+   "law": "g=7 ODD -> volume element omega=gamma_1..gamma_7=-i*1 is CENTRAL -> spacetime chirality LOCKED to internal weak chirality (omega=gamma5^ST*chi^int) -> weak doublet single-handed = parity violation FORCED (F571, verified K729)",
+   "note": "NEW PHYSICS: parity violation is a consequence of the ODD substrate dimension g=7. Target-innocent (g fixed long ago), falsifiable (even substrate -> no parity violation). L-vs-R label = convention. Forbids light nu_R (consistent Majorana)."
+  },
+  "gauge_SU3_color": {
+   "form": "SU(3) via G2<SO(7), 8 gluons in g2",
+   "tier": "SUPPORTED_via_intrinsic_complex_structure",
+   "note": "K727+F572 (Casey's correction): D_IV^5 is a HERMITIAN domain -> INTRINSICALLY complex, with canonical complex structure J = the SO(2) charge-circle generator. So the complexification reaching the octonions uses the domain's OWN complex structure, NOT 'washing away minus signs' -> octonions POSITIVELY supported (not merely hosted). BUT color DYNAMICS (gluon fields) still NOT derived -- a geometric home, not yet the gauge fields. SUPPORTED-structural, not derivation. Three-doors: C(J=SO(2))->U(1), H(real-form spinor)->weak, O(intrinsic-complex/dual spinor)->color."
+  },
+  "gauge_U1_hypercharge": {
+   "form": "U(1) <- SO(2) charge circle",
+   "tier": "CORRESPONDENCE",
+   "note": "the S^1 charge weight (T2470); dim(SM)=8+3+1=12=rank*C_2"
   }
+ },
+ "summary": {
+  "LAW_2deep_rides": [
+   "sin2_th13_PMNS",
+   "delta_PMNS_magnitude",
+   "alpha_inv (N_max recipe)"
+  ],
+  "VALUE_SPECIFIC_2shallow": [
+   "sin2_th12_PMNS",
+   "delta_CKM"
+  ],
+  "LATTICE_monomials": [
+   "sin2_thC (Gatto=unique clean syzygy)",
+   "sin2_th23 (2-shallow)",
+   "m_s/m_d",
+   "m_u/m_d",
+   "m_t/m_b",
+   "m_c/m_s",
+   "dm2_ratio",
+   "lambda_Higgs"
+  ],
+  "NATIVE_candidate": [
+   "gauge_SU2_weak (quaternionic spinor, K727 \u2014 the real derivation lane)"
+  ],
+  "CORRESPONDENCE_hosted": [
+   "gauge_SU3_color (octonion, HOSTED not derived, K727)",
+   "gauge_U1",
+   "m_t (y_t=1)"
+  ],
+  "GRAVITY_SCALE_one_free": [
+   "v",
+   "m_e",
+   "all 9 absolute masses ride it"
+  ],
+  "RUNNERS": [
+   "sin2_thW",
+   "alpha_s"
+  ],
+  "STRUCTURAL_holdouts": [
+   "V_cb",
+   "V_ub"
+  ],
+  "EXACT_ZERO": [
+   "m_nu1",
+   "theta_QCD"
+  ],
+  "count_26": "9 fermion masses (m_e=gravity anchor + 8 ratios in the lattice) + 4 CKM (Gatto-Cabibbo LATTICE, V_cb/V_ub STRUCTURAL, delta_CKM value-specific) + 4 PMNS (th13 LAW-2deep, th23+th12 2-shallow, delta LAW-magnitude+data-branch) + 3 gauge (alpha=N_max LAW, sin2_thW+alpha_s RUNNERS) + 2 Higgs (lambda=1/8 LATTICE, v=SCALE) + theta_QCD (EXACT ZERO) = 26.",
+  "headline": "The 26 as ONE honestly-tiered module: (1) deepest forcing = the Pythagorean LAW g^2=45+4 carries sin2_th13 + the delta magnitude (2-DEEP); (2) ONE clean multiplicative syzygy (Gatto); (3) ONE value-specific coincidence (N_c+g=10) carries theta12 (2-SHALLOW); (4) the gauge sector splits by K727 \u2014 SU(2)_weak is NATIVE (quaternionic spinor, a real derivation lane), SU(3)_color is HOSTED (octonion, correspondence not derivation); (5) ONE free dimensionful input (gravity scale); (6) two RUNNERS (sin2_thW, alpha_s); (7) two STRUCTURAL holdouts (V_cb, V_ub); (8) two EXACT ZEROS (m_nu1, theta_QCD). One seed (rank=2) + one ruler (gravity) + one circle number (pi), with the derived/hosted/free boundary drawn exactly where the math puts it.",
+  "grand_synthesis_K754": "THE SM IS QUANTUM MECHANICS ON D_IV^5 (K754, simplification of K753). Born rule = Bergman kernel (PROVEN T2401/T754, unique automorphism-invariant measure on H^2(D_IV^5)). So ordinary QM on H^2(D_IV^5) AUTOMATICALLY produces the SM: couplings=democratic counts (alpha=1/137), masses=radial norms (Sigma of the SVD), mixings=angular Born overlaps |<flag|frame>|^2 (dual-rho: compact rho_SO(5)=(3/2,1/2) frame vs conformal rho=(5/2,3/2) flag), CP=overlap phases, confinement/gauge=Schur structure (only color singlets carry Shilov boundary support), conservation=the measure's symmetries. NOT '26 parameters', NOT even 'one measure' -- the SM is WHAT QM PRODUCES when the Hilbert space is H^2 of this one shape. Rank-2 root system = the SYMMETRY layer; QM/Born measure = the DYNAMICS layer; one statement. G3 DE-DOUBLE-NAMING: what was called 'the democracy/equipartition principle' is NOT a new principle -- it IS the Born rule (2 instances alpha+mixing = the same proven rule; lambda_H failed 3.5%); state flavor as 'Born probabilities on the proven measure', not a named principle. TIER: framework built on PROVEN parts (Born=Bergman proven; the observable-decompositions derived) -- NOT 'the SM is derived'. Mixing DENOMINATORS rep-theory-open (theta23 D=7=SO(5,2) defining rep whose null cone IS the Shilov boundary; theta12 D=10=dim SO(5); theta13 D=45=Lambda^2(theta12), Grace's chain) -- candidate lives-there step, off critical path. NEW FRONTIER: N1 make the synthesis a THEOREM (observable=moment/functional of the measure); N2 QM=stat-mech via the D_IV^5 partition function."
+ }
 }

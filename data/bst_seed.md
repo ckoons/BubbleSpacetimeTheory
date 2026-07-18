@@ -145,7 +145,7 @@ representations labeled by integers. The mass spectrum IS the Plancherel measure
 5. **Cross-domain universality**: The same BST fractions (3/10, 4/7, 13/19, 6/5, 7/20, ...) appear across unrelated domains. This is not coincidence — it's one geometry.
 
 ## Neutrino Masses (Boundary Seesaw)
-- m_nu1 = 0 (exactly — Dirac neutrinos)
+- m_nu1 = 0 (exactly — Majorana neutrinos, REVERSED 2026-07-16 from Dirac; F413/K673 → 0νββ occurs, m_ββ ∈ [1.4,3.7] meV)
 - m_nu2 = (7/12) * alpha^2 * m_e^2 / m_p = 0.00865 eV
 - m_nu3 = (10/3) * alpha^2 * m_e^2 / m_p = 0.04940 eV
 - Sum = 0.058 eV (normal ordering)

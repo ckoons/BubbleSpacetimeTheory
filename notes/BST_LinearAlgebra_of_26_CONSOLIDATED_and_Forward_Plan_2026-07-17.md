@@ -72,3 +72,8 @@ A rigorous, honestly-tiered statement of the entire Standard Model parameter tab
 **Plan delta:** Workstream D gets the sharpened sub-target above as its highest-value piece. Everything else (A/B/C/E/F) stands. Discipline unchanged: exact-only, derived≠correspondence, Five-Absence filter, sin²θ_W stays at reduced-to-lead until the (1,1) forcing is proven.
 
 — Keeper update, 2026-07-17. See [[Keeper_K735_casey_two_isomorphic_spheres_basis_change...]], [[Keeper_K734_sqrt_rank_has_a_rho_weighting_subtlety...]], [[Keeper_K732_THE_SYNTHESIS...]].
+
+---
+
+## UPDATE 2 — EOD 2026-07-17: sin²θ_W THREAD CLOSED (K739)
+The √rank → two-spheres → B−L arc resolved **NEGATIVE for the exotic 3/13**. Honest close: **sin²θ_W is a RUNNER** — high-scale **3/8** (forced by the SM fermion content = the ℍ⁴ spinor, hence as-derived-as the content), running by standard RGE to observed 0.231. **3/13 RETIRED** as the run-down shadow (it sits where 3/8 runs to at M_Z; reaching 28/3→3/13 needs ‖B−L‖² a factor g/rank above standard color norm, which nothing produces; and the B−L charge formula fails the right-handed charges without a forbidden T₃_R/Pati-Salam piece). **KEPT:** the weak-color coupling as a real structural fact — color enters via B = 1/N_c (target-innocent). **Ledger action:** sin²θ_W → runner (S-tier); 3/13 marked retired-running-coincidence in `bst_constants.json` so it doesn't resurface. **Discipline win:** a 0.19% match dismantled, not banked (K736+K737+K738+Cal §32+Lyra retirement). Workstream F (soft-spots/runners) absorbs this; the sin²θ_W row is now closed-as-runner, not open. See [[Keeper_K739_CAPSTONE_sin2w_thread_CLOSED...]].

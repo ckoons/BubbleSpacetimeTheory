@@ -20,15 +20,15 @@ We commit to the following predictions, ordered by falsification strength. If an
 
 ---
 
-## Prediction 1: No Neutrinoless Double Beta Decay at Any Scale
+## Prediction 1: Neutrinoless Double Beta Decay OCCURS at m_ββ ∈ [1.4,3.7] meV (REVERSED 2026-07-16)
 
-**Claim**: BST predicts Dirac neutrinos (Z_3 on CP^2 fiber, Hopf structure forces Dirac). Neutrinoless double beta decay (0vbb) will NOT be observed at any half-life, regardless of detector sensitivity.
+**Claim**: BST predicts MAJORANA neutrinos (F413/K673: Weinberg dim-5 operator, no steriles, γ⁵-shadow intertwiner; further supported by F582 ν_R = gauge-blind singlet). Neutrinoless double beta decay (0νββ) OCCURS with effective mass m_ββ ∈ [1.4, 3.7] meV (normal ordering, m_ν1=0). A detection in that range SUPPORTS BST; a null result below ~1 meV falsifies. [REVERSED 2026-07-16 from the retired Dirac / no-0νββ claim.]
 
 **Falsification condition**: Observation of 0vbb at any half-life above 10^24 years (current sensitivity ~10^26 years, next generation targets 10^28 years).
 
 **Timeline**: LEGEND-200 (~2027), nEXO (~2030), CUPID (~2028).
 
-**BST basis**: T319 (permanent alphabet), Hopf fiber argument — neutrino mass structure is Dirac, Majorana mass term topologically forbidden by D_IV^5 fiber structure.
+**BST basis**: F413/K673 — the Majorana mass is the ΔL=2 winding-changing term (B−L violated by 2); the old 'Hopf forbids Majorana' argument is retired (the ℤ₃/Hopf protection is perturbative, broken by the discrete ΔL=2 mass).
 
 **Strength**: Strong. This is a binary prediction (yes/no) with no adjustable threshold. Every null result strengthens BST; a single detection kills it.
 

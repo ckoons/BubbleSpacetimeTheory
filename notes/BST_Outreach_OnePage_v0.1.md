@@ -80,7 +80,7 @@ RH (Paper #103), P≠NP, Yang-Mills, Navier-Stokes, BSD, Four-Color, Hodge.
 | Prediction | Experiment |
 |---|---|
 | r_p = 0.84122 fm exactly | PRad-II, MUSE, JUDE |
-| No 0νββ in LEGEND-1000 (m_ββ < 4 meV) | LEGEND-1000 |
+| 0νββ OCCURS: m_ββ ∈ [1.4,3.7] meV (Majorana, REVERSED 2026-07-16) | LEGEND-1000, nEXO |
 | N_eff = 3.046 ± 0.005 | CMB-S4 |
 | m_t → 174.10 GeV | LHC top precision |
 | No μ→eγ at any level | MEG II, MEG III |

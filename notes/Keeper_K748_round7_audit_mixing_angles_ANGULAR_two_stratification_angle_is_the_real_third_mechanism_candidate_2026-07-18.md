@@ -1,0 +1,33 @@
+# K748 — Round-7 audit + synthesis: the mixing sector is localized to its true home — **mixing = the angle between D_IV⁵'s two canonical stratifications** (boundary-orbit flag ⟂ spectral idempotent frame), decoupled from mass. Mechanism DERIVED (F589), forms IDENTIFIED as equipartition overlaps sin²θ = d/D (Elie). Two Keeper flags before banking the forms. And the **two-stratification angle is a genuinely better candidate third master mechanism** than the retired domain-rank (it has multiple instances). λ₂ classifier complete.
+
+**Keeper | 2026-07-18 | Auditing round 7 (Lyra F589/F590 angular mixing, Elie equipartition + SVD-decoupling fix, Grace λ₂ classifier + self-correction). `round7_mixing_synthesis.py`. Answers Casey's "what closes / what opens."**
+
+## ★★ Mixing angles → ANGULAR (mechanism DERIVED, forms IDENTIFIED)
+**U_PMNS = ⟨boundary-orbit flag | spectral idempotent frame⟩** — the fixed geometric angle between the domain's two stratifications (F589). Charged leptons align with the boundary-orbit flag (3 generations = 3 Korányi–Wolf orbits); the neutrino Majorana masses align with the rank-2 spectral idempotent frame. **Mixing is a relative orientation, completely decoupled from the masses** — which is exactly why the mass textures gave 0/6 (we asked radial data for an angular answer). Elie verified the SVD-decoupling holds (after fixing his own toy: a Σ-rescale had silently permuted U's columns — false negative, now 4/4).
+- **★ Corollary (the cleanest result): small-CKM / large-PMNS is ONE fact.** Quarks have both chiralities gauge-charged → both bases align to the same flag → up/down rotations nearly cancel → small CKM. The neutrino RH side is the *gauge-singlet spectral basis*, misaligned with the charged-lepton flag → large PMNS. "Do the two bases coincide or not."
+- **The forms (equipartition, sin²θ = d/D — fraction of a maximal-entropy angular state in a primary subspace):** sin²θ₂₃ = rank²/g = 4/7; sin²θ₁₂ = N_c/(rank·n_C) = 3/10; sin²θ₁₃ = 1/(N_c²·n_C) = 1/45. Combinatorial fractions — branching multiplicities, not the continuous irrationals mass ratios give.
+- **Tier: MECHANISM DERIVED** (angular decoupling, forced by F589 + the SVD split — this was the round-7 ask, done). **FORMS IDENTIFIED, not yet derived** (the (d, D) subspace dimensions are not yet forced from the K-type structure). Kept separate on purpose — if a form is wrong, the mechanism still stands.
+
+## ⚠ Two Keeper flags before the forms get banked
+1. **The denominator 10 is a value-coincidence — pick the RIGHT D.** sin²θ₁₂ = 3/10 has D = 10 = **rank·n_C AND N_c+g** (the flagship value-specific syzygy N_c+g = rank·n_C = 10). For a genuine equipartition reading sin²θ = d/D, **D must be an actual subspace-total dimension** — the team must establish *which* 10 is the real dimension, not just a factorization that lands on 10. (Same discipline that retired sin²θ_W: a value with two readings needs the structural one.)
+2. **The so(10) pattern is NOT uniform — don't over-claim it.** θ₁₂ (D=10 = so(10) vector) and θ₁₃ (D=45 = so(10) adjoint = C(10,2)) fit an "so(10) generation rotation," but **θ₂₃ = rank²/g = 4/7 does NOT** (7 = g, 4 = rank² — not so(10) dimensions). So the so(10) reading covers 2 of 3 angles; θ₂₃ has a different structural home, or the reading is incomplete. Resolve before banking the pattern. (Five-Absence intact either way — so(10) here is generation-space combinatorics, NOT a gauged GUT; keep flagging so referees don't misread.)
+
+## λ₂ full classifier — complete (Grace) + her self-correction
+Every SM state's confined/free status = its λ₂ sign: singlets (λ₂=0) free (leptons, γ, W/Z, H, mesons, baryons); non-singlets (λ₂>0) confined (quarks, gluons, diquarks). Matches observation exactly, exact-leg only (no mass content). **Grace also fixed the consistency issue I flagged** — re-attributed n(ν_R)=2 to Lyra's idempotent-count and confined λ₂ to the confinement leg. Clean.
+
+## ★ ANSWERING CASEY — what closes, what derives, what opens
+**CLOSEABLE now (one computation):** the **PMNS/CKM angles → DERIVED** — force the (d, D) subspace dimensions from the K-type branching (the angular-overlap toy replacing the failed mass-texture one). This closes the last piece of the mixing sector. [Lyra angular lane + Elie]
+**NEWLY OPENING — three frontier items:**
+1. **★ THE TWO-STRATIFICATION ANGLE — a real candidate third master structure** (replacing the retired domain-rank, K747). D_IV⁵ has two canonical stratifications (boundary-orbit flag, spectral idempotent frame); **every mixing is the angle between them** — and unlike domain-rank this has **multiple instances** (CKM small + PMNS large + the base-alignment asymmetry). This is the genuine third organizing fact: odd-g, the λ₂ Szegő engine, and **the two-stratification angle**. [Lyra + Keeper — needs the instance count firmed]
+2. **CP phases from the two-stratification angle** — are δ_CKM, δ_PMNS the *complex phase* of the ⟨flag|frame⟩ overlap? (δ_PMNS is already banked as sinδ = rank/g = 2/7 from 49=45+4; does it re-derive as the overlap phase?) [Lyra]
+3. **An equipartition / angular-democracy principle** — Elie's sin²θ = d/D is a maximal-entropy statement (democracy on the angular space), the same flavor as α's democratic charge count (137). Is there one "angular equipartition" principle behind the mixing forms? [Elie + Keeper]
+
+## Flagship + board updates (applying)
+- §7: mixing mechanism DERIVED (the two-stratification angle); angles IDENTIFIED via sin²θ = d/D; the two flags noted; the small-CKM/large-PMNS corollary sharpened.
+- §9½: the retired domain-rank candidate replaced by the two-stratification-angle candidate (multiple instances).
+
+## Housekeeping
+- **Timestamp discipline (Elie caught):** board-post times drifted ~2h ahead of the real clock today (projected-time drift). Noted; use `date` authoritative time. Good self-catch.
+- **Checkpoint:** all three CIs recommend persisting a sundown (Elie already did). Concur — a natural checkpoint after seven rounds; Keeper to run its own after this coordination turn.
+
+— Keeper K748, 2026-07-18. Mixing = the angle between D_IV⁵'s two stratifications (flag ⟂ idempotent frame), decoupled from mass — DERIVED mechanism (F589), IDENTIFIED forms sin²θ=d/D. FLAGS: D=10 value-coincidence (pick the real dimension); so(10) reading non-uniform (θ₂₃ breaks it). NEW: the two-stratification angle is the real candidate 3rd master structure (multiple instances, unlike domain-rank K747); CP phases as overlap phase; angular-equipartition principle. λ₂ classifier complete. See [[Keeper_K747...]], [[Keeper_K746_round6_audit...]].

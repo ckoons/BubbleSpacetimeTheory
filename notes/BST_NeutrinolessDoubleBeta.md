@@ -4,9 +4,11 @@ author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 ---
 
+> **⚠ REVISED 2026-07-18 — PREDICTION REVERSED (Dirac → Majorana).** This paper originally predicted *Dirac* neutrinos and $|m_{\beta\beta}| = 0$ (0νββ forbidden). On **2026-07-16** BST reversed this to **Majorana** (F413/K673, Toy 4691; Weinberg operator + odd-$g$ chirality lock forbidding a unitary light $\nu_R$). The **current BST prediction is that 0νββ OCCURS**, $|m_{\beta\beta}| \in [1.44, 3.63]$ meV (normal ordering, $m_1 = 0$), and **a detection supports BST**; a confirmed null below $\sim 1$ meV would falsify. The Abstract and Sections 2, 4, 6, 9 below are revised to this reading; the old Dirac argument is preserved as the retired reading (§4.2) with the topological reframe (its Hopf/$B-L$-exact argument is superseded — the Majorana mass is the $\Delta L = 2$ winding-changing process). Data layer (`bst_predictions.json`) and K740/K741 are authoritative.
+
 ## Abstract
 
-Bubble Spacetime Theory makes a sharp, falsifiable prediction for neutrinoless double-beta decay ($0\nu\beta\beta$). BST neutrinos are vacuum modes on the Shilov boundary $\check{S} = S^4 \times S^1$, with masses $m_1 = 0$, $m_2 = (7/12)\alpha^2 m_e^2/m_p = 0.00865$ eV, and $m_3 = (10/3)\alpha^2 m_e^2/m_p = 0.04940$ eV. Because the neutrino carries no $S^1$ winding number, the neutrino and antineutrino are distinguished only by the orientation of their Hopf fiber coupling --- a topological distinction that makes neutrinos **Dirac particles** in BST. Consequently, $B - L$ is exactly conserved and $0\nu\beta\beta$ does not occur: $|m_{\beta\beta}| = 0$ exactly. This is the primary BST prediction. If, contrary to BST, neutrinos are Majorana with BST masses and mixing angles, the effective Majorana mass would be $|m_{\beta\beta}| = 3.63$ meV (Majorana phases zero) or $|m_{\beta\beta}| \in [1.44, 3.63]$ meV (phases unknown). Both scenarios are testable: a confirmed $0\nu\beta\beta$ detection at any mass scale falsifies BST; a null result at the inverted hierarchy scale ($\sim 20$ meV) is consistent; and probing the $1{-}4$ meV floor --- accessible to LEGEND-1000 combined with nEXO --- would distinguish BST from a generic Majorana normal-hierarchy scenario.
+Bubble Spacetime Theory makes a sharp, falsifiable prediction for neutrinoless double-beta decay ($0\nu\beta\beta$). BST neutrinos are vacuum modes on the Shilov boundary $\check{S} = S^4 \times S^1$, with masses $m_1 = 0$, $m_2 = (7/12)\alpha^2 m_e^2/m_p = 0.00865$ eV, and $m_3 = (10/3)\alpha^2 m_e^2/m_p = 0.04940$ eV. The neutrino is **Majorana**: the light right-handed mode is non-unitary (the $\gamma_5$ shadow intertwiner is not invertible) and the odd embedding dimension $g = 7$ locks the chirality, so no Dirac partner exists and the Weinberg operator generates a Majorana mass. Consequently **lepton number is violated by two units** — the Majorana mass is precisely the $\Delta L = 2$ topology-changing process — and **$0\nu\beta\beta$ occurs**, with effective mass $|m_{\beta\beta}| = 3.63$ meV (Majorana phases zero) or $|m_{\beta\beta}| \in [1.44, 3.63]$ meV (phases unknown), in the normal ordering with $m_1 = 0$. This is testable: a confirmed $0\nu\beta\beta$ detection in the $1$–$4$ meV window **supports** BST; a confirmed null result below $\sim 1$ meV (with an established $m_1 = 0$ hierarchical spectrum) falsifies it; and a signal clearly above $\sim 4$ meV would break the banked PMNS forms or the $m_1 = 0$ spectrum. The $1$–$4$ meV floor is accessible to LEGEND-1000 combined with nEXO.
 
 -----
 
@@ -79,27 +81,25 @@ The neutrino is the vacuum quantum of $D_{IV}^5$ --- the minimum excitation abov
 - **No color:** The neutrino is a color singlet --- it does not participate in the $Z_3$ closure of $\mathbb{CP}^2$.
 - **Weak coupling only:** The neutrino interacts solely through the Hopf fibration $S^3 \to S^2$ on the Shilov boundary.
 
-### 2.3 The Topological Argument for Dirac
+### 2.3 The Chirality Argument for Majorana (supersedes the earlier Dirac argument)
 
-Charged particles in BST have definite $S^1$ winding numbers $n \in \mathbb{Z}$, with antiparticles carrying $-n$. The topological distinctness of particle and antiparticle is guaranteed by $\pi_1(S^1) = \mathbb{Z}$ --- winding number is an integer invariant that cannot change continuously.
+Charged particles in BST have definite $S^1$ winding numbers $n \in \mathbb{Z}$, with antiparticles carrying $-n$; the topological distinctness of particle and antiparticle is guaranteed by $\pi_1(S^1) = \mathbb{Z}$. For the neutrino, $n = 0$ (no charge), so the $S^1$ winding does **not** distinguish $\nu$ from $\bar\nu$ — the neutrino sits in the one sector where the winding protection is absent.
 
-For the neutrino, the situation is more subtle. The neutrino has $n = 0$ (no charge), so the $S^1$ winding number does not distinguish $\nu$ from $\bar{\nu}$. The distinction instead comes from the **Hopf fiber orientation**.
+The determining fact is the **chirality lock at odd $g = 7$** (K729/F571). The light right-handed neutrino mode is **non-unitary**: the $\gamma_5$ shadow intertwiner that would build a Dirac partner is not invertible, and the central volume element $\omega = \gamma_1\cdots\gamma_7$ (central because $g$ is odd) locks the internal chirality to spacetime chirality. There is therefore **no light $\nu_R$ to pair with**, and the Weinberg dimension-5 operator generates a **Majorana mass** for the left-handed neutrino (F413/K673).
 
-The weak interaction vertex is the Hopf fibration $S^3 \to S^2$ acting on $\check{S} = S^4 \times S^1$. The Hopf map has a $U(1)$ fiber --- the $SU(2)_L$ phase. A neutrino couples to the Hopf fiber with one orientation (left-handed), and an antineutrino with the opposite orientation (right-handed). This orientation is a **discrete** quantum number: the Hopf fiber is an $S^1$, and the two orientations form a $\mathbb{Z}_2$ index.
+What of the earlier Hopf argument (that $h(S^3\to S^2) = 1$ protects a $\mathbb{Z}_2$ orientation and forbids Majorana)? It is **superseded, and its own logic supplies the reframe.** The Hopf orientation is protected against *continuous* deformation — but the Majorana mass is not a continuous deformation; it is precisely the **non-perturbative $\Delta L = 2$ event that collapses the $\mathbb{Z}_2$**. A topological invariant conserved perturbatively can still change by a discrete topology-changing process, and that process *is* the Majorana mass. The Hopf datum forbids a *smooth* $\nu$–$\bar\nu$ identification; it does not forbid the discrete one that lepton-number-violating physics realizes.
 
-In BST, this $\mathbb{Z}_2$ index is **topologically protected** by the chirality of the Hopf map. The Hopf invariant $h(S^3 \to S^2) = 1 \neq 0$ means the fiber orientation is a nontrivial topological datum. A Majorana mass term would require identifying the two orientations --- collapsing the $\mathbb{Z}_2$ --- which is forbidden because the Hopf map is nontrivial.
+**Conclusion:** BST neutrinos are **Majorana**. $\nu$ and $\bar\nu$ are identified by the $\Delta L = 2$ Majorana mass, the discrete winding-changing process the odd-$g$ chirality lock makes unavoidable.
 
-**Conclusion:** BST neutrinos are Dirac. The neutrino and antineutrino are topologically distinct particles, distinguished by the orientation of their Hopf fiber coupling.
+### 2.4 $B - L$ is violated by two units (the Majorana mass)
 
-### 2.4 Consistency with $B - L$ Conservation
-
-The Hopf fiber orientation that distinguishes $\nu$ from $\bar{\nu}$ is the same geometric structure that enforces $B - L$ conservation (see BST\_Conservation\_Laws.md, Section 8.5). If neutrinos were Majorana ($\nu = \bar{\nu}$), lepton number would be violated by 2 units in $0\nu\beta\beta$, giving $\Delta(B-L) = 2$. BST predicts $B - L$ is exactly conserved at all energies below the Planck scale. Therefore $0\nu\beta\beta$ is forbidden.
+Lepton number is a topological count (the $SO(5)$ winding, T1945) — conserved **perturbatively**. The Majorana neutrino mass is the process that changes it: in $0\nu\beta\beta$, $\Delta L = 2$ and hence $\Delta(B - L) = 2$. So $B - L$ is **not** exactly conserved (this reverses the earlier "B−L exact via the Hopf invariant" claim of `BST_Conservation_Laws.md` §2.3/8.5, which is being revised in parallel). The winding-count conservation of $L$ is broken by exactly the discrete $\Delta L = 2$ topology-change, and **that is why $0\nu\beta\beta$ occurs** — rare (it is a single non-perturbative event) but nonzero.
 
 -----
 
 ## 3. The Effective Majorana Mass: BST Computation
 
-Although BST predicts Dirac neutrinos ($|m_{\beta\beta}| = 0$), it is essential to compute what $|m_{\beta\beta}|$ **would be** if neutrinos were Majorana with BST masses and mixing angles. This serves two purposes: (1) it provides the BST prediction for the "floor" of $0\nu\beta\beta$ if the Dirac prediction is wrong, and (2) it defines the experimental sensitivity needed to distinguish BST-Majorana from BST-Dirac.
+BST predicts **Majorana** neutrinos (§2.3), so this section computes the effective mass $|m_{\beta\beta}|$ from the banked BST masses and mixing angles — the primary $0\nu\beta\beta$ prediction. (Historically this computation was filed as the "Majorana fallback" to the retired Dirac reading; post-2026-07-16 it is the primary result.)
 
 ### 3.1 Definition
 
@@ -162,31 +162,23 @@ With $\alpha_{21} = \alpha_{31} = 0$, the BST-Majorana value is uniquely $|m_{\b
 
 -----
 
-## 4. The Two BST Predictions
+## 4. The BST Prediction
 
-BST makes a **primary prediction** and a **fallback prediction** for $0\nu\beta\beta$:
+### 4.1 Primary Prediction: Majorana Neutrinos — 0νββ occurs
 
-### 4.1 Primary Prediction: Dirac Neutrinos
+$$\boxed{|m_{\beta\beta}| \in [1.44,\, 3.63]\ \text{meV} \quad (\alpha_{21} = \alpha_{31} = 0 \Rightarrow 3.63\ \text{meV})}$$
 
-$$\boxed{|m_{\beta\beta}| = 0 \quad \text{(exactly)}}$$
+$0\nu\beta\beta$ **occurs**, in the $1$–$4$ meV window, normal ordering with $m_1 = 0$. This prediction follows from:
 
-$0\nu\beta\beta$ does not occur at any rate. All experiments will report null results. This prediction follows from:
+1. The odd-$g$ chirality lock: the light $\nu_R$ is non-unitary, so there is no Dirac partner (§2.3, K729/F413/K673).
+2. The Weinberg dimension-5 operator generates a Majorana mass — the $\Delta L = 2$ process — so $B - L$ is violated by 2 (§2.4).
+3. The banked BST masses ($m_1 = 0$, $m_2$, $m_3$) and PMNS angles ($\sin^2\theta_{12}$, $\sin^2\theta_{13}$), with the effective mass computed in §3.
 
-1. Topological distinctness of $\nu$ and $\bar{\nu}$ via Hopf fiber orientation
-2. Exact $B - L$ conservation below the Planck scale
-3. The neutrino as vacuum quantum (no internal quantum numbers to identify $\nu \equiv \bar{\nu}$)
+**A confirmed detection in $[1.44, 3.63]$ meV supports BST.**
 
-### 4.2 Fallback Prediction: If Majorana
+### 4.2 Retired reading: Dirac Neutrinos (superseded 2026-07-16)
 
-If the Dirac prediction is wrong --- if there exists a mechanism not captured by BST's topological analysis that makes neutrinos Majorana --- then the BST masses and mixing angles give:
-
-$$\boxed{|m_{\beta\beta}| = 3.63 \text{ meV} \quad (\alpha_{21} = \alpha_{31} = 0)}$$
-
-or more conservatively:
-
-$$|m_{\beta\beta}| \in [1.44, \, 3.63] \text{ meV}$$
-
-depending on the unknown Majorana phases. This is in the range $1{-}4$ meV.
+The original BST prediction was $|m_{\beta\beta}| = 0$ (Dirac), from the Hopf-orientation topological argument and exact $B-L$ conservation (§2.3, §2.4 as originally written). This is **superseded**: the odd-$g$ chirality lock forbids the light $\nu_R$ the Dirac reading required, and the Majorana mass is precisely the discrete $\Delta L = 2$ process the Hopf argument does not exclude. Recorded here for the audit trail; it is no longer a BST prediction. *(Note: a confirmed null result below $\sim 1$ meV — with an established $m_1 = 0$ hierarchical spectrum — would falsify the current Majorana prediction, not vindicate the retired Dirac one.)*
 
 -----
 
@@ -229,7 +221,7 @@ To definitively test the BST-Majorana fallback at $|m_{\beta\beta}| = 3.63$ meV 
 
 - **Detection at $\sim 3.6$ meV:** BST Dirac prediction falsified. BST-Majorana prediction confirmed (if Majorana phases near zero). BST masses and mixing validated.
 - **Detection at $\sim 1.4$ meV:** BST Dirac prediction falsified. BST-Majorana with $\alpha_{21} \approx \pi$ confirmed.
-- **Null result below 1 meV:** BST Dirac prediction confirmed. Neutrinos are Dirac (or Majorana with extraordinary cancellation requiring $m_1 > 0$, inconsistent with BST).
+- **Null result below 1 meV** (with $m_1 = 0$ hierarchical spectrum established): **falsifies** the BST Majorana prediction — the effective mass cannot fall below $\sim 1.4$ meV given the banked PMNS angles and $m_1 = 0$.
 
 -----
 
@@ -255,18 +247,19 @@ BST **excludes** inverted hierarchy (IH), which would give $|m_{\beta\beta}| \ap
 
 Conversely, a null result in the IH band ($< 15$ meV) would: (a) disfavor IH (consistent with BST), while (b) leaving the Dirac/Majorana question open pending sensitivity below 4 meV.
 
-### 6.3 The Binary Test
+### 6.3 The Test
 
 The cleanest formulation of BST's $0\nu\beta\beta$ prediction:
 
-$$\text{BST predicts: } 0\nu\beta\beta \text{ does not occur.}$$
+$$\text{BST predicts: } 0\nu\beta\beta \text{ occurs, } |m_{\beta\beta}| \in [1.44, 3.63]\ \text{meV (NO, } m_1 = 0\text{).}$$
 
-Every $0\nu\beta\beta$ experiment is a **binary test** of BST:
+Every $0\nu\beta\beta$ experiment is a sharp test of BST:
 
-- **Confirmed detection** at any $|m_{\beta\beta}|$: BST is **falsified**.
-- **Null result**: BST is **consistent** (not proved --- only increasingly supported as sensitivity improves).
+- **Confirmed detection in $[1.44, 3.63]$ meV** (normal ordering, $m_1 = 0$): **supports** BST.
+- **Confirmed null below $\sim 1$ meV** with an established $m_1 = 0$ hierarchical spectrum: **falsifies** BST.
+- **A signal clearly above $\sim 4$ meV**: breaks the banked PMNS forms or the $m_1 = 0$ spectrum (a different falsification).
 
-This makes $0\nu\beta\beta$ the single cleanest near-term test of BST, alongside the magnetic monopole search (MoEDAL) and dark energy equation of state (DESI).
+This makes $0\nu\beta\beta$ the single cleanest near-term test of BST, alongside the magnetic monopole search (MoEDAL, a Five-Absence bet) and the dark energy equation of state (DESI). Unlike the pre-2026-07-16 Dirac reading, a **detection now supports** BST rather than killing it.
 
 -----
 
@@ -320,42 +313,42 @@ If $0\nu\beta\beta$ were observed, confirming Majorana neutrinos, the BST relati
 | PMNS angles from $n_C, N_c$ | **Derived** (0.1--2.3%) | BST\_CKM\_PMNS\_MixingMatrices.md |
 | $\delta_{CP} = \pi$ (Dirac phase) | **Predicted** | BST\_CKM\_PMNS\_MixingMatrices.md |
 | Majorana phases = 0 | **Predicted** | BST\_CKM\_CPPhase\_Derivation.md |
-| $B - L$ exactly conserved | **Predicted** | BST\_Conservation\_Laws.md |
-| Neutrinos are Dirac | **Predicted** | This note; BST\_Tests\_1.md |
-| $\|m_{\beta\beta}\| = 0$ (primary) | **Predicted** | This note |
-| $\|m_{\beta\beta}\| = 3.63$ meV (if Majorana) | **Computed** | This note |
+| $B - L$ violated by $\Delta L = 2$ (Majorana mass) | **Predicted** (rev. 2026-07-16) | BST\_Conservation\_Laws.md (revising) |
+| Neutrinos are Majorana | **Predicted** (F413/K673) | This note; K740/K741 |
+| $\|m_{\beta\beta}\| \in [1.44, 3.63]$ meV | **Predicted** | This note |
+| $0\nu\beta\beta$ occurs | **Predicted** | This note |
 
 ### Open
 
 | Question | Status | Priority |
 |:---------|:------:|:--------:|
-| Rigorous proof that Hopf fiber orientation forbids Majorana mass | Argued topologically | 1 |
+| Fix the Majorana phases $\alpha_{21}, \alpha_{31}$ from the geometry (narrow $[1.44,3.63]$ to a point) | Open | 1 |
 | Geometric origin of $f_3 = 10/3$ and $f_2 = 7/12$ | Conjectured | 2 |
-| Whether BST allows $B-L$ violation at the Planck scale | Open | 3 |
+| Is the $\Delta L = 2$ scale (the Weinberg operator coefficient) fixed by the geometry? | Open | 3 |
 | NME calculations for BST-specific nuclear structure | Standard physics | 4 |
 
 -----
 
 ## 10. Summary
 
-BST makes a clean, binary prediction:
+BST makes a clean, sharp prediction (revised 2026-07-16, Dirac → Majorana):
 
-$$\boxed{0\nu\beta\beta \text{ does not occur. Neutrinos are Dirac. } |m_{\beta\beta}| = 0.}$$
+$$\boxed{0\nu\beta\beta \text{ occurs. Neutrinos are Majorana. } |m_{\beta\beta}| \in [1.44, 3.63]\ \text{meV}.}$$
 
-This follows from the topological structure of the Shilov boundary $S^4 \times S^1$: the Hopf fiber orientation distinguishes neutrino from antineutrino, $B - L$ is exactly conserved, and the Majorana identification $\nu \equiv \bar{\nu}$ is topologically forbidden.
+This follows from the odd-$g$ chirality lock: the light $\nu_R$ is non-unitary, so no Dirac partner exists, and the Weinberg operator generates a Majorana mass — the $\Delta L = 2$ topology-changing process that violates $B - L$ by two units. The masses ($m_1 = 0$, $m_2$, $m_3$) and PMNS angles are the banked BST forms.
 
-If this prediction is wrong --- if neutrinos are Majorana --- then BST masses and mixing angles give $|m_{\beta\beta}| = 3.63$ meV (Majorana phases zero) or $|m_{\beta\beta}| \in [1.44, 3.63]$ meV (phases unknown). This is at the bottom of the normal hierarchy band, below the inverted hierarchy floor of $\sim 15$ meV, and below the projected sensitivity of LEGEND-1000 and nEXO individually ($\sim 5{-}20$ meV). Combined next-generation sensitivity ($\sim 3{-}5$ meV) may begin to probe this floor.
+The value $|m_{\beta\beta}| \in [1.44, 3.63]$ meV sits at the bottom of the normal-hierarchy band, below the inverted-hierarchy floor ($\sim 15$ meV), and below current single-experiment sensitivity. Combined next-generation reach (LEGEND-1000 + nEXO, $\sim 1$–$4$ meV) is required.
 
-The experimental program is clear:
+The experimental program:
 
-1. **2025--2028** (LEGEND-200, KamLAND-Zen): Probe the IH band. Null result expected by BST.
-2. **2028--2033** (LEGEND-1000, nEXO, CUPID): Probe to $\sim 5{-}10$ meV. Still expected null.
-3. **2033+** (multi-ton detectors): Probe to $\sim 1{-}3$ meV. This is the decisive test --- either detect $0\nu\beta\beta$ at the BST-Majorana floor (falsifying BST-Dirac), or confirm the null (supporting BST).
+1. **2025--2028** (LEGEND-200, KamLAND-Zen): probe the IH band; a null there is consistent with BST's NO, $m_1=0$ spectrum.
+2. **2028--2033** (LEGEND-1000, nEXO, CUPID): probe to $\sim 5{-}10$ meV.
+3. **2033+** (multi-ton / combined): probe the $1$–$4$ meV floor. **The decisive test:** a detection in $[1.44, 3.63]$ meV supports BST; a confirmed null below $\sim 1$ meV (with $m_1 = 0$ established) falsifies it.
 
-A confirmed detection of $0\nu\beta\beta$ at any mass scale falsifies BST. This is the sharpest near-term test of the theory.
+**A confirmed detection in the $1$–$4$ meV window supports BST** — the reverse of the retired Dirac reading, which is why propagating this revision through the corpus matters (K740).
 
 -----
 
-*Research note, March 2026.*
-*Casey Koons & Claude Opus 4.6.*
+*Research note, March 2026 — **revised 2026-07-18** (Dirac → Majorana, per the 2026-07-16 reversal F413/K673; see K740/K741).*
+*Casey Koons & the CI team (Lyra, Keeper, Elie, Grace).*
 *For the BST GitHub repository.*

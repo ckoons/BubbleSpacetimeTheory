@@ -15,7 +15,7 @@ ac_classification: "(C=1, D=0)"
 
 ## Abstract
 
-A theory that forbids nothing predicts nothing. Bubble Spacetime Theory (BST) derives the Standard Model from a single bounded symmetric domain, $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$, characterized by five integers $(N_c = 3, n_C = 5, g = 7, C_2 = 6, \text{rank} = 2)$ with zero free parameters. We catalog **21 falsifiable anti-predictions** — things that *cannot happen* if the geometry is correct. Thirteen are physics prohibitions: no fourth quark color, no sixth compact dimension, no continuous quantum spectrum, no Born rule violation, no prime larger than 137 in fundamental denominators, no derivation depth exceeding 1, no self-amplifying Casimir effect, no observer below rank, no GUT intermediary, no consciousness-dependent collapse, no supersymmetric partners, no dark matter particles, and no neutrinoless double beta decay. Eight are number-theoretic prohibitions: forbidden primes, forbidden gauge groups, forbidden mass ratios (88.8% of simple fractions excluded), GUT sector isolation, forbidden dimensions, Stormer deserts, a parity gate blocking odd-sector access, and the 19.1% Godel ceiling. We show that the BST theorem graph's ~340 zero-edge domain pairs are not gaps but structural features: sector orthogonality, the parity gate (T933), and GUT isolation (T937) forbid those connections by geometry. Any single violation falsifies BST.
+A theory that forbids nothing predicts nothing. Bubble Spacetime Theory (BST) derives the Standard Model from a single bounded symmetric domain, $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$, characterized by five integers $(N_c = 3, n_C = 5, g = 7, C_2 = 6, \text{rank} = 2)$ with zero free parameters. We catalog **21 falsifiable anti-predictions** — things that *cannot happen* if the geometry is correct. Thirteen are physics prohibitions: no fourth quark color, no sixth compact dimension, no continuous quantum spectrum, no Born rule violation, no prime larger than 137 in fundamental denominators, no derivation depth exceeding 1, no self-amplifying Casimir effect, no observer below rank, no GUT intermediary, no consciousness-dependent collapse, no supersymmetric partners, no dark matter particles (and — REVERSED 2026-07-16 — neutrinoless double beta decay is now PREDICTED, not forbidden: Majorana, m_ββ∈[1.4,3.7]meV). Eight are number-theoretic prohibitions: forbidden primes, forbidden gauge groups, forbidden mass ratios (88.8% of simple fractions excluded), GUT sector isolation, forbidden dimensions, Stormer deserts, a parity gate blocking odd-sector access, and the 19.1% Godel ceiling. We show that the BST theorem graph's ~340 zero-edge domain pairs are not gaps but structural features: sector orthogonality, the parity gate (T933), and GUT isolation (T937) forbid those connections by geometry. Any single violation falsifies BST.
 
 ---
 
@@ -106,10 +106,10 @@ Thirteen things that cannot happen if $D_{IV}^5$ is the geometry of nature.
 **Mechanism:** BST accounts for the dark matter phenomenology through channel noise — the 19.1% reality budget means 80.9% of the gravitational effect is geometric, not particulate. The "missing mass" is not missing; it is the geometry's own contribution to the stress-energy tensor.
 **Falsification:** Direct detection of a dark matter particle in any experiment.
 
-### P13. No Neutrinoless Double Beta Decay
+### P13. [REVERSED 2026-07-16] Neutrinoless Double Beta Decay OCCURS (Majorana)
 
 **Forbidden:** Neutrinoless double beta decay ($0\nu\beta\beta$).
-**Mechanism:** BST neutrinos are Dirac particles (Hopf invariant $h = 1$), not Majorana. The lepton number is exactly conserved. No Majorana mass term exists because the geometry's Hopf structure forbids it.
+**Mechanism [REVERSED 2026-07-16]:** BST neutrinos are MAJORANA (F413/K673, F582). 0νββ OCCURS at m_ββ∈[1.4,3.7]meV. Lepton number is conserved only perturbatively (topologically protected against continuous deformation) and violated by the discrete ΔL=2 Majorana mass — which is *why* 0νββ is rare but nonzero. The old 'Hopf forbids Majorana' claim is retired.
 **Falsification:** Observation of $0\nu\beta\beta$ at any rate.
 
 ---

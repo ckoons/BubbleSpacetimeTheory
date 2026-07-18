@@ -82,27 +82,29 @@ These laws are enforced by the topology of submanifolds ($\mathbb{CP}^2$, Hopf $
 
 **BST mechanism:** Baryon number counts the number of closed $Z_3$ circuits on $\mathbb{CP}^2$. Each closed circuit is one baryon. The $Z_3$ closure is topologically protected at energies below the scale where $\mathbb{CP}^2$ topology becomes dynamical (the GUT scale, $\sim 10^{16}$ GeV).
 
-**Violation mechanism:** At energies approaching the GUT scale, the $\mathbb{CP}^2$ structure of the color sector can be disrupted — the $Z_3$ closure can be opened through a topological transition that converts a baryon circuit into lepton circuits. This is proton decay. The decay rate is determined by the tunneling amplitude through the $\mathbb{CP}^2$ topological barrier.
+> **⚠ REVISED 2026-07-18.** This section originally predicted *finite* proton decay ($\tau_p \approx 3\times10^{34}$ yr, specific channels, a GUT scale $N_{\text{GUT}} = 4\pi^2$, testable at Hyper-K). That **contradicts the standing Five-Absence principle** (NO GUT, NO proton decay, $\tau_p = \infty$) — this file predates Five-Absence. Corrected below; see `Five_Absence_Predictions_Principle.md`, `BST_T1234` ("the proton is permanent because the integer 3 is permanent"), K740/K741.
 
-**BST prediction:** Proton lifetime $\tau_p \gtrsim 3 \times 10^{34}$ years with specific decay channels determined by the structured unification at $N_{\text{GUT}} = 4\pi^2$ (Section 6). Testable at Hyper-Kamiokande.
+**Violation mechanism:** There is **none.** The $Z_3$ (trefoil) closure is a homotopy invariant of the color sector; there is **no GUT scale at which $\mathbb{CP}^2$ topology becomes dynamical** (Five-Absence: no unifying group into which the color integer could dissolve). The trefoil cannot be continuously unknotted, and $N_c = 3$ is an exact integer at all energies. The would-be tunneling barrier is infinite.
+
+**BST prediction:** **$\tau_p = \infty$ — the proton is absolutely stable, and there are no proton-decay channels.** This is a Five-Absence bet: **a confirmed proton-decay event at *any* lifetime (Super-K / Hyper-K) falsifies BST.** (BST is confirmed, not challenged, by every null result.)
 
 ### 2.2 Conservation of Total Lepton Number
 
-**Standard physics:** Total lepton number ($L = L_e + L_\mu + L_\tau$) is conserved in all observed processes. Grand unified theories predict violation at the GUT scale along with baryon number violation.
+**Standard physics:** Total lepton number ($L = L_e + L_\mu + L_\tau$) is conserved in all observed processes; grand unified theories predict violation at the GUT scale.
 
-**BST mechanism:** Total lepton number counts the number of single-winding closures on $S^1$ — complete circuits that close without $Z_3$ structure. The closure is topologically protected at energies below the GUT scale.
+**BST mechanism:** Total lepton number counts single-winding closures on $S^1$. The closure is a homotopy invariant — topologically protected at **all** energies (no GUT scale exists in BST).
 
-**Violation mechanism:** Same as baryon number — at the GUT scale, single-winding closures can be disrupted through topological transitions. The combination $B - L$ (see Section 2.3) is more strongly protected than either $B$ or $L$ individually.
+**Violation mechanism:** $L$ is conserved perturbatively and by electroweak instantons/sphalerons (which move $B+L$ but not $B-L$). It is violated **only** by the $\Delta L = 2$ neutrino **Majorana mass** (the Weinberg operator; §2.3) — the single discrete topology-changing process, observable as $0\nu\beta\beta$. There is **no** GUT-scale $L$ violation and **no** proton decay.
 
-### 2.3 Conservation of $B - L$
+### 2.3 $B - L$: conserved perturbatively, violated by the $\Delta L = 2$ Majorana mass
 
-**Standard physics:** $B - L$ (baryon number minus lepton number) is exactly conserved in the Standard Model, even by sphaleron processes that violate $B$ and $L$ individually.
+> **⚠ REVISED 2026-07-18.** This section originally claimed $B - L$ is *exactly* conserved (the topological argument for Dirac neutrinos). On **2026-07-16** BST reversed the neutrino to **Majorana** (F413/K673) — the Majorana mass violates $L$ (and hence $B - L$) by two units. The perturbative topological conservation stands; the "exact at all energies" claim does not. Reframed below; see K740/K741 and `BST_NeutrinolessDoubleBeta.md`.
 
-**BST mechanism:** $B - L$ is the difference between the $Z_3$ topological index (baryon number) and the single-winding topological index (lepton number). Sphalerons — non-perturbative electroweak processes — can convert $Z_3$ circuits into single-winding circuits and vice versa, but the conversion preserves the difference. This is because the sphaleron process operates on the Hopf fibration $S^3 \to S^2$, which connects the baryon and lepton sectors but preserves their combined topological index.
+**Standard physics:** $B - L$ is exactly conserved by the renormalizable Standard Model, even by sphaleron processes that violate $B$ and $L$ individually; it is violated only by dimension-5 (Weinberg) operators, i.e. by Majorana neutrino masses.
 
-**Why more protected than $B$ or $L$ individually:** $B - L$ is conserved by a deeper topological invariant — the total winding class modulo the Hopf map. Individual $B$ and $L$ can change through Hopf-mediated transitions, but their difference is invariant under the Hopf map because the Hopf map preserves the fiber winding modulo the base winding.
+**BST mechanism (perturbative conservation):** $B$ is the $Z_3$ (trefoil) topological index and $L$ is the single-winding index. Sphalerons operate on the Hopf fibration $S^3 \to S^2$ and convert $Z_3$ circuits into single-winding circuits preserving the difference — so $B - L$ is conserved by every *perturbative* and electroweak-instanton process, more robustly than $B$ or $L$ individually.
 
-**BST prediction:** $B - L$ is exactly conserved at all energies below the Planck scale. Violation would require disrupting the Hopf fibration itself, which requires disrupting the $S^3$ topology — a process with no known physical mechanism.
+**BST prediction (revised):** $B - L$ is conserved perturbatively, and **violated by exactly two units by the neutrino Majorana mass** — the discrete $\Delta L = 2$ topology-changing process the odd-$g$ chirality lock makes unavoidable (the light $\nu_R$ is non-unitary, so a Majorana mass forms). This is observable as **neutrinoless double-beta decay** ($\Delta(B-L) = 2$), predicted to occur with $|m_{\beta\beta}| \in [1.44, 3.63]$ meV. A confirmed $0\nu\beta\beta$ detection in that window *supports* BST; the earlier reading (exact $B - L$, $0\nu\beta\beta$ forbidden) is retired.
 
 -----
 
@@ -239,9 +241,9 @@ In BST: the symmetry breaking is the condensation of the Hopf fibration ground s
 |**Absolute**   |CPT                     |Contact graph automorphism                 |Structural                        |Nothing                                    |
 |**Absolute**   |Fermion number $(-1)^F$ |SU(2)/SO(3) double cover ($\mathbb{Z}_2$)  |Topological, $\pi_1(\text{SO}(3))$|Nothing (no SUSY)                          |
 |**Absolute**   |Information (unitarity) |$S^1$ compactness                          |Topological, completeness         |Nothing                                    |
-|**Topological**|Baryon number $B$       |$Z_3$ closure on $\mathbb{CP}^2$           |Protected below GUT scale         |GUT-scale topology change                  |
-|**Topological**|Total lepton number $L$ |Single-winding closure                     |Protected below GUT scale         |GUT-scale topology change                  |
-|**Topological**|$B - L$                 |Hopf-invariant topological index           |Protected below Planck scale      |Unknown                                    |
+|**Topological**|Baryon number $B$       |$Z_3$ trefoil closure                      |Absolute ($\tau_p = \infty$, no GUT) |none — proton is stable                 |
+|**Topological**|Total lepton number $L$ |Single-winding closure                     |Perturbative + sphaleron          |$\Delta L{=}2$ Majorana mass ($0\nu\beta\beta$) |
+|**Topological**|$B - L$                 |trefoil ($B$) − winding ($L$) index        |Perturbative; violated $\Delta L{=}2$ by Majorana mass |$0\nu\beta\beta$, $\|m_{\beta\beta}\|{\in}[1.4,3.6]$ meV |
 |**Spacetime**  |Energy                  |Commitment-independent geometry            |Exact (flat), local (curved)      |None (globally undefined in GR)            |
 |**Spacetime**  |Momentum                |$S^2$ homogeneity                          |Exact (flat), local (curved)      |None (globally undefined in GR)            |
 |**Spacetime**  |Angular momentum        |$S^2$ isotropy, SO(3)                      |Exact (flat), local (curved)      |None (globally undefined in GR)            |
@@ -274,9 +276,9 @@ The deepest conservation law — unitarity (information conservation) — is the
 
 ## 8. Predictions
 
-### 8.1 Proton Decay
+### 8.1 Proton Stability (no decay)
 
-Baryon number is topologically protected but not absolutely conserved. BST predicts proton decay at rates determined by the structured unification at $N_{\text{GUT}} = 4\pi^2$. Testable at Hyper-Kamiokande.
+Baryon number is **absolutely** conserved: it is the $Z_3$ (trefoil) homotopy index, and there is no GUT into which the color integer $N_c = 3$ could dissolve (Five-Absence). **BST predicts $\tau_p = \infty$** — no proton decay at any lifetime or channel. **A confirmed proton-decay event (Super-K / Hyper-K) at any rate falsifies BST.** *(Revised 2026-07-18 — the earlier "proton decay at $N_{\text{GUT}} = 4\pi^2$" claim contradicted Five-Absence and is retired.)*
 
 ### 8.2 No SUSY Particles
 
@@ -290,11 +292,11 @@ The PMNS mixing angles are the overlap integrals between $D_{IV}^k$ ground state
 
 The CP-violating CKM phase is determined by the complex structure of $D_{IV}^5$ — specifically, by the angle between $\mathbb{CP}^2$ Hopf intersection surfaces for different quark flavors. BST predicts a specific value with no free parameters. (Thesis topic 30.)
 
-### 8.5 $B - L$ Exact Conservation
+### 8.5 $B - L$: perturbatively conserved, violated by 2 by the Majorana mass (revised 2026-07-18)
 
-BST predicts that $B - L$ is exactly conserved at all energies below the Planck scale. Any observed $B - L$ violation would falsify BST. This is testable through neutrinoless double beta decay: if observed, $B - L$ is violated by 2 units, falsifying BST.
+BST predicts that $B - L$ is conserved **perturbatively** (by every renormalizable and electroweak-instanton process) and **violated by exactly two units by the neutrino Majorana mass** (the dimension-5 Weinberg operator, forced by the odd-$g$ chirality lock; F413/K673). This is testable through **neutrinoless double-beta decay**, which carries $\Delta L = 2$, hence $\Delta(B - L) = 2$.
 
-**Important caveat:** Neutrinoless double beta decay ($0\nu\beta\beta$) violates lepton number by 2 but preserves $B - L = 0$ only if the neutrino is its own antiparticle (Majorana). If $0\nu\beta\beta$ is observed with $\Delta(B-L) = 2$, BST is falsified. If the neutrino is Dirac (not its own antiparticle), $0\nu\beta\beta$ does not occur, which is consistent with BST. BST predicts Dirac neutrinos — the neutrino and antineutrino have opposite $S^1$ winding directions and are distinct particles.
+**Prediction (post-2026-07-16 reversal):** $0\nu\beta\beta$ **occurs**, $|m_{\beta\beta}| \in [1.44, 3.63]$ meV (normal ordering, $m_1 = 0$). A confirmed detection in that window **supports** BST; a confirmed null below $\sim 1$ meV (with $m_1 = 0$ established) falsifies it. *This reverses the earlier reading in this file (exact $B - L$, Dirac neutrinos, $0\nu\beta\beta$ forbidden), which is retired — see §2.3 and K740.*
 
 -----
 

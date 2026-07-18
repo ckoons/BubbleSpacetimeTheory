@@ -602,7 +602,7 @@ Every conservation law in physics corresponds to a symmetry of the substrate. Bu
 **Topological conservation laws** — enforced by submanifold topology:
 
 - **Baryon number**: closed $Z_3$ circuits on $\mathbb{CP}^2$. BST prediction: $\tau_p = \infty$ — the proton is absolutely stable. Does not decay at any timescale. Sharp discriminator against all GUT models.
-- **$B - L$**: Hopf-invariant index. BST prediction: neutrinos are Dirac (not Majorana). Neutrinoless double beta decay does not occur.
+- **$L$ / $B - L$**: lepton number is conserved perturbatively (as an $S^1$ winding) but violated by $\Delta L = 2$ through the Majorana neutrino mass. BST prediction: neutrinos are **Majorana** (odd substrate dimension $g=7$ forbids a light $\nu_R$). Neutrinoless double beta decay **occurs**, $|m_{\beta\beta}| \in [1.4,3.7]$ meV.
 
 **Spacetime conservation laws** — from $S^2$ symmetries:
 

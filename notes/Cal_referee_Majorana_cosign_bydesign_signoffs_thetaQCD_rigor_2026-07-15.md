@@ -510,3 +510,252 @@ If (1)–(4) → derived, and I'll say so plainly (a real non-GUT prediction + C
 **VERDICT:** the B−L re-posing is a real advance in interpretability and correctly avoids the GUT-formula trap in principle — the marquee is now "compute ‖B−L‖²" instead of "force a formula," which is sharper and target-innocent-shaped. BUT the derivation is pending AND has TWO extra load-bearing pieces beyond ‖B−L‖² (the constant "2"; the right-handed charge/T₃_R correctness). Referee at the landing of the ‖B−L‖² computation — and specifically check the right-handed charges, because if T₃_R must enter, ‖B−L‖² isn't the whole story. sin²θ_W stays reduced-to-lead.
 
 — Cal, 2026-07-17.
+
+## 33. (2026-07-17 Fri 17:01 EDT) — CAL EOD SUNDOWN. The SM-from-D_IV⁵ arc, standing verdicts, open landings.
+
+**Who/what:** Cal, visiting referee. Today's job (§13–§32): target-innocence + derived-vs-correspondence gate on the mixing-sector → electroweak → SM-structure arc. Method held throughout: structure-forcing not value-reaching; Cal #27 fires hardest at peak elegance; Five-Absence first filter; nothing banks until forced, not fit.
+
+**STANDING VERDICTS AT SUNDOWN:**
+- **CKM (§13–14):** V_us DERIVED (F506 closed); V_cb STRUCTURAL (√(2/3) value-innocent from muon critical angle, amplitude-form pending hemisphere theorem); 36/869 OUT (79=80−1 fit).
+- **PMNS (§15–21, 23):** mechanism (large from Majorana) target-innocent; μ-τ from Shilov ℤ₂ = grounded-lead (cond-2 pin: ℤ₂ must act on generation addresses, F86 strata reconcile); δ = SUM-RULE prediction, banks at |cosδ| level, BRANCH (197° vs 163°) NOT geometric yet (sign Im ε undervied — §21 sign catch: sinδ=+2/7 is the 163° branch). g-organization = 2-DEEP (θ13,δ-mag ride polynomial law g²=N_c²n_C+rank²) + 2-SHALLOW (θ23-tilt, θ12 ride value-specific).
+- **Weak sector (§24–25) — the real result:** NATIVE + DERIVED. Sp(2) spinor = EW doublets (F570); **parity violation because g=7 is ODD** (F571, verified in Cl(7) §25 — the genuine new physics, target-innocent §26). Residuals: single-gauging (full parity), F570-vs-F571 real-form reconcile, ν_R Five-Absence.
+- **Color/octonion (§24, 27):** SUPPORTED/CANONICALLY-HOSTED (F572 intrinsic-J upgrade from cheat), NOT native. Real-form frontier ANSWERED: SO(5,2) spinor quaternionic not octonionic (Cl⁰(5,2)≅ℍ verified).
+- **sin²θ_W — RUNNER, not derived.** Naive embedding → forbidden GUT 3/8 (§26/27 trap fired). Reductions: k=rank (§28, data-selected), √rank (§29, story √34/2≠√2), two-isomorphic-circles (§30, RETRACTED by Keeper — shared K = one circle, my §30 crux). Elie's 2nd seam (§31): marquee conflated pure-gauge (→1/3) vs fermion-trace (→3/13); VALID. Lyra's B−L re-posing (§32): genuine advance (resolves Elie's seam in principle, color enters via B=1/N_c), but 3 open pieces: ‖B−L‖²=28/3 uncomputed-target; constant "2" load-bearing; **Q=J₁₂+(B−L)/2 fails right-handed charges (u_R→1/6 not 2/3) — needs T₃_R, ties to §25 SU(2)_R.**
+
+**DISCIPLINE OUTCOMES today:** killed 4 over-reaches clean (projection universality sweep; chirality→CP bridge; octonions-as-derivation; sin²θ_W naive→3/8). Each of my pre-registered bars fired at its landing exactly where flagged (§30 crux tore; §31 seam; §26 GUT trap). "Investigate don't gate" honored — bars set at landing, not fire.
+
+**OPEN LANDINGS for next session (what I referee when they arrive):**
+1. sin²θ_W B−L: ‖B−L‖² computed→28/3 target-innocent? + constant "2" derived? + right-handed charges correct (T₃_R)? + Elie verifies no GUT smuggled.
+2. μ-τ cond-2: ℤ₂ acts on generation addresses (F86 reconcile)?
+3. δ branch: sign(Im ε) from geometry (197° vs 163°)?
+4. V_cb: hemisphere theorem lifts structural→derived?
+
+**Git:** referee log is the only file of mine among 57 changed (rest = team EOD). NOT pushed (needs Casey OK; would sweep team's work). Local only.
+
+— Cal, sundown 2026-07-17 17:01 EDT.
+
+## 34. (2026-07-18 Sat 09:03) STRENGTHENING PROGRAM — pre-loaded referee bars for the Cal queue (fire at each landing, arrival order). NOT gating.
+
+**sin²θ_W CLOSED (K739) noted:** runner — 3/8 (fermion-content+RGE), 3/13 retired as running-shadow. My §26–§32 (two-formula seam, GUT trap, B−L 3-open-pieces) fed this; the negative is complete and correct. No further action.
+
+**Pre-registered bars (guides at landing):**
+
+**1. α standalone (Elie E1) — target-innocence of 4π + curvature; guard "24 = fit-then-ID":**
+- 4π = descent's Coulomb solid angle Vol(S²) — AFFIRMED target-innocent prior (§7, "no free knob; the descent's 3D solid angle"). Re-check the toy states it as FIXED geometry, not a fit; and 137 = N_c³·n_C+rank (capacity/count) is the count, not tuned.
+- ★ GUARD: if a "24" (or ANY curvature-correction factor) is RECOGNIZED as a substrate number AFTER being needed numerically → fit-then-ID → flag. The 0.0004% precision must NOT rest on a back-identified curvature term. Tier DERIVED only if 137 + 4π + curvature all FORWARD; else identification-tier.
+
+**2. Roots reframe (Lyra L1) — rigor vs relabeling:**
+- 5 integers must be genuine rank-2 (B₂/SO(5)) root-system invariants, not "numbers that appear in B₂."
+- "primaries = gauge dual Coxeter numbers" is the §22/§24 integer-match risk (h^∨(SU(2))=2=rank etc.) — must be STRUCTURAL (root data GENERATES them), not 2=2 relabeling.
+- SYNTH tier is fine, but the reframe must NOT upgrade correspondence→derived; flag any relabeling dressed as derivation.
+
+**3. Cosmology Λ (Lyra L3 / Elie E5) — target-innocence of 280:**
+- 280 = 2^{N_c}·n_C·g = 8·5·7 (product of primaries, target-innocent-SHAPED). But memory flags the "+1 anomaly" (280 vs 281=2·N_max+g). Bar: is 280 FORWARD-forced or fit to observed Λ? exp(−280) is huge suppression → check whether data distinguishes 279/280/281 (if not → STRUCTURAL, not exact). Five-Absence: substrate Λ, no DM particle.
+
+**4. ★ Fermion T₃_R (Lyra L4) — Five-Absence at landing (the hard one):**
+- T₃_R is REQUIRED for correct right-handed charges (§32: u_R→2/3 needs it; §25 (1,2)_R sector). Bar: its source must NOT gauge SU(2)_R (→ forbidden W_R), NOT SU(4) Pati-Salam, NOT Z′. T₃_R must live as a GLOBAL/structural label or a broken remnant — present for hypercharge, NOT a gauge boson. Gauged SU(2)_R → FAIL. Fire hardest here on Five-Absence.
+
+**5. Flagship — every green tier:** each "derived" actually derived (not supported/correspondence); each number target-innocent; Five-Absence clean throughout; boundary exact (weak native / color hosted / sin²θ_W runner / masses=singular-values). Final consistency audit.
+
+**Standing:** fire at each landing in arrival order; investigate-don't-gate; scrutinize the prettiest result hardest. Loaded and waiting on the first landing (α).
+
+— Cal, 2026-07-18.
+
+## 35. (2026-07-18 Sat) F582 "why Y" — THE load-bearing call: SPLIT verdict. no-Z′ DERIVED; no-W_R DERIVED-PENDING; "Y specifically" SUPPORTED (it rides the sin²θ_W runner).
+
+**First — F582 RESOLVED my §32 correctness gap:** the table now uses Y = T₃_R + (B−L)/2 (WITH the T₃_R piece I flagged §32 as missing), and I verified ALL 16 charges via Q = T₃_L + Y come out correct (u_R^c → −⅔, e_R^c → 1, ν_R^c → 0, etc.). So the assignment table is DERIVED-CONSISTENT (standard SM/SO(10) QNs, verified). And ν_R^c = gauge singlet (Y=Q=0) → Majorana-consistent (nice, credit). §32 gap closed.
+
+**★ THE "why Y" CALL (is Y forced as the single gauged direction, or chosen?) — SPLIT, because two distinct claims are bundled:**
+
+- **"no Z′" = DERIVED (target-innocent, solid).** A Z′ is a SECOND gauged U(1). The isotropy K = SO(5)×SO(2) has exactly ONE SO(2) → beyond SU(2)_L there is room for exactly ONE gauged U(1). No second U(1) to gauge → no Z′ — REGARDLESS of which combination the one U(1) is. Counts SO(2) factors (=1), not observables. Forced. ✓ Real Five-Absence derivation.
+
+- **"no W_R^±" = DERIVED-PENDING (Elie's odd-g SU(2)_R-breaking step, his item 1).** W_R^± = the charged gens of Sp(1)_R. For them absent, Sp(1)_R must be ungauged. BUT the geometry has SO(5)=Sp(2) ⊃ Sp(1)_L × Sp(1)_R — BOTH in the isometry, so naively gauging SO(5) would gauge BOTH (→ W_R, forbidden). "Only Sp(1)_L gauged, Sp(1)_R global" is NOT automatic — it needs the odd-g lock to break/ungauge Sp(1)_R (F571 + Elie's KK step, which "over-produced SU(2)_R that must be broken by odd-g"). Plausible (chirality), but NOT yet landed. Bank no-W_R when Elie's SU(2)_R-breaking lands.
+
+- **"the gauged U(1) is Y specifically" = SUPPORTED, not DERIVED — and here's why: it IS the sin²θ_W runner in disguise.** The geometry gauges the ONE SO(2); WHICH combination of (T₃_R, B−L) that SO(2) is — AND its normalization relative to SU(2)_L — is exactly sin²θ_W, which is a RUNNER (K739, not derived). So "SO(2) = Y with the right charges" is a CONSISTENT identification (the table reproduces SM charges IF SO(2)=Y), but the geometry does NOT force SO(2)=Y independent of matching the SM. So the fermion CHARGES are SUPPORTED (consistent assignment), not forced.
+
+**ANSWER to Casey's load-bearing question:** that there is a SINGLE gauged direction beyond SU(2)_L = FORCED (one SO(2)) → **no-Z′ DERIVED.** That the single direction is Y specifically = CHOSEN/SUPPORTED (rides the runner sin²θ_W). And no-W_R = DERIVED-PENDING the odd-g SU(2)_R-breaking. So F582's "2 of 6 Five-Absences derived" is HALF-right at bank-time: **no-Z′ DERIVED now; no-W_R DERIVED when Elie's step lands; the fermion-charge derivation is SUPPORTED (SO(2)=Y is the runner).** Genuine, real result — but tier it as: no-Z′ derived, no-W_R pending, charges supported. Not "both absences derived + charges derived."
+
+**Λ retraction — AFFIRMED (my §34 bar / §22-23 discipline).** "280 = 2^{N_c}·n_C·g 5-fold over-determined" is ONE factorization (8·35) dressed 5 ways: 2^{N_c} = rank³ = 2^{rank+1} = 8 are all the SAME number 8 with different substrate-names (count-of-identities ≠ evidence). Verified. Λ → STRUCTURAL correct. Two-CI convergence (Lyra+Elie both retracting) = audit chain earning its keep. And exp(−280) is too suppressed for data to distinguish 279/280/281 → structural, not exact (§34). Downgrade correct.
+
+**Queue status:** F582 why-Y ✓ (this §); Λ ✓; roots (F579) + α standalone + sweep-Majorana-consistency = next landings to referee.
+
+— Cal, 2026-07-18.
+
+## 36. (2026-07-18 Sat) "why Y" refined + toy 4719 audit — SEPARATE the absences from the charges; no-Z′ DERIVED, no-W_R SUPPORTED (circular mechanism), "Y" SUPPORTED (runner). Cal #35 on the "three routes."
+
+**Key refinement of §35: the ABSENCES are SEPARABLE from the CHARGES, and they don't ride "why Y."**
+- **no-Z′ = DERIVED (target-innocent):** a Z′ = a SECOND gauged U(1); the isotropy K=SO(5)×SO(2) has exactly ONE SO(2) → one gauged U(1), and if SU(2)_R is ungauged its Cartan T₃_R is not a second gauge-U(1). Counts SO(2) factors, not observables. Independent of which combination Y is. ✓
+- **"Y specifically" = SUPPORTED:** which combination of (T₃_R, B−L) the one SO(2) is + its normalization = sin²θ_W = RUNNER (K739). Decides whether the CHARGES are derived — SUPPORTED. (Note: F582 resolved my §32 gap — Y=T₃_R+(B−L)/2 reproduces all 16, verified §35.)
+
+**★ toy 4719 audit — the no-W_R mechanism is CIRCULAR as stated. no-W_R = SUPPORTED, not DERIVED:**
+- Toy 4719's claim: "odd-g lock → right-handed states are SINGLETS → SU(2)_R has NO chiral current → ungauged."
+- **INTERNAL CONTRADICTION with F582:** F582 assigns (u_R^c, d_R^c) an Sp(1)_R DOUBLET (T₃_R = ±½ — that IS how T₃_R is defined). A doublet under Sp(1)_R CARRIES an Sp(1)_R (Noether) current. So "no SU(2)_R current" is factually wrong — the current EXISTS; it's just GLOBAL (ungauged). The R states are singlets under GAUGED SU(2)_L but DOUBLETS under GLOBAL Sp(1)_R.
+- **The argument is CIRCULAR:** it calls the R states "singlets" (true only under SU(2)_L), presupposing SU(2)_L is THE gauge group — which is exactly what needed deriving (why Sp(1)_L gauged, Sp(1)_R not). It assumes the answer.
+- **The real open question:** SO(5)=Sp(2) ⊃ Sp(1)_L × Sp(1)_R; naively gauging SO(5) gauges BOTH → W_R exists. no-W_R requires "exactly ONE Sp(1) gauged (not both)," which is NOT forced by the geometry as shown, and the L-vs-R selection may be CONVENTION (§25: L-vs-R label = convention). "No current" does not derive it. So no-W_R is SUPPORTED (consistent, plausible) pending a non-circular derivation that the geometry gauges exactly one Sp(1).
+
+**★ Cal #35 (shared-input, not independent) on the "three convergent routes":** F571 (odd-g), F582 (counting), toy 4715/4719 (KK) ALL rest on the SAME odd-g lock AND the SAME presupposition that Sp(1)_L is the gauged one. They are three FRAMINGS of one mechanism, NOT three independent derivations. "Three convergent derivations" overstates the evidence — independence-before-multiplicative-confidence. The counting (4→1→3) is verified arithmetic but INHERITS the "SU(2)_R ungauged" input; it doesn't independently establish it.
+
+**ANSWER to Casey's load-bearing question (DERIVED vs SUPPORTED):**
+- **no-Z′: DERIVED** (one SO(2), target-innocent). ✓ genuine.
+- **no-W_R: SUPPORTED** — the offered mechanism is circular (R states carry a global Sp(1)_R current; "no current" is wrong); the geometry gauging exactly-one-Sp(1) is not shown; L-vs-R may be convention. Real result plausibly, but not DERIVED yet.
+- **fermion charges / "Y": SUPPORTED** (sin²θ_W runner).
+So bank **no-Z′ = DERIVED (1 of 6); no-W_R = SUPPORTED (not 2/6 derived)**. The "2 of 6 derived three ways" over-claims: it's 1 derived (no-Z′) + 1 supported (no-W_R via one circular mechanism thrice-framed).
+
+**Constructive path to DERIVE no-W_R:** show non-circularly that the geometry gauges EXACTLY ONE Sp(1) of SO(5)=Sp(2) — e.g., a consistency/anomaly obstruction to gauging BOTH, or the odd-g lock genuinely projecting out one Sp(1)'s connection (not "no current"). Until then, no-W_R stays SUPPORTED.
+
+— Cal, 2026-07-18.
+
+## 37. (2026-07-18 Sat) F583 "why Y" RULING (Lyra handed me the call): premise ACCEPTED → Y-DIRECTION + no-Z′ DERIVED; no-W_R DERIVED-contingent-on-breaking; sin²θ_W (NORMALIZATION) still RUNNER. My §36 circularity RESOLVED.
+
+**F583 replaced the circular §36 "no current" with a genuine SYMMETRY-BREAKING argument, and correctly ruled OUT anomalies (16 = full SO(10) spinor → every U(1) anomaly-free → anomalies can't pick Y — Lyra's honest negative, I confirm; I will NOT lean on anomaly cancellation). Credit: this is exactly the non-circular path I asked for in §36.**
+
+**The mechanism (verified):** a neutral, SU(2)_L-singlet condensate breaks SU(2)_R×U(1)_{B−L} to its stabilizer. On an SU(2)_L singlet, Q = Y; photon-massless ⟹ Q⟨φ⟩=0 ⟹ Y⟨φ⟩=0 ⟹ Y unbroken. The ν_R ν_R Majorana condensate (T₃_R,B−L)=(+1,−2) gives Y = 1+(−2)/2 = 0 ✓ while breaking T₃_R and B−L individually. So Y is the UNIQUE unbroken U(1) — what SURVIVES, not chosen. Verified: any generic 2-plane condensate breaks the 2-plane to its 1-dim stabilizer = Q-direction = Y.
+
+**RULING on Lyra's single premise ("neutral SU(2)_L-singlet is the unique breaking channel"): ACCEPTED.** Exclusions are sound — (a) charged condensate → massive photon → excluded by observation ✓; (b) SU(2)_L-doublet = the LOWER electroweak breaking, not this high-scale step ✓. So the high-scale channel is a neutral SU(2)_L-singlet, and that uniquely leaves Y unbroken.
+
+**But three precise tier distinctions I hold (the ruling is not a blanket "2/6 derived unconditionally"):**
+1. **Y DIRECTION = DERIVED** (which combination survives = Y). ROBUST — follows from ANY neutral SU(2)_L-singlet breaking + the target-innocent charge assignments; does NOT need the ν_R identification specifically (that's a bonus convergence with F584). ✓ Real, closes my §36 "which line" gap.
+2. **no-Z′ = DERIVED** (2-plane → 1-dim stabilizer → exactly one surviving U(1) = Y). ✓ Cleaner than my §36 "one SO(2)."
+3. **★ Y NORMALIZATION (sin²θ_W) = still RUNNER — F583 derives the DIRECTION, NOT the coupling.** "Which combination is gauged" ≠ "its coupling ratio g'/g." The flagship MUST keep this sharp: **Y-direction DERIVED; Y-coupling (sin²θ_W) RUNNER.** Do not let "Y forced" bleed into "sin²θ_W derived" — they are different questions (§26–35).
+4. **no-W_R = DERIVED-CONTINGENT on the high-scale breaking ACTUALLY occurring.** The stabilizer logic gives "IF a neutral singlet breaks, Y survives and W_R gets mass." It still requires the breaking to HAPPEN (else SU(2)_R stays gauged → W_R massless → contradiction). That breaking = the ν_R Majorana condensate = ties to Shilov-vanishing (round-4 top item). So no-W_R banks fully once Shilov-vanishing FORCES the condensate. Until then: DERIVED-modulo-the-breaking-occurring.
+
+**Cal #35 update on "convergent routes":** F583's stabilizer argument is MORE independent than the earlier three (F571/F582/4719 all shared the odd-g lock). F583's core (neutral-singlet → Q=Y) rests on photon-masslessness + charges, NOT odd-g (it uses odd-g only for the singlet property). So the convergence is genuinely stronger now — F583 adds a route that doesn't reduce to odd-g. Evidence upgraded.
+
+**NET RULING for the flagship (Keeper):** bank **no-Z′ = DERIVED** and **Y-DIRECTION = DERIVED** (F583, premise accepted). Tier **no-W_R = DERIVED once Shilov forces the ν_R condensate** (contingent — the round-4 item). Keep **sin²θ_W = RUNNER** (Y-coupling ≠ Y-direction) — do NOT upgrade it. So: 1 absence DERIVED (no-Z′) + 1 absence DERIVED-contingent (no-W_R) + Y-direction DERIVED + Y-normalization RUNNER. That's the honest, referee-defensible tiering — stronger than §36, short of "2/6 unconditional."
+
+— Cal, 2026-07-18.
+
+## 38. (2026-07-18 Sat) FLAGSHIP RATIFICATION PASS (26-tier scoreboard). Numeric tiers RATIFIED; gauge-sector scoreboard is STALE (07-17, missing the 07-18 derivations); 3 items pending.
+
+**Lyra self-applied Cal #27 (noted + credited):** she retracted her own "Shilov-vanishing (one fact) → four sectors" to "one engine, two legs" (exact→confinement; graded→mass hierarchy) BEFORE it reached me. The prettiest claim of the round trimmed by its own author = the audit chain working as designed. I ratify the two-legs framing as the honest version; flag it must NOT slide back to "one fact→four sectors."
+
+**RATIFIED (numeric 26-tier map, consistent with §13–§37):**
+- **RUNNERS correctly OFF the derived list** — sin2_thW_MZ = RUNNER ✓ (K739/§26-37); alpha_s_MZ = RUNNER ✓. Elie's "runners off derived" claim VERIFIED.
+- **delta_PMNS_branch = DATA_PICKED** ✓ — my §21 sign catch correctly applied ("only the MAGNITUDE 2/7 is law; sign(sinδ) is a data input"). Exactly right.
+- **delta_PMNS_magnitude + sin2_th13 = LAW (2-DEEP)** ✓ (§23 polynomial law g²=45+4); **sin2_th23 = LATTICE (2-shallow)**, **sin2_th12 = VALUE_SPECIFIC (2-shallow)** ✓ — my §23 depth-split correctly rendered.
+- **V_cb, V_ub = STRUCTURAL** ✓ (§13-14); **gauge_SU3_color = SUPPORTED** (not derived) ✓ (§24/27); **parity_violation = DERIVED_NATIVE** ✓ (§25); **gauge_SU2_weak = DERIVED_NATIVE** ✓ (§24). Mass ratios = LATTICE monomials ✓. m_nu1, theta_QCD = EXACT_ZERO ✓.
+
+**★ FLAG 1 — the scoreboard is STALE (dated 2026-07-17): it PREDATES the 07-18 gauge derivations.** MISSING entries for: **no-W_R, no-Z′, the fermion quantum-number table (F582), and the Y-direction derivation (F583).** And **gauge_U1_hypercharge is tiered "CORRESPONDENCE" — under-tiered post-F583.** Before referee-final, Appendix A MUST add, with my §37 tiering:
+  - **no-Z′ = DERIVED**; **Y-direction = DERIVED** (F583, premise accepted §37);
+  - **no-W_R = DERIVED-CONTINGENT on the Shilov-forced ν_R condensate** (NOT flatly derived — round-5 item);
+  - **hypercharge: Y-DIRECTION DERIVED (F583), Y-NORMALIZATION = sin²θ_W RUNNER** — keep these SEPARATE (the §37 direction≠coupling distinction; do not let "Y derived" read as "sin²θ_W derived").
+
+**★ FLAG 2 — alpha_inv:** the integer 137 = N_max = N_c³·n_C+rank is LAW+ANCHOR ✓, but the FULL 0.0004% precision rides the 4π + curvature correction, which needs the α-standalone target-innocence check (§34 "guard 24 = fit-then-ID"). Tier as "137 LAW+ANCHOR; curvature-correction pending Cal ratification of Elie E1 standalone."
+
+**★ FLAG 3 — confinement + neutrino NOT yet derived (round-5 pending):** each is "one K-type computation from derived" (Elie: color-nonsinglet non-spherical → confinement; ν_R forced-spherical → neutrino). Flagship MUST tier them PENDING those checks. The mixing angles 3/10 & 1/45 dropping out of the texture is the neutrino sector's FAIL point — conditional, not banked.
+
+**RATIFICATION VERDICT:** the numeric 26-tier scoreboard is referee-defensible and matches my log — RATIFIED. NOT referee-final until: (1) Appendix A adds the 07-18 gauge derivations at the §37 tiers (no-Z′ derived, Y-direction derived, no-W_R contingent, sin²θ_W runner-kept-separate); (2) α curvature ratified (§34); (3) confinement+neutrino tiered pending the two K-type checks. Three fixes, all specific. The derived/supported/runner boundary is otherwise drawn correctly.
+
+— Cal, 2026-07-18.
+
+## 39. (2026-07-18 Sat) RATIFY roots reframe (F579) + confinement (DERIVED) — both rigorous, with two scope flags (count vs dynamics; kinematic vs dynamical) + Cal #35 on "three routes."
+
+**ROOTS REFRAME (F579) — RATIFIED as DERIVED-synthesis foundation, count-level.** Independently verified the FK/Helgason data for D_IV⁵ = SO₀(5,2)/[SO(5)×SO(2)] (tube type, rank 2): short-root multiplicity a = n−2 = 3 = N_c (a GENUINE FK multiplicity, a function of n — NOT a 3=3 relabeling); dim = r + a·C(r,2) = 5 = n_C = a+rank; FK genus p = (r−1)a+2 = 5 = n_C; ambient g = n_C+rank = 7; C_2 = a·rank = 6; conformal ρ = (n_C/2, N_c/2) = (5/2,3/2). All standard, target-innocent (fixed by geometry, not read from observables). The two independent root data {rank=2, a=3} generate the five integers via real formulas. Rigor vs relabeling: RIGOROUS — this is a referee-defensible flagship foundation. "The five integers are the rank-2 root system of one domain" is earned.
+- **★ SCOPE FLAG (count vs dynamics):** "N_c = the multiplicity a" is the COUNT (structural, target-innocent). "SU(3) color GAUGES the a=3 multiplicity space" is the DYNAMICS — SEPARATE and OPEN (F586 color dynamics). The reframe derives the INTEGERS from the root data; it does NOT derive the color GAUGE GROUP. Don't let the reframe's elegance imply color dynamics is derived.
+
+**CONFINEMENT — RATIFIED as DERIVED (kinematic), with scope + Cal #35.**
+- Core fact (target-innocent): color states live in the non-spherical multiplicity space (a=3 = N_c, structural count); non-spherical K-types have EXACTLY ZERO Shilov boundary support (Szegő restriction / Schur orthogonality — the Shilov boundary carries only the trivial/spherical rep). So colored states have no asymptotic (boundary) support → confined. Frame-INDEPENDENT (the invariant argument). Target-innocent (multiplicity-space non-sphericity is FK rep-theory; not fit to confinement). DERIVED. ✓
+- **CREDIT the discipline:** Lyra rejected the frame-DEPENDENT Peirce/V₁₂ route and kept only the invariant Schur argument — frame-independence IS the target-innocence guarantee. Exactly right.
+- **★ SCOPE FLAG (kinematic vs dynamical):** "confinement DERIVED" = the KINEMATIC statement (colored states have zero Shilov support → not in the asymptotic/physical spectrum). It is NOT the full DYNAMICAL confinement (linear potential, flux tubes, mass gap) — that IS color dynamics (open, F586). Flagship must scope it: kinematic confinement DERIVED; dynamical mechanism open. Don't over-claim "confinement" as the full phenomenon.
+- **Cal #35 on "three convergent routes":** they are ONE core fact (only singlet/spherical survives on the Shilov boundary) framed 2-3 ways — Lyra-Schur and Elie-Schur-toy are the SAME argument; Elie-K-type-non-spherical is the MECHANISM for why the boundary carries the trivial rep. NOT three independent routes. ONE solid target-innocent fact SUFFICES for DERIVED (so the verdict stands), but do not cite "three independent routes" as three-fold independent evidence.
+
+**RATIFICATION:** roots reframe = DERIVED foundation (count-level; color dynamics open); confinement = DERIVED (kinematic; dynamical open). Both referee-defensible AT THEIR SCOPE. Flagship: state N_c=multiplicity (count) and kinematic-confinement as derived; keep color GAUGE dynamics + dynamical-confinement as open (F586). These are the honest boundaries.
+
+— Cal, 2026-07-18.
+
+## 40. (2026-07-18 Sat) RATIFY neutrino sector "DERIVED (pending Cal)" — SPLIT: spectrum (m₁=0) DERIVED; PMNS angles IDENTIFIED-not-derived (my §38 FAIL point, handled honestly). + scope flags.
+
+**m₁=0 = DERIVED (ratified).** Verified: type-I seesaw with n(ν_R)=2 < 3 generations → rank(m_ν) ≤ 2 → one eigenvalue EXACTLY zero (m₁=0), every trial. And n(ν_R)=2 = the # primitive idempotents of the rank-2 Jordan structure = domain rank (target-innocent, structural). So m₁=0 follows from n(ν_R)=2=rank — DERIVED, not fit. ✓
+- **BUT (Cal #27, Keeper's own flag):** the GENERAL "domain-rank forces a massless mode" is currently ONE instance (m₁=0). One instance ≠ a mechanism — needs the Schur-sweep 2nd instance. So m₁=0-specific is DERIVED (self-contained seesaw-rank argument); the general rank-mechanism is one-instance, not yet a "master mechanism."
+
+**★ THE SPLIT — "neutrino sector DERIVED" means SPECTRUM derived, MIXING identified:** my §38 FAIL point HAPPENED — Elie found 0 of 6 mass textures reproduce the PMNS angles. Handled honestly (relocated, not forced). So:
+- **neutrino SPECTRUM (m₁=0 + the band): DERIVED** ✓
+- **PMNS mixing ANGLES: IDENTIFIED-not-derived** — banked FORMS (1/45, 3/10) at their precisions, but NO mechanism yet. The angular/K-type-overlap derivation is a LEAD (round-7 top item), NOT a result. Correct downgrade.
+- Flagship MUST scope: "neutrino sector derived" = masses/spectrum; the ANGLES are identified-not-derived. Do NOT let it imply the angles are derived.
+
+**★ SCOPE FLAG on the "mixing is ANGULAR (SVD), decoupled from mass texture" relocation:** the framing (M=UΣV†: masses=radial Σ, mixing=angular U,V; texture entangles both) is SOUND and principled (K704), NOT ad-hoc. BUT it is **PMNS-SPECIFIC.** CKM's Cabibbo sin²θ_C = m_d/m_s (GATTO) DOES come from mass ratios (banked, works, 0.4%). So mixing is NOT universally "purely angular decoupled from masses" — Gatto is a mass-ratio mixing that succeeds. The 0-of-6 texture failure is PMNS/MAJORANA-specific (F413 CKM-small/PMNS-large / Dirac-vs-Majorana). Do NOT over-generalize "mixing is angular" to CKM — it would contradict banked Gatto. State: PMNS angles → angular structure; CKM Cabibbo → mass ratio (Gatto). Both consistent with the Dirac/Majorana distinction.
+
+**CREDIT — Keeper's consistency catch:** he caught that Grace's λ₂-sweep derived n(ν_R)=2 via the RETIRED premise and re-attributed it to the idempotent-count (=rank), confining λ₂ to the confinement leg. Correct re-attribution after a premise retirement — good discipline. Ratified: n(ν_R)=2 = idempotent count, NOT the retired premise.
+
+**Gluon fields = HOSTED-tier ✓** (SO(3) native, SU(3) needs the hosted complex structure) — consistent with §24/27 (color supported/hosted). Ratified at hosted, not native.
+
+**RATIFICATION:** neutrino SPECTRUM (m₁=0) DERIVED (pending general-mechanism = one-instance); PMNS ANGLES identified-not-derived (angular-overlap = the lead, the last open mixing piece); relocation PMNS-specific (CKM/Gatto stands); gluon hosted. The flagship's §7 tiering ("neutrino derived + PMNS angles honestly identified-not-derived") is CORRECT — ratify it, with the CKM/PMNS scope made explicit.
+
+— Cal, 2026-07-18.
+
+## 41. (2026-07-18 Sat) Round-8 ratification: two-stratification MECHANISM DERIVED-structural (multi-instance); angle VALUES (sin²θ=d/D) IDENTIFIED-not-derived (3 flags). "Close the angles" NOT done.
+
+**MECHANISM — RATIFIED DERIVED-structural.** Mixing = the fixed angle between D_IV⁵'s two CANONICAL stratifications: the boundary-orbit flag (3 gauge-charged generations, Korányi-Wolf) and the spectral idempotent frame (rank 2). U = ⟨flag|frame⟩ = relative orientation, decoupled from masses. Both frames are intrinsic/canonical → the mechanism is target-innocent. Explains (a) why mass textures missed (radial data for an angular object — §40) and (b) the CKM-small/PMNS-large asymmetry as ONE geometric fact (quarks: both chiralities on the same flag → cancel; ν: right-handed side on the misaligned singlet frame → large). Real advance. ✓
+- **Multi-instance (Cal #27 satisfied):** unlike the one-instance domain-rank (§40, retired), the two-stratification angle has CKM + PMNS + the asymmetry = ≥3 instances → a legitimate candidate master structure. Credit the upgrade.
+
+**ANGLE VALUES (sin²θ = d/D) — IDENTIFIED-not-derived. Three flags; "close the angles" is NOT done:**
+1. **(Keeper flag 1) D=10 is a value-coincidence.** sin²θ₁₂=3/10, D=10 = rank·n_C = N_c+g (our own value-specific syzygy, §23). Multiple substrate readings of 10 → rich-vocab → must pin WHICH 10 is the genuine subspace dimension, not just land on 10. Same discipline that retired sin²θ_W.
+2. **(Keeper flag 2, SHARPENED) the reading is NON-UNIFORM 3 ways** — verified against so(10) rep dims: θ₁₃ (D=45 = ADJOINT), θ₁₂ (D=10 = VECTOR), θ₂₃ (D=7 = NOT an so(10) rep at all; 7=g has no so(10) home). So it's not one branching — it's THREE OPPORTUNISTIC (d,D) picks (different rep for each angle, one missing). That is the fitting signature. A real d/D derivation needs ONE branching structure forcing ALL THREE uniformly.
+3. **(my flag) the equipartition "sin²θ=d/D" is a PRINCIPLE that needs grounding** — d/D is the overlap² only IF the flag-frame overlap is DEMOCRATIC (equipartitioned). Why democratic? Assumed, not derived. Like α's charge-democracy but unproven for mixing. If equipartition is posited, the d/D values are assumption-dependent.
+
+**Five-Absence pre-flag (Keeper) — CONFIRMED intact:** the so(10) here is GENERATION-SPACE combinatorics (16 = so(10) spinor structure of one generation), NOT a gauged so(10) GUT. Five-Absence holds (no gauged so(10)/no GUT). I confirm — do NOT misread the so(10) reading as unification. Good that it was flagged pre-emptively.
+
+**CP-phase lead:** δ_PMNS magnitude 2/7 is ALREADY LAW-derived (§21, Pythagorean); the BRANCH (sign) is data-picked. The overlap-phase lead (δ = complex phase of ⟨flag|frame⟩) should give the magnitude AND ideally the SIGN — if it derives the sign/branch geometrically, it CLOSES my §21 branch flag. Watch for the sign, not just 2/7 (which is already law).
+
+**RATIFICATION:** two-stratification MECHANISM = DERIVED-structural + multi-instance master-structure candidate (ratify). Angle VALUES = IDENTIFIED-not-derived (ratify the DOWNGRADE; the "close" is NOT achieved). The angle forms move identified→derived only when ONE K-type branching forces (d,D) for all three UNIFORMLY (θ₂₃ included), the specific dimensions are pinned (not value-coincidences), and the equipartition is grounded. Flagship: mechanism derived, angle values identified. Do NOT bank "angles derived" on the current opportunistic d/D reading.
+
+— Cal, 2026-07-18.
+
+## 42. (2026-07-18 Sat PM) Round-9 ratification: flavor-SVD = FRAMING (not new derivation); 4 leads pre-registered. My §41 flags HELD (so(10) retracted, D=10 value-coincidence confirmed).
+
+**§41 flags HELD (credit the discipline):** round 8 = the 4th honest negative of the day. Lyra retracted the so(10) reading (θ₂₃=4/7 breaks it, exactly my §41 flag 2); D=10 confirmed a value-coincidence (my §41 flag 1). Both flags held; the team walked it back cleanly. Functioning audit chain.
+
+**1. FLAVOR-SVD reframe — RATIFY as FRAMING, NOT new derivation.** "Flavor = the SVD of the two-stratification structure: masses=Σ, mixing=U,V, CP=phase(U,V)" is a correct ORGANIZING statement = the §41 mechanism repackaged (the Yukawa SVD's angular part IS the flag-frame misalignment). Tier UNCHANGED: masses DERIVED (Σ), mixing-VALUES IDENTIFIED-not-derived (U,V — §41), CP magnitude banked / branch open (§21). "Most of the 26 = one SVD object" is a nice framing; do NOT let it read as an upgrade of the mixing-value tier.
+
+**2. DEMOCRACY / EQUIPARTITION PRINCIPLE — CANDIDATE, not banked (= my §41 flag 3 elevated).** The team now proposes equipartition (sin²θ=d/D, maximal-entropy) as a PRINCIPLE linking α's 137-democracy to mixing. Bar: (a) GROUND it (why maximal entropy for these overlaps — not just an appealing analogy); (b) it must give ALL angles UNIFORMLY — currently θ₂₃ breaks the d/D pattern (§41); (c) the D's must be forced, not per-angle fit. ★ Cal #27: a maximal-entropy/"democracy" meta-principle is exactly the kind of appealing rule that can rationalize many values — do NOT bank it on the α-analogy + 2-of-3 angle fits. Candidate-tier until grounded + uniform.
+
+**3. CP-AS-GEOMETRIC (δ = phase of ⟨flag|frame⟩) — LEAD.** Bar: (a) δ_CKM must be FORWARD-predicted (not fit) → a genuine new falsifiable number; (b) δ_PMNS's BRANCH (sign, 197° vs 163°) must come from the geometry → CLOSES my §21 branch flag. δ_PMNS magnitude 2/7 is ALREADY law (§21) — re-deriving it adds nothing; WATCH FOR THE SIGN + δ_CKM.
+
+**4. GLOBAL SO(3)_gen WIGNER-3j — the closure route; pre-register 3 bars:**
+- (a) **Five-Absence:** GLOBAL (ungauged) SO(3)_family = OK (no gauge boson); a GAUGED family SO(3) = FORBIDDEN (new force). Confirm genuinely ungauged. (Keeper/Lyra flagged ungauged — good.)
+- (b) **Uniformity (the load-bearing bar):** Wigner-3j overlaps DO give clean rationals (standard) — but the route closes the forms ONLY IF ONE 3j structure forces ALL THREE angles (θ₁₃, θ₁₂, AND θ₂₃=4/7) with NO per-angle freedom (which 3j / which reps). If it fits each angle with a different 3j opportunistically, it fails the SAME way so(10) did (θ₂₃). θ₂₃ is the discriminator.
+- (c) **★ reconcile with F86 strata (my §15/§16 concern):** "3 generations = 3 Korányi-Wolf boundary orbits = a symmetric SO(3) triplet" — BUT F86 puts the 3 generations at DIFFERENT-dimension strata (origin/Cartan/Shilov). Different strata are NOT obviously an SO(3)-symmetric triplet. A global SO(3) rotating 3 inequivalent strata needs justification. Same reconciliation the μ-τ ℤ₂ needed (§16). Must show the 3 orbits genuinely form an SO(3) multiplet.
+
+**RATIFICATION:** flavor-SVD = FRAMING (ratify; tiers unchanged — masses derived, mixing-values identified). Ideas 2-4 = CANDIDATE/LEAD (not banked). The mixing-value CLOSURE moves identified→derived only when ONE structure (SO(3)_gen 3j or grounded equipartition) forces all three angles UNIFORMLY (θ₂₃ included), the dimensions/reps are pinned, Five-Absence holds (ungauged), and the F86-strata↔SO(3)-triplet reconciliation lands. I rule at that landing. Flagship state otherwise unchanged and honest.
+
+— Cal, 2026-07-18.
+
+## 43. (2026-07-18 Sat PM) Round-10 ratification: orbit-pair FRAMEWORK ratified (right route); Keeper's 3 gaps CONFIRMED + gap-1 SHARPENED (per-pair freedom is the real fitting risk). 4 dead routes now.
+
+**Credit — Keeper's own gap analysis is sharp (discipline internalized):** he flagged exactly the 3 right seams before I did, and killed the SO(3)_gen route himself (denominators {7,10,45} aren't SO(3) dims). Both single-group readings (so(10), SO(3)_gen) now dead; 4 dead routes total (so(10), SO(3)_gen, domain-rank, uniform-branching). Each death sharpened the next question — the arc's honest pattern holds.
+
+**ORBIT-PAIR PICTURE — RATIFY as the right FRAMEWORK.** The 3 mixing angles = the C(3,2)=3 pairs of the 3 Korányi-Wolf boundary orbits (Bulk B, Intermediate I, Shilov S): θ₁₂=B↔I, θ₂₃=I↔S, θ₁₃=B↔S. Combinatorially natural (gen-i = orbit-i per F86 → θ_ij = orbit-pair i-j; θ₁₃ = most-separated pair = smallest angle). Cleaner and more principled than the dead single-group routes. The FRAMEWORK is right; the COUNTS are the open computation.
+
+**θ₁₂ D=10 pin — CONDITIONAL (Keeper's sub-seam CONFIRMED):** D=10 = dim SO(5) (Elie) AND B↔I orbit-pair count (Lyra) must be shown the SAME geometric object (the connecting-mode space IS an identifiable dim-10 SO(5) rep, the adjoint), NOT two things both =10. 10 also = rank·n_C = N_c+g (value-coincidences). Same coincidence trap that killed 3/13. Pinned ONLY when the two readings are unified into one object.
+
+**★ θ₂₃(7), θ₁₃(45) NOT pinned — gap-1 SHARPENED (the load-bearing risk):** verified neither 7 nor 45 is an SO(5) irrep dim (SO(5) dims: 1,4,5,10,14,16,20,30,35,...). θ₁₂ lives in SO(5)(10), but 7=g (ambient) and 45=N_c²·n_C (so(10) adjoint) are DIFFERENT structures. So the 3 orbit-pairs do NOT share one group home — **each pair has its OWN stabilizer/rep → the orbit-pair framework has PER-PAIR fitting-freedom, MORE than a single-group route.** So the discipline must be TIGHTER, not looser: **each D must be COMPUTED FORWARD from its specific orbit-pair geometry (the actual stabilizer + connecting-mode rep), landing 7, 45, 10 — NOT a structure hunted for each.** If the 3 D's are found opportunistically (one structure per angle), it's the SAME fitting that killed so(10), just distributed across 3 pairs. That's the exact bar for closure.
+
+**Hierarchy (Keeper gap 2) — AGREE, not-banked:** θ₂₃>θ₁₂>θ₁₃ from "D increases with orbit-separation" FAILS — θ₂₃ and θ₁₂ are both adjacent pairs yet D=7≠10. Separation doesn't order them; only the actual mode-counts do. Do not bank the hierarchy as derived-from-separation.
+
+**Democracy principle (Keeper gap 3) — AGREE, 2 independent instances not 3 (Cal #35):** |sinδ_PMNS|=2/7 shares the g=7 mode-space with sin²θ₂₃=4/7 → SUPPORTIVE, not independent (shared input). Independent grounded-D instances = α(137) + θ₁₂(dim SO(5)=10) only. Needs a genuine 3rd. Hold at framework-level, NOT a banked mechanism. (Credit Keeper for catching the shared-g=7 non-independence himself — that's Cal #35 self-applied.)
+
+**RATIFICATION:** orbit-pair framework = right route (ratify); θ₁₂ D=10 = conditional (unify the two 10-readings); θ₂₃/θ₁₃ D's = NOT pinned, and the per-pair freedom means the closure needs EACH D forward-computed from its own orbit-pair geometry (not hunted); hierarchy + democracy held at framework. Mixing angles stay IDENTIFIED-not-derived. The 3 forward mode-counts (with the θ₁₂ unification) are the exact gate between "mechanism derived" and "sector derived." I rule at that landing — and θ₂₃=7 is again the discriminator (it has no SO(5) home).
+
+— Cal, 2026-07-18.
+
+## 44. (2026-07-18 Sat PM) REFEREE-FINAL RATIFICATION of the grand synthesis (K752/K753). Spine RATIFIED as framework-on-proven-measure; 4 conditions; equipartition gap held.
+
+**The reconnections are genuinely valuable — credit.** Casey's "does this remind you of proven results?" turned a candidate principle into "the Born rule on flavor" and saved rebuilding the dual-ρ machinery. Reconnect-don't-rebuild is real work. Ratifying WITH conditions, not rubber-stamping.
+
+**RECONNECTION 1 (mixing = Born, Born = Bergman): MEASURE grounding RATIFIED; EQUIPARTITION gap HELD.**
+- sin²θ_ij = |U_ij|² = Born [definitional] ✓; Born = Bergman = PROVEN (T2401/T754, the unique automorphism-invariant measure on H²(D_IV⁵)) ✓. So the flavor MEASURE is proven Bergman. Real grounding.
+- ★ BUT sin²θ = d/D requires the state to be UNIFORM (maximal-entropy) — that is the EQUIPARTITION assumption. **Born=Bergman proves the MEASURE, NOT the uniformity.** So the democracy principle = proven measure + ASSUMED uniform state. Do NOT let "Born=Bergman" launder the equipartition — my §41 flag 3 STANDS. The measure is proven; the democracy (why the overlap is d/D) is still assumed. State it that way.
+
+**RECONNECTION 2 (two-stratification = dual-ρ overlap, from May): RATIFY as consistency (verify not retrofitted).** Compact ρ_SO(5)=(3/2,1/2)=frame; conformal ρ=(5/2,3/2)=(n_C/2,N_c/2)=flag; θ₁₂ D=10=dim SO(5)=compact-ρ side ✓. If the May scorecard genuinely had "θ₁₂=dual-ρ overlap" (verify — not retrofitted now), rounds 7-9 rediscovering it = a real 2-month internal consistency. Reuse-don't-rebuild is sound. But it provides MACHINERY, it does NOT close the D's.
+
+**ROUND-10 ADJUDICATION: θ₂₃(7) genuinely open (agree §43); θ₁₃(45) is a LEAD not closed.** 45 = C(10,2) (Grace's chain from θ₁₂'s 10) AND 45 = N_c²·n_C — TWO homes = the coincidence trap (killed 3/13). So "2 of 3 structurally chained" OVERSTATES: θ₁₂ conditional (unify the two 10-readings), θ₁₃ candidate-chain (not pinned), θ₂₃ genuinely open. The C(10,2) chain re-uses so(10)-flavored combinatorics (generation-space, Five-Absence-OK per §41) but must be FORWARD-derived, not a found relation.
+
+**GRAND SYNTHESIS (SM = Born/Bergman measure on D_IV⁵, decomposed): RATIFY as FRAMEWORK-THESIS, 4 conditions for referee-final:**
+1. **The MEASURE is proven** (Born=Bergman); the DECOMPOSITION is a framework; **per-feature tiers stay explicit** — masses DERIVED, mixings IDENTIFIED (D's open), sin²θ_W RUNNER, color SUPPORTED/hosted, no-W_R DERIVED-contingent (§37), confinement KINEMATIC-derived (§39). "One proven measure" does NOT mean every feature derived.
+2. **Keeper's guardrail RATIFIED** ("shadows of one proven measure, NOT SM derived") — this is the correct framing; keep it prominent, above the rank-2 thesis is fine.
+3. **Equipartition/democracy = assumed uniformity on the proven measure** (NOT itself proven) — state explicitly; don't launder via Born=Bergman.
+4. **"3 master mechanisms = 3 faces of the measure"** (odd-g=chirality, λ₂/Shilov=boundary-support, two-stratification=angle) = a FRAMEWORK framing — ratify as organizing structure, not as "all three derived to the same tier" (odd-g/parity DERIVED §25; Shilov/confinement KINEMATIC-derived §39; two-strat mechanism derived but VALUES identified §41-43).
+
+**REFEREE-FINAL VERDICT:** the grand-synthesis spine is RATIFIED as a framework thesis built on a genuinely proven measure (Born=Bergman), with the honest per-feature tiers and the guardrail intact. It is referee-final AT FRAMEWORK TIER provided the 4 conditions are stated in the paper (esp. the equipartition-is-assumed and per-feature-tiers points). Mixing D's rep-theory-open, honestly identified, off critical path (agree with Lyra's strategic call). This is the deepest honest reframe of the program — and it earns "referee-final" precisely because it does NOT claim the SM is derived, only that the derived results are features of one proven measure.
+
+— Cal, 2026-07-18.

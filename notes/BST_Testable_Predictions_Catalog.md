@@ -25,7 +25,7 @@ BST makes 160+ parameter-free predictions. Most agree with known measurements an
 | 1 | **Baryon resonance k=8** | 3753 MeV | Hadron spectroscopy (LHCb, BESIII) | Undiscovered N* resonance |
 | 2 | **Nuclear magic number 184** | Z=184 or N=184 | Superheavy element synthesis (RIKEN, Dubna) | Beyond Z=126 shell |
 | 3 | **Lightest neutrino massless** | m_ν₁ = 0 exactly | KATRIN endpoint, 0νββ experiments | Normal ordering, Σm_ν = 0.058 eV |
-| 4 | **Dirac neutrinos (no Majorana)** | \|m_ββ\| = 0 | LEGEND, nEXO, CUPID | Strong falsifiable prediction |
+| 4 | **Majorana neutrinos (REVERSED 2026-07-16)** | 0νββ occurs, \|m_ββ\| ∈ [1.4,3.7] meV | LEGEND, nEXO, CUPID | Detection SUPPORTS BST; null <1meV falsifies |
 | 5 | **BH gravitational wave echoes** | Δt = 137 × r_s/c | LIGO/Virgo post-merger analysis | Haldane cap replaces singularity |
 | 6 | **Fourth generation (sterile)** | Exists, very heavy or confined | LHC, future colliders | From E₈ → D₅ × A₃: 4 → 3+1 |
 | 7 | **Periodic table terminus** | Z = 137 | Superheavy element synthesis | Block widths = 2×{1,3,5,7} |
@@ -53,7 +53,7 @@ BST makes 160+ parameter-free predictions. Most agree with known measurements an
 
 | # | BST Prediction | Competing Prediction | Current Status |
 |---|---------------|---------------------|----------------|
-| 17 | **m_ν₁ = 0** (Dirac) | Most models: all m_ν > 0, Majorana | KATRIN approaching sensitivity |
+| 17 | **m_ν₁ = 0** (Majorana) | Most models: all m_ν > 0 | KATRIN approaching sensitivity |
 | 18 | **No proton decay** | GUTs predict proton decay | Super-K bound: τ > 10³⁴ yr (BST consistent) |
 | 19 | **No SUSY particles** | MSSM predicts sparticles | LHC null results (BST consistent) |
 | 20 | **Dark matter = topological** | WIMPs, axions, etc. | Direct detection null results (BST consistent) |
@@ -79,7 +79,7 @@ These are not "predictions" in the temporal sense but represent the strongest qu
 
 If forced to pick the **three most decisive experiments** for BST:
 
-1. **0νββ decay** (#4): BST predicts |m_ββ| = 0 (Dirac neutrinos). If next-generation experiments (LEGEND-1000, nEXO) see a signal, BST is falsified. If they don't, BST is supported.
+1. **0νββ decay** (#4): BST predicts 0νββ OCCURS with |m_ββ| ∈ [1.4,3.7] meV (Majorana, REVERSED 2026-07-16 F413/K673). A detection in that range SUPPORTS BST; a null below ~1 meV falsifies. (Old Dirac |m_ββ|=0 retired.)
 
 2. **EHT circular polarization** (#9): BST predicts CP = α = 0.730% at every black hole horizon, independent of mass and frequency. This is testable with existing EHT data by removing the V=0 assumption.
 

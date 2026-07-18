@@ -124,7 +124,7 @@ This is not “new physics” in the BST framework — it is a geometric consequ
 
 ### 3.1 Neutrinoless Double Beta Decay
 
-BST predicts Dirac neutrinos (neutrino and antineutrino have opposite $S^1$ winding, are distinct particles). This means neutrinoless double beta decay does not occur. Multiple experiments are searching: GERDA/LEGEND, nEXO, KamLAND-Zen, CUPID. A confirmed detection falsifies BST. A null result at the inverted hierarchy mass scale ($\sim 20$ meV) is BST-consistent. This is the cleanest binary test of BST available in the near term.
+BST predicts MAJORANA neutrinos (REVERSED 2026-07-16, F413/K673/F582). This means neutrinoless double beta decay OCCURS at m_ββ ∈ [1.4, 3.7] meV (normal ordering, m_ν1=0). Multiple experiments are searching: GERDA/LEGEND, nEXO, KamLAND-Zen, CUPID. **A confirmed detection in [1.4,3.7] meV SUPPORTS BST; a null result below ~1 meV falsifies.** This is the cleanest binary test of BST available in the near term. [Old Dirac / no-0νββ claim retired.]
 
 ### 3.2 Dark Energy Equation of State
 

@@ -1,10 +1,23 @@
 # The Standard Model From One Number
-### A synthesis of the linear-algebra program on the 26 — written so a fifth grader can follow the motivation (and a referee can check the claims)
+### A synthesis written so a fifth grader can follow the motivation (and a referee can check the claims)
 
 ## The mystery
 Everything — every atom, every star, you — is built from a few tiny particles following rules called the **Standard Model**. It's the best theory we have. But it has a secret embarrassment: it needs **26 "magic numbers"** that nobody could explain. Scientists measured them, wrote them down, and just *used* them. Why is the electron as heavy as it is? Why is each force as strong as it is? The numbers looked random.
 
 **BST says they're not random. All 26 grow from one number: 2.**
+
+## The simplest picture — one cloud on one shape
+Here's the deepest and simplest way to see the whole thing. There's **one special shape** (mathematicians call it D_IV⁵), and everything is **one cloud of "how likely"** sitting on that shape — the cloud that quantum mechanics calls *probability*.
+
+The wonderful part, and it's something we **proved**: the rule quantum physics uses for "how likely" (the famous one — the chance of finding a particle is the *square* of its wave) turns out to be **exactly the natural way of measuring on this one shape.** They're the same thing. So "how likely" just *means* "where you sit on the shape."
+
+Once you know that, the whole Standard Model is just **that one cloud, measured in different ways**:
+- **How heavy** a particle is = **how far out** in the cloud it sits.
+- **How much** one kind of particle turns into another (mixing) = the **angle** between two ways of looking at the cloud.
+- **The forces** = which pieces of the cloud can **reach the edge and escape** (the color-neutral ones get out; the "colored" quarks are trapped inside — that's why you never see a lone quark).
+- **How strong electricity is** (the famous 1/137) = **counting** the cloud's channels.
+
+So the "26 magic numbers" were never 26 separate mysteries. They are **one cloud, on one shape, read six different ways.** The rest of this page is how that cloud is built — starting, as everything does, from the number 2.
 
 ## A family tree from the number 2
 Start with **2** — the seed. From 2 you build a little family by simple recipes:
@@ -17,8 +30,8 @@ Those four — **2, 3, 5, 7** — are the first four prime numbers (numbers you 
 ## Every magic number is a recipe
 Here's the surprise: **every one of the 26 magic numbers is a recipe using only 2, 3, 5, 7, and π** (the circle number, 3.14…). Like recipe cards:
 - "2 × 2 × 5" = 20 → how much heavier the *strange* quark is than the *down* quark. (Measured: about 20. ✓)
-- "3 ÷ (3×3 + 2×2)" = 3/13 → the strength of the weak force. (Measured: 0.231. ✓)
 - "1 ÷ (3×3 × 5)" = 1/45 → how often neutrinos of one kind turn into another. (Measured: 0.022. ✓)
+- "3 ÷ 8" → the weak-force tilt *at high energy* (it then "runs down" to the measured 0.231). (See the honest story below — this one taught us a lesson about tidy fractions.)
 
 No magic number needs anything outside the toolbox {2, 3, 5, 7, π}. *(Checked: all the ratio-numbers are "monomials" in these — Grace's matrix, rank 4.)*
 
@@ -33,9 +46,9 @@ It's just true, like 2+2=4. You can't fudge it. And this single un-fakeable fact
 Are the 26 *completely* free? Almost. BST needs exactly **one measured size**: how strong gravity is. BST tells you the *shape* of everything, but you measure *one ruler* to get the actual sizes. Once you have that ruler, every particle's weight follows.
 
 ## The whole story in one line
-**The Standard Model is 25 shapes and 1 size.** The shapes all grow from the number 2. The one size is gravity. Plus π. That's it.
+**The Standard Model is quantum mechanics on one shape.** The shape grows from the number 2; the one "cloud" on it is the probability rule we *proved* is the shape's own natural measure; and everything you can measure — the masses, the mixings, the forces — is that one cloud read a different way. The only thing you have to measure yourself is one *size* (how strong gravity is); everything else is *shape*.
 
-The 26 magic numbers were never 26 separate mysteries — they are **one family, from one seed, with one ruler.**
+The 26 magic numbers were never 26 separate mysteries — they are **one cloud, on one shape, with one ruler.**
 
 ## The one force BST truly owns — and why it's lopsided
 There are four forces. Three of them treat left and right the same, like a mirror. But **one — the weak force** (the force that makes the Sun shine and lets atoms decay) — is **lopsided**: it acts on "left-handed" particles and ignores "right-handed" ones. This is one of the strangest, deepest facts in all of physics. Nobody knew *why*.
@@ -57,14 +70,12 @@ So all three forces come out of *one* shape, through three natural doors. (Grown
 ## Everything's size comes from one ruler
 Here's how clean it gets. There's just **one ruler** — how strong gravity is — and *everything* with a size hangs off it. The electron's weight, every particle's weight, even the "Higgs" (the thing that gives particles their weight) — all of them are that one ruler times a recipe of {2,3,5,7,π}. The Higgs turned out to be **(6π⁵)³ × a tiny number × the gravity ruler ÷ 7** — matching the measured value to *one part in ten thousand*. Not a separate knob. One ruler, many weights.
 
-## Why the weak force "tilts" just right — charge lives on two spheres
-The weak force and electricity are secretly two parts of *one* thing (physicists call it "electroweak"), and there's a number — the **Weinberg angle** — that says exactly how they tilt into each other. It's been measured very precisely.
+## Why the weak force "tilts" the way it does — and a mirage we caught ourselves chasing
+The weak force and electricity are secretly two parts of *one* thing (physicists call it "electroweak"), and there's a number — the **Weinberg angle** — that says how they tilt into each other. Measured, it's about **0.231**.
 
-Big theories from the 1970s (called "grand unified") predict this tilt should be **3/8**. Nature says it's more like **3/13**. Those theories are a little bit *wrong* about it — and BST says exactly why.
+BST's honest answer: the tilt is **3/8** — and here's the twist, *that's a high-energy value*. Forces change strength depending on how hard you look at them (physicists call it "running"). The number 3/8 is what BST's particle content forces at very high energy; slide it down to the everyday energies where we actually measure, and it drifts to about **0.231**. So BST gets the Weinberg angle right, the standard way: **3/8 up high, running down to the measured value.** And where does 3/8 come from? From counting BST's particles and their charges — including **color**: a quark's "baryon number" is exactly **1/3** because it takes 3 quarks to make a proton, and that 1/3 = 1/(number of colors) carries color's fingerprint straight into the weak tilt. That part is real, and it's the "weak-color coupling" idea.
 
-Here's the picture. In BST's world there are **two round "spheres" that are twins** — same shape, different jobs. One carries **electric charge**, the other carries **color** (the strong-force property). Now, a quark is a particle that carries *both* — it has charge *and* color. So its charge doesn't sit on one sphere; it sits on **both at once**, like an arrow pointing equally into two directions: (1, 1). And the length of that arrow isn't 1 — it's √(1² + 1²) = **√2**. That extra √2 is the whole story: the grand-unified theories measured charge as if it lived on *one* sphere (and got 3/8); BST's charge lives on *two twin spheres*, and that √2 slides the tilt from 3/8 to exactly **3/13** — the measured value.
-
-So the weak force tilts the way it does because charge in BST's world rides **two twin spheres, not one** — and the reason it's *two* is that quarks carry color, which is BST's "weak-color coupling." *(Grown-up note — and we mean it, this one's genuinely open: the twin-spheres picture is the right *shape*, but two honest snags stand between it and a proof. First, we haven't yet pinned down *which* two spheres in the geometry are the twins (an earlier guess was wrong and we retracted it). Second — and bigger — there are two different ways to turn "charge rides two spheres" into a number, and they give **different answers**: one clean way gives **1/3** (which is *wrong* — nature says 0.231), and the way that gives the right **3/13** needs an extra ingredient we haven't justified yet. So right now BST honestly has *two candidate answers*, and only one matches. We are **not** claiming 3/13 is proved — that would be picking the answer we like because it fits. The real work is showing *why* the geometry must give 3/13 and not 1/3. Until then, this is an open question, reported as one.)*
+Now the honest part, because it's a good story about how science *should* work. For a while we thought BST predicted a prettier number — **3/13** — which matches the measurement to a fifth of a percent, and which we could write as 3/(3+2×5) using only our little family of numbers. It was *beautiful*. We built a whole geometric picture to explain it (twin spheres, a √2, all of it). And then the team took it apart — one of us caught that our geometric picture was wrong, another caught that our formula secretly borrowed from a theory we'd rejected, and finally the computation showed the plain truth: **3/13 is just where 3/8 lands after it runs down.** It was never a separate law — it's a tidy fraction sitting next to a running shadow. So we retired it. *(Grown-up note: this is the discipline the whole project runs on. A 0.19%-accurate match to a famous constant, with a gorgeous decomposition, is exactly the kind of thing that's most tempting to keep and most likely to fool you. We took it apart instead of defending it. The real prediction — 3/8 running to 0.231 — is solid and standard; the exotic 3/13 was a mirage, and saying so out loud is worth more than the pretty number would have been.)*
 
 ## What we're honest about (the grown-up footnotes)
 Good science says what it *can't* do yet:

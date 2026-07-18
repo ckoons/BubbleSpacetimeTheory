@@ -933,7 +933,7 @@ Ten questions about the APG's self-knowledge, answered in a single session:
 | 5 | Every Millennium = $1/\text{rank}$? | YES — all seven + Four-Color | T1432 / Toy 1439 |
 | 6 | What physics at rank 3? | NO consistent rank-3 APG | T1434 / Toy 1441 |
 | 7 | Near-APG landscape? | EMPTY — no multiverse | T1434 / Toy 1441 |
-| 8 | Cleanest falsifier? | $0\nu\beta\beta$ null ($\lvert m_{\beta\beta}\rvert = 0$, ~2032) | Toy 1443–1444 |
+| 8 | Cleanest falsifier? | $0\nu\beta\beta$ signal $\lvert m_{\beta\beta}\rvert \in [1.4,3.7]$ meV (Majorana); firm null $<1$ meV kills BST, ~2032 | Toy 1443–1444 |
 | 9 | Point counts = particle states? | CONJECTURE — $\#E$ at small primes match multiplicities | — |
 | 10 | Dark matter geometrically? | Continuous spectrum at $\text{Re}(s) = 1/\text{rank}$ | T1433 |
 
@@ -943,7 +943,7 @@ Ten questions about the APG's self-knowledge, answered in a single session:
 
 **T1434 (Near-APG Landscape Is Empty).** The equation $n + 1 = 2(n - 2)$ for genus self-consistency has unique solution $n = 5$, rank $= 2$. No rank-3 universe closes. No near-miss APG exists. No multiverse. ($C = 1$, $D = 0$).
 
-**Neutrino falsification (Toy 1444, 8/8 PASS).** $N_c = 3 \to Z_3$ center symmetry $\to m_1 = 0$ (topological zero) $\to$ Dirac neutrinos $\to |m_{\beta\beta}| = 0$ exactly. Detection of $0\nu\beta\beta$ at ANY rate kills BST. Binary test, ~2032 (LEGEND-1000, nEXO, CUPID).
+**Neutrino falsification (Toy 1444, 8/8 PASS).** $N_c = 3 \to Z_3$ center symmetry $\to m_1 = 0$ (topological zero); the neutrino is **Majorana** (Weinberg operator on the chargeless $S^4$ locus; $\nu_R$ a total gauge singlet; the odd substrate dimension $g=7$ forbids a light $\nu_R$ partner). With $m_1 = 0$, $\sin^2\theta_{12} = 3/10$, $\sin^2\theta_{13} = 1/45$ and the two Majorana phases, $|m_{\beta\beta}| \in [1.4,3.7]$ meV. A detection in-band **supports** BST; a firm null below $\sim 1$ meV kills it. Binary test, ~2032 (LEGEND-1000, nEXO, CUPID).
 
 ### Section 46.81 Genesis Cascade (Toy 1448, Paper #85)
 

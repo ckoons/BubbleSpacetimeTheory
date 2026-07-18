@@ -56,7 +56,9 @@ Recent experimental searches for sterile neutrinos (LSND anomaly, MiniBooNE foll
 
 ## 10.6 Neutrinoless double beta decay and $0\nu\beta\beta$
 
-The substrate-side prediction for neutrinoless double beta decay rate is in active development. The current substrate framework predicts $0\nu\beta\beta$ at a measurable rate consistent with experimental upper bounds.
+BST predicts **Majorana** neutrinos: the mass is the $\Delta L = 2$ Weinberg operator on the chargeless $S^4$ locus, the right-handed neutrino is a total gauge singlet, and the odd substrate dimension $g = 7$ forbids a light $\nu_R$ Dirac partner. Neutrinoless double beta decay therefore **occurs**. With normal ordering, $m_1 = 0$, and the derived mixing angles $\sin^2\theta_{12} = 3/10$, $\sin^2\theta_{13} = 1/45$, the two Majorana phases sweep the effective mass over
+$$|m_{\beta\beta}| \in [1.4,\ 3.7]\ \text{meV}.$$
+A detection in this window supports BST; a firm null below $\sim 1$ meV falsifies it. This is a next-generation target ($m_1 = 0$ suppresses $|m_{\beta\beta}|$ below the inverted-hierarchy scale).
 
 ## 10.7 What comes next
 

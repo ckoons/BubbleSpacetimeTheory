@@ -203,7 +203,7 @@ The equation of state at saturation is determined by the maximum of the Haldane 
 |$\hbar$  |Measured: $1.055 \times 10^{-34}$ J·s     |Substrate diffusion rate: $\hbar = 2m_0\ell_0$           |
 |$c$      |Measured: $3 \times 10^8$ m/s             |Tautology: 1 contact per 1 causal step                   |
 |$N_c$    |Measured: 3                               |$Z_3$ topological closure on $\mathbb{CP}^2$             |
-|$N_{GUT}$|Estimated: $\sim 40$                      |$4\pi^2$ from structured unification                     |
+|$N_{GUT}$|Estimated: $\sim 40$                      |$4\pi^2$ — a geometric SCALE factor (energy), NOT a grand-unified group. BST has NO GUT and NO proton decay (Five-Absence, τ_p=∞); "structured unification" means the couplings relate through structure but do **not** converge into one group. |
 
 Every entry in the left column is a measurement. Every entry in the right column is a derivation from the geometry of the Koons substrate and its configuration space $D_{IV}^5$. The goal of the BST research program is to make every right-column entry into a completed calculation.
 
