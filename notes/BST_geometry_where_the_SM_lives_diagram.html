@@ -1,0 +1,123 @@
+<style>
+  :root {
+    --ground:#eef0f7; --panel:#ffffff; --ink:#1a1d2b; --ink-soft:#565a70; --ink-faint:#8a8ea6;
+    --line:#d7dbe8; --accent:#a8791f; --accent2:#c8a24a;
+    --bulk-a:#e9ecf7; --bulk-b:#c3b17a; --bdy:#a8791f; --cont:#f3f4fa;
+    --mass:#2f8f63; --ang:#3d7fb8; --bdyc:#a8791f; --contc:#7c8196;
+    --serif:Georgia,"Iowan Old Style",serif; --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:ui-monospace,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){:root{
+    --ground:#0d0f1c; --panel:#161a2c; --ink:#e9eaf4; --ink-soft:#a6abc4; --ink-faint:#6e7391;
+    --line:#262b42; --accent:#d8b25c; --accent2:#c8a24a;
+    --bulk-a:#1a1f34; --bulk-b:#5a4d28; --bdy:#d8b25c; --cont:#121525;
+    --mass:#52b98a; --ang:#5fa3d8; --bdyc:#d8b25c; --contc:#8a90a8; }}
+  :root[data-theme="light"]{--ground:#eef0f7;--panel:#fff;--ink:#1a1d2b;--ink-soft:#565a70;--ink-faint:#8a8ea6;--line:#d7dbe8;--bulk-a:#e9ecf7;--bulk-b:#c3b17a;--bdy:#a8791f;--cont:#f3f4fa;--mass:#2f8f63;--ang:#3d7fb8;--bdyc:#a8791f;--contc:#7c8196;--accent:#a8791f;--accent2:#c8a24a;}
+  :root[data-theme="dark"]{--ground:#0d0f1c;--panel:#161a2c;--ink:#e9eaf4;--ink-soft:#a6abc4;--ink-faint:#6e7391;--line:#262b42;--bulk-a:#1a1f34;--bulk-b:#5a4d28;--bdy:#d8b25c;--cont:#121525;--mass:#52b98a;--ang:#5fa3d8;--bdyc:#d8b25c;--contc:#8a90a8;--accent:#d8b25c;--accent2:#c8a24a;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);line-height:1.55}
+  .wrap{max-width:1000px;margin:0 auto;padding:32px 24px 72px}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(24px,4vw,34px);letter-spacing:-.02em;margin:0 0 6px;text-wrap:balance}
+  .sub{color:var(--ink-soft);font-size:15px;max-width:64ch;margin:0 0 24px}
+  .sub code{font-family:var(--mono);font-size:.9em}
+  .fig{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;box-shadow:0 8px 30px rgba(20,24,50,.06)}
+  svg{display:block;width:100%;height:auto}
+  .cap{font-size:12px;color:var(--ink-faint);margin:10px 4px 0;text-align:center}
+  .legend{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+  @media(max-width:640px){.legend{grid-template-columns:1fr}}
+  .zone{background:var(--panel);border:1px solid var(--line);border-left-width:3px;border-radius:6px;padding:14px 16px}
+  .zone h3{font-family:var(--serif);font-size:16px;margin:0 0 4px;display:flex;align-items:center;gap:8px}
+  .zone .dot{width:11px;height:11px;border-radius:50%;flex:none}
+  .zone p{margin:0;font-size:13px;color:var(--ink-soft)}
+  .zone b{color:var(--ink)}
+  .z-bulkr{border-left-color:var(--mass)} .z-bulka{border-left-color:var(--ang)}
+  .z-bdy{border-left-color:var(--bdyc)} .z-cont{border-left-color:var(--contc)}
+  .note{margin-top:20px;font-size:13px;color:var(--ink-soft);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+  .note b{color:var(--ink)} .mono{font-family:var(--mono)}
+  text{font-family:var(--sans)}
+</style>
+
+<div class="wrap">
+  <h1>Where the Standard Model lives on D_IV⁵</h1>
+  <p class="sub">One object — the proven Born/Bergman measure on the domain <code>D_IV⁵ = SO(5,2)/[SO(5)×SO(2)]</code> — read three ways. <b>Mass is the radial part of the measure — a bulk quantity.</b> Mixings and Yukawas are angular overlaps in the bulk. Charge, generations, confinement, and α live at the boundary. Spacetime is the continuum beyond.</p>
+
+  <div class="fig">
+  <svg viewBox="0 0 820 560" role="img" aria-label="Cross-section of D_IV5 showing bulk, boundary, and continuum">
+    <defs>
+      <radialGradient id="bulkgrad" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="var(--bulk-a)"/>
+        <stop offset="100%" stop-color="var(--bulk-b)"/>
+      </radialGradient>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+        <path d="M0,0 L8,3 L0,6 Z" fill="var(--mass)"/>
+      </marker>
+      <marker id="arrowa" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+        <path d="M0,0 L8,3 L0,6 Z" fill="var(--ang)"/>
+      </marker>
+    </defs>
+
+    <!-- CONTINUUM background -->
+    <rect x="0" y="0" width="820" height="560" fill="var(--cont)"/>
+    <text x="20" y="30" font-size="13" font-weight="700" fill="var(--contc)" letter-spacing=".08em">CONTINUUM — emergent 3+1 spacetime</text>
+    <text x="20" y="49" font-size="12" fill="var(--ink-faint)">descent SO(5,2) → SO(4,2) → SO(3,1) · propagating fields · conservation = isometries</text>
+
+    <!-- BOUNDARY ring -->
+    <circle cx="300" cy="300" r="232" fill="none" stroke="var(--bdy)" stroke-width="7"/>
+    <!-- three generation strata (faint inner rings) -->
+    <circle cx="300" cy="300" r="232" fill="none" stroke="var(--bdy)" stroke-width="1" opacity=".9"/>
+    <circle cx="300" cy="300" r="150" fill="none" stroke="var(--bdyc)" stroke-width="1" stroke-dasharray="3 5" opacity=".55"/>
+    <circle cx="300" cy="300" r="78" fill="none" stroke="var(--bdyc)" stroke-width="1" stroke-dasharray="3 5" opacity=".55"/>
+
+    <!-- BULK disk -->
+    <circle cx="300" cy="300" r="228" fill="url(#bulkgrad)"/>
+
+    <!-- radial MASS axis -->
+    <line x1="300" y1="300" x2="512" y2="300" stroke="var(--mass)" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <circle cx="300" cy="300" r="4" fill="var(--mass)"/>
+    <text x="316" y="288" font-size="13" font-weight="700" fill="var(--mass)">MASS = radial moment</text>
+    <text x="316" y="320" font-size="11.5" fill="var(--ink-soft)">light (up, e⁻) near center · heavy (top) toward edge</text>
+    <!-- radial tick labels -->
+    <circle cx="300" cy="300" r="0"/>
+    <text x="300" y="345" font-size="11" fill="var(--ink-faint)" text-anchor="middle" font-family="var(--mono)">n=0</text>
+    <text x="492" y="345" font-size="11" fill="var(--ink-faint)" text-anchor="middle" font-family="var(--mono)">t</text>
+
+    <!-- angular overlap arc -->
+    <line x1="300" y1="300" x2="430" y2="190" stroke="var(--ang)" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <path d="M 380 300 A 80 80 0 0 0 350 244" fill="none" stroke="var(--ang)" stroke-width="1.6" marker-end="url(#arrowa)"/>
+    <text x="352" y="205" font-size="12.5" font-weight="700" fill="var(--ang)">angular overlap</text>
+    <text x="352" y="222" font-size="11" fill="var(--ink-soft)">Yukawa (vs Higgs), mixing (CKM/PMNS)</text>
+
+    <!-- confinement note in bulk -->
+    <text x="300" y="430" font-size="11.5" fill="var(--ink-soft)" text-anchor="middle" font-style="italic">colored quarks confined here — no boundary support</text>
+    <!-- BULK label -->
+    <text x="150" y="300" font-size="13" font-weight="700" fill="var(--ink)" text-anchor="middle">BULK</text>
+    <text x="150" y="318" font-size="10.5" fill="var(--ink-faint)" text-anchor="middle">the Born/Bergman measure</text>
+
+    <!-- BOUNDARY callouts on the right -->
+    <line x1="528" y1="300" x2="600" y2="300" stroke="var(--bdyc)" stroke-width="1"/>
+    <text x="606" y="292" font-size="13" font-weight="700" fill="var(--bdyc)">SHILOV BOUNDARY</text>
+    <text x="606" y="310" font-size="11.5" fill="var(--ink-soft)">(S⁴×S¹)/ℤ₂ — emission surface</text>
+    <text x="606" y="326" font-size="11.5" fill="var(--ink-soft)">only color singlets reach it</text>
+    <text x="606" y="342" font-size="11.5" fill="var(--ink-soft)">charge = S¹ weight · α = mode count</text>
+
+    <line x1="300" y1="72" x2="300" y2="150" stroke="var(--bdyc)" stroke-width="1" stroke-dasharray="2 3"/>
+    <text x="606" y="410" font-size="13" font-weight="700" fill="var(--bdyc)">3 GENERATIONS</text>
+    <text x="606" y="428" font-size="11.5" fill="var(--ink-soft)">= 3 boundary strata (dashed rings)</text>
+    <text x="606" y="444" font-size="11.5" fill="var(--ink-soft)">bulk-orbit / intermediate / Shilov</text>
+
+    <!-- CP / phase note -->
+    <text x="606" y="486" font-size="11.5" fill="var(--ink-faint)">CP = the phase of the overlaps · conservation = the domain's symmetries</text>
+  </svg>
+  </div>
+  <p class="cap">A cross-section of D_IV⁵. Radial = mass (bulk). Angular = overlaps (bulk). Edge = boundary (emission, charge, generations). Outside = continuum (spacetime).</p>
+
+  <div class="legend">
+    <div class="zone z-bulkr"><h3><span class="dot" style="background:var(--mass)"></span>Bulk — radial</h3><p><b>Mass.</b> A mode's mass is its radial moment of the measure. Light (up, e⁻; n=0) near the center; heavy (top) far out. This is what "mass = the radial part of the measure" means — the bulk radial coordinate. Current (bare) mass = the radial moment; constituent = + gluon dressing (still in the bulk).</p></div>
+    <div class="zone z-bulka"><h3><span class="dot" style="background:var(--ang)"></span>Bulk — angular</h3><p><b>Yukawas & mixings.</b> Born overlaps (≤ 1) between modes. Yukawa = fermion mode's overlap with the Higgs (the top saturates it, y_t = 1). Mixing (CKM/PMNS) = overlap between the two stratifications. <b>CP</b> = the phase of those overlaps.</p></div>
+    <div class="zone z-bdy"><h3><span class="dot" style="background:var(--bdyc)"></span>Boundary (Shilov strata)</h3><p><b>Charge, generations, confinement, α.</b> The Shilov boundary (S⁴×S¹)/ℤ₂ is the emission surface — only color singlets reach it (confinement). Charge = the S¹ weight; α = the count of charge modes; the 3 generations = the 3 boundary strata.</p></div>
+    <div class="zone z-cont"><h3><span class="dot" style="background:var(--contc)"></span>Continuum</h3><p><b>Spacetime & propagation.</b> The emergent 3+1 Minkowski from the descent SO(5,2) → SO(3,1). Propagating fields and the observed particles live here; conservation laws are the isometries of the whole domain.</p></div>
+  </div>
+
+  <div class="note">
+    <b>So, precisely:</b> mass is <b>radial, in the bulk</b> — not on the boundary, not in the continuum. It is <i>how far out a mode sits</i>, measured by the Born/Bergman measure's radial part. The confusing case (the up quark) is resolved by this picture: the up is a bulk mode near the center (small radial moment, tiny current mass), <i>confined</i> to the bulk (it can't reach the boundary), and its <b>constituent</b> mass is the same bulk mode plus the gluon dressing — one locus, one radial position, two masses (bare + dressed). The <b>top</b> is the opposite extreme: a bulk mode far out radially (large mass) whose <i>angular</i> overlap with the Higgs is maximal (y_t = 1). Radial magnitude and angular alignment are two different geometric facts about the same mode.
+  </div>
+</div>

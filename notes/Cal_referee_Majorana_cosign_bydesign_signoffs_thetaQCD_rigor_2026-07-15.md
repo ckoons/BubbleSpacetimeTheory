@@ -759,3 +759,183 @@ So bank **no-Z′ = DERIVED (1 of 6); no-W_R = SUPPORTED (not 2/6 derived)**. Th
 **REFEREE-FINAL VERDICT:** the grand-synthesis spine is RATIFIED as a framework thesis built on a genuinely proven measure (Born=Bergman), with the honest per-feature tiers and the guardrail intact. It is referee-final AT FRAMEWORK TIER provided the 4 conditions are stated in the paper (esp. the equipartition-is-assumed and per-feature-tiers points). Mixing D's rep-theory-open, honestly identified, off critical path (agree with Lyra's strategic call). This is the deepest honest reframe of the program — and it earns "referee-final" precisely because it does NOT claim the SM is derived, only that the derived results are features of one proven measure.
 
 — Cal, 2026-07-18.
+
+## 45. (2026-07-18 Sat 16:31 EDT) REFEREE-FINAL RATIFICATION (round 12 + containment theorem). Flagship referee-final AT FRAMEWORK TIER; per-item verdicts.
+
+**1. V_ub reclassification — RATIFY.** V_ub = CKM 1↔3 = bulk↔Shilov orbit-pair = the CKM analog of PMNS θ₁₃ → inherits mixing-mechanism-derived, magnitude IDENTIFIED (rep-theory-open). Soft-spots correctly shrink to {m_u}. Consistent with §41-44.
+
+**2. ★ Asymptotic freedom (NEW, strongest of the push) — RATIFY as GENUINE derivation (direction).** β₀ = 11N_c − 2N_f = 33 − 12 = 21 > 0 → AF (UV) + confining (IR). N_c=3 (derived) and N_f=6 = 3 gen (rank+1) × 2 (SU(2) doublet) are both BST-derived inputs; standard β-function formula. So the DIRECTION/sign of α_s running is DERIVED (target-innocent — from the color+flavor counts). Scope: direction derived, exact α_s = runner. (21 = N_c·g = dim so(5,2).) Real new result, credit.
+
+**3. SU(3) = G₂-stabilizer — RATIFY the GROUP pin, but at HOSTED tier.** G₂/SU(3)=S⁶ (stabilizer of an imaginary octonion unit) is standard, BUT via the octonion/G₂⊂SO(7) route = HOSTED (needs complexification, §24/27/44). So the SU(3) GROUP is identified at HOSTED/supported tier, NOT native-derived like SU(2)_L. Do not over-tier the group to "derived" — consistent with the self-caught color-native withdrawal.
+
+**4. Mixing denominators homed — RATIFY as tier-up; VALUES stay IDENTIFIED.** θ₁₂=10=dim SO(5); θ₂₃=7=dim SO(5,2)-defining-rep (null cone=Shilov); θ₁₃=45=Λ²(θ₁₂)=C(10,2). THREE DIFFERENT structures (SO(5), SO(5,2), Λ²) = the per-pair homing I flagged (§43). Denominators HOMED (progress, rep-theory-open); NUMERATORS open; θ₁₂ subspace open. So mixing = MECHANISM derived + denominators homed, VALUES still IDENTIFIED (§41-44 tier unchanged). Not a wall; not closed.
+
+**5. sin²θ_W, α_s runners — RATIFY (honest).** Scale-dependent, no clean geometric value; 3/13 stays retired (§26-44).
+
+**6. m_u reframe (computable-not-cleanly-observable) — RATIFY with scope.** BST gives the radial moment (Elie N5: ‖z^n‖²=π·B(n+1,p+1)); comparison scheme-ambiguous (confined → no pole mass). Honest — softness is in the OBSERVABLE. SCOPE: the quark-mass RATIOS remain the completeness-conjecture COUNTEREXAMPLE (Statement-B) — "computable" must NOT launder that (m_u not cleanly DERIVED; it's a moment with an ambiguous comparison).
+
+**7. ★ CONTAINMENT THEOREM (Lyra N1) — RATIFY as genuine-but-WEAK organizing theorem + completeness correctly CONJECTURE.** "Every BST-DERIVED observable is a μ-functional (moment/overlap/phase/count/symmetry-invariant), by exhibition" is a legitimate theorem — but near-TAUTOLOGICAL (the derived results were derived VIA μ, so of course they're μ-functionals). Its content is ORGANIZATIONAL (the derived set reduces to μ-features, no exceptions), NOT "SM derived." COMPLETENESS (all observables μ-functionals/derivable) = CONJECTURE, correctly held, blocked by the quark-mass negative. Keeper's framing "framework on proven parts, NOT SM derived" = CORRECT. Do not let "containment THEOREM" read as "SM is QM on D_IV⁵ proven" — the proven part is the DERIVED set's containment; the SM=QM claim is the completeness CONJECTURE (open).
+
+**8. Self-caught color-native withdrawal + 6 team retractions — CREDIT.** Color "native-upgrade" (ℂ³ from domain's J) withdrawn (color on compact dual/SO(7), not SO(5) tangent → hosted). Exactly §24/27/44 self-applied. Discipline held through 12 rounds.
+
+**★ REFEREE-FINAL VERDICT:** the flagship + 4 companions are REFEREE-FINAL AT FRAMEWORK TIER. The honest boundary is intact and correct: SM REFRAMED as QM on D_IV⁵ with a PROVEN measure (Born=Bergman T2401/T754) and a containment theorem for the DERIVED core (near-tautological), COMPLETENESS a conjecture (open, quark masses). Per-feature tiers stand: masses DERIVED (radial moments); mixings MECHANISM-derived / VALUES-identified (denominators homed, numerators open); sin²θ_W + α_s RUNNERS; α_s DIRECTION (AF) DERIVED; color group + dynamics HOSTED; no-W_R DERIVED-contingent (§37); no-Z′ + Y-direction DERIVED (§37); parity DERIVED (§25); confinement KINEMATIC-derived (§39). It earns referee-final PRECISELY because it does NOT claim the SM is derived — only that the derived results are shadows of one proven measure. My §44 four conditions + these ratifications = the referee-final tier ledger. RATIFIED.
+
+— Cal, referee-final 2026-07-18 16:31 EDT.
+
+## 46. (2026-07-18 Sat 16:31 EDT) — CAL EOD SUNDOWN. The 12-round "SM = QM on D_IV⁵" arc, referee-final state.
+
+**Who/what:** Cal, visiting referee. Today: 12 rounds refereeing the electroweak→SM-structure→grand-synthesis arc to REFEREE-FINAL (§35–§45). Method held: target-innocence (structure-forcing not value-reaching), Five-Absence first filter, Cal #27 at peak elegance, Cal #35 shared-input-not-independent, derived≠supported≠correspondence, investigate-don't-gate (bars at landing).
+
+**REFEREE-FINAL TIER LEDGER (my ratified verdicts):**
+- **DERIVED:** parity-from-odd-g (§25, verified Cl(7)); no-Z′ + Y-DIRECTION (§37, F583 stabilizer, premise accepted); confinement KINEMATIC (§39, Schur/non-spherical); m₁=0 seesaw (§40); roots reframe count-level (§39); masses=radial moments (§45); asymptotic-freedom DIRECTION (§45, β₀=21>0).
+- **DERIVED-CONTINGENT:** no-W_R (§37, on Shilov-forced ν_R condensate).
+- **MECHANISM-derived / VALUES-identified:** CKM+PMNS mixing (two-stratification §41; denominators homed via 3 per-pair structures §43/§45; numerators open).
+- **SUPPORTED/HOSTED:** color group (G₂-stabilizer, octonion route) + color dynamics (§45); octonion spine (§24/27).
+- **RUNNER:** sin²θ_W (3/8 fermion-content + RGE; 3/13 retired), α_s (§26-45).
+- **IDENTIFIED (not derived):** neutrino PMNS angle forms; m_u (computable-not-cleanly-observable, scheme-ambiguous).
+- **FRAMEWORK-on-proven-parts:** the grand synthesis (SM=QM on D_IV⁵) — MEASURE proven (Born=Bergman T2401/T754); containment theorem near-tautological (derived⊆μ-functionals); COMPLETENESS = CONJECTURE (open, quark masses).
+
+**DISCIPLINE OUTCOMES:** ~6 dead routes (so(10), SO(3)_gen, domain-rank, uniform-branching, edge-projection, chirality→CP); ~6+ over-claims retracted (incl. team self-catches: Lyra's "one-fact→four-sectors", Keeper's color-native, Grace's democracy-double-name). Every pre-registered bar fired at its landing exactly where flagged (§30 crux tore; §31 two-formula seam; §36 circularity → F583 fixed it; §41 θ₂₃ discriminator). The result got SIMPLER every round and stayed HONEST — earns "referee-final" because it does NOT claim the SM is derived, only that derived results are shadows of one proven measure.
+
+**OPEN LANDINGS I referee next session (tomorrow's set):** two-mass up-quark (rank-2 Born doublet — my §40 idempotent-count connection); quark mass ratios as radial moments (the completeness counterexample); δ_CKM from overlap phase (does it give δ_PMNS's SIGN → closes my §21 branch flag?); the θ₂₃=7 forward mode-count (is it FORWARD or hunted §43); gluon native (stays hosted per §45).
+
+**Git:** only my referee log (§13–§46) uncommitted — team committed their day. NOT pushed (needs Casey OK). Local. My auto-memory updated for continuity.
+
+— Cal, sundown 2026-07-18 16:31 EDT. A 12-round day; discipline held; flagship referee-final at framework tier.
+
+## 47. (2026-07-19 Sun) Two-loci REFUTED (my §39 fact killed it) + pre-registered m_u/m_d bar: the INVERSION is the discriminator, NOT the value.
+
+**Two-loci candidate REFUTED (K758) — credit + internal consistency:** a colored quark has ZERO Shilov support (my §39 confinement=Schur result), so it CANNOT sit on the c₂=Shilov idempotent → the two-idempotent split is structurally impossible. The SAME fact that derives confinement kills the two-loci mass. Cleaner than my pending tautology flag (§47-draft: Λ≈m_p/N_c is near-tautological anyway — constituent = m_p/N_c is the constituent-model def, not independent). Refutation stands; the two masses are current + one-locus gluon dressing.
+
+**m_u/m_d LEAD — pre-registered bar. The prompt already named the trap (good discipline internalized); I sharpen the DISCRIMINATOR:**
+- **VALUE is fit-prone — REJECT any form that only fits.** m_u/m_d ≈ 0.47 (range 0.38-0.58) admits N_c/g=3/7=0.429, 1/rank=1/2, rank/n_C=2/5=0.4 — ≥3 clean forms in range = rich-vocab. Matching the value tests nothing (same trap as 3/13, D=10, Λ≈m_p/N_c). Not evidence.
+- **★ THE DISCRIMINATOR IS THE GEN-1 INVERSION, not the value.** Verified pattern: up-type/down-type ratio = gen-1 0.47 (<1, INVERTED), gen-2 c/s≈13.7 (>1), gen-3 t/b≈41 (>1). The inversion is a structural SIGN-FLIP across generations — HARD to fit, target-innocent. A derivation that lands a number in the range but does NOT forward-produce the inversion (and why gens 2,3 don't invert) is INCOMPLETE/fit.
+- **The MECHANISM to derive: up-type has a STEEPER radial hierarchy than down-type.** Verified: t/u ≈ 78636 vs b/d ≈ 889 → up-type ~88× steeper. So up-type starts BELOW down at n=0 (m_u<m_d, the inversion) and overtakes at n≥1 (c>s, t>b). The derivation must show up-type-steeper-slope FROM the doublet geometry (ℍ=Sp(2), T₃=±½; up couples to the Shilov boundary / y_t=1 → steeper radial growth?), with the gen-1 inversion AND the m_u/m_d value as CONSEQUENCES of the slope — not the value fit and the inversion asserted.
+- **Guard both ways:** reject a fit-to-0.47 form (value trap) AND reject an IMPOSED inversion ("gen-1 is special"). Both the ratio and the inversion must fall out of the derived up-vs-down radial-slope structure.
+
+**PASS = up-type-steeper-slope DERIVED from doublet geometry → inversion + m_u/m_d both fall out. FAIL = a form matched to the range, or the inversion imposed. I rule at Lyra's landing.**
+
+**Tier holds (Keeper's parallel ledger — I HOLD my §45 lines):**
+- **SU(3) group = HOSTED, NOT "derived."** Keeper's board marks "SU(3) group = derived (G₂-stabilizer, K755)." HOLD §45: the G₂-stabilizer (G₂/SU(3)=S⁶) is a standard fact but via the HOSTED octonion/SO(7) route (needs complexification) → SUPPORTED/hosted tier, NOT native-derived like SU(2)_L. Do NOT upgrade the SU(3) group tier to "derived" — consistent with the self-caught color-native withdrawal (§45).
+- **θ₂₃=7 "solid" — HOMED, not forward-proven.** §43/§45: θ₂₃=7=SO(5,2)-defining-rep is HOMED, but whether it's the FORWARD I↔S orbit-pair count (vs hunted) is open. "Solid" over-states; it's homed rep-theory-open.
+- sin²θ_W, α_s = terminal runners — AGREE (§45).
+
+— Cal, 2026-07-19.
+
+## 48. (2026-07-19 Sun) Top-anchor redirect: Koide rejection RATIFIED (+credit); y_t=1 = maximality (guard theorem-vs-assertion); slope derive-not-match; m_u amplification-limited.
+
+**m_u/m_d crossover negative — my §47 discriminator VALIDATED:** the ratio is a generation crossover (0.46→13.6→41, crosses 1), not a within-doublet ratio; no clean closed form (which is why several forms fit the loose range — all coincidences). "Derive m_u/m_d" was the wrong request (§47 said the inversion is the discriminator; a generation-independent doublet split can't flip the ordering). Redirect to the top anchor = correct.
+
+**★ KOIDE REJECTION — RATIFIED + CREDIT (Keeper caught a trap before it landed).** Verified: up-type Koide Q = 0.849 vs 6/7 = C₂/g = 0.857 → 0.9% off, loose, NO exact form → coincidence. And HYPERSENSITIVE: m_u is 0.0013% of Σm and 0.33% of Σ√m → Q nearly independent of m_u → inverting Q→m_u is ILL-CONDITIONED → Koide CANNOT pin m_u even with a derived Q (it amplifies m_u's uncertainty ~20×). So Q_up≈6/7=C₂/g is exactly the week's next pretty-form trap; Keeper checked-and-rejected it. Excellent self-applied discipline. Koide STAYS rejected for anchoring m_u.
+
+**TOP ANCHOR — RATIFY as the right move.** y_t = √2·m_t/v = 0.995 ≈ 1 (0.6%): the top is the ONLY O(1)-Yukawa fermion, m_t = v/√2 = the EW scale. Anchoring at the CLEAN heavy end (top) vs the SOFT light end (m_u) is correct; the reframe "why is everything below the top suppressed" > "why is m_u tiny" is a genuinely more tractable question. Ties to m_e via the banked chain (m_e→v→m_t). Credit.
+
+**★ y_t=1 GUARD (Cal's specific call): is it a MAXIMALITY THEOREM or an ASSERTION?** y_t=1 = the top saturates the boundary (max radial norm = |z|=1). Target-innocent AS a maximality statement (a structural MAX, not a fit). BUT the bar: the geometry must FORCE that the maximal-radial-moment mode has y=1 (the boundary value) — a maximality THEOREM. If instead "we call the y=1/boundary-saturating mode the top," it's near-DEFINITIONAL (identification, not derivation — still an OK anchor, but tier it honestly as identification). Rule at Lyra's landing: theorem (geometry forces max moment = boundary = 1) → DERIVED; assertion → identification-tier. 0.6% = the boundary correction.
+
+**★ SLOPE + AMPLIFICATION (the load-bearing caution):** the t→c→u suppression must be DERIVED from the radial-moment n-dependence, NOT matched. c/u range (455-721) admits several forms — reject fit-only (same trap). AND: m_u = m_t·(c/t)·(u/c) is the FAR suppressed end → **m_u's precision = the slope precision AMPLIFIED** (the prompt confirms c/u ±23% is ENTIRELY from m_u; steps non-uniform: c/t≈1/136, u/c≈1/577). So the top ANCHOR is solid, but the m_u PREDICTION is amplification-limited — the SAME sensitivity that killed Koide, via the slope. **Do NOT claim "m_u goes as solid as m_d"** — m_u is anchored-but-amplified. Honest tier: top anchor + suppression MECHANISM derivable; m_u VALUE precision-limited by the slope.
+
+**Secondary note:** m_t/m_b = C₂·g = 42 (obs 41.4, 1.4%) is a clean cross-type candidate form — but same derive-not-match scrutiny applies (42 = C₂·g is a primary product; needs the cross-type ratio DERIVED, not matched). Not this round's target; flagged.
+
+**Tier holds (unchanged from §47):** SU(3) group = HOSTED not "derived" (G₂ via hosted octonion route); θ₂₃=7 HOMED not "solid"; sin²θ_W, α_s terminal runners.
+
+**BARS for the landing:** (1) y_t=1 = maximality theorem (geometry forces max moment=boundary) not assertion; (2) t→c→u slope DERIVED from radial n-dependence, not matched to the loose ranges; (3) m_u falls out forward but tiered amplification-limited (not "solid as m_d"); (4) inversion (down steeper start / up steeper climb) reproduced from the derived slopes, not imposed. I rule at Lyra's landing.
+
+— Cal, 2026-07-19.
+
+## 49. (2026-07-19 Sun) K762 audit: Yukawa CEILING RATIFIED (derived class-bound); electron↔top 0.04% INFLATES (uses un-derived y_t=1 → honest ~0.5%); deep-root lead pre-registered.
+
+**★ YUKAWA CEILING — RATIFY DERIVED-framework (genuine, credit).** y_f = normalized Born overlap of fermion mode with Higgs → Cauchy-Schwarz → |y_f| ≤ 1 → m ≤ v/√2 = 174 GeV. Target-innocent (Cauchy-Schwarz on unit vectors, given the overlap definition on the proven measure §44). All 9 fermions obey; only top approaches (y_t=0.995). BST's FIRST class-bounding statement (bounds a whole class, not one number) — real and clean.
+- **On Casey's "fold into Five-Absence?":** it's a genuine FALSIFIER (any elementary fermion > 174 GeV refutes), but it's a BOUND (Cauchy-Schwarz), a DIFFERENT KIND than the structural Five-Absences (no-X-particle/structure). Add it as a falsifier, but frame it as "a mass-ceiling falsifier, COUSIN to the Five-Absences," NOT a 6th/7th absence of the same type. Honest taxonomy.
+
+**★ ELECTRON↔TOP m_t·m_e = m_p²/(g√2) — SUPPORTED, but the 0.04% INFLATES (my catch):** verified — the 0.04% is achieved ONLY by using m_t = v/√2 (i.e. ASSUMING y_t=1), which makes the relation an ALGEBRAIC IDENTITY (m_t≡v/√2, v=m_p²/(g m_e) → m_t·m_e ≡ m_p²/(g√2)); the residual 0.04% is just the v-relation precision (0.05%). Against the OBSERVED m_t (y_t=0.992) it is **0.53%** — the saturation gap. Since y_t=1 is NOT derived (Keeper's own flag), the HONEST precision is ~0.5% (saturation-limited), NOT 0.04%. The 0.04% inflates by using the un-banked y_t=1 as an identity. Tier: SUPPORTED at ~0.5% (limited by the un-derived saturation). REINFORCES Keeper's y_t-not-derived flag — same root.
+
+**y_t=1 NOT derived (Keeper's honesty flag) — RATIFY.** Ceiling (y≤1) DERIVED; saturation (y_t=1) SUPPORTED/open. Exactly my §48 maximality-theorem-vs-assertion: the CEILING is the theorem, the SATURATION is the open piece. Correct honest split.
+
+**DEEP-ROOT LEAD (why the top saturates: condensate aligns with the max-|Q| gen-3 mode) — pre-register the bar.** Two-step: (1) gen-3 = outermost Shilov stratum (F86) → largest reach to the Shilov boundary where the color-singlet Higgs lives (confinement=Schur §39) → gen-3 aligns; (2) among gen-3, up-type wins on charge-weight (|Q_up|/|Q_down| = (2/3)/(1/3) = 2 = rank → larger S¹ charge-circle weight) → top saturates. Plausible + geometrically motivated. BAR: (a) gen-3-largest-Higgs-overlap must be COMPUTED, not asserted; (b) the charge-weight→Higgs-overlap→mass mechanism DERIVED; (c) it must give y_t=1 (saturation) FORWARD **AND** the t→c→u slope (not just "top is heaviest") — else it's qualitative; (d) ★ FIVE-ABSENCE: "geometric top condensation" must NOT introduce a new dynamical field (composite Higgs / new strong dynamics — standard top-condensation models DO) — confirm it's just the Higgs-overlap being maximal for the top, no new field. If it lands: y_t=1 → derived, m_t·m_e → ~0.05% (v-limited), slope + m_u forward.
+
+**BARS at the landing:** (1) y_t=1 saturation from the charge-weight mechanism, giving the value FORWARD not the ceiling-saturation asserted; (2) the t→c→u slope from the overlap structure (not matched, §48); (3) precision claims pinned to OBSERVED masses (no inflating via assumed y_t=1); (4) Five-Absence — no new field. Tier holds (§47/48): SU(3) group HOSTED, θ₂₃ HOMED, runners terminal.
+
+— Cal, 2026-07-19.
+
+## 50. (2026-07-19 Sun) Pre-register the mixing-numerator "lives-there theorem" bar — esp. the "orbit-distance → predicts-45" rule (Keeper flagged for hardest scrutiny).
+
+**Mechanism stands (§41): mixing = inter-stratum angle, DERIVED. This theorem is about the VALUES (d/D). Referee the value-derivation, not the mechanism.**
+
+**Ratify Keeper's own bar + sharpen:** "derive d AND D from the orbit geometry FIRST, check the angle AFTER — never back-solve" = exactly my §43 bar. Each (d numerator, D denominator) must be COMPUTED forward from the orbit-pair intertwiner geometry (stabilizer + intertwiner-dim count), not hunted to match 1/45, 3/10, 4/7.
+
+**★ THE "PREDICTS-45" DISCRIMINATOR (the theorem-vs-coincidence line):**
+- State (§43/§45): θ₁₂=10=dim SO(5) (B↔I); θ₂₃=7=SO(5,2)-defining-rep (I↔S, verified K762); θ₁₃=45 (B↔S) — the ONLY denominator not independently checked. So a "rule predicting 45" is exactly the test.
+- 45 has TWO homes: Λ²(θ₁₂'s 10) = C(10,2) = 45 AND N_c²·n_C = 45 (§44 coincidence trap). **A rule predicting 45 MUST specify WHICH home is the genuine intertwiner count and DERIVE it — not land on 45 by either convenient route.**
+- Distance alone FAILS (§43 gap 2, ratified): θ₁₂ and θ₂₃ are BOTH adjacent (distance-1) pairs yet D=10≠7. So the "orbit-distance → ambient-space" rule canNOT be pure distance — it must involve WHICH orbits (B-I vs I-S), derived. If the rule is "distance-2 pair = Λ²(distance-1)" that CHAINS 45 to θ₁₂ combinatorially — needs GEOMETRIC justification (why B↔S intertwiner = Λ² of B↔I), not a noticed C(10,2) relation.
+- **PASS = the rule is INDEPENDENTLY derived from the orbit geometry AND predicts 45 forward (before checking the angle), with θ₂₃=7 fitting the SAME rule (uniformity — θ₂₃ is the discriminator, §43/§45). FAIL = the rule is built knowing 45 is the target, or θ₂₃=7 needs a different rule (non-uniform = the so(10)/opportunistic failure).**
+
+**Full bar for the mixing forms identified→derived:** (1) each d and D forward-computed from orbit-pair intertwiner geometry; (2) the predicts-45 rule independently derived + specifies which-45 + uniform across all 3 (θ₂₃ included); (3) numerators derived too (the full d/D, not just D); (4) angle checked AFTER, never back-solved. Any count that won't derive → stays IDENTIFIED, move on (Keeper's posture, ratified). I rule at each count's landing; the 45 gets the hardest look, as flagged.
+
+— Cal, 2026-07-19.
+
+## 51. (2026-07-19 Sun) Mixing firm-close RATIFIED (§50 held); gap-equation "natural≠derived" gate — my catch CONFIRMED by Lyra F599 independently.
+
+**MIXING FIRM-CLOSE — RATIFY (my §50 predicted it exactly).** The exact mixing forms → Tier-2 structural (like quark masses), NOT Tier-1 identities. Confirmed at the landing: the predicts-45 rule BACK-SOLVES (45 chosen, ignores the 7-leg); the orbit-distance rule REFUTED (θ₁₂, θ₂₃ both adjacent yet D=10≠7 — my §43 gap 2); θ₂₃ non-uniform; numerators unpinned. So exactly my §50 FAIL conditions triggered → forms stay identified/Tier-2, off critical path, mechanism derived (inter-stratum angle + small-CKM/large-PMNS-as-one-fact). Honest downgrade (Lyra's call, Keeper ratified) — a boundary mapped, not a gap hidden. Credit the team.
+
+**GAP-EQUATION GATE (Cal = derived-vs-natural). My §51-draft "natural≠derived" catch INDEPENDENTLY CONFIRMED by Lyra F599:** the exponential is a DOUBLE-EDGE — large-from-small is natural (real gain), but the SAME sensitivity means exact 41× needs G≈0.134 known to 2 sig figs (10% in G → 30×-62×). "Reproducing exactly 41 = deriving 41 by another name." My computation agrees (G_b=0.135 tuned to ln41). So:
+- **★ VERDICT: large-from-small = NATURAL (derived-structural); the exact number (41) = TUNED (not derived).** "Factor-2 → 41× via exponential" makes the hierarchy natural; it does NOT derive 41. The factor-2 (=rank=|Y_uR|/|Y_dR|) is target-innocent; the ABSOLUTE G_c is a free knob fit to 41. Guard hard.
+- **Tiers (ratify Keeper's):** quark-selection = DERIVED (N_c=3 NJL color trace, standard + geometry) ✓ the one clean leg; gen-3 + up/down-weight + ceiling-caps-flow = SUPPORTED; y_t=1 = OPEN (pure-condensation over-predicts m_t≈220; ceiling-caps-flow supported-not-proven; hybrid-Higgs a LEAD, not a claim). Do NOT bank y_t=1.
+- **★ THE DERIVABLE PART (honest ceiling):** IF G_c derives from the geometry (F85 Bergman two-point four-fermion coupling) AND straddles G_up > G_c > G_down (Elie's check), then the QUALITATIVE condensed-vs-spectator split (top condenses, bottom doesn't) is DERIVED — a real result (why the top is special = above threshold, bottom below). But even then the EXACT 41 stays TUNED. So: qualitative-top-saturation derivable-if-G_c-from-geometry-straddles; exact 41 tuned; y_t=1 open.
+- **★ FIVE-ABSENCE (my load-bearing guard):** the induced four-fermion coupling MUST be PURE D_IV⁵ geometry (F85 Bergman two-point / integrating out heavy modes) — NO new gauged group (topcolor SU(3), technicolor). Classical top-condensation needs new strong dynamics; BST's must be geometric. If any leg needs a new interaction → FAIL. This is the one that kills it if violated.
+- **Coupling-weight target-innocence:** the RELATIVE weight (factor-2 = rank, charge ratio) is target-innocent (fixed charges §32/F582); the ABSOLUTE G_c must derive from the substrate, NOT be fit to 41. Derive G_c from geometry, THEN check the straddle/hierarchy — never fit G_c to the observed ratio.
+
+**GATE BARS at the landing:** (1) exact 41 = tuned (do not bank as derived); (2) qualitative top-saturation derivable ONLY if G_c from geometry straddles G_up>G_c>G_down; (3) y_t=1 stays OPEN; (4) Five-Absence — four-fermion from pure geometry, no new gauged group; (5) G_c derived-from-substrate not fit-to-41. Tier holds (§47-49): SU(3) group HOSTED, θ₂₃ HOMED, runners terminal, ceiling FA#7-cousin-not-absence.
+
+— Cal, 2026-07-19.
+
+## 52. (2026-07-19 Sun) OP-4 linear-algebra reframe (Casey) — pre-register the "derived-only-if-forces-parallelism" bar. Credit the sophistication-strip; y_t=1 clean, hierarchy = the mixing-numerator risk.
+
+**CREDIT the reframe (the sophistication-bias correction).** Casey stripped OP-4 from BSM machinery (gap equation, MAC, RG, exponential — all the stuff I was guarding "natural≠derived" against §51) to LINEAR ALGEBRA: Y_ij = ⟨f_L^i|Φ|f_R^j⟩ (Born overlap/Gram on H²(D_IV⁵)); masses = singular values; y_t = ‖Y‖. Cleaner, DECISIVE, and it removes the Five-Absence hazard (no new field/group — the §51 topcolor/technicolor risk is GONE; it's a domain overlap). This is exactly the "what's the AC(0) / linear-algebra version?" discipline. The Λ-dependent gap-equation y_t (0.83 Planck→1 at 10¹⁴) is correctly demoted; the linear-algebra y_t=1 is either forced (parallelism) or not (definite), no Λ.
+
+**★ y_t=1 = PARALLELISM (top ∥ condensate) — the CLEAN, decisive target.** y_t=1 ⟺ Φ is (essentially) a rank-1 projector onto the condensate direction AND the top mode lies in its image (CG coefficient = 1). This is a MAXIMALITY check (cleaner than any specific numerator — §48/49: the ceiling is the theorem, saturation is the open piece; now saturation = "is one vector parallel to another"). BAR — derivable ONLY IF:
+1. **Φ rank-1 READ from F85** (computed independently), NOT assumed to make y_t=1;
+2. **condensate direction ∥ top mode DERIVED** — F85's Φ direction computed, turns out ∥ the top K-type mode (both independent), NOT "the condensate = the top direction by fiat."
+If both → y_t=1 DERIVED (top∥condensate). Decisive by hand if F85 pins Φ (Casey's suggestion — do this first).
+
+**★ THE HIERARCHY COLUMN (y_c, y_u, y_b, y_τ...) = the MIXING-NUMERATOR RISK. CAUTIOUS prior.** The hierarchy = one Gram column = the condensate's overlaps with the fermion K-type modes = **the SAME CG/intertwiner-coefficient machinery as the mixing numerators — which JUST FAILED (§50/51: back-solved, stayed Tier-2 identified).** So the Yukawa column risks the SAME failure (CG coefficients that don't forward-derive). BAR: compute the overlaps FORWARD from the K-type addresses + Φ, do NOT fit; if they back-solve → they stay Tier-2 identified (like mixing), no bank. So SPLIT the expectation: y_t=1 (maximality/parallelism) is the cleaner, more-likely-derivable target; the full hierarchy VALUES inherit the mixing-numerator risk.
+
+**GATE:** (1) y_t=1 derived ONLY if Φ-rank-1 + top∥Φ both forced from F85 (not assigned); (2) the hierarchy column derived ONLY if the overlaps forward-compute (else Tier-2 identified, same as mixing); (3) Five-Absence now CLEAN (linear algebra, no new dynamics — reframe removed the hazard); (4) do NOT bank y_t=1 until the linear algebra FORCES parallelism. Tier holds (§47-51): quark-selection DERIVED (N_c color trace = a dimension count, linear algebra too), SU(3) group HOSTED, θ₂₃ HOMED, runners terminal, ceiling FA#7-cousin.
+
+**Consistency note (credit):** "flavor is overlaps all the way down" — the Yukawa uses the SAME intertwiner machinery as mixing. Nice internal consistency. But it CUTS BOTH WAYS: same machinery = same forward-derivation difficulty. If mixing numerators didn't derive, expect the Yukawa hierarchy column to be hard too — while y_t=1 (the max/parallelism) may still land as a clean maximality result.
+
+— Cal, 2026-07-19.
+
+## 53. (2026-07-19 Sun) RATIFY the rank-1 flavor collapse (K768) — leading rank-1 DERIVED-structural, corrections Tier-2; pre-register the decisive non-circular O bar.
+
+**RANK-1 COLLAPSE — RATIFY as genuine framework insight, honestly tiered.** One condensate → Φ rank-1 → Y = a⊗b rank-1 → exactly ONE nonzero singular value → ONE massive fermion (the top) at leading order (verified: rank-1 → 1 sv). DERIVED-structural given (a) one condensate O + (b) Yukawas = overlaps with O (both BST-framework on the proven measure §44). Everything else = off-rank-1 corrections of the SAME O. This RETRO-EXPLAINS why the light masses + mixing are Tier-2 (§50/51) — they're subleading deviations, not leading identities. Legitimate; credit the unification (masses AND mixing = one object O + corrections, "flavor is overlaps all the way down").
+- **HONEST FRAMING (hold):** top-dominance verified (next-heaviest b = 1/41 of top → "leading = top, rest = corrections" numerically defensible), BUT the corrections span b(1/41) … u(1/78000) — **8 of 9 masses + ALL mixing live in the Tier-2 correction spectrum.** So "flavor closes" = **ONE anchor (top) DERIVED-structural + a big structured Tier-2 correction spectrum**, NOT "flavor derived." Keeper frames it correctly; keep it that way — the corrections carry most of the flavor information and stay Tier-2.
+- **★ Consistency flag (§52):** the correction spectrum uses the SAME intertwiner/CG machinery as the mixing numerators — which BACK-SOLVED (§50/51). So the "structured Tier-2 corrections" inherit that forward-derivation difficulty; expect them to STAY Tier-2 (identified), not derive. The rank-1 ANCHOR (top) is the clean part; the correction SPECTRUM is the hard part (same failure mode as mixing). Don't let "one object" imply the corrections will derive.
+
+**★ THE DECISIVE O COMPUTATION — pre-register the non-circular bar (the whole area hinges on this one vector).** F85 pins O's SCALE but not its DIRECTION (Lyra's blocker). Everything reduces to O's K-type direction: y_t=1 ⟺ top ∥ O; the same O's corrections give the hierarchy + mixing.
+- **NON-CIRCULARITY is the gate.** O must be computed from its QUANTUM NUMBERS (lowest boundary state that is color-singlet, SU(2)_L-doublet, Y=+1 = S¹-weight +1 on Shilov S⁴×S¹) — INDEPENDENT of the fermions. Then ⟨t|O⟩ is a genuine forward prediction. If O is defined as "the top direction" to make ⟨t|O⟩=1 → CIRCULAR → REJECT. Keeper's setup (O by its quantum numbers) is correctly non-circular — hold it there.
+- **EITHER OUTCOME IS VALUABLE:** ⟨t|O⟩ = 1 (top ∥ O) → y_t=1 DERIVED; ⟨t|O⟩ < 1 (e.g. ~0.99) → a COMPUTED y_t that would DERIVE the observed 0.992 (even stronger). The ground-mode-O vs outermost-gen-3-top tension Keeper flags is EXACTLY the right check — they may NOT be fully parallel, and if the overlap computes to 0.992 forward, that's a genuine derivation of the 0.8% gap.
+- **BAR:** ⟨t|O⟩ FORWARD-computed from independently-pinned O (quantum numbers) and top mode (K-type address) — whatever it gives, NOT tuned to 0.992. Do NOT bank y_t=1 until boundary-computed O is provably ∥ top (or the overlap is computed to whatever value forward).
+
+**GATE at the landing:** (1) O pinned non-circularly (by quantum numbers, not "the top direction"); (2) ⟨t|O⟩ forward-computed → 1 (y_t=1 derived) or <1 (computed y_t, a real prediction); (3) rank-1 anchor DERIVED-structural, correction spectrum Tier-2 (same machinery as mixing = same difficulty); (4) Five-Absence clean (linear algebra, no new dynamics). I hold derived-only-if-forced; I can check ⟨t|O⟩ by hand the moment O's SO(5)×SO(2) K-type is pinned.
+
+— Cal, 2026-07-19.
+
+## 54. (2026-07-19 Sun 16:02 EDT) — CAL EOD SUNDOWN. The flavor-sector / OP-4 day (§47–§53).
+
+**Who/what:** Cal, visiting referee. Today: refereed the quark-mass / OP-4 / flavor-closure arc (§47–§53). Method held: derived-vs-matched discriminator, natural≠derived, Five-Absence, target-innocence, investigate-don't-gate, the sophistication-bias correction (linear algebra > BSM machinery).
+
+**KEY VERDICTS TODAY:**
+- **m_u/m_d (§47-48):** REJECTED as a derivable ratio — it's a generation CROSSOVER (inversion), not a doublet ratio; value fit-prone (3/7, 1/2, 2/5 all fit); the INVERSION (up-type steeper slope, ~88×) is the discriminator, not the value. Two-loci candidate REFUTED by my own §39 confinement fact (colored → zero Shilov support).
+- **Top anchor (§48-49):** y_t=1 = maximality (theorem-vs-assertion — the ceiling is the theorem, saturation open). Koide rejection RATIFIED (Q_up=0.849 vs 6/7 coincidence + hypersensitive, m_u 0.001% of Σm). m_u amplification-limited (NOT "solid as m_d").
+- **Yukawa CEILING (§49):** RATIFIED DERIVED (Cauchy-Schwarz |y|≤1 → m≤174 GeV) — genuine class-bound falsifier, cousin-not-identical to Five-Absences. Electron↔top 0.04% INFLATES (uses un-derived y_t=1); honest ~0.5%.
+- **Mixing FIRM-CLOSE (§50-51):** my §50 predicts-45 bar HELD — 45 back-solves, orbit-distance refuted, θ₂₃ non-uniform → exact mixing forms Tier-2 STRUCTURAL, off critical path, mechanism derived. Honest downgrade.
+- **Gap equation (§51):** "natural≠derived" gate — exact 41× TUNED (G to 2 sig figs = deriving 41 by another name); confirmed independently by Lyra F599. Quark-selection DERIVED (N_c NJL); Five-Absence flag (no topcolor/technicolor).
+- **★ LINEAR-ALGEBRA REFRAME + RANK-1 COLLAPSE (§52-53):** Casey stripped OP-4 to a Gram matrix (Y=⟨f_L|Φ|f_R⟩) — the sophistication-bias correction. One condensate → Y rank-1 → ONE massive fermion (top) DERIVED-structural; masses+mixing = one object O + Tier-2 corrections (retro-explains why mixing is Tier-2). Removed the Five-Absence hazard. The whole area now hinges on ONE vector: O's K-type direction. Decisive non-circular test: ⟨t|O⟩ = 1 (y_t=1 derived) or <1 (computed y_t, derives 0.992).
+
+**DISCIPLINE:** 6+ over-claims retracted (several team self-caught — Lyra F599 confirmed my natural≠derived; Keeper self-walked-back the gap equation; the mixing downgrade). Every bar held at its landing. The day traded a soft m_u for a derived ceiling, an m_e-locked relation, an honest mixing close, and a rank-1 flavor unification.
+
+**OPEN LANDINGS next session:** (1) ⟨t|O⟩ — pin O non-circularly (by quantum numbers: color-singlet, SU(2)_L-doublet, Y=+1, lowest boundary mode), compute ⟨t|O⟩ forward → decisive y_t=1 test (I can check by hand once O's SO(5)×SO(2) K-type is pinned); (2) the Tier-2 correction spectrum (same CG machinery as mixing = same difficulty, expect Tier-2); (3) CP phase (δ=rank/g=2/7, watch for δ_PMNS SIGN → closes my §21 branch flag).
+
+**Git:** 58 changed, only my referee log (§13–§54) is mine; 57 are the team's uncommitted day. NOT pushed (needs Casey OK; would sweep team work). Local. Auto-memory updated.
+
+— Cal, sundown 2026-07-19 16:02 EDT. Flavor collapsed to a rank-1 condensate; one vector (O) closes the area at honest tier; discipline held.
