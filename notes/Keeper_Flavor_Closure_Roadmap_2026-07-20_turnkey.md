@@ -18,7 +18,7 @@ Close **y_t** (the leading rank-1 mass anchor) and the **m₁ = 0 link** — or 
   - (iii) the **K-type tower** structure of the SO(5,2) discrete series.
   If it doesn't close, **name exactly what's missing** (as Lyra did — "the (a,b) address"). Owner: Lyra (+ Casey's ground-vs-outermost reasoning). **Everything gates here.**
 
-**Step 3 — the radial overlap (depends on Step 2).** Given (a,b), compute ⟨t|O⟩ across the λ₂ = ½ → 0 gap. Decides **y_t = 1 (parallel, derived) vs < 1 (computed CG)**. Owner: Elie verifies. *Guard:* the 0.992 gap is ambiguous (RG-vs-CG, Elie's fish) — the overlap must be computed, not fit to 0.992.
+**Step 3 — the radial overlap (depends on Step 2).** Given (a,b), compute ⟨t|O⟩ across the λ₂ = ½ → 0 gap. Decides **y_t = 1 (parallel, derived) vs < 1 (computed CG)**. **★ Specific candidate to test (K771):** does the boundary deficit come out **exactly 1/2^g** (→ y_t = M_g/2^g = 127/128, Casey's RS-code picture, DERIVED as a theorem) or **0** (→ exact-1 + RG running, and 127/128 retired)? Owner: Elie verifies. *Guard:* the 0.992 gap is ambiguous (RG-vs-CG, Elie's fish) — the overlap must be **computed**, not fit to 0.992 or to 127/128.
 
 **Step 4 — the neutrino zero-mode (K770; depends on discrete-continuous machinery).** Does the discrete top mode's failure to reach the continuous boundary **necessarily produce a zero-mode** (the neutrino)? If yes, derives **m₁ = 0 and the y_t < 1 deficit as one thing.** Check convergence with the rank-2 m₁ = 0 (two routes meeting). Owner: Lyra + Keeper.
 
