@@ -1,0 +1,24 @@
+# K801 — Capstone sharpening: the addresses are DETERMINED, not a search. The strata K-types are universal; each generation's overlap is fixed by its mass ratio (overlap ~ √mass). So PIN the universal strata structure from the CLEANEST sector (leptons — precisely measured, no QCD, and the ladder forms already encode it), then PREDICT the quark sector (accounting for the known saturation difference). Predict, don't fit — that IS the target-innocent test.
+
+**Keeper | 2026-07-21 Tuesday | Continuing while the team works the capstone. Reframing "search the (a,b) space" → "invert the overlap function; pin once, predict the rest." Makes the capstone a determined computation with a built-in target-innocent validation.**
+
+---
+
+## The reframe — it's determined, not under-determined
+Two structural facts collapse the search:
+1. **The strata K-types are UNIVERSAL.** The 3 support strata (origin / Cartan slice / Shilov — F86) are properties of the ONE geometry, the same for every sector. So there aren't 24 free addresses; there is ONE strata structure (which K-type sits at the Cartan slice, k) shared by up, down, charged-lepton, neutrino. (The endpoints — origin, Shilov — are 0-dim/n_C-dim and effectively fixed; the Cartan slice is the rank-dim family carrying the discrete unknown k. This is the "June core.")
+2. **overlap ~ √mass.** Since the mass matrix is a Gram matrix (M ~ A†A), mass ~ overlap² (Lyra F585; = why mixing = √(mass ratio)). So each generation's overlap magnitude is **fixed by its mass ratio to the origin generation**: overlap_i/overlap_0 = √(m_i/m_0). One constraint per generation → the address is DETERMINED (invert the overlap-vs-K-type function), not searched.
+
+## ★ The method — pin from leptons, predict quarks (target-innocent)
+- **Pin from the CLEANEST sector = charged leptons.** m_μ/m_e = 206.77 and m_τ/m_e = 3477 are precisely measured, no QCD/color/running complication, and the ladder forms ALREADY encode the addresses: overlap_μ/overlap_e = √(m_μ/m_e) = (24/π²)³ = 14.38 (from m_μ/m_e = (24/π²)⁶, T190); overlap_τ/overlap_e = √(49·71) = 59.0 (T2003). So the μ (Cartan) and τ (Shilov) overlaps are already known numbers — read the Cartan K-type k off (24/π²)³.
+- **★ Then PREDICT the quark sector** with the SAME universal strata (same k), accounting for the ONE known difference: the **anchor/saturation** (up-type third gen saturates at the boundary, y_t=1; down-type doesn't — the located asymmetry). Does the same strata structure + the down-anchor give m_s/m_d = 20? (consistency check on the banked rung.) Does it PREDICT m_c/m_t, and V_cb? **Predict quantities NOT used to pin k — that is the target-innocent win.**
+
+## Caveats (honest)
+- **The ladder is NOT a single geometric progression:** μ (Cartan) follows a (24/π²)-type law, τ (Shilov) does not (overlap_τ/overlap_e = 59 is not (24/π²)^integer). Different strata → different overlap laws → irregular spacing. This is why the *exact* masses are Tier-2 (irregular overlaps) even though the *structure* (which stratum) is pinnable. Consistent with K796–K799.
+- **The overlap-vs-K-type function must be the actual Bergman integral** (Elie/Lyra's machinery, K264) — "invert it" is only as clean as that function is computable. If it's multi-valued or the Cartan family doesn't quantize k uniquely, the determination may soften to a small discrete search. Still bounded.
+- **Universality of the strata across sectors is the load-bearing assumption** — if up/down/lepton use *different* Cartan K-types (not just different anchors), the pin-one-predict-others fails and it's back to per-sector fitting (then honest-negative → pivot). Test universality explicitly.
+
+## Why this is the right "continue"
+It turns the capstone from an open-ended (a,b) search into: (1) read k off the lepton ladder [already half-done — T190/T2003 encode it], (2) predict a quark quantity target-innocently. That's a bounded computation with a clean pass/fail, and it respects the pivot-exit: if universality fails or the prediction misses, we've learned it honestly and pivot.
+
+— Keeper K801, 2026-07-21. Capstone sharpened: addresses DETERMINED not searched — universal strata K-types (one Cartan unknown k) + overlap~√mass ⟹ each generation's overlap fixed by its mass ratio. PIN k from the cleanest sector (leptons; T190 (24/π²)⁶ and T2003 49·71 already encode overlap_μ/e=(24/π²)³, overlap_τ/e=59), then PREDICT quarks (m_c/m_t, V_cb) with the same k + the known saturation-anchor difference — predict-don't-fit = target-innocent test. Caveats: ladder is irregular (Tier-2 exact masses, pinnable structure); needs the actual Bergman overlap function; universality-across-sectors is load-bearing (test it; if it fails → pivot). See [[Keeper_K800_bank_flavor_unification_Vus_tier_honest_next_pin_the_addresses_capstone_2026-07-21]], T190/T2003, F585, F86, K264 (Bergman machinery).
