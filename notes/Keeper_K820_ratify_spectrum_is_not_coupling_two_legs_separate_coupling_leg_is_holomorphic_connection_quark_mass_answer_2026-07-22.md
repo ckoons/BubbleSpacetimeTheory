@@ -1,0 +1,33 @@
+# K820 — Ratify Lyra's distinction HARD: a chiral SPECTRUM is NOT a chiral FORCE. Two SEPARATE legs. Leg 1 (spectrum, chiral fermion content): CANDIDATE, and it SORTS (holomorphic sector = the SM one-generation Weyl content). Leg 2 (coupling, the actual parity violation): OPEN — needs the WEAK CONNECTION to be self-dual/holomorphic (web-confirmed: self-dual connection couples one chirality); the flat coupling was vector-like (F636). Parity does NOT close until Leg 2 lands. Plus the honest quark-mass answer for Casey: the chirality helps the ADDRESS STRUCTURE (discrete constraint), NOT the soft mass VALUES.
+
+**Keeper | 2026-07-22 | Lyra flagged the exact next-overshoot seam and asked me to keep the two legs separate. Ratifying. Web-grounded (self-dual connection = chiral coupling). Answering Casey's quark-mass question straight.**
+
+---
+
+## ★ Ratify the distinction (this is the load-bearing discipline call)
+**A chiral spectrum ≠ a chiral force.** The whole arc has been treating "the fermions come out chiral" as if it were parity violation. **It is not.** Two different statements, two different computations:
+- **LEG 1 — chiral SPECTRUM:** the physical fermions are one-chirality with the SM content. A statement about the fermion spectrum. **Born=Bergman delivers this.**
+- **LEG 2 — chiral COUPLING (the ACTUAL parity violation):** SU(2)_L touches the (2,1) doublet and NOT the (1,2) singlet. A statement about the GAUGE CONNECTION. **The flat reduction gave this VECTOR-LIKE (F636 — internal generators commute with γ⁵, act on both halves equally).**
+**Parity does NOT close with Leg 1 alone.** Even a perfectly chiral spectrum sorting to L-doublet/R-singlet leaves the FORCE vector-like until Leg 2 is shown. **The two legs stay SEPARATE on the board.** (This IS the next overshoot if left un-pinned — Lyra caught it before anyone said "parity closed.")
+
+## Leg 1 — the spectrum SORTS (candidate, encouraging)
+Lyra computed: the SO(5,2) spinor (8, from g=7 odd) splits **8 = 4_{c=+½} ⊕ 4_{c=−½}** — the two spacetime chiralities at OPPOSITE SO(2)-charge (which is why energy-positivity can pick one). Born=Bergman keeps the positive-energy half (c=+½, holomorphic, chamber q=0); branch under SO(4) → **(2,1) ⊕ (1,2) = a left doublet + left singlets = the all-left SM one-generation Weyl content** (Q_L + the conjugate singlets). **The holomorphic sector IS the SM generation.** Real, promising candidate for Leg 1.
+
+## Leg 2 — the coupling leg = "is the weak connection SELF-DUAL/HOLOMORPHIC?" (OPEN, the real leg)
+Web-confirmed mechanism: **"right-handed conjugate Weyl fields couple to the self-dual connection"** — a **self-dual/holomorphic gauge connection couples to ONE chirality (chiral); a general connection is vector-like.** So Leg 2 is precisely:
+- **Is the weak SU(2)_L connection self-dual/holomorphic on D_IV⁵?** If yes → the covariant ∂̄ couples only the holomorphic (doublet) sector → **chiral force → parity closes.** If it's a general connection → vector-like (F636).
+- **This IS the gravi-weak input** (arXiv:1212.5246, "weak = self-dual half of the connection"), AND it's **"Born=Bergman for the GAUGE field"** — the same holomorphicity requirement, applied to the connection.
+- **★ The unifying endgame question:** is BST's Born=Bergman UNIVERSAL — does it require ALL physical fields (fermions AND gauge connections) to be holomorphic? If yes → the gauge connection is self-dual → **Leg 2 closes and parity is derived from Born=Bergman alone** (both legs from one principle). If Born=Bergman is only about fermion wavefunctions → Leg 2 is the gravi-weak input (parity derived-CONDITIONAL on it).
+
+## ★ Casey's question — will this help derive quark masses? (honest: STRUCTURE yes, VALUES no)
+- **Yes, it helps the ADDRESS program (the derivation side):** the chirality pins each fermion's CHAMBER — a discrete constraint on WHERE the fermion sits (its c-range). Every SM fermion's chirality is known (L=doublet, R=singlet), so each pins a chamber-parity → **a new discrete constraint that REDUCES the freedom in the fermion addresses** (the "June core"), from BST's strong discrete side. That's real progress on the address problem that the soft masses stalled on.
+- **No, it does NOT make the quark mass VALUES derivable:** the masses are radial norms — **continuous, soft, running**, and the light quarks are poorly measured (m_u ±22%). The chirality is DISCRETE/coarse (a chamber, width ~1 in c), not the precise c-value the mass needs. It narrows the address SEARCH; it does not pin the precise overlap. **And it does NOT remove the two reasons quark masses were a swamp** (softness/running + poor measurement). So the quark mass values stay Tier-2.
+- **Candidate (check, don't assert):** IF the six chambers map to mass TIERS (a discrete hierarchy), the chirality might inform the mass ORDERING (hierarchy), even if not the precise ratios. Worth a look, NOT established.
+- **Honest bottom line:** the new information helps pin the STRUCTURE (chiral content, address chambers) and reduces address freedom — genuine progress — but it is unlikely to turn quark mass VALUES into clean derivations. Better constraints, not better values.
+
+## Tier / next
+- **BANKS:** the chirality MECHANISM (chamber formula, theorem); T2520; T2521; the survivors. Leg 1 spectrum-sorting is CANDIDATE (encouraging).
+- **OPEN (the finish):** Leg 2 — is the weak connection self-dual/holomorphic (chiral force)? = the gravi-weak input = "Born=Bergman for gauge fields." This is where the thread FINISHES: if Born=Bergman is universal → parity closes from one principle; if not → derived-conditional on the gravi-weak input.
+- Keep Leg 1 and Leg 2 SEPARATE (Lyra's discipline; the next-overshoot guard).
+
+— Keeper K820, 2026-07-22. RATIFY spectrum≠coupling: Leg 1 (chiral spectrum, Born=Bergman) CANDIDATE and SORTS (8=4_{+½}⊕4_{−½}; holomorphic half → (2,1)⊕(1,2) = all-left SM generation); Leg 2 (chiral coupling = actual parity violation) OPEN — needs the weak connection SELF-DUAL/HOLOMORPHIC (web: self-dual connection couples one chirality; flat was vector-like F636). Parity closes only with Leg 2. Endgame: is Born=Bergman UNIVERSAL (gauge fields too → self-dual → parity from one principle) or fermions-only (Leg 2 = gravi-weak input)? Quark-mass answer: helps address STRUCTURE (discrete chamber constraint, reduces freedom), NOT the soft mass VALUES (continuous/running/poorly-measured — still Tier-2). See [[Keeper_K819_ratify_Lyra_chamber_formula_theorem_ratify_banks_T2520_T2521_chirality_ties_to_masses_via_c_not_hypercharge_2026-07-22]], Lyra F636 (vector-like flat coupling), gravi-weak (arXiv:1212.5246).

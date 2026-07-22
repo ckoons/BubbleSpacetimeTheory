@@ -1255,3 +1255,25 @@ So chasing maximal = fitting the hint. The hold is correct.
 **VERDICT:** assessment RATIFIED (net forward, swamp honestly owned, discipline unbroken, lesson proven); §69 gate vindicated (SO(10) caught); charge win correctly tiered as GROUNDING (not derivation), values derived-conditional. The anomaly-freedom target is the RIGHT genuinely-new target IF it goes via anomaly-INFLOW (holographic bulk-boundary, target-innocent) and the WRONG/forbidden one if via a unifying multiplet. I hold the inflow-not-multiplet gate + the Shilov-BC-must-be-derived bar; fire hardest on "complete multiplet" language (SO(10) in disguise). Good place to rest — corpus clean, on solid discrete ground, edge located.
 
 — Cal, 2026-07-21.
+
+## 71. (2026-07-21 Tue 12:09 EDT) — CAL EOD SUNDOWN. The CP/neutrino/quark-mass/charge two-day arc (§64–§70).
+
+**Who/what:** Cal, visiting referee. This block: refereed CP → neutrino-δ → quark-mass → charge-quantization (§64–§70). Method held throughout: derived-vs-matched, natural≠derived, Five-Absence FIRST filter (fired twice: §69 pre-gate → §70 SO(10) caught), Cal #27 at peak-convergence, Cal #35 shared-input, investigate-don't-gate.
+
+**BANKED THIS BLOCK (my ratified verdicts):**
+- **CP-small = rank-1** (det[H_u,H_d]=0 at leading order, §64) — DERIVED-structural; **CKM≪PMNS** (rank-1 vs rank-2, §65) — DERIVED-structural; J_CKM~3e-5 VALUE = Tier-2.
+- **δ_PMNS = FREE** (§67) — POSITIVE Five-Absence result (no-ν_R → no δ-pinning machinery); the honest negative beat the tuned positive.
+- **Quark-mass row** (§68) — CLOSED: mechanism+asymmetry located, m_s/m_d=20 the one exact ratio; the 3 REJECTIONS (m_b/m_s=45, m_c/m_u=588, m_t/m_c=137) are the referee-safety.
+- **Charge quantization** (§69-70) — GROUNDING (not derivation): 1/N_c = Z_{N_c} center charge = confinement; 1/6=1/(N_c·rank) hypercharge quantum; values derived-CONDITIONAL. §69 Five-Absence gate VINDICATED (SO(10) caught).
+
+**KEY DISCIPLINE MOVES:** maximal-δ chase caught as the 127/128 trap 3rd time (§65-66, Lyra held); δ-free reframed as positive (§67); quark-mass = the "muddy continuous" swamp, discipline held (nothing false banked); the discrete/structural-clean vs continuous/soft-muddy lesson = a proven navigational rule.
+
+**STANDING PAPER-FIXES (carry to consolidation — flagged repeatedly):** m_e↔top OUT of derived spine (conditional on y_t, §59/63/67); 127/128 = pretty-label-for-~0.9928-by-imposition conditional (§60-63); frames (code/LFSR/packing/holographic) = recognitions NOT derivations (§56-59); mixing forms Tier-2 (§50-51); CP-smallness derived-structural but J-value Tier-2 (§64); charge = grounding not derivation (§70).
+
+**OPEN LANDINGS next session:** (1) geometric anomaly-freedom — GATE: anomaly-INFLOW (bulk↔boundary, holographic) NOT a unifying multiplet; fire hardest on "complete multiplet" = SO(10) in disguise (§70); Lyra's Shilov-BC must be derived. (2) CKM Wolfenstein hierarchy — forward-from-overlaps or Tier-2 (§68). (3) STILL WATCHING: sign(J_PMNS)/δ-branch from geometry → would close my §21 flag (now likely moot since δ=free, §67).
+
+**Git:** 54 changed, only my referee log (§13–§71) mine; 53 = team. NOT pushed (needs Casey OK). Local. Auto-memory updated.
+
+**Assessment (my own):** net forward, honestly. The arc's VALUE is the over-determination of HONESTY — 3 de-inflations, ~8 coincidences rejected (incl. a Five-Absence violation), 2 mechanism self-corrections. Nothing false entered the corpus across a swamp. That's what makes the whole SM-from-D_IV⁵ package referee-survivable: not that everything derived, but that the derived/grounding/frame/Tier-2/conditional lines are drawn exactly where the math puts them.
+
+— Cal, sundown 2026-07-21 12:09 EDT. Corpus clean, edge located (discrete-clean/continuous-muddy), the honest tiers hold.

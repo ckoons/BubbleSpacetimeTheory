@@ -1,0 +1,44 @@
+# F644 — Full-derivation attempt (pull 07-22M): can parity firm from derived-conditional to DERIVED? **Route 1 (coincidence) FAILS by computation, and cleanly.** The two SU(2)'s BST carries inside SO(5,2) — the **internal/isospin SU(2)_L** (all-spacelike {1,2,3,4}, where the weak doublet lives, F633/F639) and the **spacetime self-dual SU(2)** (Lorentz {0,1,2,3}, where gravi-weak's chiral spin connection lives) — have **TRIVIAL intersection.** Matching generators forces every coefficient to zero: they share *nothing*, not even the SO(3) rotation of {1,2,3}. So the weak SU(2) is the internal/isospin one (this answers "which SU(2is weak") and it is **NOT** gravity's chiral half — gravi-weak's literal "weak = self-dual spacetime spin connection" does **not** hold in BST's faithful embedding (weak is isospin, not Lorentz). **Parity stays DERIVED-CONDITIONAL**, and the input is sharpened: it is a chiral *projection* marrying the internal gauge group to a spacetime chirality — NOT the gravi-weak identification. **Route 2 (bulk-edge / topological-insulator) is the genuine remaining lead** — the Shilov boundary could carry the chiral projection via bulk-boundary correspondence — but it is NOT computed. Honest verdict: parity does not firm to derived via Route 1; Route 2 is the open shot.
+
+**Lyra, Wed 2026-07-22 ~13:00. Pull 07-22M. A real attempt at "fully derive." Route 1 computed → negative (Keeper's prior confirmed). Route 2 flagged as lead, not asserted. Compute, don't wish.**
+
+## The two SU(2)'s (the coincidence question, made concrete)
+Directions (F642): spacelike {1,2,3,4,5}, timelike {0,6}.
+- **Internal/isospin SU(2)_L** ⊂ SO(4)_{1234} ⊂ SO(5) (spacelike). This is where n_C-odd splits the spinor (2,1)⊕(1,2) (F633) — the weak *doublet* is charged under it. Self-dual generators:
+$$ \mathrm{SU(2)}_L^{\rm int} = \big\langle\ J_{12}+J_{34},\ \ J_{13}+J_{42},\ \ J_{14}+J_{23}\ \big\rangle. $$
+- **Spacetime self-dual SU(2)** ⊂ SO(4)_{0123} = complexified Lorentz SO(3,1) (time 0 + space 1,2,3). This is where gravi-weak's self-dual spin connection lives. Self-dual generators:
+$$ \mathrm{SU(2)}_L^{\rm st} = \big\langle\ J_{01}+J_{23},\ \ J_{02}+J_{31},\ \ J_{03}+J_{12}\ \big\rangle. $$
+
+## The computation — trivial intersection
+Seek X ∈ SU(2)_L^{int} ∩ SU(2)_L^{st}:
+$$ X = a(J_{12}{+}J_{34}) + b(J_{13}{+}J_{42}) + c(J_{14}{+}J_{23}) \;=\; p(J_{01}{+}J_{23}) + q(J_{02}{+}J_{31}) + r(J_{03}{+}J_{12}). $$
+Match coefficients of the generators involving **direction 4** (present only on the left) — the RHS has NO J with index 4:
+$$ J_{34}:\ a=0;\qquad J_{42}:\ b=0;\qquad J_{14}:\ c=0. $$
+$$ \Rightarrow\ X=0. \qquad\boxed{\ \mathrm{SU(2)}_L^{\rm int}\cap\mathrm{SU(2)}_L^{\rm st}=\{0\}\ } $$
+**They intersect trivially — completely distinct subgroups.** (They don't even share the SO(3) of {1,2,3}: J_{12} alone is *not* in SU(2)_L^{int} — it's ½[(J_{12}+J_{34})+(J_{12}−J_{34})], half self-dual + half anti-self-dual. So the common rotation is split L/R in *both*, differently.) The reason is structural and unfixable: **the internal SO(4) is all-spacelike ({1,2,3,4}); the spacetime SO(4) contains a timelike direction (0). An all-spacelike SU(2) and a time-containing SU(2) cannot coincide** — and the internal one MUST be spacelike (it's in SO(5), the compact isotropy), the spacetime one MUST contain time (it's Lorentz). No embedding fixes this.
+
+## What it means (the honest verdict on the attempt)
+- **Route 1 (coincidence → parity derived): FAILS.** The weak/isospin SU(2)_L and the spacetime self-dual SU(2) are distinct (trivial intersection). Keeper's prior confirmed by explicit computation.
+- **"Which SU(2) is weak?" is answered:** the **internal/isospin** SU(2)_L (the doublet's gauge group). But it is NOT gravity's chiral half.
+- **Gravi-weak's literal identification does NOT hold in BST:** "weak = self-dual spacetime spin connection" would make weak a *Lorentz* SU(2), but the SM weak SU(2) is *isospin* (internal), and the two are distinct here. So the input is not the gravi-weak identification.
+- **The input, sharpened:** what parity needs is a **chiral projection** — a rule marrying the *internal* gauge coupling (SU(2)_L^{int}, isospin) to a *spacetime* chirality (γ⁵). F642 showed these are orthogonal (holomorphic ⊥ γ⁵), so the projection is genuinely extra. **Parity = DERIVED-CONDITIONAL on this chiral-projection input.** It does NOT firm to derived via Route 1.
+
+## Route 2 — bulk-edge / topological-insulator (the genuine remaining lead, NOT computed)
+The one route that could still firm it: a **holomorphic bulk with nonzero index forces chiral edge modes on the boundary** (bulk-boundary correspondence / topological insulator). BST has the ingredients:
+- holomorphic bulk (Born=Bergman), nonzero Dolbeault index (F638 chamber theorem, ±4), and a boundary (Shilov S⁴×S¹/Z₂).
+- If 4D spacetime lives on (part of) the Shilov boundary, the bulk index would FORCE chiral edge fermions — chirality from bulk topology, no input.
+**But:** whether the *boundary* chirality equals *4D spacetime γ⁵* is the same alignment question, and F642's orthogonality (holomorphic ⊥ γ⁵) is the specific worry — the bulk index is a *domain* chirality, and it must survive to the boundary as *spacetime* chirality. **This is a real, physically-grounded lead (the topological-insulator mechanism is robust) but it is NOT computed.** I flag it as the open shot, not a claim. If the boundary edge-mode chirality is 4D-spacetime and forced by the bulk index, parity firms to derived. Compute needed.
+
+## Honest verdict
+- **Route 1: computed, FAILS** (trivial intersection). Parity does not firm via the coincidence.
+- **Route 2: open lead** (bulk-edge topological), not computed, worth a real attempt — the alignment (boundary vs 4D chirality) is the crux, and F642 is the specific obstruction to clear.
+- **Parity finishes DERIVED-CONDITIONAL** on a chiral-projection input (sharper than "gravi-weak"; it's marrying internal-gauge to spacetime-chirality). No fifth reframe; the sector finishes honestly either way.
+- **Five-Absence intact throughout** — no new gauge group, no GUT; the isospin SU(2)_L is the SM's own.
+
+## Tiers / handoffs
+- **@Keeper** — Route 1 (coincidence) computed and it FAILS cleanly: SU(2)_L^{int} ∩ SU(2)_L^{st} = {0} (trivial), because internal is all-spacelike {1,2,3,4} and spacetime contains time {0,...} — structurally can't coincide. Your prior confirmed. Consequence: weak = internal/isospin SU(2)_L (answers "which"), NOT gravity's chiral half; gravi-weak's literal identification does not hold in BST; the input is a chiral *projection* (internal-gauge ↔ spacetime-chirality), not gravi-weak. Parity stays derived-conditional. Route 2 (bulk-edge topological) is the remaining lead — real, uncomputed. Please log: full-derivation Route 1 negative; parity derived-conditional; Route 2 open.
+- **@Elie** — if the team wants Route 2: the computation is the **bulk-boundary correspondence** — does the nonzero Dolbeault index (your chamber ±4) force chiral edge modes on the Shilov boundary, and is that boundary chirality the 4D spacetime γ⁵ (the F642 obstruction must be cleared)? Your index + boundary harness. NOT asserting it works — it's the open shot.
+- **@Grace** — render: the two SU(2)'s are DISTINCT (trivial intersection; internal-spacelike vs spacetime-time-containing); weak = internal/isospin (answers "which SU(2)"); parity derived-conditional on a chiral-projection input; Route 2 (bulk-edge) = the open lead. Don't render gravi-weak as the mechanism — its literal identification fails here.
+- **@Casey** — the full-derivation attempt, computed: the coincidence route FAILS, and cleanly. The weak SU(2) (isospin, all-spacelike — where your doublets live) and the self-dual half of the *spacetime* spin connection (gravi-weak, which contains the time direction) share **nothing** — trivial intersection, and it's structural: an all-spacelike SU(2) can't equal a time-containing one. So gravi-weak's "weak IS gravity's chiral half" doesn't literally hold in BST — which also means the input isn't gravi-weak; it's the sharper "chiral projection" tying the isospin gauge to a spacetime chirality. Parity stays derived-conditional. The one live shot at firming it is the topological-insulator route — a holomorphic bulk with nonzero index forcing chiral edge modes on the Shilov boundary — and BST genuinely has those ingredients, but the same orthogonality that killed the last closure (holomorphic ⊥ spacetime chirality) is the wall to clear, so I'm flagging it as the real lead to compute, not a closure. Honest end: parity derived-conditional, "which SU(2)" answered, one topological route left to try.
+
+Notes only; no toys/theorems claimed. Route 1 (coincidence) FAILS (trivial intersection, computed); parity derived-conditional on a chiral-projection input; Route 2 (bulk-edge topological) = open lead, not computed. — Lyra

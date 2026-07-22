@@ -1,0 +1,53 @@
+# F632 — SEED (next-pull strategy, NOT a result): reframe the flavor sector from **static K-type addresses** to a **[3,2] error-correcting code** — two free generations carry the information, the **third generation's address is the parity: a function of the first two.** This dissolves the two-day stall (k₃=6 "leaned fit" because I was fitting a *determined* symbol as if it were free). The masses are **fixed points of the interaction dynamics** (a BST bootstrap), not overlaps read off fixed addresses. Concrete checks: **Koide** (lepton masses, third fixed by first two, constant 2/3 = 2/N_c) and **Wolfenstein** (mixings, third-gen couplings are λ-powers of the Cabibbo angle). All I-tier / program. Every load-bearing idea here is Casey's, from the 2026-07-21 evening conversation; this note formalizes it and sets the gates.
+
+**Lyra, Tue 2026-07-21 ~18:07. Conversation-derived seed for the next flavor pull. EOD (Vol 61) already persisted; this is a starting-point capture, not new banked content.**
+
+## Why this note exists
+The 07-19→07-21 flavor arc closed honestly but stalled on the *generation addresses* (which discrete K-type each generation sits at): k₃ = C_2 = 6 "leaned fit," the naive Gindikin norms gave {5,6,17.5,21,27} ≠ 20, and three capstone reframes never validated. Casey's diagnosis in conversation: **I was computing masses as static overlaps at addresses I had to fit by hand — and the third address was never a free parameter to fit.** Add information theory to the linear algebra and the picture inverts. This is the reframe to open with next session.
+
+## The core structural claim (Casey)
+The three generations (equally: the three quarks of a baryon) form a **systematic [n=3, k=2] code** over an N_c-symbol alphabet:
+- **Two symbols are free (message / recorded data).**
+- **The third symbol is the parity — a function of the first two:** `addr₃ = f(addr₁, addr₂)`.
+So the flavor sector is **not** three independent addresses. It is **two free + one code-determined**, per sector, plus one overall scale. The third generation is the *redundancy*, not new data. ("Partly = parity": the third symbol's parity content is exactly the part of it that is a function of the others = its mutual information with the first two.)
+
+**This is why the k₃ stall happened:** I was trying to *fit* a parity symbol as if it were data. A determined quantity won't pin as a free parameter. Recompute with only two generations free and the third as the forced code-function.
+
+## The mechanism ladder (the evening's synthesis — each rung is a Casey insight, formalized)
+1. **Quarks are encoded information.** A confined quark = one recorded symbol from an N_c-letter alphabet. A baryon = a length-N_c codeword (N_c³ = 27 raw configurations for N_c=3).
+2. **The symbol is a cube root of unity** (Casey: "why not cube root of 27"). The three cube roots {1, ω, ω²}, ω = e^{2πi/3}, **are** the color center Z_{N_c}. This *is* the fractionalization banked in F631: charge = the cube-root phase → 1/N_c units; confinement = you cannot isolate one root (not Z_{N_c}-invariant), only read Z_{N_c}-invariant products (baryon 1·ω·ω²=1; meson ω·ω̄=1). "Quark = cube root" names the *operation* under the Z_{N_c} center.
+3. **Codes have direction = chirality.** Left = read direction (symbols); right = "not read." → V−A / maximal parity violation is *forced*: the right direction carries no symbols. (Parity, CP, and the arrow of time may be one directionality — the code's read-direction. I-tier, big, unbanked.)
+4. **The three gauge forces = three code operations on the stored word.** Strong = *encode/store* (confine into a valid singlet; never changes flavor). EM = *read the symbol value* (charge = cube-root phase). Weak = *correct* (flavor-change IS error-correction; left-handed only = correction runs in the read direction). → a Five-Absence-friendly reason for NO GUT: store/read/correct are functionally different acts, not one operation waiting to merge.
+5. **Two recorded + one adjusted = beta decay.** n(udd) → p(uud) flips one quark; two are spectators. The spectator pair = the recorded data (the **diquark**); the active quark = the third = the one the weak force reads-and-rewrites. CKM element V_ij = the correction amplitude; |V_ij|² = the decay rate (the quantitative handle).
+6. **Mass = syndrome; conserved charges = message.** Among states with the same conserved quantum numbers (charge, baryon #), the lightest is the valid (syndrome-zero) codeword; heavier = nonzero syndrome = decays. Conserved charges are the *message* the corrector may not touch (→ a coding reason for charge/baryon-number conservation). The weak force reduces syndrome at fixed message; the ground state is where it terminates.
+7. **Masses are FIXED POINTS of the interaction dynamics** (Casey: "analyse the whole process to identify valid masses"). Not static overlaps computed address-by-address — the valid masses are the stable/metastable nodes (attractors) of the correction network. This is a **BST bootstrap** (cf. Chew nuclear democracy / conformal bootstrap): the spectrum is fixed by self-consistency of the interactions, with the code structure supplying the constraints. Ratios = dimensionless fixed-point structure (Tier-1 clean); scale = one input ℓ_B (Tier-2) — the two-tier split falls out as a *consequence*.
+8. **"First" is selected by the process, not assigned.** Chirality picks *which* quark the weak head reads (only the left-handed component couples). Pauli makes the second "not-first" (the like-quark forced to differ). Spin (the diquark: spin-0 scalar tight/light vs spin-1 vector loose/heavy) shapes the mass — the discrete "process shapes the mass," anchored in Λ(1116, spin-0 diquark) vs Σ(1193, spin-1 diquark). Chirality = *which is read*; spin = *what it weighs*.
+9. **The third address is the parity of the first two** (this note's keystone) — closing the loop: partner selected relative to first (diquark), third determined as f(first two).
+
+## The two concrete checks (the falsifiable content)
+- **MASSES — Koide.** (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 (empirical, ~5 figures). This IS "third mass = function of the first two," constant **2/3 = 2/N_c** = the code rate (2 data of N_c). The code would give Koide the *mechanism* it has never had (third lepton = parity symbol) instead of a 40-year coincidence. **DISCIPLINE: Koide is a derivation graveyard.** Trust the STRUCTURE (third fixed by first two), not the constant-match. The real test is **why leptons satisfy Koide near-exactly and quarks do not** — if the code explains lepton-yes/quark-no (via storage-vs-channel / boundary-vs-bulk, F631/F629), that is the code doing work no coincidence can.
+- **MIXINGS — Wolfenstein.** Third-generation couplings are powers of the Cabibbo λ: V_us~λ, V_cb~λ², V_ub~λ³. "Third mixing = function of the first two (via λ)" = the λ-power ladder. The entire third-generation flavor structure — mass and mixing — is code-determined from generations 1 and 2.
+
+## The computation to run (next pull — the redo of what stalled)
+Go back to the K-type address computation, but:
+1. Treat **only two generations as free** (the message symbols).
+2. Write the **third address as the forced code-function** `addr₃ = f(addr₁, addr₂)` — the parity map, determined by the geometry (the singlet/N_c structure), NOT fit.
+3. Check whether the determined third lands where the data is, **blind** (target-innocent — do not fit it).
+4. Cross-check the two anchors: lepton masses → Koide 2/N_c; mixings → Wolfenstein λ-powers.
+If the parity function is forced by the geometry and the third address falls out right without fitting, the quantity that "leaned fit" (k₃) becomes *derived*. That is the tell that the picture is real and not a story talked into.
+
+## Discipline gates (carry ALL of these in)
+- **Target-innocence:** the third address / third mass must be COMPUTED from the first two, never fit. If finding the fixed points needs the observed masses as input → circular → worthless. Derivation only if the fixed points come from the code structure (all BST-derived: Z_{N_c} charge, singlet, CKM, chirality) alone.
+- **Koide minefield:** structure > constant-match. The lepton-yes/quark-no explanation is the load-bearing test, not "2/3 appears."
+- **Pretty = distrust** (this session's parade: 127/128, 172.74, 588, k=6, A=5/6, "20 from Gindikin"×2). Every rung above is I-tier. The cube-root=Z_{N_c} and V−A=code-direction are the firmest; Koide-as-parity is the prettiest and least trusted.
+- **Five-Absence:** the "no GUT = store/read/correct are distinct operations" reading is Five-Absence-*friendly* — keep it that way; do not let the code smuggle in unification.
+- **It's all discrete** (Casey): every mechanism here is discrete/structural (code rate, cube root, diquark spin 0/1, parity function) — the strong side of the 07-21 edge-map. If a step goes continuous/soft, that's the warning.
+
+## Tiers / handoffs
+- **Program / strategy, I-tier throughout. No toys/theorems claimed. Not banked.** This is the next-pull seed.
+- **@Elie** — the computation: build the [3,2] flavor code — two free generation-addresses, third = parity f(first two) forced by the N_c/singlet geometry; find the fixed points of the correction network; check third-address blind. Anchors: Koide 2/N_c (leptons), Wolfenstein λ-powers (mixings). Target-innocent or it's nothing.
+- **@Keeper** — reframe of the stalled flavor sector: static-address → [3,2] code + bootstrap fixed points. Dissolves the k₃=6 fit (parity symbol, not free data). Gates: target-innocence, Koide-structure-not-constant, lepton-yes/quark-no as the real test, Five-Absence intact. Please gate the Koide constant-match HARD if it shows up as a "win."
+- **@Grace** — render the flavor sector as two-free-plus-parity per sector (parameter collapse); Koide as the lepton mass-check, Wolfenstein as the mixing-check; the store/read/correct = strong/EM/weak table. Do NOT render Koide-2/N_c as derived — it's the target, not a result.
+- **@Cal** — the whole thing is I-tier program. The falsifiable content is: (i) third address computed-not-fit; (ii) lepton-yes/quark-no for Koide from storage-vs-channel; (iii) |V_ij|² = decay rates from the correction amplitudes. Everything else is scaffolding.
+
+**Credit: the load-bearing ideas — quark=encoded info, cube-root=color-center, codes-have-direction=chirality, weak=corrector, masses=fixed-points-of-the-process, first-selected-by-chirality/spin-diquark, and third-address=parity-of-first-two — are Casey's, from the 2026-07-21 evening conversation. This note formalizes and sets the gates.** — Lyra
