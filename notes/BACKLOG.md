@@ -147,6 +147,7 @@ These items depend on external mathematical results outside BST's control. They 
 | C6 | QCD vacuum energy | 6 irreducible master integrals | Genuinely hard (open in math) |
 | C7 | Proton spin crisis | Spin decomposition I-tier | Bergman mode decomposition |
 | C8-C10 | c, h, k_B | Defined SI constants, not derivable | Not gaps |
+| C11 | ZZ/WW BR ratio (≠ 1/rank^N_c) | REJECTED as integer-web prediction (Toy 4831, Elie 2026-07-24): BR(ZZ)/BR(WW)=0.123≈1/8 (2%) is (Bose identical-particle 1/2) × (m_H-dependent off-shell phase space ~1/4) — numerology at 125 GeV, not rank-forced | Real BST content here is custodial ρ=1 (T2520, banked); the diboson BR is downstream statistics+kinematics |
 
 ---
 
@@ -637,3 +638,18 @@ Existing standing rule per `feedback_curiosity_directive.md` reinforced. Keeper 
 **Near-term falsifiable (watch experiments):**
 - **Neutrino m₁=0 predictions (Elie 4240/4241)**: Σm_ν ≈ 0.059 eV (NO minimum); m₃/m₂ = √34; m_ββ ∈ [1.5,3.7] meV (0νββ, below current/next-gen reach). Track DESI/cosmology + 0νββ experiments; inverted ordering or m_ββ ≫ 4 meV falsifies.
 - **δ_CP ≠ 0 hard falsifier**: rephasable misalignment → J=0 → CP forbidden; CKM/PMNS CP existence rides on N=3 strata (Grace's Kobayashi-Maskawa off F86).
+
+## SP-14 Gap Registry — closed negatives, 2026-07-24 lepton-value arc (filed by Grace, EOD K896)
+| ID | Item | Verdict + reason (why BST does not derive it — honestly recorded) |
+|----|------|------------------------------------------------------------------|
+| N-muon-α13/12 | muon ratio = α^(−13/12) | REJECTED as a 2nd derivation: 0.13% = ~60,000σ (coarse), a looser α-tower re-expression of the SAME 206.77 the banked (24/π²)⁶ (0.003%) gives. Pieces real (12=2C₂ electron-exponent F426; 13=c₃=C₂+g, discriminant-1 uniqueness). But score-σ-not-dev%: don't re-bank on a pretty fraction. Muon banked value STAYS (24/π²)⁶. Bonus found: 3/2 = α^(−1/12) exactly (explains the recurring 3/2). |
+| N-vf-unification | θ_lepton = v/f (one θ sets EW VEV + lepton hierarchy) | KILLED — no corpus basis. BST's Higgs is the RADIAL mode of D_IV⁵ (F85, quartic λ=1/√60), its VEV a derived ABSOLUTE scale (m_p²/7m_e), NOT a composite-Higgs misalignment RATIO. The S⁴=SO(5)/SO(4) coset is an analogy for the coset, NOT the mechanism. The K892-shaped "one number does everything" Schur-trap, caught before banking. |
+| N-muon-diagonal | muon mass = a diagonal Toeplitz/residue/kernel/climb value | REFUTED (rank bound K864: rank-r Gindikin Γ has r factors, exponent 6 impossible from rank-2 residues). The hierarchy is OFF-diagonal (seesaw). ~8 diagonal reframes over 2 days, all one dead route. |
+| N-lepton-value-open | charged-lepton mass VALUES derived | OPEN, leans STRUCTURAL — reduces to ONE number θ (ν_R latitude). Continuous coset → CW slides with couplings → structural, UNLESS W(B₂) discrete symmetry pins θ (carry-forward candidate). Over-determined test pending (θ* must give both 207 and 16.8). |
+
+## SP-14 Catalog cleanup 2026-07-25 (Grace, K901): correct the flavor tiers — the sectors are ASYMMETRIC
+| ID | Item | CORRECTED tier + reason |
+|----|------|-------------------------|
+| C-lepton-values | lepton mass VALUES (207, 16.8) | MODULUS — proven (W(D₅) 4 candidate latitudes all miss; spectral floor caps ratio ~21; θ unpinned, F688). Non-clean ratios fit their modulus status. **Upgrade lane:** Elie's s→1 Shilov spectrum — IF it forces the g-exponent + 5/3 boundary-excess, → "derived given the Planck mass" (NO new scale: the electron's depth is the banked k=1→k=6 C₂-layer α¹² PLANCK path, not a new seesaw scale — Grace's Planck-anchor check). |
+| C-cabibbo | Cabibbo λ / m_s/m_d | **CANDIDATE-DERIVED, gated (NOT modulus — corrects my 07-25 over-negative).** m_s/m_d = 20 = (N_c+1)(N_c+2) forced at ν=N_c (F506, target-innocent, zero-param, 0.5%); via Gatto λ=1/√20=1/(2√n_C)=0.2236 (0.4%). GATE (K671): the FK rank-2 object-form (scalar factorial vs two-factor Pochhammer — the 20 depends on it); resolvable against the published "Faraut-Koranyi hypergeometric functions in rank two" (Ann. Inst. Fourier). |
+| ★ FLAVOR ASYMMETRY | (headline) | The two sectors are NOT symmetric: **lepton values = moduli** (proven); **down-quark ratios + Cabibbo = candidate-derived** (F506). BST does MORE in the quark sector. Both open lanes reduce to ONE object: the **FK rank-2 boundary structure of D_IV⁵** (Pochhammer → does 20 derive? Shilov s→1 → does the log-gap fingerprint derive?). |

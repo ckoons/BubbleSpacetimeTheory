@@ -5490,7 +5490,7 @@
    "observed_source": "PDG (current/MS-bar ratio, scale-invariant)",
    "precision": "0.5%",
    "tier": "D",
-   "notes": "F506: down-quark ratios d:s:b=1:20:840 from FK Pochhammer (\u03bd)_\u03bb at \u03bd=N_c (Wallach threshold, forced), degrees {1,3,5} (T1929), single-row forced by Q\u2075 cohomology. Zero params. Grace sync 2026-07-12."
+   "notes": "F506: down-quark ratios d:s:b=1:20:840 from FK Pochhammer (\u03bd)_\u03bb at \u03bd=N_c (Wallach threshold k_min=a=N_c, forced), degrees {1,3,5} (T1929), single-row forced by Q\u2075 cohomology. Zero params. Grace sync 2026-07-12. TIER (K901/K903 2026-07-25): STRONG CANDIDATE, gated on the FK rank-2 single-row K-type check -- not fully derived until Elie's rep-check passes; hold at candidate. FF-20 DUPLICATION FLAG: m_s/m_d=20 is also banked as rank^2*n_C (geom-inv T186) and resonates with h^{1,1}(K3)=20 (T1927); these are ONE mechanism (this FK ladder) + structural resonances, NOT independent derivations -- do not multiplicatively count. See geom-inv ff20_duplication_flag."
   },
   {
    "id": "const_157",

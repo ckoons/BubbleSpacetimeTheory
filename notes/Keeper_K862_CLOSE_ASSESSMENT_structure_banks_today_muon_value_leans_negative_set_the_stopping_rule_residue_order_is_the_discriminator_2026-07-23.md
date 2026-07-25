@@ -1,0 +1,38 @@
+# K862 — CLOSE ASSESSMENT (Casey: "close today or need more time?"): the two halves have different answers. **The STRUCTURE closes today — BANK it** (generations = the three Wallach strata of D_IV⁵; T1829 proved ∩ T2517 derived; validates Casey's Principle #16 discrete-interior/continuous-exterior). **The muon VALUE does NOT close today as derived, and the honest signals LEAN NEGATIVE**: three convergent refutations (Γ_Ω F671, Bergman-kernel F672, climb F673/K860) + an over-determined exponent (4 stories, 0 mechanisms) + the residue-order diagnostic (the k₁=3/2 Wallach pole is SIMPLE → order 1, cannot by itself produce a 6th-power exponent). **SET THE STOPPING RULE:** the Wallach threshold residue (Lyra) is the LAST geometric attempt; the discriminator is whether the residue ORDER forces exponent 6 or 6 stays re-labeled four ways. If it doesn't force it → close honestly: bank the structure, label (24/π²)⁶ as IDENTIFIED coincidence, redirect the magnitude to the α-tower. No sixth reframe.
+
+**Keeper | 2026-07-23 | An honest answer to a direct question. The structure is a real win today; the value most likely closes as a clean negative tomorrow. Plain.**
+
+## Direct answer to "can we close today?"
+- **STRUCTURE (generations = Wallach strata / forced filtration): YES, closes today.** It's T1829 (Wallach Bottleneck, PROVED D-tier) ∩ T2517 (positions, DERIVED) — two independent results coinciding, target-innocent. Grace confirms T1829 (already proved, a confirm not a derivation) and it BANKS. This is the durable win.
+- **MUON VALUE: NO, not today as "derived" — and the honest prior is a clean NEGATIVE, not a pending yes.** It needs Lyra's actual residue computation + the general Hua volume from the Faraut–Koranyi book (Elie confirmed only K₅ is in-corpus). Realistically a tomorrow verdict, and three independent signals point at "identified coincidence, not derivation."
+
+## Why the value leans NEGATIVE (three independent signals — this is the discipline, not pessimism)
+1. **Three convergent refutations** of the exponent from three different objects: Γ_Ω residues (Lyra F671), Bergman-kernel ratios (Grace/Lyra F672, sourced from Hua's volume formula), and the climb reading (K860). All give the base 24/π² a real home but NONE produces exponent 6. Convergence from independent machinery ≠ one negative I might be getting wrong.
+2. **The exponent 6 is over-determined:** 2·N_c = C₂ = n_C+1 = 2·(genus span) = 6, all true, none forced (Lyra: "four stories = zero mechanisms"). Classic FF-20 rich-vocabulary — the signature of a coincidence, not a derivation.
+3. **The residue-order diagnostic (new, K862):** at the Wallach point k₁ = a/2 = 3/2, exactly ONE Gindikin Γ-factor Γ(s−a/2) hits its first pole → a **SIMPLE pole (order 1)**. A simple pole's residue is a single factor, NOT a 6th power. So the residue ORDER at k₁ is 1, which cannot by itself produce the exponent 6. This is a structural reason to expect the Wallach residue also won't give 6 — consistent with signals 1–2.
+
+## ★ THE DISCRIMINATOR (the one thing Lyra's computation must answer)
+**Does the residue ORDER at k₁ force the exponent 6 through a mechanism, or is 6 re-labeled four ways?** (Grace's forcing-vs-relabel test.)
+- If the linear-energy structure (T2490) multiplies the simple residue into an order-6 object through a FORCED mechanism (e.g. the residue enters a partition function that exponentiates) → derived.
+- If the residue is order-1 and 6 has to be inserted → coincidence. Close it.
+My read from the residue-order: LEANS toward re-label/coincidence. But Lyra's actual computation decides — this is her one correctly-posed shot.
+
+## ★ THE STOPPING RULE (Keeper discipline — prevent endless reframing)
+Five reframes of one number today (Γ_Ω → kernel-climb → Casey climb → Wallach). Reframing without a stopping rule becomes its own form of fishing. **RULE:** the Wallach threshold residue is the LAST geometric attempt on the muon VALUE. Outcome either way:
+- **If the residue ORDER forces 6:** the muon derives — bank it (with Elie's blind cross-check + the book-sourced Hua volume).
+- **If it does not:** CLOSE the muon value honestly — (24/π²)⁶ is an IDENTIFIED coincidence (returns to T190 tier), the STRUCTURE banks, and the lepton MAGNITUDE redirects to BST's exponential mechanism (the α-tower, m_e ~ 6π⁵α¹², K859) — separate from the Wallach-strata structure (which gives WHICH/how-many/ordering, not scale).
+No sixth reframe. The discipline that caught the over-claim AND the over-negative today also says: converged negatives get accepted, not re-litigated.
+
+## ★ BANK NOW — the structural win (validates Casey's Principle #16)
+The generations = the three Wallach strata of D_IV⁵ is bankable TODAY and it's the real gain:
+- tau = k₀=0 (condensate, hot), muon = k₁=3/2 (threshold, non-integer/no-modular-forms, warm), electron = continuous (cold).
+- **This IS Casey's Principle #16** (D_IV⁵ mirror: discrete interior / continuous exterior): the Wallach set literally = discrete points (the generations, the interior) ∪ continuous half-line (the exterior). Casey's intuition that Wallach "sees both sides" is because the Wallach set spans both — and the phase transitions between them are the Catastrophe-Theory-v2 frame Casey pointed at (the thresholds ARE the catastrophe set).
+- Answers why exactly 3 generations + no 4th + the mass ORDERING, from ρ-arithmetic + proved rep theory. Target-innocent. **Bank it.**
+
+## Directions
+- **★ LYRA:** the ONE remaining computation — the Wallach threshold residue at k₁=3/2, and specifically the DISCRIMINATOR: does the residue ORDER force exponent 6, or is it order-1 (simple pole) with 6 inserted? Report the residue's order and analytic form. This is the last geometric attempt per the stopping rule.
+- **★ GRACE:** confirm T1829 (already proved) to BANK generations-as-Wallach-strata TODAY; you've sourced the Hua volume (24 = |W(D_3)|) — that's the muon domain's Weyl group, a clean home for the base regardless of the value verdict.
+- **ELIE:** hold the blind cross-check; if Lyra's residue is order-1/coincidence, your cross-check confirms only the arithmetic (as you flagged). Open the QCD absolute mass-gap scale as the independent front (your offer) — it's clean and untouched.
+- **CAL/KEEPER:** structure banks today; muon value on the stopping rule (Wallach residue = last shot, leans negative); if it fails, honest identified-coincidence + α-tower redirect. No sixth reframe.
+
+— Keeper K862, 2026-07-23. CLOSE ASSESSMENT: structure (generations = Wallach strata) BANKS today (T1829 proved ∩ T2517 derived, validates Casey Principle #16 discrete-interior/continuous-exterior). Muon VALUE does NOT close as derived today; leans NEGATIVE — three convergent refutations (Γ_Ω/kernel/climb) + over-determined exponent (4 stories 0 mechanisms) + residue-order diagnostic (k₁ is a SIMPLE pole → order 1, can't give a 6th power). STOPPING RULE: Wallach residue = last geometric attempt; discriminator = does the residue ORDER force 6 or is it re-labeled. If not forced → close honest: (24/π²)⁶ identified-coincidence (T190), structure banks, magnitude → α-tower. No sixth reframe. See [[Keeper_K861_Casey_thermodynamic_reframe_generations_are_the_three_Wallach_strata_of_D_IV5_different_phases_different_mass_laws_muon_is_a_threshold_residue_not_a_power_T1829_T2490_K768_grounded_2026-07-23]], [[Keeper_K693_muon_4to5_audit_residue_verified_hold_count_up_F545_upgrade_2026-07-15]], [[grace_k7_mPlanck_endpoint_wallach_threshold_2026-06-29]], Casey Principle #16, Lyra F671/F672/F673, Grace (Hua volume = |W(D_3)|), K859 (α-tower redirect). Web: weighted Bergman ↔ continuous Wallach set (arxiv 2209.04850).

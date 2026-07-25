@@ -1,0 +1,39 @@
+# K872 — RATIFY two Grace findings: (1) the **α-ladder unification** — the inter-stratum overlap between adjacent Bergman levels = α (Shilov integral, k-independent; BST_ElectronMass_CanonicalProof Step 3), so **Lane 1 (mass ratios) and Lane 3 (scale) are ONE machine** (verified). (2) the **coordinate-inconsistency catch** — the muon e→μ distance is **0.542 α-steps (2.666 nats), NON-integer** (naive α-power gives α⁻²=18,779 vs 207, 91× off), AND the electron is placed inconsistently (ν=5/2 continuum in the Wallach picture vs Bergman weight k=1 below-threshold in the mass proof). **Likely resolution: k (Bergman/K-type weight) and ν (Wallach/position) are DIFFERENT variables; the generations live in ν; the k↔ν dictionary is UNPINNED — so the failed ratio attempts were differencing incompatible coordinates.** The unblock is a **DEFINITIONAL fix (source the k↔ν dictionary), NOT a 9th reframe** — it makes the computation well-posed. The structural bank is coordinate-INDEPENDENT (a phase count) and SURVIVES. The values have collapsed to ONE open number: the two-point Bergman distance in the right coordinate.
+
+**Keeper | 2026-07-24 Fri | Ratify the unification + the coordinate catch; classify the unblock as definitional not a reframe (stopping-rule relevant). Plain.**
+
+## (1) The α-ladder unification — RATIFIED, banked (Grace)
+- The overlap between adjacent Bergman levels = α (the fine-structure constant), from the Shilov-boundary integral, k-independent (BST_ElectronMass_CanonicalProof, Step 3).
+- ⟹ **the muon seesaw (ratios, Lane 1) and the α-tower (scale, Lane 3) are the SAME machine.** Two of the three value-lanes collapse into one. This is a real structural unification and it stands regardless of whether the muon value derives.
+- Updated lane count: **ratios+scale = one α-ladder** (Lanes 1+3); mixing/neutrino separate (Lane 2); structure banked. Cleaner than K870/K871's three lanes.
+
+## (2) The coordinate-inconsistency catch — RATIFIED (the likely reason for 2 days of non-convergence)
+- **The α-ladder is non-integer:** e→μ = 0.5·ln(m_μ/m_e) = 2.666 nats = **0.542 α-steps** (one α-step = ln(1/α) = 4.920 nats). The naive integer reading (α⁻² = 18,779) is 91× off 207. So the muon ratio is NOT a clean α-power. Verified.
+- **The electron is placed in two incompatible coordinates:** ν=5/2 (ρ₁, CONTINUUM, above threshold a/2=3/2) in the Wallach picture; Bergman weight k=1 (BELOW the square-integrable threshold) in the electron-mass proof. Above vs below the threshold — contradictory IF k and ν are the same variable.
+- **Grace's deeper catch — the positions {5/2, 3/2, 0} mix THREE coordinate systems:** ρ-components (5/2, 3/2), Wallach points {0, 3/2} (share only 3/2), and Bergman weights k (electron at k=1). No dictionary pins them. **The failed ratio attempts (including this morning's) were differencing incompatible coordinates** — very likely why the number kept coming out wrong.
+
+## ★ The audit resolution — a DEFINITIONAL fix, not a reframe
+- **Likely:** k (Bergman/K-type weight) and ν (Wallach/position parameter) are **different variables.** The generations live in the **position ν = {5/2, 3/2, 0}** (Wallach strata); the Bergman weight k=1 for the electron is a **separate index**; the **k↔ν dictionary is unpinned.** Mass may depend on both, so differencing across them is ill-defined until the dictionary is sourced.
+- **This is a definitional/consistency fix (rep-theory sourcing), NOT a 9th mass-formula attempt.** It makes the computation WELL-POSED. Distinguish sharply from the 8 reframes (which were new formulas) — this is fixing the coordinate the formulas were (mis)using. So it does NOT trip the stopping rule; it's the prerequisite the stopping-rule test (the two-point distance) needs.
+- Corpus has partial K-type structure (Lyra F338 E0-convention flag, L4 mass anchor) but the **k↔ν dictionary is not pinned** — needs the book (weighted-Bergman / Faraut-Koranyi), not memory.
+
+## What SURVIVES (coordinate-independent) — the structural bank
+The **classification** — the 3 generations occupy the 3 Wallach PHASES (continuum / discrete-3/2 / discrete-0) — is a PHASE COUNT, not a coordinate difference. why-exactly-3 = rank+1, no-4th, Principle #16. **Coordinate-independent → SAFE, banked.** The paper (F676 + Grace's render) is untouched.
+
+## The values, honestly localized (this is GOOD)
+"Values resist" has collapsed to a SINGLE open number:
+- **Scale (Lane 3): nearly derived** (6π⁵ F402 + 2C₂ F426 + per-step-α, K871).
+- **Shared per-step coupling = α = N_max + 1/(2gr): BST-sourced, not open** (Elie closed my K871 ask).
+- **Unification (Lanes 1+3 = α-ladder): banked** (Grace).
+- **Ratio (Lane 1): the ONE open number = the two-point Bergman distance μ↔e (2.666 nats) in the RIGHT coordinate.** Blocked on (a) the k↔ν dictionary [definitional], then (b) the two-point weighted-Bergman kernel distance [FK book]. Naive reading fails 91×; leans structural (F585 Tier-2 floor) unless the sourced distance gives 2.666 with no free scale.
+
+## Stopping rule (K870) — where we are
+The naive α-ladder reading FAILED (91×). Per the rule, that would tier the ratio structural — BUT Grace's coordinate catch shows the failure was an ill-posed coordinate, not a genuine negative. So: **the coordinate fix (definitional) is a legitimate unblock; after it, the two-point Bergman distance is THE last clean test.** If it sources to 2.666 with no chosen scale → the ratio derives. If it needs a chosen scale → tier structural (identified). No new formulas — this is the same off-diagonal α-ladder object, computed in the right coordinate.
+
+## Directions
+- **★ GRACE (lead):** the k↔ν dictionary — source (weighted-Bergman/FK book) which coordinate the generations live in and the k↔ν map. This is the definitional unblock; it makes the two-point distance well-posed. Elie's offered "target-innocent discriminator for k=1-vs-5/2 electron assignment" feeds this directly — take it.
+- **★ ELIE:** build the k=1-vs-5/2 discriminator (your offer) — it's exactly the coordinate-fix input. Then W4/cross-check fires on the sourced two-point distance.
+- **★ LYRA:** fold Grace's render into F676 (durable, ready) + Lane 2 (neutrino m₁=0, |U_e2|² — the same overlap machinery, per your synthesis). The mixing and the ratio are one machine once the coordinate is pinned.
+- **KEEPER:** α-ladder unification + coordinate catch RATIFIED; the unblock is definitional (not a reframe, stopping-rule-safe); structure coordinate-independent/safe; values localized to one number (the two-point distance in the right coordinate).
+
+— Keeper K872, 2026-07-24. RATIFIED: (1) α-ladder unification — inter-stratum overlap = α → Lanes 1(ratios)+3(scale) = ONE machine (Grace, BST_ElectronMass_CanonicalProof). (2) coordinate-inconsistency catch — muon e→μ = 0.542 α-steps (2.666 nats, non-integer; naive α⁻²=18,779 vs 207, 91×); electron placed inconsistently (ν=5/2 continuum vs Bergman k=1 below-threshold); positions {5/2,3/2,0} mix 3 coordinate systems (ρ-components/Wallach/Bergman-k), dictionary unpinned → failed ratios differenced incompatible coordinates. Resolution: k and ν are DIFFERENT variables, generations live in ν, k↔ν dictionary needs sourcing — a DEFINITIONAL unblock, NOT a 9th reframe (stopping-rule-safe). Structure = phase count, coordinate-independent, SAFE. Values localized to ONE number: the two-point Bergman distance μ↔e in the right coordinate. See [[Keeper_K871_CORRECTION_to_K870_Lane3_scale_is_NEARLY_DERIVED_not_the_bottleneck_F402_prefactor_F426_exponent_only_per_step_alpha_open_values_closer_than_the_muon_saga_suggested_2026-07-24]], [[Keeper_K870_META_two_day_pattern_structure_banks_values_resist_the_8_reframes_split_diagonal_vs_offdiagonal_stopping_rule_three_lane_forward_map_ratios_scale_neutrino_2026-07-24]], Grace (α-ladder + coordinate catch), BST_ElectronMass_CanonicalProof (overlap=α), Lyra F338/L4 (K-type structure).

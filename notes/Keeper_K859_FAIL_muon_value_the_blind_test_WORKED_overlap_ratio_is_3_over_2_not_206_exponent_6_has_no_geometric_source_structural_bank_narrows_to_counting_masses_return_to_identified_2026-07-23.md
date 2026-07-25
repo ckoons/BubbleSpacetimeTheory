@@ -1,0 +1,39 @@
+# K859 — FAIL (muon VALUE): the blind test WORKED. Lyra's honest computation gives the overlap ratio = Γ(5/2)/Γ(3/2) = **3/2**, not 206.77. **B3 FAILED — the exponent 6 has NO geometric source** (a residue ratio is order-1; a c-function is a product of a few Γ-factors, not a clean base^6). So "mass ratios = overlaps between filtration levels" is REFUTED as accessible, and **the muon mass is NOT derived** — (24/π²)⁶ returns to its prior status as an IDENTIFIED coincidence (T190), exactly where it was before today. **Net accounting: nothing banked was lost** (the muon was never derived); we GAINED the structural result and cleanly refuted a mechanism. The structural bank NARROWS: "exactly 3 generations + no 4th + ordering" survives (weight-arithmetic, target-innocent); "mass hierarchy = depth (quantitative)" is dropped. Deep lesson: geometry gives order-1, masses are exponential — the same wall as K663.
+
+**Keeper | 2026-07-23 | FAIL verdict. The pre-registered blind criterion did its job and killed a candidate mechanism. This is the discipline working, not failing. Plain.**
+
+## The verdict (verified)
+- **electron:** Γ_Ω(5/2) = 3√π/4 ≈ 1.329.
+- **muon residue (ν=3/2):** √π/2 ≈ 0.886.
+- **overlap ratio = Γ(5/2)/Γ(3/2) = 3/2 exactly** (trivially, Γ(z+1)=zΓ(z)). Target m_μ/m_e = **206.77**.
+- **B3 (the load-bearing blind criterion): FAILED.** The exponent n_C+1=6 — which turns the base 24/π²=2.43 into 206 — has no source in the accessible geometry. A residue ratio is order-1; a c-function is a handful of Γ-factors evaluating to a number, not a clean sixth power of a base. **The muon value is NOT derived.**
+- **B1 (object) moot, B2 (number) fails via B3.** The blind gate held: because B1-B4 were committed before the computation, nothing could be retrofitted.
+
+## The blind test WORKED — this is the system functioning
+- I pre-registered B3 (K857) precisely because the exponent is where the magnitude lives. It was committed blind. It failed. **No one could talk the muon into banking.** Lyra computed the piece she could do honestly and reported the negative rather than reconstructing the full 4-root product and tuning it to 24/π² — the exact 127/128 trap she named. That is the discipline operating end-to-end: blind criteria + honest-negative-from-the-computable-piece + no fishing.
+- **~15th refuted closure of the arc; nothing false banked.**
+
+## Net accounting — nothing banked was LOST (get this right)
+- The muon was **never derived** before today. Today's arc TRIED to derive it (overlap mechanism) and the blind test refuted the attempt. So the muon **returns to exactly its prior status**: the identified form (24/π²)⁶ = T190, identified tier. **No loss.**
+- What we **GAINED** today: (a) the structural result (why exactly 3 generations) — NEW, banks; (b) a cleanly refuted mechanism ("overlap=mass") — real learning that closes a direction. **Net-positive day**, plus the large EW bank.
+
+## The structural bank NARROWS (honest scope correction to K857)
+- **SURVIVES (banks, target-innocent):** three generations = the forced interior filtration D_IV⁵ ⊃ D_IV³ ⊃ rank-0 point; tower length rank+1=3; **no 4th generation** (falsifiable). This rests on WEIGHT-ARITHMETIC (ρ₂(parent)=ρ₁(child)) with NO mass number — untouched by the FAIL. Plus the qualitative ORDERING (heavier=deeper: the 3/2>1 gets the direction right).
+- **DROPPED (refuted):** "mass hierarchy = filtration depth" as a QUANTITATIVE claim; "mass ratios = the overlaps between levels." The overlap gives 3/2, not the mass. K857 banked this as part of the picture; it must be removed. The structural bank is the COUNTING/TOPOLOGY (which & how many generations), not the mass VALUES.
+
+## The deep lesson (why this was always the hard part)
+Geometry accessible here — positions, residues, c-function ratios — gives **order-1** numbers (3/2, 5/3, …). Lepton masses are **exponentially spread** (m_μ/m_e ≈ 207, m_τ/m_e ≈ 3477). Order-1 geometry cannot BE the mass ratio; the exponent was doing ALL the work bridging order-1 → exponential, and it has no geometric source. **This is the SAME wall as K663 (linear-Casimir-as-mass is defective):** the overlap (super-linear Γ-ratio) was meant to route around it, but it still returns order-1. The wall stands. **The lepton mass MAGNITUDES require an exponential mechanism the geometric-overlap does not supply.**
+
+## ★ Where to investigate next (Casey's "how to investigate further")
+1. **Consolidate the structural result as its own bank** — "Why exactly three generations (and no fourth) from D_IV⁵": a forced nested filtration, pure weight-arithmetic, zero free parameters, falsifiable. **This is paper-worthy on its own and does NOT need the masses.** Most theories can't say why 3; BST now can. Bank it clean, without the refuted mass claim.
+2. **Lepton mass MAGNITUDES → back to open, redirect to BST's EXPONENTIAL mechanism.** The magnitudes are exponential; BST's exponential machinery is the α-tower (e.g. m_e ~ 6π⁵ α¹² m_Planck, F66). The magnitude likely lives there — NOT in the geometric overlap (which supplies structure/ordering, not scale). Separate the two: geometry = which/how-many/order; α-tower-type exponential = scale. Investigate whether the mass RATIOS carry an α-tower exponent.
+3. **Grace's descent-map rigor lane** (D̂={5,2,0} shift by |ρ|): firms the POSITION structure, which is the part that WORKS — independent of the refuted mass-overlap. Worth doing; it hardens the Δ=D̂+d backbone under the structural result.
+4. **Do NOT** reconstruct the full 4-root Gindikin product and tune it (the 127/128 trap). The burden is reversed: exhibit the exponent's source, and the accessible computation says it isn't there.
+
+## Directions
+- **★ LYRA:** negative RATIFIED — your honest report is the right call. Lead the structural-result consolidation (why-3-generations paper), stripped of the mass claim. The mass magnitudes go to the exponential/α-tower lane, separate.
+- **★ GRACE:** your B1 sharpening stands as good discipline (unused this round, but it's the right pre-commit form). Open the descent-map rigor lane (D̂ shift by |ρ|) — firms the positions.
+- **ELIE:** your B4 tau-side confirmation (toy 4816: 49·71 product = collapse fingerprint) stands as an independent structural fact about the μ→τ STEP-TYPE — it survives (it's about the form/step, not the magnitude). Hold; the cross-check does not fire (no positive to check).
+- **CAL/KEEPER:** muon value FAIL (K859); structural bank narrowed to counting+ordering; masses return to identified (T190); EW area untouched. Net-positive day.
+
+— Keeper K859, 2026-07-23. FAIL (muon value): blind test WORKED. Overlap ratio = Γ(5/2)/Γ(3/2) = 3/2, not 206.77; B3 (exponent 6) has NO geometric source; "mass=overlap" REFUTED. Muon NOT derived → returns to identified (24/π²)⁶ = T190 (no loss — never was derived). Structural bank NARROWS: 3-generations-no-4th + ordering SURVIVE (weight-arithmetic, target-innocent); quantitative "mass=depth" DROPPED. Deep lesson: geometry gives order-1, masses exponential — same wall as K663; magnitudes need the α-tower exponential, not the geometric overlap. Net-positive day: gained the structural result + refuted a mechanism; EW area stands. NEXT: consolidate why-3-generations (paper-worthy, no masses); redirect magnitudes to α-tower; Grace descent-map rigor. See [[Keeper_K857_BANK_the_structural_picture_forced_interior_filtration_three_independent_reasons_for_5_3_0_pre_register_muon_value_bank_criteria_BLIND_FK_root_data_for_Lyra_2026-07-23]], [[Keeper_K858_self_refinement_of_K857_the_nesting_identity_ALONE_predicts_5_3_1_the_tau_at_0_is_a_DATA_override_of_naive_geometry_two_forcings_not_three_stronger_target_innocence_2026-07-23]], K663 (linear-mass defective), T190 (identified (24/π²)⁶), Lyra (honest negative), Elie toy 4816 (B4 step-form), Grace (B1 sharpening).

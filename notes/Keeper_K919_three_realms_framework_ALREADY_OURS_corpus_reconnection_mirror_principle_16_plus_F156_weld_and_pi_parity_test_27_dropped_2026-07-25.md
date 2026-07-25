@@ -1,0 +1,37 @@
+# K919 — THREE REALMS FRAMEWORK: corpus reconnection says it's ALREADY OURS. A Casey↔Keeper chat rediscovered, from first principles ("what does each realm provide a particle?"), a framework the team already built and named — **Casey Principle #16 (the D_IV⁵ Mirror Principle)** + **Lyra F156 (Casey principle cand. #12)**, with the Plancherel grounding a **banked exact theorem (T2490)**, charge=S¹ and parity=Z₂ already **proved/worked (T2470 / K527+K836)**, the particle-as-indexed-object already the **K-type address (a,b,c)** and the **Casey 3-tensor (K297/K298)**, and the π-parity residue idea already **F156** with worked examples and an honest negative. The lane is therefore WELD + TEST, not discover. The one genuinely-new idea in the chat — a **27=3³ cube** organizing the ~26 SM parameters — is both DROPPED by Casey ("we don't need 27") and explicitly DISCLAIMED in the corpus. This note is a MAP to the existing objects + the two real deltas; NOT a new derivation.
+
+**Keeper | 2026-07-25 Sat | Corpus-reconnection discipline (Casey standing feedback, verified 3× in one day) caught this before I wrote the framework up as fresh. That is the note's headline: the discipline worked.**
+
+## Why this note exists (the honest frame)
+Casey and I spent a chat developing a "three realms" organizing principle for the SM: discrete-interior (integers/counts, "what is it") ‖ transcendental-boundary (π/√π overlaps, "how much") ‖ continuous-external (scales/running, "how big"); a particle read once per realm; each observable a contraction against a realm operator; "where the observer views" = which contraction. It is genuinely clarifying and Casey wants it as a teaching + first-principled spine. **Before writing it as new, I ran a corpus sweep. It is not new.** Reaching it independently is a real corroboration — the Mirror Principle is intuitive enough to fall out twice — but the WORK is small, bounded, and mostly done. Recording the map so the team welds/tests instead of re-deriving named principles.
+
+## The map — every "realization" from the chat, with its real corpus home
+| Chat idea | Already exists as | Tier |
+|---|---|---|
+| Three realms (interior/boundary/external) | **Casey Principle #16 "D_IV⁵ Mirror Principle"** (v0.4→STANDING): interior/discrete-K→SM (π-free) ‖ external/continuous-G→gravity (π-ful) ‖ Shilov=mirror interface; v0.3 4th tier = Planck/radial-dilation scale anchor = the "external" realm. 2nd formalization **Lyra F156 (#12)**. | Named principle, advancing |
+| "Three realms = Plancherel pieces" | **T2490** — the four primaries {N_c,n_C,C_2,g}={3,5,6,7} = half-Casimirs of the four lowest holomorphic discrete-series reps of SO₀(5,2) | Banked exact theorem (D-tier) |
+| π-parity: √π (boundary) vs π^integer (bulk) | **Lyra F156** — root-of-π fixed by boundary-stratum dim via vol(Sⁿ)=2π^{(n+1)/2}/Γ((n+1)/2); worked gradient (interior→π⁰; tau vertex→√π; muon Shilov S⁴→π²⟹(24/π²)⁶); honest-negative **F119** (tau √π does NOT derive) | Principle candidate #12, worked examples |
+| Charge = S¹ winding (boundary≠free) | **T2470** (charge = SO(2)-weight operator, quantized 1/N_c); electron = min S¹ winding k=1 | PROVED |
+| Parity = the Z₂ quotient of (S¹×S⁴)/Z₂ | **K527** (Z₂ ⟹ only even SO(2)-charges on H²; geometric quotient IS the K-type selection rule) + **K836** (parity bit = Pin⁻ mod-2 index, 𝒫=ω₇, 𝒫²=−1) | Worked; Cal tiers "mechanism realized, coset-evasion unproven" |
+| Information = μ's Shannon content | Born=Bergman measure μ (T2401/T754); entropy of μ on the boundary | Measure banked; entropy reading structural |
+| Particle = indexed object / rank-3 tensor | **K-type address (a,b,c)** (SO(5) rows a,b + SO(2) charge c); **"Casey 3-tensor" K297/K298** = 3×3 flavor mass matrix = Bergman kernel K(ν_i,ν_j) at three ρ-points; **Ribbon-Holonomy** 6 quantum numbers = 6 features of one framed ribbon | Address banked; 3-tensor decoded |
+| Shilov = (S¹×S⁴)/Z₂ "Lie sphere" | **BST_TOP1**, **Dictionary_L2**; Z₂ acts antipodally on both factors (BST_RealityBudget) | Standard, pervasive |
+| Condensate on S⁴ = finite-parameter | **K886/F582/F686/F682** — SO(4)-zonal ⟹ function of ONE variable θ (latitude); rank-3 needs a latitude S³; derive-vs-fit = is θ forced by CW SO(5)→SO(4) misalignment (**K894**). Standing: do NOT fit θ to 207 | Banked; θ-forcing open |
+| Color = interior line | **F693 / K909** — colored→zero Shilov overlap (Schur)→interior; L1–L3 airtight. Riders open: a=N_c identification-tier; Conjecture C (bucket-1 membership) separate | Forced theorem (line); riders open |
+| **27 = 3³ cube over the ~26 SM params** | **DOES NOT EXIST** — corpus tracks 26; BST_Conservation_Laws_Standalone explicitly "does not claim 27 as structural." Casey dropped it independently. | The one new idea — correctly killed |
+
+## The two REAL deltas (the whole lane)
+1. **WELD (Lyra):** one explicit three-realms table for the flagship unifying Principle #16 + F156 — [realm → locus → number-type → question → SM content], + the rule-of-thumb ("count it inside, weigh it on the edge, size it outside") + an observable→contraction column. If #16 already contains the tripartite table, just ADD the rule-of-thumb + contraction column; no new artifact.
+2. **TEST (Grace):** run F156's π-parity SYSTEMATICALLY across the finalized two-axis SM table (F156 has examples, not a sweep). Tag each closed form's π-parity vs its assigned realm; **report mismatches** (a pinned row at bare √π, or a free row at π^even = a flag). Promotes F156 candidate→checked, or finds the break.
+
+## Keeper brakes (stand)
+- **27=3³ dropped + corpus-disclaimed.** Rank-3 is in INDEX-TYPE (a,b,c), not a 27-component cube. No parameter-count coincidence.
+- **boundary ≠ free** (charge=S¹ discrete/pinned; the boundary splits S¹-discrete / S⁴-continuous). **parity=Z₂, information=μ** — both boundary; ground, don't import.
+- Most rows are PRODUCTS across realms (mass = boundary-overlap × external-scale). "Which realms and how they multiply," not one bin.
+- **Families ↔ interior discrete-series ladder is the HYPOTHESIS**; leptons proven structural, full generation-from-geometry is the row-by-row horizon.
+- The framework GROUNDS the partition (why each bucket is what it is); it does NOT move the buckets or restate the SM as "derived." Genus/species holds.
+
+## Status
+The framework is a deliberate, non-urgent consolidation of material the team already owns — mostly banked, one exact theorem, two principle candidates. The lane is two bounded tasks (weld + π-parity sweep), not a discovery push. The next EXTERNAL gate is unchanged: Cal's cold-read of the partition theorem. Back to the waves (row-by-row species promotions, low priority; down-quark parked).
+
+— Keeper K919, 2026-07-25. THREE REALMS framework = ALREADY OURS (corpus reconnection): Casey Principle #16 (Mirror) + Lyra F156 (#12); Plancherel banked (T2490); charge=S¹ (T2470); parity=Z₂ (K527/K836); particle-as-index = (a,b,c) address + Casey 3-tensor (K297/K298); condensate=one param θ (K886/K894); color line F693/K909. π-parity = F156 (worked, honest-neg F119). 27=3³ DROPPED (Casey) + corpus-disclaimed. LANE = WELD (Lyra: one flagship three-realms spine) + TEST (Grace: F156 π-parity sweep of the SM table), NOT re-derive. Corpus-reconnection discipline caught it before it was written as new. See [[Keeper_K918_EXHAUSTIVENESS_AUDIT_capstone_PASS]], [[feedback_corpus_reconnection_before_declaring_irreducible]], [[Casey_Principle_16_Mirror]], [[Lyra_F156]].
