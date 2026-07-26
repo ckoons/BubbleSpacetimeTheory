@@ -1,0 +1,27 @@
+# K935 — CATCH (flagship, timely — Cal is re-reading now): **line 114's "Qualitative QCD dynamics — DERIVED (K755)" OVER-CLAIMS.** The reasoning it gives for "the AF direction is derived" — β₀ = 11N_c − 2N_f = 21 > 0 from N_c=3, N_f=6 content — is the **IMPORT** (BST's integers plugged into the STANDARD β-function formula; the 11 and 2 are standard QFT, not BST-derived). Today's entire strong-sector discipline (K927 charter → K934) established that this is an **IDENTIFICATION, not a derivation.** The genuine geometric derivation of the sign (short roots → non-abelian SU(3) → E=−2F antiscreening, Elie today) is **CONDITIONAL PASS (K934)** — real but not yet full (needs the one-domain recast). So the flagship's flat "DERIVED" is ahead of what's honestly banked. **Fix queued for Lyra; flagged to Cal so his re-read factors it in. Do NOT edit mid-re-read (collision/PDF-restale risk) — Lyra applies after Cal's pass.**
+
+**Keeper | 2026-07-26 Sun | Today's sharper import-vs-derive discipline exposed a stale over-claim in the flagship (line 114, citing the older K755). Caught while Cal re-reads — flag the referee, queue the author, don't edit under him.**
+
+## The over-claim (verbatim, line 114)
+> **Qualitative QCD dynamics — DERIVED (K755):** the sign of the QCD β-function follows from the content — **β₀ = 11 N_c − 2 N_f = 21 > 0** (N_c = 3, N_f = 6 = 3 generations × 2) ⇒ **asymptotically free in the UV, confining in the IR** … The *running value* α_s(scale) is a runner; the *direction* is derived.
+
+## Why it over-reads (today's discipline)
+- "The sign follows from the content" = BST supplies N_c=3, N_f=6 → plug into the STANDARD formula 11N_c−2N_f → sign>0. **The 11 and 2 are standard-QFT loop coefficients, NOT BST-derived.** This is precisely the "asymptotic freedom using standard coefficients ≠ asymptotic freedom derived" line drawn in K927/K929/Grace's book-source. Labeling it flatly "DERIVED" is the exact conflation the session's FF-20/import-vs-derive discipline exists to prevent.
+- The **genuine** geometric derivation of the sign landed TODAY (Elie, K934): short-root count → non-abelian SU(3) (T666) → the gluon's E=−2F paramagnetic antiscreening. That is target-innocent and matched two blind bars — but it is **CONDITIONAL PASS**, pending the one-domain recast (K933). So even the honest "derived" is not yet full.
+- Net: line 114 asserts as banked ("DERIVED") what is (a) an identification via the imported formula, plus (b) a conditional-pass geometric result. Over-claim.
+
+## The FIX (queued for Lyra — precise wording)
+Replace "**Qualitative QCD dynamics — DERIVED (K755)**" with the honest two-part tier:
+> **Qualitative QCD dynamics — the AF direction.** Given the *standard* β-function structure, BST's content (N_c=3, N_f=6=3 gen×2) fixes the sign: β₀ = 11N_c − 2N_f > 0 ⇒ asymptotically free in the UV, confining in the IR — consistent with Schur-confinement (§3). **This is identification-level** (the 11/3, 2/3 loop coefficients are standard, not BST-derived). **A target-innocent geometric derivation of the sign** — the geometry forcing non-abelian SU(3) (short roots, T666), whose gluon color-magnetic moment (E=−2F) antiscreens — **is emerging (K934, conditional on a one-domain recast).** The running *value* α_s(scale) is a runner.
+This is STRONGER, not weaker: it cites the new geometric result as the path to a real derivation while being honest that the content-plug is an identification.
+
+## Also (minor, same fix pass)
+- Line 114 writes β₀ = 21 (un-normalized 11N_c−2N_f); today's work used the /3-normalized β₀ = 7 = g (and flagged 7=g as an identification-coincidence, not a target). Convention is fine; just don't let "21" or "7=g" read as a BST derivation of the coefficient.
+- Confirm line 117 ("the running direction α_s asymptotically free, §9") is consistent with the softened 114 — it's fine ("direction" from content), but keep the identification/derivation tiering aligned.
+
+## Disposition
+- **Cal:** factor this into the re-read — line 114 is a known Keeper-caught over-claim; the corrected wording is above. (Your re-read need not block on it; the fix is queued.)
+- **Lyra:** apply the fix after Cal's pass (avoid editing under his re-read); rebuild PDF.
+- **No partition-theorem impact** — this is the strong-sector qualitative-dynamics line (§Frontier/§9-adjacent), not the capstone. But it IS in the flagship headed for external, so it must be honest before it goes.
+
+— Keeper K935, 2026-07-26. CATCH: flagship line 114 "Qualitative QCD dynamics — DERIVED (K755)" over-claims — the β₀=11N_c−2N_f=21>0-from-content reasoning is the IMPORT (standard formula at BST content; 11,2 not BST-derived) = an IDENTIFICATION per today's discipline (K927/K929/Grace). The genuine geometric sign-derivation (Elie K934: short roots→non-abelian SU(3)→E=−2F antiscreening) is CONDITIONAL PASS, not full. Fix queued (Lyra): soften to "identification-level from content + target-innocent geometric derivation emerging (K934, conditional)" — stronger and honest. Flagged to Cal (re-reading now); Lyra applies after his pass (no mid-re-read edit). No partition-theorem impact but it's flagship→external, must be honest. See [[Keeper_K934_AUDIT_elie_a2_AF_sign_CONDITIONAL_PASS]], [[Keeper_K927_STRONG_SECTOR_DYNAMICS_area_charter]], [[feedback_qft_textbook_framing]].

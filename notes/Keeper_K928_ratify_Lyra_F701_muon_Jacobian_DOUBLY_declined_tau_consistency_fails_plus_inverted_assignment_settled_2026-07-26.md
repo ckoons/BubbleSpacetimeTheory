@@ -1,0 +1,16 @@
+# K928 — RATIFY Lyra F701: the muon-Jacobian reading is **DOUBLY declined and SETTLED.** Two INDEPENDENT refutations now land on the same verdict: (1) K925 — the assignment is INVERTED vs the banked ρ-ladder + K853 already ruled the nested tower not-a-consistent-geometry; (2) **F701 (Lyra, ratified here) — τ-CONSISTENCY FAILS:** the uniform Jacobian rule predicts m_τ/m_e = (24/π²)¹⁰ ≈ 7230 (carrying π), but the measured ratio is 49·71 = 3479 — a clean π-FREE integer. Off by ~2× AND wrong π-parity. So the Jacobian is a *descriptor of the muon's one number*, not a law of the generations. **NOTE (correcting a stale endorsement): Elie's "soften to a live Jacobian route with two gates" is SUPERSEDED — the route is declined, not live.** Muon value stays IDENTIFIED-COINCIDENCE, bucket-2, count 2. Theorem untouched (color is the support line; the muon value was never load-bearing).
+
+**Keeper | 2026-07-26 Sun | Two independent kills, one verdict. Lyra's τ-test is the cleaner public refutation (a falsifiable prediction that fails on the next generation); K925's inverted-assignment + prior-ruling is the structural one. Both stand.**
+
+## Why F701's τ-test is decisive (and complements K925)
+- The Jacobian reading, taken as a **law of the generations** (uniform "one (24/π²) per real dimension"), must apply up the tower. Run it to the tau: D_IV¹↪D_IV⁵, real dim 10 → predicts m_τ/m_e = (24/π²)¹⁰ ≈ 7230, π-carrying.
+- Observed m_τ/m_e = 49·71 = 3479 — π-FREE integer. **Wrong by ~2× and wrong π-parity.** The rule that "explains" the muon breaks on the tau.
+- So (24/π²)⁶ is a pretty description of the muon's single number, not a mechanism. Saving it would require a **non-uniform** generation→domain assignment — a fit unless independently forced (and K925 shows the natural assignment is inverted + already-refuted).
+- **Complementarity:** K925 killed the Jacobian on the STRUCTURE (inverted assignment, K853 prior ruling); F701 kills it on PREDICTION (τ fails). A reading refuted on both structure and prediction is settled.
+
+## Settled disposition
+- **Muon value = IDENTIFIED-COINCIDENCE** (number survives as exact arithmetic; not forced). Bucket-2, support-free proven, count 2. Flagship §9⅞.5 already states exactly this — nothing moves; F701/K925/K928 prevent a soft-promotion.
+- **Do NOT reopen the nested-tower / Jacobian reading.** Two independent refutations + a prior K853 ruling. Any future muon-value attempt uses the FK 3×3 on the SINGLE domain (K879/K924) — not the tower.
+- Muon area **parked** (K926); this note closes the Jacobian sub-thread cleanly.
+
+— Keeper K928, 2026-07-26. Ratify Lyra F701: muon-Jacobian DOUBLY declined + settled. K925 (inverted assignment + K853 prior ruling) + F701 (τ-consistency fails: uniform rule predicts m_τ/m_e=(24/π²)¹⁰≈7230 π-carrying, observed 49·71=3479 π-free, wrong by 2× + wrong parity). Elie's "live route" softening SUPERSEDED. Muon = identified-coincidence, bucket-2, count 2, theorem untouched. Future attempts use FK 3×3 single-domain (K924), not the tower. See [[Keeper_K925_JACOBIAN_READING_audit]], [[Keeper_K926_MUON_settled_state_NOTED_and_PARKED]], [[Lyra_F701]].

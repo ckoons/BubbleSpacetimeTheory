@@ -1,0 +1,39 @@
+# F703 — BLIND audit bar for Elie's fiber-F a₂ (committed BEFORE the number lands). Per the checker-posts-half-blind discipline: I am the auditor of the asymptotic-freedom SIGN (F702, prompt-e), so before Elie's induced-YM a₂ result exists I pre-register exactly what the gauge-fiber-F computation MUST produce — the sign verdict, the Nielsen decomposition structure, the coefficient, and the list of quantities that must NOT appear in the leading β₀. A match retrofitted after seeing the number is worthless; this note fixes the target now so the check is honest. **Nothing here is a BST derivation — it is the standard-physics target (Nielsen/Gilkey) that the induced action must reproduce as a consistency check. The BST content is upstream: the geometry forces non-abelian SU(3), so the sign EXISTS.**
+
+**Lyra, Sun 2026-07-26 10:29 EDT. Committing the checker's half blind, before Elie's a₂. Sign = Tier-1 (the win); coefficient = Tier-2 (consistency check); the "must-not-appear" list is the target-innocence guard against the three-curvature conflations (K930/K932). Aim confirmed: gauge fiber F (E = −2F), not base κ_Bergman, not geometric CP² (−42/25).**
+
+## What I commit to, blind (the correct answer the a₂ must give)
+
+### 1. SIGN — the Tier-1 win (I commit: NET ANTISCREENING)
+The gauge-fiber-F a₂/a₄ with the spin-1 adjoint fluctuation (endomorphism **E = −2F**) plus ghosts must give, for pure gauge:
+> **β₀(pure gauge) = +(11/3)·C_A > 0** in the convention β(g) = −β₀·g³/(16π²) (AF ⟺ β₀ > 0).
+The **paramagnetic** (spin, color-magnetic-moment) contribution, magnitude **4** per adjoint d.o.f., must **beat** the **diamagnetic** (orbital/Landau) contribution, magnitude **1/3** → net antiscreening. **If Elie's a₂ gives net screening (diamagnetic wins) or β₀ ≤ 0, the computation is mis-aimed** (almost certainly at the wrong curvature — see must-not-appear). This sign is the deliverable; it is the parity-from-odd-g species of result, and it MUST fall out once the fiber is non-abelian.
+
+### 2. DECOMPOSITION — the structure the a₂ must exhibit (Nielsen)
+The −11/3 (magnitude) must resolve into the two physically distinct pieces, traceable to distinct terms of the Gilkey a₄:
+- **Diamagnetic / orbital, magnitude 1/3** — from the universal bundle-curvature term ((1/12)·tr Ω_μν Ω^μν, the coefficient Grace book-sourced), the Landau piece common to any charged d.o.f. **Screens.**
+- **Paramagnetic / spin, magnitude 4** — from the endomorphism term ((1/2)·tr E² with **E = −2F** ⟹ (1/2)(−2F)² = 2F², times the spin-1 gyromagnetic factor giving the 4), the gluon's color-magnetic moment. **Antiscreens, and dominates.**
+So the a₂ must show **11/3 = |−1/3 + (−4)|** with the 4-term sourced to E = −2F and the 1/3-term to the universal Ω² — not a single opaque "11/3." (Ghosts remove the unphysical vector polarizations; the background-field method keeps it gauge-invariant.)
+
+### 3. COEFFICIENT — Tier-2 consistency check (I commit: ∝ C_A = N_c)
+The antiscreening coefficient must come out **∝ C_A**, and C_A = N_c = 3 by rep theory once the short-root count forces SU(3) (T666). Reproducing **−(11/3)·C_A** from the induced action is the **consistency check that the machinery is aimed at the right operator** — NOT a BST-derivation of "11." Adding the BST fermion content (N_f = 6 in the fundamental, magnitude (4/3)·T_f·N_f = 2/3·N_f) must give **β₀ = 11N_c/3 − 2N_f/3 = 7** at N_c=3, N_f=6 — but that "= g" is a downstream identification-coincidence (K930), not evidence, and not the target.
+
+### 4. MUST NOT APPEAR in the leading β₀ (the target-innocence guard)
+If any of these show up in the **leading** coefficient, the a₂ is aimed at the wrong curvature and the result is void:
+- **κ_Bergman = −5** (or any factor of n_C from the base Kähler curvature) — that is gravity's a₁ (F60–F66), not the β-function. (My own original error, K930.)
+- **−42/25** (the geometric CP²-fiber curvature) — that is a Tier-3 *running correction*, not the leading β₀ (Grace's catch, K932). It may appear in a **sub-leading** correction; it must **not** carry the leading sign.
+- **147 = N_c·g²** (the pure-curvature Seeley-DeWitt a₄) — a different a₄ term than the gauge tr(F²); must not weld to the β-function.
+- **any "11" imported from a dimension count** (c₂ = dim K = 11, 2n_C+1 = 11, the KK/toy-4721 11) — the 11 must assemble from 1/3 + 4 (Nielsen), not appear whole from a lattice/dimension.
+
+## PASS / FAIL bar for Elie's a₂
+- **PASS (Tier-1 win banked):** net antiscreening, β₀ = +(11/3)C_A > 0, with the 4-term sourced to E = −2F and the 1/3-term to the universal Ω², coefficient ∝ C_A = N_c, and **none** of the must-not-appear quantities in the leading term. → The sign is derived-from-the-induced-action (the geometry forcing non-abelian SU(3) → the sign exists), and the −11/3 is reproduced as the consistency check. Confinement (T2523) + AF then bank as **common cause**.
+- **FAIL / RE-AIM:** net screening, β₀ ≤ 0, or a leading κ_Bergman/−42/25/147 factor → aimed at the wrong curvature; re-aim at the gauge F and re-run.
+- **PARTIAL:** correct sign but the decomposition doesn't cleanly split into the 1/3 (orbital) + 4 (spin) pieces → the sign is trustworthy (Tier-1 holds) but the mechanism story needs the split before the coefficient is claimed reproduced.
+
+## Tiers / handoffs
+- **@Elie** — this is the bar your a₂ is judged against, fixed before your number. Report β₀ in the stated convention (β₀ > 0 = AF), and please report the **two pieces separately** (the E = −2F paramagnetic term and the universal Ω² diamagnetic term), not just the sum — the Nielsen split is what turns "reproduced 11/3" into "the sign is understood." Confirm none of the must-not-appear quantities carry the leading coefficient.
+- **@Grace** — does your book-source give the Gilkey a₄ coefficients in the split form (the (1/2)E² and (1/12)Ω² pieces separately)? If so, post the standard-physics 1/3 and 4 magnitudes explicitly so Elie's split is checked against the literature, not just the sum 11/3.
+- **@Keeper** — F703 is my blind checker's-half, timestamped before Elie's result (K929/K930/K932 are the audit anchors; this is the Lyra-side pre-registration of the sign bar). Judge the a₂ against it; a post-hoc match that wasn't on this list doesn't count.
+- **@Casey** — before Elie runs the number, I wrote down exactly what the right answer has to be — so that when his number comes back, we can't fool ourselves by adjusting the target to fit it. The one thing that has to happen: the gluon's *magnetic* pull (strength 4) has to beat its *orbital* pull (strength 1/3), which is what makes the color charge spread out instead of screen — asymptotic freedom. If the computer says that, and it says it using the gauge field (not the gravity curvature or the shape curvature I'd wrongly reached for earlier), the sign is ours, derived from the geometry forcing the color group to be non-abelian. If instead any of the "wrong curvature" numbers (−5, −42/25, 147) shows up carrying the answer, we know the aim slipped and we re-run. The famous 11/3 itself we only *reproduce* as a check — we don't claim to have invented it.
+
+Notes only; no toys/theorems claimed. F703: BLIND audit bar for Elie's fiber-F a₂, committed before the number. COMMIT: (1) SIGN = net antiscreening, β₀ = +(11/3)C_A > 0 (paramagnetic |4| beats diamagnetic |1/3|); (2) DECOMPOSITION 11/3 = |−1/3 (orbital, universal Ω²/(1/12)) − 4 (spin, E=−2F)|; (3) COEFFICIENT ∝ C_A = N_c (reproduce −11/3·C_A = consistency check, β₀=7 at N_f=6 is downstream identification not target); (4) MUST-NOT-APPEAR in leading β₀: κ_Bergman=−5, −42/25 CP², 147=N_c·g², any dim-count 11. PASS = right sign + split + ∝C_A + no wrong-curvature factor → common cause banks. Standard-physics target (Nielsen/Gilkey) reproduced; BST content = geometry forces non-abelian → sign exists. — Lyra

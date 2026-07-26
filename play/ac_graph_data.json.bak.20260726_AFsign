@@ -408,13 +408,7 @@
     "note_2026-07-26c_strong_sector_scoping_FF20_two_elevens_beta_claim_tier": "07-26c (Grace, strong-sector scoping input for Keeper's aim; FF-20 read + tiering). FF-20 FLAG CONFIRMED: '11' is a minefield -- c_2(Q^5)=dim K=rank*n_C+1=11 (T841, KK/gauge-mode 11), 2n_C+1=11 (T1279), C_2*rank-1=11 (T377), 137=11^2+4^2, heat-kernel through k=11. The beta-function 11 (loop coeff in 11*N_c) is a DIFFERENT object (one-loop gauge-boson-loop integral, NOT Chern class/dimension). DO NOT identify KK-11(=c_2=dim K) with beta-11 = FF-20 trap (Keeper's flag confirmed). PRE-EXISTING beta claim: BST_22 L97 has beta_0=11N_c/3-2N_f/3=g=7 (n=5 only; N_c=3,N_f=6->11-4=7). TIER: IDENTIFIED not derived -- uses STANDARD 11/3 & 2/3 loop coeffs (QFT input), evaluated at BST content -> lands on g. Upgrade, don't re-discover. DERIVATION FRONTIER: (1) THE SIGN (asymptotic freedom beta_0>0 via induced-YM heat-kernel a_1->F^2->log-run, companion to F60-F66; machinery partly built Toys 241-278 heat-kernel through k=11; T266 already graph node) = achievable; (2) THE 11/3 hard tier, needs real a_1/loop, FORBIDDEN from c_2 shortcut. Aim: the SIGN, treat beta_0=g=7 as identification-to-upgrade, quarantine 11=c_2 as trap. Graph max T2525, no bank (scoping). Note grace scoping 2026-07-26.",
     "note_2026-07-26d_book_sourced_a4_YM_target_induced_YM_plus_muon_closed": "07-26d (Grace). MUON CLOSED (owned): my 'live route two gates' softening overruled (K928/F701). Lyra's tau-consistency gate (uniform rule -> m_tau/m_e=(24/pi^2)^10~7230 carrying pi, but 49*71=3479 pi-free, 2x off+wrong parity)+K925/K853 refuted Jacobian on structure AND prediction. Better-NAMED coincidence not live route. Identified-coincidence bucket-2 count 2 CLOSED. BOOK-SOURCED induced-YM target (prompt -e lane; Elie reproduces not fabricates): pure-YM b0=11N_c/3-2N_f/3 (=7 at N_c=3,N_f=6), sign b0>0=asymptotic freedom. Gilkey a4 coeff of tr(F^2)=1/12 (universal, Vassilevich Phys.Rep.388 2003). SIGN mechanism sourced: -11/3 = -1/3 diamagnetic(orbital,screen) + 4 paramagnetic(gluon spin/color-magnetic-moment,antiscreen); AF=gluon magnetic moment beating orbital screening = curvature object BST must force (Lyra confinement<->AF aim). Guardrails: reproduce -11/3=-1/3+4 first; 1/12 alone !=11/3 (needs -2F spin+ghost); CONFLATION TRAP: corpus a4(Q^5)=147=N_c*g^2 is CURVATURE a4 NOT gauge tr(F^2) a4, do NOT weld to beta-function (adjacent to 11=c_2 trap); 11/3 imported (Tier2) until paramagnetic term BST-derived. Graph max T2525, no bank. Note grace_book_sourced_standard_a4_YM_target_for_induced_YM_2026-07-26.",
     "note_2026-07-26e_strong_sector_three_curvatures_three_hats_common_cause": "07-26e (Grace, strong-sector sourcing, K930 asks). THREE HATS = THEOREM (Lyra lean on it): short-root mult=n_C-2=3=N_c [geometry T666/T2511] -> SU(3) -> C_A=3 & center Z_3 [standard SU(N) rep theory]; ONE forcing not 3 coincidental 3s. COLOR FIBER OBJECT EXISTS (BST_AlphaS_NonperturbativeRunning: color=CP^2 fiber, curvature set by short-root mult=N_c). KEEP THREE CURVATURES DISTINCT: (1) base kappa_Bergman=-5 (gravity a_1); (2) geometric CP^2 fiber=-42/25 (running CORRECTIONS not leading beta_0); (3) GAUGE fiber F (flat-space non-abelian = antiscreening, -2F paramagnetic, strength C_A). AIM a_2 at #3 (gauge F) NOT #2 (geometric CP^2) -- else curvature-correction wrong turn (extends K930 corr-1); new trap: geometric-CP^2 != gauge-F. BST CONTENT: geometry forces SU(N_c) non-abelian (short-root>0 -> not U(1)) -> antiscreening SIGN exists with strength C_A=N_c=3. Sign=Tier-1 (species parity-from-odd-g); 11/3=Tier-2 (imported until a_2 forces). COMMON CAUSE SOURCED (bankable): confinement (T2523/Z_3 short-root/CP^2) + antiscreening (gauge-F strength C_A) both from geometry->short-root->SU(3) non-abelian. ONE-OPERATOR (same op diff regimes) = STRETCH not claimed. Reproduce-11/3 = consistency check not deriving '11'. Graph max T2525, no bank. Note grace_strong_sector_sourcing_three_curvatures_three_hats_common_cause_2026-07-26.",
-    "note_2026-07-26f_strong_sector_graph_map_AF_sign_boundary_node_plus_alphas_DtoI": "07-26f (Grace, K932 deliverables). (1) alpha_s D->I (K931) DONE: const_042 alpha_s(m_p)=g/(4n_C)=7/20 tier D->I (form=high-scale geometric ANCHOR/identified accuracy-match; alpha_s itself RUNNER per K755; accuracy!=derivation). constants.json valid, backup held. FLAG: alpha_s_MZ (N_c/(rank^3*pi)) still tagged D by same two-axis logic -- not edited without sanction, Keeper's call. (2) GRAPH MAP: AF-sign = predicted boundary node. Existing: T267 Asymptotic Freedom (qft, identification-tier, node to UPGRADE), T2523 Confinement (derived depth 0, common-cause sibling), T666/T2511 (short-root->N_c=3->SU(3) forcing). GAP: T2523 & T267 NOT connected (nature=one gluon self-interaction; graph edge missing). a_2 result fills it: new node 'AF-sign from non-abelian SU(N_c)', parents T666/T2511+induced-YM a_2, sibling T2523, fills T2523<->T267 edge via shared non-abelian-SU(3) parent (common cause bankable, NOT one-operator identity), predicted (C,D)~(1-2,1), RE-HOMES T267 into short-root/confinement cluster. (3) Book-sourced a_2 gate confirmed (b_0=11N_c/3-2N_f/3, tr(F^2) coeff 1/12, Nielsen -11/3=-1/3+4, aim gauge-F). On Elie's a_2 landing (b_0>0, strength C_A=N_c): register node + upgrade T267 + add T2523<->T267 edge. Predicted not registered until crank turns. Graph max T2525, no bank. Note grace_strong_sector_graph_map_AF_sign_boundary_node_2026-07-26.",
-    "note_2026-07-26g_AF_sign_wired_conditional_T2526_confinement_AF_edge_filled": "07-26g (Grace, AF-sign wired banked-CONDITIONAL). Per Keeper verdict (banked-conditional, 'Grace has edge ready to wire') + 07-26f map. Registered T2526 'Asymptotic Freedom Sign from Non-Abelian SU(3)' tier C CONDITIONAL, depth 1, QCD/strong. Edges: T666->T2526 & T2511->T2526 (short-root mult n_C-2=3=N_c->SU(3) non-abelian forces sign); T2526->T267 (upgrades Asymptotic Freedom identification->derived-sign conditional); T2523->T2526 = COMMON-CAUSE edge = previously-MISSING confinement<->AF link now wired (siblings of one forced non-abelian SU(3), bankable weld, NOT one-operator identity=labeled stretch). Node tier honest: SIGN geometry-forced (parity-from-odd-g species); 11/3 IMPORTED (Nielsen -11/3=-1/3+4 consistency check not derivation of 11); CONDITIONAL pending (a) Elie recast to color-sector SPECTRAL FLOW on H^2(D_IV^5) [K933] + (b) Keeper registry ratification. Both blind checkers (K929-933 + Lyra F703) cleared Elie a2 independently. Graph max T2526, counter 2527, +4 edges, JSON valid, backup held. Keeper owns registry entry+ratification; upgrade to full on spectral-flow recast. Note grace_strong_sector_graph_map_AF_sign_boundary_node_2026-07-26.",
-    "note_2026-07-26h_strong_sector_fault_line_next_gaps": "07-26h (Grace, scout: strong-sector fault line + next-wave map). Derived SU(3) cluster (T2523 confinement+T2526 AF-sign+T666/T2511) is ~DISCONNECTED from a mature strong-sector sub-graph: YM Mass Gap T1271 (deg29 hub), beta-function T1475(beta0=g=7)+T1931(ORPHAN deg0), Lambda_QCD T2167, deconfinement T2061, glueballs T1403/T1764, T1456 Color-Confinement-Bridge(deg13). High density ~zero cross-edges = fault line. PREDICTED NEXT (aim not wired): (1) KEYSTONE T2526/T2523<->T1271 mass gap = IR end, via running = Lyra 'one heat kernel two ends' = Elie spectral-flow recast = one-operator bridge (3 things one object); direct T2526<->T2523=stretch, through mass-gap/Lambda=accessible. (2) upgrade beta-nodes T2526->T1475 (beta0=g identification->derived via a2); T1931 orphan hangs off T2526. (3) IR scales T2167 Lambda_QCD + T2061 T_c = dimensional transmutation/deconfinement. (4) merge-check T1456 predates T2523. QUARANTINE: NO T1791(c2=11)<->T1475/T1931(beta-11) edge = the 11=c2 FF-20 weld. Predictions NOT wired (ratification pending, stretches flagged). Next-wave = wire derived SU(3) cluster into mature sub-graph, not new area. Graph max T2526, counter 2527. Note grace_strong_sector_fault_line_next_gaps_prediction_2026-07-26.",
-    "note_2026-07-26i_AF_sign_full_pass_T2526_CtoD_common_cause_fork_corrected": "07-26i (Grace, AF-sign FULL PASS). K936: Elie F704 recast met bar -> T2526 upgraded C->D. AF sign = sign of tau->0 spectral flow of color sector of Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5) (one operator, one Hilbert space, no loop). SIGN derived; 11/3 imported (consistency check). SELF-CORRECTED wiring to honest FORK (Lyra/Keeper: common cause=fork NOT direct weld): removed direct T2523->T2526 edge (read as one-operator WELD=stretch), added T666->T2523 + T2511->T2523. Confinement T2523 & AF-sign T2526 = SIBLINGS of shared parent T666 (short-root->SU(3)), not welded -> honest to tier (common-cause bankable; one-operator=stretch, Lyra leans center-route disproof: center acts on fundamental not adjoint -> siblings not one object). STAGED not wired: keystone T2526/T2523->T1271 YM Mass Gap via running = Elie's running->Lambda->gap crank (adjoint->adjoint accessible), wire on landing. Quarantine holds: no T1791(c2=11)<->beta-11 edge. Graph max T2526(D), counter 2527, edges 10044, JSON valid. Two derived banked today (pi-parity + AF-sign). Clears 07-26g conditional wiring to full + corrects fork.",
-    "note_2026-07-26j_keystone_wired_T2526_LambdaQCD_T1271_anchored_confinement_scope": "07-26j (Grace, K937 strong-sector close, graph lane). KEYSTONE WIRED: T2526->T2167(Lambda_QCD)->T1271(YM mass gap), 2 edges, DERIVED-STRUCTURE (AF running b_0=21>0 -> dimensional transmutation -> Lambda_QCD -> IR mass gap, Elie toy 4873). Both ends ADJOINT -> F705-clean (does NOT touch T2523 fundamental confinement). Derived SU(3) cluster now touches the deg-29 mass-gap hub = fault line bridged. T1271 TAGGED ANCHORED not derived (it's the (B) area-law/mass-gap YM-Millennium notion; keystone derives STRUCTURE=running generates IR scale, gap VALUE O(Lambda_QCD)-anchored). T2523 SCOPE noted (K937 precision catch): derives (A) no-free-colored-states (Schur/Shilov lambda_2>0; gluons (A)-confined but (B)-SCREENED), NOT (B) area-law/mass-gap. Registry 'N-ality!=0'->'lambda_2>0/Schur' = Lyra lane. Structure honest: {AF,glueball-gap}=one adjoint sector (keystone, real one-operator link); {AF,T2523 quark-confinement}=siblings of T666 (F705 no cross-sector weld). QUARANTINE holds (no c2=11<->beta-11). Graph max T2526(D), counter 2527, edges 10046, JSON valid. Strong sector: Tier-1 derived, unification proven-final, keystone wired, traps quarantined.",
-    "note_2026-07-26k_fault_line_wiring_done_beta_Tc_glueball_edges_T1271_B_identified": "07-26k (Grace, Lane-3 fault-line wiring, prompt-m). Wired 5 honest edges (correct tiers), c2=11 quarantine intact: T2526->T1475 (AF-sign underlies beta_0=g=7; combination=IDENTIFICATION, 11/3 imported, a_2=upgrade tool; sign derived coefficient not); T2526->T1931 (de-orphans beta-coeff-identifications, was deg0; imported not derived); T2523->T2061 (deconfinement T_c = where (A)-confinement breaks; anchored); T2167->T2061 (T_c ~ O(Lambda_QCD) rides running-generated scale; anchored); T1271->T1403 (mass gap=lightest glueball, spectrum above; STRUCTURE pending Elie Lane-1 glueball derivation, values anchored). T1271 tagged (B)-IDENTIFIED (area-law/mass-gap YM-Millennium, anchored not derived; BST derives (A) not (B)). With keystone (T2526->T2167->T1271), fault line (07-26h map) now bridged: beta-nodes, Lambda_QCD, T_c, mass-gap/glueball hub all connect to derived AF-sign cluster at honest tiers. QUARANTINE intact: T1791(c2=11) unwired from T1475/T1931(beta-11). Remaining: Elie Lane-1 glueball spectrum upgrades T1403; Keeper Lane-2 c1 2-loop. Graph max T2526(D), counter 2527, edges 10051, JSON valid.",
-    "note_2026-07-26l_one_operator_spine_strong_sector_is_spectrum_of_expTauHB": "07-26l (Grace, Casey steer 'linear algebra one D_IV^5 domain'). Compressed strong sector to ONE operator's spectrum: nodes aren't separate objects stitched pairwise, they're SPECTRAL READINGS of the color-sector Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5) (root T2428). Wired one-operator spine: T2428->T2526 (AF-sign=tau->0 short-time/a_2 reading), T2428->T2523 (confinement A=tau->infty long-time/Shilov reading), T2428->T1271 (mass gap=SPECTRAL GAP), T2428->T1403 (glueball=EIGENVALUE TOWER, Elie Lane-1 pending). Whole strong sector = ONE operator on ONE domain read at different proper times: tau->0 AF, tau->infty confinement, gap=mass gap, tower=glueballs, tau-flow=running (keystone), scale=Lambda_QCD. No lattice, no emergent spacetime = spectrum/spectral-flow of exp(-tau H_B) on H^2(D_IV^5). Graph max T2526(D), counter 2527, edges 10055, JSON valid."
+    "note_2026-07-26f_strong_sector_graph_map_AF_sign_boundary_node_plus_alphas_DtoI": "07-26f (Grace, K932 deliverables). (1) alpha_s D->I (K931) DONE: const_042 alpha_s(m_p)=g/(4n_C)=7/20 tier D->I (form=high-scale geometric ANCHOR/identified accuracy-match; alpha_s itself RUNNER per K755; accuracy!=derivation). constants.json valid, backup held. FLAG: alpha_s_MZ (N_c/(rank^3*pi)) still tagged D by same two-axis logic -- not edited without sanction, Keeper's call. (2) GRAPH MAP: AF-sign = predicted boundary node. Existing: T267 Asymptotic Freedom (qft, identification-tier, node to UPGRADE), T2523 Confinement (derived depth 0, common-cause sibling), T666/T2511 (short-root->N_c=3->SU(3) forcing). GAP: T2523 & T267 NOT connected (nature=one gluon self-interaction; graph edge missing). a_2 result fills it: new node 'AF-sign from non-abelian SU(N_c)', parents T666/T2511+induced-YM a_2, sibling T2523, fills T2523<->T267 edge via shared non-abelian-SU(3) parent (common cause bankable, NOT one-operator identity), predicted (C,D)~(1-2,1), RE-HOMES T267 into short-root/confinement cluster. (3) Book-sourced a_2 gate confirmed (b_0=11N_c/3-2N_f/3, tr(F^2) coeff 1/12, Nielsen -11/3=-1/3+4, aim gauge-F). On Elie's a_2 landing (b_0>0, strength C_A=N_c): register node + upgrade T267 + add T2523<->T267 edge. Predicted not registered until crank turns. Graph max T2525, no bank. Note grace_strong_sector_graph_map_AF_sign_boundary_node_2026-07-26."
   },
   "theorems": [
     {
@@ -17159,9 +17153,7 @@
       "domain": "qft",
       "depth": 1,
       "status": "proved",
-      "toys": [],
-      "anchored_note": "K937 (2026-07-26): ANCHORED, not derived. T1271 is the (B) area-law/mass-gap confinement (YM-Millennium notion). The keystone (T2526->Lambda_QCD->T1271) derives the STRUCTURE (AF running generates the IR scale that sets the gap); the gap VALUE is O(Lambda_QCD)-anchored, NOT a new derivation. Distinct from (A) Schur/no-free-colored-states (T2523), which IS derived.",
-      "b_notion_tag": "(B)-IDENTIFIED (K937/K938): area-law/mass-gap = YM-Millennium notion; anchored (O(Lambda_QCD)), NOT derived. BST derives (A) no-free-colored-states (T2523), not (B)."
+      "toys": []
     },
     {
       "tid": 1272,
@@ -24453,8 +24445,7 @@
       "toys": [
         4794
       ],
-      "plain": "A single colored quark is CONFINED because D_IV5's Shilov boundary S^4 is COLORLESS (Z_{N_c}-trivial) and carries only symmetric spherical harmonics = SO(5) reps (lambda1,0). So a K-type with lambda2>0 (non-spherical) has ZERO boundary value on S^4 (Shilov-vanishing, K744) -> cannot reach the boundary -> confined; lambda2=0 reaches it -> free. Composing the color-blind-boundary Schur result (Elie 4723: colored state's boundary support = 0) with K744 (zero boundary value <=> lambda2>0) gives: colored (N-ality != 0) <=> lambda2>0 <=> Shilov-vanishing <=> CONFINED; color singlet (hadrons, leptons) <=> lambda2=0 <=> reaches boundary <=> free/emitted. Confinement = the Z_{N_c} color-center charge (N-ality, = the confinement order parameter, T2521) being nonzero. The mechanism does NOT need the exact triplet lambda2 value (that's the bulk-color->K-type map). Tier D (mechanism). Edges: T2521, T2522.",
-      "scope_note": "K937 scope: T2523 derives (A) 'no free colored asymptotic states' (Schur/Shilov, lambda_2>0->zero Shilov support; applies to adjoint gluons too, which are (A)-confined but (B)-SCREENED). It does NOT derive (B) area-law/linear-potential/mass-gap (the YM-Millennium notion = T1271, anchored). Registry wording 'N-ality!=0' -> 'lambda_2>0/Schur' (Lyra's registry lane). Keystone {AF,glueball-gap} is one-sector (both adjoint); {AF, T2523 quark-confinement} are SIBLINGS of T666 (F705: no cross-sector weld)."
+      "plain": "A single colored quark is CONFINED because D_IV5's Shilov boundary S^4 is COLORLESS (Z_{N_c}-trivial) and carries only symmetric spherical harmonics = SO(5) reps (lambda1,0). So a K-type with lambda2>0 (non-spherical) has ZERO boundary value on S^4 (Shilov-vanishing, K744) -> cannot reach the boundary -> confined; lambda2=0 reaches it -> free. Composing the color-blind-boundary Schur result (Elie 4723: colored state's boundary support = 0) with K744 (zero boundary value <=> lambda2>0) gives: colored (N-ality != 0) <=> lambda2>0 <=> Shilov-vanishing <=> CONFINED; color singlet (hadrons, leptons) <=> lambda2=0 <=> reaches boundary <=> free/emitted. Confinement = the Z_{N_c} color-center charge (N-ality, = the confinement order parameter, T2521) being nonzero. The mechanism does NOT need the exact triplet lambda2 value (that's the bulk-color->K-type map). Tier D (mechanism). Edges: T2521, T2522."
     },
     {
       "tid": 2524,
@@ -74726,86 +74717,6 @@
     {
       "from": 2525,
       "to": 2524
-    },
-    {
-      "from": 666,
-      "to": 2526,
-      "source": "short-root N_c=3 -> SU(3) non-abelian forces the sign (K932)"
-    },
-    {
-      "from": 2511,
-      "to": 2526,
-      "source": "short-root/Peirce multiplicity = N_c (three-hats forcing)"
-    },
-    {
-      "from": 2526,
-      "to": 267,
-      "source": "upgrades Asymptotic Freedom (T267) identification -> derived-sign (conditional)"
-    },
-    {
-      "from": 666,
-      "to": 2523,
-      "source": "FORK: short-root->SU(3) non-abelian forces confinement (common cause with AF; T2523 & T2526 are SIBLINGS of T666, not a direct weld)"
-    },
-    {
-      "from": 2511,
-      "to": 2523,
-      "source": "FORK: Peirce/short-root multiplicity underlies confinement (sibling structure)"
-    },
-    {
-      "from": 2526,
-      "to": 2167,
-      "source": "KEYSTONE (Elie toy 4873): AF running b_0=21>0 -> dimensional transmutation -> Lambda_QCD. DERIVED-STRUCTURE (running GENERATES the one IR scale); specific value anchored, not derived."
-    },
-    {
-      "from": 2167,
-      "to": 1271,
-      "source": "KEYSTONE: Lambda_QCD sets the IR mass gap (adjoint glueball, T1271). DERIVED-STRUCTURE (scale->gap); gap VALUE is O(Lambda_QCD)-ANCHORED, not a new derivation. Both ends ADJOINT -> F705-clean (does NOT touch T2523 fundamental confinement)."
-    },
-    {
-      "from": 2526,
-      "to": 1475,
-      "source": "AF-sign (derived, T2526) is the SIGN underlying beta_0=g=7 (T1475). The beta_0 combination is an IDENTIFICATION (coefficient 11/3 imported/standard); a_2 is the upgrade tool. Sign derived, coefficient NOT."
-    },
-    {
-      "from": 2526,
-      "to": 1931,
-      "source": "de-orphans T1931 (QCD beta coefficient identifications, was deg 0): hangs off the derived AF-sign. Coefficients IMPORTED/identified, not derived."
-    },
-    {
-      "from": 2523,
-      "to": 2061,
-      "source": "deconfinement temperature T_c (T2061) = where (A)-confinement (T2523, Schur/lambda_2>0) breaks down. Anchored IR observable, not a new derivation."
-    },
-    {
-      "from": 2167,
-      "to": 2061,
-      "source": "T_c ~ O(Lambda_QCD): the deconfinement scale rides the one dynamical scale from the AF running. Anchored."
-    },
-    {
-      "from": 1271,
-      "to": 1403,
-      "source": "mass gap (T1271) = lightest glueball; the glueball spectrum (T1403, C_2=6 confining dirs) sits above it. Adjoint IR spectrum; STRUCTURE pending Elie's Lane-1 glueball-spectrum derivation, values anchored."
-    },
-    {
-      "from": 2428,
-      "to": 2526,
-      "source": "ONE-OPERATOR SPINE (linear algebra, one domain): AF-sign = the tau->0 short-time (a_2) spectral reading of the COLOR SECTOR of the one Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5)."
-    },
-    {
-      "from": 2428,
-      "to": 2523,
-      "source": "ONE-OPERATOR SPINE: confinement (A) = the tau->infty long-time / Shilov-boundary reading of the same color-sector heat semigroup on H^2(D_IV^5) (zero Shilov support, lambda_2>0)."
-    },
-    {
-      "from": 2428,
-      "to": 1271,
-      "source": "ONE-OPERATOR SPINE: mass gap = the SPECTRAL GAP of the same color(adjoint)-sector operator on H^2(D_IV^5). (B)-identified/anchored."
-    },
-    {
-      "from": 2428,
-      "to": 1403,
-      "source": "ONE-OPERATOR SPINE: glueball spectrum = the EIGENVALUE TOWER of the same adjoint-sector operator on H^2(D_IV^5) (Elie Lane-1 derivation pending)."
     }
   ],
   "chains": {},
@@ -119837,21 +119748,6 @@
         2524
       ],
       "tier": "D-structural (count/why-3 derived, target-innocent; mass values out of scope)"
-    },
-    {
-      "tid": 2526,
-      "name": "Asymptotic Freedom Sign from Non-Abelian SU(3) (SIGN DERIVED, full pass K936)",
-      "domain": "QCD/strong",
-      "status": "Derived",
-      "depth": 1,
-      "conflation": "none",
-      "section": "81",
-      "toys": [],
-      "date": "2026-07-26",
-      "plain": "The SIGN of asymptotic freedom (beta_0>0, antiscreening) is geometry-forced: short-root multiplicity n_C-2=3=N_c>0 forces NON-ABELIAN SU(3) not U(1) (T666); non-abelian => the gluon carries E=-2F (color-magnetic moment) whose paramagnetic (1/2)Tr(E^2)=2Tr(F^2)>0 antiscreens (Elie a2, both blind checkers K929-933 + F703 cleared). SIGN = species of parity-from-odd-g. COMMON CAUSE with confinement (T2523): both are children of the ONE forced non-abelian SU(3) - confinement=center-charge Shilov-vanishing (base), AF=gauge-fiber-F paramagnetism (fiber). The 11/3 coefficient is IMPORTED (Nielsen -11/3=-1/3+4, consistency check, NOT a derivation of 11). FULL PASS (K936): Elie's F704 recast met the bar — the AF sign IS the sign of the tau->0 spectral flow of the color sector of the Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5) (one operator, one Hilbert space, no loop diagram). SIGN derived (tier D); 11/3 coefficient IMPORTED (consistency check, not derived). COMMON CAUSE with confinement (T2523) = FORK from the shared parent (short-root->SU(3), T666), NOT a direct weld: both are children of one forced non-abelian SU(3) (bankable). The ONE-OPERATOR identity (same operator carries both ends) stays a STRETCH — the tau->0 end is adjoint/gluon, tau->infty end is fundamental/quark; needs an adjoint<->fundamental bridge (Lyra leans center-route DISPROOF: center acts on fundamental not adjoint -> siblings, not one object).",
-      "proofs": [],
-      "commitment_cycle_zone": "",
-      "tier": "D"
     }
   ],
   "metadata": {

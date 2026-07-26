@@ -1,0 +1,35 @@
+# K929 — PRE-REGISTERED audit criteria for the induced-a₂ / β-function computation, committed **BLIND** (before Elie's #418 result). The key pre-commitment, and it reframes what "success" means: **the SIGN of β₀ emerging from the geometry (ideally the SAME curvature as confinement) is the real win; "reproducing the standard 11/3" is a CONSISTENCY CHECK, not a derivation** — because if BST's emergent gauge sector is just standard 4D Yang-Mills, its a₂ is 11/3 *automatically* by Gilkey/Vassilevich bookkeeping, which discovers nothing about D_IV⁵. The FF-20 danger is dressing up a consistency check (or worse, an 11-weld) as a Tier-1 derivation. This note sets the bar before the computation, so the verdict can't be retrofitted.
+
+**Keeper | 2026-07-26 Sun | Blind pre-registration for the strong-sector make-or-break (#418). Same discipline as K922/K924. The bar: does the SIGN come from the domain's curvature, target-innocently — not from plugging N_c, N_f into the standard formula, and not from matching an "11."**
+
+## Standard-physics anchors (target-innocent, book-sourced — the reference, not BST)
+- One-loop: β₀ = 11/3·C_A − 4/3·T_F·n_f (= (11N_c − 2n_f)/3 for SU(N_c), Dirac fermions T_F=1/2). Asymptotic freedom ⟺ β₀ > 0 ⟺ 11N_c > 2n_f.
+- **Nielsen–Hughes decomposition (the physical origin — this is what BST must reproduce/route through):** the gauge boson's −11/3·C_A = **diamagnetic (orbital) +1/3 MINUS paramagnetic (spin/color-magnetic-moment) 4.** The **paramagnetic −4 is the ANTISCREENING** = asymptotic freedom, and it is the gluon's spin-1 color-magnetic moment (gyromagnetic g=2). So "the sign" physically = the paramagnetic spin term dominating the diamagnetic orbital term.
+- 11/3 = 4 − 1/3 is STANDARD heat-kernel/spectral-asymmetry math; it is NOT a BST integer.
+
+## THE TIERS (what counts as what — pre-committed)
+- **Tier-1 = the WIN. The SIGN β₀ > 0 emerges from the domain's curvature, target-innocently.** Specifically: the induced gauge-fluctuation a₂'s **paramagnetic (color-magnetic-moment / antiscreening) term is produced by the non-abelian curvature of the hosted SU(3) and dominates the diamagnetic term — derived from D_IV⁵'s structure, NOT from evaluating the standard formula at N_c=3, n_f=6.**
+  - **Tier-1★ (the deep win): S2 — the antiscreening curvature is the SAME object as the confinement mechanism** (colored → zero Shilov overlap / Schur, K745). If the same non-abelian curvature that forces confinement forces the AF sign, confinement + AF are ONE geometric structure (as they are in QCD). THIS is the headline worth chasing.
+- **Tier-2 = a CONSISTENCY CHECK, not a discovery. "The induced a₂ reproduces standard 11/3·C_A − 2/3·n_f."** Valuable only as: *BST's emergent gauge sector IS standard 4D YM, so it does not BREAK QCD.* Do NOT present this as "we derived the 11" — if the operator is the standard YM fluctuation operator on emergent 4D, 11/3 falls out of standard math trivially. State it as "consistency: standard running embeds in D_IV⁵," never as a BST derivation of 11.
+- **Tier-3 = the BST-SPECIFIC PREDICTION. A genuine MODIFICATION** — the induced operator DIFFERS from standard YM (via N_max-finiteness / the Bergman propagator / finite-sum structure), computed, giving a deviation from standard running (the c₁=3/5 territory). Only this is a new, falsifiable BST result on the coefficient.
+
+## PASS conditions (per tier)
+- **Tier-1 PASS:** S1 — β₀>0 shown from the induced a₂'s paramagnetic term via the domain's non-abelian curvature, with NO use of the observed β₀=7 or the standard 11/3 as an input to get the sign. (Target-innocent = the sign is an output of the geometry.)
+- **Tier-1★ PASS:** S2 — the antiscreening curvature operator is exhibited as the same object as the Schur/zero-Shilov confinement structure. (A real unification.)
+- **Tier-2 (consistency) PASS:** the induced operator is shown to equal the standard YM fluctuation operator on emergent 4D, so its a₂ = standard, by book-sourced (Vassilevich) bookkeeping — stated as consistency, not derivation.
+- **Tier-3 PASS:** a specific deviation term computed from a specific BST modification of the operator, falsifiable.
+
+## FIT / FAIL red flags (any → not a derivation)
+- **The "11" welded to c₂(Q⁵)=11, dim K=11, Weitzenböck c₂=11, 2n_C+1, or 137=11²+4²** — the FF-20 elevens. The 11/3 must be the Nielsen 4−1/3, not a costume of a BST 11.
+- **β₀ = g = 7 banked as a derivation** — it is an identification (7=g only at n_f=6, all flavors active; scale-dependent). Fine as "identification to upgrade"; NOT a derived coefficient.
+- **The sign or 11/3 obtained by plugging N_c, n_f into the standard formula** and calling it derived (that only supplies BST's integers to standard QFT — the current banked state, explicitly the thing to upgrade).
+- **The a₂ asserted without the actual emergent-4D + forced-chiral-content Seeley-DeWitt computation.**
+- **Any heat-kernel constant fabricated** rather than book-sourced (Vassilevich/Gilkey).
+
+## PRE-COMMITTED VERDICT CEILING (committed now)
+- The area's real deliverable is **Tier-1 (the sign from geometry), and its best form Tier-1★ (unified with confinement)** — I will sign "derived" only if S1 is target-innocent (sign is a geometric output), and "unified" only if S2 exhibits one operator.
+- **Tier-2 I will record as CONSISTENCY, never as "derived the 11."** A reproduced 11/3 from a standard operator is not a discovery about D_IV⁵.
+- **Tier-3 is the only route to a NEW coefficient claim** and requires a computed deviation, not a story.
+- **My prior (stated so it can't bias):** the SIGN is achievable (it's a mechanism/sign claim, BST's strength, and the confinement curvature is right there); the coefficient is either a consistency check (likely) or a hard modification (unlikely to be clean). S1/S2 decide it, not the prior.
+
+— Keeper K929, 2026-07-26. BLIND pre-registration, induced-a₂/β-function (#418). REFRAME: the SIGN β₀>0 from the domain's curvature (target-innocent, ideally the SAME curvature as confinement = Tier-1★) is the WIN; "reproduce standard 11/3·C_A−2/3·n_f" is a CONSISTENCY CHECK (standard YM embeds in D_IV⁵), NOT a derivation of "11" (11/3 = Nielsen 4−1/3, standard math). Tier-3 (a computed N_max/Bergman MODIFICATION) is the only route to a new coefficient claim. Red flags: weld the 11 to c₂/dim-K/Weitzenböck (FF-20 elevens); bank β₀=g=7 as derived; plug N_c,n_f into the standard formula and call it derived; assert a₂ without the emergent-4D+chiral computation; fabricate heat-kernel constants. Sign PASS = S1 (β₀>0 from curvature, no observed-β₀/standard-11/3 as input); unification PASS = S2 (antiscreening curvature = the Schur/zero-Shilov confinement operator). See [[Keeper_K927_STRONG_SECTOR_DYNAMICS_area_charter]], [[Keeper_K924_PRE_REGISTERED_FK_Wyler_3x3_audit_criteria]], [[feedback_commit_the_checker_half_blind]].

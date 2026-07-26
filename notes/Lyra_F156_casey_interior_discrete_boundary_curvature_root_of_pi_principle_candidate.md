@@ -7,6 +7,8 @@ status: "v0.1 — Casey-named principle CANDIDATE #12: INTERIOR-DISCRETE / BOUND
 
 # F156 — Casey principle candidate #12: interior is discrete, the boundary residue is a curvature at a specific root of π
 
+> **⚠ SUPERSEDED MECHANISM (2026-07-26, K921 / F700).** The *stratum-dimension* gradient below — "electron = non-compact strip → π⁰ (π-free), muon = compact S⁴ → π², τ = vertex → √π" — is **superseded** by the corpus's later, *derived* **position-parity** mechanism (F664/K846). Position parity places **all three leptons at half-integer Wallach positions {5/2, 3/2, 0} → π-carrying (the electron at 5/2 is NOT π-free)**, and the **quarks at integer positions {5, 2, 0} → π-free** (same overlap machinery → m_s/m_d = 20). The correct π-parity statement is **lepton-vs-quark**, n_C-odd-forced — NOT muon-vs-rest, and NOT electron-as-π-free-strip. The *organizing frame* (interior discrete/π-free + boundary curvature residue) stands; only the per-lepton stratum-dimension assignment is retired. See **F700** (reconciliation) and **F699** (the flagship-bound weld, already corrected). Do not re-inherit the stratum-dimension gradient from this note.
+
 Casey: *"the interior of D_IV⁵ is discrete and we can linearize everything up to the boundary/edge, and when we look closely at the residue it's nearly always a curvature we can characterize by the specific root of π."*
 
 This is the **geometric mechanism** under everything we've been finding — the trichotomy, the two-tier floor, F143's locus rule, and the tau's √π residue. Formalizing it as a named-principle candidate.
