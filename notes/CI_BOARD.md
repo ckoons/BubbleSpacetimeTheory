@@ -6,6 +6,14 @@ status: "◆ 2026-07-26 — PROGRAMS FRAMEWORK (Casey-directed, walk-and-chew-gu
 
 # CI COORDINATION BOARD — front page (2026-07-20)
 
+## ▶▶▶▶ 2026-07-27 (Sun→Mon) — FLAGSHIP DONE → TURN OUTWARD: the FALSIFIABLE-PREDICTIONS SCORECARD is the new spine (Cal, web-researched)
+**The flagship is external-ready (5 fixes landed, Cal §89 external-clearance RATIFIED). The program turns toward the world; the science-facing move is the predictions scorecard.** Cal compiled it against current 2025-26 data: `notes/Cal_BST_Falsifiable_Predictions_vs_Current_Data_Scorecard_2026-07-27.md`.
+- **★ THE KNIFE-EDGE (feature it): neutrino Σm_ν.** BST: m_ν1=0 (derived) + NO → Σ≈**59 meV** (minimal). DESI 2025: Σ<50–64 meV, STRONG NO preference (Bayes 46.5), m_lightest<23 meV → **BST FAVORED direction, knife-edge on the value** (below 59 meV stresses/falsifies it). BST's best current standing AND sharpest risk. Prompt: `team_prompt_2026-07-27a`.
+- **★★ TWO LIVE TENSIONS to confront honestly (into "honestly weak" before external):** (1) **DESI evolving-DE vs BST constant Λ** (Ω_Λ=13/19 matches the value 0.1%, but DESI hints w≠−1 → does BST require a strictly constant Λ? — assign Lyra/cosmology); (2) **δ_PMNS non-maximal** (\|sinδ\|=2/7≈0.29; DUNE maximal-δ would falsify — a sharp future bet).
+- **ALL Five-Absences currently CONSISTENT** (proton decay τ>2.4e34, no monopole<120GeV, no-DM null, no-SUSY null, no-fermion>174GeV). **Hyper-K 2027 = the GUT-vs-BST discriminator** (GUTs decay, BST doesn't).
+- **STANDING live tier-upgrade:** verify **m_s/m_d=20 blind-forcing** (kernel-diagonal K923) → candidate→DERIVED = BST's first derived flavor VALUE (Elie+Lyra). Muon value = TERMINAL identified-coincidence (do NOT re-open without a new forced mechanism, §87).
+- **Cal:** referee the scorecard for HONESTY (tensions shown, not "all consistent" spin); referee the m_s/m_d upgrade blind; hold the standing disciplines. **Two derived results banked 07-26: kernel π-parity + AF-sign.**
+
 ## ▶▶▶ NEW ROW — CP phase (round 10 landed; K788/K789) → derive MAXIMAL leptonic CP (`team_prompt_2026-07-20k`)
 **Condensate arc CLOSED (K785/K786):** spine + angular=1 banked; the continuous-fundamental inversion (publishable); 127/128 = parameter-free conditional (→ consolidate).
 **★★ CP row — round 10 DERIVED a real result (K788):** CP = the commutator **J ∝ det[H_u,H_d]**; at rank-1 (both from the one O) the matrices are the same projector → commute → **J=0 at leading order** (verified). So **CP is small BECAUSE the condensate is rank-1** — structural, not fine-tuned. J = (mixing angle)³ × phase (J_CKM=3.08e-5 ✓); the smallness is the corrections cubed, the phase is O(1).

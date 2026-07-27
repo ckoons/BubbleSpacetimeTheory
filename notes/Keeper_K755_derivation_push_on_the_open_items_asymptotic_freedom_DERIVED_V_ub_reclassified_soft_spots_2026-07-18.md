@@ -1,3 +1,36 @@
+---
+id: K755
+date: 2026-07-18
+program: STANDARD
+status: partially-superseded
+supersedes: []
+superseded_by: null
+topic_tags: [up-quark, m_u, soft-spot, V_ub, SU3, G2-stabilizer, asymptotic-freedom, mixing, sin2thetaW]
+claims:
+  - id: K755-a
+    topic: up-quark (m_u) soft spot
+    status: superseded
+    superseded_by: grace_RECONCILE_m_u_first_live_stamp_soft_spot_is_observable_not_BST_holdout_2026-07-27
+    date: 2026-07-27
+  - id: K755-b
+    topic: G2-stabilizer / SU(3) group (hosted)
+    status: supported
+    superseded_by: null
+  - id: K755-c
+    topic: asymptotic freedom + qualitative QCD dynamics DERIVED (beta_0=21>0)
+    status: superseded
+    superseded_by: T2526 (full one-domain spectral-flow derivation, 2026-07-26)
+    date: 2026-07-26
+    note: "UPGRADED not reversed — the qualitative-derived claim here is now the full one-domain derivation T2526 (AF sign = tau->0 spectral flow of exp(-tau H_B) on H^2(D_IV^5)); Grace-proposed link, Keeper to ratify"
+---
+
+> ⚠ SUPERSEDED (in part), 2026-07-27 — the **"m_u soft spot" claim (§1)** is SUPERSEDED by
+> [[grace_RECONCILE_m_u_first_live_stamp_soft_spot_is_observable_not_BST_holdout_2026-07-27]]:
+> BST has no genuine 26th derivation-hole — m_u/m_d = √(3/14) is DERIVED (LATTICE), and the residual
+> ~22% softness is in the OBSERVABLE (confined-quark scheme-dependence on the n=0 mode), not the framework.
+> The **G₂-stabilizer/SU(3) claim (§2)** remains SUPPORTED (hosted-tier). The **AF/qualitative-QCD claim (§3)**
+> is UPGRADED to the full one-domain derivation **T2526** (2026-07-26). Current view: `bst_topic "up quark" --current`.
+
 # K755 — Derivation push on the not-yet-derived items (Casey's ask). Genuine gains: **asymptotic freedom + the qualitative QCD dynamics are DERIVED** (β<0 from N_c=3, N_f=6); **V_ub is reclassified out of "soft spots" into the mixing sector** (it's the CKM analog of PMNS θ₁₃); **SU(3) as a group is pinned harder** (the G2 unit-stabilizer). Honest holds: m_u stays soft (with a geometric reason); the mixing forms tier up but aren't closed; sin²θ_W stays a runner. One self-caught over-reach withdrawn (the color native-upgrade).
 
 **Keeper | 2026-07-18 ~15:00 EDT | Casey: "try to derive the open items or get them more solid." `derive_the_open_items.py`. Per-item, honestly tiered.**

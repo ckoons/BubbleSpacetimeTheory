@@ -1,0 +1,43 @@
+# F717 — Cal's split adopted (dynamical lane, prompt-U; 4:27pm, FULL DAY not EOD — Grace's clock catch, mine too): **SELECTION before STABILITY, and SELECTION is the least-machinery, most target-innocent computation — buildable NOW.** Cal split the dynamical lane into two physics claims with different requirements: **SELECTION** ("all geometries attempted, the stable one nucleated") is a *discrete value comparison* — the nucleating geometry is the one of lowest induced action S(G), probability ∝ e^{−S(G)} — needing **no Hessian and no continuous moduli space, only the six action values**; **STABILITY** ("D_IV⁵ *was* the stable one") is the Hessian, which needs a continuous deformation space (the SO(7)-unfreezing moduli, F715) and comes *after*. This confirms + sharpens F716 (which had the discrete value-comparison but hadn't ordered it first). **The whole unification runs on SELECTION alone: compute S(G) on the six Cartan families — is D_IV⁵ the minimum? — and check whether the high-action (non-nucleating) families are EXACTLY the logical-exclusion list (E7's missing Lorentzian descent, the rank-1 disk's degeneracy, wrong-n type-IV's Ehrenfest instability). If they line up, the dynamical and logical selections are one fact, forcing off the observer — with no moduli space, no second variation, nothing cookable.** **Tier: SELECTION computation SET UP + buildable now; the six S(G) values are the assembly (Elie, canonical operator + pinned root data), NOT fabricated here and NOT assumed to favor D_IV⁵. Least machinery = fewest places to hide a fit = the honest order (Casey's "simple tools first" = the target-innocent one).**
+
+**Lyra, Mon 2026-07-27 16:36 EDT (FULL DAY — correcting my own "long day, rest it" drift per Grace: it's mid-afternoon, keep pulling). Cal's split is the least-machinery move and it's buildable now. Setting up the six-value SELECTION test; the action is forced-canonical (K961), the values are whatever they are.**
+
+## Cal's split (adopted)
+- **SELECTION (discrete, buildable now, no Hessian):** the nucleating vacuum = argmin_G S(G) over the six families; probability ∝ e^{−S(G)}. Only the *values* S(G) on the six discrete points are needed.
+- **STABILITY (Hessian, later):** the second variation of S in a continuous moduli space (the SO(7)-unfreezing, F715) — an *optional refinement* once selection lands, not the first thing. (F716's Hessian is this second stage; F716's caveat stands: no continuous path to E7, so E7's exclusion is a value statement, never a decay mode.)
+**Do selection first.** Fewer moving parts, nothing to cook.
+
+## The forced action (K961 guard, concrete)
+S(G) must be the **canonical** induced action every symmetric space carries — the effective action from the heat-trace of the geometry's *own* canonical operator (the Laplacian / Dirac / the substrate operator, F60–F66), **not** a bespoke operator chosen to make D_IV⁵ win. This is what makes S(G) *exist identically per family* and keeps it forced-not-chosen. The leading term is the induced cosmological piece a₀(G) (∝ the regularized volume / constant heat-trace term); sub-leading is a₁ = Einstein–Hilbert. Selection is dominated by the leading induced action; the exact combination is the canonical one, assembled per family, not tuned.
+
+## The inputs (pinned/sourced — do not fabricate)
+Per-family root data (Grace's FK pin + standard Cartan classification):
+| type | domain | dim_ℂ | rank | a (short-root mult) |
+|---|---|---|---|---|
+| I(p,q) | SU(p,q)/… | pq | min(p,q) | 2 |
+| II(m) | SO*(2m) | m(m−1)/2 | ⌊m/2⌋ | 4 |
+| III(m) | Sp(m,ℝ) | m(m+1)/2 | m | 1 |
+| **IV(n)** | **SO(n,2)** | **n** | **2** | **n−2** |
+| E6 | — | 16 | 2 | 6 |
+| E7 | — | 27 | 3 | 8 |
+S(G) is assembled from (dim, rank, a, Bergman curvature κ = −(a·(rank−1)+b+1)-type / the family's genus) via the canonical heat-trace — the *same* root-data formulas on all six (Elie's point: the ingredients extend uniformly). **D_IV⁵ = IV(5): dim 5, rank 2, a = 3.**
+
+## The test (the whole unification, on six numbers)
+1. **Is D_IV⁵ the minimum of S(G)** over the six families? (If not — the nucleation picture is wrong for D_IV⁵; say so.)
+2. **Are the high-S(G) (non-nucleating) families exactly the logical-exclusion list?** — E7 (no Lorentzian conformal descent, Selector-2), the degenerate rank-1 case, the wrong-n type-IV (Ehrenfest/Tegmark-1997 instability). If the dynamical ordering reproduces the logical exclusions **built independently**, the two selection routes are one principle → forcing off the observer, derived not asserted.
+3. **Either outcome is a result** (the same way the Gram matrix adjudicates the count): a match = the unification; a mismatch = the honest signal the idea is pretty-but-wrong. The *geometry* decides, on values it computes — not the sky.
+
+## Discipline (held)
+- **Do NOT assume D_IV⁵ is the minimum** — report argmin whatever it is (assuming D_IV⁵ wins is the fit-trap one level up).
+- **The action is forced-canonical** (K961) — no operator/term picked to make D_IV⁵ lowest; the leading induced action of the geometry's own canonical operator.
+- **E7 stays a value statement, not a Hessian mode** (F716 caveat — no continuous path).
+- **CMB off the foundation** (Grace's standing rule) — selection rests entirely on the six S(G) values; the scar is a downstream pre-registered target.
+- **Clock:** full day, not EOD (Grace's catch — I'd drifted into "rest it" framing; corrected).
+
+## Tiers / handoffs
+- **@Elie (buildable NOW)** — assemble **S(G) for the six Cartan families** from the canonical operator's heat-trace (leading induced action a₀(G), + a₁ if needed), using the pinned root data above (dim, rank, a, Bergman curvature — the same formulas per family, sourced from FK, not reconstructed). Report the six values + argmin + the ordering. Two checks: is D_IV⁵ the min? are the high-S families the exclusion list? Report whatever it gives — do not tune to make D_IV⁵ win. This is the least-machinery unification test, no Hessian, no moduli.
+- **@Keeper** — Cal's split adopted: selection (values) first, stability (Hessian) as the optional refinement. The K961 guard is concrete now — the canonical operator, forced per family. Selection is buildable with no moduli space (which was the open piece for the Hessian). I set up the six-value test; audit that the action is the canonical/forced one and D_IV⁵-min is not assumed.
+- **@Cal** — your split is the least-machinery + target-innocent move (they're the same thing here). The exclusion-list column (E7 no-descent, disk degeneracy, wrong-n Ehrenfest) is your charter's content; the test is whether S(G)'s high-action families reproduce it independently.
+- **@Casey** — Cal noticed your idea is really two questions, and the *simpler* one answers the whole thing: forget "is it stable" for a moment (that needs a hard second-derivative computation and a space to deform in) — just ask "which of the six geometry families is *cheapest* to make?", because the cheapest one is the one that nucleates. That's six numbers, each computed from the family's own geometry with the gravity action we already have — no knobs. Then the real test: are the *expensive* geometries — the ones that don't nucleate — exactly the ones our logical checklist already threw out (E7, the degenerate disk, the wrong dimensions)? If the cheap-to-make list and the passes-the-checklist list are the same list, then "it's the stable one" and "the math forces it" are the same fact, and — as you keep steering — it's all linear algebra / heat-traces on the domains, decided by numbers we compute, never by the CMB. Buildable right now; I've set it up so the answer is a reading of six values, and D_IV⁵ winning is not baked in.
+
+Notes only; no toys/theorems claimed. F717: Cal's split adopted — SELECTION (six S(G) values, argmin = nucleating vacuum, prob ∝ e^{−S}, NO Hessian/moduli) before STABILITY (Hessian, needs moduli, later/optional). Confirms+orders F716. The unification test runs on SELECTION alone: is D_IV⁵ = argmin S(G)? are the high-S families the logical-exclusion list (E7/disk/wrong-n)? Action = canonical operator's induced action per family (K961 forced-not-chosen); inputs = pinned FK root data (dim, rank, a={2,4,1,n−2,6,8}); D_IV⁵=IV(5) dim5/rank2/a3. Discipline: don't assume D_IV⁵ min; forced-canonical action; E7=value-not-Hessian (F716); CMB off foundation; clock=full-day. Elie assembles six values, reports argmin+ordering whatever it is. Least machinery = fewest fit-hiding places = honest order. — Lyra
