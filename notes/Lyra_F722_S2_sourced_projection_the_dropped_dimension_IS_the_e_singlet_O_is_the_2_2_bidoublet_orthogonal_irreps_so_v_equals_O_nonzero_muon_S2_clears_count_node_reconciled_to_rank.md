@@ -1,0 +1,40 @@
+# F722 — S2, the make-or-break, run on the SOURCED type-IV embedding: **the 5→4 projection drops EXACTLY the e-singlet direction, and O is the (2,2) bi-doublet — a DIFFERENT irrep — so by Schur orthogonality O carries no e-component and v = O ≠ 0. S2 CLEARS (non-central), target-innocent.** This is not "O is a non-singlet so v≠0" (the argument Casey correctly forbade — the dimension drop is where that fails); it is the sharper fact that **the dropped dimension is a specific irrep (the (1,1) singlet = the Jordan identity e), O is a distinct irrep (the (2,2)), and distinct K-irreps are orthogonal under the trace form** — so O literally cannot land in the dropped direction. The one residual is Elie's numerical confirmation on the explicit embedding; the structure forces v≠0. **Bonus: the count node reconciles to the rank (K975 watch-item 1) — interior idempotents = {muon ℓ=1, electron ℓ=2}, boundary +1 = tau ℓ=0, superseding K947's {tau,muon}.** Tier: S2 clears on sourced structure (FK Ch III + F603), pending Elie's numeric + Cal's "v non-central?" audit; if it holds, the muon is S1✓S2✓S3✓S4✓interior-2✓ → Keeper fires K967 → DERIVED. I do NOT bank it here — Keeper fires blind.
+
+**Lyra, Tue 2026-07-28. The one gate. Sourced, not reconstructed — the dropped dimension turns out to be the e-singlet itself, which is exactly why O survives the projection. Cal #27 held: I steelman v=0 below and show precisely why it fails.**
+
+## The sourced embedding (FK Ch III, spin factor of the symmetric bilinear form — pinned, not reconstructed)
+The type-IV Jordan algebra is the **spin factor** J = ℝe ⊕ V₀, dim J = n_C = 5, so **V₀ = ℝ⁴**, rank 2 (Faraut–Korányi, *Analysis on Symmetric Cones*, Ch. III; the two primitive idempotents c± = ½(e ± û), û = v/|v| ∈ unit sphere of V₀ — FK III.1.2, the mechanism K974 verified).
+- **The Jordan identity e is fixed by every Jordan automorphism.** Aut(J) for the spin factor is O(V₀) = O(4), acting trivially on e and as the vector rep on V₀ (FK Ch III — automorphisms of a spin factor are the isometries of the form on V₀, fixing the unit e).
+- Aut(J) ⊇ **SO(4) = SU(2)_L × SU(2)_R** (the e-fixing rotations of V₀). So **e is SU(2)_L×SU(2)_R-invariant** — it spans the **(1,1) singlet**.
+- Under this e-fixing SO(4) ⊂ SO(5), the SO(5) vector **5 = (1,1) ⊕ (2,2)** [= e ⊕ V₀], with **V₀ = ℝ⁴ = the (2,2)** (SO(4)'s vector rep). This is exactly F603's Sp(1)_L×Sp(1)_R decomposition (SO(5)=Sp(4) ⊃ Sp(1)×Sp(1)); the (1,1) it names IS the e-direction (the vector the e-fixing SO(4) stabilizes).
+
+## The projection — and why the dimension drop does NOT kill O
+The spin-factor "vector part" of any x = αe + v is **v = x − (⟨x,e⟩/⟨e,e⟩)e**, the orthogonal projection onto V₀ = e^⊥ (trace form). The **5→4 drop removes exactly the e-direction = the (1,1) singlet.**
+
+**O (F603, target-innocent) = the (2,2) bi-doublet** — the Higgs condensate, color-singlet, **SU(2)_L-DOUBLET**, Y=½. It lives entirely in the (2,2).
+
+**(2,2) and (1,1) are distinct K-irreps ⇒ orthogonal under the invariant trace form (Schur).** Therefore:
+$$ \langle O, e\rangle = 0 \;\Rightarrow\; \alpha_O = 0 \;\Rightarrow\; v_O = \text{proj}_{V_0}(O) = O \neq 0. $$
+**S2 clears: v = O ≠ 0, non-central.** The dropped dimension is the singlet; O is the bi-doublet; a distinct irrep cannot have a component along the singlet — so O loses nothing in the projection. This is the *sourced* closure of the exact gap Casey flagged: not "O is generically non-singlet," but "the dropped direction is the specific irrep (1,1), O is the specific irrep (2,2), and ⟨(2,2),(1,1)⟩ = 0."
+
+## Steelman v=0 (Cal #27 — I do not wave it through)
+For v=0 we need **O ∝ e**, i.e. O ∈ (1,1) singlet — O central. But O is the **SU(2)_L doublet** (the electroweak-symmetry-breaking VEV). A symmetry-breaking condensate is *by definition* not proportional to the identity — if it were, it would break nothing. So v=0 would contradict O being the Higgs doublet (F603, target-innocent). **v=0 is excluded by the physics that pins O's direction, independent of any mass.** (Had O been the (1,1) singlet part of the vector 5 — the piece F603 explicitly does NOT assign to the condensate — then v=0 and O would be central. It isn't.)
+
+## Target-innocence (K880 quarantined)
+- O's direction: from quantum numbers alone (color-singlet, SU(2)_L-doublet, Y=½ → (2,2)), F603, independent of the fermions/masses.
+- e = (1,1): from the Jordan structure (Aut fixes the identity), FK Ch III.
+- The muon mass never enters. The projection is a rep-theory identity on D_IV⁵.
+
+## Count-node reconciliation (K975 watch-item 1 — resolved by the rank, not the words)
+The Jordan frame has **2 primitive idempotents** (rank 2); the three generation modes carry support-orbit ranks **ℓ = 0 (tau), 1 (muon), 2 (electron)**. The correspondence is NOT the inverted "interior/boundary" wording of K947:
+- **Interior idempotent seats (2) = the two nonzero-rank modes = {muon ℓ=1 (edge/minimal rep), electron ℓ=2 (full rank)}.**
+- **Boundary (+1) = the rank-0 mode = tau (ℓ=0, singular Shilov measure).**
+- Total = 2 + 1 = 3 = rank+1. **This supersedes K947's "interior = {tau, muon}"** (that used the inverted Jordan-language). The muon is an interior seat in *both* readings — its promotion is robust, as Keeper flagged. Assign the count node by the rank ℓ; retire the words.
+
+## Handoffs
+- **@Elie** — confirm v≠0 **numerically on the sourced embedding**: build O as the (2,2) bi-doublet in the SO(5) vector 5, e as the (1,1) singlet (= the SO(4)-fixed direction), project O onto V₀ = e^⊥, verify |v| = |O| ≠ 0 (and ⟨O,e⟩ = 0 exactly — the Schur-orthogonality check). This replaces toy 4900's frame-invariant (v=0) symbol and toy 4902's asserted v≠0 with the *sourced* computation. Cal's bar: "is v non-central?" — the answer is yes because O ⊥ e (distinct irreps).
+- **@Cal** — S2's clearance rests on two sourced facts: (i) e = the (1,1) singlet (Aut(J) fixes the identity, FK Ch III), (ii) O = the (2,2) (F603). The v≠0 conclusion is Schur orthogonality of distinct K-irreps — please audit that the dropped dimension is genuinely the e-singlet and not a skew embedding (the one way this fails). §121 spin-factor construction is the anchor.
+- **@Keeper** — if Elie's numeric confirms v≠0 (it must, by orthogonality), then S1✓ S3✓ S4✓ interior-2✓ **S2✓** → fire K967 blind → muon DERIVED. I am NOT banking it — you fire. Count node reconciled to the rank: interior = {muon, electron}, boundary = tau; supersede K947.
+- **@Casey** — the make-or-break lands the good way, and for the reason you'd want: I did not clear it on "O is obviously not a singlet" — you were right that the dimension drop is exactly where that fails. What saves it is sharper — the one direction the projection throws away is *the identity direction itself* (the Jordan e, which is the symmetric singlet), and the Higgs condensate is an SU(2) doublet, a different symmetry-type entirely. Two different symmetry-types are perpendicular, so the condensate has zero overlap with the thrown-away direction — it survives the projection whole. In plain terms: the projection deletes the "average/identity" part, and the Higgs isn't in the average part, it points sideways. So it selects a frame, the muon sits on one of its two idempotents, and the last gate opens — pending Elie's number and Cal's audit, with Keeper firing K967, not me.
+
+Notes only; no toy/theorem claimed (Elie owns the numeric; next_toy=4904 read, untouched). F722: S2 sourced projection. FK Ch III: J=ℝe⊕V₀ (V₀=ℝ⁴), Aut(J) fixes e ⇒ e = (1,1) singlet; 5=(1,1)⊕(2,2), V₀=(2,2). The 5→4 drop removes the e-singlet. O=F603 (2,2) bi-doublet ⊥ e (Schur) ⇒ v=O≠0 ⇒ **S2 CLEARS non-central, target-innocent.** Steelman v=0 needs O∝e (singlet) = contradicts Higgs-doublet; excluded. Count reconciled to rank: interior idempotents={muon ℓ=1, electron ℓ=2}, boundary=tau ℓ=0, supersedes K947. Elie confirms numeric on sourced embedding; Keeper fires K967 blind → muon DERIVED if v≠0. — Lyra

@@ -105,7 +105,7 @@ PREDICTIONS = [
     ("m_t (top quark mass, GeV)",
      "(1 - alpha) * m_p**2 / (g*m_e) / sqrt(2) / 1000",
      (1 - alpha) * m_p**2 / (g * m_e) / sqrt(2) / 1000,
-     172.69, "PDG 2024", "C"),   # K962 re-tier 2026-07-27: m_t I->CONDITIONAL (rides y_t=1 saturation, un-derived, K763).
+     172.69, "PDG 2024", "I"),   # K964 Ceiling/Value split 2026-07-28: CEILING DERIVED (y_t<=1 -> m_t<=v/sqrt(2)~174, Cauchy-Schwarz, target-innocent, falsifiable) / VALUE IDENTIFIED (exact y_t=1 saturation unforced, F603/K769). Row tiered at the Value.   # K962 re-tier 2026-07-27: m_t I->CONDITIONAL (rides y_t=1 saturation, un-derived, K763).
 
     ("sin^2(theta_W) (Weinberg angle)",
      "N_c / (N_c + 2*n_C)",
@@ -131,7 +131,7 @@ PREDICTIONS = [
     ("m_mu/m_e (muon/electron mass ratio)",
      "(24.0/pi**2)**6",
      (24.0 / pi**2)**6,
-     206.768283, "CODATA 2022", "I"),
+     206.768283, "CODATA 2022", "I"),   # K963/Cal-117 2026-07-28: REVERTED D->IDENTIFIED. 24 is 4-fold degenerate + Gamma(5) mechanism-ambiguous (Cal 117); 71 was the arbiter, blind-71 FAILED (toy 4896). But NOT Fitted: Gamma_Omega(5)=45*2^(3/2)*pi^2 is analytic (carries pi^2), so 24-paired-with-pi^2 is the un-fakeable tell it is the Gindikin gamma not the |S4|=24 count -> IDENTIFIED w/ promotion path. Derived needs the ADDRESS (s=5, exp n_C+1) DERIVED not noticed (Cal#27). Superseded note: 24=Gamma(n_C)=Gamma(5) is the target-innocent Gindikin gamma factor (F665); pi^2 from half-integer strata (F664); exponent n_C+1 (F662). Mass K695-derived 0.003%; open piece = proving the exponent forcing (forcing-proof, not value-bearing) -> Derived.
 
     ("a_e (electron anomalous moment, Schwinger)",
      "alpha / (2*pi)",

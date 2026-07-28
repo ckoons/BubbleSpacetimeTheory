@@ -20,6 +20,38 @@ claims:
 
 *[PROGRAM: STANDARD] Keeper, designed with Casey, 2026-07-27. The canonical tier definition. All scorecards / the Forcing-and-Evidence document run on this.*
 
+## ★★ FINAL LADDER (settled with Casey, 2026-07-28) — THE canonical reference the bottom-up review runs on
+*Consolidates the v2 / v2.1 derivation below. This is the current system.*
+
+**TIERS (how we know it):**
+- **PROVED** — a closed mathematical argument; effectively a proof of the derivation, may satisfy mathematical review.
+- **DERIVED** — geometry-forced, no fitting evidence. **THE TARGET.** Two forms:
+  - *Primary* — the geometry forces it directly.
+  - *Derived-calculation (second-tier)* — an accurate combination/ratio of already-DERIVED values (e.g. matter fraction = 1 − Ω_Λ when Ω_Λ is Derived). Carries its input-dependency (its tier moves if an input's tier moves). **NOT Structural.**
+  - Carries a **likelihood-to-be-PROVED subtier** (the path to Proved).
+- **IDENTIFIED** — a single-route derivation with a NAMED open piece (not just an unwritten proof); a strong lead; carries a **likelihood-to-be-DERIVED subtier**.
+  - **★ THE OPEN-PIECE TEST (settled with Casey, 2026-07-28) — what actually separates DERIVED from IDENTIFIED:** an open piece caps a claim at IDENTIFIED **only if it is *value-bearing*** — if resolving it could move or kill the number. An open piece that only concerns *proving the forcing* of a value that is already pinned, falsifiable, and unrefuted leaves the claim **DERIVED**. *Casey's GR line: Einstein's field equations force the structure; they don't hand you the mass of Jupiter. A non-load-bearing unknown does not demote a forced structure.* Worked contrast: `sin²θ₁₃=1/45` — open piece = "prove the Pythagorean route is forced," value pinned/falsifiable/unrefuted → **DERIVED**; `sin²θ₁₂=3/10` — open piece = "where does the solar-3 numerator come from," which *resisted eight closure attempts* (the value itself is at stake) → **IDENTIFIED**. This is the operational form of the burden-of-proof flip at the Derived/Identified line: a named-but-non-value-bearing gap is *not* positive evidence the value is wrong, so it does not demote.
+- **CONDITIONAL** — hinges on an open conjecture or identification; carries a **likelihood-of-PROOF subtier**.
+- **STRUCTURAL** — mostly **"not precise"**: qualitative / rough within a few percent; keep investigating.
+- **FITTED** — searched or fit to a formula **WITHOUT a D_IV⁵-based reason**; a lead, not a claim (magic-number closed forms = parked leads for future investigation).
+- **RUNNER** — not a fixed number (scale-dependent trajectory); improvable by non-BST papers. Includes **RUNNER (process)** — boundary-crossing dynamical results (e.g. glueball mass ratios = **projection + mass-assembly**, two interior↔boundary processes). The clean integer identities within stay DERIVED (0⁺⁺=n_C, the {3,5,6,7} ladder); the process-dependent ratios are Runner(process) until the two-process theory is derived, then they promote to Derived-calculation. (Handle "process" as a Runner case-by-case unless Casey elevates it to its own sub-label.)
+
+**LIKELIHOOD SUBTIERS — the path-to-closure axis (on IDENTIFIED, CONDITIONAL, and DERIVED):**
+- **Insight** — further BST-author work will likely yield it (a "width" gap — do the work; nearest).
+- **Reframe** — the open part must be re-cast before it closes.
+- **Analog** — resembles a known, solved problem; import the route.
+- **Millennial** — a peer of a Millennium problem; deep/frontier-hard — an *honest* hardness, not a flaw.
+- **Low** — unlikely as currently formulated; no reframe in view now.
+- *Applied:* Conditional/Identified → likelihood of **DERIVATION**; Derived → likelihood of **PROOF** (`Derived / Analog`, `Derived / Millennial`).
+
+**CONFIRMATION AXIS (separate, always):** `tier[/subtier]; confirmed <Xσ across N observables` (GR's test list; how-well-checked, never conflated with how-we-know).
+
+**BURDEN OF PROOF (standing):** geometry-forced + accurate + above-null + no-counterexample = **DERIVED by default**; demotion needs POSITIVE evidence — no-D_IV⁵-reason/searched → Fitted; open conjecture/identification → Conditional; imprecise → Structural; scale-dependent/process → Runner. **Audit under-claim as hard as over-claim.**
+
+**Tag examples:** `PROVED` · `DERIVED` · `DERIVED-calc (from Ω_Λ)` · `DERIVED / Millennial` · `IDENTIFIED / Reframe` · `CONDITIONAL / Insight` · `STRUCTURAL` · `FITTED (lead)` · `RUNNER (process)`.
+
+---
+
 ## AXIS 1 — TIER (provenance / how we know it)
 
 **PROVED (P)** — a closed mathematical derivation: follows necessarily from stated premises, no gap a referee would contest (referee-consensus with acceptable residual — even Wiles/Perelman carry minor gaps). The mathematician's bar. *(BST e.g.: N_c = rank²−1 from the scalar-Hardy condition, T1829, physics-free.)*
@@ -32,6 +64,7 @@ claims:
 - **Guard (the Derived/Fitted line):** at least one route must be structural/forced. Two SEARCHED routes agreeing by luck ≠ Derived (= Fitted).
 
 **IDENTIFIED (I)** — an accurate structural match, SINGLE direction, forcing NOT yet established: the structure fits but doesn't yet force THIS one over alternatives, and there's no second route. A strong lead. Promotes to Derived when forced (no counterexample) or a second structural route appears.
+- **★ Open-piece test (the Derived/Identified boundary, settled 2026-07-28):** what caps a claim here is a *value-bearing* open piece — one whose resolution could move or kill the number (e.g. an unpinned numerator that resisted closure). An open piece that only concerns *proving the forcing* of an already-pinned, falsifiable, unrefuted value does NOT cap here — that claim is DERIVED (GR forces the structure without handing you every value; a non-load-bearing unknown doesn't demote). See the worked θ₁₃-vs-θ₁₂ contrast in the FINAL LADDER block above.
 
 **CONDITIONAL (C)** — accurate/structural but hinges on an unproven conjecture OR an open physical identification (a real geometric/topological quantity whose tie to the observable is the open step). *(e.g., the dark-energy Chern number is real; the Chern→Λ-fraction identification is the open step + a live DESI tension.)*
 

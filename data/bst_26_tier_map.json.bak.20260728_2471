@@ -172,8 +172,8 @@
    "tier": "LATTICE+ANCHOR",
    "note": "uses 17=(N_max-1)/8 anchor",
    "precision": "structural",
-   "k962_tier": "IDENTIFIED (Weak / Low)",
-   "k962_note": "K963 (2026-07-28): Weak-Identified/Low — coarse, uses the 17-anchor; value not cleanly pinned (value-bearing gap).",
+   "k962_tier": "IDENTIFIED",
+   "k962_note": "coarse/anchor",
    "confirmation_axis": "coarse",
    "likelihood_subtier": "low",
    "openpiece_justification": "HELD: coarse target — value NOT cleanly pinned → open piece value-bearing"
@@ -272,13 +272,11 @@
    "F603_K769_O_pinned": "F603/K769 (post-EOD): O's DIRECTION now DERIVED (was blocker) -- Lyra pinned it non-circularly from quantum numbers (color-singlet, SU(2)_L doublet, Y=1/2 -> SO(5) VECTOR (1,0)=5, lambda2=0 spherical, reaches Shilov boundary; all one fact, not fit). Top = spinor (1/2,1/2)=4 (lambda2=1/2, non-spherical); Yukawa = gamma-vertex 4x4->5, but 5 is NOT the stretched branch (stretched = adjoint 10) -> REP THEORY DOES NOT FORCE y_t=1 (sub-maximal CG) -> real evidence against 'y_t=1 automatic'. y_t = (sub-max angular CG) x (radial overlap of top with boundary O). Whole flavor area now hinges on ONE number: the top's radial discrete-series address (a,b) = June open core (pull 07-19i). ELIE FISH (Grace-confirmed): 0.992 gap is DEGENERATE within RG-running magnitude (O(1-few%)/decade; exact y_t=1 at high scale -> ~0.955-0.99 at m_t) -> data CANNOT decide the fork; do NOT bank y_t=1 on 0.992. y_t=1 stays SUPPORTED/OPEN.",
    "yt_deficit_candidate_LEAD": "CANDIDATE (LEAD, NOT banked -- peak-convergence, Casey's own result guarded hardest): y_t = 1 - 1/2^g = M_g/2^g = 127/128 = 0.99219 (Lyra). BST-native: 2^g=128 = GF(2^g) Reed-Solomon field the substrate codes on; 127=M_g the g-th Mersenne prime = outermost usable code level; top sits at level M_g, the one level it can't cross to the boundary condensate = deficit 1/2^g (one code-unit). Implies m_t(pole)=172.74 GeV (obs 172.69+/-0.3, inside bar). Mechanism (F603): O spherical on Shilov boundary, top is discrete-series -> approaches but never reaches -> <top|O> -> 1 from below. THREE GUARDS held: (1) SCHEME-DEPENDENT -- matches POLE 0.992 but MS-bar(163)=0.936 no match, needs reason geometric y_t is the pole one; (2) ELIE FISH -- 0.8% deficit degenerate between geometric 1-1/2^g and exact-1+RG-running, number can't decide; (3) 'top at level 127' must be FORCED not chosen for prettiness. DECIDER = the top's discrete-series address (a,b) computed non-circularly (June open core, pull 07-19i): if boundary-overlap deficit = exactly 1/2^g -> DERIVED (y_t=M_g/2^g, beautiful); if 0 -> pure RG, retired. NEW rep-theory evidence (Elie) LEANS toward y_t<1 (sub-maximal 5-branch + non-spherical top reaching spherical boundary) -> favors the geometric-deficit reading over exact-1. DERIVED-clean regardless: mass ordering = boundary-reach ordering (t>c>u = most->least boundary-localized). || K773 STRENGTHEN: 1/2^g now has a TARGET-INNOCENT source -- a primitive Reed-Solomon code over GF(q=2^g=128) has block length n=q-1=127=M_g (standard coding fact). So y_t=<t|O>=(RS block length)/(field size)=M_g/2^g=127/128; the top=maximal codeword covers 127 positions, one short of the full field; the neutrino=the overflow/parity symbol (no info->zero-mode, converges with rank-2 m1=0). Unit forced by the code the substrate already runs, NOT fit. STILL LEAD -- 2 guards survive: (i) 'top=maximal codeword' unforced (needs discrete-series structure); (ii) pole-vs-MSbar (0.94) + RG-degeneracy (Elie fish) -- only Lane A's COMPUTED radial gap clears them. Not banked.",
    "K773_angular_correction": "K773 CORRECTION (Elie, Grace applied to own artifacts): the earlier 'Yukawa=4x4->5, 5 is sub-maximal (stretched=10) -> reps DON'T force y_t=1' argument is RETRACTED -- it conflated two chiralities. The top bilinear (2,2) IS the Higgs channel, so the ANGULAR part = EXACTLY 1 (DERIVED, positive). => the ENTIRE y_t deficit is PURELY RADIAL (the codeword's reach, one symbol short) -> half the y_t problem is CLOSED and derived; only the radial gap (Lane A) remains. This supersedes the F603_K769_O_pinned 'rep theory does not force y_t=1' clause.",
-   "k962_tier": "CEILING:DERIVED / VALUE:IDENTIFIED",
-   "k962_note": "K964 (2026-07-28): Ceiling/Value split (earns it: target-innocent route + ceiling falsifiable WITHOUT the value + value-gap named). Supersedes yesterday's flat IDENTIFIED. Precedent for every 'saturates a derived bound' claim.",
+   "k962_tier": "IDENTIFIED",
+   "k962_note": "y_t=1 (top saturates Shilov) × ruler; correspondence-tier",
    "confirmation_axis": "0.04%",
    "likelihood_subtier": "BORDERLINE — Casey adjudicates",
-   "openpiece_justification": "★ y_t=1 still SUPPORTED (F603/K769) → open piece may be VALUE-BEARING → held IDENTIFIED pending Casey's ruling (Keeper flagged)",
-   "ceiling": "DERIVED — y_t≤1 → m_t≤174 GeV (Cauchy-Schwarz, falsifier A#7)",
-   "value": "IDENTIFIED — exact saturation (y_t=1) unforced (F603/K769 supported)"
+   "openpiece_justification": "★ y_t=1 still SUPPORTED (F603/K769) → open piece may be VALUE-BEARING → held IDENTIFIED pending Casey's ruling (Keeper flagged)"
   },
   "theta_QCD": {
    "form": "0",
@@ -303,8 +301,8 @@
   "parity_violation_VmA": {
    "form": "weak couples to ONE chirality (V-A)",
    "tier": "DERIVED_NATIVE",
-   "law": "V-A parity violation is DERIVED-native. NOTE (K978 correction 2026-07-28): the ORIGINAL omega-lock mechanism (g=7 odd -> central volume element omega=gamma_1..gamma_7 -> spacetime chirality locked to internal weak chirality, F571/K729) was REFUTED by F642/K822 (2026-07-22): the isotropy SO(2) ANTICOMMUTES with 4D gamma5 ({Sigma_06,gamma5}=0, signature-forced), so a definite-holomorphicity state is 4D DIRAC/vector-like -> the omega-lock fails at the operator level. The SURVIVING derivation is the boundary-Z2 + hypercharge route (K835, 2026-07-23): the boundary Z2 swaps the k=+-1 instanton zero modes; because Y!=0 (derived) they are CPT conjugates -> one chiral Weyl survives -> parity bit=1, locked to U(1)_Y. The gravi-weak boundary forcing-proof (F647 Route 2) is UN-COMPUTED but non-value-bearing (open-piece test, K962/K964) -> tier stays DERIVED.",
-   "note": "NEW PHYSICS: parity violation is native to the substrate. Target-innocent (g fixed long ago), falsifiable (even substrate -> no parity violation). L-vs-R label = convention. Forbids light nu_R (consistent Majorana). Mechanism = boundary-Z2 + hypercharge (K835), NOT the retired omega-lock (F642).",
+   "law": "g=7 ODD -> volume element omega=gamma_1..gamma_7=-i*1 is CENTRAL -> spacetime chirality LOCKED to internal weak chirality (omega=gamma5^ST*chi^int) -> weak doublet single-handed = parity violation FORCED (F571, verified K729)",
+   "note": "NEW PHYSICS: parity violation is a consequence of the ODD substrate dimension g=7. Target-innocent (g fixed long ago), falsifiable (even substrate -> no parity violation). L-vs-R label = convention. Forbids light nu_R (consistent Majorana).",
    "k962_tier": "DERIVED",
    "k962_note": "native: V−A from odd-g chirality (forced-native)",
    "confirmation_axis": "—",
