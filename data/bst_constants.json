@@ -119,7 +119,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "k962_tier": "DERIVED — target-innocent, re-confirmed (K992): 6=C₂ Bergman spectral gap, π⁵=Hua volume, no free parameters",
+   "k992_note": "K992 (2026-07-29) RE-AUDIT — 6π⁵ DERIVED, target-innocent CONFIRMED (closes Cal §135's un-re-audited flag). Form 6π⁵ = C₂·π^{n_C} (6=C₂, 5=n_C); π-ful ⟹ MEASURE not count (K968 discriminator). Mechanism (BST_ElectronMass_CanonicalProof.md, verified): the 6 = C₂ = the Casimir eigenvalue of the k=6 Bergman space (C₂ = k(k−n_C) = 6·1 = 6) = the spectral gap of the Bergman Laplacian — NOT a coincidental 6, NOT 3! or N_c·rank (the π-ful measure form rules out a count). The π⁵ = Vol(D_IV⁵) = π⁵/1920 (Hua volume, classical). The 6 being the Casimir is the electron's analog of the muon's 24 = Γ(n_C) being the genuine Gindikin gamma (both real geometric objects, not bare counts). 'Not fitted — computed from D_IV⁵, no free parameters, no SM input.' Value 1836.118 vs obs 1836.153 → 0.0019%. Ships Derived in the flagship."
   },
   {
    "id": "const_002",
@@ -436,7 +438,7 @@
     "m_mu/m_e = (24/pi^2)^6 = 206.761"
    ],
    "category": "particle",
-   "tier": "IDENTIFIED",
+   "tier": "D",
    "ac_depth": 1,
    "mechanism": "Muon mass from Bergman kernel second-order correction. Exponent 6 = n_C + 1.",
    "domain": "particle_physics",
@@ -447,9 +449,12 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "k962_tier": "IDENTIFIED / Insight — 2 of 4 K967 sub-criteria now DERIVED (K973); ratio banks DERIVED iff S2+S4 land (prompt 28h)",
+   "k962_tier": "DERIVED (e=n without counterexample) — burden-flip, qualifier MANDATORY, never bare (Casey 29d named-ground call)",
    "k962_note": "K963→REVERTED (Cal §117, 2026-07-28): the 'DERIVED via 24=Γ(n_C)' promotion does NOT bank — 24 is 4-fold degenerate (4!/|S₄|/Weyl-orbit/codim) and 'Γ(5)' is 3-way mechanism-ambiguous; the prime 71 (tau) was the real arbiter and Elie's blind tau-forward FAILED to produce it. Muon UPGRADES Fitted→IDENTIFIED/Insight (Γ_Ω is a real object, concrete promotion path — see Γ_Ω π-signature below), NOT DERIVED. This restores the board's long-standing IDENTIFIED position. Confirmation 0.004% (⊥ tier).",
-   "k973_note": "K973 (2026-07-28) BANKED sub-criteria of the K967 blind bar: (S1) DERIVED — the 24 is the analytic Gindikin Gamma_Omega value Gamma(5), NOT a bare count (F157=K923 theorem, verified vs Faraut-Koranyi; the pi^2 pairing is the un-fakeable analytic tell). (S3) DERIVED — exponent 6 FORCED by pi-counting = dim SO(4) = C(4,2) = measurement little group (F111; the old derivation_chain readings '24=N_c!*2^rank' and '6=n_C+1' are pre-K973 coincidental matches, superseded by the Gamma_Omega/F111 mechanism). Muon mode target-innocent at nu=3/2 = a/2 = rho_2. Interior = 2 idempotent seats RIGOROUS (spin factor Re(+)R^4, FK-sourced; E7->4). TWO GATES REMAIN, each ONE linear-algebra step (28h, Lyra+Elie): S2 = project target-innocent F603 condensate direction into R^4, read u-hat; spin-factor frame c_pm=1/2(e +/- v/|v|) is UNIQUE unless v central (FK III.1.2); clears iff v!=0 (non-central). [Cal S^3 'continuum' = set of ALL frames, dissolved once operator given; toy 4900 bug = tested a frame-INVARIANT symbol (degenerate v=0), opposite of frame-selection.] S4 = compute Rossi-Vergne support-orbit rank ell (totally ordered, associated variety); clears iff it names tau->ell=0 BLIND (K880 quarantined). Ratio -> DERIVED iff v!=0 AND ell picks the boundary blind. Use the RANK ell, not the words 'interior/boundary' — INVERTED between Jordan-idempotent and Wallach-support pictures (same class as the sec-118-rung vs K880-Shilov k-overload I flagged; both resolved by picture-independent LA invariants). Consistency-checked: ell tracks nu tracks inverse-mass monotonically (tau ell=0 heaviest/singular-Shilov; electron ell=2 lightest/full-interior)."
+   "k973_note": "K973 (2026-07-28) BANKED sub-criteria of the K967 blind bar: (S1) DERIVED — the 24 is the analytic Gindikin Gamma_Omega value Gamma(5), NOT a bare count (F157=K923 theorem, verified vs Faraut-Koranyi; the pi^2 pairing is the un-fakeable analytic tell). (S3) DERIVED — exponent 6 FORCED by pi-counting = dim SO(4) = C(4,2) = measurement little group (F111; the old derivation_chain readings '24=N_c!*2^rank' and '6=n_C+1' are pre-K973 coincidental matches, superseded by the Gamma_Omega/F111 mechanism). Muon mode target-innocent at nu=3/2 = a/2 = rho_2. Interior = 2 idempotent seats RIGOROUS (spin factor Re(+)R^4, FK-sourced; E7->4). TWO GATES REMAIN, each ONE linear-algebra step (28h, Lyra+Elie): S2 = project target-innocent F603 condensate direction into R^4, read u-hat; spin-factor frame c_pm=1/2(e +/- v/|v|) is UNIQUE unless v central (FK III.1.2); clears iff v!=0 (non-central). [Cal S^3 'continuum' = set of ALL frames, dissolved once operator given; toy 4900 bug = tested a frame-INVARIANT symbol (degenerate v=0), opposite of frame-selection.] S4 = compute Rossi-Vergne support-orbit rank ell (totally ordered, associated variety); clears iff it names tau->ell=0 BLIND (K880 quarantined). Ratio -> DERIVED iff v!=0 AND ell picks the boundary blind. Use the RANK ell, not the words 'interior/boundary' — INVERTED between Jordan-idempotent and Wallach-support pictures (same class as the sec-118-rung vs K880-Shilov k-overload I flagged; both resolved by picture-independent LA invariants). Consistency-checked: ell tracks nu tracks inverse-mass monotonically (tau ell=0 heaviest/singular-Shilov; electron ell=2 lightest/full-interior).",
+   "k984_note": "29d (2026-07-29) RULING — muon carried at DERIVED (e=n without counterexample), the burden-flip tier (K962: geometric forcing on one route absent a counterexample = Derived by default; demotion needs POSITIVE evidence). PROVENANCE: S1 (24=analytic Gamma_Omega, F157=K923), S3 (exponent 6, F111), S4 (tau=boundary by rank), interior-2 seats (rigorous) are all POSITIVELY DERIVED. The last step — e=n (the EW-symmetric axis n = the Jordan cone identity e) — is carried by the burden-flip: Cal SS127 SEPARATED it from the deep gauge embedding (local Sp(2)-spinor question, not hostage to dim-11->12); the (2,2) reading is geometry-FAVORED; the alternative (n!=e, a conjugate Spin(4) not fixing e) has ZERO positive support. QUALIFIER IS MANDATORY — never write bare 'Derived'; the '(e=n without counterexample)' names the one absence-carried step honestly. UPGRADE PATH: Cal's n=e derivation from the substrate potential (SSB-correct: 'unbroken axis n sits at e, breaking transverse', NOT 'symmetric wins') removes the qualifier -> bare DERIVED. DEMOTION: a positive n!=e counterexample -> back to IDENTIFIED. This is the WORKED EXAMPLE for the Forcing+Evidence standard: geometry forces the structure, evidence (no counterexample) carries the closer, the tag shows exactly which is which. Composite ratio m_mu/m_e=(24/pi^2)^6, 0.003%.",
+   "tier_reconcile_note": "tier D reconciled to k962 DERIVED (K986 burden-flip); the mandatory '(e=n without counterexample)' qualifier lives in k962_tier — never render bare 'D' without it (Cal §135 never-bare rule).",
+   "f323_decoupling_note": "29t (2026-07-29): the muon's DERIVED tier is anchored to the e=n burden-flip (K986), INDEPENDENT of the F323 lepton integral. F323 decides ONLY the c-function SECOND route (whether the muon gains an independent second derivation), NOT the tier. PRE-REGISTERED ledger response (committed before the number): (PASS, F323 ≈ (24/π²)⁶): add 'second route: F323 cross-ν overlap CONFIRMED' — a CONFIRMATION-axis strengthening (already Derived → now double-route), lepton engine advances to the full Gram/PMNS. (NULL, F323 ≠ 24/π² or won't close): stamp the c-function/F323 route CLOSED (evaluated, does not reproduce the form); muon UNCHANGED (Derived via e=n); unified one-matrix engine PARKED as a research arc; fermion sector banks AS-IS (11/13 Derived); the principle 'quarks=degree-Jack, leptons=cross-ν overlap' remains a real finding. A null does NOT downgrade the muon and is NOT a failure. Do NOT tune the integrand to hit 24/π² (fabrication the bar stops)."
   },
   {
    "id": "const_011",
@@ -1461,7 +1466,7 @@
     "Exponent 10/3 derivation has a gap (tier 2)"
    ],
    "category": "particle",
-   "tier": "FITTED",
+   "tier": "I",
    "ac_depth": 1,
    "mechanism": "Tau mass extends muon formula by (g/N_c)^{10/3} correction. Mechanism clear but exponent 10/3 derivation has a gap.",
    "domain": "particle_physics",
@@ -1472,9 +1477,13 @@
    "source_toys": [],
    "status": "structural",
    "ace": "(1,0)",
-   "k962_tier": "FITTED (lead)",
+   "k962_tier": "IDENTIFIED-FINAL — home DERIVED (pole), √π canonical; base 49·71 imported (prime-71 BOUND, K989)",
    "k962_note": "K963 (2026-07-28): HELD at FITTED. Two competing tau forms, BOTH with an un-sourced piece: (a) 49·71 — 71=g+2^(g−1) decomposed AFTER matching (target-aware); (b) this entry's (24/π²)⁶·(7/3)^{10/3} — inherits the muon's now-DERIVED (24/π²)⁶ but the (7/3)^{10/3} exponent 10/3 is un-sourced. Form-ambiguity (like the glueball ratios). Stays FITTED-lead until Elie's blind forward computation (orbit→mass) produces the value with no peek. Confirmation ~0.05% (accuracy ⊥ tier).",
-   "k973_note": "K973 (2026-07-28): the singular-Shilov mechanism explains WHY the tau reads FITTED (not a hole). tau = Rossi-Vergne support-rank ell=0 = deepest/most-singular boundary stratum; a SINGULAR measure does not carry the absolutely-continuous interior weight Gamma_Omega needs -> no clean analytic address -> honestly FITTED. This is the seed of the 'predict-not-label' bar: the frame PREDICTS the tau's tier (boundary=>Fitted), it does not merely park it there. Stays FITTED-lead; the (7/3)^{10/3} exponent still un-sourced. Confirms Cal's 28h finding that interior/boundary is inverted between the two pictures — the tau is the ell=0 boundary generation, NOT the electron (K947 watch used the inverted Jordan-language)."
+   "k973_note": "K973 (2026-07-28): the singular-Shilov mechanism explains WHY the tau reads FITTED (not a hole). tau = Rossi-Vergne support-rank ell=0 = deepest/most-singular boundary stratum; a SINGULAR measure does not carry the absolutely-continuous interior weight Gamma_Omega needs -> no clean analytic address -> honestly FITTED. This is the seed of the 'predict-not-label' bar: the frame PREDICTS the tau's tier (boundary=>Fitted), it does not merely park it there. Stays FITTED-lead; the (7/3)^{10/3} exponent still un-sourced. Confirms Cal's 28h finding that interior/boundary is inverted between the two pictures — the tau is the ell=0 boundary generation, NOT the electron (K947 watch used the inverted Jordan-language).",
+   "k982_note": "K982/K980 RULING (2026-07-29) — TAU value = FITTED (DERIVED-FINAL). My pre-registered K980 branch (b) landed. Elie toy 4907: the F483 lepton mass operator splits the three leptons by support-orbit dimension {5,4,0} — electron (open cone / bulk, nu=5/2), muon (light-cone boundary / edge, nu=3/2), TAU (vertex/tip, ell=0, nu=0). e and mu are smooth-measure eigenvalues (ratio = F111 = (24/pi^2)^6, Derived). TEST 1 (RIGOROUS, positive proof): the interior closed-form mass formula is FINITE at the electron (nu=5/2) but hits Gamma(0)=infinity — a genuine POLE — at the tau's nu=0. The smooth spectral formula PROVABLY does not extend to the boundary seat, so the tau is PROVABLY NOT a smooth-spectral eigenvalue; it is a measure-set boundary mode. This is a no-closed-form PROOF (a pole), NOT a failure-to-find — it meets the blind bar K981-B1. => 'Fitted' is now a DERIVED, POSITIVE statement: the heaviest lepton is the ell=0 boundary mode; boundary modes carry measure-set (Shilov-vertex singular-measure) masses, not closed-form spectral masses — which is WHY the 49*71 (and (7/3)^{10/3}) forms read as imported. Physicist's language: domain-wall fermion / edge state / discrete-series limit at the boundary. SCOPE CAVEAT (held precise, Cal): the Test-1 POLE proves 'no SMOOTH-SPECTRAL closed form' rigorously. The fully-exhaustive 'no closed form of ANY kind' leans on Test 2 (a single free vertex measure-weight, a BOUNDED search Elie flagged non-exhaustive) — SUPPORTED, not exhaustively proven. So the DERIVED-final content is 'tau is provably the boundary/measure-set mode (Test 1 pole)'; do NOT over-claim 'no formula whatsoever.' Writeup: Lyra (F724). Ledger bank: Grace. Value stays 3477.48-Fitted; the epistemic status is the upgrade.",
+   "k987_note": "K987 RULING (2026-07-29) — TAU VALUE = IDENTIFIED. My pre-registered Bar A landed on the Identified branch. Elie toy 4910 (blind) on Lyra F726: the canonical vertex weight = Gindikin Gamma_Omega residue Res_0 Gamma_Omega = 37.22 (sqrt-pi-ful, the a=3-odd fingerprint F157, canonical + blind, four digits). Blind domain-invariant candidates (37, 1.8, g^2*res=1824, res^2=1385) — closest 1824, NONE within 5% of the base 3479. The base is O(3479), the residue O(37) — two orders apart; 71 is a PRIME with NO Gamma_Omega-residue origin; no target-innocent construction yields 71 without supplying it by hand. So: HOME = DERIVED (the Gamma(0) pole, boundary mode, untouched); sqrt-pi correction = CANONICAL + BLIND (real partial geometric result); BASE 49*71 = MATCHED, not canonical => VALUE tier = IDENTIFIED (real geometric object present — pole+sqrt-pi — with the base scale matched). This UPGRADES the morning's FITTED (derived-final) to IDENTIFIED, justified by the canonical sqrt-pi + Derived pole home (not a bare fit). Honest nuance: the base ITSELF is Fitted-flavored (matched prime, no geometric origin); the value is Identified because of the surrounding canonical structure. ONE LAST SHOT: the formal-degree scale d(nu) instead of Gamma_Omega(5/2) may supply the O(3479) scale — worth one blind run — but the prime-71 obstruction stands, so LEAN IDENTIFIED-FINAL. K981-guard held: base-only-by-matching is not Derived; the 71 reverse-fit was refused. Supersedes k983_pending (canonical-weight path attempted, base did not fall out canonically).",
+   "k989_note": "K989 (2026-07-29) — tau value IDENTIFIED-FINAL, closed with a BOUND not a lean. Elie toy 4911: the formal-degree last shot missed, AND he found WHY it must: every canonical Gamma_Omega object at the lepton strata (nu<=5/2) carries only small primes (largest 3); the prime 71 FIRST appears in a Gamma value at nu>=36 — two orders above any lepton address. So 71 CANNOT be a canonical output at lepton addresses — the base 49*71 is imported, STRUCTURALLY (a bound). The flagship states exactly this: geometry fixes the heaviest lepton as a boundary mode (home DERIVED, the pole), the odd-color sqrt-pi fingerprint is canonical/blind, but the exact value carries a prime with no home in the cone's gamma at lepton addresses. Honest and un-embarrassed. Supersedes the k987 'lean Identified-final' -> now Identified-FINAL with the reason.",
+   "tier_reconcile_note": "tier I reconciled to k962 IDENTIFIED-FINAL (K989); home DERIVED (pole), base 49·71 imported with the ν≥36 prime-71 bound."
   },
   {
    "id": "const_040",
@@ -1509,7 +1518,9 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "value_form_of": "const_157",
+   "dedup_note": "29p dedup: the VALUE-form of m_t (const_157 is the ceiling home). (1−α)·v/√2 = 172.75, 0.037% — the value-realization of the y_t=1 ceiling, tier IDENTIFIED (value). Not a separate m_t observable; rule the ceiling+value as one via const_157."
   },
   {
    "id": "const_041",
@@ -4044,7 +4055,9 @@
     "toy_1451"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "duplicate_of": "const_158",
+   "dedup_note": "29p dedup: NON-AUTHORITATIVE duplicate of const_158 (the y_c=α DERIVED form, 0.05%). This older RFC charm/strange derivation (0.6%) is retained for provenance, not used for the σ-check. Rule against const_158."
   },
   {
    "id": "const_110",
@@ -5515,7 +5528,10 @@
    "precision": "0.8%",
    "tier": "I",
    "unit": "GeV",
-   "notes": "T2514/F509: top = maximal excitation saturating Shilov boundary → y_t=1 (Cauchy-Schwarz); v forced indep of m_t. Predicted, zero top input. Grace sync 2026-07-12."
+   "notes": "T2514/F509: top = maximal excitation saturating Shilov boundary → y_t=1 (Cauchy-Schwarz); v forced indep of m_t. Predicted, zero top input. Grace sync 2026-07-12.",
+   "k962_tier": "CEILING:DERIVED (y_t≤1 ⟹ m_t≤v/√2≈174) / VALUE:IDENTIFIED (172.7 via the (1−α) correction, const_040)",
+   "authoritative": true,
+   "dedup_note": "29p dedup: AUTHORITATIVE m_t tier-home (y_t=1 boundary-saturation ceiling). Ceiling DERIVED (174); the sub-% VALUE (172.7, 0.037%) is the (1−α)-corrected form in const_040 — its value-realization, NOT a separate observable."
   },
   {
    "id": "const_158",
@@ -5528,9 +5544,12 @@
    "observed_value": 1270.0,
    "observed_source": "PDG (MS-bar)",
    "precision": "0.05%",
-   "tier": "I",
+   "tier": "D",
    "unit": "MeV",
-   "notes": "T2515/toy4621: charm sits one boundary shell in; boundary coupling is α=1/N_max → y_charm=α. m_charm=α·v/√2. Predicted, zero charm input. Grace sync 2026-07-12."
+   "notes": "T2515/toy4621: charm sits one boundary shell in; boundary coupling is α=1/N_max → y_charm=α. m_charm=α·v/√2. Predicted, zero charm input. Grace sync 2026-07-12.",
+   "k962_tier": "DERIVED (K997) — m_c = α·v/√2 (y_c = α), 0.05%, authoritative charm entry",
+   "authoritative": true,
+   "dedup_note": "29p dedup: AUTHORITATIVE m_c. The y_c=α mechanism (K997), 0.05%. Tier fixed I→D (K997 banked it). Older RFC form const_109 (0.6%) is the non-authoritative duplicate."
   },
   {
    "id": "const_159",

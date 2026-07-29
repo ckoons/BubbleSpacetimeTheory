@@ -1,0 +1,40 @@
+# F730 — Pin the up-type + neutrino arguments for the three blind runs (V_cb, m_c/m_u, neutrino Δm²), with the honest tier expectations stated UP FRONT — because these are the *harder* sector and the credibility is calling that before the numbers, not after. **V_us was clean because the 1–2 down mixing is the exact Gatto geometry off the same modes that gave m_s/m_d = 20. These three are not that clean, and the corpus already says why: the up-type is the SOFT Shilov-boundary ladder (the doublet-flip of the down is CLOSED-disfavored — the up reads its masses through the boundary, m_c = α·v/√2 forced but the up GROUND n=0 is soft), V_cb's ANGLE is derived (cosψ = 5/√34 = n_C/√(n_C²+N_c²)) but its MAGNITUDE is gated on the τ K-type address + f(ν), and the neutrino Δm² has a forced RATIO form (40/7)² = 1600/49 but FITTED coefficients (10/3, 7/12) and a live 3-way fork {32.65/33/34}.** So the pre-registered expectation is: **V_cb angle Derived / magnitude blind-test (likely Tier-2), m_c/m_u likely Tier-2 (soft up ground — a clean value here is a RED FLAG), neutrino Δm² ratio Identified/forked (blind test = does the geometry force 40/7 without the fit).** Elie runs all three blind, observed values walled off; I hold the over-fit line HARDEST here, because after two clean Deriveds the temptation to claim three more is exactly the failure mode. A forward landing is a real prediction; a soft-sector quantity matching a clean form is the tau's 71, not V_us.
+
+**Lyra, Wed 2026-07-29. The disciplined round. V_us passed because it was genuinely clean; these three probe where the colored/neutrino sector is honestly Tier-2. Pinning the arguments as far as they're forced, and calling the tiers before the runs — that restraint is what made V_us mean something, and it's what keeps the next three honest whether they land or not.**
+
+## The forced arguments, pinned as far as the geometry forces them (corpus, not reconstructed)
+**Up-type (m_c/m_u, and the up side of V_cb) — the SOFT boundary sector (Ribbon Holonomy §3.2):**
+- The up-type is **NOT** the down's {1,3,5} Pochhammer ladder — the doublet-flip hypothesis is **closed as disfavored**. The up reads its masses **through the Shilov boundary**.
+- **m_c = α·v/√2** is FORCED (α = 1/N_max, v = m_p²/(g·m_e); m_c = 1269 MeV, 0.05%) — the charm Yukawa *is* the fine-structure constant, the one clean up-type piece.
+- **m_u = the soft n=0 ground** (the gen-1 inversion m_u < m_d is forced; the up ground sits below the down's). **This is soft** — the softest charged piece.
+- **⟹ m_c/m_u** = (forced m_c) / (soft m_u). **Expected Tier-2** — the denominator is soft. If it comes out clean, that is a **red flag**, not a win.
+
+**V_cb (2–3 CKM) — angle derived, magnitude gated (WP-ledger #15):**
+- **Angle DERIVED:** cosψ = 5/√34 = n_C/√(n_C²+N_c²), target-innocent (primaries only), the 2–3 inter-stratum tilt.
+- **Magnitude ~7.5% structural, GATED** on the τ K-type address r_τ + the f(ν) up-weight (the blocker) + the A/B seam.
+- **⟹ V_cb** = the 2–3 overlap on ℂ³ (down degrees {3,5} = s,b, up-side boundary). **Expected: angle Derived, magnitude blind-test** — likely Tier-2 until r_τ/f(ν) close.
+
+**Neutrino Δm² — forced ratio-form, fitted coefficients, forked (WP-ledger #12):**
+- m₁ = 0 (banked, F589), m₂ = (7/12)α²m_e²/m_p, m₃ = (10/3)α²m_e²/m_p.
+- **Δm²₃₁/Δm²₂₁ = (m₃/m₂)² = (40/7)² = 1600/49 = 32.65** (0.3%) — but the coefficients **10/3, 7/12 are FITTED**, and there is a live **3-way fork {32.65 / 33 / 34}**.
+- **⟹ neutrino Δm² ratio** = **Identified/forked**. Blind test: does the geometry **force** the ratio 40/7 (or the coefficients) without the fit? If yes → promotes; if only by choosing the fork to match → stays Identified.
+
+## The blind protocol + the pre-registered bar (Elie runs; Keeper rules)
+| target | forced part | expected tier | red-flag condition |
+|---|---|---|---|
+| **V_cb** | angle cosψ = 5/√34 (Derived) | angle Derived / **magnitude Tier-2** (gated) | magnitude clean without closing r_τ/f(ν) |
+| **m_c/m_u** | m_c = α·v/√2 (Derived) | **Tier-2** (soft up ground) | a clean m_c/m_u value |
+| **neutrino Δm²** | ratio-form (40/7)² | **Identified/forked** | picking the fork to match the data |
+
+Elie: run all three forward on ℂ³ / the boundary sector, observed values **walled off**, report the numbers. The bar is the one V_us cleared and the tau's 71 failed — **fell-out-forward → promote; matched-by-tuning-or-fork-choice → stays Tier-2/Identified, said plainly.** These are pre-registered as the *harder* sector; landing any of them clean is a genuine surprise to be celebrated, and NOT landing them is the expected, honest outcome — not a failure.
+
+## Why the honesty is the whole point here (Casey's frame)
+V_us was the test that the addresses are pinned right, and it passed. **These three are where BST either extends the forward prediction into genuinely hard territory or honestly hits Tier-2** — and saying which, before the runs, is the credibility. The colored/neutrino sector's believability was never going to come from claiming everything is Derived; it comes from two clean Deriveds (m_s/m_d, V_us) that fell out, plus an honest map of exactly where the sector goes soft. If V_cb's magnitude or the neutrino ratio lands forward, that is a real new prediction. If they don't, we have a precise, published account of why (soft up ground, gated τ address, fitted coefficients) — which is worth more than a rounded-up claim.
+
+## Tier / handoffs
+- **@Elie** — three blind runs on ℂ³ / the up boundary: (1) V_cb = 2–3 overlap (down {3,5}, up boundary); (2) m_c/m_u = (α·v/√2)/(soft up ground); (3) neutrino Δm²₃₁/Δm²₂₁. Observed values walled off; report numbers. Source the up boundary sector + FK overlap (Ribbon Holonomy §3.2, FK Ch VI), do not reconstruct.
+- **@Keeper** — rule each against the pre-registered bar: V_cb angle Derived / magnitude Tier-2-unless-forward; m_c/m_u Tier-2 (red-flag a clean value); neutrino Δm² Identified unless the ratio forces without the fork-choice. Hold the over-fit line — this is the round where it matters most.
+- **@Cal** — audit the up-type does NOT smuggle the down's {1,3,5} (the doublet-flip is closed), and the neutrino ratio does NOT choose the fork to match. The soft up ground is the target-innocence risk.
+- **@Casey** — honest heads-up before the runs: these three are the *hard* part of the sector, and I'd rather tell you that now than after. V_us was clean because it's the exact down-quark 1–2 mixing off the modes we'd already validated. The next three aren't in that clean spot: the up quarks read their masses off the boundary and the very lightest (the up) is soft, so its ratio to charm is probably genuinely Tier-2; V_cb's *angle* is derived but its *size* is gated on a τ address we haven't closed; and the neutrino splitting has a nice ratio form but fitted coefficients and a three-way fork. So my honest expectation is that some of these land Tier-2, not Derived — and that's the *right* outcome to report, not a miss. If any of them fall out forward and blind, that's a real bonus prediction (V_cb is the one I'd watch); if not, we publish exactly where the sector goes soft, which is the credible thing to do on the colored/neutrino side.
+
+Notes only; no toy/theorem claimed (Elie owns the blind numerics). F730 (up-type + neutrino pin, honest tiers UP FRONT): V_us was clean (exact Gatto, validated modes); these three are the HARDER sector. Up-type = SOFT Shilov boundary (doublet-flip closed; m_c=α·v/√2 forced, up ground n=0 soft) → m_c/m_u expected Tier-2 (clean=red flag). V_cb angle Derived (cosψ=5/√34=n_C/√(n_C²+N_c²)), magnitude gated (r_τ+f(ν)) → magnitude Tier-2 blind-test. Neutrino Δm²₃₁/₂₁=(40/7)²=1600/49 forced-FORM but coefficients (10/3,7/12) FITTED + 3-way fork {32.65/33/34} → Identified. Elie runs blind (observed walled off); bar = V_us's (fell-out→promote, tuned/fork-chosen→Tier-2). Hold over-fit line HARDEST after two clean Deriveds. Landing = bonus prediction (V_cb watched); not-landing = honest Tier-2 map, the credible outcome. — Lyra
