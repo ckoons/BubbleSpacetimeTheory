@@ -1,0 +1,25 @@
+# F751 — Up-12 boundary derivation: the structural setup for Elie (task #53), value-claim-free. **The one structural fact that makes this its own lane: the up 1-2 mixing (u–c) is a BOUNDARY overlap, NOT the down's degree-Jack — because the up quarks get their masses off the Shilov boundary (the α-ladder), not off the interior Pochhammer degrees {1,3,5}. So the up-12 block is not V_us's mirror; it's a genuinely different computation, which is exactly why the naive "up = down + box" failed (m_c/m_u = 20 vs 577, F738).** I hand Elie the boundary mode structure and the target; I do NOT guess the mixing value (three over-reaches this week — the discipline is to set up the geometry and let the forward number decide).
+
+**Lyra, Wed 2026-07-30. Staging the up-12 for Elie's approved lane. Structure only, no value — after this week I earn the number by computing it, not by naming a pretty one.**
+
+## The up modes on the Shilov boundary (Ribbon §3.2, F730/F731 — sourced)
+The up-type reads its masses through the Shilov boundary (the doublet-flip of the down is closed-disfavored):
+| up quark | boundary position | mass | status |
+|---|---|---|---|
+| **top** | boundary **saturation** (outermost) | m_t = (1−α)·v/√2 (y_t = 1) | Derived |
+| **charm** | one **α-shell** in (coupling α = 1/N_max) | m_c = α·v/√2 (0.07%) | Derived |
+| **up** | **soft n=0 ground** (below the down's ground; gen-1 inversion forced) | soft | Tier-2 |
+
+## The up-12 mixing (what Elie computes for task #53)
+- **The object:** V_CKM = U_up† U_down. The down frame U_down is banked (Jack, gave V_us). The **up frame's 1-2 block** U_up^(12) is the u–c mixing — a **boundary overlap** ⟨u | O | c⟩ on the Shilov boundary (u at the soft ground, c at the α-shell), through the condensate O.
+- **Why it's a distinct lane:** the down-12 was the interior Jack(α=2/3) binomial (degree-indexed); the up-12 is a **boundary** overlap (α-ladder / radial-address indexed). Different object, different measure — so it needs its own derivation, not a transplant.
+- **What it completes:** the full CKM 1-2 (V_us already ≈ the down-12; the up-12 is the up-side correction) and, with the 2-3 already handled (V_cb via the projection-truncation, K711), closes the CKM off-diagonals.
+- **The honest tier going in:** the u-side is the soft sector, so the up-12 may well be **Tier-2** (like m_c/m_u). A clean rational here would be a red flag (the boundary/soft sector is continuous). Elie computes forward; the value decides its tier.
+
+## Tier / handoffs
+- **@Elie** — task #53: compute U_up^(12) = the u–c boundary overlap ⟨u|O|c⟩ on the Shilov boundary (u soft ground, c α-shell), forward. Then V_CKM^(12) = (U_up† U_down)_{12}. Report the number; blind bar (observed V_us / the Cabibbo already banked from the down side — the up-12 is the correction, so pin it against the residual, not the leading Cabibbo). Boundary sector ⟹ expect Tier-2; a clean rational is a red flag.
+- **@Cal** — audit that the up-12 is a genuine boundary overlap (not smuggling the down Jack), and target-innocence (no observed CKM in the integrand).
+- **@Keeper** — up-12 is the self-contained next lane (Casey approved). Structural setup here; the value is Elie's forward computation. Expect Tier-2 (soft up sector).
+- **@Casey** — staged the up-quark mixing as its own lane, and flagged the one thing that makes it separate: the up quarks live on the boundary, so their 1-2 mixing is a boundary overlap, not a copy of the down-quark method — which is why the obvious shortcut failed earlier. I handed Elie the mode structure and the target and deliberately did NOT put a number on it — after owning three over-reaches this week, the right move is to set up the geometry and let the forward computation say what it says, expecting honestly that the soft up sector may land Tier-2. The module is complete and publishable as-is; this lane sharpens the CKM off-diagonal, and the deep open pieces (exact δ_CKM, the θ₂₃ 1/g scale, this up-12) are all named and staged. The papers are the milestone — they're at Cal's gate for your GO. Nothing pushed; flagship still GO.
+
+Notes only; no toy/theorem claimed (Elie owns the numeric). F751: up-12 boundary derivation SETUP (Elie task #53). Up modes = Shilov boundary α-ladder (top saturation/y_t=1, charm α-shell/m_c=α·v/√2, up soft n=0 ground). Up-12 (u-c) mixing = a BOUNDARY overlap ⟨u|O|c⟩, NOT the down interior Jack — distinct object (why naive down+box failed, F738). Completes CKM 1-2 (up-side correction to V_us). Honest tier going in: soft up sector → expect Tier-2, clean rational = red flag. NO value guessed (discipline after 3 over-reaches; earn the number by computing). @Elie compute forward, report number. @Cal audit boundary-not-Jack + target-innocence. Module complete; papers at Cal's gate for Casey GO. — Lyra

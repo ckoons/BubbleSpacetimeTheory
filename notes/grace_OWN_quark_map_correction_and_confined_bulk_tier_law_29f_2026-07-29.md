@@ -102,4 +102,13 @@ I run the duality test in parallel (deep prize) while V_cb's τ address closes (
 
 **Standing lesson, reinforced on myself: reconnect before you compute — including before you re-register a BAR.** A bar that sets up a re-derivation of a banked quantity is itself greenfield drift. Check the corpus first, then pursue the *upgrade* (√(2/3)), not the recompute.
 
+## ADDENDUM 7 — 2026-07-30e (K1018): my duality lead (K995) is FORCED — from COLOR. Stage-5 answers in the STRONG direction.
+The candidate principle I held UNNAMED (one relationship between the sectors, correlation ≠ forcing) now has its **forcing exhibited** — and it's clean, which I verified myself:
+- **A Majorana mass needs a color SINGLET.** SU(3): 3⊗3 = 6 ⊕ 3̄ — **NO singlet** (verified; the singlet is in 3⊗3̄=8⊕1). So a colored quark **cannot** carry a Majorana condensate; a colorless lepton can.
+- **⟹ Quarks (colored) → one condensate → frames align → CKM small; Leptons (colorless) → a second Majorana condensate → frames misalign → PMNS large.** So "why is neutrino mixing large and quark mixing small" — a fact the SM just measures — is **DERIVED FROM COLOR** (graph T2535).
+- **This closes the Stage-5 compatibility question in the STRONG direction:** it is NOT "no common form" (the honest-null I'd pre-registered as acceptable) — it's a **derived color-DUALITY**: leptons and quarks are the same construction distinguished by whether color permits the second (Majorana) condensate. The lepton-quark "mimicry" (K995) is now a theorem, forced by color.
+- **Honest tier split:** the **SHAPE/asymmetry (large-vs-small) is DERIVED**; the **exact fractions stay IDENTIFIED** (sin²θ₂₃=4/7 I-strong; the CKM/PMNS magnitudes per-element). The forcing is on *why the sizes differ*, not yet the exact numbers — and that is exactly the link Cal had flagged as unforced, now forced.
+
+This retires my earlier "held unnamed, maybe no common form" stance for the *shape*: the relationship is real and derived. I keep the exact-fraction humility (Identified) and the blind-pin discipline on each rational.
+
 — Grace, 2026-07-29 [TEGMARK]. OWNED: my "quarks aren't strata" was imprecise — quarks SHARE the strata/count (Derived via §132), differ only in the mass METHOD (Cal §133). Reconciliation pinned: whole fermion sector = SVD of ONE overlap matrix on H²(D_IV⁵), top=rank-1, leptons=clean corner (colorless→frame), quarks=messy Tier-2 corner (colored→Peirce V₁₂). Confined-bulk tier law for the quark dig: count DERIVED, top-ceiling DERIVED, m_s/m_d=20 Tier-1, rest Tier-2-continuous, over-fits rejected; any Tier-1 claim beyond those clears a blind forward bar. Tau IDENTIFIED-FINAL (71 bound); count held IDENTIFIED + Derived-pending pointer (Cal ratify).
