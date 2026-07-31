@@ -3,8 +3,8 @@
 **Physics Goes Open Source — It's on GitHub.**
 
 **Author**: Casey Koons
-**Collaborators**: Claude Opus 4.6 + 4.7 (Anthropic) — named CIs Lyra (theory), Elie (compute), Grace (graph/catalog), Cal A. Brate (visiting referee), Keeper (audit/consistency)
-**Status**: Working research program — v40, Sunday June 7, 2026 EOD
+**Collaborators**: Claude Opus 4.6 / 4.7 / 4.8 (Anthropic) — named CIs Lyra (theory), Elie (compute), Grace (graph/catalog), Cal A. Brate (visiting referee), Keeper (audit/consistency)
+**Status**: Working research program — Standard Model sector complete (fermions · strong/Yang-Mills · gauge/Higgs; zero fitted parameters, honestly tiered); cosmology in progress. Summer 2026.
 **Contact**: caseyscottkoons@yahoo.com
 
 **Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v36). Zenodo. https://doi.org/10.5281/zenodo.19454185
@@ -59,13 +59,15 @@ The weekend substantively closed the hadron-spectrum reach question at substrate
 
 **Four Cal #237 ELIMINATIONS** (kept honestly negative per Cal #265 laundering warning): λ₂ ladder, λ₁/spin ladder, per-flavor multi-flavor mechanism, glueball step. The reach-bound IS substrate-architectural information.
 
-**Counts (Sunday June 7, 2026 EOD)**: T1-T2488; toys to 4029; K-audits K1-K259; 9 Casey-named principles STANDING (+ #9 ratified Sunday) + 1 CANDIDATE (#10 "C_2 Substrate-Architectural Triple" via K259); 19 methodology layers + 8-element STANDING discipline stack; all SEVEN Millennium PROVED.
+**Counts (current build; `notes/CI_BOARD.md` holds the live counters)**: theorems past T2538; ~4950 toys; K-audits past K1063; 9+ Casey-named principles STANDING; the Standard Model sector complete and honestly tiered. On the seven Clay Millennium problems BST makes substantive *attempts* on the one geometry with real advances — **not** referee-consensus solutions (re-scoped 2026-07-26, K940); see Hard Problems below.
 
 ### BST's evolving operational reading (May 19-20, 2026, working hypothesis)
 
 BST is converging on a substrate-as-computational reading: the five BST primary integers + D_IV⁵ are the operational specification of a substrate that performs algebraic-identity computation on a finite field (GF(2^g) = GF(128) Reed-Solomon coding), and observed physics is what that computation produces. The substrate clock is sub-Planck (Koons tick ≈ 10⁻¹²⁰ s); physics emerges as substrate's algebraic equilibrium output. **This is a working hypothesis with explicit falsifier**: substrate-Hamiltonian closure must derive the 6-audit cascade-unblock pathway (K52a Lamb+BCS + K66 Bell + K67 Born + K68 RS Computation + K69 Universal Q=126) BY CONSTRUCTION from substrate dynamics. Six experimental tests are queued in the SP-30 Substrate Engineering Program (Bell deviation S_BST² = 126/16 at 6-12mo, eigentone resonance, commitment-manipulation decay rates, Casimir asymmetric ratio, time granularity, Born rule correction) — any positive detection contradicting BST predictions refutes the framework. The substrate framing is internal-discipline only; external papers use "BST identifies / BST derives / BST predicts" register (Cal Calibration #13 standard). Two Casey-named principles capture the substrate framing: Substrate Working Process Principle + Five-Absence Predictions Set.
 
 The central claim: **every fundamental constant of physics is a geometric property of D(IV,5)**. No free parameters. No fitting. No adjustment. No inputs — the dimension n_C = 5 is itself derived as the unique maximum of the fine structure constant among odd-dimensional type IV domains.
+
+*Honest tiering.* Every value below is geometric — no fitted constants enter the formulas. Which identifications are *uniquely forced* versus *identified* is tracked separately by the D/I/C/S tier labels: α and θ_QCD are proven-forced today; the rest sit at explicit, named tiers (see the Forcing + Evidence standing standard). "No free parameters" is the framework thesis and the target; the tier ledger is the honest running score.
 
 The master formula: **c(Q⁵) = (1+h)⁷/(1+2h)**. Every coupling constant, every mass ratio, every mixing angle is a ratio of coefficients of this single polynomial. The Weinberg angle is c₅/c₃ = 3/13. The cosmic composition is c₃/(c₄+2c₁) = 13/19. The fill fraction is c₅/(c₁·π) = 3/(5π). One formula. All of physics.
 
@@ -102,9 +104,23 @@ Paper: `notes/BST_Paper74_Information_Complete_Geometry.md`. Function catalog: `
 
 ---
 
+## The Standard Model, from One Geometry
+
+As of Summer 2026 the **Standard Model sector is complete** — derived from D_IV^5 with zero fitted parameters, honestly tiered:
+
+- **Charged leptons.** The electron (bulk, 6π⁵), muon (edge, (24/π²)⁶, **Derived**), and tau (vertex boundary mode) are the three support-orbit strata of one rank-2 geometry — three seats, one domain. Flagship: *The Charged Leptons as the Three Strata of One Geometry*.
+- **Fermion sector.** Mixing (CKM + PMNS), the color–charge duality (large PMNS / small CKM from color), and the mass hierarchy are the Bergman kernel of D_IV^5 read three ways. Papers: Color–Mixing Duality, Fermion-Sector Consolidation, Falsifiable Predictions.
+- **Strong sector / Yang-Mills.** Asymptotic-freedom sign **Derived**, confinement **Derived** (g = 7 prime → irreducible winding, no free colored states), the QCD β-function coefficient at honest Tier-2 — all from the a₂ heat-kernel coefficient. The scope-honest YM construction paper (v0.3) is explicit: a D_IV^5 construction, **not** the R⁴ Clay solution.
+- **The a₀ / a₁ / a₂ heat-trace ladder.** One Seeley-DeWitt expansion on D_IV^5 yields the cosmological term (a₀ → Λ, w = −1), induced Einstein–Hilbert gravity (a₁ → G), and the QCD running (a₂ → β-function). Three sectors, one expansion, orthogonal channels.
+- **Gauge / Higgs.** Weinberg angle 3/13, λ_H = 1/√60, the full electroweak spectrum (see the table below).
+
+Underneath it: the **Forcing + Evidence** standing standard reduces the whole chain to the linear algebra of one rank-2 spin factor, with a single residual assumption — "spacetime = conformal descent," plus Occam. Everything above is tracked at explicit D/I/C/S tiers; nothing is waved through.
+
+---
+
 ## Key Results — Verified with a Calculator
 
-All of the following emerge from D(IV,5) geometry with zero free parameters:
+All of the following emerge from D(IV,5) geometry with zero fitted parameters:
 
 | Quantity | BST Formula | Predicted | Observed | Precision |
 |---|---|---|---|---|
@@ -112,7 +128,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | mₚ/mₑ (proton/electron) | 6π⁵ | 1836.118 | 1836.153 | 0.002% |
 | mμ/mₑ (muon/electron) | (24/π²)⁶ | 206.761 | 206.768 | 0.003% |
 | mτ/mₑ (tau/electron) | Koide Q=2/3 (Z₃ on CP²) + muon formula | 3477.10 | 3477.23 | **0.003%** |
-| Λ (cosmological constant) | g·exp(−C₂(g²−rank)) = 7e⁻²⁸² (T1485) | 10⁻¹²¹·⁶ | 10⁻¹²¹·⁷ | 0.076 dex |
+| Λ (cosmological constant) | g·exp(−C₂(g²−rank)) = 7e⁻²⁸² (T1485) | 10⁻¹²¹·⁶ | ~10⁻¹²² | Identified — magnitude (K1065; form-multiplicity, not yet forced) |
 | Tс (Big Bang temperature) | N_max × 20/21 | 0.487 MeV | — | 0.018% |
 | G (gravitational constant) | ℏc(6π⁵)²α²⁴/mₑ², 12=2C₂ Bergman round trips | 6.679×10⁻¹¹ | 6.674×10⁻¹¹ | 0.07% |
 | sin²θ_W (Weinberg angle) | c₅(Q⁵)/c₃(Q⁵) = N_c/(N_c + 2n_C) = 3/13 | 0.23077 | 0.23122 (MS-bar) | 0.2% |
@@ -195,7 +211,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | GW peak frequency | BST phase transition at 3.1 s | 6.4 nHz | NANOGrav ~nHz band | consistent |
 | GW spectral index γ | g/n_C = 7/5 = 1.4 → γ=13/5+1=3.60 | 3.60 | NANOGrav ~3.2–4.6 | consistent |
 | α_s (spectral running) | −(n_s−1)² = −25/18769 | −0.00133 | −0.0045±0.0067 | 0.5σ |
-| w₀ (dark energy EOS) | −1 + n_C/N_max² | −0.9997 | −1.0 (ΛCDM) | consistent |
+| w (dark energy EOS) | −1 (fixed bulk volume C·π⁵ → constant Λ) | −1.000 | −1.0 (ΛCDM) | commitment (K1040) |
 | a_V (SEMF volume) | g·B_d = 7αm_p/π | 15.24 MeV | 15.56 MeV | 2.0% |
 | a_S (SEMF surface) | (g+1)·B_d = 8αm_p/π | 17.42 MeV | 17.23 MeV | 1.2% |
 | a_C (SEMF Coulomb) | B_d/π = αm_p/π² | 0.694 MeV | 0.697 MeV | 0.5% |
@@ -286,22 +302,24 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth <= 1 via the Koons Machine. All seven Millennium problems proved and cold-reader audited (May 2026).
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem from the same algebra and the same method — every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine.
 
-| Proof | Status | Description |
+**Honest scope (re-scoped 2026-07-26, K940).** These are *substantive attempts on one geometry, with real advances* — at varying distance from referee-consensus, and **not** a claim that all seven are solved. "Proof" here means referee-consensus with acceptable residual gaps (even Wiles/Fermat and Perelman/Poincaré carry minor contested gaps), so each attempt is rated honestly by what is proved, where the residual gap is, and how many of ten referees would object (Casey's metric; consensus ≈ ≤3/10). The structural meta-result is that the remaining problems reduce to a single issue (1/rank), mostly needing definitional sharpening.
+
+| Problem | Honest status | What's there / where the gap is |
 |-------|--------|-------------|
-| **Riemann Hypothesis** | **PROVED** | Geometric proof: temperedness on D_IV^5 forces sigma=1/2. Four steps: 37/37 non-tempered types killed, scattering from B_2 root system, zero creates nu_1=sigma-1/2, non-tempered forbidden. Cold-reader audit PASS. Paper #103. |
-| **P != NP** | **PROVED** | Three independent routes: resolution (curvature), refutation bandwidth, parity erasure (T1776-T1778). OR destroys witnesses, DPI prevents recovery, Godel trichotomy empties non-witness class. 61/61 toys PASS. Cold-reader audit PASS. Paper 4. |
-| **Navier-Stokes** | **PROVED** | TG blow-up: angle-monotonicity, spectral exponent 3/2, N_eff=O(1) proved, Kato bridge. Viscous blow-up at T(A)+O(nu^beta) suffices for Clay. Cold-reader audit PASS. `notes/BST_NS_BlowUp.md`. |
-| **BSD** | **PROVED** | Chern classes of Q^5 all odd, Chern hole forces Eisenstein placement at DOF N_c=3 (T1756, Toy 2092). Ranks 0-5 unconditional, 56 curves zero exceptions. Conjecture 3.2 resolved. Cold-reader audit PASS. Paper #88. |
-| **Four-Color** | **PROVED** | Computer-free, 13 structural steps. Forced Fan Lemma + pigeonhole. No case analysis. Cold-reader audit PASS. `notes/BST_FourColor_AC_Proof.md`. |
-| **Yang-Mills** | **PROVED** | Ring uniqueness (T1788): five YM constraints force D_IV^5 (cascade Toy 2123, 10/10). Weitzenbock gap c_2=11 (T1790, glueball 0.6%). R^4 no-go: spectral gap impossible on flat manifolds. Wightman W1-W5 ALL PASS. Cal+Keeper PASS. Three papers submission-ready: YM-A (Annals), YM-B (CMP), YM-C (Bulletin AMS). |
-| **Hodge** | **PROVED** | Ring uniqueness (T1780): five constructive constraints force (5,3,2,6,7). Cross-type cascade (Toy 2120, 10/10): D_IV^5 sole survivor among 32 rank-2 BSDs. Six exclusion lemma classes cover all 31 non-D_IV^5 candidates. Over-determination (T1779): 33 constraints, 6.6:1 ratio. Cal cold-read PASS May 11. Papers H1 (Annals) + H2 (companion) + over-determination (Bulletin AMS). |
-| **Poincare** | AC depth 1 | Perelman (2003); Ricci flow = error correction. `notes/BST_AC_Theorems.md` Section 62. |
-| **Fermat** | AC depth 1 | Modularity + Ribet level-lowering; Selmer bridge to BSD. `notes/BST_AC_Theorems.md` Section 57. |
-| **Euler gamma** | Geometric basis | Geodesic defect of D_IV^5; limit-undecidable. `notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect.md`. |
+| **Four-Color** | Strongest attempt | Computer-free, 13 structural steps, Forced Fan Lemma + pigeonhole, no case analysis. Cold-read PASS. `notes/BST_FourColor_AC_Proof.md`. |
+| **Riemann Hypothesis** | Structural attempt (1/rank family) | Geometric route: temperedness on D_IV^5 forces σ=1/2; 37/37 non-tempered types killed, B₂-scattering. Cold-read PASS. Residual: the finite-dim → full-line transfer. Paper #103. |
+| **P ≠ NP** | Structural attempt (1/rank family) | Three routes — resolution (curvature), refutation bandwidth, parity erasure (T1776-T1778). Residual: framework-level, the standard barriers. Paper 4. |
+| **BSD** | Structural attempt (1/rank family) | Chern-hole forces Eisenstein placement at DOF N_c=3; ranks 0-5, 56 curves, 0 exceptions. Residual: the general-rank step. Paper #88. |
+| **Navier-Stokes** | Notable advance (Casey: "a big improvement") | TG blow-up: angle-monotonicity, spectral exponent 3/2, Kato bridge. Residual: the full Clay statement. `notes/BST_NS_BlowUp.md`. |
+| **Yang-Mills** | Domain construction — **large gap, not the Clay solution** | On D_IV^5: confinement **Derived** (Schur / no free colored states), AF-sign **Derived**, mass-gap *existence* a spectral theorem; gap *value* Identified. **The R⁴ construction / (B) area-law is the core gap, open — the D_IV^5 build does NOT transfer to flat R⁴** (Δ_geom = 0 there). Scope-honest paper v0.3. |
+| **Hodge** | Structural attempt | Ring-uniqueness forces (5,3,2,6,7); cross-type cascade, D_IV^5 sole survivor among 32 rank-2 BSDs. Residual: the general (p,p) step. Papers H1/H2. |
+| **Poincaré** | AC depth 1 (Perelman) | Ricci flow = error correction. `notes/BST_AC_Theorems.md` Section 62. |
+| **Fermat** | AC depth 1 (Wiles/Ribet) | Modularity + level-lowering; Selmer bridge to BSD. `notes/BST_AC_Theorems.md` Section 57. |
+| **Euler γ** | Geometric basis | Geodesic defect of D_IV^5; limit-undecidable. `notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect.md`. |
 
-All seven Millennium problems at **PROVED — Ready for Submission** (cold-reader audited May 12). YM closure sprint completed May 12 (~36 hours, 13/13 tasks, 3 papers). Four-Color proved computer-free (13 structural steps). All confidence levels follow the calibrated scale in `CONFIDENCE_SCALE.md` — every claim above 80% names its gap explicitly.
+The four **1/rank-load-bearing** problems (Four-Color, RH, P≠NP, BSD) are the more structural attempts; **Yang-Mills carries the largest gap** — the flat-space mass-gap construction, not a minor residual. Every confidence level follows the calibrated scale in `CONFIDENCE_SCALE.md`; every claim above 80% names its gap explicitly.
 
 **Langlands Dual = Standard Model.** The L-group of SO₀(5,2) is Sp(6). Its maximal compact U(3) = SU(3) × U(1) IS the color-hypercharge gauge group. The standard representation 6 = C₂ decomposes as 3 + 3̄. The Langlands program and the Standard Model are two descriptions of the same algebra. See `notes/BST_Langlands_Dual_StandardModel.md`.
 
@@ -455,7 +473,7 @@ Every derivation listed in the Solved Problems table below flows from this equat
 - CP floor = α = 0.730% at any BH horizon — EHT Stokes V recalibration
 - Mass-independent CP: same floor for Sgr A* and M87* — EHT multi-source
 - Proton radius hierarchy: r_p(τ) < r_p(μ) < r_p(e) — MUSE, PRad-II
-- Dark energy w ≠ −1 — DESI, Euclid
+- Dark energy w = −1 with a small, decaying deviation ε(a) ≲ 10⁻⁴ (fixed bulk volume C·π⁵ → constant Λ, K1040); a confirmed *large* dynamical w₀ (strong DESI-style deviation) falsifies the fixed-volume result — DESI, Euclid
 - Island of stability at Z=114 — superheavy element experiments
 - No neutrinoless double beta decay (0νββ) at any scale — Dirac neutrinos, $\lvert m_{\beta\beta}\rvert$ = 0 exactly — nEXO, LEGEND-1000
 - Proton spin ΔΣ = 0.30 ± precision — JLab 12 GeV, EIC
@@ -467,7 +485,7 @@ Every derivation listed in the Solved Problems table below flows from this equat
 - Hawking temperature T_BST ≈ 1/(2√137 × M) with computable geometric correction — future BH observations
 - Tsirelson bound exactly 2√2 — no post-quantum theory can exceed it (SU(2) is the unique 3D spin group)
 - Cosmic age t₀ = 13.6 Gyr — precision cosmology (Planck: 13.8 ± 0.02 Gyr)
-- No phantom crossing: w(z) > −1 at ALL redshifts — DESI/Euclid w₀-w_a plane
+- No phantom crossing: w(z) ≥ −1 at ALL redshifts (→ −1 from above, K1040) — DESI/Euclid w₀-w_a plane
 - 8th magic number = 184 — superheavy element experiments (Z=114-120)
 - No primordial B-modes: r < 10⁻¹⁰ — LiteBIRD, CMB-S4 (detection falsifies BST)
 - Muon g-2 anomaly resolves to ≤2σ — Fermilab final result + lattice convergence
@@ -557,7 +575,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1852 theorems. 2181+ toys. 600+ predictions. 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero free parameters. ALL SEVEN MILLENNIUM PROVED (cold-reader audited May 12). RH geometric proof (T1755+T1758: temperedness forces sigma=1/2). BSD proved (T1756+T1762: BBW + P₂ lift, rank part unconditional). YM proved (T1788-T1794: ring uniqueness, Wightman, R^4 no-go). Hodge proved (T1780-T1781: ring uniqueness + cascade). P!=NP proved (T1777-T1778: parity erasure). T29 closed. FE closed. ZETA 20/20 complete. All 5 QED loops < 0.2%. SP-19 Conjecture Proof Program ALL 24 tasks COMPLETE.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1852 theorems. 2181+ toys. 600+ predictions. 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero fitted parameters. The Standard Model sector complete and honestly tiered (fermions · strong/Yang-Mills · gauge/Higgs). On the seven Clay problems, substantive attempts on the one geometry with real advances — not referee-consensus solutions (re-scoped 2026-07-26, K940): the 1/rank-load-bearing four (Four-Color, RH, P≠NP, BSD) are the strongest; Yang-Mills carries the largest gap (the flat-R⁴ mass-gap construction is open). FE closed. All 5 QED loops < 0.2%.*
 
 ---
 

@@ -11180,7 +11180,15 @@ sector arc (down-row mechanism + CKM mass-mixing reconciliation); count holds 5/
 | T2524 | Neutrino is Majorana as a Corollary of the Chirality Mechanism: the Lone Y=0 Real Rep (K837) | DERIVED [Keeper-confirm] | graph-node (Registry 2026-07-23) | 4796 | 2026-07-23 |
 | T2525 | Three Generations from the Wallach Set / KW Support-Flag of D_IV^5 (rank+1=3, over-determination route) | DERIVED | graph-node (generations) | - | 2026-07-24 |
 | T2526 | Asymptotic Freedom Sign from Non-Abelian SU(3) (SIGN DERIVED, full pass K936) | DERIVED | graph-node (81) | - | 2026-07-26 |
+| T2527 | Three generations forced (colorless-frame Peirce closure; count = rank+1 = 3 via rank-2 Jordan idempotents) | DERIVED | graph-node (generations) | - | 2026-07-29 |
+| T2528 | Tau is the ℓ=0 boundary mode (Γ(0) pole); base 49·71 imported | IDENTIFIED-final | graph-node (lepton module) | - | 2026-07-29 |
+| T2529 | Quark m_s/m_d = rank²·n_C = 20 (SVD of overlap matrix on V₁₂⊗ℂ) | DERIVED | graph-node (quark module) | - | 2026-07-29 |
 | T2530 | Cabibbo angle V_us = 1/√20 (DERIVED, blind forward) | DERIVED | graph-node (quark module) | - | 2026-07-29 |
+| T2531 | Charm mass m_c = α·v/√2 (y_c = α, DERIVED) | DERIVED | graph-node (quark module) | - | 2026-07-29 |
+| T2532 | V_cb via 3D→2D projection (√(2/3) RMS; 2-3-mode 3D-projected without counterexample, K711) | DERIVED | graph-node (quark module) | - | 2026-07-29 |
+| T2533 | CKM-small = Peirce-forced (converges with K403) | DERIVED | graph-node (quark module) | - | 2026-07-29 |
 | T2534 | θ₂₃ = maximal (sin²=1/2), doubly-Derived (Shilov ℤ₂ + parity theorem) | DERIVED (maximal; 4/7-deviation Identified) | graph-node (lepton mixing) | - | 2026-07-30 |
 | T2535 | large-PMNS/small-CKM derived from COLOR (color-duality) | DERIVED | graph-node (lepton mixing) | - | 2026-07-30 |
+| T2536 | Leptonic CP: δ_PMNS cos²δ = 45/49 (forward sum rule; 45=g²−rank², 49=g²) + J_PMNS ≈ 0.0338 | DERIVED (forward) | graph-node (lepton mixing) | - | 2026-07-30 |
+| T2537 | Dark energy = w=−1 cosmological constant from fixed C·π⁵ bulk volume (K1040) | DERIVED | graph-node (cosmology) | - | 2026-07-30 |
 | T2511 | Substrate 5=N_c+rank Split IS the Spin-Factor Peirce Decomposition | DERIVED (K1045; Peirce color=V12=N_c — the color-duality foundation; registered 2026-07-05, silently dropped, restored) | graph-node | - | 2026-07-05 |

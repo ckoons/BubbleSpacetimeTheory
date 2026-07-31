@@ -12,6 +12,8 @@ source: "BST Paper #15 (CMB Draft v1.3)"
 keywords: "CMBR theory, cosmological parameters from CMBR, physics of the early universe"
 ---
 
+> **★ SUPERSEDED DARK-ENERGY SECTION — NOT FOR EXTERNAL DISTRIBUTION (Keeper K1066, 2026-07-31).** This draft's dark-energy prediction `w₀ = −1 + n_C/N_max² = −0.99973` (Section 6.2, the results table, falsifier F11, and the summary) is **RETIRED**. BST's committed position is **w = −1 exactly** — a cosmological constant from the fixed C·π⁵ bulk volume (K1040) — with any deviation ε(a) a substrate-coupling correction **≤ ~10⁻⁴ and → 0**, derived blind and target-innocent (ε(a)=0, K1064). The `−0.99973` running form (and the `−0.949` variant) were **fits, refused in favor of forcing**. Do not ship the DE section until it is rewritten to w = −1; the CMB content is unaffected. (Correction owner: Lyra.)
+
 # The cosmic microwave background from five integers
 
 **Casey Koons**
