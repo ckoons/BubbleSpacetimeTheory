@@ -3,12 +3,12 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2312,
-  "edge_count": 10071,
+  "theorem_count": 2315,
+  "edge_count": 10075,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2312,
-  "total_edges": 10071,
+  "total_theorems": 2315,
+  "total_edges": 10075,
   "depth_distribution": {
    "D0": 1163,
    "D1": 525,
@@ -18,13 +18,13 @@
   "D0": 1163,
   "D1": 525,
   "D2": 42,
-  "node_count": 2312,
-  "last_updated": "2026-07-29",
-  "edges": 10071,
-  "nodes": 2312,
+  "node_count": 2315,
+  "last_updated": "2026-07-30",
+  "edges": 10075,
+  "nodes": 2315,
   "eod_session": "2026-05-18 EOD",
-  "total_nodes": 2312,
-  "max_tid": 2535,
+  "total_nodes": 2315,
+  "max_tid": 2538,
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -417,14 +417,15 @@
   "note_2026-07-26l_one_operator_spine_strong_sector_is_spectrum_of_expTauHB": "07-26l (Grace, Casey steer 'linear algebra one D_IV^5 domain'). Compressed strong sector to ONE operator's spectrum: nodes aren't separate objects stitched pairwise, they're SPECTRAL READINGS of the color-sector Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5) (root T2428). Wired one-operator spine: T2428->T2526 (AF-sign=tau->0 short-time/a_2 reading), T2428->T2523 (confinement A=tau->infty long-time/Shilov reading), T2428->T1271 (mass gap=SPECTRAL GAP), T2428->T1403 (glueball=EIGENVALUE TOWER, Elie Lane-1 pending). Whole strong sector = ONE operator on ONE domain read at different proper times: tau->0 AF, tau->infty confinement, gap=mass gap, tower=glueballs, tau-flow=running (keystone), scale=Lambda_QCD. No lattice, no emergent spacetime = spectrum/spectral-flow of exp(-tau H_B) on H^2(D_IV^5). Graph max T2526(D), counter 2527, edges 10055, JSON valid.",
   "note_2026-07-27_glueball_supersede_stamps_T1934_T2490_by_K941": "07-27 [RECONCILE] (Grace): applied glueball supersede-stamps. T1934 (glueball-ratio leg <0.1%) + T2490 (mass-map I-tier precision) marked partially-superseded by grace_K941_glueball_re_tier_2026-07-27 (ratios STRUCTURAL ~few-%, false sub-% out). Survives: 0++=n_C + ladder ½C2={3,5,6,7}; T1934's other 7 cross-checks; T2490 blind-leg method. Registry entries (Keeper lane) flagged for matching banner. Reverse-walk worklist posted.",
   "graph_bringuptodate_2026-07-29": "Grace: added play/verify_ac_graph.py (checksum+integrity+dates verifier); fixed 5 string-endpoint dangling edges (T###->int); registered T2527 (3 generations forced/colorless-frame, K990), T2528 (tau=boundary mode/Gamma(0) pole, K989), T2529 (quark m_s/m_d=20 DERIVED, K993); regenerated stale `theorems` mirror from `nodes` (was 544 short, missing T2526); refreshed all count fields + content_checksum. Keeper: sync BST_AC_Theorem_Registry for T2527-T2529.",
-  "content_checksum": "bc1da1a3c921561ed6dd357dd00330a85e9d31fb26bf8a3bfc74b89289afbeed",
+  "content_checksum": "defa37e614be9150fe688f8078bd1b7f58577199fba17cfbb6e252e8c73afdbf",
   "graph_Vus_2026-07-29": "Grace registered T2530 (Cabibbo V_us=1/√20 DERIVED blind, K994); edges from T2529/T2517.",
   "graph_mc_2026-07-29": "Grace registered T2531 (m_c=α·v/√2, y_c=α, DERIVED, K997).",
   "graph_Vcb_ckmsmall_2026-07-29": "Grace: T2532 (V_cb via √(2/3) projection theorem, DERIVED, K1001), T2533 (CKM-small=Peirce-forced, Cal §137, converges K403). K999/K1000 are reconnaissance, NOT registered as theorems (Casey).",
   "graph_theta23_colorduality_2026-07-30": "Grace: T2534 (sin²θ₂₃=4/7 from S⁴ moments, 7=n_C+2, blind, Identified-strong), T2535 (large-PMNS/small-CKM DERIVED from color, K1018, forces the duality K995). Both independently verified.",
   "graph_theta23_reruled_2026-07-30": "Grace: T2534 RE-RULED (K1020) — θ₂₃ near-maximal DERIVED (Shilov ℤ₂ F558) + 1/14 deviation Identified; the S⁴ moment-ratio 4/7 was a coincidence (my K1018 over-claim, Elie's diagonalization caught it). T2535 (color-duality) UNTOUCHED.",
   "graph_theta23_routes_diverge_2026-07-30": "Grace: T2534 K1023 correction — the two θ₂₃ routes DIVERGE (Route1 exact op→4/7 via 2√3 irrational; Route2 rational→0.5707); clean-4/7 needs the irrational ratio (non-trivial); Route2 a potential falsifier; near-maximal DERIVED unchanged. Owned echoing 'routes converge'.",
-  "graph_de_superseded_2026-07-30": "Grace K1040: DE = w=-1 (Λ, C·π⁵); T2079/T2117 dynamical-DE superseded (dead R(K) leg + DESI -0.84). M_TOV→Structural."
+  "graph_de_superseded_2026-07-30": "Grace K1040: DE = w=-1 (Λ, C·π⁵); T2079/T2117 dynamical-DE superseded (dead R(K) leg + DESI -0.84). M_TOV→Structural.",
+  "graph_currency_2026-07-30": "Grace: registered T2536 (leptonic CP δ_PMNS cos²δ=45/49 + J_PMNS), T2537 (DE w=−1 Λ from C·π⁵, K1040, supersedes T2079/T2117). last_updated stamped."
  },
  "theorems": [
   {
@@ -20764,7 +20765,7 @@
    "tid": 1475,
    "name": "QCD Beta Function is Genus",
    "domain": "qft",
-   "status": "proved",
+   "status": "Tier-2 FINAL (K1052; 11/3 universal 4D YM = consistency, not derivation)",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -20772,7 +20773,7 @@
     1660
    ],
    "date": null,
-   "plain": "beta_0 = g = 7. The QCD one-loop coefficient IS the genus of D_IV^5. Asymptotic freedom = topology.",
+   "plain": "K1050/K1052 (2026-07-31) — β₀=g via reduced-YM a₂ (Elie): TIER-2 target-innocent, FINAL. C_A=N_c=3 FORCED, n_f=6 FORCED (= 3 generations × 2 quark types; the C_2=6 match is COINCIDENCE, Cal §174, NOT the mechanism), AF sign EMERGENT (T2526 Derived), the 11/3 coefficient is UNIVERSAL 4D Yang-Mills (Lyra F757) → a CONSISTENCY value BST must match, NOT a BST derivation → no Tier-1 in the coefficient. β₀=g never enters the computation (not the −0.949 fit) but the 11/3 is universal (not Tier-1) → honest Tier-2. RETRACTED (Cal §173): the '11=g+rank², β₀=c_2−2C_2/3' capstone was the forbidden WELD (substitutes quarantined T1791 c_2=11 for the gauge 11). Strong-sector Tier-1 wins are ELSEWHERE + intact: N_c=3, n_f=6=C_2, AF sign, confinement (T2523), mass-gap Δ=6π⁵·m_e.",
    "proofs": null
   },
   {
@@ -27623,7 +27624,7 @@
    "tid": 2079,
    "name": "130/137 = (N_max - g)/N_max cross-domain BST identity (formalizes Elie + Grace finding)",
    "domain": "hadronic",
-   "status": "proved",
+   "status": "superseded",
    "depth": 2,
    "conflation": 0,
    "section": "Weekend May 16-17 sprint",
@@ -28193,7 +28194,7 @@
    "tid": 2117,
    "name": "Dark energy evolution w_a = -N_c/c_2 (extends T2079 w_0)",
    "domain": "cosmology",
-   "status": "proved",
+   "status": "superseded",
    "depth": 1,
    "conflation": 0,
    "section": "Weekend May 16-17 sprint",
@@ -34390,6 +34391,45 @@
    "toys": [],
    "date": "2026-07-30",
    "plain": "K1018 (Lyra forced, Grace verified the gauge core): a Majorana mass needs a color SINGLET, but SU(3) 3⊗3=6⊕3̄ has NO singlet → a colored quark CANNOT have a Majorana condensate. Quarks (colored)→one condensate→frames align→CKM SMALL; leptons (colorless)→second Majorana condensate→frames misalign→PMNS LARGE. So 'why neutrino mixing is large and quark mixing small' is DERIVED FROM COLOR (the SHAPE/asymmetry; exact fractions stay Identified). Forces the lepton-quark duality (K995) — no longer a correlation. Answers the Stage-5 compatibility question in the STRONG direction: a color-duality, NOT 'no common form'.",
+   "proofs": []
+  },
+  {
+   "tid": 2536,
+   "name": "Leptonic CP: δ_PMNS cos²δ=45/49 (forward) + J_PMNS≈0.0338",
+   "domain": "flavor",
+   "status": "Derived",
+   "depth": 1,
+   "conflation": 0,
+   "section": "lepton CP / cosmology",
+   "toys": [],
+   "date": "2026-07-30",
+   "plain": "K1029/§157: the μ-τ-breaking sum rule predicts the PHASE δ forward — cos²δ=45/49 (45=g²−rank², 49=g², target-innocent) → δ_PMNS≈197° (data-selected branch). Engine B v2: J_PMNS≈0.0338 (~3%, sign correct, forward, leptonic CP ~300× CKM). The gain from the retired 4/7 θ₂₃ over-reach — a real target-innocent forward CP prediction.",
+   "proofs": []
+  },
+  {
+   "tid": 2537,
+   "name": "Dark energy = w=−1 cosmological constant (from C·π⁵ bulk volume)",
+   "domain": "flavor",
+   "status": "Derived",
+   "depth": 1,
+   "conflation": 0,
+   "section": "lepton CP / cosmology",
+   "toys": [],
+   "date": "2026-07-30",
+   "plain": "K1040: dark energy is a COSMOLOGICAL CONSTANT, w=−1, DERIVED from the fixed C·π⁵ bulk volume; the deviation from −1 (substrate coupling) → 0 (flat interior). The a₀ rung of the Seeley-DeWitt heat-kernel ladder whose a₁ gives Newton's G (F60-F66) and a₂ the strong-sector running. SUPERSEDES the dynamical over-reaches T2079 (w₀=−0.949) + T2117 (w_a) for the DE prediction — dead R(K)=130/137 leg (LHCb 2022 SM-consistent) + DESI DR2 now −0.84±0.06. BST derives w=−1, ΛCDM assumes it. cc-magnitude is the named forward lead (post-SM).",
+   "proofs": []
+  },
+  {
+   "tid": 2538,
+   "name": "Matter-Antimatter Asymmetry η_B from D_IV⁵ Spectral Cap Structure: η_B = rank·(N_max−N_c)/",
+   "domain": "cosmology",
+   "status": "Proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "cosmology",
+   "toys": [],
+   "date": "2026-07-31",
+   "plain": "η_B baryon asymmetry (registry T2538, Proved); backfilled to graph (was registry-only — desync).",
    "proofs": []
   }
  ],
@@ -84786,6 +84826,26 @@
    "from": 2533,
    "to": 2535,
    "source": "grace_2026-07-30_K1018"
+  },
+  {
+   "from": 2534,
+   "to": 2536,
+   "source": "grace_2026-07-30_currency"
+  },
+  {
+   "from": 2535,
+   "to": 2536,
+   "source": "grace_2026-07-30_currency"
+  },
+  {
+   "from": 2079,
+   "to": 2537,
+   "source": "grace_2026-07-30_K1040_supersede"
+  },
+  {
+   "from": 2117,
+   "to": 2537,
+   "source": "grace_2026-07-30_K1040_supersede"
   }
  ],
  "chains": {},
@@ -112164,12 +112224,12 @@
    "tid": 1475,
    "name": "QCD Beta Function is Genus",
    "domain": "qft",
-   "status": "proved",
+   "status": "Tier-2 FINAL (K1052; 11/3 universal 4D YM = consistency, not derivation)",
    "depth": 0,
    "toys": [
     1660
    ],
-   "plain": "beta_0 = g = 7. The QCD one-loop coefficient IS the genus of D_IV^5. Asymptotic freedom = topology.",
+   "plain": "K1050/K1052 (2026-07-31) — β₀=g via reduced-YM a₂ (Elie): TIER-2 target-innocent, FINAL. C_A=N_c=3 FORCED, n_f=6 FORCED (= 3 generations × 2 quark types; the C_2=6 match is COINCIDENCE, Cal §174, NOT the mechanism), AF sign EMERGENT (T2526 Derived), the 11/3 coefficient is UNIVERSAL 4D Yang-Mills (Lyra F757) → a CONSISTENCY value BST must match, NOT a BST derivation → no Tier-1 in the coefficient. β₀=g never enters the computation (not the −0.949 fit) but the 11/3 is universal (not Tier-1) → honest Tier-2. RETRACTED (Cal §173): the '11=g+rank², β₀=c_2−2C_2/3' capstone was the forbidden WELD (substitutes quarantined T1791 c_2=11 for the gauge 11). Strong-sector Tier-1 wins are ELSEWHERE + intact: N_c=3, n_f=6=C_2, AF sign, confinement (T2523), mass-gap Δ=6π⁵·m_e.",
    "commitment_cycle_zone": "Z3",
    "zone_source": "domain",
    "physical_type": "P6",
@@ -121132,7 +121192,7 @@
    "tid": 2079,
    "name": "130/137 = (N_max - g)/N_max cross-domain BST identity (formalizes Elie + Grace finding)",
    "domain": "hadronic",
-   "status": "proved",
+   "status": "superseded",
    "depth": 2,
    "conflation": 0,
    "section": "Weekend May 16-17 sprint",
@@ -121931,7 +121991,7 @@
    "tid": 2117,
    "name": "Dark energy evolution w_a = -N_c/c_2 (extends T2079 w_0)",
    "domain": "cosmology",
-   "status": "proved",
+   "status": "superseded",
    "depth": 1,
    "conflation": 0,
    "section": "Weekend May 16-17 sprint",
@@ -130030,11 +130090,77 @@
     "N_c"
    ],
    "integer_set_source": "grace_2026-07-30"
+  },
+  {
+   "tid": 2536,
+   "name": "Leptonic CP: δ_PMNS cos²δ=45/49 (forward) + J_PMNS≈0.0338",
+   "domain": "flavor",
+   "status": "Derived",
+   "depth": 1,
+   "conflation": 0,
+   "section": "lepton CP / cosmology",
+   "toys": [],
+   "date": "2026-07-30",
+   "plain": "K1029/§157: the μ-τ-breaking sum rule predicts the PHASE δ forward — cos²δ=45/49 (45=g²−rank², 49=g², target-innocent) → δ_PMNS≈197° (data-selected branch). Engine B v2: J_PMNS≈0.0338 (~3%, sign correct, forward, leptonic CP ~300× CKM). The gain from the retired 4/7 θ₂₃ over-reach — a real target-innocent forward CP prediction.",
+   "proofs": [],
+   "commitment_cycle_zone": null,
+   "zone_source": "grace_2026-07-30",
+   "physical_type": "observable",
+   "physical_type_source": "grace_2026-07-30",
+   "integer_set": [
+    "g",
+    "rank"
+   ],
+   "integer_set_source": "grace_2026-07-30"
+  },
+  {
+   "tid": 2537,
+   "name": "Dark energy = w=−1 cosmological constant (from C·π⁵ bulk volume)",
+   "domain": "flavor",
+   "status": "Derived",
+   "depth": 1,
+   "conflation": 0,
+   "section": "lepton CP / cosmology",
+   "toys": [],
+   "date": "2026-07-30",
+   "plain": "K1040: dark energy is a COSMOLOGICAL CONSTANT, w=−1, DERIVED from the fixed C·π⁵ bulk volume; the deviation from −1 (substrate coupling) → 0 (flat interior). The a₀ rung of the Seeley-DeWitt heat-kernel ladder whose a₁ gives Newton's G (F60-F66) and a₂ the strong-sector running. SUPERSEDES the dynamical over-reaches T2079 (w₀=−0.949) + T2117 (w_a) for the DE prediction — dead R(K)=130/137 leg (LHCb 2022 SM-consistent) + DESI DR2 now −0.84±0.06. BST derives w=−1, ΛCDM assumes it. cc-magnitude is the named forward lead (post-SM).",
+   "proofs": [],
+   "commitment_cycle_zone": null,
+   "zone_source": "grace_2026-07-30",
+   "physical_type": "observable",
+   "physical_type_source": "grace_2026-07-30",
+   "integer_set": [
+    "n_C",
+    "C_2"
+   ],
+   "integer_set_source": "grace_2026-07-30"
+  },
+  {
+   "tid": 2538,
+   "name": "Matter-Antimatter Asymmetry η_B from D_IV⁵ Spectral Cap Structure: η_B = rank·(N_max−N_c)/",
+   "domain": "cosmology",
+   "status": "Proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "cosmology",
+   "toys": [],
+   "date": "2026-07-31",
+   "plain": "η_B baryon asymmetry (registry T2538, Proved); backfilled to graph (was registry-only — desync).",
+   "proofs": [],
+   "commitment_cycle_zone": null,
+   "zone_source": "grace_2026-07-31",
+   "physical_type": "observable",
+   "physical_type_source": "grace_2026-07-31",
+   "integer_set": [
+    "rank",
+    "N_max"
+   ],
+   "integer_set_source": "grace_2026-07-31"
   }
  ],
  "metadata": {
-  "node_count": 2312,
-  "edge_count": 10071,
-  "theorem_count": 2312
+  "node_count": 2315,
+  "edge_count": 10075,
+  "theorem_count": 2315
  }
 }
