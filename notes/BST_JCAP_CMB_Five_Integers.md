@@ -12,7 +12,7 @@ source: "BST Paper #15 (CMB Draft v1.3)"
 keywords: "CMBR theory, cosmological parameters from CMBR, physics of the early universe"
 ---
 
-> **★ SUPERSEDED DARK-ENERGY SECTION — NOT FOR EXTERNAL DISTRIBUTION (Keeper K1066, 2026-07-31).** This draft's dark-energy prediction `w₀ = −1 + n_C/N_max² = −0.99973` (Section 6.2, the results table, falsifier F11, and the summary) is **RETIRED**. BST's committed position is **w = −1 exactly** — a cosmological constant from the fixed C·π⁵ bulk volume (K1040) — with any deviation ε(a) a substrate-coupling correction **≤ ~10⁻⁴ and → 0**, derived blind and target-innocent (ε(a)=0, K1064). The `−0.99973` running form (and the `−0.949` variant) were **fits, refused in favor of forcing**. Do not ship the DE section until it is rewritten to w = −1; the CMB content is unaffected. (Correction owner: Lyra.)
+> **★ SUPERSEDED DARK-ENERGY SECTION — NOT FOR EXTERNAL DISTRIBUTION (Keeper K1066, 2026-07-31).** This draft's dark-energy prediction `w₀ = −1 + n_C/N_max² = −0.99973` (Section 6.2, the results table, falsifier F11, and the summary) is **RETIRED**. BST's committed position is **w = −1 exactly** — a cosmological constant from the fixed C·π⁵ bulk volume (K1040) — with any deviation ε(a) a substrate-coupling correction **≤ ~10⁻⁴ and → 0**, derived blind and target-innocent (ε(a)=0, K1064). The `−0.99973` running form (and the `−0.949` variant) were **fits, refused in favor of forcing**. **UPDATE 2026-08-01 (Lyra): the DE section is now rewritten to w = −1** — Section 6.2, the results table ($w_0$ row), falsifier F11, and the summary are all corrected; the specific DE blocker is cleared. Overall external-readiness of this draft still pends Casey's GO (GO ≠ push). The CMB content was always unaffected.
 
 # The cosmic microwave background from five integers
 
@@ -73,7 +73,7 @@ All cosmological parameters are derived from $D_{IV}^5$ and its structural integ
 | $A_s$ | $(3/4)\alpha^4 = 3/(4 N_{\max}^4)$ | $2.127 \times 10^{-9}$ | $(2.101 \pm 0.030) \times 10^{-9}$ | $0.9\sigma$ |
 | $r$ (tensor/scalar) | $\sim (T_c/m_{\mathrm{Pl}})^4$ | $\approx 0$ | $< 0.036$ | consistent |
 | $N_{\mathrm{eff}}$ | $N_c +$ QED corrections | 3.044 | $2.99 \pm 0.17$ | $0.3\sigma$ |
-| $w_0$ | $-1 + n_C/N_{\max}^2$ | $-0.99973$ | $-1.03 \pm 0.03$ | consistent |
+| $w_0$ | $-1$ (fixed $C\cdot\pi^5$ volume, K1040) | $-1$ (exact) | $-1.03 \pm 0.03$ | $1.0\sigma$ |
 | $\Omega_{DM}/\Omega_b$ | $(3n_C + 1)/N_c = 16/3$ | 5.333 | $5.364 \pm 0.066$ | $0.47\sigma$ |
 | $\tau$ | — | — | $0.054 \pm 0.007$ | — |
 
@@ -227,13 +227,11 @@ The framework has no inflationary epoch. Scalar perturbations arise from the com
 
 The nearly scale-invariant spectrum arises from $n_s = 1 - 5/137$ — the partition function modes of $D_{IV}^5$, not slow-roll inflation. The running $dn_s/d\ln k = -5/137^2 = -2.66 \times 10^{-4}$ is a specific prediction, consistent with Planck's $-0.0045 \pm 0.0067$.
 
-### 6.2 $w_0 = -0.99973$: not exactly $-1$
+### 6.2 $w = -1$ exactly: a cosmological constant from the fixed bulk volume
 
-The dark energy equation of state is:
-
-$$w_0 = -1 + \frac{n_C}{N_{\max}^2} = -1 + \frac{5}{18769} = -0.99973$$
-
-The deviation from $\Lambda$CDM's $w_0 = -1$ is $\delta w = 2.66 \times 10^{-4}$, arising from the residual breathing mode of the $n_C = 5$ complex dimensions suppressed by $N_{\max}^2$. Current sensitivity ($\sigma_{w_0} \sim 0.03$) cannot detect this. The combined Euclid + DESI program may reach the required precision by 2035.
+The dark energy equation of state is
+$$w = -1 \quad\text{(exactly)},$$
+a genuine cosmological constant. It follows from the fixed $C\cdot\pi^5$ bulk volume of $D_{IV}^5$: the vacuum energy is the $a_0$ (volume) rung of the induced heat-kernel action, and a fixed volume gives $w=-1$ by the continuity equation, with deviation $\to 0$. Any residual $\epsilon(a)$ is a substrate-coupling correction, bounded $|\epsilon| \lesssim 10^{-4}$ and $\to 0$; at fixed-volume (leading) order $\epsilon(a) = 0$, derived blind and target-innocent. BST is therefore *committed* to $w = -1$ — a forced result, not a fitted near-$-1$ value. (The earlier running forms $w_0 = -1 + n_C/N_{\max}^2 = -0.99973$ and $w_0 = -0.949$ were fits, refused in favor of the forcing; superseded per K1040/K1064.) Consequently a robust detection of dynamical dark energy — $w \neq -1$ at high significance — would *falsify* BST, with no wiggle room (see F11).
 
 ### 6.3 Dark matter as geometric bandwidth
 
@@ -293,7 +291,7 @@ The framework makes specific, zero-parameter predictions. Each is independently 
 | F8 | $\Omega_\Lambda$ | $13/19 = 0.68421$ | Outside 0.684 at $5\sigma$ | DESI + Euclid |
 | F9 | DM particles | None | Direct detection positive | LZ, XENONnT |
 | F10 | Damping tail | $\ell_D \sim 2465$ | Systematic deviation at $\ell > 2000$ | ACT, SPT-3G |
-| F11 | Dark energy EOS | $w_0 = -0.99973$ | $w_0 < -1.001$ at $5\sigma$ | Euclid + DESI |
+| F11 | Dark energy EOS | $w = -1$ exactly | Robust $w \neq -1$ (dynamical DE) at $5\sigma$ | Euclid + DESI |
 | F12 | $H_0$ | 67.29 km/s/Mpc | Outside $[66.0, 68.5]$ at $5\sigma$ | CMB-S4 |
 
 **The crucial asymmetry:** there are no parameters to retune. If any single prediction fails beyond its stated precision, the framework is falsified.
@@ -304,7 +302,7 @@ The framework makes specific, zero-parameter predictions. Each is independently 
 
 The angular power spectrum of the cosmic microwave background — 2500 independent multipoles measured to sub-percent accuracy — is a prediction of this framework, not a fit. Five of six $\Lambda$CDM parameters are derived from the geometry of $D_{IV}^5$. Running the CAMB Boltzmann code with these derived inputs yields a spectrum statistically identical to Planck: RMS residual 0.276%, $\chi^2/N = 0.01$, all peak positions within one multipole.
 
-The same five integers derive the proton mass to 0.002%, all CKM and PMNS mixing angles, the nuclear magic numbers, and the cosmological constant to $0.07\sigma$. Each new domain is a separate test with zero additional parameters. The framework makes sharp predictions that differ from $\Lambda$CDM: $r \approx 0$ (no inflation), $w_0 = -0.99973$ (not exactly $-1$), dark matter is bandwidth not particles, and the MOND scale $a_0$ emerges naturally. LiteBIRD, CMB-S4, Euclid, and DESI will test each prediction within the decade.
+The same five integers derive the proton mass to 0.002%, all CKM and PMNS mixing angles, the nuclear magic numbers, and the cosmological constant to $0.07\sigma$. Each new domain is a separate test with zero additional parameters. The framework makes sharp predictions that differ from $\Lambda$CDM: $r \approx 0$ (no inflation), $w = -1$ exactly (a cosmological constant; any dynamical dark energy would falsify it), dark matter is bandwidth not particles, and the MOND scale $a_0$ emerges naturally. LiteBIRD, CMB-S4, Euclid, and DESI will test each prediction within the decade.
 
 All derivations, CAMB spectra, and 962 independent numerical verifications are available at https://github.com/ckoons/BubbleSpacetimeTheory.
 

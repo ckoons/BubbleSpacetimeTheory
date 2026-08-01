@@ -3,12 +3,12 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2315,
-  "edge_count": 10075,
+  "theorem_count": 2316,
+  "edge_count": 10079,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2315,
-  "total_edges": 10075,
+  "total_theorems": 2316,
+  "total_edges": 10079,
   "depth_distribution": {
    "D0": 1163,
    "D1": 525,
@@ -18,13 +18,13 @@
   "D0": 1163,
   "D1": 525,
   "D2": 42,
-  "node_count": 2315,
-  "last_updated": "2026-07-30",
-  "edges": 10075,
-  "nodes": 2315,
+  "node_count": 2316,
+  "last_updated": "2026-08-01",
+  "edges": 10079,
+  "nodes": 2316,
   "eod_session": "2026-05-18 EOD",
-  "total_nodes": 2315,
-  "max_tid": 2538,
+  "total_nodes": 2316,
+  "max_tid": 2539,
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -417,7 +417,7 @@
   "note_2026-07-26l_one_operator_spine_strong_sector_is_spectrum_of_expTauHB": "07-26l (Grace, Casey steer 'linear algebra one D_IV^5 domain'). Compressed strong sector to ONE operator's spectrum: nodes aren't separate objects stitched pairwise, they're SPECTRAL READINGS of the color-sector Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5) (root T2428). Wired one-operator spine: T2428->T2526 (AF-sign=tau->0 short-time/a_2 reading), T2428->T2523 (confinement A=tau->infty long-time/Shilov reading), T2428->T1271 (mass gap=SPECTRAL GAP), T2428->T1403 (glueball=EIGENVALUE TOWER, Elie Lane-1 pending). Whole strong sector = ONE operator on ONE domain read at different proper times: tau->0 AF, tau->infty confinement, gap=mass gap, tower=glueballs, tau-flow=running (keystone), scale=Lambda_QCD. No lattice, no emergent spacetime = spectrum/spectral-flow of exp(-tau H_B) on H^2(D_IV^5). Graph max T2526(D), counter 2527, edges 10055, JSON valid.",
   "note_2026-07-27_glueball_supersede_stamps_T1934_T2490_by_K941": "07-27 [RECONCILE] (Grace): applied glueball supersede-stamps. T1934 (glueball-ratio leg <0.1%) + T2490 (mass-map I-tier precision) marked partially-superseded by grace_K941_glueball_re_tier_2026-07-27 (ratios STRUCTURAL ~few-%, false sub-% out). Survives: 0++=n_C + ladder ½C2={3,5,6,7}; T1934's other 7 cross-checks; T2490 blind-leg method. Registry entries (Keeper lane) flagged for matching banner. Reverse-walk worklist posted.",
   "graph_bringuptodate_2026-07-29": "Grace: added play/verify_ac_graph.py (checksum+integrity+dates verifier); fixed 5 string-endpoint dangling edges (T###->int); registered T2527 (3 generations forced/colorless-frame, K990), T2528 (tau=boundary mode/Gamma(0) pole, K989), T2529 (quark m_s/m_d=20 DERIVED, K993); regenerated stale `theorems` mirror from `nodes` (was 544 short, missing T2526); refreshed all count fields + content_checksum. Keeper: sync BST_AC_Theorem_Registry for T2527-T2529.",
-  "content_checksum": "defa37e614be9150fe688f8078bd1b7f58577199fba17cfbb6e252e8c73afdbf",
+  "content_checksum": "c4b9c2ef9631a6a0ae17a2551521a33b41943d2ff59098963a0934a0e6ceb541",
   "graph_Vus_2026-07-29": "Grace registered T2530 (Cabibbo V_us=1/√20 DERIVED blind, K994); edges from T2529/T2517.",
   "graph_mc_2026-07-29": "Grace registered T2531 (m_c=α·v/√2, y_c=α, DERIVED, K997).",
   "graph_Vcb_ckmsmall_2026-07-29": "Grace: T2532 (V_cb via √(2/3) projection theorem, DERIVED, K1001), T2533 (CKM-small=Peirce-forced, Cal §137, converges K403). K999/K1000 are reconnaissance, NOT registered as theorems (Casey).",
@@ -34430,6 +34430,19 @@
    "toys": [],
    "date": "2026-07-31",
    "plain": "η_B baryon asymmetry (registry T2538, Proved); backfilled to graph (was registry-only — desync).",
+   "proofs": []
+  },
+  {
+   "tid": 2539,
+   "name": "Heat-Kernel Tier-Split: Seeley–DeWitt scale-dependence forces the BST tiers (G Derived, strong-running Derived, Λ-magnitude Identified/scale-ambiguous) as ONE theorem",
+   "domain": "cosmology",
+   "status": "Structural",
+   "depth": 1,
+   "conflation": 0,
+   "section": "cosmology",
+   "toys": [],
+   "date": "2026-08-01",
+   "plain": "The heat-kernel ladder splits along the BST tier line: a₁→G and a₂→running are scale-INDEPENDENT invariants (both Derived); a₀→Λ-magnitude is scale-FULL (a₅≈220.64≠0, two routes, Cal §188) → Λ scale-ambiguous, derivation = the forced substrate subtraction scale μ (open, K1073 — NOT 'permanent'). So BST's G/running/Λ tiers are one theorem of the ζ-ladder's scale-dependence, not three rulings. Own tier: Structural (weakest-leg-bounded). K1072.",
    "proofs": []
   }
  ],
@@ -84846,6 +84859,26 @@
    "from": 2117,
    "to": 2537,
    "source": "grace_2026-07-30_K1040_supersede"
+  },
+  {
+   "from": 2539,
+   "to": 2537,
+   "source": "grace_2026-08-01_K1072_tiersplit_a0_rung_Lambda"
+  },
+  {
+   "from": 2539,
+   "to": 2074,
+   "source": "grace_2026-08-01_K1072_tiersplit_a2_rung_running"
+  },
+  {
+   "from": 2539,
+   "to": 2526,
+   "source": "grace_2026-08-01_K1072_tiersplit_a2_rung_AFsign"
+  },
+  {
+   "from": 2539,
+   "to": 1485,
+   "source": "grace_2026-08-01_K1072_tiersplit_a0_rung_cc"
   }
  ],
  "chains": {},
@@ -130156,11 +130189,35 @@
     "N_max"
    ],
    "integer_set_source": "grace_2026-07-31"
+  },
+  {
+   "tid": 2539,
+   "name": "Heat-Kernel Tier-Split: Seeley–DeWitt scale-dependence forces the BST tiers (G Derived, strong-running Derived, Λ-magnitude Identified/scale-ambiguous) as ONE theorem",
+   "domain": "cosmology",
+   "status": "Structural",
+   "depth": 1,
+   "conflation": 0,
+   "section": "cosmology",
+   "toys": [],
+   "date": "2026-08-01",
+   "plain": "The heat-kernel ladder splits along the BST tier line: a₁→G and a₂→running are scale-INDEPENDENT invariants (both Derived); a₀→Λ-magnitude is scale-FULL (a₅≈220.64≠0, two routes, Cal §188) → Λ scale-ambiguous, derivation = the forced substrate subtraction scale μ (open, K1073 — NOT 'permanent'). So BST's G/running/Λ tiers are one theorem of the ζ-ladder's scale-dependence, not three rulings. Own tier: Structural (weakest-leg-bounded). K1072.",
+   "proofs": [],
+   "commitment_cycle_zone": null,
+   "zone_source": "grace_2026-08-01",
+   "physical_type": "structural",
+   "physical_type_source": "grace_2026-08-01",
+   "integer_set": [
+    "N_c",
+    "n_C",
+    "g",
+    "C_2"
+   ],
+   "integer_set_source": "grace_2026-08-01"
   }
  ],
  "metadata": {
-  "node_count": 2315,
-  "edge_count": 10075,
-  "theorem_count": 2315
+  "node_count": 2316,
+  "edge_count": 10079,
+  "theorem_count": 2316
  }
 }

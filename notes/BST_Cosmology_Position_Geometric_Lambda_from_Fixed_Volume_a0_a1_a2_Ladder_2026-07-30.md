@@ -1,4 +1,6 @@
-# BST Cosmology — Standing Position (2026-07-30)
+> **★ SUPERSEDED by `BST_Cosmology_Position_2026-08-02_forced_transmutation_engine_spectral_target_tier_map.md`.** This 07-30 version had cosmology "parked post-SM" with ε(a) open and the cc-magnitude a lead. Since then (K1063→K1077): ε(a) firmed to a Structural floor (μ=H not geometry-forced → w=−1 forced); a₅≠0 computed and closed (two-route ≈220.64); the Λ magnitude is an active **forced** derivation (dimensional transmutation, target = spectral 4λ₂) at tier **Partially Derived**; Ω-ratios **Partially Derived** (DE=c₃↔N_c); tier system now D/PD/I/C/S. The mechanism below (bubble/holographic boundary integration) still stands as the a₀ origin. Read the 08-02 doc for the current position.
+
+# BST Cosmology — Standing Position (2026-07-30) — SUPERSEDED
 
 *The corpus's honest dark-energy / cosmology position, as resolved in the Casey↔Keeper exchange of 2026-07-30 (K1040). This supersedes the "dynamical dark energy" thread (T2079 w₀=−0.949 / T2117 wₐ=−3/11 running-readings — stamped superseded). Standing position for the fermion-sector papers; the active forward computation is parked to post-SM.*
 

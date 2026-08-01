@@ -128,7 +128,7 @@ All of the following emerge from D(IV,5) geometry with zero fitted parameters:
 | mₚ/mₑ (proton/electron) | 6π⁵ | 1836.118 | 1836.153 | 0.002% |
 | mμ/mₑ (muon/electron) | (24/π²)⁶ | 206.761 | 206.768 | 0.003% |
 | mτ/mₑ (tau/electron) | Koide Q=2/3 (Z₃ on CP²) + muon formula | 3477.10 | 3477.23 | **0.003%** |
-| Λ (cosmological constant) | g·exp(−C₂(g²−rank)) = 7e⁻²⁸² (T1485) | 10⁻¹²¹·⁶ | ~10⁻¹²² | Identified — magnitude (K1065; form-multiplicity, not yet forced) |
+| Λ (cosmological constant) | g·exp(−C₂(g²−rank)) = 7e⁻²⁸² (T1485) | 10⁻¹²¹·⁶ | ~10⁻¹²² | **Partially derived** — a₀ rung + w=−1 derived, running coeff a₅ computed; magnitude form pending the forced subtraction scale μ (K1073/K1074) |
 | Tс (Big Bang temperature) | N_max × 20/21 | 0.487 MeV | — | 0.018% |
 | G (gravitational constant) | ℏc(6π⁵)²α²⁴/mₑ², 12=2C₂ Bergman round trips | 6.679×10⁻¹¹ | 6.674×10⁻¹¹ | 0.07% |
 | sin²θ_W (Weinberg angle) | c₅(Q⁵)/c₃(Q⁵) = N_c/(N_c + 2n_C) = 3/13 | 0.23077 | 0.23122 (MS-bar) | 0.2% |

@@ -11191,4 +11191,5 @@ sector arc (down-row mechanism + CKM mass-mixing reconciliation); count holds 5/
 | T2535 | large-PMNS/small-CKM derived from COLOR (color-duality) | DERIVED | graph-node (lepton mixing) | - | 2026-07-30 |
 | T2536 | Leptonic CP: δ_PMNS cos²δ = 45/49 (forward sum rule; 45=g²−rank², 49=g²) + J_PMNS ≈ 0.0338 | DERIVED (forward) | graph-node (lepton mixing) | - | 2026-07-30 |
 | T2537 | Dark energy = w=−1 cosmological constant from fixed C·π⁵ bulk volume (K1040) | DERIVED | graph-node (cosmology) | - | 2026-07-30 |
+| T2539 | Heat-Kernel Tier-Split: Seeley–DeWitt scale-dependence forces BST tiers (G Derived, running Derived, Λ Identified/scale-ambiguous) as ONE theorem; a₀ scale-full (a₅≈220.64≠0, Cal §188), a₁/a₂ scale-independent; Λ derivation = forced μ (K1073, not "permanent") | STRUCTURAL | graph-node (K1072; a₅ Cal §188) | - | 2026-08-01 |
 | T2511 | Substrate 5=N_c+rank Split IS the Spin-Factor Peirce Decomposition | DERIVED (K1045; Peirce color=V12=N_c — the color-duality foundation; registered 2026-07-05, silently dropped, restored) | graph-node | - | 2026-07-05 |
