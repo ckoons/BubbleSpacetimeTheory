@@ -42,6 +42,28 @@
 
 **Note (K1096):** I re-introduced "Identified-permanent" across K1094/K1095/prompts today; retracted again here per K1073. The magnitude's forced-μ is the reachable derivation path Casey asked for ("what can we do to derive lambda?"), not an impossibility.
 
+## 2026-08-02 — n_s currency fix (Grace audit, K1111), AWAITING CASEY + CAL
+
+| # | Item | Current (3-way) | Recommended | Verification (why) | Status |
+|---|---|---|---|---|---|
+| 7 | **n_s = 1 − n_C/N_max** (CMB spectral tilt) | registry "**Proved**" / data **[D]** / K666 "pending Cal" — inconsistent | **Partially Derived** (provisional) | Genuinely STRONGER than Ω_Λ: target-innocent integers; a real **counting mechanism** (T1962: n_C running modes × 1/N_max, AC(0)-legit); **multi-role recurrence** (T2050: same 5/137 anchors CMB tilt AND tritium β-decay endpoint). BUT the **per-mode step is asserted** — why each mode contributes *exactly* 1/N_max is NOT derived from slow-roll on D_IV⁵. "Proved" over-claims. Integers+mode-count forced; per-mode tilt-magnitude open. **Registry must come DOWN from Proved.** Re-promotes to Derived if slow-roll/cascade forces tilt-per-mode = 1/N_max target-blind (Elie/Lyra). | ⏳ Casey + Cal |
+
+*Note: n_s lands at a **stronger floor than Ω_Λ** — do not under-claim it (the "Identified-permanent" lesson pointed the other way). Provisional PD, not Identified. Grace flagged the data entry; not moved unilaterally (K666 "pending Cal").*
+**CAL SIGN-OFF IN (§216):** concurs Proved → Partially Derived, explicit-split (structure from forced integers; per-mode 1/N_max weight open, slow-roll-assumed). **Awaits CASEY** (Cal: "yours to sign, you first"). Both audit-chain halves now agree; needs only Casey's ratification to assign.
+
+| 8 | **A_s = (N_c/4)·α⁴** (scalar amplitude, const_016) | banked **[D]** (K666-era) | **Identified** (Cal §217, tightened from weak-PD) | Integers (N_c, N_max) target-innocent, BUT the load-bearing structure is **form-selected**: α⁴ is the only power of α within an order of magnitude of A_s (α³ 200× too big, α⁵ 100× too small); **no mechanism forces exp=4**. α⁴=2.84×10⁻⁹ vs observed ~2.1×10⁻⁹ — a match with an unforced exponent. Prefactor N_c/4 asserted. No multi-role recurrence, 0.9σ. **Cal (§217): no forced structure to carry a PD → Identified, final** (not weak-PD). Grace annotated const_016; held [D] pending sign-off. | ⏳ Casey (Cal ✓) |
+| — | **H₀** (const, CAMB output) | [I] | **no change** (Grace refresh, K1113) | Boltzmann-code output; tier inherited/bounded by weakest input (Ω_Λ, n_s, PD); no BST-specific forcing → **Identified is honest, no demotion**. Confirms the refresh calibrates BOTH ways (banked-honestly passes). | ✓ no action |
+
+**PATTERN (Grace, K1112) — the cosmology bottom-up tier-refresh:** the K666-era cosmology bank has **target-innocent integers but asserted/form-selected combinations & exponents**, banked [D] before the target-innocence discipline. The refresh is the **mirror of the SM bottom-up review (#32)**, calibrated both ways (Ω_Λ→PD, n_s→stronger-PD, A_s→Identified). **H₀, Ω_b next** — pattern predicts mostly Identified/weak-PD. This is a standing refresh lane; each constant recommend-then-Casey/Cal.
+
+## 2026-08-02 — audit-chain reconciliation of Grace's dup-symbol tier mismatches (K1117)
+
+**a₀ (D/S) — NO ACTION (false mismatch, Rule-9 notation collision).** const_030 Bohr radius [D] and const_046 MOND acceleration scale [S] are **different physical constants** sharing "a₀" (a third, the heat-trace a₀=225, is in the invariants file). Both correctly tiered for their own object. The dedup-by-symbol finder flagged a false positive; symbol-match ≠ object-identity. *Recommend: disambiguate notation (a₀^Bohr / a₀^MOND) in a future pass; no tier change.*
+
+| 9 | **Higgs VEV `v`** — SAME object at TWO tiers (const_007 [D] vs const_196 [I]) | inconsistent | **reconcile to DERIVED-given-anchor** (UPDATED per Casey's anchor ruling K1118) | Genuine mismatch: both are the Higgs VEV. Both forms rest on the **one dimensionful anchor**. **★ CONVENTION RESOLVED (K1118, pending Casey formal ratify):** Casey ruled the anchor = **TIME (the tick, set at instantiation)**; the whole audit chain (Grace, Cal §223, Keeper) converges: **"Derived given the one forced unit-anchor."** Cal's n-scale unification: dimensionless=Derived; dimensionful-forced-from-one-anchor (v, m_e, m_p, m_Planck, G)=**Derived-given-anchor** (the ruler every theory takes, not a fitted parameter); cc-value=needs a SECOND input (the cosmic age)=Identified (the n=2 case). So **both const_007 and const_196 → Derived-given-anchor** (const_196's [I] comes UP, not const_007 down). Check m_e/m_p match. **★ m_Planck itself: was treated as the input; now Derived-given-the-tick (m_Planck=√(ℏc/G), G=geometry·ℓ_B², ℓ_B=c·t_B) — retier to Derived-given-anchor.** | ⏳ Casey (formal ratify of the convention) |
+
+**★ K1118 — the resolved convention (for Casey's ratification):** "**Derived given the one forced unit-anchor (the tick).**" Apply across ALL dimensionful quantities: forced-from-the-one-tick → **Derived-given-anchor**; needs a genuine second free input → **Identified** (only the cc value, second input = the cosmic age). BST's dimensionful inputs are **two total** (tick + cosmic age), both instantiation data. Ratifying #9 sets v, m_e, m_p, m_Planck, G at once.
+
 ## Principle carried
 The Ω-ratio audit is the model: **calibrate both directions.** Grace *confirmed the integers are forced* (stronger than K666's own defense) before recommending down on the *combination*. That's justify-and-verify, not a wrecking ball. Any re-promotion path is equally live: close the forced combination (or the forced μ for Λ) target-blind → back to Derived.
 

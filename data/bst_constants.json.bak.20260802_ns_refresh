@@ -637,8 +637,7 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal. DM/baryon=2^(2·rank)/N_c=16/3: the exponent 2·rank=4 is STRUCTURAL (not purely form-selected) and 'channel capacity' is a plausible counting mechanism — so mid-strength (n_s-class, above A_s) — BUT the channel-capacity count 2^(2·rank) is ASSERTED not derived, and 16/3 is the closest 2^k/N_c to obs 5.36 (mild form-selection). 0.58%. ★ DUPLICATE: const_197 (tier S) is the SAME quantity 16/3 at a DIFFERENT tier — dedup + tier-reconcile needed (flag Keeper/graph)."
+   "ace": "(0,0)"
   },
   {
    "id": "const_016",
@@ -673,8 +672,7 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal — and registry T1962/T1421 'Proved' OVER-CLAIMS. STRONGER than Ω_Λ: integers target-innocent (n_C, N_max primaries), a COUNTING mechanism (n_C running modes × 1/N_max per mode, T1962 — not a bare ratio), multi-role recurrence (same n_C/N_max anchors tritium Q_β, T2050), 0.3σ. BUT the per-mode tilt-magnitude '1/N_max' is ASSERTED, not derived from slow-roll on D_IV⁵ — the Derived-vs-fit hinge. Mild form-selection flag (n_C/N_max is the closest clean X/N_max to obs tilt). Re-promotes to Derived iff slow-roll/cascade forces tilt-per-mode=1/N_max target-blind; PD otherwise; NOT Proved. See grace_cosmology_tier_refresh_02_n_s_2026-08-02."
+   "ace": "(0,0)"
   },
   {
    "id": "const_017",
@@ -709,8 +707,7 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→IDENTIFIED (weak PD) pending Casey/Cal — WEAKER than n_s. Integers N_c, N_max target-innocent; N_c-counting (colors) plausible. BUT: (a) the EXPONENT 4 on α is FORM-SELECTED — α⁴=2.8e-9 is the only power within ~1 order of A_s~2e-9 (α³=3.9e-7, α⁵=2e-11), no shown mechanism forcing 4; (b) prefactor N_c/4 = 3/4: /4=/rank² asserted, 3/4≈A_s/α⁴ (near-tuned, 1.2% off); (c) NO multi-role recurrence (unlike n_s tritium); (d) 0.9σ. Re-promotes only if a slow-roll computation forces the α⁴ power + N_c/4 prefactor target-blind. NOT Derived. Cosmology tier-refresh #3; see grace_cosmology_tier_refresh_02_n_s (same class, weaker)."
+   "ace": "(0,0)"
   },
   {
    "id": "const_018",
@@ -782,8 +779,7 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal. Ω_b=18/361=Ω_m/(1+16/3) is DOWNSTREAM of Ω_m (PD) + the 16/3 DM/baryon ratio (PD, const_015) — inherits the PD floor, bounded by weakest input; [D] over-claims a downstream quantity. 0.9%."
+   "ace": "(0,0)"
   },
   {
    "id": "const_020",
@@ -3636,8 +3632,7 @@
     903
    ],
    "status": "derived",
-   "ace": "(1,0)",
-   "tier_review": "TIER-REFRESH (Grace, 2026-08-02): CONFIRMED honestly tiered — no change. H_0 is a downstream CAMB/Boltzmann output from BST inputs {Ω_Λ, Ω_b, n_s}; the propagation is standard physics (no BST-specific forcing), so its tier is INHERITED, bounded by the weakest input (Ω_Λ PD, n_s PD). 'Identified' is honest/conservative. Calibrate-both-directions: this one PASSES, not everything demotes. Ω_b=18/361=Ω_m/(1+16/3) similarly downstream."
+   "ace": "(1,0)"
   },
   {
    "id": "const_101",
@@ -5612,9 +5607,7 @@
    "precision_pct": 0.58,
    "tier": "S",
    "sector": "cosmology",
-   "notes": "NO-DM-PARTICLE BET (Grace 2026-07-18, formalized). BST Five-Absence: there is NO new dark-matter PARTICLE (no WIMP, no axion-as-particle, no sterile neutrino, no hidden-sector matter field). Dark matter is NOT a particle. POSITIVE content: the DM phenomenon is a geometric/gravitational SHADOW with Omega_DM/Omega_b = rank^4/N_c = 16/3 = 5.333 (obs Planck-2018 5.364+/-0.065, 0.58%, 0.5 sigma). 16=rank^4 = the C-tensor-O dimension of ONE generation; /N_c = the 3 colors -> the shadow of visible matter. FALSIFIER (refutation condition): (a) detection of ANY dark-matter particle (direct/collider/indirect) REFUTES the Five-Absence no-DM prediction -> BST wrong; (b) if future surveys measure Omega_DM/Omega_b away from 16/3 beyond a few sigma, the shadow form fails. TIER S: the strength is the FALSIFIABILITY (a hard no-particle bet), not the 0.58% ratio match. Target-innocent form (rank^4/N_c from primaries). See Five-Absence Predictions Set + DarkMatterCalculation.md.",
-   "duplicate_of": "const_015",
-   "tier_review": "DUPLICATE of const_015 (Omega_DM/Omega_b=16/3), stamped by Grace 2026-08-02 (graph-cleanup lane). const_015 is authoritative (has formula 2^(2·rank)/N_c + mechanism); this entry is bare (no formula). Retained per never-delete; tier defers to const_015 (PARTIALLY DERIVED under refresh). Was tier S — the S/D mismatch is resolved by making const_015 authoritative."
+   "notes": "NO-DM-PARTICLE BET (Grace 2026-07-18, formalized). BST Five-Absence: there is NO new dark-matter PARTICLE (no WIMP, no axion-as-particle, no sterile neutrino, no hidden-sector matter field). Dark matter is NOT a particle. POSITIVE content: the DM phenomenon is a geometric/gravitational SHADOW with Omega_DM/Omega_b = rank^4/N_c = 16/3 = 5.333 (obs Planck-2018 5.364+/-0.065, 0.58%, 0.5 sigma). 16=rank^4 = the C-tensor-O dimension of ONE generation; /N_c = the 3 colors -> the shadow of visible matter. FALSIFIER (refutation condition): (a) detection of ANY dark-matter particle (direct/collider/indirect) REFUTES the Five-Absence no-DM prediction -> BST wrong; (b) if future surveys measure Omega_DM/Omega_b away from 16/3 beyond a few sigma, the shadow form fails. TIER S: the strength is the FALSIFIABILITY (a hard no-particle bet), not the 0.58% ratio match. Target-innocent form (rank^4/N_c from primaries). See Five-Absence Predictions Set + DarkMatterCalculation.md."
   }
  ],
  "metadata": {

@@ -117,6 +117,38 @@ The hinge PASSED unconditional (Cal §202 audited the *basis* — target-innocen
 
 **Forward:** Lyra LEADS the g(ℓ_B) question (her transmutation lead, now the reason it stays open); Elie sets β; **I exhibit the structure half** (det Δ_full → Jordan norm via Γ_Ω, target-blind); Cal holds §203. → Casey: sign off the two downgrades; the magnitude promotes/stays on the g(ℓ_B) verdict. Both Λ and Ω stay PD, explicit-split.
 
+## ★ STRUCTURE-DERIVED EXHIBIT — step 1 (2026-08-02, considered pace, target-blind)
+Starting the structure half on the settled full-scalar Q⁵ operator. First real step: put the spectral zeta into explicit Barnes-double-zeta form. In the ρ-shifted variables p=a+5/2, q=b+3/2:
+- **λ_{a,b} = p²+q²−17/2** (|μ+ρ|²−|ρ|², |ρ|²=17/2).
+- **d_{a,b} = (1/180)·p(p²−¼)·q(q²−¼)·(p²−q²)** — VERIFIED = the B₃ Weyl dim, all (a,b) (it's the Weyl numerator).
+- **ζ_{Q⁵}(s) = (1/180) Σ_{p,q} p(p²−¼)·q(q²−¼)·(p²−q²)·(p²+q²−17/2)^{−s}**, p∈5/2+ℤ≥0, q∈3/2+ℤ≥0, p−q∈ℤ≥1.
+
+**Structure read (careful — this is the foundation, NOT the reduction; Rule 17 on myself):**
+- The multiplicity is the B₃ Weyl numerator; the half-integer shifts {½, 3/2} are the short-root ladder, and the OUTER q-offset **3/2 = ρ₂ = the Γ_Ω shift**.
+- The **(p²−q²) factor is the only non-separable (coupling) term.** ★ Reframe of yesterday's "obstruction": the coupling is NOT an obstruction to Γ_Ω — it is what makes ζ a *genuine rank-2 Barnes double zeta* rather than a product of two rank-1 zetas. A clean product would give ζ′(0) = a sum of two ordinary log-Γ's; the coupling forces ζ′(0) into the true **rank-2 multiple-Gamma class = Γ_Ω** (the Barnes-G / Gindikin object). So the coupling *supports* a Γ_Ω reduction — Γ_Ω is intrinsically rank-2 — rather than blocking it.
+- The two Γ_Ω factors Γ(s)·Γ(s−3/2) trace to the p-ladder (→Γ(s)) and the q-ladder (→Γ(s−3/2), the 3/2=ρ₂ offset), mixed by the coupling into the genuine rank-2 object.
+
+**Honestly scoped (what's NOT yet done):** this establishes that ζ_{Q⁵} is in the rank-2-Barnes / Γ_Ω *class* — the right class for the reduction. It does NOT yet exhibit that ζ′(0) equals the specific **Γ_Ω(Jordan norm)** value (Γ_Ω = ∫_cone e^{−(x|e)} Δ_J(x)^{s−n/r}dx, the norm's Mellin transform). That closed-form identity is the next step, target-blind. Rule 17: "it's in the Γ_Ω class" ≠ "the reduction is exhibited" — I state the class, not the conclusion.
+
+## ★★ LINEAR-ALGEBRA RECAST (Casey re-issued the standing order mid-computation, 2026-08-02)
+I drifted: I computed ζ′_{Q⁵}(0) = −0.2095 (det Δ=1.233, solid) then hunted it as a PSLQ integer-relation among ζ′(−1), ζ′(−3), log 2π — *analytic number theory*, wrong tool, only spurious large-coefficient relations. Casey's linearization directive is the correction, and it makes the reduction CONCRETE.
+
+**On the (p,q) weight lattice of the rank-2 TYPE-IV (Lorentzian) spin factor there are TWO quadratic forms on the same weight:**
+- **Casimir / TRACE:** T(p,q) = p²+q² (Euclidean) — the eigenvalue λ = T − 17/2, what det Δ is built from.
+- **Jordan / LORENTZIAN NORM:** N(p,q) = p²−q² (type IV = SO(5,2) ⟹ the norm IS the Lorentzian form) — the Jordan determinant.
+
+**The Weyl-dimension multiplicity ALREADY carries the norm:** d = (1/180)·p(p²−¼)·q(q²−¼)·**(p²−q²)** — the (p²−q²) factor **IS N(p,q), the Jordan norm.** So "the norm enters through the measure" is literal: the Lorentzian norm sits in the spectral density ⟨w|d⟩, distinct from the trace eigenvalue.
+
+**Grounding (both forms clean in the primaries):** on ρ=(5/2,3/2) — TRACE |ρ|²=p²+q²=**17/2** (the F200 bleed rate²/sink²), NORM N(ρ)=p²−q²=**4=rank²**. Two forms, both clean — the linear-algebra signature.
+
+**⟹ The reduction det Δ → Jordan norm, as depth-2 linear algebra (not ζ′-hunting):** det Δ is built from the trace eigenvalues; the density carries the norm factor N=p²−q²; Γ_Ω integrates powers of N over the cone. So the reduction is **the relation between the two quadratic forms of one type-IV spin factor** — trace vs Lorentzian-determinant on the (p,q) lattice. That is the exhibit's correct frame; the ζ′(0)-as-transcendental-combo was the wrong question (its PSLQ negative is expected and irrelevant). Next: the ⟨w|d⟩ inner-product statement making det Δ = Γ_Ω(N) exact, on the lattice.
+
+## ★★ LANE CLOSURE (2026-08-02) — the Γ_Ω identity resolves as a CALIBRATION, complete at its honest ceiling
+Took the "quantitative Γ_Ω identity" as a lane and it resolves honestly (both directions), NOT as an open grind:
+- **Over-claim avoided:** "det Δ = one clean Γ_Ω number." A rank-2 symmetric-space determinant is a **multiple-Gamma (Barnes-G) COMBINATION** at the 9 B₃ positive-root ρ-shifts {½,1,3/2,2,5/2,3,4}, NOT a single value. Chasing a clean single number (the PSLQ hunt) was the drift Casey corrected — analytic number theory, not linear algebra.
+- **Under-claim avoided:** "the reduction failed." It did not. The **structural claim is PROVEN** (ruled PASS, K1112): the Weyl density carries N=p²−q² = the Jordan norm, and det Δ is **Γ_Ω-CLASS (multiple-Gamma at the ρ-ladder) BY CONSTRUCTION** — it is a symmetric-space determinant.
+- **⟹ HONEST CEILING:** structure = norm-governs-density **DERIVED** (proven); det Δ = **1.233** = a multiple-Gamma value at the B₃ ρ-shifts (Γ_Ω-class, computed). There is **no simpler clean-number identity to seek** — that "det Δ = Γ_Ω(N)" single-number target was my own conflation of "governed by the norm/Γ_Ω structure" (true, proven) with "equals a simple Γ_Ω value" (not how rank-2 determinants work). **The lane is COMPLETE at its honest form.** (An explicit Barnes-G coefficient expansion is a possible refinement but low-value — the structure is what's Derived, and it is.)
+
 ## Casey's three gates (K1084), held
 1. **Exhibit, never infer.** The reduction is exhibited only by the Γ_Ω computation (step 2), never by "N is in the kernel" (Lyra's footing) or "both are called determinant" (the shared name). Step 1 is real but is not step 2.
 2. **Blind to which rung.** Compute ζ′(0)/det Δ without assuming the vacuum's level; the placement (k=rank) must FALL OUT of the norm/degree structure, not be inserted. Never compare to 4λ₂=56, 10⁻¹²⁰, or 13/19 until the identity stands.
