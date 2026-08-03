@@ -81,7 +81,8 @@
   ],
   "contributor_note": "Grace EOD May 16: added 13 high-precision constants from sprint.",
   "eod_session": "2026-05-18 EOD",
-  "total_constants": 191
+  "total_constants": 191,
+  "publication_tier_mapping": "Fixed deterministic map (Grace, tier-maintainer, 2026-08-03) per BST_GUIDELINE_Research_Tiers_and_Publication_Tiers: Proved/Derived->Derived; PD->Structure-Derived; Identified->Structure-Derived; Conditional->Indicative/Lead; Structural->Indicative; scaffold/proxy->Indicative-until-recomputed; Derived-given-tick->Derived(input stated GR-plainly). GR-benchmark: Structure-Derived sits ABOVE GR's source terms (G,Lambda,w). No case-by-case bumps."
  },
  "constants": [
   {
@@ -121,7 +122,8 @@
    "status": "derived",
    "ace": "(0,0)",
    "k962_tier": "DERIVED — target-innocent, re-confirmed (K992): 6=C₂ Bergman spectral gap, π⁵=Hua volume, no free parameters",
-   "k992_note": "K992 (2026-07-29) RE-AUDIT — 6π⁵ DERIVED, target-innocent CONFIRMED (closes Cal §135's un-re-audited flag). Form 6π⁵ = C₂·π^{n_C} (6=C₂, 5=n_C); π-ful ⟹ MEASURE not count (K968 discriminator). Mechanism (BST_ElectronMass_CanonicalProof.md, verified): the 6 = C₂ = the Casimir eigenvalue of the k=6 Bergman space (C₂ = k(k−n_C) = 6·1 = 6) = the spectral gap of the Bergman Laplacian — NOT a coincidental 6, NOT 3! or N_c·rank (the π-ful measure form rules out a count). The π⁵ = Vol(D_IV⁵) = π⁵/1920 (Hua volume, classical). The 6 being the Casimir is the electron's analog of the muon's 24 = Γ(n_C) being the genuine Gindikin gamma (both real geometric objects, not bare counts). 'Not fitted — computed from D_IV⁵, no free parameters, no SM input.' Value 1836.118 vs obs 1836.153 → 0.0019%. Ships Derived in the flagship."
+   "k992_note": "K992 (2026-07-29) RE-AUDIT — 6π⁵ DERIVED, target-innocent CONFIRMED (closes Cal §135's un-re-audited flag). Form 6π⁵ = C₂·π^{n_C} (6=C₂, 5=n_C); π-ful ⟹ MEASURE not count (K968 discriminator). Mechanism (BST_ElectronMass_CanonicalProof.md, verified): the 6 = C₂ = the Casimir eigenvalue of the k=6 Bergman space (C₂ = k(k−n_C) = 6·1 = 6) = the spectral gap of the Bergman Laplacian — NOT a coincidental 6, NOT 3! or N_c·rank (the π-ful measure form rules out a count). The π⁵ = Vol(D_IV⁵) = π⁵/1920 (Hua volume, classical). The 6 being the Casimir is the electron's analog of the muon's 24 = Γ(n_C) being the genuine Gindikin gamma (both real geometric objects, not bare counts). 'Not fitted — computed from D_IV⁵, no free parameters, no SM input.' Value 1836.118 vs obs 1836.153 → 0.0019%. Ships Derived in the flagship.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_002",
@@ -160,7 +162,8 @@
    "status": "derived",
    "gf128_reading": "1/(x^7 + x^3 + 1) = 1/(defining polynomial of GF(128))",
    "ace": "(0,0)",
-   "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)"
+   "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_003",
@@ -201,7 +204,11 @@
    "formula": "Not derived in closed form from BST integers",
    "ace": "(1,0)",
    "k962_tier": "DERIVED (pending Cal tire-kick)",
-   "k962_note": "K963 (2026-07-28): PROMOTED to DERIVED — 24=Γ(n_C) (Gindikin gamma factor of D_IV⁵, target-innocent: you'd write Γ(n_C) before evaluating); π² + exponent-6 from the domain. PENDING Cal's tire-kick (is Γ(n_C) the source or does it merely evaluate to 24?). Confirmation: 0.004%."
+   "k962_note": "K963 (2026-07-28): PROMOTED to DERIVED — 24=Γ(n_C) (Gindikin gamma factor of D_IV⁵, target-innocent: you'd write Γ(n_C) before evaluating); π² + exponent-6 from the domain. PENDING Cal's tire-kick (is Γ(n_C) the source or does it merely evaluate to 24?). Confirmation: 0.004%.",
+   "tier_convention": "ANCHOR-CONVENTION #9 RATIFIED (2026-08-03): DERIVED-GIVEN-THE-TICK. G = geometry·ℓ_B² with ℓ_B=c·t_B; forced given the tick-anchor (m_Planck=√(ℏc/G) then falls out — no longer an input). Derived-given-anchor.",
+   "publication_tier": "Derived (one input stated GR-plainly: the tick)",
+   "register_status": "a1 a Q^5 computation (Elie), but Cal §-corrected (2026-08-03, Rule 11): the a1=(1/6)R FORM is UNIVERSAL Seeley-DeWitt — EVERY Laplace operator on EVERY manifold gives (1/6)R, so reproducing it is a CONSISTENCY CHECK, NOT a distinctive BST derivation (same status as the β-function's 11/3). The BST-SPECIFIC content (the 'marble') is the COUPLING COEFFICIENT tying (1/6)R to G via the κ_Bergman=−n_C normalization. Publish 'BST forces the gravity COEFFICIENT', NEVER 'BST derives Einstein-Hilbert' (the form is universal wood). [Grace over-claim owned; Cal caught it — Rule 11.]",
+   "ruling_reached_field": "G: Cal §Rule-11 correction reached the field 2026-08-03 (form universal / coefficient is the BST marble); supersedes Grace over-claim \"wood into marble literal\"."
   },
   {
    "id": "const_004",
@@ -235,7 +242,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_005",
@@ -268,7 +276,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_006",
@@ -303,7 +312,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_007",
@@ -340,7 +350,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "tier_convention": "ANCHOR-CONVENTION #9 RATIFIED (Casey time-anchor K1118, 2026-08-03): DERIVED-GIVEN-THE-TICK. v is a dimensionful scale forced given the one dimensionful unit-anchor (the commitment tick t_B); the tick is the unit, not a free parameter, so v is Derived-given-anchor. No dimensionless result moves.",
+   "publication_tier": "Derived (one input stated GR-plainly: the tick)"
   },
   {
    "id": "const_008",
@@ -376,7 +388,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_009",
@@ -411,7 +424,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_010",
@@ -454,7 +468,8 @@
    "k973_note": "K973 (2026-07-28) BANKED sub-criteria of the K967 blind bar: (S1) DERIVED — the 24 is the analytic Gindikin Gamma_Omega value Gamma(5), NOT a bare count (F157=K923 theorem, verified vs Faraut-Koranyi; the pi^2 pairing is the un-fakeable analytic tell). (S3) DERIVED — exponent 6 FORCED by pi-counting = dim SO(4) = C(4,2) = measurement little group (F111; the old derivation_chain readings '24=N_c!*2^rank' and '6=n_C+1' are pre-K973 coincidental matches, superseded by the Gamma_Omega/F111 mechanism). Muon mode target-innocent at nu=3/2 = a/2 = rho_2. Interior = 2 idempotent seats RIGOROUS (spin factor Re(+)R^4, FK-sourced; E7->4). TWO GATES REMAIN, each ONE linear-algebra step (28h, Lyra+Elie): S2 = project target-innocent F603 condensate direction into R^4, read u-hat; spin-factor frame c_pm=1/2(e +/- v/|v|) is UNIQUE unless v central (FK III.1.2); clears iff v!=0 (non-central). [Cal S^3 'continuum' = set of ALL frames, dissolved once operator given; toy 4900 bug = tested a frame-INVARIANT symbol (degenerate v=0), opposite of frame-selection.] S4 = compute Rossi-Vergne support-orbit rank ell (totally ordered, associated variety); clears iff it names tau->ell=0 BLIND (K880 quarantined). Ratio -> DERIVED iff v!=0 AND ell picks the boundary blind. Use the RANK ell, not the words 'interior/boundary' — INVERTED between Jordan-idempotent and Wallach-support pictures (same class as the sec-118-rung vs K880-Shilov k-overload I flagged; both resolved by picture-independent LA invariants). Consistency-checked: ell tracks nu tracks inverse-mass monotonically (tau ell=0 heaviest/singular-Shilov; electron ell=2 lightest/full-interior).",
    "k984_note": "29d (2026-07-29) RULING — muon carried at DERIVED (e=n without counterexample), the burden-flip tier (K962: geometric forcing on one route absent a counterexample = Derived by default; demotion needs POSITIVE evidence). PROVENANCE: S1 (24=analytic Gamma_Omega, F157=K923), S3 (exponent 6, F111), S4 (tau=boundary by rank), interior-2 seats (rigorous) are all POSITIVELY DERIVED. The last step — e=n (the EW-symmetric axis n = the Jordan cone identity e) — is carried by the burden-flip: Cal SS127 SEPARATED it from the deep gauge embedding (local Sp(2)-spinor question, not hostage to dim-11->12); the (2,2) reading is geometry-FAVORED; the alternative (n!=e, a conjugate Spin(4) not fixing e) has ZERO positive support. QUALIFIER IS MANDATORY — never write bare 'Derived'; the '(e=n without counterexample)' names the one absence-carried step honestly. UPGRADE PATH: Cal's n=e derivation from the substrate potential (SSB-correct: 'unbroken axis n sits at e, breaking transverse', NOT 'symmetric wins') removes the qualifier -> bare DERIVED. DEMOTION: a positive n!=e counterexample -> back to IDENTIFIED. This is the WORKED EXAMPLE for the Forcing+Evidence standard: geometry forces the structure, evidence (no counterexample) carries the closer, the tag shows exactly which is which. Composite ratio m_mu/m_e=(24/pi^2)^6, 0.003%.",
    "tier_reconcile_note": "tier D reconciled to k962 DERIVED (K986 burden-flip); the mandatory '(e=n without counterexample)' qualifier lives in k962_tier — never render bare 'D' without it (Cal §135 never-bare rule).",
-   "f323_decoupling_note": "29t (2026-07-29): the muon's DERIVED tier is anchored to the e=n burden-flip (K986), INDEPENDENT of the F323 lepton integral. F323 decides ONLY the c-function SECOND route (whether the muon gains an independent second derivation), NOT the tier. PRE-REGISTERED ledger response (committed before the number): (PASS, F323 ≈ (24/π²)⁶): add 'second route: F323 cross-ν overlap CONFIRMED' — a CONFIRMATION-axis strengthening (already Derived → now double-route), lepton engine advances to the full Gram/PMNS. (NULL, F323 ≠ 24/π² or won't close): stamp the c-function/F323 route CLOSED (evaluated, does not reproduce the form); muon UNCHANGED (Derived via e=n); unified one-matrix engine PARKED as a research arc; fermion sector banks AS-IS (11/13 Derived); the principle 'quarks=degree-Jack, leptons=cross-ν overlap' remains a real finding. A null does NOT downgrade the muon and is NOT a failure. Do NOT tune the integrand to hit 24/π² (fabrication the bar stops)."
+   "f323_decoupling_note": "29t (2026-07-29): the muon's DERIVED tier is anchored to the e=n burden-flip (K986), INDEPENDENT of the F323 lepton integral. F323 decides ONLY the c-function SECOND route (whether the muon gains an independent second derivation), NOT the tier. PRE-REGISTERED ledger response (committed before the number): (PASS, F323 ≈ (24/π²)⁶): add 'second route: F323 cross-ν overlap CONFIRMED' — a CONFIRMATION-axis strengthening (already Derived → now double-route), lepton engine advances to the full Gram/PMNS. (NULL, F323 ≠ 24/π² or won't close): stamp the c-function/F323 route CLOSED (evaluated, does not reproduce the form); muon UNCHANGED (Derived via e=n); unified one-matrix engine PARKED as a research arc; fermion sector banks AS-IS (11/13 Derived); the principle 'quarks=degree-Jack, leptons=cross-ν overlap' remains a real finding. A null does NOT downgrade the muon and is NOT a failure. Do NOT tune the integrand to hit 24/π² (fabrication the bar stops).",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_011",
@@ -490,7 +505,8 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "notes": "RETIRED as a derived form (Keeper K739, 2026-07-18): 3/13=N_c/(N_c+2n_C)=0.2308 is a RUNNING COINCIDENCE sitting ~0.2% from where the real prediction (3/8 high-scale, fermion-content-forced) runs to at M_Z by standard RGE. sin2thW is a RUNNER, not a clean BST-primary observable. 28/3 form needs ||B-L||^2 a factor g/rank=7/2 above standard color norm; RH charges need a T3_R piece. Do NOT resurface 3/13 as derived/identified. Kept structural: weak-color coupling B=1/N_c. Tier S (flagged), was D."
+   "notes": "RETIRED as a derived form (Keeper K739, 2026-07-18): 3/13=N_c/(N_c+2n_C)=0.2308 is a RUNNING COINCIDENCE sitting ~0.2% from where the real prediction (3/8 high-scale, fermion-content-forced) runs to at M_Z by standard RGE. sin2thW is a RUNNER, not a clean BST-primary observable. 28/3 form needs ||B-L||^2 a factor g/rank=7/2 above standard color norm; RH charges need a T3_R piece. Do NOT resurface 3/13 as derived/identified. Kept structural: weak-color coupling B=1/N_c. Tier S (flagged), was D.",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_012",
@@ -526,7 +542,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_013",
@@ -563,7 +580,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_014",
@@ -590,10 +608,10 @@
     "All give Omega_Lambda = 13/19 = 0.68421"
    ],
    "category": "cosmology",
-   "tier": "D",
-   "tier_review": "PARTIALLY DERIVED (Casey 2026-08-01) — more accurate than 'Identified': part is genuinely forced, part is open, and this caveat marks it until the value settles. DERIVED part: the integers are Chern-Weil forced (c₃(Q⁵)=13 from (1+H)^7/(1+2H), exponent 7=g, quadric degree 2; χ=6=C₂ via c₅=3=N_c·deg — recomputed directly, stronger than the original bank). OPEN part: the specific COMBINATION Ω_Λ=c₃/(c₃+χ) is not yet forced over alternatives (c₂/(c₂+χ) etc.) — a REACHABLE index-theoretic derivation via the blind vacuum-fraction operator (Plancherel committed/total), NOT an impossibility. Resolution: blind operator forces it → full Derived; fails → tier reopens to Casey. NOT 'Identified' (that discards the forced integers), NOT full 'Derived' (combination open). Demotion to Identified rejected as flimsy. See grace_cosmology_tier_refresh_01 + K1074 tier queue.",
+   "tier": "PD",
+   "tier_review": "[2026-08-03 over-determination-pass flag (Grace): the mechanism note \"13/19 via three independent routes, most overdetermined result in BST\" is RICH-VOCABULARY of the denominator 19 (N_c²+2n_C=19, c₃+χ=19, genus-2 Verlinde 7+5+4+3=19) — three DECOMPOSITIONS of one number, not three independent data points. This is the F417/Cal-286 pattern and the K741 retraction class (Λ \"5-fold\" was one factorization ×5). Numerator c₃=13 is the forced part; the \"most overdetermined\" language must NOT travel externally. Tier PD unchanged — this is a confirmation/representation flag, not a tier move.] PARTIALLY DERIVED (Casey 2026-08-01) — more accurate than 'Identified': part is genuinely forced, part is open, and this caveat marks it until the value settles. DERIVED part: the integers are Chern-Weil forced (c₃(Q⁵)=13 from (1+H)^7/(1+2H), exponent 7=g, quadric degree 2; χ=6=C₂ via c₅=3=N_c·deg — recomputed directly, stronger than the original bank). OPEN part: the specific COMBINATION Ω_Λ=c₃/(c₃+χ) is not yet forced over alternatives (c₂/(c₂+χ) etc.) — a REACHABLE index-theoretic derivation via the blind vacuum-fraction operator (Plancherel committed/total), NOT an impossibility. Resolution: blind operator forces it → full Derived; fails → tier reopens to Casey. NOT 'Identified' (that discards the forced integers), NOT full 'Derived' (combination open). Demotion to Identified rejected as flimsy. See grace_cosmology_tier_refresh_01 + K1074 tier queue. [tier field corrected D->PD 2026-08-03: Casey ruling was recorded in review-text only; now in the tier field so the publication map reads it right.]",
    "ac_depth": 0,
-   "mechanism": "Chern polynomial of D_IV^5 gives 13/19 via three independent routes. Most overdetermined result in BST.",
+   "mechanism": "Ω_Λ = c₃/(c₃+χ) = 13/19. FORCED part: numerator c₃=13 is Chern-Weil forced (c₃(Q⁵)). The denominator 19 has three DECOMPOSITIONS of the same integer — N_c²+2n_C=19, c₃+χ=19, genus-2 Verlinde 7+5+4+3=19 — i.e. rich-vocabulary of ONE number, NOT three independent over-determinations (F417 / Cal-286; same class as the K741 retraction). OPEN part: the specific combination-forcing (why 13/19 and not another integer ratio) is not yet derived. → Partially Derived.",
    "domain": "cosmology",
    "source_section": "Section 11",
    "source_theorems": [
@@ -601,7 +619,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "mechanism_superseded_2026-08-03": "Chern polynomial of D_IV^5 gives 13/19 via three independent routes. Most overdetermined result in BST."
   },
   {
    "id": "const_015",
@@ -638,7 +658,8 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal. DM/baryon=2^(2·rank)/N_c=16/3: the exponent 2·rank=4 is STRUCTURAL (not purely form-selected) and 'channel capacity' is a plausible counting mechanism — so mid-strength (n_s-class, above A_s) — BUT the channel-capacity count 2^(2·rank) is ASSERTED not derived, and 16/3 is the closest 2^k/N_c to obs 5.36 (mild form-selection). 0.58%. ★ DUPLICATE: const_197 (tier S) is the SAME quantity 16/3 at a DIFFERENT tier — dedup + tier-reconcile needed (flag Keeper/graph)."
+   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal. DM/baryon=2^(2·rank)/N_c=16/3: the exponent 2·rank=4 is STRUCTURAL (not purely form-selected) and 'channel capacity' is a plausible counting mechanism — so mid-strength (n_s-class, above A_s) — BUT the channel-capacity count 2^(2·rank) is ASSERTED not derived, and 16/3 is the closest 2^k/N_c to obs 5.36 (mild form-selection). 0.58%. ★ DUPLICATE: const_197 (tier S) is the SAME quantity 16/3 at a DIFFERENT tier — dedup + tier-reconcile needed (flag Keeper/graph).",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_016",
@@ -663,7 +684,7 @@
     "n_s = 1 - 5/137 = 0.96350"
    ],
    "category": "cosmology",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 0,
    "mechanism": "Spectral tilt = n_C/N_max from slow-roll on D_IV^5. Compact dimension over max quantum number.",
    "domain": "cosmology",
@@ -674,7 +695,8 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal — and registry T1962/T1421 'Proved' OVER-CLAIMS. STRONGER than Ω_Λ: integers target-innocent (n_C, N_max primaries), a COUNTING mechanism (n_C running modes × 1/N_max per mode, T1962 — not a bare ratio), multi-role recurrence (same n_C/N_max anchors tritium Q_β, T2050), 0.3σ. BUT the per-mode tilt-magnitude '1/N_max' is ASSERTED, not derived from slow-roll on D_IV⁵ — the Derived-vs-fit hinge. Mild form-selection flag (n_C/N_max is the closest clean X/N_max to obs tilt). Re-promotes to Derived iff slow-roll/cascade forces tilt-per-mode=1/N_max target-blind; PD otherwise; NOT Proved. See grace_cosmology_tier_refresh_02_n_s_2026-08-02."
+   "tier_review": "RATIFIED #7 (Casey + Cal §216, 2026-08-03): PARTIALLY DERIVED. Explicit split — DERIVED: integers target-innocent (n_C,N_max) + the mode-COUNT n_C; OPEN: the per-mode tilt-magnitude 1/N_max asserted, not slow-roll-derived. Prior registry 'Proved' (T1962/T1421) over-claimed. [Grace flag resolved → ratified.]",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)"
   },
   {
    "id": "const_017",
@@ -699,7 +721,7 @@
     "A_s = (N_c/4)*alpha^4 = (3/4)/137^4"
    ],
    "category": "cosmology",
-   "tier": "D",
+   "tier": "I",
    "ac_depth": 1,
    "mechanism": "Scalar amplitude = (N_c/4)*alpha^4 from inflaton potential on D_IV^5. N_c colors, alpha^4 suppression.",
    "domain": "cosmology",
@@ -710,7 +732,8 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→IDENTIFIED (weak PD) pending Casey/Cal — WEAKER than n_s. Integers N_c, N_max target-innocent; N_c-counting (colors) plausible. BUT: (a) the EXPONENT 4 on α is FORM-SELECTED — α⁴=2.8e-9 is the only power within ~1 order of A_s~2e-9 (α³=3.9e-7, α⁵=2e-11), no shown mechanism forcing 4; (b) prefactor N_c/4 = 3/4: /4=/rank² asserted, 3/4≈A_s/α⁴ (near-tuned, 1.2% off); (c) NO multi-role recurrence (unlike n_s tritium); (d) 0.9σ. Re-promotes only if a slow-roll computation forces the α⁴ power + N_c/4 prefactor target-blind. NOT Derived. Cosmology tier-refresh #3; see grace_cosmology_tier_refresh_02_n_s (same class, weaker)."
+   "tier_review": "RATIFIED #8 (Cal §217 final, 2026-08-03): IDENTIFIED. Integers target-innocent but the α⁴ exponent is form-selected (only power near 10⁻⁹) + prefactor N_c/4 asserted + no multi-role recurrence. [Grace flag resolved → ratified.]",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_018",
@@ -735,8 +758,8 @@
     "Omega_m = 1 - Omega_Lambda = 1 - 13/19 = 6/19"
    ],
    "category": "cosmology",
-   "tier": "D",
-   "tier_review": "PARTIALLY DERIVED (Casey 2026-08-01) — more accurate than 'Identified'. Ω_m = χ/(c₃+χ) = 1−Ω_Λ (flat closure, same object Q⁵). DERIVED part: integers Chern-Weil forced. OPEN part: the combination-forcing (same blind vacuum-fraction operator as Ω_Λ). Blind operator forces it → full Derived; fails → reopens to Casey. See const_014 tier_review + K1074 tier queue.",
+   "tier": "PD",
+   "tier_review": "PARTIALLY DERIVED (Casey 2026-08-01) — more accurate than 'Identified'. Ω_m = χ/(c₃+χ) = 1−Ω_Λ (flat closure, same object Q⁵). DERIVED part: integers Chern-Weil forced. OPEN part: the combination-forcing (same blind vacuum-fraction operator as Ω_Λ). Blind operator forces it → full Derived; fails → reopens to Casey. See const_014 tier_review + K1074 tier queue. [tier field D->PD 2026-08-03: this was a Casey RULING (2026-08-01) sitting in prose only; now in the field per \"rulings must reach the data field\".]",
    "ac_depth": 0,
    "mechanism": "Omega_m = 1 - Omega_Lambda = 1 - 13/19 = 6/19. Derived from dark energy result.",
    "domain": "cosmology",
@@ -746,7 +769,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)"
   },
   {
    "id": "const_019",
@@ -783,7 +807,8 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal. Ω_b=18/361=Ω_m/(1+16/3) is DOWNSTREAM of Ω_m (PD) + the 16/3 DM/baryon ratio (PD, const_015) — inherits the PD floor, bounded by weakest input; [D] over-claims a downstream quantity. 0.9%."
+   "tier_review": "UNDER TIER-REFRESH (Grace, 2026-08-02): flag [D]→PARTIALLY DERIVED pending Casey/Cal. Ω_b=18/361=Ω_m/(1+16/3) is DOWNSTREAM of Ω_m (PD) + the 16/3 DM/baryon ratio (PD, const_015) — inherits the PD floor, bounded by weakest input; [D] over-claims a downstream quantity. 0.9%.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_020",
@@ -822,7 +847,8 @@
     "toy_1463"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_021",
@@ -857,7 +883,8 @@
    "status": "derived",
    "ace": "(0,0)",
    "_hygiene_2026-07-12": "FIXED stale observed 1.196→1.150 rad (PDG γ_CKM ≈ 65.9°). The FORMULA atan(√n_C)=atan(√5)=65.9° is CORRECT (0.0%, D-tier justified) — the 3.8% was a stale observed value, not a bad form. Grace hygiene sweep.",
-   "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)"
+   "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_022",
@@ -898,7 +925,8 @@
    ],
    "status": "derived",
    "ace": "(0,0)",
-   "_reconciliation_2026-07-12": "SUPERSEDED (4.45% off). CANONICAL = sin²θ12 = C_2·g/N_max = 42/137 (T2093, 0.14%). Grace PMNS reconciliation."
+   "_reconciliation_2026-07-12": "SUPERSEDED (4.45% off). CANONICAL = sin²θ12 = C_2·g/N_max = 42/137 (T2093, 0.14%). Grace PMNS reconciliation.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_023",
@@ -936,7 +964,8 @@
    ],
    "status": "derived",
    "ace": "(0,0)",
-   "_reconciliation_2026-07-12": "SUPERSEDED (2.3% compromise). OCTANT-DEPENDENT canonical: 4/7=(n_C−1)/(n_C+2) [upper, 0.572, 0.10%] OR C_2/c_2=6/11 [lower, 0.546, 0.10%]. Octant-gated (DUNE/T2K). Grace reconciliation."
+   "_reconciliation_2026-07-12": "SUPERSEDED (2.3% compromise). OCTANT-DEPENDENT canonical: 4/7=(n_C−1)/(n_C+2) [upper, 0.572, 0.10%] OR C_2/c_2=6/11 [lower, 0.546, 0.10%]. Octant-gated (DUNE/T2K). Grace reconciliation.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_024",
@@ -969,7 +998,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_025",
@@ -995,7 +1025,7 @@
     "Predicts 8th magic number: 184"
    ],
    "category": "nuclear",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "mechanism": "Spin-orbit splitting kappa_ls = C_2/n_C = 6/5 reproduces all 7 nuclear magic numbers (2,8,20,28,50,82,126).",
    "domain": "nuclear_physics",
@@ -1005,7 +1035,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "tier_review": "[2026-08-03 D->PD: kappa_ls: NOT certified blind (K1132/K1133). Mode-count 2C2=12 forced, per-mode strength asserted (n_s-shape); form-multiplicity; in-band != certification (Cal 244). D->PD.]"
   },
   {
    "id": "const_026",
@@ -1030,7 +1062,7 @@
     "Testable at superheavy element facilities"
    ],
    "category": "nuclear",
-   "tier": "D",
+   "tier": "S",
    "ac_depth": 1,
    "mechanism": "Same kappa_ls = 6/5 that gives 7 known magic numbers predicts 184 as the 8th. Testable at superheavy facilities.",
    "domain": "nuclear_physics",
@@ -1040,7 +1072,10 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Indicative",
+   "register_status": "RATIFIED Derived→Structural (Cal K601 nuclear re-tier + K1132, applied 2026-08-03 Grace): the magic-number factorizations are a CONSISTENT factorization of the fitted spin-orbit strength, NOT unique geometric forcing (per-number forms post-hoc). Structural, not Derived.",
+   "ruling_reached_field": "N_magic(8) D→S, ratified (K601+K1132) + applied to field 2026-08-03 Grace — the last tier-field-gap item."
   },
   {
    "id": "const_027",
@@ -1073,7 +1108,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_028",
@@ -1106,7 +1142,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_029",
@@ -1141,7 +1178,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_030",
@@ -1174,7 +1212,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_031",
@@ -1206,7 +1245,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_032",
@@ -1241,7 +1281,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_033",
@@ -1276,7 +1317,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_034",
@@ -1311,7 +1353,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_035",
@@ -1344,7 +1387,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_036",
@@ -1378,7 +1422,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_037",
@@ -1412,7 +1457,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_038",
@@ -1437,7 +1483,7 @@
     "All inputs derived, no tuning"
    ],
    "category": "cosmology",
-   "tier": "D",
+   "tier": "I",
    "ac_depth": 1,
    "mechanism": "Sound horizon from full CAMB with BST cosmological parameters. All inputs derived, no tuning.",
    "domain": "cosmology",
@@ -1447,7 +1493,10 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Indicative (Register-gated: recompute on genuine geometry before Derived)",
+   "register_status": "RATIFIED Indicative (Cal hunt, Casey sign-off 2026-08-03): r_* is a CAMB/Boltzmann OUTPUT smuggling the cosmological Mpc/H_0 SECOND scale beyond the m_e/tick anchor. Not a BST-forced number until recomputed without the cosmological scale.",
+   "ruling_reached_field": "r_* D->Indicative, ratified+applied to field 2026-08-03 Grace."
   },
   {
    "id": "const_039",
@@ -1489,7 +1538,8 @@
    "k982_note": "K982/K980 RULING (2026-07-29) — TAU value = FITTED (DERIVED-FINAL). My pre-registered K980 branch (b) landed. Elie toy 4907: the F483 lepton mass operator splits the three leptons by support-orbit dimension {5,4,0} — electron (open cone / bulk, nu=5/2), muon (light-cone boundary / edge, nu=3/2), TAU (vertex/tip, ell=0, nu=0). e and mu are smooth-measure eigenvalues (ratio = F111 = (24/pi^2)^6, Derived). TEST 1 (RIGOROUS, positive proof): the interior closed-form mass formula is FINITE at the electron (nu=5/2) but hits Gamma(0)=infinity — a genuine POLE — at the tau's nu=0. The smooth spectral formula PROVABLY does not extend to the boundary seat, so the tau is PROVABLY NOT a smooth-spectral eigenvalue; it is a measure-set boundary mode. This is a no-closed-form PROOF (a pole), NOT a failure-to-find — it meets the blind bar K981-B1. => 'Fitted' is now a DERIVED, POSITIVE statement: the heaviest lepton is the ell=0 boundary mode; boundary modes carry measure-set (Shilov-vertex singular-measure) masses, not closed-form spectral masses — which is WHY the 49*71 (and (7/3)^{10/3}) forms read as imported. Physicist's language: domain-wall fermion / edge state / discrete-series limit at the boundary. SCOPE CAVEAT (held precise, Cal): the Test-1 POLE proves 'no SMOOTH-SPECTRAL closed form' rigorously. The fully-exhaustive 'no closed form of ANY kind' leans on Test 2 (a single free vertex measure-weight, a BOUNDED search Elie flagged non-exhaustive) — SUPPORTED, not exhaustively proven. So the DERIVED-final content is 'tau is provably the boundary/measure-set mode (Test 1 pole)'; do NOT over-claim 'no formula whatsoever.' Writeup: Lyra (F724). Ledger bank: Grace. Value stays 3477.48-Fitted; the epistemic status is the upgrade.",
    "k987_note": "K987 RULING (2026-07-29) — TAU VALUE = IDENTIFIED. My pre-registered Bar A landed on the Identified branch. Elie toy 4910 (blind) on Lyra F726: the canonical vertex weight = Gindikin Gamma_Omega residue Res_0 Gamma_Omega = 37.22 (sqrt-pi-ful, the a=3-odd fingerprint F157, canonical + blind, four digits). Blind domain-invariant candidates (37, 1.8, g^2*res=1824, res^2=1385) — closest 1824, NONE within 5% of the base 3479. The base is O(3479), the residue O(37) — two orders apart; 71 is a PRIME with NO Gamma_Omega-residue origin; no target-innocent construction yields 71 without supplying it by hand. So: HOME = DERIVED (the Gamma(0) pole, boundary mode, untouched); sqrt-pi correction = CANONICAL + BLIND (real partial geometric result); BASE 49*71 = MATCHED, not canonical => VALUE tier = IDENTIFIED (real geometric object present — pole+sqrt-pi — with the base scale matched). This UPGRADES the morning's FITTED (derived-final) to IDENTIFIED, justified by the canonical sqrt-pi + Derived pole home (not a bare fit). Honest nuance: the base ITSELF is Fitted-flavored (matched prime, no geometric origin); the value is Identified because of the surrounding canonical structure. ONE LAST SHOT: the formal-degree scale d(nu) instead of Gamma_Omega(5/2) may supply the O(3479) scale — worth one blind run — but the prime-71 obstruction stands, so LEAN IDENTIFIED-FINAL. K981-guard held: base-only-by-matching is not Derived; the 71 reverse-fit was refused. Supersedes k983_pending (canonical-weight path attempted, base did not fall out canonically).",
    "k989_note": "K989 (2026-07-29) — tau value IDENTIFIED-FINAL, closed with a BOUND not a lean. Elie toy 4911: the formal-degree last shot missed, AND he found WHY it must: every canonical Gamma_Omega object at the lepton strata (nu<=5/2) carries only small primes (largest 3); the prime 71 FIRST appears in a Gamma value at nu>=36 — two orders above any lepton address. So 71 CANNOT be a canonical output at lepton addresses — the base 49*71 is imported, STRUCTURALLY (a bound). The flagship states exactly this: geometry fixes the heaviest lepton as a boundary mode (home DERIVED, the pole), the odd-color sqrt-pi fingerprint is canonical/blind, but the exact value carries a prime with no home in the cone's gamma at lepton addresses. Honest and un-embarrassed. Supersedes the k987 'lean Identified-final' -> now Identified-FINAL with the reason.",
-   "tier_reconcile_note": "tier I reconciled to k962 IDENTIFIED-FINAL (K989); home DERIVED (pole), base 49·71 imported with the ν≥36 prime-71 bound."
+   "tier_reconcile_note": "tier I reconciled to k962 IDENTIFIED-FINAL (K989); home DERIVED (pole), base 49·71 imported with the ν≥36 prime-71 bound.",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_040",
@@ -1526,7 +1576,8 @@
    "status": "structural",
    "ace": "(1,0)",
    "value_form_of": "const_157",
-   "dedup_note": "29p dedup: the VALUE-form of m_t (const_157 is the ceiling home). (1−α)·v/√2 = 172.75, 0.037% — the value-realization of the y_t=1 ceiling, tier IDENTIFIED (value). Not a separate m_t observable; rule the ceiling+value as one via const_157."
+   "dedup_note": "29p dedup: the VALUE-form of m_t (const_157 is the ceiling home). (1−α)·v/√2 = 172.75, 0.037% — the value-realization of the y_t=1 ceiling, tier IDENTIFIED (value). Not a separate m_t observable; rule the ceiling+value as one via const_157.",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_041",
@@ -1561,7 +1612,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_042",
@@ -1601,7 +1653,8 @@
    ],
    "status": "derived",
    "ace": "(0,0)",
-   "tier_note": "K931 (2026-07-26): D->I. The FORM alpha_s(m_p)=g/(4n_C)=7/20 is a high-scale geometric ANCHOR (identified, accuracy-match ~0%), but alpha_s itself is a RUNNER (scale/scheme-dependent, tier_map K755). Accuracy-match != derivation (two-axis). Running endpoint alpha_s(m_Z) stays runner."
+   "tier_note": "K931 (2026-07-26): D->I. The FORM alpha_s(m_p)=g/(4n_C)=7/20 is a high-scale geometric ANCHOR (identified, accuracy-match ~0%), but alpha_s itself is a RUNNER (scale/scheme-dependent, tier_map K755). Accuracy-match != derivation (two-axis). Running endpoint alpha_s(m_Z) stays runner.",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_043",
@@ -1641,7 +1694,8 @@
    "status": "derived",
    "precision_percent": 0.0001,
    "notes": "Toy 1693: 2039x improvement. Correction = (2n_C+1)/(2n_C) * alpha/pi.",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_044",
@@ -1682,7 +1736,8 @@
    "status": "derived",
    "precision_percent": 0.0007,
    "notes": "Toy 1693: 230x improvement. Correction = n_C/g * alpha/pi.",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_045",
@@ -1717,7 +1772,8 @@
    "source_toys": [],
    "status": "structural",
    "ace": "(1,0)",
-   "notes": " [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank²·ℏc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]"
+   "notes": " [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank²·ℏc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_046",
@@ -1751,7 +1807,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_047",
@@ -1785,7 +1842,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_048",
@@ -1819,7 +1877,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_049",
@@ -1854,7 +1913,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_050",
@@ -1888,7 +1948,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_051",
@@ -1922,7 +1983,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_052",
@@ -1956,7 +2018,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_053",
@@ -1991,7 +2054,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_054",
@@ -2026,7 +2090,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_055",
@@ -2059,7 +2124,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_056",
@@ -2093,7 +2159,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_057",
@@ -2128,7 +2195,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_058",
@@ -2161,7 +2229,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_059",
@@ -2194,7 +2263,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_060",
@@ -2229,7 +2299,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_061",
@@ -2265,7 +2336,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_062",
@@ -2301,7 +2373,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_063",
@@ -2334,7 +2407,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_064",
@@ -2366,7 +2440,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_065",
@@ -2398,7 +2473,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_066",
@@ -2430,7 +2506,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_067",
@@ -2462,7 +2539,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_068",
@@ -2494,7 +2572,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_069",
@@ -2526,7 +2605,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_070",
@@ -2560,7 +2640,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_071",
@@ -2592,7 +2673,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_072",
@@ -2624,7 +2706,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_073",
@@ -2657,7 +2740,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_074",
@@ -2691,7 +2775,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_075",
@@ -2724,7 +2809,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_076",
@@ -2759,7 +2845,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_077",
@@ -2803,7 +2890,8 @@
    "precision_percent": 0.3,
    "notes": "Updated April 30: was sqrt(2)/50000 at 2.1%, now vacuum-subtracted Wolfenstein at 0.3% (Toy 1680). Old observed 2.77e-5 was outdated PDG; current PDG 2024: (3.08 +/- 0.09)e-5.",
    "ace": "(0,0)",
-   "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)"
+   "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_078",
@@ -2838,7 +2926,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_079",
@@ -2873,7 +2962,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_080",
@@ -2910,7 +3000,8 @@
     850
    ],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_081",
@@ -2936,7 +3027,7 @@
     "Predicts 8th magic number: 184"
    ],
    "category": "nuclear",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 0,
    "mechanism": "Spin-orbit coupling from ratio of Casimir eigenvalue to complex dimension: C_2/n_C = 6/5. Reproduces all 7 magic numbers.",
    "domain": "nuclear_physics",
@@ -2946,7 +3037,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "tier_review": "[2026-08-03 D->PD: kappa_ls spin-orbit strength: same ruling K1132/K1133. D->PD; promotes to D only if kappa=1/(mode-count) derived first-principles by a non-contaminated deriver.]"
   },
   {
    "id": "const_082",
@@ -2984,7 +3077,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_083",
@@ -3025,7 +3119,8 @@
     "Toy 1533"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_084",
@@ -3061,7 +3156,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived",
+   "tier_review": "[2026-08-03 tier confirmed D: N_magic(1)=2: undeformed skeleton (in {2,8,20,40,70,112}), forced by tetrahedral packing alone, NOT kappa-dependent. Stays Derived (skeleton, K1135).]"
   },
   {
    "id": "const_085",
@@ -3097,7 +3194,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived",
+   "tier_review": "[2026-08-03 tier confirmed D: N_magic(2)=8: undeformed skeleton, packing-forced, kappa-independent. Stays Derived (K1135).]"
   },
   {
    "id": "const_086",
@@ -3133,7 +3232,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived",
+   "tier_review": "[2026-08-03 tier confirmed D: N_magic(3)=20: undeformed skeleton, packing-forced, kappa-independent. Stays Derived (K1135).]"
   },
   {
    "id": "const_087",
@@ -3169,7 +3270,8 @@
    "status": "derived",
    "precision_percent": 0.95,
    "notes": "A = Delta_23/DC from Casimir gaps (Toy 1680). PDG A = 0.826.",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_088",
@@ -3207,7 +3309,8 @@
    "status": "derived",
    "precision_percent": 1.04,
    "notes": "RETIRED as a derived form (K711/K684): C_2^2/(11*79)=36/869=0.0414 -- the 11 and 79 have NO geometric source (genus-5-sensitive fit near the observed value). The honest V_cb is STRUCTURAL ~0.044 (8%) via the evanescent truncation = up-sector refracting to the boundary = y_t=1 (top saturates Shilov). Do NOT resurface 36/869. Tier S, was D. Toy 1680: Casimir gap formula. Was 2.7%, now 1.04%.",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_089",
@@ -3241,7 +3344,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_090",
@@ -3275,7 +3379,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_091",
@@ -3310,7 +3415,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_092",
@@ -3345,7 +3451,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_093",
@@ -3381,7 +3488,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_094",
@@ -3397,7 +3505,7 @@
    "precision": "exact",
    "unit": "",
    "category": "nuclear",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "bst_integers_used": [
     "rank",
@@ -3418,7 +3526,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "tier_review": "[2026-08-03 D->PD: N_magic(4)=28: DEFORMED magic, appears only via the uncertified kappa deformation (not in undeformed set {2,8,20,40,70,112}). D->PD per K1133.]"
   },
   {
    "id": "const_095",
@@ -3434,7 +3544,7 @@
    "precision": "exact",
    "unit": "",
    "category": "nuclear",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "bst_integers_used": [
     "rank",
@@ -3454,7 +3564,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "tier_review": "[2026-08-03 D->PD: N_magic(5)=50: deformed magic, kappa-dependent. D->PD per K1133.]"
   },
   {
    "id": "const_096",
@@ -3470,7 +3582,7 @@
    "precision": "exact",
    "unit": "",
    "category": "nuclear",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "bst_integers_used": [
     "N_c",
@@ -3491,7 +3603,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "tier_review": "[2026-08-03 D->PD: N_magic(6)=82: deformed magic, kappa-dependent. D->PD per K1133.]"
   },
   {
    "id": "const_097",
@@ -3507,7 +3621,7 @@
    "precision": "exact",
    "unit": "",
    "category": "nuclear",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "bst_integers_used": [
     "rank",
@@ -3529,7 +3643,9 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Structure-Derived (form forced; one piece a remaining forced target)",
+   "tier_review": "[2026-08-03 D->PD: N_magic(7)=126: deformed magic, kappa-dependent. D->PD per K1133.]"
   },
   {
    "id": "const_098",
@@ -3563,7 +3679,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_099",
@@ -3596,7 +3713,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_100",
@@ -3637,7 +3755,8 @@
    ],
    "status": "derived",
    "ace": "(1,0)",
-   "tier_review": "TIER-REFRESH (Grace, 2026-08-02): CONFIRMED honestly tiered — no change. H_0 is a downstream CAMB/Boltzmann output from BST inputs {Ω_Λ, Ω_b, n_s}; the propagation is standard physics (no BST-specific forcing), so its tier is INHERITED, bounded by the weakest input (Ω_Λ PD, n_s PD). 'Identified' is honest/conservative. Calibrate-both-directions: this one PASSES, not everything demotes. Ω_b=18/361=Ω_m/(1+16/3) similarly downstream."
+   "tier_review": "TIER-REFRESH (Grace, 2026-08-02): CONFIRMED honestly tiered — no change. H_0 is a downstream CAMB/Boltzmann output from BST inputs {Ω_Λ, Ω_b, n_s}; the propagation is standard physics (no BST-specific forcing), so its tier is INHERITED, bounded by the weakest input (Ω_Λ PD, n_s PD). 'Identified' is honest/conservative. Calibrate-both-directions: this one PASSES, not everything demotes. Ω_b=18/361=Ω_m/(1+16/3) similarly downstream.",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_101",
@@ -3677,7 +3796,8 @@
     904
    ],
    "status": "derived",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_102",
@@ -3716,7 +3836,8 @@
     1182
    ],
    "status": "derived",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_103",
@@ -3750,7 +3871,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_104",
@@ -3784,7 +3906,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_105",
@@ -3820,7 +3943,8 @@
    ],
    "source_toys": [],
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "name": "GF(128) defining polynomial",
@@ -3835,7 +3959,8 @@
    "id": "const_116",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "name": "Frobenius orbit count",
@@ -3849,7 +3974,8 @@
    "id": "const_117",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "name": "Glueball 0-+/0++ mass ratio",
@@ -3864,7 +3990,8 @@
    "tier": "S",
    "status": "structural",
    "ace": "(1,0)",
-   "tier_note": "K941 (2026-07-27): stays S. Form-ambiguous — 0-+/0++ = 3/2=N_c/rank (this entry) vs 17/11; the two cross over on a ~3-4% lattice shift, so neither is a sub-% derivation. Structural agreement only."
+   "tier_note": "K941 (2026-07-27): stays S. Form-ambiguous — 0-+/0++ = 3/2=N_c/rank (this entry) vs 17/11; the two cross over on a ~3-4% lattice shift, so neither is a sub-% derivation. Structural agreement only.",
+   "publication_tier": "Indicative"
   },
   {
    "name": "SU(4)/SU(3) mass gap ratio",
@@ -3878,7 +4005,8 @@
    "id": "const_119",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "name": "Quine execution cost",
@@ -3892,7 +4020,8 @@
    "id": "const_120",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "name": "Transcendence gap",
@@ -3906,7 +4035,8 @@
    "id": "const_121",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_106",
@@ -3943,7 +4073,8 @@
     "toy_1451"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_107",
@@ -3982,7 +4113,8 @@
     "toy_1451"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_108",
@@ -4021,7 +4153,8 @@
     "toy_1451"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_109",
@@ -4064,7 +4197,8 @@
    "status": "derived",
    "ace": "(0,0)",
    "duplicate_of": "const_158",
-   "dedup_note": "29p dedup: NON-AUTHORITATIVE duplicate of const_158 (the y_c=α DERIVED form, 0.05%). This older RFC charm/strange derivation (0.6%) is retained for provenance, not used for the σ-check. Rule against const_158."
+   "dedup_note": "29p dedup: NON-AUTHORITATIVE duplicate of const_158 (the y_c=α DERIVED form, 0.05%). This older RFC charm/strange derivation (0.6%) is retained for provenance, not used for the σ-check. Rule against const_158.",
+   "publication_tier": "n/a (duplicate)"
   },
   {
    "id": "const_110",
@@ -4101,7 +4235,10 @@
     "toy_1451"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Indicative (Register-gated: recompute on genuine geometry before Derived)",
+   "register_status": "RATIFIED split (Cal hunt, Casey sign-off 2026-08-03): the RATIO m_b/m_tau = g/N_c = 7/3 is DERIVED (BST integers). The ABSOLUTE m_b chains to the MEASURED m_tau (not the tick-anchor) -> the absolute value is Indicative until chained to the anchor.",
+   "ruling_reached_field": "m_b split ratio-Derived/absolute-Indicative, ratified+applied 2026-08-03 Grace."
   },
   {
    "id": "const_111",
@@ -4135,7 +4272,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_112",
@@ -4173,7 +4311,8 @@
    "status": "structural",
    "notes": "BST does not currently derive G_F in closed form. The 59% error in previous formula attempt indicates the mechanism is not identified. Marked structural pending derivation.",
    "formula": "Not derived in closed form from BST integers",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_113",
@@ -4205,7 +4344,8 @@
    ],
    "source_toys": [],
    "status": "derived",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_114",
@@ -4241,7 +4381,8 @@
    "status": "derived",
    "precision_percent": 0.001,
    "notes": "From mu_p = (2g/n_C)(1 - 11/(10*N_max*pi)) at 0.0001%. Toy 1693.",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_115",
@@ -4287,7 +4428,8 @@
    ],
    "status": "structural",
    "notes": " Depends on G_F (const_112, structural). Marked structural pending G_F derivation.",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_122",
@@ -4329,7 +4471,8 @@
     "1687"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_123",
@@ -4368,7 +4511,8 @@
    ],
    "status": "identified",
    "notes": " Formula: sqrt(sigma) = sqrt(10)*m_pi. Reconciled May 10.",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_124",
@@ -4402,7 +4546,8 @@
     "1678"
    ],
    "status": "derived",
-   "ace": "(0,0)"
+   "ace": "(0,0)",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_125",
@@ -4440,7 +4585,8 @@
     "1684"
    ],
    "status": "identified",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_126",
@@ -4477,7 +4623,8 @@
     "1684"
    ],
    "status": "identified",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_127",
@@ -4515,7 +4662,8 @@
     "1684"
    ],
    "status": "identified",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_128",
@@ -4529,7 +4677,8 @@
    "notes": "Exact since 2019. 15 = N_c*n_C. BST: rank*pi^n_C.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_129",
@@ -4543,7 +4692,8 @@
    "notes": "Exact in terms of alpha and m_e. alpha = 1/N_max.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_130",
@@ -4557,7 +4707,8 @@
    "notes": "Exact. h = rank*pi*hbar.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_131",
@@ -4571,7 +4722,8 @@
    "notes": "Exact. rank = 2 in denominator.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_132",
@@ -4585,7 +4737,8 @@
    "notes": "mu_N = mu_B/mass_ratio. mass_ratio = C_2*pi^n_C.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_133",
@@ -4599,7 +4752,8 @@
    "notes": "Exact since 2019. rank*e = Cooper pair charge.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_134",
@@ -4613,7 +4767,8 @@
    "notes": "Exact since 2019. rank in numerator.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_135",
@@ -4627,7 +4782,8 @@
    "notes": "Exact since 2019. = 1/G_0.",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "id": "const_136",
@@ -4641,7 +4797,8 @@
    "notes": "Scheme-dependent. beta_0 = g = 7. S-tier (dimensional transmutation).",
    "tier": "S",
    "status": "structural",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "publication_tier": "Indicative"
   },
   {
    "name": "Kolmogorov constant",
@@ -5172,7 +5329,8 @@
    "tier": "I",
    "domain": "qed",
    "notes": "Sub-0.0004% — one of tightest BST matches. Refines T1924 family with n_C/N_max running correction. [Cal verdict #20 applied 2026-05-18 Grace: HONEST precision label. 0.0004% applies to FULL α⁻¹ value (137.0365 vs 137.036). The CORRECTION TERM precision is 1.4% — BST predicts correction n_C/N_max = 5/137 = 0.0365 vs observed 0.0360. The 137 baseline is exact by definition (N_max=137 is a BST integer). External-survivability framing: BST integer N_max=137 gives the leading exact value; correction term at 1.4% precision is the falsifiable BST claim.]",
-   "id": "const_137"
+   "id": "const_137",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2269",
@@ -5187,7 +5345,8 @@
    "unit": "",
    "tier": "I",
    "domain": "EW_decay",
-   "id": "const_138"
+   "id": "const_138",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2276",
@@ -5202,7 +5361,8 @@
    "unit": "",
    "tier": "I",
    "domain": "EW_decay",
-   "id": "const_139"
+   "id": "const_139",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2259",
@@ -5218,7 +5378,8 @@
    "tier": "I",
    "domain": "ckm_mixing",
    "id": "const_140",
-   "_hygiene_2026-07-12": "SUPERSEDED / WRONG FORMULA: g⁴c_2²/(n_C·N_max⁵)=1.2e-6 vs obs 3.08e-5 → 96% off, NOT the stated 0.3%. CANONICAL J_CKM = const_077 (A²λ⁶η̄ = 3.07e-5, 0.3%, D). This duplicate is a bad form — do NOT cite. Grace hygiene sweep."
+   "_hygiene_2026-07-12": "SUPERSEDED / WRONG FORMULA: g⁴c_2²/(n_C·N_max⁵)=1.2e-6 vs obs 3.08e-5 → 96% off, NOT the stated 0.3%. CANONICAL J_CKM = const_077 (A²λ⁶η̄ = 3.07e-5, 0.3%, D). This duplicate is a bad form — do NOT cite. Grace hygiene sweep.",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2233",
@@ -5233,7 +5394,8 @@
    "unit": "",
    "tier": "I",
    "domain": "hadronic",
-   "id": "const_141"
+   "id": "const_141",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2266",
@@ -5248,7 +5410,8 @@
    "unit": "",
    "tier": "I",
    "domain": "hadronic",
-   "id": "const_142"
+   "id": "const_142",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2228",
@@ -5264,7 +5427,8 @@
    "tier": "I",
    "domain": "rare_decays",
    "notes": "Striking sub-0.1% match. Pin(2) × Bergman × boundary product.",
-   "id": "const_143"
+   "id": "const_143",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2093",
@@ -5281,7 +5445,8 @@
    "domain": "pmns_mixing",
    "notes": "13th appearance of 42 = C_2·g = denom(B_6).",
    "id": "const_144",
-   "_reconciliation_2026-07-12": "CANONICAL θ12 (Grace PMNS reconciliation 2026-07-12): 42/137, 0.14%, cleanest+most-precise. Supersedes const_022 (4.45%) and 5762/18769 (form-cheap)."
+   "_reconciliation_2026-07-12": "CANONICAL θ12 (Grace PMNS reconciliation 2026-07-12): 42/137, 0.14%, cleanest+most-precise. Supersedes const_022 (4.45%) and 5762/18769 (form-cheap).",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2254",
@@ -5297,7 +5462,8 @@
    "tier": "I",
    "domain": "ew_gauge",
    "notes": "Refines Lyra T1919 (10/13 → 7/9, factor 8 tighter).",
-   "id": "const_145"
+   "id": "const_145",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2290",
@@ -5313,7 +5479,8 @@
    "tier": "I",
    "domain": "hadronic",
    "notes": "47 = Ogg47 = t_cosmo (T1924 Lyra). 4th multi-role of 47.",
-   "id": "const_146"
+   "id": "const_146",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2218",
@@ -5329,7 +5496,8 @@
    "tier": "I",
    "domain": "kaon_cp",
    "notes": "31 = Mersenne M_5 = Ogg31 (3 roles).",
-   "id": "const_147"
+   "id": "const_147",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2137",
@@ -5344,7 +5512,8 @@
    "unit": "",
    "tier": "I",
    "domain": "higgs",
-   "id": "const_148"
+   "id": "const_148",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "theorem_id": "T2143",
@@ -5360,7 +5529,8 @@
    "tier": "I",
    "domain": "cosmology",
    "notes": "Multi-role 16/3 = K3-cohom/N_c. Also DM mass and Ω_DM/Ω_b.",
-   "id": "const_149"
+   "id": "const_149",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_150",
@@ -5384,7 +5554,8 @@
     "Light vector meson mass scale via Chern numbers c_2/c_3 ratio",
     "Coarse identification at 1.4%; full meson hierarchy framework would derive c_2/c_3 from quark substrate"
    ],
-   "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+   "source_toy": "play/toy_3000_P2_missing_constants_batch.py",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_151",
@@ -5407,7 +5578,8 @@
     "Charmed meson mass scale ≈ 2·m_p via rank-coupling identification",
     "Charm-light substrate at rank-level doubling"
    ],
-   "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+   "source_toy": "play/toy_3000_P2_missing_constants_batch.py",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_152",
@@ -5430,7 +5602,8 @@
     "Charmonium mass via SU(N_c) reciprocal coupling form",
     "(N_c + 1/N_c) reads as ladder-coupling in color-confined cc-bar state"
    ],
-   "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+   "source_toy": "play/toy_3000_P2_missing_constants_batch.py",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_153",
@@ -5455,7 +5628,8 @@
     "Bottomonium mass via Euler characteristic chi=24 + N_c color coupling",
     "Reads as m_p · 10 at structural level"
    ],
-   "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+   "source_toy": "play/toy_3000_P2_missing_constants_batch.py",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_154",
@@ -5479,7 +5653,8 @@
     "Pion-nucleon coupling = Chern c_3=13 with chi-suppressed correction",
     "Chern + Euler characteristic give pion-substrate coupling near-exact"
    ],
-   "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+   "source_toy": "play/toy_3000_P2_missing_constants_batch.py",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_155",
@@ -5506,7 +5681,8 @@
     "Cascade fingerprint per T1401 / Lyra T2380 IP-7"
    ],
    "source_toy": "play/toy_3055_combined_IP6_IP7_IP15.py",
-   "notes": "Same n_C/N_max correction class appears in α⁻¹ (const_137) at boundary-scale BST primary form."
+   "notes": "Same n_C/N_max correction class appears in α⁻¹ (const_137) at boundary-scale BST primary form.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_156",
@@ -5520,7 +5696,8 @@
    "observed_source": "PDG (current/MS-bar ratio, scale-invariant)",
    "precision": "0.5%",
    "tier": "D",
-   "notes": "F506: down-quark ratios d:s:b=1:20:840 from FK Pochhammer (ν)_λ at ν=N_c (Wallach threshold k_min=a=N_c, forced), degrees {1,3,5} (T1929), single-row forced by Q⁵ cohomology. Zero params. Grace sync 2026-07-12. TIER (K901/K903 2026-07-25): STRONG CANDIDATE, gated on the FK rank-2 single-row K-type check -- not fully derived until Elie's rep-check passes; hold at candidate. FF-20 DUPLICATION FLAG: m_s/m_d=20 is also banked as rank^2*n_C (geom-inv T186) and resonates with h^{1,1}(K3)=20 (T1927); these are ONE mechanism (this FK ladder) + structural resonances, NOT independent derivations -- do not multiplicatively count. See geom-inv ff20_duplication_flag."
+   "notes": "F506: down-quark ratios d:s:b=1:20:840 from FK Pochhammer (ν)_λ at ν=N_c (Wallach threshold k_min=a=N_c, forced), degrees {1,3,5} (T1929), single-row forced by Q⁵ cohomology. Zero params. Grace sync 2026-07-12. TIER (K901/K903 2026-07-25): STRONG CANDIDATE, gated on the FK rank-2 single-row K-type check -- not fully derived until Elie's rep-check passes; hold at candidate. FF-20 DUPLICATION FLAG: m_s/m_d=20 is also banked as rank^2*n_C (geom-inv T186) and resonates with h^{1,1}(K3)=20 (T1927); these are ONE mechanism (this FK ladder) + structural resonances, NOT independent derivations -- do not multiplicatively count. See geom-inv ff20_duplication_flag.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_157",
@@ -5538,7 +5715,8 @@
    "notes": "T2514/F509: top = maximal excitation saturating Shilov boundary → y_t=1 (Cauchy-Schwarz); v forced indep of m_t. Predicted, zero top input. Grace sync 2026-07-12.",
    "k962_tier": "CEILING:DERIVED (y_t≤1 ⟹ m_t≤v/√2≈174) / VALUE:IDENTIFIED (172.7 via the (1−α) correction, const_040)",
    "authoritative": true,
-   "dedup_note": "29p dedup: AUTHORITATIVE m_t tier-home (y_t=1 boundary-saturation ceiling). Ceiling DERIVED (174); the sub-% VALUE (172.7, 0.037%) is the (1−α)-corrected form in const_040 — its value-realization, NOT a separate observable."
+   "dedup_note": "29p dedup: AUTHORITATIVE m_t tier-home (y_t=1 boundary-saturation ceiling). Ceiling DERIVED (174); the sub-% VALUE (172.7, 0.037%) is the (1−α)-corrected form in const_040 — its value-realization, NOT a separate observable.",
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
   },
   {
    "id": "const_158",
@@ -5556,7 +5734,8 @@
    "notes": "T2515/toy4621: charm sits one boundary shell in; boundary coupling is α=1/N_max → y_charm=α. m_charm=α·v/√2. Predicted, zero charm input. Grace sync 2026-07-12.",
    "k962_tier": "DERIVED (K997) — m_c = α·v/√2 (y_c = α), 0.05%, authoritative charm entry",
    "authoritative": true,
-   "dedup_note": "29p dedup: AUTHORITATIVE m_c. The y_c=α mechanism (K997), 0.05%. Tier fixed I→D (K997 banked it). Older RFC form const_109 (0.6%) is the non-authoritative duplicate."
+   "dedup_note": "29p dedup: AUTHORITATIVE m_c. The y_c=α mechanism (K997), 0.05%. Tier fixed I→D (K997 banked it). Older RFC form const_109 (0.6%) is the non-authoritative duplicate.",
+   "publication_tier": "Derived"
   },
   {
    "id": "const_159",
@@ -5570,7 +5749,8 @@
    "observed_source": "PDG charged lepton masses",
    "precision": "0.001%",
    "tier": "C",
-   "notes": "T2516/K672: Koide Q=rank/N_c=2/3; √-mass tilt θ=45° from rank-2 filling (A²=rank). CONDITIONAL-FORCED (A²=rank gate open). Colorless-only (quark Koide misses). NO double-bank: lepton mass ratios in T1948. Grace sync 2026-07-12."
+   "notes": "T2516/K672: Koide Q=rank/N_c=2/3; √-mass tilt θ=45° from rank-2 filling (A²=rank). CONDITIONAL-FORCED (A²=rank gate open). Colorless-only (quark Koide misses). NO double-bank: lepton mass ratios in T1948. Grace sync 2026-07-12.",
+   "publication_tier": "Indicative / Lead"
   },
   {
    "id": "const_196_vev_ruler",
@@ -5598,7 +5778,9 @@
     "shows the electroweak scale rides the ONE gravity ruler via forced dimensionless factors — 0 new inputs"
    ],
    "notes": "Re-expression of the Fermi scale (Higgs VEV) anchored to m_Planck. Input-count relevance: the EW scale is not an independent input; it is the single gravity scale times {(6*pi^5)^3, alpha^12, 1/g}, all forced. Closes the dynamical-gauging input count at 0 new rows (toy 4703). Companion to m_e = 6*pi^5*alpha^12*m_Planck (F66).",
-   "source_toy": "play/toy_4703_JUL17_EW_scale_rides_the_one_ruler_vev_equals_6pi5cubed_alpha12_mPlanck_over_g_zero_new_inputs_closes_gauging_claim.py"
+   "source_toy": "play/toy_4703_JUL17_EW_scale_rides_the_one_ruler_vev_equals_6pi5cubed_alpha12_mPlanck_over_g_zero_new_inputs_closes_gauging_claim.py",
+   "tier_convention": "ANCHOR-CONVENTION #9 RATIFIED (Casey time-anchor K1118, 2026-08-03): DERIVED-GIVEN-THE-TICK. v is a dimensionful scale forced given the one dimensionful unit-anchor (the commitment tick t_B); the tick is the unit, not a free parameter, so v is Derived-given-anchor. No dimensionless result moves.",
+   "publication_tier": "Derived (one input stated GR-plainly: the tick)"
   },
   {
    "id": "const_197",
@@ -5614,7 +5796,8 @@
    "sector": "cosmology",
    "notes": "NO-DM-PARTICLE BET (Grace 2026-07-18, formalized). BST Five-Absence: there is NO new dark-matter PARTICLE (no WIMP, no axion-as-particle, no sterile neutrino, no hidden-sector matter field). Dark matter is NOT a particle. POSITIVE content: the DM phenomenon is a geometric/gravitational SHADOW with Omega_DM/Omega_b = rank^4/N_c = 16/3 = 5.333 (obs Planck-2018 5.364+/-0.065, 0.58%, 0.5 sigma). 16=rank^4 = the C-tensor-O dimension of ONE generation; /N_c = the 3 colors -> the shadow of visible matter. FALSIFIER (refutation condition): (a) detection of ANY dark-matter particle (direct/collider/indirect) REFUTES the Five-Absence no-DM prediction -> BST wrong; (b) if future surveys measure Omega_DM/Omega_b away from 16/3 beyond a few sigma, the shadow form fails. TIER S: the strength is the FALSIFIABILITY (a hard no-particle bet), not the 0.58% ratio match. Target-innocent form (rank^4/N_c from primaries). See Five-Absence Predictions Set + DarkMatterCalculation.md.",
    "duplicate_of": "const_015",
-   "tier_review": "DUPLICATE of const_015 (Omega_DM/Omega_b=16/3), stamped by Grace 2026-08-02 (graph-cleanup lane). const_015 is authoritative (has formula 2^(2·rank)/N_c + mechanism); this entry is bare (no formula). Retained per never-delete; tier defers to const_015 (PARTIALLY DERIVED under refresh). Was tier S — the S/D mismatch is resolved by making const_015 authoritative."
+   "tier_review": "DUPLICATE of const_015 (Omega_DM/Omega_b=16/3), stamped by Grace 2026-08-02 (graph-cleanup lane). const_015 is authoritative (has formula 2^(2·rank)/N_c + mechanism); this entry is bare (no formula). Retained per never-delete; tier defers to const_015 (PARTIALLY DERIVED under refresh). Was tier S — the S/D mismatch is resolved by making const_015 authoritative.",
+   "publication_tier": "n/a (duplicate)"
   }
  ],
  "metadata": {

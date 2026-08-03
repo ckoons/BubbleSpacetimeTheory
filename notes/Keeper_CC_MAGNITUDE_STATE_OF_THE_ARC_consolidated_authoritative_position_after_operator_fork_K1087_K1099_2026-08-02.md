@@ -8,7 +8,18 @@ supersedes_intermediate: [phantom 220.64, "eigenvalue=norm", "three-rung value-l
 
 # cc-magnitude — where it stands (authoritative, 2026-08-02, through K1111)
 
-*Read THIS before citing any single K-audit from the arc — MANY intermediate states were retracted/corrected/superseded. This note is the current position; the K-audits are the trail.*
+> ## ⚠ PARTIALLY SUPERSEDED (2026-08-03, K1119–K1123) — read this first
+> This note is authoritative for the **FORCED** parts, which STAND: **smallness** (Structural-Derived, F200 bleed), **structure** (Proved, Jordan norm), and the **operator** (full-scalar Q⁵ Laplacian, ζ(0)=−0.7691 — FORCED; the S⁶→Q⁵ correction is a resolved-proxy success).
+>
+> The **w = −1 / equation-of-state / value** parts below were **RE-OPENED and are no longer "solid, do not re-litigate":**
+> - **K1119:** the "given w=−1, exclude the other branch" reasoning was **circular** (w=−1 is the age-coupling route's own output). A **falsifier scrub** found current DESI DR2+CMB+SNe prefer **evolving w>−1** (2.5–5.4σ) — w=−1 is in **live tension**, not "safe."
+> - **K1121:** this note's model **IS** K1040+F220 (w=−1 + decaying substrate-coupling ε(a)). As banked it predicts **wₐ>0** (approach from above) — the **opposite** of DESI's phantom-crossing — tripping K1040's own kill condition. The "−0.89 is a growing-horizon artifact / fixed-Shilov→w=−1" framing here is **exactly what re-opened.**
+> - **K1122:** the **real D_IV⁵ bleed operator gives wₐ>0 by structure** (completely-monotone positive-weight spectrum), not a proxy artifact. The whole eos reduces to ONE blind number: does the clock-to-expansion map's acceleration beat the spectral deceleration?
+> - **K1123:** one input of that competition is τ_now = the **cosmic-age input** → the eos **sign** may itself be Identified (age-set), not Derived — subsuming the "value = observer depth d*" framing below into the τ_now/age framing.
+>
+> **Current position:** w=−1 is **conditional** on the blind wₐ-sign computation in progress (Lane A). Do NOT cite "w=−1 solid" or "−0.89 is an artifact" from below as current. See **K1121, K1122, K1123** and the DE Proxy-Register entry #1.
+
+*Read THIS before citing any single K-audit from the arc — MANY intermediate states were retracted/corrected/superseded. This note is the current position; the K-audits are the trail. **(And this note itself is now partially superseded — see the banner above.)***
 
 **Latest landing (K1107–K1111):** Casey's step-back ("are we missing anything?") opened four foundations, and following the math collapsed the value to ONE question — **is the observer's fixed depth d\* forced?** The value ρ*=S/k = a₀·exp(−μd*)/k has everything forced *except* d* (a₀=225, μ, k=√(17/2) forced; T is moot for the value at harmonic equilibrium, Elie; the one exponential is the depth-suppression). The source-sink balance is **depth-degenerate** (K1109 — it holds at every depth), so the dynamics forces the *profile* (smallness) not the *depth* (value). The depth is pinned only by the **observer** (Casey's flag, K1108/K1109), whose commitment cycle is the SWPP middle leg.
 

@@ -74,10 +74,10 @@
    "category": "not_yet_measured",
    "prediction": "m_nu1 = 0 exactly (the Z_3 Goldstone mode). Normal ordering. Sum = 0.058 eV.",
    "bst_value": "m_nu1 = 0, Sum(m_nu) = 0.058 eV",
-   "current_measurement": "KATRIN: m_nu < 0.45 eV (2024). Sum < 0.12 eV (Planck+BAO)",
+   "current_measurement": "KATRIN: m_ν < 0.45 eV (2024). Σm_ν < ~0.072 eV (95%, DESI+CMB 2024, ΛCDM) — MODEL-DEPENDENT: tightest ΛCDM combos ~0.06 (live Σm_ν tension for ALL models); relaxes to ~0.12–0.16 eV under evolving DE (w0wa, DESI-preferred). [Updated 2026-08-03, Grace falsifier-currency scrub: prior '<0.12 Planck+BAO' was stale, pre-DESI, ~1.7x looser.]",
    "experiment": "KATRIN, Project 8, CMB-S4",
    "timeline": "2027-2032",
-   "falsification_criterion": "Detection of inverted ordering, or sum significantly above 0.06 eV, or direct evidence m_nu1 > 0",
+   "falsification_criterion": "Detection of INVERTED ordering (current tight bounds already DISFAVOR the IO floor ~0.10 eV — data leans to NO = BST), or direct evidence m_ν1 > 0. NOTE the Σm_ν test is DE-MODEL-DEPENDENT (K1031/K1033, coupled to the DE sign, Lane A): under ΛCDM the bound (~0.06–0.072) sits AT BST's NO floor 0.058 — a genuine edge-kill, little wiggle; under evolving DE the bound relaxes (~0.12–0.16) and BST is comfortable. So a wₐ<0 DE resolution both relaxes this falsifier AND (Lane A) moves the DE value to Derived — one coupled outcome.",
    "impact_if_falsified": "Destroys BST neutrino sector — boundary seesaw would need revision",
    "status": "untested",
    "bst_integers_used": [
@@ -91,7 +91,8 @@
     "const_062"
    ],
    "tier": "S",
-   "ace": "(1,0)"
+   "ace": "(1,0)",
+   "currency_scrub": "Grace 2026-08-03 (Lane B): BST NO floor Σ=0.0587 (m2=0.0087+m3=0.050) confirmed; current bounds scrubbed to DESI-era + model-dependence stated; ordering currently favors BST's NO; falsifier coupled to DE sign."
   },
   {
    "id": "pred_004",
@@ -854,25 +855,28 @@
    "id": "pred_046",
    "name": "Cosmological constant exactly w = -1",
    "category": "not_yet_measured",
-   "prediction": "Dark energy equation of state w = -1 exactly (cosmological constant). BST: Lambda is the a₀ rung of the heat-kernel ladder, DERIVED from the fixed C·π⁵ bulk volume (K1040); the deviation from -1 is the substrate coupling ε(a) → 0 (flat interior). The static breathing-mode form w = -1 + n_C/N_max² = -0.99973 is RETIRED as a lead (K1066).",
+   "prediction": "Dark energy: w=−1 equilibrium default (Λ = a₀ rung, K1040), with a real evolving-deviation whose SIGN wₐ is the make-or-break number. STRUCTURAL default: completely-monotone positive-weight spectral bleed → wₐ>0 (approaches −1 from ABOVE, quintessence-always), which fires K1040's own kill if DESI's phantom-crossing (wₐ<0) holds. ESCAPE to Derived (blind, non-circular): the DE tilt crosses −1 exactly at the NEUTRINO FLOOR ρ_Λ^{1/4}=m₂ (κ-independent, F218) with κ target-innocent from the Koons tick (T2405, NOT F218's 'onset≈now') — ties DE/Σm_ν/interstasis into one forced scale. Else Identified.",
    "bst_value": "w = -1 (cosmological constant, from fixed C·π⁵ bulk volume; deviation from -1 = substrate coupling → 0)",
    "current_measurement": "DESI DR2: 2.3 sigma hint for w != -1",
    "experiment": "DESI, Euclid, Rubin Observatory (LSST)",
    "timeline": "2025-2030",
    "falsification_criterion": "w measured at >5 sigma away from -1, outside BST correction range",
    "impact_if_falsified": "Would require BST to accommodate dynamical dark energy",
-   "status": "Derived (w=-1, Λ from C·π⁵ bulk volume, K1040)",
+   "status": "ACTIVE FALSIFIER — currently DISFAVORED by DESI DR2 (E8, Lyra 2026-08-03, K1143). BST completely-monotone bleed ROBUSTLY predicts wₐ>0 (approaches −1 from ABOVE, quintessence-always; held 8/9 cases). Structural reason: a sum of fading modes with POSITIVE weights cannot dip below the −1 floor and climb back — no phantom crossing. DESI DR2 PREFERS wₐ<0 (phantom crossing, w₀~−0.75, wₐ~−0.8, crossing z≈0.45), ~2–4σ and UNCONFIRMED. BST is on the WRONG side of this sharp, pre-registered falsifier. NOT fatal (if DESI softens toward 0 or −1, BST is fine) but the most exposed point in the program. Public pre-registration of wₐ>0 pending Casey.",
    "bst_integers_used": [
     "n_C",
     "N_max"
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "D",
+   "tier": "I",
    "ace": "(1,1)",
    "k1033_dynamical_lead_SUPERSEDED_by_K1040": "[SUPERSEDED by K1040/K1066 — RETAINED FOR HISTORY, NOT AN ACTIVE LEAD. The dynamical breathing-mode below was superseded by the w=-1 C·π⁵ derivation; do not treat as current.] K1033 (2026-07-30) — DARK-ENERGY THREAD. BST's static w₀ = -1 + n_C/N_max² = -0.99973 already TILTS w₀ > -1 (the vacuum breathing mode) — the SAME direction DESI DR2 now favors (ΛCDM disfavored 3-4σ for dynamical DE: w₀>-1, wₐ<0, phantom crossing z≈0.5). So the data LEFT ΛCDM and static-BST is in the same boat, but BST's deviation points the right way (more than pure ΛCDM can say). ★ LEAD (not yet derived): make the breathing mode DYNAMICAL (time-dependent → wₐ≠0, quintom) — the natural COMPLETION of the existing mechanism, not a graft. It fixes TWO frontier tensions at once: (1) matches the DESI dynamical-DE signal; (2) relaxes the Σm_ν bound (0.064→0.16 eV) → last round's 'BST at the edge' becomes 'BST comfortable'. The DE tension and the ν-mass tension are the SAME breathing-mode problem. OPEN PIECE (Lyra/Elie): derive w(a) forward from BST's structure. Tier: static w₀ = C (candidate); dynamical wₐ = LEAD until the forward w(a) derivation lands. Do NOT bank the dynamical fix yet.",
    "k1037_correction_SUPERSEDED_by_K1040": "[SUPERSEDED by K1040/K1066 — RETAINED FOR HISTORY. The dynamical -130/137 framing below was itself superseded same day: its R(K)=0.949 leg is DEAD (LHCb 2022) and DESI DR2 gives w₀=-0.84, not -0.95. Current DE prediction is w=-1 (K1040). The K1037 GOVERNANCE PRINCIPLE it states — do not recast BST's DE to dodge tension or look ΛCDM-like — STANDS; only its dynamical-form content is retired.] K1037 (2026-07-30) GOVERNANCE — do NOT recast BST's DE to look ΛCDM-like. BST's actual DE prediction is DYNAMICAL: w₀ = -(N_max-g)/N_max = -130/137 = -0.949 (T2079, PROVED, matches DESI 2024 -0.95 at 0.12%) + w_a = -N_c/c_2 = -3/11 = -0.273 (T2117, matches DESI -0.30±0.05). Full CPL w(z)=w₀+w_a·z/(1+z) from BST integers. The static w=-0.99973 (breathing-mode) is SUPERSEDED for the DE comparison by the dynamical T2079/T2117. ★ This is BST-FAVORABLE: DESI DR2 disfavors ΛCDM 3-4σ for dynamical DE, and BST PREDICTS dynamical DE matching at 0.12% — a WIN, not a kill. My prior 'committed to ΛCDM' framing was the recast K1037 forbids; corrected.",
-   "k1040_resolution": "K1040 (2026-07-30) — THE CORRECT (3rd) ANSWER, by following the geometry not the data: dark energy is a COSMOLOGICAL CONSTANT, w = -1, DERIVED from the fixed C·π⁵ bulk volume; the deviation from -1 is the substrate coupling, which → 0 (flat interior). Cleaner + more falsifiable than either over-reach. Slots Λ into the a₀ rung of the heat-kernel ladder (a₀=Λ, a₁=G via F60-F66, a₂=strong-sector running). ★ SUPERSEDES the dynamical framing: T2079 (w₀=-130/137=-0.949) + T2117 (w_a=-3/11) are SUPERSEDED — (i) their R(K)=0.949 leg is DEAD (LHCb Dec 2022: R(K) SM-consistent within 1σ), and (ii) DESI DR2 now gives w₀=-0.84±0.06, not -0.95, so the '0.12% match' was stale. BST and ΛCDM BOTH predict w=-1; DESI's dynamical hint tests BOTH equally (not a BST-specific issue). BST DERIVES w=-1 (C·π⁵), ΛCDM assumes it. Corrects my two prior over-reaches (ΛCDM-committed; DESI-dynamical-win)."
+   "k1040_resolution": "K1040 (2026-07-30) — THE CORRECT (3rd) ANSWER, by following the geometry not the data: dark energy is a COSMOLOGICAL CONSTANT, w = -1, DERIVED from the fixed C·π⁵ bulk volume; the deviation from -1 is the substrate coupling, which → 0 (flat interior). Cleaner + more falsifiable than either over-reach. Slots Λ into the a₀ rung of the heat-kernel ladder (a₀=Λ, a₁=G via F60-F66, a₂=strong-sector running). ★ SUPERSEDES the dynamical framing: T2079 (w₀=-130/137=-0.949) + T2117 (w_a=-3/11) are SUPERSEDED — (i) their R(K)=0.949 leg is DEAD (LHCb Dec 2022: R(K) SM-consistent within 1σ), and (ii) DESI DR2 now gives w₀=-0.84±0.06, not -0.95, so the '0.12% match' was stale. BST and ΛCDM BOTH predict w=-1; DESI's dynamical hint tests BOTH equally (not a BST-specific issue). BST DERIVES w=-1 (C·π⁵), ΛCDM assumes it. Corrects my two prior over-reaches (ΛCDM-committed; DESI-dynamical-win).",
+   "k1124_ruling": "K1124 (2026-08-03): eos DEFAULTS to Identified (κ structural, sign age-set). Derived ONLY if wₐ<0 AND (age-robust OR lands on the ν-floor coincidence) with κ target-innocent. DESI (re-scrubbed): w₀~−0.75, wₐ~−0.8, crossing z≈0.45; ~2σ Pantheon+ to ~3.8σ DES-Y5; BAO-alone still fine with −1; systematics debated. Grace+Elie compute the crossing-vs-ν-floor coincidence blind. Supersedes the K1040 'Derived w=−1' framing (that was the equilibrium value; the eos TIER is Identified-conditional).",
+   "status_superseded_2026-08-03": "CONDITIONAL / Identified-by-default (K1124, 2026-08-03). The eos is forced-EXCEPT-the-cosmic-age (n=2 case of the anchor rule). w=−1 is the equilibrium DEFAULT (a₀-rung, C·π⁵, K1040), but the DEVIATION SIGN wₐ is the live question and is AGE-SET (Elie: wₐ<0 ⟺ −H'/κ > Var(λ)/⟨λ⟩, a 0/0 that flips with τ_now; Lyra: κ rests on C₂²=36 = structural, F308 — can't force it). Two independent roads → Identified.",
+   "E8_falsifier_note": "wₐ>0 is now STRUCTURALLY forced by complete monotonicity (was: age-set/live per K1124). Falsifier tier — Keeper/Cal to rule the tier bump; status reflects the honest disfavored standing now."
   },
   {
    "id": "pred_047",

@@ -1,0 +1,56 @@
+# F786 — WINS write-up #2: θ_QCD = 0 (strong-CP without an axion) and the cosmological hierarchy (why Λ is absurdly small) — the two famous-problem *dissolvers* (K1130 second beat, gate-compliant). **Two of the most notorious fine-tuning problems in physics are DISSOLVED, not fitted, by D_IV⁵'s topology and its infinite-distance boundary. Strong-CP: the CP-violating θ-term of QCD is proportional to ∫c₂(F), which vanishes *identically* on D_IV⁵ because the domain is contractible (every gauge bundle over it is trivial, so all Chern classes are zero) — so θ_QCD is unobservable whatever its nominal value, with NO fine-tuning and NO Peccei-Quinn axion (T1964, D0). Cosmological hierarchy: the vacuum zero-point is Planck-scale at the Shilov boundary (a₀ = (N_c·n_C)² = 225), and the boundary sits at *infinite* Bergman distance from the interior, so the substrate heat-flow bleeds the vacuum energy across a near-infinite distance and drives it exponentially small — Λ ~ 10⁻¹²² is inevitable, not tuned. Honest tier line, drawn in the piece: the *smallness* of Λ is Derived; the *precise value* and the equation of state are Identified (age-set) — we advertise "BST derives why Λ is tiny," never "BST derives Λ." Both lead with the D_IV⁵-forced marble (contractibility; infinite Bergman distance), keep the derivation one-directional, and label the imported wood (bundle theory; exponential heat suppression) openly.**
+
+**Lyra, Mon 2026-08-03. Second beat, gate-compliant from the start (Grace pass + Cal §237): marble-first, one-directional, wood labeled. These two are the concrete famous-problem dissolvers — a physicist recognizes both instantly — and they avoid the anthropic-adjacent territory that "why 3+1" and the arrow of time touch. Sourced: T1964 (θ_QCD), the F200/F215/F218 bleed + F784 infinite-distance (Λ smallness). The Λ honesty line is the whole day's cc landing, stated plainly.**
+
+---
+
+## Win 3 — Strong-CP: θ_QCD = 0 with no axion
+
+**The marble (lead — what D_IV⁵ forces).** D_IV⁵ is **contractible** (T1929 / Helgason 1978) — it can be smoothly shrunk to a point. On a contractible base *every* principal gauge bundle is trivial, so *every* Chern class c_k(F) vanishes identically. The QCD θ-term is θ_QCD·∫c₂(F); with c₂(F) ≡ 0 the term is **identically zero regardless of the nominal value of θ_QCD**. That vanishing is the forced, D_IV⁵-specific fact, and it is the lead.
+
+**The problem physics postulates around.** QCD permits a term θ_QCD·∫c₂(F) that violates CP. The neutron electric dipole moment forces |θ_QCD| < 10⁻¹⁰ — a number with no reason to be small. The two standard responses are both unsatisfying: *fine-tune* θ_QCD ≈ 0 by hand (an unexplained coincidence to one part in 10¹⁰), or introduce a *Peccei-Quinn axion* — a new particle that relaxes θ to zero dynamically, and which decades of experiments (ADMX, IAXO, CASPEr) have not found.
+
+**The one-directional derivation.** contractible base (T1929) → all gauge bundles trivial → all Chern classes c_k(F) = 0 → θ_QCD·∫c₂(F) = 0 → strong-CP dissolved. No tuning (the term is zero for *any* θ_QCD), no axion (nothing needs to relax θ). And the *same* argument kills **every** gauge θ-term (QCD, weak, EM) at once, so CP violation survives only in the matter sector — the CKM phase (T1936) and the PMNS phase — which is *exactly* what is observed: CP violation in quark mixing, none in the gauge sector.
+
+**Wood / marble.**
+- *Wood (imported):* the topology — "trivial bundle ⟹ Chern classes vanish" — is classical bundle theory. We use it.
+- *Marble (ours):* that the substrate geometry D_IV⁵ *is* contractible, so the topological term vanishes structurally rather than by tuning. The dissolution is a property of *this* geometry.
+- *Bonus (a Five-Absence prediction):* because BST resolves strong-CP without a Peccei-Quinn axion, it *forbids* the QCD axion — a falsifiable NO. A confirmed QCD axion would refute this route.
+
+**Tier:** D0 (T1964).
+
+**For a bright 12-year-old:** There's a knob in the equations of the strong force that, for no known reason, is set almost perfectly to zero — and physicists have spent forty years either shrugging at the coincidence or hunting a new particle (the "axion") to explain it. On our shape the knob doesn't matter *at all*: the term it controls is multiplied by something that is exactly zero because our shape has no holes to wrap around. So there's nothing to tune and no new particle to find — the problem just isn't there.
+
+---
+
+## Win 4 — The cosmological hierarchy: why Λ is 122 orders of magnitude too small
+
+**The marble (lead — what D_IV⁵ forces).** The vacuum's zero-point energy is set on the **Shilov boundary** (the substrate) at Planck scale — a₀ = (N_c·n_C)² = 225 in the heat-trace normalization. But the boundary sits at **infinite Bergman distance** from the interior where we live (the same completeness fact as F784). The substrate heat-flow bleeds that boundary energy *inward*, across a near-infinite distance, suppressing it exponentially. An energy that must travel an unbounded distance while fading the whole way arrives essentially extinguished. *That* forced geometric fact — a Planck-scale source separated from the interior by infinite distance — is the lead, and it makes a tiny Λ inevitable rather than tuned.
+
+**The problem physics postulates around.** Naive quantum field theory estimates the vacuum energy at ~M_Planck⁴; observation gives Λ ~ 10⁻¹²² M_Planck⁴. The 122-order gap is the *cosmological constant problem* — routinely called the worst fine-tuning in physics. Standard responses: anthropic selection across a landscape (contested, unfalsifiable), or an unexplained cancellation to 122 decimal places.
+
+**The one-directional derivation.** Planck-scale zero-point on the Shilov boundary (a₀ = 225) → substrate heat semigroup exp(−τH_B) bleeds it inward → the boundary is at infinite Bergman distance (D_IV⁵ complete) → suppression across a near-infinite distance → Λ driven exponentially small. Smallness is the *generic* outcome of the geometry, not a coincidence.
+
+**The honest tier line (stated in the piece, not rounded up).** This win is about *smallness*, and only smallness:
+- The **smallness of Λ is Derived** — the infinite-distance bleed forces Λ ≪ M_Planck⁴ structurally.
+- The **precise value and the equation of state are Identified**, not Derived — they depend on where we sit in the relaxation, which is the cosmic-age input (today's cc landing: shape ≠ location; the location is age-set). We advertise **"BST derives *why* Λ is tiny,"** never "BST derives Λ." A referee who sees us stop exactly at smallness will trust the smallness claim.
+
+**Wood / marble.**
+- *Wood (imported):* exponential suppression by heat flow over distance is universal.
+- *Marble (ours):* the infinite Bergman distance of D_IV⁵'s boundary, and the Planck-scale boundary zero-point a₀ = 225 — the specific source-and-separation that makes the suppression enormous.
+
+**Tier:** smallness Derived; value + eos Identified.
+
+**For a bright 12-year-old:** The empty-space energy should be gigantic — physics predicts a number with 122 more zeros than we see. On our shape there's a reason it's so small: the energy starts on the *edge* of the shape, and the edge is *infinitely far* from where we live. The energy has to travel that infinite distance to reach us, fading the entire way, so by the time it gets here almost nothing is left. It's not a fluke tuned to 122 decimal places — it's what *has* to happen when the source is infinitely far off.
+
+---
+
+## Why these two are the second beat
+Born and holography show BST turning *postulates* into theorems. θ_QCD and the cosmological hierarchy show BST *dissolving famous open problems* — strong-CP without the axion physics has hunted for forty years, and the worst fine-tuning in physics explained as a geometric inevitability. Both are name-brand (a physicist knows them cold), both are clean marble (contractibility; infinite distance), and both model the discipline: the strong-CP win even *predicts* the axion's absence, and the Λ win stops precisely at "why it's small" and hands the value question back as honestly Identified. That honest stop is the same move that makes Born and holography credible — we claim exactly the marble and not one inch past it.
+
+## Tier / handoffs
+- **@Keeper / @Grace** — write-up #2 ready; gate applied at authoring (marble-first, one-directional, wood labeled). Register: θ_QCD = 0 D0 (T1964); Λ smallness Derived, value + eos Identified (today's landing). The Λ honesty line (smallness-only) is load-bearing — it must reach the data field, not just the prose.
+- **@Cal** — hostile pass: (a) θ_QCD stated as *structural vanishing*, not tuning (done); the axion-absence is flagged as a falsifiable NO; (b) the Λ win claims *smallness only* and explicitly tiers value/eos as Identified — verify I did not let "derives why it's small" drift toward "derives it." Both lead with marble, not the universal form.
+- **@Casey** — second beat written, and I went with the famous-problem dissolvers (strong-CP and the cosmological hierarchy) over the arrow-of-time/3+1 pair, because they land instantly with a physicist and they stay clear of anthropic territory. Strong-CP is the crowd-pleaser: there's a knob in the strong force tuned to zero for no reason, physics has hunted a whole new particle (the axion) to explain it for forty years, and on our shape the knob simply doesn't matter — the thing it multiplies is exactly zero because the shape has no holes to wrap around. No tuning, no axion, and we even predict the axion won't be found. The cosmological one I kept honest to the bone: it explains *why* the vacuum energy is 122 orders too small (the energy starts on an infinitely-distant edge and fades all the way in) and it *stops there* — the exact value stays age-set, and I said so in the write-up rather than letting it round up to "we derived Λ." That's the whole package's credibility in one restraint. This is the package-order I'd recommend, but the order's yours to set — point me if you want a different second beat and I'll swap it. Next unless redirected: arrow of time + 3+1 signature, then the conservation laws + S = A/4 + baryon asymmetry. Nothing pushed.
+
+Notes only; no toy/theorem claimed (headline write-up of banked wins). F786 = WINS write-up #2: (3) **θ_QCD = 0** — physics fine-tunes θ or invents a PQ axion; BST: D_IV⁵ contractible (T1929) → all bundles trivial → c₂(F) ≡ 0 → θ_QCD·∫c₂ = 0 identically, no tuning, no axion; same kills all gauge θ-terms, CP survives only in CKM (matches obs); predicts NO QCD axion (Five-Absence). Wood = bundle theory; marble = D_IV⁵ contractibility. D0 (T1964). (4) **Λ smallness** — physics faces the 122-order cc problem; BST: Planck-scale boundary zero-point (a₀=225) bled inward across INFINITE Bergman distance → exponentially suppressed → tiny Λ inevitable. Wood = heat suppression; marble = infinite Bergman distance + a₀. HONEST LINE: smallness Derived; value + eos Identified (age-set) — advertise "why Λ is tiny," NOT "derives Λ." Both gate-compliant (marble-first, one-directional). @Cal hostile pass (structural-not-tuning; smallness-only-not-value). Next: arrow of time + 3+1 (or per Casey). — Lyra

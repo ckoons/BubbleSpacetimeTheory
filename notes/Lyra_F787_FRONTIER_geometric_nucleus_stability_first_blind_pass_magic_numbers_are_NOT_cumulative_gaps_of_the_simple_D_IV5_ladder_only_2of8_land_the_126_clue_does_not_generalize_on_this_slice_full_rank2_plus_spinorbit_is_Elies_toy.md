@@ -1,0 +1,39 @@
+# F787 — FRONTIER opening (geometric nucleus stability, Casey's next frontier): **first blind pass is largely NEGATIVE, and in this retraction-prone sector that is the honest, valuable result.** The forced D_IV⁵ spectrum is λ_k = k(k+5), k=1..9 (T1452, Proved), and two eigenvalues *are* magic numbers (λ_5 = 50, λ_9 = 126) — the tantalizing clue. But the sharp question is Casey's "eigenvalue-CROSSINGS," i.e. are the magic numbers {2,8,20,28,50,82,126,184} the **cumulative-degeneracy gaps** of the forced spectrum (a single generating mechanism) rather than per-number products (the Cal #286-retracted numerology)? **I ran it blind: filling the T1452 ladder (m₂=0 sub-ladder, degeneracy = SO(5) degree-k harmonic dim on S⁴, spin ×2, no spin-orbit) gives cumulative gaps 2, 12, 40, 100, 210, 392, ... — only 2 of 8 magic numbers land, and 50/126 appear only as isolated *eigenvalues*, not as crossings.** So on this slice the λ_9=126 clue does **not** generalize to a single mechanism; the simplest "magic = geometric shell gaps" reading FAILS, consistent with K601/Cal #286. **Not closed, though:** I tested a 1-D slice (m₂=0) of the 2-D rank-2 spectrum, with no spin-orbit — and nuclear magic numbers famously *require* spin-orbit. So the honest remaining candidate is the full rank-2 (m₁,m₂) spectrum with a *forced* spin-orbit, which is Elie's blind toy. **Guard, both ways: the negative is from a real computation (not performed caution); and I do NOT declare the frontier dead (the 2-D + spin-orbit version is untested) — but I also refuse to let 50/126 or the flattering "geometric nucleus stability" seduce the fit, exactly the trap this sector was retracted for twice.**
+
+**Lyra, Mon 2026-08-03. Frontier open — compute, not scope (Casey's steer): I ran the first blind pass myself, not just handed Elie a target. Sourced spectrum (T1452), not reconstructed. The one-clue seduction (126=λ_9) is precisely why the discipline matters here: 126=rank·N_c²·g is the SAME product Cal #286 retracted, so a "win" that leans on it would be re-committing the retracted numerology under a new name.**
+
+## The forced spectrum and the two clues (sourced, T1452)
+The 9 Bergman eigenvalues below N_max=137 are λ_k = k(k+5) (K_max = N_c² = 9 levels):
+| k | λ_k = k(k+5) | magic? |
+|---|---|---|
+| 1 | 6 | |
+| 2 | 14 | |
+| 3 | 24 | |
+| 4 | 36 (= C₂²) | |
+| 5 | **50** | **magic** |
+| 6 | 66 | |
+| 7 | 84 | |
+| 8 | 104 | |
+| 9 | **126** | **magic** |
+So 50 and 126 sit in the spectrum as eigenvalues. That is the clue — but 2 of 8, and isolated.
+
+## The blind computation (the honest test — cumulative gaps, not products)
+Casey's sharpening: magic numbers as *eigenvalue-crossings* = cumulative-occupation gaps of the forced spectrum (one mechanism), NOT per-number BST products (retracted). First pass, filling the T1452 ladder with degeneracy d_k = SO(5) degree-k harmonic dimension (2k+3)(k+1)(k+2)/6, spin ×2, no spin-orbit:
+
+`cumulative occupations = 2, 12, 40, 100, 210, 392, 672, 1080, 1650, 2420`
+`magic hit as gaps = {2};  magic missed = {8,20,28,50,82,126,184};  magic as eigenvalues = {50,126}`
+
+**Result: only 2/8 land as crossings.** The simple geometric filling gives a 5-D-harmonic pattern (2, 12, 40, 100 …), not the nuclear shell structure (2, 8, 20, 28, 50, 82, 126). The 50 and 126 are eigenvalue-coincidences, not gaps. **The clue does not generalize on this slice.**
+
+## Why it's not yet closed (the remaining honest candidate)
+Two reasons this is preliminary, not a verdict:
+1. **1-D slice of a 2-D spectrum.** The full rank-2 holomorphic-discrete-series K-types are indexed by (m₁ ≥ m₂ ≥ 0); T1452's ladder is the m₂=0 slice. The full (m₁,m₂) filling has more states and different degeneracies.
+2. **No spin-orbit.** The nuclear magic numbers {2,8,20,28,50,82,126} are exactly the HO numbers {2,8,20,40,70} *shifted by strong spin-orbit* (40→50, 70→82, …). Without a spin-orbit term no filling reproduces them. The corpus had κ_ls = C₂/n_C = 6/5 — but K601 ruled that "consistent, not forced." So the real test is: does D_IV⁵ *force* both the level structure AND κ_ls so the crossings land?
+
+## Tier / handoffs
+- **@Elie** — the full blind toy (you build it in Sage): (1) full rank-2 spectrum λ_{m₁,m₂} with correct SO(5)×SO(2) Weyl degeneracies (not just the m₂=0 slice); (2) fill in energy order, cumulative occupation; (3) add a spin-orbit split and check whether a *forced* κ_ls (candidate C₂/n_C = 6/5, but test whether the geometry forces it) puts the crossings at {2,8,20,28,50,82,126,184}. **Blind: read the gaps, THEN compare to the magic set — do NOT tune degeneracies or κ_ls to hit them.** Report how many of 8 land, straight. My first pass (m₂=0, no SO) got 2/8 — that is the prior to beat.
+- **@Grace** — the magic-number corpus is at Structural (K601; per-number forms retracted Cal #286). This frontier tests whether a *single crossing mechanism* promotes it; if Elie's full toy lands all 8 forced, it's a real theory (→ Derived candidate); if partial, it stays Structural and we bank the honest negative. Either way the per-number products stay retracted.
+- **@Cal** — guard the retraction boundary: 126 = rank·N_c²·g is the Cal #286 numerology; a "win" here is legitimate ONLY via the cumulative-crossing mechanism (blind), never the product. Watch that neither I nor Elie lets 50/126 seed a fit. My first-pass negative is real (computed), not performed.
+- **@Casey** — first pass on the nucleus frontier, run straight: the geometry really does carry 50 and 126 as eigenvalues, which is what made this worth chasing. But when I actually fill the shells the geometry gives — count how many particles fit at each energy level and look for the big gaps that make a nucleus stable — the gaps land at 2, 12, 40, 100, not at the magic numbers. Only the first one (2) matches. So the simplest version of your idea — magic numbers as the geometry's own shell-gaps — doesn't hold up, and the two eigenvalue-hits (50, 126) look isolated rather than part of a pattern. I'm telling you that straight because this exact sector has been over-claimed twice before, and the "126 = our integers multiplied" form is literally the one we already retracted as numerology — so I won't let one pretty coincidence pull the rest. What's still genuinely open, and worth Elie's real computation: I only filled a *slice* of the geometry's full level structure, and I left out the spin-orbit force — which is the very thing that turns the boring shell-gaps (2,8,20,40,70) into the real nuclear magic numbers (2,8,20,28,50,82,126) in ordinary physics. If the geometry *forces* that spin-orbit strength and the full level structure lands the crossings, you have a real theory of why nuclei are stable. If it doesn't, it's an honest negative and the magic numbers stay where the audit put them. The clue says it's worth the full computation; my first pass says don't pre-spend the win. Nothing pushed.
+
+Notes only; no toy/theorem claimed (frontier opening, first blind pass). F787: geometric-nucleus-stability frontier. Forced spectrum λ_k=k(k+5), k=1..9 (T1452); λ_5=50, λ_9=126 are magic (2/8, isolated eigenvalues). BLIND first pass (m₂=0 ladder, SO(5) harmonic degeneracy, spin×2, NO spin-orbit): cumulative gaps = 2,12,40,100,210,392,... → only 2/8 magic land as crossings; 50/126 are eigenvalues not gaps. **Simplest "magic = geometric shell-gaps" reading FAILS; the 126 clue does NOT generalize on this slice** (consistent with K601/Cal #286 retractions). NOT closed: tested a 1-D slice of the 2-D rank-2 spectrum, no spin-orbit (which nuclear magic numbers REQUIRE). Remaining candidate = full rank-2 (m₁,m₂) spectrum + FORCED spin-orbit (κ_ls candidate C₂/n_C=6/5, test if forced) → @Elie blind toy (read gaps THEN compare, no tuning; 2/8 is the prior). GUARD: 126=rank·N_c²·g = retracted Cal #286 product; win legitimate ONLY via crossing-mechanism, blind; negative is computed not performed. — Lyra

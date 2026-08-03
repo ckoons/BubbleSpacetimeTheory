@@ -11,6 +11,29 @@
 - **#1 Ω_Λ, Ω_m — demotion REJECTED ("flimsy").** Stay **[D]**. Annotate: integers Chern-Weil-forced (kept); combination c₃/(c₃+χ) is the open, *reachable* derivation target. → applied to data layer (const_014, const_018 tier_review) + reverts Grace's proposal.
 - **#3 README Λ — MIDDLE** (Casey: "I don't see a reason for change; I prefer Derived but caveating is ok"). → "Derived structure (a₀ rung, w=−1); magnitude form pending the forced subtraction scale μ." Applied.
 
+## ★ RATIFIED BY CASEY — 2026-08-03 (apply to data/registry layer, Grace's lane)
+Casey (2026-08-03): *"Ratified: #7 n_s → PD, #8 A_s → Identified, #9 anchor convention = Derived-given-the-tick. w=−1 held pending today's wₐ sign."*
+
+| # | Item | Change RATIFIED | Data/registry action (→ Grace, Lane B) | Status |
+|---|---|---|---|---|
+| **7** | **n_s = 1 − n_C/N_max** (const_016) | **[D] / registry "Proved" → Partially Derived** | const_016: tier [D]→PD; registry T1962/T1421: "Proved"→PD (explicit-split: integers+counting forced / per-mode 1/N_max asserted). Keep Grace's tier_review reasoning, append "RATIFIED Casey 2026-08-03." | ✅ RATIFIED — apply |
+| **8** | **A_s = (N_c/4)·α⁴** (T196b "Scalar amplitude") | **[D] → Identified** | A_s entry: tier [D]→Identified (form-selected α⁴, prefactor asserted, 0.9σ, no recurrence). Append RATIFIED stamp. | ✅ RATIFIED — apply |
+| **9** | **Anchor convention** — "Derived given the one forced unit-anchor (the tick)" | **CONVENTION ADOPTED** | Sweep ALL dimensionful-forced quantities → **Derived-given-anchor**: reconcile const_007 [D] + const_196 [I] (Higgs VEV) → both Derived-given-anchor; m_e, m_p → confirm Derived-given-anchor; m_Planck → retier from "input" to Derived-given-tick; G → Derived-given-tick. Add a one-line convention note to data/README or the tier legend. **Careful multi-entry sweep — verify JSON + cross-check at EOD.** | ✅ RATIFIED — apply (sweep) |
+
+**w = −1 — HELD** (not ratified today): its tier is being decided by **Lane A's wₐ-sign computation** (K1122). Rule it once the sign lands — wₐ<0 → Derived (matches DESI); wₐ>0 → K1040 falsifier fires. Do NOT touch the w=−1 tier until the operator result is in.
+
+*Application ownership: Grace (data/ lane) applies #7/#8/#9 today in Lane B, with EOD cross-check; Keeper confirms in the 8-point sign-off. Governance satisfied: recommend (audit chain) → verify → Casey ratify → assign.*
+
+## 2026-08-03 — HIDDEN-INPUT HUNT FLAGS (Cal ran the 68 Derived; two genuine smuggled-scale catches) → AWAITING CASEY
+| # | Item | Current | Recommended | Verification (why) | Status |
+|---|---|---|---|---|---|
+| 10 | **r_\*** (sound horizon at recombination, 144.17 Mpc) | **Derived** | **Indicative** | It's a **CAMB Boltzmann-code output**, not a one-anchor BST closed form — needs the whole cosmological model (standard recombination + expansion history + H₀, itself Identified). A claim can't be tiered above its weakest input; the **Mpc length is the cosmological scale smuggled in** ("all inputs derived" over-stated). Exactly the "H₀/Mpc hiding in an r_\*" predicted. | ✅ **RATIFIED Casey 2026-08-03 → GRACE apply** (tier Derived→Indicative; publication_tier→Indicative) |
+| 11 | **m_b** (bottom quark = (7/3)·1776.86 MeV) | **Derived** (absolute) | **ratio Derived; absolute anchor-chained** | Formula uses the **measured τ mass** — a second measured scale. The genuine Derived content is the dimensionless ratio m_b/m_τ = g/N_c = 7/3; fix by chaining to the anchor: **m_b = (7/3)·(49·71)·m_e** (via m_τ/m_e=49·71). Same shape as K399 (ratio Derived, absolute carries the scale). | ✅ **RATIFIED Casey 2026-08-03 → GRACE apply** (formula_code → (7/3)·(49·71)·m_e). **★ TIER RECONCILE (Elie vs Grace): PRE-fix (measured τ) the absolute is Indicative; POST-fix (anchor-chained m_τ=49·71·m_e) the absolute rides on m_τ's tier = Structure-Derived, NOT Indicative. Since the fix IS applied, set absolute = Structure-Derived (Elie's read), matching m_τ's chain. Ratio g/N_c=7/3 = Derived.** @GRACE/@CAL confirm the field carries Structure-Derived (not Indicative) once the chain is in. |
+| — | **D_e(C–H)** = Rydberg/π | Derived | tier-review (possibly Identified) | Anchor-clean, but the "spectral energy on curved space" mechanism is thin — Cal flagged for a look, not a hidden-input finding. | ⏳ Casey/Cal |
+| 12 | **N_magic(8)=184 + the κ_ls magic-number cluster** | tier **D** (data) / **I** (registry T2029) — inconsistent | **Structural (S)** | ★ **K601 APPLIES — VERIFIED (Keeper, 2026-08-03):** the N_magic(8) entry's mechanism is literally `κ_ls = C_2/n_C = 6/5` (formula_code = bare "184", bst=observed=184), and its sibling ("κ_ls=6/5 reproduces all 7 magic numbers") is the same. K601/Cal #286 ruled this **"consistent factorization of a fitted spin-orbit strength, NOT unique forcing... per-number forms are post-hoc numerology."** That is Structural, not Derived. **The whole magic-number cluster → S.** Also reconcile the **registry (T2029 = I) vs data (D)** inconsistency to one tier (S per K601; if Casey/Cal prefer T2029's "I, mechanism partly named," I is the floor — either way NOT D). *This is the last referee-ready gate.* | ⏳ **Casey sign-off (S, or S-vs-I call) → Grace applies → Keeper's referee-ready call** |
+
+*Context: the hunt cleared the rest — 23 other dimensionful Derived results are anchor-family clean (mesons m_p/α-anchored, magnetic moments pure-integer+α/π), 42 dimensionless clean by construction. So r_\* + m_b are the only two genuine smuggled-scale catches in the 68. Corpus is in good shape.*
+
 ## Live recommendations — AWAITING CASEY SIGN-OFF (not yet assigned)
 
 | # | Item | Current tier | Recommended | Verification (why) | Status |

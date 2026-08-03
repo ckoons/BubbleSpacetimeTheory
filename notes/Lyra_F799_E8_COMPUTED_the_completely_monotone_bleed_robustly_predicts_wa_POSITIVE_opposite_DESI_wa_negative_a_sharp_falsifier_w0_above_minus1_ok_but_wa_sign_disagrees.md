@@ -1,0 +1,33 @@
+# F799 — E8 COMPUTED (the w(a) falsifier, forward, per Casey's "do the calculation"): **BST's completely-monotone bleed robustly predicts wₐ > 0 (w relaxing to −1 from ABOVE), which is OPPOSITE DESI DR2's preferred wₐ < 0 (phantom crossing from below). This is a sharp, pre-registered falsifier — and BST is currently on the wrong side of it.** Computed forward from the K-Casimir spectrum λ_k = k(k+5) (T1452) with the attractor = the λ₀=0 zero-mode (F797): scanning the free normalization (τ_now ∈ [0.10, 0.30]) and the overlap profile (equipartition / decreasing / single-mode), **wₐ came out > 0 in 8 of 9 cases** (w₀ ≈ −0.81 to −0.96, wₐ ≈ +0.02 to +0.17); the lone exception (single-mode, earliest epoch) gave wₐ ≈ −0.004 ≈ 0, not the wₐ ≈ −0.8 DESI wants. So the sign is **robust to the one unproved edge and to the overlaps** — it is a structural consequence of complete monotonicity (positive-weight bleed ⟹ r(τ) decreasing ⟹ w decreasing to −1 from above ⟹ wₐ > 0), not a tunable artifact. **The honest statement: if DESI DR2+ firms up wₐ < 0, the completely-monotone bleed picture is refuted. Reported plainly, against the flattering direction.**
+
+**Lyra, Mon 2026-08-03. Computed, not framed (Casey's steer). The result is anti-flattering — BST's dark-energy bleed predicts the opposite wₐ sign from the data's current lean — and I'm reporting it straight, because a falsifier you only announce when it passes isn't a falsifier.**
+
+## The computation
+ρ_Λ(τ) = c₀ + Σ_{k≥1} c_k e^{−λ_k τ}, λ_k = k(k+5) (attractor c₀ = the non-bleeding zero-mode, F797). w+1 = (1/3)r(τ)(dτ/d ln a), r = −d ln ρ_Λ/dτ; wₐ = −dw/d ln a|₀ = (1/3)[Var·(dτ/d ln a)² − r·d²τ/d ln a²], with the clock-map dτ/d ln a = κ/H (F779, the one unproved edge) and d²τ/d ln a² = κ|Ḣ|/H³ (ΛCDM |Ḣ|/H² ≈ 0.46).
+
+| overlap profile | τ_now | w₀ | wₐ | sign |
+|---|---|---|---|---|
+| equipartition | 0.10–0.30 | −0.81…−0.89 | +0.15…+0.17 | **wₐ > 0** |
+| decreasing e^{−k} | 0.10–0.30 | −0.95…−0.96 | +0.02…+0.06 | **wₐ > 0** |
+| single-mode | 0.17–0.30 | −0.91 | +0.03…+0.10 | **wₐ > 0** |
+| single-mode | 0.10 (earliest) | −0.93 | −0.004 | ≈ 0 (marginal) |
+
+**wₐ > 0 in 8/9; the exception is ≈ 0, never ≈ −0.8.** The spectral term (Var·(dτ/d ln a)²) beats the coupling-acceleration term (r·d²τ/d ln a²) by ~1.3–10× across the physical range — the coupling escape (F779) is real but too weak to reach DESI's wₐ.
+
+## Why it's structural (not tunable)
+Complete monotonicity (c_k ≥ 0, F778) forces r(τ) = ⟨λ⟩_τ to DECREASE (dr/dτ = −Var ≤ 0). A decreasing r gives a shrinking w+1 → **w relaxes to −1 from above** → w was higher (more above −1) in the past → **wₐ > 0**. DESI's wₐ < 0 means w was *below* −1 in the past (phantom), crossing up — the opposite past behavior. Both agree w₀ > −1 now (BST −0.8…−0.96, DESI ≈ −0.75); they disagree on the **evolution direction (wₐ sign)**, and that disagreement is forced on BST's side by the positivity of the bleed weights.
+
+## The falsifier (pre-registered, honest)
+- **BST (completely-monotone bleed): wₐ > 0** (quintessence-like relaxation to −1 from above), robust to the free edge and overlaps.
+- **DESI DR2 (current): wₐ ≈ −0.8 < 0** (phantom crossing from below), with uncertainty.
+- **If DESI DR2+/DR3 firms up wₐ < 0 at high significance → the completely-monotone bleed is REFUTED** (in its current form: single non-bleeding attractor + positive-weight excited modes). BST would need a genuinely phantom source (w < −1 in the past), which the positive-weight bleed cannot produce.
+- **If DESI relaxes toward wₐ ≥ 0 or w = −1 → BST accommodates** (the relaxation-to-−1 is exactly w → −1 from above).
+This is the sharp, discriminating prediction the cc sector always promised — now with a sign on the table, computed, and currently in tension with the data.
+
+## Tier / handoffs
+- **@Elie / @Grace** — firm up the number: real K-Casimir overlaps c_k (not the three toy profiles) + real H(z) (not ΛCDM |Ḣ|/H²) + the actual DESI DR2 (w₀, wₐ) contour. The SIGN (wₐ > 0) is robust in my scan; check whether the real overlaps/H(z) preserve it and by how much it misses the DESI contour. If they preserve it, E8 is a live near-refutation to state plainly.
+- **@Keeper** — E8 computed: BST's bleed predicts wₐ > 0, opposite DESI's wₐ < 0, robustly. This is the falsifier forward — and it currently points *against* BST (the honest, valuable direction). Not "may exclude DESI"; rather DESI's wₐ < 0, if firm, excludes the completely-monotone bleed. Pre-registered before DR3.
+- **@Cal** — guard: I computed the sign forward and it came out anti-flattering (wₐ > 0 vs DESI's wₐ < 0); verify I did not tune toward the comfortable answer (I didn't — the discomfort *is* the result). The one unproved edge (δτ/κ) was scanned, not fixed; the sign survived the scan.
+- **@Casey** — you said compute, so here's the number, and it doesn't flatter us: our dark-energy picture predicts that dark energy has been *easing down* toward the cosmological-constant value from slightly above it — which means the "wₐ" DESI measures should come out *positive*. DESI's current best fit is negative. Those are opposite. I checked it wasn't an artifact — scanned the one free knob and three different guesses for the mode weights, and it stayed positive in eight of nine, and the ninth was essentially zero, never anywhere near DESI's value. The reason is baked in: a sum of fading pieces with positive weights can only ease *down* to the floor, never dip below and climb back, and "dip below and climb back" is exactly what DESI's negative number describes. So this is a real falsifier with a real edge: if DESI's next data firms up that negative sign, our specific bleed mechanism is wrong and we say so; if it softens toward zero or −1, we're fine. I'd rather handnce, than a vague "consistent." That's the honest state of the dark-energy prediction: a sharp sign, computed, currently in tension. Nothing pushed.
+
+Notes only; no toy/theorem claimed (E8 computed). F799: BST completely-monotone bleed → **wₐ > 0 robustly** (8/9 scan cases; w₀≈−0.8…−0.96, wₐ≈+0.02…+0.17), OPPOSITE DESI DR2 wₐ≈−0.8<0. Structural cause: c_k≥0 → r(τ) decreasing → w relaxes to −1 from ABOVE → wₐ>0 (quintessence-like); DESI wₐ<0 = phantom-from-below = opposite past behavior. Both w₀>−1 now; disagree on wₐ SIGN. FALSIFIER (pre-registered): DESI firms wₐ<0 → completely-monotone bleed REFUTED (positive weights can't produce phantom); DESI softens to wₐ≥0/w=−1 → accommodated. Scanned the one unproved edge (τ_now) + overlaps; sign robust. @Elie/@Grace firm with real c_k + H(z) + DESI contour. @Cal guard: sign came out anti-flattering, not tuned. Currently in TENSION with DESI — reported straight. — Lyra

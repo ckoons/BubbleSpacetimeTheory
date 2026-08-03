@@ -3,7 +3,7 @@ node_type: scope_page
 title: "BST — Scope and Tier Page (hook package). What we claim, at what confidence, and what would kill it. KEEPER DRAFT — tier column flagged for Grace's verification; falsifier numbers flagged for a fresh experimental scrub before external."
 author: Keeper
 date: 2026-08-02
-status: DRAFT (audit-chain: Grace verifies the tier column; falsifier numbers need a current-data scrub; then Casey GO)
+status: DRAFT v0.2 (2026-08-03 — now in the PUBLICATION-tier register per the Research/Publication-tier guideline, GR-benchmarked; DE section updated to the current Identified state, NOT the retracted fork; G held Indicative pending Register #3. Audit-chain: Grace verifies per-result research tiers + applies the mapping; falsifier numbers re-scrub; then Casey GO)
 ---
 
 # Bubble Spacetime Theory — what we claim, and at what confidence
@@ -20,46 +20,45 @@ The Standard Model's structure and parameters, plus the large-scale features of 
 
 **Fitted dimensionless parameters: zero.** That is the headline. The Standard Model has ~19–26 free parameters depending on how you count; BST's dimensionless content is claimed forced.
 
-## The tier ladder (how to read every result)
-| Tier | Meaning | Burden |
-|---|---|---|
-| **Proved** | A theorem with a complete proof. | Full rigor. |
-| **Derived** | Forced by the geometry — a complete forcing chain, no free choice — but not yet a closed formal proof. *(This is "GR-level": forced, standard-of-the-field, not a Clay proof.)* | Every step forced, target-blind. |
-| **Partially Derived** | The structure/integers are forced; one specific combination or scale remains an open (reachable) derivation target. Stated as an explicit split. | Forced part + named open part. |
-| **Identified** | The right object is identified and its structure forced, but the value rides on a genuine external input. | Honest — names the input. |
-| **Structural** | A qualitative/structural consequence (a mechanism, a sign, an ordering), not a precise number. | Mechanism only. |
+## The tier ladder (how to read every result), benchmarked against GR
+Every result carries one of these labels. They are defined against the standard general relativity is actually held to — that is the benchmark.
 
-*The discipline behind the labels: every candidate result is checked target-blind (integers and conventions pinned before the datum), near-misses get more scrutiny not less, and confirmations that converge on the wanted answer get **more** scrutiny, not a wave-through. The tiering is maintained as an audited graph, not a claim list.*
+| Tier | Meaning | Where GR's comparable terms sit |
+|---|---|---|
+| **Derived** | Forced from the geometry — a complete forcing chain, no free choice. | GR's geometry side (the Einstein tensor). Same level. |
+| **Structure-Derived** | The geometry forces the *form*; one piece is either a named physical input or a remaining forced target — stated explicitly. | **Nothing.** GR's G, Λ, and equation of state have no derived structure — they are supplied. This tier is **above** GR's source terms. |
+| **Input** | A named physical input, stated plainly. | GR takes G and Λ exactly this way. |
+| **Indicative** | A qualitative geometric result, or a result still being verified. | — |
+
+*This page uses these **publication tiers**. Underneath sits a finer internal research ladder (Proved / Derived / Partially-Derived / Identified / Conditional / Structural) that a referee can request per result — every claim traces to its research record. The discipline: every result is checked target-blind (integers and conventions pinned before the datum), near-misses get more scrutiny not less, and confirmations that converge on the wanted answer get **more** scrutiny — the tiering is an audited graph, not a claim list. Nothing is published above what its research tier supports.*
 
 ## Representative results by tier
-*(Tier column is Keeper's draft — **Grace verifies against the registry before this goes external.**)*
+*(Publication tiers, via the fixed mapping from the research ladder. **Grace verifies the per-result research tier before external.**)*
 
-- **Proved / Derived (structure forced):**
-  - Three fermion generations sit at three boundary depths of D_IV⁵ (the generation structure is geometric).
-  - Color–mixing duality: large lepton mixing and small quark mixing from the same color structure.
+- **Derived (forced from the geometry):**
+  - Three fermion generations sit at three boundary depths of D_IV⁵ — the generation structure is geometric.
+  - Color–mixing duality: large lepton mixing and small quark mixing from the same color fact.
   - θ₂₃ (atmospheric mixing) = 4/7, forward-derived.
   - Confinement in the "no free colored states" (Schur) sense — *not* the area-law/Clay sense, which we explicitly do **not** claim.
-  - *(Removed from the Derived list per K1119 — see the cosmological-constant fork below. The equation of state w is a **live, forked prediction**, not a banked Derived result.)*
 
-- **Partially Derived (integers forced, one combination/scale open):**
-  - Ω_Λ = 13/19, Ω_m = 6/19 — the integers (Chern classes c₃ = 13, χ = 6) are forced; the specific combination is the open target.
-  - n_s = 1 − 5/137 (CMB spectral tilt) — integers + counting mechanism forced; the per-mode weight is the open step.
-  - The cosmological constant **magnitude** — its *smallness* is derived (vacuum energy is residual boundary-heat bled across a near-infinite Bergman distance — smallness is inevitable), its structure is proven, and its *value* reduces to one input (below).
+- **Structure-Derived (form forced; one piece a named input or a remaining forced target):**
+  - The **Higgs VEV, electron and proton masses** — forced from the geometry in the theory's native unit (the tick); only the choice of unit is set by the one time-anchor, exactly as GR sets its scale by G.
+  - Ω_Λ = 13/19, Ω_m = 6/19 — the integers (Chern classes c₃ = 13, χ = 6) are forced; the specific combination is a remaining forced target.
+  - n_s = 1 − 5/137 (CMB spectral tilt) — integers and the counting mechanism forced; the per-mode weight is the remaining step.
+  - The **cosmological constant** — its *smallness is derived* (the vacuum is residual boundary-heat bled across a near-infinite geometric distance, so exponential tininess is inevitable — an answer GR does not have) and its *structure is proven*. Its precise value and equation of state are set by **one physical input: the age of the universe.** (See the input section — this is stated the way GR states G, not as a deficiency.)
 
-- **The cosmological-constant value — a forked, falsifiable prediction (not yet sealed):**
-  - Its **smallness is derived** and its **structure is proven** (above). Its **precise value and equation of state depend on a fork the geometry decides and the data tests:**
-    - *If* the geometry forces **age-coupling** → equilibrium → **w = −1**, the value is **Identified** (forced in everything but one input, the age of the universe: the geometry is homogeneous, so no epoch is preferred, and static integers can't fix a dynamical initial condition).
-    - *If* the geometry forces **Hubble/horizon-coupling** → holographic dark energy → **w ≈ −0.89, evolving**, the value is potentially **Derived** (the horizon cutoff forces the depth).
-  - BST contains both routes; a blind determination of which the geometry forces is in progress. The **dark-energy equation of state is the empirical arbiter**, and current data (below) leans toward the evolving/Derived horn. We state this as a fork, not a seal.
+- **Input (named physical scales, stated plainly):**
+  - The **commitment tick** (the native time unit) and the **cosmic age** — the theory's two dimensionful inputs, per-universe instantiation data. GR takes G and Λ the same way, without apology.
 
-- **Dimensionful quantities (Derived given the one tick-anchor):**
-  - The Higgs VEV, electron and proton masses, Newton's G, the Planck mass — each forced from the tick (the unit every theory takes). Their dimensionless ratios are forced; only the choice of unit is a convention.
+- **Indicative (still being verified):**
+  - **Newton's G** — the a₁ heat-trace is a real geometric object, but one operator step is under verification (the accurate-corpus audit flagged the scaffold). We do **not** yet claim G as Derived; it is held here until that step closes.
+  - The **dark-energy equation of state** — BST derives that it approaches its equilibrium value with a specific, computed behavior; whether that behavior is fixed by the geometry alone or by the one age-input is a blind computation in progress (see falsifiers). Either way it is a genuine prediction, not a fit.
 
 ## What would falsify it (kill conditions)
 *(Numbers current as of the 2026-08-02 scrub; re-scrub before external.)*
 - A **fourth generation**, or generations not at three discrete boundary depths.
 - θ₂₃ measured cleanly away from 4/7 beyond the derived correction.
-- **Dark energy — the live one.** BST predicts one of two equations of state (w = −1 *or* an evolving w ≈ −0.89), decided by the geometry. Current data (DESI DR2 + CMB + supernovae) prefers evolving dark energy, w₀ > −1 with wₐ < 0, at **2.5σ–3.9σ** from a cosmological constant (DESI-BAO alone is still consistent with w = −1; supernova systematics are debated). So the *w = −1* horn is under live tension, and the evolving horn is favored. **BST is killed only by a measured w(a) that matches *neither* route** — a genuine, sharpening test.
+- **Dark energy — the live one.** BST's vacuum relaxes toward its equilibrium value, and the geometry fixes the *structure* of that relaxation (the equation of state approaches −1 from a computed direction). Current data (DESI DR2 + CMB + supernovae) prefers an *evolving* equation of state — w₀ > −1 with wₐ < 0, at **2.5σ–3.9σ** from a pure cosmological constant (DESI-BAO alone is still consistent with w = −1; supernova systematics are debated). BST makes a specific, falsifiable prediction here where ΛCDM only *assumes* w = −1: a sharp test is whether the equation-of-state crossing coincides with the epoch the vacuum falls past the lightest-neutrino mass floor — a coincidence of two independently forced scales. **BST is tested by the measured shape of w(a), not just its present value** — a theory that can be killed by w is doing more than one that fits it.
 - Any of the five integers turning out to require a different value to match data — i.e., a dimensionless parameter that has to be *fitted* after all.
 - The fine-structure constant, mixing angles, or mass ratios drifting outside the derived values as measurements sharpen.
 
@@ -73,4 +72,4 @@ The Standard Model's structure and parameters, plus the large-scale features of 
 The mathematics is public: [repository / Zenodo DOI 10.5281/zenodo.19454185]. Each result above resolves to a numbered theorem and, where relevant, a runnable toy computation. The tiering, the forcing-chain audit (is D_IV⁵ forced or fitted?), and the honesty standard (the "Forcing + Evidence" document) are all in the corpus.
 
 ---
-*Keeper DRAFT, 2026-08-02. Purpose: the honest-scope artifact for the hook package (#25) — a skeptic should finish this page knowing exactly what is claimed, at what tier, and how to kill it. Audit-chain before external: (1) Grace verifies the tier column against the registry; (2) the falsifier numbers get a current-experimental-data scrub (esp. the w vs survey-data tension); (3) Casey GO. Nothing external without those.*
+*Keeper DRAFT v0.2, 2026-08-03. Purpose: the honest-scope artifact for the hook package (#25) — a skeptic should finish this page knowing exactly what is claimed, at what tier (benchmarked against GR), and how to kill it. Now written in the **Publication-tier register** (Research/Publication-tier guideline) — inputs stated GR-plainly, Structure-Derived leading with the derived structure, nothing published above its research tier. Audit-chain before external: (1) Grace verifies each result's research tier + applies the fixed mapping; (2) falsifier numbers re-scrubbed (esp. the DE / DESI tension, current to 2026-08-03); (3) Casey GO. Nothing external without those.*
