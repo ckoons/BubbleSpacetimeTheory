@@ -20,3 +20,9 @@ BST is **not** zero-input. What is remarkable is narrower and hostile-read-proof
 
 ## Use
 For the papers, the one-page, and any external framing: state the floor exactly this way. It is the resource that lets a referee see precisely what is forced (all dimensionless SM structure) versus what is input (one premise + two scales + boundary data) — and see that the input list is *shorter* than GR's, not longer. Pairs with the QM-axioms tier map (single-outcome = boundary datum #10) and the tier ledger.
+
+## Update 2026-08-05 — the floor STAYS at ONE premise (Closure route retired)
+Yesterday I flagged the input floor *might* grow to two premises if item-10 (matter fermionic) reduced to the Substrate Closure Principle. **Casey retired that scenic route (K1170): the direct Jordan/Peirce decomposition forces the fermion structurally — no Closure argument, no controller regress, no supplied-vs-forced meta-question.** The store/mediate split is the DERIVED Peirce decomposition of the D_IV⁵ spin factor (T2511/T2527: J_1⊕J_½⊕J_0 = 1⊕3⊕1, diagonal idempotents = fermionic storage, J_½ = color mediator). So:
+- **Substrate Closure is NOT on the item-10 critical path.** The floor stays: **1 premise + 2 scales + boundary data.** No second premise.
+- On the Code-Forces-Fermion theorem stamp, **"matter is fermionic" moves from posit → Derived** — it was never an input; it's forced by the substrate's own algebra. The boundary-data list is unchanged (fermionic was never in it).
+- My over-hedging correction, recorded: spawning the "corollary-vs-posit" meta-question was the mirror of over-claiming. The algebra answers it directly; take the direct structural route.
