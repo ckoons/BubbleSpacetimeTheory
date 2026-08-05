@@ -26,3 +26,13 @@ E3 (CKM CP-phase) and E8 (w(a) sign) can come back wrong. These are the edges wh
 
 ## Honest caveat (Rule 20, both directions)
 Connection to core is necessary, not sufficient, for Derived — every result here IS connected; the tier is set by whether its last edge is proved. Equally: a forced count welded to core should NOT be foghorned as uncertain just because ONE downstream edge is open. State the count confidently; keep the 8 edges as the well-posed spectral questions they are.
+
+---
+## ★ E1 SCOPE CORRECTION (2026-08-04, K1148 + reconnect) — the "~13 / one edge promotes a class" was OPTIMISTIC
+Full corpus-reconnect (F93, F617, K1031, Ribbon-Holonomy v0.4/K672) re-scopes E1 sharply. E1 = the **FK Pochhammer measure (ν)_λ**, and it is a **quark-hierarchy** measure, NOT the all-fermion promoter the frontier map hoped:
+- **PROVEN E1:** the **down-quark** ladder {1,3,5} → 1:20:840 (FK bulk). This is the genuine, solid result.
+- **RELATED, possibly-distinct:** **up-quarks** use BOUNDARY OVERLAP (y=exp(−distance), one shell=α) — a different form than FK bulk. "Still E1?" is open.
+- **CONTESTED:** nuclear κ_ls (my PD ruling stands).
+- **OUTSIDE E1 (confirmed distinct mechanisms):** n_s (slow-roll); neutrino ratio (BST forces only m₁=0, NOT the ratio — the ratio is observed); **charged leptons (Koide = rank/N_c, democratic 45° tilt — a separate derived mechanism, K672).**
+**Retracted:** the "one edge (E1) promotes ~13 results / weld 11 nodes → T754" leverage claim. The honest picture is **two+ mass mechanisms** (FK-bulk down-quarks; boundary-overlap up; Koide leptons; seesaw+m₁=0 neutrinos), each forced by its own structure — stronger for being separate solid halves than one over-reaching law. E1's graph weld connects the DOWN-QUARK nodes to T754, not a whole class.
+**Frontier-map correction:** E1 is a real, proven, NARROW measure. The frontier's highest-leverage single edge is NOT E1-as-class-promoter (that dissolved); the genuine remaining high-value edges are the FALSIFIERS (E3 CKM CP-phase, E8 w_a) and the individual open forcing-gates (up-type interior, Koide's A²=rank, nuclear κ).

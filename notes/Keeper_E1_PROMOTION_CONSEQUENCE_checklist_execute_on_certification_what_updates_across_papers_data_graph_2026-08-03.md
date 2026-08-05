@@ -9,7 +9,9 @@ verdict: Pre-staged contingency checklist — executes ONLY when Elie's forward 
 
 # E1 promotion-consequence checklist — pre-staged, executes on certification
 
-**Contingent.** This is what changes *if* Elie's forward Plancherel/c-function computation reproduces the sectors and Cal+Keeper certify the last edge as a theorem (Rule 20). Nothing executes until the numbers land. Three outcomes: **full pass** (class promotes), **partial** (per-sector), **fail** (stays PD).
+> **★ SCOPE-CORRECTED 2026-08-04 (K1148) — the "~11-node class sweep" below was OPTIMISTIC and no longer holds.** After the reconnects: E1 (the FK Pochhammer measure) is PROVEN only for the **down-quark hierarchy**; the neutrino RATIO is **outside** E1 (BST derives m₁=0, not m₃/m₂ — the ratio is observed Δm²); n_s is **outside** (not rising-factorial, K1143); the **charged leptons** are derived via **Koide (K672)**, a different mechanism (reconnect pending). So this checklist fires **per-sector only for whatever genuinely lands FK-native forward** (down-quark banked; up-quark + nuclear κ_ls pending) — NOT a wholesale ~11-node promotion. Read the tier/graph/paper actions below as **applying to the down-quark hierarchy + any single sector that certifies**, not the full cluster. The E1=Born-measure unification headline stands for the quarks; do not claim an all-fermion class.
+
+**Contingent.** This is what changes *if* Elie's forward Plancherel/c-function computation reproduces a sector and Cal+Keeper certify the last edge as a theorem (Rule 20). Nothing executes until the numbers land. Three outcomes: **full pass** (class promotes), **partial** (per-sector), **fail** (stays PD).
 
 **Governance:** promotions are delegated to the audit chain (Cal+Keeper) with Casey override; but given the *scale* (a whole class at once), flag Casey before the data-layer sweep — courtesy, not gate.
 

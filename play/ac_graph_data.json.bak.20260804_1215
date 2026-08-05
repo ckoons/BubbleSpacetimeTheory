@@ -3,12 +3,12 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2319,
-  "edge_count": 10089,
+  "theorem_count": 2318,
+  "edge_count": 10087,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2319,
-  "total_edges": 10089,
+  "total_theorems": 2318,
+  "total_edges": 10087,
   "depth_distribution": {
    "D0": 1163,
    "D1": 525,
@@ -18,13 +18,13 @@
   "D0": 1163,
   "D1": 525,
   "D2": 42,
-  "node_count": 2319,
+  "node_count": 2318,
   "last_updated": "2026-08-01",
-  "edges": 10089,
-  "nodes": 2319,
+  "edges": 10087,
+  "nodes": 2318,
   "eod_session": "2026-05-18 EOD",
-  "total_nodes": 2319,
-  "max_tid": 2542,
+  "total_nodes": 2318,
+  "max_tid": 2541,
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -417,7 +417,7 @@
   "note_2026-07-26l_one_operator_spine_strong_sector_is_spectrum_of_expTauHB": "07-26l (Grace, Casey steer 'linear algebra one D_IV^5 domain'). Compressed strong sector to ONE operator's spectrum: nodes aren't separate objects stitched pairwise, they're SPECTRAL READINGS of the color-sector Tier-0 heat semigroup exp(-tau H_B) on H^2(D_IV^5) (root T2428). Wired one-operator spine: T2428->T2526 (AF-sign=tau->0 short-time/a_2 reading), T2428->T2523 (confinement A=tau->infty long-time/Shilov reading), T2428->T1271 (mass gap=SPECTRAL GAP), T2428->T1403 (glueball=EIGENVALUE TOWER, Elie Lane-1 pending). Whole strong sector = ONE operator on ONE domain read at different proper times: tau->0 AF, tau->infty confinement, gap=mass gap, tower=glueballs, tau-flow=running (keystone), scale=Lambda_QCD. No lattice, no emergent spacetime = spectrum/spectral-flow of exp(-tau H_B) on H^2(D_IV^5). Graph max T2526(D), counter 2527, edges 10055, JSON valid.",
   "note_2026-07-27_glueball_supersede_stamps_T1934_T2490_by_K941": "07-27 [RECONCILE] (Grace): applied glueball supersede-stamps. T1934 (glueball-ratio leg <0.1%) + T2490 (mass-map I-tier precision) marked partially-superseded by grace_K941_glueball_re_tier_2026-07-27 (ratios STRUCTURAL ~few-%, false sub-% out). Survives: 0++=n_C + ladder ½C2={3,5,6,7}; T1934's other 7 cross-checks; T2490 blind-leg method. Registry entries (Keeper lane) flagged for matching banner. Reverse-walk worklist posted.",
   "graph_bringuptodate_2026-07-29": "Grace: added play/verify_ac_graph.py (checksum+integrity+dates verifier); fixed 5 string-endpoint dangling edges (T###->int); registered T2527 (3 generations forced/colorless-frame, K990), T2528 (tau=boundary mode/Gamma(0) pole, K989), T2529 (quark m_s/m_d=20 DERIVED, K993); regenerated stale `theorems` mirror from `nodes` (was 544 short, missing T2526); refreshed all count fields + content_checksum. Keeper: sync BST_AC_Theorem_Registry for T2527-T2529.",
-  "content_checksum": "165234067f689dafba9ae7b1da688efb03a2f7f17c35420247e696acc56ff28a",
+  "content_checksum": "99cd8f55a6793fae62d10dfbd4269148d5c39085073e5173e029121eb256824a",
   "graph_Vus_2026-07-29": "Grace registered T2530 (Cabibbo V_us=1/√20 DERIVED blind, K994); edges from T2529/T2517.",
   "graph_mc_2026-07-29": "Grace registered T2531 (m_c=α·v/√2, y_c=α, DERIVED, K997).",
   "graph_Vcb_ckmsmall_2026-07-29": "Grace: T2532 (V_cb via √(2/3) projection theorem, DERIVED, K1001), T2533 (CKM-small=Peirce-forced, Cal §137, converges K403). K999/K1000 are reconnaissance, NOT registered as theorems (Casey).",
@@ -34471,19 +34471,6 @@
    "toys": [],
    "date": "2026-08-03",
    "plain": "BST dark energy relaxes to the w=−1 floor (T2537) as a sum of fading modes with POSITIVE weights, relaxation rate = forced first-gap eigenvalue C₂=6. Complete monotonicity ⟹ w(a) approaches −1 from ABOVE ⟹ wₐ>0 (quintessence-always, no phantom crossing); held 8/9 cases (Lyra, K1143). This is a SHARP pre-registered falsifier: DESI DR2 prefers wₐ<0 (phantom crossing, w₀~−0.75, wₐ~−0.8, z≈0.45), ~2–4σ unconfirmed. BST currently on the WRONG side — not fatal (softening toward 0/−1 clears it) but the most exposed point in the program. One of only 2 falsifier edges in the frontier map (E3, E8). Public pre-reg pending Casey.",
-   "proofs": []
-  },
-  {
-   "tid": 2542,
-   "name": "Measurement Born-weighting DERIVED: the commit is the sharp finite/divergent sort — divergent (negative-formal-degree ν=9/2) modes are not states, so the Wallach-drop leaves the invariant Bergman measure among real states = Born",
-   "domain": "foundations_quantum",
-   "status": "Derived",
-   "depth": 1,
-   "conflation": 0,
-   "section": "foundations_quantum",
-   "toys": [],
-   "date": "2026-08-04",
-   "plain": "Measurement edge 1 CLOSED (Elie, met Cal forced-from-domain bar, K1160). The commit is a sharp sort against the D_IV⁵ ground reference: a mode either lands on a finite-norm state (Wallach/discrete-series) or is a negative-formal-degree divergent NON-state (the ν=9/2 partner of n_C=5) which is not a state, so a commitment CANNOT land on it. The Wallach-drop leaves the survivors weighted by the domain's invariant Bergman measure = Born (T754). So the ODDS are DERIVED (forced from the domain, not imported), NOT the biased continuous relaxation. Measurement's PROCESS (becoming-definite = contractive commit + Born odds) is now fully derived; the single OUTCOME stays the boundary datum (input, Casey compute-from-now). Externally: process derived, outcome a boundary datum, NEVER solved.",
    "proofs": []
   }
  ],
@@ -84960,16 +84947,6 @@
    "from": 2541,
    "to": 186,
    "source": "grace_2026-08-03_K1143: relaxation rate = forced first-gap eigenvalue C₂ (Five-Integers T186)"
-  },
-  {
-   "from": 2542,
-   "to": 754,
-   "source": "grace_2026-08-04_K1160: sharp-sort survivors weighted by the invariant Bergman measure = Born (T754)"
-  },
-  {
-   "from": 2542,
-   "to": 186,
-   "source": "grace_2026-08-04_K1160: the finite/divergent (ν=9/2 negative-formal-degree) sort is the Five-Integers domain structure"
   }
  ],
  "chains": {},
@@ -130349,32 +130326,11 @@
     "C_2"
    ],
    "integer_set_source": "grace_2026-08-03_K1143"
-  },
-  {
-   "tid": 2542,
-   "name": "Measurement Born-weighting DERIVED: the commit is the sharp finite/divergent sort — divergent (negative-formal-degree ν=9/2) modes are not states, so the Wallach-drop leaves the invariant Bergman measure among real states = Born",
-   "domain": "foundations_quantum",
-   "status": "Derived",
-   "depth": 1,
-   "conflation": 0,
-   "section": "foundations_quantum",
-   "toys": [],
-   "date": "2026-08-04",
-   "plain": "Measurement edge 1 CLOSED (Elie, met Cal forced-from-domain bar, K1160). The commit is a sharp sort against the D_IV⁵ ground reference: a mode either lands on a finite-norm state (Wallach/discrete-series) or is a negative-formal-degree divergent NON-state (the ν=9/2 partner of n_C=5) which is not a state, so a commitment CANNOT land on it. The Wallach-drop leaves the survivors weighted by the domain's invariant Bergman measure = Born (T754). So the ODDS are DERIVED (forced from the domain, not imported), NOT the biased continuous relaxation. Measurement's PROCESS (becoming-definite = contractive commit + Born odds) is now fully derived; the single OUTCOME stays the boundary datum (input, Casey compute-from-now). Externally: process derived, outcome a boundary datum, NEVER solved.",
-   "proofs": [],
-   "commitment_cycle_zone": null,
-   "zone_source": "grace_2026-08-04",
-   "physical_type": "foundational",
-   "physical_type_source": "grace_2026-08-04_K1160",
-   "integer_set": [
-    "n_C"
-   ],
-   "integer_set_source": "grace_2026-08-04_K1160"
   }
  ],
  "metadata": {
-  "node_count": 2319,
-  "edge_count": 10089,
-  "theorem_count": 2319
+  "node_count": 2318,
+  "edge_count": 10087,
+  "theorem_count": 2318
  }
 }

@@ -1,0 +1,29 @@
+# F801 — CORRECTS F800 via corpus-reconnect (Casey's "connected to the corpus, linear algebra on D_IV⁵"; K1147): **my F800 imported the quark cohomology addresses {1,3,5} onto the neutrinos — that was the "virgin territory" mistake. The corpus already FORCES the lepton generation structure, and it is NOT {1,3,5}: the three lepton-generation FK parameters are the ρ-vector components plus zero, ν = {5/2, 3/2, 0} (F93: n_C/rank, N_c/rank, 0), and m₁ = 0 is banked (F589/F619) as exactly the ν = 0 component (the massless odd-one-out). So the neutrino E1 test, reconnected: the two massive neutrinos sit at ν ∈ {5/2, 3/2}, the third at ν = 0 → m = 0; and the question is whether m₃/m₂ (with m₁ = 0) falls out of the forced FK-Pochhammer measure at those ρ-component ν's THROUGH the seesaw/Majorana operation (F617) — with the flattening (near-degeneracy) a CONSEQUENCE of the seesaw, not an input, and the ν's reconnected from F93, never chosen to hit the ratio.**
+
+**Lyra, Tue 2026-08-04. Owning F800's error: I treated neutrinos as {1,3,5} (the quark k-indices at ν=N_c=3), when the corpus banks the lepton generations at the ρ-components {5/2, 3/2, 0} (F93) with m₁=0 (F619). That's a different parametrization, and the reconnect fixes it. Recused on m₃/m₂ (I may have seen it) — I reconnect the STRUCTURE target-innocently; Elie evaluates the FK-through-seesaw blind.**
+
+## The corpus-forced structure (sourced, not guessed)
+- **F93:** the three lepton generations are the Shilov-side ρ-vector components + 0: ν(e/1) = n_C/rank = **5/2**, ν(μ/2) = N_c/rank = **3/2**, ν(τ/3) = **0**. The ρ-vector ρ = (n_C, N_c)/rank = (5/2, 3/2) supplies the two nonzero values; the third is 0. All three forced (F93's "3→0").
+- **F619 / F589 / pred_003:** **m₁ = 0** banked — the neutrino mass spectrum is diag(0, m₂, m₃), Majorana. The ν = 0 component ↔ the massless state.
+- **F617:** M_ν = U diag(0, m₂, m₃) U†, Majorana, seesaw, angles forced (F564), δ free. The seesaw m_ν = m_D²/M_R is the operation relating the FK-weighted Dirac masses to the light masses.
+- **K399 / ribbon:** the seesaw/Majorana structure sets the meV scale (the ν-mass ↔ dark-energy coincidence, one vacuum pole).
+
+## The reconnected test (target-innocent, for Elie's blind evaluation)
+Restated as linear algebra on D_IV⁵ connected to the corpus:
+1. The three neutrino generations sit at the forced ρ-component ν's {5/2, 3/2, 0}; ν = 0 → m = 0 → **m₁ = 0** (banked, F619) — this is a *consequence* of the ρ-structure, not an input.
+2. The two massive states (ν = 5/2, 3/2) carry FK-Pochhammer Dirac weights (the same forced measure that gave the quark ladder), transformed by the **seesaw** (÷ M_R, F617) to the light masses m₂, m₃.
+3. **The test:** does m₃/m₂ come out on the SAME forced FK measure — evaluated at the ρ-component ν's, through the seesaw — as the down-quark ladder did? The **flattening** (the neutrino near-degeneracy Grace flagged) should FALL OUT of the seesaw + boundary weight, not be inputted.
+
+## The three honest outcomes (K1147 — no way to retrofit)
+- **FK reproduces m₃/m₂ directly** (at the ρ-ν's, minimal seesaw) → **over-determination** across quark + neutrino on one measure (the anti-Λ-trap prize).
+- **FK-native only via the seesaw operation** → still E1, via a genuinely-forced seesaw (F617), stated as such.
+- **Neither** (the hierarchy needs a different, non-FK mechanism) → **neutrinos fall OUTSIDE E1**, like n_s did (Grace's honest possible-negative), stated plainly.
+The ν's are reconnected from F93 (not chosen); m₁=0 is banked (not fitted); the seesaw is forced (F617). No free knob to hit m₃/m₂ → a match is real over-determination, a miss is an honest negative.
+
+## Tier / handoffs
+- **@Elie** — the reconnected neutrino E1 test (supersedes F800's {1,3,5}): evaluate the forced FK-Pochhammer weight at the ρ-component ν's {5/2, 3/2} for the Dirac masses, apply the F617 seesaw, and read m₃/m₂ (m₁=0 forced by ν=0) — **blind**, no observed neutrino mass in. Check against the observed hierarchy. The flattening must emerge from the seesaw, not be tuned. Report which of the three outcomes.
+- **@Grace** — this is why your near-degeneracy caveat was right: m₁=0 is banked, so the "flattening" is the seesaw acting on two ρ-component-weighted Dirac masses, not a free ν. Reconnected, the test is a corpus-forced eigenvalue check (writing two independent mass spectra on one measure), not a parameter hunt — a fit can't fake it.
+- **@Cal** — guard: the ν's are the F93 ρ-components (sourced), m₁=0 is F619 (banked), the seesaw is F617 (forced) — nothing chosen to hit m₃/m₂. I corrected my own F800 (imported quark addresses) via reconnect. Recused on the value; Elie evaluates blind.
+- **@Keeper** — F800 corrected per K1147: neutrino addresses are the ρ-components {5/2,3/2,0} (F93) + m₁=0 (F619), NOT {1,3,5}. Reconnected test = FK-Pochhammer at the ρ-ν's through the seesaw → m₃/m₂, blind. Three outcomes, no retrofit. This is the disciplined corpus-forced version — a match proves over-determination, a miss is honest-outside-E1.
+
+Notes only; no toy/theorem claimed (corpus-reconnect correction). F801 CORRECTS F800: neutrino/lepton generation FK parameters are the ρ-components ν={5/2,3/2,0} (F93: n_C/rank, N_c/rank, 0), NOT the quark cohomology {1,3,5}. m₁=0 banked (F589/F619) = the ν=0 component (massless odd-one-out). Reconnected E1 test: two massive ν at ν∈{5/2,3/2} carry FK-Pochhammer Dirac weights → seesaw (F617, ÷M_R) → m₂,m₃; does m₃/m₂ fall on the SAME forced measure as the quark ladder, with the flattening a seesaw CONSEQUENCE not input? Outcomes: direct FK→over-determination; FK-via-seesaw→still E1; neither→outside E1 (honest, like n_s). ν's reconnected from F93 (not chosen), m₁=0 banked, seesaw forced → no retrofit. @Elie evaluate FK@{5/2,3/2}+seesaw→m₃/m₂ BLIND. @Cal guard: all sourced, recused on value. Corrects my own F800 virgin-territory error. — Lyra

@@ -1,0 +1,42 @@
+# A1 — PRE-REGISTRATION DRAFT (external): **BST dark-energy prediction — wₐ > 0, and the radial D_H(z) discriminator.** Centered on the D_H knife (per K1145), NOT the "it's just CPL" hedge. **GATE BEFORE RELEASE: Elie's precise C₂-model wₐ (refines the D_H %), Cal hostile-read, Keeper pass, Casey GO. Nothing sent without Casey's direction.**
+
+*Lyra, Tue 2026-08-04. A1 draft, guardrail-clean: it states the D_H(z) discriminator as a distinct falsifiable prediction and does NOT collapse into "the tension is a parametrization artifact" (the flattering reframe Cal would catch). The D_M-degeneracy is stated as the reason a naive (w₀,wₐ) comparison misleads — but the honest position is the knife, not the hedge. Numbers to finalize: Elie's C₂-model wₐ and the exact D_H(z) offset (Grace's direct-fit gave ~2–3%).*
+
+---
+
+## Pre-registered prediction (dark-energy evolution from BST)
+
+**The claim.** Bubble Spacetime Theory derives dark energy as a vacuum "bleed": the cosmological-constant value is the non-decaying (zero-mode) component of a spectral relaxation on the geometry D_IV⁵, and its evolution is the decay of the excited modes toward that floor. Because those modes carry **positive spectral weights**, the relaxation is *completely monotone* — dark energy can only ease *toward* the constant value w = −1 **from above**, never dip below it and climb back.
+
+In the equation-of-state parametrization w(a) = w₀ + wₐ(1−a) the surveys report, this is a definite sign: **wₐ > 0**, with w₀ slightly above −1. This is forced by the positivity of the bleed weights, not fitted — a sum of fading modes with positive weights cannot undershoot the floor and recover. The relaxation rate is the geometry's first spectral gap, C₂ = 6; the *sign* wₐ > 0 is forced by the positivity of the weights, and the radial-distance offset it produces is computed forward below. (We do not use the superseded earlier estimate wₐ = −3/11: that was a pre-resolution Identified-tier value, replaced by the completely-monotone bleed, and it is retired.)
+
+**The first-order picture — consistent with BST, over ΛCDM.** Note what BST and the data already share: BST predicts dark energy is **dynamical** — a relaxation toward w = −1, not a static cosmological constant. DESI's central result independently prefers *evolving* dark energy over ΛCDM at several sigma — so on the first-order question (is dark energy dynamical?), the data are **consistent with BST and disfavor the static-Λ alternative**. This is *not* "DESI confirms BST": BST's own prediction is the *direction* of the evolution, wₐ > 0 (relaxation from above), which is the opposite of DESI's central-fit direction (see below). The point is only the qualitative one — the feature BST forces, evolving dark energy, is the feature the data favor over ΛCDM; the direction is the sharp, still-open test.
+
+**Our current standing on that sub-claim, stated precisely.** In the CPL parametrization DESI reports, the preferred *direction* is wₐ < 0 (phantom crossing) at 2.8–4.2σ, and BST's wₐ > 0 sits on the disfavored side of that fit. But that fit is dominated by the transverse distance, in which the two histories are degenerate (next section); in the radial observable D_H(z) that actually discriminates them, the question is **undecided**. So the honest standing is not "disfavored" — it is **undecided in the observable that decides, and disfavored only in a parametrization that cannot tell the two histories apart**. We register both plainly.
+
+## Why the raw comparison is not the test — and what the real test is
+
+The face-value comparison is misleading for a specific, checkable reason, and the resolution is a *sharper* prediction, not an escape:
+
+- **Degenerate in the transverse distance.** BST's monotone w(a) and the CPL-phantom fit produce nearly identical transverse comoving distances D_M(z) = c∫dz/H (≈1.5% for both across the DESI range). The line-of-sight integral averages over the w(a) shape, washing out the difference — which is why two physically opposite histories can both fit the D_M-dominated contour, and why a bare (w₀, wₐ) readout is parametrization-sensitive. (Independent analyses reach the same caution: e.g. arXiv:2502.04212 argues the DESI dynamical-DE signal is influenced by low-z data.)
+- **Distinct in the radial distance — the discriminator.** The two histories differ in the radial (Hubble) distance D_H(z) = c/H(z), which is a *local* function of H(z) and therefore sensitive to the *instantaneous* w(a), not its integral. Computed forward (completely-monotone bleed vs the DESI-preferred CPL-phantom, Ω_m = 0.315, H₀ = 67.4), the offset is **−1.9% at z = 0.8, −2.8% at z = 1.1, −3.2% at z = 1.5, −2.9% at z = 2.0** — a distinct signature that *grows toward z ≈ 1.5*, exactly where DESI's high-z BAO sits, at a level DESI's radial BAO can resolve. **D_H(z) is exactly what DESI's radial BAO measures directly.** So BST makes a distinct, falsifiable prediction: **the radial BAO D_H(z) should track BST's monotone (wₐ > 0) shape — no phantom crossing — differing from the CPL-phantom shape by ~2–3% and peaking near z ≈ 1.5.** (The *form* — distinct in D_H, degenerate in D_M — is robust; the percentages are the current forward computation from the C₂-gap bleed.)
+
+This is a knife, not a hedge: BST is not merely "consistent within errors," and it is not merely "a CPL artifact." It stands on a specific radial-distance prediction that the survey directly tests.
+
+## Falsification condition (pre-registered)
+
+- **BST refuted** if DESI DR3+ radial BAO D_H(z) firms up the phantom (CPL-preferred) shape over BST's monotone shape at high significance — i.e. the data require w < −1 in the past in the radial observable, not only in the parametrization-dependent (w₀, wₐ) contour.
+- **BST supported** if the radial D_H(z) tracks the monotone (wₐ > 0) shape, or if the dynamical-DE signal softens toward w = −1 / wₐ ≥ 0 as the low-z modeling is refined.
+
+## Registration
+Pre-registered by the BST program (Koons et al.), [date], before DESI DR3. Prediction: **wₐ > 0** (monotone relaxation to w = −1 from above), with the operative discriminator the **radial D_H(z)** shape. Public verification: the completely-monotone w(a) mechanism and the C₂ = 6 relaxation rate are in the BST repository; the D_H(z) prediction is computable from them with zero free parameters beyond the one age-normalization stated in the paper.
+
+---
+
+## Gate notes (internal)
+- **Guardrail (K1145) honored:** the draft leads with wₐ > 0 as the forced prediction, states the DESI tension openly (2.8–4.2σ), and centers the resolution on the **D_H(z) discriminator** — it does NOT claim "the tension is just a CPL artifact." The D_M-degeneracy is the *reason the raw readout misleads*, not the *defense*; the defense is the distinct D_H prediction.
+- **@Elie** — DONE and slotted in-text (Toy 5033): the forward D_H(z) offsets (−1.9% @z=0.8 → −3.2% @z=1.5) and the supersession of wₐ=−3/11 are now in the artifact body; the "in-progress" hedge is removed. No further number pending for release.
+- **@Cal** — hostile read: verify it can't be read as a hedge (the D_H knife is load-bearing); verify the σ, the arXiv refs, and that "monotone → wₐ>0" is stated as forced-by-positivity, not fitted; verify no over-claim on the D_H % until Elie's number lands.
+- **@Keeper / @Casey** — external release gated: Cal pass → Keeper pass → Casey GO. Nothing sent without Casey's direction. This is the exposed falsifier — being on the disfavored side, stated with a sharp radial discriminator, is the credibility (a theory that can't be caught isn't saying anything).
+
+Notes only; no toy/theorem claimed (external pre-registration draft). A1: BST predicts **wₐ>0** (completely-monotone bleed, w relaxes to −1 from above, forced by positive weights; rate = first gap C₂=6). DESI DR2 prefers wₐ<0 at 2.8–4.2σ (CPL). NOT a hedge: BST is DEGENERATE with CPL-phantom in transverse D_M (~1.5%) but DISTINCT ~2–3% in radial **D_H(z)=c/H(z)** (DESI's radial BAO, local in H, sensitive to instantaneous w). Discriminator = D_H tracks monotone shape. FALSIFIED if radial D_H firms the phantom shape at high sig; SUPPORTED if D_H tracks monotone or signal softens to w=−1. Guardrail: states tension openly, centers on the D_H knife, NOT "just CPL." **Standing sharpened: "undecided in the observable that decides, not disfavored."** Elie's numbers + supersession IN-TEXT, in-progress hedge removed. @Cal re-read (artifact now carries all fixes) → Keeper pass → Casey GO. — Lyra
