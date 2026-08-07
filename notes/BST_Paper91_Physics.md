@@ -14,7 +14,7 @@ depends_on: "Paper #91-Math (BST_Paper91_Math.md) for spectral framework"
 
 ## Abstract
 
-Building on the spectral theory of the type-IV bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] developed in the companion paper [1], we show that the Chern classes of the compact dual Q^5 map to Standard Model gauge theory coefficients through a complete dictionary. The one-loop QCD beta coefficient equals the genus g = 7 = c_1 + rank. The electroweak mixing angle sin^2(theta_W) = N_c/c_3 = 3/13 matches observation to 0.19%. The Higgs quartic coupling lambda_H = 1/(2 rank^2) = 1/8 matches to 3.4% and equals the 2D Ising order parameter exponent. The perturbative QED anomalous magnetic moment coefficients through five loops are Fourier harmonics of a single geodesic phase theta = sqrt(n_C/rank) * log(epsilon), matching all known values to within 0.2%.
+Building on the spectral theory of the type-IV bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] developed in the companion paper [1], we show that the Chern classes of the compact dual Q^5 map to Standard Model gauge theory coefficients through a complete dictionary. The one-loop QCD beta coefficient equals the genus g = 7 = c_1 + rank. The Chern ratio c_5/c_3 = N_c/c_3 = 3/13 is identified with the weak mixing angle, a Structural/Identified match to the MS-bar value at 0.19% (unforced and scheme/scale-dependent — the mixing angle runs). The Higgs quartic coupling lambda_H = 1/(2 rank^2) = 1/8 matches to 3.4% and equals the 2D Ising order parameter exponent. The perturbative QED anomalous magnetic moment coefficients through five loops are Fourier harmonics of a single geodesic phase theta = sqrt(n_C/rank) * log(epsilon), matching all known values to within 0.2%.
 
 We present these results with explicit epistemic tier labels: the Chern-beta dictionary and Weinberg angle are tier D (derived from geometry), the Higgs quartic is tier I (identified, mechanism plausible), and the QED geodesic dictionary is tier I (sub-percent matches, systematic).
 
@@ -103,13 +103,14 @@ The ratios are: lambda_2/lambda_1 = g/N_c = 7/3, lambda_3/lambda_1 = rank^2 = 4.
 
 ### 3.2 The Weinberg angle
 
-**Theorem 3.1** (Spectral Weinberg angle). *The weak mixing angle at tree level is*
+**Proposition 3.1** (Spectral Weinberg angle — Structural/Identified, K1263). *The BST/Chern ratio*
 
-  sin^2(theta_W) = N_c / (g + C_2) = N_c / c_3 = 3/13 = 0.23077...,
+  N_c / (g + C_2) = N_c / c_3 = c_5(Q^5)/c_3(Q^5) = 3/13 = 0.23077...
 
-*matching the observed value 0.23122 to 0.19%.*
+*is identified with the tree-level weak mixing angle, matching the observed MS-bar value 0.23122 (at m_Z) to 0.19%.*
 
-*Proof.* The electroweak mixing at the spectral level is determined by the partition of the c_3 = g + C_2 = 13 degrees of freedom into N_c = 3 weak-isospin modes and c_3 - N_c = 10 remaining modes. The ratio N_c/c_3 = 3/13 gives the tree-level sin^2(theta_W). The denominator c_3 = 13 is the third Chern class of Q^5, and the numerator N_c = 3 is the top Chern class. Verified in Toy 1839 (10/10). QED.
+*What is established.* The Chern identity N_c/c_3 = c_5/c_3 = 3/13 is a proved, target-innocent invariant of Q^5 (c_3 = 13 the third Chern class, c_5 = N_c = 3 the top Chern class; Toy 1839, 10/10).
+*What is not (K1263).* The *physical* step — that the weak mixing angle equals this ratio via a partition of c_3 = 13 degrees of freedom into N_c = 3 weak-isospin and 10 remaining modes — is a heuristic identification, not a derivation: nothing yet compels c_5/c_3 over another Chern ratio (whether a Lefschetz fixed-point count forces it is open lead #85), and sin^2(theta_W) runs and is scheme-dependent, so a scale-free ratio matching one scheme at one scale is an identification. Tier: **Structural/Identified**, not Proved. (BST's forced high-scale value is 3/8 from the fermion content; it does not run to 3/13.)
 
 ### 3.3 Eigenvalue gaps and symmetry breaking
 

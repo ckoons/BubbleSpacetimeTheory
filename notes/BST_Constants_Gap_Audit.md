@@ -108,7 +108,7 @@ Name                BST          Observed      Precision  Tier
 alpha^{-1}          137          137.036       0.0001%    D
 m_p/m_e             1836.12      1836.15       0.002%     D
 mu_p/mu_N           2.79279      2.79285       0.0001%    D
-sin^2(theta_W)      3/13         0.23122       0.2%       D
+sin^2(theta_W)      3/13         0.23122       0.2%       S
 ...
 ```
 

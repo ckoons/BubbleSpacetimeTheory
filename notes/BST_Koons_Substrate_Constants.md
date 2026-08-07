@@ -119,7 +119,7 @@ No free inputs. $n_C = 5$ selected by maximum fine structure constant ($\alpha(n
 | Constant | BST Formula | BST Value | Experiment | Error |
 |----------|-------------|-----------|------------|-------|
 | Fine structure $\alpha$ | $(9/(8\pi^4)) \cdot (\pi^5/1920)^{1/4}$ | 1/137.036 | 1/137.036 | 0.0001% |
-| Weinberg angle | $\sin^2\theta_W = c_5/c_3 = N_c/c_3$ | 3/13 = 0.2308 | 0.2312 | 0.2% |
+| Weinberg angle | $\sin^2\theta_W = c_5/c_3 = N_c/c_3$ | 3/13 = 0.2308 | 0.2312 | 0.2% — Structural/Identified: unforced, MS-bar($M_Z$), runs (K1263) |
 | Strong coupling $\alpha_s(m_Z)$ | Run from $\alpha_s(m_p) = g/(4n_C)$ | 0.1175 | 0.1179 | 0.3% |
 | Axial coupling $g_A$ | $4/\pi$ | 1.273 | 1.2754 | 0.2% |
 | Higgs quartic $\lambda_H$ | $1/\sqrt{n_C \cdot 2n_C} = 1/\sqrt{60}$ | 0.1291 | ~0.13 | ~1% |

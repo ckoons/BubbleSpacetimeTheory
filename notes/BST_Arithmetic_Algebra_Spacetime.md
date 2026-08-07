@@ -151,7 +151,9 @@ The coupling constants of physics are **ratios of dimensions** of subspaces of $
 
 ### 6.1 The Weinberg Angle
 
-$$\sin^2\theta_W = \frac{N_c}{N_c + 2n_C} = \frac{3}{3 + 10} = \frac{3}{13} = 0.23077 \quad (0.2\%)$$
+$$\sin^2\theta_W = \frac{N_c}{N_c + 2n_C} = \frac{3}{3 + 10} = \frac{3}{13} = 0.23077$$
+
+Structural/Identified: the ratio $c_5/c_3 = 3/13$ is exact Chern-class mathematics, but the physics identification is unforced and MS-bar($M_Z$)-scheme-dependent — $\sin^2\theta_W$ runs (K1263). The ~0.2% agreement is scheme/scale-specific, not a derivation.
 
 Color dimensions over total (color + configuration) dimensions.
 

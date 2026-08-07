@@ -473,7 +473,7 @@ BST has **ONE** independent input:
 
 $$n_C = 5 \quad\text{(the complex dimension of the domain)}$$
 
-Everything else — $N_c$, $C_2$, $g$, $N_c^2$, $\alpha$, $N_{\max}$, $\sin^2\theta_W$, $\Lambda \times N$, $\alpha_s$ — is derived from the Chern classes and Wyler-BST formula of $Q^5$ (Section 12).
+Everything else — $N_c$, $C_2$, $g$, $N_c^2$, $\alpha$, $N_{\max}$, $\sin^2\theta_W$, $\Lambda \times N$, $\alpha_s$ — is read off the Chern classes and Wyler-BST formula of $Q^5$ (Section 12). (Tier caveat, K1263: the forced integers and $\alpha = 1/N_{\max}$ are Derived, but $\sin^2\theta_W = c_5/c_3$ and $\alpha_s = 7/20$ are **Structural/Identified runner-anchors** — the Chern ratios are real mathematics, but the physics identifications are unforced and both quantities run.)
 
 The Standard Model is the unique point in the family $\{Q^n\}_{n \geq 1}$ where the mass ratio $(n+1)\pi^n$ matches observation. There is no free parameter to tune. The Chern classes do the rest.
 

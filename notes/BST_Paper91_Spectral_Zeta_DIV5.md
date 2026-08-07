@@ -44,7 +44,7 @@ The main results fall into three categories.
 
 **Modular and arithmetic structure (Sections 8-10).** The heat trace on D_IV^5 is a mock theta function of order 5, connected to the B_2 Nahm sum through an 8-entry dictionary. The spectral zeta values at negative integers have denominators that factor over primes up to g = 7 for n <= 1, with "alien" primes entering at n = 2 via von Staudt-Clausen. The harmonic number H_5 = 137/60 has prime numerator 137.
 
-**Physical content (Sections 11-16).** The Chern classes of the compact dual Q^5 map to Standard Model gauge coefficients through a complete dictionary. The electroweak mixing angle sin^2(theta_W) = 3/13 follows from the spectral eigenvalue partition. The Higgs quartic coupling lambda_H = 1/8 equals the 2D Ising order parameter exponent. Perturbative QED loop coefficients are Fourier harmonics of a single geodesic phase on D_IV^5, matching all five known loops to within 0.2%.
+**Physical content (Sections 11-16).** The Chern classes of the compact dual Q^5 map to Standard Model gauge coefficients through a complete dictionary. The Chern ratio 3/13 is identified with the weak mixing angle via the spectral eigenvalue partition (Structural/Identified — unforced, scheme/scale-dependent). The Higgs quartic coupling lambda_H = 1/8 equals the 2D Ising order parameter exponent. Perturbative QED loop coefficients are Fourier harmonics of a single geodesic phase on D_IV^5, matching all five known loops to within 0.2%.
 
 **Notation.** Throughout, we use the following notation derived from the root data of B_2 with multiplicities (m_s, m_l) = (3, 1): rank = 2 (the rank), N_c = 2^{rank} - 1 = 3 (short root multiplicity), n = n_C = N_c + rank = 5 (complex dimension), g = 2^{N_c} - 1 = 7 (genus), C_2 = N_c(N_c+1)/rank = 6 (Casimir), and N_max = N_c^3 * n_C + rank = 137. These six integers, together with the derived quantities c_2 = n_C + C_2 = 11 and c_3 = g + C_2 = 13 (the second and third Chern classes of Q^5), constitute the complete spectral vocabulary.
 
@@ -284,7 +284,7 @@ The single evaluation S(5/2) = 6 connects four mathematical domains through one 
 
 **(iii) Number theory.** The harmonic number H_5 = 137/60 has numerator N_max = 137 (prime) and denominator 60 = 5!/rank. The Casimir C_2 = 6 appears as the spectral gap lambda_1 = k(k+5)|_{k=1} = 6, which equals C_2 and is the first eigenvalue of the Bergman Laplacian. The value S(5/2) = 6 is simultaneously the number of quark flavors, the Casimir, and the spectral gap.
 
-**(iv) Physics.** The proton mass m_p = C_2 * pi^5 * m_e = 6 * pi^5 * 0.511 MeV = 938.272 MeV (precision 0.002%). The fine-structure constant alpha = 1/N_max = 1/137. The electroweak mixing angle sin^2(theta_W) = N_c/c_3 = 3/13 at 0.19%.
+**(iv) Physics.** The proton mass m_p = C_2 * pi^5 * m_e = 6 * pi^5 * 0.511 MeV = 938.272 MeV (precision 0.002%). The fine-structure constant alpha = 1/N_max = 1/137. The Chern ratio N_c/c_3 = 3/13 is identified with the weak mixing angle at 0.19% vs MS-bar (Structural/Identified — unforced, runs).
 
 No other evaluation of any scattering matrix on any symmetric space achieves this four-way bridge.
 
@@ -645,13 +645,14 @@ The ratios are: lambda_2/lambda_1 = g/N_c = 7/3, lambda_3/lambda_1 = rank^2 = 4.
 
 ### 13.2 The Weinberg angle
 
-**Theorem 13.1** (Spectral Weinberg angle). *The weak mixing angle at tree level is*
+**Proposition 13.1** (Spectral Weinberg angle — Structural/Identified, K1263). *The BST/Chern ratio*
 
-  sin^2(theta_W) = N_c / (g + C_2) = N_c / c_3 = 3/13 = 0.23077...,
+  N_c / (g + C_2) = N_c / c_3 = c_5(Q^5)/c_3(Q^5) = 3/13 = 0.23077...
 
-*matching the observed value 0.23122 to 0.19%.*
+*is identified with the tree-level weak mixing angle, matching the observed MS-bar value 0.23122 (at m_Z) to 0.19%.*
 
-*Proof.* The electroweak mixing at the spectral level is determined by the partition of the c_3 = g + C_2 = 13 degrees of freedom into N_c = 3 weak-isospin modes and c_3 - N_c = 10 remaining modes. The ratio N_c/c_3 = 3/13 gives the tree-level sin^2(theta_W). The denominator c_3 = 13 is the third Chern class of Q^5, and the numerator N_c = 3 is the top Chern class. Verified in Toy 1839 (10/10). QED.
+*What is established.* The Chern identity N_c/c_3 = c_5/c_3 = 3/13 is a proved, target-innocent invariant of Q^5 (c_3 = 13 the third Chern class, c_5 = N_c = 3 the top Chern class; Toy 1839, 10/10).
+*What is not (K1263).* The *physical* step — that the weak mixing angle equals this ratio via a partition of c_3 = 13 degrees of freedom into N_c = 3 weak-isospin and 10 remaining modes — is a heuristic identification, not a derivation: nothing yet compels c_5/c_3 over another Chern ratio (whether a Lefschetz fixed-point count forces it is open lead #85), and sin^2(theta_W) runs and is scheme-dependent. Tier: **Structural/Identified**, not Proved. (BST's forced high-scale value is 3/8 from the fermion content; it does not run to 3/13.)
 
 ### 13.3 Eigenvalue gaps and symmetry breaking
 
@@ -821,7 +822,7 @@ We have established the complete spectral theory of the Bergman Laplacian on D_I
 
 9. **Mersenne uniqueness**: 2^{n-2} = n + 3 has unique solution n = 5, and rank = 2 is the only valid starting rank (Theorems 11.1-11.2).
 
-10. **EW mixing**: sin^2(theta_W) = N_c/c_3 = 3/13 at 0.19% (Theorem 13.1).
+10. **EW mixing**: N_c/c_3 = 3/13 identified with sin^2(theta_W), 0.19% vs MS-bar (Proposition 13.1, Structural/Identified — unforced, runs).
 
 11. **Higgs quartic**: lambda_H = 1/8 = 1/rank^{N_c} = beta_{Ising,2D} at 3.4% (Theorem 14.1).
 

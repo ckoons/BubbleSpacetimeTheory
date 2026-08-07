@@ -611,10 +611,10 @@ The Wick rotation β ↔ it/ℏ connecting them is not a mathematical trick — 
 | Phase transition: T_c = 130.5 | Computed | ~0.4% |
 | Feynman rules: contact graph maps | Established | — |
 | Conservation laws: contact graph symmetries | Established | — |
-| **α_s(m_p) = 7/20** | **Derived** | **~0% (m_p); 1.7% (m_Z)** |
+| **α_s(m_p) = 7/20** | **Identified** (runner-anchor) | **runs from μ_geo=m_p to m_Z at 1.7% (K1269)** |
 | **η = 2α⁴/(3π)** | **Derived** | **1.4%** |
 | **H₀ ≈ 66.7 km/s/Mpc** | **Computed** | **1.0%** |
-| **sin²θ_W = 3/13** | **Derived** | **0.2%** |
+| **sin²θ_W = 3/13** | **Structural/Identified** (unforced, runs; K1263) | **0.2% vs MS-bar(m_Z)** |
 | **m_W = 79.98 GeV** | **Computed** | **0.5%** |
 | **m_ν₃ = 0.0494 eV** | **Derived** | **1.8%** |
 | **m_ν₂ = 0.00865 eV** | **Derived** | **0.35%** |

@@ -317,7 +317,7 @@
   },
   {
    "id": "const_007",
-   "theorem_id": "T225",
+   "theorem_id": "T1969",
    "name": "Fermi scale (Higgs VEV)",
    "symbol": "v",
    "formula_latex": "v = m_p^2/(g \\cdot m_e) = 36\\pi^{10} m_e/7",
@@ -468,6 +468,8 @@
    "k973_note": "K973 (2026-07-28) BANKED sub-criteria of the K967 blind bar: (S1) DERIVED — the 24 is the analytic Gindikin Gamma_Omega value Gamma(5), NOT a bare count (F157=K923 theorem, verified vs Faraut-Koranyi; the pi^2 pairing is the un-fakeable analytic tell). (S3) DERIVED — exponent 6 FORCED by pi-counting = dim SO(4) = C(4,2) = measurement little group (F111; the old derivation_chain readings '24=N_c!*2^rank' and '6=n_C+1' are pre-K973 coincidental matches, superseded by the Gamma_Omega/F111 mechanism). Muon mode target-innocent at nu=3/2 = a/2 = rho_2. Interior = 2 idempotent seats RIGOROUS (spin factor Re(+)R^4, FK-sourced; E7->4). TWO GATES REMAIN, each ONE linear-algebra step (28h, Lyra+Elie): S2 = project target-innocent F603 condensate direction into R^4, read u-hat; spin-factor frame c_pm=1/2(e +/- v/|v|) is UNIQUE unless v central (FK III.1.2); clears iff v!=0 (non-central). [Cal S^3 'continuum' = set of ALL frames, dissolved once operator given; toy 4900 bug = tested a frame-INVARIANT symbol (degenerate v=0), opposite of frame-selection.] S4 = compute Rossi-Vergne support-orbit rank ell (totally ordered, associated variety); clears iff it names tau->ell=0 BLIND (K880 quarantined). Ratio -> DERIVED iff v!=0 AND ell picks the boundary blind. Use the RANK ell, not the words 'interior/boundary' — INVERTED between Jordan-idempotent and Wallach-support pictures (same class as the sec-118-rung vs K880-Shilov k-overload I flagged; both resolved by picture-independent LA invariants). Consistency-checked: ell tracks nu tracks inverse-mass monotonically (tau ell=0 heaviest/singular-Shilov; electron ell=2 lightest/full-interior).",
    "k984_note": "29d (2026-07-29) RULING — muon carried at DERIVED (e=n without counterexample), the burden-flip tier (K962: geometric forcing on one route absent a counterexample = Derived by default; demotion needs POSITIVE evidence). PROVENANCE: S1 (24=analytic Gamma_Omega, F157=K923), S3 (exponent 6, F111), S4 (tau=boundary by rank), interior-2 seats (rigorous) are all POSITIVELY DERIVED. The last step — e=n (the EW-symmetric axis n = the Jordan cone identity e) — is carried by the burden-flip: Cal SS127 SEPARATED it from the deep gauge embedding (local Sp(2)-spinor question, not hostage to dim-11->12); the (2,2) reading is geometry-FAVORED; the alternative (n!=e, a conjugate Spin(4) not fixing e) has ZERO positive support. QUALIFIER IS MANDATORY — never write bare 'Derived'; the '(e=n without counterexample)' names the one absence-carried step honestly. UPGRADE PATH: Cal's n=e derivation from the substrate potential (SSB-correct: 'unbroken axis n sits at e, breaking transverse', NOT 'symmetric wins') removes the qualifier -> bare DERIVED. DEMOTION: a positive n!=e counterexample -> back to IDENTIFIED. This is the WORKED EXAMPLE for the Forcing+Evidence standard: geometry forces the structure, evidence (no counterexample) carries the closer, the tag shows exactly which is which. Composite ratio m_mu/m_e=(24/pi^2)^6, 0.003%.",
    "tier_reconcile_note": "tier D reconciled to k962 DERIVED (K986 burden-flip); the mandatory '(e=n without counterexample)' qualifier lives in k962_tier — never render bare 'D' without it (Cal §135 never-bare rule).",
+   "k1245_ruling": "K1245 (2026-08-06, Casey standing directive — SUPERSEDES the k1242_sigma_review proposal below). RULING: muon STAYS DERIVED. Region-matched-comparison rule: (24/π²)⁶ is a forced INTERIOR computation with NO free input, so we trust the interior value; the 0.004% agreement with the EXTERIOR measurement is a cross-region comparison = CONFIRMATION, ⊥ tier (exactly what this entry's k984/k973 notes always said). A cross-region σ is NOT a valid demotion reason. Muon ≠ tau: the TAU (const_039) demotes for an INTERNAL-region reason (its value carries a named input, the 71 with no geometric home), which stands. My K1242 σ-demote and the K1244 PD-split BOTH carried the wrong 'demote-the-value' frame across a region boundary — retired. tier=D is CORRECT and stays. The dev% stays logged as confirmation (⊥ tier). No re-inflation guard N/A here (this was never fitted; it is forced-no-input).",
+   "k1242_sigma_review": "[SUPERSEDED by k1245_ruling — retained for audit trail] K1242 (2026-08-06, Grace currency review — PRE-STAGED, tier field UNCHANGED pending Casey governance). Elie's lepton σ-pilot scored this formula's VALUE at 1564σ from the measured m_mu/m_e (dev 0.0034% but leptons measured to ~2e-8, σ=dev/error). Two precise findings the K1242 relay flattened: (1) the TAU (const_039/T210) is ALREADY tier=I / pub 'Structure-Derived (form forced; value set by named input)' — the σ-pilot's tau demotion is a NO-OP, already done. (2) This MUON entry is the ONLY one still at bare Derived, and its Derived is the K984/K973 FORM-forcing burden-flip (24=analytic Γ_Ω, exponent 6 forced) with 'confirmation ⊥ tier' EXPLICIT (the 0.004% was always logged orthogonal to tier); the named demotion trigger was a structural n≠e counterexample, NOT a σ argument. So a flat Derived→Identified would THROW AWAY the real Γ_Ω form-derivation. HONEST RESOLUTION (proposed, not executed): resolve to PD / Structure-Derived EXPLICIT-SPLIT — FORM Derived (Γ_Ω-forced (24/π²)⁶), VALUE Identified/structural at the ~1e-4 Two-Tier floor (Elie Toy 3648). This makes the muon MATCH the tau's already-honest framing (form forced / value structural), consistent with the corpus Two-Tier hypothesis — the '~1e-4 floor' is expected for mass ratios, not a new failure; bare 'Derived' on the VALUE was drift. σ confirmed by Grace independently (μ 1564σ, τ 7.5σ). GOVERNANCE: tier reductions are Casey's call — this is a currency flag + proposal; tier field stays 'D' until Casey rules. If Casey accepts: tier→PD, publication_tier→'Structure-Derived (form forced; value at ~1e-4 structural floor)', matching const_039.",
    "f323_decoupling_note": "29t (2026-07-29): the muon's DERIVED tier is anchored to the e=n burden-flip (K986), INDEPENDENT of the F323 lepton integral. F323 decides ONLY the c-function SECOND route (whether the muon gains an independent second derivation), NOT the tier. PRE-REGISTERED ledger response (committed before the number): (PASS, F323 ≈ (24/π²)⁶): add 'second route: F323 cross-ν overlap CONFIRMED' — a CONFIRMATION-axis strengthening (already Derived → now double-route), lepton engine advances to the full Gram/PMNS. (NULL, F323 ≠ 24/π² or won't close): stamp the c-function/F323 route CLOSED (evaluated, does not reproduce the form); muon UNCHANGED (Derived via e=n); unified one-matrix engine PARKED as a research arc; fermion sector banks AS-IS (11/13 Derived); the principle 'quarks=degree-Jack, leptons=cross-ν overlap' remains a real finding. A null does NOT downgrade the muon and is NOT a failure. Do NOT tune the integrand to hit 24/π² (fabrication the bar stops).",
    "publication_tier": "Derived"
   },
@@ -506,6 +508,9 @@
    "status": "derived",
    "ace": "(0,0)",
    "notes": "RETIRED as a derived form (Keeper K739, 2026-07-18): 3/13=N_c/(N_c+2n_C)=0.2308 is a RUNNING COINCIDENCE sitting ~0.2% from where the real prediction (3/8 high-scale, fermion-content-forced) runs to at M_Z by standard RGE. sin2thW is a RUNNER, not a clean BST-primary observable. 28/3 form needs ||B-L||^2 a factor g/rank=7/2 above standard color norm; RH charges need a T3_R piece. Do NOT resurface 3/13 as derived/identified. Kept structural: weak-color coupling B=1/N_c. Tier S (flagged), was D.",
+   "k1263_final": "K1263 (2026-08-07) FINAL, unanimous (all 4 CIs verified from source; Cal ran an adversarial pass — refuted §339 on an 11σ argument, then RETRACTED §340: scoring a scale-free topological RATIO against a scale-specific M_Z measurement in σ is the cross-region category error the region-rule forbids; the tier is limited by the UNFORCED ratio-choice, not by any deviation). THREE OBJECTS, THREE TIERS: (1) c_5/c_3 = 3/13 = Derived-as-mathematics (a real Chern number of Q^5); (2) sin^2 theta_W = 3/13 = STRUCTURAL/IDENTIFIED (unforced ratio-choice, scheme-caveated) — not Proved, not retired, not Candidate; (3) ||B-L||^2 -> 3/13 = refuted, dead. tier=S FINAL. Held line: K739's bottom line was right that sin^2 theta_W is NOT a BST precision win — restored to honest tier, NOT to triumph. FORWARD (lead #85, research not bank): force the ratio-choice — an index-theoretic (Lefschetz) reason the physical mixing reads e_5/e_3 (color-boundary grading of the tangent-bundle curvature elementary symmetric polynomials) and not e_4/e_2 or e_5/e_1; if it forces, 3/13 becomes Derived. Supersedes the 'provisional' status in k1261_reversal below.",
+   "k1261_reversal": "K1261 (2026-08-07, Casey-caught OVER-demotion — SUPERSEDES the 'runner/retire' framing in k1253_reconcile + the K739 retirement). CALIBRATE BOTH DIRECTIONS: the morning fear of re-claiming a retired result swung into over-punishment. K739's retirement rested on '3/13 is where 3/8 runs to' — that is quantitatively FALSE: 3/8 runs (no-GUT/no-SUSY) to ~0.208 (minimal-SU(5), Cal), NOT to 3/13=0.2308. And the Chern-class paper never RAN anything — it reads 3/13 = c_5/c_3 of Q^5 directly off the target-innocent Chern sequence {1,5,11,13,9,3} (binomial sums, no physics input, 'topologically protected, close to observed WITHOUT running'). So the honest tier is the MIDDLE: (a) the Chern ratio c_5/c_3 = 3/13 is DERIVED-as-mathematics (real target-innocent Q^5 theorem); (b) the IDENTIFICATION sin^2 theta_W = 3/13 is STRUCTURAL/IDENTIFIED (0.19% match, plausible unforced geometric reading, MS-bar-scheme-caveat) — NOT 'Proved' (the physics identification isn't forced) and NOT 'retired' (it is not a running coincidence). What STAYS refuted: only the SEPARATE ||B-L||^2 = 28/3 -> 3/13 route (K738 + Cal, RH charges kill it); killing that one route never licensed retiring the independent topological reading. tier=S is CORRECT and stays. STATUS: provisional pending Cal (confirm 0.208 + Chern route independent of B-L) + Lyra (confirm the running-shadow never touched the topological derivation); if either finds a flaw, hold. My yesterday region-rule/tan^2=3/10 rehabilitation was the WRONG basis (that argued the M_Z runner) — the correct basis is the topological Chern route, not region-match.",
+   "k1253_reconcile": "[framing SUPERSEDED by k1261_reversal — 'runner' reasoning was the over-demotion; retained for trail] K1253 (S->I) NOT APPLIED — HELD at S pending Keeper/Casey (Grace warm-start reconnect, 2026-08-07). The 2026-08-06 governance vote S->I was decided BEFORE that afternoon's gauge-embedding reframe, and it conflicts with standing K739 above. Both K739 AND the 2026-08-06 reframe agree: sin^2 theta_W = 3/8 is the INTERIOR primitive (fermion-content counting trace Tr(T3^2)/Tr(Q^2)=3/8, no GUT needed), and 3/13 = N_c/(N_c+2n_C) [equiv. tan^2 = N_c/(2n_C) = 3/10] is the EXTERIOR M_Z run-down — a confirmation-level coincidence, NOT the primitive. Promoting THIS 3/13 entry to Identified would resurface the runner-as-identified, which K739 forbids. So: const_011 (the 3/13 form) STAYS S. The promotion target is a SEPARATE object — sin^2 theta_W = 3/8 interior, a CANDIDATE derivation gated on the one open crux: does BST fix the U(1)_Y hypercharge normalization geometrically (plausibly from the SO(2)/U(1) = the Row-2 time-circle + Bekenstein-1/4 carrier)? If yes -> Derived without a GUT. No standalone 3/8-interior ledger entry exists yet; do NOT create one until the U(1) normalization is exhibited. Region-note: 3/8(interior) vs 0.231(exterior) is one object at two regions; RGE = the projection (external input).",
    "publication_tier": "Indicative"
   },
   {
@@ -565,7 +570,7 @@
    ],
    "derivation_chain": [
     "m_W = 80.361 GeV (derived)",
-    "sin^2(theta_W) = 3/13 (derived)",
+    "sin^2(theta_W) = 3/13 (Structural/Identified per K1263 — Chern ratio c_5/c_3 is Derived-as-math, but the physical identification is Structural)",
     "cos(theta_W) = sqrt(1 - 3/13) = sqrt(10/13)",
     "m_Z = m_W/cos(theta_W) = 80.361/sqrt(10/13)"
    ],
@@ -573,6 +578,7 @@
    "tier": "D",
    "ac_depth": 1,
    "mechanism": "Z mass = m_W/cos(theta_W) with sin^2(theta_W) = 3/13 derived from isotropy chain.",
+   "k1271_tier_consistency": "K1271 downstream check (Grace 2026-08-07): m_Z RIDES sin^2 theta_W (via cos theta_W = sqrt(10/13)). m_W (const_012) does NOT ride it (n_C*m_p/(8*alpha)) -> m_W stays Derived. But m_Z = m_W/cos theta_W passes through the sin^2 theta_W IDENTIFICATION, now Structural/Identified (K1263) -- and the apparent independent Chern route m_Z = m_W/sqrt(rank*c_1/c_3) is NOT independent (rank*c_1/c_3 = 10/13 = cos^2 theta_W, the same factor). The Chern RATIO 10/13 is Derived-as-math, but calling the result the physical Z mass requires the Structural mixing identification. So bare tier D is INCONSISTENT: m_Z cannot be cleaner than the sin^2 theta_W it rides. PROPOSE (Casey governance call): const_013 D -> Structure-Derived/Identified (form forced via m_W-Derived x Chern-factor; physical value rides the Structural mixing identification). Not executed -- tier field stays D pending Casey. Confirmation vs observed m_Z unaffected (accuracy is orthogonal to tier).",
    "domain": "electroweak",
    "source_section": "Section 9",
    "source_theorems": [
@@ -663,7 +669,7 @@
   },
   {
    "id": "const_016",
-   "theorem_id": "T196",
+   "theorem_id": "T1962",
    "name": "CMB spectral index",
    "symbol": "n_s",
    "formula_latex": "n_s = 1 - n_C/N_{\\max} = 1 - 5/137",
@@ -700,7 +706,7 @@
   },
   {
    "id": "const_017",
-   "theorem_id": "T196b",
+   "theorem_id": "T705",
    "name": "Scalar amplitude",
    "symbol": "A_s",
    "formula_latex": "A_s = (3/4)\\alpha^4 = 3/(4 N_{\\max}^4)",
@@ -812,7 +818,7 @@
   },
   {
    "id": "const_020",
-   "theorem_id": "T320",
+   "theorem_id": "T2011",
    "name": "Cabibbo angle",
    "symbol": "sin(theta_C)",
    "formula_latex": "\\sin\\theta_C = \\frac{2}{\\sqrt{80-1}} = \\frac{2}{\\sqrt{79}}",
@@ -972,38 +978,41 @@
    "theorem_id": "T332",
    "name": "Reactor neutrino mixing angle",
    "symbol": "sin^2(theta_13)",
-   "formula_latex": "\\sin^2\\theta_{13} = 1/(n_C(2n_C-1)) = 1/45",
-   "formula_display": "sin^2(theta_13) = 1/(n_C*(2*n_C-1)) = 1/45",
-   "formula_code": "1.0 / (n_C * (2*n_C - 1))",
+   "formula_latex": "\\sin^2\\theta_{13} = 1/(N_c^2\\, n_C) = 1/45",
+   "formula_display": "sin^2(theta_13) = 1/(N_c^2 * n_C) = 1/45",
+   "formula_code": "1.0 / (N_c**2 * n_C)",
    "bst_value": 0.02222,
    "observed_value": 0.022,
    "observed_source": "NuFIT 2024",
    "precision": "0.9%",
    "unit": "",
    "bst_integers_used": [
+    "N_c",
     "n_C"
    ],
    "derivation_chain": [
-    "Representation theory of SO(5)",
-    "1/(n_C*(2*n_C - 1)) = 1/(5*9) = 1/45"
+    "Mixing suppression = 1/(color-matrix-dim x genus) = 1/(N_c^2 * n_C)",
+    "1/(N_c^2 * n_C) = 1/(9*5) = 1/45"
    ],
    "category": "mixing",
-   "tier": "D",
+   "tier": "I",
    "ac_depth": 0,
-   "mechanism": "PMNS theta_13 from representation theory of SO(5): 1/(n_C*(2*n_C - 1)) = 1/45.",
+   "mechanism": "PMNS theta_13 suppression = 1/(N_c^2 * n_C) = 1/45; sits in the target-innocent family 1/(X^2 * n_C) (Cabibbo = 1/(rank^2 * n_C) = 1/20).",
    "domain": "neutrino_physics",
    "source_section": "Section 9",
    "source_theorems": [
     "T332"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "identified",
    "ace": "(0,0)",
-   "publication_tier": "Derived"
+   "k1260_theta13_tie": "K1260 (2026-08-07, Casey ruling): BOTH competing theta_13 forms -> Identified, tie UNBROKEN. Cal enumerated: only two BST forms land within 1sigma of measured 0.02203 -- this entry's 1/45 = N_c^2*n_C = 0.02222, and the registry form 3/137 = N_c/N_max = 0.02190 (T329/T1935/T2018). The DATA cannot choose (both within 1sigma) and neither is mechanism-forced, so two 'Proved' labels on one number can't stand -> both Identified. DO NOT present 1/45 as the winner by proximity to data -- that is the target-chasing tightened all week; the tie breaks by MECHANISM only, still open. Registry-side 3/137 demotion is Keeper's lane (theorems T329/T1935/T2018). Not a running coincidence; does not block externals.",
+   "k1250_ruling": "K1250 (2026-08-06, Casey-ratified 2026-08-07 apply): FORM switched B->A and tier D->I. (1) FORM: was 1/(n_C*(2n_C-1))=5*9; switched to the TARGET-INNOCENT factorization A = N_c^2*n_C = 9*5. Grace target-innocence check: A's factors both recur independently (n_C in Cabibbo 1/20; N_c^2 in cos^2 theta_W = g/N_c^2, the color-matrix dim), while B's (2n_C-1) has NO independent home -> B was a coincidental co-factorization (both =45). (2) TIER D->I: the forcing ('why the 1-3 overlap = 1/(N_c^2*n_C)') is NOT a closed theorem (K229b) -> bare Derived over-stated; Identified fits (target-innocent form, ~0.03sigma confirmation, mechanism open). theta_13 is pi-free/convention-robust so the value is directly comparable (no scheme subtlety). Prior mechanism 'SO(5) rep theory / (2n_C-1)' superseded (that cofactor has no home).",
+   "publication_tier": "Structure-Derived (target-innocent form N_c^2*n_C; forcing open, K229b)"
   },
   {
    "id": "const_025",
-   "theorem_id": "T305",
+   "theorem_id": "T188",
    "name": "Nuclear magic numbers",
    "symbol": "kappa_ls",
    "formula_latex": "\\kappa_{ls} = C_2/n_C = 6/5 = 1.2",
@@ -1041,7 +1050,7 @@
   },
   {
    "id": "const_026",
-   "theorem_id": "T306",
+   "theorem_id": "T2260",
    "name": "Predicted magic number 184",
    "symbol": "N_magic(8)",
    "formula_latex": "N_{\\text{magic}}(8) = 184",
@@ -1427,7 +1436,7 @@
   },
   {
    "id": "const_037",
-   "theorem_id": "T196e",
+   "theorem_id": "T1989",
    "name": "Recombination redshift",
    "symbol": "z_*",
    "formula_latex": "z_* = 1089.71",
@@ -1543,7 +1552,7 @@
   },
   {
    "id": "const_040",
-   "theorem_id": "T220",
+   "theorem_id": "T2009",
    "name": "Top quark mass",
    "symbol": "m_t",
    "formula_latex": "m_t = (1-\\alpha)v/\\sqrt{2}",
@@ -1581,7 +1590,7 @@
   },
   {
    "id": "const_041",
-   "theorem_id": "T245",
+   "theorem_id": "T2022",
    "name": "Neutron-proton mass difference",
    "symbol": "(m_n - m_p)/m_e",
    "formula_latex": "(m_n - m_p)/m_e = 91/36",
@@ -1617,7 +1626,8 @@
   },
   {
    "id": "const_042",
-   "theorem_id": "T282",
+   "theorem_id": "",
+   "k1267_task86": "Task #86 review (2026-08-07, Grace): is 7/20 target-innocent or target-picked? ANSWER: TARGET-INNOCENT FORM, but a RUNNER -> tier Identified (already applied, standing K931/K946). 7/20 = g/(rank^2 * n_C): g=7 is a BST primary; rank^2*n_C = 20 RECURS independently (Cabibbo sin^2 theta_C = 1/20 = 1/(rank^2*n_C)) -> both integers have independent geometric homes, NOT the nearest ratio to a measured value. BUT alpha_s RUNS (scale+scheme dependent) so there is no clean single observable -> accuracy-match != derivation -> IDENTIFIED, not Derived/Proved (K931 2026-07-26 ruled D->I, applied; K946 ratified the c1=3/5 running companion). tier=I is CORRECT and stays. The EXTERNAL rot is NOT here (ledger is honest) but in back-catalog papers that present 'alpha_s = 7/20, zero free parameters, Proved' -> those need the same tier-correction sweep as sin^2 theta_W (Proved -> Identified/runner) before the block lifts. Note: the publication_tier string 'value set by the named input' is mass-ratio boilerplate; for a runner the honest reading is 'form target-innocent; value scale/scheme-dependent via external RGE' -- flagged, minor.",
    "name": "Strong coupling at proton mass",
    "symbol": "alpha_s(m_p)",
    "formula_latex": "\\alpha_s(m_p) = g/(4n_C) = 7/20",
@@ -1741,7 +1751,7 @@
   },
   {
    "id": "const_045",
-   "theorem_id": "T300",
+   "theorem_id": "T1992",
    "name": "Proton charge radius",
    "symbol": "r_p",
    "formula_latex": "r_p = 4\\hbar c/m_p",
@@ -1777,7 +1787,7 @@
   },
   {
    "id": "const_046",
-   "theorem_id": "T197",
+   "theorem_id": "T191",
    "name": "MOND acceleration scale",
    "symbol": "a_0",
    "formula_latex": "a_0 = cH_0/\\sqrt{n_C C_2} = cH_0/\\sqrt{30}",
@@ -1882,7 +1892,7 @@
   },
   {
    "id": "const_049",
-   "theorem_id": "T746",
+   "theorem_id": "T176",
    "name": "Crystallographic space groups",
    "symbol": "N_sg",
    "formula_latex": "N_{sg} = g \\cdot 2^{n_C} + C_2 = 230",
@@ -2511,7 +2521,7 @@
   },
   {
    "id": "const_067",
-   "theorem_id": "T742",
+   "theorem_id": "T2178",
    "name": "Crystallographic point groups",
    "symbol": "N_point",
    "formula_latex": "N_{\\text{point}} = 2^{n_C} = 32",
@@ -2544,7 +2554,7 @@
   },
   {
    "id": "const_068",
-   "theorem_id": "T740",
+   "theorem_id": "T1055",
    "name": "Crystal systems count",
    "symbol": "N_crystal",
    "formula_latex": "N_{\\text{crystal}} = g = 7",
@@ -2577,7 +2587,7 @@
   },
   {
    "id": "const_069",
-   "theorem_id": "T741",
+   "theorem_id": "T2357",
    "name": "Bravais lattice count",
    "symbol": "N_Bravais",
    "formula_latex": "N_{\\text{Bravais}} = 2g = 14",
@@ -2850,7 +2860,7 @@
   },
   {
    "id": "const_077",
-   "theorem_id": "T280",
+   "theorem_id": "T917",
    "name": "Jarlskog invariant",
    "symbol": "J_CKM",
    "formula_latex": "J = A^2 \\lambda^6 \\bar{\\eta}, \\; A=N_c^2/(N_c^2+{\\rm rank})=9/11, \\; \\lambda=2/\\sqrt{79}, \\; \\bar{\\eta}=1/(2\\sqrt{2})",
@@ -3043,7 +3053,7 @@
   },
   {
    "id": "const_082",
-   "theorem_id": "T250",
+   "theorem_id": "T275",
    "name": "Pion decay constant",
    "symbol": "f_pi",
    "formula_latex": "f_\\pi = (m_p/10)(1 - (\\text{rank}/N_c)(m_\\pi/m_p)^2)",
@@ -3420,7 +3430,7 @@
   },
   {
    "id": "const_092",
-   "theorem_id": "T772",
+   "theorem_id": "T1699",
    "name": "Diatomic adiabatic exponent",
    "symbol": "gamma_di",
    "formula_latex": "\\gamma_{\\text{di}} = g/n_C = 7/5",
@@ -3760,7 +3770,7 @@
   },
   {
    "id": "const_101",
-   "theorem_id": "T703",
+   "theorem_id": "T1678",
    "name": "CMB temperature T_0",
    "symbol": "T_0",
    "formula_latex": "T_0 \\text{ from baryon-photon ratio and BST } \\eta",
@@ -3957,6 +3967,7 @@
    "source": "T1383",
    "description": "N_max = 137 in binary IS the irreducible polynomial defining GF(128) over F₂",
    "id": "const_116",
+   "theorem_id": "T1383",
    "tier": "S",
    "status": "structural",
    "ace": "(1,0)",
@@ -3972,6 +3983,7 @@
    "precision": "exact",
    "source": "T1382",
    "id": "const_117",
+   "theorem_id": "T1382",
    "tier": "S",
    "status": "structural",
    "ace": "(1,0)",
@@ -4516,7 +4528,7 @@
   },
   {
    "id": "const_124",
-   "theorem_id": "",
+   "theorem_id": "T2061",
    "name": "QCD deconfinement temperature",
    "symbol": "T_deconf",
    "formula_latex": "T_{\\text{deconf}} = m_p / C_2",
@@ -4667,6 +4679,7 @@
   },
   {
    "id": "const_128",
+   "theorem_id": "T237",
    "name": "Stefan-Boltzmann constant",
    "symbol": "sigma_SB",
    "formula_code": "2*pi**5*k_B**4/(15*h**3*c**2)",
@@ -5750,7 +5763,8 @@
    "precision": "0.001%",
    "tier": "C",
    "notes": "T2516/K672: Koide Q=rank/N_c=2/3; √-mass tilt θ=45° from rank-2 filling (A²=rank). CONDITIONAL-FORCED (A²=rank gate open). Colorless-only (quark Koide misses). NO double-bank: lepton mass ratios in T1948. Grace sync 2026-07-12.",
-   "publication_tier": "Indicative / Lead"
+   "publication_tier": "Indicative / Lead",
+   "tier_review": "[2026-08-06 K1221: forward geometric FORCING of Koide is FALSIFIED (BREAK) — Route 1 isotropy: Grace symmetry-impossibility, {5/2,3/2,0} cannot be full-B2-Weyl-symmetric (tau=fixed point + 2 non-origin points, no invariant set), covariance anisotropic for any placement, no kernel fixes it, independent of Elie fire; Route 2 c-function c5/c3=Gamma(5)/pi2 RETRACTED (F669/K85x, the {5,3,0} nesting is not one geometry). THE RELATION LIVES: Q=2/3=rank/N_c exact @0.001%, banked. Only the mechanism died. RECOMMENDED tier reduction C->I (Identified: exact observed relation, NOT geometrically derived) — PENDING CASEY RATIFICATION (governance: reductions are Casey call). Tier field UNCHANGED until ratified. Task #64 (A2=rank gate) RESOLVED: BREAK.]"
   },
   {
    "id": "const_196_vev_ruler",
@@ -5784,6 +5798,7 @@
   },
   {
    "id": "const_197",
+   "theorem_id": "T1966",
    "name": "Dark matter / baryon density ratio (Wallach shadow)",
    "symbol": "Omega_DM/Omega_b",
    "bst_expression": "rank**4 / N_c",

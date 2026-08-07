@@ -315,7 +315,7 @@ Toy 105 (`play/toy_muon_g2_geometry.py`) computes the ENTIRE anomalous magnetic 
 |:---|:---|:---|:---|:---|
 | $\alpha^{-1}$ | $(9/(8\pi^4))(\pi^5/1920)^{1/4}$ | 137.036082 | 137.035999 | 0.0001% |
 | $m_\mu/m_e$ | $(24/\pi^2)^6$ | 206.761 | 206.768 | 0.003% |
-| $\sin^2\theta_W$ | $c_5/c_3 = 3/13$ | 0.23077 | 0.23122 | 0.19% |
+| $\sin^2\theta_W$ | $c_5/c_3 = 3/13$ | 0.23077 | 0.23122 | 0.19% — Structural/Identified: unforced, MS-bar($M_Z$), runs (K1263) |
 | $m_\rho$ | $5\pi^5 m_e$ | 781.9 MeV | 775.3 MeV | 0.86% |
 | $\Gamma_\rho$ | $3\pi^4 m_e$ | 149.3 MeV | 149.1 MeV | 0.15% |
 | $m_\phi$ | $13\pi^5 m_e/2$ | 1016.4 MeV | 1019.5 MeV | 0.30% |

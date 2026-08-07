@@ -89,7 +89,7 @@ oscillations on $S^1$) and charged matter.
 BST has produced over 20 parameter-free derivations of
 fundamental constants spanning 122 orders of magnitude,
 including $m_p/m_e = 6\pi^5$ (0.002%), $\sin^2\theta_W = 3/13$
-(0.2%), and the complete PMNS neutrino mixing matrix (Koons 2026).
+(Structural/Identified: unforced, MS-bar($M_Z$)-scheme-dependent, runs — K1263), and the complete PMNS neutrino mixing matrix (Koons 2026).
 
 ### 2.2 Circular Polarization as Geometric Encoding
 

@@ -489,7 +489,7 @@ Every symbol refers to something you can compute. Every theorem has a number you
 
 **Noise content:** ≈ 0. The method matches the question because the method IS the question, stated in its own language.
 
-**Where BST lives:** Almost entirely here. The proton mass is $\lambda_1$ × $\pi^5$ × mₑ. The Weinberg angle is 3/13. The cosmological constant is $\alpha^{56}$. Every result is a computation on a specific space with a specific metric. This is why BST has zero free parameters — Level 1 methods don't introduce parameters, they read them off the geometry.
+**Where BST lives:** Almost entirely here. The proton mass is $\lambda_1$ × $\pi^5$ × mₑ. The Weinberg angle is 3/13 (Structural/Identified — a real Chern ratio, unforced physics ID that runs; K1263). The cosmological constant is $\alpha^{56}$. Every result is a computation on a specific space with a specific metric. This is why BST has zero free parameters — Level 1 methods don't introduce parameters, they read them off the geometry.
 
 ### Level 2 — General Mechanisms Derived from Underlying Methods
 
@@ -559,7 +559,7 @@ Every core BST prediction is an eigenvalue read off the geometry:
 | Prediction | Method | Invertible? | Parameters introduced |
 |:-----------|:-------|:-----------|:---------------------|
 | Mass gap (m_p = 6$\pi^5$ m_e) | $\lambda_1$ = $C_2$ = 6 (Casimir eigenvalue) | Yes | 0 |
-| Weinberg angle ($\sin^2\theta$_W = 3/13) | Ratio of Casimir eigenvalues | Yes | 0 |
+| Weinberg angle ($\sin^2\theta$_W = 3/13) — *Structural/Identified: Chern ratio real, physics ID unforced & runs (K1263)* | Ratio of Casimir eigenvalues | Yes | 0 |
 | Fine structure constant | From n_C = 5 geometry | Yes | 0 |
 | G (Newton's constant) | Bergman embedding tower | Yes | 0 |
 | Fermi scale (v = $m_p^2$/7m_e) | Algebraic identity | Yes | 0 |

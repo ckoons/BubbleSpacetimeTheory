@@ -467,7 +467,7 @@ All from $n_C = 5$, which is derived from $\max\,\alpha$:
 | $\alpha$ | $(9/8\pi^4)(\pi^5/1920)^{1/4}$ | $1/137.036$ | 0.0001% |
 | $m_p/m_e$ | $6\pi^5$ | 1836.15 | 0.002% |
 | $m_\mu/m_e$ | $(24/\pi^2)^6$ | 206.769 | 0.003% |
-| $\sin^2\theta_W$ | $N_c/(N_c + 2n_C) = 3/13$ | 0.2308 | 0.2% |
+| $\sin^2\theta_W$ | $N_c/(N_c + 2n_C) = 3/13$ | 0.2308 | 0.2% — Structural/Identified: unforced, MS-bar($M_Z$), runs (K1263) |
 | $\alpha_s(m_p)$ | $(n_C+2)/(4n_C) = 7/20$ | 0.350 | --- |
 | $\eta$ (baryon asymmetry) | $2\alpha^4/(3\pi)$ | $6.0 \times 10^{-10}$ | 1.4% |
 | $n_s$ (spectral index) | $1 - n_C/N_{\max} = 1 - 5/137$ | 0.9635 | 0.3$\sigma$ |

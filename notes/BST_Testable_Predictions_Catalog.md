@@ -69,7 +69,7 @@ These are not "predictions" in the temporal sense but represent the strongest qu
 | 23 | α⁻¹ | 137.036 | 137.036 | 0.0001% |
 | 24 | m_p/m_e | 6π⁵ = 1836.12 | 1836.15 | 0.002% |
 | 25 | m_τ | Koide Q=2/3 | 1776.86 MeV | 0.003% |
-| 26 | sin²θ_W | 3/13 | 0.23122 | 0.2% |
+| 26 | sin²θ_W | 3/13 (Structural/Identified — unforced, runs; K1263) | 0.23122 | 0.2% |
 | 27 | T_deconf | π⁵m_e | 156.5 MeV | 0.08% |
 | 28 | Nuclear magic numbers | All 7 from κ_ls = 6/5 | {2,8,20,28,50,82,126} | exact |
 

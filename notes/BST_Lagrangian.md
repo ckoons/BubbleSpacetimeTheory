@@ -155,7 +155,7 @@ $$\boxed{S_{\text{BST}} = \int_{D_{IV}^5} \left[-\frac{R_B - 2\Lambda}{16\pi G_B
 |:---------|:----------|:--------|
 | $G_B$ | $6.679 \times 10^{-11}$ | $\hbar c\, (6\pi^5)^2\, \alpha^{24}/m_e^2$ |
 | $g_s^2/(4\pi) = \alpha_s$ | $7/20 = 0.350$ | $(n_C+2)/(4n_C) = c \times \mathrm{Vol}(\mathbb{CP}^2)/\pi$ |
-| $\sin^2\theta_W$ | $3/13 = 0.2308$ | $N_c/(N_c + 2n_C)$ |
+| $\sin^2\theta_W$ | $3/13 = 0.2308$ — **Structural/Identified** (unforced ID, runs, MS-bar($M_Z$) only; K1263) | $N_c/(N_c + 2n_C) = c_5/c_3$ |
 | $\alpha = e^2/(4\pi)$ | $1/137.036$ | $(9/8\pi^4)(\pi^5/1920)^{1/4}$ |
 | $\lambda_H$ | $1/\sqrt{60}$ | $\sqrt{2/n_C!}$ |
 | $v$ | 246.12 GeV | $m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7$ |
@@ -259,8 +259,8 @@ See `BST_Feinman_Diagrams.md`.
 | Ingredient | Source | Status |
 |:-----------|:-------|:-------|
 | $G_B = \hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$ | `BST_FermiScale_Derivation.md` | Proved |
-| $\alpha_s = 7/20$ | `BST_StrongCoupling_AlphaS.md` | Proved |
-| $\sin^2\theta_W = 3/13$ | `BST_WeinbergAngle_Sin2ThetaW.md` | Proved |
+| $\alpha_s(m_p) = 7/20$ | `BST_StrongCoupling_AlphaS.md` | Identified — runner-anchor at $\mu_{geo}=m_p$; runs to obs (K1269) |
+| $\sin^2\theta_W = 3/13$ | `BST_WeinbergAngle_Sin2ThetaW.md` | Structural/Identified (K1263) |
 | $\alpha = (9/8\pi^4)(\pi^5/1920)^{1/4}$ | `BST_ShannonWyler_Proof.md` | Proved |
 | $v = m_p^2/(7m_e)$ | `BST_FermiScale_Derivation.md` | Proved |
 | $\lambda_H = 1/\sqrt{60}$ | `BST_HiggsMass_TwoRoutes.md` | Proved |

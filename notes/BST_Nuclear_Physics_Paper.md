@@ -320,7 +320,7 @@ All mass scales from D_IV^5, one chain:
 | m_H | v√(2/√60) | 125.11 GeV | 0.11% |
 | m_t | (1−α)v/√2 | 172.75 GeV | 0.037% |
 | G | ℏc(6π⁵)²α²⁴/m_e² | 6.679×10⁻¹¹ | 0.07% |
-| sin²θ_W | N_c/(N_c+dim_R) = 3/13 | 0.2308 | 0.2% |
+| sin²θ_W | N_c/(N_c+dim_R) = 3/13 (Structural/Identified — unforced, runs; K1263) | 0.2308 | 0.2% |
 | Ω_Λ | 13/19 | 0.6842 | 0.07σ |
 | m_τ | Koide Q=2/3 | 1776.91 MeV | 0.003% |
 | m_μ/m_e | (24/π²)⁶ | 206.761 | 0.003% |

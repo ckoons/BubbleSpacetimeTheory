@@ -117,7 +117,7 @@ Every coupling constant is a ratio of Chern classes:
 
 | Ratio | Value | Physics |
 |---|---|---|
-| $c_5/c_3$ | $3/13 = 0.2308$ | $\sin^2\theta_W$ (Weinberg angle) — obs: 0.2312 |
+| $c_5/c_3$ | $3/13 = 0.2308$ | $\sin^2\theta_W$ (Weinberg angle) — obs: 0.2312. Structural/Identified: unforced, MS-bar($M_Z$)-scheme-dependent, runs (K1263) |
 | $c_4/c_1$ | $9/5 = 1.800$ | $\Lambda \times N$ (Reality Budget) — exact |
 | $c_5/(c_1 \cdot \pi)$ | $3/(5\pi) = 0.191$ | Fill fraction (Gödel limit) — 19.1% |
 | $(c_3)/(c_4 + 2c_1)$ | $13/19 = 0.6842$ | $\Omega_\Lambda$ (dark energy) — obs: 0.685 |
@@ -363,7 +363,7 @@ One space. Two distance scales. Two mixing patterns.
 
 | Numerator subspace | Denominator space | Ratio | Physics | Precision |
 |---|---|---|---|---|
-| Color ($\mathbb{C}^3$) | Color + config ($N_c + 2n_C$) | $3/13$ | $\sin^2\theta_W$ | 0.2% |
+| Color ($\mathbb{C}^3$) | Color + config ($N_c + 2n_C$) | $3/13$ | $\sin^2\theta_W$ | 0.2% (Structural/Identified: unforced, MS-bar($M_Z$), runs — K1263) |
 | Spin axes ($N_c$) | Real config ($2n_C$) | $3/10$ | Proton spin $\Delta\Sigma$ | 0% |
 | Topology ($n_C + 2$) | $4 \times$ config ($4n_C$) | $7/20$ | $\alpha_s(m_p)$ | — |
 | Chern $c_3$ | $c_4 + 2c_1$ ($= 19$) | $13/19$ | $\Omega_\Lambda$ | 0.07$\sigma$ |

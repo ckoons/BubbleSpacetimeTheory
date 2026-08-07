@@ -84,7 +84,7 @@ Every other integer in physics derives from these three:
 
 ## 3. The Rational Numbers
 
-Integers give you particle counts and dimensions. But coupling constants and mixing angles are fractions — ratios of integers. Here is where the catalog becomes startling: every measured coupling constant and mixing angle in the Standard Model is a ratio of BST integers, to within experimental precision. The Weinberg angle is 3/13. The cosmic dark energy fraction is 13/19. The strong coupling at the proton mass is 7/20. None of these require fitting. They are arithmetic.
+Integers give you particle counts and dimensions. But coupling constants and mixing angles are fractions — ratios of integers. Here is where the catalog becomes startling: every measured coupling constant and mixing angle in the Standard Model is a ratio of BST integers, to within experimental precision. The Weinberg angle is 3/13 (Structural/Identified: unforced, MS-bar($M_Z$)-scheme-dependent, runs — K1263). The cosmic dark energy fraction is 13/19. The strong coupling at the proton mass is 7/20. None of these require fitting. They are arithmetic.
 
 The physical constants that are not integers are rational numbers built from the fundamental integers:
 

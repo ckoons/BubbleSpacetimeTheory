@@ -452,7 +452,7 @@ From this single domain, with zero free parameters:
 |---|---|---|---|
 | $\alpha^{-1}$ | 137.036 (Wyler) | 137.036 | 0.0001% |
 | $m_p/m_e$ | $6\pi^5$ | 1836.153 | 0.002% |
-| $\sin^2\theta_W$ | $3/13$ | 0.23122 | 0.2% |
+| $\sin^2\theta_W$ | $3/13$ | 0.23122 | 0.2% — Structural/Identified: unforced, MS-bar($M_Z$), runs (K1263) |
 | $\Lambda$ | $[\ln 138/50]\alpha^{56}e^{-2}$ | $2.89\times 10^{-122}$ | 0.025% |
 | $\eta$ (baryon asymmetry) | $2\alpha^4/(3\pi)$ | $6.10\times 10^{-10}$ | 1.4% |
 | ... | *20+ additional* | | |

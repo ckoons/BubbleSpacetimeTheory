@@ -62,7 +62,7 @@ For SM precision observables (mixing angles, mass ratios).
 |---|---|---|
 | $\alpha^{-1}$ | $c_2 \cdot c_3 - C_2 = 137$ | 0.026% (= 1/137 exact integer) |
 | $\cos^2\theta_W$ | $rank \cdot c_1 / c_3 = 10/13$ | 0.06% (T1919) |
-| $\sin^2\theta_W$ | $c_5/c_3 = 3/13$ | 0.19% (T1919) |
+| $\sin^2\theta_W$ | $c_5/c_3 = 3/13$ | 0.19% vs MS-bar($M_Z$) — **Structural/Identified**: the Chern ratio $c_5/c_3$ is a real target-innocent theorem, but the physics identification is unforced and scheme/scale-dependent (K1263) |
 | $\sin^2\theta_{12}$ PMNS | $2 \cdot rank / c_3 = 4/13$ | 0.23% (T1926) |
 | $\sin^2\theta_{13}$ PMNS | $N_c / N_{max} = 3/137$ | 0.46% (T1926) |
 | $\sin^2\theta_{23}$ PMNS | $C_2 / c_2 = 6/11$ | 0.10% (T1926) |

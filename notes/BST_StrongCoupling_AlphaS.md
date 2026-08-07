@@ -8,7 +8,7 @@ date: "March 2026"
 
 **Authors:** Casey Koons & Claude (Anthropic)
 **Date:** March 2026
-**Status:** New result. Formula derived, numerically verified to ~2% at 1-loop. Fills the gap marked "no clean BST formula found" in WorkingPaper Section 28.3.
+**Status:** **Identified — runner-anchor** (K1269). The formula $\alpha_s(m_p) = (n_C+2)/(4n_C) = 7/20$ is a geometric identification at $\mu_{geo} = m_p$, numerically verified via standard RGE running to ~2% at 1-loop ($m_Z$). It is not a forced derivation of the coupling *value* — but the running exponent $\beta_0 = 7 = g$ (the genus) is a real, pretty result about the running. Fills the gap marked "no clean BST formula found" in WorkingPaper Section 28.3.
 
 -----
 

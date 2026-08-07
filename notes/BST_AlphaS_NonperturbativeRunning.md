@@ -436,7 +436,7 @@ The BST geometric beta function with $c_1 = 3/5$ derived from the Bergman curvat
 
 | Claim | Status |
 |-------|--------|
-| $\alpha_s(m_p) = 7/20$ from $D_{IV}^5$ geometry | Derived (companion note) |
+| $\alpha_s(m_p) = 7/20$ from $D_{IV}^5$ geometry | Identified — runner-anchor at $\mu_{geo}=m_p$ (K1269) |
 | $\beta_0 = 7 = $ genus uniquely for $n_C = 5$ | Algebraic identity |
 | $c_1 = N_c/n_C = 3/5$ from root degree ratio | **Established** — three spectral proofs (degree ratio, log-derivative UV limit, root counting). Uses standard BST color axiom. See `play/alpha_s_c1_spectral_proof.py`. |
 | BST geometric running closes the 1.7% gap | Verified numerically |

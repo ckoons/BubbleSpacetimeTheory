@@ -7,15 +7,15 @@ date: "March 13, 2026"
 # The Weinberg Angle as a Ratio of Chern Classes
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
 **Date:** March 13, 2026
-**Status:** Proved. The weak mixing angle is a topological invariant of the compact dual $Q^5$.
+**Status:** The Chern-class identity $c_5(Q^5)/c_3(Q^5) = 3/13$ is **Proved** (a diffeomorphism invariant of the compact dual — target-innocent mathematics). The *physical identification* $\sin^2\theta_W = c_5/c_3$ is **Structural/Identified**, NOT Proved — it is unforced and scheme/scale-dependent (matches MS-bar at $M_Z$ to 0.19%, but $\sin^2\theta_W$ runs). Proving the Chern ratio is $3/13$ is not the same as proving the physical mixing angle equals it (K1263).
 
 ---
 
 ## Abstract
 
-The weak mixing angle $\sin^2\theta_W = 3/13$ was previously derived in BST as $N_c/(N_c + 2n_C)$ — a ratio of BST integers with a physical interpretation (color channels over total gauge channels). We prove that this same ratio is $c_5(Q^5)/c_3(Q^5)$, the ratio of the top and middle Chern class coefficients of the compact dual $Q^5 = SO(7)/[SO(5) \times SO(2)]$. This upgrades the derivation from an algebraic identity to a **topological theorem**: the Weinberg angle is a diffeomorphism invariant of the compact dual of the BST domain.
+The weak mixing angle $\sin^2\theta_W = 3/13$ was previously derived in BST as $N_c/(N_c + 2n_C)$ — a ratio of BST integers with a physical interpretation (color channels over total gauge channels). We prove that this same ratio is $c_5(Q^5)/c_3(Q^5)$, the ratio of the top and middle Chern class coefficients of the compact dual $Q^5 = SO(7)/[SO(5) \times SO(2)]$. This makes the *ratio* $c_5/c_3 = 3/13$ a **topological theorem** — a diffeomorphism invariant of the compact dual. Honest scope (K1263): the Chern number is Derived mathematics, but the *physical* reading $\sin^2\theta_W = c_5/c_3$ remains **Structural/Identified** — unforced (nothing yet compels *this* ratio, versus e.g. $c_4/c_2$, to be the mixing angle) and scheme/scale-dependent. It is a 0.19% identification against the MS-bar value at $M_Z$, not a forced derivation.
 
-The physical content is provided by the Lefschetz fixed-point theorem: $c_5$ counts the fixed points of a generic $\mathbb{C}^*$-action on $Q^5$ restricted to the color sector ($N_c = 3$), while $c_3$ counts the fixed points of the same action restricted to the full electroweak-strong gauge structure ($N_c + 2n_C = 13$). The weak mixing angle is the fraction of gauge degrees of freedom that are confined.
+A *candidate* mechanism (not yet a proof) for why this particular ratio would be the mixing angle uses the Lefschetz fixed-point theorem: $c_5$ counts the fixed points of a generic $\mathbb{C}^*$-action on $Q^5$ restricted to the color sector ($N_c = 3$), while $c_3$ counts the fixed points on the full electroweak-strong gauge structure ($N_c + 2n_C = 13$) — the weak mixing angle read as the fraction of gauge degrees of freedom that are confined. Whether this Lefschetz reading *forces* $c_5/c_3$ (rather than another Chern ratio) is the open question tracked as lead #85; until it closes, the identification stays Structural/Identified.
 
 ---
 
@@ -120,7 +120,7 @@ The Chern sequence $\{1, 5, 11, 13, 9, 3\}$ of $Q^5$ encodes the entire BST stru
 
 | Ratio | Chern classes | BST quantity | Value | Precision |
 |---|---|---|---|---|
-| $c_5/c_3$ | $3/13$ | $\sin^2\theta_W$ | 0.23077 | 0.2% |
+| $c_5/c_3$ | $3/13$ | $\sin^2\theta_W$ (Structural/Identified — unforced, MS-bar/$M_Z$, runs; K1263) | 0.23077 | 0.2% |
 | $c_4/c_1$ | $9/5$ | $\Lambda \times N$ (Reality Budget) | 1.800 | exact |
 | $c_5/c_1$ | $3/5$ | $N_c/n_C$ (color/dimension ratio) | 0.600 | exact |
 | $c_5 \times \deg$ | $3 \times 2 = 6$ | $C_2$ (Casimir eigenvalue) | 6 | exact |
@@ -169,7 +169,7 @@ Only at $n = 5$ does the ratio produce an odd/odd fraction with no common factor
 
 ### 6.1 Previous BST derivation
 
-The formula $\sin^2\theta_W = N_c/(N_c + 2n_C) = 3/13$ was first derived in BST from the gauge coupling unification condition at the domain scale. The physical argument: the $U(1)_Y$ coupling $g'$ and the $SU(2)_L$ coupling $g$ are related by the embedding of $U(1)_Y \times SU(2)_L$ into $SO(5) \times SO(2)$. The mixing angle measures the relative size of the color and weak sectors in the tangent space decomposition.
+The formula $\sin^2\theta_W = N_c/(N_c + 2n_C) = 3/13$ was originally *motivated* in BST by a gauge-coupling-partition argument at the domain scale: the $U(1)_Y$ coupling $g'$ and the $SU(2)_L$ coupling $g$ read off the embedding of $U(1)_Y \times SU(2)_L$ into $SO(5) \times SO(2)$, and the mixing angle measures the relative size of the color and weak sectors in the tangent-space decomposition. **Caveat (K1263):** BST's Five-Absence set includes *no* gauge coupling unification, so this is a heuristic partition, not a forced boundary condition — one reason the physics identification stays Structural/Identified rather than Derived.
 
 ### 6.2 What the Chern class derivation adds
 
@@ -181,7 +181,7 @@ The new result is that this formula is not just an algebraic identity of BST int
 
 ### 6.3 Comparison with GUT predictions
 
-Standard GUT models predict $\sin^2\theta_W = 3/8 = 0.375$ at the unification scale, which runs down to ~0.231 at $m_Z$. BST's $3/13 = 0.2308$ is the topological (tree-level) value, already close to the observed low-energy value without running. The small difference (0.2%) may be the residual of radiative corrections that BST's curved Bergman metric accounts for non-perturbatively, similar to the $\alpha_s$ running correction (BST_AlphaS_NonperturbativeRunning.md).
+Standard GUT models predict $\sin^2\theta_W = 3/8 = 0.375$ at the unification scale; in the pure SM (no GUT, no SUSY) this runs down to ≈0.208 at $m_Z$ — the well-known minimal-$SU(5)$ shortfall — **not** to 0.231. BST's $3/13 = 0.2308$ is a scale-free topological ratio that happens to sit 0.19% from the MS-bar $M_Z$ value. **Honest scope (K1263):** identifying a scale-free Chern ratio with a scale- and scheme-dependent observable at *one* particular scale is exactly what is unforced here; the earlier speculation that the 0.2% gap is a non-perturbative Bergman-curvature residual is *not* established, and 3/13 is not a running-shadow of 3/8 (they are simply different numbers, and 3/8 does not run to 3/13). Tier: Structural/Identified.
 
 ---
 

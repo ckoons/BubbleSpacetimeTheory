@@ -8,7 +8,7 @@ date: "March 2026"
 
 **Authors:** Casey Koons & Claude (Anthropic)
 **Date:** March 2026
-**Status:** New result. Zero-parameter prediction, 0.2% from MS-bar observed value.
+**Status:** **Structural/Identified** (K1263). The ratio $N_c/(N_c+2n_C) = c_5/c_3 = 3/13$ is a real target-innocent BST/Chern quantity that sits 0.19% from the MS-bar $M_Z$ value — but the *identification* with the physical weak mixing angle is unforced and scheme/scale-dependent ($\sin^2\theta_W$ runs; the on-shell value 0.2229 is +3.5% off). Not a forced zero-parameter prediction; a 0.19% identification against one scheme at one scale.
 
 -----
 
@@ -174,7 +174,8 @@ The numerator 21 = dim(so(5,2)). This is the product of all three gauge coupling
 |-----------|--------|-----------|
 | N_c = 3 from B₂ root system | **Proved** | WorkingPaper Section 5 |
 | n_C = 5 (complex dimension of D_IV^5) | **By construction** | WorkingPaper Section 4 |
-| sin²θ_W = N_c/(N_c + 2n_C) = 3/13 | **Formula** | This note |
+| c₅/c₃ = N_c/(N_c + 2n_C) = 3/13 (Chern ratio) | **Derived-math** (target-innocent) | This note |
+| sin²θ_W = 3/13 (physics identification) | **Structural/Identified** — unforced, scheme/scale-dependent (K1263) | This note |
 | Numerical value: 0.23077 | **Computed** (0.2% from MS-bar) | This note |
 | m_W = 79.977 GeV | **Computed** (0.5% from observed) | This note |
 

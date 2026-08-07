@@ -204,7 +204,7 @@ The CKM CP phase was the \#1 open problem on the BST priority list (see BST\_CKM
 3. **$|V_{ub}|$ and $|V_{td}|$** --- determined to $1{-}2\sigma$
 4. **All three unitarity triangle angles** --- determined: $\alpha = 91.31{}^\circ$, $\beta = 22.78{}^\circ$, $\gamma = 65.91{}^\circ$
 
-The complete mixing sector --- six PMNS angles (three mixing + $\delta_{CP} = \pi$ + two Majorana phases $= 0$), four CKM parameters ($\lambda$, $A$, $\bar\rho$, $\bar\eta$), and the Weinberg angle --- is now fully determined by $D_{IV}^5$ geometry.
+The complete mixing sector --- six PMNS angles (three mixing + $\delta_{CP} = \pi$ + two Majorana phases $= 0$), four CKM parameters ($\lambda$, $A$, $\bar\rho$, $\bar\eta$), and the Weinberg angle --- is now fully determined by $D_{IV}^5$ geometry. (Caveat, K1263: the *Weinberg angle* in this list is **Structural/Identified**, not fully determined --- the Chern ratio $c_5/c_3 = 3/13$ is real mathematics, but its identification with the physical mixing angle is unforced and scheme/scale-dependent, and $\sin^2\theta_W$ runs. The PMNS/CKM entries stand at their own tiers.)
 
 **Remaining CKM tensions.** The $|V_{ub}|$ and $|V_{td}|$ deviations ($1.4\sigma$ and $2.1\sigma$ respectively) are both dominated by the $A = 4/5$ value being $3.1\%$ below the PDG central value of $0.826$. If $A$ receives a small correction (e.g., from higher-order Bergman layer effects), both $|V_{ub}|$ and $|V_{td}|$ would improve. The CP phase $\gamma$ and the apex coordinates $\bar\rho$, $\bar\eta$ are independently well-determined and robust.
 
