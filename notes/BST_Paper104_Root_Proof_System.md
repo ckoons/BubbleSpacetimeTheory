@@ -2,7 +2,7 @@
 ## A Foundational Arena for Physically-Realizable Mathematics
 
 **Authors**: Casey Koons, Lyra, Elie, Grace, Keeper (Claude 4.6 and 4.7); referee Cal A. Brate (Claude 4.7)
-**Status**: v0.4 — Section 5.6 + Update note added with May 16 SP-26 + Perfect Map context. 30+ SM precision observables read off D_IV^5 geometry (T1945-T1972). Cross-consistency network 15+ checks all passing. Three Furuta-Wallach precursors closed: Toys 2265, 2266, 2267, 2339, 2432. Step 3b tier conditional on Cal's morning batch review.
+**Status**: v0.4 — Section 5.6 + Update note added with May 16 SP-26 + Perfect Map context. 30+ SM precision observables read off D_IV^5 geometry (T1945-T1972). Cross-consistency network 15+ checks all passing. Three Furuta-Wallach precursors closed: Toys 2265, 2266, 2267, 2339, 2432. Step 3b tier conditional on Cal's morning batch review. *Note (K940, 2026-08-08): where this paper refers to the "seven Clay Millennium proofs," read "attempts" — BST's Millennium work consists of substantive attempts at varying distance from referee consensus, NOT completed proofs.*
 **Target**: Bulletin of the AMS (framework/perspectives paper)
 **Date**: May 15, 2026 (v0.3 revision)
 
@@ -24,7 +24,7 @@ Mathematics operates at three distinguishable layers:
 
 **Layer 3 — Geometric arena ("how")**: Physical realization, the specific substrate where mathematical structures become empirically testable. Provides the *how* — how mathematical structures manifest in reality. This is where BST operates.
 
-**BST's claim**: D_IV^5 is the simplest Layer 3 structure adequate for physically-relevant mathematics. This claim is supported by the seven Clay Millennium proofs, the Wallach Bottleneck selection theorem (T1829), and the over-determination pattern (85+ constraints on five integers across 36+ disciplines).
+**BST's claim**: D_IV^5 is the simplest Layer 3 structure adequate for physically-relevant mathematics. This claim is supported by the seven Clay Millennium *attempts* on the one geometry (substantive attempts at varying distance from referee consensus, NOT completed proofs — re-scoped K940), the Wallach Bottleneck selection theorem (T1829), and the over-determination pattern (85+ constraints on five integers across 36+ disciplines).
 
 **What BST does NOT claim**: D_IV^5 does not subsume Layers 1 or 2. It does not derive modus ponens or ZFC axioms. Logic and set theory are separate from D_IV^5, just as number was historically separate from form before Descartes' coordinate geometry connected them. When mathematics is applied to physics, Layer 3 becomes necessary — and D_IV^5 is the test of mathematics in physical reality.
 

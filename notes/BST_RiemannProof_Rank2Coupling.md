@@ -3,7 +3,7 @@ title: "The Riemann Hypothesis from Rank-2 Harmonic Analysis on SO₀(5,2)"
 subtitle: "An overconstrained spectral argument via the intertwining operator"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026 (revised March 17)"
-status: "WITHDRAWN (v3). Mechanism is vacuous — overconstrained system never activates. See Toy 213."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] WITHDRAWN (v3). Mechanism is vacuous — overconstrained system never activates. See Toy 213."
 copyright: "Casey Koons, March 2026"
 toy: "206-207, 211-211b, 212"
 depends_on: "BST_MaassSelberg_RiemannProof.md"
@@ -20,6 +20,10 @@ revision_history: |
     Shallower poles (k=1,2) can activate but produce no contradiction.
     The framework survives but does not prove RH.
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** the critical-line forcing (commitment-path = critical-line, Casey lead) is the open definitional piece.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # The Riemann Hypothesis from Rank-2 Harmonic Analysis on SO₀(5,2)
 

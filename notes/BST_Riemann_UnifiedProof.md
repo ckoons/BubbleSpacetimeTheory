@@ -3,9 +3,13 @@ title: "The BST Riemann Hypothesis: A Unified Proof via Spectral Transport on D_
 subtitle: "Five layers, one critical line"
 author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
 date: "March 16, 2026"
-status: "Historical — early unified route. SUPERSEDED by Paper #103 (May 6, 2026)."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Historical — early unified route. SUPERSEDED by Paper #103 (May 6, 2026)."
 copyright: "Casey Koons, March 2026"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** the critical-line forcing (commitment-path = critical-line, Casey lead) is the open definitional piece.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # The BST Riemann Hypothesis: A Unified Proof via Spectral Transport on D_IV^5
 

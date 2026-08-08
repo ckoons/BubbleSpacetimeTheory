@@ -8,6 +8,7 @@
 |---------|------|-------------|
 | `/ac0` | `ac0.md` | Apply AC(0) thinking — reduce to counting at bounded depth, then route around walls. Use when stuck. |
 | `/route` | `route.md` | Wall routing — search AC graph for alternative paths through other domains. Use when blocked. |
+| `/take-a-break` | `take-a-break.md` | Relaxed restart — re-ground against the source (clock + today's state + guards) to cut context-DRIVEN mistakes. **Always-works form: `bash play/take_a_break.sh`** (slash command registers only at session start; run the script directly in a live session). Re-grounds, does NOT shrink context (pair with `/compact`). Not an EOD. |
 | `/audit` | `audit.md` | Audit specific files against current repo state. Cross-check claims, references, consistency. |
 | `/katra-update` | `katra-update.md` | Persist CI identity state via katra system (sunrise/sundown cycle). |
 | `/pdf` | `pdf.md` | Build PDFs from markdown files. Single file, directory scan, or batch. Every paper .md needs a .pdf. |
@@ -42,6 +43,7 @@ When you type `/<name>` or `/<name> arguments`, the system loads the correspondi
 | Creating a theorem | `/theorem claim` (BEFORE writing the file) |
 | End of session | `/pdf check` (find missing PDFs), `/pdf <dir>` (build them) |
 | When stuck | `/ac0` (simplify), `/route` (find alternative paths) |
+| Deep in a context / momentum high / a major item just closed | `/take_a_break` (re-ground before the next make-or-break) |
 | Auditing | `/audit <file>` (check consistency) |
 
 ## PDF Pipeline Quick Reference

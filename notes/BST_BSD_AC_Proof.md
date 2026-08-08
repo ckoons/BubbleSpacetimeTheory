@@ -1,16 +1,20 @@
 ---
-title: "BSD Conjecture: The AC Proof"
+title: "BSD Conjecture: The AC Attempt"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "~95% — T153 now DERIVED (not axiom). AC-flattened presentation. Narrative rewrite (Keeper)"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] ~95% — T153 now DERIVED (not axiom). AC-flattened presentation. Narrative rewrite (Keeper)"
 framework: "AC(0) (C=2, D=1) — two independent spectral counts"
 ---
 
-# BSD Conjecture: The AC Proof
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** the 1/rank core is definitional sharpening, NOT ~95% of a proof; spectral rank-equality machinery is real.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
+# BSD Conjecture: The AC Attempt
 
 *The rank of an elliptic curve equals the order of vanishing of its L-function at s=1, and the leading coefficient is determined by arithmetic invariants. This is a counting theorem.*
 
-Elliptic curves are the simplest interesting objects in number theory — cubic equations in two variables. The BSD conjecture connects the number of rational solutions (geometry) to the behavior of an L-function at one point (analysis). It has been open since the 1960s. This proof uses the D₃ spectral decomposition to separate signals into three channels — committed, faded, and free — and shows the spectral multiplicity at s=1 equals the algebraic rank.
+Elliptic curves are the simplest interesting objects in number theory — cubic equations in two variables. The BSD conjecture connects the number of rational solutions (geometry) to the behavior of an L-function at one point (analysis). It has been open since the 1960s. This attempt uses the D₃ spectral decomposition to separate signals into three channels — committed, faded, and free — and argues the spectral multiplicity at s=1 equals the algebraic rank; the residual reduction to 1/rank is definitional, not a completed proof.
 
 ## The AC Structure
 
@@ -20,7 +24,7 @@ Elliptic curves are the simplest interesting objects in number theory — cubic 
 
 - **Termination** (depth 0): The D_3 decomposition is finite — 1:3:5 ratio at every prime (450/450 tests, Toy 381). No phantom zeros exist because D_3 is too rigid (Toy 392, 0/15 injectable). The Planck Condition (T153): domain is compact, spectrum is discrete, rank is finite.
 
-## The Proof
+## The Argument
 
 ### Step 1: DEFINITIONS (depth 0)
 

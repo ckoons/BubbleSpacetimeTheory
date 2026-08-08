@@ -2,10 +2,14 @@
 title: "A Human-Readable Proof of the Four-Color Theorem"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 27, 2026"
-status: "DRAFT v9 — Cal PASS (May 7). Three editorial fixes applied. No structural gaps. Ready for JCT-B submission."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] DRAFT v9 — Cal PASS (May 7). Three editorial fixes applied. No structural gaps. Ready for JCT-B submission."
 target: "Combinatorica or Journal of Combinatorial Theory, Series B"
 tags: ["four-color-theorem", "Kempe-chains", "graph-coloring", "planar-graphs"]
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** 1/rank-load-bearing; residual is definitional.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 ## Abstract
 

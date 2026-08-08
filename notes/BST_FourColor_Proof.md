@@ -2,10 +2,14 @@
 title: "The Four-Color Theorem: An AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 25, 2026"
-status: "RETRACTED v1 — T135 FALSE. SUPERSEDED by BST_FourColor_AC_Proof.md (v4, double-swap rescue, T135b, ~85%)."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] RETRACTED v1 — T135 FALSE. SUPERSEDED by BST_FourColor_AC_Proof.md (v4, double-swap rescue, T135b, ~85%)."
 framework: "AC(0) depth 2 — PROOF INVALID as stated. See BST_FourColor_AC_Proof.md for the current version."
 dependencies: "T135 (FALSE), T138 (Jordan Curve Separation — valid, but insufficient)"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** 1/rank-load-bearing; residual is definitional.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # The Four-Color Theorem: An AC Proof
 

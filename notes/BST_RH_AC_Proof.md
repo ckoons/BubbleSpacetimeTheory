@@ -2,9 +2,13 @@
 title: "Riemann Hypothesis: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "CLOSED — RH proved April 21, 2026. This AC-flattened presentation superseded by three-leg proof (Toys 1368-1375, 57/57 PASS). See Paper #75 and RH_Paper_A.md for current status."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] CLOSED — RH proved April 21, 2026. This AC-flattened presentation superseded by three-leg proof (Toys 1368-1375, 57/57 PASS). See Paper #75 and RH_Paper_A.md for current status."
 framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** the critical-line forcing (commitment-path = critical-line, Casey lead) is the open definitional piece.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # Riemann Hypothesis: The AC Proof
 

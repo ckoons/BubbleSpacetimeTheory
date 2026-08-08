@@ -3,7 +3,7 @@
 **Casey Koons, Lyra (Claude 4.6), Keeper (Claude 4.6)**
 **With supporting analysis by Grace, Elie, and Cal A. Brate (Claude 4.6)**
 **Date: May 12, 2026**
-**Status: Draft v0.3**
+**Status: Draft v0.3 — [method paper; the seven Clay problems are treated as ATTEMPTS, NOT completed proofs, per K940 (2026-08-08). See Section 3.3.]**
 **Target: Bulletin of the AMS / Nature Reviews Physics**
 **Assignment: SP-18 GC-9 (Wave 4)**
 
@@ -17,7 +17,7 @@ Several of the most celebrated mathematical achievements of the past three decad
 
 AC guarantees that the derivation terminates at bounded depth. GC guarantees that the answer is the only one compatible with the constraints. The combination is a proof: a bounded-depth derivation of a forced structure.
 
-We survey 14 major solved conjectures and find that 5 (33%) exhibit the GC architecture, including the Poincare conjecture (Perelman), sphere packing in dimensions 8 and 24 (Viazovska), and the Kepler conjecture (Hales). We apply the method systematically to seven additional problems (the Clay Millennium Prize Problems and the Four-Color Theorem), tabulating the constraint count, cascade certificate, over-determination ratio, and scope boundary for each. We identify three necessary conditions for GC amenability: a finite classification of candidates, independent bounds that meet with zero room, and a uniqueness conclusion. We also identify five classes of problems where the method does not apply.
+We survey 14 major solved conjectures and find that 5 (33%) exhibit the GC architecture, including the Poincare conjecture (Perelman), sphere packing in dimensions 8 and 24 (Viazovska), and the Kepler conjecture (Hales). We apply the method systematically to seven additional problems (the Clay Millennium Prize Problems and the Four-Color Theorem), tabulating the constraint count, cascade certificate, over-determination ratio, and scope boundary for each. (These seven are treated as BST *attempts* at varying distance from referee consensus — the method organizes them; it does not certify them as solved. See Section 3.3 and the K940 re-scoping note, 2026-08-08.) We identify three necessary conditions for GC amenability: a finite classification of candidates, independent bounds that meet with zero room, and a uniqueness conclusion. We also identify five classes of problems where the method does not apply.
 
 Beyond pure mathematics, we document the GC pattern in engineering: topological insulators, photonic crystals, and quantum error correction all use geometric constraint implicitly. Three laboratory experiments ($85K total) provide explicit falsifiable tests of the method's predictions in materials science. We present an honesty framework (five red lines) to prevent overclaiming retroactive credit for engineering discoveries that preceded the formalization.
 
@@ -166,9 +166,9 @@ The parallel to Viazovska is striking: both proofs have a finite classification 
 
 ### 3.3 The Seven Clay Problems
 
-We applied the five-step method systematically to all seven Clay Millennium Prize Problems plus the Four-Color Theorem. The summary:
+We applied the five-step method systematically to all seven Clay Millennium Prize Problems plus the Four-Color Theorem. **These are substantive ATTEMPTS at varying distance from referee consensus, NOT completed proofs (re-scoped K940, 2026-08-08).** The table below records the method's structural bookkeeping (constraint count, cascade certificate, over-determination, scope); it does NOT assert that any listed problem is proved. Honest per-problem: RH / BSD / P≠NP are structural-reduction attempts (core 1/rank, residual definitional); NS is a substantive attempt / genuine advance (3D regularity core open); YM is partial + reframe (LARGE gap — the R⁴ interacting-QFT construction + a proven area-law/mass gap is the missing core; the curvature-necessity reframe is the real advance); Hodge is PARTIAL ~30% (transfer to general varieties open). The summary:
 
-| Proof | Constraints | Cascade | Over-Det Ratio | AC Depth | Scope |
+| Attempt | Constraints | Cascade | Over-Det Ratio | AC Depth | Scope |
 |-------|------------|---------|---------------|----------|-------|
 | Four-Color | Forced fan lemma | 13-step induction | ~5:1 | 0 | Planar |
 | Hodge | 5 spectral filters | Toy 2120 (10/10) | 6.6:1 | 1 | D_IV^5 quotients |

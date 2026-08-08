@@ -1,13 +1,17 @@
 ---
-title: "The Maass-Selberg Proof of the Riemann Hypothesis"
+title: "The Maass-Selberg Attempt on the Riemann Hypothesis"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
-status: "Rank-2 coupling COMPLETE — overconstrained system proves delta=0"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Rank-2 coupling COMPLETE — overconstrained system proves delta=0"
 toy: "206 (Maass-Selberg Kill), 207 (Rank-2 Coupling)"
 depends_on: "BST_ArthurElimination_PotentialMinimum.md, BST_RiemannReduction_FiniteComputation.md"
 ---
 
-# The Maass-Selberg Proof of the Riemann Hypothesis
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** archimedean/Weil-positivity monotonicity across the strip is the open lever.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
+# The Maass-Selberg Attempt on the Riemann Hypothesis
 
 *"The zeros are at the potential minimum because the potential minimum is the ONLY solution."*
 
@@ -123,7 +127,7 @@ With m_s = 3 (full case Q⁵), clusters have width 5. They overlap with the long
 
    The shift of **3** (from m_s = N_c = 3) pushes Re(ρ₃) outside the critical strip. This is the exact mechanism.
 
-7. Therefore δ = 0 for all ξ-zeros. QED.
+7. Therefore δ = 0 for all ξ-zeros, conditional on the rank-2 coupling step above. (Per the K940 audit — see top banner — this is a structural-reduction attempt at RH, not a completed proof: the core reduces to the 1/rank spectral condition and the residual is definitional. Not "QED" for the Riemann Hypothesis.)
 
 -----
 

@@ -3,7 +3,7 @@ title: "Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients
 subtitle: "With a conditional approach to the Riemann Hypothesis"
 author: "Casey Koons, Lyra, Keeper, Elie (Claude 4.6)"
 date: "May 15, 2026"
-status: "DRAFT v0.8 — Theorem 6.5 UNCONDITIONAL (Toy 2094, 19/19). Step 3 verified via explicit Moeglin-Waldspurger constant-term computation: nu_1 = |sigma - 1/2|. Referee log #38 CLOSED. Four-line geometric proof of RH (Toy 2089, 12/12). Temperedness forces sigma = 1/2. Convention-translation paragraph in Section 6.5. **v0.8 update (May 15)**: Section 1.3 augmented with explicit Hilbert polynomial of Q^5 (Toy 2255, Elie A1 PASS — K38 N_c^3 leg externally defensible). Section 1.3 now anchors {g, N_c^3, c_2} in classical algebraic geometry of Q^5 in CP^6."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] DRAFT v0.8 — Theorem 6.5 UNCONDITIONAL (Toy 2094, 19/19). Step 3 verified via explicit Moeglin-Waldspurger constant-term computation: nu_1 = |sigma - 1/2|. Referee log #38 CLOSED. Four-line geometric ARGUMENT for RH (Toy 2089, 12/12), CONDITIONAL on Conjecture 6.1 (test-function correspondence). Temperedness forces sigma = 1/2 conditional on that step; NOT a completed proof of RH. Convention-translation paragraph in Section 6.5. **v0.8 update (May 15)**: Section 1.3 augmented with explicit Hilbert polynomial of Q^5 (Toy 2255, Elie A1 PASS — K38 N_c^3 leg externally defensible). Section 1.3 now anchors {g, N_c^3, c_2} in classical algebraic geometry of Q^5 in CP^6."
 target: "Annals of Mathematics / Compositio Mathematica"
 paper_number: 103
 tier: "Steps 1-4 + Section 7: D (unconditional). Lemma 6.2: D (Gaussians). Theorem 6.5 geometric proof: D (unconditional, Step 3 verified by Toy 2094). Section 6 RH approach: conditional on Conjecture 6.1 (test function correspondence)."
@@ -11,6 +11,10 @@ resolves: "R-14, R-15, R-16, R-17, R-18, G5"
 depends_on: "R-11 (Arthur classification — citation pinned, [VERIFY] on exact proposition)"
 cold_reader: "Cal A. Brate (Claude 4.7), May 6-7, 2026 (two rounds)"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict (RH):** structural-reduction attempt. The RH conclusion of Section 6 is CONDITIONAL on Conjecture 6.1 (test-function correspondence); the core reduces to the 1/rank spectral / temperedness condition with a definitional residual. The temperedness / wall-projection machinery (Steps 1-4, Section 7) is a real, largely unconditional advance; the RH closure itself is NOT referee-consensus complete.
+> Any 'proof of RH' / '~9X%' framing in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients of D_IV^5
 
@@ -401,7 +405,7 @@ The volume dominance (Theorem 4.1) ensures J_geom > 0, and the cancellation J_ge
 
     (1/2) W(g * g~) + (corrections) > 0  =>  W(g * g~) >= -(bounded corrections)
 
-Combined with the freedom to scale g, this yields W(g * g~) >= 0 for all suitable g, which is the Weil criterion. By Weil's theorem, RH follows.  QED.
+Combined with the freedom to scale g, this yields W(g * g~) >= 0 for all suitable g, which is the Weil criterion. By Weil's theorem, RH would follow — CONDITIONAL on Conjecture 6.1 (the boundedness/test-function step). This closes the argument modulo that open step; it is NOT an unconditional proof of RH (K940).
 
 ### 6.4 What is needed to remove Conjecture 6.1
 
@@ -562,7 +566,7 @@ The Weil criterion and density arguments (Sections 6.1-6.4) are one route. A mor
 
 **Step 3 (Embedding).** A zero rho = sigma + i*gamma of xi(s) enters the trace formula through the log-derivative xi'/xi(1/2 + it) in J_cont^{P_2}. The zero creates a simple pole of the integrand at t_0 = gamma - i*(sigma - 1/2). By contour deformation (Moeglin-Waldspurger [MW95] Section II.1.7), the residue contributes a discrete spectral term with non-tempered parameter nu_1 = |Im(t_0)| = |sigma - 1/2|. The critical-line center 1/2 arises as rho_1 - 2 = n_C/2 - 2, where rho_1 = 5/2 is the Bergman center and 2 is the GK numerator shift from the long root. (Toy 2094, 19/19 PASS.)
 
-**Step 4 (Forcing).** If sigma != 1/2, then nu_1 = sigma - 1/2 != 0. This is a non-tempered spectral contribution (it violates the wall condition). But Step 1 proves ALL automorphic representations on Gamma(137)\\SO_0(5,2) are tempered. Contradiction. Therefore sigma = 1/2.  QED.
+**Step 4 (Forcing).** If sigma != 1/2, then nu_1 = sigma - 1/2 != 0. This is a non-tempered spectral contribution (it violates the wall condition). But Step 1 proves ALL automorphic representations on Gamma(137)\\SO_0(5,2) are tempered. Contradiction. Therefore sigma = 1/2 — CONDITIONAL on the test-function correspondence (Conjecture 6.1) that connects the zeta zeros to the automorphic spectrum. This is the structural core of the RH attempt, not an unconditional QED for RH (K940).
 
 **What this proof does NOT use:**
 - No Weil positivity criterion

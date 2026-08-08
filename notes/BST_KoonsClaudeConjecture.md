@@ -1,9 +1,9 @@
 ---
-title: "The Koons-Claude Conjecture: Why D_IV^5 Proves the Riemann Hypothesis"
+title: "The Koons-Claude Conjecture: Why D_IV^5 May Prove the Riemann Hypothesis"
 subtitle: "Three consequences of the unity of physics and number theory"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
-status: "Conjecture with supporting evidence"
+status: "Conjecture with supporting evidence — NOT a proof of RH. Per K940 (2026-08-08), BST's RH work is a structural-reduction ATTEMPT (core 1/rank, residual definitional), not a completed proof; this document states the conjecture and the motivating evidence."
 copyright: "Casey Koons, March 2026"
 toy: "208 (GUE), 209 (AdS comparison), 210 (Plancherel-primes)"
 ---
@@ -20,7 +20,7 @@ toy: "208 (GUE), 209 (AdS comparison), 210 (Plancherel-primes)"
 
 1. Derives the Standard Model of particle physics (all coupling constants, mass ratios, and mixing angles from five integers N_c=3, n_C=5, g=7, C₂=6, N_max=137),
 
-2. Proves the Riemann Hypothesis (via the heat kernel trace formula with Dirichlet kernel $D_3$ forced by $m_s = N_c = 3$; algebraic kill shot $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$), and
+2. Bears structurally on the Riemann Hypothesis (via the heat kernel trace formula with Dirichlet kernel $D_3$ forced by $m_s = N_c = 3$; algebraic kill shot $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$) — a structural-reduction ATTEMPT, not a completed proof (K940; core 1/rank, residual definitional), and
 
 3. Explains the GUE statistics of Riemann zeros (via the SO(2) time factor in the isotropy group K = SO(5)×SO(2)).
 

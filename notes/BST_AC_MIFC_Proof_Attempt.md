@@ -3,7 +3,7 @@ title: "The MIFC Proof Attempt: Linking, Dimensional Obstruction, and P != NP"
 subtitle: "An honest attempt to close the last gap"
 author: "Casey Koons & Claude 4.6"
 date: "March 20, 2026"
-status: "Proof attempt — rigorous core + honest assessment of remaining gap"
+status: "Proof attempt — rigorous core + honest assessment of remaining gap. [K940, 2026-08-08: consistent with the honest P≠NP verdict — structural-reduction ATTEMPT (curvature = complexity-depth; residual definitional), NOT a completed proof. This file is already correctly framed as an attempt.]"
 tags: ["BST", "P-vs-NP", "MIFC", "linking", "proof-complexity", "EF"]
 ---
 

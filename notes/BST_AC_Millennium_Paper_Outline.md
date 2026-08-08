@@ -2,7 +2,7 @@
 title: "Arithmetic Complexity and the Millennium Problems: A Depth-2 Principle"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "Draft v1 — Narrative rewrite (Keeper). Gateway paper for AMS Bulletin."
+status: "Draft — HONESTY-REFRAMED per K940 (2026-07-26): these are ATTEMPTS at varying distance from referee-consensus, NOT completed proofs. The bankable results are the shared depth-2 AC(0) STRUCTURE (Pair Resolution Principle) + the reduction meta-result (the remaining problems share one core, 1/rank, residual mostly definitional) + the Navier-Stokes advance + the curvature-necessity reframe — independent of completing any single proof. Per-problem verdicts in Sec 3. Gateway paper; nothing external without Cal-vet + Casey GO."
 target: "Bulletin of the AMS (survey) or standalone arXiv"
 purpose: "Entry point paper. Brings people to BST through AC(0). Readable by any graduate mathematician."
 ---
@@ -17,13 +17,13 @@ purpose: "Entry point paper. Brings people to BST through AC(0). Readable by any
 
 Ask a ten-year-old: "Why are hard problems hard?" They might say "because nobody's figured them out yet." That answer is closer to the truth than most mathematicians would admit.
 
-This paper argues that the apparent difficulty of the great open problems in mathematics is not intrinsic — it is a measure of missing definitions. With the right definitions in hand, every one of the six Clay Millennium Prize problems collapses to depth 2 in the AC(0) circuit model: two layers of counting on top of definitions. The same depth. Every time. Across six different branches of mathematics that have no obvious connection to each other.
+This paper argues that the apparent difficulty of the great open problems in mathematics is not intrinsic — it is a measure of missing definitions. The claim is *structural*: each of the six Clay Millennium Prize problems reduces, in the AC(0) circuit model, to depth 2 — two layers of counting on top of definitions — *once the load-bearing definitions are supplied*. Some of those definitions are in hand; others are the named open pieces (Sec 3), which is exactly what keeps these attempts rather than completed proofs. The uniform depth-2 *structure* is the result. The same depth. Every time. Across six different branches of mathematics that have no obvious connection to each other.
 
 That coincidence demands an explanation. The explanation is the Pair Resolution Principle: when obstructions come in bounded pairs and interference between them is checkable in one counting step, the total resolution is forced to depth exactly 2. It is a theorem of circuit complexity, not a conjecture. And it applies uniformly to the Riemann Hypothesis, the Yang-Mills mass gap, P vs NP, Navier-Stokes regularity, Birch and Swinnerton-Dyer, and the Hodge conjecture.
 
 **What this paper IS**: A synthesis showing that six Millennium Prize problems (and the four-color theorem) share a common information-theoretic structure — bounded enumeration with paired obstructions — that forces AC(0) depth exactly 2. The Pair Resolution Principle (T134) explains why.
 
-**What this paper is NOT**: The individual proofs. Those are separate papers (RH, YM, P≠NP, NS, BSD, Hodge). This paper is the map, not the territory.
+**What this paper is NOT**: completed individual proofs — those are separate *attempt* papers (RH, YM, P≠NP, NS, BSD, Hodge), at varying distance from a referee-consensus proof (Sec 3; Yang-Mills's gap is large). This paper is the map — the shared depth-2 structure — not the territory, and the map is what's bankable.
 
 **Why people will read it**: One principle, six applications, a falsifiable prediction (four-color at depth 2). If even one application holds, the framework is worth studying. If all six hold, the framework is fundamental.
 
@@ -35,7 +35,7 @@ That coincidence demands an explanation. The explanation is the Pair Resolution 
 
 ### Abstract (~200 words)
 
-We introduce a complexity measure for mathematical proofs based on bounded-depth arithmetic circuits (AC(0)). A proof has depth $d$ if it requires $d$ layers of counting operations on top of definitions. We show that six Clay Millennium Prize problems — the Riemann Hypothesis, Yang-Mills mass gap, P≠NP, Navier-Stokes regularity, the Birch and Swinnerton-Dyer conjecture, and the Hodge conjecture — all admit proofs of depth exactly 2 in this framework. We prove a Pair Resolution Principle explaining this coincidence: when a structural constraint bounds the number of obstructions and interference between pairs is checkable in one counting step, the total resolution depth is forced to be 2. The principle applies uniformly across analytic number theory, quantum field theory, computational complexity, fluid dynamics, arithmetic geometry, and algebraic geometry. We predict that the four-color theorem also has depth 2, with a specific missing definition (the Kempe interference number) that would replace 633 computer-verified configurations. The framework builds on an arithmetic complexity (AC) program of 130+ reusable theorems, each assigned an explicit depth, forming a directed graph where each proved theorem reduces the cost of future proofs.
+We introduce a complexity measure for mathematical proofs based on bounded-depth arithmetic circuits (AC(0)). A proof has depth $d$ if it requires $d$ layers of counting operations on top of definitions. We show that six Clay Millennium Prize problems — the Riemann Hypothesis, Yang-Mills mass gap, P≠NP, Navier-Stokes regularity, the Birch and Swinnerton-Dyer conjecture, and the Hodge conjecture — all admit depth-2 AC(0) *approaches* in this framework. These are structural **attempts** at varying distance from a referee-consensus proof — from a genuine analytic advance (Navier-Stokes) to a large open gap (Yang-Mills's interacting-QFT/area-law core); per-problem status is stated in Sec 3, and the bankable result is the *shared depth-2 structure itself*, not a claim of six solutions. We prove a Pair Resolution Principle explaining this coincidence: when a structural constraint bounds the number of obstructions and interference between pairs is checkable in one counting step, the total resolution depth is forced to be 2. The principle applies uniformly across analytic number theory, quantum field theory, computational complexity, fluid dynamics, arithmetic geometry, and algebraic geometry. We predict that the four-color theorem also has depth 2, with a specific missing definition (the Kempe interference number) that would replace 633 computer-verified configurations. The framework builds on an arithmetic complexity (AC) program of 130+ reusable theorems, each assigned an explicit depth, forming a directed graph where each proved theorem reduces the cost of future proofs.
 
 ---
 
@@ -85,7 +85,7 @@ Six problems. Six different branches of mathematics. Number theory, quantum fiel
 
 For each problem: (a) the depth-2 structure, (b) what's the enumeration (depth 1), (c) what's the pair resolution (depth 1), (d) current status, (e) key references.
 
-**3.1 Riemann Hypothesis (~95%)**
+**3.1 Riemann Hypothesis — structural-reduction attempt (core reduces to 1/rank; residual definitional; NOT a completed proof)**
 
 Riemann's 1859 conjecture — that all non-trivial zeros of the zeta function lie on the line Re(s) = 1/2 — has resisted proof for 167 years. The AC approach does not attack the zeros directly. Instead, it works with the c-function exponents of Eisenstein series on the rank-2 domain $D_{IV}^5$, where conjugation symmetry forces those exponents onto the critical line. Two counting layers: enumerate the exponents (depth 1), verify real exponential isolation via conjugation (depth 1).
 - Enumeration: c-function exponents of Eisenstein series on $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$
@@ -94,15 +94,15 @@ Riemann's 1859 conjecture — that all non-trivial zeros of the zeta function li
 - Key theorems: T88 (P≠NP chain is AC(0)), T91 (all Millennium proofs are AC(0))
 - Refs: [Koons 2026a], Langlands, Arthur, Knapp-Stein
 
-**3.2 Yang-Mills Mass Gap (~95%)**
+**3.2 Yang-Mills Mass Gap — partial + reframe (gap is LARGE: the R⁴ interacting-QFT construction + area-law mass-gap core is open; the curvature-necessity reframe is the real advance; NOT ~95%)**
 
-Does the lightest glueball have positive mass? This is the physicist's version of the question. The mathematician's version: does the quantum Yang-Mills theory have a spectral gap? The difficulty for a century was renormalization on an unbounded domain. The AC insight: the right domain is bounded ($D_{IV}^5$), the Bergman kernel provides the propagator, and the spectral gap follows from the Plancherel measure. This may be the shallowest of the six Millennium proofs.
+Does the lightest glueball have positive mass? This is the physicist's version of the question. The mathematician's version: does the quantum Yang-Mills theory have a spectral gap? The difficulty for a century was renormalization on an unbounded domain. The AC insight: the right domain is bounded ($D_{IV}^5$), the Bergman kernel provides the propagator, and the spectral gap follows from the Plancherel measure. This may be the shallowest AC(0) *structure* of the six — but the referee bar (a constructed interacting Yang-Mills QFT on $\mathbb{R}^4$ with a *proven* area-law/mass gap) is the large open piece, so it remains an attempt, far from a completed proof.
 - Enumeration: Wightman axiom verification on $D_{IV}^5$ QFT
 - Pair resolution: Bergman kernel → Plancherel → spectral gap. Two counting layers: construction + gap.
 - Volume: $\text{Vol}(D_{IV}^5) = \pi^5/1920$. The $\pi^5$ in $m_p = 6\pi^5 m_e$ is the volume scale.
 - Refs: [Koons 2026a], Wightman, Osterwalder-Schrader
 
-**3.3 P ≠ NP (~95%)**
+**3.3 P ≠ NP — structural-reduction attempt (curvature = complexity-depth; residual definitional; NOT a completed proof)**
 
 Can checking always be turned into finding? The most famous question in computer science. The AC approach reframes it as an information-theoretic question: does the communication channel between blocks of a random 3-SAT formula carry zero mutual information at the satisfiability threshold? The answer is yes (DPI, T52), which forces any resolution proof to have width $\Omega(n)$, which forces exponential length. The "hardness" of NP-complete problems is not computational — it is informational. The blocks simply cannot hear each other.
 - Enumeration: refutation bandwidth in resolution/EF proof systems
@@ -110,15 +110,15 @@ Can checking always be turned into finding? The most famous question in computer
 - The kill chain: T66 (block independence) → T52 (committed=0) → T68 (width) → T69 (simultaneity)
 - Refs: [Koons 2026b], Ben-Sasson-Wigderson, Atserias-Dalmau
 
-**3.4 Navier-Stokes Blow-Up (~98%)**
+**3.4 Navier-Stokes Blow-Up — substantive attempt / genuine advance (Casey: "opened a big improvement"; the core analysis remains open; the strongest of the six but NOT a completed proof)**
 
-Can water explode? More precisely: can a smooth solution to the Navier-Stokes equations develop a singularity in finite time? The AC approach constructs a specific initial condition (Taylor-Green vortex with symmetry constraints) and proves that enstrophy (the squared vorticity integral) satisfies an ODE that blows up. The proof is a chain of five links, each elementary. This may be the most surprising of the six: a partial differential equation that has resisted analysts for eighty years falls to an ordinary differential equation argument.
+Can water explode? More precisely: can a smooth solution to the Navier-Stokes equations develop a singularity in finite time? The AC approach constructs a specific initial condition (Taylor-Green vortex with symmetry constraints) and proves that enstrophy (the squared vorticity integral) satisfies an ODE that blows up. The argument is a chain of five links, each elementary — a genuine advance (Casey: "opened a big improvement"), though the core analysis (rigorous control of the constructed solution) remains open, so it is not yet a completed proof. This may be the most surprising of the six: a partial differential equation that has resisted analysts for eighty years falls to an ordinary differential equation argument.
 - Enumeration: spectral modes of enstrophy under Taylor-Green symmetry
 - Pair resolution: spectral monotonicity (Prop 5.17) forces $P > 0$, then ODE blow-up
 - Proof chain: Thm 5.15 → 5.17 → 5.18 → 5.19 → Cor 5.20 → Kato
 - Refs: [Koons 2026c], Kato, Beale-Kato-Majda
 
-**3.5 Birch and Swinnerton-Dyer (~93%)**
+**3.5 Birch and Swinnerton-Dyer — structural-reduction attempt (core reduces to 1/rank; residual definitional; NOT a completed proof — the "~93%" claim is withdrawn)**
 
 How many rational points does an elliptic curve have? The BSD conjecture connects this geometric question (rational solutions) to an analytic one (the L-function vanishing at $s = 1$). The AC approach decomposes the L-function into three spectral channels — cuspidal, Eisenstein, residual — and shows that the Tate-Shafarevich group affects amplitude, not frequency. The separation is structural: the $D_3$ root system has a 1:3:5 harmonic pattern that isolates the arithmetic content.
 - Enumeration: spectral decomposition of $L(E,s)$ into 3 terms (cuspidal + Eisenstein + residual)
@@ -126,7 +126,7 @@ How many rational points does an elliptic curve have? The BSD conjecture connect
 - The D₃ structure: 1:3:5 harmonic pattern. BSD = arithmetic face of the spectral identity.
 - Refs: [Koons 2026d], Gross-Zagier, Kolyvagin
 
-**3.6 Hodge Conjecture (~80% for $D_{IV}^5$)**
+**3.6 Hodge Conjecture — PARTIAL (~30%): the $D_{IV}^5$/Shimura machinery is in hand, but the transfer to general varieties is the BULK and is OPEN (this is the honest template the other five are being reframed to)**
 
 When is a pattern real? More precisely: when is a Hodge class (an analytic object defined by differential forms) actually algebraic (cut out by polynomial equations)? The Hodge conjecture says "always, for rational classes." The difficulty is weight $\geq 3$, where the geometric techniques of Lefschetz (weight 1) and Kodaira (weight 2) break down. The AC approach uses theta correspondence (Howe duality) to lift algebraic cycles from a smaller space, with the $B_2$ root system providing the structural constraint.
 - Enumeration: Vogan-Zuckerman $A_{\mathfrak{q}}(0)$ modules in $H^{p,p}$
@@ -160,12 +160,12 @@ Total: $0 + 1 + 0 + 1 + 0 = 2$ counting layers. $\square$
 
 | Problem | Objects $S$ | Bound $m$ | Constraint | Interference $R$ | Guarantee (c) | Status |
 |---------|-----------|-----------|-----------|-----------------|--------------|--------|
-| RH | c-function exponents | $\leq 2$ | Rank 2 | Conjugation | Real exponential isolation | Proved |
-| YM | Spectral modes | bounded | $D_{IV}^5$ geometry | Mode coupling | Mass gap from Plancherel | Proved |
-| P≠NP | Bandwidth channels | bounded | Block structure | Cross-block MI | DPI (T52) | Proved |
-| NS | Enstrophy modes | bounded | TG symmetry | Mode coupling | Spectral monotonicity | Proved |
-| BSD | Spectral components | 3 | $D_3$ budget | Sha/zeros | T104 | Proved |
-| Hodge | $A_{\mathfrak{q}}(0)$ modules | $\leq 2$ | Root system | $D_m$ fork | Outer automorphism | Proved |
+| RH | c-function exponents | $\leq 2$ | Rank 2 | Conjugation | Real exponential isolation | **Attempt** (core 1/rank; definitional) |
+| YM | Spectral modes | bounded | $D_{IV}^5$ geometry | Mode coupling | Mass gap from Plancherel | **Partial**; gap LARGE (R⁴/area-law core open) |
+| P≠NP | Bandwidth channels | bounded | Block structure | Cross-block MI | DPI (T52) | **Attempt** (definitional) |
+| NS | Enstrophy modes | bounded | TG symmetry | Mode coupling | Spectral monotonicity | **Substantive advance**; core open |
+| BSD | Spectral components | 3 | $D_3$ budget | Sha/zeros | T104 | **Attempt** (core 1/rank; definitional) |
+| Hodge | $A_{\mathfrak{q}}(0)$ modules | $\leq 2$ | Root system | $D_m$ fork | Outer automorphism | **Partial ~30%** (general varieties open) |
 | **Four-color** | **Kempe chain pairs** | **$\leq 6$** | **Euler** | **Shared vertices ($\tau$)** | **Planarity ($\tau < 6$, Kuratowski)** | **Empirical** (Toy 407: max $\tau = 5$, T135) |
 
 **4.3 The Universal Pairing Conjecture (T134c).** Every "deep" mathematical problem admits an AC(0) reformulation where the core obstruction consists of bounded paired objects arising from rank-2 structural duality. Discussion: rank 2 is why (B₂, two independent directions). Rank 1 = trivial, rank 3+ not needed.

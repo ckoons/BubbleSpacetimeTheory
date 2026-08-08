@@ -1,0 +1,41 @@
+# F858 — the root-space eigenvalue pin (my #85 hinge, K1276): Q = T₃ + Y is built ENTIRELY from whole-tangent operators, so Tr(Q²) is a whole-tangent trace → **case-A geometry** — a target-innocent structural PREDICTION I commit BEFORE the blind ratio, without computing it. **My assigned hinge (case A vs B/C): does U(1)_Y normalize over the whole tangent or a component? I pin the STRUCTURE (which space each generator acts on), building on Grace's target-innocent generator embedding (Y = T₃R + (B−L)/2, Pati-Salam) + my F856 SO(2) convention. The decisive structural fact: Q = T₃ + Y = T₃ + T₃R + (B−L)/2 is a sum of operators that ALL act on the whole tangent — T₃, T₃R are so(5) Cartans (act on the whole SO(5)-vector content of the tangent, the 5 → (2,2)⊕(1,1) under SU(2)_L×SU(2)_R), and B−L is the SO(2) center J (acts on all of ℂ⁵ as the J-charge). So Tr(Q²) is necessarily a WHOLE-TANGENT trace → case A. Case B (3/10) would require restricting Tr(Q²) to only the B−L/SO(2) component — but Q is NOT just B−L (it carries T₃, T₃R on the whole 5), so B needs an extra, unmotivated restriction of the trace. Case C (uniform incl. color) is already excluded (F856: color is a multiplicity outside SO(5), can't sit in the doubling trace). So the geometric prior is A, forced by the embedding structure, NOT by looking at 0.231. HONEST BOUNDARY — I did NOT compute the ratio Tr(T₃²)/Tr(Q²): that IS the blind computation (Elie + Keeper, independently), and I am miscalibrated on this number. My structural pin is the INPUT/PREDICTION; their blind r confirms (or refutes) it. AND the residual-freedom check (K1270 gate 3 — is there a free normalization constant, the α_s-/π lesson?) remains the real promotion gate, NOT closed by this structural pin. PRE-REGISTERED, blind-honest: I predict the blind r lands at case A (r = 3/10 → sin²θ_W = 3/13). If it comes out B (r = 3/7) or C (r = 3/5), my structural argument has a flaw and I own it. sin²θ_W stays Structural/Identified until the blind r AND the residual-freedom check both land.**
+
+**Lyra, Saturday 2026-08-08. My assigned #85 hinge (K1276), pinned target-innocent and committed as a blind prediction before the ratio is computed. Calibrate: I give the structural case for A AND (i) refuse to compute the deciding ratio (Elie+Keeper's blind job), (ii) flag the residual-freedom check as the un-closed promotion gate, (iii) pre-register A so a match can't be retrofit and a miss is owned. RUBRICS Layer-2 done-bar below.**
+
+## The root-space structure (target-innocent, verified)
+Tangent SO(5)-content = the vector **5**, branching under SO(4) = SU(2)_L × SU(2)_R:
+> **5 → (2,2) ⊕ (1,1)** — four states (T₃, T₃R) = (±½, ±½) plus one (0,0). (Standard SO(5)→SO(4) branching; verified.)
+
+Generator placements (from Grace's embedding + so(5)⊕so(2) structure):
+| generator | lives in | acts on |
+|---|---|---|
+| T₃ (weak isospin) | so(5) Cartan (SU(2)_L) | the (2,2) part of the whole 5 |
+| T₃R | so(5) Cartan (SU(2)_R) | the (2,2) part of the whole 5 |
+| B−L | so(2) center J | the WHOLE tangent (J-charge on all of ℂ⁵) |
+| Y = T₃R + (B−L)/2 | so(5)-Cartan + so(2) | the WHOLE tangent |
+| **Q = T₃ + Y** | so(5)-Cartan + so(2) | **the WHOLE tangent** |
+
+## The hinge, decided structurally (→ A), NOT numerically
+- **Q acts on the whole tangent** (all its constituents do). Therefore **Tr(Q²) is a whole-tangent trace = case A.**
+- **Case B needs an unmotivated restriction:** to get B (3/10) you must trace Q² over only the B−L/SO(2) component — but Q ≠ B−L; it carries T₃, T₃R on the whole 5. No structural reason restricts the trace. So B is disfavored by the embedding, not by the answer.
+- **Case C already excluded** (F856): color N_c is a multiplicity/topological count outside SO(5), so it can't sit inside the doubling tangent-trace → no uniform cancellation.
+- **This is the geometric prior, target-innocent** — from where the generators sit, not from 0.231.
+
+## What I did NOT do (the boundary)
+- I did **NOT** compute Tr(T₃²)/Tr(Q²) → the blind r-value. That is Elie + Keeper, independently, per the K1276 protocol (blind outputs r = g′²/g²; map sin²θ_W = r/(1+r); A r=3/10, B r=3/7, C r=3/5 — distinct, decisive).
+- The **residual-freedom check** (K1270 gate 3) is the un-closed promotion gate: is the whole-tangent normalization forced, or is there a free constant (the α_s-/π failure mode)? My structural pin says the trace DOMAIN is whole-tangent; whether the normalization CONSTANT is forced is still open.
+
+## RUBRICS Layer-2 done-bar (DERIVATION-input / structural pin)
+- [x] Precise statement: Q acts on the whole tangent → Tr(Q²) whole-tangent trace → case-A geometry.
+- [x] Forcing chain audited: branching 5→(2,2)⊕(1,1) [proved]; generator placements [Grace embedding, target-innocent]; Q = sum of whole-tangent operators [structural]. Open edge: residual-freedom constant (named).
+- [x] Target-innocent: from generator placement, 0.231 not consulted; pre-registered blind prediction (A).
+- [x] Tier: structural input, points to A; **sin²θ_W stays Structural/Identified** until blind r + residual-freedom check.
+- [x] No over-claim: I did NOT compute the ratio or declare 3/13 Derived; a blind miss (B/C) is owned.
+
+## Handoffs
+- **@Elie + @Keeper** — my structural pin (input to your blind r): the tangent is 5 → (2,2)⊕(1,1); Q = T₃ + T₃R + (B−L)/2 acts on the whole tangent. Compute r = g′²/g² BLIND and independently; I predict A (r = 3/10). If you get B (3/7) or C (3/5), my structural argument is wrong — report it straight; a miss is as informative as the object-match phantom was.
+- **@Grace** — cross-check my generator placements against your embedding note: does Y = T₃R + (B−L)/2 with T₃R an so(5) Cartan and B−L the SO(2) center match yours? The one place A fails is if your embedding restricts the U(1)_Y trace to a component — I don't see how (Q carries T₃, T₃R on the whole 5), but you set up the generators, so you're the check.
+- **@Cal** — §341 bar: I pinned the trace DOMAIN (whole-tangent) from generator placement, target-innocent, and refused the ratio (blind). The residual-freedom check (K1270 gate 3) is explicitly still open — 3/13 does NOT promote on this pin alone. Pre-registered A so no retrofit.
+- **@Casey** — the hinge is pinned, and it points your way, honestly. The whole question was: does electric charge "see" the entire substrate or just one corner of it? And the answer falls out of what charge IS made of — charge = weak-isospin + hypercharge, and hypercharge = right-isospin + (baryon−lepton). Every one of those pieces lives on the whole five-dimensional substrate (the isospins are rotations of it; baryon−lepton is the circle-charge every direction carries). So charge acts on the whole thing — which is your projection covering the whole substrate, exactly. The only way to get the *other* answer (3/10) is to artificially look at just one piece of charge and ignore the rest, and there's no reason to. So the geometry says 3/13. But I'm holding the tier where it belongs: I did NOT do the final sum that turns this into the number — that's Elie and Keeper computing it blind, precisely so I (three-times-wrong on this number) can't nudge it — and there's still the check of whether the normalization is forced or carries a hidden free knob (the thing that made α_s honest-but-unforced). I've written down my prediction — 3/13 — before their blind result, so if it disagrees, you'll know my geometry was wrong. Nothing pushed.
+
+Notes only; no toy/theorem claimed (structural pin, pre-registered prediction). F858: root-space hinge for #85. Tangent 5 → (2,2)⊕(1,1) under SU(2)_L×SU(2)_R. Q = T₃ + Y = T₃ + T₃R + (B−L)/2; T₃,T₃R = so(5) Cartans, B−L = SO(2) center — ALL act on the whole tangent → Tr(Q²) is a whole-tangent trace → case A (3/13 geometry). Case B (3/10) needs an unmotivated restriction of Tr(Q²) to the B−L/SO(2) component (Q≠B−L); case C excluded (color = count outside SO(5), F856). Target-innocent (generator placement, not 0.231). Boundary: did NOT compute Tr(T₃²)/Tr(Q²) = the blind r (Elie+Keeper); residual-freedom check (K1270 gate 3) still open. PRE-REGISTERED prediction: blind r = A (3/10 → 3/13); a B/C miss owned. Stays Structural/Identified until blind r + residual-freedom land. — Lyra

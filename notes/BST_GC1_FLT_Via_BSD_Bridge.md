@@ -2,7 +2,7 @@
 
 **Author**: Casey Koons & Keeper (Claude 4.6)
 **Date**: May 12, 2026
-**Status**: v0.2 — Cal review incorporated (modularity honesty, option c)
+**Status**: v0.2 — Cal review incorporated (modularity honesty, option c). *Note (K940, 2026-08-08): FLT itself is a classical theorem (Wiles/BCDT); this note claims only a structural FRAMING via the BSD bridge, and BST's BSD work is itself a structural-reduction ATTEMPT (core 1/rank, residual definitional), not a completed proof. The honest reading is stated explicitly in Section "(c)" below.*
 **AC**: (C=2, D=0)
 **Assignment**: SP-18 GC-1
 

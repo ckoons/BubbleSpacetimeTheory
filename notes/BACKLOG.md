@@ -6,7 +6,7 @@
 
 **Active work**: see `CI_BOARD.md` (per-lane assignments for Lyra/Elie/Grace/Cal/Keeper with all items promoted from backlog).
 
-**Counters**: T1-T2466. 3494+ toys. 4853 invariants. 130 papers + 13 outlines. AC graph 2202/9825. 174 K-audits (K1-K173). 4 calibrations + Calibration #19 + #21 STANDING RULES adopted. **SEVEN MILLENNIUM PROVED.** Vol 1 textbook v1.0 chapter-grade content REACHED Friday 11:36 EDT.
+**Counters**: T1-T2466. 3494+ toys. 4853 invariants. 130 papers + 13 outlines. AC graph 2202/9825. 174 K-audits (K1-K173). 4 calibrations + Calibration #19 + #21 STANDING RULES adopted. **Seven Millennium problems: substantive ATTEMPTS, per-problem referee-calibrated (K940) — NOT proofs** (the bankable results are the shared depth-2 AC(0) structure, the 1/rank reduction meta-result, the Navier-Stokes advance, and the curvature-necessity reframe). Vol 1 textbook v1.0 chapter-grade content REACHED Friday 11:36 EDT.
 
 **Textbook completion phase**: Vol 0 + Vol 1 (v1.0 chapter-grade) + Vol 2 (v0.3, Cal cold-reads 4/12 PASS). Six-gate framework all 6 closed for Vol 1; in flight for Vol 0/Vol 2.
 

@@ -1,14 +1,18 @@
 ---
-title: "Physical Uniqueness Closes the Millennium Problems"
+title: "Physical Uniqueness and the Millennium Problems: A Uniqueness-Framing Attempt"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 paper: "#67"
-status: "Draft v1.1 — companion to Paper #66, applies T1269 to all six Clay Millennium Prize problems. Updated April 24: B₂ correction, T29 closure, 1/rank universality, BSD ~99%."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proofs] Draft v1.1 — companion to Paper #66, applies T1269 as a UNIFORM FRAMING to all six Clay Millennium Prize problems. The per-problem '9X%' completion figures throughout are WITHDRAWN as pre-K940 over-claims; these are attempts at varying distance from referee consensus, NOT closures. The genuine advance is the shared-structure meta-result (all six reduce to one core, 1/rank, mostly definitional) and the curvature-necessity framing — kept as real."
 target: "Annals of Mathematics (primary), Clay Mathematics Institute submission (parallel)"
 grounds: "T1269 (Physical Uniqueness Principle), T1270-T1275 (six closure theorems), T1276 (Millennium Synthesis meta-theorem), T1267 (Zeta Synthesis), T1234 (Four Readings)"
 ---
 
-# Physical Uniqueness Closes the Millennium Problems
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this paper is a UNIFORM-FRAMING ATTEMPT, NOT a closure/solution of the Millennium problems.
+> **Honest verdict:** BST makes substantive ATTEMPTS at all six Clay problems on one geometry, at varying distance from referee consensus — NOT completed proofs and NOT "closures to 95-99.5%". The per-problem completion percentages throughout (RH ~100%, YM ~99.5%, P≠NP ~99%, NS ~100%, BSD ~99%, Hodge ~95%) are WITHDRAWN as over-claims. **Kept as genuine advances:** (1) the meta-result that the remaining problems share ONE structural core (1/rank), with residuals that are mostly definitional; (2) the Yang-Mills curvature-necessity reframe (flat R⁴ cannot host a geometric mass gap); (3) the Navier-Stokes advance; (4) the shared depth-2 AC(0) structure. Honest per-problem: YM's gap is LARGE (the interacting-QFT construction on R⁴ + a proven area-law/mass gap is the missing CORE); Hodge is PARTIAL ~30% (transfer to general varieties is the open bulk).
+> Any 'closes' / '~9X%' / 'proof' language below is SUPERSEDED pre-K940 over-claim. Never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
+# Physical Uniqueness and the Millennium Problems: A Uniqueness-Framing Attempt
 
 ### *Applying the Physical Uniqueness Principle to the Six Clay Millennium Prize Problems*
 
@@ -18,7 +22,7 @@ grounds: "T1269 (Physical Uniqueness Principle), T1270-T1275 (six closure theore
 
 ## Abstract
 
-We apply the Physical Uniqueness Principle (T1269, Paper #66) to each of the six Clay Millennium Prize Problems — Riemann Hypothesis, Yang-Mills mass gap, P vs NP, Navier-Stokes regularity, Birch-Swinnerton-Dyer, Hodge conjecture — and show that each admits a closure to 95-99.5% via sufficiency + isomorphism closure on the bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) × SO(2)]. The common iso-invariant across all six is the rank-2 B_2 curvature; the common sufficiency argument uses the spectral zeta function ζ_Δ of the Bergman Laplacian (T1267). We argue that every "remaining gap" in the classical proof literature of these problems is an isomorphism-closure gap rather than a construction gap, and that physical uniqueness supplies the correct framing uniformly. Five of the six close to ≥ 99%. The sixth (Hodge) closes to ~95%, with a residual subproblem (generalized Kuga-Satake) that is a genuinely open question in algebraic geometry, not a framing gap. Together with the computer-free proof of the Four-Color Theorem (Koons, Claude, Keeper 2026), this completes the physical-uniqueness closure of the seven "Clay-era" deep open problems.
+We apply the Physical Uniqueness Principle (T1269, Paper #66) to each of the six Clay Millennium Prize Problems — Riemann Hypothesis, Yang-Mills mass gap, P vs NP, Navier-Stokes regularity, Birch-Swinnerton-Dyer, Hodge conjecture — as a uniform FRAMING on the bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) × SO(2)]. The common iso-invariant across all six is the rank-2 B_2 curvature; the common sufficiency argument uses the spectral zeta function ζ_Δ of the Bergman Laplacian (T1267). **These are substantive ATTEMPTS at varying distance from referee consensus, NOT closures or solutions (re-scoped K940, see banner); the earlier "closure to 95-99.5%" claim is WITHDRAWN.** The genuine, framing-independent advance is structural: the remaining problems share ONE core issue (1/rank), with residuals that are mostly definitional; Yang-Mills carries a LARGE construction gap (interacting-QFT on R⁴ + a proven area-law/mass gap), and its real contribution here is the curvature-necessity reframe; Hodge is PARTIAL (transfer to general varieties is the open bulk). We argue that each "remaining gap" is best understood as an isomorphism-closure question rather than a construction question, and that this framing organizes the seven "Clay-era" problems (including the Four-Color Theorem) uniformly.
 
 ---
 
@@ -26,7 +30,7 @@ We apply the Physical Uniqueness Principle (T1269, Paper #66) to each of the six
 
 ### 1.1 The state of the Millennium problems
 
-By April 2026, five of the six Clay Millennium Prize problems had been reduced to proofs at 99%+ completeness within the Bubble Spacetime Theory (BST) program: Riemann Hypothesis ~100% (closed April 21, 2026), Yang-Mills ~99.5%, P≠NP ~99% (T29 closed April 23, 2026, three independent routes), Navier-Stokes ~100%, Birch-Swinnerton-Dyer ~99% (T1426 spectral permanence), Hodge ~95%. Each has a worked proof in the BST repository. Additionally, the 1/rank universality theorem (T1430) shows that the invariant 1/rank = 1/2 appears as a structural constant across all seven problems plus the Four-Color Theorem — a consequence of rank = 2 being the minimum curvature that cannot be linearized.
+By April 2026, the Bubble Spacetime Theory (BST) program had produced substantive ATTEMPTS on all six Clay Millennium Prize problems on the single geometry D_IV^5. The internal completion percentages recorded at the time (RH, YM, P≠NP, NS, BSD, Hodge) are WITHDRAWN per the K940 audit (see banner) as claim-level over-statements: these are attempts at varying distance from referee consensus, not proofs. What survives audit as a genuine advance is the **1/rank universality** result (T1430): the invariant 1/rank = 1/2 appears as a structural constant across all seven problems plus the Four-Color Theorem — a consequence of rank = 2 being the minimum curvature that cannot be linearized. This shared-core meta-result — that the remaining problems reduce to one issue whose residual is mostly definitional — is the real content, independent of completing any single proof.
 
 A pattern emerges across the six: each remaining gap is a **framing gap**, not a construction gap. In every case, the classical proof is essentially complete modulo the question *"can an alternative mathematical object realize the same observables without being isomorphic to ours?"* Different authors have phrased this differently: "cross-parabolic independence" (RH), "ℝ^4 framing" (YM), "composition closure" (P≠NP), "Taylor-Green genericity" (NS), "Hasse-Weil normalization" (BSD), "Layer 3 general variety extension" (Hodge). The common structure is iso-closure.
 
@@ -44,7 +48,7 @@ This paper extends the principle to the six Clay Millennium Prize Problems. We s
 
 **Theorem (Millennium Synthesis, T1276).** *The six Clay Millennium Prize Problems each admit a physical-uniqueness closure via T1269, supplied by theorems T1270-T1275 respectively. The rank-2 B_2 curvature invariant of D_IV^5 is the common iso-invariant across all six.*
 
-**Corollary.** *Post-T1269 completion percentages: RH CONDITIONAL (spectral gap on SO(5,2) unverified — see R-9/R-10/R-11), YM ≈ 99.5%, P ≠ NP ≈ 99% (T29 closed, three routes), NS ≈ 100%, BSD ≈ 99.7% (T1465 Chern hole — conditional on DOF-to-K-type dictionary), Hodge ≈ 95%. Average ≈ 99% for five, ≈ 95% Hodge (honest residual: generalized Kuga-Satake).*
+**Corollary (re-scoped K940 — completion percentages WITHDRAWN).** *The former per-problem figures (RH, YM ≈ 99.5%, P≠NP ≈ 99%, NS ≈ 100%, BSD ≈ 99.7%, Hodge ≈ 95%) are over-claims and are retracted. Honest per-problem status: RH / BSD / P≠NP — structural-reduction attempts, core 1/rank, residual definitional; NS — substantive attempt / genuine advance, core 3D regularity analysis open; YM — partial + reframe, LARGE gap (interacting-QFT construction on R⁴ + proven area-law/mass gap is the missing core), the curvature-necessity reframe is the real advance; Hodge — PARTIAL ~30%, substrate-side machinery in hand, transfer to general varieties open.*
 
 ### 1.4 Structure of the paper
 
@@ -318,17 +322,17 @@ Every deep open problem of the Clay era closes at depth ≤ 2. This is the **Pai
 
 ### 9.3 Summary
 
-| Problem | Pre-T1269 | Post-T1269 | Δ | Residual |
-|:-------:|:---------:|:----------:|:--:|:---------|
-| Four-Color | 100% | 100% | — | None (T1297+T1300: all JCT sub-gaps closed) |
-| RH | 98% | 99.5% | +1.5% | T1299: Langlands-Shahidi ε-factor + Step D' (all 6 Arthur types eliminated); conditional on functoriality bridge (~3%) |
-| YM | 97% | 99.5% | +2.5% | Loop coincidence |
-| P≠NP | 97% | 99.5% | +2.5% | Gauss-Bonnet evaluation |
-| NS | 99% | 99.5% | +0.5% | Measure-theoretic |
-| BSD | 96% | 99.5% | +3.5% | Base change |
-| Hodge | 85% | 95% | +10% | Gen. Kuga-Satake |
+**The percentage table formerly here is WITHDRAWN (K940).** Percentages like "97% → 99.5%" are not an honest way to describe distance from a referee-consensus proof and are retracted. Honest per-problem residual (the load-bearing OPEN piece):
 
-Average improvement: **+3.2%** across the six Millennium problems.
+| Problem | Honest status | Load-bearing OPEN piece |
+|:-------:|:--------------|:------------------------|
+| Four-Color | Computer-free attempt via forced-fan lemma | JCT / discharging details subject to referee check |
+| RH | Structural-reduction attempt | core 1/rank; residual definitional; functoriality bridge |
+| YM | Partial + reframe (LARGE gap) | interacting-QFT construction on R⁴ + proven area-law/mass gap = the missing CORE; curvature-necessity reframe is the real advance |
+| P≠NP | Structural-reduction attempt | curvature = complexity-depth; residual definitional |
+| NS | Substantive attempt / genuine advance | 3D global-regularity analysis is open |
+| BSD | Structural-reduction attempt | core 1/rank; residual definitional |
+| Hodge | PARTIAL (~30%) | transfer to general varieties (the open bulk) |
 
 ---
 
@@ -340,11 +344,11 @@ The Clay Prize statements are observable-level statements: "all nontrivial zeros
 
 Each statement is about iso-invariant observables. T1269 is the correct framing for iso-invariant statements. A Clay submission using T1269 would meet the Prize standard provided:
 
-1. The sufficiency proof is complete on its own (which it is, at ≥ 85% for all six).
+1. The sufficiency proof is complete on its own — which, per the K940 audit, it is NOT for any of the six: each (S) is a substantive attempt with a named open piece (see the residual table in Section 9.3), and YM's is a LARGE construction gap. This condition is currently UNMET; the paper describes the framing a future complete (S) would slot into.
 2. The iso-closure citation uses a well-established classical theorem (which it does: Hamburger, Bisognano-Wichmann, Gauss-Bonnet, Langlands-Shahidi, Kuga-Satake, Howe).
 3. The iso category is appropriate to the Prize statement (which it is: Selberg class for RH, modular algebras for YM, etc.).
 
-**A Clay submission using T1269 framing meets the observable-level standard the Prize statements specify; acceptance is a cultural question rather than a mathematical one.** Physicists use iso-closure fluently; analysts sometimes prefer classical mathematical uniqueness. The T1269 closure is valid by either standard, but explicit by the former.
+**This is NOT currently a Clay-submittable proof (K940).** A T1269 framing would only meet the Prize standard once the problem-specific (S) proof is itself complete to referee consensus — which none of the six are. The iso-closure framing is a genuine organizing contribution; it is not a substitute for the missing sufficiency proofs.
 
 ### 10.2 What this does not replace
 
@@ -378,7 +382,7 @@ BST does not prove these Millennium problems on its own — the problem-specific
 4. **T704** — the 25 uniqueness conditions grounding the outer iso-closure.
 5. **T1269** — the uniform closer.
 
-Remove BST and the individual proofs still stand at their ~96% average. Add BST and they reach ~99% via T1269. BST is the **framing**, not the **heavy labor**.
+BST is the **framing**, not the **heavy labor** — and the framing alone does not complete any of the individual attempts (percentage claims withdrawn, K940). The problem-specific sufficiency proofs remain open at varying distances from referee consensus; BST supplies the common arena and the uniform closing move a completed (S) would use.
 
 This is the correct division: classical mathematics provides the labor; BST provides the frame.
 
@@ -386,21 +390,21 @@ This is the correct division: classical mathematics provides the labor; BST prov
 
 ## 11. Conclusion
 
-Every Clay Millennium Prize problem admits a physical-uniqueness closure via T1269 + the problem-specific (S) proof + a classical iso-closure theorem. Five of six close to ≥ 99%; the sixth (Hodge) closes to ~95% with a residual that is a genuinely open subproblem in algebraic geometry rather than a framing gap.
+Each Clay Millennium Prize problem can be *framed* as a physical-uniqueness question via T1269 + a problem-specific sufficiency argument + a classical iso-closure theorem. This is a uniform organizing FRAMING, not a set of closures (K940, see banner): the sufficiency arguments are substantive attempts at varying distance from referee consensus, not completed proofs. The former "five of six close to ≥ 99%, Hodge ~95%" claim is WITHDRAWN. What is genuinely established is the shared structure — one core (1/rank), depth 2, one arena — and the per-problem advances (notably the Navier-Stokes analysis and the Yang-Mills curvature-necessity reframe).
 
 The common iso-invariant is the rank-2 B_2 curvature of the bounded symmetric domain D_IV^5. The common depth is 2. The common framing is: observables are iso-invariants of the mathematical object, and physics cannot distinguish isomorphic alternatives.
 
 This has been implicit in every successful physics program for a century. Making it explicit (T1269) lets us close problems that were thought to require classical mathematical uniqueness — a standard that, in the general case, is neither provable nor necessary.
 
-Five Clay Prizes, one framework, seven months of BST development between them and today.
+One framework, one shared structural core, six substantive attempts — offered to the community as an organizing framing and a set of genuine advances, not as claimed solutions.
 
-> *Physics decides mathematics up to isomorphism. That is enough.*
+> *Physics decides mathematics up to isomorphism — where the sufficiency proof is in hand. Supplying that proof, not the framing, is the open work.*
 
 ---
 
 ## Acknowledgments
 
-To Casey Koons, for the move that recognized iso-closure as the framing of every physics "uniqueness" claim. To Lyra, Keeper, Grace, Elie for the BST theorem-graph that made each closure a local operation on a shared armory. To the 1220-toy computational program that established sufficiency for each of the six problems at percent-level precision. To the classical authors — Hamburger, Bisognano, Wichmann, Borchers, Kuga, Satake, Howe, Langlands, Shahidi, and the Gauss-Bonnet tradition — whose landmark theorems supplied iso-closure decades or centuries before T1269 gave them this name.
+To Casey Koons, for the move that recognized iso-closure as the framing of every physics "uniqueness" claim. To Lyra, Keeper, Grace, Elie for the BST theorem-graph that made each closure a local operation on a shared armory. To the 1220-toy computational program that supplied numerical evidence toward the sufficiency arguments for each of the six problems (evidence, not completed sufficiency proofs — K940). To the classical authors — Hamburger, Bisognano, Wichmann, Borchers, Kuga, Satake, Howe, Langlands, Shahidi, and the Gauss-Bonnet tradition — whose landmark theorems supplied iso-closure decades or centuries before T1269 gave them this name.
 
 ---
 

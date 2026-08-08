@@ -77,7 +77,7 @@ Verify that $D_{IV}^3$ fails to co-embed with sufficient constraint (because $m_
 $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$ is the unique symmetric space that simultaneously:
 
 1. **Derives the Standard Model** (gauge group, particle content, all masses and couplings)
-2. **Proves the Riemann Hypothesis** (via $m_s = 3$ Dirichlet kernel constraint)
+2. **Bears structurally on the Riemann Hypothesis** (via $m_s = 3$ Dirichlet kernel constraint) — a structural-reduction ATTEMPT, not a completed proof (K940, 2026-08-08; core reduces to 1/rank, residual definitional)
 3. **Explains GUE statistics** of $\zeta$-zeros (via $\text{SO}(2)$ time-reversal breaking)
 
 No other symmetric space accomplishes all three. This is not a coincidence — it is a consequence of the integers $(N_c, n_C, g, C_2, N_{\max}) = (3, 5, 7, 6, 137)$ being mutually determined.

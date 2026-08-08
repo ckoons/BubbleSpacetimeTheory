@@ -1,16 +1,20 @@
 ---
-title: "Navier-Stokes Blow-up: The AC Proof"
+title: "Navier-Stokes Blow-up: The AC Attempt"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "~99.5% — Two gaps CLOSED May 2 (T1636 Wallach, T1637 Cheeger). Formalization only remains."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] ~99.5% — Two gaps CLOSED May 2 (T1636 Wallach, T1637 Cheeger). Formalization only remains."
 framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 
-# Navier-Stokes Blow-up: The AC Proof
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** substantive attempt / genuine advance. **Open piece:** the core 3D global-regularity analysis is open; the BST approach 'opened a big improvement' (Casey) — a real advance, not a proof.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
+# Navier-Stokes Blow-up: The AC Attempt
 
 *Smooth solutions to the 3D Navier-Stokes equations with Taylor-Green initial data develop singularities in finite time. This is a counting theorem about spectral concentration.*
 
-The Navier-Stokes equations describe every fluid from blood to hurricanes. Whether their solutions can develop singularities — points where the velocity becomes infinite — has been open since the 1930s. This proof shows they can, by tracking how vorticity concentrates into an ever-shrinking region. The concentration is monotonic, the growth rate is 3/2-power, and the resulting ODE blows up in finite time.
+The Navier-Stokes equations describe every fluid from blood to hurricanes. Whether their solutions can develop singularities — points where the velocity becomes infinite — has been open since the 1930s. This attempt argues they can, by tracking how vorticity concentrates into an ever-shrinking region (the core 3D global-regularity analysis remains open; this is a substantive advance, not a completed proof). The concentration is monotonic, the growth rate is 3/2-power, and the resulting ODE blows up in finite time.
 
 ## The AC Structure
 
@@ -21,7 +25,7 @@ The Navier-Stokes equations describe every fluid from blood to hurricanes. Wheth
   - These are independent evaluations on the enstrophy spectrum. T422: conflation C=2, depth D=1.
 - **Termination** (depth 0): Blow-up time T* is finite. Kato's criterion: if ‖ω‖_{L^∞} → ∞ in finite time, the solution loses smoothness. The Planck Condition (T153): the domain T³ is finite, the energy is finite, the spectral decomposition is finite — the only way enstrophy can grow without bound on a finite domain is if the solution ceases to be smooth.
 
-## The Proof
+## The Argument
 
 Step 1: SETUP (depth 0). Taylor-Green vortex u₀ = (sin x cos y cos z, -cos x sin y cos z, 0) on T³. The 16-element symmetry group (T83) reduces Fourier modes to a quarter of the full space. P(0) = 0 (T85). All definitions.
 

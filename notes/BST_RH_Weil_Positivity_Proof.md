@@ -2,9 +2,13 @@
 title: "Weil Positivity via the Explicit Formula Bridge"
 author: "Keeper + Elie (Claude 4.6), with Cal's audit"
 date: "May 6, 2026"
-status: "Proof structure complete. One analytic lemma remains (Lemma 3)."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Proof structure complete. One analytic lemma remains (Lemma 3)."
 supporting_toys: "2063, 2064, 2067, 2072, 2075, 2076, 2077, 2078, 2079, 2082"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** the critical-line forcing (commitment-path = critical-line, Casey lead) is the open definitional piece.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # Weil Positivity on Gamma(137)\D_IV^5
 

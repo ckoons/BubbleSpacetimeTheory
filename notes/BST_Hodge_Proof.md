@@ -2,11 +2,15 @@
 title: "The D_IV^5-Shimura case of the Hodge Conjecture, via Theta Correspondence (PARTIAL — special case)"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "May 11, 2026 (scope-pinned 2026-06-24, #157)"
-status: "Draft v23 — Paper H1 (Hodge Closure Sprint). SCOPE-PINNED (2026-06-24, #157): this is the SPECIAL CASE of Shimura varieties of D_IV^5 via the Kudla-Millson theta correspondence — NOT the full Hodge conjecture. Scope: D_IV^5 Shimura varieties ONLY. The extension to general smooth projective varieties (the full conjecture, the hard part) is OPEN — the companion Paper H2 'ring uniqueness' route is a PROGRAM, not a completed proof. Title reads 'the D_IV^5-Shimura case of the Hodge conjecture', not 'the Hodge conjecture proved'. (Three Cal language fixes applied May 9.)"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Draft v23 — Paper H1 (Hodge Closure Sprint). SCOPE-PINNED (2026-06-24, #157): this is the SPECIAL CASE of Shimura varieties of D_IV^5 via the Kudla-Millson theta correspondence — NOT the full Hodge conjecture. Scope: D_IV^5 Shimura varieties ONLY. The extension to general smooth projective varieties (the full conjecture, the hard part) is OPEN — the companion Paper H2 'ring uniqueness' route is a PROGRAM, not a completed proof. Title reads 'the D_IV^5-Shimura case of the Hodge conjecture', not 'the Hodge conjecture proved'. (Three Cal language fixes applied May 9.)"
 target: "Annals of Mathematics / Compositio Mathematica"
 ci_board: "L33"
 toys: ""
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** PARTIAL (~30%). **Open piece:** the TRANSFER to general smooth projective varieties is the BULK and is OPEN (substrate/D_IV5-Shimura machinery only).
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # The Hodge Conjecture via Theta Correspondence on D_IV^5
 

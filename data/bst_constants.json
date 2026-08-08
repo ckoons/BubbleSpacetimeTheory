@@ -167,7 +167,7 @@
   },
   {
    "id": "const_003",
-   "theorem_id": "T188",
+   "theorem_id": "T201",
    "name": "Newton's gravitational constant",
    "symbol": "G",
    "formula_latex": "G = \\hbar c (6\\pi^5)^2 \\alpha^{24} / m_e^2",
@@ -247,7 +247,7 @@
   },
   {
    "id": "const_005",
-   "theorem_id": "T201",
+   "theorem_id": "T1243",
    "name": "Strong CP angle",
    "symbol": "theta_QCD",
    "formula_latex": "\\theta_{QCD} = 0",
@@ -356,7 +356,7 @@
   },
   {
    "id": "const_008",
-   "theorem_id": "T230",
+   "theorem_id": "T200",
    "name": "Higgs boson mass (Route A)",
    "symbol": "m_H",
    "formula_latex": "m_H = v\\sqrt{2\\sqrt{2/n_C!}} = 125.11\\text{ GeV}",
@@ -393,7 +393,7 @@
   },
   {
    "id": "const_009",
-   "theorem_id": "T231",
+   "theorem_id": "T200",
    "name": "Higgs boson mass (Route B)",
    "symbol": "m_H",
    "formula_latex": "m_H = (\\pi/2)(1-\\alpha)m_W = 125.33\\text{ GeV}",
@@ -475,7 +475,7 @@
   },
   {
    "id": "const_011",
-   "theorem_id": "T280",
+   "theorem_id": "T197",
    "name": "Weak mixing angle (Weinberg angle)",
    "symbol": "sin^2(theta_W)",
    "formula_latex": "\\sin^2\\theta_W = N_c/(N_c + 2n_C) = 3/13",
@@ -515,7 +515,7 @@
   },
   {
    "id": "const_012",
-   "theorem_id": "T281",
+   "theorem_id": "T290",
    "name": "W boson mass",
    "symbol": "m_W",
    "formula_latex": "m_W = n_C m_p/(8\\alpha) = 80.361\\text{ GeV}",
@@ -537,22 +537,23 @@
     "m_W = n_C * m_p/(8*alpha) = 5 * 938.272/(8/137) / 1000 = 80.361 GeV"
    ],
    "category": "electroweak",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "mechanism": "W mass from electroweak sector of D_IV^5: m_W = n_C*m_p/(8*alpha).",
+   "k1283_ruling": "K1283 (2026-08-08, Keeper-adjudicated, Cal-confirmed, task #87 closed): m_W = PD explicit-split. FORM m_W = n_C*m_p/(8*alpha) is INDEPENDENT of sin^2 theta_W (NOT capped by the Weinberg demotion) -- n_C, m_p, alpha all forced. BUT the '8' is NOT uniquely forced: Elie found >=6 BST composites equal 8 (2*rank^2, N_c^2-1, 2^N_c, ...) and the selecting mechanism is only Framework. So the form has one unforced element -> bare Derived over-stated -> PD (form mostly-forced; the 8-selection Framework). Same discipline as the four theta_13 forms. Confirmation 0.02% vs observed unaffected (accuracy orthogonal to tier). Keeper-adjudicated per tier-map role; Casey override available. NOTE downstream: m_Z (const_013) rides m_W -> update its chain 'm_W (Derived)' to 'm_W (PD)'.",
    "domain": "electroweak",
    "source_section": "Section 9",
    "source_theorems": [
     "T281"
    ],
    "source_toys": [],
-   "status": "derived",
+   "status": "identified",
    "ace": "(0,0)",
-   "publication_tier": "Derived"
+   "publication_tier": "Partially-Derived (explicit-split: form mostly forced [n_C,m_p,alpha]; the '8' selection is Framework, not uniquely forced)"
   },
   {
    "id": "const_013",
-   "theorem_id": "T283",
+   "theorem_id": "T291",
    "name": "Z boson mass",
    "symbol": "m_Z",
    "formula_latex": "m_Z = m_W/\\cos\\theta_W = m_W/\\sqrt{10/13}",
@@ -569,15 +570,16 @@
     "N_max"
    ],
    "derivation_chain": [
-    "m_W = 80.361 GeV (derived)",
+    "m_W = 80.361 GeV (PD per K1283 -- the 8 not uniquely forced)",
     "sin^2(theta_W) = 3/13 (Structural/Identified per K1263 — Chern ratio c_5/c_3 is Derived-as-math, but the physical identification is Structural)",
     "cos(theta_W) = sqrt(1 - 3/13) = sqrt(10/13)",
     "m_Z = m_W/cos(theta_W) = 80.361/sqrt(10/13)"
    ],
    "category": "electroweak",
-   "tier": "D",
+   "tier": "PD",
    "ac_depth": 1,
    "mechanism": "Z mass = m_W/cos(theta_W) with sin^2(theta_W) = 3/13 derived from isotropy chain.",
+   "k1276_monotonicity_ruling": "K1276 (2026-08-08, Casey ruling APPLIED): m_Z = PD explicit-split. FORM DERIVED: m_Z = m_W (Derived via the independent n_C*m_p/(8*alpha) route) x sqrt(c_3/(rank*c_1)) = sqrt(13/10), the Chern factor Derived-as-math. VALUE rides the Structural sin^2 theta_W identification (K1263). Monotonicity (Cal's rule): a quantity cannot out-rank its least-derived input; m_Z's least-derived input (the mixing identification) is Structural -> tier PD (Partially-Derived, explicit-split: forced form / Structural physical value). Supersedes the k1271 'proposed, pending' status. Accuracy vs observed m_Z unaffected (orthogonal to tier).",
    "k1271_tier_consistency": "K1271 downstream check (Grace 2026-08-07): m_Z RIDES sin^2 theta_W (via cos theta_W = sqrt(10/13)). m_W (const_012) does NOT ride it (n_C*m_p/(8*alpha)) -> m_W stays Derived. But m_Z = m_W/cos theta_W passes through the sin^2 theta_W IDENTIFICATION, now Structural/Identified (K1263) -- and the apparent independent Chern route m_Z = m_W/sqrt(rank*c_1/c_3) is NOT independent (rank*c_1/c_3 = 10/13 = cos^2 theta_W, the same factor). The Chern RATIO 10/13 is Derived-as-math, but calling the result the physical Z mass requires the Structural mixing identification. So bare tier D is INCONSISTENT: m_Z cannot be cleaner than the sin^2 theta_W it rides. PROPOSE (Casey governance call): const_013 D -> Structure-Derived/Identified (form forced via m_W-Derived x Chern-factor; physical value rides the Structural mixing identification). Not executed -- tier field stays D pending Casey. Confirmation vs observed m_Z unaffected (accuracy is orthogonal to tier).",
    "domain": "electroweak",
    "source_section": "Section 9",
@@ -587,7 +589,7 @@
    "source_toys": [],
    "status": "derived",
    "ace": "(0,0)",
-   "publication_tier": "Derived"
+   "publication_tier": "Partially-Derived (explicit-split: form forced [m_W-Derived x Chern factor]; physical value rides Structural sin^2 theta_W)"
   },
   {
    "id": "const_014",
@@ -936,7 +938,7 @@
   },
   {
    "id": "const_023",
-   "theorem_id": "T331",
+   "theorem_id": "T1932",
    "name": "Atmospheric neutrino mixing angle",
    "symbol": "sin^2(theta_23)",
    "formula_latex": "\\sin^2\\theta_{23} = \\frac{n_C-1}{n_C+2} \\cos^2\\theta_{13} = \\frac{4}{7} \\cdot \\frac{44}{45}",
@@ -1401,7 +1403,7 @@
   },
   {
    "id": "const_036",
-   "theorem_id": "T398",
+   "theorem_id": "T295",
    "name": "Electron g-2 anomalous moment",
    "symbol": "a_e",
    "formula_latex": "a_e = \\alpha/(2\\pi)",
@@ -1822,7 +1824,7 @@
   },
   {
    "id": "const_047",
-   "theorem_id": "T195",
+   "theorem_id": "T203",
    "name": "Baryon-to-photon ratio",
    "symbol": "eta",
    "formula_latex": "\\eta = 2\\alpha^4/(3\\pi)",
@@ -2244,7 +2246,7 @@
   },
   {
    "id": "const_059",
-   "theorem_id": "T702",
+   "theorem_id": "T172",
    "name": "Periodic table period ratio",
    "symbol": "P_3/P_2",
    "formula_latex": "P_3/P_2 = g/n_C = 7/5",

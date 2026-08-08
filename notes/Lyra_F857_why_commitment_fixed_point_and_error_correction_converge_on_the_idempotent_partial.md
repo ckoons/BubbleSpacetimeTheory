@@ -1,0 +1,43 @@
+# F857 — why-commitment deep-dive #1+#5 (my lane): fixed-point and error-correction converge on ONE object (the idempotent code-projector), but the convergence is PARTIAL — #5 = #1 + distance. Tiered honestly, boundary marked. **Conceptual investigation (RUBRICS Layer-2 conceptual done-bar); NOT a physics claim — a map of what is forced vs framework vs open.**
+
+**Lyra, Saturday 2026-08-08. Keeper's why-commitment catalog assigned me the #1 (fixed-point/self-consistency) + #5 (error-correction) convergence: "is a stable codeword ONE condition, and does D_IV⁵ force it?" Answer: they share a real, exhibitable core (Derived), the error-correction content beyond it is Framework (rides on confinement), and the specific-code-forcing is OPEN (F853 retracted). Calibrated both directions — I do NOT over-claim the convergence, and I credit the genuine forced piece.**
+
+## The question, answered: #1 and #5 converge on the idempotent, but #5 is strictly stronger
+- **The shared object (verified, standard QEC):** a stabilizer code's codespace projector is P = ∏ᵢ(I+gᵢ)/2, an **idempotent** (P² = P), and a codeword is its **fixed point** (Pψ = ψ). So #1's "stable idempotent" and #5's "codeword" are two views of ONE object: the idempotent IS the code projector, the codeword IS the fixed point. (Gottesman stabilizer formalism / Nielsen–Chuang; verified on a 2-qubit toy here.)
+- **Where they DIVERGE (the honest part):** an *arbitrary* idempotent gives a subspace = a **record**, but not necessarily an *error-correcting* code. #5 adds **distance ≥ 2** (codewords separated enough that a single error is detectable). So:
+> **#5 (error-correcting codeword) = #1 (idempotent/fixed-point) + distance ≥ 2 (separation/redundancy).**
+- The idempotent is **necessary but not sufficient** for error-correction; the distance is the extra content. So the convergence is real but PARTIAL — they are not the same condition, and saying so is the honest result.
+
+## Does D_IV⁵ force it? — tier each piece
+| piece | claim | BST realization | tier |
+|---|---|---|---|
+| **#1 core** | a committed record is an idempotent (e²=e), spectrum ⊆{0,1} = a bit | Code-Forces-Fermion (T2543, item-10) | **Derived** |
+| **#1↔#5 link** | the idempotent IS the code projector; codeword = fixed point | standard QEC identity (Gottesman) | **Framework** (real, exhibitable, general) |
+| **#5 extra: distance ≥ 2** | codewords separated → single error detectable → *redundancy* | distance ≥ 2 ⟺ color-singlet (single-color error changes color charge; F813) | **Framework** — rides on confinement (A-Schur, §3 flagship), not the area-law (B, YM gap) |
+| **specific-code forcing** | D_IV⁵ forces a *particular* code → the dimension via coding | **F853 RETRACTED** (Hamming-length closure was false — Shor [[9,1,3]] at length 9 exists) | **OPEN** — the real dimension-forcing route is spectral (Paper B / Selberg), NOT coding |
+
+## The bonus convergence with #4 (Zurek) — honest, and it sharpens the boundary
+#5's extra content (distance ≥ 2) is **redundancy**: a distance-≥2 code is a redundant encoding. That IS Zurek's quantum-Darwinism redundancy (#4, Elie's lane) — redundancy = readability by many observers = *observability*. So the three converge cleanly on their shared spine:
+> **a persistent record = an idempotent (Derived) whose codespace is redundant / distance ≥ 2 (Framework, = the #4/#5 bridge, rides on confinement).**
+This is the useful map: the FIXED-POINT is the forced floor (item-10); the REDUNDANCY/DISTANCE is the bridge to "why observers" (#4) and "error-correction" (#5), Framework-tier, gated on confinement; and it does NOT reach down to force the dimension (that's spectral, not coding — F853 retracted).
+
+## The boundary (RUBRICS conceptual done-bar — marked explicitly)
+- **Derived physics (left of the hyphen, safe):** a committed record is an idempotent = a bit (item-10, T2543). This is the only *forced* piece.
+- **Framework (credible, exhibitable, not sold as Derived):** idempotent↔code-projector identity; distance-≥2 ⟺ color-singlet; the convergence #1+#5+#4 on "redundant persistent record."
+- **Open:** whether D_IV⁵ forces a *specific* error-correcting code, and hence the dimension via coding — NO (F853 retracted; the honest dimension-forcing route is the spectral/Selberg pincer, Paper B). The distance-≥2 leg's own forcing rides on confinement (A-Schur, Structural).
+- **Out of scope (interpretation, right of the hyphen):** "why observers are necessary" as *telos*, "is the universe thinking" — layer 3 of the catalog; consistent with Casey's antenna view, NOT derived from BST. ROADMAP §9 Known-Unknowns.
+- **Separated from the physics claim (done-bar requirement):** "matter is a codeword" is an *interpretation* of item-10 (candidate/Framework), NOT a derived physics claim. It must not leak into any external artifact as "derived." The derived statement is only: *a record is an idempotent/bit.*
+
+## RUBRICS Layer-2 conceptual done-bar
+- [x] Candidate mechanisms cataloged (#1 fixed-point, #5 error-correction, their shared idempotent, the #4 redundancy bridge).
+- [x] Each tiered (Derived core / Framework link+distance / Open specific-code / out-of-scope telos).
+- [x] Boundary marked (Derived = record-is-idempotent; Framework = redundancy/distance; Open = dimension-via-coding retracted; interpretation = telos).
+- [x] Separated from the physics claim (the codeword reading is candidate interpretation, never external-as-derived).
+
+## Handoffs
+- **@Keeper (synthesis)** — #1+#5 converge on the idempotent (the forced floor = item-10) and diverge on distance (Framework, = the #4/#5 redundancy bridge, gated on confinement). Do NOT let the convergence route to "dimension forced by coding" — F853 is retracted; the dimension-forcing frontier stays spectral (Paper B). If the convergence lands anywhere for the D_IV⁵ selection principle, it's "the geometry must host a *redundant* idempotent record," not "the code forces n_C."
+- **@Elie (#4)** — the bridge is exact: your Zurek redundancy = my #5 distance ≥ 2. The shared question: is "distance ≥ 2 / redundant encoding" computable on the substrate as the color-singlet condition? If so, #4 and #5 are one Framework result (redundancy = observability = color-singlet-ness), gated on confinement.
+- **@Cal** — tiering to vet: only "record = idempotent = bit" is Derived (item-10). Everything about *codes / error-correction / redundancy* is Framework, and the *dimension-via-coding* claim is retracted (F853). Guard that no external artifact promotes "matter is an error-correcting code" past candidate.
+- **@Casey** — the honest one-line answer to "is a stable codeword one condition": *almost.* A committed record being a stable idempotent — a thing that squares to itself, a bit — is forced, and it's the same object a quantum error-correcting code is built from (the code is literally an idempotent, the codeword its fixed point; I checked it). But "a record" and "an error-correcting record" differ by one thing: the codewords must be spread apart so a single error is caught — *distance*, which is redundancy. That extra piece is exactly what makes a record *readable by many observers* (Zurek's point, Elie's thread), and in BST it's the color-singlet requirement — real and pretty, but it rides on confinement, so it's Framework, not forced. And the tempting move — "so the code forces the five dimensions" — is the one I got wrong last week and retracted; the dimension is forced spectrally, not by counting code lengths. So: the *fixed point* is the bedrock (forced); the *redundancy* is the bridge to observers (framework); the *dimension* is not this story's to claim. Nothing pushed.
+
+Notes only; no toy/theorem claimed (conceptual deep-dive, tiered). F857: why-commitment #1+#5. #1 (fixed-point idempotent) and #5 (error-correcting codeword) share ONE object — the code projector IS an idempotent, codeword = fixed point (Gottesman; verified) — but #5 = #1 + distance≥2 (redundancy); idempotent necessary not sufficient. Tiers: record=idempotent=bit DERIVED (T2543 item-10); idempotent↔code link FRAMEWORK; distance≥2 ⟺ color-singlet FRAMEWORK (rides confinement A-Schur); specific-code→dimension OPEN (F853 retracted, real route spectral/Paper B). Bonus: distance≥2 = redundancy = Zurek #4 (Elie) = observability. Boundary: Derived floor = record-is-idempotent; Framework = redundancy/distance bridge to observers; Open = dimension-via-coding; interpretation = telos (layer 3, out of scope). "Matter is a codeword" = candidate interpretation, never external-as-derived. — Lyra

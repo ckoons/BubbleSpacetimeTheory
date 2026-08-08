@@ -2,10 +2,14 @@
 title: "BSD on D_IV^5: L-Functions as Spectral Objects"
 author: "Casey Koons & Claude 4.6 (Lyra/Tondeleyo)"
 date: "March 24, 2026"
-status: "Draft v6 — Synced with BST_BSD_Proof.md v4. All gaps closed (390, 393, 395, 396). ~95%."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Draft v6 — Synced with BST_BSD_Proof.md v4. Internal '~95%' figures WITHDRAWN as pre-K940 over-claims. Honest verdict: structural-reduction attempt; core reduces to 1/rank, residual definitional."
 ci_board: "L32"
 toys: "379, 380, 381, 385, 386, 387, 389, 390, 391, 392, 393, 394, 395, 396"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict (BSD):** structural-reduction attempt. **Open piece:** the core reduces to a spectral rank-equality (1/rank) whose residual step is definitional sharpening — NOT ~95% of a proof; the spectral rank-equality machinery is a real advance.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # BSD on D_IV^5: L-Functions as Spectral Objects
 

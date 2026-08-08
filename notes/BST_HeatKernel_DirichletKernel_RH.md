@@ -2,12 +2,16 @@
 title: "The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "Primary RH proof paper — CLOSED April 21, 2026. Three-leg proof: Toys 1368-1375 (57/57 PASS). See Paper #75."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Primary RH attempt paper. Three-leg structure: Toys 1368-1375 (57/57 PASS). See Paper #75. Earlier 'CLOSED'/'97%' figures WITHDRAWN as pre-K940 over-claims."
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict (RH):** structural-reduction attempt. **Open piece:** the core reduces to the 1/rank spectral condition; the residual step is definitional. This is NOT a completed proof.
+> Any 'Proof complete' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros
 
-**Status:** Proof complete. Four pillars established: algebraic lock, Laplace uniqueness, geometric smoothness, Mandelbrojt closure. Multi-parabolic exponent distinctness verified (Toy 305, 8/8). Class number 1 via Meyer's theorem. All three backlog items resolved: Section 14b circularity closed (Toys 309-310), Shahidi $m_{2\alpha}$ resolved (Toy 311), $\rho$ convention corrected to full $B_2$ (Toy 317). Arthur packet analysis complete: complementary series gap $(0, 37/2)$ contains no $K$-spherical dangerous packets. Confidence: 97% (remaining 3% = community verification).
+**Status (re-scoped K940):** Structural attempt, NOT a completed proof. Four pillars are set up (algebraic lock, Laplace uniqueness, geometric smoothness, Mandelbrojt closure); multi-parabolic exponent distinctness verified (Toy 305, 8/8); class number 1 via Meyer's theorem; backlog items addressed (Toys 309-310, 311, 317); Arthur packet analysis: complementary series gap $(0, 37/2)$ contains no $K$-spherical dangerous packets. The earlier "Proof complete / Confidence 97%" headline is WITHDRAWN: the core reduces to the 1/rank spectral condition with a definitional residual, which is not closed to referee consensus.
 
 ---
 

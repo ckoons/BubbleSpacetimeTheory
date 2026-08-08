@@ -1,0 +1,30 @@
+# K1295 — The c-theorem #79 forcing SURVIVES Cal's 3 conditions at I-tier (Wyler trap cleared). Result: #79 REDUCES entirely to "is D_IV⁵ forced" = the K943 minimality audit (CONDITIONAL + a 2nd evidence line).
+
+**Keeper (Lane 3, solo — my frontier lane), 2026-08-08 PM. Cal set three blind conditions to promote the c-theorem descent-forcing from candidate. Addressing all three, corpus-grounded (not memory). They pass GIVEN the geometry, at I-tier — which collapses #79 to one question. Cal audits (I don't self-pass). #79 stays OPEN; this localizes it.**
+
+## Cal's three conditions, addressed
+
+### Condition 1 — is the Bergman flow genuinely an RG flow (not an analogy)? — SUPPORTED, I-tier
+The **Bergman radial direction = the holographic RG scale.** This is the standard holographic identification (bulk radial = boundary RG energy), and BST realizes it concretely: **Rehren algebraic holography (T2113, DONE)** — local algebra A(O) on the D_IV⁵ bulk ≅ A_∂(O∩Q⁵) on the Shilov boundary — made rigorous at the partition-function level (BST_Bulk_Boundary_Partition_Identity). So the c-function decreasing along the Bergman direction IS the holographic c-theorem, not an analogy. **Caveat (honest): Rehren/T2113 is an I-tier proof-sketch**, so condition 1 is *supported at I-tier*, not fully closed.
+
+### Condition 2 — is c_UV = 137 target-innocent, not fit? — CLEAN (the live trap is cleared)
+c_UV = N_max = 137 is the **spectral cap** — the full eigentone count, the maximum number of modes the domain supports (APG-2: N_max is the spectral cap; BST_22: "Spectral maximum"). It is **N_max = N_c³·n_C + rank = 137** (the counting formula, K701 charge/capacity-count, IDENTIFIED). **This is NOT the retired Wyler-137** (K676, the volume-ratio numerology integral). The c-flow's UV value is the *mode-count*, derived from the integer formula — target-innocent. **Trap cleared:** the c-flow does not resurrect Wyler; it uses the spectral cap. The flow is monotone by construction (each Bergman step decouples one eigentone, c→c−1, 137→6).
+
+### Condition 3 — does irreversibility force the descent UNIQUELY (not just consistently)? — YES, given the geometry
+The descent *path* is not free: the **K-Casimir spectrum** forces the decoupling order (modes decouple in spectral order; the slowest — the spectral gap — is the irreducible IR floor). So irreversibility + the spectrum force a **unique** cascade 137 → C_2 = 6, floored at the IR fixed point c_IR = C_2 (T2112). Unique *given the geometry* (the spectrum is D_IV⁵'s). **[CORRECTED per K1294: the earlier "λ₁ = C_2 = the Einstein constant (Obata)" is RETRACTED — Obata is sphere-only, and for Q⁵ the general bound is E < λ₁, so λ₁ ≠ Einstein constant. The reduction below is UNAFFECTED — it rests on c_IR = C_2 (the minimum K-type, T2112), not on any Einstein-constant claim. Also owed: verify the exact Q⁵ spectrum (the corpus λ_k=k(k+n) is a sphere formula, possibly misapplied to the complex quadric).]**
+
+## The result: all three pass GIVEN the geometry → #79 REDUCES to one question
+Every condition passes *conditional on D_IV⁵* (its Shilov boundary, its spectrum, its spectral cap). So **the c-theorem forces the entire descent — direction (irreversibility = commitment permanence), endpoint (c_IR = C_2, the minimum K-type per T2112 — NOT "= the Einstein constant"; that Obata claim is retracted), and path (the spectral cascade) — GIVEN the geometry, at I-tier.** Therefore:
+
+> **#79 ("does commitment force the geometry / is the conformal descent forced?") reduces ENTIRELY to its core: IS D_IV⁵ FORCED? — which is exactly the K943 minimality audit (task #27).** Everything downstream of the geometry is now forced (I-tier). The frontier is one question, cleanly localized.
+
+## Where the core (K943) stands — two evidence lines
+- **Line 1 (construction):** K943 — the forcing chain minimality → domain → five integers — ruled **CONDITIONAL** (forced under the stated minimality premises; the premises are the open part). Load-bearing, not closed.
+- **Line 2 (convergence, independent):** the **four-framework convergence** on D_IV⁵ (causal sets + Causal Fermion Systems + information-theoretic codeword + 𝔽₁/RH). A *fitted* object has no reason to be the independent convergence point of frameworks built for other purposes — so **P(convergence | forced) ≫ P(convergence | fitted)** (BST_Daily_Record_2026-08-06). And **BST = MUH + a selection principle** (one forced structure, answering Tegmark's measure problem).
+
+So #79's core has a conditional construction (K943) AND an independent convergence argument — genuinely better-supported than "open," but not closed (the minimality premises remain the load-bearing question).
+
+## Honest tier
+#79 stays **OPEN** — but reduced and better-supported: (a) the descent-half is I-tier-forced given the geometry (Cal's 3 conditions supported, condition 2 clean); (b) the core (is D_IV⁵ forced) = K943 (CONDITIONAL) + the convergence line. The remaining load-bearing question is precisely the **minimality premises of K943** — that, and only that, is what "is the geometry forced" now rests on. Λ Structural; conditional on T2112 (Tier I) + Rehren (I-tier). Cal audits. Feeds the Forcing+Evidence paper (#31) and the Tegmark hook (#25: BST = MUH + selection).
+
+— Keeper, K1295, 2026-08-08. Cal's 3 #79 conditions pass GIVEN the geometry at I-tier: (1) Bergman = holographic RG via Rehren T2113 (I-tier); (2) c_UV=137 is the spectral cap N_max=N_c³·n_C+rank (K701/APG-2), NOT retired Wyler-137 (K676) — trap cleared; (3) the K-Casimir spectrum forces the unique cascade 137→C_2, floored at c_IR=C_2 (T2112 minimum K-type; the "=Einstein const via Obata" is RETRACTED — Obata sphere-only). ⟹ the c-theorem forces the whole descent given the geometry ⟹ #79 REDUCES to "is D_IV⁵ forced" = K943 minimality audit (CONDITIONAL) + the 4-framework convergence line (P(conv|forced)≫P(conv|fitted); BST=MUH+selection). #79 stays OPEN but is now one localized question (the K943 minimality premises), descent-half I-tier-forced. Cal audits. Nothing pushed.

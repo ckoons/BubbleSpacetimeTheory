@@ -2,10 +2,14 @@
 title: "Four-Color Theorem: The AC Proof (Double-Swap)"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 29, 2026"
-status: "PROVED — ALL 13 STEPS. T154 (Conservation of Color Charge) + T155 (Chain Dichotomy — Lyra's Closure, Toy 439 8/8). strict_tau(4) + crosslinks(≤1) = tau(≤5). AC(0) depth 2. First human-readable, computer-free proof."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] PROVED — ALL 13 STEPS. T154 (Conservation of Color Charge) + T155 (Chain Dichotomy — Lyra's Closure, Toy 439 8/8). strict_tau(4) + crosslinks(≤1) = tau(≤5). AC(0) depth 2. First human-readable, computer-free proof."
 framework: "AC(0) (C=1, D=2) — genuine depth 2 (unbounded induction)"
 version: "v9 (Conservation of Color Charge)"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** 1/rank-load-bearing; residual is definitional.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # Four-Color Theorem: The AC Proof (Double-Swap)
 

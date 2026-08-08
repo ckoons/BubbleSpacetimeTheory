@@ -2334,6 +2334,31 @@
    "source_section": "CP frontier",
    "k1025_note": "K1025 (2026-07-30, Casey's CP catch): δ_PMNS=2/7 (~197°), a LAW matching data — corrected from the erroneous 'near-maximal ~270°' (a CKM feature miscarried to leptons). Caught before it reached this package or the paper.",
    "k1029_note": "K1029: upgraded to a target-innocent FORWARD δ prediction (the sum rule predicts δ, not θ₂₃). Far from 197° refutes."
+  },
+  {
+   "id": "pred_123",
+   "name": "Λ-fluctuation statistics — sub-Poisson (Pauli-suppressed), a distinct commitment-count signature",
+   "category": "cosmology_fluctuation",
+   "prediction": "BST's cosmological-constant fluctuations are SUB-Poisson, not Poisson. Sorkin's everpresent-Λ assumes random (Poisson) sprinkling → Fano=Var(N)/⟨N⟩=1. In BST the committed records are FERMIONS (T2543) → Fermi-Dirac/Pauli → Fano<1 (sub-Poisson): SMALLER, more-regular Λ-fluctuations than Sorkin. The SIGN is target-innocent, forced by the banked fermionic-record result; the amplitude is set by the cosmological occupancy (Fano floor ≈0.73 degenerate → 1 dilute; exact = Elie's D_IV⁵ rank-2 occupancy toy).",
+   "bst_value": "Fano = Var(N)/⟨N⟩ < 1 (sub-Poisson); ≈0.73 degenerate-regime floor (amplitude open pending occupancy)",
+   "current_measurement": "everpresent-Λ amplitude under test; data mildly favor suppressed/evolving dark energy (DESI wₐ>0 direction)",
+   "experiment": "everpresent-Λ / fluctuating-Λ amplitude tests (arXiv:2307.13743)",
+   "timeline": "testable now / near-term",
+   "falsification_criterion": "a measured Poisson (Fano=1) or SUPER-Poisson (Fano>1) Λ-fluctuation falsifies the fermionic-record commitment picture; sub-Poisson (Fano<1) confirms the direction",
+   "impact_if_falsified": "contradicts T2543 (matter=fermion) driving commitment statistics — a real kill on the commit↔causal-set map, not a parameter miss",
+   "status": "structural_forward",
+   "tier": "S",
+   "boundary_note": "K741 quote-anything: predicts the fluctuation STATISTICS/SIGN, NOT Λ's value. Λ stays Structural. The Λ~1/√V magnitude is Sorkin's (consistency web) inherited via commit=causal-set; BST's distinct contribution is the sub-Poisson SIGN. Never external as 'BST derives dark energy'.",
+   "bst_integers_used": [
+    "N_c"
+   ],
+   "related_theorems": [
+    "T2546",
+    "T2543",
+    "T2405"
+   ],
+   "source_section": "a₀=Λ rung / why-commitment frontier (K1288)",
+   "k1288_note": "Grace 2026-08-08. Sign banked Structural (T2546); amplitude → Elie's occupancy toy. Do NOT promote past sign+consistency; the forcing is upstream."
   }
  ]
 }

@@ -2,9 +2,13 @@
 title: "Yang-Mills Mass Gap: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "~99% — Confinement CLOSED May 2 (T1637 Cheeger). Mass gap discrete (T1636 Wallach). Constructive QFT formalization remains."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] ~99% — Confinement CLOSED May 2 (T1637 Cheeger). Mass gap discrete (T1636 Wallach). Constructive QFT formalization remains."
 framework: "AC(0) (C=1, D=1) — single spectral evaluation"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** partial + reframe (gap LARGE). **Open piece:** the R^4 interacting-QFT + area-law mass-gap CORE is missing; real content = domain-construction + color-confinement (Derived) + AF-sign (Derived) + mass-gap VALUE (Identified) + curvature-necessity reframe.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # Yang-Mills Mass Gap: The AC Proof
 

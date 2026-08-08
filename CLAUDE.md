@@ -316,6 +316,7 @@ This repo is a **living library**. We update every day.
 |---------|---------|
 | `/ac0` | Apply AC(0) thinking — simplest tool first, then route around walls |
 | `/route` | Wall routing — search graph for alternative paths through other domains |
+| `/take_a_break` | Relaxed restart — re-ground against the source (clock + today's state + guards) to cut context-DRIVEN mistakes. Re-grounds, does NOT shrink context (pair with `/compact`). Runs `play/take_a_break.sh`. Not an EOD. |
 | `/toy` | Claim toy numbers, register completed toys |
 | `/theorem` | Claim theorem IDs, register to graph databank |
 | `/pdf` | Build PDFs from markdown — single file, directory, or batch. Every paper .md needs a .pdf. |

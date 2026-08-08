@@ -2,11 +2,15 @@
 title: "The Birch and Swinnerton-Dyer Conjecture via Spectral Geometry on D_IV^5"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "Draft v4 — P₂ Langlands-Shahidi, Sha-independence, two-direction rank equality. All numerical gaps closed (Toys 390, 393, 395, 396). K37 CONDITIONAL PASS. ~93%. Narrative rewrite (Keeper)."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Draft v4 — P₂ Langlands-Shahidi, Sha-independence, two-direction rank equality. All numerical gaps closed (Toys 390, 393, 395, 396). K37 CONDITIONAL PASS. ~93%. Narrative rewrite (Keeper)."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ci_board: "L32"
 toys: "379, 380, 381, 385, 386, 387-396"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** the 1/rank core is definitional sharpening, NOT ~95% of a proof; spectral rank-equality machinery is real.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # The Birch and Swinnerton-Dyer Conjecture via Spectral Geometry on D_IV^5
 
@@ -19,7 +23,7 @@ In 1965, Bryan Birch and Peter Swinnerton-Dyer made one of the most audacious co
 
 The conjecture connects two worlds that seem unrelated: the arithmetic of rational solutions (counting points, a discrete problem) and the analytic behavior of L-functions (a continuous problem in complex analysis). For sixty years, the bridge between these worlds has been missing. This paper builds it, using the spectral geometry of D_IV^5 to show that the same root system that forces the Riemann Hypothesis also forces the BSD conjecture.
 
-We prove the Birch and Swinnerton-Dyer conjecture for elliptic curves over Q: the analytic rank equals the Mordell-Weil rank, the BSD formula holds, and the Tate-Shafarevich group is finite.
+We give a structural-reduction attempt at the Birch and Swinnerton-Dyer conjecture for elliptic curves over Q — reducing the core (analytic rank equals Mordell-Weil rank, the BSD formula, finiteness of Sha) to a spectral rank-equality (1/rank) whose residual step is definitional sharpening. This is NOT a completed proof; per the K940 audit (see banner) the spectral rank-equality machinery is a genuine advance, but the last step is not closed to referee consensus.
 
 The proof has two components. First, we extend [Koons 2026a] (RH for ζ(s) via c-function unitarity on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]) to prove GRH for all elliptic curve L-functions: the modularity theorem (Wiles/BCDT) embeds L(E,s) into the spectral decomposition of SO₀(5,2) via the maximal parabolic P₂ (Levi factor GL(2) × SO₀(1,2)). The Langlands-Shahidi method identifies L(f,s) and L(sym²f,s) as the L-functions in the intertwining operator. The constant term of the P₂ Eisenstein series along the minimal parabolic has |W^{P₂}| = 4 Weyl coset terms with distinct T-exponents — exceeding the critical threshold of 2 where rank-1 cancellation fails. The c-function unitarity constraint of B₂ forces all zeros to the critical line.
 
@@ -494,7 +498,7 @@ For the committed-create-zeros direction (Proposition 6.4: r_alg ≤ r_an): rank
 
 ## 7. Confidence Assessment and Gaps
 
-Honest accounting of what is proved, what is conditional, and what remains. The overall confidence is ~93%, with the remaining ~7% concentrated in the higher-rank phantom exclusion argument. The proof for ranks 0-1 is essentially complete (GRH + Kolyvagin + Gross-Zagier). The full conjecture for all ranks depends on the information-theoretic analysis of Section 5-6.
+Honest accounting of what is reduced, what is conditional, and what remains. Per the K940 audit (see top banner), the earlier "~93%" headline figure is WITHDRAWN as a claim-level over-statement: this is a structural-reduction attempt, not ~93% of a completed proof. The load-bearing OPEN piece is the higher-rank phantom-exclusion / committed-create-zeros argument, whose residual is definitional. The argument for ranks 0-1 rests on classical results (GRH + Kolyvagin + Gross-Zagier); the full conjecture for all ranks depends on the information-theoretic analysis of Section 5-6, which is not closed to referee consensus. The internal "~9X%" figures below are superseded by this honest verdict and retained only as a record of the pre-K940 self-assessment.
 
 ### 7.1 Proof chain
 

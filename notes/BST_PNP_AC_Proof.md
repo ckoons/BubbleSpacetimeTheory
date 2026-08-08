@@ -2,9 +2,13 @@
 title: "P ≠ NP: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "CONDITIONAL on 1-RSB condensation for k=3 random SAT. Three routes share cluster isolation dependency (not independent). Cal audit May 8, 2026."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] CONDITIONAL on 1-RSB condensation for k=3 random SAT. Three routes share cluster isolation dependency (not independent). Cal audit May 8, 2026."
 framework: "AC(0) (C=2, D=1) — two parallel information queries, max depth 1"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** curvature = complexity-depth (can't-linearize-curvature); residual is definitional.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # P ≠ NP: The AC Proof
 

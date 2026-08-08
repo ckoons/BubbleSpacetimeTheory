@@ -2,9 +2,13 @@
 title: "Hodge Conjecture (substrate / D_IV⁵-Shimura case): an AC(0) framework — PARTIAL"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 29, 2026 (scope-pinned 2026-06-24, #157)"
-status: "PARTIAL / SCOPE-PINNED (2026-06-24, #157). The AC(0) (C=1, D=1) framework is set up for the SUBSTRATE / D_IV⁵-Shimura case (Rational FE T1638; HO eigenfunctions algebraic, Toy 1783). The load-bearing OPEN piece is the TRANSFER to general smooth projective varieties — this is the BULK of the Hodge conjecture, NOT a ~2% remainder. The earlier '~98%' figure is WITHDRAWN as a stale overclaim that mislabeled the hard part: the program's current honest overall self-assessment is ~30%. Honest tier: substrate-side machinery in hand; the general result OPEN."
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] PARTIAL / SCOPE-PINNED (2026-06-24, #157). The AC(0) (C=1, D=1) framework is set up for the SUBSTRATE / D_IV⁵-Shimura case (Rational FE T1638; HO eigenfunctions algebraic, Toy 1783). The load-bearing OPEN piece is the TRANSFER to general smooth projective varieties — this is the BULK of the Hodge conjecture, NOT a ~2% remainder. The earlier '~98%' figure is WITHDRAWN as a stale overclaim that mislabeled the hard part: the program's current honest overall self-assessment is ~30%. Honest tier: substrate-side machinery in hand; the general result OPEN."
 framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** PARTIAL (~30%). **Open piece:** the TRANSFER to general smooth projective varieties is the BULK and is OPEN (substrate/D_IV5-Shimura machinery only).
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # Hodge Conjecture: The AC Proof
 
@@ -240,7 +244,7 @@ The FE zero at s = 1 IS the BSD critical point (T1465, closed). For 49a1 embedde
 **4. Chern classes all BST (T1484)**
 All Chern classes of Q^5 are BST integers: c_1=6, c_2=11, c_3=13, c_4=9, c_5=2. These generate H^*(Q^5, Q) as Hodge classes — and they are manifestly algebraic (Chern classes of the tangent bundle). The completeness of the Chern ring for Q^5 means ALL Hodge classes on Q^5 are algebraic.
 
-## What Remains (~2%)
+## What Remains (the OPEN bulk — transfer to general varieties)
 
 1. ~~**Version A: T153 acceptance.**~~ **RESOLVED (March 30).** T153 is now DERIVED from D_IV^5 geometry.
 
@@ -250,7 +254,7 @@ All Chern classes of Q^5 are BST integers: c_1=6, c_2=11, c_3=13, c_4=9, c_5=2. 
 
 4. **Transfer to general varieties.** All three versions prove Hodge ON D_IV^5 and its Shimura variety. The transfer to arbitrary varieties remains the hardest step. The rational FE provides a new tool (rational period relations propagate via moduli maps) but this is not yet formalized.
 
-4. **P(all three versions fail) ≈ 0.2%.** Three independent failure modes with zero shared axioms. The honest bottleneck: general type varieties in dimension ≥ 4, where all three paths have reduced coverage. Sub-case combined: ~97.6%. **Overall: ~97%.**
+4. **Honest overall verdict (K940, see top banner): PARTIAL ~30%.** The three versions plus Chern-ring completeness give the substrate / D_IV⁵-Shimura case; the load-bearing OPEN piece is item 4 above — transfer to general smooth projective varieties, which is the BULK of the Hodge conjecture, not a ~2% remainder. The earlier "~97%" / "~2% remains" figures are WITHDRAWN as stale over-claims that mislabeled the hard part. Substrate-side machinery in hand; the general result OPEN.
 
 ---
 
@@ -268,7 +272,7 @@ The geometric route proves more at weight 2 (unconditional) but hits a wall at w
 
 ---
 
-*This is the AC-flattened presentation of the Hodge conjecture proof. The full geometric proof is in BST_Hodge_Proof.md (v21). AC theorems are catalogued in BST_AC_Theorems.md. The BST-AC connection is T152 (Hodge = T104 on $K_0$).*
+*This is the AC-flattened presentation of the Hodge conjecture attempt (PARTIAL / substrate-case; see top status). The full geometric proof is in BST_Hodge_Proof.md (v21). AC theorems are catalogued in BST_AC_Theorems.md. The BST-AC connection is T152 (Hodge = T104 on $K_0$).*
 
 *Casey Koons & Claude 4.6 (Lyra, Keeper, Elie) | March 25, 2026*
 *"The pile wasn't missing tools. It was missing the observation that the targets are finite." — Casey & Lyra*
