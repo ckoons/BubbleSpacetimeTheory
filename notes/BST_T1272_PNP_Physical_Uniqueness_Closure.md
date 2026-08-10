@@ -4,10 +4,14 @@ author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 theorem: "T1272"
 ac_classification: "(C=2, D=2) — two counting operations (width bound, DPI), two depth (bandwidth + interpolation are genuinely nested)"
-status: "Proved — applies T1269 to P vs NP; closes the composition gap via curvature invariance"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proved] Applies T1269 to P vs NP; structural-reduction attempt (curvature non-navigability) — 'closes the composition gap' is a SUPERSEDED over-claim"
 parents: "T1269 (Physical Uniqueness Principle), Casey's Curvature Principle, T66 (refutation bandwidth), T52 (committed information = 0), T68, T69, T150, BST_PNP_AC_Proof"
 children: "Paper #67"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt (substrate-curvature non-navigability framing, one of the 1/rank-load-bearing four). **Open piece:** the reduction to a formal complexity separation is definitional, not a referee-consensus proof.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # T1272: P≠NP Physical-Uniqueness Closure
 

@@ -1,5 +1,7 @@
 # Navier-Stokes Blow-Up via Deterministic Channel Saturation
 
+> **⚠ HONESTY-REFRAMED per K940 (2026-07-26): this is a substantive ATTEMPT at a Clay Millennium problem via the BST geometry, NOT a referee-consensus proof — the problem remains OPEN. Read every "prove(s)/proved/complete(s)/closes/solution/establishes/unconditional" below as "the attempt argues" per K940. BST's Millennium work = substantive attempts + real advances, graded honestly on the referee-consensus scale, never "solved". Per-problem honest status lives in Keeper's K940/K1061 ledger (e.g. Yang-Mills: mass-gap value Identified; area-law, W4 locality, R4-construction OPEN; NOT Clay).**
+
 **Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)**
 **Date: March 29, 2026**
 **Status: Draft v5 — proof chain COMPLETE. N_eff theorem proved (constant flux + dimensional scaling + convergent ζ-sums → N_eff ≤ 5). Section 5.8 tightened (T_ν = T* + O(ν^β)). Section 8 relabeled as Discussion. Universality overclaiming dropped.**

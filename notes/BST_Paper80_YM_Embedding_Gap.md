@@ -9,6 +9,8 @@ theorems: "T1400, T1411 (Conjecture), T1404"
 ym_suite: "Paper C of A/B/C/D"
 ---
 
+> **⚠ HONESTY-REFRAMED per K940 (2026-07-26): this is a substantive ATTEMPT at a Clay Millennium problem via the BST geometry, NOT a referee-consensus proof — the problem remains OPEN. Read every "prove(s)/proved/complete(s)/closes/solution/establishes/unconditional" below as "the attempt argues" per K940. BST's Millennium work = substantive attempts + real advances, graded honestly on the referee-consensus scale, never "solved". Per-problem honest status lives in Keeper's K940/K1061 ledger (e.g. Yang-Mills: mass-gap value Identified; area-law, W4 locality, R4-construction OPEN; NOT Clay).**
+
 # Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding
 
 ## Abstract

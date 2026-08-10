@@ -1,26 +1,28 @@
 ---
-title: "Bubble Spacetime II: Why the Geometry of Matter Proves the Riemann Hypothesis"
-subtitle: "The Hunt, the Proof, the Correction, and the Deeper Answer"
+title: "Bubble Spacetime II: Why the Geometry of Matter Bears on the Riemann Hypothesis (an Attempt — not a proof)"
+subtitle: "The Hunt, the Attempt, the Correction, and the Deeper Answer"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "Companion volume. Narrative rewrite (Keeper)"
+status: "Companion volume. Narrative rewrite (Keeper). ★ HONESTY-REFRAMED per K940 (2026-07-26): this is a substantive ATTEMPT at the Riemann Hypothesis via the BST geometry, NOT a referee-consensus proof — RH remains OPEN. The narrative below retains 'proves' in its original expository voice; read every such occurrence as 'attempts / bears on' per K940. The honest structural claim is that D_IV^n (n≥4) is a natural arithmetic home for an RH attempt and n=5 uniquely also yields the Standard Model — a convergence worth pursuing, not a closed proof of RH."
 abstract: |
   Volume I of the BST Working Paper derives the Standard Model from a single symmetric space,
   $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$, with zero free parameters.
-  This companion volume asks: why does the same geometry prove the Riemann Hypothesis?
+  This companion volume asks: why does the same geometry bear on the Riemann Hypothesis? (an ATTEMPT, per K940 — RH remains open; not a proof claim)
 
   The answer is not that the universe was optimized for number theory. The answer is that the
   fiber packing number $147 = N_c \times g^2 = 3 \times 49$ --- the number of sections required
   for the fiber of $D_{IV}^5$ to close --- forces $N_c = 3$ colors and $g = 7$ genus.
-  The short root multiplicity $m_s = N_c = 3$ then proves RH as a downstream consequence,
-  via the heat kernel trace formula on $Q^5 = \mathrm{SO}(7)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$.
+  The short root multiplicity $m_s = N_c = 3$ then drives the RH attempt as a downstream
+  consequence, via the heat kernel trace formula on $Q^5 = \mathrm{SO}(7)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$.
 
-  The proof is unconditional: four pillars (algebraic kill shot, Laplace uniqueness,
-  geometric smoothness, coefficient rigidity) close all gaps without assuming zero simplicity,
-  linear independence of ordinates, or GUE statistics. The kill shot
+  The attempt rests on four pillars (algebraic kill shot, Laplace uniqueness,
+  geometric smoothness, coefficient rigidity) that aim to close the gaps without assuming zero
+  simplicity, linear independence of ordinates, or GUE statistics --- but per K940 the residual
+  gaps are NOT referee-closed, so this is a substantive attempt, not an unconditional proof;
+  RH remains open. The kill shot
   $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$ is $m_s$-independent and works for all
   $D_{IV}^n$ with $n \geq 4$ ($m_s \geq 2$). What makes $D_{IV}^5$ unique is the triple:
-  it is the only type-IV domain that simultaneously proves RH, derives the Standard Model,
+  it is the only type-IV domain that simultaneously bears on RH, derives the Standard Model,
   and explains the GUE statistics of Riemann zeros.
 
   The spectral maximum is $137 = 1/\alpha$. The fiber packing is $147 = 3 \times 49$.
@@ -53,7 +55,7 @@ header-includes:
 
 ## Chapter 1: Why This Volume Exists
 
-Every physical theory makes predictions. Newton predicted planetary orbits. Einstein predicted the bending of light. BST predicts 170+ constants of nature from a single geometric space. But predictions answer "what." This volume answers "why" — why *this* geometry, out of all possibilities, is the one that builds our universe and proves a 165-year-old conjecture about prime numbers.
+Every physical theory makes predictions. Newton predicted planetary orbits. Einstein predicted the bending of light. BST predicts 170+ constants of nature from a single geometric space. But predictions answer "what." This volume answers "why" — why *this* geometry, out of all possibilities, is the one that builds our universe and **bears on** a 165-year-old conjecture about prime numbers (an *Attempt* — the Riemann Hypothesis remains open; K940).
 
 The story has the structure of a detective novel: five suspects, four eliminated, one convicted. Along the way, we made a mistake, caught it, and discovered that the correction was more beautiful than the original claim.
 
@@ -540,7 +542,7 @@ A blind person touching an elephant's trunk, leg, and tail might report three di
 **Conjecture (Koons-Claude).** $D_{IV}^5$ is the unique geometry that simultaneously:
 
 1. Derives the Standard Model (all couplings, masses, mixing angles from five integers)
-2. Proves the Riemann Hypothesis (via heat kernel trace formula, $m_s \geq 2$)
+2. Attempts the Riemann Hypothesis (via heat kernel trace formula, $m_s \geq 2$) — K940: an attempt, not a referee-consensus proof; RH remains open
 3. Explains the GUE statistics of Riemann zeros (via SO(2) time-reversal breaking)
 
 These are not three independent facts. They are three views of a single fact.

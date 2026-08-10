@@ -7,6 +7,10 @@
 **Target**: Geometric and Functional Analysis (GAFA)
 **Date**: May 13, 2026
 
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** the Poincaré conjecture is an ALREADY-PROVED theorem (Perelman 2003); this is a BST-native structural RE-DERIVATION attempt, legitimate as such. **Open piece:** the ambient→intrinsic mechanism gap (connecting ambient rigidity in Q⁵ to intrinsic topology for general M³) is identified and open — the paper already states it and compares to Perelman's Ricci-flow proof.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
 ---
 
 ## Abstract

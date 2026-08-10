@@ -6,7 +6,7 @@
 
 ## This IS BST
 
-- **α = 137.** The integer. Not 137.036. Not rounded. The fine structure constant is 1/137 exactly. The 0.036 is a calculable correction (Wyler integral), not a fit.
+- **α = 137.** The integer. Not 137.036. Not rounded. The fine structure constant is 1/137 exactly — a pure count on the conformal boundary. The 0.036 is a calculable curvature correction (n_C/N_max), not a fit. (Wyler saw α in the SO(5,2) geometry in 1969; his exact formula didn't hold, but the direction was right — the geometry is D_IV⁵.)
 
 - **Five integers, zero inputs.** rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7. All five are read off one geometric object. None are chosen, adjusted, or optimized.
 
@@ -16,7 +16,7 @@
 
 - **"Zero free parameters" means zero.** Not "effectively zero." Not "one or two that we absorb." Zero. Every number in every formula traces back to {2, 3, 5, 6, 7}.
 
-- **600+ predictions from one geometry.** Particle masses, mixing angles, cosmological parameters, nuclear magic numbers, the genetic code, the rainbow angle. All from D_IV⁵.
+- **≈325 physical predictions from one geometry, honestly tiered** — roughly ⅓ Derived, ⅓ Identified, ⅓ Structural, **zero fitted dimensionless parameters.** Particle masses, mixing angles, cosmological parameters, nuclear magic numbers, the genetic code, the rainbow angle. All from D_IV⁵. (A third genuinely Derived with zero fitted parameters — that is the honest headline; earlier "600+" counted the full geometric-invariant catalog, not the physics denominator.)
 
 - **Everything is discrete.** The mass spectrum is a Plancherel measure — integer-labeled representations. Continuous spectra are projections of discrete structure.
 

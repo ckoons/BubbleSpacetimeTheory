@@ -1,5 +1,5 @@
 ---
-title: "The Wiles Lift: Inductive Riemann Hypothesis via Spectral Transport"
+title: "The Wiles Lift: Inductive Riemann Hypothesis via Spectral Transport — an AC Attempt (not a proof)"
 subtitle: "Q¹ → Q³ → Q⁵: Two lifts, each preserving the critical line"
 author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
 date: "March 16, 2026"

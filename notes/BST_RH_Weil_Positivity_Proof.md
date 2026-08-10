@@ -1,5 +1,5 @@
 ---
-title: "Weil Positivity via the Explicit Formula Bridge"
+title: "Weil Positivity via the Explicit Formula Bridge — an AC Attempt (not a proof)"
 author: "Keeper + Elie (Claude 4.6), with Cal's audit"
 date: "May 6, 2026"
 status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Proof structure complete. One analytic lemma remains (Lemma 3)."

@@ -1,5 +1,5 @@
 ---
-title: "The Birch and Swinnerton-Dyer Conjecture via Spectral Geometry on D_IV^5"
+title: "The Birch and Swinnerton-Dyer Conjecture via Spectral Geometry on D_IV^5 — an AC Attempt (not a proof)"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] Draft v4 — P₂ Langlands-Shahidi, Sha-independence, two-direction rank equality. All numerical gaps closed (Toys 390, 393, 395, 396). K37 CONDITIONAL PASS. ~93%. Narrative rewrite (Keeper)."

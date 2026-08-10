@@ -1,0 +1,33 @@
+# F890 — Lane 3, the up-12 pins (blind, from geometry) + the honest gate: exponent = g=7 (fermion weight, settled F884); the r(y) map is the SATURATION kernel (y_t=1 forced at the boundary, parity-even coherent, F889); BUT the up-12 block = √(m_u/m_c) (Gatto, K1016) is **GATED ON THE SOFT m_u — no clean forced form** → the up-12 magnitude is **Identified, Gatto-determined by CKM+down in reverse**, NOT forced forward. **The pins give the STRUCTURE; the value rides the soft m_u. HOLD — pushing the up-12 to a forced number is fitting the soft mass (K1016's explicit warning).**
+
+**Lyra, Monday 2026-08-10. Lane 3, the up-12 (the whole flavor residual: top decouples exactly → V_cb=down-2-3; only up-charm 12 open). Reconnected to K1016 FIRST (the lesson). RUBRICS below.**
+
+## The pins (what IS forced, blind from geometry)
+- **Cross-ν exponent = g = 7** (the fermion discrete-series weight; π_{n+2}, Casimir rank·g=14; grounded by y_u=n_C^{−7}, F884 — SETTLED, do not re-open; my F883 genus-5 was a regression).
+- **The r(y) map = the SATURATION kernel** (not the FK bulk ladder — the up is not FK, K1181/Elie 5060). The up-modes are **parity-even coherent states** Σ_{k even} c_k|k⟩ (F889); the radial profile is set by boundary-saturation: **y_t = 1 at the Shilov boundary (r→1, Cauchy–Schwarz saturation, T2514 — FORCED)**, y_c = α one shell inward (candidate), y_u deeper.
+
+## The honest gate (K1016 — the reason to HOLD)
+The up-12 block = √(m_u/m_c) ≈ 0.041 (Gatto–Sartori syzygy F689, π-free), and:
+- **m_u/m_c ≈ 0.0017 has NO clean forced form** (K1016: α²=0.0073 wrong, 1/588 rejected, 2/(g·13²) a near-miss not forced). The up ground-state Yukawa y_u is **SOFT / Tier-2**.
+- ⟹ **the up-12 magnitude is IDENTIFIED, not Derived.** The correct statement (K1016): the up frame is **DETERMINED by CKM + the banked down** via Gatto, run in REVERSE — V_us(obs) + down(1/√20) + Gatto → *predicts* √(m_u/m_c). The up-12 is a **consequence** of CKM+down, not an independent forced input.
+- **Pushing the up-12 to a forced value = fitting the soft m_u.** The r(y) map cannot force it (y_u is soft); any r_u chosen to land √(m_u/m_c) is a fit. So: provide the structure, **HOLD the value at Identified.**
+- The phase is only ballpark (Gatto δ≈85.7° vs observed 65.5°, K1016) — do NOT claim δ_CKM from this. (CP existence is banked separately; magnitude off.)
+
+## What this means for the flavor scorecard (honest, calibrated)
+- **Derived:** V_us=1/√20 (down-canary); the parity mixing engine (up⊥down, F887); V_cb=down-2-3 (top decouples exactly, K1001); V_ub-small (largest degree gap, the parity/gap counting).
+- **Identified (gated on soft m_u):** the exact up-12 block (√(m_u/m_c)) → the up-correction to V_us + the exact V_ub magnitude + the CP-phase value (off regardless). The up frame is Gatto-determined by CKM+down, not forced forward.
+- **The one-matrix frame holds:** diagonal = masses (FK for down/lepton [Derived]; saturation for up [y_t=1 forced, y_c=α candidate, y_u soft]); off-diagonal = mixing (SO(5) Clebsch × cross-shelf overlap on the parity grid).
+
+## RUBRICS Layer-2 done-bar (up-12 pins, honest)
+- [x] Reconnected to K1016 FIRST (the banked lesson — don't greenfield the up frame; it's Gatto).
+- [x] Provided the forced pins: exponent g=7 (settled), r(y) = saturation kernel (y_t=1 forced, parity-even coherent, F889).
+- [x] Stated the honest gate: up-12 = √(m_u/m_c) rides the SOFT m_u (no forced form, K1016) → Identified; Gatto-determined by CKM+down in reverse; forcing it = fitting.
+- [x] HELD (per directive): structure given, value Identified, did NOT push. Calibrated: V_us + engine + V_cb + V_ub-small Derived/forced; only the up-12 magnitude Identified. Magnitude off; no δ_CKM claim.
+
+## Handoffs
+- **@Grace / @Elie (Lane 3)** — the pins: exponent g=7 (settled); r(y) = saturation kernel, up = parity-even coherent (F889), y_t=1 forced. **But the up-12 = √(m_u/m_c) is gated on the SOFT m_u (K1016) — Identified, not forced.** Build G1's cross-shelf overlap on the parity grid with the coherent up-state; when Elie fires, run the up-12 in REVERSE (Gatto: V_us+down → √(m_u/m_c)), NOT forward-forced. A forward-forced up-12 is fitting the soft mass. Hold the value at Identified.
+- **@Keeper** — Lane 3 pins delivered honestly: exponent g=7, r(y)=saturation structure. But the up-12 rides the soft m_u (K1016) → Identified, Gatto-determined by CKM+down. So the flavor residual does NOT promote to Derived — it lands at: V_us + engine + V_cb + V_ub-small forced/Derived; up-12 magnitude Identified (soft m_u). This doesn't gate GO. **V_ub-small counting:** forced by the largest degree gap (⟨u:0|J_W|b:5⟩, gap 5, F887) — the parity engine gives the hierarchy; the exact value rides the up-12 (Identified).
+- **@Cal** — I did NOT push the up-12 to a forced value: K1016 says m_u is soft (no clean form), so any r_u that lands √(m_u/m_c) is a fit. Held at Identified, Gatto-in-reverse. Exponent g=7 settled (not re-opened). No δ_CKM claim; magnitude off.
+- **@Casey** — the up-charm mixing is the last open flavor block, and the honest answer is that it doesn't fully close — for a clean reason I want to state rather than paper over. The block is √(m_u/m_c), and the up-quark's own mass has no forced form in the corpus (it's the one genuinely soft number). So I can give the *structure* — the exponent is settled at 7, the up-quarks are saturation-set blends on their forced even rungs — but the *value* rides that soft mass, which means the honest move is to run it backwards (the measured mixing tells us √(m_u/m_c)), not forwards. Forcing it forward would mean picking the up-quark's radius to make the number land, and that's fitting — the exact thing the standing rule forbids. So I held it: the Cabibbo is derived, the mixing engine and the hierarchy are forced, and the up-charm correction stays one tier down, gated on the soft up mass. The residual is named, not hidden, and it doesn't touch the flagship. Nothing pushed.
+
+Notes only; no toy/theorem claimed (up-12 pins + honest gate). F890: up-12 = the whole flavor residual (top decouples → V_cb=down-2-3). PINS (forced): exponent g=7 (F884 settled); r(y)=saturation kernel (y_t=1 forced boundary, parity-even coherent F889, y_c=α candidate). GATE (K1016): up-12 = √(m_u/m_c) Gatto (F689), m_u SOFT/Tier-2 (no clean form — α² wrong, 1/588 rejected) → up-12 IDENTIFIED, Gatto-determined by CKM+down in REVERSE, not forced forward; forcing = fitting soft m_u. Phase ballpark only (δ 85.7° vs 65.5°) — no δ_CKM claim. Scorecard: Derived = V_us=1/√20 + parity engine + V_cb=down-2-3 + V_ub-small (gap counting); Identified = up-12 magnitude (soft m_u). HELD (pushing=fitting); doesn't gate GO. Magnitude off. Nothing pushed. — Lyra

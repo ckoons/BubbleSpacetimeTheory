@@ -8,6 +8,10 @@ ac_classification: "(C=3, D=1)"
 theorems: "T1170, T1271, T896, T972, T1399"
 ---
 
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** PARTIAL with a LARGE remaining gap. **Open piece:** the R⁴ construction / (B) area-law mass-gap is the CORE open piece — not a minor residual — together with (A) color-confinement and the AF-sign (scoped K937/K939); the Poincaré branching (W2) also requires explicit computation.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
 # A Non-Trivial Quantum Field Theory with Mass Gap on a Type IV Bounded Symmetric Domain
 
 ## Abstract

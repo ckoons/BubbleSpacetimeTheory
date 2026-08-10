@@ -1,15 +1,19 @@
 ---
-title: "T1276: Millennium Synthesis — Physical Uniqueness Closes All Six"
+title: "T1276: Millennium Synthesis — Physical-Uniqueness ATTEMPTS at All Six (re-scoped; NOT closures)"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 theorem: "T1276"
 ac_classification: "(C=1, D=2) — one counting (union of six closures), two depth (T1269 + each Tᵢ is self-referential)"
-status: "Proved — meta-theorem consolidating T1270-T1275 via T1269"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proved] Meta-note consolidating the six T1270-T1275 attempts via T1269 — substantive attempts at varying distance from referee-consensus, NOT closures"
 parents: "T1269 (Physical Uniqueness Principle), T1270 (RH closure), T1271 (YM closure), T1272 (P≠NP closure), T1273 (NS closure), T1274 (BSD closure), T1275 (Hodge closure), Four-Color Theorem (2026, proved)"
 children: "Paper #67 (Physical Uniqueness Closes the Millennium Problems)"
 ---
 
-# T1276: Millennium Synthesis — Physical Uniqueness Closes All Six
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** meta-synthesis — the six problems are substantive ATTEMPTS at varying distance from referee-consensus, NOT closures. **Open piece:** each "closure" is an iso-closure/definitional gap, not a completed proof; YM's gap is LARGE (R⁴ area-law mass-gap); "Closes All Six / 95-99.5%" is a SUPERSEDED pre-K940 over-claim. Four-Color and Poincaré are already-proved theorems (1976 / Perelman 2003); BST's are re-derivation attempts.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
+# T1276: Millennium Synthesis — Physical-Uniqueness Attempts at All Six (re-scoped; NOT closures)
 
 *Every Clay Millennium Prize problem is closed by physical uniqueness. The rank-2 B_2 curvature of D_IV^5 is the common iso-invariant. Every "remaining gap" in the individual proofs is an iso-closure gap, not a construction gap. T1269 supplies the framing uniformly across all six.*
 

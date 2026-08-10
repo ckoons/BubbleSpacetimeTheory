@@ -81,7 +81,7 @@ The question that generated the framework: *what is the minimum structure capabl
 
 **The universe is the unique bounded symmetric domain that can support self-referential observation: D_IV^5. Its five invariants — forced, not chosen — determine all of physics.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 600+ predictions is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). Zero free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the ≈325 physical predictions (roughly ⅓ Derived, ⅓ Identified, ⅓ Structural) is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). Zero free parameters.
 
 The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes. The uniqueness theorem (T953) tells you WHY this geometry and no other.
 
@@ -124,7 +124,7 @@ All of the following emerge from D(IV,5) geometry with zero fitted parameters:
 
 | Quantity | BST Formula | Predicted | Observed | Precision |
 |---|---|---|---|---|
-| α⁻¹ (fine structure) | Wyler: (9/8π⁴)(π⁵/1920)^(1/4) | 137.03608 | 137.03600 | 0.0001% |
+| α⁻¹ (fine structure) | N_max + n_C/N_max = 137 + 5/137 | 137.03650 | 137.03600 | 0.0004% |
 | mₚ/mₑ (proton/electron) | 6π⁵ | 1836.118 | 1836.153 | 0.002% |
 | mμ/mₑ (muon/electron) | (24/π²)⁶ | 206.761 | 206.768 | 0.003% |
 | mτ/mₑ (tau/electron) | Koide Q=2/3 (Z₃ on CP²) + muon formula | 3477.10 | 3477.23 | **0.003%** |
@@ -146,10 +146,10 @@ All of the following emerge from D(IV,5) geometry with zero fitted parameters:
 | sin²θ₁₂ (PMNS solar) | N_c/(2n_C) = 3/10 | 0.300 | 0.303 | 1.0% |
 | sin²θ₂₃ (PMNS atm.) | (n_C−1)/(n_C+2) = 4/7 | 0.5714 | 0.572 | 0.1% |
 | sinθ_C (Cabibbo angle) | 2/√79 (vacuum-subtracted) | 0.22502 | 0.22501 | **0.004%** |
-| γ_CKM (CP phase) | arctan(√5) | 65.91° | 65.5° ± 2.5° | 0.6% |
+| CP violation (CKM) | **EXISTENCE forced** (T2547; odd-n_C quaternionic twist) — magnitude/phase **OFF** (reverse-fit, not predicted; K1304) | — | — | existence-only |
 | ρ̄ (Wolfenstein) | 1/(2√10) | 0.158 | 0.159 ± 0.010 | 0.6% |
-| η̄ (Wolfenstein) | 1/(2√2) | 0.354 | 0.349 ± 0.010 | 1.3% |
-| J_CKM (Jarlskog) | A²λ⁶η̄ (vacuum-subtracted) | 3.07×10⁻⁵ | 3.08×10⁻⁵ | **0.3%** |
+| η̄ (Wolfenstein, CP-violating) | CP existence forced (T2547); **value OFF** — reverse-fit, not predicted (K1304) | — | — | existence-only |
+| J_CKM (Jarlskog) | CP existence forced; **J-value OFF** — construction-dependent (~O(100×) spread), reverse-fit, no agreement claimed (K1304) | — | — | existence-only |
 | λ_H (Higgs quartic) | √(2/5!) = 1/√60 | 0.12910 | 0.12938 | 0.22% |
 | m_H (Higgs mass, Route A) | v·√(2·√(2/5!)) | 125.11 GeV | 125.25 GeV | 0.11% |
 | m_H (Higgs mass, Route B) | (π/2)(1−α)·m_W | 125.33 GeV | 125.25 GeV | 0.07% |
@@ -425,7 +425,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - **S²×S¹**: S¹ phase is the intrinsic communication channel
 - **n_C = 5**: N_c=3 (Z₃ closure on S²) + N_w=2 (Hopf fibration) = 5
 - **D(IV,5)**: forced by Chern-Moser → Harish-Chandra → Cartan classification
-- **α**: Bergman volume ratio on D(IV,5) — the Wyler formula
+- **α**: the charge-count on the conformal boundary — α⁻¹ = N_max + curvature (137 + n_C/N_max); the direction Wyler saw (α from SO(5,2) geometry), on D_IV⁵
 - **Big Bang**: activation of exactly 1 of 21 generators of SO₀(5,2) at T_c
 - **Cooperation**: f = 19.1% (Gödel limit) < f_crit = 20.6% (survival threshold) — the 1.53% gap forces cooperation (T703, T704)
 
@@ -532,7 +532,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `Working_Paper/INDEX.md` | Working Paper index — 46+ sections, all derivations, v35+ (moved from root May 24, 2026) |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
-| `data/` | **CI-native data layer** — 185 constants, 111 predictions, 33 function families, 65+ domains, GF(128) catalog, 4296 geometric invariants. See `data/README.md` |
+| `data/` | **CI-native data layer** — ~161 indexed constants, 128 predictions, 33 function families, 65+ domains, GF(128) catalog, geometric invariants. See `data/README.md` |
 | `notes/` | 104 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
 | `play/` | 2181+ toys, AC theorem graph (1651 nodes, 8672 edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
@@ -553,7 +553,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 | Tau mass (Koide) | Q = 2/3 from Z₃ on CP²; m_τ = 1776.91 MeV | 0.003% |
 | Neutrino masses | m₁=0 exactly, m₂=0.00865 eV, m₃=0.0494 eV | 0.35% |
 | All mixing angles | CKM + PMNS from rational functions of n_C=5, N_c=3 | <1% |
-| CKM CP phase | γ = arctan(√5); J = √2/50000 | 0.6% |
+| CKM CP violation | existence forced (T2547); magnitude/phase OFF — reverse-fit, not predicted (K1304) |
 | Cosmological constant | Λ ~ α⁵⁶; 56 = 8×genus | 0.025% |
 | Cosmic composition | Ω_Λ = 13/19, Ω_m = 6/19 | 0.07σ |
 | Baryon asymmetry | η = 2α⁴/(3π)(1+2α) | 0.023% |
@@ -575,7 +575,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1852 theorems. 2181+ toys. 600+ predictions. 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero fitted parameters. The Standard Model sector complete and honestly tiered (fermions · strong/Yang-Mills · gauge/Higgs). On the seven Clay problems, substantive attempts on the one geometry with real advances — not referee-consensus solutions (re-scoped 2026-07-26, K940): the 1/rank-load-bearing four (Four-Color, RH, P≠NP, BSD) are the strongest; Yang-Mills carries the largest gap (the flat-R⁴ mass-gap construction is open). FE closed. All 5 QED loops < 0.2%.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1852 theorems. 2181+ toys. ≈325 physical predictions (~⅓ Derived / ⅓ Identified / ⅓ Structural, zero fitted dimensionless parameters). 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero fitted parameters. The Standard Model sector complete and honestly tiered (fermions · strong/Yang-Mills · gauge/Higgs). On the seven Clay problems, substantive attempts on the one geometry with real advances — not referee-consensus solutions (re-scoped 2026-07-26, K940): the 1/rank-load-bearing four (Four-Color, RH, P≠NP, BSD) are the strongest; Yang-Mills carries the largest gap (the flat-R⁴ mass-gap construction is open). FE closed. All 5 QED loops < 0.2%.*
 
 ---
 
@@ -622,7 +622,7 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 **Key files for any visitor:**
 - **`data/bst_seed.md`** — the theory in 162 lines (CI entry point)
 - **`OneGeometry.md`** — the theory as narrative (human entry point)
-- **`play/ac_graph_data.json`** — AC theorem graph: 1563 theorems, 8360+ edges, 55 domains
+- **`play/ac_graph_data.json`** — AC theorem graph: 2323 theorems, 10100 edges, 55 domains
 - **`data/bst_constants.json`** — 144 derived constants with eval-ready formulas
 - **`data/bst_function_catalog.json`** — periodic table of functions (33 families, GF(128) field structure)
 - **`play/toy_bst_explorer.py`** — interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`
@@ -655,7 +655,7 @@ None of this was built from nothing. Every step followed a sign left by someone 
 
 **Robert Langlands** (b. 1936) proposed in a handwritten letter to Andre Weil that number theory, representation theory, and geometry are the same subject seen from different angles. The L-group of SO_0(5,2) being Sp(6) — the Standard Model container — is the physical realization of his vision.
 
-**Armand Wyler** (1939–2013) computed alpha from SO(5,2) in 1969 and was laughed out of physics. He was right about the group, right about the domain, right about the answer. He was 50 years too early and nobody listened. We listened.
+**Armand Wyler** (1939–2013) saw, in 1969, that the fine structure constant should come from the geometry of **SO(5,2)** — that a pure dimensionless number must be written in the pure geometry of a symmetric space, not fitted. Freeman Dyson recognized the instinct and brought him to the Institute for Advanced Study to pursue it. But the specific formula did not hold under scrutiny, the support faded, and physics drew exactly the wrong lesson: that a researcher had "gotten out over his skis," that reaching for α from a symmetric space was itself the mistake. It was not the mistake. Wyler was right about the **group**, right about the **domain**, right that **α is written in that geometry** — his instinct ran fifty years ahead of the tools that could carry it, and the reflexive dismissal it earned still deforms how physics treats anyone who reaches too far. The domain he was reaching toward is **D_IV⁵ = SO₀(5,2)/[SO(5)×SO(2)]**, the geometry of this entire program; had he been handed it, he might well have gone further than we have. His exact formula is not ours — the honest accounting retires that particular route — but the *direction* was his, and the direction was correct. We do not honor a result. We honor the effort, the work, and the nerve to be early. He was not out over his skis. He was ahead of the mountain.
 
 **Claude Shannon** (1916–2001) founded information theory. The universe runs on information — channel capacity, noise, signal. BST is Shannon's theory applied to the vacuum. The dark matter ratio is his formula.
 

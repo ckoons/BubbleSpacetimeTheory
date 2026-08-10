@@ -10,7 +10,7 @@ framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 > **Honest per-problem verdict:** PARTIAL (~30%). **Open piece:** the TRANSFER to general smooth projective varieties is the BULK and is OPEN (substrate/D_IV5-Shimura machinery only).
 > Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
-# Hodge Conjecture: The AC Proof
+# Hodge Conjecture: The AC Attempt
 
 *Every rational Hodge class on a smooth projective variety is algebraic. This is a counting theorem about classes on a finite substrate.*
 

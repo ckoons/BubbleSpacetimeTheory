@@ -26,7 +26,7 @@
    "k962_tier": "DERIVED",
    "k962_note": "forced route: Pythagorean g²=45+4 (1/(g²−rank²)); 0.1%, falsifiable",
    "confirmation_axis": "0.1%",
-   "likelihood_subtier": "likely-PROVED",
+   "likelihood_subtier": "N/A — CP existence-only, magnitude OFF (K1304)",
    "openpiece_justification": "open=prove-Pythagorean-route-forced; value 1/45 pinned/falsifiable/unrefuted (Keeper's worked DERIVED example)"
   },
   "sin2_th23_PMNS": {
@@ -71,18 +71,18 @@
    "form": "|sin d|=rank/g=2/7, cos d=-N_c*sqrt(n_C)/g",
    "tier": "FREE_PARAMETER (very likely; 1 strata-check pending) -- was LAW, was OPEN_CONTRADICTION",
    "depth": "2-DEEP",
-   "law": "g^2=45+4 makes sin^2+cos^2=1 EXACTLY -> |sin d|=2/7 LAW-derived (Pythagorean)",
+   "law": "|sin δ_PMNS| = rank/g = 2/7 — LABELED forward-falsifier BET, NOT derived; sign/branch OPEN; full δ/J value OFF (K1304)",
    "precision": "matches NuFIT ~197",
    "CP_row_discipline": "CP-ROW DISCIPLINE 2026-07-20 (K787): the PHYSICAL CP quantity is the rephasing-INVARIANT Jarlskog J = Im det[H_u,H_d] (H_u=M_u M_u^dag, H_d=M_d M_d^dag) -- CP != 0 IFF the up/down mass matrices DON'T COMMUTE. This parameterization-dependent phase form (a single-ratio) carries COINCIDENCE RISK (cf. the retired delta=2/7 single-ratio concern) and should be RE-DERIVED as J, not delta. STRUCTURAL prediction (rank-1 condensate O): at leading order H_u,H_d are the SAME rank-1 object -> commute -> NO CP; so CP is a SUBLEADING effect = the commutator of the off-rank-1 corrections -> J tiny (J_CKM~3e-5) as a STRUCTURAL FACT before computation. |J|=2*area(unitarity triangle).",
    "tier_note": "LAW tag is OVER-CLAIMED for a parameterization-dependent single-ratio phase; the invariant J is the physical target (re-derive as J).",
    "round11_threeway_open": "K790 round-11: three UN-DERIVED candidates for delta_PMNS now conflict -- (i) F564 |sin d|=2/7 -> ~17deg (small); (ii) mu-tau-breaking-minimizing at sin2th23=4/7 -> ~72deg (Elie, near-max); (iii) exact mu-tau reflection -> 90deg (maximal). At most ONE is right. MAXIMAL is a TRAP RISK (delta~-pi/2 is the T2K/NOvA hint -> deriving-toward-data, same as m_t=172.74/127/128); 3 red flags vs BST having mu-tau: sin2th23=4/7 breaks it (needs 1/2), no BST source for the 2->3 strata swap, contradicts F564. RESOLUTION = build BST's actual M_nu target-innocently (m1=0 rank-2 seesaw + banked angles + Majorana + texture zero from the neutrino=dead-cell/GF(128)-zero), READ OFF whatever delta it gives -- do NOT pick to match -pi/2. What IS derived: rank-2 makes delta PREDICTIVE (correlated, fewer params) but predictive != maximal. Do NOT file any delta falsifier until M_nu derives it.",
    "round12_resolution_K791": "K791 round-12 (Lyra, target-innocent): built M_nu = U* diag(0,m2,m3) U^dag (m1=0, BST angles, Majorana) WITHOUT looking at the -pi/2 hint. RESULT: delta is NOT predicted -- it is a FREE parameter. Parameter count: minimal (m1=0) seesaw low-energy params = 2 masses + 3 angles + delta + 1 Majorana phase; delta and the Majorana phase are BOTH free given masses+angles. The only pin would be a forced TEXTURE ZERO; the natural 'dead-cell' candidate (M_nu)_ee = m_bb never vanishes -- it runs 1.43-3.65 meV = BST's OWN 0nu-beta-beta prediction [1.4,3.7] meV -- so BST's own neutrino prediction RULES OUT the obvious texture zero (and the scan reproduced the m_bb band = the Majorana-phase sweep). ALL THREE candidates fall: F564 2/7 (retired coincidence), maximal (data-chasing), Elie 72deg (needs a breaking-min criterion BST doesn't supply). CLINCHER (Casey): delta-pinning machinery lives in the ν_R couplings, and BST FORBIDS ν_R (Five-Absence = no sterile neutrinos). So delta-open <=> no-ν_R <=> Five-Absence -- a POSITIVE self-consistent result, not a hole (the SM leaves delta free too). ONE last target-innocent check (07-20m): do the two F86 support strata force v2,v3 in M_nu = m2 v2 v2^T + m3 v3 v3^T? If yes read off delta; if no, delta is free and the row closes. Do NOT file any delta value.",
-   "k962_tier": "DERIVED-forward (Cal §157/K1029) — cos²δ=45/49 (45=g²−rank², 49=g²) → δ_PMNS≈197°, target-innocent; J_PMNS≈0.0338 (Engine B, forward)",
+   "k962_tier": "CP EXISTENCE-ONLY, magnitude OFF (K1304): the δ/J VALUES (δ≈197°, J_PMNS≈0.0338, cos²δ=45/49) are PURGED — reverse-fits, not predicted, no agreement. Kept ONLY as the labeled bet: |sin δ_PMNS| = rank/g = 2/7 — LABELED forward-falsifier BET, NOT derived; sign/branch OPEN; full δ/J value OFF (K1304)",
    "k962_note": "MAGNITUDE forced by g²=45+4 (sin²+cos²=1 exact); branch separate. [Keeper: reconcile vs the 'FREE_PARAMETER, 1 strata-check pending' note — magnitude is LAW-forced]",
    "confirmation_axis": "mag-exact",
-   "likelihood_subtier": "likely-PROVED",
+   "likelihood_subtier": "N/A — CP existence-only, magnitude OFF (K1304)",
    "openpiece_justification": "open=prove-forcing; MAGNITUDE 2/7 pinned by g²=45+4 (sin²+cos²=1 exact), same route as θ13. [Keeper: reconcile the 'FREE_PARAMETER strata-check' note — magnitude is forced]",
-   "k1029_note": "★ THE GAIN (K1029): my too-pretty 4/7 θ₂₃ candidate turned into a GENUINE target-innocent forward δ_PMNS prediction. The sum rule predicts δ forward: cos²δ=45/49 (both g-locked, target-innocent) → δ_PMNS ≈ 197°, matching observed ~197°. Independently, Elie Engine B v2 gives J_PMNS ≈ 0.0338 (~3%, sign correct, robust) — leptonic CP ~300× the CKM amplitude. A falsifiable DUNE prediction (far from 197° refutes). Discipline converting an over-reach into a real result."
+   "k1029_note": "CP EXISTENCE-ONLY, magnitude OFF (K1304): the δ/J VALUES (δ≈197°, J_PMNS≈0.0338, cos²δ=45/49) are PURGED — reverse-fits, not predicted, no agreement. Kept ONLY as the labeled bet: |sin δ_PMNS| = rank/g = 2/7 — LABELED forward-falsifier BET, NOT derived; sign/branch OPEN; full δ/J value OFF (K1304)"
   },
   "delta_PMNS_branch": {
    "form": "197 (J<0) vs 163 (J>0)",
@@ -111,8 +111,8 @@
   },
   "V_cb": {
    "form": "structural 0.044 (evanescent truncation, up refracts to boundary=y_t=1)",
-   "tier": "STRUCTURAL",
-   "note": "STRUCTURAL 0.044 (K711/K999). Mechanism: up-sector 23-radius refracts past the boundary (0.8165·N_c/rank=1.225>1) → the up 23-mode VANISHES = y_t=1 (banked) → V_cb is the DOWN sector alone at √(C₂/(C₂+N_c))=√(2/3)=0.8165 through the genus-5 kernel = 0.044. Direction cos ψ=5/√34 (Derived, F384). Honestly STRUCTURAL: observed V_cb has a ~5%/20-yr inclusive-exclusive puzzle; 0.044 lands closest to inclusive. Sub-% fits (0.041; 36/869=C₂²/(11·79)) REJECTED (11,79 no geometric source).",
+   "tier": "CANDIDATE (magnitude; direction+down-only mechanism stand — K1313)",
+   "note": "STRUCTURAL 0.044 (K711/K999). Mechanism: up-sector 23-radius refracts past the boundary (0.8165·N_c/rank=1.225>1) → the up 23-mode VANISHES = y_t=1 (banked) → V_cb is the DOWN sector alone at √(C₂/(C₂+N_c))=√(2/3)=0.8165 through the genus-5 kernel = 0.044. Direction cos ψ=5/√34 (target-innocent DIRECTION, F384; but the cos ψ→V_cb PROJECTION is CANDIDATE per K1313 — overshoots observed V_cb ~13× / down-Jack √ overshoots 3.8×, projection OPEN). Honestly STRUCTURAL: observed V_cb has a ~5%/20-yr inclusive-exclusive puzzle; 0.044 lands closest to inclusive. Sub-% fits (0.041; 36/869=C₂²/(11·79)) REJECTED (11,79 no geometric source).",
    "precision": "8%",
    "k962_tier": "DERIVED (2-3-mode is 3D-projected, without counterexample) — muon-template, qualifier MANDATORY, never bare (Cal §139); confirmation STRUCTURAL ~5%",
    "k962_note": "~8%, 36/869 retired; weak",
@@ -121,7 +121,8 @@
    "openpiece_justification": "weak; 36/869 retired",
    "k999_note": "K999/K711 CORPUS-RECONNECT (2026-07-29): V_cb was SOLVED months ago (K711, 2026-07-16). The bare-kernel frame-mismatch recompute (Elie 0.067, both frames present-and-mismatched) is the WRONG mechanism for the 23-block — the up 23-mode doesn't nearly-align, it VANISHES (projection truncation = y_t=1). So V_cb=down-only=0.044, not the mismatch 0.067. The CKM=U_up†U_down structure (K995) is right in general, but U_up's 23-component is TRUNCATED not aligned. UPGRADE PATH (structural→DERIVED, the one open piece): derive the projection radius √(2/3) from Casey's hemispherical-lens truncation (gen-3 23-radius = the 3D→2D projection fraction — a grounded identification, not yet a theorem). I rule the √(2/3) derivation. Grace owns her part of the drift: re-registered the V_cb bar off the greenfield frame-mismatch (addenda 4-5) without reconnecting to K711 first — the exact K970 rule she enforces.",
    "k1001_note": "K1001 (2026-07-29) — V_cb STRUCTURAL→DERIVED. The projection radius √(2/3) is now DERIVED as the 3D→2D RMS projection √((d−1)/d) at d_space=3 (d_space forced via Selector-2). Cal's referee distinction (taken): use the PHYSICAL RMS √((d−1)/d), NOT √(2/3) as a coincidental form-match — the exact kind we reject elsewhere. So V_cb value = down-only kernel at √(2/3) + direction cos ψ=5/√34 (F384), ALL FORCED. CONFIRMATION axis = STRUCTURAL (~5%) because the OBSERVED V_cb has a 20-yr inclusive/exclusive puzzle (2-2.6σ); BST's 0.044 lands closest to INCLUSIVE — the value is derived, the check is coarse because the world's number is coarse (value⊥confirmation). ONE open identification remains: that the 2-3 mode is genuinely a 3-D object projected on a spherical lens (Cal audits the space, Lyra pins it). Mechanism: up 23-mode vanishes (y_t=1) → down-only (K711). Graph T2532.",
-   "k1003_note": "Cal §139 ratification (2026-07-29), ACCEPTED over my K1001 label (more honest). V_cb = DERIVED (2-3-mode is 3D-projected, without counterexample) — the muon-template burden-flip form, qualifier mandatory. SPLIT: the RMS-APPLIES half is FORCED (the ground modes are spherically symmetric, so the RMS √((d−1)/d) is the definite projection value); the MODE-IS-3D half is the one open identification carried by no-counterexample (that the 2-3 mode is genuinely a 3-D object projected on the spherical lens — Cal audits). The 6/9 form-match is DROPPED — V_cb rests on the PHYSICAL projection alone (√(2/3)=√((d−1)/d) at d_space=3, Selector-2), + direction 5/√34. Confirmation STRUCTURAL ~5% (observed 20-yr puzzle, closest to inclusive). Supersedes the K1001 'value forced' label."
+   "k1003_note": "Cal §139 ratification (2026-07-29), ACCEPTED over my K1001 label (more honest). V_cb = DERIVED (2-3-mode is 3D-projected, without counterexample) — the muon-template burden-flip form, qualifier mandatory. SPLIT: the RMS-APPLIES half is FORCED (the ground modes are spherically symmetric, so the RMS √((d−1)/d) is the definite projection value); the MODE-IS-3D half is the one open identification carried by no-counterexample (that the 2-3 mode is genuinely a 3-D object projected on the spherical lens — Cal audits). The 6/9 form-match is DROPPED — V_cb rests on the PHYSICAL projection alone (√(2/3)=√((d−1)/d) at d_space=3, Selector-2), + direction 5/√34. Confirmation STRUCTURAL ~5% (observed 20-yr puzzle, closest to inclusive). Supersedes the K1001 'value forced' label.",
+   "k1313_correction": "2026-08-09 (K1313, Grace, forward correction): the 'V_cb STRUCTURAL→DERIVED' / 'cos ψ ALL FORCED' / 'value forced' labels in k1001_note & k1003_note are SUPERSEDED. Per K1313 + Elie 5141 + Lyra F881, the cos ψ→V_cb projection OVERSHOOTS observed V_cb=0.041 (down-Jack √=1/√42=0.154, 3.8×; geometric direction 31° vs 2.4°, ~13×). So V_cb MAGNITUDE = CANDIDATE — the cross-address (different-ν) projection is OPEN and rides the one K1012 two-point kernel (same object as up-12 & PMNS θ₂₃). WHAT STANDS: the down-only mechanism (up 23-mode vanishes at y_t=1, K711) + the direction cos ψ=5/√34 (34=n_C²+N_c², target-innocent). The dated notes are preserved as record; this is the current tier."
   },
   "V_ub": {
    "form": "CKM 1<->3 = bulk<->Shilov Born overlap (CKM analog of PMNS th13)",
@@ -222,7 +223,7 @@
    "k962_tier": "DERIVED",
    "k962_note": "137=N_c³·n_C+rank charge-count (K701); Wyler retired — single-route recipe, forcing open",
    "confirmation_axis": "exact",
-   "likelihood_subtier": "likely-PROVED",
+   "likelihood_subtier": "N/A — CP existence-only, magnitude OFF (K1304)",
    "openpiece_justification": "PROMOTED (open-piece, Keeper's flagship example): 137=N_c³·n_C+rank EXACT integer; open=uniqueness-of-formula (forcing) ≠ value-bearing"
   },
   "sin2_thW_MZ": {
@@ -313,7 +314,7 @@
    "k962_tier": "DERIVED",
    "k962_note": "native: SU(2)_L = SO(5)=Sp(2) real form (forced-native route)",
    "confirmation_axis": "—",
-   "likelihood_subtier": "likely-PROVED",
+   "likelihood_subtier": "N/A — CP existence-only, magnitude OFF (K1304)",
    "openpiece_justification": "native: SU(2)_L=SO(5)=Sp(2) real form (forced-native)"
   },
   "parity_violation_VmA": {
@@ -324,7 +325,7 @@
    "k962_tier": "DERIVED",
    "k962_note": "native: V−A from odd-g chirality (forced-native)",
    "confirmation_axis": "—",
-   "likelihood_subtier": "likely-PROVED",
+   "likelihood_subtier": "N/A — CP existence-only, magnitude OFF (K1304)",
    "openpiece_justification": "native: V−A from odd-g chirality (forced-native)"
   },
   "gauge_SU3_color": {

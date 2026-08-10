@@ -19,6 +19,28 @@
 \usepackage{textcomp}     % for \textpm, \texttimes, \textmiddot, etc.
 \usepackage{amssymb}      % fallback for some symbols
 
+% ── Theorem environments (guarded: skip if a paper already defines its own) ──
+\usepackage{amsthm}
+\makeatletter
+\@ifundefined{theorem}{\newtheorem{theorem}{Theorem}}{}
+\@ifundefined{lemma}{\newtheorem{lemma}{Lemma}}{}
+\@ifundefined{proposition}{\newtheorem{proposition}{Proposition}}{}
+\@ifundefined{corollary}{\newtheorem{corollary}{Corollary}}{}
+\@ifundefined{conjecture}{\newtheorem{conjecture}{Conjecture}}{}
+\@ifundefined{definition}{\theoremstyle{definition}\newtheorem{definition}{Definition}}{}
+\@ifundefined{remark}{\theoremstyle{remark}\newtheorem{remark}{Remark}}{}
+\theoremstyle{plain}
+\makeatother
+
+% ── Common Lie-group name macros (papers use \SO, \Spin, etc. as shorthand) ──
+\providecommand{\SO}{\ensuremath{\operatorname{SO}}}
+\providecommand{\Spin}{\ensuremath{\operatorname{Spin}}}
+\providecommand{\Sp}{\ensuremath{\operatorname{Sp}}}
+\providecommand{\SU}{\ensuremath{\operatorname{SU}}}
+\providecommand{\SL}{\ensuremath{\operatorname{SL}}}
+\providecommand{\GL}{\ensuremath{\operatorname{GL}}}
+\providecommand{\PSL}{\ensuremath{\operatorname{PSL}}}
+
 % ── Greek lowercase ──────────────────────────────────────────────
 \newunicodechar{α}{$\alpha$}
 \newunicodechar{β}{$\beta$}

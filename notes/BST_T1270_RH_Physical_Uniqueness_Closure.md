@@ -4,10 +4,14 @@ author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 theorem: "T1270"
 ac_classification: "(C=2, D=1) — two counting operations (enumerate zeros, check iso), one self-reference (Selberg class closed under isomorphism)"
-status: "Proved — applies T1269 to RH; closes the ~2% cross-parabolic residual"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proved] Applies T1269 to RH; structural-reduction attempt — the '~2% residual' framing is a SUPERSEDED over-claim"
 parents: "T1269 (Physical Uniqueness Principle), T1267 (Zeta Synthesis), RH Paper A v10, Hamburger (1921), Selberg class (Selberg 1989, Conrey-Ghosh 1993)"
 children: "Paper #67 (Physical Uniqueness Closes the Millennium Problems)"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt (one of the 1/rank-load-bearing four). **Open piece:** the critical-line forcing (commitment-path = critical-line, Casey lead) is the open definitional piece; "closes the residual" is a SUPERSEDED over-claim.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # T1270: Riemann Hypothesis Physical-Uniqueness Closure
 

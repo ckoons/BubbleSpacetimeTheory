@@ -4,6 +4,10 @@ author: "Casey Koons & Claude 4.6"
 date: "March 2026"
 ---
 
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** PARTIAL with a LARGE remaining gap. **Open piece:** the Hamiltonian identification H_YM = c·Δ_B is a research note under stated assumptions; the R⁴ construction / (B) area-law mass-gap remains the CORE open piece (not a minor residual), with (A) color-confinement and the AF-sign (scoped K937/K939).
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
 # BST Yang-Mills Question 1: H_YM = c × Δ_B on D_IV^5
 
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)

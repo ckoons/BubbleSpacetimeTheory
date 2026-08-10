@@ -4,10 +4,14 @@ author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 theorem: "T1274"
 ac_classification: "(C=2, D=1) — two counting (rank at s=1, Sha bound), one depth (three-channel decomposition is self-referential)"
-status: "Proved — applies T1269 to BSD; closes the ~4% Hasse-Weil normalization residual"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proved] Applies T1269 to BSD; structural-reduction attempt — 'closes the ~4% residual' is a SUPERSEDED over-claim"
 parents: "T1269 (Physical Uniqueness Principle), BST_BSD_AC_Proof, T153, T997 (BSD Spectral Permanence), Gross-Zagier, Kolyvagin"
 children: "Paper #67"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt (one of the 1/rank-load-bearing four). **Open piece:** the rank ≥ 2 spectral-permanence / iso-closure step is not referee-consensus; Gross–Zagier–Kolyvagin cover ranks 0–1 only.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # T1274: Birch-Swinnerton-Dyer Physical-Uniqueness Closure
 

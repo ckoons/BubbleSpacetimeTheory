@@ -1,5 +1,5 @@
 ---
-title: "Yang-Mills Mass Gap: The AC Proof"
+title: "Yang-Mills Mass Gap: The AC Attempt"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] ~99% — Confinement CLOSED May 2 (T1637 Cheeger). Mass gap discrete (T1636 Wallach). Constructive QFT formalization remains."

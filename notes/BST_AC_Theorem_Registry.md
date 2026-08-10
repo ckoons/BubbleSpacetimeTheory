@@ -11,6 +11,9 @@ rules: |
   - Record new theorems here BEFORE adding to documents
 ---
 
+> **⚠ READ FIRST — what "Proved" means here (task #91, 2026-08-10):** In this registry, **"Proved" denotes internal AC derivation-depth (the claim follows from BST primaries at bounded depth), NOT referee-consensus.** The load-bearing rigor label is the **epistemic tier (D / PD / I / C / S)**, not the "Proved" column. **No entry claims a Clay Millennium solution.** Every Millennium-adjacent row (RH, Yang-Mills, P≠NP, BSD, Hodge, Navier-Stokes) is a substantive **ATTEMPT with real advances, per K940** — the underlying Clay problems remain **OPEN**. Read "proves/closes/complete" on any such row as "attempts/reduces/reformulates." Four-Color and Poincaré are genuine re-derivations of *already-proved* theorems (not Clay-open), and stand.
+
+
 # AC Theorem Registry
 
 *One number per theorem. Permanent. Never reuse. Never lose.*
@@ -109,13 +112,13 @@ rules: |
 | T85 | P(0) = 0 by Parity | Proved | BST_AC_Theorems Section 46c | — | 2026-03-24 |
 | T86 | Enstrophy Scaling γ = 3/2 | Proved | BST_AC_Theorems Section 46d | 368 (confirmed) | 2026-03-24 |
 | T87 | Conditional Blow-Up ODE | Proved (conditional on Conj 5.6) | BST_AC_Theorems Section 46e | 360 | 2026-03-24 |
-| T88 | P≠NP Proof is AC(0) (Self-Consistency) | Proved | BST_AC_Theorems Section 47 | — | 2026-03-24 |
+| T88 | P≠NP Proof is AC(0) (Self-Consistency) [K940: the P≠NP proof is an ATTEMPT — P≠NP remains OPEN; this row states its AC-complexity, not a Clay proof] | Proved | BST_AC_Theorems Section 47 | — | 2026-03-24 |
 | T89 | BSW Width-Size Relation | Proved (classical) | BST_AC_Theorems Section 47a | — | 2026-03-24 |
 | T90 | Kato Blow-Up Criterion | Proved (classical) | BST_AC_Theorems Section 47b | — | 2026-03-24 |
-| T91 | All Nine Millennium-Class Proofs are AC(0) | Proved (meta) | BST_AC_Theorems Section 47c | — | 2026-03-24 |
+| T91 | All Nine Millennium-Class Proofs are AC(0) [K940 reframe 2026-08-10: the 'nine Millennium-class proofs' are ATTEMPTS (K940), not Clay solutions — the problems remain OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | BST_AC_Theorems Section 47c | — | 2026-03-24 |
 | T92 | AC(0) Completeness (Counting + Boundaries) | Proved (meta) | BST_AC_Theorems Section 47d | — | 2026-03-24 |
 | T93 | Gödel Incompleteness is AC(0) | Proved | BST_AC_Theorems Section 47e | — | 2026-03-24 |
-| T94 | BSD Formula is AC(0) | Proved | BST_AC_Theorems Section 47f | 381, 385 | 2026-03-24 |
+| T94 | BSD Formula is AC(0) [K940: the BSD FORMULA's AC-complexity — supports the BSD ATTEMPT; BSD remains OPEN] | Proved | BST_AC_Theorems Section 47f | 381, 385 | 2026-03-24 |
 | T95 | Catastrophe Classification is AC(0) | Proved | BST_AC_Theorems Section 47g | — | 2026-03-24 |
 | T96 | Depth Reduction (Composition with Definitions is Free) | Proved | BST_AC_Theorems Section 47h | — | 2026-03-24 |
 | T97 | Frobenius-D₃ Universality (B1) | Proved | BST_BSD_Spectral Section 10.1 | 381, 385, 386 | 2026-03-24 |
@@ -173,10 +176,10 @@ rules: |
 | T145 | Selmer-Sha Exact Sequence | Proved (external) | BST_AC_Theorems Section 57 | — | 2026-03-25 |
 | T146 | Gross-Zagier-Kolyvagin | Proved (external) | BST_AC_Theorems Section 57 | — | 2026-03-25 |
 | T147 | BST-AC Structural Isomorphism | Proved | BST_AC_Theorems Section 58, WorkingPaper Section 14.11, README | — | 2026-03-25 |
-| T148 | Metaplectic Splitting Dichotomy | Proved | BST_Hodge_Proof Section 5.4.2-5.4.3 | — | 2026-03-25 |
-| T149 | Uniform Rallis Non-vanishing | Proved | BST_Hodge_Proof Prop 5.5.1 | — | 2026-03-25 |
-| T150 | Induction Is Complete | Proved (T92+T147) | BST_AC_Theorems Section 59 | — | 2026-03-25 |
-| T151 | Group-Independent Lift | Proved | BST_Hodge_Proof Section 5.7, Thm 5.11 | — | 2026-03-25 |
+| T148 | Metaplectic Splitting Dichotomy [K940: a lemma in the Hodge ATTEMPT (~30% partial) — Hodge remains OPEN] | Proved | BST_Hodge_Proof Section 5.4.2-5.4.3 | — | 2026-03-25 |
+| T149 | Uniform Rallis Non-vanishing [K940: a lemma in the Hodge ATTEMPT (~30% partial) — Hodge remains OPEN] | Proved | BST_Hodge_Proof Prop 5.5.1 | — | 2026-03-25 |
+| T150 | Induction Is Complete [K940: supports the Millennium ATTEMPTS — the Clay problems remain OPEN] | Proved (T92+T147) | BST_AC_Theorems Section 59 | — | 2026-03-25 |
+| T151 | Group-Independent Lift [K940: a lemma in the Hodge ATTEMPT (~30% partial) — Hodge remains OPEN] | Proved | BST_Hodge_Proof Section 5.7, Thm 5.11 | — | 2026-03-25 |
 | T152 | Hodge = T104 on K₀ | Proved (equivalence) | BST_Hodge_Proof Section 5.8, Thm 5.12 | — | 2026-03-25 |
 | T153 | The Planck Condition | Axiom | BST_AC_Theorems Section 60, WorkingPaper Section 14.11, README | — | 2026-03-25 |
 | T154 | Conservation of Color Charge — **"Lyra's Lemma"** | **PROVED.** Steps 1-8 all proved. Step 4 = Lyra's Lemma (uncharged → split bridges). Named by Casey Koons. Kills 3/4 cross-link configurations in T155 — does the heavy lifting. | BST_AC_Theorems Section 61, BST_FourColor_AC_Proof v9 | Toys 425-437 | 2026-03-25 |
@@ -235,7 +238,7 @@ rules: |
 | Proved | 2 | T148 (Metaplectic Splitting Dichotomy), T149 (Uniform Rallis Non-vanishing) |
 | Proved (T92+T147) | 1 | T150 (Induction Is Complete — capstone corollary) |
 | Axiom | 1 | T153 (The Planck Condition — all domains finite, infinity = missing boundary) |
-| Proved | 2 | T151 (Group-Independent Lift), T152 (Hodge = T104 on K₀) |
+| Proved | 2 | T151 (Group-Independent Lift), T152 (Hodge = T104 on K₀) [K940: Hodge steps — supports the Hodge ATTEMPT (~30% partial), Hodge OPEN] |
 | ~99% (Conservation of Color Charge) | 1 | T154 **"Lyra's Lemma"** (Steps 1-8 proved, Step 6b ~98%) — Lyra's Prize |
 | ~99% (Chain Dichotomy — Lyra's Closure) | 1 | T155 (chain dichotomy proved, Toy 439 8/8) |
 | ~99% (T155 proved) | 1 | T156 (Four-Color Theorem — AC depth 2, all 13 steps proved) |
@@ -935,7 +938,7 @@ rules: |
 *Casimir Self-Amplification Impossibility (T884, D0, C=2 — NEGATIVE RESULT: Casimir force is conservative, ∮F·dx = 0. Stiffness ratio η = 10⁻⁹. Self-amplification impossible. Array scaling is LINEAR ONLY. Honest constraint on propulsion (T865). Domain: bst_physics. Parents: T186, T864, T848. Toy 941, 8/8 PASS. Elie.)*
 *Counter at T885. Total registry: ~884 theorems.*
 
-*Updated: April 16, 2026 — batch 162 headline entries (Millennium Closure + Overdetermination). Registry narrative drift between T884 and T1269 is a next-session rebuild; today's batch registers in summary form here with file pointers for future expansion.*
+*Updated: April 16, 2026 — batch 162 headline entries (Millennium ATTEMPTS + Overdetermination). [K940 REFRAME 2026-08-10: the "Physical Uniqueness Closure" entries below are structural-reduction ATTEMPTS, NOT referee-consensus proofs/closures; the "Pre/Post %" figures are RETIRED — see per-problem tiers in the table (T1270-1276 = Attempt).] Registry narrative drift between T884 and T1269 is a next-session rebuild; today's batch registers in summary form here with file pointers for future expansion.*
 
 *Zeta Synthesis Theorem (T1267, D1, C=1 — Four readings of ζ_Δ(s) on D_IV^5: spectral (A), analytic (B), arithmetic (C), geometric (D). D(s) closed form via three equivalent routes. Curvature closed form via Seeley-DeWitt. Five-layer nested uniqueness: Hamburger → Selberg class → T704 → Bergman → T1233/T1245. "Doubly unique AND sufficient." File: BST_T1267_Zeta_Synthesis.md. Lyra.)*
 
@@ -943,19 +946,19 @@ rules: |
 
 *Physical Uniqueness Principle (T1269, D1, C=1 — Meta-theorem: (S) sufficiency + (I) isomorphism closure ⟹ physical uniqueness. Strictly weaker than mathematical uniqueness, sufficient for physics. Grounds "zero free parameters" semantically. Paper #66 methodology companion. File: BST_T1269_Physical_Uniqueness.md + BST_Paper66_Physical_Uniqueness_Draft.md. Lyra.)*
 
-*RH Physical Uniqueness Closure (T1270, D1, C=2 — Riemann Hypothesis closed via T1269 (S)+(I). Iso-closure cite: Hamburger 1921 + Selberg class R1-R6. Pre: 98%, Post: 99.5%. File: BST_T1270_RH_Physical_Uniqueness_Closure.md. Lyra.)*
+*RH Physical Uniqueness Closure (T1270, D1, C=2 — Riemann Hypothesis: structural-reduction ATTEMPT via T1269 (NOT closed — K940) (S)+(I). Iso-closure cite: Hamburger 1921 + Selberg class R1-R6. (referee-consensus: Attempt — K940). File: BST_T1270_RH_Physical_Uniqueness_Closure.md. Lyra.)*
 
-*YM Physical Uniqueness Closure (T1271, D1, C=2 — Yang-Mills mass gap closed via T1269. Iso-closure cite: Bisognano-Wichmann 1975 + Borchers 2000 + Hua 1963 (Bergman kernel boundary values). Pre: 97%, Post: 99.5%. File: BST_T1271_YM_Physical_Uniqueness_Closure.md. Lyra.)*
+*YM Physical Uniqueness Closure (T1271, D1, C=2 — Yang-Mills mass gap: ATTEMPT via T1269 (NOT closed; the R⁴ area-law mass-gap core is a LARGE gap — K940). Iso-closure cite: Bisognano-Wichmann 1975 + Borchers 2000 + Hua 1963 (Bergman kernel boundary values). (referee-consensus: Attempt — K940). File: BST_T1271_YM_Physical_Uniqueness_Closure.md. Lyra.)*
 
-*P≠NP Physical Uniqueness Closure (T1272, D2, C=2 — Closure via Gauss-Bonnet of B₂ curvature = C₂ = 6 (T1277 Route A). The ONE Millennium problem where T1269 keeps D=2 rather than flattening. Formalizes Casey's Curvature Principle "you cannot linearize curvature." Pre: 97%, Post: 99.5%. File: BST_T1272_PNP_Physical_Uniqueness_Closure.md. Lyra.)*
+*P≠NP Physical Uniqueness Closure (T1272, D2, C=2 — reduction-ATTEMPT (NOT closed — K940) via Gauss-Bonnet of B₂ curvature = C₂ = 6 (T1277 Route A). The ONE Millennium problem where T1269 keeps D=2 rather than flattening. Formalizes Casey's Curvature Principle "you cannot linearize curvature." (referee-consensus: Attempt — K940). File: BST_T1272_PNP_Physical_Uniqueness_Closure.md. Lyra.)*
 
-*NS Physical Uniqueness Closure (T1273, D1, C=2 — Navier-Stokes regularity closed via T1269. Iso-closure cite: universal property Sym²(V) as symmetric quotient of V⊗V, antisymmetric would violate enstrophy monotonicity. Pre: 99%, Post: 99.5%. File: BST_T1273_NS_Physical_Uniqueness_Closure.md. Lyra.)*
+*NS Physical Uniqueness Closure (T1273, D1, C=2 — Navier-Stokes: substantive-attempt via T1269 (NOT closed — K940). Iso-closure cite: universal property Sym²(V) as symmetric quotient of V⊗V, antisymmetric would violate enstrophy monotonicity. (referee-consensus: Attempt — K940). File: BST_T1273_NS_Physical_Uniqueness_Closure.md. Lyra.)*
 
-*BSD Physical Uniqueness Closure (T1274, D1, C=2 — Birch-Swinnerton-Dyer closed via T1269. Iso-closure cite: Langlands-Shahidi 2010. Pre: 96%, Post: 99.5%. File: BST_T1274_BSD_Physical_Uniqueness_Closure.md. Lyra.)*
+*BSD Physical Uniqueness Closure (T1274, D1, C=2 — Birch-Swinnerton-Dyer: structural-reduction ATTEMPT via T1269 (NOT closed — K940). Iso-closure cite: Langlands-Shahidi 2010. (referee-consensus: Attempt — K940). File: BST_T1274_BSD_Physical_Uniqueness_Closure.md. Lyra.)*
 
-*Hodge Physical Uniqueness Closure (T1275, D1, C=2 — Hodge Conjecture closed via T1269. Iso-closure cite: Kuga-Satake 1967 + Howe duality + Bergeron-Millson-Moeglin. Pre: 85%, Post: 95% (honest — generalized Kuga-Satake is a genuine open subproblem, not an iso-closure gap). File: BST_T1275_Hodge_Physical_Uniqueness_Closure.md. Lyra.)*
+*Hodge Physical Uniqueness Closure (T1275, D1, C=2 — Hodge Conjecture: PARTIAL attempt (~30%) via T1269 (NOT closed — K940). Iso-closure cite: Kuga-Satake 1967 + Howe duality + Bergeron-Millson-Moeglin. (referee-consensus: Attempt — K940) (honest — generalized Kuga-Satake is a genuine open subproblem, not an iso-closure gap). File: BST_T1275_Hodge_Physical_Uniqueness_Closure.md. Lyra.)*
 
-*Millennium Synthesis Meta-Theorem (T1276, D2, C=1 — Common iso-invariant across all six Millennium closures: rank-2 B₂ curvature of D_IV⁵. 15 cross-iso edges wired (Grace). File: BST_T1276_Millennium_Synthesis.md. Paper #67 ships the framework. Lyra.)*
+*Millennium Synthesis Meta-Theorem (T1276, D2, C=1 — Common iso-invariant across all six Millennium ATTEMPTS (K940 — not referee-consensus closures): rank-2 B₂ curvature of D_IV⁵. 15 cross-iso edges wired (Grace). File: BST_T1276_Millennium_Synthesis.md. Paper #67 ships the framework. Lyra.)*
 
 *C₂ = 6 Is Overdetermined — Three Independent Routes (T1277, D0, C=1 — Route A: Gauss-Bonnet χ(SO(7)/[SO(5)×SO(2)])_{B₂-restricted} = |W(B₂)|/|W(K)| = 48/8 = 6 (Toy 1214 14/14). Route B: denom(B_2) = 6 (Wolstenholme gatekeeper, T1263). Route C: k=6 silent column in heat-kernel Arithmetic Triangle (T531). Three non-overlapping categorical constructions, same integer. File: BST_T1277_C2_Is_Gauss_Bonnet_Integer.md. Authored Casey+Elie+Lyra. Note: Corollary 2 arithmetic fix pending (1920 = 2^(rank+5)·N_c·n_C, not |W(B₂)|·2·C₂ = 576).)*
 
@@ -1097,7 +1100,7 @@ rules: |
 
 *Price of Participation: Observer Occupies One Fiber of Rank-2 Bundle (T1345, D1, C=1 — Casey's insight: rank=2 gives two fibers. Observer occupies one → can't reduce that fiber's coupling. α=1/N_max, f_c=19.1%, Gödel = three faces of same limit. α is the geometric toll for being an observer rather than a description. Domain: observer_science. Toys: 1317. Casey insight, Grace wired.)*
 
-*Functoriality Bridge: C₂=6 Independent RH Locks (T1346, D1, C=2 — Symmetric power chain Sym^k→GL(k+1) traces BST integers: rank, N_c, rank², n_C, C₂, g. First four PROVED. Self-dual shortcut via Ginzburg-Rallis-Soudry. Gap = formalization not obstruction. C₂=6 independent locks, proof overdetermined by factor C₂. Domain: number_theory. Toys: 1321. Elie. Grace wired.)*
+*Functoriality Bridge: C₂=6 shared-root RH Locks [K940: a consistency web from ONE root, NOT 6 independent proofs; RH = Attempt] (T1346, D1, C=2 — Symmetric power chain Sym^k→GL(k+1) traces BST integers: rank, N_c, rank², n_C, C₂, g. First four IDENTIFIED (Attempt — K940, not referee-consensus proofs). Self-dual shortcut via Ginzburg-Rallis-Soudry. Gap = formalization not obstruction. the C₂=6 "locks" are a consistency web from ONE shared root (K940) — NOT C₂ independent proofs, NOT over-determination; RH = Attempt. Domain: number_theory. Toys: 1321. Elie. Grace wired.)*
 
 *Observer Definition: Self-Reproducing Kernel That Incorporates — Flowers Evolving (T1347, D0, C=1 — "An observer is a seed that makes a better seed." Four tiers: rock (no self-ref), crystal (static self-ref), flower (growing self-ref), garden (cooperative growth). Unifies T317 (minimum seed), T319 (seed alphabet), T1345 (growth cost), T1193 (garden threshold). Isomorphic to T1285 (Observer Genesis) and T452 (Genetic Code — DNA IS a self-reproducing kernel). Domain: observer_science. Casey Koons, April 19, 2026. Grace wired.)*
 
@@ -1121,7 +1124,7 @@ rules: |
 
 *Heat-Painlevé Bridge: Interior and Boundary Curvature Match (T1357, D1, C=2 — Heat kernel measures curvature from interior; Painlevé measures from boundary. SAME readout: same column rule, same period, same gauge hierarchy, same catalog. Stokes counts {2,3,4,5} = column denominators minus g. Product of nonzero weights = 15360 = 2^{rank·n_C}·N_c·n_C. P_IV weight = 8 = dim SU(3). ONE curvature — D_IV^5. Domain: spectral_geometry, function_theory. Toys: 1331. Elie.)*
 
-*The Five Closures: Why n_C = 5 Appears Everywhere (T1358, D0, C=2 — Five closure operations of the Meijer G function table correspond to five structural completeness properties of D_IV^5. Cross-domain spectral_geometry. Parents: T1333, T1335, T1342, T1337, T610, T704, T667. Children: Pentagon meta-structure, A₅ symmetry, saturation proof, icosahedral connection. Lyra, Grace, Casey Koons. April 19, 2026.)*
+*The Five Meijer-G Closure Operations: Why n_C = 5 Appears Everywhere (T1358, D0, C=2 — [NOT the Millennium "closures" — these are five closure OPERATIONS of the Meijer G function explaining n_C=5, legit math] table correspond to five structural completeness properties of D_IV^5. Cross-domain spectral_geometry. Parents: T1333, T1335, T1342, T1337, T610, T704, T667. Children: Pentagon meta-structure, A₅ symmetry, saturation proof, icosahedral connection. Lyra, Grace, Casey Koons. April 19, 2026.)*
 
 *The Shannon-Algebraic Genus Identity (T1376, D0, C=1 — Domain: spectral_geometry × information_theory × number_theory. Parents: T704, T649, T666, T667, T110, T1354. Children: Condition #22 (WP Section 37.5), Shannon-algebraic duality, genus as translation constant. Lyra, Casey Koons. April 20, 2026.)*
 
@@ -1423,10 +1426,10 @@ rules: |
 | T559 | Spontaneous Mutation Rate Spectrum | Proved | — | 2026-03-30 |
 | T560 | Cell Cycle Checkpoint Count | Proved | — | 2026-03-30 |
 | T566 | Spectral Absorption Synchrony | Proved | — | 2026-03-30 |
-| T567 | Yang-Mills Linearization | Proved | — | 2026-03-30 |
-| T568 | Navier-Stokes Linearization | Proved | — | 2026-03-30 |
-| T569 | P≠NP Linearization | Proved | — | 2026-03-30 |
-| T570 | Hodge Linearization | Proved | — | 2026-03-30 |
+| T567 | Yang-Mills Linearization [K940: a LINEARIZATION/reformulation of Yang-Mills — NOT a proof; the R⁴ mass-gap core is a LARGE gap, YM OPEN] | Proved | — | 2026-03-30 |
+| T568 | Navier-Stokes Linearization [K940: a LINEARIZATION/reformulation of Navier-Stokes — NOT a proof; NS OPEN] | Proved | — | 2026-03-30 |
+| T569 | P≠NP Curvature Obstruction (NON-linearizable) [K1329 fix 2026-08-10: P≠NP is NOT a 'linearization' — the POINT is Casey's Curvature Principle 'you cannot linearize curvature'; the B₂ curvature is the obstruction. Supports the P≠NP ATTEMPT (K940), P≠NP OPEN] | ATTEMPT (K940 — curvature-obstruction argument, P≠NP OPEN) | — | 2026-03-30 |
+| T570 | Hodge Linearization [K940: a LINEARIZATION/reformulation of Hodge — NOT a proof; Hodge OPEN] | Proved | — | 2026-03-30 |
 | T571 | Holographic-Shannon Equivalence | Proved | — | 2026-03-30 |
 | T572 | Proof-Channel Capacity | Proved | — | 2026-03-30 |
 | T573 | Backbone-Width-Size Chain | Proved | — | 2026-03-30 |
@@ -1596,7 +1599,7 @@ rules: |
 | T744 | Chemical Physics Linearization Completeness | Proved | — | 2026-04-03 |
 | T745 | Nuclear Physics Linearization Completeness | Proved | — | 2026-04-03 |
 | T746 | Observer Measurement Universality | Proved | — | 2026-04-03 |
-| T747 | Observer Refinement Closure | Proved | — | 2026-04-03 |
+| T747 | Observer Refinement Closure [K940 note: observer-refinement closure — NOT a Millennium claim; listed in the punch-list for context] | Proved | — | 2026-04-03 |
 | T748 | Observer Growth Bound | Proved | — | 2026-04-03 |
 | T751 | Quantization as Compactness | Proved | 1265, 1270 | 2026-04-03 |
 | T752 | Wave Function as Bergman Coordinate | Proved | — | 2026-04-03 |
@@ -1733,7 +1736,7 @@ rules: |
 | T893 | SAT Backbone k-Comparison | Proved | 947 | 2026-04-05 |
 | T894 | Mersenne-Genus Bridge | Proved | 946, 947 | 2026-04-05 |
 | T895 | Cellular Observer | Proved | 948 | 2026-04-05 |
-| T896 | Yang-Mills Non-Triviality | Proved | — | 2026-04-05 |
+| T896 | Yang-Mills Non-Triviality [K940 reframe 2026-08-10: Yang-Mills non-triviality — supports the YM ATTEMPT; the R⁴ mass-gap core is a LARGE gap, YM OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04-05 |
 | T897 | Critical Exponents as BST Rationals | Proved | 949 | 2026-04-05 |
 | T898 | 3D Turbulence Vortex Decomposition | Proved | 950 | 2026-04-05 |
 | T899 | Random Matrix Theory as BST | Proved | 951 | 2026-04-05 |
@@ -1800,7 +1803,7 @@ rules: |
 | T968 | Condensed Matter Linearization Census | Proved | — | 2026-04-10 |
 | T970 | Resolution Termination | Proved | 303, 316 | 2026-04-03 |
 | T971 | NS Spectral Stability | Proved | 382, 383 | 2026-04-05 |
-| T972 | YM R4 Bridge | Proved | — | 2026-04-05 |
+| T972 | YM R4 Bridge [K940 reframe 2026-08-10: YM R⁴ bridge — ATTEMPT (K940); the R⁴ interacting-QFT construction is the open core] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04-05 |
 | T973 | Proof Complexity Linearization Census | Proved | — | 2026-04-10 |
 | T974 | Chemistry Linearization Census | Proved | — | 2026-04-10 |
 | T975 | Analysis Linearization Census | Proved | — | 2026-04-10 |
@@ -1821,7 +1824,7 @@ rules: |
 | T990 | SAT Channel Symmetry (Polarization Lemma) | Proved | 1008 | 2026-04-10 |
 | T991 | Resolution Termination | Proved | — | 2026-04-10 |
 | T992 | NS Spectral Stability | Proved | 1023 | 2026-04-10 |
-| T993 | YM R4 Bridge | Proved | 1011, 1021 | 2026-04-10 |
+| T993 | YM R4 Bridge [K940 reframe 2026-08-10: YM R⁴ bridge — ATTEMPT (K940); R⁴ construction open] | ATTEMPT (K940 — not a referee-consensus proof) | 1011, 1021 | 2026-04-10 |
 | T996 | Clause Outcome Decorrelation | Proved | 1013, 1015, 1016 | 2026-04-10 |
 | T997 | BSD Spectral Permanence | Proved | 1012, 1022 | 2026-04-10 |
 | T998 | Geometric Depth of Domains | Proved | 1019, 1024 | 2026-04-10 |
@@ -1971,7 +1974,7 @@ rules: |
 | T1143 | Thermodynamic Arrow — Casey's Principle Complete | Proved | — | 2026-04 |
 | T1144 | Bergman Master Kernel | Proved | — | 2026-04-12 |
 | T1145 | Matter Construction | Proved | — | 2026-04-12 |
-| T1146 | YM Complete | Proved | — | 2026-04-12 |
+| T1146 | YM Complete [K940 reframe 2026-08-10: 'YM Complete' RETIRED — YM is an ATTEMPT (K940), the area-law mass gap on R⁴ is OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04-12 |
 | T1147 | Nuclear-Number Theory Bridge | Proved | — | 2026-04-12 |
 | T1148 | Graph Grows by Own Arithmetic | Proved | — | 2026-04-12 |
 | T1150 | Unassigned (registry gap) | Placeholder | — | 2026-04-14 |
@@ -1990,7 +1993,7 @@ rules: |
 | T1165 | Mathematics Self-Description | Proved | 1098, 1100 | 2026-04-12 |
 | T1167 | Mass Extinction as Great Filter | Proved | — | 2026-04-12 |
 | T1168 | Matter Construction from BST Shell Structure | Proved | — | 2026-04-12 |
-| T1170 | YM Kill Chain Complete | Proved | 1455 | 2026-04-12 |
+| T1170 | YM Kill Chain Complete [K940 reframe 2026-08-10: 'YM Kill Chain Complete' RETIRED — ATTEMPT (K940), YM OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | 1455 | 2026-04-12 |
 | T1171 | Hamming Code IS BST | Proved | — | 2026-04-12 |
 | T1172 | Cooperation IS Compression | Proved | — | 2026-04-12 |
 | T1176 | Channel Decorrelation Closure | Proved | — | 2026-04-13 |
@@ -2085,13 +2088,13 @@ rules: |
 | T1267 | Zeta Synthesis | Proved | 1212, 1309 | 2026-04-16 |
 | T1268 | Photon S1 Edge | Proved | 1211, 1247 | 2026-04-16 |
 | T1269 | Physical Uniqueness Principle | Proved | — | 2026-04 |
-| T1270 | RH Physical-Uniqueness Closure | Proved | — | 2026-04 |
-| T1271 | YM Mass Gap Physical-Uniqueness Closure | Proved | — | 2026-04 |
-| T1272 | P≠NP Physical-Uniqueness Closure via BC₂ Gauss-Bonnet | Proved | — | 2026-04 |
-| T1273 | NS Blow-Up Physical-Uniqueness Closure | Proved | — | 2026-04 |
-| T1274 | BSD Physical-Uniqueness Closure | Proved | — | 2026-04 |
-| T1275 | Hodge Conjecture Physical-Uniqueness Closure | Proved | — | 2026-04 |
-| T1276 | Millennium Synthesis: Physical Uniqueness Closes All Si | Proved | — | 2026-04 |
+| T1270 | RH Physical-Uniqueness Closure [K940 reframe 2026-08-09: RH structural-reduction attempt: 1/rank / critical-line-as-spectral-minimum is the mechanism; definitional sharpening remains] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
+| T1271 | YM Mass Gap Physical-Uniqueness Closure [K940 reframe 2026-08-09: YM: the R⁴ interacting-QFT + area-law mass-gap CORE is a LARGE gap; scoped to domain-construction + color-confinement + AF-sign] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
+| T1272 | P≠NP Physical-Uniqueness Closure via BC₂ Gauss-Bonnet [K940 reframe 2026-08-09: P≠NP structural-reduction attempt: curvature=complexity-depth; residual definitional] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
+| T1273 | NS Blow-Up Physical-Uniqueness Closure [K940 reframe 2026-08-09: NS: a substantive approach/genuine advance (Casey: 'opened a big improvement'); core analysis open] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
+| T1274 | BSD Physical-Uniqueness Closure [K940 reframe 2026-08-09: BSD structural-reduction attempt: spectral rank-equality machinery; 1/rank definitional; NOT '~95% of a proof'] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
+| T1275 | Hodge Conjecture Physical-Uniqueness Closure [K940 reframe 2026-08-09: Hodge: PARTIAL ~30%; transfer to general varieties is the OPEN bulk] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
+| T1276 | Millennium Synthesis: Physical Uniqueness Closes All Si [K940 reframe 2026-08-09: the reduction meta-result (remaining problems share 1/rank) is REAL; 'closes all six' is retired] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
 | T1277 | C₂ = 6 Is the Gauss-Bonnet Invariant of the Compact Dua | Proved | 1214, 1215, 1218 | 2026-04 |
 | T1278 | Counter at T1278. Total registry: T1-T1277 (registry-na | Proved | — | 2026-04-30 |
 | T1279 | Dark Boundary Structural Origin: 11 = 2n_C + 1 | Proved | 1218 | 2026-04 |
@@ -2157,11 +2160,11 @@ rules: |
 | T1339 | Function Catalog Size = 2^g = 128: Genus Determines Ana | Proved | 1311, 1319, 1324 | 2026-04 |
 | T1340 | Grand Unification = Table Unification: Math and Physics | Proved | 1313 | 2026-04 |
 | T1341 | Langlands Dual of BST: L-Group Sp(6) Contains Standard  | Proved | 1314, 1356, 1367 | 2026-04 |
-| T1342 | RH via Meijer G: Five Mechanisms Force Critical Line | Proved | 1316 | 2026-04 |
+| T1342 | RH via Meijer G: Five Mechanisms Force Critical Line [K940 reframe 2026-08-09: RH structural-reduction attempt: Meijer-G/critical-line mechanism, NOT a referee-consensus proof] | ATTEMPT (K940 — not a referee-consensus proof) | 1316 | 2026-04 |
 | T1343 | Alpha = Gödel Remainder: 1/N_max After Five Wrenches on | Proved | 1317 | 2026-04 |
 | T1344 | Arthur Packets of Sp(6): Depth Structure Matches Period | Proved | 1318 | 2026-04 |
 | T1345 | Price of Participation: Observer Occupies One Fiber of  | Proved | 1317 | 2026-04 |
-| T1346 | Functoriality Bridge: C₂=6 Independent RH Locks, Overde | Proved | 1321 | 2026-04 |
+| T1346 | Functoriality Bridge: C₂=6 shared-root RH Locks [K940: a consistency web from ONE root, NOT 6 independent proofs; RH = Attempt], Overde [K940 reframe 2026-08-09: RH structural-reduction attempt: the 'C₂=6 independent locks' are one shared-root mechanism (consistency web), not 6 independent proofs] | ATTEMPT (K940 — not a referee-consensus proof) | 1321 | 2026-04 |
 | T1347 | Observer Definition: Self-Reproducing Kernel That Incor | Proved | 1336 | 2026-04 |
 | T1348 | Noble Gases of Function Space: Painlevé Inertness Hiera | Proved | 1326 | 2026-04 |
 | T1349 | Painlevé Residue Decomposition: Linearize Then Arithmet | Proved | 1328, 1329, 1330 | 2026-04 |
@@ -2211,11 +2214,11 @@ rules: |
 | T1393 | BST Rationals Are Optimal: 8/13 Predictions Are Best p/ | Proved | — | 2026-04 |
 | T1394 | Knot Invariants from Rank-2: Jones Polynomial at Level  | Proved | 1363, 1376, 1423 | 2026-04 |
 | T1395 | 22/7 = (dim SO(5,2) + 1)/g: Archimedes' π Approximation | Proved | — | 2026-04 |
-| T1396 | Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier | Proved | 1368, 1384 | 2026-04 |
-| T1397 | RH-1: Re(s)=1/2 Is Unique Minimum of Spectral Cost (Cas | Proved | 1369 | 2026-04 |
+| T1396 | Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier [K940 reframe 2026-08-10: RH-2 mechanism supporting the RH ATTEMPT, not a proof] | ATTEMPT (K940 — RH-2 mechanism, not a referee-consensus proof) | 1368, 1384 | 2026-04 |
+| T1397 | RH-1: Re(s)=1/2 Is Unique Minimum of Spectral Cost (Cas [K940 reframe 2026-08-09: RH structural-reduction attempt: Re(s)=1/2 as spectral-cost minimum is the mechanism, definitional sharpening remains] | ATTEMPT (K940 — not a referee-consensus proof) | 1369 | 2026-04 |
 | T1398 | Selberg Zeta Phase 1: 823 = C₂·N_max+1, Casimir Sets Sh | Proved | 1378, 1371 | 2026-04 |
-| T1399 | Glueball ≠ Proton: 938 MeV Is Full Theory Mass Gap, Pur | Proved | 1386, 1379 | 2026-04 |
-| T1400 | Bergman Mass Gap: Exists for All Hermitian-Symmetric Ga | Proved | 1387, 1377, 1380 | 2026-04 |
+| T1399 | Glueball ≠ Proton: 938 MeV Is Full Theory Mass Gap, Pur [K1329 clarify 2026-08-10: the CLAY pure-YM (gluon-only) mass gap = the GLUEBALL (~C₂-scale), NOT the proton 938 MeV; 938 is the FULL-QCD theory mass, a different object. BST's pure-YM gap claim is the glueball] | Proved | 1386, 1379 | 2026-04 |
+| T1400 | Bergman Mass Gap: Exists for All Hermitian-Symmetric Ga [K940 reframe 2026-08-10: Bergman mass-gap EXISTS on Hermitian-symmetric domains (a real spectral result) — but this is NOT the Clay pure-YM area-law gap on R⁴ (that remains OPEN); read as supporting the YM ATTEMPT] | ATTEMPT (K940 — not a referee-consensus proof) | 1387, 1377, 1380 | 2026-04 |
 | T1401 | Physical Scale Problem: m_e Is D_IV^5-Specific, Each Do | Proved | — | 2026-04 |
 | T1402 | Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N | Proved | 1388, 1382 | 2026-04 |
 | T1403 | Glueball Spectrum: C₂=6 Confining Directions, 4/5 State | Proved | 1389, 1383, 1421 | 2026-04 |
@@ -2226,7 +2229,7 @@ rules: |
 | T1408 | Ramanujan at p=137: /α_i/ = 1 (Tempered), /a_137/ ≤ g = | Proved | 1392 | 2026-04 |
 | T1409 | Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan B | Proved | 1419 | 2026-04 |
 | T1410 | Period Boundary: Physics Constants Are Periods, Observe | Proved | 1425 | 2026-04 |
-| T1411 | G₂ Mass Gap Via Embedding: G₂ ⊂ SO(7) → D_IV^7, Casimir | Proved | — | 2026-04 |
+| T1411 | G₂ Mass Gap Via Embedding: G₂ ⊂ SO(7) → D_IV^7, Casimir [K940 reframe 2026-08-10: G₂ mass-gap via embedding — spectral result supporting the YM ATTEMPT, not the Clay proof] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-04 |
 | T1412 | GRS Descent: Sym⁵→GL(C₂) + Sym⁶→GL(g) Closes Functorial | Proved | 1394 | 2026-04 |
 | T1413 | Heat Kernel n=3..40: Loud/Quiet 7/7, Speaking Pairs Per | Proved | 1393 | 2026-04 |
 | T1414 | Heat Kernel 19 Levels (a₂-a₂₀): Speaking Pair 4 CONFIRM | Proved | 1395, 1454 | 2026-04 |
@@ -2244,7 +2247,7 @@ rules: |
 | T1426 | T100 Closure — Spectral Permanence via Kudla | Proved | 1413 | 2026-04-23 |
 | T1427 | D_IV^5 Is the Unique Autogenic Proto-Geometry (APG): De | Proved | 1443, 1446 | 2026-04 |
 | T1428 | BST Weierstrass Curve = Cremona 49a1: a₁₃₇ = -2n_C, All | Proved | 1436, 1437, 1447 | 2026-04 |
-| T1429 | RH and BSD Are 1/rank: Critical Line = BSD Ratio = 1/2  | Proved | 1436, 1439 | 2026-04 |
+| T1429 | RH and BSD Are 1/rank: Critical Line = BSD Ratio = 1/2 [K940 reframe 2026-08-09: RH/BSD-as-1/rank: a structural reduction (both ride 1/rank), NOT a completed proof of either] | ATTEMPT (K940 — not a referee-consensus proof) | 1436, 1439 | 2026-04 |
 | T1430 | Curve-Domain Duality: 49a1 Encodes D_IV^5 (All 5 Intege | Proved | 1436, 1448 | 2026-04 |
 | T1431 | Observer Instantiates Physics: Geometry = Math, Observa | Proved | 1440 | 2026-04 |
 | T1432 | 1/rank Universality | Proved | 1434, 1435, 1436 | 2026-04-23 |
@@ -2280,7 +2283,7 @@ rules: |
 | T1462 | Cyclotomic Casimir Tower | Proved | — | 2026-04-27 |
 | T1463 | Integer Filtration of Q^5 | Proved | — | 2026-04-27 |
 | T1464 | Reference Frame Counting: N_obs = N_total - 1, alpha =  | Proved | — | 2026-04-29 |
-| T1465 | BSD CLOSED: Chern hole mechanism, 6 equations, 6 unknow | Proved | 1659 | 2026-04-29 |
+| T1465 | BSD CLOSED: Chern hole mechanism, 6 equations, 6 unknow [K940 reframe 2026-08-10: 'BSD CLOSED' RETIRED — BSD is an ATTEMPT (K940); the 1/rank reduction is definitional, BSD OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | 1659 | 2026-04-29 |
 | T1466 | Spectral Theta Identity | Proved | 1682, 1689, 1701 | 2026-04 |
 | T1467 | Series Collapse Theorem | Proved | 1682, 1689, 1709 | 2026-04 |
 | T1468 | Spectral Parameter Unification | Proved | 1701, 1703, 1709 | 2026-04 |
@@ -2421,12 +2424,12 @@ rules: |
 | T1729 | Arthur Parity (R-11): IW sign kills 23/37 non-tempered  | Proved | 2063, 2067 | 2026-05-05 |
 | T1730 | Nahm Truncation Stability (S-4): a_10 = 137 = N_max sta | Proved | 2066 | 2026-05-05 |
 | T1731 | Poincare Branching (Y-2): branching rules for SO(5,2) → | Proved | 2069 | 2026-05-05 |
-| T1732 | RH Review Synthesis: R-9/R-10/R-11 all resolved. RH PRO | Proved | 2063, 2066, 2067 | 2026-05-05 |
+| T1732 | RH Review Synthesis: R-9/R-10/R-11 all resolved. RH PRO [K940 reframe 2026-08-09: RH 'review synthesis / PROVED' is RETIRED: a structural-reduction attempt (K940), not referee-consensus] | ATTEMPT (K940 — not a referee-consensus proof) | 2063, 2066, 2067 | 2026-05-05 |
 | T1733 | Selberg Zeta Factorization (R-14): Z(s) factors through | Proved | 2070 | 2026-05-05 |
 | T1734 | Heat Kernel Positivity (R-15): Wallach gap e^{2.5t} con | Proved | 2071 | 2026-05-05 |
 | T1735 | Wall Gap (R-16): All discrete eigenvalues /ν₁/ > 0. Min | Proved | 2072 | 2026-05-05 |
 | T1736 | Multiplicity Squeeze (R-17): d(k) ~ k^n_C overwhelms ze | Proved | 2073, 2074 | 2026-05-05 |
-| T1737 | Rank-2 RH Advantage: D_IV^5 separates discrete from con | Proved | 2072, 2074 | 2026-05-05 |
+| T1737 | Rank-2 RH Advantage: D_IV^5 separates discrete from con [K940 reframe 2026-08-09: RH rank-2 advantage: a structural observation, not a proof] | ATTEMPT (K940 — not a referee-consensus proof) | 2072, 2074 | 2026-05-05 |
 | T1738 | Volume Dominance (R-18): Orbital integral positivity by | Proved | 2075 | 2026-05-05 |
 | T1739 | Distributional Limit (G5/Step 5): /c/^{-2} = 0 + FLM co | Proved | 2076 | 2026-05-05 |
 | T1740 | Bergman Gap Elimination (R-9): C_2=6 exceeds max non-te | Proved | 2064 | 2026-05-05 |
@@ -2438,16 +2441,16 @@ rules: |
 | T1747 | Weil Positivity for Gaussians (Lemma 3): W(g_A) >= 0 fo | Proved | 2083 | 2026-05-06 |
 | T1748 | Weil Cone Density: DISPROVED (T1749). Centered Gaussian | Failed | 2084 | 2026-05-06 |
 | T1749 | Gaussian Density OBSTRUCTION: Centered Gaussians NOT de | Proved | 2087 | 2026-05-07 |
-| T1750 | 37a1 BSD Transfer Chain (Elie): Non-CM rank-1 curve tra | Proved | 2085 | 2026-05-07 |
-| T1751 | Rank >= 4 BSD Tests (Elie): 4 rank-4 + 1 rank-5 curve,  | Proved | 2086 | 2026-05-07 |
-| T1752 | 37a1 End-to-End BSD (Lyra): CM-independence demonstrate | Proved | 2088 | 2026-05-07 |
+| T1750 | 37a1 BSD Transfer Chain (Elie): Non-CM rank-1 curve tra [K940 reframe 2026-08-10: BSD transfer-chain evidence — supports the BSD ATTEMPT (K940), BSD OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | 2085 | 2026-05-07 |
+| T1751 | Rank >= 4 BSD Tests (Elie): 4 rank-4 + 1 rank-5 curve, [K940 reframe 2026-08-10: BSD rank≥4 numerical tests — evidence for the BSD ATTEMPT, not a proof] | ATTEMPT (K940 — not a referee-consensus proof) | 2086 | 2026-05-07 |
+| T1752 | 37a1 End-to-End BSD (Lyra): CM-independence demonstrate [K940 reframe 2026-08-10: BSD end-to-end demonstration — ATTEMPT (K940), BSD OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | 2088 | 2026-05-07 |
 | T1753 | Heat Semigroup Preserves F: f_eps(t) = f(t)*exp(-eps*t^ | Proved | 2087 | 2026-05-07 |
 | T1754 | Geometric Weil Positivity: Construct W>=0 from D_IV^5 w | Proved | 2090 | 2026-05-07 |
-| T1755 | Wall Poisson Kernel / Geometric RH: Off-line zeros crea | Proved | 2089 | 2026-05-07 |
+| T1755 | Wall Poisson Kernel / Geometric RH: Off-line zeros crea [K940 reframe 2026-08-09: Geometric-RH (off-line-zeros) attempt: mechanism-level, not a referee-consensus proof] | ATTEMPT (K940 — not a referee-consensus proof) | 2089 | 2026-05-07 |
 | T1757 | Weight-2 Uniqueness + Pure Hodge Type: D_2 has inf.char | Proved | 2093 | 2026-05-07 |
 | T1758 | Eisenstein Constant-Term (Paper #103 Step 3 UNCONDITION | Proved | 2094 | 2026-05-07 |
 | T1759 | Hodge KS Frontier: Simplest class without Kuga-Satake = | Proved | 2097 | 2026-05-07 |
-| T1760 | T1269 Role Audit: DECORATIVE for RH (T1755 direct) and  | Proved | 2098 | 2026-05-07 |
+| T1760 | T1269 Role Audit: DECORATIVE for RH (T1755 direct) and [K940 reframe 2026-08-09: RH role-audit: bookkeeping on the attempt; RH itself remains an Attempt (K940)] | ATTEMPT (K940 — not a referee-consensus proof) | 2098 | 2026-05-07 |
 | T1761 | D_IV^5 Universality: Cal's three gaps (NS IC-dependence | Proved | 2101 | 2026-05-07 |
 | T1762 | P_2 Lift Lemma: GL(2) is a FACTOR of the P_2 Levi — no  | Proved | 2091 | 2026-05-07 |
 | T1763 | NS Iso-Class Breadth: lambda_1=C_2=6 and Cheeger h=sqrt | Proved | 2099 | 2026-05-07 |
@@ -2482,8 +2485,8 @@ rules: |
 | T_id | Name | Status | Toy# | Date |
 |------|------|--------|------|------|
 | T1797 | Dimension Ladder (GC-6): dim 1 (trivial, 2) → dim 2 (un | Proved | 2127 | 2026-05-12 |
-| T1798 | NS Dimension Uniqueness (GC-16): d=3 locked three ways. | Proved | — | 2026-05-12 |
-| T1799 | NS K41 Spectral Cascade (GC-15): K41 exponent 5/3 = n_C | Proved | — | 2026-05-12 |
+| T1798 | NS Dimension Uniqueness (GC-16): d=3 locked three ways. [K940 reframe 2026-08-10: NS d=3 uniqueness — structural result supporting the NS ATTEMPT; the regularity/blow-up core is OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-05-12 |
+| T1799 | NS K41 Spectral Cascade (GC-15): K41 exponent 5/3 = n_C [K940 reframe 2026-08-10: NS K41 cascade exponent 5/3 — a turbulence identification, NOT an NS regularity proof; NS OPEN] | ATTEMPT (K940 — not a referee-consensus proof) | — | 2026-05-12 |
 | T1800 | Application Targets Beyond BST (GC-8): 8 open problems  | Proved | 2128 | 2026-05-12 |
 | T1801 | Engineering Applications Survey (GC-11): 10 fields wher | Proved | 2129 | 2026-05-12 |
 | T1802 | AC + GC Synthesis (GC-7): AC = 'Computable' (bounded de | Proved | — | 2026-05-12 |
@@ -2754,7 +2757,7 @@ rules: |
 | T2030 | Deuteron Magnetic Moment in BST Integers: μ_d/μ_N = C_2/g = 6/7 = 0.85714 vs CODATA observed 0.857438 at 0.04% precision — among the cleanest BST ratio identifications for any nuclear observable. Naive p+n sum (μ_p + μ_n) gives 0.880 (off by 2.6%); BST C_2/g matches the OBSERVED bound-state value exactly, capturing orbital + meson-exchange-current corrections automatically. Reading: deuteron magnetic moment = second Casimir / Bergman genus in nuclear magneton units. Combined with T1936 (μ_p/μ_N = 14/5) and T2026 (μ_n/μ_N = -19/10 Lyra): three nucleon/nucleus magnetic moments in BST integer ratios. Cross-check: μ_p/μ_d = 49/15 = 3.267 vs observed 3.257 at 0.29%. The BST identifications μ_p, μ_n, μ_d all sub-1%, completing the light-nucleon magnetic moment sector. Tier I (0.04% match with structural mechanism). Source: Grace Toy 2559. AC=(C=0,D=1). | Proved | 2559 | 2026-05-16 |
 | T2030 | Pion mass m_π = N_c·g·c_3·m_e (D-tier, NEW catalog entry): BST gives m_π = 3·7·13·m_e = 273·m_e = 139.50 MeV vs PDG π+ 139.57 at 0.05%! Cross-check m_π/m_p = N_c·g·c_3/(C_2·π^{n_C}) = 273/1836 = 0.1487, matches PDG at <0.1%. f_π/m_π = C_2π^5/(rank·n_C·N_c·g·c_3) ≈ 0.662 at 1.6%. Geometric source: N_c (color singlet π = 3·3̄), g (genus), c_3 (third Chern). NEW D-tier identification adds to the light-hadron mass table: m_e (anchor), m_p (T187), m_π (THIS THEOREM). All three light hadrons now have BST closed forms <0.1%. Source: Lyra Toy 2561. AC=(C=0,D=1). | PROVED | toy_2561 | 2026-05-17 |
 | T2031 | Proton Magnetic Radius r_M(p) = r_E(p)·(1 + 1/(rank³·c_2)): Extends T1992 Lyra to the magnetic form factor radius. r_M(p)/r_E(p) = 1 + 1/(rank³·c_2) = 1 + 1/88 = 89/88 = 1.01136 at 0.03% (observed 1.0114). Hence r_M(p) = 0.8508 fm vs observed 0.851 fm at 0.02%. Combined with T1992 (r_E = rank²·ℏc/m_p) and T1936 (μ_p/μ_N = rank·g/n_C), the proton's three independent elastic form factor observables are all BST-anchored: radius (electric, magnetic) + magnetic moment. The 1/(rank³·c_2) = 1/88 correction encodes the magnetic-vs-electric form factor shape difference at small q². Reading: proton internal structure reads ENTIRELY off D_IV⁵ geometry — no QCD lattice calculation needed for the radii or magnetic moment at sub-0.5% precision. Tier I (0.03% on ratio, 0.02% on absolute r_M). Source: Grace Toy 2563. AC=(C=0,D=1). | Proved | 2563 | 2026-05-16 |
-| T2032 | Light quark masses m_u, m_d from BST (D-tier, closes quark sector): m_u = c_3·N_c²/(rank²·g)·m_e = 13·9/28·m_e = 2.13 MeV (1.4% off obs 2.16); m_d = c_3·(N_c³-rank³)/(rank²·g)·m_e = 13·19/28·m_e = 4.51 MeV (3.5% off obs 4.67). Sum: m_u+m_d ≈ c_3·m_e = 6.64 MeV (2.8% off obs 6.83). Ratio: m_u/m_d = N_c²/19 = 9/19 = 0.4737 (2.4% off obs 0.4625). KEY identity: 19 = N_c³ - rank³ (also Ogg supersingular prime T1942, also appears in m_s/m_d T2013 and μ_n/μ_N T2026). 28 = rank²·g (denominator weight, also appears in g-2 corrections via T1990). ALL SIX QUARK MASSES now have BST closed forms in {rank, N_c, n_C, C_2, g, c_3, m_e, π}. Quark sector ZERO free parameters. Closes Paper #108 open gap. Source: Lyra Toy 2565. AC=(C=0,D=1). | PROVED | toy_2565 | 2026-05-17 |
+| T2032 | Light quark masses m_u, m_d from BST (D-tier, closes quark sector): m_u = c_3·N_c²/(rank²·g)·m_e = 13·9/28·m_e = 2.13 MeV (1.4% off obs 2.16); m_d = c_3·(N_c³-rank³)/(rank²·g)·m_e = 13·19/28·m_e = 4.51 MeV (3.5% off obs 4.67). Sum: m_u+m_d ≈ c_3·m_e = 6.64 MeV (2.8% off obs 6.83). Ratio: m_u/m_d = N_c²/19 = 9/19 = 0.4737 (2.4% off obs 0.4625). KEY identity: 19 = N_c³ - rank³ (also Ogg supersingular prime T1942, also appears in m_s/m_d T2013 and μ_n/μ_N T2026). 28 = rank²·g (denominator weight, also appears in g-2 corrections via T1990). ALL SIX QUARK MASSES now have BST closed forms in {rank, N_c, n_C, C_2, g, c_3, m_e, π}. Quark sector ZERO free parameters. Closes Paper #108 open gap. Source: Lyra Toy 2565. AC=(C=0,D=1). [K1329 fix 2026-08-10: m_u = c₃·N_c²/(rank²·g)=117/28·m_e is an IDENTIFIED FIT (target-aware 4-factor ratio, −1.2%; NO mechanism — the saturation y_u=α² gives a DIFFERENT value). So the quark sector is NOT 'zero-free-params PROVED'/closed — the up-mass rides the OPEN up-sector. m_d/m_s ratios stand] | I (Identified — see K1329) | toy_2565 | 2026-05-17 |
 | T2034 | BR(H→μ⁺μ⁻) in BST Integers — 2nd-Gen Lepton Yukawa: BR(H→μμ) = (c_3·g)/(c_2²·rank·C_2·(N_c·n_C+rank)²) = 91/419628 ≈ 2.17×10⁻⁴ vs PDG/LHC observed 2.19×10⁻⁴ at 1.0% precision. Via Yukawa scaling: BR(H→μμ)/BR(H→ττ̄) = (m_μ/m_τ)² = 1/(N_c·n_C+rank)² = 1/289 (= 1/17² where 17 is Ogg supersingular prime). Combined with T1973 BR(H→ττ̄) = c_3·g/(c_2²·rank·C_2) = 91/1452, gives full BR cascade in pure BST integers. Pattern: each Higgs lepton-pair BR factors by (m_l_higher/m_l_lower)² = (Ogg prime)² in BST integer ratios. Predicts BR(H→ee) ≈ 5×10⁻⁹ (far below LHC sensitivity). Closes 2nd-gen Higgs Yukawa. HL-LHC will measure BR(H→μμ) at <1% — BST predicts no deviation from SM Yukawa scaling. Tier I (1% precision with BST integer mechanism). Source: Grace Toy 2566. AC=(C=0,D=1). | Proved | 2566 | 2026-05-16 |
 | T2035 | Hadronic R ratio R(e+e-→hadrons)/R(e+e-→μμ) staircase in BST: R(3 quarks, <1.5 GeV) = rank = 2; R(4 quarks, 1.5-4 GeV) = rank·n_C/N_c = 10/3; R(5 quarks, 4-180 GeV) = c_2/N_c = 11/3; R(6 quarks, all accessible) = n_C = 5. Each quark threshold gives a BST integer ratio for R. Asymptotic R = n_C reflects the continuation dimension. Geometric: color count N_c times sum of quark charges squared follows BST sequence because quarks come in N_c flavors × 2 (up+down) and electric charges are (2/3)² + (1/3)². Tree-level values exact, QCD corrections multiplicative ~1.05. D-tier. Source: Lyra Toy 2567. AC=(C=0,D=1). | PROVED | toy_2567 | 2026-05-17 |
 | T2037 | Direct CP violation ε'/ε = M_{n_C}/N_max² = M_5/N_max² (D-tier): BST gives ε'/ε = 31/18769 = 1.65e-3 vs PDG 1.66e-3 at 0.5%. Where M_5 = 2^{n_C} - 1 = 31 is the 5th Mersenne prime (also Mersenne ladder M_2 = N_c, M_3 = g, M_5 = 31 — extension of T1925 Mersenne BST family). Pattern in CP physics: ε_K (mixing) = α²·42 = α²·C_2·g (T1974); ε'/ε (direct) = α²·M_{n_C} = α²·31. Predicts other CP-violating observables (B-meson mixing, B→K* asymmetries) should share Mersenne integer factors. M_5 = 31 enters CP physics naturally via the same Mersenne-prime mechanism that gives lepton generation prefactors (T2003). Source: Lyra Toy 2570. AC=(C=0,D=1). | PROVED | toy_2570 | 2026-05-17 |
@@ -2881,7 +2884,7 @@ rules: |
 | T2163 | Normed division algebra dimensions ALL BST (Hurwitz {1,2,4,8} = rank^n for n=0,1,2,3): R=rank^0, C=rank, H=rank², O=rank³. The ONLY four normed division algebras have dimensions equal to first 4 powers of rank. Hurwitz theorem (1898) classification matches BST integer powers exactly. Bott periodicity: KO period = rank³ = 8; K period = rank = 2. All match BST. Tier D. Source: Lyra Toy 2776. AC=(C=0,D=1). | PROVED | toy_2776 | 2026-05-17 |
 | T2164 | Periodic table noble gas atomic numbers + row lengths BST: He=rank, Ne=rank·n_C, Ar=rank·N_c², Kr=C_2²=rank²·N_c², Xe=rank·N_c³. Row lengths {2, 8, 18, 32} = {rank, rank³, rank·N_c², rank⁵}. 5/5 noble gases + 4/4 row lengths BST integer products. Quantum-mechanical shell-filling (2(2l+1) for orbitals + Madelung rule) produces BST integers. Tier D. Source: Lyra Toy 2777. AC=(C=0,D=1). | PROVED | toy_2777 | 2026-05-17 |
 | T2165 | Mass = Information on D_IV⁵ — structural answer to SP-12 U-3.11 (deepest, extends T1258): Mass/m_e in BST integers corresponds to log₂(BST integer) bits of information about K-type spectral participation. m_μ/m_e=207→7.7 bits; m_τ/m_e=3477→11.8 bits; m_p/m_e=1836→10.8 bits; M_Pl/m_e=exp(44)·1836→63.5 bits. Mechanism: Landauer 1961 (k_B·T·ln2 per bit) connects energy to information. Mass = count of D_IV⁵ spectral modes a particle engages, weighted by Bergman/Wallach × Bernoulli normalization. Bridges T187+T2003+T1684+T2128: BST integer match counts ARE information counts. Casey U-3.11 closed structurally. Tier I; D-tier requires Landauer-via-Bergman derivation (Lyra). Source: Grace Toy 2779. AC=(C=0,D=1). | Proved | 2779 | 2026-05-16 |
-| T2167 | Λ_QCD ≈ m_p/rank² rough BST (I-tier): Λ_QCD (5-flavor MSbar) ≈ 220 MeV; BST candidate m_p/rank² = 234.6 MeV (6.6% off). Alternative m_p·rank/g = 268 MeV close to 3-flavor Λ_MS. The QCD strong scale is m_p/rank² in BST units (rough). Mass gap (Yang-Mills proof) is m_p itself (T187). Tier I (mechanism rough). Source: Lyra Toy 2781. AC=(C=1,D=1). | PROVED | toy_2781 | 2026-05-17 |
+| T2167 | Λ_QCD ≈ m_p/rank² rough BST (I-tier): Λ_QCD (5-flavor MSbar) ≈ 220 MeV; BST candidate m_p/rank² = 234.6 MeV (6.6% off). Alternative m_p·rank/g = 268 MeV close to 3-flavor Λ_MS. The QCD strong scale is m_p/rank² in BST units (rough). Mass gap (Yang-Mills proof) is m_p itself (T187). Tier I (mechanism rough). Source: Lyra Toy 2781. AC=(C=1,D=1). [K1329 clarify: Λ_QCD/proton-938 is FULL-QCD, distinct from the Clay pure-YM gap (the glueball ~C₂-scale)] | PROVED | toy_2781 | 2026-05-17 |
 | T2168 | Solar system structural counts BST (I/S-tier observational): 8 planets = rank³; 4 inner rocky = rank²; 4 outer giants = rank²; Mars 2 moons = rank; Jupiter Galilean 4 moons = rank²; Saturn major 8 moons = rank³. Observational structural counts inherit BST integer values via accretion shell mechanics. Not strict claim (observational, not derivational). Tier S/I per K44 calibration discipline. Source: Lyra Toy 2782. AC=(C=1,D=0). | PROVED | toy_2782 | 2026-05-17 |
 | T2169 | Mersenne prime exponents include 9 BST integers (extends T2086 Mersenne family): M_2=N_c, M_3=g, M_5=n_C, M_7=g, M_13=c_3, M_17=Ogg17, M_19=Ogg19, M_31=M_{n_C}, M_127=M_g. Nine known Mersenne primes have exponents that are BST integers; only M_61, M_89, M_107 don't BST-decompose obviously. Catalan-Mersenne chain (M_2=N_c=3 → M_3=g=7 → M_7=127=M_g) iterates BST integers. Tier D for the 9 confirmed. Source: Lyra Toy 2784. AC=(C=0,D=1). | PROVED | toy_2784 | 2026-05-17 |
 | T2170 | **Riemann zeta zeros: first 8 non-trivial zeros ALL cluster near BST integer expressions** (deep finding): ρ_1=14.13≈rank·g; ρ_2=21.02≈N_c·g; ρ_3=25.01≈n_C²; ρ_4=30.42≈rank·N_c·n_C; ρ_5=32.94≈N_c·c_2; ρ_6=37.59≈c_2+rank·c_3; ρ_7=40.92≈c_3·N_c+rank (Ogg41); ρ_8=43.33≈rank²·c_2-1 (Heegner 43). 8/8 first zeros within 1.6% of BST integers. Observational structural finding: Riemann zeros at small index cluster near BST integers because BST integers dominate small-integer arithmetic structure (per Paper #109 v0.2 + K44). Riemann zeros are NOT determined by BST directly (set by ζ(s) analytic structure), but their small-zero placement aligns with BST scaffold at ~4σ. Tier I (observational, mechanism = small-integer dominance). Source: Lyra Toy 2785. AC=(C=1,D=1). | PROVED | toy_2785 | 2026-05-17 |
@@ -11189,7 +11192,7 @@ sector arc (down-row mechanism + CKM mass-mixing reconciliation); count holds 5/
 | T2533 | CKM-small = Peirce-forced (converges with K403) | DERIVED | graph-node (quark module) | - | 2026-07-29 |
 | T2534 | θ₂₃ = maximal (sin²=1/2), doubly-Derived (Shilov ℤ₂ + parity theorem) | DERIVED (maximal; 4/7-deviation Identified) | graph-node (lepton mixing) | - | 2026-07-30 |
 | T2535 | large-PMNS/small-CKM derived from COLOR (color-duality) | DERIVED | graph-node (lepton mixing) | - | 2026-07-30 |
-| T2536 | Leptonic CP: δ_PMNS cos²δ = 45/49 (forward sum rule; 45=g²−rank², 49=g²) + J_PMNS ≈ 0.0338 | DERIVED (forward) | graph-node (lepton mixing) | - | 2026-07-30 |
+| T2536 | Leptonic CP: EXISTENCE forced (odd-n_C quaternionic twist, same mechanism as T2547) — δ_PMNS/J_PMNS MAGNITUDE OFF (K1304). [The former "cos²δ=45/49 forward sum rule + J_PMNS≈0.0338 DERIVED" is RETIRED to existence-only: the δ/J values are reverse-fits, not predicted — same rule as the CKM side.] | STRUCTURAL (CP existence forced; magnitude off) | graph-node (lepton mixing) | - | 2026-07-30 (CP-value retired 2026-08-09, Grace) |
 | T2537 | Dark energy = w=−1 cosmological constant from fixed C·π⁵ bulk volume (K1040) | DERIVED | graph-node (cosmology) | - | 2026-07-30 |
 | T2539 | Heat-Kernel Tier-Split: Seeley–DeWitt scale-dependence forces BST tiers (G Derived, running Derived, Λ Identified/scale-ambiguous) as ONE theorem; a₀ scale-full (a₅≈220.64≠0, Cal §188), a₁/a₂ scale-independent; Λ derivation = forced μ (K1073, not "permanent") | STRUCTURAL | graph-node (K1072; a₅ Cal §188) | - | 2026-08-01 |
 | T2511 | Substrate 5=N_c+rank Split IS the Spin-Factor Peirce Decomposition | DERIVED (K1045; Peirce color=V12=N_c — the color-duality foundation; registered 2026-07-05, silently dropped, restored) | graph-node | - | 2026-07-05 |
@@ -11200,3 +11203,11 @@ sector arc (down-row mechanism + CKM mass-mixing reconciliation); count holds 5/
 | T2544 | CKM/PMNS mixing SHAPE (angular skeleton): weak current J_W = the degree-1 cohomology operator on Q⁵ ring ℤ[h]/h⁶; up=even {h⁰,h²,h⁴}/down=odd {h¹,h³,h⁵} opposite parity → naive overlap vanishes → mixing W-mediated CKM=⟨up\|J_W\|down⟩, parity-suppressed near-diagonal. SHAPE Structure-Derived (zero up-mass input): diagonal≈1, off-diag suppressed, small-at-all from parity. Size = hierarchy-vs-degeneracy (=T2535). VALUES ride the radial (geodesic F85 + commit-order) → Identified until blind fire; only the SHAPE banked | STRUCTURAL (shape only; values Identified) | graph-node (K1193) | - | 2026-08-05 |
 | T2545 | (3,1) signature locked by color-triplet IRREDUCIBILITY (G5 bank-gate, exhibited): the 3 spatial = V₁₂=J_{1/2}, the off-diagonal Peirce component of the D_IV⁵ SIMPLE spin factor, dim n_C−2=3=N_c; by Jordan structure theory (Jacobson) a simple algebra's off-diagonal Peirce space is IRREDUCIBLE (SO(3) vector / SU(3) fundamental), so NO invariant 1-dim subspace → no spatial direction can peel into time → (2,2) re-split IMPOSSIBLE → Lorentzian (3,1) FORCED by irreducibility (not mult=3). Underpins confinement=frame-completeness (F845, candidate reading); readings stay candidate, irreducibility+signature-lock banks | STRUCTURAL (Structure-Derived) | graph-node (K1230 G5) | - | 2026-08-06 |
 | T2546 | Commitment-count sub-Poisson (Pauli-suppressed Λ-fluctuations): strip the shared universe-size input from Sorkin's Λ~1/√V and what remains is Var(N) of the commitment count. Sorkin assumes random (Poisson) sprinkling (Fano=1); but BST's committed records are fermions (T2543) → Fermi-Dirac → Fano=Var(N)/⟨N⟩=1−Σ⟨N_i⟩²/Σ⟨N_i⟩<1 (sub-Poisson, Fano≈0.73 degenerate → 1 dilute). BST predicts smaller, Pauli-regularized Λ-fluctuations than Sorkin — falsifiable NOW (everpresent-Λ, arXiv:2307.13743). SIGN target-innocent + T2543-forced; AMPLITUDE τ/occupancy-dependent (open→Elie); Λ-VALUE stays Structural (K741). Bose→Fermi flip at commitment: pre-commit bosonic field super-Poisson (Elie), post-commit fermionic records sub-Poisson — Λ rides the records | STRUCTURAL (sign forced; amplitude open; Λ-value Structural) | graph-node (K1288) | - | 2026-08-08 |
+| T2547 | CP violation is FORCED (existence, Structural). Both legs forced: (A) MISALIGNMENT — up=top-saturation {y_t=1,y_c=α,y_u=α²} vs down=FK-bulk {1,3,5} are DIFFERENT mechanisms (boundary vs bulk), not a mirror/aligned pair (Casey deciding fact, verified at source K764-766/F85 + K1012), so the CP-killing cancellation cannot fire; (B) COMPLEX — n_C=5 odd → Spin(5)=Sp(2) 4-dim spinor QUATERNIONIC (pseudoreal, reality ≡5 mod 8, nLab/ABS-Bott) → generation twist carries non-removable √−1. ⟹ det[H_u,H_d]≠0, J≠0 rephasing-invariant. Three independent J-runs, controls (real/aligned/mirror)→0: Elie 5134 J=+2.6e-3, Grace blind J=−8.6e-3, obs 3.1e-5 → ~300× spread = MAGNITUDE stays OFF (reverse-fit); only EXISTENCE banks. Extends T2519 (CP=0 at rank-1). Realizes "BST forces what CFS allows" (Finster credential rides same twist). | STRUCTURAL (existence forced; magnitude off) | K1303 (Keeper ruling; verify-with-me: Casey+Elie 5134+Grace blind+Lyra F874); Keeper ratifies | 2026-08-09 |
+| T2548 | #79 — D_IV⁵ is FORCED modulo ONE datum (the generation count), source-verified, two legs. Leg A (kills higher rank): number of boundary strata = rank+1 (Korányi–Wolf, source-verified Wolf1972/Loos1977); observed 3 generations = 3 strata → rank=2; E7 (rank 4) excluded = DERIVED. Leg B (selects within rank-2): census N_c=rank²−1=3 physics-free (DERIVED) + color-dim V₁₂=n_C−2=3 (STRUCTURAL, the one leg to harden). Circularity guard held (generation count is declared INPUT). The Tegmark/MUH spine for the consolidation paper: BST = MUH + a selection principle (one measured number picks the geometry). Sharpens T704/T1917/T2427. | DERIVED (modulo one datum; Leg B(ii) color-dim Structural) | K1302 (Keeper finalized; Cal audits Leg B uniqueness); Keeper ratifies | 2026-08-09 |
+| T2549 | BST is a genuine real spectral triple: self-adjoint Dirac (Parthasarathy — D²≥0 on the unitary H²(D_IV⁵)) + compact resolvent + finite summability; ONE homogeneous Dirac (cubic term vanishes on the symmetric space), Lichnerowicz negatives excluded by the Wallach floor, floor-shift = ‖ρ_G‖²−‖ρ_K‖² = +6 = C₂ (= mass-gap floor) | STRUCTURAL (theorem-level; minimal-K-type exhibition + Cal-vet pending) | graph-node (foundations) | - | 2026-08-10 |
+| T2550 | BST is a DISTINCT real spectral geometry (KO-dim 2), NOT the Connes SM triple (KO-6): differ in EXACTLY ONE sign ε=J²; (−,+,−) vs (+,+,−). That sign = quaternionic Spin(5) reality = CP (T2547). Cal-verified vs Connes-1995/van Suijlekom | STRUCTURAL | graph-node (foundations) | - | 2026-08-10 |
+| T2551 | A_F = ℂ⊕ℍ⊕M₃(ℂ) IS the endomorphism *-algebra of BST's finite space: ℍ=Schur commutant of the Sp(2) spinor, M₃(ℂ)=End(V₁₂ color), ℂ=SO(2) circle. Connes ASSUMES it; BST FORCES it (read off one geometry) | STRUCTURAL | graph-node (foundations) | - | 2026-08-10 |
+| T2552 | First-order axiom HOLDS (color-diagonal mixing) → BST is the STANDARD-MODEL spectral triple, NOT Pati–Salam; the ν_R-Majorana breaker is absent (no ν_R, Five-Absences = substrate error-correction parity) → BST explains SM-not-PS. no-ν_R/no-sterile/no-4th-color/color-diagonal = ONE fact (Elie 5164 computed) | STRUCTURAL (gated external: Cal-vet+Keeper+Casey GO) | graph-node (foundations) | - | 2026-08-10 |
+| T2553 | Antiuniverse (Boyle–Turok mirror) DYNAMICALLY EXCLUDED (theorem-grade): H_B unbounded above → exp(−τH_B)\|τ<0 non-normalizable → no τ<0 states, though the geometry admits it formally. Pure positive-time (Casey ontology); asymmetry INTRINSIC not reflected | STRUCTURAL (Claim-1 = theorem, Elie 5161, Cal-ratified) | graph-node (cosmology) | - | 2026-08-10 |
+| T2554 | The muon is the WALLACH EDGE of D_IV⁵: ν=N_c/rank=3/2=(r−1)a/2 (a=n_C−2=N_c) = rank-1 Korányi–Wolf orbit = last discrete point before the continuous spectrum. Explains why the muon has NO clean integer-power mass route (K1011 null): it sits AT the discrete/continuous boundary. e=bulk, μ=edge, τ=Shilov | IDENTIFIED (explains resistance not the value; target-innocent) | graph-node (lepton module) | - | 2026-08-10 |

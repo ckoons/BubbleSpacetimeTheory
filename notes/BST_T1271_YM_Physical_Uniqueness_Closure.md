@@ -4,10 +4,14 @@ author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 theorem: "T1271"
 ac_classification: "(C=2, D=1) — two counting operations (verify Wightman axioms, verify mass gap), one self-reference (modular localization recovers QFT from its modular data)"
-status: "Proved — applies T1269 to YM; closes the ~3% ℝ^4 framing residual"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proved] Applies T1269 to YM; PARTIAL with a LARGE gap — the 'closes the ~3% ℝ^4 residual' framing is a SUPERSEDED over-claim (the ℝ^4 area-law mass-gap is the CORE open piece)"
 parents: "T1269 (Physical Uniqueness Principle), T1267 (Zeta Synthesis), BST_YangMills_Question1, Bisognano-Wichmann (1975), Borchers (2000)"
 children: "Paper #67"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** PARTIAL with a LARGE remaining gap. **Open piece:** the R⁴ construction / (B) area-law mass-gap is the CORE open piece — not a minor residual — together with (A) color-confinement and the AF-sign (scoped K937/K939).
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # T1271: Yang-Mills Mass Gap Physical-Uniqueness Closure
 

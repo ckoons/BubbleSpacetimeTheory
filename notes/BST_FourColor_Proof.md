@@ -1,5 +1,5 @@
 ---
-title: "The Four-Color Theorem: An AC Proof"
+title: "The Four-Color Theorem: An AC Attempt"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 25, 2026"
 status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] RETRACTED v1 — T135 FALSE. SUPERSEDED by BST_FourColor_AC_Proof.md (v4, double-swap rescue, T135b, ~85%)."

@@ -10,6 +10,10 @@ parents: "T1426, T1465, T100, T997, T98"
 toys: "1651 (11/11), 1652 (12/12), 1656 (9/9), 1657 (12/12), 1658 (10/10), 1659 (10/10)"
 ---
 
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt (one of the 1/rank-load-bearing four). **Open piece:** the rank ≥ 2 spectral-permanence / iso-closure step is not referee-consensus; Gross–Zagier–Kolyvagin cover ranks 0–1 only, and "unconditional at all ranks" is a SUPERSEDED over-claim.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
 # A Topological Mechanism for Spectral Permanence: Chern Classes of Q^5 and BSD for Elliptic Curves over Q
 
 *One missing Chern class. One locked spectrum.*

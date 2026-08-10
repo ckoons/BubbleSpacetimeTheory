@@ -2317,14 +2317,14 @@
    "name": "δ_PMNS (leptonic CP phase) — frontier",
    "category": "not_yet_measured",
    "prediction": "δ_PMNS ≈ 197° — target-innocent FORWARD prediction: the μ-τ-breaking sum rule predicts δ (cos²δ=45/49, both g-locked), giving δ≈197° (matches observed). J_PMNS≈0.0338 (Engine B v2, forward, ~3%). Distinct from CKM CP (leptonic ~300× the amplitude).",
-   "bst_value": "δ_PMNS ≈ 197° (cos²δ=45/49); J_PMNS ≈ 0.0338",
+   "bst_value": null,
    "current_measurement": "δ_PMNS ≈ 197° (-163°), large uncertainty",
    "experiment": "DUNE, Hyper-Kamiokande",
    "timeline": "2027-2035",
    "falsification_criterion": "δ_PMNS measured clearly inconsistent with |sin δ|=2/7 (δ far from ~197°/~343°) → the 2/7 CP law is wrong.",
    "impact_if_falsified": "Refutes the BST PMNS CP-phase magnitude; the CP frontier (δ_CKM, δ_PMNS) is flagged as the genuine open problem.",
-   "status": "target-innocent forward prediction (K1029/§157) — the GAIN from the 4/7 over-reach",
-   "tier": "D",
+   "status": "CP EXISTENCE-ONLY — δ_PMNS magnitude OFF (reverse-fit, K1304); existence forced (odd-n_C, T2547). [Grace 2026-08-09 clean-repo gate (PMNS CP leak)]",
+   "tier": "S",
    "ace": "(0,0)",
    "bst_integers_used": [],
    "related_constants": [
@@ -2359,6 +2359,24 @@
    ],
    "source_section": "a₀=Λ rung / why-commitment frontier (K1288)",
    "k1288_note": "Grace 2026-08-08. Sign banked Structural (T2546); amplitude → Elie's occupancy toy. Do NOT promote past sign+consistency; the forcing is upstream."
+  },
+  {
+   "id": "pred_124",
+   "name": "No fundamental-constant drift (Δα/α = 0) — the ν-invariance falsifier",
+   "category": "cosmology / Five-Absence",
+   "prediction": "The five integers (rank=2, N_c=3, n_C=5, C₂=6, g=7; N_max=137) are FIXED invariants — not running in cosmic time, and (F888 nucleation duality) preserved across nucleation branches (Rigidity #7). Therefore every dimensionless constant is time-INVARIANT: Δα/α = 0 exactly, Δ(m_p/m_e) = 0, etc. No secular drift of any fundamental constant. This is the positive-content 'sixth absence': the absence of constant-drift.",
+   "bst_value": "Δα/α = 0 (exactly); Δ(m_p/m_e)/(m_p/m_e) = 0",
+   "current_measurement": "Consistent with zero. Atomic-clock comparisons bound |α̇/α| ≲ 10⁻¹⁸/yr; quasar-absorption bounds |Δα/α| ≲ 10⁻⁶ over cosmic time; Oklo reactor consistent with 0. (VERIFY exact current bounds at source before external.)",
+   "experiment": "Optical atomic clocks (Al⁺/Yb/Sr comparisons), quasar absorption spectroscopy (Keck/VLT), Oklo natural-reactor constraint",
+   "timeline": "ongoing; next-generation optical/nuclear clocks tighten it",
+   "falsification_criterion": "ANY statistically-significant nonzero secular drift of a DIMENSIONLESS constant (Δα/α ≠ 0, Δμ ≠ 0) refutes the fixed-integer ν-invariance → refutes BST's zero-input foundation.",
+   "impact_if_falsified": "Fatal to the fixed-five-integers foundation: if the integers could drift, the constants would run, contradicting the zero-fitted-parameter derivation.",
+   "status": "open / falsifier",
+   "bst_integers_used": "rank, N_c, n_C, C₂, g, N_max (all — as fixed invariants)",
+   "source_section": "Five-Absence set; F888 nucleation duality (HELD Framework/Candidate — NOT 'derived cosmology')",
+   "related_constants": "alpha, m_p_over_m_e",
+   "tier": "S",
+   "ace": "General no-drift = Structural (follows from the fixed-integer foundation). The nucleation-BRANCH ν-invariance (Δα/α=0 across BH-center↔Big-Bang branches, F888) is the Framework/Candidate sharpening, HELD — filed as a clean falsifier, not a derived cosmology. [Grace 2026-08-10, Lane-2 gem]"
   }
  ]
 }

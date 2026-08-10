@@ -1,5 +1,5 @@
 ---
-title: "P ≠ NP: The AC Proof"
+title: "P ≠ NP: The AC Attempt"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] CONDITIONAL on 1-RSB condensation for k=3 random SAT. Three routes share cluster isolation dependency (not independent). Cal audit May 8, 2026."

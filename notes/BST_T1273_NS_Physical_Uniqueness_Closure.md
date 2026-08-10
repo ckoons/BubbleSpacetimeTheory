@@ -4,10 +4,14 @@ author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 16, 2026"
 theorem: "T1273"
 ac_classification: "(C=2, D=1) — two counting (spectral modes, blow-up ODE), one depth (spectral monotonicity self-reference)"
-status: "Proved — applies T1269 to NS; closes the ~2% generic-data framing residual"
+status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT proved] Applies T1269 to NS; substantive attempt / genuine advance (Casey: 'opened a big improvement') — 'closes the ~2% residual' is a SUPERSEDED over-claim"
 parents: "T1269 (Physical Uniqueness Principle), BST_NS_AC_Proof, Taylor-Green-Kato chain, T1267 (Zeta Synthesis)"
 children: "Paper #67"
 ---
+
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** substantive attempt / genuine advance. **Open piece:** the core 3D global-regularity analysis is open; the BST approach 'opened a big improvement' (Casey) — a real advance, not a proof.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
 # T1273: Navier-Stokes Blow-Up Physical-Uniqueness Closure
 

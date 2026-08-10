@@ -216,6 +216,6 @@ BST corrections improve bare formulas by 10-100x:
 self-referential observation: D_IV^5. Its five invariants — forced, not
 chosen — determine all of physics.**
 
-One geometry -> five integers -> 600+ predictions. Zero free parameters.
+One geometry -> five integers -> ~325 physical predictions (~1/3 Derived, 1/3 Identified, 1/3 Structural). Zero fitted dimensionless parameters.
 
 *Seed updated May 10, 2026. BSD rank-tiered (ranks 0-2 unconditional, ≥3 conditional). RH geometric proof (T1755). P!=NP proved (T1777-T1778). 3864 invariants, 103 predictions, 144 constants.*

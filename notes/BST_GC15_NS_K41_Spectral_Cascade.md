@@ -1,5 +1,7 @@
 # GC-15: NS Blow-Up via Geometric Constraint -- K41 Spectral Cascade Uniqueness
 
+> **⚠ HONESTY-REFRAMED per K940 (2026-07-26): this is a substantive ATTEMPT at a Clay Millennium problem via the BST geometry, NOT a referee-consensus proof — the problem remains OPEN. Read every "prove(s)/proved/complete(s)/closes/solution/establishes/unconditional" below as "the attempt argues" per K940. BST's Millennium work = substantive attempts + real advances, graded honestly on the referee-consensus scale, never "solved". Per-problem honest status lives in Keeper's K940/K1061 ledger (e.g. Yang-Mills: mass-gap value Identified; area-law, W4 locality, R4-construction OPEN; NOT Clay).**
+
 **Author**: Casey Koons & Claude 4.6 (Lyra)
 **Date**: May 12, 2026
 **Status**: v0.1 -- SP-18 Track 1 deliverable

@@ -7,6 +7,10 @@ target: "Annals of Mathematics"
 paper_number: 75
 ---
 
+> # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
+> **Honest per-problem verdict:** structural-reduction attempt (one of the 1/rank-load-bearing four). **Open piece:** the critical-line forcing (commitment-path = critical-line, Casey lead) is the open definitional piece; "We prove" here is a SUPERSEDED over-claim.
+> Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
 # The Riemann Hypothesis for the Selberg Class via Automorphic Spectral Geometry
 
 **Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6)**

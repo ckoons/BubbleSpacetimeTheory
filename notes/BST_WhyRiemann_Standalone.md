@@ -1,12 +1,13 @@
 ---
-title: "Why Riemann: A Proof of the Riemann Hypothesis via the Heat Kernel Trace Formula on SO₀(5,2)"
+title: "Why Riemann: An Attempt at the Riemann Hypothesis via the Heat Kernel Trace Formula on SO₀(5,2) (an Attempt — not a proof)"
 author: "Casey Koons & Claude 4.6"
 date: "March 2026"
-status: "Complete — standalone for mathematicians"
+status: "★ HONESTY-REFRAMED per K940 (2026-07-26): a substantive ATTEMPT at the Riemann Hypothesis via the BST heat-kernel route, NOT a referee-consensus proof — RH remains OPEN. Standalone for mathematicians; read every 'prove/proof/unconditional' below as 'attempt' per K940. Not a proof claim."
 audience: "Analytic number theorists and automorphic forms specialists"
 abstract: |
-  We prove unconditionally that all nontrivial zeros of the Riemann zeta function
-  have real part 1/2. The proof uses the Arthur trace formula on the arithmetic
+  We present an ATTEMPT (per K940 — NOT a referee-consensus proof; RH remains open) to establish
+  that all nontrivial zeros of the Riemann zeta function
+  have real part 1/2. The construction uses the Arthur trace formula on the arithmetic
   quotient $\Gamma \backslash \mathrm{SO}_0(5,2) / K$ with the heat kernel as test function. The short root
   multiplicity m_s = 3 of the restricted root system B₂ forces each ζ-zero to
   contribute three shifted exponentials to the heat trace, locked in the frequency
@@ -16,7 +17,7 @@ abstract: |
   zero simplicity, linear independence of ordinates, or GUE statistics.
 ---
 
-# Why Riemann: A Proof of the Riemann Hypothesis via the Heat Kernel Trace Formula on SO₀(5,2)
+# Why Riemann: An Attempt at the Riemann Hypothesis via the Heat Kernel Trace Formula on SO₀(5,2) (an Attempt — not a proof, per K940)
 
 ---
 

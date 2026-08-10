@@ -1,5 +1,5 @@
 ---
-title: "A Human-Readable Proof of the Four-Color Theorem"
+title: "A Human-Readable Attempt of the Four-Color Theorem"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 27, 2026"
 status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] DRAFT v9 — Cal PASS (May 7). Three editorial fixes applied. No structural gaps. Ready for JCT-B submission."

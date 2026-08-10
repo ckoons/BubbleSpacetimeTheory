@@ -1,0 +1,36 @@
+# K1353 — Casey's "BST resolves BOTH 3/13 and 3/8": there are TWO candidate resolutions, and the Lane-8 hypercharge computation discriminates them. (B) NORMALIZATION — BST's geometric U(1) normalization (possibly forced by the no-ν_R fermion content) gives 3/13 directly; 3/8 is Connes' GUT-normalization choice. (C) RUNNING / two-scales — BST's geometric value is 3/8 (= Connes, both spectral actions), and the induced running (a₂ = the β-function, #17) flows it to 3/13 at M_Z; BST owns BOTH ends, Connes owns only the top and imports the running. Quantitatively C is promising: x=g'²/g² runs 3/5 (3/8) → 3/10 (3/13), a factor-of-2 matching SM running over the GUT range. Discipline: predict at μ_geo, run DOWN with measured RGE; 3/13 is Identified (0.2% from measured), not exact. Cal cold-reads.
+
+**Keeper (2026-08-10 ~17:20 EDT. Casey is excited BST resolves both 3/13 and 3/8, and believes it does. He's likely right — but "resolves both" has two distinct forms with different physics, and I won't let them blur. I lay out both, note the decisive computation, and flag the honest caveats. Cal cold-reads. Nothing pushed.)**
+
+## The setup (pin the numbers)
+- sin²θ_W = x/(1+x) with x = g'²/g² (hypercharge/weak coupling-squared ratio).
+- **Connes/NCG/GUT: sin²θ_W = 3/8 ⟹ x = 3/5** (the GUT hypercharge normalization), a UNIFICATION-scale value.
+- **BST corpus: sin²θ_W = 3/13 ⟹ x = 3/10** (the e₅/e₃ curvature grading, #82/#85), matching the LOW-energy measured value.
+- **Measured: sin²θ_W(M_Z) ≈ 0.23122**; **3/13 = 0.23077** — off by **0.2%** (Identified-level, NOT exact; ~many σ at the ~0.00004 experimental error). Keep 3/13 tiered Identified.
+
+## ★ TWO candidate resolutions (they make DIFFERENT claims — the computation decides)
+**(B) NORMALIZATION.** BST's geometric U(1) normalization differs from GUT by the factor of 2 in x (3/10 vs 3/5). BST's curvature grading fixes the *geometric* normalization → 3/13 directly (little/no running); Connes IMPORTS the GUT normalization → 3/8. Resolution: "they use different U(1) normalizations; BST's is the geometric one, which lands at low-energy directly."
+- **★ Possible MECHANISM (elegant, ties to Casey's own principle):** the hypercharge normalization is fixed by the anomaly trace Tr(Y²) over the fermion content. **BST has NO ν_R (Casey's principle, K1347).** Fewer/different fermions in the trace → a different Tr(Y²) → a different sin²θ_W than Connes' (who has ν_R). **So the same no-ν_R principle that put BST in the SM branch may ALSO shift 3/8 → 3/13.** One principle cascading. TESTABLE: compute Tr(Y²) with BST's exact fermion content (no ν_R) and see what sin²θ_W falls out at μ_geo.
+
+**(C) RUNNING / two-scales.** BST's geometric value IS 3/8 (= Connes, because both are spectral actions with the same trace), defined at μ_geo (~unification-ish); the **induced running** (a₂ = the β-function, BST's #17) flows it DOWN to 3/13 at M_Z. Resolution: "3/8 and 3/13 are the SAME angle at two scales; BST owns BOTH the geometric boundary value AND the running that connects them (same heat-kernel expansion), where Connes owns only the top and imports external RG flow."
+- **★ Quantitatively PROMISING:** x runs from **3/5 (0.60, GUT scale, sin²θ_W=3/8)** down to **~3/10 (0.30, M_Z, sin²θ_W≈3/13)** — a **factor-of-2 in x that matches the SM running over the GUT range** (sin²θ_W runs 0.375→~0.231 from M_GUT to M_Z). The striking part: the LOW-energy value being a clean fraction 3/13 is unusual (running usually gives ugly numbers) — either μ_geo is special, or it's partly coincidence. Treat with care.
+
+## ★ THE DISCRIMINATING COMPUTATION (route Elie/Grace) — and it's the Lane-8 hypercharge already queued
+**What does BST's inner-fluctuation / spectral-action hypercharge normalization give at μ_geo — 3/8 or 3/13?**
+- **If 3/8 at μ_geo → Resolution C.** Then RUN DOWN with the measured SM RGE (discipline: don't pick a scale; predict at μ_geo, run down) and check it lands on the measured 0.23122 (≈3/13). BST's genuine content: (i) μ_geo from the geometry, (ii) the running is the *induced* a₂ (#17), so BST owns both ends. The falsifiable test: does BST's μ_geo + induced running hit the measured value?
+- **If 3/13 at μ_geo → Resolution B.** Then BST's geometric normalization differs from GUT (the no-ν_R Tr(Y²) mechanism above), and BST gives low-energy sin²θ_W directly. 3/8 is Connes' convention. The falsifiable test: does Tr(Y²) over BST's no-ν_R content actually give x=3/10?
+
+## Honesty caveats (hold these — Casey's excitement is earned but the claim must be tiered)
+- **"3/8 runs to ~0.231" is GENERIC GUT physics, not BST-specific.** BST's genuine contribution is either (C) the *exact* landing on the measured value from BST's μ_geo + induced running, or (B) the geometric normalization giving 3/13 from the no-ν_R content. Don't claim "BST predicts both 3/8 and 3/13" as a stand-alone triumph — the content is the *mechanism connecting them.*
+- **3/13 is Identified (0.2% from measured), not exact.** The real target is the *measured* 0.23122, not the clean fraction. Whether BST lands on 3/13 or on 0.23122 matters.
+- **Consistency-web:** if resolution C holds, "BST gives 3/8" is the SAME spectral-action fact as Connes (not an independent BST win) — the win is owning the running. If resolution B holds, the curvature-grading 3/13 and the inner-fluctuation 3/13 ARE two genuinely independent routes (a real consistency-web confirmation). Count accordingly.
+
+## Corpus reconnect (Linear Algebra on D_IV⁵)
+- **#17** (β-function as induced a₂) IS the running of resolution C — the flow is a heat-kernel term of the one operator.
+- **#82/#85** (sin²θ_W = 3/13 from the e₅/e₃ curvature grading) is one of the two independent routes.
+- The Weinberg angle = a hypercharge-normalization = a grading of the one operator, and the resolution is whether that grading is read at μ_geo (3/8) then run (→3/13), or read geometrically (3/13) directly. Either way it's one operator, two readings.
+
+## Route
+Elie/Grace: compute BST's inner-fluctuation hypercharge normalization at μ_geo (3/8 or 3/13?) — discriminates B vs C; if 3/8, run down with measured RGE to the measured value; if 3/13, verify via Tr(Y²) over the no-ν_R content. Lyra: frame the resolution once known. Cal: cold-read which resolution (and whether the routes are genuinely independent); pin NCG 3/8 to Chamseddine–Connes/van Suijlekom primary.
+
+— Keeper, K1353, 2026-08-10. Casey's "BST resolves both 3/13 & 3/8": TWO candidates. (B) NORMALIZATION — BST geometric U(1) norm gives 3/13 directly (possibly BECAUSE no-ν_R changes Tr(Y²)); 3/8 = Connes' GUT convention. (C) RUNNING — BST geometric = 3/8 (=Connes, both spectral actions), induced running (a₂, #17) flows to 3/13 at M_Z; BST owns both ends, Connes imports RG. C quantitatively promising: x runs 3/5→3/10 (factor 2, matches SM running over GUT range). Discriminator = Lane-8 hypercharge at μ_geo (3/8 or 3/13?). Discipline: predict at μ_geo, run DOWN with measured RGE; 3/13 is Identified (0.2% off), target is measured 0.23122. Don't claim "predicts both" as a triumph — content is the connecting mechanism. Reconnect #17 (running=a₂), #82/#85 (3/13). Route Elie/Grace/Cal. Cal cold-reads. Nothing pushed.

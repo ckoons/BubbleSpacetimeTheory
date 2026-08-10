@@ -30,3 +30,8 @@ __pycache__/
 *.swp
 *.swo
 .vscode/
+
+# Backups (Grace 2026-08-10 clean-repo — never clone-facing)
+*.bak
+*.bak.*
+.backups/

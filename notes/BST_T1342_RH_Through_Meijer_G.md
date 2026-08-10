@@ -1,4 +1,6 @@
-# T1342 -- RH Through the Periodic Table: Why Zeros Are Forced to Re = 1/2
+# T1342 -- RH Through the Periodic Table: Why the Geometry Points Zeros Toward Re = 1/2 (an Attempt — not a proof, per K940)
+
+> **⚠ HONESTY-REFRAMED per K940 (2026-07-26): this is a substantive ATTEMPT at the Riemann Hypothesis, NOT a referee-consensus proof — RH remains OPEN. The "five independent mechanisms forcing ζ-zeros to Re(s)=1/2" are a structural convergence argument, not a closed proof; read every "force/forced/forces" below as "the attempt argues" per K940. Not a proof claim.**
 
 *The completed zeta function ξ(s) and the Bergman kernel of D_IV^5 share the Meijer G type G_{1,1}^{1,1}. This type identity, combined with BST's finite parameter catalog, provides five independent mechanisms forcing ζ-zeros onto Re(s) = 1/2 = 1/rank. The Meijer G framework unifies and tightens four existing RH routes (inductive, cross-parabolic, Langlands-Shahidi, spectral gap) into a single structural argument: the critical line is a PARAMETER CONSTRAINT of the periodic table, not an accident of analysis.*
 

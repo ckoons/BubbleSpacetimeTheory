@@ -1,5 +1,5 @@
 ---
-title: "The Riemann Hypothesis from Rank-2 Harmonic Analysis on SO₀(5,2)"
+title: "The Riemann Hypothesis from Rank-2 Harmonic Analysis on SO₀(5,2) — an AC Attempt (not a proof)"
 subtitle: "An overconstrained spectral argument via the intertwining operator"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026 (revised March 17)"
