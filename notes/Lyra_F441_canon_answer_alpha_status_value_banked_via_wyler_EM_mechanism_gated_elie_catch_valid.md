@@ -7,6 +7,9 @@ status: "v1.0 — canon answer to Elie's α question. α VALUE banked via Wyler 
 
 # F441 — Canon answer: α value is banked (Wyler); the EM first-principles mechanism is the deep gate (Elie's catch valid)
 
+> **⚠ SUPERSEDED 2026-08-11 (Grace, corpus-hygiene sweep) — DO NOT CITE THE WYLER CLAIM BELOW.**
+> This note's central premise — "α VALUE is banked via the Wyler formula, a genuine BST derivation of the coupling" — was **RETIRED by K676/K680** (the Wyler integral is the **Robertson four-reading trap**: the volume-ratio integral admits multiple readings and the matching one was selected to hit 137 — a target-fit, not a forced derivation). Current canon (Keeper K1390, 2026-08-11): **α is Identified in BST, NOT Derived/Proved.** The Wyler formula gives the right number but does not constitute a BST derivation. Elie's catch (the integer route α⁻¹ = N_c³·n_C+rank is EM-blind, gives value-not-identification) STANDS and is the correct part. The honest forward route for α = the boundary channel-capacity, derived blind (open). Read this note as history; the "banked via Wyler" verdict does not hold.
+
 Elie's toy_4519 raised a question pointed at the canon-holders, potentially downward: does α's "forced" status rest on the N_max identification, and should the honest headline be "1 forced (θ_QCD) + 1 value-blind/identification-gated (α)"? As one of the canon-holders, here is the authoritative answer.
 
 ## α is NOT downgraded — it is banked via the Wyler formula

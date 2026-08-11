@@ -123,7 +123,7 @@ The 0.004% residual is consistent with QED radiative corrections (the Schwinger 
 | Kähler-Einstein metric exists and is unique | Kobayashi-Lu theorem | Standard |
 | Bergman kernel K(z,w) = 1920/π⁵ × N(z,w)⁻⁶ | Hua (1963) | Classical |
 | Spectral gap C₂(π₆) = 6 | Harish-Chandra discrete series | Standard |
-| Wyler integral gives α | Wyler (1969), BST derivation | Proved |
+| Wyler integral gives α | Wyler (1969) | **Identified — Wyler-RETIRED (K676/K680, Robertson four-reading trap); α is Identified in BST, NOT Proved. Taken as an Identified input here (like GR takes G).** |
 | Inter-level independence | Engliš (1996), Schur orthogonality | Standard |
 
 **What this proof does NOT use:** no fitting, no free parameters, no Standard Model input, no running couplings, no renormalization group. The electron mass follows from the geometry of one symmetric domain.

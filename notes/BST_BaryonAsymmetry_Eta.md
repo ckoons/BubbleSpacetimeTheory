@@ -141,7 +141,7 @@ This gives a BST-derived baryon density, which feeds into the H₀ calculation. 
 
 | Component | Status | Reference |
 |-----------|--------|-----------|
-| α = (9/8π⁴)(π⁵/1920)^{1/4} = 1/137.036 | **Proved** (0.0001%) | WorkingPaper Section 5.1 |
+| α = (9/8π⁴)(π⁵/1920)^{1/4} = 1/137.036 | **Identified — Wyler-RETIRED (K676/K680, Robertson four-reading trap); NOT Proved. Right number, not a BST derivation.** | WorkingPaper Section 5.1 |
 | c = 7/(10π) from H_YM | **Proved** | BST_YangMills_Question1.md |
 | T_c/N_max = 20/21 from dim(so(5,2)) = 21 | **Proved** | WorkingPaper Section 15 |
 | η = α⁴ × c × T_c/N_max = 2α⁴/(3π) | **Algebraic identity** | This note |

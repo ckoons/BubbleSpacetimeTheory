@@ -9,7 +9,7 @@ date: "March 13, 2026"
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
 **Date:** March 13, 2026
-**Status:** Complete derivation. The Wallach set argument and Casimir counting are rigorous (representation theory of SO_0(5,2)). The identification of each Bergman layer with alpha^2 rests on Wyler's volume-ratio correspondence, whose mathematical status is discussed honestly in Section 7.
+**Status:** Structure-derived up to the α-input. The Wallach set argument and Casimir counting are rigorous (representation theory of SO_0(5,2)) — that part is Derived. But the identification of each Bergman layer with alpha^2 rests on Wyler's volume-ratio correspondence, **which is RETIRED as a derivation (K676/K680, Robertson four-reading trap): α is Identified in BST, NOT Proved.** So this is NOT a "complete derivation" of α; it is a derivation of the α^{2C_2} hierarchy STRUCTURE that takes α as an Identified input. Section 7 discusses the Wyler status; read it as retired, not honest-but-valid.
 
 ---
 
@@ -148,7 +148,7 @@ The fourth root arises because:
 - The relationship involves the Bergman kernel at the Shilov boundary, projected from 10 real dimensions to the 1-dimensional S^1 fiber
 - The exponent 1/4 = 1/(2 x dim_C(S^1 fiber)) = 1/(2 x 2) accounts for the projection plus Born rule
 
-**Status:** Wyler's formula gives the correct numerical value. The derivation within BST (where D_IV^5 is the forced configuration space) makes it a theorem of the theory. The precise mechanism connecting the volume ratio to the coupling constant involves the Berezin-Toeplitz quantization of the Bergman kernel on the Shilov boundary, which is standard mathematics (Berezin 1974, Englis 1996).
+**Status (RECONCILED 2026-08-11):** Wyler's formula gives the correct numerical value, but it is **RETIRED as a derivation (K676/K680 — the Robertson four-reading trap): the volume-ratio integral admits multiple readings and the matching one was selected to hit 137, i.e. a target-fit, not a forced mechanism.** So alpha is **Identified**, NOT a theorem of BST. The Berezin-Toeplitz story is a plausible mechanism sketch, not a closed derivation. The honest forward route for α is the boundary channel-capacity (α⁻¹ = N_c³·n_C + rank = 137), derived blind — still open. Do not cite the Wyler integral as proof.
 
 ### 4.2 From alpha to alpha^2 per Layer
 
@@ -378,13 +378,13 @@ The $|f|^2 = f \cdot \bar{f}$ structure doubles the exponent: holomorphic contri
 
 With the B-T framework:
 
-1. $\alpha$ = Wyler amplitude = single-level $S^1$ transition amplitude (**proved**, Wyler 1969)
+1. $\alpha$ = single-level $S^1$ transition amplitude (**Identified, NOT proved** — the Wyler-1969 amplitude *form* is RETIRED per K676/K680 as the Robertson four-reading trap; α is Identified in BST, not derived)
 2. $\alpha^2$ = single-level transition probability (**proved**, Born rule / B-T quantization)
 3. $C_2 = 6$ independent levels (**proved**, Harish-Chandra discrete series)
 4. Independence of transitions (**proved**, Engliš spectral separation theorem)
-5. Total: $\alpha^{2C_2} = \alpha^{12}$ (**proved**, product of independent probabilities)
+5. Total: $\alpha^{2C_2} = \alpha^{12}$ — **exponent $2C_2$ structural; $\alpha$ is an Identified input (Wyler-retired), so $\alpha^{12}$ is Identified, NOT proved** (the product structure is standard *given* $\alpha$)
 
-Step 5 of the derivation is now **proved**, not merely motivated.
+Step 5's **exponent** ($2C_2 = 12$) is now structural — the $|\text{amplitude}|^2$ doubling × the $C_2$ Casimir, not merely motivated. But it takes $\alpha$ as an **Identified input** (the Wyler-amplitude form is retired, K676/K680): the derived content is the *exponent* $2C_2$, NOT a derivation of $\alpha$ itself.
 
 ---
 
@@ -401,7 +401,7 @@ Step 5 of the derivation is now **proved**, not merely motivated.
 | A^2(D_IV^5) = pi_6 with C_2 = 6 | **Proved** | Harish-Chandra discrete series |
 | C_2 = n_C+1 = 6 is the Bergman kernel power | **Proved** | Standard (kernel power = canonical weight) |
 | C_2 = 6 is the first positive Casimir in the discrete series | **Proved** | Spectral ladder computation (Section 3.3) |
-| alpha = (9/8pi^4)(pi^5/1920)^{1/4} = 1/137.036 | **Proved** (in BST) | Wyler formula on D_IV^5 |
+| alpha = (9/8pi^4)(pi^5/1920)^{1/4} = 1/137.036 | **Identified — Wyler-RETIRED (K676/K680)** | Wyler formula; retired as the Robertson four-reading trap (a target-fit, not a forced derivation). alpha is Identified in BST, NOT Proved/Derived. Forward route = boundary channel-capacity (α⁻¹ = N_c³·n_C+rank), still open. |
 | m_p/m_e = 6pi^5 (0.002%) | **Proved** (in BST) | BST_BoundaryIntegral_Final.md |
 
 ### Motivated but not yet proved from first principles:
