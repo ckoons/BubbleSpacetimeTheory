@@ -40,7 +40,7 @@ A ball is a sphere. A sphere has a shape. That shape can be written down as a ma
 | $N_c$ | 3 | Three color charges. Three quarks per proton. Three germ layers in every embryo. |
 | $n_C$ | 5 | Five complex dimensions. Five fingers per hand. Five gastrulation movements. |
 | $C_2$ | 6 | The Casimir eigenvalue. Six weeks of organogenesis. Six management categories. |
-| $g$ | 7 | The Bergman genus. Seven signaling pathways. Seven stem cell niches. |
+| $g$ | 7 | The signature weight. Seven signaling pathways. Seven stem cell niches. |
 
 These five numbers are not chosen. They are not fitted to data. They are properties of the shape of the ball, the way "three" is a property of a triangle. You do not get to pick them. You get to discover them.
 

@@ -94,7 +94,7 @@ Under this reading, T1278's two parts would simplify to: *every BST integer is a
 | (remaining 10) | TBD | Census begun, classification pending P3 toys | Queued for Elie |
 
 **Route counts updated**:
-- g = 7: **6 routes** (Bergman genus, rank²+N_c, 7-smooth boundary, spectral 2g+1=15, genetic code C(g,2)=21, first matter-revealing prime in ℤ[φ,ρ]). Toy 1223 confirmed g=7 is the ONLY integer in [2,20] satisfying all six.
+- g = 7: **6 routes** (signature weight, rank²+N_c, 7-smooth boundary, spectral 2g+1=15, genetic code C(g,2)=21, first matter-revealing prime in ℤ[φ,ρ]). Toy 1223 confirmed g=7 is the ONLY integer in [2,20] satisfying all six.
 - C_2 = 6: **4 routes** (Hopf-Hirzebruch, Bernoulli von Staudt, heat-kernel column, field degree [ℚ(φ,ρ):ℚ]). All four reduce to rank · N_c. Class 2a confirmed.
 - 11: **5 routes** (T1279). All reduce to 2n_C + 1. Class 2b confirmed.
 - N_max = 137: **5 routes** (Toy 1218). Three distinct polynomials; agree only at n_C=5 (T704 lock). Class 1a confirmed.

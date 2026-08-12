@@ -57,7 +57,7 @@ No others exist. This is a theorem of coding theory, not a conjecture.
 - d = 3 = N_c ✓
 - Number of codewords = 2^k = 2^{rank²} = 16 = 2^4 ✓
 
-The identity 2^{N_c} − 1 = g (i.e., 2³ − 1 = 7) is the Mersenne condition. It connects the Hamming code to the Bergman genus: the spectral genus g is one less than the Weyl group order 2^{N_c}.
+The identity 2^{N_c} − 1 = g (i.e., 2³ − 1 = 7) is the Mersenne condition. It connects the Hamming code to the signature weight: the spectral genus g is one less than the Weyl group order 2^{N_c}.
 
 **Golay code.** Parameters (23, 12, 7):
 - n = 23 = N_c · g + rank = 3 × 7 + 2 ✓

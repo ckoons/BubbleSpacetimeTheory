@@ -69,7 +69,7 @@ The maximum binding energy per nucleon occurs when the nuclear configuration is 
 
 $$A_{peak} = 2^{N_c} \times g = 8 \times 7 = 56 = \text{Fe-56}$$
 
-Iron-56 has the highest nuclear binding energy per nucleon (8.790 MeV/nucleon) among all nuclides. Its mass number is the product of the Weyl group order and the Bergman genus. $\square$
+Iron-56 has the highest nuclear binding energy per nucleon (8.790 MeV/nucleon) among all nuclides. Its mass number is the product of the Weyl group order and the signature weight. $\square$
 
 ### Part (d): Nuclear radius
 

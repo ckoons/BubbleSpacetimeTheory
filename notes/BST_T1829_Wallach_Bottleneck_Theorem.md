@@ -51,7 +51,7 @@ where N_c = n - 2, rank = 2, C_2 = N_c(N_c+1)/rank. At n = 5:
 | 4 | 55 | n_C * c_2 |
 
 Casimir: C_2(pi_2) = 2(2 - n_C) = -6 = -C_2.
-Bergman exponent: K_2(z,w) = c * h(z,w)^{-g}.
+Bergman exponent: K(z,w) = c * h(z,w)^{-n_C} (the Bergman genus = n_C = 5, Hua 1963 — NOT g=7; g is the signature / fermion-mode weight, a different object). [relabeled 2026-08-12, Grace/Keeper.]
 
 ### (ii) Cumulative/Spectral Identity (W-7, Toy 2145)
 

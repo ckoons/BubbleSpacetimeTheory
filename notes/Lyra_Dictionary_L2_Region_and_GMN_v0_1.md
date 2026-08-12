@@ -25,7 +25,7 @@ This single fact does a lot:
 |---|---|---|
 | internal symmetry | SO(4) = SU(2)_L × SU(2)_R | full SO(5) × SO(2) |
 | function space | Hardy H²(S) | Bergman (holomorphic L²) |
-| ρ-vector marker | ρ₂ = N_c/rank = 3/2 (Wallach point) | ρ₁ = n_C/rank = 5/2 (Bergman genus) |
+| ρ-vector marker | ρ₂ = N_c/rank = 3/2 (Wallach point) | ρ₁ = n_C/rank = 5/2 (signature weight) |
 | color | NONE (SO(4) has no color structure) | carried by the full SO(5) |
 | particles | **leptons** (light, fundamental, colorless SU(2) doublets) | **quarks / composites** (colored, heavy, 3D constructions) |
 

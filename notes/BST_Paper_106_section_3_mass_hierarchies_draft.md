@@ -22,7 +22,7 @@ Toy 2417 (W-20) reads the three charged-lepton masses as three successive Wallac
 
 m_μ / m_e = N_c · π² · g = 3 · π² · 7 = 207.394,
 
-matching the observed 206.768 at 0.30 %. The intuition is that the muon is one Wallach layer above the electron, and the mass step on that layer carries the three BST integers visible at the first cohomology level of Q⁵: N_c (color/generation index), π² (the Riemann ζ(2) factor from the first non-trivial Wallach mode), and g (the Bergman genus). Tier **I**.
+matching the observed 206.768 at 0.30 %. The intuition is that the muon is one Wallach layer above the electron, and the mass step on that layer carries the three BST integers visible at the first cohomology level of Q⁵: N_c (color/generation index), π² (the Riemann ζ(2) factor from the first non-trivial Wallach mode), and g (the signature weight). Tier **I**.
 
 Lyra's independent identification through theorem T1942 (Ogg primes) gives
 

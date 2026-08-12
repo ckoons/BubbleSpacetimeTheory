@@ -57,7 +57,7 @@ Cartan classification of HSDs:
 | V | E_III | 16 | 2 | 12 |
 | VI | E_VII | 27 | 3 | 18 |
 
-D_IV⁵ corresponds to Type IV with n = 5, giving dim_C = 5, rank = 2, g_FK = 5. The BST substrate identifies g_FK (Bergman genus) with the BST primary g = 7? **NO** — they differ.
+D_IV⁵ corresponds to Type IV with n = 5, giving dim_C = 5, rank = 2, g_FK = 5. The BST substrate identifies g_FK (signature weight) with the BST primary g = 7? **NO** — they differ.
 
 Per Lyra T2446 RIGOROUSLY CLOSED: BST's g = 7 is the **Mersenne identity** 2^N_c − 1 = g, NOT the Bergman genus g_FK = 5 of D_IV^5 directly. So BST's substrate primary g IS distinct from the HSD's canonical Bergman genus.
 

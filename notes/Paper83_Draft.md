@@ -46,7 +46,7 @@ This paper catalogs 3858 physical quantities that are evaluations of one geometr
 |---|--------|------|---------|------|--------|
 | 1 | N_c | Color charge | 3 | exact | exact |
 | 2 | n_C | Complex dimension | 5 | exact | exact |
-| 3 | g | Bergman genus | 7 | exact | exact |
+| 3 | g | signature weight | 7 | exact | exact |
 | 4 | C₂ | Casimir invariant | 6 | exact | exact |
 | 5 | N_max | Spectral cap | N_c³ × n_C + rank = 137 | exact | exact |
 | 6 | rank | Rank | 2 | exact | exact |

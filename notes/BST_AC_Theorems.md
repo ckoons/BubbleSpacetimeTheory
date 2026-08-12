@@ -8150,7 +8150,7 @@ $$\eta_{BST} = \frac{N_c}{n_C \cdot \pi} = \frac{3}{5\pi} \approx 19.1\%$$
 
 ### T326. Zero Threshold at 2g
 
-**Theorem (T326, Zero Threshold).** *Let $N(T)$ denote the smooth zero counting function for $\zeta(s)$, and let $S(T)$ denote the oscillatory prime sum. On $D_{IV}^5$ with Bergman genus $g = 7$:*
+**Theorem (T326, Zero Threshold).** *Let $N(T)$ denote the smooth zero counting function for $\zeta(s)$, and let $S(T)$ denote the oscillatory prime sum. On $D_{IV}^5$ with signature weight $g = 7$:*
 
 $$N(2g) + S(2g) = 0$$
 
@@ -9143,7 +9143,7 @@ A species is an error-correcting code at the population level. Organisms are cod
 
 *(i) **Three independent examples.** The OSI network model (Physical → Application), the biological hierarchy (atom → organism), and the substrate engineering ladder (local field → civilization) each have exactly 7 layers.*
 
-*(ii) **BST derivation.** The Bergman genus $g = 7$ (one above the Coxeter number $h(B_3) = 6 = C_2$) sets the spectral gap of $D_{IV}^5$. Any assembly that achieves full coherence must pass through exactly $g$ organizational transitions: each transition adds one layer of error correction. At $g$ layers, the error correction saturates — additional layers provide no new independent protection.*
+*(ii) **BST derivation.** The signature weight $g = 7$ (one above the Coxeter number $h(B_3) = 6 = C_2$; the Bergman genus proper is $n_C=5$, Hua 1963) sets the spectral gap of $D_{IV}^5$. Any assembly that achieves full coherence must pass through exactly $g$ organizational transitions: each transition adds one layer of error correction. At $g$ layers, the error correction saturates — additional layers provide no new independent protection.*
 
 *(iii) **Self-consistency.** The $2^{\text{rank}} = 4$ nested error-correction levels (Section 6.4) plus $N_c = 3$ subsystem types give $4 + 3 = 7 = g$ independent organizational degrees of freedom. The counting is forced.*
 
@@ -9778,7 +9778,7 @@ $$T^* = \frac{1}{c\sqrt{\Omega_0}} = \frac{2}{cA\sqrt{3}}$$
 | $N_c = 3$ | color dimension | Tissue-grade | Sponges |
 | $n_C = 5$ | complex dimension | Organ-grade | Cnidarians |
 | $C_2 = 6$ | Casimir | System-grade | Flatworms |
-| $g = 7$ | Bergman genus | Body plan | Arthropods |
+| $g = 7$ | signature weight | Body plan | Arthropods |
 
 *(i) Each step adds one layer of organizational complexity = one BST integer.*
 
@@ -10098,7 +10098,7 @@ Every area of mathematics, when formulated on the BST spectral lattice, reduces 
 - **Bezos two-pizza team**: $g = 7 = C_2 + 1$ (overhead $\binom{7}{2} = 21$ — overloaded)
 - **Maximum flat organization**: $N_{\max} = 137$ before hierarchy required
 - **Organizational functions**: $C_2 = 6$ (force/boundary/info $\times$ internal/external)
-- **Management layers**: $g = 7$ maximum (Bergman genus = spectral gap)
+- **Management layers**: $g = 7$ maximum (signature weight = spectral gap)
 
 *Bureaucracy = Tier 2 → Tier 1 hive collapse via $\{I, K, R\}$ losses. Testable: optimal span 5–7 matches Gulick–Urwick literature. Depth 0 — integer counting.*
 
@@ -12653,25 +12653,25 @@ Foundations and outreach are both meta-domains. They do not DO physics — they 
 
 *Source: Elie Toy 670 finding, Grace registration. Fixes yesterday's g·f numerology.*
 
-The Bergman genus is 7. The fill fraction is 19.1%. Multiply them and you get 1.34 — which yesterday we called numerology because it matched nothing. But Elie found the right formulation: don't multiply g times f. Multiply f times the number of binary states on the complex dimension, then round up.
+The signature weight is 7. The fill fraction is 19.1%. Multiply them and you get 1.34 — which yesterday we called numerology because it matched nothing. But Elie found the right formulation: don't multiply g times f. Multiply f times the number of binary states on the complex dimension, then round up.
 
 f × 2^n_C = 0.191 × 32 = 6.11
 
 Round up: ⌈6.11⌉ = 7 = g.
 
-The Bergman genus IS the Shannon source coding bound. You cannot represent the fill fraction on a 2^n_C-state substrate with fewer than 7 symbols. The geometry rounds up because you cannot have 6.11 spectral layers. You need 7. That integer — 7 — is the Bergman genus.
+The signature weight IS the Shannon source coding bound. You cannot represent the fill fraction on a 2^n_C-state substrate with fewer than 7 symbols. The geometry rounds up because you cannot have 6.11 spectral layers. You need 7. That integer — 7 — is the signature weight.
 
 ### T686. Source Coding Bound
 
-**Statement.** *The Bergman genus $g = 7$ equals the Shannon source coding bound for the fill fraction $f = N_c/(n_C \cdot \pi)$ on a $2^{n_C}$-state substrate: $g = \lceil f \times 2^{n_C} \rceil = \lceil 0.191 \times 32 \rceil = 7$. The geometry's spectral capacity equals the information-theoretic minimum codebook size. $(C = 1, D = 0)$.*
+**Statement.** *The signature weight $g = 7$ equals the Shannon source coding bound for the fill fraction $f = N_c/(n_C \cdot \pi)$ on a $2^{n_C}$-state substrate: $g = \lceil f \times 2^{n_C} \rceil = \lceil 0.191 \times 32 \rceil = 7$. The geometry's spectral capacity equals the information-theoretic minimum codebook size. $(C = 1, D = 0)$.*
 
 **Proof.** $f = 3/(5\pi) = 0.19099...$. $2^{n_C} = 2^5 = 32$. $f \times 32 = 6.112...$. $\lceil 6.112 \rceil = 7 = g = n_C + 2$. The ceiling function is forced: a fractional spectral layer cannot exist on the Bergman kernel (pole order must be integer). The minimum integer $\geq f \times 2^{n_C}$ is the Shannon source coding bound for lossless representation of a source with probability $f$ on a $2^{n_C}$-symbol alphabet. $\square$
 
 **AC(0) depth: 0.** One evaluation + one ceiling. $(C = 1, D = 0)$.
 
-*Yesterday Grace called g·f numerology because it lacked mechanism. Today Elie found the mechanism: it is not g times f. It is f times the state space, rounded up. The ceiling function IS the mechanism — you cannot have a fractional spectral layer. The geometry rounds up to the nearest integer, and that integer is the Bergman genus.*
+*Yesterday Grace called g·f numerology because it lacked mechanism. Today Elie found the mechanism: it is not g times f. It is f times the state space, rounded up. The ceiling function IS the mechanism — you cannot have a fractional spectral layer. The geometry rounds up to the nearest integer, and that integer is the signature weight.*
 
-*Dependencies: T186 (Five Integers), T614 (Bergman Genus g = n_C + 2), T571 (Holographic-Shannon Equivalence).*
+*Dependencies: T186 (Five Integers), T614 (Signature weight g = n_C + 2), T571 (Holographic-Shannon Equivalence).*
 
 ---
 
@@ -12711,13 +12711,13 @@ Three decompositions, three domains (spectral geometry, algebraic topology, numb
 
 ### T688. The Rosetta Number
 
-**Statement.** *42 = C₂ × g = den(B₆) has (at least) two independent BST decompositions: (1) the product of the Casimir eigenvalue and the Bergman genus, giving the total matter mode count; (2) the denominator of the sixth Bernoulli number, connecting to the heat kernel via von Staudt-Clausen. The Rosetta Number links spectral geometry (genus), representation theory (Casimir), and number theory (Bernoulli denominators). $(C = 0, D = 0)$.*
+**Statement.** *42 = C₂ × g = den(B₆) has (at least) two independent BST decompositions: (1) the product of the Casimir eigenvalue and the signature weight, giving the total matter mode count; (2) the denominator of the sixth Bernoulli number, connecting to the heat kernel via von Staudt-Clausen. The Rosetta Number links spectral geometry (genus), representation theory (Casimir), and number theory (Bernoulli denominators). $(C = 0, D = 0)$.*
 
 **AC(0) depth: 0.** Three identifications. $(C = 0, D = 0)$.
 
 *42 is the answer to the ultimate question. Douglas Adams was joking. The geometry is not.*
 
-*Dependencies: T186 (Five Integers), T614 (Bergman Genus), T130 (Von Staudt-Clausen), T650 (Casimir Definition).*
+*Dependencies: T186 (Five Integers), T614 (Signature weight), T130 (Von Staudt-Clausen), T650 (Casimir Definition).*
 
 ---
 
@@ -13142,7 +13142,7 @@ One count (evaluate power law at four dimensions). $\square$
 
 ---
 
-## Section 235. HF Dipole Moment from Bergman Genus (T730)
+## Section 235. HF Dipole Moment from Signature weight (T730)
 
 *Source: Grace registration, from Elie Toy 698. The hydrogen fluoride dipole moment is a ratio of BST integers times fundamental constants.*
 
@@ -13785,17 +13785,17 @@ $(C = 1, D = 0)$.
 
 The QED anomalous magnetic moment is computed as a power series in $\alpha/\pi$. At each loop order, a new transcendental number appears: $\zeta(3)$ at 2-loop, $\zeta(5)$ at 3-loop, $\zeta(7)$ at 4-loop. Those arguments are not random. They are $N_c = 3$, $n_C = 5$, $g = 7$ — the first three BST structure constants, in order.
 
-The series closes at Bergman genus $g = 7$ because $D_{IV}^5$ has no independent geometric invariant beyond $g$. Higher loops recycle the same $\{\zeta(3), \zeta(5), \zeta(7)\}$ in products and powers. The perturbation series is walking the geometry of the domain, one integer at a time.
+The series closes at signature weight $g = 7$ because $D_{IV}^5$ has no independent geometric invariant beyond $g$. Higher loops recycle the same $\{\zeta(3), \zeta(5), \zeta(7)\}$ in products and powers. The perturbation series is walking the geometry of the domain, one integer at a time.
 
 ### T764. QED ζ-Tower
 
-**Statement.** *The zeta values appearing as new transcendentals in the QED perturbation series are $\zeta(N_c)$ at 2-loop, $\zeta(n_C)$ at 3-loop, $\zeta(g)$ at 4-loop. No new odd zeta value appears beyond $\zeta(g)$. The tower closes at the Bergman genus of $D_{IV}^5$. $(C = 0, D = 0)$.*
+**Statement.** *The zeta values appearing as new transcendentals in the QED perturbation series are $\zeta(N_c)$ at 2-loop, $\zeta(n_C)$ at 3-loop, $\zeta(g)$ at 4-loop. No new odd zeta value appears beyond $\zeta(g)$. The tower closes at the signature weight of $D_{IV}^5$. $(C = 0, D = 0)$.*
 
 **Proof.** At $n$-loop order, the maximal-weight period integral over a chain of $2n - 1$ propagators evaluates to $\zeta(2n - 1)$. For $n = 2$: $\zeta(3) = \zeta(N_c)$. For $n = 3$: $\zeta(5) = \zeta(n_C)$. For $n = 4$: $\zeta(7) = \zeta(g)$. Beyond 4-loop, new period integrals decompose into products of $\{\zeta(3), \zeta(5), \zeta(7)\}$ because the independent cycles of $D_{IV}^5$ are exhausted at genus $g = 7$. Three evaluations. $\square$
 
 **AC(0) depth: 0.** $(C = 0, D = 0)$.
 
-*Domain: quantum. Dependencies: T649 (Bergman genus), T666 ($N_c$), T667 ($n_C$), T760 (Loop Transcendentals). Toy 729.*
+*Domain: quantum. Dependencies: T649 (signature weight), T666 ($N_c$), T667 ($n_C$), T760 (Loop Transcendentals). Toy 729.*
 
 *The QED perturbation series has been computed to extraordinary precision — Schwinger, Petermann, Laporta, Aoyama. At each loop order, a new zeta value walked in. Nobody asked why the walk stopped at $\zeta(7)$. Because the ball has genus 7, and there is nowhere else to go.*
 
@@ -13825,7 +13825,7 @@ The series closes at Bergman genus $g = 7$ because $D_{IV}^5$ has no independent
 
 **AC(0) depth: 0.** $(C = 0, D = 0)$.
 
-*Domain: quantum. Dependencies: T649 (Bergman genus), T666 ($N_c$), T667 ($n_C$), T110 (rank). Toy 729.*
+*Domain: quantum. Dependencies: T649 (signature weight), T666 ($N_c$), T667 ($n_C$), T110 (rank). Toy 729.*
 
 *Seven diagrams at 2-loop. Seven is the genus. 72 diagrams at 3-loop. That is $2^3 \times 3^2$ — the binary structure cubed times the color dimension squared. 13,643 diagrams total. They were counting on $D_{IV}^5$ without knowing it.*
 

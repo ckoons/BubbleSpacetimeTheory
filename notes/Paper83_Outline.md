@@ -49,7 +49,7 @@ The six entries that are the foundation. All exact integers.
 | 2 | N_c | Color charge | 3 | Short root multiplicity of B_2 |
 | 3 | n_C | Complex dimension | 5 | dim_C(D_IV^5) |
 | 4 | C_2 | Casimir invariant | 6 | rank x N_c |
-| 5 | g | Bergman genus | 7 | n_C + rank |
+| 5 | g | signature weight | 7 | n_C + rank |
 | 6 | N_max | Spectral cap | 137 | N_c^3 x n_C + rank |
 
 - **Section 2.1 Derivation**: Each integer from the Cartan classification. No choices.

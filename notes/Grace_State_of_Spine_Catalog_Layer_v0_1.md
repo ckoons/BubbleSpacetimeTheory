@@ -46,7 +46,7 @@ A claim is forward iff it passes its type's axis. Coincidence-denominator does N
 - N_max = N_c³·n_C + rank — the LEAST back-fit-prone integer-web relation (coincidence-denominator ~0)
 
 ### STRUCTURAL — geometric invariants (the anchors)
-- **ρ-vector ρ(D_IV⁵) = (n_C, N_c)/rank = (5/2, 3/2)** — pins three primaries (rank, N_c, n_C) to ONE canonical invariant; ρ₁ = n_C/rank = bulk (Bergman genus), ρ₂ = N_c/rank = Shilov (Wallach point). Elie Toy 3583.
+- **ρ-vector ρ(D_IV⁵) = (n_C, N_c)/rank = (5/2, 3/2)** — pins three primaries (rank, N_c, n_C) to ONE canonical invariant; ρ₁ = n_C/rank = bulk (signature weight), ρ₂ = N_c/rank = Shilov (Wallach point). Elie Toy 3583.
 - Bergman kernel singularity exponent = n_C/rank = 5/2 = ρ₁ (Hua genus; Elie ν=5 convention-free) — densely anchored (Harish-Chandra ρ, Wallach set/point/gap, spectral reflection center; INV-5265)
 - c_FK = 225/π^(9/2) = (N_c·n_C)²/π^((g+rank)/rank) — **DERIVED THEOREM** (FK normalized measure forced by Born-rule automorphism-invariance via T754; not a chosen convention). Ambient-Lebesgue alternative = 1920/π⁵ (Elie MC), correctly labeled non-physical.
 

@@ -41,7 +41,7 @@ We report that dimensionless ratios across 26 independent physical domains reduc
 
 $$N_c = 3, \quad n_C = 5, \quad g = 7, \quad C_2 = 6, \quad N_{\max} = 137$$
 
-These integers are structural invariants of the bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$: the color count, complex dimension, Bergman genus, quadratic Casimir invariant, and maximum spectral level. The rank is $r = 2$, and $\pi$ appears as the single transcendental extension.
+These integers are structural invariants of the bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$: the color count, complex dimension, signature weight, quadratic Casimir invariant, and maximum spectral level. The rank is $r = 2$, and $\pi$ appears as the single transcendental extension.
 
 Fifty rational fractions built from these integers produce 196 parameter-free predictions across 26 domains. Nineteen fractions each appear in three or more unrelated domains. The recurrence is the claim. A single fraction matching a single measurement proves nothing -- the denominator space of small integers is finite, and coincidences are expected. But the *same* fraction appearing in ionization energy, electronegativity, bond dissociation energy, and bond length -- four independent measurements governed by different physics -- is not expected. Nineteen such fractions across twenty-six domains is, we argue, impossible by chance.
 

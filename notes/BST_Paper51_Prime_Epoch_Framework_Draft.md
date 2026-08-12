@@ -33,7 +33,7 @@ Five integers characterize the bounded symmetric domain $D_{IV}^5 = \text{SO}_0(
 | $N_c$ | 3 | Color number | $= \text{rank} + 1$; gauge group dimension |
 | $n_C$ | 5 | Compact dimension | Representation dimension |
 | $C_2$ | 6 | Quadratic Casimir | $= \text{rank} \times N_c$; counting eigenvalue |
-| $g$ | 7 | Bergman genus | $= C_2 + 1$; topological boundary parameter |
+| $g$ | 7 | signature weight | $= C_2 + 1$; topological boundary parameter |
 
 These five integers are not chosen. They are the complete set of algebraic invariants of $D_{IV}^5$, the unique bounded symmetric domain in the Cartan classification satisfying three conditions: observation (rank $\geq 2$), confinement ($N_c$ prime), and error correction ($2^{N_c} - 1$ prime Mersenne). All other Cartan types and all other values of $n$ are excluded (T953).
 

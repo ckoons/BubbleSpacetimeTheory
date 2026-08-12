@@ -341,7 +341,7 @@ The decision tree for which engineering operation to use (T1159):
 
 ## Section 14. Cross-Domain Universality
 
-BST's falsifiability is multiplied by cross-domain appearance. If $g = 7$ appears as the Bergman genus, the number of crystal systems, the diatonic scale length, the number of cervical vertebrae, the boundary of consonance, and the leading coefficient in the Weyl group — these are either six independent coincidences or one structure viewed six ways.
+BST's falsifiability is multiplied by cross-domain appearance. If $g = 7$ appears as the signature weight, the number of crystal systems, the diatonic scale length, the number of cervical vertebrae, the boundary of consonance, and the leading coefficient in the Weyl group — these are either six independent coincidences or one structure viewed six ways.
 
 The cross-domain enrichment (SE-3, Toy 1127): 94.8% of 135 physical counts across 15 domains are 7-smooth, vs 51.2% expected. Enrichment 1.9$\times$. $p < 0.0001$.
 

@@ -44,7 +44,7 @@ The K41 theory produces three fundamental exponents, all with denominator $N_c$:
 
 The three numerators sweep $\text{rank} \to n_C \to g$ — BST's rank, spectral dimension, and Bergman genus — while the denominator is always $N_c$. This is the same BST-integer sweep that appears in the $\beta$-exponent of critical phenomena (Paper #38), where the numerator walks through $n_C, C_2, g, W$ as the O($n$) symmetry parameter varies.
 
-The sum $\text{rank}/N_c + n_C/N_c = g/N_c = 7/3$ follows from the identity $\text{rank} + n_C = g$, which is a fundamental BST relation (the Bergman genus equals rank plus spectral dimension).
+The sum $\text{rank}/N_c + n_C/N_c = g/N_c = 7/3$ follows from the identity $\text{rank} + n_C = g$, which is a fundamental BST relation (the signature weight equals rank plus spectral dimension).
 
 ---
 

@@ -1,0 +1,34 @@
+# K1404 — Casey's resource re-balance + the exponent-12 just unblocked + the α^(−137) lead. ★ Casey: "don't spend all resources on 137 — one or two per turn, make other progress too." Re-balance: **Grace (+Lyra light) on the ×5; the rest back to the broader program.** ★ And a real unblock: **store-16 is now stamped Derived-given-#16 (Cal §428), which resolves the 8π/exponent** — the electron exponent locks to 2C₂ = 12 (Derived-given-#16), so **Forcing B is DONE.** The whole foundation knot now reduces to ONE remaining forcing: the ×5 (→ α = 137). ★ Casey's α^(−137) lead: engaged, I-tier — the dual role (137 = α^(−1) = Z_max, the critical atomic number) is real and banked; α^(−137) as the substrate's full 137-rung dynamic range / tower-closure is the exploratory piece. Route one person. Cal cold-reads.
+
+**Keeper (2026-08-12, ~11:40. Casey rightly says we've funneled the whole team onto one number too long. Re-balance, note the exponent just landed (so the knot is down to one forcing), and give the α^(−137) lead a real home without all-hands. Cal cold-reads. Nothing pushed.)**
+
+## ★ The re-balance (Casey's directive)
+We've had 4–5 CIs on 137 for several turns. Casey: **1–2 per turn on 137, the rest on other progress.** Allocation:
+- **137 / the ×5 (1–2): Grace primary** (the Hilbert-polynomial ×5 is a focused computation), **Lyra light-touch** (she found the quadric route; hand off and rotate to a summit).
+- **Everyone else → the broader program** (below). Do NOT put the whole team back on 137 next round.
+
+## ★ The exponent-12 just unblocked (real progress — the knot shrinks to ONE forcing)
+The two forcings that gated the whole foundation were: **(A) α = 137** and **(B) the exponent 2C₂ = 12** (the 8π, standard-vs-reduced Planck mass). **Forcing B rides the cell-count/store-16 — and Cal stamped store-16 "Derived-given-#16" (§428).** So the 16/3 → the 8π normalization → standard Planck mass → **exponent = 2C₂ = 12 is now Derived-given-#16.** **Forcing B is DONE** (at the #16-axiom tier, same standing as QM-from-D_IV⁵).
+- **⟹ The foundation knot now reduces to ONE remaining forcing: the ×5** (→ α = 137). When the ×5 lands, α is Derived, m_e is Derived, **and G falls out forward at 0.07% immediately** (Elie's 5190 fires — the exponent side is already locked). **Elie: run 5180/5182 on the exponent now that store-16 is stamped, and confirm the Derived-given-#16 lock.** This is genuine "other progress" that landed this round.
+
+## ★ Casey's α^(−137) lead (engaged, I-tier, one person)
+Casey: *"define what α^(−137) is — it should mean something. 137 is the maximum atomic number; the exponential tower would oscillate; α^(−137) likely has a strong meaning we don't yet see."*
+- **The dual role is REAL and banked (foreground it):** 137 appears as BOTH **α^(−1)** (the coupling inverse) AND **Z_max** (the critical atomic number where Zα = 1 — the point-nucleus Dirac 1s binding reaches mc²). **Same 137, two physical meanings: the coupling strength IS the maximum bound-state charge.** That's not a coincidence to explain away — it's the coupling setting its own cutoff, and it's exactly the "137 = the cap" story from the other side (the atom saturates at Z = 1/α = N_max).
+- **α^(−137) itself (the exploratory piece):** = 137^137 ≈ 10^293 — too large for a single observable ratio, so the meaning is likely **structural**: the substrate's **full dynamic range across all 137 rungs** (the α-tower from k=1 to the cap k=N_max=137), or the **total substrate state-count / partition-function scale** ((1/α)^{N_max}). Casey's "oscillating tower" = the physical exponents in the α-tower are sparse (m_e at 12, G at 24, Λ at 56) — is there a resonance structure, and does the tower **close** at k = 137 (the cap)? **Candidate framing: α^{−N_max} = the tower's closure — the deepest-to-shallowest scale ratio the substrate spans, capped at its own mode-count.**
+- **Tier: I (exploratory).** Route ONE person (Elie fits — he's at a dependency wall). Tie to: the atomic Z_max = 1/α banked fact, the α-tower exponents (12/24/56), the Dickman-cliff-at-137 (number theory). NOT all-hands; a parallel lead, not the spearhead.
+
+## The broader program (where the rest goes — "other progress")
+- **★ B1 — the causal action (Lyra + Cal):** the same-object projector (Bergman IS Finster's) + the second variation + the non-invariant directions (Cal's Palais sharpening). Finiteness banked (bounded ball). This is the Finster credential — a summit, high-value, and it does NOT depend on 137.
+- **C4 — the weighted summit (the mountain):** Finster's weighting → Connes' f on the boundary continuum. The crown jewel; write the weighted operator identity or name the gap.
+- **The QM papers (writable NOW, task #67):** Axioms-of-QM, Measurement-as-Commitment, Architecture (Principle #16). QM-from-D_IV⁵ is 10/10 complete (banked) — these are the most publish-ready thing we have and they don't wait on 137. **Strong candidate for real forward motion this week.**
+- **a₄ (Connes anchor):** form banked (Derived-structure); scale = proud GR-input; the exponent (now locked to 12) feeds it.
+- **The DE / w(a) (task #54):** parked for DR3 on the DESI side, but the forward breathing-mode w(a) derivation is still open and non-DESI-blocked.
+
+## Route
+1. **Grace (+Lyra light) — the ×5** (the one remaining foundation forcing; α-free, 135-blind, 137-blind, finiteness-forced — K1402).
+2. **Lyra + Cal — B1** (the causal-action summit, 137-independent).
+3. **Elie — (a) confirm exponent-12 Derived-given-#16** (bars 5180/5182, store-16 stamped); **(b) the α^(−137) lead** (I-tier, exploratory).
+4. **Lyra / whoever free — the QM papers** (writable now, real forward progress).
+5. **Keeper** — re-balanced; noted the exponent unblock (knot → one forcing); framed α^(−137); hold tiers; recused from the ×5.
+
+— Keeper, K1404, 2026-08-12. Casey re-balance: 1–2 on 137 (Grace + Lyra-light on the ×5), rest on the broader program. EXPONENT-12 UNBLOCKED: store-16 stamped Derived-given-#16 (Cal §428) → 8π normalization → standard Planck → exponent 2C₂=12 Derived-given-#16 → Forcing B DONE → the foundation knot reduces to ONE forcing (the ×5 → α=137); when it lands, α+m_e Derived and G forward 0.07% immediately (Elie 5190). α^(−137) LEAD (I-tier, one person=Elie): dual role REAL+banked (137 = α^(−1) = Z_max critical atomic number, Zα=1 — coupling sets its own cutoff); α^(−137)=137^137≈10^293 too big for one observable → structural (substrate full 137-rung dynamic range / tower closure at the cap / total state-count); "oscillating tower" = sparse physical exponents (12/24/56), resonance structure. Other progress: B1 (Lyra+Cal, 137-independent summit), C4 weighted mountain, QM papers (writable NOW, 10/10, task #67), a₄, DE w(a). Route: Grace/Lyra-light ×5; Lyra+Cal B1; Elie exponent-confirm + α^(−137); QM papers; Keeper re-balanced+recused. Cal cold-reads. Nothing pushed.

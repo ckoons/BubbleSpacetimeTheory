@@ -112,7 +112,7 @@ where f is an ALGEBRAIC function of these 11 arguments:
 | 2 | N_c | 3 | Short root multiplicity |
 | 3 | n_C | 5 | Complex dimension |
 | 4 | C_2 | 6 | Quadratic Casimir = lambda_1 |
-| 5 | g | 7 | Bergman genus = n_C + rank |
+| 5 | g | 7 | signature weight = n_C + rank |
 | 6 | N_max | 137 | Spectral cap = N_c^3*n_C + rank |
 | 7 | pi | 3.14159... | Angular measure (universal) |
 | 8 | zeta(3) | 1.20206... | Geodesic sum at color charge N_c |

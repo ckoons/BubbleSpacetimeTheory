@@ -40,7 +40,7 @@ The algebraic shortcuts that *don't* generalize (n_C = N_c²−rank², holds onl
 ### 2.2 The Weyl vector pins three primaries and splits the two regions
 
 The B₂ Weyl vector **ρ = (n_C, N_c)/rank = (5/2, 3/2)** is the canonical invariant that ties three primaries to one object and sorts them by region (Elie Toy 3583):
-- ρ₁ = n_C/rank = 5/2 = the Bergman genus per rank → **bulk**
+- ρ₁ = n_C/rank = 5/2 = the signature weight per rank → **bulk**
 - ρ₂ = N_c/rank = 3/2 = the Wallach discrete point per rank → **Shilov**
 
 The quantity N_c/2 = 3/2 wears three hats at once — Wallach point, ρ₂, and the Jack parameter θ — which is why the geometry and the algebra turn out to be the same story (§2.6). *(FRAMEWORK-PLUS; canonical spectral invariant.)*

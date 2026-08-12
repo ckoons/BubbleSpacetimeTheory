@@ -46,7 +46,7 @@ I3 = g*(2*C_2 - 1)*(rank^3*N_c^2*n_C + g) / [N_c * (rank * C_2)^3]
 **Numerator 28259 = 7 * 11 * 367:**
 
 The THREE factors are:
-- g = 7: Bergman genus. Appears because the 3-loop kernel V_3 has genus-weighted volume normalization.
+- g = 7: signature weight. Appears because the 3-loop kernel V_3 has genus-weighted volume normalization.
 - 2*C_2 - 1 = 11: THE SPECTRAL GAP. N_max - lambda_{K_max} = 137 - 126 = 11. This is the room between the spectral cap and the last Bergman eigenvalue. Its appearance as a MULTIPLICATIVE FACTOR at 3-loop (vs absent at 2-loop) means the 3-loop vertex kernel "sees" the spectral boundary.
 - rank^3*N_c^2*n_C + g = 360 + 7 = 367: The genus-shifted product. 360 = rank^3*N_c^2*n_C is the mode count of the compact-times-Cartan product space. The shift +g reflects the Bergman genus correction to the mode count.
 
@@ -67,7 +67,7 @@ At each loop order, the curvature contribution involves the Seeley-DeWitt coeffi
 17101 = g^2 * (rank * n_C^2 * g - 1) = 49 * 349
 
 - g^2 = 49: At 3-loop, the curvature contribution carries a genus-squared factor because V_3 involves two internal curvature insertions. Each insertion contributes one factor of g (from the Bergman metric's genus-dependence).
-- rank*n_C^2*g - 1 = 350 - 1 = 349: Vacuum-subtracted product. The BST product 350 = 2*25*7 = rank*n_C^2*g counts the modes on the fiber weighted by the Bergman genus. The -1 is vacuum subtraction (T1444): the k=0 mode is excluded.
+- rank*n_C^2*g - 1 = 350 - 1 = 349: Vacuum-subtracted product. The BST product 350 = 2*25*7 = rank*n_C^2*g counts the modes on the fiber weighted by the signature weight. The -1 is vacuum subtraction (T1444): the k=0 mode is excluded.
 
 810 = rank * N_c^4 * n_C = 2 * 81 * 5. The color structure at 3-loop introduces N_c^4 (from the two internal color loops in the vertex).
 

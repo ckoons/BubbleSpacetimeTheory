@@ -1,0 +1,35 @@
+# K1438 — FALSIFIER SCRUB (#107): the neutron-star max mass M_TOV — the live tension, now updated, and it's moving *against* BST. ★ BST predicts **M_TOV = 52/25 = 2.08 M_⊙** (52 = 4·13, 25 = n_C² — **weak provenance**, Cal §158/§164, already downgraded to Structural/candidate, NOT Derived). ★ Current data: the heaviest pulsar **PSR J0952−0607 ≈ 2.35 ± 0.17 M_⊙** and PSR J0740+6620 = 2.08 ± 0.07 are **lower bounds** (a real NS of mass M proves M_TOV ≥ M); the inferred/consensus M_TOV is **2.2–2.3 M_⊙**. ★ BST's 2.08 sits **at the J0740 floor** and is now **1.6σ (J0952) to 3.4σ (consensus)** below — and crucially it's a **ONE-SIDED squeeze**: the observed floor only *rises* as heavier pulsars are confirmed, so this prediction **can only be falsified further, never confirmed-tighter**. ★ RECOMMENDATION: given weak provenance + worsening one-sided tension, the honest move is to **RETIRE the 52/25 M_TOV identification from the falsifiable set** (correcting a non-forced coincidence, NOT dodging a real prediction — the two are distinguished by provenance) — and **verify no shippable paper carries M_TOV = 2.08 as Derived** (Cal already struck it once; confirm before GO). Cal cold-reads.
+
+**Keeper (2026-08-13, ~04:30. I scrubbed the falsifier flagged as the live ~2.4σ tension — precisely because it's the one most likely to be a real problem. It is: the number moved against us, one-sided, and the prediction was never forced. The honest response to a failing non-forced match is to retire it, not defend it. Cal cold-reads. Nothing pushed.)**
+
+## ★ The scrub (current data vs BST)
+| anchor (all pulsar masses are LOWER bounds: NS of mass M ⇒ M_TOV ≥ M) | value | BST 2.08 is |
+|---|---|---|
+| PSR J0740+6620 (mass) | 2.08 ± 0.07 | +0.0σ (AT the floor) |
+| **PSR J0952−0607 (heaviest pulsar)** | **2.35 ± 0.17** | **+1.6σ below** |
+| Fan et al. 2024 inferred M_TOV | 2.25 ± 0.07 | +2.4σ below |
+| 2025–26 consensus M_TOV ~2.2–2.3 | 2.25 ± 0.05 | +3.4σ below |
+
+**The structural problem (why this is worse than a symmetric 2.4σ):** M_TOV is bounded *below* by observed masses. BST predicts M_TOV essentially equals the lowest value still allowed by J0740 — so **every heavier pulsar discovery pushes M_TOV above BST's number.** J0952 (~2.35 M_⊙, a *real* neutron star) already implies M_TOV ≥ 2.35 if its mass holds → BST's 2.08 falsified at ~1.6σ from that object alone, and the trend is monotone against us. This is not a two-sided tension that could relax; it can only tighten.
+
+## ★ Provenance — weak, and that's the deciding factor
+Cal already flagged this (§158, §164): **52/25 has no clean forcing** (52 = 4·13 — 13 is the sin²θ_W denominator, not an obvious M_TOV integer; 25 = n_C²). It was **downgraded to Structural/candidate, explicitly NOT Derived.** So this is a **coincidental small-integer match**, not a forced BST prediction. **That distinction is the whole ruling:**
+- **A *forced* prediction in tension is a feature — you show it, you don't hide it** ([[feedback_no_pause_signaling]] / Cal §164: don't retire to dodge falsification).
+- **A *non-forced* coincidental match that the data kills is a mis-identification — you retire it, because it was never a real prediction.** Retiring 52/25 is *correcting a coincidence*, not dodging.
+- **M_TOV = 52/25 is the second kind.** Weak provenance + one-sided worsening tension ⟹ **retire it from the falsifiable set.** BST loses nothing real (it was never forced); keeping it as a "prediction in tension" would actually *mislead* — it dresses a coincidence as a bold falsifiable stance.
+
+## ★ Pre-shipping check (load-bearing)
+- **Verify NO shippable paper carries M_TOV = 2.08 as Derived.** Cal struck it from the Falsifiable Predictions set (§158/§161/§169) and downgraded it; confirm the current versions reflect that (0× "M_TOV Derived"; either absent or Structural-with-tension-noted). Shipping a weak-provenance number in 1.6–3.4σ one-sided tension *as Derived* is exactly the credibility self-inflicted wound the program guards against.
+- **If it's mentioned at all**, the honest line is: *"the small-integer identification M_TOV = 52/25 is disfavored by current heavy-pulsar data (J0952 ≈ 2.35 M_⊙); we do not bank it."*
+
+## ★ Context — the rest of BST's cosmology sector is healthy (this is the outlier)
+For calibration (don't over-read one failing weak-provenance match as a sector problem): BST's *other* cosmology observables side with the Planck/CMB camp and are doing **fine** — H₀ = 67.3 (0.2σ from Planck), σ_8 = 13/16 (0.18%), S_8 = 5/6 (0.10%), the Hubble-tension ratio 12/13 (0.2%), z_eq (1.2–2.0%) — all Identified-tier small-integer matches, internally consistent, CMB-camp-aligned. **M_TOV is the single outlier, and it's the one with the weakest provenance.** So the scrub verdict is surgical: cut M_TOV, the rest of the cosmology falsifier set stands (ΛCDM-conditional caveats per K1432/K1434).
+
+## Route
+1. **Lyra/Grace — retire M_TOV = 52/25 from the falsifiable set** (weak provenance + one-sided worsening tension); update any note that carries it (BST_Saturday_master_registry, the Falsifiable paper) to "disfavored by J0952, not banked." Feeds #107 → v1.0.
+2. **Cal — confirm no shippable paper carries M_TOV as Derived** (you struck it once; verify it stayed struck) before any GO.
+3. **Keeper — scrub done: M_TOV 2.08 is in worsening one-sided tension (1.6–3.4σ), weak provenance → retire, don't defend; rest of cosmology sector healthy.** Continue the scrub → v1.0 as a lull task.
+
+Sources: [How heavy can a neutron star get? (2026, M_TOV 2.2–2.3)](https://phys.org/news/2026-06-heavy-neutron-star.html); [Multimessenger constraints on max NS mass, MNRAS 526 (2023)](https://academic.oup.com/mnras/article/526/4/6260/7328956); corpus: Cal §158/§164/§169, K1037/K1038.
+
+— Keeper, K1438, 2026-08-13. FALSIFIER SCRUB (#107) M_TOV. BST = 52/25 = 2.08 M_⊙ (weak provenance 52=4·13, Cal-downgraded Structural not Derived). Current: heaviest pulsar J0952−0607 ≈ 2.35±0.17 (LOWER bound), J0740 = 2.08±0.07 (lower bound), inferred/consensus M_TOV 2.2–2.3. BST 2.08 = AT J0740 floor, 1.6σ (J0952) to 3.4σ (consensus) below; ONE-SIDED squeeze (floor only rises with heavier pulsars → can only falsify further, never confirm-tighter). J0952 alone ⇒ M_TOV≥2.35 ⇒ BST falsified ~1.6σ. RULING: weak provenance + non-forced + worsening one-sided tension ⇒ RETIRE the 52/25 identification (correcting a coincidence, NOT dodging — distinguished from a forced prediction by provenance; a forced prediction in tension you SHOW, a non-forced coincidence the data kills you retire). Pre-ship: verify NO paper ships M_TOV=2.08 as Derived (Cal struck it §158/161/169; confirm). Context: rest of BST cosmology healthy + CMB-camp (H₀=67.3 0.2σ, σ_8=13/16 0.18%, S_8=5/6 0.10%, 12/13 Hubble, z_eq 1.2-2%) — M_TOV is the outlier + weakest provenance; surgical cut, rest stands (ΛCDM-conditional). Route: Lyra/Grace retire 52/25 from falsifiable set + update notes; Cal confirm no Derived-M_TOV ships; Keeper scrub done, continue → v1.0. Cal cold-reads. Nothing pushed.

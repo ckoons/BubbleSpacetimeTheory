@@ -115,7 +115,7 @@ The ideal cycle efficiency:
 
 $$\eta = 1 - R = 1 - \frac{\mathrm{rank}}{g} = \frac{n_C}{g} = \frac{5}{7} \approx 71.4\%$$
 
-This is a Carnot analog for vacuum energy extraction. The "hot reservoir" is the Casimir-confined vacuum (high mode density at small $d$); the "cold reservoir" is the Lifshitz-repulsive vacuum (lower mode density). The efficiency is the dimension ratio of $D_{IV}^5$: complex dimension over Bergman genus.
+This is a Carnot analog for vacuum energy extraction. The "hot reservoir" is the Casimir-confined vacuum (high mode density at small $d$); the "cold reservoir" is the Lifshitz-repulsive vacuum (lower mode density). The efficiency is the dimension ratio of $D_{IV}^5$: complex dimension over signature weight.
 
 #### 5.2 Effective Vacuum Temperature
 

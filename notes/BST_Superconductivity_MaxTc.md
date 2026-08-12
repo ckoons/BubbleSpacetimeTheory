@@ -236,7 +236,7 @@ provides the large suppression.
 Casimir-Bergman unit $m_p/(n_C + 1) = 156.4$ MeV. This is not a
 coincidence --- both arise from the ratio $8(n_C + 2)/\alpha =
 8g \times N_{\max}$, which is the channel capacity of the $S^1$ fiber
-times the Bergman genus.
+times the signature weight.
 
 ---
 
@@ -809,7 +809,7 @@ What BST provides is:
    underlies all electron-phonon interactions
 2. The geometric origin of the pairing ($\mathbb{Z}_2$ on $S^1$)
 3. A universal bound on $T_c$ in terms of the pairing energy scale
-   and the Bergman genus ($T_c \leq \Omega/14$)
+   and the signature weight ($T_c \leq \Omega/14$)
 4. A classification of pairing symmetries by Shilov boundary sector
    ($S^1$, $S^2$, $S^4$)
 

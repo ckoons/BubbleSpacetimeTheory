@@ -75,3 +75,14 @@ Extended to transverse D_M/r_d (same source table, with the per-bin D_M–D_H co
 **VERDICT (BAO+CMB): NOT falsified, NOT vindicated — a live, contested <5σ tension that BST SHARES WITH ΛCDM.** BST's no-crossing prediction is disfavored at the same ~3σ ΛCDM is, i.e. the preference is for a *crossing* shape BST (like ΛCDM) doesn't provide. This is HARDER for BST than the clean radial-only survival — reported straight. The field's own systematic-suspicion (SNe low-z/high-z; the <5σ, sample-dependent significance) is the same camp as BST's no-crossing, but the current central data lean toward dynamical/crossing DE. **Caveat:** compressed CMB anchor (single distance, not the full Planck likelihood); the definitive significance is DESI's full analysis, not my fit. Λ Structural; nothing fit to force a match; never "BST derives dark energy."
 
 **Net across both:** radial BAO alone → BST survives clean (χ²/dof=1.0, no crossing in the direct H(z)); BAO+CMB → BST shares ΛCDM's ~3σ tension with the dynamical-DE preference. Both <5σ and contested. Honest, calibrated both ways.
+
+## ★ RE-FIRED on Keeper's AUTHORITATIVE table (K1436, Cobaya ALL_GCcomb) — verdict CONFIRMED (2026-08-12)
+Keeper (K1436) pulled the machine-readable DESI DR2 BAO D_H/r_d + covariance from the Cobaya pipeline files (NOT the ar5iv HTML I used in K1295, NOT the CPL fit). Block-diagonal covariance → the 6 D_H points are mutually independent → diagonal errors, clean.
+
+2-param ΛCDM fit to the 6 verified D_H/r_d points: Ω_m=0.270, χ²=3.80, **χ²/dof = 0.95** (excellent).
+Residuals (data−ΛCDM)/σ: −0.54, −0.98, **+1.31**, +0.57, −0.16, −0.69 (z = 0.51→2.33).
+- Pattern −−++−− = a mid-z bump (max 1.3σ), **NOT** the phantom signature (a single MONOTONE −→+ crossing near z≈0.9).
+- **Monotone-trend test: corr(residual, z) = −0.085 ≈ 0.** Phantom needs corr≈+1; high-z residuals are NEGATIVE (opposite of phantom's + at high z).
+- ⟹ **the DESI phantom crossing is NOT in the model-independent radial D_H(z).** BST's monotone/no-crossing (F799) SURVIVES the radial-BAO probe — now on authoritative Cobaya data with proper covariance.
+
+**Scope (unchanged, honest):** radial-BAO only. Full BAO+CMB(+SNe) still leans dynamical-DE ~3σ (BST shares ΛCDM's tension; K1297); the phantom is SNe+combination-driven, not the direct H(z). Λ Structural; shape Structure-Derived; nothing fit to DESI. **The definitive radial verdict is now on source-verified data — BST not falsified, crossing absent from the most direct H(z) measurement.**

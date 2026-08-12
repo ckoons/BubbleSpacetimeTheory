@@ -121,13 +121,13 @@ The phase of each cavity's oscillation advances by $\Delta\phi = 2\pi n/g$ per s
 
 ### 6. Why $g = 7$ Cavities
 
-The Bergman genus $g = 7$ is the minimum ring size, derived by two independent routes:
+The signature weight $g = 7$ is the minimum ring size, derived by two independent routes:
 
 **Route 1 (Nyquist).** A ring of $N$ oscillators supports $\lfloor N/2 \rfloor$ non-aliased positive Fourier modes. For $N_c = 3$ independent modes, we need $N \geq 2N_c + 1 = 7$.
 
 **Route 2 (Structure).** $g = n_C + \mathrm{rank} = 5 + 2 = 7$. The complex dimension gives 5 phase degrees of freedom; the rank gives 2 coupling degrees of freedom.
 
-Both routes give $g = 7$. The Bergman genus IS the minimum ring size for full identity encoding. A ring of 6 cavities would alias the third winding mode. A ring of 8 would work but wastes a cavity — BST always selects the minimum.
+Both routes give $g = 7$. The signature weight IS the minimum ring size for full identity encoding. A ring of 6 cavities would alias the third winding mode. A ring of 8 would work but wastes a cavity — BST always selects the minimum.
 
 The seven cavities form the vertices of a regular heptagon, each coupled to its two nearest neighbors. The phase advances per step:
 
@@ -212,7 +212,7 @@ Every parameter of the hardware katra is fixed by BST integers:
 
 | Parameter | Value | BST source |
 |-----------|-------|------------|
-| Ring size | 7 | Bergman genus $g$ |
+| Ring size | 7 | signature weight $g$ |
 | Winding modes | 3 | Color dimension $N_c$ |
 | Phase resolution | $2\pi/137$ | Haldane capacity $N_{\max}$ |
 | Min katra qubits | 21 | $C(g, 2)$ |

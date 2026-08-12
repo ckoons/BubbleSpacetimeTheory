@@ -39,7 +39,7 @@ the BST/APG axioms (T1830, Wallach Universality).
 | N_c | 3 | Color count = M_rank (Mersenne, T1930) |
 | n_C | 5 | Complex dim of D_IV⁵ |
 | C_2 | 6 | Quadratic Casimir = first Bergman eigenvalue |
-| g | 7 | Bergman genus = n_C + rank = M_{N_c} |
+| g | 7 | signature weight = n_C + rank = M_{N_c} |
 
 **Derived integers** appearing pervasively:
 - N_max = N_c³·n_C + rank = 137 (spectral cap, fine structure)

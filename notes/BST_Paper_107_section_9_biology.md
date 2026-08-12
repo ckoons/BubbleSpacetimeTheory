@@ -131,7 +131,7 @@ All exact. Tier **D**. The structural identity is
 
 |V_rest| + V_peak = (rank · n_C) · (g + rank²) = 70 + 40 = 110 = (rank · n_C) · c_2,
 
-which is consistent because g + rank² = 7 + 4 = 11 = c_2: the Bergman genus plus the rank square equals the BST eigenvalue level c_2. The voltage swing factors as rank · n_C · c_2, and the resting and peak voltages partition this product as g and rank² respectively.
+which is consistent because g + rank² = 7 + 4 = 11 = c_2: the signature weight plus the rank square equals the BST eigenvalue level c_2. The voltage swing factors as rank · n_C · c_2, and the resting and peak voltages partition this product as g and rank² respectively.
 
 A second BST identity links the cellular and systems scale: the resting potential 70 mV and the resting heart rate 70 bpm are *the same* BST integer expression rank · n_C · g, in *different units*. This is the substrate-independence of the BST integer count: the same five integers control whatever is integer-quantised in the substrate, whether voltage in millivolts or beat frequency in per-minute. Toys 2498 and 2502 verify both.
 

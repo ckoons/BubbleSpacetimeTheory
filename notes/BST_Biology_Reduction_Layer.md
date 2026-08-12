@@ -51,7 +51,7 @@ This document traces that reduction for all 76 theorems. If a bright high-school
 | N5 | Cyclic group Z_N_c | The reading frame: 3 slots that wrap around |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which |
 | N7 | Integer partition / product | Breaking a number into pieces or multiplying pieces |
-| N8 | Bergman genus g = 7 | The spectral gap — maximum independent layers |
+| N8 | signature weight g = 7 | The spectral gap — maximum independent layers |
 | N9 | Casimir C_2 = 6 | The second-order invariant — bits per recognition event |
 | N10 | Dimension dim_R = N_c + g = 10 | Real dimension of D_IV^5 |
 | N11 | Prime factorization | Breaking numbers into primes (e.g., 61 is prime) |
@@ -292,7 +292,7 @@ These are the "total count" theorems that combine everything.
 |------|-----------|-------|----------|
 | 1 | N7: Integer partition / product | 42 | 55.3% |
 | 2 | N4: Powers of 2 | 14 | 18.4% |
-| 3 | N8: Bergman genus g=7 | 10 | 13.2% |
+| 3 | N8: signature weight g=7 | 10 | 13.2% |
 | 4 | N9: Casimir C_2=6 | 10 | 13.2% |
 | 5 | N5: Cyclic group Z_N_c | 6 | 7.9% |
 | 6 | N1: Exterior power Lambda^k | 5 | 6.6% |

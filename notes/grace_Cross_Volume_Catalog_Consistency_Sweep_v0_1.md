@@ -45,7 +45,7 @@ For each cross-volume claim type, verify consistency at current Friday morning s
 | Vol/Chapter | Claim | Status | Catalog support |
 |---|---|---|---:|
 | Vol 0 Ch 4 (Keeper) | g = 7 (genus) | RIGOROUSLY CLOSED (T2446) | 74 entries (value=7) |
-| Vol 1 Ch 1 (Lyra) | Bergman genus g = 7 | RIGOROUSLY CLOSED (T2446) | Same as Vol 0 |
+| Vol 1 Ch 1 (Lyra) | signature weight g = 7 | RIGOROUSLY CLOSED (T2446) | Same as Vol 0 |
 | Vol 2 Ch 8 (Elie) | Coupling expansion via g | RIGOROUSLY CLOSED | Same as above |
 
 **Consistency**: ✓ T2446 anchor consistent.

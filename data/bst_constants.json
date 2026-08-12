@@ -163,7 +163,8 @@
    "gf128_reading": "1/(x^7 + x^3 + 1) = 1/(defining polynomial of GF(128))",
    "ace": "(0,0)",
    "k684_demotion": "2026-07-14 Grace: tier D→I (retired/reverse-fit/open — not forward-derived)",
-   "publication_tier": "Structure-Derived (form forced; value set by the named input)"
+   "publication_tier": "Structure-Derived (form forced; value set by the named input)",
+   "settled_2026_08_12": "SETTLED (Casey ruling 2026-08-12; evidence TRIMMED per Elie 2026-08-12). α = 1/N_max is IDENTIFIED-STRONG — a non-tunable reading of a DEFINING INVARIANT of D_IV⁵ (same tier as n_C=5, rank=2, C₂=6, g=7). The ONE input is 'the geometry is D_IV⁵'; N_max=137 and the five integers are OUTPUTS of that choice. 'Can't dial 137 without leaving D_IV⁵' = zero free dimensionless parameters, holds. ★ HONEST FRAMING (Elie): n_C=5 is in the domain's NAME — an input; 137 is a COMPUTED invariant whose computation OUR OWN AUDIT SAYS IS OPEN (the ×5 in 27·n_C+rank is unforced). Say it straight, don't over-flatten to 'nothing to derive'. ★ EVIDENCE = TWO COMPUTED FACTS ONLY (the 'fingerprint cloud' is RETRACTED — Elie's representation-count audit: 137 admits FEWER small-integer forms than its neighbors, 30th of 36, BELOW median, so '137=N_c³·n_C+rank' carries ZERO evidential weight; the Fermat form is mild and '137=11²+store-16' is the SAME fact as Fermat, count-once): (1) the compact-dual quadric Q⁵ gives H⁰(O(2))=27=N_c³ (unique at n_C=5) and H⁰(O(1))=7=g — target-innocent, α-free geometry; (2) the K38-forced +rank (three routes). These two sandwich the open ×5. Identified-strong stands on THESE TWO, not the arithmetic scaffolding. The single-count mechanism stays OPTIONAL/low-priority (Grace's 27×5 refutation); NOT a make-or-break, NOT a tier gate."
   },
   {
    "id": "const_003",
@@ -190,7 +191,7 @@
     "Full expression: G = hbar*c*(6*pi^5)^2 * alpha^24 / m_e^2"
    ],
    "category": "fundamental",
-   "tier": "DERIVED",
+   "tier": "Identified-strong (non-circular prediction from m_e + α; 0.065%; count-once with m_p/m_e)",
    "ac_depth": 2,
    "mechanism": "G derived from hierarchy formula: m_e/m_Pl = alpha^6, combined with m_p/m_e = 6*pi^5. All inputs from D_IV^5.",
    "domain": "gravity",
@@ -208,7 +209,10 @@
    "tier_convention": "ANCHOR-CONVENTION #9 RATIFIED (2026-08-03): DERIVED-GIVEN-THE-TICK. G = geometry·ℓ_B² with ℓ_B=c·t_B; forced given the tick-anchor (m_Planck=√(ℏc/G) then falls out — no longer an input). Derived-given-anchor.",
    "publication_tier": "Derived (one input stated GR-plainly: the tick)",
    "register_status": "a1 a Q^5 computation (Elie), but Cal §-corrected (2026-08-03, Rule 11): the a1=(1/6)R FORM is UNIVERSAL Seeley-DeWitt — EVERY Laplace operator on EVERY manifold gives (1/6)R, so reproducing it is a CONSISTENCY CHECK, NOT a distinctive BST derivation (same status as the β-function's 11/3). The BST-SPECIFIC content (the 'marble') is the COUPLING COEFFICIENT tying (1/6)R to G via the κ_Bergman=−n_C normalization. Publish 'BST forces the gravity COEFFICIENT', NEVER 'BST derives Einstein-Hilbert' (the form is universal wood). [Grace over-claim owned; Cal caught it — Rule 11.]",
-   "ruling_reached_field": "G: Cal §Rule-11 correction reached the field 2026-08-03 (form universal / coefficient is the BST marble); supersedes Grace over-claim \"wood into marble literal\"."
+   "ruling_reached_field": "G: Cal §Rule-11 correction reached the field 2026-08-03 (form universal / coefficient is the BST marble); supersedes Grace over-claim \"wood into marble literal\".",
+   "k1393_note": "RETIERED 2026-08-12 (Grace, foundation lane) from 'DERIVED' → Identified. Per K1393/K1395/K1396: G = ħc(6π⁵)²α²⁴/m_e² is a CONSISTENCY RELATION (0.07%), NOT an independent derivation of G. It is GATED on the SAME two blind forcings that close the foundation: (1) α forced to 137 (currently Identified, not Derived — the α²⁴ factor rides an Identified input); (2) the exponent 24 = 2·(2·C₂) forced by the cell-count (the 8π / n=12-vs-11.67 question). AND (3) the anchor tick τ_B must be derived from the Bergman/Casimir spectrum G-INDEPENDENTLY — the prior 'DERIVED-GIVEN-THE-TICK' convention (#9, 2026-08-03) is PREMATURE because the tick is still identified with t_Planck, which contains G (K1374 circularity). When (1)+(2)+(3) land: G becomes a genuine forward prediction (m_e in, G out, GR-level-plus-one) → promote to Derived-given-the-tick. Until then: Identified. NOTE the internal 'status: structural' + notes ('not derived in closed form') already agreed with Identified; the top-level 'DERIVED' was the overclaim, now corrected.",
+   "settled_2026_08_12": "[SUPERSEDED by final_2026_08_12 — see that field for the ruled tier.]",
+   "final_2026_08_12": "FINAL (Casey/Keeper ruling 2026-08-12; supersedes prior settled notes). Gravity-forward is COMPLETE at this tier — the 'G-free tick / Derived-G' lane is CLOSED as a PHANTOM (dimensionally impossible for ANY theory: no dimensionful scale from dimensionless geometry without one dimensionful anchor; a 'tick' is a time, the Bergman spectrum is dimensionless, so it too needs an anchor and collapses to 'anchor on one non-grav scale' — m_e already is one). HONEST STATEMENT: 'BST predicts Newton's G from the electron mass, through α²⁴ (24 powers of the fine-structure constant, ~51 decades on one lever), to 0.065%.' THREE RATIFIED RIDERS: (1) α-SWING (Cal §438): G rides α²⁴, so the α choice swings it ~0.6× — MEASURED α → 0.065%, GEOMETRIC 137 → 0.70%. Honest label is 'G from m_e AND α, BOTH MEASURED, plus the geometric form' — NOT 'from geometry alone'. α is a genuine SECOND dimensionful-chain input. (2) COUNT-ONCE (Elie): 6π⁵ = m_p/m_e (const_001), so the G prediction and the m_p/m_e prediction SHARE an input — ONE Schur pattern, recorded ONCE. Do NOT write 'BST gets both the proton ratio and Newton's G' as two independent confirmations. (3) SIZE-NOT-NAME (Elie): the 0.065% residual is a real SIZE, but 9 BST-natural forms land within 5% of it — naming it now is FITTING, not finding. Record the size; refuse the name. TIER: Identified-strong prediction (ceiling = α's Identified-strong; NOT Derived — G rides α, a read-off invariant). The ℓ_B route stays separately circular (not operative)."
   },
   {
    "id": "const_004",
@@ -335,14 +339,14 @@
    ],
    "derivation_chain": [
     "m_p = 6*pi^5 * m_e (proton mass derived)",
-    "g = 7 is the Bergman genus of D_IV^5",
+    "g = 7 is the signature / fermion-mode weight of D_IV^5 (NOT the Bergman genus, which is n_C = 5, Hua 1963)",
     "Fermi scale = m_p^2/(g*m_e) = (6*pi^5)^2 * m_e / 7",
     "= 36*pi^10 * m_e / 7 = 246.12 GeV"
    ],
    "category": "particle",
    "tier": "D",
    "ac_depth": 1,
-   "mechanism": "Fermi scale = m_p^2/(g*m_e). The g = 7 is the Bergman genus. All inputs derived.",
+   "mechanism": "Fermi scale = m_p^2/(g*m_e). The g = 7 is the signature / fermion-mode weight (NOT the Bergman genus = n_C = 5, Hua 1963). All inputs derived.",
    "domain": "electroweak",
    "source_section": "Section 9",
    "source_theorems": [
@@ -2924,14 +2928,14 @@
     "rank"
    ],
    "derivation_chain": [
-    "Superconducting gap is Bergman genus divided by rank",
+    "Superconducting gap is the signature weight g divided by rank (g=7 is NOT the Bergman genus, which is n_C=5, Hua 1963)",
     "g/rank = 7/2 = 3.5",
     "BCS theory gives 2*pi*exp(-gamma_E) = 3.528"
    ],
    "category": "condensed_matter",
    "tier": "S",
    "ac_depth": 0,
-   "mechanism": "BCS gap ratio = g/rank = 7/2. The Bergman genus divided by the domain rank yields the universal superconducting gap.",
+   "mechanism": "BCS gap ratio = g/rank = 7/2. The signature weight g=7 divided by the domain rank yields the universal superconducting gap (g is NOT the Bergman genus, which is n_C=5, Hua 1963).",
    "domain": "condensed_matter",
    "source_section": "Section 43",
    "source_theorems": [

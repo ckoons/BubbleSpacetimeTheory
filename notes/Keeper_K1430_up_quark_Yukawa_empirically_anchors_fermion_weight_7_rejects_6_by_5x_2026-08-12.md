@@ -1,0 +1,35 @@
+# K1430 — the empirical arbiter of the fermion-weight fork: the up-quark Yukawa anchors exponent **7**, and rejects 6 by 5×. ★ y_u = √2·m_u/v = 1.24×10⁻⁵ (PDG m_u = 2.16 MeV at 2 GeV, √2 convention). **n_C⁻⁷ = 5⁻⁷ = 1.28×10⁻⁵ — a 3% match.** The competing exponents miss badly: n_C⁻⁶ = 6.4×10⁻⁵ (5.2× too big — this is Grace's "first-order Dirac +1" value), n_C⁻⁵ = 3.2×10⁻⁴ (26×), n_C⁻⁸ = 2.6×10⁻⁶ (5×). So the data picks 7 uniquely and cleanly, robust across the full mass uncertainty and both conventions. ★ CONSEQUENCE: this is the make-or-break Grace's proton-anchor logic asked for (m_p/m_e = 6π⁵ → C₂ = 6; up-quark Yukawa → fermion weight 7). It (a) **empirically pins the fermion mode weight at 7** (Identified-strong, like the proton anchor), (b) **empirically EXCLUDES Grace's Dirac(+1)→6 mechanism** (6 is 5× off), and (c) tells the geometric derivation it **must** produce **shift = rank = 2** (5 + 2 = 7), not +1 — which is exactly Cal's §445 condition, now forced by data. Lyra's F947 s = 7/2 branch is empirically SUPPORTED. Cal cold-reads.
+
+**Keeper (2026-08-13, ~00:15. Casey said continue; the one decisive open piece was whether the fermion weight is empirically 6 or 7, so I ran the up-quark the way Grace ran the proton. It picks 7 at 3% and kills 6 at 5×. That resolves the fork the geometry couldn't settle alone. Cal cold-reads. Nothing pushed.)**
+
+## ★ The computation
+Standard Yukawa: y_f = √2·m_f/v, v = 246.22 GeV. Up quark, PDG MS-bar at μ = 2 GeV: **m_u = 2.16 (+0.49/−0.26) MeV** → **y_u = 1.24×10⁻⁵** (range [1.09, 1.52]×10⁻⁵).
+
+| exponent p | n_C⁻ᵖ | y_u / n_C⁻ᵖ | off by |
+|---|---|---|---|
+| 5 (scalar genus) | 3.20×10⁻⁴ | 0.039 | 26× |
+| 6 (Grace's Dirac+1) | 6.40×10⁻⁵ | 0.194 | **5.2×** |
+| **7 (fermion weight)** | **1.28×10⁻⁵** | **0.969** | **1.03× (~3%)** |
+| 8 | 2.56×10⁻⁶ | 4.85 | 5× |
+
+**The data picks 7 uniquely.** Exponent 6 (Grace's value) sits ~4–7× above y_u across the full mass-uncertainty and no-√2-convention span; exponent 7 straddles it. The discrimination (5×) is far larger than any scale-running or convention drift, so **the up-quark robustly favors weight 7 over 6.** This independently confirms the K1201/K1213 corpus claim (up-quark Yukawa = n_C⁻⁷) against current data.
+
+## ★ What it resolves (and what it doesn't)
+- **RESOLVES the 6-vs-7 fork empirically.** K1428 sharpened it to: fermionic exponent = 6 (bare first-order Dirac, "why C₂") or 7 (Dirac + a rank-shift, "why g"). **The data says 7.** So the fermion mode weight is 7, anchored — the same tier as m_p/m_e = 6π⁵ anchoring C₂ = 6 (an *observable*, not a fitted convention).
+- **EXCLUDES Grace's Dirac(+1) → 6 mechanism.** Her mechanism (fermionic = first-order Dirac of the scalar-5 Bergman kernel → 6 = C₂) gives y = 6.4×10⁻⁵, **5× too big.** Sound as calculus, wrong as physics — the fermion kernel is *not* the bare first-order Dirac derivative; the spinor lift carries an additional +1.
+- **FORCES the geometric shift = rank = 2.** For 5 + shift = 7, the shift is **rank = 2**, exactly Cal's "the spinor shift must independently equal rank" (§445). The data now *requires* it; the geometric task is to *show* the spinor bundle delivers it (the half-form / metaplectic twist adds +1 on top of the Dirac +1). **Lyra's F947 s = 7/2 (= 7/rank) is the empirically-correct branch.**
+- **What it does NOT do:** it does not *derive* 7 from geometry — it's an Identified-strong empirical anchor (~3%, scale-caveated), like the proton anchor. The geometric derivation (shift = rank from the spinor bundle, via the reproducing condition) is still owed. **If the reproducing condition returns 6, that would be a genuine tension with the data — itself a finding.** The expectation is now sharp: reproducing condition + up-quark data should *both* say 7.
+
+## Honest caveats
+- **Scale:** y_u runs; the match is at μ ≈ 2 GeV (m_u ≈ 2.16 MeV ↔ n_C⁻⁷ ↔ m_u = 2.23 MeV). Which μ is the "geometric" scale is a separate question ([[feedback_running_is_measured_input_predict_at_mu_geo]]) — but the 7-vs-6 discrimination (5×) dwarfs the scale drift, so the *exponent* conclusion is scale-robust even though the *exact* 3% depends on μ.
+- **Convention:** √2 convention gives 3%; no-√2 gives 8.8×10⁻⁶ (still closest to 7, 6 is 7× off). 7 wins either way.
+- **Not fully non-circular:** I can't rule out that the corpus originally *fit* 7 to the up-quark. But the arbiter here is the *data*, which favors 7 over 6 regardless of provenance — and that's what constrains the geometric derivation.
+
+## Route
+1. **★ Lyra — the reproducing condition should now return 7 (s = 7/2), matching the up-quark.** Derive the spinor-bundle shift = rank = 2; if the reproducing condition says 7, "why g = n_C + rank" is earned (data + geometry agree). If it says 6, flag the tension — the data says 7.
+2. **★ Grace — your Dirac(+1) mechanism is empirically excluded** (gives 6 = 5× off the up-quark). The mechanism isn't "Dirac of the Bergman kernel"; the spinor lift adds an independent +1. Fold into the relabel sweep (K1429): scalar Bergman = 5, fermion weight = 7 (up-quark-anchored), shift = rank.
+3. **Elie — corroborate/extend:** does the up-quark-anchored weight-7 extend to the other up-type quarks / the full Yukawa ladder, or is n_C⁻⁷ specific to the up? (I checked only the up.)
+4. **Cal — the binary rubric collapses to one branch:** data forces 7, so the reproducing condition must return 7 and the spinor shift must be rank; reject any 6. Fold into the F947 cold-read.
+5. **Keeper — ran the empirical arbiter; fork resolved to 7; Grace's mechanism excluded; geometric shift forced to rank=2.** Recused from the reproducing derivation.
+
+— Keeper, K1430, 2026-08-13. EMPIRICAL ARBITER of the fermion-weight fork: up-quark Yukawa y_u = √2·m_u/v = 1.24e-5 (PDG m_u=2.16 MeV @2GeV) vs n_C⁻⁷ = 5⁻⁷ = 1.28e-5 = 3% MATCH; n_C⁻⁶ = 6.4e-5 (5.2× too big = Grace's Dirac+1 value), n_C⁻⁵ = 3.2e-4 (26×), n_C⁻⁸ (5×). Data picks 7 UNIQUELY + robustly (5× discrimination >> scale/convention drift); confirms K1201/K1213 up-quark = n_C⁻⁷ vs current data. RESOLVES K1428 fork → fermion mode weight = 7 (Identified-strong empirical anchor, like m_p/m_e=6π⁵ anchors C₂=6). EXCLUDES Grace's first-order-Dirac(+1)→6 mechanism (5× off). FORCES geometric shift = rank = 2 (5+2=7, Cal §445 condition now data-required); Lyra F947 s=7/2 = empirically-correct branch. Does NOT derive 7 (Identified not Derived; geometric shift-from-spinor-bundle still owed via reproducing condition; if reproducing says 6 that's a data-tension finding). Caveats: scale (match @2GeV, exponent-discrimination scale-robust); convention (√2 gives 3%, no-√2 still favors 7); not fully non-circular (data is the arbiter regardless of provenance). Route: Lyra reproducing condition should return 7=s=7/2 (derive shift=rank; flag if 6); Grace Dirac(+1)→6 EXCLUDED, fold into relabel sweep (scalar 5/fermion 7/shift rank); Elie extend to other up-type quarks; Cal rubric collapses to 7, reject 6; Keeper ran arbiter, fork resolved, recused. Cal cold-reads. Nothing pushed.

@@ -70,9 +70,9 @@ The Hermitian symmetric domain D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] is the unique 
 
 The Bergman kernel on D_IV⁵ (T2334) has the closed form
 
-    K_B(z, w̄) = c · D(z, w̄)^{-g/rank} = c · D(z, w̄)^{-7/2}
+    K_B(z, w̄) = c · D(z, w̄)^{-n_C} = c · D(z, w̄)^{-5}
 
-where g = 7 and the exponent -g/rank = -7/2 is the BST primary signature in the kernel itself. The Bergman metric g_{ij̄} = ∂_i ∂_j̄ log K_B is Kähler-Einstein with scalar curvature
+where the scalar Bergman-kernel exponent is the **Faraut–Koranyi genus = n_C = 5** (Hua 1963). [CORRECTION 2026-08-12 (Grace, Keeper-directed): earlier drafts wrote the exponent as −g/rank = −7/2. That is NOT the scalar Bergman genus — the Bergman genus of the rank-2 Lie ball is n_C = 5 (Hua's direct computation), *not* g/rank. The −7/2 = −g/rank is the **fermionic (Dirac-lifted) reproducing weight**, a *different* object whose exact value (7/2 vs 3) is the open reproducing-condition fork (K1424/K1425); it belongs to the Dirac kernel below, not to the scalar K_B. Do not conflate the scalar genus with the fermion weight — this was the root of the 7/2 tangle. @Lyra: the KE scalar-curvature line and the exact D-normalization should be re-derived against genus = n_C = 5.] The Bergman metric g_{ij̄} = ∂_i ∂_j̄ log K_B is Kähler-Einstein with scalar curvature
 
     R = -n_C · g = -35
 

@@ -73,7 +73,7 @@ The BST integer ladder as arithmetic thresholds in ℤ[φ, ρ]:
 Below g: pure quantum primitives {2, 3, 5}. The interval [7, 137]: matter realm where ρ-arithmetic is active. Above 137: beyond the spectral cap.
 
 **This gives g = 7 its sixth structural characterization** (Toy 1223, 10/10 PASS — ONLY integer in [2,20] satisfying all six):
-1. Bergman genus of D_IV^5
+1. signature weight of D_IV^5
 2. rank² + N_c = 4 + 3 (T186, combinatorial)
 3. 7-smooth boundary (Dirichlet / N-smooth hierarchy)
 4. Spectral: 2g + 1 = 15

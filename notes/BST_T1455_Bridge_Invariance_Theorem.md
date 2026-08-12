@@ -27,7 +27,7 @@ All four derive from the SAME Bergman kernel evaluation: the genus-to-Casimir ra
 ## The Geometric Origin
 
 On D_IV^5:
-- **g = 7** = Bergman genus = n_C + rank. Controls the boundary decay: K(z,z) ~ d(z, boundary)^{-2g}
+- **g = 7** = signature weight = n_C + rank. Controls the boundary decay: K(z,z) ~ d(z, boundary)^{-2g}
 - **C_2 = 6** = first Bergman eigenvalue = rank x N_c. Controls the spectral gap: lambda_1 = C_2
 
 The ratio g/C_2 = (boundary decay rate)/(spectral gap) measures the competition between boundary expansion and bulk confinement.

@@ -228,7 +228,7 @@ The rational part of C_3 arises from the volume term:
       = 7 x 11 x 367 / (3 x 1728) = 28259/5184
 
 The numerator factorizes into three BST quantities:
-- g = 7: the Bergman genus, entering because the 3-loop kernel has genus-weighted volume normalization.
+- g = 7: the signature weight, entering because the 3-loop kernel has genus-weighted volume normalization.
 - 2C_2 - 1 = 11: the spectral gap Delta = N_max - lambda_9 = 137 - 126. Its appearance as a multiplicative factor at L = 3 means the 3-loop vertex kernel probes the spectral boundary — the room between the last eigenvalue and the spectral cap.
 - rank^3 x N_c^2 x n_C + g = 360 + 7 = 367: the genus-shifted mode count of the compact-times-Cartan product space.
 
@@ -352,7 +352,7 @@ The correspondence is exact because D_IV^5 has exactly three odd prime structura
 
   N_c = 3 (short root multiplicity)
   n_C = 5 (complex dimension)
-  g = 7 (Bergman genus)
+  g = 7 (signature weight)
 
 The remaining structural integers rank = 2 (the only even prime, appearing at L = 1 as the denominator of C_1 = 1/2) and C_2 = 6 = rank x N_c (composite, never a zeta argument) do not generate new zeta values. The spectral cap N_max = 137 is prime but lies above the zeta argument range — it controls the expansion parameter alpha, not the transcendental content.
 
@@ -669,7 +669,7 @@ Position n = 3 has DOF = g = 7, but g is the Bergman genus — the exponent of t
 
 This cycle has period N_c = 3, matching the speaking pair period n_C = 5 of the heat kernel: both are manifestations of the same five-integer structure at different scales.
 
-**Connection to the integer filtration (T1463).** The Pontryagin distillation shows that forgetting complex structure projects Q^5 onto its real characteristic classes, which see only N_c. The genus bottleneck occurs at DOF = g, the Bergman genus — the invariant that controls the *complex-analytic* structure. Forgetting this structure (passing to Pontryagin) is precisely what the genus bottleneck accomplishes spectrally: it removes the g-dependent anchor and forces content through the N_c-colored sector. The genus bottleneck IS the Pontryagin distillation at the spectral level.
+**Connection to the integer filtration (T1463).** The Pontryagin distillation shows that forgetting complex structure projects Q^5 onto its real characteristic classes, which see only N_c. The genus bottleneck occurs at DOF = g, the signature weight — the invariant that controls the *complex-analytic* structure. Forgetting this structure (passing to Pontryagin) is precisely what the genus bottleneck accomplishes spectrally: it removes the g-dependent anchor and forces content through the N_c-colored sector. The genus bottleneck IS the Pontryagin distillation at the spectral level.
 
 (Toys 1557-1559, 17/18 PASS. The genus bottleneck mechanism is I-tier pending the L = 5 prediction. The algebraic structure — Chern classes, DOF values, and the spectral gap at g — is D-tier.)
 

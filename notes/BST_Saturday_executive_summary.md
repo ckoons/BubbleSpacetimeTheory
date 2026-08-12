@@ -80,7 +80,7 @@ Five independent dimensionless observations + one D-tier topological identificat
 | **N_c = 3** | Quark colors, 3 generations, BA network γ |
 | **n_C = 5** | Atom complex dim, n_C·rank² FQHE Pfaffian, m_τ/m_μ |
 | **C_2 = 6** | Casimir, dice die, ζ(2) denominator |
-| **g = 7** | Bergman genus, BCS gap, sun light deflection |
+| **g = 7** | signature weight, BCS gap, sun light deflection |
 | **rank³ = 8** | Bott periodicity (real K-theory), nuclear magic 8 |
 | **c_2 = 11** | Solar cycle, ν=1/n_C=5/11 PMNS, Wallach c_2 |
 | **c_3 = 13** | mtDNA gene count, second Chern Q⁵, ν=1/g=6/13 |

@@ -74,7 +74,7 @@ If the theorem graph has D_{IV}^5 structure, it means:
 | Property | Value | BST integer |
 |----------|-------|-------------|
 | $\lambda_2/\lambda_1$ | 3.000 | $N_c$ |
-| $\chi_{\text{domain}}$ | 7 | $g$ (Bergman genus) |
+| $\chi_{\text{domain}}$ | 7 | $g$ (signature weight) |
 | Diameter | 12 | $2C_2 = N_c \times 2^{\text{rank}}$ |
 | Communities | 8 | $|W(B_2)| = 2^{N_c}$ |
 

@@ -15,7 +15,7 @@ Needed suppression = 0.041/0.154 = **0.265**. Computed (r_s = 0.5 from the ν=3/
 | exponent p | r_b that lands V_cb = 0.041 |
 |---|---|
 | 3/2 (= Δ, Gate-0 same-ν angular weight) | r_b = 0.916 |
-| 5 (scalar Bergman genus) | r_b = 0.792 |
+| 5 (scalar signature weight) | r_b = 0.792 |
 | 7 (fermion mode weight, K1213) | r_b = 0.758 |
 **The mechanism WORKS** — the b-at-boundary suppression genuinely brings 1/√42 down to 0.041. **But it is RADII-SENSITIVE:** the exact landing needs a specific r_b for each exponent. So V_cb is **forced iff r_b (the b-quark's Shilov-tip radius at ν=0) is pinned from the discrete series independently.** If I pick r_b to hit 0.041, that is a fit (the 44/45-suffix fit-tell) — I do NOT do that. **The bridge stays CANDIDATE until r_b is source-pinned.**
 

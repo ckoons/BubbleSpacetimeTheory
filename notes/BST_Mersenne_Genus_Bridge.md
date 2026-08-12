@@ -17,7 +17,7 @@ AC: "(C=1, D=0)"
 
 **Theorem (T891).** *The identity $2^{N_c} - 1 = g$ — equivalently, the Mersenne condition $M_{N_c} = g$ where $M_r = 2^r - 1$ — is a structural invariant of $D_{IV}^5$ that simultaneously determines:*
 
-1. *The Bergman genus $g = 7$ of the bounded symmetric domain (Lie geometry)*
+1. *The signature weight $g = 7$ of the bounded symmetric domain (Lie geometry)*
 2. *The length $n = 7$ of the unique smallest perfect binary code (coding theory)*
 3. *The block size $n = 7$ of the Steane quantum error-correcting code (quantum computing)*
 4. *The clause survival fraction $g/2^{N_c} = 7/8$ of random $N_c$-SAT (complexity theory)*
@@ -34,7 +34,7 @@ AC: "(C=1, D=0)"
 From the restricted root system $B_2$ of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$:
 
 $$N_c = 3 \quad (\text{short root multiplicity}), \qquad n_C = 5 \quad (\text{complex dimension})$$
-$$g = 2n_C - N_c = 2(5) - 3 = 7 \quad (\text{Bergman genus})$$
+$$g = 2n_C - N_c = 2(5) - 3 = 7 \quad (\text{signature weight})$$
 
 ### Step 1: The Mersenne condition
 
@@ -50,7 +50,7 @@ The Tietäväinen–van Lint theorem (1973): the only non-trivial perfect binary
 
 Setting $r = N_c = 3$: the Hamming code becomes $[2^{N_c} - 1, 2^{N_c} - 1 - N_c, 3] = [g, 2^{\mathrm{rank}}, N_c]$.
 
-The block length $n = g$ is the Bergman genus. The dimension $k = 2^{\mathrm{rank}}$ is the Weyl chamber count. The distance $d = N_c$ is the color number. Three BST integers, one code.
+The block length $n = g$ is the signature weight. The dimension $k = 2^{\mathrm{rank}}$ is the Weyl chamber count. The distance $d = N_c$ is the color number. Three BST integers, one code.
 
 ### Consequence 2: Quantum error correction (quantum computing)
 
@@ -122,7 +122,7 @@ $(C = 1, D = 0)$. One counting step: verify $2^3 - 1 = 7$. Zero definitions — 
 
 ## Why This Matters
 
-Most cross-domain connections in mathematics are analogies: "X is LIKE Y." The Mersenne-genus bridge is not an analogy. The Hamming code has $n = 7$ because $2^3 - 1 = 7$. The Bergman genus is $g = 7$ because $2(5) - 3 = 7$. These are the SAME 7, forced by the SAME equation, derived from the SAME root system. The bridge is not metaphorical — it is arithmetic.
+Most cross-domain connections in mathematics are analogies: "X is LIKE Y." The Mersenne-genus bridge is not an analogy. The Hamming code has $n = 7$ because $2^3 - 1 = 7$. The signature weight is $g = 7$ because $2(5) - 3 = 7$. These are the SAME 7, forced by the SAME equation, derived from the SAME root system. The bridge is not metaphorical — it is arithmetic.
 
 The five-domain span — from abstract Lie group geometry through information theory, quantum computing, and computational complexity — is remarkable at any depth. At depth 0, it is extraordinary. One equation. Five fields. Zero definitions.
 

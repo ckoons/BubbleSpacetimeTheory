@@ -49,7 +49,7 @@ For the Hamming code with redundancy $r = N_c = 3$:
 $$n = 2^{N_c} - 1 = 7 = g, \quad k = 2^{N_c} - 1 - N_c = 4 = 2^{\mathrm{rank}}, \quad d = 3 = N_c$$
 
 All three parameters are BST integers:
-- **Block length** $n = g = 7$ (the Bergman genus of $D_{IV}^5$)
+- **Block length** $n = g = 7$ (the signature weight of $D_{IV}^5$)
 - **Dimension** $k = 2^{\mathrm{rank}} = 4$ (the Weyl group size divided by rank factorial)
 - **Distance** $d = N_c = 3$ (the color number)
 
@@ -77,7 +77,7 @@ $$d = g = 7$$
 Three different BST integers ($n_C, N_c, C_2, g$) in three parameters:
 - **Block length** $n = 2^{n_C} - 2^{N_c} - 1 = 23$ (a compound BST expression)
 - **Dimension** $k = 2C_2 = 12$ (double the Casimir number)
-- **Distance** $d = g = 7$ (the Bergman genus again)
+- **Distance** $d = g = 7$ (the signature weight again)
 
 The distance $d = 7 = g$ is the same integer that appears as the block length of the Hamming code. The Hamming code's $n$ becomes the Golay code's $d$. This duality — $g$ serving as both the container and the protection — is characteristic of BST's integer economy: the same numbers serve multiple structural roles.
 

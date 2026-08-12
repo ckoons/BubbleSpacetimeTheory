@@ -55,7 +55,7 @@ This is the empirical signature of physical uniqueness (T1269): an integer with 
 | **rank² = 4** | Data bits | 5 | 2²; Hamming dimension (T1171); generation count; rank² in 137 = 11² + 4²; Bernoulli ladder rungs (T1198) |
 | **n_C = 5** | Complex dimension | 7 | D_IV^5 dim; pentatonic (T1237); n_C! = 120 in 137 decomp; visible spectrum bands; median graph degree (T1196); 5 mass extinctions (T1182); 5 nucleobases |
 | **C₂ = 6** | Casimir | 4 | Casimir def; Wolstenholme B₂ = 1/6 (T1263); heat kernel column rule (T531); Gauss-Bonnet χ = 6 (T1277, Toy 1214) |
-| **g = 7** | Bergman genus | 7 | D_IV^5 genus; Hamming code length (T1171); rank² + N_c (Mersenne); diatonic (T1227); crystal systems; g³ = θ_D(Cu) (T1139); PMNS sin²θ₂₃ = 4/g (T1254) |
+| **g = 7** | signature weight | 7 | D_IV^5 genus; Hamming code length (T1171); rank² + N_c (Mersenne); diatonic (T1227); crystal systems; g³ = θ_D(Cu) (T1139); PMNS sin²θ₂₃ = 4/g (T1254) |
 | **11** | Dark boundary | 6 | First prime > g; 2n_C+1; 11² in N_max (Fermat); B_8 first non-7-smooth (T1198); Wolstenholme W_p ≠ 1; 11/8 first dark consonance (T1227) |
 | **12 = C₂·rank** | Spectral gap | 5 | Spectral gap λ₁ (T1240); Bergman d_2 multiplier; heat kernel coeff at k=2; chromatic semitones (T1227); Steane stabilizers |
 | **21 = C(g,2)** | Genus pairs | 4 | C(7,2); 21 amino acids (T333); tick hierarchy (T1152); a₁₅ = -21 (Toy 622) |
@@ -102,7 +102,7 @@ The slogan Casey approved is the right title for the section. The pattern itself
 
 In a "fitted" theory, you measure a number and find that it's whatever you needed it to be. In an "overdetermined" theory, you derive a number from one calculation, then derive the SAME number from a completely different calculation, then derive it from a third one — and they all agree.
 
-Every number in BST is overdetermined. The genus g = 7 isn't just the Bergman genus of D_IV^5 — it's also the smallest Hamming code length, the diatonic scale count, the Debye temperature of copper divided by certain factors, the speed of sound through atomic vibrations, and the count of crystal systems. These are five different mathematical worlds. They all give 7. Not approximately 7. Exactly 7.
+Every number in BST is overdetermined. The genus g = 7 isn't just the signature weight of D_IV^5 — it's also the smallest Hamming code length, the diatonic scale count, the Debye temperature of copper divided by certain factors, the speed of sound through atomic vibrations, and the count of crystal systems. These are five different mathematical worlds. They all give 7. Not approximately 7. Exactly 7.
 
 If 7 weren't the right number for the universe, at least one of these would fail. None do. That's not luck. That's the geometry telling us what the integer must be, said five different ways.
 

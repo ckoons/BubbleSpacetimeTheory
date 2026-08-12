@@ -172,7 +172,7 @@ Each element has a specific geometric interpretation:
 | 3 | N_c | minimum dimension of Q⁵ ⊂ ℂP⁶ supporting confinement |
 | 5 | n_C | complex dimension of D_IV⁵ |
 | 6 | C_2 | dimension of B₂ root system Casimir / SU(2) sector dim |
-| 7 | g | Bergman genus of D_IV⁵ |
+| 7 | g | signature weight of D_IV⁵ |
 | 11 | c_2 | first Chern integer of Q⁵, c_2 = rank·n_C + 1 |
 | 13 | c_3 | second Chern integer of Q⁵, c_3 = N_c + rank·n_C |
 | 17 | seesaw | top Chern integer of Q⁵, c_5 = N_c³ − rank·n_C |

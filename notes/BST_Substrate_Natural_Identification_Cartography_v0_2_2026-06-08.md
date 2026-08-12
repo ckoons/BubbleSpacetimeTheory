@@ -174,13 +174,13 @@ Selectors {1, rank, N_c} = {1, 2, 3} substantively are **1 + the two prime facto
 
 | Identification | Substrate-natural form | Tier | Source |
 |---|---|---|---|
-| Gravity coupling G | κ_Bergman · ℓ_B²/π^{n_C} | DERIVED via Sakharov + KK reduction (consistency-closed; ℓ_B = Planck anchor) | F60-F64 / K250-K255 / Toy 4030 |
+| Gravity coupling G | κ_Bergman · ℓ_B²/π^{n_C} | **Identified (consistency relation, 0.07%), NOT independently Derived** — gated on α=137 + exponent forcings (K1395/K1396). ℓ_B = the SUBSTRATE scale = √(π⁵/n_C)·ℓ_Planck (K1395), NOT ℓ_Planck | F60-F64 / K250-K255 / Toy 4030 |
 | Einstein equation | INDUCED via Sakharov a_1 = Einstein-Hilbert | DERIVED (Sakharov inherited universal) | F63 / K255 |
 | Source side T_μν | ρ_commit = K_τ(x,x) heat-kernel diagonal | CANDIDATE | F60 / K250 |
 | Reduction substrate→3+1 | KK-flavored via Casey #14 | DERIVED | F64 / K255 |
 | Mass + gravity volume duality | Same π^{n_C} in mass numerator AND G denominator | I-tier identification | K257 v0.2 / F65 |
 | Gravity weakness mechanism | G = inverse bulk volume; 1/π^{n_C} ≈ 1/306 | I-tier identification | K257 v0.2 |
-| ℓ_B = Planck length anchor | Single dimensionful input every theory takes | Identification per Lyra reframe | K257 v0.2 |
+| ℓ_B = the SUBSTRATE scale (= √(π⁵/n_C)·ℓ_Planck ≈ 7.82·ℓ_Planck), the ONE dimensionful input; ℓ_Planck & M_Planck DERIVED from it via √(π⁵/n_C) | Single dimensionful input every theory takes (canonical face = the tick τ_B; a length symbol never wears a mass value) | K1395 (corrects K257 v0.2: anchor is substrate scale, NOT ℓ_Planck) | K1393/K1395 |
 | Gravity Step 3 O(1) coefficient | π⁴/80 ≈ 1.22 (16π) or π⁴/40 ≈ 2.44 (8π) | I-tier consistency closure | Toy 4030 |
 
 ## 9. Dual-ρ mechanism + EM/gravity boundary-bulk *(K266 + K267 updated)*

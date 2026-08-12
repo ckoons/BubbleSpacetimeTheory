@@ -38,7 +38,7 @@ The bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] is characterized
 |--------|-------|------|
 | N_c | 3 | Color dimension |
 | n_C | 5 | Complex dimension |
-| g | 7 | Bergman genus |
+| g | 7 | signature weight |
 | C_2 | 6 | Casimir eigenvalue |
 | rank | 2 | Real rank |
 

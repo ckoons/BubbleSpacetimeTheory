@@ -2377,6 +2377,28 @@
    "related_constants": "alpha, m_p_over_m_e",
    "tier": "S",
    "ace": "General no-drift = Structural (follows from the fixed-integer foundation). The nucleation-BRANCH ν-invariance (Δα/α=0 across BH-center↔Big-Bang branches, F888) is the Framework/Candidate sharpening, HELD — filed as a clean falsifier, not a derived cosmology. [Grace 2026-08-10, Lane-2 gem]"
+  },
+  {
+   "id": "pred_125",
+   "name": "No phantom crossing in the geometric H(z) — BST dark-energy forward-falsifier",
+   "category": "forward_falsifier",
+   "prediction": "BST's dark-energy equation of state w(a) is COMPLETELY-MONOTONE (F799, Bernstein-class), relaxing to −1 FROM ABOVE (w > −1, wₐ > 0). Complete-monotonicity structurally FORBIDS w crossing −1. Since H(z) is fixed by w(a) via the Friedmann equation, BST forbids a phantom crossing (w<−1) to appear in the direct/geometric Hubble rate H(z). Corollary: any real phantom-crossing signal must live where a SYSTEMATIC can hide (SNe low-z/high-z calibration), NOT in the geometric H(z).",
+   "bst_value": "w(a) monotone, w>−1, no crossing in H(z); residual of D_H(z) from ΛCDM is one-sign / monotone (never a −→+ sign-flip through z≈0.9).",
+   "current_measurement": "DESI DR2 radial BAO D_H/r_d (6 bins, Cobaya ALL_GCcomb, K1436): ΛCDM fit χ²/dof=0.95, residual corr(z)=−0.08, NO phantom crossing in H(z) — CONSISTENT with BST (T2559). The DESI phantom headline (BAO+CMB+SNe, ~3σ, wₐ<0) is driven by SNe+combination, NOT the direct H(z).",
+   "experiment": "DESI DR3 radial BAO; future BAO (Euclid, DESI-II); model-independent H(z) reconstruction; CMB-S4. The clean test = the model-independent binned D_H(z)/r_d monotonicity (Grace radial discriminator, grace_A1), NOT the CPL w0wa fit (circular).",
+   "timeline": "DESI DR3 (2025-2026), Euclid, CMB-S4 (~2030s).",
+   "falsification_criterion": "A phantom crossing (w<−1) found in the MODEL-INDEPENDENT geometric H(z) / radial BAO D_H(z) — i.e. a monotone −→+ sign-flip in the D_H residual near z≈0.9 that survives model-independent reconstruction — FALSIFIES BST by its own kill condition (F799 complete-monotonicity forbids it). BST's teeth: it forbids the crossing SPECIFICALLY in H(z), so the crossing must NOT migrate from the SNe+combination into the direct Hubble rate.",
+   "impact_if_falsified": "Kills BST's completely-monotone w(a) (F799) and the pure-positive-time / no-antiuniverse cosmology (T2553); the substrate's monotone bleed-to-floor mechanism (K1040) fails. High impact — a load-bearing structural prediction.",
+   "status": "CONFIRMED so far on the radial BAO (no crossing in H(z), T2559); SHARED ~3σ tension with ΛCDM on the full SNe+CMB combination (the phantom is SNe-driven). Forward: DR3 H(z) must stay crossing-free. The SNe-side residual analysis (does BST-monotone H(z) + a low-z/high-z SNe offset reconcile the combination?) earns the fuller BST-distinctive claim when the SNe data is in hand.",
+   "bst_integers_used": [
+    "C_2"
+   ],
+   "source_section": "F799 (completely-monotone w(a)); K1040 (w=−1 floor); T2559 (radial survival); grace_A1 (discriminator); K1436 (DESI data)",
+   "related_constants": [
+    "const_100"
+   ],
+   "tier": "Structure-Derived (the no-crossing shape is F799-forced; target-innocent, never fit to DESI). Forward-falsifier with a sharp geometric kill condition.",
+   "ace": "(0,1)"
   }
  ]
 }

@@ -214,7 +214,7 @@ These are committed predictions. The formula is deterministic. The question is: 
 
 $42 = 2 \times 21 = 2 \times \dim SO(7) = \text{rank} \times \dim SO(g)$.
 
-Elie's Toy 632 identifies this independently as $C_2 \times g = 6 \times 7$, i.e., the second Casimir eigenvalue times the Bergman genus. These are two valid factorizations of the same number.
+Elie's Toy 632 identifies this independently as $C_2 \times g = 6 \times 7$, i.e., the second Casimir eigenvalue times the signature weight. These are two valid factorizations of the same number.
 
 **Representation-theoretic candidates:**
 - $42 = \dim \Lambda^3(\mathbb{R}^9)$, the third exterior power of 9 dimensions -- connecting to $N_c^2 = 9$.

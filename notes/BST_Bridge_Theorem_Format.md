@@ -137,13 +137,13 @@ The "costume" here is: physicists write Tr(exp(-t*Delta)) and call the coefficie
 
 **STRUCTURE**: The spectral gap of D_IV^5 is the smallest nonzero eigenvalue of the Laplace-Beltrami operator Delta on the domain. For a bounded symmetric domain of type IV, the spectral gap is determined by the root system.
 
-**LANDMARKS**: The Bergman genus g = 7 (= C₂+1; Coxeter number h=6=C₂) names the spectral gap. Specifically, the gap equals g times a geometric constant depending on the curvature normalization. The number 7 counts the maximum number of independent reflections -- equivalently, the maximum number of independent spectral layers the domain supports before the next layer is forced to repeat information from the first.
+**LANDMARKS**: The signature weight g = 7 (= C₂+1; Coxeter number h=6=C₂; Bergman genus proper = n_C=5, Hua 1963) names the spectral gap. Specifically, the gap equals g times a geometric constant depending on the curvature normalization. The number 7 counts the maximum number of independent reflections -- equivalently, the maximum number of independent spectral layers the domain supports before the next layer is forced to repeat information from the first.
 
 **READING**: Shannon's protocol layering (S8) says: independent error-checking layers can be stacked, and total reliability is the product of layer reliabilities. The spectral gap determines HOW MANY independent layers the domain supports. If g = 7, there are at most 7 independent protocol layers before redundancy forces coupling between layers.
 
-**PROCESS**: The Fourier reader here is the Harish-Chandra spherical transform, which decomposes functions on D_IV^5 into spherical harmonics labeled by the root system. The spectral gap separates the zero mode (constant functions, no information) from the first informative mode. The Bergman genus g counts the number of independent root hyperplanes, each of which supports one independent spectral layer.
+**PROCESS**: The Fourier reader here is the Harish-Chandra spherical transform, which decomposes functions on D_IV^5 into spherical harmonics labeled by the root system. The spectral gap separates the zero mode (constant functions, no information) from the first informative mode. The signature weight g counts the number of independent root hyperplanes, each of which supports one independent spectral layer.
 
-The bridge: the spectral gap (geometric) is named by the Bergman genus (number-theoretic), and the Shannon reading is that g = 7 independent protocol layers exist. This is not "the spectral gap IS protocol layering." It is: the spectral gap provides the geometric terrain, the Bergman genus names the landmark (7 independent directions), and protocol layering reads this as 7 independent channels.
+The bridge: the spectral gap (geometric) is named by the signature weight (number-theoretic), and the Shannon reading is that g = 7 independent protocol layers exist. This is not "the spectral gap IS protocol layering." It is: the spectral gap provides the geometric terrain, the signature weight names the landmark (7 independent directions), and protocol layering reads this as 7 independent channels.
 
 **PROPAGATION**:
 - T452-T467 (Biology): the 7-layer genetic code structure (reading frame x codon layers) gains a spectral derivation
@@ -151,7 +151,7 @@ The bridge: the spectral gap (geometric) is named by the Bergman genus (number-t
 - Cooperation threshold: the 7 independent layers limit the depth of cooperative strategies
 - Fills adjacency gaps: (N8,G3) partially via the spectral function, (S8,N8) directly, (S8,G10) directly
 
-**Depth**: 0. The Bergman genus is a definition (read it from the root system). Protocol layering count = Bergman genus is a recognition, not a computation. No counting beyond reading the root system.
+**Depth**: 0. The signature weight is a definition (read it from the root system). Protocol layering count = signature weight is a recognition, not a computation. No counting beyond reading the root system.
 
 ---
 

@@ -26,7 +26,7 @@ For $D_{IV}^n$, the fundamental quantities are:
 |--------|---------|-----------|------|
 | $N_c$ | $n - 2$ | 3 | Colors (short root multiplicity) |
 | $n_C$ | $n$ | 5 | Complex dimension |
-| $g$ | $2n - 3$ | 7 | Bergman genus (= Coxeter number of $B_r$) |
+| $g$ | $2n - 3$ | 7 | signature weight $p+q$ (NOT the Bergman genus = $n_C=5=h^\vee$, nor the Coxeter number $h=6=C_2$; Hua 1963) |
 | $C_2$ | $n + 1$ | 6 | Quadratic Casimir / spectral gap |
 | $N_{\max}$ | $H_n \cdot \mathrm{lcm}(1,\ldots,n)$ | 137 | Spectral maximum |
 
@@ -98,7 +98,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Selecting equation.* $11(n-2)/3 - 2N_f/3 = 2n - 3$, with $N_f = 6$ (Standard Model).
 
-*Proof sketch.* Substituting $N_c = n - 2$ and $N_f = 6$: $11(n-2)/3 - 4 = 2n - 3$, so $11n - 22 - 12 = 6n - 9$, giving $5n = 25$, hence $n = 5$. The one-loop $\beta$-function of QCD with six quark flavors has its coefficient equal to the Bergman genus $g = 7$ precisely when $N_c = 3$. Asymptotic freedom ($\beta_0 > 0$) requires $N_c > 6/11 \times N_f/N_c$, automatically satisfied.
+*Proof sketch.* Substituting $N_c = n - 2$ and $N_f = 6$: $11(n-2)/3 - 4 = 2n - 3$, so $11n - 22 - 12 = 6n - 9$, giving $5n = 25$, hence $n = 5$. The one-loop $\beta$-function of QCD with six quark flavors has its coefficient equal to the signature weight $g = 7$ precisely when $N_c = 3$. Asymptotic freedom ($\beta_0 > 0$) requires $N_c > 6/11 \times N_f/N_c$, automatically satisfied.
 
 *Source:* `BST_NumberTheory_Integers.md` Section 5
 

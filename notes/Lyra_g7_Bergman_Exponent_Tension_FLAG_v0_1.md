@@ -122,7 +122,7 @@ This flag requires reconciliation, NOT unilateral resolution:
 - π^{9/2} consistent with real dim 10 (complex dim 5)
 
 **What this flag establishes**:
-- g = 7 is NOT the standard Faraut-Korányi Bergman genus (which is 5 = n_C)
+- g = 7 is NOT the standard Faraut-Korányi signature weight (which is 5 = n_C)
 - g = 7 = signature total p+q (different intrinsic invariant)
 - Route A re-anchored: n_C = genus/Bergman-exponent; g = signature total
 - Route A reduction SURVIVES with corrected anchoring (both invariant-anchored)

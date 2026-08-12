@@ -64,7 +64,7 @@ The constant is famously slow to converge — even the best modern numerical est
 
 B = (rank · c_3 − g) / (n_C · rank) = (26 − 7) / 10 = 19 / 10 = 1.9,
 
-agreement at 0.11 %. Tier **I**. The mechanism is that 19 = rank · c_3 − g is a small BST seesaw combination (twice the c_3 = 13 third Chern integer, minus the Bergman genus g = 7), and 10 = n_C · rank is the BST decimal unit. The structural content is that Brun's constant is *the same 19/10 ratio* that appears in several other BST contexts: it is the seesaw integer 17 lifted by rank, divided by the n_C · rank decimal. The 0.11 % residue is consistent with the slow convergence of the underlying sum (the partial sums at N = 10¹⁶ are still drifting in the third decimal).
+agreement at 0.11 %. Tier **I**. The mechanism is that 19 = rank · c_3 − g is a small BST seesaw combination (twice the c_3 = 13 third Chern integer, minus the signature weight g = 7), and 10 = n_C · rank is the BST decimal unit. The structural content is that Brun's constant is *the same 19/10 ratio* that appears in several other BST contexts: it is the seesaw integer 17 lifted by rank, divided by the n_C · rank decimal. The 0.11 % residue is consistent with the slow convergence of the underlying sum (the partial sums at N = 10¹⁶ are still drifting in the third decimal).
 
 | Constant | BST formula | Predicted | Observed | Δ | Tier |
 |---------|-------------|-----------|----------|---|------|
@@ -96,7 +96,7 @@ It appears in the asymptotic expansion of the Barnes G-function and in regularis
 
 A ≈ N_c² / g = 9 / 7 = 1.2857,
 
-agreement at 0.26 %. Tier **I**. The mechanism is that 9 = N_c² is the color-Casimir square (the BST integer that labels the SU(3) Casimir on the fundamental representation) and 7 = g is the Bergman genus. The structural content is that Glaisher–Kinkelin reads the *color-squared over Bergman-genus* ratio — the same N_c² / g combinatorial that controls several Standard Model loop integrals (Paper #106 Section 7) and the heat-kernel rank-3 coefficient (Paper #9). The 0.26 % residue is consistent with the slow convergence of the underlying hyperfactorial regularisation.
+agreement at 0.26 %. Tier **I**. The mechanism is that 9 = N_c² is the color-Casimir square (the BST integer that labels the SU(3) Casimir on the fundamental representation) and 7 = g is the signature weight. The structural content is that Glaisher–Kinkelin reads the *color-squared over Bergman-genus* ratio — the same N_c² / g combinatorial that controls several Standard Model loop integrals (Paper #106 Section 7) and the heat-kernel rank-3 coefficient (Paper #9). The 0.26 % residue is consistent with the slow convergence of the underlying hyperfactorial regularisation.
 
 | Constant | BST formula | Predicted | Observed | Δ | Tier |
 |---------|-------------|-----------|----------|---|------|

@@ -113,7 +113,7 @@ $\square$
 
 **Theorem 6 (Observer as Spectral Layer).** *The off-by-one $g - C_2 = 1$ is the observer: $g = 7$ counts spectral layers including the zero mode (observer baseline), $C_2 = 6$ counts information-carrying layers only.*
 
-**Proof.** The Bergman genus $g = n_C + 2 = 7$ is the singularity exponent of the Bergman kernel $K(z,w) = c / \det(I - z\bar{w}^T)^g$ (Hua 1963). The Coxeter number $h(B_3) = C_2 = 6$ counts the non-trivial spectral modes.
+**Proof.** The Bergman genus is $n_C = 5$ — the singularity exponent of the Bergman kernel $K(z,w) = c / \det(I - z\bar{w}^T)^{n_C}$ (Hua 1963). The integer $g = n_C + 2 = 7$ (the boundary signature $p+q$ / the fermion-mode weight) is a *different* object, NOT the Bergman genus; it counts spectral layers including the zero mode. The Coxeter number $h(B_3) = C_2 = 6$ counts the non-trivial (information-carrying) spectral modes. The off-by-one $g - C_2 = 1$ is the observer baseline (the zero mode).
 
 In the Peter-Weyl decomposition of $K(z,w)$, the zero mode (constant function) contributes $d(0,0) = 1$ to the sum. This is the identity operator — the observer's baseline from which all measurements are taken. The remaining $C_2 = 6$ spectral directions carry information.
 

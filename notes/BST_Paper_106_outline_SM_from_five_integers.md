@@ -31,7 +31,7 @@ The identifications fall into geometric classes that reveal a previously-hidden 
 - The SM parameter count problem (Cabibbo 1978, Veltman 1986, Marciano 1986)
 - 19-26 free constants vs five integers: a 4-5x reduction
 - BST framework recap: D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] hermitian symmetric domain
-- Five integers as geometric invariants (rank, N_c=dim Q⁵_min, n_C=complex dim, C_2=dim B₂ root system Casimir, g=Bergman genus)
+- Five integers as geometric invariants (rank, N_c=dim Q⁵_min, n_C=complex dim, C_2=dim B₂ root system Casimir, g=signature weight)
 - N_max = N_c³·n_C + rank = 137 (Heegner prime, boundary scale)
 - Paper structure: 5 results sections
 

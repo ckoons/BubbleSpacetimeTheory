@@ -57,7 +57,7 @@ The type IV bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}
 | $N_c$ | 3 | $\mathrm{rank} + 1$ |
 | $n_C$ | 5 | Complex dimension |
 | $C_2$ | 6 | Casimir eigenvalue ($n_C + 1$) |
-| $g$ | 7 | Bergman genus ($n_C + \mathrm{rank}$) |
+| $g$ | 7 | signature weight ($n_C + \mathrm{rank}$) |
 
 The spectral bound $N_{\max} = 137$ is forced by $n_C = 5$ via Wolstenholme's theorem (Paper #24, Section 4.5). The compact factor SO(5) has root system $B_2$ with $|\Delta^+| = 4$ positive roots and Weyl group $|W(B_2)| = 8$.
 
@@ -141,7 +141,7 @@ The chain from topology to measurement has five steps. Each preserves rationalit
 
 $$\underbrace{D_{IV}^5}_{\text{topology}} \xrightarrow{B_2 \text{ root system}} \underbrace{\text{Weyl formula}}_{\text{algebra}} \xrightarrow{\text{spectral decomp.}} \underbrace{\text{Plancherel}}_{\text{analysis}} \xrightarrow{\text{coupling}} \underbrace{\text{eigenvalues}}_{\text{physics}} \xrightarrow{\text{stat. mech.}} \underbrace{\text{ratios}}_{\text{materials}}$$
 
-1. **Topology** (D = 0): $D_{IV}^5$ has Chern classes $\{1, 5, 11, 13, 9, 3\}$, Bergman genus $g = 7$. Fixed by the topology. No choice.
+1. **Topology** (D = 0): $D_{IV}^5$ has Chern classes $\{1, 5, 11, 13, 9, 3\}$, signature weight $g = 7$. Fixed by the topology. No choice.
 
 2. **Algebra** (D = 0): $B_2$ has 4 positive roots, $|W| = 8$. Representation dimensions are polynomial in highest weight. All coefficients are BST integers.
 

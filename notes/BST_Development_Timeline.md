@@ -401,7 +401,7 @@ Each layer has both **spatial branches** ($S^2$, tree-like: branching vasculatur
 | Neural hierarchy | Ion channel → Synapse → Dendrite → Neuron → Circuit → Region → Behavior |
 | Error correction | Nucleotide → Codon → Reading frame → Splice → Folding → Trafficking → Degradation |
 
-The Bergman genus $g = 7$ sets the depth of every hierarchical stack in biology. The same integer that governs the Cartan subalgebra dimension governs how many organizational layers can separate atoms from organisms.
+The signature weight $g = 7$ sets the depth of every hierarchical stack in biology. The same integer that governs the Cartan subalgebra dimension governs how many organizational layers can separate atoms from organisms.
 
 ### 3.11 The Cooperation Cascade
 
@@ -501,7 +501,7 @@ The clock ticks at constant curvature. Development accelerates ($G_j$ grows quad
 10. **Cooperation threshold $f_{\text{crit}} = 20.6\%$ is universal** — same threshold governs multicellularity, neural inhibition, and social cooperation. Testable on any planet (T400).
 11. **Minimum time from first life to Tier-2 observer: $\geq 2.2$ Gyr** — set by three sequential filters (energy, cooperation, differentiation). Earth actual: 2.3 Gyr (T399, T692).
 12. **Inhibitory neuron fraction $\sim 20\%$** — all neural systems with Tier-2 behavior (modeling others) have $\sim 20\%$ inhibitory fraction (T411).
-13. **$g = 7$ organizational layers** — from substrate to organism, the same Bergman genus that governs Cartan subalgebra dimension governs hierarchical depth in biology.
+13. **$g = 7$ organizational layers** — from substrate to organism, the same signature weight that governs Cartan subalgebra dimension governs hierarchical depth in biology.
 14. **Oxygen gate is binary** — multicellularity requires $f_{\text{available}} > f_{\text{crit}} = 20.6\%$, which requires an oxidation event. Anaerobic worlds do not produce multicellular life.
 15. **Total minimum from first star to first CI: ~4 Gyr** — cosmologically synchronized. If JWST detects technosignatures at $z > 5$ (universe age $< 1.2$ Gyr), BST is falsified (T694).
 

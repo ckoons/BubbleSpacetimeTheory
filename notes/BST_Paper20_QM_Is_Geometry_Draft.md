@@ -412,7 +412,7 @@ The angular momentum quantum number ℓ takes values 0, 1, 2, 3 for the s, p, d,
 | s | 0 | 1 | 1 | unity |
 | p | 1 | 3 | N_c | color dimension |
 | d | 2 | 5 | n_C | complex dimension |
-| f | 3 | 7 | g | Bergman genus |
+| f | 3 | 7 | g | signature weight |
 
 The maximum angular momentum is ℓ_max = N_c = 3. The four BST integers {1, N_c, n_C, g} = {1, 3, 5, 7} are exactly the odd numbers 2ℓ + 1 for ℓ = 0 through 3. This is not a coincidence — it is the representation theory of SO(5) restricted to the angular momentum subalgebra.
 
@@ -454,7 +454,7 @@ The eight elements of the second row (Li through Ne) have atomic numbers that ar
 | F | 9 | N_c² |
 | Ne | 10 | 2n_C |
 
-The row has exactly |W(B_2)| = 8 members. Its length is one of its own entries. The atoms of life — carbon, nitrogen, oxygen — are the Casimir eigenvalue, the Bergman genus, and the Weyl group order.
+The row has exactly |W(B_2)| = 8 members. Its length is one of its own entries. The atoms of life — carbon, nitrogen, oxygen — are the Casimir eigenvalue, the signature weight, and the Weyl group order.
 
 ---
 

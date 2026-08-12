@@ -178,7 +178,7 @@ Since det(P) != 0, the linear system Px = b has a unique solution for any right-
 
 ## 6. Non-Resonance and Cross-Type Uniqueness
 
-**Definition.** A domain has *resonance* if its Bergman genus g equals one of its Chern class values.
+**Definition.** A domain has *resonance* if its signature weight g equals one of its Chern class values.
 
 For D_IV^5: g = 7, Chern values = {1, 5, 11, 13, 9, 3}. Since 7 is not in this set, D_IV^5 is non-resonant. The minimum detuning is:
 

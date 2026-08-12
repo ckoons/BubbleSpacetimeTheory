@@ -215,11 +215,11 @@ The Euler characteristic of $Q^5$ is zero. The universe's budget balances to zer
 
 ### 3.4 The Source Coding Bound
 
-The Bergman genus $g = 7$ is the Shannon source coding bound (T689):
+The signature weight $g = 7$ is the Shannon source coding bound (T689):
 
 $$\lceil f \times 2^{n_C} \rceil = \lceil 0.1910 \times 32 \rceil = \lceil 6.11 \rceil = 7 = g$$
 
-The geometry compresses its $2^{n_C} = 32$ binary states down to $f \times 32 = 6.11$ effective states. Rounding up to the nearest integer gives exactly the Bergman genus. The codebook has $g = 7$ entries, each requiring $C_2 = 6$ bits, for a total of $g \times C_2 = 42$ — the Rosetta Number, reached independently from Chern coefficients and Bernoulli denominators.
+The geometry compresses its $2^{n_C} = 32$ binary states down to $f \times 32 = 6.11$ effective states. Rounding up to the nearest integer gives exactly the signature weight. The codebook has $g = 7$ entries, each requiring $C_2 = 6$ bits, for a total of $g \times C_2 = 42$ — the Rosetta Number, reached independently from Chern coefficients and Bernoulli denominators.
 
 ---
 

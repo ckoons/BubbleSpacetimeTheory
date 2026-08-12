@@ -15,7 +15,7 @@ The mixing **magnitude is not robust** to the convention (tested: illustrative V
 1. **K697:** observed mixing angles are physical = 3D-boundary-projection quantities.
 2. **K683:** the mass residues already live on the **boundary-Szegő**, not the bulk-Bergman.
 
-So the canonical inner product is the **boundary/Hardy (Szegő)** one, whose weight is the **conformal energy E₀** (the boundary dimension Δ), **not** the bulk Bergman genus. This resolves the boundary-vs-bulk half of the fork (→ **boundary**) and favors the E₀ positions **{1, 2/3, 1/2}** (F546).
+So the canonical inner product is the **boundary/Hardy (Szegő)** one, whose weight is the **conformal energy E₀** (the boundary dimension Δ), **not** the bulk signature weight. This resolves the boundary-vs-bulk half of the fork (→ **boundary**) and favors the E₀ positions **{1, 2/3, 1/2}** (F546).
 
 **K700 caveat honored:** masses = residues, mixing = overlaps — I do *not* invoke mass-mixing consistency as *proof*; I use the boundary framework as the **principle** (both live on the boundary) and let the mixing angles be the **forward test** of the boundary-E₀ positions (predict, don't fit).
 

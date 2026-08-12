@@ -39,7 +39,7 @@ $$\alpha_G = \underbrace{\frac{g_{Bergman}}{n_C}}_{\text{Shilov winding}} \cdot 
 
 with $g_{Bergman} = n_C + 1 = 6 = C_2$ for D_IV⁵.
 
-### (a) Bergman genus = C_2 = T_{N_c} (triple identity)
+### (a) signature weight = C_2 = T_{N_c} (triple identity)
 
 For Type IV bounded domain D_IV^n = SO₀(n,2)/[SO(n)×SO(2)], the Bergman kernel takes the form
 
@@ -106,7 +106,7 @@ $$t_{cosmo} - t_{M_{Pl}} = 47 - 45 = 2 = \text{rank}$$
 This is **the same +rank observer-shift quantum** that appears in:
 
 - T914 Prime Residue Principle: primes adjacent to BST products with ±1 shift
-- Bergman genus identity: $g_{Bergman} = n_C + 1 = C_2$ (+1 at Bergman level)
+- signature weight identity: $g_{Bergman} = n_C + 1 = C_2$ (+1 at Bergman level)
 - Second Chern: $c_2 = \text{rank} \cdot n_C + 1$ (+1 at Chern level)
 - McKay observation: $196884 - 196883 = 1$ (+1 at Monster representation level)
 - Furuta inequality: the +2 in 10/8+2 IS rank (Pin(2)-equivariant K-theory)
@@ -125,7 +125,7 @@ See T1924 for the full statement.
 
 The proof proceeds in three steps, each making one geometric factor explicit.
 
-### Step 1: Bergman genus of D_IV⁵ is C_2
+### Step 1: signature weight of D_IV⁵ is C_2
 
 For Type IV bounded symmetric domain D_IV^n, Hua (1963) established the Bergman kernel form
 
@@ -232,7 +232,7 @@ Compared to observed α_G = 5.906×10⁻³⁹: match at 0.109%. ∎
 The gravitational coupling — a quantity that has resisted derivation from first principles for over a century — is now derivable from the geometry of D_IV⁵ at the same precision tier as the fine-structure constant α was for Wyler (1969). The mechanism is:
 
 1. **D_IV⁵ Bergman geometry sets the curvature scale** (Casey's reverse-engineering hint about EM bending matching spacetime curvature).
-2. **Bergman genus C_2 = n_C+1 IS the curvature coefficient** in BST integer language.
+2. **signature weight C_2 = n_C+1 IS the curvature coefficient** in BST integer language.
 3. **Shilov boundary winding correction** introduces the observer-shift factor (the "+1" pattern from T914 applied at scale n_C).
 4. **Bergman-spectral evaluation at t_G = N_c·n_C** sets the gravitational hierarchy via exponential suppression.
 

@@ -6,7 +6,7 @@ theorem: "T1047"
 ac_classification: "(C=1, D=0)"
 status: "Proved — structural identification"
 origin: "D5 self-reflective graph: analysis↔cosmology identified as disconnected despite shared spectral vocabulary"
-parents: "T926 (Spectral-Arithmetic Closure), T186 (Five Integers), T649 (Bergman Genus), T1006 (CMB Competition Remnants)"
+parents: "T926 (Spectral-Arithmetic Closure), T186 (Five Integers), T649 (Signature weight), T1006 (CMB Competition Remnants)"
 ---
 
 # T1047: The Analytic-Cosmological Bridge — Boundary Asymptotics Determine Dark Energy

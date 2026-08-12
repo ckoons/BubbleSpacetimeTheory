@@ -64,7 +64,7 @@ Per the F60-F64 weekend gravity climb (Lyra; K255 CONDITIONAL PASS at SUBSTRATE-
 
 $$G \sim \frac{\kappa_{\mathrm{Bergman}} \cdot \ell_B^2}{\pi^{n_C}}$$
 
-where κ_Bergman = -n_C = -5 (Bergman scalar curvature of D_IV⁵; K204-PARTIAL closed form), ℓ_B is the substrate length scale anchored at Planck length, and π^{n_C} = π⁵ ≈ 306 is the substrate's bulk volume π-exponent (T2487 DERIVED). The gravitational coupling is **inversely proportional to the bulk substrate volume**. Near Shilov-saturation, the curvature gradient (substrate-architectural derivative of κ_Bergman per substrate distance) is extreme — orders of magnitude steeper than the average π^{n_C}-divided weak coupling at cosmological distances.
+where κ_Bergman = -n_C = -5 (Bergman scalar curvature of D_IV⁵; K204-PARTIAL closed form), ℓ_B is the substrate scale (= √(π⁵/n_C)·ℓ_Planck ≈ 7.82·ℓ_Planck — the ONE dimensionful input; ℓ_Planck is derived from it, not the other way round; K1395), and π^{n_C} = π⁵ ≈ 306 is the substrate's bulk volume π-exponent (T2487 DERIVED). The gravitational coupling is **inversely proportional to the bulk substrate volume**. Near Shilov-saturation, the curvature gradient (substrate-architectural derivative of κ_Bergman per substrate distance) is extreme — orders of magnitude steeper than the average π^{n_C}-divided weak coupling at cosmological distances.
 
 ### 2.3. Casey-named principle #9 "Substrate Floor / Scale-Not-Spectrum Reach" (ratified Sunday 2026-06-07)
 

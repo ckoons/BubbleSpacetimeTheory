@@ -200,7 +200,7 @@ Cal's framing on Furuta-Wallach: **PROMISING I-tier with named K-theory transfer
 
 | Lane | Owner | Route | Cal/Keeper grade |
 |------|-------|-------|-------------------|
-| Closed I-tier | Lyra | Toy 2260 family (Bergman genus / Casimir on K) | I-tier with receipts |
+| Closed I-tier | Lyra | Toy 2260 family (signature weight / Casimir on K) | I-tier with receipts |
 | Candidate | Lyra | T1050 observer shift | Precursor: verify α absent upstream |
 | Candidate | Grace today | T1313 multi-route forcing | Precursor: verify each of 5 routes forces the +rank STEP, not just the value 137 (Keeper grading) |
 | Candidate | Grace today | T1913 Furuta-Wallach | Precursor: P1 (K3 eigenvalues subset, Elie), P2 (Pin(2)→SO(2) restriction, Lyra), P3 (ABS induction, Lyra) |

@@ -20,7 +20,7 @@ Building on the BST derivation of the maximum phonon-mediated transition
 temperature $T_c^{\max} \approx \Theta_D / 38$ (BST\_Superconductivity\_MaxTc.md),
 we identify the key structural insight: **38 = $n_C \times g + N_c = 5 \times 7 + 3$**,
 where $n_C = 5$ is the complex dimension of $D_{IV}^5$, $g = n_C + 2 = 7$ is the
-Bergman genus, and $N_c = 3$ is the number of colors (from $\mathbb{Z}_3$ on
+signature weight, and $N_c = 3$ is the number of colors (from $\mathbb{Z}_3$ on
 $\mathbb{CP}^2$). This decomposition reveals that the phonon ceiling involves
 all three BST geometric sectors: the bulk ($n_C$), the ambient curvature ($g$),
 and the residual color channel ($N_c$). We extend this to derive testable

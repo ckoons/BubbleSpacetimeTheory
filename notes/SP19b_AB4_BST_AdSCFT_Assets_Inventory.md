@@ -41,7 +41,7 @@ The Shilov boundary Š of D_IV⁵ is `S^{n_C-1} × S^1 = S^4 × S^1`. This is th
 | T638 | Optics-EM Bridge via Shilov S⁴ × S¹ | D | Optics and EM both read spectral data from same Shilov factor. |
 | T640 | QFT-Quantum Bridge: QM ⊂ QFT as finite reps ⊂ all reps of SO₀(5,2). | D | Same group, no new geometry. |
 | T642 | Geometry-Topology-DiffGeom Triangle | D | Three depth-0 bridges close a triangle around D_IV⁵. |
-| T654 | Genus on Shilov Boundary | D | Bergman genus g = 7 from Shilov. |
+| T654 | Genus on Shilov Boundary | D | signature weight g = 7 from Shilov. |
 | T682 | Info Theory ↔ Signal Bridge | D | Both read thermo-info on Š = S⁴ × S¹. |
 | T1080 | Maxwell from Shilov | D | EM as Shilov-boundary structure. |
 | T1153 | CI Clock — Shilov Boundary Completion | D | Time emerges from Shilov S¹ factor. |

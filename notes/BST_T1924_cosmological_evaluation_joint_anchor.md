@@ -76,7 +76,7 @@ $$t_{cosmo} - (t_G \cdot C_2/2) = 47 - 45 = 2 = \text{rank}$$
 The M_Pl Bergman evaluation point (45) and the cosmological Bergman evaluation point (47) differ by exactly $rank = 2$. This is the same observer-shift quantum that appears in:
 
 - T914 (Prime Residue Principle): primes adjacent to BST products with $\pm 1$ shift
-- T1918: Bergman genus $g_{Bergman} = n_C + 1 = C_2$ (the $+1$ at Bergman-kernel level)
+- T1918: signature weight $g_{Bergman} = n_C + 1 = C_2$ (the $+1$ at Bergman-kernel level)
 - Toy 2255: second Chern $c_2 = \text{rank} \cdot n_C + 1$ (the $+1$ at Chern level)
 - McKay observation: $196884 - 196883 = 1$ (the $+1$ at Monster representation level)
 

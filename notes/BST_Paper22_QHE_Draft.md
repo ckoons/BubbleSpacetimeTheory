@@ -8,7 +8,7 @@ abstract: |
   is a rational function of five integers $(N_c, n_C, g, C_2, N_{\max}) = (3, 5, 7, 6, 137)$
   determined by the bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$.
   The Laughlin sequence $\nu = 1/3, 1/5, 1/7$ is identified as $1/N_c, 1/n_C, 1/g$ — the
-  reciprocals of the color count, complex dimension, and Bergman genus. The Jain composite
+  reciprocals of the color count, complex dimension, and signature weight. The Jain composite
   fermion hierarchy $\nu = n/(2n+1)$ walks the numerators $1, 2, 3, 4, 5 = 1, \mathrm{rank}, N_c, 2^{\mathrm{rank}}, n_C$,
   terminating at $n = n_C = 5$ where the hierarchy depth equals the domain dimension.
   The even-denominator state $\nu = 5/2 = n_C/\mathrm{rank}$ is the Moore-Read Pfaffian.

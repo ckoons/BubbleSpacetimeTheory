@@ -234,7 +234,7 @@ Papers #38–42 form a five-paper arc: Critical Exponents (#38) $\to$ Turbulence
 
 The ratio $\text{rank}/N_c = 2/3$ is not merely a number that happens to appear in many places. It is the **Wilson-Fisher fixed-point coupling** for the Ising universality class — the value to which all RG trajectories converge. K41 turbulence has the same exponent because the Richardson cascade is a real-space RG. Tracy-Widom edge scaling matches because level repulsion is a spectral RG. Shannon compression encodes the same ratio because source coding is a depth-0 RG.
 
-The QCD result $11N_c - 2C_2 = \binom{g}{2} = 21$ connects particle physics to combinatorics through the Bergman genus. The quark flavor ladder — $C_2 \to n_C \to 2^{\text{rank}} \to N_c \to \text{rank}$ — is the BST integer hierarchy made manifest in the Standard Model. The central charges of 2D minimal models form a BST rational ladder governed by the $c$-theorem.
+The QCD result $11N_c - 2C_2 = \binom{g}{2} = 21$ connects particle physics to combinatorics through the signature weight. The quark flavor ladder — $C_2 \to n_C \to 2^{\text{rank}} \to N_c \to \text{rank}$ — is the BST integer hierarchy made manifest in the Standard Model. The central charges of 2D minimal models form a BST rational ladder governed by the $c$-theorem.
 
 BST universality is not a pattern to be explained. It IS the explanation. The renormalization group tells us why: all coarse-grained physics flows to $D_{IV}^5$.
 

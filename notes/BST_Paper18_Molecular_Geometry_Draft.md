@@ -40,7 +40,7 @@ The bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] is a tube-type d
 |--------|-------|------|--------|
 | N_c | 3 | Color dimension | dim_R(D_IV^5) - rank - n_C |
 | n_C | 5 | Complex dimension | dim_C(D_IV^5) |
-| g | 7 | Bergman genus | p + q - 1 for SO_0(p,q) |
+| g | 7 | signature weight | p + q - 1 for SO_0(p,q) |
 | C_2 | 6 | Casimir eigenvalue | C_2(so(5,2), adjoint) |
 | rank | 2 | Real rank | rank_R(SO_0(5,2)) |
 
@@ -61,7 +61,7 @@ The periodic table's second row spans Z = 3 (lithium) through Z = 10 (neon). We 
 | Be | 4 | 2^{rank} | Number of binary modes |
 | B | 5 | n_C | Complex dimension |
 | C | 6 | C_2 | Casimir eigenvalue |
-| N | 7 | g | Bergman genus |
+| N | 7 | g | signature weight |
 | O | 8 | |W(B_2)| = 2^{N_c} | Weyl group order |
 | F | 9 | N_c^2 | Color squared |
 | Ne | 10 | 2n_C | Double complex dimension |
@@ -72,7 +72,7 @@ Three structural features make this remarkable:
 
 1. **Self-referential count.** The second row has exactly |W| = 8 = 2^{N_c} elements. The row's *length* is one of its own entries (oxygen's BST identity). No other row of the periodic table has this property.
 
-2. **Life's alphabet.** The atoms of organic chemistry — carbon (C_2 = 6), nitrogen (g = 7), oxygen (|W| = 8) — carry the three "middle" structural constants. The bonding versatility that makes life possible maps onto the Casimir, Bergman genus, and Weyl order.
+2. **Life's alphabet.** The atoms of organic chemistry — carbon (C_2 = 6), nitrogen (g = 7), oxygen (|W| = 8) — carry the three "middle" structural constants. The bonding versatility that makes life possible maps onto the Casimir, signature weight, and Weyl order.
 
 3. **Reading order.** Left to right, the second row counts through the domain's structural hierarchy: color (3) -> binary modes (4) -> complex dimension (5) -> Casimir (6) -> genus (7) -> Weyl order (8) -> color squared (9) -> doubled complex dimension (10). This is the natural ordering of the domain's invariants.
 
@@ -398,7 +398,7 @@ The same integers that control molecular geometry also determine the macroscopic
 
 | Crystallographic quantity | Value | BST expression | Construction |
 |--------------------------|-------|----------------|-------------|
-| Crystal systems | 7 | g | Bergman genus directly |
+| Crystal systems | 7 | g | signature weight directly |
 | Bravais lattices | 14 | 2g | Rank doubles the genus |
 | Crystallographic point groups | 32 | 2^{n_C} | Binary enumeration in n_C dimensions |
 | Space groups | 230 | g x 2^{n_C} + C_2 = 7 x 32 + 6 | Systems x symmetries + centering |
@@ -424,7 +424,7 @@ The alpha-helix is the most common secondary structure in proteins, discovered b
 
 **Self-consistency check.** Pitch = rise x residues/turn: (N_c/rank) x (N_c C_2/n_C) = N_c^2 C_2/(rank x n_C) = 54/10 = 5.4. Check. Turn angle = 360/residues_per_turn: 360/(18/5) = 360 x 5/18 = 100. Check.
 
-The H-bond ring size 13 = g + C_2 connects the alpha-helix directly to the Bergman genus and the Casimir eigenvalue. Each hydrogen bond in the helix bridges residue i to residue i + (N_c + 1) = i + 4, spanning exactly g + C_2 = 13 backbone atoms.
+The H-bond ring size 13 = g + C_2 connects the alpha-helix directly to the signature weight and the Casimir eigenvalue. Each hydrogen bond in the helix bridges residue i to residue i + (N_c + 1) = i + 4, spanning exactly g + C_2 = 13 backbone atoms.
 
 The most fundamental structural constant in protein biochemistry — 3.6 residues per turn — is the ratio of three BST integers: N_c x C_2 / n_C = 18/5. The same integers that set the tetrahedral bond angle (via N_c) and the O-H bond length (via N_c and n_C) determine the geometry of every alpha-helix in every protein in every organism.
 
@@ -463,7 +463,7 @@ The human vertebral column contains 33 vertebrae = N_c(2C_2 - 1) = 3 x 11. More 
 
 | Section | Count | BST integer | Name |
 |---------|-------|------------|------|
-| Cervical | 7 | g | Bergman genus |
+| Cervical | 7 | g | signature weight |
 | Thoracic | 12 | 2C_2 | Double Casimir |
 | Lumbar | 5 | n_C | Complex dimension |
 | Sacral | 5 | n_C | Complex dimension |
@@ -584,7 +584,7 @@ The reach of this mapping extends far beyond molecular geometry:
 - **The genetic code**: eight numbers from four bases to 20 amino acids, all BST expressions.
 - **The tree of life**: three domains (N_c), the eukaryotic cooperation threshold (f_{crit}), 35 animal phyla (C(g,3)), and the vertebral column (five sections matching five integers).
 
-The atoms of life — carbon, nitrogen, oxygen — carry the Casimir eigenvalue, the Bergman genus, and the Weyl group order as their atomic numbers. The proton and the vertebral column are siblings: each is built from the same five integers at a different scale of the same geometry. Chemistry counts atoms. Crystallography counts symmetries. Biology counts body segments. The numbers are the same because the geometry is the same.
+The atoms of life — carbon, nitrogen, oxygen — carry the Casimir eigenvalue, the signature weight, and the Weyl group order as their atomic numbers. The proton and the vertebral column are siblings: each is built from the same five integers at a different scale of the same geometry. Chemistry counts atoms. Crystallography counts symmetries. Biology counts body segments. The numbers are the same because the geometry is the same.
 
 The molecular properties — bond angles, bond lengths, stretching frequencies, dipole moments, ionization energies — are all rational functions of these integers, computed at AC(0) complexity (pure integer arithmetic). The most precise prediction, nu_{OH} = R_inf/(n_C x C_2), matches experiment to 0.02%. The least precise predictions correctly identify the boundary where sp^3 hybridization fails.
 

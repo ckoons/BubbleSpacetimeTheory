@@ -12,7 +12,7 @@ The compact summary of Saturday's findings:
 - **Approximately two hundred individual identifications** at sub-2 % precision; sixty-plus exact at the BST integer level.
 - **Five integers plus N_max** sufficient to label every named universal exponent, every regularised zeta value's denominator, every nuclear magic number, every classical fractal Hausdorff dimension, and every Feigenbaum-class chaos constant in the survey.
 - **No new integers** introduced beyond the original BST atom set {rank, N_c, n_C, C_2, g, c_2, c_3, seesaw, χ, N_max}; every identification uses only these ten.
-- **Cross-domain integer recurrence**: the integer 42 = C_2 · g appears in five genuinely independent observables (ε_K kaon CP violation, BR(H → γγ), Δa_μ muon anomaly, m_top/m_bottom, Catalan number C_5); the integer 141 appears as the Hubble/Planck length log and the largest phoneme inventory; the Bergman genus g = 7 recurs in eight-plus observables across radically different fields.
+- **Cross-domain integer recurrence**: the integer 42 = C_2 · g appears in five genuinely independent observables (ε_K kaon CP violation, BR(H → γγ), Δa_μ muon anomaly, m_top/m_bottom, Catalan number C_5); the integer 141 appears as the Hubble/Planck length log and the largest phoneme inventory; the signature weight g = 7 recurs in eight-plus observables across radically different fields.
 - **Selection-bias control**: Toy 2551 explicitly tests twenty quantities chosen as adversarially as we could manage, including dimensional constants (c, h, N_A) and known transcendentals (e, γ_EM, π). The result is a healthy ~60 % match rate at sub-2 % precision and ~40 % genuine non-matches. BST is *not* fitting everything — dimensional constants and pure transcendentals fall outside the framework, exactly as expected, while dimensionless physical ratios fall on the integer ladder.
 
 The thesis of the paper is that the BST integer structure is the *universal organizing principle* of natural scaling. Not coincidence, not selection bias, not curve-fitting — five geometric counts on the Autogenic Proto-Geometry D_IV⁵ = SO_0(5,2) / [SO(5) × SO(2)] reading off the same arithmetic across twenty-seven independent areas of science.
@@ -31,7 +31,7 @@ classified by Cartan in 1935 and labelled in BST as the Autogenic Proto-Geometry
 | Color count | N_c | Dim of minimal Wallach K-type | 3 |
 | Complex dimension | n_C | Complex dim of D_IV⁵ | 5 |
 | Casimir | C_2 | Quadratic Casimir on B₂ | 6 |
-| Genus | g | Bergman genus of D_IV⁵ | 7 |
+| Genus | g | signature weight of D_IV⁵ | 7 |
 
 One derived integer is universally important: the Heegner boundary prime
 

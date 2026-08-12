@@ -51,7 +51,7 @@ is the unique Cartan domain that carries both a Bergman kernel (encoding spectra
 | Color number | $N_c$ | 3 | $= \text{rank} + 1$; gauge group dimension |
 | Compact dimension | $n_C$ | 5 | Representation dimension |
 | Quadratic Casimir | $C_2$ | 6 | $= \text{rank} \times N_c$; counting eigenvalue |
-| Bergman genus | $g$ | 7 | $= C_2 + 1$; topological boundary parameter |
+| signature weight | $g$ | 7 | $= C_2 + 1$; topological boundary parameter |
 
 These five integers generate a sixth: the maximum representation dimension $N_{\max} = 137$, which gives the fine structure constant $\alpha = 1/137.036$ (the 0.036 arises from radiative corrections at the electron mass scale; the integer 137 is exact).
 
@@ -219,7 +219,7 @@ Within the fine structure domain ($p \leq N_{\max} = 137$), there are exactly $\
 | 2 | 0 | — | rank | $e$ charge, spin-1/2 |
 | 3 | 0 | — | $N_c$ | QCD colors |
 | 5 | 0 | — | $n_C$ | compact dimensions |
-| 7 | 0 | — | $g$ | Bergman genus |
+| 7 | 0 | — | $g$ | signature weight |
 | 11 | 1 | 10, 12 | $2 n_C \pm 1$, $2^2 N_c \pm 1$ | $n_C + C_2$; Na $Z$ |
 | 13 | 1 | 12, 14 | $2^2 N_c + 1$ | $\Omega_\Lambda$ numerator |
 | 17 | 1 | 16, 18 | $2^4 - 1$, $2 N_c^2 - 1$ | Cl $Z$ |
@@ -267,7 +267,7 @@ Note that $\pi(137) = 33 = N_c \times 11 = N_c \times (n_C + C_2)$: the count of
 |------:|---------------------|----------------|--------------------:|----------:|
 | 3 | $2 + 1$ | $\text{rank} + 1$ | $N_c$ (QCD colors) | exact |
 | 5 | $4 + 1$ | $2^{\text{rank}} + 1$ | $n_C$ (compact dimension) | exact |
-| 7 | $6 + 1$ | $C_2 + 1$ | $g$ (Bergman genus) | exact |
+| 7 | $6 + 1$ | $C_2 + 1$ | $g$ (signature weight) | exact |
 | 13 | $12 + 1$ | $2C_2 + 1$ | $\Omega_\Lambda$ numerator ($13/19$) | $0.07\sigma$ |
 | 19 | $18 + 1$ | $2N_c^2 + 1$ | $\Omega_\Lambda$ denominator ($13/19$) | $0.07\sigma$ |
 | 31 | $32 - 1$ | $2^{n_C} - 1$ | Mersenne prime $M_5$ | exact |
@@ -366,7 +366,7 @@ We tested the method blindly on five unmatched primes. Grace pathfound the secto
 | 71 | Biology/observer | 70S ribosome $= n_C \times g \times \text{rank} = 70$; Lu ($Z=71$) closes 4f | Tier 1 |
 | 181 | Materials | Ta-181: $Z$, $N$, and $A$ all BST expressions | Tier 2 |
 
-The Debye temperature result deserves emphasis. Copper's $\theta_D = 343$ K is an experimentally measured thermal property of a metal. That $343 = 7^3 = g^3$ — the cube of the Bergman genus — is an integer-exact match with no fitting, no approximation, and no precedent in condensed matter theory for why a Debye temperature should be a perfect cube of a topological invariant.
+The Debye temperature result deserves emphasis. Copper's $\theta_D = 343$ K is an experimentally measured thermal property of a metal. That $343 = 7^3 = g^3$ — the cube of the signature weight — is an integer-exact match with no fitting, no approximation, and no precedent in condensed matter theory for why a Debye temperature should be a perfect cube of a topological invariant.
 
 The thyroid hormone result is equally striking. The human body's two primary thyroid hormones contain exactly $2^{\text{rank}} = 4$ (T$_4$) and $N_c = 3$ (T$_3$) iodine atoms per molecule. The ratio T$_4$/T$_3 = 4/3 = 2^{\text{rank}}/N_c$ equals the percolation correlation length exponent $\nu$.
 

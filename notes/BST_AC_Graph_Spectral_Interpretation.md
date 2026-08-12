@@ -22,7 +22,7 @@ Toy 679 measured six structural predictions against the 584-node AC theorem grap
 | Finding | Value | BST Match | Status |
 |:--------|:------|:----------|:-------|
 | λ₂/λ₁ (spectral ratio) | 2.9997 | $N_c = 3$ | Unplanned |
-| χ_domain (domain chromatic number) | 7 | $g$ (Bergman genus) | Unplanned |
+| χ_domain (domain chromatic number) | 7 | $g$ (signature weight) | Unplanned |
 | Diameter | 12 | $2C_2 = N_c \times 2^{\text{rank}}$ | Unplanned |
 | Communities (eigengap) | 8 | $|W(B_2)| = 2^{N_c}$ | Unplanned |
 
@@ -64,11 +64,11 @@ The Bergman kernel on $D_{IV}^5$ has a spectral decomposition whose heat kernel 
 
 ## Section 2. Why χ_domain = 7 = g
 
-The 37-domain meta-graph (domains as nodes, edges where domains share theorems) needs exactly $g = 7$ colors for proper coloring. The Bergman genus appears as the chromatic number of the mathematical landscape.
+The 37-domain meta-graph (domains as nodes, edges where domains share theorems) needs exactly $g = 7$ colors for proper coloring. The signature weight appears as the chromatic number of the mathematical landscape.
 
 ### 2.1 The Shannon Source Coding Bound
 
-The Bergman genus satisfies the source coding identity (T689):
+The signature weight satisfies the source coding identity (T689):
 
 $$g = \lceil f \times 2^{n_C} \rceil = \lceil 0.1910 \times 32 \rceil = \lceil 6.11 \rceil = 7$$
 
@@ -139,7 +139,7 @@ The four unplanned findings share a common pattern: the AC theorem graph's struc
 | Graph Property | Value | $D_{IV}^5$ Property | Same integer because... |
 |:---------------|:------|:---------------------|:------------------------|
 | Spectral ratio | 3 | Color dimension $N_c$ | Three-language equilateral structure |
-| Domain colors | 7 | Bergman genus $g$ | Optimal codebook for domain complexity |
+| Domain colors | 7 | signature/fermion weight $g$ (NOT Bergman genus = n_C=5) | Optimal codebook for domain complexity |
 | Diameter | 12 | $2C_2$ | Two-hemisphere proof topology |
 | Communities | 8 | $|W(B_2)|$ | Coarse $W(B_2)$-chamber partition |
 

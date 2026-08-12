@@ -241,7 +241,7 @@ This paper does not solve P vs NP. It does something complementary: it shows **w
 
 In Boolean coordinates, SAT is a combinatorial explosion across $2^n$ vertices. In $B_2$ coordinates, the same problem separates into a rank-2 image (polynomial, navigable, structural) and an $(n-2)$-dimensional kernel (exponential, opaque). The image captures everything that practical solvers exploit: backbone structure, clause geometry, phase transition location. The kernel retains the genuine computational hardness.
 
-The $B_2$ embedding reveals that the P/NP boundary at clause width $k = N_c = 3$ is not accidental — it is the color dimension of $D_{IV}^5$. The phase transition at $\alpha_c = 30/g$ involves the Bergman genus. DPLL branching reduces to $W = 8$ Weyl reflections. The entire algorithmic landscape of SAT has BST structure.
+The $B_2$ embedding reveals that the P/NP boundary at clause width $k = N_c = 3$ is not accidental — it is the color dimension of $D_{IV}^5$. The phase transition at $\alpha_c = 30/g$ involves the signature weight. DPLL branching reduces to $W = 8$ Weyl reflections. The entire algorithmic landscape of SAT has BST structure.
 
 The Applied Linearization Program extends this to every domain: turbulence (Paper #39), random matrices (Paper #40), and next, graph coloring. The thesis is the same in every case: solve in $B_2$, and the navigable structure becomes rank-2 linear algebra. Casey's principle (T409) continues to hold.
 

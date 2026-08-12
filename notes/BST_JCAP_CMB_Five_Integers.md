@@ -38,7 +38,7 @@ We derive five of these six parameters — all except $\tau$ — from the geomet
 
 - $N_c = 3$: number of colors (rank of the compact Lie algebra $B_2$ is 2, but $N_c = 3$ is the number of positive roots generating the Weyl group)
 - $n_C = 5$: complex dimension
-- $g = 7$: Bergman genus
+- $g = 7$: signature weight
 - $C_2 = 6$: Casimir eigenvalue of the adjoint representation
 - $N_{\max} = 137$: channel capacity, identified with the inverse fine structure constant $\alpha^{-1}$
 

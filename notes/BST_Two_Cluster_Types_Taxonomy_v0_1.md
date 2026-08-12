@@ -84,7 +84,7 @@ These quantities MIGHT be overdetermined-form (multiple BST-primary expressions)
 - **9 = N_c²** — also appears as Q⁵ Chern c_4; possibly 9 in multiple forms?
 - **6 = C_2** — Casimir invariant; also Q⁵ Chern c_5 / 5! / (N_c factorial-related); multiple forms?
 - **5 = n_C** — also Q⁵ Chern c_1; complex dimension; multiple forms?
-- **7 = g** — also Heegner disc base; Bergman genus; multiple forms?
+- **7 = g** — also Heegner disc base; signature weight; multiple forms?
 
 These need systematic search before declaring overdetermined-form. Multi-week pull.
 

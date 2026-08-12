@@ -240,7 +240,7 @@ When you're chronically stressed, your cells literally divert resources from DNA
 
 ## 8. The Neural Stack (Lyra, Toys 559-563)
 
-The nervous system provides the most striking confirmation that g = 7 is structural, not coincidental. The Bergman genus appears at every level of neural architecture:
+The nervous system provides the most striking confirmation that g = 7 is structural, not coincidental. The signature weight appears at every level of neural architecture:
 
 - **7 cervical vertebrae** — universal across ALL mammals (giraffes, mice, whales)
 - **7 basal ganglia nuclei**

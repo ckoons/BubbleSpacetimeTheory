@@ -22,7 +22,7 @@ C_2^L - 1 = prod_{d | L} Phi_d(C_2)
 The first cyclotomic evaluations ARE the BST integers:
 
 - Phi_1(C_2) = C_2 - 1 = n_C = 5 (compact fiber dimension)
-- Phi_2(C_2) = C_2 + 1 = g = 7 (Bergman genus)
+- Phi_2(C_2) = C_2 + 1 = g = 7 (signature weight)
 
 Higher evaluations generate the QED correction primes:
 
@@ -149,11 +149,11 @@ Starting from Phi_3(C_2) = 43 and subtracting C_2 = 6 at each step:
 
 43 → 37 → 31 → 25 → 19 → 13 → **7** = g = Phi_2(C_2)
 
-The walk takes C_2 = 6 steps and lands on g. The Casimir governs both the step size and the number of steps. Of the 7 values: five are prime (43, 37, 31, 19, 13, 7), one is n_C^2 = 25, and the endpoint is the Bergman genus. The walk length is (Phi_3 - Phi_2)/(step) = (43-7)/6 = 36/6 = C_2.
+The walk takes C_2 = 6 steps and lands on g. The Casimir governs both the step size and the number of steps. Of the 7 values: five are prime (43, 37, 31, 19, 13, 7), one is n_C^2 = 25, and the endpoint is the signature weight. The walk length is (Phi_3 - Phi_2)/(step) = (43-7)/6 = 36/6 = C_2.
 
 ## The Genus Bottleneck Mechanism (Toys 1557-1559)
 
-The Chern classes c(Q⁵) = (1, 5, 11, 13, 9, 3) map to adiabatic chain DOF positions {0, 1, 2, 4, 5, 6} — filling ALL positions 0-6 EXCEPT n=3 where DOF = g = 7 (the Bergman genus). The genus is the "spectral hole" in its own Chern spectrum. All Chern classes are odd because g = 7 = 2³-1 is a Mersenne prime (Lucas' theorem: C(7,k) odd for all k). This Mersenne condition is unique to D_IV^5 among practical rank-2 domains (Toy 1558, 5/6).
+The Chern classes c(Q⁵) = (1, 5, 11, 13, 9, 3) map to adiabatic chain DOF positions {0, 1, 2, 4, 5, 6} — filling ALL positions 0-6 EXCEPT n=3 where DOF = g = 7 (the signature weight). The genus is the "spectral hole" in its own Chern spectrum. All Chern classes are odd because g = 7 = 2³-1 is a Mersenne prime (Lucas' theorem: C(7,k) odd for all k). This Mersenne condition is unique to D_IV^5 among practical rank-2 domains (Toy 1558, 5/6).
 
 **The genus bottleneck explains the Distribution Rule.** At each loop order L, the zeta weight 2L-1 maps to chain position n = L-1:
 

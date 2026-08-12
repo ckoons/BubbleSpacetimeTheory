@@ -22,7 +22,7 @@ origin: "Casey's question April 28: 'Does a point only emit from the surface? Wh
 
 | Kernel | Domain | Exponent | BST integer |
 |--------|--------|----------|-------------|
-| Bergman K(z,w) | Interior x Interior | -g = -7 | Bergman genus |
+| Bergman K(z,w) | Interior x Interior | -g = -7 | signature weight |
 | Szego S(z,zeta) | Boundary x Boundary | -n_C = -5 | Compact fiber dimension |
 | Poisson P(z,zeta) | Boundary -> Interior | -N_c = -3 | Color number |
 
@@ -40,7 +40,7 @@ While the Chern classes c(Q^5) = (1, 5, 11, 13, 9, 3) involve all five BST integ
 
 **(d) Genus as Global Sections.** g = dim H^0(Q^5, O(1)) = 7. The Bergman genus, which is the singularity exponent of the Bergman kernel, equals the number of independent global sections of the fundamental line bundle on the compact dual. This is a sheaf-theoretic reading of g independent of the Bergman kernel.
 
-**(e) Interior-Exterior Information Ratio.** P(1)/chi(Q^5) = C_2*g / C_2 = g. The ratio of the Chern class sum (interior data) to the Euler characteristic (exterior data) is the Bergman genus. Interior information exceeds exterior information by a factor of g.
+**(e) Interior-Exterior Information Ratio.** P(1)/chi(Q^5) = C_2*g / C_2 = g. The ratio of the Chern class sum (interior data) to the Euler characteristic (exterior data) is the signature weight. Interior information exceeds exterior information by a factor of g.
 
 **(f) Shilov Boundary Dimension.** The Shilov boundary partial_S D_IV^5 = S^{rank^2} x S^1 / Z_{rank} = S^4 x S^1 / Z_2 has real dimension n_C, which is exactly half the real dimension of D_IV^5. Observers (T317) live on this half-dimensional surface. This is the holographic principle: boundary data encodes half the bulk degrees of freedom.
 

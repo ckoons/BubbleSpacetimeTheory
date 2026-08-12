@@ -98,7 +98,7 @@ These are the operations of arithmetic -- factoring, partitioning, and counting 
 | N5 | Cyclic group $\mathbb{Z}_{N_c}$ | The reading frame: 3 slots that wrap |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which |
 | N7 | Integer partition / product | Breaking or multiplying integer pieces |
-| N8 | Bergman genus $g = 7$ | Maximum independent spectral layers |
+| N8 | Spectral-layer weight $g = 7$ (signature $p+q$ / fermion-mode weight — NOT the Bergman genus, which is $n_C = 5$, Hua 1963) | Maximum independent spectral layers |
 | N9 | Casimir $C_2 = 6$ | Bits per recognition event |
 | N10 | Dimension $\dim_{\mathbb{R}} = N_c + g = 10$ | Real dimension of $D_{IV}^5$ (also $= 2n_C$, the standard expression for the real dimension of $D_{IV}^n$) |
 | N11 | Prime factorization | Breaking numbers into primes |
@@ -196,7 +196,7 @@ The HRR formula is not a theorem to be proved on $D_{IV}^5$. It is an identity t
 
 **Theorem (T603).** *The Weyl dimension formula bridges number-theoretic structure (integer invariants) to geometric structure (spectral gaps, Bergman kernel). The bridge is the polynomial evaluation $d(p, q, n_C)$.*
 
-The root system of $D_{IV}^5$ is $B_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. SO(7) is the compact real form of the $B_3$ Lie algebra -- the isometry group of $D_{IV}^5$. Its vector dimension $g = 7$ is the Bergman genus of the domain. The Weyl dimension formula for $\text{SO}(7)$ representations:
+The root system of $D_{IV}^5$ is $B_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. SO(7) is the compact real form of the $B_3$ Lie algebra -- the isometry group of $D_{IV}^5$. Its vector dimension $g = 7$ is the signature / fermion-mode weight of the domain (NOT the Bergman genus, which is $n_C = 5$, Hua 1963). The Weyl dimension formula for $\text{SO}(7)$ representations:
 
 $$d(p, q, n_C) = \frac{(2p + n_C)(2q + n_C - 2)(p + q + n_C - 1)}{n_C(n_C - 2)(n_C - 1)} \cdot (p - q + 1)$$
 
@@ -304,7 +304,7 @@ Toy 679 (5/8 PASS + 4 unplanned BST hits) and Toy 685 together establish a remar
 | Graph property | Value | $D_{IV}^5$ property | Same integer because... |
 |:--------------|:------|:---------------------|:------------------------|
 | Spectral ratio $\lambda_2/\lambda_1$ | 3.000 | Color dimension $N_c$ | Three-language equilateral structure |
-| Domain chromatic number | 7 | Bergman genus $g$ | Optimal codebook for domain complexity |
+| Domain chromatic number | 7 | signature weight $g$ | Optimal codebook for domain complexity |
 | Diameter | 12 | $2C_2 = N_c \times 2^{\text{rank}}$ | Two-hemisphere proof topology |
 | Communities (eigengap) | 8 | $|W(B_2)| = 2^{N_c}$ | Coarse Weyl-chamber partition |
 
@@ -383,7 +383,7 @@ The growth curve (Toy 685) and spectral analysis (Toy 679) reveal a deeper resul
 
 This self-similarity (T708) is not gradual convergence. The spectral ratio $\lambda_2/\lambda_1$ snaps to $N_c$ when the graph crosses its own cooperation threshold — cross-domain edges exceeding 50%. Below threshold, the spectrum shows fragmented silos. Above threshold, the three-language equilateral structure manifests spectrally. The graph undergoes the same phase transition it describes.
 
-If the self-similarity is structural (not coincidental), then any sufficiently complete theorem graph about $D_{IV}^5$ will converge to a discrete approximation of $D_{IV}^5$'s spectral geometry. Mathematics about a geometry inherits the geometry's properties. The vocabulary has 43 words not because we chose 43, but because the geometry has 43 independent operations. The graph is 7-chromatic not because we designed 7 themes, but because the Bergman genus is 7. The graph is a small copy of the territory, built inevitably from the territory's instructions.
+If the self-similarity is structural (not coincidental), then any sufficiently complete theorem graph about $D_{IV}^5$ will converge to a discrete approximation of $D_{IV}^5$'s spectral geometry. Mathematics about a geometry inherits the geometry's properties. The vocabulary has 43 words not because we chose 43, but because the geometry has 43 independent operations. The graph is 7-chromatic not because we designed 7 themes, but because the signature weight $g$ is 7 (the Bergman genus proper is $n_C = 5$, Hua 1963). The graph is a small copy of the territory, built inevitably from the territory's instructions.
 
 ---
 

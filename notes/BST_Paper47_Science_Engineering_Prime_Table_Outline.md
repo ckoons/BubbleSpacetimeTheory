@@ -32,7 +32,7 @@ The bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)] is characterized 
 |---------|--------|-------|------|
 | Color number | N_c | 3 | Gauge dimension |
 | Compact dimension | n_C | 5 | Representation dimension |
-| Bergman genus | g | 7 | Topological boundary |
+| signature weight | g | 7 | Topological boundary |
 | Quadratic Casimir | C₂ | 6 | Counting operator |
 | Rank | rank | 2 | Fundamental dimension |
 

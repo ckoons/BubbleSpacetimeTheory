@@ -29,7 +29,7 @@ A forward claim must pass the axis relevant to *its type*. The two axes are **or
 | Mixing angles: Cabibbo 9/40; PMNS sin²θ ∈ {42,75,3}/137 (sum 120/137); Weinberg sin²θ_W = rank/N_c² = 2/9 | **FRAMEWORK-PLUS** | scheme-invariance (dimensionless); /N_max unified structure; Weinberg forced by rank=2 |
 | m_W/m_Z = √g/N_c (0.064%, pole-mass) | FRAMEWORK-PLUS | scheme-invariance (pole-mass ratio, physically privileged) |
 | 3 generations = h(B₂)−1; 3 colors = h^∨(B₂) = N_c | **FRAMEWORK** (count matched, forcing multi-week) | root-system invariants (Elie Toy 3571 verified) |
-| ρ(D_IV⁵) = (n_C, N_c)/rank = (5/2, 3/2); ρ₁ bulk (Bergman genus), ρ₂ Shilov (Wallach) | **FRAMEWORK-PLUS** | canonical spectral invariant (Elie Toy 3583); pins rank/N_c/n_C, splits bulk/Shilov |
+| ρ(D_IV⁵) = (n_C, N_c)/rank = (5/2, 3/2); ρ₁ bulk (signature weight), ρ₂ Shilov (Wallach) | **FRAMEWORK-PLUS** | canonical spectral invariant (Elie Toy 3583); pins rank/N_c/n_C, splits bulk/Shilov |
 | Confinement: isolated fractional-charge colored quarks have no Shilov boundary value → only color-singlet composites observable | **FRAMEWORK-PLUS** (Cal "strongest content") | Hardy-space bulk→Shilov projection (Lyra/A3) |
 | Kernel singularity exponent = 5/2 = n_C/rank (Hua genus) | **SETTLED** | Elie Toy 3582 convention-free ν=5 (~200× margin; validated on disk ν=1, D_IV² ν=2) |
 | c_FK = 225/π^(9/2) (FK normalized-measure constant) | **RATIFIED (T2442), now DERIVED-physical** | see Sec 4 — forced by Born-rule invariance |

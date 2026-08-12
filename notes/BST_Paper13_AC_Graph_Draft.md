@@ -69,7 +69,7 @@ Bubble Spacetime Theory derives from a single geometric object, $D_{IV}^5$, whos
 | $N_c$ | Short root count | 3 | Color dimension |
 | $n_C$ | Complex dimension | 5 | Five independent invariants |
 | $C_2$ | Quadratic Casimir | 6 | Representation weight |
-| $g$ | Bergman genus | 7 | Spectral capacity |
+| $g$ | signature weight | 7 | Spectral capacity |
 | $\|W\|$ | Weyl group order | 8 | Symmetry count |
 | $N_{\max}$ | Fine structure denominator | 137 | Maximum winding number |
 

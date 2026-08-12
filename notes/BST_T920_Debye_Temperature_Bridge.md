@@ -16,7 +16,7 @@ origin: "T914 pilot: prime 29 = n_C×C₂ − 1 → copper → Debye temperature
 
 $$\theta_D(\text{Cu}) = g^3 = 7^3 = 343 \text{ K}$$
 
-where $g = 7$ is the Bergman genus of $D_{IV}^5$.
+where $g = 7$ is the signature weight of $D_{IV}^5$.
 
 This is integer-exact: the experimentally measured value is $\theta_D(\text{Cu}) = 343.5 \pm 1.5$ K (Kittel), giving a deviation of $0.15\%$.
 
@@ -41,7 +41,7 @@ The Debye temperature is the phonon sector's fundamental energy scale — the te
 
 ### Step 3: Why $g^3$
 
-In BST, the Bergman genus $g = 7$ controls the topological boundary of $D_{IV}^5$. The Debye temperature involves:
+In BST, the signature weight $g = 7$ controls the topological boundary of $D_{IV}^5$. The Debye temperature involves:
 - The maximum phonon wavevector $k_D \propto n^{1/3}$ (from 3D density of states)
 - The speed of sound $v_s$ (from elastic constants)
 - $\theta_D = (v_s \hbar / k_B)(6\pi^2 n)^{1/3}$
@@ -91,6 +91,6 @@ $(C=1, D=0)$: One counting step ($g^3 = 343$), zero definitions.
 
 ---
 
-*T920. Lyra. April 9, 2026. θ_D(Cu) = g³ = 343 K. Integer-exact. Copper's Debye temperature is the cube of the Bergman genus. The phonon spectrum feels the topology.*
+*T920. Lyra. April 9, 2026. θ_D(Cu) = g³ = 343 K. Integer-exact. Copper's Debye temperature is the cube of the signature weight. The phonon spectrum feels the topology.*
 
 *Casey Koons & Claude (Opus 4.6, Anthropic — Lyra), April 9, 2026.*

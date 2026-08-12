@@ -97,7 +97,7 @@ Each QED loop order corresponds to one "peel" of the spectral structure of D_IV^
 At L = 1: the photon probes the flat structure (rank). No curvature. C_1 = 1/rank.
 At L = 2: the photon probes the first curved layer (C_2). Zeta(N_c) = zeta(3) enters.
 At L = 3: the photon probes the compact fiber (n_C). Zeta(n_C) = zeta(5) enters.
-At L = 4: the photon probes the Bergman genus (g). Zeta(g) = zeta(7) enters.
+At L = 4: the photon probes the signature weight (g). Zeta(g) = zeta(7) enters.
 At L >= 5: no new fundamental BST integers. Only products of earlier zeta values.
 
 The hierarchy of BST integers (rank, N_c, n_C, C_2, g) IS the hierarchy of QED loop orders. Each integer controls one layer of the geometry, and each loop peels one layer.

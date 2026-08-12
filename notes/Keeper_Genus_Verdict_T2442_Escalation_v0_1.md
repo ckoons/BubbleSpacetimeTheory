@@ -1,5 +1,5 @@
 ---
-title: "Keeper literature-angle verdict — D_IV⁵ Bergman genus = 5; T2442 c_FK recheck escalation"
+title: "Keeper literature-angle verdict — D_IV⁵ signature weight = 5; T2442 c_FK recheck escalation"
 author: "Keeper"
 date: "2026-05-28 Thursday EDT"
 status: "Literature angle of the 3-angle genus verification (Elie numerical + Grace provenance + Keeper literature). Genus CLOSED = 5. ONE RATIFIED result (T2442) flagged for recheck."

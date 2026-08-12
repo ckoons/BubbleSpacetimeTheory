@@ -60,7 +60,7 @@ The type IV bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}
 | $N_c$ | 3 | $\mathrm{rank} + 1$; color count |
 | $n_C$ | 5 | Complex dimension |
 | $C_2$ | 6 | Casimir eigenvalue ($n_C + 1$) |
-| $g$ | 7 | Bergman genus ($n_C + \mathrm{rank}$) |
+| $g$ | 7 | signature weight ($n_C + \mathrm{rank}$) |
 
 The spectral bound $N_{\max} = 137 = \mathrm{numer}(H_{n_C})$ is forced by $n_C = 5$ via Wolstenholme's theorem (Section 4.5). The fine-structure constant $\alpha = 1/N_{\max}$.
 
@@ -269,7 +269,7 @@ At each step, the input is the output of the previous step plus BST-derived cons
 
 The cosmological constant problem has been open for a century. Naive QFT predicts $\Lambda \sim 1$ in Planck units; observation gives $\sim 10^{-122}$. The standard framing asks: what cancels the other 120 orders of magnitude?
 
-BST answers: nothing cancels. The vacuum energy was never $\sim 1$. The correct calculation — zeta regularization of the heat kernel on $D_{IV}^5$ — gives $\Lambda = [\ln(138)/50] \times \alpha^{56} \times e^{-2}$. The 120 orders come from $\alpha^{56}$: 56 powers of the fine-structure constant, each contributing $\log_{10}(137) \approx 2.14$ orders. The fine-structure constant is not small by accident. It is $1/N_{\max} = 1/137$, the reciprocal of the spectral bound of $D_{IV}^5$. The "smallness" of $\Lambda$ is the "smallness" of $\alpha$ raised to the 56th power. And 56 = $8 \times 7 = 8g$ = eight times the Bergman genus.
+BST answers: nothing cancels. The vacuum energy was never $\sim 1$. The correct calculation — zeta regularization of the heat kernel on $D_{IV}^5$ — gives $\Lambda = [\ln(138)/50] \times \alpha^{56} \times e^{-2}$. The 120 orders come from $\alpha^{56}$: 56 powers of the fine-structure constant, each contributing $\log_{10}(137) \approx 2.14$ orders. The fine-structure constant is not small by accident. It is $1/N_{\max} = 1/137$, the reciprocal of the spectral bound of $D_{IV}^5$. The "smallness" of $\Lambda$ is the "smallness" of $\alpha$ raised to the 56th power. And 56 = $8 \times 7 = 8g$ = eight times the signature weight.
 
 The Hubble tension between Planck ($67.36 \pm 0.54$) and SH0ES ($73.04 \pm 1.04$) has generated hundreds of papers proposing new physics: early dark energy, interacting dark sectors, modified gravity. BST predicts $H_0 = 68.02$ km/s/Mpc — within $1.2\sigma$ of Planck and $4.8\sigma$ from SH0ES. No new physics is needed. The tension is a calibration issue in the distance ladder.
 

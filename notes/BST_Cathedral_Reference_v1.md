@@ -153,7 +153,7 @@ The integer **rank = 2** is the universal "observer-shift quantum" appearing acr
 |---|---|---|
 | Bergman evaluation | $t_{cosmo} - t_{M_{Pl}} = 47 - 45 = 2 = rank$ | T1924 |
 | Heegner level | $163 = g \cdot (\chi - 1) + rank$ | Toy 2382 |
-| Bergman genus | $g_{Bergman} = n_C + 1$ → factor 1 doubled | T1918 |
+| signature weight | $g_{Bergman} = n_C + 1$ → factor 1 doubled | T1918 |
 | Second Chern | $c_2 = rank \cdot n_C + 1$ | Q⁵ Chern shift |
 | Monster McKay | $196884 = 196883 + 1$ | j-function constant |
 | Furuta inequality | $b_2(K3) \geq (10/8)\sigma + 2$ | Pin(2) K-theory |

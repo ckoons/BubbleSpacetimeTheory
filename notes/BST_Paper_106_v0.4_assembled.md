@@ -38,9 +38,9 @@ The five integers are:
 | Color count | N_c | Dimension of the minimal Wallach K-type | 3 |
 | Complex dimension | n_C | Complex dimension of D_IV⁵ | 5 |
 | Casimir | C_2 | Quadratic Casimir on the B₂ root system | 6 |
-| Genus | g | Bergman genus of D_IV⁵ | 7 |
+| Genus | g | signature weight of D_IV⁵ | 7 |
 
-One sentence per integer for readers new to the framework. The **rank** is the dimension of the maximal torus, the largest commuting subalgebra of the symmetry group — a B₂ root system gives a rank-2 torus. The **color count** N_c is the size of the smallest non-trivial Wallach K-type, the minimal "tile" that the geometry can decompose into. The **complex dimension** n_C is the number of complex coordinates needed to label a point in D_IV⁵; physically, the number of independent ways the geometry can "twist" at a point. The **Casimir** C_2 is the quadratic Casimir invariant on the B₂ root system, counting the number of long-root pairs. The **Bergman genus** g is the genus of the Bergman kernel on D_IV⁵ — the topological invariant of the propagator on the geometry.
+One sentence per integer for readers new to the framework. The **rank** is the dimension of the maximal torus, the largest commuting subalgebra of the symmetry group — a B₂ root system gives a rank-2 torus. The **color count** N_c is the size of the smallest non-trivial Wallach K-type, the minimal "tile" that the geometry can decompose into. The **complex dimension** n_C is the number of complex coordinates needed to label a point in D_IV⁵; physically, the number of independent ways the geometry can "twist" at a point. The **Casimir** C_2 is the quadratic Casimir invariant on the B₂ root system, counting the number of long-root pairs. The **signature weight** g is the genus of the Bergman kernel on D_IV⁵ — the topological invariant of the propagator on the geometry.
 
 From these five integers, one derived integer is universally important:
 
@@ -109,7 +109,7 @@ g_w(M_Z) = 2 √(π · rank · g / (N_c · N_max)) = 0.6535,
 
 against an observed 0.6532 — agreement at 0.05 %.
 
-The intuition is straightforward. The maximal torus of D_IV⁵ is two-dimensional (rank = 2), and the closed cycles on it are labeled by pairs of integers (m, n). The Bergman volume per cycle scales as 1/N_max (the boundary suppression), the cycle multiplicity is rank·g = 14 (the spinor cover times the Bergman genus), and the color factor 1/N_c appears because color does not couple to the weak gauge sector. The new content beyond the well-known α_EM = 1/N_max is that α_w is *also* boundary-suppressed by the same N_max factor, multiplied by a rank·g/N_c combinatorial factor. Tier **I**.
+The intuition is straightforward. The maximal torus of D_IV⁵ is two-dimensional (rank = 2), and the closed cycles on it are labeled by pairs of integers (m, n). The Bergman volume per cycle scales as 1/N_max (the boundary suppression), the cycle multiplicity is rank·g = 14 (the spinor cover times the signature weight), and the color factor 1/N_c appears because color does not couple to the weak gauge sector. The new content beyond the well-known α_EM = 1/N_max is that α_w is *also* boundary-suppressed by the same N_max factor, multiplied by a rank·g/N_c combinatorial factor. Tier **I**.
 
 | Quantity | BST formula | Predicted | Observed (PDG 2024) | Δ |
 |---------|-------------|-----------|---------------------|---|
@@ -161,10 +161,10 @@ The running of α_s between scales is controlled to one loop by
 with β_0 = (11 N_c − 2 N_f) / 3. Evaluated at the three flavor thresholds relevant to QCD, β_0 is a BST integer in each case:
 
 - **Pure gauge** (N_f = 0): β_0 = 11 N_c / 3 = 11 = c_2, the BST Chern coefficient c_2 = rank·n_C + 1.
-- **6-flavor SM** (N_f = 6): β_0 = (33 − 12) / 3 = 7 = g, the Bergman genus. This is T1788.
+- **6-flavor SM** (N_f = 6): β_0 = (33 − 12) / 3 = 7 = g, the signature weight. This is T1788.
 - **3-flavor low-energy QCD** (N_f = 3): β_0 = (33 − 6) / 3 = 9 = N_c².
 
-That all three are BST integers is not automatic — it is the conjunction of the standard QCD formula with N_c = 3 and the BST identifications c_2 = 11, g = 7. The middle case (T1788) is the operationally relevant one for the full Standard Model and ties the QCD β-function to the same Bergman genus that appears in the weak coupling numerator of Section 2.2. Tier **D** (these are algebraic consequences of the standard QCD β-function evaluated at the BST integer values).
+That all three are BST integers is not automatic — it is the conjunction of the standard QCD formula with N_c = 3 and the BST identifications c_2 = 11, g = 7. The middle case (T1788) is the operationally relevant one for the full Standard Model and ties the QCD β-function to the same signature weight that appears in the weak coupling numerator of Section 2.2. Tier **D** (these are algebraic consequences of the standard QCD β-function evaluated at the BST integer values).
 
 | Regime | β_0 (BST) | β_0 (QCD) |
 |--------|-----------|-----------|
@@ -264,7 +264,7 @@ Toy 2417 (W-20) reads the three charged-lepton masses as three successive Wallac
 
 m_μ / m_e = N_c · π² · g = 3 · π² · 7 = 207.394,
 
-matching the observed 206.768 at 0.30 %. The intuition is that the muon is one Wallach layer above the electron, and the mass step on that layer carries the three BST integers visible at the first cohomology level of Q⁵: N_c (color/generation index), π² (the Riemann ζ(2) factor from the first non-trivial Wallach mode), and g (the Bergman genus). Tier **I**.
+matching the observed 206.768 at 0.30 %. The intuition is that the muon is one Wallach layer above the electron, and the mass step on that layer carries the three BST integers visible at the first cohomology level of Q⁵: N_c (color/generation index), π² (the Riemann ζ(2) factor from the first non-trivial Wallach mode), and g (the signature weight). Tier **I**.
 
 Lyra's independent identification through theorem T1942 (Ogg primes) gives
 
@@ -642,7 +642,7 @@ The Higgs has the richest decay structure of the three SM bosons, with nine dist
 
 BR(H → bb̄) = g / (rank · C_2) = 7/12 = 0.5833,
 
-against the PDG value 0.582 — a **0.22 % match** (Toy 2435 verification). The form g/(rank·C_2) reads as the Bergman genus (g = 7) over the product of the maximal-torus rank (rank = 2) and the quadratic Casimir (C_2 = 6); geometrically, this is the area of the dominant Yukawa loop normalized by the BST orbit dimension. Tier **I**, flagged ★ for the sub-0.5 % residue.
+against the PDG value 0.582 — a **0.22 % match** (Toy 2435 verification). The form g/(rank·C_2) reads as the signature weight (g = 7) over the product of the maximal-torus rank (rank = 2) and the quadratic Casimir (C_2 = 6); geometrically, this is the area of the dominant Yukawa loop normalized by the BST orbit dimension. Tier **I**, flagged ★ for the sub-0.5 % residue.
 
 **Tau pair channel — new identification.** Toy 2448 establishes
 
@@ -866,7 +866,7 @@ A third structural class emerges from Section 5: certain loop-level observables 
 - **Kaon CP violation** (T1920): ε_K = α²·42, matching the PDG value at 0.43 %.
 - **Higgs diphoton decay** (Toy 2448): BR(H → γγ) = α²·42, matching the observed branching ratio at 1.4 %.
 
-These two processes are physically distinct: ε_K is a flavor-changing neutral process driven by box diagrams with W and top loops, while BR(H → γγ) is a 2-photon decay driven by top and W triangle loops. The shared coefficient 42 is not a coincidence: it is the **Chern-flux integer of the second cohomology class of Q⁵**, equivalently C_2 · g where C_2 = 6 is the dimension of the SU(2) gauge sector and g = 7 is the Bergman genus. Loop integrals that close on the second Chern class of Q⁵ pick up this factor by construction.
+These two processes are physically distinct: ε_K is a flavor-changing neutral process driven by box diagrams with W and top loops, while BR(H → γγ) is a 2-photon decay driven by top and W triangle loops. The shared coefficient 42 is not a coincidence: it is the **Chern-flux integer of the second cohomology class of Q⁵**, equivalently C_2 · g where C_2 = 6 is the dimension of the SU(2) gauge sector and g = 7 is the signature weight. Loop integrals that close on the second Chern class of Q⁵ pick up this factor by construction.
 
 A natural prediction follows: any α² loop observable whose underlying topology is a 2-vertex closure on Q⁵'s second Chern class must carry this same coefficient. Candidates for future verification include rare top decays through 2-photon vertices, certain CP-asymmetry observables in B-meson decays, and the corresponding amplitude in Higgs-to-Z-photon (Section 5.4 gave α²·28, the third Chern integer χ + rank²; one cohomology class above).
 

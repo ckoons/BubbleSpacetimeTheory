@@ -83,7 +83,7 @@ The Higgs has the richest decay structure of the three SM bosons, with nine dist
 
 BR(H → bb̄) = g / (rank · C_2) = 7/12 = 0.5833,
 
-against the PDG value 0.582 — a **0.22 % match** (Toy 2435 verification). The form g/(rank·C_2) reads as the Bergman genus (g = 7) over the product of the maximal-torus rank (rank = 2) and the quadratic Casimir (C_2 = 6); geometrically, this is the area of the dominant Yukawa loop normalized by the BST orbit dimension. Tier **I**, flagged ★ for the sub-0.5 % residue.
+against the PDG value 0.582 — a **0.22 % match** (Toy 2435 verification). The form g/(rank·C_2) reads as the signature weight (g = 7) over the product of the maximal-torus rank (rank = 2) and the quadratic Casimir (C_2 = 6); geometrically, this is the area of the dominant Yukawa loop normalized by the BST orbit dimension. Tier **I**, flagged ★ for the sub-0.5 % residue.
 
 **Tau pair channel — new identification.** Toy 2448 establishes
 

@@ -1,0 +1,27 @@
+# K1396 — dependency audit of the "one knot, two forcings" claim (K1395). ★ VERDICT: the knot HOLDS — the non-circular G really does close on the program's blind forcings, and the synthesis is real. But two honest sharpenings before it's relayed as a headline: **(1) it's two forcings PLUS one target-innocence check — 6π⁵ (F402) is a THIRD dependency, not one of the two forcings, and must be independently verified target-innocent (not reverse-fit to m_p/m_e).** **(2) Forcing B has an internal step: storage=16 and exponent=12 are DIFFERENT numbers (16 ≠ 12); the link is "cell-count → 16/3 → the 8π normalization → standard Planck mass → exponent 12," a chain, not an identity.** Verified computationally. Cal cold-reads.
+
+**Keeper (2026-08-12, ~08:35. I stress-tested my own K1395 one-knot claim before it hardens. It holds, with two refinements that keep it from over-simplifying — the kind of thing a referee would catch if we didn't. Cal cold-reads. Nothing pushed.)**
+
+## The honest input ledger for "G predicted from m_e" (traced, verified)
+The chain: **m_e → M_Planck = m_e/(6π⁵·α^{2C₂}) → G = ℏc/M_Planck²**. What it actually depends on:
+- **ONE dimensionful input:** m_e (measured, non-gravitational). ✓ (clean, K1394/K1395)
+- **Forcing A — α = 137** (m_e uses α^{2C₂}). The 137 channel-capacity lane, blind.
+- **Forcing B — exponent 2C₂ = 12** (vs 11.67), via the 8π. The cell-count lane, blind.
+- **★ Gate C — the prefactor 6π⁵ = C₂·π^{n_C}** (= m_p/m_e = 1836.12, verified). This is F402 (rep theory: N_c!·π^{n_C}, baryon antisymmetrization × Plancherel). **It is a THIRD dependency, NOT one of the two forcings** — and it is load-bearing: if 6π⁵ was reverse-fit to the known m_p/m_e (or m_e/M_Planck), the whole non-circular-G is compromised. **Must be independently verified target-innocent** (F402/F429 claim it is — the per-step-α is the open piece, not the prefactor; verify).
+- **Given axioms (not forcings):** the five integers N_c, n_C, C₂, g, rank.
+
+## ★ Sharpening 1: it's "two forcings + one target-innocence check," not "two forcings"
+The clean "two blind forcings close the foundation" is *substantially* right but should carry the 6π⁵ caveat when relayed. **Honest form: the non-circular G is Derived when (A) α=137 is forced blind AND (B) the exponent 12 is forced via the cell-count AND (C) 6π⁵ is verified target-innocent.** Two blind forcings + one target-innocence check. (C is likely already satisfied — F402 — but it's a distinct gate, name it.)
+
+## ★ Sharpening 2: forcing B has an internal step — 16 and 12 are DIFFERENT numbers
+This one matters for referees. The boundary **storage = 16** (= 2^{n_C−1}, the DM/gravity cell-count, → 16/3) and the electron **exponent = 12** (= 2C₂) are **not the same number** — do not present "storage 16 forces exponent 12" as if 16 = 12. The actual chain (verified):
+> cell-count storage → **16/3** → the **8π normalization** works out → **standard** Planck mass (not reduced) → electron exponent n = **2C₂ = 12.00**.
+- Computationally: the reduced Planck mass (÷√8π) shifts the exponent by 0.5·ln(8π)/ln(1/α) = **0.328**, giving n = 11.67; the standard Planck mass gives n = 12.00. So the cell-count's job is to fix **standard-vs-reduced Planck mass** (via whether the gravity coefficient carries the net 8π), and *that* sets the exponent. **The 16 and the 12 are linked through the 8π, with a real logical step between them — state the step, don't collapse it.**
+
+## Why this matters (the anti-numerology point turned on our own synthesis)
+"16 and 12 both fall out of the geometry, and one forces the other" is *exactly* the kind of two-clean-numbers claim that reads as numerology if the connecting mechanism is left implicit (the Wyler lesson, applied to our own headline). **The mechanism is the 8π-normalization step, and it IS the make-or-break we've been climbing — so name it as the step, and the claim is honest and referee-safe.** The knot is real; the connective tissue between 16 and 12 is the 8π, and that 8π is precisely forcing B. Nothing is hidden — but nothing should be collapsed either.
+
+## Net (for the relay)
+**The one-knot synthesis holds and is genuinely strong:** the non-circular G, the electron mass, α=137, and the boundary storage are one structure, and it closes on the program's own blind forcings. **Relay it as:** *one dimensionful input (m_e), and G falls out when two numbers are forced blind (α=137 via the channel-capacity; the exponent 12 via the cell-count's 8π-normalization) and one prefactor (6π⁵) is confirmed target-innocent.* That's the precise, defensible form — not "two forcings and 16 forces 12."
+
+— Keeper, K1396, 2026-08-12. Dependency audit of the one-knot claim (K1395): HOLDS. Ledger for G-from-m_e: 1 dimensionful input (m_e, non-grav); Forcing A (α=137, channel-capacity blind); Forcing B (exponent 2C₂=12 via the 8π, cell-count blind); Gate C (6π⁵=C₂·π^{n_C}=m_p/m_e prefactor, F402 — a THIRD dependency, verify target-innocent, not reverse-fit); given axioms = 5 integers. SHARPEN 1: "two forcings + one target-innocence check (6π⁵)," not just two forcings. SHARPEN 2: storage=16 (2^{n_C−1}) and exponent=12 (2C₂) are DIFFERENT numbers — linked via a chain (cell-count→16/3→8π normalization→standard Planck mass→n=12), NOT 16=12; reduced Planck shifts n by 0.5·ln(8π)/ln(1/α)=0.328→11.67. Anti-numerology: name the 8π step, don't collapse 16→12 (Wyler lesson on our own headline). Relay form: one input m_e, G falls out when α=137 + exponent-12 forced blind + 6π⁵ target-innocent confirmed. Cal cold-reads. Nothing pushed.

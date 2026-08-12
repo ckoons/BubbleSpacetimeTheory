@@ -34,7 +34,7 @@ This is a uniqueness criterion of a new KIND: not "D_IV⁵ uniquely satisfies pr
 ## 3. New criterion C19 — ρ-vector pins three primaries, split by region
 
 **C19 (NEW, FRAMEWORK-PLUS)**: The B_2 Weyl vector ρ = (n_C, N_c)/rank = (5/2, 3/2) pins three of the five primaries (rank, n_C, N_c) to ONE canonical spectral invariant, and splits them exactly by physical region:
-- ρ_1 = n_C/rank = Bergman genus/rank → bulk
+- ρ_1 = n_C/rank = signature weight/rank → bulk
 - ρ_2 = N_c/rank = Wallach discrete point/rank → Shilov
 
 This reduces three primaries to one invariant (ρ) + the region structure (Elie Toy 3583). Strengthens uniqueness: rank, n_C, N_c are not three independent choices but one ρ-vector. **Tier: FRAMEWORK-PLUS (canonical spectral invariant).**

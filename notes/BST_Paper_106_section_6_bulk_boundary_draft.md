@@ -65,7 +65,7 @@ A third structural class emerges from Section 5: certain loop-level observables 
 - **Kaon CP violation** (T1920): ε_K = α²·42, matching the PDG value at 0.43 %.
 - **Higgs diphoton decay** (Toy 2448): BR(H → γγ) = α²·42, matching the observed branching ratio at 1.4 %.
 
-These two processes are physically distinct: ε_K is a flavor-changing neutral process driven by box diagrams with W and top loops, while BR(H → γγ) is a 2-photon decay driven by top and W triangle loops. The shared coefficient 42 is not a coincidence: it is the **Chern-flux integer of the second cohomology class of Q⁵**, equivalently C_2 · g where C_2 = 6 is the dimension of the SU(2) gauge sector and g = 7 is the Bergman genus. Loop integrals that close on the second Chern class of Q⁵ pick up this factor by construction.
+These two processes are physically distinct: ε_K is a flavor-changing neutral process driven by box diagrams with W and top loops, while BR(H → γγ) is a 2-photon decay driven by top and W triangle loops. The shared coefficient 42 is not a coincidence: it is the **Chern-flux integer of the second cohomology class of Q⁵**, equivalently C_2 · g where C_2 = 6 is the dimension of the SU(2) gauge sector and g = 7 is the signature weight. Loop integrals that close on the second Chern class of Q⁵ pick up this factor by construction.
 
 A natural prediction follows: any α² loop observable whose underlying topology is a 2-vertex closure on Q⁵'s second Chern class must carry this same coefficient. Candidates for future verification include rare top decays through 2-photon vertices, certain CP-asymmetry observables in B-meson decays, and the corresponding amplitude in Higgs-to-Z-photon (Section 5.4 gave α²·28, the third Chern integer χ + rank²; one cohomology class above).
 

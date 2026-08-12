@@ -30,7 +30,7 @@ g_w(M_Z) = 2 √(π · rank · g / (N_c · N_max)) = 0.6535,
 
 against an observed 0.6532 — agreement at 0.05 %.
 
-The intuition is straightforward. The maximal torus of D_IV⁵ is two-dimensional (rank = 2), and the closed cycles on it are labeled by pairs of integers (m, n). The Bergman volume per cycle scales as 1/N_max (the boundary suppression), the cycle multiplicity is rank·g = 14 (the spinor cover times the Bergman genus), and the color factor 1/N_c appears because color does not couple to the weak gauge sector. The new content beyond the well-known α_EM = 1/N_max is that α_w is *also* boundary-suppressed by the same N_max factor, multiplied by a rank·g/N_c combinatorial factor. Tier **I**.
+The intuition is straightforward. The maximal torus of D_IV⁵ is two-dimensional (rank = 2), and the closed cycles on it are labeled by pairs of integers (m, n). The Bergman volume per cycle scales as 1/N_max (the boundary suppression), the cycle multiplicity is rank·g = 14 (the spinor cover times the signature weight), and the color factor 1/N_c appears because color does not couple to the weak gauge sector. The new content beyond the well-known α_EM = 1/N_max is that α_w is *also* boundary-suppressed by the same N_max factor, multiplied by a rank·g/N_c combinatorial factor. Tier **I**.
 
 | Quantity | BST formula | Predicted | Observed (PDG 2024) | Δ |
 |---------|-------------|-----------|---------------------|---|
@@ -82,10 +82,10 @@ The running of α_s between scales is controlled to one loop by
 with β_0 = (11 N_c − 2 N_f) / 3. Evaluated at the three flavor thresholds relevant to QCD, β_0 is a BST integer in each case:
 
 - **Pure gauge** (N_f = 0): β_0 = 11 N_c / 3 = 11 = c_2, the BST Chern coefficient c_2 = rank·n_C + 1.
-- **6-flavor SM** (N_f = 6): β_0 = (33 − 12) / 3 = 7 = g, the Bergman genus. This is T1788.
+- **6-flavor SM** (N_f = 6): β_0 = (33 − 12) / 3 = 7 = g, the signature weight. This is T1788.
 - **3-flavor low-energy QCD** (N_f = 3): β_0 = (33 − 6) / 3 = 9 = N_c².
 
-That all three are BST integers is not automatic — it is the conjunction of the standard QCD formula with N_c = 3 and the BST identifications c_2 = 11, g = 7. The middle case (T1788) is the operationally relevant one for the full Standard Model and ties the QCD β-function to the same Bergman genus that appears in the weak coupling numerator of Section 2.2. Tier **D** (these are algebraic consequences of the standard QCD β-function evaluated at the BST integer values).
+That all three are BST integers is not automatic — it is the conjunction of the standard QCD formula with N_c = 3 and the BST identifications c_2 = 11, g = 7. The middle case (T1788) is the operationally relevant one for the full Standard Model and ties the QCD β-function to the same signature weight that appears in the weak coupling numerator of Section 2.2. Tier **D** (these are algebraic consequences of the standard QCD β-function evaluated at the BST integer values).
 
 | Regime | β_0 (BST) | β_0 (QCD) |
 |--------|-----------|-----------|

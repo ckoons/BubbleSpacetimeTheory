@@ -25,7 +25,7 @@ The Rydberg wavelength is $\lambda_R = 1/R_\infty = 91.176$ nm. The integer part
 $$91 = 7 \times 13$$
 
 In BST integers:
-- $7 = g$ — the Bergman genus of $D_{IV}^5$
+- $7 = g$ — the signature weight of $D_{IV}^5$
 - $13 = 2C_2 + 1 = 2 \times 6 + 1$ — twice the Casimir invariant plus the observer shift
 
 The decomposition $91 = g(2C_2 + 1)$ is exact in the sense that both factors are BST expressions. It is not a coincidence: the Rydberg constant is $R_\infty = \alpha^2 m_e c / (2\hbar)$, and since $\alpha = 1/N_{\max} = 1/137$ and $m_e$ is the Bergman kernel ground state (T186), the Rydberg wavelength inherits BST structure.

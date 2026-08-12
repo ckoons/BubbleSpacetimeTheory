@@ -35,7 +35,7 @@
 | N5 | Cyclic group Z_N_c | The reading frame: 3 slots that wrap | 1 |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which | 1 |
 | N7 | Integer partition / product | Breaking or multiplying integer pieces | 1 |
-| N8 | Bergman genus g = 7 | Maximum independent spectral layers | 1 |
+| N8 | Spectral-layer weight g = 7 (signature / fermion-mode weight, NOT the Bergman genus = n_C = 5, Hua 1963) | Maximum independent spectral layers | 1 |
 | N9 | Casimir C_2 = 6 | Bits per recognition event | 1 |
 | N10 | Dimension dim_R = 2n_C = 10 | Real dimension of D_IV^5 (also N_c + g) | 1 |
 | N11 | Prime factorization | Breaking numbers into primes | 1 |

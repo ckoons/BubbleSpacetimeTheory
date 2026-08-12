@@ -276,7 +276,7 @@ Now: 21 = C(7, 2) counts the independent ways to choose 2 items from 7. In the L
 
 **Significance.** This is the first direct number_theory-to-biology edge in the entire graph. The heat kernel — a purely analytic object living in spectral geometry — speaks the number 21. The genetic code — a purely biological object — uses 21 classes. The theorem says: they count the same thing because they come from the same geometry.
 
-**What it does not prove.** It does not prove that the genetic code is determined by spectral geometry. It proves that both objects produce 21 by the same counting argument: C(g, 2) where g = 7 is the Bergman genus of D_IV^5. The identification is arithmetic, not biological.
+**What it does not prove.** It does not prove that the genetic code is determined by spectral geometry. It proves that both objects produce 21 by the same counting argument: C(g, 2) where g = 7 is the signature weight of D_IV^5. The identification is arithmetic, not biological.
 
 ### 5.2 Prediction #5: Holographic bound IS Shannon's channel coding converse
 

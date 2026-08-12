@@ -90,7 +90,7 @@ A 10 cm × 10 cm Si wafer with cavities at pitch $p = g \times d_0 = 7 \times 74
 | Total cavities | $\sim 3.7 \times 10^{10}$ |
 | Cavity pitch | 0.521 μm |
 
-The pitch factor $g = 7$ (Bergman genus) sets the metamaterial period $\Lambda = g \times d_0 = 521$ nm, which is also the period for phonon bandgap engineering (Toy 934).
+The pitch factor $g = 7$ (signature weight) sets the metamaterial period $\Lambda = g \times d_0 = 521$ nm, which is also the period for phonon bandgap engineering (Toy 934).
 
 ### Section 3.2 Not the Long-Wavelength Limit
 

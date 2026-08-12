@@ -17,7 +17,7 @@ This document compiles every BST integer identification made on Saturday May 16,
 | N_c | 3 | Color count, minimum confining dimension |
 | n_C | 5 | Complex dim of D_IV⁵ |
 | C_2 | 6 | Casimir, B₂ root system dim |
-| g | 7 | Bergman genus |
+| g | 7 | signature weight |
 | c_2 | 11 | First Chern of Q⁵ (= rank·n_C+1) |
 | c_3 | 13 | Second Chern of Q⁵ (= N_c+rank·n_C) |
 | seesaw | 17 | Top Chern (= N_c³ − rank·n_C) |
@@ -321,7 +321,7 @@ Mohs/pH/Beaufort/Mercalli/Saffir-Simpson all BST integer scales. Hurricane Cat 5
 
 **Integer 141** (2 observables): Hubble/Planck length log, largest phoneme inventory.
 
-**Integer g = 7** (8+ observables): Bergman genus, Pr_water, Miller WM, sun deflection coefficient, BCS gap factor, stellar M-L slope, mathematical constants.
+**Integer g = 7** (8+ observables): signature weight, Pr_water, Miller WM, sun deflection coefficient, BCS gap factor, stellar M-L slope, mathematical constants.
 
 **Integer rank³ = 8**: Bott periodicity, nuclear magic 8, octave, adult teeth.
 

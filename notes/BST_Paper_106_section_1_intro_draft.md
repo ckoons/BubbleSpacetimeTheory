@@ -16,9 +16,9 @@ The five integers are:
 | Color count | N_c | Dimension of the minimal Wallach K-type | 3 |
 | Complex dimension | n_C | Complex dimension of D_IV⁵ | 5 |
 | Casimir | C_2 | Quadratic Casimir on the B₂ root system | 6 |
-| Genus | g | Bergman genus of D_IV⁵ | 7 |
+| Genus | g | signature weight of D_IV⁵ | 7 |
 
-One sentence per integer for readers new to the framework. The **rank** is the dimension of the maximal torus, the largest commuting subalgebra of the symmetry group — a B₂ root system gives a rank-2 torus. The **color count** N_c is the size of the smallest non-trivial Wallach K-type, the minimal "tile" that the geometry can decompose into. The **complex dimension** n_C is the number of complex coordinates needed to label a point in D_IV⁵; physically, the number of independent ways the geometry can "twist" at a point. The **Casimir** C_2 is the quadratic Casimir invariant on the B₂ root system, counting the number of long-root pairs. The **Bergman genus** g is the genus of the Bergman kernel on D_IV⁵ — the topological invariant of the propagator on the geometry.
+One sentence per integer for readers new to the framework. The **rank** is the dimension of the maximal torus, the largest commuting subalgebra of the symmetry group — a B₂ root system gives a rank-2 torus. The **color count** N_c is the size of the smallest non-trivial Wallach K-type, the minimal "tile" that the geometry can decompose into. The **complex dimension** n_C is the number of complex coordinates needed to label a point in D_IV⁵; physically, the number of independent ways the geometry can "twist" at a point. The **Casimir** C_2 is the quadratic Casimir invariant on the B₂ root system, counting the number of long-root pairs. The **signature weight** g is the genus of the Bergman kernel on D_IV⁵ — the topological invariant of the propagator on the geometry.
 
 From these five integers, one derived integer is universally important:
 
