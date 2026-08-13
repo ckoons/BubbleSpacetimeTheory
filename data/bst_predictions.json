@@ -100,12 +100,12 @@
    "category": "not_yet_measured",
    "prediction": "0nu-beta-beta OCCURS: neutrinos are Majorana (forced by F413/K673 - Weinberg operator, no steriles, gamma-5 shadow intertwiner nu_R non-unitary). Effective Majorana mass m_bb in [1.4, 3.7] meV, normal ordering with m_nu1 = 0 (hierarchical). The range spans the two Majorana phases (alpha_21, alpha_31).",
    "bst_value": "|m_bb| in [1.4, 3.7] meV",
-   "current_measurement": "Best limit: |m_bb| < 36-156 meV (KamLAND-Zen, 2023)",
+   "current_measurement": "Best limit (FRESH 2026-08-13): |m_bb| < 28-122 meV (KamLAND-Zen COMPLETE dataset, T₁/₂ > 3.8×10²⁶ yr, arXiv:2406.11438; NME-dependent range). Supersedes the stale 36-156 meV (2023). BST's [1.4, 3.7] meV is ~10-90× BELOW current sensitivity — a null result does NOT refute BST.",
    "experiment": "LEGEND-1000, nEXO, KamLAND-Zen",
    "timeline": "2027-2035",
-   "falsification_criterion": "Inverted mass ordering (JUNO); OR Σm_ν clearly ≠ 0.059 eV (cosmology); OR a 0νββ detection at 10-20 meV (refutes m₁=0). NOT a null 0νββ (BST's signal is below current reach).",
+   "falsification_criterion": "★ FORWARD KILL-TEST (banked 2026-08-13): BST predicts next-gen 0νββ (LEGEND-1000, nEXO; reach ~10-20 meV) will NOT detect the decay — the signal sits below their reach. A 0νββ DETECTION at |m_bb| > ~4 meV FALSIFIES BST (implies m₁≠0, OR inverted ordering, OR a Majorana contribution larger than the m₁=0-NO window). Also killed by: inverted ordering (JUNO ~2030); a definitive Σm_ν clearly ≠ 0.058 eV (cosmology). NOT refuted by a null 0νββ (signal below reach). ★ DISTINCTIVE: the SUM 0.058 is the generic minimal-NO floor (not distinctive); the sub-4-meV m_bb window + m₁=0 EXACTLY is the BST-specific distinguisher — this is where the real teeth are.",
    "impact_if_falsified": "Would break the Majorana neutrino sector (F413) and/or the banked PMNS forms (sin2_th12=3/10, sin2_th13=1/45) or the m_nu1=0 hierarchical spectrum.",
-   "status": "banked",
+   "status": "banked — forward kill-test we own and are passing (BST below current + next-gen reach; a detection > ~4 meV kills it)",
    "bst_integers_used": [
     "N_c",
     "rank",
@@ -2299,7 +2299,7 @@
    "timeline": "2027-2035",
    "falsification_criterion": "DUNE resolves the LOWER octant (sin²θ₂₃ < 0.5) decisively → the μ-τ-breaking direction is wrong; OR θ₂₃ measured far from maximal (e.g. <0.42 or >0.62) → the Shilov-ℤ₂ maximal source is wrong.",
    "impact_if_falsified": "Refutes the Shilov-ℤ₂ μ-τ-symmetry source for atmospheric maximal (T2534); the color-duality (T2535) is independent and survives.",
-   "status": "pre-registered (blind-pinned; near-maximal Derived, deviation Identified)",
+   "status": "pre-registered (blind-pinned; near-maximal Derived, deviation Identified) — UPPER-OCTANT banked as the DISTINCTIVE PMNS kill-test (Grace 2026-08-13)",
    "tier": "I",
    "ace": "(0,0)",
    "bst_integers_used": [
@@ -2310,7 +2310,8 @@
    "related_constants": [
     "sin2_th23_PMNS"
    ],
-   "source_section": "lepton mixing (K1020/T2534)"
+   "source_section": "lepton mixing (K1020/T2534)",
+   "grace_2026-08-13_note": "DISTINCTIVE TEETH BANKED (Casey directive, Thursday). Fresh NuFIT-6.0 (NO): sin²θ₂₃ upper-octant 0.561±0.013 / lower 0.470±0.015, octant UNRESOLVED. BST predicts UPPER octant: 4/7=0.571 → 0.80σ (UO) / 6.8σ (LO); the alt corpus form 6/11=0.545 → 1.2σ (UO) / 5.0σ (LO). The KILL-TEST IS FORM-INDEPENDENT — every upper-lean form dies if the LOWER octant settles decisively (JUNO/DUNE/T2HK, ~2027-2035). This is the forward, falsifiable claim BST OWNS, parallel to the 0νββ sub-4-meV window. HONEST (Cal target-innocence): the rationals are consistent but NOT sold — sell the OCTANT, not the rational. RESOLVED (Keeper PMNS-form ruling + Casey directive): the bundle sheet is now ALIGNED to the data-layer canonical set — θ₂₃ = 4/7 (this entry, canonical), θ₁₂ = 42/137 (most target-innocent, rides forced cap 137; alt 3/10 SUPERSEDED), θ₁₃ = Casey-ruled TIE 1/45 (N_c²·n_C) & 3/137 (N_c/N_max), both Identified/unbroken (K1260). My prior sheet cited θ₂₃=6/11 and θ₁₃=1/44 (the latter not even a banked form) — corrected. Two+ forms per angle is the proxy-signal that the rationals are IDENTIFIED not forced (K1017); octant kill-test untouched."
   },
   {
    "id": "pred_122",
