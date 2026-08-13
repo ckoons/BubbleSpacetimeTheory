@@ -41,7 +41,7 @@ This trace can be evaluated K-type by K-type:
 
 $$Z_{\text{sub}}(\beta) = \sum_\lambda \dim(V_\lambda^{(K)}) \cdot e^{-\beta E_\lambda}$$
 
-where $E_\lambda = \lambda_1(\lambda_1 + 3) + \lambda_2(\lambda_2 + 1)$ is the $SO(5)$ Casimir eigenvalue on K-type $(\lambda_1, \lambda_2)$ (in substrate energy units). The ground-state K-type $(0,0)$ contributes 1; the K-type $(1,1)$ contributes $\dim V_{(1,1)} \cdot e^{-6\beta}$ with $\dim V_{(1,1)} = $ 14 (the standard $SO(5)$ rep dimension).
+where $E_\lambda = \lambda_1(\lambda_1 + 3) + \lambda_2(\lambda_2 + 1)$ is the $SO(5)$ Casimir eigenvalue on K-type $(\lambda_1, \lambda_2)$ (in substrate energy units). The ground-state K-type $(0,0)$ contributes 1; the K-type $(1,1)$ contributes $\dim V_{(1,1)} \cdot e^{-6\beta}$ with $\dim V_{(1,1)} = 14$ (the standard $SO(5)$ rep dimension).
 
 ### 5.3 Wick rotation: partition function from path integral
 

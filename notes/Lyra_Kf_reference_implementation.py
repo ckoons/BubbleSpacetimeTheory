@@ -158,3 +158,71 @@ def dolbeault_sea(pc):
     D=sum(gz[i]*pc[i]+gzb[i]*np.conj(pc[i]) for i in range(len(pc)))
     w,V=np.linalg.eigh(D); neg=V[:,w<-1e-9]
     return neg@neg.conj().T, G5, D
+
+
+# =====================================================================================
+# THE CURVED OPERATOR (F961): the covariant Dolbeault-Dirac on D_IV^5 = the ASSEMBLY.
+# The ONLY change from the flat dolbeault_sea (F954) is the connection A from the Bergman metric --
+# that connection is the "missing curvature" Elie diagnosed (5217). Flat build: ground D^2 = 0.
+# Curved build: ground D^2 = -n_C*g/4 = -8.75 = -|rho_{B_3}|^2 (SIGNED negative -- the sea's ground is
+# below zero, which is WHY there is a sea; the 3 negative-D^2 K-types). |c| = 8.75 is the invariant.
+# PREDICTION on record (F960, before Elie measures): |c| = 8.75 +/- 0.05 (Kostant alt 6.25).
+# =====================================================================================
+def _logdetg(z, genus=5, h=2e-3):
+    def Gd(w):
+        w=np.asarray(w,complex); return 1-2*np.vdot(w,w).real+abs(np.sum(w*w))**2
+    n=len(z); H=np.zeros((n,n),complex)
+    for i in range(n):
+        for j in range(n):
+            def f(a,b,c,d):
+                zz=np.array(z,complex); zz[i]+=a+1j*b; zz[j]+=c+1j*d; return np.log(Gd(zz))
+            dxx=(f(h,0,h,0)-f(h,0,-h,0)-f(-h,0,h,0)+f(-h,0,-h,0))/(4*h*h)
+            dyy=(f(0,h,0,h)-f(0,h,0,-h)-f(0,-h,0,h)+f(0,-h,0,-h))/(4*h*h)
+            dxy=(f(h,0,0,h)-f(h,0,0,-h)-f(-h,0,0,h)+f(-h,0,0,-h))/(4*h*h)
+            dyx=(f(0,h,h,0)-f(0,h,-h,0)-f(0,-h,h,0)+f(0,-h,-h,0))/(4*h*h)
+            H[i,j]=0.25*(dxx+dyy)+0.25j*(dxy-dyx)
+    m=(-genus)*H; ev=np.linalg.eigvalsh((m+m.conj().T)/2); return np.sum(np.log(np.abs(ev)))
+
+def bergman_connection(z, h=3e-3):
+    """K^{1/2}-twist Chern connection A_i = -1/2 d_i log det g_Bergman(z). Zero at origin, nonzero off it."""
+    n=len(z); A=np.zeros(n,complex)
+    for i in range(n):
+        zp=np.array(z,complex); zm=np.array(z,complex); zp[i]+=h; zm[i]-=h
+        A[i]=-0.5*(_logdetg(zp)-_logdetg(zm))/(2*h)
+    return A
+
+def dolbeault_dirac_curved(z, pc):
+    """CORRECTED (F963): D = M + M^dag, M = covariant dbar = sum gz_i (i conj(pc_i) + A_i).
+       HERMITIAN BY CONSTRUCTION (dbar plus its own adjoint) -- NO stray-i sign freedom.
+       [F961 was WRONG: it paired gz_i with holo pc_i and dropped the adjoint minus -> mixed
+        self-adjointness (Elie's catch); the sign came from the stray i, not the geometry.]
+       For Hermitian D, D^2>=0: the negative -8.75 is NOT the kinetic ground -- it is the CURVATURE
+       ENDOMORPHISM (Lichnerowicz R/4-term), sign fixed by R<0 (geometry). c is GLOBAL (the (0,0)
+       K-type over the whole domain), NOT a local origin eval (A=0 there -> flat 0). OPEN: whether the
+       causal/Finster operator is this Euclidean-Hermitian one or its Krein-Hermitian sibling -- BUILD,
+       don't pick (Cal holds sign certification until then)."""
+    gz,gzb,G5=dolbeault_clifford(len(pc))
+    A=bergman_connection(z)
+    M=sum(gz[i]*(1j*np.conj(pc[i])+A[i]) for i in range(len(pc)))   # covariant dbar (raises, anti-holo momentum)
+    return M + M.conj().T                                           # + its own adjoint => Hermitian, no stray i
+
+
+# =====================================================================================
+# THE CAUSAL SEA (F964): the sea FORCES the operator to be Hermitian (Elie, target-innocent):
+# sea = chi_(-inf,0)(H) is DEFINED only if H is self-adjoint (real spectrum). So the causal operator
+# is dolbeault_dirac_curved (D = M + M^dag, Hermitian by construction) -- settles F963's open question.
+# The sign is then SETTLED BY THE SEA, not a convention: H Hermitian -> spectrum real, +/- symmetric
+# (chirality-odd {D,Gamma_5}=0) -> c = curvature-induced mass^2 = |D_ground|^2 >= 0 -> POSITIVE.
+# Certified c = +8.75 (magnitude |rho_B3|^2). The -8.75 (curvature endomorphism, R/4, R<0) is a
+# SEPARATE object; the sea's measurable c is +8.75.
+# =====================================================================================
+def causal_sea_projector(z, pc):
+    """Sea = chi_(-inf,0)(D) of the causal Dirac D=dolbeault_dirac_curved (Hermitian).
+       ELIE'S TRAP GUARD: assert Hermiticity BEFORE eigen-decomposition -- a silent complex eigenvalue
+       would fake a sea. Returns (sea_projector, real_spectrum)."""
+    D=dolbeault_dirac_curved(z,pc)
+    herm_err=np.linalg.norm(D-D.conj().T)/max(np.linalg.norm(D),1e-30)
+    assert herm_err < 1e-10, f"NON-HERMITIAN operator (err={herm_err:.1e}): sea is UNDEFINED, do not proceed."
+    w,V=np.linalg.eigh(D)                      # eigh REQUIRES Hermitian -> real spectrum guaranteed
+    neg=V[:,w<-1e-9]
+    return neg@neg.conj().T, w

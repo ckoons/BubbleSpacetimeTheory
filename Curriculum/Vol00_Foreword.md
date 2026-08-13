@@ -10,7 +10,7 @@ document: "Curriculum Front Matter"
 
 This is a textbook about physics. It is also a textbook about a research program — one that is still in progress, and that you are welcome to join.
 
-The physics derives from a single geometric object: the five-dimensional bounded symmetric domain $D_{IV}^5 = SO_0(5,2) / [SO(5) \times SO(2)]$. Five integers fall out of it — $\text{rank}=2$, $N_c=3$, $n_C=5$, $C_2=6$, $g=7$ — and from those five integers, every constant of the Standard Model can be derived without a free parameter. The proton-to-electron mass ratio is $6\pi^5$, accurate to 0.002%. Newton's gravitational constant comes from the geometry's curvature. The fine-structure constant lives inside the integer relation $N_c^3 \cdot n_C + \text{rank} = 137$. The cosmological constant is $g \cdot \exp(-C_2(g^2 - \text{rank}))$. Physics is the equilibrium-state output of a substrate that computes — and the substrate has a name and a shape.
+The physics derives from a single geometric object: the five-dimensional bounded symmetric domain $D_{IV}^5 = SO_0(5,2) / [SO(5) \times SO(2)]$. Five integers fall out of it — $\text{rank}=2$, $N_c=3$, $n_C=5$, $C_2=6$, $g=7$ — and from them the dimensionless structure of the Standard Model is fixed with *no free dimensionless parameters* (where the Standard Model itself takes about nineteen), every claim carried at an honest tier. The proton-to-electron mass ratio is $6\pi^5$, accurate to 0.002%. Newton's gravitational constant is *predicted* — from the electron mass, to about 0.07%. The number $137$ at the heart of the fine-structure constant is $N_c^3 \cdot n_C + \text{rank}$, a computed invariant of the shape. Even the cosmological constant's famous tininess appears as a clean exponential of these same integers — an *identification* whose deeper mechanism we are still chasing, and we will say so wherever we lean on it. Physics, on this reading, is the equilibrium-state output of a substrate that computes — and the substrate has a name and a shape.
 
 That is the claim. This book shows the work.
 
@@ -50,7 +50,7 @@ Computational verifications — we call them **toys** — live in the repository
 
 ## What this book is, and is not
 
-This book is a presentation of work in progress. The substance is settled enough to teach from — sixteen volumes drafted, hundreds of predictions verified, all seven Millennium problems proved by the team — but the program is alive. Theorems are added. Audits close. New connections appear. The version you are reading is a snapshot.
+This book is a presentation of work in progress. The substance is settled enough to teach from — sixteen volumes drafted, hundreds of predictions verified, and substantive, honestly-tiered attempts at all seven Millennium problems (none of them claimed as a finished proof — we say exactly where each one stands) — but the program is alive. Theorems are added. Audits close. New connections appear. The version you are reading is a snapshot.
 
 This book is **not** the final word. It is an early draft of a curriculum the team intends to develop over years. Worked examples will be added. Diagrams will be added. Some chapters will be rewritten — perhaps after you read them. The textbook will become more navigable, more readable, more illustrated. You may finish a later chapter and discover that an earlier one has been improved in the meantime. That is by design. A living document is supposed to keep growing.
 

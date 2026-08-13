@@ -50,3 +50,44 @@ status: "v1.1 (Lane 3). All 11 rows web-verified 2026-08-10 with primary sources
 - Hubble tension: [The Hubble Tension: A Decade Review (RAA)](https://iopscience.iop.org/article/10.1088/1674-4527/ae842f); SH0ES 73.17±0.86 (Breuval 2024), Planck 67.4±0.5.
 - QCD string tension (√σ ≈ 420 MeV): [Effective confining potentials for QCD (arXiv:1403.5651)](https://arxiv.org/pdf/1403.5651).
 - Dark-matter direct detection (null): [LZ record limits, PRL 2025 (LBL)](https://www.physics.lbl.gov/lz-results-published-in-prl/); [DM direct detection status (arXiv:2512.23039)](https://arxiv.org/html/2512.23039).
+
+---
+
+## v1.0 Board Tiering (Cal, 2026-08-13) — for the Falsifiable Predictions paper
+
+Tiered by **kill-potential × pre-registration × current status**. External framing MUST lead with Tier A and explicitly label Tier D as weak. Compute-don't-fit; report tensions straight (Cal #27: brightest when it feels safe to hand-wave — don't).
+
+**Tier A — LIVE-SHARP (pre-registered, near-term, genuine kill-potential; these are what "how to kill BST" means):**
+- **Row 1 — DE no phantom crossing.** Forward-falsifier with TEETH: **pred_125** — complete-monotonicity forbids a phantom crossing in the *geometric* H(z), so a crossing found in the direct Hubble rate falsifies BST *by its own kill condition*. **Status 2026-08-13: FAVORABLE on the cleanest probe** — the radial BAO shows no crossing (**T2559**, BST's monotone relaxation survives). Honest counterweight (no spin): the combined SNe+CMB fit still leans dynamical ~3σ, which BST *shares with ΛCDM*; the phantom lives in the SNe, not in H(z) — that split is a BST-distinctive lead, not yet a win. DESI DR3 = the real test.
+- **Row 3 — Σm_ν, lightest neutrino exactly massless.** SHARP; currently FAVORABLE (bound squeezed toward the NO floor ~0.059 eV). Refuted if the bound robustly falls below ~0.059 eV, or a nonzero lightest mass / inverted ordering is established. (DE-degeneracy caveat noted.)
+- **Row 6 — θ₂₃ upper octant.** LIVE and UNRESOLVED — a genuine untested call (NuFIT-6.0 no preference). Refuted if DUNE/T2HK establish the lower octant.
+
+**Tier B — FAVORABLE-NOW (data currently pulls for BST; state plainly, don't under-claim, but each is one dataset from flipping):**
+- **Row 2 — muon g−2 → lattice** (~0.6σ, WP25; the dispersive ~4σ anomaly evaporated). (Rows 1 and 3 are also currently favorable but sit in Tier A for their kill-sharpness.)
+
+**Tier C — NULL-CONSISTENT (Five-Absence: BST predicts null, experiments are null; any single positive detection refutes the set):**
+- Row 4 (no proton decay), Row 5 (no GUT/SUSY/monopole), Row 7 (no α-drift), Row 8 (r ≈ α², effective null), Row 11 (no DM particle). Broad null-consistency; the kill is a *positive* detection anywhere in the set.
+
+**Tier D — WEAK / target-aware (do NOT lead externally; label as weak — they are not evidence, only consistency):**
+- **Row 9 — H₀ ratio 12/13** (found-to-match, NOT pre-registered → weak).
+- **Row 10 — √σ = m_p/√n_C** (DOUBLY target-aware: found-to-match AND convention-picked → weakest).
+
+**Honest headline for the paper.** The sharpest live exposures are **DE-no-crossing (row 1)** and **Σm_ν (row 3)** — both pre-registered, both currently favorable on the cleanest data (radial BAO survives; Σm_ν squeezed to the NO floor). The Five-Absence set (Tier C) is a broad null-consistency killed by any positive detection. The weak rows (Tier D) are labeled weak and led with never.
+
+**Off the falsifier board (belong on the flagship, not the kill-list):** gravity (G from m_e+α to 0.07%) and α=1/N_max (137, Identified-strong) are settled predictions/consistencies, not live forward-falsifiers — keep them off this board.
+
+*This tiering feeds the Falsifiable Predictions paper board; it is v1.0. [VERIFY] rows (v1.2 queue) still need current-sourced bounds before any external send, and — per the new two-voice rule — nothing goes external until both the Journey-narrative and academic versions exist plus Casey's GO.*
+— Cal, 2026-08-13.
+
+---
+
+## Coupling update (Cal, 2026-08-13) — certifying no-crossing SHARPENS Σm_ν; Rows 1 and 3 are now COUPLED
+
+Today's certified result (§460 / T2560: DE no-crossing, the phantom is a low-z calibration systematic) has a **direct, self-consistent consequence for Row 3 (Σm_ν)** that we take on purpose rather than dodge:
+
+- **The DE-degeneracy escape on Row 3 is now FORBIDDEN to BST.** Row 3's caveat ("the cosmological Σm_ν bound loosens to ~0.16 eV IF row 1's DE evolves") no longer protects us — **we certified no-crossing, so BST owns the tight, ΛCDM-level Σm_ν bound.** BST cannot both claim no-crossing (favorable) and hide behind evolving-DE relaxation (which requires a crossing). We took the favorable DE corner; the tight neutrino bound comes with it.
+- **The floor is target-innocent:** Σm_ν ≈ **0.0588 eV** is the **normal-ordering oscillation minimum** (m_lightest = 0, from the measured Δm²_21 = 7.49×10⁻⁵ and Δm²_31 = 2.513×10⁻³ eV²) — NOT a BST-tuned number. BST's claim "lightest neutrino exactly massless" → Σ = the NO minimum. (The floor moves slightly with the measured Δm²; quote it from current oscillation data, ~0.058–0.059 eV, not memory.)
+- **Net:** the tight ΛCDM DESI+CMB bound (~0.06 eV) now applies to BST directly, and **0.0588 eV sits right at the edge** — Σm_ν is BST's SHARPEST live exposure (Tier A), and it just got sharper. Rows 1 and 3 are **coupled, not independent** — do not tally them as two separate wins; the DE win *buys* the Σm_ν exposure. That is the honest structure: the falsifier is strong *because* we chose the exposed corner.
+
+**Certification pending (Grace's coupled DE–Σm_ν sheet):** the current DESI DR2 + CMB Σm_ν bound must be pulled FRESH from a primary source (these go stale in weeks), evaluated under the no-crossing assumption we now own, with 0.0588 eV stated straight against it — favorable or exposed, reported as it lands. Cal certifies target-innocence when it arrives.
+— Cal, 2026-08-13.

@@ -34,7 +34,7 @@ The three mass eigenstates are:
 | $\nu_2$ | $(n_C+2)/(4N_c) = 7/12$ | $0.00865$ | $\approx 0.00868$ |
 | $\nu_3$ | $2n_C/N_c = 10/3$ | $0.04940$ | $\approx 0.0503$ |
 
-BST predicts **normal ordering** ($m_1 < m_2 < m_3$) with $m_1 = 0$ exactly. The sum $\Sigma m_\nu = 0.058$ eV is below the Planck bound (0.12 eV) and the DESI+Planck bound (0.072 eV).
+BST predicts **normal ordering** ($m_1 < m_2 < m_3$) with $m_1 = 0$ exactly. The sum $\Sigma m_\nu = 0.058$ eV. [Updated 2026-08-13: the current bound is **DESI DR2 + CMB < 0.064 eV** (95%, ΛCDM; arXiv:2503.14738), not the stale 0.072. BST's 0.058 is safe by ~0.006 eV under ΛCDM. ★ COUPLING (T2561): BST's certified no-crossing dark energy (w>−1, T2559/T2560) forbids the phantom relaxation, so BST is committed to the tight ΛCDM bound and CANNOT retreat to the dynamical-DE < 0.16 eV. The boundary-corrected Feldman-Cousins < 0.053 eV breaches the NO oscillation floor 0.059 — a tension shared by all minimal-NO theories, not BST-specific. Cosmology now prefers positive Σm_ν at 2.7σ (favorable). The distinctive BST content is m₁=0 *exactly* + the specific m₂/m₃ + the 0νββ window, not the sum.]
 
 ### 1.2 PMNS Mixing Angles
 
