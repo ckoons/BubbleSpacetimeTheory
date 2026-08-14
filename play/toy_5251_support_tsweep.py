@@ -1,0 +1,17 @@
+import numpy as np
+exec(open('causet.py').read().split('print("STEP 1')[0])
+exec(open('commit_order.py').read().split('print("=')[0])
+rng=np.random.default_rng(41)
+print("THE CONFOUND: does whole-region r on R x S^4 depend on the SLAB THICKNESS T?")
+print("  (dimension is FIXED at 5 throughout -- only the region changes)")
+print()
+print("   T      r          height    N=1000")
+for T in [0.8,1.0,1.5,2.0,2.5,3.0,4.0]:
+    t,x=sprinkle_ESU(1000,4,T); R=relations_ESU(t,x)
+    print("   %.1f    %.4f     %2d"%(T,ordering_fraction(R),height(R)))
+print()
+print("  => r sweeps across the ENTIRE calibration ladder purely by changing T,")
+print("     with the dimension fixed at 5. r is NOT a dimension estimator without region-matching.")
+print("  => at T = 2.0 it lands at ~0.10 = EXACTLY my pre-registered d=4 target (toy 5250).")
+print("     Reporting that as 'manifoldlike d=4' would have been the 12th address --")
+print("     the pre-registered number hit on the nose by a parameter I never controlled.")

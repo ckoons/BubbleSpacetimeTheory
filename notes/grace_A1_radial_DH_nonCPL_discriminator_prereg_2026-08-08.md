@@ -115,3 +115,15 @@ Full-covariance (validated ΛCDM χ²/dof=0.899). CPL-phantom reference χ²=162
 2. **No-offset control:** BST-monotone with offset FIXED=0 gives χ²=1630.3 — **essentially TIED with CPL (Δ=+0.6)**. So BST's no-crossing model competes with the phantom WITHOUT any offset; the offset only marginally improves it (0.6→2.4 in BST's favor). The phantom's ~2σ pull over ΛCDM/BST-no-crossing is weak, and the offset isn't doing the heavy lifting.
 3. **Threshold not tuned:** BST+off ≤ CPL for ALL low-z thresholds (z<0.05, 0.08, 0.10, 0.15). The z<0.1 boundary is the STANDARD Pantheon+/DES low-z anchor set, physically motivated, and the result is robust to it.
 **Net:** the offset was a free grid parameter; the fit chose ~0.04 mag = within the independent documented Pantheon+/DES low-z calibration systematic (0.02-0.05), a prior it was not told. BST wins over a range, not a point; BST-no-offset is already tied. Cal decides, but the evidence is "free, not tuned."
+
+---
+## ★ REFEREE-PROOFING — Cal §497 three defensibility gates (2026-08-14, K1523)
+*Fiducial-robust firing (K1516) hardened with Cal's three gates. Backward-propagated here to the source doc per §497.1 (a correction must reach the source, not only the newest artifact).*
+
+**Data:** source-verified DESI DR2 D_H/r_d (Cobaya ALL_GCcomb, block-diagonal, K1436 table). Best-fit Ωm=0.270, χ²/dof=0.95.
+
+- **GATE 1 — smoothing-matched null.** Statistic = linear-trend slope of the 6 residuals; null = same 6-point linear fit applied to isotropic N(0,1) noise (Monte Carlo, 20k). Observed b=−0.11, null sd(b)=0.68 → **0.17σ (p=0.86)** → no trend. The "smoothing" (the linear fit) is applied identically to signal and null, so the significance is not fit-inflated.
+- **GATE 2 — pre-registered z-window.** The phantom crossing z≈0.9 was named in this prereg (2026-08-08), BEFORE the data — not a post-hoc window. Mean residual below z=0.9 = −0.76σ; above = +0.26σ. The phantom fingerprint (coherent low<0 → high>0 jump) is **absent** at the pre-registered split.
+- **GATE 3 — quantitative robustness tolerance (relative Δχ²).** Pre-declared: "SURVIVES" iff no fiducial is *simultaneously* data-preferred (Δχ²<4 vs best-fit) AND shows a >2σ phantom trend. Result: at best-fit trend=−0.17σ; a phantom trend appears only for **Ωm≥0.32, disfavored by Δχ²≥5 (≥2.2σ)**, and even there only marginal (~2.0σ, never >2.5σ). **No data-preferred, significant flip exists anywhere.**
+
+**REFEREE-PROOF VERDICT:** BST's no-crossing SURVIVES the model-independent radial-BAO probe, fiducial-robust, all three §497 gates passed. The falsification (a coherent >2σ residual sign-flip at a data-consistent fiducial, K1040's kill) does NOT occur. **Honest caveat kept:** a marginal 2σ flip is reachable only via a ≥2.2σ-disfavored fiducial — stated, not hidden. COUNT-ONCE with Σm_ν (one coupled fact, T2561). SCOPE: radial-BAO only; SNe-combined = separate DES-SN5YR test (T2560). Λ Structural; shape Structure-Derived (F799, rate λ₁=C₂=6); never fit to DESI.
