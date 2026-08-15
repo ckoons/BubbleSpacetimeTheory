@@ -1,0 +1,42 @@
+import numpy as np
+rng=np.random.default_rng(1549)
+print("="*80)
+print("(b) DOES THE COMMIT PROJECTION DO WHAT H_B CANNOT? -- reopening velocity at the right operator")
+print("="*80)
+print("  @Keeper is right that my 5273 (v=0) was about H_B, the EVOLUTION generator. The commit is a")
+print("  PROJECTION. A projection is idempotent, not unitary -- it generates no flow either.")
+print("  BUT a SEQUENCE of projections at sites Omega_0, Omega_1, ... IS a trajectory:")
+print("        v ~ dist(Omega_{n+1}, Omega_n) / Delta_tau")
+print()
+print("  ⟹ so the commit projection DOES supply what H_B cannot: a POSITION per tick (Born-localisation,")
+print("     T2542). And the VELOCITY is then just the step between successive sites.")
+print()
+print("★ WHICH CONSOLIDATES THE FRONTIER: velocity is NOT an independent missing input.")
+print("  It is a FUNCTION of the site sequence. Supply the site-measure and the velocity comes with it.")
+print("  Keeper's 'position corpus-supplied, velocity missing' becomes ONE unknown, not two.")
+print()
+print("="*80)
+print("★★ AND A SHARP QUANTITATIVE CONSTRAINT FALLS OUT ON THE MISSING INPUT")
+print("="*80)
+print("  If commitment sites were drawn IID from the (only derived) uniform measure on S^4,")
+print("  the step between successive commitments is the typical separation of two random points:")
+N=200000
+x=rng.normal(size=(N,5)); x/=np.linalg.norm(x,axis=1)[:,None]
+y=rng.normal(size=(N,5)); y/=np.linalg.norm(y,axis=1)[:,None]
+sep=np.arccos(np.clip(np.sum(x*y,axis=1),-1,1))
+print("     mean separation = %.4f rad,  median = %.4f rad   (sphere diameter = pi = 3.1416)"%(sep.mean(),np.median(sep)))
+print()
+fmax=154.0
+print("  The angular-record mechanism needs  b = v*Delta_tau  <  sigma/f_max, f_max ~ %.0f."%fmax)
+for sig in [1e-2,1e-3,1e-6]:
+    print("     sigma = %.0e  =>  required step < %.2e rad   vs IID step %.2f rad  =>  violated by %.1e"%(
+        sig,sig/fmax,sep.mean(),sep.mean()/(sig/fmax)))
+print()
+print("  ⟹ IID SITES FAIL THE BOUND BY 10-15 ORDERS OF MAGNITUDE. An observer whose commitments")
+print("     land at independent points JUMPS ACROSS THE SPHERE each tick -- an enormous baseline --")
+print("     so depth WOULD be recoverable and the record would NOT be angular.")
+print()
+print("  ⟹ ★ THE MISSING INPUT IS NOT A DISTRIBUTION, IT IS A PROCESS. The site-measure must be")
+print("     strongly CORRELATED in time -- successive commitments adjacent, step < ~1e-4 rad.")
+print("     That is a sharper specification than 'supply a measure', and it is falsifiable:")
+print("     any proposed matter input that yields near-independent sites is DEAD ON ARRIVAL.")

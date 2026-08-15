@@ -18,15 +18,17 @@ The decisive feature — the one standard causal-set theory *lacks* — is that 
 posit or randomly grow the order; it derives it** from the geometry. The *tangent-space*
 signature is fixed to **(3,1)** (Structure-Derived, T2545), and *Order + Number = Geometry*
 (Malament + Sorkin) is realized literally, with BST supplying both the order (commit sequence)
-and the number (commitment count = Casimir energy). We show why this is **simpler and more
-fundamental than a Causal Fermion System**: Finster's causality is *reconstructed* from an
-internal spinor-Krein spectral object (the A_xy classification) plus a causal-action
-minimization; BST's causality *is* the order, with no internal spectral construction at all.
+and the number (commitment count = Casimir energy). BST realizes causality by a **different, order-theoretic route**:
+where a Causal Fermion System *reconstructs* causality from an internal spinor-Krein spectral
+object (the A_xy classification) plus a causal-action minimization, **BST's causality *is* the
+order directly** — and BST does **not** satisfy Finster's specific A_xy classification (a
+structural difference, not a ranking).
 The one genuinely open theorem — the continuum limit — is stated honestly and split into a
 part now **shown** and a part still **open**: the commit-forced order **escapes the
-Kleitman-Rothschild pancake** (the measure-zero trap of generic posets — its height grows,
-whereas KR is flat-3 by theorem), which is real progress; but the continuum-limit **dimension
-and metric remain open and unmeasured** — escaping KR is *not* a dimension measurement. BST
+Kleitman-Rothschild pancake** (the measure-zero trap of generic posets — at the physical size
+N=137 its Myrheim-Meyer ordering fraction is 0.098 vs the KR pancake's 0.626, a clean ~6x
+separation), which is real progress; but the continuum-limit **dimension and metric remain open
+and unmeasured** — escaping KR is *not* a dimension measurement. BST
 enters with the tangent signature and volume measure pinned and the KR trap escaped; the
 continuum dimension is the honest open frontier.
 
@@ -189,12 +191,16 @@ is **"escape the KR pancake"**: show that BST's forced growth law does *not* lan
 generic non-manifold trap.
 
 **One half of this is now measured; the other half is not — and the two must not travel in the
-same sentence.** The direct, runnable diagnostic is whether BST's forced order is a KR pancake:
-KR pancakes are **flat, height 3** (a theorem, convention-independent), so a growing poset
-height is a clean, convention-free escape signal. **Banked result:** the poset the commit
-operator exp(-τH_B) forces has **growing height — it is NOT the Kleitman-Rothschild pancake.**
-BST's forced order escapes the generic measure-zero trap. This is real progress toward the
-continuum limit, and it is all that is measured.
+same sentence.** The direct, runnable diagnostic at the physical size is the **Myrheim-Meyer
+ordering fraction**: KR pancakes sit at r ~ 0.626, while at N=137 the commit-forced order reads
+**r ~ 0.098 — a clean ~6x separation.** **Banked result:** by the ordering fraction, the poset the
+commit operator exp(-τH_B) forces is **NOT the Kleitman-Rothschild pancake** — it escapes the
+generic measure-zero trap. *(A caveat we owe, Elie 5261: the *height* discriminator, natural as it
+seems, does **not** separate at the physical size — the commit order's height is 3.8 vs KR's 3 at
+N=137, too close. Height-growth is instead the **continuum-limit** leg — height grows unboundedly as
+N -> inf whereas KR stays flat-3 — an asymptotic statement, not the physical-N discriminator. The
+ordering fraction is the banked escape fact.)* This is real progress toward the continuum limit, and
+it is all that is measured.
 
 **What is NOT measured: the dimension.** Escaping the KR pancake says the order is *not* the
 generic non-manifold object; it does **not** say the continuum dimension is 4. The Myrheim-
@@ -215,8 +221,8 @@ What BST brings that generic causal-set theory does not:
 - the **volume measure is given** (commitment count) — Order + Number are both in hand.
 
 So the open theorem has two parts, and only the first is closed: *(i) the commit-forced order
-escapes the KR pancake* — **shown** (growing height); *(ii) the continuum limit is (3,1)
-Minkowski, at dimension 4* — **open and unmeasured.** BST enters the hard problem with the
+escapes the KR pancake* — **shown** (ordering fraction 0.098 vs 0.626 at N=137); *(ii) the
+continuum limit is (3,1) Minkowski, at dimension 4* — **open and unmeasured.** BST enters the hard problem with the
 tangent signature and the volume measure pinned and the KR trap escaped, and the continuum
 dimension and metric still to be established.
 
@@ -272,19 +278,26 @@ infinite" but *which sector*.** BST is *both*: a **finite interior** (the commit
   boundary condition** (Casey, K1522), the CMB-frame analogue. This **subsumes** the infinite
   sector: it has a rest frame because its matter does, exactly as in GR, and needs no SSB.
 
-**Status: strongly favored COMPLETE — but the verdict is the hostile referee's, not ours (Cal
-#121).** Three closures now stand — the geometric no-go (5257), the interior finiteness /
-symmetry-protected gap (5260), and the Machian exterior frame (K1522) — and together they leave the
-5 -> 4 descent a permanent FRAMEWORK-tier posit *exactly as GR posits its manifold*. **We do not
-declare it closed:** two SSB premises (a dynamics and a derived superselection rule) remain
-un-exhibited, and whether internal SSB is *genuinely* excluded given BST is both finite and infinite
-is a judgement we have twice over-declared today. We state the honest tier — **strongly favored
-complete, pending Cal's #121 ruling** — and leave the verdict to the referee. What the day bought at
-full value: **one clean theorem that permanently bounds the search space** (a boundary marker that
-never has to be re-derived), plus two of the three closure legs. **What stands, banked and
-independent:** the not-KR positive (now unqualified — the commit order *is* the conformal causal
-order on the Shilov boundary R x S⁴, object confirmed), the causal-set structure, the derived
-*order*, Order + Number = Geometry, and the tangent (3,1) signature.
+**Status (Cal's verdict, rendered — #121): COMPLETE-AT-FLOOR.** The 5 -> 4 descent is a
+**FRAMEWORK-tier structural posit**, exactly as GR posits its spacetime manifold. Three closures
+stand — the geometric no-go (5257), the interior finiteness / symmetry-protected gap (5260), and
+the Machian exterior frame (K1522). **Internal SSB is *unsupported*, not *excluded*:** two premises
+(a dynamics and a derived superselection rule) remain un-exhibited, so the referee does not certify
+exclusion — only that the posit is complete at its floor with no supported route down. **One named
+reopening condition:** exhibit a genuine infinite-volume limit in which the symmetry-protected gap
+*closes* (the SSB entry). The theorem's lasting value: it **permanently bounds the search space** —
+a boundary marker that never has to be re-derived. **What stands, banked and independent:** the
+not-KR positive (Section 8; object confirmed), the causal-set structure, the derived *order*,
+Order + Number = Geometry, and the tangent (3,1) signature.
+
+**Casey's override — the descent is NOT closed for us.** The "complete-at-floor" verdict is the
+*referee's* status of the record; it is **not** an instruction to stop. Because BST is
+better-positioned than generic causal-set theory (the order is *forced*, not randomly grown; it
+escapes KR; the tangent signature is (3,1)), the manifold and the continuum limit are to be
+**attempted, not parked** — from D_IV⁵ and the corpus, via the *dynamical* route the no-go cannot
+touch (the continuum limit of the growing causal set -> 4-D, whereupon the manifold emerges and the
+descent is realized dynamically). We package only at a genuine block, not from caution. This is the
+open frontier of Section 8, and it is where the work continues.
 
 ---
 
@@ -296,9 +309,11 @@ order on the Shilov boundary R x S⁴, object confirmed), the causal-set structu
   Lorentz-invariant with boosts as re-foliations (K1227).
 - **ESTABLISHED (imported):** Malament-HKM (order => conformal metric) and Sorkin (number =>
   volume) are standard results BST *feeds*, not claims.
-- **SHOWN (banked):** the commit-forced order **escapes the Kleitman-Rothschild pancake** — its
-  poset height grows, whereas KR is flat-3 by theorem (convention-independent). BST is not in
-  the generic non-manifold trap.
+- **SHOWN (banked):** the commit-forced order **escapes the Kleitman-Rothschild pancake** — at the
+  physical size N=137 its Myrheim-Meyer ordering fraction is **0.098 vs KR's 0.626** (~6x, the
+  discriminator; Elie 5261). *(The earlier "height grows" leg does not separate at N=137 — height
+  3.8 vs 3, too close; height-growth is the continuum-limit leg, N -> inf, not the physical-size
+  discriminator.)* BST is not in the generic non-manifold trap.
 - **OPEN (unmeasured):** the continuum-limit dimension and metric. Escaping KR is **not** a
   dimension measurement; the Myrheim-Meyer ordering fraction becomes a dimension estimator only
   under a region-matched manifold-like sampling not yet established at the required N. Next

@@ -152468,6 +152468,21 @@
    "integer_set": "n_C,N_c",
    "integer_set_source": "keeper_K902_K903_2026_07_25",
    "notes": "HELD CANDIDATE (K902/K903, Elie rho-mapping; Grace filing 2026-07-25). The electron boundary-excess 5/3 = n_C/N_c = genus/a = rho_1/rho_2 is a GENUINE D_IV^5 ratio (bulk falloff / boundary multiplicity), matching the required 1.66 to 0.4%. PLANCK-ANCHORED: m_e = 6*pi^5*alpha^(2*C_2)*m_Planck already reaches m_Planck through C_2=6 layers, so this needs NO new external scale. It is the boundary-geometric explanation of the electron's anomalous lightness (Casey's two-bubble flattened-contact picture, validated for the ELECTRON only). SCOPE: explains the electron's excess; does NOT span the mu-tau hierarchy (structural, K902: g=7 bulk exponent is integrability-FORBIDDEN, p<=1.70 vs observed 6.96). NOT banked as a mass derivation. Note the ratio value 5/3 also appears as Kolmogorov K41 exponent and monatomic gamma (const catalog) -- same n_C/N_c integer ratio, different physical mechanism; not a double-derivation. See Keeper_K902/K903 2026-07-25."
+  },
+  {
+   "id": "INV-5680",
+   "symbol": "(nu)_lambda",
+   "name": "Faraut-Koranyi two-factor generalized Pochhammer (K-type harmonic norm on D_IV^5)",
+   "formula": "(nu)_lambda = (nu)_{lambda_1} * (nu - d/2)_{lambda_2}, d = N-2 = 3 = N_c, genus p = 2+d(r-1) = 5 = n_C, rank r=2",
+   "geometric_source": "FK rank-2 type IV domain; the inner-product harmonic norm per K-type level (the object that makes the Kostant cubic Dirac symmetric)",
+   "value": "down-ladder 1:20:840 at nu=N_c=3 (Wallach threshold), single-row degrees {1,3,5}",
+   "observed": "reproduces 3 banked corpus values (target-innocent): down-quark d:s:b=1:20:840 (K1002/T2513); muon Gamma(n_C)=Gamma(5)=24 (F157); quark-SVD anchor Gamma(5/2)^2/Gamma(5)=3pi/128 (T2529)",
+   "precision": "exact",
+   "tier": "D",
+   "theorem": "closes K671",
+   "session": "2026-08-14",
+   "author": "Grace",
+   "notes": "Independent second-source verification (from the quark-ladder side, blind before Elie's operator-side). RESOLVES K671: the genuine rank-2 two-factor is the object; the scalar factorial is a single-row shadow (they agree only for lambda_2=0, diverge for two-row K-types which the Dirac operator uses). Same object load-bearing in 3 sectors: quark/lepton mass ladders, the Dirac inner-product norm, and (as |K|^2, signature-neutral) the causal-chain Direction-A factorization. See notes/.running/RUNNING_NOTES 2026-08-14."
   }
  ],
  "total": 5679

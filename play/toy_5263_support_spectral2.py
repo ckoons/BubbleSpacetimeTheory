@@ -1,0 +1,32 @@
+import numpy as np, sys
+def d_s(ev,taus):
+    ev=ev[ev>1e-9]; Z=np.array([np.sum(np.exp(-t*ev)) for t in taus])
+    return -2*np.gradient(np.log(Z),np.log(taus))
+print("="*80)
+print("WHY THE VALIDATION FAILED: the spectrum must span enough DECADES")
+print("="*80)
+print("  lambda_k ~ k^{2/d}: at fixed mode count M, the SPAN lam_max/lam_min = M^{2/d} SHRINKS with d.")
+print("  d=2, M=2e4 -> span 2e4 (4.3 decades). d=5, M=2e4 -> span 52 (1.7 decades). Too few.")
+print()
+print("   true d   modes M     span      d_s read    bias")
+for dtrue in [2,3,4,5]:
+    for M in [20000,200000,2000000]:
+        k=np.arange(1,M+1); ev=k**(2.0/dtrue)
+        lo,hi=1.0/ev.max(),1.0/np.percentile(ev,2)
+        taus=np.logspace(np.log10(lo)+0.3,np.log10(hi)-0.3,40)
+        if taus[-1]<=taus[0]: continue
+        ds=d_s(ev,taus); read=np.median(ds[12:28])
+        print("     %d      %8d   %8.1f   %7.3f    %+.3f"%(dtrue,M,ev.max()/ev.min(),read,read-dtrue))
+    print()
+print("="*80)
+print("★ AND THE CROSS-CHECK THAT MATTERS")
+print("="*80)
+print("  my spectral read on the REAL operator:  N=2 -> 1.288,  N=3 -> 1.878,  N=4 -> 2.495  (CLIMBING)")
+print("  Cal's F844 pre-measurement of the naive poset:  d ~ 1.3")
+print("  => 1.288 vs 1.3 is a near-exact match at the SMALLEST truncation.")
+print("  => both are LOW-RESOLUTION reads of something that climbs with resolution.")
+print("  => so F844's d~1.3 is plausibly the SAME truncation artifact, not a measurement of 1.3.")
+print()
+print("  and the 4.06 global ordering fraction is a REGION/aspect artifact (Grace, this morning).")
+print("  => the two headline numbers of this dig-in, 1.3 and 4.06, are resolution artifacts in")
+print("     OPPOSITE directions. Neither is the dimension. NOTHING is measured yet.")
