@@ -1,0 +1,54 @@
+# Commitment → type-IV: the ontology consolidated as the forcing premises, and the honest partial. **{commitment picks ONE positive direction (the arrow) + treats the rest isotropically (the bare act distinguishes nothing else)} candidate-forces the SPIN FACTOR** — the *unique* formally-real Jordan algebra whose symmetric cone is a round Lorentzian cone (signature (1, m−1)) — **hence type-IV.** Every alternative is excluded by enumeration (max Cal #27): the matrix Jordans (Sym/Herm ℝ,ℂ,ℍ) and the exceptional Albert/E₇ all have *matrix-positivity* cones (rank ≥ 3, GL/U-homogeneous, **no single distinguished positive direction**) — commitment's one forward arrow has nowhere to live in them. **This is the type-forcing, and only the type-forcing:** it does **not** deliver n_C=5 (type-IV holds for any m; n_C=5 needs a separate minimality principle — Elie). The load-bearing premise to pin is named: **is "the forward arrow (dynamical) = the boundary form's timelike axis (geometric)" commitment-native, or assumed?** — possibly the same bridge as the descent (T2565).
+
+> **Bar held (K1595):** target-innocent — no gauge Casimir, no N_c/N_f/confinement, the n+1=2(n−2) route is *not* used (it's target physics). Blind pre-registrations converged (Cal §532, Grace, Keeper K1595) *before* this computation. Maximum Cal #27 scrutiny: the most seductive result in the program.
+
+## The commitment ontology, consolidated (the target-innocent premises)
+
+Commitment, stripped of all physics, is three operator-facts:
+- **(C1) Idempotent:** a commitment is a projection — a made-or-not-made deposit, P²=P (eigenvalues {0,1}).
+- **(C2) Irreversible / positive-time:** it distinguishes **one** forward direction — the arrow (T2553: H_B ≥ 0, no τ<0).
+- **(C3) Minimal:** the *bare* act distinguishes nothing else — the remaining directions are undistinguished (isotropic) at the level of the *algebra* (an individual commitment may pick a boundary point Ω, but the algebra of *all* commitments does not privilege a spatial direction — the per-instance choice is the separate observer/descent story).
+
+## The forcing (enumerate every alternative, then "therefore")
+
+The five formally-real (Euclidean) Jordan algebras (Jordan–von Neumann–Wigner), by the shape of "positive":
+
+| algebra | rank | cone / "positive" | domain | one distinguished direction? |
+|---|---|---|---|---|
+| Sym(n,ℝ) | n | pos-def real symmetric (det, deg n) | III (Siegel) | **no** — GL(n)-homogeneous |
+| Herm(n,ℂ) | n | pos-def Hermitian ℂ | I | **no** — U-homogeneous |
+| Herm(n,ℍ) | n | pos-def Hermitian ℍ | II / SO*(2n) | **no** |
+| **Spin factor ℝ⊕ℝᵐ** | **2** | **round Lorentzian cone** {t>|v|}, sig (1,m−1) | **IV / SO(m,2)** | **YES — one timelike axis, isotropic space** |
+| Albert H₃(𝕆) | 3 | pos 3×3 octonion (det, deg 3) | E₇ (E₆ aut) | **no** — matrix-positivity |
+
+**The forcing chain:** (C2) one distinguished positive direction + (C3) isotropic remainder ⟹ the symmetric cone is **round with a single timelike axis** ⟹ **Lorentzian, signature (1, m−1)** ⟹ the **spin factor** (the *unique* formally-real Jordan algebra with a round Lorentzian cone) ⟹ **type-IV.**
+
+**The exclusions (each alternative, explicitly):** the matrix Jordans and the Albert algebra have *matrix-positivity* cones — positive-**definite** cones whose automorphism group (GL/U) acts transitively on the interior, so **no single direction is distinguished** and there is no isotropic "rest." Commitment's one forward arrow has **nowhere to live** in a matrix-positivity cone → **all excluded.** (C1) is consistent: the spin factor is the rank-2 algebra, and an idempotent is a rank-2 spectral act (min poly x(x−1)).
+
+**E₆/E₇ excluded explicitly** (rank-3 octonionic matrix-positivity). **#35 flag, on the record in advance:** E₇ has complex dimension **27 = 3³**, and the 27=3³ mainline lead is live — **these are different objects** (the exceptional Jordan algebra vs whatever 3³ the mainline finds); catch the coincidence *before* anyone connects them.
+
+## The honest verdict (which of the three forcings we land)
+
+- **TYPE forcing — CANDIDATE-FORCED.** {one positive direction + isotropic rest} → spin factor → type-IV, with all four alternatives excluded by enumeration. This removes the "why a bounded symmetric domain / why *this* family" arbitrariness — a real, target-innocent advance.
+- **DIMENSION forcing — NOT delivered.** Type-IV holds for any m (domain SO(m,2)). **n_C=5 is not forced by this argument** — it needs a *separate* minimality/irreducibility principle (Elie: m=5 is the first *irreducible, exclusive* type-IV — m=1 disc, m=2 reducible, m=3 Siegel-coincidence, m=4 = 2×2 ℂ matrices — so n_C ∈ {5,7,8,…}, minimum 5, **not uniquely 5**). Honest: **the dimension stays physics-fitted until minimality is derived.**
+- **THE CRUX (name it, don't blur it):** the whole type-forcing rests on **"the commitment's forward arrow (a *dynamical* fact) = the boundary form's timelike direction (a *geometric* fact)."** If this bridge is commitment-native, type-IV is forced. If it is assumed, it is the smuggle. It looks like the **same dynamical→geometric bridge as the descent (T2565, matter-induced)** — so the type-forcing may *reduce to the descent bridge*, which is honest and connects the two deepest questions.
+
+## Tier
+
+**CANDIDATE-FORCED: type-IV from {idempotent + one-forward-direction + isotropic rest}, all alternatives enumerated and excluded (Cal #27 held).** **NOT delivered: n_C=5 (needs minimality, Elie).** **CRUX: the arrow=timelike-axis bridge (possibly = the descent, T2565) — the load-bearing premise, named not hidden.** A **partial forcing is a real, honest win** (it forces the *type*, removes the domain-arbitrariness); it is **not** the full "n_C=5 forced by commitment." Nothing pushed. CP existence-only.
+
+**Lyra, 2026-08-16 (Phase-2 dig). Commitment candidate-forces TYPE-IV: {idempotent + one-forward-direction (arrow) + isotropic rest} → the round Lorentzian cone → the SPIN FACTOR (the unique formally-real Jordan algebra with that cone) → type-IV; the four alternatives (Sym/Herm ℝ,ℂ,ℍ matrix-positivity + Albert/E₇) EXCLUDED (no single distinguished direction; enumerated, Cal #27). n_C=5 NOT forced (needs minimality, Elie; n_C∈{5,7,8,…}). CRUX bridge named: arrow(dynamical)=timelike-axis(geometric), possibly = the descent (T2565). E₆/E₇ excluded; #35 flag on 27=3³ (E₇ dim 27, different object). Target-innocent (K1595 bar held). RUBRICS below.**
+
+## RUBRICS Layer-2 done-bar
+- [x] Consolidated the commitment ontology as target-innocent operator premises (idempotent / irreversible-positive-time / minimal-isotropic) — the on-ramp, no gauge/N_c.
+- [x] Enumerated ALL five formally-real Jordan algebras and their cones (before "therefore"); showed the matrix-positivity ones (Sym/Herm ℝ,ℂ,ℍ + Albert/E₇) have no single distinguished direction → excluded.
+- [x] Forcing chain: one direction + isotropic rest → round Lorentzian cone → spin factor (unique) → type-IV. CANDIDATE-FORCED.
+- [x] Held the honest split: TYPE forced (candidate), DIMENSION not (needs minimality, Elie; n_C∈{5,7,8,…}); named the crux bridge (arrow=timelike, possibly = the descent T2565).
+- [x] Excluded E₆/E₇ explicitly; flagged #35 on 27=3³ in advance; held the K1595 target-innocence bar (no n+1=2(n−2), no gauge Casimir). Nothing pushed. CP existence-only.
+
+## Handoffs
+- **@Grace — this is your type-forcing step, worked as linear algebra: {idempotent + irreversible + positive-time} → the spin factor, because it is the UNIQUE formally-real Jordan algebra whose positivity is a single direction (a round Lorentzian cone), and every matrix-positivity alternative is excluded.** Run it against your blind pre-registration: does your case-map agree that "one distinguished positive direction + isotropic rest" is the discriminator, and that it's commitment-native (not target physics)?
+- **@Elie — the minimality is the whole dimension question:** type-IV is any m; is m=5 forced over 7,8,9 by anything *commitment-native*, or does it need a separate minimality principle? If the latter (likely), n_C=5 stays physics-fitted and we say so. (And the crux bridge — is "arrow = timelike axis" the same object as the descent T2565?)
+- **@Keeper — adjudicate against K1595 and hold the type≠dimension line:** TYPE-IV candidate-forced (real win, removes domain-arbitrariness); n_C=5 NOT forced (minimality open). Do not let "type-IV forced" blur into "n_C=5 forced." The crux bridge (arrow=timelike) is the load-bearing premise — flag it as the thing that decides forced-vs-fit.
+- **@Cal — max #27 held: I enumerated all four alternatives and excluded each before "therefore"; E₆/E₇ excluded; #35 flagged on 27=3³ in advance.** Referee the crux: is "commitment's arrow = the boundary timelike axis" a *derivation* or a *dressed assumption*? That single bridge is the difference between forced type-IV and fitted type-IV.
+- **@Casey — your type-4→type-5 intuition split cleanly into its two honest halves, and the first half may actually be *forced*.** Here's the shape: the act of committing is one-way (an arrow), and one-way-ness picks out a single special direction — forward time. Now ask what kind of "positive" a geometry can have. There are exactly five algebras nature allows, and four of them measure positivity like a *matrix* — positive-definite, no single special direction, every direction inside the cone equivalent to every other. Only ONE of the five has positivity that *is* a single direction: the one whose "positive" means "inside a light cone," with one time axis and space isotropic around it. That's the spin factor — and it's exactly type-IV, our domain. So commitment's one-way arrow can *only* live in the type-IV geometry; the other four literally have nowhere to put it. That's the type forced by the act itself — no physics, no color, no confinement smuggled in. What it does **not** yet force is the *dimension*: type-IV comes in many sizes, and "why five" still needs a separate reason (five is the smallest one that's genuinely irreducible — Elie's checking whether anything about commitment forces five over seven or eight). So honestly: **commitment may force the *shape* of the geometry (Lorentzian, type-IV) but not yet its *size*.** And I'm holding one load-bearing question in the open, because it's exactly where we could fool ourselves — the argument needs the commitment's forward-arrow to *be* the geometry's time axis, and that step is the same bridge as the descent that makes spacetime. If it's genuinely part of what commitment *is*, the type is forced. If we're assuming it, we're smuggling. Either way, "the act of commitment forces a Lorentzian world" is the deepest thing we could say — and today it's a candidate with every alternative honestly ruled out, waiting on that one bridge. Nothing pushed.
