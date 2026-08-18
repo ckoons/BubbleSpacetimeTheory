@@ -1,0 +1,90 @@
+from fractions import Fraction as F
+import itertools
+print("="*104)
+print("TOY 5335 -- (A) reconcile the TWO Dirac operators   (B) exhibit W-16 <-> Z_3, or confirm two")
+print("  Linear algebra on D_IV^5. Tables first, verdict after.")
+print("="*104)
+
+print("\n--- PART A: are they the same operator? ---")
+print("\nTABLE 1 -- the DECISIVE test: heat-trace leading power IS the dimension.")
+print("   Tr e^{-tD^2} ~ (4 pi t)^{-n/2} (a_0 + a_1 t + ...)   -- n is not a convention, it is read off.")
+print("   operator                          manifold              real dim n   leading power")
+ops=[("Elie 5334 boundary D","S^4",4),
+     ("a Shilov-boundary D","(S^4 x S^1)/Z_2",5),
+     ("Lyra Kostant cubic D (T2562)","D_IV^5 bulk = G/K",10)]
+for nm,mf,n in ops:
+    print("   %-33s %-21s %-12d t^{-%s}"%(nm,mf,n,F(n,2)))
+print("   ==> *** THREE DIFFERENT LEADING POWERS ==> THREE DIFFERENT OPERATORS. ***")
+print("       My 5334 D lives on S^4 (dim 4) -- which is a FACTOR of the Shilov boundary (dim 5),")
+print("       not the boundary itself, and certainly not the bulk (dim 10). It is NOT the boundary")
+print("       restriction of the Kostant D. It is a THIRD object.")
+
+print("\nTABLE 2 -- Kostant's identity for D_IV^5 (the bulk operator's algebra)")
+print("   Kostant:  D^2 = -Omega_G + Omega_K + (||rho||^2 - ||rho_K||^2)")
+print("   g = so(5,2), complexifies to so(7,C) = B_3 (rank 3)")
+rho_G=[F(5,2),F(3,2),F(1,2)]; rho_K=[F(3,2),F(1,2)]
+nG=sum(x*x for x in rho_G); nK=sum(x*x for x in rho_K)
+print("   rho_G (B_3) = %s      ||rho_G||^2 = %s"%(rho_G,nG))
+print("   rho_K (B_2 = so(5)) = %s   ||rho_K||^2 = %s   (so(2) contributes 0)"%(rho_K,nK))
+print("   ==> constant = %s - %s = %s"%(nG,nK,nG-nK))
+print("   note: 25/4 = (n_C/2)^2.  *** CLEAN FORM -- CANDIDATE, NOT BANKED. *** Per the")
+print("         no-wave-through rule a clean number gets scrutiny, not celebration: I have not")
+print("         shown the n_C here is the same n_C as the domain's complex dimension.")
+
+print("\nTABLE 3 -- which operator does INDUCED GRAVITY need?")
+print("   claim under test: BST induces Einstein-Hilbert for the BULK D_IV^5 metric.")
+print("   operator            heat trace gives EH for...    is that the bulk D_IV^5 metric?")
+print("   Elie 5334 (S^4)     the metric OF S^4             *** NO ***")
+print("   Kostant D (bulk)    the metric of D_IV^5          YES")
+print("   ==> *** I OWN THE LIMITATION OF MY OWN 5334. *** It reproduced a_1 = -(1/3) Int R to 4e-7,")
+print("       but that is the Einstein-Hilbert term FOR S^4, on a 4-sphere of unit radius. It")
+print("       demonstrates that the Sakharov mechanism WORKS and lands on EH -- a proof of")
+print("       mechanism -- but it is NOT the BST induced-gravity computation, because it is the")
+print("       wrong manifold. @Cal's 'necessary, not sufficient' is exactly right, and sharper than")
+print("       I stated it: 5334 is necessary machinery, computed on the wrong space.")
+print("   ==> the induced-gravity claim must be run on the KOSTANT operator. That is the real job.")
+
+print("\n--- PART B: is W-16 the same as Z_3-superselection? ---")
+print("\nTABLE 4 -- try to build the proposed map 'winding mod N_c = center charge'")
+N_c=3
+homs=[(a,b) for a in range(N_c) for b in range(N_c)]
+print("   W-16's obstruction lives on the rank-2 torus T^2 -> winding lattice = Z^2")
+print("   the centre charge lives in Z_%d"%N_c)
+print("   a map Z^2 -> Z_%d is a homomorphism; how many are there?  |Hom(Z^2, Z_%d)| = %d"%(N_c,N_c,len(homs)))
+print("   they are (w1,w2) -> (a*w1 + b*w2) mod %d for (a,b) = %s..."%(N_c,homs[:4]))
+print("   ==> *** %d candidate maps, %d of them non-trivial. NOTHING IN W-16 SELECTS ONE. ***"%(len(homs),len(homs)-1))
+print("       An unforced choice among 8 non-trivial homomorphisms is not an exhibited map.")
+
+print("\nTABLE 5 -- *** and there is a DECISIVE structural mismatch, independent of the counting ***")
+print("   object     colour rep   triality / centre charge   does Z_3 see it?   does W-16 constrain it?")
+for nm,rep,t in [("quark","3",1),("antiquark","3bar",2),("GLUON","8 (adjoint)",0)]:
+    print("   %-10s %-12s %-26d %-18s %s"%(nm,rep,t,"YES" if t else "*** NO ***",
+          "--" if t else "*** YES -- W-16 IS ABOUT GLUON CYCLES ***"))
+print("   ==> THE ADJOINT IS CENTRE-NEUTRAL. Z_3 is BLIND to gluons. But W-16 is precisely the")
+print("       statement that GLUON cycles cannot reach the boundary.")
+print("   ==> *** THE TWO MECHANISMS CONSTRAIN DIFFERENT OBJECTS. Z_3-superselection cannot BE")
+print("       W-16, because it says nothing whatsoever about the objects W-16 is about. ***")
+
+print("\n"+"="*104)
+print("VERDICT")
+print("="*104)
+print(" (A1) *** THREE OPERATORS, NOT TWO, AND NOT ONE. *** Read off the heat-trace leading power:")
+print("      S^4 gives t^{-2}, the Shilov boundary would give t^{-5/2}, the bulk gives t^{-5}.")
+print("      Different powers, different operators. My 5334 D is NOT the boundary restriction of")
+print("      the Kostant D -- it lives on a 4-dim FACTOR of the 5-dim boundary of the 10-dim bulk.")
+print()
+print(" (A2) *** THE INDUCED-GRAVITY CLAIM NEEDS THE KOSTANT OPERATOR, NOT MINE. *** 5334's")
+print("      a_1 = Einstein-Hilbert is the EH term for S^4's own metric, not for the bulk D_IV^5")
+print("      metric the claim is about. It is a genuine proof-of-mechanism on the wrong manifold.")
+print("      I am flagging my own headline down: 5334 shows the machinery lands on EH; it does not")
+print("      show BST induces gravity. @Lyra -- the real computation is the Kostant heat trace.")
+print()
+print(" (A3) Kostant constant for D_IV^5 = ||rho_G||^2 - ||rho_K||^2 = 35/4 - 5/2 = 25/4.")
+print("      Clean form; CANDIDATE only. I have not shown its 5 is the domain's n_C.")
+print()
+print(" (B)  *** W-16 AND Z_3 ARE TWO MECHANISMS -- CONFIRMED, WITH A REASON, NOT JUST 'UNPROVEN'.")
+print("      (i) counting: Hom(Z^2, Z_3) has 9 elements; nothing in W-16 picks one, so the")
+print("          'winding mod N_c' map is an unforced choice among 8 non-trivial candidates.")
+print("      (ii) decisive: the ADJOINT IS CENTRE-NEUTRAL, so Z_3 is blind to gluons -- while W-16")
+print("           is exactly a statement about gluon cycles. They constrain DIFFERENT OBJECTS.")
+print("      ==> not merged, and now with a positive reason they cannot be merged. ***")

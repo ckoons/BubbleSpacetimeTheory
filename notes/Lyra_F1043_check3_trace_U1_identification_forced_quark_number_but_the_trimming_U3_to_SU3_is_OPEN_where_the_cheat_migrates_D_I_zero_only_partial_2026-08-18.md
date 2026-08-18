@@ -1,0 +1,39 @@
+# F1043 — #108 Check 3 (Grace + Lyra), honest: the IDENTIFICATION is forced (the trace U(1) of M₃ literally counts color-triplets → it IS quark-number = 3·baryon-number, not a resemblance), but the TRIMMING (u(3)=9 → su(3)=8) is OPEN — [D, I₃] = 0 gives only a PARTIAL (b-slot) decoupling, not the full unimodularity. This is exactly where Cal said the cheat migrates: not the algebra, the condition that trims it. Check 3 does NOT pass yet; do not claim the split is forced.
+
+**Lyra + Grace, Tuesday 2026-08-18, Round 12. #108 Check 3, applying the newly-named discipline (strip the adjective, name the bare object, verify the property on its own). Reconnected: F1042 (Checks 1–2), T2552 (BST = SM triple, no-ν_R, anomaly-free with 15 — Cal-certified), K1673 (gluons = the 5 coset), F1041 (row H). Cal's over-promote guard live; over-open guard equally live. LA on D_IV⁵. Nothing pushed; CP existence-only.**
+
+## Strip the adjective — the bare object
+The check's subject was stated as "color-su(3) plus a **baryon-number-like** U(1)." The discipline: strip "baryon-number-like," name the bare object, verify its property.
+
+**Bare object:** M₃(ℂ) = u(3) as a Lie algebra = **su(3) ⊕ u(1)**, where the u(1) is the **center = scalar imaginary multiples of the identity, iθ·I₃** — the *overall phase of the color-3*. That is the whole of the extra generator: a single common phase on all three colors.
+
+**Verify its property (is it baryon number, or does it just resemble one?):** the Noether charge of the overall-color-phase U(1) is the **number of color-triplet quanta = quark number**. Each quark carries baryon number B = 1/3, so **quark number = 3·B**. So the trace U(1) is **quark-number / baryon-number up to normalization — a genuine identification** (the generator *counts quarks*), **not** a resemblance. That half is forced: strip the adjective and the bare object really is the baryon U(1).
+
+## The real question — is the trimming forced or imposed?
+Connes trims u(3) → su(3) by **unimodularity** (impose det = 1 / traceless), justified in the SM by the anomaly / that the U(1) acts redundantly. **The check is whether BST *forces* this split or *imposes* it like Connes.** Here is the honest state, and I refuse to manufacture a pass:
+
+**What BST has that Connes does not (a partial, real result):** the identity is central, so
+$$[D,\ \lambda I_3] = \lambda\,[D, I_3] = 0 \quad\text{identically.}$$
+The **b-slot** of the inner fluctuation A = Σ aᵢ[D, bᵢ] therefore *never sources the trace direction* — the color-trace generates no "field-strength" through the D-differential. This is a BST-specific decoupling Connes gets only by hand.
+
+**Why that is NOT yet the full trimming (where the cheat still hides):** the **a-slot** is unconstrained — a one-form a[D,b] with a carrying a trace part can have tr(a[D,b]) ≠ 0. So **[D, I₃] = 0 alone does not reduce the gauge group U(3) → SU(3).** The full trimming requires showing the trace U(1) is **non-dynamical (global), not gauged** — and *that* is not yet exhibited from D_IV⁵'s structure. Candidate forcings, none yet earned:
+1. **Anomaly:** a gauged baryon U(1) is anomalous → must be global. But BST's *fermion content* being anomaly-free (T2552, the 15 with no ν_R, Cal-certified) is about the SM gauge group being consistent — it does **not** by itself force B to be *un*-gauged; it is a QFT consistency condition, and importing it is the Connes move, not a D_IV⁵ forcing.
+2. **Already-used phase:** the SO(2)-center J (time) acts as a phase on the whole holomorphic tangent; if the color-trace-U(1) is not independent of that (or of the ℂ-factor / hypercharge U(1)), it is not an available gauge symmetry. *Candidate to investigate — not a claim* (the J-phase acts on all of p⁺ uniformly, the color-trace only on the color block; they are prima facie different).
+
+## Honest verdict — Check 3 does NOT pass yet
+> **Identification: FORCED** (the trace U(1) is quark-number / baryon-number — the bare object counts color-triplets, no resemblance-hedge). **Trimming: OPEN** (u(3)→su(3) is not yet forced from D_IV⁵; [D,I₃]=0 is a partial b-slot decoupling, real but insufficient; the full "why is baryon-U(1) global, not gauged" is where the cheat migrates, exactly as Cal found). **So #108's three-check gate is: Check 1 ✓ (T2551), Check 2 pending (Elie's rank), Check 3 OPEN (trimming un-forced).** Even a rank-8 Check 2 would leave Check 3 to close before #108 promotes.
+
+The discipline earned its keep: stripping "baryon-number-like" *confirmed* the identification (good) **and** exposed that the forcing-word was attached to the *condition* (the trimming), not the object — which is un-forced. Naming the bare object separated the real result from the open one.
+
+## Tier
+- **Forced:** the trace U(1) = quark-number/baryon (Noether charge counts color-triplets); the b-slot decoupling [D,I₃]=0.
+- **Open (the gate):** the trimming u(3)→su(3) as a D_IV⁵-forced (not Connes-imposed) condition. Candidate routes named (anomaly = import, not forcing; J/hypercharge-phase identification = investigate). Neither earned.
+- **Do NOT claim:** "BST forces color = su(3) with baryon-U(1) split." The split's *condition* is un-forced. State it plainly.
+
+## Handoffs
+- **@Grace** — Check 3 is ours jointly; confirm the bare-object identification (trace U(1) = quark number) against the corpus, and cross-check T2552's anomaly-free 15 does NOT already smuggle the trimming (it's SM-gauge-consistency, not a B-is-global forcing). If you find a D_IV⁵-structural reason the trace-U(1) is non-independent (used by J or hypercharge), that would be the forcing — but exhibit it, don't assert the resemblance.
+- **@Keeper (three-check gate)** — Check 3 = OPEN, not pass. #108 promotes only on Check 1 ✓ AND Check 2 rank-8 AND Check 3 trimming-forced. I am reporting Check 3 as un-forced, not manufacturing it. The identification (trace=baryon) is forced; the trimming is the open gate.
+- **@Cal** — you found the migration and it's real: the cheat is in the trimming condition, not the algebra. [D,I₃]=0 is a partial decoupling BST genuinely has, but it does not trim the a-slot, so it is not the full unimodularity. I explicitly do NOT claim Check 3 passes. Hold me there.
+- **@Casey** — the disciplined answer, and it caught something. The extra piece beyond color's SU(3) is a single "overall phase" on the three colors — and when you strip the label and ask what it actually *does*, it counts quarks, so it really is baryon number, not just something that looks like it. That part is forced. But the *question that matters* — why nature doesn't turn that phase into a real force (a gauge boson) the way it does with color — is not yet answered by our geometry. Connes just declares it away by hand; we can do a little better (the Dirac operator ignores that phase from one side), but not all the way, and I won't pretend otherwise. So color's gate is not closed: the matrix block is ours (Check 1, done), whether the Dirac operator wobbles in all eight directions is Elie's number (Check 2), and why the ninth direction stays quiet is the open one (Check 3). Three honest gates, one done.
+
+Notes only; no theorem/toy claimed (Check 3, honest-open). F1043: strip "baryon-number-like" → bare object = trace/center U(1) of M₃ = overall color phase; Noether charge = quark number = 3·B → IDENTIFICATION FORCED (counts color-triplets, not resemblance). TRIMMING (u(3)=9→su(3)=8) OPEN: [D,I₃]=0 gives partial b-slot decoupling (BST-specific, real) but a-slot carries trace → does NOT trim U(3)→SU(3); full "why baryon-U(1) global not gauged" un-forced = where the cheat migrates (Cal). Candidate forcings NOT earned: anomaly (= QFT import, not D_IV⁵ forcing; T2552's anomaly-free-15 is SM-gauge-consistency not B-un-gauged), J/hypercharge-phase identification (investigate). Verdict: #108 gate = Check1 ✓ (T2551), Check2 pending (Elie rank), Check3 OPEN. Do NOT claim the split forced. — Lyra

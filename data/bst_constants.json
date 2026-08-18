@@ -200,9 +200,9 @@
     "T188"
    ],
    "source_toys": [],
-   "status": "structural",
-   "notes": "BST does not currently derive G in closed form. The relationship G ~ hbar*c*alpha^24*(6*pi^5)^2/m_e^2 is conjectured but unverified. Marked structural pending derivation.",
-   "formula": "Not derived in closed form from BST integers",
+   "status": "Identified-strong",
+   "notes": "Identified-strong prediction (Casey/Keeper FINAL 2026-08-12, see final_2026_08_12). G = ħc(6π⁵)²α²⁴/m_e² predicts Newton's G from m_e AND α (BOTH measured) through the geometric form, to 0.065% (measured α; 0.70% with geometric 137 — G rides α²⁴, so the α choice swings it ~0.6×). COUNT-ONCE with m_p/m_e: 6π⁵ = m_p/m_e (const_001) is a shared input — one Schur pattern, not two independent confirmations. NOT Derived (rides α, an Identified input); the ℓ_B route is separately circular (not operative). The 0.065% residual is a recorded SIZE, not a named correction (9 BST-natural forms land within 5% — naming now would be fitting).",
+   "formula": "G = ħc(6π⁵)²α²⁴/m_e² (closed form; Identified-strong prediction, rides α — a consistency relation, not an independent derivation of G)",
    "ace": "(1,0)",
    "k962_tier": "DERIVED (pending Cal tire-kick)",
    "k962_note": "K963 (2026-07-28): PROMOTED to DERIVED — 24=Γ(n_C) (Gindikin gamma factor of D_IV⁵, target-innocent: you'd write Γ(n_C) before evaluating); π² + exponent-6 from the domain. PENDING Cal's tire-kick (is Γ(n_C) the source or does it merely evaluate to 24?). Confirmation: 0.004%.",

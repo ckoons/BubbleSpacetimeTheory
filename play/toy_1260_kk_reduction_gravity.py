@@ -2,6 +2,16 @@
 """
 Toy 1260 — KK Reduction: Gravity from D_IV^5
 ==============================================
+
+*** TAG 2026-08-18 (Elie, toy 5347) — ONE-RELATION-N-READINGS. ***
+    The G-VALUE below, G = ℏc(6π⁵)²α²⁴/m_e², is algebraically identical to
+    m_Planck = m_e/(6π⁵·α¹²) via G = ℏc/m_Planck² (machine precision, both 6.678639e-11),
+    i.e. the same relation as T201. Exponent 24 = 2×12 = 4C₂, the 12 squared.
+    ⟹ do NOT count this G-value as a success independent of T201. Canonical row: T201.
+    NOTE — the KK CONTENT of this toy (dim 10 = 4 base + 6 fiber, fiber = C₂ = 6) is a
+    SEPARATE structural claim and is NOT affected by this tag; only the numerical G-row is.
+    See notes/Elie_double_count_tag_and_C4_floor_2026-08-18.md.
+
 Backs T1301 (Lyra): G₄ = G₁₀/V₆ via Kaluza-Klein dimensional reduction.
 
 The gravitational constant G derives from:

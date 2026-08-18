@@ -2,6 +2,17 @@
 """
 Toy 1258 — Gravitational Exponent 24: Triple Identity + Casimir Cycles
 ========================================================================
+
+*** TAG 2026-08-18 (Elie, toy 5347) — ONE-RELATION-N-READINGS. NOT independent evidence. ***
+    G = ℏc(6π⁵)²α²⁴/m_e² is ALGEBRAICALLY IDENTICAL to m_Planck = m_e/(6π⁵·α¹²) via
+    G = ℏc/m_Planck². Verified to machine precision (both 6.678639e-11).
+    ⟹ the exponent 24 is the exponent 12 SQUARED: 24 = 2×12 = 2×(rank·C₂) = 4C₂.
+    The primitive is the 12 on the m_e↔Planck step (see toy_4041, α^{rank·C₂}).
+    So the three readings below characterize a DERIVED CONSEQUENCE, not an independent
+    quantity. They may be cited as readings of the number 24; they must NOT be counted as
+    a separate success alongside T201 in any registry, scoreboard, or null-model tally.
+    Canonical row: T201. See notes/Elie_double_count_tag_and_C4_floor_2026-08-18.md.
+
 Backs T1296 (Lyra): The exponent 24 in G = ℏc(6π⁵)²α²⁴/m_e² is FORCED.
 
 Three independent characterizations of 24:

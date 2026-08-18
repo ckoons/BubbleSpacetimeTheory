@@ -1,0 +1,38 @@
+---
+node_type: framing
+id: K1639
+title: "Fresh lane (Casey GO): WHY does time close at 4π? The double cover BANKS (K1638) but its CAUSE reopened when the fermion story died (Cal §557: Di spinor at INTEGER 2, Rac scalar at HALF-INTEGER 3/2 — the SCALAR carries the half-integer, so 'matter spinorial from time' is retracted). CANDIDATE ANSWER (corpus, tiered): the double cover is a signature of the ODD dimension n_C=5. Support already banked: F157 (the type-IV cone's Gindikin-Γ carries HALF-INTEGER powers of π / √π precisely because the multiplicity a=N_c=3 and n_C−r=3 are ODD — half-integer structure throughout BST traces to odd n_C: the Cabibbo √20, the ν-addresses {5/2,3/2}); Ribbon Holonomy paper (the odd-n_C half-integer weight makes a 2π winding return −1 → spin-½ + Fermi statistics, marked SOLID). IF this holds, the honest reframe is: ODD n_C=5 forces BOTH the double-cover of time AND spin-½ — a COMMON CAUSE (odd n_C), NOT 'fermions cause the double cover' (the retracted direction). ★★ RETRACTION-GUARD (load-bearing, this is the whole risk): we KILLED the fermion↔double-cover connection ONE ROUND AGO. The Ribbon paper says 'the SPINOR's 2π holonomy = the odd-n_C half-integer weight' — but Cal §557 just put the half-integer on the SCALAR (Rac 3/2), the spinor (Di) at INTEGER 2. So the Ribbon claim MAY CARRY THE SAME E₀ LABEL-SWAP Cal just caught. THE CRUX: is the spinor's 2π→−1 holonomy a SPIN-STRUCTURE fact INDEPENDENT of the E₀ conformal weight (→ both spinor-half-twist AND scalar-half-integer-E₀ hold, common cause = odd n_C, the double cover is genuine) — OR is it the SAME half-integer (→ the Ribbon paper inherited the swap and needs correcting, and there is NO clean spinor connection)? Do NOT re-bank 'matter spinorial from time'; that direction is retracted. The robust-regardless statement: 'the double cover is one more manifestation of odd n_C' (F157-grounded). Cal #27 fires HARDEST here — the narrative is pretty and it just came back from the dead."
+date: 2026-08-17
+author: Keeper
+tier: "framing + fresh-lane charter, with a retraction-guard. The 'double cover = odd-n_C signature' is likely robust (F157 banked SOLID). The 'odd-n_C → spin-½ AND double cover, common cause' is a CANDIDATE that must first survive Cal's E₀ label-check — NOT a re-bank of the retracted fermion narrative."
+---
+
+# K1639 — Why the double cover? Candidate: odd n_C=5. Guard: don't let the retracted fermion story back in through the Ribbon paper.
+
+Casey chose the lane the session's own retraction opened: the double cover of time (T=4π) banks, but *why* is it there? The fermion answer died this morning. The corpus offers a candidate, and the candidate comes with the exact discipline risk this session has been built on.
+
+## The question
+Time closes at **4π (Spin(2), double cover)** — banked (K1638), on the condition-form (all charges ∈ (1/2)ℤ). What *forces* the half-integer charges, if not "matter is spinorial"?
+
+## The candidate answer (corpus-grounded, tiered): ODD n_C=5
+- **F157 (banked SOLID):** the type-IV cone's Gindikin–Γ carries **half-integer powers of π (√π)** precisely because the multiplicity a=N_c=3 and n_C−r=3 are **odd**. Half-integer structure throughout BST traces to n_C=5 being odd — the Cabibbo √20, the ν-addresses {5/2, 3/2}, the τ's √π residue.
+- **Ribbon Holonomy paper (marked SOLID):** "the odd-n_C half-integer weight makes a 2π winding return −1" → spin-½ + Fermi statistics.
+- **⟹ candidate reframe:** the double cover of time and spin-½ have a **common cause — n_C=5 being odd.** This is the *honest* version of the retracted story: not "fermions cause the 4π," but "the odd dimension forces both the 4π of time and the half-twist of spinors."
+
+## ★★ The retraction-guard (this is the lane's whole risk)
+**We killed the fermion↔double-cover connection one round ago** (Cal §557: the half-integer E₀ is on the *scalar* Rac 3/2; the spinor Di is at *integer* 2). The Ribbon paper says "the **spinor's** 2π holonomy = the odd-n_C half-integer weight" — which **may carry the exact same label-swap Cal just caught.** So before any fermion↔double-cover connection comes back:
+
+**THE CRUX to decide:** is the spinor's 2π→−1 holonomy a **spin-structure fact independent of the E₀ conformal weight**?
+- **If independent** → both hold (spinor has a half-twist from the spin structure; the scalar Rac has half-integer E₀), *both* from odd n_C, and the double cover is a genuine common-cause signature of odd n_C. The lane lands.
+- **If it's the same half-integer** → the Ribbon paper inherited the swap (it put the half-integer on the spinor when it's on the scalar), there is **no clean spinor↔double-cover connection**, and the honest statement shrinks to "the scalar carries the half-integer E₀ because n_C is odd; the double cover is scalar-forced" — no fermion story at all.
+
+**Do NOT re-bank "matter is spinorial from the shape of time."** That direction is retracted and stays retracted until this crux is settled. The statement that is robust *regardless* of the crux — because it rests on F157, not on which field carries the half-integer — is: **"the double cover is one more manifestation of odd n_C=5."** Bank only that until the spinor question resolves. Cal #27 fires hardest here: the narrative is pretty, and it just came back from the dead.
+
+## The lane (linear algebra on D_IV⁵)
+1. **Lyra (Tier-0 / geometry) — the crux:** is the spinor's 2π→−1 holonomy (Ribbon paper) a spin-structure fact *independent* of the E₀ conformal weight, or the same half-integer? Reconcile with Cal's E₀ set (Di spinor integer 2, Rac scalar half-integer 3/2). Does the Ribbon "SOLID" survive, or did it inherit the swap?
+2. **Cal (retraction-guard, hostile):** verify the Ribbon claim isn't the retracted narrative in new clothes; hold the E₀ labels; confirm whether the odd-n_C mechanism genuinely avoids the swap. This is your §557 catch extended — the same tell (sound labels not checked) could live in the Ribbon paper.
+3. **Grace:** the half-integer-from-odd-n_C thread across the corpus (F157 Gindikin-Γ √π, √20 Cabibbo, {5/2,3/2} addresses) — is the double cover consistent with these as ONE odd-n_C signature, and does it hold on the *correct* E₀ set?
+4. **Elie (target-innocent toy):** does a 2π rotation of a mode on D_IV⁵ return −1 — computed *separately* for the spinor (Di) and the scalar (Rac)? If only the scalar picks up −1, the fermion story is dead and the double cover is scalar-forced; if the spinor does too (via an independent spin structure), the common-cause picture holds. Post blind.
+5. **Keeper — hold the retraction-guard;** bank only "double cover = odd-n_C signature" until the spinor crux resolves; do not let "spinorial from time" back in without the independent-spin-structure result.
+
+— Keeper, K1639, 2026-08-17. WHY the 4π double cover? Candidate: it's a signature of ODD n_C=5 (F157: half-integer/√π from odd multiplicity; Ribbon paper: odd-n_C → 2π=−1 → spin-½ — both banked SOLID). Honest reframe IF it holds: odd n_C forces BOTH the double cover AND spin-½ (common cause), NOT 'fermions cause 4π' (retracted). ★ GUARD: the Ribbon 'spinor 2π holonomy = odd-n_C half-integer' may carry the SAME E₀ label-swap Cal §557 caught (spinor at integer 2, scalar at half-integer 3/2). CRUX: is the spinor 2π→−1 a spin-structure fact INDEPENDENT of E₀ (both hold, common cause) or the same half-integer (Ribbon inherited the swap, no spinor connection)? Bank only 'double cover = odd-n_C signature' until settled; do NOT re-inflate 'spinorial from time.' Cal #27 fires hardest here. Elie toy: does 2π return −1 for the spinor AND/OR the scalar, separately, blind. Nothing pushed.

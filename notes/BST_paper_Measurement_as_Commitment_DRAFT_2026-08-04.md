@@ -22,6 +22,21 @@ The generator H_B has two exponentials, and they are the two things quantum mech
 
 The measurement problem, in its standard form, is a problem *only* for a theory with the unitary face alone — with no physical collapse, there is no single outcome, which is why many-worlds keeps every branch and Copenhagen posits an external cut. BST is not such a theory: the same generator that turns smoothly also settles. Collapse is not added; it is the operator's other exponential.
 
+## 2a. The commit's own structure: write, and check *(operation-dig integration, Keeper 2026-08-17; absorb into Section 2)*
+
+Section 2 names the commit as the contractive face of H_B. The forced-object dig (2026-08-16, K1607/K1609) sharpened *what that commit is internally*: it is not a structureless settling but **one graded operator**,
+
+> **C = P_record ⊕ P_encode**,
+
+the geometry's own Peirce decomposition of a primitive idempotent — the commit read one way. Its two summands are the two things an integrity-checked irreversible record must do:
+
+- **P_record — the WRITE.** A rank-1 projection onto the *arrow line*: an irreversible **binary** record laid on the Shilov boundary. "This happened," un-undoable — the same one-sidedness that is the arrow of time (Section 2). This is where the domain's **rank = 2** enters, and it enters from the *structure of a binary outcome*: a commitment has two complementary outcomes — the idempotent **e** (written) and its orthogonal complement **1 − e** (not-written) — and the Jordan **rank is the number of such mutually orthogonal outcomes, which is exactly 2.** Two outcomes, rank two — **the first of BST's five integers fixed by what a binary decision *is*, not by the physics we want to recover** (a single rank-1 projection cannot exhibit rank 2; the two of them do). (*Derived — verified; the external-forcing of rank=2 is the novel content.*)
+- **P_encode — the CHECK.** The projection onto the confined 3-dimensional block V₁₂: a **detection/erasure** structure (minimum distance 2) that wraps the record so a later corruption is *flagged (detected), but not located* — at d_min=2 you detect that damage occurred, you do not locate it (locating is correcting, which needs d ≥ 3). The record is therefore **self-validating** — it carries its own damage report. (*Derived. One correction kept in-text, because it matters to a referee: the encode is detection/erasure, **not** error-*correction*, so the record is self-validating but **not "unforgeable"** — a public code forges trivially; the tamper-resistance is the irreversibility of the write, not the code. Earlier drafts that said "error-correction/unforgeable" are corrected here.*)
+
+**Neither stage is removable** — which is exactly why the commit is *minimal*: drop the encode and the record can be silently corrupted; drop the write and there is nothing to encode. Both stages are therefore *necessary*. Whether they are jointly *sufficient* — whether a commit must also be able to **repair** a detected corruption rather than merely flag it — is a separate question this section does not settle: irredundancy ("neither stage can be dropped") does not establish exhaustiveness ("no further stage is required"). "Write the bit; check the bit" is the contractive commit of Section 2 seen from the inside. *(Corrigendum, Cal §606: an earlier draft said this "is the whole operation" — an exhaustiveness claim the irredundancy argument above does not reach.)*
+
+**The honest floor (stated as a floor, not hidden).** The chain *binary commitment ⟺ rank 2 ⟺ isotropic complement ⟺ spin factor ⟺ type-IV (Lorentzian)* is theorem-grade, but it rests on four posits: **P0** (the arena is a Euclidean Jordan algebra — an axiom), **P1** (a commitment is one *binary* distinction — the cheapest axiom, which does the rank-2/type-IV work *and*, by the same isotropy, gives spacetime no preferred frame), **P2a** (exclusivity — currently unmotivated), **P2b** (minimality — degenerate in every lane, so it does *not* by itself deliver n_C=5). So the operation **forces the *type* of the world (Lorentzian, type-IV) mod P0+P1, with rank=2 externally forced; the *dimension* n_C=5 stays an honest input.** Never "commitment forces D_IV⁵." (*Type forced mod P0+P1 = Derived-conditional; rank=2 = Derived (external); dimension = open.*)
+
 ## 3. Born and collapse are one measure
 
 What are the odds on the settling? Here the geometry is decisive. On a bounded symmetric domain there is exactly **one** measure invariant under the domain's automorphisms — the Bergman/Faraut–Korányi measure; the ordinary "flat" (Lebesgue) measure is *not* invariant and is excluded. The Born rule, probability = |⟨k|ψ⟩|², is precisely the density of that forced measure. (Derived: T754 — the invariant measure is unique and is the Bergman measure; the squared-amplitude rule is its density.)
@@ -73,6 +88,10 @@ The two-face structure also explains the delayed-choice quantum eraser without e
 | arrow of time = contractive-face positivity | Derived |
 | Born rule = the forced Bergman measure | Derived (T754) |
 | becoming-definite = the contractive commit | Derived |
+| **the commit's internal structure = the graded operator C = P_record ⊕ P_encode** (write ⊕ confined 3-encode, neither removable) | **Derived** (Peirce split of a primitive idempotent; K1607/K1609) |
+| **rank = 2 forced externally** (binary write; Shannon alphabet size = Jordan rank) | **Derived (external)** — first BST integer forced from outside the geometry |
+| the encode is self-validating (detection/erasure d=2), **not "unforgeable"** | Derived (correction kept in-text) |
+| commitment forces the *type* of spacetime (Lorentzian type-IV) | **Derived-conditional** (mod P0+P1); dimension n_C=5 stays an honest input |
 | **the odds survive the commit (sharp sort preserves Born)** | **Derived** (Elie, verified: the commit = Wallach-drop ∘ measure-keep is forced — divergent modes are non-states so the drop is not chosen, and the surviving weights are the unique invariant measure T754 = Born) |
 | erasure / Bell statistics | Identified → one computation (CHSH, 1/2^{N_c}) |
 | the single outcome | **boundary datum** (given, by category — as GR takes its initial data) |

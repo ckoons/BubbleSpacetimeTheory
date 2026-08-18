@@ -1,0 +1,37 @@
+# F1044 — Rep-theory support for Grace's U(1) pin (K1657 sweep close): the reopened continuous U(1) is electric charge, and its home is the **electroweak Cartan in the SO(5) internal factor** — a *different circle* from the K-center SO(2), which is time's J. Grace got the type right (gauged electric charge, resolves the ill-typing); the seat is SO(5)-Cartan, not the K-center. This is exactly the K1657 refutation applied to fix the stale T2475 / line-10719 "substrate SO(2) ≡ U(1)_em."
+
+**Lyra, Tuesday 2026-08-18, Round 16. Supporting Grace's U(1) pin (her assigned task) with the rep-theory, since it is my K1657/§3a/F860 work and the stale line has now caught two of us. Reconnected: F1029/K1657 (charge ≠ time, different U(1)s), Time-paper §3a (charge internal, EW on SO(5)/SO(4)), F860 (EW Cartan / sin²θ_W normalization), K768 (Y on the boundary S¹). LA on D_IV⁵. Nothing pushed; CP existence-only.**
+
+## The seat — U(1)_em is in the SO(5)-internal Cartan, not the K-center
+K = SO(5) × SO(2) is a **direct product of two factors**, and the two continuous circles are physically distinct:
+- **The K-center SO(2)** is the conformal Hamiltonian **J = time** (bounded below, spec J ≥ E₀ > 0 — the arrow). *Not* a charge.
+- **The internal SO(5) factor** has **rank 2**, so its maximal torus is **T² = two commuting U(1)s** (the SO(5)-Cartan). **The electroweak Cartan lives here:** weak T₃ and hypercharge Y, with electric charge the Gell-Mann–Nishijima combination
+$$Q = T_3 + \tfrac{Y}{2},$$
+a specific circle inside the SO(5)-Cartan T². **That is the reopened U(1) — a gauged electric charge on the SO(5) internal torus, a different circle from the K-center.**
+
+## Why it *cannot* be the K-center (the K1657 refutation, = the §570 guard Grace hit)
+This is exactly what F1029/K1657 settled, and why the "substrate SO(2) ≡ U(1)_em" line is a real error, not a convention choice:
+- **An SO(2) is one-dimensional**, so "Q on the K-center SO(2)" forces **Q ∝ J**.
+- But **Q is sign-indefinite** (antiparticles carry −Q) while **J is bounded below** (the arrow). One circle cannot be both. The failed identification *is the arrow protecting itself* (K1657).
+- On the **SO(5)-Cartan**, sign-indefinite Q is *fine* — a compact internal torus carries charges of both signs with no lower bound. So the type-mismatch that kills the K-center seat is absent on the SO(5)-Cartan. **Grace's "it's a continuous gauged electric charge" is right; it just lives on the internal circle, not the time circle.**
+
+## The T2475 / line-10719 fix (closes the K1657 sweep)
+> **Replace** "the substrate SO(2) ≡ U(1)_em" (which puts electric charge on the K-center = time's J — the §570-failing sentence, flagged in error at K1657 and now caught twice) **with:** "U(1)_em is the electroweak Cartan circle **Q = T₃ + Y/2 in the SO(5) internal factor's rank-2 torus**, distinct from the K-center SO(2), which is the conformal Hamiltonian J (time). [Q, J] = 0 because they are separate factors of K = SO(5)×SO(2) — the reason electric charge is conserved (§3a corollary)."
+
+That is the one stale line closing the sweep; cite T1945 for the baryon-number classification step (per the round) and F1029/K1657 for the charge≠time refutation.
+
+## One reconciliation flag for Grace (do not let it re-open a mis-seat)
+K768 reads **"the S¹ carries Y, the S⁴ = SO(5)/SO(4) carries the rest"** on the Shilov boundary Š = (S⁴×S¹)/ℤ₂. This is a *boundary* reading and must be reconciled with "Q on the SO(5)-Cartan," carefully:
+- The GNN Q = T₃ + Y/2 needs **both** T₃ and Y localized. T₃ is manifestly SO(5)-Cartan (the SO(4)⊂SO(5) weak block). If hypercharge Y sits (partly) on the boundary **S¹**, note that **the Shilov-boundary S¹ is the compactified time-circle's boundary, not a second internal circle** — so a Y-on-S¹ reading risks re-importing exactly the K-center confusion.
+- **Pin from the source which torus Y lives on** (the SO(5)-Cartan directly, or a boundary-S¹ reading that must then be shown *not* to be the K-center). If it turns out Y involves the boundary S¹, the honest statement is that U(1)_em is a combination whose T₃ leg is SO(5)-Cartan and whose Y leg needs its circle pinned — but the *electric charge as a whole* is still not the K-center J (the sign-indefiniteness argument is Q-total, and Q-total ≠ J). Flag it; don't assert Y's seat from memory (the pin-conventions-to-primary-sources standing order).
+
+## Tier
+- **Solid (my banked work, K1657/§3a):** U(1)_em ≠ K-center SO(2); the K-center is time's J; electric charge is internal, on the SO(5) factor; [Q,J]=0 from the product structure. The seat is the SO(5)-Cartan.
+- **For Grace to pin from source:** the exact SO(5)-Cartan localization of Y (vs the boundary-S¹ reading, K768), and the T2475 line edit. The main result (SO(5)-Cartan, not K-center) is not in doubt; the Y-leg's precise circle is the pin.
+
+## Handoffs
+- **@Grace** — the seat for your pin: **U(1)_em = Q = T₃ + Y/2 in the SO(5) internal Cartan T² (rank-2), NOT the K-center SO(2)=time.** The T2475/line-10719 fix is written above. One flag: reconcile K768's "Y on the boundary S¹" against the SO(5)-Cartan seat before you finalize Y's circle — don't let the boundary-S¹ reading re-seat charge on the (time) K-center. The §570 guard you hit is exactly the sign-indefinite-Q-vs-bounded-J argument (F1029/K1657); it's a theorem, and it's why the seat is internal.
+- **@Keeper** — this closes the K1657 sweep on the rep-theory side: the stale "substrate SO(2) ≡ U(1)_em" is refuted (charge on the internal SO(5)-Cartan, not the K-center); Grace applies the T2475 line fix + the data-layer. The color-close's "one open U(1)" is now *typed and seated* (gauged electric charge on the SO(5)-Cartan); what remains is Grace's exact Y-circle pin.
+- **@Casey** — the reopened circle is charge, and it's on the right ring now. There are two continuous circles in the geometry that kept getting confused: one is *time* (it only turns forward — it's bounded below), the other lives inside the internal five-dimensional part and carries *electric charge* (which has to run both ways, + and −, for antiparticles). A stale line in our own notes had glued electric charge onto the *time* circle — which can't be right, because you can't have a both-ways charge on a one-way circle. That's the same wall Grace just hit, and it's a theorem (it's literally the arrow of time refusing to be a charge). So charge sits on the internal circle, exactly where "charge is internal" always said it should. One line to fix, and the sweep closes.
+
+Notes only; no theorem/toy claimed (rep-theory support for Grace's pin + the T2475 fix). F1044: the reopened continuous U(1) = gauged electric charge, seated on the **SO(5)-internal Cartan** (Q = T₃ + Y/2, rank-2 torus of the SO(5) factor), NOT the K-center SO(2) (= time's J, bounded below). K1657 refutation = the §570 guard: SO(2) 1-dim → Q∝J → sign-indefinite Q = bounded-below J, impossible (arrow protects itself). Q sign-indefinite is fine on the compact internal SO(5)-Cartan. T2475/line-10719 fix: "substrate SO(2) ≡ U(1)_em" → "U(1)_em = EW Cartan Q=T₃+Y/2 in SO(5) factor, distinct from K-center SO(2)=time; [Q,J]=0 from product structure." Flag for Grace: reconcile K768's Y-on-boundary-S¹ (the S¹ is the time-circle's boundary — don't re-seat charge on the K-center); pin Y's circle from source. Cite T1945 (baryon classification), F1029/K1657 (charge≠time). — Lyra

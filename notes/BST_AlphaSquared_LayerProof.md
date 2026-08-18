@@ -38,7 +38,7 @@ The five claims to be established:
 
 **Domain:** D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], Cartan Type IV, complex dimension n_C = 5.
 
-**Shilov boundary:** S-hat = S^4 x S^1 (real dimension 5).
+**Shilov boundary:** S-hat = (S^4 x S^1)/Z_2 (real dimension 5), the Faraut-Korányi/Hua Lie sphere; the Z_2 identifies (x, theta) ~ (-x, theta+pi). [Corrected 2026-08-17, Grace: the plain S^4 x S^1 is the DOUBLE COVER; the true boundary is the Z_2 quotient. This does NOT affect the alpha^2 result: the transition operator (Sec 3) uses the Szego measure NORMALIZED to a probability (integral d sigma = 1), so the Z_2 factor-of-2 in the boundary volume CANCELS; and the level norms use the BULK Bergman volume Vol(D_IV^5) = pi^5/1920 (Hua), not the boundary volume. alpha^2 is safe.]
 
 **Bergman kernel:**
 

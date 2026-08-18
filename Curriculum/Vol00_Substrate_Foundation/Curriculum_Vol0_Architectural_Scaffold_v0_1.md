@@ -103,6 +103,20 @@ This scaffold specifies the chapter STRUCTURE; Grace's parallel work specifies t
 - Believability + Provability dual-axis evaluation
 - Reader exits with: how BST claims are vetted and tiered
 
+**Chapter 11**: The Operation *(capstone — written 2026-08-16)*
+- The single act: commitment = WRITE (irreversible binary record) + ENCODE (confined self-validating check); one act, two stages, neither removable
+- As one operator: C = P_record ⊕ P_encode (the Peirce split); encode = detection/erasure (d=2), self-validating NOT unforgeable
+- The forcing floor: binary commitment ⟺ rank 2 ⟺ isotropy ⟺ spin factor ⟺ Lorentzian type-IV; the honest four posits (P0 arena, P1 binary, P2a exclusivity, P2b minimality); rank=2 forced EXTERNALLY (first BST integer forced from outside the geometry); dimension the honest residual (Grace's boundary theorem)
+- Forcing + Evidence = 2 + 3 (the information reading); the three readings (QM done / spacetime advanced / SM strong-with-Koide-holdout)
+- Reader exits with: the one act every observable in the curriculum is a reading of
+
+**Chapter 12**: Time, Derived *(capstone of the foundations arc — written 2026-08-17, Keeper-PASS)*
+- Time = the flow parameter of the commitment semigroup exp(−τJ/ℏ); no clock behind the clock
+- The generator J is the linear conformal Hamiltonian (geometry-forced, half-integer spectrum E₀=3/2), NOT the Casimir; the arrow = positivity of spec(J); two faces = the Wick pair (real tick / imaginary circle)
+- Honesty tier: the degree-2 cover IS spin-statistics (not a novel prediction); charge is internal (degeneracy kills charge=time); gravity's structure is derived, its value one dimensionful input (a theorem — dimensionless content can't make a length)
+- The reward: BST reduces the dimensionful inputs 2→1 (G and v from m_e); "trade G for m_e" — G to 0.06% from an atomic mass
+- Reader exits with: time is derived, and the theory is honest about everything it isn't
+
 ### Appendices
 
 **Appendix A**: Casey-named principles

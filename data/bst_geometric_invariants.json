@@ -114531,7 +114531,7 @@
    "tier": "D",
    "domain": "cosmology",
    "geometric_source": "Algebraic inheritance from α_G_BST (D-tier) and m_p (T187 D-tier).",
-   "notes": "[Created 2026-05-15 by Grace (Toy 2349). G derived from Bergman geometry of D_IV⁵ via gravitational fine-structure α_G. Inherits 0.11% precision from α_G.]",
+   "notes": "[Created 2026-05-15 by Grace (Toy 2349). G derived from Bergman geometry of D_IV⁵ via gravitational fine-structure α_G. Inherits 0.11% precision from α_G.] [COUNT-ONCE + NOT-INDEPENDENT flag, Grace 2026-08-18 (K1678): α_G ≡ G·m_p²/(ℏc) is the DEFINITION, so 'α_G = (36/5)e^-90' and 'G = α_G·ℏc/m_p²' are the SAME statement — G_BST_from_alpha_G is alpha_G_BST re-read dimensionfully, NOT an independent derivation of G. Numerically α_G=(36/5)e^-90 ≈ (6π⁵)⁴α²⁴ (both 5.90e-39, 0.17% apart) ⟹ this lands on the SAME gravity relation as T201. The three α_G entries {gravitational_coupling, alpha_G_BST, G_BST_from_alpha_G} = ONE relation (T1918), and T1918 is one of the SIX gravity-cluster readings — COUNT-ONCE with T201, do NOT tally as a separate G-derivation (Cal §582/§585). TIER tracks the gravity relation's FINAL ruling: Identified-strong, not D — the 'derived/D' labels above are stale (same §579 class as the const_G notes fix).]",
    "integer_set": "g",
    "integer_set_source": "toy_3226_methodology",
    "physical_type": "P4",

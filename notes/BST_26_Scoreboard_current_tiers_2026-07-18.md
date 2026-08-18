@@ -7,7 +7,7 @@
 ## Fermion masses (9) — all ride the ONE gravity scale + dimensionless ratios
 | # | param | BST form | tier | note |
 |---|---|---|---|---|
-| 1 | m_e | 6π⁵·α¹²·m_Planck | GRAVITY-SCALE | the one free dimensionful anchor; 6π⁵=m_p/m_e (T187); 0.03% |
+| 1 | m_e | 6π⁵·α¹²·m_Planck | GRAVITY-SCALE | the one free dimensionful anchor; 6π⁵=m_p/m_e (T187); 0.03% | **[gravity-cluster · CANONICAL=T201 — one relation, several readings; NEVER counted beside another member (Cal §582/§586)]**
 | 2 | m_μ/m_e | (24/π²)⁶ | LATTICE+π | T190 principle, 0.004% |
 | 3 | m_τ/m_e | 49·71 | LATTICE | structural |
 | 4 | m_u/m_d | √(3/14)=√(N_c/(rank·g)) | LATTICE | Fresnel/refraction monomial, 0.09% |

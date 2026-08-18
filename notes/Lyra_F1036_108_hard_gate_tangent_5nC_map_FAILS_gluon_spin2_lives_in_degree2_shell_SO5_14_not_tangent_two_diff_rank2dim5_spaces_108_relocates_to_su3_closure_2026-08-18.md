@@ -1,0 +1,41 @@
+# F1036 — #108 under the hard gate: the 5 = n_C tangent hook FAILS the forced-intertwiner test (the domain's degree-1 tangent-5 branches to color-SO(3) as 3⊕1⊕1, not spin-2; and S⁴×S¹ vs SU(3)/SO(3) are DIFFERENT rank-2 dim-5 spaces). But the gluon spin-2 has a canonical home: it is a summand of the **degree-2 quadrupole shell** (the SO(5)-**14** of the Rac tower, F338), not the ℤ₃ center. #108 relocates from "where does SU(3) live?" to the definite question: **does the color-spin-2 close [·,·] → so(3) with su(3) structure constants?** (Elie's BulkColor-v0.6 Toeplitz closure.)
+
+**Lyra + Grace, Tuesday 2026-08-18, Round 5. #108 in its sharp form, tested under the hard gate (exhibit the forced map or it stays a hook). Reconnected: F1035 (the ledger), F338 (Rac K-type tower {1,5,14,30}), F1033/F1034 (color-3 real-type), Lyra_BulkColor_v0.6 (Toeplitz su(3) attempt). Calibrating both directions — did not force the map, did not dismiss the shell. LA on D_IV⁵. Nothing pushed; CP existence-only.**
+
+## The object to be supplied
+The five gluons are **i·Sym²₀(V₁₂)** — the spin-2 (quadrupole, ℓ=2) symmetric-traceless operators on the color-3, since **su(3) = so(3) ⊕ i·Sym²₀(V₁₂)** (verified: 3 + 5 = 8). The isometry supplies so(3) (spin-1); the sharp #108 is what supplies the spin-2 coset. The prompt is right that this is a **dynamical** source, not the discrete ℤ₃ center (a ℤ₃ cannot grow 5 continuous generators — F1035).
+
+## The hard gate, run — the tangent hook FAILS (two independent reasons)
+**Reason 1 — wrong graded level.** "The domain's 5 = n_C" is the **degree-1** holomorphic tangent (the SO(5)-vector-5). Under the color-SO(3) ⊂ SO(5) (frame-stabilizer acting on V₁₂), the vector-5 branches as
+$$\mathbf{5} \big|_{SO(3)} = \mathbf{3} \oplus \mathbf{1} \oplus \mathbf{1} \quad(\text{spin-1} + \text{two singlets}),$$
+**not** the spin-2 (**5**). So the tangent-5 is *not* the gluon-5; they share only the integer 5. The spin-2 lives one graded level up: Sym²(color-3) = **6 = 5 ⊕ 1**, i.e. in the **degree-2** part.
+
+**Reason 2 — different rank-2 dim-5 spaces.** The gate's hook was "SU(3)/SO(3) is rank-2 dim-5, same as the boundary." But **S⁴×S¹/ℤ₂ is reducible** (rank-1 × rank-1) while **SU(3)/SO(3) is irreducible** (type AI). Two symmetric spaces with the *same* (rank, dim) = (2, 5) but *different structure* — a two-integer coincidence, and there is **no forced isometry/intertwiner** between a reducible and an irreducible symmetric space. The (2,5) match is exactly the kind of shared-number-not-shared-structure the F1033/F1034 discipline forbids counting.
+
+> **Gate verdict: the 5 = n_C tangent hook does NOT close as a forced map.** It stays a hook — a shared integer, not an exhibited intertwiner. Honest floor, per the gate.
+
+## The real content (relocated, not lost) — the ℓ=2 quadrupole shell IS the home
+The gluon spin-2 is *not* homeless. The Rac tower's K-types are the SO(5) harmonics **{1, 5, 14, 30} = degrees {0,1,2,3}** (F338, banked, target-innocent). The **degree-2 shell is the SO(5)-14** (symmetric-traceless 2-tensor = Sym²₀ of the vector-5), and under color-SO(3) the 14 *contains* the color-spin-2 (inside Sym²(color-3) ⊂ 14):
+$$\text{gluon-5} = i\cdot\mathrm{Sym}^2_0(V_{12}) \subset \text{SO(5)-}\mathbf{14} = \text{the } \ell{=}2 \text{ quadrupole shell of } H^2(D_{IV}^5).$$
+**So the coset representation is supplied by a canonical, banked object — the degree-2 (quadrupole) harmonic shell — a dynamical shell of the substrate Hilbert space, exactly "dynamical, not the center."** This is genuine progress: the gluon rep has a definite geometric address (ℓ=2 shell), and it is not the tangent (ℓ=1) and not the ℤ₃ (center).
+
+**But representation ≠ algebra.** The shell supplies the spin-2 *representation space*; it does not automatically supply the su(3) *generators with their commutators*. The 14 also carries other color-SO(3) pieces (from 3⊗2 and Sym²(2)), so the spin-2 is a *summand*, not the whole shell. The decisive open condition is closure:
+$$[\,i\mathrm{Sym}^2_0,\ i\mathrm{Sym}^2_0\,] \overset{?}{\subset} \mathfrak{so}(3), \quad\text{with the } \mathfrak{su}(3) \text{ structure constants.}$$
+
+## #108, sharpened to a definite computation
+> **#108 (sharpest form): does the color-spin-2 summand of the degree-2 quadrupole shell (SO(5)-14) close with the isometry's so(3) into su(3) — i.e., are the structure constants those of su(3)?** If yes, SU(3) is the gauge completion *sourced by the ℓ=2 dynamical shell* (a real derivation of the gauge group's home). If no, the gluons need a source outside the harmonic tower, and #108 stays open with the shell excluded.
+
+This is **exactly** the BulkColor v0.6 Toeplitz check (8 = 3 T_a + 3 T_a^† + 2 Cartan): whether the SO(3)-vector operators close to su(3). Now it has a sharpened target — the T_a^† / off-diagonal content should be the **degree-2 (ℓ=2) quadrupole operators**, and closure is the su(3) commutators. Tractable, decisive, Elie's lane.
+
+## Tier
+- **Banked:** su(3) = so(3) ⊕ i·Sym²₀; the gluon-5 is spin-2; it is a summand of the degree-2 SO(5)-14 shell (F338); NOT the tangent (branches 3⊕1⊕1), NOT the ℤ₃ center.
+- **Hook, now FAILED under the gate:** the 5=n_C tangent identification (wrong graded level; and boundary ≠ coset as symmetric spaces). Do not count 5=n_C as content.
+- **Open (#108, sharpened):** the su(3)-closure of the ℓ=2 spin-2 with so(3) — a definite structure-constant computation.
+
+## Handoffs
+- **@Grace** — data-layer + confirm: (i) SO(5)-vector-5 ↓ color-SO(3) = 3⊕1⊕1 (kills the tangent hook); (ii) SO(5)-14 ⊃ color-spin-2 (the shell home); (iii) S⁴×S¹ reducible vs SU(3)/SO(3) irreducible (kills the boundary hook). Log 5=n_C as **hook-FAILED-under-gate**, not candidate-open.
+- **@Elie** — the sharpened #108 IS your BulkColor v0.6 closure, with the target pinned: do the color-SO(3)-vector operators whose off-diagonal content sits in the **ℓ=2 (degree-2, SO(5)-14) shell** close to su(3)? Structure constants = su(3) → gauge group sourced by the quadrupole shell (real result); not → shell excluded, #108 open. The decisive computation.
+- **@Keeper** — gate result: the 5=n_C hook FAILS the forced-intertwiner test (two reasons); the honest floor holds. Banked: gluon-5 = spin-2 ⊂ degree-2 shell (canonical home, not tangent, not center). #108 sharpened to the su(3)-closure computation. No over-claim: the shell supplies the *rep*, closure is unproven.
+- **@Casey** — the gate did its job and told us no, cleanly, but left something real. We hoped the five missing gluons might just be the domain's own five dimensions wearing a different hat. They're not — the domain's five is a *vector* (three colors plus two frame directions), while the gluons are a *quadrupole* (a spin-2, the shape you get from squaring the three colors). Different shapes, same number five — a coincidence, not a map, and I checked it two ways rather than let the pretty five-equals-five stand. But the quadrupole *does* have a real address: it lives in the second shell of the substrate's own harmonics (the ℓ=2 shell, the "d-orbital" of the geometry), which is a dynamical thing, not the frozen ℤ₃ center. So the question is now completely concrete — do those second-shell quadrupole operators multiply together the way SU(3) demands? That's a computation Elie can run, and it either hands us the gauge group's home or rules the shell out. Either way we stop guessing.
+
+Notes only; no theorem/toy claimed (the hard-gate test + relocation + #108 sharpening). F1036: 5 gluons = i·Sym²₀(V₁₂) = spin-2 (su(3)=so(3)⊕i·Sym²₀). Hard-gate on the 5=n_C hook → FAILS two ways: (1) tangent-5 (degree-1 SO(5)-vector) ↓ color-SO(3) = 3⊕1⊕1 ≠ spin-2 (spin-2 is degree-2); (2) S⁴×S¹/ℤ₂ REDUCIBLE vs SU(3)/SO(3) IRREDUCIBLE — same (rank,dim)=(2,5), different spaces, no forced intertwiner. Shared integer ≠ map. Real content: gluon spin-2 ⊂ degree-2 quadrupole shell = SO(5)-14 of the Rac tower (F338 {1,5,14,30}) — canonical dynamical home, NOT tangent, NOT ℤ₃. But rep ≠ algebra: #108 relocates to the su(3)-CLOSURE question [iSym²₀,iSym²₀]⊂so(3) w/ su(3) constants = BulkColor v0.6 Toeplitz check, target pinned to the ℓ=2 shell (Elie). Banked / hook-FAILED / open-sharpened tiers. — Lyra

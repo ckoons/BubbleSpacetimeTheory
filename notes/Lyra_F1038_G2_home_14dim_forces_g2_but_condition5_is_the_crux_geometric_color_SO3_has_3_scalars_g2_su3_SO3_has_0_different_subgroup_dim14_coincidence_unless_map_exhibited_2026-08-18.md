@@ -1,0 +1,42 @@
+# F1038 — The G₂-home candidate for color: if the second shell (SO(5)-14) Toeplitz operators close finite+compact, the algebra is FORCED to be g₂ (unique 14-dim simple compact), su(3) ⊂ g₂. But condition (5) is the crux and the branchings flag it RED: the geometric color-SO(3) branches the 14 with THREE scalars (14 = 5+3+3+1+1+1); g₂'s su(3)-SO(3) branches with NONE (14 = 5+3+3+3). Different subgroups. So the geometric color su(3) (F1033/F1034) is NOT the standard su(3) ⊂ g₂ — the G₂ home is a dim-14 coincidence UNLESS Grace exhibits the SO(3)-identification map. The corpus already banks a G₂-color home on the g=7 fundamental (K506/T2495, K490).
+
+**Lyra, Tuesday 2026-08-18, Round 7. Backbone for the five-condition Toeplitz computation (#108), sharpened by the G₂ lead. Reconnected (grep -F): K506/T2495 (g=7 = G₂ fundamental, color 3⊕3̄⊕1), K490/K488 (su(3)⊂g₂⊂so(7)≠tangent, Dynkin 1), F1036/F1037 (shell + closure backbone), F1033/F1034 (color = geometric SO(V₁₂)). LA on D_IV⁵. Nothing pushed; CP existence-only.**
+
+## The G₂ home — and the corpus already has one (on the 7, not the 14)
+Banked (K506, Grace T2495): **g = 7 is one 7-dim rep wearing four hats — so(7) vector = G₂ fundamental = color 3⊕3̄⊕1 = n_C+rank.** And (K490/K488): **gauge su(3) ⊂ g₂ ⊂ so(7), Dynkin index 1, "≠ tangent."** So BST already places color's su(3) inside g₂, realized on the **g=7 fundamental** (7 = 3⊕3̄⊕1 under su(3)⊂g₂). The Round-7 claim is the *complementary* piece: **g₂ on the ℓ=2 second shell, the SO(5)-14 = g₂'s adjoint.** A G₂ with its fundamental (7) and adjoint (14) both realized would be a coherent geometric home.
+
+## The "which group" is forced — 14-dim ⟹ g₂
+If the second-shell Toeplitz operators close into a **finite, compact, simple** Lie algebra, it is **g₂** — the *unique* 14-dimensional simple compact Lie algebra (rank-2 simple dims: su(3)=8, so(5)=sp(2)=10, **g₂=14**). So condition (1)+(2)+(4) [finite closure + ℓ=3 truncation + compact sign] together force the answer to be g₂ or nothing; there is no 14-dim alternative. This sharpens the target: the computation is not "find the group," it is "does the shell close to g₂, and does its su(3) sit on the geometric color-SO(3)?"
+
+## Condition (5) is the crux — and the branchings flag it RED
+Condition (5): the su(3) must be realized **on the geometric SO(V₁₂)** (the color-SO(3) that F1033/F1034 pinned, three ways). Here is the obstruction, explicit (verified):
+
+| SO(3) subgroup | 14 branches as | scalars |
+|---|---|---|
+| **geometric color-SO(3)** (⊂ SO(5), on V₁₂) | 5 ⊕ 3 ⊕ 3 ⊕ **1 ⊕ 1 ⊕ 1** | **three** |
+| **su(3)-SO(3) inside g₂** (principal-of-su(3)) | 5 ⊕ 3 ⊕ 3 ⊕ 3 | **none** |
+| g₂ principal SO(3) | 3 ⊕ 11 | none |
+
+**The geometric color-SO(3) and g₂'s su(3)-SO(3) are DIFFERENT subgroups** (different scalar content in the 14 ⟹ non-conjugate). The three geometric scalars are frame-built (the two Peirce frame directions and their trace); g₂'s su(3)-SO(3) has none. ⟹ **The color su(3) built on the geometric SO(3) (F1033: geometric-so(3) ⊕ i·Sym²₀) is NOT the standard su(3) ⊂ g₂.** Whether the *geometric* su(3) is *any* subalgebra of g₂ (g₂ carries several su(3)'s) is exactly condition (5)'s open question — and the scalar mismatch is a **strong signal it is not**. Absent an exhibited identification, the "g₂ on the 14-shell" is a **dim-14 coincidence** (14 = dim g₂ is a matched number; the geometric SO(3) doesn't sit in g₂ as color's SO(3)).
+
+**This is the same discipline that killed 5=n_C (F1036) and SU(3)-vs-SO(3) (F1034): a matched integer (or dim) is not a map. Grace must exhibit the SO(V₁₂) ↔ su(3)-in-g₂ intertwiner, or the G₂ home does not close on the geometric color.**
+
+## The five conditions, mapped (for Elie's blind computation)
+1. **Finite closure** — the 14 shell Toeplitz operators close, no residual Hankel operator off the 14.
+2. **ℓ=3 vanishing** — the Hankel corrections truncate at the second shell (don't leak into the SO(5)-30, ℓ=3). This is what makes it *finite* (⟹ g₂, not the infinite Toeplitz algebra). **The crux of finiteness.**
+3. **Nonzero su(3) d-symbol** — the color subalgebra is genuine su(3) (F1037's discriminator: su(3) is the unique rank-2 simple with d_abc ≠ 0). Blind-post f AND d.
+4. **Compact/positive sign** — compact g₂ (real form), not split g₂ or a non-compact contraction. Read from the Killing-form sign.
+5. **On the geometric SO(V₁₂)** — the su(3)'s SO(3) IS the geometric color-SO(3), not a re-identified one. **The branchings above say this is where it most likely fails** — needs Grace's exhibited map.
+
+## Honest tier / prior
+- **Candidate (real, banked support):** dim 14 = dim g₂; corpus g=7 = G₂ fundamental with color 3⊕3̄⊕1 (K506); su(3)⊂g₂⊂so(7) (K490). The G₂ home is a *substantive* candidate, not idle.
+- **The hard gate is condition (5),** and my branchings flag it: geometric color-SO(3) (3 scalars) ≠ g₂'s su(3)-SO(3) (0 scalars). **Prior: condition (5) fails unless Grace exhibits a nontrivial identification** — and "different scalar content" is a strong non-conjugacy signal.
+- **Both outcomes informative:** PASS (all five) = color's geometric home is g₂-with-su(3)-on-the-geometric-SO(3), a real derivation. FLOOR = the shell closes to g₂ but on a *different* SO(3) (condition 5 fails) ⟹ the G₂ home exists abstractly but is not the *geometric color's* home ⟹ #108 stays open, the 14=dim-g₂ is a coincidence. Name which.
+
+## Handoffs
+- **@Elie** — the five conditions, blind. In particular (2) ℓ=3 truncation (does the Hankel correction close on the 14 or leak to the 30?) and (3) the d-symbol (su(3)-specific). Keep operators Toeplitz; a bare-matrix g₂ is construction-guaranteed. Report which of the five hold.
+- **@Grace** — the decisive one: **exhibit the map identifying the geometric color-SO(3) with an SO(3) ⊂ su(3) ⊂ g₂.** My branchings say the geometric SO(3) (3 scalars in the 14) is non-conjugate to g₂'s su(3)-SO(3) (0 scalars) — so either there's a *different* su(3) ⊂ g₂ whose SO(3) matches the geometric one (find it, exhibit the branching), or the G₂ home is a dim-14 coincidence. This is condition (5), and it decides the whole thing. Cross-check against the banked K506 (g=7 = 3⊕3̄⊕1): is the "3" there the geometric V₁₂?
+- **@Keeper** — #108 PASS needs all five, and (5) is the one my branchings flag as likely-fail. Closure-to-g₂-on-a-different-SO(3) is a FLOOR (abstract G₂ home, not the geometric color's), not a PASS. The dim-14 = dim-g₂ match alone is fenced as coincidence (like 5=n_C).
+- **@Casey** — a real candidate with a real catch. The five missing gluons live in the second harmonic shell, which happens to have exactly 14 slots — and 14 is the dimension of the exceptional group G₂, the *only* group of that size, and G₂ famously contains SU(3). So the shell could be G₂'s "body" with color's SU(3) inside it — and we already knew (banked, months ago) that BST's g=7 is G₂'s smallest rep carrying exactly the color content 3+3̄+1. That's genuinely encouraging. The catch is the one we keep running into: the *particular* three-color rotation the geometry hands us doesn't sit inside G₂ the way SU(3)'s does — I can see it in the bookkeeping (our color-rotation leaves three "spare" directions fixed; G₂'s version leaves none). So either there's a clever re-identification Grace can exhibit, or the 14 = 14 is another beautiful coincidence. One blind computation (Elie) plus one exhibited map (Grace) settles it — and I've written down where I think the crack is, so we test it rather than hope past it.
+
+Notes only; no theorem/toy claimed (G₂ backbone + condition-5 obstruction + branchings, for Elie/Grace). F1038: 14-dim simple compact = g₂ UNIQUELY → if shell closes finite+compact it's g₂, su(3)⊂g₂. Corpus already banks G₂-color home on g=7 fundamental (K506/T2495 g=7=G₂-fund=color 3⊕3̄⊕1; K490 su(3)⊂g₂⊂so(7)≠tangent, Dynkin 1); new = g₂ on the 14-shell (adjoint). CRUX = condition (5): geometric color-SO(3) branches 14 = 5+3+3+1+1+1 (THREE scalars) vs g₂'s su(3)-SO(3) 14 = 5+3+3+3 (NONE) → DIFFERENT subgroups → geometric color su(3) ≠ standard su(3)⊂g₂ → dim-14 coincidence UNLESS Grace exhibits the SO(3)-identification. Five conditions mapped: (1) finite closure (2) ℓ=3 truncation=finiteness (3) su(3) d-symbol (4) compact sign (5) geometric-SO(3) [the likely-fail]. Prior: (5) fails on scalar-count non-conjugacy; needs exhibited map or it's coincidence. PASS=all five=geometric g₂ home; FLOOR=g₂ on different SO(3)=abstract not geometric. — Lyra
