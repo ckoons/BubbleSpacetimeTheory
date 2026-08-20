@@ -7,6 +7,11 @@ status: "PROVED. Narrative rewrite (Keeper)"
 
 # The alpha^2-Per-Layer Theorem: A Rigorous Proof via Berezin-Toeplitz Quantization
 
+> **⚠ CORRECTION BANNER (Keeper, 2026-08-20, K1734 / sweep-index). This is the ROOT file for the retired-Wyler-α contamination — other notes (BST_ConjectureC_MassProof, BST_MassGap_CPFiber, …) cite this file's "PROVED: α = (9/8π⁴)(π⁵/1920)^{1/4}" as an input. That specific claim is RETIRED (K1391, Robertson four-reading trap): the Wyler volume-ratio route to α is a TARGET-FIT (the reading was selected to land on 137), NOT a proof. Retained per never-delete-stamp-superseded.**
+> - **α stays Identified**, not retired: α⁻¹ = N_max = N_c³·n_C + rank = 137 (Identified-strong, the frozen one-pager's reading). What is retired is the **Wyler-volume "derivation" of it to 0.0001%** — that precision is the tell of a fit, not a forcing.
+> - **The Berezin-Toeplitz integral identities (Claims 1–4)** may stand as genuine math ABOUT integrals on D_IV⁵ — but they must NOT be presented as *proving* the physical α value via the Wyler volume ratio. Separate the (possible) integral theorem from the retired α-forcing.
+> - Do not cite this file's "α = Wyler formula, PROVED" downstream. See K1391 (retired), K1734 (ruling), the 8π⁴-Wyler-sweep index.
+
 **Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** PROVED. All steps including Conjecture C are established. Claims 1-4 are rigorous theorems of Berezin-Toeplitz quantization on bounded symmetric domains. Conjecture C (mass-probability correspondence) is proved by three independent routes in BST_ConjectureC_MassProof.md (c-function, Berezin symbol, holographic).

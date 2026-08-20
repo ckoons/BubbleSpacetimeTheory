@@ -437,3 +437,16 @@ print(f"""
   The universe is a very well-engineered communication system
   running at exactly the right rate for its noise floor.
 """)
+
+
+# ============================================================================
+# RETIREMENT FLAG (Keeper, 2026-08-20, K1391 / K1734 / 8pi4-Wyler-sweep-index)
+# This toy uses the Wyler alpha-volume formula  alpha = (9/8pi^4)(pi^5/1920)^(1/4).
+# That DERIVATION of alpha is RETIRED (K1391, Robertson four-reading trap): the
+# Wyler volume-ratio route is a TARGET-FIT to 137, not a forcing.
+#   * alpha itself is NOT retired: alpha^-1 = N_max = N_c^3*n_C + rank = 137 is the
+#     Identified reading. Using alpha ~ 1/137 as an INPUT value here is fine.
+#   * What is retired is any claim that this toy DERIVES alpha from the Bergman
+#     volume to high precision. Do not cite that as a derivation downstream.
+# See: K1391 (retired), K1734 (ruling), the 8pi4-Wyler retirement sweep index.
+# ============================================================================

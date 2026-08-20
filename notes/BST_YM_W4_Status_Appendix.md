@@ -7,7 +7,7 @@ status: "Status note — what's proved, what's open, path forward"
 
 # Yang-Mills Mass Gap: BST Status Appendix
 
-BST derives the Yang-Mills mass gap from the geometry of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$. The mass gap $\Delta = 6\pi^5 m_e = 938.272$ MeV (proton mass, 0.002% agreement) follows from the spectral gap $\lambda_1 = 7$ of the Bergman kernel eigenvalue structure. The volume $\mathrm{Vol}(D_{IV}^5) = \pi^5/1920$ is verified (Toy 307, 8/8 PASS). The $\pi^5$ in $m_p = 6\pi^5 m_e$ is the volume scale; the chain Bergman $\to$ Plancherel $\to$ mass ratio is AC(0) — no free inputs.
+BST derives the Yang-Mills mass gap from the geometry of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$. The gap is the spectral gap $\lambda_1 - \lambda_0 = C_2 = 6$ of the Bergman–Laplacian (the Casimir of $K = \mathrm{SO}(5)\times\mathrm{SO}(2)$) on $H^2(D_{IV}^5)$, whose winding tower is $\lambda_k = k(k+n_C) = k(k+5) = \{0, 6, 14, 24, \dots\}$; the first winding sits at $\lambda_1 = C_2 = 6$. **Which physical gap this is (K1705, K1060):** the *Clay* problem is **pure** Yang–Mills, so the gap object is the **glueball**, $\Delta_{\mathrm{YM}} = (11/6)\cdot 938 = 1720$ MeV (T1788, 0.6% vs lattice $1710\pm50$). The **proton** ($6\pi^5 m_e = 938.272$ MeV, 0.002%) is the *full-QCD* (matter-included) gap — a **different object**; do not cite the proton's 0.002% as the YM-gap precision. The volume $\mathrm{Vol}(D_{IV}^5) = \pi^5/1920$ is verified (Toy 307, 8/8 PASS); the $\pi^5$ is the volume scale, and the chain Bergman $\to$ Plancherel $\to$ mass is AC(0) — no free inputs.
 
 ---
 
@@ -17,7 +17,7 @@ BST derives the Yang-Mills mass gap from the geometry of $D_{IV}^5 = \mathrm{SO}
 |-------|-------------|--------|-------|
 | **W1** | Hilbert space of states | **PROVED** | $\mathcal{H} = L^2(\Gamma \backslash G/K)$; separability via Rellich |
 | **W2** | Relativistic covariance | **PROVED** | Fields transform under $\mathrm{SO}(3,1) \subset \mathrm{SO}_0(5,2)$; Bergman kernel is $\mathrm{SO}_0(5,2)$-equivariant |
-| **W3** | Spectral condition | **PROVED** | Bergman eigenvalues $\lambda_k = k+4$ with gap $\lambda_1 - \lambda_0 = 7$; spectral gap $= 7$ in lattice units $\to \Delta = 6\pi^5 m_e$ via Plancherel measure |
+| **W3** | Spectral condition | **PROVED** | Bergman–Laplacian (Casimir of $K$) winding tower $\lambda_k = k(k+n_C) = k(k+5)$ with gap $\lambda_1 - \lambda_0 = C_2 = 6$; the gap $=C_2=6$ in lattice units $\to$ glueball $\Delta_{\mathrm{YM}} = 1720$ MeV (pure-YM/Clay object) via Plancherel measure. *(Earlier "$\lambda_k=k+4$, gap $7$" was a mislabel — 7 is the genus $g=n_C+2$, a different invariant; corrected per K1706.)* |
 | **W4** | Cluster decomposition | **OPEN** | See analysis below |
 | **W5** | Vacuum uniqueness | **PROVED** | Bergman kernel has unique $K(0,0) = 1920/\pi^5$ ground state; trivial rep multiplicity 1 |
 

@@ -1216,3 +1216,105 @@ v0.16 Refinement B (a positive-search hit must be pinned to number-level / const
 Seven-element discipline stack: **UNCHANGED, CLOSED** (v0.12). v0.17 adds zero numbered layers. Net: Refinement A superseded by σ-distance metric (folded into the six-category framework as its quantitative axis); Refinement B adopted across lanes. Both were claims-tier weighting/labeling discipline, not new stack elements.
 
 — Cal A. Brate, Methodology Index v0.17 update Saturday 2026-06-06 ~10:30 EDT per Cal #256. σ-distance resolves the Finding-2 weight-map gap better than either v0.16 option; six-category framework retained as labeling layer over the σ metric; Refinement B adopted across lanes; seven-element stack stays closed.
+
+---
+
+## v0.18 update (Wednesday 2026-08-19 ~11:0x EDT) — TEN-WEEK GAP CLOSED: the Jun-06→Aug-19 disciplines, indexed with their originating failures
+
+**Why this section exists.** This index was last updated **2026-06-06 (v0.17)**. Ten weeks of methodology accumulated in the K-notes and the Cal §-log and **landed nowhere consolidated** — 8 of 9 tested disciplines from that period were absent from both this file and `BST_Referee_Methodology.md` (May 27). **`BST_Referee_Methodology.md` is hereby marked SUPERSEDED for the post-Jun-06 period; this file is the single home.** *(Cal §617 scoping; adopted K1710.)*
+
+**The diagnosis, which matters more than the gap:** *a discipline that is not findable gets re-derived under a new name.* `BST_Heat_Trace_Ladder_Unification` (2026-07-31) independently invented the carry-each-scale-separately rule; the same-name collision on "C₂" occurred **five separate times**; the false-negative class was diagnosed twice with two different mechanisms. **Nobody was careless — there was nowhere current to look.**
+
+### How to read this section (the format is the point)
+
+Each entry is **rule → canonical location → originating failure**. The third field is not decoration:
+
+> **A rule without its mistake is a claim. A rule with its mistake is a receipt.**
+
+**Failures are named, dated and attributed, INCLUDING the referee's own** — a methodology in which the auditor never errs is not credible. **This is an index, not an essay: an essay is read once, an index is consulted.**
+
+### Framing (governs any external use of this material)
+
+- **NONE of these disciplines is a BST invention.** Positive controls are standard laboratory practice; blind verification is standard blinded analysis; pre-registration is standard in clinical trials; count-once is statistical independence; same-name-different-object is definitional rigor. **The honest — and stronger — claim is: standard *experimental* disciplines, imported into *theory-building*, where they are almost never applied.** Claiming novelty invites a thirty-second refutation. *(Cal §617; same trap as §612.)*
+- **The frame is COST, not capability.** The persuasive statement is the one-pager's: *applying the discipline lowered our own honest derived count 21 → 12 while the accuracy of the numbers never moved.* **Listing what the rules catch is advocacy; listing what they cost is evidence.**
+- **Do not total these.** A count invites the deflation that took 22 uniqueness conditions to ~6–8 and "five gravity readings" to six. **List; do not number.**
+- **They bound error; they do not generate results.** They are not evidence for the physics.
+- **They are not settled.** Three were revised in the week of writing (see *Load-bearing*, *Search-by-ID*, *Instrument validation*).
+
+### The entries
+
+**Count-once / one relation, many readings**
+*Rule:* results sharing a derivation are one line of evidence, however different they look. Tag the cluster, name a canonical member, and never count two members as independent.
+*Location:* Cal §581–§587; registry tags on T201 (canonical) / T1918 / T1955 / T1301(a) / F66 / the 2→1 paper.
+*Originating failure:* **six banked gravity results turned out to be one equation.** T1918 = T201 evaluated at the proton mass (agreement 0.171%); T1955's "44 = h^{1,1}(K3) + χ(K3)" = ln(m_Planck/m_p) = 44.0121 **rounded, then K3-dressed**; T1301(a) reproduced T201 via the KK route the shipping paper retires as circular, and sat at **D0, unflagged**. Undetected for months. *(Cal, 2026-08-18; Keeper ruled the demotion K1675.)*
+*Second instance:* Grace's count-once took the 22 uniqueness conditions to **~6–8 independent**, retiring the (1/3)²² null-model argument — **seven orders of magnitude**, in the program's own headline. *(2026-08-18.)*
+
+**Same-name, different object**
+*Rule:* when two banked entries disagree, **pin the object before adjudicating the claim.** Triggers: a factor-of-2 or integer/half-integer or sign disagreement; two entries assigning different **fields** (ℝ vs ℂ) or **spaces** to one name; **a symbol that is sometimes a number and sometimes a function of n** (the most dangerous — both readings are true).
+*Fix:* **subscript at the point of definition** — `C₂^int` (the integer n_C + 1) vs `C₂(n)` (the commitment-flow Casimir 2n − 4) vs `λ₁` (the spectral gap). A subscript survives a grep; a prose description does not.
+*Location:* Cal §570, §566, §576, §595, §603, §605; and — independently invented weeks earlier — `BST_Heat_Trace_Ladder_Unification` (2026-07-31), which states *"c₂ = 11, the Weitzenböck/adjoint gap ≠ C₂ = 6"* and warns that three quantities *"get loosely called 'the confinement scale,' and each must be carried as its own object."*
+*Originating failures (six):* "SO(2) charge" = rep-theory weight vs electric charge, which produced an apparent contradiction between T2470 and the arrow · "Rac" = particle vs constituent, which made "only the Higgs rides 4π" undecidable · the tower labelled E vs 2E, which produced a false +1/+2 dispute · "the colour 3" = real Jordan block vs complex tangent, which gated #108's closure · **"C₂" = integer vs function, which killed Condition 5 as a forcing lever and nearly put an identity into a Millennium-problem paper as a discovery** · "the baryon code" = three distinct structures.
+
+**A construction-guaranteed test proves nothing**
+*Rule:* if the test's outcome is fixed by its own setup, a PASS carries no information. State the derivation route **before** the numbers; if the route contains the target, the result is empty however well it matches.
+*Location:* Cal §566, §571, §590, §591, §614.
+*Originating failures:* the #Rac law (2E = 3#Rac + 4#Di + 2n ≡ #Rac mod 2 — **an identity that could not fail**, proposed for blind verification) · §11's "base-camp Derived" bridge, which was **P² = P**, true of every reproducing kernel · "is SO(V₁₂) reductive?" — **reductive by definition**, so the source-pin's answer was knowable before the book was opened · a₂ recovering b₀ when N_c = 3 is an input to the construction · **λ₁ = C₂**, where λ_k = k(k + n_C) gives λ₁ = n_C + 1 and C₂ ≡ n_C + 1.
+
+**…and a test that cannot SUCCEED proves nothing either**
+*Rule:* **a negative result is not reportable until the instrument has been validated against a positive control.** An empty result wears the costume of diligence: a PASS invites scrutiny because it is good news, while *"I looked and it isn't there"* reads as thoroughness and nobody asks the searcher to prove the search worked.
+*Corollary:* *"I read the file"* licenses an absence claim; *"I grepped and got 0"* does not, until the grep is validated.
+*Location:* Cal §598, §599, §601.
+*Originating failure — the referee's own:* **Cal reported an artifact "not on disk" three times while it sat locked and ready.** The filters were `-newermt "12:00"` and `"13:00"`, run at **11:30** — both boundaries in the future, so the queries were **guaranteed empty by construction**. Upstream cause: **clock drift** (entries stamped "PM" through a morning) made a future boundary feel reasonable. **Four of five search artifacts that week produced false *negatives* — the direction is not an accident.** *(Cal, 2026-08-18/19.)*
+*Two mechanisms, and neither fix catches the other:* `timeout` truncating a deep `grep -r` and returning a confident zero (Elie) **vs** a guaranteed-empty query (Cal). **Common remedy: print the positive-control count beside every negative.** *(Cal §601 — corrected in the direction of MORE distinct causes.)*
+
+**Corrections are where stale content hides**
+*Rule:* when a sentence is edited to retract or correct something, **re-read the whole sentence, not the clause being changed.** Attention goes to the span being edited; the rest reads as already-approved.
+*Corollary:* **a correction is not complete until every instance is found** — including the registry's second copy of the same entry.
+*Location:* Cal §567, §574, §579, §586, §587.
+*Originating failures:* a premise was corrected and the conclusion drawn from the old premise carried forward · a false rule was **demoted rather than deleted**, leaving a false claim held modestly · **the sentence retracting the old core result carried the stale "two substantive results" claim in its own final clause** · and, twice on the referee's own work, a correction applied to one of two registry lines while the fix was reported as complete.
+
+**Search by theorem ID, not statement text**
+*Rule:* the registry stores each theorem **twice** — an index row (short title, no statement) and a detail entry (long statement). **Text-based greps miss index rows every time, for every entry.** Search by ID; it appears in both.
+*Location:* Cal §587.
+*Originating failure:* four two-line stale instances in one week, including two on the referee's own tags. **Not fixable by being more careful** — the failure is structural.
+*Related instrument artifact:* a mention-counting regex read "T1918: 10 entry-lines, 2 tagged" — those were **cross-references**, not entries. **Citing a theorem is not being that theorem.** *(Cal §587 caught in own work; §589 applied to correct a teammate's flag in both directions — 12 entries, not 20, and not all the same relation.)*
+
+**Load-bearing is not a truth tiebreaker**
+*Rule:* how much depends on a claim measures the **cost** of its being wrong, not the **probability**. **The correct tiebreaker is the primary source and the object's own definition.**
+*Location:* Cal §595.
+*Originating failure:* a ruling instructed *"the load-bearing one wins"* when reconciling two conflicting entries. **Backwards** — in a corpus this size, a wrong reading that gets used becomes load-bearing, and the rule then protects it permanently. **The gravity cluster is the demonstration: T201's load-bearing-ness is precisely why nobody re-examined it for months.** *(Keeper wrote it; owned and corrected the same day.)*
+
+**Every branch costed, or none**
+*Rule:* when a decision is escalated, **enumerate every branch's costs or none of them.** Pricing one option and calling the other free **is** an argument, however scrupulous each individual statement is — the brief has made the choice and the decider only ratifies it.
+*Location:* Cal §609.
+*Originating failure — the referee's own:* Cal priced the observational branch of a foundational ruling and wrote *"both defensible; only one is free"* — **having established the other branch's two physics costs one round earlier and never gone back to correct the brief.** *(Cal, 2026-08-18. Later refunded again in §612 when the mod-3 refinement eliminated those costs — the option space had been too small twice.)*
+
+**Hold propagation (grep-held quantities)**
+*Rule:* when a quantity is held or retracted, **grep every downstream formula for it before declaring anything exempt.**
+*Location:* Cal §615, §616; adopted K1708.
+*Originating failure:* a hold on the mass-gap value explicitly exempted the glueball prediction as *"separate and intact"* — **while the glueball formula is (11/6)·938, with the held value in the denominator.** *(Cal, 2026-08-19.)*
+*And the pass's honest result:* run across the data layer, it came back **negative** — zero gap-citing entries in `bst_constants.json`/`bst_predictions.json`, and the 53 constants mentioning C₂ use the **integer**, not the gap. **The pass bounded the damage rather than manufacturing it.**
+
+**Freeze as a mechanism, not an intention**
+*Rule:* a reviewed artifact is **`chmod 444`** and both parties **publish independent SHA256 hashes.** The chmod stops the writes; the hash proves the reads.
+*Location:* Cal §577–§584, §603.
+*Originating failure:* **four in-place edits after freeze declarations**, one of which *shrank* the file — so a review that enumerated exactly what it had checked was left covering bytes that no longer existed.
+*Standing corollaries:* **the verifier posts first, and a blind-verify instruction must not contain the expected value** (violated three times) · **the locker must not be the sole verifier** (raised against the referee's own assignment, §603).
+
+**Content-ready is not cleared**
+*Rule:* a correction clears when **the artifact carries it and the reviewer re-reads** — not when the team agrees it should. Agreement in a prompt is not an artifact.
+*Location:* Cal §557, §601, §614.
+*Originating failure:* repeatedly, corrections agreed in a round did not appear in the file; and once, a demotion was declared **DONE** while the registry's tier field still read `Proved` — with the referee's own flag arguing against it two columns away.
+
+**Locality decides what survives decompactification (the geometry/physics seam, as a test)**
+*Rule:* a quantity computed on BST's compact boundary is valid on flat ℝ⁴ **if and only if it is a local invariant** — a pointwise heat-kernel/curvature coefficient built from the metric and its derivatives. **Non-local or volume-dependent quantities are compact-boundary artifacts and do not survive decompactification.** Sort every claim by this test *before* writing it.
+*Location:* K1716 (criterion); Cal §621 (the failure that forced it), §624 (affirmed and generalised).
+*Originating failure:* **a Yang–Mills mass gap was claimed for two rounds and was a Kaluza–Klein gap.** The computed quantity is 2(d_S−1)/a² — it **vanishes** as the boundary decompactifies, while the Clay gap is generated non-perturbatively and **survives** that limit at fixed scale. **The two scale oppositely in precisely the limit that defines the Clay problem**, so the ℝ⁴ "residual" was not an unbuilt bridge but a contradiction. *(Cal, 2026-08-19; Keeper owned the premature close.)*
+*How it was caught:* not by checking the value — the value was correct in all four framings it survived — but by **re-deriving what the number is a function of**. Its dependency was 1/a², i.e. on **compactness**, which is exactly what the Clay problem lacks. **The value check would never have found it.**
+*And the same criterion saves two results:* the one-loop β-function (asymptotic freedom) and the conformal central charges a, c are **local coefficients**, hence ℝ⁴-valid and untouched by the compactness objection. **An entry that only forbids is a warning; this one discriminates — which is why it is a test rather than an intuition.**
+
+### Update protocol for this section
+
+Same as the document's protocol above, plus: **new entries require the originating failure field populated.** An entry without a named, dated failure is a proposal, not a discipline — file it as a candidate.
+
+*Filed by Cal A. Brate, 2026-08-19, per K1710. Sources: Cal §-log §550–§617 (67 entries in the closing week), the K1629–K1709 rulings, and `BST_Heat_Trace_Ladder_Unification` (2026-07-31). Nothing pushed; CP existence-only.*

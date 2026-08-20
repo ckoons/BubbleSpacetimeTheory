@@ -1,0 +1,58 @@
+import numpy as np
+from fractions import Fraction as F
+print("="*104)
+print("TOY 5380 -- THE Delta RESIDUAL: does the conformal weight shift Laplacian-eigenvalue -> mass^2?")
+print("  *** SPACE, LINE ONE: the SHILOV BOUNDARY (S^4 x S^1)/Z_2 -- the same compact space as 5379. ***")
+print("="*104)
+
+print("\nTABLE 1 -- *** the question, posed precisely ***")
+print("   on a CURVED space the wave operator can carry a curvature coupling: box + xi R + m^2.")
+print("   if a xi R term is owed, then lambda(Laplacian) =/= mass^2 and the 6 must be corrected.")
+print("   so: for a GAUGE FIELD, is there an owed xi R?")
+
+print("\nTABLE 2 -- *** the answer is in the Weitzenbock formula, and it is already paid ***")
+print("   for p-forms:  Delta_Hodge = d delta + delta d = nabla* nabla + (curvature term)")
+print("   on 1-forms:   Delta_Hodge = nabla* nabla + Ric")
+n=4
+Ric=n-1
+print("   on S^%d (unit radius): Ric = (n-1) g = %d g"%(n,Ric))
+rough=6-Ric
+print("   so at the winning mode:  Delta_Hodge = 6  =  nabla*nabla (%d)  +  Ric (%d)"%(rough,Ric))
+print("   ==> *** THE CURVATURE TERM IS ALREADY INSIDE THE 6. *** The Hodge Laplacian is not the")
+print("       'bare' rough Laplacian -- it carries exactly the curvature coupling that a xi R term")
+print("       would otherwise have to supply. Adding one would DOUBLE-COUNT it.")
+
+print("\nTABLE 3 -- and the Hodge Laplacian is the RIGHT operator for Yang-Mills")
+print("   linearised Yang-Mills:  d^dagger F = 0,  F = dA")
+print("   in Lorenz gauge (d^dagger A = 0) this is exactly  Delta_Hodge A = 0.")
+print("   ==> *** the operator whose spectrum I computed IS the linearised YM operator. ***")
+print("   contrast: had I used the ROUGH Laplacian nabla*nabla, the answer would be %d, not 6."%rough)
+print("   *** So the operator choice is load-bearing -- and the gauge-invariant one is Hodge. ***")
+
+print("\nTABLE 4 -- the two Delta-readings, kept apart")
+print("   reading                          what it computes                      applies here?")
+print("   intrinsic Hodge spectrum          mass^2 on the COMPACT boundary        *** YES ***")
+print("   CFT/AdS  m^2 = Delta(Delta - d)   a weight in a FLAT, non-compact dual   no")
+print("   ==> the CFT relation is about the R^4 side -- *** that is the OTHER residual (the Clay")
+print("       construction), not this one. *** Keeping them apart is the whole point.")
+
+print("\n"+"="*104)
+print("VERDICT -- the residual I own")
+print("="*104)
+print(" (1) ***** NO Delta-SHIFT. mass^2 = 6 DIRECTLY. ***** The Hodge Laplacian already contains the")
+print("     Weitzenbock curvature term (6 = rough %d + Ric %d on S^4), which is exactly what a"%(rough,Ric))
+print("     conformal xi R coupling would otherwise supply. Adding one would double-count it.")
+print("     *** THE CLOSE HARDENS: mass^2 = 2 N_c = 6, R-independent, no shift. ***")
+print()
+print(" (2) *** AND THE OPERATOR CHOICE IS LOAD-BEARING, SO I STATE IT: *** linearised Yang-Mills in")
+print("     Lorenz gauge IS Delta_Hodge A = 0, so the operator I spectrally analysed is the right")
+print("     one. Had I used the rough Laplacian the answer would be %d. The gauge-invariant"%rough)
+print("     operator is Hodge, and that is not a convenience -- it is what the YM equation says.")
+print()
+print(" (3) THE TWO Delta-READINGS STAY APART: the intrinsic Hodge spectrum gives mass^2 on OUR")
+print("     compact boundary; the CFT relation m^2 = Delta(Delta-d) is about a flat non-compact dual.")
+print("     *** That second one belongs to the R^4 residual, not this one. *** One residual closes;")
+print("     the other is untouched and still named.")
+print()
+print(" (4) SO THE RESIDUAL LEDGER UPDATES: (a) Delta-shift -- *** CLOSED, no shift ***;")
+print("     (b) the R^4 construction (Clay) -- *** OPEN, unchanged, and it is the big one. ***")

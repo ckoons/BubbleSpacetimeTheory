@@ -392,24 +392,25 @@
     },
     {
       "id": "pred_017",
-      "name": "No proton decay (ever)",
+      "name": "No proton decay (ever) — τ_p = ∞, exact integer baryon winding (canonical; pred_115 merged here 2026-08-19)",
       "category": "distinguishing_from_alternatives",
-      "prediction": "Proton is exactly stable. tau_p = infinity. Z_3 topological protection.",
-      "bst_value": "tau_p = infinity",
-      "current_measurement": "Super-K: tau_p > 1.6 x 10^34 years (BST consistent)",
-      "experiment": "Hyper-Kamiokande (10x Super-K sensitivity)",
+      "prediction": "Proton is exactly stable, tau_p = infinity, ALL channels. Mechanism (CORRECTED per K1700b, supersedes the retracted 'Z_3 center' framing): EXACT INTEGER baryon winding per channel — a single proton cannot smoothly untie its one knot (topological, exact against all smooth processes; bulk-geodesic complete-commitment winding, T1922/T296). Baryon number conserved as delta-B = 0 mod N_c=3: proton (delta-B=1) and dinucleon (delta-B=2) forbidden EXACTLY; the sphaleron / trinucleon channel (delta-B=3 = N_gen = N_c) is allowed-by-the-rule (invisible, since N_gen=N_c is a coincidence-at-n_C=5, K1704). BST departs from GUTs/BSM (which predict proton decay), NOT from the SM (where B is accidentally conserved).",
+      "bst_value": "tau_p = infinity (exact; delta-B=1 forbidden)",
+      "current_measurement": "Super-K: tau_p > 1.6 x 10^34 years (BST consistent). Companion falsifier n-nbar oscillation (delta-B=2): Super-K tau > 4.7 x 10^8 s null (consistent).",
+      "experiment": "Hyper-Kamiokande, DUNE (proton decay, all channels); ESS + reactor searches (n-nbar oscillation, delta-B=2)",
       "timeline": "2027-2040",
-      "falsification_criterion": "Detection of proton decay at any rate",
-      "impact_if_falsified": "FATAL. Z_3 topological protection is the core of BST baryon physics.",
-      "status": "in_progress",
+      "falsification_criterion": "Detection of proton decay (delta-B=1) at any rate, OR n-nbar oscillation / dinucleon decay (delta-B=2). ANY delta-B=1 or delta-B=2 signal kills BST. (delta-B=3 is allowed-by-rule and does NOT falsify; delta-L=2 / 0-nu-beta-beta is allowed — B-L separation.)",
+      "impact_if_falsified": "FATAL. Exact integer baryon winding (delta-B=0 mod N_c) is the core of BST baryon physics.",
+      "status": "active falsifier — currently consistent (no positive proton decay; n-nbar null)",
       "bst_integers_used": [],
       "source_section": "Section 8",
       "related_constants": [
         "const_027"
       ],
-      "competing_prediction": "Most GUTs (SU(5), SO(10)) predict proton decay with tau ~ 10^34-10^36 years",
-      "tier": "I",
-      "ace": "(1,0)"
+      "competing_prediction": "Most GUTs (SU(5), SO(10)) predict proton decay with tau ~ 10^34-10^36 years. No GUT predicts the BST pattern (delta-B=1,2 forbidden but delta-B=3 allowed).",
+      "tier": "ABSOLUTE (Keeper-ruled K1700; mechanism = exact integer winding). Strongest-possible null falsifier.",
+      "ace": "(1,0)",
+      "notes": "MERGED (2026-08-19, Grace): pred_115 (STRICT proton stability, companion to WIMP-null pred_114) was the same tau_p=infinity prediction filed twice — folded here as the canonical entry. Toy: play/toy_3102_proton_lifetime_infinite_BST.py. Proton over-determined: mass + radius + magnetic moment + g-factor + lifetime all D/I-tier or absolute. The old 'Z_3 topological protection' framing is RETRACTED (K1700b): the color center Z(SU(3)) grades triality, conserved in both proton decay and the sphaleron; what forbids delta-B=1 is the integer winding per channel, and the shared modulus is N_gen=N_c=|Z(SU(3))|."
     },
     {
       "id": "pred_018",
@@ -2159,18 +2160,13 @@
     },
     {
       "id": "pred_115",
-      "name": "BST predicts STRICT proton stability τ_p = ∞ — strongest possible null falsifier (companion to WIMP-null)",
+      "name": "[MERGED into pred_017, 2026-08-19] — duplicate τ_p=∞ proton-stability prediction",
       "category": "proton physics / GUT / BST falsifier",
-      "prediction": "BST predicts STRICT τ_p = ∞ (proton stable across ALL decay channels) — proton is bulk-geodesic complete-commitment winding (T1922 Casey particle-winding). No GUT-scale decay channel in BST framework. Companion to BST DM-as-incomplete-windings null prediction (pred_114): both are null-result framework predictions. Strongest possible falsifier: ANY positive proton-decay observation at ANY branching channel refutes BST.",
-      "experimental_target": "Super-Kamiokande, Hyper-Kamiokande, DUNE; sensitivity > 10^33-10^35 years per channel",
-      "cost_estimate": "Existing + planned megaton-class detectors; no new instrumentation",
-      "timeline": "Ongoing — 40+ years of null searches consistent with BST prediction; Hyper-K (2027+) extends sensitivity another decade",
-      "theorem": "Casey T1922 particle-winding + proton bulk-geodesic completeness",
+      "prediction": "SUPERSEDED — this was the same τ_p=∞ proton-stability prediction as pred_017, filed twice. See pred_017 (canonical, corrected framing: exact integer winding, delta-B=0 mod N_c, n-nbar falsifier). Retained as a tombstone only for reference integrity (pred_116 cites it); NOT to be counted as a separate prediction.",
+      "status": "MERGED into pred_017 (do not count)",
+      "merged_into": "pred_017",
       "source_toy": "play/toy_3102_proton_lifetime_infinite_BST.py",
-      "tier": "D",
-      "status": "active falsifier — currently consistent (no positive proton decay)",
-      "filed_by": "Grace per Elie Toy 3102 (Tue 2026-05-19 Casey 'for fun' direction)",
-      "notes": "Companion to pred_114 (WIMP-null). Both are 'strongest-possible-null' falsifiers — any positive observation at any channel refutes BST. Currently both consistent with 25+ (WIMP) and 40+ (proton) years of null searches. Proton over-determined: mass + radius + magnetic moment + g-factor + lifetime all D/I-tier or absolute."
+      "notes": "Merge by Grace 2026-08-19 per Casey/Round-12 (double-count removal). Companion framing (to WIMP-null pred_114) preserved in pred_017's notes."
     },
     {
       "id": "pred_116",
@@ -2400,6 +2396,46 @@
       ],
       "tier": "Structure-Derived (the no-crossing shape is F799-forced; target-innocent, never fit to DESI). Forward-falsifier with a sharp geometric kill condition.",
       "ace": "(0,1)"
+    },
+    {
+      "id": "pred_126",
+      "name": "NO neutron–antineutron oscillation (ΔB=2 exactly forbidden) — the sharp BST falsifier",
+      "category": "forbidden_process",
+      "prediction": "n–n̄ oscillation is EXACTLY forbidden. BST baryon number is the integer topological winding per channel, conserved mod N_c=3; ΔB=2 is not ≡0 (mod 3), so the process is forbidden exactly, not merely suppressed. Distinct from proton decay (ΔB=1, pred_017/pred_115): this is an INDEPENDENT channel and a different experiment.",
+      "bst_value": "rate = 0 (exactly)",
+      "current_measurement": "Super-Kamiokande null; free-neutron oscillation time τ_{n-n̄} > 4.7e8 s (bound-neutron limit, oxygen)",
+      "experiment": "Super-Kamiokande (done, null); ESS n–n̄ search (funded, next generation)",
+      "timeline": "2026-2035 (ESS)",
+      "falsification_criterion": "ANY confirmed n–n̄ oscillation event. One event kills BST's exact-B claim outright — there is no suppressed-but-nonzero branch available.",
+      "impact_if_falsified": "Fatal to exact topological baryon number; the winding-per-channel mechanism fails and absolute-B must be retracted.",
+      "status": "active falsifier — currently consistent (Super-K null)",
+      "bst_integers_used": [
+        "N_c"
+      ],
+      "source_section": "K1700b / K1704",
+      "related_constants": [],
+      "tier": "D",
+      "ace": "(1,0)",
+      "notes": "COUNT-ONCE: this is a SEPARATE channel from proton decay (pred_017/pred_115 duplicate each other and should be merged — flagged by Elie 2026-08-19). The ΔB≡0 (mod 3) rule forbids ΔB=1 and ΔB=2 and permits ΔB=3; no GUT predicts that pattern. Allowed-by-rule ≠ observable rate."
+    },
+    {
+      "id": "pred_127",
+      "name": "0νββ TWO-SIDED: ν₁ exactly massless ⟹ m_ββ confined to [1.5, 3.7] meV — detection above it KILLS BST, null does not",
+      "category": "permitted_process",
+      "prediction": "BST: ΔL=2 is NOT forbidden (B is protected by the winding; L is not), AND ν₁ is exactly massless. With m_1 = 0 in normal ordering the U_e1 term vanishes identically, confining the effective Majorana mass to m_ββ ∈ [1.52, 3.70] meV (phases scanned, PDG splittings). TWO-SIDED: a DETECTION at m_ββ >> 3.7 meV contradicts m_1 = 0 and kills the exactly-massless claim; a NULL result is exactly what m_1 = 0 predicts and kills nothing.",
+      "bst_value": "m_ββ ∈ [1.52, 3.70] meV (given m_1 = 0, normal ordering)",
+      "current_measurement": "No 0νββ observed. KamLAND-Zen m_ββ < 28-122 meV — far above the band, so not yet discriminating.",
+      "experiment": "LEGEND-1000 (9-21 meV), nEXO (5-20 meV), CUPID (6-17 meV)",
+      "timeline": "2026-2035 (LEGEND-1000 / nEXO)",
+      "falsification_criterion": "A confirmed 0νββ detection implying m_ββ well above 3.7 meV — i.e. ANYWHERE in the next-generation 5-20 meV reach — contradicts m_1 = 0 exactly. A null result does NOT falsify BST.",
+      "impact_if_falsified": "Kills the exactly-massless ν₁ claim. Does not touch the baryon ledger (ΔB and ΔL are separately protected).",
+      "status": "active TWO-SIDED falsifier — next-gen reach (5-20 meV) sits ENTIRELY ABOVE the m_1=0 band, so it is decidable this decade",
+      "bst_integers_used": [],
+      "source_section": "K1700b / K1704",
+      "related_constants": [],
+      "tier": "D",
+      "ace": "(1,0)",
+      "notes": "Reconciled to two-sided by Elie 2026-08-19 (toy 5374) at @Keeper's instruction. CONTRAST: inverted ordering with the lightest = 0 gives m_ββ ∈ [18, 49] meV, squarely in next-gen reach — so the experiment cleanly discriminates BST's NO+massless case from IO. ★ SCOPE FLAG: this rests on BST committing to NORMAL ORDERING with m_1 = 0 exactly. Elie did NOT verify that the corpus commits to NO; if it does not, the band widens and the falsifier weakens. @Lyra/@Grace to confirm."
     }
   ]
 }

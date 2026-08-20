@@ -6,6 +6,10 @@ date: "March 2026"
 
 # BST Mass Gap Analysis: CP² Fiber Geometry and Yang-Mills Energy Scale
 
+> **⚠ CORRECTION BANNER (Keeper, 2026-08-20, K1734 / folds into K1714). Superseded on two counts, retained per never-delete-stamp-superseded:**
+> 1. **NOT the Clay Yang-Mills mass gap** — K1714 re-scoped BST's "mass gap" as a **Kaluza-Klein gap** (first excitation of the compact boundary), not the interacting Clay object. Read the "Yang-Mills Energy Scale" here as a KK scale.
+> 2. **The Wyler α it "derives" (α = (9/8π⁴)(π⁵/1920)^{1/4} → 1/137.036) is a RETIRED fit** (K1391; root file BST_AlphaSquared_LayerProof.md). α stays Identified (α⁻¹ = N_max = 137); the Wyler-volume derivation of it is retired. Nothing in the honest strong sector (AF, N_c=3, a,c) rides it.
+
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
 **Date:** March 2026
 **Status:** Research note — mathematical physics; suitable for Working Paper Section on Gauge Theory

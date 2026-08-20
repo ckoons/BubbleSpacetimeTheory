@@ -1,0 +1,29 @@
+# Registry-ready handoff — 2026-08-18 capstones (Grace → Keeper for numbering + insertion)
+*Keeper owns the registry + is actively curating; this is the curated data-lane content (statements, honest tiers, edges) ready to drop in with your numbering. Graph nodes/edges: I'll add on your confirmed T-numbers. Nothing here is banked until you insert + rule.*
+
+## 1. Color close — the REAL SO(3) floor + gauge completion (proposed: Derived-structure + honest boundary)
+**Statement.** D_IV⁵ realizes color on the **real** Peirce off-diagonal V₁₂ (dim 3, odd → **no complex structure J**, J²=−1 needs even dim) ⟹ End_ℝ(V₁₂)=M₃(ℝ), norm group **SO(3)**. The isometry realizes **SO(3)×U(1)_em**, provably NOT SU(3): the 8 gluons = so(3)[3] ⊕ **ℓ=2 quadrupole coset i·Sym²₀(V₁₂)[5]**; the 5 coset generators are NOT isometries — **SU(3) is the gauge principle's completion** (standard input). U(1)_em seats on the **SO(5)-internal electroweak Cartan** (Q=T₃+Y/2, [Q,J]=0), NOT the K-center; baryon number = topological winding. BST **fields** (not forces) its own SM spectral triple.
+**Tier.** Derived (the real SO(3) floor is a forced negative; odd-dim real ⟹ no complex structure). **Load-bearing:** V₁₂ real ⟹ sin²θ_W = N_c/(N_c+2n_C)=3/13 (K1282) — the SO(3) floor and the Weinberg angle are ONE fact ("N_c odd").
+**Edges.** T2511 (Peirce/color=V₁₂), T2527 (colorless frame), T2551 (M₃(ℂ)=End c-tangent — FIELDS), K1282 (Weinberg), T2470/T2475 (charge on SO(5)-Cartan, corrected today), T296/T1945 (baryon topological). File: `BST_The_Color_Door_2026-08-18.md`.
+
+## 2. Mass-tower weight fork — genus-5 leptons / Wallach-3 quarks (proposed: Derived)
+**Statement.** The FK/Bergman weight bifurcates by color. **Leptons** (color singlet → scalar section → full Bergman kernel) carry the **genus p = n_C = 5** (Hua 1963: p=(r−1)a+b+2=n_C). Signatures: Γ(n_C)=Γ(5)=24 (muon (24/π²)⁶); electron anchor ‖f₀‖²=Γ(5/2)²/Γ(5)=**3π/128 EXACT**. **Quarks** (color triplet → V₁₂⊗ℂ=ℂ³ bundle) carry the **Wallach threshold ν=N_c=3**; d:s:b=(3)₁:(3)₃:(3)₅=**1:20:840**. Forced by color-singlet-vs-triplet.
+**Tier.** Derived (genus from Hua + color-singlet ⟹ scalar-section). **Resolves T2513 open-gate (b)** ("colorless leptons unforced→moduli").
+**Edges.** T2517 (lepton strata ν={5/2,3/2,0}), T2529 (quark ℂ³ SVD), T2513 (down ladder), T2528 (tau boundary mode). File: `grace_lepton_norm_convention_pin_2026-08-18.md`.
+
+## 3. C₂ = 2a — the commitment-flow Casimir identity (proposed: Derived, ledger-shortening)
+**Statement.** The **commitment-flow Casimir = 2n−4 = 2a** (identity in n), a = short-root multiplicity = n_C−2 = N_c = the ONE object behind (color N_c, Wallach multiplicity, the commitment Casimir). Coincides with the Coxeter/Bergman-gap Casimir C₂=n+1 **only at n=5** — which is exactly why the "Casimir-root coincidence" (Condition 5) was circular (it equated the two Casimir readings). **Ledger:** {C₂, a, N_c, Wallach-mult} collapse toward one object a=N_c.
+**Tier.** Derived (identity). **Edges.** T1930 (N_c=short-root mult), T2511 (Peirce a). Note: `grace_22conditions_framing_fix_and_C2_eq_2a_2026-08-18.md`.
+
+## 4. n_C=5 is a MEASURED BOUNDARY — the 22-conditions deflation (proposed: Structural / framing correction)
+**Statement.** The "22 uniqueness conditions" deflate to **~6–8 genuinely independent SELECTIONS** (not forcings): ≥6 are tautologies among the derived integers (#5=Condition-5-identity, #19 reduces to #5, #18 genus=n_C, g=N_c²−rank) or one-relation-many-readings (#7=#10=#20 all "42=C₂·g"); the N_c=3 conditions (#8/#9/#12/#13) are ONE open question. **The (1/8)²²≈10⁻²⁰ statistical argument is RETIRED** (presumes independence ≥6 provably lack — same over-count as gravity 6→1). n_C=5 reached as a boundary FOUR ways (Condition-5 identity; no action critical point; 22→~6–8; the α-gap ≈ 5). GR-level: one ruler, one integer.
+**Tier.** Structural (framing/count-once correction). **Edges.** the 22-conditions note; parallels the gravity one-relation cluster (Cal §582). Requires the paper edit `BST_22_Uniqueness_Conditions.md` lines 19+379–381.
+
+## 5. ★ THE NO-GO — non-circular-distance-3 + exact is IMPOSSIBLE (proposed: Derived, the capstone, K1697)
+**Statement.** No code can simultaneously (1) have **non-circular distance-3** (finite, coding-minimum d=2t+1, t=1, from correctability — not read off a substrate built from N_c) AND (2) protect a charge **exactly** (τ=∞).
+**Proof.** distance d ≡ min weight of a logical operator = min errors that change the protected charge. (2) exact ⟹ charge unchangeable by any finite errors (superselection) ⟹ **d=∞**. (1) requires **d=3 finite** ⟹ 3 errors change it ⟹ not exact. d=∞ ≠ d=3. ∎ (Holds for topological/toric codes: finite lattice ⟹ finite d but exponential-not-exact; exact ⟹ infinite lattice ⟹ d→∞.)
+**Corollary.** Forcing N_c=3 target-innocently **while keeping exact proton stability** is **provably impossible via a code**. The exact/correcting fork is a THEOREM, not a gap. n_C=5 is a HARD measured boundary; the last live forcing lever is closed. Casey's absolute-vs-observational call = choosing which side of the proven no-go to stand on (absolute: exact + N_c=3 honest input, free; observational: N_c=3 coding-maybe-forced + proton decays + retraction).
+**Tier.** Derived (rigorous impossibility proof). **Edges.** T296/T1945 (baryon = superselection/topological), T1332 (Steane [[7,1,3]] observer code), the color close (#1 above), K1697.
+
+---
+**Graph:** on your confirmed T-numbers I'll add the 5 nodes + edges to `play/ac_graph_data.json` (currently 2338 nodes / 10135 edges) and file each derivation to `data/bst_geometric_invariants.json` per SP-14. **Corrections already applied by me today** (not new theorems): T2475 statement (charge → SO(5)-Cartan, K1657 closed); bst_constants.json Newton-G notes (§579); bst_geometric_invariants.json G_from_α_G (count-once).

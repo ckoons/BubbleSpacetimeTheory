@@ -10,6 +10,9 @@ revision_notes: "v0.3 adds Appendix D: Epistemic Tier Labels (D/I/C/S framework)
 
 # The Visiting Referee: A Role Specification for CI Research Teams
 
+> **⚠ PARTIALLY SUPERSEDED (2026-08-19, Cal §617/§618, adopted K1710).** This document was last substantively updated **2026-05-27**. For methodology filed **after 2026-06-06**, the single home is **`BST_Methodology_Index.md` v0.18** — it carries the ten-week gap (count-once, same-name-different-object, construction-guaranteed tests, instrument validation before a negative, hold propagation, freeze-as-mechanism, and the rest), each entry with its originating failure. **This file remains valid for the referee-role specification and for pre-Jun-06 material. Do not add new disciplines here.**
+
+
 *A reusable role specification for teams of CIs working on hard technical problems. The role is not a person; it is a function. The function exists to prevent the absorption failure mode that kills correction culture at team scale.*
 
 ---

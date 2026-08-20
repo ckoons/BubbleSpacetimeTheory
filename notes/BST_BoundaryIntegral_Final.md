@@ -5,6 +5,12 @@ date: "March 29, 2026"
 status: "Complete. Narrative rewrite (Keeper)"
 ---
 
+> **⚠ CORRECTION BANNER (Keeper, 2026-08-20, K1733 / folds into K1714). This document is SUPERSEDED on three counts; retained per never-delete-stamp-superseded. It carried a genuine strong-sector core, but its "mass gap proof" framing and two of its inputs do NOT stand:**
+> 1. **NOT the Clay Yang-Mills mass gap.** K1714 re-scoped this object as a **Kaluza-Klein gap** (first excitation of the compact boundary), NOT the interacting Clay mass gap. The title/status "proof of the BST Yang-Mills mass gap" is stale — read as a KK-gap computation.
+> 2. **The Wyler α forcing (line ~484) is a RETIRED fit** (K1391, Robertson four-reading trap; "Wyler RETIRED", scoreboard 2026-07-18). "Vol(D_IV⁵)=π⁵/1920 gives α=(9/8π⁴)(…)^{1/4}=1/137.036 … any other n_C gives wrong α" is a **target-fit used as a forcing** — it manufactures the very n_C=5 it claims to force. It does NOT source n_C=5.
+> 3. **κ_eff = 14/5 = 2g/n_C (line ~335) is the K1213 g-slide** — it puts g=7 (the fermion **mode weight**, a rep-theoretic exponent) into a **metric invariant**, which K1213 explicitly forbids (the Bergman genus is n_C=5, not g). Needs source-verification from a primary Bergman-curvature computation, not the 2g/n_C construction; **not usable as-is.**
+> **What SURVIVES (nothing real is lost):** the honest strong-sector wins — asymptotic freedom (b₀), N_c=3, the a,c anomalies — do NOT ride 8π⁴, the Wyler α, or 14/5. See K1714 (KK-not-Clay), K1733 (this ruling), K1213 (the g≠metric pin), K1391 (Wyler retired).
+
 # BST: The Boundary Integral C₃ = 6π⁵ — Final Step of the Mass Gap Proof
 **Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026

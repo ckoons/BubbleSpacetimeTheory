@@ -7,6 +7,8 @@ status: "Derivation complete — m_e determined by Bergman embedding depth"
 
 # The Electron Mass from Pure Geometry
 
+> **⚠ RETIRED-WYLER FLAG (Grace, 2026-08-20, §626 8π⁴ sweep).** Section 2.2 rests on the **Wyler correspondence** ("α = (volume ratio)^{1/4}", line 39), which is **RETIRED as a derivation** (K676/K680/**K1391** — the Robertson four-reading target-fit trap: the matching reading was selected to hit α⁻¹=137). **α is Identified in BST, NOT Proved.** So this is NOT a from-scratch derivation of m_e; it is a derivation of the **α^{2C₂} hierarchy STRUCTURE** (the Bergman embedding tower — rep theory, rigorous) that takes **α as an Identified input.** Read the Wyler step as retired, not honest-but-valid. The scale-closure claim ("Closing BST's Last Input") is scoped accordingly: the structure is derived; the α-value is Identified. (Same disposition as `BST_ElectronMass_Derivation.md`.)
+
 ## 1. The Problem
 
 BST derives all mass RATIOS from geometry: m_p/m_e = 6π⁵, v/m_e = 36π¹⁰/7, etc. But what sets the absolute scale? Currently m_e is the unit. To close BST completely, we must derive m_e in Planck units from geometry alone.
