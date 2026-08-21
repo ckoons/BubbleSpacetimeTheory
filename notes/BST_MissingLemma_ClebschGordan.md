@@ -33,7 +33,7 @@ This note is the capstone of the BST Yang-Mills mass gap proof. The full proof h
 
 **Domain:** D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], n_C = 5.
 **Shilov boundary:** Š = S⁴ × S¹ (real dimension 5).
-**Bergman kernel:** K(z,w) = (1920/π⁵) · N(z,w)^{-6}, K(0,0) = 1920/π⁵.
+**Bergman kernel:** K(z,w) = (1920/π⁵) · N(z,w)^{-5}, K(0,0) = 1920/π⁵.
 **Holomorphic discrete series:** π_k for SO₀(5,2), indexed by integer k ≥ 3 (Wallach set).
 **Bergman space:** A²(D_IV^5) = π₆ (weight k = n_C+1 = 6).
 **Casimir eigenvalue:** C₂(π₆) = 6 (proved by Harish-Chandra theory).

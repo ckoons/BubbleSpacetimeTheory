@@ -88,7 +88,7 @@ The critical property: the Shilov boundary is **compact**. This one word — com
 
 The Bergman kernel is the reproducing kernel of the space of square-integrable holomorphic functions on D_IV^5:
 
-$$K(z, \bar{w}) = \frac{1920}{\pi^5} \cdot N(z, \bar{w})^{-7}$$
+$$K(z, \bar{w}) = \frac{1920}{\pi^5} \cdot N(z, \bar{w})^{-5}$$
 
 where N(z, w-bar) is the norm function of the domain and the exponent -7 = -g is the Bergman genus.
 

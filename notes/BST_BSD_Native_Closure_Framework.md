@@ -105,7 +105,7 @@ The most natural path: complete Kudla's program specifically for Sh(SO₀(5,2), 
 - Verifying the modularity of the generating series Σ_T Z(T)·q^T
 - Applying the arithmetic inner product formula to relate height pairings to L-derivatives
 
-BST's advantage: the Shimura variety is EXPLICIT. We know its volume (π⁵/1920), its spectral cap (137), its root system (B₂), and its Bergman kernel (1920/π⁵ · det(...)^{-7}). Kudla's program for a generic orthogonal Shimura variety is hard; for D_IV^5 specifically, the explicit data may simplify the construction.
+BST's advantage: the Shimura variety is EXPLICIT. We know its volume (π⁵/1920), its spectral cap (137), its root system (B₂), and its Bergman kernel (1920/π⁵ · det(...)^{-5}). Kudla's program for a generic orthogonal Shimura variety is hard; for D_IV^5 specifically, the explicit data may simplify the construction.
 
 ## Honest Assessment
 

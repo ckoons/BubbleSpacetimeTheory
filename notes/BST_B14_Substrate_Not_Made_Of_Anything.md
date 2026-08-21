@@ -29,7 +29,7 @@ This is not an argument from ignorance. It is a theorem about the completeness o
 
 ## The Four-Line Derivation
 
-**Line 1 (T186, D_IV^5 Master).** D_IV^5 is the unique bounded symmetric domain whose five integers {3, 5, 7, 6, 137} determine all Standard Model constants. The Bergman kernel K_B(z, w) is the reproducing kernel of the space of holomorphic functions on D_IV^5. Its closed form is known (Hua 1963): K_B(z, w) = 1920/pi^5 * det(I - z w*)^{-7}.
+**Line 1 (T186, D_IV^5 Master).** D_IV^5 is the unique bounded symmetric domain whose five integers {3, 5, 7, 6, 137} determine all Standard Model constants. The Bergman kernel K_B(z, w) is the reproducing kernel of the space of holomorphic functions on D_IV^5. Its closed form is known (Hua 1963): K_B(z, w) = 1920/pi^5 * det(I - z w*)^{-5}.
 
 **Line 2 (T1269, Physical Uniqueness).** All observables are isomorphism-invariants of D_IV^5. Any two mathematical objects producing identical Bergman kernel readings are isomorphic. Therefore no experiment can distinguish between substrates that produce the same kernel — substrate type is empirically undecidable.
 
@@ -55,7 +55,7 @@ The claim rests on three independently proved theorems:
 
 2. **Isomorphism invariance** (T1269): Observables cannot distinguish between isomorphic realizations. This is a general principle — if two objects produce identical readings, they are isomorphic in the relevant category.
 
-3. **Field inventory** (T1257): The kernel K_B(z,w) = c * det(I - zw*)^{-g} has exactly three structural components: the points z, w (geometry), the exponent g = 7 (physics), and the normalizing constant c = 1920/pi^5 (volume). None of these components carries a substrate-type label.
+3. **Field inventory** (T1257): The kernel K_B(z,w) = c * det(I - zw*)^{-n_C} has exactly three structural components: the points z, w (geometry), the exponent g = 7 (physics), and the normalizing constant c = 1920/pi^5 (volume). None of these components carries a substrate-type label.
 
 The conclusion follows: substrate composition is not among the determinable quantities of the formalism. It is limit-undecidable (T1257), with the undecidability located in the Godel-dark sector (T1283).
 

@@ -282,7 +282,7 @@ The trace of identity over color space gives $N_c$. The anomaly cancellation con
 
 ### 10.3 The Bergman Trace: The Partition Function
 
-$$K_B(z,z) = \frac{1920}{\pi^5} \cdot N(z,z)^{-6}$$
+$$K_B(z,z) = \frac{1920}{\pi^5} \cdot N(z,z)^{-5}$$
 
 The Bergman kernel evaluated on the diagonal is a trace over the Hilbert space of square-integrable holomorphic functions. The factor $1920/\pi^5$ is Hua's volume formula inverted. This trace is the generating function for BST physics.
 

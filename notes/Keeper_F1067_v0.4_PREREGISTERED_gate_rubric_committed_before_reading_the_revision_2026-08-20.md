@@ -10,6 +10,18 @@ related: [K1743, K1742, K1741, K1740, K1739, K1735, K1724, "SM-ASSIGNMENT-TABLE-
 
 # F1067 v0.4 — pre-registered re-gate rubric (committed before reading the revision)
 
+> **⚠ RECORDED AMENDMENTS (Keeper, 2026-08-21, adopting Cal §647). This rubric was frozen Aug-20 16:49 for v0.4; the object moved FOUR times since (§642, §643/K1744, §644, §645, §646), so two criteria are now WRONG IN OPPOSITE DIRECTIONS and two load-bearing changes are ungraded. Per the corpus rule [[feedback_preregistration_protects_interpretation_not_instrument]]: pre-registration protects the INTERPRETATION (no post-hoc rationalization), NOT the INSTRUMENT — a frozen rubric pointed at a moved target is 'wrong on schedule.' The fix is NOT to un-freeze (that invites rationalization) but to carry an EXPIRY + RECORDED AMENDMENTS citing each superseding ruling; a cited amendment preserves non-rationalization. GRADE v0.6/v0.7 AGAINST THE AMENDED CRITERIA BELOW, not the stale originals.**
+> | id | amendment (supersedes) | source |
+> |---|---|---|
+> | **A5′** | census = **ordered triple, multiplicity-free** (NOT "multiset" — the banked 4.75 is the ordered 3³=27 count; a true multiset gives 10=3.32 and makes the named-block rows unreadable). *A5-as-written would FAIL a correct paper.* | §642 |
+> | **A6′** | census separator = **D_IV⁵/D_IV⁷**; twist separator = **D_IV⁷/D_IV⁸**; **D_IV⁴ only as the checked exception** (its census {ℂ,ℍ,ℂ} is the SO(2)-abelian accident). *A6-as-written would PASS a retracted claim — the silent, dangerous direction.* | §643/K1744 |
+> | **A7′** | the cross-classification claim runs on **K's quaternionic block, well-defined off type IV** (not H_F). | §642/§645 |
+> | **F1** | **three selection conditions, not four** (real-color is implied by non-orientability). | §644 |
+> | **F2** | **N_c=3 is a reading of n_C** (N_c=n−2); T1829/rank²−1 NOT cited as selecting n (family constant, same on every candidate). | §644 |
+> | **F3** | **minimal generating set = TWO** (census + non-orientability); Appendix A = "two proved, SEP-3 REFUTED, rank derived from census" — NEVER "3-of-3". | §645/§646/K1748 |
+> | **F4** | **label all three counts** — invariants (2), selection conditions (3), reading channels (3); NO bare "three" (ambiguous between two true statements and one false). | §647 |
+> **STANDING (adopt): a gate rubric carries an EXPIRY (valid only for the version frozen against); any superseding ruling requires a recorded amendment citing it. When auditing a STALE instrument, check the PERMISSIVE criteria FIRST — a too-strict criterion starts an argument (self-correcting); a too-permissive one ships an error silently (A6 was the permissive one).**
+
 **Rule:** PASS requires every criterion GREEN. Any RED → HOLD, citing the exact line. No criterion is waived by "close enough." Each names its source so a third reader can grep it.
 
 ## A. The §641 amendment (Round 15→16 corrections)

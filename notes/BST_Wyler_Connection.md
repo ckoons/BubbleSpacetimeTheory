@@ -72,7 +72,7 @@ to massive particles = proton). The formula 6π⁵ appears — but:
 - Wyler was rationalizing Lenz's 1951 numerical observation, not deriving from first principles
 
 **BST provides the first complete derivation:**
-- Factor 6 = n_C+1: Bergman kernel K(z,w) = (1920/π⁵)·N(z,w)^{-(n_C+1)}, power forced by
+- Bergman kernel exponent = n_C = 5 (the GENUS, Hua 1963 / Elie's 4-way bidisk pin): K(z,w) = (1920/π⁵)·N(z,w)^{-n_C}. [★ CORRECTED 2026-08-21 (Grace, signature sweep): the prior "Factor 6 = n_C+1" **conflated the Bergman genus (5) with the Casimir C₂ = 6** — a same-name collision (a structural pin beats the citation). The exponent is the genus n_C=5, not n_C+1.] Power forced by
   representation theory of SO₀(5,2)
 - Factor π⁵ = π^{n_C}: volume factor from Hua's formula at n_C = 5
 - Physical reason for n_C = 5: N_c + N_w = 3+2 = 5 (three quark colors + two Hopf dimensions),

@@ -179,7 +179,7 @@ The constant function $\Omega = 1 \in L^2(\Gamma \backslash G/K)$ is the unique 
 
 The Clay Millennium Problem asks for a QFT on $\mathbb{R}^4$. The BST construction lives on $D_{IV}^5$ (non-compact, curved). We bridge via T972:
 
-**Step 1: KK Spectral Inheritance.** The Shilov boundary $\check{S} = S^4 \times S^1$ inherits the spectral gap from $Q^5$. The zero-mode sector on $S^4$ preserves the gap: $\Delta_{S^4} \geq \Delta_{Q^5} = 6\pi^5 m_e$.
+**Step 1: KK Spectral Inheritance.** The Shilov boundary $\check{S} = S^4 \times S^1$ (real dim 5) inherits the spectral gap from $Q^5$. The zero-mode sector on $S^4$ (dim 4) preserves the gap: $\Delta_{S^4} \geq \Delta_{Q^5} = 6\pi^5 m_e$.
 
 **Step 2: Center Symmetry.** The SO(2) factor in $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$ realizes $\mathbb{Z}_3$ center symmetry of SU(3). The $K$-invariant vacuum has $\langle P \rangle = 0$ (confining phase), ensuring the mass gap survives the KK reduction.
 
@@ -193,7 +193,7 @@ The Clay Millennium Problem asks for a QFT on $\mathbb{R}^4$. The BST constructi
 
 **Theorem C (T1271).** Any QFT on $\mathbb{R}^4$ satisfying W1-W5 with mass gap $6\pi^5 m_e$ is isomorphic to the $D_{IV}^5$ QFT via modular localization.
 
-**Proof sketch:** The modular algebras $\{M(O) : O \subset \text{spacetime}\}$ encode the full theory via Tomita-Takesaki (Bisognano-Wichmann 1975, Borchers 2000). Two QFTs are isomorphic iff their modular data match. The Bergman kernel boundary values on the Shilov boundary $\check{S}$ (Hua 1963, Stein 1972) determine the modular data uniquely. Borel neat descent transports the local algebras. $\square$
+**Proof sketch:** The modular algebras $\{M(O) : O \subset \text{spacetime}\}$ encode the full theory via Tomita-Takesaki (Bisognano-Wichmann 1975, Borchers 2000). Two QFTs are isomorphic iff their modular data match. The Bergman kernel boundary values on the Shilov boundary $\check{S}$ (real dim 5; Hua 1963, Stein 1972) determine the modular data uniquely. Borel neat descent transports the local algebras. $\square$
 
 **Note (Cal's concern #4):** Uniqueness does not imply existence. Theorem C says: *if* a mass-gap QFT exists with matching data, it is iso to ours. Theorem A provides the existence. Together they close the problem on $D_{IV}^5$.
 

@@ -1,14 +1,16 @@
 # Lane A support — the six-row H_F(n) family table, every cell derived (Grace, 2026-08-20)
-*Round 18. The corrected lead (K1697 Strong-Uniqueness, not "unique quaternionic"): n_C=5 is the SMALLEST domain satisfying four already-proved conditions; N_c=3 selects it among the family. Every cell derived from the H_F(n) build (Peirce (1,n−2,1) + Bott mod-8), not cited. For Lyra+Keeper to lock the lead.*
+*Round 18. The corrected lead (K1697 Strong-Uniqueness, not "unique quaternionic"): n_C=5 is the SMALLEST domain satisfying THREE already-proved conditions; N_c=3 selects it among the family. Every cell derived from the H_F(n) build (Peirce (1,n−2,1) + Bott mod-8), not cited. For Lyra+Keeper to lock the lead.*
+
+> **★ SWEPT 2026-08-21 (§644, bidirectional-sweep rule): FOUR conditions → THREE.** The "real color block" (old #3) is NOT independent — it RIDES on non-orientability: n odd ⇒ n−2 ≠ 2, so SO(n−2) is never the SO(2)-abelian accident. So the independent count is THREE {quaternionic spinor, non-orientable boundary, N_c=n−2>1}; real-color is a consequence, not a fourth condition. Registry T2568 already carries "three" (K1751). This note swept to match.
 
 ## ★ I own the miss (Round 17)
 My Round-17 headline "n_C=5 is the unique value that makes the spinor quaternionic" was **FALSE** — my OWN Round-15 Bott table shows n≡3,4,5 mod 8 all give ℍ (n=4, 11, 12, 13… are quaternionic too). I had the refuting data and let the "unique" overclaim stand. The correct form was already banked as **Strong-Uniqueness (K1697)**: smallest-satisfying-four-conditions + measured-N_c selector. Re-deriving what the corpus had. Owned.
 
-## The four already-proved conditions (K1697)
+## The three already-proved conditions (K1697, §644)
 1. **Quaternionic spinor** → weak force. (n≡3,4,5 mod 8, ABS-Bott.)
 2. **Non-orientable boundary** → chirality. (Pin⁻/Möbius.)
-3. **Real color block** → no internal color / color is real not abelian-ℂ. (SO(n−2) non-abelian ⟺ n−2≥3 ⟺ n≥5.)
-4. **N_c = n−2 > 1** → color exists. (n≥4.)
+3. **N_c = n−2 > 1** → color exists. (n≥4.)
+- *(Consequence, NOT independent: **real color block** — SO(n−2) non-abelian ⟺ n−2≥3 ⟺ n≥5. This RIDES on #2: n odd ⇒ n−2≠2, so color is never the SO(2)-abelian accident. §644.)*
 
 ## The table (every cell derived)
 | n | color V₁₂=n−2 | color reality | spinor Spin(n) | census triple | 4 conds (wk/rc/col) | verdict |

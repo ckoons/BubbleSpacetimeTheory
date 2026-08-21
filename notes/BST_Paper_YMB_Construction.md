@@ -262,7 +262,7 @@ The theory is non-Gaussian (genuinely interacting), proved by five independent a
 
 ### 6.1 KK spectral inheritance
 
-The Shilov boundary S-check = S^4 x S^1 inherits the spectral gap from Q^5. The zero-mode sector on S^4 preserves the gap: Delta_{S^4} >= Delta_{Q^5} = 6 pi^5 m_e.
+The Shilov boundary S-check = S^4 x S^1 (real dim 5) inherits the spectral gap from Q^5. The zero-mode sector on S^4 (dim 4) preserves the gap: Delta_{S^4} >= Delta_{Q^5} = 6 pi^5 m_e.
 
 ### 6.2 Center symmetry
 
@@ -282,7 +282,7 @@ The bridge establishes that the mass gap persists on R^4 in the limit, but the e
 
 Any QFT on R^4 satisfying W1-W5 with mass gap 6 pi^5 m_e is isomorphic to the D_IV^5 QFT via modular localization.
 
-**Proof sketch:** The modular algebras {M(O) : O subset spacetime} encode the full theory via Tomita-Takesaki (Bisognano-Wichmann 1975, Borchers 2000). Two QFTs are isomorphic iff their modular data match. The Bergman kernel boundary values on the Shilov boundary S-check (Hua 1963, Stein 1972) determine the modular data uniquely. Borel neat descent transports the local algebras.
+**Proof sketch:** The modular algebras {M(O) : O subset spacetime} encode the full theory via Tomita-Takesaki (Bisognano-Wichmann 1975, Borchers 2000). Two QFTs are isomorphic iff their modular data match. The Bergman kernel boundary values on the Shilov boundary S-check (real dim 5; Hua 1963, Stein 1972) determine the modular data uniquely. Borel neat descent transports the local algebras.
 
 Uniqueness does not imply existence. Theorem D says: *if* a mass-gap QFT exists with matching data, it is isomorphic to the D_IV^5 construction. Theorem A provides the existence. Together they close the problem on D_IV^5.
 

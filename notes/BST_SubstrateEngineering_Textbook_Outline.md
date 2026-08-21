@@ -49,7 +49,7 @@ The substrate has its own unit system: Koons length l_K = 6 pi^5 alpha^12 * hbar
 The Bergman kernel is the transfer function of the substrate. Every device is a restriction of this kernel to a subdomain.
 
 ### 2.1 K(z,w) as a Green's function
-The reproducing kernel K(z,w) = (1920/pi^5) * N(z,w)^{-g+1} encodes the response of the substrate at point z to an excitation at point w. For engineers: it is the impulse response of spacetime.
+The reproducing kernel K(z,w) = (1920/pi^5) * N(z,w)^{-n_C} encodes the response of the substrate at point z to an excitation at point w. For engineers: it is the impulse response of spacetime.
 *Theorems: T1137 (Bergman Master Theorem).*
 
 ### 2.2 Restrictions to subdomains

@@ -127,11 +127,13 @@ The Selberg class: Dirichlet series with Euler product, functional equation, Ram
 
 By T1269, RH for ζ transfers to every Selberg-class realizer of P_RH. The cross-parabolic "residual" is not a gap in the proof but a gap in the framing. T1270 supplies the framing.
 
-**Post-T1270: RH ≈ 99.5%.**
+**Post-T1270: RH — structural-reduction ATTEMPT (core 1/rank, residual definitional); the "≈ 99.5%" figure is WITHDRAWN (K940, this paper's own banner).**
 
 ---
 
 ## 4. Yang-Mills Mass Gap (T1271)
+
+> **⚠ Signature-tag convention (2026-08-21, Lyra; applies to this section).** Every "**ℝ⁴**" in this section is the flat Clay-target 4-space, **distinct from the 5D compact Šilov boundary** ∂_S = (S⁴×S¹)/ℤ₂ (§4.2 dimension correction). It has two Wick-related faces: **ℝ⁴_E** (Euclidean OS/constructive target — "the flat-ℝ⁴ construction," the large named-open Clay residual) and **ℝ^{3,1}** (its Lorentzian Wightman face — "a QFT on ℝ⁴ satisfying W1-W5"). Wick-related, not identical; neither is ∂_S. **Scope reminder:** this section establishes a rigorous AQFT *foundation* on H²(D_IV⁵) (W1–W5 + locality, G3) — it is NOT a Clay solution: the interacting-vs-generalized-free identification (G6) is the standing open residual, and the derived "confinement" content is a two-row (λ₂) sector statement, not physical SU(3) colour (`Lyra_YM_Millennium_DISPATCH_SCOPE_..._2026-08-21.md`).
 
 ### 4.1 P_YM
 
@@ -139,7 +141,9 @@ P_YM = {Wightman axioms W1-W5, mass gap m_gap = 6π^5 m_e, Poincaré covariance,
 
 ### 4.2 X
 
-X = (D_IV^5 QFT, Bergman kernel, B_2 Plancherel measure, Shilov boundary ∂D_IV^5 ≅ ℝ^4).
+X = (D_IV^5 QFT, Bergman kernel, B_2 Plancherel measure, physical Šilov boundary ∂_S = (S⁴×S¹)/ℤ₂ [real dim 5]).
+
+> **⚠ Dimension correction (2026-08-21, Lyra; pre-dispatch-critical).** The earlier line here read "Shilov boundary ∂D_IV⁵ ≅ ℝ⁴" — a same-name/dimension collision (the topological-boundary symbol ∂D_IV⁵ [dim 9] used for the Šilov boundary [dim 5], then asserted ≅ ℝ⁴ [dim 4]). **The physical Šilov boundary is ∂_S = (S⁴×S¹)/ℤ₂, real dim 5, and is NOT ≅ ℝ⁴** — it is compact, ℝ⁴ is not (compactness alone refutes the ≅). ℝ⁴ is the domain's *4D conformal boundary*, reached only by a Kaluza–Klein descent whose transverse S³ ⊂ S⁴ is compact (K1716/§621). That descent is the **flat-ℝ⁴ named-open residual carried by Paper A** (K1709/K1713/K1714), not an isomorphism. Independently, a **structural asymmetry** favours ∂_S: it is the **unique closed SO₀(5,2)-orbit** in ∂D (Korányi–Wolf), whereas the 4D conformal boundary is a proper submanifold of it and is **not** SO₀(5,2)-stable. This selector **family-sweeps correctly** — its output is dim ∂_S(D_IV^n) = n across D_IV⁴…D_IV⁹, not a constant — and it is corroborated by BST's own 2026-03-29 declaration that physical observables live on the Šilov boundary (`BST_ColorConfinement_Topology.md`, *"real dim 5; this is where physical states live"*). **The selection is natural and pre-registered; it is not forced** — BST's declared covariance is 𝒫 ⊂ SO(4,2), which does not require G-stable structures. *(An earlier draft of this banner cited a modular/bifurcation-dimension selector; that selector was withdrawn — Cal §668 — and killed by family sweep in §670, since its output is 3 for every n and returns "5" at n=7 where ∂_S is 7-dimensional. Withdrawal registry row W1.)*
 
 ### 4.3 Sufficiency
 
@@ -151,13 +155,13 @@ Algebraic QFTs via modular algebras {M(O) : O ⊂ spacetime} under Tomita-Takesa
 
 ### 4.5 Isomorphism closure
 
-**Bisognano-Wichmann (1975)** + **Borchers (2000)**: any QFT satisfying W1-W5 is reconstructed up to iso from its modular data. The modular data of the D_IV^5 QFT restricted to ∂D_IV^5 ≅ ℝ^4 coincide with any ℝ^4 QFT satisfying W1-W5 with the same mass gap. Borel neat descent transports local algebras.
+**Bisognano-Wichmann (1975)** + **Borchers (2000)**: any QFT satisfying W1-W5 is reconstructed up to iso from its modular data. But that modular data lives on the physical **5-dimensional** ∂_S (Toy 337 selects ∂_S; the bulk net is built from spectral projections on ℋ = L²(Γ\G/K), not on ℝ⁴). **The transfer from this 5D boundary theory to a flat-ℝ⁴ Clay theory is a Kaluza–Klein descent, not an isomorphism BW supplies** — BW transfers modular data within a fixed spacetime; it does not perform the 5D→4D reduction. That reduction is the **flat-ℝ⁴ named-open residual** (Paper A, K1709/K1714). BW does not close it.
 
 ### 4.6 Closure
 
-The "ℝ^4 framing gap" is not a conceptual gap — it is the iso-transfer Bisognano-Wichmann already provides. T1271 makes this explicit.
+The "ℝ⁴ framing gap" is a **REAL named-open residual, NOT closed by Bisognano-Wichmann** — correcting an earlier over-claim, and consistent with this paper's own re-scoping banner (K940) and with Paper A (K1709/K1713/K1714). BW transfers modular data within a fixed spacetime; it does not perform the 5D-∂_S → 4D-ℝ⁴ Kaluza–Klein descent (transverse S³ compact, K1716/§621 applies). The flat-**ℝ⁴_E** (Euclidean — the Clay/OS constructive target, signature-tag convention 2026-08-21) interacting construction with a proven area-law/mass gap is the **LARGE missing core**. *(ℝ⁴_E is the Euclidean regulator target, distinct from the Lorentzian physical spacetime ℝ^{3,1} = the descent's (S³×S¹)/ℤ₂; they are Wick-rotation related, not the same object.)*
 
-**Post-T1271: YM ≈ 99.5%.**
+**Post-T1271: YM — substantive ATTEMPT with a LARGE named-open residual (the flat-ℝ⁴ interacting construction); the "99.5%" figure is WITHDRAWN (K940, this paper's own banner). The genuine advances are the curvature-necessity reframe and the ∂_S selection (Toy 337, March 23).**
 
 ---
 
@@ -187,7 +191,7 @@ Complexity measures on rank-2 structured phase spaces (measures factoring throug
 
 By T1269, every realizer of P_complexity has the same nonzero Gauss-Bonnet number. P ≠ NP holds as an iso-invariant statement: topologically, not algorithmically.
 
-**Post-T1272: P ≠ NP ≈ 99.5%.**
+**Post-T1272: P ≠ NP — structural-reduction ATTEMPT (core 1/rank, residual definitional); the "≈ 99.5%" figure is WITHDRAWN (K940, this paper's own banner).**
 
 *Note:* T1272 is the one Millennium problem where T1269 keeps depth = 2 rather than flattening to 1. The other five close to depth 1. This is because P ≠ NP is the one problem where the obstruction is genuinely curvature, not linear separation. It is a natural outlier and aligns with the AC Pair Resolution Principle (T134) assigning depth 2 to P ≠ NP.
 
@@ -219,7 +223,7 @@ Rank-2 symmetric tensors on D_IV^5 are determined up to iso by their symmetry gr
 
 Blow-up time T_c is an iso-invariant of the spectral structure. The "Taylor-Green genericity" residual is closed: any P_NS-realizing flow (TG or not) blows up at iso-equivalent T_c.
 
-**Post-T1273: NS ≈ 99.5%.**
+**Post-T1273: NS — substantive ATTEMPT / genuine advance (core 3D regularity analysis open); the "≈ 99.5%" figure is WITHDRAWN (K940, this paper's own banner).**
 
 ---
 
@@ -249,7 +253,7 @@ Rank-2 Langlands-Shahidi L-functions.
 
 The analytic rank (ord_{s=1}) and algebraic rank (rank(E(ℚ))) are not two numbers that happen to coincide — they are one iso-invariant with two readings. Hasse-Weil normalization is forced by the iso.
 
-**Post-T1274: BSD ≈ 99.5%.**
+**Post-T1274: BSD — structural-reduction ATTEMPT (core 1/rank, residual definitional); the "≈ 99.5%" figure is WITHDRAWN (K940, this paper's own banner).**
 
 ---
 

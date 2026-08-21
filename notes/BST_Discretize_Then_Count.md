@@ -41,7 +41,7 @@ But analytic problems require a PRIOR STEP before counting applies.
 
 **Discretize-then-count**: For analytic problems, the Bergman kernel on D_IV^5 first discretizes the continuous object into a finite spectral sum. Then the counting machinery that already works for RH/BSD/P!=NP/Four-Color takes over.
 
-The Bergman kernel K(z,w) = (1920/pi^5) * det(I - z*w_bar)^{-7} is the universal discretization map because:
+The Bergman kernel K(z,w) = (1920/pi^5) * det(I - z*w_bar)^{-5} is the universal discretization map because:
 
 1. **Reproducing**: Every holomorphic function is determined by its inner product with K. Nothing is lost.
 2. **Spectral**: K decomposes into eigenmodes with eigenvalues lambda_k = k(k+5). Every continuous object becomes a discrete sum.

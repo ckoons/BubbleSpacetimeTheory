@@ -8,10 +8,10 @@ The finite space H_F(n) for D_IV^n decomposes (Peirce, relative to a rank-2 fram
 | Block | Rep | Reality across n | Moves? |
 |---|---|---|---|
 | **charge** | SO(2) rep (FS=0) | **ℂ for all n** | n-INVARIANT |
-| **color** | V₁₂ = real SO(n−2) vector (FS=+1) | **ℝ for all n** | n-INVARIANT |
+| **color** | V₁₂ = SO(n−2) vector | **ℝ for n≥5**; ℂ at n=4; none at n=3 | n-invariant on **n≥5** |
 | **spinor** | Spin(n) spinor | **Bott mod-8:** ℍ (n≡3,4,5) · ℂ (n≡2,6) · ℝ (n≡0,1,7) | ★ the ONLY block that moves |
 
-**⟹ two of three blocks are n-invariant (charge ℂ, color ℝ); only the spinor's reality changes, and by the Bott period.** So the full ℝ⊕ℂ⊕ℍ structure at n=5 is FORCED (n=5≡5 → spinor ℍ), and the **census leg is rigorous ACROSS THE FAMILY, not just at n=5.** This **LIFTS my Round-15 scope note** (which flagged color/charge/size as "true-at-5, not swept") — Elie's build sweeps them.
+**⟹ RE-DERIVED LIFT (n≥5, not "all n"):** the color block reality is ℝ **iff** V₁₂ carries a real *irreducible* SO(n−2) vector **iff SO(n−2) is non-abelian iff n−2 ≥ 3 iff n ≥ 5.** At n=4, SO(2) is ABELIAN → its 2-vector splits into conjugate characters → color reality = **ℂ** (the isolated accident); at n=3, SO(1) is trivial → no color. So on the physical range **n ≥ 5**: charge = ℂ (all n) and color = ℝ (n≥5) are n-invariant, and only the spinor moves (Bott) → the census leg is **family-rigorous on n≥5**, with n=4 the checked exception. This is the derivation of the lift, not a re-word: the validity domain n≥5 is FORCED by the SO(n−2)-non-abelian condition (the same §644 fact that "real-color rides on non-orientability"). **LIFTS my Round-15 scope note** on n≥5. (Registry T2568 carries "n≥5"; this note re-derives WHY.)
 
 ## The census separator D_IV⁷, concretely
 At n=7 (≡7 mod 8) the spinor is **ℝ** → U(ℝ)=O(1)=0-dim → EW size = 0(color)+1(charge)+**0**(spinor) = **1**, NOT 4. **No SU(2)_L.** So D_IV⁷ separates the census concretely (the SU(2)_L reading dies), confirming the separator is D_IV⁷ (my Round-15 correction), and D_IV⁴ (still ℍ) is NOT a census separator.

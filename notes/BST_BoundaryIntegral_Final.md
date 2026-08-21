@@ -50,7 +50,7 @@ Plus the completed steps from BST_MissingLemma_ClebschGordan.md and BST_ClaimB3_
 
 **Shilov boundary:** Š = S⁴ × S¹ (real dimension 5).
 
-**Bergman kernel:** K(z,w) = K(0,0) · N(z,w)^{-(n_C+1)} = (1920/π⁵) · N(z,w)^{-6}
+**Bergman kernel:** K(z,w) = K(0,0) · N(z,w)^{-n_C} = (1920/π⁵) · N(z,w)^{-5}
 
 where N(z,w) is the Type IV determinant function (the "denominator" in the Bergman kernel).
 

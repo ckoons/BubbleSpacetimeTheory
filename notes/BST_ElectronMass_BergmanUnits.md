@@ -37,7 +37,7 @@ $$\boxed{m_e \;=\; \frac{1}{\pi^{n_C}} \quad \text{in Casimir-Bergman units wher
 
 | Property | Value |
 |---|---|
-| Bergman kernel | K(z,w) = (1920/pi^5) * N(z,w)^{-(n_C+1)} |
+| Bergman kernel | K(z,w) = (1920/pi^5) * N(z,w)^{-n_C} |
 | K(0,0) | 1920/pi^5 |
 | Vol(D_IV^5) | pi^5/1920 |
 | C_2(pi_{n_C+1}) = C_2(pi_6) | 6 = n_C+1 [proved, BST_SpectralGap_ProtonMass.md] |

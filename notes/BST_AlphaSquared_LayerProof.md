@@ -47,7 +47,7 @@ The five claims to be established:
 
 **Bergman kernel:**
 
-$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-6}$$
+$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-5}$$
 
 where N(z,w) is the Type IV norm function (quadratic polynomial in z, anti-linear in w).
 

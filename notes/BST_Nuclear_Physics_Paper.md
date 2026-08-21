@@ -54,7 +54,7 @@ These five integers, together with their derived quantities (2^rank = 4, 2^N_c =
 
 The Bergman kernel on D_IV^5 is:
 
-$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-7}$$
+$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-5}$$
 
 Two numbers emerge from this kernel:
 - **K(0,0) = 1920/π⁵** — the kernel at the origin

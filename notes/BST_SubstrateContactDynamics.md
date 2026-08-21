@@ -57,7 +57,7 @@ The Coxeter number h(B₂) = 4.
 
 The Bergman reproducing kernel of A²(D_IV^5):
 
-$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-6}$$
+$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-5}$$
 
 where N(z,w) is the norm function of the domain and 1920 = |W(D₅)| is the order of the Weyl group of the root system D₅ = so(10).
 

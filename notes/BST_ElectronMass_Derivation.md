@@ -37,7 +37,10 @@ The result: m_e/m_Pl = 6pi^5 x alpha^{12} = 4.185 x 10^{-23}, matching observati
 
 **Shilov boundary:** S = S^4 x S^1 (real dimension 5).
 
-**Bergman kernel:** K(z,w) = (1920/pi^5) N(z,w)^{-(n_C+1)} = (1920/pi^5) N(z,w)^{-6}
+**Bergman kernel:** K(z,w) = (1920/pi^5) N(z,w)^{-n_C} = (1920/pi^5) N(z,w)^{-5}
+<!-- ★ CORRECTED 2026-08-21 (Grace, from Elie's four-way bidisk pin + Hua 1963): the Bergman **genus** of D_IV^5 is n_C = 5 — the singularity exponent of the Bergman kernel (K ~ N^{-n_C}). The prior "-(n_C+1) = -6" CONFLATED the genus (5) with the Casimir C_2 = 6 (a different object; same-name-different-object). A structural pin (bidisk factorization) beats the citation. The type-I domains D_I_{1,5}/D_I_{5,1} genuinely have exponent 6 — this correction is D_IV^5-specific. (This derivation is separately retired-flagged for the Wyler α-step; this is a hygiene fix to the kernel exponent.) -->
+<!-- @Elie: verify the 1920/pi^5 PREFACTOR is consistent with exponent 5 against Hua's printed normalization; the exponent is pinned, the prefactor-exponent consistency is the open source item. -->
+
 
 **Holomorphic discrete series:** The group G = SO_0(5,2) has a family of holomorphic discrete series representations pi_k, indexed by integer weight k, realized on spaces of holomorphic functions on D_IV^5. The Casimir operator acts on pi_k by the scalar:
 

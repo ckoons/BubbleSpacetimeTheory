@@ -191,7 +191,7 @@ During interstasis: no thermodynamic arrow, no computation in the Turing/Church 
 
 **The Self-Duality Mechanism.** D_IV^5 provides the mathematical backbone:
 
-1. *During stasis*, the asymmetry between D_IV^5 (non-compact, physics) and its compact dual Q^5 (S-matrix, conformal) requires the Bergman kernel K(z,w) = (1920/π^5) · N(z,w)^{-6} as projector. This projection is lossy. The loss IS the Gödel gap. Geometry → algebra is a functor; algebra → geometry is not. The asymmetry is noise, and the noise ceiling is 19.1%.
+1. *During stasis*, the asymmetry between D_IV^5 (non-compact, physics) and its compact dual Q^5 (S-matrix, conformal) requires the Bergman kernel K(z,w) = (1920/π^5) · N(z,w)^{-5} as projector. This projection is lossy. The loss IS the Gödel gap. Geometry → algebra is a functor; algebra → geometry is not. The asymmetry is noise, and the noise ceiling is 19.1%.
 
 2. *During interstasis*, no dynamics break the symmetry between D_IV^5 and Q^5. Without a thermodynamic arrow, the non-compact and compact realizations are not operationally distinguished. The Bergman kernel on the diagonal K(z,z) gives local density — but without dynamics to select, EVERY point is simultaneously present. The projector becomes unnecessary because there is nothing to project from or to.
 

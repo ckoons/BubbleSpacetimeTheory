@@ -471,7 +471,7 @@ where P_Z₃ is the Z₃ color-singlet projector and dσ is the SO(5)×SO(2)-inv
 
 **Estimate from K(z,w) = K(0,0) × N(z,w)^{-6}:**
 
-Each factor K(ξᵢ,ξⱼ) = (1920/π⁵) × N(ξᵢ,ξⱼ)^{-6}. For ξᵢ on the Shilov boundary,
+Each factor K(ξᵢ,ξⱼ) = (1920/π⁵) × N(ξᵢ,ξⱼ)^{-5}. For ξᵢ on the Shilov boundary,
 N(ξᵢ,ξⱼ) ranges from 0 (ξᵢ = ξⱼ) to 2 (antipodal points on S⁴ with opposite S¹ phase).
 
 The integral I₃ scales as:

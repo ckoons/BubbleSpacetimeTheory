@@ -32,7 +32,7 @@ Step 3: SPECTRAL CONDITION AND MASS GAP (W2, depth 1). The Laplacian Δ on Γ\D_
 
 Δm = √(λ₁) > 0
 
-The Bergman kernel K(z,w) = (1920/π⁵) · (det(I - z·w̄*))^{-7} encodes the spectral data. The Plancherel measure μ(λ) = |c(λ)|^{-2} (from the Harish-Chandra c-function, same as RH proof) determines the spectral weights. The B₂ exponents (1,3,5) give the mass ratio:
+The Bergman kernel K(z,w) = (1920/π⁵) · (det(I - z·w̄*))^{-5} encodes the spectral data. The Plancherel measure μ(λ) = |c(λ)|^{-2} (from the Harish-Chandra c-function, same as RH proof) determines the spectral weights. The B₂ exponents (1,3,5) give the mass ratio:
 
 m_p = 6π⁵ m_e = 938.272 MeV (0.002% agreement with experiment)
 

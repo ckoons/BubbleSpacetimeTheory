@@ -400,7 +400,7 @@ One space. Two distance scales. Two mixing patterns.
 
 The Bergman kernel of $D_{IV}^5$:
 
-$$K_B(z, w) = \frac{1920}{\pi^5} \cdot N(z, w)^{-6}$$
+$$K_B(z, w) = \frac{1920}{\pi^5} \cdot N(z, w)^{-5}$$
 
 The prefactor: $1920 = |W(D_5)|$ (Weyl group order). The exponent: $-6 = -C_2$.
 

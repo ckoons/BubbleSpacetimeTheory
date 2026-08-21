@@ -38,7 +38,7 @@ $$D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5)\times\mathrm{SO}(2)]$$
 | dim G = dim so(5,2) | 21 | |
 | dim K = dim so(5)⊕so(2) | 11 | |
 | Shilov boundary Š | S⁴ × S¹ | |
-| Bergman kernel K(z,w) | (1920/π⁵) · N(z,w)^{-6} | Hua 1963 |
+| Bergman kernel K(z,w) | (1920/π⁵) · N(z,w)^{-5} | Hua 1963 |
 | K(0,0) | 1920/π⁵ ≈ 6.274 | |
 | Vol(D_IV^5) | π⁵/1920 | Hua 1963 |
 | Kähler-Einstein constant | Ric(g_B) = −6 · g_B | Kobayashi 1959 |
@@ -68,7 +68,7 @@ $$\mathcal{H} = L^2(D_{IV}^5, \, d\mu_B)$$
 
 where dμ_B is the Bergman measure:
 
-$$d\mu_B(z) = K(z,z) \, dV(z) = \frac{1920}{\pi^5} \cdot (1 - \|z\|^2 + |z\cdot z|^2/4)^{-7} \, dV(z)$$
+$$d\mu_B(z) = K(z,z) \, dV(z) = \frac{1920}{\pi^5} \cdot (1 - \|z\|^2 + |z\cdot z|^2/4)^{-5} \, dV(z)$$
 
 The exponent −7 = −(n_C + 2) comes from the Bergman kernel weight times the volume element correction.
 
@@ -155,7 +155,7 @@ At leading order for mass calculations, H_YM dominates (strong binding). H_EM gi
 
 The BST propagator is the Bergman kernel itself:
 
-$$G(z,w) = K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-6}$$
+$$G(z,w) = K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-5}$$
 
 where N(z,w) is the Type IV determinant function.
 
@@ -600,7 +600,7 @@ The Wick rotation β ↔ it/ℏ connecting them is not a mathematical trick — 
 | Arena: D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] | Defined | — |
 | Hilbert space: L²(D_IV^5, dμ_B) | Defined | — |
 | Hamiltonian: H_YM = (7/10π)·Δ_B | Proved | — |
-| Propagator: K(z,w) = (1920/π⁵)·N(z,w)^{-6} | Proved (Hua) | — |
+| Propagator: K(z,w) = (1920/π⁵)·N(z,w)^{-5} | Proved (Hua) | — |
 | Spectrum: holomorphic discrete series π_k | Proved (HC) | — |
 | Vacuum: z = 0, K(0,0) = 1920/π⁵ | Proved | — |
 | UV finiteness: N_max = 137 | Derived | — |

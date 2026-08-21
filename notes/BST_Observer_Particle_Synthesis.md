@@ -128,7 +128,7 @@ The distribution is universal: coefficient of variation CV = 0.168 across 12 unr
 
 The Bergman kernel K(z,w) on D_IV^5 is the single mathematical object behind both papers. On this domain, the kernel has the explicit form:
 
-K(z,w) = (1920/pi^5) * N(z,w)^{-7}
+K(z,w) = (1920/pi^5) * N(z,w)^{-5}
 
 where N(z,w) is the norm polynomial, 1920 = 5! * 2^4 is the isotropy group order, and the exponent 7 = g is the Bergman genus. Every number in the formula is a topological integer of the domain. The kernel encodes all geometric information. The question is which information you extract, and how.
 

@@ -40,7 +40,7 @@ $$f(z) = \int_{D_{IV}^5} K_B(z,w)\,f(w)\,dV_B(w) \qquad \forall\, f \in A^2$$
 
 For $D_{IV}^5$:
 
-$$K_B(z,w) = \frac{1920}{\pi^5}\,N(z,w)^{-6} = \frac{|W(D_5)|}{\pi^{n_C}}\,N(z,w)^{-C_2}$$
+$$K_B(z,w) = \frac{1920}{\pi^5}\,N(z,w)^{-5} = \frac{|W(D_5)|}{\pi^{n_C}}\,N(z,w)^{-C_2}$$
 
 where $N(z,w)$ is the norm function, $C_2 = \chi(Q^5) = 6$, and $|W(D_5)| = 1920 = n_C!\,2^{n_C - 1}$.
 

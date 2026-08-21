@@ -172,3 +172,5 @@ Casey — flagging for your BST integration (not editing the corpus myself). PRI
 See F423 + F424 for the full count-vs-magnitude split and the 2×6-vs-4×3 factorization disambiguation the magnitude computation must pass.
 
 — Lyra
+
+- [Lyra 2026-08-21] Internal-SM theorem v0.7 saved clean: `notes/BST_Internal_SM_from_one_measured_integer_n_C_5_two_invariants_reading_calculus_v0.7_Lyra_2026-08-21.md` (+pdf). Ready for Keeper+Cal re-gate → your GO to ship.

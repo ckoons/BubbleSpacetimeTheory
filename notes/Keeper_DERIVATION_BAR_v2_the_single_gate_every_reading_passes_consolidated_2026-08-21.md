@@ -1,0 +1,41 @@
+---
+node_type: gate_rubric
+id: DERIVATION-BAR-v2
+title: "THE DERIVATION BAR (v2) — the single authoritative gate every derived reading in the atlas/dictionary program passes. Consolidates the criteria scattered across K1758 (charter), K1759 (bar v2 + C6), K1760 (C6 ledger + subscript + primary-source + C6-scoping). Keeper gates each reading against THIS one instrument; a criterion cited from memory instead of this line is the exact metadata-drift the week ruled against."
+date: 2026-08-21
+author: Keeper
+status: "v2 — authoritative. Supersedes the per-note statements as the SINGLE reference. Amend here (recorded) when a ruling changes a criterion; carry an expiry per [[feedback_preregistration_protects_interpretation_not_instrument]]."
+related: [K1758, K1759, K1760, "Grace C6 ledger", "reading dictionary v2 (PASS)"]
+---
+
+# The Derivation Bar (v2) — one gate, every reading
+
+**Scope:** every reading derived in the D_IV⁵ dictionary→atlas program (Lanes A–D, #124). A "reading" is the value of one **declared verb** (dictionary Section 0: isotypic decomposition / Casimir eigenvalue / Frobenius–Schur type / kernel eval-residue-norm / boundary-orbit-stratum index / Peirce grading / generator count) applied to one **declared object** (dictionary Section 2: bulk / Cartan slice / Šilov strata / Peirce blocks / K-types / kernels). Keeper gates each reading against the criteria below; miss one → it is a **fit, not a reading**.
+
+## THE HEADLINE (a method, not a check)
+**H — THE ADDRESS IS NAMED BEFORE THE VALUE.** Declare the object — its type, scale, and reference class — before computing or comparing. This alone would have prevented most of the week's failures (quaternionic-chirality, the Y=0 Majorana route, pure-census chirality, Cal's inverted table, the 6/5-as-C₂/n_C trap). Everything below is a check; this is the discipline they all serve.
+
+## THE EIGHT CRITERIA
+1. **(object, verb)** — exactly one dictionary object × one declared verb; nothing else counts.
+2. **Address-specified** — the address (K-type / stratum / Peirce block) named *before* the value, not chosen to hit it.
+3. **Basis-independent AND scale/scheme-declared** — intrinsic to the object, not a chart artifact (Elie's 3.3e-16 basis-check is the template); AND the energy scale + renormalization scheme stated (§652: 3/8 vs 3/13 was a *scale/scheme* defect, both otherwise clean — this is what took ten days to find).
+4. **Target-innocent** — the address forced by the geometry, not fit to the measured number.
+5. **Reducible BY THE DECLARED VERBS to the two generators** (census + non-orientability) — "reducible" unqualified is unfalsifiable (every object relates to the generators *somehow*); specify the operations = the seven verbs.
+6. **C6 — SELECTION-HONEST** (the one per-reading checks structurally cannot see; the load-bearing criterion for this phase): the atlas is look-elsewhere-prone by design (~6 objects × ~5 verbs ≈ 30 readings × ~20 targets @1% ≈ 12 chance hits, each individually target-innocent). Each reading either **PRE-REGISTERS** its (object, verb) + expected form before computing, **OR** is reported inside the **FULL SWEEP** — the readings that DON'T close alongside those that do. Log to the **C6 ledger** (Grace): object / verb / pre-registered-form / target / tolerance / hit-miss; aggregate reports attempted / hit / chance-expectation / binomial-p, **nulls beside hits**. Pre-registration collapses the pool (12→0.6 expectation). A mostly-null sweep is MORE persuasive than a handful of hits. **C6 SCOPE (Cal):** applies to a NUMERICAL READING WITH A TRIAL POOL only — NOT to a symbolic cancellation or a derivation (no pool → look-elsewhere doesn't bite; applying C6 there is ritual compliance). A numerical sub-reading inside such work (e.g. an N_c sweep) IS reported in full.
+7. **Tiered against a CITED LINE** — each reading carries D/PD/I/C/S, cited to the exact source line (never a title; the week produced a stale registry row, a split-tier smuggle, and a stale rubric from title-citing).
+8. **CLASS vs OBJECT — is it selective?** (K1761, Cal §656): a constant that is **n-independent within the declared reference class** is a property of the CLASS, not a reading of the OBJECT — it carries zero selective power for n_C=5 (§637 "rank carries zero selective power" generalized). Every constant reading states whether it VARIES across the reference class (object-selective — a real reading) or is constant (class-level — true but non-selective; tier it Derived-but-class-level, never dress it as a BST integer). Test case: the Bergman↔Szegő ratio **2** is n-independent for all tube-type domains → class-level, NOT "2 = rank."
+
+## TWO STANDING GUARDS (fire before a reading is written)
+- **PRIMARY-SOURCE before promotion** — a number promotes Candidate→Derived only against the PRINTED primary source, not a derivation-from-memory or a relabeling (Lane A: the exponent numbers 2 / 6/5 / 5/4 stay Candidate until Hua 1963 is read). Convention before value; [[feedback_pin_conventions_to_primary_sources]].
+- **EXTERNAL-DEPENDENCY LEDGER** (K1762): every reading declares its EXTERNAL-citation dependencies and each one's status — {VERIFIED-against-primary-source / CITED-UNVERIFIED / STRUCTURALLY-BYPASSED}. A reading whose chain rests on a CITED-UNVERIFIED external result is CAPPED at Candidate until it is verified or bypassed — internal properties can be perfect while the external input is wrong (the corpus's own Hua −6 line, K1761). **THE SOURCE HIERARCHY (Cal §657 + Keeper K1762 converged independently, STANDING, K1763): STRUCTURAL PIN > PRIMARY SOURCE > CORPUS CITATION > MEMORY.** A structural derivation outranks a citation for *pinning* (a citation can be mistranscribed, a factorization can't — Elie's bidisk was immune to the corpus −6 a source-checker would have inherited); reconnect-first is how you *find* the error, not the top of the pinning order. Live status: **Chamseddine–Connes = VERIFIED-primary-source** (Elie, arXiv 0705.0489, K1763); **Hua (1963) = STRUCTURALLY-BYPASSED** for the exponent (bidisk, four ways) but still CITED-UNVERIFIED for the corpus's −6 diagnosis. Deeper: the risk metric is DISTANCE FROM VERIFIED GROUND — every criterion here is a reconnect to it; the atlas is riskier than the SM theorem because it is farther from ground.
+- **SUBSCRIPT the overloaded symbol on any vary-n / functional claim** — C₂ is C₂^Cas=2n−4 vs C₂^shift=n_C+1 (coincide only at n=5); at fixed n_C=5, C₂=6 needs no action, but a general-n form written "C₂/n_C" is the trap. Same for any symbol that is a value at n=5 and a function off it (e.g. "Bergman exponent" = kernel-singularity n / ρ-parameter g/rank / weight n+1 — three different objects). [[feedback_C2_is_overloaded_2n_minus_4_vs_nC_plus_1_coincide_only_at_n5]], [[feedback_subscript_the_overloaded_symbol_int_vs_function_of_n]].
+- **FALSE-NEIGHBOR GENERATOR before counting two maps** (K1761, Cal §656): (n+1)/n and n/(n−1) are the SAME function f(k)=(k+1)/k at SHIFTED arguments — e.g. (n+1)/n at n=5 = 6/5 = n/(n−1) at n=6. If a value appears TWICE in a sweep, check for ONE family at adjacent arguments before counting two independent maps; "the atlas will be full of these." [[feedback_family_rule_and_false_neighbor_check]].
+
+## TWO METHOD RULES (the week's, carried in)
+- **Test the property the claim NEEDS, not existence** (Elie 5412: checked τ exists, the claim needed det τ). An object existing at every n is not the property the claim rides on.
+- **Reconnect (grep the proved theorem) before deriving OR auditing** — the corpus is denser than any of us holds; the reconnect finds banked answers (§653 reused #108; K1359 reused the running arc) as often as it prevents re-derivation.
+
+## Gate procedure
+Keeper grades each reading against H + 1–7 + the two guards; Cal reads independently on contested readings (§603); tier promotions (Candidate→Derived, or any D-tier) need the primary-source pin + both voices. The MAP (a transition) and the NUMBER (its induced reading) are graded SEPARATELY — a Derived map can induce a Candidate number (Lane A). Every result is a reading of one operator on D_IV⁵.
+
+— Keeper, Derivation Bar v2, 2026-08-21. One instrument; amend here (recorded) when a ruling changes it. Nothing pushed. CP existence-only.

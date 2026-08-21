@@ -411,7 +411,7 @@ for F ∈ π₆^{⊗3} (viewed as a function of three variables). This is the "t
 
     Φ̃(f₀ ⊗_s f₀ ⊗_s f₀)(z) = ∫∫ K(z,w₁,w₂) K(z,w₁) K(w₁,w₂) K(w₂,0) dμ dμ
 
-where K(z,w) = (1920/π⁵) · N(z,w)^{-6} is the Bergman kernel. This integral is non-zero: the integrand has definite sign (K(z,w) > 0 for z,w ∈ D_IV^5), so the integral is positive. Therefore Φ̃ ≠ 0. □
+where K(z,w) = (1920/π⁵) · N(z,w)^{-5} is the Bergman kernel. This integral is non-zero: the integrand has definite sign (K(z,w) > 0 for z,w ∈ D_IV^5), so the integral is positive. Therefore Φ̃ ≠ 0. □
 
 *Step 5: By Schur's lemma and irreducibility.*
 
@@ -558,7 +558,7 @@ where N(ξ,η) = 1 - ξ·η̄ + ... is the boundary Cauchy factor for D_IV^5 (th
 
 The integral decomposes via the structure of Š: the S¹ factor gives the angular integral (as in n_C=1), and the S⁴ factor gives an additional factor from the S⁴ volume. The full computation (which follows the same structure as n_C=1 with n_C complex dimensions contributing) gives:
 
-    ∫_{Š³} N(ξ₁,ξ₂)^{-6} N(ξ₂,ξ₃)^{-6} N(ξ₃,ξ₁)^{-6} dσ³ = (6π⁵/1920²) × Vol(Š)²
+    ∫_{Š³} N(ξ₁,ξ₂)^{-5} N(ξ₂,ξ₃)^{-5} N(ξ₃,ξ₁)^{-5} dσ³ = (6π⁵/1920²) × Vol(Š)²
 
 where the factor 1920² comes from the double Hua normalization in the three-point function, and Vol(Š) = Vol(S⁴) × Vol(S¹).
 

@@ -13,6 +13,8 @@ children: "Paper #67"
 > **Honest per-problem verdict:** PARTIAL with a LARGE remaining gap. **Open piece:** the R⁴ construction / (B) area-law mass-gap is the CORE open piece — not a minor residual — together with (A) color-confinement and the AF-sign (scoped K937/K939).
 > Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
 
+> **⚠ Signature-tag convention (2026-08-21, Lyra; applies document-wide).** Every "**ℝ⁴**" below is the flat Clay-target 4-space, and it is **distinct from the 5D compact Šilov boundary** ∂_S = (S⁴×S¹)/ℤ₂ (the physical asymptotic region — see the §4.5 dimension correction). The flat 4-space carries two Wick-related faces, which must be kept apart: **(i) ℝ⁴_E** — the *Euclidean* OS/constructive target ("the flat-ℝ⁴ construction," the large named-open Clay residual); **(ii) ℝ^{3,1}** — its *Lorentzian* Wightman face ("a QFT on ℝ⁴ satisfying W1-W5," the observable-level Clay statement). They are Wick-rotation related, **not identical**, and neither is the 5D ∂_S. (Full convention: `Lyra_Grace_regulator_to_physical_bridge_..._2026-08-21.md`.)
+
 # T1271: Yang-Mills Mass Gap Physical-Uniqueness Closure
 
 *The Yang-Mills mass gap, as an observable of SU(3) gauge theory on ℝ^4, is closed by physical uniqueness: any QFT reproducing the Wightman observables and the gap 6π^5 m_e is isomorphic to the D_IV^5 QFT via modular localization. The ℝ^4-vs-D_IV^5 "framing gap" is iso-closed, not construction-closed.*
@@ -52,11 +54,11 @@ The ℝ^4 framing gap (~3% residual in BST_YangMills_Question1) concerns the que
 
 **Modular localization (Bisognano-Wichmann 1975, Borchers 2000)** supplies the iso. Any QFT satisfying W1-W5 admits modular algebras {M(O) : O ⊂ spacetime} that encode the full theory via the Tomita-Takesaki modular operators. Two QFTs are isomorphic iff their modular data are isomorphic.
 
-The modular data of the D_IV^5 QFT restricted to the boundary ∂D_IV^5 ≅ ℝ^4 (Shilov boundary, conformal compactification) coincide with the modular data of any ℝ^4 QFT satisfying W1-W5 with the same mass gap. The matching is forced by:
-- The Bergman kernel boundary value on type-IV domains (Hua 1963; Stein 1972 for the general theory) recovers the ℝ^4 two-point function.
-- Borel neat descent (standard for symmetric domains) transports the local algebras.
+The modular data of the D_IV^5 QFT live on the physical **Šilov boundary ∂_S = (S⁴×S¹)/ℤ₂ (real dim 5)** — **not** ℝ⁴ (dim 4). *(Dimension correction, 2026-08-21: the earlier line read "∂D_IV⁵ ≅ ℝ⁴ (Shilov boundary, conformal compactification)" — a 5D≅4D collision that self-refutes in its own parenthesis, since a conformal compactification of ℝ⁴ is compact and ℝ⁴ is not. ℝ⁴ is the domain's distinct **4D** conformal boundary (S³×S¹)/ℤ₂, reached by a Kaluza–Klein descent whose transverse S³ is compact — the flat-ℝ⁴ named-open residual, K1709/K1713/K1714.)* Bisognano–Wichmann + Borchers reconstruct a W1-W5 QFT up to iso **from its modular data at the boundary's own dimension** (here 5D); the matching is forced there by:
+- The Bergman kernel boundary value on type-IV domains (Hua 1963; Stein 1972) recovers the boundary two-point function.
+- Borel neat descent transports the local algebras within a fixed dimension.
 
-Hence any ℝ^4 QFT realizing P_YM is isomorphic to the D_IV^5 QFT.
+The transfer from this 5D boundary theory to a flat-**ℝ⁴_E** (Euclidean — the Clay/OS constructive target, signature-tag convention 2026-08-21) Clay theory is the **5D→4D Kaluza–Klein descent, which BW does not supply** — it is the flat-ℝ⁴_E named-open residual (Paper A). *(ℝ⁴_E Euclidean regulator ≠ ℝ^{3,1} Lorentzian physical spacetime; Wick-rotation related, not identical.)* **[Physics adjudication owed — Cal, per K1773: does the BW/Borchers uniqueness argument run at 5D and then descend, or must the 5D→4D map be exhibited separately? The uniqueness closure is already scoped LARGE (K937/K939); this correction is clarifying, not destabilizing.]**
 
 ### Step 3: Iso-closure transfers mass gap from D_IV^5 to ℝ^4
 

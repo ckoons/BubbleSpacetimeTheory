@@ -671,7 +671,7 @@ The Tsirelson bound is the CHSH norm on the holomorphic subspace.
 
 The Bergman kernel of $D_{IV}^5$ is (Hua 1963):
 
-$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-6},$$
+$$K(z,w) = \frac{1920}{\pi^5} \cdot N(z,w)^{-5},$$
 
 where $N(z,w)$ is the norm function. When restricted to the $S^2$
 measurement directions within the Shilov boundary, the Bergman kernel
