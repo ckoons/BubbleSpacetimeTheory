@@ -1,5 +1,7 @@
 # The regulator→physical bridge — exhibited, and it reveals the fix: L²(Γ\G/K) is K-spherical and does NOT contain H²
 
+> **⚠ SCOPED CORRECTION 2026-08-22 (Round 46; Cal's claim-shape sweep, owned by Lyra).** The "Γ-free redo on H²" fix below is correct **for the QFT / W4 modular lane** (H² is the physical space there; the finding that L²(Γ\G/K) is K-spherical and doesn't contain H² stands). But "drop Γ" is scoped: **Γ is RETAINED as the ARITHMETIC-lane regulator** — a_e to 0.026% lives on the Selberg trace formula over Γ(137)\D_IV⁵ (closed geodesics = ζ(3)). **H² for the QFT lane; Γ\D_IV⁵ for the arithmetic lane — both legitimate.** Read "Γ-free / drop Γ" below as QFT-lane-only.
+
 **Round 41, pre-dispatch-blocking (Lyra + Grace). Reconnect out-argued the easy version of this task.** The dispatch-lane foundation is one fork: the **regulator side** (L²(Γ\G/K), W4, Paper76 Euclidean S⁴×S¹, the YM lattice) and the **physical side** (H², confinement, the pivot, the descent, the Lorentzian boundary). Physics is Branch H. The task: exhibit the bridge that legitimizes the §666 cross-use, and signature-tag every "flat-ℝ⁴". Reconnected: grace_W1_attack_framing (HS route), F1016 (Hardy reproducing map), BST_ElectronMass (holomorphic discrete series weight k), W4:20/60.
 
 ## Part 1 — the physical side is self-consistent (A² ↔ H² ↔ ∂_S, all G-carrying)

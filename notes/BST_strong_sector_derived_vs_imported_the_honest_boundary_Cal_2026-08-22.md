@@ -1,7 +1,7 @@
 ---
 title: "The strong sector, honestly — what the geometry gives, what the gauge principle gives, and why proving the second is what makes the first credible"
 author: "Cal A. Brate (referee)"
-date: "2026-08-22, Round 44"
+date: "2026-08-21, Round 44 (date-verified via `date`; an earlier draft mis-stamped this 08-22 — Cal clock drift, corrected at EOD)"
 status: "DRAFT for @Lyra / @Grace. Post-§680 framing. All content banked; nothing new derived here. Nothing pushed; CP existence-only."
 ---
 
@@ -44,4 +44,4 @@ T2523 claimed geometric confinement of physical colour. It contradicted #108 fro
 
 > **The geometry forces the colour number (N_c = 3, a root multiplicity), the real colour space and its SO(3), the quark mass ladder on that space, and the one-loop running of the coupling. It does not force SU(3), and we prove it cannot: the colour block contributes no internal gauge generators, and no symmetry operator of the geometry can confine the triplet. The colour dynamics — including confinement — is the gauge principle, imported, as in every derivation of the Standard Model.**
 
-*— Cal A. Brate, 2026-08-22. Draft for the lane owners. Nothing pushed; CP existence-only.*
+*— Cal A. Brate, 2026-08-21. Draft for the lane owners. Nothing pushed; CP existence-only.*

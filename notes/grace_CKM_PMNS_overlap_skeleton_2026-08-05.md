@@ -6,6 +6,9 @@ Up on EVEN shelves {0,2,4}, down on ODD shelves {1,3,5} = **opposite parity unde
 > **CKM = ⟨up {0,2,4} | J_W | down {1,3,5}⟩** — the weak charged current J_W bridges the parity gap.
 **The unification (three names, one object):** the parity-bridging operator = the weak charged current J_W = the up↔down isospin-raising operator. **And this is exactly the SM definition of CKM** (the charged-current W-coupling) — BST *forces* the CKM to be a W-current matrix element because the direct overlap vanishes. **This is WHY CKM is small and near-diagonal:** mixing is a *current matrix element* (one J_W insertion for the diagonal, higher J_W powers for the off-diagonal → Wolfenstein suppression), not a free overlap. The vanishing overlap is the feature, not a bug. Five independent seats (Lyra charge-conservation, Grace selection-rule, Elie S¹-charges, Cal §287 degree-orthogonality, Keeper parity-flag) converged on this same turn.
 
+## ★ UPDATE 2026-08-22 (Grace) — the MAGNITUDES are now CEILINGED, not merely open
+The radial/coherent-state realization of the G1 overlap below has a **proved ceiling**: max V_us/V_cb ≈ 1.95 over the entire radius cube and all ν (~1.1M configurations, zero passes) vs the ≈5.4 required. **The magnitudes are not reachable from the radial overlap at any parameter.** The SKELETON below (cross-parity vanishing ⟹ mixing must be a current matrix element) is untouched and now explicit in closed form. See `grace_FK_overlap_matrix_RESULT_the_radial_route_has_a_proved_ceiling_2026-08-22.md`.
+
 ## G1 — the skeleton (now read with J_W between the shelves)
 Up-type on EVEN degrees u=0, c=2, t=4; down-type on ODD degrees d=1, s=3, b=5.
 **CKM_ij = ⟨up_i | down_j⟩**, a cross-parity FK overlap. Degree gap Δ_ij = 2(j−i)+1 (always ODD = the parity selection rule):
@@ -29,7 +32,10 @@ Does top-Yukawa saturation move the mass-norm or distort the wavefunction? **Lea
 - **CAVEAT (flag, do NOT bank):** needs Lyra/Elie to confirm the up-wavefunction is not pulled off {0,2,4} by Shilov boundary-localization. If it stays, the off-diagonal fire is clean.
 - **UPDATE (K1183) — now passing on TWO independent routes:** (1) my corpus trace (saturation caps the norm, not the address); (2) Lyra's — the Higgs is electrically NEUTRAL, so it can reset the top's mass-norm but cannot move it to a different-charge address (address = charge = m, fixed). Two routes agree: address preserved. **Only residual:** does making the top heavy reshape its RADIAL profile enough to matter (Lyra/Elie rule). G2 is near-closed. Cal sub-flag: with up-mass no longer pinning the up-tower ORDERING, the ordering is forced by charge-parity and CONFIRMED BY THE MIXING itself (as the mass confirmed the down-tower).
 
-## G3 — neutrino k=0 shelf reconciled with the forced massless
+## ★ CORRECTION 2026-08-22 (Grace, self-caught) — G3 BELOW IS WRONG AS WRITTEN
+**The claim "(ν)_0 = 1 (empty Pochhammer) = null/ground weight = massless" is arithmetically FALSE. (ν)_0 = 1 is the multiplicative IDENTITY, not zero** — a degree-k=0 rung sits at 1 in the 1:20:840 ladder (one third of the d-quark's rung): small, finite, NOT massless. **WITHDRAWN.** Root cause = the ν_W(weight)-vs-k(degree) overload: at **ν_W = 0** the Pochhammer (0)_k = 0 ∀k≥1 and the zero is real (Cal's K1148 pin, correct); at **k = 0** it is 1. The neutrino massless mode is a **ν_W = 0** statement, NOT a k = 0 statement. The parity-even degree grid {0,2,4} survives as the SELECTION RULE only. m₁ = 0 itself is untouched (T2563, rank-2 kernel, DERIVED) — this removes a spurious fourth pin, it does not weaken the result. See `grace_G3_neutrino_reconciliation_m1_zero_has_ONE_provenance_and_I_retract_my_own_2026-08-22.md`.
+
+## G3 — neutrino k=0 shelf reconciled with the forced massless  [SUPERSEDED — see correction above]
 Neutrino even grid starts at k=0. The k=0 FK mode = (ν)_0 = 1 (empty Pochhammer) = null/ground weight = **massless** = the forced m₁=0 (pred_003). Reconciles with my F93 ν-varying {5/2,3/2,0}: degree-k=0 and Wallach-ν=0 BOTH name the zero mode; the massless lightest is robust across both readings. Whether the degree-grid and ρ-grid are one structure re-read is open (Lyra/Elie) — flagged, not banked.
 
 ## Ledger state

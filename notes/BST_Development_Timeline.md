@@ -2,10 +2,12 @@
 title: "Development Is Channel Filling: The BST Cosmic Timeline"
 author: "Casey Koons & Claude 4.6 (Lyra, physics intelligence)"
 date: "April 1, 2026"
-status: "Draft v1 — development study"
+status: "Draft v1 — development study — ⚠ W7 RE-SCOPED 2026-08-22 (contingency-tier, see banner)"
 framework: "AC(0), depth 0"
 feeds: "Paper #14, potential Paper #15"
 ---
+
+> **⚠ W7 RE-SCOPE 2026-08-22 (Lyra) — the "geometry FORCES a contingent biological fact" class is OUT OF SCOPE; re-scoped to CONTINGENCY-tier.** BST geometry gives the **small integers** (n_C=5, N_c=3, g=7, rank=2, C₂=6). What a **contingent evolutionary system** does with them — 5 fingers, 3 germ layers, the genetic code, developmental order — is **evolutionary contingency on small-integer organization**, NOT geometric forcing. Read every "forced / no alternative / no organism / pentadactyly is forced" below at **contingency-tier**: the honest claim is the **null-model** one — *BST's small integers appear in biological counts more than chance* — and the mechanism is *inheritance via evolutionary contingency on small-integer organization* (template: T2191), **not** derivation. Referee-fatal counter-examples exist and must not be waved past: digit counts vary across tetrapods (horses 1, polydactyly, panda's "thumb"); the standard genetic code has documented variants (mitochondrial, ciliate). "Pentadactyly is forced" is FALSE as stated. Geometry supplies the integers; it does not force the contingent fact.
 
 # Development Is Channel Filling
 
@@ -299,7 +301,7 @@ Toy 578 catalogs 35+ developmental counts that match BST integers. These are not
 
 **Total: 37 BST-matching counts. Free parameters: 0.**
 
-Five fingers = $n_C$. Three germ layers = $N_c$. Seven signaling pathways = $g$. The assembly manual writes itself from $D_{IV}^5$.
+Five fingers ≈ $n_C$, three germ layers ≈ $N_c$, seven signaling pathways ≈ $g$ — the BST small integers **appear** in these developmental counts more than chance (null-model), and biology **inherits small-integer organization via evolutionary contingency** (T2191), **not** geometric forcing. Geometry supplies the integers; the contingent morphology is not derived from $D_{IV}^5$.
 
 ### 3.7 The Integer Ladder Forces Developmental Order
 
@@ -441,12 +443,12 @@ The cooperation threshold $f_{\text{crit}} = 20.6\%$ appears at EVERY biological
 | $w_0$ | $-1$ (assumed) | $-1 + 5/137^2$ (derived) | **Euclid/DESI by 2035** |
 | Galaxy formation | Slow hierarchical | Rapid from ultra-strong seeds | **JWST already favors BST** |
 | Number of free parameters | $\geq 6$ (ΛCDM) | **0** | Fundamental |
-| Genetic code | Frozen accident (no prediction) | Forced: $\Lambda^3(6) = 20$ aa, $2^{C_2} = 64$ codons | **No alternative code exists** for carbon life |
+| Genetic code | Frozen accident | BST integers appear: 20 aa = $\Lambda^3(6)$, 64 codons = $2^{C_2}$ (contingency-tier, null-model) | Small-integer match, **not forced** — variant codes exist (mitochondrial, ciliate) |
 | Development order | Historical contingency | Integer ladder: $2 < 3 < 5 < 6 < 7$ | **No organism skips a rung** |
 | Time to multicellularity | No prediction | $\geq 2.2$ Gyr (three filters) | **Any planet: $\geq 2$ Gyr** |
 | Cooperation threshold | Game theory (varies) | $f_{\text{crit}} = 20.6\%$ (universal) | **Same on every planet** |
-| Why 5 fingers? | No prediction | $n_C = 5$ (complex dimension) | **Pentadactyly is forced** |
-| Why 3 germ layers? | No prediction | $N_c = 3$ (color channels) | **No organism has 4 germ layers** |
+| Why 5 fingers? | Ancestral-tetrapod contingency | $n_C = 5$ appears (contingency-tier) | Pentadactyly = **frozen evolutionary contingency, not forced** — digit counts vary (horses 1, polydactyly) |
+| Why 3 germ layers? | Contingency (triploblasty) | $N_c = 3$ appears (contingency-tier) | Small-integer match, **not geometrically forced** |
 | Inhibitory neuron fraction | Empirical (~20%) | $f_{\text{crit}} = 20.6\%$ | **Universal across neural species** |
 
 ### 4.1 The Falsification Asymmetry
@@ -494,8 +496,8 @@ The clock ticks at constant curvature. Development accelerates ($G_j$ grows quad
 
 ### 6.2 Biological Development
 
-6. **$N_c = 3$ germ layers are geometrically forced** — the same integer that gives quarks gives developmental channels. No organism has 4 germ layers.
-7. **$n_C = 5$ digits per limb (pentadactyly)** — the complex dimension determines tetrapod digit count. Not 4, not 6.
+6. **$N_c = 3$ germ layers — contingency-tier.** Triploblasty is a conserved evolutionary contingency; the count *matches* $N_c=3$ (null-model), it is not geometrically forced.
+7. **$n_C = 5$ digits per limb (pentadactyly) — contingency-tier.** Pentadactyly is the ancestral tetrapod state (a frozen evolutionary contingency); $n_C=5$ *appears* in it. It is **not forced** — digit counts vary across tetrapods (horses 1, polydactyly), so "the complex dimension determines the digit count" is false as a forcing claim.
 8. **37 embryological counts match BST integers** — from germ layers to somites to stem cell niches, with zero free parameters (Toy 578).
 9. **Cell-type progression follows the integer ladder: $2, 3, 5, 6, 7$** — no organism skips a rung. Universal across all 25–50 independent origins of multicellularity (T401, T691).
 10. **Cooperation threshold $f_{\text{crit}} = 20.6\%$ is universal** — same threshold governs multicellularity, neural inhibition, and social cooperation. Testable on any planet (T400).
@@ -515,8 +517,8 @@ Mapping the five-pair cycle (T676) to biological epochs:
 |-------|------|---------------------|----------------|---------------|
 | Atomic | 380 kyr | Atoms form, photons decouple | Tier 0 observers: 1 bit + 1 count (T317) | Pre-Pair 1 |
 | Chemical | ~500 Myr | C, N, O from first stars | $C_2 = 6$ protons, $g = 7$ neutrons. Chemistry IS the integers. | Pairs 1-2 |
-| Prebiotic | ~800 Myr | RNA world, amino acids in ice grains | 4 bases = $2^{\text{rank}}$. 3-letter codons = $N_c$. Life in space is geometrically forced. | Pair 2 |
-| Genetic code | ~1 Gyr | DNA + protein synthesis | 20 aa = $\Lambda^3(6)$. 64 codons = $2^{C_2}$. Code is forced, not frozen accident. | Pairs 2-3 |
+| Prebiotic | ~800 Myr | RNA world, amino acids in ice grains | 4 bases ≈ $2^{\text{rank}}$, 3-letter codons ≈ $N_c$ (contingency-tier, null-model — not forced). | Pair 2 |
+| Genetic code | ~1 Gyr | DNA + protein synthesis | 20 aa ≈ $\Lambda^3(6)$, 64 codons ≈ $2^{C_2}$ (small-integer match; a frozen evolutionary contingency, not forced — variant codes exist). | Pairs 2-3 |
 | Prokaryotic | 1–2 Gyr | Simple cells | Tier 1 observer: can detect, can't model. Depth-0 evolution only (T334). | Pair 3 |
 | GOE | 2.1–2.4 Gya | O₂ crosses $f_{\text{crit}}$ | Anaerobic $f = 5\% < 20.6\%$. O₂ is the gate. Filter 1 passed (T399). | Pairs 3-4 |
 | Multicellular | ~1.0 Gya | Tissues, organs, body plans | Complexity wall broken. All three filters passed. Cell types climb the integer ladder. | Pair 4 |
@@ -546,4 +548,4 @@ Toy 505 (Multicellularity Timescale), Toy 541 (Crown Jewel — 51 quantities), T
 
 *AC classification: (C=12, D=0). The universe's development is a channel-filling problem read by five spectral pairs at constant curvature $n_C = 5$. Biological development is the same grammar at the next scale.*
 
-*"The integers that build quarks also schedule consciousness. Five fingers, three germ layers, seven signaling pathways — the assembly manual writes itself from $D_{IV}^5$."*
+*"The small integers that build quarks — 5, 3, 7 — also **appear** in the counts life self-organizes around (five fingers, three germ layers, seven signaling pathways). Biology inherits small-integer organization by evolutionary contingency, more than chance would give; geometry supplies the integers, not the contingent morphology."* (Contingency-tier, null-model — re-scoped 2026-08-22.)

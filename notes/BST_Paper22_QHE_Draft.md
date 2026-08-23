@@ -14,7 +14,7 @@ abstract: |
   The even-denominator state $\nu = 5/2 = n_C/\mathrm{rank}$ is the Moore-Read Pfaffian.
   Inter-state spacing ratios $\Delta\nu_1/\Delta\nu_2 = g/N_c = 7/3$ and
   $\Delta\nu_2/\Delta\nu_3 = N_c^2/n_C = 9/5$ are exact. The first Jain ratio
-  $\nu(2)/\nu(1) = C_2/n_C = 6/5$ is exact. Of 28 experimentally observed FQHE fractions,
+  $\nu(2)/\nu(1) = 6/5$ is exact (the **Jain-filling-fraction** ratio $(2/5)/(1/3)$ from the $2p{+}1$ denominators; it equals $C_2/n_C$ **numerically** — but this is the FQHE object $6/5_{\text{Jain}}$, a same-number match to the *structural* $C_2/n_C = 6/5$ that appears in nuclear $\kappa_{ls}$/T188 and baryon $m_\Lambda$, NOT shown to share their Casimir/genus mechanism [Cal name-collision catch, Grace subscript 2026-08-22]). Of 28 experimentally observed FQHE fractions,
   27 have both numerator and denominator expressible as BST integer combinations
   (including $\nu = 1/9 = 1/N_c^2$).
   The integer quantization of Hall conductance, measured to 10+ significant figures, means
@@ -149,7 +149,7 @@ The QHE fractions connect to other BST domains:
 |----------|-------------|--------------|
 | $7/3 = g/N_c$ | Spacing ratio $\Delta\nu_1/\Delta\nu_2$ | Specific heat Al/Cu = $g/N_c$ (Toy 871) |
 | $9/5 = N_c^2/n_C$ | Spacing ratio $\Delta\nu_2/\Delta\nu_3$ | Reality Budget $\Lambda N = 9/5$ |
-| $6/5 = C_2/n_C$ | Jain ratio $\nu(2)/\nu(1)$ | Electronegativity Pt/Cu, $\Gamma_Z/\Gamma_W$, nuclear $\kappa_{ls}$ |
+| $6/5_{\text{Jain}}$ (=$\nu(2)/\nu(1)$; num. $= C_2/n_C$) | Jain ratio $\nu(2)/\nu(1)$ | *numerical* neighbors: Electronegativity Pt/Cu, $\Gamma_Z/\Gamma_W$, nuclear $\kappa_{ls}$ (structural $C_2/n_C$ — same number, distinct mechanism) |
 | $5/2 = n_C/\text{rank}$ | Moore-Read state | BCS gap $g/\text{rank} = 7/2$ (related family) |
 | $3/4 = N_c/2^{\text{rank}}$ | Not a QHE state | Kleiber's Law exponent |
 | $1/3 = 1/N_c$ | Laughlin ground state | BDE(H-H)/Ry (T817) |

@@ -56,7 +56,11 @@ except Exception as e:
 reg_max = None; reg_tids = set()
 try:
     txt = open(p("notes", "BST_AC_Theorem_Registry.md")).read()
-    reg_tids = set(int(x) for x in re.findall(r"\bT(\d{1,4})\b", txt))
+    # K1053 LOCK (installed K1800, 2026-08-22, after Cal Section 698 measured the gap):
+    # count theorem IDs from REGISTRY ROWS ONLY. The raw \bT(\d+)\b grep also matched
+    # toy ids wearing a T prefix in prose ("T2849-T2897 cluster"), inflating reg_max to
+    # T2897 and injecting 691 phantom IDs -> a FALSE [OK] in a drift detector for 22 days.
+    reg_tids = set(int(x) for x in re.findall(r"^\s*\|\s*\*{0,2}T(\d{1,4})\*{0,2}\s*\|", txt, re.M))
     reg_max = max(reg_tids) if reg_tids else None
 except Exception as e:
     flag("WARN", "registry", f"cannot read registry: {e}", "Lyra")
@@ -123,21 +127,127 @@ else:
     flag("DRIFT", "ledger", "no Grace Master Ledger found", "Grace")
 
 # ---------- 4. RETIREMENT PROPAGATION: retired readings still cited as banks? ----------
-RETIRED = ["mass-45", "harmonic-50", "two-axis", "running.rescue", "QCD.running.*rescue"]
-board_glob = glob.glob(p("notes", "CI_BOARD_2026-07*.md")) + glob.glob(p("notes", ".running", "MESSAGES_2026-07*.md"))
-retire_hits = []
-for b in board_glob:
-    try: bt = open(b).read()
-    except Exception: continue
-    for r in RETIRED:
-        for m in re.finditer(r".{0,40}(bank|banked).{0,40}", bt, re.I):
-            seg = m.group(0)
-            if re.search(r"45\b", seg) and "θ13" not in seg and "theta13" not in seg and "1/45" not in seg:
-                retire_hits.append((os.path.basename(b), seg.strip()[:80]))
-if retire_hits:
-    flag("REVIEW", "retirement", f"{len(retire_hits)} board line(s) pair a retired-reading number with 'bank' -- eyeball for false-bank rot", "Keeper")
+# REWRITTEN 2026-08-23 (K1818). The previous version had THREE defects, all silent:
+#   (1) the loop variable `r` over RETIRED was NEVER USED in the inner regex, so the same
+#       hits were counted once per RETIRED term -> a 5x-inflated count (reported 50, actual 10);
+#   (2) only the literal "45" was ever tested; the other four RETIRED terms were never checked;
+#   (3) the file glob was JULY-ONLY and could not see the CURRENT notes/CI_BOARD.md at all,
+#       while the message said "on current boards".
+# True-positive rate of the old check, measured: 0/10 (timestamps, toy ids, unrelated numerals).
+# It could NOT have caught the real un-propagated retirement found the same day (A^2=rank / T2516).
+# Standing lesson (Elie): a control that runs after you read the answer is a check;
+# a control that GATES THE READ is an instrument. This one now gates.
+
+# Each entry: (label, regex for the retired reading, regex that must NOT co-occur (exclusions))
+RETIRED_READINGS = [
+    ("A^2=rank",        r"A\W{0,2}2\s*=\s*rank",                      None),
+    ("Wyler alpha",     r"137\.0360|Wyler",                            None),
+    ("2/sqrt(79)",      r"2\s*/\s*(?:\\?sqrt|√)\s*\(?\s*79",          None),
+    ("36/869 V_cb",     r"36\s*/\s*869",                               None),
+    ("mass-45",         r"\bmass-45\b",                                None),
+    ("harmonic-50",     r"\bharmonic-50\b",                            None),
+    ("two-axis",        r"\btwo-axis\b",                               None),
+    ("running rescue",  r"running[^.\n]{0,20}rescue",                   None),
+]
+BANK_NEAR = r".{0,60}\b(bank|banked|banks)\b.{0,60}"
+
+def _scan(text, label, rx, excl):
+    out = []
+    for m in re.finditer(BANK_NEAR, text, re.I):
+        seg = m.group(0)
+        if re.search(rx, seg, re.I) and not (excl and re.search(excl, seg, re.I)):
+            out.append(seg.strip()[:100])
+    return out
+
+# POSITIVE CONTROL — gates the read. Must-catch AND must-reject, on synthetic text.
+_MUSTCATCH = "we still bank the A^2=rank step as forced"
+_MUSTREJECT = "next_toy=4545 and the 11:45 EDT board line, banked earlier"
+_ctrl_catch = any(_scan(_MUSTCATCH, l, rx, ex) for l, rx, ex in RETIRED_READINGS)
+_ctrl_reject = not any(_scan(_MUSTREJECT, l, rx, ex) for l, rx, ex in RETIRED_READINGS)
+
+if not (_ctrl_catch and _ctrl_reject):
+    flag("DRIFT", "retirement",
+         "POSITIVE CONTROL FAILED (must-catch=%s must-reject=%s) -- retirement scan NOT RUN; "
+         "a search that cannot succeed proves nothing" % (_ctrl_catch, _ctrl_reject), "Keeper")
 else:
-    flag("OK", "retirement", "no retired reading cited as a bank on current boards")
+    board_files = ([p("notes", "CI_BOARD.md")]
+                   + glob.glob(p("notes", "CI_BOARD_2026-0*.md"))
+                   + glob.glob(p("notes", ".running", "MESSAGES_2026-0*.md")))
+    board_files = [b for b in board_files if os.path.exists(b)]
+    hits = {}   # (file, label, seg) -> dedup
+    for b in board_files:
+        try: bt = open(b).read()
+        except Exception: continue
+        for label, rx, excl in RETIRED_READINGS:
+            for seg in _scan(bt, label, rx, excl):
+                hits[(os.path.basename(b), label, seg)] = True
+    if hits:
+        by_label = {}
+        for (_f, label, _s) in hits: by_label[label] = by_label.get(label, 0) + 1
+        detail = ", ".join("%s:%d" % (k, v) for k, v in sorted(by_label.items()))
+        flag("REVIEW", "retirement",
+             "%d DISTINCT board line(s) pair a RETIRED reading with 'bank' across %d files [%s] "
+             "-- eyeball for false-bank rot (control PASSED)" % (len(hits), len(board_files), detail),
+             "Keeper")
+    else:
+        flag("OK", "retirement",
+             "no retired reading cited as a bank across %d board/message files (control PASSED)" % len(board_files))
+
+# ---------- 4b. UN-PROPAGATED RETIREMENT (K1818b, Cal's catch) ----------
+# Detector 1 (above) finds a retired reading sitting NEAR a bank-word on a board.
+# It CANNOT find the T2516 species: a retired reading that appears exactly ONCE, inside the
+# very row that depends on it, as a DERIVATION ROOT. One hit reads as "present and accounted
+# for", not "retired but still load-bearing". Different detection problem -> second detector.
+#
+# The controls below are COPIED FROM THE CORPUS, not composed. My first attempt at a control
+# passed on a string I wrote in ASCII ("A^2=rank") while the registry uses "A²=rank" -- the
+# control validated the checker's notation instead of the corpus's. A must-catch case you
+# authored is not a must-catch case.
+RETIRE_MARK = r"\bRETIRED\b|\bretired\b|DO NOT CITE|do not cite"
+WINDOW = 400
+
+def _unpropagated(text, rx):
+    out = []
+    for m in re.finditer(rx, text, re.I):
+        lo, hi = max(0, m.start() - WINDOW), min(len(text), m.end() + WINDOW)
+        if not re.search(RETIRE_MARK, text[lo:hi]):
+            out.append(text[max(0, m.start()-60):m.end()+60].replace("\n", " ")[:110])
+    return out
+
+_reg_path = p("notes", "BST_AC_Theorem_Registry.md")
+try:
+    _reg = open(_reg_path).read()
+except Exception:
+    _reg = ""
+
+if _reg:
+    _i = _reg.find("T2516")
+    _real = _reg[_i:_i+900] if _i >= 0 else ""
+    _rx_a2 = r"A\s*(?:\u00b2|\^\s*2|\*\*\s*2)\s*=\s*rank"
+    # must-REJECT: the real row AS IT STANDS (marker present) -> no flag
+    _ok_reject = (_real != "" and not _unpropagated(_real, _rx_a2))
+    # must-CATCH: the same real text with its marker stripped -> must flag
+    _stripped = re.sub(RETIRE_MARK, "xxx", _real)
+    _ok_catch = bool(_unpropagated(_stripped, _rx_a2))
+    if not (_ok_catch and _ok_reject):
+        flag("DRIFT", "retirement2",
+             "POSITIVE CONTROL FAILED (corpus-sourced; catch=%s reject=%s) -- un-propagated-retirement "
+             "scan NOT RUN" % (_ok_catch, _ok_reject), "Keeper")
+    else:
+        _un = []
+        for label, rx, _excl in RETIRED_READINGS:
+            for seg in _unpropagated(_reg, rx):
+                _un.append((label, seg))
+        if _un:
+            _by = {}
+            for l, _sg in _un: _by[l] = _by.get(l, 0) + 1
+            flag("REVIEW", "retirement2",
+                 "%d registry occurrence(s) of a RETIRED reading with NO retirement marker within %d chars [%s] "
+                 "-- un-propagated retirement (control PASSED, corpus-sourced)"
+                 % (len(_un), WINDOW, ", ".join("%s:%d" % kv for kv in sorted(_by.items()))), "Keeper")
+        else:
+            flag("OK", "retirement2",
+                 "every registry occurrence of a retired reading carries a retirement marker (control PASSED)")
 
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}

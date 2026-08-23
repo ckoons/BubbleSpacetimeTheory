@@ -266,7 +266,7 @@ The pattern holds for all odd n:
 | 3 | 4 | pi^3 = 31.006 | 4*pi^3 = 124.025 | 1/pi^3 |
 | 5 | 6 | pi^5 = 306.020 | 6*pi^5 = 1836.118 | 1/pi^5 |
 
-Only n_C = 5 yields m_p/m_e = 1836.118 (observed 1836.153, 0.002% error). The other values are *alternative universes* in BST; n_C = 5 is forced by the CR dimension 5 = N_c + N_w = 3 + 2 (see Section 5.3, WorkingPaper.md, on Topological Rigidity of alpha=1/137).
+Only n_C = 5 yields m_p/m_e = 1836.118 (observed 1836.153, 0.002% error). The other values are *alternative universes* in BST. **n_C = 5 is a measured input — the ruler — not a forced value** (K1704, T2568): among the domains satisfying the three already-proved conditions the survivors are {5, 11, 13, …}, and it is the **measured** N_c = 3 = n−2 that *selects* n = 5. The relation 5 = N_c + N_w = 3 + 2 is a consistency reading, **not a derivation** — N_c is itself the measured integer doing the selecting, so reading n_C off it is circular. *(Corrected 2026-08-22, Cal: the prose lagged the registry, which has stated the ruler discipline correctly since T2568.)*
 
 ---
 

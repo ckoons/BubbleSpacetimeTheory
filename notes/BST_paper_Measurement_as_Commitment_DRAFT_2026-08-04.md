@@ -1,7 +1,7 @@
 # Measurement as Commitment
 ### The quantum measurement process as the contractive half of one operator on D_IV⁵
 
-*Draft, 2026-08-04. Lyra, from the Koons measurement conversation (Aug 3–4). Honestly tiered throughout — every claim marked Derived / Identified / Posit / Open. Companion to "The Axioms of Quantum Mechanics from D_IV⁵." Cal hostile-read + Keeper pass before any external send; nothing sent without Casey's direction. The one word we do not write is "solved."*
+*Draft, 2026-08-04 (finished 2026-08-22, R50: §2a commit-operator dig absorbed as a permanent subsection; odds-Derived reconciled per Elie's verified sort-weighting; spine aligned to the corrected forcing claim — n_C=5 is one measured input, N_c=3 the ruler, W10). Lyra, from the Koons measurement conversation (Aug 3–4). Honestly tiered throughout — every claim marked Derived / Identified / Posit / Open. This paper + its sober companion "The Axioms of Quantum Mechanics from D_IV⁵" (10/10 Dirac–von Neumann axioms, zero posits) are THE named artifact for internal-rubric criterion C (the commitment ontology). Cal hostile-read + Keeper pass before any external send; nothing sent without Casey's direction. The one word we do not write is "solved."*
 
 ---
 
@@ -22,7 +22,7 @@ The generator H_B has two exponentials, and they are the two things quantum mech
 
 The measurement problem, in its standard form, is a problem *only* for a theory with the unitary face alone — with no physical collapse, there is no single outcome, which is why many-worlds keeps every branch and Copenhagen posits an external cut. BST is not such a theory: the same generator that turns smoothly also settles. Collapse is not added; it is the operator's other exponential.
 
-## 2a. The commit's own structure: write, and check *(operation-dig integration, Keeper 2026-08-17; absorb into Section 2)*
+## 2a. The commit's own structure: write, and check
 
 Section 2 names the commit as the contractive face of H_B. The forced-object dig (2026-08-16, K1607/K1609) sharpened *what that commit is internally*: it is not a structureless settling but **one graded operator**,
 
@@ -78,7 +78,13 @@ That is strictly more than the standard interpretations offer: a physical collap
 
 ## 8. Erasure and correlation
 
-The two-face structure also explains the delayed-choice quantum eraser without extra machinery. Correlation is built by the *unitary* face and nothing collapses until the *contractive* commit — so erasing the correlation before the commit leaves nothing to collapse, and a correlation never committed never projects. This is forced by the domain carrying both faces of one H_B. (Identified; the quantitative Bell/eraser statistics — connecting to the framework's CHSH result, Tsirelson² − S² = 1/2^{N_c} — are the second closure computation.)
+The two-face structure also explains the delayed-choice quantum eraser without extra machinery. Correlation is built by the *unitary* face and nothing collapses until the *contractive* commit — so erasing the correlation before the commit leaves nothing to collapse, and a correlation never committed never projects. This is forced by the domain carrying both faces of one H_B.
+
+**The quantitative Bell prediction is concrete and can-fail.** BST predicts a **sub-Tsirelson** CHSH value: the deviation from the quantum bound is the exact BST-primary identity
+
+> **Tsirelson² − S²_BST = rank / 2^{rank²} = 1 / 2^{N_c} = 1/8** (T2399),
+
+so S_BST = √(8 − 1/8) ≈ **2.806**, a **0.79% shortfall below Tsirelson's 2√2 ≈ 2.828**. This is a sharp, near-term falsifier: a high-precision CHSH measurement finding **S < 2√2** supports BST at bounded level regardless of the exact value; finding **S = 2√2** to that precision refutes it. *Tier: the **sub-Tsirelson bound** and the **exact 1/2^{N_c} deviation** are Identified (an exact algebraic identity, T2399); the **specific value 2.806** = (N_c/rank)·√(g/rank) rides a BST-primary candidate form and is not yet derived from the substrate Hamiltonian — the operator-level CHSH identification (which K-type realizes the CHSH operator; Calibration #17) is the one remaining computation. It is **non-blocking** for this paper: the measurement process, the arrow, the odds, and the commit mechanism are already Derived (Section 9); the Bell magnitude is a separate falsifiable prediction, stated here at its honest tier.*
 
 ## 9. The honest ledger
 
@@ -93,13 +99,13 @@ The two-face structure also explains the delayed-choice quantum eraser without e
 | the encode is self-validating (detection/erasure d=2), **not "unforgeable"** | Derived (correction kept in-text) |
 | commitment forces the *type* of spacetime (Lorentzian type-IV) | **Derived-conditional** (mod P0+P1); dimension n_C=5 stays an honest input |
 | **the odds survive the commit (sharp sort preserves Born)** | **Derived** (Elie, verified: the commit = Wallach-drop ∘ measure-keep is forced — divergent modes are non-states so the drop is not chosen, and the surviving weights are the unique invariant measure T754 = Born) |
-| erasure / Bell statistics | Identified → one computation (CHSH, 1/2^{N_c}) |
+| erasure / Bell statistics | **sub-Tsirelson prediction: S_BST ≈ 2.806, exact deviation Tsirelson²−S² = 1/2^{N_c} = 1/8 (T2399) — a can-fail Bell falsifier.** Identified (the bound + the exact deviation); the specific value rides a candidate form, operator-level realization = the one open computation (non-blocking) |
 | the single outcome | **boundary datum** (given, by category — as GR takes its initial data) |
 
 **The claim, exactly as far as it goes:** BST derives the *process* of measurement — the becoming-definite, the arrow, and the odds — as the contractive half of one operator, and leaves standing only the single-outcome boundary datum that every account of quantum mechanics leaves standing. (The odds are now derived, not conjectured: the commit is a forced Wallach-drop composed with the forced invariant measure; see Section 9.) **This is not "measurement is solved."** It is "everything about measurement that can be derived, is — and what remains is data, not dynamics." We hold the line there deliberately: the over-claim we refuse is any suggestion the specific outcome, or the fact of randomness itself, is explained away. It is physical, and irreducible, and that is correct.
 
 ## Handoffs
-- **@Elie** — the two closure computations that finish Section 9: (1) implement the commit as the finite/divergent sort on the real D_IV⁵ modes and confirm the survivors sit at |⟨k|ψ⟩|² exactly (the sort-weighting forced, not borrowed) — this makes the odds Derived; (2) the eraser/Bell statistics via the CHSH substrate work (1/2^{N_c}). Until (1), Born-from-the-commit stays "one computation," not Derived.
+- **@Elie** — closure computation (1) is **DONE** (verified, folded into Section 9): the commit = Wallach-drop ∘ measure-keep is forced, the survivors sit at |⟨k|ψ⟩|² exactly, so **Born-from-the-commit is now Derived** (no longer "one computation"). One closure computation remains: (2) the eraser/Bell statistics via the CHSH substrate work (1/2^{N_c}) — Identified, one gate.
 - **@Cal** — the guardrail this paper must never cross: "measurement solved," "randomness explained away," or "the substrate is proven supersymmetric." It claims the *process* (Derived/one-gate) and names the single outcome as a boundary datum. Hostile-read Sections 6–7 hardest.
 - **@Keeper** — spine for the QM-axioms scorecard: Born + collapse = one measure; Schrödinger + arrow + measurement = the two faces of one operator; the single outcome = boundary datum. This is the "Measurement as Commitment" novel paper; the sober "Axioms of QM from D_IV⁵" is its companion.
 - **@Casey** — this is your picture, written down: measurement is the downhill face of the one operator, the odds are the forced measure, the settling is a hard sort to ground rather than a slow drift, and reality is the last commitment with the next moment computed from it. I kept the one honest line exactly where you'd want it — we derive everything about measurement anyone can derive, and the single outcome we call what it is, a given, like the initial data every theory starts from. The randomness isn't a gap we apologize for; it's the answer to "why is the quantum world random at all," and I said so. Nothing pushed.

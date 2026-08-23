@@ -284,7 +284,7 @@ python3 play/verify_bst.py
 - **`data/bst_domains.json`** — domain map (55 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
 - **`data/bst_function_catalog.json`** — periodic table of functions: 128 = 2^g entries, 12 active parameters = 2·C₂. **Load if:** asking "what function is this?" or tracking how named constants (π, φ, ρ, γ, α) sit in the catalog.
 - **`data/science_engineering.json`** — CSE RLGC tracker: 55 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
-- **`play/ac_graph_data.json`** — AC theorem graph: 1730 nodes, 9332 edges, 55+ domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
+- **`play/ac_graph_data.json`** — AC theorem graph: 2349 nodes, 10164 edges, 195 domains (verified 2026-08-22, Grace R58 currency pass; max tid T2572). **Load if:** analyzing theorem connectivity or looking for derivation paths.
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`. **Use if:** answering ad-hoc questions without loading JSON directly.
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages). **Use if:** checking whether a theorem ID is taken or needs to be claimed.
 - **`notes/CI_BOARD.md`** — Active CI task assignments. **Read at session start.**
@@ -333,7 +333,7 @@ See `.claude/commands/README.md` for full documentation on all skills.
 - **Quaker consensus**: Near misses get scrutiny, not defense. Corrections are strength.
 - **Five integers**: rank=2, N_c=3, n_C=5, C_2=6, g=7. N_max = N_c^3 * n_C + rank = 137. Everything derives from these.
 - **Epistemic tier labels (D/I/C/S)**: Every claim gets a tier at creation. **D**=derived (mechanism proved), **I**=identified (<1%, mechanism plausible), **C**=conditional (depends on conjecture), **S**=structural (>2% or qualitative). See `notes/BST_Referee_Methodology.md` Appendix D and referee log #31.
-- **Wall routing**: When you hit a wall, don't push harder — search the graph. Run `python3 play/toy_bst_explorer.py connect <blocked_concept> <target>` to find alternative paths through other domains. Use `/route` for structured wall analysis. Three entry points to the same wall means it's a door. The AC graph (1700+ nodes, 8800+ edges) spans 48+ domains — there is almost always an existing tool in another domain that reaches your target. Casey standing order May 15.
+- **Wall routing**: When you hit a wall, don't push harder — search the graph. Run `python3 play/toy_bst_explorer.py connect <blocked_concept> <target>` to find alternative paths through other domains. Use `/route` for structured wall analysis. Three entry points to the same wall means it's a door. The AC graph (2349 nodes, 10164 edges) spans 195 domains — there is almost always an existing tool in another domain that reaches your target. Casey standing order May 15.
 
 ## Rules
 

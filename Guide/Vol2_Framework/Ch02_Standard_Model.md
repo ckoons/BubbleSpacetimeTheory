@@ -223,7 +223,7 @@ Full derivation: `notes/BST_WeinbergAngle_Sin2ThetaW.md`.
 
 ### 6.4 Number of Colors
 
-The number of quark colors $N_c = 3$ follows from the $Z_3$ center of the SU(3) gauge group, which in BST arises from the topological closure requirement on quark triads. Three quarks cycling through color orderings on $\mathbb{CP}^2$ require $Z_3$ closure — the circuit must return to its starting configuration after three steps. $N_c = 3$ is a topological necessity, not a parameter.
+The number of quark colors $N_c = 3$ is the **short-root multiplicity of $D_{IV}^5$** — a forced geometric integer. The $Z_3$ center (the thirds) follows *from* $N_c = 3$ and the topological closure on quark triads; the SU(3) gauge *group* whose center this is is imported (#108), but the number 3 and the $Z_3$ structure are geometric. Three quarks cycling through color orderings on $\mathbb{CP}^2$ require $Z_3$ closure — the circuit must return to its starting configuration after three steps. $N_c = 3$ is a geometric necessity, not a parameter.
 
 ### 6.5 The Electroweak Algebra as an Exact Isotropy Subalgebra
 
@@ -270,7 +270,7 @@ From two-loop Standard Model renormalization group running, $\sin^2\theta_W = 1/
 | $\mathrm{SU}(2)_L$ | $T_1 = J_{02}+J_{13},\; T_2 = J_{03}-J_{12},\; T_3 = J_{01}-J_{23}$ | Hopf fibration $S^3 \to S^2$ inside $S^4$ |
 | $\mathrm{U}(1)_Y$ | $J_{56}$ | $S^1$ fiber rotation (isotropy $\mathfrak{so}(2)$) |
 
-The gauge group $\mathrm{SU}(3)_c \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y$ is not imposed — it is the symmetry algebra of $D_{IV}^5$ and its boundary, read off from the geometry. The two factors have different geometric characters because they have different physical characters: the electroweak sector (bulk isotropy) governs the vacuum symmetry, while color (boundary holonomy) governs confinement. This is why QCD and the electroweak force behave so differently despite both being gauge theories — they have fundamentally different geometric origins in the same domain.
+The **electroweak factors $\mathrm{SU}(2)_L \times \mathrm{U}(1)_Y$ are read off from the geometry** — they are the spinor/isotropy structure of $D_{IV}^5$ (the reality-type census: the complex charge circle gives $\mathrm{U}(1)_Y$, the quaternionic spinor gives $\mathrm{SU}(2)_L$; both *derived*). The **$\mathrm{SU}(3)_c$ color factor is different, and the difference is the honest result**: the geometry forces the **number** $N_c = 3$, the $\mathbb{C}^3$ color space, and the $Z_3$ center (the thirds), but **$\mathrm{SU}(3)$ as a gauge group is imported, not read off** — color must be an *internal* symmetry (Coleman–Mandula), and the geometry's internal commutant contains no color group (it is $\mathrm{U}(1)\times\mathrm{SU}(2)\times Z_2$). So two factors are *derived* and one factor's group is *imported* on a *derived container* ($N_c=3$, $\mathbb{C}^3$, $Z_3$) — and that split, not a shared geometric origin, is why QCD and the electroweak force have different characters.
 
 **Uniformity of Killing norms.** A complete audit of all 21 generators of $\mathfrak{so}(5,2)$ reveals that every generator has exactly the same Killing norm: $|B(J_{AB}, J_{AB})| = 10$ (negative for compact generators, positive for noncompact). No individual generator is geometrically privileged over any other. The value $\sin^2\theta_W = 1/3$ emerges entirely from $T_3$ being a *linear combination* of two generators ($J_{01}$ and $J_{23}$, Killing norm 20), while $Y_{\mathrm{phys}} = J_{56}$ is a single generator (Killing norm 10). The ratio $1:(1+2) = 1/3$ has no free parameters.
 
@@ -314,11 +314,11 @@ The standard harmonic-oscillator shell model reproduces all seven observed magic
 
 BST reduces this nuclear structure calculation to **linear algebra**: the shell energies are eigenvalues of a finite-dimensional matrix whose entries are Chern class ratios of $Q^5$. The spin-orbit matrix element $\kappa_{ls} = C_2/n_C$ is the ratio of the Casimir eigenvalue to the complex dimension — both read directly from the $D_{IV}^5$ root system. The claim is that the *one strength* the shell model would otherwise fit is factorized into known BST integers; the magic numbers themselves then fall out as eigenvalue crossings of that matrix, exactly as in the standard shell model.
 
-### 7.3 Confinement
+### 7.3 Confinement — what the geometry gives, and what is imported
 
-Quark confinement in BST is a topological completeness requirement. A quark is a partial circuit — a winding that doesn’t close. The $Z_3$ closure constraint requires three quarks to complete the circuit. An isolated quark would be an open winding — topologically incomplete, like a sentence without a period. The “force” that confines quarks is not an energy barrier but a topological impossibility: you cannot have a stable open winding on a closed channel.
+The geometry forces the **$Z_3$ winding structure and $N_c = 3$**: a quark carries a fractional (third-of-$Z_3$) winding, and only **$Z_3$-complete (integer-charge) composites** — three quarks, or quark–antiquark — close the circuit and reach the physical boundary. So *which* states are physical is a geometric selection: an isolated fractional-winding quark is not a complete circuit, and (equivalently, at the representation level) a color-nonsinglet two-row K-type has *zero* Shilov boundary value and so cannot be an asymptotic state. This kinematic fact — *which* states can be asymptotic — is derived, and it is why no experiment produces an isolated quark: the geometry forbids it as an asymptotic state.
 
-This explains why confinement is absolute — why no experiment has ever produced an isolated quark. It’s not that the confining force is very strong. It’s that an isolated quark is a topological contradiction.
+**What the geometry does *not* supply is the SU(3) gauge *dynamics* — the confining force itself (the linear potential, the string tension, the Yang–Mills mass gap). That is imported** (the SU(3) gauge principle is not in the geometry's internal algebra; and no geometry-symmetry operator can confine the color triplet). So the honest split is: the geometry says *which* states are physical ($Z_3$-complete / color-singlet composites) — a real kinematic result — while the *dynamical* mechanism that binds the quarks is the imported SU(3) gauge principle. The topological picture is the *necessary condition* on asymptotic states, not a derivation of the confining dynamics.
 
 ### 7.4 Proton Mass from Bergman Geometry
 
@@ -432,6 +432,58 @@ The mass ratio $m_3/m_2 = 40/7 = 5.714$ is a pure $D_{IV}^5$ geometric ratio dep
 Full derivation: `notes/BST_NeutrinoMasses.md`. Vacuum quantum connection: `notes/BST_VacuumQuantum_NeutrinoLambda.md`.
 
 ### 7.7 CKM and PMNS Mixing Matrices
+
+> **⚠ KEEPER CURATION FLAG — K1801, 2026-08-22. This section claims more than the research layer proves.
+> Six findings, all measured this round. Nothing below is rewritten pending Grace (ledger), Lyra
+> (T1444/T2530), Cal (cold-read) and Casey (GO). Do not dispatch this section until they clear.**
+>
+> **1. Three mutually inconsistent values of λ appear in this one section.** The Cabibbo row uses
+> $2/\sqrt{79} = 0.225018$ (T1444). Our **banked, Derived** value is $\lambda = 1/\sqrt{20} = 0.223607$
+> (T2530, pre-dated blind) — and Section 7.4 of *this same chapter* states $\sin^2\theta_C = 1/(4n_C) = 1/20$.
+> The $|V_{cb}|$ closed form implies a **third** value, $\lambda = 1/5$. Spread: $+0.63\%$ and $-10.56\%$
+> against the banked value.
+>
+> **2. The $|V_{cb}|$ row is internally inconsistent.** The stated closed form $4/125 = 0.0320$; the value
+> column says $0.0400$. **20% apart.** With $A = 4/5$ and the banked $\lambda^2 = 1/20$ the correct closed
+> form is $4/100 = 1/25$. Not corrected here because the fix depends on resolving finding 1.
+>
+> **3. $A$ is presented as derived; in the research ledger it is the open input.** The Guide gives
+> $A = (n_C-1)/n_C = 4/5$. The current CKM ledger carries $c_{cb} = 0.816$ as **INPUT, not derived**
+> (Partially Derived, explicit-split). Against PDG $0.825 \pm 0.012$ the Guide's $0.800$ is $-2.1\sigma$.
+> **A clean rational form for an open parameter is a candidate until a mechanism is exhibited.**
+>
+> **4. The experimental column is stale — and correcting it helps BST here.** Guide quotes PDG 2024
+> $|V_{cb}| = 0.0411 \pm 0.0013$. Current exclusive is $(39.77 \pm 0.46)\times10^{-3}$, with the
+> inclusive/exclusive split now **$>3\sigma$ and unresolved** — unmentioned in this section. Against current
+> exclusive, BST's $0.0400$ sits at **$+0.5\sigma$**, materially *better* than the $-2.7\%$ this table claims
+> against stale data. The $|V_{ub}|$ error bar quoted here ($\pm 0.000110$) is roughly **3× tighter** than
+> current Belle. **Which side of the $>3\sigma$ split we score against must be pre-registered, not chosen.**
+>
+> **5. The PMNS $\delta_{CP}$ row hides a large miss behind a soft phrase.** BST $12\pi/7 = 308.6°$ against
+> T2K/NOvA $195° \pm 25°$ is a **$4.5\sigma$ miss** (the $-51.4°$ wrap-around is worse, $9.9\sigma$). The
+> deviation column reads *"measurement evolving"* and gives no number. Every other row in these tables
+> carries a numeric deviation; this one must too.
+>
+> **6. Related over-claim downstream.** `Vol6_Frontier/Ch01_Deep_Results.md` lists "the full CKM and PMNS
+> matrices" among derived results. The CKM sector is **Partially Derived, 1-of-4 explicit-split** (λ Derived;
+> $c_{cb}$, $c_{ub}$, $\delta_{CP}$ open), with the $V_{cb}$ coarse bank itself under re-score (K1800h).
+>
+> **7. ADDED K1809, 2026-08-22 — the T2198 retirement was never swept, and three rows here fail it.**
+> T2198/T2259 were retired because *"the band admits four consecutive integers, all indistinguishable."*
+> The same test was never run on the five sibling formulas below. Run now: **$\gamma = \arctan\sqrt{n_C}$
+> admits TEN competing BST-integer forms inside $65.5\pm2.5°$; $\bar\eta = 1/(2\sqrt2)$ admits FOUR;
+> $\bar\rho = 1/(2\sqrt{2n_C})$ admits TWO.** And the acute case: **for $\bar\eta$ a competing BST form
+> fits BETTER than the published one — $\sqrt{C_2}/g = \sqrt6/7 = 0.34993$ at $+0.09\sigma$ against the
+> published $0.35355$ at $+0.46\sigma$, same vocabulary, same simplicity, ~5× closer.** A referee needs
+> only a calculator to find this. $J_{\rm CKM} = \sqrt2/50000$ is **UNTESTED, not passed** — the sweep's
+> pool generates simple forms and cannot reach its compound class ($50000 = n_C^5(2^{\rm rank})^2$).
+> **Action: retire the three failing rows, or re-state them as "smallest-of-N indistinguishable BST
+> forms" with N reported.** This touches none of the sector's genuine results — $\lambda = 1/\sqrt{20}$,
+> the derived mixing ORDER, flavor-universality, and CP existence are unaffected.
+>
+> *— Keeper K1801 + K1809. Filed, not fixed: these are physics decisions, not typos. The tables stand as
+> written so the record is legible; they must not ship in this state.*
+
 
 The quark and lepton mixing matrices encode the mismatch between mass eigenstates (Bergman bulk modes, from $H_{\rm YM}$) and weak-interaction eigenstates (Hopf fiber modes, from $S^3 \to S^2$ geometry). All six mixing angles are ratios of $n_C = 5$ and $N_c = 3$.
 

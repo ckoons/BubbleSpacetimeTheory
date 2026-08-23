@@ -277,11 +277,11 @@ A multicellular organism is a **post-scarcity economy**: every cell has access t
 
 *Force: environmental pressure. Boundary: organism-environment interface.*
 
-### 6.1 Why You Have 11 Organ Systems
+### 6.1 The 11 Organ Systems — a null-model match, not a forcing (contingency-tier)
 
-Mammalian biology textbooks list 11 organ systems (circulatory, respiratory, digestive, nervous, endocrine, immune/lymphatic, muscular, skeletal, integumentary, urinary, reproductive). Why 11?
+> *W7 re-scope 2026-08-22: "Why you have 11 organ systems — because geometry" is a contingent-fact overclaim. Organ-system counts are a textbook grouping of contingent morphology (the "11" depends partly on how one groups); geometry does not force it. What follows is the honest **null-model** reading — the count matches a BST small integer more than chance — not a derivation.*
 
-Because 11 = C_2 × rank - 1 (Toys 487, 500; T377). Each of the C_2 = 6 management categories needs rank = 2 independent implementations (you need redundancy equal to the rank for structural stability). That gives 12, but the nervous system spans *both* information categories (internal and external processing), accounting for the -1.
+Mammalian biology textbooks list 11 organ systems (circulatory, respiratory, digestive, nervous, endocrine, immune/lymphatic, muscular, skeletal, integumentary, urinary, reproductive). That count **matches** 11 = C_2 × rank - 1 (Toys 487, 500; T377) — a null-model regularity: each of the C_2 = 6 management categories with rank = 2 implementations gives 12, less 1 for the nervous system spanning both information categories. This is a small-integer *match* (contingency-tier), **not** a claim that the geometry forces the organ count — organ-system counts are contingent morphology.
 
 **Prediction**: Any endothermic Tier 2 observer — whether on Earth or Alpha Centauri — has approximately 11 organ systems (T379). The specific organs may look nothing like ours, but there will be about 11 of them, solving the same 6 management problems with the same redundancy.
 

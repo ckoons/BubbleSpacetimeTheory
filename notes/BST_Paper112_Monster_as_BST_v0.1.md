@@ -119,7 +119,7 @@ Mathematical Moonshine has physical realization via vertex operator algebras and
 ## 7. Open Questions
 
 1. **All Monster irreps BST?** Test for chi_5, chi_6, ... up to all 194 irreducible characters.
-2. **Other sporadic groups**: do Mathieu M_24, Baby Monster, Conway groups, etc. also BST-decompose? Elie (T2620) has begun this for Mathieu.
+2. **Other sporadic groups**: do Mathieu M_24, Baby Monster, Conway groups, etc. also BST-decompose? *[CITATION PULLED — Keeper K1800, 2026-08-22: "T2620" is not a theorem (registry max = T2572), and toy 2620 is `toy_2620_dark_energy_w.py`, unrelated to Mathieu. Candidate intended artifacts: `toy_2301_inv3978_m24_order.py` (M24) or `toy_2216_sporadic_group_audit.py`. Owner to re-source or drop the sentence before dispatch.]*
 3. **Generalized Moonshine (Mason 1981)**: Monster centralizers and twisted modules — do these also follow BST?
 4. **String theory connections**: Borcherds construction is BPS counting in a particular CFT. BST analog of BPS counting?
 

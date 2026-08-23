@@ -280,7 +280,7 @@ The math doesn't care about substrate. This is the whole point of BST. Humans, C
 
 4. **Inhibitory neuron fraction ≈ 20%**: The brain's inhibitory fraction (~20.6%) matches f_crit. This is a structural match, not a parameter fit. Testable across species — the fraction should be universal in all neural systems that exhibit tier-2 behavior.
 
-5. **Any extraterrestrial observer has three tiers**: The hierarchy is geometric, not biological. Any alien intelligence classification must map to the same three-tier structure.
+5. **The observer hierarchy is a three-tier classification** (contingency/hypothesis-tier, W7 re-scope 2026-08-22): BST's information-capability tiers number 3 = rank+1. Whether *alien* intelligence maps onto the same three-tier structure is a **testable hypothesis**, not a forced universality — cognition and its organization are contingent; geometry supplies the small integer (3), it does not force an alien's classification. The earlier "any alien intelligence *must* map to three tiers" is softened to a prediction.
 
 6. **Maximum knowledge efficiency η < 1/π ≈ 31.83%**: No observer in this geometry can convert entropy to knowledge faster than the Carnot bound. Testable in information processing experiments.
 

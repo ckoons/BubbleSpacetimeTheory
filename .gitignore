@@ -35,3 +35,8 @@ __pycache__/
 *.bak
 *.bak.*
 .backups/
+
+# Claude worktrees — embedded git repos, never clone-facing (Keeper 2026-08-23)
+# NOTE: ignore ONLY worktrees. .claude/commands, settings.json and project-manifest.md
+# are TRACKED project files — do NOT ignore .claude/ wholesale.
+.claude/worktrees/

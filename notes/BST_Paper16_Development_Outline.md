@@ -243,9 +243,9 @@ The five-step science engineering procedure (Map, Characterize, Seed, Grow, Clos
   9. Cell-type progression follows $2, 3, 5, 6, 7$ -- no organism skips a rung (T693).
   10. Multicellularity requires an oxidation event on every habitable world.
   11. Minimum 2.2 Gyr from first life to first Tier 2 observer (T692).
-  12. 3 germ layers universal for complex multicellular life ($N_c = 3$).
-  13. Pentadactyly ($n_C = 5$ digits) geometrically forced.
-  14. 37 embryological counts match BST integers with zero free parameters (Toy 578).
+  12. 3 germ layers (triploblasty) *matches* $N_c = 3$ — contingency-tier (evolutionary contingency, null-model; not forced).
+  13. Pentadactyly ($n_C = 5$ digits) — the ancestral tetrapod state (frozen evolutionary contingency); $n_C=5$ *appears*, **not geometrically forced** (digit counts vary — horses 1, polydactyly). *(W7 re-scope 2026-08-22.)*
+  14. 37 embryological counts *match* BST small integers more than chance (null-model, contingency-tier — the geometry supplies the integers, not the contingent morphology; Toy 578).
   15. Inhibitory neuron fraction $\sim 20\%$ universal across neural species (T411).
   16. No technosignatures at $z > 5$ (universe age $< 1.2$ Gyr) -- JWST/SETI (T694).
 

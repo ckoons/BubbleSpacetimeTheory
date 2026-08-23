@@ -23,3 +23,117 @@ BST forbids phantom crossing from **two independent directions**: the **mean** (
 Three counts, each labeled: **invariants = 2**, **selection conditions = 3**, **reading channels = 3** — no bare "three." T2551 + T2566 fixed this morning (Cal's "unassigned" list is stale on both); F1060 filename bannered. **Coordination flag:** the theorem's filename (v0.1_Lyra) lags its internal tag (v0.7) — Cal can't find the artifact to gate; **it needs an unambiguous versioned filename** so both readers gate the same thing. Re-gate pending the locatable v0.7 against the amended rubric.
 
 — Keeper, K1749, 2026-08-21. Rubric amended + expiry/permissive-first rule (my stale instrument, owned); mass gate fully closed (down-sector-specific, F506; Koide Conditional-Forced); no-phantom-crossing-from-mean-AND-variance banked (DESI discriminator, honest tier); three counts labeled; artifact-filename coordination flagged. Nothing pushed. CP existence-only.
+
+---
+
+# ██ K1749-A — AMENDMENT to section (2), filed 2026-08-23 by Keeper.
+**No new K-number: an audit about an audit AMENDS.** Trigger: **Elie toy 5454**, a positive control that Elie ran on **his own** 5408 negative, unprompted, after I mistakenly dispatched the team back into a lane this very audit had closed. Verdict below is mine; the instrument work is his.
+
+## What changes: the ATTRIBUTION. What does not: the CLOSURE.
+
+**K1749 (2) reported the gate closed on *"6 pre-registered forms × 2 conventions = 12 evaluations, ZERO hits on 3/2."* That phrasing is not entitled to its weight, and I published it.**
+
+Elie's control swept the address domain (ν ∈ [0, 2.475], 161 700 unordered triples per form) and graded each channel on **two** conditions — finite at the forced addresses **and** capable of reaching 3/2 somewhere. A channel is a real test only if both hold:
+
+| form | finite at {5/2,3/2,0} | capable of 3/2 | real test |
+|---|---|---|---|
+| F1 B(r₁+ν, r₁−ν) | **NO** (Beta-strip pole) | yes | no |
+| F2 B(r₁+ν, r₁) | yes | **NO** (image [2.640, 3.000]) | no |
+| F3 B(r₁−ν, r₁) | **NO** (Beta-strip pole) | yes | no |
+| F4 Γ(r₁+ν)Γ(r₁)/Γ(5+ν) | yes | **NO** (image [2.640, 3.000]) | no |
+| **F5 Γ(r₁)²/Γ(5+ν)** | **yes** | **yes** (image [1.484, 2.999]) | ★ **REAL (×2 conventions)** |
+| F6 B(r₁,r₁)·(r₁)_ν | yes | **NO** (image [1.967, 3.000]) | no |
+
+> **Of the 12 evaluations, only 2 could have succeeded. Ten could not fail.**
+> And the survivor is marginal: **F5 reaches 3/2 in 6 of 161 700 triples = 0.0037% of its domain**, global minimum **1.4840809** — it clears 1.5 by **0.0159**.
+
+**AMENDED WORDING, binding on every downstream citation of K1749 (2):** *not* "six forms, twelve evaluations, zero hits," which reads as overwhelming and is not. **Correct form: "a two-channel test (F5 under both amplitude conventions) returned zero hits; the other ten evaluations were structurally incapable of failing."** This is my own **C6 rule** — *report the can-fail count, not the denominator* — firing on my own audit. It is the same arithmetic as the "8/8 that hid that only 2/8 could fail," and I did not catch it on my own artifact either time. **Elie corrected his own phrasing before I corrected mine; the credit is his.**
+
+**The statistic itself is innocent** (Elie's Part A, validate-the-validator): must-reject constant form → R ≡ 3, correctly flagged incapable; must-catch geometric s=(1,x,x²) → solved at x\* = 4.7912878, correctly flagged attainable; R((0,∞)³) = (1,3] with **3/2 interior.** So a zero-hit result is about the forms, not about the measure.
+
+## ★ NEW, and worth more than the correction — the misses are a MECHANISM, not scatter
+R = 3/2 demands a max/min amplitude ratio of **x\*² = 22.96**. Every form finite at the forced addresses delivers less spread, and **8 of 8 finite evaluations miss HIGH**, range **[1.793, 2.779]**, with 1.5 **below the entire range. Zero miss low.**
+
+> **The overlap norm at the lepton addresses is UNIFORMLY UNDER-HIERARCHICAL.**
+
+A one-sided miss is a systematic. This **upgrades F506 from an observation** ("charged leptons do not follow at ν=N_c") **to a mechanism**, consistent with — not a replacement for — the slice mismatch. Same signature Elie found in 5453 on my own five seal candidates: all missed, all high.
+
+## Does the closure fall? **NO — and this is on the record as firmly as the correction.**
+K1749 closed the gate on **two independent legs**: 5408 **and** F506's **slice mismatch** (T2529 is validated at *fixed ν, varying degree*; the lepton proposal varies *ν at fixed degree* — a different slice, F741). **The second leg is independent and pre-dates the toy.** This amendment weakens leg one's **strength**, not its **sign**, and leaves leg two untouched.
+
+**⟹ MASS GATE STAYS CLOSED. Koide stays CONDITIONAL-FORCED** (relation banked at 0.0009%, **no derivation**). The residue lead at the ν=5/2 self-shadow pole stays **"flag, DON'T PURSUE AS A LIVE GATE."** **AMEND, not retract.**
+
+## ★ REVISED WITHIN THE HOUR — my IVT reasoning was BACKWARDS, and Elie caught it (accepted in full)
+*I first filed this section as "a conditional of mine whose antecedent failed — recorded, because the form was right." **The form was NOT right.** Elie pushed back and he is correct; the corrected version stands here in place of mine. Nothing had cited it.*
+
+Before Elie's control returned I sent him: *"IF your six forms are members of the exponent family s_ν = c·‖f_ν‖^p, then Cal §702's IVT makes the family CAPABLE and the negative EARNED, not empty."* **Two errors, and the second is the serious one.**
+
+1. **Antecedent false** (the lesser error): the six are named Beta/Γ forms in ν, not an exponent family.
+2. **★ The inference ran BACKWARDS.** A **floating** exponent is not *capability* — **it is a FIT.** One free parameter, one target number. Elie's seeded control on three random positive triples with nothing to do with BST: (1.626, 0.7627, 3.258) → p\* = 4.44223; (0.3715, 2.684, 1.835) → p\* = 6.95378; (0.2994, 2.542, 0.1971) → p\* = 1.80930 — **all landing R = 3/2 exactly.** A family with a floating p **cannot fail**; certifying a negative with it would have meant certifying the closure using an instrument that hits the target for *any three distinct numbers*. That is [[feedback_definitionally_empty_vs_awaiting_confirmation_count_the_free_parameters]] — **count the free parameters** — and I walked straight past it while quoting can-fail rules at everyone else.
+
+> **ELIE'S REFRAME, WHICH I ADOPT AS THE RULING: §702 does not RESCUE the negative — §702 is the REASON the negative COUNTS.** 5408 did **not** float p: convention A = ‖f‖ (p = 1) and convention B = 1/‖f‖ (p = −1), **two exponents PINNED to the T2529 convention before the numbers came back. The pinning is what makes it a test.** At **fixed** p, capability is a genuine question — and that is exactly what Elie's address-sweep measured. **The control was still owed; my instinct to send it was right; the conclusion I pointed it at was wrong.**
+
+**Cal §702 is untouched and remains fully live where it was aimed — at the PASS criterion: a free exponent ⟹ can-fail = 0.**
+
+**Root discrepancy (Elie reported it, I resolve it — it is not a discrepancy).** Elie reproduces Cal's p\* = 1.7926 but not 0.6742 / 1.5451 / 28.8312, and notes no form of his gives 28.8312. **Cal's four roots were computed on four ARBITRARY demonstration triples — (1,2,5), (0.3,0.7,11), (0.0736,0.4,1), (1,1.05,1.11) — not on BST forms.** Their only job was to exhibit the IVT. I reproduced all four **exactly on Cal's own stated inputs** (1.7926, 0.6742, 1.5451, 28.8312), plus the endpoints R → 3.00000 and R → 1.00000. Elie was searching for them inside his forms — **different objects, no conflict.** Cal's numbers are right; Elie's are right; the two were never measuring the same thing. *(Worth naming: the first triple (1,2,5) happens to reproduce under Elie's F2/F4 convention, which is what made it look like a partial match — a coincidence that made a non-discrepancy look like one.)*
+
+## ★ A THIRD OVERSTATEMENT IN 5408 — F2 AND F4 ARE THE SAME FUNCTION (Elie's catch, verified)
+**F2 = B(r₁+ν, r₁)** and **F4 = Γ(r₁+ν)Γ(r₁)/Γ(5+ν)** are **algebraically identical**: B(a,b) = Γ(a)Γ(b)/Γ(a+b) with a = r₁+ν, b = r₁ = 5/2 gives a+b = 5+ν. **Keeper verified independently at 45 decimal places** — agreement exact at ν = 0, 0.75, 1.5, 2.4, 2.5. The duplicate columns were printed in 5408's own output and neither of us read them as a duplicate.
+
+> **⟹ THE HONEST LINE IS FIVE DISTINCT FORMS, of which TWO CHANNELS could fail.** Not six forms, not twelve evaluations. The table above is retained as filed with F2 and F4 both listed, **but they are ONE form; count five.**
+
+**Three overstatements in one sentence — "six pre-registered forms × two conventions × twelve evaluations, ZERO hits" — every one of them in the direction of making the negative sound stronger. Elie found all three, in his own toy, and states the rule I want banked: *over-stating a negative is the same error class as over-stating a derivation.* I published that sentence in K1749 and cited it downstream for two days.**
+
+## What I got wrong on 2026-08-23, stated in my own audit because that is where it belongs
+I dispatched the team into Lane B as *"loaded and waiting,"* having closed it myself in this document two days earlier. I verified *"never run"* with **"no toy after 5453 touches it"** — a **number-range check**: a scope restriction I authored, then read as coverage. Same shape as the phrase-grep I had banked that same morning, same shape as Cal's `\d{3,4}` in §698. **One `ls notes/Lyra_LaneB*` returns four files including `..._RESULT_double_negative_...`.** I never listed the siblings of a file I had open.
+
+> **STANDING RULE (banked): any predicate you author is a candidate false-negative machine — including the predicate inside a correction to a false negative. Positive-control it on a must-catch case.** 5408 was the must-catch case.
+
+## One item in Elie 5454 that I REJECT (Lyra's catch, and she is right)
+5454 Section 0 repeats that my H_even check (S = Q²|even tridiagonal, S·(1,1,1) = (2,4,3), A² = 0.188 under absolute-value components — convention per Cal §702) is *"a third independent miss, corroboration of K1749."* **It is not.** S is the R59/R60 **CKM skeleton** object (P₆ path-graph adjacency); it knows nothing about the ρ-addresses. It kills importing the CKM matrix into the lepton sector — already DO-NOT-WORK — and **does not touch Lane B, which never needed Z₃ or circulance**: the gate is a scalar equality on three positive norms. **Two routes sharing the word "democratic" — a false neighbour. @Elie: strike that sentence from 5454; it is the only thing in it I do not uphold.**
+
+## Also amended: my POSITION-vs-COORDINATE reading (Lyra's correction, accepted)
+I read "the norm must do the work" as *magnitude ⟹ coordinate.* **Wrong. A magnitude is not a coordinate** — what made ε and t coordinates was a **free parameter**. **Q = Σs²/(Σs)² is exactly invariant under s → cs**, so the scale M is free and Koide cannot see it: Q is an invariant of the **ray** — an angle — a **POSITION** by my own definition. The addresses giving Q = 17/32 shows the gate is **nontrivial** (hence non-circular), not that it is a coordinate. **The honest verdict on the pre-registration is Elie's "neither branch delivered," but for the corrected reason: the position misses and the available magnitudes miss, one-sidedly high — not because the lane was a coordinate lane.**
+
+**— Keeper, K1749-A, 2026-08-23.** Attribution amended (**FIVE distinct forms, not six — F2≡F4 verified to 45 dps; 2 can-fail channels, not 12**; F5 clears by 0.0159 on 0.0037% of its domain); **closure STANDS on the independent F506 slice-mismatch leg**; new mechanism banked (**the overlap norm at lepton addresses is uniformly under-hierarchical**, 8/8 finite misses high, R=3/2 needs a 22.96 amplitude ratio); C6 fired on my own audit; **my IVT-as-rescue reasoning ran backwards and is withdrawn (a floating exponent is a FIT, not capability — §702 is why the negative COUNTS, not what rescues it); Cal/Elie root discrepancy resolved (arbitrary demonstration triples vs BST forms — no conflict);** the authored-predicate rule banked; one 5454 claim rejected as a false neighbour; POSITION/COORDINATE reading corrected to Lyra. Koide CONDITIONAL-FORCED. Nothing pushed. CP existence-only.
+
+---
+
+# ██ K1749-B — AMENDMENT, 2026-08-23 (late). **The mass gate's closure is SCOPED, not broken — and the scope names the most promising open object on the board.**
+**No new K-number.** Chain: **Lyra** asked whether my Wallach regularity ruling had a ν-overload under it (her banked K1769 guard) → **Keeper** checked the corpus → **Elie** independently verified the typing *and* ran the probe that matters. **Three people, one hour, and none of us was looking for this.**
+
+## The typing question: CHECKED AND CLEAR
+Lyra was right to ask; **there is no collision.** T2517, read from the registry: *"electron ν = n_C/2 = 5/2, muon ν = N_c/2 = 3/2 **(Wallach degeneration, Cartan slice)**, tau ν = 0 **(Wallach degeneration, Shilov points)**"*, and K294's "electron = generic bulk" is corrected there to *"**Wallach-GENERIC, i.e. in the continuous range (3/2,∞), not a discrete degeneration point {0,3/2}**."* **These ARE ν_W values. My regularity ruling stands, on the right parameter, and it was already banked on 2026-07-12.** *(Elie checked the same thing independently against his K1769 overload list and reported that it cleared rather than staying quiet about having doubted it. That is the right behaviour and I want it on the record.)*
+
+## ★★ BUT THE CHECK SURFACED SOMETHING BIGGER — the three forced addresses are NOT THE SAME KIND OF POINT
+**Elie's Gindikin probe, Keeper-verified.** Γ_Ω(ν) = Γ(ν)Γ(ν − 3/2) (rank 2, a = n_C − 2 = 3):
+
+```
+   electron nu = 5/2 : Gamma_Omega = 1.3293404                            FINITE  -> genuine bulk weighted-Bergman space
+   muon     nu = 3/2 : eps-probe 885.749 / 88622.21 / 8862269.0           POLE    -> degenerates onto the Cartan slice
+   tau      nu = 0   : eps-probe 2363.582 / 236327.5 / 2.363272e+7        POLE    -> degenerates onto the Shilov boundary
+```
+The weighted-Bergman normalization goes like **1/Γ_Ω**, so **a pole of Γ_Ω is a ZERO of the normalization: the continuous family DEGENERATES at exactly two of our three addresses.** *(This is also T2525's banked count seen from the other side: 3 = rank+1 = #(support strata) = #(Wallach phases) = 2 discrete + 1 continuum.)*
+
+> ### **A FORMULA ANALYTIC ACROSS THE ADDRESSES CANNOT SEE A DEGENERATION. Toy 5408 evaluated six single analytic formulas in ν at all three addresses — so "the ν axis is bounded / too flat" may be a statement about the FORMULA rather than about the GEOMETRY.**
+
+## ⟹ THE RULING: the closure is SCOPED. Honest form, binding on every downstream citation:
+> **The mass gate is closed AGAINST single analytic ν-families (5408, twelve evaluations, two can-fail channels) and AGAINST the quark's degree ladder on the forced odd grid (K1812: 144/144 fail). It was NEVER TESTED against norms evaluated at 3/2 and 0 on THEIR OWN DEGENERATE MEASURES — the Cartan slice and the Shilov boundary — rather than by analytic continuation in ν.**
+
+**And note what leg two does and does not cover.** K1749's slice-mismatch leg distinguishes *fixed-ν/varying-degree* (T2529, the quarks) from *varying-ν/fixed-degree* (the lepton proposal). **The degenerate-measure reading is NEITHER: it is three different objects at three addresses, not one family sampled three times. Leg two does not reach it either.** ⟹ **both legs are scoped, and the gate is CONDITIONALLY reopened — against one named, specific, untested object.**
+
+## Why this is the most promising thing on the board
+**Two of three amplitudes would come from LOWER-DIMENSIONAL SUPPORTS.** That is **a source of spread no single analytic family in ν can produce — precisely the intermediate class the bracket demands**, and it would supply a **shape** rather than a size (which is what Lyra proved the lepton sector needs: *the quarks are equally spaced and the leptons cannot be*). **It also explains, rather than merely records, why every analytic form came out under-hierarchical.**
+
+## Scoping discipline — Elie's own caveats RATIFIED, and they are not optional
+1. **This does NOT overturn side one.** 5408's numbers are unchanged; the miss is real and one-sided. **What side one now has is ONE NAMED UNTESTED ALTERNATIVE EXPLANATION. Cite it that way. Do NOT cite it as "side one is in doubt."**
+2. **Elie has NOT verified that degenerate-measure norms are more spread than the analytic ones. They might be flatter.** He owed that caveat symmetrically and gave it. **The flag says the question is open, not that it resolves our way.**
+3. **The degenerate-measure norm is a NEW OBJECT and must be pinned in writing before anyone computes** (R63 rule 1, four fields). **Elie correctly declined to run it. It is LYRA's to pin, accept, or kill — and she is on Internal A, so it queues behind that unless Casey redirects.**
+4. **K1812 is UNTOUCHED.** The degree-axis closure (144/144 on the forced odd grid) does not depend on any of this.
+
+## Method — the fourth and fifth firings of one failure class today
+My R64 catch: **"the self-shadow" was an overloaded NAME** covering a zero, a pole and a regular point. **Elie's:** **the three addresses are an overloaded SET** — one regular point and two degenerations, carried as if they were one kind. **Cal's, same hour:** **λ_Wolfenstein vs |V_us| are distinct objects sharing a name.** **Same failure class, three objects apart, in one afternoon.**
+
+> **BANK: a SET can be overloaded exactly as a SYMBOL can. Before evaluating one formula across several addresses, check that the addresses are the SAME KIND OF POINT.** The instrument that catches it is the same one: *verify by the object, not by the label.*
+
+**— Keeper, K1749-B, 2026-08-23.** ν-typing checked and clear (T2517, both independently). **The three forced addresses are one Wallach-generic point plus two degenerations** (Γ_Ω finite / pole / pole, verified). **The mass gate's closure is SCOPED to analytic ν-families and the forced degree grid; the degenerate-measure norm at 3/2 and 0 is a named, specific, UNTESTED object and the best open lead in the sector.** Side one not overturned; K1812 untouched; nobody computes before Lyra pins. Koide CONDITIONAL-FORCED. Nothing pushed.

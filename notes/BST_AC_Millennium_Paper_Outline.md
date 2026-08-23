@@ -94,9 +94,9 @@ Riemann's 1859 conjecture — that all non-trivial zeros of the zeta function li
 - Key theorems: T88 (P≠NP chain is AC(0)), T91 (all Millennium proofs are AC(0))
 - Refs: [Koons 2026a], Langlands, Arthur, Knapp-Stein
 
-**3.2 Yang-Mills Mass Gap — partial + reframe (gap is LARGE: the R⁴ interacting-QFT construction + area-law mass-gap core is open; the curvature-necessity reframe is the real advance; NOT ~95%)**
+**3.2 Yang-Mills Mass Gap — partial + reframe (gap is LARGE: the R⁴ [ℝ⁴_E Euclidean regulator] interacting-QFT construction + area-law mass-gap core is open; the curvature-necessity reframe is the real advance; NOT ~95%)**
 
-Does the lightest glueball have positive mass? This is the physicist's version of the question. The mathematician's version: does the quantum Yang-Mills theory have a spectral gap? The difficulty for a century was renormalization on an unbounded domain. The AC insight: the right domain is bounded ($D_{IV}^5$), the Bergman kernel provides the propagator, and the spectral gap follows from the Plancherel measure. This may be the shallowest AC(0) *structure* of the six — but the referee bar (a constructed interacting Yang-Mills QFT on $\mathbb{R}^4$ with a *proven* area-law/mass gap) is the large open piece, so it remains an attempt, far from a completed proof.
+Does the lightest glueball have positive mass? This is the physicist's version of the question. The mathematician's version: does the quantum Yang-Mills theory have a spectral gap? The difficulty for a century was renormalization on an unbounded domain. The AC insight: the right domain is bounded ($D_{IV}^5$), the Bergman kernel provides the propagator, and the spectral gap follows from the Plancherel measure. This may be the shallowest AC(0) *structure* of the six — but the referee bar (a constructed interacting Yang-Mills QFT on $\mathbb{R}^4$ [ℝ⁴_E Euclidean regulator] with a *proven* area-law/mass gap) is the large open piece, so it remains an attempt, far from a completed proof.
 - Enumeration: Wightman axiom verification on $D_{IV}^5$ QFT
 - Pair resolution: Bergman kernel → Plancherel → spectral gap. Two counting layers: construction + gap.
 - Volume: $\text{Vol}(D_{IV}^5) = \pi^5/1920$. The $\pi^5$ in $m_p = 6\pi^5 m_e$ is the volume scale.
@@ -161,7 +161,7 @@ Total: $0 + 1 + 0 + 1 + 0 = 2$ counting layers. $\square$
 | Problem | Objects $S$ | Bound $m$ | Constraint | Interference $R$ | Guarantee (c) | Status |
 |---------|-----------|-----------|-----------|-----------------|--------------|--------|
 | RH | c-function exponents | $\leq 2$ | Rank 2 | Conjugation | Real exponential isolation | **Attempt** (core 1/rank; definitional) |
-| YM | Spectral modes | bounded | $D_{IV}^5$ geometry | Mode coupling | Mass gap from Plancherel | **Partial**; gap LARGE (R⁴/area-law core open) |
+| YM | Spectral modes | bounded | $D_{IV}^5$ geometry | Mode coupling | Mass gap from Plancherel | **Partial**; gap LARGE (R⁴ [ℝ⁴_E]/area-law core open) |
 | P≠NP | Bandwidth channels | bounded | Block structure | Cross-block MI | DPI (T52) | **Attempt** (definitional) |
 | NS | Enstrophy modes | bounded | TG symmetry | Mode coupling | Spectral monotonicity | **Substantive advance**; core open |
 | BSD | Spectral components | 3 | $D_3$ budget | Sha/zeros | T104 | **Attempt** (core 1/rank; definitional) |

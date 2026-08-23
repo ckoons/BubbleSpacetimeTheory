@@ -1,3 +1,5 @@
+> **⚠ CORRECTED IN PART by K1785 (Round 45, 2026-08-22), Keeper owns:** the "**drop Γ**" resolution in Section 1 was OVER-BROAD. W1 = H² stands (W4 doesn't need Γ). But "Γ was never needed" applied globally strands the **QED arithmetic lane** — T1448/T1450/T1451 derive the a_e loop coefficients via the **Selberg trace formula on Γ(137)\D_IV⁵** (closed geodesics → ζ(3)), which don't exist on bare D_IV⁵. **Γ is DEMOTED to a declared arithmetic-lane regulator, NOT dropped.** Read "drop Γ" here as "Γ is not W1's Hilbert space" only. (Cal §683's claim-shape sweep caught what the term-grep missed.)
+
 # K1781 — ROUND 42 RULING
 
 **Filed:** 2026-08-21

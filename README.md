@@ -274,7 +274,7 @@ All of the following emerge from D(IV,5) geometry with zero fitted parameters:
 | f_bound/f_fund | p = Bergman genus g = 7 (= C₂+1; Coxeter number h=6=C₂) | 4 | — | derived |
 | DOF = genus | n_C + 2 = 7 | 7 | — | universal |
 | m_s/m̂ (strange ratio) | d₂(Q⁵) = 27 (2nd eigenspace multiplicity) | 27 | 27.3 ± 2.5 | **1.1%** |
-| G hierarchy exponent | 4λ₁ = 4×6 = 24 = dim SU(5) = 4! | α²⁴ | α²⁴ | exact |
+| G hierarchy exponent | 4λ₁ = 4×6 = 24 = n_C²−1 = 4! | α²⁴ | α²⁴ | exact |
 | Λ hierarchy exponent | 4λ₂ = 4×14 = 56 | α⁵⁶ | α⁵⁶ | exact |
 | so(7)₂ rep count | Integrable representations at level 2 | 7 = g | 7 (Verlinde) | exact |
 | so(7)₂ total dim | Sum of classical dimensions of 7 reps | 147 = N_c×g² | 147 | exact |

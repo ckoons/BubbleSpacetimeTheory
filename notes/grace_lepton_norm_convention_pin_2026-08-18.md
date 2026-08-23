@@ -42,13 +42,36 @@ The one number that opens the mass tower is the **weight** the FK norm carries. 
 
 | sector | color | lives in | **weight** | primary signature |
 |---|---|---|---|---|
-| **leptons** | singlet (T2527) | full **scalar** Bergman space H²(D_IV⁵) | **genus p = n_C = 5** | Γ(n_C)=Γ(5)=**24** (muon's (24/π²)⁶); electron anchor ‖f₀‖²=Γ(5/2)²/Γ(5)=**3π/128** EXACT |
+| **leptons** | singlet (T2527) | ⚠ **CORRECTED 2026-08-23 — was "full scalar Bergman space H²(D_IV⁵)"; that is H²_{λ=0} and a lepton cannot live there.** See the correction block at the foot of this file. | **genus p = n_C = 5** | Γ(n_C)=Γ(5)=**24** (muon's (24/π²)⁶); electron anchor ‖f₀‖²=Γ(5/2)²/Γ(5)=**3π/128** EXACT |
 | **quarks** | triplet (T2521) | **V₁₂⊗ℂ = ℂ³** color bundle | **Wallach thresh. ν = N_c = 3** | (N_c)_k ladder (3)₁:(3)₃:(3)₅ = **1:20:840** (d:s:b, T2513) |
 
 **Why the fork is forced (pull, not fit):**
-- **Color singlet ⟹ scalar section** of the trivial color bundle = an ordinary holomorphic function on D_IV⁵ ⟹ its norm is the full Bergman norm at the **genus weight p = n_C = 5** (Hua). A lepton is not moduli-free.
+- ⚠ **STEP BROKEN 2026-08-23.** ~~Color singlet ⟹ scalar section of the trivial color bundle = an ordinary holomorphic function on D_IV⁵ ⟹ its norm is the full Bergman norm at the genus weight p = n_C = 5 (Hua).~~ **The inference conflates two senses of "scalar": trivial in the COLOR factor, and trivial as a K-type. Color-singlet forces the first and says NOTHING about the second.** A lepton is a color singlet **and a spinor**; it lives in **H²_{λ=Δ}**, not H²_{λ=0}. *(H²_{λ=0} carries only K-types (k_harm, 0) — integer, one nonzero row — so it contains no spinor at all.)*
 - **Color triplet ⟹ section of the V₁₂ color bundle** ⟹ confined → interior lowest rung = the FK **Wallach/TIR threshold ν = N_c = a = 3** (T2513, the FK object's forced singular point).
 
-**This resolves T2513's open gate (b)** ("colorless leptons unforced → moduli"): leptons carry the genus-5 weight, forced by Hua's genus + the color-singlet ⟹ scalar-section structure — not a chosen modulus.
+⚠ **THIS RESOLUTION IS WITHDRAWN AS STATED.** It rested on the broken step above. **T2513's gate (b) is OPEN again** unless the genus-5 weight is re-derived for the spinor bundle. **The NUMBER is not retired — only its reason is.** *(Standing rule: when the reason is wrong, do not assume the number is wrong too; re-derive before replacing.)*
 
 **⟹ Elie's muon run (one short computation):** genus-**5** (n_C) Bergman weight, on the Kostant-Dirac image **(3/2,½)** (off the ν=3/2 edge), partition coordinates, read m_μ/m_e (target (24/π²)⁶ = Γ(5)-driven; falsifier has teeth — m_μ/m_e is a known number).
+
+
+---
+
+## ⚠ CORRECTION BLOCK — 2026-08-23 (Grace, own file, own error)
+
+**Flagged in R72's by-the-object sweep as a real λ-crossing, and it is mine.**
+
+### The error
+Line 45 placed leptons in the *"full **scalar** Bergman space H²(D_IV⁵)"*. **"Scalar" was doing two jobs in one word:** *trivial in the color factor* (which color-singlet does force) and *trivial as a K-type* (which it does not). **H²_{λ=0} carries only K-types (k_harm, 0) — integer, one nonzero row — and therefore contains no spinor.** A lepton is a color singlet **and a spinor**, so it lives in **H²_{λ=Δ}**.
+
+### ★ And this file already knew — it contradicted itself on 08-18
+Its own last line sends Elie's muon run to *"the Kostant–Dirac image **(3/2, ½)**."*
+
+> **(3/2, 1/2) is a SPINOR K-type** — second row 1/2, half-integer in both rows. It is exactly Δ ⊗ V_(1,0) = V_(3/2,1/2) ⊕ V_(1/2,1/2) from the R71 decomposition.
+> **So the computation was always in the spinor bundle and only the prose said scalar.** The crossing sat inside one file, five lines apart, for five days, and I wrote both lines.
+
+### What survives, and what does not
+- **SURVIVES:** color singlet ⟹ trivial *color* bundle · the quark row (triplet ⟹ V₁₂ bundle, Wallach threshold ν_strat = N_c = 3) is untouched — it never claimed scalarity · the computational target **(3/2, ½)**, which is now *confirmed* as the right kind of object rather than accidental.
+- **DOES NOT:** the inference from color-singlet to *ordinary holomorphic function* · the T2513 gate (b) resolution as stated.
+- **NOT RETIRED:** the genus **p = n_C = 5** weight and Γ(5) = 24. **Their justification is broken; the values are untested either way.** Re-deriving the weight for **H²_{λ=Δ}** is the open item — the SO(2) weight of the bundle shifts the measure weight, and I have not computed which way.
+
+*Correction filed by the author. — Grace, R72*

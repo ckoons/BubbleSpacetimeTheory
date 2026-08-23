@@ -1,5 +1,7 @@
 # W1 audit — the physics verdict: ONE physical Hilbert space (H²), A² its bulk companion, L²(Γ\G/K) a construction scaffold
 
+> **⚠ SCOPED CORRECTION 2026-08-22 (Round 46; Cal, owned by Lyra).** This verdict — H² is the physical QFT Hilbert space; L²(Γ\G/K) is not — **stands**. But the "Γ-free redo" recommendation is scoped to the **QFT / W4 lane only**: **Γ is RETAINED as the ARITHMETIC-lane regulator** (a_e/0.026% via the Selberg trace formula over Γ(137)\D_IV⁵, closed geodesics = ζ(3)). H² for the QFT lane, Γ\D_IV⁵ for the arithmetic lane — both legitimate. "Γ scaffold / Γ-free" below = QFT-lane scope.
+
 **Round 40, pre-dispatch-blocking. Cal runs the collision sweep (where the three are conflated); this is the physics side — which space is the physical one, and are the cross-uses legitimate.** W1 is stated three ways across load-bearing documents: L²(Γ\G/K) (W4:20/60), A²(D_IV⁵) (T1271:39, "Bergman reproducing property"), H²(D_IV⁵) (F1056/A3/QM). Reconnected: F1016 (Hardy = holomorphic extension of L²(∂_S); reproducing property IS the two-point→one-point collapse), Casey-Principle-16:206 (Hardy bridges K-side and G-side), EHW/Vergne–Rossi (holomorphic discrete series). This is clarifying, not catastrophic — but it is in the foundation.
 
 ## The decisive physics lever: the physical space must carry the G-action (W2)

@@ -9,7 +9,7 @@
 ## What the foundation-cleared result IS (G3, established — dispatchable at this tier)
 
 On the physical Hilbert space **H²(D_IV⁵)** (the holomorphic discrete series of SO₀(5,2), Šilov boundary values = observables), the Wightman/OS axiom scaffold is established:
-- **W1 (Hilbert space):** H², separable, G=SO₀(5,2) genuinely acts (the Round-41 sector fix; Γ dropped, unneeded).
+- **W1 (Hilbert space):** H², separable, G=SO₀(5,2) genuinely acts (the Round-41 sector fix; Γ dropped *from the QFT lane*, unneeded there — but **Γ is retained as the arithmetic-lane regulator**: a_e/0.026% on the Selberg trace formula over Γ(137)\D_IV⁵, ζ(3) geodesics; Cal R46, owned).
 - **W2 (covariance):** Poincaré ⊂ SO(4,2) ⊂ SO(5,2) acts (the G-action is now genuine).
 - **W3 (positive energy / gap):** the holomorphic discrete series is a lowest-weight (positive-energy) module; the domain is bounded ⟹ spectrum discrete and bounded below ⟹ a gap exists (the Casimir gap C₂=6 on the domain operator).
 - **W4 (locality):** the modular-localization construction (Tomita–Takesaki + Bisognano–Wichmann) runs verbatim on H² — the Round-42 result. Wedge algebras, wedge duality, and spacelike-commutativity established, G acting.
