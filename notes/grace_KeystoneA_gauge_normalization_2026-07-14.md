@@ -1,5 +1,17 @@
 # Grace — KEYSTONE A: the U(1) gauge kinetic normalization — favored unity via the topological winding-count (one rigorous step left)
 
+> ## ⚠⚠ THE OPEN STEP IS CLOSED — NEGATIVELY (2026-08-24, K1826; F800-pattern mark so both diseases stay apart)
+> **This file's one remaining rigorous step — "the explicit KK coefficient of F² over the fiber; needs the explicit fiber metric" — was COMPUTED on 2026-08-24 (Elie toy 5496, one-shot under PREREG v2, Cal-certified K1826). THE ANSWER REFUTES UNITY: the coefficient is 8π³/3 — the Hua volume of the Lie sphere — not 1, and not anything that lands 137.** The pre-registered clean-negative branch fired; the must-reject control fired as designed in the same run.
+> **⟹ DO NOT RESURRECT THE PRIZE LIST BELOW.** This file's α/λ_H/V_us prize framing rode on the unity of exactly this coefficient. **Both legs of the winding-count story of 1/α are now dead** — the winding leg by the K1687 re-homing (marks above, same day), the unity leg by the integral itself. **What survives is adjudicated in K1826 §3: λ_H and V_us stand on their INDEPENDENT banks; the never-banked prize list dies with the unity assumption.** The (1/4α)F² FORM remains banked structure; its coefficient is now a computed number with a geometric name, which is worth more than the prize was.
+
+
+> ## ⚠ CURRENCY PASS — 2026-08-24 (Grace, R95; the K1687 re-homing, applied to my own July file)
+> **This file predates K1687 (2026-08-18), which I wrote, and which falsified this file's charge label: electric charge Q does NOT live on the K-center SO(2)** — that circle carries time's J, γ⁵, and the double cover; Q is sign-indefinite and lives on the **electroweak Cartan in SO(5)** (Q = T₃ + Y/2), with the ⅓ values from the ℤ_{N_c} triple-cover (T2521). **Every "charge = SO(2)-weight" below is marked. Per-leg verdicts after re-homing:**
+> - **SURVIVES — the QUANTIZATION legs** (channel count; "no continuous knob"; the no-free-4π argument): Q's spectrum stays discrete under the correct home (Cartan discreteness + T2521), so every step that used only *"charge is quantized"* stands. ⚠ **One caveat routed to the α-lane freeze: the quantum is now 1/3 (integers for color singlets) — any count that assumed unit 1 must state why singlets are the counted channels.**
+> - **DOES NOT SURVIVE AS STATED — the WINDING legs** (winding ↔ charge; "flux π₁ = ℤ … SOLID"; the S¹-winding norm democratic weighing): these lived on the **wrong circle**. On the correct home, U(1)_em ⊂ SO(5) and **π₁(SO(5)) = ℤ₂ ≠ ℤ** — the flux-quantization argument changes materially and needs a rebuild on the embedded circle. The "SOLID" tag at L55 is struck.
+> - **THE FORM (1/4α)F² SURVIVES** on the KK-coefficient leg (independent of the charge home). **The winding-count rebuild of the retired-Wyler justification is the damaged leg** — the form keeps one leg, not two, and the file now says so.
+
+
 *2026-07-14 Tuesday. Keeper KEYSTONE A: compute the substrate-Maxwell U(1) gauge kinetic-term normalization on the
 Shilov boundary (KK-type g² ∝ 1/count) and show it comes out UNITY. BST_Maxwell.md has the action but justifies 1/α
 by the RETIRED Wyler volume ratio → must re-derive. It's a FALSIFIER: if ≠ unity, α + λ=1/8 + V_us all lose support.
@@ -12,7 +24,7 @@ slot." Asserted, and justified by the retired Wyler ratio. Re-derive by splittin
 
 **FACTOR 1 — the COUNT (how many gauge channel-slots?): SOLID = 137, topological.**
 The gauge field IS a U(1) connection; its flux is **topologically quantized** — π₁(U(1)) = ℤ, integer windings (the
-SAME structure BST_Maxwell already uses for "no monopoles"). Charge = SO(2)-weight = integer (T2470). So the channels
+SAME structure BST_Maxwell already uses for "no monopoles"). Charge = ~~SO(2)-weight~~ **[K1687: re-homed to the SO(5) EW Cartan; quantized via T2521, unit 1/3]** (T2470-corrected). So the channels
 are counted by **integer winding, norm-independently** → COUNT = 137 = the capacity (F525). No Bergman norm enters the
 count.
 
@@ -52,7 +64,7 @@ And the **0.036** stays the separate T2133 curvature piece — it is where the l
   located the one rigorous step; I did not force the coefficient and did not bank α. No graph bank; SOD current (T2517).
 
 — Grace, 2026-07-14. KEYSTONE A: 1/α = (count) × (action-per-slot). The count = 137 is topological (quantized U(1)
-flux π₁=ℤ + T2470 charge=SO(2)-weight, norm-independent — SOLID). The action-per-slot = 1 is favored (topological
+flux ~~π₁=ℤ + T2470 charge=SO(2)-weight~~ **[K1687: wrong circle; on U(1)_em ⊂ SO(5), π₁(SO(5)) = ℤ₂ — REBUILD NEEDED; "SOLID" struck]**). The action-per-slot = 1 is favored (topological
 quantization; the 35× matter-norm spread doesn't touch the quantized gauge flux). ⟹ α = 1/137 FAVORED unity,
 replacing the retired-Wyler justification. The single remaining step is the explicit KK coefficient (exactly (1/4)·137,
 no stray factor) — a falsifier I do NOT force. Prize if unity: α + λ=1/8 + V_us for one law. α stays IDENTIFIED.
@@ -95,7 +107,7 @@ Take each candidate factor and check whether it survives:
   field lives on the S¹ FIBER (Haar), not the c_FK-weighted matter measure. So c_FK is the **0.036's** constant, not
   the gauge coupling's; it does not multiply 137. (This is the fiber/base split established earlier today.)
 - **4π (the α↔g² convention) — NOT a free factor; fixed by the integer-charge normalization.** Standard QED's
-  α = e²/4π carries a 4π from the charge normalization. In BST the charge = the SO(2)-weight = an INTEGER (T2470),
+  α = e²/4π carries a 4π from the charge normalization. In BST the charge is ~~the SO(2)-weight~~ **[K1687: the SO(5) EW-Cartan value]** — QUANTIZED (unit 1/3; integer for singlets) (T2470-corrected),
   with no free rescaling ("a ratio of dimensions has no free normalization", Keeper K680). BST_Maxwell's convention
   (∇·E = α·ρ_winding, coefficient 1/α) is the integer-charge one ⟹ 1/α = count, no free 4π to insert.
 

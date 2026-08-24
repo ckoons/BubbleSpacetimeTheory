@@ -1,4 +1,6 @@
 # WHAT WE WORK ON NEXT — corpus-verified before proposing. Keeper, 2026-08-23 EOD.
+
+> **[SUBSCRIPT PIN — R82 board-wide sweep, Grace 2026-08-24. In this file, bare `c` = c_chir — F638's coordinate = w₀ = the SO(2) charge of the spinor-λ lowest K-type. It is NOT c_conv, the E₀↔w₀ normalization offset pinned at 3/2 the same morning. Same letter, different objects; adding 3/2 to a fermion charge shifts every chamber verdict.]**
 **Casey's instruction: show the work item, dive the corpus first, make sure it is not already there.**
 **Result: the corpus has a BETTER-FRAMED version of today's question, theorem-backed, with a decisive
 SM output — and it has been sitting at CANDIDATE since 2026-07-22.**

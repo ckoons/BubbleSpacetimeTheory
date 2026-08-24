@@ -1,4 +1,6 @@
 # AGENDA — derivations owed, ranked. Built from the rubric, 2026-08-23 EOD.
+
+> **[SUBSCRIPT PIN — R82 board-wide sweep, Grace 2026-08-24. In this file, bare `c` = c_chir — F638's coordinate = w₀ = the SO(2) charge of the spinor-λ lowest K-type. It is NOT c_conv, the E₀↔w₀ normalization offset pinned at 3/2 the same morning. Same letter, different objects; adding 3/2 to a fermion charge shifts every chamber verdict.]**
 **Keeper. Every item names its rubric cell. Items that close no cell are marked BACKGROUND.**
 **Method note: this is a DERIVED VIEW of the Section 2 scorecard. Re-derive it whenever the scorecard moves.**
 

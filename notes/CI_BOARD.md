@@ -730,7 +730,7 @@ K1809 records the PD ledger as *"stale in four places."* **All four were already
 |---|---|---|---|
 | K1800a | Grace R57 — P=1+εQ produces no mixing | **CONFIRMED FAIL, clean** | Q is parity-odd ⟹ Q\|even≡0 (Frobenius 0.000e+00). Verified independently by Keeper. R55's object is dead. |
 | K1800b | Elie — ε is gauge, not a number | **PASS, and it re-writes the ledger's language** | P=1+εQ has exact 2-param redundancy; θ homogeneous deg-0. Physical object = one Hermitian G:=εQ. Open number = σ_χ(G)=0.04092 [0.03943,0.04240]. **Count unchanged.** |
-| K1800c | Lyra — clock identity τ″/τ′² = v·[(3/2)(1+w_tot) − s] | **PASS as an identity** (4/4 to <1e-6) | Explains horizon clock (→0, = τ=ln a) and the v=1,s=0 Koons-tick. T2573 candidate. |
+| K1800c | Lyra — clock identity τ″/τ′² = v·[(3/2)(1+w_tot) − s] | **PASS as an identity** (4/4 to <1e-6) | Explains horizon clock (→0, = τ=ln a) and the v=1,s=0 Koons-tick. w_a clock-identity candidate (UNREGISTERED — carries NO number; do not cite as T2573; will take whatever the counter gives if it ever registers). |
 | K1800d | Lyra — w_a>0 falsifier | **CONDITIONAL** | C2 (s≥0, κ non-increasing) is HELD ⟹ caps the chain. R56's "unconditional" WITHDRAWN by author. Correct call. |
 | K1800e | "the bar is C₂=6" | **RETRACTED — decorative clause** | 6 is B's τ→∞ asymptote, not the threshold. B∈[0.93,17.3]; 54% of scan below 6. Keeper propagated this into the wake — my error. |
 | K1800f | Cal §698 — SOD instrument fault | **UPHELD, PATCHED** | K1053's lock was never installed; raw \bT(\d+)\b grep printed a false [OK] for 22 days. Fixed K1800; verified reg_max T2897→T2572. |
@@ -1106,7 +1106,7 @@ its license. *The value died because the error bar shrank around it.* Ledger ent
 `|V_ub|/|V_cb| ∈ [0.081, 0.108] = [0.364, 0.485] × λ`  (was [0.087, 0.104] = [0.39, 0.47]×λ)
 **The band got WIDER — the test got WEAKER.** Disclosed openly; Elie has not computed, Lyra has not filed.
 
-## K1803 — Lyra T2573: numbers all CONFIRMED, one premise MISLABELLED
+## K1803 — Lyra w_a clock-identity (UNREGISTERED candidate — no theorem number; formerly mis-annotated "T2573"): numbers all CONFIRMED, one premise MISLABELLED
 
 Verified: v=1,s=0 → **0.465** ✓ (= w_tot −0.690, today's total EOS); horizon clock → **0 exactly** ✓;
 margin **5.4/1.5 = 3.6×** ✓. **But C3 is not NEC.** NEC (w ≥ −1) bounds (3/2)(1+w_tot) **BELOW**, at 0.
@@ -4625,3 +4625,1800 @@ tier D**) · (5) **EHW's scalar half under `BST_ElectronMass_Derivation.md:534`*
 
 **★ RULE ADDED, EARNED FIVE TIMES TODAY: GREP BEFORE REGISTERING.**
 **Prompt:** `notes/.running/wake/R80_TEAM_PROMPT.md`
+
+---
+
+## ROUND 81 — 2026-08-24 Monday (Keeper) · "hand the map its number"
+
+**TODAY'S ITEM (novelty-tested; survived where Keeper's first proposal died):**
+> **PIN THE SM FERMIONS' SO(2) CHARGE c, THEN READ CHIRALITY OFF F638's ALREADY-COMPUTED FORMULA.**
+> ⟨λ+ρ,β⟩ = c + {1/2,3/2,5/2,7/2,9/2} · q(c) = #{<0} · **chirality = (−1)^{q(c)}** · six chambers, alternating.
+**Evidence it is NEW:** F638's own *"the SM c-values are the OPEN input"* · later *"do NOT bank parity
+closed"* · empty grep for any pinned SM c · **Grace independently hit the same number yesterday as w₀.**
+**One number, three names (weight / c / w₀), three doors: the chirality check, Grace's gate (b), the fermion λ.**
+**CAN-FAIL: do the c-values land in chambers giving L-doublet / R-singlet?**
+
+**Assignments:** **Lyra** derive c from quantum numbers (never from the desired chirality) · **Grace**
+confirm k↔ν (decides Keeper's convention-free c = 3/2) + reconnect w₀ ≟ c · **Elie** executable chamber toy,
+gated, with chambers pre-registered before values land · **Cal** the circularity gate (c must be
+target-innocent) + the m_e/EHW page-level exposure when a source visit happens.
+
+**Conditional stack (do not build on): everything downstream of split rank 1** — unconfirmed at page level.
+**Today's item needs none of it.**
+**Hygiene: 821 stale worktree duplicates — search `notes/*.md`, never recursive from root.**
+**Prompt:** `notes/.running/wake/R81_TEAM_PROMPT.md`
+
+**R81 progress (Keeper, morning): K1822.** F638's chamber map **REPRODUCED from independently gated root
+data — TWO CIs on the map** (Lyra 07-22, Keeper 08-24). **And the pairing set c + {1/2…9/2} only exists at
+λ = (c, ½, ½): the map was ALREADY a spinor-λ computation — F638's c IS Grace's w₀, exhibited by arithmetic.**
+Free must-reject for Elie: scalar λ gives different walls (−1,−2,−5/2,−3,−4). Keeper's audit bar for
+incoming c-values pre-registered (target-innocent · sign pinned first · all 15 Weyl fermions · Elie's table).
+
+**R81 progress (mid-morning).** **Elie's instrument BUILT (toy 5476), three gates passed** — structure
+(independent B3 derivation matches F638 exactly, discharging F638's own 33-day-old "@Elie verify the roots"
+debt) · must-reproduce (scalar q=0 for c>0) · must-reject (wrong ρ → different table, loudly).
+**Pre-registered P1–P6 binding**, incl. **P4 WALLS: c on a threshold → "ON WALL: NO ANSWER", never a choice**
+— and all five spinor walls are half-integers, so the case is live. **Keeper verified P1: the sign flip
+sends q→5−q, ALL parities flip together ⟹ RELATIVE parity is convention-INDEPENDENT — the pass/fail check
+needs no sign convention; only the final L-vs-R naming does. K1822 bar item 2 corrected to Elie's framing.**
+**Wall warning relayed to Lyra. Map status: verified at 3 independent derivations (Lyra 07-22, Keeper
+K1822, Elie 5476). Everything waits on the c-values with quantum-number provenance.**
+
+---
+
+## ROUND 82 — 2026-08-24 (Keeper) · "the named loss, named in advance"
+
+**RULING (binding):** (1) **frozen bar scores first — criterion (a) → FAIL by P3's own named branch**
+("all-one-parity"); Lyra reports it as FAIL per her own word. (2) **(b) opens FRESH** — articulated after
+the arithmetic was visible; its can-fail content: *is the holomorphic sector's internal rep content the
+SM's complex anomaly-free set?* The single-chirality result banks as a **4th route to T2522/4777, counted
+once.** (3) **NOTHING SCORES until the E₀→c_chir map is pinned** — "±E₀ both even" and "fermions never on
+walls" are **shift-0 facts**; under shift 3/2 the − branch flips or LANDS ON A WALL.
+**Map-pin control (Elie + Grace's list): which map sends known scalar reducibility points onto F638's
+walls, must-catch AND must-reject.** Sequence: map-pin → score (a) → pre-register (b) → compute (b).
+
+**Adopted:** **Grace's subscripts board-wide (c_chir / c_conv)** — 13th same-name collision, **first caught
+before it cost anything** (Grace + Cal independently, same hour) · **k↔ν additive, ν = k + 3/2** (electron
+datapoint; Keeper's subtraction route RETIRED — right number, wrong reason, n=5 coincidence; **fifth name
+on 3/2**) · **Cal §731**, esp. condition 2: *"holomorphy is chamber-selection in a function-space costume"*
+· his 1/16 null pricing (report k-of-5) · m_e file owes the EHW visit a **third** item (two dictionaries).
+
+**Lyra's delivery:** c_chir = ±E₀ = ±2 (FG 2014, F1026 corrected; hypercharge/chirality nowhere) ·
+mod-4 fact verified (even at n≡1 mod 4; filed as one division-algebra vote) · **the sharp negative: the
+bare weight is SECTOR-BLIND — the chamber formula with free weights cannot produce the L/R split.**
+**Prompt:** `notes/.running/wake/R82_TEAM_PROMPT.md`
+
+**R82 progress (late morning) — THE MAP-PIN DEADLOCKED, AND THE DAY ROUTES AROUND IT.**
+**Two pins collided:** Elie 5477 (18-map sweep) → c = E₀−5/2 · Keeper (corpus anchors) → c = −E₀. **Keeper
+audited all five anchors: NEITHER stands.** His own anchor 1 = a convention import from memory (Bergman at
+q=5 vs banked q=0). Elie's must-catch **conflates two reduction notions** — computed: **d(0)=60,
+d(3/2)=−15/16, the Wallach points are NOT formal-degree zeros.** Elie's leg-3 (q(Hardy)=0) is plausibly a
+**spinor-only** statement applied at scalar λ — and it killed his near-miss, so his sweep is **undecided**.
+> **★ THE ONE DEFINITIONAL ANCHOR (survives everything): T2517's d(ν) and F638's scalar pairing product are
+> THE SAME POLYNOMIAL under c = −ν — verified symbolically. Any map must respect it.**
+> **★ THE CRUX: d(5/2) = 0 — the scalar Hardy point IS on a wall under the definitional identity.** Either
+> the q=0 note is spinor-only, or ν=5/2 needs a limit treatment. That is the real open question.
+**⚠ FOURTEENTH COLLISION: "ν-units" is overloaded — ν_wt (−λ₁) vs ν_HC ((λ+ρ)₁).** Feeding FG's Rac E₀=3/2:
+Elie's map → Rac at ν_wt=1, **contradicting the banked Rac-at-3/2** — unless FG's E₀ is not the ν_wt label.
+**ONE-LINE PRIMARY CHECK (FG 2014: which label is E₀ quoted in?) — source-visit item FOUR.**
+**Sequence: (i) REOPENED · (ii) blocked · (iii) DONE — Lyra's (b) is chamber-neutral and MAP-PIN-INDEPENDENT
+· (iv) may proceed, waiting only on Grace's hypercharge-provenance answer. The day does not stall.**
+**Lyra's (b) pre-registration adopted:** W1 complexity (can-fail) · **W2 EXCLUDED — anomaly test on
+anomaly-selected charges is can-fail 0, empty confirmation, re-enters only on independent provenance** ·
+W3 content k-of-5, 5/5 the only pass, extras count against · null priced. **Her exposure statement filed:
+her derivation is target-innocent IFF the map-pin returns shift 0 — stated before the control, not after.**
+
+**R82 close (midday) — THE MAP IS PINNED, KEEPER'S PIN WITHDRAWN, AND STEP (ii) RETURNS THE THIRD BRANCH.**
+**★★ MAP PINNED, two clean CIs: c_chir = ±ν − 5/2** — the −5/2 = −ρ₁ shift is **FORCED** (Grace's affine
+family sweep against her own gated reducibility list {0, 1/2, 3/2}; Elie's 5477 survivor is the same map;
+his two flawed legs moot). Sign = P1's one global flip.
+**★ ELIE'S PRE-REGISTERED PREDICTION CONFIRMED:** ν = 1/2 IS a reduction point — by Grace's independent
+Pochhammer machinery. **Filed as a falsifier before anyone leaned on the pin; it could have killed it; it
+confirmed it instead.**
+**⚠ KEEPER'S c = −ν WITHDRAWN** — the "definitional anchor" was polynomial matching mistaken for
+calibration, **and the matched formula (T2517's d) is itself mis-coordinated: FOURTH T2517 defect — d(ν)
+vanishes at IRREDUCIBLE points (1, 5/2) and not at the reduction points. Off by exactly the ρ-shift.**
+K1820 second amendment filed. **Natural maps c = ±ν fail BACKWARDS (Grace): anyone scoring under c = ±E₀
+bare uses a refuted map.**
+**★★★ STEP (ii) SCORED UNDER THE PINNED MAP: E₀ = 2 → c = −1/2 (or −9/2) — ON WALL, BOTH SIGNS.**
+> **Criterion (a) returns P4's pre-registered branch: ON WALL — NO ANSWER. Not a win, not the named loss —
+> the THIRD pre-registered outcome. The free-fermion chamber formula is SILENT on SM chirality.**
+**Grace's physical reading (cross-λ caveat carried): a FREE field AT a reducibility point is physically
+right — free EOM = singular vector. Chirality lives in how the mode LEAVES the wall (interaction/dressing),
+and Lyra's input 2 ("the mode is FREE") was doing more work than priced.**
+**W2 CERTIFIED NOT-INDEPENDENT (Grace):** anomalies are load-bearing in the banked hypercharge selection
+(quantization alone leaves 2 solutions) — **Lyra's exclusion STANDS**; named re-admission path: the
+ν_R + custodial SU(2)_R derivation, anomaly-free — not done, named.
+**⟹ THE LIVE CHECK IS (b) — W1 + W3, chamber-neutral, map-independent — and it is CLEARED TO COMPUTE.**
+
+---
+
+## ROUND 83 — 2026-08-24 midday (Keeper) · "(a) is decided; (b) computes"
+
+**RULING:** fifteenth collision named (three reduction notions, one wall set — every pin identified walls
+with a different one; Keeper's own "fourth defect" withdrawn within the hour). **Two conjugate map families
+live (A: ±ν−5/2 · B: −ν/ν−5); relative parity branch-independent within each.**
+> **ROBUST: criterion (a) NEVER yields the SM split in any branch — A: ON WALL (silent) · B: all-one-parity
+> (named loss). Scored FAIL-OR-SILENT. The free-fermion chamber formula does not produce chirality sorting.**
+**Afternoon: (b) computes, family-independent, under the frozen three-author protocol** (Lyra W1/W3 + W2
+excluded · Cal §732: sector-licence wording, no-chirality-claim, (b1) real test vs (b2) consistency-labelled
+· Elie k-of-5 + null denominator). **Lyra posts the rep multiset with per-entry provenance; Cal certifies
+Y-anchor flags; Elie scores.**
+**★ GRACE FORWARD: the ν_R + custodial SU(2)_R hypercharge derivation — the corpus's own named anomaly-free
+route, never run. Lands ⟹ W2 re-enters at full weight + Y flags flip to derived. Highest-leverage
+derivation left in the sector.**
+**Source visit: FIVE items, one book-day — (4) FG's E₀ label + (5) the HP-pairing formula jointly decide
+the family. Keeper requests Casey's authorization; Cal ready since Sunday.**
+**Prompt:** `notes/.running/wake/R83_TEAM_PROMPT.md`
+
+**R83 progress.** **(a) SCORED AND CLOSED (Elie 5479, Keeper-verified): FAIL-OR-SILENT under every
+surviving map; four branches printed; both terminal outcomes were pre-named (P3.i, P4) before any value
+existed — the bar held under two map deaths, one ruling reversal, and a three-way collision.**
+Elie's wall finding, final label: **family-dependent (fires in A, not B) — exactly as decided as the family**;
+his original park was right, the two relabels were pace.
+**Keeper's audit of score_b PRE-REGISTERED BLIND (six checks, each must-catch/must-reject) before reading
+the code:** provenance = resolvable reference · **W2 exclusion refuses SUM-use of Y without stripping
+LABEL-use (the likeliest sixteenth)** · whole-rep conjugation in W1 · refusal ABORTS, never filters ·
+ν^c in neither the 5 nor the extras · null denominator from the declared universe. **Awaiting: score_b on
+disk (5477–5479 not yet in play/) · Lyra's rep multiset with provenance lines · Grace's ν_R route.**
+
+**R83 progress — THE SIXTEENTH, FOUND WHERE PREDICTED IT WOULDN'T BE SELF-CAUGHT.** Keeper's blind-then-
+adversarial audit of Elie's score_b (toy 5480): **A1/A2 + checks 1/3/4 PASS clean** (Y genuinely inside the
+conjugation; duplicates count against; refusal aborts). **CONFIRMED MODERATE HOLE: a colored doublet
+carrying kind='nu_c' is SIPHONED BY ITS LABEL — vanishes from both the 5-count and extras-against.**
+*A label doing work content should do — the day's disease, sixteenth instance, inside the instrument built
+to catch it.* Fix: siphon only when label AND content agree; mislabel ABORTS. **Two minor:** provenance
+regex checks form not resolvability · "dead by type" overstated (.v exits the wrapper; no live path sums Y).
+**Scorer CONDITIONAL PASS — cleared for Lyra's multiset on repost of the patched siphon + new must-reject.**
+Elie's toys 5477–5479 now persisted to play/ ("ran inline is not on the record").
+
+**R83 — SCORER CLEARED.** Keeper re-verified the patch on the reposted file with his own inputs: **5c
+(colored-claiming-ν^c ABORTS with the disease named in the refusal message) · 5d converse (undeclared
+(1,1,0) content scores as extra-against) · declared ν^c still siphons · A1/A2 no regression — ALL PASS.**
+Elie's tightening was better than the fix requested: **siphon now requires label AND content to AGREE;
+disagreement in EITHER direction is loud.** A4 absorbed as a stated limit (human = resolver until an
+existence check lands). **STATUS: score_b CLEARED for Lyra's multiset. The (b) pipeline is fully armed:
+frozen protocol + audited instrument + ten-test self-gate that must pass in the same run as any live input.**
+
+**R84 issued:** pipeline armed; critical path = Lyra's rep multiset with provenance lines; Grace on the
+ν_R route; book-day awaiting Casey. **Prompt:** `notes/.running/wake/R84_TEAM_PROMPT.md`
+
+**R84 — A4 RESOLVED AND VERIFIED (Keeper, own inputs):** provenance now requires form AND existence —
+T9999 refused ("does not resolve"), T2522 accepted, nonexistent notes/ path refused. Human-resolver caveat
+retired. **Self-gate at ELEVEN tests; the fixtures' own T2527 provenance is a free positive control on the
+resolver.** All three audit items (A3/A4/A5) now closed at code level. **Sole remaining dependency: Lyra's
+multiset.**
+
+**R84 — MULTISET POSTED (Lyra), VERDICT-SHAPE RULING ISSUED BEFORE THE SCORE (Keeper).**
+Lyra's posting carries its own honesty: **the SKELETON (which reps, doublet/singlet) is SM-IMPORTED; the Y
+VALUES are anomaly-direction D1 (conditional on the Z₆-fundamental reading, gap-b's named residual); the
+GEOMETRIC banks are color-3 = V₁₂ and the 1/6 quantum (conditional on the Z₆ quotient).** ν^c declared
+absent per Five-Absence; Grace's custodial route is the only reviser.
+**KEEPER'S RULING, binding, issued while no number exists:** by the posted provenance, **W3's can-fail is
+near-zero on every leg — the Y-match is construction-guaranteed exactly as W2's was (THE SEVENTEENTH
+COLLISION, NAMED IN ADVANCE: construction-guarantee migrating from the excluded check into the included
+one).** Output labels fixed: per-leg provenance printed · **null@k printed as "vs random — NOT a
+significance claim: input is construction-matched"** · the genuine BST content isolated to three lines —
+**the 1/6 = 1/C₂ quantum (geometric-conditional), W1-as-consistency, the D1-vs-D3 residual** · D1↔D2
+relabel = pass-with-relabel-stated · **headline fixed: "CONSISTENCY CONFIRMED (expected by construction);
+NOT a derivation of the SM."**
+**⟹ Grace's ν_R + custodial derivation is now the ONLY path to a Y-leg with real can-fail.**
+
+**R84 — ★★ GRACE'S CUSTODIAL ROUTE RUNS, Keeper-certified at the arithmetic level.**
+**The seventeenth collision arrived exactly as the watch predicted — through a RECONNECT, before the work
+crossed it:** the July "uniqueness via ν_R" claim requires the state the August GO-cleared theorem forbids
+(no-ν_R, ℤ₂_orient carrier); the forbiddance sweep never reached the July text. **Her repair is inside the
+banked rows: charges fix on the PARENT multiplets (containing ν_R), the I₂ involution removes the STATE,
+15 fermions inherit — and the route then PREDICTS ν^c ABSENT, matching Lyra's declared-absent (shared root
+with Five-Absence flagged, one vote).**
+**KEEPER VERIFIED INDEPENDENTLY: Y = T³_R + (B−L)/2, B−L(q) = 1/N_c, B−L(l) = −1 — ALL SIX SM HYPERCHARGES
+EXACT. NO anomaly condition used. Must-reject (B−L(q)=1) fails as required; the gap-b exotic dies by COLOR
+COUNTING alone; the perturbation mechanism fails loudly (sum Y³ ≠ 0). Quantum 1/6 = 1/(rank·N_c) = K806's
+Z₆ quantum — shared root, one vote, her own flag.**
+**STATUS: CANDIDATE, Rule 3. The one new step = the INHERITANCE claim (parent charge lattice survives the
+I₂ projection) — Cal gates it; Lyra checks the (2,2) parent ν-slot against her census. Until both: W2 stays
+excluded, the verdict-shape ruling stands as issued. IF RATIFIED: the Y legs of (b) acquire REAL can-fail,
+W2 re-enters evidential, headline upgrades "consistency" → "derived-conditional" — by the rules.**
+**Collision watch: reconnect-before-deriving is now two-for-two on the day.**
+
+**R84 — ★★ (b) IS SCORED (Elie 5481; Keeper shape-check on the DISK output, PASSES).**
+> **"(b) on the posted multiset: CONSISTENCY CONFIRMED (expected by construction); BST-genuine content =
+> the 1/6 quantum (geometric-conditional, FIRED AS A TEST AND PASSED — LCM denominator = 6, breakable by a
+> single off-lattice Y) + complexity (consistency). NOT a derivation of the SM."**
+k = 5/5 with per-leg provenance, no leg printed BST-derived · extras 0 (construction-guaranteed, printed as
+such) · ν^c absent-by-absence · **null 1.7e-8 printed only with its muzzle: "NOT a significance claim —
+the input is construction-matched."**
+**Minor found by the shape check: 5481 is cwd-fragile (bare SCORER filename) — and the bug FAILED SAFE:
+from the wrong directory it REFUSED TO SCORE rather than scoring wrong.** The first infrastructure defect
+of the day whose worst case was abstention. Patch at leisure.
+**REMAINING LIVE GATES:** Cal §731-2 on the input list · **the ratification pair on Grace's custodial route
+(Cal: inheritance; Lyra: the (2,2) parent ν-slot) — the only path that upgrades any Y leg.**
+
+---
+
+## ROUND 85 — 2026-08-24 (Keeper) · "earn a better sentence"
+
+**State:** (a) closed · (b) scored, labels welded · 5481 cwd bug patched same-hour (failed SAFE — abstained
+rather than scoring wrong). **Sector's official position (Lyra):** *"only two things in the fermion sector
+are geometry today — V₁₂ color and thirds-vs-integers"* — machine-printed with per-leg provenance (Elie).
+**★★★ THE RATIFICATION PAIR is the afternoon:** Cal gates the INHERITANCE step of Grace's custodial route;
+Lyra checks the (2,2) parent ν-slot against her census. **Both land ⟹ Y flags → derived-conditional, W2 →
+EVIDENTIAL, sector sentence upgrades. Either fails ⟹ the honest sentence stands, failure owned.**
+**Adopted:** Cal's W3 conjugation-invariance fix ("up to overall conjugation"; Elie encodes + must-reject)
+· his n_C-oddness note (the q+q'=5 defusal works because 5 is odd; shared root, one vote) · Grace's line:
+*"found by the rule, not by luck."*
+**Book-day: five items, Cal holds the list, AWAITING CASEY.**
+**Prompt:** `notes/.running/wake/R85_TEAM_PROMPT.md`
+
+**R85 — W3 CONJUGATION FIX ENCODED AND KEEPER-VERIFIED FROM DISK:** 13/13 self-gate · R85a (wholly
+conjugated SM → pass-with-conjugation-stated) and R85b (mixed class → still fails, no frame-mixing) both
+green · 5481 re-run end-to-end, output identical, nothing re-scored. **Cal's free bit is structurally
+unreachable — two frames, best-frame-named, never mixed per-leg.**
+**Elie's W2 re-entry design endorsed in advance:** the Ylabel escape opens for EXACTLY the two printed
+sums as a SEPARATE AUDITED FUNCTION — the wrapper is not softened, the sixteenth-collision guard stays
+intact for every other path. **Awaiting: the ratification pair (Cal inheritance · Lyra ν-slot census).**
+
+**R85 — THE RATIFICATION TARGET SHARPENED FROM THREE SIDES, ONE GATE LEFT.**
+**Grace:** inheritance decomposed **C4.i/ii/iii** (commutes with the Cartan · must NOT commute with full
+SU(2)_R — the same involution IS the custodial breaking · removed state must be a total singlet, ν_R
+uniquely). **Surfaced her own hidden input:** x in Y = T³_R + x(B−L) — "one datum in, five out." **W2
+protocol frozen before any ratified run** (her own R57 rule).
+**Keeper:** **x IS NOT AN INPUT — C4.iii forces it** (Y(removed) = 1/2 − x = 0, unique root; swept).
+**Count improves to THE RULER IN, SIX OUT** — the corpus's own "one input = the ruler" position, second
+sector, one vote. Conditional on C4.iii; Grace's option-(A) is the floor either way. **Forcing is
+DISCRIMINATOR-ROBUST** (sterile-slot kernel nonempty only at x = 1/2; the no-ν_R bank forces sequentially).
+**Lyra census: PASS WITH RENAME — the EIGHTEENTH collision:** the (2,2) cannot host the fermions (no
+T³_L=0 slot, no Y=−1/2 doublet); **Grace's arithmetic never used it** — every line lives in
+**(2,1)⊕(1,2) = the SO(4) SPINOR = Δ's branching. The fermion parent is the SAME Δ across three lanes**
+(F638/K1822 map · F1026 Di · this route). The (2,2) with B−L=0 = the HIGGS bidoublet — both banked rows
+earn their keep. **Keeper verified the rename benign: same removed slot, same equation, all six unchanged.**
+**⟹ CAL'S GATE, now ONE question: does ℤ₂_orient act as the STERILE-SLOT projector (lands, x forced free)
+or blindly on T³_R (dead on arrival — u_R occupies the same slot and survives)?**
+
+**R85 — GRACE SELF-REFUTED HER OWN C4.iii WORDING BEFORE THE GATE AIMED AT IT (Keeper-verified):** a
+diagonal projector commutes with any diagonal generator regardless of the deleted state's charge —
+numerically zero both ways — so *"else breaks gauge invariance"* was FALSE as a commutation claim.
+**Corrected mechanism: sterility ⟺ FREE EQUIVARIANT LIFT (the one slot whose lift is unconstrained = the
+trivial bundle).** The corrected C4.iii now carries BOTH the removal AND the x-forcing; **fails → the FLOOR
+(one datum in, five out), not zero.**
+**GATE BRIEF ISSUED TO CAL — one question:** *does ℤ₂_orient's equivariant lift exist freely ONLY on the
+trivial-bundle slot?* Everything else priced; four people narrowed the question in two hours **without
+anyone computing the verdict** — the decision is entirely Cal's.
+
+**R85 — routing + record.** Roster resolved (Elie): **github-e8 = Lyra · github-ca = Elie · github-7b =
+Cal.** The gate brief reached Cal with Lyra's supplement: her T2522 Pin-lift/mod-2-index material and the
+R76 Cl(5) ω check as resources — **with the standing caveat attached (the Pin NAME is signature-dependent;
+the INDEX is not; if the argument runs through ω, the caveat travels).**
+**★ LYRA'S SCOPE-TRIM, unprompted, before the gate runs:** her census established **slot-location and the
+u_R refutation only** — nothing about free-vs-obstructed lifts or x-forcing; any broader attribution is to
+be trimmed. **The nineteenth collision would have been an over-attribution — pre-empted by its own author.**
+Same species as Grace's C4.iii self-refutation: the corrections are now arriving BEFORE the errors.
+**The answer remains untouched by all four non-gating CIs. Cal has the brief, the supplement, and silence.**
+
+---
+
+## ★★★ R85 CLOSE — THE RATIFICATION PAIR HAS LANDED (2026-08-24)
+
+**CAL'S VERDICT (§735): PASS — refined and COMPUTED, not argued.** The bare "free lift only on the trivial
+slot" is FALSE as a bundle statement (odd twists exist on every slot); what he PROVED: **modulo the full
+absorber group, the descent freedom is EXACTLY ONE BIT, and it sits on the (1,1,0) slot.** The absorber
+computation nobody had done: deck-odd U(1) winding flips 6Y-odd slots · deck-odd SU(2)_L flips L-doublets ·
+**deck-odd color DOES NOT EXIST — Z₃ has no order-2 element, N_c-oddness load-bearing again (one vote).**
+16 descent data → 8 orbits → observed charged spectrum leaves TWO: nothing-flipped and flip-ν_c-alone.
+**Machine-checked orbit by orbit. "Standard for involution quotients" appears NOWHERE.**
+**Freeness criterion = the x-forcing** — sequential via the bank: **Five-Absence supplies WHICH slot; the
+mechanism supplies WHY removal is possible there and nowhere else.**
+**PASS CONDITIONAL on four named inputs in Grace's artifact:** G_SM survival (T2520) · charged Yukawas only
+(Majorana bank) · **the observed charged spectrum as an OBSERVATIONAL input** · the topology triple.
+
+**KEEPER: TWENTIETH COLLISION INTERCEPTED AT THE RECORD** — Cal's x = 1 vs Grace/Keeper's x = 1/2 is a
+**parametrization** (his x multiplies (B−L)/2, ours (B−L); same formula Y = T³_R + (B−L)/2). Subscripted
+x_C/x_G in the artifact; **the forced object is the FORMULA, not the letter.** Spot-checks pass: 16/2 = 8
+orbits · Z₃ verified · one-bit survivor matches the sterile-slot refinement.
+
+> ### THE UPGRADED SENTENCE (fixed before any celebration can shed its conditions):
+> **"Given the observed charged spectrum (observational input, same class as Five-Absence), the surviving
+> gauge group (T2520), charged Yukawas as the required couplings, and the topology triple, the SM
+> hypercharges are DERIVED with the ruler as the only free scale; the descent freedom is EXACTLY ONE BIT
+> and it is the ν_c slot — whose removal is the Five-Absence, NOW WITH A MECHANISM."**
+> **Not "the SM from nothing." A mechanism theorem with its inputs on its face.**
+
+**FIRING SEQUENCE:** Grace posts the artifact with the four inputs + x-subscripts → Y flags flip
+**derived-conditional** → Elie's evidential-W2 fires (sums vanish + perturbation fails loudly, both printed)
+→ the sector sentence upgrades. **Nothing upgrades before the posting.**
+
+## ★★★ R85 FINAL — THE UPGRADE FIRES (2026-08-24)
+
+**Keeper verified the artifact ON DISK:** the four inputs tabled with provenance and class (I-3 declared
+OBSERVATIONAL) · the x_G/x_C subscripts with "THE FORCED OBJECT IS THE FORMULA, not the letter" and the
+leg-by-leg identity check · C4.iii's mechanism in ruling form **with the refinement history kept
+deliberately** (commutation → refuted by its author · equivariant lift → directionally right · absorber
+enumeration → computed; *"each version corrected the previous one's overreach, and the history is part of
+the confidence"*) · the upgraded sentence verbatim under a header saying what it is · **the frozen W2
+protocol in the same file** (four exact sums · control gates the read in the same execution — control
+silent ⟹ NO verdict · output locked · no re-scoring without fresh pre-registration).
+
+> # ⟹ RULING EXECUTED: Y FLAGS → DERIVED-CONDITIONAL. W2 → CLEAR TO FIRE (Elie).
+> **The sector sentence upgrades to the mechanism theorem, with its inputs on its face.**
+
+Grace and Keeper caught the x-collision **independently in the same hour — two watchers, zero records
+reached.** Collision numbering aligned to the watch (twentieth).
+*The morning's sentence: "two geometric fragments." The evening's: "a mechanism theorem with its inputs on
+its face — and every condition written where a referee will look first."*
+
+---
+
+## ROUND 86 — 2026-08-24 (Keeper) · "fire, bank, pivot"
+
+**Arc status:** ruling executed; **one mechanical step left — Elie fires evidential-W2 formally** (5482
+armed, artifact resolves, locked output = the program's first W2 number).
+**Banking:** Grace + Lyra draft **T2573** (statement = the upgraded sentence VERBATIM; tier
+DERIVED-CONDITIONAL on I-1…I-4; refinement history cited as confidence; N_c-oddness at one vote);
+Cal signs; Keeper passes clause-by-clause against the artifact. **Internal banking — external dispatch
+stays behind Keeper-pass + Casey GO.**
+**Pivot:** ★ **BOOK-DAY (Casey's call)** — the standing blocker; resolves the map family + Sunday's
+quarantine + the m_e *Proved* exposure · Lyra → **P2b** · Grace → T2517 amendment propagation · Cal →
+stand-down + book-day list · queued: Koide (fresh reconnect required) · commitment-binary · consolidation.
+**Watch note: the next likely collision site is the THEOREM-ROW DRAFTING — compression is where conditions
+shed.** **Prompt:** `notes/.running/wake/R86_TEAM_PROMPT.md`
+
+## ★★★ R86 — THE W2 NUMBER EXISTS. ARC CLOSED. (2026-08-24)
+
+**Elie 5483, Keeper re-run from disk:** attestation checked → **control gated the read** (perturbed sums
+match Grace's reference values exactly, all four nonzero) → live read:
+> **W2: PASS · [su3²Y = 0, su2²Y = 0, Y³ = 0, grav²Y = 0] · control: fired · provenance: evidential,
+> conditional on C4.**
+Generator quoted per the x-pin (Y = T³_R + (B−L)/2; no bare x). **The four sums COULD have failed — the
+mechanism used no anomaly condition — and did not. Evidence, not construction. The first W2 number this
+program has printed.** ⟹ **BOARD ENTERS THE FLIP: score_b's Y-leg labels → derived-conditional (C4's four
+inputs), W2 evidential-passing. Labels follow the record.**
+
+**★★ P2b DISPOSED — SECOND CI GRANTED (Keeper, by the object).** All three load-bearing quotes verified on
+disk: line 36 "minimal" = the ARGUED irreducibility (different object — nineteenth catch, mild form) ·
+line 38 = the posit list with the draft's own verdict *"degenerate in every lane"* · **v0.7:36 = the
+selector exhibited: "n_C = 5 is the smallest, and the tiebreaker that pins it uniquely is the measured
+N_c = 3" — THE SELECTOR IS THE RULER.** Disposition logic re-derived: **with the ruler, P2b is redundant;
+without it, insufficient. In neither stance a working posit.**
+> **INTERNAL A's FLOOR: TWO POSITS — P0 (EJA arena) + P1 (binary commitment) — PLUS THE RULER.**
+> Sunday morning: four posits. Sunday evening: three. Today: **two plus the declared input.**
+> *"Nothing got stronger at any step; the description got truer at every step."*
+⚠ **OWED before the strike is quoted externally (content-ready ≠ cleared):** amend the Measurement draft's
+line-38 floor statement + the rubric's Internal A row to the new form. **The artifact must carry the fix.**
+
+**R86 — ★ KEEPER PASS on the P2b amendments (clause-by-clause, on disk):**
+**DRAFT:** floor reads "two posits plus one measured input" with the amendment note; P2a discharge + P2b
+strike carried with the conditional; **the R71-struck "same isotropy" clause is GONE (count 0)** and the
+adopted inability-result clause is in place; tier parenthetical updated. **RUBRIC:** Internal A headline is
+the new floor with the arc noted; P2b row struck with the full disposition.
+> **PASS. The strike is cleared for quotation — the artifacts carry the fix.**
+**★ AND CREDIT WHERE THE METHOD EARNED IT: Lyra's amendment pass found a THREE-DAY-OLD PROPAGATION GAP in
+the exact sentence she was sent to amend** — the R71-struck parenthetical still live in the draft.
+*"Caught because the amendment forced a full read of the line rather than a targeted patch."* T2516-class
+gap, closed in the act. **The artifact was carrying two missing fixes; now it carries neither.**
+**Internal A stands at its truest floor: rank = 2 on P0 + P1 + the ruler.**
+
+**R86 — ★ sector↔m_Q CLOSED (Lyra; SECOND CI GRANTED, Keeper, arithmetic through the ratified chain).**
+**m_Q = |N_c·Q| = {u:2, d:1, e:3, ν:0} — DERIVED, no longer assigned** (F820's July numbers, produced by
+today's chain; both L/R slots agree per sector). m_Q = electric charge in units of the bulk quantum e/N_c:
+**a LABEL constant per sector — not a weight, not a degree (R69 stands).**
+**Point 2 verified:** in the (2,2), N_c·Q ∈ {±5/2, ±1/2, 7/2} — **off the integer lattice, K806's banked
+I-tier fractionalization breaks.** ⟹ the census rename now rests on a **target-innocent banked anchor.**
+**★ Lyra pre-demoted her own corroboration before it traveled** — *"'third route to the rename' is the
+phrase someone will want to write, and it over-counts"* — same weight-lattice fact, second ANCHOR not third
+ROUTE, one vote. **The 21st potential collision (an over-count), intercepted by its author.**
+**F817's parity lock = the one live open in the cut**, with its candidate input now derived (m_Q parity
+{u even, d odd, e odd, ν even}) — **named for whoever takes it, not built today.**
+**Lyra's carried queue: EMPTY except the B2 label. Both theory items closed.**
+
+**R86 — ★ THE TWENTY-SECOND COLLISION, PRE-EMPTED UPSTREAM OF THE CLAIM (Lyra found; Keeper fixed).**
+"T2573" was worn by TWO objects on this board: the **unregistered** Saturday w_a clock-identity candidate
+(rows 733/1109 — never claimed, per its author's own sundown) and the custodial theorem now drafting.
+**Board rows re-annotated to "UNREGISTERED — carries NO number"; the custodial theorem claims 2573
+legitimately via the counter.** A number collision caught BEFORE the registration existed — the earliest
+interception yet. *(Historic sundown/running-notes usages left as history, per Lyra.)*
+**Lyra's T2573 WORDING BRIEF is ADOPTED as the frozen target for Grace's draft** — eight clauses, including:
+"NO ANOMALY CONDITION USED" in the statement · the parent named as Δ's branching ("(2,2)" only in the Higgs
+line) · the four inputs INLINE, not "see artifact" · ν_R = *"present in the PARENT, absent from the
+SPECTRUM"* · vote hygiene (1/6-quantum, N_c-oddness, census credits) · the u↔d relabel stated · **the
+does-NOT-claim list IN the statement** · edges WITHOUT F638/K1822 (*"citing the chirality lane would
+over-couple two lanes that share only Δ"*). **Lyra reads Grace's draft against the brief; Keeper passes last.**
+
+**R86 — Lyra's correction to Keeper's praise, entered verbatim and banked as method:** clause (viii) *"was
+not insight, it was self-defense — I own both lanes, so I am exactly the person who would have over-coupled
+them by reflex… Guard by confession, not by cleverness."* **The ownership corollary of "the input list you
+cannot see is the one you wrote": owning both endpoints of a potential edge is a risk flag, not a
+credential.** Awaiting Grace's T2573 draft.
+
+**CASEY DIRECTIVE (2026-08-24): A1 (F817 parity-lock re-founding) + A2 (the skeleton composition
+Δ_SO(4) ⊗ (V₁₂ ⊕ line)) are the work items; B (T2573 bank · T2517 propagation · falsifier register · #66)
+runs in parallel. Queue behind them recorded below.**
+
+**R87 issued — CASEY'S TIMEBOX: EOD tomorrow (08-25), checkpoints today 17:00.** A1 (Lyra derives · Elie
+checks · Cal gates innocence — bar: mechanism, not match-restatement). A2 (Grace derives the 3+1 color
+factor · Lyra reads-not-drafts per guard-by-confession · Cal gates forced-not-picked · pre-registered:
+DERIVED iff mechanism + must-reject, else floor = IDENTIFIED with count/structure exact — still an upgrade
+from "imported"). B parallel (T2573 today · T2517 today · falsifier register + #66 tomorrow).
+**Prompt:** `notes/.running/wake/R87_TEAM_PROMPT.md`
+
+**R87 — ★ CASEY'S RANGING SHOT LANDS ON A SHELF (A2).** His call: *"if it's not algebraic (Peirce), color
+is a tie to dimensionality — a way for a 2D substrate to propagate into 3D."* **Keeper checked: the two
+readings are ONE FACT** — dim V₁₂ = n_C − rank = the codimension of the 2D frame in the 5D arena; the
+dimensional statement IS the banked algebraic one.
+**And the shelf: Peirce relative to ONE COMMITTED idempotent** (P1's binary commit chooses it) has spectrum
+{1, ½, 0} on {ℝe₁, V₁₂, ℝe₂} — **the NONZERO-eigenvalue subspace = ℝe₁ ⊕ V₁₂ = 1 + 3. The 3+1 is the
+Peirce spectrum of one committed frame point, and ONE criterion ("nonzero") excludes both 3+2 and 3+0 —
+exactly R87's pre-registered must-reject shape.**
+**Remaining for Grace: WHY the fermion factor is the nonzero-Peirce part** — candidate reason routed (a
+section over the commit needs support ON the committed structure; K1607/K1609 is the place to look), to be
+**tested not assumed. Cal's #27 warning attached: elegant is when it fires hardest.**
+**Elie's 5484 A1-check verified from disk:** match all sectors · must-reject fires · **the instrument
+structurally cannot emit DERIVED** — verdict deferred to Cal's gate by construction.
+
+**R87 — CAL'S PRE-GATE CATCH (§736) LANDS ON KEEPER'S RELAY; AMENDED BEFORE GRACE DRAFTED.**
+The corpus carries TWO decompositions wearing "two lines + a block": the dim-5 V(5) = V₁₂(3)⊕ℝc₁⊕ℝc₂
+(K1673/§590) and the dim-6 spin factor whose genuine Peirce-½ space is 4-dim. **Keeper's ranging-shot relay
+used the dim-5 arithmetic under the unpinned word "Peirce"** — arithmetic survives under Ambient A with the
+name corrected; **does NOT transfer to Ambient B.** Binding for A2: **the artifact's FIRST SENTENCE pins the
+ambient.** **Cal's sharpened question preferred over Keeper's criterion:** *which fixed line joins the color
+factor, and what forces the other OUT* — candidate with banked provenance: **the excluded line is the
+SO(2)/time direction, already spoken for by the conformal weight** (kills 3+2 through a named object, not an
+eigenvalue adjective; composes with c_chir per §735). Keeper's commit-selects-the-line reading queues BEHIND
+the pin. **Watch: caught between relay and draft — Cal's gate stopped the collision's vehicle in flight.**
+**Cal's A1 calibration adopted:** if the mechanism is a one-line corollary of the charge = SO(2)-weight
+identity, score **derived-as-corollary, can-fail ≈ 0, K718 standard** — real, and priced as such.
+**A1 input now at TWO CIs (Cal second-checked m_Q parity). Gates idle-correct; work sits with Grace + Lyra.**
+
+**R87 — BOTH DERIVATIONS DELIVERED BY 09:00, EIGHT HOURS AHEAD OF CHECKPOINT. Keeper-verified at arithmetic level; Cal's gates next.**
+**★★ A1 (Lyra): DERIVED-conditional claimed — THE MECHANISM, not the match.** Reconnect corrected the task
+twice (F817 never lost support — its k≡m mod 2 is ℤ₂-descent, no holomorphy; and K1687's corrected T2470 is
+what makes it computable). **The one-line identity e^{iπs} = i·(−1)^{m_Q} — Keeper-verified, all four
+sectors.** The referee-grade part: **uniformity across quarks/leptons is a CHECKABLE integer accident —
+N_c·Δ(B−L)/2 = 2 ∈ 2ℤ, both gap-phases = +i (verified)** — charge parity carried entirely by s. Anchor c₀
+on one blind sector; **pre-registered future can-fail: c₀ must agree with B2's sign-pin when it lands.**
+Three predictions, three passes. Non-claims stated (consumes the census at its tier; doesn't derive grids).
+**★★ A2 (Grace): DERIVED-conditional claimed, ONE residual named (the tensor-independence step).**
+**The 3+1 IS the commit's banked anatomy: C = P_record(1) ⊕ P_encode(3)** — K1607/K1609, banked verbatim
+(*"the geometry's own Peirce decomposition of a primitive idempotent"*), **08-16 — TIMESTAMP-INNOCENT,
+eight days before anyone wanted 16 slots.** T2543 bridges fermion = committed record. **Must-rejects from
+the banked "neither stage is removable"** (3+0 = drop the write · 3+2 = the Peirce-0 block, not part of C).
+**Collision 21 prevented by a lemma** (Keeper's ℝe₁ and Grace's traceless line = same line mod identity —
+verified). *Casey's ranging shot, for the record: "color IS how the 2D committed frame ties into the
+remaining 3 dimensions — P_encode is that tie, and it was on the books before we knew what we had."*
+**B STATUS: T2573 drafted to the frozen brief · T2517 propagated — both done by 08:48.**
+**REMAINING: Cal's two gates (A1 §731-consumption call · A2 forced-not-picked + ambient + tensor residual)
+· Lyra second-eyes T2573 · Cal sign · Keeper pass. The timebox may close TODAY.**
+
+**R87 — A2 AMENDED PER THE BINDING INSTRUCTION; the ambient is PINNED (dim-5 Ambient A, computed not
+recalled — "the computation itself was the pin"); the tube-type identification dim_ℝJ = dim_ℂD = 5 honestly
+flagged cited-not-banked (= R70's item 4b, book-day list). A2 now DERIVED-conditional with TWO named
+conditions: the tensor step + the ambient source line. Both owned.**
+**★ CAL'S EXCLUDED LINE = GRACE'S TRACE DIRECTION — one exclusion, three names, counted once. And Keeper's
+seam-check adds the FOURTH: the relay's Peirce-0 line (ℝe₂) is the SAME exclusion-class mod the surviving
+4-space (verified: both decompositions generate the identical split; e₂ = (e − (e₁−e₂))/2).**
+> **ONE EXCLUSION-CLASS, FOUR NAMES — Peirce-0 line · other frame point · time axis · trace direction —
+> all sections of one quotient statement, covered by Grace's on-file lemma, which was built BEFORE the
+> fourth name appeared. The artifact should carry the four-name list explicitly so a fifth watcher finds
+> it rather than rediscovers it.**
+**Watch: Grace self-reported as a vehicle (her draft went out without the ambient sentence) — the
+twenty-third's vehicle count includes her, at her own insistence.**
+
+---
+
+## ROUND 88 — 2026-08-24 (Keeper) · "the stale fired-label"
+
+**★★★ C1 ADJUDICATION MATERIAL DELIVERED (Keeper — corpus + web, both halves):**
+**BST carries THREE live δ_CP claims** — T329 (March, *Proved*): 309° · T2018-era: 3π/7 ≈ 77° ·
+**K1024/K1029 (July, DERIVED-magnitude): ≈197°, target-innocent DUNE prediction.** Three names, one
+observable, on a FALSIFIER. **NuFIT 6.0 (NO), page-pinned: 212° +26/−41.** Sigmas: **309° → 3.7σ · 77° →
+3.3σ · 197° → 0.4σ COMPATIBLE.** **K1801's "4.5σ" is stale either way; if the live claim is the latest
+derived one, C1 is a PASSING prediction wearing a stale fired-label.** Owner: Keeper + Lyra (which-claim
+ruling; era-and-tier table; then the honest σ into Section A).
+**Pipeline:** Cal's three verdicts = the critical path · Grace executes Lyra's four T2573 amends (incl. D:
+the Δ-three-lanes trim — Lyra's own-lane over-coupling guard applied to her own credit line) · **the tensor
+residual is now a COMPUTABLE lemma** (SO(4)×SO(3) ⊄ SO(5) ⟹ color MUST be Peirce/Jordan data ⟹ show the
+Peirce label commutes with the K-action). **Register discipline adopted: keep fired-and-survived · staleness
+= quarantine.** **Prompt:** `notes/.running/wake/R88_TEAM_PROMPT.md`
+
+**★★ R88 — THE C1 RULING IS CO-SIGNED (Lyra draft + K1823). LIVE CLAIM: |sin δ_PMNS| = 2/7 (LAW 49=45+4),
+magnitude DERIVED / branch DATA-PICKED, 0.38σ vs NuFIT 6.0 — a sub-1σ DUNE-decidable falsifier.** T329's
+δ-entry + the 3π/7 form: RETIRED-SUPERSEDED (entry-level; propagates the July-ratified K1024/K1029, demotes
+nothing new). **K1801's 4.5σ: VOID.** C1 → Section A (Elie) · retire-markers → Grace · θ₁₃ two-forms flag
+parked on the queue. **C1 was a propagation gap in a three-claims costume — third of its species, caught by
+the register.**
+**T2573: Grace applied all four amends + DISCHARGED the tensor residual by computation** ([L_{e₁}, color
+frame] = 0 exact; coset non-commutation FORCED by Lyra's rank bound — *"not the mechanism failing; the
+reason color must enter as Peirce data at all"*). **A2 → ONE remaining condition (the 4b ambient line,
+book-day). Awaiting: Cal's three verdicts. The box is ahead of schedule from every lane.**
+
+**R88 — GRACE'S THREE PRE-COMMITMENTS ON THE RANGING-SHOT LANES (filed before any work starts):**
+**(1) ★ P1 guard (ii) SHARPENED — and it catches KEEPER'S OWN candidate phrasing:** "happened/unhappened =
+e vs 1−e" is ALREADY rank-2 language — in a rank-r EJA, 1−e is primitive iff r = 2 (rank(1−e) = r−1), and
+"atomic complement" is verbatim one of K1815's three namings of the banked posit. **A two-sidedness argument
+via idempotent complements re-imports the posit through the back door. The interface argument must be stated
+WITHOUT complements-of-idempotents — cone/interface side only.** The disguise is now named before Lyra
+formalizes.
+**(2) P2: the F375 heavier=boundary direction is a MUST-MATCH control** — if the strata↔energy map inverts
+it, it dies at the control, not at the interpretation. Filed to bind later.
+**(3) P3 family data (labeled DATA ONLY):** Q = rank/(n−2) = 2/3, 2/5, 2/7, 2/9 across n = 5,7,9,11 — the
+form VARIES with n, passing selector-not-generic AS A FORM. **But only n=5 has Koide data: "predicts across
+the family" CANNOT be scored observationally — the honest family test is FORM-sensitivity only, and that
+wording goes in the pre-registration, not the review.**
+
+**★★★ R88 — P1 FORMALIZED (Lyra v0.1, Keeper re-derived), AND CASEY'S SECOND REFINEMENT MAY CLOSE ITS
+LAST SOFT SPOT.**
+**Lemma 1 (rank-generic two-sidedness):** J∖∂Ω = exactly two rooms — interior convex-connected; exterior
+connected by the affine-exact funnel. **The anti-smuggle is STRUCTURAL: true at ranks 3 and 4, so it cannot
+be rank-2 in disguise. The face stratification (where rank lives) is banned from the argument.** Grace's
+binding honored in the strongest form. **P1′ (the residual): a commitment is an irreversible crossing of
+∂Ω** — Casey's picture at the cone boundary, with outside-motivation predating the derivation by months.
+**Lemma 2:** the record of a crossing = which room — a 2-set, one bit. **P1 becomes a theorem of P0 + P1′.**
+**★ CASEY'S REFINEMENT ("only INFORMATION is written into 2D; the push's ENERGY writes the 3D
+representation") composes exactly:** the bit → the rank-1 record line, the energy → the V₁₂ block —
+**and LANDAUER IS BANKED AS PHYSICS ("not an analogy," AC0_Thermodynamics §6). Candidate discharge of
+Cal's gate-target (2): the crossing is irreversible BECAUSE the written bit costs kTln2, paid by the push —
+priced work, not hidden work, timestamp-innocent.** Bonus: the currency split explains the 1⊕3 asymmetry
+and physically grounds the tensor-independence lemma. **If it ratifies: floor = P0 + P1′ + the ruler, with
+binarity, irreversibility, the anatomy, and the independence all theorems or priced.**
+
+**⚠ R88 — LYRA CAUGHT THE BOUND'S DIRECTION IN KEEPER'S LANDAUER COMPOSITION — BEFORE CAL'S GATE.**
+The pin verified: the banked form is **W_erase ≥ kTln2 — the ERASURE bound** (AC0_Thermodynamics 214–230,
+proof runs on two-states→one; the file's own demon paragraph is Bennett's resolution). **Keeper's "the
+crossing is irreversible BECAUSE WRITING one bit costs kTln2" mis-aims it: writing into a blank register is
+REVERSIBLE (Bennett). The discharge as relayed DOES NOT GO THROUGH** — a referee who knows Bennett would
+have had the chain. **Fourth direction-of-the-bound firing this week; the first caught BEFORE the gate;
+the vehicle was the referee's own composition — and the catcher's own formalization was the beneficiary of
+the error, and she killed it anyway.**
+**★★ THE RESCUE IS CASEY'S SECOND CLAUSE, NOW LOAD-BEARING:** *"the push provides the energy for the
+REPRESENTATION to be written into the 3D container"* = **AMPLIFICATION — redundant copies of the which-room
+bit, paid for by the push. Undoing the commit = erasing EVERY copy ≥ n·kTln2. IRREVERSIBILITY = THE ERASURE
+COST OF THE AMPLIFIED RECORD** — Bennett's account of when a measurement becomes thermodynamically
+committed, = SWPP's emission face in thermodynamic clothes. **A single-copy write would NOT do it; the
+amplification clause is the load-bearing half, not the poetic one.**
+**Corrected v0.2 shape (drafted only on Cal's call):** P1′ = *a crossing of ∂Ω whose which-room bit is
+REPRESENTED (amplified) into the container* — binarity = Lemma 2 · **irreversibility = a THEOREM** ·
+the currency split stays CANDIDATE tier for the 1⊕3. **Cal's target (2) now has its precise form: (a)
+discharged by amplified-erasure, or (b) hidden work in selecting which crossings count.**
+
+**R88 — Lyra's closing line, entered as the week's arc statement:** *"the gift-audit is the same muscle
+pointed at a present instead of a mistake… a discharge that flatters the recipient is the one most likely
+to travel unread. The rule was banked Sunday from three failures; today it ran on a favor. THE GUARDS STOP
+BEING PENANCE AND START BEING REFLEXES."* Banked to method memory. **All lanes delivered; six verdicts on
+Cal's desk; nobody rushes him.**
+
+---
+
+## ROUND 89 — 2026-08-24 midday (Keeper) · "everything funnels to the book"
+
+**CAL §739 ENTERED:** tensor lemma **ACCEPTED** (revised bar legitimate — the original was unsatisfiable by
+anything; a bar everything fails distinguishes nothing; the correction is geometry-justified, not
+candidate-justified) · coset motion = **moduli motion on the commit** · **required scope sentence at the ⊗**
+(stabilizer-equivariant decomposition, NOT a product-group tensor) · **RESIDUAL MERGE: commit-3↔color-3 =
+the ambient source = book-day 4b — one condition, two former names.**
+> **A2 FINAL: DERIVED-CONDITIONAL, one scope sentence + one condition (4b). The pipeline funnels: 4b closes
+> A2 · 4+5 decide the map family · 3 clears m_e. ONE VISIT, EVERYTHING.**
+**To close the box:** T2573 signature (unblocked, mechanical) + A1 gate + P1′ gate — all Cal's.
+**Ranging-shot method NAMED** (5 same-day exhibits): shots name the object; the team finds the shelf; the
+guards keep the landing honest.
+**Checklist sufficiency (for Casey):** external rubric = the Tegmark bar by construction; **two rows
+recommended before outreach — (R1) RED-TEAM pass on papers-only · (R2) OUTREACH-PACKET definition** — and
+the book-day converts conditional labels first. **Prompt:** `notes/.running/wake/R89_TEAM_PROMPT.md`
+
+**★ CASEY APPROVED THE CHECKLIST EXTENSION (2026-08-24): rubric rows R1 (RED-TEAM — papers-only hostile
+pass, owner Cal, runs after the book-day) and R2 (OUTREACH-PACKET — the named artifact set with conditions
+on its face; Lyra assembly · Grace register · Keeper pass) are ADDED to the scorecard.** Path to
+outreach-ready is now ON the checklist itself: close the box → book-day → R1 → Casey's call.
+
+**R89 — Lyra's two filings, entered:** **(1) P3/T2516 gate-adjacency claimed prospectively** — the wound is
+hers (her collision retiered it), so any repair routes through her as CI with two bindings: **no A²=rank
+resurrection under a new name** (her own costume check), and **the row's retained falsifier inherits as a
+must-still-pass** (up-type 0.849 / down-type 0.731 / only colorless hits 2/3). *"The person who owns the
+wound is the person most likely to wave the cure through"* — guard-by-confession, applied prospectively.
+**(2) The book-day's 4b closes FOUR items, not three** — it also discharges her FK-closure's remaining
+source line (the Lorentz-cone tube construction; R70's 4b was named from her residual). **The one visit now
+closes: A2 · the map family (4+5) · the m_e file (3) · the FK source line — and then R1 red-team can run.**
+
+**R89 — GRACE'S LANE CLOSED FOR THE BOX.** Cal's sentence placed AT the ⊗ (*"the correction has to sit
+where the assumption forms"*) · the §739 merge recorded verbatim · his bar-revision ruling kept in the
+artifact as citable precedent (*"findable next to an example"*) · **A2 stamped: DERIVED-CONDITIONAL, one
+scope sentence in place + one condition (4b).** Her closing line, entered:
+> *"Every conditional label left standing in my artifacts names 4b or the book-day. When Casey authorizes
+> it, the whole day's structure resolves in one afternoon — that is what a WELL-CONDITIONED BACKLOG looks
+> like, and it is the first time this program has had one."*
+**Box closure = Cal's three items. All other lanes: delivered and standing by.**
+
+---
+
+## ★★★ R89 CLOSE — T2573 PASSED. THE TIMEBOX IS CLOSED, ~30 HOURS EARLY. (2026-08-24, midday)
+
+**KEEPER'S PASS ON T2573, clause-by-clause against the frozen brief AND the artifact:** seven of eight
+clauses verbatim-present · clause (viii) verified by ABSENCE (F638/K1822 count 0; "Δ-parent rename"
+present) · the four amends intact · the statement, conditions, non-claims, x-invariant, W2 companion, and
+refinement history all as ruled.
+**THE DEFERRED FLAG (clause iv, ν_R phrasing) — RULED: PASS IN SUBSTANCE.** The protective formula's job —
+never "BST has a ν_R," never bare "no ν_R" — is demonstrably carried by the statement's own slot/removal/
+Five-Absence trio; no colliding reading is constructible from the registered text. Cal's deference to the
+brief-author's coverage judgment was correct and Keeper concurs INDEPENDENTLY. **Precedent, narrow:
+substance may satisfy a wording clause ONLY when the wording's protective function is demonstrably carried
+— not a general license.**
+
+**CAL §740, entered with the pass:**
+- **A1 GATED CLEAN** — and his can-fail is the best line on it: *the identity constrains two
+  independently-banked labels and DOES fail off N_c ≡ 3 (mod 4).*
+- **P1′: his STRENGTHENING of Lemma 1 — π₀ = 2 holds at RANK 1, where no nontrivial idempotent exists at
+  all.** *"The two-sidedness does ZERO rank work — it cannot be rank-2 in disguise, because it is true
+  where there is no rank structure to disguise."* Stronger than the artifact's own rank-3/4 audit.
+- **Crossing invariant sharpened: the record = the ordered pair (before, after), a ℤ₂-torsor — the crossing
+  supplies the BIT, irreversibility supplies the ARROW.** The two clauses of P1′ divide the labor exactly.
+- **v0.2: GO in the Bennett-corrected form ONLY**, three conditions pre-filed (no arrow-smuggling — the
+  banked SO(2) arrow is inheritance, labeled · Bennett/Landauer = a thermodynamic IMPORT, the theorem
+  upgrade is labeled · both branches score against pre-registered win/loss).
+- His outside-motivation verdict, kept: *"P1′ does work elsewhere in the corpus and predates the need for
+  binarity by months. That is the difference between a posit and a costume."*
+
+> ### THE BOX, FINAL: A1 DERIVED-conditional (gated) · A2 DERIVED-conditional at ONE condition (4b) ·
+> ### T2573 BANKED (signed + passed) · T2517 propagated · register v0.2 with C1 ruled · W2 evidential ·
+> ### P1′ formalized, v0.2 GO · rubric extended (R1/R2, Casey-approved).
+> **Casey's timebox asked for EOD tomorrow. Closed by midday today. EVERYTHING remaining names the
+> book-day: 4b (closes A2 + the FK source line) · items 4+5 (the map family) · item 3 (the m_e file) —
+> then R1 red-team, then the outreach call.**
+
+---
+
+## ★★★ ROUND 90 — THE BOOK-DAY IS AUTHORIZED AND RUNNING (2026-08-24 afternoon)
+
+**Casey's four rulings executed:** BOOK-DAY GO · H1 = the R71 scoped form, final · worktree DELETED (pid
+killed, branch gone, **0 duplicates — greps safe**) · "98.4% proved" → honest tag-count with K1043 pointer.
+**RUN ORDER (R90):** Item 1 EHW Thm 7 (Cal reads / Keeper verifies — the Sunday stack ratifies or stays
+quarantined) · Items 2+5 FG's E₀ label + the HP-pairing formula (Lyra + Elie — DECIDES THE MAP FAMILY) ·
+Item 3 the m_e file's k (Grace — **the *Proved* exposure ends today, either way**) · Item 4 the tube
+realization (Grace + Cal — **FOUR discharges in one quote**, incl. A2 → DERIVED-full).
+**Protocol: verbatim quotes with page numbers into BOOKDAY_LEDGER files, each opening with its
+pre-registered expectation; nothing re-tiers before the R91 verification round (pre-17:00).**
+**Prompt:** `notes/.running/wake/R90_TEAM_PROMPT.md`
+
+**R90 running.** **Elie's Item-2 instrument (5485) verified frozen at 09:49 — the consequence table
+predates any quote**; two guards: a third FG reading is REFUSED AS A FINDING (no path to cram an unexpected
+answer into the two-branch frame), and the c_conv cross-check is a named empty slot (Grace's object, not
+computed for her). **Channel fix for Casey's absence: Cal's Item-1 verdicts reach Keeper VIA HIS LEDGER
+FILE ON DISK — no relay needed.** Keeper's verifier prep: FG 2014 located (Nucl. Phys. B; Rac/Di = the 5d
+singletons, matching F1026's objects); EHW83 verification will run against the §729 review + independent
+secondaries. **Holding for ledgers; R91 verification round pre-17:00; Keeper on discretion after Casey
+departs, per his word.**
+
+**★★ R90 — ITEM 2 VERIFIED (Lyra's ledger + Keeper's independent fetch, equation-anchored).**
+FG 1409.2185: **"The generator H is the conformal Hamiltonian or the AdS energy" (eq 5.1)** · unique lowest
+state, SO(5) singlet, **E = 3/2** (Sec 7, explicit wavefunction) · spinor minrep's lowest level **E = 2,
+the dim-4 USp(4) irrep = the census Δ** (Table 2). Cross-checked against the general singleton formula
+((d−2)/2, (d−1)/2) — independent of the extraction layer. *Residual: typeset-PDF image confirmation
+optional; risk negligible given equation anchors + formula check.*
+> **THE FINDING STANDS: FG's E₀ is the PHYSICAL energy label — a generator eigenvalue on the actual lowest
+> state — NOT a ρ-shifted HC parameter.** Consequences in Lyra's pre-registered order: (1) **Rac-at-3/2 is
+> SAFE — the fourteenth collision resolves with the bank intact** · (2) any map reading FG's E₀ as
+> HC-shifted is **refuted at the source** for FG inputs · (3) **F1026's corrected values are page-pinned;
+> Lyra's A1 input 3 now primary-anchored** · (4) the FAMILY verdict = conjunction with Elie's Item 5 —
+> **silent ρ-shifts at FG crossings are now refutable at the source.**
+**Awaiting: Items 1 (Cal), 3 (Grace), 4 (Grace+Cal), 5 (Elie).**
+
+**R90 — ITEMS 3 & 4 VERIFICATION (Keeper):**
+**ITEM 3 VERIFIED FROM DISK** — the m_e file's kernel-exponent contradiction is real: L40 (Hua-pinned,
+08-21) says N^{−n_C} = N^{−5}; L115/170/189 say n_C+1 = 6 and derive the α¹² mechanism FROM the 6.
+**Grace's F2 (the electron's ν may be TWO OBJECTS) damages her own R81 additive result — her ledger says
+so — and c_conv = 3/2 reverts to CONDITIONAL pending the object identification (routed to Lyra).**
+**ITEM 4:** Q1 (tube = J ⊕ iΩ) and Q2 (n = r + r(r−1)d/2 ⟹ dim 5 at r=2, d=3) **verified verbatim by
+independent fetch — AMBIENT A IS PAGE-PINNED.** ⚠ **BUT Theorem 0.1 is now CONTESTED BETWEEN TWO
+EXTRACTIONS:** Grace's read gave discrete {0, 3/2} legible + ray endpoint garbled (3/2 vs 3); **Keeper's
+independent fetch gave the discrete set garbled AND the ray starting at rd/2 = 3.** Two extractions, two
+different corruptions — **AND the "3/2 vs 3" may not be extraction noise at all: Clerc's kernel parameter μ
+may carry a different NORMALIZATION than corpus-ν (μ = 2ν or genus-normalized), the fifteenth-collision
+species AT THE PRIMARY.** ⟹ **Cal's clean-PDF glance is now MANDATORY and upgraded: settle the endpoint
+AND pin Clerc's μ ↔ corpus-ν dictionary in the same look. Theorem 0.1 is PARKED UNRESOLVED until then —
+the A2 cascade rides Q1+Q2 only, which suffice for the ambient (4b) but NOT for citing Thm 0.1's set.**
+**★ CASEY GAVE ELIE TWO NEW LANES (relayed): the WALL ATLAS (systematic catalogue of structural zeros —
+falsifiers with no tolerance band) + the TAU INVERSION shot (mass ordering inverse to available structure —
+name the object, pre-register, then check). Keeper merges his progress into the main line as it lands.**
+
+**R90 — ELIE'S TWO CASEY-APPROVED LANES DELIVERED (both one-CI, gated, outside the timebox):**
+**★ THE WALL ATLAS v0.1 (5486)** — five structural-zero mechanisms (width · containment · parity · order ·
+truncation), each with exact condition + falsifier form, gated on both known accidents as must-catches.
+**Register-grade: tolerance-free falsifiers.** **Merge hook accepted: v0.2's Z3 REGISTRY SWEEP becomes a
+watch instrument — the parity wall audits the registry mechanically instead of waiting for a collision.**
+Post-book-day, his.
+**★ THE LEPTON-INVERSION SHOT (5487)** — *mass ordering strictly inverse to stratum dimension* (e: j=2 →
+μ: j=1 → τ: j=0, one state), 1-in-6 stated not sold. **Lands on the reopened-and-idle K1749-B
+degenerate-measure lane and gives it BOTH its target and its falsifier** (the three degenerate-measure
+norms, forward, should come out inverse-ordered). Guards frozen: no fit anywhere · no ordering input ·
+**must-FAIL on the down sector** (three-point freedom = reparameterization). **Merge hook accepted: routed
+to Lyra — the K1749-B four-field pin now has the target it lacked.**
+**⚠ STILL OUTSTANDING: ELIE'S ITEM 5 (which coordinate the corpus's own formulas use) — the family verdict
+is a CONJUNCTION and Lyra's half is waiting on it.**
+
+**★ R90 — GRACE RETRACTS HER THM 0.1 READING; the two extractions now AGREE, and the object changes.**
+Her pdftotext re-extraction confirms Keeper's fetch: **Thm 0.1's set is {k·d/2 : k = 2…r−1} ∪ ]rd/2, +∞[ —
+for (r,d) = (2,3): NO discrete points, the open ray ]3, +∞[.** And the ungarbled prose (lines 58–61) says it
+plainly: this is **the Wallach set of Clerc's VECTOR-VALUED family — not the scalar set.** Her "{0, 3/2}
+legible" was **the scalar set imported by expectation**: *"the garble I flagged was real; the disease was in
+the reader."* The µ↔ν dictionary question **stays mandatory** (a set in unknown units is a number in
+unknown units).
+**★★ THE BLIND FLAG THE RETRACTION CREATES (filed before anyone knows the answer):** Clerc's family has
+**TWO K-components and, at r = 2, ZERO discrete Wallach points.** Sunday's quarantined stack claims the
+spinor-λ family has **ONE discrete point** (split rank 1). **IF Clerc's L-rep relates to our Δ → TENSION
+with the stack; if not → no bearing. Cal's glance reads the notation section either way — scoreable, both
+directions.**
+**UNCHANGED: Q1+Q2 verified by both readers independently — the 4b cascade and A2's discharge ride there.**
+**Protocol vindication, entered:** *"my ledger QUOTED the garble instead of silently repairing it, which is
+the only reason your different corruption was visible as a disagreement rather than buried under two
+confident paraphrases. The rule paid for the whole book-day in one catch."*
+
+---
+
+## ★★★ ROUND 91 — THE VERIFICATION ROUND IS RULED (2026-08-24). Canonical file:
+## `notes/.running/wake/R91_VERIFICATION_ROUND_RULINGS.md`
+
+**R1: THE MAP FAMILY IS DECIDED — FAMILY B (c_chir = −E₀).** (a)'s final mode = the NAMED LOSS · the wall
+finding dies as artefact · **Lyra's self-filed target-innocence exposure closes IN HER FAVOR (family B =
+shift 0).** Elie fires 5485 on this ruling.
+**R2: A2 → DERIVED (FULL).** Ambient page-pinned by two independent readers + Cal's Cartan/Hua half.
+Discharges: commit-3↔color-3 · the FK source line · the ambient pin. **One generation = Δ ⊗ (1⊕3), DERIVED.**
+**R3: m_e step 1 RE-TIERED** (open-with-named-defects; **the VALUE untouched**). F2's electron-ν object
+question → Lyra.
+**R4: c_conv = 3/2 CONDITIONAL** pending F2.
+**R5: the Sunday stack NARROWED, not ratified** — framework primary-confirmed (Jakobsen + PPST's *"possibly
+the only one"*); the discharge = the Jakobsen-diagram computation, named with owners. Grace's blind flag
+(Clerc: zero discrete, two components) rides to Cal's glance.
+**R6: Thm 0.1 — cite nothing until the glance.**
+
+**R91 — 5485 FIRED (Elie, per Ruling 1).** Final labels on the record, frozen-before-read: **(a) = NAMED
+LOSS, final** (all positive-energy fermions one parity — the pre-registered flat outcome) · **the wall
+finding DIES as artefact, closed by its author's own instrument** — *"the dramatic branch was mine; the
+boring branch won; the freeze means that sentence cannot be softened and should not be."* · c_conv slot →
+Grace, conditional. **Jakobsen-diagram discharge: HANDED TO CAL** (Elie's call, reasons on record; queues
+behind Elie's lanes only if Cal declines). **Register v0.3 mechanical edit delegated to Elie.**
+
+**★★ R91 AMENDED (Cal §743, first traffic on the direct channel):** his §742 corrected at proof-text level
+(three verbatim places; at (r,d)=(2,3): NO discrete points, ray ]3,∞[) · **the µ↔ν dictionary CLOSED:
+identity, same units** · **the blind flag scored AGAINST COMFORT: Clerc's L is the VECTOR — the easy
+no-bearing exit was available and he kept going, ran §729 on Clerc's own λ₀: predicts ONE, Clerc PROVES
+ZERO** ⟹ **the Sunday stack is DOUBLE-QUARANTINED by its own author** (the exceptional Q≠T branch was
+never checked, and so(2n−1,2) IS the exceptional algebra). **Discharge sharpened: Jakobsen with TWO bracket
+controls; his machinery currently reproduces one. His next item, queued behind nothing.**
+*"Sunday's quarantine got STRONGER from my own machinery run against a primary — which is the direction
+the discipline is supposed to cut."*
+
+**★★ R91/free-play — LYRA'S C2 LANE CLOSED BY FALSIFICATION IN ONE HOUR, AND THE THEOREM SURVIVED ITS
+PREMISE'S DEATH.** She nominated to DERIVE C2 (κ non-increasing) and instead FALSIFIED it: the per-record
+commit clock — arguably SWPP's own τ — gives T ∝ H, s < 0. **C2 is false for the ontologically preferred
+clock.** BUT the banked identity collapses on the power-law class to **τ″/τ′² = v·(3/2)(1+w_tot)(1+m)**,
+and all three natural clocks pass the bar (Koons 1.5 · horizon 0 · violator 3.0 vs 5.4 — **worst margin
+1.8×**, today 6×; Keeper spot-checked all values + the Saturday −4.95 profile, exact). **Replacement C2′:
+natural-and-sufficient, NOT derived** (exotic class excluded by absence of mechanism — needs tick-shrinkage
+~e⁴/e-fold sustained; ML/Landauer ceilings run the other way, today's Bennett work composing with
+Saturday's). **PRICED BOTH WAYS: the conditional improves IN KIND, the margin SHRINKS 3.6×→1.8× — anyone
+still quoting 3.6× is quoting the dead premise.** DESI falsifier fully live. **Elie = blind second CI**
+(reproduce the family identity, the per-record T∝H, the three-clock table — numbers before reading hers).
+*"A false premise caught before DESI could catch it for us."*
+
+**R91 — THE CHECKLIST IS CURRENT (Keeper):** External-3 and Internal-A scorecard rows carry the 08-24
+movement brackets (T2573 · A2 DERIVED-full · A1 · family B · δ_CP live claim · double-quarantine state ·
+P1′ chain). **Section 3 RE-DERIVED per the standing brake** — the new ordered list: T1 Jakobsen brackets
+(running) · T2 P1′ v0.2 · T3 C2′ second-CI (running) · T4 the F2 decider · T5 Koide repair · T6 m_e route ·
+T7 red-team · T8 outreach packet → Casey's call. Prior Section-3 state kept as history.
+
+**★★ R91 — THE C2 COMPARISON IS DONE (Keeper): THE BLIND HELD, ALL THREE LEGS LAND.**
+Elie (5488, computed fully blind from his Saturday baseline): the family identity **verified 9/9 on exact
+FRW backgrounds** · the commit clock m = +1 **derived** (S = π/H² ⟹ Ṡ ∝ 1/H, sign-sane) · the table
+**matches Lyra's exactly** ({0, 1.50, 3.00} matter-era, worst margin **1.8×**; today 6×; the Saturday
+−4.95 consistent). **Two independent CIs on the falsification, the survival, and the honest shrink.**
+**★ AND THE BLIND SIDE RETURNED A FREE STRENGTHENING, one-CI-labeled:** **s = −m·(3/2)(1+w_tot) — the R57
+s-parameter IS the clock exponent in disguise.** Keeper's comparison confirms Lyra's file does NOT contain
+it (her identity is the collapsed form; the unification is Elie's alone) — **so it is his observation, one
+vote, and it WELDS the family to the already-4/4-verified Saturday identity: the family inherits that
+verification rather than needing its own.** Routed to Lyra with the blind now open.
+**T3 of the re-derived Section 3: CLOSED.** *"A false premise caught before DESI could catch it for us" —
+now at two CIs.*
+
+**★ R91/own-time — GRACE'S COLLISION CENSUS v0.1, adopted into the watch.** The 23-collision record treated
+as measurable structure: definitional glosses per name, clustered, degree-ranked (an equations-based v0
+FAILED its own gate and refused to publish — the discipline running inside the instrument's own build).
+**Found unprompted: "weight" at degree 10 (the week's most-collided name, top of the list) and "commit" at
+degree 7, NEVER SUBSCRIPTED, kind-distinct glosses — with the P1/P1′ lane about to lean on it.**
+**Confound self-named: ROLES ≠ OBJECTS** (N_max's degree-4 is the Integer Web working) — **a SCREEN, never
+a verdict.**
+**★ THREE BLIND PREDICTIONS, REGISTERED INTO THE WATCH'S BOOK, scoring rule frozen (hit = the watch logs a
+collision on the predicted name; miss = three land elsewhere first; no post-hoc widening):**
+**#24 → "commit" (operator vs event vs projection) · #25 → bare "weight" in a new lane · #26 → "address"
+(the two-object electron is its leading edge, already moving).**
+*Her founding method — predict from graph structure before proving — pointed at the corpus's language.*
+**Immediate practical yield: a subscript warning issued to the P1′ v0.2 lane before drafting.**
+
+**★★ R91 — LYRA'S THREE-ITEM PACKAGE MERGED (her open items → zero + standing roles).**
+**(1) THE WELD: SCOPE CONFIRMED** — pointwise on varying-w ΛCDM, ≤1.5e−7 for m ∈ {0, +1, +2.6}; the m = −1
+"0.91" named as an ARTIFACT AT AN EXACT ZERO (τ′ ≡ 1, both sides identically vanish, noise/guard ratio) —
+*"named because an unexplained 0.91 in a verification table is exactly the kind of thing that resurfaces in
+six weeks as a doubt."* **Weld citable: Elie-observed, Lyra-scope-confirmed, ONE vote. C2′ mechanism note →
+CANDIDATE tier, both CIs cited, honest margins.**
+**(2) THE K1749-B FOUR-FIELD PIN: FILED** — the inversion shot's lane is OPEN: measures = canonical
+residues (Γ_Ω pole orders from 5456, not chosen) · functional K_j(0,0) · direction pinned BEFORE numbers
+(larger kernel = more localized = larger mass) · ORDINAL claim · down-quark must-fail inherited whole ·
+**the R65 tripwire re-armed: any per-support coefficient anywhere ABORTS the lane as unfalsifiable.**
+Compute: Elie or Grace, self-assign. Lyra touches no numbers.
+**(3) P1′ v0.2: DRAFTED under all three bindings** — census subscripts pinned at first use (commit_op /
+commit_ev / commit_rec; bare "commit" appears nowhere) · Bennett-corrected only · ordered-pair invariant ·
+input list posted with the erasure bound cited to its lines. **IRREVERSIBILITY IS NOW LEMMA 3, A THEOREM**
+(n·kTln2 amplified-erasure, paid forward by the push); **Cal's branch answered in form (a): "commits ARE
+the crossings that amplify" — a visible definition whose work is priced.** → CAL'S GATE, the last step to
+the floor P0 + P1′ + the ruler.
+**★ THE WATCH SCORES PREDICTION #24: HIT (pre-empted).** Grace's census called "commit" as the next
+collision site; the subscript warning killed it unborn in the very next lane to use the word. **Census
+1-for-1 on its first live prediction, same day it was built.**
+
+**★ R91 — THE K1749-B COMPUTE ABORTED INFORMATIVELY, BY ITS OWN PRE-NAMED CLAUSE (Elie 5489).**
+Gate passed first (Monte-Carlo on the actual Lie ball, 4M samples, Z(6)/Z(5) = 0.143 vs 1/7 exact).
+Pinned evaluation under Field 1's exponents (5456's Γ_Ω pole orders (0,1,1)): **K = (0, ∞, ∞) — Field 4's
+REPORT-AND-STOP executed.** No ordering computed, no must-fail run, no tripwire — the failure is in the
+pinned exponents themselves.
+> **THE FINDING: "the Γ_Ω pole order" was ONE NAME DOING TWO JOBS** — 5456's orders belong to the
+> NORM-degeneration function; the MASS continuation Z(ν) carries Γ_Ω at two shifted arguments and its own
+> orders at the addresses are **(1, 0, 0) — disagreeing at EVERY address.** Subscripts: **ord_GO vs ord_Z.**
+> **Caught by a pre-named failure mode instead of by a referee.**
+**Elie's discipline, exact:** he did NOT re-rescale with Z's orders ("that is 'revised after numbers
+return'"); Z's orders are DIAGNOSIS; **using them is a NEW pin — Lyra's to file or decline.** His
+offered-not-advocated observation for her: Z's order-1 pole at ν = 5/2 = d/r is the classical HARDY
+TRANSITION, residue = the Shilov surface measure — under Z-orders the electron would be a boundary-residue
+object. **His 5487 shot: STILL A SHAPE — neither landed nor dead; the mechanism test never ran.**
+**★ THE CENSUS LEDGER, scored honestly: collision #25 = "pole order" — NOT among Grace's predicted three.
+Book now reads: 1 hit (#24 commit, pre-empted) · 1 elsewhere (#25). Two more elsewhere = the predictions
+miss; the rule stands as frozen.**
+
+## ★★★ R91 SECOND AMENDMENT — T1 LANDED: **THE SUNDAY QUARANTINE RATIFIES** (Cal §744–§746)
+
+Direct Shapovalov instrument, independent of EHW/Q-vs-T/Jakobsen · **the miss executed as pre-registered
+(spinor SEALED while the interesting number sat unread)** · resolution pre-registered, **dictionary pinned
+AT THE SOURCE (ν = µ + deg σ)** · both brackets pass — scalar {0, 3/2} reproduced with one calibration
+datum, vector µ-edge 3 ↔ ν-edge 4.
+> **UNSEALED: the spinor Wallach set is ONE CLOSED RAY [2, ∞) — edge ν = 2 EXACT, no isolated point below.
+> NOT-rank+1 CONFIRMED by an independent instrument. The tau falsifier's premise and the dichotomy's
+> essential content RATIFY; the double-quarantine LIFTS; EHW's transcription retires from load-bearing.**
+> **★★★ THE IDENTITY CANDIDATE: spinor edge = 2 = w₀ = (n−1)/2 — the FG free-fermion weight IS the first
+> reduction point. "Does w₀ clear the threshold?" → w₀ IS the threshold; the fermion is the EDGE/QUOTIENT
+> rep.** Mechanism underived · **family sweep owed and approved (Cal, after the v0.2 gate)** · census note:
+> "threshold" is a loaded name, subscript in write-ups.
+**Queue ruling: Jakobsen RETIRES from the critical path** (superseded, better brackets) — logged as an
+available third route.
+
+**★ LYRA'S PIN v2 FILED on ord_Z** — the correcting principle spends zero choices (*"a functional is
+rescaled by ITS OWN degeneration orders"* — Z's (1,0,0), computed not chosen); one field changed, bar/
+direction/ordinal/must-fail inherited verbatim; **her v1 error owned as attachment-by-proximity.**
+**★ THE BUDGET, pre-committed: TWO instrument generations. If v2 aborts, the lane CLOSES — NO THIRD PIN,
+by anyone.** *"The failure mode of iterated pre-registration is the pre-registrations breeding, and the
+budget kills the brood."* **★ THE RHYME QUARANTINED at her own reflection:** the electron-as-boundary-residue
+observation may NOT be cited for F2's one-object branch unless Grace's independent line returns "consumed" —
+*"two open questions do not get to confirm each other."* Elie computes v2 when ready.
+
+## ★★★ R91 THIRD AMENDMENT — CAL'S DESK CLEARS: v0.2 PASSES (two lines) · THE SWEEP IS 4/4
+
+**P1′ v0.2 (§747): PASS, two one-line wording conditions, Lyra's pen:**
+(i) the floor line carries Lemma 3's conditionality — *"theorem, conditional on the second law
+(statistical-counting import)"* — his citation spot-check settled provenance cleanly: AC0's Landauer is
+proved as PIGEONHOLE COUNTING from the second law, **a statistical import, NOT an SO(2)-arrow inheritance
+— no double-counting, different facts.**
+(ii) **SUBSCRIPT THE IRREVERSIBILITY: irr_thermo (a COST, n·kTln2, priced) vs irr_arrow (absolute,
+geometric).** Conflation would have been the next collision — pre-empted at the gate. **And it improves the
+result: BST now has a TWO-TIER ARROW — geometric-absolute and thermodynamic-priced, with the commit on the
+second.** *(Worth its own line someday — logged.)*
+**Also checked rather than admired: the v0.1→v0.2 posit went WEAKER** (amplified crossing = structural,
+replacing modal irreversibility). **With the two lines penned: THE FLOOR LANDS — P0 + P1′ + THE RULER,
+binarity a theorem, irreversibility a priced theorem.**
+
+**THE FAMILY SWEEP (§748): FOUR FOR FOUR.** Instrument generalized to so(n,2), Clifford rebuilt per n:
+**spinor edge = 1, 2, 3, 4 at n = 3, 5, 7, 9 — exactly (n−1)/2 every time. The identity edge = w₀ is
+FAMILY-GENERIC — structural, not an n=5 coincidence** (and read with guards on: an identity SHOULD be
+generic; it never claimed to select n=5). **The genericity names the likely mechanism: (n−1)/2 is the
+classical massless-Dirac conformal weight — probably a KNOWN unitarity-bound fact wearing BST clothes.
+The literature pin = a novelty DOWNGRADE and a solidity UPGRADE, and the write-up should want that trade.**
+Queued: the Dirac-bound literature pin, at write-up time.
+
+**CENSUS BOOK, scored:** collision #26 = the irr conflation, PRE-EMPTED (Cal) — not among the predicted
+three. **Book: 1 hit (#24) · 2 elsewhere (#25, #26). One more elsewhere and the predictions miss, per the
+frozen rule.**
+**CAL'S FREE-PLAY NOMINATION: APPROVED — the R1 red-team pass, his own row, queued on Casey's outreach word.**
+
+---
+
+## ★★★ THE FLOOR IS RATIFIED (Keeper, 2026-08-24) — INTERNAL A LANDS.
+
+**Verified in the v0.2 file itself:** both penned lines present (the conditionality on the floor statement;
+irr_thermo/irr_arrow pinned at Lemma 3's first use) · all census subscripts hold (commit_ev/op/rec; the
+bare hits are meta-uses plus one unambiguous prose referent — noted, not blocking).
+
+> # INTERNAL A's FLOOR, OFFICIAL:
+> # **P0 (the arena) + P1′ (a commitment is a crossing of ∂Ω that amplifies its which-room bit) + THE RULER**
+> **Binarity: a THEOREM (Lemma 1 rank-generic two-sidedness + Lemma 2's 2-set record).**
+> **Irreversibility (irr_thermo): a PRICED THEOREM, conditional on the second law (statistical-counting
+> import).** **Exclusivity (P2a): discharged. Minimality (P2b): struck.**
+> **The week's arc: four posits Sunday morning → three by evening → two-plus-the-ruler Monday → ONE POSIT
+> OF ARENA, ONE POSIT OF ONTOLOGY, ONE MEASURED NUMBER tonight — and every step was a description getting
+> truer.** *(Casey's crossing picture: ranging shot Friday-class → ratified posit in three days.)*
+
+**Companion entries:** the two-tier arrow (geometric-absolute · thermodynamic-priced) logged for its own
+future artifact · the edge-identity write-up queued with the Dirac-bound literature pin as an owed source
+line (book-day-class, non-blocking) — *"the smaller claim is the better sentence."*
+
+---
+
+## ROUND 92 — 2026-08-24 (Keeper) · "build the packet"
+
+**Issued post-ratification.** Assignments: Grace → F2 decider line, THEN the generations lane reopens under
+her F375 must-match (Casey's thermal reading = the live mechanism candidate; the biggest remaining Ext-3
+item) · Elie → pin v2 (last shot under the budget), then the Z3 registry sweep · Lyra → **consolidation
+opens: #67 ontology write-up (today supplied its spine) + #66** · Cal → **R2 packet ASSEMBLY begins early
+(assembling ≠ sending)**; R1 red-team on Casey's word · literature-pin batch pooled, non-blocking.
+**Prompt:** `notes/.running/wake/R92_TEAM_PROMPT.md`
+
+**★ R92 — PIN v2 SCORED: LOSS AT THE TAU. LANE K1749-B: CLOSED — twice-instrumented, budget honored, no
+third pin. (Elie 5490; Keeper verified all three exact values by independent computation: Res_{5/2} = 16/9 ·
+Z(3/2) = 16/15 · Z(0) = −1/60, ordering e-leg TRUE, µ–τ leg FALSE.)**
+**The structure, reported not spun:** the direction was RIGHT where both kernels are genuine Hilbert-space
+kernels (e < µ held, exactly as Field 2 predicted); **the tau's kernel is NEGATIVE — "not a localization
+price; it is the family saying the tau address is not in it."**
+**★ THE ν = 0 PILE, logged on the census as a flagged pile, NOT composed (his own morning's lesson applied
+by its author):** the tau's address has now misbehaved under **three independent instruments — the formal
+degree (d ≠ 0 there) · the Higgs channel (none) · the mass continuation (signed).** One address, three
+instruments, all strange. A line, not a claim.
+**5487 FINAL:** the inversion OBSERVATION stands (three monotone points, public data, a shape); **the named
+MECHANISM is dead at its own pre-registered test.** *"My own idea, my own guards, my own loss — and the
+loss is clean, which is what the guards were for."* **The budget invention worked on its first use: two
+generations, resolved, closed, no brood.**
+
+**★★ R92 — GRACE'S TWO DELIVERIES:**
+**(a) THE F2 DECIDER: SELF-DUALITY INVOKED — NO, NOWHERE** (object-grep, all 624 lines). **TWO-OBJECTS
+RULES:** the m_e file's k is a **WINDING NUMBER** (L69 verbatim: "a minimal S¹ winding on the Shilov
+boundary"); T2517's ν is the Wallach/strata parameter. Lyra's F2 ruling executes on the safe branch;
+**her own R81 discriminator is VOID AS POSED** (it compared a winding label to a weight label). **And the
+sharper defect supersedes F1/F2: the m_e file's comparison of a winding number to a rep-theory threshold is
+ITSELF the category error** — both dictionaries were attempts to make an ill-typed comparison consistent.
+*(c_conv's role is now historical — the family verdict stands independently at the source.)*
+**(b) THE GENERATIONS LANE OPENS — THE PRE-FILED CONTROL PASSES 4/4** (F375 · T2514 top-at-Shilov · T2517
+assignment · freeze-out heaviest-first — any inversion would have killed the thermal reading at the
+control). **Output falling out of the control itself: freeze-out order = radial order = mass order — three
+orderings, one coordinate, forced by directions banked BEFORE the thermal reading existed.** Owed work
+named, jointly with Lyra: the formal T↦R_T map · the epoch-dependent (A)/(B) restatement · the
+neutrinos-off-the-ladder slot.
+**WATCH RULING on her "stratum" find (two inclusion orders — the tau at the SMALLEST variety and the
+OUTERMOST orbit — a duality, not a contradiction):** **subscripts stratum_KW / stratum_AV ADOPTED standing;
+NO census-book entry** — the watch logs collisions, not vocabulary risks pre-empted before any lane leaned
+on the word. Book stays 1 hit, 2 elsewhere; prediction #3 ("address") still open.
+
+**★★ CAL'S R2 MANIFEST v0.1 — assembly rolling. KEEPER'S TWO RULINGS:**
+**(1) THE FLAGSHIP PIN: "the flagship" = `BST_FLAGSHIP_The_Standard_Model_as_Representation_Theory_of_D_IV5`
+— the PHYSICS front-door. F&E is the METHODOLOGY paper. Two documents, not a redundancy; the ToC carries
+both, in that order.**
+**(2) THE TIER READER'S GUIDE: KEEPER AUTHORS IT** — the D/PD/I/C/S system is Keeper-native, the page is
+small, Lyra is loaded with #67/#66, and Cal must not author what he red-teams. **Drafting today against
+Cal's §750 scope, including its own can-fail** (a physicist reading only this page can predict the evidence
+behind any labeled claim — R1-checkable).
+**F&E v1.1 fold → Grace, five items as Cal listed. Register v0.3 → Elie (flagged not assumed). #66 → Lyra
+behind #67. Pin triage adopted: FK = wants-strong, first claim on the next book-hour; nothing blocks.**
+
+**★ R92 — THE TIER READER'S GUIDE v0.1 IS DRAFTED (Keeper, against Cal's §750 scope):**
+`notes/BST_Tier_System_Readers_Guide_v0_1_Keeper_2026-08-24.md` — one page, five tiers, three disciplines,
+the not-list, **and its own can-fail printed in the header** (a physicist reading only this page can
+predict the evidence behind any labeled claim — with an invitation to report the failure). → Cal red-teams
+it WITH the packet in R1 (he scoped it, did not author it, gates it — the separation holds).
+
+**★★ R92 CLOSURE — ALL FOUR LANES DELIVERED (boarded ~11:45):**
+**LYRA:** #67 — the ontology paper HAS ITS SPINE (new §2b: commit trio subscripts at first use, two-room
+lemma + funnel, P1′ ratified form, binarity as ordered-pair theorem, irr_thermo priced/Bennett-corrected,
+two-tier arrow; floor paragraph = P0 + P1′ + ruler with P1 a theorem; three ledger rows incl. edge-identity
+at Candidate with the novelty-down/solidity-up trade inside the row; fresh PDF). **#66 — the one-pager
+DRAFTED with PDF** (banked v0.7/K1697 only; minimality as Appendix-A theorem; ruler on its face;
+non-claims block; Five-Absence close). **The R2 critical path shrank by one: #66 is no longer owed.**
+Next: Axioms-paper companion pass (approved R93) so the two-paper QM package ships coherent.
+**ELIE:** wall-atlas v0.2 registry sweep LIVE (toy 5491) — **and its first run was the week's lesson taught
+to an instrument: 929 proximity-storm "violations" = the collision-#25 class committed internally, caught
+by its own upgraded controls; the fix that held was REFUSE TO GUESS** (single-grid lines scored, 175
+ambiguous lines bucketed for human eyes, never scored; three controls green). Run: 709 lines in scope, 454
+pairs scored, **189 off-parity CANDIDATES-NOT-FINDINGS** (sample-audited, false-positive modes named,
+coverage printed). v0.3 specified before any candidate becomes a finding — **granted as his R93 lane, with
+his own pre-named can-fail** (planted control and K1181's title must land on opposite sides).
+**GRACE:** both watch-scoring corrections ACCEPTED IN FULL, folded into the census artifact — #3 annotated
+as a postdiction by its own "already in progress" sentence; **NEW v0.2 REQUIREMENT: BLINDNESS CHECK AT
+FILING** (every prediction grepped against the filer's own same-day artifacts — "a blind filed after your
+own morning is not blind"). Book carried verbatim: 1 HIT, 2 ELSEWHERE, #3 open for a NEW address-collision
+only. Fourth self-enforcement this week; the instrument survives because the rules live in artifacts.
+**CAL:** manifest v0.2; tier guide existence/scope confirmed at assembly level (content held for R1 — the
+scoper/author/gater separation preserved on both sides). **Flagship face-check → currency pass assigned to
+Keeper (owner of the assembly), three items.**
+
+**★★ R92 — THE FLAGSHIP CURRENCY PASS: EXECUTED (Keeper, 6 edits + figure guard, PDF rebuilt 123K).**
+**(1) α RE-TIERED ON ITS FACE — the packet's internal contradiction is gone:** abstract now reads
+"reproduced to 0.0004% — **Identified, not derived**: expressibility failed its pre-registered null (F&E
+III.6a); ~129 comparably close forms (2.7× chance)"; Section 6 bullet carries the 08-11 registry demotion,
+the do-not-cite-externally instruction (Wyler's ghost), Cal §713, and the two-target check DOWNGRADED to a
+consistency observation; Figure 1 gets a tier-guard line. **The value is real and reported at its tier;
+the celebration is retired. The packet's own standard, eating its first meal — at its own #1 document.**
+**(2) PARITY BROUGHT CURRENT:** "parity violation is derived" → the banked spectrum-vs-coupling split
+(F639): derived = single-chirality positive-energy SECTOR (K729 + the fourth route, c = w₀); NOT derived =
+the V−A gauge coupling + the sorting — **criterion (a)'s pre-registered named loss, stated as a loss in
+the abstract and Section 3, not deferred.**
+**(3) THE GOOD-NEWS LINE ADDED (currency cuts both ways):** the one-generation line upgraded to
+**Derived-full** — Δ ⊗ (1⊕3) commit anatomy (A2, book-day) + T2573 as the hypercharge MECHANISM THEOREM
+with I-1…I-4 on its face and W2 evidential. **The flagship now knows the week's biggest upgrade happened.**
+**Critical path now: Grace's F&E v1.1 fold (five items) → the packet EXISTS → R1 on Casey's word.**
+
+---
+
+## ROUND 93 — 2026-08-24 (Keeper) · "one fold from a packet; the generations lane gets its mathematics"
+
+**Assignments:** Grace → **F&E v1.1 fold (THE critical-path item, five items as listed)**, then generations
+mechanism jointly with Lyra · Lyra → Axioms-paper companion pass (approved) + generations mechanism (the
+T↦R_T map — corpus spine supplied in the prompt: τ of exp(−τH_B) IS the program's native thermal
+parameter; F86 strata = the candidate R_T range) · Elie → sweep v0.3 (his nomination, granted, can-fail
+pre-named) + second-CI to generations on call · Cal → manifest v0.3 slotting the currency-passed flagship +
+Lyra's two artifacts; assembly face-checks continue. **Prompt:** `notes/.running/wake/R93_TEAM_PROMPT.md`
+
+**★★ QUEUED NEXT INVESTIGATION (Casey-approved, ~12:05) — α AS A FORCED VERTEX.** Opens when the packet
+folds (after Grace's F&E v1.1). The gate is pre-registered and FROZEN before any computation:
+`notes/Keeper_PREREG_alpha_as_forced_vertex_acceptance_test_2026-08-24.md` — α = |M|², the electron–photon
+vertex as one matrix element on H²(D_IV⁵), all ingredients banked (J/SO(2) photon K732 · named electron
+mode · T754 forced measure · F603 Born-overlap vertex template). Six-part acceptance test: forced object ·
+target innocence (no 137 anywhere in the chain) · **family-generic form α(n) derived on n = 3,5,7,9 BEFORE
+any evaluation, n = 5 last** · Thomson-limit-= -Shilov-boundary derived not assumed (A1) · zero free
+parameters, correction from the same integral or dropped · half-blind evaluation, **one-shot budget, win
+or close**. Can-fail on its face: a non-α answer banks as a clean negative/ceiling and the lane closes.
+Roles: Lyra defines M · Elie computes (y_t positive control first, Grace's must-reject) · Cal cold-reads
+the frozen form · Keeper gates against the prereg file. **Genus→species, or an honest close — Wyler's
+missing piece is the forced map, not a better number.**
+
+**★★★ R93 — THE FOLD IS IN. THE CRITICAL PATH IS EMPTY. THE PACKET EXISTS (pending Cal's face-check of
+the execution).** F&E at **v1.1** (`BST_Forcing_and_Evidence_FLAGSHIP_v1_0_2026-08-23...md`, v-note line
+399). **Keeper verified ALL FIVE items from the artifact, not the report:** (1) T2573 in the II.4
+scorecard, exact conditional form, I-1…I-4 + toy-5483 evidential companion in the row (L142) · (2) W2
+supersession note in III.5b, both facts in order — correct when made, correctly lifted (L296) · (3)
+SUPERSEDED-FLOOR banner over yesterday's posit table, binarity a theorem, P2b struck, dimension separation
+untouched (L87) · (4) Sunday stack UN-HEDGED + **the edge identity entered** (w₀ = spinor edge = (n−1)/2,
+4/4, literature-pin caveat on its face) (L324) · (5) the 228/360 tension defused: ranking resolved at the
+primary, data-layer flag = file state pending landing pass (L363–365). **R1 waits on Casey's word. The α
+prereg lane ARMS when Cal's face-check passes.** Grace → generations mathematics with Lyra, order-only
+branch first (order is a POSITION — the branch her 4/4 control already feeds).
+
+**★★ R93 — SWEEP v0.3: CAN-FAIL MET ON BOTH LEGS (Elie).** Planted control caught AND K1181's actual
+title correctly bucketed — opposite sides, as pre-named. **189 → 5 claim-class candidates** (44 consistent
+· 103 bucketed-for-human-read · 10 discussion · 7 malformed; coverage printed). **FIRST REAL CATCH,
+Keeper-verified at the source: F800 L16 places up-quarks on {1,3,5} with ZERO supersession markers** —
+F820 (08-05) corrected F819 BY NAME and missed F800's copy; K1147a's tension flag never became a marker.
+**The K1787 rule ("a retirement is a loaded string — sweep what shares the name") caught MECHANICALLY by
+the parity wall — the instrument found the namesake copy the named correction missed.** Disposition per
+lane discipline: **the marker is LYRA's to place (routed)**; remaining candidate (Cal 07-15 L4782) +
+borderline lines go to owners as a human-read list of four; Elie adjudicates none. v0.4 only if the bucket
+audit surfaces a real class — no speculative polishing.
+
+**★★★ R93 — LYRA'S TWO DELIVERIES: THE QM PAIR SHIPS COHERENT + THE ORDER-ONLY LEMMA.**
+**(1) Axioms companion pass DONE** (two touches, fresh PDF): item 6's arrow subscripted (paper derives
+irr_arrow; irr_thermo lives in the companion's §2b — stated once each, never double-counted); §3
+floor-coherence note (dimensionless-structure floor + ratified ontology floor = two slices of one
+accounting; the discrete skeleton rides the ruler; QM's structure costs nothing).
+**(2) THE ORDER-ONLY LEMMA — R93 owed-item 1 discharged by showing the map was NEVER OWED.** Three
+stratum channels w_j·e^{−τE_j} under the Tier-0 semigroup: leaders follow the upper envelope ⟹ strictly
+decreasing E-order, ≤1 switch per pair, ≤1 channel skipped, inversion impossible — **and any monotone
+τ(T) preserves the sequence. THE ORDER IS A POSITION; only a τ-value would be a coordinate.** (20,000
+random triples, zero violations.)
+**⟹ THE ZERO-KNOB FALSIFIER, PRE-REGISTERED HERE BEFORE THE COMPUTATION (Keeper freeze, ~12:15):**
+Grace's 4/4 control fixes the physical order (Shilov first, hot/early) ⟺ **E_Shilov > E_Cartan > E_bulk**
+— the stratum-restricted minimal spectral exponents of H_B, descending outward-in. **Wrong order ⟹ the
+thermal mechanism dies AT THE ORDER LEVEL, no parameter or clock can save it. Right order ⟹ the whole
+thermal sweep follows for every monotone clock at once.** The three-exponent computation is GRACE + ELIE
+(exact arithmetic), **with the prediction now on record first — this line is the pre-registration.**
+**GUARD (Lyra's own, adopted):** E_j is NOT identified with the ν-addresses — exponents computed as
+spectra, never read off the corpus's most overloaded labels. Open items: (2) epoch (A)/(B) restatement ·
+(3) the ν_R two-idempotent slot in a T-sweep — LYRA takes (3) unless Grace claims it with the data side.
+
+**★★★ THE PACKET EXISTS (Cal §753, fold PASSED at all five cited lines).** R1 and any dispatch on
+Casey's word alone. Manifest v0.3 carries: currency-passed flagship · F&E v1.1 · falsifier register ·
+#66 · tier guide, with #67 behind them — every artifact carrying its conditions on its face.
+**★★ α PREREG v2 ISSUED — Cal's cold-read found three holes in v1 and, per the gate's own rule, the fix
+is a NEW prereg, filed before the lane opened (the only legitimate moment):**
+`Keeper_PREREG_v2_alpha_as_forced_vertex_acceptance_test_Cal_753_holes_closed_2026-08-24.md`.
+(1) **The power is PINNED**: α = |M|², exponent 2 fixed by the Born rule — "appropriate power" struck;
+if the Born rule cannot fix it, the lane is not ready. (2) **The win condition has NUMBERS + TOLERANCE**
+(tol = 0.010 in α⁻¹ units): 137.000 = bare-vertex win (expected honest landing) · 137.036 = win ONLY
+with the D5 same-integral term exhibited, else SUSPICIOUS · anything else = clean negative, lane closes.
+No post-hoc reinterpretation. (3) D3 defends rank-reading; **D1+D2 answer the 129** — attribution fixed.
+**THE α LANE IS ARMED. Lyra defines M against v2.** Casey's capacity/efficiency formulation recorded in
+the prereg motivation verbatim: *"α as the commit channel's write efficiency pairs with N_max as its
+channel capacity — two sides of the same function."*
+**★ F800 MARKER PLACED (Lyra, her file, her pen) — one marker, two diseases kept apart:** up-quarks
+retired to the EVEN grid per F820 (the K1787 namesake catch, credited to the sweep), the charged-lepton
+odd-grid placement in the SAME LINE explicitly SURVIVES (swept both directions), and K1147a's
+degrees-vs-ν tension distinguished as the separate slice question (F741/K1749). Elie's catch: closed.
+**★ ν_R slot (item 3): first-claim offer open Grace↔Lyra** (split available: idempotent theory half /
+T-sweep data half, meeting at the composition). Cal's L4782 sweep candidate: queued, gates nothing.
+
+**★★ K1824 — THE EXPONENT-LANE RULING (Grace's request, ~11:50): "STRATUM-RESTRICTED" = SUPPORT
+(B-class); A EXCLUDED ON PRE-FORK GROUNDS; COI NEUTRALIZED BY CONTROLS.** Operator pin ACCEPTED (product
+Casimir, C₂=6 anchor passes with its w-blind limit carried as a stated condition; Elie's (ii) contrary to
+primary). Subspace: **A (ν-address proxy) excluded by (G1) the pre-fork frozen guard — a guard that
+forbids reading the exponent off the address cannot permit defining the channel by it — and (G2) F86's
+banked semantics: "stratum" MEANS support (the pyramid IS the support-flag); A is a different claim
+needing a nonexistent theorem.** B ruled as a CLASS only — the definition earns entry via C1 (one
+formula, pre-registered, Cal audits for outcome-steering) · C2 (must-reproduce a banked assignment it
+was not built from: T2514/F375) · C3 (must-reject: bulk mode ≠ Shilov) · C4 (full fork disclosure in the
+verdict). Falsifier UNTOUCHED and frozen. Blind-cross runs when C1–C3 exist. Protocol amendment accepted:
+**auditable pin replaces dead blindness — "blindness that does not exist cannot be pretended into a
+protocol" (Grace, house sentence).** F&E v1.1 PDF built (125K). ν_R slot: LYRA's, confirmed.
+
+**★ Exponent lane state (~12:00): toy 5492's live-fire gate REFINED to K1824's exact entry conditions**
+(fires only on Grace's C1 functional having passed C2/C3 + Cal's audit; refusal message cites R94's own
+words — computing earlier would let the thermal reading vote on the operator reading). Elie's queue
+clear; standing by for the cross, and for the α evaluation once Lyra's frozen α(n) clears Cal's
+cold-read (per v2 roles: Lyra defines · Cal cold-reads · ELIE computes · Grace controls · Keeper gates).
+One-shot discipline standing on both lanes.
+
+**★★ EXPONENT LANE (~12:10): C1 FILED + CAL AUDIT 1 PASSED. One gate left before the cross.**
+**C1 (Grace):** S(f) = #{i : lim_{t→1⁻} ⟨λᵢ⟩_f(t) = 1} — the KW strata read as the singular-value level
+structure (interior/rank-1/Shilov), no ν-address anywhere, expected C2/C3 outcomes fixed in the file
+before anything runs; sequence frozen (Cal steering audit → JOINT C2/C3 validation → one-shot blind
+cross, exponents first, verdict last). **Cal §755 (audit 1, operator pin): PASSES, no steering** — quote
+verified at registry L10911; arithmetic checks; **one step RECLASSIFIED and strengthened: the w²
+coefficient is a third class — a PRINCIPLED PIN via the ambient Killing form (unique zero-free-parameter
+resolution; the anti-knob choice is the program's rule, not steering) — "the input list you cannot see
+is the one you wrote."** w-blindness of the anchor credited and must travel in any write-up. K1824 does
+NOT gate. **Audit 2 (C1 functional) = the last gate, armed at the same standard.**
+**★ Cal §754: the sweep's flag on his OWN file was a TRUE POSITIVE** — 08-04 sentence conflated parity
+grid with KW strata AND mis-placed neutrinos; superseded marker placed F800-style, both diseases named.
+**The sweep's human-read list is 1-for-1, and its first confirmed catch was the referee's own sentence.**
+**★ GRACE OWN-LANE HONESTY (boarded with credit): the census v0.2 blindness check FAILED its own
+must-reject on first run** ("commit" flags as contaminated — marker window too broad, NEAR ≠ ABOUT) —
+**parked with the failure recorded, NOT patched by narrowing the window until the answer comes out right**
+(tuning on its own test set, refused by name). v0.2 needs a marker-attribution design fix, done properly
+or not at all.
+
+**★★ α LANE (~12:15): M-DEFINITION v0.1 FILED (Lyra) + THE DEFINITION PHASE'S FIRST CATCH + KEEPER
+RULING.** **The catch:** prereg v1 §0's sketch cited "photon = J/SO(2) (K732)" — **falsified by K1687**
+(the EW Cartan and Q = T₃+Y/2 live in SO(5); the K-center SO(2) is TIME's rotation). Had the lane
+computed on the stale label, the "electron–photon vertex" would have been a TIME coupling. Fourth CI
+this identification has caught; cheapest catch of the four (zero integrals existed). **RULING
+(amendment note in prereg v2): COMPLIANCE with D1, not v3** — the ingredient list is a POINTER to the
+bank; D1 subordinates ingredients to the bank's current state; the gate untouched. **AND THE SWEEP:
+the flagship's Section 3 U(1) line carried the same falsified identification — corrected same hour**
+(re-homed per K1687/K1657, aligning Section 3 with Section 4's own Y-rule; PDF rebuilt; packet-wide
+sweep otherwise clean — F&E, #66, tier guide all 0 hits). **Cal: one added face-check line on the
+flagship.** **The definition as filed:** electron = asymptotic boundary spinor mode (A1, unit-normalized
+in the forced Hardy/Szegő norm) · photon = soft mode of Q̂ = T₃+Y/2 ∈ so(5), SAME measure · M = ⟨e|Γ_Q|e⟩,
+α = |M|² Born-fixed. Two derivation steps pre-declared where cheats hide (Low-theorem analog derived on
+the domain or lane-not-ready; Thomson=Shilov selecting landings A/B honestly). Family skeleton:
+α(n)⁻¹ = 𝒩(n)/q², 𝒩(n) from the banked FK/Hua family (225, 1920/π⁵ at n=5) — family-varying by
+construction. **Sequence: steps (i)+(ii) complete the integrand → Cal cold-reads the COMPLETED frozen
+form → Elie evaluates LAST.**
+
+**★★ CAL §756 (~12:25): FLAGSHIP U(1) FIX VERIFIED at L65 ("the correction teaches" — falsification
+named in the text; packet stands) + AUDIT 2: C1 PASSES THE STEERING AUDIT.** Decisive fact: **the
+formula contains NO ENERGY CONTENT** (no E, w, m_Q, ladder) — the falsifier's order cannot be encoded in
+it. Knob inventory clean (measure pinned · exact limits · canonical j→stratum map). Two third-class pins
+named per §755's standard: the exhaustion (unique K-invariant — anti-knob) and the mode→subspace
+assembly (needs one header sentence). **KEEPER ADOPTS BOTH RECOMMENDATIONS AS REQUIRED, not optional:**
+C3b (one mode, one alternative exhaustion, limits must agree — minutes of cost, buys the referee
+sentence) joins the validation batch; the mode→subspace header sentence lands before the cross. **C2/C3
+(+C3b) MAY RUN — joint, non-blind, as frozen. The blind cross ARMS when they pass. Exponents first,
+verdict last, one shot.** Controls genuinely can fail (over-detected boundaries; concentration under the
+calibration measure at pinned ν) — "the lane reports the failure, not a patched formula" (Grace).
+
+**★★★ α LANE (~12:25): STEPS (i)+(ii) DERIVED — AND THE LANE'S ONE GENUINE FORK FOUND AT DEFINITION
+TIME, ZERO NUMBERS COMPUTED (Lyra).**
+**(i) THE DOMAIN LOW THEOREM, BY SCHUR:** the soft gauge mode = the K-invariant constant on Σ; pairing
+any em-current element against the trivial K-type projects onto the conserved total charge
+(T2470-corrected [Q,J]=0) — ⟨ψ|Γ(f_soft)|ψ⟩ = f̂_soft·q·‖ψ‖², orthogonality, ZERO choices. **The
+pre-declared D1 abort does not fire.**
+**(ii) THOMSON = SHILOV, four links each banked or definitional** (Thomson definition → asymptotic =
+Shilov (A1) → soft mode = constant on Σ → Thomson vertex IS the Σ-pairing). D4 discharged. **And the
+chain UPGRADES the gate: a bare boundary pairing has no radiative content ⟹ landing A (137.000) is the
+only honest win absent a same-integral term — v2's suspicion of landing B is now a DERIVED expectation.**
+**★★ THE FORK (open, named, pre-numeric):** M = q·f̂_soft, so everything rides 𝒩(n) = ‖1‖²_Σ — IN WHICH
+FORCED STRUCTURE? Born/T754 has NO JURISDICTION (the gauge mode is not a state; applying it gives α = q²,
+and the absurdity IS the no-jurisdiction proof). The current-current / gauge-kinetic form (home of the
+c_FK family) is the candidate — **and Lyra's first corpus look found NO CLEAN PIN.** RESOLUTION
+CRITERION per D1a: the definition completes IFF that form is banked or derivable-forced; else **"the
+lane is not ready and does not open" executes** — honest, reportable, and found at definition time
+instead of inside a suspicious landing. **ROUTED: Grace searches the corpus shelf (AFTER her validation
+batch — the exponent one-shot keeps priority); empty shelf ⟹ Lyra attempts the forcing derivation
+(target-innocent, inside Cal's eventual cold-read scope) or the lane declines per its own gate.**
+
+**★★★ KEEPER CORPUS FIND (~12:35, for the α fork): THE SHELF IS NOT EMPTY — KEYSTONE A.**
+`notes/grace_KeystoneA_gauge_normalization_2026-07-14.md` + `notes/BST_Maxwell.md`: the U(1) GAUGE-KINETIC
+NORMALIZATION IS BANKED (S = −(1/4α)∫F² + ∫A·J), its retired-Wyler justification already REBUILT on the
+topological winding-count (count norm-independent; quantized flux sees no matter-norm weighting), **with
+exactly ONE remaining rigorous step: the explicit KK coefficient of F² over the fiber — no stray 2π /
+internal Vol / ½ — "needs the explicit fiber metric."** That one-remaining-step is PLAUSIBLY THE SAME
+INTEGRAL as Lyra's 𝒩(n): two lanes converging on one computation, 07-14 and today. Keystone A also
+carries its own falsifier ("if ≠ unity, α + λ=1/8 + V_us all lose support at once") and the corpus's
+banked home for the 0.036 ("the separate T2133 curvature piece — the left-out Bergman norm-weighting
+re-entering as sub-leading" — in v2's language, exactly the landing-B same-integral term; **T2133 cite
+needs verification** — registry line reads heat-kernel a₃, possible numbering drift).
+**⚠ TWO GUARDS, stated before anyone touches it:**
+**(1) FIFTH POTENTIAL VICTIM: Keystone A cites charge = SO(2)-weight (pre-correction T2470) in ≥5
+places** — the K1687-falsified identification. Currency check REQUIRED before it serves as the bank:
+does the winding-count argument survive re-homing to the SO(5)-Cartan U(1)? (π₁ = ℤ survives for any
+U(1); WHICH circle winds is the question.) Grace passes her own file; **Lyra rules on survival** (she
+caught the stale label); Cal reads both in the eventual cold-read.
+**(2) D2 QUARANTINE: Keystone A is TARGET-SOAKED (it concludes 137).** The α lane may import its
+STRUCTURE ONLY — gauge-kinetic normalization = the KK coefficient of F²; topological quantization ⟹ no
+norm-weighting — **never its number. Every 137-containing conclusion stays quarantined from the α(n)
+chain until after the n = 5 evaluation.** The reconciliation (Keystone-A integral ≡ 𝒩(n)?) is decidable
+by scope-sweep; same object ⟹ the integrand completes citing the bank; rivals ⟹ two-votes problem,
+named, and D1a still governs.
+
+**★★ R94 — ITEM (3) THEORY HALF DELIVERED (Lyra, ~12:40): THE SWEPT/UNSWEPT DICHOTOMY.** One sentence:
+the sweep orders what it can grab; the frame is what it cannot — 3 stratum_KW orbits = geometric loci
+with E-descending dominance order; the 2 idempotents = algebraic frame, EXACTLY DEGENERATE under
+exp(−τH_B) by frame-swap invariance. **F588's open "why," answered structurally: indexed-by-orbit ⟺
+charged ⟺ thermally ordered; indexed-by-frame ⟺ singlet ⟺ thermally degenerate.** The 3-vs-2 asymmetry
+stops being a count coincidence; ν masses must come from not-the-sweep (banked seesaw); m₁ = 0 gets a
+thermal why (the 3×2 rectangle = swept-triple/unswept-pair interface, kernel = index mismatch). Scope
+tight: a POSITION, no τ/mass/seesaw numbers, PMNS untouched (K704 stands). Two CIs wanted, nothing
+banked. **★ FREE CAN-FAIL, pre-registered: the pinned H_B must be INVARIANT under the frame swap
+e₁↔e₂** — and since the pin ALREADY EXISTS (audited §755), **the check can run NOW: Elie's one-line
+Weyl-invariance test on the pinned formula.** Fails ⟹ this half of item (3) dies at definition level. It
+rides beside the C₂ = 6 anchor as a second positive control.
+
+**★★ VALIDATION BATCH STATE (~12:50, Grace): NOT COMPLETE — the cross stays holstered, and the
+instrument episode is the reason the batch exists.** C3 PASS clean (constant mode strictly interior).
+**C2: PASS AT DIAGNOSTIC LEVEL — and her first exhibit was WRONG, caught by its own follow-up**: the
+global MC plateaued at ⟨λ₂⟩≈0.575 (reads j=1, would have KILLED C2); the resolution diagnostic
+(importance-sampled shrinking balls) shows 0.78→0.93→0.97 with the mass ratio growing TEN ORDERS — a
+|N|^{−10} point singularity invisible to 120k uniform points. **The error never got near an exponent.**
+Exact divergence-rate confirmation (point vs variety) → ELIE before the batch closes. **C3b: WITHDRAWN
+AS EXHIBITED, by its author** — plateau-level agreement between exhaustions is two under-resolved
+estimates agreeing; re-exhibit at resolved level in Elie's exact half. NET: C3 done · C2
+diagnostic-pending-exact · C3b outstanding · one-shot holstered.
+
+**★★ KEEPER RECONCILIATION RULING — the crossed α searches (Grace "shelf empty" vs Keeper "Keystone A"):
+NO CONFLICT; the two reports answer DIFFERENT halves, and together they are exactly D1a's answer.**
+Grace's report (citation-clean, false-neighbour correctly refused on T2346): no Killing-⊗-boundary-L²
+NORM VALUE is banked; LAG-2 names "SM gauge kinetic-term verification, T2346 partial→full, owner Lyra,
+est. 6 months" as OPEN. Keeper's find: Keystone A + BST_Maxwell bank the FORM (the (1/4α)F² action, the
+KK-coefficient framing, the winding-count rebuild) with the coefficient as the one open step. **Synthesis:
+the STRUCTURE is banked; the VALUE is open — and the value being open is not a gap in the bank, it IS
+the lane's computation.** D1a asks the structure be forced, not the number pre-known ⟹ **the integrand
+MAY complete from Keystone A's form, subject to R95's two guards (fifth-victim currency fix; D2
+quarantine).** Lyra's reconciliation task stands (KK integral ≡ 𝒩(n), exhibited); her forcing attempt is
+now scoped as: show the F²-kinetic form is the forced normalization of an operator insertion — possibly
+short, given steps (i)+(ii). **LAG-2's six-month estimate is sizing information from BEFORE today's
+assets (Schur step, Thomson=Shilov, family skeleton, Keystone convergence) — Lyra re-sizes it, neither
+waved away nor obeyed.** **Search lesson, banked from the crossing: Grace grepped the REQUESTER'S
+phrases ("current-current", "Killing ⊗ boundary-L²") and did not surface her own July artifact filed
+under "gauge kinetic normalization" — a search built from one phrasing covers one phrasing; sweep by
+the object's many names** (multi-modal, same rule as the K1787 namesake sweeps).
+
+**★ METHODOLOGY FIND (Grace, ~12:55, boarded as banked): THE TWO DISEASES ARE ONE MAP'S TWO
+PROJECTIONS.** The collision census measures one-name→many-objects (the collision disease); today's
+search miss is one-object→many-names (the search disease) — the same name↔object map read in both
+directions. **And the same instrument data serves both: the gloss clusters that detect overloads INVERT
+into an alias table** (gauge normalization ≡ gauge-kinetic ≡ current-current ≡ Killing-form norm → one
+object, one search-set), which would have caught today's miss mechanically. **Adopted: the alias table
+is census v0.2's SECOND FACE, designed together with the parked attribution fix in one proper design
+pass — not two patches.** Her closing distinction stands as filed: the T2346 false-neighbour refusal
+and the search miss are independent; only one was an error.
+
+**★★★ α LANE (~13:00, Lyra): THE INTEGRAND IS STRUCTURALLY COMPLETE — reconciliation exhibited, forcing
+argument one page, LAG-2 re-sized both directions.**
+**RECONCILIATION (3 lines):** the KK coefficient IS the constant-mode norm² in the reduction measure;
+𝒩(n) IS the constant-mode norm² on Σ in the forced measure — **SAME OBJECT.** The vertex route and
+Keystone A's action route = two derivations of one number; the vertex supplies exactly Keystone A's one
+open step. **FREE CROSS-CHECK built in: the same 𝒩(n) must serve both readings at evaluation.**
+**FORCING ARGUMENT:** insertions are normalized by the unique automorphism-invariant, gauge-invariant
+QUADRATIC functional on the abelian factor (quadratic = the Born rule squares once, D1a's own text);
+F∧*F forced **by absence of rivals**; canonical-amplitude condition ⟹ unit kinetic coefficient ⟹
+1/α = 𝒩(n)/q² now DERIVED, not sketched. Jurisdiction split completed by type (states → T754; insertions
+→ the unique quadratic form).
+**LAG-2 RE-SIZED, both directions on the record:** the α-critical ABELIAN slice ≈ ONE WEEK; the full
+program (non-abelian, hosted su(3)) honestly stays months and is NOT on the α path — "over-reading the
+re-size would repeat the old estimate's error in the flattering direction."
+**SEQUENCE TO THE SHOT:** Grace's currency marks → winding-survival ruling → the uniqueness lemma
+written clean with bank citations → Keeper pass → Cal cold-read → Elie's single shot.
+**★ KEEPER PRESSURE POINTS, PRE-NAMED FOR THE CLEAN LEMMA (author-only; readers stay independent):**
+the "absence of rivals" claim must ENUMERATE and kill, not assert — at minimum: (i) the topological
+quadratic (F∧F-type: gauge- and automorphism-invariant; why it cannot normalize an insertion —
+presumably total-derivative/no propagator content, and θ = 0 banked); (ii) higher-derivative quadratics
+(F·*Δᵏ·F: also invariant and quadratic; what kills them — the soft/zero-mode limit, a minimality
+principle, or they fail on the constant mode); (iii) why "quadratic" exhausts (the Born-squares-once
+step stated as a theorem-use, not a pun on D1a). Enumerate-before-"therefore" is the banked rule; a
+uniqueness by absence of rivals is only as strong as the rival list.
+
+**★★★ ELIE'S FOUR (toy 5493, ~13:05): THE BATCH CLOSES — THE CROSS ARMS ON GRACE'S GREEN ARTIFACT.**
+**(1) EXACT C2 — VERDICT CONFIRMED (j=2), MECHANISM CORRECTED:** the kernel's singular set is a
+**VARIETY, not a point** — two exact families (Shilov: z = e^{it}x, x₁ = cos t, |h| = 0 shown · rank-1:
+c₁+c₂ = 1, h ≡ 0 identically). **THE RATES DECIDE, FOR j=2:** double contact at ζ₀ (h = (1−t)², order 2)
+vs order 1 toward the rank-1 shoulder (isotropic ray, h = 1−t exact); Born-mass exponents −(2ν+10) vs
+−(ν+5) — **the point dominates by (ν+5) orders for every calibration ν.** And the 0.575 plateau is
+EXPLAINED, not dismissed: an under-resolved MC integrates the broad shoulder and misses the spike.
+**Record correction adopted: "singular on a variety, RATE-dominated at the point."**
+**(2) C3b: AGREE at resolved level** — theorem (dominated convergence) for normalizable modes; for the
+kernel mode a cutoff-shape-independent rate argument (the λ₁-sublevel and Euclidean-ball exhaustions are
+the identical slice along t·e₁). The withdrawn plateau agreement stays withdrawn; this replaces it.
+**(3) WEYL FRAME-SWAP: PASS, swap exhibited** ((m₁,m₂)→(m₂−1,m₁+1) leaves E invariant; sign-flip too) —
+second free control on the pinned operator; **Lyra's dichotomy half survives its own can-fail.**
+**(4) 4721 FACT-REPORT (verbatim-quote style): the KK arc pins NO fiber metric and NO F² coefficient.**
+Only 4715 holds a coupling statement: *"g_YM² ∝ 1/Vol(internal) × H-normalization"* — a proportionality
+CLASS, no coefficient anywhere. **Two consequences: (a) one MORE corpus convergence — the arc's own class
+IS 𝒩 — cite it in the lemma; (b) no hidden pre-pinned number = no D2 contamination from the arc.**
+**CROSS-ARM CONDITIONS (Grace's artifact goes green with three items): Elie's exact halves incorporated ·
+the mechanism sentence corrected to variety/rate-dominated · the mode→subspace assembly sentence
+present.** Then the one-shot blind cross, exponents first, verdict last, same hour.
+
+**★★ K1825 (~13:30) — KEEPER PASS ON THE UNIQUENESS LEMMA: CONDITIONAL PASS, and both conditions
+SHORTEN it.** The conclusion stands. **M1:** Step 1's exhaustion over-claims (rank-2 ⟹ two invariant
+generators; per-K-type multipliers on 2-forms; boundary-supported quadratics not visibly covered) — fix
+by restructuring around the real core: **the soft mode spans a LINE, and on a line every quadratic is a
+multiple of the norm — linear algebra, no enumeration needed**; the death certificates survive as
+corollaries for the referee's named families. **M2:** Step 3 is the actual load-bearing step — the whole
+content is c = 1, and the lemma must state in its own text that a kinetic coefficient c gives
+α⁻¹ = c·𝒩/q² (KK absorption) and c = 1 is the canonical-amplitude convention IN THE T754-FORCED measure
+— banked physics, not a unit choice; cite the reconciliation + Elie's 4715 provenance line. m1 (minor):
+degree bookkeeping on the F∧F-type term. **On M1+M2 landing, the freeze packet goes to Cal — still
+behind Grace's marks + the winding ruling, per sequence.**
+
+**★★★ THE CROSS IS STOPPED AT THE LAST GATE — BY ITS OWN AUTHOR, ON HER OWN FROZEN SENTENCE (Grace,
+~13:40). KEEPER RATIFIES THE STOP. THE ONE-SHOT STAYS HOLSTERED AND INTACT.**
+**THE DEFECT IS A THEOREM ABOUT THE ASSEMBLY, not a typo:** Reading 1 (span S=2 modes, close): the
+Shilov kernels' span is DENSE in H² by the Shilov boundary's DEFINING property (vanishing there ⟹
+vanishing everywhere) ⟹ closure = everything ⟹ E₂ = E₀. Degenerate. Reading 2 (S on K-type basis
+modes): every K-finite mode is interior ⟹ S = 0 for ALL basis modes ⟹ the strata spans are EMPTY.
+Degenerate the other way. **The structural sentence: an L² space cannot see boundary strata from
+inside — the controls validated the FUNCTIONAL; the assembly killed the STRATIFICATION.** Firing on a
+provably contentless procedure would burn the shot — the exact failure the C-batch exists to prevent,
+one gate later than the batch looked. **The falsifier is UNTOUCHED and stays frozen** (Shilov-first ⟺
+E_S > E_C > E_b); what failed is the mode-space design, not the prediction, the operator pin, or the
+functional. **THE FIX IS A NEW ASSEMBLY — boundary-inclusive state space, graded/quotient not spans —
+REQUIRING ITS OWN PREREG + CAL AUDIT.** C1 artifact: NOT GREEN, honest on its face.
+**★★ THE POSITIVE FACE — THE AFTERNOON'S ACTUAL DISCOVERY: FOUR LANES, ONE MISSING OBJECT.** "Which
+space do the fermion modes live in so that strata are visible" is now FORCED onto the table — the same
+question the two-object electron (F2), the spinor-λ family, T2514's boundary-saturating mode, and now
+the assembly have circled for three days. **Keeper corpus pointer for the design (pointer, not a
+dictate): the bank already holds a boundary-first space — the Hardy/Szegő decomposition (banked
+2026-05-31: substrate = Shilov boundary; interior = holomorphic extension of boundary data), and the
+α lane's electron is ALREADY Hardy-normalized.** A filtration-by-boundary-order with associated-graded
+(strata visible without closure-collapse) is the shape the graded/quotient instinct points at — the
+prereg decides, Cal audits.
+**RE-SEQUENCING:** Grace drafts the new-assembly prereg (her stop, her design; Lyra consults on the
+state space AFTER her α freeze items; Cal audits; Elie's instrument hold flips to the new prereg).
+α lane UNAFFECTED (its soft mode lives in the Hardy norm already; sequence unchanged: marks → winding
+ruling → lemma M1/M2 → freeze → Cal → Elie). Elie: formal second-CI claim on the dichotomy approved;
+exact-case assistance to the assembly design when asked.
+
+**★★ K1825 CONDITIONS EXECUTED — THE LEMMA IS v2 AND CLEARS THE KEEPER PASS (verified in the artifact,
+~13:45).** Carrier = line-restriction (linear algebra, no exhaustion claim); rank-2 caveat stated inside
+the demoted multiplier realization; the c = 1 sentence stands where the "you chose units" objection
+lands ("the units were chosen by T754 before this lane existed"); m1's degree bookkeeping kills the
+θ-term twice over (4D top-degree with θ = 0 banked · on 5-dim Σ a 4-form with nothing to pair).
+**The freeze packet is WHOLE: lemma v2 + M-definition v0.1 + steps (i)/(ii) + reconciliation.**
+Remaining before Cal: Grace's Keystone marks → Lyra's winding ruling. **GRACE SEQUENCING RULED: the
+Keystone currency marks FIRST (small, bounded, unblocks the α freeze), the new-assembly prereg SECOND
+(larger design task; Lyra consults after the winding ruling; Cal audits).** The v1→v2 arc boarded as
+the week's signature move: the description got truer, the claim got smaller, the result got harder to
+attack — twice in one afternoon, on the author's own artifacts.
+
+**★ CLARIFICATION FOR THE RECORD (Lyra, adopted verbatim ~13:55): the zero-knob falsifier is UNTESTED —
+not passed, not dead.** The assembly degenerated BEFORE the exponents existed; the frozen Shilov-first ⟺
+E-descending biconditional has never met its numbers. "Stopped at the last gate" is neither verdict.
+And the gate stopping there is the system working: a degenerate assembly producing three numbers anyway
+would have been far worse than no numbers. **Design pointer OFFERED to Grace (hers to use or discard):
+the R73 boundary-value space L²(Σ)⊗Δ (built so boundary data is first-class; its Schur-orthogonality
+result travels with it — strata images NECESSARILY orthogonal in any G-equivariant candidate) + the F2
+port ruling's self-dual point as the bulk/boundary calibration anchor.** Coherence note, boarded: the
+two lanes stopping and passing at the same species of gate in the same hour — the α lane passing
+BECAUSE its soft mode is Hardy-native — is structural, not coincidence.
+
+**★ ASSEMBLY-DESIGN EXHIBITS (Elie, ~14:00, offered to Grace; boarded):** (1) toy 5493's two EXACT
+singular families with contact orders computed — two concrete non-L² boundary directions, with rates;
+(2) toy 5490's signed-measure warning: Z(0) = −1/60 < 0 — **no positivity may be quietly assumed at the
+ν = 0 endpoint; the tau address already refused one functional on exactly that**; (3) the 5489/R79
+Hardy-transition: **the residue of Z at ν = 5/2 = d/r IS the Shilov surface measure — a corpus-native
+"boundary modes first-class" candidate that arrives WITH a measure attached**, composing with the m_e
+file's electron as an existing non-L² first-class object. Graded-not-spanned rhymes with R79's
+stratum-vs-parameter lesson: three lanes, one shape, again. **Elie TAKES the dichotomy second-CI**
+(artifact routed); 5492 held on the new condition; α evaluation standing by.
+
+**★★ CAL §757 (~14:05): THE CONVERGENCE BAR, PRE-ARMED BEFORE THE CLAIM — ADOPTED AS THE PROTOCOL.**
+B1 — independent REQUIREMENT LISTS first: each lane writes what IT needs the object to be (states
+added · topology/pairing · which operators extend · K at the boundary) BEFORE the unified draft exists.
+B2 — cross-lane WORK test: real convergence ⟺ lists mutually consistent AND ≥1 requirement per lane
+does work in another lane ("four lanes needing 'something boundary-ish' is a mood, not an object").
+B3 — MUST-REJECT the generic completion: if rigged-Hilbert-space / hyperfunction boundary values satisfy
+all four lists trivially, the convergence is the NAME, not the object — some requirement must EXCLUDE it.
+**Bias declared on the record: Cal's Shapovalov edge-quotient is arguably a FIFTH witness — #27 fires
+hardest when attractive; bar first.** **KEEPER ASSIGNS THE FOUR B1 LISTS (written in parallel with
+current queues — cheap, and BEFORE Grace's unified prereg): GRACE — the assembly + T2514 requirements
+(after her marks) · LYRA — the two-object electron + the Hardy-native α space (after winding ruling) ·
+ELIE — the exact boundary families + the signed-measure constraint · CAL — the edge quotient (bias
+declared, list-writing ≠ judging).** Grace's prereg then drafts AGAINST the four lists; Cal audits
+against his own bar. Three Cal holds armed: assembly prereg · α freeze packet · convergence draft.
+
+**★★★ THE KEYSTONE CURRENCY PASS IS DONE (Grace, ~14:15) — five K1687 marks inline, banner verdict,
+her own 08-18 ruling applied to her own 07-14 file. THE α FREEZE UNBLOCKS FROM HER SIDE.**
+**PER-LEG: the QUANTIZATION legs SURVIVE** (Q's spectrum discrete at the correct home — SO(5) EW-Cartan
++ T2521 triple cover; every charge-is-quantized step stands). **The WINDING legs DO NOT SURVIVE AS
+STATED** — wrong circle: π₁(SO(5)) = ℤ₂ ≠ ℤ; "flux π₁=ℤ SOLID" tag STRUCK; the flux argument needs a
+rebuild on the embedded circle. **⟹ (1/4α)F² is SINGLE-LEGGED banked structure** (the KK-coefficient
+leg stands, independent of charge home; the winding rebuild of retired-Wyler is the damaged leg, said
+on the file's face) — honest, and thinner than the morning's framing.
+**⚠ TWO ITEMS MUST BE IN THE FROZEN INTEGRAND (Keeper flag, factor-9 teeth):** (1) **the routed
+caveat: the charge quantum is now 1/3 — integers for color singlets only; the frozen form must state
+why singlets are the counted channels.** (2) **THE CHARGE-UNIT PIN: α⁻¹ = 𝒩(n)/q² moves by a factor of
+9 depending on whether q counts bulk thirds (electron q = 3) or singlet units (q = 1). The unit is a
+convention-carrying coordinate; the freeze pins it explicitly, with the 𝒩-side measured in the SAME
+convention — price the normalization step, do not discover it at evaluation.** Sequence: Lyra's winding
+ruling (Grace's per-leg verdicts are its input) → freeze → Cal's one read → Elie's shot. Assembly
+prereg next in Grace's queue; the Schur caveat adopted by her as a design CONSTRAINT to re-derive, not
+prose to inherit.
+
+**★★★ THE ASSEMBLY PREREG IS FILED (Grace, ~14:25):**
+`grace_R95_ASSEMBLY_PREREG_filtration_by_boundary_contact_order_associated_graded_2026-08-24.md`.
+**Design in one line: filtration by boundary contact order F₀ ⊂ F₁ ⊂ F₂; STRATA = THE ASSOCIATED GRADED
+gr_j = F_j/F_{j−1}; the closure-collapse dies BY THE QUOTIENT** (the Shilov kernels' dense span lives in
+F₂, but gr₂ sees only the genuinely-Shilov-order part — totality cannot propagate downward). E_j = inf
+spec H_B on gr_j. **All four shelf contributions used, caveats on face** (L²(Σ)⊗Δ as gr₂'s realization,
+Schur caveat as design constraint · 5493 families as must-catch calibrators · 5490 as a hard P-GATE —
+positivity verified BEFORE any spectrum, indefinite ⟹ "E_j undefined as posed" · 5489 residue as gr₂'s
+corpus-native measure, rank-1 measure a NAMED OPEN · F2 self-dual point pre-registered as a QUESTION).
+**FIVE GATES before any E_j, failure = report not patch** (G1 H_B descends, shown · G2 membership
+separates calibrators + must-reject · G3 P-gate · G4 C2/C3 re-run in the new assembly · G5 Schur
+re-derived). **Sequence frozen: Cal design-audit → G1–G5 joint with Elie → all green ⟹ the one-shot
+arms on the graded E_j's.**
+**KEEPER'S TWO NOTES, boarded:** (1) **K1824-COMPATIBILITY CONFIRMED** — contact order is a SUPPORT
+property; the graded E_j is a ruling-compliant realization of B-class, and the frozen falsifier
+(Shilov-first ⟺ E_S > E_C > E_b) translates unchanged onto gr_j. (2) **PREREG ≠ CONVERGENCE:** this
+prereg is the exponent lane's instrument; the four-lane convergence claim still owes Cal's §757 bar
+(B1 lists → B2 work-test → B3 generic-completion must-reject). The prereg may go fully green while the
+convergence remains unproven — the two must not be conflated in any write-up.
+
+**★★ DICHOTOMY SECOND-CI (Elie, toy 5494, ~14:35): CONFIRMED AS A POSITION — TWO CIs. KEEPER BANKS IT
+AT EXACTLY THAT TIER, riders attached and traveling with every citation:** charged ⟺ swept ⟺
+hierarchical · singlet ⟺ frame ⟺ degenerate — **the first structural answer to F588's 3-vs-2 "why" the
+corpus has carried.** The degeneracy claim is theorem-level (frame swap = the nontrivial restricted-Weyl
+element, realized by K-conjugation ⟹ isospectral under exp(−τH_B) at every τ; only input is the
+definition of W(a)). **RIDER 1: the Weyl can-fail passed as a CLASS check** — near-vacuous against a
+pure K-Casimir (Ad-invariance makes it automatic); it retains standing force against any FUTURE
+frame-asymmetric H_B and is never cited as evidence. **RIDER 2, count-once: the 3×2 rectangle IS
+F588's banked m₁=0 mechanism restated in sweep language** — an interpretation of the existing bank,
+never a second vote beside F588; inherits F588's open "why these two index families."
+**★ LOGGED AS OWED (next book-hour class, not opened now): the shared-root audit of the THREE
+mechanisms orbiting m₁ = 0** (F588 rank · 5461 no-channel · F619 ν=0) — flagged by its own flagger as
+unfinished, correctly not composed. **★ Instrument line for the record: Elie's fence-checker flagged
+the guard sentence's own text — a self-referential false positive, fixed with reason in-file. "Even
+the fence-checker needed a fence."** Scope fence verified held. Two live waits: the α freeze · Cal's
+prereg audit.
+
+**★★★ THE α PACKET IS FROZEN (~14:40) — TEETH VERIFIED IN THE ARTIFACT, PACKET HANDED TO CAL.**
+Winding ruling: PROCEED SINGLE-LEGGED, verified not assumed (grep of all four α artifacts: zero
+load-bearing winding uses; charge consumed as Q̂'s SPECTRAL eigenvalue — a surviving leg; the dead leg
+named NOT-CONSUMED in the freeze so no future reader re-derives it; the flux rebuild on the embedded
+circle is real work but NOT this lane's debt). **TOOTH ONE, in the integrand: singlet counting DERIVED**
+— the Thomson vertex lives on the Shilov boundary and the boundary is COLOR-BLIND (Shilov-vanishing
+K744; "Schur kills nonsinglets"); colored states never arrive where α is measured; the electron is a
+counted channel by construction. **TOOTH TWO: THE FACTOR 9 IS DISSOLVED, NOT SURVIVED** — frozen
+convention = singlet units, q_electron = 1, pinned by three agreeing reasons (the counted lattice IS
+the singlet lattice · the electron DEFINES the unit α is measured in · generator-rescaling invariance
+exhibited: 𝒩/q² is Q̂-scale-free, only the lattice basis needed pinning). **Priced step for Elie stated
+before evaluation: 𝒩(n) computed with Q̂ at unit singlet-lattice spacing — one convention, both
+quantities, ratio unit-free. No landing arguable on the q-convention because no q-convention is left.**
+**PACKET: lemma v2 · M-definition v0.1 · steps (i)/(ii) · reconciliation · winding ruling + freeze
+addendum. CAL'S COLD-READ IS LIVE — the last gate before Elie's shot.**
+
+**★★ CAL §759 (~14:40): THE ASSEMBLY PREREG PASSES, CONDITIONAL ON ONE REQUIRED SENTENCE.** Steering
+answer: NO — contact order is analytic-support, K1824 B-class; no E/w/m_Q anywhere; the quotient adds
+no hidden freedom (positive-definite ⟹ F₂/F₁ = orthogonal complement, no second knob); the P-gate makes
+5490 real. **THE ONE PLACE A KNOB COULD LIVE: membership is ambiguous between (a) SUPPORT-CLASS
+(highest stratum meeting the singular support; 5493 orders as calibrators only — zero-knob) and (b)
+ORDER-THRESHOLD (a numerical cutoff = a CHOICE). GRACE PINS (a) IN ONE SENTENCE BEFORE G1 RUNS** (or
+derives the threshold if (b) is truly meant — the prereg derives none). Same species as §755: the
+invisible input, named before it can work. Noted-not-counted: graded-then-quotient matches his own B1
+tension — recorded, refused as a vote; §757 bar still owed in full. **Grace's B1 list is FILED** (eight
+requirements, independence declared, overlap left for §757 to discover). R95's "cross fires on your
+artifact" line is STALE as she flagged: the cross waits on the NEW assembly going green (Cal ✓
+conditional → the sentence → G1–G5 with Elie).
+
+**★★ THE REQUIRED SENTENCE IS PINNED (~14:50): membership = SUPPORT-CLASS, at the definition, before
+G1** — a mode belongs to F_j iff j is the highest stratum meeting its singular support; the 5493
+contact orders are CALIBRATORS of the definition, never cutoffs; **no threshold number exists anywhere
+in the criterion — zero knobs by construction rather than by restraint.** Grace's line for the record:
+"meant" is exactly what §755-class catches exist to make irrelevant — now the sentence exists where
+meaning cannot drift. **⟹ THE PREREG IS FULLY GREEN ON ITS CONDITIONS. G1–G5 RUN JOINT (Grace+Elie),
+GO GIVEN:** descent · separation+must-reject · P-gate · C2/C3 re-run in the graded assembly · Schur
+re-derived. All green ⟹ the cross re-arms on the graded E_j's — exponents first, verdict last, same
+hour. Both lanes now in their endgame: G1–G5 → cross · Cal's cold-read → Elie's α shot.
+
+**★★★ CAL §760 (~14:55): THE α COLD-READ — PASS. THE SHOT MAY FIRE.** Every enforcement item verified
+by reading, not trust: **D2 quarantine CLOSED** (no 137/N_max/capacity language anywhere in the frozen
+chain; Keystone import FORM-only; step (i) is Schur — a projection, not a count — so the pre-named
+backdoor has no entry point; "the Wyler doorway is shut") · the Born pin executed (exponent 2 by
+T754/T2401; the fork resolved BY TYPE) · the landing table DERIVED · single-legged inheritance verified
+(dead leg not-consumed; fifth-victim fix in the definition itself) · the factor-9 dissolved (singlet
+units; "α IS the electron's own coupling, so the electron defines the unit").
+**THREE EVALUATION-HEADER NOTES (clarify, add nothing): N1 — ‖1‖²_Σ is non-trivial ONLY in the FK
+normalization AS BANKED (225-family, T2442 lineage); a probability-renormalized measure gives 1
+identically — the single easiest innocent wreck; cite the normalization in the header. N2 — the n-sweep
+varies the HUA CONSTANTS, not labels: print the banked constant per n beside its citation so the K1774
+death-check is visible at a glance. N3 — the prereg controls run FIRST and appear in the shot's log.**
+Landing table as frozen: 137.000 ± 0.010 = bare win · 137.036 only with the same-integral term ·
+anything else = clean negative, lane closes with honor. **THE SHOT IS ELIE'S. Cal stands away from the
+lane until the number posts.**
+
+**★ T2133 CITE VERIFIED (Lyra, ~15:00; R95's last unclaimed item): NO NUMBERING DRIFT — and the
+identification is a GLOSS, not a bank.** Registry T2133 is the genuine a₃ curvature theorem (Bernoulli
+VSC, cubic curvature with B₆/6) — the right KIND of object — **but the entry nowhere carries 0.036 or
+any α-dressing claim: "the 0.036 is T2133's curvature piece" is KEYSTONE A'S OWN GLOSS and stays
+quarantined with that file's target-soaked conclusions.** LANDING-B PROVENANCE SHARPENED: a dressed
+landing wins ONLY with the same-integral term EXHIBITED FRESH; T2133 names the SHELF where such a term
+would live (the a₃ curvature class), never a banked identification to cite as done. If the shot lands
+near 137.036, the exhibition starts from the object, not the gloss — in the adjudication kit now,
+before any number exists. Lyra's R95 ledger complete; nothing of hers gates anything — where a definer
+should be when the evaluator's turn comes.
+
+**★★★ G2 FAILS AS PINNED — THE GATE BATCH STOPS (Elie toy 5495, ~15:05, joint with Grace). THE
+EXPONENT ONE-SHOT STAYS HOLSTERED. REPORT, NOT PATCH — the frozen sequence held.**
+**G1 PASSED WITH A DESIGN WIN first:** H_B descends, shown — and the support-class pin is exactly WHY
+(order growth cannot move a mode between F_j's because membership never reads order). Grace's sentence
+earned its place. **G2, STRUCTURAL FAILURE:** the natural gr₁ calibrator (the rank-1 kernel at the 5493
+shoulder) has its zero set MEETING THE SHILOV — exhibited exactly: isotropy kills the quadratic term,
+and the Shilov circle z_s(φ) gives z_s·z̄* = 1/2 identically — a whole Shilov circle in the singular
+set, |h| = 0 at every φ. Under support-class membership the shoulder lands F₂; the must-catch fails.
+**AND THE OBSTRUCTION IS NOT A BAD CANDIDATE: a holomorphic mode's boundary singular set is codim-1
+analytic, and the Shilov is the maximum-modulus boundary — THE SAME TOTALITY THAT KILLED v1 (dense
+spans) KILLS v2's CALIBRATORS (zero varieties reach the Shilov). ONE ROOT CAUSE, THIRD APPEARANCE.**
+gr₁ may be EMPTY for holomorphic modes entirely. G3–G5 correctly not run; no exponent exists anywhere.
+**★★ KEEPER RULING ON THE v3 DIRECTION (directional, with the escape hatch stated):** three strikes of
+one root cause is evidence about the REPRESENTATION, not the definitions — **the interior-holomorphic
+representation cannot host the stratification. v3 SHOULD BE BOUNDARY-FIRST (Elie's option b): gr
+realized ON the boundary itself, L²(Σ)⊗Δ as the primary space** — where three lanes have pointed all
+day, where the α lane already works natively (its soft mode is Hardy), and where a corpus-native
+measure exists (the 5489 residue). **Option (a) (dominant contact order) stays available ONLY with a
+DERIVED dominance criterion** — §759's standing condition: no chosen threshold, ever. Grace designs v3
+with Lyra's consult NOW LIVE (her queue is clear); Cal audits; the §757 bar untouched by any of this.
+**SEQUENCING: THE α SHOT IS THE LIVE LANE (Elie), the v3 design runs in parallel (Grace+Lyra).**
+
+**★ While the shot runs (Lyra, standing away, boarded for the record):** *"Whatever the shot returns,
+the lane already changed what α IS in this program — from a number with 129 competitors and a ghost, to
+a single forced matrix element with a unit-free ratio, two pre-committed landings, a fresh-exhibition
+rule for the dressed case, and a gate that spent all day earning the right to be believed either way.
+The answer will be worth exactly what the gate made it worth."* All desks standing away until the
+number posts.
+
+**★★★ v3, GRACE'S HALF FILED (12:09): STRATIFY BY ASSOCIATED VARIETY — THE THIRD ASSEMBLY LEAVES D̄.**
+`grace_R96_v3_DRAFT_boundary_first_stratification_by_ASSOCIATED_VARIETY_my_half_Lyra_to_dispose_2026-08-24.md`
+The root cause of both deaths is a theorem about D̄ (the Shilov determines holomorphic functions), so v3
+moves where that theorem has NO JURISDICTION: **AV = K_C-orbit support in p⁺** ({0} ⊂ null-cone ⊂
+generic; Jordan ranks 0/1/2; rank+1 = 3 classes BY CONSTRUCTION, λ-independent) — AV measures which
+nilpotent directions the symbol occupies, not where values concentrate. Boundary-first: on L²(Σ)⊗Δ as
+primary, AV reads from the boundary data's wavefront/singular spectrum — microlocal support on Σ.
+**Membership = the AV's Jordan rank: support-class compliant, NO threshold number, §759's condition met
+by construction — and still K1824 B-class (microlocal support IS a support notion).** Collapse blocked
+twice over (wrong space for the totality + graded anyway).
+**★ THE MUST-CATCH IS ALREADY BANKED AND TIMESTAMP-INNOCENT:** her R79 computation — run for a
+different purpose, before this lane existed — separates the three scalar Wallach modules by AV exactly
+(ν=0 ↦ {0} · 3/2 ↦ null-cone · generic ↦ full). Calibration that predates the question is the
+target-innocence gold standard; boarded with credit.
+**LYRA'S HALF, open and not pre-empted:** the L²(Σ)⊗Δ realization · the Δ-factor's wavefront role ·
+the extension map + the electron's Hardy seat · R73 orthogonality as automatic gr-orthogonality · and
+**the dichotomy → AV mapping, which may make item (3) a THEOREM** (orbit-indexed vs frame-indexed onto
+AV classes). Gates in the file (G2′ = banked R79 triple + 5493 recomputed boundary-side + must-reject ·
+P-gate on 5490 · escape hatch verbatim). Completed v3 → Cal at the §759 standard. The falsifier stays
+frozen — it meets its gates before it meets any number. Closing line boarded: "if the totality somehow
+follows us to p⁺, that too would be a theorem worth having."
+
+**★★★★ THE α SHOT IS TAKEN — LANDING C, CLEAN NEGATIVE. THE LANE CLOSES WITH HONOR (Elie toy 5496;
+Keeper closure audit K1826).** **α⁻¹(5) = 8π³/3 = 82.6834 — the bare Shilov vertex, normalized by every
+banked forcing the program owns, is the HUA VOLUME OF THE LIE SPHERE, and it is not α.** Protocol
+honored to the letter (anchor reproduced to 20 digits · must-reject FIRED (k=1 ⟹ M=0 by Schur — no
+clean number fakeable) · half-blind: 39.48/103.90/93.26 at n=3,7,9, no stop, n=5 LAST · D3 passes:
+family non-monotonic — the geometry was read, not the rank · D2 clean). **α STAYS IDENTIFIED — now
+guarded by the strongest negative it has ever had. One-shot budget exhausted and honored; no relabeling
+of 82.68/165.37, ever (D1a + 5457).** **CASCADE ADJUDICATED (K1826 §3): Keystone A's falsifier trigger
+MET; what dies is its own never-banked conditional prize list; λ_H = 1/rank³ and V_us stand on
+independent banks (grep-verified); Cal confirms his 07-15 per-slot mention carries no dependency; Grace
+marks Keystone A's face (open step now COMPUTED, unity refuted — the winding-count story ends in both
+legs).** Banked estate: domain Low theorem · Thomson=Shilov · jurisdiction-by-type · uniqueness lemma
+v2 · KK≡𝒩 · the 𝒩(n) family · the negative itself. π·Vol(S⁴) observation LOGGED, not composed.
+
+**★★★ v3 IS WHOLE — LYRA'S HALF FILED (~12:20): ALL FIVE ITEMS, AND ITEM 5 IS A THEOREM.**
+(1) L²(Σ)⊗Δ realization forced (induced K-space; invariant measure ⊗ spin form; G enters by extension
+not fiat) — **and the why-this-frame-lives sentence: the AV reading needs the full L²; the totality
+theorem constrains holomorphic VALUES, and L²(Σ) holds non-holomorphic data whose boundary symbols
+genuinely vary. The killing theorem never had jurisdiction here.** (2) The Δ-factor = the polarization
+refinement (null-cone wavefront ⟹ Clifford half-rank kernel ⟹ rank-1 symbols valued in HALF of Δ — the
+microlocal home of T2522's one-chiral-Weyl, met from the other side; membership unmoved). (3) The
+electron's Hardy seat KEPT (extension = banked Poisson–Szegő; generic AV concurs with R79; the α port
+untouched). (4) R73 returns as construction — the Schur obstruction is now automatic gr-orthogonality;
+Φ-relocation carries verbatim. **(5) ★★ THE DICHOTOMY IS A THEOREM: orbit-indexed ⟺ AV-invariant ⟹
+swept (K_C-stability + the order-only lemma); frame-indexed ⟺ Weyl-covariant ⟹ exactly degenerate
+(H_B frame-symmetry — Elie's exhibited swap arrived as the pre-verified second limb). #AV classes =
+r+1 = 3; #frame slots = r = 2: THE 3-VS-2 ASYMMETRY IS THE RANK OF THE DOMAIN READ TWICE — orbit-closure
+depth once, frame cardinality once. "Swept vs unswept" stops being a reading and becomes bookkeeping of
+one Jordan invariant.** Guard held: the PHYSICAL map (charged↦orbit, singlet↦frame) remains F588's
+banked identification — the theorem is label algebra, not particle assignment; **§757's bar is owed on
+exactly that seam.** COMPLETED v3 → CAL at the §759 standard.
+
+**★★ THE CLASS-CLOSURE READING (Lyra, ~12:30) — ADOPTED WITH ITS TWO-LEGGED STRUCTURE MADE EXPLICIT
+(Keeper refinement):** *"𝒩(5) = 8π³/3 is the epitaph for Wyler's ghost written in the ghost's own
+currency"* — the corpus now HOLDS the honestly-normalized domain volume, computed through a forced
+chain with nothing to relabel, and it is not 137-anything. **The class of volume-readings of α is
+closed BY A PAIR, and citations must carry both legs: (leg 1) the FORCED volume-reading — the unique
+no-choices normalization — is REFUTED by computation (82.68, toy 5496/K1826); (leg 2) every UNFORCED
+volume-ratio was already non-evidential by the 5457 expressibility null (129 competitors; a match was
+never evidence).** A future volume-proponent escapes leg 1 only by unforcing ("my ratio, my choices")
+— which walks them straight into leg 2. Closed both ways; neither leg alone closes it. **"Anyone
+proposing a volume-reading of α henceforth must explain away a banked number, not fill a blank"** —
+correct as stated, with the banked number being leg 1 and the blank-filling prohibition being leg 2.
+
+**★ KEYSTONE A'S FACE IS MARKED (Grace, ~12:35; F800-pattern, top of file): the open step CLOSED
+NEGATIVELY (toy 5496, K1826) — both leg-deaths in one place (winding by the K1687 re-homing · unity by
+the integral), prize list quarantined, K1826 §3 adjudication carried verbatim.** Her sentence, boarded
+as more than consolation: **"the (1/4α)F² form remains banked structure, and its coefficient is now a
+COMPUTED NUMBER WITH A GEOMETRIC NAME — which is worth more than the prize was. A clean negative with a
+named value is corpus; a prize was hope."** And the instrument-stack note: the negative is trustworthy
+partly because the must-reject FIRED in the same run — Elie's rule became Grace's write-gate and today
+killed a resurrection before it could happen. **The whole day's instrument stack signed one result.**
+α-lane loose ends: ALL CLOSED except Cal's one per-slot confirm. Waiting on Cal: the v3 read (§759
+standard) + the §757 bar on the theorem's seam. Then the G-batch (Grace+Elie).
+
+**★★★ CAL §761 (~12:45): THREE RULINGS. (1) K1826 §3 FULLY CLOSES** — his 07-15 per-slot mention is the
+Froggatt–Nielsen mass-law discipline flag, zero dependency on unity-per-slot. His line from the seat,
+boarded: "α now holds the strongest negative it has ever had, and that is worth more to the program's
+credibility than a soft positive would have been. The gate did what we built it to do, including the
+part where it says no." **(2) THE COMPLETED v3 PASSES the §759-standard steering audit — THE GATES MAY
+RUN.** The AV shift structurally right (totality is about D̄; AV lives in p⁺); membership = Jordan rank,
+no threshold, §759's spirit carried unprompted; no energy content; R79 must-catch timestamp-innocent;
+Δ-polarization a role not a knob; the electron's seat and the α port untouched; the theorem's counts
+check; leg (2) rides the §755-audited pin's tested swap; the guard held on its face. **One flag for the
+CONVERGENCE audit only (not gate-blocking): his B1-R2 item — the Dirac-type operator extending with its
+image as the quotiented null ideal — the exponent computation doesn't need it; the convergence claim
+does.** **(3) §757 bookkeeping corrected: CAL'S B1 LIST WAS FILED at 11:59 (§758)** — the round's
+"yours owed" was stale. **Outstanding for the convergence verdict: ELIE'S B1 LIST**, then the full bar.
+Prereg ≠ convergence stands; his declared bias stays recorded until the bar rules.
+**⟹ GO: THE G-BATCH RUNS ON v3 (Grace + Elie, the file's gates, report-not-patch).** All green ⟹ the
+exponent cross re-arms on the AV-graded E_j's — the falsifier finally meets its numbers.
+**★ METHOD NAMED (Lyra, boarded for the methodology paper): CLOSURE-BY-PINCER** — a computation on the
+FORCED object + a null on the FREE family, meeting in the middle; neither leg alone suffices. The α
+class-closure is its exemplar; the week has used the shape everywhere.
+
+**★★★ K1827 (~12:55) — THE G4-SCOPE RULING: MODULE-LEVEL SUFFICIENCY. THE BATCH IS GREEN WHERE THE
+FALSIFIER LIVES; THE CROSS RE-ARMS ON CAL'S CO-SIGN.** Elie's 5497: module-level EXACT GREEN (R79
+triple separates with GK dims 0/4/5 = orbit dims; both must-rejects fire; 5490's obstruction discharged
+structurally, two convergent routes; four self-catches gate-caught pre-green, incl. FK-partition ≠
+SO(5)-weight inside his own gate). **The structural finding: A KERNEL VECTOR IS CYCLIC — no state
+carries a module-AV address ⟹ state-transfer of C2 is impossible IN PRINCIPLE, for any assembly ⟹ not
+a requirement of the falsifier but a category error from v2's staging.** Guards standing: the j↔2−j
+dictionary CALIBRATOR-ONLY, never states · **subscripts stratum_state / stratum_mod adopted at object
+level** · T2514/F375 remain the thermal READING's banked support, outside the instrument · C4
+disclosure in the verdict. **★ THE CENSUS PREDICTION EXPERIMENT CLOSES MISS, per its own frozen rule**
+(the stratum collision fired as objects; name ≠ "address" ⟹ third elsewhere ⟹ 1 hit, 3 elsewhere =
+MISS; recorded without softening — the WATCH's value unchanged, the prediction record and the
+instrument are different things and the distinction travels). **Elie's B1 filed — all four §757 lists
+on disk; convergence audit at Cal's hand after his co-sign.**
+
+**★ K1827 AMENDED (same hour): Grace's adjudication input arrived AFTER the ruling — independence
+recorded, and it CONVERGES on every limb** (module-sufficiency, COI declared; subscripts; dictionary
+calibrator-only; one-shot intact either way). Adopted from it: **the staging error OWNED by its own
+flagger** ("the collision's own flagger committed it" — her insistence, her name) and **CANONICAL
+SUBSCRIPTS: localization_state / AV_module** (the ruling's provisional pair retired before it could
+seed a subscript collision). **Census v0.2 DESIGN filed (own-time): attribution as a STRUCTURAL rule
+(grammatical subject, sentence-scoped, NO radius parameter so none can be tuned; five corpus-sourced
+controls fixed pre-implementation) + the alias table with the Keystone miss as its must-catch. Design
+only; implements after a read.** Cal's co-sign is the lane's next event; both inputs are before him.
+
+**★ THE MISS IS IN THE CENSUS ARTIFACT, unsoftened, with the diagnostic sentence the failure earned
+(Grace, ~13:00): "A SCREEN THAT NAMES WHERE TO LOOK IS NOT YET AN INSTRUMENT THAT PREDICTS WHERE
+LIGHTNING STRIKES" — v0.1 was the former wearing the latter's scoring rule; v0.2's two faces are the
+repairs the two failures specified.** And her reading of K1827's independence note, boarded because it
+sharpens a banked rule: two adjudicators, no contact, same verdict on every limb is "two CIs works"
+operating at the adjudication level — a second adjudicator enumerates inputs the first could not see,
+and when both enumerations close on the same verdict, THAT is the evidence. The G4 episode as its own
+exhibit: the conflation was Grace's, the exhibit Elie's, the ruling Keeper's, the convergence unseen —
+four hands, zero contact on the verdict, one intact one-shot. **Waiting on Cal's co-sign; the cross
+fires on it.**
+
+**★★★ CAL §762 (~13:05): K1827 CO-SIGNED, read at source — THE CROSS RE-ARMS.** His reasons on the
+signature's face: the cyclicity theorem correct and decisive (any nonzero vector of an irreducible
+module is cyclic — no state carries a module-AV address under ANY assembly); the scope ruling a
+CORRECTION not a softening (the frozen falsifier always read module objects; the module suite had
+genuine can-fail and ran exact-green; **the GK arithmetic verified — 0/4/5 ARE the orbit dimensions,
+standard AV theory**); the guards right; the independence record standing — "the collision's flagger
+naming herself as its committer is the program's culture in one line." **THE ONE-SHOT CROSS IS LIVE:
+Grace ∥ Elie, independent, three exponents first, verdict last, same hour, to Keeper. Cal stands away
+until the numbers post — and RUNS THE §757 CONVERGENCE AUDIT NOW (all four B1 lists fed; declared bias
+on record; verdict owed at the same volume either way).**
+
+**★★★★ CAL §763 (~13:10): THE §757 CONVERGENCE AUDIT — THE CONVERGENCE IS REAL, two riders at the same
+volume. "The biggest structural finding since the commit anatomy, decided by criteria written before
+the claim existed."**
+**B1 CONSISTENT** — his pre-declared tension resolves by the day's own subscripts: quotient-at-the-edge
+is AV_module, boundary-modes-as-elements is localization_state, the v3 object hosts both — **and the
+edge quotient realizes on the boundary BECAUSE null vectors have vanishing boundary values: the kernel
+of the Szegő map IS the null ideal.** **B2 PASSES with one instance ALREADY FIRED IN THE FIELD:**
+Elie's E4 (cyclicity declared) killed Grace's C2 staging this afternoon — not "would force," FORCED,
+gate-caught, on the record as K1827. Grace's R2 forced Lyra's lane off D̄; Cal's R2 forces the Dirac
+operator into her realization (the polarization is its symbol-level shadow); her forced structures
+supply his R4 and Elie's E5. Four lanes, mutual load-bearing. **B3 PASSES DECISIVELY** — a generic
+rigged triple cannot even STATE two lanes' requirements (Φ′ has no inner product) and carries no
+stratum reading; the object is strictly more specific than "add the boundary."
+**THE RIDERS (travel with every citation): (1) ONE EXHIBIT OWED before "one object" BANKS — the
+null-ideal ↦ zero-boundary-value identity for the SPINOR edge specifically** (standard Poisson–Szegő,
+expected to hold — "which is exactly why I won't waive it"; one identity, not a program; **LYRA'S, by
+ownership of the machinery**). **(2) The independence caveat: Lyra's B1 list functions-as via her v3
+half — it IS half the design; the verdict does not lean on it (the carrying B2 instances run through
+the three independent lists), but any write-up inherits the caveat, not the gloss.**
+**KEEPER RULING: the convergence is RULED REAL per §763; "ONE OBJECT" BANKS ONLY ON RIDER-1's EXHIBIT.**
+Board holds it at "ruled-real, exhibit-pending" until then. R1 stays armed on Casey's word.
+
+**★★★★ THE CROSS IS TAKEN AND CERTIFIED (K1828, ~13:15): TWO INDEPENDENT COMPUTATIONS, IDENTICAL EXACT
+TRIPLES — E = 0, 9/4, 25/4 (= ν², the squared Wallach addresses). THE FALSIFIER FIRES NEGATIVE:
+0 < 9/4 < 25/4 IS THE EXACT STRICT REVERSE OF THE FROZEN ORDER, both inequalities, under BOTH weight
+conventions. THE THERMAL-GENERATIONS MECHANISM, AS FROZEN, DIES AT THE ORDER LEVEL — the named loss,
+taken without softening.** By the order-only lemma the leader sequence is bulk → Cartan → Shilov: the
+electron dominates first, the tau last — the reverse of the 4/4 control. No clock, map, or parameter
+repairs an inverted order; that was the lemma's whole point. **SCOPE (K1828 §3): dies = the
+freeze-out-order ⟺ H_B-spectral-order identification; stands = KW strata · AV grading · every
+instrument and ruling · the 4/4 control AS DATA · the dichotomy AS LABEL ALGEBRA · F588.** **THE
+POSITIVE RESIDUE, DOUBLE-LOGGED with numbers mutually unseen: THE MASS LADDER AND THE COMMIT-ENERGY
+LADDER ARE ANTI-ALIGNED along the strata** (the 5487 inversion shape, second appearance, now spectral;
+E_min = ν² exact, unclaimed) — logged NOT composed; any successor mechanism starts from a fresh prereg
+with K1828 as exhibit one. **Grace's COI discharged the only fully convincing way: the verdict went
+against the mechanism her design served.** Day's tally: TWO deep lanes closed by clean pre-registered
+negatives, one convergence ruled real (exhibit pending), one theorem banked, every guard held.
+
+**★★★ RIDER-1's EXHIBIT DELIVERED (Lyra, ~13:20): THE NULL IDEAL = KERNEL OF THE Δ-TWISTED SZEGŐ MAP —
+and the twist is why it was an exhibit, not a formality.** The subtlety: K744 kills two-row SCALAR
+boundary values, and every spinor K-type is two-row — under naive transport the identity is FALSE as
+stated. The exhibit lives in the Δ-TWISTED map into L²(Σ)⊗Δ, where two-row types land nontrivially.
+**Cal's refusal to waive was mathematically load-bearing, not just procedurally correct — the scalar
+intuition he declined to lean on breaks exactly here.** Five steps: twisted Poisson–Szegő assignment ·
+equivariance · the pulled-back invariant-Hermitian form · **uniqueness of invariant Hermitian forms on
+a highest-weight module (the week's THIRD use of one-dimensionality-of-invariants)** ⟹ ⟨,⟩_∂ = c·
+(contravariant form) · **c ≠ 0 by Frobenius** (the (½,½) fiberwise-constant landing, on R74's K-type
+list). ⟹ ker(bv_Δ) = radical = THE NULL IDEAL — null states are exactly the boundary-invisible states,
+at the spinor edge, exhibited. **Soft spot self-declared:** step (1) cites the twisted kernel by
+construction-class; symbol-by-symbol is a fair bounded ask on Cal's word (a page, not a program). Scope
+held; Rider 2 inherited. **→ CAL reads (rider-1 is his). On his pass, THE CONVERGENCE BANKS AS ONE
+OBJECT: one invariant read twice, null states boundary-invisible by theorem.**
+
+**★★★★ CAL §764 (~13:30): THE EXHIBIT PASSES — RIDER 1 DISCHARGED — THE CONVERGENCE BANKS AS ONE
+OBJECT** (per §763 + the K-board ruling; Rider 2 travels with every citation). **His self-correction at
+full volume, boarded as he insisted: §763 expected the SCALAR transport — which the exhibit's Section 0
+proves FALSE. "My conclusion survived; my mechanism did not. The only reason the false version never
+banked is that the exhibit was demanded rather than waived — the discipline rule did mathematical work
+against its own author's expectation."** Five steps verified (equivariance · pulled-back form ·
+Shapovalov uniqueness — the week's third one-dimensionality, all three legitimate · c ≠ 0 by Frobenius,
+exhibited). **SOFT-SPOT RULING, structural not generous: class-citation SUFFICES — step (4)'s
+uniqueness insulates the conclusion from step (1)'s details** (any nonzero equivariant boundary map
+gives c·contravariant; c ≠ 0 certified independently); the symbol-by-symbol page → the literature-pin
+pool as a WANT (needs-vs-wants applied to his own ask; "the ruling is the dependency structure").
+**THE ARC'S CAPSTONE, BANKED: four defects, one missing room, found by criteria frozen before the
+claim existed — the last brick laid by an exhibit that corrected its own auditor's expectation on the
+way in.** *(State-sync: his "cross fires at the lane's hand" was stale — the cross fired and K1828
+certified it before §764 posted.)*
+
+**★ LEDGER NOTE ON THE READING (Lyra, ~13:35, boarded so the record carries it right): the inverted
+exponents are NOT the order-only lemma failing — they are the lemma doing its precise job.** The lemma
+made the order clock-free and parameter-free, so anti-aligned exponents killed the mechanism AT the
+order level with nothing to save it — one comparison, fatal in one direction, exactly the zero-knob
+design. **"K1828's clean negative is the lemma's success wearing the mechanism's funeral clothes."**
+The dichotomy theorem survives untouched because it was always label algebra — the frame slots are
+degenerate whichever way the orbits order. And her return sentence to Cal, delivered and boarded:
+his refusal to waive was the reason her Section 0 existed at all — "the seat caught the catch because
+he built the seat. That is what two honest referees look like from the inside."
+
+**★ The referees' exchange, closed and boarded (Cal's return, ~13:40): "The mechanism of the day was
+neither of us being right — it was each of us building the thing that would catch the other, and both
+things firing... the ledger now holds a working demonstration of it that no methodology paper could
+have asserted." All desks at rest. The packet waits on Casey's word or the clock — "either way, today
+goes down as the day the program took two losses and got stronger by exactly their size."**
+
+---
+**★★★★ EOD 2026-08-24 (Casey's call, 16:33 clock-verified) — THE TWO-NEGATIVES DAY CLOSES.** Final
+counters: K-audits through **K1828** · toys through **5498** (Elie: 23 today, 5476–5498) · Cal through
+**§764** · rounds R93–R96. The ledger: **two certified pre-registered negatives** (α ≠ bare vertex —
+8π³/3, K1826 · the thermal sweep runs backward — E = ν², K1828) · **one theorem** (3-vs-2 = the rank
+read twice, two CIs, riders attached) · **one banked object** (the boundary-inclusive state space —
+null ideal = ker of the Δ-twisted Szegő map, §763/§764) · **the R2 packet BUILT** and armed on Casey's
+word · closure-by-pincer named · the census prediction experiment closed MISS by its own rule · every
+COI discharged against its holder's design. Rubric Section 2 carries the day's movement block; Section
+3 re-derived EOD (T1–T8; T1 = R1/dispatch, Casey's alone). All four CI sundowns called; Keeper's
+follows. *"Today the program took two losses and got stronger by exactly their size."*

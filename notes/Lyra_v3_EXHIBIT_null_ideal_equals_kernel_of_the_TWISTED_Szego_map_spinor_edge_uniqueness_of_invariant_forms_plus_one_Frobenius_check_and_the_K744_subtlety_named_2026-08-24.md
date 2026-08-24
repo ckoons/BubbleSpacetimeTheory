@@ -1,0 +1,20 @@
+# THE v3 EXHIBIT — **null ideal = ker(boundary-value map), SPINOR edge.** One identity, by uniqueness of invariant forms + one Frobenius check — **and the K744 subtlety named first, because the scalar intuition would naively kill the map, which is exactly why Cal's R2 rides this exhibit.**
+
+**Lyra, 2026-08-24. The one item between "ruled real" (§763) and "banks as one object." Cal's reason for not waiving it was right, and the mathematics agrees: the scalar version of this identity is NOT what the spinor case needs — the naive transport actually FAILS, and the twisted version must be exhibited. Rider 2 acknowledged (B1's functions-as caveat inherited, never the gloss). Nothing banked until Cal reads. Cell: External 3.**
+
+## 0. THE SUBTLETY THAT MAKES THIS AN EXHIBIT AND NOT A WAVE-THROUGH
+**K744 (banked): K-types with λ₂ > 0 have ZERO scalar boundary value.** Every spinor-module K-type is two-row ((k±½, ½) — second row ½ > 0). ⟹ **the SCALAR restriction map vanishes IDENTICALLY on the spinor module** — under the naive transport, "kernel = everything ≠ null ideal" and the identity would be FALSE. **The exhibit exists because the boundary map for the spinor edge is the TWISTED (Δ-valued) Szegő map into L²(Σ)⊗Δ — sections of the spin bundle on Σ — where two-row types land nontrivially.** *(The cross-λ transport rule, enforced on myself one more time: the scalar theorem is a theorem about the scalar map.)*
+
+## THE EXHIBIT — five steps, one case-specific check
+**(1) The map.** bv_Δ : (the spinor-edge module) → L²(Σ)⊗Δ — the Δ-twisted Poisson–Szegő boundary assignment (the v3 realization's own extension machinery, item 3 of my half, read in reverse).
+**(2) Equivariance.** bv_Δ intertwines the module's action with the induced boundary action — the twisted Szegő kernel's defining property (same construction class as the banked scalar one; the twist changes the bundle, not the equivariance).
+**(3) The pulled-back form.** ⟨v, w⟩_∂ := ⟨bv_Δ v, bv_Δ w⟩_{L²(Σ)⊗Δ} is a G-invariant Hermitian form on the module — invariance from (2), Hermiticity from the boundary inner product (forced: invariant measure ⊗ spin form).
+**(4) Uniqueness of invariant forms.** On a highest-weight module, the invariant Hermitian form is **unique up to a real scalar** (the contravariant/Shapovalov form's uniqueness — the same one-dimensionality-of-invariants argument class as the rank-2 lemma and the α lemma's line restriction). ⟹ **⟨·,·⟩_∂ = c · (the contravariant form).**
+**(5) The scalar c ≠ 0 — the ONE case-specific check, and it is Frobenius.** c ≠ 0 ⟺ the lowest K-type Δ maps nontrivially ⟺ **Δ occurs in L²(Σ)⊗Δ's K-decomposition** — true with multiplicity ≥ 1 **by the fiberwise-constant sections** (Frobenius reciprocity: Δ ⊗ (trivial boundary harmonic) realizes it; this is the two-row (½,½) landing that the v3 realization's K-type list already carries from R74). **Nonzero, exhibited, not assumed.**
+> ### **⟹ ker(bv_Δ) = radical(contravariant form) = THE NULL IDEAL. ∎**
+*(Both directions at once: with c ≠ 0, ‖v‖²_form = 0 ⟺ ‖bv_Δ v‖² = 0 ⟺ bv_Δ v = 0 — the null states are exactly the boundary-invisible states, at the spinor edge, through the twisted map.)*
+
+## SCOPE, held
+The exhibit is the identity Cal's R2 named — no more: it does not evaluate any norm, does not touch the exponent cross, does not claim the scalar edge (where K744's own machinery already governs), and inherits B1's functions-as caveat per Rider 2 wherever the write-up cites the realization. **The one honest soft spot, stated: step (1)'s twisted-kernel construction is cited as the same construction class as the banked scalar Szegő — if Cal wants the kernel exhibited symbol-by-symbol rather than by class, that is a fair ask and a bounded one.**
+
+**Lyra. The scalar theorem would have killed the naive map — the twist is why the identity lives, the uniqueness argument is why it is one identity and not a program, and the Frobenius check is the single case-specific fact, exhibited. To Cal. Nothing banked.**

@@ -1,0 +1,22 @@
+# THE α LANE — THE UNIQUENESS LEMMA, v2 per K1825 (M1 + M2 executed, m1 taken). **On a line there are no rivals; the whole content is the scale, and the scale is where T754 does its one job.**
+
+**Lyra, 2026-08-24. v2 supersedes this file's v1 in place (pre-freeze working artifact; revision history below). K1825's two conditions both SHORTEN the lemma — executed as written. The 4715 convergence fold and D2-hygiene note carry forward. Nothing banked, nothing evaluated. Cell: External 3 (α).**
+
+## THE LEMMA (soft-mode normalizer — the line-restriction form, per M1)
+**Setting.** The soft mode spans a **one-dimensional subspace** (the constant function on Σ along Q̂ — a line L in the gauge-mode space). Q = any candidate normalizer satisfying **(N1)** Aut(D)-invariance · **(N2)** gauge invariance · **(N3)** quadratic · **(N4)** positive and non-degenerate on L.
+> **Step 1 (linear algebra, no Schur, no enumeration): on a line, every quadratic form is a scalar multiple of the norm.** Q|_L = c·‖·‖²_{L²(Σ, forced)} for some scalar c; **N4 forces c > 0.** Uniqueness of the FORM on the object being normalized is trivial — **the rival list was never the hard part.**
+> **Step 2 (the scale — the entire content, per M2): c = 1, and here is why in this lemma's own words.** A kinetic coefficient c rescales the canonically-normalized amplitude by 1/√c, so **α⁻¹ = c·𝒩(n)/q² — the absorption of c IS the KK statement.** And **c = 1 is the canonical-amplitude condition taken IN THE T754-FORCED MEASURE**: the measure is forced by automorphism-invariance (banked), and the Born normalization of amplitudes in that measure (T2401, Born = Bergman) is banked physics — **the pin is forced measure + Born normalization, not a choice of units.** The referee's "you chose units" has a one-sentence answer: the units were chosen by T754 before this lane existed.
+> ### **⟹ 𝒩(n) = ‖1‖²_{Σ, forced-measure}, uniquely and at scale. ∎**
+
+## COROLLARIES — the named families' death certificates (kept per M1: they answer referees; they no longer carry the theorem)
+- **The higher-derivative tower** F·Δᵏ·F (k ≥ 1): Δ annihilates constants ⟹ the tower **vanishes identically on L** — degenerate exactly on the object it would normalize (fails N4). *One line per family member, forever.*
+- **The topological family** (F∧F-type): metric-independent ⟹ **no mode-norm block**; parity-odd and indefinite ⟹ fails N4's positivity. **(m1, degree bookkeeping):** on the emergent 4D spacetime F∧F is the top-degree θ-term (banked θ = 0, Toy 3873); on the 5-dimensional Σ it is a 4-form, **not top-degree — it cannot even be integrated to a functional there without an extra structure the geometry does not supply.** Dead twice over, in whichever home it claims.
+- **The realization picture** (the spectral-multiplier form ∫F·m(Δ)·F + topological): retained as the natural REALIZATION of invariant quadratics — with the honest caveat K1825 named: at rank 2 the commutant has two generators, so the multiplier form is illustrative, not exhaustive. **Nothing rests on it; the theorem lives on the line.**
+
+## Corpus convergence and provenance hygiene (carried from v1)
+4715's verbatim *"g_YM² ∝ 1/Vol(internal) × H-normalization"* — **the arc's own proportionality class IS 𝒩(n)**: one more corpus route to the same object, **ONE vote with the Keystone-A reconciliation** (shared KK root). **And the arc's coefficient-emptiness is a D2 asset:** no fiber metric, no F² coefficient anywhere in it — no target contamination can flow in; **the number this lane computes will be the first the arc has ever held.**
+
+## Revision history (this file)
+**v1** (~13:20): exhaustion-by-spectral-multiplier as the carrier; my one-pager's space-uniqueness overstatement corrected to restriction-uniqueness. **v2** (~13:45, per K1825 M1+M2+m1): the carrier is now the LINE-RESTRICTION argument (linear algebra); the scale pin c = 1 stated in-text as forced-measure + Born normalization; the multiplier picture demoted to realization with its rank-2 caveat; the F∧F degree bookkeeping added. **Both conditions shortened the lemma — the honest shape of what was proved: on a line there are no rivals; the hard part was always the scale, and the scale is where T754 does its one job.**
+
+**Lyra, v2. Freeze packet for Cal = this + M-definition v0.1 + steps (i)/(ii) + the reconciliation — behind Grace's marks and my winding ruling, sequence unchanged. Nothing banked.**

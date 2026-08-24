@@ -1,0 +1,264 @@
+{
+ "ν": {
+  "degree": 2,
+  "n_files": 20,
+  "clusters": [
+   "lowest k-type",
+   "number sets"
+  ],
+  "total_glosses": 24
+ },
+ "E₀": {
+  "degree": 0,
+  "n_files": 6,
+  "clusters": [],
+  "total_glosses": 6
+ },
+ "w₀": {
+  "degree": 0,
+  "n_files": 1,
+  "clusters": [],
+  "total_glosses": 1
+ },
+ "C₂": {
+  "degree": 3,
+  "n_files": 20,
+  "clusters": [
+   "angular spin",
+   "bergman-laplacian spectral",
+   "scalar identity"
+  ],
+  "total_glosses": 23
+ },
+ "H²": {
+  "degree": 3,
+  "n_files": 17,
+  "clusters": [
+   "scalar representation",
+   "discrete series",
+   "thing l"
+  ],
+  "total_glosses": 23
+ },
+ "L_λ": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "genus": {
+  "degree": 5,
+  "n_files": 29,
+  "clusters": [
+   "geometric planck",
+   "may one-genus",
+   "spectral hole",
+   "mislabel",
+   "scale-setting weight"
+  ],
+  "total_glosses": 36
+ },
+ "Wallach threshold": {
+  "degree": 0,
+  "n_files": 2,
+  "clusters": [],
+  "total_glosses": 2
+ },
+ "self-shadow": {
+  "degree": 0,
+  "n_files": 1,
+  "clusters": [],
+  "total_glosses": 1
+ },
+ "Peirce": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "scalar": {
+  "degree": 0,
+  "n_files": 9,
+  "clusters": [],
+  "total_glosses": 9
+ },
+ "isotropy": {
+  "degree": 2,
+  "n_files": 8,
+  "clusters": [
+   "koide condition",
+   "elie lyra"
+  ],
+  "total_glosses": 10
+ },
+ "democratic": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "singular point": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "first zero": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "the ruler": {
+  "degree": 0,
+  "n_files": 1,
+  "clusters": [],
+  "total_glosses": 1
+ },
+ "Hardy point": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "N_max": {
+  "degree": 4,
+  "n_files": 28,
+  "clusters": [
+   "number distinguishable",
+   "spectral cap",
+   "shilov maximal",
+   "boundary cutoff"
+  ],
+  "total_glosses": 32
+ },
+ "J_CKM": {
+  "degree": 0,
+  "n_files": 1,
+  "clusters": [],
+  "total_glosses": 1
+ },
+ "y_t": {
+  "degree": 1,
+  "n_files": 5,
+  "clusters": [
+   "pole value"
+  ],
+  "total_glosses": 6
+ },
+ "Jarlskog": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "Shilov boundary": {
+  "degree": 3,
+  "n_files": 40,
+  "clusters": [
+   "trivial k-type",
+   "substrate s",
+   "s circle"
+  ],
+  "total_glosses": 45
+ },
+ "spin factor": {
+  "degree": 1,
+  "n_files": 6,
+  "clusters": [
+   "unique jordan"
+  ],
+  "total_glosses": 7
+ },
+ "custodial": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "commit": {
+  "degree": 7,
+  "n_files": 18,
+  "clusters": [
+   "sharp finite",
+   "sharp sort",
+   "contractive face",
+   "irreversible selection",
+   "right",
+   "map between",
+   "composition wallach-drop"
+  ],
+  "total_glosses": 29
+ },
+ "m_wt": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "ν_strat": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "c_chir": {
+  "degree": 0,
+  "n_files": 0,
+  "clusters": [],
+  "total_glosses": 0
+ },
+ "threshold": {
+  "degree": 2,
+  "n_files": 16,
+  "clusters": [
+   "point where",
+   "cutoff"
+  ],
+  "total_glosses": 18
+ },
+ "weight": {
+  "degree": 10,
+  "n_files": 60,
+  "clusters": [
+   "u",
+   "gindikin γ",
+   "root multiplicity",
+   "scalar weight",
+   "wallach threshold",
+   "thing replaces",
+   "h ν",
+   "trichotomy mass"
+  ],
+  "total_glosses": 80
+ },
+ "address": {
+  "degree": 2,
+  "n_files": 23,
+  "clusters": [
+   "open core",
+   "unifying open"
+  ],
+  "total_glosses": 31
+ },
+ "k_min": {
+  "degree": 0,
+  "n_files": 2,
+  "clusters": [],
+  "total_glosses": 3
+ },
+ "Δ": {
+  "degree": 1,
+  "n_files": 9,
+  "clusters": [
+   "vacuum energy"
+  ],
+  "total_glosses": 10
+ },
+ "formal degree": {
+  "degree": 0,
+  "n_files": 5,
+  "clusters": [],
+  "total_glosses": 7
+ }
+}

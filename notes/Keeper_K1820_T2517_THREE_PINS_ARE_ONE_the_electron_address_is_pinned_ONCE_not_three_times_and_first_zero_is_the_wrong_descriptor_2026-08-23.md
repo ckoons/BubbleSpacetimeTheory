@@ -110,3 +110,25 @@ same clause.**
 **Method note, and it is the day's rule paying off immediately:** I found this **while gating inputs for a
 different computation** — not by auditing T2517 again. **Enumerating the inputs of the A/C job surfaced a
 defect in a theorem I had already amended once today.** [[feedback_decorative_clauses_hide_errors_sweep_both_directions]]
+
+---
+
+## 8. ★ SECOND AMENDMENT (2026-08-24) — a FOURTH defect: d(ν) is in the wrong coordinates
+
+Grace's R82 calibration (her gated reducibility list {0, 1/2, 3/2}; discriminators ν=1, ν=5/2
+IRREDUCIBLE) + the family-swept map c_chir = ±ν − 5/2 (two clean CIs, Grace + Elie 5477) expose:
+**T2517's d(ν) = (5/2−ν)(1−ν)(2−ν)(3−ν)(4−ν) VANISHES AT REGULAR POINTS (1, 5/2) AND NOT AT THE
+REDUCTION POINTS (0, 1/2, 3/2). A formal degree cannot do that.** The calibrated polynomial
+ν(ν²−1/4)(ν²−9/4) has zeros exactly on the reducible set. **T2517's d is off by exactly the ρ-shift —
+written in λ-coordinates where λ+ρ belongs.** FOURTH defect on one theorem; **values still untouched.**
+**And Keeper's R82 "definitional anchor" is WITHDRAWN with it:** the polynomial identity was true but
+calibrated nothing — *"there exists a substitution making two formulas match" is not "the substitution is
+physical"* — and the match was to a mis-coordinated formula. **Pin c = −ν withdrawn; Grace/Elie's map stands.**
+
+### ⚠ CORRECTION TO SECTION 8, same day, within the hour — the "FOURTH DEFECT" is WITHDRAWN.
+My charge assumed formal-degree zeros must be reducibility points. **They must not:** reducibility (singular
+vectors) lives at ⟨λ+ρ,β∨⟩ ∈ ℤ₊ — positive pairings — while d-zeros are λ+ρ singularities (pairing = 0).
+**A formal degree vanishing at Verma-irreducible points is expected, not a defect.** T2517's d stands with
+its THREE descriptor defects, not four. **The error was mine: I identified reduction-notion (ii) with (iii)
+in the opposite direction from the conflation I had just refuted in Grace's control. Fifteenth collision,
+committed while naming it.**
