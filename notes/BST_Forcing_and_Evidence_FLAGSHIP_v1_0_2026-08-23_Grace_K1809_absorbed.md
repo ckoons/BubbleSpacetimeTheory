@@ -356,7 +356,7 @@ Reality is **forced to be D_IV⁵ modulo one empirical datum — the number of g
 - **I.1 innocence:** the m_s = 3 n-scan (independent verify) + R3/R5 criteria-innocence.
 - **CKM, 3 of 4 OPEN:** the split magnitude (t ∈ [0.120, 0.190], convention-carrying — quote σ_χ(G)); the δ_CP magnitude; V_cb's value (**retired**, position kept).
 - **CP magnitude:** off the table by ruling (K684); the one banked Jarlskog value is **retired** (Part III).
-- **Λ magnitude:** open (only the sign is forced).
+- **Λ magnitude:** open — **a STRUCTURAL FLOOR, not a derivation-in-progress** (the banked walk-back class: productive walk-backs set floors); only the **sign** is forced (Structural, T2546), and the w_a sign ships **conditional** per its own chain.
 - **sin²θ_W normalization:** PD → Derived promotion-path (#79).
 - **The soft up-mass m_u:** the one genuinely soft mass (no forced form, K1016/F890); the up-charm 12-block = √(m_u/m_c) is run in **reverse** — a consequence of CKM + down, not a forward input. Forcing it forward would be fitting the soft mass.
 - **PMNS θ₁₂ = 3/10:** Identified, and **not yet through the Part III test** (N unknown).
@@ -396,6 +396,15 @@ v0.2 carried Koide as **"Tier-1 exact."** Two problems: "Tier-1" is not a tier i
 
 **v1.0.6 → v1.0.7 (Grace, 2026-08-23, R67).** **Correction to my own scorecard:** the "+0.01σ" I recorded for 2/√79 is **a step-size artifact, not a better fit.** 2/√80 = 1/√20 exactly, so the two forms are one expression with and without a −1; at N = 80 the integer's own step is 2.06σ against a 2.06σ gap (**step/gap = 0.996**). Quoting it bare would have made a knob look like a result. The row now states it as "one bit, two observables," names the **A leg** as the informative one, and keeps the derived row's tier unchanged.
 
+**v1.1 → v1.2 (Grace, 2026-08-25): the FIRED-AND-LOST addendum (R1-F6) — K1826, K1828, and the T3 negative entered as the paper's own best exhibits, cross-referenced to register v0.3 §E.**
+
 **v1.0.7 → v1.1 (Grace, 2026-08-24 — the R93 fold; Cal's five-item list executed verbatim).** (1) **T2573 enters the II.4 scorecard** in its exact conditional form, statement verbatim, I-1…I-4 and the evidential-anomaly companion on its face. (2) **W2's supersession note** in III.5b: the exclusion was correct when made and is correctly lifted — both on the record, in order. (3) **I.5a superseded-floor banner**: binarity is a THEOREM (P1′ + Lemma 2), P2b struck; yesterday's posit-table kept for the chain; the dimension separation stands. (4) **The Sunday stack un-hedged** (ratified, sealed-miss protocol) and **the edge identity** (w₀ = (n−1)/2, 4/4 family-swept) entered as a structural-identity candidate with its literature-pin caveat on its face. (5) **The 228/360 tension defused in one sentence**: the primary pin resolved the RANKING; the data-layer flag records the FILE STATE pending landing — resolution exists, landing is separate.
+
+## ★ FIRED-AND-LOST ADDENDUM (2026-08-25 — R1-F6; the paper's two best exhibits post-date its freeze)
+This paper's whole argument is that pre-registered tests which CAN fail are the currency. **The day after its v1.1 freeze, the program's two cleanest pre-registered negatives fired — and a third the morning after:**
+1. **α is NOT a bare vertex: the one-shot returned 8π³/3 — the Hua volume of the Lie sphere — against a frozen win-window (K1826).** Both legs of the winding-count story of 1/α are dead (one by a currency re-homing, one by the integral). λ_H and V_us stand on independent banks. **III.6a's verdict (the expressibility argument fails its null) is thus completed by the mechanism-level shot: same conclusion, harder route.**
+2. **The thermal-generations order is EXACTLY INVERTED: E = ν² = (0, 9/4, 25/4) where the mechanism required the reverse (K1828;** two independent computations, identical exact triples, numbers unseen). Survivors: the KW strata, the AV grading, and an unpredicted structural fact — **the mass ladder and the commit-energy ladder are ANTI-ALIGNED.**
+3. **The simplest carrier of that anti-alignment (commit-Boltzmann) died with a number: 16/9 vs 1.88901, 5.90% > the frozen 5.00% line** (toy 5499, certified 2026-08-25).
+**Full entries with certifications: the falsifier register v0.3, Section E. These negatives are this paper's best exhibits — each is III.2's discipline producing a verdict that could not have been softened after the fact.**
 
 *v1.0 is DRAFT COMPLETE — no open markers. Gates before any external step: Cal cold-read (hostile) + Keeper consistency PASS + Casey GO. **NOT external. Nothing pushed.***

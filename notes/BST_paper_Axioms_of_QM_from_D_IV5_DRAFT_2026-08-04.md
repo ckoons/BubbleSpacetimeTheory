@@ -38,7 +38,7 @@ The states live in the Bergman/Hardy space H²(D_IV⁵); dynamics are generated 
 
 BST is not zero-input, and we state the floor plainly, the way general relativity states Newton's constant. The benchmark that matters is the count of *dimensionless* free parameters:
 
-- **One framework premise:** spacetime is the domain's conformal descent (SO(5,2) → SO(3,1)) — and the (3,1) **signature is *derived***, not assumed. This is a genuine shortening: general relativity *takes* the metric signature as given; BST forces it.
+- **One framework premise:** spacetime is the domain's conformal descent (SO(5,2) → SO(3,1)) — **a structural posit, declared at its tier (T2564/K1509: the 5→4 descent is posited, not derived)** — and the (3,1) **signature is *derived***, not assumed. This is a genuine shortening: general relativity *takes* the metric signature as given; BST forces it.
 - **One dimensionful scale:** the electron mass — the *operative* anchor, measured to three parts in 10¹⁰, non-gravitationally, and from it the geometry *reduces* Newton's constant to that same scale — G follows to 0.065% (through 24 powers of α, both α and m_e measured). This is a two-inputs-to-one *reduction*, not a prediction from nothing: no theory predicts a dimensionful G with no scale. One scale, matching GR's one (Newton's constant). (The substrate tick is *not* an input: it contains t_Planck, so taking it would be circular — §427.)
 - **Boundary data:** per-instance initial conditions, single measurement outcomes, and **the cosmic age** (the one cosmological "where are we on the trajectory" datum) — data every theory takes as given (GR evolves its Cauchy slice; it does not derive it).
 

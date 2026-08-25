@@ -32,6 +32,21 @@ its second, independent verification. Candidates carry their kill-conditions wit
 a number. Example: *"the geometry cannot supply a length scale"* is itself a proved theorem — an honest
 openness, labeled as such.
 
+## Compound and local labels — the dialect map (one table, so no label surprises you)
+
+The corpus is written by several hands over months; you will meet **compound labels**. Every one maps
+onto the five tiers, and this table is the packet's official mapping:
+
+| label you may meet | reads as | meaning |
+|---|---|---|
+| **Derived-full** | D | all conditions discharged; nothing held |
+| **Derived-conditional** | D (conditions named) | derived, given conditions stated in the theorem itself |
+| **CONDITIONAL-FORCED** | D (conditions named) | same species: the relation is forced given a named, still-open condition |
+| **derived-synthesis** | D, scope-limited | the identification is structural and audited, but is a *reading* of derived parts, not a new derivation |
+| *flagship abstract's* derived / supported / open / runner | D / C-or-I / (admission) / S-species | a coarse four-word scale used in one abstract; "open" is an admission, not a tier; "runner" = scale-dependent, no fixed number |
+
+If you meet a label not on this table or the five above, that is a defect — report it.
+
 ## The three disciplines behind the labels
 
 **1. Pre-registration.** Bars, win/loss conditions, and failure modes are frozen *before* computations
@@ -53,9 +68,13 @@ GR (which posits G) and QM (which posits ℏ), made explicit.
 - *Derived* does **not** mean "beyond question": it means the argument is exhibited and its inputs are on
   its face. Attack the argument, not our confidence.
 - A count of registry tags is **not** a verification statistic; only per-claim tiers are.
-- Agreement with data quoted without a σ, or against an unnamed dataset, does not count here. Experimental
-  comparisons in this packet are pinned to named releases (e.g., NuFIT 6.0) with the σ computed against
-  the stated band.
+- Agreement with data quoted without a σ, or against an unnamed dataset, does not count as *evidence
+  weighting* here. **Scope of that standard, stated honestly: it is enforced in the falsifier register and
+  in Forcing & Evidence's Part-III case studies** (pinned releases, e.g. NuFIT 6.0 / PDG 2024 Rev 12, σ
+  against the stated band). **The F&E summary tables still carry 193 of 197 rows without error bars — a
+  known deficiency with a named owner (the data-layer landing pass, Grace), recorded in F&E itself — and
+  the flagship quotes precisions, not σ's, for most of its 26 rows.** Where you see a bare %, read it as a
+  deviation report, not a weighted claim.
 
 ## The one-line test, restated
 
@@ -63,5 +82,9 @@ Pick any labeled claim in this packet. From the label alone you should be able t
 my mind about this, and what did its authors already try.* If you cannot, the label — or this page — is
 wrong, and either is a bug we will fix in public.
 
-*— The tier system is maintained by the program's internal auditor. Every tier assignment in this packet
-survived at least one adversarial review by a referee whose written role is to break it.*
+*— The tier system is maintained by the program's internal auditor. The SYSTEM itself and the packet's
+headline assignments have survived adversarial review by a referee whose written role is to break them
+(his findings are cited where they bit). **Per-row adversarial review of every table entry is NOT claimed**
+— rows carry their own audit citations where they exist, and rows without one have exactly the support
+their tier label promises, no more. This page's original version overclaimed that sentence; the referee
+caught it; this is the corrected form — which is the system working as described.*

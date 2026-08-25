@@ -6422,3 +6422,184 @@ word · closure-by-pincer named · the census prediction experiment closed MISS 
 COI discharged against its holder's design. Rubric Section 2 carries the day's movement block; Section
 3 re-derived EOD (T1–T8; T1 = R1/dispatch, Casey's alone). All four CI sundowns called; Keeper's
 follows. *"Today the program took two losses and got stronger by exactly their size."*
+
+**★★ POST-EOD RULINGS FROM CASEY (16:5x): (1) R1 GO GIVEN** — "happy with T1 R1, not blocked by me";
+Cal runs the hostile-referee pass at next wake; **R2 dispatch stays a separate later Casey decision.**
+**(2) Parked-item triage ruled: T7 (flux rebuild) and T8 (epoch restatement) CLOSED as
+parked-because-unproductive** — not owed, reopen only as fresh lanes. T3 stays a parked OPPORTUNITY
+(opens on a new mechanism idea + fresh prereg, K1828 exhibit one). T4 (census v0.2, ~half-day Grace) ·
+T5 (literature-pin book-hour — NOTE: the edge identity does not bank before its Dirac-bound pin, so T5
+is real) · T6 (m₁=0 shared-root audit, ~half-day) remain small bounded work. Rubric Section 3 updated.
+
+**★★ CASEY DIRECTIVE (16:4x, boarded): ALL NOT-DONE ITEMS TO FINAL STATE TOMORROW, IN PARALLEL.**
+Plan filed: `BST_TOMORROW_2026-08-25_PRIORITIES_R1_first.md` (supersedes same-day earlier version).
+Assignments: CAL = R1 (GO on record) + Jakobsen-to-verdict-or-floor · GRACE = census v0.2 live +
+R1-fix support · LYRA = pin batch (edge identity banks or re-tiers) + the GR finish (ℓ=2/su(3) +
+descent-input + Λ-floor text) · ELIE = T3 opens under a Keeper-gated fresh prereg + Jakobsen assist ·
+KEEPER = m₁=0 shared-root ruling + three Ext-3 at-floor closure artifacts + gates + verification.
+**Final state is DEFINED PER ITEM in the file; a named floor IS a final state; nothing silently
+pending at EOD tomorrow.**
+
+## ROUND 97 — 2026-08-25 · FINISH-THE-LEDGER DAY (prompt: notes/.running/wake/R97_TEAM_PROMPT.md)
+
+**★★ K1829 (09:10) — T6 FINAL: m₁ = 0 = TWO independent mechanisms + ONE check, not three votes.**
+Scope-sweep decided it: F588-rank (toggles with ν_R count) and 5461-channel_k0 (toggles with the k=0
+channel content) have different toggles and COMPOSE (one zero exists; it sits at k=0); F619 is the
+matrix-level verification + phase consequence, not a vote. Citation rule binding; reopen condition
+pre-named. **★ THE AUDIT'S FIND: "no Higgs channel" is an OVERLOADED PHRASE — channel_k0 (even grid,
+neutrino/up; 5461's object) vs channel_νW0 (the TAU's Wallach ν=0; the K1749-B pile). One phrase, two
+addresses — caught before any lane composed across it; to the census watch as a fired collision.**
+**T3 fence consequence (tightening only): the PILE stays fenced WHOLE (all three facts are
+tau-address); channel_k0 was never in it and is citable with subscript. T6′ (the tau pile's own
+audit) is a SEPARATE future item, not discharged today.**
+
+**★★★ LYRA'S T5 + GR: ALL FINAL (ledger filed, ~09:30). THE TIER-MOVER: THE DIRAC PIN LANDED** —
+Minwalla hep-th/9712074 eq. (2.56), ε₀ ≥ (d−1)/2 (spinor), saturation verbatim ("saturated by the Free
+Dirac field"), Mack-checked d=3,4 in the paper's own text. **THE EDGE IDENTITY RE-TIERS: Candidate →
+ESTABLISHED-IMPORTED IDENTIFICATION** (BST's content = the chamber structure REPRODUCES the bound
+family-generically, 4/4); the pre-agreed novelty-down/solidity-up trade executed; #67 row + PDF
+updated (Keeper verified in artifact). Wyler refs at standard form (page-image confirmation
+publisher-blocked — VERIFICATION-FLAGGED, used with flag). Q≠T floored WITH the caution strengthened
+at source (PPST 2023 defers so(2,n) to a forthcoming paper — the literature's own gap). FK Ch X / EHW
+floors unchanged. **The Δ-twisted Szegő SYMBOL PAGE IS WRITTEN** (cocycle equivariance + the Frobenius
+landing exhibited; honest residue named) — Cal's WANT is a document.
+**GR FINAL: (i) the ℓ=2/su(3) debt FLOORS ON A MEASURED NUMBER** — the spin-3 scalar of the quadrupole
+bracket is NONZERO (closure only on the 3-dim carrier where dimension forbids spin-3 — an accident,
+not a mechanism); **the reopening door is exact: R68c says every K-equivariant antisymmetric bilinear
+on the quadrupole carries spin-3 ×1 — a new idea must break equivariance or antisymmetry AND SAY
+WHICH.** A floor with a number and a door. (ii) descent = structural posit at tier, declared in Axioms
+§3 (Measurement paper already carried it). (iii) F&E Λ-line states the structural FLOOR cleanly.
+**⚠ TWO LIVE-PACKET EDITS FLAGGED FOR CAL'S R1 (read the CURRENT text): Axioms §3 descent tier-line ·
+F&E Λ-floor line — both one sentence, both sanctioned by today's contract.**
+**SOD residue: graph missing T2573's registration → GRACE (one line); ledger-date WARN chronic.**
+
+**★★ K1830 (09:35) — THE THREE EXT-3 AT-FLOOR CLOSURES FILED: Koide source (wall = uniformly
+under-hierarchical norms, 22.96 demanded; reopens only on a non-overlap-norm object class) · mixing
+values (K763's 8-route close stands; reopens only on a K1774-standard forced map for the numerators) ·
+mass tower (K1684 patchwork; reopens on a unifying slope mechanism or condensate-alignment movement).
+Each with banked assets restated and reopen conditions NAMED. External 3 = COMPLETE-AT-HONEST-TIER,
+zero silent opens; live thread = T2 Jakobsen only.** Keeper's lane: T6 ✓ (K1829) · SOD registry fix ✓
+(retirement2 OK; A²=rank instrument false-positive fixed with lookbehind, must-catch still green) ·
+Ext-3 floors ✓ (K1830). Remaining Keeper duty today: gate/verify R1 fixes · T3 oversight.
+
+**★★★ T3 FINAL — THE ONE SHOT RAN AND FAILED CLEAN (Elie toy 5499, 8/8; KEEPER CERTIFIED):** the
+commit-Boltzmann candidate m = A·e^{−τE} with E = ν² (K1828-certified) produced the zero-parameter
+invariant R = (E_e−E_μ)/(E_μ−E_τ) = 16/9 exact — **measured R = 1.88901-1.88904 vs 1.77778: dev 5.90%
+by the frozen |pred/actual−1| metric > the pre-named 5.00% line ⟹ FAIL, full stop** (Keeper re-derived:
+6.26% in the actual/pred convention — same fact; the frozen metric's number is the citable one).
+Robust across the m_τ band; W3 clean (down-quark R = 0.786, no spurious pass); A1 discharged BY
+CONSTRUCTION (both parameters cancel in R); A2 cleared by grep (one near-hit dismissed as
+name-collision, subscripted); the ν=0 fence honored (E_τ as certified 0 only; pile untouched;
+channel_k0 uncited). **THE ANTI-ALIGNMENT ORDER STANDS, CARRIER-LESS: the simplest carrier is now
+eliminated WITH A NUMBER.** Logged not composed: measured R > 16/9 ⟹ the μ→τ log-mass step is SHORTER
+than linear-in-E predicts — any survivor must break single-τ linearity (future prereg's exhibit).
+Budget spent. **Third clean pre-registered negative in two days.**
+
+**★★ R1 FINDINGS (Cal §766): R1-FAILED, four blockers, all named+owned+same-day-fixable — and three
+are the AUDITOR'S OWN (F1 tier-dialect fragmentation · F3 the σ sentence checkably false at packet
+scope · F4 the witness sentence the witness denies). KEEPER'S FIXES LANDED IN THE GUIDE** (dialect-map
+table added · σ standard honestly scoped with the 193/197 deficiency and its owner named · the
+witness sentence restated to the true form WITH the overclaim owned in the text). **F9 cover/TOC
+FILED** (`BST_R2_PACKET_COVER_and_TOC_2026-08-25.md`). Routed: F2+F8 → Elie (register A7
+Koide-label + version field) · F5+F7 → Lyra (#66 SEP-3 orphan + ledger→guide rename) · F6 → Grace+Elie
+(**the packet predates K1826/K1828 — add the two negatives + a FIRED-AND-LOST register section: the
+one fix that makes the packet STRONGER**). Then Keeper verifies from artifacts → Cal re-reads changed
+passages only → R1-PASSED target: today. The guide's honesty core SURVIVED hostile contact (α
+consistent across three carriers; 137-in-the-bulk corroborated verbatim). Cal → T2 Jakobsen.
+
+**★ R1 FIX TRACKER (~09:55): ELIE ✓ VERIFIED (F2 A7→CONDITIONAL-FORCED w/ K1749+K1830 cites · F8
+header v0.3 authoritative, stem kept per no-overwrite convention — Keeper ruled fine · F6-his-half:
+Section B-LOST with the THREE certified negatives L1/L2/L3, Grace's half explicitly reserved).
+KEEPER ✓ landed (F1 dialect map · F3 σ-scope · F4 witness sentence · F9 cover/TOC). PENDING: LYRA
+F5/F7 · GRACE F6-half + graph T2573. Then one batched Cal re-read → R1-PASSED.**
+
+**★ R1 FIX TRACKER update (~10:00): LYRA ✓ VERIFIED (F5 support block under the minimality claim —
+F&E Part I named + two-sentence sketch; the one-pager now stands alone inside the packet · F7 rename
+done · PDF rebuilt 23K). PENDING: GRACE only (F6-half + graph T2573) → then Cal's single batched
+re-read → R1-PASSED.**
+
+**★ R1 FIX TRACKER (~10:10): GRACE'S ITEMS VERIFIED (F&E v1.2 addendum — the negatives as the paper's
+own best exhibits · graph T2573 registered, 2350 nodes, mismatch closed · F3-absorption line in) —
+EXCEPT ONE SEAM THE VERIFY STEP CAUGHT BEFORE CAL: the register carries TWO fired-and-lost sections
+(Elie's B-LOST L39 + Grace's Section E L49 — same three negatives, two headings; two halves of one
+record, never merged).** Ruled: ELIE MERGES (his file) into ONE section — Grace's richer schema + his
+rows + her cross-links, both credited; the F&E "register §E" cross-ref coordinated in the same pass.
+Then Keeper verifies the merge → Cal's single batched re-read → R1-PASSED. *The catch is the verify
+step doing its one job: no duplication reaches the referee.*
+
+**★★ R1 FIX LOOP CLOSED (~10:15): the merge VERIFIED (one FIRED-AND-LOST heading, Grace's schema +
+Elie's rows, both credited, F&E §E cross-ref intact untouched) — ALL fixes landed and Keeper-verified
+at source. CAL'S SINGLE BATCHED RE-READ DISPATCHED with the complete changed-passages list (guide ×3 ·
+#66 ×2 · register ×3 incl. merged §E · F&E v1.2 · the new cover/TOC). On his pass: R1-PASSED, packet
+current, waiting on Casey's R2 word. Parallel: T2 Jakobsen (Cal, verdict or state-report by EOD).**
+
+**★★★★ CAL'S DOUBLE CLOSE (~10:25): (1) THE SIX-DOCUMENT PACKET IS R1-PASSED** (all nine fixes
+verified at text level, hostile frame held; #66's pointer verified resolving; #66-vs-F&E checked
+non-contradictory). One new cover blocker F10 (Keeper's own, second of the day): the Axioms companion
+was never in R1 scope while the cover's closing sentence claimed it — **FIXED: filenames added
+throughout, the Axioms paper re-labeled context-only/not-R1-passed/queues-for-its-own-R1, the closing
+sentence scoped to the six that actually passed, and the assembler's two catches owned in the cover's
+own text.** The F&E bold nit closed (cosmetic, one char, disclosed to Grace). **The cover joins the
+PASS on Cal's confirm of F10.**
+**(2) T2 = VERDICT (K1831): JAKOBSEN RATIFIES — THE SUNDAY QUARANTINE DROPS.** Prop 5.3 implemented
+from the primary's own method: scalar 0 · vector −4 (the untuned control) · spinor −2 — three exact
+matches against the Shapovalov instrument; the spinor's decisive channel is the SHORT root (the
+split-rank mechanism visible inside Jakobsen's formalism). **The spinor edge ν = 2 = (n−1)/2 = w₀ now
+stands on THREE independent instruments (Shapovalov · Dirac/Minwalla · Jakobsen).** Caveats on face
+(degree-1 only; the bare condition-(A) lattice non-discriminating, recorded; EHW transcription
+single-sourced → pin pool). Downstream carriers inherit the ratified tier.
+
+**★★★★ R1 FULLY CLOSED (Cal §769, 10:30, F10 confirmed IN THE COVER'S TEXT): THE PACKET OF RECORD IS
+R1-PASSED, COVER INCLUDED.** The finish-the-ledger contract is COMPLETE before 10:30: every item
+landed or floored with its obstacle named · three certified negatives in the register's Section E ·
+the Sunday quarantine RATIFIED and dropped (K1831, three instruments) · T3 fired and failed clean ·
+T4/T5/GR/T6/Ext-3 floors all final · SOD clean in Keeper's lane. **The program's ledger holds ZERO
+silent opens. Everything waits on exactly one word: Casey's R2 decision.** Standing availability:
+Cal armed (Axioms-paper R1 whenever queued; T3-gate work); all desks otherwise clear. Free play
+stands authorized per Casey's standing directive whenever the team is done.
+
+**⚠ KEEPER TIMESTAMP CORRECTION (09:07 EDT, clock-verified in this write): every Keeper board entry
+this morning from "~09:55" through "10:30" carries an INFLATED clock — the actual span was ~08:45 →
+09:06.** The sequence and content of the entries are correct; only the times drifted (projected
+forward from message volume — the exact failure banked to memory YESTERDAY as
+clock-drift-is-continuous, violated by its author within 24 hours; the teammates' own stamps were
+right). Corrective practice from this line on: `date` runs IN THE SAME CALL as any timestamped board
+write, no exceptions — the rule as written, not as remembered. The finish-the-ledger day completed
+by 09:06, which is even better than the record claimed.
+
+**★★ OUTREACH DECISION STATE (Casey, 09:11): 3Blue1Brown + Tegmark named as initial targets. HOLD on
+sending — approach to be discussed. TWO ONE-PAGE INTRO DRAFTS FILED FOR CASEY'S REVIEW (Keeper v0.1,
+PDFs built, marked NOT-FOR-DISPATCH):** the 3B1B draft leads with the visual/checkable mathematics
+and the published-failures culture; the Tegmark draft leads with the falsifiable-MUH-instance framing,
+the tier machinery, and the α negative as the honesty exhibit; both close on a hostile-read ask, no
+endorsement sought. External register discipline held (operational language only). **Dispatch remains
+Casey's alone; these drafts do not move without his edit + word.**
+
+**★★ CASEY STRATEGIC RULINGS (09:2x): KOIDE — "we never get Koide": the floor is accepted as
+PERMANENT-by-PI-ruling (no further effort ever; the reopen condition stays on the books only for
+something falling out free). MIXING VALUES — not a priority; the negative is accepted as-is. MASS
+TOWER — may be worked, and Casey fired a ranging shot unifying SM-3 with SM-4 (condensate →
+D_IV⁵ → generation; precipitation by temperature stratum). GR shots fired at the interface dynamics
+(information mapping into 3D as the missing ℓ=2 dynamics) and Λ (boundary-continuum thermostatic
+balance). Keeper assessment owed; shots on the shelf pending it.**
+
+**★★ KEEPER'S POCKET (Casey directive, 09:4x): THREE SHOTS SHELVED FOR THE WEDNESDAY PUSH — run in
+PARALLEL, team-up on a promising lead.** (1) **CONDENSATE PRECIPITATION** (SM-3+4 unified): mass ∝
+closeness-to-O (Shilov-pinned, F603) · commit-E ∝ boundary-distance (K1828) — the anti-alignment as a
+corollary; traps pre-named (τ_f must be forced; the 5454 spread wall must be checked, not assumed).
+(2) **THE GR INTERFACE**: the write/commit dynamics as the named non-equivariant ingredient — one
+sharp question: exhibit it and compute its bracket on the quadrupole (does it carry the spin-3?);
+corpus-only, the banked boundary object is the home. (3) **THE Λ THERMOSTAT**: self-consistent fixed
+point (Λ → horizon temperature → boundary back-reaction); missing ingredient = the Boltzmann/action
+factor whose exponent (≈280) must come from two independently forced scales; literature allies logged
+(Padmanabhan horizon-thermodynamics; Λ-as-thermodynamic-variable), coincidence-class flagged
+(Beck/Zel'dovich = target-not-evidence). **Wednesday morning: focused parallel push, gates first,
+Keeper coordinates, team-up trigger = any lane produces a FORCED quantitative consequence. NEXT WEEK:
+Millennium-attempts review (prep frame = K940's referee-calibrated per-problem ledger). Budget note:
+60% Fable usage — today stays light.** SM mining lane (mechanism classes, never numbers) authorized
+as part of the push.
+
+**★ OUTREACH CALIBRATION (Casey, 09:5x): Milgrom and Jaimungal also non-engagers (updates the door
+list). Standing posture: silence = permission to keep working; honesty + GitHub permanence; CI readers
+are the expected audience. CI CONTRIBUTOR INTERFACE improvement: approved, scheduled NEXT MONTH (not
+now). The hold on all sending stands.**

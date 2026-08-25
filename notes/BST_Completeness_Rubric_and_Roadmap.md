@@ -150,8 +150,9 @@ The external rubric is a generic "recover known physics" checklist — necessary
 
 > ### ★★ SECTION 3 RE-DERIVED 2026-08-24 EOD (Keeper — the scorecard moved twice today; the morning box
 > ### below is superseded history). THE CURRENT ORDERED LIST:
-> **T1. R1 red-team + dispatch decisions** *(Internal E / External-facing — ON CASEY'S WORD ALONE)* —
-> the packet EXISTS, twice currency-checked; nothing else blocks it. The single highest-leverage pending act.
+> **T1. R1 red-team: ★ CASEY GO GIVEN 2026-08-24 EOD ("happy with T1 R1, not blocked by me").** Cal runs
+> the hostile-referee pass at next wake. R2 DISPATCH remains a separate later Casey decision — assembling
+> ≠ sending, exactly as designed.
 > **T2. Cal's two-bracket Jakobsen computation** *(External 3 — still RUNNING, unaffected by today)* —
 > ratifies or falls the spinor-Wallach quarantine.
 > **T3. The anti-alignment successor lane** *(Ext 1/Int A — NOT OPEN; fresh prereg required, K1828 =
@@ -164,9 +165,11 @@ The external rubric is a generic "recover known physics" checklist — necessary
 > §764)** · Wyler primary refs for the α-closure write-up.
 > **T6. The m₁ = 0 shared-root audit** *(three mechanisms orbit it: F588 rank · 5461 no-channel · F619
 > ν=0 — logged, next book-hour class).*
-> **T7. The flux rebuild on the embedded circle** *(π₁(SO(5)) = ℤ₂ — real work, NO lane's debt; opens
-> only if someone wants the winding story).*
-> **T8. Epoch (A)/(B) restatement** *(transformed by K1828 into successor-lane territory — waits with T3).*
+> **T7. CLOSED (Casey ruling 08-24 EOD: parked-because-unproductive = done).** The flux rebuild on the
+> embedded circle is NOT OWED — the winding story is dead in both legs (K1687 marks + K1826) and nothing
+> banked consumes it. Reopens only as a fresh lane if someone ever wants that story.
+> **T8. CLOSED (same ruling).** The epoch restatement's mechanism is dead (K1828); the item is absorbed
+> into T3's future prereg if that ever opens. Not separately owed.
 > *(Everything below this box is prior state, kept as history.)*
 > ### ★ SECTION 3 RE-DERIVED 2026-08-24 (Keeper, per the standing brake: the scorecard moved, the task
 > ### list follows). THE CURRENT ORDERED LIST — everything below this box is prior state, kept as history:

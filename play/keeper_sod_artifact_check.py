@@ -140,7 +140,7 @@ else:
 
 # Each entry: (label, regex for the retired reading, regex that must NOT co-occur (exclusions))
 RETIRED_READINGS = [
-    ("A^2=rank",        r"A\W{0,2}2\s*=\s*rank",                      None),
+    ("A^2=rank",        r"(?<![A-Za-z‐-―-])A\W{0,2}2\s*=\s*rank",  None),  # lookbehind: ET-A2=... labels are NOT A^2=rank (false-positive fixed 08-25, K-verified with must-catch)
     ("Wyler alpha",     r"137\.0360|Wyler",                            None),
     ("2/sqrt(79)",      r"2\s*/\s*(?:\\?sqrt|√)\s*\(?\s*79",          None),
     ("36/869 V_cb",     r"36\s*/\s*869",                               None),

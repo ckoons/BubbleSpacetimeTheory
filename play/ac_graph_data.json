@@ -25,7 +25,7 @@
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": 2572,
+  "max_tid": "T2573",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -34910,6 +34910,23 @@
    ],
    "date": "2026-08-21",
    "plain": "Lyra+Elie 2026-08-21. No polynomial in the Casimir can grade a factorially-growing ladder; the carrier must be a Wallach/kernel object, not a differential-operator spectrum."
+  },
+  {
+   "tid": 2573,
+   "name": "THE HYPERCHARGE MECHANISM THEOREM (custodial route, parent-projection)",
+   "domain": "electroweak",
+   "status": "derived-conditional (I-1..I-4)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "R84-R86 custodial arc",
+   "toys": [
+    5483
+   ],
+   "date": "2026-08-24",
+   "plain": "SM hypercharges derived with no anomaly condition; ruler the only free scale; descent freedom = one bit on the nu^c slot (Five-Absence with a mechanism). DERIVED-CONDITIONAL on I-1..I-4.",
+   "proofs": [
+    "K1826-adjacent chain: T2520, Majorana bank, observed charged spectrum (observational), topology triple"
+   ]
   }
  ],
  "edges": [
@@ -131617,6 +131634,23 @@
    ],
    "date": "2026-08-21",
    "plain": "Lyra+Elie 2026-08-21. No polynomial in the Casimir can grade a factorially-growing ladder; the carrier must be a Wallach/kernel object, not a differential-operator spectrum."
+  },
+  {
+   "tid": 2573,
+   "name": "THE HYPERCHARGE MECHANISM THEOREM (custodial route, parent-projection)",
+   "domain": "electroweak",
+   "status": "derived-conditional (I-1..I-4)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "R84-R86 custodial arc",
+   "toys": [
+    5483
+   ],
+   "date": "2026-08-24",
+   "plain": "SM hypercharges derived with no anomaly condition; ruler the only free scale; descent freedom = one bit on the nu^c slot (Five-Absence with a mechanism). DERIVED-CONDITIONAL on I-1..I-4.",
+   "proofs": [
+    "K1826-adjacent chain: T2520, Majorana bank, observed charged spectrum (observational), topology triple"
+   ]
   }
  ],
  "metadata": {
