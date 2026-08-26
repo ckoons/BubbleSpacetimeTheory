@@ -217,6 +217,15 @@ The entire hadronic sector — pion mass, string tension, glueball mass, nuclear
 
 ## Section 12: Vacuum Energy as Thermodynamic Pressure
 
+> **⚠ CURATION BANNER (Keeper, 2026-08-26): Λ's VALUE IS NOT DERIVED — any "Λ derived" phrasing in
+> this chapter is SUPERSEDED.** The banked state: the magnitude's earlier "over-determination" was
+> retracted (a productive walk-back set the STRUCTURAL floor); the sign is forced (T2546). **The
+> 2026-08-26 advance: the thermostatic boundary–continuum balance CLOSES AS A STRUCTURE —
+> Λ/Λ_P = (t_K/t_P)^(2p/(2−p)), capped CONDITIONAL (K1057), p's domain (0,2) with outside-the-domain
+> FALSIFYING the form — one named obstacle (the mismatch power p), no number evaluated, the
+> 280-quarantine standing.** Current record: the Lane-Λ shot record + Lyra's thermostat paper + the
+> state-of-the-program page.
+
 ### 12.1 The Cosmological Constant Is Not Constant
 
 The standard cosmological constant $\Lambda$ is treated as a uniform property of spacetime — the same everywhere, unchanging. BST contradicts this directly.

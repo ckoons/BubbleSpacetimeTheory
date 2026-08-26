@@ -13,6 +13,16 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 ## Section 5: The Fine Structure Constant
 
+> **⚠ CURATION BANNER (Keeper, 2026-08-26 — read before this section): THE VOLUME-READING CLASS THIS
+> SECTION PRESENTS WAS CLOSED NEGATIVELY on 2026-08-24 (K1826, toy 5496).** The unique FORCED
+> geometric candidate — the Born-normalized soft vertex on the Shilov boundary, no step chosen toward
+> the answer — computes to **8π³/3 ≈ 82.68, not 137.036**; the class is closed by pincer (the forced
+> member refuted by computation; every unforced volume-ratio already non-evidential by the
+> expressibility null). **α's standing tier is IDENTIFIED**; do not cite any Wyler-family ratio as a
+> derivation. This section is preserved as HISTORY of the identification and its geometric readings —
+> the readings below are real mathematics about real invariants; what died is their claim to BE α.
+> Current record: the falsifier register §E · K1826 · the state-of-the-program page.
+
 ### 5.1 Wyler’s Formula
 
 In 1969, Armand Wyler computed a geometric ratio on $D_{IV}^5$ and obtained $\alpha = 1/137.036$, matching the measured fine structure constant to the available precision. His paper was published in Comptes Rendus but widely dismissed because he provided no physical reason why $D_{IV}^5$ should be the relevant domain.

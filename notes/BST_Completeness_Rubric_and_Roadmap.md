@@ -44,6 +44,13 @@ The external rubric is a generic "recover known physics" checklist — necessary
 
 ## 2. Where we are — dual scorecard (honest tiers, post-2026-08-15)
 
+**★★★★★ 2026-08-26 — THE PUSH-AND-PACKAGE DAY (R98–R100, Cal §770–§773, toys 5501–5502+). Casey's three ranging shots fired under five frozen layers; THREE CERTIFIED THEOREM-FLOORS; the rubric declared FINISHED-AT-TIER; the Writeup Round packages it.**
+- **★★ Ext 4 / Λ — THE THERMOSTAT CLOSES AS STRUCTURE (Lane Λ, landing (b), certified):** the fixed-point balance exists; both controls pass (T2571 reproduced UN-FED — the K1749 two-facts split making the un-fed control possible); the fork resolved to response-coefficient from the equation's own structure (a₁/F63 entered legitimately; "curvature quantum" confirmed unnecessary AND unbanked); **THE FORM: Λ/Λ_P = (t_K/t_P)^(2p/(2−p)) — the Koons tick load-bearing in the cosmological constant's structure.** Count free = 1 (the mismatch power p, the 5D→4D reduction of the residual) ⟹ no evaluation existed; the 280-quarantine untouched and forward-transferred. Capped CONDITIONAL (K1057) at both quotable sites. **Λ's row improves from "structural floor" to "closed structural form, one named obstacle."**
+- **★★ Ext 4 / ℓ=2 — THE WALL'S SECOND THEOREM (Lane I, certified):** the write-channel ingredient is real and non-equivariant BY BANK THEOREM (Peirce/stabilizer); its typed assembly is forced uniquely (five enumerated, four die by type); the bracket compresses onto the 3-carrier where dimension forbids spin-3 — **explains-why, supplies-no-dynamics; the write channel joins R68c's excluded list in compression form.** DERIVED-CONDITIONAL cap honored.
+- **★★ Ext 3 / mass tower + generations — THE W3-FLOOR IS A THEOREM, TWO-CI (Lane P, certified; §772-scoped):** the zero-knob freeze-out condition (leadership-switch times, reparametrization-invariant — no τ(T) map owed) cannot be fed by ANY measure_int-derived weight: **the strata are DEFINED by measure_int degeneration (the Pochhammer zeros ARE the strata), so measure_int weights are 0-or-∞ on them structurally** (Γ_Ω poles at ν = 3/2, 0 · AV formal degree w_τ = 0; both re-derived, two-CI toy 5502). **The successor door: a NON-measure_int weight source — the Shilov surface measure, finite exactly where measure_int dies (the boundary object's FOURTH arrow); NEW-prereg-only, drafted, held for Casey.**
+- **★ Methodology, with a number:** one over-wide word replicated to 12 sites / 5 artifacts / 2 authors in <2h (~6 sites/hour, Cal §773) — swept same-hour incl. across governance boundaries by flag-not-edit; the paraphrase vector named (alias-aware sweeps). Seven upstream catches this day; two of them against the gate-writer and the checker themselves.
+- **★★ THE DECLARATION (Casey + Keeper, rubric review 08-26): EVERY ROW IS DONE-AT-HONEST-TIER OR FLOORED-WITH-A-THEOREM. The checklist is FINISHED in the only sense it defined.** Remaining opens everywhere are IDEA-DOORS (named walls, named reopen conditions), not labor. Packaging: the Writeup Round (R100 v2); Zenodo version update EARLY NEXT WEEK on Casey's hand.
+
 **★★★★★ 2026-08-24 — THE TWO-NEGATIVES DAY (R93–R96, K1824–K1828, Cal §753–§764). Two deep lanes CLOSED by certified pre-registered negatives; one theorem; one banked object; the R2 packet BUILT.**
 - **★★ External 3 — α: THE FORCED VERTEX ROUTE CLOSED NEGATIVE (K1826, toy 5496).** α⁻¹(bare Shilov vertex) = 8π³/3 = the Hua volume of the Lie sphere, NOT 137 — Landing C under prereg v2 (power Born-pinned, landings + tolerance pre-committed, half-blind, D3 family-varying). **α stays IDENTIFIED, now guarded by the strongest negative it has ever had; the volume-reading CLASS closed by pincer** (forced leg refuted by computation + free family already null by 5457). Keystone A's face marked; its never-banked prize list dead; λ_H and V_us stand on independent banks. Estate banked: domain Low theorem (Schur) · Thomson=Shilov chain · jurisdiction-by-type · uniqueness lemma v2 (line-restriction) · KK≡𝒩 reconciliation · 𝒩(n) family values. π·Vol(S⁴) logged, unclaimed.
 - **★★ Ext 1/Int A — THE THERMAL-GENERATIONS MECHANISM REFUTED AT THE ORDER LEVEL (K1827+K1828, toys 5497/5498 + Grace's cross half).** Two independent computations, numbers unseen, identical exact triples E = (0, 9/4, 25/4) = ν² — the EXACT STRICT REVERSE of the frozen Shilov-first order, under both weight conventions. The zero-knob falsifier fired negative on first contact with numbers after surviving two dead assemblies + six gates. DIES: freeze-out-order ⟺ H_B-spectral-order. STANDS: KW strata · AV grading (GK dims 0/4/5 = orbit dims, exact) · the 4/4 control AS DATA · F588. **Residue double-logged, unclaimed: the mass ladder and commit-energy ladder are ANTI-ALIGNED along the strata** (fresh-prereg territory, K1828 = exhibit one).
@@ -148,6 +155,23 @@ The external rubric is a generic "recover known physics" checklist — necessary
 
 ## 3. The task list to complete BOTH rubrics (next few months)
 
+> ### ★★★ SECTION 3 — FINAL RE-DERIVATION, 2026-08-26 (the rubric is FINISHED-AT-TIER; this list is
+> ### now PACKAGING + IDEA-DOORS, nothing else. All prior boxes below are history.)
+> **PACKAGING (today, R100):** the three shot write-ups (Λ form · I compression · P floor) → two-CI
+> quote-checks → register/F&E absorb → Cal's cold sweep → the state-of-the-program page → PDFs.
+> **CASEY'S QUEUE (no team action):** Zenodo version update (early next week) · R2 dispatch · the
+> surface-measure successor prereg (drafted, held) · the Axioms paper's own R1 · outreach drafts.
+> **IDEA-DOORS (each NEW-prereg-only, each with a theorem on its wall):** D1 non-measure_int weights
+> for the generations/mass-tower mechanism (surface measure named) · D2 force the mismatch power p
+> (inherits the Λ form at free = 0, quarantine pre-transferred) · D3 break the ℓ=2 compression
+> (equivariance-or-antisymmetry, and say which — now with the write channel excluded too) · D4 the
+> anti-alignment carrier (must break single-τ linearity AND now must climb the P floor) · D5 the
+> BOUNDARY-FIRST CONSTRUCTION — four arrows + a drafted prereg point here; the likeliest next big
+> lane · D6 the tau-pile audit (T6′) · D7 the CI contributor interface (Casey, ~Sept). **NEXT WEEK:
+> the Millennium review (frame staged) — ★ WITH A FULL REVIEW OF THE 4-COLOR PROOF as its own
+> commissioned task (Casey, 08-26): correctness-oriented — definition-equivalence (is our theorem
+> Appel–Haken's theorem?), ι(v)'s computational status, and Lean/Coq formalization feasibility
+> (Gonthier 2005 precedent). Pre-read note carries the objection list.**
 > ### ★★ SECTION 3 RE-DERIVED 2026-08-24 EOD (Keeper — the scorecard moved twice today; the morning box
 > ### below is superseded history). THE CURRENT ORDERED LIST:
 > **T1. R1 red-team: ★ CASEY GO GIVEN 2026-08-24 EOD ("happy with T1 R1, not blocked by me").** Cal runs

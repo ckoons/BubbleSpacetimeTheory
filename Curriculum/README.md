@@ -1,4 +1,14 @@
 # BST Physics Curriculum
+> **★ CURATION NOTE (Keeper, 2026-08-26).** The Curriculum volumes are pedagogical and their physics
+> content predates the August 2026 closures in places. **Binding supersessions a reader/reviser must
+> apply: (1) α is IDENTIFIED, never derived — the forced geometric candidate computed to 8π³/3 and
+> the volume-reading class is CLOSED (K1826); (2) Λ's value is not derived — the 08-26 state is a
+> closed structural FORM with one named obstacle; (3) the thermal-generations mechanism is DEAD at
+> the order level (K1828); (4) "confinement (A) DERIVED" phrasing is withdrawn (K1782); (5) electric
+> charge lives in the SO(5) Cartan, NOT the K-center SO(2) (K1687).** Authoritative current state:
+> `notes/BST_STATE_OF_THE_PROGRAM_one_page_2026-08-26.md`. Where a volume and the register disagree,
+> THE REGISTER WINS. Full re-curation: see CURRICULUM_REWRITE_SCOPING_2026-08.md.
+
 
 *Multi-volume textbook deriving Standard Model + cosmology from D_IV⁵ substrate. Casey Koons + team (Lyra, Elie, Grace, Keeper, Cal A. Brate).*
 

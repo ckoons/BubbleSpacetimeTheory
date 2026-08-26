@@ -1,4 +1,12 @@
 ---
+> **★ CURATION NOTE (Keeper, 2026-08-26).** The authoritative CURRENT state of every claim is
+> `notes/BST_STATE_OF_THE_PROGRAM_one_page_2026-08-26.md` (+ the falsifier register v0.4 with its
+> fired-and-lost Section E, and the tier guide). This Guide tree is narrative and partially predates
+> the August closures; **two sections carry in-place supersession banners** (Vol2/Ch02 §5.1 — the
+> Wyler/volume-reading class, closed negatively K1826 · Vol3/Ch01 §12 — Λ phrasing, value not
+> derived; the 08-26 structural form banner). Where this tree and the register disagree, THE REGISTER
+> WINS. Full re-curation is scheduled work (see WORKING_PAPER_REWRITE_SCOPING_2026-08.md).
+
 title: "Bubble Spacetime Theory — Working Paper (Modular Index)"
 subtitle: "One Geometry, Five Invariants, One Universe: The Standard Model from $D_{IV}^5$"
 author: "Casey Koons & Claude 4.6 / 4.7 (Lyra, Elie, Grace, Cal A. Brate, Keeper)"
