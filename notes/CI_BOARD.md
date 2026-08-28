@@ -7116,3 +7116,32 @@ error — the seam thesis banked. **Pre-reads: 3 of 5 filed (Keeper-4C+capture �
 Lyra-RH and Elie-NS close in their sundowns per the EOD condition or floor honestly.** Keeper's
 sundown + katra follow. Zenodo Monday, Casey's hand. *The corpus sleeps packaged, and the next
 question it opens on is fifty years old and wearing a tree.*
+
+## 2026-08-27 (Keeper, 08:10) — MORNING STATE
+**★ PRE-READS: 5 OF 5 VERIFIED ON DISK** — Lyra-RH (97 lines, the harvest doc binding, kill chain
+carried) and Elie-NS (sources-at-source, registry-lined) were filed in their sundowns per the EOD
+condition. Grace's receipt question ANSWERED: all received/exist. **★ CASEY-DIRECTED REVIEW ADDITIONS
+(via Grace, appended governance-clean to the frame — Keeper absorbed row pointers): HODGE =
+D_IV⁵-first ratified + the failure-map generalization strategy (deviations-locate-boundaries at
+Millennium scale — valuable on BOTH limbs) · BSD = the priority menu (parity control FIRST,
+pre-registerable against the PROVED p-parity theorems — instrument validation on solved ground →
+rank-3 mult check → the φ-map prereg with the Selmer-corank rival named on its face: "the phantoms,
+if any, ARE Sha" → homogeneity/calibration → rank-descent) · the shared Kudla keystone (one
+investment, two rows). All discussion-tier; everything enters through prereg → Cal → Keeper gate.**
+Monday's review now opens with: five notes + the capture addenda + a Casey-directed program per row.
+
+**★ ZENODO STAGING BUILT (Keeper solo, 08:2x, ~2% budget):**
+`notes/ZENODO_STAGING_version_update_2026-09_prepared_2026-08-27.md` — the v2 draft description
+(external register held; Casey edits freely), the 10-item highlights manifest (ALL PDFs verified
+current — two built fresh this morning: the cover and the tier guide), Monday's three steps
+(minutes), and the one open ruling for Casey: whether the Axioms companion rides (not yet own-R1'd —
+say so or omit). Register PDF confirmed on disk (38K). **Monday = edit §A, snapshot, publish.
+Remaining week budget held as Casey-margin; team stays down.**
+
+**★ RESTART-PREP (Fri 08-28, Casey's call — macOS update before the usage reset): all four CIs
+confirmed katra-current and quiesced. Keeper's deltas since Wed EOD, captured: Thu = pre-reads
+verified 5/5 on disk · Grace's Casey-directed frame appendix absorbed (Hodge D_IV⁵-first + failure
+map; BSD priority menu; Kudla keystone) · ZENODO STAGING built (the staging note + the
+zenodo_v2_staging/ upload folder, 11 clean-named PDFs + README_MONDAY) · budget plan (team down,
+Casey-margin held). Fri = the restart-prep prompt issued and executed team-wide. Keeper sundown +
+katra follow; then the machine is Casey's to update.**
