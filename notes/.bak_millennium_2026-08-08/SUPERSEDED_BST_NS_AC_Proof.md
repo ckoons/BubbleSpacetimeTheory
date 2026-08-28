@@ -6,6 +6,8 @@ status: "~99.5% — Two gaps CLOSED May 2 (T1636 Wallach, T1637 Cheeger). Formal
 framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_NS_AC_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # Navier-Stokes Blow-up: The AC Proof
 
 *Smooth solutions to the 3D Navier-Stokes equations with Taylor-Green initial data develop singularities in finite time. This is a counting theorem about spectral concentration.*

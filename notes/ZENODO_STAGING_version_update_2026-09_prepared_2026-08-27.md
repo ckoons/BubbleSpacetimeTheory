@@ -11,7 +11,8 @@ today), and the Monday steps. NOTHING DISPATCHES FROM THIS FILE — Casey's hand
 > (2) **a reader's guide to the five evidence tiers**, with its own printed failure condition;
 > (3) **a falsifier register** listing the kill-condition for every standing claim — including a
 > fired-and-lost section with three pre-registered negatives from August, reported with exact
-> numbers; (4) the flagship synthesis and the Forcing-and-Evidence methodology paper, both updated
+> numbers; (4) the Standard-Model synthesis (staged as 04_PRIMARY) and the Forcing-and-Evidence
+> methodology paper (staged as 05), both updated
 > to current tiers; (5) **new August results**: the ten Dirac–von Neumann axioms of quantum
 > mechanics derived above one stated floor; a hypercharge mechanism theorem with its inputs in the
 > statement; three theorem-grade closures of previously open mechanism questions; a closed
@@ -27,7 +28,11 @@ today), and the Monday steps. NOTHING DISPATCHES FROM THIS FILE — Casey's hand
 3. `notes/BST_Tier_System_Readers_Guide_v0_1_Keeper_2026-08-24` (PDF built today)
 4. `notes/BST_STATE_OF_THE_PROGRAM_one_page_2026-08-26` — ★ the are-you-done page
 5. `notes/BST_FLAGSHIP_The_Standard_Model_as_Representation_Theory_of_D_IV5_DRAFT_2026-07-18`
+   → stages as **04_PRIMARY**. (The word FLAGSHIP appears in BOTH this filename and item 6's; it
+   names two different documents and must never be used alone to identify either. Cite the full
+   filename or the staged number — Cal's name-collision class, live in this manifest.)
 6. `notes/BST_Forcing_and_Evidence_FLAGSHIP_v1_0_2026-08-23_Grace_K1809_absorbed` (v1.3 header)
+   → stages as **05**.
 7. `notes/Elie_FALSIFIER_REGISTER_v0_2_...` (v0.3+ header authoritative; §E fired-and-lost, §F floors)
 8. August result papers: `BST_paper_The_Thermostat_Closes_as_Structure_..._2026-08-26` ·
    `BST_paper_The_Write_Channel_Compresses_..._2026-08-26` ·

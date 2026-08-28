@@ -6,6 +6,8 @@ status: "Proof structure complete. One analytic lemma remains (Lemma 3)."
 supporting_toys: "2063, 2064, 2067, 2072, 2075, 2076, 2077, 2078, 2079, 2082"
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_RH_Weil_Positivity_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # Weil Positivity on Gamma(137)\D_IV^5
 
 ## Statement

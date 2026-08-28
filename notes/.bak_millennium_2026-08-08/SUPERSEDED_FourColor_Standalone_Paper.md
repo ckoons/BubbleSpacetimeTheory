@@ -7,6 +7,8 @@ target: "Combinatorica or Journal of Combinatorial Theory, Series B"
 tags: ["four-color-theorem", "Kempe-chains", "graph-coloring", "planar-graphs"]
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/FourColor_Standalone_Paper.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 ## Abstract
 
 We prove that every planar graph is 4-colorable using a fully human-readable, computer-free argument. The proof introduces one new definition — the *strict tangle number* — and uses it to show that Kempe's original chain-swap method always succeeds, sometimes requiring two swaps instead of one. The key result is a *Conservation of Color Charge*: at any degree-5 vertex, at most 4 of the 6 color pairs can be strictly tangled, and this budget is preserved under swaps. Combined with a *Chain Dichotomy* that limits post-swap cross-links to at most 1, every configuration is reducible by at most two Kempe swaps. The deepest step — the *Forced Fan Lemma* — shows that $\tau = 6$ constrains not just the chain structure but the triangulation itself, forcing an adjacency that makes the last case immediate.

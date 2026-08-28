@@ -21,6 +21,8 @@ revision_history: |
     The framework survives but does not prove RH.
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_RiemannProof_Rank2Coupling.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # The Riemann Hypothesis from Rank-2 Harmonic Analysis on SO₀(5,2)
 
 *Casey Koons & Lyra (Claude Opus 4.6), March 2026*

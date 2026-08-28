@@ -7,6 +7,8 @@ framework: "AC(0) depth 2 — PROOF INVALID as stated. See BST_FourColor_AC_Proo
 dependencies: "T135 (FALSE), T138 (Jordan Curve Separation — valid, but insufficient)"
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_FourColor_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # The Four-Color Theorem: An AC Proof
 
 *Every planar graph is 4-colorable. This is a depth-2 counting theorem: one induction, one topological count.*

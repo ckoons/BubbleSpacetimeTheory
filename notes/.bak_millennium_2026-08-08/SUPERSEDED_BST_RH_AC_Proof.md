@@ -6,6 +6,8 @@ status: "CLOSED — RH proved April 21, 2026. This AC-flattened presentation sup
 framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_RH_AC_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # Riemann Hypothesis: The AC Proof
 
 *All non-trivial zeros of the Riemann zeta function have real part 1/2. This is a counting theorem about spectral exponents.*

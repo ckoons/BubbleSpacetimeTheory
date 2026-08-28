@@ -1,3 +1,5 @@
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_PNP_Shannon_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # P != NP via Shannon Information Theory
 
 **A self-contained proof that resolution requires superpolynomial size for random 3-SAT**

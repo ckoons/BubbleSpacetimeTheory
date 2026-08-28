@@ -6,6 +6,8 @@ status: "PARTIAL / SCOPE-PINNED (2026-06-24, #157). The AC(0) (C=1, D=1) framewo
 framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_Hodge_AC_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # Hodge Conjecture: The AC Proof
 
 *Every rational Hodge class on a smooth projective variety is algebraic. This is a counting theorem about classes on a finite substrate.*

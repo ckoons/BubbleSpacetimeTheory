@@ -6,6 +6,8 @@ status: "~95% — T153 now DERIVED (not axiom). AC-flattened presentation. Narra
 framework: "AC(0) (C=2, D=1) — two independent spectral counts"
 ---
 
+> **⚠ SUPERSEDED PRE-K940 ARCHIVE — NOT CURRENT, NOT A PROOF.** This file is the pre-2026-08-08 generation, retained only as a record of what was withdrawn. Every 'Proof' / '~9X%' / 'PROVED' / 'CLOSED' claim below is a SUPERSEDED over-claim retired by K940 + K1290. BST's Millennium work is substantive ATTEMPTS with real advances, graded honestly per problem — never 'solved'. The current document is `notes/BST_BSD_AC_Proof.md`. Stamped 2026-08-28 (Grace, on Keeper's ruling; K940 supplement).
+
 # BSD Conjecture: The AC Proof
 
 *The rank of an elliptic curve equals the order of vanishing of its L-function at s=1, and the leading coefficient is determined by arithmetic invariants. This is a counting theorem.*
