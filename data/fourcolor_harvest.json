@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "title": "Four-Color Breadth Harvest — bulk witness table (sibling of fourcolor_witness_gallery.json)",
+    "owner": "Grace (schema + custody); Elie (generator + measurement, W1/W2); Cal (population-fairness gate + confidence ledger)",
+    "created": "2026-08-30",
+    "round": "CI_BOARD Round 77 — Cal's softest-place ruling: every celebrated vocabulary reads the SAME six base graphs; a vocabulary that survives a population it didn't grow up on is a theory",
+    "schema_version": "1.0",
+    "relationship_to_gallery": "The gallery (FCW-###) holds NAMED, individually-verified witnesses with full provenance. This table holds hundreds of bulk rows, one per generated witness, measured wholesale on every axis. PROMOTION RULE: a bulk row that becomes load-bearing (a kill, a new invariant's birth certificate, a false-neighbor pair) is PROMOTED to an FCW ID in the gallery with its harvest row_id recorded — the row itself is never deleted.",
+    "conventions": "Counts k/N, never percentages. Instrument fingerprint carried over from the gallery: corrected face-tracked pipeline (861->862 fingerprint; sorted-order labels are the poisoned instrument — any row produced by one is invalid, not merely stale). Dedup key MUST be declared per family (full-coloring vs link-color-tuple resolutions differ; both legitimate, never mixed silently).",
+    "blind_protocol": "W2 order is LOAD-BEARING and recorded per row: (1) fibers computed and FILED (gf2_fiber_id, z_fiber) with reachability fields EMPTY; (2) file checkpoint hash posted; (3) reachability/depth measured and filled in. The 'blind_stamp' field carries the checkpoint reference so target-innocence at scale is auditable, not asserted. Any row with reachability filled before its blind_stamp is quarantined (quarantine=true), not deleted.",
+    "population_fairness": "Cal-RULED (round 7, Cal 788): SIX strata (supersedes the draft five-family list). Leaving-home strata = random / degree-diverse / adversarial ONLY — never first-found sampling. Instrument-saturation reads UNRESOLVED until Cal rules otherwise. Every row carries its stratum tag; the exact six-strata definitions are Cal's artifact — cite his ruling, do not paraphrase.",
+    "fairness_status": "GATE RULED (six strata, Cal 788); W1 generator built and PARKED at the gate (92 graphs with provenance); mass production awaits 'run it'",
+    "kill_semantics": "THE TEST THAT MATTERS (W2): any same-gf2-fiber unreachable pair kills the complete-invariant conjecture — that pair is promoted to the gallery same-hour as the next invariant's birth certificate. Zero kills at scale = the strongest evidence this program has produced, in Cal's confidence language (his ruling on what N-at-scale earns what wording — do not paraphrase it here, cite his ledger entry when it exists).",
+    "crown_deliverable": "THE SPANNING PROFILE (round 8): rank of available straddle-indicators per coloring, across hundreds of witnesses, with frozen objects as the PREDICTED rank-drop sites. Per Lemma R, this one table either locates the obstruction to Availability Saturation (SPANNING gap) or shows there isn't one.",
+    "tranche_riders": "Cal's 4 riders (round 8): (1) tranche 2 owes law-targeting adversarial families; (2) deg-7+ carriers REQUIRED — the charge theorem's +/-3-at-deg-7 has NEVER been observed (natal six contain none); (3) natal-derived flags exclude tower-DNA from breadth statistics; (4) randomness gets a mixing diagnostic. Pipeline blind-by-construction: fibers sha256-checkpointed before reachability computes.",
+    "first_observation_watch": "RESOLVED — FIRST OBSERVATION BANKED (round 9): 4,184 deg-7 readings across 92 foreign graphs, every one exactly +/-3. The pre-registered can-fail clause CONFIRMED at scale. Historical text of the watch preserved in git.",
+    "tranche_status": "Tranche 1 LANDED: 92 foreign graphs; ASC survives first contact (ZERO closed-component kills); F1 provably mixes; deficiency axis 0-95. Tranche 2 next under Cal's riders: law-targeting adversarial families + the deficiency correlation table (deficiency vs depth, freezing, gate statistics — the spanning profile's first law-shaped table)."
+  },
+  "schema": {
+    "row_id": "H-###### monotone, never reused (same rule as FCW IDs)",
+    "family": "random | tower-variant | literature-killer | akempic-cover | adversarial",
+    "generator": "generator name + version + seed — the row must be regenerable bit-identically",
+    "graph": {
+      "V": "int",
+      "E": "int",
+      "faces_checked": "bool (sphere-triangulation validation passed)",
+      "canonical_hash": "isomorphism-invariant hash for cross-row dedup"
+    },
+    "odd_geometry": {
+      "odd_count": "int",
+      "odd_density": "odd/V as fraction string",
+      "s2_radius3_odd": "int (odd vertices within distance 3 of stuck vertex)",
+      "s4_inverse_distance_charge": "number"
+    },
+    "charge": {
+      "landscape": "per-degree charge multiset summary",
+      "total": "12*deg check value",
+      "deg7_carrier": "bool + observed charge value if present — first-observation flag, see _meta.first_observation_watch"
+    },
+    "insertion": {
+      "stuck_vertex": "id",
+      "op_tau": "int",
+      "chord_free": "bool"
+    },
+    "z_fiber": {
+      "snf_rank": "int",
+      "invariant_factors": "string",
+      "delta_deg_residue": "int",
+      "single_cokernel_class": "bool"
+    },
+    "gf2_fiber_id": "fiber identifier in the GF(2) sign-pattern/face-space lens (the candidate complete invariant)",
+    "blind_stamp": "checkpoint reference proving fibers were filed before reachability was read",
+    "reachability": {
+      "kempe_classes": "int",
+      "rescue_depth": "int or 'stuck-at-N'",
+      "gate_exists": "bool",
+      "gate_min_support": "int"
+    },
+    "verdict_flags": {
+      "same_gf2_unreachable_pair": "bool — TRUE is a kill; promote to gallery same-hour",
+      "false_neighbor": "bool (identical full linear data, different depth)",
+      "quarantine": "bool"
+    },
+    "provenance": {
+      "toy": "toy id",
+      "date": "YYYY-MM-DD",
+      "instrument_version": "corrected-face-tracked-v1"
+    },
+    "gf2_spanning": {
+      "available_indicator_rank": "int — rank of the available straddle-indicator set at this coloring (the crown column)",
+      "subspace_dim": "int — dim of the ambient indicator subspace for this graph",
+      "deficiency": "int — subspace_dim minus available rank; 0 = saturated",
+      "rank_drop_site": "bool — predicted TRUE exactly at frozen/stuck objects (Lemma R); a saturated frozen object or a deficient free one is a FINDING either way"
+    },
+    "stratum": "one of Cal's six ruled strata (supersedes the draft 'family' tag; keep 'family' for generator lineage)",
+    "w_quantifier_note": "W columns are per-GRAPH; M_C (motion space) is per-Kempe-class — pinned round 9, do not conflate (they differ exactly at frozen objects)"
+  },
+  "rows": [],
+  "pinning_census": {
+    "_meta": "The availability atlas: censused boundary pinnings of the disc (round 10: 5,000 pinnings, 15 pathological — one shape). S1 BLIND PROTOCOL (Cal-gated before run): slope/winding classes computed and FILED+HASHED for all pinnings BEFORE the frozen flags are joined — same discipline as the fiber checkpoint. Prediction on file: the 15 pathological pinnings are exactly the extremal-slope class. Both anomaly directions pre-scored as headlines.",
+    "schema": {
+      "pinning_id": "P-##### monotone",
+      "boundary_word": "the pinned color word on the boundary cycle",
+      "slope_class": "boundary height/winding class. v1 (disp-sum) REFUTED round 11 — 12/15 frozen at slope zero, extremal free. v2 = the PROVED dictionary's canonical height, blind protocol identical, Cal's no-recalibration guard in force. Column carries version tag: slope_v1 (dead, kept) / slope_v2.",
+      "blind_stamp": "hash checkpoint proving slope filed before frozen flags joined",
+      "completions": "int",
+      "frozen_flags": "per-completion frozen bools (joined AFTER blind_stamp)",
+      "pathological": "bool — two-node both-frozen zero-edge twin pair",
+      "alternating_syntax": "bool — the visible frozen-pinning syntax",
+      "filler": "bool + which color/parity class — one color occupying an ENTIRE parity class ('half-crystallized boundary'). NECESSITY STAT on record: 15/15 frozen have filler vs ~1/9 base rate among free (round 11, S1). Law language Cal-gated. U1 target: the sufficient completion (filler + WHAT <=> frozen)."
+    },
+    "rows": []
+  }
+}

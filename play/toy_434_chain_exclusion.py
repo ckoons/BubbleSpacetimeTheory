@@ -2,7 +2,13 @@
 """
 Toy 434: Chain Exclusion Theorem — The Final Gap
 
-STEP 2 IS FALSE. Non-middle bridge pairs CAN be strictly tangled.
+[HEADER CORRECTED — sweep 2026-08-30 (Casey's word; Toy 5510, K1832 v0.4):
+ "STEP 2 IS FALSE" below was an INSTRUMENT ARTIFACT — this toy's sorted-vertex-order
+ labels are not the true cyclic order; corrected labeling gives 215/215 middle-strict
+ (Middle-Strict Lemma: non-middle bridge pairs are NEVER strictly tangled on
+ triangulations). This toy's verdicts must not be cited without the corrected re-run.]
+
+STEP 2 IS FALSE. Non-middle bridge pairs CAN be strictly tangled.  # <-- FALSE, see banner
 But the proof doesn't need Step 2. It needs CHAIN EXCLUSION:
 
   At operational tau=6 with gap=2, let s_2, s_3 be the two non-middle

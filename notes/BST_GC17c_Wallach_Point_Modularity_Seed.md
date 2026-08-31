@@ -157,7 +157,7 @@ Prediction: the dimension formula for S_2(Gamma_0(N)) should be expressible in t
 
 **Test 4: Four-Color theorem**
 
-Constraints: planar graph, 4 = rank^2 colors. BST proof uses Forced Fan Lemma (13 steps, depth 0).
+Constraints: planar graph, 4 = rank^2 colors. BST route REFUTED (sweep 2026-08-30, K1832 v0.4); 4CT stands classically. [Prior text claimed Forced Fan, 13 steps, depth 0 — also a depth inconsistency vs registry depth 2.]
 
 Prediction: the 4 colors = rank^2 correspond to the rank^2 = 4 eigenvalues of the Wallach representation restricted to the Cartan subalgebra. Planarity = boundary condition on D_IV^5. **Testable.**
 

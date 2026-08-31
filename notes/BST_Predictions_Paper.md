@@ -489,7 +489,7 @@ The graph method lives inside a broader proof program. The current status of the
 | NS | ~99% | Proof chain complete March 24 |
 | BSD | ~95% | T153 DERIVED + Sha bound |Sha(E)| ≤ N^(18/(5π)) (Toy 628) |
 | Hodge | ~95% | T153 DERIVED + Section 5.10 general variety extension |
-| Four-Color | PROVED | Computer-free, Forced Fan Lemma (March 26) |
+| Four-Color | ATTEMPT — proof route REFUTED (sweep 2026-08-30, K1832 v0.4) | Two-swap mechanism false with witnesses; survivors: Middle-Strict, Lemma C, XOR-toggle |
 
 Average: ~96.8%. On March 30: BSD and Hodge each rose from ~93% to ~95% because the Planck Condition (T153) is now derived from the geometry plus explicit Sha finiteness bound (Toy 628) and general variety extension (Section 5.10). YM rose from ~96% to ~97% with W4 modular localization (BW + RS + Tomita-Takesaki + Borel neat descent). All six proofs improved in one day.
 

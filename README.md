@@ -308,7 +308,7 @@ BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and
 
 | Problem | Honest status | What's there / where the gap is |
 |-------|--------|-------------|
-| **Four-Color** | Strongest attempt | Computer-free, 13 structural steps, Forced Fan Lemma + pigeonhole, no case analysis. Cold-read PASS. `notes/BST_FourColor_AC_Proof.md`. |
+| **Four-Color** | Attempt at the open Kempe-connectivity frontier | Two-swap route REFUTED with witnesses (sweep 2026-08-30, K1832 v0.4; prior Cold-read PASS superseded). Survivors: Middle-Strict Lemma, Lemma C, XOR-toggle exactness; witness gallery `data/fourcolor_witness_gallery.json`; live program CI_BOARD Round 74. |
 | **Riemann Hypothesis** | Structural attempt (1/rank family) | Geometric route: temperedness on D_IV^5 forces σ=1/2; 37/37 non-tempered types killed, B₂-scattering. Cold-read PASS. Residual: the finite-dim → full-line transfer. Paper #103. |
 | **P ≠ NP** | Structural attempt (1/rank family) | Three routes — resolution (curvature), refutation bandwidth, parity erasure (T1776-T1778). Residual: framework-level, the standard barriers. Paper 4. |
 | **BSD** | Structural attempt (1/rank family) | Chern-hole forces Eisenstein placement at DOF N_c=3; ranks 0-5, 56 curves, 0 exceptions. Residual: the general-rank step. Paper #88. |

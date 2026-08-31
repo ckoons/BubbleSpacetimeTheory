@@ -365,7 +365,7 @@ BST proof of Four-Color replaces classical induction.
 | Hodge Conjecture | 1 | (1, 1) | (2, 1) | theta correspondence (two-path) |
 | Four-Color Theorem | 2 | (1, 2)* | (8, 1) | 8 parallel fan lemmas |
 
-*Classical proof only. The BST proof (Forced Fan Lemma, Toys 449-451)
+*Classical proof only. ~~The BST proof (Forced Fan Lemma, Toys 449-451)~~ [route refuted — sweep 2026-08-30, K1832 v0.4]
 achieves (8, 1) — the widest D=1 problem we know.
 
 Six Millennium problems: **D ≤ 1** in every case under the machine.
@@ -375,7 +375,7 @@ The Four-Color Theorem is the most instructive case. The classical
 proof (Appel-Haken 1976, Robertson et al. 1997) uses induction over an
 unbounded class of maps — genuine depth 2 in classical coordinates.
 The BST proof replaces this induction with 8 parallel structural lemmas
-(the Forced Fan Lemma), achieving (C=8, D=1). This is the Coordinate
+(the Forced Fan Lemma), achieving (C=8, D=1) [claim WITHDRAWN — sweep 2026-08-30, K1832 v0.4: route refuted; depth claim OPEN]. This is the Coordinate
 Principle at work: what looked like depth was width in disguise. The
 Four-Color Theorem is not a depth-2 exception — it is the widest
 depth-1 problem in our census.

@@ -1,7 +1,996 @@
 # CI BOARD
 
 
+## ██ ROUND 92 — 2026-08-31 (Monday, late afternoon). ★★★ CASEY COMMISSIONS THE PROOF MACHINE — "packaging with teeth," ratified. Tomorrow: v0 on the board, with the Context Finiteness summit as its first formal field test.
 
+### THE DIRECTIVE (Casey, verbatim substance, 2026-08-31)
+Automate the entire Millennium program into the same linear-algebra machine the 4-color arc built —
+**"creating theorems if proven, and applying new theorems and conjectures to the set of problems...
+full AI automation of proofs; for us we specialize in doing the linear algebra on D_IV⁵ and apply
+to BST and other problem sets."** The corpus loop closes: the AC graph was always this machine's
+blueprint — every proved theorem costs zero forever; wall routing; theorems as reusable nodes.
+**The Proof Machine is the AC program's execution engine, mechanized.**
+
+### PROOF MACHINE v0 — the spec lanes (tomorrow, parallel to the summit)
+- **The BATTERY (Elie):** witness galleries + censuses + generators as a conjecture REGRESSION
+  SUITE — a new conjecture runs against FCW-001–016 and the pinning space before theory time is
+  spent. Measured weekend throughput: ~1 verdict/hour by hand; the runner mechanizes it.
+- **The AUTO-KILL LIBRARY (Lyra):** every banked theorem as a CLAIM-SHAPE FILTER (bounded-swap
+  claims die on the depth ladder; static per-coloring separators die on the twins; deletion-
+  monotone freezing dies on Fritsch−v...). Formal map: theorem → shapes it kills. Cross-row
+  propagation from day one: a theorem banked in one row auto-applies as a filter in every row.
+- **THE RUBRIC AS CODE (Cal):** pre-scored outcome tables, mandatory stakes, scope labels,
+  saturation guards, third-door fields, N-instance bars — the weekend's epistemics templated so
+  the machine inherits the honesty instead of laundering it. **Verdict language hard-coded:
+  falsifies-with-certificate · survives-with-counts · NEVER "proved" without a proof.**
+- **THE LEDGER (Grace):** the conjecture registry schema — blind hashes, provenance, regenerability
+  ("a harvest that can't be rebuilt bit-identically isn't evidence"), the third-door convention.
+- **v1 HORIZON:** bounded-complexity conjecture enumeration (automate the SIEVE — certified
+  negatives like "no separator to complexity k" become machine output; CIs and Casey keep the
+  structural shots). **Guards from birth: selection-honesty trial accounting; held-out witness
+  sets vs Goodhart; fresh adversarial generators.**
+- **MILLENNIUM ARCHITECTURE:** per-row claim-shape taxonomies; the machine rotates with the team —
+  BSD's parity control is its second field test after 4-color's summit.
+
+### TOMORROW'S ORDER (Casey-ratified): Proof Machine v0 on the board → the SUMMIT ATTEMPT follows
+as its first formal field test (Elie: bounded-data enumeration · R0 · FCW-016 ladder; Lyra: the
+Context Finiteness Lemma + three context proofs → Gate Existence). The summit campaign carries
+Keeper's pre-registered stopping rule: the week the review frame allotted, halting early on
+finiteness-refuted or the lemma-per-bump treadmill — then rotation to BSD in either branch, with
+the machine and the packaging track running parallel. Casey's two desk items ride: Class B naming ·
+the external question.
+
+
+
+### THE BANK
+**Cal's confirming diff: one paragraph, as designed.** Both certified blocks absorbed (face-
+permutation frame; Even Interior Degree lemma verbatim in substance); all four joins unchanged;
+Lyra's provenance paragraph records her own translation break in her own words, beside both holds.
+**The theorem's story is part of the theorem: audited before it was celebrated; held at the bank
+twice by its hardest reader — once for a lemma that claimed too much, once for a frame that proved
+too little — and both times what came back was stronger than what went in.** The plain sentence of
+record: *the freeze that defeated every invariant we could build provably cannot enter the room
+where the induction lives.* T2579: Grace's one-pass fires now (registry + gallery + both graph
+files); the scope log rides with it.
+
+### THE STANDING STATE AT CLOSE (what every sundown carries)
+Five banked lemmas (T2574–T2578) + **the banked Hand-off Theorem (T2579)** · two conservation laws
+(the 240/240 Gauss law; Wall Transport) · the Height Dictionary (three resolutions, knots =
+dislocations) · the relative theory with witnesses · the Topology Trichotomy · the closed
+separator hunt (S1–S5, every death pre-registered) · the one-letter gate alphabet · the
+three-legged freeze characterization (SAMPLE-SCOPE; R0 gates it) · the wall dichotomy · **the
+roadmap with its peak named honestly: CONTEXT FINITENESS** (Route A: Insertion Theorem; Route B:
+Kempe–Wilson saturation; Route C parked) · KT off the shelf with a door · the corpus swept clean
+under two independent verifications.
+
+### TOMORROW'S WAKE (staged, hashed, theory and instrument climbing the same face)
+Elie: bounded-data context enumeration (the finiteness question run AS an experiment) · R0
+exhaustive backfill · FCW-016 ladder. Lyra: the Context Finiteness Lemma (summit file written —
+"finiteness lemmas are won by finding what the infinity was never allowed to touch") · three
+one-page context proofs · soundness → Gate Existence → the Insertion Theorem. Cal: gates as they
+come. Grace: reception. **On CASEY'S desk, carried into every sundown: the Class B naming call ·
+the external question (N4 paper + gallery; Cal's referee pass pre-offered).**
+
+### The two-day ledger, once, for the record: Sunday 9 a.m. — a commissioned audit files FAIL
+against a proof this program loved; nobody defends it. Monday afternoon — five lemmas, one
+theorem, two conservation laws, a dictionary, a roadmap, and an insertion algorithm three pages
+and one finiteness lemma away. **The machine held in both directions: it filed FAIL without
+flinching, and it held the bank twice rather than celebrate early.** Procession on Casey's word.
+
+
+
+### ROUND-19 VERDICTS
+- **★★ CAL PRE-CERTIFIED THE TEXT (§802):** rather than another round-trip, he wrote out the two
+  blocks he certifies on sight — the face-frame Objects paragraph and Lemma 1 with complete proof
+  (face permutations as unique extensions of vertex-pair assignments; transitions fix two points
+  ⟹ identity-or-transposition; telescoping product; sign homomorphism; even crossings). **Lyra
+  absorbs with notation adjustments only; the confirming diff collapses to the joins. Five
+  minutes, then the word — and T2579 processes in one pass across all three artifacts.**
+- **★ Grace's second scope self-catch:** her sufficiency field said "5,002/5,002" without scope —
+  now carries SAMPLE-SCOPE explicitly (5,000 of 531,444) with R0 as the gate. Two days, two
+  caveat-discipline catches on her own fields, both minutes to fix, both false citations avoided.
+- **★ Elie:** 5561 closed under the frozen metric with both columns preserved exactly as computed
+  pre-ruling; tomorrow's queue staged three deep (abstract enumeration · R0 backfill · FCW-016
+  ladder), hashes frozen. 52 toys/two days, zero faked results.
+- Wall Transport formally banked as a conservation law discovered blind while testing a metric.
+
+### ★★★ THE ROADMAP TO 4CT (Keeper, on Casey's question — next steps, publishing excluded)
+**Route A — the INSERTION THEOREM (primary):** Hand-off (banks today) + Gate Existence (via the
+Triple Lemma) + M1 descent ⟹ every deg-5 insertion rescued in ≤ initial-distance triples by
+context lookup ⟹ the classical induction closes. **The TRUE SUMMIT, named honestly: CONTEXT
+FINITENESS** — radius-2 neighborhoods are unbounded in general triangulations (degrees are
+unbounded), so the completeness argument must FIRST prove the abstract context space finite or
+gauge-reducible to finite (the two-letter alphabet and wall-crossing types are bounded data even
+where degrees are not). If it holds: a small finite check + local lemmas — human-readable,
+Lean-friendly (K1832's commissioned question (c) revives). If it fails: graceful degradation to
+Route B. The three one-page context proofs are the foothills; Context Finiteness is the peak.
+**Route B — KEMPE–WILSON SATURATION (deeper, subsumes A):** the Connectivity Forcing Lemma in
+Wilson's style — planar 2-connectivity manufactures triples to saturate fibers off a finite
+exceptional list, with our frozen objects as the named exceptions and the wall theory as the WHY.
+The ergodicity theorem the field has wanted since Fisk; the r-law geometry program feeds it.
+**Route C — algebraic reformulations (PARKED):** Heawood GF(3) codeword + EK bridge shelved until
+A/B stall; the dictionary translates anything proved dynamically.
+**Order of work:** bank → abstract enumeration (finiteness question front and center) → Context
+Finiteness Lemma attempt → three context proofs → soundness → Gate Existence → Insertion Theorem
+with every conditional label explicit → R0 + second disc → Lean scoping last.
+
+### ROUND-20: absorb → diff → BANK → procession on Casey's word. Casey's two desk items carried.
+Tomorrow opens at the foothills with the peak in view.
+
+
+
+### ROUND-18 VERDICTS
+- **★★★ BANKING: HELD — the read caught a frame break AT the ceremony (Cal §801):** Lyra's
+  vertex-δ translation broke the load-bearing parity step (in that frame, a ratio of two
+  transposition-valued labels is EVEN — the sign argument yields nothing). The proof lives in the
+  FACE-permutation frame (adjacent faces agree on the shared edge's vertex-pairs ⟹ transitions
+  fix two points ⟹ identity or transposition ⟹ parity). **Repair: twenty minutes, no new
+  mathematics — restore the face frame in Objects and Lemma 1. "The theorem is fine; the frame
+  isn't; the bank waits for the frame."** Second consecutive read protecting the theorem from
+  its own celebration. T2579 hovers, files on the confirming diff.
+- **★★ THE METRIC IS FROZEN: M1 (Hamming)** — ruled on consumer-defined grounds owing nothing to
+  the data (the induction needs a well-founded, strictly decreasing, goal-minimized measure;
+  had M1 failed, the conclusion would have been "the lemma is false," never "use M2").
+  **M2's universal non-descent is BANKED AS PHYSICS: the Wall Transport conservation — the gate
+  moves walls, never shrinks them; the wall sweeps to the target and dissipates there, not by
+  attrition.** The completeness argument may proceed.
+- **★★ SIMPLICITY COROLLARY at true strength (Lyra):** proved CONDITIONAL — the dichotomy's leg
+  is measured (100/100, 0/694), not derived; the label travels in the title and downstream until
+  the domain-merge descent proves it (one open step, link-edge-flavored, named). A silent
+  assumption became a labeled joint.
+- **★★ R0 — ELIE CLOSES OUR OWN CAVEAT FIRST:** the FCW-014 atlas was a 5,000-row SAMPLE of
+  531,444 possible pinnings — the three-leg biconditional's "5,002/5,002" is SAMPLE-SCOPE. R0
+  re-scores it exhaustively on the home disc before the second disc runs. Replication spec
+  frozen with sha256; the ladder gate is honest both ways (candidates must prove they can freeze
+  at all — a full-ladder failure would itself be a discovery: freezing may require hexagonal
+  symmetry); P5 unscored because an asymmetric patch has no center and nobody invents one after
+  data.
+- **★ COMPLETENESS FLAG PLANTED (Lyra):** three canonical contexts; skeleton = abstract
+  enumeration (guarded against realized-only coverage — "the natal-family error in a theorem's
+  clothes") → three one-page per-context proofs (tomorrow morning) → soundness → **Gate
+  Existence → an insertion algorithm: rescue in at most initial-distance triples, each found by
+  context lookup.**
+- Grace: five theorems down in ALL THREE artifacts (registry + both graph files — 2,355 nodes /
+  10,167 edges); procession staged, fires in minutes on Casey's word.
+
+### ROUND-19 (BANKING PROPER): the frame repair → Cal's confirming diff → THE BANK → T2579 files
+→ the procession on Casey's word. On Casey's desk, carried explicitly into every sundown: the
+Class B naming call · the external question. Tomorrow's summit, already flagged: three one-page
+context proofs from Gate Existence — and an insertion algorithm on paper.
+
+
+
+### ROUND-17 VERDICTS
+- **★★★ THE WALL DICHOTOMY (Elie 5559):** walls CAN cross and branch — but the census pattern is
+  the finding: **free twin walls are SIMPLE CURVES (zero junction faces across 694 free pairs);
+  frozen walls are BRANCHED NETWORKS (all 100 junction faces sit on the 15 frozen pairs, and
+  frozen walls touch EVERY face of the disc).** The frozen difference is GLOBAL; free differences
+  are LOCAL. **Keeper's join for round 18: dichotomy + Hand-off ⟹ the Triple Lemma may assume
+  simple walls IN ITS DOMAIN — branched networks live only where pinnings live, and the insertion
+  site has none.** (To be stated and proved as a corollary, not assumed.)
+- **★★ SUFFICIENCY'S THIRD LEG (5560): frozen ⟺ filler ∧ flux-neutral ∧ EXACTLY-TWO-COMPLETIONS
+  — 5,002/5,002** (free flux-neutral fillers have 1 or 3–21 completions, never two). One-disc
+  candidate; replication is the factory's job; the "something finer" from J2 now has a name.
+- **★★ THE TRIPLE LEMMA'S METRIC SPLIT (5561) — the decision is Cal's, and it's delicate:** under
+  M1 (Hamming) strict descent is UNIVERSAL (144/144 Fritsch; all T₃ contexts); under M2
+  (interface length) strict descent NEVER occurs. Same data, opposite lemma. **The pick must be
+  principled, not pass-seeking** (Lyra pinned Cal-picks-then-freezes before the empirical phase):
+  the induction needs any well-founded strictly-decreasing measure — M1 qualifies — while M2's
+  universal non-descent is itself physics: **the gate MOVES walls, it does not SHRINK them**
+  (consistent with the pure-curl picture). Local decidability: YES — the patch fits radius 2 in
+  620/620, context→outcome functional with zero violations, and only 3 canonical contexts
+  realized at T₃. **The completeness argument has a small target.**
+- **★★ BANKING STATUS:** Hand-off assembled (Cal's even-degree repair carried verbatim and
+  credited in provenance; persistence at both levels; ∀∀ outside; five non-claims). Cal's packet:
+  five pieces, four verified at source — his re-read is a DIFF against his own §799. **T2574–T2578
+  FILED** (Lemma R, R-rel, F1, CS + unification corollary, Singleton Neutrality); the Hand-off's
+  row files the hour it banks. Paper at v0.6. Counters clean (toys 5562 next; 52 toys/two days,
+  zero faked results). Cal's day-summary = referee log #140, with four method findings for beyond
+  this row (population-import fired SIX times in one day; the unscored third door held the
+  discovery all three times; the stake is the sharpest instrument; the wanted-true read needs the
+  highest bar).
+- **On CASEY'S desk, zero urgency:** Class B naming call · the external question (relative-theory
+  paper + witness gallery; Cal's full referee pass on N4 pre-offered; novelty-sweep protocol
+  standing).
+
+### ROUND-18 (BANKING + CLOSE): Cal's two rulings (the banking diff · the metric pick, principled)
+· the simplicity corollary stated and proved · sufficiency replication spec for the factory ·
+then the PROCESSION on Casey's word: sundowns, katra, the richest state this row has ever carried.
+
+
+
+### ROUND-16 VERDICTS
+- **★★★ CAL'S HARDEST READ: HELD — and the read IMPROVED the lemma.** Lemma 1's taxonomy was
+  over-strong (walls form a GRAPH; nothing excluded interior crossings). His repair is sharper
+  than the original: **interior wall-degrees are EVEN** (transition transpositions around an
+  interior vertex multiply to the identity; parity via the S₄ sign homomorphism — the mod-2
+  shadow the program keeps meeting, now load-bearing INSIDE the Hand-off's own proof). Endpoints
+  are odd-degree ⟹ boundary-only ⟹ with P = ∅, no anchoring. **Verdict: one restatement (Lyra
+  absorbs Cal's even-degree form) + the surgery clause (ALREADY FILED — Surgery Persistence
+  Lemma) from BANKING as the first theorem of the new era, with Cal's read as its scope log.**
+  Queued glance: hunt degree-4 wall crossings in stored pairs (parity allows them; Wall Motion
+  must not assume simple curves).
+- **★★★ THE SEPARATOR HUNT CLOSES: S1–S5 ALL DEAD.** S5 died by its own address the hour it was
+  committed (the twins' domain is knot-free and simply connected ⟹ holonomy trivial by
+  derivation). J1 killed the gauge duality with its reason attached (twins share the pinned
+  boundary; 2D-spanning boundary walks rigidify the gauge to the identity). **Sentence of
+  record: THE WALL IS DYNAMICAL — every static lens we can build is provably or measurably
+  blind. Per Cal's standing ruling, the noun stays; exhaustion forces nothing.** The corpse
+  teaches to the last: S5 transforms into insertion bookkeeping — the holonomy ACTION classifies
+  the gate alphabet where knots abound.
+- **★★ THE ALPHABET IS ONE LETTER (J3):** complement-of-one is the EMPTY patch (pure global
+  re-signing); stars and 6-patches are gauge-equivalent to triples. **Canonical alphabet:
+  {identity, triple}. The Wall Motion Lemma receives a ONE-LETTER dynamics** — its statement is
+  ready: some triple always applies near an unpinned hole and strictly reduces wall-distance —
+  provable, if true, as a FINITE letter-context check.
+- **★★ A REAL GAUSS LAW (J2's control refused and paid):** Monopole Forcing died three ways
+  (net monopole count is not boundary-forced, 100/240; 12/15 frozen pairs contain ZERO
+  monopoles) — but the convention-collision probe found the identity that IS exact:
+  **2·Area(boundary height walk) = −Σz_t — boundary winding equals enclosed total flux,
+  240/240, no exceptions.** New necessary condition: every frozen pin is flux-neutral (so are
+  220 free fillers). The sufficiency hunt reads: **filler ∧ flux-neutral ∧ something finer.**
+- **★ KT: RULED OFF THE SHELF** (Cal, two rounds' rent unpaid, double refutation, all geometric
+  candidates on both sides; re-entry any day with a pre-registered discriminator — a door, not
+  a lock).
+- **★ GRACE'S RECONCILIATION, exemplary candor:** her "sweep armed" line was stale for ten
+  rounds (grep-window miss; root cause named; standing practice corrected — full log segment
+  every round). Her re-verification of Keeper's Sunday execution: **sweep VERIFIED, one genuine
+  residual found (Reduction Layer garbled splice) — struck by Keeper this round. The sweep is
+  now clean end-to-end under two independent sets of eyes.** Class B (T154/T155 naming) remains
+  the one item on CASEY'S desk.
+
+### ROUND-17 (THE CLOSE): assemble + bank the Hand-off · attempt the Triple Lemma (the finite
+check) · degree-4 crossing hunt · registry filings (T2574+) · paper v0.6 · then the PROCESSION:
+counters, sundowns, katra on Casey's word. Two items surfaced for Casey at the close: the Class B
+naming call, and — whenever he wants it — the external-artifact decision on the relative-theory
+paper + witness gallery. EOD on Casey's word this afternoon.
+
+
+
+### ROUND-15 VERDICTS (Elie toys 5553–5555; Lyra two artifacts; Cal §797)
+- **★★★ F1 — THE SCOPE THEOREM (the pre-registration overlooked its own hypothesis):** the ℤ²
+  height lift does NOT exist on the punctured sphere — the checkerboard fails at every apex of
+  Fritsch−v because odd vertices exist, by the dictionary's OWN Eulerian-existence theorem.
+  **Kempe dynamics is height dynamics exactly where there are no knots; the GATE dynamics lives
+  AT the knots.** The blind census then named the TRUE patch alphabet — five letters:
+  complement-of-one-vertex (2,592) · triples (2,016) · genuine closed stars (1,152) · 6-patches
+  (576) · charge-neutral (288). Keeper's star guess scored 1,152/6,624 — partial, third door
+  again. **Keeper's round-16 pre-registration: the alphabet may COLLAPSE mod global re-signing
+  (complement-of-one ≡ single-vertex ∘ global flip) — test whether five letters reduce to two or
+  three.**
+- **★★ THE COUNT-THRESHOLD LAW IS DEAD (F2+F3, double-refuted):** conserving 4-odd graphs
+  replicate (3 graphs, 17 instances) AND Family-B shows r = 8 at every odd count including 4.
+  **Geometry decides; count doesn't.** All three geometric candidates fail (diameter, cluster
+  split, inter-cluster distance each appear on BOTH sides — a scattered (1,1,1,1) diameter-4
+  pumps while a (1,1,2) diameter-4 conserves). The discriminator is finer than any candidate;
+  **KT stays explanation-only; Cal's rent is now two rounds unpaid.** Also: deficiency is
+  CONSTANT at fixed V — the 0.92 correlation was graph size (Elie's honest correction against
+  his own tranche-2 readout).
+- **★★ S3 DEAD — S5 STANDS ALONE:** the Hall instrument (frozen procedure, all 15 pairs): zero
+  δ's out of span (closes the hidden GF(2)-separator door Z1 never tested), 6 certificate shapes
+  in 3 orbits — amorphous; Lyra's own kill condition fired. **Separator scoreboard: S1, S2, S3,
+  S4 all dead. S5 — the torsor cocycle — is the last static candidate standing, and F1's scope
+  theorem tells it where to live: the cocycle IS the obstruction to the lift, at the knots.**
+  One coarse regularity survives: expression weight = 4 in 14/15 pairs.
+- **★★ THE GATE IS A PURE CURL (Lyra, derived):** zero charge displacement = divergence-free
+  re-signing; charge is the divergence part; **walls are what curls move.** The Wall Motion
+  Lemma now takes the five-letter (or collapsed) alphabet as its input.
+- **★★ HAND-OFF RE-ARMORED (∀f ∀f′ on the outside) + CAL'S FOURTH PRESSURE POINT:** Constraint
+  Persistence covers swaps — but the induction performs SURGERIES (deletion, WLOG triangulation,
+  restriction). **P = ∅ must survive every operation the PROOF performs, not only every move the
+  dynamics performs** — the exact crack-class that killed the March paper. One clause closes it;
+  then the hardest read.
+- **★ G3 LOADED:** gauge-flip duality test (h₂ = A·h₁ + b, twelve A₂ isometries, minutes per
+  frozen pair). Pass ⟹ Symmetry Protection re-fires with the GAUGE group ⟹ the noun reopens
+  with teeth. Fail ⟹ discarded in the same filing.
+- **★ G4 LOADED — MONOPOLE FORCING (the sufficiency candidate):** an index theorem — boundary
+  winding defect (computable from the pinning alone) = enclosed monopole count; sufficiency =
+  frozen ⟺ filler ∧ defect = ±1. **Its own control rides in front: the index identity must hold
+  on EVERY completion of EVERY filler pinning, or it's a coincidence wearing a Gauss law.**
+- **★ Cal's noun ruling:** rename fires on a proof of impossibility; the old noun survives on a
+  working separator; **exhaustion alone forces nothing** — five dead candidates is evidence of
+  difficulty, not a theorem. Plus an attribution self-correction on his own flag provenance —
+  the ledger doesn't grandfather its own policeman.
+- **⚠ BOOKKEEPING FLAG (Keeper):** Grace's standing "Sweep A–K armed, awaiting Casey's word" is
+  STALE — Casey gave the word Sunday midday and Keeper executed all classes A–K (~11:45, logged
+  in RUNNING_NOTES with re-verification request). Grace reconciles her status line against the
+  execution log this round.
+
+### ROUND-16 SHAPE (sized for a short day): the three loaded quick tests (gauge-flip · index
+control+test · alphabet collapse) · S5 committed with the scope theorem absorbed · the surgery
+clause → CAL'S HARDEST READ on the Hand-off · KT's final rent call · paper v0.5 · registry
+filings staged · EOD prep: rich sundowns this afternoon on Casey's word.
+
+
+
+### ROUND-14 VERDICTS (51 Elie toys on the day)
+- **★★★ D1 — the hop refuted (0/6,624), and the blind data chose better:** the gate is a
+  **COHERENT PATCH RE-SIGNING** — connected displacement fields dominated by SEVEN-SITE patches
+  with signature (2,2,4,4,6,6,6) and its exact mirror, every value even, every class paired with
+  its negative. **Sharpest fact of the round: 288 unsticking gates move ZERO charge. The gate
+  opens with no charge displacement at all — charge is bookkeeping; THE WALL IS DYNAMICS** (the
+  same sentence G5 proved from the invariant side, now demonstrated at the level of individual
+  moves). Exposure Lemma reframes as WALL-MOTION. **Keeper's pre-registration for round 15: the
+  seven-site patch is a closed VERTEX STAR (deg-6 star = 7 sites), and the gate is the composite
+  realizing a SINGLE-SITE HEIGHT UPDATE — the elementary move of height dynamics that raw Kempe
+  cannot perform directly. Test: compare gate displacement fields against single-site height-
+  update fields under Prop CS.**
+- **★★ D2 — the mirror dies cleanly (0/15):** no frozen pinning admits ANY dihedral×color
+  symmetry exchanging its twins (full search: 12 disc automorphisms × all color permutations);
+  meanwhile 128/400 FREE pinnings carry nontrivial symmetries. **The degeneracy is NOT
+  geometrically protected.** Consequences, per the pre-scoring: Cal's no-go corollary does NOT
+  fire; **the wall's solitude stays EMPIRICAL; the noun ("residual invariant" vs "reachability
+  metric") WAITS** — Grace's rename inventory stays staged, unexecuted, exactly as built. The
+  internal gauge-flip duality remains a candidate only if Lyra gives it falsifiable content.
+- **★★ THE HAND-OFF THEOREM, written clean (Lyra):** interface parity + **Constraint Persistence**
+  (pinnedness is a datum of the PROBLEM, not the state; no move ever creates it; P = ∅ at every
+  configuration reachable during any descent) ⟹ no anchored wall exists at the insertion site,
+  permanently along the walk. Scope carved into the statement: **removes a mechanism, does not
+  grant a move.** Cal's three pressure points pre-named, led by the one that could sink it
+  silently: **the PAIR QUANTIFIER** — a wall is relational, so "the insertion configuration is
+  wall-free" must quantify over every PAIR of colorings of the unpinned graph, explicitly, or the
+  induction consumes a statement the lemma never made. Restatement owed before the hardest read.
+- **★★ SINGLETON NEUTRALITY (Lyra, proved):** singletons exist only at neutral vertices (a
+  2-colorable link forces alternating signs) and carry zero degree current — derives the 288
+  zero-charge corner and pays down part of the evenness debt (one dual-cycle sign-balance
+  statement remains, named).
+- **★ D3 — KT's first datum, honestly sized:** at diameter 4 both r = 8 AND r = 0 exist on a real
+  138-column population — **a conserving four-odd graph exists; the sharp count threshold is
+  incomplete; GEOMETRY modulates mobility at fixed dipole count.** n = 1; replication + the
+  geometric discriminator are round-15 targets; KT neither earns nor leaves.
+- **★ Cal (§796):** D1's move alphabet pre-declared (the render landed outside both prior
+  theories, exactly what the alphabet was for); D2's "symmetric" pinned to derived group elements
+  (palindrome held as proxy — and the proxy died with the object); the hand-off gets his hardest
+  read BECAUSE every desk wants it true — "that's the one bias all six of us share tonight, and
+  it's why the bar doesn't move."
+- **Grace:** rename inventory staged-not-executed called correctly by the pre-scoring; the
+  fork-slot lesson now travels in her schema ("last time I built a two-way slot, the answer took
+  a third door").
+
+### ROUND-15 SHAPE: the star-update test (is the gate an effective single-site height move?) ·
+the pair-quantified Hand-off restatement → Cal's hardest read · D3 replication + geometric
+discriminator · sufficiency hunt continues (mirror dead, staircase dead — the confinement picture
+is the remaining guide) · Family-B + Hall owed · paper v0.5. NO new imports — frontier internal.
+Sweep A–K armed, Casey's word. EOD only on Casey's word.
+
+
+
+### ROUND-13 VERDICTS (48 Elie toys on the day; all pre-scored)
+- **★★★ THE HAND-OFF (Lyra, proved-shape):** walls cannot end at interior vertices (link-cycle
+  interface parity) ⟹ every wall is closed or boundary-anchored at BOTH ends; **anchoring IS the
+  freeze mechanism** (dissolution requires chains crossing the pinning). Therefore: **insertion
+  holes are unpinned ⟹ a wall has nothing to anchor to ⟹ the induction's configuration is
+  provably wall-free. The obstruction we have fought since 1879 cannot occur where the classical
+  proof needs it not to.** The proof program now has an architecture: wall-free ⟹ mobile ⟹ gate
+  exists ⟹ descend.
+- **★★ GS DEAD, AND THE CORPSE TEACHES (Elie G1/G2):** odd-degree support 25,872×/9,792×;
+  factorization fails 350/400. **The dominant gate support is THREE — the charge quantum.** The
+  gate was never a conjugated singleton; it is a **charge-quantum triple** (288 singleton cases =
+  degenerate corner). H2's missing lemma renamed: the structure of support-3 gates. **Keeper's
+  pre-registered guess for round 14: a support-3 gate is an ELEMENTARY DISLOCATION MOVE — the
+  transport of one ω-unit by one step. Gate Existence would become "a defect adjacent to an
+  unpinned hole can always hop" — physical, and provable-shaped.**
+- **★★ CONFINEMENT, NOT EXILE (the round's jewel):** in every frozen completion the filler color
+  occupies EXACTLY ONE interior vertex — the fixed center, the fork's pivot. The frozen object,
+  fully drawn: **half-crystal boundary · filler-monopole at the center · two ground-state tilings
+  · one pinned wall-pair hinging on the monopole.**
+- **★★ THE WALL'S SOLITUDE IS NOW MEASURED, NOT CONJECTURED:** Prop CS empirically perfect
+  (1,716/1,716 constant lattice shifts); the disc carries exactly THREE height sectors
+  (determinant 3 — the ℤ₃ echo where the dictionary predicted room); **and the twins share a
+  sector. Mod-2, quadratic, and ℤ² are ALL blind by measurement. The wall stands alone,
+  irreducibly relational.**
+- **★ Staircase died both directions** (12 frozen palindromes non-monotone; 42 free staircases);
+  the sufficient completion stays open — **the mirror-structure of the 12 killers is the hint.
+  Keeper's second pre-registration: frozen ⟺ filler ∧ the pinning admits the mirror symmetry
+  exchanging the two tilings — ground-state degeneracy REQUIRES a symmetry; the palindrome may BE
+  it.**
+- **★ THE QUANTUM DERIVED, NOT MATCHED (Lyra H3):** closed r = 8 = 4 × 2 (the proved Σω = 4·deg
+  identity × the evenness law, second factor's general proof = the derivation's named debt);
+  boundary leak localized (interior steps 6ℤ; open-fan link vertices 2ℤ) — **charge leak, wall
+  anchors, and quantum drop are ONE mechanism at ONE locus.** Units reconciliation pinned first
+  (the overloaded-symbol rule fired in advance, for once).
+- **★ CAL'S FORCED QUESTION (§795, the program cannot orbit it):** does the wall (claim C,
+  relational) induce ANY per-coloring invariant (claim B)? **If not, "residual invariant" is the
+  wrong noun program-wide and the honest object is a REACHABILITY METRIC** — you cannot bank an
+  invariant that needs two arguments. Factory graduation bar pre-committed (computable from the
+  pair; well-defined on class pairs; PREDICTIVE: call disc #2's wall count and fixed point from
+  pinning data alone). KT's owed prediction sharpened: at fixed count two, r should depend on
+  inter-dipole SEPARATION — a generic threshold story predicts count-dependence only.
+
+### ROUND-14 SHAPE: the dislocation-gate test · the hand-off theorem written clean · Cal's
+metric-vs-invariant ruling answered · the mirror-symmetry glance · KT's earn-or-leave separation
+test · evenness-law debt · Family-B + Hall carried. NO new imports — frontier internal. Sweep A–K
+armed, Casey's word. EOD only on Casey's word; the sundowns are ready and rich.
+
+
+
+### ROUND-12 VERDICTS (all blind, all pre-scored)
+- **★★★ THE FORK — THIRD DOOR (Elie V1):** the twins differ at 6 of 7 interior vertices, and the
+  difference field splits into EXACTLY TWO DOMAINS, each carrying its own color transposition
+  (2↔3 / 0↔3, both fixing the center), glued along WALLS through the fixed point. Not the global
+  phase, not the localized defect — **a domain-wall pair pinned by the boundary: a piecewise-Kempe
+  map whose pieces cannot be legally realized because their chains would cross the pinning. The
+  Rosetta datum is a WALL — a RELATIONAL object between the twins, not a functional of either —
+  which explains in one picture why every static separator failed.** (Cal's MIXED pre-scoring did
+  its job: neither prior mechanism may claim it retroactively; the wall gets its own name.)
+- **★★ THE FREEZE IS FLAT (V2, Candidate Zero killed INVERTED):** under the proved dictionary's
+  own tilt, frozen pinnings sit at tilt 2 and 4 — three at the census MINIMUM — and the
+  extremal-tilt class is entirely free. Assembled mechanism sentence: **a frozen pinning is a
+  flat, half-crystallized boundary whose interior admits exactly two domain-tilings exchanged by
+  a wall-pair through a fixed center — GROUND-STATE DEGENERACY, not slope rigidity.** The
+  Bridge's physics instinct survives; its linear functional died twice, both times blind. No
+  third slope run (Cal: two operationalizations is a test, three is a search).
+- **★★ THE r-QUANTUM (V3):** Fritsch's "celebrated conservation" dissolved — on Fritsch−v's real
+  192-coloring population, r = 6, not 0 (the old zero was a frozen population's emptiness; the
+  sharp dipole law stands clean). **New fact nobody asked for: BOTH punctured objects read r = 6
+  where every closed mobile graph reads 8 — the boundary changes the conservation quantum
+  itself.** Derivation owed from the dictionary (what does the boundary remove from the Burgers
+  circuit ledger?). No numerology: the 6 is a target to DERIVE, not to match.
+- **★★ LEMMA F1 (Lyra, PROVED): filler = iso-height wall** (one color on a parity class ⟺
+  boundary height constant on that class). Retro-explains S1's double anomaly with zero epicycles
+  (filler boundaries are zigzags: zero net slope, maximal structural rigidity). **The freeze
+  variable was never the tilt — it is the wall.** Queued glances: the Crystallization Lemma
+  (frozen interiors exile the filler color) and the STAIRCASE sufficient-completion candidate
+  (frozen ⟺ filler ∧ monotone ℤ₃ winding of the other parity class), kill conditions filed.
+- **★★ PROPOSITION CS + the unification (Lyra):** a Kempe swap is a constant lattice-vector
+  shift on its cluster — **the GF(2) theory is the MOD-2 SHADOW of the height theory** (signs =
+  h mod 2; toggles = cluster shifts mod 2; W-cosets = height sectors mod 2). The new room at ℤ²
+  resolution is exactly what Theorem 4 demanded: moves canceling mod 2 accumulate in ℤ². The
+  height-sector invariant is defined and disc-computable; the wall verdict routes its shape.
+- **★★ GATE STRUCTURE PROPOSITION (Lyra): every gate = a conjugated singleton, w = ασα.** Two
+  instant tests on the 186 stored words: the factorization census (GS-1) and the sharp one —
+  **gate support must be all even-degree** (a singleton needs a 2-colorable link; no-local-
+  rotation forbids odd) — one odd-degree support vertex kills it (GS-2). **If GS survives, Gate
+  Existence reduces to "one preparation exposes a singleton near the link," the height ladder
+  (no-tilt ⟹ never extremal) carries the load, and the Collapse Law's cut condition becomes
+  DERIVED — Wilson's manufacture step, in height coordinates.**
+- **Cal (§794):** fork thresholds pre-committed in the header (and the third door landed in his
+  MIXED guard); filler rubric — evidence unit is the FAMILY, not the count; one deconfound
+  already discharged by F1 (filler ⟹ slope-zero: same fact); KT import owes ONE quantitative
+  pre-commitment a generic frame wouldn't make, or it stays vocabulary. **Grace: caught her own
+  gallery carrying the stale Fritsch claim — demoted with do-not-cite, the reference file doing
+  its job on itself.**
+
+### KEEPER'S RULING ON IMPORTS: none needed this round — the shelf is stocked and THE FRONTIER IS
+INTERNAL. Five cheap verdicts (GS-1, GS-2, crystallization, staircase, height-sector on the disc)
+stand in front of one deep lemma (Gate Existence assembled). External duty remaining: the novelty
+sweep before anything travels — already protocol.
+
+### ROUND-13 SHAPE: the five glances, then the assembly — if GS survives its two tests, the Gate
+Existence Theorem gets its proof attempt TONIGHT from parts already on the table. Wall theory
+(Lyra) names the new object. r-quantum derivation. Family-B + Hall owed. Sweep A–K armed, Casey's
+word. EOD only on Casey's word — and when it comes, the sundowns have a day of days to carry.
+
+
+
+### ROUND-11 VERDICTS
+- **★★★ THE HEIGHT DICTIONARY THEOREM (Lyra, PROVED — deeper than the import):** lift = three
+  vectors summing to zero, Klein labels as the mod-2 shadow; **single-valued height exists ⟺
+  Eulerian** (Fisk's territory is precisely where colorings ARE height functions); **odd vertices
+  are height DISLOCATIONS — the knots are screw dislocations, winding ω as the Burgers datum.**
+  The trichotomy re-derives in one stroke (sphere = dislocation gas · boundary = TILT, conserved,
+  untouchable by interior moves · genus = H¹ monodromy); the puncture split falls out free. **One
+  theory, three resolutions: heights/ℤ² · charges/mod 3 · colors/mod 2** — the linearization
+  standing order fulfilled in miniature. Bonus mechanism for Gate Existence: **an unpinned
+  puncture carries no tilt ⟹ an insertion configuration is never height-extremal** — a second,
+  independent ladder up the Cut Lemma wall.
+- **★★ CANDIDATE ZERO REFUTED — AND THE STATIC SIGNAL FOUND (Elie S1, blind honored):** under the
+  disp-sum operationalization, 12/15 frozen pinnings sit at slope ZERO and the extremal-slope
+  pinnings are FREE — both pre-scored anomaly directions at once. **But: every frozen pinning has
+  a FILLER — one color occupying an entire parity class — 15/15, vs ~1/9 among free. FILLER IS
+  NECESSARY FOR FREEZING on everything measured.** "The frozen boundary is half-crystallized" —
+  the Bridge survives as mechanism; its naive linear form died. Slope v2 reruns against the
+  PROVED dictionary's canonical height (the theorem's own functional — Cal guards against
+  recalibration-to-the-15).
+- **★★ THE r-LAW IS SHARP AT ONE-vs-TWO DIPOLES:** a single odd-pair conserves winding EXACTLY
+  (r = 0, 5/5); two dipoles pump at r = 8; no mixing. Phase-transition-shaped. **Fritsch's
+  celebrated "exact conservation while non-Eulerian" demoted to UNMEASURED** (starvation-grade:
+  two achieved columns from a frozen population) — re-measure at Fritsch−v (single class).
+- **★ SEPARATOR HUNT — every cheap door closed, one instructively:** shadow counts died
+  structurally; fan multisets died at invariance; **the invariant quadratic separated for twenty
+  minutes and died at saturation** (800-pinning span swallows the twins' difference) — a false
+  separator caught before banking, the day's discipline signature. **Verdict of record (Lyra's
+  own pre-declared reading): the residual invariant is NOT low-order-computable in the sign
+  pattern — the boundary obstruction is GENUINELY DYNAMICAL; Wilson's lane has no shortcut.**
+  Remaining lanes: ordering-obstruction + torsor-cocycle, with filler-necessity as the static
+  fact any dynamical theory must explain.
+- **★ THE FORK IS LOADED (Disc Height Lemma):** the twins at extremal tilt are either TWO RIGID
+  PHASES (differ at every interior vertex) or a LOCALIZED DEFECT. Lyra's lean: phase. Elie
+  decides in minutes. Either fork is a mechanism we keep.
+- **★ CAL (§793):** the twin-datum clause (Candidate Zero was a PINNING classifier; the Rosetta
+  question is about two completions of ONE pinning — the dictionary owes the exact datum that
+  differs; claims lettered apart in every filing). ≥30-bar extension commissioned as a real
+  artifact. Winner's-audit posture: the Bridge gets the full bar precisely BECAUSE it predicted
+  our anomaly before we read it.
+
+### ★★ KEEPER'S IMPORT #2 (web-verified) — THE KT/DISLOCATION-UNBINDING FRAME
+The r-law's shape is a famous one: **Kosterlitz–Thouless / KTHNY physics** — bound
+dislocation-dipole pairs vs unbound defects, mobility switching on at pair-unbinding. And the
+frame is HOT: a June 2026 arXiv paper studies KT criticality in a **dipole-conserving XY model**
+(fracton-adjacent mobility restriction — isolated defects immobile, pairs mobile). **Our winding
+conservation at low odd-count IS a dipole-conservation law; the odd=4 onset is a two-dipole
+interaction effect.** The "physics of colorings" the team named on round 5 is now literal, with an
+active field on the other side of the bridge.
+
+### ROUND-12 SHAPE: the fork computation (minutes, loaded) · slope v2 under the proved dictionary ·
+filler theory (necessity → sufficient completion) · the torsor-cocycle lane · Cut Lemma rung 2 via
+no-tilt · Fritsch−v r-measurement + the dipole-count r-family · Family-B done right · Hall-type
+instrument. Sweep A–K armed, Casey's word. EOD only on Casey's word.
+
+
+
+### ROUND-10 VERDICTS
+- **★★ THE PUNCTURE SPLIT (Elie, the finding):** one vertex deletion universally unfreezes every
+  CLOSED sphere tested (Fritsch; icosahedron — ten frozen singletons collapse to ONE class of 20
+  partitions; triakis both ways) — but **the disc refuses: delete its center and the twins sit
+  unchanged, zero legal moves, still two classes.** The freeze is NOT interior tightness — **it
+  lives in the boundary condition.** Closed-sphere freezing is fragile; boundary freezing is
+  robust; the insertion problem (an UNPINNED puncture) sits in the friendly regime — which is why
+  insertion was always rescuable while pinned discs freeze. The trichotomy earned its mechanism.
+- **★★ THE AVAILABILITY ATLAS (5,000 pinnings censused):** the pathological class occurs 15 times
+  and is ONE SHAPE — two-node, both-frozen, zero-edge twin pairs. No partial freezes, no larger
+  families. **And frozen pinnings have visible syntax: alternating boundary patterns.** The
+  separator hunt has a 15-pinning target family and a structure hint.
+- **★ TRANCHE 2 — the r-THRESHOLD:** all five single-odd-pair graphs show r = 0 (exact winding
+  conservation on non-Eulerian graphs, 5/5, Fisk non-adjacency control passing). Fritsch's
+  "mystery" is the low-odd-count REGIME; mobility switches on between 6 and 12 odd vertices.
+  Family B's constructor honestly failed its own verification — tranche 2b owed.
+- **★ CAL'S ADJUDICATION OF RECORD (§792):** Rel-GC REFUTED over BOTH lenses by exhibited witness
+  (the ℤ side sharper than required: identical charge vectors entry-by-entry). Closed sphere
+  keeps "candidate" — 8 leaving-home exhaustive graphs against his ≥30 bar, and the bar doesn't
+  bend for a good night. Deg-7: stated plainly, no hedging. **P2 separator gate fixed:
+  INVARIANCE is the entry ticket; one disc crowns nothing (witness factory required); candidates
+  must be cheaper than the reachability they predict.** Next-softest: the availability program
+  itself now stands where the linear theory stood this morning — same bar, no winner's exemption.
+- **★ LYRA:** Trichotomy in stone with per-cell epistemic status; separator scope theorem (any
+  functional of available-move data is blind on frozen twins — the hunt must read STATIC
+  structure) + the achieved-span smuggle named before anyone dug it; **Gate Existence retargeted
+  as the forcing lemma** (Middle-Strict + collapse law + the named-missing CUT LEMMA — link-edge
+  style); paper at v0.2 with five results.
+
+### ★★★ KEEPER'S IMPORT (web-verified, round 11's centerpiece) — THE HEIGHT-FUNCTION BRIDGE
+Statistical mechanics has studied our exact phenomenon for decades: proper colorings ↔ HEIGHT
+FUNCTIONS, and on the triangular lattice **the frozen coloring is the LINEAR function
+f(x,y) = x+y mod 3** — maximal-slope height functions are RIGID (zero local moves), and frozen
+boundary conditions force them (Peled–Spinka lectures, arXiv 2001.11566; Baxter's three-coloring
+model with domain-wall boundaries; the four-state triangular Potts height/ergodicity literature is
+Kempe-dynamics-adjacent). **Our disc IS a triangular-lattice disc; the atlas's alternating-syntax
+pinnings ARE this class. Pre-registered hypothesis (SEPARATOR CANDIDATE ZERO): freezing ⟺ the
+pinned boundary word sits at extremal height slope — a LINEAR functional of the pinning.** It also
+explains the puncture split: deleting an interior vertex cannot relax a boundary-carried tilt;
+closed spheres have no boundary, hence no tilt, hence fragile freezing. **The linearization ladder
+holds: every obstruction so far has become linear one level up** (degree → currents; charges →
+SNF; monodromy → H¹; now freeze → boundary slope). Casey's standing conviction — a fully linear
+theory has the best chance — is the program's load-bearing heuristic, one level up per floor.
+
+### ROUND-11 SHAPE: slope test on the 15-pinning family + census (blind) · the height dictionary
+theorem · Cut Lemma push · tranche 2b + r-threshold bisection · the ≥30-bar harvest extension.
+Sweep A–K armed, Casey's word. EOD only on Casey's word.
+
+
+
+### THE THREE RENDERED NUMBERS (round 9, all pre-adjudicated)
+- **★★★ Z1: (ℤ: same, GF(2): same).** W_rel computed EXACTLY (43 realizable interior chains, dim
+  17, no sampling): the frozen twins' sign patterns differ by a weight-20 vector ≡ 0 mod W_rel;
+  interior charges identical. **Both lenses blind. The first relative object ever built defeats
+  the candidate complete invariant on its birthday.** Entrant 2 (frustration) WINS; Lyra's
+  linear-hat stake paid out against her — the ledger doing what she built it to do. **What stands:
+  AVAILABILITY ITSELF is the invariant-shaped object.**
+- **★★ DEG-7 FIRST OBSERVATION: 4,184 readings across 92 foreign graphs — every single one
+  exactly ±3.** The charge theorem's last never-tested clause, proved on paper this afternoon,
+  confirmed at scale tonight. ASC survives first contact (zero closed-component kills, tranche 1);
+  F1 provably mixes; deficiency axis runs 0–95.
+- **★★ TRANSVECTION TEST: routes AROUND McLaughlin, INTO Wilson.** 0/186 gate words act linearly;
+  a third of the alphabet is not even well-defined as a function of the sign pattern. **The gate
+  algebra has no linear parts to classify; descent lives in WORD ORDER — Wilson's lane is now the
+  whole game.** Corollary nobody expected: **Fritsch−v is a SINGLE Kempe class (192 colorings) —
+  puncturing UNFREEZES; freezing is not monotone under vertex removal** (relative theory's third
+  structural fact, and a hopeful one: the original insertion problem lives in G−v, where freezing
+  is weaker).
+
+### ★★ THE TOPOLOGY TRICHOTOMY (the day's organizing discovery, stated for round 10)
+Invariant completeness is a function of topology: **closed sphere — the sign-coset is candidate-
+complete and entirely linear (Lemma R; 8/8; tranche-1 zero kills); boundary — PROVABLY incomplete,
+with the disc twins as exhibited witness (Z1); higher genus — owes the H¹(·;ℤ₃) monodromy summand
+(Mohar–Salas's home).** The boundary is where the dynamics escapes linear algebra. The disc is the
+program's ROSETTA STONE: whatever computable object separates its twins IS the residual invariant.
+
+### STANDING FROM ROUND 9
+Cal's freeze verified at source; W-quantifier pin discharged (W per-graph; **M_C = motion space**
+per-class; Gap A = M_C→W, Gap B = A(f)→M_C accumulation). Three-desk trap closure (Lyra named her
+own round-6 phrasing as the carrier, unprompted). Kempe–Wilson conjecture in stone with proof
+skeleton — **the Connectivity Forcing Lemma is the named missing rung**; Wilson's METHOD
+(2-connectivity forces generating moves) is the import to study, with Feghali's methods survey as
+the map. Grace: fifth definition-stage catch of the day — failure modes migrating upstream. Cal's
+adjudication of record + next-softest ruling: OWED, queued behind the renders.
+
+### ROUND-10 SHAPE: name the separator (the disc twins decide) · Connectivity Forcing Lemma push ·
+tranche 2 + the deficiency correlation table · puncture probes (is deletion-unfreezing general?) ·
+relative paper v2 absorbs three theorems · T2 (word problem) is Casey's hot target.
+Sweep A–K armed, Casey's word. EOD only on Casey's word.
+
+
+
+### ROUND-8 VERDICTS
+- **★★ CAL'S COLD-READ: Lemma R and R-rel both PASS** — re-derived in full, the most-suspected
+  bookkeeping step checks by a Klein-algebra argument, the genus-grading identified as the proof's
+  own boundary. Registration unblocked, scope-logged per his standing rule. **One definitional pin
+  owed (one sentence, Lyra): W's quantifier — over all colorings of the GRAPH, or over the KEMPE
+  CLASS? The readings differ exactly at frozen objects; the harvest table measures an undefined
+  thing until pinned.**
+- **★★ Z1 FULLY LOADED:** W_rel stated INTRINSICALLY (span of interior-chain straddle indicators
+  over ALL proper colorings of the disc graph — no pinning reference; Lyra owns the correction of
+  her round-6 degenerate phrasing). Both entrants genuinely oppose — Entrant 1 (linear, Lyra's
+  declared lean): cosets DIFFER; Entrant 2 (frustration): cosets TIE and the disc is the first
+  relative counterexample. **The two hats are ASC's two gaps meeting one computation from opposite
+  sides — whichever entrant dies, a gap gets its first hard datum.** Elie's runner: validated 5/5,
+  refusal-fires-while-unfrozen PROVEN in test, the 'a'-population trap demonstrated live (span 3
+  vs 17; frozen pinning would be 0 — construction-forced verdict, hence the intrinsic W_rel).
+- **★★ HARVEST CLEARED (Cal, 4 riders):** tranche 2 owes the law-targeting adversarial families;
+  **deg-7+ carriers required — the charge theorem's ±3-at-deg-7 has NEVER been observed** (natal
+  six contain none; first-observation opportunity); natal-derived flags exclude tower-DNA from
+  breadth stats; randomness gets a mixing diagnostic. Pipeline blind-by-construction (fibers
+  sha256-checkpointed before reachability computes — grep-able).
+- **★ NATAL SHAKEDOWN FINDINGS (Elie, before the harvest exists):** the spanning profile confirms
+  Gap A's frame exactly — frozen partitions at rank 1; unfrozen colorings see only 3–7 of a
+  class-level span of 16–23 ⟹ **reachability must ACCUMULATE SPAN ALONG WALKS — Gap B's shape
+  appearing inside Gap A's table.** And Lyra's pre-registered W = E died pre-harvest (deficiencies
+  6–19, the superset gap now measured in GF(2)) — the cheap time to die.
+- **★ EK POSITIONING RULED (Lyra, in writing):** different objects, three independent axes (signs
+  ride flips-of-triangulations vs states-of-a-fixed-one; reformulation vs dynamics
+  classification). ε-novelty stands; one bridge probe registered as an import channel.
+- **★ THE MOVE-ALGEBRA WORKSHEET IS OPEN** (Casey+Lyra shared file): groupoid generators, measured
+  relations with open slots, GF(2) representation with Lemma R faithfulness, and three lit targets
+  for Casey's third ranging shot — T1 parity-coupling analogue · T2 ASC as a WORD PROBLEM (the
+  OO-database bet) · T3 gates as elementary TRANSVECTIONS (the right row-reduction order for gate
+  words IS the descent potential).
+
+### ★★ KEEPER'S IMPORTS (web-verified this round) — the model theorems for the two gaps
+- **Gap B's model — WILSON 1974 (puzzle groups):** on any 2-connected non-cycle graph, the
+  state-dependent sliding moves generate A_n or S_n with exactly ONE exceptional graph (Θ₇ →
+  PGL(2,5)). The classical template for "availability saturates generically, exceptions small and
+  nameable" — **our frozen objects (icosahedron, Fritsch) are the natural Θ₇-analogues.** The
+  Kempe–Wilson conjecture shape: saturation off a finite exceptional list.
+- **Gap A's model — McLAUGHLIN 1969 (transvection groups):** every irreducible subgroup of SL(W)
+  over GF(2) generated by transvections is CLASSIFIED: SL(W), Sp(W), O±(W), or S_{n+1}/S_{n+2}
+  (Dickson representations). Independent of CFSG. **If T3 holds (gates act as transvections) and
+  the action is irreducible, the generated group is pinned by classification — and ASC could close
+  by counting.** The T3 verification is a computation on stored gate words, available TONIGHT.
+
+### ROUND-9 SHAPE: pin → freeze → Z1 RUNS → bank · gate riders → TRANCHE 1 → the spanning profile ·
+the transvection test on stored gates · the closure-operator formalization (Wilson as model).
+Sweep A–K armed, Casey's word. EOD only on Casey's word.
+
+
+
+### ROUND-7 VERDICTS
+- **★★★ LEMMA R (Lyra N1, PROVED):** on the sphere, the sign pattern determines the coloring up to
+  A₄, and all of A₄ is Kempe-realizable — **equal ε-points already imply reachability**, which is
+  WHY Z2's 8/8 zero-over-separation had to hold at the point level. Mechanism: face-to-face label
+  propagation, Heawood = the closure condition, H₁ = 0 kills monodromy; S₄ = affine group of
+  GF(2)², odd permutations flip every sign. **The entire reachability question now lives in the
+  W-coset structure**; W ⊆ even-weight subspace; complement-vector dynamically realizable. The
+  complete-invariant theorem reduces to **AVAILABILITY SATURATION with two named gaps: SPANNING**
+  (rank of available indicators per coloring — frozen objects are where it drops; **the spanning
+  profile is the harvest's crown table**) **and THROUGHPUT** (termination — the frustration
+  program re-enters here post-harvest, per Cal's ruling).
+- **★★ RELATIVE EXACTNESS (N2, PROVED):** on a pinned disc reconstruction is exact. Consequence
+  for Z1: point-level GF(2) separation of the frozen completions is VACUOUS — only the coset
+  statement informs — and Elie independently caught the same trap from the instrument side (a
+  W_rel built from the pinning's own frozen population is the zero space: forced-"different" =
+  empty confirmation wearing a triumph's clothes). **The freeze packet must pin which population
+  defines W_rel** — Elie named candidates, Lyra states, Cal freezes. Two independent catches of
+  one trap before it fired: the discipline at its best hour.
+- **★★ THE GENUS-GRADED PICTURE (N2 bonus, publishable-shaped):** off the sphere the invariant is
+  provably incomplete without an H¹(·;ℤ₃) monodromy summand — exactly where Mohar–Salas lives.
+  **Conjectured complete Kempe invariant: (GF(2) sign coset) ⊕ (H¹ ℤ₃ monodromy), correction
+  vanishing at genus 0.**
+- **★ N4:** "Kempe Theory with Boundary" exists in PAPER FORM (three theorems, the disc as first
+  exercise, four open problems). Internal until Casey's call.
+- **★ Elie's round:** Z3 re-run on Lyra's exact spec (burning dies by the decorative-count clause
+  alone — the correction IS the record); W3's Gauss-law caught as structurally vacuous before it
+  banked (single-boundary-cycle population = one bucket) and reposed per-boundary-cycle; W1
+  generator built, 92 graphs with provenance, parked at Cal's gate; his own mirror-image tower
+  variant caught by the toy's own test.
+- **★ Cal's round (§788):** the 2×2 Z1 adjudication exposed the unscored cell (ℤ-differs +
+  GF(2)-ties would kill relative GF(2)-completeness one round after coronation); W1 fairness =
+  six strata, leaving-home = random/degree-diverse/adversarial only, never first-found sampling,
+  instrument-saturation reads UNRESOLVED; GF(2) confidence rubric frozen (the bare noun "complete
+  invariant" is purchasable only by Lyra's N1 proof); his stake on record — if the lens survives
+  the harvest, his skepticism is withdrawn in writing.
+- **Grace:** harvest schema live BEFORE mass production (blind protocol grep-able in the row; kill
+  semantics pre-written; regenerability mandatory — "a harvest that can't be rebuilt bit-identically
+  isn't evidence"). Gallery at eight measured axes. Sweep A–K armed.
+
+### ★ KEEPER'S POSITIONING CHECK (web, this round) — where our program sits in the field's algebra
+The known algebraizations of 4CT all algebraize the COUNT: Penrose 1971 (tensor contraction),
+Kauffman 1990 (SO(3) cross-product), Kauffman–Thomas (Temperley–Lieb), Bar-Natan 1997 (Lie-algebra
+equivalence). The one signed-move reformulation — **Eliahou–Kryuchkov signed diagonal flips,
+proved EQUIVALENT to 4CT by Gravier–Payan** — is the nearest neighbor to our sign space and the
+mandatory novelty check for Lemma R's ε-coordinates (likely different objects: their signs ride
+flips of triangulations, ours ride faces of colorings — but a Straddle-Flip ↔ signed-flip bridge
+would be valuable either way). **NOBODY algebraizes the Kempe DYNAMICS. That is our lane:
+currents, gates, cosets, and a candidate complete invariant.** Survey reference for the team:
+Kauffman, "Reformulating the Map Color Theorem" (math/0112266).
+
+### ROUND-8 SHAPE: the Z1 chain closes tonight (W_rel statement → frustration entry → freeze →
+RUN) · W1 gate → harvest mass production → THE SPANNING PROFILE · EK positioning · the move-algebra
+presentation opens as the Casey+Lyra shared object. Sweep armed, Casey's word. EOD only on Casey's word.
+
+
+
+### ROUND-6 VERDICTS (25 Elie toys; all pre-registered)
+- **★★★ THE GF(2) FINDING (Z2):** ℤ-GC-I is FALSE on closed graphs (46 same-fiber/different-class
+  pairs; the linear charge theory cannot see frozenness — Cal's superset warning materialized in
+  hours). **But the GF(2) sign-pattern lens separates EVERY Kempe class on all eight exhaustive
+  graphs with ZERO over-separation: reachable ⟺ same GF(2) fiber, 8/8. Candidate COMPLETE Kempe
+  invariant.** Keeper lit-check: the field has NO complete Kempe invariant (only Mohar–Salas
+  mod-12) — if this survives breadth + proof, it is a new theorem in a field that published in
+  Nov AND Dec 2025. New facts en route: the icosahedron is TOTALLY FROZEN in partition space (10
+  partitions, all singleton classes); **Fritsch is operationally akempic** (2 mutually-unreachable
+  partitions) — nobody had ever said that about the smallest Kempe-killer.
+- **★★ KEMPE THEORY WITH BOUNDARY EXISTS (Lyra M3):** relative quantization proved (boundary
+  vertex charge ≡ cyclic displacement of its pinned neighbors mod 3 — a pinned boundary coloring
+  IS a charge boundary condition); gluing-consistency lemma (seam displacements cancel mod 3,
+  charges add, Heawood re-emerges). The Normal Form's gluing step has its correct shape — relative
+  fibers, not the dead Fisk import. The disc that broke the foundation at noon is the relative
+  theory's first solved exercise by evening.
+- **★ Z4:** zero false neighbors on 28 graphs; the only linear-data collision is T_3/Errera itself
+  (equal depths — true-neighbor control). Injective-up-to-depth; natal-family caveat stands.
+- **★ Z3:** the burning conjecture died by its OWN two kill-clauses (depth order inverted;
+  wrong-root fits better = decorative). Lyra's spec worked exactly as specs should.
+- **★ M2:** residue = DEGREE MOBILITY (r = quantum by which chains pump degree; deg mod r
+  survives). Fritsch r=0 is theorem-shaped: sign-balanced chain boundaries — a SECOND conservation
+  mechanism, geometric not parity. Gauss-law question registered (boundary current from enclosed
+  charge — nearly free on stored columns).
+- **★ M1:** frustration potential Φ formalized with the κ ≤ δ (kinematic/dynamic) gap built in;
+  Descent Conjecture in can-fail form; Kittell is the stress case.
+- **Z1 LOADED, NOT RUN** — per Cal's ledger rule (relative spec frozen first; stakes required —
+  "a prediction that loses nothing isn't on the ledger"). Lyra's entry: DIFFERENT relative fibers,
+  mechanism named, dull-outcome bias declared. Owed: frustration entry + Cal freeze. **The disc
+  ledger now includes a GF(2) column** (Elie posted Z2 before lock so both theories file knowing
+  the closed-graph record — that's how a ledger should work).
+- **Cal's dilution scoring:** fourth door — transplant death at CONSTRUCTION. Standing line:
+  equivalence-locking is a global covering property with NO transplantable local carrier (3
+  independent deaths); any future coupling claim owes an exhibited map. His bias scored MOOT.
+- **★ CAL'S SOFTEST-PLACE RULING (adopted as round-7 architecture):** every celebrated vocabulary
+  reads the SAME six base graphs — the N-instances bound applies to all of it. **Round 7 opens
+  with a BREADTH HARVEST: hundreds of stuck witnesses from a generator through corrected
+  instruments — GF(2) fibers, ℤ-fibers, charges, depths, gates measured WHOLESALE — before the
+  frustration potential's functional form is chosen.** A vocabulary that survives a population it
+  didn't grow up on is a theory.
+
+### ROUND-7 SHAPE: Z1 first hour · harvest at scale · GF(2) theory push (why does the sign-pattern
+fiber classify? swap = EXACT addition of the straddle indicator in GF(2) face space — the one truly
+linear coordinate system; prove availability-saturation ⟹ complete-invariant THEOREM). Assignments
+in the team prompt. Sweep A–K armed, unchanged, Casey's word.
+
+
+
+### ROUND-5 VERDICTS (all pre-registered; twenty Elie toys; details in artifacts + running notes)
+- **★★ SNF ENGINE LIVE AND VALIDATED (Y1):** sandpile control passes (K4 → [1,4,4] = 16 spanning
+  trees); all four of Lyra's positive controls pass, including her pre-registered icosahedron
+  rigidity prediction. **T_3 ≡ Errera at the FULL LINEAR LEVEL — rank 11, invariant factors
+  [2¹⁰, 4], same Δ-residues — twinning now at THREE independent levels (odd geometry, gate
+  statistics, charge-dynamics lattice). One charge-dynamical object, built 105 years apart.**
+  Kittell: [2²⁰, 8]. Fritsch conserves total winding exactly despite being non-Eulerian.
+  Residue ladder: 6 / 2 / 0 in degree units — interpretation owed (M2).
+- **★★ THE GATE IS UNIVERSAL (Y2): 739/739** stuck cases across all four graphs admit an
+  unsticking commutator. Support ≠ depth (Kittell: depth-4 graph, support-2 gate — the blind
+  support-ladder died on schedule). Existence clean everywhere.
+- **★★ BOUNDARY-FISK IS FALSE (Y4) — Cal's 5th population-import flag fired before anything was
+  built on it:** a radius-2 Eulerian-interior disc, 19 vertices, hand-checkable, with pinned
+  boundary colors admitting TWO relatively-frozen completions (zero legal moves each), mutually
+  unreachable. **"Eulerian regions are free" does not transfer to regions with boundary.** Normal
+  Form's gluing step: OPEN pending boundary-conditioned rework (M3). Keeper lit-check: the
+  relative-disc object appears NOVEL — the field has "Kempe frozen" only on closed graphs.
+- **★ DILUTION: NOBODY SCORED — the door nobody pre-registered (Y3):** akempicity is NOT portable
+  (triakis knot unfreezes at the first gluing, all seams, exhaustive). Equivalence-locking is a
+  GLOBAL covering property; insertion-stuckness has genuinely LOCAL knots. Transplant death #2;
+  the two-lockings map is 3-for-3.
+- **★ LYRA'S ROUND:** charge quantization now a citable THEOREM (mod-3 integrality via closed-walk
+  winding; no-local-rotation lemma — why knots are knots, as mathematics). Gate Conjecture in
+  stone (GC-I fiber ⟺ reachable · GC-II constructive generation; non-constructive claims written
+  out by name). **L4 insight, the round's deepest: RIGIDITY IS ZERO GRADIENT, NOT ZERO CHANNELS**
+  — the icosahedron at density 1.00 is all knots and perfectly flat. **The obstruction is
+  FRUSTRATION: charge misassignment relative to what channel geometry can transport. Potential :=
+  transport cost.** Burning-certificate optimism registered: the 5/10/17 ladder may be a
+  Dhar-style burning count.
+- **★ CAL'S GATES (§786), delivered as construction drawings:** the superset/realizability gap
+  named (fixed-matrix invariants SOUND for free; reachability claims from the superset overstate
+  — completeness owes a realizability lemma); ring = ℤ mandatory; additivity is a lemma not an
+  ambience; broken-orientation control must FAIL or the control is decorative. Dilution
+  re-designed two-factor with bias declared. GC's honest shape: constructive ⟸ or nothing.
+
+### ★★★ ROUND-6 CENTERPIECE — THE 19-VERTEX DECISION (Z1)
+Compute the invariant fibers of the disc's two frozen completions, blind predictions filed first.
+**Same fiber ⟹ the first relative counterexample to GC-I — a NEW invariant exists (GF(2) lens
+hunts it first). Different fiber ⟹ the linear theory EXPLAINS the freeze — its first explanatory
+triumph.** Either outcome reorganizes the program; one small exact computation decides. Cal holds
+the prediction ledger; both theories must commit before the run.
+
+### ROUND-6 ASSIGNMENTS — team prompt (Casey relays). Sweep A–K armed, unchanged, Casey's word.
+Field-tempo note: Kempe-changes papers posted Nov AND Dec 2025 (arXiv 2511.00485, 2512.00695) —
+the frontier is active THIS MONTH; the witness gallery + disc are assets to protect and, on
+Casey's call someday, to publish.
+
+
+
+### ROUND-4 HEADLINES (all pre-registered; details in each CI's artifacts + running notes)
+- **★★ THE JOINT (Lyra L1):** the field's Kempe invariant (Mohar–Salas 2009) = the DEGREE of the
+  4-coloring mod 12 (simplicial map to ∂tetrahedron); its local orientation signs ARE our Heawood
+  z_t (Σz_t = 4·deg). **Straddle-Flip computes the violation exactly: Δdeg = −½·Σ(straddle signs)
+  — a degree CURRENT on the chain boundary.** Their conservation theorem's scope (Eulerian) is
+  precisely E3's density-0 endpoint. The residue hunt (gcd of achievable Δdeg per graph) is the
+  new pre-registered instrument, with the Eulerian mod-12 theorem as free positive control.
+- **★★ THE CHARGE QUANTIZATION (Lyra L2, hand-proved):** deg-4 vertices always neutral; deg-5 and
+  deg-7 carry EXACTLY ±3; deg-6 ∈ {0, ±6}; Σc = 12·deg. **Knots are forced-charge sites; the
+  coloring chooses only signs; single-knot flips are conservation-forbidden — the dynamics is
+  DIPOLE TRANSPORT.** Tight = few channels for the current.
+- **★★ CASEY'S IDEMPOTIC OPERATION EXISTS (Elie X3, exhaustive on Fritsch):** a single commutator
+  anchored at the stuck link unsticks 144/144 stuck colorings; **minimal unsticking support = ONE
+  VERTEX** — a 4-move word that net-recolors a single vertex. Color-disjoint swaps commute exactly;
+  ALL non-commutativity lives in shared-color adjacency.
+- **★ THE STATE VARIABLE (Elie X2):** odd-charge-within-radius-3 = 5/10/17 at depths 2/3/4 — it
+  explains T_3 vs T_4 (same odd count, different reach). **T_3 and Errera — a 2026 tower and a 1921
+  graph — are IDENTICAL on all five odd-geometry statistics and share depth.**
+- **★ Cal's icosahedron census:** all 240 saturated colorings have τ = EXACTLY 4 — τ is CONSTANT
+  (rigidity: the extreme opposite of a knot); rescue ≤ 1. March claim now stands on a complete
+  census, not the poisoned screen. **Density axis re-scoped: BOTH endpoints free** (density 0 by
+  Fisk; density 1.00 by this census; akempic locks at 0.20) — E3's law is a rising local segment
+  on the insertion-stuck population. **Decisive control pre-registered: the DILUTION TEST**
+  (akempic knot in growing Eulerian bulk; density law says depth collapses, local-knot theory says
+  locking persists).
+- **★ Two lockings SEPARATED (Elie X1):** Tilley-locking ≠ insertion-stuckness (Fritsch: zero
+  Birkhoff diamonds, most stuck; icosahedron: 30 diamonds, not locked). Tilley's conjecture
+  untouched; the transplant died. **Vocabulary standing: "T-locked" vs "insertion-stuck" — never
+  conflate.**
+- **★ Akempic imported (X4):** vehicle = the 8-vertex triakis tetrahedron (verified frozen);
+  akempic graphs have NO deg-5 vertices — equivalence-locking is ORTHOGONAL to insertion depth.
+  E3's law's domain boundary is now a fact, not a caveat.
+- **★ Parity-bridge to BST: CLEAN NULL, banked (X5):** GF(3)→GF(128) killed by characteristic;
+  GF(4)→GF(128) killed because 3 ∤ 127 — **the substrate's Mersenne block refuses the four-color
+  alphabet precisely because g = 7 is odd.** One shared atom (the Z₂ bit), no map. Numerology
+  channel closed the same day parity got exciting.
+- **Cal's Normal-Form pin (5th population-import candidate, flagged BEFORE it fired):** "Eulerian
+  regions are free" imports Fisk — a closed-surface theorem — onto regions WITH BOUNDARY. Relative
+  Kempe-connectivity with pinned boundary colors is a different quantifier. Falsifier named: one
+  exhaustive disc toy. Also: Grace's gallery caught an index slip in FCW-002's prose band rule on
+  day one (graph/coloring fine; spec corrected with provenance).
+
+### ★★★ ROUND-5 CENTERPIECE — CASEY'S LINEAR-ALGEBRA CALL, MADE CONCRETE: the SNF instrument
+The mathematical home of "quantized charges on vertices + local conserved-current moves + hunt for
+ALL invariants" is **integer linear algebra: lattices and Smith normal form** — the same machinery
+as chip-firing/critical groups (the sandpile group IS the SNF cokernel of the graph Laplacian;
+Stanley's SNF survey is the reference). **Keeper's prior-art check: NO published connection between
+Kempe dynamics and this machinery — the lane is open.** Program: build the integer matrix of
+swap-currents acting on the charge/degree data; **Smith normal form → the COMPLETE list of Kempe
+invariants at once** (Mohar–Salas mod-12 must fall out as one invariant factor — free positive
+control). Then the **GATE CONJECTURE** (the Rubik model theorem, stated for us): reachability =
+exactly the kernel of the SNF invariants, and the X3 commutator gates GENERATE that kernel — as in
+the cube, where commutators generate everything the orientation/parity invariants allow. If it
+holds, insertion-solvability becomes a COMPUTABLE LINEAR CONDITION. If it fails, the failure is a
+NEW invariant. Either outcome is a theorem-shaped day.
+
+### ROUND-5 ASSIGNMENTS — see team prompt. Sweep A–K stays armed on Casey's word (unchanged).
+
+
+
+### ROUND-3 VERDICTS (all pre-registered, all ruled)
+- **depth~height (corrected AVL) REFUTED** (Elie E1, exhaustive): T_4's 1920 τ=6 cases ALL depth 2;
+  T_5 built on T_3's depth-3 cores rescues at depth 2 — added rings add escape routes. Depth peaks at
+  k=3 and collapses. **Deep configurations are not tall — they are TIGHT.** Cal's onion-height dies
+  with it (his own at-risk design worked as designed).
+- **Cal's gap-1 hypothesis REFUTED, his seam instinct CONFIRMED** (E2): all 2487 wrong-apex cases are
+  gap-2; Lyra's strictness derivation is correct in H and Lemma 3's bound is what fails there —
+  fourth site of the population-import disease. Both claims re-scoped, neither dead.
+- **★ THE ROUND'S LIVE LAW (E3): odd-degree DENSITY is perfectly monotone with rescue depth** —
+  0.55→2 · 0.67→2 · 0.71→3 · 0.71→3 · 0.78→4; 15-graph sweep, zero violations. **Fisk 1973 is the
+  density-0 endpoint of this axis** (Eulerian ⟹ all 4-colorings Kempe-connected). Candidate law,
+  Cal-gated, not banked. Joint E1+E3 message: build the potential from the ODD-VERTEX DISTRIBUTION.
+- **E4:** Heawood GF(3) instrument validated (rank V−1, nullity V−3, 198/198); local star-window is
+  blind to swap dynamics — the lens needs a ring-2+ window.
+- **★ Lyra's STRADDLE-FLIP LEMMA (candidate):** a Kempe swap = Heawood triangle-sign toggle on
+  exactly the chain-straddling faces = sign toggle on dual cut cycles — in all three coordinate
+  systems (Klein/GF(3)/flow) at once. Hand-proved case-complete; E4 verification pending;
+  check-Fisk-before-novelty-claim flagged. **The Heawood system is a linear code; 4CT = a
+  full-support codeword exists; Kempe moves = local re-encodings.**
+- **Lyra's PLD program:** certificate radius defined; PLD-1/PLD-2 conjectures registered; first rung
+  proved link-edges-only (chord-free ⟹ certificate radius ≥ 2). Retarget at parity per E1+E3.
+- **Grace:** witness gallery = data/fourcolor_witness_gallery.json (FCW-001..010); sweep classes
+  G–K fire-condition MET, awaiting Casey's word; C2 = qualified clean null (S⁴ carries no flux;
+  conformal/scale-free boundary can't carry dimensionful flux — mechanism to derive or kill);
+  C3 = NOT a collision (Paper84 self-reconciles with Wallach 16/3; one-line vocabulary lemma +
+  PD caveat pending S⁴ tiling remain).
+
+### ★★ CASEY'S TWO FRAMES, GIVEN THEIR SKELETONS (the round-4 program)
+**"Rubik's cube from the knots" = Thistlethwaite subgroup descent + commutator macro-moves.** The
+cube is solved by descending a chain of nested move-restricted stages, using COMMUTATORS — composite
+moves with small support that fix everything else. Straddle-Flip makes our move algebra linear per
+move, so commutators of overlapping Kempe swaps are computable objects. Conjecture: they implement
+LOCAL knot-transport (move an odd obstruction without global disturbance) — the "idempotic
+operation." **"Minimum-cost representation" = normal-form reduction.** Classical + today's data:
+(i) every triangulation decomposes along separating triangles into 4-connected pieces and gluing is
+FREE (triangle colors match by permutation — Birkhoff-era, verified in literature); (ii) Eulerian
+regions are free (Fisk/Heawood); (iii) **the knots are the odd vertices** (E3's law) — parity is
+conserved locally, odd vertices pair. Normal Form Conjecture shape: reduce to the knot-minimal
+4-connected core; prove 4CT there; lift by free gluing. Cost = odd count/density, THE measured axis.
+
+### ★ NEW LITERATURE (Keeper, web-verified this round — the field has names for our objects)
+- **"Kempe-locking"** (arXiv 1809.02807): our stuck-ness has a name; the **Birkhoff diamond** is
+  conjectured to be the ONLY fundamental Kempe-locking configuration. Our gallery bears on a live
+  conjecture directly.
+- **"Akempic" triangulations with exactly 4 odd vertices** (Discrete Math 1985): non-Kempe-connected
+  triangulations at MINIMAL odd count — the minimal knots that lock. Construction to import.
+- **A known Kempe INVARIANT** (arXiv 0901.1010, WSK non-ergodicity): a conserved quantity under
+  Kempe moves on triangulations — the external candidate for the potential's conserved complement.
+- **Fisk's odd-vertex theorem:** exactly two odd vertices ⟹ non-adjacent. Parity geometry is
+  already a theory; we just measured its dynamical shadow.
+
+### ROUND-4 ASSIGNMENTS — see team prompt (Casey relays). Sweep fires on Casey's word.
+
+## ██ ROUND 73 — 2026-08-30 (Sunday). 4-COLOR: the two-swap thesis dies, the real problem stands up. Millennium week, day 1.
+
+### THE DAY IN ONE PARAGRAPH
+Keeper's commissioned full proof review (K1832) found the paper's one false premise (Forced Fan's
+pentagon triangulation — icosahedron witness); the leader→fresh-eyes→critic cycle then killed
+Keeper's H-repair (Lyra blind + Elie Toy 5509), killed the chord-forcing lemma (22 chord-free τ=6
+witnesses, Toy 5508), exposed the March empirical table as instrument-poisoned (sorted-order bug,
+446/661 cases silently dropped, Toy 5510), and finally — Cal's independent 17-vertex witness + Elie's
+Kempe-killer gallery (Toys 5511/5512) — **refuted the two-swap mechanism itself in G−v**: rescue
+depths run 2 (Fritsch), 3 (Errera, Cal's 3-ring tower), 4 (Kittell). **The defect is architectural,
+not local: no bounded swap count closes the deg-5 insertion.** All artifacts: K1832 (+v0.2–v0.4),
+Lyra's diff + Lemma C, Toys 5508–5514, Cal §782–§783, Grace's fire-on-word sweep inventory.
+
+### WHAT SURVIVED EVERY ATTACK (the rocks)
+- **Middle-Strict Lemma** (K1832 4.1, Lyra blind-converged): middle bridge pair always strict via
+  link edges — 862/862 in G−v, 4242/4242 in H. Provable with NO Jordan curve.
+- **Lyra's Lemma C** (survivor criterion): sufficiency direction airtight, 5606/5606 (Toy 5513).
+  Double-blockage residue is INHABITED (13 random / 1436 gallery) — impossibility route dead.
+- **Klein/Tait XOR-toggle exactness** (Toy 5514): a Kempe swap IS an XOR-toggle on chain boundaries
+  in ℤ₂×ℤ₂. The algebra half of the dictionary is exact; the naive Schnyder projection is not
+  (64 conventions, 0 valid).
+- K1832 Sections 0–2 (the defect + witness + Lemmas 2–6 sound in G−v; Lemma 3 now = equality).
+
+### LITERATURE ANCHORS (Keeper web-verified this round — read before re-proving)
+- **Fisk 1973:** all 4-colorings of a 3-COLORABLE (Eulerian) sphere triangulation are
+  Kempe-equivalent. Mohar 2007 extended (3-colorable planar); Feghali 2023 (4-critical planar);
+  Mohar–Salas (toroidal). **General plane triangulations: OPEN — arXiv 2511.00485 (Nov 2025) is a
+  live paper on exactly this.** Our sharpened Kempe-1879 question = the field's open frontier.
+- **k-Recoloring is PSPACE-complete for k ≥ 4** (Ito et al., arXiv 2210.17105) — the literature
+  PREDICTS no bounded-depth certificate in general. Our refutation aligns with complexity reality.
+- **Heawood GF(3):** 4CT ⟺ nonzero-support solution of the triangle-sum linear system over GF(3)
+  (arXiv 2411.15992 for the modern treatment) — a LINEAR-ALGEBRA reformulation, native to the
+  corpus's GF/Reed–Solomon substrate framing and the linear-algebra standing order.
+
+### THE ROUND-3 CENTERPIECE — the AVL frame was RIGHT and the paper misread it (Casey/Keeper)
+AVL delete was never a bounded-rotation operation — it CASCADES, up to height-many rotations along
+the search path. The paper claimed the analogue of "2 rotations always suffice," which is false even
+in AVL. **Corrected conjecture (pre-registered): rescue depth scales with the LAYER structure of the
+configuration** — the data already fits: Fritsch 2, Errera 3 = Cal's 3-ring tower 3, Kittell 4.
+Casey's height-allowance intuition, in its true form: **depth IS height.** If per-layer descent with
+a potential holds, the theorem shape is one lemma per level (Middle-Strict's character), unbounded
+total depth, finite and structured — a real AVL delete.
+
+### ROUND-3 ASSIGNMENTS (relayed by Casey via team prompt)
+**Elie:** E1 k-ring tower family from Cal's §783 spec, depth vs k (pre-registered: depth ~ k) ·
+E2 Cal's gap-1 hypothesis on wrong-apex H cases (reconciles Lyra-vs-5509 fan discrepancy) ·
+E3 Eulerian-distance audit of all stuck witnesses (Fisk's theorem lives at even degrees — is
+distance-to-Eulerian a depth predictor?) · E4 Heawood GF(3) instrument on the witness gallery.
+**Lyra:** L1 the potential-function program (Lemma C + depth data → per-layer descent conjecture) ·
+L2 position vs literature (Fisk 1973, arXiv 2511.00485, Mohar) + harvest Fisk parity theory ·
+L3 the Klein↔GF(3)↔flow dictionary (both = nowhere-zero-4-flow avatars) with XOR-exactness.
+**Cal:** gate the depth~height pre-registration (move-set definition, family fairness) · adjudicate
+K1832 v0.4 reconciliation · Soifer into the gallery.
+**Grace:** catalog the witness gallery as first-class corpus objects · fire-condition for sweep
+classes G–J is MET (corrected numbers exist) — fires on Casey's word · C2/C3 energy-grep referent =
+`Keeper_K1714_SUPPLEMENT_..._2026-08-29.md` Section 7.3.
+
+### HONEST GUARD RAILS
+Kempe-equivalence alone cannot prove 4CT (circularity: reachability needs an extendable coloring to
+exist). The non-circular shape is DESCENT: a potential that strictly decreases per layer, minimum =
+extendable. PSPACE-hardness is general-graph; planar deg-5 insertion is special — the door is open,
+not guaranteed. No percentages in ledger rows. Every conjecture above is pre-registered and can fail.
 
 
 

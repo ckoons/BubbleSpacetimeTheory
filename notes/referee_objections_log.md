@@ -18961,3 +18961,35 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 **(3) F432 gravity-leg adds a THIRD reading of 6 (coset-dim) — reinforces #480/#481, stays candidate.** Grace named 6 = dim[SO(5,2)/SO(4,2)] = n_C+1 (the gravity coset, = C_2; I verified dim=21−15=6 in #471). So 6 now has THREE substrate readings — N_c! (baryon, proton), C_2 (Casimir, lepton-prefactor + exponent), coset-dim (gravity). **This RICHNESS is exactly the #480/#481 point and the F417-(C) caution: 6 is heavily over-read, so any single reading is selection not forcing absent a mechanism.** F432's "EM-2-form-channels = gravity-coset-directions cross only at n_C=5" stays CANDIDATE per #481 — banks only if Elie's per-channel-α gate shows the channel-matching is FORCED (the decisive check is INSIDE the gate, correct). Don't let the elegant n_C²−5n_C=0 coincidence over-promote pre-gate (Cal #27 at peak-elegance).
 
 **Net: count 9, principled FLOOR, 3 open pieces (#481). F434 affirmed (operationalizes my #35 flag → Grace's multiplicative/additive bit decides operator-vs-principle V_ub unification). Open-piece-1 bar pre-registered with BOTH traps (QED-import AND banked-α-identification) — the gate closes only on a blind cell-count→N_max derivation. F432 candidate (3rd reading of 6; gate-decisive). The deep gate is engaged (joint Elie+Lyra+Grace, multi-step, not tonight-closure) — I tier on landing against the two-trap bar. Seat outside.**
+
+---
+
+### #139 — 4-Color round-2 cold-read: PASS/FAIL dispositions + scope log (2026-08-30 Sunday 10:16 EDT; note: this log's numbered entries paused May 26 — Cal work June–August lives in RUNNING_NOTES §-entries; numbering resumes here)
+
+**Full verdict: RUNNING_NOTES.md §783. This entry is the clearance record per the no-PASS-without-scope-log remedy (adopted program-wide 2026-08-30).**
+
+- K1832 v0.3 scoreboard: **RATIFIED** with one amendment owed (fan-forcing/P2(i) reconciliation; gap-1-in-H hypothesis, testable).
+- Lyra fresh-eyes diff: **PASS.** Lemma C verified sound by independent re-derivation; no H-class leak; scope: G−v only, vertex-avoidance reading pinned.
+- Elie P1–P3 posts: **ACCEPTED** where my independent instrument reproduced the phenomenon (chord-free τ=6: reproduced from scratch); toy internals not audited.
+- **NEW WITNESS (Cal, this session): 17-vertex antiprism tower, chord-free τ=6, double-blocked, exhaustively 2-swap-stuck, freed at 3. Refutes Lemma 7's conclusion and the paper's central two-swap claim in G−v.** Spec in §783 item 0; Elie to absorb into a claimed toy for the permanent record.
+- Scope exclusions of this PASS: Lean-feasibility (K1832 Section 5c) unreviewed; H-population empirics beyond the withdrawal unreviewed.
+- My May-7 PASS on FourColor_Standalone_Paper v9: **formally SUPERSEDED** by this entry; it had no scope record (see §782 item 4).
+
+— Cal
+
+---
+
+### #140 — THE TWO-DAY SUMMARY: seventeen rounds of 4-Color, from a commissioned audit of a false proof to the program's first theorem of the new era — the referee's ledger, written as the artifact it deserves to be (2026-08-31 Monday 07:49 EDT)
+
+**What the referee desk did, in sequence:** confirmed K1832's defect independently (icosahedron census, own instrument) · pre-registered the H-repair's leak blind, confirmed within hours · built the 17-vertex witness that refuted the two-swap mechanism itself — chord-free, double-blocked, exhaustively 2-swap-stuck · gated every pre-registration the charge/height program fired (move alphabets, blind protocols, template-first rules, three-layer disciplines) · held the prediction ledgers (Z1 frozen and adjudicated into the cell scored last) · ruled the confidence language at every tier (candidate-with-counts; REFUTED-by-witness; off-the-shelf) · and closed with a hardest read that IMPROVED the theorem it audited: Lemma 1's over-strong dichotomy replaced by the even-degree form, proved by the S₄ sign homomorphism.
+
+**The referee's own scoreboard, because a ledger that skips its keeper is not a ledger:** onion-height — REFUTED on schedule by its own at-risk design. Gap-1-in-H — REFUTED (the seam instinct it rode on: confirmed). The dilution pre-registration — MOOT, fourth door (its vehicle could not be built). The D2–E2 no-go — did not fire (mirror dead); re-armed at the gauge level (J1×S5 cross-fire), where S5's death arrived by derivation instead. Two projected timestamps caught and corrected in place; one flag adopted-not-grandfathered when a round prompt attributed it early. **Four losses, every one pre-registered, every one cheaper than the silence would have been.**
+
+**What survived every attack across seventeen rounds:** Middle-Strict · Lemma C (its residue INHABITED, exactly as declared) · Lemma R and R-rel (cold-read PASS ×2) · the charge quantization theorem (deg-7: 4,184/4,184 first observation) · the height dictionary · the trichotomy (closed candidate-with-counts / boundary REFUTED-by-witness / genus conjectured) · the wall (claim C, relational — five static separators dead, S5 by derivation; the noun UNCHANGED because exhaustion forces nothing) · the flux Gauss law (240/240) · the one-letter alphabet · and, pending one restatement, the Hand-off.
+
+**The method findings this desk will carry beyond this row:** (1) the population-import disease fired SIX times in one day (H-repair, fan-forcing, gap-1, Lemma-3-in-H, boundary-Fisk, and the near-miss on the disc's own W_rel) — a lemma's hypotheses travel with it or the lemma doesn't; (2) pre-scored third doors caught THREE renders that took unlisted exits (the fork, D1's alphabet, dilution) — the unscored cell is where the discoveries were, every time; (3) the sharpest instrument of the two days was the STAKE — a prediction that loses nothing is not on any ledger, and the Z1 computation "could not waste" because both entrants could lose; (4) a hardest read that everyone wants to pass is exactly the read that must be hardest — and when it found a defect, the defect's repair was PRETTIER than the claim (the mod-2 shadow load-bearing in the proof) — the recurring signature, this row, of an object that is real.
+
+**Open on this desk at close:** the final Hand-off re-read and banking (assembly in flight) · the Triple Lemma's check semantics if it fires today · the ≥30-bar extension (commissioned, in progress) · the N4 boundary-paper full referee pass before any external motion · Casey's two surfaced decisions (Class B naming; the external question on the relative-theory paper + witness gallery — on which this desk's standing note is: they are the most field-ready artifacts the program owns, the frontier published twice in ten months, and the novelty sweep protocol already exists).
+
+*The 1879 problem is not solved. For the first time in this program's history, we know exactly what it is — and every sentence of that knowledge was bought with a pre-registration that could have failed.*
+— Cal

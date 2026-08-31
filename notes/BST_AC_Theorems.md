@@ -5356,9 +5356,9 @@ For a saturated degree-5 vertex $v$ in a planar graph $G$ with a proper 4-colori
 
 **Corrected results (Toy 407/420):** $\tau = 4$ typical, $\tau = 6$ achievable on planar graphs (degree-5 vertices). The bound $\tau < 6$ is FALSE. Single Kempe swaps do NOT suffice at degree 5.
 
-**T135b (Tangle Drop — SUPERSEDED by T154).** If $\tau = 6$ at a saturated degree-5 vertex $v$ in a planar graph, then there exists a split-bridge swap that reduces $\tau$ to exactly 5. **Superseded by T154 (Conservation of Color Charge)**: the strict budget $\tau_{\text{strict}} = 4$ + pigeonhole + Lyra's Lemma proves the split exists, and the cross-link bound (T155) proves the descent. **Data: 2500+ cases, 0 exceptions (Toys 420-437).**
+**T135b (Tangle Drop — SUPERSEDED by T154).** If $\tau = 6$ at a saturated degree-5 vertex $v$ in a planar graph, then there exists a split-bridge swap that reduces $\tau$ to exactly 5. **[REFUTED — sweep 2026-08-30, K1832 v0.4: Toy 5511 counterexamples; FCW-002 stuck through all 2-swap sequences.]** **Superseded by T154 (Conservation of Color Charge)**: the strict budget $\tau_{\text{strict}} = 4$ + pigeonhole + Lyra's Lemma proves the split exists, and the cross-link bound (T155) proves the descent. **Data: 2500+ cases, 0 exceptions (Toys 420-437) [POISONED SCREEN — Toy 5510; do not cite].**
 
-**Status of four-color AC(0) proof:** T156 in Section 61. **PROVED.** T155 closed by Chain Dichotomy (Toy 439, 8/8). Depth 2. First human-readable, computer-free proof of the four-color theorem. See Section 61 for the complete AC proof.
+**Status of four-color AC(0) proof:** T156 in Section 61. **REFUTED AS A PROOF (sweep 2026-08-30, K1832 v0.4; two-swap mechanism false with witnesses).** Formerly claimed PROVED. T155 closed by Chain Dichotomy (Toy 439, 8/8). Depth 2. First human-readable, computer-free proof of the four-color theorem. See Section 61 for the complete AC proof.
 
 ---
 
@@ -5893,7 +5893,7 @@ Planck removed one infinity in 1900 and launched modern physics. The Planck Cond
 
 **Step 6a** (Case B: $n_{s_i}$ in swap chain). New bridge gap becomes 1. By T135a (Lemma A), $\tau \leq 5$. *Depth:* 0 (apply T135a). $\square$
 
-**Step 6b** (Case A: $n_{s_i}$ not in swap chain). Pre-swap: $\tau = 4 + 2 = 6$. Swap removes $B_{\text{far}}$ from $r$-set. Post-swap: $r$ is singleton $\Rightarrow$ $r$-pair cross-links = 0 (singleton pairs have strict = operational). New $s_i$ bridge creates $\leq 1$ cross-link (T155). Post-swap: $\tau \leq 4 + 1 = 5$. *Depth:* 1 (counting cross-links). *Data:* 861/861. $\square$
+**Step 6b** (Case A: $n_{s_i}$ not in swap chain). Pre-swap: $\tau = 4 + 2 = 6$. Swap removes $B_{\text{far}}$ from $r$-set. Post-swap: $r$ is singleton $\Rightarrow$ $r$-pair cross-links = 0 (singleton pairs have strict = operational). New $s_i$ bridge creates $\leq 1$ cross-link (T155). Post-swap: $\tau \leq 4 + 1 = 5$. *Depth:* 1 (counting cross-links). *Data:* 861/861 [poisoned screen — Toy 5510; corrected budget count 862/862; the descent claim is REFUTED (Toy 5511), sweep 2026-08-30]. $\square$
 
 **Step 7** (Second swap). $\tau < 6 \Rightarrow \exists$ untangled pair $\Rightarrow$ single Kempe swap frees a color. *Depth:* 0 (Kempe 1879). $\square$
 
@@ -5988,7 +5988,7 @@ By induction on $|V(G)|$.
 
 The four-color theorem is depth 2 for the same reason every Millennium problem is depth 2: one structural observation (the conserved charge) and one induction (over vertices). The 633 unavoidable configurations of Appel-Haken are 633 shadows of one definition: $\tau_{\text{strict}} \leq 4$.
 
-**Status:** **PROVED.** T155 closed via Chain Dichotomy (Toy 439, Lyra's Closure). All 13 steps proved. AC(0) depth 2. First human-readable, computer-free proof of the four-color theorem in 150 years.
+**Status:** **REFUTED AS A PROOF (sweep 2026-08-30, K1832 v0.4).** Formerly claimed: T155 closed via Chain Dichotomy (Toy 439) — Toy 5511 counterexamples; rescue-depth ladder 2/3/4. AC(0) depth 2. First human-readable, computer-free proof of the four-color theorem in 150 years.
 
 **Historical context.** Kempe (1879) had the right tool (chains) and the right operation (swap). He missed one definition: the tangle number that distinguishes strict from operational. Heawood (1890) showed single swaps can fail. 147 years later, Conservation of Color Charge shows double swaps always succeed — because the strict budget is a conserved quantity that forces descent.
 
@@ -6172,7 +6172,7 @@ The correspondence is structural: Ricci flow strips a manifold to its topologica
 
 ### T154. Lyra's Lemma — Conservation of Color Charge (Lyra's Prize)
 
-T154 carries the name **"Lyra's Lemma"** by Casey's award. The Conservation of Color Charge — strict_tau ≤ 4, bridge_tau ≤ 2, pigeonhole forces uncharged bridge pairs, split-swap gives tau descent — turned a refuted conjecture (T135) into a ~99% proof of the Four-Color Theorem at AC(0) depth 2. The full statement, proof, and BST parallel are in Section 61. 861/861 empirical verification (Toys 435-437).
+T154 carries the name **"Lyra's Lemma"** by Casey's award. The Conservation of Color Charge — strict_tau ≤ 4, bridge_tau ≤ 2, pigeonhole forces uncharged bridge pairs, split-swap gives tau descent — turned a refuted conjecture (T135) into a claimed proof of the Four-Color Theorem — itself REFUTED (sweep 2026-08-30, K1832 v0.4): the budget half survives strengthened (Middle-Strict, 862/862 corrected), the reducibility half is false with witnesses. The full statement, proof, and BST parallel are in Section 61. [Former "861/861 (Toys 435-437)" was the poisoned screen.]
 
 Lyra's Lemma is the load-bearing step in the Four-Color AC proof: without it, Kempe's 1879 method fails at degree 5 (Heawood 1890). With it, every planar graph has a color-charge budget that forces descent. Casey's AVL/gauge insight — swap = rotation, charge = balance factor — gave the direction. Lyra built the theorem.
 

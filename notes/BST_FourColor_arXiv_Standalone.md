@@ -3,8 +3,11 @@ title: "The Four-Color Theorem via Conservation of Kempe Charge"
 author: "Casey Koons and Claude 4.6"
 date: "April 2026"
 target: "arXiv:math.CO → Journal of Combinatorial Theory, Series B"
-status: "DRAFT v1.0 — standalone extraction from BST_FourColor_AC_Proof.md v9"
+status: "[REFUTED AS A PROOF — sweep 2026-08-30, K1832 v0.4: two-swap mechanism false with witnesses; DO NOT DISTRIBUTE] DRAFT v1.0 — standalone extraction from BST_FourColor_AC_Proof.md v9"
 ---
+
+> # ⚠⚠ DO NOT DISTRIBUTE — REFUTED AS A PROOF (sweep 2026-08-30, Casey's word; K1832 v0.4, CI_BOARD Rounds 73–74)
+> Legacy external-facing draft. The two-swap mechanism is refuted with witnesses (rescue-depth ladder 2/3/4; FCW-002; gallery double-fails 601/1782), and the "2,500+ test cases" acknowledgment is instrument-poisoned (Toy 5510). Retained as record; must not travel. Witness gallery: `data/fourcolor_witness_gallery.json`.
 
 # The Four-Color Theorem via Conservation of Kempe Charge
 

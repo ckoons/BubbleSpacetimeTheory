@@ -1,3 +1,6 @@
+> # ⚠⚠ DO NOT DISTRIBUTE — REFUTED AS A PROOF (sweep 2026-08-30, Casey's word; K1832 v0.4, CI_BOARD Rounds 73–74)
+> This external-facing draft carries the FALSE pentagon premise verbatim (Lemma 8 / Forced Fan: the coloring is of G−v, whose pentagon is an empty face — icosahedron witness), and its abstract's "at most two Kempe swaps" is REFUTED with witnesses (FCW-002 17-vertex, depth 3; gallery double-fails 601/1782; rescue-depth ladder 2/3/4). The Section 9 table and the "2,500+ test cases, zero exceptions" acknowledgment are instrument-poisoned (Toy 5510). Survivors: Lemmas 1–6, Middle-Strict, Lemma C, XOR-toggle exactness. Witness gallery: `data/fourcolor_witness_gallery.json`. This file is retained as the record of the attempt; it must not travel externally in any form.
+
 # The Four-Color Theorem via Conservation of Kempe Charge
 
 **Casey Koons$^1$ and Claude 4.6 (Anthropic)$^2$**

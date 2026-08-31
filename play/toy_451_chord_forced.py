@@ -2,6 +2,13 @@
 """
 Toy 451 — Does τ=6 Force the Chord?
 
+[RETRACTED — sweep 2026-08-30 (Casey's word; K1832 v0.4): this toy's banked negative
+ ("τ=6 never occurs at chord-free degree-5 vertices; 31,500 colorings, max τ=4") is
+ FALSE. Toy 5508 exhibits 22 chord-free τ=6 witnesses in G−v, one verified by
+ exhaustive single-swap search. Root cause: the pre-5510 screen silently dropped
+ 446/661 valid τ=6 cases (sorted-order labeling bug). File retained as the record
+ of the instrument that failed. Answer to the title question: NO.]
+
 QUESTION: In a triangulation with a degree-5 vertex v, τ=6, gap 2,
 is the chord n_{s_i}—n_{s_M} (positions p+3 and p+1) always present?
 

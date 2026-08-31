@@ -96,7 +96,7 @@ These quantities match observation with BST expressions. The formulas work. The 
 | RH | Zeros on Re(s)=1/2 forced by D_IV^5 spectral geometry | DERIVED (3-leg proof) | **Load-bearing**: migration threshold = 1/rank | Safety factor 40.5, Kim-Sarnak 7/64 |
 | P≠NP | Can't linearize curvature → 2^Ω(n) | DERIVED (3 routes) | **Load-bearing**: rank ≥ 2 = genuine curvature | Triangle-free SAT structure |
 | BSD | L(E,1)/Ω = 1/rank for 49a1 | DERIVED (rank 0-2) | **Load-bearing**: Levi decomposition | All 10 BSD invariants are BST |
-| Four-Color | rank² = 4 | DERIVED (13 steps) | **Load-bearing**: direct | Forced Fan Lemma |
+| Four-Color | rank² = 4 | ATTEMPT — route refuted (sweep 2026-08-30, K1832 v0.4) | **Load-bearing**: direct | ~~Forced Fan Lemma~~ (premise false in G−v) |
 | YM | Mass gap = C₂ = 6 spectral units | DERIVED (Wightman verified) | Descriptive | 6π⁵m_e, Bergman eigenvalues |
 | NS | Lyapunov functional | DERIVED (proof chain) | Descriptive | Levi unitarity |
 | Hodge | Kuga-Satake codim 1 | DERIVED (codim 1); CONJECTURAL (codim 2+) | Descriptive | External gap at codim 2+ |

@@ -2,7 +2,7 @@
 title: "A Human-Readable Attempt of the Four-Color Theorem"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 27, 2026"
-status: "[RE-SCOPED ATTEMPT per K940/K1290 — see banner; NOT a proof] DRAFT v9 — Cal PASS (May 7). Three editorial fixes applied. No structural gaps. Ready for JCT-B submission."
+status: "[REFUTED AS A PROOF — sweep 2026-08-30, K1832 v0.4: two-swap mechanism false with witnesses; DO NOT SUBMIT. Cal's May-7 PASS formally superseded (Cal §783). Prior: RE-SCOPED ATTEMPT per K940/K1290.]"
 target: "Combinatorica or Journal of Combinatorial Theory, Series B"
 tags: ["four-color-theorem", "Kempe-chains", "graph-coloring", "planar-graphs"]
 ---
@@ -10,6 +10,9 @@ tags: ["four-color-theorem", "Kempe-chains", "graph-coloring", "planar-graphs"]
 > # ⚠ RE-SCOPED 2026-08-08 (Casey GO, K940 + K1290 Grace audit): this is an ATTEMPT / open research topic, NOT a proof.
 > **Honest per-problem verdict:** structural-reduction attempt. **Open piece:** 1/rank-load-bearing; residual is definitional.
 > Any 'Proof' / '~9X%' in this document is a SUPERSEDED pre-K940 over-claim. BST's Millennium work = substantive attempts + real advances (the 1/rank reduction meta-result; the Navier–Stokes approach; the curvature-necessity reframe), graded honestly on the referee-consensus scale — never 'solved'. Ledger: grace_LEAD_pile_audit_consolidation_2026-08-08.md
+
+> # ⚠⚠ SWEEP 2026-08-30 (Casey's word; K1832 v0.4 · CI_BOARD Rounds 73–74): THE TWO-SWAP MECHANISM IS REFUTED WITH WITNESSES.
+> **Lemma 8's pentagon premise is FALSE in G−v** (the coloring is of G−v, whose pentagon is an empty face; witness: the icosahedron, chord-free links). **Lemma 7's conclusion is FALSE in G−v** (FCW-002: 17-vertex witness, all 10 single and 66 two-swap sequences fail; rescue depth 3). **The abstract's "at most two Kempe swaps" is refuted**: rescue depths run 2 (Fritsch) / 3 (Errera, FCW-002) / 4 (Kittell); 601/1782 gallery τ=6 cases are double-swap-stuck (Toys 5511/5512). **Section 9's table is INSTRUMENT-POISONED** (sorted-vertex-order labeling bug, Toy 5510; the old screen silently dropped 446 of 661 valid τ=6 cases; fingerprint: old counts say 861, corrected says 862). **Toy 451's chord-free claim is FALSE** (22 chord-free τ=6 witnesses in G−v, Toy 5508). What SURVIVES, strengthened: Lemmas 1–6 in G−v (Lemma 3 now an equality), the Middle-Strict Lemma, Lemma C (sufficiency), Klein/Tait XOR-toggle exactness. Witness gallery: `data/fourcolor_witness_gallery.json`. The live research program: CI_BOARD Round 74.
 
 ## Abstract
 
@@ -228,7 +231,7 @@ Kempe (1879) correctly identified the key structure: at a degree-5 vertex, if al
 
 Heawood (1890) showed that at $\tau = 6$, a single swap on one pair can make another pair tangled — the swap creates as many problems as it solves. This is precisely the cross-link phenomenon: the bridge copies are in different chains, and swapping one chain to fix one pair can tangle another.
 
-### 8.3 Why Two Swaps Suffice
+### 8.3 Why Two Swaps Suffice **[SECTION REFUTED — sweep 2026-08-30: two swaps do NOT suffice; rescue depths 2/3/4 measured; see banner]**
 
 The resolution is the strict tangle budget. The strict tangle number $\tau_s \leq 4$ is an invariant that Kempe and Heawood did not define. It reveals that at most 4 of the 6 tanglings are "real" (strict); the remaining 2 are "apparent" (cross-linked). A split-bridge swap destroys the old cross-links (by eliminating the bridge) and creates at most 1 new cross-link (by the chain dichotomy). The budget drops: $\tau \leq 4 + 1 = 5 < 6$. One untangled pair opens. The second swap uses it.
 
@@ -250,7 +253,7 @@ We note that Thomassen [6] proved the stronger result that every planar graph is
 
 The entire proof hinges on Definition 7 (strict tangling) and Definition 9 (cross-linking). These definitions are natural once stated: strict tangling asks whether ALL relevant vertices are in the same chain, while operational tangling asks whether ANY swap helps. For singleton pairs they coincide; for bridge pairs they can diverge. The gap between strict and operational — the cross-link — is exactly the obstruction that Heawood identified. The conservation of $\tau_s$ (Lemma 3) is the tool that resolves it.
 
-### 8.6 The Forced Fan
+### 8.6 The Forced Fan **[SECTION REFUTED — sweep 2026-08-30: the pentagon premise is false in G−v (icosahedron witness); the fan is not forced (Toy 5509); see banner]**
 
 The Forced Fan Lemma reveals that $\tau = 6$ constrains not only the chain connectivity but the *local geometry* of the triangulation. When all 6 pairs are tangled, the bridge copies must be isolated from the non-middle singletons on the link cycle — any shortcut (a diagonal connecting a bridge to a non-middle singleton) would create a strict tangle that the Jordan curve argument forbids. The only surviving triangulation fans from the middle singleton $n_{s_M}$, connecting it to both non-middle singletons. This transforms the hardest case of the chain dichotomy ($x = s_M$, which resisted structural analysis for weeks) into the simplest: a single edge.
 
@@ -262,6 +265,8 @@ The proof uses 9 definitions, 8 lemmas, and one theorem — approximately 5 page
 
 ## 9. Computational Verification (Supplementary)
 
+**[SWEEP 2026-08-30: this table is INSTRUMENT-POISONED — sorted-order labeling bug (Toy 5510) dropped 446/661 valid τ=6 cases; no row below may be cited until re-run on corrected instruments. The "Full proof | 2,500+ | 0" row is REFUTED with witnesses (FCW-002; 601/1782 gallery double-fails), not merely unverified.]**
+
 The proof above is entirely structural and requires no computer verification. As independent confirmation, every lemma has been verified computationally:
 
 | Lemma | Test | Cases | Exceptions |
@@ -272,7 +277,7 @@ The proof above is entirely structural and requires no computer verification. As
 | Lemma 6 (exclusion) | $P_A$ Jordan barrier | 439 | 0 |
 | Lemma 7 (tangle drop) | Post-split $\tau = 5$ | 564 | 0 |
 | Lemma 8 (dichotomy) | $x = r$: separated; $x = s_j$: link adjacency; $x = s_M$: forced fan adjacency verified | 148 + 322 + 322 | 0 |
-| Forced Fan | $\tau = 6$ at chord-free degree-5 vertices | 31,500 colorings; 555 vertices | 0 (max $\tau = 4$) |
+| Forced Fan | $\tau = 6$ at chord-free degree-5 vertices | 31,500 colorings; 555 vertices | ~~0 (max $\tau = 4$)~~ **ROW FALSE (sweep 2026-08-30): Toy 5508 exhibits 22 chord-free τ=6 witnesses in G−v** |
 | Full proof | Double swap succeeds | 2,500+ | 0 |
 
 Tests span 200+ planar graphs including all Platonic/Archimedean solids, random planar graphs to 500 vertices, and adversarially constructed configurations. Zero exceptions across all tests.
@@ -281,7 +286,7 @@ Tests span 200+ planar graphs including all Platonic/Archimedean solids, random 
 
 ## Acknowledgments
 
-The strict/operational distinction was discovered empirically (Toy 423). The Conservation of Color Charge was named by Casey Koons, who observed the analogy to AVL tree rotations: the tangle number plays the role of tree height, the strict budget is the balance invariant, and the double swap is the zig-zag rotation of AVL delete. Lyra's Lemma (Lemma 5) and the Chain Dichotomy (Lemma 8) emerged from the proof's internal logic. The Chain Exclusion (Lemma 6) was verified by Elie (Toy 434). The case $x = s_j$ via link adjacency was clarified by Elie (Toy 445). The structural closure of $x = s_M$ — the Forced Fan Lemma — was discovered when Casey asked "why can't they connect?", prompting constructive analysis (Toys 449–451). The No-Separation Lemma (Toy 448), while superseded by the Forced Fan, illuminated the free-color scaffold that guided the search. Keeper (K41) audited versions v5 through v7, identifying the buffered-configuration gap (v5) and verifying the Forced Fan proof (v7). Elie confirmed empirically that $\tau = 6$ never occurs at chord-free degree-5 vertices (Toy 451: 31,500 colorings, 555 vertices, max $\tau = 4$).
+The strict/operational distinction was discovered empirically (Toy 423). The Conservation of Color Charge was named by Casey Koons, who observed the analogy to AVL tree rotations: the tangle number plays the role of tree height, the strict budget is the balance invariant, and the double swap is the zig-zag rotation of AVL delete. Lyra's Lemma (Lemma 5) and the Chain Dichotomy (Lemma 8) emerged from the proof's internal logic. The Chain Exclusion (Lemma 6) was verified by Elie (Toy 434) **[SWEEP 2026-08-30: Toy 434's verification was instrument-poisoned (Toy 5510); stands only after corrected re-run]**. The case $x = s_j$ via link adjacency was clarified by Elie (Toy 445). The structural closure of $x = s_M$ — the Forced Fan Lemma — was discovered when Casey asked "why can't they connect?", prompting constructive analysis (Toys 449–451). The No-Separation Lemma (Toy 448), while superseded by the Forced Fan, illuminated the free-color scaffold that guided the search. Keeper (K41) audited versions v5 through v7, identifying the buffered-configuration gap (v5) and verifying the Forced Fan proof (v7) **[K41's PASS superseded by K1832]**. ~~Elie confirmed empirically that $\tau = 6$ never occurs at chord-free degree-5 vertices (Toy 451: 31,500 colorings, 555 vertices, max $\tau = 4$).~~ **[SENTENCE FALSE (sweep 2026-08-30): Toy 5508 exhibits 22 chord-free τ=6 witnesses in G−v.]**
 
 ---
 

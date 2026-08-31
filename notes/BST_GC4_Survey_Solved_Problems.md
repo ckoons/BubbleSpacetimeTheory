@@ -60,7 +60,7 @@ This is the cleanest GC-amenable proof outside BST. See GC-2 for the detailed te
 
 ## 3b. Four-Color Theorem -- BST (2026)
 
-**Proof method**: The Forced Fan Lemma shows that in any bridgeless planar cubic graph, every face forces a coloring fan of at most 4 colors through geometric necessity. 13-step structural induction, computer-free.
+**Proof method**: [CORRECTED, sweep 2026-08-30 — the previous sentence here MISDESCRIBED the lemma entirely (wrong object: it concerned pentagon diagonals at a τ=6 degree-5 vertex, not faces of cubic graphs).] The two-swap AC route is REFUTED with witnesses (K1832 v0.4); honest state: structural-reduction attempt; survivors: Middle-Strict, Lemma C. See registry T156.
 
 **Classification**: **(a) GC-amenable**.
 

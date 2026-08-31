@@ -85,7 +85,7 @@ The stress tensor is a symmetric rank-2 tensor (T1273). The regularity criterion
 
 ### 7. Four-Color: rank^2 = 4 colors
 
-The four-color number is rank^2 = 4. Every planar graph is rank^2-colorable (T127, T126). The Forced Fan Lemma (K41) proves this computer-free.
+The four-color number is rank^2 = 4. Every planar graph is rank^2-colorable (T127, T126). ~~The Forced Fan Lemma (K41) proves this computer-free.~~ [Sweep 2026-08-30: route refuted (K1832 v0.4); 4-colorability itself stands via Appel–Haken/RSST/Gonthier.]
 
 **Reading**: Four colors = rank^2 = the square of the observation dimension.
 
