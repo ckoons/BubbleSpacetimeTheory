@@ -1,7 +1,90 @@
 # CI BOARD
 
 
-## ██ ROUND 92 — 2026-08-31 (Monday, late afternoon). ★★★ CASEY COMMISSIONS THE PROOF MACHINE — "packaging with teeth," ratified. Tomorrow: v0 on the board, with the Context Finiteness summit as its first formal field test.
+## ██ ROUND 94 — 2026-09-01, 12:06 EDT (Tuesday EOD, Casey's word). THE DAY CLOSES AT THE BASE OF THE FINAL PITCH: one derivation remains — STEP-EXISTENCE — measured 54/54 with the counterexample landscape emptied. Sundowns in; katra last.
+
+### THE POSITION AT CLOSE (tomorrow wakes here)
+**The four-color program's entire remaining mathematics is ONE derivation — Step-Existence:** in
+the canonical context, some family word strictly descends d_gate. Measured at 54/54 (J3 DISSOLVED
+— the lone residue was one vertex from freedom with 29 descending words; shallow-sample artifact;
+World A entire, no revision spent); the Two-Agreement Barrier confirmed at ZERO violations
+(1,027 collision sites + 73 rim exits, all in-cage); tranches 2+2b: zero kills on all 1,801
+unseen configurations. **Machinery assembled and verified:** One-Context (∀-side) · hybrid
+cascade + Barrier (properness-forced cage) · capture arithmetic (engine) · finite menu (186
+words / 93 orbits) · d_gate pinned with its honest +1. **Behind it:** the bridge-term's label ·
+Cal's closure read · the Full Induction Assembly on classical steps audited to ZERO CITATIONS
+(K1834 v0.3, Cal-confirmed whole). Measured-everywhere ≠ proved-for-all; the sentence stays
+unsaid; tomorrow derives.
+
+### THE DAY'S LEDGER (a selection; artifacts carry the whole)
+One-Context Lemma PROVED + escorted at 4,858/4,858 · registrations T2580–T2584+ (Middle-Strict,
+Orientation, Net-Support, Confinement, Forced-Excision; Excision-Avoidance + Barrier armed) ·
+the hybrid unification (four gaps in, one mechanism out) · the 185-class DISSOLVED into the
+alternation rule · two full blind-quarantine cycles validated (one honest refusal, one theorem —
+same procedure) · the two-observer gap hunt validated at the gap level (Cal's logic + Elie's
+census, same gap, same hour, independent) · World B-by-one dissolved by spending the compute ·
+five conductor-conjecture deaths, all pre-registered, all clean · FCW-015–019 (four killers +
+the dissolved candidate-J3) · 27 Elie toys today (~80 for the arc, zero faked results).
+
+### DOCTRINE HARVEST (now law): existence-check-precedes-derivation (3 firings) · arguments
+travel with their frames (3 desks) · restatement-vs-revision (Cal's governing sentence) ·
+refusals never cost more than misses · instrument-narrower-than-theorem joins the parochialism
+family · third doors get built because they get used · nothing clean enters the record
+pretending to be cleaner than it is.
+
+### TOMORROW: Lyra derives Step-Existence (assets: forced setting, finite menu, properness cage,
+one-line arithmetic, emptied counterexample landscape) · Elie escorts · Cal's queue: bridge-term,
+the derivation, then THE CLOSURE READ · then the Full Induction Assembly under full protocol.
+**On Casey's desk:** Class B naming · the external question (riper by an order of magnitude) ·
+the Proof Machine packaging track. Sweep record: closed, verified, two sets of eyes (Sunday/Monday).
+
+
+
+### THE MORNING'S LEDGER (lean crew: Casey · Keeper · Elie · Lyra)
+- **E1: Context Finiteness closed AT ONE** (1,822/1,822, zero splits, positive control). **E2:
+  the freeze biconditional went EXHAUSTIVE** (531,444 pinnings; true frozen family = 240; 240/240
+  both directions). **E3: freezing is hexagonal-geometry-specific** (ladder refuses in full;
+  chord mechanism visible).
+- **L1 — THE ONE-CONTEXT LEMMA, PROVED** (all sphere triangulations; zero census joints; five
+  inputs each audit-verified in K1832; Middle-Strict + Orientation registration owed).
+  **Keeper's fresh-eyes pre-read K1833: PASSES** — and finds NO third joint: **J1 + J2 are the
+  program's complete deductive residue.** Candidate Assembly protocol-compliant (March header,
+  no status line, no downstream sentence).
+- **★★★ F1 — THE BREADTH FALSIFIER: ZERO KILLS AT 4,858.** Sixteen holes, four scales, the
+  killers, flip-surgered octahedra — every stuck configuration presents the canonical context,
+  blind-hashed. Protocol Section 4, step 1: SATISFIED. Paid twice: **J1's true shape found** —
+  56 informative failures, all one shape: patch always small (size ≤ 8) but not always radius-2
+  (radius tracks surgery depth). "Bounded patch" survives; "radius-2" was home-disc
+  parochialism. **The correction arrived before a referee instead of after.**
+- **J1 REDUCED EXACTLY (Lyra):** two NEW PROVED lemmas — the **Net-Support Identity** (net
+  effect lives on two symmetric differences of the four acting chains) and the **Confinement
+  Lemma** (after move one, M's old-s_M bulk turns r and is invisible to the second chain — far
+  sides cannot participate; two lines of color bookkeeping). Only escape route = **the
+  conveyor** — and Sunday's D1 signature (2,2,4,4,6,6,6) turns out to be its coverage counts,
+  measured before anyone knew what they counted. Case space enumerated whole; **F2's counsel:
+  single-cut covers ~18% of realized overlaps (to size 19) and deep overlap does NOT drive
+  patch radius — the data favors a UNIFORM argument over a case ladder.**
+- **J2 REDUCED EXACTLY:** sweep-aiming parity with ONE gap — the finite list of freed link-words
+  adjacent to (0,1,0,2,3): **one page of link arithmetic, in progress.** And **F3: the clause
+  measured TRUE at 100%** (252/252 per-stuck; 63% per-application confirms the existence-form
+  quantifier). Lyra derives toward a measured truth.
+- **Casey's synthesis, banked to the thread:** the system is linear interior + (potentially)
+  non-linear boundary/continuum; census enters the proof ONLY for the non-linear residue — and
+  his conjecture: this is the observer-need in its own form, a 'transcendental' shift where
+  rationals cannot decide. (In-house instance already proved: the wall is not
+  low-order-computable — the verdict of record.)
+
+### NEXT (in order): Lyra's link-arithmetic hour (J2's gap) → J1 uniform argument with the
+size-bounded (not radius-2) statement → **CAL WAKES to the strongest object** (assembly + L1 +
+new lemmas + K1833 + the escort record) → Grace wakes to bank (registrations owed:
+Middle-Strict, Orientation, Net-Support, Confinement, + the day's numbers). **PRE-STAGED NOW
+(Keeper): even if both joints close and Cal passes, one document remains — the FULL INDUCTION
+ASSEMBLY (classical deg ≤ 4 steps + Insertion Theorem), and the classical Kempe steps we have
+taken for granted since 1879 get audited to K1832 standard before any final sentence exists.
+The last unaudited lemma in a chain is where programs die.** Language discipline unchanged: no
+next sentence, from anyone, until protocol completes.
+
+
 
 ### THE DIRECTIVE (Casey, verbatim substance, 2026-08-31)
 Automate the entire Millennium program into the same linear-algebra machine the 4-color arc built —
