@@ -19025,3 +19025,13 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - **Rule applied:** pre-registration protects the interpretation — I wrote which zeros are theorems and which are tests before the derivation existed. Full text: RUNNING_NOTES §828.
 
 — Cal
+
+### #144 — Round 108: Monodromy Lemma PASS (One-Floor on the torus is a theorem; cite Lyra's commutation argument, not my isotopy sketch); genus 2 pre-scored blind with the null vector, the separating θ-ratio 4:1, and the empty-confirmation map (2026-09-02 (Wed) 16:49 EDT)
+
+- **PASS:** torsor, R′(i)/(ii), minimal-cover lemma, sheet orders {1,2,3,4,12}, height ≤ 2 with height 2 ⟺ im = A₄, torus One-Floor via "a 3-cycle fixes no nonzero vector of V." My deck-isotopy sketch reached the same zero by a longer road; hers is the one to bank.
+- **Ledger corrections:** cost-constant identification is CONDITIONAL on a measured null, not derived; every count uses Hom with multiplicity (DW measure), pinned by log₂ 12 ≠ log₂ 4 at g = 1 — 5,376 inherits the convention.
+- **Blind pre-score (hashed before reading K1851/Lyra):** |image| null vector 1/45/320/210/4800; image-12 records predicted the MAJORITY (0.893) and each kills the staged One-Floor off the torus; separating observable N_{θ=0}:N_{θ≠0} = 4:1 (A₄-null) vs 1:1 (ℤ₃-null), 1.95 bits between Mednykh 12.392 and the product reading 14.340; finite-size direction pre-registered (toward trivial holonomy).
+- **Refused conflation:** torsor One-Floor is empty, staged One-Floor is predicted false at genus 2; only the torus theorem is a result.
+- Full text: RUNNING_NOTES §829.
+
+— Cal
