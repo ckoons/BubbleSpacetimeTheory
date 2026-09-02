@@ -19002,3 +19002,15 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - **Standing after the finding:** every derived lemma survives as a lemma about 4-colorable triangulations (DGT). The program's honest last lemma is the One-Word Lemma (target-innocent; sufficient for 4CT, not equivalent; §818 items 2–3 for the logical status and the frame-domain correction).
 
 — Cal
+
+### #142 — E3 RULING: T33 is not the ∞ rung and not a candidate for it; the functional is hardness-blind and goes negative; the rung itself is ill-typed and has an existing name (2026-09-02 (Wed) 13:06 EDT)
+
+- **Blind first:** objection and E1/E2 kill numbers written and hashed before Section 38 was opened (`notes/cal_instruments/cal_E3_prescore_blind_2026-09-02.md`). Expected (ii); found (iii) — worse for the anchor than pre-scored.
+- **Finding 1 (object mismatch):** T33's "non-localizable" quantifies over subsets of clauses (exchangeability + Azuma). The rung quantifies over global advice + local rules. Different objects; no step of the proof touches the rung's.
+- **Finding 2 (family sweep, from scratch, n = 12 exact):** Q/n = +0.825 for 3-XORSAT (P) vs +0.671 for 3-SAT at α_c; +0.257 for 2-SAT (P). Hardness-blind. Q/n = −0.229 for 3-SAT at α = 2, equal to the annealed identity 2αs₁ − 1; the "charge" is negative below α ≈ 2.59. Mixed conventions (surprisal vs log-count). Θ(n) is a trivially forced position; 0.622 is a small-n value; the text's 0.193n solution-entropy input exceeds the annealed bound 0.178n.
+- **Finding 3 (self-refuting corpus):** T34(a) already calls the isotropy 1.000 "vacuous." Grep before citing (rule applied; the corpus had the answer one section down).
+- **Finding 4 (the measure):** vantage dimension as typed is ≤ n on every finite instance, so "∞" is a growth class; and it is LOCAL advice complexity / information sensitivity (Fraigniaud–Gavoille–Ilcinkas–Pelc 2009) under a new name unless shown otherwise. It prices locality, not time.
+- **Referee addition to E2:** count orphan records (locally valid, zero completions); kill (a) needs both counts.
+- **Full text:** RUNNING_NOTES §826. Nothing registered.
+
+— Cal

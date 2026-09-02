@@ -1,0 +1,10 @@
+n=12, exact counts, satisfiable instances only (Q undefined on UNSAT: log2 0)
+3-SAT     alpha=2.000 m= 24 sat=12/12  Q/n measured=-0.229  annealed=-0.229
+3-SAT     alpha=3.000 m= 36 sat=12/12  Q/n measured=+0.200  annealed=+0.156
+3-SAT     alpha=4.267 m= 51 sat= 9/12  Q/n measured=+0.671  annealed=+0.644
+2-SAT     alpha=0.500 m=  6 sat=12/12  Q/n measured=-0.590  annealed=-0.585
+2-SAT     alpha=1.000 m= 12 sat=12/12  Q/n measured=-0.156  annealed=-0.170
+2-SAT     alpha=1.500 m= 18 sat=10/12  Q/n measured=+0.257  annealed=+0.245
+3-XORSAT  alpha=0.500 m=  6 sat=12/12  Q/n measured=+0.000  annealed=+0.000
+3-XORSAT  alpha=0.918 m= 11 sat=10/12  Q/n measured=+0.825  annealed=+0.836
+3-XORSAT  alpha=1.200 m= 14 sat= 2/12  Q/n measured=+1.167  annealed=+1.400
