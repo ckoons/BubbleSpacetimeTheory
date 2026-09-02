@@ -1,0 +1,23 @@
+# ROUND 108 — GENUS TWO: the decision cost is a character sum, the One-Floor witness, and the negative-defect lemma
+**2026-09-02 Wednesday, 16:43 EDT (clock). Keeper. Casey relays ~verbatim. Runs tonight only if Casey keeps the team past five; otherwise FIRST THING after tomorrow's paper gate (Cal's fresh read → Keeper K1852).**
+
+## 0. Where Conserved Knowledge Theory stands after Round 107 (all registered rows verified, K1851)
+T2598 Lemma R′ PROVED (Cal): on any closed orientable surface a realized record determines its coloring up to A₄; positive genus adds realizability in two stages. T2599–T2601: the count, the decision cost (log₂ 12 on one free generator; log₂ 48 predicted and trending for two), the tower (906/906 transport orphans at one floor; cocycle floors are instrument checks). Lyra's torsor: a closed record IS a flat A₄-torsor, Φ_r: π₁ → A₄, realized ⟺ trivial, sheets = |image|, and 6 is impossible. Cal's deck-isotopy sketch closes One-Floor on the torus if Lyra confirms. Elie 5632: the period lattice drops ONLY on fullerene duals (all degrees 5 or 6); one degree-≥7 vertex and it is full.
+
+## 1. The result of the evening, stated so it can be killed (K1851 §2)
+|Hom(π₁(Σ_g), A₄)| = 12^{2g−1}(3 + 3^{2−2g}) — Frobenius–Mednykh (Mednykh 1978; Klug arXiv 2106.11089). **g = 1: 48. g = 2: 5,376 (12.392 bits). g = 3: 749,568.** Under the equidistribution null (measured at g = 1), the decision cost on genus g is log₂ of that — a CHARACTER SUM of the operations group, the free energy of the A₄ Dijkgraaf–Witten theory on the surface. Casey's "loss of the other perspective" = the other flat structures, counted by the irreps of the group. That is the theory's first closed formula and its first prediction off the torus.
+
+## 2. Assignments — one owner each, pre-register before running
+**Lyra.** (a) Confirm or refute Cal's deck-isotopy sketch (a torus deck translation acts trivially on cohomology ⟹ the lifted labeling's V-class is ρ-invariant ⟹ zero) — if it holds, One-Floor is a TORUS THEOREM tonight and 906/906 becomes "predicted 0, measured 0." (b) State the genus-g cost prediction with its null as two separate claims. (c) The negative-defect lemma: *a vertex of degree ≥ 7 forces the height lift's period lattice to be all of 2ℤ²* — derive, or name the obstruction. Frames pinned; existence before derivation on (c).
+**Cal.** Referee One-Floor once Lyra posts. Pre-score genus 2 blind: the numbers that kill the Mednykh reading (a constant ≠ log₂ 5376 with equidistributed shares) vs the null (shares not equidistributed); the empty-confirmation map for the 12-sheet witness (what is guaranteed by construction, what is content). Position vs value: 5,376 is a position (a character sum), the finite-size D at n = 10 is a value.
+**Grace.** The genus-2 census: Lutz's 865 vertex-minimal 10-vertex triangulations (Hougardy–Lutz–Zelke arXiv math/0507592; pin the count to the source, not memory). Per 4-colorable triangulation, exhaustive over 2^24 records: (a) footprint closed / θ-clean / realized; (b) the distribution of |image Φ_r| over {1,2,3,4,12}; (c) the tower on every 12-image record (realized at 12 sheets; NOT at 3 or 4). Controls first: a torus through the same code must give image ⊆ {1,2,3,4}, never 12; a sphere must give image 1 only. Report counts, not verdicts; nothing registered before Cal.
+**Elie.** The 71 dropping colourings on the 9 fullerene duals: what distinguishes them from the full-lattice colourings on the SAME graph (the drop is a property of the colouring, not the graph — your sentence). Candidates to test blind: the colour pattern on the twelve degree-5 vertices (Lyra's centre classes N_c); the two-colour-class sizes; the dual's Kekulé structure. Report the discriminator with its control, or its absence. Nothing about n = 25.
+**Keeper.** Tomorrow first: the census-paper gate K1852 after Cal's fresh read; then the genus-2 pre-scores audited before Grace's numbers land.
+
+## 3. Standing rules (they caught six of mine today; keep them)
+Existence before derivation · pre-register, hash, then measure · positive control first · frames travel with arguments · quote the artifact's noun · no percentages, no "solved" · nothing registered before the referee · `date` before every stamp · NO EOD before Casey's word.
+
+## 4. Casey's desk
+Whether tonight runs or waits for the paper gate · the two posits behind f = 3/(5π) as the first MACHINE cell (K1847-A1), on your word · the twelfth-cycle question: the structural 12 (Euler, 6χ) now has its sentence; whether the cosmological n* ≈ 12 is a curvature sum is yours to ask · the external question on the census paper after tomorrow's gate.
+
+— Keeper
