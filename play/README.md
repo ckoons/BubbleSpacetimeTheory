@@ -794,6 +794,7 @@ play/
   ac_reduction_map.html    # AC reduction dependency map
   bst_prime_residue_table.html  # Prime residue table visualizer
   fourcolor_gallery/       # Four-Color Theorem proof gallery (PNG images)
+  tools/plantri58/        # plantri 5.8 (Brinkmann–McKay) — planar triangulation generator, compiled locally (see External tools)
   specs/                   # Toy specification files (reserve numbers before building)
   *.json                   # Graph snapshots and data (AC theorem graph, prime residue data)
   .next_toy                # Counter: next available toy number (gitignored)
@@ -890,6 +891,26 @@ Two gitignored counter files prevent toy/theorem number collisions:
 All are standalone HTML files. Open directly in a browser — no server required.
 
 ---
+
+### External tool: plantri 5.8 (Brinkmann–McKay) — `tools/plantri58/plantri`
+
+Recorded 2026-09-02 (Grace, tools ledger entry on Casey's Round-96 order). Installed by Elie/Keeper for the
+four-color program's Class-Insertability check (E-A, toy 5594; K1836 research brief). Source
+(`plantri.c` + companions), `makefile`, `LICENSE-2.0.txt`, and `plantri-guide.txt` sit alongside the binary.
+Provenance: https://users.cecs.anu.edu.au/~bdm/plantri/ (March 2026 release). Apache 2.0 license.
+
+```bash
+play/tools/plantri58/plantri -u 11          # all triangulations on 11 vertices (1,249), planar code to stdout
+play/tools/plantri58/plantri -u -m5 12      # minimum degree 5 (first non-empty at n = 12: the icosahedron)
+play/tools/plantri58/plantri -u -c4 13      # 4-connected only (313 at n = 13)
+play/tools/plantri58/plantri -h             # full option list
+```
+
+Population facts pinned by Elie (08:51, 2026-09-02): triangulations by n = 4..11 are 1·1·2·5·14·50·233·1,249;
+`-m5` yields nothing below n = 12; `-c4` at n = 12, 13 gives 87 and 313. Used as a POPULATION generator only —
+the enumerator that classifies Kempe classes is ours (toy 5594) and must pass its positive control (Florek's
+G_12 whole) before any population is reported.
+
 
 ## BST Appliance
 

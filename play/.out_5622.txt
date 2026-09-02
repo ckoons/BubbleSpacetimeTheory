@@ -1,0 +1,42 @@
+======================================================================
+Toy 5622 — T1 Kempe's two plain swaps on the 349; T2 the 90
+======================================================================
+
+  T1 — two PLAIN swaps on the 349 (pair, order → outcome):
+    zeta  then eta  : direct   1  gate   1  stuck 347  2nd-illegal   0
+    eta   then zeta : direct   1  gate   1  stuck 347  2nd-illegal   0
+    delta then gamma: direct   0  gate   0  stuck 349  2nd-illegal   0
+    gamma then delta: direct   0  gate   0  stuck 349  2nd-illegal   0
+    zeta  then gamma: direct   0  gate   0  stuck   0  2nd-illegal 349
+    gamma then zeta : direct   0  gate   0  stuck   0  2nd-illegal 349
+    delta then eta  : direct   0  gate   0  stuck   0  2nd-illegal 349
+    eta   then delta: direct   0  gate   0  stuck   0  2nd-illegal 349
+  [20s]
+
+  T2 — far-bit-off bridge-fail configurations regenerated: 90 (5620: 90)  [337s]
+  exit-set sizes: min 2 median 8 max 18; empty 0
+  words in EVERY exit set: 0 -> []
+  per-orbit exit counts (of 90):
+     84  (('n_sM', ('s_M', 's_i')), ('n_sj', ('s_M', 's_j')))
+     72  (('B1', ('r', 's_M')), ('n_sj', ('r', 's_j')))
+     66  (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))
+     64  (('B1', ('r', 's_j')), ('B2', ('r', 's_M')))
+     64  (('B1', ('r', 's_i')), ('B2', ('r', 's_M')))
+     49  (('n_si', ('s_i', 's_j')), ('B2', ('r', 's_i')))
+     49  (('n_si', ('s_i', 's_j')), ('n_sM', ('s_M', 's_i')))
+     46  (('n_si', ('r', 's_i')), ('n_sM', ('s_M', 's_i')))
+     40  (('n_si', ('r', 's_i')), ('B2', ('r', 's_M')))
+     33  (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))
+     27  (('B1', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))
+     19  (('n_si', ('s_M', 's_i')), ('B1', ('r', 's_i')))
+     19  (('n_si', ('s_i', 's_j')), ('n_sM', ('s_M', 's_j')))
+     16  (('n_si', ('s_i', 's_j')), ('B1', ('r', 's_i')))
+     14  (('B1', ('r', 's_M')), ('n_si', ('r', 's_i')))
+     11  (('B1', ('r', 's_j')), ('n_sj', ('s_M', 's_j')))
+     10  (('n_si', ('r', 's_i')), ('B1', ('r', 's_M')))
+      6  (('B1', ('r', 's_M')), ('n_si', ('s_M', 's_i')))
+      1  (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_M')))
+  MIN HITTING SET word-level 4 (exact): [(('n_sM', ('s_M', 's_i')), ('n_sj', ('s_M', 's_j'))), (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i'))), (('B1', ('r', 's_j')), ('B2', ('r', 's_M'))), (('B1', ('r', 's_M')), ('n_si', ('r', 's_i')))]
+  MIN HITTING SET orbit-level 3 (exact): ["(('n_sM', ('s_M', 's_i')), ('n_sj', ('s_M', 's_j')))", "(('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))", "(('n_si', ('s_M', 's_i')), ('B1', ('r', 's_i')))"]
+  far-bit patterns of the 90: {(False, False, False, False, True): 4, (True, False, True, False, False): 11, (False, True, False, True, True): 9, (True, False, True, True, False): 1, (False, True, True, True, False): 1, (False, True, False, True, False): 4, (True, True, False, False, True): 25, (True, False, False, False, True): 8, (True, False, True, False, True): 16, (False, False, False, False, False): 1, (False, True, False, False, False): 1, (False, False, False, True, True): 1, (True, True, True, False, True): 3, (True, False, True, True, True): 1, (False, True, False, False, True): 3, (True, True, False, True, True): 1}
+  [337s]

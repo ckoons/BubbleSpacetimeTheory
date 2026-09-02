@@ -1,0 +1,151 @@
+========================================================================
+Toy 5609 — Grace — cut anatomy + H_cut as rank + T2594 grade: 93 witnesses vs matched
+========================================================================
+  FCW-029 n=17 gi=0 v=4: |C|=2 sep=True T259  (B) bridge-fail set regenerated: 1211 (5608: 1,211)  [317s]
+
+  === (A) THE 93: 93 configurations; cross-tab hashed 080e821da95b4c74
+  kappa = |C| distribution: {2: 3, 3: 12, 4: 10, 5: 31, 6: 23, 7: 9, 8: 5}
+  W_legal / Im / W_acting per configuration — medians: 24 / 7 / 24; ranges W_legal 19-24, Im 7-13
+  CROSS-TAB containment × exit (first-word instances): 
+    FULL    : EXIT-1 0, EXIT-B 8, EXIT-ANY 80, NO-EXIT 284
+    PARTIAL : EXIT-1 0, EXIT-B 1790, EXIT-ANY 42, NO-EXIT 0
+    NONE    : EXIT-1 0, EXIT-B 14, EXIT-ANY 2, NO-EXIT 0
+    C-empty : EXIT-1 0, EXIT-B 0, EXIT-ANY 0, NO-EXIT 0
+  kappa(M·c) for exiting first words (EXIT-1/EXIT-B): {1: 80, 2: 30, 3: 146, 4: 398, 5: 408, 6: 372, 7: 239, 8: 79, 9: 40, 10: 20}
+  per-orbit (orbit: FULL-exitB / PARTIAL-exitB / NONE-exitB / FULL-noexit / PARTIAL-noexit / NONE-noexit):
+    (('B1', ('r', 's_i')), ('B2', ('r', 's_M')))                              0  180    2 |    0    0    0
+    (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                        0  179    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('n_sM', ('s_M', 's_i')))                        0  178    0 |    0    0    0
+    (('B1', ('r', 's_j')), ('B2', ('r', 's_M')))                              0  170   12 |    0    0    0
+    (('B1', ('r', 's_j')), ('n_sj', ('s_M', 's_j')))                          0  152    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B2', ('r', 's_M')))                            0  152    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_M')))                          0  152    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))                          0  150    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))                          0  149    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('r', 's_j')))                            0  148    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_si', ('r', 's_i')))                            0   30    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                          0   30    0 |    0    0    0
+    (('B1', ('r', 's_i')), ('n_si', ('s_M', 's_i')))                          0   30    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B1', ('r', 's_M')))                            0   30    0 |    0    0    0
+
+  === (B) THE BRIDGE-FAIL SET: 1211 configurations; cross-tab hashed 4322abbdbbc27123
+  kappa = |C| distribution: {1: 52, 2: 63, 3: 152, 4: 215, 5: 350, 6: 171, 7: 154, 8: 49, 9: 5}
+  W_legal / Im / W_acting per configuration — medians: 19 / 10 / 19; ranges W_legal 10-28, Im 6-15
+  CROSS-TAB containment × exit (first-word instances): 
+    FULL    : EXIT-1 917, EXIT-B 355, EXIT-ANY 4186, NO-EXIT 192
+    PARTIAL : EXIT-1 6823, EXIT-B 9396, EXIT-ANY 649, NO-EXIT 0
+    NONE    : EXIT-1 758, EXIT-B 255, EXIT-ANY 51, NO-EXIT 0
+    C-empty : EXIT-1 0, EXIT-B 0, EXIT-ANY 0, NO-EXIT 0
+  kappa(M·c) for exiting first words (EXIT-1/EXIT-B): {0: 1146, 1: 2722, 2: 1543, 3: 1815, 4: 2212, 5: 2034, 6: 1550, 7: 721, 8: 496, 9: 234, 10: 89, 11: 20}
+  per-orbit (orbit: FULL-exitB / PARTIAL-exitB / NONE-exitB / FULL-noexit / PARTIAL-noexit / NONE-noexit):
+    (('B1', ('r', 's_j')), ('B2', ('r', 's_M')))                             36 1102  157 |    0    0    0
+    (('B1', ('r', 's_i')), ('B2', ('r', 's_M')))                             16 1097   58 |    0    0    0
+    (('n_si', ('r', 's_i')), ('n_sM', ('s_M', 's_i')))                        2 1038    4 |    0    0    0
+    (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                        5 1021    6 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B2', ('r', 's_M')))                            1  833   12 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))                          2  790    4 |    0    0    0
+    (('B1', ('r', 's_j')), ('n_sj', ('s_M', 's_j')))                          1  789    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_M')))                          1  718    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))                          7  515    6 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('r', 's_j')))                            1  320    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B1', ('r', 's_M')))                            2  235    4 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                          3  231    2 |    0    0    0
+    (('B1', ('r', 's_i')), ('n_si', ('s_M', 's_i')))                          0  227    0 |    0    0    0
+    (('B1', ('r', 's_i')), ('B2', ('r', 's_j')))                            207    4    1 |   96    0    0
+
+  (C) matched depth-1 sample kappa distribution: {1: 14, 2: 8, 3: 7, 4: 13, 5: 20, 6: 18, 7: 6, 8: 5, 9: 2} (vs the 93: {2: 3, 3: 12, 4: 10, 5: 31, 6: 23, 7: 9, 8: 5})
+
+  [340s]
+ sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [5s]
+  FCW-062 n=22 gi=92 v=17: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [5s]
+  FCW-063 n=22 gi=93 v=17: |C|=1 sep=True T2594 8/8 hcut={'all|noexit': 42, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [5s]
+  FCW-064 n=22 gi=95 v=14: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [5s]
+  FCW-065 n=22 gi=95 v=14: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 8, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8, 'any|exit': 2} | matched after 2 [5s]
+  FCW-066 n=22 gi=146 v=8: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 9, 'none|exit': 1} | matched after 1 [6s]
+  FCW-067 n=22 gi=178 v=19: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 12, 'all|noexit': 30, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [6s]
+  FCW-068 n=22 gi=278 v=16: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 1 [6s]
+  FCW-069 n=22 gi=313 v=6: |C|=4 sep=True T2594 8/8 hcut={'any|exit': 6, 'all|noexit': 20, 'all|exit': 4, 'any|noexit': 12, 'none|exit': 10, 'none|noexit': 8} | matched after 5 [6s]
+  FCW-070 n=22 gi=313 v=6: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|noexit': 17, 'none|exit': 1} | matched after 3 [6s]
+  FCW-071 n=22 gi=498 v=18: |C|=4 sep=True T2594 8/8 hcut={'any|exit': 6, 'all|noexit': 20, 'all|exit': 4, 'any|noexit': 12, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [6s]
+  FCW-072 n=22 gi=498 v=18: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [7s]
+  FCW-073 n=22 gi=548 v=21: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 6, 'any|exit': 4, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 4 [7s]
+  FCW-074 n=22 gi=600 v=8: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 4 [7s]
+  FCW-075 n=22 gi=603 v=19: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 24, 'any|noexit': 16, 'any|exit': 10} | matched after 6 [7s]
+  FCW-076 n=22 gi=603 v=19: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [7s]
+  FCW-077 n=22 gi=626 v=6: |C|=2 sep=True T2594 8/8 hcut={'all|noexit': 32, 'all|exit': 6, 'none|exit': 9, 'none|noexit': 8} | matched after 1 [7s]
+  FCW-078 n=23 gi=13 v=4: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 6 [8s]
+  FCW-079 n=23 gi=13 v=22: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 7 [8s]
+  FCW-080 n=23 gi=174 v=20: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [8s]
+  FCW-081 n=23 gi=212 v=13: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [8s]
+  FCW-082 n=23 gi=241 v=22: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 1 [8s]
+  FCW-083 n=23 gi=359 v=21: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 9 [8s]
+  FCW-084 n=23 gi=359 v=21: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [9s]
+  FCW-085 n=23 gi=390 v=15: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 5 [9s]
+  FCW-086 n=23 gi=390 v=15: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [9s]
+  FCW-087 n=23 gi=429 v=16: |C|=5 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [9s]
+  FCW-088 n=23 gi=429 v=16: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [9s]
+  FCW-089 n=23 gi=440 v=0: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 4 [9s]
+  FCW-090 n=23 gi=440 v=0: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 9, 'none|exit': 1} | matched after 2 [10s]
+  FCW-091 n=23 gi=440 v=12: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 10 [10s]
+  FCW-092 n=23 gi=440 v=12: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [10s]
+  FCW-093 n=23 gi=440 v=14: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 1 [10s]
+  FCW-094 n=23 gi=440 v=14: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 4 [10s]
+  FCW-095 n=23 gi=460 v=12: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [11s]
+  FCW-096 n=23 gi=460 v=12: |C|=5 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [11s]
+  FCW-097 n=23 gi=847 v=10: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [11s]
+  FCW-098 n=23 gi=944 v=13: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 9, 'none|exit': 1} | matched after 5 [11s]
+  FCW-099 n=23 gi=1002 v=10: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 1 [11s]
+  FCW-100 n=23 gi=1022 v=11: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [11s]
+  FCW-101 n=23 gi=1054 v=3: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 9 [12s]
+  FCW-102 n=23 gi=1054 v=20: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [12s]
+  FCW-103 n=23 gi=1089 v=2: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 6 [12s]
+  FCW-104 n=23 gi=1089 v=2: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [12s]
+  FCW-105 n=23 gi=1097 v=17: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 9, 'none|exit': 1} | matched after 3 [12s]
+  FCW-106 n=23 gi=1097 v=21: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [12s]
+  FCW-107 n=23 gi=1098 v=5: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 3 [13s]
+  FCW-108 n=23 gi=1098 v=5: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 2 [13s]
+  FCW-109 n=23 gi=1098 v=21: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 20, 'any|noexit': 20, 'any|exit': 10} | matched after 4 [13s]
+  FCW-110 n=23 gi=1098 v=21: |C|=1 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 10 [13s]
+  FCW-111 n=23 gi=1269 v=12: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 24, 'any|noexit': 16, 'any|exit': 10} | matched after 7 [13s]
+  FCW-112 n=23 gi=1269 v=12: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 24, 'any|noexit': 16, 'any|exit': 10} | matched after 1 [13s]
+  FCW-113 n=23 gi=1282 v=21: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [14s]
+  FCW-114 n=23 gi=1282 v=21: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [14s]
+  FCW-115 n=23 gi=1282 v=21: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [14s]
+  FCW-116 n=23 gi=1282 v=21: |C|=3 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [14s]
+  FCW-117 n=23 gi=1609 v=16: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [14s]
+  FCW-118 n=23 gi=1609 v=16: |C|=4 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 32, 'none|exit': 10, 'none|noexit': 8} | matched after 3 [14s]
+  FCW-119 n=23 gi=1654 v=12: |C|=3 sep=True T2594 8/8 hcut={'all|noexit': 42, 'none|exit': 8, 'none|noexit': 8} | matched after 2 [15s]
+  FCW-120 n=23 gi=1654 v=21: |C|=2 sep=True T2594 8/8 hcut={'any|exit': 6, 'all|noexit': 20, 'all|exit': 4, 'any|noexit': 12, 'none|exit': 10, 'none|noexit': 8} | matched after 1 [15s]
+  FCW-121 n=23 gi=1846 v=7: |C|=2 sep=True T2594 8/8 hcut={'all|exit': 10, 'all|noexit': 22, 'any|noexit': 16, 'any|exit': 12} | matched after 2 [15s]
+
+  records hashed BEFORE counts: sha256 4ae9c46a4c3f50ef7bc2ac888c1169f9…  matched 93/93
+
+[POSITIVE CONTROL] T2594 ΔD′ = −2·S_X on every legal stage: 1488/1488
+[CUT AS RANK] witnesses: C separates near from far inside X3: 93/93; ker(X3)={1: 93}; ker(X3−C)={3: 31, 4: 35, 2: 10, 5: 15, 6: 2}
+              matched:   C separates: 67/93; |C|=0 on 9/93
+[H_cut cross-tab, witnesses — (containment of C by the first word's chains | image exits by a bridge word)]: {'all|exit': 841, 'all|noexit': 2716, 'none|exit': 716, 'none|noexit': 631, 'any|noexit': 442, 'any|exit': 222}
+[H_cut cross-tab, matched]: {'all|exit': 2035, 'any|exit': 817, 'none|exit': 703, 'all|noexit': 1232, 'any|noexit': 138, 'none|noexit': 298}
+[κ after an exiting first word, witnesses]: {2: 592, 1: 887, 3: 183, 4: 55, 0: 62}
+
+  SEPARATION TABLE (feature | witness values | matched values | witnesses outside matched range | matched outside witness range | best split)
+  C_size             | W {1: 18, 2: 27, 3: 32, 4: 14, 5: 2} | M {0: 9, 1: 32, 2: 24, 3: 13, 4: 7, 5: 5, 6: 3} | 0/93 | 12/93 | 116/186
+  C_dist_link        | W {1: 93} | M {0: 13, 1: 70, 2: 1} | 0/93 | 14/84 | 106/177
+  C_on_link          | W {0: 93} | M {0: 80, 1: 13} | 0/93 | 13/93 | 106/186
+  C_dist_deg5        | W {0: 74, 1: 19} | M {0: 60, 1: 24} | 0/93 | 0/84 | 98/177
+  C_saddles          | W {0: 19, 1: 63, 2: 11} | M {0: 47, 1: 41, 2: 5} | 0/93 | 0/93 | 121/186
+  C_saddle_unknown   | W {0: 93} | M {0: 80, 1: 13} | 0/93 | 13/93 | 106/186
+  X3                 | W {8: 10, 9: 3, 10: 37, 11: 20, 12: 23} | M {6: 5, 8: 18, 9: 13, 10: 25, 11: 26, 12: 6} | 0/93 | 5/93 | 116/186
+  X4                 | W {2: 16, 3: 3, 4: 24, 5: 6, 6: 21, 7: 10, 8: 4, 9: 9} | M {1: 8, 2: 25, 3: 7, 4: 18, 5: 5, 6: 8, 7: 5, 8: 3, 9: 4, 10: 3, 11: 4, 12: 3} | 0/93 | 18/93 | 114/186
+  Dprime             | W {-19: 3, -15: 2, -13: 2, -11: 8, -9: 4, -7: 6, -5: 7, -3: 9, -1: 8, 1: 8, 3: 6, 5: 3, 7: 17, 9: 3, 11: 5, 13: 1, 15: 1} | M {-23: 1, -21: 1, -19: 2, -15: 4, -13: 6, -11: 2, -9: 5, -7: 9, -5: 6, -3: 9, -1: 8, 1: 8, 3: 9, 5: 7, 7: 4, 9: 2, 11: 3, 13: 3, 17: 2, 19: 2} | 0/93 | 6/93 | 104/186
+  Dprime_mod12       | W {1: 17, 3: 11, 5: 12, 7: 24, 9: 14, 11: 15} | M {1: 14, 3: 15, 5: 20, 7: 12, 9: 15, 11: 17} | 0/93 | 0/93 | 102/186
+  odd_T              | W {12: 8, 14: 13, 16: 47, 18: 15, 20: 10} | M {12: 8, 14: 13, 16: 47, 18: 15, 20: 10} | 0/93 | 0/93 | 93/186
+  odd_Tv             | W {8: 4, 10: 3, 12: 26, 14: 27, 16: 26, 18: 3, 20: 4} | M {8: 4, 10: 3, 12: 26, 14: 27, 16: 26, 18: 3, 20: 4} | 0/93 | 0/93 | 93/186
+  odd_d1             | W {1: 2, 2: 30, 3: 28, 4: 26, 5: 7} | M {1: 2, 2: 30, 3: 28, 4: 26, 5: 7} | 0/93 | 0/93 | 93/186
+  odd_d2             | W {6: 7, 7: 14, 8: 23, 9: 16, 10: 17, 11: 3, 12: 9, 13: 2, 14: 2} | M {6: 7, 7: 14, 8: 23, 9: 16, 10: 17, 11: 3, 12: 9, 13: 2, 14: 2} | 0/93 | 0/93 | 93/186
+  fence.fence_len    | W {5: 37, 7: 26, 9: 26, 11: 4} | M {5: 46, 7: 37, 9: 9, 11: 1} | 0/93 | 0/93 | 113/186
+  fence.region_near  | W {2: 28, 3: 4, 4: 16, 5: 12, 6: 10, 7: 6, 8: 3, 9: 8, 10: 3, 12: 1, 13: 1, 14: 1} | M {2: 22, 3: 6, 4: 18, 5: 9, 6: 6, 7: 6, 8: 3, 9: 2, 10: 3, 11: 3, 12: 3, 13: 6, 14: 6} | 0/93 | 0/93 | 108/186
+  fence.region_far   | W {2: 3, 3: 6, 4: 15, 5: 8, 6: 9, 7: 2, 8: 13, 9: 6, 10: 5, 11: 3, 12: 4, 13: 5, 14: 14} | M {2: 14, 3: 5, 4: 11, 5: 6, 6: 4, 7: 4, 8: 9, 9: 8, 10: 8, 11: 1, 12: 6, 13: 9, 14: 8} | 0/93 | 0/93 | 104/186
+  images             | W {8: 48, 9: 22, 10: 10, 11: 7, 13: 4, 14: 2} | M {8: 4, 9: 4, 10: 17, 11: 10, 12: 15, 13: 20, 14: 9, 15: 6, 16: 4, 17: 2, 18: 2} | 0/93 | 14/93 | 155/186
+  cut-vertex winding (witnesses, all cut vertices): {-1: 84, 0: 85, 1: 62, -2: 1, 2: 2}; matched: {-1: 65, 1: 55, 0: 51, None: 13, -2: 4, 2: 2}
+
+  written .out_5609.json [15s]

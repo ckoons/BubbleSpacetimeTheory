@@ -1,0 +1,22 @@
+c0 colour of cut vertices (per bridge word, over the 349): {('i', 'r'): 65, ('i', 's_i'): 806, ('j', 'r'): 43, ('j', 's_j'): 596}
+bridge-word | c0-colour | Za/Zb cell | final colour : count
+  W_i  r    Za∖Zb   -> s_M  : 2
+  W_i  r    Za∩Zb   -> r    : 68
+  W_i  r    ¬Za∩Zb  -> s_M  : 156
+  W_i  s_i  Za∖Zb   -> r    : 74
+  W_i  s_i  Za∖Zb   -> s_M  : 86
+  W_i  s_i  Za∩Zb   -> r    : 667
+  W_i  s_i  Za∩Zb   -> s_M  : 582
+  W_i  s_i  ¬Za∩Zb  -> r    : 84
+  W_i  s_i  ¬Za∩Zb  -> s_M  : 1026
+  W_j  r    Za∖Zb   -> s_M  : 3
+  W_j  r    Za∖Zb   -> s_j  : 3
+  W_j  r    Za∩Zb   -> r    : 59
+  W_j  r    Za∩Zb   -> s_j  : 1
+  W_j  r    ¬Za∩Zb  -> s_M  : 60
+  W_j  s_j  Za∖Zb   -> r    : 23
+  W_j  s_j  Za∖Zb   -> s_M  : 99
+  W_j  s_j  Za∩Zb   -> r    : 458
+  W_j  s_j  Za∩Zb   -> s_M  : 136
+  W_j  s_j  ¬Za∩Zb  -> r    : 400
+  W_j  s_j  ¬Za∩Zb  -> s_M  : 416

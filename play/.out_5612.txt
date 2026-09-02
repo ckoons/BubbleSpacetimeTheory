@@ -1,0 +1,70 @@
+======================================================================
+Toy 5612 — Lane E: Casey's amoeba, existence check
+======================================================================
+
+  CONTROL: pinned link 5-cycle on T-v; extension-free (FROZEN) pinnings must FAIL
+    trivial disc N[v] (link pinned): {('FROZEN', 'fail:pinned-block'): 8, ('extendable', 'success'): 4}
+    T-v pinnings: {('extendable', 'amoeba-fail:improper-at-end'): 19325, ('extendable', 'amoeba-success'): 26921, ('extendable', 'amoeba-fail:cascade-cap'): 4832, ('FROZEN', 'amoeba-fail:cascade-cap'): 4332, ('FROZEN', 'amoeba-fail:pinned-block'): 4230}
+    [PASS] control: FROZEN pinnings found 8570, amoeba succeeded on 0 (must be 0, with n_frozen > 0); extendable pinnings solved by the amoeba: 26921/51078  [12s]
+
+  POPULATION: all triangulations
+    n=6: graphs 2, runs 16, success 16, FAIL 0, max-depth histogram {0: 16}, recolorings/run 0.00, cascades/run 0.00  [12s]
+    n=7: graphs 5, runs 50, success 39, FAIL 11, max-depth histogram {0: 45, 1: 4, 2: 1}, recolorings/run 31.14, cascades/run 0.30  [12s]
+      fail: (7, 0, (0, 1, 2), 'cascade-cap')
+      fail: (7, 0, (0, 1, 6), 'cascade-cap')
+      fail: (7, 0, (0, 2, 3), 'cascade-cap')
+    n=8: graphs 14, runs 168, success 132, FAIL 36, max-depth histogram {0: 143, 1: 15, 2: 10}, recolorings/run 34.67, cascades/run 0.32  [12s]
+      fail: (8, 0, (0, 4, 5), 'cascade-cap')
+      fail: (8, 0, (0, 6, 7), 'cascade-cap')
+      fail: (8, 1, (0, 2, 3), 'cascade-cap')
+    n=9: graphs 50, runs 700, success 512, FAIL 188, max-depth histogram {0: 509, 1: 99, 2: 90, 3: 2}, recolorings/run 48.84, cascades/run 0.42  [12s]
+      fail: (9, 0, (0, 1, 8), 'cascade-cap')
+      fail: (9, 0, (0, 2, 3), 'cascade-cap')
+      fail: (9, 0, (0, 5, 6), 'cascade-cap')
+    n=10: graphs 233, runs 1398, success 920, FAIL 478, max-depth histogram {0: 887, 1: 323, 2: 185, 3: 3}, recolorings/run 68.95, cascades/run 0.47  [13s]
+      fail: (10, 0, (0, 1, 8), 'cascade-cap')
+      fail: (10, 0, (0, 2, 3), 'cascade-cap')
+      fail: (10, 0, (0, 5, 6), 'cascade-cap')
+    n=11: graphs 1249, runs 7494, success 4648, FAIL 2846, max-depth histogram {0: 4340, 1: 1902, 2: 1222, 3: 30}, recolorings/run 84.19, cascades/run 0.53  [16s]
+      fail: (11, 0, (0, 2, 3), 'cascade-cap')
+      fail: (11, 0, (0, 5, 6), 'cascade-cap')
+      fail: (11, 1, (0, 1, 8), 'cascade-cap')
+
+  POPULATION: 5-connected
+    n=12: graphs 1, runs 6, success 4, FAIL 2, max-depth histogram {0: 6}, recolorings/run 80.33, cascades/run 0.33  [16s]
+      fail: (12, 0, (0, 1, 5), 'cascade-cap')
+      fail: (12, 0, (0, 2, 3), 'cascade-cap')
+    n=13: graphs 0, runs 0, success 0, FAIL 0, max-depth histogram {}, recolorings/run 0.00, cascades/run 0.00  [16s]
+    n=14: graphs 1, runs 6, success 3, FAIL 3, max-depth histogram {0: 6}, recolorings/run 140.67, cascades/run 0.67  [16s]
+      fail: (14, 0, (0, 1, 2), 'cascade-cap')
+      fail: (14, 0, (0, 3, 4), 'cascade-cap')
+      fail: (14, 0, (0, 4, 5), 'cascade-cap')
+    n=15: graphs 1, runs 6, success 6, FAIL 0, max-depth histogram {0: 6}, recolorings/run 0.00, cascades/run 0.00  [16s]
+    n=16: graphs 3, runs 18, success 9, FAIL 9, max-depth histogram {0: 12, 1: 1, 2: 5}, recolorings/run 161.22, cascades/run 0.83  [17s]
+      fail: (16, 0, (0, 2, 3), 'cascade-cap')
+      fail: (16, 0, (0, 3, 4), 'cascade-cap')
+      fail: (16, 0, (0, 4, 5), 'cascade-cap')
+    n=17: graphs 4, runs 24, success 7, FAIL 17, max-depth histogram {0: 12, 1: 6, 2: 6}, recolorings/run 242.08, cascades/run 1.04  [17s]
+      fail: (17, 0, (0, 1, 2), 'cascade-cap')
+      fail: (17, 0, (0, 1, 5), 'cascade-cap')
+      fail: (17, 0, (0, 3, 4), 'cascade-cap')
+    n=18: graphs 12, runs 72, success 35, FAIL 37, max-depth histogram {0: 44, 1: 16, 2: 12}, recolorings/run 186.06, cascades/run 0.89  [17s]
+      fail: (18, 0, (0, 3, 4), 'cascade-cap')
+      fail: (18, 1, (0, 1, 2), 'cascade-cap')
+      fail: (18, 1, (0, 2, 3), 'cascade-cap')
+    n=19: graphs 23, runs 138, success 51, FAIL 87, max-depth histogram {0: 72, 1: 32, 2: 33, 3: 1}, recolorings/run 240.70, cascades/run 0.96  [17s]
+      fail: (19, 0, (0, 1, 5), 'cascade-cap')
+      fail: (19, 0, (0, 4, 5), 'cascade-cap')
+      fail: (19, 1, (0, 1, 2), 'cascade-cap')
+    n=20: graphs 71, runs 426, success 177, FAIL 249, max-depth histogram {0: 220, 1: 105, 2: 99, 3: 1, 4: 1}, recolorings/run 234.90, cascades/run 0.92  [17s]
+      fail: (20, 0, (0, 1, 2), 'cascade-cap')
+      fail: (20, 0, (0, 1, 5), 'cascade-cap')
+      fail: (20, 0, (0, 2, 3), 'cascade-cap')
+    n=21: graphs 187, runs 1122, success 467, FAIL 655, max-depth histogram {0: 432, 1: 338, 2: 343, 3: 9}, recolorings/run 246.45, cascades/run 1.01  [19s]
+      fail: (21, 0, (0, 1, 2), 'cascade-cap')
+      fail: (21, 0, (0, 3, 4), 'cascade-cap')
+      fail: (21, 0, (0, 4, 5), 'cascade-cap')
+    n=22: graphs 627, runs 3762, success 1490, FAIL 2272, max-depth histogram {0: 1494, 1: 1086, 2: 1126, 3: 51, 4: 5}, recolorings/run 267.10, cascades/run 1.08  [26s]
+      fail: (22, 0, (0, 1, 2), 'cascade-cap')
+      fail: (22, 0, (0, 2, 3), 'cascade-cap')
+      fail: (22, 1, (0, 1, 2), 'cascade-cap')

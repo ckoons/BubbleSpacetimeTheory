@@ -1,0 +1,54 @@
+Toy 5611 — H_cut (Elie) — extracted from the shared .out_5609.txt (Grace's 5609 wrote the same file)
+  === (A) THE 93: 93 configurations; cross-tab hashed 080e821da95b4c74
+  kappa = |C| distribution: {2: 3, 3: 12, 4: 10, 5: 31, 6: 23, 7: 9, 8: 5}
+  W_legal / Im / W_acting per configuration — medians: 24 / 7 / 24; ranges W_legal 19-24, Im 7-13
+  CROSS-TAB containment × exit (first-word instances): 
+    FULL    : EXIT-1 0, EXIT-B 8, EXIT-ANY 80, NO-EXIT 284
+    PARTIAL : EXIT-1 0, EXIT-B 1790, EXIT-ANY 42, NO-EXIT 0
+    NONE    : EXIT-1 0, EXIT-B 14, EXIT-ANY 2, NO-EXIT 0
+    C-empty : EXIT-1 0, EXIT-B 0, EXIT-ANY 0, NO-EXIT 0
+  kappa(M·c) for exiting first words (EXIT-1/EXIT-B): {1: 80, 2: 30, 3: 146, 4: 398, 5: 408, 6: 372, 7: 239, 8: 79, 9: 40, 10: 20}
+  per-orbit (orbit: FULL-exitB / PARTIAL-exitB / NONE-exitB / FULL-noexit / PARTIAL-noexit / NONE-noexit):
+    (('B1', ('r', 's_i')), ('B2', ('r', 's_M')))                              0  180    2 |    0    0    0
+    (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                        0  179    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('n_sM', ('s_M', 's_i')))                        0  178    0 |    0    0    0
+    (('B1', ('r', 's_j')), ('B2', ('r', 's_M')))                              0  170   12 |    0    0    0
+    (('B1', ('r', 's_j')), ('n_sj', ('s_M', 's_j')))                          0  152    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B2', ('r', 's_M')))                            0  152    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_M')))                          0  152    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))                          0  150    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))                          0  149    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('r', 's_j')))                            0  148    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_si', ('r', 's_i')))                            0   30    0 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                          0   30    0 |    0    0    0
+    (('B1', ('r', 's_i')), ('n_si', ('s_M', 's_i')))                          0   30    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B1', ('r', 's_M')))                            0   30    0 |    0    0    0
+
+  === (B) THE BRIDGE-FAIL SET: 1211 configurations; cross-tab hashed 4322abbdbbc27123
+  kappa = |C| distribution: {1: 52, 2: 63, 3: 152, 4: 215, 5: 350, 6: 171, 7: 154, 8: 49, 9: 5}
+  W_legal / Im / W_acting per configuration — medians: 19 / 10 / 19; ranges W_legal 10-28, Im 6-15
+  CROSS-TAB containment × exit (first-word instances): 
+    FULL    : EXIT-1 917, EXIT-B 355, EXIT-ANY 4186, NO-EXIT 192
+    PARTIAL : EXIT-1 6823, EXIT-B 9396, EXIT-ANY 649, NO-EXIT 0
+    NONE    : EXIT-1 758, EXIT-B 255, EXIT-ANY 51, NO-EXIT 0
+    C-empty : EXIT-1 0, EXIT-B 0, EXIT-ANY 0, NO-EXIT 0
+  kappa(M·c) for exiting first words (EXIT-1/EXIT-B): {0: 1146, 1: 2722, 2: 1543, 3: 1815, 4: 2212, 5: 2034, 6: 1550, 7: 721, 8: 496, 9: 234, 10: 89, 11: 20}
+  per-orbit (orbit: FULL-exitB / PARTIAL-exitB / NONE-exitB / FULL-noexit / PARTIAL-noexit / NONE-noexit):
+    (('B1', ('r', 's_j')), ('B2', ('r', 's_M')))                             36 1102  157 |    0    0    0
+    (('B1', ('r', 's_i')), ('B2', ('r', 's_M')))                             16 1097   58 |    0    0    0
+    (('n_si', ('r', 's_i')), ('n_sM', ('s_M', 's_i')))                        2 1038    4 |    0    0    0
+    (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                        5 1021    6 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B2', ('r', 's_M')))                            1  833   12 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))                          2  790    4 |    0    0    0
+    (('B1', ('r', 's_j')), ('n_sj', ('s_M', 's_j')))                          1  789    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_M')))                          1  718    0 |    0    0    0
+    (('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))                          7  515    6 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_sj', ('r', 's_j')))                            1  320    0 |    0    0    0
+    (('n_si', ('r', 's_i')), ('B1', ('r', 's_M')))                            2  235    4 |    0    0    0
+    (('B1', ('r', 's_M')), ('n_si', ('s_M', 's_i')))                          3  231    2 |    0    0    0
+    (('B1', ('r', 's_i')), ('n_si', ('s_M', 's_i')))                          0  227    0 |    0    0    0
+    (('B1', ('r', 's_i')), ('B2', ('r', 's_j')))                            207    4    1 |   96    0    0
+
+  (C) matched depth-1 sample kappa distribution: {1: 14, 2: 8, 3: 7, 4: 13, 5: 20, 6: 18, 7: 6, 8: 5, 9: 2} (vs the 93: {2: 3, 3: 12, 4: 10, 5: 31, 6: 23, 7: 9, 8: 5})
+
+  [340s]

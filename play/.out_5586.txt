@@ -1,0 +1,85 @@
+======================================================================
+Toy 5586 — DGT on the 1,801 committed tranche configurations
+======================================================================
+  .tranche2_family_exclusion.json: sha256 7c930cb265c5788b... (record 7c930cb2: MATCH)
+  .tranche2b_family_exclusion.json: sha256 84ae31ca39ffe927... (record 84ae31ca: MATCH)
+
+  [PASS] 1. Populations re-read: 1801 configurations; file hashes vs record
+
+  freed samples regenerated: {'2A-stack14s11': 71, '2A-stack14s12': 72, '2A-stack18s11': 72, '2A-stack18s12': 72, '2A-stack24s11': 72, '2A-stack24s12': 72, '2A-stack30s11': 72, '2A-stack30s12': 71, '2B-kittell-h3': 752, '2C-T6': 743, '2D-flip2o7': 803}
+
+  [PASS] 2. Freed (tau<=5) sample nonempty for every hole
+
+  per-config verdicts hashed BEFORE the count: sha256 b84f6fa243c0cbe22b71821950226124...
+
+  DGT outcomes by hole: 
+    2a 2A-stack14s11: {'freed': 24}
+    2a 2A-stack14s12: {'freed': 24}
+    2a 2A-stack18s11: {'freed': 24}
+    2a 2A-stack18s12: {'freed': 24}
+    2a 2A-stack24s11: {'freed': 24}
+    2a 2A-stack24s12: {'freed': 24}
+    2a 2A-stack30s11: {'freed': 24}
+    2a 2A-stack30s12: {'freed': 24}
+    2a 2B-kittell-h3: {'freed': 187, 'no-descent': 13}
+    2a 2C-T6: {'freed': 200}
+    2a 2D-flip2o7: {'freed': 189, 'no-descent': 11}
+    2b 2B-kittell-h3: {'freed': 55}
+    2b 2C-T6: {'freed': 310, 'no-descent': 18}
+    2b 2D-flip2o7: {'freed': 591, 'no-descent': 35}
+  recovery step-counts: {1: 1496, 2: 210, 3: 17, 4: 1}
+  d_gate(c0) distribution: {1: 224, 2: 82, 3: 97, 4: 87, 5: 92, 6: 85, 7: 88, 8: 90, 9: 67, 10: 53, 11: 47, 12: 25, 13: 25, 14: 18, 15: 30, 16: 43, 17: 54, 18: 56, 19: 68, 20: 91, 21: 79, 22: 85, 23: 56, 24: 53, 25: 38, 26: 33, 27: 19, 28: 9, 29: 6, 31: 1}
+
+  [FAIL] 3. DGT (iterated strict d_gate descent to the gate phase, <= d_gate+1 words): 1724/1801
+
+  first-admitting target rank (per-target descent, nearest-40): {0: 1568, 1: 186, 2: 34, 3: 11, 4: 1, 6: 1} -> menu depth K = 7
+
+  [PASS] 4. A per-target admitting target exists within the nearest 40: 1801/1801
+
+  RESIDUE (77), whole — shallow-sample candidates FIRST (5583/5585 precedent), kills only after deepening:
+    ('2a', '2B-kittell-h3', 50, 4, 'no-descent', 1, (4, 2), 1)
+    ('2a', '2B-kittell-h3', 51, 2, 'no-descent', 0, (2,), 1)
+    ('2a', '2B-kittell-h3', 54, 4, 'no-descent', 1, (4, 2), 0)
+    ('2a', '2B-kittell-h3', 60, 4, 'no-descent', 1, (4, 2), 0)
+    ('2a', '2B-kittell-h3', 65, 5, 'no-descent', 1, (5, 2), 0)
+    ('2a', '2B-kittell-h3', 72, 7, 'no-descent', 1, (7, 2), 0)
+    ('2a', '2B-kittell-h3', 74, 2, 'no-descent', 0, (2,), 1)
+    ('2a', '2B-kittell-h3', 77, 2, 'no-descent', 0, (2,), 1)
+    ('2a', '2B-kittell-h3', 108, 4, 'no-descent', 1, (4, 2), 0)
+    ('2a', '2B-kittell-h3', 118, 5, 'no-descent', 1, (5, 2), 0)
+    ('2a', '2B-kittell-h3', 120, 4, 'no-descent', 1, (4, 2), 2)
+    ('2a', '2B-kittell-h3', 125, 2, 'no-descent', 0, (2,), 1)
+    ('2a', '2B-kittell-h3', 198, 2, 'no-descent', 0, (2,), 2)
+    ('2a', '2D-flip2o7', 6, 7, 'no-descent', 0, (7,), 2)
+    ('2a', '2D-flip2o7', 7, 10, 'no-descent', 0, (10,), 3)
+    ('2a', '2D-flip2o7', 8, 19, 'no-descent', 1, (19, 9), 0)
+    ('2a', '2D-flip2o7', 45, 1, 'no-descent', 0, (1,), 1)
+    ('2a', '2D-flip2o7', 64, 17, 'no-descent', 1, (17, 1), 0)
+    ('2a', '2D-flip2o7', 82, 12, 'no-descent', 1, (12, 1), 0)
+    ('2a', '2D-flip2o7', 90, 22, 'no-descent', 1, (22, 7), 0)
+    ('2a', '2D-flip2o7', 98, 18, 'no-descent', 2, (18, 14, 10), 0)
+    ('2a', '2D-flip2o7', 154, 3, 'no-descent', 0, (3,), 1)
+    ('2a', '2D-flip2o7', 155, 8, 'no-descent', 1, (8, 4), 1)
+    ('2a', '2D-flip2o7', 156, 13, 'no-descent', 2, (13, 8, 4), 1)
+    ('2b', '2C-T6', 4, 3, 'no-descent', 0, (3,), 1)
+    ('2b', '2C-T6', 23, 8, 'no-descent', 2, (8, 5, 3), 0)
+    ('2b', '2C-T6', 49, 5, 'no-descent', 1, (5, 3), 1)
+    ('2b', '2C-T6', 99, 8, 'no-descent', 1, (8, 1), 0)
+    ('2b', '2C-T6', 108, 11, 'no-descent', 2, (11, 4, 2), 0)
+    ('2b', '2C-T6', 120, 12, 'no-descent', 1, (12, 6), 0)
+    ('2b', '2C-T6', 122, 9, 'no-descent', 1, (9, 3), 0)
+    ('2b', '2C-T6', 150, 9, 'no-descent', 1, (9, 1), 0)
+    ('2b', '2C-T6', 152, 10, 'no-descent', 1, (10, 1), 0)
+    ('2b', '2C-T6', 184, 13, 'no-descent', 1, (13, 1), 0)
+    ('2b', '2C-T6', 189, 11, 'no-descent', 1, (11, 4), 0)
+    ('2b', '2C-T6', 191, 12, 'no-descent', 1, (12, 4), 0)
+    ('2b', '2C-T6', 192, 4, 'no-descent', 0, (4,), 1)
+    ('2b', '2C-T6', 193, 10, 'no-descent', 1, (10, 4), 0)
+    ('2b', '2C-T6', 201, 11, 'no-descent', 1, (11, 4), 1)
+    ('2b', '2C-T6', 270, 10, 'no-descent', 1, (10, 3), 0)
+
+  [PASS] 5. Residue exhibited (77) or none
+
+======================================================================
+Toy 5586 -- SCORE: 4/5  (can-fail: 3, 4)
+======================================================================

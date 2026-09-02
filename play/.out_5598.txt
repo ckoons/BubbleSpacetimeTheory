@@ -1,0 +1,32 @@
+======================================================================
+Toy 5598 — out-of-frame: Poussin and Kittell, every degree-5 vertex
+======================================================================
+
+  Poussin: n=15, m=39 (3n-6=39), triangulation faces ok=True, degrees {4: 2, 5: 8, 6: 5}
+    v=0: colorings 42, stuck 0, one-word direct 0/0 (no-context 0), classes 1 sizes [42], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=8: colorings 52, stuck 2, one-word direct 2/2 (no-context 0), classes 1 sizes [52], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=9: colorings 47, stuck 1, one-word direct 1/1 (no-context 0), classes 1 sizes [47], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=10: colorings 62, stuck 6, one-word direct 6/6 (no-context 0), classes 1 sizes [62], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=11: colorings 47, stuck 1, one-word direct 1/1 (no-context 0), classes 1 sizes [47], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=12: colorings 62, stuck 8, one-word direct 8/8 (no-context 0), classes 1 sizes [62], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=13: colorings 62, stuck 8, one-word direct 8/8 (no-context 0), classes 1 sizes [62], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=14: colorings 72, stuck 12, one-word direct 12/12 (no-context 0), classes 1 sizes [72], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+  Poussin TOTAL: deg-5 vertices 8, stuck 38, ONE-WORD 38/38, classes 8 / insertable 8, kills 0
+
+  Kittell: n=23, m=63 (3n-6=63), triangulation faces ok=True, degrees {5: 15, 6: 5, 7: 3}
+    v=2: colorings 418, stuck 32, one-word direct 32/32 (no-context 0), classes 1 sizes [418], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=3: colorings 508, stuck 82, one-word direct 82/82 (no-context 0), classes 1 sizes [508], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=4: colorings 428, stuck 43, one-word direct 43/43 (no-context 0), classes 1 sizes [428], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=5: colorings 408, stuck 30, one-word direct 30/30 (no-context 0), classes 1 sizes [408], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=8: colorings 428, stuck 54, one-word direct 54/54 (no-context 0), classes 1 sizes [428], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=9: colorings 418, stuck 48, one-word direct 48/48 (no-context 0), classes 1 sizes [418], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=12: colorings 398, stuck 25, one-word direct 25/25 (no-context 0), classes 1 sizes [398], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=13: colorings 418, stuck 50, one-word direct 50/50 (no-context 0), classes 1 sizes [418], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=14: colorings 468, stuck 62, one-word direct 62/62 (no-context 0), classes 1 sizes [468], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=16: colorings 418, stuck 32, one-word direct 32/32 (no-context 0), classes 1 sizes [418], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=17: colorings 418, stuck 46, one-word direct 46/46 (no-context 0), classes 1 sizes [418], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=18: colorings 398, stuck 40, one-word direct 40/40 (no-context 0), classes 1 sizes [398], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=20: colorings 398, stuck 40, one-word direct 40/40 (no-context 0), classes 1 sizes [398], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=21: colorings 398, stuck 38, one-word direct 38/38 (no-context 0), classes 1 sizes [398], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=22: colorings 428, stuck 48, one-word direct 48/48 (no-context 0), classes 1 sizes [428], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+  Kittell TOTAL: deg-5 vertices 15, stuck 670, ONE-WORD 670/670, classes 15 / insertable 15, kills 0

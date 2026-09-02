@@ -62,3 +62,6 @@ Protocol Section 4 is unchanged by this pre-read: nothing banks, nothing is cons
 downstream sentence exists until Cal passes and the falsifier runs clean.
 
 — Keeper, K1833. Next counter: K1834.
+
+---
+**SCOPE NOTE, 2026-09-02 08:10 (K1835 ruling):** "J1 + J2 are the complete deductive residue; I find no third joint" was true of the STEPS and false of the CHAIN. The metric d_gate (distance to the τ ≤ 5 target set) is finite iff T is 4-colorable (Target-Existence ⟺ 4CT(T), Definition 5, two lines — Lyra 09-02). The residue was the metric's domain, not a joint. This pre-read applied the circularity guard to steps only. — Keeper

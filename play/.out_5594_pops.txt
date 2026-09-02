@@ -1,0 +1,40 @@
+======================================================================
+Toy 5594 — E-A class-insertability [plantri]
+======================================================================
+
+  POPULATION (i): plantri exhaustive, every degree-5 vertex
+    n=6: graphs 2, (T,v) pairs 2, classes 2, with insertable member 2, not-enumerated 0
+    n=7: graphs 5, (T,v) pairs 10, classes 10, with insertable member 10, not-enumerated 0
+    n=8: graphs 14, (T,v) pairs 29, classes 29, with insertable member 29, not-enumerated 0
+    n=9: graphs 50, (T,v) pairs 100, classes 100, with insertable member 100, not-enumerated 0
+    n=10: graphs 233, (T,v) pairs 489, classes 491, with insertable member 491, not-enumerated 0
+    n=11: graphs 1249, (T,v) pairs 2747, classes 2785, with insertable member 2785, not-enumerated 0
+
+  [PASS] (i) plantri n<=11: classes without an insertable member: 0
+======================================================================
+Toy 5594 — E-A class-insertability [florek]
+======================================================================
+
+  POPULATION (ii): Florek G_n minus a degree-5 vertex, n=5..12
+    G_5 - v (deg 5): (20, 1, 1, [(20, True)])  [0s]
+    G_6 - v (deg 5): (40, 1, 1, [(40, True)])  [0s]
+    G_7 - v (deg 5): (68, 1, 1, [(68, True)])  [0s]
+    G_8 - v (deg 5): (122, 1, 1, [(122, True)])  [0s]
+    G_9 - v (deg 5): (242, 1, 1, [(242, True)])  [0s]
+    G_10 - v (deg 5): (396, 1, 1, [(396, True)])  [0s]
+    G_11 - v (deg 5): (808, 1, 1, [(808, True)])  [2s]
+    G_12 - v (deg 5): (1348, 1, 1, [(1348, True)])  [6s]
+======================================================================
+Toy 5594 — E-A class-insertability [nine]
+======================================================================
+
+  POPULATION (iii): the nine hard configurations
+    T3#0: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    T3#1: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    T3#2: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    T3#3: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    B-errera#4: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    B-errera#5: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    B-errera#6: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    B-errera#7: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]
+    B-errera#8: colorings mod S4 100; classes 1 sizes [100]; the stuck coloring's class size 100, contains insertable: True  [0s]

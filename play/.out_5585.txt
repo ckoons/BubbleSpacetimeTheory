@@ -1,0 +1,37 @@
+======================================================================
+Toy 5585 — Target-Existence: the menu swept on the 54
+======================================================================
+
+  failure set re-derived: 54 ({'T3': 4, 'B-errera': 5, 'D-flip2': 6, 'D-flip3': 39}); per-config records hashed BEFORE aggregation: sha256 034f28ebd794b8946b3b50b82662c9b1...
+
+  [PASS] 1. Failure set at 54 + blind hash
+
+  per-target strict descent exists — d_gate menu: 50/54; wide menu (nearest 40): 54/54
+  d_gate-menu sizes: {1: 44, 2: 8, 3: 2}; configs where EVERY d_gate-menu target admits a word: 49/54
+  admitting-pair counts (wide), by config: [498, 542, 637, 671, 718, 720, 743, 750, 769, 775, 795, 806, 818, 831, 833, 842, 848, 848, 866, 870, 872, 892, 908, 913, 919, 922, 923, 936, 939, 949, 952, 961, 963, 964, 971, 973, 980, 996, 1000, 1003, 1011, 1029, 1029, 1031, 1038, 1043, 1048, 1053, 1069, 1110, 1120, 1126, 1167, 1222]
+  d_gate-menu NON-admitting configs (label, dmin, |menu|, first admitting rank, its H): [('D-flip3', 13, 1, 2, 15), ('D-flip3', 22, 1, 2, 25), ('D-flip3', 19, 1, 1, 24), ('D-flip3', 29, 1, 1, 31)]
+  first-admitting target RANK (0 = nearest), all 54: {0: 50, 1: 2, 2: 2} -> menu depth K needed = 3
+
+  [PASS] 2. TARGET-EXISTENCE (a target with a strictly-descending word): 54/54 on the wide menu, 50/54 on the d_gate menu
+
+  cage-off-carrier (wide menu), configs with >=1 admitting (c*, w) satisfying the reading:
+    (a) STRICT  N[supp U diff] disjoint from carrier(c*): 54/54
+    (b) CARRIER-PRESERVED  w.c = c* on carrier(c*):       54/54
+    (c) SUPPORT-OFF  N[supp(w)] disjoint from carrier(c*): 54/54
+
+  [PASS] 3. Cage-off-carrier under reading (b), the operational one: 54/54 (readings (a),(c) logged as the instrument's other lenses)
+
+  fixed-target loop outcomes: {'halt': 53, 'stall': 1}; halting step-counts: {1: 37, 2: 16}
+
+  [FAIL] 4. Fixed-target descent halts within H0+1: 53/54
+
+  switching loop (5582) outcomes on the same 54: {'freed': 53, 'no-descent': 1}
+  GAP (fixed stalls, switching recovers): 1/54; reverse (fixed halts, switching does not): 1/54
+    ('D-flip3', 'stall', (31, 24), (29, 6))
+    reverse: ('D-flip3', 26, 0, 26, ('halt', 2, (26, 21, 20)), ('no-descent', 1, (26, 12)))
+
+  [PASS] 5. Gap between 'one target' and 'some target' counted: 1/54
+
+======================================================================
+Toy 5585 -- SCORE: 4/5  (can-fail: 2, 3, 4)
+======================================================================

@@ -1,0 +1,32 @@
+======================================================================
+Toy 5588 — the six vs the deep set; canonical word; truncations
+======================================================================
+
+  residue reproduced: 6 ([('D-flip3', (2,)), ('D-flip3', (5,)), ('D-flip3', (2,)), ('D-flip3', (6, 2)), ('D-flip3', (2,)), ('D-flip3', (20, 6))])
+  deep freed set: 38111 (shallow 1299); committed sha256 cd2cfee84bde2f7c4647563a93908699...
+
+  [PASS] 1. Deep set committed; the six reproduced
+
+  records hashed BEFORE the counts: sha256 e880d155e5a0c5c0fd3076b3a3476d7d...
+
+  THE RETEST (each of the six at its shallow stall, vs deep):
+    {'traj_shallow': (2,), 'd_deep': 2, 'tau': 6, 'freeable': False, 'legal_desc': 9, 'legal_side': 7, 'vac_desc': 89, 'loop_deep': ('freed', 1, (2, 0))}
+    {'traj_shallow': (5,), 'd_deep': 2, 'tau': 6, 'freeable': False, 'legal_desc': 10, 'legal_side': 2, 'vac_desc': 118, 'loop_deep': ('freed', 1, (2, 0))}
+    {'traj_shallow': (2,), 'd_deep': 2, 'tau': 6, 'freeable': False, 'legal_desc': 9, 'legal_side': 7, 'vac_desc': 113, 'loop_deep': ('freed', 1, (2, 0))}
+    {'traj_shallow': (6, 2), 'd_deep': 2, 'tau': 6, 'freeable': False, 'legal_desc': 9, 'legal_side': 7, 'vac_desc': 113, 'loop_deep': ('freed', 1, (2, 0))}
+    {'traj_shallow': (2,), 'd_deep': 2, 'tau': 6, 'freeable': False, 'legal_desc': 5, 'legal_side': 10, 'vac_desc': 94, 'loop_deep': ('freed', 1, (2, 1))}
+    {'traj_shallow': (20, 6), 'd_deep': 4, 'tau': 6, 'freeable': False, 'legal_desc': 5, 'legal_side': 1, 'vac_desc': 76, 'loop_deep': ('no-legal-descent', 0, (2,))}
+
+  [PASS] 2. Legal descent (or gate-phase) at the stall against the deep set: 6/6; legal-only loop from c0 against the deep set halts: 5/6
+
+  canonical word (and mirror), stages 1-3 legal: 54/54; stage-4 (SJ) legal pattern (word, mirror): {(True, True): 13, (False, False): 23, (False, True): 18}
+
+  [PASS] 3. Cal SS805 stage table on the canonical word, instrument side: 54/54
+
+  [PASS] 4. Truncation shapes among 2923 vacuous-stage descents at step 1: {(True, False, True, True): 1364, (True, True, True, False): 787, (True, True, False, True): 772}; distinct (word, effective) pairs: 176; effective lengths: {3: 176}
+
+  [PASS] 5. Truncations self-consistent (legal stages alone reproduce the image): 2923/2923
+
+======================================================================
+Toy 5588 -- SCORE: 5/5  (can-fail: 2, 3, 5)
+======================================================================

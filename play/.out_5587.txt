@@ -1,0 +1,35 @@
+======================================================================
+Toy 5587 — the legality re-count (K1835 A2)
+======================================================================
+
+  failure set: 54; per-config records + J3 record hashed BEFORE the counts: sha256 fa1a455f022d379a09779d94230cfe8c...
+
+  vacuous stages over all supported+proper images on the 54: {2: 3348, 3: 1853, 4: 1777} (of 8058 images)
+
+  [FAIL] 1. Stages 1-3 never vacuous (Cal SS805 stage table, instrument side): 2857/8058 images
+
+  legal-and-descending words at step 1, by config: [0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 10, 10, 10, 11, 13, 13, 13, 13, 14, 14, 15, 15, 15, 16, 17, 18, 19, 21, 21, 21, 27]
+  descending-but-vacuous words at step 1, by config: [13, 13, 19, 19, 24, 24, 25, 26, 26, 26, 26, 26, 26, 27, 27, 28, 30, 32, 33, 34, 35, 36, 36, 43, 49, 50, 50, 50, 52, 53, 55, 57, 58, 63, 64, 66, 67, 67, 68, 72, 75, 75, 78, 81, 86, 88, 92, 97, 99, 100, 107, 110, 119, 121]
+  configs with ONLY vacuous descents: 4 [('D-flip3', 2, 26), ('D-flip3', 5, 24), ('D-flip3', 2, 28), ('D-flip3', 2, 27)]; with none: 0
+
+  [FAIL] 2. A fully-legal AND strictly-descending word exists at step 1: 50/54
+
+  legality-restricted iterate outcomes: {'freed': 48, 'no-legal-descent': 6}; step-counts: {1: 45, 2: 3}
+    residue: ('D-flip3', 2, ('no-legal-descent', 0, (2,)))
+    residue: ('D-flip3', 5, ('no-legal-descent', 0, (5,)))
+    residue: ('D-flip3', 2, ('no-legal-descent', 0, (2,)))
+    residue: ('D-flip3', 6, ('no-legal-descent', 1, (6, 2)))
+    residue: ('D-flip3', 2, ('no-legal-descent', 0, (2,)))
+    residue: ('D-flip3', 20, ('no-legal-descent', 1, (20, 6)))
+
+  [FAIL] 3. Legal-only descent loop halts within d_gate+1: 48/54 (shallow-sample caveat carries, 5583/5585 precedent)
+
+  J3 stall replayed: {'stall': True, 'deep': 26842, 'd_stall': 1, 'desc_total': 29, 'desc_legal': 3, 'desc_vac_stage': {3: 4, 4: 12, 2: 10}}
+
+  [PASS] 4. J3's descending words re-counted AFTER legality: 3/29 legal
+
+  [PASS] 5. Vacuous-stage characterization: stage histogram {2: 3348, 3: 1853, 4: 1777}; fully-legal images per config (of supported+proper): [(14, 148), (14, 148), (14, 148), (14, 148), (15, 148), (16, 150), (17, 148), (17, 148), (17, 148), (17, 148), (17, 148), (17, 148)]...
+
+======================================================================
+Toy 5587 -- SCORE: 2/5  (can-fail: 1, 2, 3, 4)
+======================================================================

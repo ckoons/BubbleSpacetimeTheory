@@ -5,6 +5,8 @@ date: "2026-09-01, Tuesday (clock-verified 09:20 EDT at round start)"
 header_note: "This program has been one page from history before: in March a document titled as a proof carried one false premise for five months through a PASS it never earned (K1832's finding, 2026-08-30). That memory is a load-bearing part of this document. Accordingly: the verification protocol of Section 4 is attached to the assembly itself, the document contains no abstract, no status claim, and no statement of any consequence beyond what Section 1 states — it states what it proves, under which labeled conditions, and stops."
 ---
 
+> **SUPERSEDED 2026-09-02 08:53 EDT by `Lyra_CANDIDATE_ASSEMBLY_v2_insertion_theorem_consumption_line_struck_OWL_named_2026-09-02.md`.** The count clause "at most d_gate(c) + 1" is STRUCK: d_gate is finite iff T is 4-colorable (Lyra 08:06 / Keeper K1835 08:10), so it presupposed the theorem. Retained unedited below as the record of what was assembled.
+
 # THE CANDIDATE ASSEMBLY
 
 ## 1. The statement assembled

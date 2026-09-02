@@ -1,0 +1,30 @@
+========================================================================
+Toy 5603 — Grace — G2b: Q3/Q4, Φ, tunneling cut on S leaves; the 334 in-frame kills
+========================================================================
+  1,072 loaded (22s)
+  the 54 loaded (23s)
+  the 1,801 loaded (0s)
+
+[A] 2873 distinct configurations; hard-branch instances 548; hashed BEFORE counts 38e1d05517b6e7133017396191a3f3ff…  [50s]
+  W_i: hard branch 293 = S 293 + G 0; Lemma T 'S ⟺ Q3∧Q4': 293/293; S leaves (Q3,Q4) {(True, True): 293}; G leaves (Q3,Q4) {}
+        Φ=|X3| strictly decreases on S leaves: 59/293; Φ′=|X3|+|X4|: 119/293; Φ0→Φ4 examples [(4, 4), (4, 4), (4, 4), (4, 4), (4, 4), (4, 4), (4, 4), (4, 4)]
+        tunneling cut on S leaves: |X4∩X3| {1: 117, 2: 116, 3: 28, 5: 9, 4: 6, 12: 3, 7: 2, 8: 3, 14: 1, 6: 4, 10: 2, 9: 2}; r-part {1: 117, 2: 116, 3: 28, 5: 9, 4: 6, 12: 3, 7: 2, 8: 3, 14: 1, 6: 4, 10: 2, 9: 2}; cut separates near from far inside X3: {'True': 293}
+        on G leaves: |X4∩X3| {}; sep {}
+  W_j: hard branch 255 = S 249 + G 6; Lemma T 'S ⟺ Q3∧Q4': 255/255; S leaves (Q3,Q4) {(True, True): 249}; G leaves (Q3,Q4) {(True, False): 6}
+        Φ=|X3| strictly decreases on S leaves: 34/249; Φ′=|X3|+|X4|: 115/249; Φ0→Φ4 examples [(4, 4), (4, 4), (4, 4), (4, 4), (4, 4), (4, 4), (4, 4), (4, 4)]
+        tunneling cut on S leaves: |X4∩X3| {1: 111, 2: 89, 3: 18, 6: 4, 7: 10, 4: 7, 10: 1, 11: 4, 5: 4, 8: 1}; r-part {1: 111, 2: 89, 3: 18, 6: 4, 7: 10, 4: 7, 10: 1, 11: 4, 5: 4, 8: 1}; cut separates near from far inside X3: {'True': 249}
+        on G leaves: |X4∩X3| {1: 6}; sep {'False': 6}
+
+[B] in-frame kills: 827 by n {22: 827}
+  n=22 done [84s]
+
+[B] records hashed BEFORE counts 10da007275b1488e091e19db39393d1f…; stuck-with-roles 827/827; τ0 {6: 827}
+  POSITIVE CONTROL (direct exit must fail on all): direct hits 0/827
+  full family, best leaf: {'G': 804, 'S': 23}; gate-phase words per config {4: 117, 5: 52, 1: 16, 6: 103, 10: 53, 14: 30, 11: 16, 8: 94, 2: 98, 7: 89, 0: 23, 12: 18, 9: 40, 3: 49, 19: 1, 13: 9, 16: 9, 17: 2, 15: 8}; legal words per config {52: 18, 59: 189, 60: 311, 57: 15, 58: 102, 55: 26, 56: 12, 54: 86, 53: 34, 51: 15, 63: 2, 49: 4, 48: 6, 50: 6, 61: 1}
+  Wi: legal4 827/827; leaf4 {'S': 471, 'G': 356}; leaf3 {'S': 577, 'G': 250}; (Δ,Δ′) {(True, False): 577, (True, True): 250}; Q3∧Q4 on S {(True, True): 471}
+  Wj: legal4 827/827; leaf4 {'G': 345, 'S': 482}; leaf3 {'G': 244, 'S': 583}; (Δ,Δ′) {(True, True): 244, (True, False): 583}; Q3∧Q4 on S {(True, True): 482}
+  Mi: legal4 663/827; leaf4 {None: 164, 'G': 156, 'S': 507}; leaf3 {'G': 225, 'S': 602}
+  Mj: legal4 676/827; leaf4 {None: 151, 'S': 521, 'G': 155}; leaf3 {'G': 216, 'S': 611}
+  by n, best leaf: {(22, 'G'): 804, (22, 'S'): 23}
+
+  written .out_5603.json  [84s]

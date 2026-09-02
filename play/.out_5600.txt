@@ -1,0 +1,37 @@
+======================================================================
+Toy 5600 — in-frame one-word test, plantri -c5, n = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+======================================================================
+  n=12: graphs 1; pairs 12; stuck 0; hit by the 3 words 0; hit by the rest of the family 0; NOT HIT 0; no-context 0; records sha256 4f53cda18c2baa0c  [0s]
+  n=13: graphs 0; pairs 0; stuck 0; hit by the 3 words 0; hit by the rest of the family 0; NOT HIT 0; no-context 0; records sha256 4f53cda18c2baa0c  [0s]
+  n=14: graphs 1; pairs 12; stuck 36; hit by the 3 words 36; hit by the rest of the family 0; NOT HIT 0; no-context 0; records sha256 73f94194bb66e56e  [0s]
+  n=15: graphs 1; pairs 12; stuck 0; hit by the 3 words 0; hit by the rest of the family 0; NOT HIT 0; no-context 0; records sha256 4f53cda18c2baa0c  [0s]
+  n=16: graphs 3; pairs 38; stuck 144; hit by the 3 words 136; hit by the rest of the family 8; NOT HIT 0; no-context 0; records sha256 41724d83acde25ea  [0s]
+  n=17: graphs 4; pairs 49; stuck 775; hit by the 3 words 523; hit by the rest of the family 196; NOT HIT 56; no-context 0; records sha256 b2fd02ddda9d5089  [1s]
+  n=18: graphs 12; pairs 156; stuck 1345; hit by the 3 words 1254; hit by the rest of the family 91; NOT HIT 0; no-context 0; records sha256 a103ae3a5800065d  [1s]
+  n=19: graphs 23; pairs 306; stuck 3523; hit by the 3 words 3162; hit by the rest of the family 359; NOT HIT 2; no-context 0; records sha256 ab51161f5cf3317e  [4s]
+  n=20: graphs 71; pairs 969; stuck 17523; hit by the 3 words 15112; hit by the rest of the family 2386; NOT HIT 25; no-context 0; records sha256 c5f7982ea0e42939  [19s]
+  n=21: graphs 187; pairs 2629; stuck 64015; hit by the 3 words 55427; hit by the rest of the family 8337; NOT HIT 251; no-context 0; records sha256 0a18c5df77dbc3fb  [69s]
+
+  GRAND: stuck 87361; hit3 75650; hitfull 11377; NOT HIT 334; no-context 0
+  ONE-WORD in-frame: 87027/87361
+  words used beyond the three (top 10): [((('B1', ('r', 's_i')), ('B2', ('r', 's_j'))), 5956), ((('B1', ('r', 's_i')), ('n_sj', ('r', 's_j'))), 5924), ((('n_sM', ('s_M', 's_i')), ('n_sj', ('s_M', 's_j'))), 4334), ((('n_sj', ('s_i', 's_j')), ('n_sM', ('s_M', 's_j'))), 3661), ((('n_sM', ('s_M', 's_j')), ('n_si', ('s_M', 's_i'))), 3114), ((('B2', ('r', 's_j')), ('B1', ('r', 's_M'))), 3076), ((('n_sj', ('s_i', 's_j')), ('B1', ('r', 's_j'))), 2882), ((('n_sj', ('r', 's_j')), ('B1', ('r', 's_M'))), 2688), ((('n_si', ('s_i', 's_j')), ('B2', ('r', 's_i'))), 2411), ((('B1', ('r', 's_j')), ('B2', ('r', 's_M'))), 2248)]
+    KILL CANDIDATE: (17, 0, 0, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 2, 1, 0, 1, 2, 3))
+    KILL CANDIDATE: (17, 0, 0, (0, 1, 2, 3, 2, 1, 3, 0, 1, 0, 1, 3, 0, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 1, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 2, 1, 0, 1, 2, 3))
+    KILL CANDIDATE: (17, 0, 1, (0, 1, 2, 3, 2, 1, 3, 0, 1, 0, 1, 3, 0, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 2, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 2, 1, 0, 1, 2, 3))
+    KILL CANDIDATE: (17, 0, 2, (0, 1, 2, 3, 2, 0, 3, 1, 0, 1, 0, 3, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 4, (0, 1, 2, 3, 2, 0, 3, 1, 0, 1, 0, 3, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 4, (0, 1, 2, 3, 2, 0, 3, 1, 2, 1, 0, 3, 1, 0, 3, 2))
+    KILL CANDIDATE: (17, 0, 6, (0, 1, 2, 3, 1, 2, 3, 0, 1, 0, 3, 1, 0, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 6, (0, 1, 2, 3, 1, 2, 3, 0, 2, 0, 3, 1, 0, 1, 3, 2))
+    KILL CANDIDATE: (17, 0, 8, (0, 1, 2, 1, 3, 2, 0, 3, 0, 2, 1, 3, 1, 2, 3, 0))
+    KILL CANDIDATE: (17, 0, 8, (0, 1, 2, 3, 1, 2, 3, 0, 2, 0, 3, 0, 2, 1, 3, 1))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 1, 3, 2, 0, 3, 0, 0, 1, 3, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 1, 3, 2, 0, 3, 0, 2, 1, 3, 1, 2, 3, 0))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 1, 0, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 3, 1, 2, 3, 0, 1, 0, 3, 0, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 3, 1, 3, 2, 0, 1, 0, 2, 0, 1, 3, 2, 3))
+    KILL CANDIDATE: (17, 0, 11, (0, 1, 2, 3, 1, 2, 0, 3, 0, 2, 0, 3, 2, 1, 3, 1))
+    KILL CANDIDATE: (17, 0, 11, (0, 1, 2, 3, 1, 2, 0, 3, 1, 0, 2, 3, 1, 2, 3, 0))
+    KILL CANDIDATE: (17, 0, 12, (0, 1, 2, 3, 1, 2, 0, 3, 0, 2, 0, 3, 2, 1, 3, 1))

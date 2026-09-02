@@ -1,0 +1,12 @@
+======================================================================
+Toy 5624 — unrestricted Kempe depth [A] MAXD=4 CAP=60000
+======================================================================
+
+  population A: 349 configurations  [21s]
+    n=17: depth {3: 8}
+    n=21: depth {1: 1, 2: 9, 3: 8}
+    n=22: depth {1: 1, 2: 8, 3: 14}
+    n=23: depth {2: 8, 3: 35, 4: 1}
+    n=24: depth {1: 25, 2: 87, 3: 132, 4: 12}
+  ALL: {1: 27, 2: 112, 3: 197, 4: 13}; max reached depth 4; unreached (>4 or cap) 0
+  explored colorings per config: median 10 max 32

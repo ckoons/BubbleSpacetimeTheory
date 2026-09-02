@@ -1,0 +1,43 @@
+======================================================================
+Toy 5613 — Lane F type table (second instrument), n = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+======================================================================
+  n=12: cumulative stuck 0; types (bits) 0; size-refined types 0  [0s]
+  n=13: cumulative stuck 0; types (bits) 0; size-refined types 0  [0s]
+  n=14: cumulative stuck 36; types (bits) 1; size-refined types 2  [0s]
+  n=15: cumulative stuck 36; types (bits) 1; size-refined types 2  [0s]
+  n=16: cumulative stuck 180; types (bits) 11; size-refined types 30  [0s]
+  n=17: cumulative stuck 955; types (bits) 23; size-refined types 200  [1s]
+  n=18: cumulative stuck 2300; types (bits) 26; size-refined types 534  [2s]
+  n=19: cumulative stuck 5823; types (bits) 35; size-refined types 1796  [7s]
+  n=20: cumulative stuck 23346; types (bits) 35; size-refined types 7374  [27s]
+  n=21: cumulative stuck 87361; types (bits) 39; size-refined types 24710  [104s]
+  n=22: cumulative stuck 374658; types (bits) 40; size-refined types 85619  [467s]
+
+  TOTAL stuck 374658; TYPES (bit-matrix) 40; size-refined 85619; table hashed f0d0fa54581377c8
+  'locked' by type: pure types 37/40; MIXED types 3; types containing a locked configuration: 3 -> [(217512669, 24, 37856), (251058909, 16, 47266), (251067101, 9, 13813)]
+  the 49 (n<=22) land in 3 types
+    mixed type 0xef6dadd: {'n': 47266, 'locked': 16, 'bridge-exit': 44899, 'middle-legal': 31919, 'middle-exit': 25933, 'one-word-none': 216}  example (16, 0, 0)
+    mixed type 0xcf6fadd: {'n': 37856, 'locked': 24, 'bridge-exit': 34236, 'middle-legal': 30417, 'middle-exit': 23129, 'one-word-none': 608}  example (16, 0, 0)
+    mixed type 0xef6fadd: {'n': 13813, 'locked': 9, 'bridge-exit': 13068, 'middle-legal': 10131, 'middle-exit': 6017, 'one-word-none': 203}  example (17, 0, 2)
+
+  bridge-exit by type (pure=all exit or none): 18/40 pure
+  middle-legal by type: 4/40 pure
+
+  top types (bits: n, locked, bridge-exit, middle-legal, middle-exit, one-word-none):
+    0xc36f2cd:   78420    0   78391     459     436    29
+    0xef6dadd:   47266   16   44899   31919   25933   216
+    0xcf6fadd:   37856   24   34236   30417   23129   608
+    0xcf6dadd:   31375    0   29335   26024   22949    86
+    0xc76f2dd:   31140    0   31078    8227    6211    38
+    0xcb6facd:   30304    0   30249    7312    5874    25
+    0xc36fadd:   15599    0   15474   11423    7363    24
+    0xc36facd:   15411    0   15405    2246    2123     4
+    0xc36f2dd:   15310    0   15299    2343    2208     9
+    0xef6fadd:   13813    9   13068   10131    6017   203
+    0xe36fadd:    9913    0    9913    5117    2276     0
+    0xcb6f2cd:    9232    0    9225     899     823     7
+    0xc76f2cd:    7321    0    7316     796     692     4
+    0xc76d2dd:    6743    0    6692    2580    1691    11
+    0xcb6dacd:    5008    0    4988    1762    1138     3
+
+  sample (37508 rows): image count Im(c) — locked: {7: 21, 8: 14, 9: 5, 10: 3, 12: 4, 13: 2}; unlocked: min 4 median 12 max 19

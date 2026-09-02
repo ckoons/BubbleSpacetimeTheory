@@ -1,0 +1,13 @@
+========================================================================
+Toy 5625 — Grace — unrestricted Kempe depth to the gate on 349 locks
+========================================================================
+
+  hashed BEFORE counts 54cd2ced48083761edab6c9fc17d31b8… [4s]
+[UNRESTRICTED DEPTH, all 349] {1: 27, 2: 112, 3: 197, 4: 13}; max 4; unreached 0; gate verified by rank 349/349
+    n=17: {3: 8}; states expanded median 13
+    n=21: {1: 1, 2: 9, 3: 8}; states expanded median 4
+    n=22: {1: 1, 2: 8, 3: 14}; states expanded median 18
+    n=23: {2: 8, 3: 35, 4: 1}; states expanded median 24
+    n=24: {1: 25, 2: 87, 3: 132, 4: 12}; states expanded median 12
+
+  written .out_5625.json [4s]

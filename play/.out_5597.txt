@@ -1,0 +1,40 @@
+======================================================================
+Toy 5597 — Lyra's dichotomy escorted: Δ/Δ′ for W_i, W_j
+======================================================================
+
+  2873 configurations; records hashed BEFORE the counts: sha256 173908c293088b59f9c9b7e8c97d04b4...
+  status: {('ok', 'ok'): 2873}
+
+  [PASS] 1. LEMMA L (positive control): fully legal W_i 2873/2873, W_j 2873/2873; illegal-stage histogram W_i {} W_j {}
+
+  [PASS] 2. Forced link words: c₁ as derived 2873/2873; c₂ as derived 2873/2873 (both words)
+
+  W_i: Δ-NO 2537/2873 (image directly insertable 2537/2537; c₄ link as derived 2537/2537) · Δ-YES 336/2873 (c₄ link as derived 336/336)
+    leaves: {'ΔNO-INS': 2537, 'ΔYES/Δ′NO-stuck': 293, 'ΔYES/Δ′YES-gate': 43}
+
+  W_j: Δ-NO 2540/2873 (image directly insertable 2540/2540; c₄ link as derived 2540/2540) · Δ-YES 333/2873 (c₄ link as derived 333/333)
+    leaves: {'ΔNO-INS': 2540, 'ΔYES/Δ′NO-gate': 6, 'ΔYES/Δ′NO-stuck': 249, 'ΔYES/Δ′YES-gate': 78}
+
+  [PASS] 3. LEMMA D: every Δ-NO image is directly insertable (both words)
+
+  Δ-YES ∧ STUCK images: W_i 293/2873, W_j 249/2873; configurations where BOTH words land stuck: 225/2873
+  coverage by {W_i, W_j}: direct 2542/2873; direct-or-gate 2648/2873
+
+  [FAIL] 4. The Δ-YES-AND-STUCK class for BOTH words is empty: 2648/2873 configurations covered by W_i or W_j (can fail)
+  by population (n, covered): {'Fritsch': [72, 48], 'T3': [250, 164], 'B-errera': [250, 176], 'D-flip2': [250, 250], 'D-flip3': [250, 250], '2a': [792, 774], '2b': [1009, 986]}
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+    uncovered: ('Fritsch', 'Fritsch', 'ΔYES/Δ′NO-stuck', 'ΔYES/Δ′NO-stuck')
+
+======================================================================
+Toy 5597 -- SCORE: 3/4  (can-fail: 1, 2, 3, 4)
+======================================================================

@@ -57,3 +57,16 @@
 | T1641 | Fox H Classification | D0 | — | 1787 | Keeper (from Lyra) | 2026-05-02 | registered |
 | T1642 | n_C Selection Theorem | D0 | — | 1782 | Keeper (from Elie) | 2026-05-02 | registered |
 | T1643 | Spectral Domain Extensions | D0 | — | 1805 | Keeper (from Grace) | 2026-05-02 | registered |
+| T2585 | One-Word Lemma (OWL) — CANDIDATE, measured not proved | D1 | K1836 Section 1 | 5591-5593 | Grace | 2026-09-02 | candidate |
+| T2586 | Descent-Given-Target (DGT) — CANDIDATE, measured not proved | D1 | Lyra prereg 2026-09-02 | 5586,5591 | Grace | 2026-09-02 | candidate |
+| T2587 | Excision-Avoidance Lemma (Lemma EA) | D1 | Lyra bridge-term artifact 09-01 §1; Cal §817 | - | Lyra (noded Grace) | 2026-09-02 | proved (renumbered from T2585, K1837) |
+| T2588 | Two-Agreement Barrier | D1 | Lyra Unified Interaction Lemma 09-01 §1; Cal §815 | 5584 (confirmation) | Lyra (noded Grace) | 2026-09-02 | proved (renumbered from T2586, K1837) |
+| T2589 | Two-Word Reach (measured) — OBSERVATION row | D1 | K1839 §2 | 5600,5601,5603 | Grace | 2026-09-02 | observation |
+| T2591 | Lemma L (Legality of the bridge-anchored words) | D1 | Lyra 2026-09-02 | 5597,5599 | Lyra (noded Grace) | 2026-09-02 | proved |
+| T2592 | Lemma D (Dichotomy of W_i) | D1 | Lyra 2026-09-02 | 5597,5599 | Lyra (noded Grace) | 2026-09-02 | proved |
+| T2590 | Lemma T (the two-question lemma on the hard branch) | D1 | Lyra 2026-09-02 | 5603 | Lyra (noded Grace) | 2026-09-02 | proved |
+| T2593 | Kittell Alias Theorem (the fifteen moves name Kittell's eight chains) | D1 | Lyra 2026-09-02 | 5599 | Lyra (noded Grace) | 2026-09-02 | proved |
+| T2594 | Boundary-Term Lemma (Mohar–Salas degree on T−v under a Kempe swap) | D1 | Lyra 2026-09-02 | 5610 | Lyra (noded Grace) | 2026-09-02 | derived |
+| T2595 | Far-Chain Condition — necessary-condition row (measured) | D1 | Lane F/5617/5621; Cal §823 | 5614,5617,5621 | Grace | 2026-09-02 | observation |
+| T2596 | Kempe-Pairing Theorem (KP) | D1 | Lyra 12:07; Cal §824 PASS | T1 blind | Lyra (noded Grace) | 2026-09-02 | proved |
+| T2597 | Re-route statistic — OBSERVATION | D1 | 5623; K1845 | 5623 | Grace | 2026-09-02 | observation |

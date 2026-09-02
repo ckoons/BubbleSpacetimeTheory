@@ -60,12 +60,12 @@ target differs from c at link-adjacent vertices; the gate's re-signing agrees wi
 target on ≥ 1 patch vertex and disagrees nowhere new — the last clause is the open step).
 STATUS: measured-universal in context; mechanism-supported; derivation open.
 
-**Iterability (derived).** After w, the configuration is freed or stuck; if stuck, the
+**Iterability (derived — STRUCK 2026-09-02, see sweep note at the end of this paragraph).** After w, the configuration is freed or stuck; if stuck, the
 One-Context Lemma applies again (it is a ∀-statement over all sphere triangulations and all
 stuck configurations), yielding the same context and the same template. With (3), d strictly
 decreases each round; d is a non-negative integer; the process reaches a freed coloring in at
 most d(c₀) gate applications. [Derived, GIVEN (2)–(4) — i.e., modulo J1′, J2, and the
-choice clause carrying SJ.]
+choice clause carrying SJ.] **[SWEEP 2026-09-02 08:53, K1835 A3: the decrease is (4) J2, not (3). K1835 A1: J1′ is NOT CONSUMED by the count clause (well-foundedness + strict descent only); retained as a measured fact. And the whole clause is STRUCK with the metric: d is finite iff T is 4-colorable (K1835 ruling 08:10). Current statement: Candidate Assembly v2, 2026-09-02.]**
 
 **The honest sentence (swept 2026-09-01 per the restatement — the same-hour rule):** the page
 is a stage table with three derived rows, one sub-joint (SJ) riding the choice quantifier, and

@@ -1,0 +1,238 @@
+{
+ "per_orb": {
+  "(('B1', ('r', 's_M')), ('n_sj', ('r', 's_j')))": {
+   "legal": 533,
+   "exit": 514,
+   "exit&flip": 348,
+   "exit&\u0394\u2032YES-only": 129,
+   "exit&neither": 37,
+   "noexit": 19,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))": {
+   "legal": 551,
+   "exit": 534,
+   "exit&flip": 350,
+   "exit&\u0394\u2032YES-only": 146,
+   "exit&neither": 38,
+   "noexit": 17,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_i')), ('B2', ('r', 's_M')))": {
+   "legal": 698,
+   "exit": 676,
+   "exit&flip": 469,
+   "exit&\u0394\u2032YES-only": 166,
+   "exit&neither": 41,
+   "noexit": 22,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_i')), ('B2', ('r', 's_j')))": {
+   "legal": 698,
+   "noexit": 678,
+   "noexit&flip": 0,
+   "exit": 20,
+   "exit&flip": 9,
+   "exit&\u0394\u2032YES-only": 1,
+   "exit&neither": 10
+  },
+  "(('B1', ('r', 's_j')), ('B2', ('r', 's_M')))": {
+   "legal": 698,
+   "exit": 675,
+   "exit&flip": 466,
+   "exit&\u0394\u2032YES-only": 170,
+   "exit&neither": 39,
+   "noexit": 23,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_j')), ('B2', ('r', 's_i')))": {
+   "legal": 696,
+   "noexit": 677,
+   "noexit&flip": 0,
+   "exit": 19,
+   "exit&flip": 7,
+   "exit&\u0394\u2032YES-only": 1,
+   "exit&neither": 11
+  },
+  "(('B1', ('r', 's_j')), ('n_sj', ('s_M', 's_j')))": {
+   "legal": 574,
+   "exit": 558,
+   "exit&flip": 391,
+   "exit&\u0394\u2032YES-only": 130,
+   "exit&neither": 37,
+   "noexit": 16,
+   "noexit&flip": 0
+  },
+  "(('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))": {
+   "legal": 665,
+   "exit": 643,
+   "exit&flip": 434,
+   "exit&\u0394\u2032YES-only": 169,
+   "exit&neither": 40,
+   "noexit": 22,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('r', 's_i')), ('n_sM', ('s_M', 's_i')))": {
+   "legal": 697,
+   "exit": 670,
+   "exit&flip": 474,
+   "exit&\u0394\u2032YES-only": 152,
+   "exit&neither": 44,
+   "noexit": 27,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('r', 's_i')), ('B2', ('r', 's_M')))": {
+   "legal": 576,
+   "exit": 559,
+   "exit&flip": 380,
+   "exit&\u0394\u2032YES-only": 139,
+   "exit&neither": 40,
+   "noexit": 17,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('s_M', 's_i')), ('B2', ('r', 's_M')))": {
+   "legal": 572,
+   "exit": 553,
+   "exit&flip": 376,
+   "exit&\u0394\u2032YES-only": 140,
+   "exit&neither": 37,
+   "noexit": 19,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('s_M', 's_i')), ('B2', ('r', 's_i')))": {
+   "legal": 552,
+   "exit": 533,
+   "exit&flip": 348,
+   "exit&\u0394\u2032YES-only": 146,
+   "exit&neither": 39,
+   "noexit": 19,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_M')), ('n_si', ('r', 's_i')))": {
+   "legal": 112,
+   "exit": 107,
+   "exit&flip": 80,
+   "exit&\u0394\u2032YES-only": 24,
+   "exit&neither": 3,
+   "noexit": 5,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_M')), ('n_si', ('s_M', 's_i')))": {
+   "legal": 114,
+   "exit": 109,
+   "exit&flip": 84,
+   "exit&\u0394\u2032YES-only": 23,
+   "exit&neither": 2,
+   "noexit": 5,
+   "noexit&flip": 0
+  },
+  "(('B1', ('r', 's_i')), ('n_si', ('s_M', 's_i')))": {
+   "legal": 122,
+   "exit": 117,
+   "exit&flip": 90,
+   "exit&\u0394\u2032YES-only": 24,
+   "exit&neither": 3,
+   "noexit": 5,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('r', 's_i')), ('B1', ('r', 's_M')))": {
+   "legal": 122,
+   "exit": 117,
+   "exit&flip": 89,
+   "exit&\u0394\u2032YES-only": 26,
+   "exit&neither": 2,
+   "noexit": 5,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('s_M', 's_i')), ('B1', ('r', 's_M')))": {
+   "legal": 120,
+   "exit": 115,
+   "exit&flip": 88,
+   "exit&\u0394\u2032YES-only": 24,
+   "exit&neither": 3,
+   "noexit": 5,
+   "noexit&flip": 0
+  },
+  "(('n_si', ('s_M', 's_i')), ('B1', ('r', 's_i')))": {
+   "legal": 116,
+   "exit": 111,
+   "exit&flip": 81,
+   "exit&\u0394\u2032YES-only": 27,
+   "exit&neither": 3,
+   "noexit": 5,
+   "noexit&flip": 0
+  }
+ },
+ "zz": [
+  [
+   [
+    "Z2\u2216Z4",
+    "other"
+   ],
+   580
+  ],
+  [
+   [
+    "\u00acZ2\u2229Z4",
+    "other"
+   ],
+   1265
+  ],
+  [
+   [
+    "Z2\u2229Z4",
+    "r"
+   ],
+   1233
+  ],
+  [
+   [
+    "Z2\u2229Z4",
+    "other"
+   ],
+   720
+  ],
+  [
+   [
+    "Z2\u2216Z4",
+    "r"
+   ],
+   421
+  ],
+  [
+   [
+    "\u00acZ2\u2229Z4",
+    "r"
+   ],
+   160
+  ],
+  [
+   [
+    "\u00acZ2\u2216Z4",
+    "r"
+   ],
+   19
+  ],
+  [
+   [
+    "\u00acZ2\u2229Z4",
+    "near"
+   ],
+   3
+  ],
+  [
+   [
+    "\u00acZ2\u2216Z4",
+    "other"
+   ],
+   1
+  ],
+  [
+   [
+    "Z2\u2216Z4",
+    "near"
+   ],
+   1
+  ]
+ ]
+}

@@ -1,0 +1,18 @@
+======================================================================
+Toy 5604 — Errera exhaustive, every degree-5 vertex
+======================================================================
+
+  Errera: n=17, m=45 (3n-6=45), triangulation faces ok=True, degrees {5: 12, 6: 5}
+    v=0: colorings 100, stuck 30, one-word direct 30/30 (no-context 0), classes 1 sizes [100], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=1: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=3: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=4: colorings 100, stuck 30, one-word direct 30/30 (no-context 0), classes 1 sizes [100], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=5: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=7: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=10: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=11: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=12: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=14: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=15: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+    v=16: colorings 80, stuck 14, one-word direct 14/14 (no-context 0), classes 1 sizes [80], insertable classes 1, stuck-in-non-insertable-class 0  [0s]
+  Errera TOTAL: deg-5 vertices 12, stuck 200, ONE-WORD 200/200, classes 12 / insertable 12, kills 0

@@ -1,0 +1,39 @@
+======================================================================
+Toy 5593 — one-word insertion on every stuck configuration
+======================================================================
+
+  1072 configurations; records hashed BEFORE the counts: sha256 4859a4d77b788c3dda0608459ab95545...
+
+  per population (stuck n, one-word GATE exists, one-word DIRECT exists):
+    Fritsch: [72, 72, 72]
+    T3: [250, 250, 250]
+    B-errera: [250, 250, 250]
+    D-flip2: [250, 250, 250]
+    D-flip3: [250, 250, 250]
+
+  [PASS] 1. FRITSCH EXHAUSTIVE: 72/72 stuck colorings have a fully-legal family word into the gate phase
+
+  [PASS] 2. Harvested populations: {'T3': '250/250', 'B-errera': '250/250', 'D-flip2': '250/250', 'D-flip3': '250/250'}
+
+  [PASS] 3. DIRECT exit (a color absent at v after ONE word): 1072/1072; GATE exit (direct or one swap): 1072/1072
+
+  [PASS] 4. Hitting-word shapes (role, pair, role, pair) among DIRECT hits, top 12 of 31:
+       715  ('B1', ('r', 's_i'), 'B2', ('r', 's_j'))
+       715  ('B1', ('r', 's_i'), 'n_sj', ('r', 's_j'))
+       715  ('B2', ('r', 's_j'), 'B1', ('r', 's_i'))
+       715  ('B2', ('r', 's_j'), 'n_si', ('r', 's_i'))
+       519  ('n_si', ('s_i', 's_j'), 'B2', ('r', 's_i'))
+       499  ('n_sj', ('s_i', 's_j'), 'B1', ('r', 's_j'))
+       270  ('n_sM', ('s_M', 's_j'), 'n_si', ('s_M', 's_i'))
+       252  ('B1', ('r', 's_j'), 'B2', ('r', 's_i'))
+       240  ('B1', ('r', 's_j'), 'B2', ('r', 's_M'))
+       235  ('B2', ('r', 's_i'), 'B1', ('r', 's_j'))
+       225  ('B2', ('r', 's_i'), 'B1', ('r', 's_M'))
+       200  ('B1', ('r', 's_i'), 'B2', ('r', 's_M'))
+  role-pair histogram: {('B1', 'B2'): 1407, ('B2', 'B1'): 1375, ('B1', 'n_sj'): 724, ('n_si', 'B2'): 716, ('B2', 'n_si'): 715, ('n_sj', 'B1'): 696, ('n_sM', 'n_si'): 620, ('n_sM', 'n_sj'): 355, ('n_si', 'B1'): 169, ('n_sj', 'n_sM'): 161, ('B1', 'n_si'): 157, ('B2', 'n_sj'): 157, ('n_si', 'n_sM'): 135, ('n_sj', 'B2'): 81}
+
+  [PASS] 5. Status counts: {'stuck': 1072} (no-context = stuck but role_map None; not-stuck = harvest entry failing the stuck predicate)
+
+======================================================================
+Toy 5593 -- SCORE: 5/5  (can-fail: 1, 2, 3)
+======================================================================

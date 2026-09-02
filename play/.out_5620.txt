@@ -1,0 +1,9 @@
+======================================================================
+Toy 5620 — far-chain bits on the bridge-fail set (decisive test)
+======================================================================
+  CONTROL the 349: {(True, True, True, True, True): 349}  (all-True required)  [20s]
+
+  BRIDGE-FAIL SET (1211; 5608: 1,211): far-chain condition (F1..F4 all true) holds on 1121/1211; all five bits 1002/1211
+    patterns (F1,F2,F3,F4,F5): {(True, True, True, True, True): 1002, (True, True, True, True, False): 119, (True, True, False, False, True): 25, (True, False, True, False, True): 16, (True, False, True, False, False): 11, (False, True, False, True, True): 9, (True, False, False, False, True): 8, (False, False, False, False, True): 4}
+  BASE RATE (1-in-50 sample of all in-frame stuck, 7493): F1..F4 all true 2588/7493; all five 1977/7493
+    patterns: {(True, True, True, True, True): 1977, (False, False, False, False, True): 1595, (False, True, False, True, True): 621, (True, True, True, True, False): 611, (True, False, True, False, True): 591, (True, True, False, False, True): 526, (False, True, False, False, True): 331, (True, False, False, False, True): 292}  [344s]

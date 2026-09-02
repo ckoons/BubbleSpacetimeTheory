@@ -1,0 +1,19 @@
+======================================================================
+Toy 5601 — the 334 in-frame not-hit configurations
+======================================================================
+  334 configurations processed [4s]
+
+  (a) GATE-PHASE exit by one fully-legal word (tau<=5): 308/334; direct (must be 0): 0; legal images per config {8: 2, 11: 3, 16: 6, 17: 4, 18: 22, 19: 1, 20: 1, 21: 9, 22: 54, 23: 69, 24: 163}
+
+  (b) WORD-DEPTH to exit (fully-legal words, canonical context re-derived per node): {(1, 'gate'): 308, (2, 'gate'): 26}
+      by n: {17: {(1, 'gate'): 48, (2, 'gate'): 8}, 19: {(1, 'gate'): 2}, 20: {(1, 'gate'): 25}, 21: {(1, 'gate'): 233, (2, 'gate'): 18}}
+
+  (c) SINGLE-SWAP NULL: some single Kempe swap reaches gate phase 42/334; reaches a direct exit 0/334; swaps per config median 60
+
+  NOT REACHED within depth 3 (frontier-capped): 0
+    deepest: {'n': 17, 'gi': 0, 'v': 4, 'legal': 24, 'gate1': 0, 'direct1': 0, 'nullA': 48, 'null_gate': 0, 'null_direct': 0, 'depth': (2, 'gate'), 'explored': 8}
+    deepest: {'n': 17, 'gi': 0, 'v': 4, 'legal': 24, 'gate1': 0, 'direct1': 0, 'nullA': 48, 'null_gate': 0, 'null_direct': 0, 'depth': (2, 'gate'), 'explored': 8}
+    deepest: {'n': 17, 'gi': 0, 'v': 6, 'legal': 24, 'gate1': 0, 'direct1': 0, 'nullA': 48, 'null_gate': 0, 'null_direct': 0, 'depth': (2, 'gate'), 'explored': 8}
+    deepest: {'n': 17, 'gi': 0, 'v': 6, 'legal': 24, 'gate1': 0, 'direct1': 0, 'nullA': 48, 'null_gate': 0, 'null_direct': 0, 'depth': (2, 'gate'), 'explored': 8}
+    deepest: {'n': 17, 'gi': 1, 'v': 5, 'legal': 24, 'gate1': 0, 'direct1': 0, 'nullA': 48, 'null_gate': 0, 'null_direct': 0, 'depth': (2, 'gate'), 'explored': 9}
+    deepest: {'n': 17, 'gi': 1, 'v': 5, 'legal': 24, 'gate1': 0, 'direct1': 0, 'nullA': 48, 'null_gate': 0, 'null_direct': 0, 'depth': (2, 'gate'), 'explored': 8}

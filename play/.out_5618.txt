@@ -1,0 +1,16 @@
+========================================================================
+Toy 5618 — Grace — Cal-exact trajectory type on 5831 configurations
+========================================================================
+
+  hashed BEFORE counts 4f04fda757d02550285c638ed69d50d6… [4s]
+[CONTROL — Cal's forced entries] {'X2∋B1,nsj,nsi ∌B2,nsM': 11662, 'X3∋B2 ∌B1,nsi,nsM': 11662, 'X4∋B1': 11662, 'n': 11662, 'ΔNO⟹X4⊇link4': 8533, 'ΔNO n': 8533, 'X2∩θγεβαδ=1': 11662, 'X3∩θδ=1': 11662, 'X4∩θγ=1': 11662, 'hard&stuck⟹X3∩X4=1': 1880, 'hard&stuck n': 1880}
+[FIFTH BIT δγ∨ζη] locked 401/401; unlocked 4813/5430
+
+[TRAJECTORY TYPE — Cal's position]
+  FULL (a+b+c+d): bits 68 (constant 28); types 1259; pure-locked 12 · pure-unlocked 1236 · mixed 11; unlocked in locked-free types 5221/5430; locked in pure-locked types 29/401; locked types 23
+  WITHOUT Lemma-T bits (a+c+d) — the other 184 words' content: bits 60 (constant 28); types 738; pure-locked 9 · pure-unlocked 715 · mixed 14; unlocked in locked-free types 5081/5430; locked in pure-locked types 23/401; locked types 23
+  (c)+(d) only: bits 54 (constant 28); types 424; pure-locked 6 · pure-unlocked 407 · mixed 11; unlocked in locked-free types 4902/5430; locked in pure-locked types 18/401; locked types 17
+  (b) Lemma-T bits only — expected pure by theorem for the bridge words: bits 8 (constant 0); types 57; pure-locked 0 · pure-unlocked 56 · mixed 1; unlocked in locked-free types 5165/5430; locked in pure-locked types 0/401; locked types 1
+  Lemma-T bit words on locked: {(1, 0, 1, 1, 1, 0, 1, 1): 401}
+
+  written .out_5618.json [5s]

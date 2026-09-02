@@ -1,0 +1,50 @@
+========================================================================
+Toy 5614 — Grace — LANE F type table, n = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+========================================================================
+  n=12: graphs 1; stuck typed 0; sampled 0; types so far 0  [0s / 0s]
+  n=13: graphs 0; stuck typed 0; sampled 0; types so far 0  [0s / 0s]
+  n=14: graphs 1; stuck typed 36; sampled 36; types so far 1  [0s / 0s]
+  n=15: graphs 1; stuck typed 0; sampled 0; types so far 1  [0s / 0s]
+  n=16: graphs 3; stuck typed 144; sampled 144; types so far 11  [1s / 1s]
+  n=17: graphs 4; stuck typed 775; sampled 775; types so far 23  [3s / 4s]
+  n=18: graphs 12; stuck typed 1345; sampled 1345; types so far 26  [6s / 10s]
+  n=19: graphs 23; stuck typed 3523; sampled 770; types so far 35  [5s / 15s]
+  n=20: graphs 71; stuck typed 17523; sampled 767; types so far 35  [15s / 31s]
+  n=21: graphs 187; stuck typed 64015; sampled 745; types so far 40  [49s / 80s]
+  n=22: graphs 627; stuck typed 287297; sampled 763; types so far 40  [227s / 307s]
+
+  sample 5531 configurations saved (.lane_f_sample.json), hashed BEFORE counts: 44d18063ef7e774350d1eff43719ad45…  [308s]
+
+[CENSUS] in-frame stuck colorings typed: 374658; distinct 0/1 types: 40; refined (size) types: 86848; no-roles: 0
+  top types (bits→count):
+    1101111110100110001100110010: 78420
+    1101111110110110011111010011: 47266
+    1101111110110110011111110010: 37856
+    1101111110110110011111010010: 31375
+    1101111110100110011101110010: 30932
+    1101111110110110001110110010: 30512
+    1101111110110110011100110010: 15599
+    1101111110110110001100110010: 15406
+    1101111110100110011100110010: 15315
+    1101111110110110011111110011: 13813
+    1101111110110110011100110011: 9913
+    1101111110100110001110110010: 8287
+  types per n: {14: 1, 16: 10, 17: 23, 18: 24, 19: 30, 20: 35, 21: 40, 22: 40}
+
+[LOCK vs TYPE] types in sample: 35; pure-locked 0; pure-unlocked 32; MIXED 3
+    MIXED 1101111110110110011111010011: locked 27 unlocked 693 srcs {'census': 680, 'matched': 15, 'witness': 25}
+    MIXED 1101111110110110011111110010: locked 55 unlocked 630 srcs {'census': 595, 'matched': 39, 'witness': 51}
+    MIXED 1101111110110110011111110011: locked 19 unlocked 165 srcs {'census': 159, 'witness': 17, 'matched': 8}
+
+[THE 93] land in 3 types: [('1101111110110110011111110010', 51), ('1101111110110110011111010011', 25), ('1101111110110110011111110011', 17)]
+[MATCHED 93] land in 14 types: [('1101111110110110011111110010', 39), ('1101111110110110011111010011', 15), ('1101111110110110011111010010', 13), ('1101111110110110011111110011', 8), ('1101111110100110001100110010', 4), ('1101111110110110001110110010', 3), ('1101111110110110011100110010', 2), ('1101111110100110001101110010', 2)]
+    witness type 1101111110110110011111110010: in census 37856 ; in sample locked 55 unlocked 630; images {7: 13, 8: 31, 9: 31, 10: 89, 11: 91, 12: 123, 13: 133, 14: 80, 15: 68, 16: 20, 17: 6}
+    witness type 1101111110110110011111010011: in census 47266 ; in sample locked 27 unlocked 693; images {8: 26, 9: 20, 10: 46, 11: 39, 12: 95, 13: 156, 14: 151, 15: 108, 16: 57, 17: 20, 18: 2}
+    witness type 1101111110110110011111110011: in census 13813 ; in sample locked 19 unlocked 165; images {8: 11, 9: 8, 10: 6, 11: 8, 12: 19, 13: 48, 14: 32, 15: 26, 16: 20, 17: 4, 18: 1, 19: 1}
+
+[EXITING ORBIT vs TYPE] types with a single exit-set signature: 3/35
+  exiting orbits seen: 18; top: [("(('B1', ('r', 's_j')), ('B2', ('r', 's_i')))", 5165), ("(('B1', ('r', 's_j')), ('n_si', ('r', 's_i')))", 4851), ("(('n_si', ('s_i', 's_j')), ('B1', ('r', 's_i')))", 4320), ("(('n_si', ('s_M', 's_i')), ('B1', ('r', 's_i')))", 4063), ("(('B1', ('r', 's_M')), ('n_si', ('r', 's_i')))", 3664), ("(('B1', ('r', 's_j')), ('B2', ('r', 's_M')))", 3297)]
+
+[IMAGES by lock] locked {8: 56, 9: 22, 10: 10, 11: 7, 13: 4, 14: 2}; unlocked {7: 96, 8: 65, 9: 219, 10: 508, 11: 714, 12: 884, 13: 1417, 14: 782, 15: 507, 16: 176, 17: 53, 18: 7, 19: 2}
+
+  written .out_5614.json [308s]

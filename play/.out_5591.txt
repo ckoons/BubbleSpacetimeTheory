@@ -1,0 +1,37 @@
+======================================================================
+Toy 5591 — gate-aware potential: the corrected legal-only floor
+======================================================================
+
+  the 54: verdicts hashed BEFORE the count: sha256 9a0cb16b16a93dbf1957c74d812a7709...
+  outcomes: {'freed': 54}; halts via a gate-phase image: 54; step-counts: {1: 54}
+
+  [PASS] 1. The 54, legal-only, gate-aware: 54/54 (5587 floor was 48/54)
+
+  the 1,801: verdicts hashed BEFORE the count: sha256 d90fbe71f665a67e8bafdde100cf9f96...
+    2a 2A-stack14s11: {'freed': 24}
+    2a 2A-stack14s12: {'freed': 24}
+    2a 2A-stack18s11: {'freed': 24}
+    2a 2A-stack18s12: {'freed': 24}
+    2a 2A-stack24s11: {'freed': 24}
+    2a 2A-stack24s12: {'freed': 24}
+    2a 2A-stack30s11: {'freed': 24}
+    2a 2A-stack30s12: {'freed': 24}
+    2a 2B-kittell-h3: {'freed': 200}
+    2a 2C-T6: {'freed': 200}
+    2a 2D-flip2o7: {'freed': 200}
+    2b 2B-kittell-h3: {'freed': 55}
+    2b 2C-T6: {'freed': 328}
+    2b 2D-flip2o7: {'freed': 626}
+  step-counts: {1: 1801}; halts via a gate-phase image: 1801
+
+  [PASS] 2. The 1,801, legal-only, gate-aware: 1801/1801
+
+  residue 0: d-hat at stall distribution {}
+
+  [PASS] 3. Residue exhibited by hole
+
+  [PASS] 4. Gate-hit accounting: 54/54 and 1801/1801 halts came through an unsampled gate-phase image (the 5590 correction)
+
+======================================================================
+Toy 5591 -- SCORE: 4/4  (can-fail: 1, 2)
+======================================================================

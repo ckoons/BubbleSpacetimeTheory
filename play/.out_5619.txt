@@ -1,0 +1,13 @@
+========================================================================
+Toy 5619 — Grace — five bits on the bridge-fail set, n = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+================================  349 locked done [21s]
+  sample done: 9365 unlocked rows [310s]
+
+  CONTROL (b): locked rows in Lemma T's hard cell for BOTH bridge words: 349/349
+  CONTROL (d): constant stage-by-c0 bits for W_i: 13/24 [('X2∩α', True), ('X2∩β', True), ('X2∩γ', True), ('X2∩δ', True), ('X2∩ε', True), ('X2∩ζ', True), ('X2∩θ', True), ('X3∩δ', True), ('X3∩η', True), ('X3∩θ', True), ('X4∩γ', True), ('X4∩ζ', True), ('X4∩θ', True)]
+  (c) stage-pair bits W_i (X2X3, X2X4, X3X4) constant? [False, True, False]
+  (a) c0 eight-chain bit-type: types 38; types holding a locked config 3; PURE (no unlocked member in the sample) 0; unlocked sample members inside locked types 2451 of 9365; worst mixed [(1149, 118), (980, 162), (322, 69)]
+  (c)+(d) trajectory sub-type: types 692; types holding a locked config 16; PURE (no unlocked member in the sample) 1; unlocked sample members inside locked types 718 of 9365; worst mixed [(147, 73), (130, 43), (130, 3), (114, 55), (71, 136), (36, 3)]
+  FULL type (a)+(b)+(c)+(d): types 1578; types holding a locked config 22; PURE (no unlocked member in the sample) 7; unlocked sample members inside locked types 190 of 9365; worst mixed [(71, 52), (56, 79), (14, 57), (14, 17), (11, 9), (5, 43)]
+  CAL-CORE-like: (c) only, both words: types 9; types holding a locked config 1; PURE (no unlocked member in the sample) 0; unlocked sample members inside locked types 3111 of 9365; worst mixed [(3111, 349)]
+  [311s]

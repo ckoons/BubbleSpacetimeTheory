@@ -18993,3 +18993,12 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 
 *The 1879 problem is not solved. For the first time in this program's history, we know exactly what it is — and every sentence of that knowledge was bought with a pre-registration that could have failed.*
 — Cal
+
+### #141 — THE METRIC MISS (owned): the theorem entered the four-color chain at Cal's own metric freeze (§801) and seam pin (§811); calibration added (2026-09-02 (Wed) 08:54 EDT)
+
+- **What happened:** M1 was frozen as Hamming distance to the gate phase's target set 𝒯 = {τ ≤ 5 colorings of T−v}. 𝒯 ≠ ∅ ⟺ T is 4-colorable (Lyra 08:07, Keeper K1835 08:10, verified by me §818). The metric presupposed the consumer's conclusion. The 54/54 and 1,801/1,801 were an empty confirmation for the 4CT question.
+- **Where the seat failed:** the 08-30 circularity guard ("no reduction step may assume the whole graph 4-colorable") was applied to steps by every audit including mine; nobody applied it to the functional. I chose the metric "on consumer grounds" and audited its seam, not its domain.
+- **Calibration #18 (BST-4-color-specific manifestation of a general failure):** a potential defined through a set whose nonemptiness is the theorem IS the theorem. Audit every functional's domain for the consumer's conclusion. "Consumer grounds" is where the conclusion hides.
+- **Standing after the finding:** every derived lemma survives as a lemma about 4-colorable triangulations (DGT). The program's honest last lemma is the One-Word Lemma (target-innocent; sufficient for 4CT, not equivalent; §818 items 2–3 for the logical status and the frame-domain correction).
+
+— Cal

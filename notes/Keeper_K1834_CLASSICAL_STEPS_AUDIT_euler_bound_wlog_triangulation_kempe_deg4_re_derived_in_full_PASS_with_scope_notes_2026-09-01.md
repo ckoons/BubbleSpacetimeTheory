@@ -160,3 +160,61 @@ the right frame. Cal's confirm of this two-line substitution is owed — and per
 twice-confirmed lesson, the frame is stated in the text, not assumed from the sketch.
 
 — Keeper, K1834 v0.3.
+
+---
+**SCOPE NOTE on A3, 2026-09-02 08:10 (K1835 ruling):** "induction skeleton — SOUND, NO CIRCULARITY" holds for the skeleton in isolation. The Insertion Theorem it consumes at the deg-5 case measures descent toward 𝒯(T,v), which is nonempty iff T is 4-colorable; so the chain AS ASSEMBLED assumes 4CT(T) at a minimal counterexample. A3's verdict is unchanged for A3; the chain's consumption line is STRUCK (see K1835). The classical steps stand at zero citations. — Keeper
+
+---
+
+## A5 (added 2026-09-02 08:53) — BIRKHOFF'S SEPARATING-CYCLE LEMMAS, RE-DERIVED IN FULL (zero citations), for the minimal-counterexample frame proposed in K1836
+
+**Setting.** T a sphere triangulation that is a MINIMAL counterexample: not 4-colorable, every sphere
+triangulation with fewer vertices 4-colorable. A cycle C of T is *separating* if T − V(C) is disconnected;
+write I (inside) and O (outside) for the two sides, both nonempty.
+
+**A5.1 — no separating triangle.** Let C = (a,b,c) separate. T₁ := C ∪ I and T₂ := C ∪ O are sphere
+triangulations (C bounds a face in each) with fewer vertices than T (T₁ omits O ≠ ∅, T₂ omits I ≠ ∅). Each is
+4-colorable by minimality; on C each coloring uses three distinct colors (a,b,c pairwise adjacent). Permute
+T₂'s colors so it agrees with T₁ on C. Every edge of T lies in T₁ or T₂ (an edge with one end in I and one in O
+would cross C — impossible; edges within C, I∪C, O∪C are covered), so the glued coloring is proper. ∎
+
+**A5.2 — no separating 4-cycle.** Let C = (a,b,c,d) separate, in cyclic order. For a side S ∈ {I, O}, let
+D_S := C ∪ S (a near-triangulation with C as its one non-triangular face). D_S + ac and D_S + bd (a chord
+added inside the 4-face) are sphere triangulations with fewer vertices than T, hence 4-colorable. Their
+colorings restricted to C realize, up to color permutation, one of three *patterns*:
+P_Y: a,b,c,d all distinct · P_ac: a=c, b≠d · P_bd: b=d, a≠c. (Chord ac forbids a=c; chord bd forbids b=d.)
+Deleting the chord leaves a proper coloring of D_S with the same pattern. So each side realizes, on D_S,
+at least one pattern from D_S+ac (P_Y or P_bd) and one from D_S+bd (P_Y or P_ac).
+
+*Claim: if a side realizes P_Y, it realizes AT LEAST ONE of P_ac, P_bd.* (Corrected 2026-09-02 — the first
+draft said "both"; the Kempe argument gives one, and one suffices.) Take a P_Y coloring of D_S (no chord),
+colors a,b,c,d = 1,2,3,4. Let K_b be the (2,4)-Kempe chain of D_S containing b, K_a the (1,3)-chain containing a.
+(i) If d ∉ K_b: swap 2↔4 on K_b; b becomes 4 = color(d); a=1, c=3, d=4 unchanged; proper; pattern P_bd.
+(ii) If d ∈ K_b: K_b contains a path Q from b to d, all vertices colored 2 or 4, interior vertices in S (b, d
+are the only boundary vertices so colored). Q is a simple arc in the closed disc D_S bounded by C joining
+boundary points b and d; it separates the disc into two regions whose boundaries contain a and c respectively
+(b and d split the boundary circle into the arc through a and the arc through c) — the Jordan step of K1832/
+K1834 scope note S4, embedding present. A (1,3)-path from a to c inside D_S would have to meet Q, but shares
+no vertex with it (disjoint color sets) and cannot cross it in an edge interior in a plane embedding. So
+c ∉ K_a; swap 1↔3 on K_a; a becomes 3 = color(c); b=2, d=4 unchanged; proper; pattern P_ac. ∎(claim)
+
+*What each side realizes.* Case A — the side realizes P_Y: then by the claim also P_ac or P_bd. Case B — the
+side realizes no P_Y: then D_S+ac forces P_bd and D_S+bd forces P_ac, so the side realizes BOTH P_ac and P_bd.
+
+*Gluing.* (B, B): share P_ac. (A, B): the A-side realizes one of P_ac/P_bd, the B-side both — share it.
+(A, A): share P_Y. "Glue" = permute one side's colors to agree on C (a pattern fixes C's coloring up to
+permutation) and take the union; proper by the edge-coverage argument of A5.1. T is 4-colored —
+contradiction. ∎
+
+**A5.3 — δ(T) = 5.** δ ≤ 5 by A1 (Euler); δ ≥ 5 because vertices of degree ≤ 4 are reducible (A4, Kempe
+deg ≤ 4, re-derived 09-01). ∎
+
+**Inputs, enumerated:** minimality (the IH) · Kempe swaps preserve properness (definitional) · the Jordan/disc
+separation step (S4, embedding present) · A1 and A4 of this audit. **No citation.** The separating-5-cycle case
+(the rest of "internally 6-connected") is NOT derived here; the frame proposed in K1836 uses only A5.1–A5.3
+(call the class **B4**: no separating 3- or 4-cycles, δ = 5 — for triangulations this is exactly 5-CONNECTED, plantri `-c5`). Consequence used downstream: in B4 the link of
+every degree-5 vertex is an INDUCED 5-cycle (a chord x–y of the link with v gives a separating triangle v,x,y
+unless it bounds a face, which it cannot at degree 5).
+
+**Verdict:** A5.1–A5.3 PASS at zero citations, conditional on Cal's cold read (the Jordan step in A5.2(ii) is
+the one place a frame could slip — I have stated it with the disc, not the sphere). — Keeper

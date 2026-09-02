@@ -1,0 +1,31 @@
+======================================================================
+Toy 5589 — legal-only DGT on the 1,801; residue vs deep sets
+======================================================================
+
+  1,801 shallow verdicts (legal-only + switching) hashed BEFORE the count: sha256 73d4b17d0c571908bae24b22d31766fe...
+
+  by hole (n, legal-only freed, switching freed):
+    2a 2A-stack14s11: [24, 24, 24]
+    2a 2A-stack14s12: [24, 24, 24]
+    2a 2A-stack18s11: [24, 24, 24]
+    2a 2A-stack18s12: [24, 24, 24]
+    2a 2A-stack24s11: [24, 24, 24]
+    2a 2A-stack24s12: [24, 24, 24]
+    2a 2A-stack30s11: [24, 24, 24]
+    2a 2A-stack30s12: [24, 24, 24]
+    2a 2B-kittell-h3: [200, 172, 187]
+    2a 2C-T6: [200, 142, 200]
+    2a 2D-flip2o7: [200, 174, 189]
+    2b 2B-kittell-h3: [55, 50, 55]
+    2b 2C-T6: [328, 250, 310]
+    2b 2D-flip2o7: [626, 531, 591]
+  legal-only step-counts: {1: 1389, 2: 110, 3: 11, 4: 1}
+
+  [FAIL] 1. LEGAL-ONLY DGT on the 1,801 (shallow): 1511/1801
+
+  [PASS] 2. Pre-legality residue reproduced: 77 (5586: 77)
+  deep set 2B-kittell-h3: 8917 (shallow 752; 46 stalls seeded) sha256 8361a0ebcc0f4388...
+  deep set 2C-T6: 142851 (shallow 743; 154 stalls seeded) sha256 e8c00c0720e03224...
+  deep set 2D-flip2o7: 307739 (shallow 803; 167 stalls seeded) sha256 b94bd05b4ffd035a...
+
+  [PASS] 3. Deep sets committed for 3 residue holes

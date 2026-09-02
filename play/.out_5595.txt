@@ -1,0 +1,32 @@
+======================================================================
+Toy 5595 — E-B the hitting set
+======================================================================
+
+  configurations: 2873 deduplicated (1,072 whole stuck sets + 0 of the 54 not already present + tranches); nominal 2,927
+  hit sets hashed BEFORE the counts: sha256 a4af89cf135a99c56b728f64d84578ca...
+  configurations with EMPTY hit set: 0 []
+  hit-set sizes: min 4, median 6, max 14
+
+  MINIMUM HITTING SET — per population and cumulative:
+    Fritsch   n=   72: min 2 | cumulative n=   72: min 2 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('n_sj', ('s_M', 's_j')), ('B1', ('r', 's_M')))]
+    T3        n=  250: min 3 | cumulative n=  322: min 3 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_j')), ('B1', ('r', 's_M'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j')))]
+    B-errera  n=  250: min 3 | cumulative n=  572: min 3 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_j')), ('B1', ('r', 's_M'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j')))]
+    D-flip2   n=  250: min 1 | cumulative n=  822: min 3 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_j')), ('B1', ('r', 's_M'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j')))]
+    D-flip3   n=  250: min 3 | cumulative n= 1072: min 3 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_j')), ('B1', ('r', 's_M'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j')))]
+    2a        n=  792: min 3 | cumulative n= 1864: min 3 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))), (('B2', ('r', 's_j')), ('B1', ('r', 's_M')))]
+    2b        n= 1009: min 3 | cumulative n= 2873: min 3 words [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))), (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))]
+
+  ALL 2873: minimum hitting set = 3 (exact): [(('B2', ('r', 's_j')), ('B1', ('r', 's_i'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))), (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i')))]
+  ORBIT level (93 mirror orbits): minimum hitting set = 3 (exact): [[(('B1', ('r', 's_i')), ('B2', ('r', 's_j'))), (('B2', ('r', 's_j')), ('B1', ('r', 's_i')))], [(('B1', ('r', 's_j')), ('B2', ('r', 's_i'))), (('B2', ('r', 's_i')), ('B1', ('r', 's_j')))], [(('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i'))), (('n_sM', ('r', 's_M')), ('n_sj', ('s_M', 's_j')))]]
+  the pre-named 4-word set misses 331/2873
+
+  PATTERN TABLE for the 3-word set:
+    distinct patterns: 8; Net-Support containment supp ⊆ (X1△X3)∪(X2△X4): 3147/3147
+      987  w99 (('B2', ('r', 's_j')), ('B1', ('r', 's_i'))) roles/stage (('B2', 'n_sj'), ('B1', 'n_si', 'n_sj'), ('B2',), ('B1', 'B2', 'n_si', 'n_sj')) meets (1, 1, 1, 0, 1, 1) frees ('s_j',)
+      934  w99 (('B2', ('r', 's_j')), ('B1', ('r', 's_i'))) roles/stage (('B2', 'n_sj'), ('B1', 'n_si', 'n_sj'), ('B2',), ('B1', 'B2', 'n_si', 'n_sj')) meets (1, 1, 1, 1, 1, 1) frees ('s_j',)
+      520  w43 (('n_sM', ('r', 's_M')), ('n_si', ('s_M', 's_i'))) roles/stage (('B1', 'B2', 'n_sM'), ('B1', 'B2', 'n_si'), ('n_sM',), ('B1', 'B2', 'n_sM', 'n_si')) meets (1, 1, 1, 1, 1, 1) frees ('r',)
+      486  w87 (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))) roles/stage (('B2', 'n_si'), ('B1', 'n_si', 'n_sj'), ('B2',), ('B1', 'B2', 'n_si', 'n_sj')) meets (1, 1, 1, 0, 1, 1) frees ('s_i',)
+      133  w87 (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))) roles/stage (('B2', 'n_si'), ('B1', 'n_si', 'n_sj'), ('B2',), ('B1', 'B2', 'n_si', 'n_sj')) meets (1, 1, 1, 1, 1, 1) frees ('s_i',)
+       39  w87 (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))) roles/stage (('B2',), ('B1',), ('B2', 'n_si'), ('B1', 'B2', 'n_si', 'n_sj')) meets (1, 1, 1, 1, 1, 1) frees ('s_i',)
+       39  w87 (('B2', ('r', 's_i')), ('B1', ('r', 's_j'))) roles/stage (('B2',), ('B1',), ('B2', 'n_si'), ('B1', 'B2', 'n_si', 'n_sj')) meets (0, 1, 1, 1, 1, 1) frees ('s_i',)
+        9  w99 (('B2', ('r', 's_j')), ('B1', ('r', 's_i'))) roles/stage (('B2',), ('B1',), ('B2', 'n_sj'), ('B1', 'B2', 'n_si', 'n_sj')) meets (1, 1, 1, 1, 1, 1) frees ('s_j',)

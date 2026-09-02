@@ -1,0 +1,80 @@
+{
+ "summary": {
+  "12": {
+   "pairs": 12,
+   "colorings": 240,
+   "stuck": 0
+  },
+  "13": {},
+  "14": {
+   "pairs": 12,
+   "colorings": 480,
+   "stuck": 36,
+   "pairs_with_stuck": 12,
+   "classes": 12,
+   "classes_ins": 12
+  },
+  "15": {
+   "pairs": 12,
+   "colorings": 576,
+   "stuck": 0
+  },
+  "16": {
+   "pairs": 38,
+   "colorings": 2388,
+   "stuck": 144,
+   "pairs_with_stuck": 24,
+   "classes": 24,
+   "classes_ins": 24
+  },
+  "17": {
+   "pairs": 49,
+   "colorings": 3498,
+   "stuck": 775,
+   "pairs_with_stuck": 49,
+   "classes": 49,
+   "classes_ins": 49
+  },
+  "18": {
+   "pairs": 156,
+   "colorings": 15620,
+   "stuck": 1345,
+   "pairs_with_stuck": 144,
+   "classes": 152,
+   "classes_ins": 152
+  },
+  "19": {
+   "pairs": 306,
+   "colorings": 41021,
+   "stuck": 3523,
+   "pairs_with_stuck": 297,
+   "classes": 297,
+   "classes_ins": 297
+  },
+  "20": {
+   "pairs": 969,
+   "colorings": 174076,
+   "stuck": 17523,
+   "pairs_with_stuck": 969,
+   "classes": 969,
+   "classes_ins": 969
+  },
+  "21": {
+   "pairs": 2629,
+   "colorings": 603963,
+   "stuck": 64015,
+   "pairs_with_stuck": 2629,
+   "classes": 2641,
+   "classes_ins": 2641
+  },
+  "22": {
+   "pairs": 9073,
+   "colorings": 2761003,
+   "stuck": 287297,
+   "pairs_with_stuck": 9071,
+   "classes": 9116,
+   "classes_ins": 9116
+  }
+ },
+ "kills": []
+}

@@ -1,0 +1,42 @@
+========================================================================
+Toy 5617 — Grace — far-chain before/after exits on 349 witnesses; necessity; trajectory type
+========================================================================
+
+[A] 349 witnesses; records hashed BEFORE counts 83f562d09e52b10cdbb605bfcfb308bf…  [35s]
+  far-chain bits (αζ,βη,εζ,εη) on the locked set: {(1, 1, 1, 1): 349}  → necessity 349/349
+  types of the 349: {'1101111110110110011111110011': 69, '1101111110110110011111010011': 118, '1101111110110110011111110010': 162}
+  BEFORE→AFTER every legal first word, all witnesses — (exit | image's far-bits all 1 / status): {'True|True': 5954, 'False|True': 14279, 'True|False': 549}
+    n=17: {'True|True': 160, 'False|True': 320}
+    n=21: {'True|False': 60, 'False|True': 724, 'True|True': 291}
+    n=22: {'False|True': 977, 'True|True': 345, 'True|False': 53}
+    n=23: {'True|True': 816, 'False|True': 1768, 'True|False': 54}
+    n=24: {'True|True': 4342, 'False|True': 10490, 'True|False': 382}
+
+[B] census n ≤ 22: types with far-pattern 1111: 4/40; mass 130310/374658
+  locked through n=22 (the 49): in far-pattern types 49/49; outside 0
+    type 1101111110110110011111010010: census 31375; sample locked 0/451 (converse failure 451/451)
+    type 1101111110110110011111010011: census 47266; sample locked 27/720 (converse failure 693/720)
+    type 1101111110110110011111110010: census 37856; sample locked 55/685 (converse failure 630/685)
+    type 1101111110110110011111110011: census 13813; sample locked 19/184 (converse failure 165/184)
+
+[C] trajectory types on 5831 configurations (sample + n=23/24 witnesses) [37s]
+  CAL-CORE (X_a∩X_b, 6 bits): types 5; forced (constant) bits 3/6 at positions [0, 1, 4]; pure-locked 0 · pure-unlocked 3 · mixed 2
+     purity weighted by unlocked members: 2542/5430 unlocked lie in locked-free types; locked in pure-locked types 0/401
+     locked configurations land in 2 core-types; top: [('110111', 317), ('111111', 84)]
+     MIXED 111111: locked 84 unlocked 2355
+     MIXED 110111: locked 317 unlocked 533
+     exit-set a function of core-type on unlocked: 1/5 types single-signature
+  V7-FULL (core + X_k∩chain_l, 38 bits): types 85; forced (constant) bits 23/38 at positions [0, 1, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 27, 29, 30, 34, 36]; pure-locked 0 · pure-unlocked 75 · mixed 10
+     purity weighted by unlocked members: 4551/5430 unlocked lie in locked-free types; locked in pure-locked types 0/401
+     locked configurations land in 10 full-types; top: [('11011111011101111111111111111111011010', 119), ('11011111010101111111111111111111011011', 96), ('11011111011101111111111111111111011011', 69), ('11111111011101111111111111111111111111', 67), ('11011111010101111111111111111111011010', 20)]
+     MIXED 11111111010101111111111111111111111111: locked 2 unlocked 181
+     MIXED 11011111010101111111111111111111011011: locked 96 unlocked 115
+     MIXED 11011111011101111111111111111111011010: locked 119 unlocked 174
+     MIXED 11111111011101111111111111111111111111: locked 67 unlocked 193
+     MIXED 11011111010101111111111111111111011010: locked 20 unlocked 155
+     MIXED 11111111011101111111111111111111111110: locked 15 unlocked 27
+     exit-set a function of full-type on unlocked: 20/85 types single-signature
+
+[D] gallery: 377 witnesses, last FCW-377
+
+  written .out_5617.json [37s]

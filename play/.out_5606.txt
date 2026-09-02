@@ -1,0 +1,55 @@
+======================================================================
+Toy 5606 — Lane D: Kittell switch-alphabet BFS, the 49 vs matched depth-1
+======================================================================
+    n=17 g=0 v=4: WITNESS switch-distance 3, orbit(stuck, capped 20000) 240 | MATCHED depth-1: distance 1, orbit 240
+    n=17 g=0 v=4: WITNESS switch-distance 3, orbit(stuck, capped 20000) 240 | MATCHED depth-1: distance 1, orbit 120
+    n=17 g=0 v=6: WITNESS switch-distance 3, orbit(stuck, capped 20000) 240 | MATCHED depth-1: distance 1, orbit 120
+    n=17 g=0 v=6: WITNESS switch-distance 3, orbit(stuck, capped 20000) 240 | MATCHED depth-1: distance 1, orbit 120
+    n=17 g=1 v=5: WITNESS switch-distance 3, orbit(stuck, capped 20000) 432 | MATCHED depth-1: distance 3, orbit 432
+    n=17 g=1 v=5: WITNESS switch-distance 3, orbit(stuck, capped 20000) 432 | MATCHED depth-1: distance 2, orbit 432
+    n=17 g=1 v=15: WITNESS switch-distance 3, orbit(stuck, capped 20000) 432 | MATCHED depth-1: distance 1, orbit 6
+    n=17 g=1 v=15: WITNESS switch-distance 3, orbit(stuck, capped 20000) 432 | MATCHED depth-1: distance 1, orbit 432
+    n=21 g=1 v=8: WITNESS switch-distance 2, orbit(stuck, capped 20000) 960 | MATCHED depth-1: distance 1, orbit 960
+    n=21 g=1 v=8: WITNESS switch-distance 2, orbit(stuck, capped 20000) 960 | MATCHED depth-1: distance 1, orbit 960
+    n=21 g=1 v=12: WITNESS switch-distance 2, orbit(stuck, capped 20000) 960 | MATCHED depth-1: distance 1, orbit 960
+    n=21 g=1 v=12: WITNESS switch-distance 2, orbit(stuck, capped 20000) 960 | MATCHED depth-1: distance 1, orbit 960
+    n=21 g=12 v=20: WITNESS switch-distance 2, orbit(stuck, capped 20000) 1104 | MATCHED depth-1: distance 2, orbit 1104
+    n=21 g=12 v=20: WITNESS switch-distance 2, orbit(stuck, capped 20000) 1104 | MATCHED depth-1: distance 2, orbit 1104
+    n=21 g=17 v=8: WITNESS switch-distance 2, orbit(stuck, capped 20000) 504 | MATCHED depth-1: distance 2, orbit 504
+    n=21 g=17 v=20: WITNESS switch-distance 2, orbit(stuck, capped 20000) 504 | MATCHED depth-1: distance 1, orbit 504
+    n=21 g=19 v=20: WITNESS switch-distance 2, orbit(stuck, capped 20000) 480 | MATCHED depth-1: distance 1, orbit 480
+    n=21 g=23 v=14: WITNESS switch-distance 1, orbit(stuck, capped 20000) 288 | MATCHED depth-1: distance 1, orbit 192
+    n=21 g=57 v=6: WITNESS switch-distance 3, orbit(stuck, capped 20000) 456 | MATCHED depth-1: distance 1, orbit 456
+    n=21 g=57 v=6: WITNESS switch-distance 3, orbit(stuck, capped 20000) 456 | MATCHED depth-1: distance 1, orbit 456
+    n=21 g=83 v=5: WITNESS switch-distance 3, orbit(stuck, capped 20000) 288 | MATCHED depth-1: distance 1, orbit 96
+    n=21 g=83 v=5: WITNESS switch-distance 3, orbit(stuck, capped 20000) 288 | MATCHED depth-1: distance 1, orbit 96
+    n=21 g=83 v=14: WITNESS switch-distance 3, orbit(stuck, capped 20000) 240 | MATCHED depth-1: distance 2, orbit 240
+    n=21 g=83 v=14: WITNESS switch-distance 3, orbit(stuck, capped 20000) 240 | MATCHED depth-1: distance 1, orbit 144
+    n=21 g=138 v=4: WITNESS switch-distance 3, orbit(stuck, capped 20000) 288 | MATCHED depth-1: distance 3, orbit 288
+    n=21 g=138 v=4: WITNESS switch-distance 3, orbit(stuck, capped 20000) 288 | MATCHED depth-1: distance 3, orbit 288
+    n=22 g=10 v=11: WITNESS switch-distance 3, orbit(stuck, capped 20000) 624 | MATCHED depth-1: distance 1, orbit 24
+    n=22 g=10 v=11: WITNESS switch-distance 3, orbit(stuck, capped 20000) 624 | MATCHED depth-1: distance 1, orbit 24
+    n=22 g=10 v=11: WITNESS switch-distance 3, orbit(stuck, capped 20000) 624 | MATCHED depth-1: distance 2, orbit 624
+    n=22 g=10 v=11: WITNESS switch-distance 3, orbit(stuck, capped 20000) 624 | MATCHED depth-1: distance 2, orbit 624
+    n=22 g=10 v=11: WITNESS switch-distance 3, orbit(stuck, capped 20000) 624 | MATCHED depth-1: distance 1, orbit 24
+    n=22 g=10 v=11: WITNESS switch-distance 3, orbit(stuck, capped 20000) 624 | MATCHED depth-1: distance 1, orbit 24
+    n=22 g=92 v=17: WITNESS switch-distance 2, orbit(stuck, capped 20000) 1056 | MATCHED depth-1: distance 1, orbit 1056
+    n=22 g=92 v=17: WITNESS switch-distance 2, orbit(stuck, capped 20000) 1056 | MATCHED depth-1: distance 1, orbit 24
+    n=22 g=93 v=17: WITNESS switch-distance 3, orbit(stuck, capped 20000) 840 | MATCHED depth-1: distance 1, orbit 48
+    n=22 g=95 v=14: WITNESS switch-distance 3, orbit(stuck, capped 20000) 528 | MATCHED depth-1: distance 2, orbit 528
+    n=22 g=95 v=14: WITNESS switch-distance 3, orbit(stuck, capped 20000) 528 | MATCHED depth-1: distance 1, orbit 6
+    n=22 g=146 v=8: WITNESS switch-distance 3, orbit(stuck, capped 20000) 432 | MATCHED depth-1: distance 3, orbit 432
+    n=22 g=178 v=19: WITNESS switch-distance 3, orbit(stuck, capped 20000) 936 | MATCHED depth-1: distance 2, orbit 936
+    n=22 g=278 v=16: WITNESS switch-distance 2, orbit(stuck, capped 20000) 792 | MATCHED depth-1: distance 1, orbit 792
+    n=22 g=313 v=6: WITNESS switch-distance 2, orbit(stuck, capped 20000) 504 | MATCHED depth-1: distance 1, orbit 504
+    n=22 g=313 v=6: WITNESS switch-distance 2, orbit(stuck, capped 20000) 504 | MATCHED depth-1: distance 1, orbit 504
+    n=22 g=498 v=18: WITNESS switch-distance 2, orbit(stuck, capped 20000) 384 | MATCHED depth-1: distance 2, orbit 384
+    n=22 g=498 v=18: WITNESS switch-distance 2, orbit(stuck, capped 20000) 384 | MATCHED depth-1: distance 2, orbit 384
+    n=22 g=548 v=21: WITNESS switch-distance 3, orbit(stuck, capped 20000) 528 | MATCHED depth-1: distance 1, orbit 528
+    n=22 g=600 v=8: WITNESS switch-distance 2, orbit(stuck, capped 20000) 936 | MATCHED depth-1: distance 1, orbit 936
+    n=22 g=603 v=19: WITNESS switch-distance 3, orbit(stuck, capped 20000) 336 | MATCHED depth-1: distance 3, orbit 336
+    n=22 g=603 v=19: WITNESS switch-distance 3, orbit(stuck, capped 20000) 336 | MATCHED depth-1: distance 3, orbit 336
+    n=22 g=626 v=6: WITNESS switch-distance 1, orbit(stuck, capped 20000) 360 | MATCHED depth-1: distance 1, orbit 360
+
+  [15s] switch-distance histogram — witnesses: {1: 2, 2: 17, 3: 30}; matched depth-1: {1: 32, 2: 11, 3: 6}
+  orbit sizes — witnesses: min 240 median 504 max 1104; matched: min 6 median 432 max 1104

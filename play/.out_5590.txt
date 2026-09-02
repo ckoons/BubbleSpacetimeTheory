@@ -1,0 +1,21 @@
+======================================================================
+Toy 5590 — the path-dependent legal stall, exhibited
+======================================================================
+
+  deep set 38111 sha256 cd2cfee84bde2f7c... (5588: cd2cfee8); stall found: True
+
+  [PASS] 1. Deep set + stall reproduced
+
+  [PASS] 2. Exhibit saved (.legal_stall_exhibit.json): shallow traj (20, 6), deep traj (2,), d_deep 2, tau 6
+
+  legal images 17 of 148: {'asc': 17}; nearest two targets differ on [['frozenset({(1, 1), (3, 3)})', 'frozenset({(2, 3), (1, 1)})'], ['frozenset({(0, 1), (2, 1), (4, 2)})', 'frozenset({(1, 1), (3, 3)})', 'frozenset({(2, 3), (1, 1)})']]; roles {'B1': 'frozenset({(1, 2), (2, 1), (5, 1)})', 'n_sM': 'frozenset({(2, 2), (5, 2)})', 'B2': 'frozenset({(5, 3), (2, 1)})', 'n_si': 'frozenset({(1, 2), (5, 2)})', 'n_sj': 'frozenset({(5, 3), (1, 1)})'} colors {'r': 3, 's_M': 1, 's_i': 2, 's_j': 0}
+
+  [PASS] 3. Legal characterization (zero legal descents confirmed at the stall)
+
+  [PASS] 4. PLATEAU — legal sideways iteration escapes in 1 round(s) to d̂=10 (1 plateau configs explored): descent is non-strict here, bounded plateau
+
+  [PASS] 5. Vacuous-stage (3-swap) descents at the stall by shape: {(True, False, True, True): 8, (True, True, False, True): 5, (True, True, True, False): 1} (total 14)
+
+======================================================================
+Toy 5590 -- SCORE: 5/5
+======================================================================

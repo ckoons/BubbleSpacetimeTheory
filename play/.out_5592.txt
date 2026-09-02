@@ -1,0 +1,21 @@
+======================================================================
+Toy 5592 — base-rate audit: family vs single-swap null
+======================================================================
+
+  1855 configurations audited; rows hashed BEFORE the counts: sha256 9ed7c7e1201225b4146a0b788c167286...
+
+  [PASS] 1. LEGAL FAMILY: a gate-phase legal image exists 1855/1855; per-config fraction of legal images that are gate-phase min 0.29 median 0.78 max 1.00; legal images per config {10: 81, 11: 3, 12: 126, 13: 156, 14: 599, 15: 189, 16: 152, 17: 58, 18: 246, 19: 33, 20: 13, 21: 149, 22: 19, 23: 5, 24: 11, 26: 5, 28: 10}
+
+  [PASS] 2. ALL IMAGES (legal+vacuous): exists 1855/1855; fraction min 0.11 median 0.57 max 0.99
+
+  [PASS] 3. NULL A (every single Kempe swap in T-v): exists 1846/1855; fraction min 0.00 median 0.32 max 0.88; swaps per config median 93
+
+  [PASS] 4. NULL B (single swaps seeded at the link): exists 1840/1855; fraction min 0.00 median 0.40 max 1.00
+
+  [PASS] 5. COMPARISON: family clears where NULL A fails: 9/1855; NULL A clears where family fails: 0/1855; family clears where NULL B (link swaps) fails: 15/1855; by population (n, family, nullA, nullB): {'54': [54, 54, 45, 45], '1801': [1801, 1801, 1801, 1795]}
+
+  VERDICT: the single-swap null FAILS on 9 configurations where the family clears — the family-restricted move set adds content beyond one random swap
+
+======================================================================
+Toy 5592 -- SCORE: 5/5  (can-fail: 1)
+======================================================================

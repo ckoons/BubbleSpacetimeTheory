@@ -1,0 +1,58 @@
+========================================================================
+Toy 5599 — Grace — G1 rank instrument · G2 leaf table · G3 wall certificate
+========================================================================
+  1,072 loaded (22s)
+  the 54 loaded (23s)
+  the 1,801 loaded (0s)
+  configurations loaded: 2927
+  computed in 10s
+
+  2927 stuck configurations; not-stuck skipped: {}; records hashed BEFORE the counts: sha256 957b50d3b6ec825f9556dd984bebd22a…
+
+[P1] forced partitions at c0 (positive control of roles + rank instrument): 2927/2927; failures: {k:v for k,v in p1.items() if k.startswith('fail')}
+     distinct link-seeded chains at c0: {'chains=8': 2927}
+
+[G1] rank instrument vs BFS: {'tau_agree': 2927, 'roles_mirror': 2927, 'agree': 24093}
+
+[P2] Wi fully legal: 2927/2927
+[P3] Wi c1 link images: {('r', 's_M', 's_i', 'r', 's_j'): 2927}
+[P3] Wi c2 link images: {('s_j', 's_M', 's_i', 's_j', 'r'): 2927}
+[G2] Wi: Δ-NO 2587 · Δ-YES 340
+     Δ-NO leaves (c3 | c4): {'I': 2587} | {'I': 2587}; c4 link images: {('r', 's_M', 's_j', 'r', 's_j'): 2587}
+     Δ-YES ∧ Δ′-YES 43: c4 leaves {'G': 43}; c4 links {('r', 's_M', 's_j', 'r', 's_i'): 43}
+     Δ-YES ∧ Δ′-NO  297: c4 leaves {'S': 297}; c4 links {('r', 's_M', 'r', 's_j', 's_i'): 297}
+     Δ-YES c3 leaves: {'S': 297, 'G': 43}
+     stuck (S) leaves of Wi at c4 by population: {('1072', 'Fritsch'): 24, ('1072', 'T3'): 86, ('1072', 'B-errera'): 74, ('1072', 'D-flip3'): 16, ('54', 'D-flip3'): 4, ('1801', '2C-T6'): 9, ('1801', '2D-flip2o7'): 84}
+[G3] Wi wall on Δ-YES: c2 340/340 · c3 340/340; violations: 0 / 0; path lengths: {3: 24, 5: 208, 7: 107, 11: 1}
+
+[P2] Wj fully legal: 2927  n=21: graphs 187; pairs 2629; stuck 64015; hit by the 3 words 55427; hit by the rest of the family 8337; NOT HIT 251; no-context 0; records sha256 0a18c5df77dbc3fb  [70s]
+
+  GRAND: stuck 87361; hit3 75650; hitfull 11377; NOT HIT 334; no-context 0
+  ONE-WORD in-frame: 87027/87361
+  words used beyond the three (top 10): [((('B1', ('r', 's_i')), ('B2', ('r', 's_j'))), 5956), ((('B1', ('r', 's_i')), ('n_sj', ('r', 's_j'))), 5924), ((('n_sM', ('s_M', 's_i')), ('n_sj', ('s_M', 's_j'))), 4334), ((('n_sj', ('s_i', 's_j')), ('n_sM', ('s_M', 's_j'))), 3661), ((('n_sM', ('s_M', 's_j')), ('n_si', ('s_M', 's_i'))), 3114), ((('B2', ('r', 's_j')), ('B1', ('r', 's_M'))), 3076), ((('n_sj', ('s_i', 's_j')), ('B1', ('r', 's_j'))), 2882), ((('n_sj', ('r', 's_j')), ('B1', ('r', 's_M'))), 2688), ((('n_si', ('s_i', 's_j')), ('B2', ('r', 's_i'))), 2411), ((('B1', ('r', 's_j')), ('B2', ('r', 's_M'))), 2248)]
+    KILL CANDIDATE: (17, 0, 0, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 2, 1, 0, 1, 2, 3))
+    KILL CANDIDATE: (17, 0, 0, (0, 1, 2, 3, 2, 1, 3, 0, 1, 0, 1, 3, 0, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 1, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 2, 1, 0, 1, 2, 3))
+    KILL CANDIDATE: (17, 0, 1, (0, 1, 2, 3, 2, 1, 3, 0, 1, 0, 1, 3, 0, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 2, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 2, 1, 0, 1, 2, 3))
+    KILL CANDIDATE: (17, 0, 2, (0, 1, 2, 3, 2, 0, 3, 1, 0, 1, 0, 3, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 4, (0, 1, 2, 3, 2, 0, 3, 1, 0, 1, 0, 3, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 4, (0, 1, 2, 3, 2, 0, 3, 1, 2, 1, 0, 3, 1, 0, 3, 2))
+    KILL CANDIDATE: (17, 0, 6, (0, 1, 2, 3, 1, 2, 3, 0, 1, 0, 3, 1, 0, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 6, (0, 1, 2, 3, 1, 2, 3, 0, 2, 0, 3, 1, 0, 1, 3, 2))
+    KILL CANDIDATE: (17, 0, 8, (0, 1, 2, 1, 3, 2, 0, 3, 0, 2, 1, 3, 1, 2, 3, 0))
+    KILL CANDIDATE: (17, 0, 8, (0, 1, 2, 3, 1, 2, 3, 0, 2, 0, 3, 0, 2, 1, 3, 1))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 1, 3, 2, 0, 3, 0, 0, 1, 3, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 1, 3, 2, 0, 3, 0, 2, 1, 3, 1, 2, 3, 0))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 1, 3, 2, 3, 0, 3, 0, 1, 0, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 3, 1, 2, 3, 0, 1, 0, 3, 0, 1, 2, 3, 2))
+    KILL CANDIDATE: (17, 0, 9, (0, 1, 2, 3, 1, 3, 2, 0, 1, 0, 2, 0, 1, 3, 2, 3))
+    KILL CANDIDATE: (17, 0, 11, (0, 1, 2, 3, 1, 2, 0, 3, 0, 2, 0, 3, 2, 1, 3, 1))
+    KILL CANDIDATE: (17, 0, 11, (0, 1, 2, 3, 1, 2, 0, 3, 1, 0, 2, 3, 1, 2, 3, 0))
+    KILL CANDIDATE: (17, 0, 12, (0, 1, 2, 3, 1, 2, 0, 3, 0, 2, 0, 3, 2, 1, 3, 1))
+
+==== DEDUP ADDENDUM (09:3x): the 54 are exact duplicates of 54 entries of the 1,072 (same graph, vertex, coloring) — true census = 2,873 (Elie 5597 found the same). Counts on the 2,873:
+W_i: {'N': 2873, 'legal': 2873, 'dNO': 2537, 'dNO_I': 2537, 'dYES': 336, 'dYY': 43, 'dYY_G': 43, 'dYN': 293, 'dYN_S': 293, 'dYN_G': 0, 'wall_c2': 336, 'wall_c3': 336}
+W_j: {'N': 2873, 'legal': 2873, 'dNO': 2540, 'dNO_I': 2540, 'dYES': 333, 'dYY': 78, 'dYY_G': 78, 'dYN': 255, 'dYN_S': 249, 'dYN_G': 6, 'wall_c2': 333, 'wall_c3': 333}
+both words' c4 stuck (S): 225 → {('1072', 'Fritsch'): 24, ('1072', 'T3'): 86, ('1072', 'B-errera'): 74, ('1801', '2C-T6'): 4, ('1801', '2D-flip2o7'): 37}
+covered by {W_i,W_j} (some image/prefix I or G): 2648/2873

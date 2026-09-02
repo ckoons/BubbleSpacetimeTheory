@@ -1,0 +1,21 @@
+========================================================================
+Toy 5623 — Grace — kernel instrument on 349 locks
+========================================================================
+
+  349 locks; records hashed BEFORE counts c152254f16efd9655b0fd66b7e795dbf…  [38s]
+
+[Wi at the lock] legal 349/349; |C| {1: 71, 2: 85, 3: 79, 4: 77, 5: 35, 6: 2}; C dist-to-link {1: 349}; C separates 349/349
+    extra kernel dim {1: 33, 2: 121, 3: 90, 4: 77, 5: 28}; kernel component |K| {2: 193, 3: 25, 4: 49, 5: 27, 6: 21, 7: 17, 8: 16, 9: 1}
+    K's vertices by distance to link (pooled): {0: 349, 1: 471, 2: 307, 3: 47}; K contains a link vertex on 349/349 locks
+
+[Wj at the lock] legal 349/349; |C| {1: 85, 2: 76, 3: 69, 4: 84, 5: 35}; C dist-to-link {1: 349}; C separates 349/349
+    extra kernel dim {1: 43, 2: 108, 3: 96, 4: 68, 5: 32, 6: 2}; kernel component |K| {2: 197, 3: 23, 4: 52, 5: 22, 6: 25, 7: 15, 8: 15}
+    K's vertices by distance to link (pooled): {0: 349, 1: 473, 2: 290, 3: 44}; K contains a link vertex on 349/349 locks
+
+[AFTER EVERY LEGAL FIRST WORD, all 349 — (exit? | W_i′ class | W_j′ class)]: {('exit', 'KERNEL-VANISHES', 'NEITHER'): 2362, ('noexit', 'NEITHER', 'NEITHER'): 14279, ('exit', 'NEITHER', 'KERNEL-VANISHES'): 2353, ('exit', 'KERNEL-VANISHES', 'KERNEL-VANISHES'): 1273, ('exit', 'FAR-OUTSIDE-X3', 'FAR-OUTSIDE-X3'): 42, ('exit', 'KERNEL-VANISHES', 'FAR-OUTSIDE-X3'): 104, ('exit', 'FAR-OUTSIDE-X3', 'KERNEL-VANISHES'): 83, ('exit', 'FAR-OUTSIDE-X3', 'NEITHER'): 47, ('exit', 'NEITHER', 'FAR-OUTSIDE-X3'): 61, ('exit', 'NEITHER', 'NEITHER'): 40, ('exit', 'CUT-VANISHES', 'NEITHER'): 69, ('exit', 'NEITHER', 'CUT-VANISHES'): 36, ('exit', 'KERNEL-VANISHES', 'CUT-VANISHES'): 8, ('exit', 'CUT-VANISHES', 'FAR-OUTSIDE-X3'): 1, ('exit', 'CUT-VANISHES', 'KERNEL-VANISHES'): 24}
+  control (stuck images must be NEITHER for both): Counter({'stuck-images NEITHER both': 14279, 'stuck-images n': 14279})
+  cut distance-to-link on bridge-stuck images (both words, pooled): {1: 28549, 2: 9}
+  exit·NEITHER·NEITHER exhibits: 40; leaf4 pairs Counter({('G', 'S'): 19, ('S', 'G'): 11, ('G', 'G'): 10}); Q3∧Q4 on the exiting word: Counter({(False, True): 19, (True, False): 11, (False, False): 10})
+  distance-2 cut exhibits saved: 9
+
+  written .out_5623.json [38s]
