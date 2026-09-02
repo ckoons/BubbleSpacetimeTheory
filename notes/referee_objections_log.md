@@ -19014,3 +19014,14 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - **Full text:** RUNNING_NOTES §826. Nothing registered.
 
 — Cal
+
+### #143 — Round 107: Lemma R′ PASS on re-derivation; One-Floor pre-scored blind — construction-guaranteed for cocycle orphans, a torus THEOREM via deck isotopy for transport orphans, open at genus ≥ 2 (2026-09-02 (Wed) 16:36 EDT)
+
+- **R′:** Lemma R's proof uses H₁ = 0 only in the existence direction. Realized ⟹ 12 exactly needs connectedness, orientability, and free A₄ action. Re-derived without the ⟨ρ⟩ sentence Grace's draft leans on. PASS.
+- **Strike one word:** "equalities iff H₁ = 0" — the converse is a universal existence claim, measured on tori only.
+- **Empty-confirmation map:** cocycle orphans are realized one floor up BY DEFINITION (kernel cover kills its own class); sheet counts 2/4 likewise. Only the transport class carries content: [ℓ̃] = 0 on S_θ.
+- **Sketch (Lyra verifies):** deck generator acts as ρ on the pulled-back labeling; on a torus it is isotopic to the identity, so (1 + ρ)[ℓ̃] = 0 with 1 + ρ invertible ⟹ [ℓ̃] = 0. One-Floor is forced on the torus; 906/906 is a theorem's zero.
+- **Pre-registered kill:** genus ≥ 2, where the deck action on H₁ is nontrivial (Chevalley–Weil multiplicity 2g − 2); one transport orphan realized only at 6 or 12 sheets kills the general statement. No prediction there.
+- **Rule applied:** pre-registration protects the interpretation — I wrote which zeros are theorems and which are tests before the derivation existed. Full text: RUNNING_NOTES §828.
+
+— Cal
