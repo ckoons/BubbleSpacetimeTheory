@@ -1129,3 +1129,9 @@ Every toy is self-contained. Each can be run independently with `python3 toy_NNN
 ---
 
 *"Give a child a ball and teach them to count." — Five integers. Zero free parameters. Everything.*
+
+### External data: Lutz's triangulated-surface census — `tools/lutz/`
+`manifolds_lex_d2_n10_o1_g2.txt` (865 orientable genus-2 triangulations on 10 vertices, vertex-minimal; Hougardy–Lutz–Zelke
+arXiv math/0507592), `manifolds_lex_d2_n{7,9,10}_o1_g1.txt` (tori: 1 / 112 / 2,109). Downloaded 2026-09-02 16:44 from
+https://www3.math.tu-berlin.de/IfM/Nachrufe/Frank_Lutz/stellar/manifolds_lex/ (Frank H. Lutz, The Manifold Page; lexicographic
+format: `manifold_lex_d2_n10_o1_g2_#k=[[1,2,3],...]`, faces as unoriented vertex triples, 1-indexed). Used by toy 5635 (Grace).

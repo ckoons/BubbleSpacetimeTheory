@@ -4557,7 +4557,8 @@
    "status": "proved",
    "plain": "In height coordinates a Kempe swap adds a constant lattice vector on its cluster; GF(2) theory = mod-2 shadow of height theory.",
    "color": "#4A90D9",
-   "proofs": []
+   "proofs": [],
+   "note_2026_09_02": "Height Dictionary file Section 4 (Burgers translation) WITHDRAWN by author 09-02 (K1848 a); dislocation monodromy = point reflection; row stands."
   },
   {
    "id": "T2578",
@@ -4756,6 +4757,46 @@
    "domain_label": "Four Color",
    "status": "observation",
    "plain": "After an exiting first word the third chain reconnects around the cut (6,207/6,503); the cut itself vanishes in 138; the kernel reading is the necessary half of Lemma T only (40 exits keep a separating cut and exit via ¬Q3∨¬Q4). Cut at distance 1 at every lock; nine images at distance 2. Frames: cut in c2/c3 (X3 of c2, X4 of c3), Q3/Q4 in c4; the cut-separation is Q3's Menger corollary, not a third condition (Cal §825).",
+   "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2598",
+   "name": "Lemma R′ — reconstruction up to A₄ on closed orientable surfaces; realizability staged (θ then [ℓ])",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "A realized sign record fixes the coloring up to the 12 sign-preserving color permutations on any closed orientable surface; genus adds orphans (closed records with no coloring) in two stages, transport then cocycle, both empty on the sphere. Strict on every torus measured; converse owed.",
+   "color": "#4A90D9",
+   "proofs": []
+  },
+  {
+   "id": "T2599",
+   "name": "E2 count — OBSERVATION (1 completion per realized record mod A₄, sphere and torus)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "observation",
+   "plain": "2,374 sphere + 1,332 torus records, one completion each mod A₄; orphans measured in two classes on every torus; disc twins differ in record (Lemma R-rel).",
+   "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2600",
+   "name": "Decision cost — OBSERVATION (D → log₂ 12 = log₂|A₄| on the free generator; square tori pre-registered log₂ 48)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "observation",
+   "plain": "Exact transfer-matrix counts: closed/transport-clean/realized share one leading eigenvalue, so the cost is a constant log₂ 12 with no per-column part; sheet-degree reading killed (5631); square tori predicted log₂ 48.",
+   "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2601",
+   "name": "Tower of covers — OBSERVATION (one floor per orphan on the torus; cocycle half instrument check)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "observation",
+   "plain": "Every orphan realized on the derived surface cover of its own holonomy, one floor up: 3 sheets (transport, 906/906, never a second floor) or 2/4 (cocycle, by construction). Torus theorem (Lyra 16:34 §3(c), Cal §829 PASS): 906/906 is a theorem's zero. Genus 2 (toy 5635): One-Floor fails on every A₄-image record, realized at 12 sheets.",
    "color": "#7F8C8D",
    "proofs": []
   }
@@ -7335,6 +7376,60 @@
    "target": "T2597",
    "type": "uses",
    "label": "population"
+  },
+  {
+   "source": "T2574",
+   "target": "T2598",
+   "type": "uses",
+   "label": "Lemma R: sphere reconstruction; propagation argument reused without H₁ = 0"
+  },
+  {
+   "source": "T2577",
+   "target": "T2598",
+   "type": "uses",
+   "label": "label/height conventions; a+b+c = 0 makes a labeling a V-cocycle"
+  },
+  {
+   "source": "T2598",
+   "target": "T2574",
+   "type": "uses",
+   "label": "off-sphere clause reworded to realizability (Cal §828 item 6)"
+  },
+  {
+   "source": "T2574",
+   "target": "T2599",
+   "type": "uses",
+   "label": "the theorem the count tests"
+  },
+  {
+   "source": "T2598",
+   "target": "T2599",
+   "type": "uses",
+   "label": "criterion whose two stages the footprint measures"
+  },
+  {
+   "source": "T2599",
+   "target": "T2600",
+   "type": "uses",
+   "label": "record-space counts the cost is built from"
+  },
+  {
+   "source": "T2598",
+   "target": "T2600",
+   "type": "uses",
+   "label": "staged criterion behind the 12 : 4 : 1 ratio"
+  },
+  {
+   "source": "T2599",
+   "target": "T2601",
+   "type": "uses",
+   "label": "orphan classes the covers act on"
+  },
+  {
+   "source": "T2598",
+   "target": "T2601",
+   "type": "uses",
+   "label": "θ then [ℓ]: the two floors"
   }
  ],
  "chains": {
