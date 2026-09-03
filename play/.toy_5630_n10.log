@@ -1,0 +1,15 @@
+[control] T(3,3) through derived covers:
+  T(3,3): n=9 F=18 closed=202 {'cocycle': 20, 'transport': 162, 'realized': 20} | after floor 1 (transport orphans): {'realized': 162} | sheets by (kind,total): {('cocycle', 4): 20, ('transport', 3): 162}   [1s]
+[flip-family tori, non-lattice]
+  flip n=10 #0: n=10 F=20 closed=202 {'cocycle': 82, 'transport': 114, 'realized': 6} | after floor 1 (transport orphans): {'realized': 114} | sheets by (kind,total): {('cocycle', 4): 56, ('transport', 3): 114, ('cocycle', 2): 26}   [25s]
+  flip n=10 #1: n=10 F=20 closed=82 {'cocycle': 22, 'transport': 58, 'realized': 2} | after floor 1 (transport orphans): {'realized': 58} | sheets by (kind,total): {('cocycle', 4): 14, ('transport', 3): 58, ('cocycle', 2): 8}   [29s]
+  flip n=10 #2: n=10 F=20 closed=82 {'cocycle': 38, 'transport': 42, 'realized': 2} | after floor 1 (transport orphans): {'realized': 42} | sheets by (kind,total): {('cocycle', 2): 6, ('cocycle', 4): 32, ('transport', 3): 42}   [33s]
+  flip n=10 #3: n=10 F=20 closed=74 {'cocycle': 20, 'transport': 52, 'realized': 2} | after floor 1 (transport orphans): {'realized': 52} | sheets by (kind,total): {('cocycle', 4): 16, ('transport', 3): 52, ('cocycle', 2): 4}   [37s]
+  flip n=10 #4: n=10 F=20 closed=82 {'cocycle': 38, 'transport': 42, 'realized': 2} | after floor 1 (transport orphans): {'realized': 42} | sheets by (kind,total): {('cocycle', 2): 6, ('cocycle', 4): 32, ('transport', 3): 42}   [41s]
+  flip n=10 #5: n=10 F=20 closed=74 {'transport': 52, 'cocycle': 20, 'realized': 2} | after floor 1 (transport orphans): {'realized': 52} | sheets by (kind,total): {('transport', 3): 52, ('cocycle', 4): 16, ('cocycle', 2): 4}   [45s]
+  flip n=10 #6: n=10 F=20 closed=74 {'cocycle': 20, 'transport': 52, 'realized': 2} | after floor 1 (transport orphans): {'realized': 52} | sheets by (kind,total): {('cocycle', 4): 16, ('transport', 3): 52, ('cocycle', 2): 4}   [49s]
+  flip n=10 #7: n=10 F=20 closed=74 {'cocycle': 20, 'transport': 52, 'realized': 2} | after floor 1 (transport orphans): {'realized': 52} | sheets by (kind,total): {('cocycle', 4): 16, ('transport', 3): 52, ('cocycle', 2): 4}   [53s]
+
+NON-LATTICE AGGREGATE: transport orphans after floor 1 -> {'realized': 464};  sheets {'cocycle:4': 198, 'transport:3': 464, 'cocycle:2': 62}
+written /Users/cskoons/projects/github/BubbleSpacetimeTheory/play/.tower_of_covers_5630_n10.json [53s]
+SCORE: PASS — all derived covers closed oriented tori, voltages closed on every face, every orphan realized at its floor

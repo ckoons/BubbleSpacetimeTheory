@@ -1,0 +1,7 @@
+  T(3,3): closed 202  theta0 40  realized 20  D = 3.3363  D1 = 2.3363  D2 = 1.0000  share(h_x=0) = 0.5000  share(h_y=0) = 0.5000  share(both 0) = 0.5000   [0s]
+  T(4,4): closed 1442  theta0 720  realized 20  D = 6.1719  D1 = 1.0020  D2 = 5.1699  share(h_x=0) = 0.0556  share(h_y=0) = 0.0556  share(both 0) = 0.0278   [0s]
+  T(5,5): closed 38634  theta0 16472  realized 2000  D = 4.2718  D1 = 1.2299  D2 = 3.0419  share(h_x=0) = 0.3193  share(h_y=0) = 0.3193  share(both 0) = 0.1214   [1s]
+  T(6,6): closed 5.68322e+06  theta0 1.07534e+06  realized 610476  D = 3.2187  D1 = 2.4019  D2 = 0.8168  share(h_x=0) = 0.6760  share(h_y=0) = 0.6760  share(both 0) = 0.5677   [11s]
+  T(7,7): closed 3.14268e+08  theta0 1.58433e+08  realized 392336  D = 9.6457  D1 = 0.9881  D2 = 8.6576  share(h_x=0) = 0.0372  share(h_y=0) = 0.0372  share(both 0) = 0.0025   [91s]
+log2 12 = 3.585  log2 144 = 7.1699
+SCORE: REPORTED — small-a sequence; the limit is the pre-registered question

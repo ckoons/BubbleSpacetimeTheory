@@ -1,0 +1,199 @@
+[
+ {
+  "name": "T(3,3)",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 20,
+   "transport": 162,
+   "realized": 20
+  },
+  "after_floor1": {
+   "realized": 162
+  },
+  "sheets": {
+   "cocycle:4": 20,
+   "transport:3": 162
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 162
+  }
+ },
+ {
+  "name": "flip n=10 #0",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 82,
+   "transport": 114,
+   "realized": 6
+  },
+  "after_floor1": {
+   "realized": 114
+  },
+  "sheets": {
+   "cocycle:4": 56,
+   "transport:3": 114,
+   "cocycle:2": 26
+  },
+  "checks": {
+   "floor2_realized": 82,
+   "floor1_transport_killed": 114
+  }
+ },
+ {
+  "name": "flip n=10 #1",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 22,
+   "transport": 58,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 58
+  },
+  "sheets": {
+   "cocycle:4": 14,
+   "transport:3": 58,
+   "cocycle:2": 8
+  },
+  "checks": {
+   "floor2_realized": 22,
+   "floor1_transport_killed": 58
+  }
+ },
+ {
+  "name": "flip n=10 #2",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 38,
+   "transport": 42,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 42
+  },
+  "sheets": {
+   "cocycle:2": 6,
+   "cocycle:4": 32,
+   "transport:3": 42
+  },
+  "checks": {
+   "floor2_realized": 38,
+   "floor1_transport_killed": 42
+  }
+ },
+ {
+  "name": "flip n=10 #3",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 20,
+   "transport": 52,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 52
+  },
+  "sheets": {
+   "cocycle:4": 16,
+   "transport:3": 52,
+   "cocycle:2": 4
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 52
+  }
+ },
+ {
+  "name": "flip n=10 #4",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 38,
+   "transport": 42,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 42
+  },
+  "sheets": {
+   "cocycle:2": 6,
+   "cocycle:4": 32,
+   "transport:3": 42
+  },
+  "checks": {
+   "floor2_realized": 38,
+   "floor1_transport_killed": 42
+  }
+ },
+ {
+  "name": "flip n=10 #5",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "transport": 52,
+   "cocycle": 20,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 52
+  },
+  "sheets": {
+   "transport:3": 52,
+   "cocycle:4": 16,
+   "cocycle:2": 4
+  },
+  "checks": {
+   "floor1_transport_killed": 52,
+   "floor2_realized": 20
+  }
+ },
+ {
+  "name": "flip n=10 #6",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 20,
+   "transport": 52,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 52
+  },
+  "sheets": {
+   "cocycle:4": 16,
+   "transport:3": 52,
+   "cocycle:2": 4
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 52
+  }
+ },
+ {
+  "name": "flip n=10 #7",
+  "n": 10,
+  "F": 20,
+  "stats": {
+   "cocycle": 20,
+   "transport": 52,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 52
+  },
+  "sheets": {
+   "cocycle:4": 16,
+   "transport:3": 52,
+   "cocycle:2": 4
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 52
+  }
+ }
+]

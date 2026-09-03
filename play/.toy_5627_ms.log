@@ -1,0 +1,5 @@
+Toy 5627 — Mohar-Salas T(a,b) population
+  T(3,3): n=9 F=18 degrees={6: 9} colorings=240 records=20 orbits-per-record {1: 20} footprint={'F': 18, 'closed': 202, 'z3_obstructed': 162, 'V_obstructed': 20, 'realized': 20, 'realized_census': 20} in-flip-family=True   [2s]
+  T(6,3): n=18 F=36 degrees={6: 18} colorings=8736 records=728 orbits-per-record {1: 728}  in-flip-family=None   [3s]
+  T(3,6): n=18 F=36 degrees={6: 18} colorings=8736 records=728 orbits-per-record {1: 728}  in-flip-family=None   [3s]
+  T(9,3): n=27 F=54 degrees={6: 27} colorings=381264 records=31772 orbits-per-record {1: 31772}  in-flip-family=None   [63s]

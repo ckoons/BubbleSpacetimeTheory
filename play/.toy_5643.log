@@ -1,0 +1,5 @@
+[control sphere n=8] 2 theta-clean records: all three b∪c graphs bipartite — PASS   [0s]
+[§3 sign-negation pairs, n=11 colorable] 63/63 members: realized records closed under negation AND N_realized = 2·(colourings/24); (colourings, realized, S4-orbits) histogram {(24, 2, 1): 61, (48, 4, 2): 2}   [322s]
+[§5 odd girth of b∪c on theta-clean records, n=11 colorable] {"('min odd girth', 3)": 4564, "('min odd girth', None)": 130, 'bipartite-for-some-label': 884, 'local<=5': 3810}   [322s]
+[§5 odd girth, n=10 non-colorable, first 30] {"('min odd girth', 3)": 1656, 'local<=5': 1656}   [351s]
+SCORE: PASS — §3 check; §5 reported

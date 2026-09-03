@@ -1,0 +1,30 @@
+==============================================================================
+Toy 5642 — the C60 dual: all colourings, odd-index lattice drop?
+==============================================================================
+  construction: n=32, m=90, faces=60 triangles=True, Euler=True, degrees={5: 12, 6: 20}, twelve deg-5 pairwise non-adjacent=True, 5-connected=True
+  Test 1 (construction) PASS
+  Test 2 (icosahedron control, (rank, index, r3) -> count {(2, 1, 2): 10}; all index 1): PASS
+  Test 3 (k=4 off-frame index-3 control found through this code: 1): PASS
+
+  C60 dual: proper 4-colourings mod S4 = 3190  [13s]
+  lattice table (rank L, index, rank mod 3, rank mod 2) -> count:
+    (0, None, 0, 0): 1200
+    (1, None, 1, 1): 40
+    (2, 3, 1, 2): 1950
+  colour pattern on the twelve degree-5 vertices, per lattice type: (type, #colours, class sizes) -> count:
+    ((0, None, 0, 0), 1, (12,)): 1200
+    ((1, None, 1, 1), 2, (6, 6)): 40
+    ((2, 3, 1, 2), 3, (4, 4, 4)): 40
+    ((2, 3, 1, 2), 3, (6, 4, 2)): 120
+    ((2, 3, 1, 2), 4, (3, 3, 3, 3)): 30
+    ((2, 3, 1, 2), 4, (4, 4, 2, 2)): 60
+    ((2, 3, 1, 2), 4, (5, 5, 1, 1)): 120
+    ((2, 3, 1, 2), 4, (6, 2, 2, 2)): 20
+    ((2, 3, 1, 2), 4, (7, 3, 1, 1)): 480
+    ((2, 3, 1, 2), 4, (9, 1, 1, 1)): 1080
+
+  ODD-INDEX colourings: 1950; witnesses (index in enumeration, colouring, L basis): [(0, '00000000000012213213132132233121', []), (1, '00000000000012213213132133212132', []), (2, '00000000000012213213132232133121', []), (3, '00000000000012213213132233122131', []), (4, '00000000000012213213133122213123', [])]
+  Test 4 (THE FALSIFIER — an odd-index lattice exists on the C60 dual): PASS — Lyra's prediction confirmed
+  table play/.c60_5642.json sha256 010eeb0c
+
+SCORE: 4/4   [13s]

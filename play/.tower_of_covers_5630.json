@@ -1,0 +1,175 @@
+[
+ {
+  "name": "T(3,3)",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 20,
+   "transport": 162,
+   "realized": 20
+  },
+  "after_floor1": {
+   "realized": 162
+  },
+  "sheets": {
+   "cocycle:4": 20,
+   "transport:3": 162
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 162
+  }
+ },
+ {
+  "name": "flip n=8 #0",
+  "n": 8,
+  "F": 16,
+  "stats": {
+   "cocycle": 38,
+   "transport": 42,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 42
+  },
+  "sheets": {
+   "cocycle:2": 6,
+   "cocycle:4": 32,
+   "transport:3": 42
+  },
+  "checks": {
+   "floor2_realized": 38,
+   "floor1_transport_killed": 42
+  }
+ },
+ {
+  "name": "flip n=9 #1",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 20,
+   "transport": 52,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 52
+  },
+  "sheets": {
+   "cocycle:4": 16,
+   "transport:3": 52,
+   "cocycle:2": 4
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 52
+  }
+ },
+ {
+  "name": "flip n=9 #2",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 38,
+   "transport": 42,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 42
+  },
+  "sheets": {
+   "cocycle:2": 6,
+   "cocycle:4": 32,
+   "transport:3": 42
+  },
+  "checks": {
+   "floor2_realized": 38,
+   "floor1_transport_killed": 42
+  }
+ },
+ {
+  "name": "flip n=9 #3",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "transport": 54,
+   "cocycle": 28,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 54
+  },
+  "sheets": {
+   "transport:3": 54,
+   "cocycle:4": 12,
+   "cocycle:2": 16
+  },
+  "checks": {
+   "floor1_transport_killed": 54,
+   "floor2_realized": 28
+  }
+ },
+ {
+  "name": "flip n=9 #4",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 16,
+   "transport": 60,
+   "realized": 4
+  },
+  "after_floor1": {
+   "realized": 60
+  },
+  "sheets": {
+   "cocycle:4": 16,
+   "transport:3": 60
+  },
+  "checks": {
+   "floor2_realized": 16,
+   "floor1_transport_killed": 60
+  }
+ },
+ {
+  "name": "flip n=9 #5",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 22,
+   "transport": 30,
+   "realized": 2
+  },
+  "after_floor1": {
+   "realized": 30
+  },
+  "sheets": {
+   "cocycle:2": 4,
+   "cocycle:4": 18,
+   "transport:3": 30
+  },
+  "checks": {
+   "floor2_realized": 22,
+   "floor1_transport_killed": 30
+  }
+ },
+ {
+  "name": "flip n=9 #6",
+  "n": 9,
+  "F": 18,
+  "stats": {
+   "cocycle": 20,
+   "transport": 162,
+   "realized": 20
+  },
+  "after_floor1": {
+   "realized": 162
+  },
+  "sheets": {
+   "cocycle:4": 20,
+   "transport:3": 162
+  },
+  "checks": {
+   "floor2_realized": 20,
+   "floor1_transport_killed": 162
+  }
+ }
+]

@@ -1,0 +1,46 @@
+Toy 5651 — class census without colouring (sealed table)
+  C20: 1 isomers  [0s]
+  C24: 1 isomers  [0s]
+  C26: 1 isomers  [0s]
+  C28: 2 isomers  [0s]
+  C30: 3 isomers  [0s]
+  C32: 6 isomers  [0s]
+  C34: 6 isomers  [0s]
+  C36: 15 isomers  [0s]
+  C38: 17 isomers  [0s]
+  C40: 40 isomers  [0s]
+  C42: 45 isomers  [0s]
+  C44: 89 isomers  [0s]
+  C46: 116 isomers  [0s]
+  C48: 199 isomers  [0s]
+  C50: 271 isomers  [0s]
+  C52: 437 isomers  [1s]
+  C54: 580 isomers  [1s]
+  C56: 924 isomers  [2s]
+  C58: 1205 isomers  [2s]
+  C60: 1812 isomers  [3s]
+  C70 IPR: 1 isomers  [3s]
+  C72 IPR: 1 isomers  [3s]
+  C74 IPR: 1 isomers  [3s]
+  C76 IPR: 2 isomers  [3s]
+  C78 IPR: 5 isomers  [4s]
+  C80 IPR: 7 isomers  [4s]
+  C82 IPR: 9 isomers  [4s]
+  C84 IPR: 24 isomers  [4s]
+  C86 IPR: 19 isomers  [4s]
+  C88 IPR: 35 isomers  [4s]
+  C90 IPR: 46 isomers  [4s]
+  C92 IPR: 86 isomers  [4s]
+  C94 IPR: 134 isomers  [4s]
+  C96 IPR: 187 isomers  [5s]
+  C98 IPR: 259 isomers  [5s]
+  C100 IPR: 450 isomers  [6s]
+
+  Test 1 (generator counts + degrees): PASS
+  Test 2 (cocycle on every cover, 7036 graphs): PASS
+  Test 3 ([c] = 0 ⟹ neutral for every root; exceptions: False): PASS
+  Test 4 (THE SEAM: graphs neutral for SOME root with [c] ≠ 0 = 0; neutral for ALL 12 roots with [c] ≠ 0 = 0; first witnesses (C_m, idx, neutral roots/12, charged non-tree edges): []): PASS (decided)
+  Test 5 (sealed table written: play/.census_5651_sealed.json sha256 8500f7145257a5a789b9d0f150a0708d0330141be0959193709c0f1037ded513; 5650 verdicts reproduced: True): PASS
+  totals: graphs 7036; [c] = 0 on 14 (count only; the list by n stays sealed)
+
+SCORE: 5/5   [6s]

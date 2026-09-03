@@ -1,0 +1,730 @@
+{
+ "disc": {
+  "completions_under_pinning": 2,
+  "faces": 24,
+  "heawood_closed_A": false,
+  "heawood_closed_B": false,
+  "records_among_completions": 2,
+  "twins_A4_related": false,
+  "twins_same_record": false,
+  "vertices": 19
+ },
+ "seconds": 1.9,
+ "sphere": {
+  "6": {
+   "orbits_hist": {
+    "1": 10
+   },
+   "records": 10,
+   "triangulations": 2
+  },
+  "7": {
+   "orbits_hist": {
+    "1": 24
+   },
+   "records": 24,
+   "triangulations": 5
+  },
+  "8": {
+   "orbits_hist": {
+    "1": 86
+   },
+   "records": 86,
+   "triangulations": 14
+  }
+ },
+ "sphere_footprint": {
+  "6": {
+   "F": 8,
+   "V_obstructed": 0,
+   "closed": 2,
+   "realized": 2,
+   "realized_census": 2,
+   "z3_obstructed": 0
+  },
+  "7": {
+   "F": 10,
+   "V_obstructed": 0,
+   "closed": 2,
+   "realized": 2,
+   "realized_census": 2,
+   "z3_obstructed": 0
+  },
+  "8": {
+   "F": 12,
+   "V_obstructed": 0,
+   "closed": 2,
+   "realized": 2,
+   "realized_census": 2,
+   "z3_obstructed": 0
+  }
+ },
+ "torus": {
+  "7": {
+   "colorable": 0,
+   "lutz_from_memory": 1,
+   "orbits_hist": {},
+   "records": 0,
+   "triangulations": 1
+  },
+  "8": {
+   "colorable": 1,
+   "lutz_from_memory": 7,
+   "orbits_hist": {
+    "1": 2
+   },
+   "records": 2,
+   "triangulations": 7
+  },
+  "9": {
+   "colorable": 6,
+   "lutz_from_memory": 112,
+   "orbits_hist": {
+    "1": 32
+   },
+   "records": 32,
+   "triangulations": 112
+  }
+ },
+ "torus_footprint": {
+  "8": {
+   "F": 16,
+   "V_obstructed": 38,
+   "closed": 82,
+   "realized": 2,
+   "realized_census": 2,
+   "z3_obstructed": 42
+  },
+  "9": {
+   "F": 18,
+   "V_obstructed": 20,
+   "closed": 74,
+   "realized": 2,
+   "realized_census": 2,
+   "z3_obstructed": 52
+  }
+ },
+ "torus_per_triangulation": {
+  "7": [
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   }
+  ],
+  "8": [
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 24,
+    "orbits_hist": {
+     "1": 2
+    },
+    "records": 2
+   }
+  ],
+  "9": [
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 24,
+    "orbits_hist": {
+     "1": 2
+    },
+    "records": 2
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 24,
+    "orbits_hist": {
+     "1": 2
+    },
+    "records": 2
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 24,
+    "orbits_hist": {
+     "1": 2
+    },
+    "records": 2
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 48,
+    "orbits_hist": {
+     "1": 4
+    },
+    "records": 4
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 24,
+    "orbits_hist": {
+     "1": 2
+    },
+    "records": 2
+   },
+   {
+    "colorings": 240,
+    "orbits_hist": {
+     "1": 20
+    },
+    "records": 20
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   },
+   {
+    "colorings": 0,
+    "orbits_hist": {},
+    "records": 0
+   }
+  ]
+ },
+ "toy": 5627
+}

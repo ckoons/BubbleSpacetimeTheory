@@ -1,0 +1,104 @@
+==============================================================================
+Toy 5626 — E1: branched-cover clause of the vantage dimension, plantri -c5 n=12..24
+==============================================================================
+
+[C1] Eulerian sphere (octahedron): 4 colorings mod S4; k=0 all: True; P=0 all: True; cover = 2 disjoint sheets all: True  -> global constants = base only
+  Test 2 PASS
+
+[C2] 2-coloring lift, FREE signs, faces close: sphere (cube) loop periods = [0] -> 1 global constant (parity/base); cylinder C6xP2 annulus periods = [-6, -4, -2, 0, 2, 4, 6] (7 values) -> 2 global constants (base + winding)
+  Test 3 PASS
+
+  n=12: graphs 1 (used 1, exhaustive-coloring graphs 1), colorings measured 10  [0s]
+    k (odd vertices): {12: 10}   b1 = k-2
+    r (period-lattice rank): {2: 10}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 10}
+    N_c (distinct dislocation centres mod P): {4: 10}
+
+  n=14: graphs 1 (used 1, exhaustive-coloring graphs 1), colorings measured 20  [0s]
+    k (odd vertices): {12: 20}   b1 = k-2
+    r (period-lattice rank): {2: 20}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 20}
+    N_c (distinct dislocation centres mod P): {3: 1, 4: 19}
+
+  n=15: graphs 1 (used 1, exhaustive-coloring graphs 1), colorings measured 32  [0s]
+    k (odd vertices): {12: 32}   b1 = k-2
+    r (period-lattice rank): {2: 32}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 32}
+    N_c (distinct dislocation centres mod P): {3: 2, 4: 30}
+
+  n=16: graphs 3 (used 3, exhaustive-coloring graphs 3), colorings measured 99  [0s]
+    k (odd vertices): {12: 57, 16: 42}   b1 = k-2
+    r (period-lattice rank): {2: 99}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 99}
+    N_c (distinct dislocation centres mod P): {3: 20, 4: 79}
+
+  n=17: graphs 4 (used 4, exhaustive-coloring graphs 4), colorings measured 110  [0s]
+    k (odd vertices): {12: 78, 14: 32}   b1 = k-2
+    r (period-lattice rank): {2: 110}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 110}
+    N_c (distinct dislocation centres mod P): {4: 110}
+
+  n=18: graphs 12 (used 12, exhaustive-coloring graphs 12), colorings measured 594  [0s]
+    k (odd vertices): {12: 303, 14: 86, 16: 205}   b1 = k-2
+    r (period-lattice rank): {2: 594}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 594}
+    N_c (distinct dislocation centres mod P): {3: 6, 4: 588}
+
+  n=19: graphs 23 (used 23, exhaustive-coloring graphs 23), colorings measured 1559  [1s]
+    k (odd vertices): {12: 361, 14: 619, 16: 463, 18: 116}   b1 = k-2
+    r (period-lattice rank): {2: 1559}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 1559}
+    N_c (distinct dislocation centres mod P): {3: 20, 4: 1539}
+
+  n=20: graphs 71 (used 60, exhaustive-coloring graphs 60), colorings measured 5172  [2s]
+    k (odd vertices): {12: 964, 14: 1359, 16: 2403, 18: 446}   b1 = k-2
+    r (period-lattice rank): {1: 6, 2: 5166}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 5162, '(2, 4)': 4, '(2,)': 6}
+    N_c (distinct dislocation centres mod P): {2: 6, 3: 116, 4: 5050}
+
+  n=21: graphs 187 (used 60, exhaustive-coloring graphs 60), colorings measured 6671  [4s]
+    k (odd vertices): {12: 197, 14: 1792, 16: 2957, 18: 1593, 20: 132}   b1 = k-2
+    r (period-lattice rank): {2: 6671}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 6671}
+    N_c (distinct dislocation centres mod P): {3: 22, 4: 6649}
+
+  n=22: graphs 627 (used 60, exhaustive-coloring graphs 60), colorings measured 8822  [6s]
+    k (odd vertices): {14: 962, 16: 4286, 18: 2629, 20: 945}   b1 = k-2
+    r (period-lattice rank): {2: 8822}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 8822}
+    N_c (distinct dislocation centres mod P): {3: 8, 4: 8814}
+
+  n=23: graphs 1970 (used 60, exhaustive-coloring graphs 60), colorings measured 11943  [10s]
+    k (odd vertices): {12: 388, 14: 1149, 16: 5230, 18: 3642, 20: 1534}   b1 = k-2
+    r (period-lattice rank): {1: 7, 2: 11936}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 11933, '(2, 4)': 3, '(2,)': 7}
+    N_c (distinct dislocation centres mod P): {2: 7, 3: 186, 4: 11750}
+
+  n=24: graphs 6833 (used 60, exhaustive-coloring graphs 60), colorings measured 15388  [15s]
+    k (odd vertices): {12: 170, 14: 807, 16: 4273, 18: 6767, 20: 3107, 22: 264}   b1 = k-2
+    r (period-lattice rank): {2: 15388}   P=0 count: 0
+    elementary divisors: {'(2, 2)': 15388}
+    N_c (distinct dislocation centres mod P): {3: 29, 4: 15359}
+
+  Test 1 (cover: V~=2n-k, E~=2E, F~=2F, chi=4-k, both descriptions agree, faces close, connected) PASS
+  Test 4 (link loop of every odd vertex has zero period) PASS
+  Test 6 (2(c_v - c_w) in P for every pair; N_c <= 4) PASS
+
+  MEASUREMENT (max over census per n):
+    n   :   12   14   15   16   17   18   19   20   21   22   23   24
+    max r:    2    2    2    2    2    2    2    2    2    2    2    2
+    max Nc:    4    4    4    4    4    4    4    4    4    4    4    4
+    max k:   12   12   12   16   14   16   18   18   20   20   20   22
+  Test 5 (last four n [21, 22, 23, 24]: max r [2, 2, 2, 2], max N_c [4, 4, 4, 4]; PASS = both constant, FAIL = strictly increasing) PASS
+
+  k-SWEEP (all 3-connected triangulations, all colourings mod S4):
+    k= 0: r=0 ed=(): 32
+    k= 2: r=0 ed=(): 52
+    k= 4: r=0 ed=(): 1, r=1 ed=(2,): 23, r=2 ed=(2, 2): 55, r=2 ed=(2, 4): 3, r=2 ed=(2, 6): 1
+    k= 6: r=2 ed=(2, 2): 57
+    k= 8: r=2 ed=(2, 2): 11
+  Test 7 (k-sweep: r=0 at k=2; r <= min(2,k-2); P in 2Z^2) PASS
+
+  records: play/.e1_5626_records.txt sha256 c29c6457; summary play/.e1_5626_summary.json
+
+SCORE: 7/7   [15s]

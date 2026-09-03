@@ -1,0 +1,36 @@
+==============================================================================
+Toy 5632 — k > 12 question: drops on {5,6}-graphs? exhaustive n<= 24; k>12 exhaustive n<= 20
+==============================================================================
+  n=12: graphs 1, {5,6}-graphs 1 (all colourings), hosting a drop: 0  [0s]
+  n=13: graphs 0, {5,6}-graphs 0 (all colourings), hosting a drop: 0  [0s]
+  n=14: graphs 1, {5,6}-graphs 1 (all colourings), hosting a drop: 0  [0s]
+  n=15: graphs 1, {5,6}-graphs 1 (all colourings), hosting a drop: 0  [0s]
+  n=16: graphs 3, {5,6}-graphs 2 (all colourings), hosting a drop: 0  [0s]
+  n=17: graphs 4, {5,6}-graphs 3 (all colourings), hosting a drop: 0  [0s]
+  n=18: graphs 12, {5,6}-graphs 6 (all colourings), hosting a drop: 0  [0s]
+  n=19: graphs 23, {5,6}-graphs 6 (all colourings), hosting a drop: 0  [1s]
+  n=20: graphs 71, {5,6}-graphs 15 (all colourings), hosting a drop: 2  [2s]
+      idx 16: (n5,n6)=(12,8), colourings 152, drops 8 {'2,(2, 4)': 4, '1,(2,)': 4}
+      idx 18: (n5,n6)=(12,8), colourings 84, drops 2 {'1,(2,)': 2}
+  n=21: graphs 187, {5,6}-graphs 17 (all colourings), hosting a drop: 1  [3s]
+      idx 90: (n5,n6)=(12,9), colourings 127, drops 1 {'1,(2,)': 1}
+  n=22: graphs 627, {5,6}-graphs 40 (all colourings), hosting a drop: 1  [4s]
+      idx 167: (n5,n6)=(12,10), colourings 176, drops 2 {'1,(2,)': 1, '2,(2, 4)': 1}
+  n=23: graphs 1970, {5,6}-graphs 45 (all colourings), hosting a drop: 1  [6s]
+      idx 600: (n5,n6)=(12,11), colourings 190, drops 10 {'1,(2,)': 7, '2,(2, 4)': 3}
+  n=24: graphs 6833, {5,6}-graphs 89 (all colourings), hosting a drop: 4  [13s]
+      idx 2076: (n5,n6)=(12,12), colourings 225, drops 2 {'1,(2,)': 2}
+      idx 2547: (n5,n6)=(12,12), colourings 151, drops 8 {'1,(2,)': 8}
+      idx 3244: (n5,n6)=(12,12), colourings 201, drops 36 {'1,(2,)': 17, '2,(2, 4)': 19}
+      idx 5800: (n5,n6)=(12,12), colourings 244, drops 2 {'1,(2,)': 2}
+
+  Test 1 (k = 12 + Σ(d−6)n_d + Σ_odd n_d on every graph; k=12 ⟺ maxdeg ≤ 6) PASS
+  Test 2 (the eleven known drops re-found exhaustively): found {(20, 16, 2, (2, 4)): 4, (20, 16, 1, (2,)): 4, (20, 18, 1, (2,)): 2, (21, 90, 1, (2,)): 1} vs 5626 sample {(20, 16, 1, (2,)): 4, (20, 16, 2, (2, 4)): 4, (20, 18, 1, (2,)): 2, (21, 90, 1, (2,)): 1} -> PASS
+
+  (A) {5,6}-graphs n=12..24: 226 graphs, 41027 colourings (exhaustive), drops 71 on 9 graphs
+  (B) k>12: exhaustive n<= 20: 81 graphs, 6502 colourings, drops 0 ; 5626 sampled rows k>12 (n<=24): 197224, drops 0
+  Test 3 (A rendered) PASS
+  Test 4 (B rendered) PASS
+  table: play/.k12_5632_table.json sha256 f41a41c5
+
+SCORE: 4/4   [13s]

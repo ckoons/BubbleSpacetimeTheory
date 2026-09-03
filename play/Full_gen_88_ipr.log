@@ -1,0 +1,15 @@
+Minimal vertex number: 88 
+Maximal vertex number: 88 
+Code_type: 7 
+Time for generating the patches: 0.0 seconds 
+Time for case 1 (Jordan-Curve Petrie Path): 0.0 seconds 
+Time for case 2 (Dumb-bell): 0.0 seconds 
+Time for case 3 (Sandwich): 0.0 seconds 
+
+MAPLIST: number of patches: 20779
+BBLIST: number of items in list: 2820  number of patches: 39246
+
+Generated 822 maps on 88 vertices -- reduced to 35 non-isomorphic maps. 
+
+Total generation time: 0.1 seconds 
+end of program

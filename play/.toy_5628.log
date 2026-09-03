@@ -1,0 +1,50 @@
+
+[width b = 3] building transfer matrices ... [0s]
+  sizes: closed 27  rainbow 27  coloring 24   [0s]
+  leading eigenvalues (|.| desc): closed [4.0, 2.7321, 2.7321, 2.7321, 2.7321, 2.7321]
+                                 rainbow [4.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+                                 coloring [4.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+  T( 3,3): closed                202  theta0               40  realized             20   D=  3.3363  D1=  2.3363  D2=  1.0000   [0s]
+  T( 4,3): closed                318  theta0              136  realized              6   D=  5.7279  D1=  1.2254  D2=  4.5025   [0s]
+  T( 5,3): closed               1090  theta0              428  realized             30   D=  5.1832  D1=  1.3486  D2=  3.8346   [0s]
+  T( 6,3): closed               6858  theta0             1584  realized            728   D=  3.2358  D1=  2.1142  D2=  1.1216   [0s]
+  T( 7,3): closed              16642  theta0             5804  realized            840   D=  4.3083  D1=  1.5197  D2=  2.7886   [0s]
+  T( 8,3): closed              66558  theta0            22696  realized           3906   D=  4.0908  D1=  1.5522  D2=  2.5387   [0s]
+  T( 9,3): closed             314050  theta0            88744  realized          31772   D=  3.3052  D1=  1.8233  D2=  1.4819   [0s]
+  T(12,3): closed           17831178  theta0          5606064  realized        1665188   D=  3.4206  D1=  1.6693  D2=  1.7513   [0s]
+  T(15,3): closed         1094965762  theta0        358001320  realized       96658400   D=  3.5018  D1=  1.6128  D2=  1.8890   [0s]
+  T(18,3): closed        69151993866  theta0      22907366064  realized     5920420688   D=  3.5460  D1=  1.5940  D2=  1.9520   [0s]
+  T(21,3): closed      4406849343490  theta0    1466021096104  realized   371734402052   D=  3.5674  D1=  1.5878  D2=  1.9796   [0s]
+  T(24,3): closed    281654468329482  theta0   93825048160944  realized 23597468419868   D=  3.5772  D1=  1.5859  D2=  1.9913   [0s]
+  T(27,3): closed  18018057657221122  theta0 6004799861074600  realized 1505012696902280   D=  3.5816  D1=  1.5853  D2=  1.9963   [0s]
+  T(30,3): closed 1152996121883967498  theta0 384307171781421744  realized 96179737974531848   D=  3.5835  D1=  1.5851  D2=  1.9985   [0s]
+  per-column slope from first differences: [-0.0335, 0.02313, 0.03849, 0.02707, 0.01472, 0.00713, 0.00327, 0.00146, 0.00064]
+  per-column slope from leading eigenvalues log2(lam_Z/lam_C) = 0.00000
+  constant part D - a*slope_eig along a = 3k: [3.3363, 3.2358, 3.3052, 3.4206, 3.5018, 3.546, 3.5674, 3.5772, 3.5816, 3.5835]
+  predicted limit constant log2(12*mZ/mC) needs multiplicities; last value 3.5835
+
+[width b = 6] building transfer matrices ... [0s]
+  sizes: closed 729  rainbow 729  coloring 732   [2s]
+  leading eigenvalues (|.| desc): closed [11.2111, 9.0963, 9.0963, 9.0963, 9.0963, 9.0963]
+                                 rainbow [11.2111, 7.6272, 7.6272, 7.6272, 7.6272, 7.6272]
+                                 coloring [11.2111, 9.5724, 9.5724, 9.5724, 9.5724, 9.5724]
+  T( 3,6): closed             6858.0  theta0           1584.0  realized          728.0   D=  3.2358  D1=  2.1142  D2=  1.1216   [7s]
+  T( 6,6): closed          5683218.0  theta0        1075344.0  realized       610476.0   D=  3.2187  D1=  2.4019  D2=  0.8168   [8s]
+  T( 9,6): closed       5534169894.0  theta0     1128026160.0  realized    598293584.0   D=  3.2094  D1=  2.2946  D2=  0.9149   [8s]
+  T(12,6): closed    5952511203354.0  theta0  1399666171392.0  realized 636080793408.0   D=  3.2262  D1=  2.0884  D2=  1.1378   [8s]
+  T(15,6): closed 7039177408857078.0  theta0 1887534452394864.0  realized 727203051250928.0   D=  3.2750  D1=  1.8989  D2=  1.3761   [9s]
+  T(18,6): closed 8.934255310604281e+18  theta0 2.624997848424602e+18  realized 8.820506052300883e+17   D=  3.3404  D1=  1.7670  D2=  1.5734   [9s]
+  T(24,6): closed 1.6164749731631796e+25  theta0 5.184321568486334e+24  realized 1.4708910646075644e+24   D=  3.4581  D1=  1.6406  D2=  1.8175   [10s]
+  T(30,6): closed 3.12144155141066e+31  theta0 1.028853452617562e+31  realized 2.7068417939824524e+30   D=  3.5275  D1=  1.6012  D2=  1.9264   [10s]
+  T(45,6): closed 1.7154920700134343e+47  theta0 5.715489830301495e+46  realized 1.435870159558459e+46   D=  3.5786  D1=  1.5857  D2=  1.9930   [11s]
+  T(60,6): closed 9.525961453792993e+62  theta0 3.175252430839405e+62  realized 7.941764317916202e+61   D=  3.5843  D1=  1.5850  D2=  1.9993   [12s]
+  T(90,6): closed 2.940013232323224e+94  theta0 9.800043710758894e+93  realized 2.450020721612304e+93   D=  3.5850  D1=  1.5850  D2=  2.0000   [12s]
+  T(120,6): closed 9.074005190290301e+125  theta0 3.0246683965318597e+125  realized 7.561671255338742e+124   D=  3.5850  D1=  1.5850  D2=  2.0000   [13s]
+  per-column slope from first differences: [-0.00569, -0.00309, 0.00559, 0.01625, 0.02181, 0.03922, 0.02315, 0.01703, 0.0019, 0.00021, 0.0]
+  per-column slope from leading eigenvalues log2(lam_Z/lam_C) = 0.00000
+  constant part D - a*slope_eig along a = 3k: [3.2358, 3.2187, 3.2094, 3.2262, 3.275, 3.3404, 3.4581, 3.5275, 3.5786, 3.5843, 3.585, 3.585]
+  predicted limit constant log2(12*mZ/mC) needs multiplicities; last value 3.5850
+
+POSITIVE CONTROL T(3,3) closed/theta0/realized = 202/40/20 vs 202/40/20 (toy 5627 brute force; Lyra 13:11): PASS
+written /Users/cskoons/projects/github/BubbleSpacetimeTheory/play/.decision_cost_T3L3M_5628.json [13s]
+SCORE: PASS — control; the constant-part question is reported, not scored

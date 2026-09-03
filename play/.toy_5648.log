@@ -1,0 +1,13 @@
+  flip torus n=10 #0: n=10 labelings 264; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 660}   [20s]
+  flip torus n=10 #1: n=10 labelings 72; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 174}   [20s]
+  flip torus n=10 #2: n=10 labelings 120; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 324}   [21s]
+  flip torus n=10 #3: n=10 labelings 66; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 168}   [21s]
+  flip torus n=10 #4: n=10 labelings 120; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 324}   [21s]
+  flip torus n=10 #5: n=10 labelings 66; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 168}   [22s]
+  T(6,3): n=18 labelings 4752; shortest odd b∪c cycles by (length, class): {(3, 'non-contractible'): 780, (5, 'non-contractible'): 396, (7, 'non-contractible'): 3960}   [24s]
+  T(9,3): n=27 labelings 5000 (sample); shortest odd b∪c cycles by (length, class): {(9, 'non-contractible'): 6626}   [28s]
+  T(6,6): n=36 labelings 5000 (sample); shortest odd b∪c cycles by (length, class): {(7, 'non-contractible'): 7194, (9, 'non-contractible'): 7}   [45s]
+  T(12,3): n=36 labelings 5000 (sample); shortest odd b∪c cycles by (length, class): {(13, 'non-contractible'): 7660}   [52s]
+
+TOTAL shortest odd b∪c cycles: 28441; NULL-HOMOLOGOUS (contractible): 0; non-contractible: 28441
+SCORE: REPORTED — faces null-homologous asserted; cycle classes by population

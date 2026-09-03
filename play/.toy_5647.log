@@ -1,0 +1,19 @@
+
+[width 3] lambda1 = 4.000000 (all three equal: True)
+   closed    lambda2/lambda1 = 0.6830; phases of the shell (fractions of 2pi): [0.0, 0.0, 0.3333, 0.3333, 0.6667, 0.6667]
+   rainbow   lambda2/lambda1 = 0.5000; phases of the shell (fractions of 2pi): [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5]
+   coloring  lambda2/lambda1 = 0.7500; phases of the shell (fractions of 2pi): [0.3333, 0.3333, 0.3333, 0.6667, 0.6667, 0.6667]
+   branch 3|a (from below): D - log2 12 at [(3, -0.2487), (6, -0.3492), (9, -0.2798), (12, -0.1643), (15, -0.0831)] ... [(33, -0.00062), (36, -0.00027), (39, -0.00011)]; sign(s) [-1]; fitted rho = 0.7544
+   branch a≢0 mod 3 (from above): D - log2 12 at [(4, 2.143), (5, 1.5983), (7, 0.7233), (8, 0.5059), (10, 0.2658)] ... [(37, 0.0001), (38, 8e-05), (40, 4e-05)]; sign(s) [1]; fitted rho = 0.7500
+   => width 3, 3|a (from below): |coloring lambda2/lambda1 - rho| = 0.0044  (within 0.01); closed 0.0713; rainbow 0.2544
+   => width 3, a≢0 mod 3 (from above): |coloring lambda2/lambda1 - rho| = 0.0000  (within 0.01); closed 0.0670; rainbow 0.2500
+
+[width 6] lambda1 = 11.211103 (all three equal: True)
+   closed    lambda2/lambda1 = 0.8114; phases of the shell (fractions of 2pi): [0.0, 0.0, 0.3333, 0.3333, 0.6667, 0.6667]
+   rainbow   lambda2/lambda1 = 0.6803; phases of the shell (fractions of 2pi): [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+   coloring  lambda2/lambda1 = 0.8538; phases of the shell (fractions of 2pi): [0.3333, 0.3333, 0.3333, 0.6667, 0.6667, 0.6667]
+   branch 3|a (from below): D - log2 12 at [(3, -0.3492), (6, -0.3663), (9, -0.3755), (12, -0.3587), (15, -0.31)] ... [(54, -0.00159), (57, -0.001), (60, -0.00063)]; sign(s) [-1]; fitted rho = 0.8573
+   branch a≢0 mod 3 (from above): D - log2 12 at [(4, 3.9318), (5, 4.5299), (7, 2.5111), (8, 1.9322), (10, 1.2356)] ... [(56, 0.00062), (58, 0.00045), (59, 0.00039)]; sign(s) [1]; fitted rho = 0.8538
+   => width 6, 3|a (from below): |coloring lambda2/lambda1 - rho| = 0.0034  (within 0.01); closed 0.0459; rainbow 0.1769
+   => width 6, a≢0 mod 3 (from above): |coloring lambda2/lambda1 - rho| = 0.0000  (within 0.01); closed 0.0424; rainbow 0.1735
+SCORE: REPORTED against the 13:28 pre-registration

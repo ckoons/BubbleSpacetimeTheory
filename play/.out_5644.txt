@@ -1,0 +1,81 @@
+==============================================================================
+Toy 5644 — pentagon-adjacency series: fullerene duals C46..C58 + [60, 70]
+==============================================================================
+
+  C46: 116 fullerene duals, n = 25  [0s]
+    C46 #0: N_p=13, colourings 560, classes {'idx1': 560}
+    C46 #1: N_p=13, colourings 168, classes {'idx1': 168}
+    C46 #2: N_p=11, colourings 241, classes {'idx1': 241}
+    C46: colourings total 37402; N_p range 8..16
+
+  C48: 199 fullerene duals, n = 26  [11s]
+    C48 #0: N_p=12, colourings 1056, classes {'idx1': 1052, 'idx3': 4}
+    C48 #1: N_p=14, colourings 916, classes {'idx1': 916}
+    C48 #2: N_p=14, colourings 870, classes {'idx1': 870}
+    C48: colourings total 92161; N_p range 7..18
+
+  C50: 271 fullerene duals, n = 27  [38s]
+    C50 #0: N_p=20, colourings 1040, classes {'idx1': 1040}
+    C50 #1: N_p=13, colourings 1728, classes {'idx1': 1728}
+    C50 #2: N_p=13, colourings 640, classes {'idx1': 640}
+    C50: colourings total 165794; N_p range 5..20
+
+  C52: 437 fullerene duals, n = 28  [89s]
+    C52 #0: N_p=12, colourings 1128, classes {'idx1': 1128}
+    C52 #1: N_p=14, colourings 2518, classes {'idx1': 2518}
+    C52 #2: N_p=14, colourings 2461, classes {'idx1': 2461}
+    C52: colourings total 362580; N_p range 5..18
+
+  C54: 580 fullerene duals, n = 29  [203s]
+    C54 #0: N_p=13, colourings 1504, classes {'idx1': 1504}
+    C54 #1: N_p=13, colourings 1504, classes {'idx1': 1504}
+    C54 #2: N_p=10, colourings 1208, classes {'idx1': 1208}
+    C54: colourings total 638852; N_p range 4..16
+
+  C56: 924 fullerene duals, n = 30  [410s]
+    C56 #0: N_p=14, colourings 2420, classes {'idx1': 2420}
+    C56 #1: N_p=14, colourings 2520, classes {'idx1': 2520}
+    C56 #2: N_p=12, colourings 984, classes {'idx1': 984}
+    C56: colourings total 1430453; N_p range 4..18
+
+  C58: 1205 fullerene duals, n = 31  [2909s]
+    C58 #0: N_p=13, colourings 6232, classes {'idx1': 6232}
+    C58 #1: N_p=13, colourings 1632, classes {'idx1': 1632}
+    C58 #2: N_p=10, colourings 1662, classes {'idx1': 1662}
+    C58: colourings total 2419003; N_p range 3..16
+
+  C60 IPR: 1 fullerene duals, n = 32  [6492s]
+    C60 #0: N_p=0, colourings 3190, classes {'rank0': 1200, 'idx3': 1950, 'rank1': 40}
+    C60: colourings total 3190; N_p range 0..0
+
+  C70 IPR: 1 fullerene duals, n = 37  [6493s]
+    C70 #0: N_p=0, colourings 12870, classes {'idx1': 9570, 'rank1': 2780, 'idx2': 320, 'idx4': 200}
+    C70: colourings total 12870; N_p range 0..0
+
+  BY N_p (colourings pooled over all fullerenes with that N_p) — class -> count:
+    N_p= 0: {'idx1': 9570, 'idx2': 320, 'idx3': 1950, 'idx4': 200, 'rank0': 1200, 'rank1': 2820}   fullerenes: has_index1 1/2, has_index3 1
+    N_p= 3: {'idx1': 2124}   fullerenes: has_index1 1/1, has_index3 0
+    N_p= 4: {'idx1': 13376, 'idx2': 193, 'rank1': 793}   fullerenes: has_index1 9/9, has_index3 0
+    N_p= 5: {'idx1': 81764, 'idx2': 506, 'rank1': 1026}   fullerenes: has_index1 52/52, has_index3 0
+    N_p= 6: {'idx1': 375514, 'idx2': 441, 'rank1': 1746}   fullerenes: has_index1 256/256, has_index3 0
+    N_p= 7: {'idx1': 715323, 'idx2': 225, 'rank1': 887}   fullerenes: has_index1 515/515, has_index3 0
+    N_p= 8: {'idx1': 1056091, 'idx2': 154, 'rank1': 512}   fullerenes: has_index1 793/793, has_index3 0
+    N_p= 9: {'idx1': 1001972, 'idx2': 11, 'rank1': 73}   fullerenes: has_index1 756/756, has_index3 0
+    N_p=10: {'idx1': 846425, 'idx2': 6, 'rank1': 10}   fullerenes: has_index1 631/631, has_index3 0
+    N_p=11: {'idx1': 467672, 'rank1': 1}   fullerenes: has_index1 343/343, has_index3 0
+    N_p=12: {'idx1': 318812, 'idx3': 4, 'rank1': 8}   fullerenes: has_index1 206/206, has_index3 1
+    N_p=13: {'idx1': 143956}   fullerenes: has_index1 98/98, has_index3 0
+    N_p=14: {'idx1': 77388}   fullerenes: has_index1 51/51, has_index3 0
+    N_p=15: {'idx1': 21815}   fullerenes: has_index1 8/8, has_index3 0
+    N_p=16: {'idx1': 5399}   fullerenes: has_index1 7/7, has_index3 0
+    N_p=18: {'idx1': 10978}   fullerenes: has_index1 5/5, has_index3 0
+    N_p=20: {'idx1': 1040}   fullerenes: has_index1 1/1, has_index3 0
+
+  Test 1 (generator: fullgen counts match Brinkmann–Dress; duals 5^12 6^(n-12)): PASS
+  Test 2 (C60 via fullgen reproduces 5642: 3,190 = 1,200/40/1,950): PASS
+  Test 3 (STRONG: N_p ≥ 1 ⟹ no index-3 colouring, every fullerene): FAIL — killed
+  Test 4 (WEAK: N_p ≥ 1 ⟹ some index-1 colouring, every fullerene): PASS
+  Test 5 (LAW at N_p = 0: C70 IPR has no index-1 colouring): FAIL — killed
+  rows play/.np_series_5644.json sha256 3e1b1aa4 (3734 fullerenes)
+
+SCORE: 3/5   [6498s]

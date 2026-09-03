@@ -1,0 +1,24 @@
+Toy 5627 — E2 torus test.  A4 order 12
+
+[SPHERE control, plantri -u]
+  n= 6:    2 triangulations,     10 realized records, orbits-per-record histogram {1: 10}   [0s]
+  n= 7:    5 triangulations,     24 realized records, orbits-per-record histogram {1: 24}   [0s]
+  n= 8:   14 triangulations,     86 realized records, orbits-per-record histogram {1: 86}   [0s]
+  n= 9:   50 triangulations,    350 realized records, orbits-per-record histogram {1: 350}   [0s]
+  n=10:  233 triangulations,   1904 realized records, orbits-per-record histogram {1: 1904}   [1s]
+  record-space footprint sphere n=6: {'F': 8, 'closed': 2, 'z3_obstructed': 0, 'V_obstructed': 0, 'realized': 2, 'realized_census': 2}
+  record-space footprint sphere n=7: {'F': 10, 'closed': 2, 'z3_obstructed': 0, 'V_obstructed': 0, 'realized': 2, 'realized_census': 2}
+  record-space footprint sphere n=8: {'F': 12, 'closed': 2, 'z3_obstructed': 0, 'V_obstructed': 0, 'realized': 2, 'realized_census': 2}
+
+[DISC control, FCW-014]
+  {'vertices': 19, 'faces': 24, 'completions_under_pinning': 2, 'twins_same_record': False, 'twins_A4_related': False, 'records_among_completions': 2, 'heawood_closed_A': False, 'heawood_closed_B': False}
+
+[TORUS, flip closure from the 7-vertex torus]
+  n= 7:     1 triangulations (Lutz from memory 1), 0 4-colorable, 0 realized records, orbits-per-record histogram {}   [21s]
+  n= 8:     7 triangulations (Lutz from memory 7), 1 4-colorable, 2 realized records, orbits-per-record histogram {1: 2}   [21s]
+  n= 9:   112 triangulations (Lutz from memory 112), 6 4-colorable, 32 realized records, orbits-per-record histogram {1: 32}   [21s]
+  n=10:  2109 triangulations (Lutz from memory 2109), 165 4-colorable, 550 realized records, orbits-per-record histogram {1: 550}   [22s]
+  record-space footprint torus n=8 (first colorable rep): {'F': 16, 'closed': 82, 'z3_obstructed': 42, 'V_obstructed': 38, 'realized': 2, 'realized_census': 2}
+  record-space footprint torus n=9 (first colorable rep): {'F': 18, 'closed': 74, 'z3_obstructed': 52, 'V_obstructed': 20, 'realized': 2, 'realized_census': 2}
+
+written /Users/cskoons/projects/github/BubbleSpacetimeTheory/play/.e2_torus_counts_5627.json sha256 2e72b98d78fe0468 [23s]

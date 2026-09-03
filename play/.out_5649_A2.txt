@@ -1,0 +1,18 @@
+==============================================================================
+Toy 5649 — next IPR fullerenes + flipped C60 (sealed) ; odd-cycle column C46..C58
+==============================================================================
+  C72_ipr#0: n=38, degrees={6: 26, 5: 12}, N_p=0, hex-profile={0: 2, 2: 12, 3: 12}, 5-connected=True, colourings=23972  [10s]
+  C74_ipr#0: n=39, degrees={5: 12, 6: 27}, N_p=0, hex-profile={3: 6, 2: 21}, 5-connected=True, colourings=19902  [18s]
+  C76_ipr#0: n=40, degrees={5: 12, 6: 28}, N_p=0, hex-profile={3: 8, 2: 16, 1: 4}, 5-connected=True, colourings=30293  [31s]
+  C76_ipr#1: n=40, degrees={5: 12, 6: 28}, N_p=0, hex-profile={2: 24, 3: 4}, 5-connected=True, colourings=24862  [42s]
+  C78_ipr#0: n=41, degrees={6: 29, 5: 12}, N_p=0, hex-profile={1: 6, 2: 15, 3: 8}, 5-connected=True, colourings=49552  [63s]
+  C78_ipr#1: n=41, degrees={6: 29, 5: 12}, N_p=0, hex-profile={2: 18, 0: 3, 3: 8}, 5-connected=True, colourings=76540  [95s]
+  C78_ipr#2: n=41, degrees={5: 12, 6: 29}, N_p=0, hex-profile={2: 23, 1: 2, 3: 4}, 5-connected=True, colourings=40116  [114s]
+  C78_ipr#3: n=41, degrees={6: 29, 5: 12}, N_p=0, hex-profile={2: 20, 1: 2, 3: 6, 0: 1}, 5-connected=True, colourings=50080  [135s]
+  C78_ipr#4: n=41, degrees={6: 29, 5: 12}, N_p=0, hex-profile={2: 27, 3: 2}, 5-connected=True, colourings=38416  [152s]
+  C60_dual_one_hexhex_flip: n=32, degrees={6: 20, 5: 12}, N_p=2, hex-profile={2: 4, 3: 16}, 5-connected=True, colourings=2848  [154s]
+
+  Test 1 (construction: IPR graphs N_p=0, flip N_p=1, all 5-connected, 5^12 6^(n-12)): PASS
+  Test 2 (counts rendered; SEALED table written: play/.ipr_5649_sealed.json sha256 34e4876cbc820fb4aea1aa6764611483286c9ab6dd3e353e438456c47c672339): PASS
+
+SCORE: 2/2   [154s]

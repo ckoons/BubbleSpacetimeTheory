@@ -1,0 +1,13 @@
+T(3,3): closed 202  {'cocycle': 20, 'transport': 162, 'realized': 20}   [3s]
+positive control: the 20 realized records stay realized on all 16 covers: PASS
+orphans 182; realized on SOME cover in the set: 182; on NONE (up to 6x6): 0
+  transport-obstructed (162): minimal realizing covers (L,M) -> count:
+      ((3, 3),): 90
+      ((1, 3),): 36
+      ((3, 1),): 36
+      realized-on-cover counts: {'1x1': 0, '1x2': 0, '1x3': 36, '1x6': 36, '2x1': 0, '2x2': 0, '2x3': 36, '2x6': 36, '3x1': 36, '3x2': 36, '3x3': 162, '3x6': 162, '6x1': 36, '6x2': 36, '6x3': 162, '6x6': 162}
+  cocycle-obstructed (20): minimal realizing covers (L,M) -> count:
+      ((2, 2),): 20
+      realized-on-cover counts: {'1x1': 0, '1x2': 0, '1x3': 0, '1x6': 0, '2x1': 0, '2x2': 20, '2x3': 0, '2x6': 20, '3x1': 0, '3x2': 0, '3x3': 0, '3x6': 0, '6x1': 0, '6x2': 20, '6x3': 0, '6x6': 20}
+written /Users/cskoons/projects/github/BubbleSpacetimeTheory/play/.cover_test_T33_orphans_5629.json [20s]
+SCORE: PASS — control; cover realization is reported, not scored
