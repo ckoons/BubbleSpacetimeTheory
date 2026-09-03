@@ -4810,6 +4810,46 @@
    "plain": "On a torus the record's A₄-monodromy is abelian, and A₄ has no abelian subgroup mixing a 3-cycle with V, so the derived cover of the orphan's own holonomy realizes it in one floor (3, 2 or 4 sheets). Two proofs (Lyra commutator, Cal deck-isotopy). Torus only: at genus 2 the image can be all of A₄ and the record needs 12 sheets — 695,054 measured witnesses.",
    "color": "#4A90D9",
    "proofs": []
+  },
+  {
+   "id": "T2603",
+   "name": "Per-graph dichotomy theorem (turning parity): L ⊆ Λ₀ for every colouring or none; criterion [c] = 0 in H¹(Σ;ℤ₃)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "The height sign 2-colours the faces of the branched double cover without looking at the colouring; the charge of a path is a ℤ₃-cocycle class on the cover; so whether the dislocation lattice sits in the charge kernel is decided by the graph alone. Tree criterion necessary; the class [c] = 0 is the full criterion.",
+   "color": "#4A90D9",
+   "proofs": []
+  },
+  {
+   "id": "T2604",
+   "name": "C₆₀ confinement — PARTIALLY DERIVED (tree half derived, period half measured 3,190/3,190)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "partially",
+   "plain": "No C₆₀-dual colouring has a full lattice; all rank-2 lattices are the charge kernel. Tree neutrality derived; the period half awaits the cohomology class on the cover.",
+   "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2605",
+   "name": "Pentagon-adjacency law (L1): adjacent pentagons ⟹ L ⊄ Λ₀, every colouring (5.1M/5.1M)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "An adjacent pentagon pair is a charged length-1 path, so the lattice leaves the charge kernel on every colouring; 5,146,245/5,146,245.",
+   "color": "#4A90D9",
+   "proofs": []
+  },
+  {
+   "id": "T2606",
+   "name": "C₄₈ #0 label-asymmetric index-3 line — OBSERVATION",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "observation",
+   "plain": "Four colourings of one C₄₈ isomer reach the index-3 line x − y ≡ 0 instead of the charge kernel; killed two pre-registered clauses; no mechanism claimed.",
+   "color": "#7F8C8D",
+   "proofs": []
   }
  ],
  "edges": [
@@ -7459,6 +7499,36 @@
    "target": "T2601",
    "type": "uses",
    "label": "transport half of the tower row DERIVED on the torus"
+  },
+  {
+   "source": "T2577",
+   "target": "T2603",
+   "type": "uses",
+   "label": "height dictionary: lifts A, B, C and the mod-3 charge"
+  },
+  {
+   "source": "T2603",
+   "target": "T2604",
+   "type": "uses",
+   "label": "tree half of C₆₀ confinement"
+  },
+  {
+   "source": "T2603",
+   "target": "T2605",
+   "type": "uses",
+   "label": "length-1 case of the cocycle"
+  },
+  {
+   "source": "T2605",
+   "target": "T2606",
+   "type": "uses",
+   "label": "the clause the observation killed"
+  },
+  {
+   "source": "T2603",
+   "target": "T2606",
+   "type": "uses",
+   "label": "which index-3 sublattice: open"
   }
  ],
  "chains": {

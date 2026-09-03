@@ -3,11 +3,11 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2379,
-  "edge_count": 10206,
+  "theorem_count": 2383,
+  "edge_count": 10212,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2379,
+  "total_theorems": 2383,
   "total_edges": 10164,
   "depth_distribution": {
    "D0": 1399,
@@ -86380,6 +86380,42 @@
    "to": 2601,
    "source": "proved",
    "label": "transport half of the tower row DERIVED on the torus"
+  },
+  {
+   "from": 2577,
+   "to": 2603,
+   "source": "proved",
+   "label": "height dictionary: lifts A, B, C and the mod-3 charge"
+  },
+  {
+   "from": 2603,
+   "to": 2604,
+   "source": "proved",
+   "label": "tree half of C₆₀ confinement"
+  },
+  {
+   "from": 2221,
+   "to": 2604,
+   "source": "proved",
+   "label": "the C₆₀ object"
+  },
+  {
+   "from": 2603,
+   "to": 2605,
+   "source": "proved",
+   "label": "length-1 case of the cocycle"
+  },
+  {
+   "from": 2605,
+   "to": 2606,
+   "source": "observed",
+   "label": "the clause the observation killed"
+  },
+  {
+   "from": 2603,
+   "to": 2606,
+   "source": "observed",
+   "label": "which index-3 sublattice: open"
   }
  ],
  "chains": {},
@@ -132675,6 +132711,68 @@
    ],
    "date": "2026-09-03",
    "plain": "On a torus the record's A₄-monodromy is abelian, and A₄ has no abelian subgroup mixing a 3-cycle with V, so the derived cover of the orphan's own holonomy realizes it in one floor (3, 2 or 4 sheets). Two proofs (Lyra commutator, Cal deck-isotopy). Torus only: at genus 2 the image can be all of A₄ and the record needs 12 sheets — 695,054 measured witnesses.",
+   "proofs": []
+  },
+  {
+   "tid": 2603,
+   "name": "Per-graph dichotomy theorem (turning parity): L ⊆ Λ₀ for every colouring or none; criterion [c] = 0 in H¹(Σ;ℤ₃)",
+   "domain": "four_color",
+   "status": "proved (Lyra + Cal §835 PASS)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5636,
+    5644
+   ],
+   "date": "2026-09-03",
+   "plain": "The height sign 2-colours the faces of the branched double cover without looking at the colouring; the charge of a path is a ℤ₃-cocycle class on the cover; so whether the dislocation lattice sits in the charge kernel is decided by the graph alone. Tree criterion necessary; the class [c] = 0 is the full criterion.",
+   "proofs": []
+  },
+  {
+   "tid": 2604,
+   "name": "C₆₀ confinement — PARTIALLY DERIVED (tree half derived, period half measured 3,190/3,190)",
+   "domain": "four_color",
+   "status": "partially derived (split explicit)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5641
+   ],
+   "date": "2026-09-03",
+   "plain": "No C₆₀-dual colouring has a full lattice; all rank-2 lattices are the charge kernel. Tree neutrality derived; the period half awaits the cohomology class on the cover.",
+   "proofs": []
+  },
+  {
+   "tid": 2605,
+   "name": "Pentagon-adjacency law (L1): adjacent pentagons ⟹ L ⊄ Λ₀, every colouring (5.1M/5.1M)",
+   "domain": "four_color",
+   "status": "proved (measured 5.1M/5.1M)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5644,
+    5649
+   ],
+   "date": "2026-09-03",
+   "plain": "An adjacent pentagon pair is a charged length-1 path, so the lattice leaves the charge kernel on every colouring; 5,146,245/5,146,245.",
+   "proofs": []
+  },
+  {
+   "tid": 2606,
+   "name": "C₄₈ #0 label-asymmetric index-3 line — OBSERVATION",
+   "domain": "four_color",
+   "status": "observation (measured)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5644
+   ],
+   "date": "2026-09-03",
+   "plain": "Four colourings of one C₄₈ isomer reach the index-3 line x − y ≡ 0 instead of the charge kernel; killed two pre-registered clauses; no mechanism claimed.",
    "proofs": []
   }
  ],
