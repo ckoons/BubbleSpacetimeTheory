@@ -4708,7 +4708,8 @@
    "status": "proved",
    "plain": "On Δ-YES ∧ Δ′-NO the image c4=(r,s_M,r,s_j,s_i) is stuck iff Q3 (n_sM ~ n_si in (s_M,s_j)) and Q4 (n_sM ~ n_sj in (s_M,s_i)); Q1 forced by Δ′-NO; Q3 ⟹ Q2, Q4 ⟹ Q1 by Jordan. Measured 548/548 (Grace 5603) and on 953 in-frame S leaves.",
    "color": "#4A90D9",
-   "proofs": []
+   "proofs": [],
+   "cal_pass": "§833 2026-09-03"
   },
   {
    "id": "T2593",
@@ -4798,6 +4799,16 @@
    "status": "observation",
    "plain": "Every orphan realized on the derived surface cover of its own holonomy, one floor up: 3 sheets (transport, 906/906, never a second floor) or 2/4 (cocycle, by construction). Torus theorem (Lyra 16:34 §3(c), Cal §829 PASS): 906/906 is a theorem's zero. Genus 2 (toy 5635): One-Floor fails on every A₄-image record, realized at 12 sheets.",
    "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2602",
+   "name": "One-Floor Theorem (torus) — abelian image in A₄ forces one floor; genus ≥ 2 FALSE (predicted and measured)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "On a torus the record's A₄-monodromy is abelian, and A₄ has no abelian subgroup mixing a 3-cycle with V, so the derived cover of the orphan's own holonomy realizes it in one floor (3, 2 or 4 sheets). Two proofs (Lyra commutator, Cal deck-isotopy). Torus only: at genus 2 the image can be all of A₄ and the record needs 12 sheets — 695,054 measured witnesses.",
+   "color": "#4A90D9",
    "proofs": []
   }
  ],
@@ -7430,6 +7441,24 @@
    "target": "T2601",
    "type": "uses",
    "label": "θ then [ℓ]: the two floors"
+  },
+  {
+   "source": "T2598",
+   "target": "T2602",
+   "type": "uses",
+   "label": "the torsor and its monodromy Φ_r"
+  },
+  {
+   "source": "T2601",
+   "target": "T2602",
+   "type": "uses",
+   "label": "906/906 transport orphans at one floor: the theorem's zero"
+  },
+  {
+   "source": "T2602",
+   "target": "T2601",
+   "type": "uses",
+   "label": "transport half of the tower row DERIVED on the torus"
   }
  ],
  "chains": {
