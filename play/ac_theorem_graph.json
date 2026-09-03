@@ -4880,6 +4880,16 @@
    "plain": "The three record counts share one Perron eigenvalue, so the cost's limit is the log of the achievable-holonomy subgroup (12 on one free generator), and the correction decays at the larger of two second eigenvalues; at widths 3 and 6 the colouring one wins, with cube-root phases giving both branches.",
    "color": "#4A90D9",
    "proofs": []
+  },
+  {
+   "id": "T2610",
+   "name": "Tower off one operator — voltage-graph spectral theorem: floors = derived graphs of the transfer; spectrum = union of twisted blocks; Perron floor-independent",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "The observer floors are derived graphs of the transfer operator under the record's holonomy; the cover's spectrum is the union of the base's character-twisted blocks, so heights and per-floor costs are the block decomposition of one operator. Instrument 5654 at width 3: untwisted block = the closed-record matrix, Perron unchanged, trace = 3 × records with trivial long transport.",
+   "color": "#4A90D9",
+   "proofs": []
   }
  ],
  "edges": [
@@ -7601,6 +7611,24 @@
    "target": "T2600",
    "type": "uses",
    "label": "T2600's null derived; convention line kept"
+  },
+  {
+   "source": "T2609",
+   "target": "T2610",
+   "type": "uses",
+   "label": "the block decomposition T2609 states, now read upward as floors"
+  },
+  {
+   "source": "T2598",
+   "target": "T2610",
+   "type": "uses",
+   "label": "the holonomy voltage: the torsor's transport per column"
+  },
+  {
+   "source": "T2602",
+   "target": "T2610",
+   "type": "uses",
+   "label": "floor construction (derived cover) whose transfer this is"
   }
  ],
  "chains": {

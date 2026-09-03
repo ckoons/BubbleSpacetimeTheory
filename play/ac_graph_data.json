@@ -3,11 +3,11 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2386,
-  "edge_count": 10219,
+  "theorem_count": 2387,
+  "edge_count": 10222,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2386,
+  "total_theorems": 2387,
   "total_edges": 10164,
   "depth_distribution": {
    "D0": 1399,
@@ -86458,6 +86458,24 @@
    "to": 2600,
    "source": "proved",
    "label": "T2600's null derived; convention line kept"
+  },
+  {
+   "from": 2609,
+   "to": 2610,
+   "source": "proved",
+   "label": "the block decomposition T2609 states, now read upward as floors"
+  },
+  {
+   "from": 2598,
+   "to": 2610,
+   "source": "proved",
+   "label": "the holonomy voltage: the torsor's transport per column"
+  },
+  {
+   "from": 2602,
+   "to": 2610,
+   "source": "proved",
+   "label": "floor construction (derived cover) whose transfer this is"
   }
  ],
  "chains": {},
@@ -132865,6 +132883,22 @@
    ],
    "date": "2026-09-03",
    "plain": "The three record counts share one Perron eigenvalue, so the cost's limit is the log of the achievable-holonomy subgroup (12 on one free generator), and the correction decays at the larger of two second eigenvalues; at widths 3 and 6 the colouring one wins, with cube-root phases giving both branches.",
+   "proofs": []
+  },
+  {
+   "tid": 2610,
+   "name": "Tower off one operator — voltage-graph spectral theorem: floors = derived graphs of the transfer; spectrum = union of twisted blocks; Perron floor-independent",
+   "domain": "four_color",
+   "status": "proved (classical; Cal §837 noun)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5654,
+    5653
+   ],
+   "date": "2026-09-03",
+   "plain": "The observer floors are derived graphs of the transfer operator under the record's holonomy; the cover's spectrum is the union of the base's character-twisted blocks, so heights and per-floor costs are the block decomposition of one operator. Instrument 5654 at width 3: untwisted block = the closed-record matrix, Perron unchanged, trace = 3 × records with trivial long transport.",
    "proofs": []
   }
  ],
