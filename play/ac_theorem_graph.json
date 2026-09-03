@@ -4890,6 +4890,26 @@
    "plain": "The observer floors are derived graphs of the transfer operator under the record's holonomy; the cover's spectrum is the union of the base's character-twisted blocks, so heights and per-floor costs are the block decomposition of one operator. Instrument 5654 at width 3: untwisted block = the closed-record matrix, Perron unchanged, trace = 3 × records with trivial long transport.",
    "color": "#4A90D9",
    "proofs": []
+  },
+  {
+   "id": "T2611",
+   "name": "P-para, derived halves: para pair ⟹ not confined (1,243/1,243); para-free ∧ meta-connected ⟹ confined (11/11); conjectured clause dead",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "A para pair is a charged two-step so it kills confinement; para-free with a connected meta graph forces it. The guessed clause that meta-connectivity is automatic died on ten isomers; the residue cell of thirteen is decided by longer paths, i.e. by the criterion itself.",
+   "color": "#4A90D9",
+   "proofs": []
+  },
+  {
+   "id": "T2612",
+   "name": "Confinement is symmetry-enriched, not symmetry-determined — OBSERVATION (0/14 trivial Aut vs 61%); 6 | m hashed",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "observation",
+   "plain": "All fourteen confined IPR isomers through C100 have nontrivial symmetry though 61 percent of isomers do not, yet symmetry selects nothing; the pattern 6 divides m is hashed as a prediction for C102–C120, not claimed.",
+   "color": "#7F8C8D",
+   "proofs": []
   }
  ],
  "edges": [
@@ -7629,6 +7649,36 @@
    "target": "T2610",
    "type": "uses",
    "label": "floor construction (derived cover) whose transfer this is"
+  },
+  {
+   "source": "T2603",
+   "target": "T2611",
+   "type": "uses",
+   "label": "the turning rule: a para pair is a charged two-step"
+  },
+  {
+   "source": "T2605",
+   "target": "T2611",
+   "type": "uses",
+   "label": "the length-1 case (L1) generalised to the two-step"
+  },
+  {
+   "source": "T2607",
+   "target": "T2611",
+   "type": "uses",
+   "label": "the ten blind verdicts the prediction was written against"
+  },
+  {
+   "source": "T2611",
+   "target": "T2612",
+   "type": "uses",
+   "label": "the confined list the observation is about"
+  },
+  {
+   "source": "T2603",
+   "target": "T2612",
+   "type": "uses",
+   "label": "[c] = 0 as many parity coincidences"
   }
  ],
  "chains": {
