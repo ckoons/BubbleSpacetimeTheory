@@ -1,0 +1,93 @@
+[
+ {
+  "name": "T(3,3)",
+  "n": 9,
+  "chi": 0,
+  "dislocations": 0,
+  "floor1_vertices": 72,
+  "floor1_chi": 0,
+  "c_class_zero": true,
+  "floor2_components": 6,
+  "floor2_chi": 0,
+  "height": 0,
+  "cost_bits": 0.0
+ },
+ {
+  "name": "icosahedron (plantri -c5 n=12 #0)",
+  "n": 12,
+  "chi": 2,
+  "dislocations": 12,
+  "floor1_vertices": 72,
+  "floor1_chi": -8,
+  "c_class_zero": false,
+  "floor2_components": 1,
+  "floor2_chi": -24,
+  "height": 2,
+  "cost_bits": 2.585
+ },
+ {
+  "name": "Errera (plantri -c5 n=17 #3)",
+  "n": 17,
+  "chi": 2,
+  "dislocations": 12,
+  "floor1_vertices": 112,
+  "floor1_chi": -8,
+  "c_class_zero": false,
+  "floor2_components": 1,
+  "floor2_chi": -24,
+  "height": 2,
+  "cost_bits": 2.585
+ },
+ {
+  "name": "pentakis dodecahedron (C60 dual, T2221)",
+  "n": 32,
+  "chi": 2,
+  "dislocations": 12,
+  "floor1_vertices": 232,
+  "floor1_chi": -8,
+  "c_class_zero": true,
+  "floor2_components": 3,
+  "floor2_chi": -24,
+  "height": 1,
+  "cost_bits": 1.0
+ },
+ {
+  "name": "plantri -c5 n=17 #0",
+  "n": 17,
+  "chi": 2,
+  "dislocations": 12,
+  "floor1_vertices": 112,
+  "floor1_chi": -8,
+  "c_class_zero": false,
+  "floor2_components": 1,
+  "floor2_chi": -24,
+  "height": 2,
+  "cost_bits": 2.585
+ },
+ {
+  "name": "plantri -c5 n=17 #1",
+  "n": 17,
+  "chi": 2,
+  "dislocations": 12,
+  "floor1_vertices": 112,
+  "floor1_chi": -8,
+  "c_class_zero": false,
+  "floor2_components": 1,
+  "floor2_chi": -24,
+  "height": 2,
+  "cost_bits": 2.585
+ },
+ {
+  "name": "plantri -c5 n=17 #2",
+  "n": 17,
+  "chi": 2,
+  "dislocations": 14,
+  "floor1_vertices": 110,
+  "floor1_chi": -10,
+  "c_class_zero": false,
+  "floor2_components": 1,
+  "floor2_chi": -30,
+  "height": 2,
+  "cost_bits": 2.585
+ }
+]

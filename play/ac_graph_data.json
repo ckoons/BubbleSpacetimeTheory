@@ -3,11 +3,11 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2384,
-  "edge_count": 10214,
+  "theorem_count": 2386,
+  "edge_count": 10219,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2384,
+  "total_theorems": 2386,
   "total_edges": 10164,
   "depth_distribution": {
    "D0": 1399,
@@ -86428,6 +86428,36 @@
    "to": 2607,
    "source": "observed",
    "label": "C₆₀ as the [c] = 0 control"
+  },
+  {
+   "from": 2598,
+   "to": 2608,
+   "source": "proved",
+   "label": "the torsor's V-stage: labellings are V-cocycles"
+  },
+  {
+   "from": 2601,
+   "to": 2608,
+   "source": "proved",
+   "label": "the tower's cocycle floor: the class the odd cycle carries"
+  },
+  {
+   "from": 2598,
+   "to": 2609,
+   "source": "proved",
+   "label": "group grading by the long-cycle holonomy"
+  },
+  {
+   "from": 2600,
+   "to": 2609,
+   "source": "proved",
+   "label": "the measured cost whose limit and decay are now derived"
+  },
+  {
+   "from": 2609,
+   "to": 2600,
+   "source": "proved",
+   "label": "T2600's null derived; convention line kept"
   }
  ],
  "chains": {},
@@ -132801,6 +132831,40 @@
    ],
    "date": "2026-09-03",
    "plain": "Cal's cohomology criterion computed from the graph alone predicted CONFINED/NOT for ten fullerene duals before any colouring; exhaustive colouring agreed on all ten with no split. Confined graphs never show a full lattice; index-3 lattices appear only there and are always the charge kernel.",
+   "proofs": []
+  },
+  {
+   "tid": 2608,
+   "name": "Odd-cycle / quadrangulation theorem (θ-clean records): im ⊆ ⟨a⟩ ⟺ b∪c bipartite; odd b∪c cycles non-contractible",
+   "domain": "four_color",
+   "status": "proved (Keeper + Cal §836(a))",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5643,
+    5646,
+    5648
+   ],
+   "date": "2026-09-03",
+   "plain": "Delete the a-edges: the remaining graph is bipartite exactly when the record's V-image is a line, and any odd cycle in it wraps the surface. Keeper's one line plus Cal's rerouting; Grace's 28,441 zero is the theorem's.",
+   "proofs": []
+  },
+  {
+   "tid": 2609,
+   "name": "Finite-size law for the decision cost — theorem: shared Perron eigenvalue; D → log₂|H_long|; decay = max(α, β)",
+   "domain": "four_color",
+   "status": "proved (Cal §836(b); inputs H_long and α>β measured)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5628,
+    5647,
+    5652
+   ],
+   "date": "2026-09-03",
+   "plain": "The three record counts share one Perron eigenvalue, so the cost's limit is the log of the achievable-holonomy subgroup (12 on one free generator), and the correction decays at the larger of two second eigenvalues; at widths 3 and 6 the colouring one wins, with cube-root phases giving both branches.",
    "proofs": []
   }
  ],

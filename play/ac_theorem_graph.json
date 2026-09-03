@@ -4860,6 +4860,26 @@
    "plain": "Cal's cohomology criterion computed from the graph alone predicted CONFINED/NOT for ten fullerene duals before any colouring; exhaustive colouring agreed on all ten with no split. Confined graphs never show a full lattice; index-3 lattices appear only there and are always the charge kernel.",
    "color": "#7F8C8D",
    "proofs": []
+  },
+  {
+   "id": "T2608",
+   "name": "Odd-cycle / quadrangulation theorem (θ-clean records): im ⊆ ⟨a⟩ ⟺ b∪c bipartite; odd b∪c cycles non-contractible",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "Delete the a-edges: the remaining graph is bipartite exactly when the record's V-image is a line, and any odd cycle in it wraps the surface. Keeper's one line plus Cal's rerouting; Grace's 28,441 zero is the theorem's.",
+   "color": "#4A90D9",
+   "proofs": []
+  },
+  {
+   "id": "T2609",
+   "name": "Finite-size law for the decision cost — theorem: shared Perron eigenvalue; D → log₂|H_long|; decay = max(α, β)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "The three record counts share one Perron eigenvalue, so the cost's limit is the log of the achievable-holonomy subgroup (12 on one free generator), and the correction decays at the larger of two second eigenvalues; at widths 3 and 6 the colouring one wins, with cube-root phases giving both branches.",
+   "color": "#4A90D9",
+   "proofs": []
   }
  ],
  "edges": [
@@ -7551,6 +7571,36 @@
    "target": "T2607",
    "type": "uses",
    "label": "C₆₀ as the [c] = 0 control"
+  },
+  {
+   "source": "T2598",
+   "target": "T2608",
+   "type": "uses",
+   "label": "the torsor's V-stage: labellings are V-cocycles"
+  },
+  {
+   "source": "T2601",
+   "target": "T2608",
+   "type": "uses",
+   "label": "the tower's cocycle floor: the class the odd cycle carries"
+  },
+  {
+   "source": "T2598",
+   "target": "T2609",
+   "type": "uses",
+   "label": "group grading by the long-cycle holonomy"
+  },
+  {
+   "source": "T2600",
+   "target": "T2609",
+   "type": "uses",
+   "label": "the measured cost whose limit and decay are now derived"
+  },
+  {
+   "source": "T2609",
+   "target": "T2600",
+   "type": "uses",
+   "label": "T2600's null derived; convention line kept"
   }
  ],
  "chains": {
