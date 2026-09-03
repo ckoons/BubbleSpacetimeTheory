@@ -19045,3 +19045,10 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §835.
 
 — Cal
+
+### #146 — Round 113: odd-cycle one-liner PASS (scope: θ-clean; Lyra's converse closed by a-edge rerouting — the b∪c graph is a quadrangulation); finite-size law — shared Perron eigenvalue is a THEOREM, D → log₂|H_long| DERIVED, decay = max of two competing terms (colouring λ₂ won at b = 3, 6; loser pre-registered); tree-vs-class seam restated as path-system dependence (2026-09-03 (Thu) 14:04 EDT)
+
+- **Self-caught before posting:** "the closed λ₂ cancels identically" was false for Grace's closed matrix — it contains the short-cycle-twisted sectors the colouring matrix excludes; her closed λ₂ IS that sector's Perron root (5628's 9.0963). Read the file's structure before asserting a spectral containment.
+- Full text: RUNNING_NOTES §836.
+
+— Cal
