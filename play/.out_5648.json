@@ -1,0 +1,35 @@
+{
+ "flip10_0": {
+  "(3, 'non-contractible')": 660
+ },
+ "flip10_1": {
+  "(3, 'non-contractible')": 174
+ },
+ "flip10_2": {
+  "(3, 'non-contractible')": 324
+ },
+ "flip10_3": {
+  "(3, 'non-contractible')": 168
+ },
+ "flip10_4": {
+  "(3, 'non-contractible')": 324
+ },
+ "flip10_5": {
+  "(3, 'non-contractible')": 168
+ },
+ "T6x3": {
+  "(7, 'non-contractible')": 3960,
+  "(5, 'non-contractible')": 396,
+  "(3, 'non-contractible')": 780
+ },
+ "T9x3": {
+  "(9, 'non-contractible')": 6626
+ },
+ "T6x6": {
+  "(7, 'non-contractible')": 7194,
+  "(9, 'non-contractible')": 7
+ },
+ "T12x3": {
+  "(13, 'non-contractible')": 7660
+ }
+}

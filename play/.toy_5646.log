@@ -1,0 +1,13 @@
+  flip torus n=10 #0: n=10 F=20 labelings 264; image sizes {2: 78, 4: 168, 1: 18}; odd girth over non-bipartite (labeling,label) pairs: {3: 660}; share(girth 3) = 1.0000   [20s]
+  flip torus n=10 #1: n=10 F=20 labelings 72; image sizes {4: 42, 1: 6, 2: 24}; odd girth over non-bipartite (labeling,label) pairs: {3: 174}; share(girth 3) = 1.0000   [20s]
+  flip torus n=10 #2: n=10 F=20 labelings 120; image sizes {4: 96, 2: 18, 1: 6}; odd girth over non-bipartite (labeling,label) pairs: {3: 324}; share(girth 3) = 1.0000   [21s]
+  flip torus n=10 #3: n=10 F=20 labelings 66; image sizes {4: 48, 2: 12, 1: 6}; odd girth over non-bipartite (labeling,label) pairs: {3: 168}; share(girth 3) = 1.0000   [21s]
+  flip torus n=10 #4: n=10 F=20 labelings 120; image sizes {4: 96, 2: 18, 1: 6}; odd girth over non-bipartite (labeling,label) pairs: {3: 324}; share(girth 3) = 1.0000   [21s]
+  flip torus n=10 #5: n=10 F=20 labelings 66; image sizes {4: 48, 1: 6, 2: 12}; odd girth over non-bipartite (labeling,label) pairs: {3: 168}; share(girth 3) = 1.0000   [22s]
+  T(6,3): n=18 F=36 labelings 4752; image sizes {2: 2568, 1: 2184}; odd girth over non-bipartite (labeling,label) pairs: {3: 780, 5: 396, 7: 3960}; share(girth 3) = 0.1519   [24s]
+  T(9,3): n=27 F=54 labelings 20000 (sample); image sizes {4: 596, 1: 6553, 2: 12851}; odd girth over non-bipartite (labeling,label) pairs: {3: 852, 5: 340, 9: 26298}; share(girth 3) = 0.0310   [94s]
+  T(6,6): n=36 F=72 labelings 20000 (sample); image sizes {2: 8623, 4: 2748, 1: 8629}; odd girth over non-bipartite (labeling,label) pairs: {7: 25484, 9: 6}; share(girth 3) = 0.0000   [271s]
+  T(12,3): n=36 F=72 labelings 20000 (sample); image sizes {2: 12542, 1: 7458}; odd girth over non-bipartite (labeling,label) pairs: {13: 25084}; share(girth 3) = 0.0000   [303s]
+  T(9,6): n=54 F=108 labelings 20000 (sample); image sizes {2: 14057, 4: 4684, 1: 1259}; odd girth over non-bipartite (labeling,label) pairs: {7: 17214, 9: 19285, 11: 5667}; share(girth 3) = 0.0000   [652s]
+SCORE: REPORTED — T_a=0 <=> im in <a> asserted on every (labeling,label); odd-girth histograms by size/density
+SPHERE CONTROL (13:12): plantri n=8,9: 64 triangulations, 58 with separating triangles, 330 theta-clean records, a-free non-facial triangles found 0 (derivation: a separating triangle bounds a disc, labels sum to 0, hence rainbow)
