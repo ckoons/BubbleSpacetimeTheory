@@ -3,11 +3,11 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2390,
-  "edge_count": 10233,
+  "theorem_count": 2391,
+  "edge_count": 10237,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2390,
+  "total_theorems": 2391,
   "total_edges": 10164,
   "depth_distribution": {
    "D0": 1399,
@@ -86542,6 +86542,30 @@
    "to": 2601,
    "source": "proved",
    "label": "claim (iii) re-reads the tower row: orphans realized at the floor whose subgroup their image misses"
+  },
+  {
+   "from": 2603,
+   "to": 2614,
+   "source": "proved",
+   "label": "[c] = 0 ⟺ Σ 3-colourable: the criterion the count is taken on"
+  },
+  {
+   "from": 2611,
+   "to": 2614,
+   "source": "proved",
+   "label": "the pentagon-adjacency lane that produced the prediction"
+  },
+  {
+   "from": 2613,
+   "to": 2614,
+   "source": "proved",
+   "label": "floor 1 (the branched double cover) is where the count lives"
+  },
+  {
+   "from": 2614,
+   "to": 2604,
+   "source": "proved",
+   "label": "C₆₀ is the D = 0 case"
   }
  ],
  "chains": {},
@@ -133014,6 +133038,23 @@
    ],
    "date": "2026-09-03",
    "plain": "Build each observer floor as the cover that kills one quotient of the record's monodromy; the sign layer must come first, the charge layer next; a floor newly realizes exactly the orphans whose monodromy misses the next subgroup; the cost on one graph is the group-order sum and on a transfer family the derived limit; on the sphere the tower's height is the confinement verdict, measured on 7,037 graphs.",
+   "proofs": []
+  },
+  {
+   "tid": 2614,
+   "name": "Divisibility theorem: confined ⟺ the branched double cover is 3-colourable ⟹ 6 | m, m ≥ 60, D = (m−60)/6 double-lifted hexagons (fourth blind prediction, derived first)",
+   "domain": "four_color",
+   "status": "proved (Lyra + Cal §840 PASS; measured 78/78, 92/92)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5658,
+    5659,
+    5651
+   ],
+   "date": "2026-09-03",
+   "plain": "Confinement means the doubled surface can be three-coloured; the deck involution forces all twelve pentagons into one colour, and counting faces on that colour class gives m = 60 + 6D. Nothing below C60 is confined; 78 of 78 at C102–C120 obey it, with the exact D on all 92 confined isomers.",
    "proofs": []
   }
  ],
