@@ -1,0 +1,18 @@
+{
+ "sign_pairs_ok": 63,
+ "members": 63,
+ "hist": {
+  "(24, 2, 1)": 61,
+  "(48, 4, 2)": 2
+ },
+ "odd_girth_n11": {
+  "local<=5": 3810,
+  "('min odd girth', 3)": 4564,
+  "bipartite-for-some-label": 884,
+  "('min odd girth', None)": 130
+ },
+ "odd_girth_n10": {
+  "local<=5": 1656,
+  "('min odd girth', 3)": 1656
+ }
+}
