@@ -4823,10 +4823,10 @@
   },
   {
    "id": "T2604",
-   "name": "C₆₀ confinement — PARTIALLY DERIVED (tree half derived, period half measured 3,190/3,190)",
+   "name": "C₆₀ confinement — DERIVED (tree half Lyra, period half [c] = 0 computed)",
    "domain": "four_color",
    "domain_label": "Four Color",
-   "status": "partially",
+   "status": "derived (tree: Lyra; period: [c] = 0 computed, Elie 5650; Cal §835 rule)",
    "plain": "No C₆₀-dual colouring has a full lattice; all rank-2 lattices are the charge kernel. Tree neutrality derived; the period half awaits the cohomology class on the cover.",
    "color": "#7F8C8D",
    "proofs": []
@@ -4848,6 +4848,16 @@
    "domain_label": "Four Color",
    "status": "observation",
    "plain": "Four colourings of one C₄₈ isomer reach the index-3 line x − y ≡ 0 instead of the charge kernel; killed two pre-registered clauses; no mechanism claimed.",
+   "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2607",
+   "name": "Graph verdicts before colouring — OBSERVATION (10/10 IPR fullerene duals, blind order; index 3 only on confined graphs, always Λ₀)",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "observation",
+   "plain": "Cal's cohomology criterion computed from the graph alone predicted CONFINED/NOT for ten fullerene duals before any colouring; exhaustive colouring agreed on all ten with no split. Confined graphs never show a full lattice; index-3 lattices appear only there and are always the charge kernel.",
    "color": "#7F8C8D",
    "proofs": []
   }
@@ -7529,6 +7539,18 @@
    "target": "T2606",
    "type": "uses",
    "label": "which index-3 sublattice: open"
+  },
+  {
+   "source": "T2603",
+   "target": "T2607",
+   "type": "uses",
+   "label": "the criterion whose verdicts were confirmed 10/10"
+  },
+  {
+   "source": "T2604",
+   "target": "T2607",
+   "type": "uses",
+   "label": "C₆₀ as the [c] = 0 control"
   }
  ],
  "chains": {
