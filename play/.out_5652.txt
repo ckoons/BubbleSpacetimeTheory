@@ -1,0 +1,34 @@
+
+[width 3] D_h(a) = log2 3 + D2(a):
+   a=  3: D2 = 1.0000  D_h = 2.5850  D_h - log2 12 = -1.00000   (sign record D = 3.3363)
+   a=  4: D2 = 4.5025  D_h = 6.0875  D_h - log2 12 = +2.50250   (sign record D = 5.7279)
+   a=  5: D2 = 3.8346  D_h = 5.4195  D_h - log2 12 = +1.83458   (sign record D = 5.1832)
+   a=  6: D2 = 1.1216  D_h = 2.7065  D_h - log2 12 = -0.87844   (sign record D = 3.2358)
+   a=  7: D2 = 2.7886  D_h = 4.3735  D_h - log2 12 = +0.78859   (sign record D = 4.3083)
+   a=  8: D2 = 2.5387  D_h = 4.1236  D_h - log2 12 = +0.53867   (sign record D = 4.0908)
+   a=  9: D2 = 1.4819  D_h = 3.0669  D_h - log2 12 = -0.51811   (sign record D = 3.3052)
+   a= 12: D2 = 1.7513  D_h = 3.3363  D_h - log2 12 = -0.24870   (sign record D = 3.4206)
+   a= 15: D2 = 1.8890  D_h = 3.4740  D_h - log2 12 = -0.11100   (sign record D = 3.5018)
+   a= 18: D2 = 1.9520  D_h = 3.5370  D_h - log2 12 = -0.04796   (sign record D = 3.5460)
+   a= 21: D2 = 1.9796  D_h = 3.5645  D_h - log2 12 = -0.02044   (sign record D = 3.5674)
+   a= 24: D2 = 1.9913  D_h = 3.5763  D_h - log2 12 = -0.00866   (sign record D = 3.5772)
+   a= 27: D2 = 1.9963  D_h = 3.5813  D_h - log2 12 = -0.00366   (sign record D = 3.5816)
+   a= 30: D2 = 1.9985  D_h = 3.5834  D_h - log2 12 = -0.00155   (sign record D = 3.5835)
+   limit: D_h -> 3.5834 vs log2 12 = 3.5850 (a = 30); fitted decay rho = 0.7510; subleading ratios closed 0.6830 rainbow 0.5000 coloring 0.7500 -> nearest: coloring
+
+[width 6] D_h(a) = log2 3 + D2(a):
+   a=  3: D2 = 1.1216  D_h = 2.7065  D_h - log2 12 = -0.87844   (sign record D = 3.2358)
+   a=  6: D2 = 0.8168  D_h = 2.4018  D_h - log2 12 = -1.18321   (sign record D = 3.2187)
+   a=  9: D2 = 0.9149  D_h = 2.4998  D_h - log2 12 = -1.08512   (sign record D = 3.2094)
+   a= 12: D2 = 1.1378  D_h = 2.7228  D_h - log2 12 = -0.86220   (sign record D = 3.2262)
+   a= 15: D2 = 1.3761  D_h = 2.9610  D_h - log2 12 = -0.62393   (sign record D = 3.2750)
+   a= 18: D2 = 1.5734  D_h = 3.1583  D_h - log2 12 = -0.42662   (sign record D = 3.3404)
+   a= 24: D2 = 1.8175  D_h = 3.4024  D_h - log2 12 = -0.18254   (sign record D = 3.4581)
+   a= 30: D2 = 1.9264  D_h = 3.5113  D_h - log2 12 = -0.07364   (sign record D = 3.5275)
+   a= 45: D2 = 1.9930  D_h = 3.5779  D_h - log2 12 = -0.00705   (sign record D = 3.5786)
+   a= 60: D2 = 1.9993  D_h = 3.5843  D_h - log2 12 = -0.00066   (sign record D = 3.5843)
+   a= 90: D2 = 2.0000  D_h = 3.5850  D_h - log2 12 = -0.00001   (sign record D = 3.5850)
+   a=120: D2 = 2.0000  D_h = 3.5850  D_h - log2 12 = -0.00000   (sign record D = 3.5850)
+   limit: D_h -> 3.5850 vs log2 12 = 3.5850 (a = 120); fitted decay rho = 0.8540; subleading ratios closed 0.8114 rainbow 0.6803 coloring 0.8538 -> nearest: coloring
+
+SCORE: REPORTED — D_h's limit is exactly log2 3 + D2's limit; pre-registration scored above
