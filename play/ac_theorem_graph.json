@@ -1689,7 +1689,7 @@
    "name": "Fine Structure Constant",
    "domain": "bst_physics",
    "domain_label": "BST Physics / Predictions",
-   "status": "proved",
+   "status": "identified (was over-tagged Proved; tier corrected K676/K680/K1391) — graph status aligned to registry 2026-09-03",
    "plain": "α⁻¹ = 137.036 from D_IV^5 volume, Wyler integral. Depth 1.",
    "color": "#FF5722",
    "proofs": [
