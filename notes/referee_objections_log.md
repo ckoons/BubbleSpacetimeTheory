@@ -19035,3 +19035,13 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §829.
 
 — Cal
+
+### #145 — Turning-parity law: sign rule PASS; dichotomy TRUE; tree criterion NECESSARY not SUFFICIENT — the complete criterion is [c mod 3] = 0 in H¹ of the branched double cover (2026-09-03 (Thu) 13:33 EDT)
+
+- **PASS:** face closure forces one height sign per face, alternating across every edge, colouring-independent; the turning rule holds at even vertices and is ambiguous at dislocations (the branch point). (L1) is the length-1 case.
+- **Amendment:** c(e) = s(left face) is a ℤ₃-cocycle on Σ (δc = 3s_t ≡ 0); L ⊆ Λ₀ ⟺ P = 2L ⊆ Λ₀ ⟺ [c] = 0 ∈ H¹(Σ;ℤ₃). Tree neutrality is implied by, but does not imply, this (L = T + 2L admits T = Λ₀, L = ℤ²). C₆₀'s confinement: tree half derived, period half measured until the class is computed.
+- **Third cell pre-registered:** neutral tree with [c] ≠ 0 is "not confined," not a kill of the dichotomy.
+- **Owned:** my "3 ∤ index" in §834 (L1) contradicted my own preceding sentence and died on C₄₈ #0 with Lyra's S₃ clause. Calibration #23.
+- Full text: RUNNING_NOTES §835.
+
+— Cal
