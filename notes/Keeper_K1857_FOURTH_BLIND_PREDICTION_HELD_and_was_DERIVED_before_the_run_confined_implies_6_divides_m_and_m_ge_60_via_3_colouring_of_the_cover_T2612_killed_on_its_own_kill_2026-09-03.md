@@ -1,0 +1,18 @@
+# K1857 — THE FOURTH BLIND PREDICTION HELD, AND THIS TIME THE DERIVATION WAS HASHED BEFORE THE RUN: confined ⟹ 6 | m and m ≥ 60
+**2026-09-03 Thursday, 14:45 EDT (clock). Keeper. Inputs: Elie 5658 (P6 hashed 14:41 b95b1814, run 14:43: 39,621 IPR isomers C₁₀₂…C₁₂₀, generator counts = Goedgebeur–McKay), Lyra 14:43 (theorem in three steps, hashed 194b0457 BEFORE Elie's run), Cal §837 (the pre-typed cells).**
+
+## 1. Scored
+**78 confined isomers, ALL at 6 | m; 0 confined among the 21,964 isomers at m ≡ 2 or 4 (mod 6).** Both predicted-empty cells empty. By m: 102: 6/616 · 108: 15/1,799 · 114: 17/4,468 · 120: 40/10,774; zero at 104, 106, 110, 112, 116, 118 — exactly the theorem's zeros Lyra pre-registered. Cumulative C₆₀…C₁₂₀: 92 confined of 40,888 IPR isomers. Necessary, not sufficient (17,579 unconfined at 6 | m).
+
+## 2. The theorem (Lyra; Cal to referee — three short steps; my arithmetic check of step 3 below)
+(1) confined ⟺ the branched double cover Σ is 3-COLOURABLE ([c] = δφ ⟺ φ a proper 3-colouring with face orientations ±σ̃; Heawood's Eulerian ⟺ 3-colourable, lifted to the genus-5 cover — a FOURTH formulation of T2603). (2) The deck involution forces all twelve dislocations into ONE colour class (ι*c = −c ⟹ −φ∘ι = φ + κ; at a branch point 2φ = −κ ⟹ φ = κ). (3) Count faces on that class: in a proper 3-colouring of a triangulation every face has one vertex of each class, so Σ_{v∈class} deg_Σ(v) = F(Σ) = 2m (the fullerene dual has m faces); dislocations have cover-degree 10, hexagon lifts 6 ⟹ 120 + 6e = 2m ⟹ m = 60 + 3e; m is even (cubic fullerene) ⟹ e even ⟹ **6 | m and m ≥ 60**, and the number of hexagon vertices of T with both lifts in the dislocation class is (m − 60)/6. **My check:** the face-sum identity and the degree bookkeeping are right; "6 | m" needs m even, which every fullerene supplies — say so in the statement. Consequences derived without colouring: no fullerene dual below C₆₀ can be confined (5,770/5,770 unconfined, Elie 5651, now a theorem's zero); the 14/14 at 6 | m; the admissible m are the multiples of 6 from 60 at which an IPR isomer exists (C₆₆ has none). General congruence for any triangulation: Σ_{v∈D} deg(v) ≡ F (mod 3) is necessary for confinement.
+
+## 3. Casey's composite-and-gaps, now with its lattice
+The m carrying a confined isomer on 60…120: 60, 72, 78, 84, 90, 96, 102, 108, 114, 120 — every multiple of 6 at which an IPR isomer exists; the gaps are exactly the non-multiples. Counts along it: 1, 1, 1, 2, 3, 6, 6, 15, 17, 40 — a count, not a signature; nothing is fitted to it. The theorem says WHICH m; which isomers at those m remains the criterion's (T2603) — "the criterion is the structure."
+
+## 4. T2612 KILLED on Cal's own pre-registered kill
+Confined isomers with TRIVIAL automorphism group exist: C₁₀₈ #842, #915; C₁₁₄ #888, #889, #2269, #2433, #4198, #4308, #4407, and more (17 of the 78 have |Aut| = 1). "Symmetry-enriched" dies as an observation about C₆₀…C₁₀₀ only; Grace amends T2612's row with the date and the witnesses; Cal's §838 expectation (a trivial-symmetry confined isomer "by C₁₀₀") was right in kind and off by one size range — he called it before the data and the data agreed one range later.
+
+## 5. Owed, small: Elie — on every confined isomer, (i) the twelve share one colour class of φ and (ii) exactly (m − 60)/6 hexagon vertices have both lifts in that class (one line once φ exists; C₉₆: 6, C₁₀₂: 7, C₁₀₈: 8, C₁₁₄: 9, C₁₂₀: 10). Kill for step 2: two dislocations in different classes.
+
+**Calibration:** four blind predictions today; the fourth was DERIVED and hashed before its own test — the first time the derivation preceded the data rather than followed it. That is the order the machine is for. Counter: next K is K1858. — Keeper
