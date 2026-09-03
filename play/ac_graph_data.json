@@ -3,11 +3,11 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2389,
-  "edge_count": 10227,
+  "theorem_count": 2390,
+  "edge_count": 10233,
   "committed_count": 438,
   "working_count": 64,
-  "total_theorems": 2389,
+  "total_theorems": 2390,
   "total_edges": 10164,
   "depth_distribution": {
    "D0": 1399,
@@ -86506,6 +86506,42 @@
    "to": 2612,
    "source": "observed",
    "label": "[c] = 0 as many parity coincidences"
+  },
+  {
+   "from": 2610,
+   "to": 2613,
+   "source": "proved",
+   "label": "floors are derived graphs of the transfer; the voltage construction"
+  },
+  {
+   "from": 2603,
+   "to": 2613,
+   "source": "proved",
+   "label": "the corollary's criterion [c] = 0"
+  },
+  {
+   "from": 2602,
+   "to": 2613,
+   "source": "proved",
+   "label": "One-Floor on the torus: height 1 for the full derived cover"
+  },
+  {
+   "from": 2609,
+   "to": 2613,
+   "source": "proved",
+   "label": "cost as a derived limit on a transfer family"
+  },
+  {
+   "from": 2577,
+   "to": 2613,
+   "source": "proved",
+   "label": "the height record's forced series (sign, charge, periods)"
+  },
+  {
+   "from": 2613,
+   "to": 2601,
+   "source": "proved",
+   "label": "claim (iii) re-reads the tower row: orphans realized at the floor whose subgroup their image misses"
   }
  ],
  "chains": {},
@@ -132951,7 +132987,7 @@
    "tid": 2612,
    "name": "Confinement is symmetry-enriched, not symmetry-determined — OBSERVATION (0/14 trivial Aut vs 61%); 6 | m hashed",
    "domain": "four_color",
-   "status": "observation (measured; 6|m pre-registered)",
+   "status": "KILLED 2026-09-03 14:45 (Cal's kill: 17 of 78 confined isomers at C102–C120 have trivial Aut); 6|m derived, own row",
    "depth": 1,
    "conflation": 0,
    "section": "conserved knowledge theory (2026-09-03)",
@@ -132961,6 +132997,23 @@
    ],
    "date": "2026-09-03",
    "plain": "All fourteen confined IPR isomers through C100 have nontrivial symmetry though 61 percent of isomers do not, yet symmetry selects nothing; the pattern 6 divides m is hashed as a prediction for C102–C120, not claimed.",
+   "proofs": []
+  },
+  {
+   "tid": 2613,
+   "name": "Observer Tower Theorem — floors by the voltage construction along a normal series; height a definition, its forcing the theorem; new information per floor; cost as position vs derived limit; corollary height = verdict",
+   "domain": "four_color",
+   "status": "proved (Lyra + Cal §839 PASS, four amendments)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5653,
+    5655,
+    5630
+   ],
+   "date": "2026-09-03",
+   "plain": "Build each observer floor as the cover that kills one quotient of the record's monodromy; the sign layer must come first, the charge layer next; a floor newly realizes exactly the orphans whose monodromy misses the next subgroup; the cost on one graph is the group-order sum and on a transfer family the derived limit; on the sphere the tower's height is the confinement verdict, measured on 7,037 graphs.",
    "proofs": []
   }
  ],

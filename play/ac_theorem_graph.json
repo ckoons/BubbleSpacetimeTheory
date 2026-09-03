@@ -4906,9 +4906,19 @@
    "name": "Confinement is symmetry-enriched, not symmetry-determined — OBSERVATION (0/14 trivial Aut vs 61%); 6 | m hashed",
    "domain": "four_color",
    "domain_label": "Four Color",
-   "status": "observation",
+   "status": "killed (14:45; 17/78 trivial-Aut confined at C102–C120)",
    "plain": "All fourteen confined IPR isomers through C100 have nontrivial symmetry though 61 percent of isomers do not, yet symmetry selects nothing; the pattern 6 divides m is hashed as a prediction for C102–C120, not claimed.",
    "color": "#7F8C8D",
+   "proofs": []
+  },
+  {
+   "id": "T2613",
+   "name": "Observer Tower Theorem — floors by the voltage construction along a normal series; height a definition, its forcing the theorem; new information per floor; cost as position vs derived limit; corollary height = verdict",
+   "domain": "four_color",
+   "domain_label": "Four Color",
+   "status": "proved",
+   "plain": "Build each observer floor as the cover that kills one quotient of the record's monodromy; the sign layer must come first, the charge layer next; a floor newly realizes exactly the orphans whose monodromy misses the next subgroup; the cost on one graph is the group-order sum and on a transfer family the derived limit; on the sphere the tower's height is the confinement verdict, measured on 7,037 graphs.",
+   "color": "#4A90D9",
    "proofs": []
   }
  ],
@@ -7679,6 +7689,42 @@
    "target": "T2612",
    "type": "uses",
    "label": "[c] = 0 as many parity coincidences"
+  },
+  {
+   "source": "T2610",
+   "target": "T2613",
+   "type": "uses",
+   "label": "floors are derived graphs of the transfer; the voltage construction"
+  },
+  {
+   "source": "T2603",
+   "target": "T2613",
+   "type": "uses",
+   "label": "the corollary's criterion [c] = 0"
+  },
+  {
+   "source": "T2602",
+   "target": "T2613",
+   "type": "uses",
+   "label": "One-Floor on the torus: height 1 for the full derived cover"
+  },
+  {
+   "source": "T2609",
+   "target": "T2613",
+   "type": "uses",
+   "label": "cost as a derived limit on a transfer family"
+  },
+  {
+   "source": "T2577",
+   "target": "T2613",
+   "type": "uses",
+   "label": "the height record's forced series (sign, charge, periods)"
+  },
+  {
+   "source": "T2613",
+   "target": "T2601",
+   "type": "uses",
+   "label": "claim (iii) re-reads the tower row: orphans realized at the floor whose subgroup their image misses"
   }
  ],
  "chains": {
