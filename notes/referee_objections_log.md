@@ -19052,3 +19052,12 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §836.
 
 — Cal
+
+### #147 — Observer Tower Theorem PASS with four amendments; T2603 reformulated as "confined ⟺ the branched double cover is 3-vertex-colourable"; 6 | m derived for connected two-step graphs with an exact exception class; §4's record has no local law (Š is totally real) and "zonal" has three meanings (2026-09-03 (Thu) 14:45 EDT)
+
+- Tower: floors are a normal series, not "the kernel"; height is a definition; (iii) exact only for length-1 series (image must meet G_{k+1} trivially); cost = position on a graph / derived limit on a family; corollary scope = all sphere triangulations.
+- 6 | m: b₀ ≡ b₁ ≡ b₂ (mod 3), m ≡ 2β; pentagons sharing a hexagon share a colour (antipodal lifts); connected two-step graph ⟹ 6 | m. Kill shape written.
+- §4: tangential CR is empty on a totally real boundary; K-type lists from memory flagged for pinning; any 3/5 without a frozen functional is a tuning channel.
+- Full text: RUNNING_NOTES §839.
+
+— Cal
