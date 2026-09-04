@@ -35278,6 +35278,280 @@
    "date": "2026-09-02",
    "plain": "After an exiting first word the third chain reconnects around the cut (6,207/6,503); the cut itself vanishes in 138; the kernel reading is the necessary half of Lemma T only (40 exits keep a separating cut and exit via ¬Q3∨¬Q4). Cut at distance 1 at every lock; nine images at distance 2. Frames: cut in c2/c3 (X3 of c2, X4 of c3), Q3/Q4 in c4; the cut-separation is Q3's Menger corollary, not a third condition (Cal §825).",
    "proofs": []
+  },
+  {
+   "tid": 2598,
+   "name": "Lemma R′ — reconstruction up to A₄ on closed orientable surfaces; realizability staged (θ then [ℓ])",
+   "domain": "four_color",
+   "status": "proved (Cal §828 PASS; strictness measured)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-02)",
+   "toys": [
+    5627
+   ],
+   "date": "2026-09-02",
+   "plain": "A realized sign record fixes the coloring up to the 12 sign-preserving color permutations on any closed orientable surface; genus adds orphans (closed records with no coloring) in two stages, transport then cocycle, both empty on the sphere. Strict on every torus measured; converse owed.",
+   "proofs": []
+  },
+  {
+   "tid": 2599,
+   "name": "E2 count — OBSERVATION (1 completion per realized record mod A₄, sphere and torus)",
+   "domain": "four_color",
+   "status": "observation (measured)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-02)",
+   "toys": [
+    5627
+   ],
+   "date": "2026-09-02",
+   "plain": "2,374 sphere + 1,332 torus records, one completion each mod A₄; orphans measured in two classes on every torus; disc twins differ in record (Lemma R-rel).",
+   "proofs": []
+  },
+  {
+   "tid": 2600,
+   "name": "Decision cost — OBSERVATION (D → log₂ 12 = log₂|A₄| on the free generator; square tori pre-registered log₂ 48)",
+   "domain": "four_color",
+   "status": "observation (measured; square limit pre-registered)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-02)",
+   "toys": [
+    5628,
+    5631,
+    5633,
+    5634
+   ],
+   "date": "2026-09-02",
+   "plain": "Exact transfer-matrix counts: closed/transport-clean/realized share one leading eigenvalue, so the cost is a constant log₂ 12 with no per-column part; sheet-degree reading killed (5631); square tori predicted log₂ 48.",
+   "proofs": []
+  },
+  {
+   "tid": 2601,
+   "name": "Tower of covers — OBSERVATION (one floor per orphan on the torus; cocycle half instrument check)",
+   "domain": "four_color",
+   "status": "observation (measured; cocycle half instrument check; transport half derived on the torus)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-02)",
+   "toys": [
+    5629,
+    5630
+   ],
+   "date": "2026-09-02",
+   "plain": "Every orphan realized on the derived surface cover of its own holonomy, one floor up: 3 sheets (transport, 906/906, never a second floor) or 2/4 (cocycle, by construction). Torus theorem (Lyra 16:34 §3(c), Cal §829 PASS): 906/906 is a theorem's zero. Genus 2 (toy 5635): One-Floor fails on every A₄-image record, realized at 12 sheets.",
+   "proofs": []
+  },
+  {
+   "tid": 2602,
+   "name": "One-Floor Theorem (torus) — abelian image in A₄ forces one floor; genus ≥ 2 FALSE (predicted and measured)",
+   "domain": "four_color",
+   "status": "proved (torus; Lyra §3(c) + Cal §828 item 4; Cal §829 PASS)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5630,
+    5635
+   ],
+   "date": "2026-09-03",
+   "plain": "On a torus the record's A₄-monodromy is abelian, and A₄ has no abelian subgroup mixing a 3-cycle with V, so the derived cover of the orphan's own holonomy realizes it in one floor (3, 2 or 4 sheets). Two proofs (Lyra commutator, Cal deck-isotopy). Torus only: at genus 2 the image can be all of A₄ and the record needs 12 sheets — 695,054 measured witnesses.",
+   "proofs": []
+  },
+  {
+   "tid": 2603,
+   "name": "Per-graph dichotomy theorem (turning parity): L ⊆ Λ₀ for every colouring or none; criterion [c] = 0 in H¹(Σ;ℤ₃)",
+   "domain": "four_color",
+   "status": "proved (Lyra + Cal §835 PASS)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5636,
+    5644
+   ],
+   "date": "2026-09-03",
+   "plain": "The height sign 2-colours the faces of the branched double cover without looking at the colouring; the charge of a path is a ℤ₃-cocycle class on the cover; so whether the dislocation lattice sits in the charge kernel is decided by the graph alone. Tree criterion necessary; the class [c] = 0 is the full criterion.",
+   "proofs": []
+  },
+  {
+   "tid": 2604,
+   "name": "C₆₀ confinement — DERIVED (tree half Lyra, period half [c] = 0 computed)",
+   "domain": "four_color",
+   "status": "derived (tree: Lyra; period: [c] = 0 computed, Elie 5650; Cal §835 rule)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5641
+   ],
+   "date": "2026-09-03",
+   "plain": "No C₆₀-dual colouring has a full lattice; all rank-2 lattices are the charge kernel. Tree neutrality derived; the period half awaits the cohomology class on the cover.",
+   "proofs": []
+  },
+  {
+   "tid": 2605,
+   "name": "Pentagon-adjacency law (L1): adjacent pentagons ⟹ L ⊄ Λ₀, every colouring (5.1M/5.1M)",
+   "domain": "four_color",
+   "status": "proved (measured 5.1M/5.1M)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5644,
+    5649
+   ],
+   "date": "2026-09-03",
+   "plain": "An adjacent pentagon pair is a charged length-1 path, so the lattice leaves the charge kernel on every colouring; 5,146,245/5,146,245.",
+   "proofs": []
+  },
+  {
+   "tid": 2606,
+   "name": "C₄₈ #0 label-asymmetric index-3 line — OBSERVATION",
+   "domain": "four_color",
+   "status": "observation (measured)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5644
+   ],
+   "date": "2026-09-03",
+   "plain": "Four colourings of one C₄₈ isomer reach the index-3 line x − y ≡ 0 instead of the charge kernel; killed two pre-registered clauses; no mechanism claimed.",
+   "proofs": []
+  },
+  {
+   "tid": 2607,
+   "name": "Graph verdicts before colouring — OBSERVATION (10/10 IPR fullerene duals, blind order; index 3 only on confined graphs, always Λ₀)",
+   "domain": "four_color",
+   "status": "observation (measured, blind order)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5649,
+    5650
+   ],
+   "date": "2026-09-03",
+   "plain": "Cal's cohomology criterion computed from the graph alone predicted CONFINED/NOT for ten fullerene duals before any colouring; exhaustive colouring agreed on all ten with no split. Confined graphs never show a full lattice; index-3 lattices appear only there and are always the charge kernel.",
+   "proofs": []
+  },
+  {
+   "tid": 2608,
+   "name": "Odd-cycle / quadrangulation theorem (θ-clean records): im ⊆ ⟨a⟩ ⟺ b∪c bipartite; odd b∪c cycles non-contractible",
+   "domain": "four_color",
+   "status": "proved (Keeper + Cal §836(a))",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5643,
+    5646,
+    5648
+   ],
+   "date": "2026-09-03",
+   "plain": "Delete the a-edges: the remaining graph is bipartite exactly when the record's V-image is a line, and any odd cycle in it wraps the surface. Keeper's one line plus Cal's rerouting; Grace's 28,441 zero is the theorem's.",
+   "proofs": []
+  },
+  {
+   "tid": 2609,
+   "name": "Finite-size law for the decision cost — theorem: shared Perron eigenvalue; D → log₂|H_long|; decay = max(α, β)",
+   "domain": "four_color",
+   "status": "proved (Cal §836(b); inputs H_long and α>β measured)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5628,
+    5647,
+    5652
+   ],
+   "date": "2026-09-03",
+   "plain": "The three record counts share one Perron eigenvalue, so the cost's limit is the log of the achievable-holonomy subgroup (12 on one free generator), and the correction decays at the larger of two second eigenvalues; at widths 3 and 6 the colouring one wins, with cube-root phases giving both branches.",
+   "proofs": []
+  },
+  {
+   "tid": 2610,
+   "name": "Tower off one operator — voltage-graph spectral theorem: floors = derived graphs of the transfer; spectrum = union of twisted blocks; Perron floor-independent",
+   "domain": "four_color",
+   "status": "proved (classical; Cal §837 noun)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5654,
+    5653
+   ],
+   "date": "2026-09-03",
+   "plain": "The observer floors are derived graphs of the transfer operator under the record's holonomy; the cover's spectrum is the union of the base's character-twisted blocks, so heights and per-floor costs are the block decomposition of one operator. Instrument 5654 at width 3: untwisted block = the closed-record matrix, Perron unchanged, trace = 3 × records with trivial long transport.",
+   "proofs": []
+  },
+  {
+   "tid": 2611,
+   "name": "P-para, derived halves: para pair ⟹ not confined (1,243/1,243); para-free ∧ meta-connected ⟹ confined (11/11); conjectured clause dead",
+   "domain": "four_color",
+   "status": "proved (derived halves; conjecture dead 14:29)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5656,
+    5644
+   ],
+   "date": "2026-09-03",
+   "plain": "A para pair is a charged two-step so it kills confinement; para-free with a connected meta graph forces it. The guessed clause that meta-connectivity is automatic died on ten isomers; the residue cell of thirteen is decided by longer paths, i.e. by the criterion itself.",
+   "proofs": []
+  },
+  {
+   "tid": 2612,
+   "name": "Confinement is symmetry-enriched, not symmetry-determined — OBSERVATION (0/14 trivial Aut vs 61%); 6 | m hashed",
+   "domain": "four_color",
+   "status": "KILLED 2026-09-03 14:45 (Cal's kill: 17 of 78 confined isomers at C102–C120 have trivial Aut); 6|m derived, own row",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5656,
+    5655
+   ],
+   "date": "2026-09-03",
+   "plain": "All fourteen confined IPR isomers through C100 have nontrivial symmetry though 61 percent of isomers do not, yet symmetry selects nothing; the pattern 6 divides m is hashed as a prediction for C102–C120, not claimed.",
+   "proofs": []
+  },
+  {
+   "tid": 2613,
+   "name": "Observer Tower Theorem — floors by the voltage construction along a normal series; height a definition, its forcing the theorem; new information per floor; cost as position vs derived limit; corollary height = verdict",
+   "domain": "four_color",
+   "status": "proved (Lyra + Cal §839 PASS, four amendments)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5653,
+    5655,
+    5630
+   ],
+   "date": "2026-09-03",
+   "plain": "Build each observer floor as the cover that kills one quotient of the record's monodromy; the sign layer must come first, the charge layer next; a floor newly realizes exactly the orphans whose monodromy misses the next subgroup; the cost on one graph is the group-order sum and on a transfer family the derived limit; on the sphere the tower's height is the confinement verdict, measured on 7,037 graphs.",
+   "proofs": []
+  },
+  {
+   "tid": 2614,
+   "name": "Divisibility theorem: confined ⟺ the branched double cover is 3-colourable ⟹ 6 | m, m ≥ 60, D = (m−60)/6 double-lifted hexagons (fourth blind prediction, derived first)",
+   "domain": "four_color",
+   "status": "proved (Lyra + Cal §840 PASS; measured 78/78, 92/92)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "conserved knowledge theory (2026-09-03)",
+   "toys": [
+    5658,
+    5659,
+    5651
+   ],
+   "date": "2026-09-03",
+   "plain": "Confinement means the doubled surface can be three-coloured; the deck involution forces all twelve pentagons into one colour, and counting faces on that colour class gives m = 60 + 6D. Nothing below C60 is confined; 78 of 78 at C102–C120 obey it, with the exact D on all 92 confined isomers.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -133059,8 +133333,9 @@
   }
  ],
  "metadata": {
-  "node_count": 2374,
-  "edge_count": 10194,
-  "theorem_count": 2374
+  "node_count": 2391,
+  "edge_count": 10237,
+  "theorem_count": 2391,
+  "synced": "2026-09-04 theorems list re-synced to nodes (Grace; had stopped at T2597)"
  }
 }
