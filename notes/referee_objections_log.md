@@ -19082,3 +19082,14 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §845–§846.
 
 — Cal
+
+### #150 — E5 scored: raw height record NOT Kempe-conserved (kill fired as pre-registered), D1 flag held to the digit, branched-cover degree formula held 3,351/3,351, my "degree not a function of the datum" dead (owned before the run), my Λ′ rescue empty; E6 under the 1→4 design: K-a under R1 is construction-guaranteed, R2 predicted 0/240; the sandbox's conserved quantity is one bit and it is Mohar–Salas's (2026-09-04 (Fri) 09:20 EDT)
+
+- Held: raw datum not invariant; shifts in Λ₀; integer charge dies under a-/b-sum swaps (216 = 108 + 108 + 0); deg f = ¼ cup-square of the lifted height class on Σ (C₆₀ 3,190; plantri 161).
+- Dead: deg not a function of [ω] (it is det/2); sphere witness impossible (deg = 0 on every even sphere triangulation). Owned in §847 before 5663 ran.
+- Empty: P mod Λ′ (Λ′ = L₁₂ contains every period). Keeper's "mod 2 invariant" is vacuous (periods even).
+- E6: a relation with fibres larger than the small class straddles it by counting; K-a under R1 is not a finding. R2: 0/240 predicted, null 0.036.
+- Note on the lane: "conservation of knowledge" over-describes a one-bit parity that is Mohar–Salas 2009; on Q⁵ no operation is named, so no conservation statement exists there; an operation built to preserve a parity is not a law.
+- Full text: RUNNING_NOTES §849.
+
+— Cal
