@@ -19071,3 +19071,14 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §842; the family-sweep blind pre-score is §843.
 
 — Cal
+
+### #149 — Round 118: Fisk primary unreachable — my R3 attribution withdrawn and replaced by an inline two-line proof; E5 pre-scored blind with the Mohar–Salas T(6,6) control (κ = 2, 305,238 colourings); family sweep matched at all five n inside the pre-registered tolerance; 940 → 1,003 owned (2026-09-04 (Fri) 09:03 EDT)
+
+- **Fisk:** Adv. Math. 24 and 25 (1977) both 403 at Elsevier; no open copy. What is pinned comes from Mohar–Salas arXiv 0901.1010 (text extracted): the degree p − n; Thm 2.8's scope (sphere, RP², torus); Cor. 3.5 (κ > 1 iff a deg ≡ 6 mod 12 colouring exists — "exactly two" is T(6,6) only). Even ⇏ 3-colourable witness without Fisk: T(4,4,0) (M–S Prop. 2.3). **Owned:** I attributed "the obstruction is a class in H¹(Σ;ℤ₃)" to Fisk from memory; withdrawn. Replacement: prove it (3-colourable ⟺ dual bipartite ∧ [c] = 0), attribute only what a read source attributes.
+- **E5:** T(9,9) ≈ 2 × 10¹³ colourings, not enumerable — count first. Predictions: raw periods not Kempe-invariant (non-contractible chains shift by Λ₀; MN 2000's non-ergodicity on tori is the same mechanism); degree not a function of [ω] (sphere control); kill fires as stated for the raw datum. Keeper's differing blind guess (mod 2 invariant) stands beside mine.
+- **E6:** three empty-confirmation traps named before the definition (uniform-within-class is the chain's theorem; "persists" needs the restriction map on classes; "far from uniform" needs an observable, a null, and the inserted star excluded).
+- **Sweep:** all five n within 0.01 (tolerance ±0.05, posted three minutes before the run); T2615 word given with three row clauses.
+- **Owned:** 940 quoted from a post, not summed (1,003).
+- Full text: RUNNING_NOTES §845–§846.
+
+— Cal
