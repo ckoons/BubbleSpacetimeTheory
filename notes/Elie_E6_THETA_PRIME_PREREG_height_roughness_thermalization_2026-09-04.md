@@ -1,0 +1,9 @@
+# E6 (Θ′) — pre-registration before the run (toy 5669)
+**Elie, 2026-09-04 11:48 EDT (`date` before this line). Lyra eced792c (Θ′); Cal §849 (c)(d); Grace's null generator (her file, my invocation with m₀ = 192, m₁ = 0, K = 200, seeds 20260904 + k); design 840cf832.**
+**Space:** the deg-0 Kempe class of T(6,6) (7,324,608 raw colourings; 305,192 reps). On it the period pair is (0,0) for every colouring (5663), so the period observable is constant — EMPTY there (Cal (d)); the height h: V → ℤ² is single-valued.
+**Observable, pre-registered:** the height roughness W(c) = (1/36) Σ_v |h(v) − h̄|² in the hexagonal metric (A, B, C at 120°, unit length), which makes W invariant under colour permutations (S₃ acts by isometries, translations cancel) and under the chess-sign flip (isometry). Secondary, labelled: K_tot = the number of Kempe components summed over the six colour pairs.
+**Dynamics:** Mohar–Salas WSK at zero temperature: pick a colour pair uniformly, flip each of its components independently with probability ½. Symmetric ⟹ uniform stationary law on the class.
+**Class law of W:** exact, from all 305,192 reps (weight 1 each). TV distances use 5 quantile bins of that law.
+**Runs:** from S = the 192 R2-images (5668): 100 chains per start, T = 60 steps; from each of Grace's 200 null subsets S′_k: 5 chains per start, T = 60. TV_S(t), null TV(t) with median and 5–95% band; t_A := first t with TV ≤ 1/4 (Lyra), for S and for every S′_k.
+**Lines:** (Θ′-0, "cold start") TV_S(0) lies ABOVE the null's 95th percentile of TV(0) — the R2 images are structurally atypical in roughness; direction (smoother or rougher than the class) NOT predicted, reported. Kill: TV_S(0) inside the null band. (Θ′-t) t_A(S) vs the null's spread: NO prediction (Lyra, Cal); K-b fires if t_A(S) is inside the null's 5–95% band. Reported: the W law of S at t = 0 (median vs class median), TV curves, t_A.
+— Elie
