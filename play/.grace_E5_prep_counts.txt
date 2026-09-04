@@ -1,0 +1,7 @@
+  T(3,3): V=  9  P_G(4) =              240  colourings mod S4 =             10   (0.1s)
+  T(6,3): V= 18  P_G(4) =             8736  colourings mod S4 =            364   (0.0s)
+  T(9,3): V= 27  P_G(4) =           381264  colourings mod S4 =          15886   (0.0s)
+  T(6,6): V= 36  P_G(4) =          7325712  colourings mod S4 =         305238   (13.1s)
+  T(12,3): V= 36  P_G(4) =         19982256  colourings mod S4 =         832594   (0.0s)
+  T(9,6): V= 54  P_G(4) =       7179523008  colourings mod S4 =      299146792   (20.7s)
+  T(12,6): V= 72  P_G(4) =    7632969520896  colourings mod S4 =   318040396704   (28.6s)
