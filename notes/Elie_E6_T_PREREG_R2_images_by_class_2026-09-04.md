@@ -1,0 +1,5 @@
+# E6 (T) under R2 — pre-registration before the run (toy 5668)
+**Elie, 2026-09-04 11:45 EDT (`date` before this line). Design 840cf832; Cal §849 pre-score; Lyra eced792c; Grace's null 09:15.**
+Assembly A: 1→4 subdivision T(3,3) → T(6,6); parent vertex (x,y) ↦ child (2x,2y). **R2:** the 27 midpoints coloured in lexicographic order of child coordinates with the LEAST colour legal against all already-coloured neighbours (parents first, then earlier midpoints); a parent colouring whose R2 fails is reported as "partial" and counted. Applied to all 240 raw parent colourings.
+Lines: (T-R2) the number m₁ of R2-images in the odd Kempe class of T(6,6) (deg ±6/−18; class membership from the 5663 rows via canonical form). **Prediction (Cal's, mine too): m₁ = 0 of 240; null expectation 240 × 1,104/7,325,712 = 0.036; ≥ 2 is the structured-assembly finding; m₁ ≥ 1 kills "persistence under R2".** (R1) fibre sizes for the 240 parents and the number of parents whose fibre meets the odd class — reported as COUNTS (construction-guaranteed to straddle, per Cal (a); no verdict word). Also: R2 injective (restriction recovers the parent) — control; and the images' deg values.
+— Elie
