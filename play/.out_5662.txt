@@ -1,0 +1,90 @@
+==============================================================================
+Toy 5662 — K-spherical rule computed; Cal §844 four lines exact; Δ alone cannot
+==============================================================================
+
+C0  <chi_(p,q), chi_(p,q)>_G = 1 and dim check via Weyl formula vs known SO(7) dims (7,21,27,105,168,189)
+    [PASS] C0 instrument at q>0: six SO(7) dims + two tensor-product sums exact, <chi,chi>=1 for (3,1),(4,2),(5,3) at N=5..9 (23/23)
+
+(A) dim (p,q,0,..)^K, K = SO(n)xSO(2), n = 3..7, p >= q >= 0, p <= 8 — prediction 1 iff p == q (mod 2)
+    n=3 SO(5) ↓ SO(3)xSO(2)   rows p, columns q:
+      p=0: 1
+      p=1: 0 1
+      p=2: 1 0 1
+      p=3: 0 1 0 1
+      p=4: 1 0 1 0 1
+      p=5: 0 1 0 1 0 1
+      p=6: 1 0 1 0 1 0 1
+      p=7: 0 1 0 1 0 1 0 1
+      p=8: 1 0 1 0 1 0 1 0 1
+    n=4 SO(6) ↓ SO(4)xSO(2)   rows p, columns q:
+      p=0: 1
+      p=1: 0 1
+      p=2: 1 0 1
+      p=3: 0 1 0 1
+      p=4: 1 0 1 0 1
+      p=5: 0 1 0 1 0 1
+      p=6: 1 0 1 0 1 0 1
+      p=7: 0 1 0 1 0 1 0 1
+      p=8: 1 0 1 0 1 0 1 0 1
+    n=5 SO(7) ↓ SO(5)xSO(2)   rows p, columns q:
+      p=0: 1
+      p=1: 0 1
+      p=2: 1 0 1
+      p=3: 0 1 0 1
+      p=4: 1 0 1 0 1
+      p=5: 0 1 0 1 0 1
+      p=6: 1 0 1 0 1 0 1
+      p=7: 0 1 0 1 0 1 0 1
+      p=8: 1 0 1 0 1 0 1 0 1
+    n=6 SO(8) ↓ SO(6)xSO(2)   rows p, columns q:
+      p=0: 1
+      p=1: 0 1
+      p=2: 1 0 1
+      p=3: 0 1 0 1
+      p=4: 1 0 1 0 1
+      p=5: 0 1 0 1 0 1
+      p=6: 1 0 1 0 1 0 1
+      p=7: 0 1 0 1 0 1 0 1
+      p=8: 1 0 1 0 1 0 1 0 1
+    n=7 SO(9) ↓ SO(7)xSO(2)   rows p, columns q:
+      p=0: 1
+      p=1: 0 1
+      p=2: 1 0 1
+      p=3: 0 1 0 1
+      p=4: 1 0 1 0 1
+      p=5: 0 1 0 1 0 1
+      p=6: 1 0 1 0 1 0 1
+      p=7: 0 1 0 1 0 1 0 1
+      p=8: 1 0 1 0 1 0 1 0 1
+    [PASS] (A) K-spherical rule p == q (mod 2) computed by Weyl integration, 225/225 (n=3..7, p<=8)
+
+(A') third label r > 0 is never K-spherical: (p,q,r) with r=1, n = 5,6,7 (rank >= 3), p<=4
+    [PASS] (A') (p,q,1,..) has no K-fixed vector, 30/30
+
+(B) Cal §844: D-eigenvalue (x1²-ρ2²)(x2²-ρ2²) on the spherical lattice, exact, p <= 40, n = 3..7
+    n=3: kernel q-values [0]; populated lines ['x2=+rho2']; bad=0
+    n=4: kernel q-values [0]; populated lines ['x2=+rho2']; bad=0
+    n=5: kernel q-values [0]; populated lines ['x2=+rho2']; bad=0
+    n=6: kernel q-values [0]; populated lines ['x2=+rho2']; bad=0
+    n=7: kernel q-values [0]; populated lines ['x2=+rho2']; bad=0
+    [PASS] (B) ker D on the spherical lattice = q = 0 exactly, 2205/2205 weights; only x2=+rho2 populated at every n
+
+(C) Casimir collisions p(p+n) = p'(p'+n) + q'(q'+n-2), q' > 0, spherical lattice, p,p' <= 60
+    n=3: 13 Casimir values shared by a zonal and a non-zonal weight; smallest: [(130, [(8, 6), (10, 0)]), (238, [(13, 5), (14, 0)]), (460, [(16, 12), (20, 0)])]
+    n=4: 18 Casimir values shared by a zonal and a non-zonal weight; smallest: [(60, [(5, 3), (6, 0)]), (140, [(7, 7), (10, 0)]), (320, [(13, 9), (15, 5), (16, 0)])]
+    n=5: 10 Casimir values shared by a zonal and a non-zonal weight; smallest: [(204, [(10, 6), (12, 0)]), (414, [(17, 5), (18, 0)]), (594, [(18, 12), (22, 0)])]
+    n=6: 18 Casimir values shared by a zonal and a non-zonal weight; smallest: [(72, [(4, 4), (6, 0)]), (112, [(7, 3), (8, 0)]), (352, [(11, 11), (16, 0)])]
+    n=7: 10 Casimir values shared by a zonal and a non-zonal weight; smallest: [(228, [(9, 7), (12, 0)]), (294, [(12, 6), (14, 0)]), (638, [(21, 5), (22, 0)])]
+    [PASS] (C) collisions exist at every n=3..7: no function of Δ alone has kernel = zonal sector; D4 is needed
+
+(D) Casimir intertwining: S^{n+1} degree-p eigenvalue p(p+dim-1) = p(p+n) = Q^n eigenvalue of (p,0,..)
+    [PASS] (D) p(p+n) on both spaces, 205/205
+
+==============================================================================
+SCORE 6/6   [56s]
+  PASS  C0 instrument at q>0: six SO(7) dims + two tensor-product sums exact, <chi,chi>=1 for (3,1),(4,2),(5,3) at N=5..9 (23/23)
+  PASS  (A) K-spherical rule p == q (mod 2) computed by Weyl integration, 225/225 (n=3..7, p<=8)
+  PASS  (A') (p,q,1,..) has no K-fixed vector, 30/30
+  PASS  (B) ker D on the spherical lattice = q = 0 exactly, 2205/2205 weights; only x2=+rho2 populated at every n
+  PASS  (C) collisions exist at every n=3..7: no function of Δ alone has kernel = zonal sector; D4 is needed
+  PASS  (D) p(p+n) on both spaces, 205/205

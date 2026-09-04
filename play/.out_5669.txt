@@ -1,0 +1,24 @@
+class law of W on 305192 deg-0 reps: median 0.4977 mean 0.5141 min 0.3333 max 0.8796  [6s]
+  quantile bins ['0.456', '0.491', '0.521', '0.567']; class bin masses ['0.208', '0.202', '0.198', '0.209', '0.182']
+S (R2 images): 192; W at t=0: median 0.4560 mean 0.4507 (class median 0.4977); K_tot mean 24.78
+TV_S(t): ['0.365', '0.321', '0.261', '0.209', '0.168', '0.135', '0.108', '0.087', '0.067', '0.060', '0.049', '0.042'] ... t=30 0.014 t=60 0.016  [33s]
+null file: K=200 m0=192 m1=0 sha256 8fc192c89d2f324c
+   null 50/200 [102s]
+   null 100/200 [170s]
+   null 150/200 [238s]
+   null 200/200 [307s]
+
+RESULTS
+  t= 0: TV_S 0.365 | null median 0.052  5% 0.027  95% 0.098
+  t= 1: TV_S 0.321 | null median 0.041  5% 0.016  95% 0.072
+  t= 2: TV_S 0.261 | null median 0.036  5% 0.018  95% 0.064
+  t= 3: TV_S 0.209 | null median 0.033  5% 0.016  95% 0.054
+  t= 5: TV_S 0.135 | null median 0.029  5% 0.017  95% 0.050
+  t=10: TV_S 0.049 | null median 0.029  5% 0.014  95% 0.050
+  t=20: TV_S 0.026 | null median 0.028  5% 0.013  95% 0.050
+  t=40: TV_S 0.016 | null median 0.030  5% 0.014  95% 0.050
+  t=60: TV_S 0.016 | null median 0.028  5% 0.015  95% 0.052
+  (Θ′-0) cold start: TV_S(0) = 0.365 vs null 95th pct 0.098 -> ABOVE (held); W0 median S 0.4560 vs null-subset medians median 0.4977 [0.4931, 0.5116] vs class 0.4977
+  (Θ′-t) t_A(S) = 3; null t_A: median 0, 5% 0, 95% 0, undefined 0/200
+  K-b: t_A(S) inside the null band -> does not fire
+[307s]

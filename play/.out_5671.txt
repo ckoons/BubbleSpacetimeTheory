@@ -1,0 +1,76 @@
+==============================================================================
+Toy 5671 — deg mod 6 / mod 2 as Kempe invariants on unseen sphere triangulations [68f30510]
+==============================================================================
+
+controls
+    {'name': 'octahedron', 'n': 6, 'ncol': 4, 'kappa': 1, 'sizes': [4], 'degs': [0], 'all_deg_mod3_zero': True, 'mods': {2: True, 3: True, 4: True, 6: True, 12: True}, 'oddprof': {}}
+    [PASS] control octahedron κ = 1
+    C60 dual: κ=52 sizes [1680, 1400, 4, 4, 4, 4] degs [-6, -3, 0, 3, 6] mods {2: True, 3: True, 4: False, 6: True, 12: False}
+    [PASS] control C₆₀ dual reproduces κ = 52 and deg mod 6 constant
+
+plantri -c5 n = 17, 18, 19 (unseen)
+    n=17 g0: odd-degree profile {5: 12}, 16 colourings, κ=8, sizes [2, 2, 2, 2, 2, 2], degs [-3, -1, 1], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=17 g1: odd-degree profile {5: 12}, 22 colourings, κ=2, sizes [16, 6], degs [-3, -2, -1, 0, 1, 2, 3], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=17 g2: odd-degree profile {5: 13, 7: 1}, 32 colourings, κ=9, sizes [16, 2, 2, 2, 2, 2], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=17 g3: odd-degree profile {5: 12}, 40 colourings, κ=1, sizes [40], degs [-2, 0, 2], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g0: odd-degree profile {5: 12}, 44 colourings, κ=7, sizes [32, 2, 2, 2, 2, 2], degs [-3, -2, -1, 0, 1, 2], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g1: odd-degree profile {5: 12}, 30 colourings, κ=7, sizes [18, 2, 2, 2, 2, 2], degs [-4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g2: odd-degree profile {5: 13, 7: 1}, 48 colourings, κ=2, sizes [28, 20], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g3: odd-degree profile {5: 13, 7: 1}, 38 colourings, κ=2, sizes [22, 16], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g4: odd-degree profile {5: 14, 7: 2}, 52 colourings, κ=2, sizes [44, 8], degs [-5, -4, -3, -2, -1, 0, 1, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g5: odd-degree profile {5: 14, 7: 2}, 53 colourings, κ=5, sizes [38, 12, 1, 1, 1], degs [-5, -4, -3, -2, -1, 0, 1, 2, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g6: odd-degree profile {5: 12}, 34 colourings, κ=5, sizes [16, 12, 2, 2, 2], degs [-4, -3, -2, -1, 0, 1, 2], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g7: odd-degree profile {5: 12}, 64 colourings, κ=2, sizes [48, 16], degs [-5, -3, -2, -1, 0, 1, 2, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g8: odd-degree profile {5: 12}, 78 colourings, κ=2, sizes [76, 2], degs [-6, -4, -2, 0, 2, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g9: odd-degree profile {5: 12}, 53 colourings, κ=3, sizes [44, 8, 1], degs [-5, -3, -2, -1, 0, 1, 3], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g10: odd-degree profile {5: 16}, 48 colourings, κ=17, sizes [32, 1, 1, 1, 1, 1], degs [-5, -4, -2, 0, 2, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=18 g11: odd-degree profile {5: 14, 7: 2}, 52 colourings, κ=7, sizes [32, 8, 8, 1, 1, 1], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g0: odd-degree profile {5: 14, 7: 2}, 84 colourings, κ=3, sizes [82, 1, 1], degs [-5, -3, -2, -1, 1, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g1: odd-degree profile {5: 12}, 64 colourings, κ=2, sizes [44, 20], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g2: odd-degree profile {5: 12}, 48 colourings, κ=9, sizes [32, 2, 2, 2, 2, 2], degs [-4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g3: odd-degree profile {5: 12}, 52 colourings, κ=8, sizes [36, 10, 1, 1, 1, 1], degs [-4, -3, -2, -1, 0, 1, 2, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g4: odd-degree profile {5: 13, 7: 1}, 80 colourings, κ=2, sizes [62, 18], degs [-6, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g5: odd-degree profile {5: 14, 7: 2}, 72 colourings, κ=4, sizes [62, 7, 2, 1], degs [-5, -3, -2, -1, 0, 1, 2, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g6: odd-degree profile {5: 12}, 65 colourings, κ=2, sizes [34, 31], degs [-3, -2, -1, 0, 1, 2], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g7: odd-degree profile {5: 12}, 50 colourings, κ=3, sizes [39, 10, 1], degs [-4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g8: odd-degree profile {5: 12}, 82 colourings, κ=2, sizes [68, 14], degs [-4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g9: odd-degree profile {5: 15, 7: 3}, 52 colourings, κ=11, sizes [20, 6, 6, 4, 4, 2], degs [-5, -3, -2, -1, 0, 1, 2, 3], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g10: odd-degree profile {5: 13, 7: 1}, 36 colourings, κ=16, sizes [8, 8, 2, 2, 2, 2], degs [-5, -3, -2, -1, 0, 1, 2, 3, 4, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g11: odd-degree profile {5: 13, 7: 1}, 50 colourings, κ=13, sizes [34, 2, 2, 2, 2, 1], degs [-6, -4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g12: odd-degree profile {5: 13, 7: 1}, 69 colourings, κ=4, sizes [54, 13, 1, 1], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g13: odd-degree profile {5: 14, 7: 2}, 89 colourings, κ=2, sizes [61, 28], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g14: odd-degree profile {5: 14, 7: 2}, 60 colourings, κ=6, sizes [30, 22, 2, 2, 2, 2], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g15: odd-degree profile {5: 13, 7: 1}, 65 colourings, κ=5, sizes [59, 2, 2, 1, 1], degs [-6, -4, -3, -2, -1, 0, 1, 2, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g16: odd-degree profile {5: 13, 7: 1}, 60 colourings, κ=9, sizes [50, 2, 2, 1, 1, 1], degs [-5, -3, -2, -1, 0, 1, 3], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g17: odd-degree profile {5: 13, 7: 1}, 75 colourings, κ=2, sizes [52, 23], degs [-6, -4, -3, -2, -1, 0, 1, 2, 3, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g18: odd-degree profile {5: 14}, 104 colourings, κ=5, sizes [100, 1, 1, 1, 1], degs [-6, -4, -2, 0, 2, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g19: odd-degree profile {5: 15, 7: 1}, 90 colourings, κ=2, sizes [84, 6], degs [-5, -3, -2, -1, 1, 2, 3, 4, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g20: odd-degree profile {5: 13, 7: 1}, 80 colourings, κ=2, sizes [60, 20], degs [-4, -3, -2, -1, 0, 1, 2, 4], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g21: odd-degree profile {5: 14, 7: 2}, 68 colourings, κ=7, sizes [32, 24, 8, 1, 1, 1], degs [-5, -4, -3, -2, -1, 0, 1, 2, 3], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+    n=19 g22: odd-degree profile {5: 16, 7: 2}, 64 colourings, κ=8, sizes [24, 24, 4, 4, 2, 2], degs [-5, -3, -2, -1, 0, 1, 2, 3, 5], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [12s]
+
+fullerene duals C70, C72, C78, C84 (unseen)
+    C70 dual #0: n=37, odd profile {5: 12}, 28480 colourings, κ=2, sizes [16320, 12160], degs [-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [15s]
+    C70 dual #1: n=37, odd profile {5: 12}, 67616 colourings, κ=18, sizes [63872, 3648, 6, 6, 6, 6], degs [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [21s]
+    C72 dual #0: n=38, odd profile {5: 12}, 131776 colourings, κ=2, sizes [131520, 256], degs [-15, -9, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 9], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [33s]
+    C72 dual #1: n=38, odd profile {5: 12}, 104200 colourings, κ=13, sizes [98396, 5782, 2, 2, 2, 2], degs [-8, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [42s]
+    C78 dual #0: n=41, odd profile {5: 12}, 191488 colourings, κ=67, sizes [155520, 17920, 17920, 2, 2, 2], degs [-7, -5, -3, -2, -1, 0, 1, 2, 3, 5, 7], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [62s]
+    C78 dual #1: n=41, odd profile {5: 12}, 191488 colourings, κ=67, sizes [155520, 17920, 17920, 2, 2, 2], degs [-7, -5, -3, -2, -1, 0, 1, 2, 3, 5, 7], deg≡0 mod 3: False, constant-on-classes {2: True, 3: False, 4: False, 6: False, 12: False}  [82s]
+    C84 dual #0: n=44 — MORE THAN 1000000 colourings, enumeration capped; NOT ANALYSED (reported, not dropped)
+    C84 dual #1: n=44 — MORE THAN 1000000 colourings, enumeration capped; NOT ANALYSED (reported, not dropped)
+    [FAIL] (P1a) deg ≡ 0 mod 3 on every fullerene dual (1/7)
+    [PASS] (P1b) deg ≢ 0 mod 3 on plantri graphs with other odd profiles (39/39)
+    [FAIL] (P2) deg mod 6 constant on every Kempe class of every fullerene dual (1/7)
+    [PASS] (P3) on plantri: deg mod 2 constant on classes (39/39) AND deg mod 4 not always (39/39)
+    [FAIL] (P4) κ > 1 on every graph tested (45/46) — expected to FAIL
+    κ = 1 graphs: ['plantri n17 g3']
+
+==============================================================================
+SCORE 4/7   [123s]
+  PASS  control octahedron κ = 1
+  PASS  control C₆₀ dual reproduces κ = 52 and deg mod 6 constant
+  FAIL  (P1a) deg ≡ 0 mod 3 on every fullerene dual (1/7)
+  PASS  (P1b) deg ≢ 0 mod 3 on plantri graphs with other odd profiles (39/39)
+  FAIL  (P2) deg mod 6 constant on every Kempe class of every fullerene dual (1/7)
+  PASS  (P3) on plantri: deg mod 2 constant on classes (39/39) AND deg mod 4 not always (39/39)
+  FAIL  (P4) κ > 1 on every graph tested (45/46) — expected to FAIL

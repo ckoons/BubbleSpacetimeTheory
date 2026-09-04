@@ -1,0 +1,2 @@
+classes 2: deg-0 reps 305192 (x24 = 7324608 raw), deg-6 reps 46 (x24 = 1104 raw)
+wrote 200 subsets of size 192 -> .e6_null_subsets_T66.json  sha256 8fc192c89d2f324c

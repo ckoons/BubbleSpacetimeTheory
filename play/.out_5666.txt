@@ -1,0 +1,58 @@
+[population] 44566 n = 25 kill records, hashed BEFORE counts e9ae614cf4de5f74; graphs 9565
+[family] 186 words
+[plantri] n = 25 -c5: 23384 graphs [2s]
+  [B] 2000/44566 best so far {'G': 1954, 'S': 46} [88s]
+  [B] 4000/44566 best so far {'G': 3883, 'S': 117} [173s]
+  [B] 6000/44566 best so far {'G': 5843, 'S': 157} [259s]
+  [B] 8000/44566 best so far {'G': 7794, 'S': 206} [345s]
+  [B] 10000/44566 best so far {'G': 9732, 'S': 268} [430s]
+  [B] 12000/44566 best so far {'G': 11697, 'S': 303} [515s]
+  [B] 14000/44566 best so far {'G': 13647, 'S': 353} [600s]
+  [B] 16000/44566 best so far {'G': 15592, 'S': 408} [685s]
+  [B] 18000/44566 best so far {'G': 17537, 'S': 463} [770s]
+  [B] 20000/44566 best so far {'G': 19499, 'S': 501} [856s]
+  [B] 22000/44566 best so far {'G': 21479, 'S': 521} [941s]
+  [B] 24000/44566 best so far {'G': 23405, 'S': 595} [1026s]
+  [B] 26000/44566 best so far {'G': 25315, 'S': 685} [1112s]
+  [B] 28000/44566 best so far {'G': 27262, 'S': 738} [1197s]
+  [B] 30000/44566 best so far {'G': 29225, 'S': 775} [1282s]
+  [B] 32000/44566 best so far {'G': 31168, 'S': 832} [1365s]
+  [B] 34000/44566 best so far {'G': 33107, 'S': 893} [1449s]
+  [B] 36000/44566 best so far {'G': 35042, 'S': 958} [1534s]
+  [B] 38000/44566 best so far {'G': 36999, 'S': 1001} [1619s]
+  [B] 40000/44566 best so far {'G': 38960, 'S': 1040} [1704s]
+  [B] 42000/44566 best so far {'G': 40898, 'S': 1102} [1789s]
+  [B] 44000/44566 best so far {'G': 42852, 'S': 1148} [1874s]
+
+[B] tau0 {6: 44566}; roles 44566/44566; POSITIVE CONTROL direct hits 0/44566
+[B] BEST LEAF: {'G': 43395, 'S': 1171}   (Elie 5601: G 43,395 · S 1,171)
+[B] my S-leaf witness list: 1171, hashed BEFORE the diff: d4fdec14d660e777
+[B] DIFF with Elie's 1,171: mine 1171 · his 1171 · common 1171 · mine-only 0 · his-only 0
+  [D] 100/1171 {'direct': 100} [1905s]
+  [D] 200/1171 {'direct': 200} [1911s]
+  [D] 300/1171 {'direct': 300} [1917s]
+  [D] 400/1171 {'direct': 400} [1923s]
+  [D] 500/1171 {'direct': 500} [1927s]
+  [D] 600/1171 {'direct': 600} [1932s]
+  [D] 700/1171 {'direct': 700} [1937s]
+  [D] 800/1171 {'direct': 800} [1945s]
+  [D] 900/1171 {'direct': 900} [1953s]
+  [D] 1000/1171 {'direct': 1000} [1959s]
+  [D] 1100/1171 {'direct': 1100} [1964s]
+
+[D] TWO-WORD SPLIT on 1171: {'direct': 1171}   (Elie: gate 1,113 · direct 58 · deeper 0) [1968s]
+written (B, D) .out_5666.json
+
+[C:S-leaves 1171] unrestricted plain-swap depth to the gate on 1171: {1: 100, 2: 426, 3: 629, 4: 16}; unreached 0; states expanded 19340 [13s]
+  [C:all 44566] 5000/44566 {1: 1792, 2: 2617, 3: 587, 4: 4} unreached 0 [1996s]
+  [C:all 44566] 10000/44566 {1: 3585, 2: 5301, 3: 1108, 4: 6} unreached 0 [2011s]
+  [C:all 44566] 15000/44566 {1: 5593, 2: 7908, 3: 1489, 4: 10} unreached 0 [2023s]
+  [C:all 44566] 20000/44566 {1: 7588, 2: 10472, 3: 1930, 4: 10} unreached 0 [2036s]
+  [C:all 44566] 25000/44566 {1: 9440, 2: 13085, 3: 2464, 4: 11} unreached 0 [2051s]
+  [C:all 44566] 30000/44566 {1: 11705, 2: 15379, 3: 2905, 4: 11} unreached 0 [2063s]
+  [C:all 44566] 35000/44566 {1: 13937, 2: 17623, 3: 3429, 4: 11} unreached 0 [2077s]
+  [C:all 44566] 40000/44566 {1: 16262, 2: 19928, 3: 3799, 4: 11} unreached 0 [2088s]
+
+[C:all 44566] unrestricted plain-swap depth to the gate on 44566: {1: 18341, 2: 22046, 3: 4160, 4: 19}; unreached 0; states expanded 186158 [119s]
+[C] ELIE 5664a column: 1: 18,341 · 2: 22,046 · 3: 4,160 · 4: 19 · unreached 0 — mine: {1: 18341, 2: 22046, 3: 4160, 4: 19} unreached 0
+written (B, C, D) .out_5666.json

@@ -12,6 +12,9 @@ copyright: "Casey Koons, March 2026"
 
 -----
 
+
+> **Erratum (2026-09-04, Lyra; Cal §844, Grace 5660, Elie 5662 concur).** The zonal sector consists of the representations $(p,0,0)$ with $p$ EVEN only (the $\mathrm{SO}(5)\times\mathrm{SO}(2)$-fixed vector exists iff $p$ is even; multiplicity one), so the counting constant below is $\lambda^3/720$, not $\lambda^3/360$. The exponent, $d_{\text{eff}}^{\text{zonal}} = 6$, and every statement built on the exponent are unchanged. The ratio $6/10$ is $\dim S^6/\dim_{\mathbb{R}} Q^5$ (T2615): the zonal sector is the image of the even functions on $S^6$ under the great-circle Funk transform, which preserves the Casimir.
+
 ## 1. The Discovery
 
 The complex quadric $Q^5 = \text{SO}(7)/[\text{SO}(5) \times \text{SO}(2)]$ has real dimension $d = 2n_C = 10$. But its spectral geometry behaves as though the dimension is **6**.

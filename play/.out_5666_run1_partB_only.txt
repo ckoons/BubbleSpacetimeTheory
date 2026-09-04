@@ -1,0 +1,33 @@
+[population] 44566 n = 25 kill records, hashed BEFORE counts e9ae614cf4de5f74; graphs 9565
+[family] 186 words
+[plantri] n = 25 -c5: 23384 graphs [2s]
+  [B] 2000/44566 best so far {'G': 1954, 'S': 46} [89s]
+  [B] 4000/44566 best so far {'G': 3883, 'S': 117} [176s]
+  [B] 6000/44566 best so far {'G': 5843, 'S': 157} [262s]
+  [B] 8000/44566 best so far {'G': 7794, 'S': 206} [349s]
+  [B] 10000/44566 best so far {'G': 9732, 'S': 268} [435s]
+  [B] 12000/44566 best so far {'G': 11697, 'S': 303} [521s]
+  [B] 14000/44566 best so far {'G': 13647, 'S': 353} [607s]
+  [B] 16000/44566 best so far {'G': 15592, 'S': 408} [693s]
+  [B] 18000/44566 best so far {'G': 17537, 'S': 463} [778s]
+  [B] 20000/44566 best so far {'G': 19499, 'S': 501} [864s]
+  [B] 22000/44566 best so far {'G': 21479, 'S': 521} [950s]
+  [B] 24000/44566 best so far {'G': 23405, 'S': 595} [1036s]
+  [B] 26000/44566 best so far {'G': 25315, 'S': 685} [1122s]
+  [B] 28000/44566 best so far {'G': 27262, 'S': 738} [1208s]
+  [B] 30000/44566 best so far {'G': 29225, 'S': 775} [1294s]
+  [B] 32000/44566 best so far {'G': 31168, 'S': 832} [1379s]
+  [B] 34000/44566 best so far {'G': 33107, 'S': 893} [1465s]
+  [B] 36000/44566 best so far {'G': 35042, 'S': 958} [1551s]
+  [B] 38000/44566 best so far {'G': 36999, 'S': 1001} [1637s]
+  [B] 40000/44566 best so far {'G': 38960, 'S': 1040} [1723s]
+  [B] 42000/44566 best so far {'G': 40898, 'S': 1102} [1809s]
+  [B] 44000/44566 best so far {'G': 42852, 'S': 1148} [1895s]
+
+[B] tau0 {6: 44566}; roles 44566/44566; POSITIVE CONTROL direct hits 0/44566
+[B] BEST LEAF: {'G': 43395, 'S': 1171}   (Elie 5601: G 43,395 · S 1,171)
+Traceback (most recent call last):
+  File "/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5666_SEP4_R118_n25_second_instrument_rank_pipeline_on_44566_kills_best_leaf_split_two_word_split_unrestricted_depth_on_1171.py", line 60, in <module>
+    json.dump({'hash': hW, 'witnesses': wit}, open(os.path.join(HERE, f'.out_{N}_S_witnesses_n25.json'), 'w'))
+                                                                              ^
+NameError: name 'N' is not defined. Did you mean: 'n'?

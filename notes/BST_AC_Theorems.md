@@ -11693,7 +11693,7 @@ $$M_{\text{Ch}} = \frac{\omega_3}{4\pi\sqrt{2}} \left(\frac{\hbar c}{G}\right)^{
 
 **The channel.** The Shilov boundary $\check{S} = S^4 \times S^1$ is an information channel with input $= $ bulk state on $D_{IV}^5$ (10 real dimensions), output $= $ boundary encoding ($n_C = 5$ complex dimensions), rate $= $ rank $= 2$ (each boundary d.o.f. encodes 2 bulk d.o.f.), capacity $= S_{dS} = 3\pi/\Lambda$.
 
-**The fill fraction.** $f = N_c/(n_C \cdot \pi) = 3/(5\pi)$ decomposes as two independent factors: $N_c/n_C = 3/5$ (color fraction from isotropy $\mathbb{C}^5 = \mathbb{C}^3 + \mathbb{C}^2$) and $1/\pi$ ($S^1$ Haar measure normalization).
+**The fill fraction.** $f = N_c/(n_C \cdot \pi) = 3/(5\pi)$ decomposes as two independent factors: $N_c/n_C = 3/5$ ($N_c/n_C$ names the value; the derivation is the spectral-dimension ratio $\dim S^6/\dim_{\mathbb{R}} Q^5 = 6/10$, T2615 — the isotropy split $\mathbb{C}^5 = \mathbb{C}^3 + \mathbb{C}^2$ coincides with it only at $n_C = 5$; K1847-A2, 2026-09-04) and $1/\pi$ ($S^1$ Haar measure normalization).
 
 **AC(0) depth: 1.** One conflation step: identifying $S_{dS}$ as Shannon capacity. $(C=1, D=1)$.
 

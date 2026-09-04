@@ -1,0 +1,94 @@
+==============================================================================
+Toy 5661 — Lyra §4 (37b094ad): parity by Weyl integration · 1/720 · Funk scalars
+==============================================================================
+
+C1  Weyl dimension formula prod <lam+rho,a>/<rho,a> for lam=(p,0,..,0) = C(N+p-1,p) - C(N+p-3,p-2)   [N = 5..9, p = 0..12]
+    (the exact theta->0 limit of the determinantal character; the raw ratio at theta~1e-3 is a 0/0 that
+     loses all digits at rank >= 3 — first version of this control failed for that reason, fixed here)
+    [PASS] C1 highest weight (p,0,..,0) IS the harmonic-polynomial rep: Weyl dim = C(N+p-1,p)-C(N+p-3,p-2), 65/65 exact
+
+C1b grid orthogonality <chi_p, chi_q>_G = delta_pq on the shifted grid   [N = 5..9, (p,q) in {0,1,2,3,7}^2]
+    [PASS] C1b grid orthogonality delta_pq, 125/125
+
+C2  irreducibility <chi,chi>_G = 1 by Weyl integration over G   [N = 5..9, p = 0,1,2,5,12]
+    [PASS] C2 irreducibility control <chi,chi>_G = 1, 25/25
+
+P1  K = SO(n) x SO(2) fixed dimension in (p,0,...,0) of SO(n+2), n = 3..7, p = 0..12
+    prediction (hashed): 1 for p even, 0 for p odd
+    n=3 SO(5) ↓ SO(3)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    n=4 SO(6) ↓ SO(4)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    n=5 SO(7) ↓ SO(5)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    n=6 SO(8) ↓ SO(6)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    n=7 SO(9) ↓ SO(7)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    [PASS] P1 parity/multiplicity-one, 65/65 (n=3..7, p<=12)
+
+C3  the sphere H = SO(n+1): fixed dimension must be 1 for EVERY p (separates K from H)
+    n=3 SO(5) ↓ SO(4):        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    n=4 SO(6) ↓ SO(5):        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    n=5 SO(7) ↓ SO(6):        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    n=6 SO(8) ↓ SO(7):        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    n=7 SO(9) ↓ SO(8):        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    [PASS] C3 sphere control all-ones, 65/65
+
+FAMILY SWEEP (beyond the hash): K = SO(a) x SO(b), a+b = n+2, b >= 1, p = 0..8
+    expectation from Lyra's Lemma-1 argument generalised: b = 1 -> all ones; b >= 2 -> parity
+    SO(5) ↓ SO(4)xSO(1): [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    SO(5) ↓ SO(3)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(6) ↓ SO(5)xSO(1): [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    SO(6) ↓ SO(4)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(6) ↓ SO(3)xSO(3): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(7) ↓ SO(6)xSO(1): [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    SO(7) ↓ SO(5)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(7) ↓ SO(4)xSO(3): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(8) ↓ SO(7)xSO(1): [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    SO(8) ↓ SO(6)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(8) ↓ SO(5)xSO(3): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(8) ↓ SO(4)xSO(4): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(9) ↓ SO(8)xSO(1): [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    SO(9) ↓ SO(7)xSO(2): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(9) ↓ SO(6)xSO(3): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    SO(9) ↓ SO(5)xSO(4): [1, 0, 1, 0, 1, 0, 1, 0, 1]
+    [PASS] family sweep SO(a)xSO(b): parity is the b>=2 property, 16/16 as expected
+
+P2  n = 5: sum_{p<=P, p even} dim(p,0,0) / (P(P+5))^3 -> 1/720  (exact rationals)
+    P=  200: 1/ratio_even = 698.8587   1/ratio_all = 354.5933
+    P=  400: 1/ratio_even = 709.3158   1/ratio_all = 357.2980
+    P=  800: 1/ratio_even = 714.6291   1/ratio_all = 358.6495
+    P= 1600: 1/ratio_even = 717.3073   1/ratio_all = 359.3249
+    P= 3200: 1/ratio_even = 718.6518   1/ratio_all = 359.6625
+    P= 6400: 1/ratio_even = 719.3255   1/ratio_all = 359.8312
+    Richardson (1/P) on even:  ['719.7730', '719.9424', '719.9855', '719.9964', '719.9991']
+    Richardson (1/P) on all :  ['360.0028', '360.0009', '360.0003', '360.0001', '360.0000']
+    [PASS] P2 constant -> 1/720 (last 1/ratio = 719.325, Richardson 719.999); odd-included neighbour -> 1/360 (360.000)
+    [PASS] P2 leading coefficient exact: 2/5! * 1/2 * 1/6 = 1/720 = 1/720
+
+P3  Funk scalars c_p/pi = (1/pi) ∫_0^{2pi} C_p^{(n/2)}(cos t) dt / C_p^{(n/2)}(1), direct quadrature
+    n=5 p=0: c_p/pi = 2.0   target 2   ok
+    n=5 p=1: c_p/pi = -1.0795e-31   target 0 (odd)   ok
+    n=5 p=2: c_p/pi = 0.833333333333333333   target 5/6   ok
+    n=5 p=3: c_p/pi = -1.0795e-31   target 0 (odd)   ok
+    n=5 p=4: c_p/pi = 0.546875   target 35/64   ok
+    n=5 p=5: c_p/pi = -1.0795e-31   target 0 (odd)   ok
+    n=5 p=6: c_p/pi = 0.41015625   target 105/256   ok
+    [PASS] P3 Funk scalars n=5, p=0,2,4,6 = 2, 5/6, 35/64, 105/256 (and odd p = 0), 7/7
+    [PASS] P3 control n=3: 2, 3/4, 15/32, 175/512 (Lyra's control values), 4/4
+    [PASS] closed form 2[(n/2)_k/k!]^2 / C_2k^(n/2)(1) = quadrature, n=3..7, even p<=12, 35/35 (beyond hash)
+
+EXTRA (beyond the hash): Fourier-cosine coefficients of C_p^{(n/2)}(cos t) all >= 0, n=3..7, p<=12
+    [PASS] Gegenbauer cosine coefficients positive on the parity lattice, 455 coefficients, n=3..7, p<=12; off-parity zeros bad=0
+
+==============================================================================
+SCORE 12/12   [131s]
+  hashed lines: 5/5   controls+family+extra: 7/7
+  PASS  C1 highest weight (p,0,..,0) IS the harmonic-polynomial rep: Weyl dim = C(N+p-1,p)-C(N+p-3,p-2), 65/65 exact
+  PASS  C1b grid orthogonality delta_pq, 125/125
+  PASS  C2 irreducibility control <chi,chi>_G = 1, 25/25
+  PASS  P1 parity/multiplicity-one, 65/65 (n=3..7, p<=12)
+  PASS  C3 sphere control all-ones, 65/65
+  PASS  family sweep SO(a)xSO(b): parity is the b>=2 property, 16/16 as expected
+  PASS  P2 constant -> 1/720 (last 1/ratio = 719.325, Richardson 719.999); odd-included neighbour -> 1/360 (360.000)
+  PASS  P2 leading coefficient exact: 2/5! * 1/2 * 1/6 = 1/720 = 1/720
+  PASS  P3 Funk scalars n=5, p=0,2,4,6 = 2, 5/6, 35/64, 105/256 (and odd p = 0), 7/7
+  PASS  P3 control n=3: 2, 3/4, 15/32, 175/512 (Lyra's control values), 4/4
+  PASS  closed form 2[(n/2)_k/k!]^2 / C_2k^(n/2)(1) = quadrature, n=3..7, even p<=12, 35/35 (beyond hash)
+  PASS  Gegenbauer cosine coefficients positive on the parity lattice, 455 coefficients, n=3..7, p<=12; off-parity zeros bad=0

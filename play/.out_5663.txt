@@ -1,0 +1,132 @@
+==============================================================================
+Toy 5663 — E5: Kempe classes, Fisk degree, height periods on T(3L,3M)   [prereg 06205eb4]
+==============================================================================
+
+C-sphere: octahedron and its subdivision — one Kempe class (Fisk/Mohar), deg mod 12 constant (Mohar–Salas)
+    octahedron: nv=6 ne=12 faces=8 all-even=True; colourings 96; raw Kempe classes 1; degrees [0]; deg mod 12 [0]
+    [PASS] C-sphere octahedron: one Kempe class, deg independent of tetra face, closure, deg mod 12 constant
+    octahedron-sub4: nv=18 ne=48 faces=32 all-even=True; colourings 16704; raw Kempe classes 1; degrees [0]; deg mod 12 [0]
+    [PASS] C-sphere octahedron-sub4: one Kempe class, deg independent of tetra face, closure, deg mod 12 constant
+
+T(3,3): nv=9 ne=27 faces=18  (every vertex degree 6: True)
+    enumeration: raw 240 (transfer matrix 240), reps mod S4 10  [0s]
+    [PASS] C-count T(3,3): raw total = transfer-matrix count
+    [PASS] C-deg T(3,3): degree independent of tetrahedron face, 10/10
+    [PASS] C-closed T(3,3): omega closed on every face (first 2000 reps)
+    [PASS] C-period T(3,3): P_x same on every row, P_y on every column
+    [PASS] C-parity T(3,3): all periods even
+    [PASS] C-MS T(3,3): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+    [PASS] D2 T(3,3): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+    [PASS] (i)-D1 T(3,3): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 84/84
+    (i) full datum: Kempe moves changing (P_x,P_y): 0/84; classes carrying >1 distinct period pair: 0/1
+    [PASS] (ii)-D3 T(3,3): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:True)
+    (ii) (s_x,s_y) -> deg mod 12: 1 distinct pairs, 0 with two values of deg mod 12
+    (iii) Kempe classes mod S4: 1; distinct invariant pairs (s_x,s_y): 1; distinct full data (P_x,P_y) over reps: 1
+          classes by (size, deg mod 12, #distinct s-pairs): [(10, 0, 1)]
+    [PASS] (iii) T(3,3): #classes ≥ #distinct (s_x,s_y) pairs (1 ≥ 1)
+    [0s]
+
+T(6,3): nv=18 ne=54 faces=36  (every vertex degree 6: True)
+    enumeration: raw 8736 (transfer matrix 8736), reps mod S4 364  [0s]
+    [PASS] C-count T(6,3): raw total = transfer-matrix count
+    [PASS] C-deg T(6,3): degree independent of tetrahedron face, 364/364
+    [PASS] C-closed T(6,3): omega closed on every face (first 2000 reps)
+    [PASS] C-period T(6,3): P_x same on every row, P_y on every column
+    [PASS] C-parity T(6,3): all periods even
+    [PASS] C-MS T(6,3): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+    [PASS] D2 T(6,3): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+    [PASS] (i)-D1 T(6,3): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 4284/4284
+    (i) full datum: Kempe moves changing (P_x,P_y): 0/4284; classes carrying >1 distinct period pair: 0/1
+    [PASS] (ii)-D3 T(6,3): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:True)
+    (ii) (s_x,s_y) -> deg mod 12: 1 distinct pairs, 0 with two values of deg mod 12
+    (iii) Kempe classes mod S4: 1; distinct invariant pairs (s_x,s_y): 1; distinct full data (P_x,P_y) over reps: 1
+          classes by (size, deg mod 12, #distinct s-pairs): [(364, 0, 1)]
+    [PASS] (iii) T(6,3): #classes ≥ #distinct (s_x,s_y) pairs (1 ≥ 1)
+    [0s]
+
+T(9,3): nv=27 ne=81 faces=54  (every vertex degree 6: True)
+    enumeration: raw 381264 (transfer matrix 381264), reps mod S4 15886  [0s]
+    [PASS] C-count T(9,3): raw total = transfer-matrix count
+    [PASS] C-deg T(9,3): degree independent of tetrahedron face, 15886/15886
+    [PASS] C-closed T(9,3): omega closed on every face (first 2000 reps)
+    [PASS] C-period T(9,3): P_x same on every row, P_y on every column
+    [PASS] C-parity T(9,3): all periods even
+    [PASS] C-MS T(9,3): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+    [PASS] D2 T(9,3): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+    [FAIL] (i)-D1 T(9,3): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 240924/243516
+    (i) full datum: Kempe moves changing (P_x,P_y): 3888/243516; classes carrying >1 distinct period pair: 1/1
+    [PASS] (ii)-D3 T(9,3): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:True)
+    (ii) (s_x,s_y) -> deg mod 12: 3 distinct pairs, 0 with two values of deg mod 12
+    (iii) Kempe classes mod S4: 1; distinct invariant pairs (s_x,s_y): 3; distinct full data (P_x,P_y) over reps: 7
+          classes by (size, deg mod 12, #distinct s-pairs): [(15886, 0, 3)]
+    [FAIL] (iii) T(9,3): #classes ≥ #distinct (s_x,s_y) pairs (1 ≥ 3)
+    [5s]
+
+T(6,6): nv=36 ne=108 faces=72  (every vertex degree 6: True)
+    enumeration: raw 7325712 (transfer matrix 7325712), reps mod S4 305238  [10s]
+    [PASS] C-count T(6,6): raw total = transfer-matrix count
+      ... 50000 reps [31s]
+      ... 100000 reps [52s]
+      ... 150000 reps [72s]
+      ... 200000 reps [92s]
+      ... 250000 reps [112s]
+      ... 300000 reps [132s]
+    [PASS] C-deg T(6,6): degree independent of tetrahedron face, 305238/305238
+    [PASS] C-closed T(6,6): omega closed on every face (first 2000 reps)
+    [PASS] C-period T(6,6): P_x same on every row, P_y on every column
+    [PASS] C-parity T(6,6): all periods even
+    [PASS] C-MS T(6,6): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+    [PASS] D2 T(6,6): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+    [FAIL] (i)-D1 T(6,6): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 5462268/5462484
+    (i) full datum: Kempe moves changing (P_x,P_y): 324/5462484; classes carrying >1 distinct period pair: 1/2
+    [PASS] (ii)-D3 T(6,6): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:False)
+    (ii) (s_x,s_y) -> deg mod 12: 9 distinct pairs, 0 with two values of deg mod 12
+    (iii) Kempe classes mod S4: 2; distinct invariant pairs (s_x,s_y): 9; distinct full data (P_x,P_y) over reps: 12
+          classes by (size, deg mod 12, #distinct s-pairs): [(305192, 0, 1), (46, 6, 8)]
+    [FAIL] (iii) T(6,6): #classes ≥ #distinct (s_x,s_y) pairs (2 ≥ 9)
+    [136s]
+
+==============================================================================
+SCORE 38/42   [142s]
+  PASS  C-sphere octahedron: one Kempe class, deg independent of tetra face, closure, deg mod 12 constant
+  PASS  C-sphere octahedron-sub4: one Kempe class, deg independent of tetra face, closure, deg mod 12 constant
+  PASS  C-count T(3,3): raw total = transfer-matrix count
+  PASS  C-deg T(3,3): degree independent of tetrahedron face, 10/10
+  PASS  C-closed T(3,3): omega closed on every face (first 2000 reps)
+  PASS  C-period T(3,3): P_x same on every row, P_y on every column
+  PASS  C-parity T(3,3): all periods even
+  PASS  C-MS T(3,3): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+  PASS  D2 T(3,3): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+  PASS  (i)-D1 T(3,3): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 84/84
+  PASS  (ii)-D3 T(3,3): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:True)
+  PASS  (iii) T(3,3): #classes ≥ #distinct (s_x,s_y) pairs (1 ≥ 1)
+  PASS  C-count T(6,3): raw total = transfer-matrix count
+  PASS  C-deg T(6,3): degree independent of tetrahedron face, 364/364
+  PASS  C-closed T(6,3): omega closed on every face (first 2000 reps)
+  PASS  C-period T(6,3): P_x same on every row, P_y on every column
+  PASS  C-parity T(6,3): all periods even
+  PASS  C-MS T(6,3): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+  PASS  D2 T(6,3): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+  PASS  (i)-D1 T(6,3): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 4284/4284
+  PASS  (ii)-D3 T(6,3): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:True)
+  PASS  (iii) T(6,3): #classes ≥ #distinct (s_x,s_y) pairs (1 ≥ 1)
+  PASS  C-count T(9,3): raw total = transfer-matrix count
+  PASS  C-deg T(9,3): degree independent of tetrahedron face, 15886/15886
+  PASS  C-closed T(9,3): omega closed on every face (first 2000 reps)
+  PASS  C-period T(9,3): P_x same on every row, P_y on every column
+  PASS  C-parity T(9,3): all periods even
+  PASS  C-MS T(9,3): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+  PASS  D2 T(9,3): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+  FAIL  (i)-D1 T(9,3): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 240924/243516
+  PASS  (ii)-D3 T(9,3): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:True)
+  FAIL  (iii) T(9,3): #classes ≥ #distinct (s_x,s_y) pairs (1 ≥ 3)
+  PASS  C-count T(6,6): raw total = transfer-matrix count
+  PASS  C-deg T(6,6): degree independent of tetrahedron face, 305238/305238
+  PASS  C-closed T(6,6): omega closed on every face (first 2000 reps)
+  PASS  C-period T(6,6): P_x same on every row, P_y on every column
+  PASS  C-parity T(6,6): all periods even
+  PASS  C-MS T(6,6): deg ≡ 0 mod 6 all (True); deg mod 12 constant on every Kempe class (True)
+  PASS  D2 T(6,6): s_x ≡ s_y ≡ 0 (mod 3) for every colouring ([c] = 0 always)
+  FAIL  (i)-D1 T(6,6): integer charges (s_x,s_y) unchanged by EVERY Kempe move, 5462268/5462484
+  PASS  (ii)-D3 T(6,6): deg = ±det[P_x,P_y]/2 for every colouring with one sign (+:True −:False)
+  FAIL  (iii) T(6,6): #classes ≥ #distinct (s_x,s_y) pairs (2 ≥ 9)

@@ -1,0 +1,83 @@
+==============================================================================
+Sphere lane — is there a conserved charge on triangulations WITH odd vertices?
+==============================================================================
+
+control T(6,6): classes from the 5663 rows = 2 (Mohar–Salas: 2)
+    [PASS] control T(6,6): κ = 2 (Mohar–Salas Thm 4.3)
+control octahedron: 4 colourings mod S₄, κ = 1; degrees [0]
+    [PASS] control octahedron: κ = 1 (Fisk)
+
+C₆₀ dual: 3190 colourings mod S₄; **κ = 52**; degree values [-6, -3, 0, 3, 6]  [13s]
+    class 0: size 1400, degrees {0: 1400}
+    class 1: size 1680, degrees {-3: 1005, 3: 675}
+    class 2: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 3: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 4: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 5: size 4, degrees {-6: 1, 0: 1, 6: 2}
+    class 6: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 7: size 4, degrees {-6: 3, 0: 1}
+    class 8: size 4, degrees {-6: 1, 0: 1, 6: 2}
+    class 9: size 1, degrees {-3: 1}
+    class 10: size 4, degrees {-6: 1, 0: 1, 6: 2}
+    class 11: size 1, degrees {3: 1}
+    class 12: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 13: size 1, degrees {-3: 1}
+    class 14: size 1, degrees {-3: 1}
+    class 15: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 16: size 4, degrees {-6: 1, 0: 1, 6: 2}
+    class 17: size 1, degrees {3: 1}
+    class 18: size 1, degrees {3: 1}
+    class 19: size 4, degrees {-6: 3, 0: 1}
+    class 20: size 1, degrees {3: 1}
+    class 21: size 1, degrees {-3: 1}
+    class 22: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 23: size 1, degrees {3: 1}
+    class 24: size 1, degrees {-3: 1}
+    class 25: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 26: size 1, degrees {3: 1}
+    class 27: size 1, degrees {-3: 1}
+    class 28: size 4, degrees {-6: 3, 0: 1}
+    class 29: size 1, degrees {3: 1}
+    class 30: size 1, degrees {-3: 1}
+    class 31: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 32: size 1, degrees {3: 1}
+    class 33: size 1, degrees {-3: 1}
+    class 34: size 4, degrees {-6: 2, 0: 1, 6: 1}
+    class 35: size 1, degrees {3: 1}
+    class 36: size 1, degrees {-3: 1}
+    class 37: size 1, degrees {-3: 1}
+    class 38: size 4, degrees {-6: 3, 0: 1}
+    class 39: size 1, degrees {-3: 1}
+    class 40: size 1, degrees {3: 1}
+    class 41: size 1, degrees {3: 1}
+    class 42: size 1, degrees {-3: 1}
+    class 43: size 1, degrees {3: 1}
+    class 44: size 1, degrees {-3: 1}
+    class 45: size 4, degrees {-6: 3, 0: 1}
+    class 46: size 1, degrees {-3: 1}
+    class 47: size 4, degrees {-6: 3, 0: 1}
+    class 48: size 1, degrees {-3: 1}
+    class 49: size 1, degrees {-3: 1}
+    class 50: size 1, degrees {-3: 1}
+    class 51: size 1, degrees {-3: 1}
+    [FAIL] (S1) κ(C₆₀ dual, 4) = 1 (hashed)
+    [PASS] (S2) Fisk degree conserved on the sphere lane? -> False (it takes 5 values; classes 52)
+    (S2) reading: degree is NOT constant on Kempe classes; see table
+    deg mod 3 constant on classes: True
+    deg mod 6 constant on classes: True
+    deg mod 12 constant on classes: False
+    n=12 g0: 10 colourings, κ = 10, degrees [-3, 3]
+    n=14 g0: 20 colourings, κ = 2, degrees [-4, -3, -1, 0, 1, 4]
+    n=15 g0: 32 colourings, κ = 3, degrees [-4, -2, 0, 2, 4]
+    n=16 g0: 30 colourings, κ = 2, degrees [-5, -3, -2, -1, 0, 1, 2, 3]
+    n=16 g1: 27 colourings, κ = 2, degrees [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
+    n=16 g2: 42 colourings, κ = 1, degrees [-4, -2, 0, 2, 4]
+    [FAIL] (S3) κ = 1 on all plantri -c5 n=12..16 graphs (1/6)
+
+==============================================================================
+SCORE 3/5   [13s]
+  PASS  control T(6,6): κ = 2 (Mohar–Salas Thm 4.3)
+  PASS  control octahedron: κ = 1 (Fisk)
+  FAIL  (S1) κ(C₆₀ dual, 4) = 1 (hashed)
+  PASS  (S2) Fisk degree conserved on the sphere lane? -> False (it takes 5 values; classes 52)
+  FAIL  (S3) κ = 1 on all plantri -c5 n=12..16 graphs (1/6)

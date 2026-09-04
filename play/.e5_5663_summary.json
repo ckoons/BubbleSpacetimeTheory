@@ -1,0 +1,103 @@
+{
+ "T(3,3)": {
+  "raw": 240,
+  "reps": 10,
+  "classes": 1,
+  "moves": 84,
+  "moves_P_changed": 0,
+  "moves_s_changed": 0,
+  "classes_multi_P": 0,
+  "n_spairs": 1,
+  "n_fulldata": 1,
+  "deg_values": [
+   0
+  ],
+  "collisions_s_to_deg12": 0,
+  "class_table": [
+   [
+    10,
+    0,
+    1,
+    1
+   ]
+  ]
+ },
+ "T(6,3)": {
+  "raw": 8736,
+  "reps": 364,
+  "classes": 1,
+  "moves": 4284,
+  "moves_P_changed": 0,
+  "moves_s_changed": 0,
+  "classes_multi_P": 0,
+  "n_spairs": 1,
+  "n_fulldata": 1,
+  "deg_values": [
+   0
+  ],
+  "collisions_s_to_deg12": 0,
+  "class_table": [
+   [
+    364,
+    0,
+    1,
+    1
+   ]
+  ]
+ },
+ "T(9,3)": {
+  "raw": 381264,
+  "reps": 15886,
+  "classes": 1,
+  "moves": 243516,
+  "moves_P_changed": 3888,
+  "moves_s_changed": 2592,
+  "classes_multi_P": 1,
+  "n_spairs": 3,
+  "n_fulldata": 7,
+  "deg_values": [
+   0
+  ],
+  "collisions_s_to_deg12": 0,
+  "class_table": [
+   [
+    15886,
+    0,
+    3,
+    7
+   ]
+  ]
+ },
+ "T(6,6)": {
+  "raw": 7325712,
+  "reps": 305238,
+  "classes": 2,
+  "moves": 5462484,
+  "moves_P_changed": 324,
+  "moves_s_changed": 216,
+  "classes_multi_P": 1,
+  "n_spairs": 9,
+  "n_fulldata": 12,
+  "deg_values": [
+   -18,
+   -6,
+   0,
+   6
+  ],
+  "collisions_s_to_deg12": 0,
+  "class_table": [
+   [
+    305192,
+    0,
+    1,
+    1
+   ],
+   [
+    46,
+    6,
+    8,
+    11
+   ]
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+==============================================================================
+Fisk degree = 1/4 cup-square on the branched cover — torus control first
+==============================================================================
+    ... torus control at 20000 [2s]
+    [PASS] torus control T(6,6): cup = +det on all 305238 reps; |deg| = |cup|/2
+    convention fixed: deg = (1)·cup/2 on the torus, so deg = (1)·cup_Σ/4 on a double cover
+    octahedron: {'name': 'octahedron', 'n': 6, 'k': 0, 'ncv': 12, 'chi': 4, 'ncol': 4, 'ok': True, 'bad': 0, 'degs': {0: 4}, 'faceind': True}
+    [PASS] octahedron k=0: deg = cup/4 all, all deg 0
+    C60 dual: n=32 k=12 cover vertices 52 chi(Σ)=-8 colourings 3190; deg distribution {-6: 42, -3: 1023, 0: 1420, 3: 687, 6: 18}; mismatches 0
+    [PASS] C60 dual: deg = (1)·cup_Σ/4 on all 3190 colourings (Cal's kill: 0 mismatches); face-independence True
+    n=12: 1 graphs, k values {12: 1}, colourings 10, mismatches 0, deg distribution {-3: 8, 3: 2}  [40s]
+    n=13: 0 graphs, k values {}, colourings 0, mismatches 0, deg distribution {}  [40s]
+    n=14: 1 graphs, k values {12: 1}, colourings 20, mismatches 0, deg distribution {-4: 2, -3: 4, -1: 8, 0: 1, 1: 4, 4: 1}  [40s]
+    n=15: 1 graphs, k values {12: 1}, colourings 32, mismatches 0, deg distribution {-4: 5, -2: 10, 0: 8, 2: 8, 4: 1}  [40s]
+    n=16: 3 graphs, k values {12: 2, 16: 1}, colourings 99, mismatches 0, deg distribution {-5: 2, -4: 16, -3: 7, -2: 16, -1: 7, 0: 27, 1: 5, 2: 10, 3: 2, 4: 7}  [40s]
+    [PASS] plantri -c5 n=12..16: deg = cup_Σ/4 on 161/161 colourings
+
+==============================================================================
+SCORE 4/4   [40s]
+  PASS  torus control T(6,6): cup = +det on all 305238 reps; |deg| = |cup|/2
+  PASS  octahedron k=0: deg = cup/4 all, all deg 0
+  PASS  C60 dual: deg = (1)·cup_Σ/4 on all 3190 colourings (Cal's kill: 0 mismatches); face-independence True
+  PASS  plantri -c5 n=12..16: deg = cup_Σ/4 on 161/161 colourings

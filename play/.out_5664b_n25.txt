@@ -1,0 +1,6 @@
+hashed BEFORE counts 56358c68174463dc…  [106s]
+bridge-word images of the 349 locks: 2342; status {'exits': 922, 'locked': 1420}; LOCKED share 0.6063
+   n=25: {'exits': 922, 'locked': 1420}  locked share 0.606
+control: leaf of every bridge image = {'S': 2342}
+exiting images: exiting-word counts {10: 203, 3: 33, 6: 200, 21: 4, 2: 45, 5: 41, 1: 29, 12: 30, 9: 51, 7: 61, 19: 2, 11: 33, 8: 39, 20: 18, 4: 38, 14: 24, 16: 26, 13: 26, 15: 10, 17: 3, 18: 4, 22: 2} ; legal words per image {54: 94, 60: 1770, 55: 143, 59: 94, 58: 72, 57: 24, 63: 24, 56: 45, 52: 14, 53: 14, 61: 38, 62: 8, 64: 2}
+SCORE: REPORTED — the v0.2 marker number, measured [106s]

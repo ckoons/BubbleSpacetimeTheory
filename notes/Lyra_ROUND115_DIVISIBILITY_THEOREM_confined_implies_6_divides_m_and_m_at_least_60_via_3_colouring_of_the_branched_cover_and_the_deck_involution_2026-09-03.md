@@ -34,7 +34,7 @@ hexagon lifts there: **120 + 6 e_κ = 2m, i.e. 60 + 3 e_κ = m.** Hence:
 **For a fullerene dual: confined ⟹ 6 | m and m ≥ 60; and in any 3-colouring of Σ the twelve dislocations share one colour and exactly
 (m − 60)/6 hexagon vertices have both lifts in that colour.** Derived; necessary, NOT sufficient (C₆₆ has no IPR isomer; C₇₈ #0, #2–#4,
 most of C₈₄, C₉₀, C₉₆ are unconfined with 6 | m). It explains, without a colouring: (i) why NO fullerene dual below C₆₀ is confined
-(Elie 5651: 5,770 isomers C₂₀…C₅₈, all height 2) — m < 60 is impossible; (ii) Elie's 14/14 with 6 | m and 0/940 at 6 ∤ m; (iii) the
+(Elie 5651, sealed census 8500f714: 0 of 3,958 isomers below C₆₀ confined, and exactly 1 of 1,812 at C₆₀ — the icosahedral isomer; CORRECTED 2026-09-04 09:0x per Cal §842 R1: the earlier "5,770 isomers C₂₀…C₅₈, all height 2" mislabelled the population, which is C₂₀…C₆₀ inclusive and contains one height-1 isomer) — m < 60 is impossible; (ii) Elie's 14/14 with 6 | m and 0/940 at 6 ∤ m; (iii) the
 gaps: confined isomers can live only at m ∈ {60, 66, 72, 78, 84, 90, 96, 102, …}, and 66 has no IPR isomer at all. Casey's
 composite-and-gaps reading has its lattice: the admissible m are the multiples of 6 from 60 on.
 

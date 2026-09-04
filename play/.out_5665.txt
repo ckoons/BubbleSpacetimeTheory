@@ -1,0 +1,44 @@
+octahedron control: colourings 4, Kempe classes 1 (Fisk: 1), deg mod 12 values {0: 4}
+
+T(3,3): N = 9, canonical colourings 10  (0.0s)
+  controls: closure fails 0, row/column-dependent periods 0, face-dependent |deg| 0, odd periods 0
+  Kempe classes kappa = 1; moves examined 84; datum (P_x,P_y) changed on 0 moves; integer charges changed: {} of moves by colour-sum {1: 28, 2: 28, 3: 28}
+  |deg| histogram {0: 10}; deg = 0 mod 6 on all: True
+  (ii) deg = +det/2 on 10/10; deg = -det/2 on 10/10; det in 12Z on 10/10
+  (ii) deg mod 12 a function of (s_x,s_y)? True  (charge values 1; multi-valued at 0)
+  (iii) classes 1; distinct full data 1 (mod S3 on A,B,C: 1); distinct charge pairs 1
+     class 1: size 10; deg mod 12 {0: 10}; #data 1; charges {(0, 0): 10}
+  (iii) full data appearing in more than one class: 0
+
+T(6,3): N = 18, canonical colourings 364  (0.0s)
+  controls: closure fails 0, row/column-dependent periods 0, face-dependent |deg| 0, odd periods 0
+  Kempe classes kappa = 1; moves examined 4284; datum (P_x,P_y) changed on 0 moves; integer charges changed: {} of moves by colour-sum {1: 1428, 2: 1428, 3: 1428}
+  |deg| histogram {0: 364}; deg = 0 mod 6 on all: True
+  (ii) deg = +det/2 on 364/364; deg = -det/2 on 364/364; det in 12Z on 364/364
+  (ii) deg mod 12 a function of (s_x,s_y)? True  (charge values 1; multi-valued at 0)
+  (iii) classes 1; distinct full data 1 (mod S3 on A,B,C: 1); distinct charge pairs 1
+     class 1: size 364; deg mod 12 {0: 364}; #data 1; charges {(0, 0): 364}
+  (iii) full data appearing in more than one class: 0
+
+T(9,3): N = 27, canonical colourings 15886  (0.0s)
+  controls: closure fails 0, row/column-dependent periods 0, face-dependent |deg| 0, odd periods 0
+  Kempe classes kappa = 1; moves examined 243516; datum (P_x,P_y) changed on 3888 moves; integer charges changed: {1: 1296, 2: 1296} of moves by colour-sum {1: 81172, 2: 81172, 3: 81172}
+  |deg| histogram {0: 15886}; deg = 0 mod 6 on all: True
+  (ii) deg = +det/2 on 15886/15886; deg = -det/2 on 15886/15886; det in 12Z on 15886/15886
+  (ii) deg mod 12 a function of (s_x,s_y)? True  (charge values 3; multi-valued at 0)
+  (iii) classes 1; distinct full data 7 (mod S3 on A,B,C: 4); distinct charge pairs 3
+     class 1: size 15886; deg mod 12 {0: 15886}; #data 7; charges {(0, 0): 15670, (-6, 0): 108, (6, 0): 108}
+  (iii) full data appearing in more than one class: 0
+
+T(6,6): N = 36, canonical colourings 305238  (0.7s)
+  controls: closure fails 0, row/column-dependent periods 0, face-dependent |deg| 0, odd periods 0
+  Kempe classes kappa = 2; moves examined 5462484; datum (P_x,P_y) changed on 324 moves; integer charges changed: {1: 108, 2: 108} of moves by colour-sum {1: 1820828, 2: 1803784, 3: 1837872}
+  |deg| histogram {0: 305192, 6: 45, 18: 1}; deg = 0 mod 6 on all: True
+  (ii) deg = +det/2 on 305192/305238; deg = -det/2 on 305238/305238; det in 12Z on 305238/305238
+  (ii) deg mod 12 a function of (s_x,s_y)? True  (charge values 9; multi-valued at 0)
+  (iii) classes 2; distinct full data 12 (mod S3 on A,B,C: 10); distinct charge pairs 9
+     class 1: size 46; deg mod 12 {6: 46}; #data 11; charges {(6, 6): 6, (0, 6): 10, (-6, 6): 5, (-12, 6): 5, (6, 0): 6, (-6, 0): 6, (0, -6): 4, (6, -6): 4}
+     class 2: size 305192; deg mod 12 {0: 305192}; #data 1; charges {(0, 0): 305192}
+  (iii) full data appearing in more than one class: 0
+
+results sha256 6ce1a8b3f37b1e37
