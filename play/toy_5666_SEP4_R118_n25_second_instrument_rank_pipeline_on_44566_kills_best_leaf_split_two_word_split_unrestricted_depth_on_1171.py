@@ -16,7 +16,7 @@ Hashes: the record list is hashed BEFORE the counts; my S-leaf witness list is h
 """
 import hashlib, importlib.util, json, os, sys, time, glob
 from collections import Counter
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.abspath(__file__)); N = 5666
 def load(name, fname):
     spec = importlib.util.spec_from_file_location(name, os.path.join(HERE, fname)); mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod); return mod
 T3 = load("t5603", glob.glob(os.path.join(HERE, "toy_5603_*.py"))[0].split('/')[-1])
@@ -62,15 +62,18 @@ print(f"[B] my S-leaf witness list: {len(wit)}, hashed BEFORE the diff: {hW[:16]
 E = json.load(open(os.path.join(HERE, '.in_frame_1171_two_word_locked_n25.json')))
 ew = sorted((x['graph_index_plantri_c5'], x['v'], tuple(x['coloring_mod_S4_sorted_order'])) for x in E)
 print(f"[B] DIFF with Elie's 1,171: mine {len(wit)} · his {len(ew)} · common {len(set(wit)&set(ew))} · mine-only {len(set(wit)-set(ew))} · his-only {len(set(ew)-set(wit))}", flush=True)
-# Part C: unrestricted depth on my S list
-depths = Counter(); unreached = 0; expanded_tot = 0
-for (n, gi, v, ct, _) in S_list:
-    adj = gs[gi]; order = sorted(u for u in adj if u != v); c0 = {u: ct[i] for i, u in enumerate(order)}
-    d, expanded, _ = T5.depth_to_gate(adj, c0, v)
-    expanded_tot += expanded
-    if d is None: unreached += 1
-    else: depths[d] += 1
-print(f"\n[C] unrestricted plain-swap depth to the gate on {len(S_list)}: {dict(sorted(depths.items()))}; unreached {unreached}; states expanded {expanded_tot}   (n = 24 prior: max 4, unreached 0) [{time.time()-t0:.0f}s]", flush=True)
+# Part C (moved AFTER Part D): unrestricted depth on my S list first (fast), then on ALL 44,566 (Elie 5664a's column; ~2.6 h)
+def part_c(pop, label):
+    depths = Counter(); unreached = 0; expanded_tot = 0; tC = time.time()
+    for j, (n, gi, v, ct) in enumerate(pop):
+        adj = gs[gi]; order = sorted(u for u in adj if u != v); c0 = {u: ct[i] for i, u in enumerate(order)}
+        d, expanded, _ = T5.depth_to_gate(adj, c0, v)
+        expanded_tot += expanded
+        if d is None: unreached += 1
+        else: depths[d] += 1
+        if (j + 1) % 5000 == 0: print(f"  [C:{label}] {j+1}/{len(pop)} {dict(sorted(depths.items()))} unreached {unreached} [{time.time()-t0:.0f}s]", flush=True)
+    print(f"\n[C:{label}] unrestricted plain-swap depth to the gate on {len(pop)}: {dict(sorted(depths.items()))}; unreached {unreached}; states expanded {expanded_tot} [{time.time()-tC:.0f}s]", flush=True)
+    return depths, unreached
 # Part D: two-word split
 two = Counter(); det = []
 for j, (n, gi, v, ct, s_images) in enumerate(S_list):
@@ -91,5 +94,10 @@ for j, (n, gi, v, ct, s_images) in enumerate(S_list):
     two[verdict] += 1; det.append((gi, v, verdict, n_direct, n_gate, len(s_images)))
     if (j + 1) % 100 == 0: print(f"  [D] {j+1}/{len(S_list)} {dict(two)} [{time.time()-t0:.0f}s]", flush=True)
 print(f"\n[D] TWO-WORD SPLIT on {len(S_list)}: {dict(two)}   (Elie: gate 1,113 · direct 58 · deeper 0) [{time.time()-t0:.0f}s]", flush=True)
-json.dump({'kills_hash': hK, 'witness_hash': hW, 'B_best': dict(Counter(x['family']['best'] for x in ok)), 'C_depths': dict(depths), 'C_unreached': unreached, 'D_two_word': dict(two), 'D_detail': det}, open(os.path.join(HERE, f'.out_{N}.json'), 'w'))
-print("written", f".out_{N}.json", flush=True)
+json.dump({'kills_hash': hK, 'witness_hash': hW, 'B_best': dict(Counter(x['family']['best'] for x in ok)), 'D_two_word': dict(two), 'D_detail': det}, open(os.path.join(HERE, f'.out_{N}.json'), 'w'))
+print("written (B, D)", f".out_{N}.json", flush=True)
+dS, uS = part_c([(n, gi, v, ct) for (n, gi, v, ct, _) in S_list], "S-leaves 1171")
+dA, uA = part_c(kills[:LIMIT], "all 44566")
+print(f"[C] ELIE 5664a column: 1: 18,341 · 2: 22,046 · 3: 4,160 · 4: 19 · unreached 0 — mine: {dict(sorted(dA.items()))} unreached {uA}", flush=True)
+json.dump({'kills_hash': hK, 'witness_hash': hW, 'B_best': dict(Counter(x['family']['best'] for x in ok)), 'C_S_depths': dict(dS), 'C_S_unreached': uS, 'C_all_depths': dict(dA), 'C_all_unreached': uA, 'D_two_word': dict(two), 'D_detail': det}, open(os.path.join(HERE, f'.out_{N}.json'), 'w'))
+print("written (B, C, D)", f".out_{N}.json", flush=True)
