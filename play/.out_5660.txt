@@ -1,0 +1,84 @@
+Toy 5660 — family sweep on Q^n, ESD definition d_eff = 2 * slope of log N(L) vs log L
+  controls: PASS
+
+n = 3  Q^3 = SO(5)/(SO(3) x SO(2))   sector convention S: spherical, a=b mod 2 (L^2(Q^n))   eigen-lines counted: 196354
+   L = 10^3: N_full =                7057947  N_zonal =            46376   decade slopes full 2.9241  zonal 1.9717
+   L = 10^4: N_full =             6941227189  N_zonal =          4249575   decade slopes full 2.9928  zonal 1.9621
+   L = 10^5: N_full =          6949930491942  N_zonal =        418092885   decade slopes full 3.0005  zonal 1.9929
+   L = 10^6: N_full =       6944500217452516  N_zonal =      41749958250   decade slopes full 2.9997  zonal 1.9994
+   d_eff full = 5.9993 (Richardson 5.9985; theorem 2n = 6)   d_eff zonal = 3.9988 (Richardson 4.0047; theorem n+1 = 4)
+   RATIO measured 0.6665 (Richardson 0.6676)   ESD (n+1)/(2n) = 2/3 = 0.6667   Cal (n-2)/n = 1/3 = 0.3333
+
+n = 3  Q^3 = SO(5)/(SO(3) x SO(2))   sector convention E: ESD list, no parity   eigen-lines counted: 392356
+   L = 10^3: N_full =               14180682  N_zonal =            87296   decade slopes full 2.9265  zonal 2.0245
+   L = 10^4: N_full =            13922839078  N_zonal =          8332500   decade slopes full 2.9920  zonal 1.9798
+   L = 10^5: N_full =         13892636342678  N_zonal =        830926740   decade slopes full 2.9991  zonal 1.9988
+   L = 10^6: N_full =      13889490024401756  N_zonal =      83333250000   decade slopes full 2.9999  zonal 2.0013
+   d_eff full = 5.9998 (Richardson 6.0006; theorem 2n = 6)   d_eff zonal = 4.0025 (Richardson 4.0048; theorem n+1 = 4)
+   RATIO measured 0.6671 (Richardson 0.6674)   ESD (n+1)/(2n) = 2/3 = 0.6667   Cal (n-2)/n = 1/3 = 0.3333
+
+n = 4  Q^4 = SO(6)/(SO(4) x SO(2))   sector convention S: spherical, a=b mod 2 (L^2(Q^n))   eigen-lines counted: 196095
+   L = 10^3: N_full =              216946905  N_zonal =           237336   decade slopes full 3.9357  zonal 2.2658
+   L = 10^4: N_full =          2179039841690  N_zonal =         87541245   decade slopes full 4.0019  zonal 2.5668
+   L = 10^5: N_full =      21709259294642914  N_zonal =      26674326063   decade slopes full 3.9984  zonal 2.4839
+   L = 10^6: N_full =  217002129917287192043  N_zonal =    8375041624950   decade slopes full 3.9998  zonal 2.4969
+   d_eff full = 7.9996 (Richardson 8.0010; theorem 2n = 8)   d_eff zonal = 4.9938 (Richardson 5.0058; theorem n+1 = 5)
+   RATIO measured 0.6243 (Richardson 0.6257)   ESD (n+1)/(2n) = 5/8 = 0.6250   Cal (n-2)/n = 1/2 = 0.5000
+
+n = 4  Q^4 = SO(6)/(SO(4) x SO(2))   sector convention E: ESD list, no parity   eigen-lines counted: 391845
+   L = 10^3: N_full =              439060285  N_zonal =           515592   decade slopes full 3.9444  zonal 2.3945
+   L = 10^4: N_full =          4358987316486  N_zonal =        170832915   decade slopes full 3.9969  zonal 2.5203
+   L = 10^5: N_full =      43407413623564346  N_zonal =      52930559241   decade slopes full 3.9982  zonal 2.4911
+   L = 10^6: N_full =  434048502719908971215  N_zonal =   16708333291650   decade slopes full 4.0000  zonal 2.4992
+   d_eff full = 7.9999 (Richardson 8.0016; theorem 2n = 8)   d_eff zonal = 4.9985 (Richardson 5.0059; theorem n+1 = 5)
+   RATIO measured 0.6248 (Richardson 0.6256)   ESD (n+1)/(2n) = 5/8 = 0.6250   Cal (n-2)/n = 1/2 = 0.5000
+
+n = 5  Q^5 = SO(7)/(SO(5) x SO(2))   sector convention S: spherical, a=b mod 2 (L^2(Q^n))   eigen-lines counted: 195854
+   L = 10^3: N_full =             4677463182  N_zonal =          1344904   decade slopes full 4.8671  zonal 3.1630
+   L = 10^4: N_full =        437063696918414  N_zonal =       1346548665   decade slopes full 4.9705  zonal 3.0005
+   L = 10^5: N_full =   43449140269846944471  N_zonal =    1369700164119   decade slopes full 4.9974  zonal 3.0074
+   L = 10^6: N_full = 4340090213150448371050675  N_zonal = 1384715298616650   decade slopes full 4.9995  zonal 3.0047
+   d_eff full = 9.9990 (Richardson 10.0010; theorem 2n = 10)   d_eff zonal = 6.0095 (Richardson 6.0070; theorem n+1 = 6)
+   RATIO measured 0.6010 (Richardson 0.6006)   ESD (n+1)/(2n) = 3/5 = 0.6000   Cal (n-2)/n = 3/5 = 0.6000
+
+n = 5  Q^5 = SO(7)/(SO(5) x SO(2))   sector convention E: ESD list, no parity   eigen-lines counted: 391358
+   L = 10^3: N_full =             9171045857  N_zonal =          2968064   decade slopes full 4.8868  zonal 3.0509
+   L = 10^4: N_full =        874887685750242  N_zonal =       2776389000   decade slopes full 4.9795  zonal 2.9710
+   L = 10^5: N_full =   86835495131260119676  N_zonal =    2765656561416   decade slopes full 4.9967  zonal 2.9983
+   L = 10^6: N_full = 8681082163128720383086199  N_zonal = 2777763888900000   decade slopes full 4.9999  zonal 3.0019
+   d_eff full = 9.9998 (Richardson 10.0026; theorem 2n = 10)   d_eff zonal = 6.0038 (Richardson 6.0071; theorem n+1 = 6)
+   RATIO measured 0.6004 (Richardson 0.6006)   ESD (n+1)/(2n) = 3/5 = 0.6000   Cal (n-2)/n = 3/5 = 0.6000
+
+n = 6  Q^6 = SO(8)/(SO(6) x SO(2))   sector convention S: spherical, a=b mod 2 (L^2(Q^n))   eigen-lines counted: 195597
+   L = 10^3: N_full =            63439184781  N_zonal =          6724520   decade slopes full 5.7430  zonal 3.5931
+   L = 10^4: N_full =      60621813253936173  N_zonal =      19813501785   decade slopes full 5.9803  zonal 3.4693
+   L = 10^5: N_full = 60353720649826564306011  N_zonal =   62419193193423   decade slopes full 5.9981  zonal 3.4984
+   L = 10^6: N_full = 60276210065878943970293501120  N_zonal = 198409920644642850   decade slopes full 5.9994  zonal 3.5022
+   d_eff full = 11.9989 (Richardson 12.0001; theorem 2n = 12)   d_eff zonal = 7.0045 (Richardson 7.0081; theorem n+1 = 7)
+   RATIO measured 0.5838 (Richardson 0.5840)   ESD (n+1)/(2n) = 7/12 = 0.5833   Cal (n-2)/n = 2/3 = 0.6667
+
+n = 6  Q^6 = SO(8)/(SO(6) x SO(2))   sector convention E: ESD list, no parity   eigen-lines counted: 390848
+   L = 10^3: N_full =           129682146005  N_zonal =         12104136   decade slopes full 5.7495  zonal 3.3713
+   L = 10^4: N_full =     121217409274681917  N_zonal =      41056843905   decade slopes full 5.9707  zonal 3.5305
+   L = 10^5: N_full = 120735792250796513627875  N_zonal =  126234342784143   decade slopes full 5.9983  zonal 3.4878
+   L = 10^6: N_full = 120570548352531417961441683832  N_zonal = 398212889879569050   decade slopes full 5.9994  zonal 3.4989
+   d_eff full = 11.9988 (Richardson 11.9999; theorem 2n = 12)   d_eff zonal = 6.9979 (Richardson 7.0082; theorem n+1 = 7)
+   RATIO measured 0.5832 (Richardson 0.5840)   ESD (n+1)/(2n) = 7/12 = 0.5833   Cal (n-2)/n = 2/3 = 0.6667
+
+n = 7  Q^7 = SO(9)/(SO(7) x SO(2))   sector convention S: spherical, a=b mod 2 (L^2(Q^n))   eigen-lines counted: 195357
+   L = 10^3: N_full =           688717029693  N_zonal =         30260340   decade slopes full 6.6375  zonal 4.0033
+   L = 10^4: N_full =    6246700244814640404  N_zonal =     257575523205   decade slopes full 6.9576  zonal 3.9300
+   L = 10^5: N_full = 61631011624691645993047439  N_zonal = 2496767727736920   decade slopes full 6.9941  zonal 3.9865
+   L = 10^6: N_full = 615123316372847486917794212618209  N_zonal = 24900445040902677675   decade slopes full 6.9992  zonal 3.9988
+   d_eff full = 13.9983 (Richardson 14.0030; theorem 2n = 14)   d_eff zonal = 7.9977 (Richardson 8.0091; theorem n+1 = 8)
+   RATIO measured 0.5713 (Richardson 0.5720)   ESD (n+1)/(2n) = 4/7 = 0.5714   Cal (n-2)/n = 5/7 = 0.7143
+
+n = 7  Q^7 = SO(9)/(SO(7) x SO(2))   sector convention E: ESD list, no parity   eigen-lines counted: 390364
+   L = 10^3: N_full =          1329115170783  N_zonal =         53796160   decade slopes full 6.6161  zonal 3.7559
+   L = 10^4: N_full =   12497717816624659601  N_zonal =     495337544625   decade slopes full 6.9733  zonal 3.9641
+   L = 10^5: N_full = 123148735792171427673293360  N_zonal = 4931116262280417   decade slopes full 6.9936  zonal 3.9980
+   L = 10^6: N_full = 1230422688972502964760899815362411  N_zonal = 49602480161160712500   decade slopes full 6.9996  zonal 4.0026
+   d_eff full = 13.9992 (Richardson 14.0048; theorem 2n = 14)   d_eff zonal = 8.0051 (Richardson 8.0093; theorem n+1 = 8)
+   RATIO measured 0.5718 (Richardson 0.5719)   ESD (n+1)/(2n) = 4/7 = 0.5714   Cal (n-2)/n = 5/7 = 0.7143
+
+result table sha256 8e63821af9f72788  -> play/.family_sweep_Qn_results_5660.json
