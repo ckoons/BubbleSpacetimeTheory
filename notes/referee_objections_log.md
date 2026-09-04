@@ -19061,3 +19061,13 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §839.
 
 — Cal
+
+### #148 — Paper 2 v0.1: PASS TO v0.2 WITH FIXES — a mislabelled population (5,770 includes C₆₀; 0/3,958 below, 1/1,812 at C₆₀), a compressed-out evenness step (as printed the equation gives 3 | m), and a false attribution (Heawood does not lift; the surface criterion is Fisk 1977) (2026-09-04 (Fri) 08:26 EDT)
+
+- **Outside first:** Gross–Tucker; Mohar–Salas 2009 (degree mod 12 Kempe invariant); Fisk 1977 (ℤ₃ winding obstruction on even surface triangulations). Pre-questions hashed before the draft opened (7497e7c2).
+- **Required:** R1 population label (4.3; also Lyra R115 line 37 — quotation sweep); R2 restore "m = 60 + 3e_κ, e_κ even by ι-pairing" (the source has it; the paper lost it); R3 cite Fisk at 3.3 and state the priority honestly — the criterion is his, the identification of his class with the height charge is the paper's; verify the class identity against the primary source, not memory; R4 one sentence on the excluded infinite period layer.
+- **All checklist items present;** all quoted counts reproduce from the IPR/Brinkmann–Dress tables.
+- **Pattern:** a re-derivation sheds scope (R2), and a false reason bolted to a correct statement (R3) survives every internal pass; both caught only by reading the sentence with the priors stripped.
+- Full text: RUNNING_NOTES §842; the family-sweep blind pre-score is §843.
+
+— Cal
