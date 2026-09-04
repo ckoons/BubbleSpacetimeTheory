@@ -4930,6 +4930,19 @@
    "plain": "Confinement means the doubled surface can be three-coloured; the deck involution forces all twelve pentagons into one colour, and counting faces on that colour class gives m = 60 + 6D. Nothing below C60 is confined; 78 of 78 at C102–C120 obey it, with the exact D on all 92 confined isomers.",
    "color": "#4A90D9",
    "proofs": []
+  },
+  {
+   "id": "T2615",
+   "name": "Spectral-dimension ratio of the zonal sector on Q^n: d_eff(zonal)/d_eff(full) = (n+1)/(2n) = dim S^{n+1}/dim_R Q^n; 3/5 at n = 5 (Step 1 of f derived; N_c/n_C names it)",
+   "domain": "fill_fraction",
+   "domain_label": "Fill fraction / ESD",
+   "status": "derived",
+   "plain": "Count the eigenvalues of the Laplacian on the quadric Q^n with multiplicity: the whole spectrum grows like a 2n-dimensional space, the zonal (even, sphere-pulled-back) part like an (n+1)-dimensional one. The ratio is (n+1)/(2n), which is 3/5 at n = 5. It is a dimension ratio, not 3 colours over 5.",
+   "color": "#4A90D9",
+   "proofs": [
+    "Weyl law",
+    "Cartan–Helgason"
+   ]
   }
  ],
  "edges": [
@@ -7759,6 +7772,11 @@
    "target": "T2604",
    "type": "uses",
    "label": "C₆₀ is the D = 0 case"
+  },
+  {
+   "source": "T2615",
+   "target": "T189",
+   "type": "uses"
   }
  ],
  "chains": {

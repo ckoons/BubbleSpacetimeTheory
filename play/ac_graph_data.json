@@ -3,8 +3,8 @@
   "version": 1,
   "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-05-16",
-  "theorem_count": 2391,
-  "edge_count": 10237,
+  "theorem_count": 2392,
+  "edge_count": 10238,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 2391,
@@ -35552,6 +35552,26 @@
    "date": "2026-09-03",
    "plain": "Confinement means the doubled surface can be three-coloured; the deck involution forces all twelve pentagons into one colour, and counting faces on that colour class gives m = 60 + 6D. Nothing below C60 is confined; 78 of 78 at C102–C120 obey it, with the exact D on all 92 confined isomers.",
    "proofs": []
+  },
+  {
+   "tid": 2615,
+   "name": "Spectral-dimension ratio of the zonal sector on Q^n: d_eff(zonal)/d_eff(full) = (n+1)/(2n) = dim S^{n+1}/dim_R Q^n; 3/5 at n = 5 (Step 1 of f derived; N_c/n_C names it)",
+   "domain": "fill_fraction",
+   "status": "derived (Weyl + Cartan–Helgason; Cal §846; instrument 5660/5661/5662)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Round 117 §2 (2026-09-04)",
+   "toys": [
+    5660,
+    5661,
+    5662
+   ],
+   "date": "2026-09-04",
+   "plain": "Count the eigenvalues of the Laplacian on the quadric Q^n with multiplicity: the whole spectrum grows like a 2n-dimensional space, the zonal (even, sphere-pulled-back) part like an (n+1)-dimensional one. The ratio is (n+1)/(2n), which is 3/5 at n = 5. It is a dimension ratio, not 3 colours over 5.",
+   "proofs": [
+    "Weyl law",
+    "Cartan–Helgason"
+   ]
   }
  ],
  "edges": [
@@ -86840,6 +86860,12 @@
    "to": 2604,
    "source": "proved",
    "label": "C₆₀ is the D = 0 case"
+  },
+  {
+   "from": 2615,
+   "to": 189,
+   "source": "derived",
+   "label": "Step-1 input of the fill fraction: the 3/5 (K1847-A2; T666/T667 edges demoted to coincidence)"
   }
  ],
  "chains": {},
@@ -133330,12 +133356,32 @@
    "date": "2026-09-03",
    "plain": "Confinement means the doubled surface can be three-coloured; the deck involution forces all twelve pentagons into one colour, and counting faces on that colour class gives m = 60 + 6D. Nothing below C60 is confined; 78 of 78 at C102–C120 obey it, with the exact D on all 92 confined isomers.",
    "proofs": []
+  },
+  {
+   "tid": 2615,
+   "name": "Spectral-dimension ratio of the zonal sector on Q^n: d_eff(zonal)/d_eff(full) = (n+1)/(2n) = dim S^{n+1}/dim_R Q^n; 3/5 at n = 5 (Step 1 of f derived; N_c/n_C names it)",
+   "domain": "fill_fraction",
+   "status": "derived (Weyl + Cartan–Helgason; Cal §846; instrument 5660/5661/5662)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Round 117 §2 (2026-09-04)",
+   "toys": [
+    5660,
+    5661,
+    5662
+   ],
+   "date": "2026-09-04",
+   "plain": "Count the eigenvalues of the Laplacian on the quadric Q^n with multiplicity: the whole spectrum grows like a 2n-dimensional space, the zonal (even, sphere-pulled-back) part like an (n+1)-dimensional one. The ratio is (n+1)/(2n), which is 3/5 at n = 5. It is a dimension ratio, not 3 colours over 5.",
+   "proofs": [
+    "Weyl law",
+    "Cartan–Helgason"
+   ]
   }
  ],
  "metadata": {
-  "node_count": 2391,
-  "edge_count": 10237,
-  "theorem_count": 2391,
-  "synced": "2026-09-04 theorems list re-synced to nodes (Grace; had stopped at T2597)"
+  "node_count": 2392,
+  "edge_count": 10238,
+  "theorem_count": 2392,
+  "synced": "2026-09-04 both lists"
  }
 }
