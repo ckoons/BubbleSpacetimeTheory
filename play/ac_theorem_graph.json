@@ -1588,7 +1588,7 @@
    "name": "Reality Budget",
    "domain": "bst_physics",
    "domain_label": "BST Physics / Predictions",
-   "status": "proved",
+   "status": "partially derived (explicit split, K1847-A2 2026-09-04)",
    "plain": "Λ×N = 9/5, fill = 3/(5π) = 19.1%. Depth 0.",
    "color": "#FF5722",
    "proofs": [

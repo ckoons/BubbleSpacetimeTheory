@@ -3236,7 +3236,7 @@
    "tid": 189,
    "name": "Reality Budget",
    "domain": "bst_physics",
-   "status": "proved",
+   "status": "partially derived (explicit split, K1847-A2 2026-09-04: 3/5 derived via T2615; committed=zonal posited; 1/pi asserted)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -9387,7 +9387,7 @@
    "tid": 633,
    "name": "Complexity Ratchet",
    "domain": "foundations",
-   "status": "proved",
+   "status": "proved (topological half); thermodynamic-reset clause POSITED (K1847-A2 B2, 2026-09-04)",
    "depth": 1,
    "conflation": 1,
    "section": "BST_AC_Theorems Section 191a",
@@ -18116,7 +18116,7 @@
    "tid": 1292,
    "name": "Spatial Amnesia: Universe Remembers WHAT, Forgets WHERE",
    "domain": "cosmology",
-   "status": "proved",
+   "status": "proved (persistence half); spatial-reset clause POSITED (K1847-A2 B2, 2026-09-04)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -40209,7 +40209,7 @@
   {
    "from": 667,
    "to": 189,
-   "source": "derived"
+   "source": "coincides at n = 5 (label, not derived; K1847-A2 2026-09-04 — the 3/5 is T2615)"
   },
   {
    "from": 667,
@@ -44444,7 +44444,7 @@
   {
    "from": 666,
    "to": 189,
-   "source": "derived"
+   "source": "coincides at n = 5 (label, not derived; K1847-A2 2026-09-04 — the 3/5 is T2615)"
   },
   {
    "from": 667,
@@ -90740,7 +90740,7 @@
    "tid": 189,
    "name": "Reality Budget",
    "domain": "bst_physics",
-   "status": "proved",
+   "status": "partially derived (explicit split, K1847-A2 2026-09-04: 3/5 derived via T2615; committed=zonal posited; 1/pi asserted)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -99456,7 +99456,7 @@
    "tid": 633,
    "name": "Asymptotic Complexity Theorem (incl. the Complexity Ratchet r_eff = 1/n_C)",
    "domain": "foundations",
-   "status": "proved",
+   "status": "proved (topological half); thermodynamic-reset clause POSITED (K1847-A2 B2, 2026-09-04)",
    "depth": 1,
    "conflation": 1,
    "section": "BST_AC_Theorems Section 191a",
@@ -111227,7 +111227,7 @@
    "name": "Spatial Amnesia: Universe Remembers WHAT, Forgets WHERE",
    "domain": "cosmology",
    "depth": 1,
-   "status": "proved",
+   "status": "proved (persistence half); spatial-reset clause POSITED (K1847-A2 B2, 2026-09-04)",
    "toys": [
     1252
    ],
