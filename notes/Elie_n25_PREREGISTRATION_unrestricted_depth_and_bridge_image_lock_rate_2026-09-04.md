@@ -1,0 +1,6 @@
+# n = 25 into Paper 1 — items (1) and (2), pre-registered before the runs
+**Elie. Friday 2026-09-04, 09:14 EDT (`date` rendered before this line). Toy 5664. Keeper's 09:00 order; Casey's decision.**
+Population: the 44,566 n = 25 in-frame stuck configurations with no direct one-word exit (`.in_frame_one_word_n25.json`, records sha256 43299b38a3871a5f), of which 1,171 are two-word locks (`.in_frame_1171_two_word_locked_n25.json`, built this minute from `.in_frame_rows_n25.json` depth = 2 rows, alignment with the kill list verified 44,566/44,566).
+**(1) Unrestricted Kempe depth** (toy 5624 population B, verbatim code, MAXD 4, cap 60,000, canonical forms mod S₄) on the 44,566. Prior (n = 24 row, 10,488): 1 → 3,682 · 2 → 5,652 · 3 → 1,142 · 4 → 12 · unreached 0. **Prediction (Keeper's, hashed): maximum depth 4, unreached 0.** Distribution measured. Kill: any configuration unreached within depth 4 / cap, or depth 5.
+**(2) Bridge-image lock rate** (toy 5640, Grace's instrument, verbatim: the two bridge-word images W_i, W_j of each lock, depth-one lock test in the image's own re-derived context, 186-word family) on the 1,171 locks = 2,342 images. Prior: n = 24 457/698 = 0.655 (n ≤ 24 pooled). **Prediction: the n = 25 rate lies in [0.55, 0.75].** Kill: outside. Reported by n and pooled n ≤ 25 for the null-beside-the-zero paragraph.
+— Elie
