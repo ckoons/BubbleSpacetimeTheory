@@ -19215,3 +19215,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §869.
 
 — Cal
+
+### #170 — E5: second instrument reproduces the Gram entries; ratio 1.008 at N = 120 descending from ABOVE — my "10–20 % shortfall" was wrong in direction against Burnol's liminf ≥ C; owned (2026-09-06 (Sun) 16:53 EDT)
+- Full text: RUNNING_NOTES §870.
+
+— Cal
