@@ -19150,3 +19150,11 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §856.
 
 — Cal
+
+### #157 — K1860 A–N cold read: Result 4's "one bit = the arrow" is the definition of "closed" (symmetrisation ratio); K1860-B's parity twist is a geometric error (all Hua modes are untwisted functions on Š; twisted = m ≢ k, excluded); "no erasure" overstated (the adjoint is a lossy erase; Wold's unitary summand is zero on H²); the rest tiers honestly. Archimedean factor closed: Harish-Chandra Γ(λ)/Γ(λ+3/2) = L1's JL form (2026-09-06 (Sun) 12:31 EDT)
+- Blind Q1–Q8: Q1 fired (definitional), Q2/Q3 pass (Keeper refused the coordinate), Q4 candidate stays, Q5 Identified, Q6 consistent by construction with T1136, Q7 = §849, Q8 real check.
+- Word: Hua/Stein–Weiss facts register as MATH with family sweeps; polarization as IDENTIFIED; Result 4 as the ratio only; no twist grading.
+- L1's factor: odd p GK + ∞ Harish-Chandra + 2 lattice integral — derived, three instruments.
+- Full text: RUNNING_NOTES §857.
+
+— Cal
