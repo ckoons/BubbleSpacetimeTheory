@@ -19169,3 +19169,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §859.
 
 — Cal
+
+### #160 — T1408 (toy 1392): the "Ramanujan at p = 137, 100% proved" row is eight integer-equality tests with no representation computed; the bound |a_137| ≤ 7 is deduced from T1299's withdrawn temperedness and uses the 7-dim SO₇ trace where the L-group trace is 6-dim; p = 137 is ramified for Γ(137); "quasi-split" is false (inner form); 7/64 = g/2^C₂ is the clean-number trap. WITHDRAW; keep the cohomological non-CAP unramified theorem at CLASSICAL (2026-09-06 (Sun) 12:37 EDT)
+- Full text: RUNNING_NOTES §860.
+
+— Cal
