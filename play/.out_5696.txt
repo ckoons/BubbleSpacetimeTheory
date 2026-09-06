@@ -1,0 +1,13 @@
+  [HIT] P1  log N_E / log T slope on [20,200] = 4.770 (Weyl law C(T+5,5) ~ T^5/120; finite-T slope < 5 by the lower-order terms); no cell, no hbar, no log
+  k      c_k(1e3)      c_k(1e4)      c_k(1e5)      1+(k-1)/4
+  0.5      0.87500663    0.87500066    0.87500007       0.875
+  1.5       1.1250066     1.1250007     1.1250001       1.125
+  2.5       1.3748475     1.3749847     1.3749985       1.375
+  3.0       1.4997082     1.4999708     1.4999971         1.5
+  5.0       1.9987533     1.9998753     1.9999875         2.0
+  [MISS] P2  leading terms (T/2pi)log(T/2pi) - T/2pi are k-independent; the difference converges to a constant for every k
+  [HIT] P3  c_k = 1 + (k-1)/4 numerically; c_k = 7/8 iff k = 1/2
+  [HIT] P4  N_{1/2}(100) = 29.0024, zeta zeros below 100: 29, S(100) = -0.00241
+  [HIT] P5  k = 1/2 is NOT in the Wallach set {0, 3/2} U (3/2, inf); 3/2, 5/2, 3, 5 are
+
+SCORE 4/5
