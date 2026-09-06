@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+"""Grace — registration of T2622, the kernel-swap theorem (K1870 §2 as AMENDED by Cal §869 (1)–(5); Round 124 G20). Cal's word GIVEN on the amended text.
+Usage: python3 .grace_register_T2622_on_cal_word.py --cal-word "§869" [--row-file <Lyra L11 file with a line starting '| T2622 |'>] [--name "..."] [--claimed-by-counter]
+Refuses without a T2622 claim file unless --claimed-by-counter (Lyra names it; K1870 §2). Edges: from T2621 (the p = 2 case), to T1448 (the Mode B line). Domain number_theory.
+"""
+import json, sys, os, datetime, subprocess, glob
+here = os.path.dirname(os.path.abspath(__file__)); root = os.path.dirname(here); a = sys.argv[1:]
+if '--cal-word' not in a: print('REFUSED: --cal-word required'); sys.exit(1)
+calword = a[a.index('--cal-word') + 1]; rowfile = a[a.index('--row-file') + 1] if '--row-file' in a else None; name_override = a[a.index('--name') + 1] if '--name' in a else None
+if not glob.glob(os.path.join(here, '.claims', 'theorem_T2622_*')) and '--claimed-by-counter' not in a: print('REFUSED: no claim file for T2622 — Lyra names it (L11)'); sys.exit(1)
+today = datetime.date.today().isoformat(); stamp = subprocess.run(['date', '+%H:%M'], capture_output=True, text=True).stdout.strip(); tid, tid_s = 2622, 'T2622'
+name = name_override or 'Kernel-swap theorem for the spherical Eisenstein series on Q-rank-2 Type IV quotients: with the corpus\'s planes <1,-1> fixed and the kernel the trace-zero lattice of the MAXIMAL order ramified at {p, ∞}, the short-root factor carries the Steinberg surgery (1 − p^{1/2−λ})/(1 − p^{−1/2−λ}) and the kernel comb has spacing 2π/ln p; ψ(1/2) unchanged; established p = 2, 3; predicted for all p; counterexample <1,3,3> for a non-maximal-order kernel'
+plain = ('Change the small definite part of the lattice so that it is "bad" at the prime 3 instead of the prime 2, keeping the two big hyperbolic pieces and the rank the same. The evenly spaced comb of resonances moves: its spacing goes from 2π/ln 2 to 2π/ln 3. So the 2 in that comb was the prime 2, not the rank 2. It only works when the small part is built by the maximal-order rule; a different lattice that is also bad only at 3 gives a comb with half the spacing.')
+registry = None
+if rowfile:
+    for line in open(rowfile, encoding='utf-8').read().split('\n'):
+        if line.startswith('| T2622 |'): registry = line; break
+if registry is None:
+    registry = (f'| T2622 | KERNEL-SWAP THEOREM for the spherical Eisenstein series on ℚ-rank-2 orthogonal quotients of Type IV (K1870 §2 AS AMENDED by Cal §869 (1)–(5); Round 124 G20; Cal {calword}; Lyra L11 names it). '
+                'HYPOTHESIS (Cal (1), not a remark): the two planes are the corpus\'s ⟨1, −1⟩ planes and the definite ternary kernel is the TRACE-ZERO LATTICE OF THE MAXIMAL ORDER of the quaternion algebra ramified at {{p, ∞}} (I₃ for the Hurwitz order at p = 2; ⟨1, 1, 3⟩ at p = 3, Lyra L10 f550457f) — produced by the corpus\'s construction rule, not chosen (calibration #28: write the construction rule that produces the lattice before the lattice, and the lattice before the number). '
+                'STATEMENT: under that hypothesis the short-root factor\'s p-adic surgery is the Steinberg factor at p, R_p(λ) = (1 − p^{{½−λ}})/(1 − p^{{−½−λ}}), and the KERNEL comb of resonances has spacing 2π/ln p (poles −½ + 2πik/ln p, zeros ½ + 2πik/ln p); the archimedean ψ(½) units are unchanged. '
+                'THE PLANES (Cal (2)): at p = 2 the ⟨1, −1⟩ planes are NOT hyperbolic over ℤ₂ and their parity is load-bearing (Cal §855: the even model gives π/ln 2); at odd p they are hyperbolic and nothing depends on it — "two hyperbolic planes fixed" is wrong at exactly the prime T2621 is about. '
+                'TIER (Cal (3)): ESTABLISHED at p = 2 (T2621; Cal §855 direct 2-adic integral) and p = 3 (Elie 5710, prereg a6e8ae6f: direct rank-one intertwining integral by exact shell counting, c₃^{{aniso}} = (y² − 2√3y − 9)/(9(y² − 1)), y = 3^{{−λ}}, with split controls at p = 3 and p = 5 reproducing Gindikin–Karpelevich exactly as rational functions); PREDICTED for all p with a finite instrument (5710\'s shell count at p) — not a theorem for all p. '
+                'THE COMB SET (Cal (4)): the KERNEL comb moves from 2π/ln 2 to 2π/ln p; the row does NOT say the 2-comb disappears — the odd planes\' 2-adic level comb (Cal §861 n = 3; H15, hashed, untested; 5710 excludes p = 2 by design) is unresolved after the swap. '
+                'COUNTEREXAMPLE in the row (Cal (1)): ⟨1, 3, 3⟩ = x² + 3y² + 3z² is anisotropic exactly at {{3, ∞}} but is a NON-maximal-order kernel in a different ℤ₃-quadratic space (discriminant 9, P₁ = 4/13) and gives spacing π/ln 3 (Cal §865/§868, exact) — so "anisotropic exactly at {{p, ∞}}" alone is FALSE as a hypothesis; the spacing reads the ℤ_p-lattice class of the kernel, and the corpus\'s construction lands on Steinberg. '
+                'TWO FACTS, ONE PRIME (Cal (5), Elie 5710 P3): the unnormalised local integral carries no ε monomial (R_p(λ)R_p(−λ) = p fixes only the constant p^{{½}}); the ε constants −2 ln p live in the functional-equation normalisation of the intertwining operator — "spacing reads the prime" is about POLES, "ln p in the Eisenstein term" is about a NORMALISATION convention. '
+                'CONSEQUENCE: the shared integer rank 2 = prime 2 in T1448\'s "rank^{{−2s}}" is separated by construction — with the rank held at 2 the base moved to 3 (G19 table); T1448\'s Eisenstein line is MATCHED-NOT-DERIVED (G18 Mode B, K1869 §2). WARNING (K1870): the comb\'s Re λ = −½ is the Steinberg parameter\'s ½, not the critical line\'s. '
+                f'Edges: from T2621 (the p = 2 case); to T1448 (the Mode B line). Instruments: Elie 5710 (`play/.out_5710.txt`), Cal cal_E11_3adic_* (the counterexample lattice), T2621\'s. | DERIVED at p = 2, 3 (direct integrals with split controls); PREDICTED for all p (finite instrument named) | graph-node (number theory / RH row) | 5704, 5710 | {today} |')
+reg = os.path.join(root, 'notes', 'BST_AC_Theorem_Registry.md'); gd_p = os.path.join(here, 'ac_graph_data.json'); gt_p = os.path.join(here, 'ac_theorem_graph.json')
+gd = json.load(open(gd_p, encoding='utf-8')); gt = json.load(open(gt_p, encoding='utf-8')); ids = {t['tid'] for t in gd['theorems']}
+if tid in ids: print('already registered'); sys.exit(0)
+lines = open(reg, encoding='utf-8').read().split('\n'); anchor = max(i for i, l in enumerate(lines) if l.startswith('| T2621 |')); lines.insert(anchor + 1, registry); open(reg, 'w', encoding='utf-8').write('\n'.join(lines))
+rec = dict(tid=tid, name=name, domain='number_theory', status=f'derived at p = 2, 3 (direct p-adic integrals with split controls: Cal §855, Elie 5710); predicted for all p (finite instrument); hypothesis = maximal-order trace-zero kernel (Cal §869 (1)); counterexample <1,3,3> in the row; Cal {calword}', depth=1, conflation=0, section='K1870 §2 + Cal §869 (Round 124 G20)', toys=[5704, 5710], date=today, plain=plain)
+gd['theorems'].append(rec); gd['nodes'].append(dict(rec))
+for (fr, to, src, lab) in ((2621, 2622, 'derived', 'the p = 2 case (the corpus\'s own lattice)'), (2622, 1448, 'derived', 'separates rank 2 from prime 2: T1448\'s Eisenstein line is matched-not-derived (G18 Mode B)')):
+    gd['edges'].append({'from': fr, 'to': to, 'source': src, 'label': lab}); gt['edges'].append({'source': f'T{fr}', 'target': f'T{to}', 'type': 'uses'})
+color = next((n.get('color') for n in gt['nodes'] if n['domain'] == 'number_theory'), '#8E6BBF')
+gt['nodes'].append(dict(id=tid_s, name=name, domain='number_theory', domain_label='Number theory / RH row', status='derived', plain=plain, color=color, proofs=['direct p-adic intertwining integral (5710; Cal §855)', 'split-kernel GK controls']))
+gd['metadata'].update(node_count=len(gd['nodes']), edge_count=len(gd['edges']), theorem_count=len(gd['theorems']), synced=f'{today} both lists (Grace G20)'); gd['meta']['max_tid'] = f'T{max(ids | {tid})}'; gd['meta']['last_updated'] = today
+json.dump(gd, open(gd_p, 'w', encoding='utf-8'), indent=1, ensure_ascii=False); json.dump(gt, open(gt_p, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+open(os.path.join(here, 'THEOREM_LOG.md'), 'a').write(f"| T2622 | Kernel-swap theorem (Steinberg at p; kernel comb 2π/ln p; maximal-order hypothesis; <1,3,3> counterexample) | D1 | K1870 §2 + Cal §869; Cal {calword} | 5704,5710 | Lyra (named) / Grace (registered) | {today} | derived p=2,3; predicted all p |\n")
+for cf in glob.glob(os.path.join(here, '.claims', 'theorem_T2622_*')): open(cf, 'a').write(f'Registered: {today} {stamp} on Cal\'s word ({calword}) by Grace\n')
+ids2 = {t['tid'] for t in gd['theorems']}; gids = {n['id'] for n in gt['nodes']}
+print('registered T2622 |', len(gd['theorems']), len(gd['nodes']), len(gd['edges']), '|', len(gt['nodes']), len(gt['edges'])); print('edges:', [(e['from'], e['to']) for e in gd['edges'] if 2622 in (e['from'], e['to'])])
+print('dangling data:', [e for e in gd['edges'] if e['from'] not in ids2 or e['to'] not in ids2], '| curated:', [e for e in gt['edges'] if e['source'] not in gids or e['target'] not in gids])
