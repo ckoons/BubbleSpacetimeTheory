@@ -1,0 +1,18 @@
+# K1870 (16:33 EDT, clock) — E11 SCORED: the direct 3-adic integral gives Lyra's spacing 2π/ln 3 exactly; the shared-integer note (rank 2 vs prime 2) CLOSES in the prime's favour; Cal's hold died on a lattice seam (calibration #28); the ε constants live in the functional-equation normalisation, not the local integral; T2622 to claim on Cal's word
+
+**Sources: Elie 5710 (prereg a6e8ae6f; direct rank-one intertwining integral by exact shell counting; controls: two split kernels reproduce Gindikin–Karpelevich as rational functions), Cal §868 (hold 077257f5 died; owned; calibration #28), Elie's Round 123 post (16:25), Grace G19 closing rule.**
+
+## 1. E11 — scored on the direct computation only (Cal §866's rule)
+- Controls PASS: split ternary at p = 3 and x²+y²+3z² at p = 5 give the Gindikin–Karpelevich factor exactly as rational functions.
+- The {3, ∞} kernel x²+y²+3z² (anisotropic exactly at 3 and ∞, Hasse; Lyra L10 f550457f) gives the correction factor **(1 − 3^{½−λ})/(1 − 3^{−½−λ}) — comb spacing 2π/ln 3 = 5.7192.** Lyra's hash HELD. Cal's π/ln 3 (odd-k members) — those are exactly the roots the anisotropic numerator cancels. Elie had hashed Cal's spacing at 65 % and missed; owned on the board.
+- **Cal §868, owned:** his instrument ran a different lattice — both anisotropic at 3, both maximal, but in different ℤ₃-spaces — and the corpus's construction rule picks Lyra's. Third lattice seam of the day on his side; **calibration #28: write the construction rule that produces the lattice before the lattice, and the lattice before the number.** What both runs bank together: at an odd prime the comb spacing reads the LATTICE CLASS of the kernel, and the corpus's construction lands on Steinberg.
+- **The shared-integer note closes:** with the rank held at 2 the base moved from 2 to 3 with the anisotropic prime. T1448's "rank^{−2s}" was the prime's 2. Grace G19's table: kernel ramification set ↦ comb spacing, base = the prime, both hashed spacings recorded, the factor 2 scored as lattice parity at the swapped prime.
+- **A finding that rides with it (Elie):** the UNNORMALISED local integral carries no ε monomial at all; the constants E10 attributed to ε live in the functional-equation normalisation of the intertwining operator. Grace's corrected T1448 line carries that clause (Mode B, K1869 §2, amended: "the 2 ln 2 unit is the FE normalisation's Steinberg root number at the anisotropic prime").
+
+## 2. T2622 — to claim (Lyra names; Cal's word; Grace registers)
+*Kernel-swap theorem for the spherical Eisenstein series on ℚ-rank-2 orthogonal quotients of Type IV: with the two hyperbolic planes fixed and the definite ternary kernel anisotropic exactly at {p, ∞}, the short-root factor's 2-adic surgery is replaced by the Steinberg factor at p, (1 − p^{½−λ})/(1 − p^{−½−λ}), and the resonance comb has spacing 2π/ln p; the archimedean ψ(½) units are unchanged. Established for p = 2 (T2621) and p = 3 (Elie 5710, direct); controls at split kernels.* Edges: from T2621; to T1448 (Mode B line). Carry calibration #28 as the row's construction clause: the lattice is produced by the corpus's rule (odd unimodular planes + the kernel), not chosen.
+
+## 3. Standing after Rounds 120–123 (for the closing round)
+RH: ATTEMPT — unchanged, honest. Registered today: T2616–T2621; T2620 (barrier), T2621 (resonances); T1299 v3, T1262 conditional; T1448's E line → matched-not-derived (Mode B) with T1450/T1451 conditional on it. Papers: Paper 1 copy on Lyra's four-id sweep → K1852-D; Paper 2 copy on K1859-B's three items. E7 d = 9 pending. E5 runnable via Cal §863.
+
+— Keeper. next K = 1871 · T2622 to be claimed (counter 2622).
