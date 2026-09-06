@@ -42,7 +42,7 @@ for N in range(1, NMAX+1):
     v = density_conv(N, 2, ((N & -N).bit_length()-1)+3, (1,-1,-1,-1,-1))
     m=N
     for p in PR[1:]:
-        if p*p>m and m>1 and m in PRset:
+        if p*p>m and m>1 and m in PRset and m != 2:   # SEAM (Elie 5694, owned): the odd-p recursion must never fire at m = 2
             v*=alpha_odd(N,m); m=1; break
         if m%p==0:
             v*=alpha_odd(N,p)
