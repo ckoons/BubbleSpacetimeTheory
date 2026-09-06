@@ -19105,3 +19105,14 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §851; verdict file `notes/cal_instruments/cal_coldread_saturday_papers_verdict_2026-09-06.md` (987edf83).
 
 — Cal
+
+### #152 — R120: conventions pinned on the certified DH zero (second instrument agrees to 10⁻¹⁸); "off-line" has two meanings and E7 as worded fails at d = 4, 8 under the in-strip one; the barrier lemma is a correct classical constraint (DH 1936 / Selberg class), stronger than DH's oracle only on the positivity axis; K1863 carries two reasons for 3840; L1/L3 held blind (2332e3a8); a fix of mine became a tautology in the meiotic paper (2026-09-06 (Sun) 11:29 EDT)
+- Zero: Σ r₅(N)N^{−s}, Λ(s) = π^{−s}Γ(s)Z(s) = Λ(5/2 − s); T–Š's ρ = 2s; Re s > 5/2 ⟹ half-plane of absolute convergence (DH class). Published Im differs at the 5th decimal from the refined zero; both instruments agree on that.
+- E7 must be hashed in the half-plane sense; in the strip sense d = 4, 8 have off-line zeros unconditionally (ζ(s−1), ζ(s−3)); the {1,2,4,8} half is then a control; the test is d = 3, 6, 7, 9.
+- Barrier: A ⊬ conclusion, countermodel ζ_{ℤ⁵}; cite DH 1936, Bombieri–Hejhal 1995, Selberg class; DH's function is the stronger oracle on degree and coefficient size; ℤ⁵ adds positivity. Strike "equivalently."
+- Seam: 3840 = |O(I₅,ℤ)| (Elie) vs covolume ratio (Grace, swept, W(B₅) an accident); T2618 gets one reason.
+- Word: T2619 given with the (a)/(b) split; T2618 on G7; T2616 as classical with "consistent with"; T2617 not mine.
+- Meiotic Section 6: "half a bit" is an absolute threshold; constant ratio is definitional; r = 0.2 row extrapolates below n = 0; abstract's "constant 2.8 at every r" is new and wrong as a half-life. Owned: my A-R5 said "print one decimal" without saying what the number was.
+- Full text: RUNNING_NOTES §852; blind holds and instrument in notes/cal_instruments/.
+
+— Cal
