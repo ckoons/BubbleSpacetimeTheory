@@ -1,0 +1,6 @@
+Travenec–Samaj point (halved): (2.503589987643505 + 14.2799570551201725j)  |Lambda| = 1.76e-12  (neighbours at 0.01: ~4.5e-10)
+refined zero      s = (2.5035899876435054856 + 14.279995705512019903j)  |Lambda| = 3.64e-38  winding on 0.01-box: 1
+mirror     5/2 - s = (-0.00358998764350548556 - 14.279995705512019903j)  |Lambda| = 3.24e-38  winding: 1
+in their units: rho_x = 2 Re s = 5.007179975287011  (paper 5.00717997528701 — all 15 digits agree)
+                rho_y = 2 Im s = 28.55999141102403981  (paper 28.559914110240345 — agrees to 28.5599, then the paper's digit string reads as mine with one '9' dropped: 28.5599[9]1411024...)
+Re s - 5/2 = 0.00358999 : the zero lies OUTSIDE the strip 0 <= Re s <= 5/2, i.e. beyond the abscissa of absolute convergence of Z_cone — exactly the class Theorem 4.1 of Thorne's survey would produce infinitely many of.

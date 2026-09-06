@@ -1,0 +1,12 @@
+  [HIT] P1  r*(N)*3840 = r5(N) for N<=200; failures []  [0s]
+  r5(1..12): [10, 40, 80, 90, 112, 240, 320, 200, 250, 560, 560, 400]
+P2: AFE vs direct / quadrature / functional equation
+  [MISS] P2  s=4.0: rel 6.7e-09; s=(4.0 + 2.0j): rel 6.1e-09; quad at 5/4+40i: rel 2.91e-9; FE max rel 1.22e-5  [95s]
+P3: zero count in the strip by the argument principle
+  T=50.0: winding (zeros in box) = 30  (max step 0.47 rad, h=0.05); RvM-type rough 17.7  [155s]
+  T=100.0: winding (zeros in box) = 30  (max step 0.47 rad, h=0.05); RvM-type rough 57.0  [239s]
+  real-segment sign changes 0; box 0.005<t<0.1 winding 0
+  [MISS] P3  N_total(50) = 30, N_total(100) = 30
+P4: sign changes of Lambda(5/4+it) on (0,100]
+  Lambda real on the line: max |Im/Re| sampled 0.0e+00; N_line(50) = 10, N_line(100) = 10  [354s]
+  20 zeros unaccounted on the line up to T=100 -> hunting off-line zeros in 1.25 < Re s < 3, 0.1 < t < 100

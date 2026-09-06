@@ -1,0 +1,8 @@
+P2: instrument checks
+  [HIT] P2  direct(X=2000) at (4.0 + 0.0j): 6.7e-06; direct(X=2000) at (4.0 + 2.0j): 6.1e-06; ref90 at (1.25 + 40.0j): 8.3e-30; ref90 at (0.400000000000000022204460492503 + 33.2999999999999971578290569596j): 3.3e-30; ref90 at (2.10000000000000008881784197001 + 20.0j): 1.0e-30; FE max rel 3.2e-30  [5s]
+P3: argument-principle count in [-1/2, 3] x (0.1, T]
+  T=30.0: N_total = 13 (max step 0.79, h=0.1); (T/pi)log(T/(pi e)) = 12.0  [84s]
+  T=60.0: N_total = 39 (max step 0.79, h=0.1); (T/pi)log(T/(pi e)) = 37.2  [273s]
+  real zeros on (-1/2,3) excluding the poles: 0
+  [HIT] P3  N_total(30) = 13, N_total(60) = 39; prereg's sanity formula had 2pi in the log where the Gamma(s) factor gives pi — owned; correct formula quoted
+P4: on-line sign changes of Lambda(5/4+it), t in (0.1, 60]
