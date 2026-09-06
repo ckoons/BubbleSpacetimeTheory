@@ -18,7 +18,7 @@ Siegel's theorem for a **one-class genus** says the representation measure is a 
 
 Local densities computed by convolution of the distribution of ±x² mod p^k (stability checked at k and k+1 for p = 2 and every p | N); for p ∤ 2N, α_p(N) = 1 + (N/p)·p^{−2} (count of a nondegenerate 5-variable form over F_p is p⁴ + p²·(N·det/p); det = 1 for BOTH forms, so **the odd-p densities of ℤ^{1,4} and ℤ⁵ are identical**), product taken to p < 10⁵.
 
-## 3. Result (N = 1 … 40, 25 distinct stabilizer types, 158 chamber vectors)
+## 3. Result (N = 1 … 40, 25 distinct stabilizer types, 173 chamber vectors (an earlier draft said 158 — a prose miscount; the printed orbit column sums to 173, as Grace found))
 
 | genus | ratio mean | sd | relative sd |
 |---|---|---|---|

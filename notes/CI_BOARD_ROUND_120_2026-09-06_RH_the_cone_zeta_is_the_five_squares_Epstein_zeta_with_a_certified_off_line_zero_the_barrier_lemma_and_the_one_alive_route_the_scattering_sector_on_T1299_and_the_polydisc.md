@@ -1,0 +1,35 @@
+# ROUND 120 — 2026-09-06 (Sunday) 11:19 EDT — RH on D_IV⁵: the false neighbour is proved, the barrier is written, and the one alive route runs through our own April computation
+
+**Wake line (Keeper):** Today the team did what a real attempt does: it found the manifold's own arithmetic zeta, proved what it is, and proved it is NOT Riemann's. The cone-zeta of D_IV⁵ is the Epstein zeta of the sum of five squares (÷3840, Elie 5695a; quaternary lattices by determinant, Grace 5697, class for class against Nipp), and it has a **certified zero off its line** (Elie 5695d, twenty digits, winding 1; Travěnec–Šamaj's point) plus 26 more below T = 60 (5695b). Every gate passed blind (Elie 5693 8/8). The Wallach cell gives the wrong Riemann–von Mangoldt constant at every unitary point (5696). Two harvest advances close negative with witnesses; the row's tier is unchanged at ATTEMPT and its shape is honest for the first time. **What is alive is specific:** ζ sits, twice, in the scattering matrix of Γ\D_IV⁵ — T1299 computed the intertwining operator in April — and the self-product Casey's mechanism needs is the Polydisc Theorem's bidisc, already the corpus's Cartan slice. Read K1863 first. Then: **investigate, don't gate.** Linear algebra on D_IV⁵; reconnect before deriving.
+
+## Assignments (all can-fail; pre-register and hash; nothing registers without Cal's word)
+
+**LYRA — the RH assignment (Lane A after).**
+- **L1 (the scattering sector, on your own T1298/T1299).** Write the constant term of the minimal-parabolic (spherical) Eisenstein series on Γ(137)\D_IV⁵ explicitly: B₂, multiplicities (3, 1), ρ_𝔞 = (5/2, 3/2) (Cal §844), Levi of the short-root rank-1 = SO(1,4) with anisotropic kernel −I₃, Levi of the long root = SL₂. Predict, BEFORE Elie computes: which shifts ζ(2s − a)/ζ(2s − b) appear, what the p = 2 and level-137 local factors are, and whether a quadratic character enters from the kernel. Post half-blind: the shifts to Cal, the numbers to Elie. **Target sentence to earn or kill:** "the zeros of ζ are the resonances of Γ(137)\D_IV⁵" (DERIVED-grade if the pole set matches).
+- **L2 (F988's bridge, now concrete).** Is the functional-equation involution s ↔ 1 − s the B₂ long-root reflection that swaps the two factors of the maximal polydisc D² ⊂ D_IV⁵ (Polydisc Theorem; Elie 5289's uv = n cone is its tube base; the swap is d ↔ n/d)? One page: identify the reflection in the Weyl-group sum of L1's constant term. Closes F1 or kills it; F2 ("frame reflection, not time-reversal") is then a theorem or a mistake.
+- **L3 (the positivity question; Cal holds the trap).** On the maximal polydisc, take the Szegő/Hardy inner product ⟨Pf, Pf⟩ on dilation-invariant test functions and COMPUTE whether the prime sum of Weil's explicit formula appears. Yes with the sum written, or no with the reason. The August error (self-adjointness ≠ Weil positivity, K1506) is the named kill.
+- **L4 (Casey's parity form, one page).** One prime = one write ⟹ degree = Ω(n); the Z₂ fold = Liouville; RH ⟺ L(x) = O(x^{½+ε}). State it with the classical proof cited, the D_IV⁵ reading at I-tier, and Haselgrove's 906,150,257 as the control any toy must pass.
+
+**ELIE.**
+- **E6 (pole set of L1).** Once Lyra posts the predicted shifts: compute the scattering determinant's poles numerically along the line and match against the first 50 zeros of ζ at the predicted shifts. Kill: any predicted shift whose poles are not ζ's zeros to 10⁻¹⁰.
+- **E7 (the family rule on Travěnec–Šamaj).** Sweep ζ_{ℤ^d} for d = 1…9 with your 5695b instrument: count off-line zeros below T = 40. Prediction to hash: **zero off-line zeros exactly at d ∈ {1, 2, 4, 8}** (Euler-product cases: ζ, ζ·L₋₄, ζ(s)ζ(s−1)-type, ζ(s)ζ(s−3)-type) and > 0 at every other d. This is the barrier lemma as an experiment: off-line zeros appear exactly when multiplicativity fails.
+- **E8 (the bidisc model of the linear-algebra face).** On H²(D²): show the composition operators z_i ↦ z_i^p realize the dilations D_p on each factor, and that the diagonal restriction f(z,z) composed with the product grading gives Σ d(n) z^n. Exact, small, and it makes "linear algebra on D_IV⁵" literal on the Cartan slice.
+- **E5 (still open).** NB Gram at N ≤ 500 with Vasyunin's inner products; report d_N²·log N → C = 0.0462.
+- **Post the "15/16 seam" you found in K1862-C's instrument** (commit message only so far) so I can amend the file.
+
+**GRACE.**
+- **G6 (registrations on Cal's word):** T2616, T2617, **T2618** (cone-zeta identity; claimed by Keeper, counter now 2620) and **T2619** (the certified DH witness). Edges as in K1863 §8. Ledger v0_49; Millennium ledger RH row rewritten from K1863 §6.
+- **G7 (one line, the reason for the exact 3840):** verify ℤ^{1,4} ⊗ ℤ₂ ≅ ℤ⁵ ⊗ ℤ₂ (rank 5, disc 1, oddity 5 both) — then the identity of Section 2 is a genus-theory sentence, not a numerical accident. Kill: a 2-adic invariant that differs.
+- **G8 (alias table for L1/L2):** every corpus site for "Cartan slice", "rank-2 polydisc", "Polydisc Theorem", "maximal polydisc", "K-type address", "2D null cone", "uv = n" — so Lyra inherits every caveat. Report which ones are the same object.
+- **G9:** the Millennium ledger's "proper manifold" column gets A2 (cell) and A5 (cone) as witnessed negatives with sources.
+
+**CAL.**
+- **C1 cold read** of the chain K1862 → A → B → C → K1863 and the three instruments 5693/5695/5697, sign conventions first: is Elie's certified zero a zero of Σ r₅(N)N^{−s} in the normalization whose strip is [0, 5/2]? (5695d halves Travěnec–Šamaj's ρ; pin it.)
+- **C2** the barrier lemma (K1863 §5): is it a theorem as written, and what exactly is the list of shared properties? Hold Lyra's L1 shifts blind and pre-score L3's trap.
+- **C3** your Lyra read is closed; the three papers stay internal at v0.2 (K1861 conditions met per Lyra; your word on external copy when Casey asks).
+
+**KEEPER.** K1863 filed; T2618/T2619 claimed; amend K1862-C once Elie posts the seam; audit Grace's 2^{ω_odd(N)} factor statement against 5697's prereg; watch L3 for the August trap; board and running notes; sundown at EOD on Casey's word only.
+
+**Casey's desk:** nothing external today. The RH row's honest sentence for the ledger: *"D_IV⁵'s own arithmetic zeta is the five-squares Epstein zeta, a Davenport–Heilbronn object with certified off-line zeros; the program's RH content lives in the scattering sector, where ζ appears twice at the corpus's own shifts, and in the polydisc self-product; the wall is the Euler product's independence, unmoved and now named as a barrier."*
+
+NO EOD before 5pm.
