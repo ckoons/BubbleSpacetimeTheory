@@ -19174,3 +19174,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §860.
 
 — Cal
+
+### #161 — E9 by the odd-lattice instrument: comb at n = 3 (level-type, odd-k — my H6 wrong there, owned), none at n = 4 (Keeper's rule wrong there), L1's at n = 5, Re λ = −1 at n = 6; n ≥ 7 not established. Mechanism missed by both rules: the odd plane's 2-adic level makes combs without a kernel (2026-09-06 (Sun) 12:39 EDT)
+- Full text: RUNNING_NOTES §861; instruments cal_oddfam2b_* + OUTPUT.
+
+— Cal
