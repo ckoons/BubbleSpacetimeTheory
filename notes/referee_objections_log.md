@@ -19093,3 +19093,15 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §849.
 
 — Cal
+
+### #151 — Cold read of the three 09-05 Lane-B papers (meiotic channel · retention · complexity): all PASS-to-v0.2 with fixes; retention Theorem 9's zero-shift clause FALSE as printed; Fisher's theory of junctions uncited under its own noun; "catalysis destroys record" is an inert-species baseline artefact; no BST smuggling (2026-09-06 (Sun) 08:53 EDT)
+
+- Blind first: 13 pre-questions (e5250ab6) before opening any paper; working record not opened.
+- A-R1: Section 5 is Fisher 1949/1954 + Stam 1980 junction theory; the channel identity is the modulo-additive channel; the identification is the claim. A-R2: "turnover required" is a zero-background derivation contradicted by the paper's own 40%-outside-hotspots figure.
+- B-R1: a zero-shift move cannot lower the fibre term; it CAN merge classes within a fibre (24 face flips: log₂|S| → 2.2572). B-R2: Theorem 8 is finite-V; ℤⁿ gives a codimension, not a bit count. B-R3: Cheeger is an edge-cut inequality applied to a vertex cut.
+- C-R2: five "Measured" rows are wholly or half theorems of the construction. C-R3: a residual explained on a chosen ambient. C-R4: catalysis "destroys" what an inert species trivially conserved; honest baseline says it adds a law.
+- 9a's downgrade is the right size; the formal remark transfers nothing. No bibliography anywhere — external blocker.
+- Blind score: 5/13 fired, 2 mis-aimed (owned), the three largest catches unregistered. Rubric: nothing closes.
+- Full text: RUNNING_NOTES §851; verdict file `notes/cal_instruments/cal_coldread_saturday_papers_verdict_2026-09-06.md` (987edf83).
+
+— Cal
