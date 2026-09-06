@@ -1,0 +1,18 @@
+H1: eps constant on the diagonal, numerically
+  t=5: numeric D = (0.638414444907 + 0.0j); A+B+D = (-0.747879916213 + 8.62816615085e-32j); residual - 2ln2 = 4.18e-22
+  t=10: numeric D = (-6.1444058817 + 2.95822839458e-21j); A+B+D = (-7.53070024282 - 7.39557098645e-31j); residual - 2ln2 = 1.16e-19
+  t=20: numeric D = (-9.28482571036 + 0.0j); A+B+D = (-10.6711200715 + 0.0j); residual - 2ln2 = 1.52e-19
+  [HIT] H1  residual after (A)+(B)+(D) = +2 ln 2 = 1.3862943611 (on log c; -2 ln 2 on log c^-1); long roots: fL(0) constant, no term
+H2: the psi(1/2) sources at lambda = 0 (regular part)
+  psi(1/2) = -1.963510026; each xi(2l+1) factor gives -psi(1/2) = gamma + 2 ln 2; three factors -> 3 gamma + 6 ln 2; Gamma_C ratio psi(1/2)-psi(3/2) = -2.0 (no ln 2)
+  [HIT] H2  regular ln 2 content at 0: 6 ln 2 from (A) vs 2 ln 2 from (C); per unit -2 ln 2 each (Cal), counts 3:1; (A)+(C) != -2 ln 2 (Lyra P2)
+H3: ln 137 in a twisted factor
+  d/ds log[xi(s,chi)/xi(s+1,chi)] at s=3: (-0.2026002694 - 0.03028479685j); conductor constant -1/2 ln(137/pi) = -1.88762552; remainder (psi + L'/L terms) = (1.685025251 - 0.03028479685j)
+  [HIT] H3  ln 137 enters with coefficient -1/2 per twisted xi-ratio (a definitional constant of the completed L-function); exhibited
+H4: T1448's number as a normalisation
+  E_eps[h] = -0.017557623 * int h  (per unit int h); with the three psi(1/2) units: C = -0.10132118 * int h
+  -(pi^2/2) ln 2 = -3.4205442 requires int h = 194.818 (eps alone) or 48.7045 (eps + psi units) — 2 pi^4 = 194.818, pi^4/2 = 48.7045
+  [HIT] H4  h_V(k) = C(k+3,4)/(k(k+5))^2 is a sequence on k (h_V(3) = 0.0260417), not a function on i a*; the -3.4205 is int h = pi^4/2 chosen, not computed
+  [HIT] H5  E11 shape hashed: (C) -> 2 ln 3, (D) period -> 2 pi/ln 3 = 5.7192, (A) psi(1/2) unchanged
+
+SCORE 5/5
