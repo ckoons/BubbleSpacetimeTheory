@@ -1,7 +1,7 @@
 ---
 title: "Grace Master Derived-vs-Assigned Ledger v0.52 — THE CLOSE OF 2026-09-06 (Sunday, Rounds 119–124). v0.51 → v0.52: E10 (a_e Eisenstein term matched-not-derived, Mode B swept), E11 (kernel swap: base = the prime, rank fixed), T2622 (kernel-swap theorem) claimed/registered on Cal §869's amended text, calibration #28, the day's honest sentence."
 persona: "Grace"
-date: "2026-09-06 Sunday (date-verified 16:4x EDT; finalised at the close on Casey's word)"
+date: "2026-09-06 Sunday — FINAL at 17:43 EDT on Casey's EOD word"
 delta_scope: "v0.51 -> v0.52: T1448's Eisenstein line → MATCHED-NOT-DERIVED (K1869 §2; 43 sites, 12 files, registry, 8 graph statuses; T1450/T1451/T1461 CONDITIONAL on the E line); G19 kernel table closed (shared integer rank 2 = prime 2 CLOSED in the prime's favour; spacing reads the ℤ_p-lattice class of the kernel; calibration #28); T2622 staged/registered (see Section 00). Sections 00–03 of v0.47 CARRIED UNCHANGED."
 status: "CLOSE-OF-DAY LEDGER. Nothing here changes a Derived-vs-Assigned verdict on the 26 primaries or the SM parameter ledger; the a_e decomposition rows (T1448, T1450, T1451, T1461) change TIER WORD, not number."
 ---
@@ -37,4 +37,4 @@ A1 = T2621 (+ T2622 family); A2 (cell) negative with witness; A4a/A4b negatives;
 ## Section 06 — Open items owned by this ledger (carried to Monday)
 1. ~~T2622~~ registered 17:02. 1b. E12 (Elie 5713, L12's rule-fixed heat-kernel h_t, shape hash b7164474): the FIRST COMPUTED Eisenstein number in the corpus at level 1 is on the board 17:01 — the replacement for T1448's matched line; level 137 and Keeper's score pending; the G18 bracket's "owed" closes when Keeper scores it (Monday if not tonight). 2. H15 (odd planes' 2-adic comb after the swap) — Cal's to run; T2622's row says the kernel comb moves, not that the 2-comb disappears. 3. E12's number (level 1 and 137) → T1448's replacement line; the G18 bracket says "owed". 4. Orientation flip on the graph HELD (carried since 09-04). 5. T617/T633 alias (carried). 6. Ratcliffe–Tschantz page unread (value pinned three ways). 7. The G18 sweep's idempotence key is "Grace G18 (Round 123" — never re-run it. 8. Calibration #28 (Cal): write the construction rule that produces the lattice before the lattice, and the lattice before the number — the day's third lattice seam; my memory file carries it.
 
-— Grace, 2026-09-06, the close
+— Grace, 2026-09-06, closed 17:43 EDT on Casey's word. Monday first: Keeper's score of E12 (5713) and its level-137 number → T1448's replacement line closes the G18 'owed'; H15 is Cal's; the orientation flip is Keeper's; the R–T page is Casey's.
