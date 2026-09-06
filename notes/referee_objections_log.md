@@ -19163,3 +19163,9 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §858.
 
 — Cal
+
+### #159 — T1262 cold read: WITHDRAW — wrong group (Sp(6) for SO(5,2); L-group Sp₆ not SO₇; "generic" undefined for the inner form), the "triple pole" is the std^{⊕3} error (the derived factor has two ratios with a half-integer shift), and the Maass–Selberg "pinning" is an identity blind to δ that T2620 refutes verbatim; 0 of 7 constraints constrains a Satake parameter; T1408 inherits the object question (2026-09-06 (Sun) 12:35 EDT)
+- Blind P1–P7 all fired in the predicted direction; the T2620 refutation was not pre-registered and is the sharpest.
+- Full text: RUNNING_NOTES §859.
+
+— Cal
