@@ -19179,3 +19179,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §861; instruments cal_oddfam2b_* + OUTPUT.
 
 — Cal
+
+### #162 — R122: E7's beyond-abscissa half — the hashed can-fail died at d = 6, 7 (I had hashed nothing there and named the comparability mechanism); C7 confirmed with T2621's family clause corrected to the instrument; C8 = §856; C9 pre-scored blind (0d1e9599): two ln 2 sources, one coefficient (2026-09-06 (Sun) 15:48 EDT)
+- Full text: RUNNING_NOTES §862.
+
+— Cal
