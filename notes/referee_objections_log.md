@@ -19189,3 +19189,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §863; instrument cal_E5_* + OUTPUT.
 
 — Cal
+
+### #164 — Paper 1 v0.3 (n = 25): PASS with one fix — the heading "falling fraction" over a series that rises at n = 25 (2.4 → 2.6 %); all n = 25 arithmetic, scoping, and the withheld gate/direct split verified (2026-09-06 (Sun) 15:58 EDT)
+- Full text: RUNNING_NOTES §864.
+
+— Cal
