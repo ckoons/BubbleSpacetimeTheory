@@ -5053,6 +5053,19 @@
    "plain": null,
    "color": "#CDDC39",
    "proofs": []
+  },
+  {
+   "id": "T2622",
+   "name": "Kernel-Swap Theorem for the spherical Eisenstein series on Q-rank-2 orthogonal quotients of Type IV (Lyra L11; Cal §869's five amendments in the statement; calibration #28 as hypothesis): maximal-order trace-zero kernel at {p, ∞} ⟹ Steinberg surgery at p, kernel comb 2π/ln p; ψ(1/2) unchanged; established p = 2, 3; predicted all p; <1,3,3> counterexample",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "derived",
+   "plain": "Change the small definite part of the lattice so that it is \"bad\" at the prime 3 instead of the prime 2, keeping the two big hyperbolic pieces and the rank the same. The evenly spaced comb of resonances moves: its spacing goes from 2π/ln 2 to 2π/ln 3. So the 2 in that comb was the prime 2, not the rank 2. It only works when the small part is built by the maximal-order rule; a different lattice that is also bad only at 3 gives a comb with half the spacing.",
+   "color": "#CDDC39",
+   "proofs": [
+    "direct p-adic intertwining integral (5710; Cal §855)",
+    "split-kernel GK controls"
+   ]
   }
  ],
  "edges": [
@@ -7930,6 +7943,16 @@
   },
   {
    "source": "T2621",
+   "target": "T1448",
+   "type": "uses"
+  },
+  {
+   "source": "T2621",
+   "target": "T2622",
+   "type": "uses"
+  },
+  {
+   "source": "T2622",
    "target": "T1448",
    "type": "uses"
   }

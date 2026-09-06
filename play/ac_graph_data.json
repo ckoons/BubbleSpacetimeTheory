@@ -25,7 +25,7 @@
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2621",
+  "max_tid": "T2622",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -35663,6 +35663,21 @@
    ],
    "date": "2026-09-06",
    "plain": "Send a wave into the arithmetic quotient of D_IV^5 and watch what leaks back out: the scattering matrix has poles exactly at the zeros of Riemann's zeta, at four shifted positions, plus one extra evenly spaced comb of poles that comes from the prime 2 (because three squares cannot be zero mod 8). So the zeros of zeta ARE the resonances of this space. This pins WHERE the zeros sit in the continuous spectrum; it says nothing about their real parts, which is RH."
+  },
+  {
+   "tid": 2622,
+   "name": "Kernel-Swap Theorem for the spherical Eisenstein series on Q-rank-2 orthogonal quotients of Type IV (Lyra L11; Cal §869's five amendments in the statement; calibration #28 as hypothesis): maximal-order trace-zero kernel at {p, ∞} ⟹ Steinberg surgery at p, kernel comb 2π/ln p; ψ(1/2) unchanged; established p = 2, 3; predicted all p; <1,3,3> counterexample",
+   "domain": "number_theory",
+   "status": "derived at p = 2, 3 (direct p-adic integrals with split controls: Cal §855, Elie 5710); predicted for all p (finite instrument); hypothesis = maximal-order trace-zero kernel (Cal §869 (1)); counterexample <1,3,3> in the row; Cal §869 (on Lyra L11's text)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "K1870 §2 + Cal §869 (Round 124 G20)",
+   "toys": [
+    5704,
+    5710
+   ],
+   "date": "2026-09-06",
+   "plain": "Change the small definite part of the lattice so that it is \"bad\" at the prime 3 instead of the prime 2, keeping the two big hyperbolic pieces and the rank the same. The evenly spaced comb of resonances moves: its spacing goes from 2π/ln 2 to 2π/ln 3. So the 2 in that comb was the prime 2, not the rank 2. It only works when the small part is built by the maximal-order rule; a different lattice that is also bad only at 3 gives a comb with half the spacing."
   }
  ],
  "edges": [
@@ -87012,6 +87027,18 @@
    "to": 1448,
    "source": "derived",
    "label": "the Eisenstein constant term T1448 listed as its honest gap (Round 122 L8/E10 tests the -(pi^2/2) ln 2)"
+  },
+  {
+   "from": 2621,
+   "to": 2622,
+   "source": "derived",
+   "label": "the p = 2 case (the corpus's own lattice)"
+  },
+  {
+   "from": 2622,
+   "to": 1448,
+   "source": "derived",
+   "label": "separates rank 2 from prime 2: T1448's Eisenstein line is matched-not-derived (G18 Mode B)"
   }
  ],
  "chains": {},
@@ -133613,12 +133640,27 @@
    ],
    "date": "2026-09-06",
    "plain": "Send a wave into the arithmetic quotient of D_IV^5 and watch what leaks back out: the scattering matrix has poles exactly at the zeros of Riemann's zeta, at four shifted positions, plus one extra evenly spaced comb of poles that comes from the prime 2 (because three squares cannot be zero mod 8). So the zeros of zeta ARE the resonances of this space. This pins WHERE the zeros sit in the continuous spectrum; it says nothing about their real parts, which is RH."
+  },
+  {
+   "tid": 2622,
+   "name": "Kernel-Swap Theorem for the spherical Eisenstein series on Q-rank-2 orthogonal quotients of Type IV (Lyra L11; Cal §869's five amendments in the statement; calibration #28 as hypothesis): maximal-order trace-zero kernel at {p, ∞} ⟹ Steinberg surgery at p, kernel comb 2π/ln p; ψ(1/2) unchanged; established p = 2, 3; predicted all p; <1,3,3> counterexample",
+   "domain": "number_theory",
+   "status": "derived at p = 2, 3 (direct p-adic integrals with split controls: Cal §855, Elie 5710); predicted for all p (finite instrument); hypothesis = maximal-order trace-zero kernel (Cal §869 (1)); counterexample <1,3,3> in the row; Cal §869 (on Lyra L11's text)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "K1870 §2 + Cal §869 (Round 124 G20)",
+   "toys": [
+    5704,
+    5710
+   ],
+   "date": "2026-09-06",
+   "plain": "Change the small definite part of the lattice so that it is \"bad\" at the prime 3 instead of the prime 2, keeping the two big hyperbolic pieces and the rank the same. The evenly spaced comb of resonances moves: its spacing goes from 2π/ln 2 to 2π/ln 3. So the 2 in that comb was the prime 2, not the rank 2. It only works when the small part is built by the maximal-order rule; a different lattice that is also bad only at 3 gives a comb with half the spacing."
   }
  ],
  "metadata": {
-  "node_count": 2398,
-  "edge_count": 10247,
-  "theorem_count": 2398,
-  "synced": "2026-09-06 both lists (Grace G15)"
+  "node_count": 2399,
+  "edge_count": 10249,
+  "theorem_count": 2399,
+  "synced": "2026-09-06 both lists (Grace G20)"
  }
 }

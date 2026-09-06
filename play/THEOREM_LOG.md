@@ -76,3 +76,4 @@
 | T2619 | The five-squares Epstein zeta (= 3840 × the cone-zeta of D_IV^5) has (b) a certi | D0 | K1863 §3 (Round 120 G6); Cal §852, 11:29 | 5695 | Grace | 2026-09-06 | exhibited |
 | T2620 | Barrier constraint row (DH with the ζ_{ℤ⁵} oracle; positivity axis) | D0 | K1864 B; Cal §853, 12:08 | 5695,5697,5699 | Grace (claimed Keeper) | 2026-09-06 | constraint |
 | T2621 | Resonance theorem: zeros of ζ = resonances of Γ\D_IV^5 (four shifts + 2-comb) | D1 | K1866 §3; Cal C4 §858; C7 §862 | 5700,5704,5705 | Lyra (named) / Grace (registered) | 2026-09-06 | derived |
+| T2622 | Kernel-swap theorem (Steinberg at p; kernel comb 2π/ln p; maximal-order hypothesis; <1,3,3> counterexample) | D1 | K1870 §2 + Cal §869; Cal §869 (on Lyra L11's text) | 5704,5710 | Lyra (named) / Grace (registered) | 2026-09-06 | derived p=2,3; predicted all p |
