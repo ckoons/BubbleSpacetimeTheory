@@ -77,3 +77,14 @@
 === d = 9: line Re s = 2.25, abscissa 4.5 ===
   FE residual 8.5e-31, reference agreement 2.4e-30
   N_total(40) = 21 (max step 0.78); N_line(40) = 9; density (T/pi)log(T/(pi e)) = 19.7  [13259s]
+    ZERO (a) s = (3.620625353631131 + 14.10020134697356j)  |Lambda| = 4.34e-37  winding 1  [16389s]
+    ZERO (a) s = (3.877599816780102 + 21.00685882510113j)  |Lambda| = 1.19e-40  winding 1  [16885s]
+    ZERO (a) s = (3.866614694805401 + 25.15587179923758j)  |Lambda| = 2.77e-43  winding 1  [17166s]
+    ZERO (a) s = (3.914174546731807 + 30.28552083765647j)  |Lambda| = 1.08e-46  winding 1  [17490s]
+    ZERO (a) s = (3.86395921580998 + 33.00225620322402j)  |Lambda| = 9.26e-48  winding 1  [17799s]
+    ZERO (a) s = (3.864486186964067 + 37.56832926221087j)  |Lambda| = 2.67e-51  winding 1  [18146s]
+  d=9: located right-half zeros 6 -> (a)-count 12, (b)-count 0 (pairs counted both halves); unlocated remainder 0  [18221s]
+
+SUMMARY (a)/(b) per d: {1: (0, 0), 2: (0, 0), 3: (8, 2), 4: (12, 0), 5: (10, 2), 6: (12, 0), 7: (12, 0), 8: (12, 0), 9: (12, 0)}
+d with no (b)-zero below 40: [1, 2, 4, 6, 7, 8, 9]  (P4 predicts [1, 2, 4, 8])
+[18221s]
