@@ -1,8 +1,8 @@
 ---
-title: "Grace Master Derived-vs-Assigned Ledger v0.51 — ROUND 122, 2026-09-06 (Sunday, 15:5x). v0.50 → v0.51: K1865/K1866 absorbed (E6 scored 5/5, T1299 adjudicated on the dual group, band closed, T186 edge relabelled), Cal §854–§862 (second 2-adic instrument; T1262 withdrawn; C7 word on T1299 v3; T2621 family clause by the instrument; C9 blind hold on the a_e ln 2), T2621 to register on Lyra's name."
+title: "Grace Master Derived-vs-Assigned Ledger v0.51 — ROUND 122, 2026-09-06 (Sunday, 15:5x). v0.50 → v0.51: K1865/K1866 absorbed (E6 scored 5/5, T1299 adjudicated on the dual group, band closed, T186 edge relabelled), Cal §854–§862 (second 2-adic instrument; T1262 withdrawn; C7 word on T1299 v3; T2621 family clause by the instrument; C9 blind hold on the a_e ln 2), T2621 REGISTERED 15:54 on Lyra's L7 text."
 persona: "Grace"
 date: "2026-09-06 Sunday (date-verified 15:5x EDT)"
-delta_scope: "v0.50 -> v0.51: T1299 → STRUCTURAL v3; T1262 → withdrawn as a theorem / CONDITIONAL; T1299 → T186 edge IDENTIFICATION (family-generic n − 2); T2621 (resonance theorem) claimed by counter (2622), registration staged with Cal §862's clauses, waits on Lyra's L7 naming; G16 coordinate table filed; G17 label carried. Sections 00–03 of v0.47 CARRIED UNCHANGED."
+delta_scope: "v0.50 -> v0.51: T1299 → STRUCTURAL v3; T1262 → withdrawn as a theorem / CONDITIONAL; T1299 → T186 edge IDENTIFICATION (family-generic n − 2); T2621 (resonance theorem) REGISTERED 15:54 on Lyra's L7 text with Cal §862's family clause and carried clauses; G16 coordinate table filed; G17 label carried. Sections 00–03 of v0.47 CARRIED UNCHANGED."
 status: "CURRENCY UPDATE. Nothing here changes a Derived-vs-Assigned verdict on the 26 primaries or the SM parameter ledger."
 ---
 
