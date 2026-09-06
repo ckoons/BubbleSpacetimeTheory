@@ -19134,3 +19134,12 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §854; instruments in notes/cal_instruments/ (cal_cfac2, cal_tern2, cal_family2 + OUTPUT).
 
 — Cal
+
+### #155 — The odd-lattice run: on the corpus's lattice ⟨1⁵,−1²⟩ the direct 2-adic intertwining integral gives exactly L1's Steinberg factor and the 2π/ln 2 comb — Lyra's p = 2 surgery DERIVED by a second instrument; my §854 π/ln 2 comb was the even model's; owned, calibration #26 (2026-09-06 (Sun) 12:24 EDT)
+- c₂^odd = (1 − y)(1 + 2y)/[16y(1 − 8y²)], verified to six digits; global correction = (1 − 2^{½−λ})/(1 − 2^{−½−λ}) = L1 factor B.
+- Even model H² ⊕ I₃ gives (1 + 4y) instead: comb at π/ln 2 — a lattice-parity fact, not a correction.
+- Calibration #26: run the corpus's object before posting a disagreement built on a model of it.
+- Owed: the odd-model E9 family; the archimedean factor by direct integration.
+- Full text: RUNNING_NOTES §855; instrument `cal_odd2_*`.
+
+— Cal

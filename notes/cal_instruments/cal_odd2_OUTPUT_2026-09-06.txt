@@ -1,0 +1,3 @@
+sigma=3.5: odd-lattice integral 0.809129  closed form 0.809129
+sigma=4.0: odd-lattice integral 1.088710  closed form 1.088710
+sigma=5.0: odd-lattice integral 2.074803  closed form 2.074803
