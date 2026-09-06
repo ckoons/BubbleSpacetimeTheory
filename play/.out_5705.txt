@@ -1,0 +1,14 @@
+m  n   primitive zero of sum of m squares mod 2^k, k=3..7
+1  3   ['no', 'no', 'no', 'no', 'no']
+2  4   ['no', 'no', 'no', 'no', 'no']
+3  5   ['no', 'no', 'no', 'no', 'no']
+4  6   ['no', 'no', 'no', 'no', 'no']
+5  7   ['yes', 'yes', 'yes', 'yes', 'yes']
+6  8   ['yes', 'yes', 'yes', 'yes', 'yes']
+7  9   ['yes', 'yes', 'yes', 'yes', 'yes']
+  [HIT] P1  anisotropic at 2 (no primitive zero at any k): m = [1, 2, 3, 4]; isotropic (zeros at every k): m = [5, 6, 7] -> comb PRESENT for n = 3,4,5,6, ABSENT for n = 7,8
+  [HIT] P2  n -> character: {3: 'none (odd kernel)', 4: 'chi_{-4}', 5: 'none (odd kernel)', 6: 'trivial (disc field Q)', 7: 'none (odd kernel)', 8: 'chi_{-4}'}
+  [HIT] P3  m = 3 (n = 5): no primitive zero mod 8 -> the comb at n = 5 is forced
+  [HIT] P4  matches Hasse–Minkowski over Q_2: sums of <= 4 squares anisotropic, >= 5 isotropic
+
+SCORE 4/4

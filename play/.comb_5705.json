@@ -1,0 +1,62 @@
+{
+ "primitive_zero_flags_k3_7": {
+  "1": [
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "2": [
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "3": [
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "4": [
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "5": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "6": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "7": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ "characters": {
+  "3": "none (odd kernel)",
+  "4": "chi_{-4}",
+  "5": "none (odd kernel)",
+  "6": "trivial (disc field Q)",
+  "7": "none (odd kernel)",
+  "8": "chi_{-4}"
+ },
+ "score": "4/4"
+}
