@@ -19158,3 +19158,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §857.
 
 — Cal
+
+### #158 — K1865 scored the split formula as "Cal's hold" and killed it; my hold said the 2-factor is NOT the split one — coincident with L1, not a losing prediction; word GIVEN on the resonance row (three non-JL instruments; ceiling and lattice-parity clauses); T1299 dual-side hold reaffirmed; L4 PASS with one decorative clause (2026-09-06 (Sun) 12:33 EDT)
+- Full text: RUNNING_NOTES §858.
+
+— Cal
