@@ -3117,7 +3117,7 @@
    "tid": 186,
    "name": "Five Integers Uniqueness",
    "domain": "bst_physics",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — edge from T1299 relabelled IDENTIFICATION (family-generic n − 2; K1866 §1, 15:48 2026-09-06): not weakened by T1299's withdrawal",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -4295,7 +4295,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -17674,7 +17674,7 @@
    "tid": 1262,
    "name": "BST-Restricted Ramanujan: Triple Pole Forcing on Q^5",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "CONDITIONAL — withdrawn as a theorem (Cal §859 cold read: three fatal defects; no constraint on any Satake parameter; T2620 refutes the mechanism; K1866 §1), 15:50 2026-09-06",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -17750,7 +17750,7 @@
    "tid": 1267,
    "name": "Zeta Synthesis",
    "domain": "number_theory",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": 1,
    "section": null,
@@ -18208,7 +18208,7 @@
    "tid": 1298,
    "name": "Ramanujan Conjecture for Sp(6): Maass-Selberg Error Analysis",
    "domain": "number_theory",
-   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
+   "status": "proved — conclusion stands (no constraint from the c-function; the \"double root\" is the long root e₁+e₂); related rows re-tiered 15:50 2026-09-06 (T1299 STRUCTURAL v3, T1262 withdrawn)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -18223,7 +18223,7 @@
    "tid": 1299,
    "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
    "domain": "number_theory",
-   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
+   "status": "STRUCTURAL v3 (15:50 2026-09-06, Cal §862 word on K1866 §1): operator shape stands — r1 = std ⊗ std_SL2 (degree 4), r2 = Sym² (degree 3); temperedness steps D–E WITHDRAWN (L5: ε-parity constraint is an identity); \"3 = N_c\" was the root multiplicity; specialised by L1, verified by E6; consumer T2621",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19623,7 +19623,7 @@
    "tid": 1396,
    "name": "Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier Kills All (RH-2)",
    "domain": "number_theory",
-   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19717,7 +19717,7 @@
    "tid": 1402,
    "name": "Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
    "domain": "qft",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -19813,7 +19813,7 @@
    "tid": 1408,
    "name": "Ramanujan at p=137: |α_i| = 1 (Tempered), |a_137| ≤ g = 7, Discrete PROVED",
    "domain": "number_theory",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19828,7 +19828,7 @@
    "tid": 1409,
    "name": "Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan Bound IS BST",
    "domain": "number_theory",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -64869,7 +64869,8 @@
   {
    "from": 1299,
    "to": 186,
-   "source": "derived"
+   "source": "identification",
+   "label": "IDENTIFICATION (family-generic): the restricted-root multiplicity m_s = n − 2 of SO(n,2) equals 3 at n = 5 (Grace 5706), which is the same selection as N_c = 3, not a derivation of either from the other; T186 is NOT weakened by T1299's withdrawal (K1866 §1, relabelled 15:48 2026-09-06 by Grace G15; was \"m_s = 3 = N_c\")"
   },
   {
    "from": 1299,
@@ -90740,7 +90741,7 @@
    "tid": 186,
    "name": "Five Integers Uniqueness",
    "domain": "bst_physics",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — edge from T1299 relabelled IDENTIFICATION (family-generic n − 2; K1866 §1, 15:48 2026-09-06): not weakened by T1299's withdrawal",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -92404,7 +92405,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -110875,7 +110876,7 @@
    "name": "BST-Restricted Ramanujan: Triple Pole Forcing on Q^5",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "CONDITIONAL — withdrawn as a theorem (Cal §859 cold read: three fatal defects; no constraint on any Satake parameter; T2620 refutes the mechanism; K1866 §1), 15:50 2026-09-06",
    "toys": [
     1204
    ],
@@ -110963,7 +110964,7 @@
    "full_name": "The Zeta Synthesis — Spectral ζ_Δ(s) Is the Master Generating Function of the Standard Model",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "toys": [
     1212,
     1309
@@ -111462,7 +111463,7 @@
    "name": "Ramanujan Conjecture for Sp(6): Maass-Selberg Error Analysis",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
+   "status": "proved — conclusion stands (no constraint from the c-function; the \"double root\" is the long root e₁+e₂); related rows re-tiered 15:50 2026-09-06 (T1299 STRUCTURAL v3, T1262 withdrawn)",
    "toys": [
     1367
    ],
@@ -111478,7 +111479,7 @@
    "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
+   "status": "STRUCTURAL v3 (15:50 2026-09-06, Cal §862 word on K1866 §1): operator shape stands — r1 = std ⊗ std_SL2 (degree 4), r2 = Sym² (degree 3); temperedness steps D–E WITHDRAWN (L5: ε-parity constraint is an identity); \"3 = N_c\" was the root multiplicity; specialised by L1, verified by E6; consumer T2621",
    "toys": [
     1257,
     1259
@@ -112998,7 +112999,7 @@
    "name": "Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier Kills All (RH-2)",
    "domain": "number_theory",
    "depth": 1,
-   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "toys": [
     1368,
     1384
@@ -113098,7 +113099,7 @@
    "name": "Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
    "domain": "qft",
    "depth": 0,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "toys": [
     1388,
     1382
@@ -113200,7 +113201,7 @@
    "name": "Ramanujan at p=137: |α_i| = 1 (Tempered), |a_137| ≤ g = 7, Discrete PROVED",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "toys": [
     1392
    ],
@@ -113216,7 +113217,7 @@
    "name": "Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan Bound IS BST",
    "domain": "number_theory",
    "depth": 0,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
+   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "toys": [
     1419
    ],
