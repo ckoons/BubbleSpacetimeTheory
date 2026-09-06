@@ -8,6 +8,7 @@
 - **Berry–Keating (1999):** posit H = xp; the semiclassical count gives the *smooth* zero-density; stuck 27 years on the fluctuations (the actual zeros). No operator derivation, no arithmetic.
 - **Connes (1998–99) + Connes–Consani (F₁):** the zeros appear as an *absorption spectrum* in the action of the idele class group on the adele class space A_Q/Q*; **RH ⟺ Weil positivity** (a certain trace/Weil distribution is ≥ 0). Has the arithmetic (the adeles *are* all the primes); **cannot prove the positivity.** The dream: an F₁-geometry analog of Weil's 1948 proof (RH for curves over finite fields).
 - **BST:** a *derived* self-adjoint operator (the commit/Dirac, T2562) whose dilation generator E = xp sits in the ladder; the cone-zeta of the Lorentz cone (Koecher/Epstein → the Sp(6) Eisenstein L = 11 copies of ζ); **the Weil positivity is DERIVED** (one-sided/holomorphic → sum of squares); a *specific* arithmetic substrate (GF(128)=2^g Reed–Solomon, D₃ 1:3:5); a physical mechanism (commitment deposits primes as free points on S¹).
+> *[2026-09-06 10:2x EDT, Grace, K1862 sweep: "the cone-zeta of the Lorentz cone (Koecher/Epstein → the Sp(6) Eisenstein L = 11 copies of ζ)" is superseded — the cone-zeta of ℤ^{1,4} is DEFINED as the Siegel-weighted chamber count and IDENTIFIED as Ibukiyama–Saito's D*₄ (positive quaternary forms by determinant), a Cohen-type series with no Euler product (K1862-A/C; Grace 5697). "Weil positivity is DERIVED" was already corrected below (Cal §527).]*
 
 ## What BST DERIVES that the others ASSUME or LACK
 | Ingredient | Berry–Keating | Connes | BST |
@@ -17,6 +18,7 @@
 | The **H² (Hardy) positivity** | — | — | **DERIVED (automatic)** — positive-frequency ⟹ sum of squares (the arrow-of-time positivity) |
 | **Weil positivity (≡ RH itself)** | — | **the wall (can't prove)** | **the wall (NOT derived)** — ★ CORRECTION (Cal §527): the derived positivity is the *automatic* H² one, NOT Weil's functional (which involves the primes and is equivalent to RH). We do NOT hold this. |
 | A specific arithmetic substrate | none | the adeles (generic, all primes) | **GF(128)/D₃ (specific)** — an edge AND a liability (below) |
+| *[2026-09-06 10:2x EDT Grace, K1862 G5 search]* | | | *no placement map exists in the corpus: no artifact maps the five Shilov coordinates (or any BST lattice) to the primes; "GF(128)/D₃" appears only as gloss (K1862 D: Λ never written down). The substrate line above is an edge only as an operator class (Hardy-space shifts, K1862 C.2), not as arithmetic.* |
 | Why Re = ½ | argument of ξ | unitary axis of the idele class group | **the descent-invariant axis** (Casey): 5D cone ∩ 3D cone ∩ time circle, fixed under the 5→4 descent |
 | A physical mechanism | none | none | commitment: primes = free min-energy points on S¹; composites push into S⁴ |
 

@@ -29,8 +29,10 @@ The kill pointed at the right sector: **the continuous/dilation spectrum**, not 
 **(4) Re=½ is derived (Elie).** The critical line is the **dilation-group unitarity axis** — the unique line where the Mellin transform is an isometry (the half-density dx/x), equivalently the self-dual/unitary axis of the SO₀(5,2) spherical principal series (F988/F694). **BST derives *why* the critical line sits where it does** — from a real geometry, which neither Connes nor Berry–Keating has. Geometrically it is the descent-invariant intersection (time circle ∩ 5D substrate cone ∩ 4D observed cone) — the axis fixed under the same 5→4 descent that makes spacetime (F1012/F1014).
 
 **(5) Davenport–Heilbronn answered (F1014).** DH (1936): a cone/Epstein zeta of a form with class number > 1 (no Euler product) has infinitely many **off-line** zeros. So our cone-zeta **defaults to violating RH** — the arithmetic is the *price of admission*, not a bonus. The answer is favorable: BST's form is **quinary** (5-variable, Q = t² − |v|² on R^{1,4}), and quinary indefinite forms are class-number-1 by Eichler (the DH counterexamples are binary). Not poisoned.
+> **2026-09-06 10:2x EDT — SUPERSEDED IN PART (Grace, executing K1862 seam ii).** [K1862-C (Keeper, 2026-09-06): class number 1 for ℤ^{1,4} is a theorem (Milnor–Husemoller) and its consequence is exactly Siegel exactness — the cone-zeta's coefficients are pure local-density products (K1862-A, verified 3×10⁻⁷; Grace 5697 second instrument, Elie 5693 blind). But a local-density product over N is a Cohen-type series, NOT an Euler product: b(mn) ≠ b(m)b(n) (K1862-C Lemma 2). **The broken step is "class-1 ⟹ Euler product"**: class-number-one removes cuspidal freedom, it does not create multiplicativity. **The Davenport–Heilbronn default STANDS for the cone-zeta**; "not poisoned" is withdrawn.]
 
 **(6) The make-or-break, located to one number (Grace).** Does the weight-**5/2** theta of BST's cone form (half-integral, forced by *odd* n_C) **Shimura-lift** to a weight-**4** Euler-product eigenform? If yes → the cone-zeta factors ζ(s)·ζ(s−3/2)·L(s) (shift 3/2 = n_C/2 − 1), with an Euler product → DH beaten. If no → DH wins. One classical computation (cusp-dim / Gram matrix); class-1 is the expected, favorable case.
+> **2026-09-06 10:2x EDT — CLOSED, NEGATIVE (definitional) (Grace, executing K1862 seam ii).** [K1862-C (Keeper, 2026-09-06): the object is DEFINED (Siegel-weighted orbit count on the Vinberg chamber, K1862-A) and IDENTIFIED as Ibukiyama–Saito's n = 4 Cohen-type series D*₄(s) — the zeta function of positive-definite quaternary forms counted by determinant (Grace toy 5697: chamber mass = 2^{ω_odd(N)} × Nipp genus mass on every squarefree N ≤ 108, class for class). The weight-5/2 theta is Eisenstein; its Shimura lift is E₄ with L-function ζ(s)ζ(s−3), so the lift is Riemann's ζ twice and NOT a new condition; the cone-zeta itself has NO Euler product. The favorable case of this advance was the error "class-1 ⟹ Euler product" (advance 5 note). Status: OPEN → CLOSED-negative.]
 
 ## 3. The two surfaces (Casey's map)
 
@@ -43,6 +45,7 @@ The kill pointed at the right sector: **the continuous/dilation spectrum**, not 
 The wall did **not** move. Two equivalent faces:
 - **Analytic:** the relevant positivity is **Weil positivity** — W(f) = Σ_ρ f̂(ρ) ≥ 0 for positive-type f — which is *equivalent to RH itself*. **Retracted (Lyra, owned):** an earlier claim that BST "derives the Weil positivity Connes assumes" was **wrong** — it conflated the content-free **spectral** positivity Tr(|g(H)|²) ≥ 0 (true for any self-adjoint operator) with the arithmetic **Weil** functional (which carries the primes via the explicit formula). Writing W(f) = Tr(f(H)|_{n≥0}) presupposes spectrum = zeros *and* their reality — i.e., presupposes RH. **Connes assumes the hard positivity; BST does not have it.**
 - **Arithmetic/identification:** even the favorable Shimura case (advance 6) lifts to a **weight-4 modular L-function, not Riemann's ζ** (Elie, retracting a "→ ζ" over-claim). Best case, it proves RH for a *modular* L-function — a genuine theorem — not for ζ. The number-field object being *literally* ζ is the open identification.
+> **2026-09-06 10:2x EDT — amended.** [K1862-C (Keeper, 2026-09-06): the lift is not a cusp form; the theta is Eisenstein and lifts to E₄ (L = ζ(s)ζ(s−3)). Advance 6 is CLOSED-negative; see the note under Section 2(6).]
 
 **The wall, named (I-tier structural parallel, *not* a theorem):** the commit drops the phase → it is not invertible → "running it backwards" is lifting the finite-field world (where RH is Weil's 1948 *theorem*) back to the integers (open). **RH is hard for the same reason you cannot un-measure a quantum state.** This names the wall in BST's own physics; it does not lower it.
 
@@ -72,11 +75,11 @@ This is what killed the conflated cone (the tube's 5 vs spacetime's 4 — F1012)
 | Item | Tier |
 |---|---|
 | Rank-2 dilation / ζ² natural object / composites = defect | **DERIVED** (divisor count) |
-| Re=½ = dilation-unitarity axis | **DERIVED** (Mellin isometry / principal-series self-dual) |
+| Re=½ = dilation-unitarity axis | **DERIVED** (Mellin isometry / principal-series self-dual) — *[2026-09-06: no T-row existed (K1862 seam i); T2616 claimed and drafted by Grace, registration on Cal's word; ceiling per K1508: the AXIS, not the points]* |
 | Cell *quantization* forced (Wallach ν) | **DERIVED** (Berezin–Toeplitz); dimensionful ℏ *not* derived |
-| DH not-poisoned (quinary class-1) | **FAVORABLE** (Eichler; specific class number = Grace's check) |
+| DH not-poisoned (quinary class-1) | ~~**FAVORABLE**~~ → **CLOSED — DH default STANDS** *[2026-09-06, K1862-C: class-1 is true and gives Siegel exactness, not an Euler product; the cone-zeta is a Cohen-type series D*₄]* |
 | Two-surface (composites bulk / primes boundary) | **DERIVED** (divisor + Hardy split) |
-| Object = ζ (Shimura → Euler product on ζ-factor) | **OPEN — make-or-break** (best case = modular L-function) |
+| Object = ζ (Shimura → Euler product on ζ-factor) | ~~**OPEN — make-or-break**~~ → **CLOSED — NEGATIVE (definitional)** *[2026-09-06, K1862-C; broken step "class-1 ⟹ Euler product"; the object is Ibukiyama–Saito's D*₄, positive quaternary forms by determinant — Grace 5697 confirms class-for-class against Nipp]* |
 | Weil positivity | **NOT derived** (= RH; the wall) |
 | Wall = phase-drop / F₁→ℤ lift = un-measure | **I-TIER naming** (illuminating, not a proof) |
 

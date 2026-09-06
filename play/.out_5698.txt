@@ -1,0 +1,9 @@
+# toy 5698 — sweep of the archimedean ratio R(n), n=2..7, N<=Nmax=30
+ n | R(n) (min..max over N, rel spread) | vol(S^n)/vol(P^n) [even n exact] | |W(B_{n+1})| | R(n)/|W(B_{n+1})| | R(n)/(vol ratio)
+ 2 | 16.000000..16.000000 (spread 0.0e+00) exact=16 | 16.000000 (chi=-1/8, vol P=0.785398) | 48 | 0.333333 | 1.000000
+ 3 | 192.000000..512.000000 (spread 1.7e+00) exact=None | odd n: not rational*pi^k (literature) | 384 | 0.500000 | nan
+ 4 | 3840.000000..3840.000000 (spread 0.0e+00) exact=3840 | 3840.000000 (chi=1/1920, vol P=0.00685389) | 3840 | 1.000000 | 1.000000
+ 5 | 47185.920000..61440.000000 (spread 3.0e-01) exact=None | odd n: not rational*pi^k (literature) | 46080 | 1.024000 | nan
+ 6 | 829440.000000..829440.000000 (spread 0.0e+00) exact=829440 | 829440.000000 (chi=-1/414720, vol P=3.98743e-05) | 645120 | 1.285714 | 1.000000
+ 7 | 11612160.000000..12578534.089069 (spread 8.3e-02) exact=None | odd n: not rational*pi^k (literature) | 10321920 | 1.125000 | nan
+elapsed 0.1s

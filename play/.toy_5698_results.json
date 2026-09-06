@@ -1,0 +1,73 @@
+{
+ "toy": 5698,
+ "Nmax": 30,
+ "table": [
+  {
+   "n": 2,
+   "R_exact": "16",
+   "Rmin": 16.0,
+   "Rmax": 16.0,
+   "spread": 0.0,
+   "WB": 48,
+   "vol_ratio": 16.000000000000004,
+   "chi": "-1/8",
+   "chamber_vectors": 67
+  },
+  {
+   "n": 3,
+   "R_exact": null,
+   "Rmin": 192.0,
+   "Rmax": 512.0,
+   "spread": 1.6666666666666667,
+   "WB": 384,
+   "vol_ratio": null,
+   "chi": null,
+   "chamber_vectors": 85
+  },
+  {
+   "n": 4,
+   "R_exact": "3840",
+   "Rmin": 3840.0,
+   "Rmax": 3840.0,
+   "spread": 0.0,
+   "WB": 3840,
+   "vol_ratio": 3840.0000000000005,
+   "chi": "1/1920",
+   "chamber_vectors": 106
+  },
+  {
+   "n": 5,
+   "R_exact": null,
+   "Rmin": 47185.92,
+   "Rmax": 61440.0,
+   "spread": 0.30208333333333337,
+   "WB": 46080,
+   "vol_ratio": null,
+   "chi": null,
+   "chamber_vectors": 131
+  },
+  {
+   "n": 6,
+   "R_exact": "829440",
+   "Rmin": 829440.0,
+   "Rmax": 829440.0,
+   "spread": 0.0,
+   "WB": 645120,
+   "vol_ratio": 829440.0000000001,
+   "chi": "-1/414720",
+   "chamber_vectors": 163
+  },
+  {
+   "n": 7,
+   "R_exact": null,
+   "Rmin": 11612160.0,
+   "Rmax": 12578534.089068826,
+   "spread": 0.08322087269455694,
+   "WB": 10321920,
+   "vol_ratio": null,
+   "chi": null,
+   "chamber_vectors": 208
+  }
+ ],
+ "seconds": 0.1
+}

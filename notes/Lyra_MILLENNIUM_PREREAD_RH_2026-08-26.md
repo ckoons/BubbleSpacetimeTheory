@@ -23,6 +23,7 @@ confirmed at source today by grep, not memory.**
   post-08-16 movement (recent Shimura hits on the board are all Hodge-lane).** And the gap has a
   gap: even the favorable case lands on a MODULAR L-function — a genuine theorem, not Riemann's ζ.
 - DH not-poisoned (quinary class-1, Eichler): FAVORABLE, pending the same number.
+  > *[2026-09-06 10:2x EDT, Grace: both items above are now CLOSED — the number was computed (K1862-A/B/C, Grace 5697, Elie 5693): class-1 true ⟹ Siegel exactness ⟹ Eisenstein ⟹ lift = ζ(s)ζ(s−3); the cone-zeta = D*₄ (quaternary forms by determinant), NO Euler product; DH default stands. Broken step: "class-1 ⟹ Euler product".]*
 - **The wall: Weil positivity = RH itself. Not derived.** My earlier claim that BST "derives the
   positivity Connes assumes" is RETRACTED in the harvest ledger (mine, owned, stays owned).
 
