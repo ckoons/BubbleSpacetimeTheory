@@ -1,0 +1,24 @@
+R(8) = 2786918400/17;  1/mass(genus I9) = 2786918400/17  equal: True
+  N= 1  r*_8=        137/1393459200  genus theta=        137/1393459200  HIT   (r9=18, rE8Z=2, orbits=2)
+  N= 2  r*_8=           11/11612160  genus theta=           11/11612160  HIT   (r9=144, rE8Z=240, orbits=2)
+  N= 3  r*_8=            23/5806080  genus theta=            23/5806080  HIT   (r9=672, rE8Z=480, orbits=2)
+  N= 4  r*_8=      17417/1393459200  genus theta=      17417/1393459200  HIT   (r9=2034, rE8Z=2162, orbits=4)
+  N= 5  r*_8=             17/645120  genus theta=             17/645120  HIT   (r9=4320, rE8Z=4320, orbits=3)
+  N= 6  r*_8=             29/645120  genus theta=             29/645120  HIT   (r9=7392, rE8Z=7200, orbits=3)
+  N= 7  r*_8=           113/1451520  genus theta=           113/1451520  HIT   (r9=12672, rE8Z=13440, orbits=4)
+  N= 8  r*_8=           319/2322432  genus theta=           319/2322432  HIT   (r9=22608, rE8Z=21840, orbits=6)
+  N= 9  r*_8=     296057/1393459200  genus theta=     296057/1393459200  HIT   (r9=34802, rE8Z=35042, orbits=6)
+  N=10  r*_8=          1577/5806080  genus theta=          1577/5806080  HIT   (r9=44640, rE8Z=43680, orbits=5)
+  N=11  r*_8=          2153/5806080  genus theta=          2153/5806080  HIT   (r9=60768, rE8Z=60960, orbits=6)
+  N=12  r*_8=           667/1161216  genus theta=           667/1161216  HIT   (r9=93984, rE8Z=95520, orbits=8)
+  N=13  r*_8=            493/645120  genus theta=            493/645120  HIT   (r9=125280, rE8Z=125280, orbits=6)
+  N=14  r*_8=          2503/2903040  genus theta=          2503/2903040  HIT   (r9=141120, rE8Z=143040, orbits=8)
+  N=15  r*_8=            179/161280  genus theta=            179/161280  HIT   (r9=182400, rE8Z=178560, orbits=8)
+  N=16  r*_8=    2229257/1393459200  genus theta=    2229257/1393459200  HIT   (r9=262386, rE8Z=261362, orbits=11)
+  N=17  r*_8=          5617/2903040  genus theta=          5617/2903040  HIT   (r9=317376, rE8Z=315840, orbits=10)
+  N=18  r*_8=          4873/2322432  genus theta=          4873/2322432  HIT   (r9=343536, rE8Z=347280, orbits=10)
+  N=19  r*_8=         14933/5806080  genus theta=         14933/5806080  HIT   (r9=421344, rE8Z=423840, orbits=10)
+  N=20  r*_8=            731/215040  genus theta=            731/215040  HIT   (r9=557280, rE8Z=557280, orbits=13)
+Q2 post-hoc N<=12: HIT;  Q1 PRE-REGISTERED 13<=N<=20: HIT
+Q3 n=4 reduces to r5/3840, N<=30: HIT
+elapsed 0.0s
