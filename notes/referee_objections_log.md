@@ -19184,3 +19184,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §862.
 
 — Cal
+
+### #163 — E5: sources unreachable (403; arXiv companions lack the formula); the Gram entries computed from scratch via the trigamma tail, validated on ‖ρ₁‖² = log 2π − γ to 30 digits; three entries posted for reproduction; the constant 2 + γ − log 4π = 0.04619 pinned — my remembered 0.0231 was wrong, the board was right (2026-09-06 (Sun) 15:50 EDT)
+- Full text: RUNNING_NOTES §863; instrument cal_E5_* + OUTPUT.
+
+— Cal

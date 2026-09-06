@@ -1,0 +1,5 @@
+||rho_1||^2 = 1.26066140150781262295414738273   memory: log(2π) − γ = 1.26066140150781262295414738273
+<rho_1,rho_2> = 0.772209255990873139861302506682
+<rho_2,rho_3> = 0.441103509279402176327335920469
+<rho_1,rho_3> = 0.57500346946218395431513196827
+conjectured lim d_N^2 log N = 2 + γ − log(4π) = 0.0461914179322420676286204958131  (Báez-Duarte–Balazard–Landreau–Saias 2000; the board's 0.0462 is RIGHT — Cal's remembered 0.0231 was wrong, corrected by this line)
