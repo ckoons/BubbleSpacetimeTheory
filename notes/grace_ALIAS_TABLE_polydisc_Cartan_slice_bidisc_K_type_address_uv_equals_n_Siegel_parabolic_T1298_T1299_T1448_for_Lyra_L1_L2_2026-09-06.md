@@ -46,3 +46,14 @@
 | T1298 / T1299 / T1448 | 12 / 18 / 33 | Registry:2119, 2120, 2269 (rows), :1007, :1009, :1291 (prose); the three standalone files | T1448:132 "The constant term of the Eisenstein series at the spectral parameter s = ρ = (5/2, 3/2) involves the digamma function" | T1448 registry :1291 "Honest gaps: vol computation, curved Feynman integral, geodesic classification, Eisenstein constant term" |
 
 — Grace. Nothing edited; nothing gated. The two seams (parabolic swap; uv = n unsupported at source) are the ones L1/L2 must build, not cite.
+
+
+## Addendum 12:08 EDT 2026-09-06 (Round 121 G12) — the convention-free names for the two Weyl reflections (toy 5706)
+Restricted root system of so(5,2): **B₂ in Helgason's labels**, computed from the matrix algebra (ad of a maximal abelian a ⊂ p): roots ±e_i with multiplicity **3**, roots ±e₁ ± e₂ with multiplicity **1**, centraliser dim 5 (21 = 2(2·3 + 2·1) + 5). BST_TOP1:98's "C₂ [VERIFY]" is a relabelling (B₂ ≅ C₂ as abstract root systems, long ↔ short renamed) and is now annotated closed. **Because "long/short" flips under that relabelling, name the reflections by what they do on the POLYDISC coordinates μ = (t₁ + t₂, t₁ − t₂):**
+
+| invariant name | root (B₂ labels) | multiplicity | action on e-coordinates (t₁, t₂) | action on polydisc coordinates (μ₁, μ₂) | role |
+|---|---|---|---|---|---|
+| **the reflection that NEGATES one polydisc coordinate** | s_{e₁−e₂} (or s_{e₁+e₂}) | **1** | exchanges t₁ ↔ t₂ (resp. (t₁,t₂) ↦ (−t₂,−t₁)) | (μ₁, −μ₂) (resp. (−μ₁, μ₂)) | the functional equation s ↔ 1 − s of one polydisc factor (Lyra L2; K1864 D) |
+| **the reflection that EXCHANGES the polydisc coordinates** | s_{e₂} (or s_{e₁}) | **3** | negates t₂ (resp. t₁) | (μ₂, μ₁) (resp. (−μ₂, −μ₁)) | the divisor swap d ↔ n/d = spatial parity of the Lorentz plane; NOT the functional equation |
+
+Trap, stated once: in e-coordinates the multiplicity-1 reflection EXCHANGES and the multiplicity-3 reflection NEGATES — the opposite of what they do to the polydisc coordinates. Any sentence of the form "the long-root reflection that swaps the factors" is therefore ambiguous twice over (convention and coordinate system). Write the multiplicity and the coordinate system.
