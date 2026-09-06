@@ -1,0 +1,38 @@
+# K1862-C — the cone-zeta IDENTIFIED: it is Ibukiyama–Saito's n = 4 Cohen-type series D₄(s), the zeta function of positive-definite quaternary forms counted by determinant; it has NO Euler product; the Davenport–Heilbronn default therefore STANDS for it; the off-line-zero sign test is inconclusive at N = 20 000
+
+**Keeper, 2026-09-06 09:12 EDT, clock-verified (an earlier draft carried 09:50, a guessed time — corrected same minute). Amends K1862-A Section 4 (no new K-number). Closes the "define the object" step and answers Casey's "how do we study the cone-zeta."**
+
+## 1. Two lemmas used (DERIVED, checked)
+**Lemma 1 (odd-p densities).** For a unimodular 5-variable form with det = 1 (both ℤ⁵ and ℤ^{1,4}) and odd p, with N = p^e u, p ∤ u:
+  α_p(N) = 1 + (u/p)·p⁻²  (e = 0);  α_p(N) = 1 − p⁻⁴  (e = 1);  α_p(N) = (1 − p⁻⁴) + p⁻³·α_p(N/p²)  (e ≥ 2).
+*Proof.* Nonsingular zeros mod p lift uniformly (p⁴ each); the singular zero x ≡ 0 contributes p⁵·N_{k−2}(N/p²). Validated against the mod-p^k convolution for p = 3, 5, 7, e ≤ 4, both forms: exact. **Consequence: ℤ⁵ and ℤ^{1,4} have identical local densities at every odd prime for every N; they differ only at p = 2.**
+
+**Lemma 2 (no Euler product).** With b(N) := Π_p α_p(N) (so r*(N) = c·N^{3/2}·b(N) by K1862-A), b is not multiplicative: b(mn)/(b(m)b(n)) for coprime pairs (3,5),(3,7),(5,7),(3,11),(5,11),(7,11) = 1.41, 0.58, 1.12, 0.42, 1.54, 0.49. So Z_cone(s) = Σ r*(N)N^{−s} is **not** an Euler product and not a single product of shifted ζ's.
+
+## 2. The identification (literature, pinned)
+Ibukiyama–Saito, *On zeta functions associated to symmetric matrices II* (Nagoya Math. J. 208, 2012, p. 269; explicit forms from Part I, Amer. J. Math. 117, 1995) define, for even n,
+
+  D*_n(s, δ) = C_n · Σ_{d_K} |d_K|^{(n−1)/2 − s} · L(n/2, χ_K) · ζ(2s)ζ(2s−n+1) / L(2s − n/2 + 1, χ_K),
+
+the sum over discriminants of quadratic fields, equivalently D_n(s,δ) = Σ_d H(n/2, 4d, δ) d^{−s} with H Cohen's generalized class numbers; and prove the zeta function of the prehomogeneous space of n×n symmetric matrices is  ζ(s, L_n, δ, ε) = b_n((−1)^{[n/4]} D_n(s,δ) A_n(s) + ε δ_n(…) B_n(s))  for even n ≥ 4, with A_n, B_n products of shifted Riemann zetas. **For odd n the zeta functions are pure sums of products of Riemann zetas; for even n they carry the D_n term, which is not a product.**
+
+Our object: r*(N) ∝ N^{3/2}·b(N) with b(N) = [L(2, χ_N)/ζ(4)] × elementary factors at p | 2N (Lemma 1: the p ∤ 2N part of Π(1 + χ_N(p)p⁻²) is L(2,χ_N)/ζ(4) up to those factors). That is the n = 4 case: n/2 = 2 = the L-value argument, (n−1)/2 = 3/2 = the N-power, weight n/2 + 1/2 = 5/2 = the cone theta's weight. **Z_cone(s) = D*₄(s, δ) up to the 2-adic factor and an overall constant.** The geometric reason is classical: a primitive vector x of norm N in a unimodular lattice has x^⊥ of determinant N, and for ℤ^{1,4} that complement is a positive-definite quaternary lattice. **The cone-zeta counts positive-definite quaternary quadratic forms by determinant** — the n = 4 prehomogeneous zeta, whose analytic theory Ibukiyama–Saito built precisely through the Mellin transform of half-integral-weight real-analytic Eisenstein series (their Section 3), i.e. through the Eisenstein object K1862-A verified.
+
+Name-collision note: Thorne's survey *Analytic properties of Shintani zeta functions* (RIMS Kôkyûroku 1715) concerns binary **cubic** forms, a different prehomogeneous space; it is cited here only for its method (Section 4), not its object.
+
+## 3. What this decides for the RH row
+- **The "arithmetic override" of F1014 does not exist.** F1014: "quinary → Eichler class-1 → Euler product → DH beaten." Class number 1 is true (theorem) and its consequence is exactly K1862-A: the coefficients are local-density products. But a local-density product over N is a Cohen-type series, **not** an Euler product (Lemma 2). Class-number-one removes cuspidal freedom; it does not create multiplicativity. The chain "class-1 ⟹ Euler product" is the error, and it is the load-bearing step.
+- **The Davenport–Heilbronn default stands for Z_cone.** A Dirichlet series with a functional equation and no Euler product is, by the DH/Epstein/Shintani experience (Thorne Section 4: Davenport–Heilbronn, Voronin, Bombieri–Hejhal), expected to have zeros off the line and outside the strip. Not yet a theorem for D*₄ specifically — the criterion for proving it is Soundararajan–Thorne Theorem 4.1: exhibit a completely multiplicative χ: ℕ → {±1} with Σ b(N)χ(N)N^{−σ} < 0 at some σ > 1 (abscissa normalized to 1; a(1) > 0 holds).
+- **Sign test, first pass (N ≤ 20 000, Euler product to p < 20 000), inconclusive.** Partial sums go negative for three of eleven χ (Liouville: −0.082 at σ = 1.1; +1 on primes ≡ 1 mod 4: −0.370 at σ = 1.1, −0.012 at σ = 1.25) but the crude tail bound b_max·N^{1−σ}/(σ−1) is 5.6 and 0.51 there. Thorne closed the same gap with the analytic continuation (ComputeL) to evaluate ξ⁻(1.3) exactly; that is the tool this needs.
+- **The lift's ζ(s)ζ(s−3) is real but beside the point.** The Shimura lift of the Eisenstein theta is E₄; its L-function is Riemann's ζ twice. But the lift reads only the square-class sub-series a(Nm²); the cone-zeta is the full series. Both K1862 D reasons (3) and this section say the same thing: the object the harvest wanted (ζ) and the object the cone hands over (D*₄) are different Dirichlet series with different zero sets.
+
+**Net for the row:** the make-or-break is DECIDED in structure: favorable on the Eisenstein half (no cusp form, no hidden L), unfavorable on the Euler-product half (none exists). The cone-zeta is a Goldfeld–Hoffstein / Cohen-type mean-value series over quadratic characters, not ζ. **The n_C = 5 cone does not beat Davenport–Heilbronn; it is a Davenport–Heilbronn-type object.** Tier: ATTEMPT, unchanged; advance 6 of the harvest moves from "OPEN, favorable" to "CLOSED, negative (definitional)". The derived content that survives: the axis (advance 4), the operator class (K1862 C.2), the cone-zeta's definition and Eisenstein property (K1862-A), Lemmas 1–2 here.
+
+## 4. Toy spec (Elie or Grace; pre-register before running)
+**T-ST (can-fail, decisive if positive):** prove Z_cone has infinitely many zeros outside its critical strip via Soundararajan–Thorne Theorem 4.1. Coefficients from Lemma 1 + the 2-adic convolution (instrument attached); evaluate Σ b(N)χ(N)N^{−σ} with the tail controlled by the functional equation of D*₄ (Ibukiyama–Saito Part II Theorem for n = 4; or Goldfeld–Hoffstein 1985) rather than by a crude bound. Search χ over sign patterns on primes ≤ 50. **Kill for the negative direction:** none — failure to find χ proves nothing (Thorne failed for ξ⁺); only a positive result is a theorem.
+**T-DH (can-fail, cheaper):** locate a zero of Z_cone off Re s = 5/4 (the strip's center after the N^{3/2} normalization shifts it; state the normalization first) numerically from the functional equation, as Thorne did for ξ^{add}. One off-line zero refutes "beats DH" outright.
+
+## 5. Sources
+Ibukiyama–Saito II: https://projecteuclid.org/journals/nagoya-mathematical-journal/volume-208/issue-none/On-zeta-functions-associated-to-symmetric-matrices-II--Functional/10.1215/00277630-1815258.pdf (p. 269 for D*_n) · Ibukiyama–Saito I: https://www.jstor.org/stable/2374973 · Thorne survey (cubic forms; method only): https://thornef.github.io/shintani-proceedings-final.pdf · Goldfeld–Hoffstein, Eisenstein series of ½-integral weight and the mean value of real Dirichlet L-series, Invent. Math. 80 (1985): https://link.springer.com/article/10.1007/BF01388603
+
+Retained instrument: `notes/Keeper_K1862-C_cone_zeta_coefficients_and_ST_sign_test_instrument_2026-09-06.py` (41 s).

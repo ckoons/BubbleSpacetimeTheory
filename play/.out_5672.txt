@@ -1,0 +1,2 @@
+population: 1171 two-word locks at n = 25
+   200/1171: {'direct': 200}  [94s]
