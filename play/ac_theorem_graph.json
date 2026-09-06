@@ -4943,6 +4943,70 @@
     "Weyl law",
     "Cartan–Helgason"
    ]
+  },
+  {
+   "id": "T2616",
+   "name": "Re s = 1/2 is the Mellin-unitarity axis of the dilation group (classical; the critical LINE, not the points on it; D_IV^5 consistent with, not supplying, the axis)",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "derived",
+   "plain": "A classical fact: the Mellin transform is an isometry on exactly one vertical line, Re s = 1/2, because that is where the dilation group x -> ax acts unitarily; D_IV^5 is consistent with that choice, it does not make it. The functional equation s <-> 1 - s is the reflection in that line, so zeros of any L-function with the functional equation come in pairs symmetric about it. This pins the LINE the zeros are symmetric about; it says nothing about whether they sit ON it (that is RH).",
+   "color": "#CDDC39",
+   "proofs": [
+    "Mellin–Plancherel",
+    "Nyman–Beurling"
+   ]
+  },
+  {
+   "id": "T2617",
+   "name": "Odd-p local densities of Z^5 and Z^{1,4} coincide for every N, and the rule is parity of the number of variables (holds for every even complement rank, fails for every odd one)",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "proved",
+   "plain": "For an odd number of variables, how many solutions a quadratic form has modulo a prime power does not depend on the sign of the determinant, so the Lorentzian form x0² − x1² − … − x4² and the sum of five squares count the same at every odd prime. With an even number of variables a quadratic character of the determinant enters and the two differ. Five is odd; that is the whole reason.",
+   "color": "#CDDC39",
+   "proofs": [
+    "Hensel lifting (K1862-C Lemma 1)",
+    "family sweep 5698"
+   ]
+  },
+  {
+   "id": "T2618",
+   "name": "The cone-zeta of D_IV^5 (Siegel-weighted orbit count on the Vinberg chamber of Z^{1,4}) equals the Epstein zeta of the sum of five squares divided by 3840, coefficient by coefficient, and counts positive-definite quaternary lattices by determinant",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "derived",
+   "plain": "Take the light-cone form t² − x² − y² − z² − w² on the integers, count the vectors of each norm N in one fundamental chamber, weighting each by one over the size of its symmetry group. That list of numbers is exactly the number of ways to write N as a sum of five squares, divided by 3840. So the geometry's own zeta function is the classical five-squares Epstein zeta. The same list counts four-dimensional positive lattices of determinant N (the orthogonal complements of the vectors), weighted the same way.",
+   "color": "#CDDC39",
+   "proofs": [
+    "Vinberg chamber + Siegel mass",
+    "Z_2-isometry (quaternion of norm -1)",
+    "Nipp cross-check 5697",
+    "genus theta at n = 8 (5699b)"
+   ]
+  },
+  {
+   "id": "T2619",
+   "name": "The five-squares Epstein zeta (= 3840 × the cone-zeta of D_IV^5) has (b) a certified zero BEYOND its abscissa of absolute convergence and (a) 26 zeros inside the strip off its symmetry line below T = 60: D_IV^5's own arithmetic zeta is a Davenport–Heilbronn object",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "exhibited",
+   "plain": "The geometry's own zeta function has a zero that is not on its line of symmetry — in fact one that sits beyond the edge where its series still converges absolutely, which an Euler product could never do — checked to twenty digits by two independent programs and by counting how the function winds around a small box; and inside the strip it has 26 more zeros off the line below height 60. Riemann's zeta is conjectured never to do this. So the cone's arithmetic looks like Riemann's in every way that a proof of RH usually uses, and yet fails RH: any proof that would work for both is wrong. The difference is that Riemann's coefficients multiply (the Euler product) and these do not.",
+   "color": "#CDDC39",
+   "proofs": [
+    "approximate functional equation + argument principle (5695d)",
+    "Travěnec–Šamaj 2021"
+   ]
+  },
+  {
+   "id": "T2562",
+   "name": "Kostant cubic Dirac operator on H²(D_IV⁵) — confirmed, self-adjoint, discrete, bare-vacuum kernel",
+   "domain": "particle_physics/dirac",
+   "domain_label": "Particle physics / Dirac operator",
+   "status": "derived",
+   "plain": "The BST Dirac operator is built and works: its ladder closes so(5,2), it's self-adjoint in the FK metric, its spectrum is real and discrete, and its ground state is the bare vacuum.",
+   "color": "#4A90D9",
+   "proofs": []
   }
  ],
  "edges": [
@@ -7776,6 +7840,26 @@
   {
    "source": "T2615",
    "target": "T189",
+   "type": "uses"
+  },
+  {
+   "source": "T2562",
+   "target": "T2616",
+   "type": "uses"
+  },
+  {
+   "source": "T2617",
+   "target": "T2618",
+   "type": "uses"
+  },
+  {
+   "source": "T2618",
+   "target": "T2619",
+   "type": "uses"
+  },
+  {
+   "source": "T2617",
+   "target": "T2619",
    "type": "uses"
   }
  ],

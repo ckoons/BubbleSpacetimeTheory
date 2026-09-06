@@ -70,3 +70,7 @@
 | T2595 | Far-Chain Condition — necessary-condition row (measured) | D1 | Lane F/5617/5621; Cal §823 | 5614,5617,5621 | Grace | 2026-09-02 | observation |
 | T2596 | Kempe-Pairing Theorem (KP) | D1 | Lyra 12:07; Cal §824 PASS | T1 blind | Lyra (noded Grace) | 2026-09-02 | proved |
 | T2597 | Re-route statistic — OBSERVATION | D1 | 5623; K1845 | 5623 | Grace | 2026-09-02 | observation |
+| T2616 | Re s = 1/2 is the Mellin-unitarity axis of the dilation group (classical; the cr | D0 | Round 120 G6 (harvest advance 4; K1862 seam i); Cal §852, 11:29 | — | Grace | 2026-09-06 | derived |
+| T2617 | Odd-p local densities of Z^5 and Z^{1,4} coincide for every N, and the rule is p | D0 | Round 120 G6 (K1862-C Lemma 1; K1862 seam iv); Cal §852, 11:29 | 5693,5698 | Grace | 2026-09-06 | proved |
+| T2618 | The cone-zeta of D_IV^5 (Siegel-weighted orbit count on the Vinberg chamber of Z | D0 | K1863 §2 / K1862-A / K1862-C (Round 120 G6); Cal §852, 11:29 | 5693,5695,5697,5698,5699 | Grace | 2026-09-06 | derived |
+| T2619 | The five-squares Epstein zeta (= 3840 × the cone-zeta of D_IV^5) has (b) a certi | D0 | K1863 §3 (Round 120 G6); Cal §852, 11:29 | 5695 | Grace | 2026-09-06 | exhibited |

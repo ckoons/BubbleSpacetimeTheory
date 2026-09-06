@@ -20,12 +20,12 @@
   "D1": 526,
   "D2": 42,
   "node_count": 2374,
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-06",
   "edges": 10135,
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2597",
+  "max_tid": "T2619",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -35572,6 +35572,65 @@
     "Weyl law",
     "Cartan–Helgason"
    ]
+  },
+  {
+   "tid": 2616,
+   "name": "Re s = 1/2 is the Mellin-unitarity axis of the dilation group (classical; the critical LINE, not the points on it; D_IV^5 consistent with, not supplying, the axis)",
+   "domain": "number_theory",
+   "status": "DERIVED (classical: Plancherel for the Mellin transform on L²(R+, dx/x); Nyman–Beurling–Báez-Duarte frame, K1862 C.1; ceiling per K1508: the axis, not the points; Cal's word §852, 11:29)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Round 120 G6 (harvest advance 4; K1862 seam i)",
+   "toys": [],
+   "date": "2026-09-06",
+   "plain": "A classical fact: the Mellin transform is an isometry on exactly one vertical line, Re s = 1/2, because that is where the dilation group x -> ax acts unitarily; D_IV^5 is consistent with that choice, it does not make it. The functional equation s <-> 1 - s is the reflection in that line, so zeros of any L-function with the functional equation come in pairs symmetric about it. This pins the LINE the zeros are symmetric about; it says nothing about whether they sit ON it (that is RH)."
+  },
+  {
+   "tid": 2617,
+   "name": "Odd-p local densities of Z^5 and Z^{1,4} coincide for every N, and the rule is parity of the number of variables (holds for every even complement rank, fails for every odd one)",
+   "domain": "number_theory",
+   "status": "PROVED (K1862-C Lemma 1: Hensel-lifting count, validated by convolution at p = 3, 5, 7, e ≤ 4 and p = 11, 13 to N = 300 by Elie 5693/5694; family rule swept by Grace 5698: exact constancy of the definite/indefinite ratio at n = 2, 4, 6, N-dependence at n = 3, 5, 7; Elie E1 5693 P3 confirmed; Cal §852: no word owed, Keeper's PROVED stands)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Round 120 G6 (K1862-C Lemma 1; K1862 seam iv)",
+   "toys": [
+    5693,
+    5698
+   ],
+   "date": "2026-09-06",
+   "plain": "For an odd number of variables, how many solutions a quadratic form has modulo a prime power does not depend on the sign of the determinant, so the Lorentzian form x0² − x1² − … − x4² and the sum of five squares count the same at every odd prime. With an even number of variables a quadratic character of the determinant enters and the two differ. Five is odd; that is the whole reason."
+  },
+  {
+   "tid": 2618,
+   "name": "The cone-zeta of D_IV^5 (Siegel-weighted orbit count on the Vinberg chamber of Z^{1,4}) equals the Epstein zeta of the sum of five squares divided by 3840, coefficient by coefficient, and counts positive-definite quaternary lattices by determinant",
+   "domain": "number_theory",
+   "status": "DERIVED, blind-confirmed (Elie 5693 8/8 re-run of the definition; Elie 5695a: r*(N)·3840 = r₅(N) all N ≤ 200; Grace 5697 prereg f3d5197b: r*(N) = 2^{ω_odd(N)} Σ_{L adm} 1/|O(L)| class for class vs Nipp on 67 squarefree N ≤ 108; Grace 5698: 3840 = vol(S⁴)/vol(P⁴); Grace 5699: ℤ^{1,4} ⊗ ℤ₂ ≅ ℤ⁵ ⊗ ℤ₂ exhibited; Keeper K1862-A/C, K1863 §2; Cal's word §852, 11:29)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1863 §2 / K1862-A / K1862-C (Round 120 G6)",
+   "toys": [
+    5693,
+    5695,
+    5697,
+    5698,
+    5699
+   ],
+   "date": "2026-09-06",
+   "plain": "Take the light-cone form t² − x² − y² − z² − w² on the integers, count the vectors of each norm N in one fundamental chamber, weighting each by one over the size of its symmetry group. That list of numbers is exactly the number of ways to write N as a sum of five squares, divided by 3840. So the geometry's own zeta function is the classical five-squares Epstein zeta. The same list counts four-dimensional positive lattices of determinant N (the orthogonal complements of the vectors), weighted the same way."
+  },
+  {
+   "tid": 2619,
+   "name": "The five-squares Epstein zeta (= 3840 × the cone-zeta of D_IV^5) has (b) a certified zero BEYOND its abscissa of absolute convergence and (a) 26 zeros inside the strip off its symmetry line below T = 60: D_IV^5's own arithmetic zeta is a Davenport–Heilbronn object",
+   "domain": "number_theory",
+   "status": "EXHIBITED (Elie 5695d: s = 2.50358998764350548… + 14.2799957055120199… i, |Λ| = 3.6×10⁻³⁸, winding 1, BEYOND the abscissa Re s > 5/2 [meaning (b)]; Cal §852 second instrument |Λ| = 2.2×10⁻²⁶ there; ρ = 2s vs Travěnec–Šamaj pinned; differs from the published digit string at the fifth decimal; Elie 5695b: 13 on-line + 26 in-strip off-line zeros [meaning (a)] in [−½, 3] × (0.1, 60]; Cal's word §852, 11:29)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1863 §3 (Round 120 G6)",
+   "toys": [
+    5695
+   ],
+   "date": "2026-09-06",
+   "plain": "The geometry's own zeta function has a zero that is not on its line of symmetry — in fact one that sits beyond the edge where its series still converges absolutely, which an Euler product could never do — checked to twenty digits by two independent programs and by counting how the function winds around a small box; and inside the strip it has 26 more zeros off the line below height 60. Riemann's zeta is conjectured never to do this. So the cone's arithmetic looks like Riemann's in every way that a proof of RH usually uses, and yet fails RH: any proof that would work for both is wrong. The difference is that Riemann's coefficients multiply (the Euler product) and these do not."
   }
  ],
  "edges": [
@@ -86866,6 +86925,30 @@
    "to": 189,
    "source": "derived",
    "label": "Step-1 input of the fill fraction: the 3/5 (K1847-A2; T666/T667 edges demoted to coincidence)"
+  },
+  {
+   "from": 2562,
+   "to": 2616,
+   "source": "derived",
+   "label": "CONSISTENT WITH (Cal §852): the derived dilation operator (Hardy-space shifts) acts unitarily on this axis; the axis is classical, not supplied by D_IV^5"
+  },
+  {
+   "from": 2617,
+   "to": 2618,
+   "source": "proved",
+   "label": "odd-p local densities coincide: input to the genus-theory reason for the exact identity"
+  },
+  {
+   "from": 2618,
+   "to": 2619,
+   "source": "derived",
+   "label": "the identity makes the Epstein zero a statement about the cone-zeta of D_IV^5"
+  },
+  {
+   "from": 2617,
+   "to": 2619,
+   "source": "proved",
+   "label": "K1863 §8: from T2617"
   }
  ],
  "chains": {},
@@ -133376,12 +133459,71 @@
     "Weyl law",
     "Cartan–Helgason"
    ]
+  },
+  {
+   "tid": 2616,
+   "name": "Re s = 1/2 is the Mellin-unitarity axis of the dilation group (classical; the critical LINE, not the points on it; D_IV^5 consistent with, not supplying, the axis)",
+   "domain": "number_theory",
+   "status": "DERIVED (classical: Plancherel for the Mellin transform on L²(R+, dx/x); Nyman–Beurling–Báez-Duarte frame, K1862 C.1; ceiling per K1508: the axis, not the points; Cal's word §852, 11:29)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Round 120 G6 (harvest advance 4; K1862 seam i)",
+   "toys": [],
+   "date": "2026-09-06",
+   "plain": "A classical fact: the Mellin transform is an isometry on exactly one vertical line, Re s = 1/2, because that is where the dilation group x -> ax acts unitarily; D_IV^5 is consistent with that choice, it does not make it. The functional equation s <-> 1 - s is the reflection in that line, so zeros of any L-function with the functional equation come in pairs symmetric about it. This pins the LINE the zeros are symmetric about; it says nothing about whether they sit ON it (that is RH)."
+  },
+  {
+   "tid": 2617,
+   "name": "Odd-p local densities of Z^5 and Z^{1,4} coincide for every N, and the rule is parity of the number of variables (holds for every even complement rank, fails for every odd one)",
+   "domain": "number_theory",
+   "status": "PROVED (K1862-C Lemma 1: Hensel-lifting count, validated by convolution at p = 3, 5, 7, e ≤ 4 and p = 11, 13 to N = 300 by Elie 5693/5694; family rule swept by Grace 5698: exact constancy of the definite/indefinite ratio at n = 2, 4, 6, N-dependence at n = 3, 5, 7; Elie E1 5693 P3 confirmed; Cal §852: no word owed, Keeper's PROVED stands)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "Round 120 G6 (K1862-C Lemma 1; K1862 seam iv)",
+   "toys": [
+    5693,
+    5698
+   ],
+   "date": "2026-09-06",
+   "plain": "For an odd number of variables, how many solutions a quadratic form has modulo a prime power does not depend on the sign of the determinant, so the Lorentzian form x0² − x1² − … − x4² and the sum of five squares count the same at every odd prime. With an even number of variables a quadratic character of the determinant enters and the two differ. Five is odd; that is the whole reason."
+  },
+  {
+   "tid": 2618,
+   "name": "The cone-zeta of D_IV^5 (Siegel-weighted orbit count on the Vinberg chamber of Z^{1,4}) equals the Epstein zeta of the sum of five squares divided by 3840, coefficient by coefficient, and counts positive-definite quaternary lattices by determinant",
+   "domain": "number_theory",
+   "status": "DERIVED, blind-confirmed (Elie 5693 8/8 re-run of the definition; Elie 5695a: r*(N)·3840 = r₅(N) all N ≤ 200; Grace 5697 prereg f3d5197b: r*(N) = 2^{ω_odd(N)} Σ_{L adm} 1/|O(L)| class for class vs Nipp on 67 squarefree N ≤ 108; Grace 5698: 3840 = vol(S⁴)/vol(P⁴); Grace 5699: ℤ^{1,4} ⊗ ℤ₂ ≅ ℤ⁵ ⊗ ℤ₂ exhibited; Keeper K1862-A/C, K1863 §2; Cal's word §852, 11:29)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1863 §2 / K1862-A / K1862-C (Round 120 G6)",
+   "toys": [
+    5693,
+    5695,
+    5697,
+    5698,
+    5699
+   ],
+   "date": "2026-09-06",
+   "plain": "Take the light-cone form t² − x² − y² − z² − w² on the integers, count the vectors of each norm N in one fundamental chamber, weighting each by one over the size of its symmetry group. That list of numbers is exactly the number of ways to write N as a sum of five squares, divided by 3840. So the geometry's own zeta function is the classical five-squares Epstein zeta. The same list counts four-dimensional positive lattices of determinant N (the orthogonal complements of the vectors), weighted the same way."
+  },
+  {
+   "tid": 2619,
+   "name": "The five-squares Epstein zeta (= 3840 × the cone-zeta of D_IV^5) has (b) a certified zero BEYOND its abscissa of absolute convergence and (a) 26 zeros inside the strip off its symmetry line below T = 60: D_IV^5's own arithmetic zeta is a Davenport–Heilbronn object",
+   "domain": "number_theory",
+   "status": "EXHIBITED (Elie 5695d: s = 2.50358998764350548… + 14.2799957055120199… i, |Λ| = 3.6×10⁻³⁸, winding 1, BEYOND the abscissa Re s > 5/2 [meaning (b)]; Cal §852 second instrument |Λ| = 2.2×10⁻²⁶ there; ρ = 2s vs Travěnec–Šamaj pinned; differs from the published digit string at the fifth decimal; Elie 5695b: 13 on-line + 26 in-strip off-line zeros [meaning (a)] in [−½, 3] × (0.1, 60]; Cal's word §852, 11:29)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1863 §3 (Round 120 G6)",
+   "toys": [
+    5695
+   ],
+   "date": "2026-09-06",
+   "plain": "The geometry's own zeta function has a zero that is not on its line of symmetry — in fact one that sits beyond the edge where its series still converges absolutely, which an Euler product could never do — checked to twenty digits by two independent programs and by counting how the function winds around a small box; and inside the strip it has 26 more zeros off the line below height 60. Riemann's zeta is conjectured never to do this. So the cone's arithmetic looks like Riemann's in every way that a proof of RH usually uses, and yet fails RH: any proof that would work for both is wrong. The difference is that Riemann's coefficients multiply (the Euler product) and these do not."
   }
  ],
  "metadata": {
-  "node_count": 2392,
-  "edge_count": 10238,
-  "theorem_count": 2392,
-  "synced": "2026-09-04 both lists"
+  "node_count": 2396,
+  "edge_count": 10242,
+  "theorem_count": 2396,
+  "synced": "2026-09-06 both lists (Grace G6)"
  }
 }
