@@ -1,0 +1,11 @@
+population: 1171 two-word locks at n = 25
+   200/1171: {'direct': 200}  [90s]
+   400/1171: {'direct': 400}  [175s]
+   600/1171: {'direct': 600}  [266s]
+   800/1171: {'direct': 800}  [343s]
+   1000/1171: {'direct': 1000}  [427s]
+
+RESULT (every depth-2 image scanned, no break): {'direct': 1171}
+  configurations with at least one DIRECT two-word exit: 1171/1171
+  direct images per configuration: median 78, min 15, max 154
+[497s]
