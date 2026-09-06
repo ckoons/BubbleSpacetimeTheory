@@ -6,3 +6,5 @@ P3: argument-principle count in [-1/2, 3] x (0.1, T]
   real zeros on (-1/2,3) excluding the poles: 0
   [HIT] P3  N_total(30) = 13, N_total(60) = 39; prereg's sanity formula had 2pi in the log where the Gamma(s) factor gives pi — owned; correct formula quoted
 P4: on-line sign changes of Lambda(5/4+it), t in (0.1, 60]
+  max |Im/Re| on the line 2.1e-30; N_line(30) = 7, N_line(60) = 13; on-line zeros: [3.9, 8.55, 12.6, 17.75, 22.55, 26.9, 29.75, 35.75, 40.7, 45.2, 47.9, 53.9, 58.1]  [471s]
+  26 zeros not on the line below 60 -> hunting in 1.25 < Re s < 3, 0.1 < t < 60
