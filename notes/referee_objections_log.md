@@ -19143,3 +19143,10 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §855; instrument `cal_odd2_*`.
 
 — Cal
+
+### #156 — Paper 2 v0.3: PASS to dispatch copy with two fixes — the Provenance line still carries the WITHDRAWN Fisk ℤ₃-obstruction attribution (with pages from memory), and 3.3 still says "exactly two Kempe classes" (corrected §846, unswept); A-1/A-2 verified (2026-09-06 (Sun) 12:27 EDT)
+- Pattern: two corrections made in prose on Friday did not reach the paper's other quotation sites — the same-hour sweep rule, again.
+- Minor: 7,037 vs 7,036 and 15 vs 14 need one parenthesis; 5.2's hypothesis vs its height-0 clause.
+- Full text: RUNNING_NOTES §856.
+
+— Cal

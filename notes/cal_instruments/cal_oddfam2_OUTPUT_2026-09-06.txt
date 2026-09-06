@@ -1,0 +1,18 @@
+n=3 m=1 odd lattice <1,-1>+I_1: P(val>=j)=['1', '0', '0', '0', '0']; series starts at y^-1
+   denominator D(y) = 1 - (0)y^1 - (2)y^2 - (0)y^3
+     pole y=-0.70711 -> lambda = -0.0000 -4.5324i
+     pole y=0.70711 -> lambda = +0.0000 +0.0000i
+n=4 m=2 odd lattice <1,-1>+I_2: P(val>=j)=['1', '1/3', '0', '0', '0']; series starts at y^-1
+   denominator D(y) = 1 - (2)y^1 - (0)y^2
+     pole y=0.50000 -> lambda = +0.0000 +0.0000i
+n=5 m=3 odd lattice <1,-1>+I_3: P(val>=j)=['1', '3/7', '0', '0', '0']; series starts at y^-1
+   denominator D(y) = 1 - (0)y^1 - (8)y^2 - (0)y^3
+     pole y=-0.35355 -> lambda = +0.0000 -4.5324i
+     pole y=0.35355 -> lambda = +0.0000 +0.0000i
+n=6 m=4 odd lattice <1,-1>+I_4: P(val>=j)=['1', '7/15', '1/15', '0', '0']; series starts at y^-1
+   denominator D(y) = 1 - (4)y^1 - (0)y^2
+     pole y=0.25000 -> lambda = +0.0000 +0.0000i
+n=7 m=5 odd lattice <1,-1>+I_5: P(val>=j)=['1', '15/31', '5/31', '5/62', '5/124']...; series starts at y^-1
+   no recurrence
+n=8 m=6 odd lattice <1,-1>+I_6: P(val>=j)=['1', '31/63', '5/21', '5/42', '5/84']...; series starts at y^-1
+   no recurrence
