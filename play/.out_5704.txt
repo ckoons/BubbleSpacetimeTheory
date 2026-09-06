@@ -1,0 +1,13 @@
+P1 long-root poles at -1/2 + i gamma_n
+  [HIT] P1  max |Delta| = 1.2e-29; orders [1.0, 1.0, 1.0, 1.0, 1.0]
+P2 short-root poles at -1/4 + i gamma/2 and -1 + i gamma
+  [HIT] P2  max |Delta| A 6.1e-30, B 1.2e-29; orders A [1.0, 1.0, 1.0] B [1.0, 1.0, 1.0]
+P3 the 2-comb
+  [HIT] P3  spacing 9.06472028365; max |Delta| 7.3e-30; orders k=1..5 [1.0, 1.0, 1.0, 1.0, 1.0]; order at k=0: -0.000
+P4 cancellations: lambda = i gamma_n not a pole; order at 1/2
+  orders at i*gamma_n (n<=10): [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];  order at lambda = 1/2: -0.0000;  f_S(1/2 + 1e-8) = -2.5282978
+  [HIT] P4  i*gamma_n regular; lambda=1/2 order 0 (my reading) — Lyra's 'simple pole' sentence is the thing tested
+P5 argument principle on -1.2 < Re < 0.8, 0.1 < Im < 30
+  [HIT] P5  winding -3.0000 (max step 0.11); predicted zeros 16 - poles 19 = -3
+
+SCORE 5/5   [19s]

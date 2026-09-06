@@ -1,0 +1,17 @@
+point                    order Lyra(JL)   order Cal(split)
+-1/4+i g1/2                       1.000              1.000
+-1+i g1                           1.000              1.000
+comb k=1                          1.000             -0.000
+comb k=2                          1.000             -0.000
+z=0                              -0.000             -0.000
+z=1/2                            -0.000              2.000
+z=3/2                             1.000              1.000
+z=-1/2                           -0.000             -2.000
+i g1                              0.000              0.000
+1/4+i g1/2 (zero?)               -1.000             -1.000
+
+reading: order +1 = simple pole, +2 = double pole, 0 = regular, -1 = simple zero
+Cal's split form: double pole at z = 1/2 in Re z > 0 -> KILL fires (L1 Section 5: 'a double pole anywhere in Re lambda > 0')
+Cal's split form: comb at -1/2 + 2 pi i k/ln 2 -> ABSENT
+Lyra's JL form: comb present -> True ; z = 1/2 regular (order 0): True ; positive-chamber pole at z = 3/2: (1.0, 1.0)
+|c(it)| on the axis: Lyra ['1.0', '1.0']  Cal ['1.0', '1.0']
