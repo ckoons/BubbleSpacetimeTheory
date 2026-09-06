@@ -19199,3 +19199,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §865; instrument cal_E11_* + OUTPUT.
 
 — Cal
+
+### #166 — C9 scored: per-unit held, total wrong (three ψ(½) units on the diagonal, 6 ln 2 vs 2 ln 2 — owned); ln 137 and ∫h = π⁴/2 held. C12 Paper 2 dispatch copy PASS. C10 Paper 1 dispatch copy NOT cleared: four internal toy ids in the body (B4). E11: score only a direct computation (2026-09-06 (Sun) 16:12 EDT)
+- Full text: RUNNING_NOTES §866.
+
+— Cal
