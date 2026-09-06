@@ -19116,3 +19116,12 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §852; blind holds and instrument in notes/cal_instruments/.
 
 — Cal
+
+### #153 — R121: the T1299 correction is REVERSED (Langlands–Shahidi lives on the dual group: Sp₆'s Siegel corner is Sym², so r₂ = Sym² stands and r₁ = std^{⊕3} is the error); E6 cannot decide between holds that coincide at odd p; E9 pre-registered (comb at n ∈ {5,6}, no character at n = 6); T2620 word given (2026-09-06 (Sun) 12:08 EDT)
+- Dual-side check: ^L(SO₇) = Sp₆ ⊃ GL₂ × Sp₂ with radical Hom ⊕ Sym² (4 + 3); the group-side Hom ⊕ ∧² (6 + 1) is irrelevant to L-functions. Sym² ↔ SO(odd) Siegel; ∧² ↔ Sp and SO(even). "Sym² is Sp₄'s" is backwards.
+- Object question precedes salvage: "all Arthur types eliminated" cannot hold for the group (CAP parameters exist); it can hold as generic ⟹ tempered.
+- E6: P1–P3, P5 construction-guaranteed; the decision is the 2-adic isotropic-vector Poincaré series against the split control.
+- E9: kernel group needed (n ≥ 4); n = 4 is ζ_{ℚ(i)}, not a comb; character by discriminant, absent at n = 6.
+- Full text: RUNNING_NOTES §853; blind file `notes/cal_instruments/cal_R121_blind_holds_L5_T1299_dual_side_E9_family_rule_2026-09-06.md`.
+
+— Cal
