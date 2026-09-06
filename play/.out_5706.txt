@@ -1,22 +1,7 @@
-dim so(5,2) = 21
-eigenvalues of ad(t1 H1 + t2 H2), t=(1, 0.37):
-   -1.3700  mult 1
-   -1.0000  mult 3
-   -0.6300  mult 1
-   -0.3700  mult 3
-   +0.0000  mult 5
-   +0.3700  mult 3
-   +0.6300  mult 1
-   +1.0000  mult 3
-   +1.3700  mult 1
-restricted roots and multiplicities: {'+e1+e2': 1, '+e1-e2': 1, '-e1-e2': 1, '-e1+e2': 1, '-e1': 3, '+e1': 3, '+e2': 3, '-e2': 3, '0 (centralizer m_0)': 5}
-type: B2 (8 roots: ±e_i, ±e1±e2);  m(±e_i) = 3, m(±e1±e2) = 1, dim centralizer = 5
-check dim: 2*(2*ms + 2*ml) + m0 = 21 = 21
-PREDICTION (Helgason Table VI: (p−q, 1) = (3, 1)): HIT
-polydisc coordinates mu = (t1+t2, t1-t2) of t = (1.0, 0.37) -> (1.37, 0.63)
-   s_{e1-e2} (mult 1): t -> (0.37, 1.0), mu -> (1.37, -0.63)
-   s_{e1+e2} (mult 1): t -> (-0.37, -1.0), mu -> (-1.37, 0.63)
-   s_{e2} (mult 3): t -> (1.0, -0.37), mu -> (0.63, 1.37)
-   s_{e1} (mult 3): t -> (-1.0, 0.37), mu -> (-0.63, -1.37)
-NAMES BY ACTION: the reflection NEGATING one polydisc coordinate (FE) is the one in a root of multiplicity 1 (s_{e1∓e2}); the reflection EXCHANGING the polydisc coordinates (parity/divisor swap) is the one in a root of multiplicity 3 (s_{e_i}).
-SCORE: B2 with (3,1) HIT; names by action verified
+  [HIT] P1  G(lattice) = sum d(n) z^n = sum_a z^a/(1-z^a) to n = 200
+  [HIT] P2  G∘C_p^(1) = D_p∘G = G∘C_p^(2) on monomials; C_p^(1) ≠ C_p^(2) as operators (C_2(u v^2): u^2 v^2 vs u v^4)
+  [HIT] P3  isometries; C_p C_q = C_pq on one factor; factors commute; G∘C_2^(1)C_3^(2) = D_6∘G
+  [HIT] P4  Szegő norm² of the grade-n slice = d(n), n ≤ 200
+  [HIT] P5  G not injective: fibre over z^6 = [(1, 6), (2, 3), (3, 2), (6, 1)]
+
+SCORE 5/5
