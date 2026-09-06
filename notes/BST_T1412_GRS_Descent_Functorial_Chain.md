@@ -11,6 +11,9 @@ children: ["T1342", "T1396"]
 domains: ["automorphic_forms", "langlands", "yang_mills", "spectral_geometry"]
 ---
 
+> **[CONDITIONAL pending L5 — K1864 C, 2026-09-06 12:05, Grace G11: T1299 (April) put Sym² in the second slot of the Siegel-parabolic intertwining operator; the Siegel radical of SO₇ gives ∧²W (= det for GL(2)), so L(2s, π, ∧²) not L(2s, π, Sym²) (the Sym² formula belongs to Sp₄); T1298's "double root" is the long root; the temperedness/Ramanujan argument that eliminated the six Arthur types was run with Sym². No K-audit of T1299 exists. Lyra L5 re-derives; Cal C5 holds it blind. This input's status travels to every consumer below until L5 lands.]**
+
+
 # T1412: GRS Descent Completes the Functorial Chain
 
 ## Statement

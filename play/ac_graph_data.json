@@ -3117,7 +3117,7 @@
    "tid": 186,
    "name": "Five Integers Uniqueness",
    "domain": "bst_physics",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -4295,7 +4295,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -17750,7 +17750,7 @@
    "tid": 1267,
    "name": "Zeta Synthesis",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 1,
    "conflation": 1,
    "section": null,
@@ -18208,7 +18208,7 @@
    "tid": 1298,
    "name": "Ramanujan Conjecture for Sp(6): Maass-Selberg Error Analysis",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -18223,7 +18223,7 @@
    "tid": 1299,
    "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19623,7 +19623,7 @@
    "tid": 1396,
    "name": "Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier Kills All (RH-2)",
    "domain": "number_theory",
-   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof)",
+   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19717,7 +19717,7 @@
    "tid": 1402,
    "name": "Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
    "domain": "qft",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -19813,7 +19813,7 @@
    "tid": 1408,
    "name": "Ramanujan at p=137: |α_i| = 1 (Tempered), |a_137| ≤ g = 7, Discrete PROVED",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19828,7 +19828,7 @@
    "tid": 1409,
    "name": "Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan Bound IS BST",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -90712,7 +90712,7 @@
    "tid": 186,
    "name": "Five Integers Uniqueness",
    "domain": "bst_physics",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -92376,7 +92376,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -110935,7 +110935,7 @@
    "full_name": "The Zeta Synthesis — Spectral ζ_Δ(s) Is the Master Generating Function of the Standard Model",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "toys": [
     1212,
     1309
@@ -111434,7 +111434,7 @@
    "name": "Ramanujan Conjecture for Sp(6): Maass-Selberg Error Analysis",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
    "toys": [
     1367
    ],
@@ -111450,7 +111450,7 @@
    "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
    "toys": [
     1257,
     1259
@@ -112970,7 +112970,7 @@
    "name": "Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier Kills All (RH-2)",
    "domain": "number_theory",
    "depth": 1,
-   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof)",
+   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "toys": [
     1368,
     1384
@@ -113070,7 +113070,7 @@
    "name": "Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
    "domain": "qft",
    "depth": 0,
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "toys": [
     1388,
     1382
@@ -113172,7 +113172,7 @@
    "name": "Ramanujan at p=137: |α_i| = 1 (Tempered), |a_137| ≤ g = 7, Discrete PROVED",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "toys": [
     1392
    ],
@@ -113188,7 +113188,7 @@
    "name": "Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan Bound IS BST",
    "domain": "number_theory",
    "depth": 0,
-   "status": "proved",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
    "toys": [
     1419
    ],

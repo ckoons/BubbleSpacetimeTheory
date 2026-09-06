@@ -1,3 +1,5 @@
+> **[CONDITIONAL pending L5 — K1864 C, 2026-09-06 12:05, Grace G11: T1299 (April) put Sym² in the second slot of the Siegel-parabolic intertwining operator; the Siegel radical of SO₇ gives ∧²W (= det for GL(2)), so L(2s, π, ∧²) not L(2s, π, Sym²) (the Sym² formula belongs to Sp₄); T1298's "double root" is the long root; the temperedness/Ramanujan argument that eliminated the six Arthur types was run with Sym². No K-audit of T1299 exists. Lyra L5 re-derives; Cal C5 holds it blind. This input's status travels to every consumer below until L5 lands.]**
+
 # T1342 -- RH Through the Periodic Table: Why the Geometry Points Zeros Toward Re = 1/2 (an Attempt — not a proof, per K940)
 
 > **⚠ HONESTY-REFRAMED per K940 (2026-07-26): this is a substantive ATTEMPT at the Riemann Hypothesis, NOT a referee-consensus proof — RH remains OPEN. The "five independent mechanisms forcing ζ-zeros to Re(s)=1/2" are a structural convergence argument, not a closed proof; read every "force/forced/forces" below as "the attempt argues" per K940. Not a proof claim.**
