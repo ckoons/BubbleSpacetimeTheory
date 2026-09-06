@@ -45,3 +45,6 @@ Quantizing the dilation generator on the Bergman/Hardy tower at parameter k give
 Both edges: from T2617, from K1862-A; to the RH row. Grace registers on Cal's word; nothing pushed.
 
 — Keeper. next K = 1864.
+
+
+**SOFTENED 15:51 (K1867 D2, Cal §857):** §7's 'the Z₂ fold of Š = Liouville λ' → 'the m mod 2 grading of the Hardy space (= k mod 2) = the parity of the write count = λ(n)'; there is no geometric twist on Š separating odd from even write counts. The classical equivalence is untouched.

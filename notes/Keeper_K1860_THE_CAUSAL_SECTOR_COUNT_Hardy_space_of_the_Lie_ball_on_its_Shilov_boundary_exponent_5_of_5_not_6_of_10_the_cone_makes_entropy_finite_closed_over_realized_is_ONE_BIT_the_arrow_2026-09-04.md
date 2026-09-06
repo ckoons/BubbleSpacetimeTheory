@@ -134,3 +134,6 @@ Einstein's law has four experimental parts. Against the dictionary (electron = t
 **What this adds to the dictionary:** the word (3 turns of content) and the push (137 turns of duration) are different sizes — the push is the slow step; single occupancy (K1860-J) is therefore a THROUGHPUT bound: at most one commitment per 137 turns per mediator, α·ν_C ≈ 9 × 10¹⁷ s⁻¹. **Kill:** any registered BST rate of commitment per electron that exceeds α·ν_C, or any process registered as recording a bit in fewer than N_max Compton turns.
 **Calibration:** third same-hour correction of my own today caught by reading the registered STATEMENT rather than its summary line (feedback: tier from the source). The dictionary survived all three; each time it got one more constant attached to a named object (h → the turn; α² → the two circles; α → the push rate).
 — Keeper
+
+
+**K1860-O (15:51, via K1867 §D):** Cal §857 cold read — (1) Result 4's ONE BIT is definitional (symmetrisation doubled the set); (2) K1860-B's line-bundle twist is wrong (every m ≡ k mode is a function on Š; m mod 2 is an abstract grading); (3) K1860-A/J: erasure is lossy (adjoint = left inverse), and the Wold unitary summand on H²(Š) is ZERO — 'conserved ⊕ ratchet' has an empty conserved part; the conserved fact is the spherical-isometry identity. All three owned; see K1867 §D.

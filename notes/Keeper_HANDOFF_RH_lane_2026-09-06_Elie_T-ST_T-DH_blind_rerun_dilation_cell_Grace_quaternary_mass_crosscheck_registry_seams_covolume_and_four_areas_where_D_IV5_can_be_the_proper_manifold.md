@@ -55,3 +55,6 @@
 
 ## PIN 11:09 EDT (clock) — the √2 smear factor, sourced, and RE-TIERED
 Conrad, *Partial Euler products on the critical line*, Canad. J. Math. 57 (2005) 267–297 (https://kconrad.math.uconn.edu/articles/eulerprod.pdf): the √2 is Goldfeld's (from the original BSD asymptotics at s = 1); it is governed by SECOND MOMENTS (the p^{−2s} terms — the prime squares, i.e. the F_{p²} of Casey idea 1); and **the asymptotic behaviour of partial Euler products on the line is equivalent to a condition "much deeper than RH"** (the Deep Riemann Hypothesis of Kurokawa–Kaneko et al.; cf. *Euler products at the centre and applications to Chebyshev's bias*, Math. Proc. Camb. Phil. Soc. 179 (2025) 331–349). **Correction to my 11:00 line:** "RH ⟺ partial Euler products converge for Re s > ½" is the RIGHT-of-the-line statement (true equivalence); convergence ON the line with the √2 is DRH, strictly stronger. Casey's "we lose the detail of the journey at the limit" is exact here: to the right of ½ the product converges (RH); at ½ its limit exists only under DRH and carries √2 from the second-order finite fields.
+
+
+**SOFTENED 15:51 (K1867 D2):** in Casey-idea 3 above, 'the Z₂ fold of Š = parity of the write count' reads 'the m mod 2 grading (= k mod 2) = parity of the write count'; no line-bundle twist (Cal §857 catch 2).

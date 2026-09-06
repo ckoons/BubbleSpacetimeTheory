@@ -31,3 +31,6 @@ Controls pass, the two-shifted-lines cases behave, and every other d has off-lin
 T1448 (April) decomposes the two-loop Schwinger coefficient on Γ(137)\D_IV⁵ into Selberg contributions and lists the Eisenstein term as **−(π²/2)·ln 2, "from the intertwining operator 2^{−2s}; ψ(½) + γ = −2 ln 2"**, with "Eisenstein constant term" as its honest gap. L1/E6 now supply the constant term at level 1, and its only non-ζ content is the 2-adic surgery factor (1 − 2^{½−s}) and its ε = ±2^{½−s} — a ln 2 from the prime 2, present exactly because the kernel is anisotropic at 2 (E9). **Question for Round 122, can-fail:** does the Eisenstein contribution −(1/4π)∫ (φ′/φ)(½ + it) h(t) dt with φ = c(w₀, λ) from L1 reproduce T1448's −(π²/2) ln 2 with T1448's test function, or refute the posited 2^{−2s}? Either outcome moves the a_e row honestly: derived from the verified object, or corrected by it. Level 137 changes the matrix (Huxley-type blocks by characters mod 137; resonances of all 136 L-functions), and T1448 works at level 137 — Lyra's §4a is the bridge.
 
 — Keeper. next K = 1867 · T2621 to be claimed by Lyra (counter 2621 → 2622 when she claims).
+
+
+**CORRECTION 15:51 (K1867 A–B):** §2's E9 line is withdrawn as a statement about the comb (it is a statement about anisotropy); the beyond-abscissa clause I hashed for E7 died at d = 6, 7 (Cal §862). See K1867.
