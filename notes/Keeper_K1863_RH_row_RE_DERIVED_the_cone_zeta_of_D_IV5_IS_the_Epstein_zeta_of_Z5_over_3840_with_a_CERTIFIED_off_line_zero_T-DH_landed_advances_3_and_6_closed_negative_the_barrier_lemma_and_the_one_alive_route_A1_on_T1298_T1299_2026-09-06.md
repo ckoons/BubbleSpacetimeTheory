@@ -4,7 +4,7 @@
 
 ## 1. Gate items — all PASSED, blind
 - **E1 (Elie 5693, blind re-run of K1862-A): 8/8.** Chamber, Coxeter diagram (with the affine B̃₃ cusp), stabilizer orders {2…384}, my twelve coefficients and orbit counts exact, Siegel constancy 2.6×10⁻⁷ to N = 60, I₅ control, ratio 3840. Grace's 173 vectors confirmed; my prose "158" was a miscount (K1862-A amended).
-- **G1 (Grace 5697, pre-registered f3d5197b): the cone-zeta counts positive quaternary lattices by determinant**, class for class against Nipp's tables on all 67 squarefree N ≤ 108, with the factor 2^{ω_odd(N)} stated before the run and |O(L)| reproduced on every one of 472 classes; 722 inadmissible classes never appear.
+- **G1 (Grace 5697, pre-registered f3d5197b; prereg AUDITED 11:24: P1–P4 written before the run, the 2^{ω_odd(N)} factor DERIVED there by orbit–stabilizer on triples (L, x, φ) with |Φ_L| = #{u mod N: u² ≡ c_L}, genus-mass control 4739/4739 against Nipp — PASS): the cone-zeta counts positive quaternary lattices by determinant**, class for class against Nipp's tables on all 67 squarefree N ≤ 108, with the factor 2^{ω_odd(N)} stated before the run and |O(L)| reproduced on every one of 472 classes; 722 inadmissible classes never appear.
 - **G2 (Grace 5698): 3840 = vol(S⁴)/vol(P⁴)** — Chiswell Euler-characteristic covolume, π²/1440 = Ratcliffe–Tschantz; family-swept n = 2…7 (16, 3840, 829 440 at even n); the |W(B₅)| = 2⁵·5! match is an n = 4 accident. Not a BST integer. **Bonus: Lemma 1 (odd-p densities) is a parity-of-dimension fact** — holds at even complement rank, fails at odd (T2617 carries the family rule).
 
 ## 2. The identification, sharpened (Elie 5695a) — one line
