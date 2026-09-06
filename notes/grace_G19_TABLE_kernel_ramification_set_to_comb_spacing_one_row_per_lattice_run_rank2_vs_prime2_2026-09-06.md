@@ -17,7 +17,8 @@ T1448 (April) attributed the a_e Eisenstein term's ln 2 to "ln(rank)" via a posi
 | (control) kernel swap to a form anisotropic at {2, ∞} but a different lattice | 2 | — | {2, ∞} | 2π/ln 2 | — | — | — | — | optional control |
 
 ## What closes the shared-integer note
-- If E11 measures 2π/ln 3 with ψ(½) unmoved: **the logarithm is the prime's; "ln(rank)" is retired everywhere** (G18 sweep, mode A or B as E10 selects), and the rank-2 reading survives only as the count of hyperbolic planes (it fixes HOW MANY short-root factors carry a comb, not the base of the logarithm).
-- If E11 measures 2π/ln 2 with the {3, ∞} kernel: the comb is not the kernel's ramified prime and L8's 2^{1−2λ} needs a different reading; the note stays open and T2621's "from the prime 2 alone" clause is re-read.
+- If E11 measures a comb at spacing 2π/ln 3 (Keeper's hash) OR π/ln 3 (Cal's H14, 077257f5) with ψ(½) unmoved — EITHER value has base 3: **the logarithm is the prime's; "ln(rank)" is retired everywhere** (G18 sweep, mode A or B as E10 selects), and the rank-2 reading survives only as the count of hyperbolic planes (it fixes HOW MANY short-root factors carry a comb, not the base of the logarithm).
+- The factor of 2 between the two hashes is the lattice-parity question at the swapped prime (Cal §865: hyperbolic planes over ℤ₃ ⟹ the even-model factor ⟹ all k), scored separately from the base; and H15's residual odd-k 2-adic level comb from the odd planes must be reported as a separate comb, not folded into "the" spacing.
+- If E11 measures only 2π/ln 2 with the {3, ∞} kernel: the comb is not the kernel's ramified prime and L8's 2^{1−2λ} needs a different reading; the note stays open and T2621's "from the prime 2 alone" clause is re-read.
 
 — Grace (skeleton; rows to be completed from `play/.out_E11*.txt` and Cal's C11 score)
