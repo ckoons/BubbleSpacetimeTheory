@@ -1,0 +1,17 @@
+P1 controls
+  split ternary at p=3: (y**2 - 3)*(y**2 - 4*sqrt(3)*y + 9)/(9*(y - 1)*(y + 1)*(3*y**2 - 4*sqrt(3)*y + 3))  GK: (y**2 - 3)*(sqrt(3)*y - 9)/(27*(y - 1)*(y + 1)*(sqrt(3)*y - 1))
+  x^2+y^2+3z^2 at p=5: (y**2 - 5)*(y**2 - 6*sqrt(5)*y + 25)/(25*(y - 1)*(y + 1)*(5*y**2 - 6*sqrt(5)*y + 5))  GK: (y**2 - 5)*(sqrt(5)*y - 25)/(125*(y - 1)*(y + 1)*(sqrt(5)*y - 1))
+  [HIT] P1  both controls reproduce the Gindikin–Karpelevich split factor exactly
+P2 the anisotropic kernel at p = 3
+  P_i (primitive, 3^i | q): ['1', '1/13', '0', '0', '0']
+  c_3^aniso(y) = (y**2 - 2*sqrt(3)*y - 9)/(9*(y - 1)*(y + 1))
+  correction R_3 = c^aniso/c^split = 3*(sqrt(3)*y**3 - 7*y**2 - 7*sqrt(3)*y + 9)/((y**2 - 3)*(sqrt(3)*y - 9))
+  numerator: 3*(sqrt(3)*y**3 - 7*y**2 - 7*sqrt(3)*y + 9) 
+  denominator: (y**2 - 3)*(sqrt(3)*y - 9)
+  denominator roots in y: {3*sqrt(3): 1, -sqrt(3): 1, sqrt(3): 1}
+  numerator roots in y: {3*sqrt(3): 1, -sqrt(3): 1, sqrt(3)/3: 1}
+  comb reading: [((5.196152422706632+0j), 'single root: spacing 2pi/ln3')]
+  [MISS] P2  pole comb spacing: 2pi/ln3 even k (Lyra); pole Re lambda = -log|y0|/ln3 for y0 in [5.196152, 1.732051, 1.732051]
+  [HIT] P3  large-Re lambda: log R_3 / lambda -> 0 (i.e. R_3 ~ 3^{a lambda} with a = 0)
+
+SCORE 2/3
