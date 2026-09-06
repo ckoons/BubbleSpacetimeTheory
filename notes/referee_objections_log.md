@@ -19125,3 +19125,12 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §853; blind file `notes/cal_instruments/cal_R121_blind_holds_L5_T1299_dual_side_E9_family_rule_2026-09-06.md`.
 
 — Cal
+
+### #154 — R121 C4/C5: E6 was the formula check; the from-scratch 2-adic intertwining integral (two exact positive controls) confirms the kernel removes the λ = ½ pole but gives the comb at spacing π/ln 2 (twice L1's) in factor A's variable — the odd-k members are the discriminating prediction; caveat: even-plane model vs the corpus's odd lattice, run owed; E9 by computation: no comb at n = 3, 4; L5's withdrawal right, its r₁/r₂ still group-side, T1299 row-text word WITHHELD (2026-09-06 (Sun) 12:20 EDT)
+- c₂^aniso = (1 + 2^{½−λ})(1 − 2^{−λ−3/2})/(1 − 2^{−2λ}); global correction R = (1 − 2^{1−2λ})/(1 − 2^{−1−2λ}) vs L1's (1 − 2^{½−λ})/(1 − 2^{−½−λ})·ε⁻¹; ratio = ε·(unramified-quadratic partner), modulus √2 on the axis.
+- Controls: split ternary = GK exactly (six factors); n = 3 = PGL₂ exactly.
+- E9: n = 3 identical to split; n = 4 denominator ⊂ split's (Dedekind at the ramified prime); n = 5 comb; n = 7 identical; n = 6, 8 global bookkeeping owed.
+- L5: withdrawal stands (Maass–Selberg holds for every π); r₁ = std ⊗ std_Sp₂, r₂ = Sym² on the dual side; L1's own factor B is the witness.
+- Full text: RUNNING_NOTES §854; instruments in notes/cal_instruments/ (cal_cfac2, cal_tern2, cal_family2 + OUTPUT).
+
+— Cal

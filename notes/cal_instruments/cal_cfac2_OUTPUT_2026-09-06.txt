@@ -1,0 +1,7 @@
+sigma=2.3: aniso num 2.1552024932 closed 2.1552024932 | split num 5.2894618339 closed 5.2894858862
+sigma=2.7: aniso num 1.6864739287 closed 1.6864739287 | split num 2.4581903636 closed 2.4581903636
+sigma=3.1: aniso num 1.4536639589 closed 1.4536639589 | split num 1.7569492501 closed 1.7569492501
+sigma=4.0: aniso num 1.2096774194 closed 1.2096774194 | split num 1.2701612903 closed 1.2701612903
+lambda=0.7: GK split 7.8874865867  my split integral 7.8874865867
+lambda=1.1: GK split 2.7956541284  my split integral 2.7956541284
+lambda=2.0: GK split 1.4571949079  my split integral 1.4571949079
