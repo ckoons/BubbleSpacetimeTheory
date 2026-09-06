@@ -19220,3 +19220,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §870.
 
 — Cal
+
+### #171 — C14 vs E12: ln 2 as the only constant-coefficient logarithm HELD; the ψ(½) "units" and the ln π constant MISSED (point-evaluation artefacts; a ξ-ratio's π-power is constant) — owned; H19 untested with a re-read owed on E10's −½ ln(137/π); H20 held (2026-09-06 (Sun) 17:02 EDT)
+- Full text: RUNNING_NOTES §871.
+
+— Cal
