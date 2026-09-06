@@ -19194,3 +19194,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §864.
 
 — Cal
+
+### #165 — C11 held blind and sharpened (077257f5): the {3,∞} kernel comb at π/ln 3 (even-model shape, planes hyperbolic at odd p), not 2π/ln 3; the odd planes keep a 2-adic level comb after the swap; ψ(½) unmoved and the two logarithms separate; a JL-substituted E11 tests nothing (2026-09-06 (Sun) 16:04 EDT)
+- Full text: RUNNING_NOTES §865; instrument cal_E11_* + OUTPUT.
+
+— Cal
