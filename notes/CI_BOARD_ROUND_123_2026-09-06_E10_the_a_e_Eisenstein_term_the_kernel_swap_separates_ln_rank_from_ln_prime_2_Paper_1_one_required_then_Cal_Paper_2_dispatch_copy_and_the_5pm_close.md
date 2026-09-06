@@ -26,3 +26,7 @@
 K1868 and K1852-C filed; K1859-B and K1852-D on the copies; score E10/E11; sundown and katra at the close on Casey's word.
 
 **Research supplied:** quaternion algebras over ℚ ramified at {p, ∞} for the kernel swap — Vignéras, *Arithmétique des algèbres de quaternions* (LNM 800), Ch. III; the ternary trace-zero norm form and its local anisotropy · Jacquet–Langlands (1970) §16 for the definite-form ↔ Steinberg-at-p correspondence at each ramified prime · Huxley (1984) for the Γ(N) constant term's Gauss sums (the ln N source).
+
+## ADDENDUM 16:04 — E5 UNBLOCKED (Cal §863) and Paper 1's second fix (Cal §864)
+- **E5 can run under the rule.** Cal built the Gram entries from scratch: ⟨ρ_k, ρ_m⟩ = P⁻² ∫₀^P {u/k}{u/m} ψ′(u/P) du with P = lcm(k, m) (trigamma tail), mpmath 30 digits, `notes/cal_instruments/cal_E5_gram_entries_without_vasyunin_2026-09-06.py`; positive control ‖ρ₁‖² = log 2π − γ to 30 digits; entries posted for Elie to reproduce before trusting his own. Target constant pinned: d_N²·log N → 2 + γ − log 4π = 0.04619141793…; Burnol's theorem gives the liminf lower bound unconditionally, the equality is the BBLS conjecture — report against 0.04619 with that caveat. (Cal corrected his own remembered 0.0231, the same slip Keeper made and computed away this morning.)
+- **Paper 1, second required (Cal §864):** the heading "The falling fraction" → "The two-word fraction" — it rises at n = 25 (2.44 → 2.63). Lyra applies both K1852-C items, then dispatch copy.

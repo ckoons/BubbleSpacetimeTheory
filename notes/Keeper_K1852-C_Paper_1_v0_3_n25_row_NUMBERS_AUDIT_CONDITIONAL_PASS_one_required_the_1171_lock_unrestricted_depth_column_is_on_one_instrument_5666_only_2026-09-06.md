@@ -25,3 +25,6 @@
 **CONDITIONAL PASS on the numbers.** With (a) or (b) applied: → Cal's fresh read of v0.3 (his C10) → the dispatch copy (internal ids stripped, as v0.2's was) → K1852-D on the copy → Casey's desk (Zenodo version → the Gethner note → arXiv on endorsement). Nothing in the n = 25 row changes any claim of v0.2; it extends the census by one vertex count with the same shape (no lock deeper than two; unrestricted depth ≤ 4).
 
 — Keeper
+
+## Amendment 16:04 — Cal §864 (his read of v0.3, 15:58) folded in
+Cal: PASS, one wording fix — line 256's heading "**The falling fraction, as numbers only.**" is false at n = 25: the two-word fraction runs 7.8, 2.8, 2.8, 2.4, **2.6** percent and RISES from 2.44 to 2.63 by exact counts. Rename to "The two-word fraction, as numbers only" and let the sentence state the rise. Every n = 25 number re-added and consistent; scoping to n ≤ 24 where required; B4 (internal ids → footnotes) remains for the dispatch copy. **K1852-C's required items are now two:** (1) the 1,171-lock depth column on a second instrument (or scoped); (2) the heading. Both are minutes. Then the dispatch copy → K1852-D → Casey's desk.
