@@ -1,0 +1,12 @@
+  strip (0.1, 6.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.64)  [24s]
+  strip (6.1, 12.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.68)  [50s]
+  strip (12.1, 18.1]: winding 2, on-line zeros 2, band pairs +0.0  (max step 0.69)  [80s]
+  strip (18.1, 24.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.64)  [112s]
+  strip (24.1, 30.1]: winding 2, on-line zeros 2, band pairs +0.0  (max step 0.67)  [148s]
+  strip (30.1, 36.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.64)  [186s]
+  strip (36.1, 42.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.67)  [227s]
+  strip (42.1, 48.1]: winding 2, on-line zeros 2, band pairs +0.0  (max step 0.69)  [271s]
+  strip (48.1, 54.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.69)  [319s]
+  strip (54.1, 60.1]: winding 1, on-line zeros 1, band pairs +0.0  (max step 0.66)  [370s]
+
+band 1.25 < Re s < 1.32, 0 < t <= 60: 0 zero pairs; arithmetic check 39 - 13 - 26 = 0
