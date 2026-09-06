@@ -19210,3 +19210,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §868.
 
 — Cal
+
+### #169 — T2622 word given with five amendments: the construction clause is a HYPOTHESIS (maximal-order trace-zero lattice) since ⟨1,3,3⟩ is a counterexample to the row as phrased; "hyperbolic planes" wrong at p = 2; tier DERIVED at p = 2, 3, predicted otherwise; the 2-adic level comb unresolved after the swap; ε constants are normalisation. C14 hashed 58e1e353 (2026-09-06 (Sun) 16:35 EDT)
+- Full text: RUNNING_NOTES §869.
+
+— Cal
