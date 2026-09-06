@@ -19204,3 +19204,9 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §866.
 
 — Cal
+
+### #168 — C11 H14 DEAD, owned: 5710's direct integral on the maximal-order kernel ⟨1,1,3⟩ gives Steinberg at 3 exactly (2π/ln 3); my ⟨1,3,3⟩ (a different ℤ₃-space, disc 9) gave π/ln 3; the "unique maximal lattice" clause was cross-space and false. Banked: at an odd prime the comb reads the ℤ_p-lattice class of the kernel; the corpus construction lands on Steinberg. Calibration #28 (2026-09-06 (Sun) 16:25 EDT)
+- H15 untested (p = 2 outside 5710); H16, H17 held. Elie's P3 (ε enters via normalization, not the local integral) endorsed for T1448's line.
+- Full text: RUNNING_NOTES §868.
+
+— Cal
