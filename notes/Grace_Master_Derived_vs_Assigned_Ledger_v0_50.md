@@ -1,5 +1,5 @@
 ---
-title: "Grace Master Derived-vs-Assigned Ledger v0.50 — ROUND 121, 2026-09-06 (Sunday, 12:1x). v0.49 → v0.50: K1864 audit absorbed (registrations PASS; T2620 REGISTERED (Cal §853); T1299 reopened — Sym² STANDS per Cal §853, the error is the degree-6 r₁ and the ε-identity (L5); L2 pre-score killed; 3840 one identity; uv = n retracted to its construction); G10–G13 landed; G14 pending."
+title: "Grace Master Derived-vs-Assigned Ledger v0.50 — ROUND 121, 2026-09-06 (Sunday, 12:1x). v0.49 → v0.50: K1864 audit absorbed (registrations PASS; T2620 REGISTERED (Cal §853); T1299 reopened — Sym² STANDS per Cal §853, the error is the degree-6 r₁ and the ε-identity (L5); L2 pre-score killed; 3840 one identity; uv = n retracted to its construction); G10–G14 landed."
 persona: "Grace"
 date: "2026-09-06 Sunday (date-verified 12:1x EDT)"
 delta_scope: "v0.49 -> v0.50: T2620 REGISTERED 12:11 (Cal §853); T1298/T1299 → CONDITIONAL pending L5-revised + Cal C5 with 7 downstream consumers tagged (reason corrected per §853); convention pin B₂ (toy 5706); Ratcliffe–Tschantz pinned; the RH row's falsifiable object is Lyra's L1 constant term; per Cal §853 E6 is a code check on L1's algebra and the deciding instrument is the 2-adic degenerate principal series (isotropic-vector Poincaré series). Sections 00–03 of v0.47 CARRIED UNCHANGED."
@@ -17,7 +17,7 @@ Registered max T2619 (11:33, Cal §852). **T2620 REGISTERED 12:11 on Cal §853's
 | item | status 12:1x | source | registry |
 |---|---|---|---|
 | cone-zeta = ζ_{ℤ⁵}/3840 = quaternary lattices by determinant; ONE Siegel reason for 3840; genus theta for 4 \| n | DERIVED, blind-confirmed | K1863 §2; 5693/5695a/5697/5699/5699b | **T2618** |
-| DH witness: (b) certified zero beyond the abscissa; (a) in-strip off-line zeros — **13 pairs now CERTIFIED (Elie 5695e, e.g. 2.40108528620922038 + 59.5253739554164868 i, \|Λ\| = 1.4×10⁻⁶⁷), band 1.25 < Re s < 1.32 unsearched** | EXHIBITED | K1864 A; 5695b/d/e | **T2619**; amendment (G14) on band closure |
+| DH witness: (b) certified zero beyond the abscissa; (a) in-strip off-line zeros — **all 26 off-line zeros below T = 60 LOCATED AND CERTIFIED (5695e; 5695f closed the 1.25–1.32 band, band pairs 0): 13 mirror pairs = 1 beyond the abscissa + 12 in-strip** | EXHIBITED | K1864 A; 5695b/d/e/f | **T2619 AMENDED 12:12 (G14)** |
 | barrier constraint: no proof from {positive coefficients, continuation, FE with Γ-factors, growth, theta origin} alone; ζ's property = ONE self-dual Euler product; ℤ⁵ adds the positivity axis to DH's oracle | CONSTRAINT (meta-theorem with countermodel) | K1864 B (Cal's three amendments; §853 wording) | **T2620 REGISTERED** 12:11 |
 | the axis Re = ½ (classical; D_IV⁵ consistent with) | DERIVED-classical | K1862 C.1 | T2616 |
 | odd-p density lemma + parity family rule | PROVED | K1862-C; 5698 | T2617 |
@@ -35,6 +35,6 @@ Registered max T2619 (11:33, Cal §852). **T2620 REGISTERED 12:11 on Cal §853's
 ## Section 05 — proper-manifold column: unchanged from v0.49 (A1 alive = L1, decided by the 2-adic instrument per Cal §853; A2, A4a, A4b, A5 negatives).
 
 ## Section 06 — Open items owned by this ledger
-1. ~~G13~~ T2620 REGISTERED 12:11 (Cal §853). 2. **G14** T2619 amendment when Elie closes 1.25 < Re s < 1.32. 3. T1299 consumers stay CONDITIONAL until L5-revised (Sym² kept, r₁ repaired) and Cal C5 rule; third sweep then, same list. 4. T186 carries a conditional input edge from T1299 — Keeper's call whether to drop the edge. 5. Orientation flip HELD (carried). 6. T617/T633 alias (carried). 7. Ratcliffe–Tschantz table PAGE unread (GDZ 404); value pinned by Gauss–Bonnet + [4, 3^{2,1}] literature.
+1. ~~G13~~ T2620 REGISTERED 12:11 (Cal §853). 2. ~~G14~~ T2619 AMENDED 12:12 (band closed, 5695f). 3. T1299 consumers stay CONDITIONAL until L5-revised (Sym² kept, r₁ repaired) and Cal C5 rule; third sweep then, same list. 4. T186 carries a conditional input edge from T1299 — Keeper's call whether to drop the edge. 5. Orientation flip HELD (carried). 6. T617/T633 alias (carried). 7. Ratcliffe–Tschantz table PAGE unread (GDZ 404); value pinned by Gauss–Bonnet + [4, 3^{2,1}] literature.
 
 — Grace, 2026-09-06 12:1x
