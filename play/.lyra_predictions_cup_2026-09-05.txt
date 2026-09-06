@@ -1,0 +1,42 @@
+LYRA — TEST 20: THE CUP, THE SECOND CUP, AND THE SECOND OPENING.
+Written BEFORE the run, 2026-09-05. Absolute path; shasum in this same command; launch separately.
+
+CASEY'S SEQUENCE (2026-09-05): a cup forms naturally; a second cup at its base passes only small
+objects; regurgitation makes waste accrete around the cup; one object ejects waste OPPOSITE the
+intake and lives longer; there is a thermodynamic advantage to the streamlined form; later a
+chemical chamber transforms ingested matter and allows growth or a replica.
+
+WHAT IS NEW HERE FOR THE MODEL: **WASTE**. My ladder had none. The binding early constraint is not
+energy but FOULING -- a one-aperture cup re-ingests its own output.
+
+MODEL. Feeding rate i, food value p per unit, waste cost c per unit re-ingested.
+One aperture: a fraction r(i) = i/(i+K) of expelled waste is re-ingested (fouling saturates).
+   NET_one(i) = i*p - c*i*r(i) = i*p - c*i^2/(i+K)
+Two apertures: intake and efflux are spatially separated, r = 0.
+   NET_two(i) = i*p
+
+PREDICTIONS
+ G1 QUALITATIVE DIFFERENCE, not just a factor. NET_one has an INTERIOR MAXIMUM in feeding rate
+    when c > p, and declines beyond it; NET_two is monotone increasing. **A sac-gut organism has
+    an optimal feeding rate; a tube-gut organism does not.** If NET_one is also monotone the
+    fouling story adds nothing qualitative.
+ G2 The two-aperture advantage GROWS without bound in i, so it is largest for the most active
+    feeders and negligible for sluggish ones. Predicts the innovation matters at high throughput.
+ G3 (STRUCTURAL, an interpretation not a measurement) The second aperture SPLITS ONE GENERATOR INTO
+    TWO: with one hole, in and out are the same channel and no function distinguishes them; with
+    two they are distinct. By Theorem 9 the shift group changes and a certificate appears.
+    **The through-gut is the first body axis.** I flag this as interpretation.
+ G4 GEOMETRIC SELECTION IS FREE. A size filter carries NO maintained record -- the aperture is the
+    body's own shape -- so its b-cost in Test 18's ledger is zero and it can be adopted at ANY
+    decay rate mu, including mu where Test 18 said the optimal eater is indiscriminate (mu > c ln2).
+    **This repairs R5: free geometric selection precedes costly chemical selection.**
+    Test: sweep mu; geometric selection adoptable everywhere, chemical only below the R5 threshold.
+ G5 The chemical chamber is the first form whose return is CONSTRUCTION rather than capacity, so
+    it can only be adopted after surplus exists -- last in the ladder, as Test 19 found for
+    'structure'.
+
+WHAT WOULD KILL IT
+ G1 false (NET_one monotone) -> fouling produces no qualitative difference and the two-aperture
+    advantage is merely quantitative.
+ G4 false (geometric selection also costs record) -> R5's ordering stands unrepaired and the size
+    filter is not free after all.

@@ -1,0 +1,42 @@
+LYRA — TEST 22: COMPLEXITY AS A TREE. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; launch separately.
+
+CASEY (2026-09-05): complexity is like the limbs of a tree -- branches spread in almost random
+directions trying to gain energy; complexity allows additional forms (new branches) to fill niches,
+accumulate more energy, and utilise the environment more effectively. Nature provides the
+environment and the energy sources; complexity is the means of exploitation.
+
+WHAT CHANGES. Test 21's ladder was ONE LINEAGE climbing; a shift knocked the whole thing back.
+A TREE explores in PARALLEL: a shift prunes it but does not reset it. Also "almost random
+directions" is the cheap demon again -- random branching costs nothing to steer (Test/Section 21:
+random net efficiency 0.401 against greedy 0.129).
+
+MODEL. n branches climb independently. Build costs beta^k, surplus linear in k. Environmental
+shifts at rate 1/T_env. **Deeper forms are more specialised, hence more fragile: a branch at rung k
+survives a shift with probability sigma^k.** Two regimes for energy: INDEPENDENT (each branch
+exploits its own niche) and SHARED (a fixed total budget divided among branches).
+
+PREDICTIONS
+ T1 Branching RAISES the ceiling: max rung increases with n. Point estimate: logarithmically,
+    max_rung ~ log(n)/log(1/sigma), because the tree's depth is a max over n survival draws.
+ T2 **STABILITY AND DIVERSITY ARE ADDITIVE IN THE LOG:**
+    max_rung ~ a*log10(T_env) + b*log10(n), separable, with no strong interaction term.
+    If confirmed, a tenfold more stable environment is worth a FIXED multiple more branches --
+    an exchange rate between time and diversity. I did not expect this to be clean and it is the
+    sharpest thing here.
+ T3 INDEPENDENT branches -> benefit of n is unbounded (diminishing but never negative).
+    SHARED budget -> an INTERIOR OPTIMUM in n, because surplus spread thin cannot fund deep rungs.
+    **The biological reading: independent until niches fill, then shared -- so the optimal
+    branching factor is set by niche availability.**
+ T4 THE TREE IS BUSHY AT THE BOTTOM. Because survival is sigma^k, the rung distribution should be
+    heavily skewed: many shallow branches, few deep ones. That is the shape of real phylogenies
+    and of real trees, and it is not built in -- it should fall out of sigma^k.
+ T5 CONTROL. At sigma = 1 (no fragility penalty for depth) branching should give NO ceiling
+    advantage beyond the single-lineage result, because there is then nothing for diversity to
+    hedge against. If branching still helps at sigma=1, the mechanism is not risk-hedging and my
+    reading is wrong.
+
+WHAT WOULD KILL IT
+ T2 false (strong interaction, not separable) -> no clean exchange rate between stability and
+    diversity.
+ T5 false -> the advantage is not hedging and I have mis-identified the mechanism.

@@ -1,0 +1,32 @@
+LYRA — TEST 28: BREAKING THE CONFOUND. Written BEFORE the run, 2026-09-05 (autonomous).
+Absolute path; shasum in this same command; launch separately.
+
+THE CONFOUND. Two experiments gave OPPOSITE verdicts on which quantity is invariant:
+  Test 25, MEIOSIS (independent generators) at the STATIC boundary: H_thermo EXACT at 1.0000 for
+    every n, ratio drifts 0.833 -> 0.938.
+  Test 24b/B4, DIMERS (coupled blocks) by DYNAMIC selection: ratio tight (0.791 +- 0.085, rel sd
+    0.108), H_thermo spread 1.06-5.71 (rel sd 0.499). The ratio is 4.6x tighter.
+Two things differ at once: the CRITERION (static boundary vs dynamic sustaining) and the SUBSTRATE
+(independent vs coupled generators). The experiments cannot separate them.
+
+THE SEPARATING EXPERIMENT: run the DYNAMIC criterion on the ABELIAN substrate.
+Model: n junctions, |J| active; R = n - |J|, H_thermo = |J|, H = n (exact, Theorem 8).
+Growth adds g junctions of which each is active with probability f. Refusal deactivates one active
+junction. Sustaining := R rising over the last steps AND |J| >= 1 (at least one degree of freedom).
+
+PREDICTIONS
+ S1 If SUBSTRATE is the variable: on this abelian substrate the FLOOR should be tight
+    (H_thermo concentrated near 1) and the ratio should spread. Relative sd of H_thermo < that of R/H.
+ S2 If CRITERION is the variable: the RATIO should be tight here too, as in B4, and the floor should
+    spread. Relative sd of R/H < that of H_thermo.
+ S3 MY EXPECTATION, stated so it can be wrong: **S1**, i.e. substrate is the variable. Reason:
+    Theorem 8 makes H_thermo = |J| exactly on an abelian substrate, and the refusal step removes
+    exactly one generator at a time, so |J| should hover just above its floor of 1 rather than
+    tracking n. Point estimate: mean H_thermo between 1 and 3, relative sd below 0.4.
+ S4 If NEITHER is tight (both relative sds above 0.4) then there is no invariant on this substrate
+    under this criterion, and I should report that the balance is a DIRECTION and not a number --
+    which is what both experiments already agree on.
+
+WHAT WOULD KILL WHAT
+ S3 wrong (ratio tighter here) -> the CRITERION drives it, not the substrate, and Test 25's exact
+    1.0000 was an artefact of the static definition rather than of independent generators.

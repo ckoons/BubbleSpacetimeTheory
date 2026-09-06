@@ -1,0 +1,24 @@
+LYRA — TOY 5692: REACTION NETWORKS, HONEST BASELINES. 2026-09-06, written before the run.
+Cal C-R4 (cold read 08:53): "catalysis destroys record" in Paper 3 Section 10b compared
+Michaelis-Menten against a network with E and ES PRESENT BUT INERT (two trivial conservation
+laws). My own pre-registered C4 (09-05) said a catalyst adds no generator and destroys no record.
+This toy computes R = n_species - rank(S) for every network in Section 10b with the baseline stated.
+
+PREDICTIONS (R = n_species - rank S, integer)
+ Q1 Uncatalysed S -> P, species {S,P}: R = 1.
+ Q2 Inert-enzyme artefact, species {E,S,ES,P}, reaction S -> P only: R = 3 (the "3" of the paper).
+ Q3 Michaelis-Menten E+S <-> ES -> E+P, species {E,S,ES,P}: rank 2, R = 2. Laws: E+ES, S+ES+P.
+    So against Q1 catalysis ADDS one law (the enzyme's); the substrate-pool law S+P survives as
+    S+ES+P. Catalysis destroys NO record of the substrate pool. C4 as originally predicted stands;
+    the 09-05 "retraction" was the Q2 baseline.
+ Q4 H2 combustion chain (H2+O2->2OH? no: standard chain: H2+O2->H+HO2 omitted; use the five
+    steps as in the paper's list): species {H2,O2,H,O,OH,H2O}; steps added in order
+    (1) H2 -> 2H [initiation], (2) H+O2 -> OH+O, (3) O+H2 -> OH+H, (4) OH+H2 -> H2O+H,
+    (5) H+OH -> H2O. R after each: 5, 4, 3, 2, 2 (the fifth dependent). The paper prints
+    6,5,4,3,2,2 starting from R = 6 with no reactions.
+ Q5 Eight-species pool with a chain of interconversions A1<->A2<->...<->A8 added one at a time:
+    R = 8,7,6,5,4,3,2,1 then 1 (any further interconversion dependent).
+ Q6 Catalysing a step of Q4 by adding an enzyme E and ES intermediate for step (4): rank +1,
+    species +2, so R +1: the enzyme adds its own law and removes none.
+WHAT WOULD KILL IT: any integer off in Q1-Q3 kills the restatement; Q6 false (catalysis lowers R
+against the honest baseline) reinstates the paper's sentence.

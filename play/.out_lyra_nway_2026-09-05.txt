@@ -1,0 +1,24 @@
+
+n=1 x (6x6) = 36 vertices | unit alone: 90176 states, 41 classes, R=2.3504
+    k   states  classes        R     H_th         H  coupled  certs
+    0    90176       41   2.3504  14.1101   16.4605        0  Y
+
+n=2 x (3x6) = 36 vertices | unit alone: 224 states, 2 classes, R=1.0000
+    k   states  classes        R     H_th         H  coupled  certs
+    0    50176        4   2.0000  13.6147   15.6147        0  YY
+    4    58240       54   2.9478  12.8819   15.8297     8064  YY
+    8    96868      555   5.5531  11.0107   16.5637    46692  YY
+   12   168206     1905   7.6607   9.6992   17.3599   118030  YY
+   16   293557     5514   9.5460   8.6173   18.1633   243381  YY
+   24  exceeded cap 700000
+   32  exceeded cap 700000
+
+n=3 x (3x4) = 36 vertices | unit alone: 50 states, 1 classes, R=-0.0000
+    k   states  classes        R     H_th         H  coupled  certs
+    0   125000        1  -0.0000  16.9316   16.9316        0  YYY
+    4   128440        9   0.2412  16.7295   16.9707     3440  YYY
+    8   148130       80   1.3300  15.8465   17.1765    23130  YYY
+   12   193477      391   3.2097  14.3521   17.5618    68477  YYY
+   16   315493     1835   5.9464  12.3208   18.2672   190493  YYY
+   24  exceeded cap 700000
+   32  exceeded cap 700000

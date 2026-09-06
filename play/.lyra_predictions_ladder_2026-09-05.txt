@@ -1,0 +1,42 @@
+LYRA — TEST 19: BUILD COST, MAINTENANCE, AND THE ORDER OF CONSTRUCTION.
+Written BEFORE the run, 2026-09-05. Absolute path; shasum in this same command; launch separately.
+
+CASEY (2026-09-05): there is a cost to BUILDING a form and a separate cost to MAINTAINING it, and
+the function must repay both, "perhaps requiring an energy bonus". Which matters more, selecting
+food or digestion? Organisms BEGIN with digestion -- reducing the environment into components for
+maintenance. The selection mechanism is interchangeable (receptors, fingers of fixed size, flow
+speed past an orifice). The ORDER OF CONSTRUCTION shows the chains of complexity compounding.
+
+MODEL. A form has build cost B (one-off), maintenance m (per unit time), return g (per unit time).
+Over lifetime T it pays iff  g > m + B/T.  Surplus rate after adopting a set S is
+  S_rate = sum over adopted of (g_i - m_i).
+The wait to afford the next form of build cost B' is B'/S_rate.
+STRUCTURAL ASYMMETRY, which is the whole argument and NOT a parameter choice:
+  DIGESTION PRODUCES: g scales with the environment (intake x yield).
+  SELECTION SAVES: g is bounded by the waste it prevents, i.e. by what you already ingest.
+  So g_selection <= (throughput), while g_digestion IS the throughput.
+
+PREDICTIONS
+ L1 DIGESTION IS ADOPTED FIRST, and this must survive a PARAMETER SWEEP, not just my chosen
+    numbers. I will sweep build costs, maintenance and environment richness over 3+ orders of
+    magnitude. Point estimate: digestion first in >90% of sampled parameter sets.
+    If digestion-first only holds for my hand-picked values, it is fitted and I will say so.
+ L2 THE LADDER IS DRIVEN BY SURPLUS, NOT CAPABILITY. A form that exactly breaks even (g = m) is
+    adoptable but contributes NOTHING to the next rung. With zero-surplus forms only, the ladder
+    stalls after the first rung no matter how capable the forms are.
+    **This is Casey's "energy bonus": the bonus is what drives the chain.**
+ L3 COMPOUNDING ACCELERATES. With positive surplus the wait for rung k+1 SHORTENS as k grows,
+    because S_rate is cumulative. Complexity should therefore arrive at an accelerating rate, not
+    a constant one.
+ L4 THE LADDER STALLS when build costs grow faster than accumulated surplus. There should be a
+    computable last rung, set by the ratio of build-cost growth to surplus growth -- not by any
+    limit on capability.
+ L5 SELECTION CANNOT BE FIRST. Because g_selection is bounded by throughput and throughput is zero
+    before digestion, selection's return is zero at t=0 for ANY parameter values. This one should
+    be exceptionless, not statistical. If a sweep finds selection first even once, the structural
+    asymmetry argument is wrong.
+
+WHAT WOULD KILL IT
+ L1 below ~90% -> digestion-first is parameter-dependent, i.e. fitted.
+ L5 violated even once -> the production/saving asymmetry does not force the ordering.
+ L3 false (constant or decelerating) -> "chains of complexity compounding" is not reproduced.

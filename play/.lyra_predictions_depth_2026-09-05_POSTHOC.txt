@@ -1,0 +1,20 @@
+TEST 4 (depth vs count) — PREDICTION REGISTRATION FAILED. Logged honestly, 2026-09-05.
+
+The intended pre-registration was written into a shell `&&` chain whose FIRST command was a
+`cd play` issued from inside play/.  The cd failed, the chain short-circuited, and the heredoc
+never ran.  I did not check, and launched the run anyway.  So:
+
+  D1 (R_single > R_chain > R_allpairs) was NOT pre-registered.
+  What actually happened: all-pairs (5.5843) and chain (6.7293) were measured FIRST; I then
+  predicted single > 6.7293 in conversation, and measured 8.0956.
+
+STATUS: a ONE-POINT prediction made after seeing two of three rows -- NOT a pre-registration
+of the ordering.  The ordering is a measurement, and a clean one (fully controlled: same units,
+same substrate, same 16 bonds, only topology varies), but it must not be quoted as predicted.
+
+D3 (concentration spends the most heat) was likewise not pre-registered.  Measured: 12.56 /
+11.88 / 11.48, monotone.
+
+DOCTRINE: a registration step that can silently not run is not a registration.  Verify the
+artifact exists (shasum) BEFORE launching the run, not after.  Friday: "freeze the procedure,
+not just the number."  The procedure has to actually execute.

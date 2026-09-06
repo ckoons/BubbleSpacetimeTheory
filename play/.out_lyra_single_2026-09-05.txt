@@ -1,0 +1,4 @@
+
+n=3 x (3x4) = 36 vertices  topo=single (k=16 held fixed) | unit alone: 50 states, 1 classes, R=-0.0000
+    k   states  classes        R     H_th         H  coupled  certs
+   16   783100     1311   8.0956  11.4833   19.5788   658100  YYY

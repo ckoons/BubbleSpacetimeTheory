@@ -1,0 +1,40 @@
+LYRA — TEST 13: A NON-COMBINATORIAL INSTANCE. THE STANDARD MAP.
+Written BEFORE the run, 2026-09-05. Absolute path, shasum in this same command, launch separately.
+
+WHY: every instance so far is a discrete move set on a lattice, and Theorem 9 needs an abelian
+group acting by TRANSLATIONS on the certificate. I cannot currently tell whether this framework
+describes records in general or records ON LATTICES. The Chirikov standard map is a genuine test:
+continuous phase space, a Hamiltonian twist map, and an INDEPENDENTLY KNOWN melting threshold.
+
+  x' = x + y' (mod 2pi),   y' = y + K sin(x) (mod 2pi)
+  K = 0: integrable, y exactly conserved -> the record is "which invariant curve".
+  K > K_c = 0.971635...: last KAM torus breaks, global diffusion, record destroyed.
+
+METHOD: coarse-grain the torus into an NxN grid, build the undirected transition graph from
+several sample points per cell under the map and its inverse, take connected components as classes,
+and compute R. Sweep K.
+
+PREDICTIONS
+ H1 POSITIVE CONTROL. At K=0 the map preserves y exactly, so components must be the N grid ROWS:
+    exactly N components, R = log2(N). If this fails the instrument is wrong and nothing else counts.
+ H2 R falls with K and reaches ~0 in the neighbourhood of the known K_c = 0.9716. I do NOT expect
+    the coarse-grained threshold to land exactly on K_c -- discretisation should melt it EARLY.
+    Point estimate: R collapses somewhere in 0.6 < K < 1.0.
+ H3 THE ONE THAT MATTERS. Melting here is GRADUAL, not a cliff. Reason: in the discrete instances
+    generators are added ONE AT A TIME and a single generator can take many bits; here K is a
+    continuum and tori break one after another as K rises, so record should bleed away smoothly.
+    If confirmed, the abelian/non-abelian story of Paper 2 needs a third category: CONTINUUM move
+    sets melt gradually because generators enter continuously.
+ H4 R depends on grid resolution in VALUE (R(0) = log2 N by H1) but the NORMALISED curve
+    R(K)/R(0) should be stable across N = 64, 128, 256. If it is not, the "record" is a grid
+    artifact and this instance says nothing.
+ H5 THEOREM 9 DOES NOT APPLY HERE and I expect to say so. For K>0 the map does not act on y by a
+    translation by a fixed element -- the shift K sin(x) depends on the state. So the hypothesis
+    fails and the bound is not computable. This is a REAL LIMIT on Theorem 9's scope, and finding
+    it is the point of running a non-lattice instance.
+
+WHAT WOULD KILL IT
+ H1 false -> instrument broken.
+ H4 false -> the instance is a discretisation artifact and must be withdrawn.
+ H3 false (a genuine cliff appears) -> continuum vs discrete is not the distinction, and the
+    linear/cliff explanation in Paper 2 Section 7 is incomplete in a way I have not identified.

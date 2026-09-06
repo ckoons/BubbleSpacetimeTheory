@@ -1,0 +1,30 @@
+
+==============================================================================
+STAGE 1b — 6x6 TORUS
+==============================================================================
+torus 6x6  moves=faces (36):  90176 matchings  387072 move-graph edges   41 classes  R=2.3504 bits  [1.4s]
+     class sizes (top 10): [44176, 9993, 9993, 9993, 9993, 1272, 1272, 1272, 1272, 228]
+     flux (wx,wy) separates classes EXACTLY: False   distinct flux values: 25
+
+==============================================================================
+STAGE 2 — 6x6 TWO-BOND SWEEP, moves=faces
+==============================================================================
+
+6x6 moves=faces: parent 41 classes, R=2.3504 bits; 300 two-bond prohibitions tested (sampled)
+   class count ROSE in 149 of 300 (49.7%)
+   >=1 GENUINE SPLIT in 272 of 300 (90.7%);  total splits 4138
+   child class-count distribution: {27: 28, 37: 13, 38: 24, 40: 27, 41: 59, 43: 8, 44: 12, 46: 37, 47: 15, 48: 32, 49: 18, 50: 16, 52: 9, 53: 2}
+   best: forbid (3, 33),(16, 22) -> 52 classes (from 41), 22 splits, 11 emptied, 51280 of 90176 states survive, CREATES +0.9396 bits
+torus 6x6  moves=cycles4 (36):  90176 matchings  387072 move-graph edges   41 classes  R=2.3504 bits  [1.5s]
+     class sizes (top 10): [44176, 9993, 9993, 9993, 9993, 1272, 1272, 1272, 1272, 228]
+     flux (wx,wy) separates classes EXACTLY: False   distinct flux values: 25
+
+==============================================================================
+STAGE 2 — 6x6 TWO-BOND SWEEP, moves=cycles4
+==============================================================================
+
+6x6 moves=cycles4: parent 41 classes, R=2.3504 bits; 300 two-bond prohibitions tested (sampled)
+   class count ROSE in 149 of 300 (49.7%)
+   >=1 GENUINE SPLIT in 272 of 300 (90.7%);  total splits 4138
+   child class-count distribution: {27: 28, 37: 13, 38: 24, 40: 27, 41: 59, 43: 8, 44: 12, 46: 37, 47: 15, 48: 32, 49: 18, 50: 16, 52: 9, 53: 2}
+   best: forbid (3, 33),(16, 22) -> 52 classes (from 41), 22 splits, 11 emptied, 51280 of 90176 states survive, CREATES +0.9396 bits

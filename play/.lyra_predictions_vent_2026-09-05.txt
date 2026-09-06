@@ -1,0 +1,33 @@
+LYRA — TEST 23: THE VENT EDGE. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; launch separately.
+
+CASEY (2026-09-05): at geothermal vents life starts AT THE EDGE; chemicals find saturation points
+and locate preferentially; interfaces become complex. And: "this will show energy, some
+specialisation from geometry or position, and interfaces that grow complexity."
+
+MODEL. A spatial gradient: position x in [0,1], move rate r(x) = r_hot * (r_cold/r_hot)^x, so the
+vent (x=0) is fast and the far field (x=1) is slow. An assembly occupies a SPAN of positions
+[x0, x0+w]. Its record R(T) uses only moves with rate > 1/T; rates now vary across the span.
+Scores: bit-decades, and the LIVING CONDITION from Section 21 -- R > 0 AND H_thermo > 0.
+
+PREDICTIONS
+ V1 THE HOT END IS DEAD BY MELTING: at x near 0 all moves are fast, everything is one class,
+    R = 0, H_thermo maximal. A gas.
+ V2 THE COLD END IS DEAD BY FREEZING: at x near 1 no moves are active at the observation horizon,
+    every state is its own class, R maximal, H_thermo = 0. A crystal. **R is maximal exactly where
+    the system is most dead**, which is the Section 2 caveat showing up spatially.
+ V3 **BIT-DECADES ARE MAXIMISED AT AN INTERIOR POSITION** -- the edge -- not at either extreme.
+    Point estimate: the maximum sits where the span straddles the rate that matches the
+    observation horizon.
+ V4 THE LIVING CONDITION (R>0 AND H_th>0) HOLDS ONLY ON AN INTERVAL, and that interval is the
+    EDGE. Neither extreme satisfies both. This is the sharpest form of the claim and the one I
+    most want to be true, so I will report the interval width honestly even if it is tiny.
+ V5 SPECIALISATION FROM POSITION (Casey's phrase): a WIDER span does better than a narrow one at
+    the same centre, because it straddles more of the gradient and so holds fast and slow moves at
+    once. If narrow spans do just as well, position is not doing the work and V3/V4 are about the
+    rate value alone, not about the gradient.
+
+WHAT WOULD KILL IT
+ V3 false (monotone in position) -> there is no edge advantage and the vent story does not appear.
+ V4 false (living condition holds everywhere or nowhere) -> the two-sided death is not what
+    localises life at the interface.

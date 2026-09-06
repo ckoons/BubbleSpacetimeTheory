@@ -1,0 +1,12 @@
+
+n=3 x (3x4) = 36 vertices  topo=all (k=16 held fixed) | unit alone: 50 states, 1 classes, R=-0.0000
+    k   states  classes        R     H_th         H  coupled  certs
+   16   289951     1635   5.5843  12.5612   18.1454   164951  YYY
+
+n=3 x (3x4) = 36 vertices  topo=chain (k=16 held fixed) | unit alone: 50 states, 1 classes, R=-0.0000
+    k   states  classes        R     H_th         H  coupled  certs
+   16   400342     2741   6.7293  11.8815   18.6109   275342  YYY
+
+n=3 x (3x4) = 36 vertices  topo=single (k=16 held fixed) | unit alone: 50 states, 1 classes, R=-0.0000
+    k   states  classes        R     H_th         H  coupled  certs
+   16  exceeded cap 700000

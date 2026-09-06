@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Toy 5706 — E8 (Lyra L2 §1 bidisc). Exact integer arithmetic on truncated monomial lattices."""
+"""Toy 5707 (renumbered from 5706 on K1868 ruling; Grace keeps 5706) — E8 (Lyra L2 §1 bidisc). Exact integer arithmetic on truncated monomial lattices."""
 import numpy as np, json, os, math
 HERE = os.path.dirname(os.path.abspath(__file__)); score = []
 def sc(name, ok, detail=""): score.append(ok); print(f"  [{'HIT' if ok else 'MISS'}] {name}  {detail}")

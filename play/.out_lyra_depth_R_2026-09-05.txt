@@ -1,0 +1,25 @@
+=== TEST 7: R vs DEPTH (depth = 2-sweep BFS lower bound on class diameter) ===
+torus 4x4  cycles4              272 states    9 classes  R= 0.2797  mean depth=   6.79  max depth=   7
+torus 4x4  faces                272 states   17 classes  R= 2.3159  mean depth=   7.65  max depth=   8
+torus 4x6  cycles4             3108 states    9 classes  R= 0.8240  mean depth=  11.99  max depth=  12
+torus 4x6  faces               3108 states   15 classes  R= 2.2572  mean depth=  12.82  max depth=  13
+torus 6x6  cycles4            90176 states   41 classes  R= 2.3504  mean depth=  25.45  max depth=  30
+torus 6x6  faces              90176 states   41 classes  R= 2.3504  mean depth=  25.47  max depth=  30
+
+  --- looking for equal R with different depth (D1) ---
+  4x4/faces R=2.3159 depth=7.65  vs  6x6/cycles4 R=2.3504 depth=25.45   ratio 3.33x
+  4x4/faces R=2.3159 depth=7.65  vs  6x6/faces R=2.3504 depth=25.47   ratio 3.33x
+  6x6/cycles4 R=2.3504 depth=25.45  vs  6x6/faces R=2.3504 depth=25.47   ratio 1.00x
+
+=== TEST 8: what does flux MISS on the 6x6 torus? ===
+  41 classes over 25 distinct flux values
+  flux values carrying MORE THAN ONE class: 8
+    flux (-12, -6) -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (-12, 6)  -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (-6, -12) -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (-6, 12)  -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (6, -12)  -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (6, 12)   -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (12, -6)  -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+    flux (12, 6)   -> 3 classes, sizes [1, 1, 1], depths [0, 0, 0]
+  mass in the 'extra' classes beyond one per flux value: 16 of 90176 = 0.0177%

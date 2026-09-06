@@ -1,0 +1,12 @@
+toy 5700: L1 self-check of the short-root c-function
+  pole order at l=1/2: naive 2.0000  JL -0.0000
+  t=  3.30 |c_naive|=1.000000000000 |c_JL|=1.000000000000 |c_JL no eps|=1.414213562373  c_JL(l)c_JL(-l)=1.000000000000  no-eps product=2.000000000000
+  t=  7.10 |c_naive|=1.000000000000 |c_JL|=1.000000000000 |c_JL no eps|=1.414213562373  c_JL(l)c_JL(-l)=1.000000000000  no-eps product=2.000000000000
+  t= 14.13 |c_naive|=1.000000000000 |c_JL|=1.000000000000 |c_JL no eps|=1.414213562373  c_JL(l)c_JL(-l)=1.000000000000  no-eps product=2.000000000000
+  t= 21.02 |c_naive|=1.000000000000 |c_JL|=1.000000000000 |c_JL no eps|=1.414213562373  c_JL(l)c_JL(-l)=1.000000000000  no-eps product=2.000000000000
+  t= 30.40 |c_naive|=1.000000000000 |c_JL|=1.000000000000 |c_JL no eps|=1.414213562373  c_JL(l)c_JL(-l)=1.000000000000  no-eps product=2.000000000000
+  2-comb spacing 2pi/ln2 = 9.0647202837; pole orders at k=1,2,-1: ['1.0000', '1.0000', '1.0000']; at k=0: -0.0000
+  P1 naive double / JL simple pole at 1/2: MISS
+  P2 unitarity on the axis (both) and c(l)c(-l)=1 (JL): HIT
+  P3 JL without eps has product 2, not 1: HIT
+  P4 the 2-comb: simple poles at -1/2 + 2 pi i k/ln 2: HIT

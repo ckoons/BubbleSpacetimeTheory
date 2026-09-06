@@ -1,0 +1,26 @@
+LYRA — TOY 5691: STANDARD MAP, MEASURE OF THE NON-MIXING SET, DEFINITION FROZEN. 2026-09-06, before the run.
+
+WHY: Paper 2 Section 9a quotes "measure of the non-mixing set: 1.000 at K=0.2..0.97, then
+0.980/0.653/0.389/0.172 at K=1.2/1.5/2.0/3.0" from a diagnostic run on 09-05 that was never
+retained as a script (Keeper, 09-06: the definition must be stated). No retained instrument in
+play/ runs at K=3.0. The numbers are therefore UNSUPPORTED until this toy runs; Paper 2 will quote
+THIS toy's numbers, whatever they are, and not yesterday's.
+
+DEFINITION (frozen): initial conditions (x0,y0) on a uniform G x G grid of cell centres in
+[0,2pi)^2. Iterate the Chirikov map x' = x + y', y' = y + K sin x with y UNWRAPPED (no mod 2pi
+on the lifted y). An initial condition is NON-MIXING at horizon T iff max_{t<=T} |Y_t - Y_0| < 2pi,
+i.e. its orbit never crosses one full period of y within T steps. The measure m(K,T) is the
+fraction of initial conditions that are non-mixing. This is an R(T)-type quantity: it depends on
+the horizon T, which is stated, not hidden.
+
+PREDICTIONS
+ P1 CONTROL: K = 0 gives m = 1.000 exactly at every T (y is constant).
+ P2 K < K_c = 0.971635 gives m = 1.000 at every T, up to floating error, because a rotational
+    KAM torus is an exact barrier to y-transport. Any value < 0.999 below K_c means the instrument
+    (or the float arithmetic) is broken and I stop.
+ P3 For K > K_c, m(K,T) decreases in K at fixed T and decreases in T at fixed K (a horizon
+    quantity; T -> infinity leaves only the islands).
+ P4 The decay in K at fixed T is SMOOTH: no single step accounts for more than half the drop
+    between K = 1.0 and K = 3.0 on the grid K in {1.0,1.2,1.5,2.0,3.0}.
+ P5 I do NOT predict yesterday's four values. I do not know which T produced them and will not
+    claim foresight of a number I cannot re-derive.

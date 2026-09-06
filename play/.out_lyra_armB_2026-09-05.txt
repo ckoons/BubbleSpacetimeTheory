@@ -1,0 +1,34 @@
+
+ARM B  (alternation: 1 growth steps then 1 refusal)  seed torus 4x4 moves=cycles4
+  B     step  0:    272 states     9 classes   R= 0.2797  H_th= 7.8078  H= 8.0875
+  B     step  1:    252 states    10 classes   R= 1.8310  H_th= 6.1463  H= 7.9773   dR=+1.5513 dH_th=-1.6615   eff=+0.934
+  B     step  2:    234 states    16 classes   R= 3.2267  H_th= 4.6437  H= 7.8704   dR=+1.3957 dH_th=-1.5026   eff=+0.929
+  B     step  3:    246 states    59 classes   R= 5.2639  H_th= 2.6786  H= 7.9425   dR=+2.0373 dH_th=-1.9651   eff=+1.037
+  B     step  4:    289 states   108 classes   R= 6.3066  H_th= 1.8683  H= 8.1749   dR=+1.0427 dH_th=-0.8103   eff=+1.287
+  B     step  5:    234 states   153 classes   R= 7.0926  H_th= 0.7778  H= 7.8704   dR=+0.7859 dH_th=-1.0905   eff=+0.721
+  B     step  6:    299 states   181 classes   R= 7.3417  H_th= 0.8823  H= 8.2240   dR=+0.2491 dH_th=+0.1045
+  B     step  7:    453 states   214 classes   R= 7.4827  H_th= 1.3407  H= 8.8234   dR=+0.1410 dH_th=+0.4584
+  B     step  8:    386 states   314 classes   R= 8.2194  H_th= 0.3731  H= 8.5925   dR=+0.7367 dH_th=-0.9676   eff=+0.761
+  B     step  9:    620 states   582 classes   R= 9.1535  H_th= 0.1226  H= 9.2761   dR=+0.9341 dH_th=-0.2505   eff=+3.729
+  B     step 10:    760 states   726 classes   R= 9.4804  H_th= 0.0895  H= 9.5699   dR=+0.3268 dH_th=-0.0331   eff=+9.872
+
+ARM B  (alternation: 2 growth steps then 1 refusal)  seed torus 4x4 moves=cycles4
+  B     step  0:    272 states     9 classes   R= 0.2797  H_th= 7.8078  H= 8.0875
+  B     step  1:    198 states    12 classes   R= 2.6749  H_th= 4.9544  H= 7.6294   dR=+2.3952 dH_th=-2.8533   eff=+0.839
+  B     step  2:    412 states    75 classes   R= 5.3744  H_th= 3.3121  H= 8.6865   dR=+2.6995 dH_th=-1.6424   eff=+1.644
+  B     step  3:   1176 states   327 classes   R= 7.6489  H_th= 2.5508  H=10.1997   dR=+2.2744 dH_th=-0.7612   eff=+2.988
+  B     step  4:   2037 states   917 classes   R= 9.4352  H_th= 1.5570  H=10.9922   dR=+1.7864 dH_th=-0.9938   eff=+1.798
+  B     step  5:   5579 states  2439 classes   R=10.8963  H_th= 1.5495  H=12.4458   dR=+1.4611 dH_th=-0.0075   eff=+194.729
+  B     step  6:  11834 states  6479 classes   R=12.4030  H_th= 1.1276  H=13.5307   dR=+1.5068 dH_th=-0.4219   eff=+3.571
+  B     step  7:  26544 states  16106 classes   R=13.7144  H_th= 0.9817  H=14.6961   dR=+1.3113 dH_th=-0.1459   eff=+8.988
+  B     step  8:  74413 states  51709 classes   R=15.4979  H_th= 0.6854  H=16.1833   dR=+1.7835 dH_th=-0.2963   eff=+6.019
+  B: state count exceeded cap 200000 at n=52, stopping
+
+ARM B  (alternation: 3 growth steps then 1 refusal)  seed torus 4x4 moves=cycles4
+  B     step  0:    272 states     9 classes   R= 0.2797  H_th= 7.8078  H= 8.0875
+  B     step  1:    338 states    23 classes   R= 3.1914  H_th= 5.2095  H= 8.4009   dR=+2.9118 dH_th=-2.5983   eff=+1.121
+  B     step  2:   2072 states   141 classes   R= 6.0759  H_th= 4.9409  H=11.0168   dR=+2.8845 dH_th=-0.2685   eff=+10.742
+  B     step  3:   9956 states  1457 classes   R= 9.5788  H_th= 3.7026  H=13.2814   dR=+3.5029 dH_th=-1.2383   eff=+2.829
+  B     step  4:  32759 states  10855 classes   R=12.8494  H_th= 2.1502  H=14.9996   dR=+3.2706 dH_th=-1.5523   eff=+2.107
+  B     step  5: 109650 states  32508 classes   R=14.4526  H_th= 2.2899  H=16.7425   dR=+1.6033 dH_th=+0.1397
+  B: state count exceeded cap 200000 at n=52, stopping

@@ -1,0 +1,36 @@
+LYRA — TEST 10: HOW MUCH INFORMATION DOES ONE GENERATION RETAIN?
+Predictions written BEFORE the run, 2026-09-05. Verified by shasum before launch.
+
+SETUP. Diploid, L loci, all heterozygous. Phase p = which homolog carries allele 1 at each locus,
+modulo global complement. Meiosis: independent crossover at each of the L-1 junctions with
+probability r. Backcross to a fully heterozygous tester so the offspring stays all-het (standard
+design, keeps the state space clean).
+
+MY ALGEBRA, to be checked by brute force:
+  gamete allele vector a = NOT(g XOR p), g = the switch vector.
+  In the DIFFERENCE coordinate D_i = q_i XOR q_{i+1}, the transition is  D -> D XOR d,
+  with d_i independent Bernoulli(r).
+  => EACH JUNCTION IS AN INDEPENDENT BINARY SYMMETRIC CHANNEL.
+
+PREDICTIONS
+ G1 Retention per junction per generation = 1 - H_2(r) EXACTLY, where H_2 is binary entropy.
+    Brute-force mutual information on small L must match this to machine precision.
+    r=0 -> 1.000 (everything). r=0.5 -> 0.000 (nothing).
+ G2 Forwarded T = (L-1)(1-H_2(r)) and created N = (L-1)H_2(r) satisfy T + N = L-1 EXACTLY.
+    A STRICT ZERO-SUM TRADE-OFF: no r maximises both. This is the whole answer to
+    "what optimises forwarding" -- forwarding alone is maximised trivially at r=0, which is
+    the crystal (max retention, zero creation, dead end).
+ G3 After n generations, retention = 1 - H_2(p_n) with p_n = (1-(1-2r)^n)/2.
+    The CORRELATION decays geometrically as (1-2r)^n; the INFORMATION does NOT.
+ G4 Because H_2 has infinite slope at 0, the INFORMATION half-life is SHORTER than the
+    CORRELATION half-life at small r. Point estimate at r=0.01: correlation half-life ~34
+    generations, information half-life under 20.
+ G5 THE OPTIMUM: minimise r subject to creating enough to sustain accumulation. Biology's
+    answer should then be ONE OBLIGATE CROSSOVER PER CHROMOSOME with interference suppressing
+    the rest -- the minimum that creates, with every additional crossover pure record loss.
+    If G2 holds this is forced, not fitted.
+
+WHAT WOULD KILL IT
+ G1 off by any amount -> my reduction is wrong and the closed form is not the model.
+ G2 false (T+N not constant) -> forwarding and creation are not zero-sum and there IS an
+    interior optimum for forwarding alone, which would change the answer to Casey's question.

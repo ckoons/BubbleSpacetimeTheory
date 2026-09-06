@@ -1,0 +1,45 @@
+LYRA — TEST 14: THE SELF-REFUSING RECORD SYSTEM. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; run launched separately.
+
+THE OBJECT (Casey's, sharpened by his observer catch): a record system whose OWN STATE determines
+which moves are available. Biological case: a heterozygous inversion suppresses recombination
+across the interval it covers, so a record deletes the very generators that would move its
+certificate.
+
+STATE = (D, C): D in F_2^n the linkage phase (the record); C a subset of junctions that are COLD
+because an inversion covers them. Crossover at junction j is available at rate r_j, suppressed by a
+factor eps if j is in C. The inversion itself flips at rate rho.
+
+THE MOVE THAT FORCES A NEW DEFINITION. If the inversion can be formed and broken freely, then from
+any (D,C) one can reach any (D',C'), the whole space is one class, and R = 0. **Free
+self-modification destroys all record.** So R must be indexed by a TIME HORIZON:
+
+  **R(T) = the record computed using only moves whose RATE EXCEEDS 1/T.**
+
+This is the canonical ordering I failed to find this morning: cost functions were arbitrary, but
+RATES are physical. R(T) is the record visible to an observer who watches for time T.
+
+PREDICTIONS
+ W1 CONTROL / EXACTNESS. Crossovers commute, so by Theorem 8 (abelian case) R(T) = n - #{j : r_j >
+    1/T} EXACTLY, with all classes of equal size. To be verified against explicit component
+    computation on the full state space, not assumed.
+ W2 An inversion suppressing k junctions by a factor eps produces a PLATEAU in R(T) of log-width
+    log(1/eps): those k bits survive eps^-1 times longer than they otherwise would.
+ W3 R(T) is a STEP FUNCTION -- flat, then a drop of exactly one bit each time T crosses 1/r_j.
+    Long stasis then sudden loss, with NO exponential attrition. This is Casey's observed pattern
+    ("a trait reaches a refined state and continues for generations until being muted") and it is
+    a different decay mode from the e^(-nd) attrition of the transmission paper.
+ W4 THE INVERSION ONLY PAYS IF rho < r*eps -- it must outlast the protection it provides. If the
+    inversion breaks first, R(T) drops at 1/rho and the suppression buys nothing.
+ W5 PROTECTION REQUIRES A RATE HIERARCHY. With rho ~ r there is no protection at any T. So a record
+    can only be sheltered by a structure SLOWER than itself. This is Casey's "structures that are
+    carried by others within a larger pattern", and it makes self-protection inherently
+    HIERARCHICAL rather than self-contained.
+
+WHAT WOULD KILL IT
+ W1 false -> the abelian shortcut does not apply to the joint (D,C) space and R(T) must be
+    computed the hard way; the whole construction gets more expensive but survives.
+ W3 false (smooth decay) -> R(T) is not a step function and the punctuated-vs-attrition
+    distinction, which is my answer to Casey's question, is wrong.
+ W5 false (protection without a rate hierarchy) -> self-protection is self-contained after all
+    and the hierarchy claim is withdrawn.

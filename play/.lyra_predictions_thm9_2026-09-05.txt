@@ -1,0 +1,32 @@
+LYRA — TEST 26: THEOREM 9 TIGHTNESS. Written BEFORE the run, 2026-09-05 (autonomous).
+Absolute path; shasum in this same command; launch separately.
+
+THE OPEN PROBLEM, carried since 09:00. Theorem 9 gives R >= H(phi_* mu on V/Lambda), with equality
+iff the moves act transitively on each fibre. Measured on 4x6 dimers: bound 0.6908, actual 0.8240,
+an unexplained undershoot of 0.1332. "Equality iff transitive" is a CONDITION, not a
+CHARACTERISATION -- it says when the bound is tight without saying what the gap IS.
+
+MY PROPOSED FIX. Classes REFINE fibres, so by the chain rule
+    **R = H(fibre) + H(class | fibre)**
+exactly. The "bound" is the first term and the defect is the second -- a named, measurable
+quantity, not a gap. Theorem 9 should be restated as an EQUALITY WITH A DEFECT TERM.
+
+PREDICTIONS
+ D1 R = H(fibre) + H(class|fibre) holds EXACTLY, to machine precision, in every instance.
+    This is the chain rule so it must; if it fails my fibre map is wrong, not the theorem.
+ D2 The 4x6 dimer defect equals 0.8240 - 0.6908 = **0.1332**, reproduced to 4 decimals.
+ D3 THE DEFECT VANISHES IFF EVERY FIBRE IS CONNECTED under the move set. So the
+    characterisation is CONNECTIVITY OF FIBRES, which is checkable directly on the move graph
+    without computing entropies at all.
+ D4 In the ABELIAN case (meiosis) the defect is IDENTICALLY ZERO at every |J|, because cosets of
+    a subgroup are exactly the orbits -- fibres and classes coincide by construction.
+    This is why R = (L-1) - |J| was exact and the dimer case was not.
+ D5 The defect should be SMALL relative to R wherever the certificate is nearly complete, and
+    should GROW as the move set is restricted (colder -> more classes per fibre).
+    Point estimate on 6x6 faces: defect < 0.05 bits, since flux was shown complete on the bulk
+    with only 16 frozen singletons outside it (0.018% of mass).
+
+WHAT WOULD KILL IT
+ D1 false -> the fibre map is not what I think and the decomposition does not apply.
+ D3 false (defect zero with a disconnected fibre, or nonzero with all fibres connected) ->
+    connectivity is not the characterisation and I have no better one.

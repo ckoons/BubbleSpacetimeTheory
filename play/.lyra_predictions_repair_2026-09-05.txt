@@ -1,0 +1,46 @@
+LYRA — TEST 11: REPAIRING BOTH PAPERS. Predictions written BEFORE the run, 2026-09-05.
+Verified by shasum before launch.
+
+=== REPAIR A (Paper 1): DROP THE INDEPENDENCE ASSUMPTION ===
+Paper 1's Theorem 1 assumed crossovers are independent Bernoulli(r) per junction. A referee's
+first question is crossover INTERFERENCE, which breaks that. My claim is that independence was
+never needed:
+
+ A1 For ANY crossover process whatever, with switch pattern d on n junctions and uniform parent
+    phase, retention = I(parent;offspring) = **n - H(d)** bits, where H(d) is the entropy of the
+    CROSSOVER PATTERN. Independence only specialises H(d) = sum_i H_2(r_i).
+    PROOF SKETCH: D_out = D_in XOR d with d independent of D_in, so
+    I = H(D_out) - H(D_out|D_in) = n - H(d).
+    To be verified by brute force on a deliberately CORRELATED d.
+
+ A2 THEREFORE INTERFERENCE BUYS INFORMATION BACK. Exactly-one-crossover (maximal interference)
+    has H(d) = log2(n); independent crossovers with the same MEAN have H(d) = n*H_2(1/n), which
+    is larger. Point estimate at n=100: independent loses 8.08 bits, exactly-one loses 6.64,
+    interference saves ~1.44 bits per chromosome per meiosis.
+
+ A3 AND HOTSPOTS BUY MORE. Concentrating crossovers into a fraction f of junctions gives
+    H(d) = log2(f*n) instead of log2(n), a saving of log2(1/f) bits per crossover.
+    At the human figure f ~ 0.15, that is ~2.74 bits per crossover recovered.
+    THIS IS A NEW PREDICTION, not a repricing of a known fact: it says hotspot CONCENTRATION
+    is itself an information optimisation, separate from the obligate-crossover argument.
+
+ A4 The information-optimal meiosis subject only to "at least one crossover" would put it at a
+    FIXED position (H(d)=0, full retention). Real meiosis does not. So there must be a second
+    constraint -- creation must be DISTRIBUTED, or each block ratchets. State this as an open
+    problem, do not paper over it.
+
+=== REPAIR B (Paper 2): REPLACE THE NEAR-TAUTOLOGICAL GENERATOR LAW ===
+ B1 THEOREM TO TEST. Let phi : S -> V be a certificate valued in an abelian group V, and suppose
+    every move m acts on it by a TRANSLATION: phi(ms) = phi(s) + v_m. Then the classes refine the
+    fibres of the quotient map V -> V/<v_m>, and in the transitive case R = H of the pushforward
+    on V/<v_m>. Adding a move with shift v' costs exactly the further quotient by <v'>.
+ B2 EXACT CHECK, meiosis: V = F_2^n, crossover j has v = e_j, <e_j> has order 2, so each generator
+    costs exactly log2(2) = 1 bit. Predicted to match the measured flat 1.000 EXACTLY.
+ B3 DIMER CHECK: V = Z^2 (winding). Face flips have v = 0, so they are PREDICTED FREE -- this is
+    why 546 compact moves retain. Wrapping cycles have v != 0 and cost the quotient.
+    PREDICTION: measured R under faces-plus-wrappers equals the entropy of the flux distribution
+    pushed to Z^2/<v : wrapping cycles>, to within the frozen-singleton correction (0.018% mass).
+    Measured target to beat: 4x6 faces R=2.2572 -> all-4-cycles R=0.8240, a drop of 1.4332.
+ B4 IF B3 MISSES, the theorem is exact only for abelian certificates with transitive action and
+    Paper 2 must say so and claim only the meiosis case. I expect a MISS on the exact value and
+    a HIT on the SUBGROUP the wrapping cycles generate.

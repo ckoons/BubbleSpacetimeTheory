@@ -1,0 +1,26 @@
+LYRA — TEST 30: CAN R SEE AUTOCATALYSIS? Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; launch separately.
+
+C5 as originally registered ("an autocatalytic network needs >= 2 reactions touching the
+autocatalyst") is ALREADY WRONG on inspection: X + A -> 2X is autocatalytic with ONE reaction.
+I withdraw it as stated and replace it with the question the framework actually asks.
+
+ A1 **R CANNOT SEE AUTOCATALYSIS.** A -> X and X + A -> 2X have the SAME stoichiometric matrix
+    ([-1],[+1]), hence the same rank and the same R = 1 (total mass conserved). Autocatalysis is a
+    RATE property, not a stoichiometric one, so a quantity built from rank(S) is blind to it.
+    Predicted exact and trivial; a miss means my identification of R with the codimension is wrong.
+ A2 **R(T) CAN SEE IT, because an autocatalytic rate is STATE-DEPENDENT.** The generator's rate
+    depends on the amount of the species it produces, so it crosses the observation threshold only
+    once enough product exists. **An autocatalytic reaction is a generator that switches ITSELF on.**
+ A3 THEREFORE AUTOCATALYSIS IS TEST 14's SELF-MODIFYING MOVE SET, in the MELTING direction: where
+    an inversion suppressed its own generators and preserved a record, an autocatalyst ACTIVATES
+    its own generator and should destroy one. Predicted: R(T) for an autocatalytic system shows a
+    SHARP drop at the composition where the rate crosses 1/T, absent in the linear system.
+ A4 And by Test 14's W5 (free self-modification zeroes the record), an autocatalyst that can
+    activate itself without limit should end at R = 0 on its own coordinate: **an autocatalytic
+    system destroys the record of how much of itself there was.**
+
+WHAT WOULD KILL IT
+ A1 false -> R is not the codimension and the chemistry bridge is misidentified.
+ A3 false (no sharp drop; same curve as linear) -> autocatalysis is not self-activation in the
+    R(T) sense and the connection to Test 14 is only verbal.

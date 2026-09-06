@@ -1,0 +1,36 @@
+LYRA — TEST 6: MEIOSIS AS A MOVE SET. Predictions written BEFORE the run, 2026-09-05.
+Registration verified by shasum before launch.
+
+CASEY'S POINTER, taken literally: primate vs plant reproduction as a source of move sets.
+The structural fact that makes it more than analogy: MEIOTIC PAIRING (synapsis) IS A PERFECT
+MATCHING ON HOMOLOGS. Odd ploidy admits no perfect matching. That is the SAME combinatorial
+obstruction as the dimer instance's parity result (one cross bond leaves odd vertices).
+
+OBJECTS
+  p homologs (ploidy), L loci, binary alleles. State = the p x L allele matrix, homologs UNLABELED.
+  MOVE = crossover at position j between two homologs a,b  (suffixes swapped).
+  MOVE SET (= temperature) = which crossover positions J are accessible, and which homolog pairs.
+  RECORD = LINKAGE PHASE: which alleles sit on the same homolog. Crossovers destroy it.
+  The per-locus allele multiset is invariant under every crossover -> that is the certificate.
+
+PREDICTIONS
+ M1 For p=2, all loci heterozygous, the phase space is F_2^(L-1) and crossovers are TRANSLATIONS,
+    so the move set is ABELIAN and R = (L-1) - |J| EXACTLY, for every J not containing position 0.
+    Classes = 2^(L-1-|J|), all of equal size.
+ M2 THEREFORE MELTING IS LINEAR IN THIS INSTANCE, not first-order. Colourings and dimers both gave
+    a CLIFF. If M1 holds, the difference is that crossovers COMMUTE and face-flips do not.
+    PROPOSED STRUCTURAL LAW: abelian move sets melt linearly; a cliff requires non-commuting moves.
+ M3 p=3 (triploid): with pairing restricted to a perfect matching there is NONE, so at most one
+    pair can synapse and one homolog is a univalent that cannot recombine. FEWER MOVES -> MORE
+    CLASSES -> HIGHER R than p=2 at matched L.
+ M4 THE INTERESTING MISMATCH: triploids are STERILE in reality but should score HIGH on R.
+    If M3 holds, that is evidence that R IS NOT FITNESS -- triploids RETAIN beautifully and cannot
+    CONSTRUCT. Retention and construction are separate legs, and sterility is a growth failure.
+ M5 SELFING vs OUTCROSSING is the n=1 monolith vs the 2-body seam, in genetics. Outcrossing should
+    show interface superadditivity over selfing at matched substrate; selfing should behave like
+    the 6x6 monolith. Point estimate: outcross R exceeds self R by more than 2x.
+
+WHAT WOULD KILL IT
+ M1 false -> my algebra is wrong and the instance is not what I claim.
+ M2 false (a cliff appears in an abelian move set) -> the commuting explanation for cliffs is wrong.
+ M5 false -> "complexity lives at the interface" does not transfer off the dimer instance.

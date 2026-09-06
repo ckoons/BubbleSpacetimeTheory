@@ -1,0 +1,30 @@
+LYRA — PRE-REGISTERED PREDICTIONS, 6x6 torus replication experiment
+Written 2026-09-05 before any run. Lane B (Casey, private).
+
+INSTRUMENT CHECKS (not predictions; a miss means the code is wrong)
+ I1  6x6 torus matching count = 90,176
+ I2  4x6 control reproduces: 3,108 matchings, 9 classes
+ I3  4x6 control reproduces: two-bond prohibition raises class count in ~251 of 300 sampled
+ I4  4x4 control reproduces: 0 rises over all 496 pairs
+
+PREDICTIONS (stated before the run; report each even when wrong)
+ P2  6x6 class count > 9.  Point estimate 25 (a 5x5 flux grid).  Range 13-49.
+ P3  flux (wx,wy) separates the 6x6 classes EXACTLY: YES
+ P4  two-bond prohibition SPLITS (not merely empties) on 6x6 at a rate >= the 4x6 rate.
+     Point estimate 90% of sampled pairs produce >=1 genuine split.
+ P5  ARM A (repeated two-bond refusal, NO growth): creation per step DECAYS TO ZERO.
+     R rises then falls.  Efficiency dR / -dH_thermo goes negative before step 10.
+     REASON: T7.  Pure selection freezes as R -> H.  If Arm A climbs without bound,
+     T7 is wrong or I have mismeasured.  This arm is the control that must die.
+ P6  ARM B (alternating growth + two-bond refusal): R still climbing at the step where
+     Arm A has plateaued.  This is the replication signature.
+ P7  Arm B's advantage over Arm A grows with the growth rate g, with a threshold below
+     which Arm B also starves (colouring instance gave g*=3.15 for its realised policy).
+
+WHAT WOULD FALSIFY THE MORNING'S FRAMING
+ - If Arm A does NOT die, the ledger dichotomy (selection terminates / replication does not)
+   is wrong at its selection end.
+ - If Arm B dies at the same step as Arm A, growth buys nothing here and the second
+   instance does not reproduce the colouring threshold law.
+ - If two-bond prohibitions on 6x6 only EMPTY and never SPLIT, the 4x6 result was a
+   small-instance artefact and creation does not scale.

@@ -1,0 +1,11 @@
+4x6 torus, pure selection, refusal policy varied (greedy = what both instances used)
+  cycles4  greedy    eff band 0.107-0.594   median  0.517  n=5   R peak 5.837 @step 5   H_th->0 @step 8
+  cycles4  exhaust   eff band 0.165-0.614   median  0.556  n=6   R peak 6.278 @step 6   H_th->0 @step 7
+  cycles4  random    eff band 0.076-0.493   median  0.401  n=3   R peak 2.674 @step 3   H_th->0 @step None
+  cycles4  worst     eff band n/a           median    nan  n=0   R peak 0.824 @step 0   H_th->0 @step None
+  cycles4  anti      eff band 0.168-0.503   median  0.503  n=2   R peak 1.978 @step 1   H_th->0 @step None
+  faces    greedy    eff band 0.247-0.649   median  0.565  n=6   R peak 7.011 @step 6   H_th->0 @step 6
+  faces    exhaust   eff band 0.247-0.651   median  0.565  n=6   R peak 7.011 @step 6   H_th->0 @step 6
+  faces    random    eff band 0.084-0.501   median  0.223  n=5   R peak 4.177 @step 4   H_th->0 @step None
+  faces    worst     eff band n/a           median    nan  n=0   R peak 2.257 @step 0   H_th->0 @step None
+  faces    anti      eff band 0.448-0.448   median  0.448  n=1   R peak 3.185 @step 1   H_th->0 @step None

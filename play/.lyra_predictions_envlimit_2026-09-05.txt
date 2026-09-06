@@ -1,0 +1,35 @@
+LYRA — TEST 21: THE NATURAL LIMIT IS THE ENVIRONMENT. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; launch separately.
+
+CASEY (2026-09-05): "You have a 'natural' limit because the 'assembly' must interface with the
+environment and environments change."
+
+This answers L4, which Test 19 left untested (the run hit my rung cap, not a natural stall).
+The limit is EXTERNAL, not internal cost growth.
+
+MECHANISM. If the environment shifts on timescale T_env, no form's useful lifetime exceeds T_env,
+so the payback condition g > m + B/T becomes **g > m + B/T_env**. Build costs grow geometrically
+(B_k = B0 * beta^k) while surplus grows at best linearly, so there is a computable last rung.
+Second mechanism, from this morning: **an environmental shift is a GENERATOR ACTIVATION**, so by
+Test 14's W3 the loss should be a STEP, not gradual.
+
+PREDICTIONS
+ E1 THERE IS A NATURAL STALL: equilibrium rung count is FINITE for finite T_env, with no rung cap
+    doing the work. Test 19 hit my cap at 16; this must stall below it on its own.
+ E2 **COMPLEXITY IS LOGARITHMIC IN ENVIRONMENTAL STABILITY: rungs ~ log_beta(T_env).**
+    Point estimate: plotting rungs against log10(T_env) gives a straight line, and its slope
+    scales as 1/log2(beta) when beta is varied. Each doubling of stability buys a CONSTANT number
+    of extra rungs, not proportionally more.
+ E3 THE BUILD COST BINDS, NOT MAINTENANCE. Varying the growth rate of B should move the stall;
+    varying the growth rate of m should move it much less. If maintenance dominates instead, my
+    reading of the mechanism is wrong.
+ E4 T_env -> infinity recovers Test 19's unbounded ladder (a control: the stall must be caused by
+    the environment and by nothing else in the code).
+ E5 THE TIME SERIES IS SAWTOOTH: slow climb, sudden drop, consistent with W3's step-function loss.
+    If complexity decays smoothly after a shift, the generator-activation reading is wrong.
+
+WHAT WOULD KILL IT
+ E2 false (rungs linear or saturating in T_env rather than logarithmic) -> the geometric-cost
+    mechanism is not what sets the ceiling.
+ E4 false (stall persists at infinite T_env) -> something in my code caps the ladder and the whole
+    test is an artifact.

@@ -1,0 +1,29 @@
+### CHILD MOVE SET = ALL 4-cycles (cross-bond cycles INCLUDED: T1 hypothesis broken)
+PARENT 4x4: 272 matchings, 9 classes, R=0.2797 bits
+PRODUCT TARGET: 81 classes, R = 2R(P) = 0.5593 bits
+
+  k   states classes       R   R/2R(P)      H_th        cert1        cert2  coupled  verdict
+  0    73984      81  0.5593     1.000   15.6156     Y/9/100%     Y/9/100%        0  decoupled (no template)
+  6    73984      81  0.5593     1.000   15.6156     Y/9/100%     Y/9/100%        0  decoupled (no template)
+  7    86496      75  0.4647     0.831   15.9357      N/9/85%      Y/9/85%    12512  certificate LOST
+  8    89760      75  0.4585     0.820   15.9952      N/9/82%      Y/9/82%    15776  certificate LOST
+  9   103756      67  0.2897     0.518   16.3731      N/9/71%      N/9/71%    29772  certificate LOST
+ 10   116252      64  0.2275     0.407   16.5994      N/9/63%      N/9/63%    42268  certificate LOST
+ 11   128924      64  0.2081     0.372   16.7681      N/9/57%      N/9/57%    54940  certificate LOST
+ 12   147840      73  0.8995     1.608   16.2742      N/9/50%      N/9/50%    73856  certificate LOST
+ 16   200320      78  1.0795     1.930   16.5325      N/9/36%      N/9/36%   126336  certificate LOST
+
+### CHILD MOVE SET = INTRA-COPY 4-cycles only (colder: T1 hypothesis HOLDS)
+PARENT 4x4: 272 matchings, 9 classes, R=0.2797 bits
+PRODUCT TARGET: 81 classes, R = 2R(P) = 0.5593 bits
+
+  k   states classes       R   R/2R(P)      H_th        cert1        cert2  coupled  verdict
+  0    73984      81  0.5593     1.000   15.6156     Y/9/100%     Y/9/100%        0  decoupled (no template)
+  6    73984      81  0.5593     1.000   15.6156     Y/9/100%     Y/9/100%        0  decoupled (no template)
+  7    86496     105  1.3947     2.494   15.0056      Y/9/85%      Y/9/85%    12512  REPLICATES
+  8    89760     111  1.6138     2.885   14.8400      Y/9/82%      Y/9/82%    15776  REPLICATES
+  9   103756     144  2.4030     4.296   14.2598      Y/9/71%      Y/9/71%    29772  REPLICATES
+ 10   116252     167  2.9762     5.321   13.8507      Y/9/63%      Y/9/63%    42268  REPLICATES
+ 11   128924     193  3.4941     6.247   13.4821      Y/9/57%      Y/9/57%    54940  REPLICATES
+ 12   147840     379  4.3116     7.708   12.8621      Y/9/50%      Y/9/50%    73856  REPLICATES
+ 16   200320     739  5.6240    10.055   11.9879      Y/9/36%      Y/9/36%   126336  REPLICATES

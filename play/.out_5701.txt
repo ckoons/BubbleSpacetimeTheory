@@ -1,0 +1,9 @@
+  Hardy Gram min eigenvalue, zeta^2 (d(N))     : +4.479e-14
+  Hardy Gram min eigenvalue, zeta_Z5 (r5/3840) : -1.690e-15
+  Hardy Gram min eigenvalue, random >= 0       : +1.157e-15
+  Weil N-basis matrix: off-diagonal mass 88.3201; entries (1,p) = -log p/sqrt p for p=2,3,5,7: True
+  Hardy form on a test vector: zeta^2-weights 224.0825, zeta_Z5-weights 18.9441, both > 0: True
+  P1 Hardy Gram PSD for zeta^2, zeta_Z5 and random weights (Bochner): HIT
+  P2 Weil form is off-diagonal with -Lambda(N'/N)/sqrt(N'/N): HIT
+  P3 Hardy form positive for zeta AND for the off-line-zero zeta_Z5 (form-invariant): HIT
+  ANSWER to L3: NO. The prime sum is off-diagonal in the N-basis; a Szego norm is diagonal with weight d(N).

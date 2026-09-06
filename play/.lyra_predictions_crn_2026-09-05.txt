@@ -1,0 +1,37 @@
+LYRA — TEST 29: CHEMICAL REACTION NETWORKS AS MOVE GRAPHS. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; launch separately.
+
+Casey: "add chemistry to your investigations." Corpus-reconnected first (BST_AC0_InformationTheory,
+BST_AC0_Thermodynamics, my own 08-24 C2 falsification).
+
+THE BRIDGE, and it is linear algebra rather than metaphor. A reaction network has a stoichiometric
+matrix S (species x reactions). Standard CRNT:
+  - reachable compositions from x0 = x0 + image(S)  -> a COSET of the reaction subgroup
+  - conservation laws = LEFT NULL SPACE of S       -> functions constant along every reaction
+That is EXACTLY Theorem 9: classes are cosets, the certificate is the conserved vector, and by
+Theorem 8 the record is the CODIMENSION of the orbit.
+
+PREDICTIONS
+ C1 **R = n_species - rank(S)**, exactly, and it equals dim(left null space) = the number of
+    independent conservation laws. This is Theorem 8 in chemistry and must hold to integer
+    precision on every network, or my identification of the objects is wrong.
+ C2 For an elementally closed network, R >= (number of distinct chemical elements), because atom
+    conservation supplies that many independent conservation laws. Equality iff there are no
+    conservation laws beyond atom counting.
+ C3 **ONE REACTION = ONE BIT.** Adding a reaction that is linearly independent of the existing set
+    lowers R by exactly 1; adding a dependent one lowers it by 0. This is the discrete
+    one-generator-one-bit law of Theorem 8, tested on real chemistry.
+ C4 A CATALYST changes rank(S) by 0 for the overall transformation but ADDS reactions. Prediction:
+    catalytic mechanisms have MORE reactions than their overall equation at the SAME rank, so the
+    catalyst adds no generator and destroys no record -- it only changes RATES. In R(T) language a
+    catalyst moves a generator across the observation threshold WITHOUT changing Lambda.
+    **That would make catalysis a purely R(T) phenomenon: it changes when a record melts, never
+    whether it can.**
+ C5 An AUTOCATALYTIC network needs at least two distinct reactions touching the autocatalyst
+    (production and consumption). Cross-check against the two-bond result (one contact can neither
+    cut nor couple).
+
+WHAT WOULD KILL IT
+ C1 off by any integer -> the identification of classes with compatibility classes is wrong and
+    the whole bridge fails.
+ C4 false (catalysis changes rank) -> catalysis is not an R(T) phenomenon and that reading goes.

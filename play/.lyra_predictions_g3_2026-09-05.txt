@@ -1,0 +1,35 @@
+LYRA — TEST 27: G3, THE SECOND APERTURE AS A CERTIFICATE. Written BEFORE the run, 2026-09-05
+(autonomous). Absolute path; shasum in this same command; launch separately.
+
+THE CLAIM I HAVE ARGUED BUT NEVER COMPUTED (flagged twice as interpretation): with ONE aperture,
+intake and efflux share a channel and nothing distinguishes them; with TWO they are distinct
+generators, and "which end" becomes a certificate -- the through-gut as the first body axis.
+
+WHY IT SHOULD BE A THEOREM, NOT A STORY. Certificates in this framework have been winding numbers
+(dimer flux). Winding numbers live on CYCLES. By Euler, for a connected graph the cycle rank is
+b1 = |E| - |V| + 1. Chamber C_m joined to environment C_n by ONE edge: |V| = m+n, |E| = m+n+1,
+b1 = 2 (the two rings; the bridge contributes nothing). By TWO edges: |E| = m+n+2, b1 = 3.
+**The second aperture adds EXACTLY ONE to the cycle rank -- one new winding coordinate.**
+
+PREDICTIONS
+ G3a b1 goes 2 -> 3 when the second aperture is added, for every m, n. Pure Euler; a miss means
+     I have miscounted, not that the claim is wrong.
+ G3b THE NEW CYCLE CARRIES RECORD: the dimer class count on the two-aperture graph EXCEEDS that
+     on the one-aperture graph, at matched vertex count. Point estimate: a factor of ~2-3, since
+     one new independent winding coordinate should multiply the class count by the number of
+     values it takes.
+ G3c **THE NEW COORDINATE IS A GENUINE CERTIFICATE BY THEOREM 9**: the winding around the
+     through-loop is constant on classes, and including it in the fibre map REDUCES THE DEFECT
+     H(class|fibre) relative to using the chamber winding alone.
+     This is the sharp version and the one that makes G3 a theorem rather than a picture.
+ G3d ONE APERTURE IS A BRIDGE. Cutting it disconnects the graph, so no cycle passes through it and
+     it can carry no winding. **A dead-end cup cannot have a body axis** -- not because it is
+     inefficient, but because there is no cycle for the certificate to live on.
+ G3e The effect should NOT depend on chamber size: adding the second aperture buys exactly one
+     coordinate whether the chamber is small or large. If the gain scales with m, the mechanism
+     is not the cycle rank.
+
+WHAT WOULD KILL IT
+ G3b false (no extra classes) -> the new cycle carries no record and the topology is decorative.
+ G3c false (defect not reduced) -> the winding is not a certificate and G3 stays an interpretation,
+     which is how it currently sits in the note. I would then withdraw it rather than keep arguing.

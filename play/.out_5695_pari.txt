@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/gp", line 5, in <module>
+    from main import parser_gp
+  File "/opt/anaconda3/lib/python3.12/site-packages/main.py", line 16, in <module>
+    gitpython = GitPython()
+                ^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/main.py", line 8, in __init__
+    self.repo = Repo(".")
+                ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/git/repo/base.py", line 289, in __init__
+    raise InvalidGitRepositoryError(epath)
+git.exc.InvalidGitRepositoryError: /Users/cskoons/projects/github/BubbleSpacetimeTheory/play

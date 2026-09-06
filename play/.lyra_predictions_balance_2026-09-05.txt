@@ -1,0 +1,36 @@
+LYRA — TEST 24: IS THERE A UNIVERSAL BALANCE R/H? Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; launch separately.
+
+CASEY (2026-09-05): "somehow I think we will find the 'balance' of stability/growth in all 'living'
+objects", and: our prejudice inorganic / dead-organic / life is SUBSTRATE BIAS -- just the
+environment being exploited.
+
+THE QUANTITY. H = R + H_thermo is an identity, so balance is ONE number: **R/H**.
+  R/H = 0 : gas (ergodic, no record)      R/H = 1 : crystal (frozen, record but nothing moves)
+SUBSTRATE-BIAS TEST: if dimers, meiotic phase, gated pairs and vent positions all land in the same
+band, substrate was never the variable.
+
+CIRCULARITY GUARD. I define alive as R>0 AND H_th>0, so alive things are intermediate BY
+DEFINITION. **That is not the claim.** The claim is that they CLUSTER at a specific value rather
+than spreading over (0,1). The null is a broad or uniform spread of intermediate systems.
+
+PREDICTIONS
+ B1 The distribution of R/H over intermediate systems is NARROWER than uniform on (0,1).
+    Test: standard deviation well below the uniform 0.289, and a unimodal peak.
+ B2 POINT ESTIMATE 0.5, from maximising the product R*H_thermo subject to R+H_thermo = H --
+    the simplest objective that requires BOTH. The vent's alive position gave exactly R=6,H_th=6.
+    **BUT I flag a contrary signal from my own data:** Arm B's sustaining runs sat at R/H = 0.86
+    (g=3) and 0.96 (g=2), far above 0.5. If the peak lands near 0.85-0.95 instead, the objective
+    is not the product and I will say so.
+ B3 SUBSTRATE INDEPENDENCE: the band is the same across dimer tori, meiotic phase, gated pairs and
+    vent positions. Point estimate: the per-substrate means agree within 0.15.
+    If they differ by more, substrate is a real variable and Casey's bias claim is not supported
+    by this evidence.
+ B4 The DYNAMIC criterion (systems that sustain dR>0 with H_th bounded away from 0) should select a
+    NARROWER band than the static criterion (R>0 and H_th>0). Sustaining is stronger than alive.
+ B5 The two death modes are the endpoints and should be EMPTY of sustaining systems: no sustaining
+    system at R/H < 0.05 or > 0.98.
+
+WHAT WOULD KILL IT
+ B1 false (spread as wide as uniform) -> there is no balance point and the claim is not supported.
+ B3 false (substrates differ) -> substrate bias is not demonstrated by this framework.

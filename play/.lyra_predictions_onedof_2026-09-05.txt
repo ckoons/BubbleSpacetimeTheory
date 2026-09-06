@@ -1,0 +1,36 @@
+LYRA — TEST 25: IS THE INVARIANT AN ABSOLUTE FLOOR OF ONE DEGREE OF FREEDOM?
+Written BEFORE the run, 2026-09-05. Absolute path; shasum in this same command; launch separately.
+
+CASEY (2026-09-05): "at the cold edge where things are stable but still move -- that's balance",
+and "I suspect we will always find new organisms develop near stability but with at least one
+degree of freedom."
+
+THIS REFRAMES TEST 24. I predicted balance at R/H = 1/2 (equal record and heat) and MISSED: the
+peak was at 0.2-0.3 and the per-substrate means spread 0.211. Casey's claim is different and
+sharper: **R as high as it can go SUBJECT TO H_thermo > 0** -- near the crystal limit, not the
+middle. My own Arm B data already said so: froze at R/H = 0.991, marginal 0.958, SUSTAINED 0.863,
+all crowded against the frozen end, none near 0.5.
+
+THE KEY STRUCTURAL CONSEQUENCE: if the invariant is "at least one degree of freedom", then it is
+**H_thermo, an ABSOLUTE quantity of order ONE BIT -- not a ratio.** As H grows, R/H -> 1
+automatically, so the RATIO cannot be universal even when the FLOOR is. That would explain why
+B3 failed across substrates while the underlying claim is still right.
+
+PREDICTIONS
+ O1 THE SURVIVAL FLOOR IS H_thermo ~ 1 BIT, and it is substrate-independent. Arm B brackets it
+    already: H_th = 0.089 froze, 0.685 marginal, 2.29 sustained. Point estimate 0.8 - 1.5 bits.
+ O2 H_thermo AT THE LIVING BOUNDARY IS CONSTANT IN SYSTEM SIZE, while R/H at the same boundary
+    RISES TOWARD 1 as H grows. Test on dimer tori 4x4, 4x6, 6x6 and meiosis n = 6, 8, 10, 12:
+    find the minimal-nonzero-H_thermo configuration in each and compare.
+    **If H_thermo drifts with size and R/H does not, I have this exactly backwards.**
+ O3 SPREAD COMPARISON, the decisive one: across substrates, sd(H_thermo at the boundary) should be
+    SMALLER than sd(R/H at the boundary). If the ratio is tighter than the absolute, Casey's
+    "one degree of freedom" is not the invariant and R/H was closer after all.
+ O4 The floor should be ~1 bit and not ~0: a system with H_thermo strictly between 0 and 1 bit has
+    less than one full binary degree of freedom and should NOT sustain. Predicted: the marginal
+    band sits at H_th between 0.5 and 1.5.
+
+WHAT WOULD KILL IT
+ O3 reversed -> the ratio is the invariant, not the absolute floor.
+ O2 false (H_thermo scales with size) -> "one degree of freedom" is not size-independent and the
+    claim needs a different quantity.

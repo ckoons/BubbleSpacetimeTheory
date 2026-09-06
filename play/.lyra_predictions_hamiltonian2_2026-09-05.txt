@@ -1,0 +1,30 @@
+LYRA — TEST 13b: STANDARD MAP, CORRECTED INSTRUMENT. Written BEFORE the run, 2026-09-05.
+
+WHY A SECOND VERSION: test 13's grid-adjacency instrument reported ONE component at K=0.1 at
+N=64,128,256 -- physically false, the near-integrable regime is full of KAM tori. Coarse-graining
+smears any invariant curve thinner than a cell, so one-step images union rows a torus separates.
+My K=0 positive control passed but was DEGENERATE: it validated the instrument only at the
+integrable point, which is exactly where no torus can break. NEW DOCTRINE: a control at the
+integrable limit does not validate an instrument meant to detect loss of integrability.
+
+CORRECTED METHOD: measure TRANSPORT, not adjacency. Iterate many orbits for T steps; for each
+orbit take the SET of y-bands it actually visits and union them. Components = invariant bands
+separated by surviving transport barriers. This is what a KAM torus physically is: a curve orbits
+cannot cross.
+
+PREDICTIONS
+ J1 CONTROL AT K=0 (degenerate, necessary): each orbit stays in one band, so components = B bands,
+    R = log2(B).
+ J2 NON-DEGENERATE CONTROL, the one test 13 lacked: at K=0.1 there must be MANY components --
+    dozens of surviving barriers, R well above zero. If this comes back near 1 component the
+    second instrument is broken too and I stop.
+ J3 R decreases with K and collapses to ~0 near the known K_c = 0.971635. I expect the measured
+    collapse slightly BELOW K_c because finite bands and finite T under-resolve the last tori.
+    Point estimate for the collapse: 0.85 < K < 1.0.
+ J4 THE ONE THAT MATTERS (unchanged from test 13). Melting is GRADUAL, not a cliff: R should fall
+    over a range of K rather than dropping in one step, because K is a continuum and tori break
+    one after another. If confirmed, Paper 2 Section 7 needs a third category -- continuum move
+    sets melt gradually because generators enter continuously.
+ J5 THEOREM 9 STILL DOES NOT APPLY. The shift in y is K sin(x), which depends on the state, so the
+    action is not by a fixed group element and the hypothesis fails. I expect to report this as a
+    REAL LIMIT on Theorem 9's scope, which is the whole reason for running a non-lattice instance.

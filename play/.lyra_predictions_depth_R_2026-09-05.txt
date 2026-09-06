@@ -1,0 +1,27 @@
+LYRA — TEST 7: is R the same thing as DEPTH? Predictions written BEFORE the run, 2026-09-05.
+Registration verified by shasum before launch.
+
+WHY: Assembly Theory measures complexity as the MINIMUM NUMBER OF CONSTRUCTION STEPS
+(assembly index) and has an assembly-index threshold for life. My R measures the entropy of
+the class distribution. If R is a monotone function of depth, this program is a reparameterisation
+of assembly theory and I should say so. If they are orthogonal, both are needed.
+
+DEPTH here = the move-graph analogue of the assembly index: within a class, the number of moves
+needed to reach the farthest state from a seed. Measured by two-sweep BFS (a LOWER BOUND on the
+class diameter, stated as such -- not the exact diameter).
+
+PREDICTIONS
+ D1 R and depth are ORTHOGONAL: I expect to exhibit two configurations with the SAME R (within
+    0.05 bits) and mean depths differing by more than 2x.  If I cannot, R may be depth in disguise.
+ D2 Across one family (one torus, move set varied) R and depth are ANTI-correlated: colder move
+    set -> more classes -> higher R -> SMALLER classes -> SHALLOWER. Spearman rho < -0.5.
+ D3 Therefore neither measure dominates: R is high where depth is low, within a family.
+    The pair (R, depth) is the honest complexity coordinate, not either alone.
+ D4 The frozen endpoint (every state a singleton) has R MAXIMAL and depth ZERO. That is the
+    sharpest possible demonstration that R alone cannot be complexity -- and it is the crystal.
+
+SEPARATELY, TEST 8: the 6x6 classes flux cannot see (41 classes, 25 flux values).
+ F1 The 16 extra classes are SMALL and FROZEN -- states with few or no flippable faces, isolated
+    inside a flux sector. Point estimate: the extra classes hold <1% of the total state mass.
+ F2 If instead the extra classes are LARGE, flux is missing a genuine bulk invariant and the
+    dimer instance has structure I have not identified.

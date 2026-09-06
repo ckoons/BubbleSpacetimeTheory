@@ -1,0 +1,32 @@
+LYRA — PRE-REGISTERED PREDICTIONS, TEST 2: does the replication definition have an instance?
+Written 2026-09-05, before any run.  Lane B (Casey, private).
+
+THE DEFINITION UNDER TEST (proposed this morning, NOT a theorem)
+  A construction A REPLICATES if the child carries TWO invariants, each of whose pullback
+  separates the parent's classes (T2 certificates), supported on DISJOINT parts of the
+  construction -- equivalently two disjoint retractions r1, r2 satisfying T1's hypothesis.
+
+THE TENSION I EXPECT TO FIND
+  T1 needs r . A = id on the WHOLE child.  A restriction-to-copy-1 map is undefined on any
+  child state that uses a cross bond.  But the template mechanism measured on Friday IS a
+  cross bond (the 26x bottleneck: the only exit is a flip through the host).  So the coupling
+  that makes copying possible is the same coupling that breaks the retraction.
+
+PREDICTIONS
+ Q1 k=0 (disjoint copies): child classes = C(P) x C(P) EXACTLY, R(child) = 2 R(P).
+    This is an instrument check.  A miss means the pipeline is wrong.
+ Q2 The definition IS non-vacuous: at k=0 two disjoint certificates exist.
+    But k=0 templates NOTHING, so a bare existence result is worthless.
+ Q3 As k (cross bonds) rises, classes MERGE -- child class count falls below nc^2.
+    Friday saw 9 -> 6 under heavy attachment.
+ Q4 THE REAL ONE: there is a NON-EMPTY WINDOW of k where BOTH certificates still separate
+    AND at least one child state uses a cross bond (i.e. the copies are actually coupled).
+    If that window is EMPTY, my definition of replication is empty in this instance and the
+    morning's framing is wrong.
+ Q5 In the window, R(child) is CLOSER TO R(P) than to 2 R(P) -- copies correlated, not
+    independent.  This is the "duplication is free in R" claim.  If instead R -> 2 R(P),
+    duplication is NOT free and the ledger argument for replication fails.
+
+WHAT WOULD KILL THE MORNING'S FRAMING
+  Q4 empty  -> replication as I defined it does not occur here.
+  Q5 at 2R  -> copying costs full price; there is no free-multiplier loophole in T7.

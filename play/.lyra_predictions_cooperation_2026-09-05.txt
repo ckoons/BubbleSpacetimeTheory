@@ -1,0 +1,38 @@
+LYRA — TEST 15: DOES COOPERATION SUPPLY THE RATE HIERARCHY? Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; run launched separately.
+
+CASEY'S HYPOTHESIS (2026-09-05): pre-biological environments cheaply supply the energy an organism
+needs; semi-developed objects in an environment either enter symbiosis or combine; perhaps the
+COOPERATION of objects is what gives rise to life.
+
+WHY THIS IS TESTABLE HERE. Test 14 showed (W5) that protection requires a RATE HIERARCHY -- the
+gate must be slower than what it gates -- and that a system cannot supply this to itself, because
+free self-modification zeroes the record. A single object must somehow contain a slow coordinate.
+TWO OBJECTS WITH DIFFERENT INTRINSIC RATES HAVE A HIERARCHY FOR FREE. If that is the whole story,
+cooperation is not a refinement of life but a PRECONDITION for it.
+
+SETUP. Two record systems A (n_A junctions, rate r_A = 1) and B (n_B junctions, rate r_B varied).
+State = (D_A, D_B). GATING: a set of A's junctions is suppressed by eps whenever B is in a
+designated half of its state space, and/or vice versa. Score = BIT-DECADES, the sum of R(T) over
+decades of observation horizon.
+
+PREDICTIONS
+ C1 CONTROL. Uncoupled, BD(A+B) = BD(A) + BD(B) exactly. Record is additive over independent
+    systems. If this fails the instrument is wrong.
+ C2 ONE-WAY GATING (slow B gates fast A) is SUPERADDITIVE when r_B << r_A: BD exceeds the
+    uncoupled sum. Point estimate: gain of 20-50% at rate ratio 1000.
+ C3 THE HIERARCHY IS NECESSARY. At r_A = r_B the same gating gives NO gain, and I expect it to be
+    a LOSS, by the Test 14 result that a too-fast protector is worse than none (5.00 vs 7.00
+    bit-decades) because the gate's own coordinate is a record it destroys by flipping.
+ C4 MUTUAL GATING (A gates B and B gates A) is WORSE than one-way when there is a hierarchy,
+    because the fast partner's gating of the slow one undermines the slowness that made the slow
+    one useful. I am genuinely unsure of this one and state it to be scored.
+ C5 COOPERATION BUYS TIME, NOT IMMORTALITY. The gain appears in the MIDDLE of the horizon range
+    and vanishes at large T: every arrangement reaches R = 0 eventually. If some arrangement holds
+    record at ALL horizons, something is wrong with the instrument.
+
+WHAT WOULD KILL THE HYPOTHESIS
+ C2 false (no superadditivity from a slow partner) -> cooperation supplies no hierarchy advantage
+    and Casey's route to life does not appear in this framework.
+ C3 false (gain without a hierarchy) -> W5 does not generalise from the internal-gate case and the
+    rate-hierarchy claim must be narrowed to Test 14's geometry.

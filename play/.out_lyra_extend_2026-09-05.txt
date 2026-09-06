@@ -1,0 +1,10 @@
+
+n=2 x (3x6) = 36 vertices  topo=all  | unit alone: 224 states, 2 classes, R=1.0000
+    k   states  classes        R     H_th         H  coupled  certs
+   20   562434    19851  11.6202   7.4812   19.1013   512258  YY
+   24   946979    45028  13.0462   6.8068   19.8530   896803  YY
+
+n=3 x (3x4) = 36 vertices  topo=all  | unit alone: 50 states, 1 classes, R=-0.0000
+    k   states  classes        R     H_th         H  coupled  certs
+   20   485758     5202   7.8515  11.0384   18.8899   360758  YYY
+   24   855704    14883  10.0541   9.6526   19.7068   730704  YYY

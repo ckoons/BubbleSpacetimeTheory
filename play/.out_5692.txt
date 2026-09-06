@@ -1,0 +1,15 @@
+toy 5692: R = n_species - rank(S)
+  Q1: (1, 1)
+  Q2: (3, 1)
+  Q3: (2, 2)
+  Q4: [6, 5, 4, 3, 2, 2]
+  Q5: [8, 7, 6, 5, 4, 3, 2, 1, 1]
+  Q6: (2, 3)
+  Q1 S->P alone R=1: HIT
+  Q2 inert-enzyme artefact R=3: HIT
+  Q3 Michaelis-Menten rank 2, R=2: HIT
+  Q3 vs Q1: catalysis ADDS a law (R 1 -> 2): HIT
+  Q4 chain R = 6,5,4,3,2,2: HIT
+  Q5 pool R = 8,7,6,5,4,3,2,1,1: HIT
+  Q6 catalysing a step: R +1 (enzyme law added, none removed): HIT
+  Q4 dependent fifth step: HIT (delta 0)

@@ -1,0 +1,26 @@
+LYRA — PRE-REGISTERED PREDICTIONS, TEST 3: how many bodies should fixed substrate be split into?
+Written 2026-09-05 before the run. Lane B (Casey, private).
+
+DESIGN: 36 vertices total, held constant. Cold move set (intra-unit 4-cycles only, T1 holds).
+  n=1  one 6x6 torus            (monolith; R alone = 2.3504, 41 classes, 90,176 states)
+  n=2  two 3x6 tori   + k cross bonds   (each unit alone: 224 states, 2 classes, R = 1.0000)
+  n=3  three 3x4 tori + k cross bonds   (each unit alone:  50 states, 1 class,  R = 0.0000)
+CONFOUND, stated up front: the units differ in shape and in their solo record. This is the only
+fixed-substrate ladder 36 vertices admits. Report it, do not hide it.
+
+PREDICTIONS
+ N1 R is MONOTONE INCREASING in n at matched k. Junctions carry record; more bodies, more junctions.
+ N2 H_thermo is MONOTONE DECREASING in n at matched k. Coupling spends heat (measured: k=0->16
+    on the 4x4 pair took H_th 15.62 -> 11.99).
+ N3 THE REAL ONE: n=2 is the sustainable optimum -- n=3 wins on raw R but its H_thermo falls
+    closest to the floor, i.e. three is "more complex and nearer frozen".
+    If instead n=3 holds H_thermo as well as n=2 while carrying more R, then there is no
+    thermodynamic argument for two, and the binary preference in biology needs another cause.
+ N4 The monolith n=1 is BEATEN by n=2 on R at moderate k. If the monolith wins, "complexity lives
+    at the junction" is wrong at fixed substrate and the whole reading of section 6 is in trouble.
+ N5 Certificates survive at every n under the cold move set. This is FORCED by T1, not evidence;
+    it is here only as a pipeline check. A failure means the code is wrong.
+
+WHAT WOULD KILL THE READING
+ N4 reversed -> junctions do not pay at fixed material; today's 10.06x was a substrate-size effect.
+ N3 reversed -> no ledger reason for binary; my answer to Casey's gamete question is unsupported.

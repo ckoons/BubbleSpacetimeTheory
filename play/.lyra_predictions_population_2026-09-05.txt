@@ -1,0 +1,40 @@
+LYRA — TEST 17: A POPULATION OF COOPERATING PAIRS. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; run launched separately.
+
+CASEY (2026-09-05): "take a group of cooperating pairs; some variations will be better and those
+variations will reproduce better."
+
+WHY THIS MATTERS: Section 21 said refusal needs an observer, and I defined living as a system that
+performs its OWN refusals -- too strict. Casey's picture supplies the demon from a different place:
+**the act of reproduction IS the measurement.** A pair reads its own state to specify its copy.
+A pair whose record melted before copying passes on noise; one whose record held passes on itself.
+No external selector, and H_obs is not an extra cost because the read IS the record.
+
+CIRCULARITY GUARD -- the thing most likely to make this worthless. If I score fitness as "record
+retained" and then observe record increasing, that is construction-guaranteed and proves nothing
+(cf. hunt-if-P). **THERE IS NO FITNESS FUNCTION IN THIS EXPERIMENT.** The only mechanism is:
+the parameter theta that controls protection is ENCODED IN THE RECORD IT PROTECTS. Individuals
+copy at interval T; junctions active at horizon T scramble; theta is read from the (possibly
+scrambled) bits. Whatever concentrates, concentrates without anyone scoring it.
+
+PREDICTIONS
+ P1 NEGATIVE CONTROL, and it must be run first. With protection DISABLED for everyone (eps fixed
+    at 1, so theta cannot matter), the population must stay UNIFORM over theta. If it concentrates
+    anyway, the drift is an artifact of my sampling and nothing else in this test counts.
+ P2 With theta free, the population CONCENTRATES on protective theta -- self-protection is
+    selected for with no selector present. Point estimate: >70% of the population on the two most
+    protective theta values within 200 generations.
+ P3 Convergence speed depends on the copy interval T, and is fastest when T sits in the range where
+    theta actually changes retention. Outside that range there is nothing for transmission to
+    discriminate on and the population should drift, not converge.
+ P4 THE ONE I CARE ABOUT: **selection is TIMESCALE-RELATIVE.** The theta that wins is the one that
+    protects at the COPY interval, not the absolute strongest. At short T, weak protection suffices
+    and there should be NO pressure toward stronger protection. If instead the population always
+    runs to maximum protection regardless of T, then protection is not being tuned by transmission
+    and my reading of the mechanism is wrong.
+
+WHAT WOULD KILL IT
+ P1 fails -> instrument broken, stop.
+ P2 fails (no concentration) -> reproduction-as-measurement does not by itself select for
+    retention, and Casey's route needs an explicit selector after all.
+ P4 fails -> the mechanism is not transmission-fidelity tuning and I should say so plainly.

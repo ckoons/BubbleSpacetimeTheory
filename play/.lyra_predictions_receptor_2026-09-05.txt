@@ -1,0 +1,40 @@
+LYRA — TEST 18: THE RECEPTOR AS THE FIRST BLIND DEMON. Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; run launched separately.
+
+CASEY (2026-09-05): the first blind observers were chemical receptors that "tasted", and when a
+preferred taste appeared the object took it into its body. Then lots of Pac-Men eating the
+environment; add secondary behaviours and that looks like life.
+
+WHY THIS SETTLES THE OBSERVER ACCOUNTING. A receptor does not measure-then-decide; the measurement
+IS the decision. Nothing is stored, so nothing is erased, so there is NO Landauer cost per read.
+H_obs per encounter = 0. **But the receptor's specificity is itself a record that must be held
+against decay.** So the demon's price is not per-measurement -- it is the STANDING COST OF
+MAINTAINING THE DISTINGUISHER, which this framework already measures.
+And eating is simultaneously the refusal AND the capacity intake: two legs, one act.
+
+MODEL. Molecule types are B bits. Nutritious types occur with probability p. A receptor reads b
+bits and ingests on a match, so it accepts a fraction 2^-b of encounters. Ingesting a bad molecule
+costs c. Holding b bits of specificity against decay costs b*mu per unit time.
+  NET = p(v+c) - 2^-b * c - b*mu     (subject to 2^-b >= p: cannot out-resolve the environment)
+
+PREDICTIONS
+ R1 The optimum is INTERIOR: b* = log2(c ln2 / mu). If instead the net is monotone in b, there is
+    no trade-off and the receptor story adds nothing quantitative.
+ R2 b* is INDEPENDENT OF v, the value of good food. Selectivity is set by the cost of MISTAKES and
+    the decay rate of the record, not by how good the prize is. I did not expect this before
+    writing the algebra and it is the sharpest thing here.
+ R3 b* RISES with c (mistakes expensive -> discriminate) and FALLS with mu (record decays fast ->
+    cannot afford to hold specificity).
+ R4 THE ENVIRONMENT CAP. The constraint 2^-b >= p binds in RICH environments: when good food is
+    common you cannot be more selective than the environment's structure allows, so b is capped
+    LOW. In POOR environments the cap is loose and the interior optimum applies.
+    **Predicted signature: rich environment -> low selectivity, high throughput. Poor environment
+    -> high selectivity.** This is the copiotroph/oligotroph distinction and I did not build it in.
+ R5 At mu large enough (record decays faster than it pays to hold any specificity), b* = 0 --
+    a NON-SELECTIVE eater. So the first eaters should be indiscriminate, and selectivity appears
+    only once retention is cheap enough. That is an ordering claim about origins.
+
+WHAT WOULD KILL IT
+ R1 false (monotone) -> no interior optimum, the trade-off is fictitious.
+ R2 false (b* depends on v) -> my algebra is wrong and the sharp claim goes.
+ R4 false (cap never binds) -> the rich/poor distinction does not come out of this model.

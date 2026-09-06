@@ -1,0 +1,32 @@
+LYRA — TEST 5 predictions. THE POLICY CONTROL. Written 2026-09-05 BEFORE the run.
+Registration verified by shasum immediately below, before launch (the D-test lesson).
+
+WHY: the 0.50-0.65 exchange rate is my best number and my only "two instances" claim.
+BOTH instances used the SAME greedy best-split refusal policy. Friday's own result was that
+the break-even is a property of the SEARCH POLICY, not the instance. So the two instances may
+be one policy measured twice. This test can kill the headline.
+
+DESIGN: Arm A (pure selection, no growth) on the 4x6 torus, both move sets, refusal policy varied:
+  GREEDY   best split among 120 sampled pairs        [what both instances used]
+  EXHAUST  best split among ALL pairs
+  RANDOM   first admissible pair, no selection at all
+  WORST    the admissible pair that gains the LEAST record
+  ANTI     the admissible pair that maximises states killed (a "wasteful" policy)
+
+PREDICTIONS
+ P1 The band MOVES with policy. RANDOM and WORST come in BELOW 0.50; ANTI lowest.
+ P2 EXHAUST comes in AT or ABOVE greedy (more search, better conversion) -- if EXHAUST is
+    much higher than 0.65, then 0.50-0.65 is a property of my SAMPLE SIZE of 120, which would
+    be the most embarrassing possible cause.
+ P3 THE ONE THAT MATTERS: if RANDOM also lands in 0.50-0.65, the rate is policy-INDEPENDENT
+    and is a real property of the record space. I do NOT expect this. Point estimate for
+    RANDOM: 0.30-0.45.
+ P4 The FREEZING result (H_thermo hits 0 exactly at the R peak) is policy-INDEPENDENT --
+    that one follows from T7 and should hold for every policy.
+
+WHAT WOULD KILL THE HEADLINE
+ P1 confirmed -> "0.50-0.65 reproduced in two record spaces" is WITHDRAWN and replaced by
+ "the greedy policy converts at 0.50-0.65 in two record spaces", which is a much smaller claim.
+WHAT WOULD PROMOTE IT
+ P3 reversed (random lands in band) -> the rate is a property of the space, not the searcher,
+ and it becomes the most interesting number in the program.

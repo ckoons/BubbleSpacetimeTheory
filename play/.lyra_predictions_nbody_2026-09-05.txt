@@ -1,0 +1,37 @@
+LYRA — TEST 16: HOW MANY NODULES DOES PERSISTENCE TAKE? Written BEFORE the run, 2026-09-05.
+Absolute path; shasum in this same command; run launched separately.
+
+CASEY'S OBSERVATION (2026-09-05): in organic slurry under a cycling energy source, "it takes more
+than one set or pairs of nodules to persist."
+
+THIS CONTRADICTS MY OWN RESULT. Section 9 (seams not bodies) found two bodies beat three at fixed
+substrate. But that was OBSERVER-FREE coupling with no gating. Mutual gating is a different object:
+a 2-cycle is a symmetric pair, a 3-cycle (A gates B gates C gates A) is a directed loop. Both
+results cannot be right about assemblies.
+
+DESIGN: total junctions held FIXED at 12, so the state space is 2^12 = 4096 in every arrangement.
+  n=2 x 6 junctions | n=3 x 4 | n=4 x 3 | n=6 x 2.
+Gating topologies: CYCLE (body i suppressed when body i+1 is closed) and ALL-PAIRS.
+All bodies at equal rate 1 -- the case where Test 15 showed mutual gating manufactures a hierarchy.
+TWO SCORES, because Casey said PERSIST, not HOLD THE MOST:
+  (a) BIT-DECADES  = total record x duration
+  (b) PERSISTENCE  = the largest horizon T at which R(T) > 0
+
+PREDICTIONS -- I am predicting AGAINST Casey on (a) and stating it plainly
+ N1 CONTROL. State space = 4096 in all four arrangements. If not, the comparison is not matched.
+ N2 On BIT-DECADES I expect **n=2 to WIN**. Full deadlock in an n-cycle needs every body closed,
+    a fraction 1/2^n: 1/4 at n=2, 1/8 at n=3, 1/16 at n=4, 1/64 at n=6. The frozen mass that
+    carried Test 15's record shrinks fast with n.
+ N3 On PERSISTENCE I genuinely do not know, and this is where Casey's observation could win.
+    A longer gating chain may need more coordinated unlocking events. I will score it either way.
+ N4 ALL-PAIRS gating should beat CYCLE at the same n, because every body then has a gate.
+ N5 If Casey is right on BOTH scores, then Section 9's "seams not bodies" is a statement about
+    OBSERVER-FREE coupling only, and does not transfer to gated assemblies. That would be a real
+    scope restriction on one of the day's headline results and I would have to say so.
+
+WHAT WOULD KILL WHAT
+ N2 wrong -> my mechanism story for Test 15 (record = frozen deadlock mass) is incomplete, since
+    something other than the all-closed fraction is carrying the record at higher n.
+ N2 right and N3 also n=2 -> Casey's slurry observation is not reproduced here and I should say
+    the model lacks whatever produces it (most likely the cycling energy source, which I have
+    NOT included: there is no replenishment in this test).
