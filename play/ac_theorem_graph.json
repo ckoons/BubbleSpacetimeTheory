@@ -5019,6 +5019,40 @@
    "proofs": [
     "DH 1936 + T2619 countermodel"
    ]
+  },
+  {
+   "id": "T2621",
+   "name": "Resonances of the spherical Eisenstein series on Γ\\D_IV^5, level 1 — the Resonance Theorem: pole set = {ζ-zeros at four shifts} ∪ {2-comb −1/2 + 2πik/ln 2} ∪ {λ = 3/2}; λ = 1/2 regular (DERIVED; Lyra L1, Elie 5704, Cal §855)",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "derived",
+   "plain": "Send a wave into the arithmetic quotient of D_IV^5 and watch what leaks back out: the scattering matrix has poles exactly at the zeros of Riemann's zeta, at four shifted positions, plus one extra evenly spaced comb of poles that comes from the prime 2 (because three squares cannot be zero mod 8). So the zeros of zeta ARE the resonances of this space. This pins WHERE the zeros sit in the continuous spectrum; it says nothing about their real parts, which is RH.",
+   "color": "#CDDC39",
+   "proofs": [
+    "L1 constant term (Gindikin–Karpelevich + JL at 2)",
+    "E6 5704",
+    "E9 5705"
+   ]
+  },
+  {
+   "id": "T1299",
+   "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
+   "domain": "number_theory",
+   "domain_label": "number_theory",
+   "status": "structural",
+   "plain": null,
+   "color": "#CDDC39",
+   "proofs": []
+  },
+  {
+   "id": "T1448",
+   "name": "Schwinger C2 Decomposition via Selberg Vertex Trace Formula",
+   "domain": "particle_physics",
+   "domain_label": "particle_physics",
+   "status": "proved",
+   "plain": null,
+   "color": "#CDDC39",
+   "proofs": []
   }
  ],
  "edges": [
@@ -7882,6 +7916,21 @@
   {
    "source": "T2619",
    "target": "T2620",
+   "type": "uses"
+  },
+  {
+   "source": "T2616",
+   "target": "T2621",
+   "type": "uses"
+  },
+  {
+   "source": "T1299",
+   "target": "T2621",
+   "type": "uses"
+  },
+  {
+   "source": "T2621",
+   "target": "T1448",
    "type": "uses"
   }
  ],

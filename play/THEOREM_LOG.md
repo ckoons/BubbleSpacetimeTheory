@@ -75,3 +75,4 @@
 | T2618 | The cone-zeta of D_IV^5 (Siegel-weighted orbit count on the Vinberg chamber of Z | D0 | K1863 §2 / K1862-A / K1862-C (Round 120 G6); Cal §852, 11:29 | 5693,5695,5697,5698,5699 | Grace | 2026-09-06 | derived |
 | T2619 | The five-squares Epstein zeta (= 3840 × the cone-zeta of D_IV^5) has (b) a certi | D0 | K1863 §3 (Round 120 G6); Cal §852, 11:29 | 5695 | Grace | 2026-09-06 | exhibited |
 | T2620 | Barrier constraint row (DH with the ζ_{ℤ⁵} oracle; positivity axis) | D0 | K1864 B; Cal §853, 12:08 | 5695,5697,5699 | Grace (claimed Keeper) | 2026-09-06 | constraint |
+| T2621 | Resonance theorem: zeros of ζ = resonances of Γ\D_IV^5 (four shifts + 2-comb) | D1 | K1866 §3; Cal C4 §858; C7 §862 | 5700,5704,5705 | Lyra (named) / Grace (registered) | 2026-09-06 | derived |
