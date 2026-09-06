@@ -5007,6 +5007,18 @@
    "plain": "The BST Dirac operator is built and works: its ladder closes so(5,2), it's self-adjoint in the FK metric, its spectrum is real and discrete, and its ground state is the bare vacuum.",
    "color": "#4A90D9",
    "proofs": []
+  },
+  {
+   "id": "T2620",
+   "name": "BARRIER CONSTRAINT (Davenport–Heilbronn 1936 with the program's own oracle): no proof of \"all zeros on the symmetry line Re s = σ₀/2\" from {positive coefficients, meromorphic continuation with finitely many poles, functional equation with gamma factors, polynomial vertical growth, theta origin} alone is valid — zeta_{Z^5} has all of them and off-line zeros; every proof of RH must use a property outside the list, and the one the literature names is ONE self-dual Euler product",
+   "domain": "number_theory",
+   "domain_label": "Number theory / RH row",
+   "status": "constraint",
+   "plain": "The geometry's own zeta function looks like Riemann's in every way a proof usually uses — positive coefficients, a functional equation, gamma factors, growth bounds, a theta function behind it — and yet has zeros off its line. So any argument that would work for both is wrong. A proof of RH has to use the one thing Riemann's zeta has and this one lacks: its coefficients multiply, as a single Euler product over the primes.",
+   "color": "#CDDC39",
+   "proofs": [
+    "DH 1936 + T2619 countermodel"
+   ]
   }
  ],
  "edges": [
@@ -7860,6 +7872,16 @@
   {
    "source": "T2617",
    "target": "T2619",
+   "type": "uses"
+  },
+  {
+   "source": "T2618",
+   "target": "T2620",
+   "type": "uses"
+  },
+  {
+   "source": "T2619",
+   "target": "T2620",
    "type": "uses"
   }
  ],

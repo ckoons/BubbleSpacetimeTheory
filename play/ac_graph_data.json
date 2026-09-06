@@ -25,7 +25,7 @@
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2619",
+  "max_tid": "T2620",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -3117,7 +3117,7 @@
    "tid": 186,
    "name": "Five Integers Uniqueness",
    "domain": "bst_physics",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -4295,7 +4295,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -17750,7 +17750,7 @@
    "tid": 1267,
    "name": "Zeta Synthesis",
    "domain": "number_theory",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 1,
    "conflation": 1,
    "section": null,
@@ -18208,7 +18208,7 @@
    "tid": 1298,
    "name": "Ramanujan Conjecture for Sp(6): Maass-Selberg Error Analysis",
    "domain": "number_theory",
-   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
+   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -18223,7 +18223,7 @@
    "tid": 1299,
    "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
    "domain": "number_theory",
-   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
+   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19623,7 +19623,7 @@
    "tid": 1396,
    "name": "Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier Kills All (RH-2)",
    "domain": "number_theory",
-   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19717,7 +19717,7 @@
    "tid": 1402,
    "name": "Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
    "domain": "qft",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -19813,7 +19813,7 @@
    "tid": 1408,
    "name": "Ramanujan at p=137: |α_i| = 1 (Tempered), |a_137| ≤ g = 7, Discrete PROVED",
    "domain": "number_theory",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19828,7 +19828,7 @@
    "tid": 1409,
    "name": "Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan Bound IS BST",
    "domain": "number_theory",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -35631,6 +35631,22 @@
    ],
    "date": "2026-09-06",
    "plain": "The geometry's own zeta function has a zero that is not on its line of symmetry — in fact one that sits beyond the edge where its series still converges absolutely, which an Euler product could never do — checked to twenty digits by two independent programs and by counting how the function winds around a small box; and inside the strip it has 26 more zeros off the line below height 60. Riemann's zeta is conjectured never to do this. So the cone's arithmetic looks like Riemann's in every way that a proof of RH usually uses, and yet fails RH: any proof that would work for both is wrong. The difference is that Riemann's coefficients multiply (the Euler product) and these do not."
+  },
+  {
+   "tid": 2620,
+   "name": "BARRIER CONSTRAINT (Davenport–Heilbronn 1936 with the program's own oracle): no proof of \"all zeros on the symmetry line Re s = σ₀/2\" from {positive coefficients, meromorphic continuation with finitely many poles, functional equation with gamma factors, polynomial vertical growth, theta origin} alone is valid — zeta_{Z^5} has all of them and off-line zeros; every proof of RH must use a property outside the list, and the one the literature names is ONE self-dual Euler product",
+   "domain": "number_theory",
+   "status": "CONSTRAINT row (not a theorem about ζ): a correct META-theorem with a countermodel (T2619). Cal §852's three amendments carried: (1) provenance — DH 1936 restated; Selberg class (Kaczorowski–Perelli, Acta Math. 182, 1999) already names the Euler product as load-bearing; Bombieri–Hejhal 1995 for linear combinations; (2) DH's own 1936 function is the STRONGER oracle on degree and coefficient size; ℤ⁵'s one added axis is POSITIVITY of coefficients; (3) \"equivalently the independence of the finite fields\" struck as an equivalence, kept as a reading. K1864 refinement: \"has an Euler product\" is not the boundary either (ζ_{ℤ⁴} = 8(1−4^{1−s})ζ(s)ζ(s−1) has one; ζ_{ℤ⁶} is a combination of two) — the property ζ has is ONE self-dual Euler product, no combination. Cal's word §853, 12:08.",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1864 B / K1863 §5 (Round 121 G13)",
+   "toys": [
+    5695,
+    5697,
+    5699
+   ],
+   "date": "2026-09-06",
+   "plain": "The geometry's own zeta function looks like Riemann's in every way a proof usually uses — positive coefficients, a functional equation, gamma factors, growth bounds, a theta function behind it — and yet has zeros off its line. So any argument that would work for both is wrong. A proof of RH has to use the one thing Riemann's zeta has and this one lacks: its coefficients multiply, as a single Euler product over the primes."
   }
  ],
  "edges": [
@@ -86949,6 +86965,18 @@
    "to": 2619,
    "source": "proved",
    "label": "K1863 §8: from T2617"
+  },
+  {
+   "from": 2618,
+   "to": 2620,
+   "source": "derived",
+   "label": "the identity makes the countermodel the program's own object"
+  },
+  {
+   "from": 2619,
+   "to": 2620,
+   "source": "exhibited",
+   "label": "the countermodel: off-line zeros of zeta_{Z^5}"
   }
  ],
  "chains": {},
@@ -90712,7 +90740,7 @@
    "tid": 186,
    "name": "Five Integers Uniqueness",
    "domain": "bst_physics",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -92376,7 +92404,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -110935,7 +110963,7 @@
    "full_name": "The Zeta Synthesis — Spectral ζ_Δ(s) Is the Master Generating Function of the Standard Model",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "toys": [
     1212,
     1309
@@ -111434,7 +111462,7 @@
    "name": "Ramanujan Conjecture for Sp(6): Maass-Selberg Error Analysis",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
+   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
    "toys": [
     1367
    ],
@@ -111450,7 +111478,7 @@
    "name": "Langlands-Shahidi Explicit for SO_0(5,2)",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — CONDITIONAL pending L5 (K1864 C, 2026-09-06: Sym² → ∧² in the second slot; temperedness argument reopened; never K-audited)",
+   "status": "proved — CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853: Sym² stands; r₁ = std^{⊕3} degree 6 is the error, where \"3 = N_c\" entered; ε-parity constraint is an identity for every π (L5); temperedness object undecided; never K-audited)",
    "toys": [
     1257,
     1259
@@ -112970,7 +112998,7 @@
    "name": "Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier Kills All (RH-2)",
    "domain": "number_theory",
    "depth": 1,
-   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "Attempt (K940 — RH-2 mechanism, not a referee-consensus proof) — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "toys": [
     1368,
     1384
@@ -113070,7 +113098,7 @@
    "name": "Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
    "domain": "qft",
    "depth": 0,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "toys": [
     1388,
     1382
@@ -113172,7 +113200,7 @@
    "name": "Ramanujan at p=137: |α_i| = 1 (Tempered), |a_137| ≤ g = 7, Discrete PROVED",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "toys": [
     1392
    ],
@@ -113188,7 +113216,7 @@
    "name": "Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan Bound IS BST",
    "domain": "number_theory",
    "depth": 0,
-   "status": "proved — input T1299/T1298 CONDITIONAL pending L5 (K1864 C, 2026-09-06)",
+   "status": "proved — input T1299/T1298 CONDITIONAL pending L5-revised + Cal C5 (K1864 C reversed by Cal §853; Sym² stands, r₁ degree-6 error, ε-identity)",
    "toys": [
     1419
    ],
@@ -133518,12 +133546,28 @@
    ],
    "date": "2026-09-06",
    "plain": "The geometry's own zeta function has a zero that is not on its line of symmetry — in fact one that sits beyond the edge where its series still converges absolutely, which an Euler product could never do — checked to twenty digits by two independent programs and by counting how the function winds around a small box; and inside the strip it has 26 more zeros off the line below height 60. Riemann's zeta is conjectured never to do this. So the cone's arithmetic looks like Riemann's in every way that a proof of RH usually uses, and yet fails RH: any proof that would work for both is wrong. The difference is that Riemann's coefficients multiply (the Euler product) and these do not."
+  },
+  {
+   "tid": 2620,
+   "name": "BARRIER CONSTRAINT (Davenport–Heilbronn 1936 with the program's own oracle): no proof of \"all zeros on the symmetry line Re s = σ₀/2\" from {positive coefficients, meromorphic continuation with finitely many poles, functional equation with gamma factors, polynomial vertical growth, theta origin} alone is valid — zeta_{Z^5} has all of them and off-line zeros; every proof of RH must use a property outside the list, and the one the literature names is ONE self-dual Euler product",
+   "domain": "number_theory",
+   "status": "CONSTRAINT row (not a theorem about ζ): a correct META-theorem with a countermodel (T2619). Cal §852's three amendments carried: (1) provenance — DH 1936 restated; Selberg class (Kaczorowski–Perelli, Acta Math. 182, 1999) already names the Euler product as load-bearing; Bombieri–Hejhal 1995 for linear combinations; (2) DH's own 1936 function is the STRONGER oracle on degree and coefficient size; ℤ⁵'s one added axis is POSITIVITY of coefficients; (3) \"equivalently the independence of the finite fields\" struck as an equivalence, kept as a reading. K1864 refinement: \"has an Euler product\" is not the boundary either (ζ_{ℤ⁴} = 8(1−4^{1−s})ζ(s)ζ(s−1) has one; ζ_{ℤ⁶} is a combination of two) — the property ζ has is ONE self-dual Euler product, no combination. Cal's word §853, 12:08.",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1864 B / K1863 §5 (Round 121 G13)",
+   "toys": [
+    5695,
+    5697,
+    5699
+   ],
+   "date": "2026-09-06",
+   "plain": "The geometry's own zeta function looks like Riemann's in every way a proof usually uses — positive coefficients, a functional equation, gamma factors, growth bounds, a theta function behind it — and yet has zeros off its line. So any argument that would work for both is wrong. A proof of RH has to use the one thing Riemann's zeta has and this one lacks: its coefficients multiply, as a single Euler product over the primes."
   }
  ],
  "metadata": {
-  "node_count": 2396,
-  "edge_count": 10242,
-  "theorem_count": 2396,
-  "synced": "2026-09-06 both lists (Grace G6)"
+  "node_count": 2397,
+  "edge_count": 10244,
+  "theorem_count": 2397,
+  "synced": "2026-09-06 both lists (Grace G13)"
  }
 }

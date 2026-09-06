@@ -10,6 +10,9 @@ parents: "T186 (Five Integers), T1233 (Zeta Ladder), T1244 (Spectral Chain), T12
 children: "RH via winding-to-zeta (if proved), automorphic L-function special values"
 ---
 
+> **[CONDITIONAL — 12:11 EDT 2026-09-06, Grace G11 second pass, per Cal §853 + Lyra L5.** This row's "overconstrained" count used T1299's Maass–Selberg ε-parity constraint (0), which L5 shows is an identity for every π (ε(s,r)ε(1−s,r) = ω_r(−1)), so (0) contributes nothing; T1299's Sym² slot STANDS (Cal §853: L-functions are indexed on the dual group, Sp₆'s Siegel corner is Sym²) but its r₁ = std^{⊕3} (degree 6, the site where "3 = N_c" entered) is wrong (should be std ⊗ std_{Sp₂}, degree 4); and the temperedness OBJECT is undecided (Arthur's classification for odd orthogonal groups has non-tempered CAP parameters). The remaining conditions (A)–(G) here have no literature theorem behind them and no K-audit. Pending L5-revised and Cal C5.]**
+
+
 # T1262: BST-Restricted Ramanujan — Triple Pole Forcing on Q⁵
 
 *The Ramanujan conjecture for Sp(6), restricted to automorphic forms arising from D_IV^5 geometry, is overconstrained: 7 independent constraints eliminate 6 non-tempered Arthur types. The critical mechanism is the triple pole structure from m_s = N_c = 3, which provides N_c independent symmetry conditions per ξ-zero. The Q⁵ intertwining operator has triple ξ-ratios that force Satake parameters to the tempered boundary through N_c-fold cancellation.*
