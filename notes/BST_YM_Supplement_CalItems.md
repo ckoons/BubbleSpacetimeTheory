@@ -30,7 +30,7 @@ In BST: N_c = 3 (from short root multiplicity), n_f = C_2 = 6 (six quark flavors
 
 b_0 = 11 - 4 = 7 = g
 
-**The one-loop beta function coefficient IS the genus g.** Asymptotic freedom holds because b_0 = g > 0, which is guaranteed by the bound g > C_2 (i.e., 7 > 6) proved in T1262.
+**The one-loop beta function coefficient IS the genus g.** Asymptotic freedom holds because b_0 = g > 0, which is guaranteed by the bound g > C_2 (i.e., 7 > 6) proved in T1262. **[CONDITIONAL — 08:00 EDT 2026-09-07, Grace R125 consumer sweep: this sentence leans on T1299's April temperedness argument ("the odd exponent 3 = N_c prevents cancellation" — WITHDRAWN, Lyra L5/K1866: the Maass–Selberg ε-product is an identity for every π) and/or on T1262's unaudited constraints (A)–(G) (WITHDRAWN as a theorem, Cal §859). Any use of D_IV⁵ temperedness, "Ramanujan for Sp(6)", or "b₀ = g from T1262" here is unsupported until re-derived; T1299 v3 (STRUCTURAL) keeps only the operator's shape.]**
 
 **For Paper #76**: Add to Section 4 (Non-Triviality) or Section 7 (Comparison). Cite BST_StrongCoupling_AlphaS.md for the running coupling derivation.
 

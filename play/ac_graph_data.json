@@ -19797,7 +19797,7 @@
    "tid": 1407,
    "name": "Selberg Phase 3: B₂ Scattering Matrix, 8 Zeta Copies, One Geodesic Dominates",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — CONDITIONAL (08:00 2026-09-07, Grace R125 consumer sweep): leans on T1299's withdrawn odd-exponent argument / T1262's unaudited (A)–(G)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -19871,7 +19871,7 @@
    "tid": 1412,
    "name": "GRS Descent: Sym⁵→GL(C₂) + Sym⁶→GL(g) Closes Functoriality Chain",
    "domain": "number_theory",
-   "status": "proved",
+   "status": "proved — CONDITIONAL (08:00 2026-09-07, Grace R125 consumer sweep): leans on T1299's withdrawn odd-exponent argument / T1262's unaudited (A)–(G)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -21196,7 +21196,7 @@
    "tid": 1448,
    "name": "Schwinger C2 Decomposition via Selberg Vertex Trace Formula",
    "domain": "particle_physics",
-   "status": "proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired",
+   "status": "proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired — ln 137 clause amended 08:00 09-07 (Elie 5714: the twisted-ratio constant cancels; ln 137 only as the FE-normalisation unit, Cal §874)",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -113245,7 +113245,7 @@
    "name": "Selberg Phase 3: B₂ Scattering Matrix, 8 Zeta Copies, One Geodesic Dominates",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "proved — CONDITIONAL (08:00 2026-09-07, Grace R125 consumer sweep): leans on T1299's withdrawn odd-exponent argument / T1262's unaudited (A)–(G)",
    "toys": [
     1391,
     1416
@@ -113324,7 +113324,7 @@
    "name": "GRS Descent: Sym⁵→GL(C₂) + Sym⁶→GL(g) Closes Functoriality Chain",
    "domain": "number_theory",
    "depth": 1,
-   "status": "proved",
+   "status": "proved — CONDITIONAL (08:00 2026-09-07, Grace R125 consumer sweep): leans on T1299's withdrawn odd-exponent argument / T1262's unaudited (A)–(G)",
    "toys": [
     1394
    ],
@@ -114907,7 +114907,7 @@
    "name": "Schwinger C2 Decomposition via Selberg Vertex Trace Formula",
    "domain": "particle_physics",
    "depth": 1,
-   "status": "proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired",
+   "status": "proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired — ln 137 clause amended 08:00 09-07 (Elie 5714: the twisted-ratio constant cancels; ln 137 only as the FE-normalisation unit, Cal §874)",
    "toys": [],
    "date": "2026-04-29",
    "commitment_cycle_zone": "Z4",

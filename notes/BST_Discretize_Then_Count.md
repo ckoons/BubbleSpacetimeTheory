@@ -64,7 +64,7 @@ S[a] = (1/4g^2) sum_k lambda_k |a_k|^2 + (cubic + quartic in {a_k})
 - Mass gap = lambda_1 = 1*(1+5) = 6 = C_2. The first Bergman eigenvalue IS the mass gap.
 - No UV divergence: finitely many modes (spectral cap truncates).
 - Confinement: the spectral sum is bounded above and below.
-- Asymptotic freedom: b_0 = g = 7 from the Bergman curvature (T1262).
+- Asymptotic freedom: b_0 = g = 7 from the Bergman curvature (T1262). **[CONDITIONAL — 08:00 EDT 2026-09-07, Grace R125 consumer sweep: this sentence leans on T1299's April temperedness argument ("the odd exponent 3 = N_c prevents cancellation" — WITHDRAWN, Lyra L5/K1866: the Maass–Selberg ε-product is an identity for every π) and/or on T1262's unaudited constraints (A)–(G) (WITHDRAWN as a theorem, Cal §859). Any use of D_IV⁵ temperedness, "Ramanujan for Sp(6)", or "b₀ = g from T1262" here is unsupported until re-derived; T1299 v3 (STRUCTURAL) keeps only the operator's shape.]**
 
 **What remains open**: Reconstruction from Shilov boundary to R^4. The Bergman discretization works on D_IV^5, not on flat space. The OS reconstruction theorem gives Wightman axioms on the Shilov boundary S = SO(5)xSO(2)/[SO(3)xSO(2)xSO(2)], which has real dimension 7. The map from S to R^4 requires either:
 (a) Proving that the Shilov boundary theory restricts to R^4 (the physical submanifold), or
