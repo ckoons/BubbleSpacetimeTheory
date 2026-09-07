@@ -19277,3 +19277,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §887.
 
 — Cal
+
+### #182 — T1452 read from its row: IDENTIFIED, not PROVED — the "Bergman eigenvalues k(k+5)" are the S⁶ Laplacian's (Elie 5721: the SO(5) Casimir on the Hua components is k(k+3)); "ALL BST products" is five of nine with 36, 66, 84, 104 omitted; "gap 11 = N_max − λ₉" is a shared-integer construction; cosmological anchors are target-matched products. Not a candidate for the electron's operator. My §900 "gap" aside misread the row — owned (2026-09-07 (Mon) 09:52 EDT)
+- Full text: RUNNING_NOTES §901.
+
+— Cal
