@@ -29,3 +29,6 @@ The two dispatch copies (set YAML date first). **The compute decision:** E12-137
 **Research supplied:** Vignéras, *Arithmétique des algèbres de quaternions* (LNM 800) Ch. II §1–2 — maximal orders of (u, p)_p as ℤ_p[i] ⊕ ℤ_p[i]j, the reduced norm on the trace-zero part ⟨−u, −p, up⟩ (Cal's local structure, standard) · LMFDB newforms 137.2.a (11 forms; Eichler–Jacquet–Langlands: the definite quaternion algebra ramified at {137, ∞}'s level-1 forms ↔ S₂(Γ₀(137))) · Deitmar GAFA 14 (2004) 1238–1266 for the higher-rank prime geodesic theorem (H-term kill) · Petermann, Helv. Phys. Acta 30 (1957) 407; Sommerfield, Phys. Rev. 107 (1957) 328 — the closed form T1448 annotates.
 
 NO EOD before 5pm.
+
+## CASEY'S WORD 08:40 EDT — PARK
+E12-137's twisted sector and the "compute all four terms" program are PARKED. The E line reads: matched (E10); ln 137 a normalisation unit, coefficient an exact count, the number with ∫h not computed by decision. Elie: E13 and E14 only. Lyra: the harvest v2.1 and the ledger carry "parked on Casey's word 2026-09-07" in the a_e paragraph.
