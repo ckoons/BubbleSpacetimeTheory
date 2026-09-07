@@ -1,0 +1,12 @@
+line                       E keV        x  edge keV  T_max=2x/(1+2x)  cost x/(1+2x) exceeds 1/2
+Am-241                    59.541  0.11652    11.253          0.18899        0.09450       False
+Ba-133                   356.013  0.69670   207.265          0.58218        0.29109        True
+Na-22 (annihilation)     510.999  1.00000   340.666          0.66667        0.33333        True
+Cs-137                   661.657  1.29483   477.334          0.72142        0.36071        True
+Mn-54                    834.848  1.63376   639.219          0.76567        0.38284        True
+Co-60 a                 1173.228  2.29595   963.420          0.82117        0.41058        True
+Na-22                   1274.537  2.49421  1061.703          0.83301        0.41651        True
+Co-60 b                 1332.492  2.60762  1118.101          0.83911        0.41955        True
+
+T_max > 1/2 iff x > 1/2 iff E > m_ec²/2 = 255.499 keV: every line above 255.5 keV is a witness; Cs-137's edge = 477.334 keV, fraction 0.721422.
+Cal's label note confirmed: at Cs-137, x = 1.29483, cost x/(1+2x) = 0.36071 (Lyra's text printed 0.360711 as 'x'; it is the cost).
