@@ -19235,3 +19235,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §876; instrument cal_H15_* + OUTPUT.
 
 — Cal
+
+### #174 — E12 level 137 vs hold 9e688fcc §A: H21–H24 all held (ln 2 unchanged per block; ln 137 negative from the FE-normalisation conductor power, not the ξ-ratios; no ln π; N_max as its own conductor logarithm, 35:1 over ln 2 in the constant sector). Notes: both constants are normalisation units; refuse 136·673 (2026-09-07 (Mon) 08:05 EDT)
+- Full text: RUNNING_NOTES §877.
+
+— Cal
