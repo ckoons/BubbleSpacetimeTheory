@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+"""Grace — registration of T2623, the NEGATIVE row of the substrate lane (K1877 §1; Cal §895 (2) word GIVEN with three clauses).
+Usage: python3 .grace_register_T2623_negative_row_on_cal_word.py --cal-word "§895, 09:32"
+Claim file play/.claims/theorem_T2623_Grace.claim (09:46). Edge from = INPUT -> to = CONSEQUENCE: T2543 -> T2623 (the record-as-idempotent
+dictionary is what the sentence is about). No edge to T1136 (named in the row as the surviving timing falsifier). Domain: substrate / physics.
+"""
+import json, sys, os, glob, subprocess, datetime
+here = os.path.dirname(os.path.abspath(__file__)); root = os.path.dirname(here); a = sys.argv[1:]
+if '--cal-word' not in a: print('REFUSED: --cal-word required'); sys.exit(1)
+calword = a[a.index('--cal-word') + 1]
+if not glob.glob(os.path.join(here, '.claims', 'theorem_T2623_*')): print('REFUSED: no claim file'); sys.exit(1)
+today = datetime.date.today().isoformat(); stamp = subprocess.run(['date', '+%H:%M'], capture_output=True, text=True).stdout.strip(); tid, tid_s = 2623, 'T2623'
+name = 'NEGATIVE / SCOPE THEOREM of the record-space dictionary (K1860 A–P): the push is NOT the Compton recoil under any loading of the word length m (cap 1/2 vs the Cs-137 Compton edge 0.7214); the dictionary has NO kinematics (no momentum, no ΔE/E), so its only falsifiers are TIMING or COUNTS; the 1/(m+2) push cost is retired as a disc-model number'
+plain = ('The record-space picture says an electron "writes" information in words of length m and pays a "push" cost for each. Someone proposed the push is the kick a photon gives an electron in Compton scattering. '
+         'That kick can carry more than half the photon\'s energy (caesium-137\'s 662 keV line gives 72 %), while the picture caps the push at one half — so the proposal is wrong however m is read. What is learned: the picture has no momentum and no energy ratio in it at all, so anything it predicts must be a time or a count, never a kick. The old "one fifth per commitment" was a number from the wrong model of the disc.')
+registry = (f'| T2623 | NEGATIVE ROW — PUSH ≠ COMPTON RECOIL; THE RECORD-SPACE DICTIONARY HAS NO KINEMATICS (K1877 §1; Cal §895 (2) word; Round 128–129; registered {stamp} {today}). THE SENTENCE (Lyra, hashed 851a1355 before any data): "If the maximal fractional energy transfer from a photon to a free electron in Compton scattering exceeds one half at any energy, then identifying the push cost with the Compton recoil is wrong under every loading of m." '
+            'Loadings scored (Cal §893): m as energy — the wrong trend (push cost 1/(m+2) falls, Compton transfer rises); m as cycles — the right trend but a cap of ½ where Compton reaches 1; m as the fixed word length — no statement (the dictionary has no momentum). DATA (Elie 5720, pinned to LNHB): ¹³⁷Cs at 661.6566 keV, Compton edge 477.334 keV, fraction 0.72142 > ½; a FAMILY, not a witness: every calibration line above m_e c²/2 = 255.5 keV exceeds the cap (Ba-133, 511, Cs-137, Mn-54, Co-60, Na-22; only Am-241 sits below). STATUS: ALREADY REFUTED. '
+            'THREE CLAUSES (Cal §895): (i) what is refuted is an IDENTIFICATION (push = recoil under any loading of m), NOT BST — the witness is the Cs-137 edge; (ii) the positive content is the SCOPE THEOREM "the dictionary has no kinematics: no momentum, no ΔE/E," which restricts every future substrate falsifier to TIMING (the tick, T1136: τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare, a₀/c = 0.17651 as measured; C2\'s Y = N × 0.1765 as as an N-photon absolute offset — NOT YET MEASURED, ≲ 0.05 as needed against Ossiander\'s 0.97 as) or COUNTS (the threshold curve and branching — map owed, C6); (iii) the 1/(m+2) = 1/5 push cost is RETIRED as a disc-model number — on the Lie ball with the Bergman measure the m = 3 matter word sits at 0.3945 (Lebesgue) / 0.0786 (defining function) from the boundary (Elie 5719), and the "2.72 eV per commitment" that descended from 1/5 goes with it (Bérut et al. 2012 measure the erasure floor at kT ln 2 = 17.9 meV at 300 K); this row quotes 1/5 nowhere as a value. '
+            'TIER: the refutation is a theorem-grade NEGATIVE (data pinned, family swept); the timing sentence is PREDICTED, unmeasured; the counts sentence is not yet written. Instruments: Lyra MAP C5 (851a1355), Elie 5719 (6/6 vs a2e9c8dd) + 5720, Cal §890–§894. Input: T2543 (the record as an idempotent — the dictionary\'s registered base). | NEGATIVE (theorem-grade; scope theorem) | graph-node (substrate lane) | 5719, 5720 | {today} |')
+reg = os.path.join(root, 'notes', 'BST_AC_Theorem_Registry.md'); gd_p = os.path.join(here, 'ac_graph_data.json'); gt_p = os.path.join(here, 'ac_theorem_graph.json')
+gd = json.load(open(gd_p, encoding='utf-8')); gt = json.load(open(gt_p, encoding='utf-8')); ids = {t['tid'] for t in gd['theorems']}
+if tid in ids: print('already registered'); sys.exit(0)
+lines = open(reg, encoding='utf-8').read().split('\n'); anchor = max(i for i, l in enumerate(lines) if l.startswith('| T2622 |')); lines.insert(anchor + 1, registry); open(reg, 'w', encoding='utf-8').write('\n'.join(lines))
+rec = dict(tid=tid, name=name, domain='substrate_lane', status=f'NEGATIVE (theorem-grade refutation of the identification push = recoil; scope theorem: no kinematics; Cal {calword}; K1877 §1)', depth=0, conflation=0, section='K1877 §1 / Cal §895 (Rounds 128–129)', toys=[5719, 5720], date=today, plain=plain)
+gd['theorems'].append(rec); gd['nodes'].append(dict(rec))
+assert 2543 in ids
+gd['edges'].append({'from': 2543, 'to': tid, 'source': 'negative', 'label': 'the record-as-idempotent dictionary (K1860 A–P) is the object whose kinematic reading is refuted'}); gt['edges'].append({'source': 'T2543', 'target': tid_s, 'type': 'uses'})
+color = next((n.get('color') for n in gt['nodes'] if n.get('domain') == 'substrate_lane'), '#B05A5A')
+if not any(n['id'] == 'T2543' for n in gt['nodes']):
+    t = [x for x in gd['theorems'] if x['tid'] == 2543][0]; gt['nodes'].append(dict(id='T2543', name=t['name'], domain=t['domain'], domain_label=t['domain'], status=str(t['status']).split(' ')[0].lower(), plain=t.get('plain', ''), color=color, proofs=[]))
+gt['nodes'].append(dict(id=tid_s, name=name, domain='substrate_lane', domain_label='Substrate lane (record space)', status='negative', plain=plain, color=color, proofs=['Cs-137 Compton edge 0.7214 > cap 1/2 (Elie 5720)', 'Lie-ball 0.3945 vs disc 0.200 (Elie 5719)']))
+gd['metadata'].update(node_count=len(gd['nodes']), edge_count=len(gd['edges']), theorem_count=len(gd['theorems']), synced=f'{today} both lists (Grace R130)'); gd['meta']['max_tid'] = f'T{max(ids | {tid})}'; gd['meta']['last_updated'] = today
+json.dump(gd, open(gd_p, 'w', encoding='utf-8'), indent=1, ensure_ascii=False); json.dump(gt, open(gt_p, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+open(os.path.join(here, 'THEOREM_LOG.md'), 'a').write(f"| T2623 | Negative row: push ≠ Compton recoil; the record-space dictionary has no kinematics; 1/(m+2) retired | D0 | K1877 §1; Cal {calword} | 5719,5720 | Grace | {today} | negative |\n")
+for cf in glob.glob(os.path.join(here, '.claims', 'theorem_T2623_*')): open(cf, 'a').write(f'Registered: {today} {stamp} on Cal\'s word ({calword})\n')
+ids2 = {t['tid'] for t in gd['theorems']}; gids = {n['id'] for n in gt['nodes']}
+print('registered T2623 |', len(gd['theorems']), len(gd['nodes']), len(gd['edges']), '|', len(gt['nodes']), len(gt['edges']), '| edges', [(e['from'], e['to']) for e in gd['edges'] if 2623 in (e['from'], e['to'])])
+print('dangling data:', [e for e in gd['edges'] if e['from'] not in ids2 or e['to'] not in ids2], '| curated:', [e for e in gt['edges'] if e['source'] not in gids or e['target'] not in gids])

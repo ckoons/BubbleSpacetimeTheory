@@ -20,12 +20,12 @@
   "D1": 526,
   "D2": 42,
   "node_count": 2374,
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "edges": 10135,
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2622",
+  "max_tid": "T2623",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -4295,7 +4295,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
+   "status": "IDENTIFIED (Cal §888, 09:48 09-07: b₀ = 11 − 2n_f/3 = 7 needs N_c = 3 AND n_f = 6; \"= g\" a coincidence of that arithmetic; in force above m_t incl. μ_geo = v, at none of T2074's four landings; sign GWP; T1262 clause struck) — proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -15250,7 +15250,7 @@
    "tid": 1136,
    "name": "Koons Tick — Time as Observer Counting",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured",
    "depth": 0,
    "conflation": 1,
    "section": "BST_AC_Theorems Section TBD",
@@ -20775,7 +20775,7 @@
    "tid": 1475,
    "name": "QCD Beta Function is Genus",
    "domain": "qft",
-   "status": "Tier-2 FINAL (K1052; 11/3 universal 4D YM = consistency, not derivation)",
+   "status": "IDENTIFIED (Cal §888, 09:48 09-07: b₀ = 11 − 2n_f/3 = 7 needs N_c = 3 AND n_f = 6; \"= g\" a coincidence of that arithmetic; in force above m_t incl. μ_geo = v, at none of T2074's four landings; sign GWP; T1262 clause struck) — Tier-2 FINAL (K1052; 11/3 universal 4D YM = consistency, not derivation)",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -35678,6 +35678,21 @@
    ],
    "date": "2026-09-06",
    "plain": "Build the small definite part of the lattice by the rule — from the generators of the maximal order — and reduce it mod p: it has rank one there, and that single fact fixes the comb spacing at π/ln p for every odd prime. The earlier lattice ⟨1,1,3⟩ was in the other class (rank two mod 3) and gave twice the spacing; it was never the rule's. At p = 2 the odd planes cancel half the comb, which is why T2621 shows 2π/ln 2."
+  },
+  {
+   "tid": 2623,
+   "name": "NEGATIVE / SCOPE THEOREM of the record-space dictionary (K1860 A–P): the push is NOT the Compton recoil under any loading of the word length m (cap 1/2 vs the Cs-137 Compton edge 0.7214); the dictionary has NO kinematics (no momentum, no ΔE/E), so its only falsifiers are TIMING or COUNTS; the 1/(m+2) push cost is retired as a disc-model number",
+   "domain": "substrate_lane",
+   "status": "NEGATIVE (theorem-grade refutation of the identification push = recoil; scope theorem: no kinematics; Cal §895 (2), 09:32; K1877 §1)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1877 §1 / Cal §895 (Rounds 128–129)",
+   "toys": [
+    5719,
+    5720
+   ],
+   "date": "2026-09-07",
+   "plain": "The record-space picture says an electron \"writes\" information in words of length m and pays a \"push\" cost for each. Someone proposed the push is the kick a photon gives an electron in Compton scattering. That kick can carry more than half the photon's energy (caesium-137's 662 keV line gives 72 %), while the picture caps the push at one half — so the proposal is wrong however m is read. What is learned: the picture has no momentum and no energy ratio in it at all, so anything it predicts must be a time or a count, never a kick. The old \"one fifth per commitment\" was a number from the wrong model of the disc."
   }
  ],
  "edges": [
@@ -87039,6 +87054,12 @@
    "to": 1448,
    "source": "derived",
    "label": "separates rank 2 from prime 2: T1448's Eisenstein line is matched-not-derived (G18 Mode B)"
+  },
+  {
+   "from": 2543,
+   "to": 2623,
+   "source": "negative",
+   "label": "the record-as-idempotent dictionary (K1860 A–P) is the object whose kinematic reading is refuted"
   }
  ],
  "chains": {},
@@ -92466,7 +92487,7 @@
    "tid": 267,
    "name": "Asymptotic Freedom",
    "domain": "qft",
-   "status": "proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
+   "status": "IDENTIFIED (Cal §888, 09:48 09-07: b₀ = 11 − 2n_f/3 = 7 needs N_c = 3 AND n_f = 6; \"= g\" a coincidence of that arithmetic; in force above m_t incl. μ_geo = v, at none of T2074's four landings; sign GWP; T1262 clause struck) — proved — inputs re-tiered 15:50 2026-09-06: T1299 STRUCTURAL v3 (temperedness withdrawn), T1262 withdrawn as a theorem (Cal §859); temperedness/Ramanujan uses unsupported until re-derived",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -107822,7 +107843,7 @@
    "tid": 1136,
    "name": "Koons Tick — Time as Observer Counting",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured",
    "depth": 0,
    "conflation": 1,
    "toys": [],
@@ -114417,7 +114438,7 @@
    "tid": 1475,
    "name": "QCD Beta Function is Genus",
    "domain": "qft",
-   "status": "Tier-2 FINAL (K1052; 11/3 universal 4D YM = consistency, not derivation)",
+   "status": "IDENTIFIED (Cal §888, 09:48 09-07: b₀ = 11 − 2n_f/3 = 7 needs N_c = 3 AND n_f = 6; \"= g\" a coincidence of that arithmetic; in force above m_t incl. μ_geo = v, at none of T2074's four landings; sign GWP; T1262 clause struck) — Tier-2 FINAL (K1052; 11/3 universal 4D YM = consistency, not derivation)",
    "depth": 0,
    "toys": [
     1660
@@ -133655,12 +133676,27 @@
    ],
    "date": "2026-09-06",
    "plain": "Build the small definite part of the lattice by the rule — from the generators of the maximal order — and reduce it mod p: it has rank one there, and that single fact fixes the comb spacing at π/ln p for every odd prime. The earlier lattice ⟨1,1,3⟩ was in the other class (rank two mod 3) and gave twice the spacing; it was never the rule's. At p = 2 the odd planes cancel half the comb, which is why T2621 shows 2π/ln 2."
+  },
+  {
+   "tid": 2623,
+   "name": "NEGATIVE / SCOPE THEOREM of the record-space dictionary (K1860 A–P): the push is NOT the Compton recoil under any loading of the word length m (cap 1/2 vs the Cs-137 Compton edge 0.7214); the dictionary has NO kinematics (no momentum, no ΔE/E), so its only falsifiers are TIMING or COUNTS; the 1/(m+2) push cost is retired as a disc-model number",
+   "domain": "substrate_lane",
+   "status": "NEGATIVE (theorem-grade refutation of the identification push = recoil; scope theorem: no kinematics; Cal §895 (2), 09:32; K1877 §1)",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1877 §1 / Cal §895 (Rounds 128–129)",
+   "toys": [
+    5719,
+    5720
+   ],
+   "date": "2026-09-07",
+   "plain": "The record-space picture says an electron \"writes\" information in words of length m and pays a \"push\" cost for each. Someone proposed the push is the kick a photon gives an electron in Compton scattering. That kick can carry more than half the photon's energy (caesium-137's 662 keV line gives 72 %), while the picture caps the push at one half — so the proposal is wrong however m is read. What is learned: the picture has no momentum and no energy ratio in it at all, so anything it predicts must be a time or a count, never a kick. The old \"one fifth per commitment\" was a number from the wrong model of the disc."
   }
  ],
  "metadata": {
-  "node_count": 2399,
-  "edge_count": 10249,
-  "theorem_count": 2399,
-  "synced": "2026-09-06 both lists (Grace G20)"
+  "node_count": 2400,
+  "edge_count": 10250,
+  "theorem_count": 2400,
+  "synced": "2026-09-07 both lists (Grace R130)"
  }
 }

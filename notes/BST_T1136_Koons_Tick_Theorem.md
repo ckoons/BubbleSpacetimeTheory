@@ -9,6 +9,9 @@ origin: "Casey insight April 12: 'time depends on the observer.' The Koons tick 
 parents: "T317 (Observer Hierarchy), T315 (Casey's Principle), T1065 (Quantum Measurement Bridge)"
 ---
 
+> **[WORDING FIX — 09:48 EDT 2026-09-07, Grace on Cal §895 (1)'s word (K1877 §3 ruling): the row's "ν_C = m_e c²/ħ" is an ANGULAR frequency wearing a cyclic symbol — read ω_C = m_e c²/ħ (the cyclic Compton frequency is m_e c²/h). The tick is τ₀ = N_max·ħ/(m_e c²) = **0.17647 as with the bare N_max = 137** (BST's value; radiative corrections external) — and a₀/c = α·t_au = 0.17651 as with the measured α⁻¹ = 137.036, 2.6×10⁻⁴ apart (Elie 5719 R3): the bare value is BST's, so the difference is neither a prediction nor a miss. τ₀ is 137 RADIANS of Compton phase = 21.8 cycles (turns); Friday's K1860-N "137 turns = 1.109 as" was a radians-for-turns slip (Keeper's, owned in K1877 §3; K1860-P carries the pointer). Quote the invariant: the tick is a₀/c. Consequence for the lane: C2's Y = N × 0.1765 as as an N-photon absolute offset — NOT YET MEASURED (Ossiander's absolute precision 0.97 as = 5.5 ticks).] In this file every $\nu_C$ has been rewritten $\omega_C$ (angular).**
+
+
 # T1136: The Koons Tick — Time IS Observer-Instantiated Counting
 
 *Time is not a parameter of D_IV^5. It is an observable that requires an observer to instantiate. The fundamental unit of time — the Koons tick — is the minimum duration for a given organizational level to record one photon of information in its substrate. Each observer tier has its own tick rate, determined by its coupling to the Bergman kernel. The S^1 in the Shilov boundary S^4 × S^1 is not one clock — it is a clock template that each observer instantiates at its own rate.*
@@ -19,7 +22,7 @@ parents: "T317 (Observer Hierarchy), T315 (Casey's Principle), T1065 (Quantum Me
 
 **Theorem (T1136).** *Time in BST is observer-instantiated counting:*
 
-*(a) **The Koons tick.** Define the Koons tick $\tau_L$ at organizational level $L$ as the minimum time to record one bit of information in the substrate at that level. At the fundamental level (photon-electron interaction): $\tau_0 = 1/(\alpha \cdot \nu_C) = N_{\max} \cdot \hbar/(m_e c^2)$ where $\alpha = 1/N_{\max}$ is the fine structure constant and $\nu_C = m_e c^2/\hbar$ is the electron Compton frequency. The fundamental Koons tick is $\tau_0 \approx 1.77 \times 10^{-19}$ s — the time for one photon to complete one electromagnetic interaction.*
+*(a) **The Koons tick.** Define the Koons tick $\tau_L$ at organizational level $L$ as the minimum time to record one bit of information in the substrate at that level. At the fundamental level (photon-electron interaction): $\tau_0 = 1/(\alpha \cdot \omega_C) = N_{\max} \cdot \hbar/(m_e c^2)$ where $\alpha = 1/N_{\max}$ is the fine structure constant and $\omega_C = m_e c^2/\hbar$ is the electron Compton frequency. The fundamental Koons tick is $\tau_0 \approx 1.77 \times 10^{-19}$ s — the time for one photon to complete one electromagnetic interaction.*
 
 *(b) **Tick hierarchy.** Each organizational level $L$ requires $\sim N_{\max}$ ticks of the level below to register one event of its own, because $N_{\max} = 137$ is the channel capacity (T836, T1058). The tick at level $L$ is:*
 

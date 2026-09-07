@@ -5067,6 +5067,29 @@
     "direct p-adic integrals p = 3, 5",
     "T2621 at p = 2"
    ]
+  },
+  {
+   "id": "T2543",
+   "name": "Code-Forces-Fermion: matter is fermionic because a record is an idempotent (persistence) and an idempotent count is a bit ({0,1} distinguishability) in ONE object — the fermionic diagonal of the Peirce decomposition; mediator J_½ carries neither; 3+1D pins boson-XOR-fermion",
+   "domain": "foundations_quantum",
+   "domain_label": "foundations_quantum",
+   "status": "derived",
+   "plain": "Item 10 (spin-statistics field-content, \"matter is odd\") posit→DERIVED (Lyra+Elie, Cal 7-checkpoint math cold-read + Keeper blind checker's-half agree, K1171). In the Peirce decomposition of the D_IV⁵ spin-factor JB-algebra J=J_1(e)⊕J_½(e)⊕J_0(e): the diagonal idempotent sectors carry PERSISTENCE (e²=e = a stable committed projection) AND DISTINGUISHABILITY ({0,1} occupation = min-distance≥2, verified color-singlet Cal §277/Elie 5054) in a SINGLE object = fermionic; the off-diagonal J_½ (=V₁₂=N_c=color) carries NO idempotent = neither. Decomposition is exhaustive; derived-3+1D (Leinaas-Myrheim, π₁(SO(3))=ℤ₂) pins boson-XOR-fermion, no parafermion middle. Non-circular (does not presuppose fermionic). ⟹ the record/storage sector is fermionic, forced by the substrate's own algebra, zero new posits. Completes QM-from-D_IV⁵: all 10 Dirac–von Neumann axioms Derived/Structure-Derived. Closes task #39 (division of labor = the Jordan/Peirce split). Scope: forces storage=fermionic; does NOT claim every fermion is a record.",
+   "color": "#B05A5A",
+   "proofs": []
+  },
+  {
+   "id": "T2623",
+   "name": "NEGATIVE / SCOPE THEOREM of the record-space dictionary (K1860 A–P): the push is NOT the Compton recoil under any loading of the word length m (cap 1/2 vs the Cs-137 Compton edge 0.7214); the dictionary has NO kinematics (no momentum, no ΔE/E), so its only falsifiers are TIMING or COUNTS; the 1/(m+2) push cost is retired as a disc-model number",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "negative",
+   "plain": "The record-space picture says an electron \"writes\" information in words of length m and pays a \"push\" cost for each. Someone proposed the push is the kick a photon gives an electron in Compton scattering. That kick can carry more than half the photon's energy (caesium-137's 662 keV line gives 72 %), while the picture caps the push at one half — so the proposal is wrong however m is read. What is learned: the picture has no momentum and no energy ratio in it at all, so anything it predicts must be a time or a count, never a kick. The old \"one fifth per commitment\" was a number from the wrong model of the disc.",
+   "color": "#B05A5A",
+   "proofs": [
+    "Cs-137 Compton edge 0.7214 > cap 1/2 (Elie 5720)",
+    "Lie-ball 0.3945 vs disc 0.200 (Elie 5719)"
+   ]
   }
  ],
  "edges": [
@@ -7955,6 +7978,11 @@
   {
    "source": "T2622",
    "target": "T1448",
+   "type": "uses"
+  },
+  {
+   "source": "T2543",
+   "target": "T2623",
    "type": "uses"
   }
  ],
