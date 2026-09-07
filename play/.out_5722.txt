@@ -1,0 +1,35 @@
+Q1: Lyra's twelve rationals by the Hua-kernel Gram route (n=5)
+  (0,0) m=0: kernel-Gram c = 1/2 = 0.5000   Lyra 1/2   [0s]
+  (0,1) m=1: kernel-Gram c = 10/21 = 0.4762   Lyra 10/21   [0s]
+  (0,2) m=2: kernel-Gram c = 45/98 = 0.4592   Lyra 45/98   [0s]
+  (0,3) m=3: kernel-Gram c = 25/56 = 0.4464   Lyra 25/56   [0s]
+  (1,0) m=2: kernel-Gram c = 5/12 = 0.4167   Lyra 5/12   [0s]
+  (1,1) m=3: kernel-Gram c = 25/63 = 0.3968   Lyra 25/63   [0s]
+  (1,2) m=4: kernel-Gram c = 55/144 = 0.3819   Lyra 55/144   [0s]
+  (1,3) m=5: kernel-Gram c = 10/27 = 0.3704   Lyra 10/27   [1s]
+  (2,0) m=4: kernel-Gram c = 5/14 = 0.3571   Lyra 5/14   [1s]
+  (2,1) m=5: kernel-Gram c = 15/44 = 0.3409   Lyra 15/44   [1s]
+  (2,2) m=6: kernel-Gram c = 65/198 = 0.3283   Lyra 65/198   [2s]
+  (2,3) m=7: kernel-Gram c = 7/22 = 0.3182   Lyra 7/22   [8s]
+  [HIT] Q1  12/12 exact matches
+Q2: disc control n=1
+   ['1/2', '1/3', '1/4', '1/5', '1/6', '1/7', '1/8', '1/9']
+  [HIT] Q2 (not can-fail)  c = 1/(m+2), m = 0..7
+Q3: family n=3..7 — constant and matter word (1,1)
+  n=3: const 1/2 = 0.5000; (1,1) 12/35 = 0.3429
+  n=4: const 1/2 = 0.5000; (1,1) 3/8 = 0.3750
+  n=5: const 1/2 = 0.5000; (1,1) 25/63 = 0.3968
+  n=6: const 1/2 = 0.5000; (1,1) 33/80 = 0.4125
+  n=7: const 1/2 = 0.5000; (1,1) 14/33 = 0.4242
+  [HIT] Q3  const 1/2 at every n; (1,1) to four digits
+Q4: MC re-run at (1,1), ~10x sample
+  samples 112148: c_MC(1,1) = 0.39752 ± 0.00089;  25/63 = 0.39683;  pull +0.78σ   [60s]
+  [HIT] Q4  pull +0.78σ
+Q5: Einstein control against the pins (Millikan 1916 l.309/l.1188/l.2001; Huang 2020 l.264-267)
+  (D2) slope = (1-c) h/e, c in [0.318, 0.500] -> photoelectric h would read 3.29..4.48 e-27 vs Planck radiation 6.55e-27 (Millikan: 6.57, 0.3%); deficit 32-50% vs 0.5% stated precision -> refuted; Huang 2020: max rel. deviation of h 1.6e-5 -> c-drift between words (0.318..0.5) refuted at 1e4x
+  (D1) W = fixed shell turns: no ν-dependence by construction -> empty
+  [HIT] Q5 (not can-fail)  D2 REFUTED, D1 EMPTY (pre-known; scored, not discovered)
+Q6: threshold law — pinned Wigner form sigma ~ (E-E0)^(l+1/2), l = R^3 outgoing partial wave (Andersen eq.5); dictionary carries no excess-energy variable -> outcome (c)
+  [HIT] Q6 (not can-fail)  nothing compared
+
+SCORE 6/6, of which 3/3 can-fail lines hit
