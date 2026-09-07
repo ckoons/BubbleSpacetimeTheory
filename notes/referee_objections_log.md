@@ -19230,3 +19230,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §875.
 
 — Cal
+
+### #173 — H15 run: the odd planes keep their odd-k 2-adic level comb after the kernel swap (ratio to split GK = (1 + 2^{½−λ})/(1 + 2^{−½−λ}) exactly); T2622's open clause resolved, amendment worded; 5715b's trace seam self-corrected by Elie (2026-09-07 (Mon) 08:04 EDT)
+- Full text: RUNNING_NOTES §876; instrument cal_H15_* + OUTPUT.
+
+— Cal

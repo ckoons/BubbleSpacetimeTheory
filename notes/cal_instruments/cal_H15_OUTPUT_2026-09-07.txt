@@ -1,0 +1,3 @@
+P(val>=j): ['1', '3/7', '2/7', '1/7', '1/14', '1/28'] ... geometric ratio 1/2 from j=3
+c_2^{odd,<1,1,3>} = y^(-1) * N(y)/D(y):  N = (y - 1)*(2*y - 1)*(4*y + 1)/16 ;  D = (4*y - 1)*(8*y**2 - 1)
+R(z) = c_odd/GK_split (z = 2^{-lambda}; constants/monomials aside) = (2*z**2 - 1)*(sqrt(2)*z**2 - 6*z + 4*sqrt(2))/(4*z*(z**2 - 2)*(2*z**2 - 5*sqrt(2)*z + 4))
