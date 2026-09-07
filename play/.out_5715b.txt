@@ -1,0 +1,13 @@
+first ten primitive lengths in the SL2 block of Gamma(137):
+  |trace| =   18767   length = 19.679711   ratio to the first = 1.000000
+  |trace| =   18771   length = 19.680137   ratio to the first = 1.000022
+  |trace| =   37536   length = 21.066112   ratio to the first = 1.070448
+  |trace| =   37540   length = 21.066325   ratio to the first = 1.070459
+  |trace| =   56305   length = 21.877077   ratio to the first = 1.111656
+  |trace| =   56309   length = 21.877219   ratio to the first = 1.111664
+  |trace| =   75074   length = 22.452459   ratio to the first = 1.140894
+  |trace| =   75078   length = 22.452566   ratio to the first = 1.140899
+  |trace| =   93843   length = 22.898757   ratio to the first = 1.163572
+  |trace| =   93847   length = 22.898842   ratio to the first = 1.163576
+
+multiples of one length: False — the spectrum is 2 log(137² k ± ...), logarithmic in k, not n·ℓ₀; T1448's 'families indexed by winding n' is refuted by exhibit.
