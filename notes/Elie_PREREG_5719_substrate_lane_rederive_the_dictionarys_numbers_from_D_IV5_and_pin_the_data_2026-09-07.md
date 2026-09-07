@@ -1,0 +1,18 @@
+# PRE-REGISTRATION — Toy 5719, Round 128 (substrate lane): the dictionary's numbers RE-DERIVED from D_IV⁵, before the data is read
+
+**Elie, 2026-09-07 (Monday) 09:18 EDT (shell-copied). Hashed before the run and before any source is quoted. Nothing here is a lab sentence; it is the instrument's calibration for Lyra's map.**
+
+## What is re-derived, and how (not copied from K1860)
+- **R1, the branching k/(2k+3):** Stein–Weiss on S⁴ (5 variables): for a spherical harmonic Y_k and a unit direction v, (v·z)Y_k = Y_{k+1}^{(v)} + |z|²·(∂_vY_k)/(2k+3); the "matter" share is the L²(S⁴)-norm fraction of the second term, averaged over an orthonormal frame of v. Computed here by EXACT integration of polynomials over S⁴ (moment formulas), on random harmonic Y_k for k = 1, 2, 3, 4 — prediction k/(2k+3) = 1/5, 2/7, 1/3, 4/11 to 10⁻¹². Then the vacuum chain by arithmetic: P(matter | n writes) = 1 − Π_{k<n}(k+3)/(2k+3) = 0, 1/5, 3/7, 13/21 for n = 1…4. The number 3/7 is a theorem of Stein–Weiss on S⁴ plus the chain rule; the "3" in it is d − 2 = n_C − 2 = 3 in (2k + d − 2), NOT N_c and NOT the word length (the family value at d is 3/(d+2)·… — checked at d = 4, 6 as the sweep).
+- **R2, the push cost 1/(m+2):** disc model exact: Bergman-normalised z^m has mean |z|² = (m+1)/(m+2), so 1 − ⟨|z|²⟩ = 1/(m+2) = 1/5 at m = 3. Then THE SAME QUANTITY ON THE LIE BALL D_IV⁵ ITSELF, by Monte Carlo with Hua's Bergman weight K(z,z) ∝ (1 − 2|z|² + |z·z|²)^{−5} on D_IV⁵ = {|z·z|² − 2|z|² + 1 > 0, |z| < 1}: 1 − ⟨|z|²⟩ for the degree-3 words (z·z)(v·z) (matter) and z₃z₄z₅ (light), 2×10⁶ samples, error bar reported. **Hashed: the Lie-ball value is NOT 1/5** (the disc number is a model number; my guess 0.10–0.17 for the matter word); whatever it is, that is the domain's number and the disc's 1/5 is retired for D_IV⁵.
+- **R3, the tick 137 turns:** T_C = h/(m_e c²) from CODATA 2018 (h = 4.135667696×10⁻¹⁵ eV s exact; m_e c² = 510 998.950 00 eV): T_C = 8.0933×10⁻²¹ s; ×137 = 1.10878 as; ×α⁻¹ = 137.035999084 → 1.10907 as. Report both; the difference (137 vs α⁻¹) is 2.6×10⁻⁴, itself a pin the lane must name.
+- **R4, the shell unit:** Ry = m_e c²α²/2 = 13.605693 eV; 1/5 of it = 2.72114 eV; Landauer at T = 300 K: kT ln 2 = 0.025852 eV × 0.693147 = 0.017919 eV = 2.871×10⁻²¹ J = 2.871 zJ (k = 8.617333×10⁻⁵ eV/K).
+- **R5, the rate α·ν_C:** ν_C = 1/T_C = 1.2356×10²⁰ s⁻¹; α ν_C = 9.017×10¹⁷ s⁻¹ (one push per 137.036 turns).
+
+## What is pinned to sources after the hash (data, not memory)
+Schultze 2010 (Ne 2p vs 2s delay, ~21 as, uncertainty as quoted), Ossiander 2017 (He timing, precision as quoted), Isinger 2017 (Ne 2s–2p delay re-measured), Bérut 2012 (dissipated heat per erased bit vs kT ln 2). Numbers quoted from the abstracts with their uncertainties; nothing from memory.
+
+## The comparison I will write (status per candidate, Casey's three words)
+C1 as ENERGY: "minimum dissipation per recorded event = Ry/5 = 2.72 eV" against Bérut's measured heat per erased bit (order kT ln 2 at 300 K) — the status will be whatever the numbers say; my prior: ALREADY REFUTED as an energy floor for room-temperature bit erasure, since 2.72 eV is ~150 kT ln 2. C1 as INTENSITY FRACTION: no unit, no sentence. C2 as a delay FLOOR (1.109 as): compared with the smallest measured delay and its error; as a delay QUANTUM: needs resolution ≲ 0.3 as — status from the quoted precisions; as a RATE BOUND α ν_C = 9.0×10¹⁷ s⁻¹ per electron: compared with the largest measured single-electron ionization rates (strong-field, ~10¹⁶ s⁻¹) — my prior CONSISTENT, not a test. C3/C4: not mine today unless Lyra's map lands on them.
+
+Score R1–R5 as HIT/MISS on the numbers; the statuses are the deliverable.
