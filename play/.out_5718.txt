@@ -1,0 +1,18 @@
+P1: sign
+  eps = -1: FE residual 0.0; on-line purity ratio 0.0
+  eps = +1: FE residual 0.0; on-line purity ratio 0.0
+  [MISS] P1  eps = -1 self-consistent (Lambda purely imaginary on Re s = 1); eps = +1 fails
+P2: the central zero
+  [HIT] P2  Lambda(1) = (0.0 + 0.0j), Lambda'(1) = (1.0182734 + 0.0j) (rank exactly 1)
+P3: zeros above the centre on Re s = 1
+  zeros t in (0, 8]: ['2.20761608867', '5.32408279143', '6.47281109396', '6.96373948292']
+  [HIT] P3  t1 = 2.20761608867 (hashed interval 1.5 < t1 < 6); t2 = 5.32408279143
+P4: the block pole (tautology of the block formula)
+  [HIT] P4  |Lambda_unit(1/2 + i t1)| = 1.36e-25: the (sigma_f, 1) block's factor B has its pole at lambda = -1/2 + i t1 = (-0.5 + 2.20761608867j) by construction; central zero -> pole at lambda = -1/2
+  [HIT] P5  degree-2 L in factor B of the sigma_f blocks: formula only; level-137 matrix not computed (held)
+
+SCORE 4/5
+
+P1 REPLACED (the hashed test was construction-guaranteed): splitting-point independence of the AFE decides eps
+  eps = -1: relative spread of Lambda(1.3+2i) over y0 in {1, 1.3, 0.8, 1.7} = 6.82e-7
+  eps = +1: relative spread of Lambda(1.3+2i) over y0 in {1, 1.3, 0.8, 1.7} = 0.0393
