@@ -1,0 +1,7 @@
+s      full d/ds log[xi(s,chi)/xi(s+1,chi)]        psi+L'/L remainder only       difference (= surviving conductor constant)
+3.0      (-0.20260026924 - 0.0302847967207j) (-0.20260026924 - 0.0302847967207j) (-3.88e-26 + 0.0j)
+4.0      (-0.137573476118 - 0.0118800014872j) (-0.137573476118 - 0.0118800014872j) (4.52e-26 + 0.0j)
+(3.0 + 2.0j) (-0.12263155835 + 0.123497535656j) (-0.12263155835 + 0.123497535656j) (1.62e-27 - 3.23e-27j)
+
+surviving conductor constant in the ratio: 4.52e-26  (5709 H3 claimed −½ ln(137/π) = -1.8876255) -> the claim is WITHDRAWN: no ln 137 and no ln π constant in a twisted xi-RATIO.
+Where a ln 137 CAN sit: only in an FE-normalisation of the twisted operator (Λ(s,χ) = ε(s,χ)Λ(1−s,χ̄) with ε = w(χ)·137^{½−s} when the conductor power is not carried in Λ) — the same status as E11's ln 2 / ln 3: a convention of the normalised operator, not a value of the unnormalised ratio.
