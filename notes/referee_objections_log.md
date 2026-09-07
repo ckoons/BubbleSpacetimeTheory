@@ -19257,3 +19257,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §880.
 
 — Cal
+
+### #178 — C17: word GIVEN on T2622 v2 (§880's text; seven registered clauses incl. the executed-construction hypothesis, the reduction-rank dichotomy, T2621 as the p = 2 case, DERIVED all odd p, the retraction trail) after Elie 5717 reproduced 0961f9d3 at p = 3 and 5 on an independent instrument (2026-09-07 (Mon) 08:43 EDT)
+- Full text: RUNNING_NOTES §882.
+
+— Cal
