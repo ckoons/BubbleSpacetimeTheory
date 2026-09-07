@@ -1,0 +1,545 @@
+                                                   High Precision Determination of the Planck Constant by Modern
+                                                                                       Photoemission Spectroscopy
+
+                                                           Jianwei Huang1,2 , Dingsong Wu1,2 , Yongqing Cai1,2 , Yu Xu1,2 , Cong Li1,2 ,
+                                                       Qiang Gao1,2 , Lin Zhao1 , Guodong Liu1,4 , Zuyan Xu3 and X. J. Zhou1,2,4,5,∗
+                                                                    1
+                                                                        Beijing National Laboratory for Condensed Matter Physics,
+
+
+
+
+arXiv:1909.06286v1 [physics.ins-det] 13 Sep 2019
+                                                        Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China.
+                                                             2
+                                                                 University of Chinese Academy of Sciences, Beijing 100049, China.
+                                                                             3
+                                                                                 Technical Institute of Physics and Chemistry,
+                                                                          Chinese Academy of Sciences, Beijing 100190, China.
+                                                                                       4
+                                                                                           Songshan Lake Materials Laboratory,
+                                                                                      Dongguan, Guangdong 523808, China.
+                                                       5
+                                                           Beijing Academy of Quantum Information Sciences, Beijing 100193, China
+                                                                                 ∗
+                                                                                     Corresponding author: XJZhou@iphy.ac.cn
+
+
+
+
+                                                                                                          1
+   The Planck constant, with its mathematical symbol h, is a fundamental con-
+stant in quantum mechanics that is associated with the quantization of light and
+matter. It is also of fundamental importance to metrology, such as the definition
+of ohm and volt, and the latest definition of kilogram. One of the first measure-
+ments to determine the Planck constant is based on the photoelectric effect,
+however, the values thus obtained so far have exhibited a large uncertainty. The
+accepted value of the Planck constant, 6.62607015×10−34 J·s, is obtained from
+one of the most precise methods, the Kibble balance, which involves quantum
+Hall effect, Josephson effect and the use of the International Prototype of the
+Kilogram (IPK) or its copies. Here we present a precise determination of the
+Planck constant by modern photoemission spectroscopy technique. Through
+the direct use of the Einstein’s photoelectric equation, the Planck constant is
+determined by measuring accurately the energy position of the gold Fermi level
+using light sources with various photon wavelengths. The precision of the mea-
+sured Planck constant, 6.62610(13)×10−34 J·s, is four to five orders of magnitude
+improved from the previous photoelectric effect measurements. It has rendered
+photoemission method to become one of the most accurate methods in determin-
+ing the Planck constant. We propose that this direct method of photoemission
+spectroscopy has advantages and a potential to further increase its measurement
+precision of the Planck constant to be comparable to the most accurate methods
+that are available at present.
+
+
+
+   The Planck constant, h, was first proposed by Max Planck more than a hundred years ago
+when he solved the black body radiation problem by postulating that energy is quantized
+and can only be emitted or absorbed in integral multiples of a small unit, known as a
+quantum[1]. The energy of a particular quantum is described by the equation E = hν where
+ν represents the frequency of the radiation and h is the Planck constant. Subsequently in
+1905, Albert Einstein extended Planck’s black body model to explain the photoelectric effect
+by describing light as composed of discrete quanta called photons with an energy of hν where
+ν represents the frequency of incident light[2]. The photoelectric effect is interpreted in terms
+of the Einstein’s photoelectric equation: hν = Φ + Emax where Φ is the work function of
+
+
+
+                                              2
+the metal and Emax is the maximum kinetic energy of the ejected electron(s). Since then,
+the Planck constant has played a major role in giving birth to quantum physics[3–5] and
+has become one of the most important universal constants in physics.
+   The precise determination of the Planck constant is also of fundamental importance to
+metrology. The SI standard of resistance, ohm, is related to the von Klitzing constant RK
+= h/e2 from quantum Hall effect[6]. Here h is the Planck constant and e is the elementary
+charge. The SI standard of voltage, volt, is related to the Josephson constant KJ = 2e/h
+from Josephson effect[7]. The latest definition of mass, kilogram, is based on taking the
+fixed numerical value of the Planck constant to be 6.62607015×1034 J·s[8]. The value of the
+Planck constant was first determined from fitting the black body radiation curve[1]. Such a
+method is straightforward but was found difficult to produce a reproducible high precision
+result[9–12]. The photoelectric effect provides another way to measure the Planck constant,
+however, the value of the Planck constant thus obtained so far varies over a large range[13–
+20]. At present, there are a couple of methods that have been invented to precisely determine
+the Planck constant[21–25]. One of the most precise methods is based on the Kibble balance
+which can determine the Planck constant to a precision that is less than 2×10−8 relative
+uncertainty[26–29]. However, in order to conduct the measurement to achieve such a high
+precision, complex apparatus has to be constructed that involves the Josephson effect, the
+quantum Hall effect and the International Prototype of the Kilogram (IPK) or its copies[26–
+29].
+   In principle, the photoelectric effect provides a simple and direct way to measure the
+Planck constant. From the Einstein’s photoelectric equation: hν = Φ + Emax , the maximum
+photoelectron energy Emax is proportional to the light wave frequency ν, and the ratio is
+the Planck constant h. Millikan proved the linear relation between Emax and ν with his
+state-of-the-art apparatus at that time[16] and many photoelectric effect measurements[17–
+20] adopted his method. An extra potential was applied at the electron collector to stop the
+photoelectron from arriving at the collector and the maximum photoelectron energy Emax is
+determined in this case by measuring the electric current flowing through the collector[16].
+The main difficulty and source of uncertainty originate from how to define the stop potential
+and determine it accurately from the photocurrent-potential curve[16, 20]. Since electrons
+in solids obey the Fermi-Dirac distribution around the Fermi level, there is actually no clear
+definition of the maximum photoelectron energy at a finite temperature. In fact, Emax in
+
+                                             3
+the photoelectric effect equation represents the maximum photoelectron energy excited from
+a metal at zero temperature. Another source of uncertainty comes from the absorption of
+residual gas on the clean metal surface; it will affect the stability of the photocurrent and
+cause variations in the work function and the stop potential. The stability of the light
+source is also important for the precise measurement of the photocurrent. Overall, these
+factors have made it hard to determine Emax from the photocurrent-potential curve with
+high precision, giving rise to a rather large uncertainty in the value of the Planck constant
+obtained from the photoelectric effect[13–20].
+  The photoemission spectroscopy technique has experienced a dramatic advancement in
+the last few decades[30–33]. In modern photoemission spectroscopy, the energy of the pho-
+toelectrons can be precisely measured, and the emission angle of photoelectrons can also
+be measured that provides information of electron momentum in the measured material.
+The light source is improved and the measured sample can be kept in ultra-high vacuum
+to stay clean and stable. These can overcome the issues encountered by the previous pho-
+toelectric effect measurements[13–20] and prompt us to ask whether the Planck constant
+can be determined precisely by using modern photoemission technique. In this paper, we
+report a high precision determination of the Planck constant by employing modern photoe-
+mission spectroscopy technique. Through the use of the Einstein’s photoelectric equation,
+the Planck constant is directly determined by measuring accurately the energy position of
+the gold Fermi level using light sources with various photon wavelengths. The precision of
+the measured Planck constant, 6.62610(13)×10−34 J·s, is four to five orders of magnitude
+improved from the previous photoelectric effect measurements, and renders photoemission
+method to become one of the most accurate methods in determining the Planck constant.
+With further optimization of the photoemission apparatus, we believe this direct method
+of photoemission spectroscopy is possible to reach its measurement precision of the Planck
+constant to the level that is comparable to the most accurate methods that are available at
+present.
+  A typical setup of modern photoemission system, angle-resolved photoemission spec-
+troscopy (ARPES), is schematically shown in Fig. 1a. It is still based on the photoelectric
+effect. When light is incident on the sample in an ultra-high vacuum chamber, electrons in
+the sample absorb the photons and photoelectrons are emitted outside of the sample. By
+measuring the energy and number of the photoelectrons along different emission angles, one
+
+                                            4
+may get the electronic structure of the sample in terms of electron energy and momentum.
+One key element to measure the energy, number and emission angle of the photoelectrons is
+the electron energy analyzer. In Fig. 1a, a typical and most commonly used hemispherical
+electron energy analyzer is shown which consists of a lens system, a slit, the inner and outer
+spheres, and an electron detector. Electrons entering through the same position of the slit
+with different energies will deflect with different radius in the hemispherical analyzer because
+of the application of a potential difference on the outer and inner spheres. The photoelec-
+trons with different energies are dispersed along the vertical direction of the detector at
+the exit of the hemispheres. The intensity of photoelectrons dispersed at different energies
+is measured at different vertical locations of the detector. The hemispherical analyzer can
+work in two different modes, one is transmission mode and the other is angular mode. In
+the transmission mode (Fig. 1c), the photoelectrons with different emission angles at the
+same spot on the sample will be focused on the same point on the slit, giving rise to an
+angle-integrated photoemission spectrum. In the angular mode (Fig. 1d), the photoelec-
+trons with different emission angles at the same spot on the sample will be dispersed by
+the lens system to different horizontal positions on the slit, and further spread along the
+horizontal direction on the detector, giving rise to an angle-resolved photoemission image.
+   High resolution photoemission measurements were performed using a lab-based ARPES
+system equipped with a helium discharge lamp and a hemispherical electron energy
+analyzer[32]. A monochromator is used to achieve three kinds of monochromatic light with
+the wavelength λ of 58.43339 nm (He Iα), 53.70293 nm (He Iβ) and 30.37858 nm (He IIα).
+The accurate wavelength of the light is obtained from the NIST Atomic Spectra Database
+where the wavelength of He Iα and β is obtained by experimental measurements and the
+wavelength of He IIα is obtained by theoretical calculation[34]. The energy resolution of the
+analyzer was set at 2.5 meV and the angular resolution was ∼0.3o . We use a polycrystalline
+gold foil as the sample of the photoelectron emission because it can provide a well-defined
+Fermi edge that is an intrinsic physical quantity which can be described by the Fermi-Dirac
+distribution. The advantage of using the gold Fermi edge in defining a precise energy posi-
+tion is obvious when compared with the maximum energy of the photoelectrons Emax used
+in the previous photoelectric measurements[13–20]. The polycrystalline gold was sputtered
+by an Argon ion gun to get a clean surface before it was transferred to the ultra-high vacuum
+chamber with a base pressure better than 5×10−11 mbar. Such an ultra-high vacuum keeps
+
+                                              5
+the sample surface clean and stable during the measurement. In order to get a sharp Fermi
+cut-off to determine its energy position accurately, the polycrystalline gold was kept at a
+temperature of 1.4 K that was precisely controlled to be within ±0.1 K stability.
+   In our present measurement, we used a polycrystalline gold metal as the target material
+and measured the kinetic energy of the photoemitted electrons after being excited by light.
+The polycrystalline gold is electrically connected with the electron energy analyzer and
+both are grounded (Fig. 1a). Therefore, the Fermi level of the polycrystalline gold and the
+analyzer are lined up at the same energy level due to the good electrical contact (Fig. 1b).
+The vacuum level can be different because the work function (energy difference between
+the Fermi level and the vacuum level) of the polycrystalline gold (ΦAu ) and the analyzer
+(ΦAna ) can be different. When the light with a photon energy of hν is incident on the
+                                                                                      0
+polycrystalline gold, the kinetic energy of the photoelectrons at the Fermi level is EKF =
+hν − ΦAu according to the Einstein’s photoelectric equation. These photoemitted electrons,
+upon entering the analyzer lens system from the gold sample surface, will experience the
+potential difference between the gold and the analyzer that is (ΦAu −ΦAna ) to get accelerated
+or decelerated depending on the relative magnitude of the work function between Au and
+the analyzer. The measured kinetic energy of the photoelectrons at the Au Fermi level, after
+exiting the electron energy analyzer, is then EKF = hν − ΦAu + (ΦAu − ΦAna ) = hν − ΦAna
+= hc/λ − ΦAna where c is the speed of light. It is independent on the Au work function
+but related to the work function of the analyzer that is a constant within the measurement
+frame of time. From this modified version of the Einstein’s photoelectric equation, when
+the energy position of the Au Fermi level (EKF ) is determined using light with different
+wavelengths λ, the Planck constant can be determined directly from the slope of the linear
+relation.
+   Figure 2 shows the measured Au Fermi edge using light with different wavelengths un-
+der different measurement modes of the electron energy analyzer. Figure 2(a-c) shows the
+Au Fermi edge measured at a temperature of 1.4 K by transmission mode using light with
+three wavelengths of 58.43339 nm (He Iα), 53.70293 nm (He Iβ) and 30.37858 nm (He IIα),
+respectively. In this case, photoelectrons within an emission angle of ∼ ±15 degrees with
+respect to the sample normal are collected to give one photoemission spectrum (energy dis-
+tribution curve, EDC) for each photon wavelength. The horizontal axis is the measured
+photoelectron kinetic energy while the vertical axis is the intensity of photoelectrons de-
+
+                                             6
+tected. The EDC of the measured Au Fermi edge can be described by the Fermi-Dirac
+distribution function convolved with the instrumental energy resolution with the formula:
+                                                2    2
+f (ε) ⊗ R(4E) = 1/(e(ε−EKF )/(kB T ) + 1) ⊗ e−ε /(24E ) where ε is the photoelectron energy
+and 4E is the instrumental energy resolution. Precise values of EKF can be obtained by
+fitting the EDCs of the measured Au Fermi edge with the formula and the obtained values
+are shown in Fig. 2a, b and c with the fitting uncertainty in the parentheses. We calculate
+their relative uncertainty as 6.5×10−6 , 13.4×10−6 and 7.1×10−6 for 58.43339 nm (He Iα),
+53.70293 nm (He Iβ) and 30.37858 nm (He IIα) light, respectively.
+   Figure 2(d-f) shows the measured photoemission images of the Au Fermi edge at 1.4 K
+by the angular mode of the electron energy analyzer using light with three different photon
+wavelengths. The horizontal axis of the images is photoelectron kinetic energy and the
+vertical axis represents the emission angle of these photoelectrons with respect to the Au
+surface normal (during the measurement, the Au was put with its surface normal along
+the lens axis of the electron energy analyzer). The false colors in the images represent the
+photoelectron intensity. In the angular mode, photoelectrons with different emission angles
+can be separated and measured in parallel, different from the transmission mode where the
+photoelectrons with different emission angles are measured in sum. Photoemission spectra
+(EDCs) can be obtained for each emission angle, or for a range of the emission angle from
+these measured images. To enhance the data statistics, here we chose to integrate the
+emission angle between -6◦ and 6◦ to get a single integrated EDC (Fig. 2g, h and i). We
+note that there is a balance between the data statistics and the accuracy of EKF . A large
+integration angle range is good for improving the data statistics, but in the mean time
+may reduce the accuracy of EKF because the instrumental aberration increases when the
+measured channels move away from the central lens and detection regions (corresponding
+to zero emission angle). In this sense, the angular mode measurements are advantageous
+over the transmission mode because the latter integrates photoelectrons over a much larger
+emission angle (±15◦ ). Similar to the transmission data in Fig. 2(a-c), the integrated EDCs
+in Fig. 2(g-i) are fitted and the obtained EKF is shown in each panel with the fitting
+uncertainty in the parentheses following each value. Their relative uncertainty is calculated
+as 7.7×10−6 , 16.0×10−6 and 7.7×10−6 for 58.43339 nm, 53.70293 nm and 30.37858 nm light,
+respectively.
+   In Fig. 3, the obtained EKF is plotted as a function of the wave number of the incident
+
+                                            7
+light. Here the wave number represents the inverse of the wavelength for each light source.
+The measured results from the transmission mode (Fig. 2(a-c)) are shown in Fig. 3a, and
+from the angular mode (Fig. 2(g-i)) are shown in Fig. 3b. In order to check on the effect of
+the integration angle range on the results, we also used different angle integration windows
+of [-5,5], [-4,4] and [-3,3] degrees from the measured images (Fig. 2(d-f)), in addition to the
+[-6,6] degree used in Fig. 2(g-i). The obtained EKF s as a function of the wave number of the
+incident light sources are shown in Fig. 3(c-e). The data in each panel is fitted with a linear
+function y = ax + b. According to the modified Einstein’s photoelectric equation: EKF =
+hc/λ − ΦAna , the fitted slope a corresponds to hc/e where c is the speed of light (299792458
+m/s) and e is the elementary charge (1.6021766208×10−19 C). The absolute value of the
+fitted intercept b corresponds to the work function of the electron energy analyzer (ΦAna ).
+From the transmission mode data (Fig. 3a), the fitted slope a is 1.23985719×10−4 eV·cm
+and the obtained Planck constant equals to 6.62615138×10−34 J·s. The fitted work function
+of the analyzer is 4.3621 eV. These values are marked in the panel of Fig. 3a. The Planck
+constant thus obtained from the angular mode measurements with different angle integration
+windows are also marked in Fig. 3(b-e).
+   Figure 3f summarizes the measured Planck constant values from the transmission mode
+and angular mode measurements with different angle integration windows from Fig. 3(a-e).
+In order to further check the effect of the selected energy range on the results in fitting the
+measured Fermi edges using the Fermi-Dirac distribution function, different energy windows,
+[-30,30], [-40,40] and [-50,50] meV with respect to the Fermi level position EKF , were also
+tested in fitting the integrated EDCs from the measured images of Fig. 2(d-f). By consid-
+ering both the transmission mode and angular mode measurements, the effect of different
+angle integration windows, and the effect of different fitting energy windows, Fig. 3f covers
+all the obtained Planck constant values. The averaged value is 6.62609677×10−34 J·s with
+a relative uncertainty of 2×10−5 . We can write our measured h as 6.62610(13)×10−34 J·s.
+Taking the accepted Planck constant value h = 6.62607015×10−34 J·s as a reference, the
+maximum relative deviation is below 1.6×10−5 .
+   In Fig. 4, we compare our measured values of the Planck constant with those from the
+previous measurements. When compared with the previous values of the Planck constant
+obtained based on the photoelectric effect (Fig. 4a)[16–20, 35–39], our result is 4∼5 orders
+of magnitude increased in precision. This is mainly due to the significant advancement in
+
+                                             8
+precise determination of the energy scale of the well-defined Au Fermi edge. When compared
+with the most accurate methods that have been invented so far (Fig. 4b)[21–29], our result
+has made the measured Planck constant comparable to the most precise results, putting the
+photoelectric effect method back as one of the most accurate methods in determining the
+Planck constant.
+   The present results are obtained from a regular lab-based ARPES system without any
+particular modification or optimization made for the purpose of the Planck constant mea-
+surement. The electron energy analyzer we used is a commercial product without high
+precision control of the voltages on the inner sphere, outer sphere, and in particular the bias
+to tune the energy of the photoelectrons before they pass through the slit. We also note that,
+although the achieved precision of our present measurement, 2.0×10−5 , is lower than those
+two of the most accurate methods: Kibble balance method (3.4×10−8 )[26–29] and the X-ray
+crystal density method (2.9×10−7 )[25], there remains a lot of room to improve the present
+photoemission system to further increase its precision. As shown in the modified Einstein’s
+photoelectric equation, EKF = hν − ΦAna , the modern photoemission method is straight-
+forward with inherent advantages. The precision of the Planck constant measurement in
+this method relies on two parameters: the light wavelength and the energy position of the
+Au Fermi edge. In our present measurements, the relative uncertainty of the wavelength is
+0.9×10−6 , 0.9×10−6 and 0.6×10−9 for the three light sources 58.43339 nm, 53.70293 nm and
+30.37858 nm, respectively. The light wavelength can be measured to a higher precision of
+10−8 [40]. The precise energy position determination of the Au Fermi edge depends on two
+factors. The first is the bias voltage that is used to vary the photoelectron kinetic energy
+just before they enter the hemisphere through the slit. With the latest technology, it is
+possible to control the precision and stability of the bias voltage to the level of a micro-volt
+(µV). The second factor is the determination of the measured Au Fermi edge; its precision
+depends on the measured EDC lineshape, its transition width and the overall data statistics.
+If the polycrystalline gold can be cooled to a very low temperature ∼1 K (corresponds to a
+Fermi edge width of 330 µeV), and the data are taken with high system stability and high
+data statistics, it is possible to measure the Fermi edge to a precision of µeV. Overall, when
+the combined accuracy of the energy position for the Au Fermi edge from different photon
+sources is controlled to be at the µeV level over a span of the photon energy of ∼20 eV
+between 21.2 eV (He Iα) and 40.8 eV (He IIα), the precision of EKF can also approach 10−8
+
+                                              9
+level. These would make the modern photoemission method possible to measure the Planck
+constant to the precision of ∼10−8 level that is comparable to the most accurate methods
+that are available so far[25–29].
+   The determination of the Planck constant with high precision is of paramount impor-
+tance to both the metrology and quantum physics. First, it remains to be checked on the
+inconsistency of the measured values between the Kibble balance method and the X-ray
+crystal density method, the two most accurate measurement methods of the Planck con-
+stant. The Kibble balance method gives a value of h = 6.62606889(29)×10−34 J·s with
+a precision of 3.4×10−8 [26–29]. The X-ray crystal density method gives a value of h =
+6.6260745(19)×10−34 J·s with a precision of 2.9×10−7 [25]. However, the two values of the
+Planck constant appear not to agree with each other within their claimed precision. In-
+dependent measurement from the third method is necessary to resolve this discrepancy.
+Second, there are several related constants, like the Josephson constant (KJ = 2e/h) and
+von Klitzing constant (RK = h/e2 ) that are related to the Planck constant. The preci-
+sion improvement of the Planck constant will help elevate the precision of other constants.
+Third, all the precise methods of the Planck constant, except for the X-ray crystal density
+method, rely on the theoretical basis of the Josephson effect and the quantum Hall effect.
+In particular, the Kibble balance method involves the use of the International Prototype
+of the Kilogram (IPK) or its copies, in addition to the involvement of the Josephson effect
+and the quantum Hall effect to conduct the measurement[26–29]. The values of the Planck
+constant obtained in this way cannot be used as tests of the theories without falling into
+a circular argument. An independent measurement with a comparable precision would be
+important to examine on the accuracy of the measured value, validity of the related theories
+and possible time evolution of some fundamental constants[6].
+   In summary, we have measured the Planck constant by conducting the photoelectric
+effect experiment with the modern photoemission technique. From our lab-based system,
+we have obtained the value of the Planck constant 6.62610(13)×10−34 J·s with a relative
+uncertainty of 2×10−5 . The precision is 4 or 5 orders of magnitude improved compared with
+all the previous measurements based on the photoelectric effect, and puts the technique into
+the category as one of the most accurate methods in measuring the Planck constant. The
+photoelectric effect method is direct and intuitive with inherent advantages. We propose
+that there is still a lot of room to further improve the photoemission technique to achieve a
+
+                                            10
+precision that is comparable to the Kibble balance or other precise methods. To this end, a
+dedicated photoemission system with all the elements optimized, including the light source,
+the target sample, and the electron energy analyzer, is desired. We hope our present work
+will stimulate further efforts along this direction. It provides an opportunity to provide an
+independent high precision measurement of the Planck constant that will not only check
+on the other methods, but provide possibility in elevating precision of other fundamental
+constants and cross-examining some theories including the Josephson effect and quantum
+Hall effect.
+
+
+
+
+ [1] M. Planck. Law of energy distribution in normal spectra. Annalen Der Physik, 4(3):553–563,
+    1901.
+ [2] A. Einstein. Generation and conversion of light with regard to a heuristic point of view.
+    Annalen Der Physik, 17(6):132–148, 1905.
+ [3] L. de Broglie. Recherches sur la thorie des quanta. PhD thesis (Paris: L’Universit de Paris),
+    1924.
+ [4] P. A. M. Dirac. The Principles of Quantum Mechanics 4th ed. Oxford: Clarendon Press, p87,
+    1981.
+ [5] W. Heisenberg.     ber den anschaulichen Inhalt der quantentheoretischen Kinematik und
+    Mechanik. Z. Phys., 43:172-98, 1927.
+ [6] K. von Klitzing.     Developments in the quantum Hall effect.      Phil. Trans. R. Soc. A,
+    363:22032219, 2005.
+ [7] C. A. Hamiltona. Josephson voltage standards. Rev. Scientific Instruments, 71:3611, 2000.
+ [8] The General Conference on Weights and Measures. On the revision of the International System
+    of Units (SI). Draft Resolution A 26th meeting of the CGPM , 2018.
+ [9] S. George, J. E. Fredrickson, and A. Sankaranarayanan. Planck’s constant from Wien’s dis-
+    placement law. Am. J. Phys., 40: 621, 1972.
+[10] R. E. Crandall, and J. F. Delord. Minimal apparatus for determination of Plancks constant.
+    Am. J. Phys., 51:90, 1983.
+[11] J. Dryzek, and K. Ruebenbauer. Plancks constant determination from black-body radiation.
+
+
+
+                                              11
+    Am. J. Phys., 60:251, 1992.
+[12] G. Brizuela, and A. Juan. Plancks constant determination using a light bulb. Am. J. Phys.,
+    64:819, 1996.
+[13] K. T. Compton. The influence of the contact difference of potential between the plates emitting
+    and receiving electrons liberated by ultra-violet light on the measurement of the velocities of
+    these electrons. Philosophical Magazine, 23(133-8):579, 1912.
+[14] A. L. Hughes. On the velocities with which photo-electrons are emitted from matter. Philo-
+    sophical Magazine, 25(149):683–686, 1913.
+[15] O. W. Richardson. Note on the direct determination of h. Physical Review, 4(6):522–523,
+    1914.
+[16] R. A. Millikan. A direct photoelectric determination of planck’s ”h.”. Physical Review,
+    7(3):0355–0388, 1916.
+[17] H. H. Hall and R. P. Tuttle. Photoelectric effect and Plancks constant in Th introductory
+    laboratory. American Journal of Physics, 39(1):50–54, 1971.
+[18] D. W. Boys, M. E. Cox, and W. Mykolajenko. Photo-electric effect revisited (or an inexpensive
+    device to determine H-E). American Journal of Physics, 46(2):133–135, 1978.
+[19] J. D. Barnett and H. T. Stokes. Improved student laboratory on the measurement of Plancks-
+    constant using the photoelectric effect. American Journal of Physics, 56(1):86–87, 1988.
+[20] F. Loparco, M. S. Malagoli, S. Raino, and P. Spinelli. Measurement of the ratio h/e with a
+    photomultiplier tube and a set of LEDs. European Journal of Physics, 38(2), 2017.
+[21] B. P. Kibble and G. J. Hunt. Measurement of the gyromagnetic ratio of the proton in a strong
+    magnetic-field. Metrologia, 15(1):5–30, 1979.
+[22] V. E. Bower and R. S. Davis. The electrochemical equivalent of pure silver - a value of the
+    Faraday. Journal of Research of the National Bureau of Standards, 85(3):175–191, 1980.
+[23] W. K. Clothier, G. J. Sloggett, H. Bairnsfather, M. F. Currey, and D. J. Benjamin. A
+    determination of the volt. Metrologia, 26(1):9–46, 1989.
+[24] T. Funck and V. Sienknecht. Determination of the volt with the improved PTB voltage
+    balance. Ieee Transactions on Instrumentation and Measurement, 40(2):158–161, 1991.
+[25] K. Fujii, A. Waseda, N. Kuramoto, S. Mizushima, P. Becker, H. Bettin, A. Nicolaus, U. Kuet-
+    gens, S. Valkiers, P. Taylor, P. De Bievre, G. Mana, E. Massa, R. Matyi, E. G. Kessler,
+    and M. Hanke. Present state of the Avogadro constant determination from silicon crystals
+
+
+                                               12
+    with natural isotopic compositions. Ieee Transactions on Instrumentation and Measurement,
+    54(2):854–859, 2005.
+[26] C. A. Sanchez, B. M. Wood, R. G. Green, J. O. Liard, and D. Inglis. A determination of
+    Planck’s constant using the NRC watt balance. Metrologia, 51(2):S5–S14, 2014.
+[27] S. Schlamminger, D. Haddad, F. Seifert, L. S. Chao, D. B. Newell, R. Liu, R. L. Steiner, and
+    J. R. Pratt. Determination of the Planck constant using a watt balance with a superconducting
+    magnet system at the National Institute of Standards and Technology. Metrologia, 51(2):S15–
+    S24, 2014.
+[28] I. A. Robinson and S. Schlamminger. The watt or Kibble balance: a technique for implement-
+    ing the new SI definition of the unit of mass. Metrologia, 53(5):A46–A74, 2016.
+[29] B. M. Wood, C. A. Sanchez, R. G. Green, and J. O. Liard. A summary of the Planck constant
+    determinations using the NRC Kibble balance. Metrologia, 54(3):399, 2017.
+[30] S. Huefner. Photoelectron Spectroscopy: Principles and Applications. Springer-Verlag Berlin
+    and Heidelberg GmbH & Co. K, 1995.
+[31] A. Damascelli, Z. Hussain, and Z. X. Shen. Angle-resolved photoemission studies of the
+    cuprate superconductors. Reviews of Modern Physics, 75(2):473–541, 2003.
+[32] G. D. Liu, G. L. Wang, Y. Zhu, H. B. Zhang, G. C. Zhang, X. Y. Wang, Y. Zhou, W. T.
+    Zhang, H. Y. Liu, L. Zhao, J. Q. Meng, X. L. Dong, C. T. Chen, Z. Y. Xu, and X. J.
+    Zhou. Development of a vacuum ultraviolet laser-based angle-resolved photoemission system
+    with a superhigh energy resolution better than 1 meV. Review of Scientific Instruments,
+    79(2):023105, 2008.
+[33] X. J. Zhou, S. L. He, G. D. Liu, L. Zhao, L. Yu, and W. T. Zhang. New developments in
+    laser-based photoemission spectroscopy and its scientific applications: a key issues review.
+    Rep. Prog. Phys., 81:062101, 2018.
+[34] https://physics.nist.gov/PhysRefData/ASD/lines form.html
+[35] A. L. Hughes. On the emission velocities of photo-electrons. Philosophical Transactions of the
+    Royal Society of London Series a-Containing Papers of a Mathematical or Physical Character,
+    212:205–226, 1912.
+[36] O. W. Richardson and K. T. Compton. The photoelectric effect. Physical Review, 34(5):393–
+    396, 1912.
+[37] P. Lukirsky and S. Prilezaev. Normal photoelectric effect. Zeitschrift Fur Physik, 49(3-4):236–
+
+
+                                               13
+    258, 1928.
+[38] A. L. Hughes and L. A. DuBridge. Photoelectric Phenomena. McGraw - Hill Book Co., New
+    York, pages 381–382, 1932.
+[39] A. J. Oleary. Two elementary experiments to demonstrate the photoelectric law and measure
+    the Planck constant. American Journal of Physics, 14(4):245–248, 1946.
+[40] R. H. Leonard, A. J. Fallon, C. A. Sackett, and M. S. Safronova. High-precision measurements
+    of the 87 Rb D-line tune-out wavelength. Phys. Rev. A, 92:052501, 2015.
+
+Acknowledgement This work is supported by the National Key Research and Develop-
+ment Program of China (Grant No. 2016YFA0300300 and 2017YFA0302900), the National
+Natural Science Foundation of China (Grant No. 11888101), the Strategic Priority Re-
+search Program (B) of the Chinese Academy of Sciences (XDB25000000), and the Research
+Program of Beijing Academy of Quantum Information Sciences (Grant No. Y18G06).
+
+Author contributions
+X.J.Z. and J.W.H. proposed and designed the research. J.W.H., D.S.W., Y.Q.C., Y.X.,
+C.L., Q.G., L.Z., G.D.L., Z.Y.X. and X.J.Z. contributed to the development and mainte-
+nance of the ARPES system. J.W.H. carried out the ARPES experiment with D.S.W. and
+Y.Q.C.. J.W.H. and X.J.Z. analyzed the data. J.W.H. and X.J.Z. wrote the paper. All
+authors participated in discussion and comment on the paper.
+
+
+
+Additional information
+Correspondence and requests for materials should be addressed to X.J.Z.
+
+Competing interests: The authors declare no competing interests.
+
+
+
+
+                                              14
+FIG. 1: Schematic of the Planck constant measurement with modern photoemission
+spectroscopy. (a) Experimental setup of photoemission spectroscopy with a hemispherical elec-
+tron energy analyzer. Light with three different wavelengths (and thus photon energies hν) can be
+generated from the helium discharge lamp equipped with a monochromator: He Iα line (58.43339
+nm), He Iβ line (53.70293 nm) and He IIα line (30.37858 nm). When the light is incident on
+a polycrystalline gold (Poly Au), electrons are emitted out from the sample. The energies and
+emission angles of the photoemitted electrons are measured by the hemisphere electron energy
+analyser with two different modes: angular mode or transmission mode. (b) The energy levels for
+the polycrystalline gold and the electron energy analyzer. When the polycrystalline gold and the
+analyzer are in good electrical contact and grounded, their Fermi levels are lined up at the same
+energy level. The vacuum level Evac varies with their respective work functions ΦAu and ΦAna .
+(c) Schematic electron trajectory of the transmission mode inside the electron lens from the top
+view. In this case, the electrons with different angles emitted from the same spot of the polycrys-
+talline gold are focussed on the same location of the slit and detected on the same position on the
+detector along the angle direction. (d) Schematic electron trajectory of the angular mode inside
+the electron lens of the electron energy analyzer from the top view. In this case, electrons with
+different emission angles will be spread on different positions of the slit and detected on different
+locations of the detector along the angle direction.
+                                               15
+FIG. 2: Measurements of the gold Fermi level using lights with different photon wave-
+length and different detection modes of the electron energy analyzer. (a-c) Gold Fermi
+edge measured at 1.4 K using the transmission mode of the electron energy analyzer under three
+different light wavelengths: (a) He Iα line (58.43339 nm), (b) He Iβ line (53.70293 nm) and (c)
+He IIα line (30.37858 nm). The energy distribution curve (EDC) is presented which represents
+the measured photoelectron intensity as a function of the electron kinetic energy (Ek ). (d-f) Gold
+Fermi edge measured at 1.4 K using the angular mode of the electron energy analyzer under three
+different light wavelengths: (d) He Iα line, (e) He Iβ line and (f) He IIα line. Each image repre-
+sents the measured photoelectron intensity (marked by the false color) as a function of the electron
+kinetic energy (Ek , horizontal axis) and the photoelectron emission angle (vertical axis). (g-i) Gold
+Fermi edge measured at 1.4 K using the angular mode of the electron energy analyzer under three
+different light wavelengths: (g) He Iα line, (h) He Iβ line and (i) He IIα line. The EDCs are
+obtained by integrating the photoelectron intensity within an emission angle range of [-6,6] degrees
+(marked in (d) as two red dashed lines) from the images in (d-f), The blue solid lines in (a-c) and
+(g-i) represent fitted curves with Fermi distribution function which determine the energy position
+of the gold Fermi edge EKF .
+                                                16
+FIG. 3: Determination of the Planck constant by linear fitting of the measured Fermi
+edge energy position at different photon wavelength.                    Here EKF in the vertical axis
+represents the measured energy position of the gold Fermi edge. The wavelength of the light in the
+horizontal axis is shown in terms of the wave numbers. The measured energy position of the gold
+Fermi edge at three different photon wavelengths is linearly-fitted by (y = ax + b). The Planck
+constant can be obtained from the fitted slope a while the fitted intercept b gives the work function
+of the electron energy analyzer. (a). EKF measured from the transmission mode as a function of
+the light wave numbers . (b-e). EKF measured from the angular mode, integrated within an angle
+window of [-6,6] degrees (b), [-5,5] degrees (c), [-4,4] degrees (d) and [-3,3] degrees (e), as a function
+of the light wave numbers . (f) The Planck constant obtained from (a-e). Different fitting energy
+ranges of the Fermi-Dirac distribution are also chosen, [-30,30]meV (yellow), [-40,40]meV (pink)
+and [-50,50]meV (green) with respect to the Fermi level, to check its effect on the measured Planck
+constant values. The black dashed line represents the standard value of the Planck constant by
+CODATA.
+
+
+
+                                                  17
+FIG. 4: The value of the Planck constant determined by various experimental methods.
+(a) The values of the Planck constant measured by the photoelectric effect from different groups
+at different time. The red star is our result from modern photoemission spectroscopy. The blue
+dashed line represents the standard value by CODATA. (b) The values of the Planck constant
+by the most accurate methods. The empty circles represents the values we obtained from our
+transmission mode and angular mode measurements in Fig. 3. The red star is the average value
+of the Planck constant from the results. The blue dashed line is the standard value of the Planck
+constant by CODATA.
+
+
+
+
+                                              18
+

@@ -1,0 +1,2004 @@
+       ]    PHOTOELECTRIC DETERMINATION                   OF PLANCK'S       "h."
+
+
+
+
+     A DIRECT PHOTOELECTRIC                          DETERMINATION                 OF
+                                  PLANCK'S         "h.'"
+                                    BY R. A. MILLIKAN.
+
+                                  I. INTRQDUcTQRY.
+      UANTUM theory was not originally developed for the sake of
+        ~           ~
+
+        interpreting photoelectric phenomena.            It was solely a theory
+                        ~
+
+as to the mechanism of absorption and emission of electromagnetic
+waves by resonators of atomic or subatomic dimensions.             It had nothing
+whatever to say about the energy of an escaping electron or about the
+conditions under which such an electron could make its escape, and up
+to this day the form of the theory developed by its author has not been
+able to account satisfactorily for the photoelectric facts presented here-
+with. We are confronted, however, by the astonishing situation that
+these facts were correctly and exactly predicted nine years ago by a form
+of quantum theory which has now been pretty generally abandoned.
+   It was in I9o5 that Einstein' made the first coupling of photo effects
+and with any form of quantum theory by bringing forward the bold, not
+to say the reckless, hypothesis of an electro-magnetic light corpuscle of
+energy hv, which energy was transferred upon absorption to an electron.
+This hypothesis may well be called reckless first because an electromag-
+netic disturbance which remains localized in space seems a violation of
+the very conception of an electromagnetic disturbance, and second be-
+cause it Ries in the face of the thoroughly established facts of interference.
+The hypothesis was apparently made solely because it furnished a ready
+explanation of one of the most remarkable facts brought to light by
+recent investigations, viz. , that the energy with which an electron is
+thrown out of a metal by ultra-violet light or X-rays is independent of the
+intensity of the light while it depends on its frequency.         This fact alone
+seems to demand some modification of classical theory or, at any rate,
+it has not yet been interpreted satisfactorily in terms of classical theory.
+   While this was the main if not the only basis of Einstein's assumption,
+this assumption enabled him at once to predict that the maximum energy
+   I An abstract of this paper was presented before the Am. Phys. Soc. in April, I9I4.
+(PHYs. REv. , IV., 73, 'r4, ) The data on lithium were however first reported at the meeting of
+the Am. Phys. Soc. in April, I9IS. (PHYS. REv. , VI., SS, 'IS.)
+   ~ Ann. d. Phys.
+                    (4), x7, r3a, r9os, and (4), zo, I99, I9o6.
+                                                                                         SECOND
+356                                 R. A. MILLIKAN.                                     r SERIES'
+
+
+of emission of corpuscles under the influence of light would be governed
+by the equation
+                           ',mv'=V. e= hv —p,
+                           —
+
+in which hv is the energy absorbed by the electron from the light wave,
+which according to Planck contained just the energy hv, p is the work
+necessary to get the electron out of the metal and ~mv2 is the energy with
+which it leaves the surface, an energy evidently measured by the product
+of its charge e by the P.D. against which it is just able to drive itself
+before being brought to rest.
+   At the time at which it was made this prediction was as bold as the
+hypothesis which suggested it, for at that time there were available no
+experiments whatever for determining anything about how P.D. varies
+with v, or whether the hypothetical h of equation (r) was anything more
+than a number of the same general magnitude as Planck's h. Never-
+theless, the following results seem to show that at least 6ve of the ex-
+perimentally veritable relationships which are actually contained in
+equation (r) are rigorously correct. These relationships are embodied
+in the following assertions:
+r. That there exists for each exciting frequency              v, above     a certain   cr~t~cal
+       value,   a definitely    determinable      maximum       velocity    of emission      of
+     corpuscles.
+2. That there is a linear relation between V and v.
+          —
+          dV
+3. That dv or the slope of the V v line is numerically           equal to h/e
+
+4. That at the critical frequency         vo at which   v   = o, p = hvo, i e. , tha. t the
+     intercept of the V v line on the v axis is tlie lowest frequency at which
+      the metal in guestion can be photoelectrically active.
+5. That the contact E.M. F. between any tvLlo conductors is given by tke
+       equation
+                Contact E.M. F. = h/e(vo          —v, ') —(Vo —V0').
+No one of these points except the erst' had been tested even roughly
+when Einstein made his prediction and the correctness of this one has
+recently been vigorously denied by Ramsauer. ' As regards the fourth
+Elster and GeiteP had indeed concluded as early as 189', from a study of
+the alkali metals, that the more electro-positive the metal the smaller is
+the value of v at which it becomes photo-sensitive, a conclusion however
+which later researches on the non-alkaline metals seemed for years to
+contradict.
+  ' Lenard (Ann. d. Phys. (4), 8, I49, I902) discovered a maximum     velocity though he did
+not find the effect of frequency upon it.
+   ~ Ann. d. Phys.
+                   , 45, II2o, I9I4 and 45, p. 96I.
+   Ivied. Ann. , 43, 225, I89I.
+        ']   PHOTOELECTRIC DETERMINATION                    OF PLANCK'S        "h."         357
+    During the ten years which have elapsed since Einstein set up his
+equation the fifth of the above assertions has never beentested at all,
+while the third and fourth have never been subjected to careful experi-
+mental test under conditions which were even claimed to permit of an
+exact and definite answer, nor indeed can they be so subjected without
+simultaneous       measurements i n vucuo of both contact potentials and
+photo-potentialsin the case of nzetats which are sensitive throughout a long
+range of observabte freguencies         In. making this statement I am not under-
+rating at all the exceptionally fine work of Richardson and Compton, '
+who in common with most other observers interpreted their results in
+terms of Einstein's equation, but who saw the significance of that equation
+much more clearly than most of their predecessors had done. I am
+merely calling attention to the fact that the slope mentioned in (3) and
+the intercept mentioned in (4) cannot possibly be determined with any
+approach to certainty unless the region of wave-lengths open to study is
+larger than it is in the case of any save the alkali metals, and also, in the
+case of (4) unless simultaneous measurements are made in vacuo upon
+photo-potentials and contact E.M. F.'s. The fact that Richardson and
+Compton's slopes vary by more than 6o per cent. is sufhcient evidence
+of the correctness of this statement.         Also on the one alkali metal, sodium,
+on which they made measurements, they made no attempt at contact
+E.M. F. determinations. ' Furthermore, since their work appeared
+two or three theories have been developed to explain their observed de-
+partures from the relationships predicted by Einstein's equation'—
+departures which the work at the Ryerson Laboratory appears to prove
+to be altogether non-existent.           In a recent review Pohl and Pringsheim
+whose own large experience with photoelectric work possibly predisposes
+them to see the difficulties even too clearly, go so far as to assert not only
+that any conclusions regarding the validity of (3) and (4) are premature
+and quite unsupported by any experiments with light waves, but that
+(2) also, to the testing of which practically all of the work on the energies
+of photo-emission has thus far been directed, is not deducible from existing
+data. Furthermore Sir J. J. Thomson'writing in December, I9I4, says;
+"  the experimental results hitherto obtained seem on the whole to confirm
+    j Phil. Mag. (6), 24, p. 575, I9I2.
+   2 Professor Richardson in his note in the PHvs. REv. , IV. , p. 523, I9I4, rightly states that
+                  "        "
+they developed a novel method of estimating contact E.M.F.'s in vacuo, and for this they
+deserve much credit. But they could not use this method in the case of sodium, for they
+definitely state that on account of fatigue effects, they were unable to obtain any complete
+photo current-potential     curve for sodium. Further my own work shows that this novel
+method is not always a valid one for determining contact E.M. F.'s.
+    3 See Hughes, Phil. Mag. (6), 25, 683, I4 and Sutton, Phil. Mag. , 29, 734, &5.
+
+    4 Phil. Mag. , 26, xoz7, I9I3.
+    5 Proc. Phys. Soc., London, XXVII., xo5, December I5, I9I4.
+                                                                            SECOmn
+358                                    R. A. MILLIKAN.                      t SERIES.
+
+this result [that stated in (2)] though it must I think be confessed that
+the direct experimental evidence in favor of the strict proportionality is
+too meagre to enable us to maintain that it is a direct result of experiment.      "
+   The diKculties which have stood in the way of reaching a reliable con-
+clusion even as to (2) will be seen from the following review. The first
+measurements on the relation between the frequency and the maximum
+energy of emission (which has always been measured by the retarding
+P.D. necessary to just stop the discharge of electrons under the inHuence
+of ultra-violet light) were made in i9o7 by E. Ladenburg' who concluded
+that &V was proportional to v, i. e. , that the maximum velocity rather
+than the maximum energy of emission was proportional to frequency.
+Joffe' worked over Ladenburg's experimental data and showed that it
+fitted just as well the Einstein relation V ~ v. The reason for this
+wide uncertainty lay simply in the fact that the range within which the
+relation between V and I could 0be followed in Ladenburg's experiments
+was between 2, 000 and 2, 6oo Angstroms, and with so small a strip of
+wave-length to investigate, and relatively large experimental errors in
+making the settings, practically any kind of a theoretical curve might be
+fitted by the experimental data.
+   Unquestionably     the most reliable work in this field is that done by
+                                                    first
+
+
+
+
+Richardson and Compton' and by Hughes. 4 But Hughes like Ladenburg
+made his observations at but three frequencies, viz. , those corresponding
+to X = I,849, X = 2, 257, and 'A = 2, 537 and the first of these he finds very
+hard to get on account of the extreme feebleness of the light. He uses
+the observations at two of these points, viz. , I, 849 and 2, 5g7 to fix his line,
+and then finds that the third point is slightly closer to this line when I
+is assumed proportional to V than when it is assumed proportional to
+&V. This is evidence favorable to the           lawa opposed to the second,
+but it obviously does not show a linear relation between V and v as
+opposed to a relation of the type V ~ va as implied by Lindemann's
+theory, ' or as opposed to any one of several other relations which might
+be suggested.     Hughes indeed adds to his case the argument that his
+straight line cuts the I axis at about the frequency at which the metal is
+found to first become photo-sensitive, but since he fails to take any
+account of the contact E.M. F.'s between his opposing plates these
+crossing points should be incorrect as Pohl and Pringsheim have pointed
+out. According to these latter authors, barring the very uncertain
+points at ) = I, 8oo and ) = 2, ooo A. , even a V ~ v' relationship
+                                                O
+
+                                                                                 is
+  't
+       Verh. d. D. Phys. Ges. , 9, S04, I907.
+  2    Ann. d. Phys. (4), 24, 939, I907.
+  3L. c.
+  4    Phil. Trans. Roy. Soc. London, A, CCXII., zos, I9Iz.
+  5    Verh. d. D. Phys. Ges. , I5, 637, x9I3.
+      ']    PHOTOELECTRIC DETERMINATION             OF PLANCK'S      "k."   359
+just as well fitted by both the Richardson and Compton and the Hughes
+work as a V ~ v relationship.       The whole argument, according to these
+critics, rests, in- Richardson and Compton's case, on the value of the
+potential at X = 2, ooo which is so far in the ultra-violet as to yield a V
+which they think unreliable and which in fact fits neither curve well,
+while in Hughes's case the argument rests on the value of the potential
+at X = I, 894 which they think even more unreliable.
+   The work at the Ryerson Laboratory on energies of emission began in
+I905. How the present investigation has grown out of it will be clear
+from the following brief summary of its progress and its chief results.
+   I. It was found first that these energies are independent of temperature, '
+a result unexpected at the time but simultaneously discovered by Lienhop'
+and thoroughly confirmed by others later. This result showed that
+photoelectrons do not share in the energies of thermal agitation as they had
+conzmonLy   been supposed     to do, and this result still stands.
+  z. The apparent energies of emission, that is, the volts which had to
+be applied to just stop the emission were determined for eleven different
+metals and found to differ among themselves by more than one volt. '
+This point has recently been tested again by Richardson and Compton'
+and by Page, ' both of whom find no differences.   The present work shows
+that differences do in general exist though possibly not under the con-
+ditions used by the other experimenters.
+   3. The energy of emission was found to vary considerably with time
+and illumination, a result which I interpreted as due to the disturbing
+inAuence of a surface film which exerted under different conditions dif-
+ferent retarding influences on the escape of electrons. '
+   4. The results in 3 revealed the necessity of questioning the validity
+of all results on photopotentials unless the effects of surface films were
+eliminated either by removal of the films or by simultaneous measure-
+ment in vacuo of photopotentials and contact E.M. F.'s, or by both pro-
+cedures at once. Accordingly I initiated in x9zo on a somewhat elabor-
+ate scale simultaneous measurements on photoeffects and contact E.M. F.'s
+in vacuo on film free surfaces. Some of the results of these measurements
+on the common metals have been recently reported by Mr. Hennings.
+Others are contained in this paper, and still others will be reported in a
+later paper.
+  ~ Phil. Mag. (6), x4, I88, I907.
+  ~ Ann. d. Phys. (4), 2I, 284.
+  3 Phil. Mag. (6), 24, S82, x9I2.
+  4 Am. Jr. Sci. 36, Sox, x9I3.
+                ,
+  5 PHYs. REv. 30, 287, I9IO, and 34, 68, I9I2.
+               ,
+    PHYs. REv. , 4, 228, I9I4.
+                                                                                        SECOND
+36o                                   R. A. MILLIKA¹                                   r SERIES.
+
+
+   5. The marked difference between the apparent effects on the energy
+of emission of different types of sources such as the spark and the arc,
+even when the same wave-length was employed, were traced to the
+extreme difficulty of eliminating disturbances when spark sources are
+employed      —a difficulty of course appreciated from the first, but thought
+to have been disposed of because screening of the direct light from the
+arc removed the differences. ' After these disturbing inHuences were
+eliminated powerful spark sources of given wave-length were found to
+produce exactly the same energies of emission as arc sources of the same
+wave-length and of about the same mean intensity, but of only one
+thousandth the instantaneous intensity.          This furnished very exact proof
+of the independence first discovered by Lenard of the energy of emission upon
+intensity, even when the intensity of i/lunzination     in one wave-length, v~s. ,
+                                            erg
+       3650, was as h'ttgAl as 20000 cm sec
+   6. The relation between V and v was tested with spark sources
+without bringing to light at first anything approaching a linear relation-
+ship. These results were reported by Dr. Wright. ' A question as to
+their validity was, however, raised by my subsequent proof of the insuf-
+ficiency of such screening devices as had been used in the case of spark
+sources. Accordingly Dr. Kadesch took up again the relation between
+V and v with powerful spark sources, using film-free sodium and
+potassium surfaces, and obtained results which spoke definitely and
+strongly in favor of a linear relation between the maximum0
+                                                                    P.0D. and v.
+The range of wave lengths studied was from 3,900 A. to 2, 200 A. These
+results have been published' since Pohl and Pringsheim wrote their
+critique, else I think they would not have felt that the common assump-
+tion since I 905 of a linear relation between V and v rested upon so
+insecure an experimental basis.
+   y. At the same time I undertook to investigate with as much exactness
+as possible, using as a source the monochromatic radiations of the quartz-
+mercury arc, the third, fourth and fifth of the above assertions of Ein-
+stein s equation, and in the vice-presidential address before the American
+Association for the Advancement of Science in December, I9I2, expressed
+the hope that we should soon be able to assert whether or not Planck's h
+actually appeared in photoelectric phenomena as it has been usually
+assumed for ten years to do. 5 At that time the papers of Hughes and of
+   ' Verh. d. D. Phys. Ges. , XIV., 72o, xgx2.
+   2 PHYS. REV.
+                 (2), I, 73, I9I3.
+   ~ PHYs. REv.
+                , 33, 4I, I9I I.
+  4 PHYS.     REV. , 3, 63, May, xgx4.
+  t'   Science, 37, xxg, xgx3. The following is the quotation from that address: "But not only
+PHYS1CAL REVIEW, VOL.   VII. , SECOND SERIES.        I'LEYTE   I.
+       March, rgx6.                              To face page 36'.
+
+
+
+
+                                       Fig. 1.
+
+                               R. A. MjL11KAN.
+No. s;   1    PHOTOELECTRIC DETERMINATION                   OP PLANCK      S               36I
+Richardson and Compton had just appeared, though the latter paper I
+had unfortunately not seen at the time of writing and hence made no
+reference to it. These authors found the value of k in the Einstein
+photoelectric equation varying in the eight metals studied from 3.55 )(
+Io '7 to 5.85 &( Io . Planck's h was 6.55 )& Io '~, a difference which
+Hughes tried to explain by assuming either that only a fraction of the'
+energy hv was absorbed or that the energy of emission against the direction
+of the incident light was less than that in the direction of the incident
+light.
+                        2. EXPERIMENTAL ARRANGEMENTS.
+   In all of this photoelectric work at the Ryerson Laboratory the same
+general method has been employed, namely, the substances to be studied
+or manipulated have been placed in the best obtainable vacuum on an
+electromagnetically controlled wheel and all the needed operations have
+been performed by movable electromagnets placed outside. As new
+operations have been called for the tubes have by degrees become more
+and more complicated until it has become not inappropriate to describe
+the present experimental arrangement as a machine shop in vacuo. The
+operations which are now needed in all the tubes which are being used are
+   I. The removal in vacuo of all surface films from all surfaces.
+   2. The measurement of the photocurrents and photopotentials due to
+these film-free surfaces.
+   3. The simultaneous measurement of the contact E.M. F.'s of the
+surfaces.
+   To construct tubes in which these operations can all be performed in
+rapid succession, particularly when the substances to be studied are, as
+in this case, the inHammable alkali metals, sodium, potassium and lithium,
+is not at all easy, and such success as is being obtained in these experi-
+ments is due in no small degree to the skill and experience of the mechan-
+ician, Mr. Julius Pearson, who has from the start made all the tubes and
+contributed not a little toward their design. Dr. A. E. Hennings and
+Dr. W. H. Kadisch, whose papers have already been referred to, have also
+assisted materially in the evolution of these tubes. That shown in Fig. I
+is the ninth tube of this general plan which has been constructed.    Since
+the detail in the photograph is not very clear it will be explained in con-
+nection with the diagram shown in Fig. 2. This diagram, however,
+relates to a tube used before that shown in the photograph and one in
+which the motions of the plate S in the measurement of the contact
+is the absorption of energy by an electron from a light wave proportional to u; its numerical
+magnitude is approximated a least by multiplying the frequency of the light by Planck's,
+h. It- is true there is here no accurate agreement as yet for part of the energy absorbed by the
+electron is lost in getting out of the metal and the exact amount of this loss has not been
+measured with as much accuracy as we hope soon to be able to obtain, etc.
+                                                                          "
+                                                                             SECOND
+     362                          R. A. MILLIKAX.                            t SERIES.
+
+     E.M. F.'s were made mechanically instead of electromagnetically, other-
+     wise the tubes are identical.
+        The three metals on the periphery of the wheel w (Fig. z) are cast
+     cylinders of sodium, potassium and lithium.       The measurements t here-
+     with reported relate only to the sodium and the lithium, an accident
+     having prevented the inclusion of data on potassium at the present time.
+     The wheel zo is rotated by the electromagnet (not shown in Fig. z) which
+     is nearest the observer in Fig. I, until it is opposite the rotary knife X.
+     The electromagnet F (Fig. 2) is then energized and slipped slightly for-
+
+
+
+
+                                        Cl'
+
+
+
+
+'
+    I1&][]$11)'$&~PP'
+
+
+
+
+                        1$
+
+
+                    L
+                    I
+                                   gN                                                      I
+                                                                                           I
+                             t
+                    I                                                                      I
+                                                                                           I
+
+                                                                                     mI'
+
+
+
+
+                                                                         Q       G
+
+
+
+                                              Fig. 2.
+
+     ward. It thus advances the armature M' which is rigidly attached to
+     the knife X by a rod which slips freely through the second armature M'
+     until the stop N strikes against 2IL In this motion the small centering
+     rod which projects in front of the knife X enters a small cylindrical hole
+     in the middle of the sodium cylinder.      The magnet F is then demag-
+     netized and slipped still farther forward until it is opposite the armature t
+        , re-energized and rotated on an axis coinciding with the axis of the
+     tube. This motion advances the knife X, which is rigidlyyaattached
+                                                                      ac e to 3II
+     by pushing the screw between X and M forward in the brass nut carried
+     by a frame which is rigidly attached to the walls of the tube (Fig. z).
+       ]   PHOTOELECTRIC DETERMINATION          OP PLANCK'S    "h."      363
+Z is thus advanced far enough so that upon rotation it will cut a thin
+shaving from the face of the sodium cylinder.         Ii is then demagnetized,
+slipped   back to its position opposite M',    energized and rotated and the
+shaving cut off. It will be clear that by suitably setting 3EI the thickness
+of the shaving can be regulated at will. The shaving falls down into the
+enlargement on the bulb beneath the wheel where it is of use in freeing
+the tube from residual oxygen. The knife X is next withdrawn from the
+sodium by slipping back the electromagnet Ii. The whe'el W is then
+rotated until the freshly cut sodium surface is normal to the beam of
+monochromatic light entering at 0, and a number of photocurrents (see
+below) are taken corresponding to various P. D. 's applied between the
+sodium and the Faraday cylinder into which it projects. This Faraday
+cylinder consists of an inner cylinder of copper gauze and an outer one
+of solid copper. The gauze cylinder, of mesh I/zo cm. , is strongly oxi-
+dized by dipping it into a solution of copper nitrate and then holding it
+in a bunsen flame. The inner gauze cylinder and the outer solid one
+are insulated from each other by ebonite rings 3 mm. thick, though in
+this experiment they were always at the same potential because of the
+joining of the electrodes B and C. This type of.Faraday cylinder, origi-
+nally designed by Ladenburg and Markow, was here used for the sake
+of giving the corpuscles which have just enough energy to reach the gauze
+a chance to go through the mesh and be caught between the gauze and
+cylinder, the idea being that the photocurrent-potential          curve would
+plunge into the potential axis more suddenly and thus locate the maxi-
+mum positive potential more accurately than if a single cylinder were
+used. Furthermore, the gauze projected out beyond the sodium so as to
+catch all electrons which left the latter (see Figs. I and 2).
+   At any desired time the freshly cut sodium or lithium surface was
+rotated until it was opposite the test plate S, which was of copper treated
+as to oxidizing, washing, drying, etc. , exactly as was the copper cylinder,
+so that the contact E.M. F. between the sodium and S should be the same
+as that between the sodium and the gauze cylinder. This contact E.M. F.
+was measured by the Kelvin method,     i. e. , by applying, with a potentiom-
+eter system, just such a P.D. between the sodium and the plate S that
+lifting S from a position say two tenths millimeter above the face of the
+sodium caused no motion in an electrometer needle connected to 8'.
+The accuracy of this determination was better than /&s per cent. All
+potentials measured in this work were in terms of the indications of a
+Weston Standard Laboratory voltmeter certi6ed correct to O. r per cent.
+by the Bureau of Standards at Washington.
+    Since the aim was to test with the utmost possible accuracy the slope
+                                                                       SECOND
+                              R. A. MILLIKAN.                          t SERIES.
+
+of the line connecting frequency with the maximum P. D. it was necessary
+first to know v with great precision and second to see that no trace of light
+of frequency greater than that plotted got through the slit of the spectro-
+scope. To this end a Heracus 2oo volt quartz-mercury lamp was used
+as a source, the lines of a powerful spark source such as that used by
+Kadesch and also by Lenard and Ramsauer having been found much too
+impure for the purpose in hand. A grating photograph of the spectrum
+of the mercury lamp was taken and only such lines were chosen for use
+as had no companions anywhere on the short wave-length side. This
+photograph is shown in Fig. 3. The central lines belong to the iron com-
+parison spectrum, the mercury lines being above and below it. The lines
+chosen for use were X = 5, g6I (not shown in the photograph) )I = 4339.4,
+X = 4o46. 8, X = 3650.2, X = 3I25.5, X = 2534.7 and X = 2399. The
+wave-lengths were kindly determined by Mr. Walter T. Whitney.              A
+glance at the photograph will show how well adapted these lines are
+for use as accurately determined monochromatic sources so far at least
+as the short wave-length side is concerned. Light filters to cut out stray
+short wave-length light were also used as described below. Since the
+measurement was to be made on the maximum P.D. and since this in-
+creases with decreasing wave-length it was not of great importance that
+the source be of great purity on the long wave-length side. The spectro-
+scope used was a Hilgar monochromator, the end of which is shown in
+Fig. I. The slit width was uniformly. oI inch save in the case of lines
+2, 535 and 2, 65o with which slit-widths as large as .o4 inch were some-
+times used.
+   The pressure in the apparatus, which was exhausted by a Gaede molec-
+ular pump, assisted by the chemical action of the sodium shavings, was
+carried down to a ten-millionth of a millimeter or less as measured by a
+McLeod gauge sensitive enough to permit estimates as low as the value
+mentioned.     Such a gauge gives, of course, no indication as to the amount
+of mercury vapor present, but there appears to be no reason for thinking
+that this is not carried out by the molecular pump (which ran contin-
+uously throughout the observations unless otherwise stated) nearly as
+completely as are other gases. I have, however, made no tests upon this
+point and hence can make no positive assertions.
+
+              3. SQURcEs oF ERRQR AND THEIR ELIMINATIoN.
+   (a) 3lagmtude of Photoourrents                   t—
+                                          Since pho. o potentials are inde-
+pendent of light intensity, it is evident that the accuracy with which the
+point of intersection of the photocurrent-potential curve with the potential
+axis can be determined is directly proportional to the magnitude of the
+PHYSICAL REVIEW, VOL. VII. , SECOND SERIES.         PI.ArE II.
+        March, xgz6.                            To face page 364.
+
+
+
+
+                                     Fig. 3.
+
+                              R. A. MlLLlkAN.
+      ']   PIIOTOELECTRIC DETERMINATION        OP PLANCK'S    "h."      365
+photocurrents at any particular potential, for example at saturation.
+The photocurrents from a freshly shaved sodium surface are, in the best
+attainable vacuum, hundred of times larger than those from surfaces a
+few hours old. Results of especial interest in this connection will be
+found in a following paper.
+   The method employed for obtaining the maximum energy of emission
+in volts was not to attempt to locate experimentally just that retarding
+potential which would prevent the escape of electrons from the sodium
+                        —                                      —
+or lithium to the gauze a very uncertain procedure at best but rather
+to plot the photocurrent-potential       curve in the neighborhood of the
+balance point and then to locate this point graphically.       These currents
+were measured with a Dolezalek electrometer connected to the joined
+electrodes B and C (Fig. 2). This electrorneter had a sensibility of 2, 500
+mm. per volt, and the scale could be read to o.z mm.
+   The currents were measured by the deHections obtained in an illu-
+mination of 3o seconds, and the deHections used in the location of the
+balance potentials in the case 'of the sodium ranged from 3 mm. to 8o mm.
+But with a/l tke lines studhed the saturate, on currents were from rg to goo
+times these maximum currents used in locatinf; the balance points. Thus
+the saturation current for line 5,461 was 3,000 mm. , that for line 4., 339
+was 6,ooo mm. , that for line g, og7 was 6,ooo mm. , that for line 3,65o
+was 3I,ooo mm. , that for line 3, 125 was I7,ooo mm. , that for line 2, 652
+was 3,ooo mm. and that for line z, 535 was 7, 8oo mm. This means that
+the complete curves the beginnings of which are shown in Fig. 5 would
+be from three to twenty meters high. These enormous currents, when
+measured in scale divisions, make the location of the intercepts on the
+potential axis a matter of much precision. Smaller currents were used
+in part of the measurements       to be reported both because light 61ters
+were introduced (see below) arid because a considerable portion of the
+energy passing through the slit was absorbed in a thermopile introduced
+for the sake of making simultaneous photoelectric and energy measure-
+ments.
+                                                —
+   (b) Electrons Liberated by RefEected Light. In general the balance
+potential does not correspond at all to the potential necessary to stop
+the electrons having the highest energy of emission, but rather to the
+potential at which the stream of electrons escaping from the illuminated
+surface is equal to the stream liberated from the walls opposite that
+surface by light reHected to these walls. With small photocurrents the
+difference between the two potentials may be very large. Of course,
+the attempt is usually made to measure and allow for this reverse elec-
+tronic current by applying a large positive potential to the illuminated
+                                                                                         SECOND
+366                                  R. A. MILLIKAN.                                    t SERrEs.
+
+electrode and noting the apparent positive leak, but a correction made in
+this way is very uncertain.     It was because of this error that Richardson
+and Compton placed less reliance on their determination of maximum
+energy of emission that on that of mean energy. But the validity of
+Einstein's equation can only be tested by accurate determinations of the
+maximum energy.       This         "
+                                back leakage            "
+                                                 was here eliminated com-
+pletely by using only       light  for which  the  ilium&sated   electrode was
+photoelectrically           but for which the surrounding
+                     sensitive,                             walls were not
+photo-sensitive.   In the following experiments with sodium the long      0
+wave-length     limit of the oxidized copper walls was X = 2688 A, '
+                                                   0
+but the sodium was sensitive up to 'A = 68oo A. For any interrfled~ate
+wave lengths, -though the saturation currents were measured by a deflection
+of from g to gx meters, there was not a guarter of a mm. of def'ection in go
+seconds whee the sodium was given a positive potential of 6 volts. Hence
+the balance potentials corresponding to the lines from 3, I25 to 5,46I,
+inclusive, were obtained with very great precision, so far as this eGect
+alone was concerned.      Line 2, 535 was below the long wave-length limit
+of the walls of the Faraday cylinder which was used in the measurements
+on sodium, so that a positive potential of 6 volts applied to the sodium
+produced a back leak of 2o mrn. in 3o seconds, because of electrons
+liberated by the reflected light. This was corrected for in plotting line
+2, 535, but I consider the balance potential for this line as less reliable
+than those for the other lines. When it is remembered that most pho-
+topotential-frequency   curves have been obtained from observations on
+lines between 2, 5oo and I, 8oo where this positive leak is always very
+large it is not to be wondered at that most erratic and uncertain results
+have been obtained.
+                                                               —
+   (c) Contact Electromotive Forces The meas. urement of the contact
+E.M. F. between the alkali metals and the test plate showed that it varied
+                                       —
+from o.4 volt up to 3.o volts depending upon the condition as to age,
+absorbed gas, etc. , of the surfaces tested. This shows the futility of
+attempting to obtain accurate information about photopotential-fre-
+quency relations in the case of the alkali metals without simultaneous
+measurement in vacuo of photopotentials and contact E.M. F.'s. Further-
+more, these changes in contact E.M. F. were found to take place quite
+rapidly immediately after a fresh surface had been formed by shaving.
+These results will be more fully reported in a following paper. For the
+purpose of this study it was more convenient and more accurate to find
+conditions under which the contact E.M. F. would remain constant over a
+    ~
+      In the experiments with lithium the receiving cylinder has been changed and its long wave-
+length limit was distinctly and definitely lower, namely X = 2535 A     .
+       ']   PHOTOELECTRIC DETERMINATION          OP PLANCK'S "Ia.  "       367
+time sufficiently long to make possible a full series of photopotential-
+frequency measurements, than to correct each photopotential measure-
+ment by a simultaneous contact E.M. F. determination.          Such conditions
+were found after considerable experimenting and oddly enough they were
+obtained not in the best obtainable vaccum, but with a pressure of as
+much as .OI mm. of gas in the bulb. Under such conditions there was
+obtained the very desirable combination of a constant contact E.M. F.
+and very large and fairly constant photocurrents so that the most reliable
+photopotential frequency curve yet taken on sodium (that shown in
+Figs. 5 and 7) was taken at a pressure as high as .ot mm. of mercury.
+These results were in perfect agreement, however, so far as concerns h,   " "
+with others obtained in the best obtainable vaccum by another method
+ (see below).
+    (d) The Length of the PhotoPotent~al Freg-ueucy Curve              —
+                                                                The .smallness
+of the range of frequencies throughout which reliable photopotentials
+can be measured has already been mentioned as the gravest source of
+uncertainty in attempting to test any one of assertions 2, 3, 4 01 5 of
+page 356. Ladenburg's whole wave-length range, viz. , from 260 pp, to
+20I pp gave him a curve of length but 59yp and that in a region in
+which, in view of the sensitiveness to the reflected light. of all substances
+of which the collecting Faraday cylinder can be made, accurate measure-
+ments of photopotentials cannot be obtained.          Hughes's range of 69 pp,
+was in a less favorable region I85 @1M to 253 pp, even than Ladenburg's.
+All of Richardson and Compton's             published   photocurrent-potential
+ curves save those on Al and Na correspond to wave-lengths between
+X = 2IO pp, and X = 275 pp,    i.e. , the range is 65 pp, or about the same as
+ in  Ladenburg's experiments,   and   the spectral region is the same. With
+ aluminum the range was from 200 pp, to 3IO pp, or a total of IIO pp, and
+ it was against the validity of the conclusions from the work on Al that
+ Pohl and Pringsheim critique was chiefly directed.       On sodium, Richard-
+ son and Compton obtained no complete photocurrent-potential              curve,
+ but made measurements on maximum positive potentials with wave-
+ lengths g36, 366, 3I3, 25', and 2IO pp. The settings on 254, and 2IO
+ are subject to the same difficulty due to reflected light as are my own
+ readings on these lines, so that although they made no measurements of
+ contact E.M. F.'s of sodium in vacuo, their range of wave-lengths at
+ which reliable settings on maximum energy of emission might have been
+ made if the contact E.M. F.'s had been known was from 430 pp to
+3I3 pp 01 II7 p, p, .
+  Kadesch's observations on sodium and potassium           covered the range
+of 390 pp to 220 pp, or I70 pIJ, .
+                                                                          SECOND
+368                            R. A. MILLIKAN.                           t SERIES.
+
+   The present observations on sodium cover the range from 680 pp, to
+240 pp, or a total of 440 lgp and the potentials determined with a very
+high precision (about .ot volt) cover the range 577.0 to 265.0 or 3I2 pp,
+i. e. , the range is four times that of Ladenburg and Hughes and the
+region in which thoroughly trustworthy settings can be made is nearly
+three times that of Richardson and Compton or of Kadesch.
+                                           —
+    (e) Scattered Short Wave Length -Light. With the very large sensibility
+of from 2, 000 to 3I,000 mm. of deflection for saturation currents, settings
+on the potential necessary to entirely stop a negative discharge would be
+incorrect if there were the slightest trace of scattered light of wave-length
+considerably shorter than that of the line being studied. There were in
+these experiments slight indications of such traces of short wave-length
+light, deHections of several millimeters in 30 seconds persisting in some
+cases considerably beyond the potential at which the photocurrent-
+potential curve was approaching the potential axis. In other words
+with increasing positive potential this curve would fall very rapidly toward
+the potential axis until it almost touched it and then shoot out nearly
+horizontally and approach it asymptotically.          That these Hat "feet"
+to the photocurrent-potential      curves were due to stray short wave-length
+light diffusely reHected from the prism faces, lenses, or the plane reHector
+of the Hilgar monochromator was rendered probable by the fact that
+they were more pronounced with the longer wave-lengths than with the
+shorter, and also by the fact that they changed in amount when the
+plane reHector furnished with the instrument was replaced by one of
+speculum metal made in the laboratory;.           It was conclusively proved
+when it was found that the interposition of filters which absorbed all
+wave-lengths      shorter than the one under investigation caused these
+"feet" to disappear entirely. Figure 4 shows a rather extreme case
+of the falsification of the true photocurrent-potential    curve by such stray
+short-wave-length       light. The metal studied was here lithium.          The
+slit width was .o2 inch and a considerable portion of the light which
+came through it was intercepted by a thermopile so that the saturation
+currents were smaller than those mentioned above, as the data on the
+figure shows.      It will be seen from this data that line 2, 535, which is the
+last strong line at the short-wave-length end of the mercury arc spectrum,
+did not show any trace of this stray light effect, for at    +   r.3 volts, only
+.or volt beyond the intercept there was not a trace of a deHection although
+.2 mm. could have been easily detected. It will be seen too that at +5.7
+volts there was also no trace of a deHection, thus showing that in this
+case line 2, 535 was above the long-wave-length limit of the receiving
+Faraday cylinder. These readings together with the shape of the curve
+No. s         1
+                        PHOTOELECTRIC DETERMINATION                                                                  OF PLANCK S                  i'I
+                                                                                                                                                                                                          369
+constitute the best of evidence that neither stray short-wave-length light
+nor reverse electronic currents (Richardson and Compton's " back leak-
+age ") vitiate in any way this curve corresponding to line a, gg5. But
+the curve corresponding to line 4, 339 has a very pronounced "foot"
+(see Curve I.) which however disappeared completely upon interposing
+a filter of aesculin in a glass trough a combination which was found                             —
+to cut out entirely all lines below 4, 339 including the strong adjacent
+
+                              I                                          I
+                              1                                       I
+                                                                     r
+
+         ;t        Ddlss                                     eadrI
+                                                                     I
+                                                                              %effect toes w, Qb sec'.s
+         'reit'izzeeeeez
+                                                         Id''I
+                                                                                     '%tkogt IL 'Nth. --
+                                                                                         I                                                                                                                I
+                                                                             "Voits 'Bette~     Filter
+              Q 05„„
+                                                                                                                                                                                                          I
+         ~$7            e.owe                                dr                0.   0.   ) Rma                                                                                                    ~r
+                                                                                                                                                                                                          L
+
+
+
+
+                                                                                                                     ~
+                                                         ~,      I
+                                                         n                                                                                                                                            I
+                                                             I                                                                 ~r   d                                                             Il
+                                                                                                          fr   tl
+              Q ),0                   ~   «
+                                                     I
+                                                         ~r
+                                                             I
+                                                                                    gf   A   W    f Ih/                        rr   rl                                        P
+                                                                                                                                                                                                  II
+                                                                                                                                                                                                  I
+
+                                                                                    3 --- -i/0 " It
+                                                                                                                Ir
+
+                                                                                                                     ~
+                                                                                ~
+
+              U i7"
+                                                                                                          rr                                                                                      I
+
+
+
+                 $,$„.
+                                                         I                                                                                                                           t I
+                                                                                                                                                                                                 II
+                                                         I                                          ~
+                                                     .I                                                                                                                      rIL             I
+              a~                                                                                  3Q                           rr                                                    1       1I
+
+
+
+
+                                                                                                          „~0.0-. .
+           q    )0. .
+                 O,
+                          ~«„                                                   ,6 - - - -3z                    ., 0.0
+                                          „
+
+
+
+
+          ,g )7.
+                                                                                                                                                                                     I
+
+
+
+
+         =$7 67S.O                                                              .7         S,g
+                                                                                9 - - - - 1'f4'                      g.o. « ..
+                                                                                                                                    ~
+                                                                                                                                         '
+                                                                                                                                                                               I I
+                                                                                                                                                                               Ie
+                                                                                                                                                                             rz I
+                                                                                                                                                                                         I
+
+
+
+
+                                                                                .sS .                                                                                        I
+ O
+
+
+9-
+                                                                                '.Io             $7„p     „~1/0      80         ~
+
+
+                                                                                                                                d,
+                                                                                                                                    „                                I
+                                                                                                                                                                     I
+                                                                                                                                                                         I
+
+                                                                                                                                                                         I
+                                                                                                                                                                         I
+                                                                                                                                                                             I
+                                                                                                                                                                              I
+                                                                                                                                                                              In
+                                                                                                                                                                              I
+                                                                                                                                                                                 I
+
+
+
+
+                                  r
+                                      /
+                                                                               1 po-- -93.           0"                                                      I
+                                                                                                                                                                 /
+
+
+
+                                                                               $7+..&Sq.~p. 5'g1.p "-
+                          /                                                                                                                                 I ~ ar
+                                                                                                                                                        I 'I1 . ' I'l
+                         el
+                                                                                                          ,                                             I        /       JJ
+                                                                                                                       I
+                                                                                                                       I
+                                                                                                                                             h)
+
+
+        1,3       1.L    l.f                  I,O    g               .8 7
+                                                                                             hl
+                                                                                                 0,1,
+                                                                                                    —h/
+
+
+                                                                                                   -~~
+                                                                                                               A/
+                                                                                                       .3 h~, S .6
+                                                                                                               2,
+                                                                                                                       I
+                                                                                                                       ILr
+                                                                                                                           L         tt
+                                                                                                                                                                             g                            /o
+                                                                             +Voks                                   k5
+                                                                                 Fig. 4.
+
+line g, o47.                      Note that there was now no trace of a deflection either at
+ 6 or at —.
+—.        p volt (see Curve II.). Tlzese curves and a great many similar
+ones which              I have taken seem to me to establish beyond egestion the contention
+tlzat tlzere is a definite, exactly determinable    maximum velocity of emission of
+corpuscles from                            influence of liglzt of a given frequency.
+                                                    a metal, under             tlze
+Ramsauer's' recent conclusion to the contrary is due, I think, to the fact
+that the errors caused by stray short-wave-length light (falsches licht)
+were so large as to falsify entirely the lower parts of his velocity distri-
+bution curves. His correction for falsches licht" actually amounted
+                                                                                             "
+to as much as ro per cent. of his saturation currents. ' lt will be seen
+that the effect of this stray short-wave-length light is to push the maxi-
+mum potentials corresponding to the longer wave-lengths too far in the
+direction of positive potentials, while the effect of reverse electronic
+currents is to push the intercepts corresponding to the shorter wave-
+lengths, which alone they influence, in the opposite direction. These
+two errors are probably chiefly responsible for the fact that the slope lz/e
+has heretofore come out so erratically and so low.
+   ~ Ann. der Phys. ,
+                      4S, p. I I20, I9I4.
+   2 For more complete discussion of Ramsauer's experiments see R. A. Millikan, PHvs. REv. ,
+January, I9I6.
+                                                                          SECOND
+370                            R. A. MILLIXAN.                            t SERIESI
+
+    In the present work there were selected, for each line studied, filters
+which absorbed       all, or nearly all, of the energy of wave-length shorter
+than that of the line under investigation.        Since, however, these filters
+diminish largely the total saturation currents their use tends to diminish
+the accuracy of locating the intercepts.        Hence after it has been estab-
+lished that the flat" feet "of the curves are due to stray light, it is perhaps
+just as well to reduce these feet as much as possible, without the use of
+filters, that is, b'y having all transmitting and reflecting surfaces as clean
+and as perfect as possible and all absorbing surfaces as black as possible,
+and then simply to cut the feet off. Thus even in the extreme case
+shown in Fig. g, Curve I., very little error in the intercept would have
+been made by drawing the curve altogether without reference to the last
+eight small readings.        In the work on the sodium, after a study of all
+the lines had been made with filters and the stray light effects reduced
+to the order of a millimeter in 3o seconds, the filters were dispensed
+with entirely and curves plotted corresponding to observed deflections
+between 3 mm. and 8o mm. The result is shown in Fig. 5.
+                                                                     —
+    (f) 3IIaximum Energy of Emission vs. IrIost Frequent Energy. Richard-
+son and Compton place least reliance upon their determinations of maxi-
+mum energies of emission arid draw most of their conclusions from a
+consideration of the most freguent energy of emission, making the assnmp-
+tion that with all wave-lengths the ratio between the most frequent
+energy and the maximum energy is a constant.             In the present experi-
+ments with sodium this was not found to be the case, and in general it
+seems probable that the assumption cannot be strictly true. For even
+if the surface of the sodium were a perfectly homogeneous substance
+ (evidence against this view will be brought forward in a second paper),
+the differences in the penetrating power of light of different wave-lengths
+into the sodium, as well as the differences in the absorptions of electrons
+of different speeds in the layers of sodium through which they emerge,
+would seem to require differences in the velocity distribution curves ob-
+tained with different spectral lines. Hence, there would seem to be no
+warrant for expecting to obtain a reliable test of any of the assertions of
+Einstein's equation by comparing the most frequent velocities of emission
+produced by different lines. If Planck's         "h"    is actually involved in
+photoelectric Phenomena its presence can be exPected to be brought to Eght
+ only by accurate measurements on the maximum energies of emission under
+ the influence of lights of dhgerent frequencies     Attention  w. as, therefore,
+here directed entirely to this end.
+Np 3   PHOTOELECTRIC DRTBRMIXA TION OF                                                                                                                                                   I LA 1VCK'S "h."                                                                          37&
+
+
+
+
+                                                                                                                                                             r JL                                     I
+                                                                                                                                                            J 'LTJ
+                                                                                                                                                                    I. r rT
+                                                                                                                                                                        I   7                1.       I
+
+                                                                                                                                                                                              I
+                   L                                                                                                                                                                                                                  LL
+                   ~I           L'r
+                  I w II T.
+                          . T &L
+                                    J                                                                                            L I' ~
+                                        L                                                                                                                                                                                                                 V
+                                                    I   lJ '                  L                                                                                                                                                                               '1
+                                                                                  '1 K
+                                                                                         '
+                                                                                             IL                                                                                                                                                                            L
+
+
+                                                                                                          1I
+                                                                                                                                 ~    J
+                                                                                                                    1.
+
+
+
+
+                                                                                                                  ~ PI,
+
+                                                                                                                  L1.
+                                                                                                              ~   ea     I
+
+                                                                                                                  JL
+                                                                                                                                          J\
+                                                                                                                    Hl
+       I                                                                                                          I.
+                                                                                                                   II                                               J
+           I                                                                                                                                                                1                ~             ~
+
+                                                                                                                                                                            ~~       DL
+                                                                                                                                 I' ~ ,
+                                                                                                                                    ~
+                   'I                                                                                                                         1   J~                                                                                  I ~I'
+
+                                                                                                                                                       '1
+                                1                                                                                                                                                                                                                 'L
+                   J    ~
+                            ~           1                                                                                                                           'LL                                                                                   I Il
+                   IL
+                                                L
+                                    J
+                                                                                                                                                                        J                                  Ã'L
+                                            I                                                                                                                                   II
+                                                                                                                                                                            1J
+                                        J
+                                                           L
+                                                               I,
+                                                               1 +1   I
+                                                                      1
+                                                                                                                    L~
+                                                                                                                    I~
+                                                                                                                                                                                     5
+                                                                                                                                                                                                           ~ ~
+                                                                                                                                                                                                           r
+                                                                                                                                                                                                          I'
+                                                                                                                                                                                                                       L
+                                                                                                                                                                                                                           L                                                   0
+                                                                                                                                                                                                                               \ 'J
+                                                                          1                                                      'I       ~                                                                                                   L
+                                                                              I
+                                                                              1                                                                                                                                                                   L
+                                                                                                                                                                                                                                                      K T
+
+                                                                                    L                                                                                                                                                                     'L
+                                                                                   Id
+                                                                                         L
+                                                                                                                                                                                                                                                                       Tl
+                                                                                             L,                                                                                                                                                                        -L CO
+                                                                                             1                                   I        ~
+                                                                                                  I
+                                                                                                  1
+
+                                                                                                      I
+                                                                                                          I
+                                                                                                      ~ II
+
+                                                                                                                                 ~    J
+
+                                                                                                                                              I9 ~ a
+                                                                                                                                                                        L
+                                                                                                                         I ~
+                                                                                                                                                                      ~1
+                                                                                                                                                                                         I   II
+
+                                                                                                                             I                                       '1' JIJlsl
+                                                                                                                                                                            I   T        5        ~
+                                                                                                                                                                                     4       J    ~
+
+                                                                                                                                                                                                                   I           I
+                                                                                                                                                                                                               I
+                                                                                                                                                                                                               r
+
+                                                                                                                                 '~~
+                                                                                                                                                                                                                                                      1
+
+                                                                                                                                                                                                                                                                   L
+                                                                                                                                                                                                                                                                       I
+                                                                                                                                                                                                                                                                       1
+                                                                                                                                                                                                                                                                           L
+
+
+
+
+               Qp43$&~ Q 0/0+(f
+                                                                                                                  Fig. 5.
+                                                                                                                SECOND
+372                                            R. A. MILLIKA2V.                                                t SERIES.
+
+                                   THE DETERMINATIQN oF k.
+   Fig. 5 shows the most reliable single set of photocurrent potential
+curves yet taken for the different lines. For compactness the whole
+right half of the figure, namely the half containing lines 3,6go to 5, 46I,
+is placed below the half containing lines 2, 535 and 3, I25. It will be
+seen that all the curves, save that corresponding to ) = 2, 535, strike the
+potential axis on the side of negative volts. This means simply that e
+times the contact P.D. , which, since sodium is positive with respect to
+copper, acts as a retarding potential, exceeds the energy of emission save
+in the case of line 2, 535. It will be seen also that the maximum possible
+error in locating any of the intercepts is say two hundredths of a volt and
+that the total range of volts covered by the intercepts is more than 2.5.
+Each point, therefore, of a potential-frequency curve should be located
+with not more than a per cent. of uncertainty.         The frequencies are, of
+course, known with great precision. In the case of a group of lines such
+as that about 3, 65o or 4. , 339 (see Fig. 3) the shortest wave-length of the
+group is taken since it alone determines the position of the intercept.
+The actual potentiometer readings and the corresponding deflections in
+mm. for all these lines are given in Table I. In the plotting the deflections
+
+                                                    TABLE I.
+
+   5&46&              4&339            4&o47               3,65o.               3&zs6.                      &5351
+
+
+           n                                Def'n. ,            Def'n. ,             Def'n. ,                       Def'n. ,
+Volts.
+           c' Volts.               Volts,              Volts.               Volts.    mm.           Volts            mm.
+
+
+2.257      28      1.581      44   1.576       82      1.157        67 /2   .5812    52         '
+                                                                                                    —.0576          68
+2.205      14      1.629      20   1.524       55      1.105        36      .5288 29                +.0576          38
+2. 152         7   1576       10   1.471       36      1.0525       19      .4765 12                +.1620          26
+2. 100         3   1 524       4   1.419       24      1.0002       11      .4242        5          +.2670          16/12
+                                   1.367        3       .9478        4      .3718        2/12       +.3720            8
+
+
+in mm. were multiplied   by such factors as were necessary to give all the
+curves practically the same maximum ordinate.       No corrections of any
+kind were apphed to the readings save in the case of line 2, 535 (see section
+3, t& above).
+   The result of plotting the intercepts on the potential axis against the
+frequencies is given in Fig. 6. It will be seen that the first result is to
+strikingly confirm the conclusion reached successively by Joffe, Hull,
+Kunz, Hughes, Richardson and Compton and Kadesch as to the correct-
+ness of the predicted linear relationship between maximum P.D. and v,
+no point missing the line by more than about a hundredth of a volt.
+   The slope of this line was fixed primarily by a consideration of the five
+']   PHOTOELECTRIC DETERMINATION                                                                                     OP PLANCK'S                            "h."        373
+
+
+
+                                                                                                                                           I   I
+
+
+
+                                                                                                                               i&+-t---+,-L--------T+              +
+                                                                                                                                                            I
+     LI
+                                                                                                                                               - -+-
+          r
+
+              'l
+                                                                                                                               ~i-:g~l~ + &~&c
+                   IL
+                     L
+                         'l
+
+
+
+                                                                          +t&
+                                                                                                                          )c
+                                                                          -Pt.                                                      ll
+
+
+                                                                                                             a       +I
+                                                                                                             o        ))
+                                                                                                                         o'a
+                                              I
+                                               1                                             P                                 g O                     —:~+It—O
+                                                   LI
+                                                        'I
+                                                             I
+                                                                                                                                                       ---++"''-
+                                                    I        I
+
+
+
+
+                                                                 I
+                                                                 )Y
+
+
+                                                                                                                               O     I'                -$T.I- 4'
+                                                                                                         ll-
+
+                                                                                +
+                                                                                             hmP
+                                                                                                             ~~ g                  W gP)
+
+
+
+
+                                                                           I
+                                                                           'I
+                                                                                'l
+
+
+                                                                                         l
+                                                                                     I
+                                                                                         1
+                                                                                                                                                                +I O"
+
+                                                                                                 1
+                                                                                                     l
+                                                                                                         l
+                                                                                                         1rY'I
+
+                                                                                                                 l
+
+
+                                                                                                                     'L
+                                                                                                                      'r
+
+
+
+
+                                  II ~
+                                  ~I
+                                    r%
+
+                                         h
+
+
+                                    I~ '1 I
+
+                                  ~ Y    ~~
+                                    'h I
+
+                              L      ~ I
+
+
+
+
+                                                                                                                                                                   O
+
+
+
+
+     f g ) DA +                                              g'$ ) op,
+
+                                                                         Fig 6.
+                                                                       SECOND
+374                          R. A. MILLIKAN.                          t SEXES.
+
+points corresponding to lines 5, 461, 4, 3g9, 4, o47, 3,651 and g, 125, of
+which the erst, the fourth and the 6fth are particularly reliable.
+   Since no potential departs from the line by more than .oi volt and
+since the range of volts is about 2, it is a conservative estimate to place
+the maximum uncertainty in the slope at about I in 200 or 0.5 per cent.
+The value of this slope in volt-frequencies is 4. 124 )&    ".  Setting this,
+when reduced to absolute units, equal to h/e and inserting my value of e,
+namely 4.774 X io    ",
+                      — there results h = 6.
+                                              56 p ro  ".
+   The measurements thus far reported were all made upon a particular
+surface several hours after it had been cut, the conditions being exactly
+the same with all the lines, the only change made throughout the whole
+series of observations consisting in shifting the incident light from one
+wave-length to another by the adjustments provided on the Hilger mono-
+chromator.     Such a shift required but a couple of minutes at the most.
+The gas pressure within the bulb amounted to as much as a hundredth of
+a millimeter, for the reason that after considerable experimenting it was
+found that under these conditions, though the contact E.M. F. varied
+rapidly and largely immediately after shaving, in an hour or so it reached
+a constancy which it maintained for several hours. Furthermore, this
+constant contact E.M. F. was accompanied by very large and fairly
+constant photocurrents    —  a condition very essential to accuracy in the
+determination     of photo-potentials.   In a high vacuum, though the
+contact E.M. F. does not change rapidly after shaving, the photocurrents
+ often decay to a third or a fourth of the initial value in half an hour, so
+ that it is impossible to get a complete set of curves like the above.
+    Having placed beyond a doubt, however, the fact of the linear relation
+ between V and v, it was possible to determine the slope of the line in
+ the highest attainable vacuum by locating two distant points on it in
+ rapid succession. Wave-length 5, 46' was always chosen for one of
+ these points because its great intensity and large wave-length i. e. , steep
+ slope, adapt it admirably to an accurate determination of the intercept
+ on the potential axis. This intercept was determined a few minutes
+ after shaving, while the molecular pump was kept running and the
+ McLeod gauge showed a pressure of perhaps a ten millionth of a milli-
+ meter, then the intercept of the other chosen line was found as quickly
+ as possible by the method used above, after which the intercept of 5,461
+ was again taken. If the contact E.M. F. was changing uniformly this
+ change should be eliminated by taking the mean intercept of line 5,46r.
+The results of nine different determinations of slope made in this way on
+diferent days and with different wave-lengths to compare with 5,461 are
+ given in Table II.
+          ']      PHOTOELECTRIC DETERMINATION                          OF PLANCK'S             "h."           375
+                                                 TABLE II.
+                      Wave-Length Compared
+                          with 5,46z.                        Slope in Volt-Frequencies.
+                            3, 126                                     4. 11 X10 '~
+                            3, 650                                     4. 14
+                            3, 126                                     4. 10
+                            3,650                                      4. 12
+                            3, 126                                     4.24
+                            4, 047                                     3.98
+                            2, 535                                     4.04
+                            3, 126                                     4.24
+                            4, 047                                     4.21
+                                                    Mean.           . . . 4. 131 X10 i~
+
+The estimated uncertainties in these slopes, as set down at the time of
+taking, range from I per cent. to 4 per cent. , those corresponding to lines
+g, 65o and 3, Izo being most reliable.   I have not, however, attempted
+to weight the individual observations in taking the mean. This is seen,
+however, to be in very close agreement with the value found from Fig. 5.
+We may conclude then that the slope of the volt-frequency line for sodium
+is the mean of 4. I24 and 4. I3I, namely 4. I28 )( Io ' which, with my
+value of e, yields
+                        h = 6.569 g Io     erg. sec.         "
+   The measurements on lithium were made in a new tube and the new
+receiving
+       0
+          Faraday cylinder was found to have a long wave-length limit
+I 5o A. lower than its predecessor so that the maximum positive
+potential due to line 2, 535 could now be determined with precision.
+Lithium was found to diHer from sodium in that the surface formed by
+shaving in vacuo remained strongly photo-sensitive for an inde6nite
+period. It was studied without shaving through a period of six months
+during which time it showed no marked decay. The set of observations
+in Table III was taken a few days after shaving without filters but with
+                                                 TABLE I II.
+
+      4339.                        4o4V              365o.                      3125,                  2535
+
+ Volts.        Def'n. ,
+                mm.
+                          Vol~s.
+                                          mm.
+                                                Volts.   Def'n. ,
+                                                          mm.
+                                                                       Volts.       Def'n. ,
+                                                                                    mm.
+                                                                                                Volt   .   Def'n
+                                                                                                            mm.
+
+—6.00 1,300.0 —6.000 1,950.0 —6.000 6,000.0 —6.000 6,000.0 —6.000 3,500.0
+—1.200   10.0 —1.087    21.5 —0.680    19.0 —.077     16.0 +0.736    18.0
+—1.153    5.7 —1.027    10.5 —0.628     9.5,  .000     6.3 +0.777    10,5
+—1.103    2. 7 —0.984    6.7 —0.575     5.0 + .058     23 +0.814      6.7
+—1.058    1.7 —0.941     3.5 —0.539     2.7 + .100     1.1 +0.873     4.0
+—1.000    1.1 —0.900     2.5  0.495     1.5 + .151      .5 +3.928     2.0
+—.950     0.6 —0.845     1.0  0.437      .6 + .200      .2 +0.969     1.0
+—.870     0.5 —0.793     0.5  0.390      .2                +1.019     0.5
+               —0.737    0.25                              +1.069     0.0
+                                                                                               i+6.000         0.0
+                                                                                                                             SECOND
+376                                                                R. A. MILLIGRAM.                                      r SERIES.
+
+
+all the precautions for avoiding stray short-wave-length  light which had
+been used with the sodium. Line 5, 461 was entirely above the long-wave-
+length limit of the lithium, but the other lines gave readings as follows:
+   It will be seen that the observations were purposely extended down to
+very minute deHections where the effects of stray short-wave-length light
+                                                   I   I
+                                                             I
+                                                           II
+                                                       I   I I
+
+
+
+
+                                                                                            I   I   I   /
+                                                                                          JLI//I    I   I
+                                                                                                                     »
+                                                                                                                 ~   /
+
+
+
+
+                                                                                                                                                                I
+                                                                                                                                                            /       I
+                                                                                                                                                            I
+                                                                                                                                                        I
+                                                                                                                                                    /
+                                                                                                                                   ' ~I             I
+                                                                                                                                                I
+                                          I                                                                                                     I
+                                                                                                                                  ~I      /I
+                                      /                                                                                      II           ' I
+                                                                                                                         I                  I
+                             1»                                                                                          I
+
+
+                                  /                                                                                          /
+                        II
+                    I
+                             I
+
+
+
+
+           J
+                I
+          I I
+
+
+
+
+                                              .7           ,8              o
+                                                                          E.                                 0
+                                                                                                            7,
+
+
+
+                                                                         Fig 7.
+
+are observable, but in drawing the curves it was planned beforehand to
+ignore all deHections under 3 mm. , so as to have the results comparable
+in every way with those on sodium.       In this way the intercepts in Fig. 7
+were all determined precisely as they now stand before plotting as in
+Fig. 8 was tried at all. It will be seen from Fig. 8 that the points so found
+are in perfect alignment, and that the slope of the line is extraordinarily
+close to that found with sodium. Several months later, on the then old
+lithium surface, another set of observations was taken using a new
+spectrometer.    The observations are those shown in Fig. g. Fig.
+shows the same observations graphed so as to determine h. This quan--
+tity is seen to come out exceedingly close to the value found several
+months earlier on the new surface. From the two determinations on
+lithium we obtain the mean
+                                                                 h = 6.584 '7 erg. sec.
+
+the uncertainty here being perhaps as much as I per cent. In the matter
+of precision I place the greater reliance on the value 6.57 ' obtained from
+'j   PIIOTOELECTRIC DETERMINATION                                      OF PLANCK'S "11."                                                                 377
+
+
+
+
+                                                                                                                                                I
+                                                                                                                                                I
+                              I       1                                                                                                             fA
+                                  I
+
+
+
+
+                                                                                         I
+
+     d   I
+         I   )
+                                                                                         I
+
+                                                                                         I
+             I                                                                       1
+         I                                                                           I
+         I                                                                               I
+
+
+
+
+                         ~I
+                                                               I ~ 4 TLII   'I II. 3)~
+                                                                   T        '1
+
+
+
+
+                                          L
+                                          \
+                                              \
+                                                  I
+
+                                                      I
+                                                       1
+                                                           L
+
+                                                           I
+
+
+
+     Q           1
+                     I
+
+
+
+
+                                      L
+                                      1
+
+
+
+
+                                                                                             I
+                                                                                             \
+                                                                                                 L
+
+
+
+                                                                                                     IL3
+
+                                                                                                       L
+                                                                                                           '
+                                                                                                               ~
+                                                                                                                   l
+                                                                                                                   1
+                                                                                                                       l
+                                                                                                                       1
+                                                                                                                           l
+                                                                                                                           1
+
+                                                                                                                               I
+                                                                                                                                   \
+                                                                                                                                       1,
+                                                                                                                                            1
+                                                                                                                                                                                                     SECOND
+                                                                                                                          R. A. MILLION.                                                        t SERIES.
+
+the experiments on sodium. If, as estimated above, this is in error by
+no more than .5 per cent. it is by far the most reliable value of k which
+is thus far available.   Planck's original value was very close to this,
+namely 6.55 && Io   ", but it was obtained from a product ab' in which
+Planck used n   =  7.o6z X xo '~ (erg. /cm. ' degree') and fi = .291' cm.
+degrees. In the latest edition of the "%armestrahlung,        published in                                                                                 "
+I9I3, the value taken for a is 7.39 g Io while that for b is o.z89. The                                                                 ",
+             I   I   I I I'I I I I              I I I I I I I              I   I I I I I I I I I I I I I I I
+                      I TTi
+           III I IIII
+           I I
+                 I
+
+
+                 I
+                   I
+
+                     I
+                      I III
+                           I
+                            IIIIII II IIIIIIIIIIII
+                         I I I I I I           I
+                                                   III
+                                                I I I I I I I
+
+                                                I I    I   I I I       I
+                                                                           I
+
+                                                                           I
+                                                                               I I I I I I I I I I I I I I I
+                                                                               I I I I I I I I   I   I I   I   I I
+
+
+                     ZUIi!'= hU-P='Pn e
+
+
+           ~              A. Volt~ ~o
+                              dv
+                       I,I'/+74
+                 d v {il+;6)l)italo'~
+                          41'74» l0
+                                        3Kio        e:'
+                                                     ~
+                                                                                     @gal„g
+
+                                       30h „ylgq
+                                                                                                                                                                   1~
+                                                 g gg~lg'                                                                                             JL           I    I   LI
+                                                                                                                                                               I                                      I
+                                                                                                                                                           I I I   ~   LU'.       II EL I I. LI II
+                               I
+                                                                                                                                                                            I'
+                                                                                                                                                                              I
+
+                                                                                                                                                                                                      f
+                                                                                                                                                                        L'I        U
+                                                                                                                                                                                       U
+
+
+
+
+                                   ~   Lr ~ ~         .JLI. . I    ~
+                 fo,               Q
+                                        ~   .    II                                                                                                  II
+                                                                                                                                                     ~~
+
+
+
+
+ +4
+
+
+                                                                                    » 'I
+      .8
+                                                                                                                                                             ~UJ            I:IU           ~          UHya'
+
+                         60 x lo                                                           '7O                                                 10O            jIO                                      JLO
+                                                      Prequemcg
+                                                                                                                              Fig. 9.
+
+original value of k was obtained, then, from the product of two factors,
+the first of which Planck has since changed by Il. .7 per cent. (the actual
+uncertainty in it was twice this amount), the second by i.7 per cent.
+ &( 4 = 6.8 per cent. so that the original value of k contained at the lowest
+possible estimate, an uncertainty of v (g.              (6.8)' = 8 per cent. The                                                        7)'+
+value of k at which Planck arrives in the last edition of the Warmes-
+trahlung is 6.4I 5 g Io        but Westphal whose value of a Planck used,                                            ",
+has now raised his value by 2.85 per cent. while the uncertainty in fi (i. e. ,
+in c,) is still at least o.6 per cent. , since this is the difference between the
+Reichsanstalt value c2 = I.436 and Coblenz's value c2 = I.4456. There
+is still, then, in each of the factors ub4 an uncertainty of at least 2.5 per
+cent. and hence an uncertainty in Ii of &{2.5)'             (2.5)' = 8.5 per cent.                                                             +
+   Planck's equations combined with radiation data are not then as yet
+able to yield a value of h which is comparable in accuracy with that
+obtained from these photoelectric measurements.
+   If, however, Planck's equation is correct we can determine h with
+much precision from my value of e and recent data on the total radiation
+constant which is related to the a of Planck's equation through a = 4o./c,
+c denoting the velocity of light.
+          ']   PHOTOELECTRIC DETERMINATION                  OP PLANCX'$   "b        379
+  Thus Planck's equation is
+                                             k' 4.8m'n'('
+                                               it
+                                             c l a
+and if we insert my value of k, ' which has the same precision as e and the
+value of a corresponding to Westphal's latest conclusions as to the
+value of 0., namely 5.67 )& Io 5; we obtain
+                     (I.372 &( Io 'e)' '48 &( I.O8z8 ' =
+               h =                                              657 x Io—"
+                                                            I
+
+
+                       2.999 )( Io       &   7.56 )( Io     )
+
+The above value of cr Westphal has kindly sent me by letter as the result
+of new work at the Physical Institute in Berlin. It agrees exactly with
+Shakespear's value, ' and Coblenz's recent work on 0 seems to indicate
+that it is not likely to be in error by more than a per cent. If its error
+is no greater than this, then the above value of h, which involves a'
+should be in error by no more than /~ per cent. This value will be seen
+to be in exact agreement with the present photoelectric determination
+which I have estimated as involving an uncertainty of —, per cent.
+   We are now in position to compute with the aid of Planck's equation
+both of the constants 0- and c2 of black body radiation from my direct
+measurements on e and h. cr is of course seen from the preceding calcu-
+lation to come out 5.67 &( Io ', while the value of c2 is found to be
+I.g36 cm. degrees. ' This is exactly the Reichsanstalt value found in
+I9I3.
+  P/ance's       " h " appears then to stand out in connection with photo-eLectric
+measurements more sharply, more exactly and more certainly                 than in con-
+nect~on w'th any other type of measurements thus far made                   The reason.
+it has not appeared with greater certainty before despite the fact that
+the experiments of Ladenburg, Kunz, Hull, Hughes, Richardson and
+Compton and Kadesch have all been interpreted in terms of Einstein's
+theory is found, I think, chiefly in the uncertainty in determining volt-
+frequency relations when special precautions are not taken to avoid
+stray short-wave-length light, and when the wave-Lengths used are below
+the long wave length lim-it of-the recet'vtng surface, v' e. , below ab. out X = 2, 'too.
+Richardson and Compton's work was all done below this limit save in
+the case of sodium and aluminum and although the values of h obtained
+with these substances should have been the most reliable, the sodium
+gave h = 5.2 or 2o per cent. too low, while the Al gave h = 4.3, or 35 per
+cent. low.
+   ' PHvs. REv. , Vol. II., p. x43, z9z3.
+   'Proc. Roy. Soc., 86, x8o, r9rz.
+   'See PHvs. REv. , II., 142, I9I3.
+   4   Ann. der Phys. , 4o, 609, I9I3.
+                                                                       SEcoNs
+380                           R. A. MILLIKAN.                         t SERiES.
+
+      5. THE LONG-WAVE-LENGTH        LIMIT OF PHOTOSENSITIVENESS.
+    The observations corresponding to Figs. 5 and 6 were all taken between
+ one and seven hours after shaving when the gas pressure within the bulb
+ amounted to one or two hundredths of a millimeter.        A contact E.M. F.-
+ time curve was then taken under identical conditions, and with the
+ following results.    The contact E.M. F. before shaving was 2.8I9 volts,
+ it fell upon shaving to 2.30 volts. Then rose at a fairly uniform rate
+ for half an hour to 2.52o volts, where it remained so nearly constant for
+ nine hours that an observation made 6 hours after shaving gave a vat. ue
+ 2.495 volts, while one made nine hours after shaving gave 2.493 volts.
+After nine hours the molecular pump was started and the gas all pumped
+ out, whereupon the contact E.M. F. rose at once to 2.82o volts, its initial
+value. The contact E.M. F., then, during the period of taking the
+ photopotential curve remained constant at a value which was within a
+ hundredth of a volt of 2.5I volts. Accordingly, in order to find the value
+ of the frequency at which, if there were no contact field, the light could
+just cause an electron to escape from the metal, i. e. , in order to find the
+frequency which causes an electron to leave the surface of the metal with
+zero velocity it is only necessary to push up the. volt frequency line of
+ Fig. 6 by the amount of the contact E.M. F., viz. , 2.5I volts, and then to
+find its intercept on the frequency axis.         The dotted line of Fig. 6
+shows this line thus displaced.     The intercept  is seen to be at Pp = 43.9
+                                              0
+ )&  Io" which   corresponds to ) p = 6, 8oo A. This is far above the long-
+wave-length limit of sodium as computed by Richardson and Compton
+who published the two estimates 5, 77o and 5, 83o. Yet it was found by
+direct measurement that the long-wave-length limit of this sodium was at
+least in the neighborhood of 6, 8oo. For the yellow lines 5, 79o and 5, 770
+produced together a saturation current which was ~ &3 of that produced
+by line 5,46I. Indeed the balance potential for these lines was deter-
+mined and found to lie on the straight line of Fig. 6 within the limits of
+error of its determination, but the point corresponding to 5, 46I was so
+near to it and could be determined with so much greater accuracy, that
+no attempt to use the former point in the determination of h was made and
+it was not placed on the diagram of Fig. 6. Also the red line 6,235 pro-
+duced a marked saturation current of value ~~~ of that of the yellow group.
+With the aid of Mr. Wilmer Souder who is making in this laboratory
+photoelectric-efficiency measurements on these same surfaces, the energies
+in the lines 5, 46I, 5, 78o and 6,235 were found with a thermopile to be in
+the ratios 7I, Ioo, Io, respectively.       From these data the saturation
+photocurrents per unit. intensity for these three lines are found to have
+the ratios I40, 50, 25. Plotting these numbers against wave-lengths and
+          ']   PHOTOELECTRIC DETERMINATION         OF PLANCK'S   "h. "
+
+drawing a smooth curve, we can locate the intercept on the wave-length
+                                                                      0
+axis that is, the long-wave-length     limit, within perhaps I oo A. The
+result is shown in Fig. Io. This procedure is probably
+the simplest way of avoiding the disturbing e0ects
+of stray short-wave-length light in determining direct-
+ly the long-wave-length limit. Evidence will be pre-
+sented in a later paper to show that this limit is by
+no means a constant           —
+                         a fact also emphasized by Pohl &= 7o.,6$,& $$,$~~
+and Pringsheim, ' but the two sorts of measurements              Fpg ] p
+upon it herewith reported are made at practically the
+same time so that their agreement is a real test of the validity of Einstein s
+equation.
+   Lithium is better suited to this sort of a test than is sodium for
+the reason that its long-wave-length limit falls in the middle of the
+visible spectrum where all the elements necessary to the comparison
+are most easily and reliably observable.     Both Fig. 8 and Fig. 9 show
+such comparisons, the first on a new lithium surface, and the second on
+the same surface several months later. It is to be particularly noted
+that while the measured contact E.M. F. between the lithium and the
+oxidized copper plate was I.gI volts in the observations shown in Fig. 8,
+it was only I.I I volts at the time the observations shown in Fig. 9 were
+taken, yet the displacing of the V v line by the amount of this measured
+contact E.M. F. yields in each case excellent agreement between the pp
+determined from the intercept on the v axis and that determined by direct
+observation (see lower right hand corners of Figs. 8 and 9). I should be
+unwilling to claim that the direct observations fix the long-wave-length
+                                          0
+limit with a precision greater than Ioo A. Nevertheless these observa-
+tions seem to leave no room whatever for doubt that the agreement de-
+manded by Einstein's equation between the two methods of determining
+vp actually exists.
+
+
+        6. CQNTAcT E.M. F. AND LQNG-WAvE-LENGTH LIMITs.
+  I have shown elsewhere' that Einstein's equation demands that the
+contact E.M. F. between any two conductors be given in terms of photo-
+electrically measured          quantities   thus
+                                            h
+                   Contact E.M. F. = —(vo —vo') —(Vo —Vo'),               (2)
+                                            e
+in which vp and vp are the long-wave-length limits of the two conductors
+and Vp and    Vp' are the maximum potentials which must be externally
+  ' Phil. Mag. , z6, roz7, z9x3.
+  2   PHYs. REv. , January,   z9x6.
+                                                                        SECOND
+                              R. A. MILLIKAN.                          r SERIES.
+
+
+applied to just prevent corpuscular discharge by light of any particular
+wave-length from these two conductors to any third conductor.           If the
+long-wave-length    limit of the copper oxide receiving cylinder can be
+determined this equatibn can be quite accurately tested by means of the
+experiments recorded above. The desired measurement on the Faraday
+cylinder was made with no little precision by utilizing the observation
+mentioned in section 3b that when the sodium for example was charged
+to a positive potential of say 6 volts, if the wave-length used was longer
+than the long-wave-length      limit of the cylinder, there was no trace of
+an apparent positive leak to the cylinder upon illuminating the sodium,
+but as soon as, with decreasing wave-length, the long-wave-length limit
+of the cylinder is reached, such a leak will appear because of the liberation
+of electrons from the walls of the cylinder by the light reflected to them.
+I have already mentioned that with line 3, j:25 although it produced with
+ —6 volts on the sodium a current of i7, ooo mm. in 3o seconds, when the
+sodium was given a potential of      +   6 volts and illuminated there was
+not a quarter of a millimeter of deHection. Since the greater part of
+the light incident on the sodium is reflected back to the Faraday cylinder,
+this shows that line 3, I25 is completely and definitely above the long-
+wave-length limit of the copper oxide. Lines 3,022 and 2, 967 and 2, 804
+are weaker and their indications are accordingly less definite, but no
+positive leak was obtained with them. But with wave-length 2, 652,
+which with —    6 volts give a deHection of 5, 3oo mm. , +   6 volts produced
+ a deflection in 3o seconds of 3 mm. and with ), = 2, 535, which with —6
+ volts gave 7, 8oo mm. , +   6 volts produced a deflection of 20 mm. The
+energies of the two lines were found in the ratio 5.3 to 9.x. Plotting then
+ deHections per unit intensity, viz. , 2o/9. r = 2z and 8/8. 3 = 6.66 against
+ the corresponding wave-lengths and extending the straight-line connecting
+ these two0 points to the wave-length axis we find the intercept at )
+  = 2, 688 A. which may be taken as the long-wave-length the limit of the
+ copper oxide, and in view of the steepness of the0 curve it is not likely
+ that this point is in error by more than say 3o A. The corresponding
+ vo' is rrr. 6 X ro". From the relation d volts/dv                      "
+                                                         = 4. rz8 X ro we
+ can compute the maximum energy of emission in volts of corpuscles
+ under the inHuence of line 2, 835 (which corresponds to v = erg. z X ro")
+ from a surface for which this energy is zero at ) = 2, 688 A. It is
+
+             4. iz8 X ro "(rr8.2 —rrr. 6) X ro" = .27 volt.
+                         —
+
+This is Uo, With line 2, 535 Fig. 5 shows that the observed Uo for sodium
+was .52 volt        so that Uo —Uo' ——.52 —.27 = .25 volt.             But
+fr/e(vo —vo') = 4. r28 X to '~(rr8. 2 —48.9) X ro" = 2.79 volts.      The
+      ']   PHOTOELECTRIC DETERMINATION                 OF PLANCK'S      "h."    383
+measured contact E.M. F. at this time was 2.5I volts (see p. 582 and
+Fig. 6). Hence equation 2 becomes
+                            2.5I = 2.79 —.25 = 2.54,
+which is but about I per cent. in error.
+   Similar computations made with lithium showed equally good agree-
+ment. As stated above the Faraday cylinder used with the lithium was a
+new one and with line 2, 535,            +
+                                   6 volts on the lithium failed to reveal
+any trace of a reverse electronic current.    But with line 2, 4oo A this
+reverse current was distinctly and definitely present, although line 2, 4oo
+is weak in energy compared with 2, 535. Line 2, 535 was then in this
+case very close to the long-wave-length limit. Considering the limit at
+this line we have Vo = o. But Fig. 8 shows that at that time the contact
+E.M. F. was I.52 volts, while Vo for line 2535 was I.oo volt and vo
+ = 57 X Io". Hence f'/e(vp —vp') = 4. I28 X Io 'p (II8.2 —57.0) X
+Io" = 2.526 volts, and equation (2) becomes
+                          I.52 = 2.526 —I.oo = I.526.
+In the measurements          taken       six months   later, although    the contact
+E.M. F. had dropped to I.I I volts, equation 2 still predicts the observed
+value. For now (see Fig. 9) //e(vp —pp) = 4.. I28 X Io "(II8.2 —59.7)
+   Io = 2.4I5 volts and Vo —I.29 volts, so that equation 2 becomes
+                    I.I I = 2.4I5 —I.29 = I.I25.
+Einstein's equation appears then to stand up accurately to all of the five
+quantitative tests demanded of it on page g56.
+
+                       9. THEQRIEs oF PHQTo EMIssIQN.
+  Perhaps it is still too early to assert with absolute confidence the
+general and exact validity of the Einstein equation.   Nevertheless, it
+must be admitted that the present experiments constitute very much
+better. justification for such an assertion than has heretofore been found,
+and if that equation be of general validity, then it must certainly be
+regarded as one of the most fundamental and far reaching of the equations
+of physics; for it must govern the transformation of all short-wave-length
+electromagnetic energy into heat energy. Yet the semi-corpuscular
+theory by which Einstein arrived at his equation seems at present to be
+wholly untenable.      I have pointed out elsewhere' that this theory was
+but a very particular form of the ether-string theory advanced by J. J.
+Thomson' two years earlier, for it simply superposed upon that theory
+the additional hypotheses (I) that the bunches of energy which are as-
+   ' Science, Vol. XXXVII., p. x30, xyr3.
+   Electricity and Matter, pp. 62 —70.
+                                                                        SECOND
+                                       R. A. MILLIEAN.                 t ERIES
+
+sumed to travel along the ether strings are proportional to the impressed
+frequency and (2) that they are transferred upon absorption as wholes
+to an electron. This being the case, the objections to an ether-string
+theory, that is, to any theory in which the energy remains localized in
+space instead of spreading over the entire wave-front, must hold for the
+Einstein theory. Lorenz' and Planck' have pointed out some of these.
+Despite these objections, however, Sir J. J. Thomson' and Norman
+Campbell' still adhere to it. I wish to call attention to one more difficulty
+which in itself seems to me to be very serious.
+   If a static electrical field has a fibrous structure, as postulated by any
+form of ether-string theory            "
+                                   each unit of positive electricity being the
+
+        "
+origin and each unit of negative electricity the termination of a Faraday
+tube,    then the force acting on one single electron between the plates
+of an air condenser cannot possibly vary cors6nuomsly with the potential
+difference between the plates. Now in the oil-drop experiments              we
+actually study the behavior in such an electric field of one single, isolated
+electron and we find, over the widest limits, exact proportionality between
+the field strength and the force acting on the electron as measured by the
+velocity with which the oil drop to which it is attached is dragged through
+the air.
+   When we maintain the field constant and vary the charge on the drop,
+the granular structure of electricity is proved by the discontinuous
+changes in the velocity, but when we maintain the charge constant and
+vary the field the lack of discontinuous change in the velocity disproves
+the contention of a fibrous structure in the field unless the assumption
+be made that there are an enormous number of ether strings ending in
+one electron. Such an assumption takes all the virtue out of an ether
+string theory.
+   Despite then the apparently complete success of the Einstein equation,
+the physical 'theory of which it was designed to be the symbolic expression
+is found so untenable that Einstein himself, I believe, no longer holds to it.
+But how else can the equation be obtained?
+   Before attempting to answer this question, let us consider the energy
+relations which it imposes. It requires the absorption at some time or
+other by the escaping electron of at least the energy hv from incident
+waves of frequency v. The total luminous energy falling per second from
+   ' Phys. Zest. , II349, I9IO.
+     Ann. der. Phys. , 39, I9I2. Berliner Ber. , 723, I9II.
+   ' Proc. Phys. Soc. London, XXVII., Ios, December I5, I9I4.
+  4   Modern Electrical Theory, Cambridge Press,      I9I3, p. 248.
+  ~
+      J. J. Thomson's Electricity and Matter, p. 9.
+      PHYs REv   y   2y   IO9t I9I3.
+         ']   PHOTOELECTRIC DETERMINATION         OP PLANCK'S       "h."
+
+a standard candle on a square centimeter at a distance of three meters
+is one erg. ' Hence the amount falling per second on a body of the size
+of an atom, i. e. , of cross section ro ' cm. is 0 ro ' ergs, But the energy
+hv for light of wave-length equal to 5,ooo A is 4 X ro          "   ergs or 4,ooo
+times as much. 0
+                     Since not a third of this energy is in wave-lengths 0
+                                                                           shorter
+than 5,ooo A, a photoelectric cell which is sensitive up to 5,ooo A. should
+require at least Io, ooo seconds or 4 hours of illumination by a standard
+candle 3 meters away before any of its atoms could absorb enough energy
+ to discharge a corpuscle, yet the corpuscle is observed to shoot out the
+ instant the light is turned on. If then we must abandon the Thomson-
+ Einstein hypothesis of localized energy, which is, of course, competent
+ to satisfy these energy relations, there is mo alternative but $0 assunse that
+ the corpuscles which are ejected are already possessed of an energy almost
+ equal to hv. Since this energy must have come from the incident fre-
+ quency, for otherwise it could not be proportional to this frequency, it is
+ necessary to assume, if the absorption is due to resonance (and we know
+ of no other way in which to conceive it after eliminating as above the
+ possibility that a single ether pulse drives out a free electron) that there
+ are oscillators of all frequencies within the absorbing body and that these
+ oscillators are at all times in all stages of energy loading up to the value
+ hv. But this is impossible if the oscillators, when not exposed to radi-
+ ation, emit any energy at all; for if they did so, they would in time lose
+ all their store and we should be able, by keeping bodies in the dark, to
+ put them into a condition in which they should show no photoelectric
+  effect until after at least 4 hours of illumination with a standard candle.
+  Since this is contrary to experiment, we are forced, even when we discard
+  Einstein's theory of localized energy and discontinuous absorption, to
+  postulate electronic absorbers which do not radiate at all while they are
+  absorbing until the absorbed energy has reached a certain critical value
+  when explosive emission occurs. The photoelectric effect then, however
+  it is interpreted, if only it is correctly described by Einstein's equation,
+  furnishes a proof which is quite independent of the facts of black-body
+  radiation of the correctness of the fundamental assumption of the quantum
+  theory, namely, the assumption of a discontinuous or explosive emission
+  of the energy absorbed by the electronic constituents of atoms from ether
+                                                                "
+  waves. It materializes, so to speak, the quantity "h discovered by
+  Planck through the study of black body radiation and gives us a con-
+  fidence inspired by no other type of phenomenon that the primary phys-
+  ical conception underlying Planck's work corresponds to reality.
+     But to return to a substitute for Einstein's theory. Planck' and Som-
+   ~   Drude, Lehrbuch der Optic, z906, p. 47&.
+   2   Ann. d. Phys. , 37, 644, x9&2.
+ 386                                           R. A. MILLIKAN.                                       SECOND
+                                                                                                 T SERIES'
+
+
+
+ merfeld' have both made alternative suggestions, neither of which,
+ however, seems competent, in general, to furnish a physical basis for the
+ Einstein equation.      Indeed Sommerfeld and Debye-" de6nitely admit
+ the inadequacy of their theory to account for the normal photoelectric
+ effect, which is precisely the effect herewith investigated, while Planck's
+ theory as thus far formulated does not yield the Einstein equation at all.
+ Originally it had nothing whatever to say about the escape of corpuscles
+ from atoms under the influence of ether waves, and even in the I9I2 for-
+ mulation' the energy of an oscillator was assumed to be given up only in the
+ form of electromagnetic waves, but in I9I3 the theory was extended so
+as to permit part of the energy to be emitted in the form of an ejected
+corpuscle. The oscillator of frequency v was assumed to absorb energy
+continuously without radiating any of it until its energy content became
+e&hv, in which n~ is an integer, the value of which on the average depends
+on the intensity of the incident waves. This energy was then assumed
+to shoot out explosively, the amount Ohv, o. being a fraction less than one,
+going off in the form of an ether wave, and the amount (n —~)hv ap-
+pearing in the form of the kinetic energy of the escaping corpuscle. This
+energy (n —0)hv was then assumed to be transformed entirely into
+electromagnetic waves of frequency v&, when the corpuscle fell into a new
+oscillator of natural frequency v2.
+   Now when we compare this theory with the above experimental results
+we observe that there is not the slightest indication in the latter that the
+energy absorbed by an escaping corpuscle from an incident light wave of
+frequency v is ever more than hv, or that a has any value at all and yet
+the setting of e~ —I and a = o in the above expression of Planck is not
+consistent with his way of deducing his black body radiation law.
+   Further the assumption that all bodies which show the normal photo-
+electric effect, and there is some evidence that even gases when stimulated
+by waves of frequency v shoot off corpuscles with energy hv, contain
+     I Phys. Zeit. , I2, IoS7, I9II, Solvey Congress,        I9II,
+     2 Ann. d. Phys. , 4x, 873, Igx3.
+     3 Sitz. Ber. d. k. Preuss. Akad. , x8, 3So, x9x3.
+     4 Ann. d. Phys. ,
+                        37, 644, x9I2.
+     ~
+       My experimental results might perhaps be reconciled with Planck's theory if, under the
+                                                         I      = pI (Warmestrahlung,
+conditions under which          I work, his expression                                    p. I59) were a
+quantity very much smaller than unity. As a matter of fact, however, the intensity of
+illumination K which I used in these experiments was measured and found, with line 546I,
+
+to be about xo
+                erg
+                      ' Since K =
+                                      32"""
+                                               I 3C
+                                            (see "Warmstrahlung,             "
+                                                                 p. I62) and p =
+                                                                                   3C3
+                    cm' sec                                              ~
+                                                                                                 32m~hv'
+
+we       see that   pI = —.
+                         c'K
+                          hv3
+                                   Inserting    c = 3 X xo", h = 6 X xo —»,      v   = 6 X Io'4 we    find
+
+pI = 7ooo —a very large quantity     instead of a very small one.            This seems to make my
+results irreconcilable with Planck's theory.
+      ']       PHOTOELECTRIC DETERMINATION       OP PLANCK'S    "h."       387
+sharply tuned oscillators possessing every conceivable natural frequency
+is a somewhat troublesome one. Certainly both the phenomena of ab-
+sorption and of emission show that in most substances the great bulk of the
+oscillators possess natural frequencies of one or two particular values and
+the characteristic waves which they emit are of these frequencies, the
+condition for such emission being in general merely that the stimulating
+frequency be greater than the characteristic frequency.
+     In spite of these diAiculties, however, a modification of Planck's for-
+ mulation seems to me able to account for all the relations thus far known
+between corpuscular and ethereal radiations.          Most of the oscillators
+ of a given substance may be assumed to have a particular frequency or
+ frequencies characteristic of the substance, but, just as the line spectrum
+ of a gas is always superposed upon a faint continuous spectrum, so a few
+ oscillators of every conceivable frequency may with no little plausibility
+ be assumed to be mixed with the enormously larger number of oscillators
+ which have a frequency or frequencies characteristic of the given sub-
+ stance. This is only making for all substances precisely the assumption
+ which Planck makes with such conspicuous success for black substances.
+ In other words it is assuming that all substances are to a certain degree
+ black. If any particular frequency is incident upon such a substance
+ the oscillators in it which are in tune with the impressed waves may be
+ assumed to absorb the incident waves until the energy content has
+ reached a critical value when an explosion occurs and a corpuscle is shot
+ out with an energy hv. This free corpuscle may then be assumed to
+ fritter away some, and in many cases all, of its energy by impacts with
+ atoms, but if it strikes an oscillator of any frequency v2 while its energy
+ exceeds hv&, it either stimulates directly new ether waves of frequency
+  v2, or else it modifies the condition of the atom in such a way that in a
+ subsequent readjustment it emits waves of this frequency.          If the sub-
+ stance possesses these particular oscillators v2 in great abundance then
+ these emitted waves are its characteristic X-rays. Whether they are
+ stimulated by the return of a displaced corpuscle or by the act of dis-
+ placement by a corpuscle of energy greater than hv& may be left unsettled,
+ though the former view is at present the more attractive.
+      In the photoelectric effect we study not the stimulation of these char-
+ acteristic ether waves but the antecedent emission of corpuscles from the
+ atom, this emission appears to take place to some extent at all frequencies
+ of the incident light, though the emitted corpuscle never leaves the metal
+ unless its energy of emission from the atom is greater than hvo, but it
+  takes place especially copiously when the impressed frequency coincides
+           "
+ with a natural frequency.    "    According to this point of view the selective
+                                                                      SECOND
+                                R. A. MILLIKAN.                      t SERIES.
+
+photoelectric is simply the normal effect taking place in the neighborhood
+of an absorption band where oscillators of one particular frequency pre-
+dominate.    This is little more than Planck s theory with the possibility
+of a corpuscle being emitted from an atom with an energy greater than
+hv eliminated for the sake of reconciling it with the experimental facts
+above presented.     It is to be hoped that such a theory will soon be
+shown to be also reconcilable with the facts of black body radiation.
+   I have to thank Mr. Wilmer H. Souder for able assistance during the
+latter portion of this investigation.
+
+                                  I O. SUMMARY.
+  r. Einstein's photoelectric equation has been subjected to very search-
+ing tests and it appears in every case to predict exactly the observed
+results.
+   z. Planck's h has been photoelectrically determined with a precision
+of about .5 per cent. and is found to have the value
+                                h = 6.57 )& zo-".
+   RYERSON PHYSICAL LABORATORY,
+       UNIVERSITY OI CHICAGO.
+
