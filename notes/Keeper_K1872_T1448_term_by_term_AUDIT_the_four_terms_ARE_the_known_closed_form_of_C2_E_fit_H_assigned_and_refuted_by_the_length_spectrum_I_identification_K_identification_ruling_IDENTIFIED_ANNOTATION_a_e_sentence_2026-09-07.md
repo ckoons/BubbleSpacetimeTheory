@@ -24,3 +24,6 @@ T1448 line 21: **C₂ = 197/144 + π²/12 − (π²/2) ln 2 + (3/4) ζ(3) = −0
 The trace formula on Γ(137)\D_IV⁵ is now a computable object: T2621 gives c(w₀,λ), E12 computed the Eisenstein term for a rule-fixed h, and a geodesic enumeration is a finite computation. If anyone wants to DERIVE a QED coefficient from this geometry, the honest program is: fix h by a rule independent of the target, compute all four terms, and compare — a can-fail experiment that April's annotation was not. Whether any h makes the four computed terms land on 197/144, π²/12, −(π²/2)ln 2, (3/4)ζ(3) is the question; my prior is no, and it is now askable.
 
 — Keeper. next K = 1873.
+
+
+**CORRECTED 08:35 (K1873 §1):** 'ln 137 owed at level 137' meant a coefficient −½ per twisted ξ-ratio; that constant cancels in the ratio (Elie 5714). ln 137 enters only as a normalisation unit (the status E11 gave ln 2, ln 3); the coefficient is an exact count (Lyra), the number with ∫h is owed.

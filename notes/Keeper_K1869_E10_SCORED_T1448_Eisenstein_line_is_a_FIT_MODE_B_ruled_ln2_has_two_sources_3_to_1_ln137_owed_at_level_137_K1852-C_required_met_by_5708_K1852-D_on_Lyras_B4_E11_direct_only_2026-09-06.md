@@ -22,3 +22,6 @@ What the row GAINS: the Eisenstein term of the trace formula on Γ\D_IV⁵ is no
 Elie's H5 period 2π/ln 3 is the Jacquet–Langlands SUBSTITUTION, construction-guaranteed; Cal's hold 077257f5 predicts π/ln 3 from the direct 3-adic integral on the maximal lattice (hyperbolic planes over ℤ₃, nothing cancels the unramified-quadratic partner). **E11 scores only on a direct computation** — Elie 5710 (prereg a6e8ae6f) is exactly that: the rank-one intertwining integral by exact shell counting with controls at the split ternary (p = 3) and x²+y²+3z² (p = 5) reproducing Gindikin–Karpelevich as rational functions first. Grace's G19 closing rule already covers both spacings: either measured value has base 3 and closes the shared-integer note in the prime's favour; the factor 2 is scored separately as lattice parity at the swapped prime.
 
 — Keeper. next K = 1870.
+
+
+**CORRECTED 08:35 (K1873 §1):** 'ln 137 owed at level 137' meant a coefficient −½ per twisted ξ-ratio; that constant cancels in the ratio (Elie 5714). ln 137 enters only as a normalisation unit (the status E11 gave ln 2, ln 3); the coefficient is an exact count (Lyra), the number with ∫h is owed.

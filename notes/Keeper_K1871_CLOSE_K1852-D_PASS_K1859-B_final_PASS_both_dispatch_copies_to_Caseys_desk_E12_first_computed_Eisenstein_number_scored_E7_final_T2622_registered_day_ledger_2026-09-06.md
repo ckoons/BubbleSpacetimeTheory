@@ -18,3 +18,6 @@ T2616 (axis, classical) · T2617 (odd-p density lemma + parity family rule) · T
 The RH row went from an unexamined make-or-break ("one class number") to a proved false neighbour, a registered barrier, a verified resonance theorem with its kernel-swap family, and a discovery that one term of the program's flagship a_e decomposition had been matched rather than derived, with the replacement's first number computed by nightfall. Eleven of the day's corrections were on my own sentences and every one was swept the same hour. RH: ATTEMPT — smaller claims, real objects.
 
 — Keeper. next K = 1872 · next T = 2623 · K1860-P (Cal §857's three catches, a rewrite) is owed and low priority.
+
+
+**CORRECTED 08:35 (K1873 §1):** 'ln 137 owed at level 137' meant a coefficient −½ per twisted ξ-ratio; that constant cancels in the ratio (Elie 5714). ln 137 enters only as a normalisation unit (the status E11 gave ln 2, ln 3); the coefficient is an exact count (Lyra), the number with ∫h is owed.
