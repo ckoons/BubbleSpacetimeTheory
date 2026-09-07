@@ -19262,3 +19262,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §882.
 
 — Cal
+
+### #179 — C19 H31 dead on my own object model (at level 137 the kernel's inducing data are its level-137 automorphic forms = the weight-2 newforms by JL, so degree-2 L-functions do sit in factor B); H33 mis-aimed (107,134 = |PGL₂(𝔽₁₃₇)|/24, a computed count); H34 held; E14's pole is the zero by construction, its content is t₁ (2026-09-07 (Mon) 08:46 EDT)
+- Full text: RUNNING_NOTES §883.
+
+— Cal
