@@ -1,0 +1,19 @@
+P1: exhaustive box for hyperbolic gamma in Gamma(137) < SL2(Z) with 2 < trace < 2 + 137^2
+  [HIT] P1  no hyperbolic with 2 < trace < 18771 in the box (|b'|,|c'| <= 40, |i| <= 200); witness gamma0 = ((138, 137), (18769, 18633)), det 1, trace 18771 = 2 + 137^2, lambda = 18770.999947, length 2 log lambda = 19.6801
+P2: matrix counts (not class counts) per trace t = 2 + 137^2 k in the box |a|,|d| <= 137*200, 0 < c' <= 200
+  k=1, t=18771: 460 matrices in the box
+  k=2, t=37540: 774 matrices in the box
+  k=3, t=56309: 0 matrices in the box
+  k=4, t=75078: 0 matrices in the box
+  k=5, t=93847: 0 matrices in the box
+  k=6, t=112616: 0 matrices in the box
+  [MISS] P2  finite, computable matrix counts per trace — the enumeration is feasible in the SL2 block (classes would need Gamma(137)-conjugacy, not done)
+P3: regular floor in SO(2,2;Z) ∩ Gamma(137)
+  [HIT] P3  pair (gamma0, gamma0): norm lambda0^2 = 3.5235e+08; below X < 3.5e8 the regular count in this block is 0
+P4: elementary floor for every torus
+  [HIT] P4  gamma != 1 in Gamma(137) has an entry >= 137 off the identity: operator norm >= 137/sqrt(7) = 51.78; below norm 51 nothing anywhere
+P5: level-1 control — primitive hyperbolic classes of SL2(Z) by trace, via indefinite class numbers h(t^2-4)
+  (t, h(t^2-4)): [(3, 1), (4, 2), (5, 2), (6, 3), (7, 3), (8, 4), (9, 2), (10, 6), (11, 3), (12, 4), (13, 4), (14, 8)] ... total classes with trace <= 50: 375
+  [HIT] P5  level-1 SL2 block: first trace 3 (lambda = 2.61803), 375 primitive classes with trace <= 50 — a count exists there; zeta(3) is nowhere in it
+
+SCORE 4/5
