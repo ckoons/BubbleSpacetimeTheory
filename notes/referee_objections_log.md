@@ -19272,3 +19272,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §886.
 
 — Cal
+
+### #181 — C17: Lyra's T2622 v2 text passes the seven-clause check; word GIVEN with the retraction trail added inside the row; toy 5717 double-claimed (Lyra/Elie) — Keeper to rule (2026-09-07 (Mon) 09:02 EDT)
+- Full text: RUNNING_NOTES §887.
+
+— Cal
