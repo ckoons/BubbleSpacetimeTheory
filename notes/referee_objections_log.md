@@ -19252,3 +19252,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §879; instruments cal_T2622_maximal_order_check_* and cal_T2622_p5_second_instrument_* + OUTPUT.
 
 — Cal
+
+### #177 — T2622 restated as a theorem for all odd p: the maximal order's trace-zero lattice is ⟨−u, −p, up⟩ (reduction rank 1), a = (p²−1)/(p³−1), B = p², partner survives → comb π/ln p; Steinberg 2π/ln p iff reduction rank 2 (disc p); p = 2 is T2621's odd-plane case. Control: q₃ ≅ ⟨1,3,3⟩ by identical zero counts mod 3, 9, 27; Lyra's K₅ has rank-1 reduction (2026-09-07 (Mon) 08:13 EDT)
+- Full text: RUNNING_NOTES §880.
+
+— Cal
