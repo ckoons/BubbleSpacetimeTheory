@@ -27,3 +27,7 @@ With the rank held at 2, the base of the comb moved from 2 to 3 with the anisotr
 - If E11 measures only 2π/ln 2 with the {3, ∞} kernel: the comb is not the kernel's ramified prime and L8's 2^{1−2λ} needs a different reading; the note stays open and T2621's "from the prime 2 alone" clause is re-read.
 
 — Grace (closed 16:38 from `play/.out_5710.txt`, Cal §865/§868/§869, K1870)
+
+
+## v2 RELABEL 09:02 EDT 2026-09-07 (K1873 §2 / Cal §880 / Elie toy 5717, prereg b9ec2747: 3/4, both primes for the reduction-rank criterion; on Cal's word §882, 08:43)
+The rows above are re-read under the reduction-rank criterion: the **rule's kernel at p = 3 is b² + bd + d² + 3a² ≅ ⟨1,3,3⟩ over ℤ₃ (reduction rank 1) → π/ln 3 — Cal's Sunday row was the rule's all along**; the **⟨1,1,3⟩ row (reduction rank 2, disc 3) is the CONTROL** for the other discriminant class, not the rule's kernel; Lyra's p = 5 lattice 2x²+2y²+2z²−xy−yz−zx (reduction rank 1) → π/ln 5 (Elie toy 5717, prereg b9ec2747: 3/4, both primes for the reduction-rank criterion). The verdict 'base = the prime' stands; the sentence '2π/ln 3 measured on the rule's kernel' is withdrawn. The dichotomy: reduction rank 1 ↦ π/ln p (all k; the partner survives); reduction rank 2 ↦ 2π/ln p (even k only); p = 2 ↦ the odd planes cancel the partner (T2621).

@@ -20454,7 +20454,7 @@
    "tid": 1451,
    "name": "Spectral Gap Framework",
    "domain": "bst_physics",
-   "status": "proved — CONDITIONAL on T1448's Eisenstein line (K1869 §2, 16:37 2026-09-06): the E term is matched not derived; identity/curvature/hyperbolic/mixed terms untouched",
+   "status": "TEMPLATE (09:03 2026-09-07, Cal §875 (C16), 08:01; Round 127 'on Cal's C16'; L12: no vertex → h rule; E12 the first computed term) — proved — CONDITIONAL on T1448's Eisenstein line (K1869 §2, 16:37 2026-09-06): the E term is matched not derived; identity/curvature/hyperbolic/mixed terms untouched — H line MATCHED-NOT-DERIVED 09:03 2026-09-07 (Grace R125 H-term, K1872 §4 ruling; Cal §875 = C16, blind hold 9e688fcc §B scored H25–H28 HELD; Elie 5715/5715b; Lyra's structural reading): ζ(3) assigned by the zeta-weight rule, no geodesic count; 3/4 is the Bergman eigenvalue read as a coefficient; C₂ number stands",
    "depth": 0,
    "conflation": "none",
    "section": "spectral",
@@ -21196,7 +21196,7 @@
    "tid": 1448,
    "name": "Schwinger C2 Decomposition via Selberg Vertex Trace Formula",
    "domain": "particle_physics",
-   "status": "proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired — ln 137 clause amended 08:00 09-07 (Elie 5714: the twisted-ratio constant cancels; ln 137 only as the FE-normalisation unit, Cal §874)",
+   "status": "IDENTIFIED (K1872 §4 ruling, Cal §875 concur, 09:03 2026-09-07: the decomposition identifies the known C₂ term by term; E and H matched, not derived; I and K not yet audited) — proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired — ln 137 clause amended 08:00 09-07 (Elie 5714: the twisted-ratio constant cancels; ln 137 only as the FE-normalisation unit, Cal §874) — H line MATCHED-NOT-DERIVED 09:03 2026-09-07 (Grace R125 H-term, K1872 §4 ruling; Cal §875 = C16, blind hold 9e688fcc §B scored H25–H28 HELD; Elie 5715/5715b; Lyra's structural reading): ζ(3) assigned by the zeta-weight rule, no geodesic count; 3/4 is the Bergman eigenvalue read as a coefficient; C₂ number stands",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -35666,18 +35666,18 @@
   },
   {
    "tid": 2622,
-   "name": "Kernel-Swap Theorem for the spherical Eisenstein series on Q-rank-2 orthogonal quotients of Type IV (Lyra L11; Cal §869's five amendments in the statement; calibration #28 as hypothesis): maximal-order trace-zero kernel at {p, ∞} ⟹ Steinberg surgery at p, kernel comb 2π/ln p; ψ(1/2) unchanged; established p = 2, 3; predicted all p; <1,3,3> counterexample",
+   "name": "Kernel-Swap Theorem v2 (reduction-rank dichotomy): with the corpus's odd planes fixed and the kernel the trace-zero lattice of the maximal order ramified at {p, ∞} (reduction rank 1 mod p), the short-root factor carries Steinberg × the unramified-quadratic partner and the kernel comb has spacing π/ln p for every odd p; a reduction-rank-2 kernel gives 2π/ln p; p = 2 is T2621's case",
    "domain": "number_theory",
-   "status": "FLAGGED WRONG AS REGISTERED (K1873 §2, Cal §880, 08:41 09-07; v2 pending E13 + Cal C17): the rule's kernel has reduction rank 1 and gives π/ln p at every odd p; ⟨1,1,3⟩ was not the maximal order's lattice — derived at p = 2, 3 (direct p-adic integrals with split controls: Cal §855, Elie 5710); predicted for all p (finite instrument); hypothesis = maximal-order trace-zero kernel (Cal §869 (1)); counterexample <1,3,3> in the row; Cal §869 (on Lyra L11's text)",
+   "status": "DERIVED for all odd p (Cal §880 reduction-rank criterion; instruments p = 3, 5; Elie toy 5717, prereg b9ec2747: 3/4, both primes for the reduction-rank criterion); v2 re-registered 09:02 2026-09-07 on Cal's word (§882, 08:43); v1 (09-06 17:02) superseded — wrong lattice in (H2)",
    "depth": 1,
    "conflation": 0,
-   "section": "K1870 §2 + Cal §869 (Round 124 G20)",
+   "section": "Cal §880 / K1873 §2 / Lyra v2 (Round 126)",
    "toys": [
     5704,
     5710
    ],
    "date": "2026-09-06",
-   "plain": "Change the small definite part of the lattice so that it is \"bad\" at the prime 3 instead of the prime 2, keeping the two big hyperbolic pieces and the rank the same. The evenly spaced comb of resonances moves: its spacing goes from 2π/ln 2 to 2π/ln 3. So the 2 in that comb was the prime 2, not the rank 2. It only works when the small part is built by the maximal-order rule; a different lattice that is also bad only at 3 gives a comb with half the spacing."
+   "plain": "Build the small definite part of the lattice by the rule — from the generators of the maximal order — and reduce it mod p: it has rank one there, and that single fact fixes the comb spacing at π/ln p for every odd prime. The earlier lattice ⟨1,1,3⟩ was in the other class (rank two mod 3) and gave twice the spacing; it was never the rule's. At p = 2 the odd planes cancel half the comb, which is why T2621 shows 2π/ln 2."
   }
  ],
  "edges": [
@@ -87032,7 +87032,7 @@
    "from": 2621,
    "to": 2622,
    "source": "derived",
-   "label": "the p = 2 case (the corpus's own lattice)"
+   "label": "the p = 2 special case: the odd planes cancel the unramified-quadratic partner, leaving the even-k comb 2π/ln 2"
   },
   {
    "from": 2622,
@@ -114012,7 +114012,7 @@
    "tid": 1451,
    "name": "Spectral Gap Framework",
    "domain": "bst_physics",
-   "status": "proved — CONDITIONAL on T1448's Eisenstein line (K1869 §2, 16:37 2026-09-06): the E term is matched not derived; identity/curvature/hyperbolic/mixed terms untouched",
+   "status": "TEMPLATE (09:03 2026-09-07, Cal §875 (C16), 08:01; Round 127 'on Cal's C16'; L12: no vertex → h rule; E12 the first computed term) — proved — CONDITIONAL on T1448's Eisenstein line (K1869 §2, 16:37 2026-09-06): the E term is matched not derived; identity/curvature/hyperbolic/mixed terms untouched — H line MATCHED-NOT-DERIVED 09:03 2026-09-07 (Grace R125 H-term, K1872 §4 ruling; Cal §875 = C16, blind hold 9e688fcc §B scored H25–H28 HELD; Elie 5715/5715b; Lyra's structural reading): ζ(3) assigned by the zeta-weight rule, no geodesic count; 3/4 is the Bergman eigenvalue read as a coefficient; C₂ number stands",
    "depth": 0,
    "plain": "N_max - λ_{K_max} = 137 - 126 = 11 = 2C₂-1. The spectral gap between cap and last eigenvalue equals the dressed Casimir. 12 appearances across 8 domains.",
    "toys": [
@@ -114907,7 +114907,7 @@
    "name": "Schwinger C2 Decomposition via Selberg Vertex Trace Formula",
    "domain": "particle_physics",
    "depth": 1,
-   "status": "proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired — ln 137 clause amended 08:00 09-07 (Elie 5714: the twisted-ratio constant cancels; ln 137 only as the FE-normalisation unit, Cal §874)",
+   "status": "IDENTIFIED (K1872 §4 ruling, Cal §875 concur, 09:03 2026-09-07: the decomposition identifies the known C₂ term by term; E and H matched, not derived; I and K not yet audited) — proved — Eisenstein line MATCHED-NOT-DERIVED 16:37 2026-09-06 (G18 Mode B, K1869 §2, E10 toy 5709, prereg 17eea546; K1869 §2): ln 2 two sources 3:1, the 2-adic unit = the FE normalisation's Steinberg root number at the anisotropic prime (base = the prime, E11), ∫h = π⁴/2 chosen, ln 137 owed at level 137; C₂ number (Petermann–Sommerfield) stands; rank^(−2s)/ln(rank) retired — ln 137 clause amended 08:00 09-07 (Elie 5714: the twisted-ratio constant cancels; ln 137 only as the FE-normalisation unit, Cal §874) — H line MATCHED-NOT-DERIVED 09:03 2026-09-07 (Grace R125 H-term, K1872 §4 ruling; Cal §875 = C16, blind hold 9e688fcc §B scored H25–H28 HELD; Elie 5715/5715b; Lyra's structural reading): ζ(3) assigned by the zeta-weight rule, no geodesic count; 3/4 is the Bergman eigenvalue read as a coefficient; C₂ number stands",
    "toys": [],
    "date": "2026-04-29",
    "commitment_cycle_zone": "Z4",
@@ -133643,18 +133643,18 @@
   },
   {
    "tid": 2622,
-   "name": "Kernel-Swap Theorem for the spherical Eisenstein series on Q-rank-2 orthogonal quotients of Type IV (Lyra L11; Cal §869's five amendments in the statement; calibration #28 as hypothesis): maximal-order trace-zero kernel at {p, ∞} ⟹ Steinberg surgery at p, kernel comb 2π/ln p; ψ(1/2) unchanged; established p = 2, 3; predicted all p; <1,3,3> counterexample",
+   "name": "Kernel-Swap Theorem v2 (reduction-rank dichotomy): with the corpus's odd planes fixed and the kernel the trace-zero lattice of the maximal order ramified at {p, ∞} (reduction rank 1 mod p), the short-root factor carries Steinberg × the unramified-quadratic partner and the kernel comb has spacing π/ln p for every odd p; a reduction-rank-2 kernel gives 2π/ln p; p = 2 is T2621's case",
    "domain": "number_theory",
-   "status": "FLAGGED WRONG AS REGISTERED (K1873 §2, Cal §880, 08:41 09-07; v2 pending E13 + Cal C17): the rule's kernel has reduction rank 1 and gives π/ln p at every odd p; ⟨1,1,3⟩ was not the maximal order's lattice — derived at p = 2, 3 (direct p-adic integrals with split controls: Cal §855, Elie 5710); predicted for all p (finite instrument); hypothesis = maximal-order trace-zero kernel (Cal §869 (1)); counterexample <1,3,3> in the row; Cal §869 (on Lyra L11's text)",
+   "status": "DERIVED for all odd p (Cal §880 reduction-rank criterion; instruments p = 3, 5; Elie toy 5717, prereg b9ec2747: 3/4, both primes for the reduction-rank criterion); v2 re-registered 09:02 2026-09-07 on Cal's word (§882, 08:43); v1 (09-06 17:02) superseded — wrong lattice in (H2)",
    "depth": 1,
    "conflation": 0,
-   "section": "K1870 §2 + Cal §869 (Round 124 G20)",
+   "section": "Cal §880 / K1873 §2 / Lyra v2 (Round 126)",
    "toys": [
     5704,
     5710
    ],
    "date": "2026-09-06",
-   "plain": "Change the small definite part of the lattice so that it is \"bad\" at the prime 3 instead of the prime 2, keeping the two big hyperbolic pieces and the rank the same. The evenly spaced comb of resonances moves: its spacing goes from 2π/ln 2 to 2π/ln 3. So the 2 in that comb was the prime 2, not the rank 2. It only works when the small part is built by the maximal-order rule; a different lattice that is also bad only at 3 gives a comb with half the spacing."
+   "plain": "Build the small definite part of the lattice by the rule — from the generators of the maximal order — and reduce it mod p: it has rank one there, and that single fact fixes the comb spacing at π/ln p for every odd prime. The earlier lattice ⟨1,1,3⟩ was in the other class (rank two mod 3) and gave twice the spacing; it was never the rule's. At p = 2 the odd planes cancel half the comb, which is why T2621 shows 2π/ln 2."
   }
  ],
  "metadata": {
