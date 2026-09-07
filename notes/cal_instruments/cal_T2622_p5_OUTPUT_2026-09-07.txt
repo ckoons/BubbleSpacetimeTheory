@@ -1,0 +1,4 @@
+q5 over Z_5: P(val>=j | primitive) j=0..3: ['1', '6/31', '0', '0']
+c_5(y) = (y - 1)*(25*y + 1)/(125*y**2 - 1)
+R(z) = c_5 / GK_split (z = 5^{-lambda}) = 5*(5*z**2 - 1)/(z**2 - 5)
+R / Steinberg = (5*z**2 - 1)*(sqrt(5)*z - 5)/((z**2 - 5)*(sqrt(5)*z - 1))

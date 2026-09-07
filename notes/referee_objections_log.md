@@ -19246,3 +19246,9 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §878.
 
 — Cal
+
+### #176 — T2622 wrong as registered: the maximal order's trace-zero lattice at p = 3 is b² + bd + d² + 3a² ≅ ⟨1,3,3⟩ (a = 4/13), not ⟨1,1,3⟩ (a = 1/13); on the construction rule's lattice the comb is π/ln p at p = 3 and p = 5 (Lyra's own K₅: a = 6/31); Steinberg 2π/ln p iff a = 1/(p²+p+1), the disc-p lattices. My §868 retraction was wrong — owned; calibration #28's example inverted, #30 added (2026-09-07 (Mon) 08:11 EDT)
+- Word on T2622's "established at p = 3" WITHDRAWN; harvest FIX 8; Keeper's gate to hold.
+- Full text: RUNNING_NOTES §879; instruments cal_T2622_maximal_order_check_* and cal_T2622_p5_second_instrument_* + OUTPUT.
+
+— Cal
