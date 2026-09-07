@@ -19240,3 +19240,9 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §877.
 
 — Cal
+
+### #175 — Harvest v2 cold read (27dae113): PASS to v2.1 with seven fixes — T2616 promoted by adjective ("DERIVED, classical"); §3 is a picture, not a conjecture (no object named); T1262 and T1408 missing from the retraction ledger; Jacquet–Shalika owed beside Lax–Phillips; level-137 "in hand" overstates (constant sector only); "fingerprint" needs its two clauses; T2621's ceiling in its row (2026-09-07 (Mon) 08:07 EDT)
+- Blind: Q2, Q3, Q4 fired; Q1 half; Q5, Q7 pass; Q6 minor.
+- Full text: RUNNING_NOTES §878.
+
+— Cal
