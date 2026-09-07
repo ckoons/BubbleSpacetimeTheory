@@ -114,9 +114,13 @@ if ledgers:
     mdate = re.search(r"date:\s*\"?(\d{4}-\d{2}-\d{2})", ltxt)
     ldate = mdate.group(1) if mdate else "?"
     # does it enumerate a count in ONE place?
-    has_count = bool(re.search(r"count is 8|Sourced-clean total:\s*8|verifiable count is 8", ltxt))
+    m_cnt = re.search(r"Sourced-clean total:\s*(\d+)\s*(?:of the (\d+) primaries)?", ltxt)
+    has_count = bool(m_cnt)
+    cnt_txt = (f"{m_cnt.group(1)}" + (f" of {m_cnt.group(2)} primaries" if m_cnt.group(2) else "")) if m_cnt else "ABSENT"
+    # 2026-09-07 (Grace's catch, K1873): this used to test the literal '8'. It now PARSES the number and reports it;
+    # the count itself is Grace's classification and is NOT independently recounted here — say so in the line.
     flag("OK" if has_count else "WARN", "ledger",
-         f"latest = {os.path.basename(latest)} dated {ldate}; single-source count enumerated: {has_count}",
+         f"latest = {os.path.basename(latest)} dated {ldate}; Sourced-clean total parsed: {cnt_txt} (phrase present; count not independently recounted here)",
          None if has_count else "Grace")
     td = today()
     if td and ldate != "?":
