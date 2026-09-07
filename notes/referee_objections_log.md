@@ -19225,3 +19225,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §871.
 
 — Cal
+
+### #172 — T1448's H term scored blind (9e688fcc): assignment HELD, colour families imposed HELD, level-137 floor sharpened by 5715 (trace ≥ 18771), ζ(3)'s immediate source is T1445 not T1244 (owned). Independent read concurs with K1872 (IDENTIFIED annotation of Petermann–Sommerfield) with three additions: iterate sums decay geometrically, never as n⁻³; det(𝔞) is not an object; "numerator + denominator" is not a function on ℚ. Word given for the sweep (2026-09-07 (Mon) 08:01 EDT)
+- Full text: RUNNING_NOTES §875.
+
+— Cal
