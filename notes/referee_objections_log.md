@@ -19267,3 +19267,8 @@ This is the constructive corollary of #469/#470: I argued the dimensionless sect
 - Full text: RUNNING_NOTES §883.
 
 — Cal
+
+### #180 — Harvest v2.1: PASS to the gate; all eight fixes carried; one required — §6's tier row for the kernel-swap family ("DERIVED at 2, 3; PREDICTED") contradicts §1's T2622 v2 ("DERIVED for all odd p"); minor: toy 5717 claimed by both Lyra and Elie; #28/#30 swapped in §5; double date stamp (2026-09-07 (Mon) 09:01 EDT)
+- Full text: RUNNING_NOTES §886.
+
+— Cal
