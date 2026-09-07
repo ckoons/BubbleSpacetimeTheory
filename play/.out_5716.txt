@@ -1,0 +1,9 @@
+  [HIT] P1  occurrences in the 8 inversion sets: {'e1-e2': 4, 'e1+e2': 4, 'e1': 4, 'e2': 4}
+  [HIT] P2  sum c_137 = 91528 (identity 136·673 = 91528); average 4.9485 = 673/136; blocks with c = 0: 1; distribution {0: 1, 2: 3, 3: 268, 4: 402, 5: 17822}
+  [HIT] P3  ln 2 units in the sigma = 1 sector: 18496 (one per block, FE-normalisation convention)
+  t = 1.000000: ∫h = 6.392147e-04; E_const^(137) = -(1/4π²)(18496 ln 2 + 91528 ln 137)·∫h = -7.498873e+00  (ln 137 part / ln 2 part = 35.125)
+  t = 0.117647: ∫h = 9.823682e+00; E_const^(137) = -(1/4π²)(18496 ln 2 + 91528 ln 137)·∫h = -1.152454e+05  (ln 137 part / ln 2 part = 35.125)
+  [HIT] P4  constant-coefficient part printed with ∫h; the functional parts and the sigma != 1 sector are OWED, not estimated
+  [HIT] P5  no ln pi (5714); conductors in the row are 2 and 137 only
+
+SCORE 5/5
