@@ -1,0 +1,7 @@
+R1: aligned writes u = xi from Z_2, light and matter branches, 5 steps
+  [HIT] R1 (control)  zonal weight stays exactly 1 on both branches
+R2: random-direction writes from Z_2, light path, 6 steps, 24 walks (exact per walk, rational directions)
+  mean zonal weight after writes 1..6: ['0.244±0.037', '0.091±0.022', '0.070±0.017', '0.035±0.011', '0.018±0.005', '0.008±0.003']
+  [HIT] R2  monotone shrink True; after 6 writes 0.008 < 0.5: True
+
+SCORE 2/2, of which 1/1 can-fail hit
