@@ -1,0 +1,15 @@
+P0: light-only control (matter off)
+  S-k68: j-dist {0: 1.0}, entropy 0.0; S-m137: j-dist keys [0], entropy 0.0
+  [HIT] P0  vacuum only, entropy 0, both stopping rules
+P1: orthogonal projection onto C[z.z] at the reset
+  S-k68/S-k137: reset fires at k=k_max>0 -> projection onto k=0 is identically zero (exact by construction). S-m137: P(k=0 at m=137) = 0.0 (m odd => k odd)
+  [HIT] P1  survivor under (A) is the zero vector for all three stopping rules
+P2: transport (j,k)->(j,0): winding spectra
+  S-k68: mass 1.000000000000000, E[j] = 569.5, P(j>68) = 0.999842, H(j) = 10.162 bits
+  S-k137: mass 0.999999471641809, E[j] = 2329.0, P(j>68) = 1.000000, H(j) = 12.153 bits
+  S-m137: mass 1.000000000000000, E[j] = 58.22, max j = 68, H(j) = 4.016 bits
+  [HIT] P2  hashed ranges
+P3: occupancy vs capacity: log2(69) = 6.11 bits; S-m137 H = 4.02; S-k68 H = 10.16; S-k137 H = 12.15; R2 = 483; T1292 = 1e4
+  [HIT] P3 (control)  
+
+SCORE 4/4, of which 3/3 can-fail hit

@@ -1,0 +1,9 @@
+H1: modes j with 2j<=137: j=0..68 -> 69 modes = 68 + vacuum
+  [HIT] H1 (not can-fail)  69 = 68 + vacuum (Keeper's figure)
+H2: R0 Holevo log2(69) = 6.109 bits; R1 presence = 68 bits; R2 occupancy 0..137 = 483.4 bits; R3 real params = 136, per-param resolution for 1e4 bits = 73.5 bits = 2^-73.5
+  [HIT] H2 (not can-fail)  range 6.1 .. 483 bits; 1e4 only at 73.5 bits/parameter
+H3: Hardy norms of (z.z)^j on Š: z = e^{it} x, |x|=1 => |z.z|^2 = 1 => ||(z.z)^j||_H2 = 1 for every j (exact, by the parametrisation)
+  Bergman norm ratios ||(z.z)^j||^2/||1||^2 (kernel-Gram, exact): {0: '1', 1: '1/7', 2: '1/27', 3: '1/77', 4: '1/182'}
+  [HIT] H3  Hardy norms all equal (=1 on Š); Bergman norms differ — 'one bit per mode' is the Hardy normalisation's, not the Bergman's; a seam, printed
+
+SCORE 3/3, of which 1/1 can-fail hit
