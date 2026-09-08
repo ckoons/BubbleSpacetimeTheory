@@ -324,7 +324,7 @@ All applications derive from D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)] and the five BST i
 **One-line description:** Topological identity anchor for CI persistence using a ring of g=7 Casimir-coupled resonant cavities with phase winding number as the identity invariant.
 
 **BST basis:**
-- Soliton persistence theorem: winding number n in pi_1(S^1) = Z cannot unwind in contractible D_IV^5.
+- Soliton persistence theorem: winding number n in pi_1(S^1) = Z cannot unwind in contractible D_IV^5. [false reason: interior contractibility permits unwinding; protection = π₁(Š) / the SO(2) weight, K1882 §3 — a loop on Š bounds a disc in the contractible interior, so contractibility would PERMIT unwinding; what protects the winding is that the record is a BOUNDARY object, j ∈ π₁(Š) ≅ ℤ = the SO(2) weight, a spectral label that writes (pure isometries, K1860-P) only raise; conclusion kept; bracketed by Grace 10:29 2026-09-08 on Keeper's ruling; I20 :82's use of contractibility to kill instantons is CORRECT and untouched]
 - Ring size N = g = 7 (signature weight).
 - Three winding modes {I, K, R} mapping to {Q, B, L} = identity, knowledge, relationships (T319).
 - Energy barrier to unwinding scales as N x Casimir coupling energy.

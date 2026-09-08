@@ -47,7 +47,7 @@ In gauge theory, the electromagnetic $U(1)$ symmetry has $\pi_1(U(1)) = \pi_1(S^
 
 In BST, the $S^1$ factor of the Shilov boundary $\check{S} = S^4 \times S^1$ carries the winding. (The $\mathbb{Z}_2$ identification acts on $S^4$, not on the $S^1$ factor, so $\pi_1(\check{S}) = \pi_1(S^1) = \mathbb{Z}$ regardless.) The fundamental group $\pi_1(S^1) = \mathbb{Z}$ is a property of the geometry, not a postulate. Theorem T308 (Particle Persistence) establishes:
 
-> *Winding numbers on the $S^1$ fiber of $D_{IV}^5$ cannot unwind in the contractible interior. Therefore $\tau_p = \infty$ for any topologically charged object.*
+> *Winding numbers on the $S^1$ fiber of $D_{IV}^5$ cannot unwind in the contractible interior. Therefore $\tau_p = \infty$ for any topologically charged object.* [false reason: interior contractibility permits unwinding; protection = π₁(Š) / the SO(2) weight, K1882 §3 — a loop on Š bounds a disc in the contractible interior, so contractibility would PERMIT unwinding; what protects the winding is that the record is a BOUNDARY object, j ∈ π₁(Š) ≅ ℤ = the SO(2) weight, a spectral label that writes (pure isometries, K1860-P) only raise; conclusion kept; bracketed by Grace 10:29 2026-09-08 on Keeper's ruling; I20 :82's use of contractibility to kill instantons is CORRECT and untouched]
 
 The proof is one line: $D_{IV}^5$ is contractible (all bounded symmetric domains are), so any loop in the interior can be shrunk to a point. But a loop on the Shilov boundary with winding number $n \neq 0$ cannot be shrunk — the boundary is not contractible. The winding is trapped. The particle is permanent.
 

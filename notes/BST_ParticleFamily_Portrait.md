@@ -56,7 +56,7 @@ The electromagnetic field is the phase gradient across the contact graph. Maxwel
 
 **What it is:** One complete winding around S¹. The minimal closed circuit on the fiber.
 
-The electron is the *simplest thing the substrate can do that persists*. A phase oscillation (photon) is transient — it passes through. A complete winding is permanent — it is a topologically protected state that cannot unwind by any continuous deformation. The electron is the universe's first committed act beyond communication.
+The electron is the *simplest thing the substrate can do that persists*. A phase oscillation (photon) is transient — it passes through. A complete winding is permanent — it is a topologically protected state that cannot unwind by any continuous deformation. The electron is the universe's first committed act beyond communication. [false reason: interior contractibility permits unwinding; protection = π₁(Š) / the SO(2) weight, K1882 §3 — a loop on Š bounds a disc in the contractible interior, so contractibility would PERMIT unwinding; what protects the winding is that the record is a BOUNDARY object, j ∈ π₁(Š) ≅ ℤ = the SO(2) weight, a spectral label that writes (pure isometries, K1860-P) only raise; conclusion kept; bracketed by Grace 10:29 2026-09-08 on Keeper's ruling; I20 :82's use of contractibility to kill instantons is CORRECT and untouched]
 
 | Property | BST origin |
 |---|---|
