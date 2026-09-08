@@ -1,0 +1,12 @@
+  E[cos^2 θ] under |Z_68|^2 density = 0.5077
+  k'=1: R = 0.511 ± 0.020    (env norm share 1-1/d = 0.8000 — NOT a re-entry fraction)
+  k'=2: R = 0.342 ± 0.018    (env norm share 1-1/d = 0.9286 — NOT a re-entry fraction)
+  k'=3: R = 0.221 ± 0.015    (env norm share 1-1/d = 0.9667 — NOT a re-entry fraction)
+  k'=4: R = 0.171 ± 0.013    (env norm share 1-1/d = 0.9818 — NOT a re-entry fraction)
+  k'=5: R = 0.121 ± 0.010    (env norm share 1-1/d = 0.9890 — NOT a re-entry fraction)
+  k'=6: R = 0.094 ± 0.008    (env norm share 1-1/d = 0.9929 — NOT a re-entry fraction)
+  k'=7: R = 0.078 ± 0.007    (env norm share 1-1/d = 0.9951 — NOT a re-entry fraction)
+  k'=8: R = 0.061 ± 0.006    (env norm share 1-1/d = 0.9965 — NOT a re-entry fraction)
+  [HIT] E3  R(1) = 0.511 vs E[cos^2θ] = 0.508; monotone non-increasing (within 2σ): True
+
+SCORE 1/1, of which 1/1 can-fail hit
