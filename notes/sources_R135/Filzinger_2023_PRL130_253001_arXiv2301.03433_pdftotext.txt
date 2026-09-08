@@ -1,0 +1,456 @@
+                                                    Improved limits on the coupling of ultralight bosonic dark matter to photons from
+                                                                            optical atomic clock comparisons
+                                                     M. Filzinger, S. Dörscher, R. Lange, J. Klose, M. Steinel, E. Benkler, E. Peik, C. Lisdat, and N. Huntemann∗
+                                                                   Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig, Germany
+                                                                                                 (Dated: January 10, 2023)
+                                                                  We present improved constraints on the coupling of ultralight bosonic dark matter to photons
+                                                               based on long-term measurements of two optical frequency ratios. In these optical clock comparisons,
+                                                               we relate the frequency of the 2 S1/2 (F = 0) ↔ 2 F7/2 (F = 3) electric-octupole (E3) transition in
+                                                               171
+                                                                   Yb+ to that of the 2 S1/2 (F = 0) ↔ 2 D3/2 (F = 2) electric-quadrupole (E2) transition of the
+                                                               same ion, and to that of the 1 S0 ↔ 3 P0 transition in 87 Sr. Measurements of the first frequency
+                                                               ratio νE3 /νE2 are performed via interleaved interrogation of both transitions in a single ion. The
+
+
+
+
+arXiv:2301.03433v1 [physics.atom-ph] 9 Jan 2023
+                                                               comparison of the single-ion clock based on the E3 transition with a strontium optical lattice clock
+                                                               yields the second frequency ratio νE3 /νSr . By constraining oscillations of the fine-structure constant
+                                                               α with these measurement results, we improve existing bounds on the scalar coupling de of ultralight
+                                                               dark matter to photons for dark matter masses in the range of about 10−24 − 10−17 eV/c2 . These
+                                                               results constitute an improvement by more than an order of magnitude over previous investigations
+                                                               for most of this range. We also use the repeated measurements of νE3 /νE2 to improve existing limits
+                                                               on a linear temporal drift of α and its coupling to gravity.
+
+
+                                                     Even though dark matter makes up the majority of the            tude
+                                                  matter in our universe, its microscopic properties and                                      r           √
+                                                  non-gravitational interactions are still a mystery. One                                         4πG~2       2ρDM
+                                                                                                                                       ϕ0 ≡                        ,           (3)
+                                                  well-motivated dark matter model is that of ultralight                                            c6        mϕ
+                                                  bosons (see [1, 2] for recent reviews). Bosons with a mass
+                                                  mϕ well below 1 eV/c2 , with c the speed of light, are             where ρDM denotes the dark matter energy density and
+                                                  expected to behave like a classical coherent wave, with an         G the gravitational constant.
+                                                  oscillation frequency given by their Compton frequency                Since the energy of atomic levels depends on the fine
+                                                  ω = 2π mϕ c2 /h, where h is the Plack constant, and a              structure constant α, atomic transition frequencies can
+                                                  finite coherence time τcoh ≈ h/mϕ ∆v 2 due to the velocity         be sensitive probes to changes of its value. In particular,
+                                                  spread ∆v ≈ 10−3 c of dark matter in our galaxy.                   a sinusoidal oscillation of α due to a coupling of UBDM
+                                                                                                                     to photons can lead to a magnified oscillation in the ratio
+                                                     The interaction of this ultralight bosonic dark mat-
+                                                                                                                     of two optical atomic frequencies ν1 and ν2
+                                                  ter (UBDM) with standard model particles is expected
+                                                  to lead to corresponding oscillations in fundamental con-                              ∆(ν1 /ν2 )       ∆α
+                                                  stants, such as the fine-structure constant, the electron                                         = −kα    ,                 (4)
+                                                                                                                                          ν1 /ν2          α
+                                                  mass, and the quantum chromodynamics mass scale [3].
+                                                  Experiments based on atomic and optical techniques can             if the magnitude of their differential sensitivity kα to
+                                                  be sensitive to changes of these parameters and have pro-          changes of α is larger than one.
+                                                  vided some of the most stringent limits on the couplings              In this letter, we present a search for such sinusoidal
+                                                  of UBDM to standard model particles to date [4–11].                modulations in our measurements of two optical fre-
+                                                     In this work, we are concerned with a coupling of the           quency ratios. The excited state of the 2 S1/2 (F = 0) ↔
+                                                                                                                     2
+                                                  dimensionless dark matter field ϕ to photons contributing            F7/2 (F = 3) electric-octupole (E3) transition in 171 Yb+
+                                                  a term to the Lagrangian density L                                 features a single hole in the otherwise filled 4f shell, while
+                                                                                                                     the ground state is characterized by a single valence elec-
+                                                                             de                                      tron 4f 14 6s1 . The proximity of the 4f shell to the nucleus
+                                                                     L⊃ϕ        Fµν F µν ,                   (1)
+                                                                            4µ0                                      of this heavy ion yields an intuitive explanation for large
+                                                                                                                     relativistic contributions to the E3 excited state energy.
+                                                  with coupling constant de , Fµν the electromagnetic field          This makes optical clocks based on the E3 transition the
+                                                  tensor, and µ0 the vacuum permeability. This coupling              most sensitive to variations of α presently in operation.
+                                                  leads to oscillations of the fine-structure constant [3]:          We utilize this high sensitivity by comparing the E3 tran-
+                                                                                                                     sition frequency νE3 to two other transition frequencies:
+                                                               α(t) ≈ α [1 + de ϕ0 cos(ωt + δ)]              (2)     The 2 S1/2 (F = 0) ↔ 2 D3/2 (F = 2) electric-quadrupole
+                                                                                                                     (E2) transition frequency νE2 of the same ion and the
+                                                  with δ an unknown phase, and the dimensionless ampli-              1
+                                                                                                                       S0 ↔ 3 P0 transition frequency νSr in 87 Sr. The sen-
+                                                                                                                     sitivity kα has been calculated as 6.95 for νE3 /νE2 and
+                                                                                                                     6.01 for νE3 /νSr [12]. The strong α-dependence in these
+                                                                                                                     frequency comparisons enables us to search for a coupling
+                                                  ∗ nils.huntemann@ptb.de
+                                                                                                                     de of UBDM to photons with high sensitivity.
+                                                                                                                                2
+
+   The single-ion clock used for the measurements re-
+ported here has previously been evaluated to a fractional                          10−15
+uncertainty of 2.7 × 10−18 on the E3 transition [13], and                                                                  √
+                                                                                                              1.0 × 10−14 / τ
+33 × 10−18 on the E2 transition [14]. Measurements of
+
+
+
+                                                                 Allan deviation
+the optical frequency ratio νE3 /νE2 have been performed                           10−16
+at PTB since 2016 [14]. The data reported previously
+was predominantly obtained by comparing two single-
+ion clocks, where one was realizing νE3 and the other one                          10−17                √
+νE2 . Since autumn 2020, both frequencies have been re-                                    1.1 × 10−15 / τ
+alized with the same apparatus via interleaved interroga-
+tion, i.e. the single ion is probed on both transitions in an                                 Yb+ E3/Yb+ E2
+                                                                                   10−18
+alternating fashion. The E3 transition is interrogated us-                                    Yb+ E3/Sr
+ing Rabi-controlled hyper-Ramsey spectroscopy [15] with
+a dark time of 500 ms, while we use standard Rabi inter-                                      102    103    104     105   106
+rogation with 42 ms long pulses for the E2 transition,                                               Time interval (s)
+because of its short 53 ms excited-state lifetime [16]. The
+E2 transition frequency is averaged over three mutually
+perpendicular directions of the applied magnetic field,         FIG. 1. Instability of both frequency ratio measurements as
+which suppresses tensorial shifts such as the quadrupole        characterized by the Allan deviation.√ The solid lines are fits
+shift [17]. While we use the first order Zeeman-insensitive     to the Allan deviation with the 1/ τ scaling expected for
+                                                                white noise.
+mF = 0 → mF = 0 transitions as the basis for both opti-
+cal clocks, we periodically probe the mF = 0 → mF = 2
+component of the E2 transition to determine the mag-            tion time and limited duty cycle of the E2 interrogation.
+netic field strength for all three settings. The result         In order to overcome this limitation and investigate the
+is used to calculate a time-resolved correction for the         full potential of the clock operating on the E3 transition,
+second-order Zeeman shift on the E2 mF = 0 → mF = 0             we complement the long-term measurements described
+transition. Similarly, we calculate a dynamical correction      above with a short measurement campaign comparing
+of the shift due to black-body radiation based on mea-          the 171 Yb+ E3 single-ion clock to a 87 Sr lattice clock in
+surements with resistive temperature sensors. Since most        the spring of 2022. This frequency ratio features a similar
+other parameters are kept constant during clock opera-          sensitivity to variations of α, but improved measurement
+tion, the reproducibility of νE2 is expected to be much         stability compared to our measurements of νE3 /νE2 .
+smaller than its uncertainty. The dynamic correction of
+                                                                   As described in [19, 20], the laser of the strontium
+the second-order Zeeman shift leads to a reproducibility
+                                                                clock is stabilized to the average frequency of the
+of < 1×10−18 for this shift. Since the quadrupole shift in
+                                                                mF = ±9/2, ∆mF = 0 transitions in 87 Sr, which is
+our system remains constant over time at the 1 × 10−16
+                                                                free of the linear Zeeman shift. Rabi interrogation of
+level, and we suppress this shift by at least a factor of 100
+                                                                typically 650
+                                                                            p ms leads to a clock instability of below
+with our averaging scheme [18], we estimate the repro-
+                                                                2 × 10−16 / τ (s) [20]. Unlike in previous publications,
+ducibility of the remaining quadrupole shift to 1 × 10−18 .
+                                                                we used a new physics package, Sr3, that features a
+With these two changes we estimate the total fractional
+                                                                vertically oriented optical lattice to suppress tunneling
+reproducibility of νE2 in our system as 4 × 10−18 , a sig-
+                                                                between the lattice sites and an in-vacuum radiation
+nificant improvement over the previously reported value
+                                                                shield that ensures a highly homogeneous thermal
+of 16 × 10−18 [14].
+                                                                environment. These and other improvements, including
+   In total, we evaluate about 235 days of measurement          state preparation by sideband cooling in the lattice,
+data of the ratio νE3 /νE2 , which were accumulated over a      lead to a systematic uncertainty of 3 × 10−18 of the new
+period of about 26 months, between MJD 59097 (Septem-           apparatus. Further details will be given a subsequent
+ber 5, 2020) and MJD 59900 (November 11, 2022). Com-            publication [21]. The measurement setup used for the
+bining this new data with that in [14], we find a lin-          comparison is described in [22]. In total, we evaluate
+                      d(νE3 /νE2 )                              about 343 hours of measurement data of νE3 /νSr taken
+                 1
+ear drift of νE3 /νE2     dt       = −1.2(1.8) × 10−18 /yr in
+our measurements of the frequency ratio νE3 /νE2 , cor-         over a period of about 41 days.
+responding to a drift of the fine structure constant of           The νE3 /νSr measurement
+                                                                                         p      features a fractional insta-
+1 dα                    −19                                     bility of 1.1 × 10−15 / τ (s), limited by the quantum
+α dt = 1.8(2.5) × 10        /yr. For a possible coupling to
+the gravitational potential of the sun, Φ, the best fit to      projection noise of the single ion clock. The instabilities
+                 2
+all data gives cα dΦ
+                   dα
+                      = −2.4(3.0) × 10−9 . Both values are      of both frequency ratio measurements as characterized
+compatible with zero and improve the uncertainty of the         by the Allan deviation are shown in Fig. 1. Deviation
+previous limits [14] by about a factor of four.                 from the expected white noise behaviour is visible for
+                                                                νE3 /νSr for averaging times above about 105 s. For the
+   The fractional instabilitypof the νE3 /νE2 measurements      data analysis presented below, we model the noise in
+is limited to 1.0 × 10−14 / τ (s) by the short interroga-       our measurements based on the Allan deviation: For the
+                                                                                                                              3
+
+measurements of νE3 /νE2 we assume pure white noise.                       10−16
+For νE3 /νSr , we additionally add random walk noise
+(1/ω 2 power spectrum) with an amplitude of 9 × 10−18 ,
+reproducing the increase of the Allan deviation we                         10−17
+observe at long averaging intervals.
+
+
+                                                               Amplitude
+  To search for a coupling of UBDM to photons, we look                     10−18
+for sinusoidal modulations of the form
+
+                Sω sin(ωt) + Cω cos(ωt)                (5)
+                                                                           10−19            Detection threshold
+                                                                                            95% Confidence level
+in our measurement data of both frequency ratios, fol-
+                                                                                            Extracted amplitudes
+lowing closely the approach detailed in [4, p
+                                            5]. We are in-
+                                                                           10−20
+terested in the oscillation amplitude Aω ≡ Sω2 + Cω2 for
+                                                                                     10−8    10−7    10−6 10−5 10−4    10−3
+a range of angular frequencies ω. To handle the gapped
+                                                                                                    Frequency (Hz)
+experimental data, we first estimate the power at dif-
+ferent frequencies using the Lomb-Scargle formalism, a
+method for the spectral analysis of unevenly sampled          FIG. 2. Amplitude spectrum of the νE3 /νE2 measurement
+data [23, 24]. This approach is equivalent to fitting the     data (dark red) with upper 95% confidence level (light pink)
+model Eq. 5 explicitly to the data for each frequency and     and 5% detection threshold (gray) (see text for details).
+constructing a periodogram from the χ2 goodness of fit:
+                                                                           10−16
+                      1 2
+                        χ0 − χ2 (ω) ,
+                                   
+                 Pω =                                  (6)
+                      2
+                                                                           10−17
+where χ20 is obtained from the non-varying reference
+
+
+                                                               Amplitude
+model (S ≡ C ≡ 0). Using the Lomb-Scargle formal-
+ism as implemented in the astropy python package [25]                      10−18
+instead of standard fitting routines speeds up the com-
+putation significantly. For evenly sampled data, the pe-
+riodogram Pω reduces to that obtained from a standard                      10−19            Detection threshold
+discrete Fourier transform. We extract the modulation                                       95% Confidence level
+amplitude from the periodogram via                                                          Extracted amplitudes
+                          p                                                10−20
+                    Aω = 4 Pω /N0 ,                  (7)                           10−7     10−6      10−5     10−4   10−3
+                                                                                                    Frequency (Hz)
+with N0 the number of datapoints. The highest frequency
+in our analysis is 0.005 Hz, limited by the servo time of
+the optical clocks: For shorter times the laser frequencies   FIG. 3. Amplitude spectrum of the νE3 /νSr measurement
+are not yet fully determined by the atomic reference, and     data (dark blue) with upper 95% confidence level (light blue)
+their stabilization to the same ultrastable optical cav-      and 5% detection threshold (gray) (see text for details).
+ity leads to common-mode rejection of signals. For a
+dataset where T is the time between the beginning of the
+first measurement and the end of the last measurement,
+the Lomb-Scargle statistics are not valid for frequencies     random walk noise component is generated on a continu-
+around 1/T and below, i.e. when signals no longer com-        ous dataset first, which is then gapped in accordance with
+plete a whole oscillation cycle within the range of the       the timestamps of our measurement. These datasets are
+data. In this case, we can still constrain the oscillation    then evaluated as described above, and taking the 95th
+amplitude using a standard least-square fit of Eq. 5, ad-     percentile of the resulting distribution yields the upper
+ditionally allowing a constant offset for each frequency.     95% confidence level [4–6]. In order to assess the statis-
+Here, the limit on the amplitude increases with 1/ω 2 ,       tical significance of any peaks in our spectrum, we addi-
+since being close to an antinode of the oscillation cannot    tionally estimate a 5% detection threshold. When finding
+be excluded. We check the agreement of both methods in        a peak above this threshold, the probability of falsely as-
+a frequency range around 1/T and verify that our analy-       suming it to be a real signal would be less than 5%. Our
+sis reproduces the amplitudes of known reference signals.     estimate of this detection threshold is based on Monte-
+   We set an upper bound at 95% confidence on the os-         Carlo (MC) sampling of noise (see Supplemental Material
+cillation amplitude at each frequency by assuming the         [26]) and converges with the analytic description in [23]
+extracted amplitude is a real signal and generating 1000      for large frequencies.
+datasets by adding a randomly generated offset to each         The results of this analysis for the νE3 /νE2 measure-
+datapoint according to our respective noise model. The        ment data are presented in Fig. 2. Our 95% confidence
+                                                                                                                           4
+
+levels yield largely frequency-independent constraints on
+amplitude modulations below 2 × 10−17 for frequencies
+> 1/T . The results for the corresponding analysis of the
+νE3 /νSr data are shown in Fig. 3. The νE3 /νSr data of-
+fers almost a factor 3 stricter amplitude constraints than
+the νE3 /νE2 data for frequencies above the mid-10−6 Hz
+range. The visible increase in the best-fit amplitudes for
+smaller frequencies is explained by our noise model and
+corresponds to the deviation from white noise visible in
+Fig. 1. For even smaller frequencies < 1/T ≈ 3×10−7 Hz,
+we additionally see the expected 1/ω 2 scaling.
+   We find no amplitudes exceeding the respective detec-
+tion threshold in either dataset and conclude that there is
+no statistically significant sinusoidal modulation present
+in either of our measurements. Thus, our data does not
+indicate an UBDM-photon coupling given the constraints
+of the known measurement noise. In the following, we use
+                                                              FIG. 4. Exclusion plot for the coupling of ultralight bosonic
+the extracted upper 95% confidence levels on sinusoidal       dark matter to photons. The new limits deduced from our
+modulations in our measurements to derive limits on such      measurements of νE3 /νE2 (νE3 /νSr ) are shown in light pink
+modulations of α and thus the coupling de of UBDM to          (light blue) based on the 95% confidence levels in Fig. 2
+photons.                                                      (Fig. 3). Also included are previous atomic limits reproduced
+   Assuming the field ϕ with mass mϕ comprises all of the     from the literature: Those based on the radiofrequency spec-
+dark matter, we can translate our limits on the amplitude     troscopy of different isotopes of dysprosium (Dy/Dy) [4], the
+Aω of a sinusoidal modulation with frequency ω/2π in our      frequency comparison of microwave atomic clocks with rubid-
+data to limits on the absolute value of the scalar coupling   ium and cesium (Rb/Cs) [5], the comparison of a strontium
+de by combining Eqs. (2) to (4):                              lattice clock and a silicon cavity (Sr/Si) [6], several optical
+                                                              clock comparisons from the Boulder atomic clock optical net-
+                               s                              work (BACON) [7], as well as the comparison of an Yb lattice
+                          ωAω        c2                       clock with a Cs fountain (Yb/Cs) [10].
+                  |de | =                 ,             (8)
+                           kα    8πGρDM
+
+   with an ambient dark matter energy density of ρDM ≈           In summary, we substantially improve constraints
+6.4 × 10−5 J/m3 ≈ 0.4 GeV/cm3 [1]. The limits deduced         on the coupling of ultralight bosonic dark matter to
+from the 95% confidence levels shown in Fig. 2 and Fig. 3     photons utilizing the high sensitivity of the 171 Yb+ E3
+are depicted in the exclusion plot Fig. 4. We reproduce       transition to variations of the fine structure constant in
+previous limits in this mass range from the literature        two optical clock comparisons. While the E3 transition
+for reference. The total time spanned by our measure-         offers the highest sensitivity to α variations in currently
+ments of νE3 /νE2 is T ≈ 2 years, while the shortest coher-   operational optical clocks, a potential future nuclear
+ence time, corresponding to the largest investigated mass     optical clock based on thorium [28, 29], would offer much
+mϕ ≈ 2 × 10−17 eV, is about 6 years. Since T < τcoh , no      higher sensitivity, and could potentially investigate a
+corrections due to finite coherence are necessary. We in-     coupling several orders of magnitude below the limits
+corporate the effect of stochastic fluctuations of the dark   presented here.      Certain species of highly charged
+matter amplitude by re-scaling our limits with a factor       ions could also offer improved sensitivity [30, 31]. On
+of 3 as suggested in [27]. This factor has also been ap-      the other hand, even with the sensitivities employed
+plied to all data shown in Fig. 4 that originally neglected   in this work, improved searches can be conducted,
+stochastic fluctuations.                                      for example with a yearslong frequency comparison
+   Our constraints of |de | based on the measurements of      between a clock based on the E3 transition and a highly
+νE3 /νSr are about a factor of 3 more stringent than those    stable partner clock that features a small sensitivity
+based on νE3 /νE2 for masses above 10−20 eV/c2 . For          to α-variations. Additionally, improved stability of
+smaller masses, the long-term measurement of νE3 /νE2         the clock based on the E3 transition can be obtained
+yields tighter limits. Our combined results yield more        by achieving longer laser-ion coherence times and/or
+than an order of magnitude improvement over previous          interrogating multiple ions simultaneously. In terms
+bounds for masses ranging from the mid-10−23 to the           of the investigated mass range, applying the high
+mid-10−18 eV/c2 range.                                        α-sensitivity of the E3 transition to larger dark matter
+   We note that for masses below ≈ 10−22 eV/c2 , corre-       masses around 10−16 eV/c2 and beyond is of interest. To
+sponding to a de Broglie-wavelength the size of a small       achieve this without being limited by the typical servo
+galaxy, the assumption that the field of mass mϕ makes        time constants in optical clocks, dynamical decoupling
+up all of the dark matter needs to be relaxed [1], which      sequences, which offer increased sensitivity to varia-
+is not considered in any of the depicted limits.              tions at particular frequencies, could be employed [6, 32].
+                                                                                                                                                                                                   5
+
+
+
+
+                                                                  nE3 / nE2 - 0.932 829 404 530 965 (10 )
+                                                                 -18                                        450
+                                                                                                                           2017           2018       2019        2020           2021      2022
+   We thank Aurélien Hees for helpful discussions,
+Jialiang Yu, Thomas Legero and Uwe Sterr for provid-                                                        400
+ing a stable laser oscillator, and Burghard Lipphardt for
+experimental support. We acknowledge support by the
+project 20FUN01 TSCAC, which has received funding                                                           350
+
+from the EMPIR programme co-financed by the Partici-
+pating States and from the European Union’s Horizon                                                         300
+2020 research and innovation programme, and by the
+                                                                                                                  57500           58000             58500               59000          59500
+Deutsche Forschungsgemeinschaft (DFG, German Re-                                                                                                 Modiﬁed Julian Date, MJD
+search Foundation) under Germany’s Excellence Strategy
+– EXC-2123 QuantumFrontiers – Project-ID 390837967               FIG. 5. Ratio of the frequencies νE3 and νE2 of the E3 and
+and SFB 1227 DQ-mat – Project-ID 274200144 – within              the E2 transition in 171 Yb+ measured between MJD 57527
+project B02. This work was partially supported by the            (May 19, 2016) and MJD 59900 (November 11, 2022). The
+Max Planck–RIKEN–PTB Center for Time, Constants                  gray error bars show the statistical uncertainties. For the
+                                                                 black error bars, a fractional uncertainty has been added in
+and Fundamental Symmetries.
+                                                                 quadrature to take into account the reproducibility of system-
+                                                                 atic shifts over the measurement period. The dashed red line
+                                                                 and the dotted blue line are fits to the data for searches for
+            SUPPLEMENTAL MATERIAL                                a linear temporal drift and a dependence on the gravitational
+                                                                 potential, respectively.
+ A. Constraints on a linear temporal variation of
+  the fine-structure constant and its coupling to
+                      gravity                                                                                                     B.      Detection threshold
+
+
+   Previous optical frequency comparisons of νE3 and νE2           In order to estimate a detection threshold for each fre-
+in our group found the strictest limits on a linear tem-         quency ω/2π, we need to account for the fact that ex-
+poral variation of the fine-structure constant α and its         treme values become more likely as one considers a larger
+coupling to the gravitational potential of the sun, which        number of independent samples (look-elsewhere effect).
+would lead to an oscillation of α with a period of one           We define the threshold Pth,ω , following [5, 23], such that:
+year [14]. Including the new data presented in the main
+text in the same analysis allows us to further improve                                                                    Prob(Pω < Pth,ω ) = (1 − p0 )1/nind                                    (11)
+these limits. Figure 5 shows both the previously pub-
+lished measurement results of the frequency ratio νE3 /νE2       with the number of independent frequencies nind . In this
+between May 2016 (MJD 57527) and August 2020 (MJD                case, if we find a value Pω ≥ Pth,ω anywhere in the
+59081), as well as the new measurement data starting             spectrum and interpret it as a detection, the probabil-
+from September 2020. The increased amount of data                ity of it being a false detection is less than p0 = 5%.
+from 2021 and 2022 compared to earlier years is due to in-       We estimate the number of independent frequencies to
+creased measurement activity as well as improvements in          be nind ≈ fmax T , where fmax = 0.005 Hz, and obtain
+clock availability during measurements. The dashed red           nind ≈ 3.5 × 105 for the E3/E2 data and nind ≈ 1.8 × 104
+line and the dotted blue line are fits to all data of a linear   for the E3/Sr data. For ω/2π  1/T and pure Gaus-
+temporal drift and a sinusoidal modulation with a period         sian white noise, the periodogram follows an exponential
+of about 365 days respectively. Taking into account the          probability distribution, and the corresponding detection
+statistical uncertainties and reproducibility, the fits re-      threshold is known analytically [23].
+sult in a reduced χ2 of 1.2 and 1.1, respectively. We find          For smaller frequencies and different kinds of noise,
+a linear drift of                                                where the probability distribution of the estimated power
+                                                                 spectrum is not known, the detection limit can in prin-
+               1 dα                                              ciple be obtained directly from Monte-Carlo (MC) sam-
+                    = 1.8(2.5) × 10−19 /yr .              (9)    pling of noise. However, this would require an extremely
+               α dt
+                                                                 large number of samples, that is not computationally
+For a possible coupling to the gravitational potential Φ         feasible. For the total evaluated measurement data of
+of the sun, the best fit to all data gives                       νE3 /νE2 , 0.951/nind ≈ 1 − (2 × 10−7 ), meaning that on
+                                                                 the order of 107 Monte-Carlo samples are necessary to
+                c2 dα                                            obtain the detection threshold directly from the corre-
+                      = −2.4(3.0) × 10−9 .               (10)    sponding percentile of the probability distribution. A
+                α dΦ
+                                                                 variety of approaches to this problem have been devel-
+Both values are compatible with zero and improve the             oped in different fields and for different statistics [33–35].
+previous best limits [14] by about a factor of four in the       Here, we make use of the fact that an exponential distri-
+uncertainty.                                                     bution yields a good fit to the probability distribution of
+                                                                                                                               6
+
+the estimated power at a given frequency, when allowing           determine the detection threshold based on the resulting
+for a constant offset, and extract the threshold based on         fit parameters a and P0 , then calculate the correspond-
+such a fit for a smaller number of MC samples. Conver-            ing amplitude. We confirm the agreement of this method
+gence of the obtained results is at the few-percent-level         with the analytical detection threshold given in [23] for
+already for N = 1000 MC samples, and the quality of the           intermediate frequencies, and rely on the analytic result
+fit to the results of the MC sampling is good throughout          for frequencies  1/T . In the case of νE3 /νE2 , the noise
+the parameter space considered, even for small frequen-           is well-described by white noise throughout, and since
+cies and in the case of a random-walk noise component.            1/T ≈ 1.4 × 10−8 , we rely on the analytic result for fre-
+   To determine the detection threshold, we thus fit the          quencies larger than 10−6 Hz. For νE3 /νSr , we rely on the
+cumulative of an exponential distribution                         analytic result for frequencies larger than 4 × 10−5 Hz,
+                                                                  where the 1/ω 2 noise component is negligible and the
+                                                                  measurement is dominated by white noise. The visible
+                       1 − e−a(P −P0 )                    (12)    structure of the detection threshold at low frequencies
+                                                                  results from the specific distribution of sampling gaps in
+to a histogram of the cumulative extracted power P , and          our data.
+
+
+
+
+ [1] D. F. J. Kimball and K. van Bibber, eds., The Search for      [7] K. Beloy, M. I. Bodine, T. Bothwell, S. M. Brewer, S. L.
+     Ultralight Bosonic Dark Matter (Springer, 2023).                  Bromley, J. S. Chen, J. D. Deschênes, S. A. Diddams,
+ [2] D. Antypas, A. Banerjee, C. Bartram, M. Baryakhtar,               R. J. Fasano, T. M. Fortier, Y. S. Hassan, D. B. Hume,
+     J. Betz, J. J. Bollinger, C. Boutan, D. Bowring, D. Bud-          D. Kedar, C. J. Kennedy, I. Khader, A. Koepke, D. R.
+     ker, D. Carney, G. Carosi, S. Chaudhuri, S. Cheong,               Leibrandt, H. Leopardi, A. D. Ludlow, W. F. McGrew,
+     A. Chou, M. D. Chowdhury, R. T. Co, J. R. C. López-              W. R. Milner, N. R. Newbury, D. Nicolodi, E. Oelker,
+     Urrutia, M. Demarteau, N. DePorzio, A. V. Derbin,                 T. E. Parker, J. M. Robinson, S. Romisch, S. A. Schäffer,
+     T. Deshpande, M. D. Chowdhury, L. Di Luzio, A. Diaz-              J. A. Sherman, L. C. Sinclair, L. Sonderhouse, W. C.
+     Morcillo, J. M. Doyle, A. Drlica-Wagner, A. Droster,              Swann, J. Yao, J. Ye, and X. Zhang, Nature 591, 564
+     N. Du, B. Döbrich, J. Eby, R. Essig, G. S. Farren, N. L.         (2021).
+     Figueroa, J. T. Fry, S. Gardner, A. A. Geraci, A. Ghal-       [8] E. Savalle, A. Hees, F. Frank, E. Cantin, P. E. Pottie,
+     sasi, S. Ghosh, M. Giannotti, B. Gimeno, S. M. Griffin,           B. M. Roberts, L. Cros, B. T. McAllister, and P. Wolf,
+     D. Grin, D. Grin, H. Grote, J. H. Gundlach, M. Guzzetti,          Phys. Rev. Lett. 126, 051301 (2021).
+     D. Hanneke, R. Harnik, R. Henning, V. Irsic, H. Jack-         [9] O. Tretiak, X. Zhang, N. L. Figueroa, D. Antypas,
+     son, D. F. J. Kimball, J. Jaeckel, M. Kagan, D. Kedar,            A. Brogna, A. Banerjee, G. Perez, and D. Budker, Phys.
+     R. Khatiwada, S. Knirck, S. Kolkowitz, T. Kovachy, S. E.          Rev. Lett. 129, 031301 (2022).
+     Kuenstner, Z. Lasner, A. F. Leder, R. Lehnert, D. R.         [10] T. Kobayashi, A. Takamizawa, D. Akamatsu,
+     Leibrandt, E. Lentz, S. M. Lewis, Z. Liu, J. Manley, R. H.        A. Kawasaki, A. Nishiyama, K. Hosaka, Y. Hisai,
+     Maruyama, A. J. Millar, V. N. Muratova, N. Musoke,                M. Wada, H. Inaba, T. Tanabe, and M. Yasuda, Phys.
+     S. Nagaitsev, O. Noroozian, C. A. J. O’Hare, J. L. Ouel-          Rev. Lett. 129, 241301 (2022).
+     let, K. M. W. Pappas, E. Peik, G. Perez, A. Phipps, N. M.    [11] R. Oswald, A. Nevsky, V. Vogt, S. Schiller, N. L.
+     Rapidis, J. M. Robinson, V. H. Robles, K. K. Rogers,              Figueroa, K. Zhang, O. Tretiak, D. Antypas, D. Bud-
+     J. Rudolph, G. Rybka, M. Safdari, M. Safdari, M. S.               ker, A. Banerjee, and G. Perez, Phys. Rev. Lett. 129,
+     Safronova, C. P. Salemi, P. O. Schmidt, T. Schumm,                031302 (2022).
+     A. Schwartzman, J. Shu, M. Simanovskaia, J. Singh,           [12] V. V. Flambaum and V. A. Dzuba, Can. J. Phys. 87, 25
+     S. Singh, M. S. Smith, W. M. Snow, Y. V. Stadnik,                 (2009).
+     C. Sun, A. O. Sushkov, T. M. P. Tait, V. Takhistov, D. B.    [13] C. Sanner, N. Huntemann, R. Lange, C. Tamm, E. Peik,
+     Tanner, D. J. Temples, P. G. Thirolf, J. H. Thomas, M. E.         M. S. Safronova, and S. G. Porsev, Nature 567, 204
+     Tobar, O. Tretiak, Y. D. Tsai, J. A. Tyson, M. Vandegar,          (2019).
+     S. Vermeulen, L. Visinelli, E. Vitagliano, Z. Wang, D. J.    [14] R. Lange, N. Huntemann, J. M. Rahm, C. Sanner,
+     Wilson, L. Winslow, S. Withington, M. Wooten, J. Yang,            H. Shao, B. Lipphardt, C. Tamm, S. Weyers, and E. Peik,
+     J. Ye, B. A. Young, F. Yu, M. H. Zaheer, T. Zelevinsky,           Phys. Rev. Lett. 126, 011102 (2021).
+     Y. Zhao, and K. Zhou, Proc. US Community Study Fu-           [15] N. Huntemann, C. Sanner, B. Lipphardt, C. Tamm, and
+     tur. Part. Phys. (Snowmass 2021) (2022).                          E. Peik, Phys. Rev. Lett. 116, 063001 (2016).
+ [3] A. Arvanitaki, J. Huang, and K. Van Tilburg, Phys. Rev.      [16] N. Yu and L. Maleki, Phys. Rev. A 61, 022507 (2000).
+     D - Part. Fields, Gravit. Cosmol. 91, 015015 (2015).         [17] W. M. Itano, J. Res. Natl. Inst. Stand. Technol. 105, 829
+ [4] K. Van Tilburg, N. Leefer, L. Bougas, and D. Budker,              (2000).
+     Phys. Rev. Lett. 115, 011802 (2015).                         [18] R. Lange, N. Huntemann, C. Sanner, H. Shao, B. Lip-
+ [5] A. Hees, J. Guéna, M. Abgrall, S. Bize, and P. Wolf,             phardt, C. Tamm, and E. Peik, Phys. Rev. Lett. 125,
+     Phys. Rev. Lett. 117, 061301 (2016).                              143201 (2020).
+ [6] C. J. Kennedy, E. Oelker, J. M. Robinson, T. Bothwell,       [19] S. Falke, N. Lemke, C. Grebing, B. Lipphardt, S. Wey-
+     D. Kedar, W. R. Milner, G. E. Marti, A. Derevianko,               ers, V. Gerginov, N. Huntemann, C. Hagemann, A. Al-
+     and J. Ye, Phys. Rev. Lett. 125, 201302 (2020).                   Masoudi, S. Häfner, S. Vogt, U. Sterr, and C. Lisdat,
+                                                                                                                              7
+
+     New Journal of Physics 16, 073023 (2014).                         M. Lawson, B. Pelssers, J. A. Smiga, A. O. Sushkov,
+[20] R. Schwarz, S. Dörscher, A. Al-Masoudi, E. Benkler,              A. Wickenbrock, D. Budker, and A. Derevianko, Nat.
+     T. Legero, U. Sterr, S. Weyers, J. Rahm, B. Lipphardt,            Commun. 12, 7321 (2021).
+     and C. Lisdat, Phys. Rev. Research 2, 033242 (2020).         [28] V. V. Flambaum, Phys. Rev. Lett. 97, 092502 (2006).
+[21] S. Dörscher, R. Schwarz, J. Klose, K. Stahl, E. Benkler,    [29] E. Peik, T. Schumm, M. S. Safronova, A. Pálffy, J. Weit-
+     S. Weyers, J. Rahm, B. Lipphardt, and C. Lisdat, (un-             enberg, and P. G. Thirolf, Quantum Sci. Technol. 6,
+     published).                                                       034002 (2021).
+[22] S. Dörscher, N. Huntemann, R. Schwarz, R. Lange,            [30] J. C. Berengut, V. A. Dzuba, and V. V. Flambaum, Phys.
+     E. Benkler, B. Lipphardt, U. Sterr, E. Peik, and C. Lis-          Rev. Lett. 105, 120801 (2010).
+     dat, Metrologia 58, 015005 (2021).                           [31] M. S. Safronova, V. A. Dzuba, V. V. Flambaum, U. I.
+[23] J. D. Scargle, Astrophys. J. 263, 835 (1982).                     Safronova, S. G. Porsev, and M. G. Kozlov, Phys. Rev.
+[24] J. T. VanderPlas, Astrophys. J. Suppl. Ser. 236, 28pp             Lett. 113, 030801 (2014).
+     (2018).                                                      [32] S. Aharony, N. Akerman, R. Ozeri, G. Perez, I. Savoray,
+[25] J. T. Vanderplas and Ž. Ivezić, Astrophys. J. 812, 15pp         and R. Shaniv, Phys. Rev. D 103, 075017 (2021).
+     (2015).                                                      [33] E. Gross and O. Vitells, Eur. Phys. J. C 70, 525 (2010).
+[26] See supplemental material at ... for details on the limits   [34] G. Cowan, K. Cranmer, E. Gross, and O. Vitells, Eur.
+     on variation of the fine-structure constant and the esti-         Phys. J. C 71, 1554 (2011).
+     mation of the detection threshold.                           [35] F. Beaujean, A. Caldwell, and O. Reimann, Eur. Phys.
+[27] G. P. Centers, J. W. Blanchard, J. Conrad, N. L.                  J. C 78, 793 (2018).
+     Figueroa, A. Garcon, A. V. Gramolin, D. F. Kimball,
+

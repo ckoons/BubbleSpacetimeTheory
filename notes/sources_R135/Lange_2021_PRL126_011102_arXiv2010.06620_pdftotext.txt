@@ -1,0 +1,365 @@
+                                                         Improved limits for violations of local position invariance from atomic clock
+                                                                                         comparisons
+
+                                                   R. Lange, N. Huntemann,∗ J. M. Rahm, C. Sanner,† H. Shao, B. Lipphardt, Chr. Tamm, S. Weyers, and E. Peik
+                                                                   Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig, Germany
+                                                                                                  (Dated: January 8, 2021)
+                                                                  We compare two optical clocks based on the 2 S1/2 (F = 0) → 2 D3/2 (F = 2) electric quadrupole
+                                                               (E2) and the 2 S1/2 (F = 0) → 2 F7/2 (F = 3) electric octupole (E3) transition of 171 Yb+ and
+                                                               measure the frequency ratio νE3 /νE2 = 0.932 829 404 530 965 376(32), improving upon previous
+                                                               measurements by an order of magnitude. Using two caesium fountain clocks, we find νE3 =
+                                                               642 121 496 772 645.10(8) Hz, the most accurate determination of an optical transition frequency
+                                                               to date. Repeated measurements of both quantities over several years are analyzed for potential
+
+
+
+
+arXiv:2010.06620v2 [physics.atom-ph] 7 Jan 2021
+                                                               violations of local position invariance. We improve by factors of about 20 and 2 the limits for
+                                                               fractional temporal variations of the fine structure constant α to 1.0(1.1) × 10−18 /yr and of the
+                                                               proton-to-electron mass ratio µ to −8(36) × 10−18 /yr. Using the annual variation of the Sun’s
+                                                               gravitational potential at Earth Φ, we improve limits for a potential coupling of both constants to
+                                                               gravity, (c2 /α)(dα/dΦ) = 14(11) × 10−9 and (c2 /µ)(dµ/dΦ) = 7(45) × 10−8 .
+
+
+                                                     Searches for violations of Einstein’s equivalence prin-      and investigate variations of fundamental constants using
+                                                  ciple, such as tests of local Lorentz invariance (LLI) and      comparisons between optical atomic clocks based on yt-
+                                                  local position invariance (LPI), have become one of the         terbium ions and microwave caesium fountain clocks over
+                                                  leading applications of low-energy high-precision experi-       a period of more than 4 years. The optical clocks employ
+                                                  ments with laser-cooled atoms or ions [1]. As part of the       the 2 S1/2 (F = 0) → 2 D3/2 (F = 2) electric quadrupole
+                                                  Einstein equivalence principle, LPI states that the re-         (E2) or the 2 S1/2 (F = 0) → 2 F7/2 (F = 3) electric oc-
+                                                  sult of any non-gravitational experiment is independent         tupole (E3) transition of a single trapped 171 Yb+ ion.
+                                                  of the position in space and time [2]. While theories be-       For the E2 transition, the natural lifetime of the excited
+                                                  yond the standard model predict temporal variations of          state of about 50 ms limits the interrogation time and
+                                                  fundamental constants [3] and astronomical observations         we typically use a single 40 ms Rabi pulse. The excited
+                                                  indicate a spatial variation of the fine structure constant     state lifetime of several years on the E3 transition [17]
+                                                  α [4], no experimental observation of any violation of          enables us to take full advantage of the available laser co-
+                                                  LPI in a laboratory setting has been reported so far [1].       herence time. With means of an optical frequency comb,
+                                                  Promising test cases in tabletop experiments are compar-        we transfer the excellent frequency instability of a laser
+                                                  isons of atomic clocks based on transitions that show a         stabilized to a single-crystal cryogenic silicon cavity [18]
+                                                  different dependence of their frequency on the value of         to the probe laser systems and realize coherent interro-
+                                                  fundamental constants [5–9]. Here, a potential variation        gation times of up to 500 ms.
+                                                  would become observable as a change in the frequency               As already indicated by the different natural lifetimes,
+                                                  ratio of the clocks, that nowadays reach fractional fre-        the electronic structures of the excited states of the E2
+                                                  quency uncertainties of one part in 1018 and below [10–         and E3 transition differ significantly. They are charac-
+                                                  13]. While a small frequency uncertainty of the clock is        terized by a single 6d electron for the 2 D3/2 state and a
+                                                  a prerequisite to reveal undetected indications of physics      single hole in the otherwise filled 4f shell for the 2 F7/2
+                                                  beyond the standard model, it is of similar importance to       state. The proximity of the 4f shell to the nucleus of
+                                                  have a large sensitivity of the measured quantity, i.e. the     this heavy ion makes it plausible that the E3 transition
+                                                  frequency ratio of the clocks used in the search, to the        energy possesses large relativistic contributions, making
+                                                  potentially varying constant. Particularly large magnifi-       this transition frequency the most sensitive to changes
+                                                  cation of relative shifts of α is expected from reference       of α among the presently operational optical clocks [19].
+                                                  transitions in highly-charged ions [14] and even larger for     Furthermore, the opportunity to compare two different
+                                                  the low-energy nuclear transition in 229 Th [15, 16]. The       transition frequencies provided by the same ion reduces
+                                                  so far most stringent experimental limit on a temporal          the complexity of the experimental apparatus.
+                                                  drift of α is based on the frequency ratio of Al+ and              The two independent clock systems used for our inves-
+                                                  Hg+ single-ion optical clocks, repeatedly measured over         tigation have recently been evaluated to below 3 × 10−18
+                                                  a period of one year in 2006-2007 [5].                          fractional uncertainty on the E3 transition. In a compar-
+                                                     In this Letter, we report a more stringent test of LPI       ison over a period of six months, they showed an agree-
+                                                                                                                  ment within their combined uncertainty and provided a
+                                                                                                                  stringent test of LLI [12]. Here we operate one clock
+                                                  ∗ nils.huntemann@ptb.de
+                                                                                                                  system on the E3 and the other on the E2 transition to
+                                                  † Present address: JILA, Boulder, CO 80309, USA
+                                                                                                                  measure the frequency ratio νE3 /νE2 and to perform tests
+                                                                                                                                          2
+
+of LPI.                                                        Effect                            δνE2 /νE2       uE2 /νE2       rE2 /νE2
+                                                                                                   10−18          10−18           10−18
+                                                                                                         
+   We employ rotationally symmetric radio frequency
+Paul traps to confine single 171 Yb+ ions, laser-cooled on     Blackbody radiation                  -495           27                3
+the 2 S1/2 → 2 P1/2 transition at 370 nm to the Doppler        Quadrupole                             0            14               14
+temperature limit at below 1 mK. Population trapping           Second-order Zeeman (rf)               0            10                1
+due to spontaneous decay, background gas collisions or         Second-order Zeeman (dc)              463            6                6
+                                                               Second-order Stark                   -2.0            2                2
+successful excitation of the clock transitions is prevented    Second-order Doppler                 -1.0            1                1
+by state repumping with 935 nm and 760 nm laser light.         Servo                                  0             1                1
+A large magnetic field of about 0.5 mT prevents coherent       Total                                 -35           33               16
+population trapping during the cooling period [20], while
+a well-controlled magnetic field of a few µT during inter-
+rogation of the clock transition defines the orientation of    TABLE I. Leading frequency shift effects evaluated for the
+                                                               single ion clock using the 2 S1/2 (F = 0) → 2 D3/2 (F = 2)
+the quantization axis [21]. Averaging over three mutu-
+                                                               electric quadrupole (E2) transition of 171 Yb+ . The frequency
+ally orthogonal orientations of the small magnetic field,      shifts δνE2 , the corresponding uncertainty uE2 , and the repro-
+tensorial shifts are measured and suppressed on the E2         ducibility rE2 are given in fractional units of the unperturbed
+transition [22]. For the E3 transition, the correspond-        transition frequency νE2 . The second-order Zeeman effect is
+ing shift along a given orientation is inferred from the       separated into shifts resulting from radio frequency (rf) and
+measured E2 shift and the known relative sensitivity of        quasi-constant (dc) fields.
+both transitions [21]. Frequency shifts due to residual
+ac magnetic fields from the radio frequency trap field           E3            ×2    Δf1                       Δf2   ×2              E2
+as reported in [23] have been investigated and an upper
+                                                                                        trap 1        trap 2
+bound is given in the uncertainty budget shown in ta-                   ΔfE3                                              ΔfE2
+ble I. There, the frequency shifts δνE2 and corresponding                                    freq. comb
+uncertainties evaluated for the E2 transition are sum-            CSF
+                                                                        ×      DDS
+                                                                               DDS                                           ×      Si
+marized, yielding a total uncertainty of 3.3 × 10−17 . The
+leading uncertainty contribution caused by the frequency                        E3/Si                        E2/E3        DDS
+shift induced by thermal radiation has been substantially
+reduced using an investigation of the differential polar-      FIG. 1. Schematic setup for the clock comparisons with op-
+izability performed at the National Physical Laboratory        tical paths depicted by solid red and blue lines and electric
+[24], resulting in the significant improvement of the total    signals shown by dashed green lines. Both the E3 and E2
+uncertainty compared to our previously published value         probe lasers are locked with a bandwidth of about 500 kHz to
+of 1.1 × 10−16 [25].                                           optical cavities. The laser light is sent to a frequency comb
+                                                               and, after frequency doubling, to the ion traps. Frequency
+   Since most operational parameters have been chosen          offsets ∆f1 and ∆f2 are applied during clock operation. The
+equally over the measurement period, the reproducibil-         comb also receives signals from the caesium fountains (CSF)
+ity of frequency shifts reported in table I is expected to     and, indicated by the dotted red line, from a laser locked to an
+be significantly better than the corresponding system-         ultra-stable silicon cavity (Si) [18]. The Si cavity enhances the
+atic uncertainty. Furthermore, uncertainties in atomic         short-term stability of the E3 laser. The E2 laser frequency is
+parameters, such as the differential polarizability, do not    controlled to provide a constant frequency ratio 1/R0 relative
+contribute to the reproducibility directly. For the E3         to the E3 laser at the frequency comb. Spectroscopy of the
+                                                               E3 transition of the ion in trap 1 steers the E3 laser frequency
+transition, frequency shifts δνE3 /νE3 have been evaluated     via direct digital synthesis (DDS), while the frequency of the
+to below 3 × 10−18 total uncertainty [12] and contribute       E2 laser applied to trap 2 is corrected by an additional offset
+negligibly to the uncertainty of the comparison of the two     to ∆f2 .
+clocks.
+   The ratio of the two reference transitions is measured
+by means of an optical frequency comb generator as             plied to an acousto-optic modulator (AOM) in front of
+shown in Fig. 1. To improve the short-term frequency           the ion trap setup [27]. In this way, the probe laser light
+instability of the E3 probe laser system, it is stabilized     sent to the frequency comb is, up to a constant frequency
+using the transfer oscillator concept [26] to a laser system   offset and the correction for systematic frequency shifts,
+referencing the cryogenic silicon cavity Si-2 [18]. Using      at the clock output frequency which approximates the
+the discriminator signal obtained by spectroscopy of the       unperturbed transition frequency. In contrast to the E3
+E3 transition, the ratio of the E3 clock laser frequency       spectroscopy, the E2 probe laser frequency at the fre-
+and that of the laser stabilized to the Si-2 cavity is ad-     quency comb is stabilized with fixed ratio 1/R0 to that
+justed using a digital second-order integrating servo sys-     of the E3 probe laser. Based on spectroscopy of the E2
+tem. Small frequency offsets required to compensate for        transition, the frequency of the AOM in front of the ion
+the ac Stark shift of the probe laser in the interrogation     is corrected using a digital integrating servo system. The
+sequence and to generate the discriminator signal are ap-      applied correction ∆νE2 is recorded and permits calcula-
+                                                                                                                                                                                                                 3
+
+                                                                                                                                        2
+
+
+
+
+  nE3 / nE2 - 0.932 829 404 530 965 (10 )
+ -18                                        450
+                                                          2017           2018      2019      2020                                            2011           2013            2015       2017       2019
+                                                                                                                                         1
+
+
+
+
+                                                                                                                   nE3 - nE3,SRS (Hz)
+                                            400
+
+                                                                                                                                        0
+
+                                            350
+                                                                                                                                        -1
+
+
+                                            300
+                                                                                                                                        -2
+                                                  57500          58000           58500              59000                                           56000                57000            58000          59000
+                                                                  Modiﬁed Julian Date, MJD
+                                                                                                                                                                   Modiﬁed Julian Date, MJD
+
+FIG. 2. Ratio of the frequencies νE3 and νE2 of the elec-                                                         FIG. 3. Measurements of the frequency of the electric oc-
+tric octupole and the electric quadrupole transition measured                                                     tupole transition νE3 conducted between MJD 55479 (Octo-
+over a period of 1 500 days between MJD 57527 (May 19,                                                            ber 10, 2010) and MJD 58830 (December 13, 2019). Data
+2016) and MJD 59081 (August 20, 2020). The inner grey                                                             is shown relative to the recommended value of the transition
+error bars show the statistical uncertainties. For the outer                                                      frequency νE3,SRS = 642 121 496 772 645 Hz [33]. Red dots
+black error bars, a 1.6 × 10−17 fractional uncertainty has been                                                   and black squares are results obtained with caesium fountain
+added in quadrature to take into account the reproducibility                                                      clocks CSF1 and CSF2, respectively, that serve as primary fre-
+of systematic shifts over the measurement period (see text).                                                      quency standards of our laboratory. The error bars indicate
+The solid line gives the weighted average and the grey shaded                                                     1σ total uncertainties. The measurements centered at MJD
+area shows the total fractional uncertainty of 34 × 10−18 . The                                                   55479 and MJD 56275 are published in Refs. [7, 31]. The
+dashed red line and the dotted blue line are fits to the data                                                     solid line shows the weighted average of the data since MJD
+for searches for a temporal drift and a dependence on the                                                         57854 and the grey shaded area shows the corresponding total
+gravitational potential.                                                                                          fractional uncertainty of 1.3 × 10−16 . The red dashed line is a
+                                                                                                                  linear fit to the full data set for searches for a temporal drift.
+
+tion of
+
+                                                                                                                  allow us to evaluate the corresponding uncertainty con-
+                                              RE3,E2 = νE3 /νE2                                                   tribution. Figure 3 shows this data together with results
+                                                          
+                                                                ∆νE2   δνE2   δνE3
+                                                                                                                 previously acquired using the same clocks: The measure-
+                                                     = R0 1 +        +      −        .                      (1)   ments centered at Modified Julian Date (MJD) 55479
+                                                                νE2     νE2    νE3
+                                                                                                                  and MJD 56275 have been published [7, 31] and the val-
+   The results of 11 measurements of RE3,E2 performed                                                             ues at MJD 57190 were obtained during a European clock
+over a period of 1 500 days are shown in Fig. 2. Tak-                                                             comparison campaign [32]. The frequency of the E3 tran-
+ing into account only the statistical uncertainty of each                                                         sition is determined as the weighted average of the con-
+measurement yields a reduced chi-square value of χ2red =                                                          tribution of each caesium fountain clock. The weights wi
+1.3. Including the fractional reproducibility of the E2                                                           of each data point correspond to the inverse squared-sum
+transition of 1.6 × 10−17 yields χ2red = 0.8. The                                                                 1/(u2a,i + u2b,i ) of the systematic uncertainty ub,i and the
+weighted average of the complete data set gives RE3,E2 =                                                          statistical uncertainty ua,i that includes a contribution
+0.932 829 404 530 965 376(32). The total fractional uncer-                                                        from the extrapolation using the H-maser. From data
+tainty of 34 × 10−18 is dominated by the systematic un-                                                           recorded between MJD 57854 and MJD 58830, we find
+certainty of the E2 transition (33×10−18 ). The statistical                                                       an averaged value νE3 = 642 121 496 772 645.10(8) Hz
+contribution (6 × 10−18 ) and the systematic uncertainty                                                          obtained from individual results with CSF1 and CSF2
+of the E3 transition (3 × 10−18 ) are negligible. This re-                                                        of νE3 − 0.09(13) Hz and νE3 + 0.08(11) Hz with 2 478
+sult differs by 2.3 standard uncertainties from a previous                                                        and 4 394 hours of measurement. The CSF1 data yields
+measurement and improves the uncertainty by one order                                                             χ2red = 1.0 and the CSF2 data χ2red = 0.9. The total
+of magnitude [6].                                                                                                 fractional uncertainty of 1.3 × 10−16 is dominated by the
+   Besides the measurement of the optical frequency ra-                                                           systematic uncertainties of 1.6 × 10−16 and 1.7 × 10−16
+tio, the E3 transition frequency is measured with the mi-                                                         of CSF1 and CSF2 [28, 34]. The result is in excellent
+crowave caesium fountain clocks CSF1 and CSF2 of our                                                              agreement with previous measurements and reduces the
+laboratory [28]. To increase the total measurement time,                                                          uncertainty in the frequency by more than a factor of 3
+interruptions shorter than one day in the operation of the                                                        [7, 35]. To our knowledge νE3 is the third optical tran-
+optical clock are bridged by using a hydrogen maser as a                                                          sition for which the absolute frequency is reported with
+flywheel oscillator [29, 30]. Numerical simulations of the                                                        a fractional uncertainty below 2 × 10−16 [34, 36, 37] and
+typically observed frequency instability of the H-maser                                                           our result represents the most accurate measurement of
+                                                                                                                          4
+
+          (1/x)(dx/dt) 10−18 /yr
+                                
+                                     (c2 /x)(dx/dΦ) 10−8
+                                                              surements over 14 years with microwave fountain clocks
+   x                                                           with 133 Cs and 87 Rb atoms, and the previous stringent
+         this work     previous     this work     previous
+RE3,E2    -6.8(7.5)                  -9.7(7.7)                 constraint on dα/dt [5], a potential temporal variation
+  α       1.0(1.1)    -16(23) [5]     1.4(1.1) -5.3(10) [39]   in Xq has been restricted to κq (Cs)(1/Xq )(dXq /dt) =
+RE3,Cs     -31(34)    20(410) [7]      -4(44)                  0.14(9) × 10−16 /yr in Ref. [8]. Comparisons between fre-
+  µ         -8(36)    53(65) [36]       7(45)    35(59) [34]   quencies of electronic transitions and hyperfine transi-
+                                                               tions, such as absolute frequency measurements of op-
+TABLE II. Limits on a violation of local position invariance   tical transitions using caesium clocks, provide a non-
+of atomic frequency ratios and fundamental constants for a     zero sensitivity on dα/dt, dµ/dt and dXq /dt. For
+linear temporal variation and a coupling to changes of the     the measurements of νE3 with caesium fountain clocks
+gravitational potential Φ. Listed quantities x are the ratio   shown in Fig. 3, we find a relative temporal drift
+RE3,E2 of the E3 and E2 transitions frequencies of 171 Yb+ ,   (1/RE3,Cs )(dRE3,Cs /dt) = −3.1(3.4) × 10−17 /yr. Using
+the ratio RE3,Cs of the E3 transition frequency and the Cs
+hyperfine splitting frequency, the fine structure constant α
+                                                               the restrictions on (1/α)(dα/dt) from the νE3 /νE2 mea-
+and the proton-to-electron mass ratio µ = mp /me . The speed   surements and on (1/Xq )(dXq /dt) from Ref [8], we find
+of light is denoted with c.                                    (1/µ)(dµ/dt) = −8(36) × 10−18 /yr. This improves the
+                                                               uncertainty in the limits obtained in Refs [34, 36] by
+                                                               about a factor 2.
+an optical transition frequency to date. With the fre-            In addition to the search for a steady temporal drift,
+quency ratio determined above, the measurement of νE3          we can use the data presented above to search for a cou-
+yields νE2 = 688 358 979 309 308.22(9) Hz.                     pling of the fundamental constants α and µ to gravity in
+   The measurements presented above provide a strin-           an analysis of gravitational red-shift [2]. The variation
+gent test of LPI for the specific pairs of compared atomic     of the Sun’s gravitational potential on Earth Φ(t) due
+transition frequencies. Based on a general parametriza-        to the ellipticity of the Earth orbit can be approximated
+tion [19], a possible variation dF of any atomic tran-         by ∆Φ cos(2π(t − tp )/Ta ) with ∆Φ/c2 ≈ 1.65 × 10−10 ,
+sition frequency can be related to variations of three         c the speed of light, tp the time of the perihelion 2018
+constants: the fine structure constant α, the proton-to-       and Ta the anomalistic year. Similarly to the search
+electron mass ratio µ = mp /me and the ratio between the       for a temporal variation, we start with data of the opti-
+average quark mass and the quantum chromodynamic               cal frequency ratio and investigate for a potential cou-
+scale Xq = mq /ΛQCD , according to                             pling to gravity by non-linear least square fitting of
+         1        1       1        1                           A cos(2π(t − tp )/Ta ) + B to the data shown in Fig. 2
+           dF = κα dα + κµ dµ + κq    dXq ,              (2)   with A and B as free parameters. We find a relative
+         F        α       µ        Xq
+                                                               amplitude A/RE3,E2 = −16(13) × 10−18 . Because of the
+where κα , κµ and κq describe the sensitivity of the tran-     large sensitivity κα , the result limits a potential coupling
+sition frequency F to the constants. A sensitivity of          of α to gravity to (c2 /α)(dα/dΦ) = 14(11) × 10−9 and
+κµ = −1 results from the nuclear magneton for all mag-         improves previous limits from Ref. [39] by one order of
+netic hyperfine splittings, while κq varies for hyperfine      magnitude.
+transitions of different atomic species. Both, hyperfine          We combine this result with the obtained oscillation
+and optical electronic transitions, obtain a sensitivity for   amplitude c2 A/∆Φ = 22(25) × 10−8 found in a com-
+variations of α from relativistic contributions to the tran-   parison between caesium clocks and H-masers [9] which
+sition energies. The factors κα and κq can be determined       yields (c2 /Xq )(dXq /dΦ) = −21(23) × 10−7 . For the
+with numerical many-body calculations [19, 38].                data shown in Fig. 3, we find A/νE3 = −7(72) × 10−18
+   The ratio RE3,E2 of the two 171 Yb+ transition frequen-     when searching for an oscillation induced by the annual
+cies is sensitive to variations of α only and an explicit      variation of the gravitational potential. In combination
+sensitivity κα (RE3,E2 ) = κα (E3) − κα (E2) = −6.95 has       with the dependence on α and Xq given above, we find
+been calculated [19]. The data presented in Fig. 2 show        (c2 /µ)(dµ/dΦ) = 7(45) × 10−8 slightly improving the
+a fractional temporal drift (1/RE3,E2 )(dRE3,E2 /dt) =         limit obtained in [34].
+−6.8(7.5) × 10−18 /yr of the frequency ratio and allows           The presented results on LPI violating parameters,
+us to infer a potential temporal variation (1/α)(dα/dt) =      summarized in Table II, are all consistent with zero to
+1.0(1.1) × 10−18 /yr, compatible with zero. This consti-       within less than 1.3 standard deviations and support the
+tutes an improvement over the previous limits by more          validity of this fundamental assumption of general rela-
+than one order of magnitude [5–7]. This finding is sum-        tivity in the solar system in the present epoch. The large
+marized in Table II together with limits obtained below.       potential for improved searches promised by the small
+                                                               fractional uncertainty of the E3 clock and its high sen-
+  In comparisons of two hyperfine transition frequencies       sitivity to changes of α can be readily explored in com-
+of different atoms the sensitivity to µ is common-mode         parisons with other high performance clocks. This also
+and a dependence only on α and Xq remains. From mea-           opens up new possibilities in searches for ultralight scalar
+                                                                                                                              5
+
+dark matter [40, 41].                                            [13] S. M. Brewer, J.-S. Chen, A. M. Hankin, E. R. Clements,
+                                                                      C. W. Chou, D. J. Wineland, D. B. Hume, and D. R.
+  We thank Thomas Legero, Erik Benkler and Uwe                        Leibrandt, Phys. Rev. Lett. 123, 033201 (2019).
+Sterr for providing the ultrastable laser reference Si-2         [14] M. G. Kozlov, M. S. Safronova, J. R. Crespo López-
+and Tara Cubel Liebisch for a critical reading of the                 Urrutia, and P. O. Schmidt, Rev. Mod. Phys. 90, 045005
+manuscript. This project has received funding from                    (2018).
+the EMPIR programme co-financed by the Participating             [15] V. V. Flambaum, Phys. Rev. Lett. 97, 092502 (2006).
+States and from the European Union’s Horizon 2020 re-            [16] J. Thielking, M. V. Okhapkin, P. Glowacki, D. M. Meier,
+                                                                      L. von der Wense, B. Seiferle, C. E. Düllmann, P. G.
+search and innovation programme. It has been supported
+                                                                      Thirolf, and E. Peik, Nature 556, 321 (2018).
+by the EMPIR projects 17FUN07 ”Coulomb Crystals                  [17] M. Roberts, P. Taylor, G. P. Barwood, W. R. C. Rowley,
+for Clocks” and 18SIB05 ”Robust Optical Clocks for                    and P. Gill, Phys. Rev. A 62, 020501(R) (2000).
+International Timescales”. Furthermore this work has             [18] D. G. Matei, T. Legero, S. Häfner, C. Grebing,
+been supported by the Max-Planck-RIKEN-PTB-Center                     R. Weyrich, W. Zhang, L. Sonderhouse, J. M. Robin-
+for Time, Constants and Fundamental Symmetries, and                   son, J. Ye, F. Riehle, and U. Sterr, Phys. Rev. Lett. 118,
+by the Deutsche Forschungsgemeinschaft (DFG, German                   263202 (2017).
+                                                                 [19] V. V. Flambaum and V. A. Dzuba, Can. J. Phys. 87, 25
+Research Foundation) under CRC 1227 DQ-mat within
+                                                                      (2009).
+project B02. C. Sanner thanks the Alexander von Hum-             [20] S. Ejtemaee, R. Thomas, and P. C. Haljan, Phys. Rev.
+boldt Foundation for support.                                         A 82, 063419 (2010).
+                                                                 [21] R. Lange, N. Huntemann, C. Sanner, H. Shao, B. Lip-
+                                                                      phardt, C. Tamm, and E. Peik, Phys. Rev. Lett. 125,
+                                                                      143201 (2020).
+                                                                 [22] W. M. Itano, J. Res. Natl. Inst. Stand. Technol. 105, 829
+ [1] M. S. Safronova, D. Budker, D. DeMille, D. F. Jack-              (2000), also see erratum: J. Res. NIST 11, 255 (2006).
+     son Kimball, A. Derevianko, and C. W. Clark, Rev. Mod.      [23] H. C. J. Gan, G. Maslennikov, K.-W. Tseng, T. R. Tan,
+     Phys. 90, 025008 (2018).                                         R. Kaewuam, K. J. Arnold, D. Matsukevich, and M. D.
+ [2] C. M. Will, Living Rev. Relativity 9, 3 (2014), [Online          Barrett, Phys. Rev. A 98, 032514 (2018).
+     Article]: cited 2014-07-01, updated in 2014.                [24] C. F. A. Baynham, E. A. Curtis, R. M. Godun, J. M.
+ [3] C. J. A. P. Martins, Reports on Progress in Physics 80,          Jones, P. B. R. Nisbet-Jones, P. E. G. Baird, K. Bongs,
+     126902 (2017).                                                   P. Gill, T. Fordell, T. Hieta, T. Lindvall, M. T. Spi-
+ [4] M. R. Wilczynska, J. K. Webb, M. Bainbridge, J. D. Bar-          dell, and J. H. Lehman, Measurement of differential po-
+     row, S. E. I. Bosman, R. F. Carswell, M. P. Dabrowski,           larizabilities at a mid-infrared wavelength in 171 Yb+ ,
+     V. Dumont, C.-C. Lee, A. C. Leite, K. Leszczyńska,              arXiv:1801.10134 [physics.atom-ph] (2018).
+     J. Liske, K. Marosek, C. J. A. P. Martins, D. Mi-           [25] C. Tamm, N. Huntemann, B. Lipphardt, V. Gerginov,
+     laković, P. Molaro, and L. Pasquini, Science Advances           N. Nemitz, M. Kazda, S. Weyers, and E. Peik, Phys.
+     6, 10.1126/sciadv.aay9672 (2020).                                Rev. A 89, 023820 (2014).
+ [5] T. Rosenband, D. B. Hume, P. O. Schmidt, C. W. Chou,        [26] J. Stenger, H. Schnatz, C. Tamm, and H. R. Telle, Phys.
+     A. Brusch, L. Lorini, W. H. Oskay, R. E. Drullinger,             Rev. Lett. 88, 073601 (2002).
+     T. M. Fortier, J. E. Stalnaker, S. A. Diddams, W. C.        [27] N. Huntemann, C. Sanner, B. Lipphardt, C. Tamm, and
+     Swann, N. R. Newbury, W. M. Itano, D. J. Wineland,               E. Peik, Phys. Rev. Lett. 116, 063001 (2016).
+     and J. C. Bergquist, Science 319, 1808 (2008).              [28] S. Weyers, V. Gerginov, M. Kazda, J. Rahm, B. Lip-
+ [6] R. M. Godun, P. B. R. Nisbet-Jones, J. M. Jones, S. A.           phardt, G. Dobrev, and K. Gibble, Metrologia 55, 789
+     King, L. A. M. Johnson, H. S. Margolis, K. Szymaniec,            (2018).
+     S. N. Lea, K. Bongs, and P. Gill, Phys. Rev. Lett. 113,     [29] J. Leute, N. Huntemann, B. Lipphardt, C. Tamm,
+     210801 (2014).                                                   P. B. R. Nisbet-Jones, S. A. King, R. M. Godun, J. M.
+ [7] N. Huntemann, B. Lipphardt, C. Tamm, V. Gerginov,                Jones, H. S. Margolis, P. B. Whibberley, A. Wallin,
+     S. Weyers, and E. Peik, Phys. Rev. Lett. 113, 210802             M. Merimaa, P. Gill, and E. Peik, IEEE Trans. Ultra-
+     (2014).                                                          son. Ferroelectr. Freq. Control 63, 981 (2016).
+ [8] J. Guéna, M. Abgrall, D. Rovera, P. Rosenbusch, M. E.      [30] C. Grebing, A. Al-Masoudi, S. Dörscher, S. Häfner,
+     Tobar, P. Laurent, A. Clairon, and S. Bize, Phys. Rev.           V. Gerginov, S. Weyers, B. Lipphardt, F. Riehle,
+     Lett. 109, 080801 (2012).                                        U. Sterr, and C. Lisdat, Optica 3, 563 (2016).
+ [9] N. Ashby, T. E. Parker, and B. R. Patla, Nature Physics     [31] N. Huntemann, M. Okhapkin, B. Lipphardt, S. Weyers,
+     14, 822 (2018).                                                  C. Tamm, and E. Peik, Phys. Rev. Lett. 108, 090801
+[10] W. F. McGrew, X. Zhang, R. J. Fasano, S. A. Schäffer,           (2012).
+     K. Beloy, D. Nicolodi, R. C. Brown, N. Hinkley, G. Milan,   [32] F. Riedel, A. Al-Masoudi, E. Benkler, S. Dörscher,
+     M. Schioppo, T. H. Yoon, and A. D. Ludlow, Nature 564,           V. Gerginov, C. Grebing, S. Häfner, N. Huntemann,
+     87 (2018).                                                       B. Lipphardt, C. Lisdat, E. Peik, D. Piester, C. Sanner,
+[11] T. Bothwell, D. Kedar, E. Oelker, J. M. Robinson, S. L.          C. Tamm, S. Weyers, H. Denker, L. Timmen, C. Voigt,
+     Bromley, W. L. Tew, J. Ye, and C. J. Kennedy, Metrolo-           D. Calonico, G. Cerretto, G. A. Costanzo, F. Levi,
+     gia 56, 065004 (2019).                                           I. Sesia, J. Achkar, J. Guéna, M. Abgrall, G. D. Rovera,
+[12] C. Sanner, N. Huntemann, R. Lange, C. Tamm, E. Peik,             B. Chupin, C. Shi, S. Bilicki, E. Bookjans, J. Lodewyck,
+     M. S. Safronova, and S. G. Porsev, Nature 567, 204               R. Le Targat, P. Delva, S. Bize, F. N. Baynes, C. Bayn-
+     (2019).                                                          ham, W. Bowden, P. Gill, R. M. Godun, I. R. Hill,
+                                                                                                                              6
+
+     R. Hobson, J. M. Jones, S. A. King, P. Nisbet-Jones,             7575/abc232 (2020).
+     A. Rolland, S. L. Shemar, P. B. Whibberley, and H. S.       [38] T. H. Dinh, A. Dunning, V. A. Dzuba, and V. V. Flam-
+     Margolis, Metrologia 57, 045005 (2020).                          baum, Phys. Rev. A 79, 054102 (2009).
+[33] F. Riehle, P. Gill, F. Arias, and L. Robertsson, Metrolo-   [39] V. A. Dzuba and V. V. Flambaum, Phys. Rev. D 95,
+     gia 55, 188 (2018).                                              015019 (2017).
+[34] R. Schwarz, S. Dörscher, A. Al-Masoudi, E. Benkler,        [40] A. Arvanitaki, J. Huang, and K. Van Tilburg, Phys. Rev.
+     T. Legero, U. Sterr, S. Weyers, J. Rahm, B. Lipphardt,           D 91, 015015 (2015).
+     and C. Lisdat, Phys. Rev. Research 2, 033242 (2020).        [41] B. M. Roberts, P. Delva, A. Al-Masoudi, A. Amy-Klein,
+[35] C. F. A. Baynham, R. M. Godun, J. M. Jones, S. A. King,          C. Bærentsen, C. F. A. Baynham, E. Benkler, S. Bil-
+     P. B. R. Nisbet-Jones, F. Baynes, A. Rolland, P. E. G.           icki, W. Bowden, E. Cantin, E. A. Curtis, S. Dörscher,
+     Baird, K. Bongs, P. Gill, and H. S. Margolis, J. Mod.            F. Frank, P. Gill, R. M. Godun, G. Grosche, A. Hees, I. R.
+     Optics 65, 585 (2018).                                           Hill, R. Hobson, N. Huntemann, J. Kronjäger, S. Koke,
+[36] W. F. McGrew, X. Zhang, H. Leopardi, R. J. Fasano,               A. Kuhl, R. Lange, T. Legero, B. Lipphardt, C. Lis-
+     D. Nicolodi, K. Beloy, J. Yao, J. A. Sherman, S. A.              dat, J. Lodewyck, O. Lopez, H. S. Margolis, H. Álvarez-
+     Schäffer, J. Savory, R. C. Brown, S. Römisch, C. W.            Martı́nez, F. Meynadier, F. Ozimek, E. Peik, P.-E. Pot-
+     Oates, T. E. Parker, T. M. Fortier, and A. D. Ludlow,            tie, N. Quintin, R. Schwarz, C. Sanner, M. Schioppo,
+     Optica 6, 448 (2019).                                            A. Silva, U. Sterr, C. Tamm, R. LeTargat, P. Tuckey,
+[37] N. Nemitz, T. Gotoh, F. Nakagawa, H. Ito, Y. Hanado,             G. Vallet, T. Waterholter, D. Xu, and P. Wolf, New J.
+     T. Ido, and H. Hachisu, Metrologia 10.1088/1681-                 Phys. 22, 093010 (2020).
+

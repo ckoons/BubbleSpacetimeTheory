@@ -1,0 +1,15 @@
+E2 forward: j_min = (5/2)/(B t_H) for three bound conventions (Lange 2021: α̇/α = 1.0(1.1)e-18 /yr)
+  1σ width 1.1e-18: j_min = 1.647e+08; cycles at k-cap (2329/cycle) = 7.07e+04; at m-cap (58/cycle) = 2.84e+06
+  central+1σ 2.1e-18: j_min = 8.627e+07; cycles at k-cap (2329/cycle) = 3.70e+04; at m-cap (58/cycle) = 1.49e+06
+  2σ 3.2e-18: j_min = 5.661e+07; cycles at k-cap (2329/cycle) = 2.43e+04; at m-cap (58/cycle) = 9.76e+05
+  [HIT] fwd  Keeper's 1.65e8 reproduced at B = 1.1e-18
+E2 inverse: predicted α̇/α under R2 at j = 58, 2329, 1e4, 1e6
+  j=58: α̇/α = +2.76e-12 /yr   (excess over 1.1e-18: 2.5e+06)
+  j=2329: α̇/α = +7.75e-14 /yr   (excess over 1.1e-18: 7.0e+04)
+  j=10000: α̇/α = +1.81e-14 /yr   (excess over 1.1e-18: 1.6e+04)
+  j=1000000: α̇/α = +1.81e-16 /yr   (excess over 1.1e-18: 1.6e+02)
+  [HIT] inv (control)  hashed 3e-12 at 58, 8e-14 at 2329
+E2 R1 control: the word's own j resets per interaction -> drift = 0 identically
+  [HIT] R1 (control)  
+
+SCORE 3/3, of which 1/1 can-fail hit

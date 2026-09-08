@@ -1,0 +1,16 @@
+QE(m) (K1860 l.108) vs P(commit) = 1-c along the chain's two extreme paths
+  m=0: QE = 0.0000 (1-QE = 1.00e+00);  P(commit) light word (0,m) = 0.5000;  max-winding word = 0.5000
+  m=1: QE = 0.0000 (1-QE = 1.00e+00);  P(commit) light word (0,m) = 0.5238;  max-winding word = 0.5238
+  m=2: QE = 0.2000 (1-QE = 8.00e-01);  P(commit) light word (0,m) = 0.5408;  max-winding word = 0.5833
+  m=3: QE = 0.4286 (1-QE = 5.71e-01);  P(commit) light word (0,m) = 0.5536;  max-winding word = 0.6032
+  m=4: QE = 0.6190 (1-QE = 3.81e-01);  P(commit) light word (0,m) = 0.5635;  max-winding word = 0.6429
+  m=5: QE = 0.7576 (1-QE = 2.42e-01);  P(commit) light word (0,m) = 0.5714;  max-winding word = 0.6591
+  m=6: QE = 0.8508 (1-QE = 1.49e-01);  P(commit) light word (0,m) = 0.5779;  max-winding word = 0.6875
+  m=7: QE = 0.9105 (1-QE = 8.95e-02);  P(commit) light word (0,m) = 0.5833;  max-winding word = 0.7009
+  m=8: QE = 0.9473 (1-QE = 5.27e-02);  P(commit) light word (0,m) = 0.5879;  max-winding word = 0.7222
+  m=9: QE = 0.9695 (1-QE = 3.05e-02);  P(commit) light word (0,m) = 0.5918;  max-winding word = 0.7333
+  m=10: QE = 0.9826 (1-QE = 1.74e-02);  P(commit) light word (0,m) = 0.5952;  max-winding word = 0.7500
+  approach: 1-QE at m=10,20,40: ['1.74e-02', '4.29e-05', '1.09e-10']  (ratio per doubling ~ 2.5e-03,2.5e-06) ; c(j,0) at j=10,20,40: ['0.167', '0.100', '0.056'] (ratio per doubling 0.60,0.56)
+  [MISS] E3  same monotone shape, same asymptote 1, different approach law (geometric vs 1/j); at m=3: QE 3/7 vs light 31/56 vs matter 38/63
+
+SCORE 0/1, of which 0/1 can-fail hit
