@@ -1,0 +1,7 @@
+as written: f_c*C2 = 54/47 = 1.149
+BST monomials in [1e4/3, 3e4]: 212 distinct values; examples: [(3377.872340425532, {'rank': 1, 'N_c': 0, 'n_C': 1, 'C2': 2, 'g': 2, 'N_max': 0}, 1), (3384.0, {'rank': 1, 'N_c': 2, 'n_C': 0, 'C2': 2, 'g': 0, 'N_max': 0}, -1), (3425.0, {'rank': 0, 'N_c': 0, 'n_C': 2, 'C2': 0, 'g': 0, 'N_max': 1}, 0), (3528.0, {'rank': 1, 'N_c': 0, 'n_C': 0, 'C2': 2, 'g': 2, 'N_max': 0}, 0), (3577.222222222222, {'rank': 0, 'N_c': 0, 'n_C': 1, 'C2': 0, 'g': 0, 'N_max': 1}, -1), (3594.063829787234, {'rank': 0, 'N_c': 0, 'n_C': 0, 'C2': 0, 'g': 0, 'N_max': 2}, 1), (3600.0, {'rank': 2, 'N_c': 0, 'n_C': 2, 'C2': 2, 'g': 0, 'N_max': 0}, 0), (3619.148936170213, {'rank': 0, 'N_c': 1, 'n_C': 2, 'C2': 2, 'g': 1, 'N_max': 0}, 1)]
+  [HIT] L1  212 >= 20: the window is reached by dozens of products; the fragment selects none
+control target 7919: 215 distinct values
+  [HIT] L2  215 >= 20: the window does the work
+
+SCORE 2/2, both can-fail
