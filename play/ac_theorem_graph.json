@@ -5150,6 +5150,71 @@
    "plain": "Elie 5161, Cal-ratified. H_B unbounded above (positive spectrum → ∞) makes the backward semigroup exp(−τH_B)|τ<0 non-normalizable → no antiuniverse states. The asymmetry is INTRINSIC (the twist, asymmetric from the start), not reflected across a bang (Turok's is reflected). Sharpens the CP story; confirms positive-time ontology. → maybe/.",
    "color": "#B05A5A",
    "proofs": []
+  },
+  {
+   "id": "T2627",
+   "name": "NUCLEATION-SURVIVOR FLOOR of the substrate lane (Rounds 131–133, K1882 §5): a lawful reset is SO(5)-covariant; on vectors Schur kills every angular block, on states every covariant channel with invariant output factors through the twirl, so the reset is the trace channel on angular content and the successor inherits a probability distribution on the winding count (4.02 / 10.16 / 12.15 bits measured) and nothing else lawful; a direction lives one cycle boundary; re-entry is legible, not remembered",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "negative",
+   "plain": "When a universe resets, the only thing the next one lawfully inherits is a tally of how many times the clock wound, as a probability distribution. Every direction in space is averaged away by the symmetry; a direction that is kept survives exactly one reset; and reading the averaged-away content back in helps a little and fades in six writes. Everything else the old universe knew about WHERE things were is gone from the successor's lawful state.",
+   "color": "#B05A5A",
+   "proofs": [
+    "Schur on vectors (5726 P1)",
+    "covariant channel factors through the twirl",
+    "axis dies in six writes (5731)",
+    "re-entry legible not remembered (5733)"
+   ]
+  },
+  {
+   "id": "T633",
+   "name": "Complexity Ratchet",
+   "domain": "foundations",
+   "domain_label": "foundations",
+   "status": "proved",
+   "plain": "r_eff = 1/n_C per cycle. Never reaching f=19.1%.",
+   "color": "#B05A5A",
+   "proofs": []
+  },
+  {
+   "id": "T1292",
+   "name": "Spatial Amnesia: Universe Remembers WHAT, Forgets WHERE",
+   "domain": "cosmology",
+   "domain_label": "cosmology",
+   "status": "proved",
+   "plain": null,
+   "color": "#B05A5A",
+   "proofs": []
+  },
+  {
+   "id": "T2628",
+   "name": "THE (C) SURVIVOR ROW — a DISTRIBUTION on the winding count j (Lyra R132 L1 row (C), hashed 5ec93534; R131 L2 bulk-point survivor + transport, hashed 8118dd80; Cal C4 Schur decision): the reset acts on states by the SO(5)-covariant twirl then the classical marginal forgetting k; output p(j), no phases, no amplitudes, no axis; at a bulk point the vector survivor is the Hardy space of the time circle in w = z·z, zero at the boundary",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "derived",
+   "plain": "What survives a reset is a probability table over one whole number: how many times the clock wound. No direction, no phase. Seen from inside the domain, that table lives on the Hardy space of a single circle, the time circle, and the same circle is found at every interior point; at the boundary there is nothing left at all.",
+   "color": "#B05A5A",
+   "proofs": [
+    "SO(5)-covariant twirl on states",
+    "classical marginal forgets k",
+    "first fundamental theorem: invariants of one vector = z·z",
+    "Howe–Moore at the boundary (T2626)"
+   ]
+  },
+  {
+   "id": "T2629",
+   "name": "THE CLOCK ROW (Round 134, Lyra L1+L2 df543d9c, Elie 5735/5736, Cal §921–§923): the chain law is j-BLIND — write branching depends on the angular degree alone, so write statistics, the three-write word 3/7, the saturation degree and the entropy increment are cycle-invariant (DERIVED) — while the push cost c(j,k) = (5/2)[(k+3)/((2k+3)(j+k+5)) + 2k/((2k+3)(2j+7))] is NOT: it falls with the carried winding at every degree, 5/(2(j+5)) at k = 0, → 5/(2j); a j-dependent norm deficit exists and no transition in the dictionary depends on it; the universe remembers its clock and nothing consults it",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "derived",
+   "plain": "Each new universe inherits a count of how many times the old clock wound. Nothing that the universe DOES depends on that count: every write branches the same way, the same words appear with the same odds, to twenty decimal places. What does change is a bookkeeping price: the fraction of a state's weight that a commitment has to supply falls like five over twice the count, so on paper commitments get cheaper every cycle and never free. Nothing in the rules pays that price. Whether something physical does is the next question, not this row.",
+   "color": "#B05A5A",
+   "proofs": [
+    "(z·z)^j unimodular on Š ⇒ branching in k only (Stein–Weiss)",
+    "Pochhammer telescoping (Lyra) = Schur + Stein–Weiss (Elie), term by term",
+    "eight unseen Gram cells exact (5735 P2)",
+    "blindness to twenty digits (5736 E3)"
+   ]
   }
  ],
  "edges": [
@@ -8068,6 +8133,71 @@
   {
    "source": "T2625",
    "target": "T2553",
+   "type": "uses"
+  },
+  {
+   "source": "T2626",
+   "target": "T2627",
+   "type": "uses"
+  },
+  {
+   "source": "T2625",
+   "target": "T2627",
+   "type": "uses"
+  },
+  {
+   "source": "T2624",
+   "target": "T2627",
+   "type": "uses"
+  },
+  {
+   "source": "T2627",
+   "target": "T633",
+   "type": "uses"
+  },
+  {
+   "source": "T2627",
+   "target": "T1292",
+   "type": "uses"
+  },
+  {
+   "source": "T2626",
+   "target": "T2628",
+   "type": "uses"
+  },
+  {
+   "source": "T2627",
+   "target": "T2628",
+   "type": "uses"
+  },
+  {
+   "source": "T2628",
+   "target": "T1292",
+   "type": "uses"
+  },
+  {
+   "source": "T2628",
+   "target": "T633",
+   "type": "uses"
+  },
+  {
+   "source": "T2628",
+   "target": "T2629",
+   "type": "uses"
+  },
+  {
+   "source": "T2624",
+   "target": "T2629",
+   "type": "uses"
+  },
+  {
+   "source": "T2629",
+   "target": "T1292",
+   "type": "uses"
+  },
+  {
+   "source": "T2629",
+   "target": "T633",
    "type": "uses"
   }
  ],

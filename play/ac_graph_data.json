@@ -25,7 +25,7 @@
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2626",
+  "max_tid": "T2629",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -15250,7 +15250,7 @@
    "tid": 1136,
    "name": "Koons Tick — Time as Observer Counting",
    "domain": "observer_science",
-   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured",
+   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured — R135 HOLD 14:27 09-08 for Cal C3 (α as asymptote or rate under Born-at-the-push; K1860 l.133 collision)",
    "depth": 0,
    "conflation": 1,
    "section": "BST_AC_Theorems Section TBD",
@@ -35736,6 +35736,53 @@
    "toys": [],
    "date": "2026-09-08",
    "plain": "The symmetry that fixes a point on the boundary is a big non-compact group. A theorem of Howe and Moore says that in a space like H² no nonzero vector can be fixed by such a group. So \"keep whatever a boundary point cannot tell apart\" keeps nothing at all; a fresh universe cannot be seeded on the boundary, only from a point inside."
+  },
+  {
+   "tid": 2627,
+   "name": "NUCLEATION-SURVIVOR FLOOR of the substrate lane (Rounds 131–133, K1882 §5): a lawful reset is SO(5)-covariant; on vectors Schur kills every angular block, on states every covariant channel with invariant output factors through the twirl, so the reset is the trace channel on angular content and the successor inherits a probability distribution on the winding count (4.02 / 10.16 / 12.15 bits measured) and nothing else lawful; a direction lives one cycle boundary; re-entry is legible, not remembered",
+   "domain": "substrate_lane",
+   "status": "NEGATIVE floor (three witnesses 5726/5731/5733); theorems inside DERIVED; bits MEASURED; clause POSITED; Cal §922 C3 (10:35) on §919's six amendments; K1882 §5 text; K1882 §5",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1882 §5 / Round 134 C3",
+   "toys": [
+    5726,
+    5731,
+    5733
+   ],
+   "date": "2026-09-08",
+   "plain": "When a universe resets, the only thing the next one lawfully inherits is a tally of how many times the clock wound, as a probability distribution. Every direction in space is averaged away by the symmetry; a direction that is kept survives exactly one reset; and reading the averaged-away content back in helps a little and fades in six writes. Everything else the old universe knew about WHERE things were is gone from the successor's lawful state."
+  },
+  {
+   "tid": 2628,
+   "name": "THE (C) SURVIVOR ROW — a DISTRIBUTION on the winding count j (Lyra R132 L1 row (C), hashed 5ec93534; R131 L2 bulk-point survivor + transport, hashed 8118dd80; Cal C4 Schur decision): the reset acts on states by the SO(5)-covariant twirl then the classical marginal forgetting k; output p(j), no phases, no amplitudes, no axis; at a bulk point the vector survivor is the Hardy space of the time circle in w = z·z, zero at the boundary",
+   "domain": "substrate_lane",
+   "status": "DERIVED (twirl + marginal); category DISTRIBUTION on j; bits MEASURED (5726); Cal C4 §922 C4 (10:35) on §919; K1883 §3/§4 ruling (C) — the fork empty on every number, not decided (K1883 §3)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Lyra R132 L1 (C) / R131 L2; Cal C4",
+   "toys": [
+    5725,
+    5726,
+    5727
+   ],
+   "date": "2026-09-08",
+   "plain": "What survives a reset is a probability table over one whole number: how many times the clock wound. No direction, no phase. Seen from inside the domain, that table lives on the Hardy space of a single circle, the time circle, and the same circle is found at every interior point; at the boundary there is nothing left at all."
+  },
+  {
+   "tid": 2629,
+   "name": "THE CLOCK ROW (Round 134, Lyra L1+L2 df543d9c, Elie 5735/5736, Cal §921–§923): the chain law is j-BLIND — write branching depends on the angular degree alone, so write statistics, the three-write word 3/7, the saturation degree and the entropy increment are cycle-invariant (DERIVED) — while the push cost c(j,k) = (5/2)[(k+3)/((2k+3)(j+k+5)) + 2k/((2k+3)(2j+7))] is NOT: it falls with the carried winding at every degree, 5/(2(j+5)) at k = 0, → 5/(2j); a j-dependent norm deficit exists and no transition in the dictionary depends on it; the universe remembers its clock and nothing consults it",
+   "domain": "substrate_lane",
+   "status": "L1/L2 DERIVED (two routes + exact Gram); E3 MEASURED (twenty digits); payer sentence RELABELING (Cal C1 §923); Born-at-the-push OPEN (R135); Cal §923 (10:39) CLEARED, C1 RELABELING; K1883 §4 wording 'at the PUSH'; order §922",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Lyra R134 L1–L3; Elie 5735/5736; Cal §921–§923; K1883",
+   "toys": [
+    5735,
+    5736
+   ],
+   "date": "2026-09-08",
+   "plain": "Each new universe inherits a count of how many times the old clock wound. Nothing that the universe DOES depends on that count: every write branches the same way, the same words appear with the same odds, to twenty decimal places. What does change is a bookkeeping price: the fraction of a state's weight that a commitment has to supply falls like five over twice the count, so on paper commitments get cheaper every cycle and never free. Nothing in the rules pays that price. Whether something physical does is the next question, not this row."
   }
  ],
  "edges": [
@@ -87133,6 +87180,84 @@
    "to": 2553,
    "source": "derived",
    "label": "the two extensions = the two sheets of the positive-time row; the sector choice stays its posit (i)"
+  },
+  {
+   "from": 2626,
+   "to": 2627,
+   "source": "negative",
+   "label": "no boundary nucleation"
+  },
+  {
+   "from": 2625,
+   "to": 2627,
+   "source": "negative",
+   "label": "three sectors; the |a−b|³ norm"
+  },
+  {
+   "from": 2624,
+   "to": 2627,
+   "source": "negative",
+   "label": "the lane's first floor"
+  },
+  {
+   "from": 2627,
+   "to": 633,
+   "source": "negative",
+   "label": "the reset clause's mechanism candidate (definitional)"
+  },
+  {
+   "from": 2627,
+   "to": 1292,
+   "source": "negative",
+   "label": "what the successor inherits: a distribution on j"
+  },
+  {
+   "from": 2626,
+   "to": 2628,
+   "source": "derived",
+   "label": "bulk point, not boundary"
+  },
+  {
+   "from": 2627,
+   "to": 2628,
+   "source": "derived",
+   "label": "the floor: a distribution on j and nothing else lawful"
+  },
+  {
+   "from": 2628,
+   "to": 1292,
+   "source": "derived",
+   "label": "occupancy 4–12 bits replaces the 10⁴"
+  },
+  {
+   "from": 2628,
+   "to": 633,
+   "source": "derived",
+   "label": "the persistence half: j is what persists"
+  },
+  {
+   "from": 2628,
+   "to": 2629,
+   "source": "derived",
+   "label": "the survivor is j; nothing in the law reads it"
+  },
+  {
+   "from": 2624,
+   "to": 2629,
+   "source": "derived",
+   "label": "the push cost is the floor's norm deficit"
+  },
+  {
+   "from": 2629,
+   "to": 1292,
+   "source": "derived",
+   "label": "\"same write statistics every cycle\" DERIVED on record space"
+  },
+  {
+   "from": 2629,
+   "to": 633,
+   "source": "derived",
+   "label": "shape only; no map (Lyra L3, three reasons)"
   }
  ],
  "chains": {},
@@ -107916,7 +108041,7 @@
    "tid": 1136,
    "name": "Koons Tick — Time as Observer Counting",
    "domain": "observer_science",
-   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured",
+   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured — R135 HOLD 14:27 09-08 for Cal C3 (α as asymptote or rate under Born-at-the-push; K1860 l.133 collision)",
    "depth": 0,
    "conflation": 1,
    "toys": [],
@@ -133807,12 +133932,59 @@
    "toys": [],
    "date": "2026-09-08",
    "plain": "The symmetry that fixes a point on the boundary is a big non-compact group. A theorem of Howe and Moore says that in a space like H² no nonzero vector can be fixed by such a group. So \"keep whatever a boundary point cannot tell apart\" keeps nothing at all; a fresh universe cannot be seeded on the boundary, only from a point inside."
+  },
+  {
+   "tid": 2627,
+   "name": "NUCLEATION-SURVIVOR FLOOR of the substrate lane (Rounds 131–133, K1882 §5): a lawful reset is SO(5)-covariant; on vectors Schur kills every angular block, on states every covariant channel with invariant output factors through the twirl, so the reset is the trace channel on angular content and the successor inherits a probability distribution on the winding count (4.02 / 10.16 / 12.15 bits measured) and nothing else lawful; a direction lives one cycle boundary; re-entry is legible, not remembered",
+   "domain": "substrate_lane",
+   "status": "NEGATIVE floor (three witnesses 5726/5731/5733); theorems inside DERIVED; bits MEASURED; clause POSITED; Cal §922 C3 (10:35) on §919's six amendments; K1882 §5 text; K1882 §5",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1882 §5 / Round 134 C3",
+   "toys": [
+    5726,
+    5731,
+    5733
+   ],
+   "date": "2026-09-08",
+   "plain": "When a universe resets, the only thing the next one lawfully inherits is a tally of how many times the clock wound, as a probability distribution. Every direction in space is averaged away by the symmetry; a direction that is kept survives exactly one reset; and reading the averaged-away content back in helps a little and fades in six writes. Everything else the old universe knew about WHERE things were is gone from the successor's lawful state."
+  },
+  {
+   "tid": 2628,
+   "name": "THE (C) SURVIVOR ROW — a DISTRIBUTION on the winding count j (Lyra R132 L1 row (C), hashed 5ec93534; R131 L2 bulk-point survivor + transport, hashed 8118dd80; Cal C4 Schur decision): the reset acts on states by the SO(5)-covariant twirl then the classical marginal forgetting k; output p(j), no phases, no amplitudes, no axis; at a bulk point the vector survivor is the Hardy space of the time circle in w = z·z, zero at the boundary",
+   "domain": "substrate_lane",
+   "status": "DERIVED (twirl + marginal); category DISTRIBUTION on j; bits MEASURED (5726); Cal C4 §922 C4 (10:35) on §919; K1883 §3/§4 ruling (C) — the fork empty on every number, not decided (K1883 §3)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Lyra R132 L1 (C) / R131 L2; Cal C4",
+   "toys": [
+    5725,
+    5726,
+    5727
+   ],
+   "date": "2026-09-08",
+   "plain": "What survives a reset is a probability table over one whole number: how many times the clock wound. No direction, no phase. Seen from inside the domain, that table lives on the Hardy space of a single circle, the time circle, and the same circle is found at every interior point; at the boundary there is nothing left at all."
+  },
+  {
+   "tid": 2629,
+   "name": "THE CLOCK ROW (Round 134, Lyra L1+L2 df543d9c, Elie 5735/5736, Cal §921–§923): the chain law is j-BLIND — write branching depends on the angular degree alone, so write statistics, the three-write word 3/7, the saturation degree and the entropy increment are cycle-invariant (DERIVED) — while the push cost c(j,k) = (5/2)[(k+3)/((2k+3)(j+k+5)) + 2k/((2k+3)(2j+7))] is NOT: it falls with the carried winding at every degree, 5/(2(j+5)) at k = 0, → 5/(2j); a j-dependent norm deficit exists and no transition in the dictionary depends on it; the universe remembers its clock and nothing consults it",
+   "domain": "substrate_lane",
+   "status": "L1/L2 DERIVED (two routes + exact Gram); E3 MEASURED (twenty digits); payer sentence RELABELING (Cal C1 §923); Born-at-the-push OPEN (R135); Cal §923 (10:39) CLEARED, C1 RELABELING; K1883 §4 wording 'at the PUSH'; order §922",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Lyra R134 L1–L3; Elie 5735/5736; Cal §921–§923; K1883",
+   "toys": [
+    5735,
+    5736
+   ],
+   "date": "2026-09-08",
+   "plain": "Each new universe inherits a count of how many times the old clock wound. Nothing that the universe DOES depends on that count: every write branches the same way, the same words appear with the same odds, to twenty decimal places. What does change is a bookkeeping price: the fraction of a state's weight that a commitment has to supply falls like five over twice the count, so on paper commitments get cheaper every cycle and never free. Nothing in the rules pays that price. Whether something physical does is the next question, not this row."
   }
  ],
  "metadata": {
-  "node_count": 2403,
-  "edge_count": 10255,
-  "theorem_count": 2403,
-  "synced": "2026-09-08 both lists (Grace R132 G2)"
+  "node_count": 2406,
+  "edge_count": 10268,
+  "theorem_count": 2406,
+  "synced": "2026-09-08 both lists (Grace R135 G1)"
  }
 }
