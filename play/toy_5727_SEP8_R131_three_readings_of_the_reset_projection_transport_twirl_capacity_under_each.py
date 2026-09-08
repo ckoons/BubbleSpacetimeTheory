@@ -19,5 +19,5 @@ avg_Y1 = moment((1,0,0,0,0))     # <x0> over S^4 = the SO(5)-average of Y1 (a co
 tr_twirl = moment((2,0,0,0,0))*5  # trace of twirled |Y1><Y1| in the S^4-normalised basis: sum_i <x_i^2> = 1
 print(f"T3: SO(5)-average of Y1=x0 as a function: {avg_Y1}; trace of twirl(|Y1><Y1|): {tr_twirl}")
 sc("T3", avg_Y1==0 and tr_twirl==1, False, "projection 0, twirl trace 1")
-print(f"\nSCORE {sum(score)}/{len(score)}, of which {sum(1 for s,c in zip(score,cf) if c)}/{sum(cf)} can-fail hit")
+print(f"\nSCORE {sum(score)}/{len(score)}, of which {sum(1 for s,c in zip(score,cf) if c and s)}/{sum(cf)} can-fail hit")
 json.dump({'cells':cells,'holevo':hol,'occupancy_bits':occ}, open('.record_5727.json','w'), indent=1)

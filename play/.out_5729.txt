@@ -9,4 +9,4 @@ H2: chain-averaged retained fraction (Haar-random angular content), 5726's DP
 H3: zonal-prepared state retains fraction 1 (|<Z,Z>|^2/(|Z|^2|Z|^2) = 1) — identity; (j,l) law: l ≡ k at every stop, entropies 4.02/10.16/12.15 = (C)'s
   [HIT] H3 (control)  
 
-SCORE 2/3, of which 1/1 can-fail hit
+SCORE 2/3, of which 0/1 can-fail hit

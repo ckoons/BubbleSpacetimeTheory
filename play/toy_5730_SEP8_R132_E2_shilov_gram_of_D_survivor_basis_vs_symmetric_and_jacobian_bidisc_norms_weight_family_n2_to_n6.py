@@ -40,5 +40,5 @@ for n in range(2,7):
 b,G0=gram_T(2,0); b,G2=gram_T(2,2); b,G5=gram_S(5,2)
 print(f"  n=5 vs symmetric (w=0) at m=2: Š {G5.tolist()} vs {G0.tolist()};  vs Jacobian (w=2): {G2.tolist()}")
 sc("G3", ok3 and G5!=G0 and G5!=G2, True, "n=2 symmetric, n=4 Jacobian, n=5 neither")
-print(f"\nSCORE {sum(score)}/{len(score)}, of which {sum(1 for s,c in zip(score,cf) if c)}/{sum(cf)} can-fail hit")
+print(f"\nSCORE {sum(score)}/{len(score)}, of which {sum(1 for s,c in zip(score,cf) if c and s)}/{sum(cf)} can-fail hit")
 json.dump({'family':{n:bool(v) for n,v in rows.items()}}, open('.record_5730.json','w'))

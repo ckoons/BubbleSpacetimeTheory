@@ -50,5 +50,5 @@ print(f"  S-m137: <1/dim H_k> = {float(avg):.4e};  H(j,l)=H(j,k) = {Hjl:.3f} bit
 sc("H2", 1e-4 <= float(avg) <= 1e-3, True, "hashed 1e-4..1e-3")
 print("H3: zonal-prepared state retains fraction 1 (|<Z,Z>|^2/(|Z|^2|Z|^2) = 1) — identity; (j,l) law: l ≡ k at every stop, entropies 4.02/10.16/12.15 = (C)'s")
 sc("H3", True, False, "")
-print(f"\nSCORE {sum(score)}/{len(score)}, of which {sum(1 for s,c in zip(score,cf) if c)}/{sum(cf)} can-fail hit")
+print(f"\nSCORE {sum(score)}/{len(score)}, of which {sum(1 for s,c in zip(score,cf) if c and s)}/{sum(cf)} can-fail hit")
 json.dump({'f68':float(f68),'f137':float(f137),'avg_m137':float(avg),'H_m137':Hjl}, open('.record_5729.json','w'))
