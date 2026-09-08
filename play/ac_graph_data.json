@@ -33661,7 +33661,7 @@
   },
   {
    "tid": 1929,
-   "name": "H_*",
+   "name": "H_*(D_IV⁵) + 12 Topological Landmarks (W-1, W-4): D_IV⁵ itself is contractible (no winding on bulk); winding lives on Q⁵ cohomology (= Z[h]/h⁶, six even-degree primitive classes summing to C_2 = χ(Q⁵) = 6) and Γ(N_max)\\D",
    "domain": "geometry",
    "status": "working",
    "depth": 1,
@@ -33794,7 +33794,7 @@
   },
   {
    "tid": 1938,
-   "name": "Pin",
+   "name": "Pin(2) → SO(2) Restriction Map (SP-25 T1.3-P2 Precursor): Pin(2) representation ring R(Pin(2)) = Z[χ_s, V_1, V_2, ...] with restriction to SO(2) = identity component: χ_0 ↦ 1, χ_s ↦ 1, V_n ↦ U_n (2-dim real rep at weight",
    "domain": "gauge",
    "status": "proved",
    "depth": 1,
@@ -33959,7 +33959,7 @@
   },
   {
    "tid": 2313,
-   "name": "G3",
+   "name": "G3: Wallach dim_7..dim_12 exotic observable search (extends T2140 honest negative): After testing 17 EXOTIC observable categories beyond T2140's 16 standard SM, found THREE candidate sub-2% anchors. (a) **dim_8 = 285 ≈ N",
    "domain": "bst_physics",
    "status": "working",
    "depth": 1,
@@ -34004,7 +34004,7 @@
   },
   {
    "tid": 2443,
-   "name": "## T2443",
+   "name": "C1 RIGOROUSLY CLOSED: rank = 2 Distinguishing (Lyra Session 6, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34017,7 +34017,7 @@
   },
   {
    "tid": 2444,
-   "name": "## T2444",
+   "name": "C2 RIGOROUSLY CLOSED: N_c = 3 Distinguishing via Mersenne Identity (Lyra Session 7, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34030,7 +34030,7 @@
   },
   {
    "tid": 2445,
-   "name": "## T2445",
+   "name": "C3 RIGOROUSLY CLOSED: n_C = 5 Distinguishing via Bergman Exponent (Lyra Session 8, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34043,7 +34043,7 @@
   },
   {
    "tid": 2446,
-   "name": "## T2446",
+   "name": "C5 RIGOROUSLY CLOSED: g = 7 Distinguishing via Mersenne + Cyclotomic (Lyra Session 9, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34056,7 +34056,7 @@
   },
   {
    "tid": 2447,
-   "name": "## T2447",
+   "name": "C6 RIGOROUSLY CLOSED (ASPIRATIONAL, Lyra Session 10): N_max = 137 Distinguishing",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34069,7 +34069,7 @@
   },
   {
    "tid": 2448,
-   "name": "## T2448",
+   "name": "C8 Q-cluster RIGOROUSLY CLOSED (ASPIRATIONAL, Lyra Session 11): Q = 126 BST Primary Form Distinguishing",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34082,7 +34082,7 @@
   },
   {
    "tid": 2449,
-   "name": "## T2449",
+   "name": "C10 4-Zone Commitment Cycle RIGOROUSLY CLOSED (ASPIRATIONAL, Lyra Session 12)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -34095,7 +34095,7 @@
   },
   {
    "tid": 2479,
-   "name": "## T2479",
+   "name": "POVM Substrate-Derivation via Bergman Kernel Coarse-Graining (Lyra Saturday morning, SP-31 #283)",
    "domain": "quantum_foundations",
    "status": "proved",
    "depth": 1,
@@ -131555,7 +131555,7 @@
   },
   {
    "tid": 1929,
-   "name": "H_*",
+   "name": "H_*(D_IV⁵) + 12 Topological Landmarks (W-1, W-4): D_IV⁵ itself is contractible (no winding on bulk); winding lives on Q⁵ cohomology (= Z[h]/h⁶, six even-degree primitive classes summing to C_2 = χ(Q⁵) = 6) and Γ(N_max)\\D",
    "domain": "geometry",
    "status": "working",
    "depth": 1,
@@ -131689,7 +131689,7 @@
   },
   {
    "tid": 1938,
-   "name": "Pin",
+   "name": "Pin(2) → SO(2) Restriction Map (SP-25 T1.3-P2 Precursor): Pin(2) representation ring R(Pin(2)) = Z[χ_s, V_1, V_2, ...] with restriction to SO(2) = identity component: χ_0 ↦ 1, χ_s ↦ 1, V_n ↦ U_n (2-dim real rep at weight",
    "domain": "gauge",
    "status": "proved",
    "depth": 1,
@@ -131854,7 +131854,7 @@
   },
   {
    "tid": 2313,
-   "name": "G3",
+   "name": "G3: Wallach dim_7..dim_12 exotic observable search (extends T2140 honest negative): After testing 17 EXOTIC observable categories beyond T2140's 16 standard SM, found THREE candidate sub-2% anchors. (a) **dim_8 = 285 ≈ N",
    "domain": "bst_physics",
    "status": "working",
    "depth": 1,
@@ -131899,7 +131899,7 @@
   },
   {
    "tid": 2443,
-   "name": "## T2443",
+   "name": "C1 RIGOROUSLY CLOSED: rank = 2 Distinguishing (Lyra Session 6, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131912,7 +131912,7 @@
   },
   {
    "tid": 2444,
-   "name": "## T2444",
+   "name": "C2 RIGOROUSLY CLOSED: N_c = 3 Distinguishing via Mersenne Identity (Lyra Session 7, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131925,7 +131925,7 @@
   },
   {
    "tid": 2445,
-   "name": "## T2445",
+   "name": "C3 RIGOROUSLY CLOSED: n_C = 5 Distinguishing via Bergman Exponent (Lyra Session 8, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131938,7 +131938,7 @@
   },
   {
    "tid": 2446,
-   "name": "## T2446",
+   "name": "C5 RIGOROUSLY CLOSED: g = 7 Distinguishing via Mersenne + Cyclotomic (Lyra Session 9, Thursday afternoon head-start)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131951,7 +131951,7 @@
   },
   {
    "tid": 2447,
-   "name": "## T2447",
+   "name": "C6 RIGOROUSLY CLOSED (ASPIRATIONAL, Lyra Session 10): N_max = 137 Distinguishing",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131964,7 +131964,7 @@
   },
   {
    "tid": 2448,
-   "name": "## T2448",
+   "name": "C8 Q-cluster RIGOROUSLY CLOSED (ASPIRATIONAL, Lyra Session 11): Q = 126 BST Primary Form Distinguishing",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131977,7 +131977,7 @@
   },
   {
    "tid": 2449,
-   "name": "## T2449",
+   "name": "C10 4-Zone Commitment Cycle RIGOROUSLY CLOSED (ASPIRATIONAL, Lyra Session 12)",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 1,
@@ -131990,7 +131990,7 @@
   },
   {
    "tid": 2479,
-   "name": "## T2479",
+   "name": "POVM Substrate-Derivation via Bergman Kernel Coarse-Graining (Lyra Saturday morning, SP-31 #283)",
    "domain": "quantum_foundations",
    "status": "proved",
    "depth": 1,

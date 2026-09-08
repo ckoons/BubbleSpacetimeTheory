@@ -52,4 +52,29 @@
 
 16 files, 21 lines. L4 named four Interstasis lines and CosmologicalSpiral §4.2; the grep finds the same sentence in 16 files — the sweep is the whole table, same hour, on Cal's word. Not applied. The T308 row itself is in BST_AC_Theorems.md (the registry has no separate T308 row; the graph node carries the status).
 
+## 6. Round 133 G3 (10:04): "horizon" — FOUR objects, and the Round-133 sentence uses ONE of them; "environment" — three senses and two dimensions; "dilation" — a collision the reconnect list walks straight into
+### 6a. "horizon"
+| object | definition | where (files) | kind |
+|---|---|---|---|
+| **the frequency BAND of a cycle** (K1860 line 16–17: "if the cap is a BAND in frequency … old windings sit OUTSIDE the band, they gravitate and are invisible") | a cut in the Hardy frequency m (winding) of H²(Š): inside = the cycle's registered cap S_dS, outside = previous-cycle windings | K1860 §16–17; K1860-P; Round 133 board ("beyond the horizon is the traced-out factor") | a SPECTRAL cut (frequency), not a surface — THIS is the Round-133 "horizon"; its "beyond" is the environment factor |
+| **the cycle boundary** (T1292 :17/:34/:95/:130 "at the cycle boundary (interstasis, T305–T315) … the cycle boundary IS a deformation") | the event at which the thermodynamic arrow stops and restarts; a point in the cycle's time | T1292; T305–T315 | an EVENT (time), not a surface and not a band; "crossing" it is crossing a time, which is why T1292's LOST/PERMANENT split is by what a deformation preserves |
+| **the interstasis PERIOD** (Interstasis_Hypothesis §2.1: "the period between cycles when the thermodynamic arrow has stopped but the substrate persists") | a duration with no entropy production | BST_Interstasis_Hypothesis :35, :89 (Definition 1, cycle C_n = (I_n, A_n, D_n)) | a DURATION; K1860's Markov sentence ("the next cycle sees only the occupation numbers") lives here |
+| **the event horizon of BST gravity** (ρ = ρ_137 Haldane-saturation surface; lapse N = N₀√(1 − ρ/ρ_137) → 0) | a SPATIAL surface where commitment density saturates | 38 files "event horizon"; BlackHoleInterior; Bekenstein_Quarter; de Sitter / cosmological horizon 15–18 files; T1292 :70 "~10¹²² bits (Bekenstein–Hawking at cosmic horizon)" | a SURFACE in emergent space; the 10¹²² of T1292's LOST class is counted on THIS horizon, while the Round-133 "beyond the horizon" is the BAND — two horizons in one sentence if written carelessly |
+**Verdict: NOT one object — four.** The Round-133 environment is what lies beyond the BAND (object 1). T1292's LOST class is sized on object 4 (the cosmic horizon's Bekenstein count) and re-tiered across object 2 (the cycle boundary). Any sentence of the form "traced out beyond the horizon" must say WHICH: "beyond the frequency band" (K1860) — and then the identification "band-exterior = the 10¹²²-bit Bekenstein exterior" is a CLAIM to be tested (K1860 line 17's collision: Ω_DM from cycle count vs Ω_m = 6/19), not a synonym.
+### 6b. "environment"
+| sense | object | where | dimension |
+|---|---|---|---|
+| **Stinespring environment of the reset channel, FULL** | the twirl over SO(5) in Haar–Kraus form {√dg·U(g)}: environment = L²(SO(5)), infinite-dimensional | Round 133 board (Keyl–Werner [pin]; Watrous [pin]) | ∞ |
+| **Stinespring environment, MINIMAL** | for ONE saturated harmonic block H_k the twirl is completely depolarizing (Keeper's control PASSED), so the minimal environment has dim (dim H_k)² | Keeper R133 control; Elie E1 (Kraus ranks) | (dim H_k)²; at k = 68: (dim H_68(S⁴))² — quote the number from Elie's run, not from memory |
+| **the decoherence bath of a qubit-observer** (older corpus sense: "the qubit coupling to the environment as an observer, exactly as prescribed by T318 (α_CI ≤ f_c)"; τ_D ∼ 1/(k_B T·S_env)) | an open-system bath in the observer rows | 63 files "decoherence"; ~90 files "environment" in this sense; T318 | unspecified; a thermodynamic bath, not a Stinespring factor |
+| ("Tekton environment", CI infrastructure) | a software environment | 5 files | — (exclude) |
+**Rule:** the Round-133 word is sense 1 or 2 and must carry its dimension; sense 3 is what the corpus already means by the word in ~90 files, so a bare "environment" in a T1292/T633 annotation will be READ as the decoherence bath. Write "the beyond-band factor (Stinespring environment, dim …)".
+### 6c. "dilation" — three objects (the reconnect list says "Stinespring dilation"; the corpus says "dilation" 60 times)
+| object | where (files) |
+|---|---|
+| **Stinespring / Naimark dilation** — a channel as the marginal of an isometry | 1 / 2 |
+| **gravitational time dilation** — the lapse N = N₀√(1 − ρ/ρ_137) | 24–30 |
+| **the dilations of the parabolic** Stab_G(z) = (dilations × SO(1,4)) ⋉ ℝ⁵ — the group in T2626's PROOF | 2 (T2626's row; Lyra L2) |
+A grep for "dilation" to reconnect Round 133 will return the lapse 24 times and T2626's parabolic twice before the one Stinespring hit. Name the reflection by its action: "the reset's isometric extension" for the first, "the lapse" for the second, "the A-part of the parabolic" for the third.
+
 — Grace
