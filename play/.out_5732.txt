@@ -1,0 +1,9 @@
+  k=1: dim H_k = 5; twirl Choi rank (numeric, 30000 Haar samples) = 25 vs d^2 = 25; spectrum min/max = 0.1907/0.2097 (ideal flat 1/d = 0.2000; flatness ratio max/min = 1.10); trace channel rank = 5; zonal-projection-with-discard rank = 5
+  k=2: dim H_k = 14; twirl Choi rank (numeric, 30000 Haar samples) = 196 vs d^2 = 196; spectrum min/max = 0.0605/0.0833 (ideal flat 1/d = 0.0714; flatness ratio max/min = 1.38); trace channel rank = 14; zonal-projection-with-discard rank = 14
+  [HIT] E1-T  twirl Choi rank 25, 196 numerically
+  k=68: d = 111895; twirl env d^2 = 1.2520e+10; twirl-then-forget env d = 111895; (D) env d = 111895
+  k=137: d = 885569; twirl env d^2 = 7.8423e+11; twirl-then-forget env d = 885569; (D) env d = 885569
+  [HIT] E1-C/D (control)  d as hashed; twirl-then-forget-k and (D) have environment d, not d^2
+  [HIT] E1-note (control)  full L^2(SO(5)) dilation infinite-dimensional; minimal ones above
+
+SCORE 3/3, of which 1/1 can-fail hit

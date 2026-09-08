@@ -26,7 +26,7 @@ for k in (2,3):
     Y=harmonic_part(xs[1]**k + xs[2]**(k-1)*xs[3],k)  # a fixed non-zonal harmonic
     ws=[]
     for t in range(60):
-        Q,_=np.linalg.qr(rng.normal(size=(5,5))); 
+        Q,Rq=np.linalg.qr(rng.normal(size=(5,5))); Q=Q*np.sign(np.diag(Rq)); 
         gx=[sum(sp.Float(Q[i,j])*xs[j] for j in range(5)) for i in range(5)]
         gY=sp.expand(Y.subs(dict(zip(xs,gx)),simultaneous=True))
         ws.append(ip(gY,Z)**2/(ip(gY,gY)*ip(Z,Z)))
