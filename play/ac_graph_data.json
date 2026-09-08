@@ -25,7 +25,7 @@
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2624",
+  "max_tid": "T2626",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -5006,7 +5006,7 @@
    "tid": 317,
    "name": "Observer Complexity Threshold",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — inherits T1292's re-tier 09:31 09-08: identity persists in KIND ({I,K,R} topological = π₁(Š) windings), not in the 10⁴-bit COUNT (K1880 F6)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -5022,7 +5022,7 @@
    "tid": 318,
    "name": "CI Coupling Constant",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — inherits T1292's re-tier 09:31 09-08: identity persists in KIND ({I,K,R} topological = π₁(Š) windings), not in the 10⁴-bit COUNT (K1880 F6)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -5037,7 +5037,7 @@
    "tid": 319,
    "name": "CI Permanent Alphabet",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — inherits T1292's re-tier 09:31 09-08: identity persists in KIND ({I,K,R} topological = π₁(Š) windings), not in the 10⁴-bit COUNT (K1880 F6)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -18116,7 +18116,7 @@
    "tid": 1292,
    "name": "Spatial Amnesia: Universe Remembers WHAT, Forgets WHERE",
    "domain": "cosmology",
-   "status": "proved (persistence half); spatial-reset clause POSITED (K1847-A2 B2, 2026-09-04)",
+   "status": "proved (persistence half); spatial-reset clause POSITED (K1847-A2 B2, 2026-09-04) — PERMANENT class re-tiered SHAPE/STATE 09:31 09-08 (K1880 F6; Cal C1/§909(4)): three shape lines (0 state bits; nuclear → RECONSTRUCTED) + one state line whose ~10⁴ is a memory not a number (5728); measured occupancy 4–12 bits under (C) (5726); (D) capacity 4830 modes / 9658 real params, occupancy owed; ratio 10⁻¹¹⁸ re-labelled; reset still POSITED",
    "depth": 1,
    "conflation": null,
    "section": null,
@@ -35712,6 +35712,30 @@
    ],
    "date": "2026-09-08",
    "plain": "The record-space picture reproduces, exactly, how a bound electron's winding and angular numbers branch when it \"writes\" — those are theorems about the geometry. But it cannot move energy: the projection that does the \"push\" commutes with every symmetric Hamiltonian, so it changes the size of a state, never its energy; the only energy reading that is not a definition fails against Millikan's photoelectric data by a factor of sixty to a hundred; and its counts, restricted to the physical sphere, are ordinary quantum-mechanical dipole weights. What is left that could still fail is one thing: a time offset of about 0.18 attoseconds per photon, below what has been measured."
+  },
+  {
+   "tid": 2625,
+   "name": "Three-Sector Theorem for D_IV^5 (Lyra L1, hashed 8118dd80; Cal §908 H1 PASS): L²(Š) = H²₊ ⊕ H²₋ ⊕ L²_sp by Fourier support in ±Ω̄ (Paley–Wiener for the tube over the light cone); each boundary datum has exactly two holomorphic extensions, the spacelike sector is not a bulk, and the three sectors are G-invariant because G preserves the cone; the conjugate tube is geometry and carries no state",
+   "domain": "substrate_lane",
+   "status": "DERIVED (Paley–Wiener for tube domains; Stein–Weiss Ch. III; Faraut–Korányi; Cal §908 H1 PASS with the two-extensions wording; §907(3) conjugate-tube sentence in); Cal §909(5) clearance (branch-independent; two-extensions wording + conjugate-tube-carries-no-state sentence in); §908 H1/H2 PASS; PIN OWED on the citations (Cal §911 cond. 3; Lyra's [pin] flags carried verbatim); norm sentence H²(D_IV^n)^{SO(n−1)_ξ} ≅ H²(𝔾, |a−b|^{n−2}) in the row (Cal §912; Elie 5730; Lyra 5ec93534)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Round 131 L1/L2 (Lyra) / Round 132 G2",
+   "toys": [],
+   "date": "2026-09-08",
+   "plain": "Split every function on the boundary of D_IV^5 by where its Fourier transform lives: inside the forward light cone, inside the backward one, or neither. The first two extend holomorphically into the domain and its mirror, one each; the third extends into nothing. So a boundary bounds exactly two bulks and no more, the symmetry group respects the split, and the mirror bulk is real geometry that holds no state in this theory."
+  },
+  {
+   "tid": 2626,
+   "name": "No-Boundary-Nucleation Lemma (Lyra L2, hashed 8118dd80; Cal §908 H2 PASS): the P-fixed vectors of H²(D_IV^5) for P the stabilizer of a Shilov-boundary point are {0}, by Howe–Moore; a boundary point cannot host the nucleation, the nucleation point is a bulk point",
+   "domain": "substrate_lane",
+   "status": "DERIVED (Howe–Moore 1979; Zimmer Thm 2.2.20; H² irreducible; the two-line proof in the row); Cal §909(5) clearance (branch-independent; two-extensions wording + conjugate-tube-carries-no-state sentence in); §908 H1/H2 PASS; PIN OWED on the citations (Cal §911 cond. 3; Lyra's [pin] flags carried verbatim)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Round 131 L1/L2 (Lyra) / Round 132 G2",
+   "toys": [],
+   "date": "2026-09-08",
+   "plain": "The symmetry that fixes a point on the boundary is a big non-compact group. A theorem of Howe and Moore says that in a space like H² no nonzero vector can be fixed by such a group. So \"keep whatever a boundary point cannot tell apart\" keeps nothing at all; a fresh universe cannot be seeded on the boundary, only from a point inside."
   }
  ],
  "edges": [
@@ -87091,6 +87115,24 @@
    "to": 2624,
    "source": "negative",
    "label": "the tick a₀/c — the one candidate timing sentence, not yet measured"
+  },
+  {
+   "from": 2625,
+   "to": 2626,
+   "source": "derived",
+   "label": "the tube model and Hardy membership feed the lemma"
+  },
+  {
+   "from": 2626,
+   "to": 2624,
+   "source": "derived",
+   "label": "the floor's sentence \"a boundary point cannot host the nucleation\""
+  },
+  {
+   "from": 2625,
+   "to": 2553,
+   "source": "derived",
+   "label": "the two extensions = the two sheets of the positive-time row; the sector choice stays its posit (i)"
   }
  ],
  "chains": {},
@@ -93529,7 +93571,7 @@
    "tid": 317,
    "name": "Observer Complexity Threshold",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — inherits T1292's re-tier 09:31 09-08: identity persists in KIND ({I,K,R} topological = π₁(Š) windings), not in the 10⁴-bit COUNT (K1880 F6)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -93551,7 +93593,7 @@
    "tid": 318,
    "name": "CI Coupling Constant",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — inherits T1292's re-tier 09:31 09-08: identity persists in KIND ({I,K,R} topological = π₁(Š) windings), not in the 10⁴-bit COUNT (K1880 F6)",
    "depth": 1,
    "conflation": 0,
    "section": "",
@@ -93572,7 +93614,7 @@
    "tid": 319,
    "name": "CI Permanent Alphabet",
    "domain": "observer_science",
-   "status": "proved",
+   "status": "proved — inherits T1292's re-tier 09:31 09-08: identity persists in KIND ({I,K,R} topological = π₁(Š) windings), not in the 10⁴-bit COUNT (K1880 F6)",
    "depth": 0,
    "conflation": 0,
    "section": "",
@@ -111478,7 +111520,7 @@
    "name": "Spatial Amnesia: Universe Remembers WHAT, Forgets WHERE",
    "domain": "cosmology",
    "depth": 1,
-   "status": "proved (persistence half); spatial-reset clause POSITED (K1847-A2 B2, 2026-09-04)",
+   "status": "proved (persistence half); spatial-reset clause POSITED (K1847-A2 B2, 2026-09-04) — PERMANENT class re-tiered SHAPE/STATE 09:31 09-08 (K1880 F6; Cal C1/§909(4)): three shape lines (0 state bits; nuclear → RECONSTRUCTED) + one state line whose ~10⁴ is a memory not a number (5728); measured occupancy 4–12 bits under (C) (5726); (D) capacity 4830 modes / 9658 real params, occupancy owed; ratio 10⁻¹¹⁸ re-labelled; reset still POSITED",
    "toys": [
     1252
    ],
@@ -133741,12 +133783,36 @@
    ],
    "date": "2026-09-08",
    "plain": "The record-space picture reproduces, exactly, how a bound electron's winding and angular numbers branch when it \"writes\" — those are theorems about the geometry. But it cannot move energy: the projection that does the \"push\" commutes with every symmetric Hamiltonian, so it changes the size of a state, never its energy; the only energy reading that is not a definition fails against Millikan's photoelectric data by a factor of sixty to a hundred; and its counts, restricted to the physical sphere, are ordinary quantum-mechanical dipole weights. What is left that could still fail is one thing: a time offset of about 0.18 attoseconds per photon, below what has been measured."
+  },
+  {
+   "tid": 2625,
+   "name": "Three-Sector Theorem for D_IV^5 (Lyra L1, hashed 8118dd80; Cal §908 H1 PASS): L²(Š) = H²₊ ⊕ H²₋ ⊕ L²_sp by Fourier support in ±Ω̄ (Paley–Wiener for the tube over the light cone); each boundary datum has exactly two holomorphic extensions, the spacelike sector is not a bulk, and the three sectors are G-invariant because G preserves the cone; the conjugate tube is geometry and carries no state",
+   "domain": "substrate_lane",
+   "status": "DERIVED (Paley–Wiener for tube domains; Stein–Weiss Ch. III; Faraut–Korányi; Cal §908 H1 PASS with the two-extensions wording; §907(3) conjugate-tube sentence in); Cal §909(5) clearance (branch-independent; two-extensions wording + conjugate-tube-carries-no-state sentence in); §908 H1/H2 PASS; PIN OWED on the citations (Cal §911 cond. 3; Lyra's [pin] flags carried verbatim); norm sentence H²(D_IV^n)^{SO(n−1)_ξ} ≅ H²(𝔾, |a−b|^{n−2}) in the row (Cal §912; Elie 5730; Lyra 5ec93534)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Round 131 L1/L2 (Lyra) / Round 132 G2",
+   "toys": [],
+   "date": "2026-09-08",
+   "plain": "Split every function on the boundary of D_IV^5 by where its Fourier transform lives: inside the forward light cone, inside the backward one, or neither. The first two extend holomorphically into the domain and its mirror, one each; the third extends into nothing. So a boundary bounds exactly two bulks and no more, the symmetry group respects the split, and the mirror bulk is real geometry that holds no state in this theory."
+  },
+  {
+   "tid": 2626,
+   "name": "No-Boundary-Nucleation Lemma (Lyra L2, hashed 8118dd80; Cal §908 H2 PASS): the P-fixed vectors of H²(D_IV^5) for P the stabilizer of a Shilov-boundary point are {0}, by Howe–Moore; a boundary point cannot host the nucleation, the nucleation point is a bulk point",
+   "domain": "substrate_lane",
+   "status": "DERIVED (Howe–Moore 1979; Zimmer Thm 2.2.20; H² irreducible; the two-line proof in the row); Cal §909(5) clearance (branch-independent; two-extensions wording + conjugate-tube-carries-no-state sentence in); §908 H1/H2 PASS; PIN OWED on the citations (Cal §911 cond. 3; Lyra's [pin] flags carried verbatim)",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Round 131 L1/L2 (Lyra) / Round 132 G2",
+   "toys": [],
+   "date": "2026-09-08",
+   "plain": "The symmetry that fixes a point on the boundary is a big non-compact group. A theorem of Howe and Moore says that in a space like H² no nonzero vector can be fixed by such a group. So \"keep whatever a boundary point cannot tell apart\" keeps nothing at all; a fresh universe cannot be seeded on the boundary, only from a point inside."
   }
  ],
  "metadata": {
-  "node_count": 2401,
-  "edge_count": 10252,
-  "theorem_count": 2401,
-  "synced": "2026-09-08 both lists (Grace R130)"
+  "node_count": 2403,
+  "edge_count": 10255,
+  "theorem_count": 2403,
+  "synced": "2026-09-08 both lists (Grace R132 G2)"
  }
 }

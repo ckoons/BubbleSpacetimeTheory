@@ -5114,6 +5114,42 @@
     "Millikan 1916 (60–100×)",
     "top-component map = dipole weights (Cal §898/§899)"
    ]
+  },
+  {
+   "id": "T2625",
+   "name": "Three-Sector Theorem for D_IV^5 (Lyra L1, hashed 8118dd80; Cal §908 H1 PASS): L²(Š) = H²₊ ⊕ H²₋ ⊕ L²_sp by Fourier support in ±Ω̄ (Paley–Wiener for the tube over the light cone); each boundary datum has exactly two holomorphic extensions, the spacelike sector is not a bulk, and the three sectors are G-invariant because G preserves the cone; the conjugate tube is geometry and carries no state",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "derived",
+   "plain": "Split every function on the boundary of D_IV^5 by where its Fourier transform lives: inside the forward light cone, inside the backward one, or neither. The first two extend holomorphically into the domain and its mirror, one each; the third extends into nothing. So a boundary bounds exactly two bulks and no more, the symmetry group respects the split, and the mirror bulk is real geometry that holds no state in this theory.",
+   "color": "#B05A5A",
+   "proofs": [
+    "Paley–Wiener (Stein–Weiss III.2)",
+    "G preserves the cone"
+   ]
+  },
+  {
+   "id": "T2626",
+   "name": "No-Boundary-Nucleation Lemma (Lyra L2, hashed 8118dd80; Cal §908 H2 PASS): the P-fixed vectors of H²(D_IV^5) for P the stabilizer of a Shilov-boundary point are {0}, by Howe–Moore; a boundary point cannot host the nucleation, the nucleation point is a bulk point",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "derived",
+   "plain": "The symmetry that fixes a point on the boundary is a big non-compact group. A theorem of Howe and Moore says that in a space like H² no nonzero vector can be fixed by such a group. So \"keep whatever a boundary point cannot tell apart\" keeps nothing at all; a fresh universe cannot be seeded on the boundary, only from a point inside.",
+   "color": "#B05A5A",
+   "proofs": [
+    "Howe–Moore vanishing of matrix coefficients",
+    "P noncompact (dilations × SO(1,4)) ⋉ ℝ⁵"
+   ]
+  },
+  {
+   "id": "T2553",
+   "name": "Antiuniverse (Boyle–Turok mirror) DYNAMICALLY EXCLUDED — theorem-grade: the commitment Hamiltonian H_B is unbounded above → exp(−τH_B) for τ<0 is non-normalizable → the τ<0 mirror sheet has no normalizable states, though the Bergman geometry admits it formally. BST is pure positive-time (Casey's ontology); the exclusion is dynamical (irreversible commitment, T2543), not geometric",
+   "domain": "cosmology",
+   "domain_label": "cosmology",
+   "status": "structural",
+   "plain": "Elie 5161, Cal-ratified. H_B unbounded above (positive spectrum → ∞) makes the backward semigroup exp(−τH_B)|τ<0 non-normalizable → no antiuniverse states. The asymmetry is INTRINSIC (the twist, asymmetric from the start), not reflected across a bang (Turok's is reflected). Sharpens the CP story; confirms positive-time ontology. → maybe/.",
+   "color": "#B05A5A",
+   "proofs": []
   }
  ],
  "edges": [
@@ -8017,6 +8053,21 @@
   {
    "source": "T1136",
    "target": "T2624",
+   "type": "uses"
+  },
+  {
+   "source": "T2625",
+   "target": "T2626",
+   "type": "uses"
+  },
+  {
+   "source": "T2626",
+   "target": "T2624",
+   "type": "uses"
+  },
+  {
+   "source": "T2625",
+   "target": "T2553",
    "type": "uses"
   }
  ],
