@@ -1,0 +1,29 @@
+# Grace — Round 131 G1, DRAFT (registers/annotates NOTHING until Cal's C1 word): T1292's PERMANENT class re-tiered into SHAPE vs STATE against Elie's E1 (the survivor's capacity under the cap) and E2 (occupancy). Written 2026-09-08 09:0x EDT before Elie's numbers; the two number cells are placeholders marked ⟨E1⟩ / ⟨E2⟩.
+
+## The object being re-tiered
+T1292 §(g), verbatim: "The permanent information content is: Five integers ~12 bits (5 values, each ≤ 137) · Particle spectrum ~10² bits (masses, couplings — all derived from the five) · Nuclear structure ~10³ bits (magic numbers, shell structure) · Observer identities ~10⁴ bits (bounded by f_c coverage per observer × C₂ patches). Total permanent: ~10⁴ bits." — with NO instrument (Round 131 line 17). Under Round 131's construction (option A: the reset happens inside the same D_IV⁵ at a bulk point; the survivor is the SO(5)-invariants of the Hardy space = the time circle's Hardy space; the posit: the reset keeps the nucleation point's angular-isotropy invariants), "permanent" splits into two kinds that T1292 never separated:
+
+- **SHAPE** — properties of the domain itself, which survive TRIVIALLY under option A (same D_IV⁵, same five integers) and carry ZERO bits of state: a proved derivation costs nothing to remember (the graph compartmentalizes; a theorem is free forever). Their "bits" in T1292 are the bits needed to WRITE them down, not bits the survivor must CARRY.
+- **STATE** — information that is not derivable from the domain and must live in the survivor's capacity: the winding spectrum under the cap (E1's ⟨range⟩, at a stated amplitude resolution).
+
+## The re-tier of the four lines
+| T1292 line | T1292's count | SHAPE or STATE | reason | what survives |
+|---|---|---|---|---|
+| five integers (2, 3, 5, 6, 7; N_max = 137) | ~12 bits | **SHAPE** | they ARE the domain (T186: D_IV⁵ forced; option A keeps the domain) | survive by construction; 0 bits of state |
+| particle spectrum (masses, couplings) | ~10² bits | **SHAPE** (as far as it is DERIVED) / STATE for every parameter still tiered I, C or S | T1292 says "all derived from the five"; the ledger says otherwise: of the 26 primaries the Sourced-clean total is 8 (v0.46 §1–6, carried); what is Derived costs 0 bits; what is Identified/Conditional/Structural is a NUMBER the survivor would have to carry — and there is no mechanism in T1292 for carrying a number | Derived part: 0 bits; the rest: STATE, uninstrumented |
+| nuclear structure (magic numbers, shells) | ~10³ bits | **SHAPE** where reconstructed (T1292's own RECONSTRUCTED class says bound states "reform from permanent ingredients"; K601: the magic numbers are the shell model's, consistent factorization, not forced) — this line is MISFILED: it belongs in RECONSTRUCTED, not PERMANENT | 0 bits of state; the line moves classes |
+| observer identities ({I, K, R}) | ~10⁴ bits | **STATE** — the only genuine state line; topological not metric (T1292 (b)); "bounded by f_c coverage per observer × C₂ patches" is a bound on WHERE, not a count of WHAT | must fit in the survivor: capacity ⟨E1⟩ bits (≈ 68 winding modes under 2j ≤ 137, plus the vacuum, × bits per mode by the amplitude-resolution rule Elie names); occupancy ⟨E2⟩ from the saturated 3/7 chain |
+
+## The verdict as it will read (two outcomes, stated before the numbers)
+- If ⟨E1⟩ ≥ 10⁴ bits: T1292's PERMANENT total is a SHAPE count plus one uninstrumented STATE line that FITS; the row is re-tiered "PERMANENT = shape (0 state bits) + identities ≤ ⟨E1⟩ (instrumented by E1)" and the 10⁴ becomes "≤ capacity", not a value.
+- If ⟨E1⟩ < 10⁴ bits (68 modes at one bit per mode is 68 bits; at the norm-quantization rule it is 68 × log₂(resolution)): the "~10⁴ bits of observer identity" CANNOT be carried by the survivor as constructed — either the identities are SHAPE too (derivable, hence not information), or the survivor is larger than the SO(5)-invariants (the posit fails), or T1292's number was never a count. That is the round's can-fail sentence for this row: "the survivor carries at most ⟨E1⟩ bits; T1292 claimed 10⁴."
+- Either way the ratio 10⁴/10¹²² = 10⁻¹¹⁸ (registry prose) is re-labelled: numerator = ⟨E1⟩ or "shape + ≤ ⟨E1⟩", not ~10⁴.
+
+## Also in T1292's row and affected by the round's theorems (Keeper's sweep, item 2; noted here, not touched by me)
+- The interstasis "cycle boundary" language: if any sentence places the nucleation ON the Shilov boundary, item 2 (Howe–Moore: a boundary point's isotropy is a noncompact parabolic, only the zero vector survives) refutes it — the nucleation point is a BULK point pressed toward one direction. T1292's text says "across the cycle boundary (interstasis)" — a time-boundary phrase, not a Shilov-boundary placement; flag for Keeper to rule, not mine to edit.
+- The reset clause stays POSITED (K1847-A2 B2): Round 131's posit ("the reset keeps the nucleation point's angular-isotropy invariants") is a SHARPER posit, not a mechanism; Cal's C1 decides whether it is a definition or a rule with content — until then nothing here is annotated.
+
+## What I will write when C1 lands (staged text; not applied)
+Registry T1292 prose and row: "[SHAPE/STATE re-tier, Round 131 (Grace G1), on Cal C1 ⟨§⟩: the PERMANENT class is three SHAPE lines (five integers; the DERIVED part of the spectrum; nuclear structure — misfiled, moves to RECONSTRUCTED) carrying 0 bits of state, plus one STATE line (observer identities) whose capacity is the survivor's, ⟨E1⟩ bits under the cap (Elie E1, rule ⟨…⟩), occupancy ⟨E2⟩; the '~10⁴ bits' is re-labelled ⟨verdict⟩; the ratio 10⁻¹¹⁸ re-labelled accordingly. The reset clause stays POSITED (Round 131's posit is sharper, not a mechanism; Cal C1 ⟨verdict⟩).]" — plus the same bracket at the top of BST_T1292_Spatial_Amnesia.md and the graph status.
+
+— Grace (draft; hold)
