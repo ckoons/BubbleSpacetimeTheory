@@ -5090,6 +5090,30 @@
     "Cs-137 Compton edge 0.7214 > cap 1/2 (Elie 5720)",
     "Lie-ball 0.3945 vs disc 0.200 (Elie 5719)"
    ]
+  },
+  {
+   "id": "T1136",
+   "name": "Koons Tick — Time as Observer Counting",
+   "domain": "observer_science",
+   "domain_label": "observer_science",
+   "status": "proved",
+   "plain": "T1136: time = observer counting. tau_0 = N_max × hbar/(m_e c^2). (C=1, D=0).",
+   "color": "#B05A5A",
+   "proofs": []
+  },
+  {
+   "id": "T2624",
+   "name": "FLOOR of the substrate lane (record-space dictionary of D_IV^5, K1860 A–P): a REPRESENTATION of the bound electron's winding count and angular content — theorems of Hua/Stein–Weiss/Faraut–Korányi sorted by tier — with NO KINEMATICS (T2623), NO ENERGY BUDGET (K-equivariance of the Szegő projection), and no energy, momentum or count sentence; its one candidate laboratory sentence is TIMING (an N-photon absolute offset in ticks a₀/c), not yet measured",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "negative",
+   "plain": "The record-space picture reproduces, exactly, how a bound electron's winding and angular numbers branch when it \"writes\" — those are theorems about the geometry. But it cannot move energy: the projection that does the \"push\" commutes with every symmetric Hamiltonian, so it changes the size of a state, never its energy; the only energy reading that is not a definition fails against Millikan's photoelectric data by a factor of sixty to a hundred; and its counts, restricted to the physical sphere, are ordinary quantum-mechanical dipole weights. What is left that could still fail is one thing: a time offset of about 0.18 attoseconds per photon, below what has been measured.",
+   "color": "#B05A5A",
+   "proofs": [
+    "K-equivariance of the Szegő projection",
+    "Millikan 1916 (60–100×)",
+    "top-component map = dipole weights (Cal §898/§899)"
+   ]
   }
  ],
  "edges": [
@@ -7983,6 +8007,16 @@
   {
    "source": "T2543",
    "target": "T2623",
+   "type": "uses"
+  },
+  {
+   "source": "T2623",
+   "target": "T2624",
+   "type": "uses"
+  },
+  {
+   "source": "T1136",
+   "target": "T2624",
    "type": "uses"
   }
  ],

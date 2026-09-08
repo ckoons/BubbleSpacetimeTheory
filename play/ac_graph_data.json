@@ -20,12 +20,12 @@
   "D1": 526,
   "D2": 42,
   "node_count": 2374,
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "edges": 10135,
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2623",
+  "max_tid": "T2624",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -35693,6 +35693,25 @@
    ],
    "date": "2026-09-07",
    "plain": "The record-space picture says an electron \"writes\" information in words of length m and pays a \"push\" cost for each. Someone proposed the push is the kick a photon gives an electron in Compton scattering. That kick can carry more than half the photon's energy (caesium-137's 662 keV line gives 72 %), while the picture caps the push at one half — so the proposal is wrong however m is read. What is learned: the picture has no momentum and no energy ratio in it at all, so anything it predicts must be a time or a count, never a kick. The old \"one fifth per commitment\" was a number from the wrong model of the disc."
+  },
+  {
+   "tid": 2624,
+   "name": "FLOOR of the substrate lane (record-space dictionary of D_IV^5, K1860 A–P): a REPRESENTATION of the bound electron's winding count and angular content — theorems of Hua/Stein–Weiss/Faraut–Korányi sorted by tier — with NO KINEMATICS (T2623), NO ENERGY BUDGET (K-equivariance of the Szegő projection), and no energy, momentum or count sentence; its one candidate laboratory sentence is TIMING (an N-photon absolute offset in ticks a₀/c), not yet measured",
+   "domain": "substrate_lane",
+   "status": "NEGATIVE floor (two data witnesses: T2623, Millikan); theorems inside DERIVED; dictionary IDENTIFIED; Cal §905, 10:13 (2026-09-07); K1879 §4 with §905's five amendments",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1879 §4 / Cal §905 (Round 130)",
+   "toys": [
+    5719,
+    5720,
+    5721,
+    5722,
+    5723,
+    5724
+   ],
+   "date": "2026-09-08",
+   "plain": "The record-space picture reproduces, exactly, how a bound electron's winding and angular numbers branch when it \"writes\" — those are theorems about the geometry. But it cannot move energy: the projection that does the \"push\" commutes with every symmetric Hamiltonian, so it changes the size of a state, never its energy; the only energy reading that is not a definition fails against Millikan's photoelectric data by a factor of sixty to a hundred; and its counts, restricted to the physical sphere, are ordinary quantum-mechanical dipole weights. What is left that could still fail is one thing: a time offset of about 0.18 attoseconds per photon, below what has been measured."
   }
  ],
  "edges": [
@@ -87060,6 +87079,18 @@
    "to": 2623,
    "source": "negative",
    "label": "the record-as-idempotent dictionary (K1860 A–P) is the object whose kinematic reading is refuted"
+  },
+  {
+   "from": 2623,
+   "to": 2624,
+   "source": "negative",
+   "label": "no kinematics: the first negative"
+  },
+  {
+   "from": 1136,
+   "to": 2624,
+   "source": "negative",
+   "label": "the tick a₀/c — the one candidate timing sentence, not yet measured"
   }
  ],
  "chains": {},
@@ -133691,12 +133722,31 @@
    ],
    "date": "2026-09-07",
    "plain": "The record-space picture says an electron \"writes\" information in words of length m and pays a \"push\" cost for each. Someone proposed the push is the kick a photon gives an electron in Compton scattering. That kick can carry more than half the photon's energy (caesium-137's 662 keV line gives 72 %), while the picture caps the push at one half — so the proposal is wrong however m is read. What is learned: the picture has no momentum and no energy ratio in it at all, so anything it predicts must be a time or a count, never a kick. The old \"one fifth per commitment\" was a number from the wrong model of the disc."
+  },
+  {
+   "tid": 2624,
+   "name": "FLOOR of the substrate lane (record-space dictionary of D_IV^5, K1860 A–P): a REPRESENTATION of the bound electron's winding count and angular content — theorems of Hua/Stein–Weiss/Faraut–Korányi sorted by tier — with NO KINEMATICS (T2623), NO ENERGY BUDGET (K-equivariance of the Szegő projection), and no energy, momentum or count sentence; its one candidate laboratory sentence is TIMING (an N-photon absolute offset in ticks a₀/c), not yet measured",
+   "domain": "substrate_lane",
+   "status": "NEGATIVE floor (two data witnesses: T2623, Millikan); theorems inside DERIVED; dictionary IDENTIFIED; Cal §905, 10:13 (2026-09-07); K1879 §4 with §905's five amendments",
+   "depth": 0,
+   "conflation": 0,
+   "section": "K1879 §4 / Cal §905 (Round 130)",
+   "toys": [
+    5719,
+    5720,
+    5721,
+    5722,
+    5723,
+    5724
+   ],
+   "date": "2026-09-08",
+   "plain": "The record-space picture reproduces, exactly, how a bound electron's winding and angular numbers branch when it \"writes\" — those are theorems about the geometry. But it cannot move energy: the projection that does the \"push\" commutes with every symmetric Hamiltonian, so it changes the size of a state, never its energy; the only energy reading that is not a definition fails against Millikan's photoelectric data by a factor of sixty to a hundred; and its counts, restricted to the physical sphere, are ordinary quantum-mechanical dipole weights. What is left that could still fail is one thing: a time offset of about 0.18 attoseconds per photon, below what has been measured."
   }
  ],
  "metadata": {
-  "node_count": 2400,
-  "edge_count": 10250,
-  "theorem_count": 2400,
-  "synced": "2026-09-07 both lists (Grace R130)"
+  "node_count": 2401,
+  "edge_count": 10252,
+  "theorem_count": 2401,
+  "synced": "2026-09-08 both lists (Grace R130)"
  }
 }
