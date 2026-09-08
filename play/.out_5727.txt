@@ -1,0 +1,8 @@
+T1: (C) twirl capacity under 2j+k<=137: cells 4830, Holevo 12.24 bits, presence 4829, occupancy 0..137: 34327 bits
+  [HIT] T1 (control)  hashed 4830 / 12.24 / 34,313
+T2: chain occupancy under (C) = H(j) since k is a function of j at each stop: {'S-k68': 10.16, 'S-k137': 12.15, 'S-m137': 4.02}
+  [HIT] T2  4.0 / 10.2 / 12.2 bits; (C)'s extra capacity unoccupied by one chain
+T3: SO(5)-average of Y1=x0 as a function: 0; trace of twirl(|Y1><Y1|): 1
+  [HIT] T3 (control)  projection 0, twirl trace 1
+
+SCORE 3/3, of which 1/1 can-fail hit
