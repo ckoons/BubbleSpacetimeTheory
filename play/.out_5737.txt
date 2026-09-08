@@ -1,0 +1,27 @@
+E1 control: c ≡ 0 reproduces the chain (Σ 1/(1-c) per write = 1, failed fraction 0)
+  a0=0.0 b0=0.0 t0=1.0
+  [HIT] ctrl (control)  exact
+E1: failed-push fraction, (a) mean of c along landed chain | (b) fraction of all pushes failing | turns per commitment 137/(1-c) mean
+  m137 j0=0: (a) 0.10810  (b) 0.12313  turns/commit 156.24
+  m137 j0=58: (a) 0.02709  (b) 0.02713  turns/commit 140.82
+  m137 j0=570: (a) 0.00411  (b) 0.00411  turns/commit 137.57
+  m137 j0=2329: (a) 0.00106  (b) 0.00106  turns/commit 137.14
+  k68 j0=0: (a) 0.02054  (b) 0.02376  turns/commit 140.33
+  k68 j0=58: (a) 0.00936  (b) 0.00942  turns/commit 138.30
+  k68 j0=570: (a) 0.00282  (b) 0.00282  turns/commit 137.39
+  k68 j0=2329: (a) 0.00093  (b) 0.00093  turns/commit 137.13
+  k137 j0=0: (a) 0.00661  (b) 0.00751  turns/commit 138.04
+  k137 j0=58: (a) 0.00370  (b) 0.00373  turns/commit 137.51
+  k137 j0=570: (a) 0.00162  (b) 0.00162  turns/commit 137.22
+  k137 j0=2329: (a) 0.00070  (b) 0.00070  turns/commit 137.10
+  [HIT] E1-a  cycle-1 m-cap mean-of-c = 0.1081 (Keeper 0.1081); monotone True
+  [HIT] E1-b  fraction of pushes failing = 0.1231
+E1: five cycles at the m-cap (full j-distribution carried)
+  cycle 1: (a) 0.10810  (b) 0.12313  turns/commit 156.24
+  cycle 2: (a) 0.02709  (b) 0.02712  turns/commit 140.82
+  cycle 3: (a) 0.01642  (b) 0.01642  turns/commit 139.29
+  cycle 4: (a) 0.01183  (b) 0.01183  turns/commit 138.64
+  cycle 5: (a) 0.00926  (b) 0.00926  turns/commit 138.28
+  [HIT] E1-cycles (control)  cycle 4 = 0.0118, not 1e-3
+
+SCORE 4/4, of which 2/2 can-fail hit

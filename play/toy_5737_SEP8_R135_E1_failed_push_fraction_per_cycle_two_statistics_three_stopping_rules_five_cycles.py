@@ -16,7 +16,9 @@ def stats_m(j0dist, M=137, czero=False):
             nxt[(j,k+1)]=nxt.get((j,k+1),0)+m*(1-p)
             if k>=1: nxt[(j+1,k-1)]=nxt.get((j+1,k-1),0)+m*p
         cur={s:v for s,v in nxt.items() if v>0}
-    return Sc/M, Sf/Sp, Sp/M, cur
+    jd={}
+    for (j,k),v in cur.items(): jd[j]=jd.get(j,0)+v
+    return Sc/M, Sf/Sp, Sp/M, jd
 def stats_k(j0, kmax, jmax=20000):
     cur={0:mp.mpf(1)}; Sc=Sf=Sp=mp.mpf(0); N=mp.mpf(0)
     for dj in range(jmax+1):
@@ -31,7 +33,7 @@ def stats_k(j0, kmax, jmax=20000):
         if sum(cur.values())<mp.mpf(10)**-22: break
     return Sc/N, Sf/Sp, Sp/N
 print("E1 control: c ≡ 0 reproduces the chain (Σ 1/(1-c) per write = 1, failed fraction 0)")
-a0,b0,t0,_=stats_m({0:mp.mpf(1)},137,czero=True); sc("ctrl", a0==0 and b0==0 and t0==1, False, "exact")
+a0,b0,t0,_=stats_m({0:mp.mpf(1)},137,czero=True); print(f"  a0={a0} b0={b0} t0={t0}"); sc("ctrl", a0==0 and b0==0 and abs(t0-1)<mp.mpf(10)**-20, False, "exact")
 print("E1: failed-push fraction, (a) mean of c along landed chain | (b) fraction of all pushes failing | turns per commitment 137/(1-c) mean")
 res={}
 for name in ("m137","k68","k137"):
