@@ -1,0 +1,19 @@
+  [HIT] P1 (control)  twelve Round 130 rationals reproduced by the closed form
+  (3,0) m=6: Gram 5/16  closed form 5/16  =   [2s]
+  (4,0) m=8: Gram 5/18  closed form 5/18  =   [20s]
+  (3,1) m=7: Gram 35/117  closed form 35/117  =   [20s]
+  (3,2) m=8: Gram 15/52  closed form 15/52  =   [20s]
+  (0,4) m=4: Gram 55/126  closed form 55/126  =   [20s]
+  (1,4) m=6: Gram 13/36  closed form 13/36  =   [20s]
+  (2,3) m=7: Gram 7/22  closed form 7/22  =   [20s]
+  (0,5) m=5: Gram 3/7  closed form 3/7  =   [20s]
+  [HIT] P2  kernel-Gram at eight unseen cells equals the closed form exactly
+  k=0 line: c(j,0) = 5/(2(j+5)) for j=0..2999: True
+  j=58: c(j,0) = 5/126 = 0.039683;  c(j,1) = 0.039380;  c(j,2) = 0.039087;  5/(2j) = 0.043103
+  j=570: c(j,0) = 1/230 = 0.004348;  c(j,1) = 0.004344;  c(j,2) = 0.004340;  5/(2j) = 0.004386
+  j=2329: c(j,0) = 5/4668 = 0.001071;  c(j,1) = 0.001071;  c(j,2) = 0.001071;  5/(2j) = 0.001073
+  [HIT] P3 (control)  Keeper's guess is the exact k = 0 line
+  j*c(j,k)/(5/2) at j=1e6, k=0..5: ['0.999995', '0.999995', '0.999994', '0.999994', '0.999993', '0.999993'] ; large-k line (5/4)/(j+7/2) at j=0,1,2: ['5/14', '5/18', '5/22'] check: ['5/14', '5/18', '5/22']
+  [HIT] P4 (control)  leading 5/(2j) for every k
+
+SCORE 4/4, of which 1/1 can-fail hit
