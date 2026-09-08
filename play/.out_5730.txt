@@ -1,0 +1,18 @@
+G1: isometry test, n=5: ||z.xi||^2 on Š vs ||(a+b)/2||^2 on T^2; control l=0
+  ||z.xi||^2_Š = 1/5,  ||(a+b)/2||^2_T2 = 1/2
+  [HIT] G1  1/5 vs 1/2: not an isometry; l=0 identity on both
+G2: Š Gram (n=5) == T^2 Gram with weight |a-b|^3, m<=6
+  m=2 basis [(0, 2), (1, 0)]: Š [[3/35, 1/5], [1/5, 1]] | T^2 weighted [[3/35, 1/5], [1/5, 1]] | equal True
+  m=3 basis [(0, 3), (1, 1)]: Š [[1/21, 3/35], [3/35, 1/5]] | T^2 weighted [[1/21, 3/35], [3/35, 1/5]] | equal True
+  m=4 basis [(0, 4), (1, 2), (2, 0)]: Š [[1/33, 1/21, 3/35], [1/21, 3/35, 1/5], [3/35, 1/5, 1]] | T^2 weighted [[1/33, 1/21, 3/35], [1/21, 3/35, 1/5], [3/35, 1/5, 1]] | equal True
+  [HIT] G2  weight |a-b|^3 reproduces the Š Gram exactly, m=0..6
+G3: family — Š Gram of D_IV^n == T^2 Gram with |a-b|^{n-2}, n=2..6, m<=4; literature norms: symmetric = weight 0 (n=2), Jacobian = weight 2 (n=4)
+  n=2: weight |a-b|^0: exact
+  n=3: weight |a-b|^1: exact
+  n=4: weight |a-b|^2: exact
+  n=5: weight |a-b|^3: exact
+  n=6: weight |a-b|^4: exact
+  n=5 vs symmetric (w=0) at m=2: Š [[3/35, 1/5], [1/5, 1]] vs [[3/8, 1/2], [1/2, 1]];  vs Jacobian (w=2): [[1/8, 1/4], [1/4, 1]]
+  [HIT] G3  n=2 symmetric, n=4 Jacobian, n=5 neither
+
+SCORE 3/3, of which 3/3 can-fail hit

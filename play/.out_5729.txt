@@ -1,0 +1,12 @@
+H1: 1/dim H_k(S^4) at k = 68, 137; Schur check by random rotations at k = 2, 3
+  k=68: 8.9369e-06   k=137: 1.1292e-06
+  k=2: E|<gY,Z>|^2/(|Y|^2|Z|^2) = 0.0530 ± 0.0102  vs 1/dim = 0.0714 (7.14%)
+  k=3: E|<gY,Z>|^2/(|Y|^2|Z|^2) = 0.0299 ± 0.0072  vs 1/dim = 0.0333 (3.33%)
+  [HIT] H1 (control)  Schur identity holds at k = 2, 3; hashed 8.937e-6 / 1.1292e-6
+H2: chain-averaged retained fraction (Haar-random angular content), 5726's DP
+  S-m137: <1/dim H_k> = 1.0393e-03;  H(j,l)=H(j,k) = 4.016 bits (k = 137-2j);  S-k68: 8.9369e-06 exact; S-k137: 1.1292e-06 exact
+  [MISS] H2  hashed 1e-4..1e-3
+H3: zonal-prepared state retains fraction 1 (|<Z,Z>|^2/(|Z|^2|Z|^2) = 1) — identity; (j,l) law: l ≡ k at every stop, entropies 4.02/10.16/12.15 = (C)'s
+  [HIT] H3 (control)  
+
+SCORE 2/3, of which 1/1 can-fail hit
