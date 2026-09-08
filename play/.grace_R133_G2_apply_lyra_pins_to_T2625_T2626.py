@@ -15,11 +15,13 @@ for i, l in enumerate(L):
     if not (l.startswith('| T2625 |') or l.startswith('| T2626 |')): continue
     tid = l[2:7]; out = []; pos = 0
     for m in re.finditer(r'\[pin[^\]]*\]', l):
-        ctx = l[max(0, m.start() - 120):m.start()]; key = next((k for k in pins if k in ctx), None)
+        ctx = l[max(0, m.start() - 120):m.start()]
+        if 'PIN OWED' in ctx[-60:] or 'PINS APPLIED' in ctx[-60:]: out.append(l[pos:m.end()]); pos = m.end(); continue
+        present = [k for k in pins if k in ctx]; key = max(present, key=lambda k: ctx.rfind(k)) if present else None
         out.append(l[pos:m.start()]); out.append(f'[PINNED: {pins[key]}, Lyra {h} {ts} {today}]' if key else m.group(0)); pos = m.end()
         if not key: owed.setdefault(tid, []).append(ctx[-60:])
     out.append(l[pos:]); L[i] = ''.join(out)
-    if tid not in owed: L[i] = L[i].replace('PIN OWED (Cal §911 condition 3', 'PINS APPLIED ' + ts + ' ' + today + ' (were PIN OWED, Cal §911 condition 3')
+    if tid not in owed: L[i] = L[i].replace('PIN OWED (Cal §911 condition 3', 'PINS APPLIED AS MARKED ' + ts + ' ' + today + ' (Lyra R133 L4, Cal §918: Howe–Moore and Faraut–Korányi pinned; Stein–Weiss and Zimmer THEOREM NUMBERS still [pin]; were PIN OWED, Cal §911 condition 3')
 open(reg, 'w', encoding='utf-8').write('\n'.join(L))
 gp = 'play/ac_graph_data.json'; gd = json.load(open(gp, encoding='utf-8'))
 for coll in ('theorems', 'nodes'):

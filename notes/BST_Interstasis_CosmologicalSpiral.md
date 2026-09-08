@@ -75,9 +75,9 @@ Chern classes: c = {1, 5, 11, 13, 9, 3}. These are eternal — they ARE the geom
 
 **4.2 Homotopy groups**
 
-$$\pi_1(D_{IV}^5) = 0, \quad \pi_2(D_{IV}^5) \cong \mathbb{Z}$$
+$$\pi_1(D_{IV}^5) = 0, \quad \pi_2(D_{IV}^5) \cong \mathbb{Z}$$ [T308 RE-KEY, Lyra R132 L4 (hashed 5ec93534), Cal §913/§918 GO, applied 10:10 2026-09-08 (Grace): D_IV⁵ is a bounded symmetric domain, contractible, so π₂(D_IV⁵) = 0 — the ℤ belongs to the compact dual Q⁵. The winding that cannot unwind is the HARDY winding j ∈ π₁(Š) ≅ ℤ (Š = (S¹ × S⁴)/ℤ₂, simply connected fibre), monotone under writes (K1860-P) and preserved by every reset in the dictionary; conclusion kept, reason replaced. Proton (ℤ₃) and neutrino clauses untouched.]
 
-The non-trivial π_2 means D_IV^5 supports topological solitons (instantons) classified by integers. These soliton configurations could carry information across interstasis as winding numbers — discrete, robust, topological.
+The non-trivial π_2 means D_IV^5 supports topological solitons (instantons) classified by integers. These soliton configurations could carry information across interstasis as winding numbers — discrete, robust, topological. [T308 RE-KEY, Lyra R132 L4 (hashed 5ec93534), Cal §913/§918 GO, applied 10:10 2026-09-08 (Grace): D_IV⁵ is a bounded symmetric domain, contractible, so π₂(D_IV⁵) = 0 — the ℤ belongs to the compact dual Q⁵. The winding that cannot unwind is the HARDY winding j ∈ π₁(Š) ≅ ℤ (Š = (S¹ × S⁴)/ℤ₂, simply connected fibre), monotone under writes (K1860-P) and preserved by every reset in the dictionary; conclusion kept, reason replaced. Proton (ℤ₃) and neutrino clauses untouched.]
 
 **4.3 Persistent homology of the commitment landscape**
 

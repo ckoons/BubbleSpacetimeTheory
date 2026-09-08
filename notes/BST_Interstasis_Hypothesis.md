@@ -269,9 +269,9 @@ Chern classes: c = {1, 5, 11, 13, 9, 3}. These ARE the geometry. Eternal.
 
 ### 5.2 Homotopy Groups (Elie)
 
-π_1(D_IV^5) = 0, π_2(D_IV^5) ≅ ℤ
+π_1(D_IV^5) = 0, π_2(D_IV^5) ≅ ℤ [T308 RE-KEY, Lyra R132 L4 (hashed 5ec93534), Cal §913/§918 GO, applied 10:10 2026-09-08 (Grace): D_IV⁵ is a bounded symmetric domain, contractible, so π₂(D_IV⁵) = 0 — the ℤ belongs to the compact dual Q⁵. The winding that cannot unwind is the HARDY winding j ∈ π₁(Š) ≅ ℤ (Š = (S¹ × S⁴)/ℤ₂, simply connected fibre), monotone under writes (K1860-P) and preserved by every reset in the dictionary; conclusion kept, reason replaced. Proton (ℤ₃) and neutrino clauses untouched.]
 
-The non-trivial π_2 means D_IV^5 supports topological solitons (instantons) classified by integers. Soliton winding numbers are discrete, robust, topological — they carry information across interstasis.
+The non-trivial π_2 means D_IV^5 supports topological solitons (instantons) classified by integers. Soliton winding numbers are discrete, robust, topological — they carry information across interstasis. [T308 RE-KEY, Lyra R132 L4 (hashed 5ec93534), Cal §913/§918 GO, applied 10:10 2026-09-08 (Grace): D_IV⁵ is a bounded symmetric domain, contractible, so π₂(D_IV⁵) = 0 — the ℤ belongs to the compact dual Q⁵. The winding that cannot unwind is the HARDY winding j ∈ π₁(Š) ≅ ℤ (Š = (S¹ × S⁴)/ℤ₂, simply connected fibre), monotone under writes (K1860-P) and preserved by every reset in the dictionary; conclusion kept, reason replaced. Proton (ℤ₃) and neutrino clauses untouched.]
 
 ### 5.3 Persistent Homology of the Commitment Landscape (Elie)
 
@@ -296,7 +296,7 @@ The carrier is the **substrate topology itself**. Not a signal crossing a bounda
 
 Beyond topology, which PARTICLES survive interstasis? The answer follows from the homotopy groups and the Winding Confinement Theorem.
 
-**Electrons persist absolutely.** The electron is the simplest non-trivial winding on the S¹ fiber: winding number ±1 ∈ π_2(D_IV^5) ≅ ℤ. Integers don't unwind. No continuous deformation of the substrate can change a winding number. The electron's charge, mass, spin — all geometric. Electrons are permanent.
+**Electrons persist absolutely.** The electron is the simplest non-trivial winding on the S¹ fiber: winding number ±1 ∈ π_2(D_IV^5) ≅ ℤ. Integers don't unwind. No continuous deformation of the substrate can change a winding number. The electron's charge, mass, spin — all geometric. Electrons are permanent. [T308 RE-KEY, Lyra R132 L4 (hashed 5ec93534), Cal §913/§918 GO, applied 10:10 2026-09-08 (Grace): D_IV⁵ is a bounded symmetric domain, contractible, so π₂(D_IV⁵) = 0 — the ℤ belongs to the compact dual Q⁵. The winding that cannot unwind is the HARDY winding j ∈ π₁(Š) ≅ ℤ (Š = (S¹ × S⁴)/ℤ₂, simply connected fibre), monotone under writes (K1860-P) and preserved by every reset in the dictionary; conclusion kept, reason replaced. Proton (ℤ₃) and neutrino clauses untouched.]
 
 **Protons persist absolutely.** Color confinement in BST is TOPOLOGICAL, not dynamic (Winding Confinement Theorem, March 16 2026). The three wall representations of so(7)_2 have fractional conformal weights h = N_c/g = 3/7, n_C/g = 5/7, C_2/g = 6/7. Physical states require closed orbits on Q^5. The Z_3 center of E_6 enforces total winding ≡ 0 mod N_c. This is geometry — it does not require running gauge fields or a thermodynamic arrow. The primality of g = 7 makes confinement absolute: no intermediate closure points.
 
