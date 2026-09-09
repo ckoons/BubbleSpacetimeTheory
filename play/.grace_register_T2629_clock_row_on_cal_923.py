@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Grace — Round 135 G1 (third): THE CLOCK ROW, T2629 — Lyra R134 L1 (j-blind chain theorem) + L2 (closed-form push cost) + Elie 5736 E3
+"""SUPERSEDED IN PART 10:27 2026-09-09: the CAL variable's clause "the 5 ... is the DIMENSION" was overturned by Cal §930 (Elie 5743). The registry row was repaired in place; DO NOT RE-RUN this script — it would reintroduce the superseded clause. Kept as the record of what was registered 2026-09-08.
+
+Grace — Round 135 G1 (third): THE CLOCK ROW, T2629 — Lyra R134 L1 (j-blind chain theorem) + L2 (closed-form push cost) + Elie 5736 E3
 (blindness to twenty digits) + Cal §923's row sentence with K1883 §4's wording fix ("a Born posit at the PUSH", not "at the write").
 Usage: python3 .grace_register_T2629_clock_row_on_cal_923.py --cal-word "§923 (10:39); K1883 §4 wording"    Refuses unless T2627 and T2628 are registered (Cal §922 order).
 Edges: T2628 -> T2629 (the survivor is j; this row says what reads it: nothing in the law); T2624 -> T2629 (the push cost is the floor's norm); T2629 -> T1292 ("same write statistics every cycle" DERIVED); T2629 -> T633 (shape only, no map — L3).
