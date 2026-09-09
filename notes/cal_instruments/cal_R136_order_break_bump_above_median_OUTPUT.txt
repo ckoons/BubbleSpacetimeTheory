@@ -1,0 +1,9 @@
+sampler: acceptance 0.0624 of the Euclidean ball; n = 600000
+
+bump centre 0.85 width 0.05 :  cost = <h>  (g = 1-h is 1 on the Shilov boundary to 1.1e-04)
+  j: 0=0.0043(ess 600000) 1=0.0195(ess 331044) 2=0.0496(ess 150076) 3=0.0941(ess 72314) 4=0.1490(ess 37610) 5=0.2091(ess 20925) 6=0.2689(ess 12319) 7=0.3239(ess 7605) 8=0.3710(ess 4891) 9=0.4084(ess 3259) 10=0.4354(ess 2241) 11=0.4523(ess 1586) 12=0.4599(ess 1150)
+  rises then falls? False  | j=0 0.0043  max 0.4599 at j=12
+
+bump centre 0.90 width 0.04 :  cost = <h>  (g = 1-h is 1 on the Shilov boundary to 1.7e-03)
+  j: 0=0.0007(ess 600000) 1=0.0039(ess 331044) 2=0.0115(ess 150076) 3=0.0251(ess 72314) 4=0.0454(ess 37610) 5=0.0725(ess 20925) 6=0.1057(ess 12319) 7=0.1438(ess 7605) 8=0.1853(ess 4891) 9=0.2287(ess 3259) 10=0.2725(ess 2241) 11=0.3151(ess 1586) 12=0.3555(ess 1150)
+  rises then falls? False  | j=0 0.0007  max 0.3555 at j=12
