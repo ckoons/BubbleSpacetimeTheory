@@ -1,0 +1,21 @@
+control vs Lyra's closed form c_nu(j,0) = (nu-5/2)/(j+nu):
+  nu=5/2  c(0,0)=0       closed 0       | c(3,0)=0       closed 0
+  nu=4    c(0,0)=3/8     closed 3/8     | c(3,0)=3/14    closed 3/14
+  nu=5    c(0,0)=1/2     closed 1/2     | c(3,0)=5/16    closed 5/16
+  nu=10   c(0,0)=3/4     closed 3/4     | c(3,0)=15/26   closed 15/26
+
+control vs Elie E4 split M/(L+M) at (0,1), nu = 5,4,3,5/2,2  (he printed .1091 .1250 .1600 .2000 .3000):
+  0.1091  0.1250  0.1600  0.2000  0.3000
+
+singularity control (Elie E1): nu = 3/2 at (0,k>0) divides by zero -> YES, reproduced independently
+
+(1) IS THE BRANCHING RATIO j-DEPENDENT?  matter share M/(L+M) at k=1, j=0..4
+  nu_S=5/2 Hardy   0.20000 0.20000 0.20000 0.20000 0.20000  -> j-blind? True
+  nu_B=5 Bergman   0.10909 0.14737 0.16552 0.17561 0.18182  -> j-blind? False
+  nu=4             0.12500 0.16000 0.17500 0.18286 0.18750  -> j-blind? False
+
+(2) THE THREE-WRITE WORD: P(exactly one matter step in three writes from the vacuum)
+  nu_S=5/2  P = 3/7            = 0.428571   (3/7 = 0.428571)
+  nu_B=5    P = 142/583        = 0.243568   (3/7 = 0.428571)
+  nu=4      P = 29/104         = 0.278846   (3/7 = 0.428571)
+  nu=10     P = 199/1066       = 0.186679   (3/7 = 0.428571)
