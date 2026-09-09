@@ -1,0 +1,24 @@
+A1: n = 1 returns Round 130's twelve rationals
+  [HIT] A1 (control)  12/12 exact
+A2: independent route — <|z|^4> from the exact kernel Gram, no recursion
+  (0,0): Gram <|z|^4> = 11/42 ;  recursion = 11/42  =   [0s]
+  (1,0): Gram <|z|^4> = 19/54 ;  recursion = 19/54  =   [0s]
+  (0,1): Gram <|z|^4> = 2/7 ;  recursion = 2/7  =   [0s]
+  (1,1): Gram <|z|^4> = 3/8 ;  recursion = 3/8  =   [0s]
+  (0,2): Gram <|z|^4> = 2141/7056 ;  recursion = 2141/7056  =   [0s]
+  [HIT] A2 (control)  recursion validated on an instrument sharing none of its steps
+A3: Keeper's K1885-PRE columns, exact
+   j |    1-<|z|^2>    |    1-<|z|^4>    |    1-<|z|^6>     (K1885-PRE MC: 0.4997/0.7378/0.8569 at j=0)
+   0 |       1/2 0.5000 |     31/42 0.7381 |       6/7 0.8571
+   1 |      5/12 0.4167 |     35/54 0.6481 |     25/32 0.7812
+   2 |      5/14 0.3571 |   355/616 0.5763 |       5/7 0.7143
+   3 |      5/16 0.3125 |   485/936 0.5182 |     21/32 0.6562
+  [HIT] A3  c2(0,0) = 31/42, c3(0,0) = 6/7; max deviation from Keeper's MC = 0.0017
+A4: vacuum commitment probability across the family, and the k = 0 lines
+  P(commit | vacuum), n = 1..6: ['1/2 = 0.5000', '11/42 = 0.2619', '1/7 = 0.1429', '163/2016 = 0.0809', '191/4032 = 0.0474', '53/1848 = 0.0287']
+  n=1: c_n(j,0), j=0..5: ['1/2', '5/12', '5/14', '5/16', '5/18', '1/4']
+  n=2: c_n(j,0), j=0..5: ['31/42', '35/54', '355/616', '485/936', '127/270', '161/374']
+  n=3: c_n(j,0), j=0..5: ['6/7', '25/32', '5/7', '21/32', '20/33', '9/16']
+  [HIT] A4 (control)  1/2, 11/42, 1/7 as hashed
+
+SCORE 4/4, of which 1/1 can-fail hit

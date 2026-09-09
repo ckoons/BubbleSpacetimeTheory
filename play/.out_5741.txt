@@ -1,0 +1,42 @@
+B1: power family |z|^{2n}, n = 1..8 — monotone in j, -> 0, and the rate
+  n=1: c_n(0,0) = 0.5000;  j*c_n(j,0) at j = 200/2000/20000: 2.4390 / 2.4938 / 2.4994   (5n/2 = 2.5)
+  n=2: c_n(0,0) = 0.7381;  j*c_n(j,0) at j = 200/2000/20000: 4.8425 / 4.9838 / 4.9984   (5n/2 = 5.0)
+  n=3: c_n(0,0) = 0.8571;  j*c_n(j,0) at j = 200/2000/20000: 7.2110 / 7.4701 / 7.4970   (5n/2 = 7.5)
+  n=4: c_n(0,0) = 0.9191;  j*c_n(j,0) at j = 200/2000/20000: 9.5452 / 9.9527 / 9.9953   (5n/2 = 10.0)
+  n=5: c_n(0,0) = 0.9526;  j*c_n(j,0) at j = 200/2000/20000: 11.8456 / 12.4316 / 12.4931   (5n/2 = 12.5)
+  n=6: c_n(0,0) = 0.9713;  j*c_n(j,0) at j = 200/2000/20000: 14.1128 / 14.9068 / 14.9906   (5n/2 = 15.0)
+  n=7: c_n(0,0) = 0.9821;  j*c_n(j,0) at j = 200/2000/20000: 16.3473 / 17.3783 / 17.4878   (5n/2 = 17.5)
+  n=8: c_n(0,0) = 0.9885;  j*c_n(j,0) at j = 200/2000/20000: 18.5497 / 19.8461 / 19.9845   (5n/2 = 20.0)
+  [HIT] B1  monotone and vanishing for n = 1..8, k = 0..3; j*c_n -> 5n/2 (k-independent: True)
+B2: the rho member — f = 1 - rho, rho = 1 - 2|z|^2 + |z.z|^2 (admissible, NOT a power of |z|^2)
+   exact k=0 line: ['1/7', '5/54', '5/77', '5/104', '1/27', '1/34']  = 10/((2j+7)(2j+10)) ? True
+   c_rho(0,0) = 1/7 = 0.1429  (my 5721 Monte Carlo: 0.1417 +- 0.0011)
+   c_rho(1,1) = 5/63 = 0.0794  (my 5721 Monte Carlo: 0.0786 +- 0.0011)
+   rate: j*c_rho at j = 200/2000/20000: 0.0120 / 0.0012 / 0.00012  ->  j^2*c_rho: 2.3971 / 2.4894 / 2.4989  (5/2 = 2.5)
+  [MISS] B2  monotone and cheaper at every cell: YES; MC cross-check: YES; RATE is 1/j^2 (j^2*c -> 2.499), NOT 5/(2j)*const — my hashed rate MISSES; the family is not one scale constant
+B3(i): other multiplication effects — 1 - f = (1-s)(s-c)^2, s = |z|^2, c in (0,1)
+   (1-s)(s-0)^2: values j=0,1,2,10,30: ['0.11905', '0.13310', '0.13799', '0.11007', '0.06004']  monotone False
+   (1-s)(s-3/10)^2: values j=0,1,2,10,30: ['0.02119', '0.03171', '0.03864', '0.04405', '0.02720']  monotone False
+   (1-s)(s-3/5)^2: values j=0,1,2,10,30: ['0.01333', '0.00532', '0.00357', '0.00803', '0.00721']  monotone False
+   (1-s)(s-9/10)^2: values j=0,1,2,10,30: ['0.09548', '0.05394', '0.03279', '0.00201', '0.00009']  monotone True
+   (1-s)(s-99/100)^2: values j=0,1,2,10,30: ['0.13767', '0.08314', '0.05409', '0.00606', '0.00046']  monotone True
+  [MISS] B3i  every multiplication effect tested is monotone decreasing in j
+B3(ii): the general K-invariant effect — Schur says ANY lambda(j,k) in [0,1] is admissible
+   lambda(j,0) -> 1 in the boundary limit but oscillates; cost: ['0.7500', '0.2083', '0.5357', '0.1562', '0.4167', '0.1250', '0.3409', '0.1042']  monotone: False
+  [HIT] B3ii  ORDER BREAKS: 'identity on the Shilov boundary' constrains a FUNCTION, not an operator's eigenvalues
+
+POST-HOC (unscored, added after the B3i miss — labelled as exploration, not a hashed line):
+  Why (1-s)s^2 breaks it: f = 1 - (1-s)s^2 = 1 - s^2 + s^3 has a NEGATIVE coefficient on s^2.
+  Exact costs for c = 0:  ['5/42', '115/864', '85/616', '517/3744', '403/2970', '395/2992']
+  CHARACTERISATION: <f> = sum_p a_p tau_p, and every tau_p rises with j (B1). So if f(s) = sum_p a_p s^p with a_p >= 0 and sum a_p = 1
+  (a probability MIXTURE of the boundary powers |z|^{2p}), the order is FORCED. Outside that cone it is not.
+  Alignment test — is 'f non-decreasing in s' the dividing line?
+    c=0: f non-decreasing in s on [0,1]: False;  cost monotone in j: False  -> aligned
+    c=3/10: f non-decreasing in s on [0,1]: False;  cost monotone in j: False  -> aligned
+    c=3/5: f non-decreasing in s on [0,1]: False;  cost monotone in j: False  -> aligned
+    c=9/10: f non-decreasing in s on [0,1]: False;  cost monotone in j: True  -> NOT aligned
+    c=99/100: f non-decreasing in s on [0,1]: True;  cost monotone in j: True  -> aligned
+  Aligned in 4 of 5: monotone-in-s is NOT the exact dividing line (c = 9/10 is non-monotone in s yet ordered in j).
+  What I can state exactly: the mixture cone (a_p >= 0) is SUFFICIENT and provable from B1; no necessary condition is claimed.
+
+SCORE 2/4, of which 2/4 can-fail hit

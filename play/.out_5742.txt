@@ -1,0 +1,18 @@
+E3: the physical spread across the commitment-effect family (m-cap cycle, 137 writes)
+  effect | P(commit|vacuum) | Sigma c (j0=0) | failed-push frac cycle 1 | Sigma c at j0=58 / 570 / 2329
+  n=1    |           0.5000 |        14.8103 |                  0.10810 | 3.7117 / 0.5631 / 0.14465
+  n=2    |           0.2619 |        26.3651 |                  0.19245 | 7.2985 / 1.1234 / 0.28911
+  n=3    |           0.1429 |        35.7843 |                  0.26120 | 10.7652 / 1.6810 / 0.43340
+  rho    |           0.8571 |         1.3022 |                  0.00951 | 0.0426 / 0.0009 / 0.00006
+  five-cycle series (failed-push fraction, full j-distribution carried):
+    n=1   : ['0.10810', '0.02709', '0.01642', '0.01183', '0.00926']
+    n=2   : ['0.19245', '0.05326', '0.03250', '0.02349', '0.01842']
+    n=3   : ['0.26120', '0.07855', '0.04827', '0.03499', '0.02747']
+    rho   : ['0.00951', '0.00031', '0.00011', '0.00006', '0.00003']
+  Sigma c(j0=0) spans 1.3022 (rho) to 35.7843 (n=3) — factor 27.48 across the family
+  ratio Sigma c(n=2)/Sigma c(n=1): at j0=0 1.7802; at j0=2329 1.9987  (2 is the large-j limit)
+  [HIT] C1  every quantity moves across the family; ordering rho < n=1 < n=2 < n=3 at every cell
+  [HIT] C2  Sigma c(n=2)/Sigma c(n=1) < 2 at j0 = 0 and -> 2 at large j0, as hashed
+  TRAP (named in the prereg, now seen): no ratio or difference between members is a BST integer; the factor above is a horizon count n, nothing else.
+
+SCORE 2/2, of which 2/2 can-fail hit
