@@ -1,0 +1,36 @@
+A1: is the zero at nu_Hardy = 5/2, and is it zero at EVERY (j,k)?
+   c_{nu=5/2}(j,k) over j,k = 0..5: all exactly zero
+   at nu_floor = 3/2: M_nu has denominator j + nu - 3/2 = j, so (j,k) = (0,k>0) is a POLE -> undefined (division by zero) — the floor is singular, not a zero
+  [HIT] A1  identically zero at nu_Hardy = 5/2 for all (j,k); L+M = (k+3)/(2k+3) + k/(2k+3) = 1
+A2: the constant across the admissible range, k = 0 line c_nu(j,0) = (nu - 5/2)/(j + nu)
+   nu=5    : constant 5/2    c(j,0) = ['1/2', '5/12', '5/14', '5/16']  matches: True  
+   nu=4    : constant 3/2    c(j,0) = ['3/8', '3/10', '1/4', '3/14']  matches: True  
+   nu=3    : constant 1/2    c(j,0) = ['1/6', '1/8', '1/10', '1/12']  matches: True  
+   nu=5/2  : constant 0      c(j,0) = ['0', '0', '0', '0']  matches: True  
+   nu=2    : constant -1/2   c(j,0) = ['-1/4', '-1/6', '-1/8', '-1/10']  matches: True  <- NEGATIVE: <|z|^2> > 1, impossible for a measure on the ball
+   nu=7/4  : constant -3/4   c(j,0) = ['-3/7', '-3/11', '-1/5', '-3/19']  matches: True  <- NEGATIVE: <|z|^2> > 1, impossible for a measure on the ball
+  [HIT] A2 (control)  positive above 5/2, zero at it, negative below it
+A3: where is the weight-nu norm an integral against a positive measure on D? nu > n - 1 = 4 (else no measure; nu_Hardy is L^2 on the Shilov boundary)
+  [HIT] A3 (control)  Born reading available at nu_Bergman = 5; not at 5/2 < nu < 4
+B1: the other reading — R_nu(j,k) = (nu)_{j+k}(nu-3/2)_j / [(5/2)_{j+k}(1)_j]
+   R_5(j,k) at (0,0),(1,1),(2,3): ['1', '12', '12096/143']  and 1 - 1/R: ['0.0000', '0.9167', '0.9882'] (5721 P5: 1, 12, 12096/143; 0 -> 0.987)
+   nu=5    : R_nu(j+1,0)/R_nu(j,0) = ['7', '27/7', '77/27', '26/11']  -> rises
+   nu=4    : R_nu(j+1,0)/R_nu(j,0) = ['4', '5/2', '2', '7/4']  -> rises
+   nu=3    : R_nu(j+1,0)/R_nu(j,0) = ['9/5', '10/7', '35/27', '27/22']  -> rises
+   nu=5/2  : R_nu(j+1,0)/R_nu(j,0) = ['1', '1', '1', '1']  -> constant
+   nu=2    : R_nu(j+1,0)/R_nu(j,0) = ['2/5', '9/14', '20/27', '35/44']  -> falls
+  [HIT] B1  ratio formula exact; R_nu rises iff nu > 5/2, falls iff nu < 5/2, == 1 at 5/2
+B2: is there ANY admissible nu at which both readings are positive costs falling in j?
+   nu=5    : reading (a) positive True  falling True  | reading (b) 1-1/R positive True  falling False
+   nu=9/2  : reading (a) positive True  falling True  | reading (b) 1-1/R positive True  falling False
+   nu=4    : reading (a) positive True  falling True  | reading (b) 1-1/R positive True  falling False
+   nu=7/2  : reading (a) positive True  falling True  | reading (b) 1-1/R positive True  falling False
+   nu=3    : reading (a) positive True  falling True  | reading (b) 1-1/R positive True  falling False
+   nu=11/4 : reading (a) positive True  falling True  | reading (b) 1-1/R positive True  falling False
+   nu=5/2  : reading (a) positive False falling False | reading (b) 1-1/R positive True  falling False
+   nu=9/4  : reading (a) positive False falling False | reading (b) 1-1/R positive False falling True 
+   nu=2    : reading (a) positive False falling False | reading (b) 1-1/R positive False falling True 
+   nu=7/4  : reading (a) positive False falling False | reading (b) 1-1/R positive False falling True 
+  [HIT] B2  NO admissible weight gives both as positive falling costs (0 found); above 5/2 they are exactly opposed, at 5/2 both are trivial, below 5/2 (a) is negative
+
+SCORE 5/5, of which 3/3 can-fail hit

@@ -1,0 +1,33 @@
+C1: the Berezin parameter is dimensionless; the physical hbar is not
+   nu = 5: hbar_Berezin = 1/nu = 0.2000 (dimensionless, order one — maximally quantum)
+   nu = 5/2: hbar_Berezin = 1/nu = 0.4000 (dimensionless, order one — maximally quantum)
+   physical hbar = 1.054572e-34 J s;  1/hbar in SI = 9.4825e+33
+   gap between nu_Bergman = 5 and 1/hbar_SI: factor 1.897e+33
+   To equate them the domain needs an ACTION unit. The corpus's own floor (T2623 negative row; K1879) says there is
+   no record->spacetime map, no momentum and no energy in the dictionary — so no action unit exists to fix one.
+  [HIT] C1 (control)  the units do not connect; the SI gap is ~2e33 and unbridged by anything in the corpus
+C2: if the reading were inherited literally — two rows at nu = 5 and nu = 5/2 assert two Berezin constants in ratio 2
+   A factor 2 in a physical hbar rescales every atomic transition; the Rydberg constant is measured to ~1e-12 relative.
+   So the literal inheritance is excluded by about twelve orders of magnitude. The surviving reading is TWO SPACES, not two values.
+  [HIT] C2 (control)  literal two-hbar reading is dead on arrival; the collision is of spaces
+D1: the classical limit nu -> infinity
+   nu =      5: c_nu(0,0) = 0.500000   c_nu(1,1) = 0.396825   <|z|^2> at (0,0) = 0.500000
+   nu =     50: c_nu(0,0) = 0.950000   c_nu(1,1) = 0.922688   <|z|^2> at (0,0) = 0.050000
+   nu =    500: c_nu(0,0) = 0.995000   c_nu(1,1) = 0.992028   <|z|^2> at (0,0) = 0.005000
+   nu =   5000: c_nu(0,0) = 0.999500   c_nu(1,1) = 0.999200   <|z|^2> at (0,0) = 0.000500
+   nu =  50000: c_nu(0,0) = 0.999950   c_nu(1,1) = 0.999920   <|z|^2> at (0,0) = 0.000050
+  [HIT] D1 (control)  c_nu -> 1 and <|z|^2> -> 0: the states concentrate at the origin, the coherent-state classical limit
+D2: is the write branching nu-independent, as I hashed?
+   the NORM split at weight nu: M_nu/(L_nu+M_nu) at k = 1, j = 0:
+     nu = 5    : 6/55         = 0.10909
+     nu = 4    : 1/8          = 0.12500
+     nu = 3    : 4/25         = 0.16000
+     nu = 5/2  : 1/5          = 0.20000
+     nu = 2    : 3/10         = 0.30000
+   the norm split MOVES with nu: True  -> my hashed reason ('the branching is nu-independent') is WRONG as stated.
+   What is true, and it is sharper: at nu = 5/2 exactly, L = (k+3)/(2k+3) and M = k/(2k+3) — which ARE K1860-A's branching
+   probabilities, at every (j,k): True. So the corpus's write chain is ALREADY NORMALISED AT THE HARDY POINT,
+   and the push cost is a Bergman-point object. The two weights are not in two rows — they are in one sentence.
+  [MISS] D2  MISS as hashed: the norm split moves with nu (['0.1091', '0.1250', '0.1600', '0.2000', '0.3000']); the branching is nu-free only because it IS the nu = 5/2 split — the chain lives at the Hardy point
+
+SCORE 3/4, of which 0/1 can-fail hit
