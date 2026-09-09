@@ -133,4 +133,15 @@ A grep for "dilation" to reconnect Round 133 will return the lapse 24 times and 
 | **the transition reading** (Cal §930 (b); Lyra L3) | the Hardy-over-Bergman norm ratio R(j,k) = (5)_{j+k}(7/2)_j / [(5/2)_{j+k}(1)_j] — Elie already has it exactly (5721 P5) | commitment becomes LESS likely (0 → 0.987 the other way) | the physical reading the whole lane was built on ("commitments become reliable as the clock advances"); and Cal ruled this object inadmissible AS AN EFFECT in §929 because its eigenvalues run to zero |
 **Rule until C3 rules:** a sentence about "the push" that carries a DIRECTION must say which reading it is using, and neither may be called "the" push cost. The order-level claim that survived Round 136 (a limit, not a monotonicity — Cal §928) belongs to the cost reading only.
 
+## 11. Round 140 (12:37): **"the Bergman exponent of D_IV⁵"** — FIVE values in the corpus for ONE object, two of them BST expressions (Cal §937 called this the table's largest entry of the week)
+| value | what it actually is | where | verdict |
+|---|---|---|---|
+| **5** | **the genus p = (r−1)a + b + 2 = the Bergman kernel exponent. PINNED: Xiao–Yuan arXiv:1606.04806v1, p. 5 eq. (4), K = c_IV(1 − ZZ̄^t + ¼∣ZZ^t∣²)^{−m}; cross-checked by their Thm 1.1 isometry constant m/(n+1) = genus ratio; ball control 𝔹^m → m+1 ✓** | Lyra R139 L0; CLAUDE.md's May-28 pin | **THE DOMAIN'S NUMBER** |
+| **5/2** | the same, per rank (= ν_H, the Hardy point — see §10) | May-28 pin; this week's instruments | **correct, different convention** |
+| **6** | the genus of the UNIT BALL 𝔹⁵ | T1918 + toy 2349 ("the Bergman genus is C₂") | **WRONG — the wrong domain's genus, and it equals a BST integer, which is why it survived four months (Cal §934)** |
+| **7/2 = g/rank** | a BST expression; g = 7 is a DEFINITION of this theory and is not the genus of anything | T2334 (definitional), T2401, T2406, T2407, T2413, T2428, T2432 and 20 more — the 29-row correction pass | **WRONG as a domain quantity** |
+| **9/2 = (g+rank)/rank** | a second BST expression, and g := n_C + rank makes it (n+4)/2 | T2403, T2445's proof, T2446's criteria table, T2467 | **WRONG, and circular where it is used to force n (T2445 STRUCK)** |
+**Two of the five are BST expressions, neither is the domain's number, and the corpus used BOTH of them, in different rows, for the same object.** The fifth column is why: 6 = C₂ and 7/2 and 9/2 are built from primaries, so every wrong value looked BST-natural. **Reading rule: "the Bergman exponent" must never appear without its value and its source; a row that writes it as a ratio of BST integers is stating a definition, not a domain invariant.**
+**A sixth object with the same digits, listed so it is not swept with them:** **π^{9/2} in c_FK = 225/π^{9/2}** is a VOLUME-NORMALISATION exponent, not a kernel exponent (T2403's (e4) writes it N_c²/rank). It sits in T2442 (C13), T2403, T2449, T2452, T2457, T2467, T2483. Round 140 reports the true volume needs **π^5**, leaving that expression a factor of eight out — **a wrong value, not an empty one, and the criterion built on it is held rather than struck.**
+
 — Grace
