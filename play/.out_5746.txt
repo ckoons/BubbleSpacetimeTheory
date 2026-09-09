@@ -1,0 +1,33 @@
+P1 POSITIVE CONTROL — the unit ball B^5
+  Probe H: which nu makes <|z|^2> == 1 for every m?
+   sweep nu = 4, 9/2, 5, 11/2, 6, 7 -> ['5'] (the Shilov boundary of B^5 is the sphere, where |z|^2 = 1)
+  Probe B: uniform Monte Carlo in B^5 against the weight-nu prediction 1 - <|z|^2> = (nu-5)/(nu+m)
+   ball samples: 10029
+   m=0: MC <|z|^2> = 0.8319 +- 0.0017;  nu=6 predicts 0.8333;  nu=5 predicts 1.0000
+   m=1: MC <|z|^2> = 0.8559 +- 0.0019;  nu=6 predicts 0.8571;  nu=5 predicts 1.0000
+   m=2: MC <|z|^2> = 0.8749 +- 0.0020;  nu=6 predicts 0.8750;  nu=5 predicts 1.0000
+   m=3: MC <|z|^2> = 0.8903 +- 0.0022;  nu=6 predicts 0.8889;  nu=5 predicts 1.0000
+  [HIT] P1  Probe H -> nu_Hardy(B^5) = 5 uniquely; Probe B -> nu_Bergman(B^5) = 6; RATIO = 6/5, the row's number, reproduced
+P2 — D_IV^5
+  Probe H: which nu makes <|z|^2> == 1 for every word (j,k)?
+   sweep nu = 2, 9/4, 5/2, 3, 4, 5, 6 -> ['5/2']
+  Probe B: uniform Monte Carlo on the Lie ball against the weight-nu prediction
+   Lie-ball samples: 11198
+   (0,0) vacuum          : MC <|z|^2> = 0.5002 +- 0.0010;  nu=5 predicts 0.5000;  nu=5/2 predicts 1.0000
+   (0,1) one light write : MC <|z|^2> = 0.5257 +- 0.0014;  nu=5 predicts 0.5238;  nu=5/2 predicts 1.0000
+   (1,0) one winding     : MC <|z|^2> = 0.5862 +- 0.0014;  nu=5 predicts 0.5833;  nu=5/2 predicts 1.0000
+  [HIT] P2  Probe H -> nu_Hardy(D_IV^5) = 5/2 uniquely; Probe B -> nu_Bergman = 5; RATIO = 5/(5/2) = 2
+P3 — the two families
+   B^2: nu_H = 2, nu_B = 3, ratio = 3/2   |      B^3: nu_H = 3, nu_B = 4, ratio = 4/3   |      B^4: nu_H = 4, nu_B = 5, ratio = 5/4   |      B^5: nu_H = 5, nu_B = 6, ratio = 6/5   |      B^6: nu_H = 6, nu_B = 7, ratio = 7/6   |      B^7: nu_H = 7, nu_B = 8, ratio = 8/7   |      B^8: nu_H = 8, nu_B = 9, ratio = 9/8   |   
+   D_IV^3: nu_H = 3/2, nu_B = 3, ratio = 2   |      D_IV^4: nu_H = 2, nu_B = 4, ratio = 2   |      D_IV^5: nu_H = 5/2, nu_B = 5, ratio = 2   |      D_IV^6: nu_H = 3, nu_B = 6, ratio = 2   |      D_IV^7: nu_H = 7/2, nu_B = 7, ratio = 2   |      D_IV^8: nu_H = 4, nu_B = 8, ratio = 2   |   
+   (n+1)/n at n=5 is 6/5 = C_2/n_C = 6/5: the ball's formula and a BST ratio agree at n = 5 ONLY
+  [HIT] P3  D_IV^n ratio is 2 at every n; B^d ratio is (d+1)/d; they coincide at no n
+P4 — propagation, both branches priced, no ruling (Cal C1)
+   observed alpha_G = G m_p^2/(hbar c) = 5.9061e-39
+   row as registered: (C_2^2/n_C) e^-90 = (36/5) e^-90 = 5.8997e-39  -> 0.11% from observed
+   if the kernel sentence is LOAD-BEARING (prefactor = C_2 x ratio = 6 x 2 = 12): 9.8328e-39  -> 66.5% from observed
+   if DECORATIVE (prefactor = C_2^2/n_C as a BST ratio): number untouched, justification struck. Ratio of the two answers = 1.6667 = 5/3
+  [HIT] P4 (control)  row 0.11% vs load-bearing 66% miss; both priced, Cal rules
+   DOWNSTREAM HELD: T1485 (Lambda), Toy 2350, the H_0 closure at 0.12%, T1924's joint anchor if it inherits.
+
+SCORE 4/4, of which 3/3 can-fail hit
