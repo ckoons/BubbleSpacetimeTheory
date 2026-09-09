@@ -1,0 +1,54 @@
+A1 — does the assigned (r,a,b) reproduce each family's dimension?  dim = r + a*r(r-1)/2 + b*r
+   I_{1,1}    r=1 a=2 b=0: formula dim =   1  known =   1  ok
+   I_{1,2}    r=1 a=2 b=1: formula dim =   2  known =   2  ok
+   I_{1,3}    r=1 a=2 b=2: formula dim =   3  known =   3  ok
+   I_{1,4}    r=1 a=2 b=3: formula dim =   4  known =   4  ok
+   II_5       r=2 a=4 b=2: formula dim =  10  known =  10  ok
+   III_3      r=3 a=1 b=0: formula dim =   6  known =   6  ok
+   IV_5       r=2 a=3 b=0: formula dim =   5  known =   5  ok
+   V(E6)      r=2 a=6 b=4: formula dim =  16  known =  16  ok
+   VI(E7)     r=3 a=8 b=0: formula dim =  27  known =  27  ok
+  [HIT] A1 (control)  all 66 assignments reproduce the dimension (0 mismatches)
+A2 — does the genus formula match the exponents I MEASURED in 5746 (no table involved)?
+   B^2: genus from root data = 3, my 5746 Bergman probe = 3  ok
+   B^3: genus from root data = 4, my 5746 Bergman probe = 4  ok
+   B^4: genus from root data = 5, my 5746 Bergman probe = 5  ok
+   B^5: genus from root data = 6, my 5746 Bergman probe = 6  ok
+   B^6: genus from root data = 7, my 5746 Bergman probe = 7  ok
+   D_IV^5: genus from root data = 5, my 5746 probes gave nu_Bergman = 5, nu_Hardy = 5/2 = genus/2  ok
+  [HIT] A2 (control)  root data and my own measured exponents agree on both domains
+A3 — the multiplicity a across the classification, and the a = 3 sweep
+   a by family: I -> 2 (every p,q) | II -> 4 | III -> 1 | IV_n -> n-2 | V -> 6 | VI -> 8
+   domains with a = 3: ['IV_5']
+  [HIT] A3  a = 3 is a SINGLETON: D_IV^5, with no rank input and no dimension input
+A4 — SCOPE: what happens at rank 1?
+   the coefficient of a in the dimension formula is r(r-1)/2, which is 0 at r = 1:
+   a does NOT enter the root data of a rank-one domain, so a rank-one domain has no characteristic multiplicity of its own.
+   rank-one entries in the sweep (the balls): ['I_{1,1}', 'I_{1,2}', 'I_{1,3}', 'I_{1,4}', 'I_{1,5}', 'I_{1,6}', 'I_{1,7}', 'I_{1,8}'] ... all carry the FAMILY value a = 2
+   convention (i) family table: the balls read a = 2, so a = 3 EXCLUDES them.
+   convention (ii) root system of this domain: a is undefined at r = 1, so a = 3 is SILENT on them and the theorem needs 'rank >= 2' in its scope.
+  [MISS] A4  the two conventions give different scope sentences; the row must pick one and I pick neither
+A5 — FALSIFIER: reducible domains
+   a product has a single characteristic multiplicity exactly when all factors share one, so:
+     D_IV^5 x 2 factors: every factor has a = 3 -> the product has a = 3
+     D_IV^5 x 3 factors: every factor has a = 3 -> the product has a = 3
+     D_IV^5 x 4 factors: every factor has a = 3 -> the product has a = 3
+     D_IV^5 x B^q: factors have a = 3 and a = 2 (or undefined) -> no single a, excluded automatically
+  [HIT] A5  IRREDUCIBILITY IS LOAD-BEARING: powers of D_IV^5 also satisfy a = 3 and are excluded only by the irreducibility hypothesis
+   non-classical: the Cartan classification of IRREDUCIBLE bounded symmetric domains is complete at six families (four classical, two exceptional); both exceptionals are in the sweep (a = 6, 8).
+A6 — E2: pricing the second identification (generations = rank + 1 = 3, i.e. rank 2)
+   |{a = 3}| = 1 -> ['IV_5']
+   |{rank = 2}| with my dim cap 30 = 28 families; WITHOUT a cap it is infinite (I_(2,q) and IV_n are unbounded families)
+   |{a = 3 and rank = 2}| = 1 -> ['IV_5']
+  [HIT] A6  the conjunction is the SAME singleton: adding rank removes nothing, so it carries zero information — a consistency check that PASSES and explicitly NOT evidence
+
+POST-HOC on the A4 MISS (unscored, labelled — added after the run; the hashed predicate stands as missed):
+  My predicate assumed every rank-one entry carries the family value a = 2. It does not, and that makes the point STRONGER.
+  The DISC (dim 1, rank 1) appears in the sweep under these labels with these family multiplicities: [('I_{1,1}', 2), ('II_2', 4), ('III_1', 1)]
+  I_(1,1) says a = 2, III_1 says a = 1, II_2 says a = 4 — one and the same domain, three different 'characteristic multiplicities'.
+  All three are consistent precisely because a does not enter any formula at r = 1 (its coefficient r(r-1)/2 is zero).
+  CONCLUSION: at rank one the characteristic multiplicity is a property of the LABEL, not of the domain. So convention (ii) is
+  the correct reading, and the theorem's scope sentence needs 'of rank at least two' — which is a (mild) rank presupposition
+  inside a criterion advertised as needing no rank input. The singleton at a = 3 is untouched; the SCOPE sentence is not.
+
+SCORE 5/6, of which 3/4 can-fail hit
