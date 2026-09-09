@@ -1,0 +1,23 @@
+C4 — 'GF(2^g) cyclotomic Reed-Solomon compatibility (Mersenne g=7)'
+  READING (i), as written: side A is 2^7 - 1 = 127, prime? -> the expression contains NO domain.
+   verdict over all 39 candidate domains with dim <= 12: {True} — identical for every one
+  [HIT] C4-i  the verdict does not depend on the domain: as written, C4 discriminates NOTHING
+  READING (ii), honest: side A = 2^genus - 1 is prime, genus from root data
+   D_IV_5: genus 5, 2^5-1 = 31, prime = True  <- PASSES on the honest reading
+   D_I_(1,5): genus 6, 2^6-1 = 63 = 9*7, prime = False  <- still fails
+   domains passing (dim <= 12): 16 -> ['I_{1,1}', 'I_{1,2}', 'I_{1,4}', 'I_{1,6}', 'I_{1,12}', 'I_{2,3}', 'I_{2,5}', 'I_{3,4}', 'II_2', 'III_1', 'III_2', 'III_4', 'IV_2', 'IV_3']
+  [HIT] C4-ii  honest C4 survives for D_IV^5 but is WEAK: 16 domains pass, not one
+C5 — 'five BST primary integers forced by structure'
+   Side A would have to be a root-data quantity that yields {rank, N_c, n_C, C_2, g}. Every route to it imports the integers
+   it is meant to force (C_2 = rank*N_c and g = n_C + rank are DEFINITIONS). No BST-integer-free side A exists.
+  [HIT] C5 (control)  EMPTY, not failed: the criterion is the conclusion restated
+C7 — 'c_FK = (N_c*n_C)^2 / pi^((g+rank)/rank) reproduces the classical Faraut-Koranyi volume'
+   side A, classical: Vol(D_IV^n) = pi^n / (2^(n-1) n!). Checks with no BST input:
+     n=1 (the disc): formula 3.141593 vs pi = 3.141593
+     n=2 (bidisc under the Cartan map, Jacobian 4): formula 2.467401 vs pi^2/4 = 2.467401
+     n=5 Monte Carlo: 9330/60000000 accepted in a box of volume 2^10 -> Vol = 0.159232 vs formula 0.159385  (0.10% apart)
+   the power of pi the volume actually requires is n = 5 (the DIMENSION, a domain invariant), not (g+rank)/rank = 9/2
+   the row's expression = 225/pi^4.5 = 1.303191;  the true volume = 0.159385;  factor 8.18 apart
+  [HIT] C7  side A is BST-free and gives exponent n = 5; the row's 9/2 is built from g AND misses the volume by 8.17x
+
+SCORE 4/4, of which 3/3 can-fail hit

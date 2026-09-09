@@ -1,0 +1,54 @@
+Side A = genus/rank, genus = (r-1)a + b + 2 from root data (I: p+q, II: 2n-2, III: n+1, IV: n). No BST integer anywhere.
+domain        dim  rank  genus  genus/rank
+III_1           1     1      2       2
+II_2            1     1      2       2
+IV_1            1     2      1     1/2
+I_{1,1}         1     1      2       2
+IV_2            2     2      2       1
+I_{1,2}         2     1      3       3
+III_2           3     2      3     3/2
+II_3            3     1      4       4
+IV_3            3     2      3     3/2
+I_{1,3}         3     1      4       4
+IV_4            4     2      4       2
+I_{1,4}         4     1      5       5
+I_{2,2}         4     2      4       2
+IV_5            5     2      5     5/2  <== 5/2
+I_{1,5}         5     1      6       6
+III_3           6     3      4     4/3
+II_4            6     2      6       3
+IV_6            6     2      6       3
+I_{1,6}         6     1      7       7
+I_{2,3}         6     2      5     5/2  <== 5/2
+IV_7            7     2      7     7/2  <== 7/2 (the row's target)
+I_{1,7}         7     1      8       8
+IV_8            8     2      8       4
+I_{1,8}         8     1      9       9
+I_{2,4}         8     2      6       3
+IV_9            9     2      9     9/2
+I_{1,9}         9     1     10      10
+I_{3,3}         9     3      6       2
+II_5           10     2      8       4
+IV_10          10     2     10       5
+I_{1,10}       10     1     11      11
+I_{2,5}        10     2      7     7/2  <== 7/2 (the row's target)
+IV_11          11     2     11    11/2
+I_{1,11}       11     1     12      12
+IV_12          12     2     12       6
+I_{1,12}       12     1     13      13
+I_{2,6}        12     2      8       4
+I_{3,4}        12     3      7     7/3
+
+  genus/rank = 5/2 (D_IV^5's true value): ['I_{2,3}', 'IV_5']
+  genus/rank = 7/2 (the row's target, built as (n_C+rank)/rank = g/rank): ['I_{2,5}', 'IV_7']
+  [HIT] S1  5/2 is achieved by TWO domains: D_IV^5 (dim 5) and D_I_{2,3} (dim 6, genus 5, rank 2)
+  [HIT] S2  7/2 is achieved by TWO domains: D_IV^7 (dim 7) and D_I_{2,5} (dim 10, genus 7, rank 2)
+  the row's own D_IV line wrote side A as (n+2)/2, i.e. (n_C + rank)/rank = g/rank, while its competitor column used the
+  TRUE type I genus (p+q)/min(p,q). Two kinds of object across two domains — Cal's finding, priced here:
+   under the row's target 7/2: D_IV^5 is EXCLUDED (its true value is 5/2) and 2 other domains are admitted
+   under the honest target 5/2: D_IV^5 is admitted together with 1 other domain(s)
+  [HIT] S3  under NEITHER target does C3 uniquely select anything — the criterion has no discriminating power at rank 2
+
+  REFUSAL CARRIED: this is a fact about one broken criterion. It is not a proposal to change domains and I make none.
+
+SCORE 3/3, of which 3/3 can-fail hit
