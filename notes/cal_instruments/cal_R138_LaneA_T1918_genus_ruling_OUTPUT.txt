@@ -1,0 +1,17 @@
+observed alpha_G = G m_p^2/(hbar c) = 5.90615e-39
+
+genus of a bounded symmetric domain: p = (r-1)a + b + 2
+  unit ball B^5      r=1 a=0 b=4 -> p = 6
+  D_IV^5 (Lie ball)  r=2 a=3 b=0 -> p = 5
+  D_IV^n:  r=2, a=n-2, b=0 -> p = (n-2)+0+2 = n      [Bergman kernel h^-n]
+  B^n:     r=1, a=0,   b=n-1 -> p = n+1              [Bergman (1-<z,w>)^-(n+1)]
+  Szego exponent: D_IV^n -> n/2  (h^-n/2)   =>  Bergman/Szego RATIO = 2 at every n
+  B^n -> n                                  =>  ratio = (n+1)/n   <-- the row's formula
+
+coefficient candidates against the 0.11%% claim:
+  36/5 = C_2^2/n_C (as registered)           alpha_G = 5.89969e-39   dev   -0.11%
+  g_Bergman^2/n_C with the TRUE genus 5 -> 25/5 alpha_G = 4.09701e-39   dev  -30.63%
+  C_2 x true ratio 2 = 12                    alpha_G = 9.83282e-39   dev  +66.48%
+  C_2 x (genus/dim = 5/5 = 1) = 6            alpha_G = 4.91641e-39   dev  -16.76%
+
+T1485 / H_0 refinement factor used in toy 2350: C_2/n_C = 1.2 (numerically unchanged by the ruling)
