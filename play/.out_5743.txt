@@ -1,0 +1,33 @@
+G1: control — the family at nu = n reproduces 5724's matter word and 5730's twelve rationals
+   c(1,1) at n = 3..7: ['12/35', '3/8', '25/63', '33/80', '14/33']  (5724: 12/35, 3/8, 25/63, 33/80, 14/33)
+  [HIT] G1 (control)  family line and the twelve rationals both exact
+G2: control — c_1(j,0) = n/(2(j+n)) and j*c_p -> p*n/2
+   n = 3..8, j = 0..59: c_1(j,0) = n/(2(j+n)) exactly: True
+   n=4: j*c_p(j,0) at j = 20000, p = 1,2,3: [1.9996, 3.999, 5.9981]   (p*n/2 = [2.0, 4.0, 6.0])
+   n=5: j*c_p(j,0) at j = 20000, p = 1,2,3: [2.4994, 4.9984, 7.497]   (p*n/2 = [2.5, 5.0, 7.5])
+   n=6: j*c_p(j,0) at j = 20000, p = 1,2,3: [2.9991, 5.9977, 8.9957]   (p*n/2 = [3.0, 6.0, 9.0])
+  [HIT] G2 (control)  exact k=0 line and the p*n/2 limit at three dimensions
+G3: THE DISCRIMINATOR — the k = 0 line at free weight parameter nu
+   n=5, nu=5: constant nu - n/2 = 5/2;  c_1(j,0), j=0..3 = ['1/2', '5/12', '5/14', '5/16']  matches (nu-n/2)/(j+nu): True
+   n=5, nu=4: constant nu - n/2 = 3/2;  c_1(j,0), j=0..3 = ['3/8', '3/10', '1/4', '3/14']  matches (nu-n/2)/(j+nu): True
+   n=5, nu=3: constant nu - n/2 = 1/2;  c_1(j,0), j=0..3 = ['1/6', '1/8', '1/10', '1/12']  matches (nu-n/2)/(j+nu): True
+   n=5, nu=5/2: constant nu - n/2 = 0;  c_1(j,0), j=0..3 = ['0', '0', '0', '0']  matches (nu-n/2)/(j+nu): True
+   n=4, nu=4: constant nu - n/2 = 2;  c_1(j,0), j=0..3 = ['1/2', '2/5', '1/3', '2/7']  matches (nu-n/2)/(j+nu): True
+   n=6, nu=6: constant nu - n/2 = 3;  c_1(j,0), j=0..3 = ['1/2', '3/7', '3/8', '1/3']  matches (nu-n/2)/(j+nu): True
+   n=6, nu=4: constant nu - n/2 = 1;  c_1(j,0), j=0..3 = ['1/4', '1/5', '1/6', '1/7']  matches (nu-n/2)/(j+nu): True
+  [HIT] G3  c_1(j,0) = (nu - n/2)/(j + nu) exactly; at the Hardy point nu = n/2 the cost is identically ZERO
+G4: independent instrument — the kernel Gram at exponent -nu (not -n)
+   nu=4 (0,0): Gram c = 3/8 ; recursion = 3/8  =
+   nu=4 (1,0): Gram c = 3/10 ; recursion = 3/10  =
+   nu=4 (0,1): Gram c = 9/25 ; recursion = 9/25  =
+   nu=4 (1,1): Gram c = 2/7 ; recursion = 2/7  =
+   nu=3 (0,0): Gram c = 1/6 ; recursion = 1/6  =
+   nu=3 (1,0): Gram c = 1/8 ; recursion = 1/8  =
+   nu=3 (0,1): Gram c = 1/6 ; recursion = 1/6  =
+   nu=3 (1,1): Gram c = 3/25 ; recursion = 3/25  =
+  [HIT] G4  the nu-generalised kernel Gram confirms the recursion off the Bergman point
+VERDICT: rank = 2 throughout; for type IV genus = dimension = n so the D_IV sweep alone cannot separate them;
+  the nu sweep does: the constant is nu - n/2, the gap from the Wallach/Hardy point. At the Bergman point nu = n it equals n/2,
+  which is why it reads as '5/2' on D_IV^5. 'The dimension appears in the commitment law' is a shared-integer reading.
+
+SCORE 4/4, of which 2/2 can-fail hit
