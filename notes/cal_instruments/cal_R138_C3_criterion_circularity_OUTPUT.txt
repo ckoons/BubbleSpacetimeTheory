@@ -1,0 +1,27 @@
+genus p = (r-1)a + b + 2   [standard root data]
+  D_IV^n (Lie ball)  r=2        a=n-2  b=0     -> p = n
+  D_I_{p,q}          r=min(p,q) a=2    b=|p-q| -> p = p+q
+  B^n = D_I_{1,n}    r=1        a=0    b=n-1   -> p = n+1
+
+  D_IV^n: r=2, a=n-2, b=0  ->  p = (n-2)+0+2 = n        [NOT n+2]
+  cross-checks of p = n:  n=1 Lie ball = disc, h=(1-zw)^2, h^-1 = (1-zw)^-2 = disc Bergman  OK
+                          n=2 Lie ball = bidisc, h = prod(1-z_i w_i), h^-2 = bidisc Bergman OK
+  corpus's own pin (CLAUDE.md, 2026-05-28): 'genus = n_C = 5 ... kernel exponent = 5/2'    OK
+
+per-rank Bergman exponent p/r:
+   D_IV^3 : true p/r = 3/2 = 1.5    |  the rows' formula (n+2)/2 = 2.5
+   D_IV^4 : true p/r = 4/2 = 2.0    |  the rows' formula (n+2)/2 = 3.0
+   D_IV^5 : true p/r = 5/2 = 2.5    |  the rows' formula (n+2)/2 = 3.5
+   D_IV^6 : true p/r = 6/2 = 3.0    |  the rows' formula (n+2)/2 = 4.0
+   D_IV^7 : true p/r = 7/2 = 3.5    |  the rows' formula (n+2)/2 = 4.5
+
+WHAT THE ROWS' FORMULA IS:  g := n_C + rank = n + 2  (BST's own definition of g)
+   so the rows' 'domain invariant' (n+2)/2 IS g/rank, identically, for EVERY n.
+   The test 'does the domain's exponent equal g/rank?' is therefore TRUE BY CONSTRUCTION at every n,
+   and 'at n=5 it gives 7/2' only restates that g=7 when n_C=5.  It discriminates no n.
+
+WITH THE TRUE INVARIANT p/r = n/2, the criterion 'p/r = g/rank' reads n/2 = (n+2)/2, i.e. 0 = 2:
+   UNSATISFIABLE for every n. And if one instead solves n/2 = 7/2 one gets n = 7, i.e. D_IV^7, not D_IV^5.
+
+Does the D_I EXCLUSION survive?  compare true D_IV^5 value against D_I at complex dim 5:
+   D_IV^5 p/r = 5/2 = 2.5 ;  D_I_{1,5} p/r = 6/1 = 6 ;  D_I_{5,1} = 6   ->  still different, exclusion SURVIVES numerically
