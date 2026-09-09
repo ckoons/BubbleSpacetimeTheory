@@ -1,0 +1,14 @@
+constraints (i)-(iv) alone, n <= 200:
+  survivors: [5, 11, 13, 19, 21, 27, 29, 35, 37, 43, 45, 51, 53, 59] ...  count = 49
+  pattern: n = 5, 11, 13 mod 8 -> {5,11,13} + 16k  ; INFINITE. 5 is the SMALLEST, not the unique.
+
+what kills 11 and 13?  the corpus identifies N_c = n - 2 (constraint iv's own definition).
+   n = 5   -> N_c = n-2 = 3   <-- matches the MEASURED three colours
+   n = 11  -> N_c = n-2 = 9   
+   n = 13  -> N_c = n-2 = 11  
+   n = 19  -> N_c = n-2 = 17  
+   n = 21  -> N_c = n-2 = 19  
+   n = 27  -> N_c = n-2 = 25  
+
+=> With N_c = 3 as a MEASURED input, N_c = n - 2 forces n = 5 UNIQUELY (one solution, exactly).
+=> Without it, the structural chain admits an infinite family and 5 is only the smallest member.
