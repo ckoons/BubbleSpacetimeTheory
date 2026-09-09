@@ -5215,6 +5215,21 @@
     "eight unseen Gram cells exact (5735 P2)",
     "blindness to twenty digits (5736 E3)"
    ]
+  },
+  {
+   "id": "T2630",
+   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a row isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
+   "domain": "substrate_lane",
+   "domain_label": "Substrate lane (record space)",
+   "status": "derived",
+   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary.",
+   "color": "#B05A5A",
+   "proofs": [
+    "|z|² = 1 on Š ⟹ Σ_u M_{|z_u|²} = I (two lines)",
+    "exact rational S⁴ moments, k = 0..5, zonal and random (5747 P1/P3)",
+    "3/7 = 1/5 + (4/5)(2/7) with no table (5747 P5)",
+    "Bergman-weight defect = c(j,k) entry for entry (5747 P4)"
+   ]
   }
  ],
  "edges": [
@@ -8198,6 +8213,16 @@
   {
    "source": "T2629",
    "target": "T633",
+   "type": "uses"
+  },
+  {
+   "source": "T2630",
+   "target": "T2629",
+   "type": "uses"
+  },
+  {
+   "source": "T2630",
+   "target": "T2624",
    "type": "uses"
   }
  ],

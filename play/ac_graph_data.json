@@ -20,12 +20,12 @@
   "D1": 526,
   "D2": 42,
   "node_count": 2374,
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-09",
   "edges": 10135,
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2629",
+  "max_tid": "T2630",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -15250,7 +15250,7 @@
    "tid": 1136,
    "name": "Koons Tick — Time as Observer Counting",
    "domain": "observer_science",
-   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured — R135 HOLD 14:27 09-08 for Cal C3 (α as asymptote or rate under Born-at-the-push; K1860 l.133 collision)",
+   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured — R135 hold RESOLVED 14:27 09-08 for Cal C3 (α as asymptote or rate under Born-at-the-push; K1860 l.133 collision) — R139 α-HOLE RULING 11:43 09-09 (Cal §935 C3): push = write, so the RATE mechanism dies (α as push/write rate gives 1); the tick as a DURATION (τ₀ = a₀/c) and α = 1/N_max SURVIVE as identifications; nothing in the dictionary now carries α — the hole is recorded",
    "depth": 0,
    "conflation": 1,
    "section": "BST_AC_Theorems Section TBD",
@@ -20926,7 +20926,7 @@
    "tid": 1485,
    "name": "Cosmological Constant Theorem",
    "domain": "cosmology",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it — R138 numerical hold RELEASED 11:41 09-09 (Cal §934 (1)): Λ and H₀ do not move by a digit; the row now inherits an UNJUSTIFIED factor 6/5 — numerically unchanged, mechanism-less",
    "depth": 0,
    "conflation": null,
    "section": null,
@@ -30625,7 +30625,7 @@
    "tid": 2347,
    "name": "SP27-2 LIGO ringdown theoretical anchor (Faraut-Koranyi/Hua)",
    "domain": "observational_reanalysis",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it — R138 numerical hold RELEASED 11:41 09-09 (Cal §934 (1)): Λ and H₀ do not move by a digit; the row now inherits an UNJUSTIFIED factor 6/5 — numerically unchanged, mechanism-less",
    "depth": 0,
    "conflation": 0,
    "section": "2026-05-18 (Lyra)",
@@ -33500,7 +33500,7 @@
    "tid": 1918,
    "name": "Gravitational Coupling α_G from D_IV⁵ Bergman + Shilov Boundary Winding",
    "domain": "bst_physics",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "IDENTIFIED (was proved; Cal §934 (3) 11:41 09-09) — RULED: the mechanism \"(n+1)/n is the Bergman/Szegő exponent ratio\" is the UNIT BALL's (D_IV^n gives 2), and toy 2349's \"Bergman genus = C₂ = 6\" is B⁵'s genus, not D_IV⁵'s (which is 5); numbers unchanged (6/5 = C₂/n_C), mechanism gone, coefficient target-fitted",
    "depth": 1,
    "conflation": 0,
    "section": "BST_AC_Theorem_Registry (re-flattened 2026-07-11)",
@@ -33588,7 +33588,7 @@
    "tid": 1924,
    "name": "Joint Cosmological Anchor",
    "domain": "quantum_foundations",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it — R138 numerical hold RELEASED 11:41 09-09 (Cal §934 (1)): Λ and H₀ do not move by a digit; the row now inherits an UNJUSTIFIED factor 6/5 — numerically unchanged, mechanism-less",
    "depth": 1,
    "conflation": 0,
    "section": "BST_AC_Theorem_Registry (re-flattened 2026-07-11)",
@@ -35698,7 +35698,7 @@
    "tid": 2624,
    "name": "FLOOR of the substrate lane (record-space dictionary of D_IV^5, K1860 A–P): a REPRESENTATION of the bound electron's winding count and angular content — theorems of Hua/Stein–Weiss/Faraut–Korányi sorted by tier — with NO KINEMATICS (T2623), NO ENERGY BUDGET (K-equivariance of the Szegő projection), and no energy, momentum or count sentence; its one candidate laboratory sentence is TIMING (an N-photon absolute offset in ticks a₀/c), not yet measured",
    "domain": "substrate_lane",
-   "status": "NEGATIVE floor (two data witnesses: T2623, Millikan); theorems inside DERIVED; dictionary IDENTIFIED; Cal §905, 10:13 (2026-09-07); K1879 §4 with §905's five amendments — R136 HOLD 09:48 09-09 (Grace G1, pending Cal C1 on K1885-PRE): the values are the commitment effect M_{|z|²}'s, not general — |z|^{2n} = 1 on Š for every n, so an infinite family meets the boundary condition and disagrees (vacuum cost 0.50 / 0.26 / 0.14); the ORDER (monotone fall to zero) survives the family; the tier is DERIVED GIVEN the effect, which is an IDENTIFICATION — HOLD AMENDED 09:53 (Cal blind C1): family is g(|z|², |z·z|), two invariants not one chain; fifth candidate selects by CONSTRUCTION (Σ_u W_u*W_u = M_{|z|²}, the write tuple's resolution of the identity), still an IDENTIFICATION — CLAUSE REPAIRED 10:27 09-09 (Cal §930 supersedes §922): the constant is ν − n/2 (the space's weight minus the Hardy point), NOT the dimension — c₁(j,0) = (ν − n/2)/(j + ν), Elie 5743 at seven (n,ν) pairs; and at the Hardy point ν = n/2 the cost is IDENTICALLY ZERO, so the push-cost reading requires an interior Bergman word while the corpus says the record is a boundary object (third unstated premise)",
+   "status": "NEGATIVE floor (two data witnesses: T2623, Millikan); theorems inside DERIVED; dictionary IDENTIFIED; Cal §905, 10:13 (2026-09-07); K1879 §4 with §905's five amendments — R136 HOLD 09:48 09-09 (Grace G1, pending Cal C1 on K1885-PRE): the values are the commitment effect M_{|z|²}'s, not general — |z|^{2n} = 1 on Š for every n, so an infinite family meets the boundary condition and disagrees (vacuum cost 0.50 / 0.26 / 0.14); the ORDER (monotone fall to zero) survives the family; the tier is DERIVED GIVEN the effect, which is an IDENTIFICATION — HOLD AMENDED 09:53 (Cal blind C1): family is g(|z|², |z·z|), two invariants not one chain; fifth candidate selects by CONSTRUCTION (Σ_u W_u*W_u = M_{|z|²}, the write tuple's resolution of the identity), still an IDENTIFICATION — CLAUSE REPAIRED 10:27 09-09 (Cal §930 supersedes §922): the constant is ν − n/2 (the space's weight minus the Hardy point), NOT the dimension — c₁(j,0) = (ν − n/2)/(j + ν), Elie 5743 at seven (n,ν) pairs; and at the Hardy point ν = n/2 the cost is IDENTICALLY ZERO, so the push-cost reading requires an interior Bergman word while the corpus says the record is a boundary object (third unstated premise) — R139 11:43: \"the push moves norm, never energy\" is about a step that is not distinct (Cal §935 C3); K-equivariance stands, the push/write framing withdrawn",
    "depth": 0,
    "conflation": 0,
    "section": "K1879 §4 / Cal §905 (Round 130)",
@@ -35783,6 +35783,21 @@
    ],
    "date": "2026-09-08",
    "plain": "Each new universe inherits a count of how many times the old clock wound. Nothing that the universe DOES depends on that count: every write branches the same way, the same words appear with the same odds, to twenty decimal places. What does change is a bookkeeping price: the fraction of a state's weight that a commitment has to supply falls like five over twice the count, so on paper commitments get cheaper every cycle and never free. Nothing in the rules pays that price. Whether something physical does is the next question, not this row."
+  },
+  {
+   "tid": 2630,
+   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a row isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
+   "domain": "substrate_lane",
+   "status": "DERIVED as an identity (exact rationals, degree five) but TAUTOLOGICAL of the boundary condition — holds on any subset of the unit sphere for any orthonormal frame, so it cannot be written as a signature; the Born reading of the branching is a NAMING not a derivation; it does NOT supply the Born rule (T754/Gleason unaffected); Cal §935 C2 (11:24), with his two-sense tautology ruling and the honest form carried verbatim",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Lyra R138 L1 / Elie 5747 / Cal §935 C2",
+   "toys": [
+    5747,
+    5735
+   ],
+   "date": "2026-09-09",
+   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary."
   }
  ],
  "edges": [
@@ -87258,6 +87273,18 @@
    "to": 633,
    "source": "derived",
    "label": "shape only; no map (Lyra L3, three reasons)"
+  },
+  {
+   "from": 2630,
+   "to": 2629,
+   "source": "derived",
+   "label": "the push cost IS this row's isometry defect at the Bergman weight"
+  },
+  {
+   "from": 2630,
+   "to": 2624,
+   "source": "derived",
+   "label": "corrects the floor's push sentences: push and write are one event"
   }
  ],
  "chains": {},
@@ -108041,7 +108068,7 @@
    "tid": 1136,
    "name": "Koons Tick — Time as Observer Counting",
    "domain": "observer_science",
-   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured — R135 HOLD 14:27 09-08 for Cal C3 (α as asymptote or rate under Born-at-the-push; K1860 l.133 collision)",
+   "status": "proved — wording fixed 09:48 09-07 (Cal §895 (1)): ν_C → ω_C (angular); τ₀ = N_max ħ/(m_e c²) = 0.17647 as bare = 137 radians = 21.8 turns; a₀/c = 0.17651 as measured — R135 hold RESOLVED 14:27 09-08 for Cal C3 (α as asymptote or rate under Born-at-the-push; K1860 l.133 collision) — R139 α-HOLE RULING 11:43 09-09 (Cal §935 C3): push = write, so the RATE mechanism dies (α as push/write rate gives 1); the tick as a DURATION (τ₀ = a₀/c) and α = 1/N_max SURVIVE as identifications; nothing in the dictionary now carries α — the hole is recorded",
    "depth": 0,
    "conflation": 1,
    "toys": [],
@@ -114807,7 +114834,7 @@
    "tid": 1485,
    "name": "Cosmological Constant Theorem",
    "domain": "cosmology",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it — R138 numerical hold RELEASED 11:41 09-09 (Cal §934 (1)): Λ and H₀ do not move by a digit; the row now inherits an UNJUSTIFIED factor 6/5 — numerically unchanged, mechanism-less",
    "depth": 0,
    "toys": [
     1718
@@ -127817,7 +127844,7 @@
    "tid": 2347,
    "name": "SP27-2 LIGO ringdown theoretical anchor (Faraut-Koranyi/Hua)",
    "domain": "observational_reanalysis",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it — R138 numerical hold RELEASED 11:41 09-09 (Cal §934 (1)): Λ and H₀ do not move by a digit; the row now inherits an UNJUSTIFIED factor 6/5 — numerically unchanged, mechanism-less",
    "depth": 0,
    "conflation": 0,
    "section": "2026-05-18 (Lyra)",
@@ -131519,7 +131546,7 @@
    "tid": 1918,
    "name": "Gravitational Coupling α_G from D_IV⁵ Bergman + Shilov Boundary Winding",
    "domain": "bst_physics",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "IDENTIFIED (was proved; Cal §934 (3) 11:41 09-09) — RULED: the mechanism \"(n+1)/n is the Bergman/Szegő exponent ratio\" is the UNIT BALL's (D_IV^n gives 2), and toy 2349's \"Bergman genus = C₂ = 6\" is B⁵'s genus, not D_IV⁵'s (which is 5); numbers unchanged (6/5 = C₂/n_C), mechanism gone, coefficient target-fitted",
    "depth": 1,
    "conflation": 0,
    "section": "BST_AC_Theorem_Registry (re-flattened 2026-07-11)",
@@ -131607,7 +131634,7 @@
    "tid": 1924,
    "name": "Joint Cosmological Anchor",
    "domain": "quantum_foundations",
-   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it",
+   "status": "proved — R138 LANE-A HOLD 11:19 09-09 (Grace G1): T1918's factor (n+1)/n is the UNIT BALL's Bergman/Szegő exponent ratio; D_IV^n's is 2 (genus n vs Hardy point n/2) at every n. 6/5 = C₂/n_C so the number reads BST-natural either way. Held pending Elie's unit-ball control and Cal's ruling; chain T1918 → T1485 (Λ, H_0 0.12%) → T1924 (t_cosmo 47) and T2347 held with it — R138 numerical hold RELEASED 11:41 09-09 (Cal §934 (1)): Λ and H₀ do not move by a digit; the row now inherits an UNJUSTIFIED factor 6/5 — numerically unchanged, mechanism-less",
    "depth": 1,
    "conflation": 0,
    "section": "BST_AC_Theorem_Registry (re-flattened 2026-07-11)",
@@ -133894,7 +133921,7 @@
    "tid": 2624,
    "name": "FLOOR of the substrate lane (record-space dictionary of D_IV^5, K1860 A–P): a REPRESENTATION of the bound electron's winding count and angular content — theorems of Hua/Stein–Weiss/Faraut–Korányi sorted by tier — with NO KINEMATICS (T2623), NO ENERGY BUDGET (K-equivariance of the Szegő projection), and no energy, momentum or count sentence; its one candidate laboratory sentence is TIMING (an N-photon absolute offset in ticks a₀/c), not yet measured",
    "domain": "substrate_lane",
-   "status": "NEGATIVE floor (two data witnesses: T2623, Millikan); theorems inside DERIVED; dictionary IDENTIFIED; Cal §905, 10:13 (2026-09-07); K1879 §4 with §905's five amendments — R136 HOLD 09:48 09-09 (Grace G1, pending Cal C1 on K1885-PRE): the values are the commitment effect M_{|z|²}'s, not general — |z|^{2n} = 1 on Š for every n, so an infinite family meets the boundary condition and disagrees (vacuum cost 0.50 / 0.26 / 0.14); the ORDER (monotone fall to zero) survives the family; the tier is DERIVED GIVEN the effect, which is an IDENTIFICATION — HOLD AMENDED 09:53 (Cal blind C1): family is g(|z|², |z·z|), two invariants not one chain; fifth candidate selects by CONSTRUCTION (Σ_u W_u*W_u = M_{|z|²}, the write tuple's resolution of the identity), still an IDENTIFICATION — CLAUSE REPAIRED 10:27 09-09 (Cal §930 supersedes §922): the constant is ν − n/2 (the space's weight minus the Hardy point), NOT the dimension — c₁(j,0) = (ν − n/2)/(j + ν), Elie 5743 at seven (n,ν) pairs; and at the Hardy point ν = n/2 the cost is IDENTICALLY ZERO, so the push-cost reading requires an interior Bergman word while the corpus says the record is a boundary object (third unstated premise)",
+   "status": "NEGATIVE floor (two data witnesses: T2623, Millikan); theorems inside DERIVED; dictionary IDENTIFIED; Cal §905, 10:13 (2026-09-07); K1879 §4 with §905's five amendments — R136 HOLD 09:48 09-09 (Grace G1, pending Cal C1 on K1885-PRE): the values are the commitment effect M_{|z|²}'s, not general — |z|^{2n} = 1 on Š for every n, so an infinite family meets the boundary condition and disagrees (vacuum cost 0.50 / 0.26 / 0.14); the ORDER (monotone fall to zero) survives the family; the tier is DERIVED GIVEN the effect, which is an IDENTIFICATION — HOLD AMENDED 09:53 (Cal blind C1): family is g(|z|², |z·z|), two invariants not one chain; fifth candidate selects by CONSTRUCTION (Σ_u W_u*W_u = M_{|z|²}, the write tuple's resolution of the identity), still an IDENTIFICATION — CLAUSE REPAIRED 10:27 09-09 (Cal §930 supersedes §922): the constant is ν − n/2 (the space's weight minus the Hardy point), NOT the dimension — c₁(j,0) = (ν − n/2)/(j + ν), Elie 5743 at seven (n,ν) pairs; and at the Hardy point ν = n/2 the cost is IDENTICALLY ZERO, so the push-cost reading requires an interior Bergman word while the corpus says the record is a boundary object (third unstated premise) — R139 11:43: \"the push moves norm, never energy\" is about a step that is not distinct (Cal §935 C3); K-equivariance stands, the push/write framing withdrawn",
    "depth": 0,
    "conflation": 0,
    "section": "K1879 §4 / Cal §905 (Round 130)",
@@ -133979,12 +134006,27 @@
    ],
    "date": "2026-09-08",
    "plain": "Each new universe inherits a count of how many times the old clock wound. Nothing that the universe DOES depends on that count: every write branches the same way, the same words appear with the same odds, to twenty decimal places. What does change is a bookkeeping price: the fraction of a state's weight that a commitment has to supply falls like five over twice the count, so on paper commitments get cheaper every cycle and never free. Nothing in the rules pays that price. Whether something physical does is the next question, not this row."
+  },
+  {
+   "tid": 2630,
+   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a row isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
+   "domain": "substrate_lane",
+   "status": "DERIVED as an identity (exact rationals, degree five) but TAUTOLOGICAL of the boundary condition — holds on any subset of the unit sphere for any orthonormal frame, so it cannot be written as a signature; the Born reading of the branching is a NAMING not a derivation; it does NOT supply the Born rule (T754/Gleason unaffected); Cal §935 C2 (11:24), with his two-sense tautology ruling and the honest form carried verbatim",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Lyra R138 L1 / Elie 5747 / Cal §935 C2",
+   "toys": [
+    5747,
+    5735
+   ],
+   "date": "2026-09-09",
+   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary."
   }
  ],
  "metadata": {
-  "node_count": 2406,
-  "edge_count": 10268,
-  "theorem_count": 2406,
-  "synced": "2026-09-08 both lists (Grace R135 G1)"
+  "node_count": 2407,
+  "edge_count": 10270,
+  "theorem_count": 2407,
+  "synced": "2026-09-09 both lists (Grace R139 G2)"
  }
 }
