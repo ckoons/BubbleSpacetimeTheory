@@ -1,0 +1,38 @@
+A1 — the Peirce decomposition of a minimal tripotent
+   e = (u + i v)/2 with u,v orthonormal;  {e,e,e} - e = 0.00e+00  (tripotent)
+   eigenvalues of D(e,e): [0.  0.5 0.5 0.5 1. ]  ->  dim V_1 = 1, dim V_1/2 = 3, dim V_0 = 1
+  [HIT] A1 (control)  1 + 3 + 1 = 5; V_1/2 is C^3 = span{e3,e4,e5}
+A2 — the isotropy: solve (A,t) in so(5) + so(2) with A e + i t e = 0, numerically
+   parameters: 11 (10 in so(5) + 1 phase);  rank of the constraint = 7;  isotropy dimension = 4
+   so(3) on span(e3,e4,e5) has dim 3, plus the diagonal SO(2) -> expected 4
+  [HIT] A2  Stab_K(e) has Lie-algebra dimension 4 = SO(2)_diag x SO(3)
+A3 — the image in GL(V_1/2), and can SU(3) embed?
+   every isotropy generator restricted to V_1/2 is (antisymmetric real) + i*(phase)*I : True
+   dimension of the image Lie algebra in gl(3,C): 4   -> so(3) + R.iI = 3 + 1 = 4
+   dim SU(3) = 8 > 4. A compact group cannot embed in a group of smaller dimension.
+   full structure-group stabiliser: any COMPACT subgroup is conjugate into the maximal compact, which is this same dim-4 group,
+   so the conclusion is unchanged if the stabiliser is enlarged from K to the structure group.
+  [HIT] A3  SU(3) (dim 8) DOES NOT EMBED in the group the geometry supplies on the mediator space (dim 4)
+A4 — which way does the inclusion run?
+   SO(3) sits inside SU(3) as the standard vector embedding (real 3x3 orthogonal matrices are unitary with det 1).
+   So geometry's group is a proper 3-dimensional subgroup of the 8-dimensional colour group: geometry IN colour, not colour IN geometry.
+  [HIT] A4 (control)  the inclusion runs the wrong way for a derivation
+A5 — which endomorphism algebra? it depends on what you forget
+   End_C(V_1/2) = M_3(C), real dim 18   [forgets the group]
+   End_R(real 3-space) = M_3(R), real dim 9   [forgets the complex structure too]
+   End_R(V_1/2 as R^6) = M_6(R), real dim 36
+   COMMUTANT of the isotropy (the object that respects the geometry): the complexified vector rep of SO(3) on C^3 is
+   irreducible, so by Schur End_{SO(3)}(C^3) = C, real dim 2; dropping the phase gives M_2(R).
+  [HIT] A5 (control)  the correct object is C, not M_3 of anything; M_3(C) is available for ANY 3-dim complex space — the withdrawn slip
+E2 — the coincidence null, menu NAMED IN THE PREREG before counting
+   target 3: 24 of 102 domains carry SOME menu invariant = 3   [rank:12, a:1, b:4, genus:3, dim_C:4, dimV12:6]
+   target 2: 94 of 102 domains carry SOME menu invariant = 2   [rank:46, a:59, b:7, genus:3, dim_C:1, dimV12:6]
+   target 4: 24 of 102 domains carry SOME menu invariant = 4   [rank:6, a:8, b:4, genus:5, dim_C:3, dimV12:9]
+   target 6: 20 of 102 domains carry SOME menu invariant = 6   [rank:1, a:2, b:3, genus:6, dim_C:5, dimV12:7]
+   target 8: 15 of 102 domains carry SOME menu invariant = 8   [rank:0, a:2, b:2, genus:7, dim_C:3, dimV12:5]
+   the specific invariant a = 3: ['IV_5']  <- singleton
+   'some invariant equals 3' is carried by 24 domains; the look-elsewhere factor is the menu size, 6 per domain.
+  [HIT] A6  24 domains carry some invariant = 3, while a = 3 is a singleton — the selector's strength rests entirely on whether the invariant was named before the target
+  [HIT] A7 (control)  the same table printed for 2, 4, 6, 8 so the round sees the whole picture
+
+SCORE 7/7, of which 3/3 can-fail hit
