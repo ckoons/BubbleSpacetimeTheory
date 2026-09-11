@@ -1,0 +1,26 @@
+LYRA — TOY 5717: T2622 AT p = 5, THE KERNEL BY THE CONSTRUCTION RULE (calibration #28). 08:04 EDT 2026-09-07, before the run.
+RULE (T2622 hypothesis H2): the kernel is the trace-zero lattice of a MAXIMAL order of the quaternion
+algebra over Q ramified exactly at {p, infinity}, with the reduced norm as the quadratic form,
+scaled as the corpus scales I_3 for p = 2 (Hurwitz) and <1,1,3> for p = 3 (the disc-3 algebra).
+STEP 1 (the algebra): B = (-2,-5)_Q. Hilbert symbols: (-2,-5)_5 = (-2/5) = -1 (ramified at 5);
+(-2,-5)_2 = (2,-5)_2 (-1,-5)_2 = (-1)^3 (-1)^3 = +1 (split at 2); definite (ramified at infinity);
+odd p != 5: both units up to the 2 in -2 -> (-2,-5)_p = 1. So disc(B) = 5.
+STEP 2 (the maximal order): computed by closure from Z<1,i,j,k> (reduced discriminant 40) by
+adjoining integral elements with coordinates in (1/2)Z and (1/4)Z until the reduced discriminant
+is 5; the order is unique up to conjugacy (class number of disc-5 algebra = 1, Eichler), so the
+trace-zero lattice's isometry class is well defined.
+STEP 3 (the lattice): K_5 = O^0 = {x in O : trd x = 0} with q = nrd, Gram matrix printed; the run
+also prints the diagonalised / reduced form.
+PREDICTIONS (computed from the run's own values)
+ P1 K_5 is anisotropic at 5 and at infinity, isotropic at 2 and at every odd p != 5 (checked
+    exhaustively mod 5^k, mod 2^k and mod p for p = 3, 7, 11, 13 via primitive zero search).
+ P2 K_5 is NOT isometric to <1,1,5> (which is isotropic at 5: (-1,-5)_5 = +1) — the naive
+    "diagonal form with the right discriminant" is the wrong lattice, as <1,3,3> was at p = 3.
+ P3 reduced discriminant of the maximal order = 5; |O^x| (unit group of the maximal order) = 6
+    (the disc-5 maximal order's units are the 6th roots of unity — the automorphism count that
+    fixes the level-137-type dimension formula for p = 5), against 24 (Hurwitz) and 12 (disc 3).
+ P4 the predicted comb for the swapped lattice K_5 + <1,-1>^2: spacing 2 pi / ln 5 = 3.9042, from
+    the Steinberg surgery (1 - 5^{1/2-l})/(1 - 5^{-1/2-l}); lambda = 1/2 regular; psi(1/2) unmoved.
+    (Elie's direct 5-adic shell count decides; nothing here is that count.)
+KILLS: P1 failing (the closure did not reach a maximal order, or the algebra is wrong); P3's unit
+count off (wrong order).

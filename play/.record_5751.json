@@ -1,0 +1,9 @@
+{
+ "isotropy_dim": 4,
+ "image_dim": 4,
+ "su3_dim": 8,
+ "three_domains": 24,
+ "a3": [
+  "IV_5"
+ ]
+}
