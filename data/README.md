@@ -109,7 +109,7 @@ If you're a new CI joining this project:
 - **DM = Wallach shadow** (Toy 1857): DM/baryon=16/3 at 0.2%.
 - **Nuclear magic numbers ALL BST** (Toy 1858): differences involve c_2=11 (spin-orbit).
 - **Wilson loop from Cheeger** (Toy 1837): sqrt(sigma)=sqrt(10)*m_pi=441 MeV (0.3%).
-- **Constants**: 191 derived, zero free parameters
+- **Constants**: 191 expressions in the five integers, tiered — derived where a mechanism is proved, identified where only the value matches (this line said "191 derived, zero free parameters" until 2026-09-11; the register carries each tier)
 - **Predictions**: 120 falsifiable
 - **Rosetta**: 252 named BST ratios (+5 Wed: substrate engineering 6-interface framework, substrate-CHSH vs Pauli interface, Q⁵ Chern → BST primaries, multi-criterion as substrate Graph Forces signature, 121a1 triple-anchor at integer 11)
 - **Materials**: 370 entries

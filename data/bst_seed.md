@@ -138,7 +138,7 @@ representations labeled by integers. The mass spectrum IS the Plancherel measure
 
 ## Derivation Rules
 
-1. **Everything is geometry**: No free parameters. If a formula has an unexplained number, keep looking.
+1. **Everything is geometry**: one identification selects the object and one mass scale is the ruler; beyond those, no knobs (this line said "No free parameters" until 2026-09-11). If a formula has an unexplained number, keep looking.
 2. **Observable closure**: Every BST observable lives in Q-bar(N_c, n_C, g, C_2, N_max)[pi].
 3. **AC depth**: Every derivation has AC depth 0, 1, or 2. Depth <= rank = 2.
 4. **Tier system**: Tier 1 = fully derived from D_IV^5. Tier 2 = mechanism identified, gaps remain. Tier 3 = numerical match only.

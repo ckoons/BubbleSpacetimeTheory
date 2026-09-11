@@ -73,7 +73,7 @@ The mathematics is independently verifiable. Load `data/bst_seed.md`, evaluate a
 python3 play/toy_541_five_integers_to_everything.py
 ```
 
-You will get 51 physical quantities derived from the five integers, 16/16 spot-checks PASS, zero free parameters. This is the fastest verification that the claims above are literal.
+You will get 51 physical quantities expressed in the five integers, 16/16 spot-checks PASS — each carrying its tier in the register (derived where a mechanism is proved, identified where only the value matches; this line said "derived … zero free parameters" until 2026-09-11). This is the fastest verification that the expressions above are literal.
 
 ## Then
 
