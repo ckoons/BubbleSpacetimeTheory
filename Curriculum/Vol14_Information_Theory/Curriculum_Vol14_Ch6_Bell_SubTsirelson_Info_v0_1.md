@@ -2,13 +2,15 @@
 title: "Vol 14 Chapter 6 — Bell Sub-Tsirelson as Information Bound"
 author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.3 — substantive content; LOAD-BEARING"
+status: "v0.4 — FIRED 2026-09-11 (K1893; register E4): the sub-Tsirelson bound was refuted by Poh et al. 2015 at 41.9σ; kept as the May record"
 volume: "Vol 14 Information Theory"
 chapter: 6
 load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; substrate commitment-cycle finite operational power bound; K66 candidate"
 ---
 
 # Chapter 6 — Bell Sub-Tsirelson as Information Bound
+
+**This chapter's prediction FIRED — and it had fired before the chapter was written (2026-09-11, Keeper, K1893; Grace Round 142 G3; falsifier register E4).** The sub-Tsirelson ceiling this chapter presents — $S_{\text{BST}} = \sqrt{126/16} = 2.80624$, a deficit of exactly $1/2^{N_c} = 1/8$ in $S^2$ below Tsirelson's $2\sqrt2$ — was refuted by Poh, Joshi, Ceré, Cabello and Kurtsiefer, *Phys. Rev. Lett.* **115**, 180408 (October 2015; arXiv:1506.01865), who measured $S = 2.82759 \pm 0.00051$, a distance $0.00084 \pm 0.00051$ from Tsirelson's bound and $41.9\sigma$ above ours. The prediction was registered in May 2026 with a six-to-twelve-month window for an experiment that had been done ten years earlier at higher precision than proposed. What died: the ceiling as a prediction, the Bell-apparatus proposal, and this chapter as a standing result. What survives: the integer identity, and $\mathrm{Tr}(B^2) = 126/16$ as a fact about an operator on $H^2(D_{IV}^5)$ with no laboratory claim. The Tsirelson bound itself is untouched — the quantum mechanics recovered on the Hardy space is standard QM, whose bound is $2\sqrt2$; the fired number was a coding reading laid over it. The chapter is kept below as the May record, with the same ceremony as a win: it could have failed, and this is where it did. Spine Lecture 3 carries the loss in the derived core.
 
 ## Level 1 — one sentence
 

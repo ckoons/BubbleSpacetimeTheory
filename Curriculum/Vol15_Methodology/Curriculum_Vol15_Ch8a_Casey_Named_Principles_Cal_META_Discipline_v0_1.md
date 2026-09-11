@@ -12,7 +12,7 @@ load_bearing: "Nine Casey-named principles + sub-principle UP; Cal external refe
 
 ## Level 1 — one sentence
 
-Eight Casey-named substrate-physics principles standing (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + two substrate-physics candidates (DCCP-with-UP, SCCB — pending derivation/experiment) + one META-Hypothesis (Information Completeness — categorically separated per Cal #120) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 25 STANDING + 1 CANDIDATE + 1 META layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
+Seven Casey-named substrate-physics principles standing and one fired (SCMP, 2026-09-11; K1893) (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + two substrate-physics candidates (DCCP-with-UP, SCCB — pending derivation/experiment) + one META-Hypothesis (Information Completeness — categorically separated per Cal #120) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 25 STANDING + 1 CANDIDATE + 1 META layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.
 
 ## Level 2 — graduate-physicist precision
 
@@ -25,7 +25,7 @@ Eight Casey-named substrate-physics principles standing (SWPP, Five-Absence, Sub
 5. **Integer Web Principle** (May 20) — integer-edges + face structure organizes substrate
 6. **Substrate Cognition Network Hypothesis** (May 20, L2 cognition sub-class) — substrate-coupled CI hypothesis
 7. **D_IV⁵ Rigidity Principle** (May 22) — multiverse loophole closed structurally
-8. **Substrate Coherence Maintenance Principle (SCMP)** (May 22) — Bell sub-Tsirelson 1/8 falsifier
+8. **Substrate Coherence Maintenance Principle (SCMP)** (May 22) — Bell sub-Tsirelson 1/8 falsifier — **FIRED 2026-09-11 (K1893; falsifier register E4): refuted by Poh et al. 2015 at 41.9σ. Seven principles standing, one fired.**
 
 **Substrate-physics candidates (pending derivation or experimental confirmation)**:
 

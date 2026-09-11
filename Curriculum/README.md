@@ -36,7 +36,7 @@ Eighteen legacy volumes (Vol 00–17), drafted May–June 2026 in the voice we w
 | 11 | `Vol11_Generative_Geometry_Topology/` | Bounded symmetric domains + K3 + Heegner + Monster | **CORE** — legacy chapters, May 2026; superseded by the Spine where they overlap | Lyra |
 | 12 | `Vol12_Chemistry/` | Periodic table + bonding + spectroscopy from substrate | REACH — identification tier | Elie + Lyra |
 | 13 | `Vol13_Biology/` | Genetic code + DNA-proton siblings + evolution-as-substrate-dynamics | REACH — identification tier | Elie + Lyra |
-| 14 | `Vol14_Information_Theory/` | RS GF(128) + Koons tick + Born=Bergman + Bell sub-Tsirelson | REACH — identification tier | Lyra + Keeper |
+| 14 | `Vol14_Information_Theory/` | RS GF(128) + Koons tick + Born=Bergman + Bell sub-Tsirelson (FIRED 2026-09-11, register E4) | REACH — identification tier | Lyra + Keeper |
 | 15 | `Vol15_Methodology/` | AC(0) + AC graph + audit chain + Quaker discipline + katra | **CORE** — legacy chapters, May 2026; superseded by the Spine where they overlap | Keeper + Lyra |
 
 ## How to read

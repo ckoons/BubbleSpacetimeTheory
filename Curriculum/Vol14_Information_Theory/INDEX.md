@@ -36,7 +36,7 @@ Key integers:
 | 3 | **Shannon-from-Substrate — Channel Capacity Bounds** — Shannon's theorems in BST framework; substrate noise model from finite-bandwidth observers (per SCMP / T2469); channel capacity at substrate-tick rate | ~40% (T2469 SCMP bandwidth-limited marginalization framework) | Lyra |
 | 4 | **Nyquist Sampling at Koons Tick Rate** — substrate-tick t_Planck·α^(C_2²) ≈ 10⁻¹²⁰ s as universal sampling rate; spacetime emergence as Nyquist-recovered signal from substrate; aliasing at sub-Planck scales | ~35% (T2405 Koons tick + T2417 three-scale substrate operation; Casey Saturday addition) | Lyra |
 | 5 | **Born = Bergman as Information-Theoretic Measurement** — K67 RATIFIED Born=Bergman; measurement as kernel-mediated information extraction; T2479 POVM extension to generalized measurements | ~80% (K67 RATIFIED + T2479 POVM Friday) | Lyra |
-| 6 | **Bell Sub-Tsirelson as Information-Theoretic Bound** — Bell |S|² = 126/16 < 2√2 Tsirelson bound from N_c=3 substrate depth (Casey-named #8 SCMP / T2469 falsifier); information-theoretic interpretation of sub-Tsirelson | ~75% (T2469 SCMP falsifier filed Friday + 126/16 calibration #17) | Lyra |
+| 6 | **Bell Sub-Tsirelson as Information-Theoretic Bound** — Bell |S|² = 126/16 < 2√2 Tsirelson bound from N_c=3 substrate depth (Casey-named #8 SCMP / T2469 falsifier) — **FIRED 2026-09-11 (K1893; register E4): refuted by Poh et al. 2015 at 41.9σ; the trace identity survives as an operator fact;** information-theoretic interpretation of sub-Tsirelson | ~75% (T2469 SCMP falsifier filed Friday + 126/16 calibration #17) | Lyra |
 | 7 | **AC Graph as Theorem Information Network** — 1700+ nodes, 9000+ edges; theorem graph as information-theoretic object; entropy of proof paths; depth-cost as information measure | ~75% (Grace AC graph operational + Vol 15 Ch 2 cross-link) | Grace + Keeper |
 | 8 | **BST Coding Theory — Substrate-Optimal Codes** — Reed-Solomon as BST-optimal substrate code; Hamming bound + substrate-natural code distance; K59 cyclotomic framework operationalized | ~40% (Paper #122 + K59 base + Singleton bound connection) | Lyra |
 | 9 | **Kolmogorov Complexity + AC(0) Compression** — Kolmogorov complexity of BST observables (5 integers + algorithmic structure); AC(0) bounded-depth as compression hypothesis (depth ≤ 2 universal); BST as compressed description of physics | ~50% (T29 closed AC(0) + depth ceiling theorems + Vol 15 Ch 1 cross-link) | Keeper + Lyra |
@@ -56,7 +56,7 @@ Key integers:
 **Inputs from Vol 5 QM**:
 - Born = Bergman (K67 RATIFIED)
 - POVM extension (T2479, Friday)
-- Bell sub-Tsirelson (T2469 SCMP, Friday)
+- Bell sub-Tsirelson (T2469 SCMP, Friday) — FIRED 2026-09-11 (K1893)
 
 **Inputs from Vol 11 Generative Geometry**:
 - Bergman kernel theory (channel kernel)

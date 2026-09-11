@@ -2,13 +2,15 @@
 title: "Vol 5 Chapter 8 — Bell, CHSH, and Quantum Correlations"
 author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-23 Saturday"
-status: "v0.3 — LOAD-BEARING; SCMP falsifier 1/8 = 1/2^N_c; T2469; Bell deviation experiment ~$300-500K"
+status: "v0.4 — FIRED 2026-09-11 (K1893; register E4): the 1/8 sub-Tsirelson prediction was refuted by Poh et al. 2015 at 41.9σ; kept as the May record"
 volume: "Vol 5 Quantum Mechanics from D_IV⁵"
 chapter: 8
-load_bearing: "BST signature falsifier — Bell CHSH operator-bound S² ≤ 8 − 1/2^N_c = 7.875, gap 1/8 below Tsirelson 2√2; Casey-named SCMP principle (T2469); K66 audit"
+load_bearing: "FIRED — the Bell CHSH operator-bound S² ≤ 8 − 1/2^N_c = 7.875, gap 1/8 below Tsirelson 2√2; Casey-named SCMP principle (T2469); K66 audit"
 ---
 
 # Chapter 8 — Bell, CHSH, and Quantum Correlations
+
+**This chapter's prediction FIRED — and it had fired before the chapter was written (2026-09-11, Keeper, K1893; Grace Round 142 G3; falsifier register E4).** The sub-Tsirelson ceiling this chapter presents — $S_{\text{BST}} = \sqrt{126/16} = 2.80624$, a deficit of exactly $1/2^{N_c} = 1/8$ in $S^2$ below Tsirelson's $2\sqrt2$ — was refuted by Poh, Joshi, Ceré, Cabello and Kurtsiefer, *Phys. Rev. Lett.* **115**, 180408 (October 2015; arXiv:1506.01865), who measured $S = 2.82759 \pm 0.00051$, a distance $0.00084 \pm 0.00051$ from Tsirelson's bound and $41.9\sigma$ above ours. The prediction was registered in May 2026 with a six-to-twelve-month window for an experiment that had been done ten years earlier at higher precision than proposed. What died: the ceiling as a prediction, the Bell-apparatus proposal, and this chapter as a standing result. What survives: the integer identity, and $\mathrm{Tr}(B^2) = 126/16$ as a fact about an operator on $H^2(D_{IV}^5)$ with no laboratory claim. The Tsirelson bound itself is untouched — the quantum mechanics recovered on the Hardy space is standard QM, whose bound is $2\sqrt2$; the fired number was a coding reading laid over it. The chapter is kept below as the May record, with the same ceremony as a win: it could have failed, and this is where it did. Spine Lecture 3 carries the loss in the derived core.
 
 *Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
 

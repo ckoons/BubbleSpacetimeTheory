@@ -37,7 +37,7 @@ Vol 5 is the **substrate → standard QM emergence pedagogical bridge**. Demonst
 | 5 | **Heisenberg Picture + Path Integral** | Standard Heisenberg + Feynman path integral as substrate dynamics representations | Vol 1 Ch 7 + Ch 9 |
 | 6 | **Hydrogen Atom + Atomic Spectra** | Standard hydrogen energy levels + selection rules from substrate-natural Casimir spectrum | Vol 1 Ch 5 Casimir |
 | 7 | **Born Rule + Measurement** | Born = Bergman (K67 RATIFIED); POVMs + projective measurement | T2469 SCMP framework |
-| 8 | **Bell-CHSH + Quantum Correlations** | Standard Bell experiments + Tsirelson bound + BST sub-Tsirelson 1/8 falsifier | T2399 + Calibration #17 |
+| 8 | **Bell-CHSH + Quantum Correlations** | Standard Bell experiments + Tsirelson bound + the BST sub-Tsirelson 1/8 falsifier — **FIRED** (Poh et al. 2015, 41.9σ; K1893, register E4, 2026-09-11) | T2399 + Calibration #17; E4 |
 | 9 | **Identical Particles + Spin-Statistics** | Pauli exclusion + boson/fermion partition from Pin(2) Z_2 grading | Paper #133 v0.2 |
 | 10 | **Decoherence + Classical Limit** | Macroscopic classical emergence from substrate ensemble-marginalization | T2469 SCMP + Vol 4 Ch 3 boundary |
 | 11 | **POVMs + Quantum Information Basics** | Born = Bergman extension to general POVMs | SP-31 #283 |
