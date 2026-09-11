@@ -253,6 +253,23 @@ if _reg:
             flag("OK", "retirement2",
                  "every registry occurrence of a retired reading carries a retirement marker (control PASSED)")
 
+# ---------- 5. PRESENTATION-LAYER CURRENCY (K1892, installed 2026-09-11) ----------
+# Curriculum/ and Guide/ were four months behind the register on 2026-09-11 with nobody's instrument watching.
+# Delegates to play/keeper_presentation_currency_check.py: (a) the single-source state block is identical in
+# every front matter; (b) no retired reading appears ABOVE the accepted baseline in the derived-core files.
+try:
+    import subprocess as _sp
+    _r = _sp.run([sys.executable, p("play", "keeper_presentation_currency_check.py")], capture_output=True, text=True, timeout=120)
+    for _ln in _r.stdout.strip().splitlines():
+        _m = re.match(r"\[(\w+)\] (\S+) (.*)", _ln)
+        if _m:
+            _lvl, _art, _msg = _m.groups()
+            flag(_lvl if _lvl in ("OK","STALE","ERROR") else "WARN", "present." if _art == "state-block" else "present.2", _msg, "Keeper" if _lvl != "OK" else None)
+    if _r.returncode == 2:
+        flag("ERROR", "present.", "presentation check's positive control failed -- scan not run", "Keeper")
+except Exception as _e:
+    flag("WARN", "present.", "presentation currency check did not run: %s" % _e, "Keeper")
+
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}
 findings.sort(key=lambda f: order.get(f[0], 9))
