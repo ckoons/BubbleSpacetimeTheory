@@ -27,7 +27,7 @@ PATS = [
  ("SU(3) from geometry",   r"SU\(3\)[^.\n]{0,40}(from|out of|emerges from|derived from|comes from)[^.\n]{0,30}(geometry|D_?IV|domain|substrate|N_c)", "SU(3) emerges from the geometry"),
  ("Bergman power n_C+1",   r"N\(z,\s*w\)\^\{?-\(n_C\s*\+\s*1\)", "N(z,w)^{-(n_C+1)}"),
 ]
-EXCL = re.compile(r"retired|struck|withdrawn|corrected|re-tiered|identified|not the genus|is the signature|the signature|fired and lost|closed negative|do not claim|not claim|no longer|mnemonic|was D\b|K1[6-9]\d\d|Section 9[34]\d|Spine|imported|in May|the May|until 2026-09-11|until September 2026|Hawking fine structure|candidate principles|Hubble floor|H_5 = 137/60|derivable from its primary|identification tier|once wrote|does not now|wrong in the other direction|not \$?137\$? turns|19 free parameters|SPARC|rotation.curve|over-claim", re.I)
+EXCL = re.compile(r"retired|struck|withdrawn|corrected|re-tiered|identified|not the genus|is the signature|the signature|fired and lost|closed negative|do not claim|not claim|no longer|mnemonic|was D\b|K1[6-9]\d\d|Section 9[34]\d|Spine|imported|in May|the May|until 2026-09-11|until September 2026|surface genus|p \+ q|p\+q|defining representation|Hawking fine structure|candidate principles|Hubble floor|H_5 = 137/60|derivable from its primary|identification tier|once wrote|does not now|wrong in the other direction|not \$?137\$? turns|19 free parameters|SPARC|rotation.curve|over-claim", re.I)
 CORE_DIRS = ["Curriculum/Vol00_Substrate_Foundation","Curriculum/Vol01_QFT_from_D_IV5","Curriculum/Vol02_Particle_Physics",
              "Curriculum/Vol04_GR_Cosmology","Curriculum/Vol05_Quantum_Mechanics","Curriculum/Vol11_Generative_Geometry_Topology",
              "Curriculum/Spine_DIV5_QM_GR_SM","Guide"]
