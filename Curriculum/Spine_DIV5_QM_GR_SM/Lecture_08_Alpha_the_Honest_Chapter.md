@@ -49,9 +49,9 @@ Wyler had a correct instinct and no way to kill his own idea; his critics had a 
 
 ## Two more identifications, named as such
 
-**The electron's anomalous moment.** A 2026 paper of ours expressed the two-loop QED coefficient $C_2$ as a sum of four terms from a trace on the geometry. In September we compared the four terms with the literature (K1872). They are, term for term, the four summands of Petermann and Sommerfield's 1957 closed form,
+**The electron's anomalous moment.** A 2026 paper of ours expressed the two-loop QED coefficient of $a_e$ — written $C_2$ in the QED literature, and called $A_2$ here so that it is not confused with the program's integer $C_2 = 6$ of Lecture 1 — as a sum of four terms from a trace on the geometry. In September we compared the four terms with the literature (K1872). They are, term for term, the four summands of Petermann and Sommerfield's 1957 closed form,
 
-$$C_2 = \frac{197}{144} + \frac{\pi^2}{12} - \frac{\pi^2}{2}\ln 2 + \frac{3}{4}\zeta(3).$$
+$$A_2 = \frac{197}{144} + \frac{\pi^2}{12} - \frac{\pi^2}{2}\ln 2 + \frac{3}{4}\zeta(3) = -0.32848\ldots$$
 
 The match is exact by identity — term for term — not an independent numerical agreement. The derivation is theirs. Our row is re-tiered to *identified*, the word "crown jewel" is retired from the legacy chapter that used it, and the result is still interesting for a reason we can state: a trace on this geometry reproduces the *structure* of the QED coefficient, and why it should is an open question, not a solved one.
 
