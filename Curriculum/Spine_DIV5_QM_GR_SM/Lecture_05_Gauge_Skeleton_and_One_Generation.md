@@ -41,7 +41,7 @@ So the $U(1)$ and the $SU(2)$ are the geometry's. Where does the $U(1)$ live? In
 
 ## One generation, and every hypercharge
 
-A single generation of Standard-Model matter is sixteen real components — the 15 of the minimal SM plus the slot for a right-handed neutrino — and the object's spinor module has exactly that content. The hypercharges are the hard part, and here the program states its theorem with the inputs on its face, because a version that hid them would be "the SM from nothing," which nobody has and we do not claim.
+One generation of matter is carried by the object's spinor module — sixteen real components (the 16-real spinor of the 08-26 state page) — including the slot a right-handed neutrino would occupy. (How those sixteen real components map onto the Standard Model's Weyl fermions is stated in the theorem below, not asserted here; an earlier draft of this sentence tried to say it from memory and was removed.) The hypercharges are the hard part, and here the program states its theorem with the inputs on its face, because a version that hid them would be "the SM from nothing," which nobody has and we do not claim.
 
 **The hypercharge mechanism theorem** (Round 85, 2026-08-24). *Given* (i) the observed charged spectrum — an observational input, declared as such, the same class as the Five Absences; (ii) the surviving gauge group (T2520); (iii) charged Yukawas as the required couplings; and (iv) the topology triple — *the Standard-Model hypercharges are derived, with the ruler as the only free scale, and the descent freedom is exactly one bit: the $\nu_R$ slot.*
 
