@@ -50,7 +50,7 @@ Computational verifications — we call them **toys** — live in the repository
 
 <!-- BST_STATE_BLOCK_BEGIN -->
 > ### Where the program stands — one block, one source
-> *Last accuracy-synced: 2026-09-11 13:10 (K1892; rulings through Cal Round 142 C1). One registry edit is owed and named: T2543's colour clause was RULED struck on 09-09 and the row still carries it. This block lives in `notes/BST_PRESENTATION_STATE_BLOCK.md` and is copied into every front matter by `play/sync_presentation_state.py`. Edit it there, nowhere else. Where any chapter and this block disagree, the block wins; where this block and the theorem registry disagree, the registry wins.*
+> *Last accuracy-synced: 2026-09-11 12:58 (K1892; rulings through Cal Round 142 C1). One registry edit is owed and named: T2543's colour clause was RULED struck on 09-09 and the row still carries it. This block lives in `notes/BST_PRESENTATION_STATE_BLOCK.md` and is copied into every front matter by `play/sync_presentation_state.py`. Edit it there, nowhere else. Where any chapter and this block disagree, the block wins; where this block and the theorem registry disagree, the registry wins.*
 >
 > **The object.** One rank-2 bounded symmetric domain, D_IV⁵ = SO(5,2)/[SO(5)×SO(2)], and one measured number taken openly as the ruler. Its genus is 5; the integer 7 the program calls g is a definition (the signature p+q), not the genus — a mislabel that stood from May to September and is now swept.
 >
