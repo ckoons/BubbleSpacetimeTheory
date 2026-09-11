@@ -2,12 +2,14 @@
 title: "Vol 2 Chapter 7 — CKM Mixing and the Jarlskog Invariant"
 author: "Keeper (author pass)"
 date: "2026-05-23 Saturday"
-status: "v0.2 — Keeper author-voice pass; CKM Jarlskog J at 0.3% (T1444 vacuum-subtraction conditional)"
+status: "v0.3 — corrected in place 2026-09-11; the mixing sector CLOSED 2026-08-22 at partially derived, explicit split (K1791–K1810): λ = 1/√20 blind DERIVED (T2530), the ORDER of the corner DERIVED, values INPUT; T1444's 2/√79 retired; J conditional as stated"
 volume: "Vol 2 Particle Physics from D_IV⁵"
 chapter: 7
 ---
 
 # Chapter 7 — CKM Mixing and the Jarlskog Invariant
+
+**What changed since this chapter was written (2026-09-11, Keeper).** The mixing sector closed on 2026-08-22 (Rounds 47–61, K1791–K1810), and this chapter predates the closure. The current state: **derived** — the skeleton (T2519), the Cabibbo angle $\lambda = 1/\sqrt{20}$ obtained blind on 2026-07-29 (T2530), the existence of CP violation (T2547), flavour universality as the partial-isometry condition, and **the order** of the 1–3 corner — $|V_{ub}|$ exactly one power of $\lambda$ below $|V_{cb}|$, a zero-knob statement (K1808/K1810). **Input** — the corner's value, $\delta_{CP}$'s magnitude, and $|V_{cb}|$ (the old 0.044 retired at $+9.2\sigma$ against current exclusive data; the *position* kept). **Fired and lost** — five named series for the corner value, sealed by hash before scoring, all missed. The $2/\sqrt{79}$ form of the Cabibbo angle that T1444 supplied is retired in favour of the banked $1/\sqrt{20}$; the Jarlskog match below remains conditional as stated. The live falsifier is first-row unitarity: $1/\sqrt{20}$ with $|V_{ud}| = \sqrt{19/20}$ is exactly unitary, and the direct determinations sum $2.3\sigma$ short (PDG 2024). Spine Lecture 7 is the current treatment.
 
 The Cabibbo–Kobayashi–Maskawa (CKM) matrix encodes quark flavor mixing in weak interactions. Three mixing angles and one CP-violating phase parameterize the matrix; the **Jarlskog invariant** $J$ — the unique CP-violating phase-invariant combination — measures the strength of CP violation in the quark sector and is experimentally measured at $J \approx 3.18 \times 10^{-5}$.
 

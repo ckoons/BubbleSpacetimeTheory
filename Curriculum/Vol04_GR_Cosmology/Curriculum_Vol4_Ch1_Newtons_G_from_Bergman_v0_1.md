@@ -5,11 +5,13 @@ date: "2026-05-23 Saturday"
 status: "v0.2 — Keeper author-voice pass; preserves v0.1 substance (T1296 G = ℏc·(6π⁵)²·α²⁴/m_e² at 0.07%, Bergman round-trip mechanism 24 = 4·C_2, three independent confirmations including Toy 639 heat-kernel k=16 ratio = −24 = −dim SU(5), uniqueness identity n_C²−1 = (n_C−1)! at n_C=5, T2106 gravity-as-eigentone)"
 volume: "Vol 4 General Relativity and Cosmology from D_IV⁵"
 chapter: 1
-tier: "D-tier ratified — derived mechanism via Bergman round-trip framework + heat-kernel confirmation"
+tier: "A THEOREM ABOUT A RELATION (K1673, 2026-08-18): G ↔ m_e to 0.065%, trading one dimensionful input for another, with α IDENTIFIED inside it; six historical readings counted as ONE; the KK route demoted as circular (K1408). Was 'D-tier ratified' in May; the honest word is relation, not prediction"
 match_precision: "0.07% (BST G = 6.66961 × 10⁻¹¹ vs measured 6.67430 × 10⁻¹¹ m³/(kg·s²))"
 ---
 
 # Chapter 1 — Newton's $G$ from Bergman Curvature
+
+**What changed since this chapter was written (2026-09-11, Keeper).** The relation $G = \hbar c\,(6\pi^5)^2\,\alpha^{24}/m_e^2$ holds to 0.065% and the program regards it as a theorem — but a theorem about a *relation*: it trades one dimensionful input (Newton's constant) for another (the electron mass), and it carries $\alpha$, which is identified and not derived (Spine Lecture 8). So "Newton's $G$ is predicted" is not the sentence; "$G$ and $m_e$ are tied by the geometry, and we take $m_e$ as the ruler" is (K1673, the paper "Gravity: the 2→1 Reduction," Keeper PASS 2026-08-18). The Kaluza–Klein route this chapter also cites was found circular through $\ell_B$ and is demoted (K1408); the six readings of the same relation across the corpus count as one. The exponent $24 = 4C_2$ is a supporting identity, not an independent reading (Cal Section 585). Spine Lecture 9 is the current treatment.
 
 ## Why this chapter matters
 

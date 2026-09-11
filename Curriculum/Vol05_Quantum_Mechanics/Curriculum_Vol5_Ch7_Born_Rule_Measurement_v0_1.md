@@ -2,13 +2,15 @@
 title: "Vol 5 Chapter 7 — The Born Rule and Measurement"
 author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-23 Saturday"
-status: "v0.3 — LOAD-BEARING; K67 Born=Bergman audit-partial-ready; T2401"
+status: "v0.4 — corrected in place 2026-09-11; T2401 remains v0.1 (K67 partial); its '7/2 DERIVED' is a May-28 relabel (the genus is 5); the Bergman→Hardy probability link is the OPEN door; T2630 (09-09) adds the boundary Born law"
 volume: "Vol 5 Quantum Mechanics from D_IV⁵"
 chapter: 7
-load_bearing: "Born rule derived (not postulated) as Bergman-kernel projection in substrate 4-zone commitment cycle; K67 audit; SP-31-12 POVM extension pending"
+load_bearing: "Born rule DERIVED from the invariant measure via Gleason (T754); its identification with the Bergman projection (T2401) is v0.1 and partial; the boundary Born law — the write tuple is a resolution of the identity and Hua's branching weights are its probabilities (T2630, with Cal Section 935's caveat that this is a naming) — is the September result"
 ---
 
 # Chapter 7 — The Born Rule and Measurement
+
+**What changed since this chapter was written (2026-09-11, Keeper).** Three things. (1) The Born rule *is* derived, from the unique automorphism-invariant measure by Gleason's theorem (T754); the phrase in that row's proof, "dimension $\geq 3$ because $N_c = 3$," was decoration — Gleason's hypothesis is met by any Hardy space — and is removed. (2) The identification of the Born rule with the *Bergman projection* (T2401) stands at version 0.1: its row's "Bergman exponent $7/2$ DERIVED" was a relabel (the exponent is the genus, $5$), and no row yet reads a Bergman-normalised state's Hardy mass as a probability. That link is the one open door of the measurement chain and is named as such in Lecture 3 of the Spine (the Spine, `Curriculum/Spine_DIV5_QM_GR_SM/`). (3) New since May: on the Šilov boundary the five coordinate write operators satisfy $\sum_u W_u^* W_u = I$ — the write tuple is a resolution of the identity — and Hua's branching weights $(k+3)/(2k+3)$, $k/(2k+3)$ are its Born probabilities, giving $3/7 = 1/5 + (4/5)(2/7)$ with no table consulted (T2630). Cal's caveat travels with it: the identity holds on any subset of the unit sphere, so this is a *naming* of the program's writes as a POVM, not new physics. The four-zone commitment cycle below is the May narrative; its tiers are as stated here, not as stated there.
 
 ## Level 1 — one sentence
 

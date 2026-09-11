@@ -5,10 +5,12 @@ date: "2026-05-23 Saturday"
 status: "v0.3 — substantive content; replaces narrative-only v0.2"
 volume: "Vol 5 Quantum Mechanics from D_IV⁵"
 chapter: 1
-load_bearing: "Bergman Hilbert space H²(D_IV⁵) as BST substrate Hilbert space; K-type decomposition; c_FK·π^(9/2) = 225 EXACT (T2442/C13)"
+load_bearing: "The HARDY space H²(D_IV⁵) as the physical Hilbert space (W1 resolution 2026-08-22) — this chapter's May text conflates it with the Bergman space A²; corrected in the note below; K-type decomposition; c_FK·π^(9/2) = 225 EXACT (T2442/C13)"
 ---
 
 # Chapter 1 — From Substrate to Standard Hilbert Space
+
+**What changed since this chapter was written (2026-09-11, Keeper).** In May this chapter, like the rest of the program, wrote "the Bergman Hilbert space $H^2(D_{IV}^5)$" as if one space were meant. Two are: the Bergman space $A^2$ of square-integrable holomorphic functions on the interior, and the Hardy space $H^2$ of those with square-integrable boundary values on the Šilov boundary. **The physical Hilbert space is the Hardy space $H^2(D_{IV}^5)$**, on which $\mathrm{SO}_0(5,2)$ acts by the holomorphic discrete series (W1, 2026-08-22). The Bergman space remains where the Born rule was first proved (T754), and the two meet at one open door — reading a Bergman-normalised state's Hardy mass as a probability — which is named in Lecture 3 of the Spine (the Spine, `Curriculum/Spine_DIV5_QM_GR_SM/`). Read every "$H^2$" below as the Hardy space, and every "Bergman" that describes a norm or a measure as the interior's. Two further pins: the kernel exponent of $D_{IV}^5$ is its genus, $5$ (not $7$, and not $n_C + 1$); and the $7/2$ that appears in the norms is a shifted Pochhammer parameter, not "the Bergman exponent."
 
 ## Level 1 — one sentence
 
