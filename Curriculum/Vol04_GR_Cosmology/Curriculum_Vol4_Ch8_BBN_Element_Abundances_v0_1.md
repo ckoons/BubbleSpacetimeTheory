@@ -2,7 +2,7 @@
 title: "Vol 4 Chapter 8 — Big Bang Nucleosynthesis"
 author: "Keeper (author pass)"
 date: "2026-05-23 Saturday"
-status: "v0.2 — Keeper author-voice pass; T_c = N_max·20/21 = 0.487 MeV at 0.018%, Li-7 problem resolved via Δg = genus = 7"
+status: "v0.2 — Keeper author-voice pass; T_c = N_max·20/21 = 0.487 MeV at 0.018%, Li-7 problem read via Δg = 7 — NOTE 2026-09-11: 7 is the SIGNATURE p+q, not the genus; the Bergman genus of D_IV⁵ is 5 (pinned 09-09). The Li-7 reading is an identification and its label is corrected below"
 volume: "Vol 4 General Relativity and Cosmology from D_IV⁵"
 chapter: 8
 ---
@@ -31,7 +31,7 @@ BST's substrate prediction:
 
 $$\text{Li-7/H} \;\approx\; 1.7 \times 10^{-10},$$
 
-matching observation at $7\%$. The substrate-mechanism reading: a $\Delta g = \text{genus} = 7$ correction to the standard BBN Li-7 production rate, arising from the substrate's $g = 7$ gauge-dimension integer entering the Li-7 nuclear-reaction sector specifically.
+matching observation at $7\%$. The substrate-mechanism reading: a $\Delta g = 7$ correction (the integer $7$ is the signature $p+q$ of $SO(5,2)$, which this chapter called "genus" in May; the genus of $D_{IV}^5$ is $5$ — corrected 2026-09-11) to the standard BBN Li-7 production rate, arising from the substrate's $g = 7$ gauge-dimension integer entering the Li-7 nuclear-reaction sector specifically.
 
 This is one of the framework's load-bearing positive predictions in cosmology — BST resolves an experimentally established discrepancy with a substrate-derived correction.
 

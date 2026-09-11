@@ -9,6 +9,8 @@ chapter: 11
 
 # Chapter 11 — Observables Reference
 
+*Tier column corrected in place 2026-09-11 (Keeper, K1892) for the rows re-tiered since May; every other row carries its May tier and is being resynced. Where this table and `notes/BST_AC_Theorem_Registry.md` disagree, the registry wins.*
+
 The volume has built the substrate framework for quantum field theory: Hilbert space, integers, discrete symmetries, Casimir algebra, operator zoo, dynamics, gauge theory, scattering, renormalization. This chapter consolidates what the apparatus produces — over six hundred substrate-derived observables, tier-classified, with cross-references to the computational verifications.
 
 The chapter does not derive new content. It indexes.
@@ -18,11 +20,11 @@ The chapter does not derive new content. It indexes.
 | Observable | BST formula | Tier | Match | Where |
 |---|---|---|---|---|
 | $m_p/m_e$ | $6\pi^5 = 1836.118$ | D | 0.002% | Vol 2 Ch 6 (T187) |
-| $1/\alpha$ | $N_{\max} = N_c^3 \cdot n_C + \text{rank} = 137$ | D | 0.026% | Paper #104 |
-| Newton's $G$ | $\hbar c (6\pi^5)^2 \alpha^{24}/m_e^2$ | D | 0.07% | Vol 4 Ch 1 (T1296) |
+| $1/\alpha$ | $N_{\max} = N_c^3 \cdot n_C + \text{rank} = 137$ | **I** (was D; re-tiered 2026-08-11, K1816; the forward form is a mnemonic — K1813 null; volume class closed negative K1826) | 0.026% | Spine Lecture 8 |
+| Newton's $G$ | $\hbar c (6\pi^5)^2 \alpha^{24}/m_e^2$ | theorem about a RELATION (trade $G$ for $m_e$; $\alpha$ identified inside; K1673) | 0.065% | Vol 4 Ch 1; Spine Lecture 9 |
 | $\Lambda/M_{\text{Pl}}^4$ | $7 e^{-282}$ | D | 0.076 dex | Vol 4 Ch 4 (T1485) |
-| $\sin^2 \theta_W$ | $N_c/c_3 = 3/13$ | D | 0.19% | Vol 2 Ch 2 |
-| $a_e$ (electron $g-2$) | $\alpha/(2\pi)$ + substrate | D | ppt | Vol 2 Ch 8 (K92) |
+| $\sin^2 \theta_W$ | $N_c/c_3 = 3/13$ | **I** (was D; a retired near miss — K1445 2a.5) | 0.19% | Vol 2 Ch 2 |
+| $a_e$ (electron $g-2$) | $\alpha/(2\pi)$ + the Petermann–Sommerfield $C_2$ | **I** (was D; K1872, 2026-09-07) | ppt (a match) | Vol 2 Ch 8; Spine Lecture 8 |
 | CMB $n_s$ | $1 - n_C/N_{\max} = 0.9635$ | D | 0.3σ | Vol 4 Ch 6 |
 | Dark-matter/baryon | $(3n_C + 1)/N_c = 16/3$ | D | 0.58% | Vol 4 Ch 10 |
 

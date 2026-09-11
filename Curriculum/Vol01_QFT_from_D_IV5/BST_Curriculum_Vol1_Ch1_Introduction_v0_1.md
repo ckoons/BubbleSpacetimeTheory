@@ -45,7 +45,7 @@ The volume is organized to build the QFT apparatus piece by piece, each piece de
 
 **Chapter 7 — Dynamics.** The Schrödinger picture, the Heisenberg picture, and the path-integral formulation, all on $H^2(D_{IV}^5)$ with substrate-tick discretization. Quantum dynamics emerges as substrate evolution.
 
-**Chapter 8 — Gauge theory.** The Standard Model's $SU(3) \times SU(2) \times U(1)$ gauge group, derived from the substrate's $N_c = 3$ (giving color) and rank $= 2$ (giving weak isospin doublet structure), with the cap $N_{\max} = 137$ fixing the fine-structure coupling. Three fermion generations forced by the Q⁵ cohomology truncation, plus the five-absence prediction set: no GUT, no proton decay, no monopoles, no sterile neutrinos, no SUSY.
+**Chapter 8 — Gauge theory.** The Standard Model's $SU(3) \times SU(2) \times U(1)$ gauge group — the electroweak skeleton read off the substrate, the $SU(3)$ *imported* (the geometry supplies a three-dimensional colour slot and no $SU(3)$ to rotate it; Cal Section 946, 2026-09-09; the May text said "derived from $N_c = 3$ (giving color)") and rank $= 2$ (giving weak isospin doublet structure), with the cap $N_{\max} = 137$ fixing the fine-structure coupling. Three fermion generations forced by the Q⁵ cohomology truncation, plus the five-absence prediction set: no GUT, no proton decay, no monopoles, no sterile neutrinos, no SUSY.
 
 **Chapter 9 — Scattering and the S-matrix.** Substrate-cycle scattering, the substrate's analog of in/out states, and the substrate-derivation of the optical theorem and the LSZ reduction formula.
 

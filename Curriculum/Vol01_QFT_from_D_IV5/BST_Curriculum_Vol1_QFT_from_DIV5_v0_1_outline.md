@@ -144,7 +144,7 @@ Schrödinger equation iℏ ∂|ψ⟩/∂t = H_sub |ψ⟩ on H²(D_IV⁵) with H_
 
 ### Chapter 8 — Gauge Theory: SU(3) × SU(2) × U(1) from D_IV⁵
 
-**Anchors**: T1930 (N_c=3 → SU(3) color) + T1925 (rank=2 → SU(2) weak) + U(1) abelian residual (existing BST architecture).
+**Anchors**: T1925 (rank=2 → SU(2) weak) + U(1) (in the SO(5) Cartan, K1687). **T1930 (N_c=3 → SU(3) colour) is RETIRED as a derivation (K1724/K1782; Cal Section 946, 2026-09-09): the geometry supplies U(1)·SO(3) on the colour slot, not SU(3); colour is identified and its dynamics imported.**
 
 Standard Model gauge group structure forced from D_IV⁵:
 - **SU(3) color**: N_c=3 quark color count from Mersenne ladder M_rank (T1930)

@@ -9,7 +9,7 @@ chapter: 2
 
 # Chapter 2 — The Standard Model Gauge Group, in Operational Detail
 
-Volume 1 Chapter 8 derived the Standard Model gauge group $SU(3) \times SU(2) \times U(1)$ from the substrate's BST primary integers: $SU(N_c) = SU(3)$ from color multiplicity, $SU(\text{rank}) = SU(2)$ from substrate rank, $U(1)$ from the $SO(2)$ factor of the isotropy decomposition. Total Lie-algebra dimension $\dim G_{SM} = 8 + 3 + 1 = 12 = N_c \cdot \text{rank} \cdot 2$.
+Volume 1 Chapter 8 presented the Standard Model gauge group $SU(3) \times SU(2) \times U(1)$ as read off the substrate's primary integers. Two of those readings we no longer make in that form (corrected 2026-09-11): the $SU(3)$ is **not** supplied by the geometry — the group it carries on the three-dimensional colour slot is $U(1)\cdot SO(3)$, and no compact subgroup of its structure group is $SU(3)$ (Cal Section 946; Spine Lecture 2) — so colour dynamics is *imported* (#108) and the integer $N_c = 3$ is an identification; and electric charge lives in the Cartan of $SO(5)$, not on the $SO(2)$ centre, which is time's rotation (K1687). What the geometry does supply is the electroweak skeleton and the rank-two $SU(2)$. Total Lie-algebra dimension $\dim G_{SM} = 8 + 3 + 1 = 12 = N_c \cdot \text{rank} \cdot 2$.
 
 This chapter is the operational companion: the Weinberg-angle calculation, the gauge-boson mass spectrum, and the substrate-derivations of the gauge couplings that Volume 1 sketched.
 

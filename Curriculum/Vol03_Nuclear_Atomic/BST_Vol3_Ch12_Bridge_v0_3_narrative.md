@@ -13,7 +13,7 @@ This is the closing chapter of Vol 3. The volume has derived nuclear physics (ma
 
 ## 12.1 Cross-link to Vol 4 — BBN and cosmological nucleosynthesis
 
-The nuclear-physics framework of Vol 3 anchors the cosmological derivations of Volume 4 Chapter 8 — Big Bang Nucleosynthesis. The substrate's nuclear scale and the substrate's BBN freeze-out temperature $T_c = N_{\max} \cdot 20/21 = 0.487$ MeV combine to produce the primordial light-element abundances at sub-percent precision (H, D, He) with the Li-7 problem resolved via the $\Delta g = 7$ substrate-genus correction.
+The nuclear-physics framework of Vol 3 anchors the cosmological derivations of Volume 4 Chapter 8 — Big Bang Nucleosynthesis. The substrate's nuclear scale and the substrate's BBN freeze-out temperature $T_c = N_{\max} \cdot 20/21 = 0.487$ MeV combine to produce the primordial light-element abundances at sub-percent precision (H, D, He) with the Li-7 problem resolved via the $\Delta g = 7$ substrate-signature correction (the integer $7$ is the signature $p+q$, not the genus, which is $5$ — label corrected 2026-09-11).
 
 ## 12.2 Cross-link to Vol 9 — condensed matter and superconductivity
 
