@@ -2,7 +2,7 @@
 title: "Vol 4 Chapter 8 — Big Bang Nucleosynthesis"
 author: "Keeper (author pass)"
 date: "2026-05-23 Saturday"
-status: "v0.2 — Keeper author-voice pass; T_c = N_max·20/21 = 0.487 MeV at 0.018%, Li-7 problem read via Δg = 7 — NOTE 2026-09-11: 7 is the SIGNATURE p+q, not the genus; the Bergman genus of D_IV⁵ is 5 (pinned 09-09). The Li-7 reading is an identification and its label is corrected below"
+status: "v0.2 — Keeper author-voice pass; T_c = N_max·20/21 = 0.487 MeV at 0.018%, Li-7 problem read via Δg = 7 — NOTE 2026-09-11: 7 = p + q is the defining-representation dimension of SO(5,2), not the genus; the Bergman genus of D_IV⁵ is 5 (pinned 09-09). The Li-7 reading is an identification and its label is corrected below"
 volume: "Vol 4 General Relativity and Cosmology from D_IV⁵"
 chapter: 8
 ---
@@ -13,7 +13,7 @@ chapter: 8
 
 Big-bang nucleosynthesis (BBN) — the primordial production of light elements (H, D, He, Li) in the first minutes after the Big Bang — provides one of cosmology's most precisely measured tests of standard physics. Standard BBN predicts abundances in striking agreement with observation for H, D, and He; the famous **Li-7 problem** is a persistent discrepancy where observed Li-7 abundance is about three times below the standard prediction.
 
-BST derives the BBN freeze-out temperature from substrate primaries at $0.018\%$ and reads the Li-7 problem via the substrate signature integer $7$ (called "genus" here until 2026-09-11; the genus is 5) integer $g = 7$.
+BST derives the BBN freeze-out temperature from substrate primaries at $0.018\%$ and reads the Li-7 problem via the substrate integer $7 = p + q$ (called "genus" here until 2026-09-11; the genus is 5) integer $g = 7$.
 
 ## 8.1 The BBN freeze-out temperature
 
@@ -33,7 +33,7 @@ BST's substrate prediction:
 
 $$\text{Li-7/H} \;\approx\; 1.7 \times 10^{-10},$$
 
-matching observation at $7\%$. The substrate-mechanism reading: a $\Delta g = 7$ correction (the integer $7$ is the signature $p+q$ of $SO(5,2)$, which this chapter called "genus" in May; the genus of $D_{IV}^5$ is $5$ — corrected 2026-09-11) to the standard BBN Li-7 production rate, arising from the substrate's $g = 7$ gauge-dimension integer entering the Li-7 nuclear-reaction sector specifically.
+matching observation at $7\%$. The substrate-mechanism reading: a $\Delta g = 7$ correction (the integer $7 = p + q$ is the defining-representation dimension of $SO(5,2)$, which this chapter called "genus" in May; the genus of $D_{IV}^5$ is $5$ — corrected 2026-09-11) to the standard BBN Li-7 production rate, arising from the substrate's $g = 7$ gauge-dimension integer entering the Li-7 nuclear-reaction sector specifically.
 
 This is one of the framework's load-bearing positive predictions in cosmology — BST resolves an experimentally established discrepancy with a substrate-derived correction.
 

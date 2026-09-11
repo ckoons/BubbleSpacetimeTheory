@@ -68,7 +68,7 @@ $$N_c = n_C - \text{rank} = 3, \quad g = n_C + \text{rank} = 7, \quad C_2 = \tex
 
 $$N_{\max} = N_c^3 \times n_C + \text{rank} = 135 + 2 = 137$$
 
-The five integers are five readings of one object. $N_c = 3$ gives both the number of quark colors and the number of spatial dimensions — same number, same reason: it is what remains after the observer claims its rank. The integer $g = 7$ — the signature $p + q$, not the genus, which is 5 — sets the spectral ceiling. The channel capacity $N_{\max} = 137$ is a computed invariant that matches $\alpha^{-1}$; the match is identified, not derived (Spine Lecture 8).
+The five integers are five readings of one object. $N_c = 3$ gives both the number of quark colors and the number of spatial dimensions — same number, same reason: it is what remains after the observer claims its rank. The integer $g = 7 = p + q$ — the defining-representation dimension of $\mathrm{SO}(5,2)$, not the genus, which is 5 — sets the spectral ceiling. The channel capacity $N_{\max} = 137$ is a computed invariant that matches $\alpha^{-1}$; the match is identified, not derived (Spine Lecture 8).
 
 **Restatement**: BST does not begin with five integers. BST begins with one geometry — the unique bounded symmetric domain that supports self-referential observation — and reads five integers off it. Everything that follows is consequence.
 
@@ -110,7 +110,7 @@ All results below are read off the geometry of $D_{IV}^5$ with one named input; 
 | Cabibbo angle $\sin\theta_C$ | $1/\sqrt{20}$ (T2530, DERIVED blind 2026-07-29; the May form $2/\sqrt{79}$/T1444 is retired) | $-2.06\sigma$ on the direct value; exactly first-row unitary | 7.7 |
 | CKM CP phase $\gamma$ | $\arctan(\sqrt{n_C}) = \arctan(\sqrt{5})$ | **0.6%** | 7.7 |
 | Jarlskog invariant $J_{\rm CKM}$ | $\sqrt{2}/50000$ | **2.1%** | 7.7 |
-| Fermi scale $v$ (Higgs vev) | $m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7$, $g=7$ (the signature, not the genus) | **0.046%** (identified) | 14.7 |
+| Fermi scale $v$ (Higgs vev) | $m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7$, $g = 7 = p + q$ (not the genus) | **0.046%** (identified) | 14.7 |
 | W boson mass $m_W$ (Route B) | $n_C m_p/(8\alpha)$ | **0.02%** | 14.7 |
 | SPARC rotation curves (175 galaxies) | Channel noise, no dark matter | $\chi^2/\nu < 1$ | 19 |
 | NANOGrav GW spectrum | Phase transition at $T_c=0.487$ MeV, $f_{\rm peak}\approx 6$–9 nHz | In band | 15.6 |

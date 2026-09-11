@@ -438,7 +438,7 @@ There are 38 bounded symmetric domains of rank 2. Every one of them defines a ge
 
 Thirty-seven domains die. One survives. $D_{IV}^5$.
 
-The deaths are not close calls. Lock 1 kills 14 immediately. Lock 2 kills another 15. The strongest near-miss is $D_{IV}^9$ — it passes three locks with flying colors ($N_c = 7$, the signature 11 is prime — this chapter said "genus"; the genus of $D_{IV}^9$ is 9 — $N_{\max} = 3089$ is prime). But $7^2 - 1 - 2 = 46 \neq 10$. The gauge algebra doesn't match the geometry. It dies at Lock 4.
+The deaths are not close calls. Lock 1 kills 14 immediately. Lock 2 kills another 15. The strongest near-miss is $D_{IV}^9$ — it passes three locks with flying colors ($N_c = 7$, $p + q = 11$ is prime — this chapter said "genus"; the genus of $D_{IV}^9$ is 9 — $N_{\max} = 3089$ is prime). But $7^2 - 1 - 2 = 46 \neq 10$. The gauge algebra doesn't match the geometry. It dies at Lock 4.
 
 Within the Type IV family alone, Lock 4 reduces to $n(n-5) = 0$. A quadratic equation. One root.
 
@@ -1159,7 +1159,7 @@ There are exactly **12 parameter values** that appear in BST Meijer G-functions:
 
 Total: $12 = 2 \cdot C_2$. Under Gauss's multiplication formula, the catalog extends to **128 values** — exactly $2^g$. This extended catalog is **closed**: further compositions produce no new parameter values.
 
-The integer $g = 7$ — the signature of $\mathrm{SO}(5,2)$, which this chapter called the genus until September 2026 (the genus is 5) — determines the size of the function space. $2^g = 128$ parameter slots is all the geometry allows. Every function the universe computes fits in a table indexed by five integers.
+The integer $g = 7 = p + q$ — the dimension of the defining representation of $\mathrm{SO}(5,2)$, which this chapter called the genus until September 2026 (the genus is 5) — determines the size of the function space. $2^g = 128$ parameter slots is all the geometry allows. Every function the universe computes fits in a table indexed by five integers.
 
 ### AC Depth Maps to Complexity
 

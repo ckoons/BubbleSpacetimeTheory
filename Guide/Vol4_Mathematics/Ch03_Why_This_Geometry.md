@@ -63,7 +63,7 @@ $147 = N_c \times g^2 = 3 \times 49$ is the fiber packing number — the number 
 
 $$147 = \underbrace{3}_{N_c} \times \underbrace{49}_{g^2}$$
 
-Three colors tile the $\mathbb{Z}_3$ circuit. Forty-nine genus sections ($g = 7$ — the signature, not the Bergman genus, which is 5 — squared by the two fiber factors $\mathrm{SO}(5)$ and $\mathrm{SO}(2)$) complete the topological closure.
+Three colors tile the $\mathbb{Z}_3$ circuit. Forty-nine genus sections ($g = 7 = p + q$ — not the Bergman genus, which is 5 — squared by the two fiber factors $\mathrm{SO}(5)$ and $\mathrm{SO}(2)$) complete the topological closure.
 
 ### 33.3 The Gap
 

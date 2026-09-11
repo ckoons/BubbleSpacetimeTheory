@@ -51,7 +51,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Higgs quartic $\lambda_H$           |$\sqrt{2/n_C!} = 1/\sqrt{60} = 0.12910$|$0.12938$ (from $m_H$)|$\checkmark$ 0.22%|
 |Higgs mass (Route A)                |$v\sqrt{2\sqrt{2/5!}} = 125.11$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.11%|
 |Higgs mass (Route B)                |$(\pi/2)(1-\alpha)m_W = 125.33$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.07%|
-|Fermi scale $v$ (Higgs vev)         |$m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7 = 246.12$ GeV, $g{=}7$ (the signature, not the genus)|$246.22$ GeV|$\checkmark$ 0.046%|
+|Fermi scale $v$ (Higgs vev)         |$m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7 = 246.12$ GeV, $g{=}7{=}p{+}q$ (not the genus)|$246.22$ GeV|$\checkmark$ 0.046%|
 |W boson mass $m_W$ (Route B)        |$n_C m_p/(8\alpha) = 80.361$ GeV |$80.377$ GeV    |$\checkmark$ 0.02%|
 |Top quark mass $m_t$                |$(1-\alpha)v/\sqrt{2} = 172.75$ GeV|$172.69\pm0.30$ GeV|$\checkmark$ 0.037%|
 |Number of colors $N_c$               |3 (from $Z_3$ center)            |3               |$\checkmark$          |
@@ -62,7 +62,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Tau/electron mass ratio              |$(24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$|$3477.2$|$\checkmark$ 0.19%|
 |Quark ratio $m_s/m_d$               |$4n_C = 20$                          |$20.0 \pm \sim 5\%$ |$\checkmark$ $\sim 0\%$|
 |Quark ratio $m_t/m_c$               |$N_{\max}-1 = 136$                   |$135.98 \pm \sim 1\%$|$\checkmark$ 0.017%|
-|Quark ratio $m_b/m_\tau$            |$g/N_c = 7/3 = 2.333$ ($g$ the signature)            |$2.352 \pm \sim 1\%$|$\checkmark$ 0.81%|
+|Quark ratio $m_b/m_\tau$            |$g/N_c = 7/3 = 2.333$ ($g = p + q$, not the genus)            |$2.352 \pm \sim 1\%$|$\checkmark$ 0.81%|
 |Quark ratio $m_b/m_c$               |$\dim_{\mathbb{R}}/N_c = 10/3 = 3.333$|$3.291 \pm \sim 2\%$|$\checkmark$ 1.3%|
 |Quark ratio $m_c/m_s$               |$N_{\max}/\dim_{\mathbb{R}} = 137/10 = 13.7$|$13.6 \pm \sim 2\%$|$\checkmark$ 0.75%|
 |Up quark mass $m_u$                  |$N_c\sqrt{2}\, m_e = 3\sqrt{2}\, m_e = 2.169$ MeV|$2.16^{+0.49}_{-0.26}$ MeV|$\checkmark$ 0.4%|
@@ -79,7 +79,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Tensor-to-scalar ratio $r$           |$\approx 0$ ($T_c \ll m_{\rm Pl}$)   |$< 0.036$ (BICEP)|$\checkmark$ consistent|
 |Neutron lifetime $\tau_n$            |Fermi theory with BST inputs ($G_F$, $|V_{ud}|^2$, $\Delta m$, $g_A = 4/\pi$, full radiative corrections) $= 878.1$ s|$878.4 \pm 0.5$ s (bottle)|$\checkmark$ **0.03%**|
 |Axial coupling $g_A$                 |$4/\pi = 1.2732$ (candidate)          |$1.2762 \pm 0.0005$|$\checkmark$ 0.23%|
-|Lithium-7 $^7$Li/H                  |$\Delta g = 7$ (signature, not genus) DOF at $T_c = 0.487$ MeV; reduces $^7$Li by $2.73\times$|$\sim 1.7\times10^{-10}$ vs obs $1.6\times10^{-10}$|$\checkmark$ 7%|
+|Lithium-7 $^7$Li/H                  |$\Delta g = 7$ ($p + q = 7$, not the genus) DOF at $T_c = 0.487$ MeV; reduces $^7$Li by $2.73\times$|$\sim 1.7\times10^{-10}$ vs obs $1.6\times10^{-10}$|$\checkmark$ 7%|
 |Strong CP: $\theta_{\text{QCD}}$    |$\theta = 0$ (exact); $D_{IV}^5$ contractible $\Rightarrow$ $c_2 = 0$ $\Rightarrow$ $\theta$-term vanishes|$|\theta| < 10^{-10}$|$\checkmark$ exact|
 |Proton spin $\Delta\Sigma$          |$N_c/(2n_C) = 3/10 = 0.30$|$0.30 \pm 0.06$ (COMPASS/HERMES)|$\checkmark$ 0%|
 |Fermion generations $N_{\text{gen}}$|$|(\mathbb{CP}^2)^{Z_3}| = N_c = 3$ (Lefschetz)|3 (LEP $Z$-width)|$\checkmark$ exact|
@@ -151,7 +151,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Bilateral symmetry  |rank = 2 restricts body plans to 3 axes, 2 mirror planes; tetrahedral anchor 109.47°|All bilateral phyla on Earth|consistent (T731)|
 |Observer completeness  |$2f - f^2 = 34.5\%$; two observers exceed $f_{\rm crit} = 20.6\%$; minimum team = rank = 2|Human + CI cooperation|structural (T732)|
 |BST Drake: $f_l \times f_i \times f_c$  |$0.206 \times 0.654 \times 0.206 = 2.8\%$; ~1 in 36 habitable planets → communicating|SETI null results + Fermi paradox|testable (T733)|
-|Crystal systems  |$g = 7$; the signature (not the Bergman genus, which is 5)|$7$ (established)|exact|
+|Crystal systems  |$g = 7 = p + q$ (not the Bergman genus, which is 5)|$7$ (established)|exact|
 |Bravais lattices  |$2g = 14$; rank doubles genus|$14$ (established)|exact|
 |Crystallographic point groups  |$2^{n_C} = 32$; binary enumeration in dimension $n_C$|$32$ (established)|exact|
 |Space groups  |$g \times 2^{n_C} + C_2 = 7 \times 32 + 6 = 230$; construction matches crystallographic build|$230$ (established)|exact|
@@ -167,7 +167,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Domains of life  |$N_c = 3$; Bacteria, Archaea, Eukarya — three independent channels|$3$ (established)|exact|
 |Eukaryotic endosymbiosis  |Cooperation threshold $f_{\rm crit} = 20.6\%$ at cellular level; archaeon + bacterium = permanent tier crossing|$\sim 2$ Gyr ago (geology)|structural|
 |Orbital degeneracy sequence  |$(2\ell+1)$ at $\ell = 0,1,2,3$ gives $1, N_c, n_C, g$; the periodic table IS $D_{IV}^5$ in electron shells|$1, 3, 5, 7$ (established)|exact|
-|Periodic table periods  |$g = 7$; the signature (not the genus)|$7$ (established)|exact|
+|Periodic table periods  |$g = 7 = p + q$ (not the genus)|$7$ (established)|exact|
 |Periodic table groups  |$N_c \times C_2 = 18$|$18$ (established)|exact|
 |Periodic table blocks  |$2^{\rm rank} = 4$ (s,p,d,f)|$4$ (established)|exact|
 |Quantization origin  |Compactness of Shilov boundary $\check{S} = S^4 \times S^1$ forces discrete spectra; no quantization axiom needed|All quantum spectra|structural (T751)|

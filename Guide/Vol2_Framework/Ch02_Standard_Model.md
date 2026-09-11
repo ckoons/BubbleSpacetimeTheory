@@ -213,7 +213,7 @@ $$\boxed{\sin^2\theta_W = \frac{N_c}{N_c + 2n_C} = \frac{3}{3 + 10} = \frac{3}{1
 
 matching the $\overline{\mathrm{MS}}$ value 0.23122 to **0.2%** with no free parameters. The numerator $N_c = 3$ counts color directions; the denominator $N_c + 2n_C = 13$ is color ($N_c = 3$) plus the real dimension of $D_{IV}^5$ ($2n_C = 10$) — the total number of gauge-active real dimensions. The physical interpretation: $\sin^2\theta_W$ measures what fraction of the gauge interaction comes from the color sector (hypercharge) versus the full geometric structure.
 
-**Consequences.** The double angle gives $\cos 2\theta_W = 7/13$, connecting the Weinberg angle to the same integer $7 = n_C + 2 = p + q$ — the *signature* of $\mathrm{SO}(5,2)$, which this chapter called the genus in May; the genus of $D_{IV}^5$ is $5$ (pinned 2026-09-09) — that appears in $\alpha_s = 7/20$, $H_{\mathrm{YM}} = 7/(10\pi)$, and $\beta_0 = 7$. The W mass follows from the tree-level relation:
+**Consequences.** The double angle gives $\cos 2\theta_W = 7/13$, connecting the Weinberg angle to the same integer $7 = n_C + 2 = p + q$ — the dimension of the defining representation of $\mathrm{SO}(5,2)$ (signature $(5,2)$), which this chapter called the genus in May; the genus of $D_{IV}^5$ is $5$ (pinned 2026-09-09) — that appears in $\alpha_s = 7/20$, $H_{\mathrm{YM}} = 7/(10\pi)$, and $\beta_0 = 7$. The W mass follows from the tree-level relation:
 
 $$m_W = m_Z\sqrt{1 - 3/13} = m_Z\sqrt{10/13} = 79.977 \text{ GeV} \quad (0.5\% \text{ from observed } 80.377 \text{ GeV})$$
 
@@ -391,7 +391,7 @@ Equivalently: $m_\mu/m_e = \exp(\dim_{\mathbb{R}}(D_{IV}^3) \cdot \Delta S_{\rm 
 | $m_\tau/m_\mu$ | $(7/3)^{10/3} = (\kappa_1/\kappa_5)^{2n_C/N_c}$ | $16.850$ | $16.817$ | **0.19%** |
 | $m_t/m_c$ | $N_{\max}-1$ | $136$ | $135.98$ | 0.017%* |
 | $m_s/m_d$ | $4n_C$ | $20$ | $20.0 \pm \sim 5\%$ | $\sim 0\%$ |
-| $m_b/m_\tau$ | $g/N_c = 7/3$ ($g$ the signature, not the genus) | $2.333$ | $2.352$ | 0.81% |
+| $m_b/m_\tau$ | $g/N_c = 7/3$ ($g = p + q = 7$, the defining-representation dimension, not the genus) | $2.333$ | $2.352$ | 0.81% |
 | $m_b/m_c$ | $\dim_{\mathbb{R}}(D_{IV}^5)/N_c = 10/3$ | $3.333$ | $3.291$ | 1.3%* |
 | $m_c/m_s$ | $N_{\max}/\dim_{\mathbb{R}} = 137/10$ | $13.7$ | $13.6$ | 0.75% |
 
@@ -405,7 +405,7 @@ Full derivation and numerical verification: `notes/BST_FermionMass.md`, `notes/B
 
 - $m_s/m_d = 4n_C = 20$ (exact to measurement precision). The same $4n_C$ that appears in $\sin^2\theta_C = 1/(4n_C) = 1/20$ — CKM mixing and quark masses share a common geometric origin.
 - $m_t/m_c = N_{\max} - 1 = 136$ (0.017%). The top saturates the vacuum minus one level.
-- $m_b/m_\tau = g/N_c = 7/3$ (0.81%; $g$ is the signature $p+q$, not the genus). Third-generation quark-lepton partners coupled by the holomorphic curvature ratio $\kappa_1/\kappa_5 = 7/3$.
+- $m_b/m_\tau = g/N_c = 7/3$ (0.81%; $g = p + q = 7$ is the defining-representation dimension of $\mathrm{SO}(5,2)$, not the genus). Third-generation quark-lepton partners coupled by the holomorphic curvature ratio $\kappa_1/\kappa_5 = 7/3$.
 - $m_b/m_c = \dim_{\mathbb{R}}(D_{IV}^5)/N_c = 10/3$ (1.3%). The real dimension per color.
 - $m_c/m_s = N_{\max}/\dim_{\mathbb{R}} = 137/10$ (0.75%). Bridging thermal and geometric sectors.
 

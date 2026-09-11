@@ -159,7 +159,7 @@ Full derivation: `notes/BST_HiggsMass_TwoRoutes.md`.
 
 $$\boxed{v = \frac{m_p^2}{g \cdot m_e} = \frac{(6\pi^5)^2 m_e}{7} = \frac{36\pi^{10} m_e}{7} = 246.12 \text{ GeV} \quad (0.046\%)}$$
 
-where $g = n_C + 2 = 7$ is the signature $p + q$ of $\mathrm{SO}(5,2)$ (this chapter called it the genus; the genus of $D_{IV}^5$ is 5). The pattern reveals a Bergman hierarchy: fermion masses are first-order Bergman ratios, $m_p = (n_C+1)\pi^{n_C} m_e$; the boson scale is the second-order ratio, $v = (n_C+1)^2 \pi^{2n_C} m_e / (n_C+2)$ — squared and divided by genus. The Bergman kernel $K \propto 1/\Phi^g$ with $g = 7$ mediates the boundary-bulk connection: the denominator $g$ appears because the Higgs vev couples to all $g$ independent holomorphic directions of $D_{IV}^5$.
+where $g = n_C + 2 = 7$ is $p + q$, the dimension of the defining representation of $\mathrm{SO}(5,2)$ — signature $(5,2)$ — (this chapter called it the genus; the genus of $D_{IV}^5$ is 5). The pattern reveals a Bergman hierarchy: fermion masses are first-order Bergman ratios, $m_p = (n_C+1)\pi^{n_C} m_e$; the boson scale is the second-order ratio, $v = (n_C+1)^2 \pi^{2n_C} m_e / (n_C+2)$ — squared and divided by genus. The Bergman kernel $K \propto 1/\Phi^g$ with $g = 7$ mediates the boundary-bulk connection: the denominator $g$ appears because the Higgs vev couples to all $g$ independent holomorphic directions of $D_{IV}^5$.
 
 The W boson mass follows by an independent route:
 
@@ -173,7 +173,7 @@ Full derivation: `notes/BST_FermiScale_Derivation.md`.
 
 **The two master equations.** All four fundamental mass scales — electron mass $m_e$, proton mass $m_p$, Fermi scale $v$, and Planck mass $m_{\rm Pl}$ — are determined by two geometric equations plus one input mass:
 
-$$\boxed{v \times g \times m_e = m_p^2 \qquad [\text{weak: Bergman hierarchy, } g = 7 \text{ (the signature, not the genus)}]}$$
+$$\boxed{v \times g \times m_e = m_p^2 \qquad [\text{weak: Bergman hierarchy, } g = 7 \text{ (} p+q \text{, not the genus)}]}$$
 
 $$\boxed{m_{\rm Pl} \times m_p \times \alpha^{2C_2} = m_e^2 \qquad [\text{gravity: } C_2 = 6 \text{ Bergman kernel round trips}]}$$
 
