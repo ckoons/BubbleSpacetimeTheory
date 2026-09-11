@@ -83,3 +83,8 @@ Nothing in Guide/ or Curriculum/ is external-ready today; both front doors asser
 Rubric cell: this is Internal D (forced-not-fitted, on the presentation) and External 1–4 (the presentation of postulates, QM, SM, GR). It closes no scorecard cell by itself; it is the condition for any cell being *seen* to be closed.
 
 — Keeper. K1892. Counter next: K1893.
+
+---
+## Addendum, 11:40 EDT — executed on Casey's word ("you get the important job … use the BST narrative voice, feel free to create a BST_VOICE_AND_STYLE_GUIDE.md")
+Done (each its own commit): item 0.5 `BST_VOICE_AND_STYLE_GUIDE.md` · item 1 (partial) — the single-source state block + sync script + SOD section 5 (`play/keeper_presentation_currency_check.py`, baseline 83 legacy lines, must-catch verified on the live pipeline); the registry-to-table GENERATOR is still owed to Grace because `data/bst_26_tier_map.json` (07-17) is itself stale · item 2 — both front doors · item 3 (partial) — the Spine: Lectures 1, 2, 3, 8 drafted; 4, 5, 6, 7, 9, 10 scaffolded · item 4 (partial) — Guide Vol2 Ch01/Ch02 (§5 head, §6.3, §7.4, §7.7 table), Vol3 Ch03/04/05, Vol4 Ch03 §35, Vol6 §46.28 corrected in place · item 5 — the shelf split is done in the README's volume table (no directories moved; links and PDFs preserved) · 26 legacy chapters corrected in place. Scorecard folded; Section 3 re-derived.
+**Owns:** the scan's LaTeX-brace miss; "since 2025" (Journey says early 2026); a Wyler-critique attribution from memory (pulled; [pin owed]); two hand-typed PDG numbers (replaced). **Open:** Cal's two-voice cold-read on 1/2/3/8; prose for six lectures; the 83-line debt; the sub-Tsirelson legacy falsifier flagged for Grace/Cal.
