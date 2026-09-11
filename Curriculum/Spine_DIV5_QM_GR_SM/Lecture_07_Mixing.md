@@ -33,7 +33,7 @@ On the down-type module the geometry produces a texture with a zero in the (1,1)
 
 $$\tan\theta_C \;=\; \sqrt{\frac{m_d}{m_s}}\,,$$
 
-the Gatto relation — not imposed, but the geometry's own texture. With the strange-to-down mass ratio the object supplies (Lecture 6's ladder gives $m_s/m_d = \text{rank}^2 n_C = 20$), the Cabibbo angle is
+the Gatto relation — not imposed, but the geometry's own texture. With the strange-to-down mass ratio at the object's lattice value, $m_s/m_d = \text{rank}^2\, n_C = 20$ — an identified monomial (Grace's tier map), carried by T2530 as its stated input — the Cabibbo angle is
 
 $$\lambda \;=\; \sin\theta_{12} \;=\; \frac{1}{\sqrt{20}} \;=\; 0.22361 .$$
 
