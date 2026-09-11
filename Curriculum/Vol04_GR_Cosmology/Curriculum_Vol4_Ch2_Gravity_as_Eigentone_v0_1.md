@@ -9,6 +9,8 @@ chapter: 2
 
 # Chapter 2 — Gravity as Cumulative Eigentone Effect
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Chapter 1 derived Newton's $G$ from the substrate's Bergman geometry with the substrate-mechanism reading that gravity is the substrate's *residual* curvature after the strong, electromagnetic, and weak sectors have completed their per-tick commitments. This chapter develops the residual-curvature picture into a full substrate-derivation of the Einstein field equations.
 
 ## 2.1 The eigentone picture

@@ -9,6 +9,8 @@ chapter: 2
 
 # Chapter 2 — The Standard Model Gauge Group, in Operational Detail
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Volume 1 Chapter 8 presented the Standard Model gauge group $SU(3) \times SU(2) \times U(1)$ as read off the substrate's primary integers. Two of those readings we no longer make in that form (corrected 2026-09-11): the $SU(3)$ is **not** supplied by the geometry — the group it carries on the three-dimensional colour slot is $U(1)\cdot SO(3)$, and no compact subgroup of its structure group is $SU(3)$ (Cal Section 946; Spine Lecture 2) — so colour dynamics is *imported* (#108) and the integer $N_c = 3$ is an identification; and electric charge lives in the Cartan of $SO(5)$, not on the $SO(2)$ centre, which is time's rotation (K1687). What the geometry does supply is the electroweak skeleton and the rank-two $SU(2)$. Total Lie-algebra dimension $\dim G_{SM} = 8 + 3 + 1 = 12 = N_c \cdot \text{rank} \cdot 2$.
 
 This chapter is the operational companion: the Weinberg-angle calculation, the gauge-boson mass spectrum, and the substrate-derivations of the gauge couplings that Volume 1 sketched.

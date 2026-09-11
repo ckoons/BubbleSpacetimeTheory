@@ -10,6 +10,8 @@ load_bearing: "Monster group; monstrous moonshine (Conway-Norton 1979, Borcherds
 
 # Chapter 8 — Monster, Moonshine, and Supersingular Primes
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The Monster group $\mathbb{M}$ — the largest sporadic simple group, order $\sim 8 \times 10^{53}$ — connects modular forms (the $j$-function coefficients are sums of Monster irrep dimensions, monstrous moonshine Borcherds 1992 Fields Medal) and supersingular primes (Ogg 1975: the 15 primes dividing $|\mathbb{M}|$ are exactly the supersingular primes), with BST treating Monster as a **convergence hub** of L1 ESTABLISHED sources rather than as a primary axiom.

@@ -11,6 +11,8 @@ match_precision: "0.076 dex (16% linear; 99.94% of 122-order hierarchy reproduce
 
 # Chapter 4 — The Cosmological Constant from Substrate
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Why this chapter matters
 
 The cosmological constant problem is, in many physicists' assessment, the most acute fine-tuning puzzle in fundamental physics. Standard quantum field theory, computing the vacuum energy density of the Standard Model fields at the Planck scale, gets a number around $10^{122}$ in natural units. The observed cosmological constant is around $10^{-122}$. The discrepancy is one hundred twenty-two orders of magnitude — sometimes called the worst theoretical prediction in the history of physics.

@@ -9,6 +9,8 @@ chapter: 4
 
 # Chapter 4 — Color and Quarks: Confinement as Substrate Topology
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Quark color is the central organizing principle of quantum chromodynamics. Quarks carry one of three color charges; only color-singlet bound states (mesons of quark-antiquark pairs, baryons of three quarks) are observed; isolated quarks have never been detected and, on standard QCD's account, never will be — the strong interaction's confining flux tubes ensure that pulling quarks apart costs increasing energy until a quark-antiquark pair is created, breaking the tube.
 
 BST derives the three-color structure from $N_c = 3$ (Volume 0 Chapter 2, Volume 1 Chapter 8). The framework's distinctive treatment is **confinement as substrate topology** rather than as a dynamical QCD phenomenon. This chapter develops the topological reading.

@@ -9,6 +9,8 @@ chapter: 4
 
 # Chapter 4 — The Isotropy Group: Where the Symmetries of Physics Come From
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 If you take standard physics' organizational structure as given, one of the things that has to be explained somewhere is *why it organizes the way it does*. There are spatial rotations and Lorentz boosts. There are gauge symmetries — electric charge, color, weak isospin. There are discrete symmetries — parity, time reversal, charge conjugation. There are conservation laws, one for each continuous symmetry, and a famous theorem (CPT) tying the discrete symmetries together. None of these are derived in standard physics; each is taken as a structural input, observed in nature and built into the theory by hand.
 
 In BST, all of them are consequences of one fact about $D_{IV}^5$: the structure of the group that *stabilizes a point of the substrate*. Pick any point of $D_{IV}^5$ — the origin of the bounded-domain realization is the conventional choice — and ask which elements of the substrate's symmetry group $SO_0(5,2)$ leave that point fixed. The answer is a smaller group, called the **isotropy subgroup** at the point. For $D_{IV}^5$, the isotropy subgroup factors:

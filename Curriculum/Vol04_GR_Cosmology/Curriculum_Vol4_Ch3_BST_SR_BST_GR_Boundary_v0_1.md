@@ -9,6 +9,8 @@ chapter: 3
 
 # Chapter 3 — The BST-SR / BST-GR Boundary
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Standard physics treats special relativity and general relativity as distinct theoretical frameworks — SR for flat spacetime, GR for curved spacetime, with the curvature switching on whenever matter is present. The transition between the two is structural in standard physics but unmotivated.
 
 In BST, the SR–GR transition is *substrate-mechanical*. SR is the substrate's behavior at scales where the residual Bergman curvature is locally flat; GR is the substrate's behavior when accumulated commitment-cycle curvature becomes significant. The crossover happens at the **Koons tick** scale combined with the substrate's Casimir-eigenvalue spread.

@@ -10,6 +10,8 @@ load_bearing: "Mersenne primes M_p = 2^p − 1; Lucas-Lehmer primality test; Mer
 
 # Chapter 10 — Mersenne Primes and Lucas-Lehmer
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Mersenne primes $M_p = 2^p - 1$ for prime $p$ have been studied since antiquity, with Lucas-Lehmer primality test providing efficient verification, and the BST team's Friday May 22, 2026 finding ("Mersenne Network Convergence") shows BST primary exponents are anchored in a Mersenne ladder: $M_{\text{rank}} = 3 = N_c$, $M_{N_c} = 7 = g$, $M_{n_C} = 31$, $M_g = 127$ — with additive identity $N_{\max} - M_g = 10 = g + N_c$.

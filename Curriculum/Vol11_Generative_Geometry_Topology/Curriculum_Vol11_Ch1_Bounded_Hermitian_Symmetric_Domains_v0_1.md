@@ -10,6 +10,8 @@ load_bearing: "Cartan classification of bounded symmetric domains; Types I-IV + 
 
 # Chapter 1 — Bounded Hermitian Symmetric Domains
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Bounded Hermitian symmetric domains — bounded open subsets of $\mathbb{C}^n$ realizing Hermitian symmetric spaces of non-compact type — are classified by Cartan (1926) into four classical series (Types I-IV) and two exceptional cases, with the BST substrate $D_{IV}^5 = SO_0(5,2)/[SO(5)\times SO(2)]$ being the specific Type IV bounded domain of dimension 5.

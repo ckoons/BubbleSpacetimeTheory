@@ -11,6 +11,8 @@ audience: "Mathematical physicists, theoretical physicists, advanced graduate st
 
 # BST Physics Curriculum Vol 1 — QFT from D_IV⁵ v0.1 outline
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Mission
 
 Derive the full apparatus of Quantum Field Theory directly from the D_IV⁵ substrate, with one named input (the colour identification; "zero free parameters" until 2026-09-11). Every standard QFT structure (Hilbert space, observables, dynamics, discrete symmetries, scattering, gauge theory, renormalization) emerges from the BST primary integer set {rank=2, N_c=3, n_C=5, C_2=6, g=7} and the bounded Hermitian symmetric domain D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)].

@@ -9,6 +9,8 @@ chapter: 2
 
 # Chapter 2 — Five Integers and a Cap
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The geometry of Chapter 1 is a specific mathematical object. What we will see in this chapter is that the object has, attached to it, a small list of integers — five of them, plus one combination that we will write as a cap. These integers are not free parameters. They are not chosen to match experiment. They are structural invariants of $D_{IV}^5$, derivable from the geometry alone, and every physical constant we will encounter later in this book is built out of them.
 
 Here they are, with their roles:

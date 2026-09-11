@@ -9,6 +9,8 @@ chapter: 5
 
 # Chapter 5 — The Casimir Algebra
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 In Lie group theory, the **Casimir operators** are the distinguished elements of the universal enveloping algebra that commute with every generator of the group. They are the symmetry-invariant labels of representations: every irreducible representation $V_\lambda$ is a simultaneous eigenspace of all the Casimirs, with eigenvalues fixed by the representation's highest weight $\lambda$. For physics, Casimir operators are how quantum numbers attach to states — the spin quantum number, for instance, is the Casimir of the rotation group.
 
 For BST, the substrate's symmetry group is $SO_0(5,2)$. Its Lie algebra $\mathfrak{so}(5,2)$ has rank 2, and the Chevalley–Harish-Chandra isomorphism gives a precise count of how many algebraically independent Casimir generators the substrate has: exactly $\text{rank} = 2$ of them. We call them $C_2$ (quadratic, degree 2 in the generators) and $C_4$ (quartic, degree 4). All higher-degree Casimirs are polynomial expressions in $\{C_2, C_4\}$. So the substrate's full Casimir content reduces to two algebraically independent operators on $H^2(D_{IV}^5)$.

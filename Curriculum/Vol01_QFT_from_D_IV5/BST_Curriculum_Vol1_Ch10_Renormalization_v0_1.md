@@ -9,6 +9,8 @@ chapter: 10
 
 # Chapter 10 — Why the Substrate Does Not Need Renormalization
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Standard quantum field theory has a problem at the heart of its computational apparatus. Loop integrals over momentum 4-space diverge as the momentum cutoff $\Lambda$ goes to infinity. The standard resolution — **renormalization** — introduces a regulator, computes the regulated integrals (now finite, dependent on $\Lambda$), absorbs the $\Lambda$-dependence into redefinitions of coupling constants and masses, and takes $\Lambda \to \infty$ in the renormalized expression. The bare coupling becomes infinite; the renormalized coupling at finite scale stays finite; physical predictions come out finite.
 
 The technique has been one of the most successful computational programs in the history of physics, and three Nobel Prizes have been awarded for its development. But it has a conceptual cost. The bare parameters of the theory are infinite. The cancellation of divergences is not transparent. The notion of "renormalizable" versus "non-renormalizable" theory is a constraint on the form of the Lagrangian that has no a priori justification. And the renormalization-group flow that interpolates between high-energy and low-energy parameters has the feel of a clever bookkeeping trick rather than a physical mechanism.

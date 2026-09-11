@@ -9,6 +9,8 @@ chapter: 7
 
 # Chapter 7 — Substrate Dynamics
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Time evolution in quantum mechanics has three equivalent formulations: Schrödinger (states evolve), Heisenberg (operators evolve), path integral (sum amplitudes over histories). BST inherits all three from substrate structure: the Hamiltonian is the $SO_0(5,2)$ Casimir of Chapter 6, the Hilbert space is $H^2(D_{IV}^5)$ of Chapter 2, the path integral runs over substrate-cycle states at the Koons-tick scale.
 
 ## 7.1 The substrate Schrödinger equation

@@ -9,6 +9,8 @@ chapter: 8
 
 # Chapter 8 — Conservation Laws
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Conservation laws are the bones of physics. Energy doesn't disappear. Momentum carries through collisions. Electric charge cannot be created or destroyed. Angular momentum stays put when no torque acts. Without these laws very little of the rest of physics would be tractable, and historically they were taken as foundational — the deep facts on which everything else rested.
 
 Emmy Noether's 1918 theorem made it possible to see that the laws were not foundational but *consequential*. Every continuous symmetry of a physical system corresponds to a conservation law: time-translation symmetry to conservation of energy, spatial-translation symmetry to conservation of momentum, rotational symmetry to conservation of angular momentum, and so on. Conservation laws stopped being mysteries and became reflections of symmetries.

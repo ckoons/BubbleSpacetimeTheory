@@ -10,6 +10,8 @@ load_bearing: "BST 9 L1 + 2 L1.5 + 1 convergence hub + 3 Bridge Objects architec
 
 # Chapter 12 — Number-Theoretic Foundations Synthesis
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 This volume's substrate-derivation has identified the BST architecture: **9 L1 ESTABLISHED sources** (VSC 1840, Mathieu 1861-73, Klein 1884, Mayer-Jensen 1949, Heegner-Stark 1952-67, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976), **2 L1.5 mechanisms** (Borcherds 1992, McKay 1979), **1 convergence hub** (Monster), and **3 RATIFIED Bridge Objects** (K3 surface, Cremona 49a1, Q⁵ five-quadric) — a 136-year arc of classical results all producing finite integer catalogs that decompose in the same BST primary structure.

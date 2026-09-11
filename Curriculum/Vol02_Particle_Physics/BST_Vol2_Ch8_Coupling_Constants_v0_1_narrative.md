@@ -11,6 +11,8 @@ match_precision: "ppt (parts per trillion) — a MATCH to a known closed form, n
 
 # Chapter 8 — Coupling Constants and the Electron Anomalous Moment $a_e$
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 **What changed since this chapter was written (2026-09-11, Keeper).** The four "Selberg terms" that this chapter presents as a derivation of the two-loop QED coefficient $C_2$ are, term for term, the four summands of Petermann and Sommerfield's 1957 closed form, $C_2 = 197/144 + \pi^2/12 - (\pi^2/2)\ln 2 + (3/4)\zeta(3)$ (K1872, with Cal Section 875). The match is real — a trace on the geometry reproduces the *structure* of the coefficient — and the derivation is theirs, not ours. The row T1448 is re-tiered to identified; the phrase "crown jewel" is retired; the program's $\alpha$ itself is identified, not derived (Lecture 8 of the Spine (the Spine, `Curriculum/Spine_DIV5_QM_GR_SM/`)). Read what follows as a documented identification and an open question — why should a trace on $D_{IV}^5$ know the QED coefficient? — not as a derivation.
 
 ## Why this chapter matters

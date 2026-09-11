@@ -9,6 +9,8 @@ chapter: 10
 
 # Chapter 10 — Dark Energy and Dark Matter
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Dark energy (responsible for accelerated cosmic expansion) and dark matter (responsible for galaxy rotation curves and cosmic structure formation) together account for about 95% of the universe's energy density. Standard physics has no derivation of either; both are empirical inputs in the $\Lambda$CDM model.
 
 BST derives both from substrate structure.

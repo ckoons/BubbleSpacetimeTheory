@@ -9,6 +9,8 @@ chapter: 5
 
 # Chapter 5 — Boundary Conditions
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 In standard physics, boundary conditions are usually specified by hand. "The field vanishes at infinity." "Use periodic boundaries on the lattice." "Choose Dirichlet rather than Neumann, because the experiment uses a conducting wall." These choices are inputs to the problem, not consequences of the underlying theory. They get justified by the geometry of the apparatus or the assumption of an asymptotically empty universe; they are not derived from the laws of motion themselves.
 
 BST inverts this. The substrate $D_{IV}^5$ is a bounded geometric object — it has, by construction, an interior and a boundary, and the structure of its boundary is part of its definition. The four-phase commitment cycle of Chapter 3 specifies, again by construction, what the substrate is doing at each of its zones. The result is that the boundary conditions of a substrate-derived physics problem are *not* free choices. They are determined by where the substrate's bulk geometry meets the substrate's distinguished boundary, by the phase of the commitment cycle the system is in, and by how the substrate couples to the larger structures it sits inside.

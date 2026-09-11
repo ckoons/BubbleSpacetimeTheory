@@ -10,6 +10,8 @@ load_bearing: "SO(5) angular momentum (T2421); Pin(2) spin structure; orbital de
 
 # Chapter 3 — Angular Momentum and Spin
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Angular momentum and spin are the substrate's $SO(5) \times Pin(2)$ generators acting on K-types — and the orbital degeneracy sequence $2\ell + 1 = 1, 3, 5, 7$ that defines the periodic table's row capacities $\{2, 8, 18, 32\}$ is literally the BST integer sequence $1, N_c, n_C, g$, not a coincidence.

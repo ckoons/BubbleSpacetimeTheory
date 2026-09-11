@@ -10,6 +10,8 @@ load_bearing: "Holomorphic discrete series; Harish-Chandra parameters; highest-w
 
 # Chapter 4 — Holomorphic Discrete Series and Highest Weights
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The holomorphic discrete series of unitary representations on bounded symmetric domains is the natural unitary realization on $H^2(D; L_\lambda)$ for line bundles $L_\lambda$, with the substrate-Cartan half-sum of positive roots $\rho = (5/2, 3/2)$ providing the specific BST-relevant parameters that propagate through mass formulas and substrate operator zoo Casimir eigenvalues.

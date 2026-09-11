@@ -9,6 +9,8 @@ chapter: 1
 
 # Chapter 1 — Why Particle Physics from $D_{IV}^5$
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Volume 1 built the framework — Hilbert space, integers, operators, dynamics, gauge theory, renormalization. This volume applies the framework. By the end of Volume 2 the reader will have seen the substrate-derivation of the major Standard Model observables: gauge group structure, three fermion generations, color and quark confinement, the lepton sector, the proton-to-electron mass ratio (Chapter 6's recruiter result), CKM mixing, coupling constants including the electron's anomalous magnetic moment $a_e$, the Higgs sector, neutrino mixing, the five-absence prediction set, and the substrate-engineering experimental program.
 
 Each chapter follows the same pattern: a measured Standard Model quantity, identified with a structural quantity on $D_{IV}^5$, derived to sub-percent precision with no fitted parameters, tier-classified honestly.

@@ -9,6 +9,8 @@ chapter: 6
 
 # Chapter 6 — The Operator Zoo, in Detail
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Volume 0 Chapter 7 introduced the substrate's operator zoo — about a dozen substrate-native operators on $H^2(D_{IV}^5)$, each derived from a specific feature of the substrate's symmetry structure. This chapter is the operational reference: each operator written out with its explicit Bergman-side realization, its commutators with the others, its eigenvalue spectrum on the K-type lattice. After this chapter we have the apparatus to write dynamics in Chapter 7.
 
 ## 6.1 The common Hilbert space

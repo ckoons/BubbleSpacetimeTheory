@@ -10,6 +10,8 @@ load_bearing: "Hydrogen as substrate K-type under Coulomb BC; orbital degeneracy
 
 # Chapter 6 — The Hydrogen Atom
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The hydrogen atom is the substrate's simplest atomic K-type configuration — single electron coupled to a single-proton Coulomb boundary condition — and its full spectrum, including the $n^2$ degeneracy from the hidden $SO(4)$ symmetry, falls out of the substrate's $SO(5)$ K-type structure.

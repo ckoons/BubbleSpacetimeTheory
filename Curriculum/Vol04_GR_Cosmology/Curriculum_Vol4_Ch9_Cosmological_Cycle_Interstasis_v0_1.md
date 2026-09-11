@@ -9,6 +9,8 @@ chapter: 9
 
 # Chapter 9 — The Cosmological Cycle and Interstasis
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The standard cosmological picture has the universe begin with the Big Bang and expand thereafter, with the cosmological constant $\Lambda$ driving accelerated expansion at late times. The framework's substrate-mechanism reading goes further: BST predicts a *cosmological cycle hypothesis* with successive Big Bangs separated by periods of substrate equilibration that the team calls **Interstasis**.
 
 ## 9.1 The D_IV⁵ Rigidity Principle

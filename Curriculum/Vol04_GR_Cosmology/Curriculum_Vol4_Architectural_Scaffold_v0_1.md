@@ -1,5 +1,7 @@
 # Vol 4 Architectural Scaffold v0.1 — GR & Cosmology from D_IV⁵
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 **Filed**: 2026-05-23 Saturday (Keeper, scaffold)
 **Companion to**: `INDEX.md` (chapter outline + reader target)
 

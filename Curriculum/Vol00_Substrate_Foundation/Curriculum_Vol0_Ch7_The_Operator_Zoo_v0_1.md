@@ -9,6 +9,8 @@ chapter: 7
 
 # Chapter 7 — The Operator Zoo
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Every quantum mechanics textbook begins by introducing operators. Position $\hat{X}$ multiplies wavefunctions by the coordinate. Momentum $\hat{P}$ is the derivative. Angular momentum, spin, the Hamiltonian, parity, time reversal, charge conjugation, the number operator, the Bell-CHSH operator — the inventory is finite, well-known, and accepted as part of the framework's input. Standard quantum mechanics does not derive these operators; it postulates them. Each operator's identity, its action on the Hilbert space, and its commutation properties with the other operators are part of what a student must learn before doing physics.
 
 In BST the operators are not postulated. They are *derived* — each from a specific feature of the substrate geometry $D_{IV}^5$, acting on the substrate's canonical Hilbert space $H^2(D_{IV}^5)$ (the Bergman Hilbert space we have been using since Chapter 1), with commutation algebra following from the Lie-algebra structure of $SO_0(5,2)$. The result is what the team calls the **operator zoo**: an inventory of about a dozen substrate-native operators, organized by the part of the substrate's symmetry group that produces them, with their commutators and their physical interpretations built in from the geometry.

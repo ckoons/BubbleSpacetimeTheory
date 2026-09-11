@@ -10,6 +10,8 @@ status: "Capstone of the foundations arc. Sourced to the paper 'Time, Derived' (
 
 # Chapter 12 — Time, Derived
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## For everyone (the one-paragraph story)
 Most physics *starts* with time — you draw a clock on the wall and let things move against it. BST doesn't have a wall to draw on. It has one geometry (D_IV⁵) and one act: **commitment** — the substrate writes an irreversible record (Chapter 11, "The Operation"). Time turns out to be nothing more than *how far that writing has run*. There is no clock behind the clock: "when" is a measure of accumulated commitment. And because the writing only goes one way — you can't un-commit — time has a direction built in. That's the whole result: **time is not assumed, it is derived**, and everything usually *posited* about it (that it flows, that it has an arrow, that it pairs a real "tick" with an imaginary "circle") follows from the geometry.
 

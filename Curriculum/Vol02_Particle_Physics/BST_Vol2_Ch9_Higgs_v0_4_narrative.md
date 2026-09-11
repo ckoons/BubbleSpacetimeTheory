@@ -9,6 +9,8 @@ chapter: 9
 
 # Chapter 9 — The Higgs Sector
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The Higgs boson, discovered at the LHC in 2012, completes the Standard Model. Its mass is $m_H \approx 125.10$ GeV; its vacuum expectation value $v \approx 246.22$ GeV sets the electroweak scale; the quartic self-coupling $\lambda_H$ and the Yukawa couplings to fermions are the Higgs sector's parameters. In the Standard Model, all of these are inputs.
 
 BST derives the Higgs mass at $0.07\text{-}0.11\%$ via two independent substrate routes (D-tier dual-route per Elie's Vol 2 Ch 9 v0.3 work and Grace's INV-4833 catalog entry). The full mechanism chain — why the Higgs has its specific vacuum-condensation structure — is at PARTIAL DERIVED status, with multi-month research closing the remaining substrate-mechanism pieces.

@@ -10,6 +10,8 @@ load_bearing: "D_IV⁵ explicit Lie ball realization; Shilov boundary; substrate
 
 # Chapter 5 — D_IV⁵ Geometry: Coset, Boundary, Coordinates
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The substrate domain $D_{IV}^5$ is realized explicitly as a bounded subset of $\mathbb{C}^5$ (Lie ball), with topological boundary having interior structure (Shilov boundary, characteristic submanifolds) — and the electron in BST is identified as a "Shilov-boundary primitive cycle" (Casey's Saturday work) tying particle physics to substrate geometry.

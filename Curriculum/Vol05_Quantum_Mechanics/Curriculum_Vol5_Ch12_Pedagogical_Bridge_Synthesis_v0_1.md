@@ -10,6 +10,8 @@ load_bearing: "Vol 5 closing synthesis: Bergman → operators → Schrödinger �
 
 # Chapter 12 — Synthesis and Cross-Volume Bridges
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Everything in this volume hangs together as a single substrate-derivation arc: Bergman Hilbert space $H^2(D_{IV}^5)$ gives the substrate-natural Hilbert space (Ch 1) → position, momentum, angular momentum, spin operators are substrate-natural with $[\hat x, \hat p] = i\hbar$ derived (Ch 2-3) → substrate Casimir is the Hamiltonian with first eigenvalue $C_2 = 6$ exactly (Ch 4) → path integral concentrates on classical paths via many-tick coherent sum (Ch 5) → hydrogen and atomic spectra fall out (Ch 6) → Born rule = Bergman projection in Zone 3 commitment (Ch 7, K67) → Bell correlations capped at $S \le 2.8062$ with $1/8 = 1/2^{N_c}$ gap (Ch 8, SCMP) → spin-statistics from Pin(2) double cover (Ch 9) → decoherence + Zone 3 commits one outcome (Ch 10) → POVMs extend Born=Bergman (Ch 11).

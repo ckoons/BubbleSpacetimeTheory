@@ -9,6 +9,8 @@ chapter: 3
 
 # Chapter 3 — The Integers, Forced
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Volume 0 introduced the five BST primary integers and gave each one a brief justification. The current chapter goes back through the same five integers and gives each its *full* substrate-derivation argument — typically four independent classical mathematical conditions, each of which forces the integer's value in its own right, with the conjunction of all four uniquely fixing the integer at the value the substrate uses. These multi-argument forcings are the structural backbone of the Strong-Uniqueness Theorem we sketched in Volume 0 Chapter 9, and they will appear, in one form or another, throughout the rest of this volume and most of the volumes that follow.
 
 The chapter's spirit is one of *defense*. The natural skeptic's question about BST is: "if you have only five integers, you have only five free parameters in disguise; you can always tune them to match physics." The answer this chapter develops is no — the integers are not tunable. Each is forced by independent mathematical conditions that have nothing to do with physics. The conjunction is structural, not empirical. When we report that BST has zero free parameters, we mean it: the five integers are mathematical inevitabilities, not chosen inputs.

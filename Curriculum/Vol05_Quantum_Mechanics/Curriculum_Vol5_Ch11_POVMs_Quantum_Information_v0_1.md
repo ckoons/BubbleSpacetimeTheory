@@ -10,6 +10,8 @@ load_bearing: "POVM extension of K67 Born=Bergman (SP-31-12); qubits and entangl
 
 # Chapter 11 — POVMs and Quantum Information
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Generalized measurements (POVMs) — and the apparatus of quantum information (qubits, entanglement, no-cloning, teleportation) — extend Chapter 7's Born=Bergman from projective measurements to arbitrary positive operator-valued measures, with the substrate's K-type tensor-product structure giving the natural framework for multi-qubit systems and the SCMP (Chapter 8) providing concrete quantum-computational falsifier predictions.

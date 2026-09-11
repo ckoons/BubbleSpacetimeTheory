@@ -10,6 +10,8 @@ load_bearing: "Substrate Hamiltonian H_sub = Casimir on L²(D_IV⁵; L_λ); K-ty
 
 # Chapter 4 — The Schrödinger Equation
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The Schrödinger equation is the substrate's commitment-cycle infinitesimal generator: $\hat H_{\text{sub}}$ is the Casimir operator of $SO_0(5,2)$ acting on $L^2(D_{IV}^5; L_\lambda)$, the K-type $(1,1)$ has Casimir eigenvalue $C_2 = 6$ exactly, and the standard quantum-mechanical Hamiltonian is what this restricts to under K-type-bounded boundary projection.

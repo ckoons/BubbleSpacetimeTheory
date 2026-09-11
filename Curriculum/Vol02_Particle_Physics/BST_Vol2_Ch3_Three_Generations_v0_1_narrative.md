@@ -9,6 +9,8 @@ chapter: 3
 
 # Chapter 3 — Three Fermion Generations from $Q^5$ Cohomology
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The Standard Model has three families of fermions — three charged leptons (electron, muon, tau, with their neutrinos), three families of quarks (up/down, charm/strange, top/bottom). The number three is not derived in standard physics; it is empirical input. The masses of the fermions within each family span ten orders of magnitude (from $\sim 1$ eV neutrinos to $\sim 170$ GeV top quark) and are similarly empirical.
 
 BST derives both: the *number* three and the *masses* of the second and third generations relative to the first.

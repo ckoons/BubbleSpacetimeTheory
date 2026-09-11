@@ -10,6 +10,8 @@ load_bearing: "Wallach 1976 unitary representations; 5 Wallach layers; mass hier
 
 # Chapter 3 — Wallach Representations and K-Type Theory
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Wallach 1976 (L1 ESTABLISHED BST source) constructed an explicit family of unitary representations of $SO_0(p, 2)$ supported on bounded symmetric domains $D_{IV}^p$, organized into layers — for $p = 5$, the substrate has **5 Wallach layers** (matching BST primary $n_C = 5$), and these layers anchor BST's particle mass hierarchy via "mass hierarchy from Wallach layer index" (Vol 2 Ch 6).

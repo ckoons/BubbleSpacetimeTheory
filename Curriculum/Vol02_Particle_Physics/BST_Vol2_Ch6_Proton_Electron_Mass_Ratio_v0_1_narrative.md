@@ -11,6 +11,8 @@ match_precision: "0.002% (BST 1836.118 vs measured 1836.152)"
 
 # Chapter 6 — The Proton-to-Electron Mass Ratio
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Why this chapter matters
 
 If you only read one chapter of this curriculum to decide whether to take BST seriously, this is the chapter. The result is short to state, precise to within experimental error, and structurally derived without a single tunable parameter:

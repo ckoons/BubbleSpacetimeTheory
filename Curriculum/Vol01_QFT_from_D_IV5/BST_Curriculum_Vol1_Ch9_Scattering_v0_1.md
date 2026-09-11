@@ -9,6 +9,8 @@ chapter: 9
 
 # Chapter 9 — Scattering and the S-Matrix
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Most of what experimental particle physics measures is scattering — collisions in which incoming particles meet, interact, and emerge as outgoing particles. The theoretical apparatus is the **S-matrix**, the unitary operator from free in-states to free out-states. Standard QFT develops it via the LSZ reduction formula, perturbative Feynman diagrams, and renormalized amplitude calculations.
 
 BST's substrate framework offers a parallel apparatus with structural advantages. The substrate Hilbert space $H^2(D_{IV}^5)$ replaces Fock space; the Bergman reproducing kernel replaces the Feynman propagator (Volume 1 Chapter 2 §2.4); the substrate-cycle commitment phases of Volume 0 Chapter 3 supply natural in/out state preparation. The S-matrix is unitary, ultraviolet-complete by substrate structure, and computable on the substrate's per-tick $GF(128)^k$ discretization without standard-QFT renormalization machinery.

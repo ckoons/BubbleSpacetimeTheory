@@ -9,6 +9,8 @@ chapter: 3
 
 # Chapter 3 — How the Substrate Operates
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The first two chapters described what the substrate *is* — a specific geometric object with specific numerical invariants. This chapter describes what the substrate *does*. The framework's most distinctive claim is that the substrate is not a passive arena in which physics happens, but an active computational process whose equilibrium outputs are what we observe as constants, forces, and particles. That claim has structural content: it specifies a clock, a cycle, a memory layout, and a set of spatial scales. By the end of this chapter you should be able to picture, in some operational detail, what the substrate is doing while it produces physics.
 
 The picture has four pieces:

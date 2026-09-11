@@ -10,6 +10,8 @@ load_bearing: "BST signature falsifier — Bell CHSH operator-bound S² ≤ 8 �
 
 # Chapter 8 — Bell, CHSH, and Quantum Correlations
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Standard quantum mechanics predicts Bell-CHSH violation up to Tsirelson's bound $S = 2\sqrt 2 \approx 2.8284$; BST predicts a slightly lower ceiling $S^2 \le 8 - 1/2^{N_c} = 7.875$, giving $S_{\text{BST}} \le 2.8062$ — a $1/8 = 1/2^{N_c}$ gap that is BST's cleanest single-experiment falsifier (~$300-500K, achievable in any Bell-experiment laboratory).

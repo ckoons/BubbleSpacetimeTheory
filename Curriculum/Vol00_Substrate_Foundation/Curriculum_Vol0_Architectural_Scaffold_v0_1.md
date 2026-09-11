@@ -8,6 +8,8 @@ related: ["BST Physics Curriculum Master (parent)", "Substrate Cartography Maste
 
 # Curriculum Vol 0 Architectural Scaffold v0.1
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Purpose
 
 Vol 0 is the prerequisite for every other volume in the BST Physics Curriculum. It defines:

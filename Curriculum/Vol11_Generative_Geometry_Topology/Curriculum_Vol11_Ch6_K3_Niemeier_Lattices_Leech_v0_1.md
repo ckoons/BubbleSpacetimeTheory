@@ -10,6 +10,8 @@ load_bearing: "K3 surfaces (L1 ESTABLISHED 1962/64, K57 RATIFIED Bridge Object);
 
 # Chapter 6 — K3 Surfaces, Niemeier Lattices, and the Leech Lattice
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 K3 surfaces (Kummer 1864, Kähler 1933, Kodaira 1964; L1 ESTABLISHED BST source) are compact complex surfaces with Hodge numbers $h^{0,0} = h^{2,2} = 1, h^{2,0} = h^{0,2} = 1, h^{1,1} = 20$, with K3 the load-bearing Bridge Object in BST (K57 RATIFIED, 7 L1 connections) reading quark masses via K3 Hodge — and the Leech lattice $\Lambda_{24}$ (no-root Niemeier) is the χ=24 BST Bridge Object family member (K76).

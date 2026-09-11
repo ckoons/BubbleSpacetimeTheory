@@ -10,6 +10,8 @@ load_bearing: "Position operator trace = perfect numbers cluster (Elie T2419); W
 
 # Chapter 2 — Position, Momentum, and the Heisenberg Relation
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Position and momentum in BST are not chosen observables but substrate-natural operators on the Bergman Hilbert space: position is the multiplication operator whose trace clusters exactly on the perfect numbers, and momentum is the Wirtinger derivative — and the Heisenberg commutator $[\hat x, \hat p] = i\hbar$ falls out of their substrate commutator structure (T2422, RATIFIED).

@@ -10,6 +10,8 @@ load_bearing: "Decoherence from Zone 3 + environmental K-type coupling; classica
 
 # Chapter 10 — Decoherence and the Classical Limit
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Decoherence is the substrate's natural Zone 3-plus-environment process by which off-diagonal density-matrix elements decay through entanglement with environmental K-type degrees of freedom — and classical mechanics emerges as the substrate's Scale-2 effective dynamics after this decoherence has set in over many Koons ticks (SP-31-13).

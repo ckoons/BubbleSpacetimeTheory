@@ -9,6 +9,8 @@ chapter: 5
 
 # Chapter 5 — The Hubble Constant via Four Substrate Routes
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The Hubble constant $H_0$ — the present-day expansion rate of the universe — has been the subject of the famous **Hubble tension** since 2019. Two independent measurement programs give discrepant values:
 
 - Cosmic-microwave-background (Planck satellite) inference: $H_0 \approx 67.4$ km/s/Mpc

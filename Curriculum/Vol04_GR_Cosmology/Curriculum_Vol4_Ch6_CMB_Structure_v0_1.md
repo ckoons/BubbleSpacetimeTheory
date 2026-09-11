@@ -9,6 +9,8 @@ chapter: 6
 
 # Chapter 6 — CMB Structure
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The cosmic microwave background (CMB) is the relic radiation from the early universe, measured to extraordinary precision by the COBE, WMAP, and Planck satellites. Its temperature spectrum, polarization patterns, and density-fluctuation distribution carry information about cosmic parameters that BST derives from substrate primaries.
 
 ## 6.1 The scalar spectral index $n_s$

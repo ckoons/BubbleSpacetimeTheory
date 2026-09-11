@@ -10,6 +10,8 @@ load_bearing: "Heegner-Stark 1952-67 (L1 ESTABLISHED); 9 Heegner numbers; BST an
 
 # Chapter 7 — Heegner Numbers and Cremona Elliptic Curves
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Heegner-Stark-Baker (1952-1967, L1 ESTABLISHED) proved exactly nine imaginary quadratic fields have class number 1 (Heegner numbers $\{-1, -2, -3, -7, -11, -19, -43, -67, -163\}$), with BST anchoring on the small-primary subset $\{-3, -7, -11\}$ (K75 audit), and the elliptic curve **Cremona 49a1** ($Y^2 = X^3 - 945 X - 10206$) being BST's canonical curve with every invariant a BST primary (conductor $g^2 = 49$, $j$-invariant $-(N_c n_C)^3$, CM by $\mathbb{Q}(\sqrt{-g})$).

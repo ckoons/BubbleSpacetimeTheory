@@ -10,6 +10,8 @@ load_bearing: "Heisenberg vs Schrödinger equivalence; Feynman path integral as 
 
 # Chapter 5 — The Heisenberg Picture and the Path Integral
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The Heisenberg picture and the Feynman path integral are two equivalent descriptions of substrate Zone 2 evolution: Heisenberg keeps K-type operators time-dependent under the substrate Casimir flow, and the path integral is what many substrate Koons ticks look like when their cumulative amplitudes concentrate on the classical-stationary trajectory via constructive interference.

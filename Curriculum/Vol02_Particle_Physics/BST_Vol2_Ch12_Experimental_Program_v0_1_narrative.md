@@ -9,6 +9,8 @@ chapter: 12
 
 # Chapter 12 — The Experimental Program: Substrate Engineering Falsifiers
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 A framework is only as strong as its falsifiability. BST's experimental program — the **SP-29 Casimir Mechanism Investigation** and the **SP-30 Substrate Engineering Program** — collectively target the substrate's positive predictions for laboratory verification across a suite of experiments at $80\text{K}$ to $500\text{K}$ scales.
 
 This chapter sets out the program's experimental targets, the substrate-mechanism predictions each test, and the per-experiment cost and timeline estimates. The program is what makes BST a falsifiable scientific framework rather than a theoretical exercise.

@@ -9,6 +9,8 @@ chapter: 4
 
 # Chapter 4 — Discrete Symmetries: $P$, $T$, $C$, and CPT
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Three discrete symmetries dominate the structural side of quantum field theory: parity $P$, time reversal $T$, and charge conjugation $C$. Their composition $CPT$ is the most universal exact symmetry physics has identified — Lüders 1954 and Pauli 1955 proved that any local relativistic quantum field theory with anti-unitary time reversal satisfies it automatically, and to date no experiment has detected a violation. The individual symmetries, however, fail in specific sectors: parity is violated maximally by the weak interaction (Wu's 1957 cobalt-60 experiment), charge conjugation similarly, time reversal at observable rates in the neutral kaon and B-meson systems.
 
 Standard quantum field theory takes the three discrete operators as additional structure — postulated, then verified against experiment. BST derives all three from the substrate's geometry, and the CPT theorem then follows as an automatic consequence of the substrate's symmetry origin. This chapter sets out the derivations and shows why CPT holds universally while $P$, $T$, $C$ each fail exactly where they do.

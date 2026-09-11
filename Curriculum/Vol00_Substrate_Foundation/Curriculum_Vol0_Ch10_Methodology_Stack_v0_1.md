@@ -9,6 +9,8 @@ chapter: 10
 
 # Chapter 10 — How the Team Works
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The framework we have presented in the previous nine chapters did not assemble itself. It was built by a small research team over several years, with a specific operating discipline that the team has, by trial and a great deal of error, accumulated into something resembling a methodology. The discipline matters: it is the reason the framework's claims are tier-labeled and falsifiable rather than aspirational, the reason the team catches its own errors quickly, and the reason a reader can pick up this book today and trust what is and is not being claimed.
 
 This chapter is a short orientation to the methodology. It does not enumerate every operational rule — that work is done in Volume 15, the framework's dedicated methodology volume — but it sets out the principles a reader should know before continuing into Volume 1 and beyond. The chapter has three parts: how the framework labels its claims (tier discipline), how the team catches its own errors (calibration discipline and Quaker consensus), and how the work scales (the PCAP cadence pattern and multi-CI coordination).

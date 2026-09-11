@@ -9,6 +9,8 @@ chapter: 12
 
 # Chapter 12 — The Observational Reanalysis Program (SP-27)
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 This is the closing chapter of Volume 4. The substrate's cosmological derivations across Chapters 1–11 produce many testable observables. SP-27 is the framework's structured program for systematic comparison of substrate predictions against observational data.
 
 ## 12.1 The SP-27 program

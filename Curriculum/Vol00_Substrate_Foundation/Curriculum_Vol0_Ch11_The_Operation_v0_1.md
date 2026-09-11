@@ -1,5 +1,7 @@
 # Volume 0, Chapter 11 — The Operation: the single act that generates everything
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 *Level: written for a bright high-schooler in the narrative, and for a physicist in the tiered claims. This chapter is the capstone of Volume 0: Chapters 1–10 built the geometry, the integers, the operating system, the isotropy group, the boundary, and the operator zoo. This chapter names the one **act** those machineries serve — and shows that quantum mechanics, spacetime, and the particles are three readings of it.*
 
 *Status: v0.1 (2026-08-16). Honestly tiered. Synthesis of the forced-object arc (Keeper K1593–K1624; the one-page Paper_The_Operation_One_Page_v0.1). Corrections from that arc are kept in the text by design. Nothing external without the standard gate; CP existence-only.*

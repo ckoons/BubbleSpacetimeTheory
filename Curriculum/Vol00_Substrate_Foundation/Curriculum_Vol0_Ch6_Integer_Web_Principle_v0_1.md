@@ -9,6 +9,8 @@ chapter: 6
 
 # Chapter 6 — The Integer Web
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 In standard physics, the fundamental constants are isolated. The inverse fine-structure constant $1/\alpha \approx 137.036$ sits in one part of the table, the proton-to-electron mass ratio $m_p/m_e \approx 1836.15$ sits in another, the weak mixing angle $\sin^2\theta_W \approx 0.23$ in a third. They are measured separately, tabulated separately, and to the extent that they are connected, the connections are model-dependent — derivations within QED or the Standard Model that link some constants to others, leaving most of the table as independent inputs.
 
 In BST, the situation is structurally different. The five BST primary integers and the cap $N_{\max}$ do not sit alone. Each integer is the center of a *web* of relations — identities, theorems, catalog invariants, experimental observables — that other parts of the framework attach to. Many catalog entries belong to several webs at once: an identity that simultaneously involves $N_c$, $n_C$, and $C_2$ sits at the intersection of three webs. A small number of entries belong to *all six* webs at once; these are the substrate's most structurally rich identities.

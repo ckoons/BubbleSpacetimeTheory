@@ -11,6 +11,8 @@ match_precision: "0.07% (BST G = 6.66961 × 10⁻¹¹ vs measured 6.67430 × 10�
 
 # Chapter 1 — Newton's $G$ from Bergman Curvature
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 **What changed since this chapter was written (2026-09-11, Keeper).** The relation $G = \hbar c\,(6\pi^5)^2\,\alpha^{24}/m_e^2$ holds to 0.065% and the program regards it as a theorem — but a theorem about a *relation*: it trades one dimensionful input (Newton's constant) for another (the electron mass), and it carries $\alpha$, which is identified and not derived (Spine Lecture 8). So "Newton's $G$ is predicted" is not the sentence; "$G$ and $m_e$ are tied by the geometry, and we take $m_e$ as the ruler" is (K1673, the paper "Gravity: the 2→1 Reduction," Keeper PASS 2026-08-18). The Kaluza–Klein route this chapter also cites was found circular through $\ell_B$ and is demoted (K1408); the six readings of the same relation across the corpus count as one. The exponent $24 = 4C_2$ is a supporting identity, not an independent reading (Cal Section 585). Spine Lecture 9 is the current treatment.
 
 ## Why this chapter matters

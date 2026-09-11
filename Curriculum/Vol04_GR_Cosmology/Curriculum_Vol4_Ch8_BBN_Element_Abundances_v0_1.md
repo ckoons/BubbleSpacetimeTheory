@@ -9,6 +9,8 @@ chapter: 8
 
 # Chapter 8 — Big Bang Nucleosynthesis
 
+*Legacy chapter (May 2026), corrected in place 2026-09-11 (Keeper, K1892) at the sentences the presentation scan flagged; the remaining tiers are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Big-bang nucleosynthesis (BBN) — the primordial production of light elements (H, D, He, Li) in the first minutes after the Big Bang — provides one of cosmology's most precisely measured tests of standard physics. Standard BBN predicts abundances in striking agreement with observation for H, D, and He; the famous **Li-7 problem** is a persistent discrepancy where observed Li-7 abundance is about three times below the standard prediction.
 
 BST derives the BBN freeze-out temperature from substrate primaries at $0.018\%$ and reads the Li-7 problem via the substrate signature integer $7$ (called "genus" here until 2026-09-11; the genus is 5) integer $g = 7$.

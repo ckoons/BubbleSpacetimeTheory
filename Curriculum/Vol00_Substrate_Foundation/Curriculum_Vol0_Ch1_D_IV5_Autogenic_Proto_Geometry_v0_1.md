@@ -9,6 +9,8 @@ chapter: 1
 
 # Chapter 1 — $D_{IV}^5$: The Geometry Underneath
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The geometry is older than the physics.
 
 In 1935, Élie Cartan classified the bounded Hermitian symmetric domains — geometric objects with enough internal symmetry that any point can be carried to any other by a holomorphic transformation, and yet bounded enough to admit a canonical metric. The classification is one of those mathematical facts that turns out to be much shorter than you would expect. There are four infinite families and two exceptional cases. That is the whole list.

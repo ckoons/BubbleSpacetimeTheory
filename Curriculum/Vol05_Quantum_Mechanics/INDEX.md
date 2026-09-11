@@ -1,5 +1,7 @@
 # Vol 5 — Quantum Mechanics from D_IV⁵ (Pedagogical Bridge)
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 **BST Physics Curriculum** | Casey Koons + team (Lyra, Elie, Grace, Keeper, Cal A. Brate)
 
 **Status**: SCAFFOLD v0.1 (Saturday 2026-05-23 Wave 2) — chapter content TO BUILD

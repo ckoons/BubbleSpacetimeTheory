@@ -9,6 +9,8 @@ chapter: 2
 
 # Chapter 2 — The Substrate Hilbert Space
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Standard quantum mechanics begins with a Hilbert space. Wavefunctions live in it, operators act on it, expectation values are inner products inside it, and the rest of the quantum-mechanical machinery — the Born rule, the projection postulate, time evolution by the Schrödinger equation — all unfold from there. Different physical setups use different Hilbert spaces. A single particle on the real line uses $L^2(\mathbb{R})$. A particle in three-dimensional position space uses $L^2(\mathbb{R}^3)$. A relativistic quantum field uses Fock space, built as a tower of multi-particle spaces. The choice of Hilbert space is partly imposed by the physics (Lorentz invariance, spatial dimensionality) and partly conventional.
 
 BST's substrate framework does not choose a Hilbert space. It has one *given to it*, structurally, by the substrate geometry $D_{IV}^5$. The space is the **Bergman Hilbert space** $H^2(D_{IV}^5)$ — the unique reproducing-kernel Hilbert space of square-integrable holomorphic functions on the substrate, defined entirely by classical analysis dating to Stefan Bergman's 1922 thesis and to the more refined work of Wallach (1976) and Faraut–Koranyi (1994). The substrate's quantum mechanics lives in this space, and every observable we will encounter in this volume is a bounded operator on it.

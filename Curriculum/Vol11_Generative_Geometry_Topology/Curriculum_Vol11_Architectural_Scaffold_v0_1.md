@@ -1,5 +1,7 @@
 # Vol 11 Architectural Scaffold v0.1 — Generative Geometry & Topology (BST Mathematical Foundations)
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 **Filed**: 2026-05-23 Saturday (Lyra, Wave 2 scaffold; deep-NT thread)
 **Companion to**: `INDEX.md`
 

@@ -10,6 +10,8 @@ load_bearing: "Generative-geometry framing (Casey-named UNIFICATION thesis); sub
 
 # Chapter 11 — Generative Geometry Framing
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The BST framing — Casey-named thesis embodied in the UNIFICATION paper (Task #150) — is that mathematical structures we observe (K3, Heegner, Monster, Mersenne, Wallach, Bergman) are not separate phenomena but specific projections of one substrate geometry $D_{IV}^5$, with the substrate as the *generator* rather than something *described*, rejoining geometry and topology after their 19th-21st-century separation.

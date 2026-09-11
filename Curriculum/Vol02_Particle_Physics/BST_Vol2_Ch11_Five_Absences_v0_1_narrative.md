@@ -9,6 +9,8 @@ chapter: 11
 
 # Chapter 11 — Beyond the Standard Model: The Five Absences
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Most theoretical-physics programs beyond the Standard Model have been about adding things. Grand unified theories added higher symmetries. Supersymmetry added partner particles for every Standard Model species. Various extensions added sterile neutrinos, magnetic monopoles, dark sectors, axions, hidden gauge groups. Each of these additions has been a target of major experimental searches, and most of them have produced negative results to date.
 
 BST takes the opposite stance. The substrate's structure *forbids* these additions. The framework's **Five-Absence Prediction Set** identifies five major beyond-Standard-Model phenomena that BST structurally predicts do not exist:

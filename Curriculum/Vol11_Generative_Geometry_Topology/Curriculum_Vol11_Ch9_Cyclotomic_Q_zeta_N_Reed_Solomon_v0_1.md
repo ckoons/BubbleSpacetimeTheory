@@ -10,6 +10,8 @@ load_bearing: "Cyclotomic fields Q(ζ_N); finite fields GF(p^n); Reed-Solomon co
 
 # Chapter 9 — Cyclotomic Fields and Reed-Solomon
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 Cyclotomic fields $\mathbb{Q}(\zeta_N)$ — obtained by adjoining primitive $N$th roots of unity — are workhorse algebraic structures, and the BST substrate uses Reed-Solomon coding on the finite field $\text{GF}(2^g) = \text{GF}(128)$ for its native information-channel operations (K59 cyclotomic mechanism RATIFIED, Vol 14 Ch 2).

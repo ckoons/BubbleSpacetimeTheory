@@ -9,6 +9,8 @@ chapter: 10
 
 # Chapter 10 — Neutrinos and the Seesaw Mechanism
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 Neutrinos are the lightest known massive particles in nature. They come in three flavors (electron, muon, tau), they oscillate between flavors as they propagate, and their masses — though now known to be non-zero from oscillation measurements — remain millions of times smaller than the masses of the charged leptons they pair with. The standard explanation for this enormous mass hierarchy is the **seesaw mechanism**: a heavy right-handed Majorana mass scale produces, via mixing, a light effective left-handed neutrino mass.
 
 BST anchors the seesaw at BST primary integer **17** (substrate's natural seesaw scale) with the substrate-derivation tying neutrino masses to substrate K-type weights.

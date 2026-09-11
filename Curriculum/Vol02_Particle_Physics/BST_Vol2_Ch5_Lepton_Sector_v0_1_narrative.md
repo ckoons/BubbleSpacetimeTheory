@@ -9,6 +9,8 @@ chapter: 5
 
 # Chapter 5 — The Lepton Sector
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The Standard Model's lepton sector has three charged leptons — electron, muon, tau — together with three neutrinos. The charged-lepton masses span four orders of magnitude (from 511 keV electron to 1.777 GeV tau). Neutrinos are millions of times lighter than the charged leptons, and their mass spectrum is below current experimental precision.
 
 This chapter treats the charged leptons. Neutrinos get their own Chapter 10.

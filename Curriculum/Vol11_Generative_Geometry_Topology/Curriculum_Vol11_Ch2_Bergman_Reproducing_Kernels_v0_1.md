@@ -10,6 +10,8 @@ load_bearing: "Bergman kernel; reproducing kernel Hilbert spaces; D_IV⁵ Bergma
 
 # Chapter 2 — Bergman Reproducing Kernels
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 ## Level 1 — one sentence
 
 The Bergman kernel of a bounded domain $D \subset \mathbb{C}^n$ is the reproducing kernel of the Hilbert space $H^2(D)$ of holomorphic $L^2$ functions, with the substrate-load-bearing fact $c_{FK} \cdot \pi^{9/2} = 225$ EXACTLY (Faraut-Koranyi normalization for $D_{IV}^5$) and the Bergman curvature giving Newton's G to 0.07% (Vol 4 Ch 1) — anchoring both the substrate's Born rule (K67, Vol 5 Ch 7) and substrate gravity.

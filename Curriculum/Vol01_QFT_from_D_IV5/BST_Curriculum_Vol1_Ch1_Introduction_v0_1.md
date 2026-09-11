@@ -9,6 +9,8 @@ chapter: 1
 
 # Chapter 1 — Why Quantum Field Theory Lives on $D_{IV}^5$
 
+*Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*
+
 The Standard Model of particle physics, in its conventional formulation, has about twenty-five free parameters. Three gauge coupling constants. Nine fermion masses. Four CKM mixing parameters. Four PMNS neutrino mixing parameters. Two parameters in the Higgs sector. The strong-CP angle. The cosmological constant. A few others. Each is a real number, measured to whatever precision experiments allow, and inserted into the theory by hand. The theory's predictions about other observables — atomic spectra, scattering cross-sections, decay rates — are then computed from these inputs using the field-theoretic machinery of quantum field theory: Hilbert spaces, operators, Lagrangians, path integrals, renormalization.
 
 The free-parameter problem has been the central irritant of fundamental physics for fifty years. Grand unified theories tried to reduce the number of gauge couplings by embedding $SU(3) \times SU(2) \times U(1)$ inside a larger simple group. Supersymmetry tried to relate fermion and boson masses by introducing partner particles. String theory tried to derive the parameters from the geometry of compactified extra dimensions. None of these programs produced a sub-percent match to experiment across hundreds of independent observables.
