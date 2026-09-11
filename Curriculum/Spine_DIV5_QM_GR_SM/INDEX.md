@@ -3,7 +3,7 @@ title: "D_IV⁵: Quantum Mechanics, Gravity and the Standard Model — the deriv
 subtitle: "The Spine of the BST Curriculum — ten lectures written from the register"
 author: "Casey Koons with the CI team — Lyra, Elie, Grace, Keeper — and the visiting referee Cal A. Brate"
 date: "2026-09-11 — v0.1"
-status: "Lectures 1, 2, 3 and 8 drafted 2026-09-11 (Keeper); 4, 5, 6, 7, 9, 10 scaffolded with their questions, tier lines and sources, awaiting prose. Every lecture is audited against notes/BST_AC_Theorem_Registry.md before the next is written. Nothing here goes external without Cal's cold-read of the narrative against the vetted core (the two-voice gate)."
+status: "All ten lectures drafted 2026-09-11 (Keeper), v0.1. Every lecture is audited against notes/BST_AC_Theorem_Registry.md before the next is written. Nothing here goes external without Cal's cold-read of the narrative against the vetted core (the two-voice gate)."
 ---
 
 # The Spine
@@ -52,13 +52,13 @@ The mathematics is on GitHub. `python3 play/verify_bst.py` runs fifty comparison
 | 1 | [The object](Lecture_01_The_Object.md) | What is the simplest structure that can do physics — and what does it look like? | drafted |
 | 2 | [Why this object, honestly](Lecture_02_Why_This_Object_Honestly.md) | Of all the shapes mathematics offers, why this one — and how much of that answer is a measurement? | drafted |
 | 3 | [Quantum mechanics](Lecture_03_Quantum_Mechanics.md) | Where do the rules of quantum mechanics come from, and where does the Born rule live? | drafted |
-| 4 | [Time](Lecture_04_Time.md) | What is time, in a geometry that has none built in — and why does it run one way? | scaffold |
-| 5 | [The gauge skeleton and one generation](Lecture_05_Gauge_Skeleton_and_One_Generation.md) | Why these forces, and why do the particles carry exactly these charges? | scaffold |
-| 6 | [Three generations, at the floor](Lecture_06_Three_Generations_at_the_Floor.md) | Why three copies of everything — and why can we not yet say how heavy each is? | scaffold |
-| 7 | [Mixing](Lecture_07_Mixing.md) | Why do quarks of different generations mix the way they do, and what exactly did the geometry predict? | scaffold |
+| 4 | [Time](Lecture_04_Time.md) | What is time, in a geometry that has none built in — and why does it run one way? | drafted |
+| 5 | [The gauge skeleton and one generation](Lecture_05_Gauge_Skeleton_and_One_Generation.md) | Why these forces, and why do the particles carry exactly these charges? | drafted |
+| 6 | [Three generations, at the floor](Lecture_06_Three_Generations_at_the_Floor.md) | Why three copies of everything — and why can we not yet say how heavy each is? | drafted |
+| 7 | [Mixing](Lecture_07_Mixing.md) | Why do quarks of different generations mix the way they do, and what exactly did the geometry predict? | drafted |
 | 8 | [α, the honest chapter](Lecture_08_Alpha_the_Honest_Chapter.md) | Is 137 in the geometry? What we found, what we proved cannot work, and whose thread we are holding. | drafted |
-| 9 | [Descent and gravity](Lecture_09_Descent_and_Gravity.md) | How does a five-complex-dimensional object become the four-dimensional spacetime we live in, and what does it say about gravity? | scaffold |
-| 10 | [The method, and how to kill it](Lecture_10_The_Method_and_How_to_Kill_It.md) | How do we know what we know — and what measurement would end the program? | scaffold |
+| 9 | [Descent and gravity](Lecture_09_Descent_and_Gravity.md) | How does a five-complex-dimensional object become the four-dimensional spacetime we live in, and what does it say about gravity? | drafted |
+| 10 | [The method, and how to kill it](Lecture_10_The_Method_and_How_to_Kill_It.md) | How do we know what we know — and what measurement would end the program? | drafted |
 
 ## Sources, for every lecture
 
