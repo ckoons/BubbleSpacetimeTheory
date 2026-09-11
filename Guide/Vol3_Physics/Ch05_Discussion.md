@@ -72,7 +72,7 @@ Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \
 
 **D. Mixing and CP Violation**
 
-- CKM: $\sin\theta_C = 2/\sqrt{79}$ (0.004%, T1444 vacuum subtraction); $\gamma = \arctan(\sqrt{5}) = 65.91°$ (0.6%); $J = \sqrt{2}/50000$ (2.1%) where $50000 = n_C^5 \times (2^{\text{rank}})^2$; $|V_{ub}| = A\lambda^3/\sqrt{C_2} = 1/(50\sqrt{30})$ (0.25%). *`notes/BST_CKM_PMNS_MixingMatrices.md`*
+- CKM (corrected 2026-09-11 to the 08-22 closure): $\lambda = \sin\theta_C = 1/\sqrt{20}$ DERIVED blind (T2530; the May form $2/\sqrt{79}$ retired); the ORDER $|V_{ub}| \sim \lambda\,|V_{cb}|$ DERIVED (K1808/K1810); $\gamma$, $J$, $|V_{ub}|$'s value and $A$ are IDENTIFIED or INPUT — $\gamma = \arctan\sqrt{5}$ admits ten competing integer forms in its band (K1809) and is not cited as derived. *`notes/BST_CKM_PMNS_MixingMatrices.md`*
 - PMNS (T1446 $\theta_{13}$ rotation): $\sin^2\theta_{12} = (3/10)(44/45) = 0.2933$ (0.06%); $\sin^2\theta_{23} = (4/7)(44/45) = 0.5587$ (0.40%); $\sin^2\theta_{13} = 1/(N_c^2 n_C) = 1/45$ (0.9%). All ratios of $n_C$ and $N_c$, corrected by $\cos^2\theta_{13} = 44/45$.
 
 **E. Hadron Spectrum**

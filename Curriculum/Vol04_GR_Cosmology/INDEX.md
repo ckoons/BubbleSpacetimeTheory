@@ -39,7 +39,7 @@ Key integers active in Vol 4:
 | 5 | **Hubble Constant — Four Routes (A/B/C/D)** — tension resolution via BST | ~80% (4 independent routes, all at ~67-68 km/s/Mpc) | Route A: from η via ΛCDM; Route B: √(19Λ/39); Route C: full CAMB Toy 677 at 0.1%; Route D: c√(19Λ/39) Toy 903 |
 | 6 | **CMB Structure** — n_s, Ω_m, Ω_Λ, T_CMB from BST integers | ~90% (Tasks #83 + #100 + #101) | n_s = 1 − 5/137 (0.3σ); Ω_Λ = 13/19 (0.07σ); T_CMB = 2.737 K Toy 904 (0.43%) |
 | 7 | **Inflation Parameters** — r/s, n_t, α_s running | ~75% (Task #85) | r ≈ 0 (T_c ≪ m_Pl); α_s = −(n_s−1)² = −25/18769 (0.5σ) |
-| 8 | **BBN — Element Abundances + Li-7 Problem** — primordial nucleosynthesis from BST | ~80% (Task #84) | T_c = N_max × 20/21 = 0.487 MeV (0.018%); ⁷Li/H = ~1.7×10⁻¹⁰ (7%) via Δg=genus=7 |
+| 8 | **BBN — Element Abundances + Li-7 Problem** — primordial nucleosynthesis from BST | ~80% (Task #84) | T_c = N_max × 20/21 = 0.487 MeV (0.018%); ⁷Li/H = ~1.7×10⁻¹⁰ (7%) via Δg=7 (7 is the signature, not the genus — corrected 2026-09-11) |
 | 9 | **Cosmological Cycle Hypothesis + Interstasis** — D_IV⁵ Rigidity Principle observational signatures | ~30% (Task #267 ACTIVATED Friday + Casey-named #7) | T2467 Rigidity-as-Singleton + T2468 Rigidity-as-Unification (multiverse closure); annealing toward Λ-saturated state |
 | 10 | **Dark Energy + Dark Matter** — Shannon channel framing; DM ratio 16/3 | ~85% (Task #139 + Dark matter ratio entry) | DM/Ω_b = (3n_C+1)/N_c = 16/3 (0.58%); galaxy rotation curves Shannon S/N |
 | 11 | **Gravitational Waves** — NANOGrav prediction + black holes as eigentone | ~70% (Tasks #103 + #136 + #137) | GW peak frequency 6.4 nHz (NANOGrav); spectral index γ = 13/5+1 = 3.60; black holes as eigentone configurations |

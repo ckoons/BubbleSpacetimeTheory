@@ -119,7 +119,7 @@ BST adds substrate-cognition-level observations beyond standard QM:
 - **K38 CONDITIONAL PASS** (Spring 2026, ~85%): $\alpha^{-1} = 137$ derivation chain
 - **Periodic table reading** (Volume 0 Chapter 1): hydrogen as substrate's simplest atomic K-type
 - **B6 Lamb shift** (Elie + Lyra task #182): paper-grade derivation pending
-- **B5 Muon g-2** (Lyra primary, completed task #181): substrate-derived $(g-2)_\mu$
+- **B5 Muon g-2** (Lyra primary, completed task #181): substrate-*identified* $(g-2)_\mu$ (IDENTIFIED, K1814; not derived)
 
 ## Level 3 — 5th-grader accessibility
 

@@ -57,7 +57,7 @@
 
 ### Ch 8 BBN Element Abundances (~80%)
 **Anchors**: T_c = N_max × 20/21 = 0.487 MeV (0.018%)
-- ⁷Li/H = ~1.7×10⁻¹⁰ via Δg=genus=7 at T_c (vs 1.6×10⁻¹⁰; 7%)
+- ⁷Li/H = ~1.7×10⁻¹⁰ via Δg=7 at T_c (7 = the signature p+q, not the genus, which is 5 — corrected 2026-09-11) (vs 1.6×10⁻¹⁰; 7%)
 - Task #84 BBN element abundances battery + Li-7 problem (completed)
 
 ### Ch 9 Cosmological Cycle + Interstasis (~30%)

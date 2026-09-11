@@ -1,5 +1,5 @@
 ---
-title: "Vol 1 Chapter 8 — Gauge Theory: $SU(3) \\times SU(2) \\times U(1)$ from the Substrate"
+title: "Vol 1 Chapter 8 — Gauge Theory: the Electroweak Skeleton from the Substrate, $SU(3)$ Imported"
 author: "Keeper (author pass)"
 date: "2026-05-23 Saturday"
 status: "v0.2 — Keeper author-voice pass; preserves v0.1 substance (SM gauge group forced from BST primaries, color confinement as topological obstruction, Weinberg angle sin²θ_W = N_c/c_3 at 0.19%, three generations from Q⁵ cohomology, Five-Absence predictions, Higgs cross-link to Vol 2 Ch 9, T2477 gauge fields as Bergman bundle connections)"
@@ -7,7 +7,9 @@ volume: "Vol 1 Quantum Field Theory from D_IV⁵"
 chapter: 8
 ---
 
-# Chapter 8 — Gauge Theory: $SU(3) \times SU(2) \times U(1)$ from the Substrate
+# Chapter 8 — Gauge Theory: the Electroweak Skeleton from the Substrate, $SU(3)$ Imported
+
+**What changed since this chapter was written (2026-09-11, Keeper).** The May title said "$SU(3)\times SU(2)\times U(1)$ from the Substrate." The $SU(3)$ is not from the substrate: the geometry supplies a three-dimensional colour slot (the middle Peirce space, dimension $a = 3$) and the group it carries there is $U(1)\cdot SO(3)$, dimension four; no compact subgroup of its structure group is $SU(3)$, and the slot's triplet is self-conjugate where colour's is not (Elie 5751; Cal Section 946; K1724, K1782). Colour is an *identification* — the program's one dimensionless input — and its dynamics are imported (#108). The $SU(2)$ from rank two and the electroweak algebra as an isotropy subalgebra stand; electric charge lives in the $SO(5)$ Cartan, not the $SO(2)$ centre (K1687). Spine Lectures 2 and 5 are the current treatment.
 
 The Standard Model's gauge group is $SU(3) \times SU(2) \times U(1)$. The three factors carry, in standard physics, the three non-gravitational forces: $SU(3)$ for the strong interaction with eight gluons, $SU(2)$ for the weak interaction with three intermediate bosons, $U(1)$ for the parent of electromagnetism after the Higgs mechanism mixes it with the electroweak sector. The total dimension of the gauge group is $8 + 3 + 1 = 12$, the total number of fundamental gauge bosons (counting the W$^{\pm}$, Z, photon, and eight gluons) in the Standard Model.
 
@@ -15,7 +17,7 @@ In standard physics, the choice of this specific gauge group is empirical. It is
 
 In BST, the gauge group is not chosen. It is *forced*. The three factors come from three distinct features of the substrate $D_{IV}^5$:
 
-- **$SU(3)$ color** comes from $N_c = 3$ — the substrate's color multiplicity, derived in Chapter 3 by four independent forcing arguments.
+- **$SU(3)$ color** — *imported*, not derived (corrected 2026-09-11): $N_c = 3$ is the substrate's characteristic multiplicity, identified with the colour count; the geometry carries no $SU(3)$ on that slot (Cal Section 946). The May text's "four independent forcing arguments" were audited in September and found to be one selection read several times (K1889).
 - **$SU(2)$ weak** comes from rank $= 2$ — the substrate's symmetric-space rank, derived in Chapter 3 by four independent forcing arguments.
 - **$U(1)$ hypercharge** comes from the $SO(2)$ factor of the isotropy decomposition $SO(5) \times SO(2)$ — the substrate's natural internal phase symmetry, derived in Volume 0 Chapter 4.
 

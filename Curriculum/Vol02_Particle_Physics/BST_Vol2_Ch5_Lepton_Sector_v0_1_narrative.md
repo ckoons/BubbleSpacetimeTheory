@@ -41,7 +41,7 @@ Lepton-number conservation is exact in BST (Volume 0 Chapter 8): the substrate's
 
 ## 5.4 The muon anomalous magnetic moment
 
-The muon's anomalous magnetic moment $a_\mu$ has been the subject of major experimental campaigns (Brookhaven E821, Fermilab E989) showing a persistent $\sim 4\sigma$ tension with Standard Model predictions. BST predicts $a_\mu$ via a parallel framework to Lyra's $a_e$ work (Chapter 8 Crown Jewel) at the parts-per-million level; the substrate-derivation gives a value consistent with the experimental measurement, suggesting that the SM tension is a calculation-precision issue in the SM side rather than a refutation of either the SM or BST.
+The muon's anomalous magnetic moment $a_\mu$ has been the subject of major experimental campaigns (Brookhaven E821, Fermilab E989) showing a persistent $\sim 4\sigma$ tension with Standard Model predictions. BST *identifies* a form for $a_\mu$ parallel to the $a_e$ work of Chapter 8 (itself re-tiered identified, K1872 — the "crown jewel" label is retired); the muon form is the one number in the program whose null test is discriminating (K1814: $p \approx 1.5\%$ over 4000 targets) and it stays IDENTIFIED under the four-part K968 bar; its value is consistent with the experimental measurement, suggesting that the SM tension is a calculation-precision issue in the SM side rather than a refutation of either the SM or BST.
 
 ## 5.5 What comes next
 

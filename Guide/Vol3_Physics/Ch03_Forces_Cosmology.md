@@ -286,7 +286,7 @@ The complete hierarchy:
 | **Approximate** | Quark flavor | $\mathbb{CP}^2$ circuit topology | Weak (Hopf intersection) |
 | **Approximate** | Lepton family | $D_{IV}^k$ ground states | Neutrino oscillations (PMNS: $\sin^2\theta_{12}=(3/10)(44/45)$, $\sin^2\theta_{23}=(4/7)(44/45)$, $\sin^2\theta_{13}=1/45$; T1446) |
 | **Approximate** | Parity P | $S^2$ orientation | Weak (Hopf chirality) |
-| **Approximate** | CP | $S^1 + S^2$ combined reversal | CKM phase ($D_{IV}^5$ complex structure); $\sin\theta_C = 2/\sqrt{79}$ (T1444) |
+| **Approximate** | CP | $S^1 + S^2$ combined reversal | CKM phase ($D_{IV}^5$ complex structure); $\sin\theta_C = 1/\sqrt{20}$ (T2530, derived blind; the May form $2/\sqrt{79}$/T1444 retired) |
 | **Approximate** | Isospin | $\mathbb{CP}^2$ near-degeneracy of $u$, $d$ | EM interaction, quark mass difference |
 
 The deepest conservation law — unitarity — has no Noether analog. Information is conserved not because of a symmetry but because the fiber has no boundary. This is the correct resolution of the black hole information paradox: information cannot be lost because the $S^1$ mode space is complete, which is because $S^1$ is compact, which is because a circle has no edge.

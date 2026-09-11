@@ -66,7 +66,7 @@ The substrate framework derives the major Standard Model coupling constants from
 - $\alpha = 1/N_{\max} = 1/137$ at $0.026\%$
 - $\alpha_s(M_Z) \approx 0.118$ at percent level
 - $g$ (weak coupling) $\approx 0.65$ at percent level
-- Weinberg angle $\sin^2\theta_W = N_c/c_3 = 3/13$ at $0.19\%$ (Chapter 2)
+- Weinberg angle $\sin^2\theta_W = N_c/c_3 = 3/13$ at $0.19\%$ (Chapter 2) — identified, a retired near miss (K1445 2a.5), not derived
 
 All substrate-mechanical, no fitted parameters.
 

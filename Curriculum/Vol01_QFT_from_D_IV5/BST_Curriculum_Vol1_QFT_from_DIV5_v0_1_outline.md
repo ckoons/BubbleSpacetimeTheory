@@ -28,7 +28,7 @@ The volume is the QFT-physics-derivation companion to Vol 0 (Substrate Foundatio
 | 5 | The Casimir Operator Algebra | **DERIVED** | T2435 (anchor) + T1409 + T1485 + T1462 + T2418 |
 | 6 | Substrate-Native Operator Zoo | **6/6 FRAMEWORK-COMPLETE** (Elie S29 Toy 3213 Thursday) | T2399 + T2419 + T2421 + T2422 + T2425 + H_sub (Casimir on L²(D_IV⁵; L_λ), K-type (1,1) Casimir = C_2 = 6) |
 | 7 | Dynamics: Schrödinger / Heisenberg / Path Integral | **v0.2 framework-grade Friday** | T2438 (SP-31-7 anchor) + Elie K52a S29 H_sub Casimir framework; operator-level multi-month |
-| 8 | **Gauge Theory: SU(3) × SU(2) × U(1) from D_IV⁵** | **DERIVED + Yukawa unblock K114-RATIO Friday** | T2436 (SP-31-8) + T1925 + T1930 + T610-T611 + **T2450 (Yukawa Ratio Decoupling Friday)** |
+| 8 | **Gauge Theory: the electroweak skeleton from D_IV⁵; SU(3) IMPORTED** (title corrected 2026-09-11) | **electroweak skeleton DERIVED; SU(3) colour IDENTIFIED + imported (Cal Section 946)**; Yukawa unblock K114-RATIO | T2436 (SP-31-8) + T1925 + T1930 + T610-T611 + **T2450 (Yukawa Ratio Decoupling Friday)** |
 | 9 | Scattering and the S-matrix | **v0.2 framework-grade Friday** | T2438 + T2429 + T2435 + T2437; operator-level S-matrix multi-month; **T2457 Bergman=Feynman propagator identification Friday** |
 | 10 | **Renormalization: Substrate-Tick Cutoff at N_max** | **DERIVED Thursday** | T2437 (SP-31-10) + T2429 + N_max = 137 + T1485 cosmological Λ |
 | 11 | QFT Observables: 600+ Predictions from D_IV⁵ | Reference chapter | Paper #125 + WorkingPaper v20+ |
