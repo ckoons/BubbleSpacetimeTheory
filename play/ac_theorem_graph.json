@@ -5218,7 +5218,7 @@
   },
   {
    "id": "T2630",
-   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a row isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
+   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a spherical (column) isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
    "domain": "substrate_lane",
    "domain_label": "Substrate lane (record space)",
    "status": "derived",
@@ -5230,6 +5230,62 @@
     "3/7 = 1/5 + (4/5)(2/7) with no table (5747 P5)",
     "Bergman-weight defect = c(j,k) entry for entry (5747 P4)"
    ]
+  },
+  {
+   "id": "T2631",
+   "name": "THE TEN-ITEM ROW — the Dirac–von Neumann axioms recovered on H²(D_IV⁵), each at its own tier, with its dependencies named: seven derived, one proved-with-a-named-caveat, one structure-derived-on-a-posited-descent, one derived-through-a-posit; four posits named in the chains; \"10/10 derived\" and \"zero posits\" retired (Cal C2, §945/§947–§949)",
+   "domain": "quantum_mechanics",
+   "domain_label": "Quantum Mechanics",
+   "status": "count of recoveries (7 derived / 1 proved-with-caveat / 1 structure-derived / 1 identified)",
+   "plain": "Ten rules make ordinary quantum mechanics, and this program recovers all ten on its one space — but not all at the same strength. Seven are derived; one is proved with a caveat about a word; one rests on a step the program admits it assumes (going from five dimensions to four); one passes through an assumption about the rank. Four assumptions are named in the chains. So the honest sentence is \"ten of ten recovered, at the tiers listed\" — never \"ten of ten derived with nothing assumed\".",
+   "color": "#7B68EE",
+   "proofs": [
+    "item-by-item tiers and dependencies in the row (Cal C2, verbatim)"
+   ]
+  },
+  {
+   "id": "T754",
+   "name": "Born Rule from Invariant Measure",
+   "domain": "quantum",
+   "domain_label": "Quantum",
+   "status": "proved — 09:48 09-09 (Grace R136 G2): the proof's \"dim ≥ 3 because N_c = 3\" clause is DECORATIVE, a shared integer (Gleason's hypothesis is on the Hilbert space, infinite-dimensional here); conclusion",
+   "plain": "",
+   "color": "#E91E63",
+   "proofs": [],
+   "mirrored": "2026-09-11 for the T2631 edges (Grace)"
+  },
+  {
+   "id": "T753",
+   "name": "Heisenberg Uncertainty from Bergman Curvature",
+   "domain": "quantum",
+   "domain_label": "Quantum",
+   "status": "proved — 12:35 09-09 (Grace R140 G2, Lyra L0): the curvature sentence is ILL-FORMED, defect is the word CONSTANT not the value — a rank-2 domain has no constant holomorphic sectional curvature (Lu; ra",
+   "plain": "",
+   "color": "#E91E63",
+   "proofs": [],
+   "mirrored": "2026-09-11 for the T2631 edges (Grace)"
+  },
+  {
+   "id": "T2545",
+   "name": "(3,1) signature locked by V₁₂ (real-SO(3)-vector, i.e. Frobenius–Schur real type on ℂ³) IRREDUCIBILITY: no SO(3)-invariant line → no (2,2) re-split → Lorentzian (3,1) forced",
+   "domain": "foundations_spacetime",
+   "domain_label": "Foundations Spacetime",
+   "status": "Structural",
+   "plain": "G5 bank-gate EXHIBITED (Grace, K1230). The 3 spatial directions = V₁₂ = J_{1/2}, the off-diagonal Peirce component of the D_IV⁵ SPIN FACTOR Jordan algebra, dim n_C−2=3=N_c (T2511/T2527). EXHIBITION of irreducibility (theorem, not assertion): the spin factor is a SIMPLE Jordan algebra (nondegenerate quadratic form, dim≥3); by Jordan structure theory (Jacobson) every off-diagonal Peirce space of a simple Jordan algebra is an IRREDUCIBLE module under the frame-stabilizer SO(n_C−2)=SO(3) (the vector rep, irreducible over R; = the color SU(3) fundamental over C). Simplicity FORBIDS V₁₂ decomposing ",
+   "color": "#888888",
+   "proofs": [],
+   "mirrored": "2026-09-11 for the T2631 edges (Grace)"
+  },
+  {
+   "id": "T2564",
+   "name": "BST is a causal set with a DERIVED order (the commitment order of the commit operator)",
+   "domain": "quantum_gravity/causal_sets",
+   "domain_label": "Quantum Gravity/Causal Sets",
+   "status": "DERIVED",
+   "plain": "BST's spacetime is a causal set whose order is derived (not posited) from the commit operator — Order+Number=Geometry realized literally; continuum dimension still open.",
+   "color": "#888888",
+   "proofs": [],
+   "mirrored": "2026-09-11 for the T2631 edges (Grace)"
   }
  ],
  "edges": [
@@ -8223,6 +8279,41 @@
   {
    "source": "T2630",
    "target": "T2624",
+   "type": "uses"
+  },
+  {
+   "source": "T754",
+   "target": "T2631",
+   "type": "uses"
+  },
+  {
+   "source": "T753",
+   "target": "T2631",
+   "type": "uses"
+  },
+  {
+   "source": "T2543",
+   "target": "T2631",
+   "type": "uses"
+  },
+  {
+   "source": "T2545",
+   "target": "T2631",
+   "type": "uses"
+  },
+  {
+   "source": "T2564",
+   "target": "T2631",
+   "type": "uses"
+  },
+  {
+   "source": "T2629",
+   "target": "T2631",
+   "type": "uses"
+  },
+  {
+   "source": "T2630",
+   "target": "T2631",
    "type": "uses"
   }
  ],

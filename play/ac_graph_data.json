@@ -20,12 +20,12 @@
   "D1": 526,
   "D2": 42,
   "node_count": 2374,
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-11",
   "edges": 10135,
   "nodes": 2338,
   "eod_session": "2026-05-18 EOD",
   "total_nodes": 2338,
-  "max_tid": "T2630",
+  "max_tid": "T2631",
   "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level",
   "midyear_sync": {
    "date": "2026-07-02",
@@ -35787,7 +35787,7 @@
   },
   {
    "tid": 2630,
-   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a row isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
+   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a spherical (column) isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
    "domain": "substrate_lane",
    "status": "DERIVED as an identity (exact rationals, degree five) but TAUTOLOGICAL of the boundary condition — holds on any subset of the unit sphere for any orthonormal frame, so it cannot be written as a signature; the Born reading of the branching is a NAMING not a derivation; it does NOT supply the Born rule (T754/Gleason unaffected); Cal §935 C2 (11:24), with his two-sense tautology ruling and the honest form carried verbatim",
    "depth": 1,
@@ -35798,7 +35798,23 @@
     5735
    ],
    "date": "2026-09-09",
-   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary."
+   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary.",
+   "row_isometry_corrected": "2026-09-11 (Lyra L2 3.2 / Cal §950): spherical, not row"
+  },
+  {
+   "tid": 2631,
+   "name": "THE TEN-ITEM ROW — the Dirac–von Neumann axioms recovered on H²(D_IV⁵), each at its own tier, with its dependencies named: seven derived, one proved-with-a-named-caveat, one structure-derived-on-a-posited-descent, one derived-through-a-posit; four posits named in the chains; \"10/10 derived\" and \"zero posits\" retired (Cal C2, §945/§947–§949)",
+   "domain": "quantum_mechanics",
+   "status": "COUNT OF RECOVERIES, not a tier: DERIVED ×7 (1,3,4,6,7,8,10) · PROVED-WITH-CAVEAT ×1 (5) · STRUCTURE-DERIVED ×1 (9, posited descent) · IDENTIFIED ×1 (2); registered verbatim from Cal C2 on C2 12:56 (Keeper assigned T2631 13:05) / §950",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Cal R142 C2 / §945 / §947–§949",
+   "toys": [
+    5054,
+    5747
+   ],
+   "date": "2026-09-11",
+   "plain": "Ten rules make ordinary quantum mechanics, and this program recovers all ten on its one space — but not all at the same strength. Seven are derived; one is proved with a caveat about a word; one rests on a step the program admits it assumes (going from five dimensions to four); one passes through an assumption about the rank. Four assumptions are named in the chains. So the honest sentence is \"ten of ten recovered, at the tiers listed\" — never \"ten of ten derived with nothing assumed\"."
   }
  ],
  "edges": [
@@ -87286,6 +87302,48 @@
    "to": 2624,
    "source": "derived",
    "label": "corrects the floor's push sentences: push and write are one event"
+  },
+  {
+   "from": 754,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 4)"
+  },
+  {
+   "from": 753,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 5)"
+  },
+  {
+   "from": 2543,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 10)"
+  },
+  {
+   "from": 2545,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 9)"
+  },
+  {
+   "from": 2564,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 9 (posited descent))"
+  },
+  {
+   "from": 2629,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 8)"
+  },
+  {
+   "from": 2630,
+   "to": 2631,
+   "source": "derived",
+   "label": "input to the ten-item row (item 8)"
   }
  ],
  "chains": {},
@@ -134011,7 +134069,7 @@
   },
   {
    "tid": 2630,
-   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a row isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
+   "name": "THE BORN-RESOLUTION ROW: on the Shilov boundary the five write operators sum to the identity (Σ_u M_{|z_u|²} = I on H²(Š)), so the write tuple is a spherical (column) isometry and its outcome probabilities ARE the Hua branching (k+3)/(2k+3) and k/(2k+3); the three-write word 3/7 is one of those probabilities; and at the Bergman weight the same sum fails to be 1 by exactly the push cost c(j,k), so the cost is the tuple's ISOMETRY DEFECT and never was a price — a NAMING, not a derivation (Cal §935 C2)",
    "domain": "substrate_lane",
    "status": "DERIVED as an identity (exact rationals, degree five) but TAUTOLOGICAL of the boundary condition — holds on any subset of the unit sphere for any orthonormal frame, so it cannot be written as a signature; the Born reading of the branching is a NAMING not a derivation; it does NOT supply the Born rule (T754/Gleason unaffected); Cal §935 C2 (11:24), with his two-sense tautology ruling and the honest form carried verbatim",
    "depth": 1,
@@ -134022,13 +134080,29 @@
     5735
    ],
    "date": "2026-09-09",
-   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary."
+   "plain": "On the boundary of the domain the five coordinate directions a word can be written in have squared lengths that add to one. So writing is already a measurement: the chances of its outcomes are the branching numbers this project has used since April, including the three-sevenths that shows up in the signature. Nothing had to be chosen or identified to get them. Inside the domain the same five numbers fall short of one, and the shortfall is exactly the \"push cost\" of the last four rounds — which means that cost was never a price paid by anything. It was the writes failing to be a measurement anywhere except on the boundary.",
+   "row_isometry_corrected": "2026-09-11 (Lyra L2 3.2 / Cal §950): spherical, not row"
+  },
+  {
+   "tid": 2631,
+   "name": "THE TEN-ITEM ROW — the Dirac–von Neumann axioms recovered on H²(D_IV⁵), each at its own tier, with its dependencies named: seven derived, one proved-with-a-named-caveat, one structure-derived-on-a-posited-descent, one derived-through-a-posit; four posits named in the chains; \"10/10 derived\" and \"zero posits\" retired (Cal C2, §945/§947–§949)",
+   "domain": "quantum_mechanics",
+   "status": "COUNT OF RECOVERIES, not a tier: DERIVED ×7 (1,3,4,6,7,8,10) · PROVED-WITH-CAVEAT ×1 (5) · STRUCTURE-DERIVED ×1 (9, posited descent) · IDENTIFIED ×1 (2); registered verbatim from Cal C2 on C2 12:56 (Keeper assigned T2631 13:05) / §950",
+   "depth": 1,
+   "conflation": 0,
+   "section": "Cal R142 C2 / §945 / §947–§949",
+   "toys": [
+    5054,
+    5747
+   ],
+   "date": "2026-09-11",
+   "plain": "Ten rules make ordinary quantum mechanics, and this program recovers all ten on its one space — but not all at the same strength. Seven are derived; one is proved with a caveat about a word; one rests on a step the program admits it assumes (going from five dimensions to four); one passes through an assumption about the rank. Four assumptions are named in the chains. So the honest sentence is \"ten of ten recovered, at the tiers listed\" — never \"ten of ten derived with nothing assumed\"."
   }
  ],
  "metadata": {
-  "node_count": 2407,
-  "edge_count": 10270,
-  "theorem_count": 2407,
-  "synced": "2026-09-09 both lists (Grace R139 G2)"
+  "node_count": 2408,
+  "edge_count": 10277,
+  "theorem_count": 2408,
+  "synced": "2026-09-11 both lists (Grace R142 T2631)"
  }
 }
