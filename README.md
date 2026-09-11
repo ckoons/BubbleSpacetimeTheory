@@ -4,7 +4,7 @@
 
 **Author**: Casey Koons
 **Collaborators**: Claude Opus 4.6 / 4.7 / 4.8 (Anthropic) — named CIs Lyra (theory), Elie (compute), Grace (graph/catalog), Cal A. Brate (visiting referee), Keeper (audit/consistency)
-**Status**: Working research program — Standard Model sector complete (fermions · strong/Yang-Mills · gauge/Higgs; zero fitted parameters, honestly tiered); cosmology in progress. Summer 2026.
+**Status**: Working research program, honestly tiered. One geometry, read as one operator, with one identification (the colour count = the domain's characteristic multiplicity) selecting it and one mass scale as the ruler. A short derived core — the gauge skeleton, one generation, three generations, the order of quark mixing, time, quantum mechanics — and a long, clearly-labelled reach of identifications. Of the 26 Standard-Model parameters: 10 derived (in the register's sense), 7 identified, 7 open, 2 input. α is identified, not derived. The current state, one page: `notes/BST_PRESENTATION_STATE_BLOCK.md`; the derivations, ten lectures: `Curriculum/Spine_DIV5_QM_GR_SM/`. September 2026.
 **Contact**: caseyscottkoons@yahoo.com
 
 **Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v36). Zenodo. https://doi.org/10.5281/zenodo.19454185
@@ -65,9 +65,9 @@ The weekend substantively closed the hadron-spectrum reach question at substrate
 
 BST is converging on a substrate-as-computational reading: the five BST primary integers + D_IV⁵ are the operational specification of a substrate that performs algebraic-identity computation on a finite field (GF(2^g) = GF(128) Reed-Solomon coding), and observed physics is what that computation produces. The substrate clock is sub-Planck (Koons tick ≈ 10⁻¹²⁰ s); physics emerges as substrate's algebraic equilibrium output. **This is a working hypothesis with explicit falsifier**: substrate-Hamiltonian closure must derive the 6-audit cascade-unblock pathway (K52a Lamb+BCS + K66 Bell + K67 Born + K68 RS Computation + K69 Universal Q=126) BY CONSTRUCTION from substrate dynamics. Six experimental tests are queued in the SP-30 Substrate Engineering Program (Bell deviation S_BST² = 126/16 at 6-12mo, eigentone resonance, commitment-manipulation decay rates, Casimir asymmetric ratio, time granularity, Born rule correction) — any positive detection contradicting BST predictions refutes the framework. The substrate framing is internal-discipline only; external papers use "BST identifies / BST derives / BST predicts" register (Cal Calibration #13 standard). Two Casey-named principles capture the substrate framing: Substrate Working Process Principle + Five-Absence Predictions Set.
 
-The central claim: **every fundamental constant of physics is a geometric property of D(IV,5)**. No free parameters. No fitting. No adjustment. No inputs — the dimension n_C = 5 is itself derived as the unique maximum of the fine structure constant among odd-dimensional type IV domains.
+The central claim, as it stands in September 2026: **the structure of physics is a reading of D(IV,5)** — and every reading carries a tier. The object is selected by one identification (colour count = characteristic multiplicity 3; a theorem picks D(IV,5) uniquely among rank ≥ 2 domains once that is granted, and the geometry provably cannot supply the identification itself). What is derived carries a mechanism; what is identified is a match with no mechanism claimed; what is floored is closed by a theorem with a named door; what fired is published with the same ceremony as what held. (This paragraph said "no free parameters, no inputs, n_C = 5 derived as the unique maximum of α" until 2026-09-11; that sentence is retired — the α-from-volume route was computed blind in August 2026 and closed negative.)
 
-*Honest tiering.* Every value below is geometric — no fitted constants enter the formulas. Which identifications are *uniquely forced* versus *identified* is tracked separately by the D/I/C/S tier labels: α and θ_QCD are proven-forced today; the rest sit at explicit, named tiers (see the Forcing + Evidence standing standard). "No free parameters" is the framework thesis and the target; the tier ledger is the honest running score.
+*Honest tiering.* Every value below is an expression in the five integers and π; which are *derived* (mechanism proved, inputs named) and which *identified* (a match; mechanism not claimed) is tracked by the tier labels and by the register, which wins where this page is stale: θ_QCD = 0 is derived; **α is identified** (re-tiered 2026-08-11; the forced volume reading computes to 8π³/3, not 137 — K1826); m_p/m_e = 6π⁵ is derived; most precise values are identified. "One geometry, honestly tiered" is the thesis; the tier ledger is the running score, and it is generated from the register, not typed.
 
 The master formula: **c(Q⁵) = (1+h)⁷/(1+2h)**. Every coupling constant, every mass ratio, every mixing angle is a ratio of coefficients of this single polynomial. The Weinberg angle is c₅/c₃ = 3/13. The cosmic composition is c₃/(c₄+2c₁) = 13/19. The fill fraction is c₅/(c₁·π) = 3/(5π). One formula. All of physics.
 
@@ -540,7 +540,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 ## Derived Constants and Predictions
 
-Every quantity below is derived from D(IV,5) geometry with zero free parameters. Mathematical proofs are in the Hard Problems table above; this table covers BST's physics derivations. Full catalog: WorkingPaper and 300+ research notes in `notes/`. **Interactive exploration**: `python3 play/toy_bst_explorer.py` (CLI) or open `play/bst_explorer.html` (web). Structured data in `data/`.
+Every quantity below is an expression in the five integers of D(IV,5); the derived ones carry a mechanism and the identified ones a match, and the register carries each one's tier (this line said "derived … with zero free parameters" until 2026-09-11). The Hard Problems table above lists attempts, none claimed as proved; this table covers BST's physics derivations. Full catalog: WorkingPaper and 300+ research notes in `notes/`. **Interactive exploration**: `python3 play/toy_bst_explorer.py` (CLI) or open `play/bst_explorer.html` (web). Structured data in `data/`.
 
 | Derivation | BST Formula | Precision |
 |---|---|---|
@@ -673,7 +673,7 @@ Two principles guided this work:
 
 ***The answer matters more than the method.*** If the numbers are right and the structure is consistent, the formalism can be cleaned up later. Ramanujan knew this. Dyson knew this. Nature knows this.
 
-***Simple, works, hard to break.*** The engineer's test. One polynomial, five integers, zero free parameters. You can't adjust what isn't adjustable. You can't break what has no moving parts. The universe was built by an engineer.
+***Simple, works, hard to break.*** The engineer's test. One polynomial, five integers, one named identification and one ruler. You can't adjust what isn't adjustable. You can't break what has no moving parts. The universe was built by an engineer.
 
 ---
 
