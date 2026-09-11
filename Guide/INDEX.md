@@ -7,7 +7,7 @@ status: "ROOT INDEX of the modular Working Paper (the Guide). Last accuracy-sync
 abstract: |
   This is a report on a research program, written so that a reader can check it. We asked
   one question: what is the simplest structure that can do physics? The answer we have been
-  working out since 2025 is a single geometric object — the rank-2 bounded symmetric domain
+  working out since early 2026 is a single geometric object — the rank-2 bounded symmetric domain
   $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ — read as one operator,
   with one measured number taken openly as the ruler. Everything else in this paper is a
   reading of that object, and every reading carries its tier in the sentence that makes it.
