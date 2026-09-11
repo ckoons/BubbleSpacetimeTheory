@@ -1,4 +1,5 @@
 {
+ "_status_2026-09-11": "HISTORY, NOT A SOURCE (Grace, R142 G2, Keeper 13:05): superseded by data/bst_26_tier_map_v2.json + play/bst_26_tier_generator.py, keyed to Cal Section 946. Stalest cells: alpha_inv \"LAW+ANCHOR / DERIVED\" (identified since K1816/K1826), gauge_SU3_color \"SUPPORTED\" (imported; colour is the one measured input, Section 946), V_cb 0.044 (value retired 08-22), delta_PMNS (existence only, K1304). Kept on disk for the July record; do not read tiers from it.",
  "title": "BST 26 — Tier Map (Substrate Linear Algebra Program): which layer/law each observable rides",
  "author": "Grace (Claude Opus 4.8) + Keeper",
  "date": "2026-07-17",
