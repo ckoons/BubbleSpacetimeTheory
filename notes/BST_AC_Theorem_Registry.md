@@ -7119,7 +7119,7 @@ with Δ_full a SIX-TERM polynomial across three degree levels:
 | SP-30-7 Computation (GF(2^g)) | 2^g = 128 field elements; g = 7 bits/cycle | Multi-decade | Low |
 | SP-30-8 Emission (Born rule) | Bergman exp g/rank = 7/2; 5.3e-5 Born correction at order 1/N_max² | Multi-year | Medium-High |
 
-**SP-30-5 is the sharpest falsifier in the program** — direct measurement of Bell-violation maximum against textbook Tsirelson bound. If precision Bell experiments confirm S < 2.828 at high precision, BST supported; if S = 2.828 exactly, BST challenged. Currently approaching this sensitivity.
+**[FIRED — 2026-09-11 (Grace, Round 142 G3 ruling on Keeper's flag; Keeper certification pending): the sub-Tsirelson prediction S_BST = √(126/16) = 2.80624 (deficit 1/8 in S²) is REFUTED by Poh, Joshi, Ceré, Cabello, Kurtsiefer, PRL 115, 180408 (2015), arXiv:1506.01865 — measured S = 2.82759 ± 0.00051, i.e. 0.02135 = 41.9σ above BST's ceiling; the measured S² deficit from Tsirelson² is 0.0047 ± 0.0029 against the predicted 0.125. The measurement predates the prediction by a decade. Survives: the integer identity and the trace-class statement Tr(B²) = 126/16 on H²(D_IV⁵) (operator fact, no laboratory claim). Dies: the laboratory prediction, 'sharpest falsifier in the program', SP-30-5's window, the Bell-apparatus proposal. Falsifier register v0.5 row E4; ruling note notes/grace_R142_G3_SUB_TSIRELSON_FALSIFIER_FIRED_Poh_2015_S_2p82759_vs_S_BST_2p80624_at_42_sigma_2026-09-11.md.]** **SP-30-5 is the sharpest falsifier in the program** — direct measurement of Bell-violation maximum against textbook Tsirelson bound. If precision Bell experiments confirm S < 2.828 at high precision, BST supported; if S = 2.828 exactly, BST challenged. Currently approaching this sensitivity.
 
 **21 claims verified (Toy 3111, 21/21 PASS)**: 3 claims per sub-item × 7 sub-items. Each sub-item gets (a) BST primary involvement, (b) prediction value, (c) falsifier specificity.
 
@@ -7189,6 +7189,8 @@ If Bell experiment detects S < 2.828 at high precision, BST is SUPPORTED at BOUN
 ---
 
 ## T2399 — SP-30-5 Bell Mechanism v0.1: EXACT BST-primary identity for Tsirelson deviation (Lyra 2026-05-19, autonomous-loop pull)
+
+**[FIRED — 2026-09-11 (Grace, Round 142 G3 ruling on Keeper's flag; Keeper certification pending): the sub-Tsirelson prediction S_BST = √(126/16) = 2.80624 (deficit 1/8 in S²) is REFUTED by Poh, Joshi, Ceré, Cabello, Kurtsiefer, PRL 115, 180408 (2015), arXiv:1506.01865 — measured S = 2.82759 ± 0.00051, i.e. 0.02135 = 41.9σ above BST's ceiling; the measured S² deficit from Tsirelson² is 0.0047 ± 0.0029 against the predicted 0.125. The measurement predates the prediction by a decade. Survives: the integer identity and the trace-class statement Tr(B²) = 126/16 on H²(D_IV⁵) (operator fact, no laboratory claim). Dies: the laboratory prediction, 'sharpest falsifier in the program', SP-30-5's window, the Bell-apparatus proposal. Falsifier register v0.5 row E4; ruling note notes/grace_R142_G3_SUB_TSIRELSON_FALSIFIER_FIRED_Poh_2015_S_2p82759_vs_S_BST_2p80624_at_42_sigma_2026-09-11.md.]**
 
 **Statement.** SP-30-5 Bell-CHSH candidate maximum S_BST has a CLEAN BST-primary form with EXACT deviation from Tsirelson. The numerical-coincidence framing of T2397/T2398 is upgraded to STRUCTURAL-ALGEBRAIC IDENTITY.
 
@@ -10600,7 +10602,7 @@ For comparison: the first 7 primes are {2, 3, 5, 7, 11, 13, 17}; among these, M_
 
 **Status**: Layer 1 operational claims STRUCTURALLY VERIFIED candidate (a + b + d). Layer 2 metaphysical claim CANDIDATE EXPLANATION (c) — DEFAULT-DENY EXTERNAL per Cal #48/#49.
 
-**Falsifier**: SCMP predicts sub-Tsirelson deviation 1/2^N_c = 1/8 = 0.125 in Bell experiments. Bell experiment design $300-500K (SP-30) operational falsifier — if measured deviation < 0.125 reliably, SCMP refuted at Layer 1 level (Layer 2 metaphysical claim independently subject to interpretation-of-QM debate).
+**[FIRED — 2026-09-11 (Grace, Round 142 G3 ruling on Keeper's flag; Keeper certification pending): the sub-Tsirelson prediction S_BST = √(126/16) = 2.80624 (deficit 1/8 in S²) is REFUTED by Poh, Joshi, Ceré, Cabello, Kurtsiefer, PRL 115, 180408 (2015), arXiv:1506.01865 — measured S = 2.82759 ± 0.00051, i.e. 0.02135 = 41.9σ above BST's ceiling; the measured S² deficit from Tsirelson² is 0.0047 ± 0.0029 against the predicted 0.125. The measurement predates the prediction by a decade. Survives: the integer identity and the trace-class statement Tr(B²) = 126/16 on H²(D_IV⁵) (operator fact, no laboratory claim). Dies: the laboratory prediction, 'sharpest falsifier in the program', SP-30-5's window, the Bell-apparatus proposal. Falsifier register v0.5 row E4; ruling note notes/grace_R142_G3_SUB_TSIRELSON_FALSIFIER_FIRED_Poh_2015_S_2p82759_vs_S_BST_2p80624_at_42_sigma_2026-09-11.md.]** **Falsifier**: SCMP predicts sub-Tsirelson deviation 1/2^N_c = 1/8 = 0.125 in Bell experiments. Bell experiment design $300-500K (SP-30) operational falsifier — if measured deviation < 0.125 reliably, SCMP refuted at Layer 1 level (Layer 2 metaphysical claim independently subject to interpretation-of-QM debate).
 
 **Cross-references**: K67 Born = Bergman, T2399 + Calibration #17, T2417 4-Zone, T2467 META + T2468 (Rigidity Principle complement). Closes Casey-named principle #8 SCMP at Layer 1.
 
