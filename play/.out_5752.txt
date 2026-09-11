@@ -1,0 +1,54 @@
+====================================================================================================
+(i) GENUS AND THE BERGMAN-KERNEL EXPONENT
+====================================================================================================
+  genus(r,a,b) = (r-1)a + b + 2 at (2,3,0) = 5
+  integers previously quoted for this slot: n_C + 1 = 6;  g = n_C + rank = 7;  the BALL B^5's exponent d+1 = 6
+  type IV family: genus(2, n-2, 0) = n for n = 3..8 -> [3, 4, 5, 6, 7, 8]
+  [HIT] P1 (control)  genus = 5 by the formula; 6 is the ball's number (d+1 at d=5), not this domain's
+  Convention: K(z,z) = (1/V) N(z,z)^(-p), N(z,z) = 1 - 2|z|^2 + |z.z|^2 (Hua). Real ray t e1: N = (1-t^2)^2. Isotropic ray t(e1+i e2)/sqrt2: N = 1 - 2t^2.
+
+  INSTRUMENT A — the degree-1 cell: p = (order of N on the real ray)^-1 * V/||z_1||^2 = d/(ord * <|z|^2>_D); ord = 2 on D_IV^n (rank 2), 1 on B^d (rank 1)
+   D_IV^5 : samples   3753147  <|z|^2>_D = 0.49997 +- 0.00006   p_hat = 5.0003 +- 0.0006   (genus/ball prediction 5; |p_hat - 5| = 0.4 sigma; from 6: 1547.1 sigma)
+   D_IV^4 : samples   1999317  <|z|^2>_D = 0.50025 +- 0.00011   p_hat = 3.9980 +- 0.0008   (genus/ball prediction 4; |p_hat - 4| = 2.4 sigma; from 5: 1188.8 sigma)
+   D_IV^6 : samples   1874761  <|z|^2>_D = 0.50012 +- 0.00010   p_hat = 5.9986 +- 0.0012   (genus/ball prediction 6; |p_hat - 6| = 1.2 sigma; from 7: 832.3 sigma)
+   B^5    : samples   8000000  <|z|^2>_D = 0.83333 +- 0.00002   p_hat = 6.0001 +- 0.0002   (genus/ball prediction 6; |p_hat - 6| = 0.3 sigma; from 5: 5610.4 sigma)
+   B^4    : samples   8000000  <|z|^2>_D = 0.80012 +- 0.00005   p_hat = 4.9992 +- 0.0003   (genus/ball prediction 5; |p_hat - 5| = 2.3 sigma; from 4: 3007.5 sigma)
+  [HIT] P2  D_IV^5 exponent by the degree-1 cell = 5.0003 +- 0.0006: 5 within 3 sigma, 6 excluded at 1547 sigma
+
+  INSTRUMENT B — the reproducing property: (1/V) int_D |N(z,w0)|^(-2p) dV = N(w0,w0)^(-p) holds iff p is the exponent
+   D_IV^5 real ray 0.4 e1                  N(w0,w0) = 0.7056 |  p=4   : 0.7545+-0.0014 (179.3s)  p=9/2 : 0.8529+-0.0020 ( 72.3s)  p=5   : 0.9975+-0.0031 (  0.8s)  p=11/2: 1.2059+-0.0050 ( 41.5s)  p=6   : 1.5055+-0.0081 ( 62.6s)  p=7   : 2.5720+-0.0227 ( 69.2s)
+   D_IV^5 isotropic ray 0.4(e1+ie2)/sqrt2  N(w0,w0) = 0.6800 |  p=4   : 0.7286+-0.0014 (192.5s)  p=9/2 : 0.8380+-0.0021 ( 78.1s)  p=5   : 0.9986+-0.0031 (  0.5s)  p=11/2: 1.2296+-0.0047 ( 49.3s)  p=6   : 1.5599+-0.0071 ( 78.8s)  p=7   : 2.7163+-0.0172 ( 99.9s)
+   B^5 ray 0.4 e1                       N(w0,w0) = 0.8400 |  p=5   : 0.8623+-0.0005 (259.2s)  p=6   : 0.9980+-0.0008 (  2.6s)  p=7   : 1.2188+-0.0012 (180.2s)
+  [HIT] P3  reproducing property holds at p = 5 on both rays (within 3 sigma) and fails at p = 6 (> 5 sigma) on both
+  [HIT] P4 (control)  controls: B^5 -> 6 (both instruments), B^4 -> 5, D_IV^4 -> 4, D_IV^6 -> 6 — the instrument reads the genus, and 6 is the ball's
+
+  POSTED NUMBER: Bergman-kernel exponent of D_IV^5 = 5 (closed form (r-1)a+b+2 at (2,3,0)); measured 5.000 +- 0.001 (instrument A) and reproducing-property ratio at p = 5: 0.9975+-0.0031, 0.9986+-0.0031. The old '6 = n_C + 1' is B^5's exponent (measured 6.000).
+
+====================================================================================================
+(ii) LECTURE 3's BRANCHING TABLE AND 3/7 FROM THE 5747 RECORD
+====================================================================================================
+   5747 re-run SCORE line: SCORE 5/5, of which 3/3 can-fail hit
+   record table k=0..5: [(0, '1', '0'), (1, '4/5', '1/5'), (2, '5/7', '2/7'), (3, '2/3', '1/3'), (4, '7/11', '4/11'), (5, '8/13', '5/13')]
+   record chain: 1/5 + 4/5*2/7 = 3/7;  .record_5747.json three_write = 3/7
+   record Bergman deficits: [((0, 0), '1/2'), ((0, 1), '10/21'), ((1, 1), '25/63'), ((0, 2), '45/98'), ((2, 3), '7/22')]
+   lecture formulas found: True; lecture chain: '1/5 + (4/5)(2/7) = 3/7'; lecture deficits: ('1/2', '10/21', '25/63')
+   table match k=0..5: True;  chain 1/5 + (4/5)(2/7) = 3/7 match: True;  deficits 1/2, 10/21, 25/63 at (0,0),(0,1),(1,1): True
+  [HIT] P5  Lecture 3's table, chain and deficit list are the 5747 record's, fraction for fraction
+
+====================================================================================================
+(iii) LECTURE 1's LIE-BALL INEQUALITIES vs THE CORPUS DEFINITION (T2328)
+====================================================================================================
+   L (Lecture 1): |z.z| < 1  and  1 - 2|z|^2 + |z.z|^2 > 0
+   C (T2328)    : |z|^2 < 1  and  1 - 2|z|^2 + |z.z|^2 > 0
+   H (Lie norm) : |z|^2 + sqrt(|z|^4 - |z.z|^2) < 1
+   proof sketch: |z.z| <= |z|^2 (Cauchy-Schwarz) so C => L; if |z|^2 >= 1 and |z.z| < 1 then 1 - 2|z|^2 + |z.z|^2 < 2 - 2|z|^2 <= 0, so L => C.
+   cube [-1,1]^10, 60,000,000 points: |L| = 9,199  |C| = 9,199  |H| = 9,199   L^C = 0  L^H = 0   Q\C = 8,969,247  S\C = 17,579,329
+   volume check: |C|/total * 2^10 = 0.1570 vs pi^5/(2^4 5!) = 0.1594
+   shell 0.9<=|z|<=1.1, 10,000,000 points: |L| = 1,111  |C| = 1,111  |H| = 1,111   L^C = 0  L^H = 0   Q\C = 1,807  S\C = 9,678,217
+  [HIT] P6  Lecture 1's set = T2328's set = the Lie-norm set on every sampled point (cube and boundary shell)
+  [HIT] P7 (control)  each clause is load-bearing: the quartic alone admits an outer component, |z.z|<1 alone admits |z|>=1
+   Shilov points e^(it) x, x in S^4: max |(|z.z| - 1)| = 6.66e-16, max |N(z,z)| = 1.55e-15, max ||z|^2 - 1| = 8.88e-16
+  [HIT] P8 (control)  both clauses sit at their boundary values on the Shilov boundary
+
+SCORE 8/8, of which 4/4 can-fail hit
+python3 toy_5752_SEP11_*.py  51.28s user 7.26s system 107% cpu 54.527 total
