@@ -211,7 +211,7 @@ The number 30 admits multiple equivalent representations: $n_C \times C_2(\pi_6)
 
 **Result:** $m_\pi = m_\pi^{\text{bare}} \times \sqrt{30} = 25.6 \times 5.477 = 140.2$ MeV, compared to observed $139.57$ MeV (0.46%). The pion decay constant is $f_\pi = (m_p/10)(1 - (\text{rank}/N_c)(m_\pi/m_p)^2) = 92.4$ MeV (observed $92.1$ MeV, 0.41%). The correction factor $\text{rank}/N_c = 2/3$ is the Wilson-Fisher linearization weight.
 
-The entire hadronic sector — pion mass, string tension, glueball mass, nuclear forces, spin-orbit coupling — now follows from BST geometry with **zero free parameters**. Full derivation: `notes/BST_ChiralCondensate_Derived.md`.
+The entire hadronic sector — pion mass, string tension, glueball mass, nuclear forces, spin-orbit coupling — is identified with BST-integer forms — identifications, at the tiers the register carries; the sentence said "follows … with zero free parameters" until 2026-09-11. Full account: `notes/BST_ChiralCondensate_Derived.md`.
 
 -----
 
