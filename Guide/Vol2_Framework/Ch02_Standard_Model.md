@@ -505,9 +505,9 @@ The quark and lepton mixing matrices encode the mismatch between mass eigenstate
 | Parameter | BST formula | BST value | PDG 2024 | Deviation |
 |---|---|---|---|---|
 | $\lambda = \sin\theta_C$ (Cabibbo) | $1/\sqrt{20}$ — the Gatto relation $\tan\theta_C = \sqrt{m_d/m_s}$ *is* the geometry; **DERIVED, blind, 2026-07-29 (T2530)**. The May form $2/\sqrt{79}$ (T1444) is retired. | 0.22361 | $0.22501 \pm 0.00068$ | $-2.06\sigma$ on the direct value; **exactly unitary in the first row**, where the direct determinations sum to $0.9984 \pm 0.0007$ — which side we predict is pre-registered, not chosen |
-| $A$ (Wolfenstein) | **INPUT** (the May form $4/5$ is a candidate with no mechanism; K1801 finding 3) | — | $0.826 \pm 0.012$ (PDG 2024 Rev 12) | — |
+| $A$ (Wolfenstein) | **INPUT** (the May form $4/5$ is a candidate with no mechanism; K1801 finding 3) | — | $0.826 \pm 0.015$ (PDG 2024 Rev 12; re-pinned 2026-08-23) | $4/5$ would sit at $-1.73\sigma$ |
 | $\|V_{cb}\|$ | $A\lambda^2$: **position DERIVED, value INPUT** (the old 0.044 retired at $+9.2\sigma$ vs current exclusive $(39.77 \pm 0.46)\times 10^{-3}$; the inclusive/exclusive split is $>3\sigma$ and unresolved) | — | see left | — |
-| $\|V_{ub}\|$ | **ORDER DERIVED: exactly one power of $\lambda$ below $\|V_{cb}\|$** (Cayley–Hamilton on the 3-dimensional generation space; the 1–3 corner opens two rungs after the 2–3; K1808/K1810, zero-knob). **VALUE INPUT**: five named series sealed by hash before scoring, all five missed. | — | $(3.7 \pm 0.1)\times 10^{-3}$ class | — |
+| $\|V_{ub}\|$ | **ORDER DERIVED: exactly one power of $\lambda$ below $\|V_{cb}\|$** (Cayley–Hamilton on the 3-dimensional generation space; the 1–3 corner opens two rungs after the 2–3; K1808/K1810, zero-knob). **VALUE INPUT**: five named series sealed by hash before scoring, all five missed. | — | PDG 2024 Rev 12 (pinned there, not retyped here) | — |
 
 **CKM CP violation — Wolfenstein parameters $\bar\rho$, $\bar\eta$, and the unitarity triangle:**
 
