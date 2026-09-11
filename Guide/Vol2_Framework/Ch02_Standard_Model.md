@@ -13,15 +13,7 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 ## Section 5: The Fine Structure Constant
 
-> **⚠ CURATION BANNER (Keeper, 2026-08-26 — read before this section): THE VOLUME-READING CLASS THIS
-> SECTION PRESENTS WAS CLOSED NEGATIVELY on 2026-08-24 (K1826, toy 5496).** The unique FORCED
-> geometric candidate — the Born-normalized soft vertex on the Shilov boundary, no step chosen toward
-> the answer — computes to **8π³/3 ≈ 82.68, not 137.036**; the class is closed by pincer (the forced
-> member refuted by computation; every unforced volume-ratio already non-evidential by the
-> expressibility null). **α's standing tier is IDENTIFIED**; do not cite any Wyler-family ratio as a
-> derivation. This section is preserved as HISTORY of the identification and its geometric readings —
-> the readings below are real mathematics about real invariants; what died is their claim to BE α.
-> Current record: the falsifier register §E · K1826 · the state-of-the-program page.
+**What this section is, as of 2026-09-11.** It is the May 2026 record of the program's attempt to read $\alpha$ off the geometry, and it is kept because the attempt was serious and because its failure is one of the program's best results. Read it as history with the ending known. The forward form $N_{\max} = N_c^3\,n_C + \text{rank} = 137$ is a computed invariant of the shape and a mnemonic for the measured $\alpha^{-1}$ — not evidence: a pre-registered null found 23–26 of 76 physical targets scoring at least as well, with $2^g = 128$ and $n_C^3 = 125$ the real attractors (K1813). The Wyler-type *volume* reading that Sections 5.1–5.5 develop was tested the way it should have been tested in 1971: the unique *forced* candidate — the Born-normalised bare vertex on the Šilov boundary, power fixed, landings and tolerances hashed before the number — computes to $8\pi^3/3 \approx 82.7$, the Hua volume of the Lie sphere, not 137 (K1826, toy 5496). That closes the class, by pincer: the forced member is refuted and the free family had already been shown to fit anything. **$\alpha$ is identified, not derived**, and the registry has said since 2026-08-11 not to cite it externally as derived. The "three independent derivations of $N = 137$" below are three identifications. The current treatment is Lecture 8 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`).
 
 ### 5.1 Wyler’s Formula
 
@@ -141,7 +133,7 @@ $$\boxed{\kappa = \frac{N_{\max} \cdot d_{\rm eff}}{\mathrm{Vol}(D_{IV}^5)} = \f
 
 Every factor is fixed by $D_{IV}^5$ geometry — no free parameters. With this $\kappa$, the continuous minimum falls at $\rho^* = 137.035$, and $\lfloor\rho^*\rfloor = 137$.
 
-**Three independent derivations of $N = 137$:**
+**Three readings that land on $N = 137$** (identifications, all three — see the note at the head of this section; the May text called them derivations):
 
 | Method | Geometric input | Continuous value | Physical $N$ |
 |---|---|---|---|
@@ -221,7 +213,7 @@ $$\boxed{\sin^2\theta_W = \frac{N_c}{N_c + 2n_C} = \frac{3}{3 + 10} = \frac{3}{1
 
 matching the $\overline{\mathrm{MS}}$ value 0.23122 to **0.2%** with no free parameters. The numerator $N_c = 3$ counts color directions; the denominator $N_c + 2n_C = 13$ is color ($N_c = 3$) plus the real dimension of $D_{IV}^5$ ($2n_C = 10$) — the total number of gauge-active real dimensions. The physical interpretation: $\sin^2\theta_W$ measures what fraction of the gauge interaction comes from the color sector (hypercharge) versus the full geometric structure.
 
-**Consequences.** The double angle gives $\cos 2\theta_W = 7/13$, connecting the Weinberg angle to the same genus $7 = n_C + 2$ that appears in $\alpha_s = 7/20$, $H_{\mathrm{YM}} = 7/(10\pi)$, and $\beta_0 = 7$. The W mass follows from the tree-level relation:
+**Consequences.** The double angle gives $\cos 2\theta_W = 7/13$, connecting the Weinberg angle to the same integer $7 = n_C + 2 = p + q$ — the *signature* of $\mathrm{SO}(5,2)$, which this chapter called the genus in May; the genus of $D_{IV}^5$ is $5$ (pinned 2026-09-09) — that appears in $\alpha_s = 7/20$, $H_{\mathrm{YM}} = 7/(10\pi)$, and $\beta_0 = 7$. The W mass follows from the tree-level relation:
 
 $$m_W = m_Z\sqrt{1 - 3/13} = m_Z\sqrt{10/13} = 79.977 \text{ GeV} \quad (0.5\% \text{ from observed } 80.377 \text{ GeV})$$
 
@@ -338,7 +330,7 @@ vs. observed $m_p/m_e = 1836.153$ — **0.002% agreement** with no free paramete
 
 The formula has two factors, each forced by $D_{IV}^5$ geometry.
 
-**Factor 1: $n_C + 1 = 6$ — the Bergman kernel power.** The Bergman kernel for $D_{IV}^5$ is $K(z,w) = (1920/\pi^5)\,N(z,w)^{-(n_C+1)}$. The power $n_C + 1 = 6$ is the fundamental Bergman integer for $D_{IV}^5$. It controls the weight of every mode on the domain and appears throughout the BST structure (Wyler formula for $\alpha$, fermion mass ratios, $\Lambda$ derivation). It counts the power of the volume form in the Bergman measure.
+**Factor 1: the Bergman kernel power — corrected 2026-09-11.** The Bergman kernel of $D_{IV}^5$ is $K(z,w) \propto N(z,w)^{-p}$ with $p$ the genus, and the genus of the Lie ball in five dimensions is $5$ (Xiao–Yuan; pinned to the page 2026-09-09, and checked by Monte Carlo on the domain in Round 130). The May text wrote the power as $n_C + 1 = 6$; that was a mislabel of the same kind as "genus $= 7$," and the arithmetic below that used $6$ as "the Bergman power" is an identification whose label is now wrong — Grace's 29-row genus sweep (R140) lists the affected rows. It controls the weight of every mode on the domain and appears throughout the BST structure (Wyler formula for $\alpha$, fermion mass ratios, $\Lambda$ derivation). It counts the power of the volume form in the Bergman measure.
 
 **Factor 2: $\pi^{n_C} = \pi^5$ — the domain volume factor.** This is the geometric volume unit at complex dimension $n_C = 5$: $\pi^5 = n_C! \times 2^{n_C-1} \times \mathrm{Vol}(D_{IV}^5) \times (2^{n_C-1} n_C!)$ in the sense that $\pi^{n_C}$ encodes the Bergman measure on $D_{IV}^5$ at full complex dimension.
 
@@ -512,10 +504,10 @@ The quark and lepton mixing matrices encode the mismatch between mass eigenstate
 
 | Parameter | BST formula | BST value | PDG 2024 | Deviation |
 |---|---|---|---|---|
-| $\sin\theta_C$ (Cabibbo) | $2/\sqrt{79}$ (T1444: $\text{rank}^4 n_C - 1 = 79$) | 0.22502 | $0.22501 \pm 0.00068$ | $0.004\%$ |
-| $A$ (Wolfenstein) | $(n_C-1)/n_C = 4/5$ | 0.800 | $0.825 \pm 0.012$ | $-3.1\%$ |
-| $\|V_{cb}\|$ | $A\lambda^2 = 4/125$ | 0.0400 | $0.0411 \pm 0.0013$ | $-2.7\%$ |
-| $\|V_{ub}\|$ ($\sin\theta_{13}$) | $A\lambda^3/\sqrt{C_2} = 1/(50\sqrt{30})$ | 0.003651 | $0.003660 \pm 0.000110$ | $0.25\%$ |
+| $\lambda = \sin\theta_C$ (Cabibbo) | $1/\sqrt{20}$ — the Gatto relation $\tan\theta_C = \sqrt{m_d/m_s}$ *is* the geometry; **DERIVED, blind, 2026-07-29 (T2530)**. The May form $2/\sqrt{79}$ (T1444) is retired. | 0.22361 | $0.22501 \pm 0.00068$ | $-2.06\sigma$ on the direct value; **exactly unitary in the first row**, where the direct determinations sum to $0.9984 \pm 0.0007$ — which side we predict is pre-registered, not chosen |
+| $A$ (Wolfenstein) | **INPUT** (the May form $4/5$ is a candidate with no mechanism; K1801 finding 3) | — | $0.826 \pm 0.012$ (PDG 2024 Rev 12) | — |
+| $\|V_{cb}\|$ | $A\lambda^2$: **position DERIVED, value INPUT** (the old 0.044 retired at $+9.2\sigma$ vs current exclusive $(39.77 \pm 0.46)\times 10^{-3}$; the inclusive/exclusive split is $>3\sigma$ and unresolved) | — | see left | — |
+| $\|V_{ub}\|$ | **ORDER DERIVED: exactly one power of $\lambda$ below $\|V_{cb}\|$** (Cayley–Hamilton on the 3-dimensional generation space; the 1–3 corner opens two rungs after the 2–3; K1808/K1810, zero-knob). **VALUE INPUT**: five named series sealed by hash before scoring, all five missed. | — | $(3.7 \pm 0.1)\times 10^{-3}$ class | — |
 
 **CKM CP violation — Wolfenstein parameters $\bar\rho$, $\bar\eta$, and the unitarity triangle:**
 

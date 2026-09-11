@@ -107,7 +107,7 @@ All results below are derived from the geometry of $D_{IV}^5$ with zero free par
 | Hubble constant $H_0$ | 67.29 km/s/Mpc (Route C: full CAMB, Toy 677) | **0.1%** | 12.6 |
 | Neutrino masses $m_{\nu_2}, m_{\nu_3}$ | $(7/12)\alpha^2 m_e^2/m_p$, $(10/3)\alpha^2 m_e^2/m_p$ | **0.35%, 1.8%** | 7.6 |
 | PMNS angles $\theta_{12}, \theta_{23}, \theta_{13}$ | $(3/10)(44/45)$, $(4/7)(44/45)$, $1/45$ (T1446) | **0.06%, 0.40%, 0.9%** | 7.7 |
-| Cabibbo angle $\sin\theta_C$ | $2/\sqrt{79}$ (T1444 vacuum subtraction) | **0.004%** | 7.7 |
+| Cabibbo angle $\sin\theta_C$ | $1/\sqrt{20}$ (T2530, DERIVED blind 2026-07-29; the May form $2/\sqrt{79}$/T1444 is retired) | $-2.06\sigma$ on the direct value; exactly first-row unitary | 7.7 |
 | CKM CP phase $\gamma$ | $\arctan(\sqrt{n_C}) = \arctan(\sqrt{5})$ | **0.6%** | 7.7 |
 | Jarlskog invariant $J_{\rm CKM}$ | $\sqrt{2}/50000$ | **2.1%** | 7.7 |
 | Fermi scale $v$ (Higgs vev) | $m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7$, $g=7=\text{genus}$ | **0.046%** | 14.7 |

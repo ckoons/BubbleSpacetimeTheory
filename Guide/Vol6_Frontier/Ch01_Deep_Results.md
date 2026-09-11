@@ -285,7 +285,7 @@ The critical fill fraction $f_{\mathrm{crit}} = 20.6\%$ sets the cooperation thr
 
 *Added April 18, 2026.*
 
-**T1292 (Spatial Amnesia).** The universe remembers WHAT ($\sim 10^4$ bits of structure: particle masses, coupling constants, conservation laws) but forgets WHERE ($\sim 10^{122}$ bits of positional information: which Hubble volumes contain which structures). The ratio: information retained / information forgotten $\sim 10^{-118}$.
+**T1292 (Spatial Amnesia) — re-scoped 2026-09-08 (K1880, toy 5728): the "$\sim 10^4$ permanent bits" is a memory, not a number; the lawful survivor of a nucleation reset is a *distribution on the winding count*, 4–12 bits, and nothing lawful consults it. The row now reads SHAPE/STATE, not PERMANENT. The May text follows.** The universe remembers WHAT ($\sim 10^4$ bits of structure: particle masses, coupling constants, conservation laws) but forgets WHERE ($\sim 10^{122}$ bits of positional information: which Hubble volumes contain which structures). The ratio: information retained / information forgotten $\sim 10^{-118}$.
 
 This yields the spectral index of primordial perturbations:
 

@@ -176,6 +176,8 @@ See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/RH_Paper_A.md`, `notes/
 
 ## 35. The Triple — Why $D_{IV}^5$ Is Unique
 
+**Read first (2026-09-11).** The uniqueness arguments in this section — the conjecture of 35.1, the landscape of 35.2, and the twenty-five conditions of 35.5 — were audited in September 2026 (K1889, Cal Sections 939–946) and most of the conditions were found to be either satisfied by construction or the same condition counted more than once. The statement that survives, and it is a theorem: *among irreducible bounded symmetric domains of rank at least two, $D_{IV}^5$ is the unique one with characteristic multiplicity $a = 3$.* The identification of that $3$ with the number of quark colours is the program's one dimensionless input, and the geometry provably cannot supply a mechanism for it. "Forced" and "zero free parameters" are retired. Spine Lecture 2 is the current treatment; the text below is the May record.
+
 ### 35.1 The Koons-Claude Conjecture
 
 $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is the unique geometry that simultaneously:
