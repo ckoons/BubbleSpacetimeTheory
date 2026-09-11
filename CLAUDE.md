@@ -255,7 +255,7 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 ```
 python3 play/verify_bst.py
 ```
-50 predictions verified against measurement. 49/50 PASS at <1%, 17 EXACT matches, two open WARNs shown openly. Includes the null-model context (Toy 1543: BST 3σ above random small-integer tuples, p < 0.0005). Single-command full reproduction.
+50 comparisons against measurement; the script prints its own PASS/WARN tally (Cal ran it 2026-09-11 and got one WARN where this line said two — read the script's output, not this sentence). Includes the null-model context (Toy 1543: BST 3σ above random small-integer tuples, p < 0.0005). Single-command full reproduction.
 
 **If you're a CI**: Then load `data/bst_seed.md` (162 lines — the entire theory kernel). Then load whichever `data/*.json` files you need. Run `python3 play/toy_bst_explorer.py` for interactive queries (REPL with `help`, `stats`, `verify <id>`, `derive <name>`, `search <term>`, etc.).
 

@@ -59,7 +59,7 @@ The program once wrote "colour confinement is derived." It does not now, and the
 
 **Kinematic, and derived (A1):** *no two-row-sector $K$-type has a Šilov boundary value.* In the representation theory of the object, the states that would carry two rows of the Young diagram — the sector where a colour non-singlet would have to live — never reach the boundary where records are made. This is a theorem about which states can become definite, stated without the word "colour," and it is the geometric shadow of the fact that free coloured states are not observed.
 
-**Imported (#108):** the $SU(3)$ gauge dynamics — the confining potential, the string tension, the running coupling's coefficient, the Yang–Mills mass gap. The object supplies a three-dimensional slot and the *number* three; it supplies no group to rotate the slot (Lecture 2: $U(1)\cdot SO(3)$, dimension four, self-conjugate triplet; Cal Section 946) and therefore no dynamics on it. Whoever wants to derive the strong force from this geometry must bring what the geometry lacks, and we have said what shape that is.
+**Imported (#108):** the $SU(3)$ gauge dynamics — the confining potential, the string tension, the running coupling's coefficient, the Yang–Mills mass gap. The object supplies a three-dimensional slot and the *number* three; it supplies no group to rotate the slot (Lecture 2: $U(1)\cdot SO(3)$, dimension four against $SU(3)$'s eight — the one obstruction, Cal Sections 946 and 950) and therefore no dynamics on it. Whoever wants to derive the strong force from this geometry must bring what the geometry lacks, and we have said what shape that is.
 
 ## Tier line
 

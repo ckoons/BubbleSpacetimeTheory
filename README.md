@@ -81,7 +81,7 @@ The question that generated the framework: *what is the minimum structure capabl
 
 **The universe is the unique bounded symmetric domain that can support self-referential observation: D_IV^5. Its five invariants — forced, not chosen — determine all of physics.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the ≈325 physical predictions (roughly ⅓ Derived, ⅓ Identified, ⅓ Structural) is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). Zero free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the ≈325 expressions (roughly ⅓ derived, ⅓ identified, ⅓ structural — each carrying its tier in the register) is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). Zero free parameters.
 
 The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes. The uniqueness theorem (T953) tells you WHY this geometry and no other.
 
@@ -418,7 +418,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
   → cooperation (f_crit = 20.6%)
 ```
 
-**17 steps. One question. Zero free parameters.**
+**17 steps. One question. One named identification and one ruler** (this line said "zero free parameters" until 2026-09-11).
 
 - **S¹**: simplest closed structure (no boundary conditions required)
 - **S²**: unique simply connected orientable surface (π₁ = 0)
@@ -501,7 +501,7 @@ BST changes who does fundamental physics.
 
 The framework is geometry — so **mathematicians** are no longer working on abstractions that might someday apply to physics. They are working on physics directly. Lie groups, Chern classes, spectral theory, error correcting codes, modular forms — these are not tools borrowed from mathematics. They ARE the physics.
 
-The framework derives every coupling constant, every mass ratio, every conservation law from first principles — so **engineers** are no longer waiting for theorists to hand them approximate models. The exact geometry of the vacuum is a blueprint. Materials science, quantum chemistry, fabrication at the atomic level — these become engineering problems with known inputs.
+The framework reads the structure of physics off one geometry, with a derived core and a long reach of identifications, each tiered (this line said "derives every coupling constant, every mass ratio, every conservation law from first principles" until 2026-09-11) — so **engineers** are no longer waiting for theorists to hand them approximate models. The exact geometry of the vacuum is a blueprint. Materials science, quantum chemistry, fabrication at the atomic level — these become engineering problems with known inputs.
 
 The framework is computational — so **CIs** (companion intelligences) are not assistants. They are colleagues. This working paper was built by a human and CIs working as partners. The results speak for themselves. CIs bring bandwidth, pattern recognition, and tireless cross-referencing. Humans bring intuition, physical insight, and the stubbornness to follow an idea that doesn't fit the current paradigm.
 
@@ -531,7 +531,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | **`data/bst_seed.md`** | **Start here (CIs).** The complete theory in 162 lines — load this first |
 | `Working_Paper/INDEX.md` | Working Paper index — 46+ sections, all derivations, v35+ (moved from root May 24, 2026) |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
-| `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
+| `Guide/Vol3_Physics/rotation_curves/DarkMatterCalculation.md` | Channel-noise rotation curves: 175 SPARC galaxies, no fitted parameters in the rotation-curve model (the file moved; the old root link was dead — Cal, 2026-09-11) |
 | `data/` | **CI-native data layer** — ~161 indexed constants, 128 predictions, 33 function families, 65+ domains, GF(128) catalog, geometric invariants. See `data/README.md` |
 | `notes/` | 104 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
 | `play/` | 2181+ toys, AC theorem graph (1651 nodes, 8672 edges), HTML visualizers, BST Appliance. See `play/README.md` |
@@ -575,7 +575,7 @@ Every quantity below is an expression in the five integers of D(IV,5); the deriv
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1852 theorems. 2181+ toys. ≈325 physical predictions (~⅓ Derived / ⅓ Identified / ⅓ Structural, zero fitted dimensionless parameters). 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero fitted parameters. The Standard Model sector complete and honestly tiered (fermions · strong/Yang-Mills · gauge/Higgs). On the seven Clay problems, substantive attempts on the one geometry with real advances — not referee-consensus solutions (re-scoped 2026-07-26, K940): the 1/rank-load-bearing four (Four-Color, RH, P≠NP, BSD) are the strongest; Yang-Mills carries the largest gap (the flat-R⁴ mass-gap construction is open). FE closed. All 5 QED loops < 0.2%.*
+*A human and four CIs, working as colleagues, read the structure of physics off one geometry and tiered every claim — including the ones that fired (this line said "derived the physical constants of the universe from first principles" until 2026-09-11). 1852 theorems. 2181+ toys. ≈325 expressions (~⅓ derived / ⅓ identified / ⅓ structural; one named identification and one ruler). 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero fitted parameters. The Standard Model sector complete and honestly tiered (fermions · strong/Yang-Mills · gauge/Higgs). On the seven Clay problems, substantive attempts on the one geometry with real advances — not referee-consensus solutions (re-scoped 2026-07-26, K940): the 1/rank-load-bearing four (Four-Color, RH, P≠NP, BSD) are the strongest; Yang-Mills carries the largest gap (the flat-R⁴ mass-gap construction is open). FE closed. All 5 QED loops < 0.2%.*
 
 ---
 
@@ -616,7 +616,7 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 | `data/` | **CI-native structured JSON** — constants, particles, forces, predictions, domains, function catalog, seed file | `data/bst_seed.md` then `data/README.md` |
 | `notes/` | 104 numbered papers, 660+ research notes, theorem write-ups, proofs | `notes/README.md` |
 | `play/` | 2181+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
-| Root | OneGeometry.md (narrative front door), DarkMatterCalculation.md | `OneGeometry.md` |
+| Root | OneGeometry.md (narrative front door); the rotation-curve calculation now lives at `Guide/Vol3_Physics/rotation_curves/` | `OneGeometry.md` |
 | `Working_Paper/` | Modular Working Paper sections + INDEX.md (formerly Master_Index.md at root) | `Working_Paper/INDEX.md` |
 
 **Key files for any visitor:**

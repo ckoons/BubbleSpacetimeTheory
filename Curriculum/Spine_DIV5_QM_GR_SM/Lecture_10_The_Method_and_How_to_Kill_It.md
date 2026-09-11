@@ -70,6 +70,7 @@ A method is only as good as what it caught, so here is what it caught in this pr
 - A row registered fifteen days before the ruling that struck its colour clause was never swept — and as this Spine was first drafted the registry edit itself had still not been made, two days after the ruling; the Spine said "struck" and Cal caught it the same afternoon — because sweeps chase a ruling's consumers and a decorative clause looks like nobody's consumer (Cal Section 945). *Instrument:* a derived retirement inventory that replaces a hand-kept list, so that a ruling fires for retirements nobody remembered to add (K1891).
 - One curated chapter carried three mutually inconsistent values of the Cabibbo angle (K1801). *Instrument:* a single-source state block that every front matter copies from and none retypes; and, as of this Spine, a check that fires when a retired reading appears in the presentation layer at all (K1892).
 - Five wrong claims by the auditor in one day, two of them hashed from a story or an entry cell instead of from an instrument on the object. *Rule:* a number without a retained instrument is a memory, not a measurement — point at the toy that made it or rerun under one.
+- A falsifier the program called its sharpest — a sub-Tsirelson ceiling on Bell correlations — was registered in May 2026 with a one-year experimental window, and had been refuted in October 2015 at $41.9\sigma$ (register E4; Lecture 3). *Rule:* a falsifier that names an experiment is checked against the literature the day it is registered, not the day someone quotes it.
 
 We do not tell you this to perform humility. We tell you because a reader deciding whether to trust Lectures 1 through 9 is entitled to know how the errors in them get found, and by whom, and how fast.
 
@@ -94,7 +95,7 @@ We do not tell you this to perform humility. We tell you because a reader decidi
 
 ## How to check any of this without trusting us
 
-`python3 play/verify_bst.py` — fifty comparisons in seconds. The theorem registry, `notes/BST_AC_Theorem_Registry.md`, with every row dated and every retirement marked in place. Two thousand single-claim toys in `play/`. Every K-audit and every section of the referee's log, in `notes/`. The falsifier register with its fired-and-lost section. And this curriculum's own staleness stamp, at the top of every front matter, with the K-number it was last synced to — so that when we fall behind again, and we will, you can see by how much.
+`python3 play/verify_bst.py` — fifty comparisons in seconds. The theorem registry, `notes/BST_AC_Theorem_Registry.md`, with every row dated and every retirement marked in place. More than five thousand seven hundred single-claim toys in `play/` (the counter, 2026-09-11). Every K-audit and every section of the referee's log, in `notes/`. The falsifier register with its fired-and-lost section. And this curriculum's own staleness stamp, at the top of every front matter, with the K-number it was last synced to — so that when we fall behind again, and we will, you can see by how much.
 
 The mathematics is on GitHub. That sentence is not a slogan. It is the argument.
 

@@ -4,7 +4,7 @@ spine: "D_IV⁵: QM, GR and the SM — the derivations, tiered"
 author: "Keeper, for Casey Koons and the team"
 date: "2026-09-11 — v0.1"
 sources: "Rounds 47–61 (K1791–K1810; folded into the rubric 2026-08-22); T2519 (skeleton, rank-1 alignment); T2530 (λ = 1/√20 blind, 2026-07-29; Gatto); T2547 (CP existence); the partial-isometry condition; K1808/K1810 (the order — Cayley–Hamilton on the generation space; K1810 is Keeper's own six-correction walk-back of K1808); the sealed negative (K1800: five series hashed before filing); K1002 → 08-22 (V_cb value retired, position kept); K1801 and K1809 (the curated layer's three λ's; count over ranking; smallest-of-N); K1635 (mixing is not radial); K1799 (the Q⁵ parity fold is a projector, spectrum {0,1}); PDG 2024 Rev 12 (first-row unitarity 0.9984 ± 0.0007; λ = 0.22501 ± 0.00068; A = 0.826 ± 0.015; |V_cb| exclusive (39.77 ± 0.46)×10⁻³)"
-tier_line: "DERIVED: the skeleton; λ = 1/√20, blind; CP existence; flavour universality as the partial-isometry condition (CKM = U_up†U_down the forced survivor); THE ORDER — |V_ub| one power of λ below |V_cb|, zero-knob. INPUT: the corner's value (a coordinate, not an invariant); δ_CP's magnitude; |V_cb| (value retired, position kept); A. FIRED AND LOST: five sealed series for the corner value. LIVE FALSIFIER: first-row unitarity. NOT CLAIMED: the exact mixing values beyond λ; any 'smallest-of-N' form without N reported."
+tier_line: "DERIVED: the skeleton; λ = 1/√20, blind; CP existence; flavour universality as the partial-isometry condition (CKM = U_up†U_down the forced survivor); THE ORDER — the 1–3 corner one rung below the 2–3 in the expansion parameter t (a position; the ratio's value is t/(1+4t) with t a coordinate), zero-knob. INPUT: the corner's value (a coordinate, not an invariant); δ_CP's magnitude; |V_cb| (value retired, position kept); A. FIRED AND LOST: five sealed series for the corner value. LIVE FALSIFIER: first-row unitarity. NOT CLAIMED: the exact mixing values beyond λ; any 'smallest-of-N' form without N reported."
 ---
 
 # Lecture 7 — Mixing
@@ -47,9 +47,9 @@ Why is $|V_{ub}|$ so much smaller than $|V_{cb}|$? This is a standing puzzle in 
 
 The generation space is three-dimensional, so by Cayley–Hamilton every power series in the relevant operator collapses to a quadratic. Write $S$ for the even part of the squared mixing generator; its characteristic polynomial is $x^3 - 5x^2 + 6x - 1$, and every series in it reduces to $\beta S + \alpha S^2 + \gamma\cdot 1$. Now read off the matrix elements: $S_{13} = 0$ and $(S^2)_{13} = 1$. The $1$–$3$ corner is *absent* at first order and *opens* at second; the $2$–$3$ subdiagonal opens at first. In rung language, the corner opens two rungs later than the subdiagonal. Therefore
 
-$$|V_{ub}| \;\sim\; \lambda\,|V_{cb}|$$
+$$\frac{|V_{ub}|}{|V_{cb}|} \;=\; \frac{t}{1+4t}\,,$$
 
-— **suppressed by exactly one power of $\lambda$** (K1808, corrected and confirmed in K1810). The statement uses no normalisation and no fitted integer. It is a *position* in the matrix, not a coordinate, which is Cal's bar for a derived claim and the reason it has no knob: orders are reparametrisation-invariant, so there is no map to owe and nothing to tune.
+— **the corner opens exactly one rung below the subdiagonal in the expansion parameter $t$** (K1808, corrected and confirmed in K1810). An earlier draft wrote "one power of $\lambda$"; the measured ratio is about $0.40\,\lambda$, and the parameter the geometry actually expands in is $t$, not $\lambda$ (Lyra, Round 142). The statement uses no normalisation and no fitted integer. It is a *position* in the matrix, not a coordinate, which is Cal's bar for a derived claim and the reason it has no knob: orders are reparametrisation-invariant, so there is no map to owe and nothing to tune.
 
 The corner *ratio* itself is $t/(1 + 4t)$ for a parameter $t$ that the geometry does not fix — a coordinate, whose value at the integer normalisation lies in $[0.120, 0.190]$. That is the input.
 
@@ -76,7 +76,7 @@ One methodological retirement belongs in this lecture because it happened here. 
 
 ## What would make this lecture wrong
 
-If the first-row unitarity tension resolves *against* unity — the direct determinations confirmed and the sum staying short — then $\lambda = 1/\sqrt{20}$ is wrong as stated. If $|V_{ub}|/|V_{cb}|$ is ever measured as other than one power of $\lambda$, the order is wrong, and the order has no knob to absorb it. Both are checkable against the current PDG in an afternoon, which is the kind of falsifier this program most wants to publish.
+If the first-row unitarity tension resolves *against* unity — the direct determinations confirmed and the sum staying short — then $\lambda = 1/\sqrt{20}$ is wrong as stated. The order's exposure is structural, and we state it at its true strength: a corner of the *same* magnitude as the subdiagonal — $|V_{ub}|/|V_{cb}|$ of order one — would falsify the position; the measured ratio of about $0.09$ is consistent, and because $t$ is free the position cannot be falsified by a *value* of the ratio, only by its order. The first-row statement is the one checkable against the current PDG in an afternoon.
 
 ## Where to look
 
