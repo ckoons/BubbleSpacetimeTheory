@@ -67,7 +67,7 @@ A method is only as good as what it caught, so here is what it caught in this pr
 
 - The scorecard said "$\alpha$: derived" for twelve days after the registry had demoted it to identified with an instruction not to cite it externally (K1816). *Instrument:* the start-of-day check that fires when a retired reading is cited as a bank.
 - The integer $7$ was called the genus for four months; the genus is $5$ (K1889). *Instrument:* the genus sweep across 29 rows; the rule *quote the invariant, not the coordinate*.
-- A row registered fifteen days before the ruling that struck its colour clause was never swept, because sweeps chase a ruling's consumers and a decorative clause looks like nobody's consumer (Cal Section 945). *Instrument:* a derived retirement inventory that replaces a hand-kept list, so that a ruling fires for retirements nobody remembered to add (K1891).
+- A row registered fifteen days before the ruling that struck its colour clause was never swept — and as this Spine was first drafted the registry edit itself had still not been made, two days after the ruling; the Spine said "struck" and Cal caught it the same afternoon — because sweeps chase a ruling's consumers and a decorative clause looks like nobody's consumer (Cal Section 945). *Instrument:* a derived retirement inventory that replaces a hand-kept list, so that a ruling fires for retirements nobody remembered to add (K1891).
 - One curated chapter carried three mutually inconsistent values of the Cabibbo angle (K1801). *Instrument:* a single-source state block that every front matter copies from and none retypes; and, as of this Spine, a check that fires when a retired reading appears in the presentation layer at all (K1892).
 - Five wrong claims by the auditor in one day, two of them hashed from a story or an entry cell instead of from an instrument on the object. *Rule:* a number without a retained instrument is a memory, not a measurement — point at the toy that made it or rerun under one.
 
@@ -90,7 +90,7 @@ We do not tell you this to perform humility. We tell you because a reader decidi
 
 **The doors** — not falsifiers but the named openings a new idea could walk through: the Bergman-to-Hardy probability link (Lecture 3); a mechanism for the colour identification from outside the geometry, of a stated shape (Lecture 2); a non-measure weight for the mass tower (Lecture 6); a forced $p$ (Lecture 9); whether $\alpha$ is in the geometry at all (Lecture 8).
 
-**And the standing exposure**, which is the honest way to end: the program's one dimensionless input, the colour identification, could be the wrong reading of the multiplicity $3$. If it is, Lecture 2's theorem still stands — the object is still the unique domain with $a = 3$ — and everything that leans on $N_c = 3$ is a coincidence with a very good disguise. We have proved the geometry cannot settle that question by itself. Something outside it must, and we have said what shape it must have.
+**And the standing exposure**, which is the honest way to end: the one dimensionless input to the choice of the object, the colour identification, could be the wrong reading of the multiplicity $3$. If it is, Lecture 2's theorem still stands — the object is still the unique domain with $a = 3$ — and everything that leans on $N_c = 3$ is a coincidence with a very good disguise. We have proved the geometry cannot settle that question by itself. Something outside it must, and we have said what shape it must have.
 
 ## How to check any of this without trusting us
 

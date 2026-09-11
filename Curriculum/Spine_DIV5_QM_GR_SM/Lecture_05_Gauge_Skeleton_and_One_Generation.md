@@ -64,7 +64,7 @@ The program once wrote "colour confinement is derived." It does not now, and the
 ## Tier line
 
 - **Derived:** the skeleton as a function of $n_C$; the geometry's internal gauge group $U(1)\times SU(2)\times\mathbb{Z}_2$; chirality from non-orientability; the hypercharge mechanism theorem (four inputs on its face); the one-bit descent freedom and the $\nu_R$ mechanism; (A1).
-- **Identified — the one input:** $N_c = 3$, read as $n_C - 2$ (the same input as Lecture 2).
+- **Identified — the one input to the choice of the object:** $N_c = 3$, read as $n_C - 2$ (the same input as Lecture 2; the hypercharge theorem above names its own further inputs).
 - **Imported:** $SU(3)$ dynamics and confinement.
 - **Not claimed:** $SU(3)$ from the geometry; confinement derived; the SM from nothing; grand unification (forbidden, Lecture 10).
 

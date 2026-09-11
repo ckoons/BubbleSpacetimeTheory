@@ -30,7 +30,7 @@ abstract: |
   characteristic multiplicity is 3 — a theorem. That 3 is identified with the number of quark
   colours; the identification is numerical, and we have proved that the geometry cannot supply
   the bridge (it carries $U(1)\cdot SO(3)$, not $SU(3)$). So the selection is a fit with one
-  measured input, not a forcing, and we do not claim zero free parameters.
+  measured input to the choice of the object, not a forcing, and we do not claim zero free parameters.
 
   Several things this program hoped for are now proved impossible, and we publish them with the
   same ceremony as the results: $\alpha$ is not the volume of the geometry (the forced candidate
@@ -65,7 +65,7 @@ header-includes:
 
 ## The Five Invariants of $D_{IV}^5$
 
-These five integers are read off a single geometry — its root system, its spectrum, its embedding dimension. One of them, $N_c = 3$, is where the geometry meets a measurement: the number of colours is identified with the characteristic multiplicity, and that identification is the program's one input (see the state block below). The others follow from it and the domain. We do not claim zero free parameters; we claim one, named.
+These five integers are read off a single geometry — its root system, its spectrum, its embedding dimension. One of them, $N_c = 3$, is where the geometry meets a measurement: the number of colours is identified with the characteristic multiplicity, and that identification is the one input to the choice of the object (see the state block below). The others follow from it and the domain. We do not claim zero free parameters; for the choice of object we claim one input, named, and the ledger counts the program's downstream inputs.
 
 | Integer | Symbol | Value | Geometric Origin | Physical Role |
 |---------|--------|-------|-----------------|---------------|
@@ -92,11 +92,11 @@ The geometry tells you what exists. The invariants tell you what values it takes
 
 <!-- BST_STATE_BLOCK_BEGIN -->
 > ### Where the program stands — one block, one source
-> *Last accuracy-synced: 2026-09-11 (K1892; rulings through Cal Section 946, 2026-09-09). This block lives in `notes/BST_PRESENTATION_STATE_BLOCK.md` and is copied into every front matter by `play/sync_presentation_state.py`. Edit it there, nowhere else. Where any chapter and this block disagree, the block wins; where this block and the theorem registry disagree, the registry wins.*
+> *Last accuracy-synced: 2026-09-11 13:10 (K1892; rulings through Cal Round 142 C1). One registry edit is owed and named: T2543's colour clause was RULED struck on 09-09 and the row still carries it. This block lives in `notes/BST_PRESENTATION_STATE_BLOCK.md` and is copied into every front matter by `play/sync_presentation_state.py`. Edit it there, nowhere else. Where any chapter and this block disagree, the block wins; where this block and the theorem registry disagree, the registry wins.*
 >
 > **The object.** One rank-2 bounded symmetric domain, D_IV⁵ = SO(5,2)/[SO(5)×SO(2)], and one measured number taken openly as the ruler. Its genus is 5; the integer 7 the program calls g is a definition (the signature p+q), not the genus — a mislabel that stood from May to September and is now swept.
 >
-> **Why this object — honestly.** Among all irreducible bounded symmetric domains of rank at least 2, D_IV⁵ is the unique one whose characteristic multiplicity is 3 (a theorem, checked three independent ways). That 3 is *identified* with the number of quark colours; the identification is numerical, and the bridge that would make it a mechanism is proved absent — the geometry supplies U(1)·SO(3), four dimensions, where colour needs SU(3)'s eight, and its triplet is self-conjugate where colour's is not. So the selection is a fit with one measured input, not a forcing. We do not claim zero free parameters.
+> **Why this object — honestly.** Among all irreducible bounded symmetric domains of rank at least 2, D_IV⁵ is the unique one whose characteristic multiplicity is 3 (a theorem, checked three independent ways). That 3 is *identified* with the number of quark colours; the identification is numerical, and the bridge that would make it a mechanism is proved absent — the geometry supplies U(1)·SO(3), four dimensions, where colour needs SU(3)'s eight, and its triplet is self-conjugate where colour's is not. So the selection is a fit with one measured input — the one dimensionless input *to the choice of the object*; the program has further inputs downstream (masses, a mixing corner, a CP phase), counted in the ledger — not a forcing. We do not claim zero free parameters.
 >
 > **Derived** (mechanism proved; inputs named in the statement): the gauge-group skeleton · one fermion generation as the 16-real spinor with every hypercharge from one four-input theorem · a single-chirality positive-energy spectrum · three generations as rank+1 strata (and m₁ = 0) · the conserved charges · the mixing sector's mechanism and its **order** — the 1–3 corner one power below the 2–3 · the Cabibbo angle, blind (λ = 1/√20) · time: the K-centre SO(2) is the clock, the arrow is dynamical, the tick is N_max·ħ/(m_e c²) · quantum mechanics on the Hardy space H²(D_IV⁵), with the Hua branching weights as the Born probabilities of the write tuple (3/7 with no table consulted). The ten Dirac–von Neumann axioms are recovered; that count is quoted here at the tier of its registry row, which is owed, and not as "10/10" until the row exists.
 >

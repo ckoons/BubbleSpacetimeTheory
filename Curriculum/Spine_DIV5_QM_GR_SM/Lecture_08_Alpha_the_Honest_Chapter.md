@@ -13,7 +13,7 @@ tier_line: "MEASURED: α⁻¹ = 137.036. COMPUTED INVARIANT: N_max = N_c³·n_C 
 
 Is 137 in the geometry?
 
-Every reader of this program asks it first, and it is the right question, because the fine-structure constant $\alpha \approx 1/137.036$ is the number a theory of this kind is *for*. It is dimensionless, it is measured to eleven digits, and the Standard Model takes it as an input. A geometry that produced it would be doing something no theory has done. This lecture tells you what we found, what we proved cannot work, and whose thread we are holding while we look. It is the chapter we most wanted to write differently, and the one we are proudest to have written this way.
+Every reader of this program asks it first, and it is the right question, because the fine-structure constant $\alpha \approx 1/137.036$ is the number a theory of this kind is *for*. It is dimensionless, it is measured to eleven digits, and the Standard Model takes it as an input. A geometry that produced it would be doing something no theory has done. This lecture tells you what we found, what we proved cannot work, and whose thread we are holding while we look. It is the chapter we most wanted to write differently.
 
 ## For the reader in a hurry
 
@@ -45,17 +45,17 @@ $$\alpha^{-1}_{\text{forced vertex}} \;=\; \frac{8\pi^3}{3} \;\approx\; 82.68,$$
 
 the Hua volume of the Lie sphere. Not 137. Under the pre-registered protocol this is Landing C — the miss — and it closes not just one formula but the **class**: the forced member is refuted by computation, and the free family (every reading that leaves a choice to the reader) had already been shown by a separate null to fit anything. Two legs, one pincer. The volume reading of $\alpha$ on $D_{IV}^5$ is dead, and it died the way a scientific claim should — with the target hidden and the failure certified.
 
-We consider this the strongest result in the chapter. Wyler had a correct instinct and no way to kill his own idea; his critics had a correct worry and no way to test it. We had both, and used them on ourselves.
+Wyler had a correct instinct and no way to kill his own idea; his critics had a correct worry and no way to test it. We had both, and used them on ourselves.
 
 ## Two more identifications, named as such
 
-**The electron's anomalous moment.** A 2026 paper of ours expressed the two-loop QED coefficient $C_2$ as a sum of four terms from a trace on the geometry, and the match was to parts per trillion. In September we compared the four terms with the literature (K1872). They are, term for term, the four summands of Petermann and Sommerfield's 1957 closed form,
+**The electron's anomalous moment.** A 2026 paper of ours expressed the two-loop QED coefficient $C_2$ as a sum of four terms from a trace on the geometry. In September we compared the four terms with the literature (K1872). They are, term for term, the four summands of Petermann and Sommerfield's 1957 closed form,
 
 $$C_2 = \frac{197}{144} + \frac{\pi^2}{12} - \frac{\pi^2}{2}\ln 2 + \frac{3}{4}\zeta(3).$$
 
-The match is real. The derivation is theirs. Our row is re-tiered to *identified*, the word "crown jewel" is retired from the legacy chapter that used it, and the result is still interesting for a reason we can state: a trace on this geometry reproduces the *structure* of the QED coefficient, and why it should is an open question, not a solved one.
+The match is exact by identity — term for term — not an independent numerical agreement. The derivation is theirs. Our row is re-tiered to *identified*, the word "crown jewel" is retired from the legacy chapter that used it, and the result is still interesting for a reason we can state: a trace on this geometry reproduces the *structure* of the QED coefficient, and why it should is an open question, not a solved one.
 
-**Asymptotic freedom.** The one-loop coefficient of the strong coupling's running, $b_0 = 11 - \tfrac{2}{3}n_f$, equals $7$ at six flavours. The program's integer $g = 7$ was read as this coefficient. It is an identification (K1875): the sign of asymptotic freedom does follow from the spectral flow of the one operator, and the *coefficient* is matched, not produced.
+**Asymptotic freedom.** The one-loop coefficient of the strong coupling's running, $b_0 = 11 - \tfrac{2}{3}n_f$, equals $7$ at six flavours. The program's integer $g = 7$ was read as this coefficient. It is an identification (K1875): the coefficient is matched, not produced — $7$ at six flavours, $23/3$ at five, so the reading is flavour-dependent — and on the *sign*, two register entries disagree: T2526 (re-scoped 2026-08-22) carries the sign as derived *given the imported $SU(3)$ and $N_c = 3$*, while K1875 says sign and coefficient are textbook and not derived from $D_{IV}^5$. Until that collision is ruled (Keeper's, owed), the sign is quoted with T2526's scope clause and nothing stronger.
 
 **And a small one.** $\ln 137$ appeared in several of our expressions at the level of the 137th channel. It is a normalisation unit — a choice of where to set a scale — and not a quantity the geometry predicts (K1873).
 
@@ -65,9 +65,9 @@ In September one of us wrote that the program predicts a slow drift in $\alpha$,
 
 ## Whose thread we are holding
 
-Wyler's. He asked whether $\alpha$ lives in the geometry of a bounded symmetric domain, and he was not wrong to ask. What he lacked — what the whole $\alpha$-from-geometry tradition has lacked — is the negative: the certified statement that *this* reading does not work, so that the next person does not try it again. We have supplied one, and we have supplied the instrument that shows the forward form is in the bulk. That is what we have added to his program. It is smaller than we hoped and larger than anyone else has left on the shelf.
+Wyler's. He asked whether $\alpha$ lives in the geometry of a bounded symmetric domain, and he was not wrong to ask. What he lacked — what the whole $\alpha$-from-geometry tradition has lacked — is the negative: the certified statement that *this* reading does not work, so that the next person does not try it again. We have supplied one, and we have supplied the instrument that shows the forward form is in the bulk. That is what we have added to his program. It is smaller than we hoped. Whether the 1971 critiques already amount to a certified negative on the volume reading is a question for the literature we have just pinned, not a claim we make.
 
-The open question is exactly the one he left: if $\alpha$ is in this geometry, it is not in its volume. Where, then? The clock reads it as a rate — pushes per write — and that reading has a definition but not yet a derivation. That is where a future lecture would begin.
+The open question is exactly the one he left: if $\alpha$ is in this geometry, it is not in its volume. Where, then? Every rate mechanism offered so far is dead — push and write are one event, so their ratio is one, and no rate in the dictionary is of order $1/137$ (T1136's annotation of 2026-09-09; K1888). The clock *defines* its $\alpha$ through the success of a write and does not derive it. The open item is the hole, stated as one: nothing in the dictionary carries $\alpha$. That is where a future lecture would begin.
 
 ## Tier line
 

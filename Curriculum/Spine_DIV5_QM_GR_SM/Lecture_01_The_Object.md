@@ -4,7 +4,7 @@ spine: "D_IV⁵: QM, GR and the SM — the derivations, tiered"
 author: "Keeper, for Casey Koons and the team"
 date: "2026-09-11 — v0.1"
 sources: "Registry rows T944, T953 (legacy uniqueness; see Lecture 2), T2543/T2545 (the Peirce split), K1889 (genus pin, multiplicity table), Cal Section 946; Xiao–Yuan for the genus formula; Faraut–Korányi for the classification"
-tier_line: "The object is a definition and carries no tier. Its five integers: rank, dimension and multiplicity are read off the classification (classical); C₂, g and N_max are integer combinations we name. The one dimensionless input is the identification of the multiplicity 3 with the colour count (Lecture 2); the one dimensionful input is a mass scale (Lecture 9)."
+tier_line: "The object is a definition and carries no tier. Its five integers: rank, dimension and multiplicity are read off the classification (classical); C₂, g and N_max are integer combinations we name. The one dimensionless input TO THE CHOICE OF THE OBJECT is the identification of the multiplicity 3 with the colour count (Lecture 2) — the program has other inputs downstream (masses, a mixing corner, a CP phase; the ledger counts 8 of 26 primaries sourced clean) and this line does not count them; the one dimensionful input is a mass scale (Lecture 9)."
 ---
 
 # Lecture 1 — The Object
@@ -40,16 +40,16 @@ $$|z\cdot z| < 1 \quad\text{and}\quad 1 - 2|z|^2 + |z\cdot z|^2 > 0$$
 - Its **boundary** has a distinguished part, the **Šilov boundary** $\check{S}$ — the smallest closed subset on which every function holomorphic inside and continuous to the edge attains its maximum. For the Lie ball it is the Lie sphere: topologically $S^4 \times S^1$ up to a sign identification, a circle's worth of four-spheres. It is where, in this program, anything definite happens. Lectures 3 and 4 live there.
 - It carries two natural Hilbert spaces of holomorphic functions: the **Bergman space** $A^2(D)$ of square-integrable ones on the inside, and the **Hardy space** $H^2(D)$ of those with square-integrable boundary values on $\check S$. They differ, they are both used, and one of the program's own errors was to confuse them. The physical Hilbert space is the Hardy space (Lecture 3).
 
-## The five integers, and which kind each one is
+## The six integers (five named, one derived from them), and which kind each one is
 
-The curriculum has always said the program rests on five integers. That is true, but they are not five facts of the same kind, and a reader deserves to know which is which.
+The curriculum has always said the program rests on five integers, with $N_{\max}$ as a sixth derived from them. That is true, but they are not facts of the same kind, and a reader deserves to know which is which.
 
 | symbol | value | what it is | how we get it |
 |---|---|---|---|
 | rank | 2 | the rank of the domain | read off the classification |
 | $n_C$ | 5 | the complex dimension | read off the classification |
-| $N_c$ | 3 | the characteristic multiplicity $a$; identified with the number of quark colours | read off the classification; the *identification* with colour is the program's one dimensionless input (Lecture 2) |
-| $C_2$ | 6 | $\text{rank}\cdot N_c$; the top Chern number of the tangent bundle restricted to the quadric $Q^5$, and the quadratic Casimir that recurs in the spectrum | a combination we name |
+| $N_c$ | 3 | the characteristic multiplicity $a$; identified with the number of quark colours | read off the classification; the *identification* with colour is the one dimensionless input to the choice of the object (Lecture 2) |
+| $C_2$ | 6 | $\text{rank}\cdot N_c$ — one integer that the corpus reads in more than one place (a top Chern number on the quadric $Q^5$; a Casimir value); this table names the combination only | a combination we name |
 | $g$ | 7 | $n_C + \text{rank} = p + q$, the signature of $\mathrm{SO}(5,2)$ | a combination we name. **Not the genus.** |
 | $N_{\max}$ | 137 | $N_c^3\, n_C + \text{rank}$ | a combination we name; its reading as $\alpha^{-1}$ is Lecture 8, and the reading is identified, not derived |
 
@@ -63,7 +63,7 @@ It is not a spacetime. It has ten real dimensions, a positive-definite metric, a
 
 It is not a Lagrangian. There is no action principle here yet. What we have is a geometry with a symmetry group, two Hilbert spaces, and a boundary; the dynamics we can state are the ones that follow from those, and we will say where they stop.
 
-It was not chosen to fit anything. That is a claim about history rather than mathematics, and the record — the theorem registry, dated — is the evidence: the object was fixed by March 2026 (the registry's first rows on it are dated 2026-03-25) and the readings came after. Whether it is the *right* object is a different question, and it is the next lecture's.
+The object is Wyler's. He chose $D_{IV}^5$ in 1969 because a volume ratio on it lands near $\alpha$, and that first reading — the one the object was chosen for — is the one this program has since certified dead (Lecture 8). Every *other* reading came after the object, and the registry dates them (its first rows on $D_{IV}^5$ are from March 2026). So "not chosen to fit" is true of everything in this course except the reading that motivated the choice, and we say so on page one because a referee will ask. (The history is Casey's to state in his own words; this is the referee's version of it — Cal, Round 142.) Whether it is the *right* object is a different question, and it is the next lecture's.
 
 ## Tier line
 
