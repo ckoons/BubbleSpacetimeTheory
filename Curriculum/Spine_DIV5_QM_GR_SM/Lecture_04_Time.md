@@ -17,7 +17,7 @@ The object of Lecture 1 has ten real dimensions and a positive-definite metric. 
 
 ## For the reader in a hurry
 
-Our shape has a circle at its centre — one of the two pieces of the group that leaves a point fixed. Nothing turns that circle by itself. But the *records* on the shape's edge (Lecture 3) can only be made in one order, and "how far the record-making has run" turns out to be exactly "how far around that circle we have gone." That is time: not a stage the play is performed on, but a count of what has been committed. It runs one way because the operator that turns the circle has a lowest energy and no highest — you can always run it forward and never backward. And it has a smallest step, about a sixth of a billionth of a billionth of a second, which is how long the electron takes to go once around the atom's smallest orbit, divided by the speed of light.
+Our shape has a circle at its centre — one of the two pieces of the group that leaves a point fixed. Nothing turns that circle by itself. But the *records* on the shape's edge (Lecture 3) can only be made in one order, and "how far the record-making has run" turns out to be exactly "how far around that circle we have gone." That is time: not a stage the play is performed on, but a count of what has been committed. It runs one way because the operator that turns the circle has a lowest energy and no highest — you can always run it forward and never backward. And it has a smallest step, about a sixth of a billionth of a billionth of a second, which is the time light takes to cross the radius of the hydrogen atom's smallest orbit.
 
 ## The generator is forced, and it is not the obvious one
 
