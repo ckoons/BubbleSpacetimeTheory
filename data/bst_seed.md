@@ -42,7 +42,7 @@ working hypothesis, not external publication claim.
 
 ## The Five Invariants
 
-These are not inputs. They are read off D_IV^5. Zero free parameters.
+They are read off D_IV^5 once the object is chosen — and the choice takes one measured input, the colour count 3 = the domain's characteristic multiplicity (a numerical identification; Cal Section 946). Beyond that and one dimensionful ruler, no free parameters (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
 
 | Symbol  | Value | Name               | Geometric Origin                          |
 |---------|-------|--------------------|-------------------------------------------|
@@ -216,6 +216,6 @@ BST corrections improve bare formulas by 10-100x:
 self-referential observation: D_IV^5. Its five invariants — forced, not
 chosen — determine all of physics.**
 
-One geometry -> five integers -> ~325 physical predictions (~1/3 Derived, 1/3 Identified, 1/3 Structural). Zero fitted dimensionless parameters.
+One geometry -> five integers -> ~325 physical predictions (~1/3 Derived, 1/3 Identified, 1/3 Structural). One named dimensionless input (the colour count selects the object; Cal Section 946) and one ruler; no fitted parameters beyond them (this line said "Zero fitted dimensionless parameters" until 2026-09-11).
 
 *Seed updated May 10, 2026. BSD rank-tiered (ranks 0-2 unconditional, ≥3 conditional). RH geometric proof (T1755). P!=NP proved (T1777-T1778). 3864 invariants, 103 predictions, 144 constants.*

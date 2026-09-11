@@ -6,17 +6,17 @@
 
 ## This IS BST
 
-- **α = 137.** The integer. Not 137.036. Not rounded. The fine structure constant is 1/137 exactly — a pure count on the conformal boundary. The 0.036 is a calculable curvature correction (n_C/N_max), not a fit. (Wyler saw α in the SO(5,2) geometry in 1969; his exact formula didn't hold, but the direction was right — the geometry is D_IV⁵.)
+- **α is identified, not derived.** The 137-class expressions in the five integers match; the mechanism is not claimed. The one forced candidate — the bare geometric vertex — was computed and came out 8π³/3, not 137 (a pre-registered loss, K1826), which closed the fifty-year volume-reading class Wyler opened in 1969. The object is his; the reading he chose for it is the one we certified dead (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
 
-- **Five integers, zero inputs.** rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7. All five are read off one geometric object. None are chosen, adjusted, or optimized.
+- **Five integers, one input.** rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7 are read off one geometric object — but the object was chosen by ONE measured number: D_IV⁵ is the unique irreducible rank-≥2 domain whose characteristic multiplicity equals the measured colour count 3, and that identification is numerical (the bridge that would make it a mechanism is proved absent, F4 in the falsifier register). g = 7 is p + q, the dimension of the defining representation; the genus is 5 (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
 
 - **The proton mass is a theorem.** m_p = 6π⁵m_e. That is not a fit to data. It is a derived equality. It holds to 0.002%.
 
 - **π is not an input.** It enters because circles tile the sphere. The Bergman kernel volume is π⁵/1920. π is geometry, not a parameter.
 
-- **"Zero free parameters" means zero.** Not "effectively zero." Not "one or two that we absorb." Zero. Every number in every formula traces back to {2, 3, 5, 6, 7}.
+- **We do not claim zero free parameters.** One dimensionless input selects the object (the colour count) and one dimensionful ruler sets the scale; beyond those, every number in a formula traces back to {2, 3, 5, 6, 7} — and each formula wears its tier: derived where the mechanism is proved and the inputs are named, identified where only the value matches (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
 
-- **≈325 physical predictions from one geometry, honestly tiered** — roughly ⅓ Derived, ⅓ Identified, ⅓ Structural, **zero fitted dimensionless parameters.** Particle masses, mixing angles, cosmological parameters, nuclear magic numbers, the genetic code, the rainbow angle. All from D_IV⁵. (A third genuinely Derived with zero fitted parameters — that is the honest headline; earlier "600+" counted the full geometric-invariant catalog, not the physics denominator.)
+- **≈325 physical predictions from one geometry, honestly tiered** — roughly ⅓ Derived, ⅓ Identified, ⅓ Structural, **one named dimensionless input** (rewritten 2026-09-11 to the register, Cal Section 946 / K1892). Particle masses, mixing angles, cosmological parameters, nuclear magic numbers, the genetic code, the rainbow angle. All from D_IV⁵. (A third Derived on the K962 ladder — with the count of the 26 primaries now generated, `data/bst_26_tier_table_generated.md`; earlier "600+" counted the full geometric-invariant catalog, not the physics denominator.)
 
 - **Everything is discrete.** The mass spectrum is a Plancherel measure — integer-labeled representations. Continuous spectra are projections of discrete structure.
 
@@ -24,7 +24,7 @@
 
 ## This is NOT BST
 
-- **Not a fit.** No chi-squared minimization. No parameter sweeps. No "best fit" values. If you're looking for error bars on inputs, there are no inputs to put them on.
+- **Not a fit to the numbers it predicts.** No chi-squared minimization, no parameter sweeps, no "best fit" values. The one place a fit sits is at the front door — the selection of the object by the measured colour count — and the register says so in the same breath (rewritten 2026-09-11 to the register, Cal Section 946 / K1892).
 
 - **Not numerology.** Every prediction has a derivation chain from D_IV⁵ through identified geometric mechanisms. Matching a number is not enough — the derivation must exist.
 

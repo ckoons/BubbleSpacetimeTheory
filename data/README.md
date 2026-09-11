@@ -10,7 +10,7 @@
 |------|-----------------|--------------|
 | **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
-| **bst_constants.json** | 191 derived physical constants with eval-ready formulas | May 22, 2026 (Friday EOD) |
+| **bst_constants.json** | 191 physical constants as expressions in the five integers, each carrying its register tier (derived / identified / open) — the file predates the August re-tiers; the tier table `bst_26_tier_table_generated.md` is current (rewritten 2026-09-11 to the register, Cal Section 946 / K1892) | May 22, 2026 (Friday EOD); tier note 2026-09-11 |
 | **bst_predictions.json** | 123 falsifiable predictions (+3 Friday: Graph Forces monitoring, 6π^k harmonic, M_137 cosmic anchor) | May 22, 2026 (Friday EOD) |
 | **bst_rosetta_stone.json** | 263 named BST ratios | May 22, 2026 (Friday EOD) |
 | **bst_particles.json** | Standard Model particles with BST derivations | April 2026 |
