@@ -424,7 +424,7 @@ The $T$-matrix order is $56 = 2^{N_c} \times g = 8 \times 7$, encoding both angu
 | $N_c = 3$ | **1747** (prime) | Likely irreducible $\mathrm{Sp}(6,\mathbb{Z})$ rep |
 | $g = 7$ | $964{,}141{,}747 = 137 \times 7{,}037{,}531$ | $N_{\max} = 137$ divides |
 
-At genus $g = 7$, the Verlinde dimension is divisible by $137 = N_{\max}$.
+At surface genus $7$ (the program's $g = 7$ used as a Riemann-surface genus — an identification; it is not the Bergman genus of $D_{IV}^5$, which is 5), the Verlinde dimension is divisible by $137 = N_{\max}$.
 
 The level-1 abelian Verlinde bases ARE the BST integers: $\{7, 5, 4, 3\} = \{g, n_C, r^2, N_c\}$. Their sum at genus 2 is $7 + 5 + 4 + 3 = 19$ --- the Gödel limit denominator.
 

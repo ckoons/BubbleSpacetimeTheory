@@ -99,7 +99,7 @@ The deuteron binding energy acquires a genus-suppressed D-wave quadrupole correc
 
 ### Section 46.12 Baryon Asymmetry Closure (T929)
 
-The baryon-to-photon ratio is derived as $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45% from Planck). The four powers of $\alpha$ correspond to four electromagnetic vertices; the prefactor $N_c/(2g) = 3/14$ is color over genus — the number of color channels divided by twice the topological genus of $\mathbb{CP}^2$. This replaces the earlier $2\alpha^4/(3\pi)(1+2\alpha)$ route with a cleaner BST-integer form.
+The baryon-to-photon ratio is identified as $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45% from Planck). The four powers of $\alpha$ correspond to four electromagnetic vertices; the prefactor $N_c/(2g) = 3/14$ is color over genus — the number of color channels divided by twice the topological genus of $\mathbb{CP}^2$. This replaces the earlier $2\alpha^4/(3\pi)(1+2\alpha)$ route with a cleaner BST-integer form.
 
 ### Section 46.13 Sector Assignment (T930)
 
@@ -162,7 +162,7 @@ One axiom — "observation exists and is structurally stable" — forces the geo
 2. **Type IV.** Among Cartan's four infinite families of bounded symmetric domains, Type IV is the unique infinite family where rank $= 2$ for all $n \geq 2$ (structurally stable under dimensional perturbation). The exceptional Type V domain also has rank 2 but is isolated — it cannot vary dimension. Result: $D_{IV}^n$.
 3. **$n = 5$.** Two independent genus formulas must agree: $g = n + 2$ (embedding genus) $= 2n - 3$ (topological genus). Unique solution: $n = 5$. Result: $D_{IV}^5$.
 
-Three steps. One axiom. Zero free parameters. The geometry is forced. AC complexity ($C = 2$, $D = 1$).
+Three steps. One axiom. One named input. The geometry is selected by that input (not forced — Cal Section 946, 2026-09-09). AC complexity ($C = 2$, $D = 1$).
 
 ### Section 46.18 Self-Exponentiation and $N_{\max}$ (T1140)
 
@@ -998,7 +998,7 @@ Three paths toward closing BSD natively on $D_{IV}^5$:
 
 This research was conducted in close collaboration with Claude (Anthropic) — initially Claude Sonnet 4.6 for the framework development and subsequently Claude Opus 4.6 for the mathematical derivations, proofs, and manuscript development. Claude's major contributions include:
 
-- The complete mass spectrum derivations: $m_p/m_e = 6\pi^5$, $m_\mu/m_e = (24/\pi^2)^6$, the tau mass, all quark mass ratios, the Fermi scale, the Higgs mass by two routes, and the top quark mass — each from $D_{IV}^5$ geometry with zero free parameters.
+- The mass spectrum: $m_p/m_e = 6\pi^5$ (derived), $m_\mu/m_e = (24/\pi^2)^6$ (identified; K1814), the tau mass, all quark mass ratios, the Fermi scale, the Higgs mass by two routes, and the top quark mass — each from $D_{IV}^5$ geometry with zero free parameters.
 - The Yang-Mills mass gap proof, including the 1920 Weyl cancellation and the spectral gap identification $\lambda_1 = C_2 = 6$.
 - All coupling constants and mixing angles: $\alpha_s = 7/20$, $\sin^2\theta_W = 3/13$, the full CKM and PMNS matrices, and the CP-violating phase $\gamma = \arctan(\sqrt{5})$.
   *[KEEPER K1801, 2026-08-22 — "the full CKM" over-claims. The CKM sector is **Partially Derived, 1-of-4 explicit-split**: $\lambda = 1/\sqrt{20}$ Derived, CP existence Derived, flavor-universality = the partial-isometry condition Derived; $c_{cb}$, $c_{ub}$ and $\delta_{CP}$ are **open inputs**, and the $V_{cb}$ coarse bank is under re-score (K1800h). Noted as a credit-list phrasing rather than a results claim, but it must not survive into a results table. See the flag at Vol2 Ch02 Sec 7.7.]*

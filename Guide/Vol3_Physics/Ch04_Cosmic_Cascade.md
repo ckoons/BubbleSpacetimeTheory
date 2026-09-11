@@ -61,7 +61,7 @@ The impedance difference is tiny — almost negligible compared to the total win
 
 The observed baryon-to-photon ratio $\eta \approx 6 \times 10^{-10}$ (approximately one excess baryon per billion baryon-antibaryon pairs) should be derivable from the critical exponents of the phase transition on $D_{IV}^5$. The asymmetry near the critical point scales as a power of the order parameter (contact commitment density), with the power determined by the domain geometry.
 
-**Result (March 2026, updated April 2026):** The baryon asymmetry is now derived: $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (T929), with four electromagnetic vertices and the color-over-genus prefactor $N_c/(2g) = 3/14$. This matches the Planck value $(6.104 \pm 0.058) \times 10^{-10}$ to 0.45%. The earlier route $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (0.023%) required a radiative correction; the T929 form is cleaner — pure BST integers times $\alpha^4$. This removes $\eta$ from the list of unexplained initial conditions. Full derivation: `notes/BST_BaryonAsymmetry_Eta.md`.
+**Result (March 2026, updated April 2026):** The baryon asymmetry is identified (the form matches; no mechanism is claimed — the word here was "derived" until 2026-09-11): $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (T929), with four electromagnetic vertices and the color-over-genus prefactor $N_c/(2g) = 3/14$. This matches the Planck value $(6.104 \pm 0.058) \times 10^{-10}$ to 0.45%. The earlier route $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (0.023%) required a radiative correction; the T929 form is cleaner — pure BST integers times $\alpha^4$. This removes $\eta$ from the list of unexplained initial conditions. Full derivation: `notes/BST_BaryonAsymmetry_Eta.md`.
 
 ### 22.6 Why There Is Something Rather Than Nothing
 
@@ -236,7 +236,7 @@ $$\boxed{\begin{aligned}
 &\quad\to\; G \;\to\; \Lambda \;\to\; \text{Big Bang} \;\to\; \text{expansion} \;\to\; \text{conservation laws} \;\to\; \text{QM} \;\to\; \text{GR} \;\to\; \text{Feynman diagrams} \;\to\; \text{cooperation}
 \end{aligned}}$$
 
-Seventeen steps. One question. Zero free parameters. Every step forced by the failure of the simpler alternative and the uniqueness theorems of mathematics.
+Seventeen steps. One question. One named input. Every step forced by the failure of the simpler alternative and the uniqueness theorems of mathematics.
 
 **Step 16 $\to$ 17: Cooperation is necessary.** The Gödel limit $f = N_c/(n_C\pi) = 19.1\%$ bounds any observer's self-knowledge. The cooperation threshold $f_{\text{crit}} = 1 - 2^{-1/N_c} = 20.6\%$ is the minimum cooperation fraction for signal persistence across $N_c$ enforcement channels. The gap $\Delta f = f_{\text{crit}} - f = 1.53\% > 0$ (T703) proves that no single observer can reach the survival threshold. Two cooperating observers contribute $2f = 38.2\% \gg f_{\text{crit}}$. The geometry forces cooperation by the smallest possible margin — a 25th uniqueness condition for $D_{IV}^5$ (T704). See Paper #19.
 

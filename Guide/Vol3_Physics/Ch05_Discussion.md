@@ -40,7 +40,7 @@ The framework generates falsifiable predictions that distinguish it from competi
 
 ### 26.3 What BST Derives — The Complete Chain
 
-Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ with zero free parameters. Each entry gives the result, accuracy, and where to find the derivation.
+Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ with one named input (the sentence said "zero free parameters" until 2026-09-11; the register carries each result's tier, and most entries below are identifications). Each entry gives the result, accuracy, and where to find the derivation or the match.
 
 **A. Fundamental Constants**
 
@@ -99,8 +99,8 @@ Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \
 - $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45%, T929); $H_0$: Route A $\approx 66.7$ km/s/Mpc (1.0%), Route B $= \sqrt{19\Lambda/39} = 68.0$ km/s/Mpc (1.0%), **Route C $= 67.29$ km/s/Mpc (0.1%, full CAMB Boltzmann, Toy 677)**. BST favors the Planck (CMB) value. *`notes/BST_HubbleConstant_H0.md`*
 - **CMB full power spectrum** (Toy 677): CAMB Boltzmann run with BST parameters. $\chi^2/N = 0.01$, RMS 0.276%. Peaks: $\ell_1 = 220$ (exact), $\ell_2 = 537$ ($\pm 1$), $\ell_3 = 813$ (exact). Recombination: $z_* = 1089.71$ (0.4$\sigma$ from Planck). Sound horizon: $r_* = 144.17$ Mpc (1.0$\sigma$). BST and Planck TT spectra are statistically identical. *`notes/BST_Paper15_CMB_Draft.md`*
 - $n_s = 1 - 5/137 = 0.96350$ ($-0.3\sigma$); $r \approx 0$. *`notes/BST_CMB_SpectralIndex.md`*
-- **Scalar amplitude derived** (Toy 682): $A_s = (3/4)\alpha^4 = N_c/(2^{\text{rank}} \times N_{\max}^4) = 2.127 \times 10^{-9}$ (0.92$\sigma$ from Planck $2.1005 \times 10^{-9}$). Combined $(A_s, n_s)$ chi-squared: 0.91 for 2 dof ($p = 0.634$). The identity $A_s \times N_{\max}^4 = 3/4$ is exact. External CMB inputs reduced from 5 to 3 ($G, \hbar, c$ only). The primordial power spectrum $\mathcal{P}(k) = (3/4)\alpha^4(k/k_*)^{n_s - 1}$ has every factor from BST. *`play/toy_682_as_scalar_amplitude.py`*
-- $^7$Li suppression by factor $2.73\times$ from $\Delta g = 7$ genus DOF at $T_c = 0.487$ MeV (7% from observed deficit). *`notes/BST_Lithium7_BBN.md`*
+- **Scalar amplitude identified** (Toy 682; "derived" until 2026-09-11): $A_s = (3/4)\alpha^4 = N_c/(2^{\text{rank}} \times N_{\max}^4) = 2.127 \times 10^{-9}$ (0.92$\sigma$ from Planck $2.1005 \times 10^{-9}$). Combined $(A_s, n_s)$ chi-squared: 0.91 for 2 dof ($p = 0.634$). The identity $A_s \times N_{\max}^4 = 3/4$ is exact. External CMB inputs reduced from 5 to 3 ($G, \hbar, c$ only). The primordial power spectrum $\mathcal{P}(k) = (3/4)\alpha^4(k/k_*)^{n_s - 1}$ has every factor from BST. *`play/toy_682_as_scalar_amplitude.py`*
+- $^7$Li suppression by factor $2.73\times$ from $\Delta g = 7$ signature DOF (not genus) at $T_c = 0.487$ MeV (7% from observed deficit). *`notes/BST_Lithium7_BBN.md`*
 - GW spectrum: peak at 6.4 nHz; spectral index $\gamma = 7/5 + 2 = 3.60$ (consistent with NANOGrav). *Section 15.6*
 - MOND: $a_0 = cH_0/\sqrt{30} = 1.195 \times 10^{-10}$ m/s² (0.4%). Same $\sqrt{30}$ as chiral condensate. *`notes/BST_DarkMatterHalos.md`*
 - Cosmic age $t_0 = 13.718$ Gyr (0.57%); exact $\Lambda$CDM formula with $\operatorname{arcsinh}\!\sqrt{13/6}$, all BST integers. Coincidence problem dissolved (information-energy intersection). *`notes/BST_WhyNow.md`*

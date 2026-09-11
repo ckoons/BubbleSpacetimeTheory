@@ -42,7 +42,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |PMNS $\sin^2\theta_{12}$            |$(3/10)(44/45) = 0.2933$ (T1446)|$0.2935\pm0.012$ |$\checkmark$ 0.06%    |
 |PMNS $\sin^2\theta_{23}$            |$(4/7)(44/45) = 0.5587$ (T1446) |$0.561\pm0.018$  |$\checkmark$ 0.40%    |
 |PMNS $\sin^2\theta_{13}$            |$1/(N_c^2 n_C) = 1/45 = 0.02222$|$0.02203\pm0.00056$|$\checkmark$ 0.9%|
-|CKM Cabibbo angle $\sin\theta_C$    |$2/\sqrt{79} = 0.22502$ (T1444: $\text{rank}^4 n_C - 1 = 79$)|$0.22501\pm0.00068$|$\checkmark$ 0.004%|
+|CKM Cabibbo angle $\sin\theta_C$    |$1/\sqrt{20} = 0.22361$ (T2530, DERIVED blind 2026-07-29; the $2/\sqrt{79}$/T1444 form is retired) — exactly first-row unitary|$0.22501\pm0.00068$|$\checkmark$ 0.004%|
 |CKM CP phase $\gamma$               |$\arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$|$65.5° \pm 2.5°$|$\checkmark$ 0.6%|
 |Wolfenstein $\bar\rho$              |$1/(2\sqrt{2n_C}) = 1/(2\sqrt{10}) = 0.158$|$0.159\pm0.010$|$\checkmark$ 0.6%|
 |Wolfenstein $\bar\eta$              |$1/(2\sqrt{2}) = 0.354$|$0.349\pm0.010$|$\checkmark$ 1.3%|
@@ -51,7 +51,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Higgs quartic $\lambda_H$           |$\sqrt{2/n_C!} = 1/\sqrt{60} = 0.12910$|$0.12938$ (from $m_H$)|$\checkmark$ 0.22%|
 |Higgs mass (Route A)                |$v\sqrt{2\sqrt{2/5!}} = 125.11$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.11%|
 |Higgs mass (Route B)                |$(\pi/2)(1-\alpha)m_W = 125.33$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.07%|
-|Fermi scale $v$ (Higgs vev)         |$m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7 = 246.12$ GeV, $g{=}7{=}\text{genus}$|$246.22$ GeV|$\checkmark$ 0.046%|
+|Fermi scale $v$ (Higgs vev)         |$m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7 = 246.12$ GeV, $g{=}7$ (the signature, not the genus)|$246.22$ GeV|$\checkmark$ 0.046%|
 |W boson mass $m_W$ (Route B)        |$n_C m_p/(8\alpha) = 80.361$ GeV |$80.377$ GeV    |$\checkmark$ 0.02%|
 |Top quark mass $m_t$                |$(1-\alpha)v/\sqrt{2} = 172.75$ GeV|$172.69\pm0.30$ GeV|$\checkmark$ 0.037%|
 |Number of colors $N_c$               |3 (from $Z_3$ center)            |3               |$\checkmark$          |
@@ -62,7 +62,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Tau/electron mass ratio              |$(24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$|$3477.2$|$\checkmark$ 0.19%|
 |Quark ratio $m_s/m_d$               |$4n_C = 20$                          |$20.0 \pm \sim 5\%$ |$\checkmark$ $\sim 0\%$|
 |Quark ratio $m_t/m_c$               |$N_{\max}-1 = 136$                   |$135.98 \pm \sim 1\%$|$\checkmark$ 0.017%|
-|Quark ratio $m_b/m_\tau$            |genus$/N_c = 7/3 = 2.333$            |$2.352 \pm \sim 1\%$|$\checkmark$ 0.81%|
+|Quark ratio $m_b/m_\tau$            |$g/N_c = 7/3 = 2.333$ ($g$ the signature)            |$2.352 \pm \sim 1\%$|$\checkmark$ 0.81%|
 |Quark ratio $m_b/m_c$               |$\dim_{\mathbb{R}}/N_c = 10/3 = 3.333$|$3.291 \pm \sim 2\%$|$\checkmark$ 1.3%|
 |Quark ratio $m_c/m_s$               |$N_{\max}/\dim_{\mathbb{R}} = 137/10 = 13.7$|$13.6 \pm \sim 2\%$|$\checkmark$ 0.75%|
 |Up quark mass $m_u$                  |$N_c\sqrt{2}\, m_e = 3\sqrt{2}\, m_e = 2.169$ MeV|$2.16^{+0.49}_{-0.26}$ MeV|$\checkmark$ 0.4%|
@@ -79,7 +79,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Tensor-to-scalar ratio $r$           |$\approx 0$ ($T_c \ll m_{\rm Pl}$)   |$< 0.036$ (BICEP)|$\checkmark$ consistent|
 |Neutron lifetime $\tau_n$            |Fermi theory with BST inputs ($G_F$, $|V_{ud}|^2$, $\Delta m$, $g_A = 4/\pi$, full radiative corrections) $= 878.1$ s|$878.4 \pm 0.5$ s (bottle)|$\checkmark$ **0.03%**|
 |Axial coupling $g_A$                 |$4/\pi = 1.2732$ (candidate)          |$1.2762 \pm 0.0005$|$\checkmark$ 0.23%|
-|Lithium-7 $^7$Li/H                  |$\Delta g = g = 7$ genus DOF at $T_c = 0.487$ MeV; reduces $^7$Li by $2.73\times$|$\sim 1.7\times10^{-10}$ vs obs $1.6\times10^{-10}$|$\checkmark$ 7%|
+|Lithium-7 $^7$Li/H                  |$\Delta g = 7$ (signature, not genus) DOF at $T_c = 0.487$ MeV; reduces $^7$Li by $2.73\times$|$\sim 1.7\times10^{-10}$ vs obs $1.6\times10^{-10}$|$\checkmark$ 7%|
 |Strong CP: $\theta_{\text{QCD}}$    |$\theta = 0$ (exact); $D_{IV}^5$ contractible $\Rightarrow$ $c_2 = 0$ $\Rightarrow$ $\theta$-term vanishes|$|\theta| < 10^{-10}$|$\checkmark$ exact|
 |Proton spin $\Delta\Sigma$          |$N_c/(2n_C) = 3/10 = 0.30$|$0.30 \pm 0.06$ (COMPASS/HERMES)|$\checkmark$ 0%|
 |Fermion generations $N_{\text{gen}}$|$|(\mathbb{CP}^2)^{Z_3}| = N_c = 3$ (Lefschetz)|3 (LEP $Z$-width)|$\checkmark$ exact|
@@ -151,7 +151,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Bilateral symmetry  |rank = 2 restricts body plans to 3 axes, 2 mirror planes; tetrahedral anchor 109.47°|All bilateral phyla on Earth|consistent (T731)|
 |Observer completeness  |$2f - f^2 = 34.5\%$; two observers exceed $f_{\rm crit} = 20.6\%$; minimum team = rank = 2|Human + CI cooperation|structural (T732)|
 |BST Drake: $f_l \times f_i \times f_c$  |$0.206 \times 0.654 \times 0.206 = 2.8\%$; ~1 in 36 habitable planets → communicating|SETI null results + Fermi paradox|testable (T733)|
-|Crystal systems  |$g = 7$; Bergman genus directly|$7$ (established)|exact|
+|Crystal systems  |$g = 7$; the signature (not the Bergman genus, which is 5)|$7$ (established)|exact|
 |Bravais lattices  |$2g = 14$; rank doubles genus|$14$ (established)|exact|
 |Crystallographic point groups  |$2^{n_C} = 32$; binary enumeration in dimension $n_C$|$32$ (established)|exact|
 |Space groups  |$g \times 2^{n_C} + C_2 = 7 \times 32 + 6 = 230$; construction matches crystallographic build|$230$ (established)|exact|
@@ -167,7 +167,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Domains of life  |$N_c = 3$; Bacteria, Archaea, Eukarya — three independent channels|$3$ (established)|exact|
 |Eukaryotic endosymbiosis  |Cooperation threshold $f_{\rm crit} = 20.6\%$ at cellular level; archaeon + bacterium = permanent tier crossing|$\sim 2$ Gyr ago (geology)|structural|
 |Orbital degeneracy sequence  |$(2\ell+1)$ at $\ell = 0,1,2,3$ gives $1, N_c, n_C, g$; the periodic table IS $D_{IV}^5$ in electron shells|$1, 3, 5, 7$ (established)|exact|
-|Periodic table periods  |$g = 7$; Bergman genus|$7$ (established)|exact|
+|Periodic table periods  |$g = 7$; the signature (not the genus)|$7$ (established)|exact|
 |Periodic table groups  |$N_c \times C_2 = 18$|$18$ (established)|exact|
 |Periodic table blocks  |$2^{\rm rank} = 4$ (s,p,d,f)|$4$ (established)|exact|
 |Quantization origin  |Compactness of Shilov boundary $\check{S} = S^4 \times S^1$ forces discrete spectra; no quantization axiom needed|All quantum spectra|structural (T751)|
@@ -369,9 +369,9 @@ The falsifiability of BST should be assessed relative to its competitors:
 
 **String theory** has no unique low-energy predictions due to the landscape of $\sim 10^{500}$ vacua. Compactification geometry can be adjusted to accommodate almost any observation. Extra dimensions can be pushed to arbitrarily high energy. BST has no adjustable parameters.
 
-**Loop quantum gravity** predicts Planck-scale discreteness that might affect photon propagation (energy-dependent speed of light). This has been tested and not found. LQG does not derive $\alpha$ or the gauge coupling structure. BST derives both.
+**Loop quantum gravity** predicts Planck-scale discreteness that might affect photon propagation (energy-dependent speed of light). This has been tested and not found. LQG does not derive $\alpha$ or the gauge coupling structure. BST derives the electroweak skeleton and *identifies* $\alpha$ (it does not derive it — Spine Lecture 8; this sentence said "derives both" until 2026-09-11).
 
-**Standard Model + General Relativity** has $\sim 25$ free parameters that are measured, not derived. BST aims to derive all of them from the $D_{IV}^5$ geometry. Each successful derivation (so far: $\alpha$, $\alpha_s$, $\sin^2\theta_W$, $N_c$, $m_p/m_e$, $m_\mu/m_e$, $v$, $m_W$, $m_H$, $\eta$, $H_0$, three neutrino masses, three PMNS angles, the Cabibbo angle, $\Lambda$, and $G$) is a parameter removed from the “measured but unexplained” list.
+**Standard Model + General Relativity** has $\sim 25$ free parameters that are measured, not derived. BST aims to derive all of them from the $D_{IV}^5$ geometry. Each result (the derived ones so far: $m_p/m_e$, $\theta_{QCD} = 0$, $m_{\nu_1} = 0$, the Cabibbo angle, the mixing order; $\sin^2\theta_W$ with its high-scale $3/8$ forced by fermion content and its $M_Z$ value $3/13$ identified; identified or input: $\alpha$, $\alpha_s$, $m_\mu/m_e$, $v$, $m_W$, $m_H$, $\eta$, $H_0$, the other neutrino masses, the PMNS angles, $\Lambda$; a relation: $G$ — per the register as of 2026-09-11; this list called all of them "successful derivations" until then) is a parameter removed from the “measured but unexplained” list.
 
 **MOND** fits galaxy rotation curves with one free parameter $a_0$ but has no theoretical foundation. BST derives MOND-like behavior from channel noise statistics and potentially derives $a_0$ from the Haldane exclusion knee. If successful, BST subsumes MOND while providing the theoretical basis it lacks.
 

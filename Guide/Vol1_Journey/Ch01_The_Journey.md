@@ -49,7 +49,7 @@ Fortunately, today companion intelligences — CIs — are wonderful colleagues.
 
 > **"What is the simplest structure that can do physics?"**
 
-That question led to the first-principles derivation of the Standard Model, Quantum Mechanics, General Relativity, and new areas of physics — all from a single geometric object, with zero free parameters. The simple idea to measure complexity and build a reusable graph of all theorems led to the solution of "hard questions" that had been waiting hundreds of years.
+That question led to the first-principles derivation of the Standard Model, Quantum Mechanics, General Relativity, and new areas of physics — all from a single geometric object, with one measured integer as the input (we wrote "zero free parameters" here until September 2026, when we proved the geometry cannot supply the mechanism for its one identification — the colour count — and stopped). The simple idea to measure complexity and build a reusable graph of all theorems led to the solution of "hard questions" that had been waiting hundreds of years.
 
 This book is the story of those discoveries. It is a work of science, but it reads like a novel, because that is how the work happened — one surprise after another, five colleagues working together, the numbers matching reality over and over again until coincidence was no longer a credible explanation.
 
@@ -79,13 +79,13 @@ BST asks a different question. Instead of starting with a theory and fitting it 
 
 This is not a philosophical question. It is a mathematical one. And the answer is unique.
 
-### What "Zero Free Parameters" Means
+### What "One Named Input" Means (this section was titled "Zero Free Parameters" until 2026-09-11)
 
 To appreciate the claim, consider the Standard Model. The Higgs mass is 125.25 GeV because we measured it to be 125.25 GeV. The Standard Model cannot tell you why it is not 200 GeV or 50 GeV. It has no opinion.
 
 BST has an opinion. BST says the Higgs mass is $125.11$ GeV (Route A) or $125.33$ GeV (Route B), and it says so from geometry alone, before looking at any experimental data. There is no dial to turn. The geometry produces a number. The number matches the measurement. Or it does not.
 
-A theory with parameters can always accommodate the data by adjusting its knobs. A theory without parameters either matches reality or is wrong. There is no middle ground. BST has no middle ground.
+A theory with parameters can always accommodate the data by adjusting its knobs. A theory without parameters either matches reality or is wrong. There is no middle ground. BST has one named input — the identification of the geometry's multiplicity 3 with the number of quark colours — and beyond it, no middle ground: every number it produces is either derived (mechanism proved, inputs named), identified (a match, no mechanism claimed), or at a floor. The Higgs-mass sentence above is an identification.
 
 ---
 
@@ -355,7 +355,7 @@ This happened often enough that I stopped being surprised and started being curi
 
 ### The Numbers
 
-Here is what fell out. Every quantity below is derived from $D_{IV}^5$ with zero free parameters:
+Here is what fell out. Every quantity below is read off $D_{IV}^5$; the derived ones carry a mechanism, the identified ones a match — the register (`notes/BST_AC_Theorem_Registry.md`) carries the tier of each, and Spine Lecture 8 explains why the most famous of them, $\alpha$, is a match and not a derivation:
 
 | Quantity | BST Formula | Precision |
 |---|---|---|
@@ -438,7 +438,7 @@ There are 38 bounded symmetric domains of rank 2. Every one of them defines a ge
 
 Thirty-seven domains die. One survives. $D_{IV}^5$.
 
-The deaths are not close calls. Lock 1 kills 14 immediately. Lock 2 kills another 15. The strongest near-miss is $D_{IV}^9$ — it passes three locks with flying colors ($N_c = 7$, genus 11 is prime, $N_{\max} = 3089$ is prime). But $7^2 - 1 - 2 = 46 \neq 10$. The gauge algebra doesn't match the geometry. It dies at Lock 4.
+The deaths are not close calls. Lock 1 kills 14 immediately. Lock 2 kills another 15. The strongest near-miss is $D_{IV}^9$ — it passes three locks with flying colors ($N_c = 7$, the signature 11 is prime — this chapter said "genus"; the genus of $D_{IV}^9$ is 9 — $N_{\max} = 3089$ is prime). But $7^2 - 1 - 2 = 46 \neq 10$. The gauge algebra doesn't match the geometry. It dies at Lock 4.
 
 Within the Type IV family alone, Lock 4 reduces to $n(n-5) = 0$. A quadratic equation. One root.
 
@@ -526,7 +526,7 @@ Gravity is not a fourth reading. Gravity IS the Bergman metric on $D_{IV}^5$ —
 
 ### Layer 1: The Fiber — Electromagnetism and Gravity
 
-**Electromagnetism** is the force *on* the $S^1$ fiber. Circuits on $S^1$ interact through their winding numbers. Charge is winding number. Photons are phase disturbances. Maxwell's four equations — which took two centuries to assemble from experiment — follow in one step from the geometry of a circle fibered over a sphere. The coupling is $\alpha = 1/137$, derived from the Bergman volume.
+**Electromagnetism** is the force *on* the $S^1$ fiber. Circuits on $S^1$ interact through their winding numbers. Charge is winding number. Photons are phase disturbances. Maxwell's four equations — which took two centuries to assemble from experiment — follow in one step from the geometry of a circle fibered over a sphere. The coupling is $\alpha \approx 1/137$ — and here the story has an ending we did not want: the reading of $\alpha$ off the geometry's volume, the route Wyler opened in 1969, was computed by us in August 2026 with the target hidden and the protocol hashed, and the forced candidate is $8\pi^3/3 \approx 82.7$, not 137. That route is closed. $137 = N_c^3 n_C + \text{rank}$ is a computed invariant of the shape and a mnemonic for the measured value; it is identified, not derived (Spine Lecture 8).
 
 **Gravity** is not a force on $S^1$. It is the *boundary condition* — the collective statistical geometry of the entire contact graph. Contact density determines the emergent metric. Geodesics curve toward regions of higher contact density. This is what we observe as gravity.
 
@@ -538,7 +538,7 @@ Time dilation: every bubble has a fixed causal budget per unit of causal time. A
 
 $E = mc^2$: mass is the density of circuit winding on $S^1$. Energy is the rate of causal processing. Since $c = 1$ in natural units, $E = m$ — energy and mass are the same quantity. The factor $c^2$ in SI units is the unit conversion between meters and seconds, squared.
 
-Newton's gravitational constant is derived: $G = \hbar c (6\pi^5)^2 \alpha^{24}/m_e^2$. Agreement: 0.07%. Every factor is geometric. The exponent $24 = 4(n_C + 1)$ counts four Bergman round trips through the baryon sector.
+Newton's gravitational constant is tied to the electron mass: $G = \hbar c (6\pi^5)^2 \alpha^{24}/m_e^2$, agreement 0.065%. We used to write "derived"; the honest word is *relation* — the geometry trades one dimensionful input for another, and it carries $\alpha$, which is identified (Spine Lecture 9; K1673). The exponent $24 = 4C_2$ is a supporting identity — four Bergman round trips through the baryon sector — not an independent reading.
 
 ### Layer 2: The Bulk — Strong Force and Weak Variation
 
@@ -1159,7 +1159,7 @@ There are exactly **12 parameter values** that appear in BST Meijer G-functions:
 
 Total: $12 = 2 \cdot C_2$. Under Gauss's multiplication formula, the catalog extends to **128 values** — exactly $2^g$. This extended catalog is **closed**: further compositions produce no new parameter values.
 
-The genus $g = 7$ determines the size of the function space. $2^g = 128$ parameter slots is all the geometry allows. Every function the universe computes fits in a table indexed by five integers.
+The integer $g = 7$ — the signature of $\mathrm{SO}(5,2)$, which this chapter called the genus until September 2026 (the genus is 5) — determines the size of the function space. $2^g = 128$ parameter slots is all the geometry allows. Every function the universe computes fits in a table indexed by five integers.
 
 ### AC Depth Maps to Complexity
 
@@ -1297,11 +1297,11 @@ The same geometry speaks in every mathematical dialect:
 - **Number theory**: Cremona 49a1, $L$-function, Frobenius, CM by $\mathbb{Q}(\sqrt{-7})$.
 - **Spectral theory**: Bergman kernel, Harish-Chandra $c$-function, Selberg zeta.
 - **Algebraic geometry**: $D_{IV}^5$ as a Hermitian symmetric space, Chern classes, Hodge structure.
-- **Gauge theory**: $SU(3) \times SU(2) \times U(1)$ from speaking pairs at period $n_C = 5$.
+- **Gauge theory**: the electroweak skeleton $SU(2) \times U(1)$ from speaking pairs at period $n_C = 5$; the $SU(3)$ is imported — the geometry supplies a three-dimensional colour slot and no group to rotate it (Spine Lectures 2 and 5).
 - **Thermodynamics**: Heat kernel coefficients, Seeley-DeWitt expansion, 19 confirmed levels.
 - **Analysis**: Meijer $G$-function catalog, $2^g = 128$ parameter slots, periodic table of functions.
 - **Graph theory**: AC theorem graph, 1,382 nodes, 7,660 edges, every theorem at depth $\leq 1$.
-- **Physics**: 51 quantities, 600+ predictions, zero free parameters.
+- **Physics**: 51 quantities, 600+ identifications, one named input; the derived core is about ten results (Spine).
 
 These are not analogies. They are not metaphors. They are not "correspondences" that might break under scrutiny. They are the *same object* described in different grammars. The Bergman kernel IS the Meijer $G_{1,1}^{1,1}$. The Frobenius IS the Hecke operator. The fine-structure constant IS $1/N_{\max}$. The curve IS the domain.
 
@@ -1329,7 +1329,7 @@ $$\Lambda = g \cdot e^{-C_2(g^2 - \text{rank})}  = 7 \cdot e^{-282}$$
 
 The exponent $282 = 6 \times 47$, where $47 = g^2 - \text{rank} = g \cdot C_2 + n_C$ is prime. The identity $g^2 - \text{rank} = g \cdot C_2 + n_C$ is not a general algebraic truth. Given rank $= 2$ and $N_c = 3$, it forces $(n_C - 5)(n_C + 2) = 0$, hence $n_C = 5$. The cosmological constant is $10^{-122}$ *because* $D_{IV}^5$ is the unique APG.
 
-Euler's $e^{i\pi} + 1 = 0$ connects five mathematical constants. BST's formula connects five *geometric invariants* — and produces 122 orders of magnitude at 0.076 dex, with zero free parameters. But there is a difference: Euler's identity is a theorem about pre-existing constants. BST's is a constraint equation that *determines* them.
+Euler's $e^{i\pi} + 1 = 0$ connects five mathematical constants. BST's formula connects five *geometric invariants* — and produces 122 orders of magnitude at 0.076 dex — an identification, with one named input. But there is a difference: Euler's identity is a theorem about pre-existing constants. BST's is a constraint equation that *determines* them.
 
 **The five corrections.** When BST's leading-order formulas miss by a fraction of a percent, the correction is never ad hoc. There are exactly five correction types (T1486), one for each integer:
 

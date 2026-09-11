@@ -107,7 +107,7 @@ The correct description is **Riemannian rigidity**: $D_{IV}^5$ is an irreducible
 
 ### 5.4 A Second Independent Derivation: The Substrate Cost Function
 
-The Wyler formula derives $\alpha^{-1}$ from a volume ratio on $D_{IV}^5$. A completely different geometric construction — the cost function of the self-maintaining substrate — selects the same integer $N = 137$ independently.
+The Wyler formula reads $\alpha^{-1}$ off a volume ratio on $D_{IV}^5$ (a reading whose forced version computes to $8\pi^3/3$, not 137 — K1826; see the head of this section). A completely different geometric construction — the cost function of the self-maintaining substrate — selects the same integer $N = 137$ independently.
 
 **The cost function.** A substrate with channel capacity $\rho$ incurs two competing costs: a geometric cost proportional to $\rho$ (more slots require more structure to maintain) and a computational cost that decreases with $\rho$ (a larger channel has more room for error correction, with Shannon capacity $\sim \ln(\rho+1)$ per slot):
 
@@ -147,7 +147,7 @@ Full derivation: `notes/BST_CostFunction_Kappa.md`.
 
 ### 5.5 Shannon Interpretation: Alpha as Optimal Code Rate
 
-The Wyler formula and the cost function derive $\alpha$ from Bergman geometry. A third perspective reveals the same number from Shannon information theory, providing a physical interpretation: **$\alpha$ is the fraction of the substrate's channel capacity that carries signal; the remaining $136/137$ is error correction overhead.**
+The Wyler formula and the cost function each land on $137$ from Bergman geometry — two identifications, not derivations (see the head of this section). A third perspective reveals the same number from Shannon information theory, providing a physical interpretation: **$\alpha$ is the fraction of the substrate's channel capacity that carries signal; the remaining $136/137$ is error correction overhead.**
 
 **Von Mises-Packing Equivalence.** On $S^2 \times S^1$, for small concentration $\kappa$:
 
@@ -391,7 +391,7 @@ Equivalently: $m_\mu/m_e = \exp(\dim_{\mathbb{R}}(D_{IV}^3) \cdot \Delta S_{\rm 
 | $m_\tau/m_\mu$ | $(7/3)^{10/3} = (\kappa_1/\kappa_5)^{2n_C/N_c}$ | $16.850$ | $16.817$ | **0.19%** |
 | $m_t/m_c$ | $N_{\max}-1$ | $136$ | $135.98$ | 0.017%* |
 | $m_s/m_d$ | $4n_C$ | $20$ | $20.0 \pm \sim 5\%$ | $\sim 0\%$ |
-| $m_b/m_\tau$ | genus$/N_c = 7/3$ | $2.333$ | $2.352$ | 0.81% |
+| $m_b/m_\tau$ | $g/N_c = 7/3$ ($g$ the signature, not the genus) | $2.333$ | $2.352$ | 0.81% |
 | $m_b/m_c$ | $\dim_{\mathbb{R}}(D_{IV}^5)/N_c = 10/3$ | $3.333$ | $3.291$ | 1.3%* |
 | $m_c/m_s$ | $N_{\max}/\dim_{\mathbb{R}} = 137/10$ | $13.7$ | $13.6$ | 0.75% |
 
@@ -405,7 +405,7 @@ Full derivation and numerical verification: `notes/BST_FermionMass.md`, `notes/B
 
 - $m_s/m_d = 4n_C = 20$ (exact to measurement precision). The same $4n_C$ that appears in $\sin^2\theta_C = 1/(4n_C) = 1/20$ — CKM mixing and quark masses share a common geometric origin.
 - $m_t/m_c = N_{\max} - 1 = 136$ (0.017%). The top saturates the vacuum minus one level.
-- $m_b/m_\tau = \text{genus}/N_c = 7/3$ (0.81%). Third-generation quark-lepton partners coupled by the holomorphic curvature ratio $\kappa_1/\kappa_5 = 7/3$.
+- $m_b/m_\tau = g/N_c = 7/3$ (0.81%; $g$ is the signature $p+q$, not the genus). Third-generation quark-lepton partners coupled by the holomorphic curvature ratio $\kappa_1/\kappa_5 = 7/3$.
 - $m_b/m_c = \dim_{\mathbb{R}}(D_{IV}^5)/N_c = 10/3$ (1.3%). The real dimension per color.
 - $m_c/m_s = N_{\max}/\dim_{\mathbb{R}} = 137/10$ (0.75%). Bridging thermal and geometric sectors.
 

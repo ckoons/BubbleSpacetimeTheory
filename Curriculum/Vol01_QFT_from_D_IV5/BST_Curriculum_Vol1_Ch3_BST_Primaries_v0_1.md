@@ -109,7 +109,7 @@ So the substrate has three independent structural over-determinations: per-integ
 
 The integer-forcing chapter is where BST cashes its conceptual check. Standard physics' twenty-five free parameters reduce, in BST, to five integers; the five integers reduce, in BST, to one geometry; the one geometry is mathematically forced by classical results outside physics. There is no fitting. The substrate's integer specification is a *theorem of mathematics*, not a measurement.
 
-What this buys is what we have been claiming throughout: zero free parameters, all physics derivable from substrate structure, predictions that match experiment across hundreds of observables at sub-percent precision. The reader has seen, in summary form, the apparatus that makes this possible.
+What this buys is smaller than what this chapter claimed in May, and better for it: one named input (the colour identification; Spine Lecture 2), a derived core, and the rest identified — not "zero free parameters, all physics derivable from substrate structure, predictions that match experiment across hundreds of observables at sub-percent precision. The reader has seen, in summary form, the apparatus that makes this possible.
 
 What it costs is what the rest of this volume will do: actually build the QFT machinery on top of the integers. Chapter 4 will use them to derive the discrete symmetries. Chapter 5 will use them to develop the Casimir algebra. Chapter 6 will use them to build the operator zoo. Chapter 7 will use them to write dynamics. By the end of the volume, the integers will be doing genuine work in every chapter.
 

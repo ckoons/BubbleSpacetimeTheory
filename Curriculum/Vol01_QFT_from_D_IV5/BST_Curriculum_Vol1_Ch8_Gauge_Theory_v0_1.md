@@ -29,7 +29,7 @@ a clean BST-primary factorization. The substrate did not choose the gauge group;
 
 What this chapter shows is the structural derivation, in some detail, plus three consequences that turn out to follow: color confinement as a topological obstruction (rather than a dynamical phenomenon), three fermion generations (rather than two or four), and a five-absence prediction set that contains five of the Standard-Model-and-Beyond program's most-searched-for phenomena that BST predicts *do not exist*.
 
-## 8.1 $SU(3)$ color from $N_c = 3$
+## 8.1 The colour slot from $N_c = 3$ — $SU(3)$ imported (heading corrected 2026-09-11)
 
 The color gauge group $SU(3)$ is what binds quarks into hadrons. Each quark carries one of three color charges; color-singlet bound states (mesons made of quark-antiquark pairs, baryons made of three quarks) are the only observable particles; the eight gluons that mediate the strong force live in the adjoint representation of $SU(3)$.
 

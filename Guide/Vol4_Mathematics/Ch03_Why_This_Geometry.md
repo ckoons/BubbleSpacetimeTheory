@@ -63,7 +63,7 @@ $147 = N_c \times g^2 = 3 \times 49$ is the fiber packing number — the number 
 
 $$147 = \underbrace{3}_{N_c} \times \underbrace{49}_{g^2}$$
 
-Three colors tile the $\mathbb{Z}_3$ circuit. Forty-nine genus sections ($g = 7$ Bergman genus, squared by the two fiber factors $\mathrm{SO}(5)$ and $\mathrm{SO}(2)$) complete the topological closure.
+Three colors tile the $\mathbb{Z}_3$ circuit. Forty-nine genus sections ($g = 7$ — the signature, not the Bergman genus, which is 5 — squared by the two fiber factors $\mathrm{SO}(5)$ and $\mathrm{SO}(2)$) complete the topological closure.
 
 ### 33.3 The Gap
 
@@ -466,7 +466,7 @@ The principle: Phases 1–3 make no P $\neq$ NP claim. Each is a self-contained 
 
 ### 36.9 Connection to BST
 
-BST is the existence proof that AC $= 0$ methods work in practice. The Standard Model's 19 free parameters represent AC $> 0$ — perturbation theory's channel capacity falls short of the information content, requiring empirical measurement to close the gap. BST's spectral methods derive the same 19 numbers with zero free parameters: AC $= 0$ throughout (Section 13 audit).
+BST is the existence proof that AC $= 0$ methods work in practice. The Standard Model's 19 free parameters represent AC $> 0$ — perturbation theory's channel capacity falls short of the information content, requiring empirical measurement to close the gap. BST's spectral methods reach the same 19 numbers with one named input — eight of the twenty-six primaries derived clean, the rest identified or input (Grace's ledger v0.54; this sentence said "derive … with zero free parameters" until 2026-09-11).
 
 The AC framework unifies BST's technical results with a general theory of method noise applicable to any domain — physics, computation, optimization, machine learning (Section 15). The P $\neq$ NP proof establishes that the AC $= 0$/AC $> 0$ boundary is fundamental: some problems require information that no efficient method can derive.
 
@@ -636,7 +636,7 @@ The gap is closed. The five-step proof chain:
 | **Fermat** | Frey curve $\to$ modularity | Ribet $+$ R$=$T $\to$ contradiction | AC depth 2, T142-T146 |
 | **Poincaré** | 3-manifold topology | Entropy $+$ finite extinction | AC depth 2, T157-T161 |
 
-Nine problems engaged --- seven Millennium, two classical, one Four-Color --- all flattened into the same framework. Every problem depth $\leq 2$. All seven Millennium problems **PROVED --- Ready for Submission** (cold-reader audited May 12, 2026): RH, P$\neq$NP, NS, BSD, Four-Color, Hodge, YM. YM closure sprint completed May 12 (~36 hours, 13/13 tasks, 3 papers submission-ready: YM-A Ring Uniqueness, YM-B Construction, YM-C R$^4$ No-Go). The Four-Color Theorem is PROVED without computers (13 structural steps, Lyra's Lemma). All linearization theorems complete: 771/771 at depth $\leq 1$ (T811). BST integers appear directly in every Millennium proof chain. Zero free parameters. One framework. All counting.
+Nine problems engaged --- seven Millennium, two classical, one Four-Color --- all attempted in the same framework, none proved (K939/K940; the Riemann row closed as an attempt with a location, K1876; the four-colour One-Word Lemma refuted in frame, K1839). Every problem depth $\leq 2$. All seven Millennium problems **PROVED --- Ready for Submission** (cold-reader audited May 12, 2026): RH, P$\neq$NP, NS, BSD, Four-Color, Hodge, YM. YM closure sprint completed May 12 (~36 hours, 13/13 tasks, 3 papers submission-ready: YM-A Ring Uniqueness, YM-B Construction, YM-C R$^4$ No-Go). The Four-Color Theorem is PROVED without computers (13 structural steps, Lyra's Lemma). All linearization theorems complete: 771/771 at depth $\leq 1$ (T811). BST integers appear directly in every Millennium proof chain. Zero free parameters. One framework. All counting.
 
 -----
 

@@ -2,7 +2,7 @@
 title: "Vol 2 Chapter 4 — Color and Quarks: Confinement as Substrate Topology"
 author: "Keeper (author pass)"
 date: "2026-05-23 Saturday"
-status: "v0.2 — Keeper author-voice pass; SU(3) color from N_c=3, confinement as Frobenius closure on D_IV⁵, trefoil topology W-23"
+status: "v0.3 — corrected 2026-09-11: SU(3) is IMPORTED (the geometry supplies the number 3 and a real 3-dim slot, no SU(3) — Cal Section 946; T1930 retired as a derivation); was 'SU(3) color from N_c=3'; confinement as Frobenius closure on D_IV⁵, trefoil topology W-23"
 volume: "Vol 2 Particle Physics from D_IV⁵"
 chapter: 4
 ---
@@ -13,7 +13,7 @@ Quark color is the central organizing principle of quantum chromodynamics. Quark
 
 BST derives the three-color structure from $N_c = 3$ (Volume 0 Chapter 2, Volume 1 Chapter 8). The framework's distinctive treatment is **confinement as substrate topology** rather than as a dynamical QCD phenomenon. This chapter develops the topological reading.
 
-## 4.1 $SU(3)$ color from $N_c = 3$
+## 4.1 The number three, and the $SU(3)$ we import (heading said "$SU(3)$ color from $N_c = 3$" until 2026-09-11)
 
 The color gauge group is $SU(N_c) = SU(3)$ exactly because the substrate's color multiplicity is $N_c = 3$. The Mersenne argument $N_c = M_{\text{rank}} = 2^2 - 1 = 3$, the trefoil topology, the color-singlet triangle $T_{N_c} = 6 = C_2$, the Wallach short-root multiplicity $m_s = N_c$ — four independent BST-primary forcing arguments (Volume 1 Chapter 3 §3.3). The eight gluons of $SU(3)$ are exact: $\dim SU(N_c) = N_c^2 - 1 = 8$.
 
@@ -59,4 +59,4 @@ Chapter 5 — The Lepton Sector — develops the substrate-derivations of the ch
 
 ---
 
-**Where to look this up**: $SU(3)$ from $N_c$: T1930 (Vol 1 Ch 3). Trefoil topology: Casey W-23. Confinement topology: W-16. Top/bottom quark masses: T1920 and the Cremona 49a1 anchor. For standard QCD treatments: Peskin–Schroeder Chapters 16–17; Halzen–Martin *Quarks and Leptons*.
+**Where to look this up**: $N_c = 3$ as an identification: T1930 is RETIRED as a derivation of $SU(3)$ (K1724, K1782, Cal Section 946); Spine Lecture 2. Trefoil topology: Casey W-23. Confinement topology: W-16. Top/bottom quark masses: T1920 and the Cremona 49a1 anchor. For standard QCD treatments: Peskin–Schroeder Chapters 16–17; Halzen–Martin *Quarks and Leptons*.

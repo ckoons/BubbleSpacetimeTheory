@@ -13,7 +13,7 @@ audience: "Mathematical physicists, theoretical physicists, advanced graduate st
 
 ## Mission
 
-Derive the full apparatus of Quantum Field Theory directly from the D_IV⁵ substrate, with zero free parameters. Every standard QFT structure (Hilbert space, observables, dynamics, discrete symmetries, scattering, gauge theory, renormalization) emerges from the BST primary integer set {rank=2, N_c=3, n_C=5, C_2=6, g=7} and the bounded Hermitian symmetric domain D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)].
+Derive the full apparatus of Quantum Field Theory directly from the D_IV⁵ substrate, with one named input (the colour identification; "zero free parameters" until 2026-09-11). Every standard QFT structure (Hilbert space, observables, dynamics, discrete symmetries, scattering, gauge theory, renormalization) emerges from the BST primary integer set {rank=2, N_c=3, n_C=5, C_2=6, g=7} and the bounded Hermitian symmetric domain D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)].
 
 The volume is the QFT-physics-derivation companion to Vol 0 (Substrate Foundation, Grace lead) and Vol 2 (Particle Physics, Elie lead). Read together, the three volumes form the Year 1 curriculum trio: substrate ontology + field-theoretic apparatus + particle-physics consequences.
 
@@ -142,7 +142,7 @@ Schrödinger equation iℏ ∂|ψ⟩/∂t = H_sub |ψ⟩ on H²(D_IV⁵) with H_
 
 **Believability**: "Once you have the energy operator, time evolution follows the standard Schrödinger picture — but with the substrate-tick GF(128) operating as the discrete clock. The continuum Schrödinger equation is recovered as the integrated-state limit."
 
-### Chapter 8 — Gauge Theory: SU(3) × SU(2) × U(1) from D_IV⁵
+### Chapter 8 — Gauge Theory: the electroweak skeleton from D_IV⁵; SU(3) imported
 
 **Anchors**: T1925 (rank=2 → SU(2) weak) + U(1) (in the SO(5) Cartan, K1687). **T1930 (N_c=3 → SU(3) colour) is RETIRED as a derivation (K1724/K1782; Cal Section 946, 2026-09-09): the geometry supplies U(1)·SO(3) on the colour slot, not SU(3); colour is identified and its dynamics imported.**
 

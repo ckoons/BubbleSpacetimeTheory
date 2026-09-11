@@ -115,7 +115,7 @@ BST adds substrate-cognition-level observations beyond standard QM:
 
 ### 6.9 K-audit anchors
 
-- **T841** (Paper #104 chain): $\alpha^{-1} = N_{\max} = N_c^3 \cdot n_C + \text{rank} = 137$ — substrate-derived fine-structure constant
+- **T841** (Paper #104 chain): $\alpha^{-1} = N_{\max} = N_c^3 \cdot n_C + \text{rank} = 137$ — substrate-IDENTIFIED (not derived; K1816, 2026-08-23) fine-structure constant
 - **K38 CONDITIONAL PASS** (Spring 2026, ~85%): $\alpha^{-1} = 137$ derivation chain
 - **Periodic table reading** (Volume 0 Chapter 1): hydrogen as substrate's simplest atomic K-type
 - **B6 Lamb shift** (Elie + Lyra task #182): paper-grade derivation pending

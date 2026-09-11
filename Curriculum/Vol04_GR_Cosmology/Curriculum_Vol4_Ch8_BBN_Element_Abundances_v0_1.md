@@ -11,7 +11,7 @@ chapter: 8
 
 Big-bang nucleosynthesis (BBN) — the primordial production of light elements (H, D, He, Li) in the first minutes after the Big Bang — provides one of cosmology's most precisely measured tests of standard physics. Standard BBN predicts abundances in striking agreement with observation for H, D, and He; the famous **Li-7 problem** is a persistent discrepancy where observed Li-7 abundance is about three times below the standard prediction.
 
-BST derives the BBN freeze-out temperature from substrate primaries at $0.018\%$ and resolves the Li-7 problem via the substrate genus integer $g = 7$.
+BST derives the BBN freeze-out temperature from substrate primaries at $0.018\%$ and reads the Li-7 problem via the substrate signature integer $7$ (called "genus" here until 2026-09-11; the genus is 5) integer $g = 7$.
 
 ## 8.1 The BBN freeze-out temperature
 

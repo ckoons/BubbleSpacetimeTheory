@@ -117,7 +117,7 @@ $$S_{\mathrm{Bergman}} \;=\; \underbrace{3\ln K_5}_{5.509} \;+\; \underbrace{2(n
 
 All three pieces are identified as geometric invariants of $D_{IV}^5$. $S_B$ is derived from the Harish-Chandra Weyl vector $\rho_2 = (n_C-2)/2 = 3/2$ (the $S^1$ spectral component of $\mathrm{SO}_0(5,2)$, Section 5.1). The result is a closed-form expression in $n_C = 5$ and $\pi$ alone — no observational input.
 
-**G with zero free parameters.** Combining the three pieces:
+**G as a relation to $m_e$ (this heading said "with zero free parameters" until 2026-09-11; the relation carries $\alpha$, which is identified — K1673).** Combining the three pieces:
 
 $$\boxed{G \;=\; \frac{\hbar c\,(6\pi^5)^2}{m_e^2} \times \left[\frac{(n_C-2)^2 \cdot (\pi^5/1920)^{1/4}}{8\pi^4}\right]^{24}}$$
 

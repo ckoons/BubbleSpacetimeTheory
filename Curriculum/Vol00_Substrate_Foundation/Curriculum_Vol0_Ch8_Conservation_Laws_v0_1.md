@@ -47,7 +47,7 @@ The ten standard continuous conservation laws of physics are each Noether-derive
 
 **Electric charge** is conserved because the substrate is invariant under the $SO(2)$ phase rotation of the isotropy. The conserved operator is $\hat{Q}$. The quantization in units of $1/N_c$ for color-bearing states (the $\pm 1/3, \pm 2/3$ of quarks) versus integer units for non-color states is a structural feature of the $SO(2)$ representation theory acting on the $N_c$-fold sub-substrate. (Lyra T2475.)
 
-**Color charge** is conserved because the substrate carries an $SU(N_c) = SU(3)$ symmetry from the $N_c = 3$ sub-structure of color-bearing K-types. Eight generators of $SU(3)$ produce eight color-conservation laws. The combination with the trefoil-confinement topology of Casey's W-23 work means that color-bearing degrees of freedom never appear in isolation — color is conserved *and* confined, two facts derived from the same substrate structure.
+**Color charge** is conserved in the imported $SU(3)$ dynamics; the substrate itself carries no $SU(3)$ (it supplies the number 3 and a three-dimensional slot — corrected 2026-09-11, Cal Section 946) from the $N_c = 3$ sub-structure of color-bearing K-types. Eight generators of $SU(3)$ produce eight color-conservation laws. The combination with the trefoil-confinement topology of Casey's W-23 work means that color-bearing degrees of freedom never appear in isolation — color is conserved *and* confined, two facts derived from the same substrate structure.
 
 **Weak isospin** is conserved because the substrate carries an $SU(2)$ symmetry from the rank-2 doublet structure. Three generators give three components of weak isospin.
 
@@ -100,7 +100,7 @@ Each conservation law corresponds, by Noether's theorem and its discrete-symmetr
 | Linear momentum | Coset translations $\mathfrak{m}$ | $\hat{P}$ | All |
 | Angular momentum | $SO(5)$ rotations | $\hat{L}, \hat{S}$ | All |
 | Electric charge | $SO(2)$ phase | $\hat{Q}$ | All |
-| Color charge | $SU(3)$ from $N_c$ | $\hat{T}^a$ (8 of them) | All; confined |
+| Color charge | $SU(3)$ imported; $N_c = 3$ identified | $\hat{T}^a$ (8 of them) | All; confined |
 | Weak isospin | $SU(2)$ from rank | $\hat{T}^i_w$ (3 of them) | All |
 | Hypercharge | Unbroken Weinberg comb. | $\hat{Y}$ | All |
 | Lepton number | $U(1)_L$ on K-types | $\hat{L}_{\text{lep}}$ | All |
