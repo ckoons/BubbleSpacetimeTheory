@@ -37,7 +37,7 @@ So $\alpha^{-1} = N_c^3\, n_C + \text{rank}$ is **identified**. It is a good way
 
 ## The route that would have been a proof, and how it failed
 
-Armand Wyler, in 1969 and 1971, noticed that a ratio of volumes of bounded symmetric domains — the very family our object belongs to — comes remarkably close to $\alpha$. His formula was dismissed, in Robertson's phrase, as numerology, and the dismissal stuck for fifty years. Whether or not it was fair, it named the right worry: a volume ratio has many readings, and if you may choose the reading after seeing the target, you can hit anything.
+Armand Wyler, in 1969 and 1971, noticed that a ratio of volumes of bounded symmetric domains — the very family our object belongs to — comes remarkably close to $\alpha$. His formula was dismissed as numerology — the critique is in the 1971 literature, and we pin its author and page before this lecture leaves the repository — and the dismissal stuck for fifty years. Whether or not it was fair, it named the right worry: a volume ratio has many readings, and if you may choose the reading after seeing the target, you can hit anything.
 
 We are the natural heirs to that idea, and we tried to do it properly. In August 2026 we asked: is there a *forced* reading — one the geometry picks out with no choice left to us — of a volume on $D_{IV}^5$ that should equal $\alpha^{-1}$? There is. The bare vertex on the Šilov boundary, with its power fixed by the Born rule and the family of candidate landings and their tolerances written down and hashed *before* the computation, gives one number. We computed it half-blind (K1826, toy 5496):
 
@@ -84,4 +84,4 @@ Nothing here is exposed to a laboratory number; that is the point. The lecture w
 
 ## Where to look
 
-K1813, K1814 and the "Forcing and Evidence" paper for the null; K1826 with toy 5496 and its pre-registration hash for the forced vertex; K1872 for the term-by-term comparison with Petermann–Sommerfield; K1873, K1875; T1136 and K1884 for the drift withdrawal; Wyler, *C. R. Acad. Sci. Paris* 269 (1969) and 271 (1971), and Robertson's 1971 *Physical Review Letters* critique — the dates and the critique are pinned to the page before any name is published (K1445's standing fact-check).
+K1813, K1814 and the "Forcing and Evidence" paper for the null; K1826 with toy 5496 and its pre-registration hash for the forced vertex; K1872 for the term-by-term comparison with Petermann–Sommerfield; K1873, K1875; T1136 and K1884 for the drift withdrawal; Wyler's two Comptes Rendus notes (1969, 1971) and the 1971 critique of them — **[pin owed]**: journal, volume, page and the critic's name are to be pinned to the source before this lecture leaves the repository (K1445's standing fact-check; nothing here is from memory once that pin lands).
