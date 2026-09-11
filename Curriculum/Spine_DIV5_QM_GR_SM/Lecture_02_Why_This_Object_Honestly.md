@@ -49,6 +49,12 @@ Quarks come in three colours. That is a fact about the world, established at acc
 
 We used to write that the geometry has "zero dimensionless free parameters." We no longer write that. The honest count *for the choice of object* is **one measured integer, named**, and this is the sentence that names it. (The program as a whole has further inputs downstream — masses, a mixing corner, a CP phase — and Lecture 10 counts them; nothing here says otherwise.) (You will meet the same input in other clothes — $n_C = \text{rank} + N_c$, "three generations equal rank plus one" — and it is important not to count it twice. Once $a = 3$ fixes the domain, rank $2$ and dimension $5$ follow; a consequence that checks out is a check, not a second leg.)
 
+## What the uniqueness is worth — the look-elsewhere price, paid
+
+A referee will ask the right question: how many equally natural stories — an invariant read off root data, a small target read off the world — would *also* have selected a unique domain? Elie priced it in Round 142 (toy 5753, pre-registered, labels merged so that the low-dimensional coincidences $IV_3 = III_2$, $IV_4 = I_{2,2}$, $IV_6 = II_4$ count once). Six invariants, eight named targets, forty-eight stories: seven select a unique domain stably (the answer does not change when the dimension cap is raised from 30 to 400), landing on six distinct domains, and $D_{IV}^5$ is selected by exactly one of them — this one.
+
+And the finding that matters more, from the control: **the invariant $a$ selects a unique domain for 25 of the 29 integer targets from 2 to 30** — every target except $2, 4, 6, 8$, the values the infinite families and the exceptions occupy. So the number three is not special to the invariant; the invariant is special. Had quarks come in five colours, or seven, the same sentence would have picked $D_{IV}^7$ or $D_{IV}^9$ with the same theorem behind it. That is the honest weight of "one leg, one integer": the leg is always there, and the measured integer does all the selecting. The uniqueness theorem is true, and it privileges nothing about $3$.
+
 ## Why we cannot yet remove it — and why that is a result
 
 Could the identification itself be derived? Could the geometry tell us *why* colour should be its multiplicity? We asked, and the answer is a theorem of the negative kind.
@@ -66,7 +72,7 @@ This also touched two old rows, and we state their status exactly. T2543 said th
 - **Derived (classical):** $a = 3$ selects $D_{IV}^5$ uniquely among irreducible domains of rank $\geq 2$. Three verifications, one instrument retained.
 - **Identified — the one dimensionless input to the choice of the object:** colour count $=$ characteristic multiplicity.
 - **Proved absent:** any mechanism inside the geometry for that identification (dimension $4 \neq 8$; $\mathbf 3 \cong \bar{\mathbf 3}$; no larger compact subgroup).
-- **Not claimed:** forcing; zero free parameters; "the unique geometry that can support physics"; any probability.
+- **Not claimed:** forcing; zero free parameters; "the unique geometry that can support physics"; any probability; that $3$ is special to the invariant (it is not — toy 5753).
 - **Retired with this lecture:** the eleven-criterion theorem and its null model; "the genus is 7"; "SU(3) from $N_c = 3$." **Owed:** the registry edit striking T2543's clause.
 
 ## What would make this lecture wrong
