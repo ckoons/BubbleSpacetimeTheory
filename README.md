@@ -81,7 +81,7 @@ The question that generated the framework: *what is the minimum structure capabl
 
 **The universe is the unique bounded symmetric domain that can support self-referential observation: D_IV^5. Its five invariants — forced, not chosen — determine all of physics.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the ≈325 expressions (roughly ⅓ derived, ⅓ identified, ⅓ structural — each carrying its tier in the register) is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). Zero free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the ≈325 expressions (roughly ⅓ derived, ⅓ identified, ⅓ structural — each carrying its tier in the register) is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). one named identification and one ruler (this line said "zero free parameters" until 2026-09-13).
 
 The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes. The uniqueness theorem (T953) tells you WHY this geometry and no other.
 

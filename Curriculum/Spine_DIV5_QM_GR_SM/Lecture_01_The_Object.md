@@ -63,7 +63,7 @@ It is not a spacetime. It has ten real dimensions, a positive-definite metric, a
 
 It is not a Lagrangian. There is no action principle here yet. What we have is a geometry with a symmetry group, two Hilbert spaces, and a boundary; the dynamics we can state are the ones that follow from those, and we will say where they stop.
 
-The object is Wyler's. He chose $D_{IV}^5$ in 1969 because a volume ratio on it lands near $\alpha$, and that first reading — the one the object was chosen for — is the one this program has since certified dead (Lecture 8). Every *other* reading came after the object, and the registry dates them (its first rows on $D_{IV}^5$ are from March 2026). So "not chosen to fit" is true of everything in this course except the reading that motivated the choice, and we say so on page one because a referee will ask. (The history is Casey's to state in his own words; this is the referee's version of it — Cal, Round 142.) Whether it is the *right* object is a different question, and it is the next lecture's.
+The object is Wyler's. He chose $D_{IV}^5$ in 1969 because a volume ratio on it lands near $\alpha$, and that first reading — the one the object was chosen for — is the one this program has since certified dead (Lecture 8). Every *other* reading came after the object, and the registry dates them (its first rows on $D_{IV}^5$ are from March 2026). So "not chosen to fit" is true of everything in this course except the reading that motivated the choice, and we say so on page one because a referee will ask.  Whether it is the *right* object is a different question, and it is the next lecture's.
 
 ## Tier line
 

@@ -4,7 +4,7 @@ spine: "D_IV⁵: QM, GR and the SM — the derivations, tiered"
 author: "Keeper, for Casey Koons and the team"
 date: "2026-09-11 — v0.1"
 sources: "'Time, Derived' v1.0 (Lyra, 2026-08-17; FULL Keeper pass K1670, 2026-08-18; ships on Casey's word) — Sections 1–8 and 12; Fernando–Günaydin arXiv:1409.2185 for the singleton weights (scalar E = 3/2, Section 7 eq 7.1; spinor E = 2, Section 9 Table 2); T1136 (the Koons tick; 2π ruling and wording fix of 09-07, K1877); K1687 (charge in the SO(5) Cartan; the K-centre is time's rotation); the positive-time ontology note (CPT-mirror impossible; the arrow is dynamical, not geometric); K1880–K1884 (the nucleation lane); K1884 (the α-drift withdrawal)"
-tier_line: "DERIVED: time as the flow parameter of the commitment semigroup exp(−τJ); STRUCTURE-DERIVED (the paper's own word): the generator J = the SO(2)-centre weight (the linear conformal Hamiltonian), not the Casimir; POSIT (T2625 clause (i), named as an input in Lecture 2): the positive-time sector; the arrow = spectrum positivity; the two Wick faces (a standard theorem, cited). DERIVED (a consistency, not a prediction): the degree-2 cover of the imaginary circle is exactly fermion parity. IDENTIFIED: the value of the elementary tick ℏ/E. DEFINITION: the Koons tick τ₀ = N_max·ℏ/(m_e c²) = a₀/c ≈ 0.1765 as — the program's clock unit, in T1136's own convention. FLOORED: the nucleation survivor. NOT CLAIMED: a preferred frame; periodic physical time; an observable 4π; α drift."
+tier_line: "DERIVED: time as the flow parameter of the commitment semigroup exp(−τJ); STRUCTURE-DERIVED (the paper's own word): the generator J = the SO(2)-centre weight (the linear conformal Hamiltonian), not the Casimir; POSIT (T2625 clause (i), named as an input in Lecture 2): the positive-time sector; the arrow = spectrum positivity; the two Wick faces (a standard theorem, cited). DERIVED on H² (Cal §954): the degree-2 cover of the imaginary circle is forced by odd n_C; NOTE, not a claim: on the two-singleton composites the cover is fermion parity. IDENTIFIED: the value of the elementary tick ℏ/E. DEFINITION: the Koons tick τ₀ = N_max·ℏ/(m_e c²) = a₀/c ≈ 0.1765 as — the program's clock unit, in T1136's own convention. FLOORED: the nucleation survivor. NOT CLAIMED: a preferred frame; periodic physical time; an observable 4π; α drift."
 ---
 
 # Lecture 4 — Time
@@ -85,7 +85,7 @@ If time is commitment and the universe has cycles, what does the clock carry acr
 - **Derived:** time as the flow parameter; the arrow as positivity (given the sector); the two Wick faces; charge internal.
 - **Structure-derived:** $J$ as the generator (the paper's own tier).
 - **Posit, named:** the positive-time sector (T2625 (i)).
-- **Derived as a consistency, not a prediction:** the degree-2 cover is fermion parity.
+- **Derived on $H^2$ (the ruled space):** the degree-2 cover is forced by odd $n_C$. **Note, not a claim:** on the composite representation the same cover is fermion parity — a consistency with spin-statistics, carried as a note.
 - **Identified:** the value of the elementary tick.
 - **Definition:** the Koons tick $\tau_0 = a_0/c$.
 - **Floored:** the nucleation survivor.
