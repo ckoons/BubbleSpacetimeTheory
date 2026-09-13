@@ -48,17 +48,17 @@
 - Selection rules from substrate K-type transition allowed/forbidden
 
 ### Ch 7 Born Rule + Measurement (~70%)
-**Anchors**: K67 RATIFIED + T2479 + T2469
+**Anchors**: K67 RATIFIED + T2479 + T2469 **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - K67 Born = Bergman reproducing-kernel evaluation (RATIFIED Tuesday)
 - T2479 POVM substrate-derivation (Saturday)
-- T2469 SCMP operational theorem (Friday)
+- T2469 SCMP operational theorem (Friday) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Standard projective measurement + POVMs as substrate-cartography readings
 
 ### Ch 8 Bell-CHSH + Quantum Correlations (~80%)
-**Anchors**: T2399 + Calibration #17 + T2469 SCMP
+**Anchors**: T2399 + Calibration #17 + T2469 SCMP **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Standard Bell-CHSH inequality + Tsirelson bound
-- BST T2399 trace-level 126/16 substrate prediction
-- Sub-Tsirelson deviation 1/8 = 1/2^N_c falsifier (T2469 SCMP)
+- BST T2399 trace-level 126/16 substrate prediction **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
+- Sub-Tsirelson deviation 1/8 = 1/2^N_c falsifier (T2469 SCMP) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Vienna/Caltech/Munich Bell experiment design $300-500K
 
 ### Ch 9 Identical Particles + Spin-Statistics (~70%)
@@ -69,8 +69,8 @@
 - Cross-link to Vol 1 Ch 4 discrete symmetries
 
 ### Ch 10 Decoherence + Classical Limit (~40%)
-**Anchors**: T2469 SCMP + Vol 4 Ch 3 boundary
-- T2469 SCMP framework: classical limit = substrate-ensemble marginalization
+**Anchors**: T2469 SCMP + Vol 4 Ch 3 boundary **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
+- T2469 SCMP framework: classical limit = substrate-ensemble marginalization **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Substrate-coupled observer bandwidth bounded → environment-induced superselection
 - Cross-link to Zurek decoherence + Wojciech-Halliwell classical-emergence
 - Gap: full quantitative decoherence-rate derivation (multi-month)

@@ -27,7 +27,7 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
   - Vol 14 Ch 5 (Born=Bergman info-theoretic): same Born reframe + quantum erasure
   - Vol 15 (Methodology): philosophical position document on substrate-determinism + epistemic-probability + UP
 
-- **K-audit citation verification**: I've been citing T-numbers (T2401, T2419, T2421-2422, T2441-2442, T2469-2476) and K-audit numbers (K38, K57, K59, K66, K67, K73, K74) from memory throughout Vols 5-7. Tomorrow should cross-check each citation against the actual K-audit log and Lyra theorem log. Likely errors in number or scope.
+- **K-audit citation verification**: I've been citing T-numbers (T2401, T2419, T2421-2422, T2441-2442, T2469-2476) and K-audit numbers (K38, K57, K59, K66, K67, K73, K74) from memory throughout Vols 5-7. Tomorrow should cross-check each citation against the actual K-audit log and Lyra theorem log. Likely errors in number or scope. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 - **Audit chain anchor for SP-31-13 (decoherence) and SP-31-12 (POVMs)**: these are pending in the BST task list (#283, #284); I've cited them as "pending" but should confirm the precise status with the team's roadmap.
 
@@ -109,7 +109,7 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 - **Ch 11 "no Substrate Information Completeness Hypothesis as Casey-named candidate"**: I floated it; not standing. Casey decision needed.
 
 ### Cross-volume consistency to verify
-- **Ch 6 Bell sub-Tsirelson math**: S²_BST = 8 − 1/8 = 63/8 → S_BST = 2√(63/32) ≈ 2.8062. Should be IDENTICAL to Vol 5 Ch 8.
+- **Ch 6 Bell sub-Tsirelson math**: S²_BST = 8 − 1/8 = 63/8 → S_BST = 2√(63/32) ≈ 2.8062. Should be IDENTICAL to Vol 5 Ch 8. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Ch 5 Born=Bergman**: framing must match Vol 5 Ch 7 exactly (K67 ratification status, Faraut-Koranyi normalization 225).
 - **Ch 9 + Ch 11 K-bit counts**: Ch 9 says "K ≈ 100 bits" for BST; Ch 11 says "0 free parameters." These should reconcile (the 100 bits is the encoding of D_IV⁵ structure + integers, not free parameters).
 
@@ -134,7 +134,7 @@ Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 ## Cross-volume threads to make explicit
 
 - **The substrate-derivation arc through volumes**: Vol 0 → Vol 5 (QM) → Vol 6 (thermo) → Vol 7 (EM) → Vol 14 (info) all share the substrate Hilbert space + 4-zone cycle + DCCP machinery. A "How Volumes Connect" section in Foreword would help readers see the unified picture.
-- **The seven Casey-named principles + DCCP**: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP, DCCP (with UP sub-principle) — these are now NINE principles. Methodology volume Vol 15 should treat them systematically.
+- **The seven Casey-named principles + DCCP**: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP, DCCP (with UP sub-principle) — these are now NINE principles. Methodology volume Vol 15 should treat them systematically. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Casey-vision-derived insights as a class**: the team consistently saves Casey vision-derived insights as memory; should they have a standard documentation pattern (e.g., a "Casey's Vision Log")?
 
 ## A_sub Discovery Program — Casey's "Mathematical Objects Ladder" framing (Sunday EOD 2026-05-24)
@@ -234,7 +234,7 @@ Treat Vol 16 + Vol 17 as **outgrowth** of the existing 16-volume set, not restru
 2. **Quantum erasure as DCCP test**: weak-measurement experiments tracking commitment-completion progression could in principle detect substrate-tick discreteness. Lab-accessible.
 3. **Substrate-frame rendering as computational physics**: connect to cellular-automaton physics lineage (Wolfram, Toffoli) with BST-native version where the substrate's update rule is the substrate Casimir on K-types.
 4. **The "discrete vs continuous" tension across the curriculum**: every Vol has a continuous classical formulation and a discrete substrate-tick formulation; DCCP gives a unified way of talking about the continuum limit at $t_K \to 0$.
-5. **Why $g = 7$ shows up so often**: appears in BST primary list, in K-type degeneracy sequence (1, 3, 5, 7), in cyclotomic cascade RG, in $2^g = 128$ Reed-Solomon, in g-2 anomaly, in Bell SCMP exponent. This deserves a unifying paper or chapter.
+5. **Why $g = 7$ shows up so often**: appears in BST primary list, in K-type degeneracy sequence (1, 3, 5, 7), in cyclotomic cascade RG, in $2^g = 128$ Reed-Solomon, in g-2 anomaly, in Bell SCMP exponent. This deserves a unifying paper or chapter. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 6. **Genetic code as Reed-Solomon at biological scale (Vol 13 Ch 2)**: experimentally testable via mutation-error pattern analysis. Could be undergraduate-thesis-grade computational toy.
 7. **Periodic table as substrate cartography (Vol 12 Ch 1)**: orbital sequence (1, 3, 5, 7) = (trivial + N_c, n_C, g). Mendeleev-as-substrate-window framing for chemistry-audience outreach.
 8. **Vol 14 as standalone information-substrate primer for CS audience**: extract for IEEE Trans Info Theory or similar venue.

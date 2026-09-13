@@ -23,7 +23,7 @@ BST's substrate coding — Reed-Solomon on GF(2^g) = GF(128), Bergman-kernel com
 A "substrate-optimal" coding scheme must satisfy:
 
 1. **Finite alphabet**: substrate has bounded internal state at each spatial position
-2. **Bounded operational power per cycle**: per Casey's SCMP (Vol 5 Ch 8) and Koons-tick discrete time
+2. **Bounded operational power per cycle**: per Casey's SCMP (Vol 5 Ch 8) and Koons-tick discrete time **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 3. **MDS error correction**: substrate must correct against finite noise rate
 4. **Holomorphic commitment**: substrate commits to single output (Born = Bergman, Ch 5)
 5. **Minimum free parameters**: parsimony — substrate cannot tune
@@ -52,7 +52,7 @@ Why not GF(256) (g=8)? Failing T2467/T2468 uniqueness — g=7 is BST-primary, g=
 
 Why not Plank time as tick (no $\alpha^{36}$)? Failing observed $10^{-120}$ s natural cosmological cycle inference.
 
-Why not infinite-precision continuous-time? Tsirelson saturation contradicts BST sub-Tsirelson prediction at 1/8 = $1/2^{N_c}$ deviation.
+Why not infinite-precision continuous-time? Tsirelson saturation contradicts BST sub-Tsirelson prediction at 1/8 = $1/2^{N_c}$ deviation. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ### 8.5 Substrate Information Completeness
 

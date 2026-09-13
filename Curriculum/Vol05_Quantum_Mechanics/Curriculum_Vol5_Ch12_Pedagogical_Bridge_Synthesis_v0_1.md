@@ -14,7 +14,7 @@ load_bearing: "Vol 5 closing synthesis: Bergman → operators → Schrödinger �
 
 ## Level 1 — one sentence
 
-Everything in this volume hangs together as a single substrate-derivation arc: Bergman Hilbert space $H^2(D_{IV}^5)$ gives the substrate-natural Hilbert space (Ch 1) → position, momentum, angular momentum, spin operators are substrate-natural with $[\hat x, \hat p] = i\hbar$ derived (Ch 2-3) → substrate Casimir is the Hamiltonian with first eigenvalue $C_2 = 6$ exactly (Ch 4) → path integral concentrates on classical paths via many-tick coherent sum (Ch 5) → hydrogen and atomic spectra fall out (Ch 6) → Born rule = Bergman projection in Zone 3 commitment (Ch 7, K67) → Bell correlations capped at $S \le 2.8062$ with $1/8 = 1/2^{N_c}$ gap (Ch 8, SCMP) → spin-statistics from Pin(2) double cover (Ch 9) → decoherence + Zone 3 commits one outcome (Ch 10) → POVMs extend Born=Bergman (Ch 11).
+Everything in this volume hangs together as a single substrate-derivation arc: Bergman Hilbert space $H^2(D_{IV}^5)$ gives the substrate-natural Hilbert space (Ch 1) → position, momentum, angular momentum, spin operators are substrate-natural with $[\hat x, \hat p] = i\hbar$ derived (Ch 2-3) → substrate Casimir is the Hamiltonian with first eigenvalue $C_2 = 6$ exactly (Ch 4) → path integral concentrates on classical paths via many-tick coherent sum (Ch 5) → hydrogen and atomic spectra fall out (Ch 6) → Born rule = Bergman projection in Zone 3 commitment (Ch 7, K67) → Bell correlations capped at $S \le 2.8062$ with $1/8 = 1/2^{N_c}$ gap (Ch 8, SCMP) → spin-statistics from Pin(2) double cover (Ch 9) → decoherence + Zone 3 commits one outcome (Ch 10) → POVMs extend Born=Bergman (Ch 11). **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ## Level 2 — graduate-physicist precision
 
@@ -31,7 +31,7 @@ This volume has built quantum mechanics from substrate, chapter by chapter:
 | 5 | Heisenberg picture; path integral; Wick rotation | Substrate many-tick coherent sum; heat kernel on $D_{IV}^5$ | Paper #9 |
 | 6 | Hydrogen spectrum; Bohr radius; $\alpha^{-1} = 137$ | $SO(4)$ hidden symmetry inside $SO(5)$; $N_{\max} = 137$ | T841, K38 |
 | 7 | Born rule $P(n) = |\langle\phi_n|\psi\rangle|^2$ | Bergman-kernel projection in Zone 3 commitment | T2401, K67 |
-| 8 | Bell-CHSH bound; sub-Tsirelson 1/8 gap | SCMP coherence-maintenance, $S^2 \le 8 - 1/2^{N_c}$ | T2469, K66 |
+| 8 | Bell-CHSH bound; sub-Tsirelson 1/8 gap | SCMP coherence-maintenance, $S^2 \le 8 - 1/2^{N_c}$ | T2469, K66 **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** |
 | 9 | Spin-statistics: bosons vs fermions | Pin(2) double cover; $2\pi$ rotation = $(-1)^{2k}$ | T2471, SP-31-15 |
 | 10 | Decoherence; classical limit | Zone 3 + environmental K-type coupling | SP-31-13 |
 | 11 | POVMs; qubits; entanglement; no-cloning | Naimark dilation; K-type tensor products; substrate info conservation | SP-31-12 |
@@ -52,7 +52,7 @@ Each entry is substantive, with explicit substrate-mechanism derivation rather t
 - Decoherence
 
 **New BST-specific predictions / departures:**
-- $S \le 2.8062$ instead of $S \le 2.8284$ for Bell-CHSH (1/8 sub-Tsirelson; $\pm 0.01$ falsifier)
+- $S \le 2.8062$ instead of $S \le 2.8284$ for Bell-CHSH (1/8 sub-Tsirelson; $\pm 0.01$ falsifier) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Time granularity at $t_K \sim 10^{-120}$ s (atomic-clock falsifier at extreme precision)
 - BaTiO3 137-plane substrate eigentone (~$25K experiment, Vol 9 Ch 8)
 - Photonic crystal substrate eigentone (~$10K experiment, Vol 9 Ch 9)
@@ -85,7 +85,7 @@ The Ehrenfest theorem ($d\langle \hat x\rangle/dt = \langle\hat p\rangle/m$, $d\
 ### 12.6 Bridge to Vol 14 (Information Theory)
 
 Chapter 7: Born rule = Bergman projection.
-Chapter 8: Bell sub-Tsirelson = SCMP coherence overhead.
+Chapter 8: Bell sub-Tsirelson = SCMP coherence overhead. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 Chapter 11: POVMs + no-cloning + entanglement = substrate K-type information conservation.
 
 Vol 14 develops the information-theoretic substrate framework: Reed-Solomon coding on $\text{GF}(128)$, Koons-tick sampling, Shannon channel capacity. The BST substrate is operationally an information channel; this volume's quantum mechanics is the channel's algorithmic behavior.
@@ -96,7 +96,7 @@ To be honest about scope:
 
 - The Bergman Hilbert space framework is the *current* substrate Hilbert space specification (SP-31-1); alternative specifications may emerge as substrate theory matures.
 - K67 Born=Bergman is audit-partial-ready, not RATIFIED. Closure requires Elie K52a Sessions 6-14 substrate-Hamiltonian completion. If those sessions fail to derive the Bergman-kernel projection by construction from substrate dynamics, the Born derivation fails and Chapter 7 retreats to a postulate.
-- SCMP / Bell 1/8 gap is the substrate-mechanism prediction but requires experimental confirmation. If the Bell experiment shows $S > 2.8062$ at $\pm 0.01$, the substrate framework is falsified in the bipartite-correlation sector.
+- SCMP / Bell 1/8 gap is the substrate-mechanism prediction but requires experimental confirmation. If the Bell experiment shows $S > 2.8062$ at $\pm 0.01$, the substrate framework is falsified in the bipartite-correlation sector. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Time granularity at $10^{-120}$ s is sub-Planck by 77 orders of magnitude; no current experiment approaches this scale. The prediction is structural, not empirical.
 
 These are honest scope statements per the Quaker discipline (Volume 15 Chapter 7). The substrate framework is a research program at the v0.3 chapter-grade textbook level, not a finalized publication.
@@ -114,7 +114,7 @@ These are honest scope statements per the Quaker discipline (Volume 15 Chapter 7
 | SP-31-12 | POVM extension | pending |
 | SP-31-13 | Decoherence mechanism | pending |
 | SP-31-15 | Spin-statistics from substrate | pending |
-| Casey-named #8 (SCMP, T2469) | Bell sub-Tsirelson 1/8 gap | STANDING |
+| Casey-named #8 (SCMP, T2469) | Bell sub-Tsirelson 1/8 gap | STANDING **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** |
 
 The volume's load-bearing content is at the C13 / K57 RATIFIED / K67 audit-partial-ready level. Further closure depends on the SP-31 program (Friday May 22 EOD state).
 
@@ -133,9 +133,9 @@ Vol 6 develops thermodynamics and statistical mechanics — starting from the pa
 - **Standard QM**: Sakurai and Napolitano; Griffiths; Cohen-Tannoudji
 - **Bergman framework**: Faraut and Koranyi 1990
 - **BST quantum-mechanical anchors**: this volume's chapter-end references
-- **BST audit chain**: K38, K57, K66, K67; Lyra T2401, T2419, T2421-T2422, T2441-T2442, T2469-T2472
+- **BST audit chain**: K38, K57, K66, K67; Lyra T2401, T2419, T2421-T2422, T2441-T2442, T2469-T2472 **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 0 Chapter 3**: 4-zone commitment cycle (foundation for Chapters 4, 7, 10)
 - **Volume 6 Chapter 5**: partition function (Wick-rotated from Chapter 5)
 - **Volume 8**: classical mechanics (Scale 2 limit of Chapter 10)
-- **Volume 14 Chapters 4-6**: Koons tick, Born=Bergman, Bell sub-Tsirelson (info-theoretic readings)
+- **Volume 14 Chapters 4-6**: Koons tick, Born=Bergman, Bell sub-Tsirelson (info-theoretic readings) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 15 Chapter 7**: Quaker discipline (honest scope statements)

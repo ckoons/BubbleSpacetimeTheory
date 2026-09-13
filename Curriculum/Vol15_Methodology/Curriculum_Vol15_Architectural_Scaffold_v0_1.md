@@ -85,7 +85,7 @@
 - **#5 Integer Web Principle**
 - **#6 Substrate Cognition Network Hypothesis** (DOUBLE-LOCKED EXTERNAL per Cal #50)
 - **#7 D_IV⁵ Rigidity Principle** (derived T2467+T2468, Friday 2026-05-22)
-- **#8 Substrate Coherence-Moderation Principle** (derived T2469, Friday — sub-Tsirelson 1/8 falsifier)
+- **#8 Substrate Coherence-Moderation Principle** (derived T2469, Friday — sub-Tsirelson 1/8 falsifier) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Cal #99 META-theorem discipline**: substrate-derivation theorems are NOT new Strong-Uniqueness criteria
 - Gap: per-principle chapter section depth
 

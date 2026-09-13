@@ -63,7 +63,7 @@ Composite $\hat{C}\hat{P}\hat{T}$ commutes with substrate Hamiltonian universall
 
 ## 6.7 Bell–CHSH and number
 
-$\hat{B}$ on bipartite states: $\text{Tr}(\hat{B}^2) = 126/16 = 7.875$, with sub-Tsirelson deviation $1/8 = 1/2^{N_c}$ — substrate signature falsifier.
+$\hat{B}$ on bipartite states: $\text{Tr}(\hat{B}^2) = 126/16 = 7.875$, with sub-Tsirelson deviation $1/8 = 1/2^{N_c}$ — substrate signature falsifier. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 $\hat{N}$ counts substrate cycles. Particles are substrate cycles (T1922).
 
@@ -79,7 +79,7 @@ $\hat{N}$ counts substrate cycles. Particles are substrate cycles (T1922).
 | $\hat{\gamma}^5$ | $SO(2)$ half-weight | massless: yes | $\pm 1$ |
 | $\hat{P}, \hat{T}, \hat{C}$ | discrete involutions | strong+EM yes; weak no | $\pm 1$ |
 | $\hat{C}\hat{P}\hat{T}$ | composite | universal | $\pm 1$ |
-| $\hat{B}$ | cycle correlator | invariant | $\text{Tr}(\hat{B}^2) = 126/16$ |
+| $\hat{B}$ | cycle correlator | invariant | $\text{Tr}(\hat{B}^2) = 126/16$ **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** |
 | $\hat{N}$ | cycle counter | conserved | $\mathbb{Z}_{\geq 0}$ |
 
 ## 6.9 What comes next

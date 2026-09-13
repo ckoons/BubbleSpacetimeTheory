@@ -21,9 +21,9 @@
 - K59 RATIFIED Cyclotomic Mechanism Framework
 
 ### Ch 3 Shannon-from-Substrate Channel Capacity (~40%)
-**Anchors**: T2469 SCMP + Shannon 1948 + substrate-tick rate
+**Anchors**: T2469 SCMP + Shannon 1948 + substrate-tick rate **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Shannon's theorems in BST framework via substrate-tick GF(128)^k capacity
-- Substrate noise model from finite-bandwidth observers (T2469 SCMP)
+- Substrate noise model from finite-bandwidth observers (T2469 SCMP) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Channel capacity bounded by substrate-tick rate + N_max cutoff
 
 ### Ch 4 Nyquist Sampling at Koons Tick Rate (~35%)
@@ -39,9 +39,9 @@
 - Information extraction via Bergman kernel observer-coupling
 
 ### Ch 6 Bell Sub-Tsirelson Information-Theoretic Bound (~75%)
-**Anchors**: T2469 SCMP + Calibration #17 + T2399 Bell-CHSH 126/16
-- |S|² = 126/16 < 2√2 = 8 Tsirelson bound from N_c = 3 substrate depth
-- Casey-named #8 SCMP falsifier 1/2^N_c = 1/8 sub-Tsirelson deviation
+**Anchors**: T2469 SCMP + Calibration #17 + T2399 Bell-CHSH 126/16 **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
+- |S|² = 126/16 < 2√2 = 8 Tsirelson bound from N_c = 3 substrate depth **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
+- Casey-named #8 SCMP falsifier 1/2^N_c = 1/8 sub-Tsirelson deviation **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Information-theoretic interpretation of substrate-mediated correlations
 
 ### Ch 7 AC Graph as Theorem Information Network (~75%) — Grace+Keeper LEAD

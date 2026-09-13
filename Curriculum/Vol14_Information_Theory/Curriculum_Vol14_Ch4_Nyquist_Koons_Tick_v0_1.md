@@ -83,7 +83,7 @@ Within a single commitment cycle (one Koons tick), the substrate state is *uncom
 
 **UP free-will reframe**: free will, where it exists, lives in the chain of uncommitted priors before commitment. A Laplacian demon attempting to predict a macroscopic event would need the commitment chain to *close* before predicting — but by the time the demon completes the prediction, the situation has moved. Determinism, in BST's internal language, is the limit case where commitment-chain dependencies are short; agency is the case where they are long and influence-chained.
 
-**Falsifier**: detection of substrate-scale events with $\tau < t_K$ would falsify both the Koons tick identification and DCCP. Conversely, observation of *granularity* in macroscopic measurements (sub-Nyquist artifacts at predicted scales) would corroborate. SP-30-1 (Bell sub-Tsirelson, Vienna IQOQI) probes related substrate-discreteness signatures at $\sim 1/8$ deviation scale.
+**Falsifier**: detection of substrate-scale events with $\tau < t_K$ would falsify both the Koons tick identification and DCCP. Conversely, observation of *granularity* in macroscopic measurements (sub-Nyquist artifacts at predicted scales) would corroborate. SP-30-1 (Bell sub-Tsirelson, Vienna IQOQI) probes related substrate-discreteness signatures at $\sim 1/8$ deviation scale. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 **Tier discipline**: DCCP and UP are FRAMEWORK-PLUS candidates (Cal #126), not RATIFIED. They are interpretive structure consistent with Koons-tick + Nyquist forward derivation, with Vol 5 Ch 7 (Born = Bergman projection as commitment-cycle closure) and Vol 5 Ch 10 (decoherence as multi-tick Zone 3 commitment) as supporting framework. Empirical ratification gates on SP-30 outreach program.
 
@@ -97,7 +97,7 @@ Within a single commitment cycle (one Koons tick), the substrate state is *uncom
 - **Casey-named candidate #9**: DCCP, filed Friday 2026-05-23
 - **Casey-named candidate UP**: Uncommitted Priors free-will reframe
 - **Cal #126**: FRAMEWORK-PLUS tier disposition
-- **SP-30-1**: Bell sub-Tsirelson Vienna IQOQI outreach (sent Sunday 2026-05-24 EOD) — empirical leg
+- **SP-30-1**: Bell sub-Tsirelson Vienna IQOQI outreach (sent Sunday 2026-05-24 EOD) — empirical leg **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Calibration #27 STANDING**: forward-derivation discipline (DCCP derived FROM Nyquist + Koons tick substrate structure, not backward-engineered to target)
 
 ## Level 3 — 5th-grader accessibility
@@ -116,5 +116,5 @@ Chapter 5 develops Born = Bergman as information-theoretic measurement — the o
 
 - Shannon 1949 sampling theorem (classical Nyquist)
 - Joos & Zeh 2003 *Decoherence and the Appearance of a Classical World* (decoherence timescales used in DCCP arithmetic)
-- BST: T2405 (Koons tick); Vol 0 Ch 3 §3.4.5 (DCCP substrate-OS level); Vol 5 Ch 7 §7.6.5 (Born = Bergman DCCP reading); Vol 5 Ch 10 §10.4.5 (decoherence = multi-tick commitment); Vol 8 Ch 3 (classical Nyquist origin); Vol 14 Ch 5 (Born = Bergman info-theoretic); Vol 14 Ch 6 (Bell sub-Tsirelson information signature)
+- BST: T2405 (Koons tick); Vol 0 Ch 3 §3.4.5 (DCCP substrate-OS level); Vol 5 Ch 7 §7.6.5 (Born = Bergman DCCP reading); Vol 5 Ch 10 §10.4.5 (decoherence = multi-tick commitment); Vol 8 Ch 3 (classical Nyquist origin); Vol 14 Ch 5 (Born = Bergman info-theoretic); Vol 14 Ch 6 (Bell sub-Tsirelson information signature) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - DCCP integration sweep #302 (Keeper, 2026-05-24 → 2026-05-25): Vol 0 Ch 3 + Vol 5 Ch 7 + Vol 5 Ch 10 + Vol 14 Ch 4 (this chapter) — sweep complete

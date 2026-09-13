@@ -79,7 +79,7 @@ Stack growth: ~1 layer per week during active research.
 
 ## Level 3 — 5th-grader accessibility
 
-**8 STANDING + 2 CANDIDATE substrate-physics principles + 1 META-Hypothesis** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; 2 substrate-physics candidates: DCCP-UP + SCCB; META-Hypothesis: Information Completeness — categorically separated per Cal #120). **Casey directive Sunday 2026-05-24**: attempt proofs of DCCP + Information Completeness (Lyra tasks #320, #321). **Cal external referee** provides Mode 1/5/6 calibration patterns. **25 STANDING + 1 CANDIDATE + 1 META methodology stack** accumulated from past failure modes.
+**8 STANDING + 2 CANDIDATE substrate-physics principles + 1 META-Hypothesis** organize BST's foundations (8 standing: SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Cognition Network, Rigidity, SCMP; 2 substrate-physics candidates: DCCP-UP + SCCB; META-Hypothesis: Information Completeness — categorically separated per Cal #120). **Casey directive Sunday 2026-05-24**: attempt proofs of DCCP + Information Completeness (Lyra tasks #320, #321). **Cal external referee** provides Mode 1/5/6 calibration patterns. **25 STANDING + 1 CANDIDATE + 1 META methodology stack** accumulated from past failure modes. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ---
 

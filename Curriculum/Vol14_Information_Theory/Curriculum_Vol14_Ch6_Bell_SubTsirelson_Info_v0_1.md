@@ -5,7 +5,7 @@ date: "2026-05-24 Sunday"
 status: "v0.4 — FIRED 2026-09-11 (K1893; register E4): the sub-Tsirelson bound was refuted by Poh et al. 2015 at 41.9σ; kept as the May record"
 volume: "Vol 14 Information Theory"
 chapter: 6
-load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; substrate commitment-cycle finite operational power bound; K66 candidate"
+load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; substrate commitment-cycle finite operational power bound; K66 candidate" **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 ---
 
 # Chapter 6 — Bell Sub-Tsirelson as Information Bound
@@ -16,7 +16,7 @@ load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; 
 
 ## Level 1 — one sentence
 
-BST predicts Bell-CHSH correlations below Tsirelson's quantum bound by exactly $1/2^{N_c} = 1/8$: $S^2_{BST} = S^2_{Tsirelson} - 1/8 = 8 - 1/8 = 63/8$, equivalently $S_{BST} \le \sqrt{63/8} \approx 2.8062$ vs Tsirelson's $2\sqrt{2} \approx 2.8284$, representing the substrate's finite operational power per commitment cycle (SCMP principle, T2469, Vol 5 Ch 8) — a testable falsifier at $\sim 0.78\%$ deviation distinguishing BST from standard QM.
+BST predicts Bell-CHSH correlations below Tsirelson's quantum bound by exactly $1/2^{N_c} = 1/8$: $S^2_{BST} = S^2_{Tsirelson} - 1/8 = 8 - 1/8 = 63/8$, equivalently $S_{BST} \le \sqrt{63/8} \approx 2.8062$ vs Tsirelson's $2\sqrt{2} \approx 2.8284$, representing the substrate's finite operational power per commitment cycle (SCMP principle, T2469, Vol 5 Ch 8) — a testable falsifier at $\sim 0.78\%$ deviation distinguishing BST from standard QM. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ## Level 2 — graduate-physicist precision
 
@@ -34,9 +34,9 @@ Tsirelson 1980: quantum mechanics allows $|S| \le 2\sqrt{2} \approx 2.8284$.
 
 Achieved by maximally entangled Bell pair with appropriate measurement angles.
 
-### 6.3 BST sub-Tsirelson prediction
+### 6.3 BST sub-Tsirelson prediction [FIRED 2026-09-13 — register E4; see the bracket below]
 
-T2469 (Casey's SCMP principle): BST substrate has finite operational power per commitment cycle, yielding strict reduction below Tsirelson:
+T2469 (Casey's SCMP principle): BST substrate has finite operational power per commitment cycle, yielding strict reduction below Tsirelson: **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 $$S^2_{BST} = S^2_{Tsirelson} - 1/2^{N_c} = 8 - 1/8 = 63/8$$
 
@@ -48,7 +48,7 @@ Deviation from Tsirelson: $(2\sqrt{2} - 2.8062)/(2\sqrt{2}) \approx 0.78\%$.
 
 The substrate commits to one outcome per Koons tick at finite channel capacity $g = 7$ bits/tick (Vol 14 Ch 3).
 
-Quantum mechanics in its idealized formulation assumes infinite-precision commitment (Tsirelson saturation). BST's sub-Tsirelson reduction is the substrate's finite-capacity correction.
+Quantum mechanics in its idealized formulation assumes infinite-precision commitment (Tsirelson saturation). BST's sub-Tsirelson reduction is the substrate's finite-capacity correction. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 The $1/2^{N_c}$ factor is exact: it equals one substrate output level (1/8 of the substrate's $2^{N_c} = 8$-level commitment space at color-degree resolution).
 
@@ -117,13 +117,13 @@ Mode 1 honesty preserved per Calibration #27 STANDING: Toy 3522 does NOT prove A
 
 ### 6.6 K-audit anchors
 
-- **T2469**: SCMP principle (Casey-named #8)
+- **T2469**: SCMP principle (Casey-named #8) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **K66 candidate**: substrate-CHSH (pending Elie multi-month closure)
-- **Vol 5 Ch 8**: Bell SCMP
+- **Vol 5 Ch 8**: Bell SCMP **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ## Level 3 — 5th-grader accessibility
 
-**Bell-CHSH**: classical theories satisfy $|S| \le 2$; quantum mechanics allows up to $2\sqrt{2} \approx 2.83$ (Tsirelson). **BST predicts** $S_{BST} \approx 2.8062$, exactly $1/8 = 1/2^{N_c}$ less than Tsirelson squared. **Why**: substrate's finite operational power per Koons tick prevents Tsirelson saturation. **Falsifier**: improved Bell experiments at 0.1% precision could detect 0.78% sub-Tsirelson — distinguishes BST from standard QM. **Cost**: $300-500K.
+**Bell-CHSH**: classical theories satisfy $|S| \le 2$; quantum mechanics allows up to $2\sqrt{2} \approx 2.83$ (Tsirelson). **BST predicts** $S_{BST} \approx 2.8062$, exactly $1/8 = 1/2^{N_c}$ less than Tsirelson squared. **Why**: substrate's finite operational power per Koons tick prevents Tsirelson saturation. **Falsifier**: improved Bell experiments at 0.1% precision could detect 0.78% sub-Tsirelson — distinguishes BST from standard QM. **Cost**: $300-500K. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ---
 
@@ -134,4 +134,4 @@ Chapter 7 develops AC graph as theorem network.
 ## Where to look this up
 
 - CHSH 1969; Tsirelson 1980
-- BST: T2469; K66; Vol 5 Ch 8
+- BST: T2469; K66; Vol 5 Ch 8 **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**

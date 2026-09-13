@@ -51,7 +51,7 @@ Vol 14 Ch 2 develops the Reed-Solomon coding on GF(128) in detail.
 - Ch 3: Shannon channel capacity
 - Ch 4: Nyquist sampling + Koons tick
 - Ch 5: Born = Bergman measurement (info-theoretic reading)
-- Ch 6: Bell sub-Tsirelson information bound
+- Ch 6: Bell sub-Tsirelson information bound **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Ch 7: AC graph as theorem network
 - Ch 8: BST coding optimal (substrate-derived)
 - Ch 9: Kolmogorov complexity + AC(0)

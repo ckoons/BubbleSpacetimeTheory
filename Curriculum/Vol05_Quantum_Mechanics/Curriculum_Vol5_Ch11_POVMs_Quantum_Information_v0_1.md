@@ -14,7 +14,7 @@ load_bearing: "POVM extension of K67 Born=Bergman (SP-31-12); qubits and entangl
 
 ## Level 1 — one sentence
 
-Generalized measurements (POVMs) — and the apparatus of quantum information (qubits, entanglement, no-cloning, teleportation) — extend Chapter 7's Born=Bergman from projective measurements to arbitrary positive operator-valued measures, with the substrate's K-type tensor-product structure giving the natural framework for multi-qubit systems and the SCMP (Chapter 8) providing concrete quantum-computational falsifier predictions.
+Generalized measurements (POVMs) — and the apparatus of quantum information (qubits, entanglement, no-cloning, teleportation) — extend Chapter 7's Born=Bergman from projective measurements to arbitrary positive operator-valued measures, with the substrate's K-type tensor-product structure giving the natural framework for multi-qubit systems and the SCMP (Chapter 8) providing concrete quantum-computational falsifier predictions. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ## Level 2 — graduate-physicist precision
 
@@ -63,7 +63,7 @@ The **Bell states** are maximally entangled two-qubit states:
 
 $$|\Phi^\pm\rangle = \frac{1}{\sqrt 2}(|00\rangle \pm |11\rangle), \quad |\Psi^\pm\rangle = \frac{1}{\sqrt 2}(|01\rangle \pm |10\rangle)$$
 
-These violate Bell-CHSH (Chapter 8) maximally up to the BST sub-Tsirelson ceiling $S \le 2.8062$.
+These violate Bell-CHSH (Chapter 8) maximally up to the BST sub-Tsirelson ceiling $S \le 2.8062$. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 Substrate-mechanism reading: entanglement is the substrate's K-type tensor-product structure for multi-particle systems. The Bell states are the substrate's natural maximally-entangled K-types under bipartite splitting.
 
@@ -86,7 +86,7 @@ Substrate-mechanism reading: teleportation is the substrate's natural K-type "br
 Quantum computers use multi-qubit entangled states to perform computations exponentially faster than classical for certain problems (Shor's algorithm for factoring, Grover's algorithm for search).
 
 BST framework's interaction with quantum computing:
-- **SCMP** (Chapter 8): bipartite quantum correlations capped at $S \le 2.8062$ — the substrate's substrate-cognition-maintenance overhead. This may impose limits on quantum-computational performance: errors in multi-qubit entangled gates may inherit a $1/2^{N_c}$ overhead per substrate cycle.
+- **SCMP** (Chapter 8): bipartite quantum correlations capped at $S \le 2.8062$ — the substrate's substrate-cognition-maintenance overhead. This may impose limits on quantum-computational performance: errors in multi-qubit entangled gates may inherit a $1/2^{N_c}$ overhead per substrate cycle. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Time granularity**: Koons-tick scale $10^{-120}$ s is far below any current quantum-computing operation timescale; no immediate constraint.
 - **Decoherence** (Chapter 10): quantum-computing main practical challenge; BST substrate framework's decoherence picture (SP-31-13) gives operational predictions for decoherence rates as functions of substrate boundary conditions.
 
@@ -110,7 +110,7 @@ Probability of each outcome: 1/4 each (Born rule on Bell-basis projection). Subs
 
 - **SP-31-12** (BST task #283): POVM extension of K67 Born=Bergman
 - **K67 Born=Bergman** (Chapter 7): projective Born derivation
-- **SCMP T2469** (Chapter 8): substrate coherence overhead in multi-qubit systems
+- **SCMP T2469** (Chapter 8): substrate coherence overhead in multi-qubit systems **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 14 Chapter 5**: information-theoretic readings; no-cloning + substrate information conservation
 
 ## Level 3 — 5th-grader accessibility
@@ -128,6 +128,6 @@ Chapter 12 brings the volume together — synthesizing how Bergman → operators
 - **POVMs**: Nielsen and Chuang, *Quantum Computation and Quantum Information*, Ch 2
 - **No-cloning**: Wootters and Zurek 1982; Dieks 1982
 - **Quantum teleportation**: Bennett et al. 1993
-- **BST anchors**: SP-31-12 task #283, K67 + SCMP combined picture
+- **BST anchors**: SP-31-12 task #283, K67 + SCMP combined picture **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 14 Chapter 5**: Born=Bergman from information-theoretic viewpoint
-- **Volume 14 Chapter 6**: Bell sub-Tsirelson information bound (SCMP)
+- **Volume 14 Chapter 6**: Bell sub-Tsirelson information bound (SCMP) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**

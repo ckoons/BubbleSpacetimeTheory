@@ -24,7 +24,7 @@ Vol 5 is the **substrate → standard QM emergence pedagogical bridge**. Demonst
 - Position + momentum + angular momentum + spin standard QM operators emerge from substrate-coset-Cartan-decomposition operators (Vol 1 Ch 6 6/6 zoo)
 - Schrödinger equation iℏ ∂|ψ⟩/∂t = H|ψ⟩ emerges from substrate dynamics H_sub = Casimir on L²(D_IV⁵; L_λ) (Vol 1 Ch 7) at macroscopic scale
 - Born rule |ψ|² = Bergman reproducing-kernel evaluation (K67 RATIFIED Tuesday)
-- Measurement formalism + POVMs derive from substrate observer-bandwidth-bounded recording (T2469 SCMP framework)
+- Measurement formalism + POVMs derive from substrate observer-bandwidth-bounded recording (T2469 SCMP framework) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ## Chapter outline (10-12 chapters, TO BUILD)
 
@@ -36,10 +36,10 @@ Vol 5 is the **substrate → standard QM emergence pedagogical bridge**. Demonst
 | 4 | **Schrödinger Equation** | Standard time-dependent + independent Schrödinger from substrate H_sub dynamics | Vol 1 Ch 7 dynamics |
 | 5 | **Heisenberg Picture + Path Integral** | Standard Heisenberg + Feynman path integral as substrate dynamics representations | Vol 1 Ch 7 + Ch 9 |
 | 6 | **Hydrogen Atom + Atomic Spectra** | Standard hydrogen energy levels + selection rules from substrate-natural Casimir spectrum | Vol 1 Ch 5 Casimir |
-| 7 | **Born Rule + Measurement** | Born = Bergman (K67 RATIFIED); POVMs + projective measurement | T2469 SCMP framework |
+| 7 | **Born Rule + Measurement** | Born = Bergman (K67 RATIFIED); POVMs + projective measurement | T2469 SCMP framework **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** |
 | 8 | **Bell-CHSH + Quantum Correlations** | Standard Bell experiments + Tsirelson bound + the BST sub-Tsirelson 1/8 falsifier — **FIRED** (Poh et al. 2015, 41.9σ; K1893, register E4, 2026-09-11) | T2399 + Calibration #17; E4 |
 | 9 | **Identical Particles + Spin-Statistics** | Pauli exclusion + boson/fermion partition from Pin(2) Z_2 grading | Paper #133 v0.2 |
-| 10 | **Decoherence + Classical Limit** | Macroscopic classical emergence from substrate ensemble-marginalization | T2469 SCMP + Vol 4 Ch 3 boundary |
+| 10 | **Decoherence + Classical Limit** | Macroscopic classical emergence from substrate ensemble-marginalization | T2469 SCMP + Vol 4 Ch 3 boundary **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** |
 | 11 | **POVMs + Quantum Information Basics** | Born = Bergman extension to general POVMs | SP-31 #283 |
 | 12 | **Pedagogical Bridge Synthesis** | Standard QM curriculum recovery + cross-curriculum reading guide | Vol 1 Ch 2-9 + Vol 0 Ch 4-7 cross-link |
 
@@ -49,7 +49,7 @@ Vol 5 is the **substrate → standard QM emergence pedagogical bridge**. Demonst
 
 **Inputs from Vol 0**:
 - D_IV⁵ + five integers + Bergman H²(D_IV⁵)
-- Operator zoo 12/14 STRUCTURALLY VERIFIED (T2419, T2422, T2425, T2421, T2399, H_sub Elie + T2470/T2471/T2472)
+- Operator zoo 12/14 STRUCTURALLY VERIFIED (T2419, T2422, T2425, T2421, T2399, H_sub Elie + T2470/T2471/T2472) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Substrate-coset Cartan decomposition + Pin(2) Z_2 grading
 
 **Inputs from Vol 1**:

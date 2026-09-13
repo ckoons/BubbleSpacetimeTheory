@@ -102,7 +102,7 @@ The companion principle, **Uncommitted Priors (UP)**, addresses determinism and 
 
 This is the BST-internal reading of the Laplacian determinism question. The substrate is operationally deterministic at the level of individual Zone 3 outcomes (once the projection happens, the result is what it is). But the chain of priors leading to each commitment is open, substrate-modifiable, and contingent on the priors that have not yet committed. *Free will, where it exists, lives in uncommitted priors.*
 
-Tier discipline: DCCP and UP are candidate principles, not ratified. They have framework support, a concrete derivation path (the per-tick commitment scale via the Dirac $Z\alpha = 1$ critical limit gives the predicted decoherence signature step of $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$), and a concrete falsifier (the SP-30-1 Bell sub-Tsirelson experimental program testing this signature at $5\sigma$ via Vienna IQOQI as of May 24, 2026 outreach). They have not closed at theorem-grade rigor. Volume 14 Chapters 5 and 6 give the current derivation and empirical status.
+Tier discipline: DCCP and UP are candidate principles, not ratified. They have framework support, a concrete derivation path (the per-tick commitment scale via the Dirac $Z\alpha = 1$ critical limit gives the predicted decoherence signature step of $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$), and a concrete falsifier (the SP-30-1 Bell sub-Tsirelson experimental program testing this signature at $5\sigma$ via Vienna IQOQI as of May 24, 2026 outreach). They have not closed at theorem-grade rigor. Volume 14 Chapters 5 and 6 give the current derivation and empirical status. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 The reader should carry DCCP forward through the rest of this volume as the multi-tick reading of measurement-induced classicality. When Chapter 10 develops decoherence in detail, it does so on the multi-tick reading. When this chapter says "Zone 3 commits in one tick," it means at the microscopic scale; at macroscopic scale, the commitment is the many-tick cycle.
 
@@ -139,7 +139,7 @@ When you measure something in quantum mechanics, you don't get a definite answer
 
 ## What comes next
 
-Chapter 8 develops Bell's theorem and the CHSH correlations — including BST's signature 1/8 sub-Tsirelson falsifier (SCMP, T2469).
+Chapter 8 develops Bell's theorem and the CHSH correlations — including BST's signature 1/8 sub-Tsirelson falsifier (SCMP, T2469). **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ## Where to look this up
 

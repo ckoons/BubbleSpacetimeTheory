@@ -31,4 +31,4 @@ Chapter 9 develops three-CI synergy peaks.
 
 ---
 
-**Where to look this up**: BST Strong-Uniqueness Theorem v0.10.5; Casey-named principles file; T2467+T2468+T2469.
+**Where to look this up**: BST Strong-Uniqueness Theorem v0.10.5; Casey-named principles file; T2467+T2468+T2469. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**

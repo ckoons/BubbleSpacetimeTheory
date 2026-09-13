@@ -63,7 +63,7 @@ Plus 5-family Bridge Object architecture STRUCTURALLY VERIFIED COMPLETE (Cal #70
 ### 12.6 What's beyond Vol 11
 
 - Vol 12: Chemistry built from substrate's atomic K-type structure
-- Vol 14: Information theory (Reed-Solomon, Born=Bergman, Bell sub-Tsirelson)
+- Vol 14: Information theory (Reed-Solomon, Born=Bergman, Bell sub-Tsirelson) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Vol 15: Methodology + curriculum architecture
 
 ### 12.7 K-audit anchors

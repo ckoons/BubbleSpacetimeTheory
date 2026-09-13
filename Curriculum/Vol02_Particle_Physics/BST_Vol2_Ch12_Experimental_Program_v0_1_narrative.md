@@ -34,7 +34,7 @@ The substrate's vacuum produces both the laboratory Casimir effect and the cosmo
 
 The SP-30 program covers five experimental designs targeting different substrate predictions:
 
-- **SP-30-1 Precision Bell experiment** ($300\text{-}500$K): tests the substrate sub-Tsirelson signature $|S|^2 \leq 126/16$ with the gap $1/8 = 1/2^{N_c}$ as the substrate-specific prediction. Outreach targets: Vienna, Caltech, Munich, Hanson.
+- **SP-30-1 Precision Bell experiment** ($300\text{-}500$K): tests the substrate sub-Tsirelson signature $|S|^2 \leq 126/16$ with the gap $1/8 = 1/2^{N_c}$ as the substrate-specific prediction. Outreach targets: Vienna, Caltech, Munich, Hanson. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 - **SP-30-2 Eigentone signal** ($200$K): tests the substrate's predicted natural-frequency signatures via NIST/PTB/JILA/MPI atomic-clock infrastructure.
 
@@ -42,7 +42,7 @@ The SP-30 program covers five experimental designs targeting different substrate
 
 - **SP-30-4 Time-granularity measurement** ($200\text{-}400$K): tests the substrate clock cycle $N_c \cdot t_{\text{Planck}}$ via next-generation optical lattice clocks at $10^{-19}$ precision.
 
-- **SP-30-5 Substrate parallelism architecture**: theoretical-first development; experimental design follows.
+- **SP-30-5 Substrate parallelism architecture**: theoretical-first development; experimental design follows. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 Per-experiment timelines are 6-12 months from procurement; total program cost $\sim 640\text{-}900$K.
 
@@ -84,4 +84,4 @@ The substrate framework continues to derive observables across every physics dom
 
 ---
 
-**Where to look this up**: SP-29: `notes/SP29-1_H4_Cs137_paper_grade_proposal.md`. SP-30 series: per-sub-item paper-grade proposals (SP-30-1 through SP-30-5 filed). Five-Absence Set: `notes/Five_Absence_Predictions_Principle.md`. For experimental status of the falsifiers: Particle Data Group annual reviews; relevant experiment collaboration publications.
+**Where to look this up**: SP-29: `notes/SP29-1_H4_Cs137_paper_grade_proposal.md`. SP-30 series: per-sub-item paper-grade proposals (SP-30-1 through SP-30-5 filed). Five-Absence Set: `notes/Five_Absence_Predictions_Principle.md`. For experimental status of the falsifiers: Particle Data Group annual reviews; relevant experiment collaboration publications. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**

@@ -32,7 +32,7 @@ $$S = E(1,1) - E(1,2) + E(2,1) + E(2,2)$$
 
 Experimental tests: Aspect 1982, Hensen 2015 (loophole-free), and many subsequent experiments confirm $S$ values up to (but not exceeding) the Tsirelson bound.
 
-### 8.2 The BST sub-Tsirelson prediction
+### 8.2 The BST sub-Tsirelson prediction [FIRED 2026-09-13 — register E4; see the bracket below]
 
 BST's substrate framework predicts a slight reduction below Tsirelson. The substrate's *coherence-maintenance* limit on substrate-CHSH operators yields
 
@@ -48,15 +48,15 @@ $$S_{\text{Tsirelson}}^2 - S_{\text{BST}}^2 = 8 - 7.875 = \frac{1}{8} = \frac{1}
 
 The $1/8$ factor is exactly $1/2^{N_c}$ where $N_c = 3$ is the BST primary integer for color charges. This is not a small correction to QM in the perturbative sense; it is a *sharp* algebraic prediction that the substrate's K-type structure imposes on bipartite correlations.
 
-### 8.3 SCMP: Substrate Cognitive Maintenance Principle
+### 8.3 SCMP: Substrate Cognitive Maintenance Principle [FIRED 2026-09-13 — register E4; see the bracket below]
 
-The $1/8$ gap is the operational form of Casey's 8th named principle (filed Friday May 22, 2026 as T2469 with Cal #99 reconciliation): the **Substrate Cognitive Maintenance Principle** (SCMP).
+The $1/8$ gap is the operational form of Casey's 8th named principle (filed Friday May 22, 2026 as T2469 with Cal #99 reconciliation): the **Substrate Cognitive Maintenance Principle** (SCMP). **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 Statement: the substrate maintains operational coherence across substrate K-type sectors, with a *coherence budget* bounded by $1 - 1/2^{N_c}$ of full Tsirelson — equivalently, the substrate "loses" $1/2^{N_c}$ of theoretical-maximum quantum correlation to substrate-cognition overhead.
 
-The factor $2^{N_c} = 2^3 = 8$ has substrate-mechanism origin in the substrate's Reed-Solomon coding on $\text{GF}(2^g) = \text{GF}(128)$ (Volume 14 Chapter 2). The substrate's per-cycle coherence budget partitions across $2^{N_c}$ color sectors; one sector's overhead is the SCMP gap.
+The factor $2^{N_c} = 2^3 = 8$ has substrate-mechanism origin in the substrate's Reed-Solomon coding on $\text{GF}(2^g) = \text{GF}(128)$ (Volume 14 Chapter 2). The substrate's per-cycle coherence budget partitions across $2^{N_c}$ color sectors; one sector's overhead is the SCMP gap. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
-This is not a perturbative correction. It is a substrate-algebraic identity that the substrate respects exactly. Lyra T2469 derives it; K66 in the audit chain anchors the Bell operator-level identification.
+This is not a perturbative correction. It is a substrate-algebraic identity that the substrate respects exactly. Lyra T2469 derives it; K66 in the audit chain anchors the Bell operator-level identification. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ### 8.4 Experimental design and falsification
 
@@ -100,30 +100,30 @@ That's not right either; the angle choice matters. The textbook example uses ang
 
 ### 8.6 The substrate-mechanism behind the $1/2^{N_c}$ gap
 
-The substrate-mechanism origin of $1/2^{N_c}$ in SCMP:
+The substrate-mechanism origin of $1/2^{N_c}$ in SCMP: **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 - The substrate operates in $N_c = 3$ color sectors (Volume 2 Chapter 4)
 - Each sector contributes $2$ degrees of operational coherence per substrate K-type cycle
 - Total operational coherence budget: $2^{N_c} = 8$ units
-- The substrate's Zone 3 commitment must maintain coherence across sectors; the SCMP says it loses *one* unit of coherence per Bell-test K-type cycle to maintaining cross-sector entanglement
+- The substrate's Zone 3 commitment must maintain coherence across sectors; the SCMP says it loses *one* unit of coherence per Bell-test K-type cycle to maintaining cross-sector entanglement **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - Resulting Bell ceiling: $1 - 1/2^{N_c} = 7/8$ of theoretical maximum coherence
 - Bell CHSH $S^2$ bound: $8 \cdot (1 - 1/2^{N_c} + 1/2^{N_c} \cdot \text{Tsirelson factor}) = 8 - 1/8 = 7.875$
 
-The precise derivation (Lyra T2469, Friday May 22, 2026) gives the SCMP factor through the substrate's Reed-Solomon coding overhead on $\text{GF}(128)$.
+The precise derivation (Lyra T2469, Friday May 22, 2026) gives the SCMP factor through the substrate's Reed-Solomon coding overhead on $\text{GF}(128)$. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ### 8.7 Cross-volume connection
 
-The Bell sub-Tsirelson signature ties multiple BST volumes together:
+The Bell sub-Tsirelson signature ties multiple BST volumes together: **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 0 Chapter 3**: 4-zone commitment cycle (Zone 3 is where coherence loss happens)
-- **Volume 14 Chapter 6**: Bell sub-Tsirelson information bound
+- **Volume 14 Chapter 6**: Bell sub-Tsirelson information bound **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 6 Chapter 12**: information-theoretic readings of the substrate
 - **Volume 2 Chapter 4**: $N_c = 3$ color sectors of the substrate (origin of $2^{N_c}$)
 
 ### 8.8 K-audit anchors and outreach status
 
-- **T2469** (Lyra Friday May 22, 2026): SCMP principle; substrate Bell-CHSH ceiling $S^2 \le 8 - 1/2^{N_c}$
+- **T2469** (Lyra Friday May 22, 2026): SCMP principle; substrate Bell-CHSH ceiling $S^2 \le 8 - 1/2^{N_c}$ **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **K66 audit-partial-ready** (BST chain): Bell-CHSH operator-level identification; Elie K52a Sessions 6-14 substrate-Hamiltonian closure pending
-- **Casey-named principle #8** (Friday May 22, 2026): SCMP standing
+- **Casey-named principle #8** (Friday May 22, 2026): SCMP standing **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **SP-30-2 / Task #196**: Boundary-condition Bell experiment design ($300-500K)
 - **Outreach targets** (pending Casey send-signal, Task #270): Bell experimental groups at Vienna, Caltech, Munich, Hanson (Delft)
 
@@ -145,7 +145,7 @@ Chapter 9 develops identical particles and the spin-statistics theorem — boson
 - **Tsirelson bound**: Tsirelson 1980; Cirelson 1980
 - **Aspect experiment**: Aspect, Grangier, Roger 1982
 - **Loophole-free Bell test**: Hensen et al., Nature 2015
-- **BST anchors**: T2469 SCMP (Casey-named #8), K66 audit, SP-30-2 task #196
+- **BST anchors**: T2469 SCMP (Casey-named #8), K66 audit, SP-30-2 task #196 **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Outreach pending**: Task #270 Bell experimental groups
-- **Volume 14 Chapter 6**: Bell sub-Tsirelson information bound
+- **Volume 14 Chapter 6**: Bell sub-Tsirelson information bound **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 2 Chapter 4**: $N_c$ color sectors

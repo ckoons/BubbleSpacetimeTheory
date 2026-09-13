@@ -28,7 +28,7 @@ The volume is the QFT-physics-derivation companion to Vol 0 (Substrate Foundatio
 | 3 | BST Primary Integers from the Substrate | **DERIVED** | T1925 + T1930 + T2431 + T2432 |
 | 4 | Discrete Symmetries (P + T + C + CPT) | **DERIVED** | T1925 Arg D + T2433 + T2434 |
 | 5 | The Casimir Operator Algebra | **DERIVED** | T2435 (anchor) + T1409 + T1485 + T1462 + T2418 |
-| 6 | Substrate-Native Operator Zoo | **6/6 FRAMEWORK-COMPLETE** (Elie S29 Toy 3213 Thursday) | T2399 + T2419 + T2421 + T2422 + T2425 + H_sub (Casimir on L²(D_IV⁵; L_λ), K-type (1,1) Casimir = C_2 = 6) |
+| 6 | Substrate-Native Operator Zoo | **6/6 FRAMEWORK-COMPLETE** (Elie S29 Toy 3213 Thursday) | T2399 + T2419 + T2421 + T2422 + T2425 + H_sub (Casimir on L²(D_IV⁵; L_λ), K-type (1,1) Casimir = C_2 = 6) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** |
 | 7 | Dynamics: Schrödinger / Heisenberg / Path Integral | **v0.2 framework-grade Friday** | T2438 (SP-31-7 anchor) + Elie K52a S29 H_sub Casimir framework; operator-level multi-month |
 | 8 | **Gauge Theory: the electroweak skeleton from D_IV⁵; SU(3) IMPORTED** (title corrected 2026-09-11) | **electroweak skeleton DERIVED; SU(3) colour IDENTIFIED + imported (Cal Section 946)**; Yukawa unblock K114-RATIO | T2436 (SP-31-8) + T1925 + T1930 + T610-T611 + **T2450 (Yukawa Ratio Decoupling Friday)** |
 | 9 | Scattering and the S-matrix | **v0.2 framework-grade Friday** | T2438 + T2429 + T2435 + T2437; operator-level S-matrix multi-month; **T2457 Bergman=Feynman propagator identification Friday** |
@@ -126,7 +126,7 @@ Five operators on Bergman H²(D_IV⁵):
 - **Momentum P_z** (T2422): Wirtinger derivative (Heisenberg pair with M_z)
 - **Angular momentum L = M_z × P_z** (T2425): Bergman cross-product
 - **Spin SO(5) × SO(2)** (T2421): K-type action
-- **Bell-CHSH B** (T2399): substrate-CHSH operator with Tr(B²) = 126/16 trace identity (per Calibration #17 trace-level capacity, not max-eigenvalue)
+- **Bell-CHSH B** (T2399): substrate-CHSH operator with Tr(B²) = 126/16 trace identity (per Calibration #17 trace-level capacity, not max-eigenvalue) **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 Sixth operator (Energy H_sub): pending Elie K52a Sessions 24+ multi-month substrate-Hamiltonian closure.
 
@@ -200,7 +200,7 @@ Ch 1 (intro) → Ch 2 (Hilbert space) [T2428/29/30]
               ↓
               Ch 5 (Casimir) [T2435]
               ↓
-              Ch 6 (operator zoo) [T2399/19/21/22/25; H_sub pending]
+              Ch 6 (operator zoo) [T2399/19/21/22/25; H_sub pending] **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
               ↓
               Ch 7 (dynamics) [PENDING H_sub]
                  ↓

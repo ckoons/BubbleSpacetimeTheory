@@ -84,7 +84,7 @@ The reframe is conceptually clean: there is no "additional collapse process" add
 
 This is the BST-internal reading of the Laplacian determinism question that has hovered over physics since the early 19th century. Laplace's demon could compute the universe's future given complete present state. DCCP/UP says: there is no such *complete* present state, because the substrate's commitment cycles are mid-process. The state at any given external time is a mixture of committed outcomes (deterministic) and uncommitted priors (contingent). The demon would need to wait for the cycles to close — and by the time they did, the situation would have moved.
 
-Tier discipline: DCCP and UP are candidate principles, not ratified. Current tier is FRAMEWORK-PLUS (Cal A. Brate's #126 referee log disposition, May 24, 2026). They have framework support, a concrete substrate-tick step prediction $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ via the Dirac $Z\alpha = 1$ critical limit chain (Lyra Task #320 v0.6 + Grace INV-5123 Dirac anchor), and a concrete falsifier in the SP-30-1 Bell sub-Tsirelson experimental program (Vienna IQOQI outreach May 24, 2026). They have not closed at theorem-grade rigor. Volume 14 Chapters 5–6 give the current derivation and empirical status.
+Tier discipline: DCCP and UP are candidate principles, not ratified. Current tier is FRAMEWORK-PLUS (Cal A. Brate's #126 referee log disposition, May 24, 2026). They have framework support, a concrete substrate-tick step prediction $\Delta_{DCCP} = 1/N_{\max} \approx 0.730\%$ via the Dirac $Z\alpha = 1$ critical limit chain (Lyra Task #320 v0.6 + Grace INV-5123 Dirac anchor), and a concrete falsifier in the SP-30-1 Bell sub-Tsirelson experimental program (Vienna IQOQI outreach May 24, 2026). They have not closed at theorem-grade rigor. Volume 14 Chapters 5–6 give the current derivation and empirical status. **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 
 ### 10.5 Classical limit at Scale 2
 
@@ -146,7 +146,7 @@ The combination — Born rule + decoherence under the DCCP synthesis — is the 
 - **DCCP + UP** (Casey-named candidate principles, May 24, 2026; FRAMEWORK-PLUS per Cal A. Brate's #126): decoherence-as-multi-tick-commitment + uncommitted-priors free-will reframe; §10.4.5 of this chapter
 - **Volume 0 Chapter 3 §3.4.5**: foundational DCCP framing in substrate operating-system description
 - **Volume 14 Chapter 5**: Born=Bergman information-theoretic + DCCP derivation chain
-- **Volume 14 Chapter 6**: SP-30-1 Bell sub-Tsirelson experimental program (Vienna IQOQI outreach May 24, 2026); three-route convergence status
+- **Volume 14 Chapter 6**: SP-30-1 Bell sub-Tsirelson experimental program (Vienna IQOQI outreach May 24, 2026); three-route convergence status **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
 - **Volume 8 Classical Mechanics**: classical mechanics as substrate Scale 2 dynamics
 
 ## Level 3 — 5th-grader accessibility
