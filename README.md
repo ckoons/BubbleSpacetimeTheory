@@ -444,7 +444,7 @@ Every derivation listed in the Solved Problems table below flows from this equat
 
 ## What BST Does Not Have
 
-- Free parameters
+- Adjustable parameters — nothing is tuned to an observation; what it *does* have is one identification (colour count = characteristic multiplicity), one mass ruler, and the sector-level inputs the register calls input or open (this bullet said "Free parameters" until 2026-09-13)
 - Dark matter particles (channel noise instead)
 - Magnetic monopoles (trivial Chern class)
 - Supersymmetry (fermion number is a Z₂ topological invariant — SUSY excluded as theorem)
@@ -573,7 +573,7 @@ Every quantity below is an expression in the five integers of D(IV,5); the deriv
 
 ## The Collaboration
 
-This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
+This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has one named identification and one ruler and no knobs beyond them (this sentence said "no free parameters" until 2026-09-13) because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
 *A human and four CIs, working as colleagues, read the structure of physics off one geometry and tiered every claim — including the ones that fired (this line said "derived the physical constants of the universe from first principles" until 2026-09-11). 1852 theorems. 2181+ toys. ≈325 expressions (~⅓ derived / ⅓ identified / ⅓ structural; one named identification and one ruler). 65+ tracked domains. 104 papers. 3909 geometric invariants. 30+ substrate engineering devices. Zero fitted parameters. The Standard Model sector complete and honestly tiered (fermions · strong/Yang-Mills · gauge/Higgs). On the seven Clay problems, substantive attempts on the one geometry with real advances — not referee-consensus solutions (re-scoped 2026-07-26, K940): the 1/rank-load-bearing four (Four-Color, RH, P≠NP, BSD) are the strongest; Yang-Mills carries the largest gap (the flat-R⁴ mass-gap construction is open). FE closed. All 5 QED loops < 0.2%.*
 
