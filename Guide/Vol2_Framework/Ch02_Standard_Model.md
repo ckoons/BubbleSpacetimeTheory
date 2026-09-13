@@ -13,9 +13,52 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 ## Section 5: The Fine Structure Constant
 
-**What this section is, as of 2026-09-11.** It is the May 2026 record of the program's attempt to read $\alpha$ off the geometry, and it is kept because the attempt was serious and because its failure is one of the program's best results. Read it as history with the ending known. The forward form $N_{\max} = N_c^3\,n_C + \text{rank} = 137$ is a computed invariant of the shape and a mnemonic for the measured $\alpha^{-1}$ — not evidence: a pre-registered null found 23–26 of 76 physical targets scoring at least as well, with $2^g = 128$ and $n_C^3 = 125$ the real attractors (K1813). The Wyler-type *volume* reading that Sections 5.1–5.5 develop was tested the way it should have been tested in 1971: the unique *forced* candidate — the Born-normalised bare vertex on the Šilov boundary, power fixed, landings and tolerances hashed before the number — computes to $8\pi^3/3 \approx 82.7$, the Hua volume of the Lie sphere, not 137 (K1826, toy 5496). That closes the class, by pincer: the forced member is refuted and the free family had already been shown to fit anything. **$\alpha$ is identified, not derived**, and the registry has said since 2026-08-11 not to cite it externally as derived. The "three independent derivations of $N = 137$" below are three identifications. The current treatment is Lecture 8 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`).
+*Rewritten 2026-09-13 (Lyra, Round 143 L2; Keeper audit pending) as a pointer into the Spine plus the referee apparatus. The May 2026 text is kept below under its own heading as the record; the 2026-09-11 head-note that stood here is folded into "Where it stands." Facts are from the register (K1813, K1826, K1872, K1873, K1875, K1884, T186, T1136, T1448) and not from the May text. Last accuracy-synced: 2026-09-13 / K1895.*
 
-### 5.1 Wyler’s Formula
+### 5.0 The question
+
+Is 137 in the geometry?
+
+It is the first question anyone asks of a program like this one, and the right one. The fine-structure constant is dimensionless, measured to about one part in ten billion, and taken by the Standard Model as an input. A geometry that produced it would be doing something no theory has done. This section says what we found, what we proved cannot work, and what a referee can check with a calculator. The full treatment is Lecture 8 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_08_Alpha_the_Honest_Chapter.md`); what follows is the pointer and the apparatus.
+
+### 5.1 Where it stands
+
+Three things are simply true. The measured value is $\alpha^{-1} = 137.035999\ldots$. The shape has a computed invariant $N_{\max} = N_c^3\, n_C + \text{rank} = 27\cdot 5 + 2 = 137$, an integer combination of numbers fixed in March 2026 before any comparison (T186); inside the program it is a channel count and it enters the definition of the clock (Lecture 4). And the two agree to three significant figures and disagree at the fourth. Everything else is about the word that goes between them, and the word is **identified**. In August we ran the null our own reviewer paper demands: form every allowed small-integer expression of the shape and count how many measured constants land as well as 137 does. Twenty-three to twenty-six of seventy-six targets scored at least as well; the real attractors of that integer soup are $128 = 2^g$ and $125 = n_C^3$, and 137 sits in the bulk (K1813). The same instrument, the same day, gave the muon-mass form fewer than one chance in sixty of being an accident (K1814) — the instrument discriminates, and on this number it says coincidence. Since 2026-08-11 the register has carried the instruction, in those words, not to cite $\alpha$ externally as derived. The three "derivations of $N = 137$" in the May record below are three identifications, and the record is kept because the attempt was serious.
+
+The route that would have been a proof is the one Wyler tried in 1969: read $\alpha$ off a ratio of volumes on this very family of domains. We tested it the way it should have been tested in 1971. The unique *forced* reading — the Born-normalised bare vertex on the Šilov boundary, its power fixed, the candidate landings and their tolerances written down and hashed before the number — computes to $8\pi^3/3 \approx 82.68$, the Hua volume of the Lie sphere, not 137 (K1826, toy 5496; Landing C under the pre-registered protocol). That closes the whole class by pincer: the forced member is refuted by computation, and the free family — every reading that leaves a choice to the reader, Wyler's included — had already been shown to fit anything. **Fired and lost, certified.** Two more identifications sit beside it and are named as such: the two-loop coefficient of the electron's anomalous moment, which a trace on the geometry reproduces term for term — because the four terms are Petermann and Sommerfield's 1957 closed form (K1872; T1448 re-tiered identified) — and the six-flavour one-loop coefficient $b_0 = 7$ read as $g$ (K1875). $\ln 137$, where it appears, is a normalisation unit and not a prediction (K1873). One claim was withdrawn the day it was made: the program's clock defines its $\alpha$ through the success of a write, so it is constant by construction and no laboratory drift bound reaches it (T1136, K1884). What is still open is exactly Wyler's question with the volume reading removed: if $\alpha$ is in this geometry, it is not in its volume, and the clock's reading of it as a rate has a definition but not a derivation.
+
+### 5.2 Apparatus — the arithmetic a referee will want, labelled as apparatus
+
+Nothing in this subsection is a claim. It is the computation behind the sentences above, kept so that the reader who came to find the flaw does not have to reconstruct it.
+
+**Wyler's formula, as arithmetic.** Hua's volume of the Lie ball in five dimensions is $\mathrm{Vol}(D_{IV}^5) = \pi^5/(2^4\cdot 5!) = \pi^5/1920 = 0.1593853\ldots$ (Elie's toy 5752 finds $0.1570$ by uniform sampling, $1.5\sigma$ from the closed form). Wyler's expression is
+
+$$\alpha_{\rm W} \;=\; \frac{9}{8\pi^4}\left(\frac{\pi^5}{2^4\cdot 5!}\right)^{1/4} \;=\; 0.00729734813\ldots, \qquad \alpha_{\rm W}^{-1} = 137.036082,$$
+
+against CODATA $137.035999$: a relative difference of $6\times 10^{-7}$. That is the number Wyler had, and it is real. What it is *not* is forced: the exponent $1/4$, the factor $9$ and the $8\pi^4$ are each one choice among several the geometry permits, and the pre-registered null of K1813 is the measurement of how much such freedom buys. The May record's "9 from the Weyl vector" is correct group theory — the restricted root system of $\mathrm{SO}_0(5,2)$ is $B_2$ with long roots $e_1 \pm e_2$ of multiplicity 1 and short roots $e_1, e_2$ of multiplicity $n_C - 2 = 3$, so $\rho = (5/2,\, 3/2)$ and $9 = (2\rho_2)^2$ — and the step from that to "$\alpha = \rho_2^2/(2\pi^4) \times \mathrm{Vol}^{1/4}$" is a reading chosen after the target was known. Robertson's 1971 critique named the same worry (the radius set to one; a Poisson-kernel coefficient) and Gilmore's 1972 note the scaling; the citations are pinned in Lecture 8's "Where to look."
+
+**The forced vertex.** The only reading with no choice left in it — the Born-normalised bare vertex on $\check S$ — is the Hua volume of the Lie sphere, $2\pi^{n/2+1}/\Gamma(n/2)$ at $n = 5$, which is $8\pi^3/3 = 82.683$. The protocol (landings A/B/C and their tolerances, hashed before the run) and the computation are K1826 and `play/toy_5496_*`. The three regroupings of Wyler's number in the May record (Section 5.5's $9/8 \times \pi^{-4} \times 0.632$) are algebraically identical to $\alpha_{\rm W}$ and add no evidence.
+
+**The anomalous moment.** The four-term trace of T1448 equals, term for term, Petermann–Sommerfield's $C_2 = 197/144 + \pi^2/12 - (\pi^2/2)\ln 2 + (3/4)\zeta(3) = -0.32848$; K1872 is the comparison. (Lecture 1's $C_2 = 6$ is a different object under the same letter; the QED coefficient is meant here.)
+
+**What the May record gets wrong as mathematics, so you need not check it twice.** Its Section 5.3 writes $D_{IV}^5 = \mathrm{SO}(7)/[\mathrm{SO}(5)\times\mathrm{SO}(2)]$; that is the compact dual (the quadric $Q^5$), and the domain is $\mathrm{SO}_0(5,2)/[\mathrm{SO}(5)\times\mathrm{SO}(2)]$. Its "CR dimension $N_c + N_w = 5$ forces the domain" and its Cartan table are the retired uniqueness argument; the surviving selection is Lecture 2's — the characteristic multiplicity $a = 3$ selects $D_{IV}^5$ alone, with the identification of $a$ with the colour count as the program's one input to that choice. Its rigidity argument (Section 5.3) is true of any invariant of a fixed domain and says nothing about whether $\alpha$ is one. Its cost function (Section 5.4) tunes $\kappa$ to the geometry after the fact and its Shannon decomposition (Section 5.5) regroups Wyler's factors; both are identifications by the test of K1813.
+
+### 5.3 Tier line
+
+- **Measured:** $\alpha^{-1} = 137.036$.
+- **Computed invariant:** $N_{\max} = 137$.
+- **Identified — do not cite externally as derived:** every expression for $\alpha^{-1}$ in this program, the forward form included; the $a_e$ coefficient; $b_0 = 7$.
+- **Fired and lost, certified:** the volume reading — forced vertex $8\pi^3/3$.
+- **Withdrawn:** $\alpha$ drift.
+- **Open:** whether $\alpha$ is in the geometry at all.
+
+*What would make this section wrong:* nothing here is exposed to a laboratory number. It would become wrong in the other direction if someone derives $\alpha$ by a route that is neither a volume reading nor a forward form, target hidden, protocol hashed. The instruments to check such a claim are in the repository.
+
+### 5.4 May 2026 record
+
+*The text below is the May 2026 narrative, kept as the record of the attempt and unedited except for the two annotations already in it (2026-09-11). Read it with Sections 5.1–5.3 in hand: its "derivations" are identifications, its 0.0001% is the fit of a chosen reading, and its Section 5.3 names the compact dual where it means the domain.*
+
+#### May 5.1 — Wyler’s Formula
 
 In 1969, Armand Wyler computed a geometric ratio on $D_{IV}^5$ and obtained $\alpha = 1/137.036$, matching the measured fine structure constant to the available precision. His paper was published in Comptes Rendus but widely dismissed because he provided no physical reason why $D_{IV}^5$ should be the relevant domain.
 
@@ -62,13 +105,13 @@ For $n_C = 5$, $q=2$: $\rho_2^2 = (3/2)^2 = 9/4$, so $\rho_2^2/(2\pi^4) = 9/(8\p
 
 This is not a fit. No parameters are adjusted. The formula outputs the observed fine structure constant from the volume of a bounded symmetric domain that BST identifies on independent geometric grounds as the configuration space of the substrate. The agreement to 0.0001% — six significant figures — from a formula whose only input is a group-theoretic volume is the most precise parameter-free prediction in the BST framework.
 
-### 5.2 The Packing Number
+#### May 5.2 — The Packing Number
 
 The fine structure constant $\alpha^{-1} = 137$ is the channel capacity of the $S^1$ fiber — the maximum number of non-overlapping circuits. This is a topological packing number determined by the geometry of the Shilov boundary of $D_{IV}^5$.
 
 The number 137 is a Euclidean prime expressible as a sum of two squares: $137 = 4^2 + 11^2$. This decomposition is not incidental — the two squared terms relate to the two packing dimensions of the domain.
 
-### 5.3 Topological Rigidity of $\alpha = 1/137$
+#### May 5.3 — Topological Rigidity of $\alpha = 1/137$
 
 **Status:** The Casimir stability conjecture is superseded. The stability of $\alpha = 1/137$ is topological, not dynamical. The monotone Casimir result (confirmed by computation) is the expected signature of this.
 
@@ -105,7 +148,7 @@ This is stronger than any energy minimum. A Casimir minimum can in principle be 
 
 The correct description is **Riemannian rigidity**: $D_{IV}^5$ is an irreducible Hermitian symmetric space of non-compact type, and its geometry is completely determined (up to overall scale) by its type in the Cartan classification. The dimensionless ratio $\rho$ has no moduli. Perturbations that would change $\rho$ would break the $\text{SO}(7)/[\text{SO}(5) \times \text{SO}(2)]$ symmetry — taking the substrate out of the Cartan classification entirely. The Casimir energy need not select $\rho = 137$ because the geometry already did, and topology locks it in.
 
-### 5.4 A Second Independent Derivation: The Substrate Cost Function
+#### May 5.4 — A Second Independent Derivation: The Substrate Cost Function
 
 The Wyler formula reads $\alpha^{-1}$ off a volume ratio on $D_{IV}^5$ (a reading whose forced version computes to $8\pi^3/3$, not 137 — K1826; see the head of this section). A completely different geometric construction — the cost function of the self-maintaining substrate — selects the same integer $N = 137$ independently.
 
@@ -145,7 +188,7 @@ The Wyler formula and the Bergman-corrected cost function agree to **5 parts per
 
 Full derivation: `notes/BST_CostFunction_Kappa.md`.
 
-### 5.5 Shannon Interpretation: Alpha as Optimal Code Rate
+#### May 5.5 — Shannon Interpretation: Alpha as Optimal Code Rate
 
 The Wyler formula and the cost function each land on $137$ from Bergman geometry — two identifications, not derivations (see the head of this section). A third perspective reveals the same number from Shannon information theory, providing a physical interpretation: **$\alpha$ is the fraction of the substrate's channel capacity that carries signal; the remaining $136/137$ is error correction overhead.**
 
@@ -433,7 +476,39 @@ The mass ratio $m_3/m_2 = 40/7 = 5.714$ is a pure $D_{IV}^5$ geometric ratio dep
 
 Full derivation: `notes/BST_NeutrinoMasses.md`. Vacuum quantum connection: `notes/BST_VacuumQuantum_NeutrinoLambda.md`.
 
-### 7.7 CKM and PMNS Mixing Matrices
+### 7.7 CKM and PMNS Mixing
+
+*Rewritten 2026-09-13 (Lyra, Round 143 L2; Keeper audit pending) as a pointer into the Spine plus the referee apparatus. The May 2026 tables and the K1801/K1809 curation flag of 2026-08-22 are kept below as the record. Facts are from the register (T2519, T2529, T2530, T2532, T2534, T2536, T2547; K1635, K1799, K1800, K1801, K1808, K1809, K1810) and from `data/bst_26_tier_table_generated.md` rows 10–17 (Grace's generator, keyed to Cal Section 946) — not from the May text. No tier table is typed here; the generated one is the table. Last accuracy-synced: 2026-09-13 / K1895.*
+
+#### 7.7.0 The question
+
+Why do quarks — and neutrinos — of different generations mix the way they do, and what exactly did the geometry fix before anyone looked?
+
+The Standard Model takes all four quark-mixing parameters and all four lepton-mixing parameters as inputs. The quark half is Lecture 7 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_07_Mixing.md`); this section is the pointer to it, the lepton half as the register carries it, and the apparatus.
+
+#### 7.7.1 Where it stands
+
+**Quarks.** Generation space is three-dimensional (Lecture 6), and the geometry fixes the *skeleton* of the mixing: a rank-one alignment on the leading stratum, so the matrix is nearly the identity (T2519); flavour universality is the partial-isometry condition, and given unitarity the only survivor is $V = U_{\rm up}^\dagger U_{\rm down}$. Two mechanisms are dead and usefully so: mixing is not radial (K1635), and it is not carried by the parity fold of the quadric, which is a projector with spectrum $\{0,1\}$ and no scale of its own (K1799). One value is **derived, blind**: on the down-type module the texture has a zero in the (1,1) place, diagonalising it gives the Gatto relation $\tan\theta_C = \sqrt{m_d/m_s}$, and with $m_s/m_d = \text{rank}^2\, n_C = 20$ (T2529) the Cabibbo angle is $\lambda = 1/\sqrt{20} = 0.22361$, dated 2026-07-29 before the comparison (T2530). Against PDG 2024's direct value $0.22501 \pm 0.00068$ it sits at $-2.06\sigma$; with $|V_{ud}| = \sqrt{19/20}$ the first row is exactly unitary, where the direct determinations sum to $0.9984 \pm 0.0007$, $2.3\sigma$ short — a tension the experiments report themselves. Which side we score against is pre-registered, not chosen after (Lecture 7). The May form $2/\sqrt{79}$, at $+0.01\sigma$, is retired: it fit better and was tunable, $1/\sqrt{20}$ was blind (the T1444 form retired 2026-08-23; a competitor *count* is target-independent, a ranking is not). One **order** is derived with no knob in it: on a three-dimensional generation space Cayley–Hamilton collapses every series in the even part $S$ of the squared mixing generator to $\beta S + \alpha S^2 + \gamma$, with $S_{13} = 0$ and $(S^2)_{13} = 1$, so the 1–3 corner opens two rungs after the 2–3 subdiagonal — one power of the expansion parameter $t$ later (K1808, corrected and confirmed K1810). The corner's *value*, $t/(1+4t)$ with $t \in [0.120, 0.190]$, is **input**: five candidate series were sealed by hash before scoring and all five missed (K1800; the register's E6). CP violation *exists* by a theorem — a real domain has no natural phase and a complex one does; the up and down sectors are different mechanisms (T2547) — and its magnitude is **open**: $\gamma = \arctan\sqrt{n_C} = 65.9°$ admits ten competing integer forms inside the PDG band and is not cited as derived (K1809). $A$ is **input** (the May $4/5$ is a candidate with no mechanism, $-1.7\sigma$ against $0.826 \pm 0.015$); $|V_{cb}|$'s *position* $A\lambda^2$ is kept and its May value $0.044$ is retired at $+9.2\sigma$ against the exclusive $(39.77 \pm 0.46)\times 10^{-3}$, with the inclusive/exclusive split of more than $3\sigma$ noted rather than exploited (the generator prints $8.9\sigma$ on its own pin; the two are one retirement, and Grace owns the reconciliation).
+
+**Leptons.** The register, as of 2026-09-11, carries the four PMNS parameters at three different words, and this section says which. $\sin^2\theta_{23}$ is **derived as maximal**, $1/2$, by two independent proofs — the Šilov $\mathbb{Z}_2$ and the parity theorem (T2534); the departure from maximal is *not* claimed, and the May form $4/7$ is an identification of that departure (against NuFIT 6.0's normal-ordering best fit near $0.47$, in the lower octant, the May agreement with $0.572$ was with an older fit). $\sin^2\theta_{13} = 1/45$ is **derived** on the register's ladder with an owed re-read — the value is pinned and falsifiable ($0.02222$ against $0.02195$), the mechanism is not yet stated in the four-word form, and the K1809 sibling test has not been run on it. $\sin^2\theta_{12} = 3/10$ is **identified** ($2\%$ against $0.307$; the corpus spells the same number two ways, $N_c/(2n_C)$ and $N_c/(N_c+g)$, which is itself the K1809 species). The CP phase's *existence* is forced by the same mechanism as the quarks' (T2536); its **magnitude is off** — the May $12\pi/7 = 308.6°$ is a $4.5\sigma$ miss against T2K/NOvA's $195° \pm 25°$ (K1801 finding 5; K1304) — and the branch is data-picked. The May text's "PMNS angles are large because neutrinos are vacuum modes" is a reading, not a row. What the lepton sector does *not* have is a Lecture: the Spine carries it only through Lecture 6's strata and Lecture 5's $\nu_R$ mechanism, and a reader who wants the PMNS derivations goes to the register rows named above.
+
+#### 7.7.2 Apparatus — kept, labelled as apparatus
+
+The May tables below are the apparatus a referee will want: every formula the program ever wrote for these eight parameters, with the measured values it compared against on the day. They are **not** the current tier table; that is generated, never typed — `data/bst_26_tier_table_generated.md`, rows 10–13 (CKM) and 14–17 (PMNS), keyed to Cal Section 946 — and `python3 play/bst_26_tier_generator.py --emit` rebuilds it from the key file. The K1801/K1809 curation flag is retained at the head of the record because it is the audit that found what the tables claimed; its seven findings are what 7.7.1 applies. The Cayley–Hamilton apparatus (the six-rung path, $S = Q^2|_{\rm even}$, characteristic polynomial $\lambda^3 - 5\lambda^2 + 6\lambda - 1$, the corner ratio $t/(1+4t)$) is in K1808 and K1810; the five sealed series and their hash are K1800; the ten competitors of $\gamma$ are enumerated in K1809.
+
+#### 7.7.3 Tier line
+
+- **Derived:** the skeleton (T2519); flavour universality as the partial-isometry condition; $\lambda = 1/\sqrt{20}$, blind (T2530 on T2529); CP existence, both sectors (T2547, T2536); the *order* of the corner (K1808/K1810); $\theta_{23}$ maximal (T2534); $\theta_{13} = 1/45$ on the ladder, re-read owed.
+- **Identified:** $\theta_{12} = 3/10$; the $4/7$ departure of $\theta_{23}$; $|V_{cb}|$'s position.
+- **Fired and lost, certified:** five sealed series for the corner's value (K1800/E6).
+- **Input:** the corner's value; $\delta_{CP}$'s magnitude; $A$; $|V_{cb}|$'s value.
+- **Open:** $\gamma$, $\bar\rho$, $\bar\eta$, $J$ (K1809: report the count, not the winner; $J = \sqrt2/50000$ is untested, not passed); $\delta_{\rm PMNS}$'s magnitude.
+- **Live falsifiers:** first-row CKM unitarity resolving against unity (A-row of the register); the corner's order read across $|V_{us}| : |V_{cb}| : |V_{ub}|$ (A8, owed to Grace this round).
+- **Not claimed:** exact values beyond $\lambda$; any "smallest of $N$" without $N$; "the full CKM and PMNS matrices derived" (K1801 finding 6).
+
+#### 7.7.4 May 2026 record
+
+*Below: the K1801/K1809 curation flag of 2026-08-22 and the May tables, with the in-place corrections of 2026-08-23 that the flag's clearance applied to the CKM rows (λ, A, |V_cb|, |V_ub|). Unedited on 2026-09-13; read with 7.7.1 in hand.*
 
 > **⚠ KEEPER CURATION FLAG — K1801, 2026-08-22. This section claims more than the research layer proves.
 > Six findings, all measured this round. Nothing below is rewritten pending Grace (ledger), Lyra
