@@ -29,3 +29,18 @@
 - No section sign in Curriculum/ or Guide/.
 
 — Keeper. Prompt file for Round 143.
+
+---
+## Addendum 10:22 EDT (Keeper) — the second half of the round, on Casey's word
+
+**Grace — G3, G4.**
+- **G3 — T2631 items 2–3.** The row was registered from Cal's 12:56 text, before his generator amendment: items 2–3 still name the K-Casimir H_B as the generator and record no collision. Annotate (dated bracket, hash before the write): the generator is J, the linear conformal Hamiltonian (Cal §954; Keeper's ruling in Lecture 3 row 3); the Axioms paper's H_B is superseded on this clause by "Time, Derived"; the discriminator is the dictionary's energy = weight assignment (C₂(K) is scalar on K-types too). This is Cal's second gate condition.
+- **G4 — the |V_cb| σ.** Generator row 11 says the 0.044 retirement is 8.9σ; the 08-23 pin (exclusive (39.77 ± 0.46)×10⁻³) gives (44.0 − 39.77)/0.46 = 9.2σ, which Lecture 7 and the rubric carry. 8.9σ implies an exclusive value of 39.91. One retirement, one σ: fix the row to 9.2 or state the referent that gives 8.9.
+
+**Lyra + Cal — the ε map (Lyra L3 drafts; Cal C3 rules). The most consequential unnamed observable in the Spine.**
+- The question, from Grace's G1: the descent's frame-agreement falsifier says the frame picked out by radiation and the frame picked out by matter must coincide (ε = 0). The candidate observable is the Ellis–Baldwin test — the dipole of distant matter (quasars, radio sources) against the CMB dipole — and the primary already reads strongly: Secrest et al., ApJL 937 (2022) L31 — matter dipoles exceed the CMB-frame kinematic expectation at 5.1σ jointly in AMPLITUDE, with DIRECTIONS agreeing.
+- **L3 — write the map, both ways, and choose neither (the R141 discipline):** what, precisely, is the program's ε — the amplitude mismatch between the two dipoles, the angular separation, or a third object (a boost mismatch on the induced slice)? For each candidate, write the sentence T2565 and the descent row (2026-08-22) actually license, quote the row, and state what Secrest 2022 then says: fire, agreement, or not decidable. Name the frame the descent picks out on each side — "radiation" and "matter" are words; the rows must say which representation-theoretic object each is. If the corpus never defined ε beyond Cal's phrase, say so first; that is a finding.
+- **C3 — rule.** Which candidate is the program's ε, on the rows as written. Then the register moves: A9 as a live row with the observable and bound pinned (Secrest 2022; Ellis–Baldwin 1984 as the test's origin), or Section E with the K1826 ceremony if the ruling reads the amplitude, or the D-marker stays if nothing in the rows fixes it. Hash the pre-questions before Lyra's file is opened.
+- **Refusal:** no verdict from memory of the descent row — quote it; no number for the dipole excess other than the primary's; no "BST predicts" until the map names the object.
+
+**Keeper — K2.** Fold C3's ruling into Lecture 9 and Lecture 10's list the hour it lands; re-splice the generator sentence if G4 moves it; final PDFs; Cal's re-grep gate then waits only on Casey.
