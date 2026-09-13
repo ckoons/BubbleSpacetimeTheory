@@ -5,10 +5,12 @@ date: "2026-05-24 Sunday"
 status: "v0.4 — FIRED 2026-09-11 (K1893; register E4): the sub-Tsirelson bound was refuted by Poh et al. 2015 at 41.9σ; kept as the May record"
 volume: "Vol 14 Information Theory"
 chapter: 6
-load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; substrate commitment-cycle finite operational power bound; K66 candidate" **[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]**
+load_bearing: "Bell sub-Tsirelson: S²_BST = S²_Tsirelson - 1/2^N_c = 8 - 1/8; substrate commitment-cycle finite operational power bound; K66 candidate"
 ---
 
 # Chapter 6 — Bell Sub-Tsirelson as Information Bound
+
+**[FIRED — bracket 10:09 2026-09-13 (Grace, R143 G2; register E4, certified K1893): the sub-Tsirelson ceiling / SCMP Layer-1 prediction quoted here was refuted by Poh et al., PRL 115, 180408 (2015): S = 2.82759 ± 0.00051, 41.9σ above BST's 2.806. This sentence is a May-2026 record, not a standing claim; nothing else on the line is changed.]** *(Grace's R143 G2 bracket, moved out of the YAML front matter — where it broke the PDF build — into the body, verbatim; Keeper 2026-09-13.)*
 
 *Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
 
