@@ -1,0 +1,20 @@
+# K1896 — AUDIT of Lyra's Round 143 L2 (Guide Vol 2 Ch 02, Sections 5 and 7.7 rewritten as pointer-plus-apparatus, commit e71d8c5d) — PASS; and Round 143 absorbed into the Spine
+**Keeper, 2026-09-13 (Sunday) 10:16 EDT (clock).**
+
+## Section 5 (α) — PASS.
+Structure as briefed: the question → where it stands (two paragraphs, pointing at Lecture 8) → apparatus labelled as apparatus → tier line → "May 2026 record" with the May text intact and framed. Facts checked against the register, not the chapter: N_max = 27·5 + 2 = 137 (T186) ✓; K1813's null (23–26 of 76 higher; 128 and 125 the attractors) ✓; the forced vertex 8π³/3 = 82.683 = 2π^{n/2+1}/Γ(n/2) at n = 5 — recomputed this morning, 82.68 ✓; Wyler's arithmetic α_W⁻¹ = 137.036082 (6×10⁻⁷ from CODATA) matches the MathWorld value I pinned Friday ✓; the C₂ symbol collision (Lecture 1's 6 vs the QED coefficient) named ✓; the May record's SO(7)/[SO(5)×SO(2)] correctly called the compact dual ✓. Voice: the style guide's, and the "so you need not check it twice" list is exactly the referee's service. Nothing over its row.
+
+## Section 7.7 (mixing) — PASS, one alignment applied by me.
+Structure as briefed; no tier table typed — points at Grace's generated table rows 10–17 ✓. The lepton half stated at the register's three words (θ₂₃ maximal derived T2534; the 4/7 departure identified; θ₁₃ = 1/45 derived on the ladder with the re-read owed; θ₁₂ = 3/10 identified; δ_PMNS existence forced / magnitude open) ✓. One alignment: the tier line says "Identified: |V_cb|'s position" (the register's word, generator row 11); Spine Lecture 7 and my Friday row in the May-record table said "position DERIVED, value INPUT." The register wins — both now read *identified (position Aλ², value input)*. Lyra's seam is real: the 0.044 retirement is +9.2σ against the exclusive (39.77 ± 0.46)×10⁻³ (recomputed: 4.23/0.46 = 9.20) and 8.9σ in the generator row — the generator's number implies an exclusive value of 39.91; **@Grace: the generator row should carry 9.2σ or state its referent.**
+
+## Round 143 absorbed (my K1)
+- **Cal C1 (Section 954) — Lecture 4 is about H².** Applied: the "which space" paragraph is now the ruling; the arrow's E₀ is 5/2; the double cover is FORCED by odd n_C on H² (weights n_C/2 + k; one turn = −1 on every state) — the sentence the paper retracted, true on the ruled space; the fermion-parity reading kept as a note on the composite representation (ν = 3/2, reached through particles = composites); new OPEN in the tier line: no row relates the record space to the particle space. Cal's find that T2631's items 2–3 still name the K-Casimir: Lecture 4 no longer says "recorded in T2631" — says the annotation is owed to Grace.
+- **Cal C2 — L10's two one-liners:** register v0.7; the input count now names three structural posits (sector, frame, P2b — T2631's fourth). L6/L7/L9 PASS as ruled.
+- **Grace G1 — A8 registered** (into L10's Section A list); **ε as a D-marker** with the Ellis–Baldwin candidate and Secrest et al. 2022 (ApJL 937 L31; 5.1σ joint excess, directions agreeing) — into Lecture 9, with the consequence stated: the map decides the verdict before any new measurement (amplitude → fire; direction → agreement); Lyra/Cal own the map. **The generated sentence re-spliced** (10 derived on the K962 ladder, 9 independent, 5 of 10 at the four-word standard / 7 identified / 7 open / 2 input).
+- **Elie E1** — the three front-door commands run clean; CLAUDE.md's Quick Start now says six integers with the computed input count. Elie's flag — the stored bst_value for the Higgs-vev row implies a stale m_Planck in the JSON — is Grace's.
+- **Grace G2** — 95 FIRED brackets in 30 files; nothing else touched. Verified by the checker: baseline held.
+
+## Gate, as Cal stated it and as it stands
+"The Spine passes the referee's third pass as a presentation … two small named edits are conditions — Lecture 4 to the ruled space, and T2631's items 2–3 annotated." The first is in (this commit). The second is Grace's. Then Cal's fifteen-minute re-grep, then — still — nothing external without Casey's word.
+
+— Keeper. K1896. Counter next: K1897.

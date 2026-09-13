@@ -243,7 +243,7 @@ The substrate framing is the operational understanding BST has converged on thro
 ```
 python3 play/toy_541_five_integers_to_everything.py
 ```
-51 physical quantities from 5 integers, 16/16 PASS. Fastest proof-of-concept in the repo.
+51 physical quantities from six integers — three read off the classification, three named combinations — 16/16 PASS, with the script computing its own input count (1 measured identification, 1 identified formula, 1 dimensionful ruler; Elie, 2026-09-13). Fastest proof-of-concept in the repo.
 
 **Then try one specific verification (1 second)**:
 ```
