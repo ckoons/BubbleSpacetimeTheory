@@ -83,18 +83,18 @@
    "id": "m_u/m_d",
    "sector": "mass",
    "form": "√(3/14) = 0.463 (tier map) — and 9/19 = 0.474 (T2032); observed ≈ 0.47",
-   "tier_word": "derived",
-   "note": "K962 (07-28) wrote DERIVED for √(N_c/(rank·g)) = √(3/14); the register ALSO carries 9/19 for the same ratio (T2032, May). Two forms side by side: √(3/14) = 0.46291 · 9/19 = 0.47368 · they differ by 2.33%; the observed ratio is to be pinned from the PDG 2024 quark-mass review, not typed here. ANNOTATED, NOT RE-TIERED (Keeper 13:05): Keeper rules on the two forms; the K1809 sibling rule would key it identified if he applies it.",
+   "tier_word": "identified",
+   "note": "K1894 RULING (2026-09-11 14:18): IDENTIFIED with N = 2 reported — two live registered forms for one parameter (√(3/14) = 0.46291, K962; 9/19 = 0.47368, T2032), 2.33% apart; a derived row has one form (K1809: count over ranking). The K962 'derived' on √(3/14) stands as history. Observed ratio still to be pinned from the PDG 2024 quark-mass review.",
    "rows": [
     "T2032",
     "K962 (tier map 07-28)",
     "K1809 rule"
    ],
-   "last_retier": "2026-07-28 (K962); two-forms annotation 2026-09-11, ruling owed (Keeper)",
+   "last_retier": "2026-09-11 (K1894); applied to the key 2026-09-13",
    "v030_slot": null,
    "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "two forms; Keeper to rule (annotated, not re-tiered)",
-   "four_word_standard": "owed re-read — and two registered forms for one ratio (√(3/14) vs 9/19); Keeper rules first"
+   "flag": "N = 2 (two forms); one must be derived and the other retired before the word can move",
+   "four_word_standard": "—"
   },
   {
    "n": 5,
