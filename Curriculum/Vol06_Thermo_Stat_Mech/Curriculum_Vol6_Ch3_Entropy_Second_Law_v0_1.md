@@ -10,6 +10,8 @@ load_bearing: "Second law as substrate Zone 3 information-discard; Boltzmann S =
 
 # Chapter 3 — Entropy and the Second Law
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Entropy is the substrate counting how many K-type configurations match a given macroscopic description ($S = k_B \ln W$ — Boltzmann), and the second law $\Delta S_{\text{total}} \ge 0$ is the substrate's mandatory information-discard in Zone 3 commitment-completion across many Koons ticks, with Shannon-entropy on the substrate's Reed-Solomon-coded $\text{GF}(128)$ K-types and thermodynamic entropy being literally the same operation read at different scales.

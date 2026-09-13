@@ -10,6 +10,8 @@ load_bearing: "Topological phases — QHE, topological insulators, Weyl semimeta
 
 # Chapter 5 — Topological Phases of Matter
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Topological phases — integer and fractional quantum Hall, topological insulators, Weyl/Dirac semimetals, topological superconductors — are distinguished not by local order parameters but by topological invariants (Chern numbers, $\mathbb{Z}_2$ indices) of the occupied band structure, with BST providing a substrate-K-type-bundle classification scheme (Task #106) and predicting specific corrections to quantum Hall plateau precision (Task #108).

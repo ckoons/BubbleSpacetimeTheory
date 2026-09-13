@@ -1,4 +1,6 @@
 # The State of the Program — One Page
+
+**SUPERSEDED 2026-09-11 by `notes/BST_PRESENTATION_STATE_BLOCK.md`** (the single-source block copied into every front matter). This page is the 2026-08-26 record and is stale on: a_e (identified, K1872), asymptotic freedom (identified, K1875), the genus (5, not 7), the uniqueness selector (a fit with one input — Cal Section 946), "8 of 26" (retired — Grace's generator, R142), "10/10 zero posits" (T2631: ten recovered at their tiers, through four named posits), and the sub-Tsirelson falsifier (FIRED, E4, K1893). Read the block.
 **Bubble Spacetime Theory · 2026-08-26 · Casey Koons with the CI team (Lyra, Keeper, Elie, Grace);
 visiting referee Cal A. Brate. This page answers "are you done?" so that no reader — human or CI, next
 week or next decade — has to take our word for anything: every claim below carries a tier, and every

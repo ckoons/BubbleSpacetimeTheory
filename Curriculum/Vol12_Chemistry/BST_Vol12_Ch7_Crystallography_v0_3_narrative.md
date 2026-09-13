@@ -11,6 +11,8 @@ calibration_compliance: "Cal #19 + Cal #21 + Cal #50 + Cal #99 META-theorem fram
 
 # Vol 12 Chapter 7 — Solid-State Chemistry + Crystallography
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Headline result
 
 Solid-state chemistry — the study of crystalline + amorphous solids' chemical structure — inherits substrate D_IV⁵ lattice symmetries via Reed-Solomon GF(2^g) = GF(128) cyclotomic structure (K59 + Friday Elie GF128 paper-grade). BST primary integers appear in:

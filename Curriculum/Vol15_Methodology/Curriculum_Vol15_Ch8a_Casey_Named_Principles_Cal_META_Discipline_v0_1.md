@@ -10,6 +10,8 @@ load_bearing: "Nine Casey-named principles + sub-principle UP; Cal external refe
 
 # Chapter 8 — Casey-Named Principles and Cal-META Discipline
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Seven Casey-named substrate-physics principles standing and one fired (SCMP, 2026-09-11; K1893) (SWPP, Five-Absence, Substrate Closure, Graph Forces, Integer Web, Substrate Cognition Network, D_IV⁵ Rigidity, SCMP) + two substrate-physics candidates (DCCP-with-UP, SCCB — pending derivation/experiment) + one META-Hypothesis (Information Completeness — categorically separated per Cal #120) organize BST's foundational claims, while Cal's external referee discipline (Mode 1/5/6 calibration patterns + 23+ standing calibrations + 2 candidate + methodology tier stack with 25 STANDING + 1 CANDIDATE + 1 META layers per Methodology Index v0.5) provides independent META-discipline anchoring rigor.

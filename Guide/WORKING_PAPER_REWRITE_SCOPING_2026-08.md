@@ -1,5 +1,7 @@
 # Working Paper — Rewrite Scoping (for the Aug 16, 2026 pass)
 
+**EXECUTED 2026-09-11 as K1892, in a different shape than planned** (front matter rewritten from the register; the derivation core moved to `Curriculum/Spine_DIV5_QM_GR_SM/`; chapter bodies corrected at flagged sentences, not yet rewritten as pointers — K1895 gap E). Kept as the record. Its Section 3 scope page listed "α⁻¹ = 137 (charge-count) DERIVED" — retired 2026-08-11.
+
 *Keeper, drafted 2026-07-26, for Casey's review before the rewrite. This is a SCOPING document — the map for the rewrite, not the rewrite. It sets the thesis, the fixes, the sequencing, and the open questions.*
 
 ---

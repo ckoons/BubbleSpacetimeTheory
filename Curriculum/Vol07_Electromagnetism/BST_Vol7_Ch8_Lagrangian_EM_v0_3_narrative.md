@@ -10,6 +10,8 @@ load_bearing: "EM Lagrangian L = -F_{μν}F^{μν}/(4μ_0) from substrate U(1) Y
 
 # Chapter 8 — Lagrangian Formulation of Electromagnetism
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 The EM Lagrangian $\mathcal{L}_{EM} = -F_{\mu\nu} F^{\mu\nu}/(4\mu_0) - J^\mu A_\mu$ is the substrate's $U(1)$ Yang-Mills action restricted to the abelian case, and Maxwell's equations are the Euler-Lagrange equations of this Lagrangian with $A^\mu$ as field variable — the variational principle is the substrate's natural way of selecting which field configurations the substrate K-types support.

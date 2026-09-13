@@ -64,3 +64,24 @@ Vol 5 is the **substrate → standard QM emergence pedagogical bridge**. Demonst
 - Vol 9 Condensed Matter (many-body QM emergent from substrate)
 
 — Vol 5 INDEX v0.1, Saturday 2026-05-23 Wave 2 scaffold
+
+
+## 2026-09-11 status of every chapter (added 2026-09-13, K1895)
+
+*Derived-core shelf; legacy chapters. The Spine (`../Spine_DIV5_QM_GR_SM/`) is current where they disagree; the registry wins over both.*
+
+| chapter | status |
+|---|---|
+| Curriculum_Vol5_Architectural_Scaffold_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch10_Decoherence_Classical_Limit_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch11_POVMs_Quantum_Information_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch12_Pedagogical_Bridge_Synthesis_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch1_From_Substrate_to_Standard_Hilbert_Space_v0_1.md | corrected in place 2026-09-11 |
+| Curriculum_Vol5_Ch2_Position_Momentum_Heisenberg_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch3_Angular_Momentum_Spin_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch4_Schrodinger_Equation_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch5_Heisenberg_Picture_Path_Integral_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch6_Hydrogen_Atom_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol5_Ch7_Born_Rule_Measurement_v0_1.md | corrected in place 2026-09-11 |
+| Curriculum_Vol5_Ch8_Bell_CHSH_Quantum_Correlations_v0_1.md | FIRED (E4) note 2026-09-11 |
+| Curriculum_Vol5_Ch9_Identical_Particles_Spin_Statistics_v0_1.md | scan-clean; May tiers |

@@ -10,6 +10,8 @@ load_bearing: "Computational complexity classes (P, NP, BPP, BQP, AC^0); BST sub
 
 # Chapter 10 — Substrate Complexity Classes
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Computational complexity classes — P (polynomial time), NP (nondeterministic polynomial), BPP (bounded-error probabilistic), BQP (bounded-error quantum), AC(0) (constant-depth) — organize what can be computed efficiently; BST identifies substrate computation as AC(0)-bounded, and Casey's Curvature Principle proves P ≠ NP via substrate K-type curvature (non-linearizability) obstruction.

@@ -10,6 +10,8 @@ load_bearing: "Hilbert space axioms; bounded vs unbounded operators; spectral th
 
 # Chapter 1 — Linear Algebra and Hilbert Spaces
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Hilbert spaces — complex inner-product spaces that are Cauchy-complete — are the natural setting for quantum mechanics (Vol 5) and the BST substrate Hilbert space $H^2(D_{IV}^5)$ (Bergman space) specifically; this chapter develops the operator-theoretic machinery (spectral theorem, self-adjoint operators, projection-valued measures) underlying the physics volumes.

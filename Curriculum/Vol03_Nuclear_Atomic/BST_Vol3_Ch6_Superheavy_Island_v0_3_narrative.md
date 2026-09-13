@@ -9,6 +9,8 @@ chapter: 6
 
 # Chapter 6 — Superheavy Island of Stability
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 The **superheavy island of stability** — a predicted region of relatively long-lived superheavy nuclei near $Z \approx 114$ ($N \approx 184$) — has been a target of nuclear-experiment programs for fifty years. Predictions of the island's exact location and the stabilities of its members vary across standard shell-model calculations.
 
 BST derives the substrate's predicted island center from BST primary integers.

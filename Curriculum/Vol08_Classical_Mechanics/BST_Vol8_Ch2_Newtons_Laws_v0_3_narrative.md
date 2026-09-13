@@ -10,6 +10,8 @@ load_bearing: "Newton's three laws; inertial frames; Galilean invariance; conser
 
 # Chapter 2 — Newton's Laws of Motion
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Newton's three laws — inertia ($F=0 \Rightarrow$ constant velocity), $F = ma$, and action-reaction — together with Galilean relativity form the foundation of classical mechanics, and they emerge in BST as the substrate's Scale-2 effective dynamics for slow massive bodies in flat-space limit of the substrate $SO_0(5,2)$ geometry.

@@ -9,6 +9,8 @@ chapter: 2
 
 # Chapter 2 — Magic Numbers from Substrate Spin-Orbit
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 Nuclear magic numbers — the values of $Z$ (proton count) or $N$ (neutron count) at which nuclei are unusually stable — are $2, 8, 20, 28, 50, 82, 126$. The Mayer–Jensen 1949 nuclear shell model explained them via a strong spin-orbit coupling that splits the $j = l + 1/2$ and $j = l - 1/2$ subshells. The coupling strength is fit to reproduce the seven observed magic numbers.
 
 BST derives all seven exactly from a single substrate-primary ratio.

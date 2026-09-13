@@ -8,6 +8,8 @@ last_v0_4_absorption: "2026-05-24 Sunday ~11:25 EDT — Cal #119 10 substantive 
 
 # Keeper Refinement Notes
 
+**SUPERSEDED 2026-09-13 (K1895):** these May refinement notes predate the August closures and the September Spine; the current plan is K1892/K1895 in `notes/`. Kept as the record.
+
 Items I'm flagging as I work through the deep-pass rewrite. Categorized:
 - **REFINE**: chapter content I want to tighten or correct
 - **INVESTIGATE**: substrate-mechanism gaps where I claimed more than I rigorously have

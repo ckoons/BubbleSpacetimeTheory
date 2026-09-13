@@ -10,6 +10,8 @@ load_bearing: "BST coding is substrate-optimal: GF(128) alphabet (g=7) + RS-MDS 
 
 # Chapter 8 — BST Coding Optimal
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 BST's substrate coding — Reed-Solomon on GF(2^g) = GF(128), Bergman-kernel commitment, Koons-tick clock — is **substrate-optimal**: under the constraints of (i) finite alphabet, (ii) bounded operational power per cycle, (iii) MDS error correction, the BST primaries $(rank, N_c, n_C, C_2, g)$ are the unique choice minimizing free parameters while achieving the observed physical structure.

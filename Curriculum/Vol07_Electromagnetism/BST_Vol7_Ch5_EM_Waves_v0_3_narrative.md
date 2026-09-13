@@ -10,6 +10,8 @@ load_bearing: "EM waves = substrate photon K-type wave packets; c = 1/√(μ₀�
 
 # Chapter 5 — Electromagnetic Waves
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Electromagnetic waves — radio, microwave, infrared, visible light, UV, X-ray, gamma — are propagating wave-packet solutions of the source-free Maxwell equations with speed $c = 1/\sqrt{\mu_0\epsilon_0}$, and in BST they are substrate photon K-type wave packets traveling at the substrate's natural massless-K-type group velocity (the speed of light).

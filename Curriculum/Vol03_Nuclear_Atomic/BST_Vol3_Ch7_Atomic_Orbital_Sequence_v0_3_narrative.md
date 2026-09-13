@@ -9,6 +9,8 @@ chapter: 7
 
 # Chapter 7 — Atomic Orbital Sequence
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 The atomic-orbital structure of multielectron atoms follows the famous sequence $1s, 2s, 2p, 3s, 3p, 3d, 4s, \ldots$ — with orbital occupancies of $(2l+1) = 1, 3, 5, 7$ electron-pairs per shell type. The pattern is empirical in standard atomic physics; it emerges from the hydrogenic shell structure modified by electron-electron interactions.
 
 BST identifies the orbital sequence with BST primary integers exactly:

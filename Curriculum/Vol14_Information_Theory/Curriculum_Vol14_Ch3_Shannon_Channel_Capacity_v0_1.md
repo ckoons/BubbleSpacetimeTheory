@@ -10,6 +10,8 @@ load_bearing: "Shannon 1948 channel capacity; entropy; mutual information; BST s
 
 # Chapter 3 — Shannon Channel Capacity
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Shannon 1948 founded information theory with the channel capacity theorem: any channel has a maximum reliable transmission rate $C = \max_{p(x)} I(X;Y)$ (bits/symbol), achievable in principle via optimal coding — and BST predicts a substrate channel capacity set by BST primaries and the Koons-tick clock.

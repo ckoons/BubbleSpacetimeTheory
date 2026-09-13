@@ -94,3 +94,24 @@ Saturday 2026-05-23 EOD target: v0.1 SCAFFOLD COMPLETE; team can begin chapter c
 Per CLAUDE.md Wednesday EOD framing: "D_IV⁵ as emergent TOE" — Casey: "I didn't set out to build a theory of everything, yet D_IV⁵ seems to want to show us one." Vol 4 GR & Cosmology is **where this TOE-ness becomes operational for external readers**. The cosmological constant, Hubble constant, CMB structure, BBN, dark energy and dark matter all derive from the same five integers as the Standard Model. Vol 4 is the signature volume that demonstrates BST's cross-scale unification.
 
 — Casey Koons + team, Vol 4 GR & Cosmology SCAFFOLD v0.1
+
+
+## 2026-09-11 status of every chapter (added 2026-09-13, K1895)
+
+*Derived-core shelf; legacy chapters. The Spine (`../Spine_DIV5_QM_GR_SM/`) is current where they disagree; the registry wins over both.*
+
+| chapter | status |
+|---|---|
+| Curriculum_Vol4_Architectural_Scaffold_v0_1.md | corrected in place 2026-09-11 |
+| Curriculum_Vol4_Ch10_Dark_Energy_Dark_Matter_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch11_Gravitational_Waves_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch12_Observational_Reanalysis_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch1_Newtons_G_from_Bergman_v0_1.md | corrected in place 2026-09-11 |
+| Curriculum_Vol4_Ch2_Gravity_as_Eigentone_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch3_BST_SR_BST_GR_Boundary_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch4_Lambda_from_Substrate_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch5_Hubble_Four_Routes_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch6_CMB_Structure_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch7_Inflation_Parameters_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol4_Ch8_BBN_Element_Abundances_v0_1.md | corrected in place 2026-09-11 |
+| Curriculum_Vol4_Ch9_Cosmological_Cycle_Interstasis_v0_1.md | scan-clean; May tiers |

@@ -1,5 +1,7 @@
 # Curriculum — Rewrite Scoping (for the Aug 16, 2026 pass)
 
+**EXECUTED 2026-09-11 as K1892, in a different shape than planned** (a ten-lecture Spine written from the register instead of a per-chapter freshening; the core/reach split done in the README's volume table; the "What BST claims — and does not" page became the single-source state block). Kept as the record of the plan. Note its own scope page listed "α⁻¹ = 137 DERIVED" — retired 2026-08-11.
+
 *Keeper, drafted 2026-07-26, for Casey's review before the rewrite. A SCOPING document — the map, not the rewrite.*
 
 ---

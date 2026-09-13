@@ -10,6 +10,8 @@ load_bearing: "Born rule = Bergman projection on H²(D_IV⁵); K67 ratified; inf
 
 # Chapter 5 — Born = Bergman as Information Measurement
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 The Born rule (Vol 5 Ch 7) — quantum probability $P(\text{outcome } k) = |\langle k|\psi\rangle|^2$ — is identified by BST with the Bergman-kernel projection $P_K : L^2(D_{IV}^5) \to H^2(D_{IV}^5)$ that selects holomorphic boundary data (K67 RATIFIED), giving an information-theoretic reading of measurement: substrate commits a single outcome from the available channel-output alphabet at each Koons tick.

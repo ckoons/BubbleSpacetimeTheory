@@ -11,6 +11,8 @@ calibration_compliance: "Cal #19 + Cal #21 + Cal #50 + Cal #99 META-theorem fram
 
 # Vol 12 Chapter 11 — Computational Chemistry
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Headline result
 
 Computational chemistry — solving molecular Schrödinger equation approximately — inherits substrate D_IV⁵ Bergman Hilbert space framework (Vol 1 Ch 2). Key methods:

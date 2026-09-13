@@ -10,6 +10,8 @@ load_bearing: "Material response from substrate K-type configurations; ε(ω), �
 
 # Chapter 10 — EM in Matter
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 In matter, the EM field $(\vec D, \vec H)$ replaces $(\vec E, \vec B)$ via constitutive relations $\vec D = \epsilon_0 \vec E + \vec P$ and $\vec H = \vec B/\mu_0 - \vec M$ where polarization $\vec P$ and magnetization $\vec M$ are the substrate's atomic K-type response to applied fields, and the frequency-dependent permittivity $\epsilon(\omega)$ and permeability $\mu(\omega)$ encode all material EM properties from glass to gold.

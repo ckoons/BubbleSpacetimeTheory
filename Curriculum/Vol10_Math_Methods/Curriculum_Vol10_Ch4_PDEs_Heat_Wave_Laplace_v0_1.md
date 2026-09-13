@@ -10,6 +10,8 @@ load_bearing: "Three canonical PDEs (heat, wave, Laplace); separation of variabl
 
 # Chapter 4 — PDEs: Heat, Wave, Laplace
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 The three canonical second-order PDEs — heat (parabolic), wave (hyperbolic), Laplace (elliptic) — span the classification of linear second-order PDEs and underlie much of mathematical physics; the heat kernel on the BST substrate domain $D_{IV}^5$ is Paper #9's arithmetic-triangle subject.

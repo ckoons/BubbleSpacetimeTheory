@@ -9,6 +9,8 @@ chapter: 3
 
 # Chapter 3 — Nuclear Shell Model: Top 30 Isotopes
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 Chapter 2 derived the magic numbers from the substrate spin-orbit coupling. This chapter extends to the full **shell-filling structure** of the top 30 isotopes — the 30 most-studied stable and quasi-stable nuclides spanning Z = 1 (H) through Z = 92 (U).
 
 ## 3.1 Substrate-derived shell occupations

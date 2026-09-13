@@ -60,3 +60,24 @@ Vol 11 is the **substrate-cartography mathematical foundations volume**. Documen
 - Number theorists + algebraic geometers joining BST research community
 
 — Vol 11 INDEX v0.1, Saturday 2026-05-23 Wave 2 scaffold
+
+
+## 2026-09-11 status of every chapter (added 2026-09-13, K1895)
+
+*Derived-core shelf; legacy chapters. The Spine (`../Spine_DIV5_QM_GR_SM/`) is current where they disagree; the registry wins over both.*
+
+| chapter | status |
+|---|---|
+| Curriculum_Vol11_Architectural_Scaffold_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch10_Mersenne_Primes_Lucas_Lehmer_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch11_Generative_Geometry_Framing_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch12_Number_Theoretic_Foundations_Synthesis_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch1_Bounded_Hermitian_Symmetric_Domains_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch2_Bergman_Reproducing_Kernels_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch3_Wallach_K_Type_Representation_Theory_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch4_Holomorphic_Discrete_Series_Highest_Weights_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch5_D_IV5_Geometry_Coset_Boundary_Coordinates_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch6_K3_Niemeier_Lattices_Leech_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch7_Heegner_Numbers_Cremona_Elliptic_Curves_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch8_Monster_Moonshine_Supersingular_Primes_v0_1.md | scan-clean; May tiers |
+| Curriculum_Vol11_Ch9_Cyclotomic_Q_zeta_N_Reed_Solomon_v0_1.md | scan-clean; May tiers |

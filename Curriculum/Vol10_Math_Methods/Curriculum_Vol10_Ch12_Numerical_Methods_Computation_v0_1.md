@@ -10,6 +10,8 @@ load_bearing: "Numerical methods overview; BST toy verification practice"
 
 # Chapter 12 — Numerical Methods and Computation
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Numerical methods convert analytic problems into computations (ODE/PDE solvers, eigenvalue routines, Monte Carlo integration, FFTs, finite-difference/finite-element methods) — and the BST team's ~3500 toys are computational verifications using this apparatus, all archived in the `play/` directory of the BST repository.

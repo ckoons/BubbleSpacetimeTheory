@@ -10,6 +10,8 @@ load_bearing: "Vol 9 closing; condensed matter falsifier summary"
 
 # Chapter 12 — Synthesis and Cross-Volume Bridges
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Condensed matter is BST's most experimentally falsifiable sector, with three lab-accessible go/no-go tests at modest cost: photonic crystal eigentone ($10K), BaTiO₃ 137-plane eigentone ($25K), and B12H32 hydride T_c ~214 K — plus family-wide predictions for cuprate superconductors, iron pnictides, topological insulators, and quantum spin liquids.

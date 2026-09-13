@@ -10,6 +10,8 @@ load_bearing: "Group theory + Lie groups + Lie algebras + Cartan classification;
 
 # Chapter 6 — Group Theory and Lie Groups
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Groups capture symmetry, Lie groups are smooth-manifold groups with smooth operations, and the BST framework is built on the specific Lie group $SO_0(5,2)$ — its 21-dimensional real Lie algebra $\mathfrak{so}(5,2)$, maximal compact subgroup $SO(5) \times SO(2)$, rank-2 Cartan subalgebra with half-sum of positive roots $\rho = (5/2, 3/2)$, and bounded symmetric domain coset $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$.

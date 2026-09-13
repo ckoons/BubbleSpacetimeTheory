@@ -10,6 +10,8 @@ load_bearing: "Z(β) = Tr e^{-βH_sub} on H²(D_IV⁵) = heat kernel on D_IV⁵;
 
 # Chapter 5 — The Partition Function as Heat Kernel on $D_{IV}^5$
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 The canonical partition function $Z(\beta) = \text{Tr}\,e^{-\beta \hat H_{\text{sub}}}$ — the engine of all of statistical mechanics — is literally the heat kernel on the BST substrate domain $D_{IV}^5$, and its Seeley-DeWitt asymptotic expansion (verified through $k = 20$ in Paper #9) exhibits a substrate-natural arithmetic-triangle structure with speaking-pair period $n_C = 5$, column rule (T531), two-source prime structure (T532), and Kummer-analog conjecture (T533) — the arithmetic of the substrate is *visible* in the partition function.

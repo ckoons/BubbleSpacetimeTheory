@@ -11,6 +11,8 @@ calibration_compliance: "Cal #19 + Cal #21 + Cal #50 + Cal #99 META-theorem fram
 
 # Vol 12 Chapter 12 — Bridge to Vol 9 + Vol 13
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Headline synthesis
 
 Vol 12 (Chemistry) bridges from atomic physics (Vol 3) through condensed matter (Vol 9) to biology (Vol 13). Chemistry is the substrate-engineered transformation between atomic-scale phenomena (electron orbital + nuclear) and biological-scale phenomena (DNA + proteins + metabolism).

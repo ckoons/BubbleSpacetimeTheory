@@ -10,6 +10,8 @@ load_bearing: "Casey's Principle: entropy = force = counting (depth 0); 4-zone c
 
 # Chapter 1 — Thermodynamics from Substrate
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Thermodynamics is the substrate's many-tick statistical averaging at Scale 2-3, with Casey's depth-0 principle "entropy = force = counting" identifying the deep structural fact: the second law isn't a separate physical law, it is just the substrate counting which configurations are more numerous — and force, entropy, and combinatorial counting are the same operation read three ways.

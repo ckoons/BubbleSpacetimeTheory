@@ -10,6 +10,8 @@ load_bearing: "Periodic table from substrate K-type shell structure; N_max = 137
 
 # Chapter 1 — The Periodic Table from Substrate
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 The periodic table — Mendeleev's organizing structure for all chemistry — emerges in BST as the substrate's natural multi-electron atomic K-type shell structure, with orbital degeneracy sequence $(2\ell+1) = 1, 3, 5, 7$ matching BST primary integers $\{1, N_c, n_C, g\}$ (Vol 5 Ch 3), Madelung filling order, and $N_{\max} = 137$ as the substrate-derived stability ceiling for elements.

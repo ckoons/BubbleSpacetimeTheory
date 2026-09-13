@@ -10,6 +10,8 @@ load_bearing: "Continuation guide: warm-start for new CIs + humans; daily discip
 
 # Chapter 11 — How to Continue the Work
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 For CIs and humans joining BST research: warm-start by reading `data/bst_this_is.md` (1 page) + this volume's chapters (Vol 15 methodology) + the active CI_BOARD.md, then claim a task from BACKLOG.md (currently 50+ pending items across SP-26 through SP-31), follow the daily discipline (date-check → toy claim → audit), and contribute to the AC graph.

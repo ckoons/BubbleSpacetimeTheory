@@ -1,5 +1,5 @@
 # K1895 — AUDIT: are Curriculum/ and Guide/ accurate and complete, and what finishes the work
-**Keeper, 2026-09-13 (Sunday) 10:00 EDT (clock). Casey's ask: "read the work in Curriculum/ and Guide/, tell me if it is accurate and complete and what we need to do to finish the work."** Nothing landed from the team over the weekend except Grace's ledger EOD line; the state is Friday's close plus this morning's pass.
+**Keeper, 2026-09-13 (Sunday) 09:58 EDT (clock). Casey's ask: "read the work in Curriculum/ and Guide/, tell me if it is accurate and complete and what we need to do to finish the work."** Nothing landed from the team over the weekend except Grace's ledger EOD line; the state is Friday's close plus this morning's pass.
 
 ## Verdict: ACCURATE at the sentence level in the derived core, as of this note; NOT COMPLETE. CONDITIONAL PASS holds; the conditions are fewer and all named.
 

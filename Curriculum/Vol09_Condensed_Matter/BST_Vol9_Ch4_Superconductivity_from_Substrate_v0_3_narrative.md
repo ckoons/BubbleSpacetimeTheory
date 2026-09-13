@@ -10,6 +10,8 @@ load_bearing: "Superconductivity from substrate; BCS for conventional; cuprate B
 
 # Chapter 4 — Superconductivity from Substrate
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Superconductivity — zero resistance + Meissner effect below $T_c$ — has well-understood BCS mechanism for conventional materials (Cooper-pair phonon-mediated condensate), but cuprate high-$T_c$ superconductors remain partly mysterious; BST gives specific predictive readings: cuprate mechanism via substrate CuO₂-plane K-type structure, B12H32 hydride T_c ~214 K, and family-wide iron pnictide predictions.

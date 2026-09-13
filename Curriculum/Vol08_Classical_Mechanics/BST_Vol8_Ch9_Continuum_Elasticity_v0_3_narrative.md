@@ -10,6 +10,8 @@ load_bearing: "Stress and strain tensors; Hooke's law; elastic waves; seismology
 
 # Chapter 9 — Continuum Elasticity
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Elasticity describes deformable solids: small applied stress $\sigma_{ij}$ produces proportional strain $\epsilon_{ij} = (1/2)(\partial_i u_j + \partial_j u_i)$ via the elastic-constant tensor $C_{ijkl}$ (Hooke's law generalization), and the resulting wave equations support longitudinal (P) and transverse (S) elastic waves at speeds set by the material's bulk and shear moduli — foundation for seismology, materials engineering, and the Vol 9 Condensed Matter elastic-response chapter.

@@ -9,6 +9,8 @@ chapter: 1
 
 # Chapter 1 — Nuclear Substrate Reading
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 Nuclear physics — the structure and dynamics of atomic nuclei — has been one of the most empirically successful subfields of physics for nearly a century. The shell model explains magic numbers; the semi-empirical mass formula reproduces binding energies; nuclear spectroscopy maps the excited-state structures of hundreds of nuclides. But the *underlying parameters* of nuclear physics — the spin-orbit coupling strength, the SEMF coefficients, the magic-number sequence — are fit to experiment in standard treatments.
 
 BST derives them from substrate primaries. The volume's central substrate-mechanism reading: the nucleus is the substrate's natural confined-color arena, with the spin-orbit coupling $\kappa_{ls} = C_2/n_C = 6/5$ governing the magic-number sequence and the SEMF coefficients all in BST-primary form. The remaining ten chapters develop the consequences.

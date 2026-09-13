@@ -10,6 +10,8 @@ load_bearing: "Information completeness: substrate provides COMPLETE channel for
 
 # Chapter 11 — Information Completeness
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 BST asserts substrate **information completeness**: D_IV⁵ + BST primaries $\{rank, N_c, n_C, C_2, g\}$ provide the COMPLETE information channel for observable physics — no hidden variables, no super-substrate, no missing degrees of freedom — falsifiable by identifying any observable BST cannot derive.

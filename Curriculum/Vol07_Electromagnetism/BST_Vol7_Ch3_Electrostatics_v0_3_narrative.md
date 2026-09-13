@@ -10,6 +10,8 @@ load_bearing: "Coulomb's law as static substrate U(1) source coupling; Poisson e
 
 # Chapter 3 — Electrostatics
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Electrostatics — Coulomb's law, electric potential, Poisson and Laplace equations, capacitors and dielectrics — is the time-independent restriction of substrate $U(1)$ gauge field equations to static sources, with $\vec E = -\nabla\phi$ and the scalar potential $\phi$ satisfying Poisson's equation $\nabla^2 \phi = -\rho/\epsilon_0$, all derivable from the substrate's $SO(2)$-charge K-type structure.

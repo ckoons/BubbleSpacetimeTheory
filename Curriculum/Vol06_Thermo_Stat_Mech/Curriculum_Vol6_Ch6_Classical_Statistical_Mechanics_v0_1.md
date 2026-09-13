@@ -10,6 +10,8 @@ load_bearing: "Maxwell-Boltzmann distribution; equipartition theorem; ergodicity
 
 # Chapter 6 — Classical Statistical Mechanics
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Classical statistical mechanics — Maxwell-Boltzmann velocity distribution, equipartition $\langle E_{\text{mode}}\rangle = (1/2)k_B T$, ergodic-hypothesis time-averages-equal-ensemble-averages — is the substrate's high-temperature large-K-type-count limit at Scale 2, where the quantum partition function (Chapter 5) collapses to a classical phase-space integral.

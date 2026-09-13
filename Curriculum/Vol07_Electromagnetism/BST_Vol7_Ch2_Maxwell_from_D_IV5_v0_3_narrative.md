@@ -10,6 +10,8 @@ load_bearing: "Maxwell's equations from substrate U(1) Yang-Mills gauge structur
 
 # Chapter 2 — Maxwell's Equations from $D_{IV}^5$
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Maxwell's four equations — Gauss's law for E, Faraday's law, Gauss for B, Ampère-Maxwell — are not independent empirical findings but the substrate's $U(1)$ gauge-field equations in tensor form $\partial_\mu F^{\mu\nu} = J^\nu$ and $\partial_{[\mu} F_{\nu\rho]} = 0$, where $F = dA$ is the gauge curvature 2-form built from the substrate $SO(2)$ connection 1-form $A$, and the equations follow directly from substrate gauge invariance and the variational principle.

@@ -10,6 +10,8 @@ load_bearing: "14 Bravais lattices; 230 space groups; Bloch's theorem; reciproca
 
 # Chapter 2 — Crystal Lattices
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Crystalline solids have periodic atomic arrangements classified by the 14 Bravais lattices and 230 space groups, giving Bloch's theorem $\psi(\vec r) = e^{i\vec k\cdot\vec r} u(\vec r)$ as the fundamental solution-form for electrons in periodic potentials, with reciprocal lattices and Brillouin zones structuring all of solid-state band theory.

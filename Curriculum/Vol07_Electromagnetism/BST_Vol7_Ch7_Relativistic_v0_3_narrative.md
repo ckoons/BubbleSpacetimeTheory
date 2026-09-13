@@ -10,6 +10,8 @@ load_bearing: "Lorentz covariance of EM from substrate SO(4,2) ⊂ SO(5,2) (Lyra
 
 # Chapter 7 — Relativistic Electromagnetism
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Maxwell's equations are *manifestly* Lorentz-covariant when written in 4-vector form $\partial_\mu F^{\mu\nu} = \mu_0 J^\nu$, and this Lorentz covariance is not a postulate but inherits from BST's substrate symmetry $SO_0(4,2) \subset SO_0(5,2)$ — the substrate naturally contains conformal-Lorentz symmetry, so EM (the substrate's $U(1)$ gauge sector) automatically transforms covariantly.

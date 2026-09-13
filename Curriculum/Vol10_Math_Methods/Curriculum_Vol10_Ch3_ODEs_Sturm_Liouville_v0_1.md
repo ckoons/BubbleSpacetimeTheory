@@ -10,6 +10,8 @@ load_bearing: "ODEs; existence + uniqueness; Sturm-Liouville eigenvalue problems
 
 # Chapter 3 — ODEs and Sturm-Liouville Theory
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Ordinary differential equations describe physical systems with one independent variable, and Sturm-Liouville theory gives the spectral framework for boundary-value problems whose eigenfunctions form complete orthogonal bases — the foundation for separation-of-variables solutions to many physics PDEs (Schrödinger, heat, wave).

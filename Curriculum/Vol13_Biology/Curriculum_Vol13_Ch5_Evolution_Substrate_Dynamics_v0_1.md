@@ -10,6 +10,8 @@ load_bearing: "Darwinian evolution; mutation, selection, drift; substrate as evo
 
 # Chapter 5 — Evolution as Substrate Dynamics
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Darwinian evolution — variation (mutation) + heredity (DNA replication) + selection (differential survival/reproduction) → adaptation — is the population-level dynamics of substrate K-type configurations across biological time, with mutations as substrate K-type alterations and selection as substrate-permeated environmental filtering.

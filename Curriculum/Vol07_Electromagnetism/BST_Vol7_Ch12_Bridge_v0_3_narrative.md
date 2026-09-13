@@ -10,6 +10,8 @@ load_bearing: "Vol 7 closing synthesis; full EM substrate-derivation arc; bridge
 
 # Chapter 12 — Synthesis and Cross-Volume Bridges
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Everything in this volume hangs together: EM is the substrate's natural $U(1)$ gauge sector (Ch 1), Maxwell's equations are forced by the substrate $U(1)$ Yang-Mills action (Ch 2, Ch 8), electrostatics + magnetostatics + EM waves + radiation + scattering all follow (Ch 3-6, 9), Lorentz covariance inherits from substrate $SO(4,2) \subset SO_0(5,2)$ (Ch 7), and material response + plasma extend the framework to physical applications (Ch 10-11) — all with $\alpha = 1/137 = 1/N_{\max}$ as the substrate's natural coupling strength, derived not fit.

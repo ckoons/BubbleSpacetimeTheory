@@ -10,6 +10,8 @@ load_bearing: "Hamilton's equations; canonical transformations; Poisson brackets
 
 # Chapter 4 — Hamiltonian Mechanics
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Hamiltonian mechanics (Hamilton 1834) is the phase-space formulation of classical mechanics: replace velocities $\dot q$ with canonical momenta $p = \partial L/\partial\dot q$, define the Hamiltonian $H(q, p, t) = \sum p_i \dot q_i - L$, and dynamics is governed by Hamilton's first-order equations $\dot q_i = \partial H/\partial p_i$, $\dot p_i = -\partial H/\partial q_i$ — the foundation for canonical quantization in QM (Vol 5).

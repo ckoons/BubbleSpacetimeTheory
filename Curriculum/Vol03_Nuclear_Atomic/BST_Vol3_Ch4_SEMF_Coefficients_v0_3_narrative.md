@@ -9,6 +9,8 @@ chapter: 4
 
 # Chapter 4 — SEMF Coefficients from BST Integers
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 The semi-empirical mass formula (SEMF), introduced by Weizsäcker in 1935, gives the binding energy of any nucleus from five empirical coefficients: volume $a_V$, surface $a_S$, Coulomb $a_C$, asymmetry $a_A$, and pairing $\delta$. The standard SEMF is one of nuclear physics' most useful tools, with the five coefficients fit to nuclear binding-energy data.
 
 BST derives all five in BST-primary form.

@@ -10,6 +10,8 @@ load_bearing: "Arrhenius rate law; transition state theory; Eyring equation; act
 
 # Chapter 5 — Reaction Kinetics and Transition States
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Reaction kinetics describes how fast chemical reactions proceed, with Arrhenius rate law $k = A e^{-E_a/RT}$ giving exponential temperature dependence and Eyring transition state theory $k = (k_B T/h)\exp(-\Delta G^\ddagger/RT)$ providing the substrate-K-type-saddle interpretation: the substrate K-type configuration passes through a transient saddle-point (transition state) to reach products.

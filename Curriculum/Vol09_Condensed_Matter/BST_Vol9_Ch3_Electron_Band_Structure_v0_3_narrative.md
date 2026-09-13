@@ -10,6 +10,8 @@ load_bearing: "Band structure E(k); tight-binding + nearly-free electron; metals
 
 # Chapter 3 — Electron Band Structure
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Electrons in periodic crystals have energy bands $E_n(\vec k)$ instead of discrete atomic levels, with band-filling determining whether the material is a metal (partially filled), semiconductor (small gap), or insulator (large gap), and BST identifies the bands as the substrate's K-type spectrum on the periodic ionic boundary condition.

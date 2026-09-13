@@ -10,6 +10,8 @@ load_bearing: "Substrate as Reed-Solomon-coded info channel; 4-zone cycle (absor
 
 # Chapter 1 — The Substrate as Information Channel
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 BST's substrate operates as an information channel — accepting inputs (Zone 1 absorption), processing them (Zone 2 bulk computation), committing outputs (Zone 3 Bergman-kernel projection = Born rule), and emitting them (Zone 4) — with the full cycle at the Koons-tick rate $t_K = t_P \cdot \alpha^{C_2^2} \approx 10^{-120}$ s, and Reed-Solomon coding on GF(2^g) = GF(128) as the underlying error-correcting structure (Paper #122).

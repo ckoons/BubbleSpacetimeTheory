@@ -10,6 +10,8 @@ load_bearing: "Nyquist-Shannon sampling theorem; Koons tick = t_Planck · α^(C_
 
 # Chapter 4 — Nyquist Sampling and the Koons Tick
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 The Nyquist-Shannon sampling theorem requires sample rate $f_s \ge 2 f_{\max}$ to losslessly reconstruct a band-limited signal — and BST identifies the Koons tick $t_K = t_P \cdot \alpha^{C_2^2} \approx 10^{-120}$ s as the substrate's sampling clock with maximum representable frequency $1/(2 t_K) \approx 5 \cdot 10^{119}$ Hz.

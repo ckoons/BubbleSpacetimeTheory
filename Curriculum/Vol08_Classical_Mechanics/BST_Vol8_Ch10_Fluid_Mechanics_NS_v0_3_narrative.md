@@ -10,6 +10,8 @@ load_bearing: "Navier-Stokes equations; ~99% BST proof of NS well-posedness Mill
 
 # Chapter 10 — Fluid Mechanics and Navier-Stokes
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 ## Level 1 — one sentence
 
 Fluid mechanics is governed by the Navier-Stokes equations for incompressible viscous flow $\rho(\partial_t \vec u + (\vec u \cdot \nabla)\vec u) = -\nabla P + \mu\nabla^2 \vec u + \vec f$ with $\nabla \cdot \vec u = 0$, whose well-posedness in 3D is one of the seven Clay Millennium problems — and BST has PROVED at ~99% confidence via the substrate's Koons-tick discretization providing the ultraviolet completeness that prevents finite-time blow-ups.

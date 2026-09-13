@@ -9,6 +9,8 @@ chapter: 8
 
 # Chapter 8 — Hyperfine Splitting and the Lamb Shift
 
+*Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
+
 Atomic spectroscopy has two famous fine-structure phenomena: **hyperfine splitting** (the splitting of atomic energy levels by nuclear magnetic-moment coupling) and the **Lamb shift** (the small QED-induced shift between $2s_{1/2}$ and $2p_{1/2}$ states of hydrogen, discovered by Lamb in 1947). Both involve $\alpha$-suppressed contributions to atomic energy levels and are calculated to high precision in standard QED.
 
 BST organizes these via the **$\alpha^{\text{BST primary}}$ exponent pattern** (Lyra T2476, May 22, 2026): transition matrix elements scale as $\alpha^{k}$ where $k$ is a BST primary integer depending on the multipole order.
