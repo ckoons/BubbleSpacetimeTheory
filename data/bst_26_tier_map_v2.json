@@ -205,9 +205,9 @@
    "n": 11,
    "id": "V_cb",
    "sector": "CKM",
-   "form": "position: the 2–3 entry; value 0.044 RETIRED (8.9σ vs exclusive, 3.6σ vs inclusive)",
+   "form": "position: the 2–3 entry; value 0.044 RETIRED — 9.2σ vs exclusive (39.77 ± 0.46)×10⁻³ (the 08-23 pin: (44.0 − 39.77)/0.46 = 9.20), 3.6σ vs inclusive (42.16 ± 0.51)×10⁻³",
    "tier_word": "identified",
-   "note": "VALUE RETIRED, POSITION KEPT (08-22): a down-sector-only reading (up 23-mode refracts past the boundary); a position has no measurement as its license",
+   "note": "VALUE RETIRED, POSITION KEPT (08-22): a down-sector-only reading (up 23-mode refracts past the boundary); a position has no measurement as its license Sigma referent fixed 2026-09-13 (R143 G4): the earlier \"8.9σ\" was the flagship's 08-22 figure against a pre-re-pin exclusive value (implies 39.91); one retirement, one σ — 9.2 on the 08-23 pin, as Lecture 7 and the rubric carry.",
    "rows": [
     "T2532",
     "K711",
