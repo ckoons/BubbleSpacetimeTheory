@@ -1,0 +1,91 @@
+
+==========================================================================
+  BST VERIFICATION — 50 predictions from D_IV^5
+  (38 SM core + 12 extended reach; run --core for core only)
+  Five integers: rank=2, N_c=3, n_C=5, C_2=6, g=7, N_max=137
+  Run this. Read the output. Check our work. (The inputs the register counts: one measured
+  identification, N_c = 3 <-> colour; one dimensionful ruler, m_e. 'Zero free parameters' was struck 2026-08-23.)
+==========================================================================
+
+  [Stat] = this script's K962 verification-status code of 2026-07-27, NOT the register's tier.
+         Register tiers (derived / identified / floored / open / input): python3 play/bst_26_tier_generator.py --emit
+    #  Stat  Name                                                 BST           Obs       Dev  Result
+  ———  ————  ——————————————————————————————————————————  ————————————  ————————————  ————————  ——————
+    1  [D]   m_p/m_e (proton/electron mass ratio)           1836.1181     1836.1527    0.002%  PASS
+    2  [I]   alpha^-1 (inverse fine structure)               137.0000      137.0360    0.026%  PASS
+    3  [C]   N_gen (number of generations)                   3.000000             3    0.000%  EXACT
+    4  [D]   v (electroweak VEV, GeV)                        246.1066      246.2200    0.046%  PASS
+    5  [I]   m_H (Higgs mass, GeV)                           125.0548      125.2500    0.156%  PASS
+    6  [I]   m_t (top quark mass, GeV)                       172.7534      172.6900    0.037%  PASS
+    7  [R]   sin^2(theta_W) (Weinberg angle)               0.23076923    0.23122000    0.195%  PASS
+    8  [D]   m_W (W boson mass, GeV)                        80.338035     80.377000    0.048%  PASS
+    9  [I]   m_Z (Z boson mass, GeV)                        91.599453     91.187600    0.452%  PASS
+   10  [D]   Gamma_W (W width, MeV)                         2085.0098     2085.0000    0.000%  PASS
+   11  [D]   m_mu/m_e (muon/electron mass ratio)             206.7612      206.7683    0.003%  PASS
+   12  [I]   a_e (electron anomalous moment, Schwinger)    0.00116171    0.00115965    0.178%  PASS
+   13  [D]   sin(theta_C) (Cabibbo angle, T1444 correct    0.22501758    0.22501000    0.003%  PASS
+   14  [I]   |V_ud|                                        0.97467943    0.97373000    0.098%  PASS
+   15  [I]   |V_us|                                        0.22360680    0.22430000    0.309%  PASS
+   16  [I]   gamma_CKM (CKM angle, rad)                      1.150262      1.141500    0.768%  PASS
+   17  [I]   rho_bar (Wolfenstein)                         0.15811388    0.15900000    0.557%  PASS
+   18  [I]   sin^2(theta_12) (solar, theta_13 corrected    0.30674157    0.30700000    0.084%  PASS
+   19  [I]   sin^2(theta_23) (atmospheric)                 0.57142857    0.57200000    0.100%  PASS
+   20  [D]   sin^2(theta_13) (reactor)                     0.02197802    0.02195000    0.128%  PASS
+   21  [I]   g_A (nucleon axial coupling)                    1.273240      1.275600    0.185%  PASS
+   22  [I]   Delta_Sigma (proton spin fraction)            0.30000000    0.30000000    0.000%  EXACT
+   23  [I]   m_rho (rho meson, MeV)                          781.8787      775.2600    0.854%  PASS
+   24  [I]   m_K (kaon mass, MeV)                            494.5035      493.6770    0.167%  PASS
+   25  [C]   Omega_Lambda (dark energy fraction)           0.68421053    0.68500000    0.115%  PASS
+   26  [C]   Omega_m (matter fraction)                     0.31578947    0.31500000    0.251%  PASS
+   27  [I]   Omega_DM/Omega_b (DM to baryon ratio)           5.333333      5.360000    0.498%  PASS
+   28  [I]   n_s (spectral tilt)                           0.96350365    0.96490000    0.145%  PASS
+   29  [I]   Omega_b (baryon fraction)                     0.04986150    0.04930000    1.139%  WARN
+   30  [F]   kappa_ls (spin-orbit coupling)                  1.200000      1.200000    0.000%  EXACT
+   31  [F]   magic number 2                                  2.000000             2    0.000%  EXACT
+   32  [F]   magic number 8                                  8.000000             8    0.000%  EXACT
+   33  [F]   magic number 20                                20.000000            20    0.000%  EXACT
+   34  [F]   magic number 28                                28.000000            28    0.000%  EXACT
+   35  [F]   magic number 50                                50.000000            50    0.000%  EXACT
+   36  [F]   magic number 82                                82.000000            82    0.000%  EXACT
+   37  [F]   magic number 126                                126.0000           126    0.000%  EXACT
+   38  [D]   theta_tetrahedral (degrees)                     109.4712      109.4700    0.001%  PASS
+   39  [D]   theta_H2O (water bond angle, degrees)           104.4712      104.5000    0.028%  PASS
+   40  [I]   theta_NH3 (ammonia bond angle, degrees)         107.8067      107.8000    0.006%  PASS
+   41  [I]   D_e(C-H) (bond energy, eV)                      4.330829      4.330000    0.019%  PASS
+   42  [D]   N_bases (DNA bases)                             4.000000             4    0.000%  EXACT
+   43  [D]   codon_length                                    3.000000             3    0.000%  EXACT
+   44  [D]   N_codons                                       64.000000            64    0.000%  EXACT
+   45  [D]   N_amino_acids                                  20.000000            20    0.000%  EXACT
+   46  [D]   Kolmogorov 5/3 exponent                         1.666667      1.666667    0.000%  EXACT
+   47  [D]   gamma_adiabatic (monatomic)                     1.666667      1.666667    0.000%  EXACT
+   48  [I]   v_P/v_S (seismic ratio, Poisson solid)          1.732051      1.735000    0.170%  PASS
+   49  [I]   m_phi (phi meson, MeV)                         1016.4423     1019.4610    0.296%  PASS
+   50  [D]   theta_D(Pb) (Debye temperature, K)              105.0000           105    0.000%  EXACT
+
+==========================================================================
+  RESULTS: 49/50 at <1% precision
+    EXACT:  17  (integer or machine-precision match)
+    PASS:   32  (<1% deviation — above noise floor)
+    WARN:    1  (1-2% — grey zone, needs structural support)
+    FAIL:    0  (>2% — consistency check, not prediction)
+
+  Status ladder (K962, 2026-07-27 — this script's verification vocabulary, superseded as a TIER by the
+  four-word register vocabulary of 2026-09-11; kept here as the column legend, not as tiers):
+    DERIVED   (geometrically forced / two routes — GR-level): 16
+    IDENTIFIED(single-route match, forcing open): 22
+    CONDITIONAL(hinges on an open identification/conjecture): 3
+    FITTED    (searched/post-hoc — NOT a derivation): 8
+    RUNNER    (scale-dependent — a trajectory, not a number): 1
+
+  Null-model context (Toy 1543) — a SEPARATE, blind set (not these):
+    The 49/50 above is THIS curated reproduction set (D/I predictions).
+    Toy 1543 is a different, un-curated 51-constant set used only to
+    test non-randomness: BST 27/51 vs random 5-tuples 14.7/51 (Z=2.9,
+    p<0.0005; vs random primes Z=4.63). Lower BECAUSE it is blind —
+    that a blind set still beats random 3sigma is the anti-numerology signal.
+    Two different sets, two different jobs: reproducibility vs non-randomness.
+
+  Source: github.com/caseykoons/BubbleSpacetimeTheory
+  Full theory: data/bst_seed.md | Full table: Paper #83
+  Interactive: python3 play/toy_bst_explorer.py
+==========================================================================

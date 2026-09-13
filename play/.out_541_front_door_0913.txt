@@ -1,0 +1,9 @@
+  16 passed, 0 failed
+  51 quantities computed from 6 integers (3 read off the classification, 3 named combinations)
+  inputs consumed by this run, counted at the point of use:
+    [measured identification] N_c = 3 <-> the colour count (the one dimensionless input to the choice of object)
+    [identified formula] alpha = N_c^2/(|W| pi^4) * Vol^(1/4) (Wyler's form) — IDENTIFIED, not derived (K1816, 2026-08-23)
+    [dimensionful ruler] m_e = 0.51099895 MeV (CODATA)
+    [unit constant] hbar*c = 197.3269804 MeV fm (units only)
+  => 1 measured identification(s), 1 identified formula(s), 1 dimensionful ruler(s); no quantity above was adjusted to match an observation (comparisons are one-way)
+  (the March banner 'zero free parameters' is retired — K1816 2026-08-23; the register's count is the line above)

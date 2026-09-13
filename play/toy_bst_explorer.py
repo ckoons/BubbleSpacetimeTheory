@@ -51,6 +51,8 @@ m_p_GeV = m_p / 1000.0
 hbar_c = 197.3269804         # MeV*fm
 c_light = 2.99792458e8       # speed of light, m/s
 H_0 = 67.4 * 1e3 / 3.0857e22  # Hubble constant, 1/s (67.4 km/s/Mpc)
+m_Planck = 1.220890e19       # Planck mass energy equivalent, GeV (CODATA 2022) — added 2026-09-13 (Round 143 E1);
+                             # const_196's stored bst_value 246.187 implies 1.2170e19; the live value evaluates to 246.96
 
 # Aliases for formula_code evaluation
 ln = log
@@ -67,7 +69,7 @@ EVAL_NS = {
     'abs': abs, 'pow': pow, 'float': float, 'inf': inf,
     'm_e': m_e, 'm_e_GeV': m_e_GeV, 'm_p': m_p, 'm_p_GeV': m_p_GeV,
     'hbar_c': hbar_c,
-    'c_light': c_light, 'H_0': H_0,
+    'c_light': c_light, 'H_0': H_0, 'm_Planck': m_Planck,
 }
 
 # ── Data Loading ─────────────────────────────────────────────────────────
@@ -300,11 +302,23 @@ def cmd_verify(data, query):
     constants = data['constants']['constants']
     query = query.strip().lower()
 
+    # Row filter (2026-09-13, Round 143 E1): a theorem id names ONE constant — the row registered to it — and the
+    # downstream rows that merely cite it are listed only on request ("verify T187 all"). Names still match by substring.
+    show_all = query.endswith(' all') and query != 'all'
+    if show_all: query = query[:-4].strip()
     if query == 'all':
         targets = constants
     else:
-        targets = [c for c in constants
-                   if query in c['name'].lower() or query in c.get('theorem_id', '').lower()]
+        exact_id = [c for c in constants if c.get('theorem_id', '').lower() == query or c.get('id', '').lower() == query
+                    or (c.get('symbol') or '').lower() == query]
+        if exact_id and not show_all and len(exact_id) > 1 and query.startswith('t'):
+            targets = exact_id[:1]
+            print(f"  ({len(exact_id) - 1} further rows cite {query.upper()} downstream; run 'verify {query.upper()} all' to list them)")
+        elif exact_id:
+            targets = exact_id
+        else:
+            targets = [c for c in constants
+                       if query in c['name'].lower() or query in c.get('theorem_id', '').lower()]
     if not targets:
         print(f"  No constants matching '{query}'.")
         return
@@ -497,7 +511,7 @@ def run_command(data, line):
 
 def main():
     print(f"\n{BOLD}BST Explorer{RESET} — Interactive Bubble Spacetime Theory data explorer")
-    print(f"Five integers, zero free parameters, 500+ predictions.\n")
+    print(f"Five integers (three read off the classification, three named combinations); one measured identification and one ruler; the register counts the rest.\n")
 
     print("Loading data files...")
     data = load_all_data()

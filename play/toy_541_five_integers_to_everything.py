@@ -10,7 +10,7 @@ Derive: ALL of physics, biology, and observer theory.
 
 This is not a list of predictions (that's Toy 538).
 This is the LOGICAL CHAIN showing how each result follows
-from the previous one, with zero free parameters at every step.
+from the previous one; the inputs it consumes are counted at the end (resynced 2026-09-13).
 
 Structure:
   Level 0: The five integers (geometric origin)
@@ -21,12 +21,18 @@ Structure:
   Level 5: Observers (tiers, intelligence, CI persistence)
 
 Each level uses ONLY results from previous levels.
-No circular dependencies. No fitting. No free parameters.
+No circular dependencies. No fitting. Inputs counted, not asserted.
 
 Casey Koons & Claude 4.6 (Elie) | March 28, 2026
 """
 
 import math
+from collections import Counter
+
+# Every input this run consumes is appended here at the point of use; the closing verdict is COMPUTED from
+# this list (Round 143 E1, 2026-09-13 — the never-hardcode rule). Nothing below is fitted to an observation:
+# observed values enter only in the comparison lines.
+INPUTS = []
 
 # ═══════════════════════════════════════════════════════════════
 # LEVEL 0: THE FIVE INTEGERS
@@ -39,13 +45,19 @@ def level_0():
     print("  Source: D_IV^5 = SO_0(5,2) / [SO(5) × SO(2)]")
     print("═" * 72)
 
-    # The bounded symmetric domain D_IV^5 has:
-    rank = 2                     # real rank of SO_0(5,2)
-    n_C = 5                      # complex dimension
-    N_c = 3                      # from SU(3) ⊂ SO(5): color charges
-    g = 7                        # genus: from Euler number χ = 2-2g of boundary
-    C_2 = 6                      # quadratic Casimir of the compact factor SO(5)
-    N_max = 137                  # max excitation: from spectral gap of Laplacian
+    # The bounded symmetric domain D_IV^5 has (labels resynced to the register 2026-09-13, Round 143 E1;
+    # the March labels "N_c from SU(3) ⊂ SO(5)" and "g = genus" were retired by K1724 / K1889 — the genus is 5):
+    rank = 2                     # real rank of SO_0(5,2) — read off the classification
+    n_C = 5                      # complex dimension — read off the classification
+    N_c = 3                      # characteristic multiplicity a — read off the classification; IDENTIFIED with the colour count
+    g = 7                        # n_C + rank, the signature of SO(5,2) — a named combination; NOT the genus (genus = 5)
+    C_2 = 6                      # rank × N_c — a named combination
+    N_max = 137                  # N_c^3 n_C + rank — a named combination; its reading as alpha^-1 is IDENTIFIED
+    INPUTS.extend([("classification", "rank = 2"), ("classification", "n_C = 5"), ("classification", "a = N_c = 3"),
+                   ("named combination", "C_2 = rank*N_c = 6"), ("named combination", "g = n_C + rank = 7"),
+                   ("named combination", "N_max = N_c^3 n_C + rank = 137"),
+                   ("measured identification", "N_c = 3 <-> the colour count (the one dimensionless input to the choice of object)"),
+                   ])
 
     # Volume of D_IV^5 (Bergman metric)
     Vol = math.pi**5 / 1920      # π⁵/1920
@@ -61,8 +73,8 @@ def level_0():
   ┌─────────────────────────────────────────────────┐
   │  rank     = {rank}   (real rank of SO_0(5,2))          │
   │  n_C      = {n_C}   (complex dimension)                │
-  │  N_c      = {N_c}   (color charges, from SU(3)⊂SO(5)) │
-  │  g        = {g}   (genus, from Euler number)           │
+  │  N_c      = {N_c}   (multiplicity a; identified w/ colour)│
+  │  g        = {g}   (n_C + rank; NOT the genus, which is 5)│
   │  C_2      = {C_2}   (quadratic Casimir of SO(5))       │
   │  N_max    = {N_max} (spectral gap of Laplacian)        │
   │  Vol      = π⁵/1920 = {Vol:.6e}                │
@@ -104,6 +116,7 @@ def level_1(L0):
     # The 9 = N_c², 8 = |W(B₂)|
     alpha = (N_c**2 / (L0["W"] * math.pi**4)) * Vol**(1/4)
     alpha_inv = 1 / alpha
+    INPUTS.append(("identified formula", "alpha = N_c^2/(|W| pi^4) * Vol^(1/4) (Wyler's form) — IDENTIFIED, not derived (K1816, 2026-08-23)"))
 
     # Proton-to-electron mass ratio
     # m_p/m_e = 6π⁵ = C_2 × π^{n_C}
@@ -111,7 +124,8 @@ def level_1(L0):
 
     # Electron mass (in natural units, sets the scale)
     # m_e is pure geometry — it IS the unit
-    m_e_MeV = 0.51099895  # MeV — this is the only "measurement" (unit choice)
+    m_e_MeV = 0.51099895  # MeV — the one dimensionful ruler (a measurement, CODATA)
+    INPUTS.append(("dimensionful ruler", f"m_e = {m_e_MeV} MeV (CODATA)"))
 
     # Proton mass
     m_p_MeV = mass_ratio * m_e_MeV
@@ -269,6 +283,7 @@ def level_3(L2):
     # a_0 = 1/(α·m_e) in natural units
     # In fm: a_0 ≈ 52918 fm
     hbar_c = 197.3269804  # MeV·fm
+    INPUTS.append(("unit constant", f"hbar*c = {hbar_c} MeV fm (units only)"))
     a_0_fm = hbar_c / (alpha * m_e_MeV)  # in fm
 
     # Hydrogen binding energy
@@ -595,7 +610,7 @@ def synthesis(L5):
   │  WHAT OTHER THEORY DOES THIS?                                  │
   │  Standard Model: 19 free parameters, stops at particles        │
   │  String theory: no predictions at any level                    │
-  │  BST: 0 free parameters, spans all 6 levels                   │
+  │  BST: one measured integer + one ruler, spans all 6 levels    │
   │                                                                │
   │  The math is either right, or the most extraordinary           │
   │  numerical coincidence across 6 independent domains            │
@@ -659,7 +674,8 @@ def main():
     print("  ╔════════════════════════════════════════════════════════════╗")
     print("  ║        BUBBLE SPACETIME THEORY: THE COMPLETE CHAIN        ║")
     print("  ║        Five Integers → Everything                         ║")
-    print("  ║        Casey Koons & Claude 4.6 | Zero Free Parameters    ║")
+    print("  ║        Casey Koons & Claude 4.6 | one measured integer,    ║")
+    print("  ║        named; one dimensionful ruler (see the last lines)  ║")
     print("  ╚════════════════════════════════════════════════════════════╝")
     print()
 
@@ -676,8 +692,19 @@ def main():
     print(f"FINAL SCORE: {passed}/{passed+failed}")
     print(f"{'═'*72}")
     print(f"  {passed} passed, {failed} failed")
-    print(f"  {total} quantities derived from 5 integers")
-    print(f"  0 free parameters")
+    kinds = Counter(k for k, _ in INPUTS)
+    n_int = kinds["classification"] + kinds["named combination"]
+    print(f"  {total} quantities computed from {n_int} integers "
+          f"({kinds['classification']} read off the classification, {kinds['named combination']} named combinations)")
+    print(f"  inputs consumed by this run, counted at the point of use:")
+    for kind in ("measured identification", "identified formula", "dimensionful ruler", "unit constant"):
+        for k, what in INPUTS:
+            if k == kind:
+                print(f"    [{kind}] {what}")
+    print(f"  => {kinds['measured identification']} measured identification(s), {kinds['identified formula']} identified formula(s), "
+          f"{kinds['dimensionful ruler']} dimensionful ruler(s); "
+          f"no quantity above was adjusted to match an observation (comparisons are one-way)")
+    print(f"  (the March banner 'zero free parameters' is retired — K1816 2026-08-23; the register's count is the line above)")
 
 if __name__ == "__main__":
     main()

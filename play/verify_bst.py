@@ -391,10 +391,13 @@ def verify(core_only=False):
         print(f"  BST VERIFICATION — {n_total} predictions from D_IV^5")
         print(f"  ({n_total - n_ext} SM core + {n_ext} extended reach; run --core for core only)")
     print("  Five integers: rank=2, N_c=3, n_C=5, C_2=6, g=7, N_max=137")
-    print("  Zero free parameters. Run this. Read the output. Check our work.")
+    print("  Run this. Read the output. Check our work. (The inputs the register counts: one measured")
+    print("  identification, N_c = 3 <-> colour; one dimensionful ruler, m_e. 'Zero free parameters' was struck 2026-08-23.)")
     print("=" * 74)
     print()
-    print(f"  {'#':>3}  {'Tier':4}  {'Name':42}  {'BST':>12}  {'Obs':>12}  {'Dev':>8}  Result")
+    print("  [Stat] = this script's K962 verification-status code of 2026-07-27, NOT the register's tier.")
+    print("         Register tiers (derived / identified / floored / open / input): python3 play/bst_26_tier_generator.py --emit")
+    print(f"  {'#':>3}  {'Stat':4}  {'Name':42}  {'BST':>12}  {'Obs':>12}  {'Dev':>8}  Result")
     print(f"  {'—'*3}  {'—'*4}  {'—'*42}  {'—'*12}  {'—'*12}  {'—'*8}  {'—'*6}")
 
     n_pass = 0
@@ -473,7 +476,8 @@ def verify(core_only=False):
             ("S", "STRUCTURAL(qualitative / doesn't pin the value)"),
             ("F", "FITTED    (searched/post-hoc — NOT a derivation)"),
             ("R", "RUNNER    (scale-dependent — a trajectory, not a number)")]
-    print("  Tier ladder (K962, two-axis: tier = how we know it; accuracy above = how well it's checked):")
+    print("  Status ladder (K962, 2026-07-27 — this script's verification vocabulary, superseded as a TIER by the")
+    print("  four-word register vocabulary of 2026-09-11; kept here as the column legend, not as tiers):")
     for code, label in K962:
         n = sum(1 for p in preds if p[5] == code)
         if n:

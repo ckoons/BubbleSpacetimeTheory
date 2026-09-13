@@ -1,0 +1,16 @@
+
+  (8 further rows cite T187 downstream; run 'verify T187 all' to list them)
+  [92mPASS[0m [T187] Proton-to-electron mass ratio: BST=1836.12 vs Obs=1836.15 (0.0019%)
+Five integers (three read off the classification, three named combinations); one measured identification and one ruler; the register counts the rest.
+
+Loading data files...
+  6/6 data files loaded.
+
+  [92mPASS[0m [T187] Proton-to-electron mass ratio: BST=1836.12 vs Obs=1836.15 (0.0019%)
+  [92mPASS[0m [T187] Nuclear spin-orbit coupling: BST=1.2 vs Obs=1.2 (0.0000%)
+  [92mPASS[0m [T187] Up quark mass: BST=2.16798 vs Obs=2.16 (0.3697%)
+  [92mPASS[0m [T187] Down quark mass: BST=4.6973 vs Obs=4.67 (0.5846%)
+  [92mPASS[0m [T187] Strange quark mass: BST=93.946 vs Obs=93.4 (0.5846%)
+  [92mPASS[0m [T187] Charm quark mass: BST=1277.67 vs Obs=1270 (0.6036%)
+  [92mPASS[0m [T187] Bottom quark mass: BST=4146.01 vs Obs=4180 (0.8132%)
+  [92mPASS[0m [T187] Higgs VEV (gravity-ruler-anchored form): BST=246.964 vs Obs=246.22 (0.3021%)
