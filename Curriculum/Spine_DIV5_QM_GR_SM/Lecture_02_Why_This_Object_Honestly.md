@@ -65,7 +65,7 @@ Now ask what group the geometry actually supplies on that three-dimensional spac
 
 So the identification is not merely un-mechanised. It is *unmechanisable within the geometry*. In the falsifier register's own vocabulary this is a **floor** — a theorem on the wall plus a door with a name — and it belongs in the register's Section F as row F4 (Cal C3; the row is owed). A cleanly closed door is a result: whoever wants to derive the input must bring something the geometry does not contain, and now knows exactly what shape that something must have — a complex three-dimensional action that the tripotent decomposition does not supply.
 
-This also touched two old rows, and we state their status exactly. T2543 said the mediator space "is colour"; that clause was *ruled* struck on 2026-09-09 (Cal Sections 944–946) — and as of this writing the registry row still carries it, because the edit was never made; a ruling that is not swept is not a correction, and the edit is owed. T2545 argued the $(3,1)$ signature of spacetime from the same space: right conclusion, and the reason was re-grounded on 2026-09-11 (Grace, Round 142 G1, commit 704d402d) — $V_{12} \cong \mathbb{C}^3$ is the complexified $SO(3)$ vector, irreducible over $\mathbb{C}$ and of Frobenius–Schur real type, $\mathbf{3} \cong \bar{\mathbf{3}}$, hence not any $SU(3)$ fundamental.
+This also touched two old rows, and we state their status exactly. T2543 said the mediator space "is colour"; that clause was ruled struck on 2026-09-09 (Cal Sections 944–946) and the registry row was edited on 2026-09-11 (Grace, commit d7c4e474; the count it carried now lives in T2631). For two days between the ruling and the edit this lecture said "struck" of an unedited row, and Cal caught it — a ruling that is not swept is not a correction. T2545 argued the $(3,1)$ signature of spacetime from the same space: right conclusion, and the reason was re-grounded on 2026-09-11 (Grace, Round 142 G1, commit 704d402d) — $V_{12} \cong \mathbb{C}^3$ is the complexified $SO(3)$ vector, irreducible over $\mathbb{C}$ and of Frobenius–Schur real type, $\mathbf{3} \cong \bar{\mathbf{3}}$, hence not any $SU(3)$ fundamental.
 
 ## Tier line
 
@@ -73,7 +73,7 @@ This also touched two old rows, and we state their status exactly. T2543 said th
 - **Identified — the one dimensionless input to the choice of the object:** colour count $=$ characteristic multiplicity.
 - **Proved absent:** any mechanism inside the geometry for that identification (dimension $4 \neq 8$; $\mathbf 3 \cong \bar{\mathbf 3}$; no larger compact subgroup).
 - **Not claimed:** forcing; zero free parameters; "the unique geometry that can support physics"; any probability; that $3$ is special to the invariant (it is not — toy 5753).
-- **Retired with this lecture:** the eleven-criterion theorem and its null model; "the genus is 7"; "SU(3) from $N_c = 3$." **Owed:** the registry edit striking T2543's clause.
+- **Retired with this lecture:** the eleven-criterion theorem and its null model; "the genus is 7"; "SU(3) from $N_c = 3$." **Landed 2026-09-11:** the registry edit striking T2543's clause (d7c4e474); the second dated line on T2545 scoping the FS clause (Cal Section 950).
 
 ## What would make this lecture wrong
 

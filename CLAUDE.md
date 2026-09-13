@@ -271,7 +271,8 @@ python3 play/verify_bst.py
 | `notes/` | 700+ research notes, 98 numbered papers, proofs, theorem write-ups | `notes/README.md` |
 | `play/` | 2,056+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, DarkMatterCalculation.md | `OneGeometry.md` |
-| `Working_Paper/` | Modular Working Paper sections + INDEX.md (formerly Master_Index.md at root, moved May 24) | `Working_Paper/INDEX.md` |
+| `Guide/` | The Working Paper — six volumes (Journey / Framework / Physics / Mathematics / Predictions / Frontier); `Guide/INDEX.md` is the root (the directory was `Working_Paper/` until August; this row pointed at the old name until 2026-09-13) | `Guide/INDEX.md` |
+| `Curriculum/Spine_DIV5_QM_GR_SM/` | The derived core — ten lectures, QM/GR/SM from D_IV⁵, written from the register (2026-09-11) | `Curriculum/Spine_DIV5_QM_GR_SM/INDEX.md` |
 
 ## Key Files
 

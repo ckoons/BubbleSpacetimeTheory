@@ -29,7 +29,7 @@ Two things the mixing is *not*, both proved and both useful: it is not radial (K
 
 ## The Cabibbo angle, blind
 
-On the down-type module the geometry produces a texture with a zero in the (1,1) place, and diagonalising it gives
+The quark module is the colour slot $V_{12}$ of Lecture 2 — the same one input, in physical clothes (Cal, second pass). On the down-type module the geometry produces a texture with a zero in the (1,1) place, and diagonalising it gives
 
 $$\tan\theta_C \;=\; \sqrt{\frac{m_d}{m_s}}\,,$$
 

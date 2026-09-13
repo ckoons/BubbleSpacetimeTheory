@@ -91,7 +91,7 @@ The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes
 
 D_IV^5 is **information-complete**: its Baily-Borel compactification — the boundary of the geometry — is fully determined by the same five integers that define its interior. No new parameters, functions, or information of any kind appear at the boundary. The interior contains all information about the edge.
 
-This is what unification means in BST: not four forces merged into one force, but one geometry that is its own complete description. Four independent "locks" select D_IV^5 uniquely from all 38 rank-2 bounded symmetric domains (Toy 1399, 10/10 PASS):
+This is what unification means in BST: not four forces merged into one force, but one geometry that is its own complete description. One theorem selects D_IV^5: among irreducible bounded symmetric domains of rank at least two it is the unique one with characteristic multiplicity 3 — given the identification of that 3 with the colour count, which is the program's one input to the choice (K1889, 2026-09-09; the "four locks / 38 domains" multi-criterion argument this line carried until 2026-09-13 was retired with the eleven-criterion theorem). The four readings below are kept as the May record of how the object was first recognised:
 
 1. **Confinement**: gauge group requires N_c ≥ 3 for asymptotic freedom (kills 14)
 2. **Catalog integrity**: genus g must be prime for GF(2^g) to be a field (kills 15 more)
