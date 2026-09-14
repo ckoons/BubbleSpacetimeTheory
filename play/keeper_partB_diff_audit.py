@@ -14,6 +14,13 @@ ITEMS = {
  '(5) power':           r'power|sigma_K|σ_K|150 km|450 km|3σ Landing B|3\\sigma',
  '(6) P3':              r'P3|redshift.dipole|clock|Rac|ℓ = 1|\\ell = 1',
 }
+# v1.2 -> v1.3 scope (K1903 §2): (i) x at the threshold; (ii) the vector-chi2 comparison; K1901 §3's §1 number; the declaration.
+ITEMS_K1903 = {
+ '(i) x at threshold':  r'x_i|threshold|selection limit|quadratic|derivative at|at the edge|0\.5 mag|local slope|2501\.06450|secant|tangent',
+ '(ii) vector chi2':    r'χ²|chi2|\\chi\^2|vector|7\.815|14\.156|3 d\.o\.f|norm|debiased|tr\s*Σ|tr\s*\\Sigma|positional region|Siewert|2010\.08366|Δβ|\\Delta\\beta',
+ '§1 number (K1901 §3)': r'443|149|σ_K|sigma_K|\\sigma_K|5758|5760|150 km',
+ 'declaration':         r'9b|K1903|v1\.3',
+}
 def hunks(a, b):
     """Per changed LINE, not per opcode hunk: adjacent in-scope and out-of-scope edits merge into one hunk and the
     in-scope keyword would launder the other (the self-test's first failure). Each inserted/replaced line stands alone."""
@@ -54,4 +61,7 @@ def selftest():
     print('SELFTEST', 'PASS' if ok else 'FAIL', cls); return 0 if ok else 1
 if __name__ == '__main__':
     if '--selftest' in sys.argv: sys.exit(selftest())
-    sys.exit(audit(sys.argv[1], sys.argv[2]))
+    if '--scope' in sys.argv and sys.argv[sys.argv.index('--scope')+1].lower() == 'k1903':
+        ITEMS.clear(); ITEMS.update(ITEMS_K1903)
+    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() != 'k1903']
+    sys.exit(audit(args[0], args[1]))
