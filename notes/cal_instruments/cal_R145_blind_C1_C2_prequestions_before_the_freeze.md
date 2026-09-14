@@ -1,0 +1,14 @@
+# Cal — R145 C1/C2 pre-questions, written after reading Keeper's DRAFT (as the board instructed) and BEFORE writing the frozen file; no catalogue, no Quaia dipole paper, no number beyond the draft's has been opened
+2026-09-14 (Mon) 10:05 EDT (stamp from $(date)).
+
+What a cosmologist referee finds missing in the draft's Section 4, which the freeze must supply as sentences that cannot move after a number is seen:
+1. **"In every bin" is under-determined.** Per bin there are 3 data (a dipole vector) and, with a per-bin intrinsic vector, 3 nuisance unknowns — nothing is separable bin by bin. The separation needs a COMMON kinematic vector across bins plus a frozen radial profile for the intrinsic part. Freeze one model, one profile, one named alternative reported but not deciding.
+2. **The hatch of 08-21 §5 is open-ended** ("survives astrophysical explanation" is a judgement, not a test). It must become a finite list of named systematics, each with a pass/fail statement written now. Otherwise a fire can always be argued away and P1 cannot fail.
+3. **Landing C has no boundary.** "Degenerate fit" must be a number: freeze it on the fitted boost's uncertainty (can the data tell 0 from β_CMB?) and route every 2σ–3σ tension to C, so A/B/C partition the outcomes with no gap.
+4. **(x, α) for a magnitude-limited optical/IR sample** is not the radio formula's; freeze the per-bin prescription (count slope at the selection limit; effective spectral index from the catalogue's own two bands), computed within the mask BEFORE any dipole, with propagated uncertainties.
+5. **The CMB dipole is assumed purely kinematic.** That is a presupposition of P1 and must sit on its face (Planck's aberration/modulation measurement is the support; Grace pins); a partly intrinsic CMB dipole is a named alternative outside this test.
+6. **A blindness leak the draft does not name:** dipole analyses of Quaia have been published (2024). Reading them before the run contaminates the freeze exactly as opening the catalogue would. Refusal: nobody reads a Quaia dipole paper until Keeper has verified the hash and the run is done.
+7. **Photometric redshifts** (Quaia's are spectrophotometric with outliers): bins on the catalogue's reported z, no reassignment, and a frozen merge rule if a bin is under-populated.
+8. **Minimum counts**: shot noise on a dipole is ~√(3/N); freeze a floor that gives ≳ 2σ per bin on the expected kinematic amplitude.
+9. **C2 shape:** P1 fails on a synthetic sky with NO boost (the fit returns β ≈ 0 ≠ β_CMB) and on a synthetic sky boosted at 2β_CMB or 60° off — both must map to Landing B by the frozen thresholds; the negative control (clustering only) therefore is a Landing-B case for P1, which is the proof A is not vacuous.
+10. **Numbers not mine to type:** β_CMB, its direction and uncertainties, Quaia's version/limits/mask — Grace's pins govern; the frozen file quotes the draft's values with that clause.
