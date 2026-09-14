@@ -1,0 +1,80 @@
+cells: 3616 equal-area; unmasked 2468 (74.7% of the sky) — mask |b|>15° + LMC + SMC
+
+SEALED injection hash 1d9aa2f25c9c — values revealed only after the estimates are printed
+
+E2 POSITIVE CONTROL (BLIND), Quaia-like depth: 1,665,891 sources after cut, 1,245,726 unmasked
+   bin                 N  x_gen  x_meas         D   v [km/s]    ±an  ±boot      95% v-range            (l, b)  cone95
+   (0, 0.75)      269664   0.90   0.902   0.00723      570.7    272    239   [   304,  1176]   ( 156.8, -31.1)    70.5°
+   (0.75, 1.25)   258928   1.00   1.003   0.01122      840.8    273    285   [   337,  1477]   ( 195.9, -17.1)    49.8°
+   (1.25, 1.75)   248156   1.10   1.101   0.00641      457.4    235    203   [   225,   991]   ( 131.0, -55.0)    77.1°
+   (1.75, 2.5)    239019   1.20   1.200   0.00820      558.7    251    216   [   252,  1070]   ( 113.0, -30.3)    65.3°
+   (2.5, 4.0)     229959   1.30   1.298   0.01117      727.7    238    229   [   402,  1273]   ( 206.5, -37.8)    45.8°
+
+E2 POSITIVE CONTROL (BLIND), 10x depth: 16,669,198 sources after cut, 12,459,665 unmasked
+   bin                 N  x_gen  x_meas         D   v [km/s]    ±an  ±boot      95% v-range            (l, b)  cone95
+   (0, 0.75)     2699702   0.90   0.899   0.00671      529.2     85     86   [   367,   714]   ( 212.3, -34.6)    23.5°
+   (0.75, 1.25)  2590224   1.00   0.999   0.00852      638.8     85     87   [   494,   829]   ( 163.2, -24.8)    18.5°
+   (1.25, 1.75)  2486863   1.10   1.099   0.00655      467.6     75     75   [   312,   611]   ( 187.7, -53.5)    23.3°
+   (1.75, 2.5)   2390235   1.20   1.199   0.00700      476.8     78     79   [   341,   648]   ( 166.7, -36.3)    21.6°
+   (2.5, 4.0)    2292641   1.30   1.300   0.00797      519.7     75     72   [   387,   663]   ( 168.8, -38.9)    22.0°
+
+   REVEAL: injected v = 460.9 km/s toward (l, b) = (188.5, -40.3)
+   1.3 M:
+      bin (0, 0.75): v in 95% range: True;  direction offset 27.2° vs cone95 70.5°: True
+      bin (0.75, 1.25): v in 95% range: True;  direction offset 24.0° vs cone95 49.8°: True
+      bin (1.25, 1.75): v in 95% range: True;  direction offset 40.1° vs cone95 77.1°: True
+      bin (1.75, 2.5): v in 95% range: True;  direction offset 60.6° vs cone95 65.3°: True
+      bin (2.5, 4.0): v in 95% range: True;  direction offset 14.1° vs cone95 45.8°: True
+   13 M:
+      bin (0, 0.75): v in 95% range: True;  direction offset 19.6° vs cone95 23.5°: True
+      bin (0.75, 1.25): v in 95% range: False;  direction offset 26.3° vs cone95 18.5°: False
+      bin (1.25, 1.75): v in 95% range: True;  direction offset 13.3° vs cone95 23.3°: True
+      bin (1.75, 2.5): v in 95% range: True;  direction offset 17.5° vs cone95 21.6°: True
+      bin (2.5, 4.0): v in 95% range: True;  direction offset 15.3° vs cone95 22.0°: True
+  [HIT] P1  measured x within 0.05 of generating x in all bins (max |Δx| = 0.003)
+  [MISS] P2  blind recovery: 5/5 bins at 1.3 M, 4/5 at 13 M inside the 95% intervals (v and direction); σ_v ratio 1.3M/13M = 2.94 (√10 = 3.16)
+  [MISS] P3  count-weighted mean v̂/v_inj at 13 M = 1.1454 — the Ellis–Baldwin amplitude 2 + x(1+α) is unbiased against a physical boost
+
+E2 POSITIVE CONTROL (NAMED: 369.82 km/s toward (264.02, 48.25)), Quaia-like depth
+   bin                 N  x_gen  x_meas         D   v [km/s]    ±an  ±boot      95% v-range            (l, b)  cone95
+   (0, 0.75)      269940   0.90   0.897   0.00367      289.7    279    207   [   161,   895]   ( 243.5,  22.0)   124.9°
+   (0.75, 1.25)   258911   1.00   1.000   0.00975      730.7    244    226   [   382,  1213]   ( 315.6,  52.4)    55.5°
+   (1.25, 1.75)   249324   1.10   1.098   0.00555      396.1    250    202   [   179,   924]   ( 335.9,  37.7)    92.7°
+   (1.75, 2.5)    238476   1.20   1.195   0.01306      889.6    216    201   [   610,  1346]   ( 184.8,  72.6)    38.4°
+   (2.5, 4.0)     229107   1.30   1.298   0.00835      544.1    208    213   [   282,  1082]   ( 259.9,  78.7)    62.1°
+      bin (0, 0.75): v in 95% range: True;  direction offset 31.0° vs cone95 124.9°: True
+      bin (0.75, 1.25): v in 95% range: False;  direction offset 32.5° vs cone95 55.5°: True
+      bin (1.25, 1.75): v in 95% range: True;  direction offset 51.7° vs cone95 92.7°: True
+      bin (1.75, 2.5): v in 95% range: False;  direction offset 41.5° vs cone95 38.4°: False
+      bin (2.5, 4.0): v in 95% range: True;  direction offset 30.5° vs cone95 62.1°: True
+   per-bin σ_v at Quaia-like depth: [207, 226, 202, 201, 213] km/s — what a per-bin comparison with 369.82 ± 0.11 can decide at 1.3 M sources
+   NEG bin 0-0.75: |D| = 0.01572 (injected 0.01417 at bin centre) toward (103.1,22.6); σ_D = 0.00365
+   NEG bin 0.75-1.25: |D| = 0.00554 (injected 0.00406 at bin centre) toward (147.6,13.3); σ_D = 0.00371
+   NEG bin 1.25-1.75: |D| = 0.00545 (injected 0.00149 at bin centre) toward (337.5,6.9); σ_D = 0.00377
+   NEG bin 1.75-2.5: |D| = 0.00818 (injected 0.00043 at bin centre) toward (333.0,39.8); σ_D = 0.00385
+   NEG bin 2.5-4.0: |D| = 0.00339 (injected 0.00005 at bin centre) toward (197.1,-9.3); σ_D = 0.00393
+
+   SEPARATION D_b = K + I·g(z_b):
+   matched template g = exp(-z/0.5): K = [0.0015, -0.00256, 0.00126] ± [0.00216, 0.00217, 0.00173] (|K| = 0.00322, ≙ 230 km/s at x=1.1)
+      I = [-0.0117, 0.0354, 0.0094] ± [0.0095, 0.0095, 0.0076]  (|I|/σ = 4.3);  corr(K_i,I_i) = [-0.623, -0.623, -0.623];  χ² = 7.9 for 9 dof
+   MISMATCHED template g = (1+z)^-2: K = [0.00246, -0.00579, 0.0004] ± [0.00282, 0.00283, 0.00226] (|K| = 0.00630, ≙ 450 km/s at x=1.1)
+      I = [-0.0115, 0.0364, 0.0097] ± [0.0099, 0.01, 0.008]  (|I|/σ = 4.2);  corr(K_i,I_i) = [-0.8, -0.8, -0.8];  χ² = 8.6 for 9 dof
+  [MISS] P4  matched: |K_i| < 2σ in every component and I at 4.3σ; mismatched: leaked |K| = 0.00630 = 21% of D_int(0) ≙ 450 km/s, χ² = 8.6/9 — the template is a freeze item
+  [MISS] P5 (control)  analytic vs bootstrap σ_v agree within 26% (worst bin)
+
+ADDENDUM P6 — coverage of the 95% intervals over 20 blind seeds at Quaia-like depth (100 bin-trials)
+   coverage: v in 95% range 72/100 = 0.720;  direction in cone95 87/100 = 0.870   (binomial 2σ band around 0.95 for 100 trials: [0.906, 0.994])
+  [MISS] P6  95% intervals are calibrated: coverage 0.72 (v), 0.87 (direction) over 100 blind bin-trials
+
+ADDENDUM P7 — the Ellis–Baldwin amplitude tested where the noise bias is negligible: beta = 0.01 (2998 km/s), 13 M sources
+   bin (0, 0.75)    N  2698740  x_meas 0.901  v̂_raw  3083.3  v̂_db  3079.8  ± 78.6 km/s  ->  v̂_db/v_inj = 1.0273;  direction offset 0.57°
+   bin (0.75, 1.25) N  2589167  x_meas 1.000  v̂_raw  2909.1  v̂_db  2905.6  ± 76.7 km/s  ->  v̂_db/v_inj = 0.9692;  direction offset 1.41°
+   bin (1.25, 1.75) N  2486602  x_meas 1.101  v̂_raw  2922.3  v̂_db  2919.0  ± 74.4 km/s  ->  v̂_db/v_inj = 0.9737;  direction offset 1.16°
+   bin (1.75, 2.5)  N  2390531  x_meas 1.200  v̂_raw  2920.5  v̂_db  2917.4  ± 72.1 km/s  ->  v̂_db/v_inj = 0.9731;  direction offset 3.33°
+   bin (2.5, 4.0)   N  2293534  x_meas 1.298  v̂_raw  2982.0  v̂_db  2979.1  ± 70.8 km/s  ->  v̂_db/v_inj = 0.9937;  direction offset 2.04°
+  [MISS] P7  v̂_db/v_inj per bin = [1.0273, 0.9692, 0.9737, 0.9731, 0.9937] — the amplitude is NOT 2 + x(1+α) at this precision; see the diagnosis below
+
+   diagnosis of run 1's +14.5% at 13 M: the noise-bias-corrected count-weighted mean there is v̂_db/v_inj = 1.1042 (raw was 1.1454); per-bin raw/db: [(529, 508), (639, 623), (468, 447), (477, 457), (520, 503)]
+
+SCORE 1/7, of which 1/6 can-fail hit
+python3 toy_5757_SEP14_*.py  55.75s user 206.90s system 1340% cpu 19.588 total
