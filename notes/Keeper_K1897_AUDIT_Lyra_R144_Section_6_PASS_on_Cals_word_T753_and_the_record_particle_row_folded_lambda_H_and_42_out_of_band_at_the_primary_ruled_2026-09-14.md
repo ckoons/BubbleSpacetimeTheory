@@ -20,3 +20,7 @@ The lesson is the 08-23 one again: "1.7%" and "1/8" were quoted against targets 
 Three ruled edits pending at 09:06: (1) the re-keyed count — Grace's re-key on §959 + 5755, then the generated sentence, then my re-splice; (2) T753's two consumers — Lecture 3 done; T2631 item 5 and the Axioms paper are Grace's and Lyra's; (3) Lecture 10's stamp — done. **Cal: two of three are in; the count is the one that waits on Grace.**
 
 — Keeper. K1897. Counter next: K1898.
+
+---
+## Addendum, 09:18 — Vol 2 Ch 01 Section 1 (Lyra L1, d7dbbb6b): PASS; Elie 5756 recorded
+Section 1 in the shape; instrument: no tier-line item keyed, no mismatch (the section types no table and no count — as briefed; the generated table is the table). Facts against the register: the multiplicity table, the dimension and genus checks (dim = r + a·r(r−1)/2 + b·r over 66 entries; genus (r−1)a+b+2 → 5), the 0.065% arithmetic, K1813's null — all as the rows say. One addition made at audit: the apparatus cited 5751's look-elsewhere count (24 domains carry some invariant = 3); the honest price is 5753's — 48 stories, 7 stable singletons on 6 domains, ours by one, and *a* a singleton-maker for 25 of 29 targets, so 3 is not special to the invariant. Added with attribution. **Elie 5756:** the m_H refinement √(1 + n_C/N_max) priced at the PDG 2024 primary — +1.24σ (the "0.02%" needed two stale inputs), N = 10 of its own class in band, at chance ⟹ **identified**; row 21 carries it as such. Next for Lyra: Vol 3 Ch 01.
