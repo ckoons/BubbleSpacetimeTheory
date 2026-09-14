@@ -4,7 +4,7 @@ spine: "D_IV⁵: QM, GR and the SM — the derivations, tiered"
 author: "Keeper, for Casey Koons and the team"
 date: "2026-09-11 — v0.1"
 sources: "Rounds 47–61 (K1791–K1810; folded into the rubric 2026-08-22); T2519 (skeleton, rank-1 alignment); T2530 (λ = 1/√20 blind, 2026-07-29; Gatto); T2547 (CP existence); the partial-isometry condition; K1808/K1810 (the order — Cayley–Hamilton on the generation space; K1810 is Keeper's own six-correction walk-back of K1808); the sealed negative (K1800: five series hashed before filing); K1002 → 08-22 (V_cb value retired, position kept); K1801 and K1809 (the curated layer's three λ's; count over ranking; smallest-of-N); K1635 (mixing is not radial); K1799 (the Q⁵ parity fold is a projector, spectrum {0,1}); PDG 2024 Rev 12 (first-row unitarity 0.9984 ± 0.0007; λ = 0.22501 ± 0.00068; A = 0.826 ± 0.015; |V_cb| exclusive (39.77 ± 0.46)×10⁻³)"
-tier_line: "DERIVED: the skeleton; λ = 1/√20, blind; CP existence; flavour universality as the partial-isometry condition (CKM = U_up†U_down the forced survivor); THE ORDER — the 1–3 corner one rung below the 2–3 in the expansion parameter t (a position; the ratio's value is t/(1+4t) with t a coordinate), zero-knob. INPUT: the corner's value (a coordinate, not an invariant); δ_CP's magnitude; A. IDENTIFIED (the register's word): |V_cb| — its position Aλ², its old value retired at +9.2σ against the exclusive determination. FIRED AND LOST: five sealed series for the corner value. LIVE FALSIFIER: first-row unitarity. NOT CLAIMED: the exact mixing values beyond λ; any 'smallest-of-N' form without N reported."
+tier_line: "DERIVED: the skeleton; λ = 1/√20, blind; CP existence; flavour universality as the partial-isometry condition (CKM = U_up†U_down the forced survivor); THE ORDER — the 1–3 corner one rung below the 2–3 in the expansion parameter t (a position; the ratio's value is t/(1+4t) with t a coordinate), zero-knob. OPEN (the register's word — no form fixed by the geometry; the value is taken from measurement where it is used): the corner's value (a coordinate, not an invariant); δ_CP's magnitude; A. IDENTIFIED (the register's word): |V_cb| — its position Aλ², its old value retired at +9.2σ against the exclusive determination. FIRED AND LOST: five sealed series for the corner value. LIVE FALSIFIER: first-row unitarity. NOT CLAIMED: the exact mixing values beyond λ; any 'smallest-of-N' form without N reported."
 ---
 
 # Lecture 7 — Mixing
@@ -71,7 +71,7 @@ One methodological retirement belongs in this lecture because it happened here. 
 
 - **Derived:** the skeleton; flavour universality as the partial-isometry condition; $\lambda = 1/\sqrt{20}$ (blind); CP existence; the order of the corner.
 - **Fired and lost, certified:** five sealed series for the corner's value.
-- **Input:** the corner's value, $\delta_{CP}$'s magnitude, $A$, $|V_{cb}|$ (position kept).
+- **Open** (the register's word; "input" is reserved for the two dimensionful scales): the corner's value, $\delta_{CP}$'s magnitude, $A$ — each taken from measurement where it is used. $|V_{cb}|$ is *identified* (position $A\lambda^2$, value retired).
 - **Not claimed:** exact values beyond $\lambda$; any "smallest-of-$N$" without $N$; $\gamma$ or $J$ as derived.
 
 ## What would make this lecture wrong

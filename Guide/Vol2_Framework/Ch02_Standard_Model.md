@@ -501,7 +501,7 @@ The May tables below are the apparatus a referee will want: every formula the pr
 - **Derived:** the skeleton (T2519); flavour universality as the partial-isometry condition; $\lambda = 1/\sqrt{20}$, blind (T2530 on T2529); CP existence, both sectors (T2547, T2536); the *order* of the corner (K1808/K1810); $\theta_{23}$ maximal (T2534); $\theta_{13} = 1/45$ on the ladder, re-read owed.
 - **Identified:** $\theta_{12} = 3/10$; the $4/7$ departure of $\theta_{23}$; $|V_{cb}|$'s position.
 - **Fired and lost, certified:** five sealed series for the corner's value (K1800/E6).
-- **Input:** the corner's value; $\delta_{CP}$'s magnitude; $A$; $|V_{cb}|$'s value.
+- **Open** (the register's word; "input" is reserved for the two dimensionful scales): the corner's value; $\delta_{CP}$'s magnitude; $A$ — taken from measurement where used. ($|V_{cb}|$ is identified, above.)
 - **Open:** $\gamma$, $\bar\rho$, $\bar\eta$, $J$ (K1809: report the count, not the winner; $J = \sqrt2/50000$ is untested, not passed); $\delta_{\rm PMNS}$'s magnitude.
 - **Live falsifiers:** first-row CKM unitarity resolving against unity (A-row of the register); the corner's order read across $|V_{us}| : |V_{cb}| : |V_{ub}|$ (A8, owed to Grace this round).
 - **Not claimed:** exact values beyond $\lambda$; any "smallest of $N$" without $N$; "the full CKM and PMNS matrices derived" (K1801 finding 6).
