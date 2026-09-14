@@ -36,6 +36,42 @@ def selftest():
     r = dict(base, bin_resid_p=[0.5,0.004,0.6,0.3,0.2]); tests.append(land(r)[0] == 'C')  # A-level fit, one bin residual fails -> C
     r = dict(base, C_triggers=dict(base['C_triggers'], channels_disagree=True)); tests.append(land(r)[0] == 'C')  # C' routes to C
     print('SELFTEST', 'PASS' if all(tests) else 'FAIL', tests); return 0 if all(tests) else 1
+
+# ---- v1.3 mode (Keeper K1903 proposal, 2026-09-14; ACTIVE ONLY when Cal's v1.3 is hashed with this Section 5) ----
+# Elie 5760: at S/N ~2.5 the fitted NORM carries the 3-vector noise bias (mean beta_hat/beta_inj = 1.20);
+# |dbeta| on the raw norm leans to B. So the comparison is the VECTOR: chi2 with 3 d.o.f. of (b - beta_cmb*u_cmb)
+# under Sigma_b + sigma_cmb^2*I. 95% quantile of chi2_3 = 7.815; 3-sigma-equivalent (99.73%) = 14.156.
+CHI2_3_95, CHI2_3_3SIG = 7.815, 14.156
+def land_v13(r):
+    """run.json keys: chi2_cmb (chi2_3 of b vs beta_cmb*u_cmb), chi2_zero (chi2_3 of b vs 0), sigma_beta, beta_cmb,
+    bin_resid_p, C_triggers, hatch. Direction and amplitude are ONE test; 'consistent with zero' keeps its own clause."""
+    C = r['C_triggers']
+    for k, v in C.items():
+        if v: return 'C', '4.4 trigger: %s' % k
+    hatch_all = all(r['hatch'].values())
+    zero_ok = (r['chi2_zero'] <= CHI2_3_95) and (r['sigma_beta'] < r['beta_cmb'] / 2)
+    b_level = (r['chi2_cmb'] >= CHI2_3_3SIG) or zero_ok
+    if b_level:
+        if hatch_all: return 'B', '5(v1.3): chi2_3(b, CMB) = %.2f >= %.2f or b~0 (%s); every hatch check PASSES' % (r['chi2_cmb'], CHI2_3_3SIG, zero_ok)
+        return 'C', 'B-level discrepancy did NOT survive the hatch (failed: %s)' % [k for k, v in r['hatch'].items() if not v]
+    a_level = (r['chi2_cmb'] <= CHI2_3_95) and all(p >= 0.01 for p in r['bin_resid_p'])
+    if a_level: return 'A', '5(v1.3): chi2_3(b, CMB) = %.2f <= %.2f, no bin residual with p < 0.01' % (r['chi2_cmb'], CHI2_3_95)
+    return 'C', '5(v1.3): between A and B (chi2_3 = %.2f; min bin p = %.3f)' % (r['chi2_cmb'], min(r['bin_resid_p']))
+def selftest_v13():
+    base = dict(chi2_cmb=2.0, chi2_zero=30.0, sigma_beta=149.0, beta_cmb=369.82, bin_resid_p=[0.5,0.4,0.6,0.3,0.2],
+                C_triggers=dict(sigma_ge_half_beta=False, region_gt_quarter_sky=False), hatch=dict(H1=True,H2=True,H3=True,H4=True,H5=True,H6=True))
+    t = []
+    t.append(land_v13(base)[0] == 'A')                                                   # inside 95%, bins clean
+    t.append(land_v13(dict(base, chi2_cmb=10.0))[0] == 'C')                              # between 95% and 3sigma
+    t.append(land_v13(dict(base, chi2_cmb=20.0))[0] == 'B')                              # 3sigma-equivalent, hatch passes
+    t.append(land_v13(dict(base, chi2_cmb=20.0, hatch=dict(base['hatch'], H3=False)))[0] == 'C')  # fails a hatch
+    t.append(land_v13(dict(base, chi2_cmb=40.0, chi2_zero=3.0))[0] == 'B')               # consistent with zero, sigma < beta/2
+    t.append(land_v13(dict(base, chi2_cmb=40.0, chi2_zero=3.0, sigma_beta=200.0))[0] == 'B')  # chi2_cmb alone already B
+    t.append(land_v13(dict(base, bin_resid_p=[0.5,0.004,0.6,0.3,0.2]))[0] == 'C')        # A-level, one bin fails
+    t.append(land_v13(dict(base, C_triggers=dict(sigma_ge_half_beta=True, region_gt_quarter_sky=False)))[0] == 'C')
+    print('SELFTEST v1.3', 'PASS' if all(t) else 'FAIL', t); return all(t)
+
 if __name__ == '__main__':
+    if '--selftest-v13' in sys.argv: sys.exit(0 if selftest_v13() else 1)
     if '--selftest' in sys.argv: sys.exit(selftest())
     r = json.load(open(sys.argv[1])); L, why = land(r); print('LANDING', L, '—', why)
