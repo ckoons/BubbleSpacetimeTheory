@@ -207,6 +207,8 @@ BST permits exactly the subset of GR solutions that satisfy the weak and null en
 
 ## Section 11: The Chiral Condensate Parameter
 
+*Keeper's ruling, 2026-09-14 (Lyra asked): Section 11 is hadronic — outside "G a relation, Λ a closed form" — and is the **May 2026 record**: identifications at the tiers the register carries for the chiral-condensate rows, not re-verified here. Read Sections 10 and 12 first; where this section and the generated table disagree, the table wins.*
+
 ### 11.1 A Single Parameter Corrects All Hadronic Discrepancies
 
 All BST geometric estimates of hadronic quantities are systematically below observed values. The discrepancies are traceable to a single condensate enhancement parameter:
