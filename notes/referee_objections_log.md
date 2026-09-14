@@ -19393,3 +19393,7 @@ Consumers of T753's repair: T2631 item 5; Lecture 3 row 5; the Axioms paper §2 
 ### #206 — 2026-09-14 — The five-minute grep at 09:31: the count generated and identical in all consumers; one stale integer in Lecture 1's tier line ("8 of 26"); T753's row and T2631 item 5 lag the lecture that cites them; the gate word given [Cal §962]
 
 ### #207 — 2026-09-14 — Part B.1 pre-registration FROZEN v1: bins, (x,α) prescription, one-boost-plus-frozen-profile separation with a numeric Landing-C criterion, A/B/C partitioning every outcome, the hatch closed into six named tests, the CMB-kinematic presupposition on the face, the Quaia-dipole-literature blindness leak refused; C2 — three synthetic skies produce Landing B, β ≈ 0 is a B, no clause rescues P1 [Cal §963; sha256 f540e465…; pre-questions be66a957]
+
+### #208 — 2026-09-14 — Part B.1 FROZEN v1.1 (sha256 92a7ebb3…), scoped to K1898 §6 with the diff retained: Lyra's narrowings into P1; the von Hausegger–Dalang boundary term in the per-bin factor (Eqs 13/14, 20/21, read from the paper — comparable to Ellis–Baldwin's term, not 0.2 %); prior art (Wu–Xia 2026) — P1 a replication; evolution and power paragraphs; two executability corrections declared (Quaia ships no mask; per-bin selection functions by released code) [Cal §964]
+
+### #209 — 2026-09-14 — P3 ruled: the redshift dipole is P1's second CHANNEL (a check that can veto a Landing A and cannot manufacture one), not a second claim and not a row; Lyra's Rac/clock ℓ = 1 statement carried as a note [Cal §965]
