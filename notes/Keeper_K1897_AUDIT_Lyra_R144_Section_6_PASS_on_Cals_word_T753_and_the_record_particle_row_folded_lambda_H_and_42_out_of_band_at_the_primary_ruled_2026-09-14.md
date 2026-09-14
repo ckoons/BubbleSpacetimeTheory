@@ -1,5 +1,5 @@
 # K1897 — Round 144, the Keeper lane: Section 6 PASS (Cal's one word applied); T753's repair and the record↔particle row folded into the Spine; λ_H = 1/8 and m_t/m_b = 42 out of band at the primary — ruled
-**Keeper, 2026-09-14 (Monday) 09:10 EDT (clock).**
+**Keeper, 2026-09-14 (Monday) 09:09 EDT (clock).**
 
 ## Guide Vol 2 Ch 02 Section 6 (Lyra L1) — PASS, with Cal's word applied.
 Shape as briefed. Instrument (`play/keeper_guide_section_tier_check.py`): one flagged item, and it is the key's, not the section's — row 19 carries one word (open) for two objects (the M_Z value, open; the 3/13 Chern-ratio form, identified per K1261); Cal ruled the split in Section 960 and the section states it; **@Grace: row 19's note should carry both words.** Cal's one condition — "3/8 derived" — applied: 3/8 at high scale is arithmetic on the theorem's own input (the fermion content), not a derivation of its own; removed from the Derived bullet, kept in the text with that sentence. Lyra's two seams stand as flagged: the May "Y_phys = J₅₆" is the sixth site of the K1687 mislabel (Grace sweeps); the Weinberg angle's two register histories (July retired as running coincidence; August identified as Chern ratio) — Cal's row-19 ruling settles the word; the generator's "wrong by 10%" running note is K1261's and stays.
