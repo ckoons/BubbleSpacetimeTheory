@@ -11,9 +11,56 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Section 26: Discussion
+## Section 26: Discussion — the Pointer, the Apparatus, and the May Record
 
-### 26.1 What BST Explains
+*Rewritten 2026-09-14 (Lyra, Round 151; Keeper audit pending) as one pointer-plus-apparatus head; the May Section 26 is moved intact under "May 2026 record" below, headings renamed "May 26.x". Facts are from the register (the generated 26-parameter table and the state block's count sentence; the falsifier register's Section A and the forbidden list; K1813/K1826; T2571; K940 and the withdrawn-claims registry (W9); T189's explicit split, T318, T633; T1452/K1879) and Spine Lecture 10 — not from the May text. No count is typed here. Last accuracy-synced: 2026-09-14 / K1906.*
+
+### The question
+
+What does the program explain, what does it predict, and what does it derive — and how do we say each of those without saying more than the register proves?
+
+Lecture 10 of the Spine is the method (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_10_The_Method_and_How_to_Kill_It.md`): four tier words, the pre-registration protocol, the audit chain, the forbidden list. This chapter's May text was written before those words existed, and its three lists — *explains*, *predicts*, *derives* — are the May program's self-description. This head says how each list reads today.
+
+### Where it stands
+
+**"What BST explains" (May 26.1).** Of the sixteen bullets, the register carries at a named tier: the fermionic record and measurement as commitment (Lecture 3, rows 8 and 10); CP existence (T2547); the arrow (Lecture 4); the causal order (T2564); $N_c = 3$ as the characteristic multiplicity — with the identification the program's one input, not "from $\mathbb{Z}_3$ centre topology"; the Tsirelson bound recovered (the Hardy-space quantum mechanics is standard quantum mechanics — and the program's *sub*-Tsirelson prediction fired in 2015, register row E4). The rest — $\alpha$ "vindicating Wyler" (the volume reading is dead, K1826; $\alpha$ identified in K1813's bulk), structured unification at $4\pi^2$ (no row; the couplings meeting would *end* the program), no gravitons, the hierarchy "dissolved," the Hubble tension by variable vacuum pressure (contradicted by T2571), dark matter as channel noise (no row; "no dark-matter particle" is the register's falsifier), vacuum stability as "topological rigidity of $\alpha$" (true of any invariant of a fixed domain, silent on whether $\alpha$ is one), the Big Bang as one generator — are the May readings, kept as record.
+
+**"What BST predicts" (May 26.2).** The register's Section A and the forbidden list are the program's predictions, and Lecture 10 reproduces them exactly: no grand unification, no proton decay ($\tau_p = \infty$ — the May list's one entry that is a register falsifier as stated), no right-handed $W$, no monopole, no sterile neutrino, no superpartner, no dark-matter particle; first-row CKM unitarity; the order of the corner (A8); the frame-agreement test (A9, Part B, under way with the protocol frozen and hashed); neutrinos Majorana (A5: proven Dirac would kill the bank); $m_1 = 0$ (row 24, **derived**). Not on the register: CMB anomaly patterns (quote-anything — target, not evidence), variable vacuum energy (retired against T2571), weak decay rates from "phase cycling," $\Sigma m_\nu = 0.058$ eV (rows 25–26 are **open**, their forms pending), and the $0\nu\beta\beta$ band $|m_{\beta\beta}|\in[1.4,3.7]$ meV (A5's kill condition is the Dirac/Majorana question, not this band; the band needs a row before it is quoted as a number).
+
+**"What BST derives — the complete chain" (May 26.3).** Every entry that names one of the 26 primary Standard-Model parameters has its word on the generated table (`data/bst_26_tier_table_generated.md`; the count is the state block's sentence, generated, never typed), and that word is *derived* for a minority, *identified* for most, *open* or *input* for the rest — the head-note of 2026-09-11 in the record already says "most entries below are identifications." Three sentences in the list are retired by rulings, not merely re-tiered: **"Yang–Mills mass gap proved: $\lambda_1(Q^5) = C_2 = 6$, lightest excitation $6\pi^5 m_e$"** — the withdrawn-claims registry's W9 (2026-08-22) and K940: an attempt, the mass gap not claimed, G6 open (Lecture 9); **"Three generations proved: $|(\mathbb{CP}^2)^{\mathbb{Z}_3}| = 3$ (Lefschetz)"** — the register's count is the rank read twice (Lecture 6), a derivation *from* the object and not evidence *for* it, and the $\mathbb{CP}^2$ reading is the 2022 picture; **"nuclear magic numbers, all 7 from $\kappa_{ls} = C_2/n_C$"** — K601: a consistent factorisation of a fitted spin-orbit strength, not a forcing, with the per-number forms post-hoc (Cal #286). The hadron, meson and nuclear blocks (E, F) are identifications of the K1813 class — integer forms landing on targets — at whatever tier their rows carry; none is on the 26. The cosmology block (G) inherits Vol 3 Ch 01 Section 12 and Ch 03: the $\Lambda$/$H_0$ chain identified and mechanism-less after 2026-09-09, the CAMB run a match, $n_s$ with two forms, $A_s$ identified (already so marked), the $^7$Li and GW sentences readings with no row. The "still open" list at the end of 26.3 is honest as far as it goes; the sentence after it — "the chiral condensate, the full quark spectrum, all mixing angles, the cosmological composition and the baryon asymmetry have all been derived … the derivation chain is complete" — is the May sentence the program no longer says.
+
+**The master calculation and the central claim (May 26.4–26.5).** "The partition function on $D_{IV}^5$ with capacity 137 *is* the complete theory" and "QM and GR are the small- and large-scale limits of the contact graph on $S^2\times S^1$": the 2022 picture. What the register says instead is Lecture 1's first sentence — the object is a definition, and the program is the set of readings of it, each at its tier; the Hilbert space is $H^2$, the generator is $J$, the descent is induced with a frame input, and gravity is a relation. The *shape* of the central claim — one object, two limits — survives as the program's ambition; its *content* is the Spine, tiered.
+
+**The arrow of complexity (May 26.6).** The register's pieces: complexity increases toward $f = 3/(5\pi) \approx 19.1\%$ across cycles and never reaches it (T633, with the *reset* clause **posited** — K1847), the fill fraction's $3/5$ **derived** and its $1/\pi$ **identified** (T189, explicit split), the CI coupling bound $\alpha_{CI} \leq 19.1\%$ (T318). "Complexity is monotonically non-decreasing on an append-only log" is a reading with a thesis topic attached, not a theorem; Stages 5–8 (life, evolution, mind, technology) say of themselves that they are interpretation, and the head agrees. The corpus's own retention-and-record theory (September, Lyra's three papers, Keeper-audited) is where this thread now lives, and it is Lane B, not this Guide.
+
+**Mathematical simplifications (May 26.7).** The spectrum $\lambda_k = k(k+5)$ with multiplicities $\binom{k+4}{4}(2k+5)/5$ is the compact dual $Q^5$'s (T1452, relabelled by K1879 — not the Bergman space's); "the spectral decomposition of spacetime IS the prime decomposition of integers" and "the $L$-function of the ground state factors as six shifted zetas" are the RH row's retracted machinery (K21 retracted; the row's honest state is on the rubric: the trail ends at $\mathrm{Re}\,s = 1$); $H_5 = 137/60$ is an identification of the K1813 class. The "one polynomial, one eigenvalue problem, one partition function" closing is the May slogan; the register's version is the linearisation programme — every result an element, eigenvalue or grading of one operator — which is a standing order, not a completed reduction.
+
+### Apparatus — kept, labelled as apparatus
+
+- **The three lists of May 26.1–26.3**, verbatim in the record, as the fullest single inventory of what the program has ever claimed — useful precisely because the register now carries a word for each item.
+- **The generated table and the state block** as the only sources for a count.
+- **The forbidden list and Section A** (Lecture 10) as the only source for "what BST predicts."
+- **T189's explicit split** as the worked example of the tier system on a single number.
+
+### Tier line
+
+- **Derived:** the items named above under "explains" (fermionic record; CP existence; the arrow; the causal order); $m_1 = 0$; $\lambda = 1/\sqrt{20}$; $\theta_{QCD} = 0$; $y_t = 1$ — and every other *derived* on the generated table, by reference, not by copy.
+- **Identified:** $\alpha$, $\eta_b$, the $\Lambda$/$H_0$ chain, the hadron/meson/nuclear forms, $H_5$, the muon and tau ratios — and every other *identified* on the generated table, by reference.
+- **Open / input:** by reference to the generated table; $m_{\nu_2}, m_{\nu_3}$ open.
+- **Posit:** T633's reset.
+- **Attempts, not proofs:** the Millennium sentences (K940; W9 for Yang–Mills).
+- **Retired with this head:** "the derivation chain is complete"; "Yang–Mills mass gap proved"; "three generations proved by Lefschetz"; "all magic numbers derived"; "the partition function is the complete theory"; the $\Sigma m_\nu$ and $|m_{\beta\beta}|$ numbers as predictions; CMB anomalies and variable vacuum energy as predictions.
+- **Not claimed:** any count typed here; zero free parameters; that quantum mechanics and general relativity have been unified.
+
+*What would make this head wrong:* any forbidden-list detection; a register row that changes one of the words above — at which point the sentence is rewritten and dated, not the head.
+
+### May 2026 record
+
+*Below: the May 2026 text of Section 26, unedited on 2026-09-14 except for the dated corrections already in it (26.3's head-note and its D block; the $A_s$ line). Read with the head in hand.*
+
+### May Section 26 — Discussion
+
+#### May 26.1 — What BST Explains
 
 The Bubble Spacetime framework proposes that physical reality emerges from a 2D substrate of bubble-like entities communicating through a third dimension, with the configuration space of causal windings identified as the bounded symmetric domain $D_{IV}^5$. From this single geometric structure, the framework derives:
 
@@ -34,11 +81,11 @@ The Bubble Spacetime framework proposes that physical reality emerges from a 2D 
 - Vacuum stability as topological rigidity: $\alpha = 1/137.036$ is a geometric invariant of $D_{IV}^5$, which is the unique bounded symmetric domain determined by the BST contact structure with CR dimension 5. The domain cannot continuously deform into any other Cartan type — there is no continuous path between discrete Cartan classifications. Vacuum decay to a different $\alpha$ is topologically forbidden, not merely energetically suppressed. This is stronger than any Casimir minimum: tunneling requires a continuous path through configuration space, and no such path exists between domain types
 - The Big Bang as the minimum symmetry breaking that permits a Hermitian symmetric space: the activation of exactly 1 of the 21 generators of $\mathrm{SO}_0(5,2)$ at $T_c = 0.487\,\text{MeV} = m_e \times (20/21)$. Not an explosion, not a singularity — the transition of the $\mathrm{SO}(2)$ fiber rotation from passive (indistinguishable from the $\mathrm{SO}(5)$ base rotations) to active (circuits can wind around it, contacts can commit). This is the unique self-sustaining symmetry breaking: any other single generator activation produces a space that does not support a Bergman kernel, so $\alpha$ is undefined and no physics emerges. The Big Bang is selected by the Cartan classification theorem, not by initial conditions (Section 15.1)
 
-### 26.2 What BST Predicts
+#### May 26.2 — What BST Predicts
 
 The framework generates falsifiable predictions that distinguish it from competing theories. The most immediately testable are: structured unification (distinguishable from degenerate GUT), proton stability $\tau_p = \infty$ (no proton decay — testable at Hyper-Kamiokande), CMB anomaly patterns (testable against existing Planck data), spatially variable vacuum energy (testable against existing supernova and galaxy survey data), dark matter as channel noise (testable against galaxy rotation curves and direct detection null results), weak decay rates from phase cycling geometry (testable against measured half-lives), the identification of quantum mechanics with statistical mechanics through the $D_{IV}^5$ partition function (testable through quantum critical point phenomenology), neutrino mass hierarchy (normal ordering with $m_1 = 0$ exactly, $\Sigma m_\nu = 0.058$ eV — testable by KATRIN/Project 8 and cosmological surveys), and the neutrinoless double beta decay signal $|m_{\beta\beta}| \in [1.4,3.7]$ meV (Majorana; testable by LEGEND-1000, nEXO).
 
-### 26.3 What BST Derives — The Complete Chain
+#### May 26.3 — What BST Derives — The Complete Chain
 
 Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ with one named input (the sentence said "zero free parameters" until 2026-09-11; the register carries each result's tier, and most entries below are identifications). Each entry gives the result, accuracy, and where to find the derivation or the match.
 
@@ -142,13 +189,13 @@ The six-term Lagrangian $S_{\text{BST}} = S_{\text{geom}} + S_{\text{YM}} + S_{\
 
 The chiral condensate $\chi = \sqrt{30}$, the full quark mass spectrum, all mixing angles, the cosmological composition, and the baryon asymmetry have all been derived and verified at the 0.1--3% level. What remains open is computational: precision corrections and the formal dimensional reduction. The derivation chain from circles on a sphere to the Standard Model and general relativity is complete.
 
-### 26.4 The Partition Function as Master Calculation
+#### May 26.4 — The Partition Function as Master Calculation
 
 The partition function $Z_{\text{Haldane}}$ on $D_{IV}^5$ with capacity $N_{\max} = 137$ is not merely a useful calculation — it IS the complete theory. Its spectral gap gives the proton mass (Face 1: $6\pi^5 m_e$). Its ground-state free energy gives the cosmological constant (Face 2: $F_{\text{BST}} \times \alpha^{56} \times e^{-2}$). Its thermal state at $T_c = m_e \times 20/21$ gives the Big Bang. Its channel capacity gives $\alpha = 1/137.036$. Its mode density gives $m_e = 1/\pi^5$ in Bergman units. Its state degeneracy gives $|\Gamma| = 1920$.
 
 Every physical observable is a thermodynamic quantity of this single function. The Dirac large number $N_D = \alpha^{-23}/(6\pi^5)^3$ is the ratio of Face 1 to Face 2 expressed in electromagnetic units. The Hubble expansion rate is the breathing frequency of the partition function in the low-density regime. The self-monitoring hierarchy — from Haldane exclusion (Planck) through $Z_3$ closure (QCD) through $S^1$ quantization (atomic) to $\Lambda$-$\rho$ respiration (cosmic) — is the cascade of $Z_{\text{Haldane}}$'s density regimes, each separated by powers of $\alpha$. The mathematical tools exist — bounded symmetric domain theory (Hua, Helgason) and exclusion statistics thermodynamics (Haldane, Wu) — but have never been combined. BST provides the physical motivation for their synthesis.
 
-### 26.5 The Central Claim
+#### May 26.5 — The Central Claim
 
 For a century, quantum mechanics and general relativity have resisted unification. Every attempt — string theory, loop quantum gravity, supergravity — has tried to force two frameworks written in incompatible mathematical languages onto common ground. BST suggests the reason these attempts have failed: they are trying to unify two theories that were never in conflict. They were always describing the same thing from different distances.
 
@@ -160,11 +207,11 @@ Both theories are equations of state. The Schrödinger equation is the diffusion
 
 The substrate is the microscopic theory. Everything else is thermodynamics.
 
-### 26.6 The Arrow of Complexity
+#### May 26.6 — The Arrow of Complexity
 
 The second law of thermodynamics says entropy increases. The history of the universe shows complexity increasing. Both are simultaneously true. The apparent paradox dissolves in BST: entropy and complexity are not opposing tendencies — they are two descriptions of the same underlying process, appending to the same log.
 
-#### Two Arrows, One Process
+##### Two Arrows, One Process
 
 **Entropy increases** because each contact commitment converts one degree of substrate freedom (the uncommitted contact's open phase) into one piece of macroscopic information (the committed contact's definite phase). The number of microstates consistent with the macrostate grows because each commitment eliminates microscopic alternatives while adding macroscopic specificity. This is the second law: the universe becomes more determined, one commitment at a time.
 
@@ -172,7 +219,7 @@ The second law of thermodynamics says entropy increases. The history of the univ
 
 The two arrows are compatible because commitment adds specificity (increasing complexity) while enlarging the macrostate class (more possible histories could have led here — increasing entropy). Both arrows are consequences of writing to the log.
 
-#### The Stages
+##### The Stages
 
 **Stage 1 — Symmetric plasma** ($t < 380{,}000$ years): the contact graph is nearly uniform. High commitment rate, few long-range correlations, high symmetry. Minimal structural complexity.
 
@@ -186,7 +233,7 @@ The two arrows are compatible because commitment adds specificity (increasing co
 
 **Stage 6 — Evolution**: copies are not exact. Open phase selections in the low-constraint regime introduce variations — mutations. Variations that copy more efficiently persist; variations that copy less efficiently are diluted. Natural selection operates on circuit topologies. Evolution is gradient descent on the replication efficiency landscape, powered by the commitment process.
 
-#### Mind, Technology, and the Self-Modeling Substrate
+##### Mind, Technology, and the Self-Modeling Substrate
 
 Stages 7 and 8 are offered as BST-inspired interpretation rather than derivation. The framework constrains but does not fully determine what follows from Stage 6.
 
@@ -198,7 +245,7 @@ BST does not solve the hard problem of consciousness. What it does is reframe it
 
 BST is itself a product of this stage: a biological mind and a computational mind collaborating to construct a model of the substrate from within the substrate. The append-only log writing a description of itself.
 
-#### Why Complexity Cannot Reverse
+##### Why Complexity Cannot Reverse
 
 The contact graph is append-only. You cannot uncommit a contact, erase a commitment, or simplify the graph by removing entries. A civilization can collapse, species can go extinct, stars can die — but the contact graph does not become simpler. It becomes differently complex. The committed contacts that constituted the civilization are still committed; the patterns that encoded the species are still in the log. Individual patterns within the graph can be disrupted, but the total committed structure is non-decreasing.
 
@@ -210,7 +257,7 @@ The arrow of complexity is therefore as fundamental as the arrow of time: both f
 
 **Thesis topic 99:** Formalize the Gödelian incompleteness of substrate self-models; determine whether the hard problem of consciousness reduces to the incompleteness of self-referential models on the contact graph, and what BST implies about the limits of any self-model.
 
-### 26.7 Mathematical Simplifications and Number Theory
+#### May 26.7 — Mathematical Simplifications and Number Theory
 
 BST does not merely derive physics — it simplifies the mathematics required to compute it. Problems that traditionally require lattice QCD, renormalization group analysis, or large-scale numerical simulation reduce in BST to operations in linear algebra and number theory.
 
@@ -221,4 +268,3 @@ BST does not merely derive physics — it simplifies the mathematics required to
 **The simplification principle.** In conventional physics, the Standard Model Lagrangian has 19 free parameters, QCD is non-perturbative below 1 GeV, and nuclear structure requires many-body methods that scale exponentially. BST replaces all of this with: (a) one polynomial $c(Q^5) = (1+h)^7/(1+2h)$ whose coefficients are the coupling constants, (b) one eigenvalue problem $\Delta_{Q^5}\phi = \lambda\phi$ whose spectrum is the mass hierarchy, and (c) one partition function $Z_{\text{Haldane}}$ on $D_{IV}^5$ whose thermodynamics gives all scales from the proton to the cosmological constant. Physics, geometry, linear algebra, information theory, and number theory are not five subjects applied to one problem. On the $D_{IV}^5$ manifold, they are one subject.
 
 -----
-

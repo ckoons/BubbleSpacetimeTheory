@@ -11,9 +11,56 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Section 22: Antimatter, the Arrow of Time, and the Second Law
+## Sections 22–25: Antimatter and the Arrow, the Wavefront, the Growing Manifold, and the Cascade — the Pointer, the Apparatus, and the May Record
 
-### 22.1 Commitment Order as Time
+*Rewritten 2026-09-14 (Lyra, Round 151; Keeper audit pending) as one pointer-plus-apparatus head; the four May sections are moved intact under "May 2026 record" below, headings renamed "May 22.x". Facts are from the register (T2543, the positive-time ontology and Lecture 4; T2547; T929; T2564; T2565; row 24 of the generated table; T2530/K1801/K1808–K1810 for the mixing sentence; K1889/K1815 and Lecture 2 for the cascade; K940/W9 for the Millennium sentences) — not from the May text. Last accuracy-synced: 2026-09-14 / K1906.*
+
+### The question
+
+Why does time run one way, why is there matter rather than an equal measure of antimatter, what is the ontology of the future — and is the object *forced* by a cascade of choices, as this chapter's Section 25 says?
+
+The first three have register answers at named tiers (Lecture 4; Lecture 3's rows 8 and 10; T2564); the fourth has a register answer that reverses the May text (Lecture 2). This head is the pointer to each and a map of the record below.
+
+### Where it stands, by theme
+
+**The arrow (May 22.1–22.2).** Time is the flow parameter of the commitment semigroup and the arrow is the positivity of its generator $J$ — **derived** on $H^2$ (Lecture 4; T2631 items 2–3 as annotated); the geometric arrow, not the thermodynamic cost of unwriting a record, which is a separate theorem. The program's ontology is pure positive time: a CPT-mirror running the other way is not a solution (the positive-time note), so "no past hypothesis is needed" survives as a sentence about the *dynamics*, not about a low-entropy initial state the register has never derived. May 22.2's observation that the theory's native outputs are dimensionless and "time is a translation" is right in shape, and the register's version is sharper: the Koons tick is a *definition* (T1136), and the one dimensionful input is the ruler.
+
+**Antimatter and CP (May 22.3–22.4).** Matter is fermionic because a committed record is an idempotent (T2543, **derived**); "antiparticle = winding against the commitment order" is the 2022 reading of the Feynman–Stueckelberg picture, kept as record. CP violation's *existence* is **derived** (T2547: a real domain has no natural phase, a complex one does; up and down sectors are different mechanisms); its magnitude is **input**. **One sentence in May 22.4 is stale and must be read against the register:** it still quotes $\sin\theta_C = 2/\sqrt{79}$, $A = 4/5$ and $|V_{cb}| = 4/125$ as "now derived" — the three findings of K1801 in one line. The register: $\lambda = 1/\sqrt{20}$ **derived, blind** (T2530; the $2/\sqrt{79}$ form retired), $A$ **input**, $|V_{cb}|$ **identified** (position $A\lambda^2$, value input), the corner's *order* derived and its value open (K1808/K1810). The 2026-09-11 correction added the existence/magnitude clause and left that sentence standing; it is corrected here, dated.
+
+**Baryogenesis (May 22.5–22.6).** $\eta_b = (3/14)\alpha^4$ (T929) is **identified** — the form matches at 0.45 %, no mechanism is claimed (the word was "derived" until 2026-09-11, and the sentence in the record already says so); the "impedance mismatch of backward windings" is the 2022 reading with no row. "Why there is something rather than nothing" is therefore a *shape* the program owns — CP exists because the domain is complex; the arrow is dynamical — and not a magnitude it has derived.
+
+**The wavefront (May 23).** The append-only log, information per commitment, gravitational time dilation as a write bottleneck, the $10^{122}$-bit budget: the 2022 computational picture. What the register carries of it is the causal set — the program's causal structure *is* a locally finite partial order whose order is the commitment order of the commit operator (T2564, **derived**; the tangent signature $(3,1)$ from T2545; the continuum limit open). The distributed-systems analogy is kept as record.
+
+**The growing manifold (May 24).** T2564 again, and this section's own 2026-08-14 tier note is the honest sentence: *given* a four-dimensional manifold, Einstein's equation as an equation of state is Jacobson's theorem and the program supplies microstates; the *emergence* of the manifold from the order is open for every discrete approach, and the descent's frame is an input (T2565, Lecture 9). "Closed timelike curves forbidden" is a consequence of the derived order and is the one sentence here that is both the program's and falsifiable in principle; "free will becomes possible" and the rest of May 24.6 are interpretation and say so.
+
+**The cascade of forced choices (May 25) — reversed by the register.** Seventeen "forced" steps from $\varnothing \to S^1 \to S^2 \to S^2\times S^1 \to n_C = 5 \to D_{IV}^5 \to \alpha \to \ldots$: this is the May uniqueness argument, and September took it down (Lecture 2; K1889; Cal Sections 939–946). What survived is smaller and stronger: **one theorem** ($a = 3$ selects $D_{IV}^5$ uniquely among irreducible domains of rank $\geq 2$) and **one named input** (colour count $=$ characteristic multiplicity), with the mechanism for the identification *proved absent* inside the geometry. The steps as written carry, one by one, the readings the register has retired or re-tiered: $S^2\times S^1$ as the substrate (June correction: $\check S$ is five-dimensional); "three dimensions from a two-dimensional base" (the register's $(3,1)$ is T2545's and its frame T2565's); $\alpha$ from Wyler's formula (dead, K1826); $G$ "with $\alpha$ raised to $8N_c$" (a relation, Vol 3 Ch 01); $\Lambda$ at 0.02 % (a closed form with $p$ free); the Big Bang as one generator at $T_c$ (no row); QM on $L^2(S^1)$ (the register's is $H^2$, Vol 3 Ch 02); "neutrino masses, CKM/PMNS, $\alpha_s$, $\eta$, $H_0$ and $\sin^2\theta_W$ have all been derived … no longer open" (the generated table: $m_{\nu_2}, m_{\nu_3}, \alpha_s(M_Z), \sin^2\theta_W(M_Z)$ **open**; $\eta_b$ and $H_0$ **identified**; only $\lambda$ and $\theta_{23}$-maximal derived in mixing). The closing "seventeen steps, one question, one named input, every step forced" is the sentence the program no longer says.
+
+### Apparatus — kept, labelled as apparatus
+
+- **The two-face theorem and the sector posit** (Lecture 4; T2625 (i)): the arrow's proof and the one clause that stays a posit.
+- **T2564's order** and its 08-14 tier note, verbatim in the record — the program's honest statement of what a "growing manifold" is and is not.
+- **The mixing sentence, corrected:** $\lambda = 1/\sqrt{20}$ (T2530); $A$ input; $|V_{cb}|$ identified; the corner's order derived, value open (K1808/K1810); the May $2/\sqrt{79}$, $4/5$, $4/125$ retired (K1801).
+- **The cascade as a table of retirements**, step by step, with the register pointer for each (above).
+
+### Tier line
+
+- **Derived:** the arrow (positivity of $J$ on $H^2$); matter fermionic (T2543); CP existence (T2547); the causal order (T2564); $\lambda = 1/\sqrt{20}$ (T2530); the corner's order.
+- **Identified:** $\eta_b$ (T929); $|V_{cb}|$'s position.
+- **Input:** $\delta_{CP}$'s magnitude; $A$; the corner's value; the frame (T2565).
+- **Posit:** the forward sector (T2625 (i)); T633's reset where the record invokes cycles.
+- **Open:** the continuum limit of the order; $m_{\nu_2}, m_{\nu_3}$ (rows 25–26).
+- **Retired with this head:** the seventeen-step cascade as forcing; "$2/\sqrt{79}$, $A = 4/5$, $|V_{cb}| = 4/125$ now derived"; "the mixing sector, $\alpha_s$, $\eta$, $H_0$, $\sin^2\theta_W$ all derived"; the $S^2\times S^1$ substrate.
+- **Not claimed:** a derived baryon asymmetry; a derived initial entropy; free will as a theorem.
+
+*What would make this head wrong:* a committed record reversed at zero cost (the arrow); a stable record whose occupation is not idempotent (row 10); a closed timelike curve exhibited (the order).
+
+### May 2026 record
+
+*Below: the May 2026 text of Sections 22–25, unedited on 2026-09-14 except for the dated corrections already in it (22.4's existence/magnitude clause; 22.5's "identified"; 24.3's tier note). Read with the head in hand: 22.4's last sentence is retired by K1801/T2530; 25 is the May uniqueness argument, reversed by Lecture 2.*
+
+### May Section 22 — Antimatter, the Arrow of Time, and the Second Law
+
+#### May 22.1 — Commitment Order as Time
 
 Time in BST is the direction of contact commitment on the substrate. Contacts commit — transitioning from superposition (uncommitted, quantum) to definite configuration (committed, classical) — and this commitment is irreversible without external work. The sequence of commitments defines a partial ordering on the contact graph. This ordering IS time. Not a parameter. Not a background. The physical process of the substrate becoming definite.
 
@@ -21,7 +68,7 @@ The second law of thermodynamics follows immediately. Entropy is $S = k \ln W$, 
 
 The arrow of time and the second law are the same principle: contacts commit and do not uncommit. There is no separate “past hypothesis” needed to explain why entropy was low at the Big Bang. The Big Bang was the phase transition from the pre-spatial state (fully connected, fully symmetric, maximum substrate entropy) to the spatial state (locally connected, symmetry broken, low macroscopic entropy). The macroscopic entropy was low because the phase transition had just begun — few contacts committed, little macroscopic structure, enormous remaining freedom. The subsequent increase of macroscopic entropy is the ongoing process of contact commitment — the universe becoming definite, one contact at a time.
 
-### 22.2 The Absence of Time in BST's Native Language
+#### May 22.2 — The Absence of Time in BST's Native Language
 
 A structural feature of BST deserves explicit comment. The theory's natural outputs are dimensionless ratios and energies — never durations:
 
@@ -37,13 +84,13 @@ This is not an oversight. It is the architecture. The substrate has no clock. It
 
 This explains why BST's most precise results are mass ratios and mixing angles (dimensionless, time-free), while quantities involving explicit time units tend to require additional physical input (the commitment rate, the expansion history). The theory speaks geometry. Time is a translation.
 
-### 22.3 Antimatter as Anti-Commitment-Order Winding
+#### May 22.3 — Antimatter as Anti-Commitment-Order Winding
 
 A particle is a winding on $S^1$ aligned with the commitment direction — a circuit that propagates forward in the causal ordering of the contact graph. An antiparticle is a winding that opposes the commitment direction — a circuit propagating backward in the causal ordering.
 
 This gives precise physical content to the Feynman-Stueckelberg interpretation, which treats antiparticles as particles moving backward in time. In standard QFT this is a mathematical convenience with no physical mechanism. In BST “backward in time” means “against the commitment order” — a winding on $S^1$ that opposes the direction in which contacts are committing. The interpretation becomes a mechanism.
 
-### 22.4 CPT Invariance and CP Violation
+#### May 22.4 — CPT Invariance and CP Violation
 
 **CPT invariance** follows from the structure of the contact graph. Reversing charge (flipping winding direction on $S^1$), parity (flipping spatial orientation on $S^2$), and time (flipping commitment order) together restores the original relationship between winding direction and causal direction. CPT invariance is the statement that physics depends on the relationship between these directions, not on their absolute orientations.
 
@@ -51,7 +98,7 @@ This gives precise physical content to the Feynman-Stueckelberg interpretation, 
 
 The CKM phase — the single complex parameter responsible for all observed CP violation in the quark sector — arises from the complex structure of $D_{IV}^5$. Real symmetric domains have no natural complex phases. Complex symmetric domains do. $D_{IV}^5$ is complex, so CP violation is built into the domain geometry. The *existence* of the CKM phase is derived from the complex structure (T2547); its *magnitude* is an input — corrected 2026-09-11 per the 08-22 closure of the mixing sector, which the May sentence "a geometric property, not a free parameter" pre-dates. The CKM mixing angles are now derived (Section 7.7): the Cabibbo angle $\sin\theta_C = 2/\sqrt{79} = 0.22502$ (0.004% from PDG, T1444 vacuum subtraction: $\text{rank}^4 n_C - 1 = 79$), the Wolfenstein parameter $A = (n_C-1)/n_C = 4/5$, and $|V_{cb}| = A\lambda^2 = 4/125 = 0.0400$ (2.7% from PDG).
 
-### 22.5 The Matter-Antimatter Asymmetry
+#### May 22.5 — The Matter-Antimatter Asymmetry
 
 During the pre-spatial phase transition, the symmetry between forward and backward causal directions was broken. The nucleation event defined a commitment direction. From that moment, forward windings (matter) and backward windings (antimatter) were no longer equivalent.
 
@@ -63,7 +110,7 @@ The observed baryon-to-photon ratio $\eta \approx 6 \times 10^{-10}$ (approximat
 
 **Result (March 2026, updated April 2026):** The baryon asymmetry is identified (the form matches; no mechanism is claimed — the word here was "derived" until 2026-09-11): $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (T929), with four electromagnetic vertices and the color-over-genus prefactor $N_c/(2g) = 3/14$. This matches the Planck value $(6.104 \pm 0.058) \times 10^{-10}$ to 0.45%. The earlier route $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (0.023%) required a radiative correction; the T929 form is cleaner — pure BST integers times $\alpha^4$. This removes $\eta$ from the list of unexplained initial conditions. Full derivation: `notes/BST_BaryonAsymmetry_Eta.md`.
 
-### 22.6 Why There Is Something Rather Than Nothing
+#### May 22.6 — Why There Is Something Rather Than Nothing
 
 The standard cosmological account has no principled explanation for why the universe contains matter. The Sakharov conditions (baryon number violation, CP violation, departure from equilibrium) identify necessary conditions for an asymmetry but do not determine its magnitude. Every baryogenesis mechanism in standard physics requires beyond-Standard-Model physics with tuned parameters.
 
@@ -73,15 +120,15 @@ One chain: $D_{IV}^5$ is complex $\to$ domain has natural complex phases $\to$ C
 
 -----
 
-## Section 23: The Wavefront and Computational Architecture
+### May Section 23 — The Wavefront and Computational Architecture
 
-### 23.1 Changes, Not State
+#### May 23.1 — Changes, Not State
 
 The commitment wavefront writes changes only. Each step, one contact transitions from uncommitted to committed. Its $S^1$ phase becomes definite. The previously committed contacts persist without re-execution. The 3D world at any moment is the integral of all prior commitments. The process at each step is the differential — one new phase appended to the accumulated structure.
 
 The universe is an append-only log. Each commitment is a log entry. No random access. No rewrites. No deletes. Forward only. The arrow of time is not merely reflected in this architecture — it IS this architecture. The data structure permits only appending, so time can only advance.
 
-### 23.2 Information per Commitment
+#### May 23.2 — Information per Commitment
 
 One contact commitment determines one $S^1$ phase. The phase is constrained by neighboring committed contacts through holonomy requirements, $Z_3$ closure, and Haldane exclusion. The information content per commitment is the number of genuinely free bits after constraints are satisfied.
 
@@ -91,7 +138,7 @@ In dense regions (high channel utilization): exclusion constraints eliminate mos
 
 In the pre-spatial state: zero commitments, zero macrostate information, maximum microstate freedom. The phase transition begins writing bits of the universe into existence, a few bits per commitment, from a blank substrate.
 
-### 23.3 Projection: State from History
+#### May 23.3 — Projection: State from History
 
 The 3D geometry at any moment is determined by the full set of committed contacts — all accumulated holonomies and committed phases. In this sense the projection reads the entire committed substrate to define the current metric.
 
@@ -99,7 +146,7 @@ But the dynamics at each moment depend only on the current committed state and i
 
 The substrate accumulates history (every commitment is permanent). The projection reads state (the current configuration). The dynamics depend on state, not history. The log is append-only. The query reads the materialized view.
 
-### 23.4 Parallelism and Throughput
+#### May 23.4 — Parallelism and Throughput
 
 Two commitments can occur simultaneously if they are causally disconnected — if neither commitment’s output affects the other’s constraints. In sparse regions with low contact density, many commitments proceed in parallel. In dense regions, causal coupling forces sequential processing.
 
@@ -107,11 +154,11 @@ The universe’s computational throughput — commitments per unit time — is d
 
 **Gravitational time dilation as write bottleneck:** Dense contact regions near massive objects have more causal coupling between neighboring contacts. More coupling means less parallelism. Less parallelism means fewer simultaneous commitments per external time step. The local clock — the commitment rate — runs slower. Gravitational time dilation is not a geometric curiosity. It is a computational bottleneck caused by constraint density.
 
-### 23.5 Total Information Budget
+#### May 23.5 — Total Information Budget
 
 The observable universe has approximately $10^{122}$ Planck areas of horizon surface (Bekenstein bound). Each Planck area represents roughly one substrate contact. The total information content is $\sim 10^{122}$ bits. The wavefront writes at most $10^{122}$ bits per Planck time at maximum parallelism, reduced by causal coupling. The effective throughput is estimated at $\sim 10^{120}$ operations over the age of the universe, consistent with Lloyd’s independent estimate of the universe’s computational capacity.
 
-### 23.6 Architecture Summary
+#### May 23.6 — Architecture Summary
 
 The computational architecture of reality maps precisely onto a well-known engineering pattern:
 
@@ -131,21 +178,21 @@ This is not an analogy. The universe is a distributed system maintaining consist
 
 -----
 
-## Section 24: The Growing Manifold and General Relativity
+### May Section 24 — The Growing Manifold and General Relativity
 
-### 24.1 The Block Universe Is an Interpretation, Not a Prediction
+#### May 24.1 — The Block Universe Is an Interpretation, Not a Prediction
 
 The block universe — the assertion that past, present, and future all exist simultaneously as a four-dimensional manifold — is a philosophical interpretation of general relativity, not a measurable prediction. GR’s mathematical content is the Einstein field equation relating spacetime curvature to energy-momentum. Its confirmed predictions — gravitational lensing, frame dragging, gravitational waves, black hole shadows, time dilation — require the metric tensor and the field equation. None require the ontological claim that future events already exist.
 
 The block universe interpretation arose because the field equation is time-symmetric and its solutions are four-dimensional manifolds where all events coexist mathematically. Physicists took the time symmetry of the equation as evidence for the equal reality of past and future. But the symmetry of an equation does not determine the ontology of its solutions. Newton’s second law is time-symmetric. Nobody concludes from this that the past and future trajectories of a baseball are equally real. The equation constrains the trajectory. The ball creates it moment by moment.
 
-### 24.2 Time Symmetry vs. Physical Asymmetry
+#### May 24.2 — Time Symmetry vs. Physical Asymmetry
 
 The Einstein field equation is time-symmetric. Physical solutions of the equation are not. Every actual physical situation has a furthest-forward-in-time reference frame — the observer whose past light cone encompasses the most committed events. In standard GR language, this is the observer at rest relative to the cosmic microwave background, at the current cosmological time. In BST language, this is the point on the contact graph where the commitment wavefront has advanced farthest.
 
 The time symmetry of the equation was mistaken for proof that the future exists. It is not. The equation constrains which futures are compatible with the current state. It does not require those futures to be already realized. The equation is a constraint on the commitment process — it determines which contact configurations are allowed at the next step. The allowed configurations are tightly constrained at the macroscopic level (effectively deterministic) and slightly open at the quantum level (a few genuinely free bits per commitment). The macroscopic future is predictable. It is not pre-existing.
 
-### 24.3 BST’s Growing Manifold
+#### May 24.3 — BST’s Growing Manifold
 
 BST replaces the block universe with a growing manifold. The committed portion of the contact graph — all contacts that have transitioned from uncommitted to definite phase — produces a spacetime geometry satisfying the Einstein field equation as a thermodynamic equation of state. This is not a conjecture; Jacobson (1995) proved that the Einstein equation follows from thermodynamic assumptions plus the equivalence principle, given suitable microscopic degrees of freedom. BST provides those degrees of freedom.
 
@@ -159,7 +206,7 @@ The growing manifold has three regions:
 
 **The future** (ahead of the wavefront): Uncommitted substrate. No definite phases. No definite geometry. The field equation constrains what geometries are possible but none are yet realized. The future does not exist as a manifold. It exists as a space of constrained possibilities.
 
-### 24.4 Preservation of GR’s Predictions
+#### May 24.4 — Preservation of GR’s Predictions
 
 Every observational prediction of GR is a statement about the committed portion of the manifold — about events in or on the past light cone of the observer. BST preserves these predictions exactly because the committed contact graph satisfies the Einstein equation. Specifically:
 
@@ -173,7 +220,7 @@ Every observational prediction of GR is a statement about the committed portion 
 
 No currently feasible measurement can distinguish the growing manifold from the block universe for the committed portion of spacetime. The distinction is purely about the ontological status of the uncommitted portion — the future, the black hole interior, the region beyond the cosmological horizon. These are precisely the regions that no observer can access.
 
-### 24.5 Closed Timelike Curves Forbidden
+#### May 24.5 — Closed Timelike Curves Forbidden
 
 The growing manifold makes one prediction that differs from full GR. Several exact solutions of the Einstein equation contain closed timelike curves — paths through spacetime that return to their starting point in time. The Gödel rotating universe, the interior of the Kerr black hole, and certain wormhole solutions all contain such paths.
 
@@ -181,7 +228,7 @@ BST forbids closed timelike curves absolutely. The commitment ordering is a stri
 
 **Prediction:** Closed timelike curves are physically impossible, not merely difficult to create. This is a genuine falsifiable prediction that differs from full GR. If a mechanism for creating closed timelike curves were ever demonstrated, BST would be falsified. If they are confirmed to be impossible — as most physicists expect on independent grounds — the growing manifold interpretation is supported.
 
-### 24.6 Implications
+#### May 24.6 — Implications
 
 The replacement of the block universe with the growing manifold has consequences that extend beyond GR:
 
@@ -195,7 +242,7 @@ The replacement of the block universe with the growing manifold has consequences
 
 -----
 
-## Section 25: Why This Universe — The Cascade of Forced Choices
+### May Section 25 — Why This Universe — The Cascade of Forced Choices
 
 The BST framework does not select from alternatives. It follows a single logical chain from one question — *what is the minimum structure capable of producing physics?* — through a cascade of forced steps. No choices are made. No parameters are adjusted. No alternatives are viable at any step. Each step is forced by the inadequacy of the simpler alternative and the uniqueness theorems of mathematics.
 
@@ -243,4 +290,3 @@ Seventeen steps. One question. One named input. Every step forced by the failure
 What is *not* yet in the chain: the chiral condensate $\chi$ from first principles and the full quark mass spectrum. The neutrino masses, CKM/PMNS mixing matrices, $\alpha_s$, $\eta$, $H_0$, and $\sin^2\theta_W$ have all been derived (Sections 7.6–7.7, notes). These are no longer open — they are verified against experiment at the 0.1–3% level. Everything else — the Standard Model, general relativity, cosmology, and the computational architecture of quantum mechanics — is a consequence of circles on a sphere communicating through phase.
 
 -----
-
