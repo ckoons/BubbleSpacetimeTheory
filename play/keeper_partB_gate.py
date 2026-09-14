@@ -40,11 +40,37 @@ def selftest():
     toy = os.path.join(d, 'toy.py'); open(toy, 'w').write('# prereg abcdef12\nSCORE 4/4\n'); r.append(check_controls_blind(toy)[0] is True)
     open(toy, 'w').write('SCORE 4/4\n# prereg abcdef12\n'); r.append(check_controls_blind(toy)[0] is False)
     print('SELFTEST', 'PASS' if all(r) else 'FAIL', r); return 0 if all(r) else 1
+
+# ---- post-download mode (K1906 §6, 2026-09-14): after step (iv) the catalogue legitimately exists. The check becomes:
+# the catalogue files present are EXACTLY the four verified at (iv) (md5 vs the Zenodo API record, K1904), and no
+# dipole/moment output exists that predates the freeze under audit.
+import hashlib
+POST_DOWNLOAD_MD5 = {
+    'quaia_G20.5.fits': '98659ac4bd8a09da2c4ce653690d53df', 'quaia_G20.0.fits': '72531bc67bde1b08a69d5aeae03fb26e',
+    'selection_function_NSIDE64_G20.5.fits': '0aec3460d2e1152afe700d77554341d3',
+    'selection_function_NSIDE64_G20.0.fits': '9bec5ff5d2bda8f283fd99d6db6621df'}
+DIPOLE_OUT = re.compile(r'partB.*(dipole|_vi\b|_vi_|ell1|moment)|(dipole|ell1|moment).*partB', re.I)  # Part B pipeline outputs only, not the corpus's old magnetic-dipole toys
+def check_post_download(frozen_mtime, root=ROOT):
+    d = os.path.join(root, 'data', 'quaia'); bad = []; seen = 0
+    for name, md5 in POST_DOWNLOAD_MD5.items():
+        fp = os.path.join(d, name)
+        if not os.path.isfile(fp): bad.append('%s missing' % name); continue
+        h = hashlib.md5(open(fp, 'rb').read()).hexdigest(); seen += 1
+        if h != md5: bad.append('%s md5 %s != %s' % (name, h[:8], md5[:8]))
+    extra = [f for f in os.listdir(d) if f.endswith('.fits') and f not in POST_DOWNLOAD_MD5] if os.path.isdir(d) else []
+    if extra: bad.append('extra catalogue files: %s' % extra)
+    outs = [p for base in ('play', 'data') for p in glob.glob(os.path.join(root, base, '**', '*'), recursive=True)
+            if os.path.isfile(p) and DIPOLE_OUT.search(os.path.basename(p)) and not p.endswith(('.md', '.py')) and os.path.getmtime(p) < frozen_mtime]
+    if outs: bad.append('dipole-like outputs predating the freeze: %s' % [os.path.basename(o) for o in outs][:3])
+    ok = not bad
+    return ok, 'POST-DOWNLOAD %s (%d/4 verified catalogue files; %s)' % ('OK' if ok else 'FAIL', seen, '; '.join(bad) or 'no dipole output predates the freeze')
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     if '--selftest' in a: sys.exit(selftest())
     frozen = a[a.index('--frozen')+1]; posted = a[a.index('--hash')+1]
-    res = [check_hash(frozen, posted), check_no_catalogue(os.path.getmtime(frozen))]
+    mt = os.path.getmtime(frozen)
+    res = [check_hash(frozen, posted), check_post_download(mt) if '--post-download' in a else check_no_catalogue(mt)]
     if '--toy' in a: res.append(check_controls_blind(a[a.index('--toy')+1]))
     for ok, msg in res: print(('[OK]   ' if ok else '[FAIL] ') + msg)
     print('GATE', 'OPEN — a catalogue may be opened' if all(o for o, _ in res) else 'CLOSED')
