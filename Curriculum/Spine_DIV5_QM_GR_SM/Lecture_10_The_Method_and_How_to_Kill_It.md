@@ -3,7 +3,7 @@ title: "Lecture 10 — The Method, and How to Kill It"
 spine: "D_IV⁵: QM, GR and the SM — the derivations, tiered"
 author: "Keeper, for Casey Koons and the team"
 date: "2026-09-11 — v0.1"
-sources: "The tier system (D / PD / I / C / S; PD only in explicit-split form); 'Forcing and Evidence' v1.0.1 (#31); the falsifier register v0.7 with its fired-and-lost Section E; the Six Absences; the audit chain (K-audits; Cal's numbered referee log; D-tier promotion delegated to Cal + Keeper with Casey's override); the pre-registration protocol (SHA256 before the numbers; landings and tolerances pre-committed; half-blind); the state-of-the-program one-pager (2026-08-26); K1816, K1801, K1809, K1889, K1891, K1892 (the failures this lecture names); the memory rules that came out of them"
+sources: "The tier system (D / PD / I / C / S; PD only in explicit-split form); 'Forcing and Evidence' v1.0.1 (#31); the falsifier register v0.8 with its fired-and-lost Section E; the Six Absences; the audit chain (K-audits; Cal's numbered referee log; D-tier promotion delegated to Cal + Keeper with Casey's override); the pre-registration protocol (SHA256 before the numbers; landings and tolerances pre-committed; half-blind); the state-of-the-program one-pager (2026-08-26); K1816, K1801, K1809, K1889, K1891, K1892 (the failures this lecture names); the memory rules that came out of them"
 tier_line: "This lecture makes no physics claim. It states the program's epistemic method and the list of measurements any one of which ends the program."
 ---
 
@@ -103,4 +103,4 @@ The mathematics is on GitHub. That sentence is not a slogan. It is the argument.
 
 ## Where to look
 
-"Forcing and Evidence" v1.0.1; the falsifier register v0.7 (2026-09-13; E4–E6 and F4 on 09-11, A8 and the ε marker on 09-13); the one-page tier guide with its printed failure condition; the rubric's Section 2, which is the authoritative scorecard; the state-of-the-program one-pager of 2026-08-26; and the audits named above, each of which is a file whose title says what it found.
+"Forcing and Evidence" v1.0.1; the falsifier register v0.8 (2026-09-14; E4–E6 and F4 on 09-11, A8 on 09-13, A9 live on 09-14); the one-page tier guide with its printed failure condition; the rubric's Section 2, which is the authoritative scorecard; the state-of-the-program one-pager of 2026-08-26; and the audits named above, each of which is a file whose title says what it found.
