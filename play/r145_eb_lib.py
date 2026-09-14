@@ -147,3 +147,16 @@ def synth_sky_full(N_gen,beta,vhat,rng,z_edges_gen,x_gen,alpha,S_lim=1.0,S_min=N
         n=(n+((g-1)*mu+g*beta)[:,None]*vhat)/(g*(1+beta*mu))[:,None]; S=S*delta**(1+alpha); zp=(1+zp)/delta-1
     if sigma_z>0: zp=zp+rng.normal(size=m)*sigma_z*(1+zp)
     cut=S>=S_lim; return n[cut],z[cut],zp[cut],S[cut]
+# ---------------- Round 148: joint two-channel fit; broken-power-law fluxes ----------------
+def joint_two_channel(Ds,Cs,fs,w,Rs,CRs,gs):
+    """ONE shared b = beta u: count moments D_i = f_i b + w_i a (intrinsic a in the count channel only), redshift moments -R_k = g_k b."""
+    G=np.zeros((6,6)); r=np.zeros(6)
+    for D,C,f,wi in zip(Ds,Cs,fs,w):
+        W=np.linalg.inv(C); J=np.hstack([f*np.eye(3),wi*np.eye(3)]); G+=J.T@W@J; r+=J.T@W@D
+    for R,CR,g in zip(Rs,CRs,gs):
+        W=np.linalg.inv(CR); J=np.hstack([g*np.eye(3),np.zeros((3,3))]); G+=J.T@W@J; r+=J.T@W@(-R)
+    cov=np.linalg.inv(G); p=cov@r; return p[:3],p[3:],cov
+def broken_powerlaw_flux(m,rng,S_min,S_k=1.3,x_faint=0.6,x_bright=1.2):
+    """N(>S) with slope x_faint below S_k and x_bright above (continuous), by inverse CDF."""
+    u=rng.uniform(size=m); Nk=(S_k/S_min)**(-x_faint)                # fraction above the knee
+    S=np.where(u<1-Nk, S_min*(1-u)**(-1/x_faint), S_k*((1-u)/Nk)**(-1/x_bright)); return S

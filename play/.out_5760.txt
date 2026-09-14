@@ -1,0 +1,27 @@
+lib hash b87a8b085780
+
+E1 — joint two-channel fit for one βû, CMB boost, Quaia-like depth, 20 seeds:
+   seed 0: N = 1,281,204;  count-only    866 ±  437;  +full-sample z    632 ±  153 km/s (13° off);  +flux-quantile z    637 ±  153 (14° off)
+   seed 1: N = 1,282,016;  count-only    745 ±  421;  +full-sample z    343 ±  137 km/s (9° off);  +flux-quantile z    350 ±  136 (4° off)
+   seed 2: N = 1,280,489;  count-only    732 ±  430;  +full-sample z    451 ±  117 km/s (61° off);  +flux-quantile z    435 ±  118 (61° off)
+   count : quoted σ_β c =   422 km/s (seed spread of the quote 41);  scatter of β̂ over seeds =   357 km/s (ratio 0.85);  mean β̂/β_inj = 1.872 (σ_mean 0.255);  mean direction offset 0°
+   full  : quoted σ_β c =   149 km/s (seed spread of the quote 16);  scatter of β̂ over seeds =   139 km/s (ratio 0.93);  mean β̂/β_inj = 1.202 (σ_mean 0.090);  mean direction offset 31°
+   quant : quoted σ_β c =   149 km/s (seed spread of the quote 15);  scatter of β̂ over seeds =   137 km/s (ratio 0.92);  mean β̂/β_inj = 1.200 (σ_mean 0.090);  mean direction offset 31°
+  [HIT] P1  combined σ_β c = 149 (full-sample z) / 149 (flux quantiles) km/s — vs Cal's 4.4 bar 185: A/B-capable (full), A/B-capable (quantiles)
+  [HIT] P2  quoted σ_β calibrated: scatter/quote = 0.93 (full), 0.92 (quantiles)
+  [HIT] P3  mean β̂/β_inj = 1.202 (full), 1.200 (quantiles), σ_mean ≈ 0.090
+
+E2 — S6, the flux-cut derivative: broken power law (x 0.6 faint / 1.2 bright, knee 1.3), boost + intrinsic A = 0.05 toward (90°, 20°):
+   β=0.01, 13 M: x(deep) = 0.973, x(bright) = 1.200, ΔB = +0.0000, coefficient Δ(x(1+α)) + ΔB = -0.454;  |ΔD| = 0.01146 vs predicted 0.00454 (ratio 2.521 ± 0.151);  direction 179.0° from û (cone95 8°);  leak along ŵ⊥ = -0.14σ;  S/N = 6.63
+  [MISS] P4  derivative isolates the boost: amplitude ratio 2.521 ± 0.151, direction 179.0° inside cone 8°, intrinsic leak -0.14σ
+   CMB β, Quaia depth: x(deep) = 0.972, x(bright) = 1.199, ΔB = +0.0000, coefficient Δ(x(1+α)) + ΔB = -0.455;  |ΔD| = 0.00098 vs predicted 0.00056 (ratio 1.741 ± 1.626);  direction 133.0° from û (cone95 180°);  leak along ŵ⊥ = -0.40σ;  S/N = 0.61
+   P5 (reported): at Quaia depth the whole-sample derivative has S/N = 0.61
+
+SCORE 3/4, of which 3/4 can-fail hit
+python3 toy_5760_SEP14_*.py  48.28s user 126.44s system 770% cpu 22.685 total
+
+DIAGNOSTIC (not scored) — S6's 2.5× amplitude: is it the x prescription? Local slope at the limit vs the octave average:
+   limit 1.000: x over [lim, 2 lim] = 0.973; over 0.5 mag (×1.585) = 0.859; ×1.2 = 0.600; ×1.05 (local) = 0.598
+   limit 1.585: x over [lim, 2 lim] = 1.200; over 0.5 mag (×1.585) = 1.200; ×1.2 = 1.199; ×1.05 (local) = 1.201
+   local slopes 0.6 (deep) and 1.2 (bright) give Δ(x(1+α)) = −1.2 -> predicted |ΔD| = 0.0120 at β = 0.01 vs measured 0.01146 (ratio 0.955 ± 0.06): the derivative is RIGHT; the octave-averaged x (Cal §3.1's 0.5-mag window is the same kind of average) under-states the coefficient when the counts curve inside the window.
+   and the 179° 'direction miss' is the SIGN of the coefficient: Δ(x(1+α)) < 0 predicts ΔD antiparallel to û — my test compared to +û; the vector is as predicted.
