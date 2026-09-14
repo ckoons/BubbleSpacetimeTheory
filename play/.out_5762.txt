@@ -1,0 +1,9 @@
+toy 5762; lib hash b87a8b085780
+E1 — joint σ_β at Quaia's σ_z = 0.04(1+z):
+   G < 20.5, five bins  : N in mask = 914,271; quoted σ_β c JOINT = 166 km/s (seed spread 24); count-only 474; mean β̂/β_inj 1.379; f_i (seed 0) = [8.14, 5.04, 3.69, 2.57, 0.03]
+   G < 20.0, bins 1+5 merged (3 bins): N in mask = 528,503; quoted σ_β c JOINT = 268 km/s (seed spread 25); count-only 1820; mean β̂/β_inj 1.438; f_i (seed 0) = [6.41, 3.72, 1.36]
+
+   Cal's 4.4 bar: 185 km/s.  G<20.5: A/B-capable (166);  G<20.0: C by construction (268)
+   control: the same at σ_z = 0.01(1+z), G<20.5:
+   G < 20.5, σ_z 0.01    : N in mask = 914,333; quoted σ_β c JOINT = 165 km/s (seed spread 24); count-only 467; mean β̂/β_inj 1.370; f_i (seed 0) = [8.18, 5.06, 3.7, 2.56, -0.03]
+python3 toy_${n}_SEP14_*.py  71.90s user 231.27s system 956% cpu 31.701 total
