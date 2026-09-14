@@ -19387,3 +19387,5 @@ Gate: one line in Lecture 4, one word in Lecture 10, two README lines (84, 576) 
 
 ### #204 — 2026-09-14 — Word given on the record↔particle row (no G-map, Schur; H² ≅ Rac ⊗ clock as K-modules; the physical reading identified; the Di absent — clause required) and on T753's repair (curvature never in the proof; title moves; item 5's "distinctive" falls, and my §447 vet had cleared it); Section 6 CONDITIONAL on "3/8 derived" [Cal §960; blind 432bf017]
 Consumers of T753's repair: T2631 item 5; Lecture 3 row 5; the Axioms paper §2 caveat and §5 distinctiveness. Row 19 of the generated table ruled: open at M_Z; 3/13 identified (K1261); 3/8 runs to ≈ 0.208 without SUSY.
+
+### #205 — 2026-09-14 — Re-grep at 09:06: the Spine and the root files clean; three ruled edits pending (the re-keyed count; T753's two consumers; Lecture 10's stamp); the gate word given conditional on them [Cal §961]
