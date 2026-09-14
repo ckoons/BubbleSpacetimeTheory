@@ -19399,3 +19399,5 @@ Consumers of T753's repair: T2631 item 5; Lecture 3 row 5; the Axioms paper §2 
 ### #209 — 2026-09-14 — P3 ruled: the redshift dipole is P1's second CHANNEL (a check that can veto a Landing A and cannot manufacture one), not a second claim and not a row; Lyra's Rac/clock ℓ = 1 statement carried as a note [Cal §965]
 
 ### #210 — 2026-09-14 — Part B.1 FROZEN v1.2 (sha256 6f036bdb…): the σ_z column per Table 2; the null bin as a check (a rule decided at step (v), a χ² pass, never A or B; not a calibrator — S5); the redshift channel re-windowed on the full sample and G quartiles without a profile term (its observed-z-binned form blind by its own control), and the joint two-channel fit for one βû (Nadolny 2021) as the quantity §5 compares; the combined σ_β required before the download [Cal §967]
+
+### #211 — 2026-09-14 — Part B.1 FROZEN v1.3 (sha256 5876aaad…): x at the threshold (edge derivative, secant a diagnostic); the A/B comparison on the fitted vector by χ²₃ (norm demoted — it is biased upward at S/N 2.5 and leans to a false fire); power numbers from 5758/5760 with the toy beside each; Quaia A/B-capable at 149 km/s [Cal §968]
