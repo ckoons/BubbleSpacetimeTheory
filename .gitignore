@@ -40,3 +40,7 @@ __pycache__/
 # NOTE: ignore ONLY worktrees. .claude/commands, settings.json and project-manifest.md
 # are TRACKED project files — do NOT ignore .claude/ wholesale.
 .claude/worktrees/
+
+# Part B catalogue files (Zenodo 10.5281/zenodo.10403370): downloaded, not committed; md5s in notes/partB_QUAIA_FITS_HEADER_*
+data/quaia/*.fits
+data/quaia/*.zip

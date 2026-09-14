@@ -7,13 +7,14 @@ from astropy.io import fits
 root=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'); out=os.path.join(root,'data','quaia'); os.makedirs(out,exist_ok=True)
 stamp=datetime.datetime.now().strftime('%Y-%m-%d_%H%M')
 for url in sys.argv[1:]:
-    fn=os.path.join(out,url.split('/')[-1].split('?')[0]); print(f"downloading {url} -> {fn}")
+    parts=[x for x in url.split('/') if x]; name=parts[-2] if parts[-1]=='content' else parts[-1].split('?')[0]   # Zenodo API URLs end in /content
+    fn=os.path.join(out,name); print(f"downloading {url} -> {fn}")
     subprocess.run(['curl','-L','-A','Mozilla','-o',fn,url],check=True)
-    sha=hashlib.sha256(open(fn,'rb').read()).hexdigest(); print(f"sha256 {sha}  size {os.path.getsize(fn):,} bytes")
+    raw=open(fn,'rb').read(); sha=hashlib.sha256(raw).hexdigest(); md5=hashlib.md5(raw).hexdigest(); print(f"sha256 {sha}  md5 {md5}  size {os.path.getsize(fn):,} bytes")
     hdr_path=os.path.join(root,'notes',f'partB_QUAIA_FITS_HEADER_{os.path.basename(fn)}_{stamp}.txt')
     with fits.open(fn,memmap=True) as h:
         with open(hdr_path,'w') as f:
-            f.write(f"# {os.path.basename(fn)}  sha256 {sha}  size {os.path.getsize(fn)}  recorded {stamp} — VERBATIM, first act of step (iv)\n")
+            f.write(f"# {os.path.basename(fn)}  sha256 {sha}  md5 {md5}  size {os.path.getsize(fn)}  recorded {stamp} — VERBATIM, first act of step (iv)\n")
             for i,hdu in enumerate(h):
                 f.write(f"\n##### HDU {i} ({type(hdu).__name__}) #####\n"); f.write(hdu.header.tostring(sep='\n',endcard=True,padding=False)); f.write("\n")
     print(f"header written verbatim to {hdr_path}")
