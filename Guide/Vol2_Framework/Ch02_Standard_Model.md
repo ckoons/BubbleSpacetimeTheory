@@ -232,13 +232,48 @@ Full derivations: `notes/BST_Shannon_Alpha_Paper.md`, `notes/BST_Shannon_Alpha_T
 
 -----
 
-## Section 6: Structured Unification
+## Section 6: The Gauge Skeleton, and Why the Couplings Do Not Meet
 
-### 6.1 The Standard Model’s “Failure” to Unify
+*Rewritten 2026-09-14 (Lyra, Round 144 L1; Keeper audit pending) as a pointer into the Spine plus the referee apparatus. The May 2026 text is kept below as the record. Facts are from the register (K1724, T2567, T2520, T2346, K1687, K1689, T1949, T1919 with K739 and K1261, T2522, the Round 85 hypercharge theorem, Cal Section 946) and from `data/bst_26_tier_table_generated.md` row 19 — not from the May text. Last accuracy-synced: 2026-09-14 / K1896.*
+
+### 6.0 The question
+
+Why these three forces, with these strengths — and why do their couplings, run to high energy, refuse to meet at a point?
+
+Grand unification predicts that the three Standard-Model couplings converge at one scale; extrapolated with the measured spectrum they miss. This section says what the object fixes about the gauge structure, which part of it is the object's and which is imported, what it says about the Weinberg angle, and why the couplings' failure to meet is not a problem for this program but one of its falsifiers. The full treatment is Lecture 5 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_05_Gauge_Skeleton_and_One_Generation.md`), with the forbidden list in Lecture 10; this section is the pointer and the apparatus.
+
+### 6.1 Where it stands
+
+**The skeleton is the object's; one force is not.** Ask the object what continuous symmetries it carries on its fermion module and the answer is a theorem (K1724; Grace's Frobenius–Schur decomposition, Cal's sign-off): $\mathrm{End}_K(H_F) = \mathbb{C}\oplus\mathbb{H}\oplus\mathbb{R}$, so the geometry's own internal gauge group is $U(1)\times SU(2)\times\mathbb{Z}_2$ (T2567, T2520). The $U(1)$ and the $SU(2)$ are **derived** — the complex charge circle and the quaternionic spinor block — and the weak force's pairs are the two-sidedness of the quaternions. There is no continuous colour factor: the $\mathbb{R}$ block is a three-dimensional slot with nothing to rotate it. The number three is the object's — it is the characteristic multiplicity $a = 3$, and its identification with the colour count is the one input to the choice of the object (Lecture 2) — and so are the $\mathbb{C}^3$ and the $\mathbb{Z}_3$ centre; **$SU(3)$ as a gauge group, its dynamics and its confinement are imported** (#108; Cal Section 946: no group anywhere in the geometry acts on the slot as colour). The chirality of the weak force is derived from the non-orientability of the Šilov boundary in odd dimension — $\gamma_5$ loses its global definition, a genuine first Stiefel–Whitney class (T2522). Where does the $U(1)$ live? In the Cartan of $\mathrm{SO}(5)$, the internal factor of $K$ — **not on the $\mathrm{SO}(2)$ centre**, which is time's rotation (Lecture 4). The May text below identifies hypercharge with the centre generator $J_{56}$; that identification was wrong, it had reached five rows before it was caught (K1687), and the May Section 6.5 is a sixth site. Hypercharge lives in the internal gauge complement, the $C_2 = 6$-dimensional piece $1 + N_c + \text{rank}$ (T2346, K1689), and every hypercharge of one generation is **derived by a mechanism theorem with its four inputs on its face** — the observed charged spectrum, the surviving gauge group, charged Yukawas, the topology triple — with the descent freedom exactly one bit, the $\nu_R$ slot, whose removal is forced by a boundary involution (T1949). That last fact retires the May text's "right-handed neutrinos couple only to the neutral current": there is no right-handed neutrino to couple.
+
+**The Weinberg angle, at three words.** The register carries $\sin^2\theta_W(M_Z)$ as **open** — no derived low-energy value (generated table, row 19). The high-scale value $3/8$ is the standard $SU(5)$-normalised number forced by the Standard-Model fermion content, $\sum T_3^2/\sum Q^2$; since the object derives that content (one generation as the $\mathrm{SO}(5,2)$ spinor), $3/8$ is as derived as the content is — a genuine but *standard* result, and the running from it is standard physics that depends on the spectrum (K739). The fraction $3/13 = 0.2308$ that the May text derives as a "gauge-active dimension" ratio has two histories, and the register carries both: as the May reading it was **retired** as a running coincidence — a clean fraction sitting near the measured low-energy value (K739, 2026-07-17); as the Chern ratio $c_5(Q^5)/c_3(Q^5)$ of the compact dual it was **restored to identified** (K1261, 2026-08-07, on Casey's re-examination): the Chern sequence $c(Q^5) = \{1, 5, 11, 13, 9, 3\}$ is a target-innocent fact of the geometry, the reading of $c_5/c_3$ *as* the Weinberg angle is a $0.19\%$ direct match, plausible and unforced (T1919). Two seams stand on the register's face and are not resolved here: the generated table's row 19 still says "3/13 RETIRED" where T1919 says identified per K1261; and the same row says "3/8 + RGE → 0.231" where K1261 records Cal's computation that $3/8$ runs, without supersymmetry, to about $0.208$ — the textbook minimal-$SU(5)$ shortfall — so that $3/13$ is *not* the run-down shadow of $3/8$. Grace and Cal own both. The May text's $\sin^2\theta_W = 1/3$ "from the Killing form" rests on $Y = J_{56}$ and falls with it. **And the couplings' failure to meet is a falsifier, not an embarrassment:** no grand unification is the first line of the program's forbidden list — a unification scale with the running couplings meeting would end the program (Lecture 10; the register's Section A). The May "structured unification at $4\pi^2$" has no register row and is kept below as what we once wrote.
+
+### 6.2 Apparatus — kept, labelled as apparatus
+
+Three computations in the May record are correct mathematics whose physical labels were retired, and a referee may want them without the labels. (i) Inside $\mathfrak{so}(5)$ the four generators $T_1 = K_{02}+K_{13}$, $T_2 = K_{03}-K_{12}$, $T_3 = K_{01}-K_{23}$, $Y = K_{01}+K_{23}$ close to $\mathfrak{su}(2)\oplus\mathfrak{u}(1)$ — the self-dual/anti-self-dual split of $\mathfrak{so}(4)\subset\mathfrak{so}(5)$, verified to machine precision in May; the register's $SU(2)_L$ is the $\mathbb{H}$ block of the commutant (K1724), not this subalgebra, and the label "$SU(2)_L$" on these $T_i$ is the slot error Lecture 5 names. (ii) Among the 21 generators of $\mathfrak{so}(5,2)$, the six that commute with the $\mathfrak{so}(3)$ on indices $\{2,3,4\}$ — $\{J_{01}, J_{56}, J_{05}, J_{06}, J_{15}, J_{16}\}$ — close to $\mathfrak{so}(2,2)\cong\mathfrak{sl}(2,\mathbb{R})\oplus\mathfrak{sl}(2,\mathbb{R})$ with the explicit $h, e, f$ triples printed below; the $\mathfrak{so}(3)$ on $\{2,3,4\}$ is the geometric slot of Lecture 2, not a colour group, so "colour-singlet" and "charged/neutral current" are May labels. (iii) Every generator $J_{AB}$ has the same Killing norm, $|B(J_{AB},J_{AB})| = 10$ with $B = 5\,\mathrm{Tr}_7$; the ratio $10/(20+10) = 1/3$ is a ratio of norms of one generator to a sum of two, and reads as a mixing angle only under the retired $Y = J_{56}$. The Chern sequence of the compact dual, $c(Q^5) = \{1, 5, 11, 13, 9, 3\}$, with $c_5 = \chi(Q^5) = 6$ (Lecture 1's $C_2$) is the apparatus of T1919; it is a fact of $Q^5$ whatever one reads off it. The $m_W = m_Z\sqrt{10/13} = 79.977$ GeV line in the record is the tree-level consequence of $3/13$ and inherits its word.
+
+### 6.3 Tier line
+
+- **Derived:** the internal gauge group $U(1)\times SU(2)\times\mathbb{Z}_2$ (K1724, T2567, T2520); chirality from non-orientability (T2522); the hypercharge mechanism theorem, four inputs on its face (Round 85); the one-bit $\nu_R$ slot and its removal (T1949); $3/8$ at high scale as the fermion content's value (standard; K739).
+- **Identified — the one input to the choice of the object:** $N_c = 3$ as the characteristic multiplicity (Lecture 2).
+- **Identified:** $\sin^2\theta_W = 3/13$ as the Chern ratio $c_5/c_3$ (T1919 per K1261) — the May "gauge-active dimension" reading of the same fraction is retired (K739).
+- **Imported:** $SU(3)$, its dynamics, confinement (#108).
+- **Open:** $\sin^2\theta_W(M_Z)$ (row 19); the running of $3/8$ (K1261: $\approx 0.208$ without supersymmetry).
+- **Retired with this section:** $Y_{\rm phys} = J_{56}$ (K1687); $\sin^2\theta_W = 1/3$ from Killing norms; "structured unification at $4\pi^2$"; the right-handed-neutrino coupling prediction (no $\nu_R$, T1949).
+- **Live falsifier:** a unification scale with the couplings meeting (the forbidden list, Lecture 10).
+- **Not claimed:** $SU(3)$ from the geometry; confinement derived; a derived low-energy Weinberg angle.
+
+*What would make this section wrong:* a right-handed $W$ or a $Z'$, or the couplings meeting at a scale, are on the forbidden list and end the program; a sterile neutrino kills the one-bit mechanism; a fermion outside the sixteen-component assignment breaks the hypercharge theorem.
+
+### 6.4 May 2026 record
+
+*Below: the May 2026 text, unedited on 2026-09-14 except for the dated in-place correction already in Section 6.3's "Consequences" paragraph (the integer 7 is $p+q$, not the genus). Read with 6.1–6.3 in hand: its "structured unification" has no row; its $3/13$ is identified, not derived, and only as a Chern ratio; its $Y = J_{56}$ and the $1/3$ that rests on it are retired; its $SU(2)_L$ generators are a subalgebra of $\mathfrak{so}(5)$, not the register's commutant block; its $\nu_R$ prediction is moot.*
+
+#### May 6.1 — The Standard Model’s “Failure” to Unify
 
 Standard grand unification predicts that the three gauge couplings converge to a single value at the GUT scale. They do not: the measured couplings, extrapolated via renormalization group flow, miss the convergence point. This “failure to unify” has been a persistent problem for four decades.
 
-### 6.2 BST’s Structured Unification
+#### May 6.2 — BST’s Structured Unification
 
 BST reinterprets this as a success. The three force sectors correspond to three packing dimensions on $S^1$ within $D_{IV}^5$.
 
@@ -248,7 +283,7 @@ BST reinterprets this as a success. The three force sectors correspond to three 
 
 The couplings do not converge to a point. They converge to a structure: electroweak unification at $4\pi^2$, strong coupling at $4\pi^2/N_c$. The Standard Model was telling us the answer for forty years. The “failure” was a misinterpretation of what unification means in a topologically structured framework.
 
-### 6.3 The Weinberg Angle
+#### May 6.3 — The Weinberg Angle
 
 The Weinberg angle $\sin^2\theta_W$ measures the mixing between $\mathrm{SU}(2)_L$ and $\mathrm{U}(1)_Y$ in the electroweak sector. In BST, this mixing is geometric: it is the ratio of the color sector dimension to the total gauge-active dimension of $D_{IV}^5$.
 
@@ -266,11 +301,11 @@ The 0.5% deviation is consistent with radiative corrections (loop effects shift 
 
 Full derivation: `notes/BST_WeinbergAngle_Sin2ThetaW.md`.
 
-### 6.4 Number of Colors
+#### May 6.4 — Number of Colors
 
 The number of quark colors $N_c = 3$ is the **short-root multiplicity of $D_{IV}^5$** — a forced geometric integer. The $Z_3$ center (the thirds) follows *from* $N_c = 3$ and the topological closure on quark triads; the SU(3) gauge *group* whose center this is is imported (#108), but the number 3 and the $Z_3$ structure are geometric. Three quarks cycling through color orderings on $\mathbb{CP}^2$ require $Z_3$ closure — the circuit must return to its starting configuration after three steps. $N_c = 3$ is a geometric necessity, not a parameter.
 
-### 6.5 The Electroweak Algebra as an Exact Isotropy Subalgebra
+#### May 6.5 — The Electroweak Algebra as an Exact Isotropy Subalgebra
 
 The electroweak gauge algebra $\mathfrak{su}(2)_L \oplus \mathfrak{u}(1)_Y$ is not merely consistent with $D_{IV}^5$ — it sits inside the isotropy algebra as an exact subalgebra.
 
