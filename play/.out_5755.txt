@@ -1,0 +1,46 @@
+pool: 3531 distinct values (products of <=3 of {2,3,5,6,7,137} over the same, with and without sqrt)
+
+m_t/m_b: target 41.2551 ± 0.098 (PDG 2024); published C_2·g = 42 = 42, 1.81 % off, +7.6σ
+   (a) 1σ band                [41.1572, 41.3529]: N =  0   chance = 0.94 / 0.96 / 0.97 (windows ×1.5/×2/×3)   surprising: no
+      forms: 
+   (a2) 2σ band               [41.0594, 41.4508]: N =  2   chance = 1.87 / 1.92 / 1.94 (windows ×1.5/×2/×3)   surprising: no
+      forms: N_c·N_max/rank·n_C = 41.1, √(n_C·n_C·N_max/rank) = 41.382
+   (b) row's own tolerance    [40.5102, 42]: N = 11   chance = 7.13 / 7.29 / 7.38 (windows ×1.5/×2/×3)   surprising: no
+      forms: √(rank·C_2·N_max) = 40.546, n_C·n_C·N_max/rank·C_2·g = 40.774, n_C·g·g/C_2 = 40.833, √(g·g·N_max/rank·rank) = 40.966, N_c·N_max/rank·n_C = 41.1, √(n_C·n_C·N_max/rank) = 41.382, n_C·n_C·n_C/N_c = 41.667, √(n_C·N_max·N_max/N_c·N_c·C_2) = 41.688, √(g·N_max·N_max/N_c·n_C·n_C) = 41.854, N_c·n_C·N_max/g·g = 41.939, C_2·g = 42
+
+sin2_th13: target 0.0219 ± 0.0007 (PDG 2024); published 1/(N_c²·n_C) = 1/45 = 0.0222222, 1.47 % off, +0.5σ
+   (a) 1σ band                [0.0212, 0.0226]: N =  9   chance = 12.22 / 12.64 / 12.66 (windows ×1.5/×2/×3)   surprising: no
+      forms: n_C·g/rank·C_2·N_max = 0.02129, √(rank·n_C·C_2/g·N_max·N_max) = 0.02137, n_C·n_C·n_C/C_2·g·N_max = 0.021724, N_c/N_max = 0.021898, √(1/N_c·n_C·N_max) = 0.022059, 1/N_c·N_c·n_C = 0.022222, √(rank·rank·g/N_c·N_max·N_max) = 0.0223, n_C·n_C·C_2/g·g·N_max = 0.022345, N_c·C_2·C_2/n_C·g·N_max = 0.022523
+   (a2) 2σ band               [0.0205, 0.0233]: N = 22   chance = 24.47 / 25.30 / 25.35 (windows ×1.5/×2/×3)   surprising: no
+      forms: √(rank·rank·rank/N_max·N_max) = 0.020645, rank·rank·n_C/g·N_max = 0.020855, √(g·g/C_2·N_max·N_max) = 0.020859, rank·C_2·C_2/n_C·n_C·N_max = 0.021022, √(n_C·n_C/N_c·N_max·N_max) = 0.021071, √(N_c/g·g·N_max) = 0.02114, √(C_2·g/n_C·N_max·N_max) = 0.021155, n_C·g/rank·C_2·N_max = 0.02129, √(rank·n_C·C_2/g·N_max·N_max) = 0.02137, n_C·n_C·n_C/C_2·g·N_max = 0.021724, N_c/N_max = 0.021898, √(1/N_c·n_C·N_max) = 0.022059, 1/N_c·N_c·n_C = 0.022222, √(rank·rank·g/N_c·N_max·N_max) = 0.0223 …
+   (b) row's own tolerance    [0.0215778, 0.0222222]: N =  4   chance = 5.62 / 5.82 / 5.83 (windows ×1.5/×2/×3)   surprising: no
+      forms: n_C·n_C·n_C/C_2·g·N_max = 0.021724, N_c/N_max = 0.021898, √(1/N_c·n_C·N_max) = 0.022059, 1/N_c·N_c·n_C = 0.022222
+
+lambda_H: target 0.12928 ± 0.00023 (PDG 2024); published 1/rank³ = 1/8 = 0.125, 3.31 % off, -18.8σ
+   (a) 1σ band                [0.129053, 0.129507]: N =  1   chance = 1.14 / 1.13 / 1.13 (windows ×1.5/×2/×3)   surprising: no
+      forms: √(1/rank·n_C·C_2) = 0.1291
+   (a2) 2σ band               [0.128826, 0.129735]: N =  2   chance = 2.27 / 2.26 / 2.25 (windows ×1.5/×2/×3)   surprising: no
+      forms: √(1/rank·n_C·C_2) = 0.1291, g/N_c·N_c·C_2 = 0.12963
+   (b) row's own tolerance    [0.125, 0.13356]: N = 25   chance = 21.40 / 21.31 / 21.22 (windows ×1.5/×2/×3)   surprising: no
+      forms: 1/rank·rank·rank = 0.125, √(N_c·n_C/g·N_max) = 0.12507, √(C_2·g·g/N_max·N_max) = 0.12516, √(N_c·N_c·C_2/n_C·n_C·N_max) = 0.12556, √(1/N_c·N_c·g) = 0.12599, √(rank/n_C·n_C·n_C) = 0.12649, √(N_c·C_2·C_2/g·g·N_max) = 0.12684, rank·rank·rank/N_c·N_c·g = 0.12698, √(rank·rank·n_C/N_c·N_c·N_max) = 0.12736, n_C·g/rank·N_max = 0.12774, √(rank·rank/n_C·g·g) = 0.12778, √(N_c·N_c/rank·rank·N_max) = 0.12815, N_c·N_c/rank·n_C·g = 0.12857, √(1/rank·n_C·C_2) = 0.1291 …
+
+  [HIT] P1  m_t/m_b: N = 11 at the row's tolerance; at 1σ N = 0 and the published 42 sits +7.6σ outside
+  [HIT] P2  sin²θ₁₃: N = 9 at 1σ, 4 at the row's tolerance
+  [HIT] P3  λ_H: N = 25 at the row's tolerance, 1 at 1σ
+  [HIT] P4 (control)  density control: surprising rows = none — the vocabulary supplies these counts by chance at this class
+
+VERDICT by the K1809 rule (N > 1 at the row's own tolerance ⟹ identified), applied mechanically:
+   m_t/m_b    C_2·g = 42            : N(b) = 11  ->  IDENTIFIED (N > 1)
+   sin2_th13  1/(N_c²·n_C) = 1/45   : N(b) = 4  ->  IDENTIFIED (N > 1)
+   lambda_H   1/rank³ = 1/8         : N(b) = 25  ->  IDENTIFIED (N > 1)
+
+ADDENDUM (not predicted): the same counts in K1809's OWN class — Cal's reconstruction: a, √a, a/b, √(a/b), √a/b, a/√b, a·b, 1/(2√a), 1/(2√(a·b)), √(√a/b) over V with repeats
+   K1809-class pool: 210 distinct values (Cal reported 219)
+   m_t/m_b    1σ      : N = 0  []   (published form NOT IN this pool's band)
+   m_t/m_b    row tol : N = 1  ['C_2·g']   (published form IN this pool's band)
+   sin2_th13  1σ      : N = 1  ['N_c/N_max']   (published form NOT IN this pool's band)
+   sin2_th13  row tol : N = 1  ['N_c/N_max']   (published form NOT IN this pool's band)
+   lambda_H   1σ      : N = 1  ['1/(2√(N_c·n_C))']   (published form NOT IN this pool's band)
+   lambda_H   row tol : N = 2  ['√(√n_C/N_max)', '1/(2√(N_c·n_C))']   (published form NOT IN this pool's band)
+
+SCORE 4/4, of which 3/3 can-fail hit

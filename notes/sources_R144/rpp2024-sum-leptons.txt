@@ -1,0 +1,577 @@
+          Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+
+
+                                     LEPTONS
+ e                                                 J = 12
+              Mass m = (548.579909065 ± 0.000000016) × 10−6 u
+              Mass m = 0.51099895000 ± 0.00000000015 MeV
+               m e + − m e −/m < 8 × 10−9 , CL = 90%
+               qe + + qe − e < 4 × 10−8
+              Magnetic moment anomaly
+                    (g−2)/2 = (1159.65218062 ± 0.00000012) × 10−6
+              (g e + − g e − ) / gaverage = (−0.5 ± 2.1) × 10−12
+              Electric dipole moment d < 0.041 × 10−28 e cm, CL = 90%
+              Mean life τ > 6.6 × 1028 yr, CL = 90% [a]
+
+
+ µ                                                 J = 12
+
+              Mass m = 0.1134289259 ± 0.0000000025 u
+              Mass m = 105.6583755 ± 0.0000023 MeV
+              Mean life τ = (2.1969811 ± 0.0000022) × 10−6 s
+              τ µ+ /τ µ− = 1.00002 ± 0.00008
+                   cτ = 658.6384 m
+              Magnetic moment anomaly (g−2)/2 = (11659205.9 ± 2.2) × 10−10
+              (g µ+ − g µ− ) / g average = (−0.11 ± 0.12) × 10−8
+              Electric dipole moment d < 1.8 × 10−19 e cm, CL = 95%
+
+         Decay parameters [b]
+              ρ = 0.74979 ± 0.00026
+              η = 0.057 ± 0.034
+              δ = 0.75047 ± 0.00034
+              ξPµ = 1.0009 +   0.0016 [c]
+                             − 0.0007
+              ξPµ δ/ρ = 1.0018 +   0.0016 [c]
+                                 − 0.0007
+              ξ ′ = 1.00 ± 0.04
+              ξ ′′ = 0.98 ± 0.04
+              α/A = (0 ± 4) × 10−3
+              α′ /A = (−10 ± 20) × 10−3
+              β/A = (4 ± 6) × 10−3
+              β ′ /A = (2 ± 7) × 10−3
+              η = 0.02 ± 0.08
+
+
+
+
+https://pdg.lbl.gov                     Page 1                     Created: 5/31/2024 10:12
+             Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+         µ+ modes are charge conjugates of the modes below.
+                                                                                                p
+µ− DECAY MODES                                       Fraction (Γi /Γ)        Confidence level (MeV/c)
+
+e − ν e νµ                                           ≈ 100%                                       53
+   e − ν e νµ γ                                [d]     (6.0± 0.5) × 10−8                          53
+e − ν e νµ e + e −                             [e]     (3.4± 0.4) × 10−5                          53
+
+                     Lepton Family number (LF ) violating modes
+e − νe ν µ                           LF        [f ] < 1.2          %                       90%    53
+e− γ                                 LF              < 4.2         × 10−13                 90%    53
+e− e+ e−                             LF              < 1.0         × 10−12                 90%    53
+e − 2γ                               LF              < 7.2         × 10−11                 90%    53
+
+
+ τ                                                     J = 12
+
+              Mass m = 1776.93 ± 0.09 MeV
+              (m τ + − m τ − )/maverage < 2.8 × 10−4 , CL = 90%
+              Mean life τ = (290.3 ± 0.5) × 10−15 s
+                  cτ = 87.03 µm
+              Magnetic moment anomaly = −0.057 to 0.024, CL = 95%
+              Re(d τ ) = −0.185 to 0.061 × 10−16 e cm, CL = 95%
+              Im(d τ ) = −0.103 to 0.0230 × 10−16 e cm, CL = 95%
+         Weak dipole moment
+            Re(d w
+                 τ ) < 0.50 × 10
+                                 −17 e cm, CL = 95%
+
+            Im(d w
+                 τ ) < 1.1 × 10
+                                −17 e cm, CL = 95%
+
+         Weak anomalous magnetic dipole moment
+            Re(αw               −3
+                 τ ) < 1.1 × 10 , CL = 95%
+            Im(αw               −3
+                 τ ) < 2.7 × 10 , CL = 95%
+            τ ± → π ± K 0S ντ (RATE DIFFERENCE) / (RATE SUM) =
+                (−0.36 ± 0.25)%
+         Decay parameters
+         See the τ Particle Listings for a note concerning τ -decay parameters.
+             ρ(e or µ) = 0.745 ± 0.008
+             ρ(e) = 0.747 ± 0.010
+             ρ(µ) = 0.763 ± 0.020
+             ξ(e or µ) = 0.985 ± 0.030
+             ξ(e) = 0.994 ± 0.040
+             ξ(µ) = 1.030 ± 0.059
+             η(e or µ) = 0.013 ± 0.020
+             η(µ) = 0.094 ± 0.073
+
+https://pdg.lbl.gov                        Page 2                       Created: 5/31/2024 10:12
+           Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+            (δξ)(e or µ) = 0.746 ± 0.021
+            (δξ)(e) = 0.734 ± 0.028
+            (δξ)(µ) = 0.778 ± 0.037
+            ξ(π) = 0.993 ± 0.022
+            ξ(ρ) = 0.994 ± 0.008
+            ξ(a1 ) = 1.001 ± 0.027
+            ξ(all hadronic modes) = 0.995 ± 0.007
+            ξ ′ (µ) = 0.2 ± 1.0
+            η(µ) = −1.3 ± 1.7
+            (ξκ)(e or µ) = 0.5 ± 0.4
+            (ξκ)(e) = −0.4 ± 1.2
+            (ξκ)(µ) = 0.8 ± 0.6
+        τ + modes are charge conjugates of the modes below. “h± ” stands for
+        π ± or K ± . “ℓ” stands for e or µ. “Neutrals” stands for γ’s and/or π 0 ’s.
+
+                                                                             Scale factor/    p
+τ − DECAY MODES                                     Fraction (Γi /Γ)       Confidence level (MeV/c)
+
+                            Modes with one charged particle
+particle− ≥ 0 neutrals      ≥ 0K 0 ντ      (85.24 ± 0.06 ) %                                     –
+   (“1-prong”)
+particle− ≥ 0 neutrals ≥ 0K 0L ντ                     (84.58 ± 0.06 ) %                          –
+  µ− ν µ ντ                                  [g ]     (17.39 ± 0.04 ) %                        885
+     µ− ν µ ντ γ                             [e]      ( 3.67 ± 0.08 ) × 10−3                   885
+  e − ν e ντ                                 [g ]     (17.82 ± 0.04 ) %                        888
+     e − ν e ντ γ                            [e]      ( 1.83 ± 0.05 ) %                        888
+  h− ≥ 0K 0L ντ                                       (12.03 ± 0.05 ) %                        883
+  h− ντ                                               (11.51 ± 0.05 ) %                        883
+     π − ντ                                  [g ]     (10.82 ± 0.05 ) %                        883
+     K − ντ                                  [g ]     ( 6.96 ± 0.10 ) × 10−3                   820
+    −
+  h ≥ 1 neutralsντ                                    (37.00 ± 0.09 ) %                          –
+  h− ≥ 1π 0 ντ (ex.K 0 )                              (36.50 ± 0.09 ) %                          –
+     h− π 0 ντ                                        (25.93 ± 0.09 ) %                        878
+        π − π 0 ντ                           [g ]     (25.49 ± 0.09 ) %                        878
+        π − π 0 non-ρ(770) ντ                         ( 3.0   ± 3.2 ) × 10−3                   878
+        K − π 0 ντ                           [g ]     ( 4.33 ± 0.15 ) × 10−3                   814
+     h− ≥ 2π 0 ντ                                     (10.81 ± 0.09 ) %                          –
+        h− 2π 0 ντ                                    ( 9.48 ± 0.10 ) %                        862
+           h− 2π 0 ντ (ex.K 0 )                       ( 9.32 ± 0.10 ) %                        862
+              π − 2π 0 ντ (ex.K 0 )          [g ]     ( 9.26 ± 0.10 ) %                        862
+              π − 2π 0 ντ (ex.K 0 ),                < 9                   × 10−3 CL=95%        862
+                   scalar
+              π − 2π 0 ντ (ex.K 0 ),                < 7                   × 10−3 CL=95%        862
+                   vector
+
+https://pdg.lbl.gov                      Page 3                        Created: 5/31/2024 10:12
+            Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+            K − 2π 0 ντ (ex.K 0 )             [g ]    ( 6.5   ± 2.2      ) × 10−4              796
+       h− ≥ 3π 0 ντ                                   ( 1.34 ± 0.07 ) %                         –
+       h− ≥ 3π 0 ντ (ex. K 0 )                        ( 1.25 ± 0.07 ) %                         –
+         h− 3π 0 ντ                                   ( 1.18 ± 0.07 ) %                        836
+            π − 3π 0 ντ (ex.K 0 )             [g ]    ( 1.04 ± 0.07 ) %                        836
+            K − 3π 0 ντ (ex.K 0 ,             [g ]    ( 4.8   ± 2.1      ) × 10−4              766
+                η)
+         h− 4π 0 ντ (ex.K 0 )                         ( 1.6   ± 0.4      ) × 10−3              800
+         h− 4π 0 ντ (ex.K 0 ,η)               [g ]    ( 1.1   ± 0.4      ) × 10−3              800
+a1 (1260)ντ → π − γ ντ                                ( 4.0   ± 1.5      ) × 10−4               –
+K − ≥ 0π 0 ≥ 0K 0 ≥ 0γ ντ                             ( 1.552± 0.029) %                        820
+   K − ≥ 1 (π 0 or K 0 or γ) ντ                       ( 8.59 ± 0.28 ) × 10−3                    –
+                                        Modes with K 0 ’s
+K 0S (particles)− ντ                                  ( 9.43 ± 0.28 ) × 10−3                    –
+      h− K 0 ντ                                       ( 9.87 ± 0.14 ) × 10−3                   812
+         π − K 0 ντ                           [g ]    ( 8.38 ± 0.14 ) × 10−3                   812
+         π− K 0                                       ( 5.4 ± 2.1 ) × 10−4                     812
+            (non-K ∗ (892)− ) ντ
+        K − K 0 ντ                            [g ]    ( 1.486± 0.034) × 10−3                   737
+     K − K 0 ≥ 0π 0 ντ                                ( 2.99 ± 0.07 ) × 10−3                   737
+     h− K 0 π 0 ντ                                    ( 5.32 ± 0.13 ) × 10−3                   794
+        π − K 0 π 0 ντ                        [g ]    ( 3.82 ± 0.13 ) × 10−3                   794
+        K 0 ρ− ντ                                     ( 2.2 ± 0.5 ) × 10−3                     612
+        K − K 0 π 0 ντ                        [g ]    ( 1.50 ± 0.07 ) × 10−3                   685
+     π − K 0 ≥ 1π 0 ντ                             ( 4.08 ± 0.25 ) × 10−3                       –
+     π − K 0 π 0 π 0 ντ (ex.K 0 )             [g ] ( 2.6 ± 2.3 ) × 10−4                        763
+     K − K 0 π 0 π 0 ντ                           < 1.6            × 10−4 CL=95%               619
+     π − K 0 K 0 ντ                                ( 1.55 ± 0.24 ) × 10−3                      682
+        π − K 0S K 0S ντ                      [g ]    ( 2.35 ± 0.06 ) × 10−4                   682
+        π − K 0S K 0L ντ                      [g ]    ( 1.08 ± 0.24 ) × 10−3                   682
+        π − K 0L K 0L ντ                              ( 2.35 ± 0.06 ) × 10−4                   682
+     π − K 0 K 0 π 0 ντ                               ( 3.6 ± 1.2 ) × 10−4                     614
+        π − K 0S K 0S π 0 ντ                  [g ]    ( 1.82 ± 0.21 ) × 10−5                   614
+           K ∗− K 0 π 0 ντ →                          ( 1.08 ± 0.21 ) × 10−5                    –
+                π − K 0S K 0S π 0 ντ
+           f1 (1285)π − ντ →                          ( 6.8   ± 1.5      ) × 10−6               –
+                π − K 0S K 0S π 0 ντ
+           f1 (1420)π − ντ →                          ( 2.4   ± 0.8      ) × 10−6               –
+                π − K 0S K 0S π 0 ντ
+        π − K 0S K 0L π 0 ντ                  [g ]    ( 3.2   ± 1.2 ) × 10−4                   614
+        π − K 0L K 0L π 0 ντ                          ( 1.82 ± 0.21 ) × 10−5                   614
+     K − K 0S K 0S ντ                                < 6.3                × 10−7 CL=90%        466
+     K − K 0S K 0S π 0 ντ                            < 4.0                × 10−7 CL=90%        337
+
+
+https://pdg.lbl.gov                       Page 4                     Created: 5/31/2024 10:12
+          Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+K 0 h+ h− h− ≥ 0 neutrals ντ                    < 1.7                    × 10−3 CL=95%       760
+  K 0 h+ h− h− ντ                           [g ] ( 2.5      ± 2.0      ) × 10−4              760
+
+                         Modes with three charged particles
+h− h− h+ ≥ 0 neutrals       ≥ 0K 0L ντ      (15.20 ± 0.06 ) %                                861
+    −   −  +
+  h h h ≥ 0 neutrals ντ                     (14.55 ± 0.06 ) %                                861
+               0
+      (ex. K S → π π )  +   −
+      (“3-prong”)
+  h− h− h+ ντ                               ( 9.80 ± 0.05 ) %                                861
+  h− h− h+ ντ (ex.K 0 )                     ( 9.46 ± 0.05 ) %                                861
+  h− h− h+ ντ (ex.K 0 ,ω)                   ( 9.43 ± 0.05 ) %                                861
+    −   +
+  π π π ντ  −                               ( 9.31 ± 0.05 ) %                                861
+  π − π + π − ντ (ex.K 0 )                  ( 9.02 ± 0.05 ) %                                861
+  π − π + π − ντ (ex.K 0 ),                < 2.4            %      CL=95%                    861
+      non-axial vector
+  π − π + π − ντ (ex.K 0 ,ω)           [g ] ( 8.99 ± 0.05 ) %                                861
+   −   −   +
+  h h h ≥ 1 neutrals ντ                     ( 5.29 ± 0.05 ) %                                 –
+   −   −   +         0
+  h h h ≥ 1 π ντ (ex. K )         0         ( 5.09 ± 0.05 ) %                                 –
+     h− h− h+ π 0 ντ                        ( 4.76 ± 0.05 ) %                                834
+     h− h− h+ π 0 ντ (ex.K 0 )              ( 4.57 ± 0.05 ) %                                834
+     h− h− h+ π 0 ντ (ex. K 0 , ω)          ( 2.79 ± 0.07 ) %                                834
+     π − π + π − π 0 ντ                     ( 4.62 ± 0.05 ) %                                834
+       −   +    −  0
+     π π π π ντ (ex.K )       0             ( 4.49 ± 0.05 ) %                                834
+     π − π + π − π 0 ντ (ex.K 0 ,ω)    [g ] ( 2.74 ± 0.07 ) %                                834
+     h− h− h+ ≥ 2π 0 ντ (ex.                ( 5.17 ± 0.31 ) × 10−3                            –
+           0
+         K )
+     h h− h+ 2π 0 ντ
+      −                                     ( 5.05 ± 0.31 ) × 10−3                           797
+     h− h− h+ 2π 0 ντ (ex.K 0 )             ( 4.95 ± 0.31 ) × 10−3                           797
+      −   −    +    0          0
+     h h h 2π ντ (ex.K ,ω,η) [g ] (10              ± 4    ) × 10−4                           797
+     h− h− h+ 3π 0 ντ                       ( 2.13 ± 0.30 ) × 10−4                           749
+           −    +    0
+        2π π 3π ντ (ex.K )      0           ( 1.94 ± 0.30 ) × 10−4                           749
+           −    +    0
+        2π π 3π ντ (ex.K , η,   0           ( 1.7 ± 0.4 ) × 10−4                              –
+            f1 (1285))
+        2π − π + 3π 0 ντ (ex.K 0 , η, [g ] ( 1.4 ± 2.7 ) × 10−5                               –
+            ω, f1 (1285))
+  K − h+ h− ≥ 0 neutrals ντ                 ( 6.29 ± 0.14 ) × 10−3                           794
+       −   +    −
+     K h π ντ (ex.K )       0               ( 4.37 ± 0.07 ) × 10−3                           794
+     K − h+ π − π 0 ντ (ex.K 0 )            ( 8.6 ± 1.2 ) × 10−4                             763
+       −   +    −
+     K π π ≥ 0 neutrals ντ                  ( 4.77 ± 0.14 ) × 10−3                           794
+     K − π+ π− ≥                            ( 3.73 ± 0.13 ) × 10−3                           794
+            0
+         0π ντ (ex.K )  0
+        K − π + π − ντ                      ( 3.45 ± 0.07 ) × 10−3                           794
+        K − π + π − ντ (ex.K 0 )            ( 2.93 ± 0.07 ) × 10−3                           794
+          −    +  −
+        K π π ντ (ex.K ,ω)    0        [g ] ( 2.93 ± 0.07 ) × 10−3                           794
+
+
+
+https://pdg.lbl.gov                     Page 5                     Created: 5/31/2024 10:12
+           Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+        K − ρ0 ντ →                          ( 1.4 ± 0.5 ) × 10−3                              –
+           K − π + π − ντ
+        K π + π − π 0 ντ
+          −                                  ( 1.31 ± 0.12 ) × 10−3                           763
+        K − π + π − π 0 ντ (ex.K 0 )         ( 7.9 ± 1.2 ) × 10−4                             763
+          −   +   −   0
+        K π π π ντ (ex.K ,η)     0           ( 7.6 ± 1.2 ) × 10−4                             763
+          −   +   −   0
+        K π π π ντ (ex.K ,ω)     0           ( 3.7 ± 0.9 ) × 10−4                             763
+        K − π + π − π 0 ντ (ex.K 0 ,ω,η)[g ] ( 3.9 ± 1.4 ) × 10−4                             763
+     K π + K − ≥ 0 neut. ντ
+       −                                    < 9              × 10−4 CL=95%                    685
+     K − K + π − ≥ 0 neut. ντ                ( 1.496± 0.033) × 10−3                           685
+          −   +
+        K K π ντ  −                     [g ] ( 1.435± 0.027) × 10−3                           685
+          −   +
+        K K π π ντ−   0                 [g ] ( 6.1 ± 1.8 ) × 10−5                             618
+     K − K + K − ντ                          ( 2.2 ± 0.8 ) × 10−5 S=5.4                       472
+          −   +    −
+        K K K ντ (ex. φ)                    < 2.5            × 10−6 CL=90%                     –
+   K − K + K − π 0 ντ                       < 4.8            × 10−6 CL=90%                    346
+    −   +   −
+   π K π ≥ 0 neut. ντ                       < 2.5            × 10−3 CL=95%                    794
+ −   −  +
+e e e ν e ντ                                 ( 2.8 ± 1.5 ) × 10−5                             888
+  −  −  +
+µ e e ν µ ντ                                < 3.2            × 10−5 CL=90%                    885
+  −  −
+π e e ντ+                                     seen                                            883
+π − µ− µ+ ντ                                < 1.14           × 10−5 CL=90%                    870
+
+                           Modes with five charged particles
+3h− 2h+ ≥ 0 neutrals ντ                              ( 9.9   ± 0.4      ) × 10−4              794
+  (ex. K 0S → π − π + )
+   (“5-prong”)
+  3h− 2h+ ντ (ex.K 0 )                               ( 8.29 ± 0.31 ) × 10−4                   794
+    3π − 2π + ντ (ex.K 0 , ω)                        ( 8.27 ± 0.31 ) × 10−4                   794
+    3π − 2π + ντ (ex.K 0 , ω,                [g ]    ( 7.75 ± 0.30 ) × 10−4                    –
+        f1 (1285))
+    K 2π − 2π + ντ (ex.K 0 )
+      −                                      [g ]    ( 6     ± 12       ) × 10−7              716
+    K + 3π − π + ντ                                 < 5.0                 × 10−6 CL=90%       716
+    K + K − 2π − π + ντ                             < 4.5            × 10−7 CL=90%            528
+  3h− 2h+ π 0 ντ (ex.K 0 )                           ( 1.65 ± 0.11 ) × 10−4                   746
+    3π − 2π + π 0 ντ (ex.K 0 )                       ( 1.64 ± 0.11 ) × 10−4                   746
+    3π − 2π + π 0 ντ (ex.K 0 , η,                    ( 1.11 ± 0.10 ) × 10−4                    –
+        f1 (1285))
+    3π 2π + π 0 ντ (ex.K 0 , η,
+       −                                     [g ]    ( 3.8   ± 0.9      ) × 10−5               –
+        ω, f1 (1285))
+    K − 2π − 2π + π 0 ντ (ex.K 0 )           [g ]    ( 1.1   ± 0.6      ) × 10−6              657
+    K + 3π − π + π 0 ντ                             < 8                   × 10−7 CL=90%       657
+  3h− 2h+ 2π 0 ντ                                   < 3.4                × 10−6 CL=90%        687
+
+                 Miscellaneous other allowed modes
+( 5π )− ντ                        ( 7.8 ± 0.5 ) × 10−3                                        800
+   −    +
+4h 3h ≥ 0 neutrals ντ            < 3.0          × 10−7 CL=90%                                 682
+    (“7-prong”)
+
+https://pdg.lbl.gov                      Page 6                     Created: 5/31/2024 10:12
+          Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+   4h− 3h+ ντ                                   < 4.3                   × 10−7 CL=90%         682
+   4h− 3h+ π 0 ντ                               < 2.5                   × 10−7 CL=90%         612
+  −
+X (S=−1) ντ                                        ( 2.92 ± 0.04 ) %                           –
+K ∗ (892)− ≥ 0 neutrals ≥                          ( 1.42 ± 0.18 ) %                  S=1.4   665
+    0K 0L ντ
+   K ∗ (892)− ντ                                   ( 1.20 ± 0.07 ) %                  S=1.8   665
+   K ∗ (892)− ντ → π − K 0 ντ                      ( 7.82 ± 0.26 ) × 10−3                      –
+K ∗ (892)0 K − ≥ 0 neutrals ντ                     ( 3.2 ± 1.4 ) × 10−3                       542
+   K ∗ (892)0 K − ντ                               ( 2.1    ± 0.4      ) × 10−3               542
+K ∗ (892)0 π − ≥ 0 neutrals ντ                     ( 3.8    ± 1.7      ) × 10−3               656
+   K ∗ (892)0 π − ντ                               ( 2.2    ± 0.5      ) × 10−3               656
+( K ∗ (892)π )− ντ →                               ( 1.0    ± 0.4      ) × 10−3                –
+    π − K 0 π 0 ντ
+K1 (1270)− ντ                                      ( 4.7    ± 1.1      ) × 10−3               447
+K1 (1400)− ντ                                      ( 1.7    ± 2.6      ) × 10−3       S=1.7   335
+K ∗ (1410)− ντ                          ( 1.5 +  1.4
+                                               − 1.0 ) × 10
+                                                            −3                                326
+K ∗0 (1430)− ντ                        < 5              × 10−4 CL=95%                         317
+K ∗2 (1430)− ντ                        < 3              × 10−3 CL=95%                         315
+η π − ντ                               < 9.9            × 10−5 CL=95%                         797
+η π − π 0 ντ                       [g ] ( 1.39 ± 0.07 ) × 10−3                                778
+      −
+η π π π ντ 0   0                   [g ] ( 1.9 ± 0.4 ) × 10−4                                  746
+η K − ντ                           [g ] ( 1.55 ± 0.08 ) × 10−4                                720
+      ∗
+η K (892) ντ    −                       ( 1.38 ± 0.15 ) × 10−4                                511
+      −
+η K π ντ   0                       [g ] ( 4.8 ± 1.2 ) × 10−5                                  665
+η K − π 0 (non-K ∗ (892)) ντ           < 3.5            × 10−5 CL=90%                          –
+      0
+η K π ντ   −                       [g ] ( 9.4 ± 1.5 ) × 10−5                                  661
+η K 0 π − π 0 ντ                       < 5.0            × 10−5 CL=90%                         590
+      −
+η K K ντ    0                          < 9.0            × 10−6 CL=90%                         430
+      +    −    −
+η π π π ≥ 0 neutrals ντ                < 3              × 10−3 CL=90%                         744
+         −    +   −
+     η π π π ντ (ex.K ) 0          [g ] ( 2.20 ± 0.13 ) × 10−4                                744
+             −   +  −      0
+         η π π π ντ (ex.K ,f1 (1285)) ( 9.9 ± 1.6 ) × 10−5                                     –
+     η a1 (1260)− ντ → η π − ρ0 ντ     < 3.9            × 10−4 CL=90%                          –
+η η π ντ−                              < 7.4            × 10−6 CL=90%                         637
+        −
+η η π π ντ   0                         < 2.0            × 10−4 CL=95%                         559
+η η K ντ −                             < 3.0            × 10−6 CL=90%                         382
+  ′
+η (958)π ντ    −                       < 4.0            × 10−6 CL=90%                         620
+η ′ (958)π − π 0 ντ                    < 1.2            × 10−5 CL=90%                         591
+  ′
+η (958)K ντ    −                       < 2.4            × 10−6 CL=90%                         495
+φπ ντ −                                 ( 3.4 ± 0.6 ) × 10−5                                  585
+φK − ντ                            [g ] ( 4.4 ± 1.6 ) × 10−5                                  445
+f1 (1285)π ντ   −                       ( 3.9 ± 0.5 ) × 10−4 S=1.9                            408
+     f1 (1285)π − ντ →                  ( 1.18 ± 0.07 ) × 10−4 S=1.3                           –
+              −   +
+          η π π π ντ −
+
+
+
+https://pdg.lbl.gov                     Page 7                     Created: 5/31/2024 10:12
+           Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+  f1 (1285)π − ντ →                          [g ]    ( 5.2   ± 0.4      ) × 10−5               –
+       3π − 2π + ντ
+π(1300)− ντ → (ρ π)− ντ →                           < 1.0                × 10−4 CL=90%         –
+   (3π)− ντ
+π(1300)− ντ →                                       < 1.9                × 10−4 CL=90%         –
+   ((π π)S−wave π)− ντ →
+   (3π)− ντ
+h− ω ≥ 0 neutrals ντ                                 ( 2.40 ± 0.08 ) %                        708
+  h− ω ντ                                            ( 1.99 ± 0.06 ) %                        708
+      π − ω ντ                               [g ]    ( 1.95 ± 0.06 ) %                        708
+      K − ω ντ                               [g ]    ( 4.1 ± 0.9 ) × 10−4                     610
+  h ω π 0 ντ
+    −                                        [g ]    ( 4.1 ± 0.4 ) × 10−3                     684
+  h− ω 2π 0 ντ                                       ( 1.4 ± 0.5 ) × 10−4                     644
+      π − ω 2π 0 ντ                          [g ]    ( 7.2   ± 1.6 ) × 10−5                   644
+    −
+  h 2ω ντ                                           < 5.4            × 10−7 CL=90%            250
+2h− h+ ω ντ                                          ( 1.20 ± 0.22 ) × 10−4                   641
+  2π − π + ω ντ (ex.K 0 )                    [g ]    ( 8.4 ± 0.6 ) × 10−5                     641
+
+               Lepton Family number (LF ), Lepton number (L),
+                    or Baryon number (B) violating modes
+        L means lepton number violation (e.g. τ − → e + π − π − ). Following
+        common usage, LF means lepton family violation and not lepton number
+        violation (e.g. τ − → e − π + π − ). B means baryon number violation.
+e− γ                           LF           < 3.3             × 10−8 CL=90%                   888
+e− γ γ                             LF               < 2.5                × 10−4 CL=90%        888
+µ− γ                               LF               < 4.2                × 10−8 CL=90%        885
+µ− γ γ                             LF               < 5.8                × 10−4 CL=90%        885
+e − π0                             LF               < 8.0                × 10−8 CL=90%        883
+µ− π 0                             LF               < 1.1                × 10−7 CL=90%        880
+e − K 0S                           LF               < 2.6                × 10−8 CL=90%        819
+µ− K 0S                            LF               < 2.3                × 10−8 CL=90%        815
+e− η                               LF               < 9.2                × 10−8 CL=90%        804
+µ− η                               LF               < 6.5                × 10−8 CL=90%        800
+e − ρ0                             LF               < 2.2                × 10−8 CL=90%        719
+µ− ρ 0                             LF               < 1.7                × 10−8 CL=90%        715
+e− ω                               LF               < 2.4                × 10−8 CL=90%        716
+µ− ω                               LF               < 3.9                × 10−8 CL=90%        711
+e − K ∗ (892)0                     LF               < 1.9                × 10−8 CL=90%        665
+µ− K ∗ (892)0                      LF               < 2.9                × 10−8 CL=90%        659
+e − K ∗ (892)0                     LF               < 1.7                × 10−8 CL=90%        665
+µ− K ∗ (892)0                      LF               < 4.3                × 10−8 CL=90%        659
+e − η ′ (958)                      LF               < 1.6                × 10−7 CL=90%        630
+µ− η ′ (958)                       LF               < 1.3                × 10−7 CL=90%        625
+e − f0 (980) → e − π + π −         LF               < 3.2                × 10−8 CL=90%         –
+
+https://pdg.lbl.gov                      Page 8                     Created: 5/31/2024 10:12
+          Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+µ− f0 (980) → µ− π + π −          LF            < 3.4                   × 10−8 CL=90%         –
+e− φ                              LF            < 2.0                   × 10−8 CL=90%        596
+µ− φ                              LF            < 2.3                   × 10−8 CL=90%        590
+e− e+ e−                          LF            < 2.7                   × 10−8 CL=90%        888
+e − µ+ µ−                         LF            < 2.7                   × 10−8 CL=90%        882
+e + µ− µ−                         LF            < 1.7                   × 10−8 CL=90%        882
+µ− e + e −                        LF            < 1.8                   × 10−8 CL=90%        885
+µ+ e − e −                        LF            < 1.5                   × 10−8 CL=90%        885
+µ− µ+ µ−                          LF            < 2.1                   × 10−8 CL=90%        873
+e − π+ π−                         LF            < 2.3                   × 10−8 CL=90%        877
+e + π− π−                         L             < 2.0                   × 10−8 CL=90%        877
+µ− π + π −                        LF            < 2.1                   × 10−8 CL=90%        866
+µ+ π − π −                        L             < 3.9                   × 10−8 CL=90%        866
+e − π+ K −                        LF            < 3.7                   × 10−8 CL=90%        813
+e − π− K +                        LF            < 3.1                   × 10−8 CL=90%        813
+e + π− K −                        L             < 3.2                   × 10−8 CL=90%        813
+e − K 0S K 0S                     LF            < 7.1                   × 10−8 CL=90%        736
+e− K + K −                        LF            < 3.4                   × 10−8 CL=90%        739
+e+ K − K −                        L             < 3.3                   × 10−8 CL=90%        739
+µ− π + K −                        LF            < 8.6                   × 10−8 CL=90%        800
+µ− π − K +                        LF            < 4.5                   × 10−8 CL=90%        800
+µ+ π − K −                        L             < 4.8                   × 10−8 CL=90%        800
+µ− K 0S K 0S                      LF            < 8.0                   × 10−8 CL=90%        696
+µ− K + K −                        LF            < 4.4                   × 10−8 CL=90%        699
+µ+ K − K −                        L             < 4.7                   × 10−8 CL=90%        699
+e − π0 π0                         LF            < 6.5                   × 10−6 CL=90%        878
+µ− π 0 π 0                        LF            < 1.4                   × 10−5 CL=90%        867
+e− η η                            LF            < 3.5                   × 10−5 CL=90%        699
+µ− η η                            LF            < 6.0                   × 10−5 CL=90%        653
+e − π0 η                          LF            < 2.4                   × 10−5 CL=90%        798
+µ− π 0 η                          LF            < 2.2                   × 10−5 CL=90%        784
+p e− e−                           L,B           < 3.0                   × 10−8 CL=90%        641
+p e+ e−                           L,B           < 3.0                   × 10−8 CL=90%        641
+p e + µ−                          L,B           < 2.0                   × 10−8 CL=90%        635
+p e − µ+                          L,B           < 1.8                   × 10−8 CL=90%        635
+p µ− µ−                           L,B           < 4.0                   × 10−8 CL=90%        618
+p µ+ µ−                           L,B           < 1.8                   × 10−8 CL=90%        618
+pγ                                L,B           < 3.5                   × 10−6 CL=90%        641
+p π0                              L,B           < 1.5                   × 10−5 CL=90%        632
+p 2π 0                            L,B           < 3.3                   × 10−5 CL=90%        604
+pη                                L,B           < 8.9                   × 10−6 CL=90%        475
+p π0 η                            L,B           < 2.7                   × 10−5 CL=90%        360
+Λ π−                              L,B           < 7.2                   × 10−8 CL=90%        525
+Λ π−                              L,B           < 1.4                   × 10−7 CL=90%        525
+
+
+https://pdg.lbl.gov                     Page 9                     Created: 5/31/2024 10:12
+          Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+e − light boson                   LF            < 9                     × 10−4 CL=95%        –
+µ− light boson                    LF            < 6                     × 10−4 CL=95%        –
+
+
+ Heavy Charged Lepton Searches
+
+        L± – charged lepton
+            Mass m > 100.8 GeV, CL = 95% [h]                         Decay to ν W .
+        L± – stable charged heavy lepton
+            Mass m > 102.6 GeV, CL = 95%
+
+
+ Neutrino Properties
+
+See the note on “Neutrino properties listings” in the Particle Listings.
+           Mass m < 0.8 eV, CL = 90% (tritium decay)
+           Mean life/mass, τ /m > 300 s/eV, CL = 90% (reactor)
+           Mean life/mass, τ /m > 7 × 109 s/eV (solar)
+           Mean life/mass, τ /m > 15.4 s/eV, CL = 90% (accelerator)
+           Magnetic moment µ < 0.064 × 10−10 µB , CL = 90% (solar
+               + radiochemical)
+
+
+ Number of Neutrino Types
+
+            Number N = 2.996 ± 0.007 (Standard Model fits to LEP-SLC
+               data)
+            Number N = 2.92 ± 0.05 (S = 1.2) (Direct measurement of
+               invisible Z width)
+
+
+ Neutrino Mixing
+
+The following values are obtained through data analyses based on
+the 3-neutrino mixing scheme described in the review “Neutrino
+Masses, Mixing, and Oscillations.”
+            sin2 (θ12 ) = 0.307 ± 0.013
+            ∆m221 = (7.53 ± 0.18) × 10−5 eV2
+            sin2 (θ23 ) = 0.553 + 0.016
+                                − 0.024 (S = 1.1)  (Inverted order)
+               2                + 0.015
+            sin (θ23 ) = 0.558 − 0.021 (Normal order)
+            ∆m232 = (−2.529 ± 0.029) × 10−3 eV2 (Inverted order)
+            ∆m232 = (2.455 ± 0.028) × 10−3 eV2 (Normal order)
+
+https://pdg.lbl.gov                    Page 10                     Created: 5/31/2024 10:12
+          Citation: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024)
+
+
+           sin2 (θ13 ) = (2.19 ± 0.07) × 10−2 (S = 1.2)
+           δ, CP violating phase = 1.19 ± 0.22 π rad (S = 1.2)
+            ∆m 221 − ∆m221 < 1.1 × 10−4 eV2 , CL = 99.7%
+            ∆m 232 − ∆m232 = (−0.12 ± 0.25) × 10−3 eV2
+
+                                            NOTES
+
+
+  [a] This is the best limit for the mode e − → ν γ.
+  [b] See the review on “Muon Decay Parameters” for definitions and details.
+  [c] Pµ is the longitudinal polarization of the muon from pion decay. For
+      V −A coupling, Pµ = 1 and ρ = δ = 3/4.
+  [d] This only includes events with energy of e > 45 MeV and energy of
+       γ > 40 MeV. Since the e − ν e νµ and e − ν e νµ γ modes cannot be clearly
+       separated, we regard the latter mode as a subset of the former.
+  [e] See the relevant Particle Listings for the energy limits used in this mea-
+       surement.
+  [f ] A test of additive vs. multiplicative lepton family number conservation.
+  [g ] Basis mode for the τ .
+  [h] L± mass limit depends on decay assumptions; see the Full Listings.
+
+
+
+
+https://pdg.lbl.gov                    Page 11                     Created: 5/31/2024 10:12
+
