@@ -20,5 +20,5 @@ Structure as briefed; no tier table typed — points at Grace's generated table 
 — Keeper. K1896. Counter next: K1897.
 
 ---
-## Addendum, 2026-09-14 08:49 — the instrument found what the eyeball PASS missed
+## Addendum, 2026-09-14 08:48 — the instrument found what the eyeball PASS missed
 `play/keeper_guide_section_tier_check.py` (built this morning for Round 144's audits) run on Sections 5/7.7 as its positive control: Section 5 clean; **Section 7.7's tier line said "Input: δ_CP's magnitude; |V_cb|'s value" where the generator key says OPEN and IDENTIFIED.** The same word was in Spine Lecture 7 and Lecture 10 — mine. **Ruling:** in the four-word vocabulary "input" is reserved for the two dimensionful scales (m_e, v — the ledger's "2 input"); a mixing value the geometry has not fixed is OPEN, taken from measurement where used. Applied to 7.7.3, Lecture 7 (tier line and body), Lecture 10's count. The PASS stands; the word is corrected; the instrument is retained and runs on every section from here.
