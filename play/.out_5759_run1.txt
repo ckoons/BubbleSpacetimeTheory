@@ -1,0 +1,39 @@
+/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5759_SEP14_R147_E2_redshift_channel_g_i_positive_and_bulk_flow_controls_E3_null_bin_S5.py:64: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print(f"   count channel reads a 'boost' of {fc3[0]*C_KMS:.0f} ± {fc3[1]*C_KMS:.0f} km/s toward {tuple(round(float(x),1) for x in L.vec_to_lb(fc3[2]))}; redshift channel {fz3[0]*C_KMS:.0f} ± {fz3[1]*C_KMS:.0f} km/s toward {tuple(round(float(x),1) for x in L.vec_to_lb(fz3[2]))}; injected flow toward (200, −30)")
+lib hash fab271b3d049
+
+E2 P1 — g_i and the redshift-channel amplitude at β = 0.01, 13 M generated (no z errors):
+   β=0.01: COUNT channel β̂c =  2399.1 ± 239.8 km/s, A = 0.0205 ± 0.0080, χ² 7.9/9 | REDSHIFT channel β̂_z c =  3644.2 ± 250.6 km/s, A_z = 0.0015 ± 0.0005, χ² 10.2/9
+   bin                 N  g_meas   |R|/β   β̂_z/β      σ  dir off
+   (0.0, 0.8)     826685   0.457   0.436   0.9541 0.0882    4.91°
+   (0.8, 1.3)    1064787   0.085   0.039   0.4542 0.3521   22.74°
+   (1.3, 1.8)     909778   0.052   0.067   1.3091 0.4102   67.69°
+   (1.8, 2.4)     715172   0.055   0.025   0.4577 0.5430   47.96°
+   (2.4, inf)     646815   1.346   1.600   1.1886 0.0832    5.28°
+  [HIT] P1  β̂_z/β_inj within ±2.5σ of 1 in every bin — g_i as derived is the redshift channel's factor
+
+E2 P2/P3 — CMB boost, Quaia-like depth, photo-z errors 0.01(1+z):
+   CMB β : COUNT channel β̂c =   337.7 ± 429.8 km/s, A = 0.0207 ± 0.0148, χ² 5.8/9 | REDSHIFT channel β̂_z c =   495.3 ± 446.3 km/s, A_z = 0.0013 ± 0.0009, χ² 7.6/9
+   bin                 N      g v̂_z [km/s]   σ_v     Neyman 95% v  dir off  cone95
+   (0.0, 0.8)     254296  0.454      1533.0   492   [  462, 2387]     62.4°   131.7°
+   (0.8, 1.3)     326928  0.079      2366.0  1982   [    0, 4906]    102.5°   180.0°
+   (1.3, 1.8)     278967  0.050      6189.4  3560   [    0,11850]     62.2°   180.0°
+   (1.8, 2.4)     220100  0.073      3409.2  3276   [    0, 8094]     95.3°   180.0°
+   (2.4, inf)     198486  1.372       366.5   450   [    0,  921]     58.7°   180.0°
+   per-bin σ_v (redshift channel) = [492, 1982, 3560, 3276, 450] km/s — Cal's envelope 55–110; my prereg band [40, 150]
+  [MISS] P2  CMB β recovered in 4/5 bins (v) and 5/5 (direction) at Quaia depth; σ_v in band
+  [MISS] P3  boosted sky, no contaminant: Landing C′ — |Δβ| = 0.25σ_comb, directions 160.0° apart vs cones 163.7° (count) / 107.1° (redshift)
+
+E2 P4 — NEGATIVE control: local bulk flow 600 km/s e^(−z/0.3) toward (200°, −30°), no observer boost:
+   bulk  : COUNT channel β̂c =   908.4 ± 446.0 km/s, A = 0.0318 ± 0.0145, χ² 19.0/9 | REDSHIFT channel β̂_z c =   515.5 ± 360.9 km/s, A_z = 0.0014 ± 0.0007, χ² 14.6/9
+   count channel reads a 'boost' of 908 ± 446 km/s toward (307.5, 13.5); redshift channel 515 ± 361 km/s toward (154.1, 49.9); injected flow toward (200, −30)
+  [HIT] P4  bulk flow lands C′: |Δβ| = 0.68σ_comb, directions 112.4° apart vs cones 58.3°/115.4°
+
+E3 S5 — null bin: CMB boost + intrinsic dipole A = 0.05 with Cal's profile toward (90°, 20°), binned on z_obs:
+   13 M: COUNT channel β̂c =  1157.3 ± 259.3 km/s, A = 0.0773 ± 0.0085, χ² 14.2/9 | REDSHIFT channel β̂_z c =   409.4 ± 163.5 km/s, A_z = 0.0068 ± 0.0005, χ² 133.5/9
+Traceback (most recent call last):
+  File "/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5759_SEP14_R147_E2_redshift_channel_g_i_positive_and_bulk_flow_controls_E3_null_bin_S5.py", line 76, in <module>
+    bC=fc[0]*fc[2]; aC=fc[3]*(np.array([0,0,0.]) if fc[3]==0 else None)
+                       ~~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'
+python3 toy_5759_SEP14_*.py  17.72s user 32.17s system 571% cpu 8.723 total

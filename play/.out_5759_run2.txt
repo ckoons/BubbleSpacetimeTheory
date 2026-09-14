@@ -1,0 +1,62 @@
+/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5759_SEP14_R147_E2_redshift_channel_g_i_positive_and_bulk_flow_controls_E3_null_bin_S5.py:64: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print(f"   count channel reads a 'boost' of {fc3[0]*C_KMS:.0f} ± {fc3[1]*C_KMS:.0f} km/s toward {tuple(round(float(x),1) for x in L.vec_to_lb(fc3[2]))}; redshift channel {fz3[0]*C_KMS:.0f} ± {fz3[1]*C_KMS:.0f} km/s toward {tuple(round(float(x),1) for x in L.vec_to_lb(fz3[2]))}; injected flow toward (200, −30)")
+/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5759_SEP14_R147_E2_redshift_channel_g_i_positive_and_bulk_flow_controls_E3_null_bin_S5.py:82: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print(f"   {lab}: null bin f₅+B₅ = {r5['f']:+.3f} (kinematic share {kin:.5f} vs A w₅ = {Aw5:.5f}, ratio {kin/Aw5:.2f}); D₅ toward {tuple(round(float(x),1) for x in L.vec_to_lb(D5))}, {ang5:.1f}° from ŵ, cone95 {cone5:.1f}°; Â_null = {Adb:.4f} ± {sA:.4f} (injected 0.0500, {abs(Adb-0.05)/sA:.1f}σ); other bins' residual p = {[round(p,3) for p in pv]}")
+/Users/cskoons/projects/github/BubbleSpacetimeTheory/play/toy_5759_SEP14_R147_E2_redshift_channel_g_i_positive_and_bulk_flow_controls_E3_null_bin_S5.py:112: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print(f"   joint: COUNT (z bins) β̂c = {fcC[0]*C_KMS:.0f} ± {fcC[1]*C_KMS:.0f} km/s; REDSHIFT (flux bins) β̂_z c = {fzZ[0]*C_KMS:.0f} ± {fzZ[1]*C_KMS:.0f} km/s toward {tuple(round(float(x),1) for x in L.vec_to_lb(fzZ[2]))} (CMB (264.0, 48.2)); |Δβ| = {dbF:.2f}σ, directions {angF:.1f}° apart, cones {c1F:.0f}°/{c2F:.0f}° -> {landF}")
+lib hash 8a2533ed5559
+
+E2 P1 — g_i and the redshift-channel amplitude at β = 0.01, 13 M generated (no z errors):
+   β=0.01: COUNT channel β̂c =  2399.1 ± 239.8 km/s, A = 0.0205 ± 0.0080, χ² 7.9/9 | REDSHIFT channel β̂_z c =  3644.2 ± 250.6 km/s, A_z = 0.0015 ± 0.0005, χ² 10.2/9
+   bin                 N  g_meas   |R|/β   β̂_z/β      σ  dir off
+   (0.0, 0.8)     826685   0.457   0.436   0.9541 0.0882    4.91°
+   (0.8, 1.3)    1064787   0.085   0.039   0.4542 0.3521   22.74°
+   (1.3, 1.8)     909778   0.052   0.067   1.3091 0.4102   67.69°
+   (1.8, 2.4)     715172   0.055   0.025   0.4577 0.5430   47.96°
+   (2.4, inf)     646815   1.346   1.600   1.1886 0.0832    5.28°
+  [HIT] P1  β̂_z/β_inj within ±2.5σ of 1 in every bin — g_i as derived is the redshift channel's factor
+
+E2 P2/P3 — CMB boost, Quaia-like depth, photo-z errors 0.01(1+z):
+   CMB β : COUNT channel β̂c =   337.7 ± 429.8 km/s, A = 0.0207 ± 0.0148, χ² 5.8/9 | REDSHIFT channel β̂_z c =   495.3 ± 446.3 km/s, A_z = 0.0013 ± 0.0009, χ² 7.6/9
+   bin                 N      g v̂_z [km/s]   σ_v     Neyman 95% v  dir off  cone95
+   (0.0, 0.8)     254296  0.454      1533.0   492   [  462, 2387]     62.4°   131.7°
+   (0.8, 1.3)     326928  0.079      2366.0  1982   [    0, 4906]    102.5°   180.0°
+   (1.3, 1.8)     278967  0.050      6189.4  3560   [    0,11850]     62.2°   180.0°
+   (1.8, 2.4)     220100  0.073      3409.2  3276   [    0, 8094]     95.3°   180.0°
+   (2.4, inf)     198486  1.372       366.5   450   [    0,  921]     58.7°   180.0°
+   per-bin σ_v (redshift channel) = [492, 1982, 3560, 3276, 450] km/s — Cal's envelope 55–110; my prereg band [40, 150]
+  [MISS] P2  CMB β recovered in 4/5 bins (v) and 5/5 (direction) at Quaia depth; σ_v in band
+  [MISS] P3  boosted sky, no contaminant: Landing C′ — |Δβ| = 0.25σ_comb, directions 160.0° apart vs cones 163.7° (count) / 107.1° (redshift)
+
+E2 P4 — NEGATIVE control: local bulk flow 600 km/s e^(−z/0.3) toward (200°, −30°), no observer boost:
+   bulk  : COUNT channel β̂c =   908.4 ± 446.0 km/s, A = 0.0318 ± 0.0145, χ² 19.0/9 | REDSHIFT channel β̂_z c =   515.5 ± 360.9 km/s, A_z = 0.0014 ± 0.0007, χ² 14.6/9
+   count channel reads a 'boost' of 908 ± 446 km/s toward (307.5, 13.5); redshift channel 515 ± 361 km/s toward (154.1, 49.9); injected flow toward (200, −30)
+  [HIT] P4  bulk flow lands C′: |Δβ| = 0.68σ_comb, directions 112.4° apart vs cones 58.3°/115.4°
+
+E3 S5 — null bin: CMB boost + intrinsic dipole A = 0.05 with Cal's profile toward (90°, 20°), binned on z_obs:
+   injected intrinsic profile: Cal's w_i at the generating bin medians [0.58, 1.05, 1.53, 2.06, 2.88] -> w = [1.0, 0.391, 0.236, 0.167, 0.12], A = 0.05 per bin
+   13 M: COUNT channel β̂c =   651.2 ± 248.9 km/s, A = 0.0611 ± 0.0079, χ² 13.8/9 | REDSHIFT channel β̂_z c =   422.8 ± 245.0 km/s, A_z = 0.0004 ± 0.0005, χ² 13.4/9
+   13 M: null bin f₅+B₅ = -0.009 (kinematic share 0.00001 vs A w₅ = 0.00598, ratio 0.00); D₅ toward (101.0, 9.1), 15.2° from ŵ, cone95 39.4°; Â_null = 0.1151 ± 0.0228 (injected 0.0500, 2.9σ); other bins' residual p = [0.934, 0.928, 0.519, 0.671]
+   Quaia depth: COUNT channel β̂c =   359.4 ± 445.2 km/s, A = 0.0504 ± 0.0135, χ² 11.9/9 | REDSHIFT channel β̂_z c =   339.3 ± 471.5 km/s, A_z = 0.0010 ± 0.0007, χ² 7.4/9
+   Quaia depth: null bin f₅+B₅ = -0.045 (kinematic share 0.00006 vs A w₅ = 0.00597, ratio 0.01); D₅ toward (130.7, 78.1), 61.2° from ŵ, cone95 180.0°; Â_null = 0.0234 ± 0.0256 (injected 0.0500, 1.0σ); other bins' residual p = [0.936, 0.33, 0.575, 0.431]
+  [MISS] P5  S5 at 13 M: direction/kinematic-share/Â_null/other-bins = (True, True, False, True); at Quaia depth Â_null = 0.0234 ± 0.0256
+
+ADDENDUM P6/P7 — redshift channel in five FLUX-quantile bins (a boost shifts flux by only ~0.25 %):
+   β=0.01 flux bin 1: N  1673696  1+m = 2.617  |R|/β = 2.421  v̂_z =  2772.7 ± 224.8 km/s  dir off   6.4°
+   β=0.01 flux bin 2: N  1673695  1+m = 2.592  |R|/β = 2.362  v̂_z =  2732.0 ± 220.3 km/s  dir off   2.1°
+   β=0.01 flux bin 3: N  1673695  1+m = 2.558  |R|/β = 2.804  v̂_z =  3285.2 ± 224.2 km/s  dir off   2.5°
+   β=0.01 flux bin 4: N  1673695  1+m = 2.509  |R|/β = 2.138  v̂_z =  2554.7 ± 224.3 km/s  dir off   9.4°
+   β=0.01 flux bin 5: N  1673696  1+m = 2.379  |R|/β = 2.181  v̂_z =  2748.6 ± 222.3 km/s  dir off   5.7°
+  [MISS] P6a  g_i(flux bins) = 1 + m_i within 10 %: measured/predicted = [0.925, 0.911, 1.096, 0.852, 0.917]
+   CMB β  flux bin 1: N   514919  1+m = 2.619  |R|/β = 3.927  v̂_z =   554.5 ± 396.0 km/s  dir off  90.2°  Neyman [    0, 1157] cone 180.0°
+   CMB β  flux bin 2: N   514919  1+m = 2.597  |R|/β = 7.785  v̂_z =  1108.7 ± 405.5 km/s  dir off  66.2°  Neyman [    0, 1747] cone 180.0°
+   CMB β  flux bin 3: N   514919  1+m = 2.561  |R|/β = 4.767  v̂_z =   688.3 ± 415.0 km/s  dir off 102.0°  Neyman [    0, 1374] cone 180.0°
+   CMB β  flux bin 4: N   514919  1+m = 2.509  |R|/β = 4.295  v̂_z =   633.1 ± 252.9 km/s  dir off  42.4°  Neyman [    0,  968] cone 180.0°
+   CMB β  flux bin 5: N   514919  1+m = 2.381  |R|/β = 0.910  v̂_z =   141.3 ± 268.7 km/s  dir off  26.7°  Neyman [  141,  141] cone 124.6°
+   per-bin σ_v (redshift channel, flux bins, Quaia depth) = [396, 406, 415, 253, 269] km/s — Cal's envelope 55–110
+  [MISS] P6b  σ_v in [40, 150] km/s in every flux bin
+   joint: COUNT (z bins) β̂c = 1025 ± 452 km/s; REDSHIFT (flux bins) β̂_z c = 2569 ± 1410 km/s toward (169.0, 7.0) (CMB (264.0, 48.2)); |Δβ| = 1.04σ, directions 27.7° apart, cones 51°/64° -> A′
+  [HIT] P7  CMB β recovered in 4/5 flux bins (v), 5/5 (direction); boosted sky lands A′
+
+SCORE 3/8, of which 3/8 can-fail hit
+python3 toy_5759_SEP14_*.py  27.18s user 53.35s system 594% cpu 13.559 total
