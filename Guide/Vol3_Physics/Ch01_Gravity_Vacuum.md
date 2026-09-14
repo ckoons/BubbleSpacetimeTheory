@@ -11,9 +11,49 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Section 10: BST Gravity as Statistical Thermodynamics
+## Section 10: Gravity — a Relation, Not a Prediction
 
-### 10.1 Gravity Is Not a Force
+*Rewritten 2026-09-14 (Lyra, Round 147 L1; Keeper audit pending) as a pointer into the Spine plus the referee apparatus. The May 2026 text is kept below as the record. Facts are from the register (T201 canonical, T1296, K1673, K1408, Cal Section 585, K1674, Lane I, T2565, Cal Section 946) and Spine Lecture 9 — not from the May text. Section 11 (the chiral-condensate parameter) is hadronic, outside this pass's scope, and untouched; record or apparatus is Keeper's call. Last accuracy-synced: 2026-09-14 / K1899.*
+
+### 10.0 The question
+
+What does a ten-real-dimensional object with no time say about gravity — and how much of "Newton's constant from the geometry" is true?
+
+The step down to spacetime is Lecture 9 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_09_Descent_and_Gravity.md`): the descent's *structure* is derived — a single idempotent step, codimension one, signature (3,1) — and its *frame* is an input the geometry provably cannot supply (T2565). This section is the pointer to Lecture 9's gravity half and the apparatus a referee will want; the word it is about is *relation*.
+
+### 10.1 Where it stands
+
+**One equation, and the honest word for it.** The program's gravity result is
+
+$$G \;=\; \hbar c\,\frac{(6\pi^5)^2\,\alpha^{24}}{m_e^{2}},$$
+
+which reproduces Newton's constant from the electron mass to $0.065\%$ (recomputed from CODATA 2026-09-11). For a while the May text below called this "$G$ derived with no free parameters." It is a **theorem about a relation** (the paper "Gravity: the 2→1 Reduction," Keeper PASS K1673, 2026-08-18; T201 is the canonical row, and the paper "is T201 read as a reduction"): the geometry ties the gravitational scale to the electron's, with the exponent $24 = 4C_2$ a supporting identity (Cal Section 585; T1296 carries the $2C_2 = 12$ of $m_e/m_{\rm Pl} = 6\pi^5\alpha^{12}$). Every dimensionful prediction needs a dimensionful input — no theory produces a $G$ with no scale in it, and the paper's own sentence is *"BST does not predict $G$ from nothing — nothing does."* What the relation does is **trade one dimensionful input for another**: take $m_e$ as the ruler and $G$ follows, or take $G$ and $m_e$ follows; it reduces two inputs to one. K1673's honest count: three independent dimensionless relations — $m_p/m_e = 6\pi^5$, the $\alpha^{12}$ Planck relation, and $v = m_p^2/(g\,m_e)$ — with $G$ the one redundancy ($G = \hbar c/m_{\rm Pl}^2$, the "$\times 2$ guard" on the exponent). And the relation carries $\alpha$ to the twenty-fourth power, and $\alpha$ is **identified**, not derived (Section 5; Lecture 8) — so its precision rests on a measured $\alpha$ as well. Two more honesties travel with it: six readings of this same relation appear across the corpus (F66, T201, T1918, T1955, T1301a, the paper) and count as **one** result, not six confirmations; and the Kaluza–Klein route once cited as an independent derivation of $G$ was found **circular** — every path from the substrate scale to $m_{\rm Pl}$ runs through a length $\ell_B$ that had been inverted from the observed $G$, so the chain returns $G = 1.0000000000\,\ell_{\rm Pl}^2$ to ten decimals (K1408, Elie's two-way check). The $0.034\%$ residual in $m_e/m_{\rm Pl}$ (which is the $0.065\%$ in $G$) is an open calculation and is not explained by Wyler's precision.
+
+**What the object does and does not supply for gravity's dynamics.** Could the object carry its own spin-2 dynamics — an Einstein equation native to $D_{IV}^5$? Two theorems say no in the only sense that closes a class (Lane I, certified): every $K$-equivariant antisymmetric bilinear on the relevant carrier contains spin-3, and the one non-equivariant ingredient the program owns — the typed write channel — compresses onto the carrier where dimension forbids spin-3. So the write channel explains *why* there is no native $\ell = 2$ dynamics and supplies none; the door is named (break equivariance or antisymmetry, and say which). The $\ell = 2$ shell is where the gluons live (K1674: the five $\mathfrak{su}(3)/\mathfrak{so}(3)$ coset generators are the quadrupole coset), which is a fact about colour, not gravity. What *is* derived on the gravity side is the **causal order**: the program is a causal set whose order is the commitment order of the commit operator (T2564) — and the once-hoped identification of the object's spectral action with that order sits at an honest floor: two candidate weightings failed blind, "no surviving candidate," not "impossible" (K1674). **The May text's "gravity is statistical thermodynamics of the contact graph" (Haldane exclusion with parameter $\sim 1/137$; the partition function that "should" yield $G$) has no register row and is kept below as what we once wrote; its "$G$ is not independent of $\alpha$" is true in the relation above and for the reason above, not for the May reason.**
+
+### 10.2 Apparatus — kept, labelled as apparatus
+
+- **The arithmetic of the relation:** $m_e/m_{\rm Pl} = 6\pi^5\alpha^{12}$; $G = \hbar c/m_{\rm Pl}^2 = \hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$; with CODATA $\hbar, c, m_e, \alpha$: $6.6786\times10^{-11}$ against $6.6743\times10^{-11}$ m$^3$kg$^{-1}$s$^{-2}$ — $+0.065\%$ (the run of 2026-09-11 is in Lyra's R142 L3 file). The $S_{\rm Bergman} = -\ln(m_e/m_{\rm Pl}) = 51.528$ decomposition in the May text is this same relation with $\alpha$ written as Wyler's prefactor to the 24th power — it is the volume reading of $\alpha$, certified dead in Section 5, wearing $G$'s clothes; the three pieces are arithmetic, the "geometric origin" column is the retired reading.
+- **The exponent identity:** $24 = 4C_2 = 2\times(2C_2)$, the Bergman round trip doubled by $G \propto m_{\rm Pl}^{-2}$ (T1296; Cal Section 585 as a *supporting* identity — an identity that checks, not a mechanism). The May "$n_C + 1 = 2N_c$ is a theorem of the contact geometry" is the shared-integer species Cal Section 946 names — the same identification in other clothes, not a second support.
+- **The circularity check** (K1408): $G = \kappa\,\ell_B^2/\pi^{n_C}$ with $\ell_B$ inverted from $G$ returns $G$ to ten decimals; the KK reduction hands back $V_6/\ell_B^6 = \pi^5/n_C$, the definition of $\ell_B$. Any future "$G$ forward" must show its dimensionful input does not come from $G$.
+- **The positivity fact** (May 10.6, kept): the Bergman metric is positive-definite (Hua), so every embedding cost is non-negative; the table of excluded and permitted GR solutions is a *reading* of that fact plus the commitment order, not a set of rows.
+
+### 10.3 Tier line
+
+- **Theorem about a relation:** $G \leftrightarrow m_e$ at $0.065\%$, $\alpha$ identified inside (T201, K1673); one result read six ways.
+- **Derived:** the causal order (T2564); the $\ell = 2$ wall (Lane I).
+- **Floored, doors named:** native spin-2 dynamics (break equivariance or antisymmetry); the spectral-action ↔ causal-order identification ("no surviving candidate," K1674).
+- **Circular, demoted:** the Kaluza–Klein route to $G$ (K1408).
+- **Retired with this section:** "$G$ derived with zero free parameters"; "the Haldane partition function yields $G$"; the $S_{\rm Bergman}$ pieces as geometric origins; "$n_C + 1 = 2N_c$ as a theorem"; "no gravitons" as a prediction (a May reading with no row and no falsifier).
+- **Not claimed:** $G$ from nothing; an Einstein equation on the object; the hierarchy "dissolved."
+
+*What would make this section wrong:* a $G$–$m_e$ relation off $0.065\%$ once $\alpha$'s running is accounted at the stated scale; a native spin-2 dynamics exhibited without breaking equivariance or antisymmetry, which the theorems say cannot happen — an exhibit would be a discovery about the theorems.
+
+### 10.4 May 2026 record
+
+*Below: the May 2026 text, with the in-place dated corrections of 2026-09-11 already in it (the "zero free parameters" heading of 10.3). Read with 10.1–10.3 in hand: its Boltzmann/Haldane framework has no row; its "$G$ derived" is the relation above; its Wyler-factor decomposition is the dead volume reading; its "no gravitons" and "hierarchy dissolved" are readings, not results.*
+
+#### May 10.1 — Gravity Is Not a Force
 
 In the BST framework, gravity is not mediated by particle exchange. It is the emergent statistical behavior of the contact graph — specifically, the response of the emergent 3D metric to variations in contact density on $D_{IV}^5$.
 
@@ -23,7 +63,7 @@ The key distinction: electromagnetism is a direct interaction between two circui
 
 This parallels the relationship between molecular collisions and temperature. Temperature is not a property of any individual molecule. It emerges from the statistical ensemble. No one would attempt to “quantize temperature” as a particle — there is no “temperaturon.” Similarly, the graviton program in quantum field theory attempts to quantize a statistical quantity as if it were a fundamental interaction. BST predicts this program cannot succeed because gravity is not the kind of thing that admits particle quantization. Gravity is quantized through the discrete contact graph, not through particle exchange.
 
-### 10.2 The Boltzmann Framework on $D_{IV}^5$
+#### May 10.2 — The Boltzmann Framework on $D_{IV}^5$
 
 The partition function for the BST contact graph takes the standard Boltzmann form:
 
@@ -45,7 +85,7 @@ This modified statistics produces three regimes:
 
 **Critical density** (channel saturation): The contact graph undergoes a topological phase transition from the spatial to the pre-spatial phase. This corresponds to the black hole interior, where the emergent 3D metric ceases to be defined. The interior is not a singularity — it is a region of saturated channel capacity where spatial organization cannot be maintained.
 
-### 10.3 Gravitational Constant from the Domain Geometry
+#### May 10.3 — Gravitational Constant from the Domain Geometry
 
 The gravitational constant $G$ should be derivable from the Bergman geometry of $D_{IV}^5$. The Bergman kernel for the type IV domain $D_{IV}^{n_C}$ is:
 
@@ -125,13 +165,13 @@ This is $G$ as a function of $n_C = 5$, $\pi$, and $m_e$. The Wyler prefactor $(
 
 **HC derivation complete (March 2026).** The Wyler constant $9/(8\pi^4)$ equals $\rho_2^2/(2\pi^{2q})$ with $\rho_2 = (n_C-q)/2$, $q=2$. This is the $S^1$-winding spectral weight of the principal series of $\mathrm{SO}_0(n_C,q)$. No free parameters remain in the formula for $G$. Code: `notes/bst_bergman_action.py` Section 8.
 
-### 10.4 No Gravitons
+#### May 10.4 — No Gravitons
 
 BST makes a specific prediction regarding graviton detection: individual graviton quanta do not exist as particles in the QFT sense. Gravitational waves exist — they are propagating perturbations of contact density that travel at $c$, carry energy, and have spin-2 character. LIGO has detected them. But these are waves in the substrate, not streams of particles.
 
 The distinction is experimentally relevant. Several proposals exist to detect individual gravitons. BST predicts these experiments will detect gravitational wave effects but never isolate individual graviton quanta, because gravity is a collective statistical property of the contact graph rather than a propagating degree of freedom on it.
 
-### 10.5 The Hierarchy Problem Dissolved
+#### May 10.5 — The Hierarchy Problem Dissolved
 
 The hierarchy problem — why gravity is $\sim 10^{38}$ times weaker than electromagnetism — has no satisfying explanation in the Standard Model. In BST, the explanation is structural:
 
@@ -140,7 +180,7 @@ The hierarchy problem — why gravity is $\sim 10^{38}$ times weaker than electr
 
 Gravity is weak because it is a statistical average. Statistical averages are always weaker than the microscopic interactions they average over, by a factor determined by the system size. The specific weakness of gravity — the ratio $m_p / m_P \sim 10^{-19}$ — is determined by the number of RG e-foldings between the GUT scale and the hadronic scale, which in turn is determined by $\alpha$, $N_c = 3$, and the number of quark flavors. All BST-determined quantities.
 
-### 10.6 Positive Energy Is Dictated by the Metric
+#### May 10.6 — Positive Energy Is Dictated by the Metric
 
 The exclusion of negative mass in BST is not a postulate or an empirical observation — it is a theorem of the geometry. The Bergman metric on $D_{IV}^5$ is positive definite: every distance, every embedding cost, every eigenvalue of the metric tensor is strictly non-negative. This is a standard result of bounded symmetric domain theory (Hua 1958), as direct as the positive definiteness of Euclidean distance. Asking whether negative mass exists on the Koons substrate is like asking whether a distance can be negative in Euclidean geometry — the metric prohibits it by definition.
 
@@ -215,18 +255,51 @@ The entire hadronic sector — pion mass, string tension, glueball mass, nuclear
 
 -----
 
-## Section 12: Vacuum Energy as Thermodynamic Pressure
+## Section 12: Λ — a Closed Form With One Free Power
 
-> **⚠ CURATION BANNER (Keeper, 2026-08-26): Λ's VALUE IS NOT DERIVED — any "Λ derived" phrasing in
-> this chapter is SUPERSEDED.** The banked state: the magnitude's earlier "over-determination" was
-> retracted (a productive walk-back set the STRUCTURAL floor); the sign is forced (T2546). **The
-> 2026-08-26 advance: the thermostatic boundary–continuum balance CLOSES AS A STRUCTURE —
-> Λ/Λ_P = (t_K/t_P)^(2p/(2−p)), capped CONDITIONAL (K1057), p's domain (0,2) with outside-the-domain
-> FALSIFYING the form — one named obstacle (the mismatch power p), no number evaluated, the
-> 280-quarantine standing.** Current record: the Lane-Λ shot record + Lyra's thermostat paper + the
-> state-of-the-program page.
+*Rewritten 2026-09-14 (Lyra, Round 147 L1; Keeper audit pending) as a pointer into the Spine plus the referee apparatus; the Keeper curation banner of 2026-08-26 that stood here is folded into 12.1. The May 2026 text is kept below as the record. Facts are from the register (T2546, T2571, T1485 with its 2026-09-09 ruling, Lane Λ's landing (b) of 2026-08-26, K1057, K1408) and Spine Lecture 9 — not from the May text. Last accuracy-synced: 2026-09-14 / K1899.*
 
-### 12.1 The Cosmological Constant Is Not Constant
+### 12.0 The question
+
+The cosmological constant is $10^{120}$ times smaller than a naive vacuum-energy estimate, and any theory of this kind is asked about it. What does the object say about $\Lambda$'s sign, its size, and its fluctuations — and where exactly does the program stop?
+
+Lecture 9 carries the answer in four sentences; this section is the pointer and the apparatus.
+
+### 12.1 Where it stands
+
+**Sign and fluctuations: derived.** Because a committed record is an idempotent and matter is fermionic (T2543), the commitment count is Fermi–Dirac, not Poisson: its Fano factor is below one, and the Pauli-suppressed fluctuations of $\Lambda$ are **smaller than Sorkin's everpresent-$\Lambda$ prediction** — a falsifier that can be run now (T2546). Composing the area-law coefficient onto the forced exponent, the program's $\Lambda$ is **Pauli-frozen**: $\delta\Lambda_{\rm BST} \sim 10^{-149}$ against a magnitude of order $10^{-121.6}$ (T2571, Lane C, 2026-08-21) — $\Lambda$ does not fluctuate and does not drift. **That sentence retires the May text's "the cosmological constant is not constant" and "vacuum pressure varies with local matter density" (12.1–12.4 below), which have no register row and now contradict a registered one.**
+
+**Magnitude: a closed structural form with one named obstacle, and no number.** The August advance improved $\Lambda$'s row from "a structural floor" to a **closed form**: a thermostatic balance between boundary and continuum, a fixed point in which the Koons tick $t_K$ (Lecture 4) is load-bearing,
+
+$$\frac{\Lambda}{\Lambda_P} \;=\; \left(\frac{t_K}{t_P}\right)^{\!2p/(2-p)},$$
+
+with $t_P$ the Planck time and $p$ a *mismatch power* — the $5\to 4$ reduction of the residual (Lane Λ, landing (b), certified 2026-08-26; Lyra's thermostat paper; Elie's shot record). The balance exists; both controls pass, one of them (T2571) reproduced *un-fed*, which is what made the control meaningful; the response coefficient enters from the equation's own structure (a legitimate $a_1$/F63 import), and a "curvature quantum" an earlier version needed was shown unnecessary and left unbanked. **The one free thing is $p$.** Its domain is $(0,2)$; the geometry has not fixed it; until it does **no evaluation of $\Lambda$ exists and none is claimed** — the form is capped CONDITIONAL at every site it is quoted (K1057's lineage), the "280-quarantine" on the value stands and is forward-transferred (whoever forces $p$ computes the number blind), and a forced $p$ outside $(0,2)$ falsifies the form. **The May text's closed form $\Lambda = (\ln 138/50)\,\alpha^{56}e^{-2}$ "to 0.025 % with no free parameters" (T1485) is the record of the earlier over-determination that was retracted; and its refinement through the factor $6/5$ was ruled on 2026-09-09: the factor's stated mechanism is the unit ball's kernel-exponent ratio, not this domain's ($D_{IV}^n$'s Bergman/Szegő ratio is 2 at every $n$), so T1918 is re-tiered identified and every row inheriting the factor — T1485's $\Lambda$ refinement, the $H_0$ closure at 0.12 %, T1924's anchor — is numerically unchanged and now mechanism-less: target-fitted, not target-innocent (Cal Section 934; Grace, register 11:41).** The $\alpha^{56}$ of the May form is an exponent identification of the K1813 class, and its "genus" is the retired 7.
+
+**Expansion, $H_0$, and the Friedmann identification: record, not rows.** The May text's Hubble-tension "resolution" (both measurements right, a directional local $H_0$ tracking commitment density), its $H_0 = 67.29$ (Toy 677) and $68.02$ (Toy 903), and its Friedmann equation from committed-contact growth (12.6–12.7) are kept below as what we once wrote. None is a register row at a tier this Guide may quote: the $H_0$ closure inherits the mechanism-less $6/5$ (above); the directional-$H_0$ prediction has no row and no pre-registration; and the Friedmann section carries an internal collision a reader should know before checking it — it sets $\Omega_\Lambda = F_{\rm BST} = 0.0986$ in one place and uses $\Omega_\Lambda = 13/19 = 0.684$ in another. What the program *does* carry on expansion is the derived causal order (T2564) and the positive-time ontology (Lecture 4); the arrow is dynamical, and no "cosmological cycle" clause is registered beyond T633's posited reset.
+
+### 12.2 Apparatus — kept, labelled as apparatus
+
+- **The thermostat form** and its two controls: the balance equation, the un-fed reproduction of T2571's $10^{-149}$, and the shot record with the exponent $2p/(2-p)$ left unforced — `notes/BST_paper_The_Thermostat_Closes_as_Structure_*_2026-08-26.md`, `notes/Elie_LANE_LAMBDA_SHOT_RECORD_*_2026-08-26.md`, the pre-registration with the 280-quarantine. The pincer a referee can run: pick any $p \in (0,2)$, compute, compare — and see that the *value* was never fixed by the form.
+- **The Fano-factor arithmetic** (T2546): $\mathrm{Fano} = 1 - \sum\langle N_i\rangle^2/\sum\langle N_i\rangle$, $\approx 0.73$ degenerate $\to 1$ dilute; the everpresent-$\Lambda$ comparison it falsifies against is named in the row.
+- **The May closed form as arithmetic:** $(\ln 138/50)\,\alpha^{56}e^{-2} = 2.8993\times10^{-122}$ in Planck units against the observed $2.90\times10^{-122}$ — a match of the K1813 class (an integer exponent and a shape's small integers landing on a target), kept so nobody re-derives it as new.
+- **The $6/5$ ruling's instrument** (Cal Section 934, Elie 5746): with the true genus the same construction gives $-30.6\%$, $-16.8\%$ or $+66.5\%$; only at the registered value does it give $0.11\%$.
+
+### 12.3 Tier line
+
+- **Derived:** $\Lambda > 0$ and its Pauli-suppressed fluctuations (T2546); $\Lambda$ Pauli-frozen at $10^{-149}$ against $10^{-121.6}$ (T2571); the causal order (T2564).
+- **Closed structural form, one named obstacle:** $\Lambda/\Lambda_P = (t_K/t_P)^{2p/(2-p)}$, $p \in (0,2)$ free; conditional at every site (K1057); no value claimed.
+- **Identified:** the May $\alpha^{56}$ form's match; the $6/5$ refinement and everything that inherits it ($\Lambda$ refinement, $H_0$ at 0.12 %, T1924).
+- **Retired with this section:** "$\Lambda$ derived to 0.025 % with no free parameters"; "$\Lambda$ is not constant / varies with local density" (contradicts T2571); the Hubble-tension resolution and directional $H_0$ as predictions; $\Omega_\Lambda = F_{\rm BST}$ (collides with $13/19$ in the same text).
+- **Live falsifiers:** a forced $p$ outside $(0,2)$; everpresent-$\Lambda$ fluctuations at Sorkin's Poisson level (T2546).
+- **Not claimed:** $\Lambda$'s value; the Hubble constant; a mechanism for $p$.
+
+*What would make this section wrong:* a forced $p$ outside $(0,2)$; $\Lambda$-fluctuations measured at the Poisson level; a $\Lambda$ that drifts.
+
+### 12.4 May 2026 record
+
+*Below: the May 2026 text, unedited on 2026-09-14 (the 2026-08-26 banner that stood above it is now 12.1's second paragraph). Read with 12.1–12.3 in hand: its "not constant" is contradicted by T2571; its closed form and its $H_0$ are identifications after the 2026-09-09 ruling; its Friedmann section collides with itself on $\Omega_\Lambda$; its neutrino–$\Lambda$ "genus" is the retired 7.*
+
+#### May 12.1 — The Cosmological Constant Is Not Constant
 
 The standard cosmological constant $\Lambda$ is treated as a uniform property of spacetime — the same everywhere, unchanging. BST contradicts this directly.
 
@@ -234,7 +307,7 @@ If the 3D expression of reality is a statistical macrostate computed from the pa
 
 The vacuum energy is not a cosmological constant. It is vacuum pressure — a local, thermodynamic, state-dependent quantity.
 
-### 12.2 Spatial Variation of Vacuum Pressure
+#### May 12.2 — Spatial Variation of Vacuum Pressure
 
 BST predicts that the vacuum energy density correlates with local matter density:
 
@@ -244,7 +317,7 @@ BST predicts that the vacuum energy density correlates with local matter density
 
 The global average over all regions gives the observed mean acceleration of cosmic expansion. Local variations produce measurable deviations.
 
-### 12.3 Resolution of the Hubble Tension
+#### May 12.3 — Resolution of the Hubble Tension
 
 The Hubble tension — the $\sim 8\%$ disagreement between the locally measured expansion rate ($H_0 \approx 73$ km/s/Mpc from supernovae) and the globally inferred rate ($H_0 \approx 67.4$ km/s/Mpc from CMB) — has been a major open problem since $\sim 2014$.
 
@@ -260,13 +333,13 @@ The local measurement (SH0ES, z < 0.15) looks **through the highly committed mat
 2. **Cleanest test:** Measure $H_0$ through voids vs. through filaments. BST predicts a directional dependence of the local Hubble rate that tracks commitment density. $\Lambda$CDM with particle dark matter predicts no such directional dependence. Testable with DESI/Rubin environment-selected SN Ia samples.
 3. The residual correlation magnitude gives the thermodynamic susceptibility $\partial \Lambda / \partial \rho_{\text{matter}}$, computable from the $D_{IV}^5$ partition function.
 
-### 12.4 Resolution of the Coincidence Problem
+#### May 12.4 — Resolution of the Coincidence Problem
 
 Standard cosmology has no explanation for why the dark energy density ($\sim 68%$ of critical density) and matter density ($\sim 32%$) are comparable at the present epoch. In a universe with truly constant $\Lambda$, this coincidence requires fine-tuning of initial conditions.
 
 BST dissolves this problem. If vacuum pressure is thermodynamically coupled to matter density, the two track each other. When matter density is high (early universe), vacuum pressure is high. As matter dilutes with expansion, vacuum pressure adjusts. They remain in rough thermodynamic equilibrium because they are both determined by the same substrate state. The “coincidence” is simply thermodynamic equilibrium, no more mysterious than the pressure of a gas tracking its density.
 
-### 12.5 Resolution of the Cosmological Constant Problem
+#### May 12.5 — Resolution of the Cosmological Constant Problem
 
 The “worst prediction in physics” — the 120-order-of-magnitude discrepancy between the QFT vacuum energy calculation and the observed value — arises from summing zero-point energies of all quantum field modes. This sum diverges quartically.
 
@@ -298,7 +371,7 @@ The cosmological constant is small because $\alpha \approx 1/137$ appears to the
 
 Full derivation and verification: `notes/BST_Lambda_Derivation.md`.
 
-### 12.6 Hubble Expansion as Committed Contact Graph Growth
+#### May 12.6 — Hubble Expansion as Committed Contact Graph Growth
 
 The qualitative picture of Section 12.2 — vacuum pressure coupled to contact density — has a precise quantitative form when applied to cosmic expansion.
 
@@ -351,9 +424,9 @@ The observed ratio $73/67.4 \approx 1.09$ requires $\delta_c \approx 0.19$. This
 
 The dark matter term requires no dark matter particles. It is the uncommitted channel reservoir — channels not yet permanently linked — draining into committed contacts as the universe evolves. The $(1+z)^3$ scaling is not imposed; it follows from the volume density of channel pairs on $\Sigma$ (Section 12.7). $\Lambda$CDM is the correct effective phenomenology of BST: it fits the contact commitment rate equation with good empirical parameters, but without knowing what those parameters mean. The full derivation is in Section 12.7.
 
-### 12.7 The Friedmann Equation from First Principles: Full Derivation
+#### May 12.7 — The Friedmann Equation from First Principles: Full Derivation
 
-#### 12.7.1 Setup and Definitions
+##### May 12.7.1 — Setup and Definitions
 
 Let $\Sigma$ denote the Shilov boundary of $D_{IV}^5$, the physical substrate. Define:
 
@@ -373,7 +446,7 @@ $$\boxed{H(t) \;=\; \frac{\dot{a}}{a} \;=\; \frac{1}{2}\frac{\dot{N}_c}{N_c}}$$
 
 The expansion rate is half the fractional rate at which new channel contacts are committed.
 
-#### 12.7.2 The Three Commitment Regimes
+##### May 12.7.2 — The Three Commitment Regimes
 
 The rate of new commitments $\dot{N}_c$ depends on two factors: the number of uncommitted pairs available, and the energy density driving commitment at that epoch. Three physically distinct regimes are present:
 
@@ -392,7 +465,7 @@ This is the key step. The $(1+z)^3$ exponent — identical to that of cold dark 
 **Regime 3 — Vacuum ($T \to 0$, today):**
 At zero temperature, thermally-driven commitments cease. The committed fraction saturates at $F_{\mathrm{BST}} = 0.09855$ (exact from the partition function). The residual commitment rate from quantum fluctuations is small and constant, driving the $\Lambda$-dominated floor. The vacuum energy density $\rho_\Lambda = F_{\mathrm{BST}} \times (d_0/\ell_{\mathrm{Pl}})^4 \times \rho_{\mathrm{Pl}}$ is constant by definition: it is the zero-temperature free energy of the substrate.
 
-#### 12.7.3 Recovery of the Friedmann Equation
+##### May 12.7.3 — Recovery of the Friedmann Equation
 
 Combining all three regimes, the total fractional commitment rate at redshift $z$ is:
 
@@ -404,7 +477,7 @@ $$H^2(z) \;=\; H_0^2\left[\Omega_r(1+z)^4 \;+\; \Omega_b(1+z)^3 \;+\; \Omega_u(1
 
 This is the standard flat Friedmann equation with $\Omega_u$ playing the role of $\Omega_{\mathrm{DM}}$. No dark matter particles appear. The matter term in the Friedmann equation is the uncommitted channel reservoir.
 
-#### 12.7.4 Identification of the Dark Matter Term
+##### May 12.7.4 — Identification of the Dark Matter Term
 
 In $\Lambda$CDM, the dark matter density parameter $\Omega_{\mathrm{DM}} \approx 0.264$ is fit from observations and left unexplained. In BST:
 
@@ -418,7 +491,7 @@ This identification explains immediately why dark matter:
 - Has never been detected as a particle (there is no particle; there is only an uncommitted reservoir)
 - Has the same $(1+z)^3$ scaling as baryons (both scale as volume density on $\Sigma$)
 
-#### 12.7.5 Why $\Lambda$CDM Is the Correct Effective Theory
+##### May 12.7.5 — Why $\Lambda$CDM Is the Correct Effective Theory
 
 $\Lambda$CDM works because it correctly fits the contact commitment rate equation to cosmological data. Its four parameters ($H_0$, $\Omega_b$, $\Omega_{\mathrm{DM}}$, $\Omega_\Lambda$) are real physical quantities in BST — they are not wrong, they are incomplete. What $\Lambda$CDM lacks is the interpretation: $\Omega_{\mathrm{DM}}$ is the uncommitted reservoir, $\Omega_\Lambda$ is $F_{\mathrm{BST}}$, and $H_0$ is the current fractional commitment rate.
 
@@ -434,7 +507,7 @@ $\Lambda$CDM fails precisely where this interpretation matters:
 
 The last row is a distinctive prediction: at $z > 2$, when significant commitment was still occurring, the uncommitted fraction $N_u/N_{\mathrm{total}}$ was larger than its present value, and the effective $\Omega_u(z) > \Omega_u(0)$. BST $H(z)$ should be systematically higher than $\Lambda$CDM at $z > 2$, detectable in 21cm hydrogen surveys and high-redshift CMB lensing.
 
-#### 12.7.6 The Single Remaining Unknown
+##### May 12.7.6 — The Single Remaining Unknown
 
 Every quantity in the Friedmann equation is now either:
 - **Known exactly**: $F_{\mathrm{BST}} = 0.09855$, $T_{\mathrm{CMB}} = 2.725$ K, $\Omega_r h^2 = 4.18 \times 10^{-5}$
