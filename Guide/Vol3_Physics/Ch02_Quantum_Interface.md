@@ -11,9 +11,52 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Section 13: The Quantum-Classical Interface
+## Section 13: The Quantum–Classical Interface — Lecture 3's Words
 
-### 13.1 The Substrate Is Quantum, the Projection Is Classical
+*Rewritten 2026-09-14 (Lyra, Round 148 L1; Keeper audit pending) as a pointer into the Spine plus the referee apparatus. The May 2026 text — the fiber picture $L^2(S^1)$, $\hbar = 2mD$, and the Spring-2026 Bergman Dirac progression — is kept below as the record. Facts are from the register (T2631 with its 09-13 annotation, T2625, T2626, T2630, T754, T753 as repaired, T2543, T2545, T2401/K1888, T2334 as pinned, T2339–T2379 as mathematics, K53) and Spine Lectures 3 and 4, plus the record↔particle row of R144 (Theorems A and B) — not from the May text. Last accuracy-synced: 2026-09-14 / K1900.*
+
+### 13.0 The question
+
+Where do the rules of quantum mechanics come from, and what is the object they are rules *about*?
+
+Lecture 3 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_03_Quantum_Mechanics.md`) answers the first half at the tier of each rule; Lecture 4 answers the second half's time part. This section is the pointer and the apparatus, and its first job is to say which Hilbert space the program means — because the May text below means a different one.
+
+### 13.1 Where it stands
+
+**The space is $H^2(D_{IV}^5)$, not $L^2(S^1)$.** The register's physical state space is the Hardy space of the Lie ball — holomorphic functions on the domain with square-integrable boundary values on the Šilov boundary $\check S = (S^1\times S^4)/\mathbb{Z}_2$ — on which $G = \mathrm{SO}_0(5,2)$ acts by the scalar unitary highest-weight representation at the Hardy point $\nu = 5/2$ (T2625 (i); T2631 item 1; the W1 resolution of 2026-08-22). The May text's "$\mathcal H = L^2(S^1)$, forced by the fiber" is the 2022 substrate picture, and here is exactly what survives of it: as a $K$-module, $H^2(D_{IV}^5) \cong \mathrm{Rac}\otimes C$, where $C = \bigoplus_{j\geq 0}\chi_{1+2j}$ is the *odd-charge Hardy space of the time circle* — the clock — and the Rac is the scalar singleton (R144 L2, Theorem B; Cal Section 960, word given). So the fiber's Fourier modes $e^{in\theta}$ are the clock factor of a record, with two corrections the May text cannot make: only positive, odd charges occur (the negative windings of $L^2(S^1)$ are not in the physical space — it is *Hardy*, not $L^2$), and every clock reading is carried by a Rac — a record is a particle-like constituent times a clock reading, not a bare phase. And no $G$-equivariant map relates $H^2$ to the singleton composites of the fermion-sector papers (Theorem A): the fiber picture is frame-relative, exact for an observer at a point and for nobody else.
+
+**Ten rules at the register's words.** The scorecard is Lecture 3's table and, since 2026-09-11, a registered row — T2631, ten items each carrying its tier and its dependencies, with the 09-13 annotation that the time generator is $J$ (below). Derived on $H^2$: the state space; observables as self-adjoint operators; unitary evolution; the Born rule (T754 — Gleason's theorem on the unique automorphism-invariant measure, with the May decoration "dimension $\geq 3$ because $N_c = 3$" removed: Gleason's hypothesis is met by any Hardy space); the arrow; composites for distinguishable subsystems; **measurement as commitment** — a write to the boundary whose odds are Born and whose *single outcome is a boundary datum* (rows 8 and 10; T2543's idempotent record, $e\circ e = e$, is why matter is fermionic and why a record reads the same twice). The May text's Section 13.4 — committed correlations, the double slit, the eraser, "consciousness has the same role as a rock" — is that ontology in prose, right in shape and now with rows under it; what it may not say is that quantum randomness is explained away. Structure-derived: the $(3,1)$ signature (T2545, re-grounded 09-11). Proved with the mechanism named honestly: uncertainty — Robertson–Schrödinger on $H^2$ with $[x,p] = i\hbar$, an external theorem on any Hilbert space; T753's cited curvature was decoration and is repaired (Cal Section 960), and the May text's "uncertainty is the Fourier conjugacy $[\hat\theta,\hat n] = i$" is the same universal fact, correctly stated and not distinctive. Superseded for this step, not refuted: T2401's "Born = Bergman projection" (K1888). Open: the $\alpha$-hole.
+
+**Time's generator is linear, and it is not the Laplacian on the fiber.** The May text's Section 13.7 derives unitary evolution as diffusion on $S^1$ Wick-rotated — $\partial_\tau P = D\,\partial_\theta^2 P \to i\hbar\,\partial_t\psi = H\psi$ with $H \propto \hat n^2$ — and Section 13.8 reads $\hbar = 2mD$ as "a substrate diffusion coefficient." Two of its three sentences are the register's, one is not. The two Wick faces of one generator — the contractive real-time face and the unitary imaginary-time face — are **derived** (Lecture 4; a standard theorem for any bounded-below generator, and the program's content is that the generator is forced). But the generator is **$J$, the $\mathrm{SO}(2)$-centre weight — linear in the weight — not a quadratic operator like $\hat n^2$ or a Casimir**: the ruling is Cal Sections 953–954 and it is annotated into T2631's items 2–3 (a Casimir is central and labels representations; it cannot generate a flow that moves anything; the discriminator is the dictionary's energy = weight assignment). So the May Hamiltonian $H = \hbar D\,\hat n^2$ is the retired species. And "$\hbar$ is a diffusion coefficient" has no register row: the only bridge the corpus owns from the geometry to $\hbar$ is Berezin's $\nu \leftrightarrow 1/\hbar$, a convention inside a theorem (R137 L2), and the program's clock unit is T1136's tick, a definition. The May "$\hbar = 2m_0\ell_0$ is universal" is a reading of the 2022 contact picture with no row.
+
+**The Bergman Dirac progression (May 13.9) is mathematics that stands, with three sentences that carry the retired genus.** The operator rows are real and unmoved as mathematics: the Clifford algebra and the explicit $32\times 32$ $\gamma$-matrices at the origin (T2349, T2365), the algebraic heat-kernel trace $32\,e^{-10t}$ and $\mathrm{Tr}(D^{2k}) = 32\cdot 10^k$ (T2372, T2376, T2378), the Möbius $\mathbb{Z}/2$ and its Borel–Wallach lift (T2329, T2335), the Chern sequence of $Q^5$ (T2379), and the level-(3) Seeley–DeWitt cascade $a_k/a_{k-1} = -k(k-1)/10$ verified through $k = 24$ (K53, D-tier structural law with its stated scope). What the May text attaches to them does not all stand. (i) *"$K_B(z,w) = c\,D(z,w)^{-g/\mathrm{rank}}$ with $g/\mathrm{rank} = 7/2$"* — the Bergman kernel exponent of $D_{IV}^5$ is the genus, $p = 5$, not $7/2$; T2334 carries the genus pin (Grace, 2026-09-09, on the Xiao–Yuan pin) and Elie's toy 5752 measures $5.0003 \pm 0.0006$; the $7/2$ is the Pochhammer parameter $\nu - a/2$ at the Bergman point, not the kernel's power. (ii) *"$R = -n_C\cdot g = -35$ is the Bergman scalar curvature"* and the Lichnerowicz shift $75/4$ that inherits it — both carry the integer $7$ where the Bergman normalisation is set by the genus $5$ (the holomorphic sectional curvature is pinched in $[-2/5, -1/5]$, toy 5754); **flagged for the genus sweep, not ruled here** — the arithmetic identities among the rows are what they are, their labels "scalar curvature of $D_{IV}^5$" and "curvature/geometric coupling" need the sweep's word. (iii) *"$c_5 = C_2 = 6$, the top Chern is the Casimir"* — $c_5 = 3$ as the coefficient of $h^5$; its integral over the degree-two quadric is the Euler number $6$ (Section 6.2 of Vol 2 Ch 02). The two "eigentones" ($10$ and $75/4$) as "testable spectral-engineering resonances" are SP-29 programme readings with no falsifier row; the index candidates $\{13, 15\}$ are an open computation, stated as one.
+
+### 13.2 Apparatus — kept, labelled as apparatus
+
+- **The exact survival of the fiber picture:** the $K$-type match behind Theorem B — $H^2$'s $K$-types are $(z\!\cdot\! z)^j H_k$ at charge $5/2 + 2j + k$; the Rac's are $H_k$ at $3/2 + k$ (one $K$-type per level, the Pochhammer $(\nu - 3/2)_j$ vanishing at the Wallach floor); term by term $H_k\otimes\chi_{5/2+2j+k} = (H_k\otimes\chi_{3/2+k})\otimes\chi_{1+2j}$ (R144 L2; Cal Section 960 checked it). One turn of the circle is $-1$ on every state of $H^2$ — the sign is the Rac's, the clock's charge is an integer.
+- **Gleason on the right space:** $H^2(D_{IV}^5)$ is infinite-dimensional; the invariant measure is the Bergman (Faraut–Korányi) measure; the density operator is what Gleason returns (T754). The May "Gleason on $L^2(S^1)$" is the same theorem on the retired space.
+- **The write tuple** (T2630): $W_u = M_{z_u}$ on $H^2(\check S)$, $\sum_u W_u^*W_u = I$ — a spherical (column) isometry, its Born weights the Hua branching $(k+3)/(2k+3)$, $k/(2k+3)$, with Cal Section 935's two-sense tautology carried: the identity is tautological of $|z|^2 = 1$; the weights are a naming of the R134 norms.
+- **The operator-trace table of May 13.9** (levels (1)–(3)) as mathematics, with the three $g = 7$ sites marked as above; K53's cascade formula and its $k \leq 24$ scope.
+- **The two-face theorem** (Lecture 4): $\exp(-zJ)$ holomorphic on $\mathrm{Re}\,z \geq 0$; the real face the tick, the imaginary face the unitary evolution — the May Wick rotation, on the right generator.
+
+### 13.3 Tier line
+
+- **Derived, on $H^2(D_{IV}^5)$:** the state space; observables; unitary evolution and the arrow (generator $J$, Lecture 4); the Born rule (T754); composites (distinguishable); measurement as commitment — process and odds (rows 8, 10; T2630/T2631); the $K$-module factorisation $H^2 \cong \mathrm{Rac}\otimes\text{clock}$ (R144 L2, Theorem B) and the absence of any $G$-map to the singleton composites (Theorem A).
+- **Structure-derived:** the $(3,1)$ signature (T2545).
+- **Proved (external theorem on $H^2$):** uncertainty; the curvature reading identified (T753 as repaired).
+- **Identified:** particles as the Rac factor of records (the F588 class); Berezin's $\nu \leftrightarrow 1/\hbar$ as the only $\hbar$-bridge.
+- **Superseded for this step, not refuted:** T2401 (K1888). **Open:** the $\alpha$-hole; the index candidates $\{13, 15\}$.
+- **Mathematics that stands, labels pending the genus sweep:** T2339–T2379's operator rows; the $R = -35$ and $75/4$ labels; K53's cascade.
+- **Retired with this section:** $\mathcal H = L^2(S^1)$ as the physical space; $H \propto \hat n^2$ as the time generator; "$\hbar = 2mD$, a diffusion coefficient" and "$\hbar = 2m_0\ell_0$"; the Bergman exponent $7/2$; "$c_5 = 6$"; the eigentones as testable resonances; "uncertainty is distinctive."
+- **Not claimed:** the single outcome; that measurement is "solved"; that CPT is distinctive; that quantum randomness is explained away.
+
+*What would make this section wrong:* a persistent record whose occupation is not idempotent (row 10); a state of the physical space outside $H^2$'s odd-charge clock sector — a negative winding, or an even charge, observed as a record; the Born weights of a write measured as other than the Hua branching.
+
+### 13.4 May 2026 record
+
+*Below: the May 2026 text, unedited on 2026-09-14. Read with 13.1–13.3 in hand: its Hilbert space is $L^2(S^1)$ where the register's is $H^2(D_{IV}^5)$ — and Theorem B says exactly how the fiber picture survives inside the right space; its Hamiltonian is quadratic where the ruled generator is linear; its $\hbar$ has no row; its Section 13.9 is standing mathematics wearing three retired-genus labels.*
+
+#### May 13.1 — The Substrate Is Quantum, the Projection Is Classical
 
 BST provides a clean ontological separation between quantum and classical physics:
 
@@ -25,7 +68,7 @@ Standard quantum mechanics is what results from describing substrate behavior in
 
 The mathematics of both descriptions resembles each other because both describe the same underlying contact graph at different commitment depths. Conservation laws, symmetry principles, and variational structure appear in both because they are properties of the contact graph that survive at every scale.
 
-### 13.2 Quantum Effects as Substrate Bleed-Through
+#### May 13.2 — Quantum Effects as Substrate Bleed-Through
 
 Every observed quantum “weirdness” in the macroscopic world corresponds to substrate behavior penetrating through thin spots in the decoherence gradient:
 
@@ -34,13 +77,13 @@ Every observed quantum “weirdness” in the macroscopic world corresponds to s
 - **Entanglement at distance:** Two particles maintain correlated uncommitted contacts through a substrate connection that the 3D projection cannot represent spatially. They appear separated in 3D but remain connected on the contact graph.
 - **Quantum computing:** The engineering challenge of maintaining a small patch of uncommitted contacts (substrate-level coherence) in an environment of committed contacts (classical surroundings) that constantly pulls toward decoherence.
 
-### 13.3 The Born Rule as Geometry
+#### May 13.3 — The Born Rule as Geometry
 
 The Born rule — probability equals amplitude squared — follows from the geometry of the configuration space. The amplitude is a phase on $S^1$. The probability is the area measure on the configuration space of the contact graph. Area goes as the square of linear measure. The Born rule is the Pythagorean theorem applied to the substrate configuration space.
 
 The Born rule is proved rigorously in Section 13.6 from Gleason's theorem on $L^2(S^1)$. The deeper conjecture stated here is distinct and stronger: **Conjecture:** The Born rule equals the Boltzmann weight on $D_{IV}^5$ with the Bergman measure. If proven, this would unify quantum probability with statistical mechanical probability at the foundational level — they are the same thing, computing expectation values over substrate microstates. (Thesis topic 21.)
 
-### 13.4 The Measurement Problem Dissolved
+#### May 13.4 — The Measurement Problem Dissolved
 
 The substrate stores **committed correlations**, not particle properties. A commitment is an irreversible correlation between two physical degrees of freedom, written to the substrate. Once committed, a correlation constrains all future evolution. A correlation that has not been committed is not information — it is potential, capacity that has not been allocated. Quantum superposition is the physical manifestation of uncommitted capacity.
 
@@ -56,7 +99,7 @@ The substrate stores **committed correlations**, not particle properties. A comm
 
 No collapse postulate is required. No observer. No consciousness. No many worlds. The substrate writes committed correlations. Everything else is uncommitted capacity. Full treatment: `notes/BST_DoubleSlit_Commitment.md`.
 
-### 13.5 Hilbert Space from the Fiber
+#### May 13.5 — Hilbert Space from the Fiber
 
 The BST derivation of quantum mechanics begins with the observation that circuit states are naturally functions on $S^1$. A circuit accumulates phase $\theta_f \in S^1$ as it propagates through the fiber. The space of all possible circuit states is therefore the space of square-integrable functions on $S^1$:
 
@@ -82,7 +125,7 @@ $$[\hat{\theta}, \hat{n}] = i$$
 
 This is not imposed — it is the canonical commutation relation of a conjugate pair on a circle, a standard result of Fourier analysis. Heisenberg's uncertainty principle $\Delta\theta \cdot \Delta n \geq 1/2$ is the statement that phase and winding number cannot both be sharp simultaneously, which is the mathematical content of the uncertainty principle with the $S^1$ fiber providing the geometry.
 
-### 13.6 The Born Rule from Gleason's Theorem
+#### May 13.6 — The Born Rule from Gleason's Theorem
 
 Given the Hilbert space $L^2(S^1)$, the Born rule follows from Gleason's theorem (1957): on any Hilbert space of dimension $\geq 3$, the unique consistent probability assignment to projection operators is $p = |\langle \psi | \phi \rangle|^2$. The Gleason dimension requirement ($\geq 3$) is essential — the theorem fails for 2-dimensional Hilbert spaces, where the Kochen-Specker argument breaks down. The Hilbert space here is $L^2(S^1)$, which is countably infinite-dimensional (spanned by the orthonormal Fourier basis $\{e^{in\theta}\}_{n\in\mathbb{Z}}$), so Gleason's theorem applies without additional assumptions and the Born rule is uniquely forced.
 
@@ -90,7 +133,7 @@ The Born rule is therefore not an independent postulate of BST. It is the unique
 
 **Conjecture:** The Bergman measure on $D_{IV}^5$ provides the natural measure on the configuration space that reduces on the fiber $S^1$ to the $L^2$ measure, unifying quantum probability and statistical mechanical probability as the same object — expectation values over substrate microstates.
 
-### 13.7 Unitary Evolution as Thermodynamic Diffusion on $S^1$
+#### May 13.7 — Unitary Evolution as Thermodynamic Diffusion on $S^1$
 
 Between contact commitment events, the substrate evolves by continuous phase accumulation. Many small discrete phase steps at the substrate scale average, by the central limit theorem, to a diffusion process. The governing equation for the probability distribution $P(\theta, \tau)$ over fiber phases at substrate time $\tau$ is:
 
@@ -114,7 +157,7 @@ with $\hbar = 2mD$. The Hamiltonian is the square of the winding number operator
 
 **The Wick rotation** is not a mathematical trick here — it reflects the signature difference between the Euclidean substrate (circles, positive definite metric) and the emergent Minkowski spacetime (indefinite metric). The substrate evolves in Euclidean time; the projection acquires Minkowski signature. The rotation between them is forced by the geometry.
 
-### 13.8 Planck's Constant as a Substrate Diffusion Coefficient
+#### May 13.8 — Planck's Constant as a Substrate Diffusion Coefficient
 
 The derivation above identifies:
 
@@ -167,7 +210,7 @@ Quantum mechanics is what the BST substrate looks like when described in the lan
 
 **Remark 13.1** (No wave function). BST never uses the term "wave function." The object that quantum mechanics calls $\psi$ does not appear at the substrate level — it is an operational tool for computing measurement predictions from the Planck-layer geometry. QM is not wrong; it is an extraordinarily successful operational formalism. But $\psi$ is the API, not the implementation. The fundamental objects are the substrate geometry ($D_{IV}^5$), the spectral parameters, and the contact commitment states. What appears as a "wave function" in the 3D projection is the pattern of $S^1$ phases across the contact graph. What appears as "collapse" is phase commitment. What appears as "superposition" is uncommitted contact capacity. The wave function is not a thing in the world; it is how the substrate looks from the outside.
 
-### 13.9 The Bergman Dirac Operator on $D_{IV}^5$ (Spring 2026 operator-level progression)
+#### May 13.9 — The Bergman Dirac Operator on $D_{IV}^5$ (Spring 2026 operator-level progression)
 
 The $\hbar = 2mD$ Hamiltonian derivation above is the fiber-restricted form. The full operator structure on $D_{IV}^5$ requires the Bergman Dirac operator $\gamma_B^\mu \nabla_\mu$ adapted to the rank-2 Hermitian symmetric domain. Spring 2026 work (LAG-1 Sessions 1–10) closed the following operator-level scaffolding; the references below cite the theorem registry and toys in the repository.
 
