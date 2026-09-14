@@ -50,7 +50,7 @@ Lecture 3 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_03_Quantum_Mecha
 - **Retired with this section:** $\mathcal H = L^2(S^1)$ as the physical space; $H \propto \hat n^2$ as the time generator; "$\hbar = 2mD$, a diffusion coefficient" and "$\hbar = 2m_0\ell_0$"; the Bergman exponent $7/2$; "$c_5 = 6$"; the eigentones as testable resonances; "uncertainty is distinctive."
 - **Not claimed:** the single outcome; that measurement is "solved"; that CPT is distinctive; that quantum randomness is explained away.
 
-*What would make this section wrong:* a persistent record whose occupation is not idempotent (row 10); a state of the physical space outside $H^2$'s odd-charge clock sector — a negative winding, or an even charge, observed as a record; the Born weights of a write measured as other than the Hua branching.
+*What would make this section wrong:* a persistent record whose occupation is not idempotent (row 10); a state of the physical space outside $H^2$'s odd-charge clock sector — a negative winding, or an even charge, observed as a record; the Born weights of a write measured as other than the Hua branching. *And one falsifier from this sector has already fired and is recorded as such:* the legacy sub-Tsirelson prediction (a CHSH ceiling $S = \sqrt{126/16} = 2.806$, Vol 14/SCMP) was refuted by Poh et al. 2015 at $42\sigma$ a decade before it was registered — the register's Section E, row E4 (Grace, 2026-09-11); the program's Hardy-space quantum mechanics recovers the Tsirelson bound itself, and no sub-quantum ceiling is claimed here.
 
 ### 13.4 May 2026 record
 
