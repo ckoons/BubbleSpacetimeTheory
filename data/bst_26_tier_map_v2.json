@@ -101,18 +101,20 @@
    "id": "m_s/m_d",
    "sector": "mass",
    "form": "rank²·n_C = 20 (ℂ³ SVD, FK Pochhammer mechanism)",
-   "tier_word": "derived",
-   "note": "T2529/K993; ONE mechanism reconciled 08-21; its blind consequence is row 10",
+   "tier_word": "identified",
+   "note": "Cal §969 (log #212, K1902 concurred), 2026-09-14: IDENTIFIED IN EXPLICIT SPLIT — the SHAPE is derived (consecutive-integer products (ν_W+1)(ν_W+2) on the odd single-row degrees {1,3,5} of the quark module, T1929; the Fischer→Bergman norm ratio (ν_W)_λ, toy 4858, Schur), the WEIGHT ν_W = N_c = 3 is IDENTIFIED — a second dimensionless identification beside colour = multiplicity, T2513 gate (b) open since 2026-08-23 (the Wallach threshold is a/2 = 3/2, not 3). The number 20 is untouched. §959's \"derived\" never opened T2513's amendment (calibration #41).",
    "rows": [
     "T2529",
-    "K993",
-    "T1927 (reconciled 08-21)"
+    "T2513 (one tier, one object)",
+    "K1902",
+    "Cal §969",
+    "toys 4858, 4618"
    ],
-   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
+   "last_retier": "2026-09-14 (Cal §969 / K1902)",
    "v030_slot": null,
    "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "T2529 text owes the mechanism sentence; Keeper's gate on the 08-21 reconciliation owed",
-   "four_word_standard": "meets — Cal §959: \"row 5 derived (FK Pochhammer ratio (N_c+1)(N_c+2) at ν_W = N_c on the quark module; T1927/T2572/K1812; gate on the reconciliation owed by Keeper)\"; mechanism and inputs to be written INTO T2529's text (owed)"
+   "flag": "T2529 ↔ T2513 reconciled to one tier 13:02; provenance 4914 → 4858/4618; stale \"@Keeper to gate\" tags cleared",
+   "four_word_standard": "— (shape derived; weight ν_W = N_c identified, gate (b) open — explicit split, Cal §969)"
   },
   {
    "n": 6,
@@ -199,7 +201,7 @@
    "v030_slot": null,
    "old_key_0717": "LATTICE / k962 DERIVED",
    "flag": null,
-   "four_word_standard": "meets — mechanism: diagonalising the down-sector texture zero of the ℂ³ SVD gives λ = √(m_d/m_s) (T2530); input named: m_s/m_d = 20 (T2529); blind, forward, frame-independent; 08-22 closure in explicit-split form"
+   "four_word_standard": "meets — DERIVED GIVEN AN IDENTIFIED INPUT, on its face (Cal §969): mechanism derived (diagonalising the down-sector texture zero of the ℂ³ SVD gives λ = √(m_d/m_s), T2530), input named: m_s/m_d = 20, whose weight ν_W = N_c is identified (row 5) — the explicit-split form the 08-22 closure already uses"
   },
   {
    "n": 11,
