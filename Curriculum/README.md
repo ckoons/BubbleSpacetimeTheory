@@ -66,7 +66,7 @@ The eleven-criterion theorem with its null-model probability was audited in Sept
 
 <!-- BST_STATE_BLOCK_BEGIN -->
 > ### Where the program stands — one block, one source
-> *Last accuracy-synced: 2026-09-14 09:26 (K1897; the four-word count 6 derived / 11 identified / 7 open / 2 input from the generator).
+> *Last accuracy-synced: 2026-09-14 11:26 (K1900; A9 pre-registered; the four-word count 6 derived / 11 identified / 7 open / 2 input from the generator).
 >
 > **The object.** One rank-2 bounded symmetric domain, D_IV⁵ = SO(5,2)/[SO(5)×SO(2)], and one measured number taken openly as the ruler. Its genus is 5; the integer 7 the program calls g is a definition — p + q = 7, the dimension of the defining representation of SO(5,2), whose signature is the pair (5,2) — not the genus — a mislabel that stood from May to September and is now swept.
 >
@@ -79,6 +79,8 @@ The eleven-criterion theorem with its null-model probability was audited in Sept
 > **Floored** (closed by a theorem; reopenable only by a named kind of idea): Koide's source · the mass-tower/generations mechanism · the ℓ = 2 / su(3) native dynamics · Λ's value (a closed structure with one named obstacle, the power p) · the nucleation survivor (no lawful initialisation vector; a distribution on the winding count) · the absence floor — no group in the geometry acts on the colour slot as colour; the door is a group from outside it (register F4, certified K1894) · the Riemann row (an attempt with a location, closed and parked) · the four-colour row (the One-Word Lemma refuted in frame; the derived lemmas stand).
 >
 > **Fired and lost** (the falsifier register's Section E — certified, published with the same ceremony as wins): E1, α is not the bare geometric vertex — the forced candidate computes to 8π³/3, closing the fifty-year volume-reading class · E2, the thermal-generations mechanism died at the order level · E3, the commit-Boltzmann ladder failed its own 5% line · **E4, the sub-Tsirelson ceiling S = 2.80624 — refuted by Poh et al. 2015 at 41.9σ, ten years before it was registered (certified K1893, 2026-09-11)**. · E5, the Q⁵ parity fold is a projector with no scale of its own — a forced object that fails cleanly (K1799; row certified K1894) · E6, five named series for the mixing corner, sealed by hash, all missed — the structure itself could not fail, so the negative is the five candidates (K1808/K1810; row certified K1894).
+>
+> **Live and pre-registered** (a test with its outcomes partitioned as code before the data): A9, one boost not two — the matter rest frame read from the count and redshift dipoles of distant quasars must equal the CMB boost; a replication of Wu & Xia 2026 (DESI DR1) with an independent estimator on Quaia, frozen v1.1 (hash `92a7ebb3…`), no catalogue opened as of 2026-09-14 11:26.
 >
 > **Forbidden** — any confirmed detection kills the framework: grand unification · proton decay · right-handed W or Z' · magnetic monopoles · sterile neutrinos · a SUSY spectrum.
 >
