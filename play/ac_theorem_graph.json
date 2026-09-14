@@ -5256,10 +5256,10 @@
   },
   {
    "id": "T753",
-   "name": "Heisenberg Uncertainty from Bergman Curvature",
+   "name": "Heisenberg Uncertainty — the Robertson–Schrödinger inequality on H²(D_IV⁵) with [x,p] = iħ (formerly \"from Bergman Curvature\")",
    "domain": "quantum",
    "domain_label": "Quantum",
-   "status": "proved — 12:35 09-09 (Grace R140 G2, Lyra L0): the curvature sentence is ILL-FORMED, defect is the word CONSTANT not the value — a rank-2 domain has no constant holomorphic sectional curvature (Lu; ra",
+   "status": "proved (inequality) · curvature reading identified; repaired 2026-09-14",
    "plain": "",
    "color": "#E91E63",
    "proofs": [],
