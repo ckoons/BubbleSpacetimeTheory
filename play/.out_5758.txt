@@ -1,0 +1,35 @@
+lib hash 207e8eb905ad
+mask |b|>30 + LMC/SMC: 1407 of 3616 cells, 49.8% of sky
+analytic T_i from the generating dN/dz: [4.4611, 1.1281, -0.4074, -1.7431, -4.6355]
+
+RUN 1 — β = 0.01 (2998 km/s), 13 M generated, binned on z_obs:
+   β=0.01 [with T   ]: β̂c =  2871.0 ± 190.0 km/s (β̂/β_inj = 0.9577), direction off  4.84°, A = 0.01124 ± 0.00805 (1.4σ), χ² = 8.5/9, min per-bin residual p = 0.007
+   β=0.01 [without T]: β̂c =   689.1 ±  94.3 km/s (β̂/β_inj = 0.2299), direction off  3.57°, A = 0.07942 ± 0.00251 (31.6σ), χ² = 226.6/9, min per-bin residual p = 0.000
+   bin                 N  x_meas      f   T_meas     T_an    T/f    w_i
+   (0.0, 0.8)     828626   0.901  3.803   4.3918   4.4611  1.155  1.000
+   (0.8, 1.3)    1063190   1.000  4.000   1.0454   1.1281  0.261  0.391
+   (1.3, 1.8)     908678   1.099  4.198  -0.5056  -0.4074 -0.120  0.236
+   (1.8, 2.4)     713873   1.201  4.402  -1.8051  -1.7431 -0.410  0.167
+   (2.4, inf)     647788   1.297  4.593  -4.6338  -4.6355 -1.009  0.120
+  [HIT] P1  measured T_i vs analytic within 25% where |T|>0.05; signs T₁ = +4.392, T₅ = -4.634
+  [MISS] P2  with T: β̂/β = 0.9577; WITHOUT T: β̂/β = 0.2299, A/σ_A = 31.6, min p = 0.0000 -> mis-lands
+
+RUN 2 — the CMB boost, Quaia-like depth (4 M generated), binned on z_obs:
+   CMB β [with T   ]: β̂c =   976.4 ± 442.7 km/s (β̂/β_inj = 2.6402), direction off 94.31°, A = 0.03363 ± 0.01448 (2.3σ), χ² = 8.8/9, min per-bin residual p = 0.000
+   CMB β [without T]: β̂c =   423.0 ± 207.0 km/s (β̂/β_inj = 1.1438), direction off 122.78°, A = 0.01910 ± 0.00490 (3.9σ), χ² = 9.6/9, min per-bin residual p = 0.001
+  [MISS] P3  with T at 1.3 M: |Δβ| = 1.37σ, σ_β c = 443 km/s (Landing-C threshold 185), min per-bin p = 0.000; without T: β̂/β = 1.144
+   term sizes at Quaia depth: β_CMB·|T_i| = ['0.542%', '0.127%', '0.062%', '0.218%', '0.575%'] (Keeper's envelope 0.2%); |T_i|/f_i = [1.157, 0.258, 0.119, 0.402, 1.014]
+  [MISS] P4  max β_CMB|T_i| = 0.575%, max |T_i|/f_i = 1.157
+  [MISS] P5 (control)  Cal's 4.1 unit-vector estimator (mask-mode corrected, 1000 mocks) vs LS: Mahalanobis distances per bin [2.52, 0.72, 1.18, 1.06, 0.73] (68% of χ²₃: 1.88)
+
+SCORE 1/5, of which 1/4 can-fail hit
+python3 toy_5758_SEP14_*.py  7.74s user 23.98s system 727% cpu 4.359 total
+
+DIAGNOSTIC (after the run, not a scored line): per-bin residuals against the INJECTED truth (f_i+T_i) β v̂ with NO fitted intrinsic term, run 2 (CMB β):
+   bin [0.0, 0.8]: χ²₃ = 3.7, p = 0.294
+   bin [0.8, 1.3]: χ²₃ = 4.1, p = 0.250
+   bin [1.3, 1.8]: χ²₃ = 2.2, p = 0.537
+   bin [1.8, 2.4]: χ²₃ = 3.4, p = 0.335
+   bin [2.4, inf]: χ²₃ = 2.1, p = 0.559
+   -> the 'min per-bin p = 0.000' of the scored line comes from subtracting the FITTED intrinsic vector A w_i ŵ (A at 2.3σ, w_1 = 1 vs w_5 = 0.12): Landing A's third clause is unstable when A is poorly constrained; the estimator + term are right.
+   run 1 (β = 0.01), |D| vs (f+T)β: 0.0830/0.0820, 0.0495/0.0505, 0.0360/0.0369, 0.0267/0.0260, 0.0047/-0.0004 (σ_D ≈ 0.0024): the top bin's kinematic dipole under observed-z binning is ZERO to 2σ, as the term predicts.

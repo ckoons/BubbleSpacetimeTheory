@@ -1,0 +1,15 @@
+# Elie PREREG — Toy 5758, Round 146 E1: the observed-redshift bin-membership term and control S4. Written 2026-09-14 10:50 EDT, before the run. Synthetic only; no catalogue.
+
+## The term, derived here (to be cross-checked against Lyra's L2 pin of arXiv:2412.13162 when it lands; if they differ, the paper's form is frozen and mine is reported as the discrepancy)
+Observed redshift under the boost: 1 + z_obs = (1 + z)/δ, δ = γ(1 + β μ), so z_obs ≈ z − (1+z)βμ. A top-hat bin [z₁, z₂) in OBSERVED redshift collects true redshifts [z₁ + (1+z₁)βμ, z₂ + (1+z₂)βμ): sources near the lower edge leave toward the apex, sources beyond the upper edge enter. First order in β, the count in the bin from direction μ gains β μ [(1+z₂) n(z₂) − (1+z₁) n(z₁)], n = dN/dz of the flux-limited sample at the edge (one-sided: the bin's own density at the edge it loses through, the neighbour's at the edge it gains through; equal for a smooth dN/dz). Per-bin dipole coefficient: D_i = [f_i + T_i] β û with **T_i = [(1+z₂) n_i(z₂) − (1+z₁) n_i(z₁)] / N_i**, f_i = 2 + x_i(1+α_i). T_i > 0 where dN/dz rises across the bin (the lowest bin), T_i < 0 where it falls (the highest bin, n(∞) = 0). Estimator input: n_i(z_e) from the observed-redshift histogram in a ±0.05 window at each edge (the same measurement a catalogue gives).
+
+## Control S4 (Cal's frozen v1: bins [0,0.8), [0.8,1.3), [1.3,1.8), [1.8,2.4), [2.4,∞); |b| > 30° + LMC/SMC; model D_i = f_i β û + A w_i ŵ, w_i = (χ̄₁/χ̄_i)², flat ΛCDM H₀ 67.4, Ω_m 0.315; linear WLS in the two vectors)
+Synthetic Quaia-like sky with a SMOOTH dN/dz (z ~ Gamma(3, 0.55) truncated at 4; median ≈ 1.5), x per bin 0.9…1.3, α = 1, physical boost applied to position, flux AND redshift; binned on z_obs. The estimator is run twice on the same sky: with T_i (model f_i + T_i) and without (model f_i).
+
+## Predictions (hashed)
+- P1 (can fail): T_i measured from the observed-z histogram agrees with the analytic value from the generating dN/dz within 25 % in every bin where |T_i| > 0.05, with the sign pattern T₁ > 0, T₅ < 0.
+- P2 (can fail): at β = 0.01 on 13 M sources, WITH the term the joint fit's β̂/β_inj lies in [0.97, 1.03] (test σ ≈ 0.011); WITHOUT the term the joint fit mis-lands: β̂/β_inj outside [0.97, 1.03] OR a spurious intrinsic amplitude A > 3σ_A OR at least one per-bin residual with χ²₃ p < 0.01 — the number posted is the without-term β̂/β_inj and A/σ_A.
+- P3 (can fail): at the CMB β on 1.3 M sources WITH the term, β_inj lies within 2σ_β of the fit (Landing A's amplitude clause) and the per-bin residual test passes; σ_β·c is posted — I predict 120–200 km/s, i.e. below Cal's Landing-C threshold β_CMB/2 = 185 km/s but not by much.
+- P4 (can fail): the term's absolute size β_CMB·|T_i| ≤ 0.3 % in every bin for the smooth dN/dz (Keeper's envelope 0.2 %), and |T_i|/f_i ≤ 0.5 in every bin.
+- P5 (control): Cal's 4.1 unit-vector-sum estimator with the mask-mode correction and 1,000 Poisson mocks agrees with the LS estimator on the same sky within 1σ per bin — both are in the lib; Cal's is the frozen one.
+The lib (play/r145_eb_lib.py) is hashed at every run and the hash printed.
