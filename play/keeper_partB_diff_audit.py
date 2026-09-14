@@ -21,6 +21,16 @@ ITEMS_K1903 = {
  '§1 number (K1901 §3)': r'443|149|σ_K|sigma_K|\\sigma_K|5758|5760|150 km',
  'declaration':         r'9b|K1903|v1\.3',
 }
+# v1.3 -> v1.4 scope (K1903 §6, board 12:41, K1905 §3-4, K1906 §1, Casey's word 12:5x): six declared items.
+ITEMS_K1906 = {
+ '§1 sentence (K1903 §6)':      r'149|170|250|415|5759|5760|redshift channel alone|joint',
+ '§3.1 x-systematic':           r'x_i|secant|0\.2.mag|local slope|systematic|half.spread|curved counts|quadratic',
+ '§2.1 sample (Casey)':         r'20\.5|20\.0|primary|robustness|brighter|magnitude limit|sample',
+ '§4.4 clause (K1905 §4)':      r'sharp|smooth|sensitivity|outlier|×0\.5|×2|not determined|propagated uncertainty on',
+ '§2.2 convention':             r'separation|great.circle|haversine|columns|\(l, b\)|mask',
+ '§2.3 fallback (K1906 §1)':    r'selection function|NSIDE|weight|fallback|H5|released code|92eca506',
+ 'declaration':                 r'9c|K1905|K1906|v1\.4',
+}
 def hunks(a, b):
     """Per changed LINE, not per opcode hunk: adjacent in-scope and out-of-scope edits merge into one hunk and the
     in-scope keyword would launder the other (the self-test's first failure). Each inserted/replaced line stands alone."""
@@ -61,7 +71,8 @@ def selftest():
     print('SELFTEST', 'PASS' if ok else 'FAIL', cls); return 0 if ok else 1
 if __name__ == '__main__':
     if '--selftest' in sys.argv: sys.exit(selftest())
-    if '--scope' in sys.argv and sys.argv[sys.argv.index('--scope')+1].lower() == 'k1903':
-        ITEMS.clear(); ITEMS.update(ITEMS_K1903)
-    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() != 'k1903']
+    if '--scope' in sys.argv:
+        sc = sys.argv[sys.argv.index('--scope')+1].lower()
+        ITEMS.clear(); ITEMS.update({'k1903': ITEMS_K1903, 'k1906': ITEMS_K1906}[sc])
+    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() not in ('k1903', 'k1906')]
     sys.exit(audit(args[0], args[1]))
