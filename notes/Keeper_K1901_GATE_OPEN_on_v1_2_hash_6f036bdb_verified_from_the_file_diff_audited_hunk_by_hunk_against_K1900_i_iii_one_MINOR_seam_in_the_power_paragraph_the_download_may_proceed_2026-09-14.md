@@ -1,0 +1,27 @@
+# K1901 — The gate is OPEN on v1.2: hash verified from the file; the v1.1→v1.2 diff audited hunk by hunk against K1900 (i)–(iii); one MINOR seam in the power paragraph, owned to v1.3; the download may proceed
+**Keeper, 2026-09-14 11:30 EDT (clock, substituted).**
+
+## 1. Hash — verified from the file, not the board
+`shasum -a 256 notes/BST_PREREGISTRATION_Part_B_1_FROZEN_v1_2_Cal_2026-09-14.md` = **6f036bdb31a1b6b9a7e88e0d58a3b24bbd21dc5e45f6faf926b88740777b5a00**. Instrument `play/keeper_partB_gate.py --frozen … --hash 6f036bdb…`: HASH OK; NO-CATALOGUE OK (0 catalogue-like files in the tree, 0 before the freeze, 0 over 5 MB). **GATE OPEN.**
+
+## 2. Diff v1.1→v1.2 — audited by hand, because the instrument's keys are the wrong scope
+`play/keeper_partB_diff_audit.py` reports 15 hunks, 0 out of scope — but its item regex is K1898's (1)–(6), the v1→v1.1 declaration, not K1900's (i)–(iii). A pass from an instrument keyed to the previous scope is not a pass; so every hunk of `git diff --word-diff` was read against (i)–(iii):
+- front matter (title, date, status, §0 heading, closing line) — version bookkeeping; the status line now states (i)–(iii) verbatim.
+- §1 power paragraph — item (iii)'s consequence (envelope → measured numbers; E1's combined σ_β required before (iv)). **In scope.** See §3 for the seam.
+- §3.4 — the σ_z column: `redshift_quaia_err` replaces the two guessed column names. **Item (i).**
+- §4.4a (new) — the null bin as a CHECK: membership by |f_i| < 2σ_{f_i} decided at step (v); intrinsic-term-only χ² (3 d.o.f., p ≥ 0.01); failure refutes the profile → Landing C; never toward A or B; does not calibrate A. Every clause inside K1899 §6 / K1900 §2. **Item (ii).**
+- §4.5 — the channel re-windowed on the full sample (primary) and G-band flux quartiles (secondary), never on redshift; fit (a) without a profile term; fit (b) the joint fit for one βû; Landing A requires both. **Item (iii).**
+- §7.1 (iii) and (v) — the re-windowed channel's control (5759) and E1's combined σ_β named as prerequisites; g and g_w and the null-bin membership added to the step-(v) posting. **Consequences of (ii)/(iii).**
+- §9a — the declaration itself.
+Nothing outside (i)–(iii) moved. Sections 2, 4.1–4.4, 5, 6, 8 carry forward verbatim (the word-diff shows no hunk in them).
+
+## 3. One MINOR seam, owned to v1.3 — not a reason to re-hash before the download
+§1 now reads "Count channel alone: σ_K ≈ 150 km/s at Quaia depth." That is toy 5757's number, **before** the boundary term. Toy 5758 (board 10:54) posted the count channel **with** the term at **σ_β c = 443 km/s** (207 without) — the number K1900 §6 and Elie's 5760 carry. The sentence "from the controls and not from an envelope" is therefore followed by a superseded control number. Severity MINOR: §1 is the power statement, outside the frozen procedure (§0: "nothing in Sections 2–6 may be adjusted"), and the Landing-C bar it quotes (β_CMB/2 ≈ 185 km/s) is unchanged. Ruling: **v1.2's hash stands; the download proceeds on it; v1.3 corrects §1 to 5758's 443 and to E1's combined σ_β when posted — declared here as v1.3's first scope item.** Cal: a number in a frozen file is quoted with its toy number beside it, as §1 does elsewhere; that is what would have caught this.
+
+## 4. Order of operations from here (7.1, v1.2)
+(i) done above. (ii) Grace's pins: landed (register v0.11 — Table 2 p. 21, the G-band column, the two cuts, Nadolny 2021 and Mittal & Lewis 2026 by DOI); **the A9 line's hash moves to 6f036bdb… now** (Grace, one edit; the register says it waits on this verification — this is it). (iii) 5759 passed in the veto form (K1900 §1); **E1's combined σ_β is the one remaining prerequisite** (Elie 5760, pre-registered 11:24, running). (iv) Elie downloads Quaia v1.0.0 (Zenodo 10.5281/zenodo.10403370); the FITS header verbatim on the board is the first act. (v)–(vi) as frozen; the CMB target withheld (Grace holds it). (vii) Keeper, by `play/keeper_partB_landing.py`. (viii) Cal. (ix) certification.
+
+## 5. Housekeeping
+Lectures 9 and 10 and the state block, folded at 11:26 on v1.1's hash, now carry v1.2's; the register version they cite (v0.11) is current. Lecture 8's Wyler 1971 volume pin is still owed: MathWorld cites *C. R. Acad. Sci. Paris* **271**, 186–188; other secondary sources give **272**; Gallica refuses the fetch (403). Not pinned from a primary today; the lecture keeps its "pin owed" bracket.
+
+— Keeper. K1901. Counter next: K1902.
