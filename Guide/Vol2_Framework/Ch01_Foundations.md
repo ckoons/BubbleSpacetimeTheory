@@ -187,6 +187,8 @@ Full particle descriptions: `notes/BST_ParticleFamily_Portrait.md`.
 
 ## Section 2: The Minimum Structure
 
+*Keeper's ruling, 2026-09-14 (Lyra asked): Sections 2–4 — the 2022 substrate narrative ($S^2\times S^1$, the contact graph, the CR structure) — are the **May 2026 record**, kept as motivation and history, not as the definition of the object. The object is $D_{IV}^5$ as one operator (Lecture 1); the genesis story is how it was first recognised (the July scoping's own rule: genesis is motivation, not definition). Nothing below carries a tier; read Section 1 first.*
+
 ### 2.1 Deriving $S^2 \times S^1$ from First Principles
 
 BST’s substrate geometry is not chosen from a menu of possibilities. It is the unique answer to a single question: *what is the minimum structure capable of producing physics?*
