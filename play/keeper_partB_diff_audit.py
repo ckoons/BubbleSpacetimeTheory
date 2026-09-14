@@ -5,9 +5,10 @@ keyword; any hunk matching no item is OUT OF SCOPE and the re-freeze is refused.
 in-scope and one out-of-scope hunk must classify both correctly.
 Usage: keeper_partB_diff_audit.py v1.md v1_1.md   |   --selftest"""
 import sys, difflib, re, tempfile, os
+FRONT = re.compile(r'^(title:|date:|status:|# |— Cal|\s*$)')  # front matter, headers, signature, blank: not substance
 ITEMS = {
  '(1) narrowings':      r'common velocity|best-measured|assigns to the exterior|local flow',
- '(2) bin-membership':  r'bin.membership|edge|observed redshift|Hausegger|Dalang|boost(ed|ing) of the redshift',
+ '(2) bin-membership':  r'bin.membership|edge|observed redshift|Hausegger|Dalang|boost(ed|ing) of the redshift|B_i|boundary term|f_i = 2',
  '(3) prior art':       r'prior art|Wu|Xia|2608\.30914|DESI|replication',
  '(4) evolution':       r'evolution|Dalang|Bonvin|Guandalin|luminosity function|2404\.07929|2212\.04925|2111\.03616',
  '(5) power':           r'power|sigma_K|σ_K|150 km|450 km|3σ Landing B|3\\sigma',
@@ -34,6 +35,9 @@ def classify(h):
 def audit(a, b, verbose=True):
     hs = hunks(a, b); out_of_scope = []
     for h in hs:
+        if FRONT.match((h[2] or h[1]).strip()) and not (h[2] and h[1] and h[2].strip() and not FRONT.match(h[2].strip())):
+            if verbose: print('  [--] front matter / blank :: %s' % (h[2] or h[1]).strip()[:60])
+            continue
         hits = classify(h)
         if verbose: print('  [%s] %s :: %s' % ('OK ' if hits else 'OUT', ', '.join(hits) or 'no declared item', (h[2] or h[1]).strip().replace('\n', ' ')[:90]))
         if not hits: out_of_scope.append(h)
