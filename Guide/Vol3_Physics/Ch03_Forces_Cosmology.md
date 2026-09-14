@@ -11,9 +11,59 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Section 14: Three Geometric Layers — Forces and Boundary Conditions
+## Sections 14–21: Forces, Cosmology, Dark Matter, the Weak Force, and the Substrate Picture — the Pointer, the Apparatus, and the May Record
 
-### 14.1 The Force/Boundary-Condition Structure
+*Rewritten 2026-09-14 (Lyra, Round 149 L1; Keeper audit pending) as ONE pointer-plus-apparatus head for the whole chapter, with all eight May sections (14–21) moved intact under "May 2026 record" below, their headings renamed "May 14.x" so nothing collides. Facts are from the register (the Six Absences and Section A of the falsifier register; T2546, T2571 and Lane Λ; T1485/T1918's 2026-09-09 ruling; K1724, T2567, T2520, T2346, K1687, T1949, T2522; T2545, T2565; the generated 26-parameter table rows 8, 21, 22; T1382–T1392 and K59; T1241/T1244/T1255; T1814/T1962; T937; T633's posited reset; K940's Millennium re-scope) and Spine Lectures 5, 8, 9, 10 — not from the May text. Last accuracy-synced: 2026-09-14 / K1903.*
+
+### The question
+
+What does the object say about the forces, the early universe, the dark sector and the weak interaction — and how much of this chapter's May picture (a two-dimensional substrate $S^2\times S^1$, a contact graph, a Haldane-capped channel of 137 slots) survives the register as it stands in September?
+
+The honest answer is: the *questions* survive, several of the *answers* survive at a named tier, and the *picture* is the 2022 substrate framing that the June 2026 historical correction already superseded (the substrate is the five-dimensional Šilov boundary $(S^1\times S^4)/\mathbb{Z}_2$ of $D_{IV}^5$, not $S^2\times S^1$). The Spine carries the current state: Lecture 5 for the gauge skeleton, Lecture 8 for $\alpha$, Lecture 9 for the descent, gravity and $\Lambda$, Lecture 10 for the method and the forbidden list. This head is the pointer to each, the apparatus a referee will want, and a section-by-section map of what the record below is.
+
+### Where it stands, by theme
+
+**Forces (May 14).** The three-layer "force / boundary-condition" scheme has no register row; what the register carries is Lecture 5's skeleton: the geometry's own internal gauge group is $U(1)\times SU(2)\times\mathbb{Z}_2$ (K1724, T2567, T2520) — **derived**; $SU(3)$, its dynamics and confinement are **imported** on a derived container ($N_c = 3$ as the characteristic multiplicity, the one input to the choice of the object; the $\mathbb{C}^3$ slot; the $\mathbb{Z}_3$ centre); chirality is **derived** from the non-orientability of the Šilov boundary (T2522); hypercharge lives in the internal complement, not on the time circle (T2346, K1689; the May $U(1)_{EM}$-on-the-fibre reading is the K1687 mislabel again). The May 14.7 "three readings of one root system" (T1253) reads the $B_2$ multiplicities — short roots $3$, long roots $1$ — correctly as root data; the physical labels it hangs on them are the same colour identification read again (Cal Section 946: not a second support). May 14.8's Higgs: the register carries $\lambda_H$ as **identified** with the $1/8$ value retired at $-18.8\sigma$ and $9/70$ (T1965/T2005) the carried form (row 21, K1897); the May Route A $\lambda_H = \sqrt{2/n_C!} = 1/\sqrt{60} = 0.1291$ is a **third form for the same parameter, not on the generator's row, sitting at about $-1\sigma$ of PDG's $0.1293\pm0.0002$ — flagged to Grace as unpriced (the K1809 sibling rule: a second form in band is not a derivation)**; $y_t = 1$ is the register's (row 8, derived: the top saturates the boundary), the May $(1-\alpha)$ refinement is a second object of the $m_H$-refinement species Elie priced this morning (identified, $N = 10$); $v$ is the ruler (row 22, **input**; K1673's third relation); $m_W = n_C m_p/(8\alpha)$ has no row and is a May match. May 14.9's "BST field equation" has no row: the register's gravity is a relation (Vol 3 Ch 01 Section 10), its $\Lambda$ a closed form with $p$ free, and the lapse $N = N_0\sqrt{1-\rho/\rho_{137}}$ is a reading. May 14.10's conservation hierarchy: what is registered is the forbidden list (no proton decay, no monopole, no SUSY partner, no sterile neutrino — Lecture 10, Section A of the register), the Majorana neutrino and the absent $\nu_R$ (T1949), CPT universal, and the conservation-law rows of 2026-05-22 (T2473–T2475, at their May tiers, not re-read here); **the $0\nu\beta\beta$ band $|m_{\beta\beta}|\in[1.4,3.7]$ meV is not a registry row and, as of register v0.11, not on its Section-A list — Grace confirms or adds**. May 14.11 (Maxwell from a $U(1)$ bundle over $S^2$): the two source-free equations as Bianchi identities is standard mathematics; the rest is the 2022 picture with $\alpha$ as "the Wyler constant" — identified (Lecture 8). May 14.12–14.15 (the BST–AC isomorphism T147, the Planck condition T153 — an *axiom* in the register — the "Koons Machine" and its six Millennium rows, the Hodge "two-path proof"): the register's ruling is K940 — **attempts, per problem, on the referee-consensus scale, not proofs**; the table's "GEOMETRIC PROOF / PROVED / ~97%" words are the May words and are retired; the RH row's own state is on the rubric (the trail ends at $\mathrm{Re}\,s = 1$; K21 retracted). Note the register's own definition: "Proved" there means AC derivation depth, not referee consensus (registry line 14).
+
+**Cosmology (May 15).** The register carries: $\Lambda>0$ with Pauli-suppressed fluctuations (T2546, **derived**) and $\Lambda$ Pauli-frozen at $10^{-149}$ (T2571) — which **retires** May 15.5a's "dynamic $\Lambda$, $w(z)>-1$" scenario and May 16's variable vacuum pressure outright (Vol 3 Ch 01 Section 12); the thermostat form with $p\in(0,2)$ free and no value (Lane Λ, K1057); the $\Lambda$/$H_0$ chain through the $6/5$ factor as **identified, mechanism-less** after the 2026-09-09 ruling (T1918 → T1485 → $H_0$). None of the May 15.1a table's rows ($\Omega_\Lambda = 13/19$, $\Omega_m = 6/19$, $H_0 = 68.02$, $T_{\rm CMB}$, $\Omega_b = 18/361$, $A_s$) is on the generated 26-parameter table, and its "4 DERIVED, 4 STRUCTURAL" is the May tiering; $n_s = 1 - n_C/N_{\max} = 0.9635$ is registered (T1814, T1962, "Proved" in the April sense) **and the corpus carries a second form, $1 - 1/(2\,g\,\mathrm{rank}) = 0.9643$ (K225), for the same observable — the K1809 species, flagged**. The Big Bang as "one of 21 generators activating at $T_c = m_e\cdot 20/21 = 0.487$ MeV," the partition function's three phases, the CMB anomalies as substrate imprints (**quote-anything — target, not evidence**, the corpus's standing rule), variable universe age, the $S^2$ echoes, and the NANOGrav peak at $6$–$9$ nHz: readings with no register row and no falsifier row — kept as record. The "guaranteed reboot" of May 15.5a is T633's reset clause, which the register holds as **posited** (K1847). What *is* the program's on time and the arrow is Lecture 4.
+
+**Dark matter (May 19).** The one register item is the forbidden-list entry "no dark-matter particle" (Lecture 10), a live falsifier; "dark matter is channel noise," the MOND scale "derivable in principle," the core–cusp and Bullet-cluster readings, the incomplete-winding spectrum: no row, no instrument, kept as record. The SPARC fit quoted in the May key-results table has no registry row either.
+
+**The weak force (May 20) and information theory (May 17, 21).** May 20's "variation operator" and the "dimensional lock" (only $S^1$ and $S^3$ among spheres are Lie groups, Adams 1960 — true mathematics) are readings of the 2022 picture; the register's dimension statements are Lecture 5's (the $n_C$ tiebreaker by measured $N_c$) and Lecture 9's ($(3,1)$ from T2545; the frame an input, T2565). May 20.7's Hamming $(7,4,3)$ reading (T1241, T1244, T1255, registered April) is standing at its April tier, but its "$\sin^2\theta_{23} = 4/7$ IS the code rate" collides with the register's word on $\theta_{23}$: **maximal, $1/2$, derived by two proofs; $4/7$ identified as the departure** (T2534) — so the code rate names the departure, not the angle. May 17's Reed–Solomon picture on $GF(2^g) = GF(128)$ (T1382–T1392; K59's cyclotomic framework) is registered at its April tier; May 17.6 "$\alpha$ as the bootstrap fixed point" is a reading of a number the register holds **identified** in the bulk of a null (K1813) with the volume reading dead (K1826) — retired as a derivation claim; May 17.7's holographic $10^{60}$ rests on the mechanism-less $d_0$. May 21.8 (Feynman diagrams as contact-graph maps) already carries the 2026-09-11 $\alpha$ correction; the rest is narrative.
+
+**The substrate picture (May 18, and throughout).** $S^2\times S^1$, the contact graph, the Haldane cap of 137 slots per channel, "3 = 2 + 1" dimensions from a two-dimensional base: the 2022 framing, superseded by the June historical correction and by Lectures 1, 3, 4 and 9. It is kept because it is the record of how the program found the object, and because Theorem B (R144 L2) says exactly what survives of the fibre picture inside the right space (Vol 3 Ch 02 Section 13).
+
+### Apparatus — kept, labelled as apparatus
+
+- **Root data that is right and labels that are not:** $B_2$ with short-root multiplicity $3$ and long-root multiplicity $1$ (May 14.7; my R120); $|W(B_2)| = 8$; the physical readings are the colour identification.
+- **The Hopf/Lie-group classification** (May 14.5/20.6): among spheres only $S^0, S^1, S^3$ are Lie groups (Adams 1960) — true; the inference to "exactly three spatial dimensions" needs the 2022 $S^2$ base, which the register does not have.
+- **The forbidden list and its consequences** (May 14.10): $\tau_p = \infty$; no monopole (May 14.11's trivial Chern class is the 2022 argument; the register's is the Six Absences); no SUSY; no $\nu_R$ (T1949; Lecture 5's one-bit mechanism).
+- **The $GF(128)$ rows** (T1382–T1392): $137 = x^7 + x^3 + 1$ irreducible over $\mathbb{F}_2$; $|GF(128)^\times| = 127 = M_7$; 18 Frobenius orbits — arithmetic facts at their April tier.
+- **The Hamming rows** (T1241/T1244/T1255) with the $\theta_{23}$ collision named above.
+- **The two $\lambda_H$ and two $n_s$ forms**, side by side, for Grace's K1809 sibling count.
+- **The May cosmological chain** (15.1a) as the record of what was once derived, with the 2026-09-09 ruling on its load-bearing factor.
+
+### Tier line
+
+- **Derived (register):** $U(1)\times SU(2)\times\mathbb{Z}_2$; chirality; the $\nu_R$ mechanism and the Majorana neutrino; $y_t = 1$; $\Lambda>0$ and its Pauli-suppressed fluctuations; $\Lambda$ Pauli-frozen; the descent's structure; the causal order.
+- **Identified:** $\lambda_H$ (three forms, one carried); $n_s$ (two forms); the $\Lambda$/$H_0$ chain; $\alpha$ and every $\alpha$-power reading; $\theta_{23}$'s departure $4/7$; $m_W$'s May form; the RS/Hamming readings at their April tiers.
+- **Input:** $v$ (the ruler); the frame (T2565); $N_c = 3$ as the one input to the choice of the object.
+- **Imported:** $SU(3)$, confinement.
+- **Posited:** T633's reset (May 15.5a's "reboot").
+- **Attempts, not proofs (K940):** the Millennium rows of May 14.14–14.15.
+- **Live falsifiers (register Section A / the forbidden list):** proton decay; a monopole; a superpartner; a sterile neutrino; a dark-matter particle; a right-handed $W$; the couplings meeting.
+- **Retired with this head:** "$\Lambda$ varies / dynamic $w(z)$"; "CMB anomalies as substrate imprints" as evidence; "the field equation derived term by term"; "$\alpha$ the bootstrap fixed point"; "GEOMETRIC PROOF / PROVED" on the Millennium table; "$4/7$ is the code rate" as a statement about $\theta_{23}$; the $S^2\times S^1$ substrate as the object.
+- **Not claimed:** $G$, $\Lambda$, $H_0$ or any cosmological parameter from nothing; a mechanism for dark matter; a derived dimension count from a two-dimensional base.
+
+*What would make this head wrong:* any forbidden-list detection; $\Lambda$-fluctuations at Sorkin's Poisson level or a drifting $\Lambda$; a forced $p$ outside $(0,2)$; and — for the May predictions kept below — a register row that any of them acquires, at which point its sentence here is rewritten and dated.
+
+### May 2026 record
+
+*Below: the May 2026 text of Sections 14–21, unedited on 2026-09-14 except for the dated in-place corrections already in it (14.2's $\alpha$ sentence; 14.8's $g = p + q$; 15.1a's head-note; 21.8's $\alpha$ sentence). Read with the head in hand: its substrate is the 2022 picture; its tiers are May's; its Millennium words are retired by K940; its "$\Lambda$ dynamic" scenarios are contradicted by T2571; its cosmological table is not the generated one.*
+
+### May Section 14 — Three Geometric Layers — Forces and Boundary Conditions
+
+#### May 14.1 — The Force/Boundary-Condition Structure
 
 BST does not contain four forces, nor three forces in the traditional sense. It contains **three geometric layers**, each carrying a **force** (an active dynamical process) and a **boundary condition** (a constraint that governs where and how the force operates). The forces are the dynamics. The boundary conditions are the geometry that shapes them.
 
@@ -25,7 +75,7 @@ BST does not contain four forces, nor three forces in the traditional sense. It 
 
 Each pair has the same structure: the force is a direct interaction on the geometric object; the boundary condition is the collective or extremal consequence of operating on that object. The boundary conditions are not forces — they are what happens at the edges.
 
-### 14.2 Layer 1: The Fiber — Electromagnetism and Gravity
+#### May 14.2 — Layer 1: The Fiber — Electromagnetism and Gravity
 
 **The force: electromagnetism.** Circuits on $S^1$ interact through their winding numbers. The coupling is $\alpha \approx 1/137$ — identified, not derived: the volume reading of $\alpha$ was computed blind in August 2026 and the forced candidate is $8\pi^3/3$, not 137 (K1826; Spine Lecture 8). This sentence said "derived from the Bergman volume of $D_{IV}^5$ via the Wyler formula (Section 5). Charge is winding number. Photons are phase disturbances. Maxwell's equations are the curvature of the $S^1$ connection (Section 14.11). Electromagnetism is the force *on* the fiber.
 
@@ -33,7 +83,7 @@ Each pair has the same structure: the force is a direct interaction on the geome
 
 This explains fifty years of failure to achieve quantum gravity through force unification. String theory, supergravity, and loop quantum gravity all attempt to put gravity and gauge forces on equal mathematical footing. BST predicts this cannot work because they are not the same category: electromagnetism is the force on $S^1$; gravity is its boundary condition on the contact graph.
 
-### 14.3 Layer 2: The Bulk — Strong Force and Weak Variation
+#### May 14.3 — Layer 2: The Bulk — Strong Force and Weak Variation
 
 **The force: the strong interaction.** The geometry forces the $Z_3$ circuit structure and $N_c = 3$ on $\mathbb{CP}^2$ within $D_{IV}^5$: triads cycle through color orderings at the strong timescale ($\sim 10^{-24}$ s), and only $Z_3$-complete (color-singlet) composites are physical. The *dynamical* strong force that binds them — the SU(3) gauge interaction — is **imported** (#108), not the $Z_3$ topology itself; the topology fixes *which* states are physical (color-neutral hadrons), the imported gauge dynamics supplies the binding. The coupling is $\alpha_s = N_{GUT}/N_c = 4\pi^2/3$ at the GUT scale.
 
@@ -41,7 +91,7 @@ This explains fifty years of failure to achieve quantum gravity through force un
 
 The weak interaction is slow (spanning 28 orders of magnitude in decay lifetimes) because the Hopf intersection is a small target in the 12-dimensional triad configuration space. It is the boundary condition on the strong force: the constraint that determines which variations are accessible and at what rate.
 
-### 14.4 Layer 3: The Contact Graph — Commitment and the Prime Spectrum
+#### May 14.4 — Layer 3: The Contact Graph — Commitment and the Prime Spectrum
 
 **The force: contact commitment.** The most fundamental dynamical process in BST is the commitment of contacts — the irreversible transition from uncommitted (quantum, reversible) to committed (classical, irreversible). This is the process that creates space, drives expansion, and establishes the arrow of time. It is not a Standard Model force. It is the force that underlies all Standard Model forces — the substrate dynamics from which the fiber and bulk forces emerge.
 
@@ -53,7 +103,7 @@ A new prime "births" when the contact graph reaches a scale where the next irred
 
 *Note: the identification of the Riemann zeros as the boundary condition of the contact force depends on the Langlands-Bergman Embedding conjecture (Lemma 2 of the companion Riemann paper). The force/boundary-condition structure for the fiber and bulk layers is established; for the contact graph layer it is conditional on this conjecture.*
 
-### 14.5 Why the Weak Force Excludes Higher Dimensions
+#### May 14.5 — Why the Weak Force Excludes Higher Dimensions
 
 The weak variation operator provides a deep constraint on the dimensionality of physics: it requires exactly three spatial dimensions.
 
@@ -76,7 +126,7 @@ $S^7$ is **not** a Lie group: the unit octonions are non-associative. A "weak va
 
 **Why "extra dimensions" cannot exist.** This is not the statement that extra dimensions are unobserved (an empirical claim). It is the statement that extra dimensions are **algebraically excluded** by the requirement that the variation operator be associative. Any universe with more than 3 spatial dimensions has no consistent mechanism for flavor variation, no nucleosynthesis beyond hydrogen and helium, and no complexity. The weak force does not merely operate in 3 dimensions — it *requires* exactly 3 dimensions, from the classification of spheres that are Lie groups ($S^0$, $S^1$, $S^3$ only).
 
-### 14.6 Force Unification in the New Framework
+#### May 14.6 — Force Unification in the New Framework
 
 The three forces (EM, strong, contact commitment) are unified at the GUT scale in the structured sense described in Section 6. All three are circuit interactions on $D_{IV}^5$ at different geometric depths. The three boundary conditions (gravity, weak variation, Riemann zeros) are not forces and are not unified — they are the constraints that the geometry imposes on the forces at each layer.
 
@@ -93,7 +143,7 @@ The Standard Model's "four forces" are reinterpreted:
 | *(not in SM)* | Contact commitment (force) | Contact graph |
 | *(not in SM)* | Riemann zeros (boundary condition) | Contact graph (prime spectrum) |
 
-### 14.7 Three Readings of One Root System (T1253)
+#### May 14.7 — Three Readings of One Root System (T1253)
 
 The three gauge forces are not three separate structures — they are three readings of the $B_2$ root system of $\mathrm{SO}_0(5,2)$.
 
@@ -125,7 +175,7 @@ Together: three readings (count / spectrum / metric) produce forces; the geometr
 
 Three independent calculations — coding theory, QED perturbation theory, and harmonic analysis on $D_{IV}^5$ — converge on the same ratio. This is not coincidence; it is one geometry read three ways.
 
-### 14.8 The Higgs Mechanism
+#### May 14.8 — The Higgs Mechanism
 
 The Higgs field is the **radial (dilation) mode** on $D_{IV}^5$ — the displacement from the origin of the bounded symmetric domain. The W and Z bosons are angular (gauge) modes on the electroweak fiber; the Higgs is the amplitude mode. $D_{IV}^5$ has rank 2, giving two radial directions: one is fixed by scale invariance (the dilaton), leaving one unfixed radial degree of freedom — this is the Higgs.
 
@@ -181,7 +231,7 @@ The first equation says the Fermi scale times genus times the electron mass equa
 
 Full derivation: `notes/BST_NewtonG_Derivation.md`.
 
-### 14.9 The BST Field Equation
+#### May 14.9 — The BST Field Equation
 
 Einstein's field equation $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}$ is recovered as the macroscopic limit of BST substrate dynamics. BST does not modify the equation — it derives every term.
 
@@ -226,13 +276,13 @@ where $\rho_{137}$ is the channel saturation density ($N_{\max} = 137$ slots ful
 
 At low densities and macroscopic scales, the BST field equation is Einstein's equation, with $G$ and $\Lambda$ taking the values derived in Sections 10.3 and 12.5. Full derivation: `notes/BST_Field_Equation.md`.
 
-### 14.10 Conservation Laws from Substrate Geometry
+#### May 14.10 — Conservation Laws from Substrate Geometry
 
 Every conservation law in physics corresponds to a symmetry of the substrate. Noether's theorem (1915) establishes the symmetry-conservation correspondence, but it takes the symmetries as given. BST derives those symmetries from the geometry of $S^2 \times S^1$ and $D_{IV}^5$, and then goes further: it identifies conservation mechanisms that are *topological* rather than Noetherian — absolute prohibitions that no energy threshold can overcome, because they are completeness conditions on the mathematics itself, not physical restrictions on energetically accessible states.
 
 The result is a complete hierarchy of conservation laws ranked by the geometric depth of their enforcement mechanism.
 
-#### Absolute Conservation Laws
+##### Absolute Conservation Laws
 
 These cannot be violated at any energy, under any conditions. They are enforced by the topology of $S^1$ or the structure of the contact graph itself. Violation would require changing the topology — which is not a physical process but a change of mathematical framework.
 
@@ -246,7 +296,7 @@ These cannot be violated at any energy, under any conditions. They are enforced 
 
 **Information (unitarity)** follows from the compactness of $S^1$. Diffusion on a compact space redistributes information among discrete winding modes but cannot destroy it — $S^1$ has no boundary through which information can leak. The Fourier modes $\{e^{in\theta}\}_{n \in \mathbb{Z}}$ are complete at all energies. **Black hole information paradox resolved:** black holes are regions of channel saturation; the $S^1$ modes on the boundary surface remain complete; information is preserved on the boundary because the boundary is still compact. Information never falls into a singularity because BST has no singularity — only a saturated channel at capacity $N_{\max} = 137$.
 
-#### Topological Conservation Laws
+##### Topological Conservation Laws
 
 These are enforced by submanifold topology ($\mathbb{CP}^2$, Hopf $S^3$) rather than by $S^1$ itself. They hold below the energy scale at which the submanifold topology becomes dynamical.
 
@@ -254,19 +304,19 @@ These are enforced by submanifold topology ($\mathbb{CP}^2$, Hopf $S^3$) rather 
 
 **$B$** and **$L$** are each conserved perturbatively as $S^1$ winding classes, so sphaleron processes and the proton remain as above. **$B - L$**, however, is **not** exactly conserved: the neutrino is **Majorana** (its mass is the $\Delta L = 2$ Weinberg operator on the chargeless $S^4$ locus; the odd substrate dimension $g=7$ locks the neutrino to a single chirality, forbidding a light $\nu_R$ Dirac partner). Lepton number is thus violated by two units through the neutrino mass, while baryon number stays protected. **Prediction:** neutrinoless double beta decay **occurs** ($\Delta L = 2$), with $|m_{\beta\beta}| \in [1.4,3.7]$ meV — a detection in-band supports BST; a firm null below $\sim 1$ meV falsifies it.
 
-#### Spacetime Conservation Laws
+##### Spacetime Conservation Laws
 
 These follow from the symmetries of $S^2$ and the commitment ordering.
 
 **Energy** is conserved because the Bergman geometry of the commitment rules is commitment-independent — the rules are identical at every step. Translational symmetry in time is the substrate being self-similar in its own evolution. **Momentum** is conserved because $S^2$ is homogeneous — every point is equivalent. **Angular momentum** is conserved because $S^2$ is isotropic under SO(3). Orbital angular momentum is quantized in integers (simply connected $S^2$, integer representation of SO(3)); spin is quantized in half-integers (the SU(2) double cover, half-integer representations). Quantization is topological, not postulated.
 
-#### Approximate Conservation Laws
+##### Approximate Conservation Laws
 
 These arise from geometric properties that are real but continuously deformable. They are violated by specific interactions.
 
 **Individual quark flavors** are conserved by strong and electromagnetic interactions (which do not access the Hopf intersection between circuit topologies) but violated by the weak interaction (which operates *through* the Hopf fibration, permitting flavor-changing topology transitions). **Individual lepton families** are approximate because the $D_{IV}^k$ submanifolds overlap within $D_{IV}^5$ — neutrino oscillations are the overlap integrals between ground states of $D_{IV}^1$, $D_{IV}^3$, $D_{IV}^5$. The PMNS mixing angles are these integrals, computable from domain geometry. **Parity** is violated by the chirality of the Hopf fibration $S^3 \to S^2$: the Hopf map is right-handed ($\pi_3(S^2) = \mathbb{Z}$, sign chosen by nature), and the weak interaction inherits this handedness. Parity violation is not mysterious — it is the chirality of the simplest non-trivial fiber bundle over $S^2$.
 
-#### What BST Adds to Noether
+##### What BST Adds to Noether
 
 Noether's theorem establishes that every continuous symmetry produces a conserved quantity, taking the symmetries as given. BST adds three things. First: the *origin* of the symmetries — translational symmetry because $S^2$ is homogeneous, U(1) because $S^1$ is a circle, SO(3) because $S^2$ is isotropic. Second: the *hierarchy* — absolute (topology of $S^1$), topological (submanifold topology), spacetime ($S^2$ symmetry), approximate (geometric, deformable). Noether's theorem gives no such hierarchy. Third: *topological conservation beyond Noether* — color confinement is a completeness condition, not a symmetry; fermion number is a $\mathbb{Z}_2$ topological invariant, not a continuous symmetry; unitarity follows from $S^1$ compactness, not from any Noether symmetry. These conservation laws exist because of topology, and Noether's theorem cannot derive them.
 
@@ -291,17 +341,17 @@ The complete hierarchy:
 
 The deepest conservation law — unitarity — has no Noether analog. Information is conserved not because of a symmetry but because the fiber has no boundary. This is the correct resolution of the black hole information paradox: information cannot be lost because the $S^1$ mode space is complete, which is because $S^1$ is compact, which is because a circle has no edge.
 
-### 14.11 Maxwell's Equations from the Substrate
+#### May 14.11 — Maxwell's Equations from the Substrate
 
 The electromagnetic force is the simplest gauge sector of BST — the U(1) curvature of the $S^1$ fiber over $S^2$. Maxwell's four equations, which took two centuries to assemble from experiment, follow in one step from the geometry of a circle fibered over a sphere. The derivation is not approximate. Every element of classical electromagnetism — the field equations, the wave equation, the speed of light, the coupling constant, gauge invariance, and the absence of magnetic monopoles — is a consequence of $S^2 \times S^1$.
 
-#### The Connection and Field Tensor
+##### The Connection and Field Tensor
 
 The electromagnetic potential $A_\mu$ is the **connection** on the $S^1$ principal bundle over $S^2$: it encodes how the $S^1$ phase rotates as a circuit moves between neighboring contacts. This identification is not an analogy. A U(1) connection on a principal bundle is precisely a 1-form encoding infinitesimal phase transport. The BST substrate IS this bundle; the electromagnetic potential IS this connection.
 
 The **electromagnetic field tensor** $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is the curvature of the connection — the holonomy deficit around an infinitesimal closed loop on $S^2$. When $F_{\mu\nu} = 0$, the $S^1$ phases around any loop are consistent: no field. When $F_{\mu\nu} \neq 0$, the phases are inconsistent: electromagnetic field present. The electric field is the rate of change of $S^1$ phase in the commitment direction; the magnetic field is the spatial phase curl.
 
-#### The Source-Free Equations — Topology, Not Physics
+##### The Source-Free Equations — Topology, Not Physics
 
 The Bianchi identity for any U(1) connection is $\partial_{[\mu} F_{\nu\rho]} = 0$. In components, this gives both source-free Maxwell equations simultaneously:
 
@@ -311,7 +361,7 @@ These are mathematical identities, not physical laws. They hold on any U(1) bund
 
 **Key point:** Two of Maxwell's four equations are not physics. They are consequences of the topology of a fiber bundle. They would hold in any universe where the electromagnetic field is the curvature of a U(1) connection. BST provides the reason that connection exists.
 
-#### The Source Equations — Dynamics
+##### The Source Equations — Dynamics
 
 The source equations require a metric — a way to relate the curvature $F_{\mu\nu}$ to charge and current. BST provides this through the electromagnetic action on the substrate:
 
@@ -323,23 +373,23 @@ where $\alpha = 1/137.036$ is the Wyler fine structure constant (Section 5.1) an
 
 **Ampère-Maxwell law** $\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0\epsilon_0 \,\partial\vec{E}/\partial t$: magnetic curvature wraps around moving windings. The displacement current arises because a changing electric field (changing commitment-direction phase gradient) is itself a source of spatial curvature — the $S^1$ connection maintaining self-consistency as new contacts commit with evolving phases.
 
-#### The Speed of Light
+##### The Speed of Light
 
 Combining the source equations in vacuum gives the wave equation $\nabla^2\vec{E} = \partial^2\vec{E}/\partial t^2$, with speed $c = 1$ in natural units. This is not a coincidence. In the contact graph, spatial distance is measured in contacts and time in commitment steps. One commitment step advances the wavefront by one contact. The phase disturbance propagates at one contact per step — $c$ — because space and time are measured in the same substrate units.
 
 Maxwell didn't know why $1/\sqrt{\mu_0\epsilon_0}$ equaled the speed of light. BST explains: $\epsilon_0$ and $\mu_0$ are not independent constants. They are the Bergman metric components in the temporal and spatial directions of the contact graph, and their product is 1 because the Bergman metric on $D_{IV}^5$ restricted to the Shilov boundary $S^4 \times S^1$ is locally isotropic in the electromagnetic sector.
 
-#### Gauge Invariance
+##### Gauge Invariance
 
 Gauge invariance — the equivalence of potentials related by $A_\mu \to A_\mu + \partial_\mu \chi$ — is the statement that the $S^1$ fiber can be reparameterized without changing physics. The curvature $F_{\mu\nu}$ is invariant because curvature depends on phase differences around loops, not on absolute phase values. Relabeling positions on the circle changes nothing physical. Gauge invariance is $S^1$ coordinate freedom, as natural as rotational invariance is for $S^2$. It is not a postulate; it is a tautology.
 
-#### Magnetic Monopoles — A Topological Exclusion
+##### Magnetic Monopoles — A Topological Exclusion
 
 A magnetic monopole would require a point on $S^2$ where the $S^1$ fiber is undefined — a topological defect characterized by non-trivial first Chern class $c_1 \neq 0$. The BST substrate is the **product bundle** $S^2 \times S^1$, which is topologically trivial: $c_1(S^2 \times S^1) = 0$. There are no defect points. There are no magnetic monopoles.
 
 The Dirac construction shows that a U(1) bundle over $S^2$ CAN carry a monopole if $\pi_1(U(1)) = \mathbb{Z}$ permits non-trivial winding of the fiber over the base. This would require the $S^1$ fiber to wind around a point on $S^2$ — a non-trivial Chern class. The product bundle structure of BST forbids this. The MoEDAL experiment at the LHC searches for monopoles; any confirmed detection falsifies BST at the bundle-structure level.
 
-#### Summary: Maxwell from the Substrate
+##### Summary: Maxwell from the Substrate
 
 | Maxwell element | Type | BST origin |
 |---|---|---|
@@ -358,7 +408,7 @@ All of classical electromagnetism — field equations, wave equation, speed of l
 
 **Thesis topic 96:** Prove that the product bundle $S^2 \times S^1$ has trivial Chern class and therefore excludes magnetic monopoles; determine whether non-trivial Chern class can be achieved by any modification of the BST substrate consistent with the cascade of Section 25.
 
-### 14.12 The BST-AC Isomorphism: Why Physics = Mathematics (T147)
+#### May 14.12 — The BST-AC Isomorphism: Why Physics = Mathematics (T147)
 
 The force/boundary-condition structure of BST (Section 14.1) is isomorphic to the counting/boundary-condition structure of Arithmetic Complexity (AC, Section 36). This is not an analogy. It is a structural identification, provable from three established results.
 
@@ -383,7 +433,7 @@ The force/boundary-condition structure of BST (Section 14.1) is isomorphic to th
 
 **Thesis topic 97:** Formalize the BST-AC isomorphism as a functor between the category of bounded symmetric domains with harmonic analysis (force = Laplacian eigenvalues, boundary = topology) and the category of proof systems with information measures (counting = bounded enumeration, boundary = definitions). Show that this functor preserves depth: BST derivation depth = AC proof depth for corresponding results.
 
-### 14.13 The Planck Condition: Everything Is Finite (T153)
+#### May 14.13 — The Planck Condition: Everything Is Finite (T153)
 
 The BST-AC isomorphism (Section 14.11) has a prerequisite: both sides must terminate. The Planck Condition is the axiom that guarantees this.
 
@@ -407,7 +457,7 @@ Every row is the same move. An infinity existed because a boundary was missing. 
 
 **Thesis topic 98:** Prove that every known divergence in quantum field theory (UV, IR, Landau pole, vacuum energy) is resolved by the Planck Condition applied to $D_{IV}^5$ — the bounded domain eliminates each infinity without renormalization, case by case.
 
-### 14.14 The Koons Machine: Building Proofs from First Principles
+#### May 14.14 — The Koons Machine: Building Proofs from First Principles
 
 The BST-AC isomorphism (Section 14.11), induction completeness (T150), and the Planck Condition (Section 14.12) combine into a universal construction procedure — the **Koons Machine**:
 
@@ -436,7 +486,7 @@ Full paper: `notes/BST_Koons_Machine.md`. AC-flattened proofs for all six proble
 
 **Thesis topic 100:** Automate the Koons Machine. Given the AC theorem graph and a problem statement, can a CI identify the boundary and count without human guidance? Current evidence: the boundary is the bottleneck (human $O(1)$ intuition), the count is systematic (CI $O(n)$ search).
 
-### 14.15 The Hodge Conjecture: Two-Path Proof (v24)
+#### May 14.15 — The Hodge Conjecture: Two-Path Proof (v24)
 
 The Hodge conjecture — every rational Hodge class on a smooth projective variety is algebraic — has two independent proof paths with independent failure modes.
 
@@ -461,9 +511,9 @@ Both versions are **weight-independent** — neither references period domains, 
 
 -----
 
-## Section 15: Cosmological Implications
+### May Section 15 — Cosmological Implications
 
-### 15.0 The Substrate Partition Function: Three Phases
+#### May 15.0 — The Substrate Partition Function: Three Phases
 
 The thermodynamics of the BST substrate is computed from the partition function with Haldane exclusion on the Shilov boundary $\Sigma = S^4 \times S^1$ of $D_{IV}^5$. The computation runs over $S^4$ spherical harmonics (degree $l$, degeneracy $d_l$) and $S^1$ winding modes (number $m$, energy $|m|$), with Haldane cap $N_{\max} = 137$:
 
@@ -494,13 +544,13 @@ The strong first-order transition ($C_v = 330{,}000$) directly feeds the NANOGra
 
 Code: `notes/bst_partition_function_extended.py`. Full analysis: `notes/BST_PartitionFunction_Analysis.md`.
 
-### 15.1 The Big Bang as Minimum Symmetry Breaking
+#### May 15.1 — The Big Bang as Minimum Symmetry Breaking
 
 $$\boxed{\text{The Big Bang is the activation of exactly 1 of the 21 generators of }\mathrm{SO}_0(5,2)\text{ at }T_c = 0.487\text{ MeV}}$$
 
 Not an explosion. Not a singularity. Not a quantum fluctuation from nothing. The transition of one rotational degree of freedom in a 21-dimensional Lie algebra from frozen (a passive symmetry, physically inert) to active (a usable channel, physically consequential).
 
-#### The Algebra Before the Bang
+##### The Algebra Before the Bang
 
 The holomorphic automorphism group of $D_{IV}^5$ is $G = \mathrm{SO}_0(5,2)$, with Lie algebra $\mathfrak{g} = \mathfrak{so}(5,2)$. This algebra has dimension:
 
@@ -508,7 +558,7 @@ $$\dim\,\mathfrak{so}(5,2) \;=\; \frac{(5+2)(5+2-1)}{2} \;=\; \frac{7 \times 6}{
 
 These 21 generators are the complete set of infinitesimal symmetry operations of the BST substrate. In the pre-spatial phase ($T > T_c$), all 21 are frozen — they are symmetries of the state, not dynamical degrees of freedom. The pre-spatial substrate is fully $\mathrm{SO}_0(5,2)$-symmetric: every direction in the algebra is equivalent to every other. Nothing happens, because full symmetry means full equivalence means no dynamics. This is not nothing — it is the most symmetric possible something. The algebra exists. The substrate exists. But no physics can occur because no direction is distinguished.
 
-#### The Cartan Decomposition and the Transition
+##### The Cartan Decomposition and the Transition
 
 The isotropy group of $D_{IV}^5$ is $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$. The Cartan decomposition of the Lie algebra is:
 
@@ -518,7 +568,7 @@ with $21 = 11 + 10$. At $T_c$, the $\mathrm{SO}(2)$ generator — the infinitesi
 
 Once $\mathrm{SO}(2)$ activates, the 10 generators of $\mathfrak{m}$ — the tangent space of $D_{IV}^5$ — become dynamical degrees of freedom. The five complex dimensions of the configuration space open. The Bergman metric becomes physical. Contact commitment begins.
 
-#### Why Exactly One Generator
+##### Why Exactly One Generator
 
 This is the minimum symmetry breaking that permits a universe with calculable constants:
 
@@ -528,7 +578,7 @@ This is the minimum symmetry breaking that permits a universe with calculable co
 
 **One $\mathrm{SO}(2)$ is necessary and sufficient.** More than one $\mathrm{SO}(2)$ factor would over-break the symmetry, producing a domain of lower rank with fewer channel slots — a different universe with different constants. Fewer than one (i.e., no $\mathrm{SO}(2)$) produces no Hermitian structure and no physics. The Big Bang is a Goldilocks event determined by the Cartan classification theorem.
 
-#### The Transition Temperature
+##### The Transition Temperature
 
 The phase transition temperature follows from the generator count:
 
@@ -538,7 +588,7 @@ In physical units: $T_c = m_e \times (20/21) = 0.487$ MeV. The factor $20/21$ co
 
 Physically, $T_c = 0.487$ MeV is the electron-positron annihilation epoch: 3.1 seconds after the conventional time origin. The BST phase transition does not occur at the Planck time or the GUT scale. It occurs when the universe cools to $m_e \times (20/21)$ — when the electron's own energy scale, suppressed by the SO(2) generator fraction, sets the thermal threshold for commitment.
 
-#### What "Before the Big Bang" Means
+##### What "Before the Big Bang" Means
 
 The pre-spatial state is not empty space at an earlier time. Time is contact commitment ordering — without committed contacts, there is no ordering, hence no time. The "before" in "before the Big Bang" is logical, not temporal:
 
@@ -547,7 +597,7 @@ The pre-spatial state is not empty space at an earlier time. Time is contact com
 - The fine structure constant $\alpha = 1/137.036$ existed — it is a geometric property of $D_{IV}^5$, true whether or not any generator has activated. $\alpha$ is logically prior to physics the way an axiom is prior to a theorem.
 - Time did not exist. There was no "when."
 
-#### The Cascade
+##### The Cascade
 
 Once the $\mathrm{SO}(2)$ generator activates:
 
@@ -562,7 +612,7 @@ Once the $\mathrm{SO}(2)$ generator activates:
 
 The critical exponents of this transition, determined by the $D_{IV}^5$ domain geometry at $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$, predict the CMB spectral index $n_s$ and tensor-to-scalar ratio $r$. See thesis topic 72.
 
-### 15.1a The Cosmological Derivation Chain (April 2026)
+#### May 15.1a — The Cosmological Derivation Chain (April 2026)
 
 The complete chain from geometry to the three headline cosmological constants — identifications with one named input; $\Lambda$'s value in particular is NOT derived (a closed structural form with one obstacle, Spine Lecture 9):
 
@@ -598,23 +648,23 @@ $$\xrightarrow{\Omega_\Lambda = 13/19} H_0 = c\sqrt{19\Lambda/39} = 68.02 \text{
 
 Two semi-external inputs: $N_{\mathrm{eff}} = 3.044$ (BST gives $N_\nu = N_c = 3$; the 0.044 QED correction is beyond BST integers; impact < 0.5%) and $e^{-1/2}$ in $d_0$ (physically motivated but not derived from BST integers). Full treatment: Paper #24 ("The Cosmological Constants Are Not Free").
 
-### 15.2 Flatness Without Fine-Tuning
+#### May 15.2 — Flatness Without Fine-Tuning
 
 The observed spatial flatness of the universe is a major puzzle in standard cosmology, requiring either inflation or extreme fine-tuning of initial conditions. In BST, flatness is the default. The 2D substrate has no intrinsic curvature. The 3D projection inherits this flatness as its natural state. Curvature requires a positive cause (mass-energy concentration); flatness requires no explanation.
 
-### 15.3 CMB Anomalies as Substrate Imprints
+#### May 15.3 — CMB Anomalies as Substrate Imprints
 
 The substrate has $S^2 \times S^1$ geometry. If the phase transition from pre-spatial to spatial left residual structure on the $S^2$ substrate, this structure would appear as large-angle anomalies in the CMB — correlations at angular scales reflecting the substrate topology rather than inflationary dynamics.
 
 The observed CMB anomalies (hemispherical power asymmetry, the Cold Spot, low-multipole alignment) are unexplained by standard inflationary cosmology. BST predicts these arise from the $S^2$ substrate geometry. The specific test: determine whether the anomalous correlations between low multipoles are consistent with the representation theory of SO(3) acting on $S^2$, which would constitute a direct imprint of the substrate topology on observable data.
 
-### 15.4 Partial Substrate Connectivity Beyond the Horizon
+#### May 15.4 — Partial Substrate Connectivity Beyond the Horizon
 
 The observable universe corresponds to the causally connected region of the contact graph — where enough causal steps have occurred since the phase transition for chains to reach us. Beyond this horizon, the substrate exists but full causal connectivity has not been established.
 
 BST predicts that the boundary is not sharp. Partial connections — a few contacts through the third dimension linking substrate patches without full causal chain completion — should produce weak correlations between our observable patch and regions beyond the horizon. These partial connections would manifest as large-scale CMB anomalies with a specific angular correlation function determined by the contact graph’s long-range connectivity statistics.
 
-### 15.5 Variable Universe Age
+#### May 15.5 — Variable Universe Age
 
 Different regions of the substrate may have undergone the spatial emergence phase transition at different times, producing patches at different stages of evolution:
 
@@ -624,7 +674,7 @@ Different regions of the substrate may have undergone the spatial emergence phas
 
 These are not parallel universes. They are neighborhoods on the same substrate at different evolutionary stages. The contact graph has a brain-like architecture — dense local clusters with sparse long-range connections — arising naturally from finite connectivity and discrete step size.
 
-### 15.5a The Thermodynamic Future: Quiet Substrate with Guaranteed Reboot
+#### May 15.5a — The Thermodynamic Future: Quiet Substrate with Guaranteed Reboot
 
 What happens to the "old patches" — when all matter has diluted beyond the local observable horizon?
 
@@ -666,9 +716,9 @@ The universe doesn't die. It goes quiet. And quiet substrates reboot.
 
 Full treatment: `notes/BST_Thermodynamic_Future.md`.
 
-### 15.6 Primordial Gravitational Waves: The Substrate's Own Ring
+#### May 15.6 — Primordial Gravitational Waves: The Substrate's Own Ring
 
-#### The Ring
+##### The Ring
 
 The Big Bang in BST is a phase transition: the pre-spatial state (fully saturated channel, all 137 slots occupied everywhere, no emergent geometry) nucleated into the spatial state (available channel capacity, circuit propagation, emergent 3D geometry). This transition released energy as the system fell from the high-energy saturated configuration to the low-energy spatial configuration.
 
@@ -676,7 +726,7 @@ The transition rang the substrate like a struck bell. The energy propagated acro
 
 The electromagnetic echo of this ring is the cosmic microwave background — thermal radiation from the hot plasma that formed as the spatial phase cooled. The gravitational wave echo is different. Gravitational waves couple to the contact density directly, not through electromagnetic circuits. They propagate through the substrate itself. They are the substrate's own vibration.
 
-#### The Echo
+##### The Echo
 
 The substrate is $S^2$ — a closed surface. If the phase transition nucleated at a single point, the transition wavefront propagated outward across the sphere in all directions. But $S^2$ is finite and has no boundary. The wavefront eventually reaches the antipodal point and converges — focused by the topology of the sphere into a concentrated echo.
 
@@ -691,7 +741,7 @@ The wavefront does not stop at the antipode. It passes through, re-diverges, pro
 
 The spacing between echoes gives the diameter of $S^2$ at the time of the transition. The damping rate gives the expansion history. The spectral shape gives the critical exponents of the phase transition on $D_{IV}^5$.
 
-#### Resonant Modes
+##### Resonant Modes
 
 The closed $S^2$ substrate has resonant modes — specific angular frequencies at which gravitational waves constructively interfere with their own echoes:
 
@@ -699,7 +749,7 @@ $$f_l = \frac{c}{R_{S^2}} \sqrt{l(l+1)}$$
 
 where $R_{S^2}$ is the substrate radius at the time of the transition. **BST predicts spectral features; inflation predicts a featureless spectrum.** Standard slow-roll inflation produces a nearly scale-invariant primordial gravitational wave spectrum — no preferred frequencies, no peaks, no features. BST's phase transition on a closed substrate produces peaks determined by the substrate resonant modes and the nucleation geometry. This is a clean observational discriminant between BST and inflation.
 
-#### The NANOGrav Prediction
+##### The NANOGrav Prediction
 
 A first-order phase transition at temperature $T_c$ produces a gravitational wave background peaking at (redshifted to today):
 
@@ -719,7 +769,7 @@ The **NANOGrav 15-year dataset (2023) detected a stochastic gravitational wave b
 
 The spread from 6.4 to 9.1 nHz reflects the two dominant GW production mechanisms (sound waves vs. MHD turbulence). Precise matching requires computing the transition duration $\beta/H_*$ and efficiency factor $\kappa$ from the BST partition function dynamics.
 
-#### Transition Strength
+##### Transition Strength
 
 The transition strength parameter $\alpha_{\rm tr} = \Delta V / \rho_{\rm rad}$ is determined by the BST heat capacity $C_v \approx 330{,}000$ at $T_c$ (Section 15.1) — three orders of magnitude above a weakly first-order electroweak transition. This implies $\alpha_{\rm tr} \gg 1$: the BST transition is **ultra-strong**.
 
@@ -727,7 +777,7 @@ $$\Omega_{\rm GW} h^2 \sim 10^{-5} \times \left(\frac{\alpha_{\rm tr}}{1+\alpha_
 
 (estimating $H_* R_* \sim 0.01$ for a strong transition at the BBN scale). This is within the sensitivity of current pulsar timing arrays.
 
-#### Multiple Nucleation and Topological Defects
+##### Multiple Nucleation and Topological Defects
 
 If the transition nucleated at multiple points, the collision boundaries between expanding spatial-phase bubbles are topological defects — domain walls, cosmic strings — distributed across the substrate. These contribute to the dark matter budget (Section 19). The gravitational wave spectrum encodes the nucleation geometry:
 
@@ -738,7 +788,7 @@ If the transition nucleated at multiple points, the collision boundaries between
 | Multiple nucleation | Statistical superposition | Network of defects |
 | Continuous transition | Smooth, featureless | None |
 
-#### Observational Prospects
+##### Observational Prospects
 
 **LiteBIRD** (~2032) and **CMB-S4** (~2030s) will characterize B-mode polarization. BST predicts features at angular scales determined by the resonant modes of $S^2$ — feature spacing encodes the substrate size, feature amplitude encodes the nucleation geometry. The angular scale of B-mode features and the CMB temperature anomalies (Section 15.3) should be mutually consistent, both determined by $S^2$ geometry.
 
@@ -748,15 +798,15 @@ The most dramatic prediction: discrete echoes arriving at regular intervals, wit
 
 -----
 
-## Section 16: Matter Clumping and Gravitational Feedback
+### May Section 16 — Matter Clumping and Gravitational Feedback
 
-### 16.1 Positive Feedback in the Contact Graph
+#### May 16.1 — Positive Feedback in the Contact Graph
 
 Matter clumps because the contact graph has a positive feedback instability. Mass-energy increases local contact density. Increased contact density supports more stable circuit configurations (more matter). More matter further increases contact density. This feedback drives gravitational collapse until it reaches the saturation limit (channel capacity 137), which corresponds to black hole formation.
 
 All structures between empty space and black holes — stars, galaxies, clusters, filaments — represent different positions on this feedback curve.
 
-### 16.2 Observable Consequences of Variable Vacuum Pressure
+#### May 16.2 — Observable Consequences of Variable Vacuum Pressure
 
 If vacuum pressure varies with local contact density, then dense regions of the universe (filaments, clusters) have different effective $\Lambda$ than sparse regions (voids). This produces several testable predictions:
 
@@ -764,7 +814,7 @@ If vacuum pressure varies with local contact density, then dense regions of the 
 1. **Void-filament expansion rate asymmetry:** Voids should expand at a different rate than filaments, with the difference traceable to their different vacuum pressures rather than their different matter content alone.
 1. **Modified redshift-distance relation:** Objects in overdense environments carry uncorrected vacuum pressure contributions to their measured redshift, beyond the gravitational redshift that standard corrections account for. This systematic bias affects all distance measurements based on redshift.
 
-### 16.3 Rapid Early Structure Formation
+#### May 16.3 — Rapid Early Structure Formation
 
 The James Webb Space Telescope (JWST) has revealed massive, morphologically mature galaxies at redshifts $z > 10$ — within 300–500 million years of the conventional Big Bang. Some exhibit disk and spiral structure. These observations are in tension with $\Lambda$CDM, where hierarchical structure formation from inflationary seed perturbations ($\delta\rho/\rho \sim 10^{-5}$) requires billions of years to build large galaxies. In standard cosmology, dark matter halos must accrete particle by particle to provide gravitational wells, baryons must then fall in and cool, and disk settling and density wave development require additional dynamical times.
 
@@ -796,9 +846,9 @@ Together, these mechanisms predict that BST structure formation is qualitatively
 
 -----
 
-## Section 17: Information Theory of the Substrate
+### May Section 17 — Information Theory of the Substrate
 
-### 17.1 Particles as Error-Correcting Codes
+#### May 17.1 — Particles as Error-Correcting Codes
 
 The $S^1$ communication channel has capacity 137 circuits. Shannon’s channel capacity theorem applies: reliable information transfer is possible at any rate below channel capacity using appropriate error-correcting codes.
 
@@ -806,7 +856,7 @@ In BST, particles ARE error-correcting codes. A stable particle is a circuit top
 
 The stability of matter is a coding theory result. Stable particles are those whose circuit topologies have sufficient topological redundancy to correct errors from vacuum fluctuations. Unstable particles are codes with insufficient redundancy — vacuum noise eventually corrupts them.
 
-### 17.2 Decoherence as Code Failure
+#### May 17.2 — Decoherence as Code Failure
 
 The decoherence rate for any quantum system is determined by the ratio of the vacuum error rate (from substrate fluctuations) to the system’s topological error correction capacity:
 
@@ -817,13 +867,13 @@ The decoherence rate for any quantum system is determined by the ratio of the va
 
 The exponential decay law for unstable particles follows from Poisson statistics of uncorrectable error arrivals. Half-lives are determined by the code’s vulnerability to specific error types — calculable from circuit topology.
 
-### 17.3 Radioactive Decay as Code Corruption
+#### May 17.3 — Radioactive Decay as Code Corruption
 
 A radioactive nucleus is a metastable code — it corrects most errors but has a specific failure mode where the code transitions to a lower-energy code word (the decay product). The decay rate equals the arrival rate of uncorrectable errors of the relevant type.
 
 **Prediction:** Half-lives should be calculable from BST circuit topology. The topological error correction structure of each nucleus determines which failure modes exist, which determines the decay channels and rates. Testing this against the hundreds of measured half-lives across the periodic table would provide extensive validation or refutation.
 
-### 17.4 Light as Matched Filter
+#### May 17.4 — Light as Matched Filter
 
 A matched filter automatically compensates for known distortion in a communication channel. Light follows geodesics — the paths of minimum distortion through curved spacetime. In BST, this makes light a natural matched filter: it rides the curvature, automatically handling the deterministic component of the channel distortion.
 
@@ -831,7 +881,7 @@ This explains why $\alpha = 1/137$ is not much smaller. The error-correction cod
 
 The matched filter interpretation connects to signal processing: in radar, matched filters maximize signal-to-noise by correlating the received signal with a template of the expected distortion. Light does this automatically — its geodesic trajectory IS the template. The remaining noise (the quantum fluctuations) is what $\alpha$ quantifies: 1/137 of the channel carries signal, and 136/137 corrects the fluctuation noise that the matched filter cannot remove.
 
-### 17.5 Conservation Laws as Parity Checks
+#### May 17.5 — Conservation Laws as Parity Checks
 
 Every conservation law has the form $\sum_i Q_i = 0$. This is structurally identical to a parity check equation in coding theory. The error-correcting code that protects committed information in the substrate uses conservation laws as its parity checks:
 
@@ -841,7 +891,7 @@ Every conservation law has the form $\sum_i Q_i = 0$. This is structurally ident
 
 All sums conserve. All loops close. This is not a metaphor — the mathematical structure of a parity check matrix in a linear code is identical to the mathematical structure of conservation law constraints on physical states. The code's parity checks ARE the conservation laws (see Section 14.9 for the full hierarchy).
 
-### 17.6 Alpha as Bootstrap Fixed Point
+#### May 17.6 — Alpha as Bootstrap Fixed Point
 
 The relationship between signal and noise in the substrate is self-referential. The error-correction overhead (136/137 of the channel) generates the vacuum fluctuations that constitute the noise. The noise determines the required overhead. Alpha is the unique self-consistent solution to this bootstrap:
 
@@ -854,7 +904,7 @@ This fixed-point structure means $\alpha$ is not arbitrary — it is the unique 
 
 Full treatment: `notes/BST_ErrorCorrection_Physics.md`.
 
-### 17.7 Holographic Bound Correction
+#### May 17.7 — Holographic Bound Correction
 
 The Bekenstein-Hawking bound states that the maximum information in a region scales with its boundary area measured in Planck units: $I_{\rm max} \sim A/\ell_{\rm Pl}^2$. BST predicts a correction to this bound.
 
@@ -873,9 +923,9 @@ The two bounds agree on the *structure* of holography (information proportional 
 
 -----
 
-## Section 18: The 2D-to-3D Interface
+### May Section 18 — The 2D-to-3D Interface
 
-### 18.1 Emergence via Holonomy Encoding
+#### May 18.1 — Emergence via Holonomy Encoding
 
 The third spatial dimension is not a separate structure added to the 2D substrate. It is encoded in the phase relationships between neighboring bubbles on $S^2$ via the $S^1$ fiber.
 
@@ -885,7 +935,7 @@ This is holonomy. The pattern of $S^1$ phases across the contact graph IS the 3D
 
 The “interface” between 2D and 3D is not a boundary or surface. It is a mathematical equivalence — a fiber bundle structure where the base is $S^2$ and the connection (phase pattern) determines the emergent 3D geometry. The 2D-with-phases description and the 3D-geometry description are dual: isomorphic representations of the same underlying contact graph, with no information loss in either direction.
 
-### 18.2 Why Physics Is Comprehensible
+#### May 18.2 — Why Physics Is Comprehensible
 
 If the 3D world is the thermodynamic macrostate of the 2D substrate, then the laws of physics are equations of state. Equations of state are always simple — the ideal gas law, Maxwell’s equations, Einstein’s equation — because statistical averaging over enormous numbers of microstates produces smooth, low-dimensional relationships regardless of microscopic complexity. This is the central limit theorem applied to physics.
 
@@ -893,13 +943,13 @@ The simplicity of physical law is not mysterious. It is the inevitable consequen
 
 -----
 
-## Section 19: Dark Matter as Channel Noise
+### May Section 19 — Dark Matter as Channel Noise
 
-### 19.1 The Missing Mass Problem
+#### May 19.1 — The Missing Mass Problem
 
 Galaxy rotation curves require approximately 5–6 times more gravitational mass than is visible. The standard explanation — collisionless dark matter particles (WIMPs, axions, sterile neutrinos) — has produced no confirmed detection despite decades of experimental search. BST offers an alternative: the “dark matter” gravitational excess is not missing matter. It is channel noise — the information-theoretic consequence of operating the $S^1$ communication channel at varying utilization levels.
 
-### 19.2 Shannon’s Theorem Applied to the Substrate
+#### May 19.2 — Shannon’s Theorem Applied to the Substrate
 
 Shannon’s channel capacity theorem states that $C = B \log_2(1 + S/N)$, where $C$ is the maximum error-free data rate, $B$ is the bandwidth, $S$ is signal power, and $N$ is noise power. Pushing a channel beyond capacity does not produce more signal. It produces errors.
 
@@ -915,7 +965,7 @@ Incomplete loadings have the following properties:
 
 **They gravitate.** They load the channel, contributing to contact density. Contact density determines the emergent metric. Therefore incomplete loadings produce gravitational effects indistinguishable from matter, while being completely invisible.
 
-### 19.3 The S/N Curve and Galaxy Rotation
+#### May 19.3 — The S/N Curve and Galaxy Rotation
 
 The dark matter fraction at any point in a galaxy is the ratio of channel noise (incomplete loadings) to total channel loading (complete circuits plus incomplete loadings). This ratio varies with local density:
 
@@ -929,7 +979,7 @@ The dark matter fraction at any point in a galaxy is the ratio of channel noise 
 
 The transition from signal-dominated to noise-dominated follows the Shannon curve for a channel with Haldane exclusion statistics ($g = 1/137$). This curve has a characteristic “knee” — a density scale at which the noise fraction transitions from negligible to significant.
 
-### 19.4 Derivation of the MOND Acceleration Scale
+#### May 19.4 — Derivation of the MOND Acceleration Scale
 
 Milgrom’s Modified Newtonian Dynamics (MOND) successfully fits galaxy rotation curves using a single parameter: the acceleration scale $a_0 \approx 1.2 \times 10^{-10}$ m/s². Below this acceleration, gravitational dynamics deviate from Newtonian predictions in a way that eliminates the need for dark matter in individual galaxies. MOND has had no theoretical derivation — $a_0$ is a measured parameter.
 
@@ -937,13 +987,13 @@ In BST, $a_0$ corresponds to the gravitational acceleration at which the local c
 
 The BST mechanism reproduces MOND phenomenology for individual galaxies while providing what MOND lacks: a theoretical foundation, a natural extension to galaxy clusters (where the channel loading statistics differ), and consistency with the CMB power spectrum (where the channel noise contributes as an effective dark component).
 
-### 19.5 Resolution of the Core-Cusp Problem
+#### May 19.5 — Resolution of the Core-Cusp Problem
 
 Particle dark matter simulations predict sharply rising density profiles (“cusps”) toward galaxy centers. Observations of dwarf galaxies consistently show flat density cores. This core-cusp discrepancy has resisted resolution within the particle dark matter framework despite numerous proposed modifications (self-interacting dark matter, baryonic feedback, fuzzy dark matter).
 
 BST channel noise naturally produces cores rather than cusps. As the galaxy center is approached, channel loading increases toward capacity. Near full capacity, the incomplete loading fraction saturates — the noise can’t keep increasing because total loading is bounded by 137. The gravitational effect (signal plus noise) flattens in the core rather than continuing to rise. The core radius is determined by the density at which channel loading reaches the saturation regime — a specific, calculable prediction.
 
-### 19.6 The Bullet Cluster
+#### May 19.6 — The Bullet Cluster
 
 The Bullet Cluster — where gravitational lensing is spatially separated from the visible baryonic gas after a galaxy cluster collision — is the strongest evidence cited for particle dark matter. During the collision, the gas (baryonic matter) interacts and concentrates in the center, while the gravitational lensing signal (attributed to dark matter) passes through with the galaxies.
 
@@ -951,7 +1001,7 @@ Incomplete loadings are not freely propagating particles. They are properties of
 
 This produces the same observational signature as collisionless particle dark matter — lensing separated from gas — through a completely different mechanism: channel noise tracking the gravitational potential.
 
-### 19.7 Why the Universe Is Mostly Empty
+#### May 19.7 — Why the Universe Is Mostly Empty
 
 The universe has a matter density of roughly $10^{-123}$ in Planck units. This enormous emptiness is not coincidental — it is the operating point at which the $S^1$ channel functions cleanly.
 
@@ -961,7 +1011,7 @@ The universe operates at extremely low channel utilization because that is where
 
 The vacuum is not empty. It carries the substrate, the residual pre-spatial contacts, and the chiral condensate. But it is far below channel capacity — providing the headroom necessary for the signal (visible matter) to propagate cleanly through the noise floor (incomplete loadings, vacuum fluctuations).
 
-### 19.8 The Incomplete Winding Spectrum
+#### May 19.8 — The Incomplete Winding Spectrum
 
 Incomplete windings are not uniform. Each represents a winding attempt that progressed to a different fraction of $S^1$ before channel congestion prevented closure. A winding that reached three-quarters of the circle carries more energy than one that reached one-quarter. Each occupies a different fraction of a channel slot. The dark matter at any point is not a single substance but a spectrum of incomplete windings with varying energies and channel occupancies.
 
@@ -975,7 +1025,7 @@ At high loading (galactic core, cluster center): most winding attempts fail earl
 
 **Environment-dependent composition.** The spectral composition of incomplete windings varies with local density even when the total gravitational effect is similar. Two regions with equal total dark matter mass may have different spectral compositions — one dominated by a few high-energy near-complete windings, another by many low-energy barely-started windings. Same total mass, different spectrum, analogous to gas at the same pressure but different temperatures.
 
-### 19.9 Observable Consequences of the Spectrum
+#### May 19.9 — Observable Consequences of the Spectrum
 
 The spectral variation resolves a persistent observational puzzle. Different methods of measuring dark matter content sometimes yield systematically different answers:
 
@@ -989,7 +1039,7 @@ Each method probes a different aspect of the same underlying incomplete winding 
 
 **Prediction:** The ratio of lensing-derived to rotation-curve-derived dark matter mass varies systematically with environment, with the discrepancy increasing in high-density regions where the incomplete winding spectrum is most shifted toward low energies. This is testable with existing data by comparing lensing and kinematic mass estimates across galaxy clusters of varying central density.
 
-### 19.10 Comparison with Particle Dark Matter
+#### May 19.10 — Comparison with Particle Dark Matter
 
 Particle dark matter (WIMPs, axions, sterile neutrinos, fuzzy dark matter) has been patched repeatedly over four decades. Each null result in direct detection experiments eliminates a region of parameter space and spawns new models with adjusted parameters. The program has produced no confirmed detection and an expanding landscape of increasingly constrained alternatives.
 
@@ -1007,7 +1057,7 @@ Key distinctions:
 |Direct detection      |Should eventually succeed            |Permanently null                         |
 |Free parameters       |Mass, cross-section, self-interaction|None (spectrum from channel geometry)    |
 
-### 19.11 Quantitative Predictions
+#### May 19.11 — Quantitative Predictions
 
 1. **Galaxy rotation curve shape:** Determined by the $S^1$ channel error rate curve with Haldane exclusion statistics, mapped through the galaxy’s baryonic density profile. No free parameters beyond the baryonic mass distribution.
 1. **Core density profiles:** Flat cores rather than cusps, with core radius determined by the channel saturation density. Specific prediction distinguishing BST from particle dark matter.
@@ -1019,33 +1069,33 @@ Key distinctions:
 
 -----
 
-## Section 20: The Weak Force as Variation Operator
+### May Section 20 — The Weak Force as Variation Operator
 
-### 20.1 Not a Force
+#### May 20.1 — Not a Force
 
 The weak interaction is not a force in the mechanical sense. Electromagnetism accelerates charges. The strong force confines triads. Gravity curves geometry. The weak interaction does none of these. It substitutes — one quark flavor replaced by another within an intact triad, topological closure preserved, spatial configuration unchanged.
 
 The historical classification as a “force” arose because beta decay was discovered before the mechanism was understood. Fermi modeled it as a contact interaction by analogy with electromagnetic and strong interactions. The name stuck. But the weak interaction is categorically different from the other three: it is a discrete substitution event, not a continuous interaction.
 
-### 20.2 The Hopf Fibration as Minimal Variation Geometry
+#### May 20.2 — The Hopf Fibration as Minimal Variation Geometry
 
 The weak interaction is mediated by the Hopf fibration $S^3 \to S^2$, which is the simplest non-trivial fiber bundle connecting a circular fiber to a spherical base. A flavor change requires connecting the $S^1$ electromagnetic structure (which distinguishes up-type from down-type quarks) to the $S^2$ spatial configuration of the nucleus. The Hopf fibration is the unique minimal geometry that performs this connection.
 
 The W boson is a Hopf packet — a quantum of the fibration structure carrying the substitution operation from one configuration to another. Its mass ($\sim 80$ GeV) is the energy cost of instantiating this packet. The short range of the weak interaction ($\sim 10^{-18}$ m) follows from the heavy packet’s inability to propagate far before reabsorption.
 
-### 20.3 Phase-Locked Resonance Mechanism
+#### May 20.3 — Phase-Locked Resonance Mechanism
 
 The three quarks within a nucleon triad cycle through color orderings on $\mathbb{CP}^2$ at the strong force timescale ($\sim 10^{-24}$ s). The combined configuration space of the triad is approximately twelve-dimensional. The weak transition requires the triad’s cycling trajectory to pass through the low-dimensional intersection with the Hopf fibration subspace — a small target in a large space.
 
 The ratio of the intersection volume to the total configuration space volume determines the weak transition rate. The weak force appears weak not because the coupling at the intersection is small, but because the intersection is rare — a twelve-dimensional lock with a specific combination. The hierarchy of weak decay rates across the particle spectrum, spanning 28 orders of magnitude from the top quark ($\sim 10^{-25}$ s) to the neutron ($\sim 880$ s), maps directly onto how efficiently each particle’s cycling trajectory samples the Hopf intersection.
 
-### 20.4 Beat Frequency and Decay
+#### May 20.4 — Beat Frequency and Decay
 
 The accumulated phase of the strong cycling determines when the weak transition fires. Each strong cycle adds phase. When the total accumulated phase reaches the critical alignment with the Hopf intersection, a brief window opens for flavor substitution. The half-life equals the number of strong cycles needed to accumulate critical phase, divided by the cycling frequency.
 
 Nuclear stability arises when the coupling between triads produces destructive interference in the phase accumulation. Magic number nuclei have symmetric triad arrangements where every constructive contribution is cancelled by a destructive one. The net phase buildup toward the weak transition is zero. The door never opens. Unstable nuclei have asymmetric arrangements where some triads can build phase coherently without cancellation.
 
-### 20.5 The Role of Variation in the Universe
+#### May 20.5 — The Role of Variation in the Universe
 
 Without the weak force, no quark could ever change flavor. No beta decay. No stellar nucleosynthesis beyond hydrogen and helium. No carbon, oxygen, or iron. No chemistry. No life. The universe would be perfectly stable and perfectly dead.
 
@@ -1063,7 +1113,7 @@ The weak force is not a force. It is the universe’s mechanism for exploring it
 
 The 880-second lifetime is precisely tuned by the Hopf intersection geometry to allow neutron transport through the BBN window while ensuring eventual delivery. The weak force does not break things — it assembles them, one substitution at a time. Every neutron decay is the universe unpacking itself into matter, connection, and vacuum.
 
-### 20.6 The Weak Force as Dimensional Lock
+#### May 20.6 — The Weak Force as Dimensional Lock
 
 The weak variation operator provides a uniquely powerful constraint on the dimensionality of physics. The argument, developed fully in Section 14.5, is summarized here: the Hopf fibration $S^3 \to S^2$ is the unique Hopf fibration whose total space is a Lie group (other than the trivial $S^1 \to S^1$). The next Hopf fibration, $S^7 \to S^4$, has $S^7$ as its total space — the unit octonions, which are non-associative. A variation operator on a non-associative fiber cannot preserve the $Z_3$ closure of triads. Therefore:
 
@@ -1074,7 +1124,7 @@ The weak force does not merely operate in 3 spatial dimensions — it algebraica
 
 This has a striking implication: the very mechanism that makes the universe complex (controlled flavor variation, enabling nucleosynthesis and chemistry) is the same mechanism that locks the universe to three spatial dimensions. Complexity and dimensionality are not independent properties — they are jointly determined by the associativity of the Hopf fiber.
 
-### 20.7 The Weak Force as Error Correction (T1241)
+#### May 20.7 — The Weak Force as Error Correction (T1241)
 
 The weak interaction has a second interpretation that complements the variation-operator picture: it is the universe's error-correction mechanism, operating through the $(7,4,3)$ Hamming code.
 
@@ -1097,27 +1147,27 @@ The weak force is specifically the "correct" operation: $\zeta(N_c) = \zeta(3)$ 
 
 -----
 
-## Section 21: Thermodynamic and Information-Theoretic Foundation
+### May Section 21 — Thermodynamic and Information-Theoretic Foundation
 
-### 21.1 The Contact Graph as Microstate
+#### May 21.1 — The Contact Graph as Microstate
 
 The central claim of BST is that the contact graph on $D_{IV}^5$ constitutes the microscopic degrees of freedom of reality. The 3D world — particles, forces, spacetime geometry — is the macrostate. The contact graph configuration is the microstate. Physics is the thermodynamic relationship between them.
 
 This is not an analogy. When Boltzmann wrote $S = k \ln W$, the $W$ counts the number of distinct contact configurations on $D_{IV}^5$ that produce the same macroscopic 3D expression. Entropy is the logarithm of the number of substrate arrangements invisible to 3D observation. Temperature is the rate of contact commitment. The second law is the thermodynamic gradient from uncommitted to committed contacts.
 
-### 21.2 Particles Are Not Packets — They Are Projections
+#### May 21.2 — Particles Are Not Packets — They Are Projections
 
 Particles are not fundamental objects that exchange information. Particles are how contact graph configurations appear from within the 3D projection. A proton is not a thing that exists and then communicates. A proton is a persistent pattern in the contact graph’s self-organization — a topologically stable configuration that survives the projection from 2D microstate to 3D macrostate. Its stability is a coding theory result (topological error correction). Its interactions are adjacency effects on the contact graph. Its decay is code failure.
 
 The actual information content of the universe is the contact graph configuration, not the particle content. Particles are part of the 3D expression — shadows on the wall. The contact graph is the reality that casts the shadows.
 
-### 21.3 Time as Contact Commitment
+#### May 21.3 — Time as Contact Commitment
 
 “Now” is what the contact graph has committed so far. The past is the set of contacts that have been realized into definite configurations. The future is the set of contacts that remain uncommitted. The present is the boundary — the decoherence front where commitment is actively occurring.
 
 Time flows in one direction because contact commitment is thermodynamically irreversible. Uncommitting a contact requires work against the entropy gradient, just as Landauer’s principle requires $kT \ln 2$ per bit erased. The arrow of time is not a statistical tendency or an initial condition. It is the fundamental asymmetry of the contact graph — contacts commit but do not uncommit without external work.
 
-### 21.4 Established Results as Consequences
+#### May 21.4 — Established Results as Consequences
 
 Several established results in theoretical physics follow naturally from the BST microstate identification:
 
@@ -1133,7 +1183,7 @@ Several established results in theoretical physics follow naturally from the BST
 
 **Verlinde’s entropic gravity**: Gravity as an entropic force — arising from the tendency of systems to increase entropy — follows from the contact graph thermodynamics. The “tendency to increase entropy” is the tendency of the contact graph to evolve toward more probable configurations, which at the macroscopic level manifests as gravitational attraction toward higher contact density regions.
 
-### 21.5 The Path Integral as Partition Function
+#### May 21.5 — The Path Integral as Partition Function
 
 The Feynman path integral sums over all possible histories weighted by $e^{iS/\hbar}$. The BST partition function sums over all contact configurations weighted by $e^{-\beta E}$. These have the same mathematical structure under the substitution $\beta \to it/\hbar$ — the Wick rotation.
 
@@ -1143,7 +1193,7 @@ The Wick rotation is not a mathematical trick. It is the rotation between two re
 
 **Prediction:** Quantum field theory and statistical mechanics are both approximations to the partition function on $D_{IV}^5$ with Haldane exclusion statistics. Their mathematical equivalence under Wick rotation is a physical identity, not a formal coincidence. Systems that exhibit both quantum and thermal behavior simultaneously (quantum critical points, finite-temperature field theories) are accessing both directions of the domain geometry at once.
 
-### 21.6 Information and Geometry Unified
+#### May 21.6 — Information and Geometry Unified
 
 The Bergman metric on $D_{IV}^5$ is simultaneously the geometric metric (determining distances, volumes, curvatures on the domain) and the information metric (determining distinguishability between nearby configurations). This is because geometry IS information on the contact graph. Two configurations are geometrically close if and only if they encode similar macroscopic states. The distance between configurations is the number of contacts that differ between them. The curvature at a configuration is the rate at which neighboring configurations diverge in their macroscopic expressions.
 
@@ -1153,7 +1203,7 @@ The fine structure constant $\alpha = 1/137$ is simultaneously a geometric quant
 
 Every physical constant is a statement about the geometry of $D_{IV}^5$. Every physical constant is equally a statement about the information capacity of the contact graph. These are not two descriptions of the same thing. They are one description — geometry and information are the same thing on the substrate.
 
-### 21.7 Exploring the 2D Landscape
+#### May 21.7 — Exploring the 2D Landscape
 
 The information-geometric identification provides tools for exploring the substrate that pure geometry or pure information theory alone cannot. The contact graph is a 2D surface with $S^1$ fiber. Its geometry is the Bergman metric on $D_{IV}^5$. Its information content is the Shannon entropy of contact configurations. These two descriptions — geometric and information-theoretic — illuminate different aspects of the same substrate.
 
@@ -1165,7 +1215,7 @@ The 2D-to-3D interface — the projection from microstate to macrostate — is w
 
 The key sentence: the contact graph on $D_{IV}^5$ provides the microstates that Jacobson’s thermodynamic derivation of general relativity assumes, that Bekenstein’s entropy bound counts, that the holographic principle requires, and that Shannon’s channel capacity theorem governs. BST does not compete with these results. It completes them by identifying the microscopic degrees of freedom as contact configurations on a specific bounded symmetric domain with a specific exclusion statistics and a specific channel capacity.
 
-### 21.8 Feynman Diagrams Are Contact Graph Maps
+#### May 21.8 — Feynman Diagrams Are Contact Graph Maps
 
 For seventy-five years, particle physicists have computed scattering amplitudes using diagrams that looked like pictures of physical processes but that the formalism insisted were merely notation — convenient bookkeeping in an abstract perturbation series. The discomfort was real: Feynman diagrams automatically satisfy conservation laws, correctly predict quantum anomalies, and compute the electron’s anomalous magnetic moment to twelve decimal places. A "mere notation" doesn’t do this.
 
@@ -1194,4 +1244,3 @@ The physicist who draws a Feynman diagram is performing substrate geometry. The 
 We knew it all along. We just didn’t know what we knew.
 
 -----
-
