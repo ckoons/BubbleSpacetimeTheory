@@ -19389,3 +19389,5 @@ Gate: one line in Lecture 4, one word in Lecture 10, two README lines (84, 576) 
 Consumers of T753's repair: T2631 item 5; Lecture 3 row 5; the Axioms paper §2 caveat and §5 distinctiveness. Row 19 of the generated table ruled: open at M_Z; 3/13 identified (K1261); 3/8 runs to ≈ 0.208 without SUSY.
 
 ### #205 — 2026-09-14 — Re-grep at 09:06: the Spine and the root files clean; three ruled edits pending (the re-keyed count; T753's two consumers; Lecture 10's stamp); the gate word given conditional on them [Cal §961]
+
+### #206 — 2026-09-14 — The five-minute grep at 09:31: the count generated and identical in all consumers; one stale integer in Lecture 1's tier line ("8 of 26"); T753's row and T2631 item 5 lag the lecture that cites them; the gate word given [Cal §962]
