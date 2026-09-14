@@ -19391,3 +19391,5 @@ Consumers of T753's repair: T2631 item 5; Lecture 3 row 5; the Axioms paper §2 
 ### #205 — 2026-09-14 — Re-grep at 09:06: the Spine and the root files clean; three ruled edits pending (the re-keyed count; T753's two consumers; Lecture 10's stamp); the gate word given conditional on them [Cal §961]
 
 ### #206 — 2026-09-14 — The five-minute grep at 09:31: the count generated and identical in all consumers; one stale integer in Lecture 1's tier line ("8 of 26"); T753's row and T2631 item 5 lag the lecture that cites them; the gate word given [Cal §962]
+
+### #207 — 2026-09-14 — Part B.1 pre-registration FROZEN v1: bins, (x,α) prescription, one-boost-plus-frozen-profile separation with a numeric Landing-C criterion, A/B/C partitioning every outcome, the hatch closed into six named tests, the CMB-kinematic presupposition on the face, the Quaia-dipole-literature blindness leak refused; C2 — three synthetic skies produce Landing B, β ≈ 0 is a B, no clause rescues P1 [Cal §963; sha256 f540e465…; pre-questions be66a957]
