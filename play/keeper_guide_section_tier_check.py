@@ -12,16 +12,17 @@ rows = KEY.get('rows') or KEY.get('map') or KEY
 rows = rows if isinstance(rows, list) else list(rows.values())
 # alias table: how sections name the 26 parameters -> key id
 ALIAS = {
- r'\\lambda\b|V_us|Cabibbo|\\theta_{12}\b(?!.*PMNS)': 'V_us', r'V_{cb}|V_cb': 'V_cb', r'V_{ub}|V_ub': 'V_ub',
- r'\\delta_{CP}|delta_CKM|\\gamma\b': 'delta_CKM', r'\\theta_{23}|θ_?23|theta_23': 'sin2_th23_PMNS',
- r'\\theta_{13}|θ_?13|theta_13': 'sin2_th13_PMNS', r'\\theta_{12}.*PMNS|θ_?12.*PMNS|3/10': 'sin2_th12_PMNS',
- r'\\delta_{\\rm PMNS}|δ_PMNS|delta_PMNS': 'delta_PMNS', r'\\alpha\^\{-1\}|α⁻¹|alpha_inv|fine.structure': 'alpha_inv',
+ r'\\theta_\{12\}.*PMNS|θ_?12.*PMNS|3/10|\\theta_\{12\}(?=.*(solar|PMNS|neutrino))': 'sin2_th12_PMNS', r'\\lambda\b|V_us|Cabibbo|\\theta_\{12\}(?=.*(CKM|quark))': 'V_us', r'V_{cb}|V_cb': 'V_cb', r'V_{ub}|V_ub': 'V_ub',
+ r'\\delta_\{CP\}|delta_CKM|\\gamma\b': 'delta_CKM', r'\\theta_\{23\}|θ_?23|theta_23': 'sin2_th23_PMNS',
+ r'\\theta_\{13\}|θ_?13|theta_13': 'sin2_th13_PMNS',
+ r'\\delta_\{\\rm PMNS\}|δ_PMNS|delta_PMNS': 'delta_PMNS', r'\\alpha\^\{-1\}|α⁻¹|alpha_inv|fine.structure': 'alpha_inv',
  r'\\sin\^2\\theta_W|sin²θ_W|Weinberg': 'sin2_thW_MZ', r'\\alpha_s|α_s|strong coupling': 'alpha_s_MZ',
  r'\\lambda_H|λ_H|Higgs quartic|1/8\b': 'lambda_Higgs', r'\bv\b.*vev|Fermi scale|vev': 'vev_v',
- r'\\theta_{QCD}|θ_QCD|strong CP': 'theta_QCD', r'm_1 = 0|m₁ = 0|lightest neutrino': 'm_nu1',
+ r'\\theta_\{QCD\}|θ_QCD|strong CP': 'theta_QCD', r'm_1 = 0|m₁ = 0|lightest neutrino': 'm_nu1',
  r'm_t/m_b|42\b': 'm_t/m_b', r'm_s/m_d|= 20\b': 'm_s/m_d', r'm_\\mu/m_e|muon': 'm_mu/m_e', r'm_\\tau/m_e|tau': 'm_tau/m_e',
- r'm_u/m_d': 'm_u/m_d', r'm_c/m_u': 'm_c/m_u', r'\bm_t\b(?!/)': 'm_t', r'\bm_b\b(?!/)': 'm_b',
+ r'm_u/m_d': 'm_u/m_d', r'm_c/m_u': 'm_c/m_u', r'\bm_t\b(?!/)|y_t\b|top Yukawa': 'm_t', r'\bm_b\b(?!/)': 'm_b',
 }
+SUBCLAIMS = [('sin2_th23_PMNS', r'departure|deviation|4/7', 'identified'), ('sin2_thW_MZ', r'3/13|Chern ratio|c_5/c_3', 'identified')]  # row 19: 'value open; the 3/13 form identified, K1261'
 TIER = re.compile(r'\b(derived|identified|input|open|floored)\b', re.I)
 def key_word(pid):
     for r in rows:
@@ -31,7 +32,11 @@ def check(path, heading_rx):
     t = open(path, encoding='utf-8').read()
     m = re.search(r'^(#+ .*%s.*)$' % heading_rx, t, re.M)
     if not m: print('section not found'); return 2
-    start = m.end(); nxt = re.search(r'^#{1,3} (?!.*May 2026 record)', t[start:], re.M)
+    # K1904 fix (09-14): stop at the next heading of the SAME OR HIGHER level, not at any '###' — a head with
+    # '### The question / ### Tier line' subsections had its tier line sliced away and the instrument reported
+    # '0 items keyed' (a silent scope restriction; the previous-scope lesson one more time).
+    level = len(m.group(1)) - len(m.group(1).lstrip('#'))
+    start = m.end(); nxt = re.search(r'^#{1,%d} (?!.*May 2026 record)' % level, t[start:], re.M)
     body = t[start:start+nxt.start()] if nxt else t[start:]
     # cut at the May record (not audited)
     body = re.split(r'^#+ .*May 2026 record.*$', body, flags=re.M)[0]
@@ -45,6 +50,10 @@ def check(path, heading_rx):
                 if re.search(rx, it): pid = k; break
             if not pid: continue
             kw = key_word(pid)
+            # sub-claims (K1904): a row's secondary claim carries its own word in the row's text — the 4/7 departure of
+            # theta_23 is 'identified' on a row whose headline (maximal) is 'derived'.
+            for spid, srx, sword in SUBCLAIMS:
+                if pid == spid and re.search(srx, it, re.I): kw = sword
             if kw is None: findings.append(('UNKEYED', pid, it.strip()[:70]))
             elif kw == word or (word == 'input' and kw == 'input') : findings.append(('MATCH', pid, word))
             elif word == 'derived' and kw == 'derived': findings.append(('MATCH', pid, word))
