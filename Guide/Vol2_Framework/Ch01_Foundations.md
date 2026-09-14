@@ -11,9 +11,48 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Section 1: Introduction — The Simplest Object That Can Do Physics
+## Section 1: The Object, and How It Is Chosen
 
-### 1.1 The Question
+*Rewritten 2026-09-14 (Lyra, Round 144 L1; Keeper audit pending) as a pointer into the Spine plus the referee apparatus. The May 2026 text — the forced-choice chain, the five-condition elimination table, the key-results table, the one cycle — is kept below as the record. Facts are from the register (K1889, K1890, K1815, T2565, Cal Sections 946 and 959, K1813) and from `data/bst_26_tier_table_generated.md` — not from the May text. No tier table and no count is typed here: the generated table is the table, and the state block's sentence is the count. Sections 2–4 (the 2022 substrate narrative: $S^2\times S^1$, the contact graph, the CR structure) are untouched in this pass and carry their June 2026 historical correction; whether they become record or apparatus is Keeper's call. Last accuracy-synced: 2026-09-14 / K1897.*
+
+### 1.0 The question
+
+What is the simplest structure that can do physics — and how do we know we have the right one?
+
+The first half is Lecture 1 of the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_01_The_Object.md`): the object is the bounded symmetric domain of type IV in complex dimension five, $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5)\times\mathrm{SO}(2)]$, the Lie ball. The second half is Lecture 2 (`Lecture_02_Why_This_Object_Honestly.md`), and the answer there is more modest than this chapter once said. This section is the pointer to both and the apparatus a referee will want.
+
+### 1.1 Where it stands
+
+**How the object is chosen — one leg, one integer, one input.** Cartan's irreducible bounded symmetric domains — four families and two exceptions — each carry a characteristic multiplicity $a$: $2$ for type I, $4$ for type II, $1$ for type III, $n-2$ for type $IV_n$, $6$ and $8$ for the exceptions. **Theorem:** among irreducible domains of rank at least two, $a = 3$ has exactly one solution, $D_{IV}^5$ — verified from the standard table (K1889), rebuilt from root data across 66 dimensions with no reference consulted (Elie, toy 5750), and checked against the low-dimensional exceptional isomorphisms so nothing is counted twice (K1890-PRE). Quarks come in three colours; *the identification of that count with the characteristic multiplicity* is the program's one dimensionless input to the choice of the object, and it is stated as an input, not derived: the geometry provably cannot supply it — the group it puts on the three-dimensional slot is $U(1)\cdot SO(3)$, dimension four, and no group anywhere in the geometry acts on that slot as colour (Elie 5751; Cal Section 946, one obstruction, ruled Section 950). The chain of "forced choices" in the May record below — observation forces rank $\geq 2$, confinement forces $N_c \geq 3$, two primality conditions, a "genus coincidence" — is retired, and it is worth saying why in one breath: four of its eleven criteria were empty, satisfied by construction (K1889); rank $= 2$ is a *posit* on the program's own ratified floor (K1815), not a consequence of "observation"; the "genus coincidence" $n_C + \text{rank} = 2n_C - 3$ equates two integers neither of which is the genus (the genus is $5$, pinned 2026-09-09); and the probability that dressed the eleven was the wrong instrument — a referee wants an enumeration, and Cartan's classification is one. What survived is smaller and sharper than what we had.
+
+**The integers, and which kind each is.** Six integers appear throughout this Guide: three are read off the classification — $\text{rank} = 2$, $n_C = 5$, $N_c = 3$ (the multiplicity $a$) — and three are combinations we name because they recur: $C_2 = \text{rank}\cdot N_c = 6$, $g = n_C + \text{rank} = 7 = p + q$ (the dimension of the defining representation of $\mathrm{SO}(5,2)$; **not the genus**), $N_{\max} = N_c^3 n_C + \text{rank} = 137$. Lecture 1 carries the table. Two sentences in the May text are the same input in other clothes and are not to be counted twice: "$N_c = n_C - \text{rank}$ gives both the colours and the spatial dimensions" — the $3$ of the $(3,1)$ signature is the irreducibility of the same three-dimensional slot (T2545), so this is the colour identification read again, not a second support (Cal Section 946); and "$N_{\max}$ matches $\alpha^{-1}$" — identified, in the bulk of a pre-registered null (K1813; Section 5). There is one dimensionful input, a mass scale (the electron mass as the ruler), and the frame of the descent is an observer input the geometry cannot select (T2565; Lecture 9). **What we no longer say:** "zero free parameters," "there was never a choice," "400+ predictions from one shape." **What we say instead:** one geometry, one named dimensionless input to its choice, a short derived core, and a large number of identifications each labelled as one.
+
+**The results, and where the count lives.** The May key-results table below listed twenty quantities with a precision column and no tier column. The precision column was a *match* column, and matching is what identification means; it said nothing about mechanism. The current scorecard for the 26 primary Standard-Model parameters is **generated, never typed** — `data/bst_26_tier_table_generated.md`, from `data/bst_26_tier_map_v2.json` via `python3 play/bst_26_tier_generator.py --emit` — with the four words (derived / identified / floored / open, plus "input") and, for every derived row, the four-word standard on its own statement; its one-sentence count is spliced into `notes/BST_PRESENTATION_STATE_BLOCK.md` and from there into every front matter. As of this morning the count moved again (Cal Section 959 on the K962 rows; Elie's toy 5755 sibling tests), which is exactly why it is not typed here. The reader who wants the number reads the state block; the reader who wants to know why each word is what it is reads the generated table's last two columns.
+
+### 1.2 Apparatus — kept, labelled as apparatus
+
+- **The classification data behind the theorem:** $(r, a, b)$ per family and the two checks that make the table trustworthy — $\dim = r + a\,r(r-1)/2 + b\,r$ reproduces every dimension (66 entries, zero mismatches) and genus $= (r-1)a + b + 2$ returns $d+1$ for the balls and $5$ for $D_{IV}^5$ (Elie 5750; the retained instruments `notes/Keeper_K1889_instrument_*.py`, `play/toy_5750_*.py`, `play/toy_5751_*.py`).
+- **The look-elsewhere price of the selector:** over all 102 irreducible domains of dimension $\leq 30$ and a six-item menu of invariants, "some invariant equals $3$" is carried by 24 domains; the specific invariant $a = 3$ by one (Elie 5751 E2). The selector's strength rests on the invariant having been named before the target, which is a history question the register records and does not rule.
+- **The null behind every "key result" that is a match:** K1813's pre-registered instrument (Section 5.2): 23–26 of 76 targets score at least as well as 137; the muon-mass form scores at fewer than one in sixty (K1814). Any identification in the May table can be priced with it.
+- **The May footnote's residual, as arithmetic:** a $0.034\%$ residual in $m_e/m_{\rm Pl}$ roughly doubles in $G$ because $G \propto m_{\rm Pl}^{-2}$, which is the $0.065\%$ Lecture 9 quotes (recomputed 2026-09-11 from CODATA); the footnote's claim that the Wyler-precision correction accounts for about $2\%$ of the residual is the May text's and is not re-verified here.
+
+### 1.3 Tier line
+
+- **Derived (classical):** $a = 3$ selects $D_{IV}^5$ uniquely among irreducible domains of rank $\geq 2$ (K1889; toy 5750; K1890-PRE).
+- **Identified — the one dimensionless input to the choice of the object:** colour count $=$ characteristic multiplicity (Lecture 2).
+- **Proved absent:** any mechanism inside the geometry for that identification (Cal Sections 946/950).
+- **Posit:** rank $= 2$ on the ratified floor (K1815). **Input:** the mass ruler; the descent frame (T2565).
+- **Generated, not typed:** the tier of every one of the 26 primary parameters and their count.
+- **Retired with this section:** the five-condition elimination and its table; the "genus coincidence"; "zero free parameters"; "400+ predictions"; the CMB-wreckage reading (K1813's class: quote-anything, target not evidence).
+- **Not claimed:** forcing; zero free parameters; "the unique geometry that can do physics"; any probability.
+
+*What would make this section wrong:* the theorem fails only if Cartan's table is wrong, and you can rebuild it (toy 5750); the identification fails if colour is not three, and it is; the honest exposure is the price — every later result that leans on $N_c = 3$ inherits one measured input.
+
+### 1.4 May 2026 record
+
+*Below: the May 2026 text, with the in-place dated corrections of 2026-09-11 already in it (the 1.1 sentence on "zero free parameters," the 1.3 sentence on $g$ and the genus, the 1.6 table's Cabibbo row and its head-note). Read with 1.1–1.3 in hand: its Steps 3–4 and the elimination table are the retired uniqueness argument; its "five invariants locked by the genus coincidence" is retired; its key-results table is a match table, and the register's word for every row is in the generated table; its particle table (1.7) is the narrative reading of the 2022 substrate picture, kept as the record of what we once wrote.*
+
+#### May 1.1 — The Question
 
 What is the simplest geometric object that can produce a universe with observers?
 
@@ -21,7 +60,7 @@ This paper answers that question. The answer is $D_{IV}^5$, the type IV bounded 
 
 The argument proceeds through a chain of forced choices. At each step, the reader has no alternative but to follow. There is no branching, no selection, no landscape.
 
-### 1.2 The Chain of Forced Choices
+#### May 1.2 — The Chain of Forced Choices
 
 **Step 1: It must be a geometry.** Physics happens in space. Space IS geometry. Any theory of everything must begin with a shape, not an equation. Equations describe shapes; shapes exist independently of the equations we write for them.
 
@@ -60,7 +99,7 @@ $^*$Rank 3 violates the depth ceiling (T421, T944): 1135/1135 surveyed theorems 
 
 **Step 7: Check the wreckage.** If competing geometries briefly existed at the Big Bang and collapsed, their remnants should be visible. The CMB anomalies — low quadrupole, cold spot, parity asymmetry, hemispherical asymmetry — all cluster at multipoles $\ell < 30$, matching the failed manifolds' integer values (Section 46.16, T953, Toy 1000). The six known CMB anomalies correspond to six failed geometries.
 
-### 1.3 The Five Invariants: One Geometry, Five Readings
+#### May 1.3 — The Five Invariants: One Geometry, Five Readings
 
 The domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is specified by two irreducible quantities: rank $= 2$ (from the type IV root system) and $n_C = 5$ (the complex dimension). These are locked by the genus coincidence: $n_C + \text{rank} = 2n_C - 3$ has the unique solution $(n_C, \text{rank}) = (5, 2)$. All remaining integers follow by arithmetic:
 
@@ -76,7 +115,7 @@ What is the simplest object that can do physics? Among all bounded symmetric dom
 
 > **The universe is the geometry that cooperates best.**
 
-### 1.4 The Previous Framing
+#### May 1.4 — The Previous Framing
 
 The original 2022 BST proposal describes the universe as the three-dimensional projection of a substrate communicating through a one-dimensional channel. The substrate geometry was originally written as $S^2 \times S^1$ and described as "circles tiling a sphere." Per the June 2026 historical correction (see README), the dimension count in this original framing was wrong: the substrate is properly the 5-dimensional Shilov boundary $\partial_S D_{IV}^5 = (S^4 \times S^1)/\mathbb{Z}_2$ of the bounded symmetric domain $D_{IV}^5$, with the configuration-space bulk being the holomorphic extension of substrate boundary data via the Hardy decomposition. The substantive structural logic of Section 2 (codimension-1 boundary structure with phase communication, derived from minimality) remains valid; the dimension count is what needed correction. The forced-choice argument of Section 1.2 provides a complementary, geometry-first route to the same destination.
 
@@ -84,11 +123,11 @@ On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian e
 
 **A note on cooperation.** The word "cooperation" has technical status in BST. When we say $D_{IV}^5$ is the geometry that cooperates best, we mean something precise: it is the unique bounded symmetric domain whose rank, dimension, colors, genus, and channel capacity are mutually consistent — where no invariant contradicts another. In every other Cartan domain, at least one structural requirement fights the others (Section 1.2, Table). Cooperation in BST is not a social metaphor applied to physics. It is a geometric property: the absence of internal contradiction among independently determined invariants. The cooperation threshold $f_{\text{crit}} = 20.6\%$ (T678), the cooperation-defection phase transition, and the emergence of stable matter all trace to this same structural fact. The universe does not merely permit cooperation — cooperation is what its geometry IS.
 
-### 1.5 Scope of This Paper
+#### May 1.5 — Scope of This Paper
 
 This paper presents the complete BST framework in 46 sections, from the forced-choice derivation of $D_{IV}^5$ (Section 1) through substrate geometry (Section 2), configuration space and physical constants (Section 3–6), forces and nuclear physics (Section 7–8), relativity, gravity, cosmology, dark matter, weak force, thermodynamics, antimatter, and the growing manifold (Section 9–24), broader implications (Section 25–28), the deep mathematical structure connecting $D_{IV}^5$ to the Riemann zeta function (Section 29–31), the Riemann Hypothesis proof (Section 32–35), 27 uniqueness conditions (Section 37.5), Arithmetic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification (Section 36–42), 400+ experimental predictions (Section 43), the research program and cosmological cycles (Section 44–45), and recent results including science engineering, spectral-arithmetic closure, sector assignment, and manifold competition (Section 46).
 
-### 1.6 Key Results at a Glance
+#### May 1.6 — Key Results at a Glance
 
 All results below are read off the geometry of $D_{IV}^5$ with one named input; the tier column, where present, says which are derived and which identified, and the register wins where this table is stale. Precision is relative to CODATA measured values.
 
@@ -117,7 +156,7 @@ All results below are read off the geometry of $D_{IV}^5$ with one named input; 
 
 †The 0.034% residual in $m_e/m_{\rm Pl}$ (and hence $G$) has no clean closed-form identification. The Wyler formula precision ($\Delta\alpha/\alpha \approx 6\times10^{-7}$, amplified $12\times$ = $0.0007\%$) accounts for only $\sim 2\%$ of it. No simple one-loop QED formula matches. The residual $\Delta S = 0.000326$ in the Bergman action is an open calculation.
 
-### 1.7 The One Cycle
+#### May 1.7 — The One Cycle
 
 The universe runs one essential cycle:
 
