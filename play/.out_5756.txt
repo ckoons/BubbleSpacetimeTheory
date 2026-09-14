@@ -1,0 +1,21 @@
+v = (√2 G_F)^(-1/2) = 246.2196 GeV;  c = m_H/(v/2) = 1.01698 ± 0.00089 (PDG 2024 m_H = 125.2 ± 0.11)
+published √(1 + n_C/N_max) = 1.01808: 0.109 % off, +1.24σ;  m_H it predicts = 125.336 GeV
+  which (m_H, v) reproduces the row's '0.02 %'?  [PDG 2022 m_H 125.25, v 246.22: 0.069 %] [PDG 2024 m_H, v 246.22: 0.109 %] [m_H 125.35: 0.011 %] [m_H 125.25, v 246.0 (both stale): 0.020 %] 
+  [HIT] P1  published form +1.24σ outside 1σ at the PDG 2024 primary; the '0.02 %' is reproduced only by ['m_H 125.35', 'm_H 125.25, v 246.0 (both stale)']
+
+menu (1 ± p/q)^e, p,q products of <= 2 integers, e in {1, 1/2, -1, -1/2}: 1378 distinct values
+   (a) 1σ               [1.01608, 1.01787]: N = 10  chance(×1.05 window) = 12.44   at chance
+      √(1 + N_c·N_c/rank·N_max) = 1.01629, √(1 + 1/n_C·C_2) = 1.01653, ⁻½(1 − N_c·N_c/rank·N_max) = 1.01684, √(1 + rank·g/N_c·N_max) = 1.01689, (1 + g/N_c·N_max) = 1.01703, ⁻½(1 − 1/n_C·C_2) = 1.01710, ⁻¹(1 − g/N_c·N_max) = 1.01733, ⁻½(1 − rank·g/N_c·N_max) = 1.01748, (1 + rank·C_2/n_C·N_max) = 1.01752, ⁻¹(1 − rank·C_2/n_C·N_max) = 1.01783
+   (a2) 2σ              [1.01519, 1.01877]: N = 22  chance(×1.05 window) = 24.89   at chance
+      √(1 + N_c·g/n_C·N_max) = 1.01521, √(1 + n_C·C_2/g·N_max) = 1.01552, ⁻½(1 − n_C·n_C/C_2·N_max) = 1.01556, (1 + N_c·n_C/g·N_max) = 1.01564, ⁻½(1 − N_c·g/n_C·N_max) = 1.01569, ⁻¹(1 − N_c·n_C/g·N_max) = 1.01589, ⁻½(1 − n_C·C_2/g·N_max) = 1.01602, √(1 + N_c·N_c/rank·N_max) = 1.01629, √(1 + 1/n_C·C_2) = 1.01653, ⁻½(1 − N_c·N_c/rank·N_max) = 1.01684, √(1 + rank·g/N_c·N_max) = 1.01689, (1 + g/N_c·N_max) = 1.01703, ⁻½(1 − 1/n_C·C_2) = 1.01710, ⁻¹(1 − g/N_c·N_max) = 1.01733, ⁻½(1 − rank·g/N_c·N_max) = 1.01748, (1 + rank·C_2/n_C·N_max) = 1.01752, ⁻¹(1 − rank·C_2/n_C·N_max) = 1.01783, √(1 + n_C/N_max) = 1.01808, (1 + n_C/rank·N_max) = 1.01825, ⁻¹(1 − n_C/rank·N_max) = 1.01859, √(1 + C_2·C_2/g·N_max) = 1.01860, ⁻½(1 − n_C/N_max) = 1.01876
+   (b) form's own miss  [1.01587, 1.01808]: N = 12  chance(×1.05 window) = 15.41   at chance
+      ⁻¹(1 − N_c·n_C/g·N_max) = 1.01589, ⁻½(1 − n_C·C_2/g·N_max) = 1.01602, √(1 + N_c·N_c/rank·N_max) = 1.01629, √(1 + 1/n_C·C_2) = 1.01653, ⁻½(1 − N_c·N_c/rank·N_max) = 1.01684, √(1 + rank·g/N_c·N_max) = 1.01689, (1 + g/N_c·N_max) = 1.01703, ⁻½(1 − 1/n_C·C_2) = 1.01710, ⁻¹(1 − g/N_c·N_max) = 1.01733, ⁻½(1 − rank·g/N_c·N_max) = 1.01748, (1 + rank·C_2/n_C·N_max) = 1.01752, ⁻¹(1 − rank·C_2/n_C·N_max) = 1.01783
+  [HIT] P2  N = 10 forms of the published class inside the 1σ band (the published form is not among them)
+  [HIT] P3  N = 12 at the form's own miss tolerance
+  [HIT] P4 (control)  every count at chance
+
+second instrument — the 5755 degree-3 ±√ pool (3531 values) on c at 1σ: N = 0: 
+
+VERDICT (K1809 rule, mechanical): N(1σ) = 10 > 1 ⟹ the refinement is IDENTIFIED; and its published value is +1.24σ from the PDG 2024 primary, not 0.02 %.
+
+SCORE 4/4, of which 3/3 can-fail hit
