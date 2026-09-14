@@ -108,11 +108,11 @@
     "K993",
     "T1927 (reconciled 08-21)"
    ],
-   "last_retier": "2026-08-21 (reconciliation)",
+   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
    "v030_slot": null,
    "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "the row text calls V₁₂⊗ℂ an 'SU(3) triplet' (Cal §134) — decorative under §946 (the SVD needs the 3-space, not the group); the §946 species Cal named; flagged, not edited",
-   "four_word_standard": "owed re-read — one mechanism (FK Pochhammer, T1927 reconciled 08-21 \"@Keeper to gate\"); the gate has not been recorded"
+   "flag": "T2529 text owes the mechanism sentence; Keeper's gate on the 08-21 reconciliation owed",
+   "four_word_standard": "meets — Cal §959: \"row 5 derived (FK Pochhammer ratio (N_c+1)(N_c+2) at ν_W = N_c on the quark module; T1927/T2572/K1812; gate on the reconciliation owed by Keeper)\"; mechanism and inputs to be written INTO T2529's text (owed)"
   },
   {
    "n": 6,
@@ -136,18 +136,18 @@
    "id": "m_t/m_b",
    "sector": "mass",
    "form": "C₂·g = 42 (total Chern of Q⁵) vs 41.3 (pole/MSbar, 1.7%)",
-   "tier_word": "derived",
-   "note": "K962 DERIVED; no later ruling moved it",
+   "tier_word": "identified",
+   "note": "Cal §959: \"identified (Chern integral matched to a scheme-mixed ratio; the same 42 is the ladder's b/s rung at 6.6 % off)\". K1897: +7.6σ against 41.26 ± 0.10 (PDG 2024) — but the comparison is scheme-mixed (a Chern number against a pole/MS-bar ratio); \"identified, out of band at the primary in the scheme-mixed comparison; a scheme-consistent comparison is owed before retirement, and the row says both.\" Elie 5755 sibling count reported beside it.",
    "rows": [
     "T2013",
     "T1990",
     "K962"
    ],
-   "last_retier": "2026-07-28 (K962)",
+   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
    "v030_slot": null,
    "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "scheme-mixed ratio at 1.7%; the K1809 sibling test has NOT been run on this row",
-   "four_word_standard": "owed re-read — a Chern-integral reading (T2013/T1990) at 1.7% on a scheme-mixed ratio; mechanism not stated in the four-word form"
+   "flag": "Elie 5755 (prereg 56b749a4): +7.6σ outside the PDG 1σ band (41.26 ± 0.10, scheme-mixed); N = 11 at the row's tolerance vs chance 7.3 — at chance (saturated vocabulary); scheme-consistent comparison owed before retirement (K1897)",
+   "four_word_standard": "— (form-identified, Cal §959; out of band at the primary in a scheme-mixed comparison, K1897; scheme-consistent comparison owed before retirement)"
   },
   {
    "n": 8,
@@ -172,16 +172,16 @@
    "id": "m_b",
    "sector": "mass",
    "form": "m_t/42",
-   "tier_word": "derived",
-   "note": "NOT an independent result — rides rows 7 and 8; counted once in the headline",
+   "tier_word": "identified",
+   "note": "rides row 7 (m_t/42) — Cal §959: \"row 9 rides 7\"; takes row 7's word and row 7's out-of-band flag",
    "rows": [
     "T2013"
    ],
-   "last_retier": "2026-07-28 (K962)",
+   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
    "v030_slot": null,
    "old_key_0717": "07-18 scoreboard: GRAVITY-SCALE (rides m_t)",
-   "flag": "dependent row",
-   "four_word_standard": "dependent — rides m_t/m_b and m_t"
+   "flag": "dependent row; out of band with row 7 (Elie 5755)",
+   "four_word_standard": "— (rides row 7)"
   },
   {
    "n": 10,
@@ -296,18 +296,18 @@
    "id": "sin2_th13_PMNS",
    "sector": "PMNS",
    "form": "1/(N_c²·n_C) = 1/(g²−rank²) = 1/45 = 0.02222 vs 0.02195 (0.1%)",
-   "tier_word": "derived",
-   "note": "K962's worked DERIVED example (the Pythagorean route g² = 45 + 4; falsifiable, pinned, unrefuted); K1260 retired only the 3/137 sub-claim",
+   "tier_word": "identified",
+   "note": "Cal §959: \"row 16 identified per K1260 (both forms; the generator's note wrong)\" — K1260's 08-07 ruling made BOTH forms (1/45 and 3/137) identified and the July tier map never absorbed it; my 09-11 note (\"K1260 retired only the 3/137 sub-claim\") was wrong and is withdrawn. 1/45 = 0.02222 vs 0.02195 (0.1%); the Pythagorean route g² = 45 + 4 is a form on the ladder, not a proved mechanism.",
    "rows": [
     "K632",
     "K962",
     "K1260"
    ],
-   "last_retier": "2026-08-07 (K1260, sub-claim only)",
+   "last_retier": "2026-08-07 (K1260) — absorbed into the key 2026-09-14 (Cal §959 / K1897 / Elie 5755)",
    "v030_slot": "8 (θ₁₃, FIRM)",
    "old_key_0717": "LAW / k962 DERIVED",
-   "flag": "the K1809 sibling test has NOT been run on this row",
-   "four_word_standard": "owed re-read — K962's own note: \"open = prove the Pythagorean route forced\"; the value is pinned and falsifiable, the mechanism is not stated"
+   "flag": "Elie 5755: +0.5σ inside the 1σ band (2.19 ± 0.07)e−2; N = 9 at 1σ (chance 12.6) — including 3/137, the K1260 sub-claim, which sits CLOSER to the primary than 1/45; N = 4 at the row's tolerance (chance 5.8); at chance",
+   "four_word_standard": "— (form-identified per K1260 08-07, Cal §959; my earlier note wrong, withdrawn)"
   },
   {
    "n": 17,
@@ -351,7 +351,7 @@
    "sector": "gauge",
    "form": "3/8 high-scale (fermion content, standard) + RGE → 0.231; 3/13 RETIRED (running coincidence)",
    "tier_word": "open",
-   "note": "a runner (K739): BST makes no value claim at M_Z; the parity-forced SHAPE was PD with normalisation owed (#79); the 3/13 label was corrected in Vol 2 Ch 8 today (K1892)",
+   "note": "TWO WORDS FOR TWO OBJECTS (K1897; Cal §960; Lyra Section 6): the M_Z VALUE is OPEN (a runner, K739 — no derived low-energy value; 3/8 at high scale is arithmetic on the theorem's own input, the fermion content, the standard SU(5)-normalised number); the 3/13 Chern-ratio FORM c₅(Q⁵)/c₃(Q⁵) is IDENTIFIED (K1261, 08-07; T1919) after being retired as the May \"gauge-active dimension\" reading (K739, 07-17) — two histories on the register's face. The row's tier word is the VALUE's: open.",
    "rows": [
     "K739",
     "T1919 (tier corrected K1261)"
@@ -360,7 +360,7 @@
    "v030_slot": null,
    "old_key_0717": "RUNNER",
    "flag": null,
-   "four_word_standard": "—"
+   "four_word_standard": "— (value open; the 3/13 form identified, K1261)"
   },
   {
    "n": 20,
@@ -384,18 +384,20 @@
    "n": 21,
    "id": "lambda_Higgs",
    "sector": "Higgs",
-   "form": "1/rank³ = 1/8; m_H = (v/2)√(1 + n_C/N_max) (0.02%)",
-   "tier_word": "derived",
-   "note": "K962 DERIVED; K1826 lists λ_H on its independent bank after the α one-shot fired",
+   "form": "λ_H: the 1/rank³ = 1/8 VALUE is RETIRED (K1897: −18.8σ against PDG 2024 0.1293 ± 0.0002; T2198 precedent); the carried form is 9/70 (T1965/T2005); m_H = (v/2)√(1 + n_C/N_max) is a SECOND object on this row, unpriced (Elie prices it before it is quoted)",
+   "tier_word": "identified",
+   "note": "Cal §959: \"row 21 identified (no T-row; T1965/T2005 carry 9/70; the 0.02 % is a two-integer m_H form)\". K1897: \"the 1/8 VALUE is RETIRED; row 21 carries the registered 9/70 at whatever that form's own comparison gives … 'Identified' is not a shelter for a number the measurement excludes.\" K1826 had listed λ_H on its independent bank; that bank was the 1/8 value and is gone.",
    "rows": [
-    "K962",
-    "K1826"
+    "T1965",
+    "T2005",
+    "K1897",
+    "Cal §959"
    ],
-   "last_retier": "2026-08-24 (K1826, bank unchanged)",
+   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
    "v030_slot": null,
    "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "the K1809 sibling test has NOT been run on this row",
-   "four_word_standard": "owed re-read — 1/rank³ as a boundary-count reciprocal; mechanism not stated in the four-word form"
+   "flag": "Elie 5755: 1/8 is −18.8σ outside the 1σ band (λ = m_H²/(2v²) = 0.1293 ± 0.0002, m_H = 125.20 ± 0.11); N = 25 at the row's tolerance vs chance 21; 9/70 not yet scored on this row; m_H refinement unpriced (Elie)",
+   "four_word_standard": "— (form-identified, Cal §959; the 1/8 value retired at −18.8σ, K1897; 9/70 carried at its own comparison, unscored here)"
   },
   {
    "n": 22,
