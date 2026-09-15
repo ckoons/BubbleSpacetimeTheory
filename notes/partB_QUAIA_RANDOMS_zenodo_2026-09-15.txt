@@ -1,0 +1,4 @@
+random_G20.0_10x.fits md5:e89dc31635d4688c8f3861dfb8a7e546 https://zenodo.org/api/records/10403370/files/random_G20.0_10x.fits/content
+random_G20.5_10x.fits md5:45e5d5e76b2349899a504b49a5a7f13b https://zenodo.org/api/records/10403370/files/random_G20.5_10x.fits/content
+e89dc31635d4688c8f3861dfb8a7e546
+45e5d5e76b2349899a504b49a5a7f13b

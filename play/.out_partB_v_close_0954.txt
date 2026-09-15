@@ -1,0 +1,21 @@
+lib b87a8b085780 (must be b87a8b085780 = commit 4ce873ce); diag 98337b299403; file 7624842c5044; 2026-09-15 09:54; ν_G/ν_W1 = 5.3919; outlier fraction for the sensitivity = 0.1
+
+=== G20.5: per-source mask 913,899; weights mode: FALLBACK (published NSIDE64 map of the sample; K1906 §1; H5 mandatory) (0 per-bin maps present) ===
+   bin            N_raw       N_w  x_quad  x_lin  x_loc    σx   sys crv      α     σα    B_sm    B_sh     B½    B×2  B_out       f    σf null    z̃    χ̄      w
+   (0.0, 0.8)    134065    196090   0.815  0.947  0.874 0.005 0.066   Y  1.179 0.0007   4.695   4.862  4.812  4.364  4.175   8.471 0.539    n  0.57  2189  1.000
+   (0.8, 1.3)    213338    311913   1.125  1.199  1.153 0.003 0.037   Y  0.836 0.0005   2.072   1.800  1.928  2.139  1.969   6.138 0.159    n  1.06  3555  0.379
+   (1.3, 1.8)    236114    345043   1.160  1.240  1.196 0.003 0.040   Y  0.552 0.0004   0.243   0.517  0.382  0.187  0.232   4.044 0.152    n  1.54  4550  0.231
+   (1.8, 2.4)    187857    273895   1.157  1.276  1.202 0.003 0.060   Y  0.380 0.0004  -1.756  -1.633 -1.662 -1.863 -1.642   1.840 0.141    n  2.06  5393  0.165
+   (2.4, inf)    120196    174887   0.942  1.202  1.042 0.005 0.130   Y  0.317 0.0005  -6.841  -7.124 -7.069 -6.447 -4.886  -3.600 1.962    Y  2.71  6207  0.124
+   redshift channel (weights: published map, the full-sample window): g = 1 + ⟨z⟩_w = 2.5582; G quartile edges [14.313, 19.364, 19.88, 20.224]; g_w = [2.4641, 2.5795, 2.5985, 2.5906]
+   RANDOMS (G20.5, 10x): 12,955,802 rows read in 1,000,000-row chunks; 8,846,469 inside mask & sf>=0.5 (rotation check vs astropy on 1,000 points: max 6.9e-06 deg). CELL-level (footprint = §2.2 mask only): |D| = 0.04109 toward (l, b) = (340.1, 32.5) - the sf<0.5 holes read as a dipole. PIXEL-level (footprint = §2.2 mask AND sf>=0.5, NSIDE 64, diagnostic estimator dipole_ls_pix): |D| = 0.00189 toward (120.0, 1.7), sigma/component = 0.00063, chi2_3 vs zero = 9.4 - the uniform sky under the same mask+weights, Cal 4.1's correction vector
+
+=== G20.0: per-source mask 528,510; weights mode: FALLBACK (published NSIDE64 map of the sample; K1906 §1; H5 mandatory) (0 per-bin maps present) ===
+   bin            N_raw       N_w  x_quad  x_lin  x_loc    σx   sys crv      α     σα    B_sm    B_sh     B½    B×2  B_out       f    σf null    z̃    χ̄      w
+   (0.0, 1.3)    206188    313576   1.192  1.268  1.220 0.004 0.038   Y  0.885 0.0007   2.918   2.795  2.829  2.927  2.707   7.165 0.222    n  0.89  3112  1.000
+   (1.3, 1.8)    131368    199674   1.322  1.430  1.369 0.004 0.054   Y  0.483 0.0005   0.185   0.441  0.385  0.078  0.177   4.145 0.216    n  1.53  4546  0.468
+   (1.8, inf)    170977    259503   1.420  1.548  1.472 0.004 0.064   Y  0.320 0.0004  -3.670  -3.716 -3.725 -3.623 -3.054   0.205 0.622    Y  2.28  5695  0.299
+   redshift channel (weights: published map, the full-sample window): g = 1 + ⟨z⟩_w = 2.5328; G quartile edges [14.313, 19.006, 19.466, 19.768]; g_w = [2.4116, 2.5441, 2.5783, 2.5968]
+   randoms file ../data/quaia/random_G20.0_10x.fits not present (Zenodo v1.0.0 ships randoms for G<20.5 only? - see the download record)
+
+peak RSS 1455 MB
