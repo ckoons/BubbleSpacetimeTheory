@@ -1,0 +1,43 @@
+toy 5763; lib b87a8b085780; file 06c6045294bd; N_SEED 100; NDRAW 200000
+
+(1) FAST at σ_β c = 166 km/s, 200,000 draws:  P1 true → v1.5 {'A': 0.5708, 'B': 0.0028, 'C': 0.4264} | v1.4 text {'A': 0.3866, 'B': 0.5638, 'C': 0.0496}   ||   no boost → v1.5 {'A': 0.0232, 'B': 0.1186, 'C': 0.8582} | v1.4 text {'A': 0.0086, 'B': 0.9763, 'C': 0.0151}
+    4.4 region trigger (exact 95 % region > 25 % of the sphere) in the Gaussian population: P1 true fires 0.542 (median region 0.290 of the sphere; at the exact CMB vector 1.000); no boost fires 0.948 (median 1.000)
+    P7 rule cross-check vs keeper_partB_landing.land_v15 on 10,000 identical inputs: agree 10000/10000
+
+(2) SKY: 100 seeds per arm, N_gen 2,855,934, σ_z 0.04(1+z), five bins, joint two-channel fit
+   P1 true, A_int 0                    : N in mask 914,490; σ_β c = 174.7 ± 20.9 (spread), β̂/β_CMB 1.202; f (seed 0) [8.16, 5.05, 3.69, 2.57, -0.02]
+      Section 5 alone {'A': 0.62, 'B': 0.01, 'C': 0.37} | v1.4 text {'A': 0.48, 'B': 0.27, 'C': 0.25} | full v1.5 (all computable clauses) {'A': 0.14, 'B': 0.0, 'C': 0.86} | full minus the region clause {'A': 0.25, 'B': 0.0, 'C': 0.75}
+      A′ sub-conditions FAIL: amplitude 0.05; u_z outside count-only region 0.08; u_c outside redshift-only region 0.33; count-only σ_β 483, redshift-only σ_β 192, joint per-component σ 183 km/s
+      4.4 triggers fired: σ_β ≥ β/2 0.39; region > 25 % 0.55 (median region 0.290); profile-alt > 2σ 0.00; C′ 0.40; null-bin fail 0.00; per-bin residual fail 0.13
+   no boost, A_int 0                   : N in mask 914,490; σ_β c = 193.1 ± 14.9 (spread), β̂/β_CMB 0.799; f (seed 0) [8.16, 5.05, 3.68, 2.58, -0.02]
+      Section 5 alone {'A': 0.0, 'B': 0.21, 'C': 0.79} | v1.4 text {'A': 0.0, 'B': 0.37, 'C': 0.63} | full v1.5 (all computable clauses) {'A': 0.0, 'B': 0.01, 'C': 0.99} | full minus the region clause {'A': 0.0, 'B': 0.04, 'C': 0.96}
+      A′ sub-conditions FAIL: amplitude 0.07; u_z outside count-only region 0.11; u_c outside redshift-only region 0.08; count-only σ_β 504, redshift-only σ_β 209, joint per-component σ 183 km/s
+      4.4 triggers fired: σ_β ≥ β/2 0.78; region > 25 % 0.93 (median region 1.000); profile-alt > 2σ 0.00; C′ 0.19; null-bin fail 0.00; per-bin residual fail 0.62
+   P1 true, A 0.05 piecewise (Cal)     : N in mask 897,221; σ_β c = 191.6 ± 7.3 (spread), β̂/β_CMB 3.569; f (seed 0) [8.21, 5.1, 3.73, 2.61, -0.0]
+      Section 5 alone {'A': 0.0, 'B': 0.98, 'C': 0.02} | v1.4 text {'A': 0.0, 'B': 0.98, 'C': 0.02} | full v1.5 (all computable clauses) {'A': 0.0, 'B': 0.01, 'C': 0.99} | full minus the region clause {'A': 0.0, 'B': 0.01, 'C': 0.99}
+      A′ sub-conditions FAIL: amplitude 0.14; u_z outside count-only region 0.07; u_c outside redshift-only region 0.88; count-only σ_β 477, redshift-only σ_β 210, joint per-component σ 184 km/s
+      4.4 triggers fired: σ_β ≥ β/2 0.79; region > 25 % 0.00 (median region 0.031); profile-alt > 2σ 0.00; C′ 0.89; null-bin fail 0.02; per-bin residual fail 1.00
+   no boost, A 0.05 piecewise (Cal)    : N in mask 897,212; σ_β c = 198.2 ± 6.8 (spread), β̂/β_CMB 2.819; f (seed 0) [8.21, 5.1, 3.72, 2.62, -0.01]
+      Section 5 alone {'A': 0.11, 'B': 0.56, 'C': 0.33} | v1.4 text {'A': 0.11, 'B': 0.56, 'C': 0.33} | full v1.5 (all computable clauses) {'A': 0.0, 'B': 0.0, 'C': 1.0} | full minus the region clause {'A': 0.0, 'B': 0.0, 'C': 1.0}
+      A′ sub-conditions FAIL: amplitude 0.08; u_z outside count-only region 0.07; u_c outside redshift-only region 0.93; count-only σ_β 497, redshift-only σ_β 216, joint per-component σ 184 km/s
+      4.4 triggers fired: σ_β ≥ β/2 0.97; region > 25 % 0.00 (median region 0.052); profile-alt > 2σ 0.00; C′ 0.93; null-bin fail 0.02; per-bin residual fail 0.94
+   P1 true, A 0.05 continuous MIS-SPEC : N in mask 896,609; σ_β c = 194.1 ± 5.7 (spread), β̂/β_CMB 4.363; f (seed 0) [8.34, 5.05, 3.72, 2.63, 0.0]
+      Section 5 alone {'A': 0.0, 'B': 1.0, 'C': 0.0} | v1.4 text {'A': 0.0, 'B': 1.0, 'C': 0.0} | full v1.5 (all computable clauses) {'A': 0.0, 'B': 0.0, 'C': 1.0} | full minus the region clause {'A': 0.0, 'B': 0.0, 'C': 1.0}
+      A′ sub-conditions FAIL: amplitude 0.34; u_z outside count-only region 0.28; u_c outside redshift-only region 1.00; count-only σ_β 537, redshift-only σ_β 211, joint per-component σ 184 km/s
+      4.4 triggers fired: σ_β ≥ β/2 0.93; region > 25 % 0.00 (median region 0.020); profile-alt > 2σ 0.39; C′ 1.00; null-bin fail 0.01; per-bin residual fail 1.00
+   no boost, A 0.05 continuous MIS-SPEC: N in mask 896,594; σ_β c = 199.5 ± 5.4 (spread), β̂/β_CMB 3.622; f (seed 0) [8.34, 5.05, 3.72, 2.63, 0.0]
+      Section 5 alone {'A': 0.0, 'B': 0.95, 'C': 0.05} | v1.4 text {'A': 0.0, 'B': 0.95, 'C': 0.05} | full v1.5 (all computable clauses) {'A': 0.0, 'B': 0.0, 'C': 1.0} | full minus the region clause {'A': 0.0, 'B': 0.0, 'C': 1.0}
+      A′ sub-conditions FAIL: amplitude 0.12; u_z outside count-only region 0.40; u_c outside redshift-only region 1.00; count-only σ_β 531, redshift-only σ_β 215, joint per-component σ 184 km/s
+      4.4 triggers fired: σ_β ≥ β/2 0.98; region > 25 % 0.00 (median region 0.030); profile-alt > 2σ 0.40; C′ 1.00; null-bin fail 0.01; per-bin residual fail 1.00
+
+SCORING (σ then band):
+   P1 fast A|P1 = 0.5708 vs 0.57 ± 0.01 → HIT
+   P2 fast B|null = 0.1186, C|null = 0.8582 vs 0.12/0.86 ± 0.01 → HIT
+   P3 fast v1.4 B|P1 = 0.5638 vs 0.56 ± 0.01 → HIT
+   P4 sky A|P1 (Section 5 alone) = 0.62 vs fast at the arm's σ_β 175: 0.5348 ± 0.125 → HIT
+   P5 sky B|null (Section 5 alone) = 0.21 vs fast at 193: 0.0689 ± 0.063 → MISS
+   P6 sky σ_β c = 174.7 vs 166 ± 5.2 → MISS
+   P7 rule cross-check → HIT
+SCORE 5/7  (7 can fail)
+time 328 s; peak RSS 815 MB
+DONE
