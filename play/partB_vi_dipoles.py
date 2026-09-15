@@ -11,12 +11,17 @@ redshift-only vectors, the profile-alternative β, the 95 %/99 % region fraction
 DIAGNOSTIC pixel-LS vector labelled as such. Keeper's keeper_partB_vii_compare.py takes this file for (vii).
 RUN ONLY on Keeper's gate word for (vi). --selftest runs the identical code path on a SYNTHETIC sky with an injected boost (no catalogue touched)
 and must recover the injected vector within its own covariance (χ²₃ ≤ 7.815) — the license to run, posted before the run.
-Library: r145_eb_lib.py must be sha256 b87a8b085780 (commit 4ce873ce; Cal §972) — asserted below."""
+Library: r145_eb_lib.py must be sha256 b87a8b085780 (commit 4ce873ce; Cal §972) — asserted below.
+v1.5.1 (K1908 §4 (c), pending Cal's hash): the redshift channel carries the intrinsic column, R_k = −g_k b + ζ_k a, ζ from the frozen (v) recipe
+(full window from the (v) record; quartile windows ζ_w from the sample's per-quartile bin tables computed here — table quantities, no dipole).
+Optional --prior SIGMA_A[,CENTRE_A] (Gaussian on the intrinsic vector, per component) — used ONLY if v1.5.1 names it; the v1.5 fit (no ζ) is posted beside."""
 import sys, os, math, json, hashlib, datetime, resource
 import numpy as np
-sys.path.insert(0,'.'); import r145_eb_lib as L; import partB_diag_pixls as DG
+sys.path.insert(0,'.'); import r145_eb_lib as L; import partB_diag_pixls as DG; import partB_v151_lib as V
 from r145_eb_lib import C_KMS
 assert L.lib_hash()=='b87a8b085780', L.lib_hash()
+PRIOR=None
+if '--prior' in sys.argv: _v=sys.argv[sys.argv.index('--prior')+1].split(','); PRIOR=(float(_v[0]),float(_v[1]) if len(_v)>1 else 0.0)
 Q='../data/quaia'; NSIDE=64; NPIX=12*NSIDE*NSIDE; NMOCK=1000; CH=1_000_000; CHI2_2_95, CHI2_2_99 = 5.991, 9.210
 RG=np.array([[-0.0548755604162154,-0.8734370902348850,-0.4838350155487132],[0.4941094278755837,-0.4448296299600112,0.7469822444972189],[-0.8676661490190047,-0.1980763734312015,0.4559837761750669]])
 def icrs_to_gal_vec(ra,dec):
@@ -76,23 +81,32 @@ def run(tag,edges,rec,selftest=None):
     for k in range(4):
         sq=ok&(G>=q[k])&(G<q[k+1]); r_,c_=zdipole(vg[sq],z[sq],w[sq],rng,nmock=400); Rw.append(r_); CRw.append(c_)
     fs=[r['f'] for r in rec['rows']]; wprof=[r['w'] for r in rec['rows']]; walt=[r['w_alt'] for r in rec['rows']]; g=rec['g']; gw=rec['g_w']; null=[r['null'] for r in rec['rows']]
+    Nw=[r.get('N_w',r.get('N')) for r in rec['rows']]; zmed=[r['zmed'] for r in rec['rows']]; zeta_full,zbar=V.zeta_from_table(Nw,wprof,zmed); zetas_w=[]
+    for k in range(4):
+        sq=ok&(G>=q[k])&(G<q[k+1]); Nk=[float(w[sq&(z>=edges[i])&(z<edges[i+1])].sum()) for i in range(len(edges)-1)]; zk=[float(np.median(z[sq&(z>=edges[i])&(z<edges[i+1])])) if Nk[i]>0 else zmed[i] for i in range(len(edges)-1)]; zetas_w.append(V.zeta_from_table(Nk,wprof,zk)[0])
+    zetas=[zeta_full]+zetas_w
     Ds=[np.array(r['D']) for r in rows]; Cs=[np.array(r['cov']) for r in rows]
     fs_fit=[0.0 if nl else f for f,nl in zip(fs,null)]     # 4.4a: a null bin enters through the intrinsic term only
-    b,a,cov=L.joint_two_channel(Ds,Cs,fs_fit,wprof,[R]+Rw,[CR]+CRw,[g]+list(gw)); be,sb,u,A,sA=L.fit_summary(b,a,cov)
+    b15,a15,cov15=L.joint_two_channel(Ds,Cs,fs_fit,wprof,[R]+Rw,[CR]+CRw,[g]+list(gw)); be15,sb15,_,_,_=L.fit_summary(b15,a15,cov15)     # v1.5 fit (no ζ), posted beside
+    b,a,cov=V.joint_two_channel_zeta(Ds,Cs,fs_fit,wprof,[R]+Rw,[CR]+CRw,[g]+list(gw),zetas)                                              # v1.5.1 fit (ζ columns)
+    if PRIOR is not None:
+        sA_,cA_=PRIOR; Gm=np.linalg.inv(cov); rhs=Gm@np.concatenate([b,a]); Gm[3:,3:]+=np.eye(3)/sA_**2; rhs[3:]+=cA_*np.ones(3)/sA_**2*0.0; cov=np.linalg.inv(Gm); pp=cov@rhs; b,a=pp[:3],pp[3:]   # prior centred on 0 in vector form; a centre on |a| is not a linear prior — flagged
+    be,sb,u,A,sA=L.fit_summary(b,a,cov)
     bc,ac,covc=L.joint_two_channel(Ds,Cs,fs_fit,wprof,[],[],[]); bec,sbc,uc,_,_=L.fit_summary(bc,ac,covc)
     bz,az,covz=L.joint_two_channel([],[],[],[],[R]+Rw,[CR]+CRw,[g]+list(gw)) if False else (None,None,None)
     Rall=[R]+Rw; Call=[CR]+CRw; Gz=sum((gg**2)*np.linalg.inv(c) for gg,c in zip([g]+list(gw),Call)); rz=sum(gg*np.linalg.inv(c)@(-r) for gg,r,c in zip([g]+list(gw),Rall,Call)); bz=np.linalg.solve(Gz,rz); Sz=np.linalg.inv(Gz); bez=np.linalg.norm(bz); uz=bz/bez; sbz=math.sqrt(uz@Sz@uz)
     balt,aalt,covalt=L.joint_two_channel(Ds,Cs,fs_fit,walt,[R]+Rw,[CR]+CRw,[g]+list(gw)); bealt=np.linalg.norm(balt)
     blit,alit,covlit=L.joint_two_channel([np.array(r['D_literal']) for r in rows],[np.array(r['cov_literal']) for r in rows],fs_fit,wprof,[R]+Rw,[CR]+CRw,[g]+list(gw)); belit,sblit,ulit,_,_=L.fit_summary(blit,alit,covlit)
     Sb=cov[:3,:3]; deb=math.sqrt(max(be**2-np.trace(Sb),0.0)); lb=L.vec_to_lb(b); lbc=L.vec_to_lb(bc); lbz=L.vec_to_lb(bz)
-    out=dict(tag=tag,weights_mode=rec['mode'],N_mask=rec['N_mask'],Dcorr=Dcorr.tolist(),Rfoot=Rfoot.tolist(),estimator_in_fit='RESPONSE-corrected (offset + 3<n n^T>^-1) — pending Cal v1.5.1; literal §4.1 rows kept as D_literal',rows=rows,R=R.tolist(),CR=CR.tolist(),Rw=[r.tolist() for r in Rw],CRw=[c.tolist() for c in CRw],G_quartiles=q[:4].tolist(),
+    out=dict(tag=tag,weights_mode=rec['mode'],N_mask=rec['N_mask'],Dcorr=Dcorr.tolist(),Rfoot=Rfoot.tolist(),zetas=zetas,prior=PRIOR,v15_fit_no_zeta=dict(b=b15.tolist(),cov=cov15[:3,:3].tolist(),beta_c=be15*C_KMS,sigma_c=sb15*C_KMS),estimator_in_fit='RESPONSE-corrected (offset + 3<n n^T>^-1) — pending Cal v1.5.1; literal §4.1 rows kept as D_literal',rows=rows,R=R.tolist(),CR=CR.tolist(),Rw=[r.tolist() for r in Rw],CRw=[c.tolist() for c in CRw],G_quartiles=q[:4].tolist(),
              b=b.tolist(),cov_b=Sb.tolist(),cov_full=cov.tolist(),beta_c=be*C_KMS,sigma_beta_c=sb*C_KMS,u_lb=(float(lb[0][0]),float(lb[1][0])),debiased_norm_c=deb*C_KMS,A_int=A,sigma_A=sA,
              region95=region_frac(b,Sb,CHI2_2_95),region99=region_frac(b,Sb,CHI2_2_99),count_only=dict(b=bc.tolist(),cov=covc[:3,:3].tolist(),beta_c=bec*C_KMS,sigma_c=sbc*C_KMS,u_lb=(float(lbc[0][0]),float(lbc[1][0]))),
              redshift_only=dict(b=bz.tolist(),cov=Sz.tolist(),beta_c=bez*C_KMS,sigma_c=sbz*C_KMS,u_lb=(float(lbz[0][0]),float(lbz[1][0]))),profile_alt=dict(beta_c=bealt*C_KMS,shift_sigma=(bealt-be)/sb),
              literal_estimator_joint=dict(b=blit.tolist(),cov=covlit[:3,:3].tolist(),beta_c=belit*C_KMS,sigma_c=sblit*C_KMS),sigma_ge_half_beta_trigger=None)   # the 4.4 trigger needs β_CMB — Keeper applies it at (vii)
     print(f"   {tag}: weights {rec['mode'][:8]}; correction vector |Dcorr| = {np.linalg.norm(Dcorr):.5f} toward {tuple(round(float(x[0]),1) for x in L.vec_to_lb(Dcorr))}; footprint response eigen {np.round(np.linalg.eigvalsh(Rfoot),3).tolist()}")
     for r in rows: print(f"      bin {r['bin']}: N {r['N']:,}; D_literal = {np.round(r['D_literal'],5).tolist()} (σ {math.sqrt(r['cov_literal'][0][0]):.5f}); D_resp = {np.round(r['D'],5).tolist()} (σ/comp {math.sqrt(r['cov'][0][0]):.5f})")
-    print(f"      JOINT b̂: β c = {be*C_KMS:.0f} ± {sb*C_KMS:.0f} km/s toward (l,b) = ({out['u_lb'][0]:.1f}, {out['u_lb'][1]:.1f}); debiased norm {deb*C_KMS:.0f}; Â = {A:.4f} ± {sA:.4f}; 95 % region {out['region95']:.3f} of the sphere, 99 % {out['region99']:.3f}; eigen-σ {[round(math.sqrt(e)*C_KMS) for e in np.linalg.eigvalsh(Sb)]} km/s")
+    print(f"      ζ (full, quartiles) = {np.round(zetas,4).tolist()}; prior on a = {PRIOR}; v1.5 fit without ζ: β c = {be15*C_KMS:.0f} ± {sb15*C_KMS:.0f}")
+    print(f"      JOINT b̂ (v1.5.1, ζ columns): β c = {be*C_KMS:.0f} ± {sb*C_KMS:.0f} km/s toward (l,b) = ({out['u_lb'][0]:.1f}, {out['u_lb'][1]:.1f}); debiased norm {deb*C_KMS:.0f}; Â = {A:.4f} ± {sA:.4f}; 95 % region {out['region95']:.3f} of the sphere, 99 % {out['region99']:.3f}; eigen-σ {[round(math.sqrt(e)*C_KMS) for e in np.linalg.eigvalsh(Sb)]} km/s")
     print(f"      count-only: {bec*C_KMS:.0f} ± {sbc*C_KMS:.0f} toward ({out['count_only']['u_lb'][0]:.1f}, {out['count_only']['u_lb'][1]:.1f}); redshift-only: {bez*C_KMS:.0f} ± {sbz*C_KMS:.0f} toward ({out['redshift_only']['u_lb'][0]:.1f}, {out['redshift_only']['u_lb'][1]:.1f}); profile-alt β = {bealt*C_KMS:.0f} ({(bealt-be)/sb:+.2f} σ_β)")
     print(f"      literal-§4.1 joint (offset only, no response): β c = {belit*C_KMS:.0f} ± {sblit*C_KMS:.0f} toward {tuple(round(float(x[0]),1) for x in L.vec_to_lb(blit))}")
     return out,b,Sb,blit,covlit[:3,:3]
@@ -106,7 +120,7 @@ if __name__=='__main__':
             rng=np.random.default_rng(100+seed); n,z,zp,S=L.synth_sky_full(int(913_899/0.32),binj,vinj,rng,ZEG,XG,1.0,1.0,sigma_z=0.04); km=in_mask(n); n=n[km]; zp=zp[km]; S=S[km]; G=-2.5*np.log10(S)+20.5
             s_=np.ones(len(n)); wmap=lambda v: np.ones(len(v)); ftest=lambda v: in_mask(v); rows=[]
             for i in range(5):
-                sel=(zp>=edges[i])&(zp<edges[i+1]); x=L.measure_x(S[sel],1.0); B=L.membership_term(zp,edges[i],edges[i+1],sel.sum()); rows.append(dict(f=2+2*x+B,zmed=float(np.median(zp[sel])),null=abs(2+2*x+B)<0.3))
+                sel=(zp>=edges[i])&(zp<edges[i+1]); x=L.measure_x(S[sel],1.0); B=L.membership_term(zp,edges[i],edges[i+1],sel.sum()); rows.append(dict(f=2+2*x+B,zmed=float(np.median(zp[sel])),null=abs(2+2*x+B)<0.3,N_w=int(sel.sum())))
             wv=L.profile_w([r['zmed'] for r in rows]); chis=[L.comoving(r['zmed']) for r in rows]
             for r,wi,c in zip(rows,wv,chis): r['w']=wi; r['w_alt']=chis[0]/c
             qe=np.quantile(G,[0,.25,.5,.75]); rec=dict(mode='SELFTEST (sf=1)',N_mask=len(n),rows=rows,g=1+float(zp.mean()),g_w=[1+float(zp[(G>=a)&(G<b_)].mean()) for a,b_ in zip(qe,list(qe[1:])+[np.inf])])
