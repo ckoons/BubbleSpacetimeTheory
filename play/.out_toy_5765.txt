@@ -1,0 +1,18 @@
+toy 5765; lib b87a8b085780 (frozen 4ce873ce); v151 5fcf85b60fa3; file 0276a9428cf4; N_SEED 100; N_CF 30
+(1) CAN-FAIL — the ζ column:
+   (c1) P1 true, A 0.05, σ_z 0       : ζ = -0.1881; LEAK b̂·d_int =     46 ±  83; RECOVERY b̂·û_CMB =   314 ±  68; σ_β 392 ± 51; Â 0.0521; v1.5.1 {'A': 0.033, 'B': 0.0, 'C': 0.967} | Section 5 alone {'A': 0.1, 'B': 0.0, 'C': 0.9}; region-report 0.87; H7 outside 1.00; C′ 0.00; prof 0.50; per-bin fail 0.70; null fail 0.00
+   (c2) P1 true, A 0.05, σ_z 0.04    : ζ = -0.1901; LEAK b̂·d_int =    198 ±  75; RECOVERY b̂·û_CMB =   406 ±  65; σ_β 397 ± 45; Â 0.0463; v1.5.1 {'A': 0.0, 'B': 0.0, 'C': 1.0} | Section 5 alone {'A': 0.1, 'B': 0.0, 'C': 0.9}; region-report 0.87; H7 outside 1.00; C′ 0.00; prof 0.47; per-bin fail 0.67; null fail 0.00
+   (c1m) same, ζ on bin MEANS        : ζ = -0.1957; LEAK b̂·d_int =      1 ±  84; RECOVERY b̂·û_CMB =   280 ±  69; σ_β 404 ± 52; Â 0.0532; v1.5.1 {'A': 0.0, 'B': 0.0, 'C': 1.0} | Section 5 alone {'A': 0.067, 'B': 0.0, 'C': 0.933}; region-report 0.93; H7 outside 1.00; C′ 0.00; prof 0.50; per-bin fail 0.73; null fail 0.00
+(2) FRACTIONS under v1.5.1 (K1908 §4 as recommended):
+   (f1) P1 true, A 0                 : ζ = -0.1922; LEAK b̂·d_int =     -2 ±  52; RECOVERY b̂·û_CMB =   356 ±  38; σ_β 405 ± 37; Â 0.0217; v1.5.1 {'A': 0.0, 'B': 0.01, 'C': 0.99} | Section 5 alone {'A': 0.15, 'B': 0.01, 'C': 0.84}; region-report 0.85; H7 outside 1.00; C′ 0.00; prof 0.00; per-bin fail 0.71; null fail 0.00
+   (f2) null, A 0                    : ζ = -0.1922; LEAK b̂·d_int =     19 ±  52; RECOVERY b̂·û_CMB =    12 ±  37; σ_β 419 ± 25; Â 0.0217; v1.5.1 {'A': 0.0, 'B': 0.02, 'C': 0.98} | Section 5 alone {'A': 0.0, 'B': 0.03, 'C': 0.97}; region-report 0.96; H7 outside 1.00; C′ 0.00; prof 0.02; per-bin fail 0.78; null fail 0.00
+   (f3) P1 true, A 0.005             : ζ = -0.1920; LEAK b̂·d_int =      2 ±  47; RECOVERY b̂·û_CMB =   340 ±  39; σ_β 404 ± 40; Â 0.0215; v1.5.1 {'A': 0.0, 'B': 0.0, 'C': 1.0} | Section 5 alone {'A': 0.09, 'B': 0.0, 'C': 0.91}; region-report 0.87; H7 outside 1.00; C′ 0.00; prof 0.05; per-bin fail 0.61; null fail 0.00
+   (f4) P1 true, A 0.01              : ζ = -0.1918; LEAK b̂·d_int =     26 ±  48; RECOVERY b̂·û_CMB =   380 ±  34; σ_β 393 ± 42; Â 0.0229; v1.5.1 {'A': 0.01, 'B': 0.01, 'C': 0.98} | Section 5 alone {'A': 0.15, 'B': 0.01, 'C': 0.84}; region-report 0.85; H7 outside 1.00; C′ 0.00; prof 0.06; per-bin fail 0.58; null fail 0.00
+   (f5) null, A 0.01                 : ζ = -0.1918; LEAK b̂·d_int =     45 ±  48; RECOVERY b̂·û_CMB =    37 ±  34; σ_β 410 ± 35; Â 0.0230; v1.5.1 {'A': 0.0, 'B': 0.02, 'C': 0.98} | Section 5 alone {'A': 0.0, 'B': 0.02, 'C': 0.98}; region-report 0.93; H7 outside 1.00; C′ 0.00; prof 0.03; per-bin fail 0.74; null fail 0.00
+
+SCORING: P1 leak 46 ± 83 → HIT | P2 leak 198 ± 75 → MISS | P3 recovery 314 ± 68 → HIT
+         P4 A|P1 = 0.0 vs 0.53 ± 0.125 → MISS | P5 B|null = 0.02 vs 0.185 ± 0.097 → MISS
+         P6 A|P1 at A 0.01 = 0.01 vs A 0: 0.0 ± 0.050 → HIT | P7 recovery at A 0.01 = 380 ± 34 → HIT
+SCORE 4/7  (7 can fail)
+time 322 s; peak RSS 999 MB
+DONE
