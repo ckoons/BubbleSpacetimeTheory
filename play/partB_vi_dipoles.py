@@ -81,10 +81,12 @@ def run(tag,edges,rec,selftest=None):
     for k in range(4):
         sq=ok&(G>=q[k])&(G<q[k+1]); r_,c_=zdipole(vg[sq],z[sq],w[sq],rng,nmock=400); Rw.append(r_); CRw.append(c_)
     fs=[r['f'] for r in rec['rows']]; wprof=[r['w'] for r in rec['rows']]; walt=[r['w_alt'] for r in rec['rows']]; g=rec['g']; gw=rec['g_w']; null=[r['null'] for r in rec['rows']]
-    Nw=[r.get('N_w',r.get('N')) for r in rec['rows']]; zmed=[r['zmed'] for r in rec['rows']]; zeta_full,zbar=V.zeta_from_table(Nw,wprof,zmed); zetas_w=[]
-    for k in range(4):
-        sq=ok&(G>=q[k])&(G<q[k+1]); Nk=[float(w[sq&(z>=edges[i])&(z<edges[i+1])].sum()) for i in range(len(edges)-1)]; zk=[float(np.median(z[sq&(z>=edges[i])&(z<edges[i+1])])) if Nk[i]>0 else zmed[i] for i in range(len(edges)-1)]; zetas_w.append(V.zeta_from_table(Nk,wprof,zk)[0])
-    zetas=[zeta_full]+zetas_w
+    if 'zeta' in rec: zetas=[rec['zeta']]+list(rec['zeta_q'])          # from the (v) ADDENDUM record (bin MEANS, v1.5.1 §7.1 (v)); never recomputed here
+    else:
+        Nw=[r.get('N_w',r.get('N')) for r in rec['rows']]; zmean=[r.get('zmean',r['zmed']) for r in rec['rows']]; zeta_full,zbar=V.zeta_from_table(Nw,wprof,zmean); zetas_w=[]
+        for k in range(4):
+            sq=ok&(G>=q[k])&(G<q[k+1]); Nk=[float(w[sq&(z>=edges[i])&(z<edges[i+1])].sum()) for i in range(len(edges)-1)]; zk=[float((w*z)[sq&(z>=edges[i])&(z<edges[i+1])].sum()/Nk[i]) if Nk[i]>0 else zmean[i] for i in range(len(edges)-1)]; zetas_w.append(V.zeta_from_table(Nk,wprof,zk)[0])
+        zetas=[zeta_full]+zetas_w
     Ds=[np.array(r['D']) for r in rows]; Cs=[np.array(r['cov']) for r in rows]
     fs_fit=[0.0 if nl else f for f,nl in zip(fs,null)]     # 4.4a: a null bin enters through the intrinsic term only
     b15,a15,cov15=L.joint_two_channel(Ds,Cs,fs_fit,wprof,[R]+Rw,[CR]+CRw,[g]+list(gw)); be15,sb15,_,_,_=L.fit_summary(b15,a15,cov15)     # v1.5 fit (no ζ), posted beside
@@ -94,7 +96,9 @@ def run(tag,edges,rec,selftest=None):
     be,sb,u,A,sA=L.fit_summary(b,a,cov)
     bc,ac,covc=L.joint_two_channel(Ds,Cs,fs_fit,wprof,[],[],[]); bec,sbc,uc,_,_=L.fit_summary(bc,ac,covc)
     bz,az,covz=L.joint_two_channel([],[],[],[],[R]+Rw,[CR]+CRw,[g]+list(gw)) if False else (None,None,None)
-    Rall=[R]+Rw; Call=[CR]+CRw; Gz=sum((gg**2)*np.linalg.inv(c) for gg,c in zip([g]+list(gw),Call)); rz=sum(gg*np.linalg.inv(c)@(-r) for gg,r,c in zip([g]+list(gw),Rall,Call)); bz=np.linalg.solve(Gz,rz); Sz=np.linalg.inv(Gz); bez=np.linalg.norm(bz); uz=bz/bez; sbz=math.sqrt(uz@Sz@uz)
+    # fit (a), v1.5.1 (d): redshift-only b from R_k + ζ_k a_c with a_c = the COUNT-ONLY fit's intrinsic vector (clean of the leak), its covariance propagated
+    Rall=[R]+Rw; Call=[CR]+CRw; Gz=sum((gg**2)*np.linalg.inv(c) for gg,c in zip([g]+list(gw),Call)); rz=sum(gg*np.linalg.inv(c)@(-(r-zk*ac)) for gg,r,c,zk in zip([g]+list(gw),Rall,Call,zetas)); bz=np.linalg.solve(Gz,rz); Sz=np.linalg.inv(Gz)
+    Jz=np.linalg.solve(Gz,sum(gg*zk*np.linalg.inv(c) for gg,c,zk in zip([g]+list(gw),Call,zetas))); Sz=Sz+Jz@covc[3:,3:]@Jz.T; bez=np.linalg.norm(bz); uz=bz/bez; sbz=math.sqrt(uz@Sz@uz)
     balt,aalt,covalt=L.joint_two_channel(Ds,Cs,fs_fit,walt,[R]+Rw,[CR]+CRw,[g]+list(gw)); bealt=np.linalg.norm(balt)
     blit,alit,covlit=L.joint_two_channel([np.array(r['D_literal']) for r in rows],[np.array(r['cov_literal']) for r in rows],fs_fit,wprof,[R]+Rw,[CR]+CRw,[g]+list(gw)); belit,sblit,ulit,_,_=L.fit_summary(blit,alit,covlit)
     Sb=cov[:3,:3]; deb=math.sqrt(max(be**2-np.trace(Sb),0.0)); lb=L.vec_to_lb(b); lbc=L.vec_to_lb(bc); lbz=L.vec_to_lb(bz)
@@ -129,7 +133,7 @@ if __name__=='__main__':
         bm=np.mean(bs,0)*C_KMS; print(f"   SELFTEST (5 seeds, injected 500 km/s toward (120, −50)): χ²₃ response-corrected = {np.round(c2r,2).tolist()} (≤ 7.815 expected in ≥ 4 of 5); literal §4.1 = {np.round(c2l,2).tolist()}; mean b̂ (response) = {np.round(bm,0).tolist()} km/s vs injected {np.round(500*vinj,0).tolist()}")
         ok=sum(c<=7.815 for c in c2r)>=4; print(f"   SELFTEST → {'PASS' if ok else 'FAIL'}"); print(f"peak RSS {resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1e6:.0f} MB"); sys.exit(0 if ok else 1)
     if '--run' not in sys.argv: print("   (vi) is not run without --run (Keeper's gate word for (vi) on v1.5's hash)."); sys.exit(0)
-    rec=json.load(open('.partB_v_closed.json')); outs={}
+    rec=json.load(open('.partB_v_closed.json')); add=json.load(open('.partB_v_addendum.json')); outs={}
     for tag,edges in (("G20.5",[0.0,0.8,1.3,1.8,2.4,np.inf]),("G20.0",[0.0,1.3,1.8,np.inf])):
-        outs[tag],_,_,_,_=run(tag,edges,rec[tag])
+        r_=dict(rec[tag]); r_.update(zeta=add[tag]['zeta'],zeta_q=add[tag]['zeta_q']); outs[tag],_,_,_,_=run(tag,edges,r_)
     json.dump(outs,open('.partB_vi_dipoles.json','w'),indent=1,default=float); print(f"peak RSS {resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1e6:.0f} MB")
