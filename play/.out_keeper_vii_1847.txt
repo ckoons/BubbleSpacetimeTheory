@@ -1,0 +1,34 @@
+
+===== G20.5: weights FALLBACK (published NSIDE64 map of the s…; N_mask 913,899
+  §4.4 profile-alternative trigger: shift = +7.50 sigma_beta (frozen bar 2) -> FIRES
+  A' amplitude clause: count-only 1748 ± 408 vs redshift-only 1167 ± 318: 1.12 sigma apart -> agree
+  [criterion σ_A=3.4e-3] beta c = 446 ± 120 km/s toward (276.2, 22.2); angle to CMB 27.8 deg; debiased norm 399; |a| = 0.0095
+      chi2_3(b, b_CMB) = 3.67 [A <= 7.815, B >= 14.156]; chi2_3(b, 0) = 14.50; delta-chi2 = +10.83 [A needs >= 3.84]; per-bin residual p (non-null bins) = [0.0272, 0.0, 0.0, 0.0]
+      LANDING C — 4.4 trigger (v1.5.1): profile_moves_2sigma
+      (Section 5 alone, trigger set aside — a REPORT, not a landing: C — 5(v1.5): not decidable (chi2_3(b,CMB) = 3.67; delta-chi2 vs zero = 10.83; min bin p = 0.000) [report: region b)
+  [σ_c=3.4e-4] beta c = 553 ± 86 km/s toward (262.1, 38.6); angle to CMB 9.8 deg; debiased norm 531; |a| = 0.0001
+      chi2_3(b, b_CMB) = 4.88 [A <= 7.815, B >= 14.156]; chi2_3(b, 0) = 53.33; delta-chi2 = +48.45 [A needs >= 3.84]; per-bin residual p (non-null bins) = [0.0, 0.0, 0.0, 0.0]
+      LANDING C — 4.4 trigger (v1.5.1): profile_moves_2sigma
+      (Section 5 alone, trigger set aside — a REPORT, not a landing: C — 5(v1.5): not decidable (chi2_3(b,CMB) = 4.88; delta-chi2 vs zero = 48.45; min bin p = 0.000) [report: region b)
+  [no prior] beta c = 1883 ± 306 km/s toward (358.4, -22.9); angle to CMB 109.7 deg; debiased norm 1818; |a| = 0.0970
+      chi2_3(b, b_CMB) = 64.58 [A <= 7.815, B >= 14.156]; chi2_3(b, 0) = 47.67; delta-chi2 = -16.91 [A needs >= 3.84]; per-bin residual p (non-null bins) = [0.0, 0.1052, 0.0364, 0.0]
+      LANDING C — 4.4 trigger (v1.5.1): profile_moves_2sigma
+      (Section 5 alone, trigger set aside — a REPORT, not a landing: B — 5(v1.5): chi2_3(b, CMB) = 64.58 >= 14.16; every hatch check PASSES [report: region bounded; run sigma_beta 306)
+  prior-sensitivity (§4.3): the three fits land {'criterion σ_A=3.4e-3': 'C', 'σ_c=3.4e-4': 'C', 'no prior': 'C'} -> all three agree
+
+===== G20.0: weights FALLBACK (published NSIDE64 map of the s…; N_mask 528,510
+  §4.4 profile-alternative trigger: shift = +5.02 sigma_beta (frozen bar 2) -> FIRES
+  A' amplitude clause: count-only 4637 ± 717 vs redshift-only 4388 ± 438: 0.30 sigma apart -> agree
+  [criterion σ_A=3.4e-3] beta c = 249 ± 166 km/s toward (273.8, -18.0); angle to CMB 66.8 deg; debiased norm 0; |a| = 0.0159
+      chi2_3(b, b_CMB) = 8.38 [A <= 7.815, B >= 14.156]; chi2_3(b, 0) = 2.36; delta-chi2 = -6.02 [A needs >= 3.84]; per-bin residual p (non-null bins) = [0.0213, 0.0]
+      LANDING C — 4.4 trigger (v1.5.1): profile_moves_2sigma
+      (Section 5 alone, trigger set aside — a REPORT, not a landing: C — 5(v1.5): not decidable (chi2_3(b,CMB) = 8.38; delta-chi2 vs zero = -6.02; min bin p = 0.000) [report: region w)
+  [σ_c=3.4e-4] beta c = 571 ± 121 km/s toward (234.0, 30.2); angle to CMB 29.2 deg; debiased norm 531; |a| = 0.0002
+      chi2_3(b, b_CMB) = 5.13 [A <= 7.815, B >= 14.156]; chi2_3(b, 0) = 27.95; delta-chi2 = +22.82 [A needs >= 3.84]; per-bin residual p (non-null bins) = [0.0, 0.0]
+      LANDING C — 4.4 trigger (v1.5.1): profile_moves_2sigma
+      (Section 5 alone, trigger set aside — a REPORT, not a landing: C — 5(v1.5): not decidable (chi2_3(b,CMB) = 5.13; delta-chi2 vs zero = 22.82; min bin p = 0.000) [report: region b)
+  [no prior] beta c = 4242 ± 385 km/s toward (25.0, -19.3); angle to CMB 124.8 deg; debiased norm 4198; |a| = 0.1480
+      chi2_3(b, b_CMB) = 167.02 [A <= 7.815, B >= 14.156]; chi2_3(b, 0) = 142.55; delta-chi2 = -24.48 [A needs >= 3.84]; per-bin residual p (non-null bins) = [0.0, 0.0]
+      LANDING C — 4.4 trigger (v1.5.1): profile_moves_2sigma
+      (Section 5 alone, trigger set aside — a REPORT, not a landing: B — 5(v1.5): chi2_3(b, CMB) = 167.02 >= 14.16; every hatch check PASSES [report: region bounded; run sigma_beta 38)
+  prior-sensitivity (§4.3): the three fits land {'criterion σ_A=3.4e-3': 'C', 'σ_c=3.4e-4': 'C', 'no prior': 'C'} -> all three agree
