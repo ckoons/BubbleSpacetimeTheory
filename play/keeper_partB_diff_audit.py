@@ -31,6 +31,16 @@ ITEMS_K1906 = {
  '§2.3 fallback (K1906 §1)':    r'selection function|NSIDE|weight|fallback|H5|released code|92eca506',
  'declaration':                 r'9c|K1905|K1906|v1\.4',
 }
+# v1.5.1 -> v1.5.2 scope (Cal §9f, declared; Elie 5765; Grace R153 G2 + 12:52; before any dipole): the LCDM prior on the intrinsic vector.
+ITEMS_K1909 = {
+ '(h) intrinsic term a vector; 4.2/4.3 linear unbounded': r'intrinsic vector|\\mathbf a|\ba_i\b|three components|unbounded|linear in|no bound|vector.*intrinsic|intrinsic.*vector',
+ '(i) the prior + sensitivity fits':                    r'prior|D_\{?\\rm cls|D_cls|clustering dipole|Secrest 2021|908|L51|Gibelyou|zero.centred|zero-centered|√3|\\sqrt\{?3|factor (of )?ten|10 ?×|ten times|no-prior|without the prior|sensitivity',
+ '(j) per-bin residual covariance':                     r'residual|covariance of the fitted|propagat|per-bin',
+ '(k) §1 / 7.1(iii) paragraph':                         r'v1\.5\.2|capability|fractions|5765|false.fire|beyond ΛCDM|beyond LCDM|C by construction|405|352',
+ '(l) design sigma re-evaluated':                       r'design|re-evaluated|σ_β|sigma_beta|135|160',
+ '(m) §8 rescue clause':                                r'rescue|S3|null sky|prior sentence',
+ 'declaration':                                         r'9f|§974|Cal §974|K1909|referee.s objection|tuning channel',
+}
 # v1.5 -> v1.5.1 scope (K1908 §4 (a)-(g), board 11:01; declared before (vi)): seven items, each forced by a synthetic positive control.
 ITEMS_K1908 = {
  '(a) region clause -> report':        r'region|25 ?%|quarter|sphere|2\.448|decisive|report',
@@ -99,6 +109,6 @@ if __name__ == '__main__':
     if '--selftest' in sys.argv: sys.exit(selftest())
     if '--scope' in sys.argv:
         sc = sys.argv[sys.argv.index('--scope')+1].lower()
-        ITEMS.clear(); ITEMS.update({'k1903': ITEMS_K1903, 'k1906': ITEMS_K1906, 'k1908': ITEMS_K1908}[sc])
-    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() not in ('k1903', 'k1906', 'k1908')]
+        ITEMS.clear(); ITEMS.update({'k1903': ITEMS_K1903, 'k1906': ITEMS_K1906, 'k1908': ITEMS_K1908, 'k1909': ITEMS_K1909}[sc])
+    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() not in ('k1903', 'k1906', 'k1908', 'k1909')]
     sys.exit(audit(args[0], args[1]))
