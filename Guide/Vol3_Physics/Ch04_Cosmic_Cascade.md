@@ -46,7 +46,7 @@ The first three have register answers at named tiers (Lecture 4; Lecture 3's row
 
 - **Derived:** the arrow (positivity of $J$ on $H^2$); matter fermionic (T2543); CP existence (T2547); the causal order (T2564); $\lambda = 1/\sqrt{20}$ (T2530); the corner's order.
 - **Identified:** $\eta_b$ (T929); $|V_{cb}|$'s position.
-- **Input:** $\delta_{CP}$'s magnitude; $A$; the corner's value; the frame (T2565).
+- **Open (used from measurement; the register's word for mixing values, K1897):** $\delta_{CP}$'s magnitude; $A$; the corner's value. **Input:** the frame (T2565); the two dimensionful scales.
 - **Posit:** the forward sector (T2625 (i)); T633's reset where the record invokes cycles.
 - **Open:** the continuum limit of the order; $m_{\nu_2}, m_{\nu_3}$ (rows 25–26).
 - **Retired with this head:** the seventeen-step cascade as forcing; "$2/\sqrt{79}$, $A = 4/5$, $|V_{cb}| = 4/125$ now derived"; "the mixing sector, $\alpha_s$, $\eta$, $H_0$, $\sin^2\theta_W$ all derived"; the $S^2\times S^1$ substrate.
