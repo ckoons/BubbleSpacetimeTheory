@@ -1,0 +1,16 @@
+toy 5764; lib b87a8b085780; file a37a993b3617; N_SEED 30; d_int·u_CMB = 0.762 (CMB's own projection on d_int = 282 km/s)
+   (a) A 0.05, σ_z 0               : LEAK b̂·d_int =     980 ±   48 km/s; RECOVERY b̂·u_CMB =  1069 ±  41 (369.82); Â 0.021; Section 5 alone {'A': 0.03, 'B': 0.9, 'C': 0.07}; full v1.5 {'A': 0.0, 'B': 0.0, 'C': 1.0}; C′ 0.97; observed bins' true-z w̃ = [0.999, 0.379, 0.229, 0.163, 0.124] vs frozen [1.0, 0.378, 0.229, 0.163, 0.124]
+   (b) A 0.05, σ_z 0.01            : LEAK b̂·d_int =     988 ±   48 km/s; RECOVERY b̂·u_CMB =  1073 ±  41 (369.82); Â 0.021; Section 5 alone {'A': 0.03, 'B': 0.93, 'C': 0.03}; full v1.5 {'A': 0.0, 'B': 0.0, 'C': 1.0}; C′ 0.90; observed bins' true-z w̃ = [0.989, 0.384, 0.231, 0.164, 0.124] vs frozen [1.0, 0.378, 0.229, 0.163, 0.124]
+   (c) A 0.05, σ_z 0.04            : LEAK b̂·d_int =    1013 ±   45 km/s; RECOVERY b̂·u_CMB =  1089 ±  41 (369.82); Â 0.019; Section 5 alone {'A': 0.0, 'B': 0.93, 'C': 0.07}; full v1.5 {'A': 0.0, 'B': 0.0, 'C': 1.0}; C′ 0.90; observed bins' true-z w̃ = [0.953, 0.399, 0.237, 0.167, 0.127] vs frozen [1.0, 0.378, 0.229, 0.163, 0.124]
+   (d) A 0.02, σ_z 0.04            : LEAK b̂·d_int =     396 ±   42 km/s; RECOVERY b̂·u_CMB =   645 ±  34 (369.82); Â 0.012; Section 5 alone {'A': 0.63, 'B': 0.17, 'C': 0.2}; full v1.5 {'A': 0.1, 'B': 0.0, 'C': 0.9}; C′ 0.60; observed bins' true-z w̃ = [0.954, 0.399, 0.237, 0.167, 0.127] vs frozen [1.0, 0.378, 0.229, 0.163, 0.124]
+   (e) A 0.01, σ_z 0.04            : LEAK b̂·d_int =     257 ±   43 km/s; RECOVERY b̂·u_CMB =   519 ±  37 (369.82); Â 0.010; Section 5 alone {'A': 0.67, 'B': 0.07, 'C': 0.27}; full v1.5 {'A': 0.07, 'B': 0.03, 'C': 0.9}; C′ 0.60; observed bins' true-z w̃ = [0.954, 0.399, 0.237, 0.167, 0.127] vs frozen [1.0, 0.378, 0.229, 0.163, 0.124]
+   (f) A 0.05, σ_z 0.04, ORACLE w̃ : LEAK b̂·d_int =    1021 ±   47 km/s; RECOVERY b̂·u_CMB =  1095 ±  42 (369.82); Â 0.020; Section 5 alone {'A': 0.0, 'B': 0.93, 'C': 0.07}; full v1.5 {'A': 0.0, 'B': 0.0, 'C': 1.0}; C′ 0.93; observed bins' true-z w̃ = [0.953, 0.399, 0.237, 0.167, 0.127] vs frozen [1.0, 0.378, 0.229, 0.163, 0.124]
+
+SCORING: P1 (σ_z 0: leak 980 ± 48, recovery 1069 ± 41) → MISS
+         P2 (σ_z 0.04 leak 1013 ± 45, 22.4σ) → HIT
+         P3 (ratios 0.39 ± 0.04 vs 0.4; 0.25 ± 0.04 vs 0.2) → HIT
+         P4 (oracle leak 1021 ± 47) → MISS
+         P5 (|leak| at σ_z 0.01 = 988 vs half of 1013) → MISS
+SCORE 2/5  (5 can fail)
+time 113 s; peak RSS 1151 MB
+DONE
