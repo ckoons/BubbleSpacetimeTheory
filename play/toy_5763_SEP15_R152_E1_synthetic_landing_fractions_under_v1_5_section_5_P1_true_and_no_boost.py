@@ -24,7 +24,9 @@ PREDICTIONS, σ printed BEFORE the band, bands = ±2.5σ of the test's own binom
  MEASURED, not predicted (reported): the 4.4 region-trigger fraction (flat-sky estimate at σ/β = 0.449: 95 % region ≈ π·5.991·0.449² = 3.79 sr =
  30 % of the sphere — if it fires on a large fraction of P1-true seeds it is a K1907-class finding: a clause fired by a confirmation);
  the full-v1.5 landing fractions with every computable clause on; the A_int = 0.05 arms.
-Memory: one sky = 573 MB peak (timed); arms run sequentially in ONE process; peak RSS printed at the end."""
+Memory: one sky = 573 MB peak (timed); arms run sequentially in ONE process; peak RSS printed at the end.
+ADDENDUM (09:5x, after the 2-seed smoke test, prereg 1798217b unchanged): A′ sub-condition diagnostics added (amplitude test; u_z inside the count-only
+region; u_c inside the redshift-only region) and the per-component σ of the fit, because C′ fired on both smoke seeds and the reason must be named. No prediction changed."""
 import sys, os, math, json, time, resource, hashlib
 import numpy as np
 sys.path.insert(0,'.'); import r145_eb_lib as L
@@ -92,7 +94,7 @@ def one_sky(seed,boost,A_int):
     b2,a2,cov2=L.joint_two_channel(Ds,Cs,fs,w_alt,[R],[CR],[g]); be2=np.linalg.norm(b2); t_prof=abs(be2-be)>2*sb
     # A′ (4.5a): count-only vs redshift-only
     bc_,ac_,covc=L.joint_two_channel(Ds,Cs,fs,w,[],[],[]); bec,sbc,uc,_,_=L.fit_summary(bc_,ac_,covc); bz=-R/g; Sz=CR/g**2; bez=np.linalg.norm(bz); uz=bz/bez; sbz=math.sqrt(uz@Sz@uz)
-    aprime=(abs(bez-bec)<=2*math.hypot(sbz,sbc)) and in_region(uz,bc_,covc[:3,:3]) and in_region(uc,bz,Sz); t_cprime=not aprime
+    ap_amp=abs(bez-bec)<=2*math.hypot(sbz,sbc); ap_uz=in_region(uz,bc_,covc[:3,:3]); ap_uc=in_region(uc,bz,Sz); aprime=ap_amp and ap_uz and ap_uc; t_cprime=not aprime; sig_comp=math.sqrt(np.trace(cov[:3,:3])/3)*C_KMS
     # 4.4a null bin (|f| < 2σ_f; σ_f from the membership-term edge counts — here: top bin by construction, f ≈ 0) and per-bin residuals vs b_CMB
     null=[abs(f)<0.3 for f in fs]   # synthetic: f_5 ≈ 0.03 (5762); the 0.3 stands in for 2σ_f, which the sky close computes from the data
     from scipy.stats import chi2 as chi2dist
@@ -104,7 +106,7 @@ def one_sky(seed,boost,A_int):
     lab_s5=land(c_cmb,c_zero); lab_full=land(c_cmb,c_zero,triggers=(t_sigma,t_region,t_prof,t_cprime,not null_ok),bin_ok=bin_ok,aprime=aprime); lab_14=land(c_cmb,c_zero,v14=True,sigma_beta=sb)
     lab_noreg=land(c_cmb,c_zero,triggers=(t_sigma,t_prof,t_cprime,not null_ok),bin_ok=bin_ok,aprime=aprime)
     return dict(sb=sb*C_KMS,be=be/BC,c_cmb=c_cmb,c_zero=c_zero,reg=reg,t_sigma=t_sigma,t_region=t_region,t_prof=t_prof,t_cprime=t_cprime,null_ok=null_ok,bin_ok=bin_ok,minp=min(pres),f=fs,N=sum(r['N'] for r in rows),
-                lab_s5=lab_s5,lab_full=lab_full,lab_noreg=lab_noreg,lab_14=lab_14)
+                lab_s5=lab_s5,lab_full=lab_full,lab_noreg=lab_noreg,lab_14=lab_14,ap_amp=ap_amp,ap_uz=ap_uz,ap_uc=ap_uc,sig_comp=sig_comp,sbc=sbc*C_KMS,sbz=sbz*C_KMS)
 arms=[("P1 true, A_int 0",True,0.0),("no boost, A_int 0",False,0.0),("P1 true, A_int 0.05",True,0.05),("no boost, A_int 0.05",False,0.05)]
 out=dict(fast=dict(p1_v15=f15_p1,p1_v14=f14_p1,null_v15=f15_n,null_v14=f14_n,region_fire_p1=float(np.mean(np.array(reg_p1)>0.25)),region_fire_null=float(np.mean(np.array(reg_n)>0.25))),sky={})
 print(f"\n(2) SKY: {N_SEED} seeds per arm, N_gen {NGEN:,}, σ_z 0.04(1+z), five bins, joint two-channel fit")
@@ -113,6 +115,7 @@ for name,boost,A in arms:
     fr=lambda k: frac([r[k] for r in rs]); trig=lambda k: np.mean([r[k] for r in rs])
     print(f"   {name:22}: N in mask {np.mean([r['N'] for r in rs]):,.0f}; σ_β c = {sbm:.1f} ± {sbs:.1f} (spread), β̂/β_CMB {np.mean([r['be'] for r in rs]):.3f}; f (seed 0) {[round(f,2) for f in rs[0]['f']]}")
     print(f"      Section 5 alone {fr('lab_s5')} | v1.4 text {fr('lab_14')} | full v1.5 (all computable clauses) {fr('lab_full')} | full minus the region clause {fr('lab_noreg')}")
+    print(f"      A′ sub-conditions FAIL: amplitude {1-trig('ap_amp'):.2f}; u_z outside count-only region {1-trig('ap_uz'):.2f}; u_c outside redshift-only region {1-trig('ap_uc'):.2f}; count-only σ_β {np.mean([r['sbc'] for r in rs]):.0f}, redshift-only σ_β {np.mean([r['sbz'] for r in rs]):.0f}, joint per-component σ {np.mean([r['sig_comp'] for r in rs]):.0f} km/s")
     print(f"      4.4 triggers fired: σ_β ≥ β/2 {trig('t_sigma'):.2f}; region > 25 % {trig('t_region'):.2f} (median region {np.median([r['reg'] for r in rs]):.3f}); profile-alt > 2σ {trig('t_prof'):.2f}; C′ {trig('t_cprime'):.2f}; null-bin fail {1-trig('null_ok'):.2f}; per-bin residual fail {1-trig('bin_ok'):.2f}")
     out['sky'][name]=dict(sigma_beta=float(sbm),spread=float(sbs),s5=fr('lab_s5'),v14=fr('lab_14'),full=fr('lab_full'),noreg=fr('lab_noreg'),triggers={k:float(trig(k)) for k in ('t_sigma','t_region','t_prof','t_cprime')},null_fail=float(1-trig('null_ok')),bin_fail=float(1-trig('bin_ok')),seeds=[{k:(float(v) if not isinstance(v,(list,str,bool)) else v) for k,v in r.items()} for r in rs])
 # ---------------- scoring ----------------
