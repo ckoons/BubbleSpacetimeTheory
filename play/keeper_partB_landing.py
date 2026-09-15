@@ -107,8 +107,37 @@ def selftest_v15():
     t.append('decisive: zero excluded' in land_v15(dict(base, chi2_zero=9.0))[1])
     print('SELFTEST v1.5', 'PASS' if all(t) else 'FAIL', t); return all(t)
 
+# ---- v1.5.1 DRAFT mode (K1908 §4, 2026-09-15 12:4x; INACTIVE until Cal's v1.5.1 is hashed with this Section 4.4/4.5/5) ----
+# (a) the 4.4 region clause is a REPORT (whole sphere iff |b|/sigma < 2.448 — the decisive label's twin); (b) sigma_beta >= 185 is
+# design-level (passed at 166 on 5762) and the run's sigma_beta vs the synthetic band becomes hatch H7; (d) A' = amplitude clause +
+# u_z inside the count-only region, the count-only direction reported. Section 5 as v1.5. Remaining C triggers: profile-alternative
+# moves beta by > 2 sigma; boundary forms disagree (the smooth form's sensitivity); channels disagree (C' as reduced).
+def land_v151(r):
+    C = {k: v for k, v in r['C_triggers'].items() if k in ('profile_moves_2sigma', 'boundary_forms_disagree', 'channels_disagree')}
+    for k, v in C.items():
+        if v: return 'C', '4.4 trigger (v1.5.1): %s' % k
+    rep = ' [report: region %s; run sigma_beta %.0f%s]' % ('whole sphere' if r.get('region_gt_quarter_sky') else 'bounded', r['sigma_beta'],
+                                                           '' if r['hatch'].get('H7', True) else ' OUTSIDE the synthetic band -> H7 FAILS')
+    land, why = land_v15(dict(r, C_triggers={}, hatch=r['hatch']))
+    return land, why + rep
+def selftest_v151():
+    base = dict(chi2_cmb=0.0, chi2_zero=4.96, sigma_beta=175.0, beta_cmb=369.82, bin_resid_p=[0.5,0.4,0.6,0.3,0.2], region_gt_quarter_sky=True,
+                C_triggers=dict(sigma_ge_half_beta=False, region_gt_quarter_sky=True, profile_moves_2sigma=False, boundary_forms_disagree=False, channels_disagree=False),
+                hatch={'H%d' % i: True for i in range(1, 8)})
+    t = []
+    t.append(land_v151(base)[0] == 'A')                                                              # the truth at 175 with the whole-sphere region -> A (v1.5 gave C)
+    t.append(land_v15(base)[0] == 'C')                                                               # and v1.5 does give C on it (the finding)
+    t.append(land_v151(dict(base, C_triggers=dict(base['C_triggers'], profile_moves_2sigma=True)))[0] == 'C')
+    t.append(land_v151(dict(base, chi2_cmb=20.0, chi2_zero=30.0))[0] == 'B')
+    t.append(land_v151(dict(base, chi2_cmb=20.0, chi2_zero=30.0, hatch=dict(base['hatch'], H7=False)))[0] == 'C')   # B-level, mocks mis-specified -> C, H7 named
+    t.append(land_v151(dict(base, chi2_cmb=4.96, chi2_zero=0.0))[0] == 'C')                          # null at this depth -> C
+    t.append('OUTSIDE the synthetic band' in land_v151(dict(base, hatch=dict(base['hatch'], H7=False)))[1])
+    print('SELFTEST v1.5.1-DRAFT', 'PASS' if all(t) else 'FAIL', t); return all(t)
+
 if __name__ == '__main__':
     if '--selftest-v13' in sys.argv: sys.exit(0 if selftest_v13() else 1)
+    if '--selftest-v151' in sys.argv: sys.exit(0 if selftest_v151() else 1)
     if '--selftest-v15' in sys.argv: sys.exit(0 if selftest_v15() else 1)
     if '--selftest' in sys.argv: sys.exit(selftest())
     r = json.load(open(sys.argv[1])); L, why = land(r); print('LANDING', L, '—', why)
+

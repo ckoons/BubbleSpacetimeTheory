@@ -31,6 +31,17 @@ ITEMS_K1906 = {
  '§2.3 fallback (K1906 §1)':    r'selection function|NSIDE|weight|fallback|H5|released code|92eca506',
  'declaration':                 r'9c|K1905|K1906|v1\.4',
 }
+# v1.5 -> v1.5.1 scope (K1908 §4 (a)-(g), board 11:01; declared before (vi)): seven items, each forced by a synthetic positive control.
+ITEMS_K1908 = {
+ '(a) region clause -> report':        r'region|25 ?%|quarter|sphere|2\.448|decisive|report',
+ '(b) 185 design-level; H7':           r'185|β_\{\\rm CMB\}/2|beta_CMB/2|design|per.run|H7|175|band|mock mis|mis-specif',
+ '(c) zeta column in 4.5':             r'ζ|zeta|intrinsic term|contaminant|mean redshift|⟨z⟩|\\langle z|p_i|z̃|ztilde|profile',
+ '(d) A\' at this depth':              r"A′|C′|\\bA'(?!s)|\\bC'(?!s)|amplitude clause|count-only|cannot point|direction",
+ '(e) response-corrected estimator':   r'response|R\^\{-1\}|R⁻¹|eigen|0\.72|1\.55|literal|second moment|unit-vector sum',
+ '(f) S3 / negative control -> C':     r'S3|negative control|no boost|→ C|-> C|lands C|98',
+ '(g) §1 recomputed':                  r'capability|A-capable|57|recomput|5763|5764|A_int|0\.005|0\.01',
+ 'declaration':                        r'9e|K1908|v1\.5\.1',
+}
 def hunks(a, b):
     """Per changed LINE, not per opcode hunk: adjacent in-scope and out-of-scope edits merge into one hunk and the
     in-scope keyword would launder the other (the self-test's first failure). Each inserted/replaced line stands alone."""
@@ -45,8 +56,19 @@ def hunks(a, b):
             for k, l in enumerate(added):
                 out.append((tag, removed[k] if k < len(removed) else '', l))
     return out
+def changed_text(old, new):
+    """K1908 fix (12:3x): classify the CHANGED substring only. These files are paragraph-long lines, so matching the whole
+    line let any in-scope keyword already in the paragraph launder a sentence appended to it (negative control: 'Tolerance
+    widened to 9 percent' passed under key (d) because the paragraph contained \"A's\"). Word-level diff; equal runs dropped."""
+    if not old: return new
+    if not new: return old
+    a = re.findall(r'\S+|\s+', old); b = re.findall(r'\S+|\s+', new); out = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if tag == 'equal': continue
+        out.append(''.join(a[i1:i2]) + ' ' + ''.join(b[j1:j2]))
+    return '\n'.join(out)
 def classify(h):
-    text = h[1] + '\n' + h[2]
+    text = changed_text(h[1], h[2])
     hits = [k for k, rx in ITEMS.items() if re.search(rx, text, re.I)]
     return hits
 def audit(a, b, verbose=True):
@@ -68,11 +90,15 @@ def selftest():
     open(b, 'w').write('\n'.join(new))
     hs = hunks(a, b); cls = [bool(classify(h)) for h in hs]
     ok = (cls == [True, False]) if len(cls) == 2 else False
-    print('SELFTEST', 'PASS' if ok else 'FAIL', cls); return 0 if ok else 1
+    # K1908 laundering case: an out-of-scope sentence APPENDED to a paragraph that already carries an in-scope keyword must be refused
+    c = os.path.join(d, 'v12.md'); base2 = base[:]; base2[2] = 'tolerance 5 percent; prior art consistent: Wu & Xia 2026'
+    open(a, 'w').write('\n'.join(base2)); open(c, 'w').write('\n'.join(base2[:2] + [base2[2] + ' Tolerance widened to 9 percent.'] + base2[3:]))
+    cls2 = [bool(classify(h)) for h in hunks(a, c)]; ok2 = (cls2 == [False])
+    print('SELFTEST', 'PASS' if (ok and ok2) else 'FAIL', cls, 'laundering refused:', ok2); return 0 if (ok and ok2) else 1
 if __name__ == '__main__':
     if '--selftest' in sys.argv: sys.exit(selftest())
     if '--scope' in sys.argv:
         sc = sys.argv[sys.argv.index('--scope')+1].lower()
-        ITEMS.clear(); ITEMS.update({'k1903': ITEMS_K1903, 'k1906': ITEMS_K1906}[sc])
-    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() not in ('k1903', 'k1906')]
+        ITEMS.clear(); ITEMS.update({'k1903': ITEMS_K1903, 'k1906': ITEMS_K1906, 'k1908': ITEMS_K1908}[sc])
+    args = [a for a in sys.argv[1:] if not a.startswith('--') and a.lower() not in ('k1903', 'k1906', 'k1908')]
     sys.exit(audit(args[0], args[1]))
