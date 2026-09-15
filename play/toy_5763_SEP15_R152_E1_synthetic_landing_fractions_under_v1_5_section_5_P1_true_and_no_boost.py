@@ -26,7 +26,11 @@ PREDICTIONS, σ printed BEFORE the band, bands = ±2.5σ of the test's own binom
  the full-v1.5 landing fractions with every computable clause on; the A_int = 0.05 arms.
 Memory: one sky = 573 MB peak (timed); arms run sequentially in ONE process; peak RSS printed at the end.
 ADDENDUM (09:5x, after the 2-seed smoke test, prereg 1798217b unchanged): A′ sub-condition diagnostics added (amplitude test; u_z inside the count-only
-region; u_c inside the redshift-only region) and the per-component σ of the fit, because C′ fired on both smoke seeds and the reason must be named. No prediction changed."""
+region; u_c inside the redshift-only region) and the per-component σ of the fit, because C′ fired on both smoke seeds and the reason must be named. No prediction changed.
+ADDENDUM 2 (10:0x, after the 100-seed run, prereg unchanged): the A_int = 0.05 arms were MIS-SPECIFIED by my construction — the lib's continuous
+profile A(χ₁/χ(z))² capped at 0.9 puts a 90 % dipole on the nearest sources, which is not Cal's per-bin model A w_i (w_i at the bin median) and
+leaks into b̂ (β̂/β = 4.4, Section 5 lands B on a TRUE P1 in 100/100). Two arms added on the FROZEN piecewise model (5759 addendum: piecewise_w);
+the continuous arms are kept and labelled mis-specified. No prediction changed; P1–P7 score on the A_int = 0 arms only, as written."""
 import sys, os, math, json, time, resource, hashlib
 import numpy as np
 sys.path.insert(0,'.'); import r145_eb_lib as L
@@ -77,8 +81,9 @@ except Exception as e: p7=False; print("    P7 cross-check could not run:",e)
 # ---------------- (2) SKY instrument ----------------
 ZEG=[0.0,0.8,1.3,1.8,2.4,4.0]; XG=[0.9,1.0,1.1,1.2,1.3]; AL=1.0; mask=L.make_mask(30.0); EDGES=[0.0,0.8,1.3,1.8,2.4,np.inf]; CHI=L.chi_table(); INT_DIR=L.lb_to_vec(300.0,20.0)
 NGEN=int(913_899/0.32)
-def one_sky(seed,boost,A_int):
-    rng=np.random.default_rng(3000+seed); n,z,zp,S=L.synth_sky_full(NGEN,BC if boost else 0.0,vc,rng,ZEG,XG,AL,1.0,sigma_z=0.04,A_int=A_int,int_dir=INT_DIR,chi_tab=CHI)
+W_PW=L.profile_w([0.57,1.06,1.54,2.06,2.71])   # Cal's w_i at the (v) table's bin medians
+def one_sky(seed,boost,A_int,piecewise=False):
+    rng=np.random.default_rng(3000+seed); n,z,zp,S=L.synth_sky_full(NGEN,BC if boost else 0.0,vc,rng,ZEG,XG,AL,1.0,sigma_z=0.04,A_int=A_int,int_dir=INT_DIR,chi_tab=CHI,piecewise_w=(np.array(ZEG),W_PW) if piecewise else None)
     idx=L.CELLS.index(n); rows=[]
     for i in range(5):
         sel=(zp>=EDGES[i])&(zp<EDGES[i+1]); cnt=np.bincount(idx[sel],minlength=L.CELLS.n); cnt[~mask]=0; D,cov=L.dipole_ls(cnt,mask)
@@ -107,13 +112,13 @@ def one_sky(seed,boost,A_int):
     lab_noreg=land(c_cmb,c_zero,triggers=(t_sigma,t_prof,t_cprime,not null_ok),bin_ok=bin_ok,aprime=aprime)
     return dict(sb=sb*C_KMS,be=be/BC,c_cmb=c_cmb,c_zero=c_zero,reg=reg,t_sigma=t_sigma,t_region=t_region,t_prof=t_prof,t_cprime=t_cprime,null_ok=null_ok,bin_ok=bin_ok,minp=min(pres),f=fs,N=sum(r['N'] for r in rows),
                 lab_s5=lab_s5,lab_full=lab_full,lab_noreg=lab_noreg,lab_14=lab_14,ap_amp=ap_amp,ap_uz=ap_uz,ap_uc=ap_uc,sig_comp=sig_comp,sbc=sbc*C_KMS,sbz=sbz*C_KMS)
-arms=[("P1 true, A_int 0",True,0.0),("no boost, A_int 0",False,0.0),("P1 true, A_int 0.05",True,0.05),("no boost, A_int 0.05",False,0.05)]
+arms=[("P1 true, A_int 0",True,0.0,False),("no boost, A_int 0",False,0.0,False),("P1 true, A 0.05 piecewise (Cal)",True,0.05,True),("no boost, A 0.05 piecewise (Cal)",False,0.05,True),("P1 true, A 0.05 continuous MIS-SPEC",True,0.05,False),("no boost, A 0.05 continuous MIS-SPEC",False,0.05,False)]
 out=dict(fast=dict(p1_v15=f15_p1,p1_v14=f14_p1,null_v15=f15_n,null_v14=f14_n,region_fire_p1=float(np.mean(np.array(reg_p1)>0.25)),region_fire_null=float(np.mean(np.array(reg_n)>0.25))),sky={})
 print(f"\n(2) SKY: {N_SEED} seeds per arm, N_gen {NGEN:,}, σ_z 0.04(1+z), five bins, joint two-channel fit")
-for name,boost,A in arms:
-    rs=[one_sky(s,boost,A) for s in range(N_SEED)]; sbm=np.mean([r['sb'] for r in rs]); sbs=np.std([r['sb'] for r in rs],ddof=1)
+for name,boost,A,pw in arms:
+    rs=[one_sky(s,boost,A,pw) for s in range(N_SEED)]; sbm=np.mean([r['sb'] for r in rs]); sbs=np.std([r['sb'] for r in rs],ddof=1)
     fr=lambda k: frac([r[k] for r in rs]); trig=lambda k: np.mean([r[k] for r in rs])
-    print(f"   {name:22}: N in mask {np.mean([r['N'] for r in rs]):,.0f}; σ_β c = {sbm:.1f} ± {sbs:.1f} (spread), β̂/β_CMB {np.mean([r['be'] for r in rs]):.3f}; f (seed 0) {[round(f,2) for f in rs[0]['f']]}")
+    print(f"   {name:36}: N in mask {np.mean([r['N'] for r in rs]):,.0f}; σ_β c = {sbm:.1f} ± {sbs:.1f} (spread), β̂/β_CMB {np.mean([r['be'] for r in rs]):.3f}; f (seed 0) {[round(f,2) for f in rs[0]['f']]}")
     print(f"      Section 5 alone {fr('lab_s5')} | v1.4 text {fr('lab_14')} | full v1.5 (all computable clauses) {fr('lab_full')} | full minus the region clause {fr('lab_noreg')}")
     print(f"      A′ sub-conditions FAIL: amplitude {1-trig('ap_amp'):.2f}; u_z outside count-only region {1-trig('ap_uz'):.2f}; u_c outside redshift-only region {1-trig('ap_uc'):.2f}; count-only σ_β {np.mean([r['sbc'] for r in rs]):.0f}, redshift-only σ_β {np.mean([r['sbz'] for r in rs]):.0f}, joint per-component σ {np.mean([r['sig_comp'] for r in rs]):.0f} km/s")
     print(f"      4.4 triggers fired: σ_β ≥ β/2 {trig('t_sigma'):.2f}; region > 25 % {trig('t_region'):.2f} (median region {np.median([r['reg'] for r in rs]):.3f}); profile-alt > 2σ {trig('t_prof'):.2f}; C′ {trig('t_cprime'):.2f}; null-bin fail {1-trig('null_ok'):.2f}; per-bin residual fail {1-trig('bin_ok'):.2f}")
