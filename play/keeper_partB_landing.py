@@ -71,7 +71,44 @@ def selftest_v13():
     t.append(land_v13(dict(base, C_triggers=dict(sigma_ge_half_beta=True, region_gt_quarter_sky=False)))[0] == 'C')
     print('SELFTEST v1.3', 'PASS' if all(t) else 'FAIL', t); return all(t)
 
+
+# ---- v1.5 mode (K1907, 2026-09-15; ACTIVE only when Cal's v1.5 is hashed with this Section 5) ----
+# v1.3/v1.4's B-clause "b consistent with zero (chi2_3(b,0) <= 7.815) while sigma_beta < beta_CMB/2" FIRES ON A PERFECT
+# CMB MATCH at sigma_beta = 166 km/s (chi2_3(b_CMB, 0) = 4.96 < 7.815): the partition was not exclusive at this power
+# (Monte Carlo: P(B | P1 true) = 0.56). Fix: A = consistent with the CMB AND the CMB preferred over zero by a
+# likelihood ratio (delta chi2 >= 3.84, odds >= 6.8:1); B = chi2_3(b, b_CMB) >= 14.156 only (a null at this depth is C,
+# not a fire — "no boost is not one boost" needs sigma_beta <= beta_CMB/sqrt(14.156) = 98 km/s to be sayable); else C.
+DCHI2_A = 3.84
+def land_v15(r):
+    C = r['C_triggers']
+    for k, v in C.items():
+        if v: return 'C', '4.4 trigger: %s' % k
+    hatch_all = all(r['hatch'].values())
+    dchi2 = r['chi2_zero'] - r['chi2_cmb']
+    if r['chi2_cmb'] >= CHI2_3_3SIG:
+        if hatch_all: return 'B', '5(v1.5): chi2_3(b, CMB) = %.2f >= %.2f; every hatch check PASSES' % (r['chi2_cmb'], CHI2_3_3SIG)
+        return 'C', 'B-level discrepancy did NOT survive the hatch (failed: %s)' % [k for k, v in r['hatch'].items() if not v]
+    a_level = (r['chi2_cmb'] <= CHI2_3_95) and (dchi2 >= DCHI2_A) and all(p >= 0.01 for p in r['bin_resid_p'])
+    if a_level:
+        dec = ' (decisive: zero excluded at 95%%, chi2_3(b,0) = %.2f)' % r['chi2_zero'] if r['chi2_zero'] >= CHI2_3_95 else ' (not decisive against zero alone)'
+        return 'A', '5(v1.5): chi2_3(b, CMB) = %.2f <= %.2f, CMB preferred over zero by delta-chi2 = %.2f >= %.2f, no bin p < 0.01%s' % (r['chi2_cmb'], CHI2_3_95, dchi2, DCHI2_A, dec)
+    return 'C', '5(v1.5): not decidable (chi2_3(b,CMB) = %.2f; delta-chi2 vs zero = %.2f; min bin p = %.3f)' % (r['chi2_cmb'], dchi2, min(r['bin_resid_p']))
+def selftest_v15():
+    base = dict(chi2_cmb=0.0, chi2_zero=4.96, sigma_beta=166.0, beta_cmb=369.82, bin_resid_p=[0.5,0.4,0.6,0.3,0.2],
+                C_triggers=dict(sigma_ge_half_beta=False, region_gt_quarter_sky=False), hatch={'H%d' % i: True for i in range(1, 7)})
+    t = []
+    t.append(land_v15(base)[0] == 'A')                                              # the exact CMB vector at 166 km/s -> A (v1.4 gave B)
+    t.append(land_v15(dict(base, chi2_cmb=4.96, chi2_zero=0.0))[0] == 'C')          # the zero vector at 166 -> C (v1.4 gave B)
+    t.append(land_v15(dict(base, chi2_cmb=20.0, chi2_zero=30.0))[0] == 'B')         # 3-sigma-equivalent off the CMB -> B
+    t.append(land_v15(dict(base, chi2_cmb=20.0, chi2_zero=30.0, hatch=dict(base['hatch'], H4=False)))[0] == 'C')
+    t.append(land_v15(dict(base, chi2_cmb=3.0, chi2_zero=5.0))[0] == 'C')           # consistent with CMB but not preferred over zero -> C
+    t.append(land_v15(dict(base, chi2_cmb=10.0, chi2_zero=25.0))[0] == 'C')         # between 7.815 and 14.156 -> C
+    t.append(land_v15(dict(base, bin_resid_p=[0.5,0.004,0.6,0.3,0.2]))[0] == 'C')
+    t.append('decisive: zero excluded' in land_v15(dict(base, chi2_zero=9.0))[1])
+    print('SELFTEST v1.5', 'PASS' if all(t) else 'FAIL', t); return all(t)
+
 if __name__ == '__main__':
     if '--selftest-v13' in sys.argv: sys.exit(0 if selftest_v13() else 1)
+    if '--selftest-v15' in sys.argv: sys.exit(0 if selftest_v15() else 1)
     if '--selftest' in sys.argv: sys.exit(selftest())
     r = json.load(open(sys.argv[1])); L, why = land(r); print('LANDING', L, '—', why)
