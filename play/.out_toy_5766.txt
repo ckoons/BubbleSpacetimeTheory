@@ -1,0 +1,37 @@
+toy 5766; lib b87a8b085780 (frozen 4ce873ce); v151 5fcf85b60fa3; file 1b9440f7a18e; N_SEED 100; σ_A criterion 0.0034, σ_c 0.00034
+   P1 true, a = 0            : ζ -0.2003; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.67, 'B': 0.0, 'C': 0.33} | σ_β 123 ± 9; recovery 336 ± 14; leak -30 ± 16; Â 0.0015; region-report 0.34; prof 0.00; per-bin fail 0.03; null fail 0.00
+      σ_c=3.4e-4            : {'A': 0.62, 'B': 0.1, 'C': 0.28} | σ_β 86 ± 11; recovery 344 ± 13; leak -23 ± 15; Â 0.0000; region-report 0.08; prof 0.00; per-bin fail 0.03; null fail 0.00
+      no prior              : {'A': 0.12, 'B': 0.0, 'C': 0.88} | σ_β 374 ± 45; recovery 246 ± 34; leak -151 ± 40; Â 0.0203; region-report 0.90; prof 0.03; per-bin fail 0.02; null fail 0.00
+   P1 true, a = 6e-4 (ΛCDM)  : ζ -0.2003; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.74, 'B': 0.01, 'C': 0.25} | σ_β 123 ± 8; recovery 360 ± 12; leak -2 ± 14; Â 0.0014; region-report 0.29; prof 0.00; per-bin fail 0.02; null fail 0.01
+      σ_c=3.4e-4            : {'A': 0.72, 'B': 0.1, 'C': 0.18} | σ_β 87 ± 10; recovery 365 ± 12; leak 2 ± 14; Â 0.0000; region-report 0.02; prof 0.00; per-bin fail 0.02; null fail 0.01
+      no prior              : {'A': 0.18, 'B': 0.0, 'C': 0.82} | σ_β 375 ± 42; recovery 302 ± 35; leak -65 ± 41; Â 0.0205; region-report 0.90; prof 0.05; per-bin fail 0.02; null fail 0.00
+   P1 true, a = 3.4e-3 (10×) : ζ -0.2001; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.75, 'B': 0.01, 'C': 0.24} | σ_β 125 ± 7; recovery 425 ± 13; leak 77 ± 15; Â 0.0015; region-report 0.17; prof 0.00; per-bin fail 0.00; null fail 0.02
+      σ_c=3.4e-4            : {'A': 0.62, 'B': 0.13, 'C': 0.25} | σ_β 89 ± 9; recovery 434 ± 13; leak 86 ± 14; Â 0.0000; region-report 0.02; prof 0.00; per-bin fail 0.02; null fail 0.02
+      no prior              : {'A': 0.15, 'B': 0.01, 'C': 0.84} | σ_β 371 ± 45; recovery 332 ± 35; leak -66 ± 40; Â 0.0206; region-report 0.81; prof 0.04; per-bin fail 0.02; null fail 0.01
+   P1 true, a = 0.008        : ζ -0.1999; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.65, 'B': 0.04, 'C': 0.31} | σ_β 126 ± 6; recovery 498 ± 13; leak 187 ± 15; Â 0.0015; region-report 0.05; prof 0.00; per-bin fail 0.11; null fail 0.01
+      σ_c=3.4e-4            : {'A': 0.44, 'B': 0.28, 'C': 0.28} | σ_β 90 ± 7; recovery 512 ± 12; leak 201 ± 15; Â 0.0000; region-report 0.01; prof 0.00; per-bin fail 0.18; null fail 0.01
+      no prior              : {'A': 0.1, 'B': 0.01, 'C': 0.89} | σ_β 372 ± 46; recovery 319 ± 36; leak -54 ± 41; Â 0.0216; region-report 0.86; prof 0.03; per-bin fail 0.03; null fail 0.01
+   P1 true, a = 0.024        : ζ -0.1992; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.06, 'B': 0.8, 'C': 0.14} | σ_β 130 ± 4; recovery 801 ± 13; leak 580 ± 15; Â 0.0020; region-report 0.00; prof 0.00; per-bin fail 0.87; null fail 0.01
+      σ_c=3.4e-4            : {'A': 0.0, 'B': 0.94, 'C': 0.06} | σ_β 96 ± 4; recovery 837 ± 12; leak 616 ± 15; Â 0.0000; region-report 0.00; prof 0.00; per-bin fail 0.97; null fail 0.01
+      no prior              : {'A': 0.18, 'B': 0.0, 'C': 0.82} | σ_β 372 ± 44; recovery 356 ± 37; leak -3 ± 43; Â 0.0305; region-report 0.85; prof 0.04; per-bin fail 0.04; null fail 0.01
+   null, a = 0               : ζ -0.2003; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.02, 'B': 0.47, 'C': 0.51} | σ_β 130 ± 8; recovery -18 ± 14; leak -19 ± 16; Â 0.0015; region-report 0.90; prof 0.00; per-bin fail 0.37; null fail 0.00
+      σ_c=3.4e-4            : {'A': 0.02, 'B': 0.9, 'C': 0.08} | σ_β 96 ± 11; recovery -13 ± 13; leak -13 ± 15; Â 0.0000; region-report 0.72; prof 0.00; per-bin fail 0.54; null fail 0.00
+      no prior              : {'A': 0.01, 'B': 0.04, 'C': 0.95} | σ_β 382 ± 39; recovery -82 ± 34; leak -119 ± 40; Â 0.0203; region-report 0.97; prof 0.03; per-bin fail 0.14; null fail 0.00
+   null, a = 6e-4            : ζ -0.2003; C′ 0.00; H7 outside 0.00
+      criterion σ_A=3.4e-3  : {'A': 0.02, 'B': 0.4, 'C': 0.58} | σ_β 131 ± 8; recovery 6 ± 13; leak 10 ± 14; Â 0.0014; region-report 0.93; prof 0.00; per-bin fail 0.27; null fail 0.02
+      σ_c=3.4e-4            : {'A': 0.01, 'B': 0.79, 'C': 0.2} | σ_β 96 ± 11; recovery 9 ± 12; leak 13 ± 14; Â 0.0000; region-report 0.79; prof 0.00; per-bin fail 0.50; null fail 0.02
+      no prior              : {'A': 0.02, 'B': 0.03, 'C': 0.95} | σ_β 383 ± 42; recovery -32 ± 35; leak -38 ± 40; Â 0.0204; region-report 0.92; prof 0.06; per-bin fail 0.10; null fail 0.00
+
+SCORING: P1 design σ_β = 123 (band 135 ± 15) → HIT | P2 A|P1(a=0) = 0.67 vs 0.60 ± 0.122 → HIT | P3 A|P1(ΛCDM) = 0.74 vs 0.67 ± 0.166 → HIT
+         P4 B|P1 at a ≤ 10×: 0.0, 0.01, 0.01 (≤ 0.05 each) → HIT | P5 B|P1 at 0.024 = 0.8 (> 0.05) → HIT
+SCORE 5/5  (5 can fail)
+
+K1909 §5 GATE: (b) A|P1 at ΛCDM = 0.74 ≥ 0.40 → PASS; (c) B|P1 ≤ 0.05 at a ≤ 10×: PASS; H8: B|P1 at 0.008 = 0.04, at 0.024 = 0.8 → H8 ADDED (v1.5.3); H7 band = 123 ± 9 km/s (design σ_β 123)
+time 492 s; peak RSS 843 MB
+DONE
