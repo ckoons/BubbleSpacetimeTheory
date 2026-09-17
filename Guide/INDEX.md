@@ -23,7 +23,7 @@ abstract: |
   to be Born probabilities. What is identified but not derived — the formula matches and we do
   not claim the mechanism: $\alpha^{-1} = 137$-class expressions, the electron's anomalous
   moment, the asymptotic-freedom coefficient, the exact mixing values, Newton's $G$. Of the
-  twenty-six primary dimensionless parameters of the Standard Model, eight are sourced clean.
+  twenty-six primary dimensionless parameters of the Standard Model, the generated count is five derived, twelve identified, seven open and two input (the state block below is authoritative; "eight sourced clean" was the May count and is retired).
 
   Why this object and no other is a question we answer honestly rather than strongly. Among all
   irreducible bounded symmetric domains of rank at least two, $D_{IV}^5$ is the unique one whose
@@ -84,7 +84,7 @@ These five integers are read off a single geometry — its root system, its spec
 
 **One geometry, $D_{IV}^5$, read as one operator, with one measured integer as the ruler. What it determines, it determines exactly; what it only matches, we say so; what it cannot reach, we have proved it cannot.**
 
-One geometry $\to$ five integers $\to$ a small derived core and a long, clearly-labelled reach. The core — gauge skeleton, one generation, three generations, mixing order, time, quantum mechanics — is what this paper defends. The reach (nuclear, chemical, biological and condensed-matter identifications, several hundred of them) is presented separately at identification tier, because a reader who sees them beside the core will discount the core. Every expression in both is a sentence written in the algebraic field $\overline{\mathbb{Q}}(3, 5, 7, 6, 137)[\pi]$ on that geometry. Five invariants ($\text{rank} = 2$, $N_c = 3$, $n_C = 5$, $C_2 = 6$, $g = 7$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). Zero free parameters.
+One geometry $\to$ five integers $\to$ a small derived core and a long, clearly-labelled reach. The core — gauge skeleton, one generation, three generations, mixing order, time, quantum mechanics — is what this paper defends. The reach (nuclear, chemical, biological and condensed-matter identifications, several hundred of them) is presented separately at identification tier, because a reader who sees them beside the core will discount the core. Every expression in both is a sentence written in the algebraic field $\overline{\mathbb{Q}}(3, 5, 7, 6, 137)[\pi]$ on that geometry. Five invariants ($\text{rank} = 2$, $N_c = 3$, $n_C = 5$, $C_2 = 6$, $g = 7$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No fitted parameters in the derived core; the reach carries its identifications and inputs on its face ("zero free parameters" was retired — one identification, one datum, three posits, one ruler, Lecture 10).
 
 The geometry tells you what exists. The invariants tell you what values it takes. The multiplicity theorem tells you that no other domain of rank at least two has the multiplicity we identified with colour — and the absence theorem (Cal Section 946) tells you that identification is where the one measurement enters.
 

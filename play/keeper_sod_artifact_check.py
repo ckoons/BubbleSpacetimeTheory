@@ -1,3 +1,4 @@
+import re
 #!/usr/bin/env python3
 """
 Keeper Start-of-Day Artifact-Currency Check  (Keeper #28, operationalized)
@@ -269,6 +270,49 @@ try:
         flag("ERROR", "present.", "presentation check's positive control failed -- scan not run", "Keeper")
 except Exception as _e:
     flag("WARN", "present.", "presentation currency check did not run: %s" % _e, "Keeper")
+
+
+# ---------- 5b. RETIRED SENTENCES (K1912, installed 2026-09-17) ----------
+# Detector 4 greps for retired NUMBERS. "All seven Millennium problems PROVED" contains no number it knows, and the
+# 09-17 corpus read found ~30 such sentences in Guide/ and Curriculum/ that 122 files' worth of "ALL CURRENT" had passed.
+# An instrument keyed to the previous scope passes everything (K1901; the same lesson, a second time, on this file).
+# Phrase patterns; a line is exempt if it also carries a retirement marker within the same line.
+import glob as _g
+RETIRED_PHRASES = [
+    ("Millennium PROVED",   r"Millennium problems?\s*\**\s*PROVED|Ready for Submission"),
+    ("zero free params",    r"[Zz]ero free parameters|[Nn]o free parameters"),
+    ("600+ predictions",    r"600\+|[Oo]ver 600 predictions|500\+ physical constants"),
+    ("chain complete",      r"derivation chain[^.]{0,40}complete|have all been derived|all derived"),
+    ("Millennium proved-1", r"[Mm]ass gap proved|Hodge[^.]{0,30}PROVED|Status: CLOSED"),
+    ("eight of 26",         r"eight (of the twenty-six|are sourced clean)|8 of (the )?26"),
+    ("alpha derived",       r"\\alpha[^.]{0,60}\b(is )?derived\b|α[^.]{0,60}\bderived\b|structural derivation rather than measurement"),
+    ("a_e crown jewel",     r"[Cc]rown [Jj]ewel|a_e[^.]{0,40}no fitted parameters"),
+    ("11 criteria closed",  r"eleven (rigorously[- ]closed )?criteria|\(1/3\)\^\{?1?9"),
+    ("zero posits",         r"zero posits|10/10\)?\s*\**\s*DONE|DONE \(10/10\)"),
+    ("v1.2 prereg",         r"frozen v1\.2|6f036bdb"),
+]
+EXEMPT = r"not derived|do not claim|does not claim|honest floor|identified, not|not a forcing|not the sentence|never claimed|we no longer|stopped claiming|retired|RETIRED|withdrawn|superseded|was the May|is not the sentence|no longer|FIRED|none (is |are )?proved|as this paragraph was first written|K19\d\d|K940|K1801|\[pin|retracted"
+_hits = []
+for f in sorted(_g.glob("Guide/**/*.md", recursive=True) + _g.glob("Curriculum/**/*.md", recursive=True)):
+    if "SCOPING" in f or "KEEPER_REFINEMENT" in f: continue
+    for n, line in enumerate(open(f, encoding="utf-8", errors="replace"), 1):
+        for lab, rx in RETIRED_PHRASES:
+            if re.search(rx, line) and not re.search(EXEMPT, line):
+                _hits.append((lab, f, n)); break
+# positive control: a synthetic line with the phrase and no exemption MUST hit
+_ctrl = [lab for lab, rx in RETIRED_PHRASES if re.search(rx, "All seven Millennium problems **PROVED --- Ready for Submission**") and not re.search(EXEMPT, "x")]
+if not _ctrl: findings.append(("ERROR", "sentences", "positive control FAILED: the Millennium phrase did not match", "Keeper"))
+elif _hits:
+    HARD = {"Millennium PROVED", "Millennium proved-1", "eight of 26", "v1.2 prereg", "zero posits"}
+    hard = [h for h in _hits if h[0] in HARD]; soft = [h for h in _hits if h[0] not in HARD]
+    if hard:
+        findings.append(("STALE", "sentences", f"{len(hard)} retired sentence(s) with NO honest use, unmarked: " + "; ".join(f"{lab} {f.split('/')[-1][:30]}:{n}" for lab, f, n in hard[:8]), "Lyra (prose) — Keeper gates"))
+    _hits = soft
+    by = {}
+    for lab, f, n in _hits: by.setdefault(lab, []).append(f"{f.split('/')[-1][:28]}:{n}")
+    if _hits: findings.append(("REVIEW", "sentences", f"{len(_hits)} retired-phrase line(s) unmarked in Guide/Curriculum (control PASSED): " + "; ".join(f"{k}: {len(v)} [{v[0]}]" for k, v in by.items()), "Keeper (instrument) / Lyra (prose)"))
+if not _hits and not hard:
+    findings.append(("OK", "sentences", "no unmarked retired sentence in Guide/Curriculum (control PASSED)", None))
 
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}
