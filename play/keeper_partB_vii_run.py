@@ -34,12 +34,13 @@ for tag in ('G20.5', 'G20.0'):
         rec = dict(chi2_cmb=chi_cmb, chi2_zero=chi_0, sigma_beta=f['sigma_beta_c'], beta_cmb=CMB['beta_cmb_kms'], bin_resid_p=ps,
                    region_gt_quarter_sky=f['region95'] > 0.25,
                    C_triggers=dict(profile_moves_2sigma=abs(prof) > 2, boundary_forms_disagree=False, channels_disagree=(z >= 2)),
-                   hatch={'H%d' % i: True for i in range(1, 8)})   # hatch is requested only at B-level; H5 mandatory under the fallback, unrun
+                   hatch={'H%d' % i: True for i in range(1, 8)}, hatch_run=False)   # hatch NOT RUN (requested only at B-level); passed as True only so land_v151 can classify the chi2 level — the printout says NOT RUN (Cal §976 trap 9)
         L, why = land_v151(rec); letters[name] = L
         print(f"  [{name}] beta c = {f['beta_c']:.0f} ± {f['sigma_beta_c']:.0f} km/s toward ({f['u_lb'][0]:.1f}, {f['u_lb'][1]:.1f}); angle to CMB {ang:.1f} deg; debiased norm {deb:.0f}; |a| = {f['A_norm']:.4f}")
         print(f"      chi2_3(b, b_CMB) = {chi_cmb:.2f} [A <= {CHI2_3_95}, B >= {CHI2_3_3SIG}]; chi2_3(b, 0) = {chi_0:.2f}; delta-chi2 = {dchi:+.2f} [A needs >= {DCHI2_A}]; per-bin residual p (non-null bins) = {[round(p, 4) for p in ps]}")
         print(f"      LANDING {L} — {why}")
         # what Section 5 alone would say with the 4.4 trigger removed (a report, so the reader sees what the trigger is doing)
         L5, why5 = land_v151(dict(rec, C_triggers=dict(profile_moves_2sigma=False, boundary_forms_disagree=False, channels_disagree=False)))
-        print(f"      (Section 5 alone, trigger set aside — a REPORT, not a landing: {L5} — {why5[:110]})")
+        why5 = why5.replace('every hatch check PASSES', 'HATCH NOT RUN — a B-level chi2 only; no landing B is sayable without H1–H7')
+        print(f"      (Section 5 alone, trigger set aside — a REPORT, not a landing: {L5 if L5 != 'B' else 'B-level'} — {why5[:140]})")
     print(f"  prior-sensitivity (§4.3): the three fits land {letters} -> {'PRIOR-SENSITIVE, named' if len(set(letters.values())) > 1 else 'all three agree'}")
