@@ -1,0 +1,13 @@
+toy 5767; lib b87a8b085780; file 01ae524a0b1b; γ = [1.0, 1.35, 1.7, 2.05, 2.4]
+d_s (LS dipole of ln s_all over the footprint, 1334 cells) = [-0.0491, -0.0076, 0.0163], |d_s| = 0.0523 toward (188.8, 18.1)
+per-bin residual moment (D_i − f_i b_true − mock offset), mean ± σ_mean over 5 seeds, and its prediction (γ_i − 1)·d_s:
+   bin 1 (γ 1.00): |res| 0.0142 res = [0.0089, -0.0086, 0.0069] ± [0.0023, 0.0031, 0.0013]; predicted [-0.0, -0.0, 0.0]; angle to d_s 111° → OUT
+   bin 2 (γ 1.35): |res| 0.0187 res = [-0.0079, -0.0123, 0.0117] ± [0.0021, 0.0021, 0.0015]; predicted [-0.0172, -0.0027, 0.0057]; angle to d_s 47° → OUT
+   bin 3 (γ 1.70): |res| 0.0330 res = [-0.021, -0.0189, 0.0171] ± [0.003, 0.0049, 0.0012]; predicted [-0.0344, -0.0053, 0.0114]; angle to d_s 33° → OUT
+   bin 4 (γ 2.05): |res| 0.0444 res = [-0.0365, -0.0172, 0.0187] ± [0.0029, 0.0025, 0.0024]; predicted [-0.0516, -0.008, 0.0171]; angle to d_s 17° → OUT
+   bin 5 (γ 2.40): |res| 0.0663 res = [-0.0607, -0.0171, 0.0204] ± [0.003, 0.0027, 0.0022]; predicted [-0.0687, -0.0106, 0.0228]; angle to d_s 7° → OUT
+
+P1 linear in (γ−1) with slope d_s, bin 1 = 0: MISS | P2 directions within 15° of d_s (bins 2–5): MISS (angles [111.0, 47.0, 33.0, 17.0, 7.0]) | P3 profile-alt shift > 2σ_β every seed: MISS (shifts [-0.82, -0.34, -0.52, -1.27, -0.58]; β̂ 963 ± 164 vs 370 injected)
+SCORE 0/3  (3 can fail)
+MEASURED: angle between d_s and run 1's bin-5 D_resp direction = 15° (< 30°: the fallback explains shape AND direction); |res| rises with bin: [0.0142, 0.0187, 0.033, 0.0444, 0.0663] vs the sky's 0.034/0.037/0.037/0.056/0.063
+time 138 s; peak RSS 1175 MB
