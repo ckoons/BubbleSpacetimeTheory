@@ -10,6 +10,7 @@ slope is the toy's one knob, declared; the SHAPE is the prediction, not the size
 PREDICTIONS (σ = seed spread/√5, printed; ±2.5σ): P1 the residual moment D_i − f_i b_true − (mock mean) is LINEAR in (γ_i − 1): slope vector
 = d_s within ±2.5σ per component (bins 2–5), and bin 1 (γ = 1) residual = 0 within ±2.5σ. P2 all five residuals point within 15° of d_s (γ_i > 1).
 P3 the joint fit's profile-alternative shift exceeds 2σ_β (the sky's signature) — the trigger that landed run 1 in C fires on this error too.
+ADDENDUM 1 (after run 1 of this toy, prereg f068bca9): the mock offset was drawn uniform, not thinned by s — a bug in the control, fixed; predictions unchanged.
 MEASURED, not predicted: the angle between d_s and run 1's bin-5 D_resp direction (posted 18:36; NOT the CMB): < 30° would say the fallback
 explains the sky's shape and direction; larger says the shape may be explained and the direction is not."""
 import sys, math, json, time, resource, hashlib
@@ -37,7 +38,7 @@ def run(seed):
         # mock mean under the same footprint/weights with γ = 1 (the estimator's own offset), 200 mocks
         m=np.zeros(3); Nsel=int(sel.sum())
         for k in range(200):
-            v=rng.normal(size=(int(Nsel*2.6),3)); v/=np.linalg.norm(v,axis=1)[:,None]; sv=s_of(v); kk=(np.abs(v[:,2])>0.5)&(sv>=0.5); v=v[kk][:Nsel]; sv=sv[kk][:Nsel]; cm=np.bincount(L.CELLS.index(v),weights=1/sv,minlength=L.CELLS.n); cm[~foot]=0; m+=L.dipole_ls(cm,foot)[0]/200
+            v=rng.normal(size=(int(Nsel*2.6),3)); v/=np.linalg.norm(v,axis=1)[:,None]; sv=s_of(v); kk=(np.abs(v[:,2])>0.5)&(sv>=0.5)&(rng.uniform(size=len(v))<sv); v=v[kk][:Nsel]   # ADDENDUM 1: mocks THINNED by s (density ∝ s, weights 1/s) — the γ = 1 sky; the first run drew them uniform and subtracted the wrong offset (bin 1 came out = d_s, owned); sv=sv[kk][:Nsel]; cm=np.bincount(L.CELLS.index(v),weights=1/sv,minlength=L.CELLS.n); cm[~foot]=0; m+=L.dipole_ls(cm,foot)[0]/200
         rows.append(dict(D=D,cov=cov,f=f,zmed=float(np.median(zp[sel])),N=Nsel)); res.append(D-f*BC*vc-m)
     Ds=[r['D'] for r in rows]; Cs=[r['cov'] for r in rows]; fs=[0.0 if abs(r['f'])<0.3 else r['f'] for r in rows]; zm=[r['zmed'] for r in rows]; w_=list(np.array(L.profile_w([0.57,1.06,1.54,2.06,2.71]))); chis=[L.comoving(zz) for zz in zm]; walt=[chis[0]/c for c in chis]
     R,CR=L.redshift_dipole(idx,zp,mask); g=1+float(zp.mean()); zeta,_=V.zeta_from_table([r['N'] for r in rows],w_,zm)
