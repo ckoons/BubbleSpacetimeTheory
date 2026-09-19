@@ -49,15 +49,16 @@ OUTCOMES = ["CLOSED_POSITIVE", "CLOSED_NEGATIVE", "CONDITIONAL", "RETRACTED",
 COARSE = {"CLOSED_NEGATIVE": "STOP", "RETRACTED": "STOP", "WITHDRAWN": "STOP",
           "CLOSED_POSITIVE": "DONE", "AMENDMENT": "AMEND"}          # everything else → LIVE
 # Fixed lane vocabulary = the rubric scorecard (notes/BST_Completeness_Rubric_and_Roadmap.md Section 2) + one process cell.
-RUBRIC = ["E1 Postulates", "E2 Derive QM", "E3 Derive SM params", "E4 Recover GR / spacetime", "E5 New predictions",
-          "IA Forced object", "IB Everything a reading", "IC Commitment ontology", "ID Forced, not fitted",
-          "IE Complete & falsifiable (Millennium / math-complete)", "R1 Red-team", "R2 Outreach packet",
-          "P0 Process / hygiene / ledger (no science claim)"]
+RUBRIC = ["Ext-1 Postulates", "Ext-2 Derive QM", "Ext-3 Derive SM params", "Ext-4 Recover GR / spacetime",
+          "Ext-5 New predictions", "Int-A Forced object", "Int-B Everything a reading", "Int-C Commitment ontology",
+          "Int-D Forced, not fitted", "Int-E Complete & falsifiable (Millennium / math-complete)",
+          "Red-team R1", "Outreach-packet R2", "Process-0 hygiene / ledger (no science claim)"]
+# (codes deliberately avoid "E<n>" / "K<n>" / "T<n>" / "L<n>" — those are Elie/Keeper/theorem/Lyra ids in the corpus)
 def coarse(o): return COARSE.get(o, "LIVE")
 VERDICT_TOKENS = ["CONDITIONAL PASS", "PASS", "FAIL", "RETRACTED", "RETIRED", "WITHDRAWN",
                   "PARKED", "CLEAN NEGATIVE", "SEALED NEGATIVE", "STOP", "CLOSED", "OPEN",
                   "CERTIFIED", "REFUTED"]
-SCHEMA = "v2"            # bump when the record fields change; old cache rows are then re-extracted
+SCHEMA = "v3"            # bump when the record fields change; old cache rows are then re-extracted
 HEAD_LINES = 60          # lines from the top of the file the model sees
 TAIL_LINES = 15          # ...plus the closing lines, where the ruling sentence often sits
 HEAD_CHARS = 7000        # hard cap on characters sent
