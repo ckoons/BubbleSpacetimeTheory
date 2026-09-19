@@ -27,7 +27,7 @@ Usage:
 import argparse, json, os, re, sys, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REG = os.path.join(ROOT, "notes", ".running", "approaches_register.jsonl")
+REG = os.path.join(ROOT, "notes", "BST_Approaches_Register.jsonl")
 FIELDS = ["id", "lane", "title", "approach", "reason", "evidence", "file", "outcome", "keywords"]
 
 def load():

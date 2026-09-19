@@ -27,6 +27,7 @@ Env: APPROACHES_API, APPROACHES_ENDPOINT, APPROACHES_MODEL, APPROACHES_API_KEY.
 
 Usage:
   python3 play/keeper_approaches_register.py --selftest
+  python3 play/keeper_approaches_register.py --lane-filter <RH regex> --controls play/keeper_approaches_controls_RH.tsv
   python3 play/keeper_approaches_register.py --lane-filter 'RH|Riemann|zeta' --limit 5 --dry-run
   python3 play/keeper_approaches_register.py --lane-filter 'RH|Riemann|zeta|critical.line|T1299|T1448|Eisenstein|harvest|dilation'
   python3 play/keeper_approaches_register.py            # full corpus (cached; only changed files hit the model)
@@ -40,7 +41,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTES = os.path.join(ROOT, "notes")
 CACHE = os.path.join(NOTES, ".running", "approaches_register_cache.jsonl")
 OUT_MD = os.path.join(NOTES, "BST_Approaches_Register.md")
-OUT_JSONL = os.path.join(NOTES, ".running", "approaches_register.jsonl")
+OUT_JSONL = os.path.join(NOTES, "BST_Approaches_Register.jsonl")   # versioned sidecar read by play/didwe.py
 
 DEFAULT_SOURCES = ["notes/Keeper_K*.md", "notes/cal_*.md", "notes/Cal_*.md", "notes/Lyra_*.md"]
 OUTCOMES = ["CLOSED_POSITIVE", "CLOSED_NEGATIVE", "CONDITIONAL", "RETRACTED",
