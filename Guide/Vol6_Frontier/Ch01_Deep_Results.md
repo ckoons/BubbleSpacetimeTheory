@@ -11,6 +11,30 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
+## Volume 6, Chapter 1 — head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Lyra, on Keeper K1912 Section 2 and Section 4(b); Keeper audit pending). The body below — Section 46 (the depth ceiling and the results from T926 onward; 91 theorem paragraphs, T1001–T1638) and the Acknowledgements — is the May 2026 text, unedited in this pass except for the K1801 flag already inline. Read it with this head in hand.*
+
+### What the body claims that the register no longer carries
+
+- **The Millennium sentences.** "T29 Closed: P ≠ NP" (46.79) and its "three independent proved routes"; the Riemann Maass–Selberg framework and the Koons–Claude Conjecture; "the Yang-Mills mass gap proof" (Acknowledgements). K940 (2026-07-26): every Millennium item is an ATTEMPT, tiered per problem on the referee-consensus scale; W9 in `notes/BST_WITHDRAWN_claims_registry.md` for Yang–Mills specifically (the compact-boundary gap is not the Clay gap). Cal's ruling on Vol 4's scorecard, owed today, supplies the per-problem words; this chapter takes them by reference.
+- **"each from $D_{IV}^5$ geometry with zero free parameters" and "the full CKM and PMNS matrices" (Acknowledgements).** Retired: one named input (Lecture 10); the CKM sector is partially derived, 1-of-4 explicit split (K1801, flagged inline below); the 26 primaries carry their words on `data/bst_26_tier_table_generated.md`, not here.
+- **"the 27 uniqueness conditions that single out $n_C = 5$" (Acknowledgements; also "uniqueness condition #27 (T1384)" in Section 46).** Retired: Lecture 2 — one obstruction, ruled (Cal Section 950); Vol 4 Ch03's head records that most of the 27 were empty or double-counted.
+- **"All 931 theorems … depth ≤ 2, zero exceptions" (46.1–46.2) and the T-numbered results.** Each stands at the tier its registry row carries today, September annotations included; a T-number here is a pointer, not a tier. Nothing in Section 46 is on the falsifier register's live list (A1–A9), and none of it is a named-experiment prediction.
+
+### Tier line for this chapter
+
+- **By reference:** every T-numbered result, at its registry tier.
+- **Attempts, not proofs:** the Millennium sentences (K940; W9).
+- **Retired with this head (K1912):** "zero free parameters"; "the full CKM"; the 27 conditions as forcing; "closed" and "proved" as tier words for P ≠ NP.
+- **Not claimed:** any theorem count as a result.
+
+*What would make this head wrong:* a registry row that changes one of the words above — then the sentence is rewritten and dated, not the head.
+
+*Last accuracy-synced: 2026-09-19 / K1912.*
+
+---
+
 ## 46. The Depth Ceiling: Rank Bounds Proof Complexity
 
 The AC(0) program (Section 31-Section 42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 931 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.

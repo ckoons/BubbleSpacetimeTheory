@@ -15,6 +15,8 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 *Rewritten 2026-09-14 (Lyra, Round 151; Keeper audit pending) as one pointer-plus-apparatus head; the four May sections are moved intact under "May 2026 record" below, headings renamed "May 22.x". Facts are from the register (T2543, the positive-time ontology and Lecture 4; T2547; T929; T2564; T2565; row 24 of the generated table; T2530/K1801/K1808–K1810 for the mixing sentence; K1889/K1815 and Lecture 2 for the cascade; K940/W9 for the Millennium sentences) — not from the May text. Last accuracy-synced: 2026-09-14 / K1906.*
 
+*Re-synced 2026-09-19 (Lyra, on K1912 Section 2; Keeper audit pending). K1912's readers found, in the May record below, two sentences this head already retires still printed on their own lines: "the neutrino masses, CKM/PMNS mixing matrices, $\alpha_s$, $\eta$, $H_0$, and $\sin^2\theta_W$ have all been derived" (May 25's closing paragraph) and the Wyler-volume $\alpha$ step (May 25, step 6 → 7; fired and lost — register E1, K1826, Lecture 8). They are the May record; the tier line above is the state. No inline edit in this pass: K1912's REVIEW lines are worked by volume, on Keeper's word. Last accuracy-synced: 2026-09-19 / K1912.*
+
 ### The question
 
 Why does time run one way, why is there matter rather than an equal measure of antimatter, what is the ontology of the future — and is the object *forced* by a cascade of choices, as this chapter's Section 25 says?

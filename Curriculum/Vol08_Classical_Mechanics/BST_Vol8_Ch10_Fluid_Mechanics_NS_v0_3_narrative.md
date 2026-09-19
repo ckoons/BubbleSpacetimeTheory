@@ -2,13 +2,15 @@
 title: "Vol 8 Chapter 10 — Fluid Mechanics and Navier-Stokes"
 author: "Keeper (author pass — deep math/physics revision)"
 date: "2026-05-24 Sunday"
-status: "v0.3 — LOAD-BEARING; Navier-Stokes well-posedness Millennium problem PROVED ~99% in BST"
+status: "v0.3 — LOAD-BEARING; Navier-Stokes well-posedness: a BST ATTEMPT, not a proof (K940, 2026-07-26 — per-problem tiered on the referee-consensus scale; the approach is the advance). Re-synced 2026-09-19 (Lyra, K1912)."
 volume: "Vol 8 Classical Mechanics from D_IV⁵"
 chapter: 10
-load_bearing: "Navier-Stokes equations; ~99% BST proof of NS well-posedness Millennium problem via substrate ultraviolet completeness; Reynolds, turbulence; Kolmogorov scaling"
+load_bearing: "Navier-Stokes equations; the BST attempt on NS well-posedness via substrate ultraviolet completeness (an attempt per K940, not a proof); Reynolds, turbulence; Kolmogorov scaling"
 ---
 
 # Chapter 10 — Fluid Mechanics and Navier-Stokes
+
+*Head-note 2026-09-19 (Lyra, on K1912 and K940; Keeper audit pending): the Navier–Stokes material in this chapter is a BST attempt, tiered per problem by K940; wherever the body says "proved" or "~99%", read "attempt". Body unedited in this pass.*
 
 *Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
 

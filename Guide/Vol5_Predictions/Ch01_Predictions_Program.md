@@ -11,6 +11,35 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
+## Volume 5, Chapter 1 — head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Lyra, on Keeper K1912 Section 2 and Section 4(b); Keeper audit pending). The chapter body below is the May 2026 text, unedited in this pass. It was written before the falsifier register, the tier words of Spine Lecture 10, and the generated 26-parameter table existed, and it does not know that a falsifier has run. Read it with this head in hand. Casey's scope word (head-note only, or Volume 5 rewritten as the register rendered in prose, K1912 4(c)) is pending; this head stands either way.*
+
+### What the body claims that the register no longer carries
+
+- **"There are no free parameters to adjust" (43.1) and every "parameter-free" heading — retired (K1912).** The program's honest sentence is Lecture 10's: one named input, and a tier word on every result (`Curriculum/Spine_DIV5_QM_GR_SM/Lecture_10_The_Method_and_How_to_Kill_It.md`). The "three structural inputs" paragraph ($S^2\times S^1$ substrate, $S^1$ fiber, contact graph) is the 2022 picture; the object is $D_{IV}^5$, and the register's word for its selection is Lecture 2's — one obstruction, ruled (Cal Section 950).
+- **$\alpha^{-1} = 137.036$ as the Wyler volume reading (43.2 rows 1–2; "Wyler constant origin … Derived").** FIRED AND LOST: the forced vertex computes to $8\pi^3/3$ under a pre-registered protocol (register row E1; K1826; toy 5496). The current tier is Lecture 8's: $\alpha$ measured; $N_{\max} = 137$ a computed invariant; every expression for $\alpha$, $a_e$ and $b_0$ identified, not derived.
+- **The ✓ column with no tier column (about 250 rows in 43.2).** A ✓ is a match, not a tier. For the 26 Standard-Model primaries the words are on `data/bst_26_tier_table_generated.md` and nowhere else; this chapter types none of them. Cases K1912 checked by hand: $\lambda_H = 1/\sqrt{60}$ (a form the register does not carry — no row); $a_e$ "QED exact" (identified, not derived — Lecture 8, K1872); $\Lambda$ "✓ derived" (the generated table's word governs; no value is claimed here); nuclear magic numbers "Exact" and proton stability "Proved" in 43.8 — identifications, and "Proved" as a tier word is retired for them by K940's rule.
+- **$\Sigma m_\nu$ and $|m_{\beta\beta}| \in [1.4, 3.7]$ meV as predictions (43.4, 43.7).** Retired as predictions with Vol 3 Ch05's head: $m_1 = 0$ is derived (register A6); $m_{\nu_2}, m_{\nu_3}$ are open (generated-table rows 25–26). Neutrino normal ordering (43.7) has no register row.
+- **Named-experiment predictions with no register row.** K1912 lists eight across the Guide and Curriculum; in this chapter, the Casimir modification $\Delta F/F \sim 10^{-7}$ (44.4) and the BH-ringdown "Casimir fine structure" (43.4) have no row either. The standing rule: a falsifier that names an experiment is checked against the literature the day it is registered. Grace's rows are owed, Casimir $F_{\rm asym}/F_{\rm sym} = g$ first. **SP-30-5, the sub-Tsirelson ceiling, FIRED** against Poh et al. 2015 at 42σ, a decade before it was written (register E4; K1893). The Tsirelson row in 43.2 is the identification that survived; the ceiling did not.
+- **The "Falsifiability by Timeline" and "Summary" tables (43.5, 43.7).** Not the register. The register is `notes/Elie_FALSIFIER_REGISTER_v0_2_C1_owned_and_pinned_NuFIT6_three_delta_CP_claims_discipline_adopted_2026-08-24.md` (v0.17 as of 2026-09-18): Section A, nine live falsifiers A1–A9; Section E, six fired-and-lost E1–E6 with dates; Section F, four floors F1–F4; Section C quarantine; Section D structural markers.
+
+### What the body does not know
+
+**A9 has run.** The frame-agreement falsifier (radiation rest frame against matter rest frame: two boosts or one), pre-registered as protocol v1.5.2 (SHA256 8013d959…, Cal Section 974, K1909), run 1 on Quaia ($G < 20.5$ primary, $G < 20.0$ alongside): **LANDING C, not decidable**, on both samples, by the protocol's own Section 4.4 profile-alternative trigger and the per-bin residuals, target read last (Cal Section 976 step viii; certified K1911, 2026-09-17). A9 stays LIVE; the next catalogue is Casey's decision. That is this volume's one falsifier with a run, and it is the sentence the chapter should open with.
+
+### Tier line for this chapter
+
+- **Derived / identified / open / input:** by reference to the generated table and the register — never by the ✓ column below.
+- **Retired with this head (K1912):** "no free parameters"; $\alpha$ from the Wyler volume; ✓ as a tier; the $0\nu\beta\beta$ band and $\Sigma m_\nu$ as predictions; "Proved"/"Exact" in 43.8 as tier words; the sub-Tsirelson ceiling.
+- **Not claimed:** any count of predictions; that any Millennium problem is proved (K940: attempts, per problem); that the near-term tests in 43.7 are register rows.
+
+*What would make this head wrong:* a register row that changes one of the words above — then the sentence is rewritten and dated, not the head.
+
+*Last accuracy-synced: 2026-09-19 / K1912.*
+
+---
+
 ## 43. Experimental Predictions and Falsifiability
 
 ### 43.1 The Economy of the Framework

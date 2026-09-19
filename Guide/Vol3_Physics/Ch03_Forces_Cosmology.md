@@ -499,7 +499,7 @@ The Hodge conjecture — every rational Hodge class on a smooth projective varie
 | Step | Statement | Status |
 |------|-----------|--------|
 | 1 | Hodge $\Rightarrow$ absolute Hodge | **CONDITIONAL** (Deligne 1979; proved abelian type) |
-| 2 | Absolute Hodge $\Rightarrow$ Tate class | **PROVED** (Faltings/Tsuji) |
+| 2 | Absolute Hodge $\Rightarrow$ Tate class | **PROVED** in the literature (Faltings/Tsuji) — a cited theorem, not a BST claim; the chain as a whole is an attempt (K940) |
 | 3 | Tate $\Rightarrow$ algebraic | **CONDITIONAL** (Tate conjecture = T153) |
 | 4 | $\ell$-adic $\Rightarrow$ rational | **PROVED** (comparison) |
 

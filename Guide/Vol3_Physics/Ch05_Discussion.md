@@ -15,6 +15,8 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 *Rewritten 2026-09-14 (Lyra, Round 151; Keeper audit pending) as one pointer-plus-apparatus head; the May Section 26 is moved intact under "May 2026 record" below, headings renamed "May 26.x". Facts are from the register (the generated 26-parameter table and the state block's count sentence; the falsifier register's Section A and the forbidden list; K1813/K1826; T2571; K940 and the withdrawn-claims registry (W9); T189's explicit split, T318, T633; T1452/K1879) and Spine Lecture 10 — not from the May text. No count is typed here. Last accuracy-synced: 2026-09-14 / K1906.*
 
+*Re-synced 2026-09-19 (Lyra, on K1912 Section 2; Keeper audit pending). K1912's readers found, in the May record below, sentences this head already retires still printed on their own lines: "Yang-Mills mass gap proved" (May 26.3 H, now carrying an inline RETIRED bracket — the one HARD hit of K1912's checker in this chapter) and "the chiral condensate … all mixing angles, the cosmological composition, and the baryon asymmetry have all been derived" (May 26.4, a REVIEW line, left as the record on Keeper's word). The tier line above is the state. Last accuracy-synced: 2026-09-19 / K1912.*
+
 ### The question
 
 What does the program explain, what does it predict, and what does it derive — and how do we say each of those without saying more than the register proves?
@@ -155,7 +157,7 @@ Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \
 
 **H. Structural and Conceptual**
 
-- **Yang-Mills mass gap proved**: spectral gap $\lambda_1(Q^5) = C_2 = 6$; lightest color-neutral excitation $= 6\pi^5 m_e = 938.272$ MeV. *`notes/BST_BoundaryIntegral_Final.md`*
+- **Yang-Mills mass gap proved** *[RETIRED 2026-09-19 with this chapter's head: an attempt, not a proof — K940; W9]*: spectral gap $\lambda_1(Q^5) = C_2 = 6$; lightest color-neutral excitation $= 6\pi^5 m_e = 938.272$ MeV. *`notes/BST_BoundaryIntegral_Final.md`*
 - **Partition function duality**: Face 1 (spectral gap) $= m_p$; Face 2 (ground-state energy) $= \Lambda$; separated by 120 orders of magnitude from one function. *`notes/BST_PartitionFunction_DeepPhysics.md`*
 - **Reality Budget**: $\Lambda \times N = 9/5$ (exact); fill fraction $f = 3/(5\pi) = 19.1\%$; Gödel Limit: the universe can never know more than 19.1% of itself. *`notes/BST_RealityBudget.md`*
 - **Dirac large number**: $N_D = \alpha^{-23}/(6\pi^5)^3 = 2.274 \times 10^{39}$ (0.18%). The universe is large for the same reason gravity is weak. *`notes/BST_PartitionFunction_DeepPhysics.md`*

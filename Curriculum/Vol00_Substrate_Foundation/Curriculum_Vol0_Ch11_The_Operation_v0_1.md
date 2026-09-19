@@ -35,7 +35,7 @@ a rank-1 projection onto the *arrow line* (the irreversible binary write, eigenv
 
 | Reading | What the operation looks like | Tier |
 |---|---|---|
-| **Quantum mechanics** (Vol 5) | Measurement *is* the commitment. All 10 Dirac–von Neumann axioms follow, zero posits; Born statistics = the ensemble record; the arrow = the write's one-sidedness. | **DONE (10/10)** |
+| **Quantum mechanics** (Vol 5) | Measurement *is* the commitment. All 10 Dirac–von Neumann axioms are recovered at the tiers in Spine Lecture 3's table, through four named posits (the ten-item row, T2631); Born statistics = the ensemble record; the arrow = the write's one-sidedness. | **10/10 RECOVERED, tiered** (Lecture 3; T2631; re-synced 2026-09-19 on K1912) |
 | **Spacetime** (Vol 4) | The write picks one positive/time direction (the SO(2) circle) → Lorentzian signature; the boundary carries the 3 spatial directions; **time is the common append-axis** threading every commit. | **ADVANCED** (type forced; the observed (3,1) is the matter-induced descent) |
 | **Standard Model** (Vols 1–2) | Fermions = the SVD of one overlap on D_IV⁵; masses, mixings, CP are its singular values, vectors, phases. | **STRONG, one holdout** (Koide's amplitude, Identified) |
 
