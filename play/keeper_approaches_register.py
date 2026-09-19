@@ -192,7 +192,10 @@ def load_cache():
         with open(CACHE, encoding="utf-8") as f:
             for line in f:
                 try:
-                    r = json.loads(line); c[r["sha"]] = r
+                    r = json.loads(line)
+                    if any(str(v).startswith("model_error") for v in r.get("verify", [])):
+                        continue          # transient (e.g. Ollama HTTP 500): not cached, re-extracted next run
+                    c[r["sha"]] = r
                 except Exception: pass
     return c
 
