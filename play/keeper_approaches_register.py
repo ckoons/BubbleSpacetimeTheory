@@ -57,6 +57,7 @@ def coarse(o): return COARSE.get(o, "LIVE")
 VERDICT_TOKENS = ["CONDITIONAL PASS", "PASS", "FAIL", "RETRACTED", "RETIRED", "WITHDRAWN",
                   "PARKED", "CLEAN NEGATIVE", "SEALED NEGATIVE", "STOP", "CLOSED", "OPEN",
                   "CERTIFIED", "REFUTED"]
+SCHEMA = "v2"            # bump when the record fields change; old cache rows are then re-extracted
 HEAD_LINES = 60          # lines from the top of the file the model sees
 TAIL_LINES = 15          # ...plus the closing lines, where the ruling sentence often sits
 HEAD_CHARS = 7000        # hard cap on characters sent
@@ -216,7 +217,7 @@ def build(args):
         det = {"id": fid, "author": author, "date": file_date(path, head),
                "file": os.path.relpath(path, ROOT), "title": file_title(head)[:240],
                "verdict_tokens": verdict_tokens(head)}
-        h = sha(path)
+        h = sha(path) + ":" + SCHEMA
         if h in cache and not args.refresh:
             rec = dict(cache[h]); rec.update(det)
             rec["coarse"] = coarse(rec.get("outcome", "")); rec.setdefault("rubric_cell", ""); rec.setdefault("outcome2", "")
