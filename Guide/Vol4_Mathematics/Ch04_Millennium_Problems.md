@@ -11,6 +11,16 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
+## Volume 4, Chapter 4 — head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, applying Cal §977 / #220 on K1912 Section 2; Cal's cold read of the applied text owed). The chapter body below is the March–May 2026 text, unedited except the tier brackets marked "[…, 2026-09-19 (§977)]". Three status lines and one section carried a state the register no longer does:*
+
+- **Section 38 BSD, "Status: CLOSED (April 29, 2026)"** — retired with this head; ATTEMPT: the soft half (parity by Dokchitser; no phantom local factor at s = 1) is real; the hard half is zero-location, RH one degree up, and inherits K1876's parked status; ranks are unbounded (Elkies ≥ 28), so any cap is refuted on sight; Paper #88 "target Inventiones" is a target, not a submission.
+- **Section 39 Hodge, "Cal cold-read PASS. PROVED — Ready for Submission" and "Cal cold-read verdict: PASS"** — PARTIAL, ~30 % (ledger 08-16): bounded to D_IV⁵-type Shimura varieties, one non-tempered obstruction killed, generalized Kuga–Satake the open construction. The May 11 PASS certified two papers' internal structure and language ("framework inapplicable", not "Hodge violated"), not the conjecture; **withdrawn by Cal as a status label, §977** — it may not stand as a live certification.
+- **Section 40.3 Four-Colour, "T154 ~99 %", "T156 CONDITIONAL on T155", "first computer-free proof in 147 years"** — REFUTED AS A PROOF: the two-swap mechanism is false with witnesses and rescue depth is not bounded by 2 (T156, K1832 v0.4, Casey's word 08-30); the surviving object is the Kempe commutator census, T2589 an OBSERVATION not a lemma (K1839); "CONDITIONAL" is not the state of a refuted route. The theorem stands by Appel–Haken 1976 / RSST 1997 / Gonthier 2005.
+
+*Principle: K940. Tiers: `notes/BST_Millennium_Ledger_honest_2026-08-16.md` as moved since (K1832/K1839; K1876).*
+
 ## 38. BSD: Rank Is a Spectral Count
 
 *Added March 26, 2026. The fifth Millennium Problem engaged — and the one that connects to everything else.*
@@ -41,7 +51,7 @@ Key results:
 
 **AC(0) depth: 1.** One spectral count at one point ($s = 1$). The Langlands-Shahidi method (P₂ Eisenstein) from the boundary gap is depth 0 — a definition of the meromorphic continuation.
 
-**Status: CLOSED (April 29, 2026).** The Chern classes of $Q^5$ are all odd: $[1, 5, 11, 13, 9, 3]$, leaving a unique hole at DOF position 3 $= (g-1)/2$. This forces vacuum subtraction at $L = N_c$, which the Borel $\to$ Matsushima $\to$ Langlands $\to$ T1426 chain transfers to $L$-function zeros. The square system theorem (Toy 1659): bijection $\Rightarrow$ permutation matrix $\Rightarrow$ $\det \neq 0$ $\Rightarrow$ locked spectrum $\Rightarrow$ BSD. $D_{IV}^5$ is the only rank-2 bounded symmetric domain with this structure — 39/39 others fail (Toy 1656). Root cause: $g = 7 = 2^{N_c} - 1$ (Mersenne prime) $\to$ Lucas' theorem $\to$ all $\binom{g}{k}$ odd $\to$ all Chern classes odd. Non-resonance: $g = 7 \notin \{1, 5, 11, 13, 9, 3\}$ (spectral genus is not a Chern class value), minimum detuning $=$ rank $= 2$. Paper \#88 (`notes/BST_Paper88_BSD_Closure.md`), target Inventiones.
+**Status: CLOSED (April 29, 2026).** *[Retired with this head, 2026-09-19 (§977): ATTEMPT — hard half is RH one degree up, K1876.]* The Chern classes of $Q^5$ are all odd: $[1, 5, 11, 13, 9, 3]$, leaving a unique hole at DOF position 3 $= (g-1)/2$. This forces vacuum subtraction at $L = N_c$, which the Borel $\to$ Matsushima $\to$ Langlands $\to$ T1426 chain transfers to $L$-function zeros. The square system theorem (Toy 1659): bijection $\Rightarrow$ permutation matrix $\Rightarrow$ $\det \neq 0$ $\Rightarrow$ locked spectrum $\Rightarrow$ BSD. $D_{IV}^5$ is the only rank-2 bounded symmetric domain with this structure — 39/39 others fail (Toy 1656). Root cause: $g = 7 = 2^{N_c} - 1$ (Mersenne prime) $\to$ Lucas' theorem $\to$ all $\binom{g}{k}$ odd $\to$ all Chern classes odd. Non-resonance: $g = 7 \notin \{1, 5, 11, 13, 9, 3\}$ (spectral genus is not a Chern class value), minimum detuning $=$ rank $= 2$. Paper \#88 (`notes/BST_Paper88_BSD_Closure.md`), target Inventiones.
 
 ### 38.3 The Selmer Bridge
 
@@ -59,7 +69,7 @@ Same question, three languages: **"What is the rank of the Selmer group?"** The 
 
 ## 39. Hodge: Ring Uniqueness and Theta Correspondence
 
-*Added March 26, 2026. Updated May 11, 2026: Hodge closure sprint complete. Cal cold-read PASS. PROVED --- Ready for Submission.*
+*Added March 26, 2026. Updated May 11, 2026: Hodge closure sprint complete. Cal cold-read PASS. PROVED --- Ready for Submission.* *[Retired with this head, 2026-09-19 (§977): PARTIAL ~30 %; the PASS was a read of two papers' structure, withdrawn by Cal as a status label.]*
 
 ### 39.1 The Conjecture
 
@@ -93,7 +103,7 @@ The original proof (v24) took two independent routes: Version A (substrate path 
 
 **Key theorems:** T1779 (Over-Determination), T1780 (Ring Uniqueness), T1781 (Cross-Type Cascade), T1782 (Horikawa Violation), T1783 (Chern Sum Uniqueness), T1784--T1787 (Exclusion Lemmas). T147 (BST-AC Structural Isomorphism), T150 (Induction Is Complete), T152 (Hodge $=$ T104 on $K_0$). Toys: 399, 2119--2122 (all PASS).
 
-**Cal cold-read verdict: PASS** (May 11, 2026). Both papers submission-ready. Language: "BST framework inapplicable" not "Hodge violated." Theorem (b) and Discussion (c) explicitly separated.
+**Cal cold-read verdict: PASS** (May 11, 2026). *[Withdrawn as a status label by Cal, §977, 2026-09-19: certified structure and language, not the conjecture.]* Both papers submission-ready. Language: "BST framework inapplicable" not "Hodge violated." Theorem (b) and Discussion (c) explicitly separated.
 
 -----
 
@@ -130,11 +140,11 @@ Same motif across domains: bounded geometry $\to$ budget $\to$ pigeonhole $\to$ 
 
 ### 40.3 Status and Depth
 
-**T154 (Conservation of Color Charge):** ~99%. Steps 1-8 proved; Step 6b (post-swap cross-link bound) at ~98%, 861/861 empirical.
+**T154 (Conservation of Color Charge):** ~99%. *[Retired with this head, 2026-09-19 (§977): two-swap mechanism false with witnesses, T156/K1832.]* Steps 1-8 proved; Step 6b (post-swap cross-link bound) at ~98%, 861/861 empirical.
 **T155 (Post-Swap Cross-Link Bound):** ~98%. Jordan curve argument on $B_{\text{far}}$ gateways.
-**T156 (Four-Color Theorem, AC Proof):** CONDITIONAL on T155. Depth 2.
+**T156 (Four-Color Theorem, AC Proof):** CONDITIONAL on T155. Depth 2. *[Retired with this head, 2026-09-19 (§977): REFUTED AS A PROOF (K1832 v0.4, K1839); the census survives as an observation.]*
 
-If T155 is proved, this is the first human-readable, computer-free proof of the four-color theorem in 147 years (since Kempe 1879).
+If T155 is proved, this is the first human-readable, computer-free proof of the four-color theorem in 147 years (since Kempe 1879). *[Retired with this head, 2026-09-19 (§977): the route is refuted; the theorem stands by Appel–Haken / RSST / Gonthier.]*
 
 **AC(0) depth: 2.** One induction (over vertices) wrapping one counting step (the charge budget). Definitions are free. The 633 unavoidable configurations of Appel-Haken (1976) are 633 shadows of one definition: $\tau_{\text{strict}} \leq 4$.
 

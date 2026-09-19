@@ -8,6 +8,10 @@ chapter: 10
 load_bearing: "Casimir force from substrate vacuum K-type structure; T2418 unifies cosmological Λ and lab-scale Casimir as substrate vacuum at different scales; asymmetric Casimir ratio = g = 7 (BST primary)"
 ---
 
+## Volume 6, Chapter 10 — head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1913 Section 1 on Grace R154 N1). The body below is the May 2026 text, unedited except the bracket at Section 10.4. The chapter's "asymmetric Casimir ratio F_asym/F_sym = g = 7 (Toy 1567, D-tier, Casey-named 2026-04-28)" is UNSOURCED: Toy 1567 is the Bergman-eigenvalues/Debye-temperature materials toy and contains no Casimir content; no toy or theorem derives the ratio; the two boundary conditions that are supposed to differ are never named. The registry line is retired as sourced (K1913); the register carries the claim as N1, NOT TESTABLE AS STATED with a provenance defect (falsifier register v0.18). The number QED has for boundary-condition asymmetry is Boyer, Phys. Rev. A 9, 2078 (1974): conductor vs permeable plate, 7/8 of the standard magnitude, repulsive — a different object. The Λ–Casimir unification of T2418 is not touched by this note.*
+
 # Chapter 10 — The Casimir Effect and Vacuum Thermodynamics
 
 *Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*
@@ -55,6 +59,8 @@ $$\rho_\Lambda \sim 7 \cdot e^{-282}$$
 The 120-order discrepancy of standard QFT *evaporates* when the vacuum is computed substrate-natively rather than with a Planck cutoff.
 
 ### 10.4 Asymmetric Casimir: the $g = 7$ ratio
+
+*[Retired with this head, 2026-09-19 (K1913): unsourced — no instrument, no boundary conditions named; not a D-tier prediction.]*
 
 The BST team's substrate cartography (memory `feedback_substrate_frame_principle.md` and SP-30-2 task #196) predicts an asymmetric Casimir effect: for two boundary conditions that differ in their substrate K-type structure, the Casimir force ratio is
 
@@ -115,7 +121,7 @@ Volume 4 Chapter 4 develops the full Λ derivation. This chapter establishes the
 - **T2418 / K73** (Lyra, Wednesday May 20, 2026): Λ ↔ Casimir vacuum unification
 - **K74 candidate** (Elie Toy 3166, S18): per-zone vacuum structure
 - **SP-29** (Casimir Mechanism Investigation, task #175): in flight, $60-90K experiments
-- **SP-30-2** (Boundary condition design, task #196): asymmetric Casimir ratio $= g = 7$ test
+- **SP-30-2** (Boundary condition design, task #196): asymmetric Casimir ratio $= g = 7$ test *[unsourced, K1913 2026-09-19]*
 - **Volume 4 Chapter 4**: Λ cosmological derivation
 - **Volume 0 Chapter 3**: 4-zone commitment cycle (Zone 4 outer-edge)
 

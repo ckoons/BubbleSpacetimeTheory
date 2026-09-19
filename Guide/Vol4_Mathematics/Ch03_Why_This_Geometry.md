@@ -11,6 +11,25 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
+## Volume 4, Chapter 3 — head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, applying Cal §977 / #220 on K1912 Section 2; Cal's cold read of the applied text owed). The chapter body below is the May 2026 text. Section 37.6's scorecard and the per-problem status lines stay in the text, retired, with the current tier beside every row; the one prose sentence at the end of Section 37.6 that re-asserted "all seven proved" inside the paragraph that retracts it is struck, with its clause-mates. Principle: K940 (attempts, per-problem, referee-calibrated — K940 carries no tiers itself). Tiers: `notes/BST_Millennium_Ledger_honest_2026-08-16.md`, as moved since for two rows (Four-Colour K1832/K1839; RH K1876).*
+
+### The scorecard rows, current tier beside each (§977, one sentence per problem)
+
+- **RH** — ATTEMPT, closed and parked with a location: the row's result is where the wall is, not a proof (K1876; ledger 08-16: six advances, wall unmoved).
+- **YM** — ATTEMPT with a LARGE gap: the ℝ⁴ area-law mass-gap core is the Clay problem and is open; the "gap = 6" is a Kaluza–Klein gap, not the Yang–Mills mass gap (K1714); 6π⁵ m_e is identified, not derived (T567 per K940).
+- **P≠NP** — IDENTIFICATION of Schaefer 1978 with one structural edge (Extended Frege evades natural proofs, non-relativizing) and no proof; "FOCS submitted" has no record in the corpus and stands here as unverified.
+- **NS** — ATTEMPT, pending: alive iff one step that Tao's 2016 averaged equation violates is exhibited; none is in the corpus (2026-09-19).
+- **BSD** — ATTEMPT: the soft half (parity by Dokchitser; no phantom local factor at s = 1) is real; the hard half is zero-location, RH one degree up, and inherits K1876's parked status; ranks are unbounded (Elkies ≥ 28); Paper #88 "target Inventiones" is a target, not a submission.
+- **Hodge** — PARTIAL, ~30 %: bounded to D_IV⁵-type Shimura varieties, one non-tempered obstruction killed, generalized Kuga–Satake the open construction; "Cal PASS May 11" certified two papers' structure and language, not the conjecture — withdrawn by Cal as a status label (§977).
+- **Four-Colour** — REFUTED AS A PROOF: the two-swap mechanism is false with witnesses and rescue depth is not bounded by 2 (T156, K1832 v0.4); the surviving object is the Kempe commutator census, T2589 an OBSERVATION not a lemma (K1839); the theorem stands by Appel–Haken 1976 / RSST 1997 / Gonthier 2005.
+- **Fermat, Poincaré** — re-derivations of proved theorems, no Clay content; stand as written.
+- **Synthesis ("One framework. All counting.", T1276)** — framework recognition, not a proof; "in every Millennium proof chain" reads "in every attempt".
+
+### Scope of this head
+The same tiers cover every per-problem status line in Sections 36–37 of the body ("~98 %", "proof chain complete", "PROVED" at the P≠NP layers of Section 36 and the NS status above 37.6): each reads as *attempt* under this head. Body text unedited except the struck sentence and the tier brackets marked "[…, 2026-09-19 (§977)]".
+
 # Part II: Why This Geometry
 
 *Part I derived the constants. Part II answers why these constants — the selection problem. The universe didn't optimize for theorems. It optimized for matter. The theorems came free.*
@@ -620,23 +639,23 @@ The gap is closed. The five-step proof chain:
 
 **Universality (Toy 384):** Cascade confirmed across 4 initial conditions — TG, ABC, random Gaussian, shear layer (8/10).
 
-**Status:** Proof chain complete, ~98%. Paper v2: `notes/BST_NS_BlowUp.md`. Remaining ~2% = Clay $\mathbb{R}^3$ framing (proof uses $\mathbb{T}^3$).
+**Status:** Proof chain complete, ~98%. Paper v2: `notes/BST_NS_BlowUp.md`. Remaining ~2% = Clay $\mathbb{R}^3$ framing (proof uses $\mathbb{T}^3$). *[Retired with this head, 2026-09-19 (§977): ATTEMPT, pending — alive iff a step that Tao's 2016 averaged equation violates is exhibited; none in the corpus.]*
 
 ### 37.6 The Millennium Scorecard
 
 | Problem | Channel | Saturation $=$ | Status |
 |---|---|---|---|
-| **RH** | $D_{IV}^5$ rank-2 | Off-line zero $\to$ contradiction | **~98%**, Cross-parabolic PROVED. Casimir gap 91.1 $\gg$ 6.25. Sent to Sarnak 3/24, Tao 3/27. |
-| **YM** | Bergman $\to$ Plancherel | QFT constructed (W1-W5) | **~99.5%**, All 5 Wightman DERIVED. Mass gap $= 6\pi^5 m_e$. Modular localization for W4 (T1170). Remaining: $\mathbb{R}^4$ framing. |
-| **P$\neq$NP** | Formula $\to$ proof | EF size $2^{\Omega(n)}$ | **~99%**, FOCS submitted. Monotone circuit lower bound $2^{\Omega(\sqrt{n})}$ (T1176). BH(3) backbone $= \Theta(n)$ empirically confirmed (Toy 829). $k = N_c = 3$. |
-| **NS** | Solid angle $\to$ cascade | $P \geq c\Omega^{3/2} \to$ blow-up | **~99%**, Proof chain COMPLETE. Turbulence exponents confirmed: K41 $5/3 = n_C/N_c$ (T818). |
-| **BSD** | Chern hole $\to$ spectral permanence | Bijection $\Rightarrow$ $\det \neq 0$ | **CLOSED**, Toys 1651-1659. $D_{IV}^5$ unique among 39 BSDs. Paper \#88 (Inventiones). |
-| **Hodge** | Algebraic vs Hodge classes | Ring uniqueness (T1780) $+$ cross-type exclusion (T1781) | **PROVED**, Cal PASS May 11. Papers H1 + H2 submission-ready. |
-| **Four-Color** | Planar graph, Euler degree bound | Color charge budget $+$ Jordan curve | **PROVED**, Computer-free. 13 structural steps. T154-T156, depth 2. Paper v8, K41 PASS. |
+| **RH** | $D_{IV}^5$ rank-2 | Off-line zero $\to$ contradiction | **[Tier 2026-09-19 (§977): ATTEMPT — parked with a location (K1876)]** **~98%**, Cross-parabolic PROVED. Casimir gap 91.1 $\gg$ 6.25. Sent to Sarnak 3/24, Tao 3/27. |
+| **YM** | Bergman $\to$ Plancherel | QFT constructed (W1-W5) | **[Tier 2026-09-19 (§977): ATTEMPT — large gap; ℝ⁴ core open (K1714)]** **~99.5%**, All 5 Wightman DERIVED. Mass gap $= 6\pi^5 m_e$. Modular localization for W4 (T1170). Remaining: $\mathbb{R}^4$ framing. |
+| **P$\neq$NP** | Formula $\to$ proof | EF size $2^{\Omega(n)}$ | **[Tier 2026-09-19 (§977): IDENTIFICATION (Schaefer 1978); no proof]** **~99%**, FOCS submitted. Monotone circuit lower bound $2^{\Omega(\sqrt{n})}$ (T1176). BH(3) backbone $= \Theta(n)$ empirically confirmed (Toy 829). $k = N_c = 3$. |
+| **NS** | Solid angle $\to$ cascade | $P \geq c\Omega^{3/2} \to$ blow-up | **[Tier 2026-09-19 (§977): ATTEMPT — pending (Tao 2016 step not exhibited)]** **~99%**, Proof chain COMPLETE. Turbulence exponents confirmed: K41 $5/3 = n_C/N_c$ (T818). |
+| **BSD** | Chern hole $\to$ spectral permanence | Bijection $\Rightarrow$ $\det \neq 0$ | **[Tier 2026-09-19 (§977): ATTEMPT — hard half is RH one degree up (K1876)]** **CLOSED**, Toys 1651-1659. $D_{IV}^5$ unique among 39 BSDs. Paper \#88 (Inventiones). |
+| **Hodge** | Algebraic vs Hodge classes | Ring uniqueness (T1780) $+$ cross-type exclusion (T1781) | **[Tier 2026-09-19 (§977): PARTIAL ~30 %; "Cal PASS" withdrawn (§977)]** **PROVED**, Cal PASS May 11. Papers H1 + H2 submission-ready. |
+| **Four-Color** | Planar graph, Euler degree bound | Color charge budget $+$ Jordan curve | **[Tier 2026-09-19 (§977): REFUTED AS A PROOF (T156, K1832/K1839)]** **PROVED**, Computer-free. 13 structural steps. T154-T156, depth 2. Paper v8, K41 PASS. |
 | **Fermat** | Frey curve $\to$ modularity | Ribet $+$ R$=$T $\to$ contradiction | AC depth 2, T142-T146 |
 | **Poincaré** | 3-manifold topology | Entropy $+$ finite extinction | AC depth 2, T157-T161 |
 
-Nine problems engaged --- seven Millennium, two classical, one Four-Color --- all attempted in the same framework, none proved (K939/K940; the Riemann row closed as an attempt with a location, K1876; the four-colour One-Word Lemma refuted in frame, K1839). Every problem depth $\leq 2$. All seven Millennium problems **PROVED --- Ready for Submission** (cold-reader audited May 12, 2026): RH, P$\neq$NP, NS, BSD, Four-Color, Hodge, YM. YM closure sprint completed May 12 (~36 hours, 13/13 tasks, 3 papers submission-ready: YM-A Ring Uniqueness, YM-B Construction, YM-C R$^4$ No-Go). The Four-Color Theorem is PROVED without computers (13 structural steps, Lyra's Lemma). All linearization theorems complete: 771/771 at depth $\leq 1$ (T811). BST integers appear directly in every Millennium proof chain. Zero free parameters. One framework. All counting.
+Nine problems engaged --- seven Millennium, two classical, one Four-Color --- all attempted in the same framework, none proved (K939/K940; the Riemann row closed as an attempt with a location, K1876; the four-colour One-Word Lemma refuted in frame, K1839). Every problem depth $\leq 2$. All linearization theorems complete: 771/771 at depth $\leq 1$ (T811). BST integers appear directly in every Millennium attempt. One framework. All counting. *[Struck with this head, 2026-09-19 (§977): the sentence "All seven Millennium problems PROVED --- Ready for Submission (cold-reader audited May 12, 2026)", the YM closure-sprint clause ("3 papers submission-ready"), "The Four-Color Theorem is PROVED without computers", and "Zero free parameters" (retired 09-09, §946) — a paragraph cannot carry a claim and its denial as live prose.]*
 
 -----
 
