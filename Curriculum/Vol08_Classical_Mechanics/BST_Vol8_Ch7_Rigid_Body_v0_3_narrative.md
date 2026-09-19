@@ -14,7 +14,7 @@ load_bearing: "Rigid body rotation; inertia tensor; Euler angles + equations; pr
 
 ## Level 1 — one sentence
 
-A rigid body has 6 degrees of freedom (3 translation + 3 rotation), with rotational dynamics governed by the inertia tensor $I_{ij}$ and Euler's equations of motion, producing rich phenomena from gyroscope precession to free-symmetric-top instability ("tennis racket theorem") — all derived from substrate Scale-2 angular momentum dynamics.
+A rigid body has 6 degrees of freedom (3 translation + 3 rotation), with rotational dynamics governed by the inertia tensor $I_{ij}$ and Euler's equations of motion, producing rich phenomena from gyroscope precession to free-symmetric-top instability ("tennis racket theorem") — all derived from substrate Scale-2 angular momentum dynamics. *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): no derivation chain is complete: the derived core is about ten results (Lecture 10); the rest are identifications carrying tiers.]*
 
 ## Level 2 — graduate-physicist precision
 

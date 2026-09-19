@@ -292,15 +292,33 @@ RETIRED_PHRASES = [
     ("v1.2 prereg",         r"frozen v1\.2|6f036bdb"),
 ]
 EXEMPT = r"not derived|do not claim|does not claim|honest floor|identified, not|not a forcing|not the sentence|never claimed|we no longer|stopped claiming|retired|RETIRED|withdrawn|superseded|was the May|is not the sentence|no longer|FIRED|none (is |are )?proved|as this paragraph was first written|K19\d\d|K940|K1801|\[pin|retracted"
-_hits = []
+# File-level retirement head (K1895 shape, or the 09-11 in-place corrections, or a frontmatter tier/status that
+# says re-tiered/IDENTIFIED): body lines under such a head are COVERED — retired-not-deleted per Cal §977 — and are
+# counted separately from uncovered REVIEW lines. Added 2026-09-19 (K1913 §7) with its own positive control below.
+HEAD_MARK = re.compile(r"head-note \(20|Retired with this head|this heading said|until 2026-09|in-place dated corrections|"
+                       r"re-tiered 2026|IDENTIFIED \(re-tiered|Not claimed:|was, in May 2026, the answer|What went wrong|Rewritten 2026-09|K1912 REVIEW sweep", re.I)
+def _covered(path):
+    try:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            return bool(HEAD_MARK.search("".join(fh.readlines()[:100])))
+    except OSError:
+        return False
+_hits = []; _covered_hits = []
 for f in sorted(_g.glob("Guide/**/*.md", recursive=True) + _g.glob("Curriculum/**/*.md", recursive=True)):
     if "SCOPING" in f or "KEEPER_REFINEMENT" in f: continue
+    _cov = _covered(f)
     for n, line in enumerate(open(f, encoding="utf-8", errors="replace"), 1):
         for lab, rx in RETIRED_PHRASES:
+            if _cov and re.search(rx, line) and not re.search(EXEMPT, line, re.I):
+                _covered_hits.append((lab, f, n)); continue
             if re.search(rx, line) and not re.search(EXEMPT, line, re.I):
                 _hits.append((lab, f, n)); break
 # positive control: a synthetic line with the phrase and no exemption MUST hit
 _ctrl = [lab for lab, rx in RETIRED_PHRASES if re.search(rx, "All seven Millennium problems **PROVED --- Ready for Submission**") and not re.search(EXEMPT, "x", re.I)]
+_ctrl_head = HEAD_MARK.search("## Volume 4, Chapter 3 — head-note (2026-09-19)") and not HEAD_MARK.search("## 38. BSD: Rank Is a Spectral Count")
+if not _ctrl_head:
+    print("[CONTROL FAIL] HEAD_MARK does not separate a head-note from a body heading"); sys.exit(1)
+hard = []   # defined before the branch: with zero hits the old code raised NameError (latent until 2026-09-19)
 if not _ctrl: findings.append(("ERROR", "sentences", "positive control FAILED: the Millennium phrase did not match", "Keeper"))
 elif _hits:
     HARD = {"Millennium PROVED", "Millennium proved-1", "eight of 26", "v1.2 prereg", "zero posits"}
@@ -313,6 +331,8 @@ elif _hits:
     if _hits: findings.append(("REVIEW", "sentences", f"{len(_hits)} retired-phrase line(s) unmarked in Guide/Curriculum (control PASSED): " + "; ".join(f"{k}: {len(v)} [{v[0]}]" for k, v in by.items()), "Keeper (instrument) / Lyra (prose)"))
 if not _hits and not hard:
     findings.append(("OK", "sentences", "no unmarked retired sentence in Guide/Curriculum (control PASSED)", None))
+if _covered_hits:
+    findings.append(("OK", "sentences", f"{len(_covered_hits)} retired-phrase line(s) sit under a dated retirement head (COVERED; retired-not-deleted per Cal §977) in {len({f for _, f, _ in _covered_hits})} files", None))
 
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}

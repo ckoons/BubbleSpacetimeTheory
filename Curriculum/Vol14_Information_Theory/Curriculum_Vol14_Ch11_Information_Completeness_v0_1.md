@@ -8,6 +8,11 @@ chapter: 11
 load_bearing: "Information completeness: substrate provides COMPLETE channel for observable physics; D_IV⁵ minimum-free-parameter specification; SP-20 program"
 ---
 
+## Head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1912 REVIEW sweep, K1913 Section 7). The body below is the May 2026 text, unedited. It carries phrases the register has since retired; the current sentence for each: "600+ predictions / 500+ constants" is retired (2026-09-11, CLAUDE.md banner): the count is the falsifier register (v0.18) and the generated 26-parameter table — several hundred identifications and a short derived core, every one tiered.*
+
+
 # Chapter 11 — Information Completeness
 
 *Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*

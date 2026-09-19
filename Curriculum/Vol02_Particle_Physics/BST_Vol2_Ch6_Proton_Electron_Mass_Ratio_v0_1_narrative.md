@@ -9,6 +9,11 @@ tier: "D-tier RATIFIED — derived mechanism via Bergman heat-kernel coefficient
 match_precision: "0.002% (BST 1836.118 vs measured 1836.152)"
 ---
 
+## Head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1912 REVIEW sweep, K1913 Section 7). The body below is the May 2026 text, unedited. It carries phrases the register has since retired; the current sentence for each: "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.*
+
+
 # Chapter 6 — The Proton-to-Electron Mass Ratio
 
 *Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*

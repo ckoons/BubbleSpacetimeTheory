@@ -6,6 +6,11 @@ status: "v0.1 INDEX + Architectural Scaffold (Wave 3 advance per sustained sub-P
 parent: "Curriculum/README.md"
 ---
 
+## Head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1912 REVIEW sweep, K1913 Section 7). The body below is the May 2026 text, unedited. It carries phrases the register has since retired; the current sentence for each: "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.*
+
+
 # Volume 7 — Electromagnetism
 
 ## Volume scope

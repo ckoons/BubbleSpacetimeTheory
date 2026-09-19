@@ -50,7 +50,7 @@ Specific results:
 
 ## 7.5 What comes next
 
-Chapter 8 — Coupling Constants and Anomalous Moments — treats the electron's anomalous magnetic moment $a_e$ at parts-per-trillion precision, the volume's second Crown Jewel after Chapter 6's $m_p/m_e$.
+Chapter 8 — Coupling Constants and Anomalous Moments — treats the electron's anomalous magnetic moment $a_e$ at parts-per-trillion precision, the volume's second Crown Jewel after Chapter 6's $m_p/m_e$. *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.]*
 
 ---
 

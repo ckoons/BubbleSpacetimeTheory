@@ -7,6 +7,11 @@ volume: "Vol 0 Substrate Foundation"
 chapter: 10
 ---
 
+## Head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1912 REVIEW sweep, K1913 Section 7). The body below is the May 2026 text, unedited. It carries phrases the register has since retired; the current sentence for each: the eleven-criteria Strong-Uniqueness theorem and its (1/3)^n "one-in-a-billion" null model are retired: the honest statement is Lecture 2's (27 conditions; no forcing, no probability claimed).*
+
+
 # Chapter 10 — How the Team Works
 
 *Legacy chapter (May 2026). Last accuracy-checked 2026-09-11 (Keeper, K1892): the presentation scan found no retired reading here, and the tiers in the front matter are the May tiers, not re-verified line by line. Where this chapter and the Spine (`Curriculum/Spine_DIV5_QM_GR_SM/`) disagree, the Spine is current; where the Spine and the theorem registry disagree, the registry wins.*

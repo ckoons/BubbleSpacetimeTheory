@@ -8,6 +8,11 @@ chapter: 10
 load_bearing: "23+ STANDING calibrations + 2 CANDIDATE; 25 STANDING + 1 CANDIDATE + 1 META methodology stack layers per Methodology Index v0.5; growth rate ~1 layer/week during active research"
 ---
 
+## Head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1912 REVIEW sweep, K1913 Section 7). The body below is the May 2026 text, unedited. It carries phrases the register has since retired; the current sentence for each: the eleven-criteria Strong-Uniqueness theorem and its (1/3)^n "one-in-a-billion" null model are retired: the honest statement is Lecture 2's (27 conditions; no forcing, no probability claimed).*
+
+
 # Chapter 10 — Calibration Stack
 
 *Extended-reach chapter (May 2026), identification tier. Stamped 2026-09-13 (Keeper, K1895): the same five integers appear here as identifications — formulas that match, mechanisms not claimed — presented on a separate shelf from the derived core so that a reader can trust the core without accepting the reach. Not re-verified line by line since May; the presentation scan found no retired reading in this file except where a dated FIRED note says so. Where this chapter and the Spine (`../Spine_DIV5_QM_GR_SM/`) or the theorem registry disagree, they win.*

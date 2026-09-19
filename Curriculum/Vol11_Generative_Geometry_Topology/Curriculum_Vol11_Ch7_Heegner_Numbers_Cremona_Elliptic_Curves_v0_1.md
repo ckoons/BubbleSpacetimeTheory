@@ -58,7 +58,7 @@ Every invariant is BST-primary:
 
 **T1430 universality**: extension from 49a1 to all 7 Millennium problems + Four-Color theorem. The 1/rank pattern characterizes broad classes of mathematical structures.
 
-This is BST's "Crown Jewel" in the elliptic-curve / arithmetic-geometry sector.
+This is BST's "Crown Jewel" in the elliptic-curve / arithmetic-geometry sector. *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.]*
 
 ### 7.5 Cremona 27a1 and Cremona 121a1
 

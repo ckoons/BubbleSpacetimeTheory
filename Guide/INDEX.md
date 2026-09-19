@@ -153,7 +153,7 @@ The Working Paper is now organized as a set of modular section files. Each file 
 - Chapter 4: [Millennium Problems and Unification](Guide/Vol4_Mathematics/Ch04_Millennium_Problems.md) — BSD, Hodge, Four-Color, Fermat/Poincaré, Unification
 
 **Volume 5 — The Predictions** ([INDEX](Guide/Vol5_Predictions/INDEX.md)):
-- Chapter 1: [Experimental Predictions and Research Program](Guide/Vol5_Predictions/Ch01_Predictions_Program.md) — 600+ parameter-free predictions across 130+ domains, Research Program with priorities
+- Chapter 1: [Experimental Predictions and Research Program](Guide/Vol5_Predictions/Ch01_Predictions_Program.md) — 600+ parameter-free predictions across 130+ domains, Research Program with priorities *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "600+ predictions / 500+ constants" is retired (2026-09-11, CLAUDE.md banner): the count is the falsifier register (v0.18) and the generated 26-parameter table — several hundred identifications and a short derived core, every one tiered.]*
 - Chapter 2: [Cosmic Cycles and Continuity](Guide/Vol5_Predictions/Ch02_Cosmic_Cycles.md) — Cosmological Cycles, Observer Necessity, Continuity, Gödel Ratchet
 
 **Volume 6 — The Frontier** ([INDEX](Guide/Vol6_Frontier/INDEX.md)):

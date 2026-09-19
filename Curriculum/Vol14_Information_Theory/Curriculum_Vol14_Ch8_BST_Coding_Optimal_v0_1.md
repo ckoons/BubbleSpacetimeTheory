@@ -60,7 +60,7 @@ Casey-named candidate principle: substrate provides the COMPLETE information cha
 
 Falsifier: find an observable BST cannot derive from $\{rank, N_c, n_C, C_2, g\}$ + D_IV⁵ structure.
 
-Current status: 600+ predictions verified within precision; no clean falsifier yet.
+Current status: 600+ predictions verified within precision; no clean falsifier yet. *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "600+ predictions / 500+ constants" is retired (2026-09-11, CLAUDE.md banner): the count is the falsifier register (v0.18) and the generated 26-parameter table — several hundred identifications and a short derived core, every one tiered.]*
 
 ### 8.6 K-audit anchors
 

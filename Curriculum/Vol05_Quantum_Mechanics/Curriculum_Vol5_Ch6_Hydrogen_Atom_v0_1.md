@@ -140,4 +140,4 @@ Chapter 7 develops the Born rule — and shows that it is not a postulate but a 
 - **BST anchors**: T841, K38 CONDITIONAL PASS, periodic-table reading
 - **B6 Lamb shift task**: BST task #182, v0.2 paper-grade, Elie+Lyra joint
 - **Volume 0 Chapter 5**: $N_{\max} = 137$ derivation
-- **Volume 2 Chapter 6**: $m_p/m_e = 6\pi^5$ Crown Jewel
+- **Volume 2 Chapter 6**: $m_p/m_e = 6\pi^5$ Crown Jewel *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.]*

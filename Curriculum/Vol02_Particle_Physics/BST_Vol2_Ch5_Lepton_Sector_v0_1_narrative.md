@@ -47,7 +47,7 @@ The muon's anomalous magnetic moment $a_\mu$ has been the subject of major exper
 
 ## 5.5 What comes next
 
-Chapter 6 is the proton-to-electron mass ratio Crown Jewel chapter. Chapter 7 develops CKM mixing. Chapter 10 treats neutrinos.
+Chapter 6 is the proton-to-electron mass ratio Crown Jewel chapter. Chapter 7 develops CKM mixing. Chapter 10 treats neutrinos. *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.]*
 
 ---
 

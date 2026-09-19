@@ -23,7 +23,7 @@ Per Elie's Vol 3 Ch 4 v0.3.1 work (Cal #102 corrected, Friday May 22, 2026):
 - **Surface term**: $a_S = (g+1) \cdot B_d = 17.42$ MeV (substrate-derived per (g+1)·B_d structure; ~0.7%)
 - **Coulomb term**: $a_C = 0.694$ MeV (substrate-derived; ~1.0%)
 - **Asymmetry term**: $a_A = m_p / (4 \cdot \dim R)$ MeV (substrate K-type asymmetry term; ~1.5%)
-- **Pairing term**: $\delta = (g/4) \alpha m_p$ MeV (substrate-derived; ~2%)
+- **Pairing term**: $\delta = (g/4) \alpha m_p$ MeV (substrate-derived; ~2%) *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): α is identified, not derived: the forced vertex computes to 8π³/3 under a pre-registered protocol (K1826; register E1; toy 5496).]*
 
 All five within 2% of standard-fit values. The substrate-mechanism reading: each coefficient is built from BST primaries combined with the substrate's nuclear-scale parameters.
 

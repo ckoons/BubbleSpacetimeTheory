@@ -41,7 +41,7 @@
 - **/toy claim**: atomic counter-based claim protocol
 - **SCORE lines**: every toy file
 - **`verify_bst.py`**: single-command full reproduction (49/50 PASS at <1%)
-- **Toy 541**: crown jewel — 51 quantities from 5 integers, 16/16 PASS
+- **Toy 541**: crown jewel — 51 quantities from 5 integers, 16/16 PASS *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "Crown Jewel" is retired as a label; a_e is IDENTIFIED, not derived — the four terms are Petermann–Sommerfield 1957 (K1872, re-tiered 2026-09-07); m_p/m_e = 6π⁵ stands as derived on the register.]*
 - **Toy 1543**: null model context (BST 3σ above random, p < 0.0005)
 - Honest FAIL preservation per Calibration #21
 - Gap: pedagogical exposition of toy authoring methodology

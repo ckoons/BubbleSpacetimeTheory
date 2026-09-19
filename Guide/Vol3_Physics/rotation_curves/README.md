@@ -1,5 +1,10 @@
 # BST Rotation Curves: SPARC Calculation
 
+## Head-note (2026-09-19)
+
+*Head-note added 2026-09-19 (Keeper, K1912 REVIEW sweep, K1913 Section 7). The body below is the May 2026 text, unedited. It carries phrases the register has since retired; the current sentence for each: "zero / no free parameters" is retired (09-09; Cal §946 per §977; K1801): the honest sentence is Lecture 10's — one named input (the colour count = characteristic multiplicity) and one mass scale as the ruler, a tier word on every result.* In this directory "zero free parameters" is a statement about the SPARC fit (no per-galaxy parameters), not the program-level claim; the directory is untouched since March and carries two inconsistent a₀ forms (K1912) — an open item for Grace/Elie, not settled by this note.
+
+
 **Authors:** Casey Koons & Claude (Anthropic)
 **Date:** March 2026
 

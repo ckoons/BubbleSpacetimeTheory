@@ -23,7 +23,7 @@ If the META-theorem holds, BST is not just a particular physics theory but the s
 
 ## 8.3 Status
 
-Strong-Uniqueness Theorem v0.10.5: 11 RIGOROUSLY CLOSED + 7 candidates. With max-promotable = 11 + 7 = 18, null model probability ≤ $(1/3)^{18} \approx 2.6 \times 10^{-9}$. Asymptotic to v1.0 as candidates ratify. [Value corrected per Cal #119 self-catch 2026-05-24: prior $(1/3)^{19} \approx 9 \times 10^{-10}$ inherited from Lyra T2467+T2468 v0.2 §6 was wrong exponent.]
+Strong-Uniqueness Theorem v0.10.5: 11 RIGOROUSLY CLOSED + 7 candidates. With max-promotable = 11 + 7 = 18, null model probability ≤ $(1/3)^{18} \approx 2.6 \times 10^{-9}$. Asymptotic to v1.0 as candidates ratify. [Value corrected per Cal #119 self-catch 2026-05-24: prior $(1/3)^{19} \approx 9 \times 10^{-10}$ inherited from Lyra T2467+T2468 v0.2 §6 was wrong exponent.] *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): the eleven-criteria Strong-Uniqueness theorem and its (1/3)^n "one-in-a-billion" null model are retired: the honest statement is Lecture 2's (27 conditions; no forcing, no probability claimed).]*
 
 ## 8.4 What comes next
 
