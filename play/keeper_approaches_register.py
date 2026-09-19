@@ -46,6 +46,14 @@ OUT_JSONL = os.path.join(NOTES, "BST_Approaches_Register.jsonl")   # versioned s
 DEFAULT_SOURCES = ["notes/Keeper_K*.md", "notes/cal_*.md", "notes/Cal_*.md", "notes/Lyra_*.md"]
 OUTCOMES = ["CLOSED_POSITIVE", "CLOSED_NEGATIVE", "CONDITIONAL", "RETRACTED",
             "WITHDRAWN", "PARKED", "OPEN", "AMENDMENT"]
+COARSE = {"CLOSED_NEGATIVE": "STOP", "RETRACTED": "STOP", "WITHDRAWN": "STOP",
+          "CLOSED_POSITIVE": "DONE", "AMENDMENT": "AMEND"}          # everything else → LIVE
+# Fixed lane vocabulary = the rubric scorecard (notes/BST_Completeness_Rubric_and_Roadmap.md Section 2) + one process cell.
+RUBRIC = ["E1 Postulates", "E2 Derive QM", "E3 Derive SM params", "E4 Recover GR / spacetime", "E5 New predictions",
+          "IA Forced object", "IB Everything a reading", "IC Commitment ontology", "ID Forced, not fitted",
+          "IE Complete & falsifiable (Millennium / math-complete)", "R1 Red-team", "R2 Outreach packet",
+          "P0 Process / hygiene / ledger (no science claim)"]
+def coarse(o): return COARSE.get(o, "LIVE")
 VERDICT_TOKENS = ["CONDITIONAL PASS", "PASS", "FAIL", "RETRACTED", "RETIRED", "WITHDRAWN",
                   "PARKED", "CLEAN NEGATIVE", "SEALED NEGATIVE", "STOP", "CLOSED", "OPEN",
                   "CERTIFIED", "REFUTED"]
@@ -56,7 +64,8 @@ HEAD_CHARS = 7000        # hard cap on characters sent
 SYSTEM = (
  "You extract ONE record from a research audit or note in a physics/mathematics program. "
  "Reply ONLY with a JSON object with exactly these keys:\n"
- '"lane": short topic label (2-5 words, e.g. "RH / critical line", "CKM mixing", "A9 dipole test");\n'
+ '"rubric_cell": EXACTLY one string from this list — ' + json.dumps(RUBRIC) + ';\n'
+ '"lane": short sub-topic label (2-5 words, e.g. "RH / critical line", "CKM mixing", "A9 dipole test");\n'
  '"approach": one sentence: the specific approach, method, or claim that was examined;\n'
  '"outcome": one of CLOSED_POSITIVE (proved/passed/certified), CLOSED_NEGATIVE (refuted/clean negative/fails as a class), '
  "CONDITIONAL (conditional pass, gap named), RETRACTED (a prior claim withdrawn as wrong), WITHDRAWN (author pulled it), "
@@ -67,6 +76,14 @@ SYSTEM = (
  '(e.g. "Nyman-Beurling criterion", "Epstein zeta", "Selberg trace formula", "T1299", "Weil positivity"); these are the aliases a later search must hit;\n'
  '"evidence": a short phrase copied VERBATIM from the text (5-20 words) that supports the outcome. Copy exactly; do not paraphrase.\n'
  "Prefer the document's own verdict words. If the text is only a plan or a question with no ruling, outcome is OPEN."
+)
+
+SYSTEM2 = (
+ "A colleague will read this research note. Using ONLY the document's own verdict sentences, answer with JSON "
+ '{"outcome": one of ' + "|".join(OUTCOMES) + ', "why": one short sentence quoting the verdict words}. '
+ "CLOSED_POSITIVE = proved/passed/certified; CLOSED_NEGATIVE = refuted/clean negative; CONDITIONAL = conditional pass; "
+ "RETRACTED = a prior claim withdrawn as wrong; WITHDRAWN = author pulled it; PARKED = set aside; OPEN = undecided; "
+ "AMENDMENT = mainly corrects an earlier audit. If several apply, choose the one the document's FINAL status sentence carries."
 )
 
 # ---------------------------------------------------------------- deterministic layer
@@ -122,8 +139,8 @@ def sha(path):
     return h.hexdigest()
 
 # ---------------------------------------------------------------- model layer
-def call_model(api, endpoint, model, key, text, timeout=180):
-    msgs = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": text}]
+def call_model(api, endpoint, model, key, text, timeout=180, system=None):
+    msgs = [{"role": "system", "content": system or SYSTEM}, {"role": "user", "content": text}]
     if api == "ollama":
         url = endpoint.rstrip("/") + "/api/chat"
         body = {"model": model, "stream": False, "think": False, "format": "json",
@@ -162,6 +179,8 @@ def verify(rec, head):
         fails.append("amends_not_list")
     if not isinstance(rec.get("keywords"), list) or not rec.get("keywords"):
         fails.append("keywords_missing")
+    if rec.get("rubric_cell") not in RUBRIC:
+        fails.append("rubric_cell_vocab")
     return fails
 
 # ---------------------------------------------------------------- build
@@ -200,6 +219,8 @@ def build(args):
         h = sha(path)
         if h in cache and not args.refresh:
             rec = dict(cache[h]); rec.update(det)
+            rec["coarse"] = coarse(rec.get("outcome", "")); rec.setdefault("rubric_cell", ""); rec.setdefault("outcome2", "")
+            rec["unstable"] = bool(rec.get("outcome2")) and rec["coarse"] != coarse(rec["outcome2"])
             rec["verify"] = verify(rec, head) if "dry_run" not in rec.get("verify", []) else rec["verify"]
         elif args.dry_run:
             rec = {**det, "sha": h, "lane": "", "approach": "", "outcome": "", "reason": "",
@@ -217,9 +238,18 @@ def build(args):
                     f2 = verify(m2, head)
                     if "evidence_not_verbatim" not in f2:
                         m, fails = m2, f2
+                o2 = {}
+                if args.runs >= 2:
+                    try:
+                        o2 = call_model(args.api, args.endpoint, args.model, args.key, prompt, system=SYSTEM2)
+                    except Exception as e:
+                        o2 = {"outcome": "", "why": "model_error:" + str(e)[:60]}
             except Exception as e:
-                m, fails = {}, ["model_error:" + str(e)[:80]]
-            rec = {**det, "sha": h, "lane": str(m.get("lane", ""))[:60],
+                m, fails, o2 = {}, ["model_error:" + str(e)[:80]], {}
+            oc1, oc2 = m.get("outcome", ""), o2.get("outcome", "")
+            rec = {**det, "sha": h, "rubric_cell": m.get("rubric_cell", ""), "lane": str(m.get("lane", ""))[:60],
+                   "coarse": coarse(oc1), "outcome2": oc2, "why2": str(o2.get("why", ""))[:200],
+                   "unstable": bool(oc2) and coarse(oc1) != coarse(oc2),
                    "approach": str(m.get("approach", ""))[:300],
                    "outcome": m.get("outcome", ""), "reason": str(m.get("reason", ""))[:300],
                    "amends": m.get("amends", []) if isinstance(m.get("amends"), list) else [],
@@ -229,17 +259,17 @@ def build(args):
         if rec["verify"]: n_fail += 1
         rows.append(rec)
         if args.verbose:
-            print(f"[{len(rows)}] {rec['id']:<10} {rec['outcome']:<16} {'VERIFY_FAIL ' + ','.join(rec['verify']) if rec['verify'] else 'ok':<30} {rec['title'][:70]}", flush=True)
+            print(f"[{len(rows)}] {rec['id']:<10} {rec['coarse']:<5} {rec['outcome']:<16}{'UNSTABLE(' + rec['outcome2'] + ') ' if rec.get('unstable') else ''}{'VERIFY_FAIL ' + ','.join(rec['verify']) if rec['verify'] else 'ok':<30} [{rec.get('rubric_cell','')[:22]}] {rec['title'][:60]}", flush=True)
     return rows, n_model, n_fail
 
 def write_outputs(rows, args):
-    rows = sorted(rows, key=lambda r: (r.get("lane", ""), r["date"], r["id"]))
+    rows = sorted(rows, key=lambda r: (r.get("rubric_cell", ""), r.get("lane", ""), r["date"], r["id"]))
     os.makedirs(os.path.dirname(OUT_JSONL), exist_ok=True)
     with open(OUT_JSONL, "w", encoding="utf-8") as f:
         for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
     stamp = time.strftime("%Y-%m-%d %H:%M %Z")
     by_lane = {}
-    for r in rows: by_lane.setdefault(r.get("lane") or "(unlabelled)", []).append(r)
+    for r in rows: by_lane.setdefault(r.get("rubric_cell") or "(no rubric cell)", []).append(r)
     L = ["---", 'title: "BST Approaches Register — did we do this before?"', "author: Keeper (instrument-derived)",
          f"date: {stamp}", f'status: "DERIVED by play/keeper_approaches_register.py; {len(rows)} rows; '
          f'{sum(1 for r in rows if r["verify"])} rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"',
@@ -250,16 +280,21 @@ def write_outputs(rows, args):
     if args.lane_filter:
         L.append(f"Scope of this build: `--lane-filter '{args.lane_filter}'` (pilot). Sources: {', '.join(args.sources or DEFAULT_SOURCES)}.")
         L.append("")
-    L.append("| lane | id | date | outcome | approach | reason | keywords | amends | evidence (verbatim) | file |")
-    L.append("|---|---|---|---|---|---|---|---|---|---|")
+    L.append("**Columns.** `coarse` = STOP (refuted / retracted / withdrawn) · LIVE (open / conditional / parked) · DONE (proved / passed / certified) · AMEND. "
+             "`UNSTABLE` = two independent model readings disagree on the coarse label — read the file. `⚠VERIFY_FAIL` = evidence phrase not verbatim — outcome untrusted.")
+    L.append("")
+    L.append("| rubric cell | lane | id | date | coarse | outcome | approach | reason | keywords | amends | evidence (verbatim) | file |")
+    L.append("|---|---|---|---|---|---|---|---|---|---|---|---|")
     for lane in sorted(by_lane):
         for r in by_lane[lane]:
             oc = r["outcome"] + (" ⚠VERIFY_FAIL" if r["verify"] else "")
+            co = r.get("coarse", "") + (" UNSTABLE" if r.get("unstable") else "")
             cell = lambda s: str(s).replace("|", "\\|").replace("\n", " ")
-            L.append(f"| {cell(lane)} | {r['id']} | {r['date']} | {oc} | {cell(r['approach'])} | {cell(r['reason'])} | "
+            L.append(f"| {cell(lane)} | {cell(r.get('lane',''))} | {r['id']} | {r['date']} | {co} | {oc} | {cell(r['approach'])} | {cell(r['reason'])} | "
                      f"{cell(', '.join(r.get('keywords', [])))} | {', '.join(r['amends'])} | {cell(r['evidence'])} | `{r['file']}` |")
     L += ["", f"Counts by outcome: " + ", ".join(f"{k}={v}" for k, v in sorted(
-        {o: sum(1 for r in rows if r['outcome'] == o) for o in OUTCOMES + ['']}.items()) if v), ""]
+        {o: sum(1 for r in rows if r['outcome'] == o) for o in OUTCOMES + ['']}.items()) if v),
+          f"Unstable rows: {sum(1 for r in rows if r.get('unstable'))} / {len(rows)}", ""]
     with open(OUT_MD, "w", encoding="utf-8") as f: f.write("\n".join(L))
     return OUT_MD, OUT_JSONL
 
@@ -278,10 +313,11 @@ def selftest():
     chk("title H1", file_title("---\nx\n---\n# K1 — hello\n## 1") == "K1 — hello")
     chk("tokens", verdict_tokens("VERDICT: CONDITIONAL PASS — RETRACTED later") == ["CONDITIONAL PASS", "RETRACTED"])
     head = "The wall remains unmoved. Tier: ATTEMPT, unchanged."
-    chk("verify: verbatim evidence passes", verify({"outcome": "OPEN", "evidence": "Tier: ATTEMPT, unchanged", "amends": [], "keywords": ["x"]}, head) == [])
-    chk("verify: markdown-bold + en-dash evidence passes", verify({"outcome": "OPEN", "evidence": "the wall remains unmoved – Tier", "amends": [], "keywords": ["x"]}, "The **wall** remains unmoved — Tier: ATTEMPT") == [])
+    chk("verify: verbatim evidence passes", verify({"outcome": "OPEN", "evidence": "Tier: ATTEMPT, unchanged", "amends": [], "keywords": ["x"], "rubric_cell": RUBRIC[0]}, head) == [])
+    chk("verify: markdown-bold + en-dash evidence passes", verify({"outcome": "OPEN", "evidence": "the wall remains unmoved – Tier", "amends": [], "keywords": ["x"], "rubric_cell": RUBRIC[0]}, "The **wall** remains unmoved — Tier: ATTEMPT") == [])
     chk("verify: paraphrase fails (negative control)", "evidence_not_verbatim" in verify({"outcome": "OPEN", "evidence": "the tier is unchanged", "amends": []}, head))
     chk("verify: missing keywords fails", "keywords_missing" in verify({"outcome": "OPEN", "evidence": "The wall", "amends": []}, head))
+    chk("coarse map", (coarse("RETRACTED"), coarse("OPEN"), coarse("CLOSED_POSITIVE"), coarse("AMENDMENT")) == ("STOP", "LIVE", "DONE", "AMEND"))
     chk("verify: bad vocab fails", any(f.startswith("outcome_vocab") for f in verify({"outcome": "PASS", "evidence": "The wall", "amends": []}, head)))
     print("SELFTEST", "PASS" if ok else "FAIL"); return ok
 
@@ -310,6 +346,7 @@ def main():
     ap.add_argument("--model", default=os.environ.get("APPROACHES_MODEL", "qwen3:30b-a3b"))
     ap.add_argument("--key", default=os.environ.get("APPROACHES_API_KEY", ""))
     ap.add_argument("--refresh", action="store_true", help="ignore cache; re-extract")
+    ap.add_argument("--runs", type=int, default=2, help="2 = add an independent second reading of the outcome (UNSTABLE flag); 1 = single")
     ap.add_argument("--dry-run", action="store_true", help="deterministic layer only; no model calls")
     ap.add_argument("--controls", help="tab-separated ID<TAB>EXPECTED file; report matches")
     ap.add_argument("--selftest", action="store_true")

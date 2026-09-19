@@ -297,10 +297,10 @@ for f in sorted(_g.glob("Guide/**/*.md", recursive=True) + _g.glob("Curriculum/*
     if "SCOPING" in f or "KEEPER_REFINEMENT" in f: continue
     for n, line in enumerate(open(f, encoding="utf-8", errors="replace"), 1):
         for lab, rx in RETIRED_PHRASES:
-            if re.search(rx, line) and not re.search(EXEMPT, line):
+            if re.search(rx, line) and not re.search(EXEMPT, line, re.I):
                 _hits.append((lab, f, n)); break
 # positive control: a synthetic line with the phrase and no exemption MUST hit
-_ctrl = [lab for lab, rx in RETIRED_PHRASES if re.search(rx, "All seven Millennium problems **PROVED --- Ready for Submission**") and not re.search(EXEMPT, "x")]
+_ctrl = [lab for lab, rx in RETIRED_PHRASES if re.search(rx, "All seven Millennium problems **PROVED --- Ready for Submission**") and not re.search(EXEMPT, "x", re.I)]
 if not _ctrl: findings.append(("ERROR", "sentences", "positive control FAILED: the Millennium phrase did not match", "Keeper"))
 elif _hits:
     HARD = {"Millennium PROVED", "Millennium proved-1", "eight of 26", "v1.2 prereg", "zero posits"}

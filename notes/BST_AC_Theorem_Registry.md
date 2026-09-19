@@ -8225,7 +8225,7 @@ The three dimensions form coherent substrate ontology. External presentation use
 **Cross-link to existing Wednesday Phase 3 frameworks**:
 
 - **T1485**: Λ ≈ g · exp(−C_2(g²−rank)) ≈ 10⁻¹²¹·⁶ (substrate vacuum scalar magnitude)
-- **Toy 1567** (D-tier, Casey-named 2026-04-28): Casimir asymmetric ratio = g = 7 (substrate vacuum directional response to BCs)
+- **Toy 1567** (D-tier, Casey-named 2026-04-28): Casimir asymmetric ratio = g = 7 (substrate vacuum directional response to BCs)  **[RETIRED as sourced 2026-09-19, K1913: Toy 1567 is the Bergman-eigenvalues/Debye-temperature materials toy and contains no Casimir content; no toy or theorem derives the ratio and the two boundary conditions are never named. Status: UNSOURCED identification, no instrument, not D-tier. Nearest QED number is Boyer 1974 (conductor vs permeable plate, 7/8, repulsive) — a different object. Grace R154 N1.]**
 - **T2417** (substrate cosmological cycle): Λ as inter-cycle low-energy residue
 - **T2416** (apparatus-zone mapping): both Λ + Casimir probe outer-edge zone
 

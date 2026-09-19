@@ -28,7 +28,7 @@ import argparse, json, os, re, sys, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG = os.path.join(ROOT, "notes", "BST_Approaches_Register.jsonl")
-FIELDS = ["id", "lane", "title", "approach", "reason", "evidence", "file", "outcome", "keywords"]
+FIELDS = ["id", "lane", "rubric_cell", "title", "approach", "reason", "evidence", "file", "outcome", "keywords"]
 
 def load():
     if not os.path.exists(REG):
@@ -45,7 +45,8 @@ def score(row, terms, any_mode):
 
 def fmt(r, width=110):
     flag = " ⚠VERIFY_FAIL" if r.get("verify") else ""
-    line1 = f"{r['id']:<10} {r['date']}  {r.get('outcome',''):<16}{flag}  [{r.get('lane','')}]"
+    unst = " UNSTABLE(" + r.get("outcome2", "") + ")" if r.get("unstable") else ""
+    line1 = f"{r['id']:<10} {r['date']}  {r.get('coarse',''):<5} {r.get('outcome',''):<16}{unst}{flag}  [{r.get('rubric_cell','')} · {r.get('lane','')}]"
     line2 = f"    approach: {r.get('approach','')[:width]}"
     line3 = f"    reason:   {r.get('reason','')[:width]}"
     kw = f"    keywords: {', '.join(r['keywords'])}" if r.get("keywords") else None
