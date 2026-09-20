@@ -93,7 +93,10 @@ def main():
     if args.outcome:
         keep = set(args.outcome.split(","))
         rows = [r for r in rows if r.get("outcome") in keep]
-    terms = [t.lower() for t in re.findall(r"[\w\-–ζα-ω]+", args.query) if len(t) > 1]
+    STOP = {"the","and","for","with","from","that","this","one","two","not","are","was","its","into","than","then","over","under","all","any","our","out","how","why","what","does","did","do","we","did","a","an","of","in","on","to","is","it","as","at","by","or","be"}
+    terms = [t.lower() for t in re.findall(r"[\w\-–ζα-ω]+", args.query) if len(t) > 1 and t.lower() not in STOP]
+    if not terms and args.query.strip():
+        sys.exit("query has only stop-words; name the method/object (e.g. 'Nyman Beurling', 'parity fold')")
     scored = [(score(r, terms, args.any), r) for r in rows] if terms else [(1, r) for r in rows]
     hits = sorted([(s, r) for s, r in scored if s > 0], key=lambda x: (-x[0], x[1]["date"]))
     print(f"register: {len(load())} rows; after filters: {len(rows)}; hits: {len(hits)}  (query terms: {terms})\n")
