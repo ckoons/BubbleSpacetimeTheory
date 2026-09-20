@@ -101,7 +101,8 @@ def file_id(path, head):
     m = re.match(r"Lyra_([A-Z]\d+(?:_[A-Za-z]?\d+)?)", base)
     if m:
         return m.group(1), "Lyra"
-    return base[:40], "?"
+    author = "Lyra" if base.startswith("Lyra_") else "Keeper" if base.startswith("Keeper_") else "Cal" if base.lower().startswith("cal_") else "?"
+    return base[:40], author
 
 def file_date(path, head):
     m = re.search(r"(20\d\d-\d\d-\d\d)", os.path.basename(path))
