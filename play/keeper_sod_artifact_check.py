@@ -278,6 +278,7 @@ except Exception as _e:
 # An instrument keyed to the previous scope passes everything (K1901; the same lesson, a second time, on this file).
 # Phrase patterns; a line is exempt if it also carries a retirement marker within the same line.
 import glob as _g
+import os, json
 RETIRED_PHRASES = [
     ("Millennium PROVED",   r"Millennium problems?\s*\**\s*PROVED|Ready for Submission"),
     ("zero free params",    r"[Zz]ero free parameters|[Nn]o free parameters"),
@@ -333,6 +334,29 @@ if not _hits and not hard:
     findings.append(("OK", "sentences", "no unmarked retired sentence in Guide/Curriculum (control PASSED)", None))
 if _covered_hits:
     findings.append(("OK", "sentences", f"{len(_covered_hits)} retired-phrase line(s) sit under a dated retirement head (COVERED; retired-not-deleted per Cal §977) in {len({f for _, f, _ in _covered_hits})} files", None))
+
+# ---------- APPROACHES REGISTER COVERAGE (added 2026-09-19, K1913 §8) ----------
+# Every ruling file (Keeper_K*, cal_*/Cal_*, Lyra_*) must have a row in notes/BST_Approaches_Register.jsonl, else the
+# "did we do this before?" query cannot see it. The register is DERIVED (play/keeper_register_nightly.sh); a missing
+# row is drift in the derivation, not in the ruling. Rows with model_error are counted as present-but-untrusted.
+_reg = "notes/BST_Approaches_Register.jsonl"
+_ruling_files = sorted(set(_g.glob("notes/Keeper_K*.md") + _g.glob("notes/cal_*.md") + _g.glob("notes/Cal_*.md") + _g.glob("notes/Lyra_*.md")))
+if not os.path.exists(_reg):
+    findings.append(("REVIEW", "register", f"notes/BST_Approaches_Register.jsonl missing — run play/keeper_register_nightly.sh", "Keeper"))
+else:
+    _have = set()
+    _untrusted = 0
+    with open(_reg, encoding="utf-8") as fh:
+        for line in fh:
+            try:
+                r = json.loads(line); _have.add(r["file"])
+                if any(str(v).startswith("model_error") for v in r.get("verify", [])): _untrusted += 1
+            except Exception: pass
+    _missing = [f for f in _ruling_files if f not in _have]
+    if _missing:
+        findings.append(("DRIFT", "register", f"{len(_missing)} ruling file(s) have NO Approaches Register row (e.g. {', '.join(os.path.basename(f)[:40] for f in _missing[:3])}) -- DIRECTIVE: run play/keeper_register_nightly.sh (cache makes it cost only these)", "Keeper"))
+    else:
+        findings.append(("OK", "register", f"Approaches Register covers all {len(_ruling_files)} ruling files ({_untrusted} rows model_error/untrusted)", None))
 
 # ---------- REPORT ----------
 order = {"ERROR":0,"DRIFT":1,"STALE":2,"WARN":3,"REVIEW":4,"NOTE":5,"OK":6}
