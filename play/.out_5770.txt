@@ -1,0 +1,33 @@
+====================================================================================================
+TOY 5770 — where does 6π⁵ live? the three sentences, evaluated
+====================================================================================================
+the claim's number (never compared to a measurement here): C_2·π^n_C = 1836.118109
+
+(a) T187's sketch — Hua volumes, vol(D_IV^n) = π^n / (2^(n−1)·n!)  [Hua 1963; T187 quotes π⁵/1920 for n=5]
+    vol(D_IV⁵) = π⁵/1920 = 0.159385     vol(D_IV³) = π³/24 = 1.291928
+    K(0,0) = 1/vol.  K₅/K₃ = vol₃/vol₅ = 80/π² = 8.105695;  vol₅/vol₃ = π²/80 = 0.123370
+    factor the sentence would need: 6π⁵ / (80/π²) = 3π⁷/40 = 226.5220;  6π⁵ / vol₅ = 6·1920 = 11520.0
+  [HIT] (a) T187's volume ratio equals π²/80 (Keeper's number), not 6π⁵  
+  [HIT] (a) the only part of the sentence that survives is the π-EXPONENT of vol(D_IV⁵) = n_C; its rational part 1/1920 is dropped  
+
+(b) Vol 2 Ch 6's 'a₁ = C₂·π^{n_C}' — the Seeley–DeWitt expansion on a Riemannian manifold of real dim d:
+    tr e^{−tΔ} ~ (4πt)^{−d/2} [ a₀ + a₁ t + … ],  a₀ = vol,  a₁ = (1/6)∫R   (universal: Gilkey; the 6 is 1/6, for EVERY manifold)
+    D_IV⁵: d = 2n_C = 10; Bergman metric Einstein constant −p = −5 (T2334 pin, toy 3661) ⟹ R = −p·d = -50 (Riemannian), −p·n_C = -25 (Kähler convention)
+    per unit volume: a₁/a₀ = R/6 = -8.3333; the π-power of the trace prefactor is (4π)^{−n_C} = π^{−5}/1024
+    ⟹ the heat kernel DOES contain a 6 and a π⁵ — as 1/6 and 1/(4π)⁵, both in the DENOMINATOR, times a curvature.
+    the corpus's own a₁ = −1875 = −N_c·n_C⁴ (F63, scalar K-Casimir coefficient) is a different object; check: −N_c·n_C⁴ = -1875
+    retained instrument for T187 (toy 541, line with 'mass_ratio ='): `mass_ratio = C_2 * math.pi**n_C`  — Vol is computed there and NOT used in it
+  [HIT] (b) no toy in play/ computes a₁(D_IV⁵) by Faraut–Korányi; toy 541 writes the number down  
+  [HIT] (b) 6 and π⁵ appear in the universal heat trace inverted (1/6, (4π)^−5), not as C₂·π^n_C  
+
+(c) T2487 × T2488 — cells × bulk volume; T2351's K-type Casimir
+    vol(unit ball ℝ^10) = π⁵/5! = 2.550164 (T2487: π-exponent = complex dim = n_C);  vol(D_IV⁵) = π⁵/1920 = 0.159385
+    6 = n_C + 1 (T2488 Z₂ bit) = C_2 = rank·N_c = 6;  T2351 K-type (1,0) Casimir m₁(m₁+n_C) = 6; its Dirac² = Casimir − n_C·g/4 = -2.75 (not 6)
+    products with the measures kept: 6·vol(B¹⁰) = 15.3010;  6·vol(D_IV⁵) = 0.9563;  6·π⁵ = 1836.12 — the number obtains only after the rational normalisation (1/120 or 1/1920) is set to 1
+    what carries m_e: nothing in the sentence — 'mass = cells × π^{n_C} × m_e' names m_e as the unit by hand.
+  [HIT] (c) the three readings of '6' coincide at n_C = 5 (n_C+1 = rank·N_c = Casimir(1,0))  
+  [HIT] (c) 6·π⁵ is obtained from banked measures only by discarding their rational parts (no banked measure has π⁵ with coefficient 1)  
+
+(residual, stated, not fitted) CODATA 2022 − 6π⁵ over CODATA = −1.88e-5. Its ORDER is Lyra's to state before any value (round-2 §7.3); no candidate is printed here.
+
+SCORE 6/6 (all checks of arithmetic; nothing can-fail — this toy is an enumeration, not a prediction)
