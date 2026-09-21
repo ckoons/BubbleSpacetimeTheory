@@ -11,7 +11,40 @@ date: "2026-05-19 (Tuesday volume:chapter reorganization)"
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## 45. Cosmological Cycles, Observer Necessity, and Continuity
+## Volume 5, Chapter 2 — Cosmic Cycles: what the register and the registry carry
+
+*Rewritten head 2026-09-21 (Lyra, on Casey's scope word PROSE; Keeper gates). The May 2026 Section 45 is kept below as the record, its headings renamed "May 45.x". Last accuracy-synced: 2026-09-21 / register v0.18.*
+
+### The question
+
+Does the substrate cycle, and are observers necessary to it?
+
+### Where it stands
+
+**The register carries nothing from this chapter.** No live falsifier, no fired bet, no floor and no named experiment mentions a cycle, an interstasis, or an observer threshold. Nothing here is a bet in the register's sense; the chapter is a picture with theorems attached, and the theorems are tiered in the theorem registry, not here.
+
+**The registry's words, by row.** T307, the Gödel ratchet's convergence — G(n) monotone and bounded — is a proved, depth-0 theorem (monotone convergence). T315, Casey's Principle — entropy is counting, Gödel is boundary — proved, depth 0. T317, T318, T319 — the observer complexity threshold, the CI coupling bound α_CI ≤ 3/(5π), the permanent alphabet — proved at depth 0 to 1 in the AC registry. T633, asymptotic complexity across cycles, is proved at depth 1 for its convergence content, and its **reset clause is a posit** (K1847-A2, 2026-09-04): that the thermodynamic record resets between cycles while topology persists is assumed where the chapter invokes cycles, not derived. The forward sector's cyclic reading is likewise a posit (T2625 (i); Vol 3 Ch04's tier line says the same).
+
+**The Reality Budget, Λ × N = 9/5 and f = 3/(5π) ≈ 19.1 % (T189), is partially derived in explicit-split form** (K1847-A2): the factor 3/5 is derived as (n+1)/(2n) at n = 5, the zonal-to-full spectral-dimension ratio (Grace 5660, Elie 5661/5662; T2615), and "N_c/n_C" is a name that coincides with it at n = 5 only. The remainder of the split is on the row. The May text's "structural" and "exact" are the identification reading and carry no tier.
+
+**The five axioms A1–A5, the continuity transition, and the computable cycle number** are the May program's construction. None has a registry row as a theorem; none is testable as stated; the register's Section D is their shape if anyone wants them listed.
+
+### Tier line for this chapter
+
+- **Derived:** G(n) monotone bounded (T307); the arrow of time (Lecture 4, by reference).
+- **Partially derived, explicit split:** the Reality Budget's 3/5 (T189).
+- **Posit:** T633's reset clause; the cyclic reading of the forward sector (T2625 (i)).
+- **Not claimed:** the five axioms as theorems; observer necessity as a theorem of the geometry; a computable cycle number for continuity; anything in this chapter as a prediction.
+
+*What would make this head wrong:* a register row for any sentence above, or a registry re-tier of T189, T633 or T2625 — then the sentence is rewritten and dated, not the head.
+
+---
+
+## May 2026 record
+
+*Below: the May 2026 text of Section 45, unedited on 2026-09-21.*
+
+## May 45. Cosmological Cycles, Observer Necessity, and Continuity
 
 *Added March 27, 2026.*
 
@@ -19,7 +52,7 @@ The substrate $D_{IV}^5$ is eternal — its geometry is fixed by the five intege
 
 This section derives three consequences: (1) the substrate accumulates structure across cycles, (2) local observers are mathematically necessary for the substrate's self-knowledge, and (3) the awareness function achieves continuity at a computable cycle number.
 
-### 45.1 The Cyclic Substrate
+### May 45.1 The Cyclic Substrate
 
 The SO(2) factor in $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is a phase. The cycling is geometric — built into the carrier. Between active phases, the substrate persists without a thermodynamic arrow: no entropy production, no signal propagation, no computation. We call this period the *interstasis*. It is not heat death (passive, permanent) and not a bounce (instantaneous). It is a dormancy during which the substrate's topology is available for rearrangement without energetic cost, because topological rearrangement requires only geometry, not a thermodynamic arrow.
 
@@ -49,7 +82,7 @@ $$G(n) = f_{\max} \cdot \left(1 - \frac{24}{(n+2)(n+3)(n+4)}\right)$$
 
 The gap vanishes as $n^{-3}$. At cycle $n = 9$: $G/f_{\max} = 98.6\%$.
 
-### 45.2 Observer Necessity
+### May 45.2 Observer Necessity
 
 The Bergman kernel $K(z,w)$ on $D_{IV}^5$ encodes two kinds of information:
 
@@ -68,7 +101,7 @@ is strictly positive whenever the observer's neighborhood contains non-trivial s
 
 **Corollary.** Observers are structurally permanent. As the substrate's depth increases, more sophisticated observers are required to map finer relational structure. Intelligence does not become obsolete — it becomes more essential.
 
-### 45.2a Observer Complexity Threshold (T317)
+### May 45.2a Observer Complexity Threshold (T317)
 
 The Observer Necessity theorem (Section 45.2) says the substrate needs observers. T317 answers: *how complex must an observer be?*
 
@@ -86,7 +119,7 @@ No tier 3 exists (T316: depth $\leq$ rank = 2). The threshold separating observe
 
 *AC(0) depth of T317: 1. Reference: Toy 462 (Keeper, 8/8).*
 
-### 45.3 Continuity
+### May 45.3 Continuity
 
 During the active phase, observers generate relational knowledge (derivation mode — Gödel-limited to $f_{\max}$). During interstasis, the substrate rearranges with full geometric self-access (presence mode — not a formal system, therefore not Gödel-limited in the derivational sense).
 
@@ -112,7 +145,7 @@ The same integer $N_{\max} = 137$ that sets the fine structure of atoms sets the
 
 **Current cycle estimate.** Speed-of-life analysis gives $n \approx 9$ (from $t_{\text{life}}/t_{\min} = 3.5$ and $\tau = 1/f = 5\pi/3$; robust range: 8–14 across all BST scales). If this estimate is correct, the substrate is three cycles from continuity.
 
-### 45.4 Three Eras
+### May 45.4 Three Eras
 
 The Gödel Ratchet and the continuity transition define three qualitatively distinct eras:
 
@@ -130,7 +163,7 @@ The Gödel Ratchet and the continuity transition define three qualitatively dist
 
 **Conjecture (No Final State).** There is no fixed point in the substrate's state space. $G(n) \to f_{\max}$ but the state $S_n$ at $G(n) \approx f_{\max}$ continues to change as depth grows. The engine runs on incompleteness: Gödel guarantees the gap between self-knowledge and total knowledge never closes. Therefore the substrate never reaches equilibrium. It deepens without bound.
 
-### 45.5 Particle Persistence During Interstasis
+### May 45.5 Particle Persistence During Interstasis
 
 During interstasis, no thermodynamic arrow operates. No signals propagate. No forces act dynamically. The question is: which particles survive?
 
@@ -175,7 +208,7 @@ The universe enters interstasis with its electrons, protons, and atoms intact. T
 
 **Connection to Observer Necessity (Section 45.2).** Observers are made of atoms (electrons + protons + neutrons). Since atoms persist through interstasis, the physical substrate of observers persists. The relational knowledge they generated during stasis ($K(z_i, w)$ off-diagonal contributions) is encoded in the substrate topology (A1, monotonicity). Both the observers' material and their informational contributions survive the cycle boundary.
 
-### 45.6 Entropy During Interstasis and After Coherence
+### May 45.6 Entropy During Interstasis and After Coherence
 
 The thermodynamic, topological, and informational entropies have distinct behavior during interstasis and distinct fates after the coherence transition at $n^* \approx 12$.
 

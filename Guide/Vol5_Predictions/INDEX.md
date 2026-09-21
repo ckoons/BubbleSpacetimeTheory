@@ -4,7 +4,7 @@ volume: "Volume 5: The Predictions"
 reader: "Experimentalist, outreach target, prediction-evaluator"
 voice: "Predictions-focused, falsifiability-explicit"
 parent: "../Master_Index.md (master library index)"
-date: "2026-05-19"
+date: "2026-09-21 (Ch01 rewritten as the register in prose; Ch02 head)"
 ---
 
 # Volume 5: The Predictions — Index
@@ -17,8 +17,8 @@ date: "2026-05-19"
 
 | Chapter | Topic | Contents |
 |---|---|---|
-| [`Ch01_Predictions_Program.md`](Ch01_Predictions_Program.md) | Experimental Predictions and Research Program | Sections 43-44: 600+ parameter-free predictions across 130+ domains; Research Program with priorities *[Retired phrase, 2026-09-19 (K1912 REVIEW sweep): "600+ predictions / 500+ constants" is retired (2026-09-11, CLAUDE.md banner): the count is the falsifier register (v0.18) and the generated 26-parameter table — several hundred identifications and a short derived core, every one tiered.]* |
-| [`Ch02_Cosmic_Cycles.md`](Ch02_Cosmic_Cycles.md) | Cosmic Cycles and Continuity | Section 45: Cosmological Cycles, Observer Necessity, Continuity, Gödel Ratchet |
+| [`Ch01_Predictions_Program.md`](Ch01_Predictions_Program.md) | The Predictions, as the register carries them | The falsifier register rendered in prose (2026-09-21): nine live falsifiers incl. A9 run 1 = Landing C on Quaia; six fired-and-lost with dates; four floors; eight named-experiment predictions, literature-checked; controls, quarantine, markers; the May 2026 tables kept as the record |
+| [`Ch02_Cosmic_Cycles.md`](Ch02_Cosmic_Cycles.md) | Cosmic Cycles | Head (2026-09-21): nothing on the register; registry tiers for T307/T315/T317–T319/T633/T189, reset clause a posit; May 2026 Section 45 kept as the record |
 
 ## Build instructions
 

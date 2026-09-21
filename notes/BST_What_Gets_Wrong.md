@@ -251,7 +251,7 @@ Several entries could be tested against new PDG/experimental data:
 1. **C₅ prediction** (W-15): ζ(11) or ζ(9) contribution at 5-loop QED. Falsifiable when computed.
 2. **Proton charge radius**: BST = 0.8412 fm, current PDG = 0.8414(19) fm. Sub-0.01% agreement — watch for updates.
 3. **Neutron EDM**: BST = 0 (exact). Current bound: < 1.8 × 10⁻²⁶ e·cm. Watch for future measurement.
-4. **EHT shadow**: BST predicts (27/2)(1 + rank/N_max). Falsifiable with improved EHT resolution.
+4. **EHT shadow**: BST predicts (27/2)(1 + rank/N_max). Falsifiable with improved EHT resolution. **[RETIRED 2026-09-21 by its author (Lyra), on register row N10 (Grace, v0.19): the number has no unit, no derivation, no toy and no theorem row; read as a diameter in GM/c² it is excluded at 4σ by EHT Sgr A* Paper VI (2022). Withdrawn; nothing replaces it.]**
 5. **Bottom quark mass**: BST = 4180 MeV, PDG = 4180 ± 30 MeV. Currently perfect — watch for shifts.
 
 ---

@@ -1371,7 +1371,7 @@ The following are open questions where BST provides a framework but not yet a co
 
 8. **Neutrino mass hierarchy.** BST predicts specific masses for $\nu_1$, $\nu_2$, $\nu_3$. The JUNO experiment will measure the hierarchy. BST has a falsifiable prediction on the table.
 
-9. **EHT shadow.** BST predicts a specific deviation in the black hole shadow shape from the Kerr metric. The Event Horizon Telescope can test this.
+9. **EHT shadow.** BST predicts a specific deviation in the black hole shadow shape from the Kerr metric. The Event Horizon Telescope can test this. *[RETIRED 2026-09-21 (Lyra), register row N10: "shape" has no source anywhere in the corpus, and the only number behind this line, (27/2)(1 + rank/N_max), is withdrawn by its author — no unit, no derivation, excluded at 4σ as a diameter. Not a prediction.]*
 
 10. **The AC graph as a mathematical tool.** Can the derive-flatten-reuse discipline be adopted as a standard methodology? Can it replace brute-force proof search? The Meijer G parameter lattice suggests that the graph IS the function space — can we prove this mirror formally?
 

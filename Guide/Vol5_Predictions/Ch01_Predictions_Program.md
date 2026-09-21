@@ -7,13 +7,143 @@ chapter_topic: "Experimental Predictions and Research Program"
 parent: "./INDEX.md"
 library_root: "../Master_Index.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+date: "2026-09-21 — rewritten as the falsifier register rendered in prose (Lyra; Casey's scope word PROSE 2026-09-19; Keeper gates). May 2026 text kept below as the record."
 note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
-## Volume 5, Chapter 1 — head-note (2026-09-19)
+## Volume 5, Chapter 1 — The Predictions, as the register carries them
 
-*Head-note added 2026-09-19 (Lyra, on Keeper K1912 Section 2 and Section 4(b); Keeper audit pending). The chapter body below is the May 2026 text, unedited in this pass. It was written before the falsifier register, the tier words of Spine Lecture 10, and the generated 26-parameter table existed, and it does not know that a falsifier has run. Read it with this head in hand. Casey's scope word (head-note only, or Volume 5 rewritten as the register rendered in prose, K1912 4(c)) is pending; this head stands either way.*
+*Rewritten 2026-09-21 (Lyra, on Casey's scope word PROSE of 2026-09-19 and K1913 Section 3; Keeper gates this chapter against the register rows). This chapter is the falsifier register — `notes/Elie_FALSIFIER_REGISTER_v0_2_C1_owned_and_pinned_NuFIT6_three_delta_CP_claims_discipline_adopted_2026-08-24.md`, v0.19 as of 2026-09-21 — rendered in prose. Every claim, bound, σ and date below is taken from a register row and names the row. Where the prose and the row disagree, the row wins and the prose is rewritten and dated. The 2026-09-19 head-note and the May 2026 text are kept below as the record. Last accuracy-synced: 2026-09-21 / register v0.19.*
+
+### The question
+
+What has this program bet, in public, in a form that can lose — and what happened each time we checked?
+
+A match is not a prediction. A match is a number that came out close; the May text below has about two hundred and fifty of them, each with a check mark. A prediction is a bet written down before the check, with the losing condition written beside it. This chapter is the list of bets. The register holds nine that are live, six that were made and lost, four that ended at a wall with a named door, ten that the volumes named as experiments and that were checked against the literature on the day they were registered, three controls that fired the way controls should, two claims in quarantine, and a short list of boundary markers that nobody may promote to a bet. That is the whole inventory. Nothing else in this volume is a prediction in the register's sense.
+
+### How to read this chapter
+
+Four words, used exactly (Spine Lecture 10, `Curriculum/Spine_DIV5_QM_GR_SM/Lecture_10_The_Method_and_How_to_Kill_It.md`): *derived* — a mechanism proved, with its inputs named on the statement; *identified* — a formula that matches, mechanism not claimed; *open* — used from measurement; *input* — the ruler. A fifth, *partially derived*, only in explicit-split form. The tier words for the 26 primary Standard-Model parameters live on the generated table, `data/bst_26_tier_table_generated.md`, and nowhere else; this chapter types none of them.
+
+Every σ and every percent below is against a named release — PDG 2024, NuFIT 6.0, or a paper cited by DOI on the row. A falsifier that names an experiment is checked against the literature the day it is registered. The rule exists because one of ours, E4 below, had been refuted a decade before it was written.
+
+A register that deletes its losses hides its record. The losses are here, in the same font as the wins.
+
+### 1. Live falsifiers — register Section A
+
+**A1 — no genuine wobble in Λ, no phantom crossing.** The bet: dark energy relaxes to w = −1 from above, monotone, never crossing (F799, T2559), and its variance is Pauli-frozen (T2571) — two facts, not one (K1749). Current bound: the phantom crossing DESI DR2 reports depends on the gravity model used to read it; a scalar-tensor reading removes it (arXiv:2511.04610), so it is not a clean detection. Kill: a confirmed, interpretation-robust crossing, or a genuine stochastic wobble. Owner: Grace.
+
+**A2 — the CKM first row is exactly unitary.** The bet: λ = 1/√20 and |V_ud| = √(19/20), unitary by construction — Casey's chosen observable (R71). Current: λ = 0.22501 ± 0.00068 against 0.22361, a −2.06σ tension; the direct first-row sum, 0.9984 ± 0.0007, is 2.3σ short of unitary, which today runs in BST's favour. Kill: direct determinations confirming genuine non-unitarity at high significance, or the Wolfenstein tension growing well past 3σ. Owner: Keeper.
+
+**A3 — no sterile neutrino.** The bet: Five-Absence — there is no ν_R; the field multiset declares ν^c absent. Current: no confirmed sterile signal. Kill: a confirmed sterile neutrino, and Cal's I-1/I-2 mechanisms inherit the failure. Owner: Lyra.
+
+**A4 — no W_R, no gauged B−L.** The bet: the surviving gauged group is exactly the Standard Model's (T2520; Cal's I-1). Current: neither observed. Kill: either discovered — the neutrino slot is then charged and the hypercharge mechanism dies, in Cal's own words (Section 735). Owners: Cal, Grace.
+
+**A5 — neutrinos are Majorana.** The bet: the couplings the geometry requires are the charged Yukawas only (Cal's I-2). Current: 0νββ unobserved, parameter space open. Kill: Dirac nature established. Owner: Lyra.
+
+**A6 — the lightest neutrino is massless.** The bet: m₁ = 0, reached by two routes — the ν = 0 Wallach point (F619) and the k = 0 no-Higgs channel (toy 5461) — one bank until they are reconciled. Current: cosmology bounds Σm_ν; no floor is established. Kill: a measured m_lightest > 0. Owner: Lyra, with Elie on the channel route.
+
+**A7 — Koide's Q = 2/3.** Conditional-forced (K1749; the current statement is K1830's floor ruling); toy 5100 region-match. Current: 0.6666605 on PDG masses. Kill: an improved τ mass moving Q off 2/3 beyond the combined errors. Owner: Elie.
+
+**A8 — the order of the CKM corner.** The bet is an order, not a value: the (1,3) corner is suppressed by exactly one power of t relative to the (2,3) subdiagonal, because on a three-dimensional generation space every candidate series in the mixing operator collapses by Cayley–Hamilton to three terms — derived, zero knobs (K1808, K1810; Lecture 7). Current: |V_ub|/|V_cb| ≈ 0.093, band [0.081, 0.108]; the *value* is open — t is unforced, and five sealed series missed it (E6). Kill: an order is reparametrisation-invariant, so this row is wrong if the corner is ever measured at other than one power below the subdiagonal, at any scale. Owners: Grace (row); Lyra and Cal (the theorem).
+
+**A9 — one boost, not two: the radiation and matter rest frames agree.** This is the volume's one falsifier with a run.
+
+*The bet.* BST's Machian descent (T2564) records the exterior's state through a single channel, light; there is no separate matter channel. So the cosmic rest frame read from radiation and the one read from matter must coincide: ε, the rapidity between them, is zero. A structural consequence, not a computed magnitude (Cal's pre-registration P1–P3, filed before data; T2565; Cal Section 957). *The observable.* The Ellis–Baldwin test: the dipole of a distant-source catalogue, against the CMB dipole. *The presupposition, on the row's face.* The test reads a source-count dipole as kinematic; an intrinsic large-scale anisotropy of the sources breaks that reading and is the pre-registered escape hatch. *Prior art, consistent.* Wu & Xia 2026 (Phys. Rev. D 114, 043544), the redshift-dipole method on DESI DR1: v = 358 (+55/−48) km/s against the CMB's 369.82 — one boost, in the other channel. Secrest et al. 2022 (ApJL 937, L31): the radio and quasar dipoles reject the purely kinematic null at 5.1σ joint, and the authors read the residual as intrinsic — the hatch is open in the data themselves.
+
+*The protocol.* Pre-registered v1.5.2, SHA256 8013d959…, Cal Section 974, verified from the files by Keeper (K1909); the target excluded from the run's inputs. *Run 1.* Quaia (G < 20.5 primary, G < 20.0 alongside), the published selection function as fallback weights: **Landing C — not decidable — on both samples.** Elie's record (step vi), Keeper's instrument (vii, K1910), Cal's cold read (viii, Section 976), Keeper's certification (ix, K1911, 2026-09-17). The reason is on the run's own face: the protocol's profile-alternative trigger fired at +7.5σ and +5.0σ against the frozen 2, and the per-bin residual test failed in three of four non-null bins. The per-bin moments rise with redshift, which a boost does not do and clustering does not do; under the fallback weighting that is a residual selection systematic, caught three ways with the target read last.
+
+*What C means.* Not a hold, not a fire. Quaia at the fallback weighting is not a test of the bet. A9 stays live; the next catalogue — DESI DR1, or Quaia re-weighted with per-bin maps on a larger machine — runs only after a fresh freeze, on Casey's word. *Kill.* A confirmed kinematic mismatch ε ≠ 0 that survives the pre-registered hatch. The decider is the redshift dependence of the matter dipole: a kinematic dipole is redshift-independent at fixed spectral index, a clustering dipole is not. Neither a large amplitude alone nor an angle alone fires it. Owners: Grace (row); Cal (the map); Lyra (the candidates); Elie (the numbers).
+
+### 2. Fired and lost — register Section E
+
+Six bets, made under a frozen protocol, lost, and certified. Each paragraph says what fired, what died, and what survived, because a loss that takes the wrong things with it is a second loss.
+
+**E1 — the α one-shot.** The bet: a bare-vertex computation would land in a frozen window, 137.000 to 137.036, tolerance 0.010 in α⁻¹ units. It landed at 8π³/3 — the Hua volume of the Lie sphere, not 137 (toy 5496, half-blind; K1826, Cal-certified; the must-reject fired in the same run). Died: the winding-count story of 1/α, both legs, and the never-banked prize list that rode on it. Survived: λ_H and V_us on their own banks; the (1/4α)F² form as structure; the coefficient, now a computed number with a geometric name. The honest state is Lecture 8's: α measured; N_max = 137 a computed invariant; every expression for α, a_e and b₀ identified, not derived.
+
+**E2 — the thermal order of the generations.** The bet, frozen as a biconditional before any number was seen: Shilov-first if and only if E_Shilov > E_Cartan > E_bulk. The computation gave E = ν² exactly, (0, 9/4, 25/4) — the order exactly inverted, by two independent computations with identical triples (Elie toy 5498 and Grace's half; K1828). Died: the thermal freeze-out order as the mechanism. Survived: the three strata, the exact grading, and the anti-alignment — the mass ladder and the commit-energy ladder point opposite ways, and that is now the exhibit the successor lane starts from.
+
+**E3 — the commit-Boltzmann mass carrier.** The bet: a parameter-free 16/9 against PDG, with the fail line frozen at 5.00 %. Measured 1.88901 (PDG 2024) against 1.77778: a 5.90 % miss, robust across the full m_τ band (toy 5499, 8 of 8; Keeper-certified 2026-08-25). Died: the single-temperature Boltzmann reading of the anti-alignment — the simplest carrier, eliminated with a number. Survived: the anti-alignment order itself, still standing and still needing a carrier.
+
+**E4 — the sub-Tsirelson ceiling.** The bet, registered in May: S_BST = √(126/16) = 2.80624, strictly below Tsirelson's 2√2, with the deficit in S² exactly 1/8 — called at the time "the sharpest falsifier in the program". The measurement had been made a decade earlier: Poh, Joshi, Ceré, Cabello and Kurtsiefer, PRL 115, 180408 (2015), S = 2.82759 ± 0.00051, which puts BST's ceiling 41.9σ below the data. Died: the laboratory prediction, the Bell-apparatus proposal, the Bell anchor in two papers, two Curriculum chapters as standing chapters. Survived: the integer identity as arithmetic; Tr(B²) = 126/16 as an operator fact with no laboratory claim; and the Tsirelson bound itself, because BST's Hardy-space quantum mechanics recovers standard quantum mechanics (Grace R142 G3; K1893). This row is why every named-experiment prediction is now checked the day it is registered.
+
+**E5 — the parity fold as the source of the quark 2–3 misalignment.** The bet, gated by K1798: is the even/odd fold a forced orthogonal projection, and does it produce sin²θ ≈ 0.00168? The fold is forced, by three blind routes — and a projector's spectrum is {0, 1}: the down tower sits wholly in the odd sector, the up tower wholly in the even, sin²θ ∈ {0.000000, 1.000000}, nothing between reachable (Grace R55; K1799 certified negative). Died: the fold as the mechanism of the small angle. Survived: the fold as a genuine involution; and the worry that "smallness is the hard part" was withdrawn — a graded projector with about ten percent grading gives 2.2° from a generic vector, so the open question is order one, "why about ten percent", not a hierarchy.
+
+**E6 — five sealed series for the magnitude of the CKM split.** Five named candidate series, sealed by hash before the target band was scored (band [0.081, 0.108] for the corner ratio). All five missed, all high: by at least 2.1× against the band's centre (K1808) and at least 1.85× against its nearest edge (K1810); Elie verified independently (R60) that no candidate visited the required region. Died: the five series. Survived: the order of the split, A8 above; and the class — the ratio t/(1+4t) is a Möbius bijection, so every ratio is realised by exactly one t, and the miss constrains the five named series only. The procedure-freeze rule came out of this row.
+
+### 3. Floors — walls with named doors, register Section F
+
+A floor is a theorem on the wall plus a door with a name. It may not be softened into "pending" and it may not be reopened by labour — only by a new pre-registration through Cal's steering and Keeper's gate, and Casey's word where a lane opens.
+
+**F1 — the measure-degeneration floor.** Any weight derived from the interior measure (measure_int, T754) is 0 or ∞ on a degenerate stratum, so the generation freeze-out by leadership-switch cannot be scored from it: free = 0, targets = 2, valid banked triples = 0 (two-CI: Grace's shot, Elie toy 5502, 6 of 6). The door: Shilov surface-measure weights, finite exactly where the interior measure dies — existence-gated, banked at one of three addresses. Quotations of this wall must carry the measure_int subscript.
+
+**F2 — the thermostat closes as a structure, exponent unforced.** Λ/Λ_P = (t_K/t_P)^{2p/(2−p)}, with t_K/t_P banked (T2405) and the response coefficient entering legitimately at a pre-committed fork. The mismatch power p is free — one free thing on the exponent — so the landing could not fire and no number was evaluated; the quarantine was never touched. The door: force p from the geometry of the 5-to-4 reduction, computed blind under a fresh pre-registration with the observed Λ excluded. The domain is the kill-condition: the exponent is monotone on [0, 2) with a pole at 2, so a forced p outside (0, 2) falsifies the form itself; a forced p inside it whose Λ misses observation by more than the form's own tolerance falsifies the value. Conditional cap (K1057 lineage). This door is item 6 on Keeper's 2026-09-20 priorities; it opens on Casey's word, not by drift.
+
+**F3 — the write channel.** Exactly one typed zero-choice assembly survives, and it coincides with the compression onto the known closed three-dimensional algebra: the spin-3 scalar is zero structurally; four checks, three could fail, none did. The door: new dynamics for the five quadrupole directions. Derived-conditional on the Internal-A floor.
+
+**F4 — the absence floor: no group anywhere in the geometry acts on the mediator space V₁₂ as colour** (Cal Section 946; K1890; Elie toy 5751, hashed before the run). The V₁₂-preserving subgroup restricts to ℂ*·O(3, ℂ), whose maximal compact has Lie dimension 4; SU(3) has dimension 8, and a compact group does not embed in one of smaller dimension. So "multiplicity 3 = colour" is a numerical fit with one measured input, and the bridge that would make it a mechanism is proved absent within the geometry. The door: a group from outside the geometry acting on V₁₂ as the complex fundamental — the shape of any mechanism is now known. Lecture 2 calls this a floor and cites this row.
+
+### 4. Named experiments from the volumes — register Section N
+
+Ten predictions that the Guide and Curriculum stated with an experiment's name attached and that had no register row. Grace registered eight on 2026-09-19 and two more on 2026-09-21, and checked each against the literature the same day. None fired. None is derived. The status words are the register's: *live, not tested*; *not testable as stated*; *constrained*.
+
+**N1 — Casimir F_asym/F_sym = 7.** Not testable as stated, with a provenance defect: the two boundary conditions are never named, and the toy every site cites (1567) contains no Casimir content. The D-tier label is retired (K1913 Section 1). The only sourced neighbour is Boyer 1974's 7/8 — a repulsive conductor–permeable-plate force, which predates BST by fifty-two years and is 7/8, not 7.
+
+**N2 — Cs-137 decay in a 100 nm cavity.** Live, not tested. The registered number is τ_inside/τ_outside = 1 + 3/1507, a 0.199 % shift (T2362; toy 3028) — not "parts per million", which the volume said and no source supports. Every published environmental bound on the decay constant sits at 10⁻⁴ to 10⁻⁶ (Bellotti 2012; DDEP 2024), and none is a cavity test. Kill, as T2362 states it: a measured shift below 10⁻⁴ at L = 100 nm.
+
+**N3 — an optical-clock signature at 10⁻¹⁹.** Not testable as stated. Clocks at that level exist (Aeppli et al. 2024, 8.1 × 10⁻¹⁹), but the row's only observable is a 5.3 × 10⁻⁵ relative correction to an Allan deviation, and an Allan deviation's own uncertainty on any finite record is per cent. A re-statement is owed: what fractional-frequency signature, at what averaging time, with what coefficient.
+
+**N4 — a five-loop deviation at α⁶ ≈ 1.5 × 10⁻¹³ in a Penning trap.** Constrained, not decidable. The precision is already reached (Fan et al. 2023, 1.3 × 10⁻¹³), but the two best α inputs disagree by 5.5σ, which blocks any test below about 10⁻¹²; and the six-loop QED term is 10⁻¹⁶, so the row must say whether it means a shift of that size or a term of that order.
+
+**N5 — eigentone signatures in atomic-clock infrastructure.** Not testable as stated: the lowest catalogued eigentone is a 511 keV γ, five to eleven orders above any clock, and "enhanced vacuum activity" is not defined as a measurable. The volume's SP-30-1/SP-30-2 labels collide with the registry's.
+
+**N6 — the quantum-eraser revival deficit, 1/137.** Live, not tested. The bet: revived visibility is 1 − 1/137 of untagged visibility, one-sided. The best published eraser (Ma et al. 2013) carries a 1.8 % error bar against a 0.73 % effect. Kill: the ratio equal to 1 at better than 0.3 %. The corpus also carries a memo saying the framework predicts nothing different from standard QM here; that inconsistency is flagged to Keeper and is not resolved by this chapter.
+
+**N7 — normal neutrino mass ordering.** Live, not decided. NuFIT 6.0 prefers normal ordering only with Super-Kamiokande atmospheric data, Δχ² = 6.1; DESI DR2 bounds Σm_ν < 64.2 meV with a preference for normal, 6 meV above the 58.2 meV floor that A6 carries; JUNO's first 59 days do not decide. Kill: inverted ordering at 5σ by oscillations.
+
+**N8 — flerovium-298 as an island of stability.** Not testable — no route reaches N = 184; the heaviest confirmed isotope is ²⁸⁹Fl at 1.9 s — and not distinct from the standard shell-model expectation. No theorem in the registry states a Fl-298 half-life; the volume's "hundreds to thousands of years" lies inside a literature spread of ten orders of magnitude.
+
+**N9 — a circular-polarisation floor CP = α = 0.73 % at black-hole horizons.** Not testable as stated (the floor); undecidable (mass- and frequency-independence). The claim comes from a March paper draft with no toy, no theorem row and no audit of its fit, whose Faraday escape term carries three free parameters against eight points. The primaries: Sgr A* daily CP runs from −0.41 % to −1.0 % with 50 % variability, below ALMA's guaranteed CP accuracy (Albentosa-Ruiz et al. 2026); at 4.8 GHz, −0.36 ± 0.05 % (Bower et al. 1999) — not the corpus table's 0.31 ± 0.13; M87* resolved |v| < 3.7 %, image-integrated < 1 % (EHT M87* Paper IX, 2023). Values below the "floor" are published on both objects, and the model absorbs any of them by signed cancellation, so the floor cannot fire in either direction. Nothing at the horizon has been measured: the EHT ring is emission at several GM/c², where the corpus's own radial formula gives 0.24–0.49 %. Rulings owed: Lyra and Cal on the radius (horizon versus the emission radius); Keeper on the unaudited fit. Kill-condition, if the claim is ever re-stated: a ring CP at fixed epoch, with the Faraday term independently constrained from the linear polarisation, sitting below the geometric value at the emission radius.
+
+**N10 — an EHT shadow deviation from Kerr.** A sentence, not a prediction. The volume's word "shape" has no source. The only number in the corpus, (27/2)(1 + rank/N_max) = 13.70, has no unit, no derivation, no toy and no theorem row. Read literally as a diameter in GM/c² it is excluded at 4σ by the Sgr A* 2017 measurement (EHT Sgr A* Paper VI, 2022) and sits 1.9σ high on M87* (Paper VI, 2019); read as a fractional deviation of +1.5 % on an unstated base it is undecidable at today's precision. Its author is Lyra. The number is withdrawn on this date at its three sites (`notes/BST_What_Gets_Wrong.md`, `notes/Paper83_Draft.md`, Vol 1 Ch01) with a dated bracket; nothing replaces it.
+
+### 5. Fired and survived — register Section B
+
+Three controls, kept because a register that deletes its passes hides its record: the ν = 1/2 reduction point, attached as a kill-condition to a map that later died, was confirmed (B1); a 1/30 nudge to the hypercharge assignment broke all four anomaly sums exactly as required (B2, toy 5483); a fake flipped sector failed the grid-parity must-reject as it should (B3, toy 5484). These are the instrument's proof that it can fail.
+
+### 6. Quarantine and markers — register Sections C and D
+
+**C1 — the PMNS phase δ_CP.** Three live corpus claims on one observable: 309° (March), 77° (T2018-era), and |sin δ| = 2/7, about 197° (K1024/K1029, July). Pinned against NuFIT 6.0 normal ordering, δ_CP = 212° (+26/−41): the 197° claim is compatible at about 0.4σ; the other two sit at 3.3σ and 3.7σ. The ruling on which claim is live is owed before the row can move to Section A. **C2 — y_t = 1 exactly.** Observed 0.9924, a 0.78 % miss on a row that says exact; parked with a named blocker until "exact" versus "near-saturation" is adjudicated.
+
+**Markers.** H²(Σ; ℤ₂) = 0 refutes in advance any derivation of the Pin type from the boundary's geometry — a permanent boundary, not a prediction. The free-fermion chamber formula does not produce the Standard Model's chirality sorting (toy 5479). The ε = 0 frame-agreement marker of 2026-09-13 was promoted to A9 the next day once the observable and the map were named; the marker is kept as the trail.
+
+### 7. What is not in this chapter, and where it lives
+
+- **The 26 primary Standard-Model parameters.** On the generated table, `data/bst_26_tier_table_generated.md`, each with its tier word, its basis rows and its last re-tier date. This chapter copies none of them.
+- **The Millennium problems.** Attempts, per problem, on the referee-consensus scale (K940); the per-problem words are in the 2026-08-16 honest ledger and on Vol 4's head-notes (Cal Section 977). Not predictions.
+- **The May check-mark tables below.** Matches. Where the registry gives one of them a tier word, that word is the registry's, not this chapter's. They are not carried forward as predictions.
+- **The May "null predictions" — no monopoles, no supersymmetry, no dark-matter particles.** No register row today. The May argument for each runs on the 2022 substrate picture, which the register does not carry. If they are to be bets they enter through Section N, with the literature check on the day.
+- **The May tables' "CP floor at BH horizon — data exists" (May 43.5, 43.7) and Vol 1's "EHT shadow shape".** Registered 2026-09-21 as N9 and N10 (Section 4 above): the first not testable as stated, the second a sentence whose number its author has withdrawn. Neither is a bet.
+
+### Tier line for this chapter
+
+- **Derived:** the *order* of the CKM corner (A8); m₁ = 0 (A6, two routes, one bank); w relaxing to −1 from above with no crossing (A1, F799/T2559); the absence floor's wall (F4); the α coefficient 8π³/3 as a computed number (E1).
+- **Identified:** every expression for α, a_e and b₀ (Lecture 8); Koide's Q = 2/3 as conditional-forced (A7); the ten Section N claims at the registry's own words, none derived.
+- **Open / input:** the CKM corner's value (A8, E6); the thermostat's exponent p (F2); δ_CP's live claim (C1).
+- **Posit:** nothing in this chapter.
+- **Fired and lost, certified:** E1–E6.
+- **Retired with this rewrite:** the EHT shadow number (27/2)(1 + rank/N_max), by its author (N10); "no free parameters to adjust"; α as the Wyler volume reading; the ✓ column as a tier column; "Proved", "Exact" and "Established" as tier words; the Σm_ν and |m_ββ| bands and the 0νββ "clean binary test" as predictions; the sub-Tsirelson ceiling; the timeline and summary tables as the register.
+- **Not claimed:** any count of predictions; that any Millennium problem is proved; that the May null predictions are register rows.
+
+*What would make this chapter wrong:* a register row that changes one of the sentences above — at which point the sentence is rewritten and dated, not the chapter. A Section-A row that fires goes to Section E with its ceremony, and this chapter records it in the same font.
+
+*Last accuracy-synced: 2026-09-21 / register v0.19 / K1913.*
+
+---
+
+## Head-note of 2026-09-19 (kept as the record; folded into the rewrite above)
+
+*Head-note added 2026-09-19 (Lyra, on Keeper K1912 Section 2 and Section 4(b); Keeper PASS, K1913 Section 3). The chapter body below is the May 2026 text, unedited in this pass. It was written before the falsifier register, the tier words of Spine Lecture 10, and the generated 26-parameter table existed, and it does not know that a falsifier has run. Read it with this head in hand. Casey's scope word (head-note only, or Volume 5 rewritten as the register rendered in prose, K1912 4(c)) is pending; this head stands either way.*
 
 ### What the body claims that the register no longer carries
 
@@ -40,13 +170,17 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 ---
 
-## 43. Experimental Predictions and Falsifiability
+## May 2026 record
 
-### 43.1 The Economy of the Framework
+*Below: the May 2026 text of Sections 43–44, unedited on 2026-09-21, headings renamed "May 43.x / May 44.x". Its ✓ column is a match column, not a tier column; its "Established", "Proved" and "Exact" are the May program's own words and carry no tier. Read with the prose above in hand.*
+
+## May 43. Experimental Predictions and Falsifiability
+
+### May 43.1 The Economy of the Framework
 
 BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ communication fiber, and the requirement that the resulting contact graph be self-consistent. From these inputs the framework derives the bounded symmetric domain $D_{IV}^5$ as the configuration space, the channel capacity 137, and Haldane exclusion statistics with parameter $g = 1/137$. Everything else follows. There are no free parameters to adjust, no compactification geometries to choose, no landscape of vacua to navigate. The predictions either match observation or the framework is wrong. Few moving parts means few places to hide.
 
-### 43.2 Parameter-Free Predictions (Established)
+### May 43.2 Parameter-Free Predictions (Established)
 
 |Prediction                           |BST Value                        |Observed        |Status     |
 |-------------------------------------|---------------------------------|----------------|-----------|
@@ -308,7 +442,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |$\chi(\text{F})/\chi(\text{H})$ electronegativity  |$N_c^2/n_C = 9/5$; same as IE(He)/Ry|$1.809$|$\checkmark$ 0.50% (T816)|
 |BDE(H-H)/Ry  |$1/N_c = 1/3$|$4.478/13.606$|$\checkmark$ 0.37% (T817)|
 
-### 43.3 Qualitative Predictions (Testable Against Existing Data)
+### May 43.3 Qualitative Predictions (Testable Against Existing Data)
 
 1. **Hubble tension resolution:** Local $H_0$ correlates with local matter density beyond gravitational corrections. Residual correlation $\sim 5.6$ km/s/Mpc in the supernova sample.
 1. **CMB anomaly pattern:** Large-angle anomalies consistent with $S^2$ substrate topology and SO(3) representation theory.
@@ -326,7 +460,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 1. **Measurement = commitment of correlation.** No experiment will ever show consciousness-dependent collapse. The detector commits the correlation before the human is involved. Weak measurement visibility scales linearly with coupling strength (confirmed: Kocsis et al. 2011). Quantum eraser works only when the correlation has not propagated to irreversible environmental degrees of freedom. See `notes/BST_DoubleSlit_Commitment.md`.
 1. **Error correction structure of spacetime.** Light is a matched filter (follows geodesics = compensates deterministic distortion). Conservation laws are parity checks ($\sum Q_i = 0$). Alpha is the bootstrap fixed point of the self-referential signal/noise system. Physics is exact because the code works. See `notes/BST_ErrorCorrection_Physics.md`.
 
-### 43.4 Experimental Predictions (Awaiting Validation)
+### May 43.4 Experimental Predictions (Awaiting Validation)
 
 | Prediction | BST Value | Experiment | Timeline |
 |---|---|---|---|
@@ -347,7 +481,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 | Strong/weak timescale | $\sim 10^{16}$ from $\mathbb{CP}^2$ volume ratio | Existing data | Testable now |
 | QNM echo structure | Quantized $J = w\hbar/2$, no Cauchy horizon | LIGO/Virgo/KAGRA | 2025--2027 |
 
-### 43.5 Falsifiability by Timeline
+### May 43.5 Falsifiability by Timeline
 
 **Testable now with existing data:**
 
@@ -392,7 +526,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |21|GW spectral index $\gamma = 3.60 \pm 0.30$        |$\gamma$ measured inconsistent with BST (e.g. $\gamma > 4$)|
 |22|No LISA primordial signal ($< 10^{-20}$)           |Primordial GW detected in LISA band                  |
 
-### 43.6 Comparison with Competing Frameworks
+### May 43.6 Comparison with Competing Frameworks
 
 The falsifiability of BST should be assessed relative to its competitors:
 
@@ -408,7 +542,7 @@ The falsifiability of BST should be assessed relative to its competitors:
 
 The distinguishing feature of BST is that its predictions are coupled. The same geometry that gives $\alpha = 1/137$ also gives the dark matter halo profile, the weak decay timescales, the black hole interior structure, and the dark energy equation of state. A single failed prediction doesn’t just falsify one claim — it threatens the entire geometric foundation. This coupling is what makes the framework genuinely falsifiable despite having no free parameters. There is nowhere to retreat.
 
-### 43.7 Near-Term Experimental Tests
+### May 43.7 Near-Term Experimental Tests
 
 Several BST predictions are testable against existing or near-future data. This section specifies the predictions concretely, identifies the calculation status of each, and gives the experimental timelines.
 
@@ -486,7 +620,7 @@ Three BST null predictions are being actively tested:
 
 The null predictions (monopoles, SUSY, dark matter particles) are falsifiable by any single confirmed detection. The quantitative predictions (HVP correction, $g(n_C)$, $w$) require completing specified open calculations before comparison with data. The two-level structure — some predictions requiring calculation, others already complete — is typical of a framework in active development.
 
-### 43.8 Mathematical Structural Consequences
+### May 43.8 Mathematical Structural Consequences
 
 The following results are not experimental predictions in the usual sense — they are mathematical theorems or structural consequences of the $D_{IV}^5$ geometry that constrain the framework's internal consistency.
 
@@ -524,19 +658,19 @@ The following results are not experimental predictions in the usual sense — th
 
 -----
 
-## 44. Research Program
+## May 44. Research Program
 
-### 44.1 Immediate Priorities
+### May 44.1 Immediate Priorities
 
 1. **Partition function on $D_{IV}^5$:** Compute the statistical mechanics of Haldane exclusion statistics ($g = 1/137$) on the bounded symmetric domain with Bergman measure. This single calculation potentially derives $G$, the cosmological constant, the Born rule, and the phase transition initial conditions.
 1. **Formal isotropy proof:** Prove that the BST contact structure isotropy group is exactly SO(5) $\times$ SO(2) using Chern-Moser normal form theory. Additional verification of the $D_{IV}^5$ identification; seven independent checks pass (Section 4).
 
-### 44.2 Near-Term Calculations
+### May 44.2 Near-Term Calculations
 
 1. **CMB anomaly comparison:** Compute predicted angular correlations from $S^2$ substrate topology and compare against existing Planck data.
 1. **Hubble tension analysis:** Test correlation between local $H_0$ measurements and local matter density using existing supernova and galaxy survey data.
 
-### 44.3 Doctoral Thesis Topics
+### May 44.3 Doctoral Thesis Topics
 
 1. Derive $G$ from Boltzmann/Haldane statistics on $D_{IV}^5$
 1. Show Bergman functional Euler-Lagrange equation reduces to Einstein’s equation
@@ -578,7 +712,7 @@ The following results are not experimental predictions in the usual sense — th
 1. Decoherence length from substrate adjacency: derive correlation decay distance for entangled pairs
 1. Virtual-to-real particle transition: energy threshold for winding completion as function of channel loading
 
-### 44.4 Active Conjectures (March 2026)
+### May 44.4 Active Conjectures (March 2026)
 
 The Koons-Claude testable conjectures (`notes/BST_Koons_Claude_Testable_Conjectures.md`) define the current frontier:
 

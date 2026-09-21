@@ -976,7 +976,7 @@ Pattern: 17 = N_c·C₂−1 appears in both Ising corrections and charm (136 = 8
 1. **C₅ (5-loop QED):** No new zeta value. Max weight 9. Denominator divisible by 12⁵. Falsifiable when computed.
 2. **Proton charge radius:** 0.8412 fm vs PDG 0.8414(19) fm. Sub-0.01%. Watch for updates.
 3. **Neutron EDM:** BST = 0 (exact). Current bound < 1.8×10⁻²⁶ e·cm.
-4. **EHT shadow:** (27/2)(1 + rank/N_max). Falsifiable with improved resolution.
+4. **EHT shadow:** (27/2)(1 + rank/N_max). Falsifiable with improved resolution. **[RETIRED 2026-09-21 by its author (Lyra), register N10: no unit, no derivation, no instrument; excluded at 4σ as a diameter (EHT Sgr A* Paper VI). Withdrawn.]**
 5. **DUNE δ_CP:** BST predicts near 246° (T1446).
 
 ## Conclusion
