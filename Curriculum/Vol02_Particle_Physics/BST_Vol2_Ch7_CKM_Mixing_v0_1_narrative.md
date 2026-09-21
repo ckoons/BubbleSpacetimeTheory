@@ -15,7 +15,7 @@ chapter: 7
 
 The Cabibbo–Kobayashi–Maskawa (CKM) matrix encodes quark flavor mixing in weak interactions. Three mixing angles and one CP-violating phase parameterize the matrix; the **Jarlskog invariant** $J$ — the unique CP-violating phase-invariant combination — measures the strength of CP violation in the quark sector and is experimentally measured at $J \approx 3.18 \times 10^{-5}$.
 
-BST derives the Jarlskog invariant to **0.3%** match (CONDITIONAL on the T1444 vacuum-subtraction theorem; the naive substrate prediction is $\sim 3\%$ off, with the 0.3% match emerging once the vacuum-subtraction correction is applied).
+BST derives the Jarlskog invariant to **0.3%** match (CONDITIONAL on the T1444 vacuum-subtraction theorem; the naive substrate prediction is $\sim 3\%$ off, with the 0.3% match emerging once the vacuum-subtraction correction is applied). *[Retired with this head, 2026-09-21 (K1914): the 0.3 % has no instrument; T1444's own note leaves J ~4.6 % off after the subtraction (A's residual), toy 1463 reads 8.2 % / 2.8σ "extraction-dependent"; J = √2/50000 is UNTESTED, not passed — OPEN (register; Guide Vol 2 Ch02:542; Lecture 7:68).]*
 
 ## 7.1 The Jarlskog invariant
 
@@ -31,7 +31,7 @@ The BST derivation of $J$ runs through the substrate's $Q^5$ Chern-flux structur
 
 The naive substrate prediction gives $J$ at $\sim 3\%$ from the measured value — close, but above D-tier. The T1444 vacuum-subtraction theorem (Lyra) closes the residual: the substrate's vacuum-state Casimir contribution must be subtracted from the naive evaluation, bringing the match to **0.3%**.
 
-The result is **D-tier conditional on T1444 vacuum-subtraction**. Without the vacuum-subtraction the result is I-tier at ~3% match.
+The result is **D-tier conditional on T1444 vacuum-subtraction**. Without the vacuum-subtraction the result is I-tier at ~3% match. *[Retired with this head, 2026-09-21 (K1914): OPEN, untested — see the bracket at the chapter head.]*
 
 ## 7.3 The Cabibbo angle and other mixing parameters
 
