@@ -1,8 +1,8 @@
 ---
 title: "BST Approaches Register — did we do this before?"
 author: Keeper (instrument-derived)
-date: 2026-09-21 09:12 EDT
-status: "DERIVED by play/keeper_approaches_register.py; 3305 rows; 913 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
+date: 2026-09-21 09:45 EDT
+status: "DERIVED by play/keeper_approaches_register.py; 3306 rows; 914 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
 ---
 
 # BST Approaches Register
@@ -28,6 +28,7 @@ One row per audit / ruling / note. **Model-drafted fields (lane, approach, outco
 | (no rubric cell) |  | K1914 | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1914_Jarlskog_vacuum_subtraction_rescue_AUDIT_no_instrument_behind_the_0p3pct_T1444s_own_note_leaves_4p6pct_toy_1463_reads_8p2pct_J_is_OPEN_2026-09-21.md` |
 | (no rubric cell) |  | K1915 | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1915_READINGS_not_rulings_6pi5_passed_the_null_but_has_no_computation_T187_volume_ratio_is_pi2_over_80_two_a1s_Lenz_1951_CODATA_residual_1p9e-5_CP_floor_at_the_emission_radius_2026-09-21.md` |
 | (no rubric cell) |  | K1916 | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1916_N9_March_fit_RETIRED_as_evidence_overfit_and_provenance_defect_plus_Vol5_stranger_read_reader_notes_for_Lyra_2026-09-21.md` |
+| (no rubric cell) |  | K1917 | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1917_A9_REPRODUCTION_PATH_one_command_download_to_letter_REPRODUCED_on_a_fresh_venv_records_agree_to_6e-8_three_guard_catches_all_mine_2026-09-21.md` |
 | (no rubric cell) |  | Lyra_ITEM6_Lambda_mismatch_power_p_as_th | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_ITEM6_Lambda_mismatch_power_p_as_the_Peirce_weight_of_P_lambda_e1_plus_e2_on_V12_p_equals_1_exponent_2_domain_0_2_contains_exactly_one_weight_kill_and_tolerance_first_input_list_for_Cal_2026-09-21.md` |
 | (no rubric cell) |  | Lyra_ITEM7_where_does_6pi5_live_three_me | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_ITEM7_where_does_6pi5_live_three_mechanism_sentences_enumerated_T187_sketch_retired_a1_is_a_name_June_reading_is_a_relabeling_residual_order_by_naturalness_only_2026-09-21.md` |
 | Ext-1 Postulates | 3-adic integral | K1870 | 2026-09-06 | DONE | CLOSED_POSITIVE | Direct computation of the 3-adic integral to derive Lyra's spacing 2π/ln 3 exactly | The direct computation passed all controls with split kernels reproducing Gindikin-Karpelevich as rational functions | Gindikin-Karpelevich, Lyra L10, Steinberg, calibration #28, functional-equation normalisation, T2622, Elie 5710 |  | Controls PASS: split ternary at p = 3 and x²+y²+3z² at p = 5 give the Gindikin–Karpelevich factor exactly as rational functions. | `notes/Keeper_K1870_E11_SCORED_direct_3adic_integral_gives_Lyras_spacing_2pi_over_ln3_shared_integer_closed_in_the_primes_favour_Cals_hold_died_lattice_seam_calibration_28_epsilon_lives_in_the_FE_normalisation_T2622_to_claim_2026-09-06.md` |
@@ -3319,5 +3320,5 @@ One row per audit / ruling / note. **Model-drafted fields (lane, approach, outco
 | WITHDRAWN | Wallach reps / generation address | F321 | 2026-06-25 | STOP | WITHDRAWN ⚠VERIFY_FAIL | Correcting F320's framing of 3 generations as 3 K-types within one rep to align with Grace's Wallach rep correspondence at ν={0,3/2,5} | F320's '3 K-types in one rep' framing was incorrect organization and is being withdrawn | Wallach points, Korányi-Wolf strata, boundary Dirac, Dirac field decomposes, within-rep matter K-type, ν={0,3/2,5} | F320 | F320's '3 K-types in one rep' framing is WITHDRAWN; my standing contribution is the within-rep matter K-type (the spinor/half-form Dirac mode in each Wallach rep) — exactly the 'within-rep K-type pin' | `notes/Lyra_F321_reconcile_addresses_grace_wallach_reps_correct_F320_oneRep_framing_plus_absorb_elie_kappa.md` |
 | WITHDRAWN | f₀(1710) mixing | K513 | 2026-06-24 | STOP | WITHDRAWN ⚠VERIFY_FAIL | Downgrading f₀(1710) from unique identification to consistent with not unique identification in Paper A §7 | The overclaim in Paper A §7 regarding f₀(1710) was explicitly withdrawn as an overclaim | f₀(1710), BST 0⁺⁺ glueball, mixing puzzle, Cal #335, Cal #372 |  | spectrum closed / landed interacting" EXPLICITLY WITHDRAWN as overclaim | `notes/Keeper_K513_Cal_372_SHIP_GATE_OPEN_Papers_A_v0_3_B_v0_6_SIGNED_OFF_actual_text_verified_two_bonus_absorptions_f0_1710_mixing_caveat_C2_footnote_in_2_Casey_ship_decision_standing_2026-06-24.md` |
 
-Counts by outcome: =17, AMENDMENT=38, CLOSED_NEGATIVE=298, CLOSED_POSITIVE=1426, CONDITIONAL=380, OPEN=946, PARKED=7, RETRACTED=147, WITHDRAWN=34
-Unstable rows: 956 / 3305
+Counts by outcome: =18, AMENDMENT=38, CLOSED_NEGATIVE=298, CLOSED_POSITIVE=1426, CONDITIONAL=380, OPEN=946, PARKED=7, RETRACTED=147, WITHDRAWN=34
+Unstable rows: 956 / 3306
