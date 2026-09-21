@@ -44,3 +44,4 @@ __pycache__/
 # Part B catalogue files (Zenodo 10.5281/zenodo.10403370): downloaded, not committed; md5s in notes/partB_QUAIA_FITS_HEADER_*
 data/quaia/*.fits
 data/quaia/*.zip
+.venv_a9/

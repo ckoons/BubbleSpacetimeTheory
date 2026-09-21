@@ -257,6 +257,12 @@ python3 play/verify_bst.py
 ```
 50 comparisons against measurement; the script prints its own PASS/WARN tally (Cal ran it 2026-09-11 and got one WARN where this line said two — read the script's output, not this sentence). Includes the null-model context (Toy 1543: BST 3σ above random small-integer tuples, p < 0.0005). Single-command full reproduction.
 
+**Then reproduce the program's one sky test (10 minutes plus a 1 GB download, all readers)**:
+```
+play/reproduce_A9_run1.sh
+```
+Builds its own Python environment, fetches the Quaia catalogue from Zenodo (record 10403370) and checks every file's MD5, verifies the frozen pre-registration and library by hash, runs the A9 frame-agreement test end to end, and compares its records to the certified run (Landing C, not decidable, on both samples — K1910/K1911). No BST input enters the pipeline; it is a pre-registered kinematic-dipole test. Added 2026-09-21 (K1917).
+
 **If you're a CI**: Then load `data/bst_seed.md` (162 lines — the entire theory kernel). Then load whichever `data/*.json` files you need. Run `python3 play/toy_bst_explorer.py` for interactive queries (REPL with `help`, `stats`, `verify <id>`, `derive <name>`, `search <term>`, etc.).
 
 **If you're a human**: Then read `OneGeometry.md` (the narrative front door) or open `play/bst_explorer.html` in a browser.

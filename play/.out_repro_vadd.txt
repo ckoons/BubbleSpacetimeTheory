@@ -1,0 +1,15 @@
+partB_v_addendum.py 21a846f6fefd; lib b87a8b085780; v151 5fcf85b60fa3; 2026-09-21 09:37
+
+=== G20.5 (v) ADDENDUM: N_w in footprint 1,301,828 ===
+   bin weighted MEANS of z: [0.5556, 1.0587, 1.5427, 2.0717, 2.7997] (medians on the record: [0.5722, 1.063, 1.5367, 2.0558, 2.709]); z̄ = 1.5582
+   ζ (means) = -0.1588   [ζ on medians = -0.1535; Keeper K1908 −0.1535 / −0.1799 on the 09:19 record]; ζ_q (G quartiles, edges [14.313, 19.364, 19.88, 20.224]) = [-0.1849, -0.1592, -0.1504, -0.1356]
+   D_corr (unit-vector sum on 8,846,469 randoms in the footprint) = [0.01779, 0.0014, 0.04571], |D_corr| = 0.04906 toward (l,b) = (4.5, 68.7)
+   R_foot = 3<n nᵀ>_footprint: eigen [0.5852, 0.6307, 1.7841] along (l,b) = [(345, 2), (75, 1), (185, 88)]
+
+=== G20.0 (v) ADDENDUM: N_w in footprint 772,754 ===
+   bin weighted MEANS of z: [0.8426, 1.5413, 2.3602] (medians on the record: [0.8873, 1.5345, 2.2775]); z̄ = 1.5328
+   ζ (means) = -0.1961   [ζ on medians = -0.1799; Keeper K1908 −0.1535 / −0.1799 on the 09:19 record]; ζ_q (G quartiles, edges [14.313, 19.006, 19.466, 19.768]) = [-0.1999, -0.1941, -0.1926, -0.1904]
+   D_corr (unit-vector sum on 5,046,065 randoms in the footprint) = [0.01893, -0.00495, 0.06117], |D_corr| = 0.06423 toward (l,b) = (345.3, 72.3)
+   R_foot = 3<n nᵀ>_footprint: eigen [0.5713, 0.6308, 1.7979] along (l,b) = [(342, 2), (72, 1), (178, 88)]
+
+peak RSS 1123 MB
