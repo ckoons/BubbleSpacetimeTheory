@@ -24,7 +24,7 @@ If you only read one chapter of this curriculum to decide whether to take BST se
 
 $$\frac{m_p}{m_e} \;=\; 6 \pi^5 \;\approx\; 1836.118.$$
 
-The measured value, from the 2018 CODATA evaluation, is $1836.15267343 \pm 0.00000011$. The BST prediction agrees with measurement to $0.002\%$. The match precision is below the threshold for the framework's D-tier classification (derivation with mechanism, $\leq 1\%$ match), and substantially below: the small remaining $0.03\%$ gap between BST's leading-order prediction and the experimental value is explained by substrate higher-order corrections of the kind we will see in Chapter 8.
+The identity $6\pi^5 \approx m_p/m_e$ was first published by F. Lenz, *The Ratio of Proton and Electron Masses*, Phys. Rev. **82**, 554 (1951), DOI 10.1103/PhysRev.82.554.2 — a twenty-seven-word letter; BST did not discover the number, and this chapter credits him *(credit added 2026-09-21, Lyra, on K1915 Section 3)*. The measured value, from the 2018 CODATA evaluation, is $1836.15267343 \pm 0.00000011$. The BST prediction agrees with measurement to $0.002\%$. The match precision is below the threshold for the framework's D-tier classification (derivation with mechanism, $\leq 1\%$ match), and substantially below: the small remaining $0.03\%$ gap between BST's leading-order prediction and the experimental value is explained by substrate higher-order corrections of the kind we will see in Chapter 8.
 
 Two BST primary integers and one transcendental enter the formula:
 
@@ -34,7 +34,7 @@ Two BST primary integers and one transcendental enter the formula:
 
 The combination $C_2 \cdot \pi^{n_C} = 6 \cdot \pi^5$ is what comes out when you compute the Bergman heat-kernel coefficient $a_1$ on $D_{IV}^5$ using the Faraut–Koranyi machinery of 1994. There is no fitting. The formula's substrate-mechanism content is the explicit derivation in Lyra's T187, registered as one of the framework's most-cited theorems.
 
-The probability of an arbitrarily chosen simple formula matching a measured ratio to $0.002\%$ is below one in ten thousand. The fact that the formula's only ingredients are BST primary integers and the Bergman-natural transcendental $\pi$ — no fitting, no adjustable scale, no dimensional-analysis fudge — pushes the coincidence probability lower still. This is not a coincidence. It is what BST is.
+The probability of an arbitrarily chosen simple formula matching a measured ratio to $0.002\%$ is below one in ten thousand *[REPLACED 2026-09-21 (Lyra): the measured chance number is about **one in nineteen** — toy 5768 (Elie, 2026-09-21; prereg f85dd781, frozen by Cal Section 978), the K1813 null protocol: a random real in the window gets a depth-4 hit from the same atom set 5.3 % of the time; $6\pi^5$ ranks 1 of 77 on the string count (30 rewrites of one expression), SPECIAL by the frozen rule. "Below one in ten thousand" was off by two orders and had no instrument behind it.]* The fact that the formula's only ingredients are BST primary integers and the Bergman-natural transcendental $\pi$ — no fitting, no adjustable scale, no dimensional-analysis fudge — pushes the coincidence probability lower still. This is not a coincidence. It is what BST is.
 
 ## What the formula means structurally
 
