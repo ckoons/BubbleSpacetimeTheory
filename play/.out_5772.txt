@@ -1,0 +1,31 @@
+====================================================================================================
+TOY 5772 — T2488 provenance: unit π⁵·m_e = 156.3757 MeV
+====================================================================================================
+  pins (PDG 2024 summary tables): p = 938.27208816 ± 2.9e-07; n = 939.5654205 ± 5e-07; omega = 782.66 ± 0.13; rho = 775.26 ± 0.23
+
+  state      r = m/(π⁵m_e)   k   |r−k|  p_rand
+  p                 6.0001   6  0.0001   0.000
+  omega             5.0050   5  0.0050   0.010
+  n                 6.0084   6  0.0084   0.017
+  rho               4.9577   5  0.0423   0.085
+  pi+               0.8925   1  0.1075   0.215
+  Delta             7.8785   8  0.1215   0.243
+  Lambda            7.1346   7  0.1346   0.269
+  K+                3.1570   3  0.1570   0.314
+  Kstar             5.7021   6  0.2979   0.596
+  Sigma+            7.6058   8  0.3942   0.788
+  Xi                8.4083   8  0.4083   0.817
+  phi               6.5193   7  0.4807   0.961
+  eta               3.5035   4  0.4965   0.993
+
+  states at p < 0.1: ['p', 'n', 'rho', 'omega'] (toy 4020's clean set)
+  look-elsewhere on the list the pattern was found in: 4 of 13 at p<0.1, chance 0.1·13 = 1.3, P(≥4) = 0.034
+  with the proton removed (it FIXES the unit — 6π⁵ is T187, months earlier): 3 of 12, chance 1.2, P(≥3) = 0.111
+  the '~200' cross-mass list of toy 4017 is not retained as a list in that file; 4020's 13 is the retained one.
+  [HIT] C1 the four pins exist and reproduce toy 4020's integers (p 6, n 6, ω 5, ρ 5) (control)  
+  [HIT] C2 provenance: T2488's meson integer postdates T187 (files: toys 4017/4020/4022/4023 all 2026-06-07) (control)  
+  [HIT] P1 with the proton removed the clean set is NOT significant at the 5 % level on its own list (P ≥ 0.05)  P = 0.111
+
+READING for Lyra/Keeper: the meson row is a post-hoc delimitation on a 13-state list with the unit fixed by the proton; three states at p < 0.1 out of twelve is P = 0.11 by chance. Not target-innocent in the 'written before read' sense; ω at 5.005 is the one tight meson number (p = 0.010); ρ at 4.958 is marginal.
+
+SCORE 3/3, of which 1/1 can-fail hit
