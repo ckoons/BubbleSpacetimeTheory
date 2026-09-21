@@ -1,511 +1,514 @@
 {
- "title": "BST 26 — the register-to-presentation key (v2). One row per SM parameter of the 2026-07-18 scoreboard denominator; tier word in the four-word vocabulary of BST_VOICE_AND_STYLE_GUIDE.md plus 'input' where the ledger says input.",
- "author": "Grace",
- "date": "2026-09-11",
- "keyed_to": "the register as of Cal Section 946 (2026-09-09) and Keeper K1892 (2026-09-11)",
- "vocabulary": {
-  "derived": "mechanism proved and the inputs named in the statement (a K962-ladder DERIVED that no later ruling demoted maps here; see 'flag' where the four-word standard has not been re-read on the row)",
-  "identified": "formula matches; mechanism not claimed; a candidate, never evidence",
-  "floored": "closed by a theorem; reopenable only by a named kind of idea",
-  "open": "we do not know and say so (includes runners: an RG endpoint BST makes no value claim about)",
-  "input": "a measured number taken openly (the dimensionful ruler; a data-picked branch)",
-  "four_word_standard": "per-row column added 2026-09-11 (Keeper 13:05): does the DERIVED word meet the voice guide's standard (mechanism proved AND inputs named in the statement), or only K962's ladder? Values: 'meets — <where the mechanism and inputs are stated>' (by the row's own statement; Cal/Keeper confirm), 'owed re-read' (K962-DERIVED, mechanism not stated in the four-word form), 'dependent' (rides another row), '—' (not a derived row)."
- },
- "rules_applied_in_date_order": [
-  "K962 (2026-07-28): the canonical tier ladder; the 07-17 tier map's k962_tier fields are the last per-row words before August",
-  "K1260/K1261 (2026-08-07): sub-claims 3/137 and 3/13 to Identified / retired",
-  "K1673: G–m_e relation is a theorem that trades one dimensionful input for another and carries alpha — a relation, not a prediction",
-  "K1795/K1809 (2026-08-22): the T2198 retirement standard — a form that admits indistinguishable BST siblings in the band is not derived; gamma admits ten, eta-bar four, rho-bar two, J_CKM untested",
-  "08-22 CKM closure (K1808/K1810, grace_CKM_PARTIALLY_DERIVED ledger): lambda = 1/sqrt(20) derived blind; skeleton and ORDER derived; V_cb value retired / position kept; split magnitude and delta_CP OPEN; five sealed series all missed",
-  "K1813/K1814 (2026-08-23): alpha in the bulk (expressibility withdrawn); muon form discriminating but NOT promoted (K968 four-part bar)",
-  "K1816 (2026-08-23): 'derives alpha' struck; alpha is Identified against its own registry row",
-  "K1826 (2026-08-24): the bare-vertex one-shot fired — 8 pi^3/3, not 137; lambda_H and V_us stand on their independent banks",
-  "Flagship v1.0 II.4/II.4a (2026-08-23): Koide FLOORED (H2); theta_12 = 3/10 Identified; CKM 1 of 4 derived",
-  "Cal Section 946 (2026-09-09): the colour identification is a FIT with one measured input; SU(3) imported; no zero-free-parameter claim",
-  "K1892 (2026-09-11): 7 is the signature, genus is 5; b_0 = 7 identified; a_e identified"
- ],
- "rows": [
-  {
-   "n": 1,
-   "id": "m_e",
-   "sector": "mass",
-   "form": "6π⁵·α¹²·m_Planck (the gravity anchor; m_p/m_e = 6π⁵ region-matched)",
-   "tier_word": "input",
-   "note": "the one dimensionful ruler; the G–m_e relation (K1673, 0.065%) is a theorem that trades one dimensionful input for another and carries α, so it is a relation, not a prediction",
-   "rows": [
-    "T201",
-    "T187",
-    "K1673"
-   ],
-   "last_retier": "2026-08 (K1673)",
-   "v030_slot": null,
-   "old_key_0717": "m_e: GRAVITY_SCALE / k962 DERIVED",
-   "flag": null,
-   "four_word_standard": "—"
+  "title": "BST 26 — the register-to-presentation key (v2). One row per SM parameter of the 2026-07-18 scoreboard denominator; tier word in the four-word vocabulary of BST_VOICE_AND_STYLE_GUIDE.md plus 'input' where the ledger says input.",
+  "author": "Grace",
+  "date": "2026-09-11",
+  "keyed_to": "the register as of Cal Section 946 (2026-09-09) and Keeper K1892 (2026-09-11)",
+  "vocabulary": {
+    "derived": "mechanism proved and the inputs named in the statement (a K962-ladder DERIVED that no later ruling demoted maps here; see 'flag' where the four-word standard has not been re-read on the row)",
+    "identified": "formula matches; mechanism not claimed; a candidate, never evidence",
+    "floored": "closed by a theorem; reopenable only by a named kind of idea",
+    "open": "we do not know and say so (includes runners: an RG endpoint BST makes no value claim about)",
+    "input": "a measured number taken openly (the dimensionful ruler; a data-picked branch)",
+    "four_word_standard": "per-row column added 2026-09-11 (Keeper 13:05): does the DERIVED word meet the voice guide's standard (mechanism proved AND inputs named in the statement), or only K962's ladder? Values: 'meets — <where the mechanism and inputs are stated>' (by the row's own statement; Cal/Keeper confirm), 'owed re-read' (K962-DERIVED, mechanism not stated in the four-word form), 'dependent' (rides another row), '—' (not a derived row)."
   },
-  {
-   "n": 2,
-   "id": "m_mu/m_e",
-   "sector": "mass",
-   "form": "(24/π²)⁶ = 206.7612 vs 206.7683 (0.0034%)",
-   "tier_word": "identified",
-   "note": "K1814: the form is discriminating (p ≈ 0.01 on two pools) and that removes ONE objection from K968's four-part bar; the address is not forced; NO PROMOTION",
-   "rows": [
-    "T190",
-    "K968",
-    "K1814"
-   ],
-   "last_retier": "2026-08-23 (K1814)",
-   "v030_slot": "3 (muon, principle-gated)",
-   "old_key_0717": "not in the 07-17 map (07-18 scoreboard: LATTICE+π)",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 3,
-   "id": "m_tau/m_e",
-   "sector": "mass",
-   "form": "49·71 = 3479 vs 3477.23 (0.05%)",
-   "tier_word": "identified",
-   "note": "demoted to candidate K631-S1 (07-01); never re-promoted; the Koide relation among the three charged leptons is FLOORED (flagship H2: every derivation route closed)",
-   "rows": [
-    "T2516 (Koide)",
-    "K631"
-   ],
-   "last_retier": "2026-08-23 (flagship H2 for Koide; the ratio itself unchanged since K631)",
-   "v030_slot": "— 9? (NOT counted)",
-   "old_key_0717": "07-18 scoreboard: LATTICE (structural)",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 4,
-   "id": "m_u/m_d",
-   "sector": "mass",
-   "form": "√(3/14) = 0.463 (tier map) — and 9/19 = 0.474 (T2032); observed ≈ 0.47",
-   "tier_word": "identified",
-   "note": "K1894 RULING (2026-09-11 14:18): IDENTIFIED with N = 2 reported — two live registered forms for one parameter (√(3/14) = 0.46291, K962; 9/19 = 0.47368, T2032), 2.33% apart; a derived row has one form (K1809: count over ranking). The K962 'derived' on √(3/14) stands as history. Observed ratio still to be pinned from the PDG 2024 quark-mass review.",
-   "rows": [
-    "T2032",
-    "K962 (tier map 07-28)",
-    "K1809 rule"
-   ],
-   "last_retier": "2026-09-11 (K1894); applied to the key 2026-09-13",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "N = 2 (two forms); one must be derived and the other retired before the word can move",
-   "four_word_standard": "—"
-  },
-  {
-   "n": 5,
-   "id": "m_s/m_d",
-   "sector": "mass",
-   "form": "rank²·n_C = 20 (ℂ³ SVD, FK Pochhammer mechanism)",
-   "tier_word": "identified",
-   "note": "Cal §969 (log #212, K1902 concurred), 2026-09-14: IDENTIFIED IN EXPLICIT SPLIT — the SHAPE is derived (consecutive-integer products (ν_W+1)(ν_W+2) on the odd single-row degrees {1,3,5} of the quark module, T1929; the Fischer→Bergman norm ratio (ν_W)_λ, toy 4858, Schur), the WEIGHT ν_W = N_c = 3 is IDENTIFIED — a second dimensionless identification beside colour = multiplicity, T2513 gate (b) open since 2026-08-23 (the Wallach threshold is a/2 = 3/2, not 3). The number 20 is untouched. §959's \"derived\" never opened T2513's amendment (calibration #41).",
-   "rows": [
-    "T2529",
-    "T2513 (one tier, one object)",
-    "K1902",
-    "Cal §969",
-    "toys 4858, 4618"
-   ],
-   "last_retier": "2026-09-14 (Cal §969 / K1902)",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "T2529 ↔ T2513 reconciled to one tier 13:02; provenance 4914 → 4858/4618; stale \"@Keeper to gate\" tags cleared",
-   "four_word_standard": "— (shape derived; weight ν_W = N_c identified, gate (b) open — explicit split, Cal §969)"
-  },
-  {
-   "n": 6,
-   "id": "m_c/m_u",
-   "sector": "mass",
-   "form": "y_c = α (T2531) ⟹ m_c = α·v/√2; m_c/m_u coarse (≈589, ±10%)",
-   "tier_word": "identified",
-   "note": "T2531 was registered DERIVED (K997) but rides α's VALUE, which is identified (K1816/K1826); a coarse target (Elie: precision-based cheapness flag)",
-   "rows": [
-    "T2531",
-    "K997"
-   ],
-   "last_retier": "2026-08-24 (inherits α's word from K1826)",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE+ANCHOR / k962 DERIVED",
-   "flag": "inherits α's tier; if α is ever derived this row follows",
-   "four_word_standard": "—"
-  },
-  {
-   "n": 7,
-   "id": "m_t/m_b",
-   "sector": "mass",
-   "form": "C₂·g = 42 (total Chern of Q⁵) vs 41.3 (pole/MSbar, 1.7%)",
-   "tier_word": "identified",
-   "note": "Cal §959: \"identified (Chern integral matched to a scheme-mixed ratio; the same 42 is the ladder's b/s rung at 6.6 % off)\". K1897: +7.6σ against 41.26 ± 0.10 (PDG 2024) — but the comparison is scheme-mixed (a Chern number against a pole/MS-bar ratio); \"identified, out of band at the primary in the scheme-mixed comparison; a scheme-consistent comparison is owed before retirement, and the row says both.\" Elie 5755 sibling count reported beside it.",
-   "rows": [
-    "T2013",
-    "T1990",
-    "K962"
-   ],
-   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "Elie 5755 (prereg 56b749a4): +7.6σ outside the PDG 1σ band (41.26 ± 0.10, scheme-mixed); N = 11 at the row's tolerance vs chance 7.3 — at chance (saturated vocabulary); scheme-consistent comparison owed before retirement (K1897)",
-   "four_word_standard": "— (form-identified, Cal §959; out of band at the primary in a scheme-mixed comparison, K1897; scheme-consistent comparison owed before retirement)"
-  },
-  {
-   "n": 8,
-   "id": "m_t",
-   "sector": "mass",
-   "form": "y_t = 1 ⟹ m_t = v/√2 = 174.1 GeV vs 172.7 pole (0.8%)",
-   "tier_word": "derived",
-   "note": "the CEILING y_t = 1 is derived (top saturates the Shilov boundary, K591/F387); the value rides the ruler v (row 22) — inputs named",
-   "rows": [
-    "K591",
-    "F387",
-    "T2547 (A)"
-   ],
-   "last_retier": "2026-07-28 (K962: CEILING DERIVED / VALUE IDENTIFIED)",
-   "v030_slot": "7 (m_t, FIRM)",
-   "old_key_0717": "GRAVITY_SCALE+CORRESPONDENCE / CEILING:DERIVED VALUE:IDENTIFIED",
-   "flag": null,
-   "four_word_standard": "meets — mechanism: y_t = 1 because the top saturates the Šilov boundary (K591/F387); input named: the ruler v"
-  },
-  {
-   "n": 9,
-   "id": "m_b",
-   "sector": "mass",
-   "form": "m_t/42",
-   "tier_word": "identified",
-   "note": "rides row 7 (m_t/42) — Cal §959: \"row 9 rides 7\"; takes row 7's word and row 7's out-of-band flag",
-   "rows": [
-    "T2013"
-   ],
-   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
-   "v030_slot": null,
-   "old_key_0717": "07-18 scoreboard: GRAVITY-SCALE (rides m_t)",
-   "flag": "dependent row; out of band with row 7 (Elie 5755)",
-   "four_word_standard": "— (rides row 7)"
-  },
-  {
-   "n": 10,
-   "id": "V_us",
-   "sector": "CKM",
-   "form": "λ = √(m_d/m_s) = 1/√20 = 0.22361 vs PDG 2024 0.22501 ± 0.00068 (−2.06σ)",
-   "tier_word": "derived",
-   "note": "blind, forward, frame-independent (T2530, K994); the 08-22 closure's one DERIVED CKM value; 2/√79 retired as a step-size artefact",
-   "rows": [
-    "T2530",
-    "K994",
-    "K1826 (independent bank)"
-   ],
-   "last_retier": "2026-08-22 (CKM closure)",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": null,
-   "four_word_standard": "meets — DERIVED GIVEN AN IDENTIFIED INPUT, on its face (Cal §969): mechanism derived (diagonalising the down-sector texture zero of the ℂ³ SVD gives λ = √(m_d/m_s), T2530), input named: m_s/m_d = 20, whose weight ν_W = N_c is identified (row 5) — the explicit-split form the 08-22 closure already uses"
-  },
-  {
-   "n": 11,
-   "id": "V_cb",
-   "sector": "CKM",
-   "form": "position: the 2–3 entry; value 0.044 RETIRED — 9.2σ vs exclusive (39.77 ± 0.46)×10⁻³ (the 08-23 pin: (44.0 − 39.77)/0.46 = 9.20), 3.6σ vs inclusive (42.16 ± 0.51)×10⁻³",
-   "tier_word": "identified",
-   "note": "VALUE RETIRED, POSITION KEPT (08-22): a down-sector-only reading (up 23-mode refracts past the boundary); a position has no measurement as its license Sigma referent fixed 2026-09-13 (R143 G4): the earlier \"8.9σ\" was the flagship's 08-22 figure against a pre-re-pin exclusive value (implies 39.91); one retirement, one σ — 9.2 on the 08-23 pin, as Lecture 7 and the rubric carry.",
-   "rows": [
-    "T2532",
-    "K711",
-    "08-22 closure"
-   ],
-   "last_retier": "2026-08-22",
-   "v030_slot": null,
-   "old_key_0717": "CANDIDATE / k962 DERIVED (2-3-mode projected)",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 12,
-   "id": "V_ub",
-   "sector": "CKM",
-   "form": "ORDER derived: the 1–3 corner one power of t below the 2–3 (Cayley–Hamilton on P₆); VALUE open (t ∈ [0.12, 0.19])",
-   "tier_word": "open",
-   "note": "the order is DERIVED and reparametrisation-invariant (zero-knob falsifier); the value is not; five sealed series all missed the band",
-   "rows": [
-    "K1808",
-    "K1810",
-    "T2547"
-   ],
-   "last_retier": "2026-08-22",
-   "v030_slot": null,
-   "old_key_0717": "MIXING_MECHANISM_DERIVED / k962 IDENTIFIED",
-   "flag": "word is for the VALUE; the ORDER row is derived",
-   "four_word_standard": "—"
-  },
-  {
-   "n": 13,
-   "id": "delta_CKM",
-   "sector": "CKM",
-   "form": "existence FORCED (T2547); γ = arctan(√n_C) = 65.9° admits TEN competing BST forms in the band",
-   "tier_word": "open",
-   "note": "K1809: the T2198 standard applied — γ's form has no discriminating power; magnitude OPEN (08-22 closure)",
-   "rows": [
-    "T2547",
-    "K1809",
-    "T2198 (retired)"
-   ],
-   "last_retier": "2026-08-22 (K1809)",
-   "v030_slot": null,
-   "old_key_0717": "VALUE_SPECIFIC / k962 IDENTIFIED",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 14,
-   "id": "sin2_th12_PMNS",
-   "sector": "PMNS",
-   "form": "N_c/(N_c+g) = 3/10 vs 0.307 (2%)",
-   "tier_word": "identified",
-   "note": "flagship II.4: 3/10 is the kernel's output (cleaner than 4/13 or 42/137) — an argument about provenance, not about N; the row has NOT been through the Part III discriminating-power test",
-   "rows": [
-    "T2018 (sub-claim)",
-    "K962",
-    "flagship II.4"
-   ],
-   "last_retier": "2026-08-23 (flagship)",
-   "v030_slot": null,
-   "old_key_0717": "VALUE_SPECIFIC / k962 IDENTIFIED",
-   "flag": "sibling test not run",
-   "four_word_standard": "—"
-  },
-  {
-   "n": 15,
-   "id": "sin2_th23_PMNS",
-   "sector": "PMNS",
-   "form": "maximal, sin² = 1/2 (Shilov ℤ₂ + parity theorem); the 4/7 deviation identified; NuFIT 6.0 NO best fit ≈ 0.47 (lower octant)",
-   "tier_word": "derived",
-   "note": "doubly-derived at leading order (T2534, K1024, Cal §157); the small observed departure from maximal is NOT forced and not identified with 4/7 (K1032: holding maximal kept us on the right side of the data)",
-   "rows": [
-    "T2534",
-    "K1024",
-    "K1032"
-   ],
-   "last_retier": "2026-07-30 (K1032)",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE / k962 DERIVED (maximal) + 4/7 IDENTIFIED",
-   "flag": null,
-   "four_word_standard": "meets — mechanism: the parity theorem (μ mode odd, τ even ⟹ c − a = 0) and the Šilov ℤ₂, two independent proofs of maximal (T2534, K1024, Cal §157); what is NOT claimed: the departure from maximal"
-  },
-  {
-   "n": 16,
-   "id": "sin2_th13_PMNS",
-   "sector": "PMNS",
-   "form": "1/(N_c²·n_C) = 1/(g²−rank²) = 1/45 = 0.02222 vs 0.02195 (0.1%)",
-   "tier_word": "identified",
-   "note": "Cal §959: \"row 16 identified per K1260 (both forms; the generator's note wrong)\" — K1260's 08-07 ruling made BOTH forms (1/45 and 3/137) identified and the July tier map never absorbed it; my 09-11 note (\"K1260 retired only the 3/137 sub-claim\") was wrong and is withdrawn. 1/45 = 0.02222 vs 0.02195 (0.1%); the Pythagorean route g² = 45 + 4 is a form on the ladder, not a proved mechanism.",
-   "rows": [
-    "K632",
-    "K962",
-    "K1260"
-   ],
-   "last_retier": "2026-08-07 (K1260) — absorbed into the key 2026-09-14 (Cal §959 / K1897 / Elie 5755)",
-   "v030_slot": "8 (θ₁₃, FIRM)",
-   "old_key_0717": "LAW / k962 DERIVED",
-   "flag": "Elie 5755: +0.5σ inside the 1σ band (2.19 ± 0.07)e−2; N = 9 at 1σ (chance 12.6) — including 3/137, the K1260 sub-claim, which sits CLOSER to the primary than 1/45; N = 4 at the row's tolerance (chance 5.8); at chance",
-   "four_word_standard": "— (form-identified per K1260 08-07, Cal §959; my earlier note wrong, withdrawn)"
-  },
-  {
-   "n": 17,
-   "id": "delta_PMNS",
-   "sector": "PMNS",
-   "form": "existence FORCED (T2536); magnitude OFF (K1304); branch data-picked",
-   "tier_word": "open",
-   "note": "the former forward sum rule cos²δ = 45/49 retired to existence-only (reverse-fit); the branch (J < 0) is read from data",
-   "rows": [
-    "T2536",
-    "K1304"
-   ],
-   "last_retier": "2026-08-22 (T2536 retirement clause)",
-   "v030_slot": null,
-   "old_key_0717": "FREE_PARAMETER (magnitude) + DATA_PICKED (branch)",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 18,
-   "id": "alpha_inv",
-   "sector": "gauge",
-   "form": "137-class expressions (N_c³·n_C + rank = N_max); the forced bare vertex computes to 8π³/3, not 137",
-   "tier_word": "identified",
-   "note": "K701 identified; K1813 puts 137 in the bulk of a pre-registered null (expressibility withdrawn); K1816 strikes 'derives α'; K1826 fires the bare-vertex one-shot — the fifty-year volume-reading class closed; a mechanism is owed, none claimed",
-   "rows": [
-    "K701",
-    "K1813",
-    "K1816",
-    "K1826"
-   ],
-   "last_retier": "2026-08-24 (K1826)",
-   "v030_slot": "2 (α, PARTIAL-forced)",
-   "old_key_0717": "LAW+ANCHOR / k962 DERIVED",
-   "flag": "the 07-17 map's 'LAW+ANCHOR / DERIVED' is the stalest cell in the file",
-   "four_word_standard": "—"
-  },
-  {
-   "n": 19,
-   "id": "sin2_thW_MZ",
-   "sector": "gauge",
-   "form": "3/8 high-scale (fermion content, standard) + RGE → 0.231; 3/13 RETIRED (running coincidence)",
-   "tier_word": "open",
-   "note": "TWO WORDS FOR TWO OBJECTS (K1897; Cal §960; Lyra Section 6): the M_Z VALUE is OPEN (a runner, K739 — no derived low-energy value; 3/8 at high scale is arithmetic on the theorem's own input, the fermion content, the standard SU(5)-normalised number); the 3/13 Chern-ratio FORM c₅(Q⁵)/c₃(Q⁵) is IDENTIFIED (K1261, 08-07; T1919) after being retired as the May \"gauge-active dimension\" reading (K739, 07-17) — two histories on the register's face. The row's tier word is the VALUE's: open.",
-   "rows": [
-    "K739",
-    "T1919 (tier corrected K1261)"
-   ],
-   "last_retier": "2026-08-07 (K1261)",
-   "v030_slot": null,
-   "old_key_0717": "RUNNER",
-   "flag": null,
-   "four_word_standard": "— (value open; the 3/13 form identified, K1261)"
-  },
-  {
-   "n": 20,
-   "id": "alpha_s_MZ",
-   "sector": "gauge",
-   "form": "runner; b₀ = 7 is the six-flavour textbook coefficient IDENTIFIED with g",
-   "tier_word": "open",
-   "note": "no BST value at M_Z; the asymptotic-freedom coefficient's match to g is identified (K1875, T267)",
-   "rows": [
-    "K739",
-    "K1875",
-    "T267"
-   ],
-   "last_retier": "2026-09-07 (K1875)",
-   "v030_slot": null,
-   "old_key_0717": "RUNNER",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 21,
-   "id": "lambda_Higgs",
-   "sector": "Higgs",
-   "form": "λ_H: the 1/rank³ = 1/8 VALUE is RETIRED (K1897: −18.8σ against PDG 2024 0.1293 ± 0.0002; T2198 precedent); the carried form is 9/70 (T1965/T2005); m_H = (v/2)√(1 + n_C/N_max) is a SECOND object on this row, unpriced (Elie prices it before it is quoted)",
-   "tier_word": "identified",
-   "note": "Cal §959: \"row 21 identified (no T-row; T1965/T2005 carry 9/70; the 0.02 % is a two-integer m_H form)\". K1897: \"the 1/8 VALUE is RETIRED; row 21 carries the registered 9/70 at whatever that form's own comparison gives … 'Identified' is not a shelter for a number the measurement excludes.\" K1826 had listed λ_H on its independent bank; that bank was the 1/8 value and is gone.",
-   "rows": [
-    "T1965",
-    "T2005",
-    "K1897",
-    "Cal §959"
-   ],
-   "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
-   "v030_slot": null,
-   "old_key_0717": "LATTICE / k962 DERIVED",
-   "flag": "Elie 5755: 1/8 is −18.8σ outside the 1σ band (λ = m_H²/(2v²) = 0.1293 ± 0.0002, m_H = 125.20 ± 0.11); N = 25 at the row's tolerance vs chance 21; 9/70 not yet scored on this row; m_H refinement unpriced (Elie)",
-   "four_word_standard": "— (form-identified, Cal §959; the 1/8 value retired at −18.8σ, K1897; 9/70 carried at its own comparison, unscored here)"
-  },
-  {
-   "n": 22,
-   "id": "vev_v",
-   "sector": "Higgs",
-   "form": "pure scale (the gravity ruler); v = (6π⁵)³·α¹²·m_Planck/g at 0.01% is a relation on the same ruler",
-   "tier_word": "input",
-   "note": "the single dimensionful input (with row 1 — one relation, several readings, never counted twice: Cal §582/§586)",
-   "rows": [
-    "T201",
-    "Cal §582"
-   ],
-   "last_retier": "2026-07 (Cal §586)",
-   "v030_slot": null,
-   "old_key_0717": "GRAVITY_SCALE / k962 DERIVED",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 23,
-   "id": "theta_QCD",
-   "sector": "CP",
-   "form": "0 exactly (D_IV⁵ contractible ⟹ the topological term vanishes identically)",
-   "tier_word": "derived",
-   "note": "T1243/T1964, K222; forced-deep; the 09-08 contractibility brackets (K1882 §3) concern the unwinding argument, not this row",
-   "rows": [
-    "T1243",
-    "T1964",
-    "K222"
-   ],
-   "last_retier": "2026-07-28 (K962 DERIVED)",
-   "v030_slot": "1 (θ_QCD, FIRM)",
-   "old_key_0717": "EXACT_ZERO / k962 DERIVED",
-   "flag": null,
-   "four_word_standard": "meets — mechanism: D_IV⁵ is contractible, so the topological term multiplying θ vanishes identically (T1243/T1964); no input"
-  },
-  {
-   "n": 24,
-   "id": "m_nu1",
-   "sector": "neutrino",
-   "form": "0 exactly (rank 2 ⟹ one massless state; ν_R forbidden; Majorana forced)",
-   "tier_word": "derived",
-   "note": "T2563 (parameter-free ν sector); a confirmed sterile or a Dirac neutrino mass kills it (forbidden list)",
-   "rows": [
-    "T2563",
-    "T1949"
-   ],
-   "last_retier": "2026-08 (T2563)",
-   "v030_slot": null,
-   "old_key_0717": "EXACT_ZERO / k962 DERIVED",
-   "flag": null,
-   "four_word_standard": "meets — mechanism: rank 2 ⟹ one massless state; ν_R forbidden (T1949) ⟹ Majorana; T2563; input: none beyond the object"
-  },
-  {
-   "n": 25,
-   "id": "m_nu2",
-   "sector": "neutrino",
-   "form": "(Δm²₂₁) — form pending; Δm² ratio 100/3 identified",
-   "tier_word": "open",
-   "note": "dm2_ratio = rank²·n_C²/N_c = 100/3 is IDENTIFIED (K962); the absolute scale has no BST form",
-   "rows": [
-    "K962 (dm2_ratio)",
-    "T2563"
-   ],
-   "last_retier": "2026-07-28 (K962)",
-   "v030_slot": null,
-   "old_key_0717": "OPEN (dm2_ratio LATTICE / IDENTIFIED)",
-   "flag": null,
-   "four_word_standard": "—"
-  },
-  {
-   "n": 26,
-   "id": "m_nu3",
-   "sector": "neutrino",
-   "form": "(Δm²₃₁) — form pending",
-   "tier_word": "open",
-   "note": "no BST form",
-   "rows": [
-    "T2563"
-   ],
-   "last_retier": "2026-07-28",
-   "v030_slot": null,
-   "old_key_0717": "OPEN",
-   "flag": null,
-   "four_word_standard": "—"
-  }
- ],
- "v030_rows_not_on_the_denominator": [
-  {
-   "v030_slot": "4 (m_d/m_e = N_c = 3, K582)",
-   "why": "a cross-family ratio; the 07-18 denominator keys the down sector by m_s/m_d; bst_26_table.py (07-18) scores m_d/m_e = 3 against 9.14 observed as MISS-GUTscale"
-  },
-  {
-   "v030_slot": "5 (m_s/m_μ = 1/3, K582)",
-   "why": "cross-family; not a row of the 26"
-  },
-  {
-   "v030_slot": "6 (m_b/m_τ = 1, K582)",
-   "why": "cross-family; not a row of the 26"
-  }
- ],
- "not_parameters_but_in_the_0717_map": [
-  "gauge_SU2_weak (derived, T2567 ℍ block)",
-  "parity_violation_VmA (derived)",
-  "gauge_SU3_color (IMPORTED — colour is the one measured input, Cal §946; T2567 ℝ block)",
-  "gauge_U1_hypercharge (derived, T2573 with inputs I-1..I-4 on its face)",
-  "delta_PMNS_branch (input, data-picked)"
- ]
+  "rules_applied_in_date_order": [
+    "K962 (2026-07-28): the canonical tier ladder; the 07-17 tier map's k962_tier fields are the last per-row words before August",
+    "K1260/K1261 (2026-08-07): sub-claims 3/137 and 3/13 to Identified / retired",
+    "K1673: G–m_e relation is a theorem that trades one dimensionful input for another and carries alpha — a relation, not a prediction",
+    "K1795/K1809 (2026-08-22): the T2198 retirement standard — a form that admits indistinguishable BST siblings in the band is not derived; gamma admits ten, eta-bar four, rho-bar two, J_CKM untested",
+    "08-22 CKM closure (K1808/K1810, grace_CKM_PARTIALLY_DERIVED ledger): lambda = 1/sqrt(20) derived blind; skeleton and ORDER derived; V_cb value retired / position kept; split magnitude and delta_CP OPEN; five sealed series all missed",
+    "K1813/K1814 (2026-08-23): alpha in the bulk (expressibility withdrawn); muon form discriminating but NOT promoted (K968 four-part bar)",
+    "K1816 (2026-08-23): 'derives alpha' struck; alpha is Identified against its own registry row",
+    "K1826 (2026-08-24): the bare-vertex one-shot fired — 8 pi^3/3, not 137; lambda_H and V_us stand on their independent banks",
+    "Flagship v1.0 II.4/II.4a (2026-08-23): Koide FLOORED (H2); theta_12 = 3/10 Identified; CKM 1 of 4 derived",
+    "Cal Section 946 (2026-09-09): the colour identification is a FIT with one measured input; SU(3) imported; no zero-free-parameter claim",
+    "K1892 (2026-09-11): 7 is the signature, genus is 5; b_0 = 7 identified; a_e identified"
+  ],
+  "rows": [
+    {
+      "n": 1,
+      "id": "m_e",
+      "sector": "mass",
+      "form": "6π⁵·α¹²·m_Planck (the gravity anchor; m_p/m_e = 6π⁵ region-matched)",
+      "tier_word": "input",
+      "note": "the one dimensionful ruler; the G–m_e relation (K1673, 0.065%) is a theorem that trades one dimensionful input for another and carries α, so it is a relation, not a prediction · 6π⁵ null-protocol (Elie toy 5768, 2026-09-21; prereg f85dd781, toy c2cc3e65, Cal §978 freeze; record play/.record_5768.json): depth 4, atom set A1 — string-count 30, rank 1 of 77, ties 0, median 0 ⟹ SPECIAL by the frozen K1813 rule; value-count 1 with 4 ties; chance rate 5.3 % of decoys get a depth-4 hit (1 in 19, K1915 §1); Elie's P5/P6 bulk guesses MISSED. Tier UNCHANGED (input; the toy weighs the number, not the mechanism). MECHANISM OPEN: T187's volume-ratio sketch gives π²/80 or 8.106, not 6π⁵; Vol2 Ch6's a₁ = 6π⁵ collides with K204's a₁ = −1875; only the T2487×T2488 shape (n_C+1)·π^{n_C} has both factors banked and is an operator statement not yet written (K1915 §2; Elie 5770: none of the three sentences computes 6π⁵).",
+      "rows": [
+        "T201",
+        "T187",
+        "K1673",
+        "K1915",
+        "toy 5768",
+        "toy 5770"
+      ],
+      "last_retier": "2026-08 (K1673)",
+      "v030_slot": null,
+      "old_key_0717": "m_e: GRAVITY_SCALE / k962 DERIVED",
+      "flag": "mechanism open (K1915 §2); number SPECIAL at 1 in 19 (5768)",
+      "four_word_standard": "—"
+    },
+    {
+      "n": 2,
+      "id": "m_mu/m_e",
+      "sector": "mass",
+      "form": "(24/π²)⁶ = 206.7612 vs 206.7683 (0.0034%)",
+      "tier_word": "identified",
+      "note": "K1814: the form is discriminating (p ≈ 0.01 on two pools) and that removes ONE objection from K968's four-part bar; the address is not forced; NO PROMOTION",
+      "rows": [
+        "T190",
+        "K968",
+        "K1814"
+      ],
+      "last_retier": "2026-08-23 (K1814)",
+      "v030_slot": "3 (muon, principle-gated)",
+      "old_key_0717": "not in the 07-17 map (07-18 scoreboard: LATTICE+π)",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 3,
+      "id": "m_tau/m_e",
+      "sector": "mass",
+      "form": "49·71 = 3479 vs 3477.23 (0.05%)",
+      "tier_word": "identified",
+      "note": "demoted to candidate K631-S1 (07-01); never re-promoted; the Koide relation among the three charged leptons is FLOORED (flagship H2: every derivation route closed)",
+      "rows": [
+        "T2516 (Koide)",
+        "K631"
+      ],
+      "last_retier": "2026-08-23 (flagship H2 for Koide; the ratio itself unchanged since K631)",
+      "v030_slot": "— 9? (NOT counted)",
+      "old_key_0717": "07-18 scoreboard: LATTICE (structural)",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 4,
+      "id": "m_u/m_d",
+      "sector": "mass",
+      "form": "√(3/14) = 0.463 (tier map) — and 9/19 = 0.474 (T2032); observed ≈ 0.47",
+      "tier_word": "identified",
+      "note": "K1894 RULING (2026-09-11 14:18): IDENTIFIED with N = 2 reported — two live registered forms for one parameter (√(3/14) = 0.46291, K962; 9/19 = 0.47368, T2032), 2.33% apart; a derived row has one form (K1809: count over ranking). The K962 'derived' on √(3/14) stands as history. Observed ratio still to be pinned from the PDG 2024 quark-mass review.",
+      "rows": [
+        "T2032",
+        "K962 (tier map 07-28)",
+        "K1809 rule"
+      ],
+      "last_retier": "2026-09-11 (K1894); applied to the key 2026-09-13",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE / k962 DERIVED",
+      "flag": "N = 2 (two forms); one must be derived and the other retired before the word can move",
+      "four_word_standard": "—"
+    },
+    {
+      "n": 5,
+      "id": "m_s/m_d",
+      "sector": "mass",
+      "form": "rank²·n_C = 20 (ℂ³ SVD, FK Pochhammer mechanism)",
+      "tier_word": "identified",
+      "note": "Cal §969 (log #212, K1902 concurred), 2026-09-14: IDENTIFIED IN EXPLICIT SPLIT — the SHAPE is derived (consecutive-integer products (ν_W+1)(ν_W+2) on the odd single-row degrees {1,3,5} of the quark module, T1929; the Fischer→Bergman norm ratio (ν_W)_λ, toy 4858, Schur), the WEIGHT ν_W = N_c = 3 is IDENTIFIED — a second dimensionless identification beside colour = multiplicity, T2513 gate (b) open since 2026-08-23 (the Wallach threshold is a/2 = 3/2, not 3). The number 20 is untouched. §959's \"derived\" never opened T2513's amendment (calibration #41).",
+      "rows": [
+        "T2529",
+        "T2513 (one tier, one object)",
+        "K1902",
+        "Cal §969",
+        "toys 4858, 4618"
+      ],
+      "last_retier": "2026-09-14 (Cal §969 / K1902)",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE / k962 DERIVED",
+      "flag": "T2529 ↔ T2513 reconciled to one tier 13:02; provenance 4914 → 4858/4618; stale \"@Keeper to gate\" tags cleared",
+      "four_word_standard": "— (shape derived; weight ν_W = N_c identified, gate (b) open — explicit split, Cal §969)"
+    },
+    {
+      "n": 6,
+      "id": "m_c/m_u",
+      "sector": "mass",
+      "form": "y_c = α (T2531) ⟹ m_c = α·v/√2; m_c/m_u coarse (≈589, ±10%)",
+      "tier_word": "identified",
+      "note": "T2531 was registered DERIVED (K997) but rides α's VALUE, which is identified (K1816/K1826); a coarse target (Elie: precision-based cheapness flag)",
+      "rows": [
+        "T2531",
+        "K997"
+      ],
+      "last_retier": "2026-08-24 (inherits α's word from K1826)",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE+ANCHOR / k962 DERIVED",
+      "flag": "inherits α's tier; if α is ever derived this row follows",
+      "four_word_standard": "—"
+    },
+    {
+      "n": 7,
+      "id": "m_t/m_b",
+      "sector": "mass",
+      "form": "C₂·g = 42 (total Chern of Q⁵) vs 41.3 (pole/MSbar, 1.7%)",
+      "tier_word": "identified",
+      "note": "Cal §959: \"identified (Chern integral matched to a scheme-mixed ratio; the same 42 is the ladder's b/s rung at 6.6 % off)\". K1897: +7.6σ against 41.26 ± 0.10 (PDG 2024) — but the comparison is scheme-mixed (a Chern number against a pole/MS-bar ratio); \"identified, out of band at the primary in the scheme-mixed comparison; a scheme-consistent comparison is owed before retirement, and the row says both.\" Elie 5755 sibling count reported beside it.",
+      "rows": [
+        "T2013",
+        "T1990",
+        "K962"
+      ],
+      "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE / k962 DERIVED",
+      "flag": "Elie 5755 (prereg 56b749a4): +7.6σ outside the PDG 1σ band (41.26 ± 0.10, scheme-mixed); N = 11 at the row's tolerance vs chance 7.3 — at chance (saturated vocabulary); scheme-consistent comparison owed before retirement (K1897)",
+      "four_word_standard": "— (form-identified, Cal §959; out of band at the primary in a scheme-mixed comparison, K1897; scheme-consistent comparison owed before retirement)"
+    },
+    {
+      "n": 8,
+      "id": "m_t",
+      "sector": "mass",
+      "form": "y_t = 1 ⟹ m_t = v/√2 = 174.1 GeV vs 172.7 pole (0.8%)",
+      "tier_word": "derived",
+      "note": "the CEILING y_t = 1 is derived (top saturates the Shilov boundary, K591/F387); the value rides the ruler v (row 22) — inputs named",
+      "rows": [
+        "K591",
+        "F387",
+        "T2547 (A)"
+      ],
+      "last_retier": "2026-07-28 (K962: CEILING DERIVED / VALUE IDENTIFIED)",
+      "v030_slot": "7 (m_t, FIRM)",
+      "old_key_0717": "GRAVITY_SCALE+CORRESPONDENCE / CEILING:DERIVED VALUE:IDENTIFIED",
+      "flag": null,
+      "four_word_standard": "meets — mechanism: y_t = 1 because the top saturates the Šilov boundary (K591/F387); input named: the ruler v"
+    },
+    {
+      "n": 9,
+      "id": "m_b",
+      "sector": "mass",
+      "form": "m_t/42",
+      "tier_word": "identified",
+      "note": "rides row 7 (m_t/42) — Cal §959: \"row 9 rides 7\"; takes row 7's word and row 7's out-of-band flag",
+      "rows": [
+        "T2013"
+      ],
+      "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
+      "v030_slot": null,
+      "old_key_0717": "07-18 scoreboard: GRAVITY-SCALE (rides m_t)",
+      "flag": "dependent row; out of band with row 7 (Elie 5755)",
+      "four_word_standard": "— (rides row 7)"
+    },
+    {
+      "n": 10,
+      "id": "V_us",
+      "sector": "CKM",
+      "form": "λ = √(m_d/m_s) = 1/√20 = 0.22361 vs PDG 2024 0.22501 ± 0.00068 (−2.06σ)",
+      "tier_word": "derived",
+      "note": "blind, forward, frame-independent (T2530, K994); the 08-22 closure's one DERIVED CKM value; 2/√79 retired as a step-size artefact",
+      "rows": [
+        "T2530",
+        "K994",
+        "K1826 (independent bank)"
+      ],
+      "last_retier": "2026-08-22 (CKM closure)",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE / k962 DERIVED",
+      "flag": null,
+      "four_word_standard": "meets — DERIVED GIVEN AN IDENTIFIED INPUT, on its face (Cal §969): mechanism derived (diagonalising the down-sector texture zero of the ℂ³ SVD gives λ = √(m_d/m_s), T2530), input named: m_s/m_d = 20, whose weight ν_W = N_c is identified (row 5) — the explicit-split form the 08-22 closure already uses"
+    },
+    {
+      "n": 11,
+      "id": "V_cb",
+      "sector": "CKM",
+      "form": "position: the 2–3 entry; value 0.044 RETIRED — 9.2σ vs exclusive (39.77 ± 0.46)×10⁻³ (the 08-23 pin: (44.0 − 39.77)/0.46 = 9.20), 3.6σ vs inclusive (42.16 ± 0.51)×10⁻³",
+      "tier_word": "identified",
+      "note": "VALUE RETIRED, POSITION KEPT (08-22): a down-sector-only reading (up 23-mode refracts past the boundary); a position has no measurement as its license Sigma referent fixed 2026-09-13 (R143 G4): the earlier \"8.9σ\" was the flagship's 08-22 figure against a pre-re-pin exclusive value (implies 39.91); one retirement, one σ — 9.2 on the 08-23 pin, as Lecture 7 and the rubric carry.",
+      "rows": [
+        "T2532",
+        "K711",
+        "08-22 closure"
+      ],
+      "last_retier": "2026-08-22",
+      "v030_slot": null,
+      "old_key_0717": "CANDIDATE / k962 DERIVED (2-3-mode projected)",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 12,
+      "id": "V_ub",
+      "sector": "CKM",
+      "form": "ORDER derived: the 1–3 corner one power of t below the 2–3 (Cayley–Hamilton on P₆); VALUE open (t ∈ [0.12, 0.19])",
+      "tier_word": "open",
+      "note": "the order is DERIVED and reparametrisation-invariant (zero-knob falsifier); the value is not; five sealed series all missed the band",
+      "rows": [
+        "K1808",
+        "K1810",
+        "T2547"
+      ],
+      "last_retier": "2026-08-22",
+      "v030_slot": null,
+      "old_key_0717": "MIXING_MECHANISM_DERIVED / k962 IDENTIFIED",
+      "flag": "word is for the VALUE; the ORDER row is derived",
+      "four_word_standard": "—"
+    },
+    {
+      "n": 13,
+      "id": "delta_CKM",
+      "sector": "CKM",
+      "form": "existence FORCED (T2547); γ = arctan(√n_C) = 65.9° admits TEN competing BST forms in the band",
+      "tier_word": "open",
+      "note": "K1809: the T2198 standard applied — γ's form has no discriminating power; magnitude OPEN (08-22 closure)",
+      "rows": [
+        "T2547",
+        "K1809",
+        "T2198 (retired)"
+      ],
+      "last_retier": "2026-08-22 (K1809)",
+      "v030_slot": null,
+      "old_key_0717": "VALUE_SPECIFIC / k962 IDENTIFIED",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 14,
+      "id": "sin2_th12_PMNS",
+      "sector": "PMNS",
+      "form": "N_c/(N_c+g) = 3/10 vs 0.307 (2%)",
+      "tier_word": "identified",
+      "note": "flagship II.4: 3/10 is the kernel's output (cleaner than 4/13 or 42/137) — an argument about provenance, not about N; the row has NOT been through the Part III discriminating-power test",
+      "rows": [
+        "T2018 (sub-claim)",
+        "K962",
+        "flagship II.4"
+      ],
+      "last_retier": "2026-08-23 (flagship)",
+      "v030_slot": null,
+      "old_key_0717": "VALUE_SPECIFIC / k962 IDENTIFIED",
+      "flag": "sibling test not run",
+      "four_word_standard": "—"
+    },
+    {
+      "n": 15,
+      "id": "sin2_th23_PMNS",
+      "sector": "PMNS",
+      "form": "maximal, sin² = 1/2 (Shilov ℤ₂ + parity theorem); the 4/7 deviation identified; NuFIT 6.0 NO best fit ≈ 0.47 (lower octant)",
+      "tier_word": "derived",
+      "note": "doubly-derived at leading order (T2534, K1024, Cal §157); the small observed departure from maximal is NOT forced and not identified with 4/7 (K1032: holding maximal kept us on the right side of the data)",
+      "rows": [
+        "T2534",
+        "K1024",
+        "K1032"
+      ],
+      "last_retier": "2026-07-30 (K1032)",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE / k962 DERIVED (maximal) + 4/7 IDENTIFIED",
+      "flag": null,
+      "four_word_standard": "meets — mechanism: the parity theorem (μ mode odd, τ even ⟹ c − a = 0) and the Šilov ℤ₂, two independent proofs of maximal (T2534, K1024, Cal §157); what is NOT claimed: the departure from maximal"
+    },
+    {
+      "n": 16,
+      "id": "sin2_th13_PMNS",
+      "sector": "PMNS",
+      "form": "1/(N_c²·n_C) = 1/(g²−rank²) = 1/45 = 0.02222 vs 0.02195 (0.1%)",
+      "tier_word": "identified",
+      "note": "Cal §959: \"row 16 identified per K1260 (both forms; the generator's note wrong)\" — K1260's 08-07 ruling made BOTH forms (1/45 and 3/137) identified and the July tier map never absorbed it; my 09-11 note (\"K1260 retired only the 3/137 sub-claim\") was wrong and is withdrawn. 1/45 = 0.02222 vs 0.02195 (0.1%); the Pythagorean route g² = 45 + 4 is a form on the ladder, not a proved mechanism.",
+      "rows": [
+        "K632",
+        "K962",
+        "K1260"
+      ],
+      "last_retier": "2026-08-07 (K1260) — absorbed into the key 2026-09-14 (Cal §959 / K1897 / Elie 5755)",
+      "v030_slot": "8 (θ₁₃, FIRM)",
+      "old_key_0717": "LAW / k962 DERIVED",
+      "flag": "Elie 5755: +0.5σ inside the 1σ band (2.19 ± 0.07)e−2; N = 9 at 1σ (chance 12.6) — including 3/137, the K1260 sub-claim, which sits CLOSER to the primary than 1/45; N = 4 at the row's tolerance (chance 5.8); at chance",
+      "four_word_standard": "— (form-identified per K1260 08-07, Cal §959; my earlier note wrong, withdrawn)"
+    },
+    {
+      "n": 17,
+      "id": "delta_PMNS",
+      "sector": "PMNS",
+      "form": "existence FORCED (T2536); magnitude OFF (K1304); branch data-picked",
+      "tier_word": "open",
+      "note": "the former forward sum rule cos²δ = 45/49 retired to existence-only (reverse-fit); the branch (J < 0) is read from data",
+      "rows": [
+        "T2536",
+        "K1304"
+      ],
+      "last_retier": "2026-08-22 (T2536 retirement clause)",
+      "v030_slot": null,
+      "old_key_0717": "FREE_PARAMETER (magnitude) + DATA_PICKED (branch)",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 18,
+      "id": "alpha_inv",
+      "sector": "gauge",
+      "form": "137-class expressions (N_c³·n_C + rank = N_max); the forced bare vertex computes to 8π³/3, not 137",
+      "tier_word": "identified",
+      "note": "K701 identified; K1813 puts 137 in the bulk of a pre-registered null (expressibility withdrawn); K1816 strikes 'derives α'; K1826 fires the bare-vertex one-shot — the fifty-year volume-reading class closed; a mechanism is owed, none claimed",
+      "rows": [
+        "K701",
+        "K1813",
+        "K1816",
+        "K1826"
+      ],
+      "last_retier": "2026-08-24 (K1826)",
+      "v030_slot": "2 (α, PARTIAL-forced)",
+      "old_key_0717": "LAW+ANCHOR / k962 DERIVED",
+      "flag": "the 07-17 map's 'LAW+ANCHOR / DERIVED' is the stalest cell in the file",
+      "four_word_standard": "—"
+    },
+    {
+      "n": 19,
+      "id": "sin2_thW_MZ",
+      "sector": "gauge",
+      "form": "3/8 high-scale (fermion content, standard) + RGE → 0.231; 3/13 RETIRED (running coincidence)",
+      "tier_word": "open",
+      "note": "TWO WORDS FOR TWO OBJECTS (K1897; Cal §960; Lyra Section 6): the M_Z VALUE is OPEN (a runner, K739 — no derived low-energy value; 3/8 at high scale is arithmetic on the theorem's own input, the fermion content, the standard SU(5)-normalised number); the 3/13 Chern-ratio FORM c₅(Q⁵)/c₃(Q⁵) is IDENTIFIED (K1261, 08-07; T1919) after being retired as the May \"gauge-active dimension\" reading (K739, 07-17) — two histories on the register's face. The row's tier word is the VALUE's: open.",
+      "rows": [
+        "K739",
+        "T1919 (tier corrected K1261)"
+      ],
+      "last_retier": "2026-08-07 (K1261)",
+      "v030_slot": null,
+      "old_key_0717": "RUNNER",
+      "flag": null,
+      "four_word_standard": "— (value open; the 3/13 form identified, K1261)"
+    },
+    {
+      "n": 20,
+      "id": "alpha_s_MZ",
+      "sector": "gauge",
+      "form": "runner; b₀ = 7 is the six-flavour textbook coefficient IDENTIFIED with g",
+      "tier_word": "open",
+      "note": "no BST value at M_Z; the asymptotic-freedom coefficient's match to g is identified (K1875, T267)",
+      "rows": [
+        "K739",
+        "K1875",
+        "T267"
+      ],
+      "last_retier": "2026-09-07 (K1875)",
+      "v030_slot": null,
+      "old_key_0717": "RUNNER",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 21,
+      "id": "lambda_Higgs",
+      "sector": "Higgs",
+      "form": "λ_H: the 1/rank³ = 1/8 VALUE is RETIRED (K1897: −18.8σ against PDG 2024 0.1293 ± 0.0002; T2198 precedent); the carried form is 9/70 (T1965/T2005); m_H = (v/2)√(1 + n_C/N_max) is a SECOND object on this row, unpriced (Elie prices it before it is quoted)",
+      "tier_word": "identified",
+      "note": "Cal §959: \"row 21 identified (no T-row; T1965/T2005 carry 9/70; the 0.02 % is a two-integer m_H form)\". K1897: \"the 1/8 VALUE is RETIRED; row 21 carries the registered 9/70 at whatever that form's own comparison gives … 'Identified' is not a shelter for a number the measurement excludes.\" K1826 had listed λ_H on its independent bank; that bank was the 1/8 value and is gone.",
+      "rows": [
+        "T1965",
+        "T2005",
+        "K1897",
+        "Cal §959"
+      ],
+      "last_retier": "2026-09-14 (Cal §959 / K1897 / Elie 5755)",
+      "v030_slot": null,
+      "old_key_0717": "LATTICE / k962 DERIVED",
+      "flag": "Elie 5755: 1/8 is −18.8σ outside the 1σ band (λ = m_H²/(2v²) = 0.1293 ± 0.0002, m_H = 125.20 ± 0.11); N = 25 at the row's tolerance vs chance 21; 9/70 not yet scored on this row; m_H refinement unpriced (Elie)",
+      "four_word_standard": "— (form-identified, Cal §959; the 1/8 value retired at −18.8σ, K1897; 9/70 carried at its own comparison, unscored here)"
+    },
+    {
+      "n": 22,
+      "id": "vev_v",
+      "sector": "Higgs",
+      "form": "pure scale (the gravity ruler); v = (6π⁵)³·α¹²·m_Planck/g at 0.01% is a relation on the same ruler",
+      "tier_word": "input",
+      "note": "the single dimensionful input (with row 1 — one relation, several readings, never counted twice: Cal §582/§586)",
+      "rows": [
+        "T201",
+        "Cal §582"
+      ],
+      "last_retier": "2026-07 (Cal §586)",
+      "v030_slot": null,
+      "old_key_0717": "GRAVITY_SCALE / k962 DERIVED",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 23,
+      "id": "theta_QCD",
+      "sector": "CP",
+      "form": "0 exactly (D_IV⁵ contractible ⟹ the topological term vanishes identically)",
+      "tier_word": "derived",
+      "note": "T1243/T1964, K222; forced-deep; the 09-08 contractibility brackets (K1882 §3) concern the unwinding argument, not this row",
+      "rows": [
+        "T1243",
+        "T1964",
+        "K222"
+      ],
+      "last_retier": "2026-07-28 (K962 DERIVED)",
+      "v030_slot": "1 (θ_QCD, FIRM)",
+      "old_key_0717": "EXACT_ZERO / k962 DERIVED",
+      "flag": null,
+      "four_word_standard": "meets — mechanism: D_IV⁵ is contractible, so the topological term multiplying θ vanishes identically (T1243/T1964); no input"
+    },
+    {
+      "n": 24,
+      "id": "m_nu1",
+      "sector": "neutrino",
+      "form": "0 exactly (rank 2 ⟹ one massless state; ν_R forbidden; Majorana forced)",
+      "tier_word": "derived",
+      "note": "T2563 (parameter-free ν sector); a confirmed sterile or a Dirac neutrino mass kills it (forbidden list)",
+      "rows": [
+        "T2563",
+        "T1949"
+      ],
+      "last_retier": "2026-08 (T2563)",
+      "v030_slot": null,
+      "old_key_0717": "EXACT_ZERO / k962 DERIVED",
+      "flag": null,
+      "four_word_standard": "meets — mechanism: rank 2 ⟹ one massless state; ν_R forbidden (T1949) ⟹ Majorana; T2563; input: none beyond the object"
+    },
+    {
+      "n": 25,
+      "id": "m_nu2",
+      "sector": "neutrino",
+      "form": "(Δm²₂₁) — form pending; Δm² ratio 100/3 identified",
+      "tier_word": "open",
+      "note": "dm2_ratio = rank²·n_C²/N_c = 100/3 is IDENTIFIED (K962); the absolute scale has no BST form",
+      "rows": [
+        "K962 (dm2_ratio)",
+        "T2563"
+      ],
+      "last_retier": "2026-07-28 (K962)",
+      "v030_slot": null,
+      "old_key_0717": "OPEN (dm2_ratio LATTICE / IDENTIFIED)",
+      "flag": null,
+      "four_word_standard": "—"
+    },
+    {
+      "n": 26,
+      "id": "m_nu3",
+      "sector": "neutrino",
+      "form": "(Δm²₃₁) — form pending",
+      "tier_word": "open",
+      "note": "no BST form",
+      "rows": [
+        "T2563"
+      ],
+      "last_retier": "2026-07-28",
+      "v030_slot": null,
+      "old_key_0717": "OPEN",
+      "flag": null,
+      "four_word_standard": "—"
+    }
+  ],
+  "v030_rows_not_on_the_denominator": [
+    {
+      "v030_slot": "4 (m_d/m_e = N_c = 3, K582)",
+      "why": "a cross-family ratio; the 07-18 denominator keys the down sector by m_s/m_d; bst_26_table.py (07-18) scores m_d/m_e = 3 against 9.14 observed as MISS-GUTscale"
+    },
+    {
+      "v030_slot": "5 (m_s/m_μ = 1/3, K582)",
+      "why": "cross-family; not a row of the 26"
+    },
+    {
+      "v030_slot": "6 (m_b/m_τ = 1, K582)",
+      "why": "cross-family; not a row of the 26"
+    }
+  ],
+  "not_parameters_but_in_the_0717_map": [
+    "gauge_SU2_weak (derived, T2567 ℍ block)",
+    "parity_violation_VmA (derived)",
+    "gauge_SU3_color (IMPORTED — colour is the one measured input, Cal §946; T2567 ℝ block)",
+    "gauge_U1_hypercharge (derived, T2573 with inputs I-1..I-4 on its face)",
+    "delta_PMNS_branch (input, data-picked)"
+  ]
 }
