@@ -142,7 +142,41 @@ def sha(path):
     return h.hexdigest()
 
 # ---------------------------------------------------------------- model layer
+def call_typesafe(endpoint, model, key, text, timeout=60):
+    """Jev (TypeSafe System One) backend — DECISIONS ONLY. Returns outcome + rubric_cell as calibrated choices
+    (full distributions kept as 'p_outcome' / 'p_cell'), and no approach/reason/keywords/evidence (Jev has no text
+    channel; those stay with the LLM pass). Request/response shape per TypeSafe docs (state + typed questions).
+    Untested until early access (2026-09-22); selftest covers the mapping with a mocked response."""
+    body = {"model": model or "jev-latest", "state": text[:120000],
+            "questions": {
+              "outcome": {"type": "choice", "instructions": "The document's OWN final status for the approach it examines. "
+                          "CLOSED_POSITIVE=proved/passed/certified; CLOSED_NEGATIVE=refuted/clean negative; CONDITIONAL=conditional pass; "
+                          "RETRACTED=prior claim withdrawn as wrong; WITHDRAWN=author pulled it; PARKED=set aside; OPEN=undecided; AMENDMENT=mainly corrects an earlier audit.",
+                          "criteria": {"options": OUTCOMES}},
+              "rubric_cell": {"type": "choice", "instructions": "Which rubric cell of the BST completeness scorecard this document's work belongs to.",
+                              "criteria": {"options": RUBRIC}},
+              "amends_earlier": {"type": "noul", "instructions": "Does this document mainly correct or walk back an EARLIER audit (K-number named)?"}}}
+    req = urllib.request.Request(endpoint.rstrip("/") + "/v1/systemone", data=json.dumps(body).encode(),
+                                 headers={"Content-Type": "application/json", "Authorization": "Bearer " + key})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        resp = json.load(r)
+    return typesafe_to_record(resp)
+
+def typesafe_to_record(resp):
+    """Map a Jev response to the record fields we fill from it (pure; selftested)."""
+    a = resp.get("answers", {})
+    def choice(q):
+        x = a.get(q, {}); dist = x.get("probabilities") or x.get("distribution") or {}
+        pick = x.get("choice") or x.get("value") or (max(dist, key=dist.get) if dist else "")
+        return pick, dist
+    oc, p_oc = choice("outcome"); cell, p_cell = choice("rubric_cell")
+    return {"outcome": oc, "p_outcome": p_oc, "rubric_cell": cell, "p_cell": p_cell,
+            "amends_p": (a.get("amends_earlier", {}) or {}).get("noul"), "keywords": ["(jev: no text channel)"],
+            "evidence": "", "approach": "", "reason": "", "amends": [], "lane": ""}
+
 def call_model(api, endpoint, model, key, text, timeout=180, system=None):
+    if api == "typesafe":
+        return call_typesafe(endpoint, model, key, text)
     msgs = [{"role": "system", "content": system or SYSTEM}, {"role": "user", "content": text}]
     if api == "ollama":
         url = endpoint.rstrip("/") + "/api/chat"
@@ -176,6 +210,8 @@ def verify(rec, head):
     if rec.get("outcome") not in OUTCOMES:
         fails.append("outcome_vocab:" + str(rec.get("outcome")))
     ev = rec.get("evidence") or ""
+    if rec.get("p_outcome") is not None and not ev:
+        return fails + ["decision_only_backend"]        # Jev: typed decisions, no text — evidence/keywords come from the LLM pass
     if not ev or normalize_ws(ev) not in normalize_ws(head):
         fails.append("evidence_not_verbatim")
     if not isinstance(rec.get("amends"), list):
@@ -323,6 +359,12 @@ def selftest():
     chk("verify: markdown-bold + en-dash evidence passes", verify({"outcome": "OPEN", "evidence": "the wall remains unmoved – Tier", "amends": [], "keywords": ["x"], "rubric_cell": RUBRIC[0]}, "The **wall** remains unmoved — Tier: ATTEMPT") == [])
     chk("verify: paraphrase fails (negative control)", "evidence_not_verbatim" in verify({"outcome": "OPEN", "evidence": "the tier is unchanged", "amends": []}, head))
     chk("verify: missing keywords fails", "keywords_missing" in verify({"outcome": "OPEN", "evidence": "The wall", "amends": []}, head))
+    mock = {"answers": {"outcome": {"type": "choice", "choice": "RETRACTED", "probabilities": {"RETRACTED": 0.81, "AMENDMENT": 0.15, "OPEN": 0.04}},
+                        "rubric_cell": {"type": "choice", "choice": RUBRIC[8], "probabilities": {RUBRIC[8]: 0.7, RUBRIC[1]: 0.3}},
+                        "amends_earlier": {"type": "noul", "noul": 0.93}}}
+    m = typesafe_to_record(mock)
+    chk("typesafe mapping: outcome + distribution + amends_p", m["outcome"] == "RETRACTED" and m["p_outcome"]["RETRACTED"] == 0.81 and m["amends_p"] == 0.93 and m["rubric_cell"] == RUBRIC[8])
+    chk("typesafe rows are marked decision_only, not evidence-failed", verify({**m, "amends": []}, "x") == ["decision_only_backend"])
     chk("coarse map", (coarse("RETRACTED"), coarse("OPEN"), coarse("CLOSED_POSITIVE"), coarse("AMENDMENT")) == ("STOP", "LIVE", "DONE", "AMEND"))
     chk("verify: bad vocab fails", any(f.startswith("outcome_vocab") for f in verify({"outcome": "PASS", "evidence": "The wall", "amends": []}, head)))
     print("SELFTEST", "PASS" if ok else "FAIL"); return ok
@@ -347,8 +389,9 @@ def main():
     ap.add_argument("--sources", nargs="*", help="glob patterns relative to repo root")
     ap.add_argument("--lane-filter", help="regex; only files whose NAME or TITLE matches (pilot scoping)")
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--api", default=os.environ.get("APPROACHES_API", "ollama"), choices=["ollama", "openai"])
-    ap.add_argument("--endpoint", default=os.environ.get("APPROACHES_ENDPOINT", "http://localhost:11434"))
+    ap.add_argument("--api", default=os.environ.get("APPROACHES_API", "ollama"), choices=["ollama", "openai", "typesafe"])
+    ap.add_argument("--endpoint", default=os.environ.get("APPROACHES_ENDPOINT", "http://localhost:11434"),
+                    help="ollama: http://localhost:11434 · openai-compatible base · typesafe: https://api.typesafe.ai")
     ap.add_argument("--model", default=os.environ.get("APPROACHES_MODEL", "qwen3:30b-a3b"))
     ap.add_argument("--key", default=os.environ.get("APPROACHES_API_KEY", ""))
     ap.add_argument("--refresh", action="store_true", help="ignore cache; re-extract")
