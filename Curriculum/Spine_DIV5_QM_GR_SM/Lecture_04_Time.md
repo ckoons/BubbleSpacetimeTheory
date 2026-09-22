@@ -66,6 +66,8 @@ Here is the honest content of that fact, on $H^2$ — the ruled space. The weigh
 
 Two quantities in this program are called "the tick," and one of the lessons of September was to stop letting one word carry two objects.
 
+*Note, 2026-09-22 (K1919 §6–7).* A third quantity now has the name, and it is the slowest, not the fastest: **the begin-time** — the time for the geometry to begin a new commitment, which at the horizon's own temperature is Landauer's bit-write time $2\pi/(H\ln 2)$, about nine ages of the universe. Its rate per Planck time is the commit fraction of the March-9 note, $2Ht_P$; its square is $\Lambda/\Lambda_P$ up to $3\Omega_\Lambda$ (Lecture 9). The Koons tick below is the write *unit*; the elementary tick is the resolution; the begin-time is the cadence. The fitted sub-Planck tick $t_P\alpha^{36}$ (T2405) is none of the three and is re-labelled.*
+
 **The elementary tick** of the paper is $\hbar/E$ for the relevant energy: the smallest step of the commitment flow. Its *value* is identified, not derived (the paper's own Section 8 says so), and we do not lean on it.
 
 **The Koons tick** (T1136) is the program's clock *unit* for writes:
