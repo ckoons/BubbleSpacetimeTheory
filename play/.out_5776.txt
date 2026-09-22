@@ -1,0 +1,27 @@
+====================================================================================================
+TOY 5776 — region-count rule and the 1/√N floor vs Oppenheim 2023
+====================================================================================================
+  prereg sha256 ac64b54bfb4b6dd0ef5d4926f4e857668fdf8d4cdda9796046598893d521d957  == frozen (Cal §982)
+
+  Rule R: N(region) = A(∂region)/ℓ_P²   (variant reported beside: ×1/(4 ln 2))
+    sphere R = 1 m: N = 4.81e+70 → σ_rel = 1/√N = 4.56e-36   [variant N = 1.74e+70, σ = 7.59e-36]
+    1 kg tungsten sphere (ρ = 19,300 kg/m³): R = 2.31 cm — the test mass's OWN surface: N = 2.57e+67 → σ_rel = 1/√N = 1.97e-34   [variant N = 9.28e+66, σ = 3.28e-34]
+    silica microsphere R = 10 μm: N = 4.81e+60 → σ_rel = 1/√N = 4.56e-31   [variant N = 1.74e+60, σ = 7.59e-31]
+    control, the Hubble sphere R = c/H₀: N = 9.062e+122  (K1919's 9 × 10¹²²)
+  [HIT] P4 control: the rule reproduces the horizon count at R = c/H₀ (9.06e122) (control)  9.062e+122
+  [HIT] P1 arithmetic matches the prereg: R=1 m 4.8e70/4.6e-36; 1 kg ~2.8e67/~6e-34; 10 μm 4.8e60/4.6e-31 (control)  1 kg: N = 2.57e+67, σ = 1.97e-34
+
+  Pinned bound (primary, lines 811-814): torsion-balance acceleration uncertainty σ_a ∼ 1e-07 m/s² on a kg mass → D₂ ≤ 1e-41 kg² s m⁻³ (local continuous kernel, Eq. 44);
+  the floor on the same test mass, at the same acceleration scale: σ_a,floor = a × 1/√N = 2.0e-41 m/s²;  floor / bound = 2.0e-34  (34 orders below)
+  [HIT] P2 the floor does NOT exceed the published bound — by ≥ 20 orders (prereg said ≳ 20)  34 orders
+
+  T-scaling (the marker's content): Eq. (45) σ_a² ∝ D₂/T for CQ diffusion ⟹ σ_a,CQ ∝ T^{-1/2} (the walk in the potential's momentum grows ∝ T; its time-average falls as T^{-1/2});
+  the floor is σ_a,floor ∝ T⁰ (a per-record resolution, not a walk). The primary leaves T symbolic in (44)-(47) and quotes the numbers as conservative orders of magnitude,
+  so the comparison above is at the acceleration level the primary uses; changing T moves the ratio only as √T — 34 orders at T = 1 s, 30 at T = 10⁸ s (P3's caveat honoured).
+  [HIT] P3 comparison stated at the primary's acceleration level with the T-dependence printed; the floor is below the bound at every T ≤ 10⁸ s (control)  T=1e+00s:2e-34 T=1e+04s:2e-32 T=1e+08s:2e-30
+  Category note: the floor has no diffusion coefficient — a T-independent variance cannot be placed on Oppenheim's D₂ axis; the register marker is two markers with opposite T-slopes, not one number against another.
+  [HIT] P5 control: no digit of the bound appears in the hashed prereg (control)  found []
+
+VERDICT: CONSISTENT, TRIVIALLY — the resolution-limit floor on a kg test mass sits 34 orders below the torsion-balance sensitivity that bounds CQ diffusion; no existing bound sees it; what would discriminate is the T-slope (CQ σ_a ∝ T^{-1/2} with variance in the potential growing ∝ T; floor ∝ T⁰). A miss was allowed and did not occur; the can-fail was real (a floor above 1e-7 m/s² would have fired).
+
+SCORE 5/5, of which 1/1 can-fail hit
