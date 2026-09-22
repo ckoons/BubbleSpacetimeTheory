@@ -7585,7 +7585,7 @@ When Elie Sessions 6-7-8 close substrate-Hamiltonian core, SIX D-tier promotions
 
 ## T2405 — Koons tick BST-primary candidate form: t_substrate = t_Planck · α^(C_2²) (Lyra 2026-05-19 EOD)
 
-**Statement.** Per Keeper's flag on substrate-clock derivation: the "Koons tick" (substrate commitment-cycle clock granularity, Casey-observed ≈ 10⁻¹²⁰ s) admits a clean BST-primary candidate form.
+**Statement.** Per Keeper's flag on substrate-clock derivation: the "Koons tick" (substrate commitment-cycle clock granularity, Casey-observed ≈ 10⁻¹²⁰ s) admits a clean BST-primary candidate form. **[RE-LABELLED 2026-09-22, K1919: a candidate form FITTED to an unsourced number — the only written ancestor of "10⁻¹²⁰" is a COUNT per Planck time in notes/maybe/BST_Contact_Numbers.md:15 (7.2 × 10¹²⁰, from H₀); no tick of 10⁻¹²⁰ s exists in the corpus before this row (Grace R157, five spellings, full history). Tier I; not an input until Casey states the source (item 6 value limb).]**
 
 **CANDIDATE BST-PRIMARY FORM** (Toy 3133, 8/8 PASS):
 
