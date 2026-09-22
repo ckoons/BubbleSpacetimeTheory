@@ -1,0 +1,22 @@
+# Grace R156 — three pins for item 7b (Hirzebruch–Siegel order test), the T187 1920 line, and the N9a clause (2026-09-22)
+
+**Written 2026-09-22 08:27 EDT (clock). Keeper's round-3 prompt, Grace block (a)(b)(c). `didwe`: "Hirzebruch proportionality", "Siegel volume", "arithmetic quotient volume" — 0 rows each; the corpus site Keeper names is real: `notes/BST_R2_DOF_KType_Lemma.md:161` "(c) (Hirzebruch proportionality.) For a torsion-free arithmetic subgroup Γ of SO_0(5,2): …". New lane for Lyra + Elie; Cal freezes the lattice choice. Register v0.21 (N9a clause); 26-table row 1 re-emitted (`--check` clean, sentence 5/12/7/2). Keeper gates.**
+
+## (c) The three pins, from the primaries (DOIs resolved through Crossref today; texts NOT read — these are locators for Cal's hash list, not readings)
+1. **Hirzebruch 1958** — F. Hirzebruch, *Automorphe Formen und der Satz von Riemann–Roch*, in: Symposium Internacional de Topología Algebraica (UNAM and UNESCO, Mexico City, 1958), pp. 129–144 (German). MR 103280; Zbl 0129.29801. **No DOI and no ISBN exist** (1958 proceedings, pre-ISBN); the Hirzebruch Collection record is https://hirzebruch.mpim-bonn.mpg.de/89. The proportionality theorem for compact quotients Γ\D: Chern numbers of Γ\D are proportional to those of the compact dual with factor Vol(Γ\D)/Vol(compact dual) — the statement the corpus line :161 carries.
+2. **Mumford 1977** — D. Mumford, *Hirzebruch's proportionality theorem in the non-compact case*, Invent. Math. 42, 239–272 (1977), doi:10.1007/BF01389790. The extension to non-compact arithmetic quotients via toroidal compactification and the good extension of the automorphic bundles — the case SO(n,2;ℤ)\D_IV^n actually is (non-compact).
+3. **Siegel's volume/mass formula for indefinite orthogonal groups** — C. L. Siegel, *Über die analytische Theorie der quadratischen Formen*, Ann. Math. 36, 527–606 (1935), doi:10.2307/1968644 (I, definite); **II**, Ann. Math. 37, 230–263 (1936), doi:10.2307/1968694 (indefinite forms — the Maßformel the lane needs); III, Ann. Math. 38, 212–291 (1937), doi:10.2307/1968520; and C. L. Siegel, *On the theory of indefinite quadratic forms*, Ann. Math. 45, 577–622 (1944), doi:10.2307/1969191 (the measure of the fundamental domain of the unit group — by title; body not read). The corpus already runs this machinery: K1862-A (Siegel exactness for ℤ^{1,4} at 3 × 10⁻⁷, RH lane).
+
+**What the pins are for (Keeper's order claim, restated so the hash list is complete):** R = [χ(Q⁵)·Vol(Γ₅\D_IV⁵)/Vol(Q⁵)] / [χ(Q³)·Vol(Γ₃\D_IV³)/Vol(Q³)], χ(Q⁵) = 6, χ(Q³) = 4, Γ_n = SO(n,2;ℤ) or the level-137 congruence subgroup (Cal names which before any computation), Vol(Q^n) in a NAMED normalisation (Fubini–Study 2π^n/n! or the invariant metric). Step (1), blind: the π-exponent of the volume ratio from the ζ-values alone (each ζ(2k) = rational·π^{2k}). Can-fails: π-exponent ≠ 5; a rational factor not 6·1920/(something banked); an orbifold Euler characteristic that cannot be a mass ratio.
+
+## (b) The T187 row line (26-table row 1, applied)
+1920 = N_c·n_C·2^g = 3·5·128 coincides with 2^{n−1}·n! exactly and only at n = 5 (n = 3..6: 24, 192, 1920, 23040) — same species as Lyra's f = 3/(5π) flag; do not bank 1920. Tier unchanged (input), mechanism open, 5768's numbers already on the row (09-21).
+
+## (a) N9a clause (applied, register v0.21)
+Cal §979's can-fail verbatim in substance: achromatic component of the resolved ring CP across 230/345 GHz, same epoch, Faraday law and depth fixed from the LP rotation measure; prediction 0.24–0.36 % at r_em = 4–6 M, same r_em-scaled value on both objects; fires < 0.12 % or > 0.72 % at ≥ 3σ; passes inside the band on both; sign gap stated; not decidable today. Pins: Yin, Chen & Jing 2026 (Sci. China PMA 69, 100411, doi:10.1007/s11433-026-3031-2; arXiv:2604.15673 abstract read) — Faraday-dominated (radial, parabolic, quadrupole, combined) vs intrinsic (dipole, vertical), polarity-invariant vs polarity-sensitive; Shavelle & Palumbo 2024 (ApJL 970, L24, doi:10.3847/2041-8213/ad6000; arXiv:2407.09750) — 345 GHz ngEHT polarimetry, simultaneous 230+345 with frequency phase transfer, S/N ≈ 2–3.
+
+## Not done / owed
+- None of the three mathematics primaries was read today; the pins locate them for Cal's hash. If the lane opens, the proportionality constant's normalisation (Hirzebruch's vs Mumford's sign and volume conventions) is a convention-collision to pin BEFORE any number — standing lesson.
+- Yin et al. read from the arXiv abstract; Shavelle & Palumbo from the listing.
+
+— Grace, 2026-09-22
