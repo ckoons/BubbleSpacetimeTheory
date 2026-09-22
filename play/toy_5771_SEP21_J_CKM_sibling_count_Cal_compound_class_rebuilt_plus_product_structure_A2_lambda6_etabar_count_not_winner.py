@@ -48,7 +48,8 @@ for lab, (lo, hi) in bands.items():
     resI[lab] = dict(N=len(ib), chance=ch, surprising=surp, forms=[tagI[round(math.log(v), 11)] for v in ib])
 c0 = any(abs(v - Jpub) < 1e-12 for v in valsI)
 sc("P1 C0 must-catch: √2/(rank⁴·n_C⁵) in pool I", c0, False)
-sc("P2 reproduction by convention: N on K1809's band in [25, 60] (Cal 41)", 25 <= resI["(a') K1809 band"]["N"] <= 60, False, f"N = {resI['(a'') K1809 band']['N']}")
+NK = resI["(a') K1809 band"]["N"]  # amendment 09-22 08:3x: the f-string key was mistyped as (a'') and raised KeyError after the (I) counts printed; scoring line only
+sc("P2 reproduction by convention: N on K1809's band in [25, 60] (Cal 41)", 25 <= NK <= 60, False, f"N = {NK}")
 sc("P3 N(b) ≥ 2 ⟹ FAIL ⟹ IDENTIFIED", resI["(b) row tol"]["N"] >= 2, True, f"N(b) = {resI['(b) row tol']['N']}")
 sc("P4 N(a) ≥ 2 at the PDG 2024 1σ band", resI["(a) PDG2024 1σ"]["N"] >= 2, True, f"N(a) = {resI['(a) PDG2024 1σ']['N']}")
 sc("P5 density control: nothing surprising", not any(r["surprising"] for r in resI.values()), False)

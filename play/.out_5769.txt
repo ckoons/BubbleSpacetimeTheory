@@ -1,0 +1,28 @@
+pool |P| = 3531 distinct values (5755's menu)
+
+theta13 [target]: T = 0.0219 ± 0.0007; published 1/(N_c²·n_C) = 1/45 = 0.0222222, 1.47 % off, +0.5σ
+   (a) 1σ       [0.0212, 0.0226]: N =  9 of 3531   chance 12.64   surprising: no   forms: n_C·g/rank·C_2·N_max=0.02129, √(rank·n_C·C_2/g·N_max·N_max)=0.02137, n_C·n_C·n_C/C_2·g·N_max=0.021724, N_c/N_max=0.021898, √(1/N_c·n_C·N_max)=0.022059, 1/N_c·N_c·n_C=0.022222, √(rank·rank·g/N_c·N_max·N_max)=0.0223, n_C·n_C·C_2/g·g·N_max=0.022345, N_c·C_2·C_2/n_C·g·N_max=0.022523
+   (b) row tol  [0.0215778, 0.0222222]: N =  4 of 3531   chance 5.82   surprising: no   forms: n_C·n_C·n_C/C_2·g·N_max=0.021724, N_c/N_max=0.021898, √(1/N_c·n_C·N_max)=0.022059, 1/N_c·N_c·n_C=0.022222
+
+eta_bar [positive control (K1809 retired; must FAIL)]: T = 0.3523 ± 0.0071; published 1/(2√2) = 0.353553, 0.36 % off, +0.2σ
+   (a) 1σ       [0.3452, 0.3594]: N = 13 of 3531   chance 15.15   surprising: no   forms: √(g·g/N_c·N_max)=0.34528, √(N_c/n_C·n_C)=0.34641, n_C·n_C/rank·C_2·C_2=0.34722, √(rank·n_C·n_C/N_c·N_max)=0.34879, √(C_2/g·g)=0.34993, g/rank·rank·n_C=0.35, √(rank·C_2·g/n_C·N_max)=0.35018, √(1/rank·rank·rank)=0.35355, √(rank·rank·rank/N_c·N_c·g)=0.35635, n_C/rank·g=0.35714, √(n_C·g/rank·N_max)=0.3574, g·g/N_max=0.35766
+   (b) row tol  [0.351047, 0.353553]: N =  1 of 3531   chance 2.67   surprising: no   forms: √(1/rank·rank·rank)=0.35355
+   (a') K1809's band 0.349 ± 0.010: N = 19  ['√(N_c·N_c·g/rank·rank·N_max)', 'rank·n_C·n_C/N_c·g·g', '√(n_C·n_C/C_2·C_2·C_2)', '√(g/rank·n_C·C_2)', 'rank·C_2/n_C·g', '√(n_C/C_2·g)', '√(g·g/N_c·N_max)', '√(N_c/n_C·n_C)', 'n_C·n_C/rank·C_2·C_2', '√(rank·n_C·n_C/N_c·N_max)', '√(C_2/g·g)', 'g/rank·rank·n_C', '√(rank·C_2·g/n_C·N_max)', '√(1/rank·rank·rank)', '√(rank·rank·rank/N_c·N_c·g)', 'n_C/rank·g', '√(n_C·g/rank·N_max)', 'g·g/N_max', '√(N_c·N_c/rank·n_C·g)']
+
+lambda [negative control (T2530 blind; must PASS)]: T = 0.22431 ± 0.00085; published 1/√20 = 0.223607, 0.31 % off, -0.8σ
+   (a) 1σ       [0.22346, 0.22516]: N =  3 of 3531   chance 2.69   surprising: no   forms: √(1/rank·rank·n_C)=0.22361, rank·rank·g/n_C·n_C·n_C=0.224, √(n_C·n_C·n_C/N_c·C_2·N_max)=0.22514
+   (b) row tol  [0.223607, 0.225013]: N =  2 of 3531   chance 2.23   surprising: no   forms: √(1/rank·rank·n_C)=0.22361, rank·rank·g/n_C·n_C·n_C=0.224
+
+  [HIT] C0 must-catch: every published form is in the pool (control)  {'theta13': True, 'eta_bar': True, 'lambda': True}
+  [HIT] P1 reproduction of 5755: θ13 N(b) = 4, N(a) = 9 (control)  N(b) = 4, N(a) = 9
+  [MISS] P2 positive control: η̄ FAILS the rule (N(b) ≥ 2)  N(b) = 1: ['√(1/rank·rank·rank)']
+  [MISS] P3 negative control: λ = 1/√20 PASSES the rule (N(b) = 1)  N(b) = 2: ['√(1/rank·rank·n_C)', 'rank·rank·g/n_C·n_C·n_C']
+  [HIT] P4 density control: no row surprising (control)  surprising = none
+
+VERDICT (rule: PASS iff N(b) = 1; FAIL ⟹ IDENTIFIED iff N(b) ≥ 2; band (b) = the row's own tolerance):
+   theta13 : N(b) = 4 of |P| = 3531 (chance 5.82); N(a) = 9 (chance 12.64); rule FAIL
+   eta_bar : N(b) = 1 of |P| = 3531 (chance 2.67); N(a) = 13 (chance 15.15); rule PASS
+   lambda  : N(b) = 2 of |P| = 3531 (chance 2.23); N(a) = 3 (chance 2.69); rule FAIL
+   θ13 = 1/45: N(b) = 4 of 3531; rule FAIL; word NOT DECIDABLE BY THIS INSTRUMENT (negative control failed)
+
+SCORE 3/5, of which 0/2 can-fail hit

@@ -1,0 +1,26 @@
+====================================================================================================
+TOY 5771 — J sibling count. T = 3.12e-05 (+1.3e-06/−1.2e-06); published √2/50000 = 2.82843e-05, 9.35 % off, z = -2.43σ
+====================================================================================================
+
+(I) compound class: numerator {1, a, √a, a·b}, denominator c^d·e^f, d,f ∈ 0..5: |P| = 7519 (Cal reported 5,458; his script not retained)
+   (a) PDG2024 1σ   [3e-05, 3.25e-05]: N =  30 of 7519   chance 31.4   surprising: no
+   (a') K1809 band  [2.66e-05, 2.88e-05]: N =  32 of 7519   chance 31.2   surprising: no
+   (b) row tol      [2.828e-05, 3.412e-05]: N =  76 of 7519   chance 73.6   surprising: no
+  [HIT] P1 C0 must-catch: √2/(rank⁴·n_C⁵) in pool I (control)  
+  [HIT] P2 reproduction by convention: N on K1809's band in [25, 60] (Cal 41) (control)  N = 32
+  [HIT] P3 N(b) ≥ 2 ⟹ FAIL ⟹ IDENTIFIED  N(b) = 76
+  [HIT] P4 N(a) ≥ 2 at the PDG 2024 1σ band  N(a) = 30
+  [HIT] P5 density control: nothing surprising (control)  
+
+(II) product structure J_W = A²λ⁶η̄ on the 5755 menu (|P| = 3531): |S_λ| = 2, |S_A| = 9, |S_η̄| = 13  (1σ bands, PDG 2024 eq. 12.26)
+   corpus triple (1/√20, 4/5, 1/(2√2)): z_λ = -2.06σ, z_A = -1.73σ, z_η̄ = +0.17σ; J_W = 2.82843e-05
+   N_tri(a) = 208  of 234 all-in-band triples
+   N_tri(b) = 234  of 234 all-in-band triples
+   saturation: N_loose = 1323259 triples from ×2-loose factor ranges (493·537·521 = 137930061) land in J's 1σ band
+  [HIT] P6 the corpus's triple is NOT in S_λ×S_A×S_η̄  in-band: λ False, A False, η̄ True
+  [HIT] P7 N_tri(a) ≥ 1  N_tri(a) = 208
+
+VERDICT: J = √2/50000: N(b) = 76 of |P| = 7519; rule FAIL; word IDENTIFIED (K1809: retire; count reported, winner not named)
+         product: N_tri(a) = 208, N_tri(b) = 234, N_loose = 1323259
+
+SCORE 7/7, of which 4/4 can-fail hit
