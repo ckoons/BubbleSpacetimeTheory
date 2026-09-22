@@ -288,7 +288,7 @@ rules: |
 | Proved (depth 1) | 1 | T201 (Gravitational Constant — G = (ħc)(6π⁵)²α²⁴/m_e², 0.07%. Parents: T187 (Proton Mass), T198 (Fine Structure Constant).) **[ROLE OF α, added 2026-08-23 per K1817 — a disambiguation, NOT a re-tier: α enters here as a MEASURED INPUT, not as a derived BST quantity. K1673's framing is "trade G for m_e — one dimensionful input, a THEOREM." So the min-tier-of-links rule does NOT cap this row at T198's IDENTIFIED: a measured input is not a derived link. A reader with only the parent list cannot tell, which is why the role is now stated.]** | **[gravity-cluster · CANONICAL=T201 — one relation, several readings; NEVER counted beside another member (Cal §582/§586)]**
 | Proved (depth 0) | 1 | T202 (CKM Cabibbo — sin θ_C = 1/(2√n_C) = 1/(2√5), 0.3%. Parents: T667 (n_C).) |
 | Proved (depth 1) | 1 | T203 (Baryon Asymmetry — η = 2α⁴(1+2α)/(3π) = 6.105×10⁻¹⁰, 0.023%) |
-| Proved (depth 1) | 1 | T204 (Cosmological Constant — Λ = F_BST·α⁵⁶·e⁻², 0.02%, resolves 10¹²⁰ discrepancy) |
+| Proved (depth 1) | 1 | T204 (Cosmological Constant — Λ = F_BST·α⁵⁶·e⁻², 0.02%, resolves 10¹²⁰ discrepancy)  **[RE-LABELLED 2026-09-22, K1919 §5: an IDENTIFICATION at 0.02 % with a fitted factor F_BST·e⁻², not a derivation; Lecture 9 carries the thermostat form (register F2) instead; α⁵⁶ is a fitted rung of the α-tower (K1215) and may not serve as a blind input to item 6.]** |
 | Proved (depth 0) | 1 | T205 (Dark Matter = UNC — uncommitted channels, not particles, no new physics) |
 | Proved (depth 0) | 1 | T206 (Topological Insulators — Z₂ invariant from parity of band crossings at TRIM) |
 | Proved (depth 1) | 1 | T207 (Penrose Singularity — trapped surface + energy condition → geodesic incompleteness) |
