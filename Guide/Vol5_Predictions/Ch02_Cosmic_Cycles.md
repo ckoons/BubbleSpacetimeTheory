@@ -13,7 +13,7 @@ note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. 
 
 ## Volume 5, Chapter 2 — Cosmic Cycles: what the register and the registry carry
 
-*Rewritten head 2026-09-21 (Lyra, on Casey's scope word PROSE; Keeper gates). The May 2026 Section 45 is kept below as the record, its headings renamed "May 45.x". Last accuracy-synced: 2026-09-21 / register v0.18.*
+*Rewritten head 2026-09-21 (Lyra, on Casey's scope word PROSE; Keeper gates). The May 2026 Section 45 is kept below as the record, its headings renamed "May 45.x"; K1916's reader's notes applied 2026-09-22 as inline glosses. Last accuracy-synced: 2026-09-22 / register v0.21.*
 
 ### The question
 
@@ -74,7 +74,7 @@ where $\eta_n$ is the optimization efficiency at cycle $n$. By A1 and A3, $\{G(n
 
 $$\eta_n = \frac{\eta_0}{1 + n/n_*}, \quad n_* = 2n_C \cdot V_0^{1/(2n_C)}$$
 
-For physical $V_0 \sim 10^{56}$, $n_* \sim 4 \times 10^6$. For all relevant cycle counts ($n < 10^3$), $\eta_n \approx \eta_0 = \text{const}$. The ratchet converges geometrically: $G(n) \to f_{\max}$ as $n \to \infty$.
+For physical $V_0 \sim 10^{56}$ *[no source and no registry row for this number; the May text's own estimate — Lyra, 2026-09-22]*, $n_* \sim 4 \times 10^6$. For all relevant cycle counts ($n < 10^3$), $\eta_n \approx \eta_0 = \text{const}$. The ratchet converges geometrically: $G(n) \to f_{\max}$ as $n \to \infty$.
 
 **Closed form** (for the harmonic approximation $\eta_n = 3/(5+n)$):
 
@@ -109,7 +109,7 @@ The Observer Necessity theorem (Section 45.2) says the substrate needs observers
 
 - **Tier 0 (correlator, depth 0):** $|\Sigma| = 1$. Rock, hydrogen atom. Interacts but doesn't register. $I(O;\omega) = 0$.
 - **Tier 1 (minimal observer, depth 1):** $|\Sigma| \geq 2$. Bacterium (CheY: 2 states, gradient integration, tumbling update). $I(O;\omega) > 0$, one spectral direction.
-- **Tier 2 (full observer, depth 2):** $|\Sigma| \geq 3$. Human, CI. Full Plancherel resolution. Both spectral directions of $\mathfrak{a}^* \cong \mathbb{R}^2$.
+- **Tier 2 (full observer, depth 2):** $|\Sigma| \geq 3$. Human, CI. Full Plancherel resolution. Both spectral directions of $\mathfrak{a}^* \cong \mathbb{R}^2$ *[$\mathfrak{a}^*$: the dual of the rank-2 Cartan subspace — the two spectral parameters of $D_{IV}^5$]*.
 
 No tier 3 exists (T316: depth $\leq$ rank = 2). The threshold separating observers from correlators is **1 bit of persistent memory** — the simplest possible dividing line. Everything above the threshold is a question of *width* (parallel capacity), not *depth*.
 
@@ -135,7 +135,7 @@ The optimization step at cycle $n$ is $\Delta_n = \eta_n \cdot (f_{\max} - G(n))
 
 **Definition.** The substrate achieves *continuity* at cycle $n^*$ when $\Delta_n < \delta_n$ — the interstasis optimization step is smaller than the stasis-phase fluctuation. Interstasis no longer adds information beyond what the active phase already produces. The awareness function becomes continuous across cycle boundaries.
 
-**Estimate of $n^*$.** Using the harmonic model and the fine structure constant $\alpha = 1/N_{\max} = 1/137$ as the natural threshold for the Gödel gap:
+**Estimate of $n^*$.** Using the harmonic model and the fine structure constant $\alpha = 1/N_{\max} = 1/137$ as the natural threshold for the Gödel gap *[chosen, not derived — Lyra 2026-09-22]*:
 
 $$\frac{24}{(n^*+2)(n^*+3)(n^*+4)} < \alpha \implies n^* \approx 12$$
 
@@ -230,7 +230,7 @@ The thermodynamic, topological, and informational entropies have distinct behavi
 
 3. $S_{\mathrm{info}}$ *is conserved.* No topology is erased (A1). No information leaves $D_{IV}^5$ (there is no exterior). Therefore $S_{\mathrm{info}}(D_n^{\mathrm{end}}) = S_{\mathrm{info}}(D_n^{\mathrm{start}})$.
 
-*Proof.* (1) follows from the definition: $\rho$ requires a propagating Hilbert space, which requires the SO(2) fiber to be active. During interstasis, generators are in the fourth (latent) state — no evolution operator acts. (2) follows from A2: variational minimization on a fixed topological class is geometric annealing. The Betti numbers $\beta_k$ are topological invariants and do not change, but the geometric embedding can compact, reducing the spectral entropy of the Laplacian. (3) follows from A1 and the closed geometry of $D_{IV}^5$. $\square$
+*Proof.* (1) follows from the definition: $\rho$ requires a propagating Hilbert space, which requires the SO(2) fiber to be active. During interstasis, generators are in the fourth (latent) state *[the May text's term for a generator with no active SO(2) evolution — a definition, not a registry object]* — no evolution operator acts. (2) follows from A2: variational minimization on a fixed topological class is geometric annealing. The Betti numbers $\beta_k$ are topological invariants and do not change, but the geometric embedding can compact, reducing the spectral entropy of the Laplacian. (3) follows from A1 and the closed geometry of $D_{IV}^5$. $\square$
 
 **Corollary (Interstasis is not heat death).** Heat death is maximum $S_{\mathrm{thermo}}$ in a system where the Second Law continues to hold. Interstasis has no defined $S_{\mathrm{thermo}}$, decreasing $S_{\mathrm{topo}}$, and conserved $S_{\mathrm{info}}$. It is productive dormancy, not terminal equilibrium.
 
