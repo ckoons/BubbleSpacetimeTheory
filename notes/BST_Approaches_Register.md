@@ -1,8 +1,8 @@
 ---
 title: "BST Approaches Register — did we do this before?"
 author: Keeper (instrument-derived)
-date: 2026-09-22 08:30 EDT
-status: "DERIVED by play/keeper_approaches_register.py; 3309 rows; 917 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
+date: 2026-09-22 09:03 EDT
+status: "DERIVED by play/keeper_approaches_register.py; 3310 rows; 918 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
 ---
 
 # BST Approaches Register
@@ -31,6 +31,7 @@ One row per audit / ruling / note. **Model-drafted fields (lane, approach, outco
 | (no rubric cell) |  | K1917 | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1917_A9_REPRODUCTION_PATH_one_command_download_to_letter_REPRODUCED_on_a_fresh_venv_records_agree_to_6e-8_three_guard_catches_all_mine_2026-09-21.md` |
 | (no rubric cell) |  | Lyra_ITEM6_Lambda_mismatch_power_p_as_th | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_ITEM6_Lambda_mismatch_power_p_as_the_Peirce_weight_of_P_lambda_e1_plus_e2_on_V12_p_equals_1_exponent_2_domain_0_2_contains_exactly_one_weight_kill_and_tolerance_first_input_list_for_Cal_2026-09-21.md` |
 | (no rubric cell) |  | Lyra_ITEM7_where_does_6pi5_live_three_me | 2026-09-21 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_ITEM7_where_does_6pi5_live_three_mechanism_sentences_enumerated_T187_sketch_retired_a1_is_a_name_June_reading_is_a_relabeling_residual_order_by_naturalness_only_2026-09-21.md` |
+| (no rubric cell) |  | K1918 | 2026-09-22 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1918_ROUND3_CLOSE_6pi5_fourth_sentence_dies_at_the_order_pi_exponent_0_or_2_never_5_three_readers_T187_closing_sentence_adopted_theta13_undecidable_by_instrument_J_retire_item6_circularity_line_owed_by_Casey_D1_lemma_2026-09-22.md` |
 | (no rubric cell) |  | Lyra_ITEM6_PINS_Lambda_is_a_RATE_tau_max | 2026-09-22 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_ITEM6_PINS_Lambda_is_a_RATE_tau_max_1_over_Lambda_so_Lambda_ratio_is_t_P_over_tau_H_and_t_K_is_T2405s_I_tier_tick_not_tau0_circularity_flag_on_10_minus_120_origin_2026-09-22.md` |
 | (no rubric cell) |  | Lyra_ITEM7b_Hirzebruch_proportionality_f | 2026-09-22 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_ITEM7b_Hirzebruch_proportionality_fourth_sentence_for_6pi5_ORDER_TEST_pi_exponent_of_the_Euler_characteristic_ratio_is_0_for_every_lattice_compact_side_2_single_domain_5_with_rational_1_over_10_lane_dies_at_the_order_closing_sentence_2026-09-22.md` |
 | (no rubric cell) |  | cal:FREEZE | 2026-09-22 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Cal_FREEZE_item7b_Hirzebruch_Siegel_order_test_lattice_normalisation_and_blind_pi_exponent_prediction_2026-09-22.md` |
@@ -3323,5 +3324,5 @@ One row per audit / ruling / note. **Model-drafted fields (lane, approach, outco
 | WITHDRAWN | Wallach reps / generation address | F321 | 2026-06-25 | STOP | WITHDRAWN ⚠VERIFY_FAIL | Correcting F320's framing of 3 generations as 3 K-types within one rep to align with Grace's Wallach rep correspondence at ν={0,3/2,5} | F320's '3 K-types in one rep' framing was incorrect organization and is being withdrawn | Wallach points, Korányi-Wolf strata, boundary Dirac, Dirac field decomposes, within-rep matter K-type, ν={0,3/2,5} | F320 | F320's '3 K-types in one rep' framing is WITHDRAWN; my standing contribution is the within-rep matter K-type (the spinor/half-form Dirac mode in each Wallach rep) — exactly the 'within-rep K-type pin' | `notes/Lyra_F321_reconcile_addresses_grace_wallach_reps_correct_F320_oneRep_framing_plus_absorb_elie_kappa.md` |
 | WITHDRAWN | f₀(1710) mixing | K513 | 2026-06-24 | STOP | WITHDRAWN ⚠VERIFY_FAIL | Downgrading f₀(1710) from unique identification to consistent with not unique identification in Paper A §7 | The overclaim in Paper A §7 regarding f₀(1710) was explicitly withdrawn as an overclaim | f₀(1710), BST 0⁺⁺ glueball, mixing puzzle, Cal #335, Cal #372 |  | spectrum closed / landed interacting" EXPLICITLY WITHDRAWN as overclaim | `notes/Keeper_K513_Cal_372_SHIP_GATE_OPEN_Papers_A_v0_3_B_v0_6_SIGNED_OFF_actual_text_verified_two_bonus_absorptions_f0_1710_mixing_caveat_C2_footnote_in_2_Casey_ship_decision_standing_2026-06-24.md` |
 
-Counts by outcome: =21, AMENDMENT=38, CLOSED_NEGATIVE=298, CLOSED_POSITIVE=1426, CONDITIONAL=380, OPEN=946, PARKED=7, RETRACTED=147, WITHDRAWN=34
-Unstable rows: 956 / 3309
+Counts by outcome: =22, AMENDMENT=38, CLOSED_NEGATIVE=298, CLOSED_POSITIVE=1426, CONDITIONAL=380, OPEN=946, PARKED=7, RETRACTED=147, WITHDRAWN=34
+Unstable rows: 956 / 3310
