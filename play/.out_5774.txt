@@ -1,0 +1,20 @@
+====================================================================================================
+TOY 5774 — Hirzebruch proportionality applied to T187's ratio: the π-exponent, from structure
+====================================================================================================
+  χ(Q³) = 4, χ(Q⁵) = 6  (odd quadric: n+1 even-degree classes; Q⁵'s 6 is the Schubert-cell count = Lyra's 6)
+  [HIT] P1 χ(Q³) = 4, χ(Q⁵) = 6 (control)  
+  rank-1 control: vol(SL₂(ℤ)\H) = π/3 = 2ζ(2)/π = 1.047198; χ = −vol/2π = -0.166667 = −1/6 (rational); vol(S²) = 4π, χ(S²) = 2; vol ratio 0.083333 = |χ|/χ(S²) = 0.083333  → proportionality exact; the π of the volume is gone from χ
+  [HIT] P4 rank-1 proportionality check: vol(Γ\H)/vol(S²) = |χ(Γ\H)|/χ(S²) = 1/12 (control)  
+
+  Siegel ζ-products: m=7 → ζ(2)ζ(4)ζ(6) ∝ π^12;  m=5 → ζ(2)ζ(4) ∝ π^6;  raw ratio π^6 — but these are Γ\G Tamagawa volumes; dividing by vol(K)·vol(dual) normalisations returns Harder's rational χ (the rank-1 control shows the mechanism)
+  π-exponent of R as a ratio of Euler characteristics: 0
+  π-exponent of the VOLUME ratio vol(Γ₅\D⁵)/vol(Γ₃\D³) (both in the dual-normalised metric): 2  (= vol(Q⁵)/vol(Q³) = π²·3!/5! = π²/20 in the 2π^n/n! convention)
+  lattice dependence: none — a congruence subgroup multiplies χ by its rational index; the exponent is unchanged
+  [HIT] P2 R (Euler-characteristic ratio) is rational: π-exponent 0 (control)  
+  [HIT] P3 volume-ratio π-exponent = 5 − 3 = 2 (control)  
+  [HIT] P5 ORDER: the exponent is 0 or 2, not 5 — step (2) does not open  {0, 2} ∌ 5
+  [HIT] P6 1920 = N_c·n_C·2^g = 2^(n−1)·n! at n = 5 only (n = 1..12)  n = [5]
+
+VERDICT: the fourth sentence dies at the order. Hirzebruch proportionality makes '6 × a volume' a theorem, but the volume it multiplies is a RATIONAL multiple of vol(Q⁵) (Harder), so the restated Q⁵/Q³ ratio carries π⁰ (as Euler characteristics) or π² (as volumes) — never π⁵. The π-exponent of 6π⁵ cannot come from arithmetic quotients of D_IV⁵ and D_IV³.
+
+SCORE 6/6, of which 2/2 can-fail hit
