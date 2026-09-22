@@ -248,16 +248,18 @@
       "sector": "CKM",
       "form": "existence FORCED (T2547); γ = arctan(√n_C) = 65.9° admits TEN competing BST forms in the band",
       "tier_word": "open",
-      "note": "K1809: the T2198 standard applied — γ's form has no discriminating power; magnitude OPEN (08-22 closure)",
+      "note": "K1809: the T2198 standard applied — γ's form has no discriminating power; magnitude OPEN (08-22 closure) · J = √2/50000 = A²λ⁶η̄ (5771, Elie, 2026-09-22, on Cal §980 freeze ff94d444/2dc7de99; K1918 §2; Cal §981 (B); K1914 §5 anticipated): IDENTIFIED AT CHANCE — count, not winner: at chance on Cal's §705 compound class and on the product structure; 208 of 234 all-in-band (λ, A, η̄) sibling triples already land inside J's PDG 2024 band (J = 3.12 +0.13/−0.12 e−5), so a J match carries no information beyond its factors. The J claims RETIRED: 0.02 % (T1960), 0.3 % (Vol2 Ch7), 2.1 % (toy 967). Row word UNCHANGED (open: existence forced, value open).",
       "rows": [
         "T2547",
         "K1809",
-        "T2198 (retired)"
+        "T2198 (retired)",
+        "K1918",
+        "toy 5771"
       ],
       "last_retier": "2026-08-22 (K1809)",
       "v030_slot": null,
       "old_key_0717": "VALUE_SPECIFIC / k962 IDENTIFIED",
-      "flag": null,
+      "flag": "J retired at chance (5771)",
       "four_word_standard": "—"
     },
     {
@@ -302,11 +304,13 @@
       "sector": "PMNS",
       "form": "1/(N_c²·n_C) = 1/(g²−rank²) = 1/45 = 0.02222 vs 0.02195 (0.1%)",
       "tier_word": "identified",
-      "note": "Cal §959: \"row 16 identified per K1260 (both forms; the generator's note wrong)\" — K1260's 08-07 ruling made BOTH forms (1/45 and 3/137) identified and the July tier map never absorbed it; my 09-11 note (\"K1260 retired only the 3/137 sub-claim\") was wrong and is withdrawn. 1/45 = 0.02222 vs 0.02195 (0.1%); the Pythagorean route g² = 45 + 4 is a form on the ladder, not a proved mechanism.",
+      "note": "Cal §959: \"row 16 identified per K1260 (both forms; the generator's note wrong)\" — K1260's 08-07 ruling made BOTH forms (1/45 and 3/137) identified and the July tier map never absorbed it; my 09-11 note (\"K1260 retired only the 3/137 sub-claim\") was wrong and is withdrawn. 1/45 = 0.02222 vs 0.02195 (0.1%); the Pythagorean route g² = 45 + 4 is a form on the ladder, not a proved mechanism. · 5769 (Elie, 2026-09-22, on Cal §980 freeze c10f362a/315c4bf6; K1918 §2; Cal §981 (B)): the K1809 sibling-count instrument on 5755's menu is NOT DECIDABLE for this row — N = 4 siblings at the row's tolerance reproduced, but BOTH controls missed, in opposite directions (η̄ did not fail; λ = 1/√20 did not pass); band (b) makes the count a function of the row's own miss, so the rule rewards proximity — instrument retired for PMNS at a fixed band. Word UNCHANGED (identified).",
       "rows": [
         "K632",
         "K962",
-        "K1260"
+        "K1260",
+        "K1918",
+        "toy 5769"
       ],
       "last_retier": "2026-08-07 (K1260) — absorbed into the key 2026-09-14 (Cal §959 / K1897 / Elie 5755)",
       "v030_slot": "8 (θ₁₃, FIRM)",
