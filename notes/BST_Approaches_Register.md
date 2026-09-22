@@ -1,7 +1,7 @@
 ---
 title: "BST Approaches Register — did we do this before?"
 author: Keeper (instrument-derived)
-date: 2026-09-22 11:24 EDT
+date: 2026-09-22 11:44 EDT
 status: "DERIVED by play/keeper_approaches_register.py; 3312 rows; 920 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
 ---
 
