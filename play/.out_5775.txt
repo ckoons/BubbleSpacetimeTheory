@@ -1,0 +1,15 @@
+====================================================================================================
+TOY 5775 — D1: Šilov surface weight on F323 modes; the order lemma
+====================================================================================================
+  Šilov weights w_k = ⟨(x₁²+x₂²)^k⟩_{S⁴}: exact ['1', '2/5', '8/35'] = [1.0, 0.4, 0.22857142857142856]; MC [1.0, 0.3999, 0.2285]
+  [HIT] P2 existence gate: three finite non-zero weights, exact (1, 2/5, 8/35), MC agrees to 3 digits  
+  switch times: τ_eμ = ln(5/2)/4 = 0.22907, τ_μτ = ln(7/4)/(9/4) = 0.24872 → μ leads for Δτ = 0.0196; lose-the-lead order: ['e', 'mu'], final leader tau (never freezes)
+  [HIT] P3 Šilov weights: e freezes first, then μ; τ (Šilov) is the final leader and never freezes — the reverse of the frozen order  
+  [HIT] P4a equal weights: τ leads from τ>0 and never loses (no channel freezes below it); population order for τ>0 is e < μ < τ = K1828's strict reverse of Šilov-first (control)  losers [], final tau
+  sweep of 10,000 random positive weight triples (8 decades): {'silov_first_loser': 0, 'e_first_loser': 3370, 'mu_first_loser': 3275, 'no_switch': 3355, 'final_not_tau': 0}
+  [HIT] P1 lemma: the Šilov stratum is NEVER the first to lose the lead, and is the final leader in every case (0 exceptions in 10,000)  
+  proof in one line: for E_j < E_k, (w_j/w_k)·e^{(E_k−E_j)τ} is increasing in τ, so k can lose the lead only to lower-E channels; E_τ = 0 is the minimum, so τ never loses the lead and cannot freeze first.
+
+VERDICT: FLOOR-BY-ORDER. The Šilov surface weight EXISTS (three finite non-zero numbers, zero freedom) — and it cannot matter: under leadership-switch freeze-out with E = ν², no constant weight of any kind can make the Šilov stratum freeze first. The door Lecture 6 names is not a door for this mechanism; a successor must change the E's or the switch rule, not the weights.
+
+SCORE 4/4, of which 3/3 can-fail hit
