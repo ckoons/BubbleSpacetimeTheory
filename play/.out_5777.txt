@@ -1,0 +1,30 @@
+====================================================================================================
+TOY 5777 — blind (w₀, wₐ) from the ledger's filling law
+====================================================================================================
+  prereg sha256 c5d837627497a9474f22e03c091b218be5d544a29a9b8b921805437d3d5bc7ce  == frozen
+
+  D1 literal ledger: ρ_DE(a=1)/ρ_crit = 2.7726   (predicted 4 ln 2 = 2.7726)
+  [HIT] P1 ρ_DE/ρ_crit = 4 ln 2 for the literal ledger (control)  
+  D1 direct: −(1/3) d ln ρ/d ln a − 1 over a∈[0.5,1] = w_total of the background = [-0.690, -0.218]; self-consistent (Ω_DE const ⟹ w_DE = 0): w₀ = 0, wₐ = 0
+  [HIT] P2 D1 self-consistent w_DE = 0 at every a (Hsu 2004; K1 fires)  w₀ = 0, wₐ = 0; direction: none
+  D2 shot-noise ledger, c =  0.1: w₀ + 1 = 3.082e-64, wₐ = +3.374e-63  → wₐ POSITIVE
+  D2 shot-noise ledger, c =  1.0: w₀ + 1 = 3.082e-63, wₐ = +3.374e-62  → wₐ POSITIVE
+  D2 shot-noise ledger, c = 10.0: w₀ + 1 = 3.082e-62, wₐ = +3.374e-61  → wₐ POSITIVE
+  [MISS] P3 D2: w₀ + 1 ∈ (1e-62, 1e-60) for c ∈ [0.1, 10], wₐ > 0 (F799's sign), |wₐ| < 1e-59  {0.1: ('3.1e-64', '+3.4e-63'), 1.0: ('3.1e-63', '+3.4e-62'), 10.0: ('3.1e-62', '+3.4e-61')}
+
+  DIRECTION PRINTED BEFORE ANY DESI NUMBER: the ledger's only zero-knob correction gives w → −1 from ABOVE, wₐ > 0 — the register's rows (F799/T2559), not the state block's 'wₐ < 0'.
+  ORDER: |w + 1| ~ N_H^{-1/2} ~ 1e-61 — observationally ΛCDM.
+
+====================================================================================================
+COMPARE LINE (read last): DESI DR2 and the fitted-δ null, from Grace's R158 pin
+====================================================================================================
+   PIN | - **F2 door column** = the state block's sentence (K1919 §7): p = 1 by the Peirce weight; at that value the form is de Sitter's Λ ∝ H² — a consistency with GR, not a value; value limb closed; the open object is the filling law (δ in S ∝ A^δ; constant fraction → w = 0, dead on sight; δ = 1 is ΛCDM, DESI DR2 3.1σ against). The 08-26 door text is kept beneath as superseded; its DOMAIN = KILL clause is kept and satisfied (p = 1 ∈ (0, 2)).
+   PIN | 3. **DESI DR2 Results II** — DESI Collaboration, *DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints*, Phys. Rev. D 112, 083515 (2025); arXiv:2503.14738 (abstract read): the w₀wₐ solution "in the quadrant with w₀ > −1 and wₐ < 0 … is preferred over ΛCDM at 3.1σ for the combination of DESI BAO and CMB data"; with SNe, 2.8–4.2σ depending on the sample. DOI check: UNRESOLVED (Crossref lookup of 10.1103/PhysRevD.112.083515 failed; PRD 112, 083515 (2025) from the arXiv listing).
+   PIN | 4. **Luciano & Paliathanasis 2025** — G. G. Luciano, A. Paliathanasis & E. N. Saridakis, *Constraints on Barrow and Tsallis holographic dark energy from DESI DR2 BAO data*, J. High Energy Astrophys. 49, 100427 (2026); arXiv:2506.03019 (submitted 2025-06-03), doi:10.1016/j.jheap.2025.100427. Three authors, not two — Saridakis is on the paper. Not read today; it is Elie's null to beat (the fitted-δ Barrow/Tsallis fit on the information criterion).
+   PIN | - Padmanabhan, Hsu, Li, Luciano+Paliathanasis+Saridakis: DOIs pinned, texts not read today.
+   parsed DESI w₀ candidates: []  wₐ candidates: []
+   verdict: D1 (w = 0) is excluded by every dataset; D2 sits at the ΛCDM point (w₀ = −1, wₐ = 0 to 60 decades) — it MISSES DESI DR2's best fit by DESI's own stated distance from ΛCDM (2.8–4.2σ per the release; the pinned figure above), and on AIC it can only tie a one-knob Barrow/Tsallis fit if that fit's Δχ² < 2, else lose. A MISS, as the prompt allowed.
+  [HIT] P4 both candidates lie outside DESI DR2's 1σ region (D1 by construction; D2 at the ΛCDM point)  read from the pin lines above
+  [HIT] P5 control: no DESI/Luciano number read before D1–D3 printed (the compare block is gated by --compare and runs after) (control)  
+
+SCORE 4/5, of which 2/3 can-fail hit

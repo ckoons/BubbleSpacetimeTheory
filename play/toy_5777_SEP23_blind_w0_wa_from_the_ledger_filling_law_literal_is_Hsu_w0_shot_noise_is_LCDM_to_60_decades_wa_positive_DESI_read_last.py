@@ -18,13 +18,13 @@ Om = 0.31
 def H2(a): return Om * a ** -3 + (1 - Om)          # in units of H0²
 G, hbar, c = 6.67430e-11, 1.054571817e-34, 2.99792458e8
 H0 = 67.4e3 / 3.0856775814913673e22; lP2 = hbar * G / c ** 3
-def NH(a): return 4 * math.pi / (H2(a) * H0 ** 2 * lP2)     # horizon count, rule R
+def NH(a): return 4 * math.pi * c ** 2 / (H2(a) * H0 ** 2 * lP2)     # horizon count, rule R = A_H/ℓ_P², A_H = 4π(c/H)² — AMENDED 09-23 12:1x: the first run dropped c² (units slip; instrument only, prereg untouched)
 # D1: literal ledger, ε ≡ 0: ρ_DE = E_commit·N_H/V_H, E = ħH ln2/2π, V_H = (4π/3)(c/H)³ → ρ ∝ H²
 def rho_D1(a):
     Hh = math.sqrt(H2(a)) * H0
     E = hbar * Hh * math.log(2) / (2 * math.pi); V = 4 / 3 * math.pi * (c / Hh) ** 3
     return E * NH(a) / V
-rho_crit0 = 3 * H0 ** 2 * c ** 2 / (8 * math.pi * G)       # energy density
+rho_crit0 = 3 * H0 ** 2 * c ** 2 / (8 * math.pi * G)       # critical ENERGY density, J/m³ (ρ_DE below is E·N/V, also J/m³)
 frac = rho_D1(1.0) / rho_crit0
 print(f"\n  D1 literal ledger: ρ_DE(a=1)/ρ_crit = {frac:.4f}   (predicted 4 ln 2 = {4*math.log(2):.4f})")
 sc("P1 ρ_DE/ρ_crit = 4 ln 2 for the literal ledger", abs(frac / (4 * math.log(2)) - 1) < 1e-9, False)
