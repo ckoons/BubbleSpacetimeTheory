@@ -7,6 +7,8 @@ status: "v0.1 — Casey's chirality steer answering F97's SU(2)_R question. MECH
 
 # F98 — Parity violation is substrate holomorphicity: one direction reads parity
 
+> **[RETIRED IN PART 2026-09-25 19:02 EDT (Lyra, round 4, on Cal §985)]:** the mechanism sentence 'parity exchanges holomorphic ↔ antiholomorphic, so H² violates parity by construction' is WRONG for spatial parity. Spatial reflections lie in O(5), and they act complex-linearly on ℂ⁵, so they PRESERVE holomorphicity, and H² is P-invariant. What exchanges holo ↔ antiholo is complex conjugation (J → −J): the arrow, T/CP, not P (Cal §985: J orients the arrow, not parity). This note's own caveat already carried the evidence: the holomorphic tangent 5 → (2,2) ⊕ (1,1) under SO(4) = SU(2)_L × SU(2)_R is LEFT–RIGHT SYMMETRIC. The prediction 'no right-handed charged currents' is not implied by holomorphicity. Handedness is OPEN. The lead is the SO(5) → SO(4) step (see `notes/Lyra_R4_*`).
+
 ## 0. Casey's steer
 
 I asked (F97) whether SU(2)_R — present in SO(5) ⊂ K but ungauged in the SM — is a "broken" symmetry. Casey's geometric eye:

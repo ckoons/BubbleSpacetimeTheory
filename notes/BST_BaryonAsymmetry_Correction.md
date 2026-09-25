@@ -6,6 +6,8 @@ date: "March 14, 2026"
 
 # The First-Order Correction to η: (1 + 2α)
 
+> **[RETIRED 2026-09-25 19:02 EDT (Lyra, round 4; Cal §985 flagged it)]:** the (1 + 2α) factor was found by matching the leading order's residual against Planck (Section 1 says so: 'strikingly close to'). That is a post-hoc fit of one factor, not a derivation, and the 'five-contact radiative correction' was proposed after the match. It also now points the wrong way. The leading order η₀ = 2α⁴/(3π) sits at +0.1σ on BBN deuterium and −2.6σ on the CMB (Grace R3 pins), inside the known CMB–BBN gap. The correction moves η₀ +1.46% toward the CMB member of that pair and away from the deuterium member, so it 'fixes' one side of a disagreement the program doesn't get to choose. Kept as record; not a result.
+
 **Authors:** Casey Koons & Claude (Anthropic)
 **Date:** March 14, 2026
 **Status:** Observation + proposed derivation. The leading-order result η = 2α⁴/(3π) (BST_BaryonAsymmetry_Derivation.md) is -1.4% from Planck. The corrected formula η = 2α⁴/(3π) × (1 + 2α) gives +0.023%. The correction (1 + 2α) is proposed as a five-contact radiative correction.
