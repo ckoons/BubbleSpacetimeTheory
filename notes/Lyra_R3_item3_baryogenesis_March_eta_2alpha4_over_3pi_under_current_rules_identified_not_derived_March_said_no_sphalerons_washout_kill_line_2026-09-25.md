@@ -1,0 +1,21 @@
+# Lyra — Round 3, item 3: η = 2α⁴/(3π) (March) under today's rules. Identified, not derived; the March text contradicts today's sphaleron reading; washout is the kill line
+**Lyra, 2026-09-25 (Friday), 16:35 EDT (clock). Read: `notes/BST_BaryonAsymmetry_Derivation.md` Sections 1, 2.3, 3.3, 4.1–4.2, and the section headings of 5–7. K1924 Section 2 (Casey: over-winding = sphaleron, ΔB = N_gen·ΔN_CS = 3). No number from memory: Planck's η and σ are Grace's pins. The SM washout coefficient is named below as **pin-owed**.**
+
+## 0. Kill line, first
+If the asymmetry the March mechanism creates is **B + L** (its own "Contact 1: B+L violation", Section 4.1), and SM sphalerons are **in equilibrium after** the commit that set it, they erase B + L completely and η → 0. The formula survives only if **(i)** the asymmetry is set *after* sphaleron freeze-out, or **(ii)** it carries **B − L ≠ 0**. In case (ii) the surviving fraction is the SM's B/(B−L) conversion coefficient (Harvey–Turner; **Grace pins the value**). That coefficient is O(1/3), which multiplies 2α⁴/(3π) and moves it off Planck by far more than 2.6σ, unless the March prefactor already contains it. It does not claim to.
+
+## 1. The collision inside the corpus
+March, Section 2.3: "**There are no sphalerons, no electroweak transition at 100 GeV (that epoch is pre-spatial in BST).**" Today, K1924 Section 2 says Casey's over-winding *is* the SM sphaleron (ΔB = 3 per unit winding), frozen out now and free at high energy. **Both cannot stand.** If today's reading holds, the March note's timeline is wrong, and the washout question in Section 0 is unavoidable. If March's holds, "over-winding = sphaleron" is a resemblance and not an identity. **Casey's March quote ("preferential winding in the direction of commitment") fits both. The March *text* fits only the second.** It needs a dated head either way.
+
+## 2. What in the March note is derived and what is identified (today's tiers)
+- **α⁴, identified.** "Four contacts, each of weight α" (Section 4.1–4.2) argues the *four* by analogy to the SM box diagram. The *weight α per contact* is asserted, not derived: why α and not α/π or α/(2π)? A diagram count by analogy is a coordinate.
+- **2/(3π), identified, with a warning sign.** "Three independent routes to 2/(3π)" (Section 7: Yang–Mills × efficiency, colour dilution × fibre normalization, instanton × strong coupling). Three routes to one small rational × 1/π is **the look of a menu, not a forcing** (standing lesson: no wave-through on a clean number). Route A's cancellation 7·20/(10·21) = 2/3 uses T_c/N_max = 20/21, which is itself an identified ratio.
+- **The bias (Sakharov C/CP), a picture, not a mechanism.** "Forward windings see lower impedance" is Casey's sentence restated. No impedance is computed.
+- **Out-of-equilibrium, now available in the corpus.** March used the S¹ activation. Today the candidate is the commit freeze (T2627). That is a better object, but it has to be dated against the sphaleron freeze-out, which is Section 0's (i).
+- **α inside the formula:** allowed if α is *used as measured*. Then η is a formula in a measured constant, and its tier cannot exceed α's identification tier. That is Cal's question 3, and the honest answer is that it counts as a relation, not a derivation of η.
+- **The exposures:** no leptogenesis, since ν_R is forbidden (T1949, T1984). SM electroweak baryogenesis fails (no first-order transition; not enough CP). So BST needs its own bias *and* its own out-of-equilibrium step *and* a timing relative to sphaleron freeze-out. **March supplied the first two by assertion and denied the third's premise.**
+
+## 3. Tier and row (for Grace's row, on Keeper's word)
+**η = 2α⁴/(3π): IDENTIFIED (a relation in measured α), at the tension Grace's pinned Planck value gives (Keeper: −2.6σ). March's "derivation" is relabelled "relation with a mechanism picture".** Kill: η's measured value at Grace's pinned precision, **and** the washout line in Section 0: the relation must say whether its asymmetry is B + L or B − L and when it is set relative to sphaleron freeze-out. Until it does, a sphaleron-compatible BST (K1924 Section 2) and this formula are not yet shown compatible.
+
+— Lyra. Four α's by analogy, 2/(3π) by three routes, and a March text that says no sphalerons. Today's reading says sphalerons; then washout decides.
