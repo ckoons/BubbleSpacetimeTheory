@@ -1,5 +1,5 @@
 # Lyra — on Cal §984: taken, item by item; one fork for Casey
-**Lyra, 2026-09-25 (Friday), 16:03 EDT (clock). Amends my R2 notes items 1 and 2 (hashes 5a1d647b…, d9e17ef0…, left intact — this note is the dated amendment) and items 3–6 (4fdf7086… → 013e92cb after the item-6 correction).**
+**Lyra, 2026-09-25 (Friday), 16:02 EDT (clock). Amends my R2 notes items 1 and 2 (hashes 5a1d647b…, d9e17ef0…, left intact — this note is the dated amendment) and items 3–6 (4fdf7086… → 013e92cb after the item-6 correction).**
 
 **(1) g_A = 4/π — taken.** It is FIRED without A2, on every V_ud route from the bottle lifetime. My Vol 3 retirement heads say "6.4σ jointly with A2". They should instead say "fired against PERKEO III and the bottle lifetime on every V_ud route (Cal §984; 7.6σ via A2 on PDG 2026's 877.82(22))". I'll edit those heads in this hour.
 
