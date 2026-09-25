@@ -25,3 +25,9 @@ Type IV₅ triple product {x y z} = (x·ȳ)z + (z·ȳ)x − (x·z)ȳ; rank-one t
 7. Carried, not dropped: jets (Lund b·κ), OZI photon share — pins pending.
 
 — Keeper. Counter next K1926.
+
+## Addendum (19:00 EDT) — Casey answers both questions, verbatim
+> "1) I simply meant compact for 'clump'. 2) Any winding that does not close does not create a particle."
+
+**(1)** "Clump" = compact (point-like), not an extended object — consistent with Lyra's unit of m_p/N_c per dark mode; no "clumps made of units" layer. The atomic-scale size clause stands as compactness only.
+**(2) Dark matter is not particles** — an unclosed winding carries energy and gravitates but is not a particle. Consequences, stated so they can fail: (a) **no particle-physics signal of any kind** — no direct-detection recoil, no collider or meson-decay production, no annihilation line (A13; Belle II's excess becomes a pure kill line); (b) **Lyra's item 4 dissolves:** colour is a label on closed records (K1924/K1925), so an unclosed winding has none — no "why no colour" owed; (c) the corpus's "Dark matter is not a particle" (parity note line 12) and T2138 agree; Lyra's "dark mode of m_p/3" must be worded as energy per unclosed mode, not a particle mass; (d) **owed:** a non-particle still needs a velocity distribution for the coldness line (Lyman-α, m_WDM-equivalent) and a stated way to exchange with closed windings at the freeze-out without being a quantum of a field — Lyra states both or names the wall.
