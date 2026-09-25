@@ -75,7 +75,7 @@
 ### Ch 11 Nuclear Decay (~40%)
 **Anchors**: substrate-mediated decay; Casey neutron decay framework
 - τ_n = 878.1 s (Fermi theory + BST inputs, g_A = 4/π = 1.2732 vs 1.2762 PDG; 0.03%)
-  - **[RETIRED 2026-09-25 (Lyra, on K1923):** g_A = 4/π fails — 5.7σ against PERKEO III, 6.4σ jointly with A2 on UCNτ. The "0.03%" above was also misstated: 1.2732 vs 1.2762 is 0.24%. Kept as record, not as a result. The chapter's neutron anchor is A2's g_A-free product τ_n(1 + 3λ²) = 20K/19 (0.87σ against UCNτ + PERKEO III). A structural λ is OPEN.**]**
+  - **[RETIRED 2026-09-25 (Lyra, on K1923):** g_A = 4/π fails — fired against PERKEO III (5.7σ) and the bottle lifetime on every V_ud route (Cal §984; 7.6σ via A2 on PDG 2026 877.82(22)). The "0.03%" above was also misstated: 1.2732 vs 1.2762 is 0.24%. Kept as record, not as a result. The chapter's neutron anchor is A2 consistent with the free neutron, τ_n(1 + 3λ²) = 20K/19 (shared with unitarity, no credit; A2's own line is the kaon split, Cal §984). A structural λ is OPEN.**]**
 - Task #58 neutron decay as winding rearrangement (pending mechanism)
 - Casey Saturday neutron-decay framework (SP-26 W-31 ratified)
 - Gap: full substrate mechanism for decay
