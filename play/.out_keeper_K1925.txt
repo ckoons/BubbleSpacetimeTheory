@@ -1,0 +1,10 @@
+P1 D(e,e) eigenvalues: [-0.  1.  1.  1.  2.]
+P2 V1 invariant under D(V1,V1): True;  complex span dim = 4
+P3 real span dim 8; compact (h-preserving) part dim_R = 4  (so(3)+u(1) = 4; su(3) = 8; u(3) = 9)
+P4 D(x,e): e -> V1 (True); -> V0 (True); L^3 = 0 (True); L^2 != 0 (True)
+PASS P1
+PASS P2
+PASS P3
+PASS P4
+PASS CONTROL
+SCORE: 5/5
