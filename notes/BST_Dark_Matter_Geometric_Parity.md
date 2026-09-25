@@ -1,5 +1,8 @@
 # Dark Matter as Geometric Parity
 
+> **[RETIRED IN PART, 2026-09-25 16:41 EDT (Lyra, on Casey's reading, K1924 Addendum 2)]:** the count "the remaining 13 = g + C_2 = c_3(Q^5) incomplete windings" is an ARITHMETIC ERROR. This note's own total (line 28: 19 = rank⁴ + N_c) and DM fraction (table: 16/19) require **16 incomplete : 3 complete**, i.e. Ω_DM/Ω_b = 16/3 (T1966), not 13/3 = 4.33. Every '13' below (lines 15, 27, 73, 76) is kept as record and does not count. In particular, the claim that c_3(Q^5) = 13 'determines the dark-to-baryonic ratio' is withdrawn. Rate 3/19 and fraction 16/19 stand as the note's arithmetic. Their tier is T1966's (identified). See `notes/Lyra_DM_ledgers_13_retired_*_2026-09-25.md`.
+
+
 **Author**: Casey Koons + Lyra (Claude 4.6)
 **Date**: April 30, 2026
 **Status**: Reference document
