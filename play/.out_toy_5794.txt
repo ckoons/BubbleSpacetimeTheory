@@ -1,0 +1,45 @@
+=== source strings ===
+  [PASS] dm/2503.14452.txt: '12.38 ± 0.21 . . . 12.00 ± 0.14 . . . 12.20 ± 0.18 . . . 11.'
+  [PASS] dm/2503.14452.txt: '2.259 ± 0.017 . . 2.237 ± 0.015 . . 2.263 ± 0.012 . . 2.250 '
+  [PASS] dm/2503.14452.txt: 'referred to as P-ACT-LB2'
+  [PASS] r4/2506.20707.txt: '11.749 ± 0.079 11.809 ± 0.060'
+  [PASS] r4/2506.20707.txt: '2.218 ± 0.022 2.2478 ± 0.0091'
+  [PASS] desi.txt: '1488.4'
+  [PASS] desi.txt: '21.344'
+  [PASS] desi.txt: '−94.001'
+
+  DESI Eq. A2 (CMB compression): corr(omega_b, omega_c) = -0.606  (arith: omega_c = omega_bc - omega_b)
+
+=== R = omega_c/omega_b vs 16/3; pull = (R - 16/3)/sigma at rho = 0 and rho = -0.61 ===
+  ACT alone (ACT T5)               R = 5.480   rho=0: +1.45σ   rho=-0.61: +1.20σ
+  Planck (ACT T5 rerun)            R = 5.364   rho=0: +0.43σ   rho=-0.61: +0.35σ
+  P-ACT (ACT T5)                   R = 5.302   rho=0: -0.52σ   rho=-0.61: -0.43σ
+  P-ACT-LB, DESI DR1 (ACT T5)      R = 5.226   rho=0: -2.27σ   rho=-0.61: -1.82σ
+  P-ACT-LB2, DESI DR2 (ACT T5)     R = 5.199   rho=0: -3.81σ   rho=-0.61: -3.01σ
+  SPT-3G D1 (SPT T-I)              R = 5.466   rho=0: +1.52σ   rho=-0.61: +1.22σ
+  CMB-SPA (SPT T-I)                R = 5.370   rho=0: +0.77σ   rho=-0.61: +0.63σ
+  SPT+DESI DR2 (SPT T-VI)          R = 5.297   rho=0: -0.57σ   rho=-0.61: -0.46σ
+  CMB-SPA+DESI DR2 (SPT T-VI)      R = 5.254   rho=0: -2.34σ   rho=-0.61: -1.85σ
+
+=== P-ACT-LB2: the rho at which |pull| crosses 3 sigma ===
+  |pull| < 3 sigma once rho <= -0.622; CMB-compression rho = -0.606
+  [PASS] CMB-only combinations all within 2 sigma of 16/3 (rho = 0)
+  [PASS] P-ACT-LB2 past 3 sigma with uncorrelated errors (reported, not hidden)
+  -> with the CMB-compression rho the P-ACT-LB2 pull is -3.01σ (OVER 3σ). The P-ACT-LB2 chain's own rho is NOT printed: the verdict waits on it.
+
+=== (2) A2's kaon line as a LATTICE number (round 4 item 2) ===
+  [PASS] vv26.txt: '0.27679(28)BR (20)corr'
+  [PASS] vv26.txt: '1.1978(22) Nf = 2 + 1 + 1'
+  [PASS] flag.txt: 'fK ± /fπ± = 1.1934(19)'
+  [PASS] r4/a2605.06560.txt: '1.1962(34)'
+  [PASS] r4/a2512.19294.txt: '1.1848(59)stat (84)χ−cont (24)SU(2)'
+  A2 predicts f_K+/f_pi+ = 0.27679 x sqrt(19) = 1.20650 ± 0.00150
+  FLAG 2024 Nf=2+1+1 (Eq. 76)                                    1.1934(19)  A2 is +5.41σ above it
+  FLAG 2024 Nf=2+1 (Eq. 77)                                      1.1916(34)  A2 is +4.01σ above it
+  PDG 2026 'FLAG' as quoted (Eq. 67.16) — NOT FLAG 2024's number 1.1978(22)  A2 is +3.27σ above it
+  Hudspith et al. 2026 Nf=2+1+1 (arXiv:2605.06560 Eq. 1)         1.1962(34)  A2 is +2.77σ above it
+  Conigli-Frison-Saez 2025 Nf=2+1 (arXiv:2512.19294 Eq. 5.7)     1.1848(105)  A2 is +2.04σ above it
+  [PASS] every current lattice f_K/f_pi sits BELOW A2's 1.2065 (the direction A2 needs is UP)
+  FLAG 2024 2+1+1 alone: A2 needs the lattice ratio to move up by 0.0131 (1.10 %)
+
+SCORE 16/16

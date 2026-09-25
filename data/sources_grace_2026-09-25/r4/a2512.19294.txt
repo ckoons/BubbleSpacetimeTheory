@@ -1,0 +1,1107 @@
+                                                                                                                                   MITP-25-079
+
+
+
+
+                                          fK /fπ in iso-symmetric QCD and the CKM matrix unitarity
+
+                                                                Alessandro Conigli a,b , Julien Frison c , Alejandro Sáez d
+
+                                                    a
+                                                      Helmholtz Institute Mainz, Johannes Gutenberg University, Mainz, Germany
+                                                         b
+                                                           GSI Helmholtz Centre for Heavy Ion Research, Darmstadt, Germany
+                                                                    c
+                                                                      John von Neumann-Institut für Computing NIC,
+
+
+
+
+arXiv:2512.19294v2 [hep-lat] 7 Apr 2026
+                                                 Deutsches Elektronen-Synchrotron DESY, Platanenallee 6, 15738 Zeuthen, Germany
+                                           d
+                                             Instituto de Fı́sica Corpuscular (IFIC), CSIC-Universitat de València, 46071, Valencia, Spain
+
+
+
+
+                                          Abstract: We present lattice results for fK /fπ in the iso-symmetric limit of pure QCD (isoQCD)
+                                          with Nf = 2 + 1 flavours, along with a determination of |Vus |/|Vud | and a study on the unitarity of
+                                          the first row of the Cabibbo-Kobayashi-Maskawa (CKM) matrix after introducing strong isospin-
+                                          breaking and QED effects. The results obtained are based on a combination of a Wilson unitary
+                                          action and the mixed-action setup introduced in [1, 2]. The combination of the two regularisations
+                                          enables a more precise control over the continuum-limit extrapolation.
+
+
+
+
+                                          1    Introduction
+                                          In precision era hadronic physics, the ability to make precise predictions of the Standard Model is
+                                          of the utmost importance for conducting both direct and indirect searches for New Physics. The
+                                          quark-flavour sector of the Standard Model constitutes a rich arena for this undertaking, where the
+                                          non-perturbative nature of the strong coupling plays a crucial role. In this context, a first-principles
+                                          approach to compute hadronic contributions to different physical phenomena, as provided by Lattice
+                                          QCD, is required. Examples of such processes where non-perturbative input is needed include
+                                          leptonic and semileptonic meson decays, which provide access to the Cabibbo-Kobayashi-Maskawa
+                                          (CKM) matrix elements.
+                                              The main topic of this work is the computation of fK ± /fπ± . This quantity allows to extract
+                                          the ratio of CKM matrix elements |Vus |/|Vud | employing the experimental photon inclusive ratio of
+                                          decay rates
+                                                                                                                2
+                                                                                                           m2
+                                                                                     2     mK ±       1 − m2 l
+                                                         Γ (K → lν l [γ])   |Vus |2 fK ±            K±           K     π
+                                                                                                                         
+                                                                          =                            2 × 1 + δEM − δEM ,                  (1.1)
+                                                         Γ (π → lν l [γ])   |Vud |2 fπ2±
+                                                                                              
+                                                                                                   m 2
+                                                                                           mπ± 1 − m2l
+                                                                                                            π±
+
+
+
+
+                                                                                              1
+        K(π)
+where δEM parameterises the QED contributions to Γ (K(π) → lν l [γ])) [3, 4]. Furthermore, one
+can subsequently obtain a determination of |Vus | employing the value of |Vud | as given from super-
+allowed nuclear β-decays [5], and perform a unitarity test of the first row of the CKM matrix.
+    In the lattice, the isospin-symmetric limit of pure QCD (isoQCD) is what is most often simulated,
+with two mass-degenerate light quarks and vanishing electromagnetic coupling α = 0. In order to
+gain access to the ratio fK ± /fπ± in the full theory, we compute fK /fπ in isoQCD and later correct
+for strong isospin-breaking effects. For these effects, as well as for the QED corrections in Eq. (1.1),
+different approaches exist in the literature [3, 4, 6, 7]. Though in principle it is desirable to have a
+fully non-perturbative determination of these corrections, we find that the final error of our results
+is completely dominated by the lattice uncertainty of fK /fπ in isoQCD, reducing thus the impact
+of what one uses to correct for strong isospin-breaking and QED effects.
+    The computation of the ratio fK /fπ in isoQCD is an unambiguous prediction that can be
+directly compared to lattice computations by other groups, as long as the input needed to define
+the physical point is fixed, e.g. as in the Edinburgh Consensus [8].
+    For our lattice setup, we employ Nf = 2 + 1 flavours, i.e. two mass-degenerate light and one
+strange flavours, based on CLS ensembles [9,10]. Two different lattice regularisations are employed:
+the first is a Wilson unitary one [9], with Wilson fermions both in the sea and the valence sectors;
+the second is a mixed action one [1, 2], employing Wilson fermions in the sea and Wilson twisted
+mass (Wtm) [11, 12] fermions in the valence. The latter was properly tuned in order to guarantee
+unitarity in the continuum limit by matching the pion and kaon masses in the sea and valence
+sectors. This ensures that the physical quark masses in both sectors agree, recovering unitarity
+in the continuum limit. The combination of both lattice regularisations enables a precise control
+of the continuum-limit extrapolation and the enhancement of the statistical precision of the final
+result.
+    All the ensembles employed have a volume of mπ L ≳ 4 and we correct for finite-volume effects
+through (finite-volume) next-to-leading order (NLO) Chiral Perturbation Theory (χPT) for all the
+observables of interest. We find the correction to be by far subleading at the current statistical
+precision (cf. Section 3).
+    In order to define the physical point at which to perform the chiral interpolation of our fK /fπ
+lattice data we employ the pion and kaon pseudoscalar masses, expressed in units of the pion decay
+constant. This is equivalent to setting the scale with fπ . These three quantities are prescribed by
+the Edinburgh Consensus1 and FLAG 24 [8] to be
+
+                     mph
+                      π = 135 MeV,       mph
+                                          K = 494.6 MeV,       fπph = 130.5 MeV,                   (1.2)
+
+in isoQCD. Using fπ to set the scale, as opposed to employing a theory scale (e.g. gradient flow
+scales t0 , w0 [13, 14]), offers the benefit that its physical value is already known, as evidenced by
+Eq. (1.2), and thus one does not rely on the continuum-limit extrapolation of one of these scales.
+Conversely, fπ has a strong chiral dependence. However, this effect can be properly addressed in
+our analysis thanks to the inclusion of physical point ensembles.
+    This work is structured as follows. In Section 2 we briefly review the basic details of our lattice
+setup, which is discussed in greater detail in [1,2]. In Section 3 we introduce our strategy to correct
+for finite-volume effects in the relevant mesonic observables, based on NLO χPT. In Section 4
+the strategy for interpolating our fK /fπ lattice data to the physical pion and kaon masses is
+presented, together with the continuum-limit extrapolation. To this end, we explore different fit
+  1 https://indico.ph.ed.ac.uk/event/257/
+
+
+
+
+                                                   2
+functions and cuts in data in order to assess the systematic uncertainty related to the chiral-
+continuum extrapolation. In Section 5 we introduce strong isospin-breaking effects in the ratio
+fK /fπ and review the impact of QED corrections. We rely on χPT results with a conservative
+uncertainty to account for these effects, finding them compatible with the most recent ab initio
+lattice computations. This allows us to extract |Vus |/|Vud | and subsequently |Vus | by employing a
+determination of |Vud | from super-allowed β-decays [5], and to perform a test of the unitarity of the
+first row of the CKM matrix. Finally, we present our conclusions in Section 6. In Appendix A we
+provide supplementary material on the impact of modifying the definition of the isoQCD values of
+the input quantities mπ,K and fπ . We also estimate the derivatives of fK /fπ in the isoQCD limit
+with respect to these quantities.
+    The estimation of statistical uncertainties has been performed using the Γ-method [15] imple-
+mentation in the ADerrors package [16].
+
+
+2    Setup
+In this section we review the basic features of our setup, with an emphasis on the aspects that are
+most relevant to the present work. We refer the reader to [1, 2] for a fully detailed discussion of our
+approach.
+    The set of lattice ensembles under study were generated by the Coordinated Lattice Simulations
+(CLS) initiative [10,17]. They use the Lüscher-Weisz gauge action [18] and non-perturbatively O(a)-
+improved Nf = 2 + 1 Wilson fermions in the sea sector. Open boundary conditions (OBC) are
+employed in the time direction for the gauge degrees of freedom for most ensembles, in order to
+avoid topology freezing as the continuum limit is approached.
+    The ensembles that we include in the analysis follow a chiral trajectory defined by an approxi-
+mately constant trace of the bare quark mass matrix, imposed by the condition
+                                    
+                                 1
+                     8t0 m2K + m2π ≈ const. ⇒ tr (Mq ) = 2ml + ms ≈ const.                        (2.1)
+                                 2
+More details on the ensembles are provided in Table 1.
+  For our kinematic variables, we define
+                                              m2π
+                                          ρ2 =    ,                                               (2.2)
+                                              fπ2
+                                              m2 + 1 m2
+                                          ρ4 = K 2 2 π .                                          (2.3)
+                                                    fπ
+With the input in Eq. (1.2), the physical values ρph   ph
+                                                  2 , ρ4 are unambiguously determined as
+
+                                    ρph
+                                     2 = 1.070,       ρph
+                                                       4 = 14.899,                                (2.4)
+thereby defining the physical point at which to chirally-interpolate the fK /fπ data. Note that we
+interpolate both in ρ2 and ρ4 . We have one ensemble (E250) lying at the physical pion mass. In
+Fig. 1 we show the range of values explored for these quantities along the ensembles considered in
+this work.
+    In the valence sector, the regularisation employed for the Dirac operator is either identical to
+that utilised in the sea sector (Wilson unitary setup), or a Wilson twisted mass [11,12] one (mixed-
+action setup). In the latter case, the valence parameters were tuned in order to match the pion and
+
+
+                                                  3
+                                                                    β = 3.40
+                                                                    β = 3.46
+                                16                                  β = 3.55
+                                                                    β = 3.70
+                                                                    β = 3.85
+                                                                    physical point
+
+
+                                14
+                           ρ4
+
+
+                                12
+
+
+
+                                       2          4          6                8
+                                                      ρ2
+
+
+Figure 1: Measured values of ρ2 , ρ4 , defined in Eq. (2.2) and Eq. (2.3), for the set of CLS ensembles
+employed in this work (cf. Table 1), following the tr(Mq ) = 2ml + ms ≈ const. chiral trajectory.
+Empty points correspond to the Wilson unitary setup, while filled ones correspond to the Wtm
+mixed action. The difference in ρ2 and ρ4 between the Wilson and Wtm mixed action for any given
+ensemble is due to different cutoff effects in fπ for each regularisation, as the pion and kaon masses
+– in lattice units – are matched to be the same in both. The physical point, marked by a black
+cross, is reached by interpolating both in ρ2 and ρ4 .
+
+
+kaon masses – in units of the lattice spacing – in the sea and valence sectors [1, 2]. This ensures
+that physical quark masses coincide in both sectors, thereby recovering unitarity of the theory in
+the continuum limit, as was checked in [1] through universality tests. Furthermore, the valence
+sector was tuned to maximal twist by setting the valence light PCAC standard quark mass to zero.
+This results in automatic O(a)-improvement up to residual sea cutoff effects of O ag04 trMqsea . For
+a more thorough exposition about the tuning of the mixed action, see [1, 2].
+    The two lattice regularisations must share the same continuum limit; however they can exhibit
+different cutoff effects. Consequently, the analysis of both sets of data in conjunction with the
+imposition of a common continuum limit can facilitate the control of the extrapolation to vanishing
+lattice spacing.
+    The relevant lattice observables for this study are the pseudoscalar masses mPS , employed to
+define the physical point, and decay constants fPS , with PS = π, K. Both set of observables can
+be extracted from two-point functions involving the pseudoscalar density and axial current. They
+exhibit clear plateaus, which we extract by model averaging different plateau ranges as proposed
+in [19]. For more details on this latter subject, we refer to [1, 2].
+    In Table 2 we present measurements for fK /fπ , ρ2 , ρ4 , while in Table 3 the values of afπ at
+the SU(3) symmetric point, defined by mπ = mK ≈ 420 MeV, are shown. The latter will be used
+as probes for cutoff effects (cf. Section 4). In both tables finite-volume effects are already taken
+into account (cf. Section 3).
+    All physical observables are free of O(a) cutoff effects, either thanks to the automatic O(a)-
+improvement feature of our mixed action, or to the inclusion of the relevant improvement coefficients
+for the Wilson unitary setup. Once again we refer to [1, 2] for details on improvement, as well as
+for the relevant renormalisation factors for the decay constants.
+
+
+                                                  4
+              a                                  mπ       mK
+      β                   id      L/a    T /a                     mπ L    LMD     MDU      Ncnfg
+            [fm]                                [MeV]    [MeV]
+     3.40   0.085     H101r000     32     96      426      426     5.8     no      4004    1001
+                      H101r001     32     96      426      425     5.8     no      4036    1009
+                      H102r001     32     96      360      446     4.9     yes     3988     997
+                      H102r002     32     96      360      446     4.9     yes     4032    1008
+                      H105r001     32     96      286      470     3.9     yes     3788     947
+                      H105r002     32     96      286      470     3.9     yes     4168    1042
+                      H105r005     32     96      286      470     3.9     no      3348    837
+     3.46   0.075     H400r001     32      96     429      429     5.2     no      2020     505
+                      H400r002     32      96     429      429     5.2     no      2160     540
+                      D450r011     64     128     221      483     5.4     yes     4000     250
+     3.55   0.063     N202r001     48     128     418      418     6.5     no      3596    899
+                      N203r000     48     128     350      448     5.4     yes     3024     756
+                      N203r001     48     128     350      448     5.4     yes     3148     787
+                      N200r000     48     128     288      470     4.4     yes     3424     856
+                      N200r001     48     128     288      470     4.4     yes     3424     856
+                      D200r000     64     128     204      488     4.2     yes     8004    2001
+                      E250r001     96     192     131      497     4.0     yes     4000    100
+     3.70   0.049     N300r002     48     128     427      427     5.1     no      6084    1521
+                      N302r001     48     128     350      457     4.2     no      8804    2201
+                      J303r003     64     192     261      481     4.1     yes     8584    1073
+                      E300r001     96     192     177      499     4.2     no      4540     227
+     3.85   0.038     J500r004     64     192     418      418     5.2      no     6288     198
+                      J500r005     64     192     418      418     5.2      no     5232     130
+                      J500r006     64     192     418      418     5.2      no     3096      94
+                      J501r001     64     192     339      453     4.3      no     6536     371
+                      J501r002     64     192     339      453     4.3      no     4560     248
+                      J501r003     64     192     339      453     4.3      no     4296     168
+
+
+Table 1: Set of Nf = 2 + 1 CLS ensembles employed in this work. We quote the values of the bare
+coupling β = 6/g02 ; approximate values of the lattice spacing a as determined in [1]; the spatial and
+temporal lattice extents; the masses of the pion mπ and the kaon mK ; and mπ L. Additionally, the
+number of configurations Ncnfg and the corresponding length of the Monte Carlo chain in Molecular
+Dynamics Units (MDU) employed in the computation of the mesonic correlation functions are
+provided. Open boundary conditions in the time direction are employed for the gauge fields, with
+the exception of ensembles E250 and D450, which have anti-periodic boundary conditions in time.
+The column “LMD” refers to whether the reweighting factors were computed following [18] (“yes”)
+or [20–24] (“no”). The ensemble id consists of the id used for the ensemble plus a sufix (r000,...)
+to distinguish different replica runs (independent Monte-Carlo runs which share the same physical
+and algorithmic parameters, but use different random numbers [15]). We separate by horizontal
+lines different ensembles. In the case of ensemble H105, we have the two replica H105r001 and
+H105r002. H105r005 cannot be considered a replica of H105 since different algorithmic parameters
+were used, and therefore it is treated as a different ensemble with the same physical parameters.
+The same applies to H102r001 and H102r002.
+                                                  5
+        ID       ρ2 [W]      ρ2 [Wtm]      ρ4 [W]       ρ4 [Wtm]    fK /fπ [W]    fK /fπ [Wtm]
+      H101     8.316(76)     7.235(52)    12.47(11)      10.85(8)       1.0            1.0
+      H102     6.542(56)     5.716(45)    13.35(11)      11.66(8)   1.0509(21)     1.0569(16)
+      H105     4.617(83)     3.873(49)    14.92(23)     12.51(10)   1.1182(78)     1.1021(33)
+      H400     8.474(89)     7.524(77)    12.71(13)     11.29(12)       1.0            1.0
+      D450     2.859(56)     2.503(32)    15.10(22)     13.22(18)   1.1418(66)     1.1422(33)
+      N202     7.834(60)     7.238(68)     11.75(9)     10.86(10)        1.0           1.0
+      N203     5.884(38)     5.357(47)     12.61(7)     11.48(10)    1.0540(15)    1.0519(17)
+      N200     4.351(40)     4.057(36)     13.76(9)     12.83(10)    1.0998(27)    1.1070(34)
+      D200     2.392(26)     2.142(27)    14.94(11)     13.37(12)    1.1551(33)    1.1343(46)
+      E250     1.100(43)     0.997(18)    16.41(56)     14.88(26)   1.1952(215)    1.1937(83)
+      N300     7.965(53)     7.635(60)     11.95(8)     11.45(9)         1.0          1.0
+      N302     5.668(84)     5.427(72)    12.53(16)     12.00(15)    1.0574(20)   1.0608(42)
+      J303     3.545(35)     3.326(46)    13.97(12)     13.11(16)    1.1188(44)   1.1161(64)
+      E300     1.889(38)     1.775(29)    15.79(27)     14.83(18)   1.1735(138)   1.1893(201)
+       J500    7.443(130)   7.239(165)    11.16(20)     10.86(25)       1.0            1.0
+       J501    5.374(88)    5.292(118)    12.30(19)     12.12(26)   1.0607(28)     1.0647(51)
+
+Table 2: Measurements of ρ2 , ρ4 and fK /fπ for both the Wilson unitary [W] and Wtm mixed-
+action [Wtm] setups. The mixed action was tuned in order to impose identical pion and kaon
+masses in the sea and valence sectors in units of the lattice spacing. The difference between ρ2 , ρ4
+in the Wilson unitary and mixed-action regularisations therefore comes exclusively from different
+cutoff effects in fπ for each regularisation. Finally, the ratio fK /fπ is 1.0 without error in the
+SU(3) symmetric point by construction. All measurements are corrected for finite-volume effects as
+detailed in Section 3. Measurements corresponding to ensembles H105 and H105r005 were averaged
+together, as well as those of H102r001 and H102r002 (cf. Table 1). All quantities are renormalised
+and non-perturbatively O(a)-improved, for a general discussion we refer to [1, 2].
+
+
+                                   β     afπsym [W]     afπsym [Wtm]
+                                 3.40    0.06319(28)     0.06774(24)
+                                 3.46    0.05620(25)     0.05965(30)
+                                 3.55    0.04792(17)     0.04985(19)
+                                 3.70    0.03770(11)     0.03850(13)
+                                 3.85    0.02991(23)     0.03033(33)
+
+Table 3: Values for afπ at the SU(3) symmetric point, defined by mπ = mK ≈ 420 MeV, for each
+β considered in this work, to be employed as probes for the cutoff effects (cf. Section 4). We quote
+values for both the Wilson unitary [W] and Wtm mixed-action [Wtm] setups, the difference between
+them being a cutoff effect. Finite-volume effects are included as detailed in Section 3. Results are
+renormalised and non-perturbatively O(a)-improved, for a general discussion we refer to [1, 2]
+
+
+
+
+                                                    6
+3    Finite volume effects
+The masses and decay constants of the pion and kaon suffer from finite volume effects, which will
+be addressed in this section. Finite-volume χPT enables to correct these effects in our quantities
+of interest. To NLO and for X = mπ,K , fπ,K , denoting by X (∞) the infinite volume quantity and
+by X (L) the finite volume one [25, 26],
+                           1
+        X (∞) = X (L)          ,
+                        1 + RX
+                1                1                     1
+        Rmπ =     ξπ g̃1 (λπ ) − ξη g̃1 (λη ), RmK = ξη g̃1 (λη ),
+                4               12                     6
+                  3                3            3                                 1
+         Rfπ = − ξπ g̃1 (λπ ) − ξK g̃1 (λK ) − ξη g̃1 (λη ), RfK = −ξπ g̃1 (λπ ) − ξK g̃1 (λK ),
+                  8                4            8                                 2
+                                                         ∞
+                  m2P S                                X 4m(n)         √
+         ξP S =            , λP S = mP S L, g̃1 (x) =        √     K1 ( nx),                       (3.1)
+                (4πfπ )2                               n=1
+                                                               nx
+
+where m2η = 43 m2K − 13 m2π , K1 (x) is the Bessel function of the second kind, and m(n) is given
+in [25, 26].
+    The shifts in the values of mπ,K and fπ,K due to the finite-volume corrections are well within
+our present statistical errors, even for the smallest volume considered, corresponding to mπ L = 3.9
+in the H105 ensemble, as can be seen in Fig. 2.
+
+
+4    Chiral-continuum extrapolation
+In order to compute the ratio fK /fπ in isoQCD at the physical point, we need to chirally-interpolate
+our lattice data to ρph   ph
+                     2 , ρ4 as given in Eq. (1.2), and perform the continuum limit to a → 0. For
+the former, we can use χPT-inspired formulae, as well as Taylor expansions in the pion and kaon
+masses.
+    From SU(3) NLO χPT we have
+               
+                     16B0 L5 (µ)      16B0 L4 (µ)
+                                                  (2ml + ms ) − 2L(m2π , µ) −L(m2K , µ) ,
+                                                                                       
+        fπ = f 1 +         2
+                                 ml +        2
+                                                                                                (4.1)
+                         f                 f
+               
+                     8B0 L5 (µ)               16B0 L4 (µ)
+       fK = f 1 +               (ml + ms ) +              (2ml + ms )
+                         f2                      f2
+                                                             
+                    3      2       3     2       3      2
+                  − L(mπ , µ) − L(mK , µ) − L(mη , µ) ,                                         (4.2)
+                    4              2             4
+where
+                                                                        4 2   1
+                        m2π = 2B0 ml ,   m2K = B0 (ml + ms ),   m2η =     mK − m2π ,               (4.3)
+                                                                        3     3
+                                x        x
+                  L(x, µ) =           log 2 ,                                                      (4.4)
+                              (4πf )2    µ
+with f the decay constant in the chiral limit, and µ a renormalisation scale. The dependence of
+the LECs L4 (µ), L5 (µ) in µ cancels with that of the chiral logarithms L(x, µ), so that physical
+quantities are µ-independent.
+
+                                                   7
+               102                                                           102
+
+
+               101                                                           101
+
+
+
+                                                        −Rfπ × 100
+               100                                                           100
+  Rmπ × 100
+
+         10−1                                                        10−1
+
+
+         10−2                                                        10−2
+
+
+         10−3                                                        10−3
+                     1   2   3    4     5   6   7                                  1   2   3    4     5   6   7
+                                 mπ L                                                          mπ L
+
+
+               102                                                           102
+
+
+               101                                                           101
+
+
+
+  −RfK × 100                                            (RfK − Rfπ ) × 100
+               100                                                           100
+
+
+         10−1                                                        10−1
+
+
+         10−2                                                        10−2
+
+
+         10−3                                                        10−3
+                     1   2   3    4     5   6   7                                  1   2   3    4     5   6   7
+                                 mπ L                                                          mπ L
+
+
+Figure 2: RX for X = mπ , fπ , fK for the set of ensembles considered in this work in the Wilson
+unitary setup, as given by Eq. (3.1) (blue crosses), together with the expected dependence on mπ L
+for each of these ensembles (grey dashed lines). It can be seen that the finite-volume correction is
+of a few per mille at most, well below the statistical precision of the lattice data (the red horizontal
+line shows a representative example of the relative statistical precision). RfK − Rfπ in the bottom
+right plot is the relevant correction factor for the ratio fK /fπ .
+
+
+
+
+                                                    8
+   Computing the ratio of decay constants gives
+                       1 + 8L5 (µ)q 2 ρ4 − 12 ρ2 − 34 Lπ (µ) − 32 LK (µ) − 43 Lη (µ)
+                                                
+               fK
+                    =                                                                ,                 (4.5)
+                fπ                1 + 8L5 (µ)q 2 ρ2 − 2Lπ (µ) − LK (µ)
+where
+                                             fπ
+                                          q≡     ,                                                     (4.6)
+                                              f
+                                                           2
+                                               ρ2 2         mπ
+                                    Lπ (µ) =        q log         ,                                    (4.7)
+                                             (4π)2           µ2
+                                             ρ4 − 12 ρ2 2       m2K
+                                                                   
+                                    LK (µ) =           q log           ,                               (4.8)
+                                                (4π)2           µ2
+                                                                    !
+                                             4
+                                               ρ4 − ρ2 2        m2η
+                                    Lη (µ) = 3         q  log         .                                (4.9)
+                                                (4π)2           µ2
+
+We choose µ ≡ fπK = 23 fK + 21 fπ in the spirit of keeping it a constant renormalisation scale,
+                                       
+
+since fπK has a weak chiral dependence along our tr (Mq ) ≈ const. trajectory [17]. Furthermore, we
+treat the q = fπ /f factor as a fit parameter, together with the LEC L5 . This amounts to ignoring
+the chiral dependence of q due to that of fπ , since it enters as a higher order effect. We observe no
+discrepancy with this assumption when performing the chiral fits.
+    To the expression in Eq. (4.5) we need to add cutoff effects, which can be effectively done by
+expanding the LECs f, L5 as
+                                                            
+                                      L5 → L5 1 + O a2 αSΓi ,
+                                                           
+                                       f → f 1 + O a2 αSΓi ,                                    (4.10)
+
+with Γi the various anomalous dimensions provided for our actions in [27], together with the case
+Γi = 0. This choice for the form of cutoff effects ensures that fK /fπ is exactly 1 at the SU(3)
+symmetric limit, even at finite lattice spacing. As probe for cutoff effects, in the spirit of not
+relying on any theory scale for the analysis, we will employ afπsym (β) (cf. Table 3), the pion decay
+constant (in lattice units) at the SU(3) symmetric point for each value of the inverse coupling β.
+In practice, we substitute
+                                                                    
+                                                                2
+                                L5 q 2 → L5 q 2 1 + C1 (afπsym ) αSΓi ,
+                                                                 
+                                                             2
+                                   q 2 → q 2 1 + C2 (afπsym ) αSΓi ,                            (4.11)
+
+in Eq. (4.5), with C1,2 additional fit parameters.
+    In order to explore systematic effects in the chiral-continuum extrapolation, it is necessary to
+test different fit functions and cuts in the data, which we eventually average together. To this
+end, the first possible variation involves exploring the different available values of Γi . However, we
+observe no sensitivity in the data to this variation,2 and thus choose to perform the final analysis
+  2 The central value of f /f in the continuum changes only a 0.4% of σ when varying from Γ
+                          K   π                                                               min = −0.11 to
+Γmax = 0.76, corresponding to the minimum possible and maximum known values of Γi for both our Wilson unitary
+and Wtm mixed-action setups [27].
+
+
+                                                     9
+only with Γi = 0 in order not to explore redundant models. We note that the smallest possible
+value of Γi for both our actions is Γi = −0.11.
+   The ratio in Eq. (4.5) can also be expanded to give a new model
+
+                 fK                                       5        1        3
+                    = 1 − 12L5 (µ)q 2 ρ2 + 8L5 (µ)q 2 ρ4 + Lπ (µ) − LK (µ) − Lη (µ),                          (4.12)
+                 fπ                                       4        2        4
+
+where again we use Eq. (4.11) in order to add cutoff effects.
+    Another possibility for model exploration is to use µ = fπ in the definition of the chiral log-
+arithms in Eqs. (4.7)–(4.9) and the LEC L5 . Again, this assumes that the chiral dependence
+introduced in µ can be neglected as a higher order effect.
+    We can also use a Taylor expansion in ρ2 and ρ4 . In order to constrain that the expansion
+goes to 1 in the SU(3) symmetric limit, we expand the chiral logarithms Lπ , LK , Lη around the
+symmetric point in Eq. (4.12), arriving at
+                                                                       
+                       fK                            3 2 11 2 5
+                           = 1 + A(2ρ4 − 3ρ2 ) + B     ρ2 − ρ4 + ρ2 ρ4 .                    (4.13)
+                       fπ                            8        6   2
+
+We find that expanding both A, B in an analogous way to Eq. (4.10) always results in the fit
+parameter controlling the cutoff effects in B being compatible with zero and thus in inflated errors,3
+so we only consider
+                                                                                   
+        fK        
+                              sym 2 Γi
+                                                              3 2 11 2 5
+            = 1 + A + C (afπ ) αS × (2ρ4 − 3ρ2 ) + B            ρ − ρ4 + ρ2 ρ4 ,                (4.14)
+        fπ                                                     8 2    6       2
+
+   Finally, we also test a Taylor fit without any constraint in the SU(3) symmetric limit. In this
+case we find that the fit is only sensitive to the following terms
+                            fK                                            2
+                               = A0 + A1 ρ2 + A2 ρ22 + B1 ρ4 + C (afπsym ) αSΓi .                             (4.15)
+                            fπ
+Adding any other term results in coefficients compatible with zero and a continuum limit compatible
+with that of the model in Eq. (4.15) with inflated errors (cf. footnote 3).
+    Finally, in addition to the different fit function variations given above, we also explore performing
+cuts in the data. In particular, we test removing the coarsest lattice spacing β = 3.40, the heaviest
+pions mπ < 360 MeV,4 and removing volumes with mπ L < 4.2.
+    In Fig. 5 we show the chiral-continuum extrapolation for two representative models, with dif-
+ferent fit functions and cuts in the data.
+    In order to quantify the quality of fits we employ the p-value [29]. After selecting all models
+with p-value > 0.1, we employ the following scheme to compute a model average result:5 (i)
+compute a model average central value and statistical uncertainty with a weighted average of all
+models, weighting with the errors; (ii) compute a total model average uncertainty (systematic and
+   3 Furthermore, when employing an information criterion-based model average, e.g. employing the Takeuchi Infor-
+
+mation Criterion [28] or the Akaike Information Criterion [19], this model always results in zero weight because of
+this behaviour.
+   4 Note that the symmetric point, corresponding to m ≈ 420 MeV, having by construction f /f = 1 with no
+                                                             π                                      K   π
+error, does not contribute to the χ2 .
+   5 No significant change in the final result is seen by performing a model average based on the Takeuchi Information
+
+Criterion [28] or the Akainke Information Criterion [19].
+
+
+                                                         10
+statistical) by taking half the maximum spread between models; and (iii) considering that systematic
+and statistical uncertainties add up in quadrature to give the total model average uncertainty,
+extract the corresponding systematic uncertainty from (i) and (ii). The result is
+
+                                   fK
+                                      = 1.1872(59)stat (84)χ−cont ,                             (4.16)
+                                   fπ
+where “χ − cont” labels the systematic uncertainty of the model average. The model average is
+presented in Fig. 3. We observe the maximum spread between models to be associated with models
+that employ µ = fπ or µ = fπK in Eqs. (4.7)–(4.9); the use of Eq. (4.12) or Eq. (4.5); and cuts in the
+pion masses. We interpret this fact as signaling that higher order effects in the chiral dependence of
+fK /fπ are the main source of systematic uncertainty in Eq. (4.16), and thus the need in the future
+to include NNLO terms in Eqs. (4.1) and (4.2). We stress that with our current data set we are
+not able to resolve these terms.
+    Finally, in Fig. 4 we show the contribution of the different lattice ensembles to the statistical
+error in Eq. (4.16).
+
+
+5    CKM matrix unitarity
+In order to test the unitarity of the first row of the CKM matrix
+                                                                ?
+                                     |Vud |2 + |Vus |2 + |Vub |2 = 1,                             (5.1)
+
+it is necessary to have access to these three matrix elements. To this end, |Vud | can be extracted
+with high precision from super-allowed nuclear β-decays, while |Vub | can be neglected given its small
+value and the current precision for the other two matrix elements [5]. Lastly, we extract |Vus |/|Vud |
+through the use of Eq. (1.1), a lattice determination of fK ± /fπ± – after including strong isospin-
+                                                                                          K       π
+breaking effects in Eq. (4.16) – and taking into account the QED correction factor 1 + δEM   − δEM    .
+This allows us to extract |Vus | by using the aforementioned value of |Vud |.
+    In order to include strong isospin-breaking effects in our determination of fK /fπ given in
+Eq. (4.16), to NLO in SU(3) χPT [8, 30]
+              2
+            fK  ±  f2
+                  = K2 × 1 + δSU(2) ,
+                                   
+              2                                                                                   (5.2)
+             fπ ±   fπ
+                   √                                                         m2K
+                                                                               
+                              4                 2          2     2     2
+           δSU(2) = 3ϵSU(2) − (fK /fπ − 1) +              mK − m π − m π log        ,             (5.3)
+                              3              3(4π)2 f 2                      m2π
+                   √             ms − mud
+           ϵSU(2) = 3/4R, R ≡             .                                                       (5.4)
+                                  md − mu
+To compute δSU(2) , we use f = 113(28) MeV, R = 38.1(1.5) as reported by [8], resulting in
+
+                                         δSU(2) = −0.0038(7).                                     (5.5)
+
+However, given the unknown size of higher order corrections, we opt to take a conservative approach
+and assign a 100% uncertainty to δSU(2) , resulting in
+
+                                         δSU(2) = −0.004(4).                                      (5.6)
+
+
+                                                   11
+                       1.200
+                fK
+                fπ
+                       1.175
+
+
+
+                            0.75
+
+                  p-value   0.50
+                            0.25
+                            0.10
+
+                                   [χPT, fπK ][−]
+                                                                                                                                  [χPT ratio, fπK ][−]
+                                                                                                                                                                                                                                                         [χPT, fπ ][−]
+                                                                                                                                                                                                                                                                                                                                                    [χPT ratio, fπ ][−]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       [Tay constr][−]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          [Tay unconstr][−]
+                                                                                                        [χPT, fπK ][mπ L ≥ 4.2]
+                                                                                                                                                                                                                         [χPT ratio, fπK ][mπ L ≥ 4.2]
+                                                                                                                                                                                                                                                                                                                           [χPT, fπ ][mπ L ≥ 4.2]
+                                                                                                                                                                                                                                                                                                                                                                                                                                        [χPT ratio, fπ ][mπ L ≥ 4.2]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [Tay constr][mπ L ≥ 4.2]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [Tay unconstr][mπ L ≥ 4.2]
+                                                    [χPT, fπK ][β > 3.40]
+                                                                                                                                                         [χPT ratio, fπK ][β > 3.40]
+                                                                                                                                                                                                                                                                         [χPT, fπ ][β > 3.40]
+                                                                                                                                                                                                                                                                                                                                                                          [χPT ratio, fπ ][β > 3.40]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [Tay constr][β > 3.40]
+                                                                            [χPT, fπK ][mπ < 360 MeV]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [Tay unconstr][β > 3.40]
+
+                                                                                                                                                                                       [χPT ratio, fπK ][mπ < 360 MeV]
+                                                                                                                                                                                                                                                                                                [χPT, fπ ][mπ < 360 MeV]
+                                                                                                                                                                                                                                                                                                                                                                                                       [χPT ratio, fπ ][mπ < 360 MeV]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [Tay constr][mπ < 360 MeV]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [Tay unconstr][mπ < 360 MeV]
+
+
+
+
+Figure 3: Model exploration for the chiral-continuum extrapolation of the ratio fK /fπ . In the
+first bracket, labels [χPT] and [χPT ratio] refer to the use of Eq. (4.12) and Eq. (4.5) respectively,
+with cutoff effects added according to Eq. (4.11), while fπK or fπ refers to what was used for
+the scale µ inside the chiral logarithms in Eqs. (4.7)–(4.9). [Tay constr] refers to Eq. (4.14), and
+[Tay unconstr] to Eq. (4.15). The second label indicates which data are included: [−] means all
+data are used, [β > 3.40] that the coarsest lattice spacing is removed, [mπ < 360 MeV] that only
+ensembles with pion masses smaller than 360 MeV are included in the analysis, and [mπ L ≥ 4.2]
+the same for lattices with the volume satisfying this condition. The horizontal band in the top
+panel represents the final quoted result in Eq. (4.16), with statistical and systematic uncertainties
+added in quadrature.
+
+
+
+
+                                                                                                                                                                                                                                                                                   12
+                                J303
+                                J501
+                                N302
+                                D450
+                                D200
+                                E300
+                                H105
+                                E250
+                                N200
+                                H102
+                                N203
+
+
+
+
+Figure 4: Contribution of the different lattice ensembles to the statistical error squared in Eq. (4.16).
+Large contributions indicate that the corresponding ensembles are strongly constraining the chiral-
+continuum extrapolation of fK /fπ , and therefore are expected to be ensembles close to the con-
+tinuum limit and physical point. In particular, ensemble J501 is the only ensemble at the finest
+lattice spacing (a ≈ 0.038 fm) that lies outside the SU(3) symmetric point. Ensemble J303, on the
+other hand, is at the second finest lattice spacing (a ≈ 0.049 fm) and close to the physical point
+(mπ ≈ 261 MeV). Although we also have an ensemble at the same lattice spacing that is closer to
+the physical point (E300, mπ ≈ 177 MeV), its statistical sample is significantly smaller (cf. Table 1
+and Table 2), which reduces its overall impact on the fits.
+
+
+
+
+                                                   13
+                       1.25
+                                                                                                                        β = 3.40
+                                                                                                                        β = 3.46
+                       1.20                                                                                             β = 3.55
+                                                                                                                        β = 3.70
+                       1.15                                                                                             β = 3.85
+
+              fK /fπ
+                       1.10
+
+                       1.05
+
+                       1.00
+                                   8            6         4       2             0   0        2         4        6            8
+                                                     ρ2                                                    ρ2
+
+
+                                                                                                                       β = 3.40
+                       1.25                                                                                            β = 3.46
+                                                                                                                       β = 3.55
+                                                                                                                       β = 3.70
+                       1.20                                                                                            β = 3.85
+
+              fK /fπ
+
+                       1.15
+
+
+                       1.10
+                           10              12             14          16                16           14         12                10
+                                                     ρ4                                                   ρ4
+
+
+                         1.25                                                                                           β = 3.40
+                                                                                                                        β = 3.46
+                                                                                                                        β = 3.55
+                                                                                                                        β = 3.70
+                                                                                                                        β = 3.85
+
+                fK /fπ
+                         1.20
+
+
+
+                         1.15
+
+                           0.005       0.004    0.003 0.002     0.001      0.000    0.000    0.001   0.002 0.003     0.004       0.005
+                                                   (afπsym )2                                          (afπsym )2
+
+
+Figure 5: Left column: chiral-continuum extrapolation employing Eq. (4.12), using µ = fπ in the
+definition of the chiral logarithms, and adding cutoff effects according to Eq. (4.11) with Γi = 0,
+removing mπ > 360 MeV. We note that the x-axis direction has been reversed relative to the one
+in the right column in order to facilitate a direct comparison of the physical point extrapolation in
+both fits. Right column: chiral-continuum extrapolation employing Eq. (4.5), using µ = fπ , and
+adding cutoff effects according to Eq. (4.11) with Γi = 0, removing the coarsest lattice spacing
+β = 3.40. In the two top plots, the points in the y-axis are projected to ρph4 and vanishing lattice
+spacing, while in the two middle plots they are projected to ρph   2  and  vanishing  lattice spacing.
+The vertical dashed line marks the position of the physical point, and the bands correspond to
+the mass-dependence in the continuum. Finally, in the two bottom plots the data in the y-axis
+are projected to both ρph      ph
+                         2 , ρ4 . The two bands in each plot correspond to the cutoff dependence
+for both the Wilson unitary and Wtm mixed-actions setups. Empty points are computed with
+the Wilson unitary action, while filled ones are with the mixed action. The two models shown
+correspond to the ones giving the lowest and highest results that enter in the model average (cf.
+Fig. 3), and thus define the width of our error band in Eq. (4.16), corresponding to the black star
+point in the two bottom plots.
+                                                                           14
+                                                                       fK ± /fπ±
+                                             CLQCD 23
+                                       QCDSF/UKQCD 16
+                                               BMW 16
+                                        RBC/UKQCD 14B
+
+
+                          Nf = 2 + 1
+                                               MILC 10
+                                               BMW 10
+                                       HPQCD/UKQCD 07
+                                           FLAG average
+                                             ALPHA 25
+                                              This work
+                                                          1.16        1.18         1.20   1.22
+
+
+Figure 6: Comparison of our result for fK ± /fπ± with strong isospin-breaking corrections, as given
+in Eq. (5.7), to other group’s results entering the FLAG average for Nf = 2 + 1 [8]. CLQCD 23
+refers to [31], QCDSF/UKQCD 16 to [32], BMW 16 to [33], RBC/UKQCD 14B to [34], MILC 10
+to [35], BMW 10 to [36] and HPQCD/UKQCD 07 to [37]. The point ALPHA 25 corresponds to
+the determination
+      √             of fK in [1] based on an analysis setting the scale employing the intermediate
+scale t0 .
+
+
+With this result, we obtain for the ratio of decay constants, including strong isospin-breaking
+corrections
+                           fK ±
+                                 = 1.1848(59)stat (84)χ−cont (24)SU(2) ,                   (5.7)
+                           fπ ±
+where “stat” and “χ − cont” correspond to the errors in Eq. (4.16), i.e. they are uncertainties
+related to the lattice data, and “SU(2)” corresponds to the uncertainty in Eq. (5.6). In Fig. 6 we
+compare our final estimate with results from other collaborations that enter the FLAG average for
+Nf = 2 + 1 [8].
+                               PS
+    For the QED correction δEM    to the experimental measurement of Γ(PS → lν l [γ]), PS = π, K, we
+reproduce the same steps as in [3,30], and we will argue for a conservative choice of the corresponding
+                    PS
+uncertainty. The δEM    factor reads
+                                                
+            PS       α          ml       3      mρ
+           δEM  =−       −F           + log           + cPS
+                                                          1
+                     π         mPS       2      mPS
+                  m2l                                                 2
+                                                                                     
+                          PS       mρ       PS    PS ml          PS mPS        mρ
+                + 2 2c2 log              + c3 + c4          − 2c̃2       log         + h.o. ,      (5.8)
+                  mρ               ml                mPS            m2ρ        ml
+
+where the first term is the universal long distance contribution to one-loop, assuming that the
+pseudoscalar state PS is point-like, while the terms proportional to cPS      PS
+                                                                        i , c̃i  parameterise the
+structure-dependent part. To the current precision it is enough to consider the cPS      6
+                                                                                 1 terms, whose
+  6 Adding the missing terms, using the results in [30,38], amounts to a shift of a 16% of σ in the central value w.r.t.
+
+Eq. (5.11).
+
+
+
+
+                                                                 15
+values are given, using large-Nc methods, by [4, 38, 39]
+
+                                    cπ1 = −2.5(5),     cK
+                                                        1 = −1.9(5).                               (5.9)
+                                                      K     π
+Since we are only interested in the combination (1 + δEM − δEM ) as evident in Eq. (1.1), the relevant
+quantity to us is
+                                      ∆c1 ≡ cK      π
+                                              1 − c1 = 0.6(6),                                  (5.10)
+where we took only the central values in Eq. (5.9) and then assumed 100% uncertainty for ∆c1 , in
+order to cover the structureless pion and kaon limit in which ∆c1 = 0, which we consider to be the
+most conservative choice. Taking l = µ and with the function F (x) explicitly given in [3], we get
+                                       K     π
+                                      δEM − δEM = −0.0072(14).                                    (5.11)
+
+   With the results in Eq. (5.6) and Eq. (5.11), as an intermediate comparison with recent lattice
+                                                             K      π
+computations we quote the joint quantity δRKπ = δSU(2) + δEM    − δEM , for which we obtain
+
+                                   δRKπ = −0.0112(40)SU(2) (14)EM .                               (5.12)
+
+The first error comes from that in Eq. (5.6), while the second from that in Eq. (5.11). The joint
+quantity δRKπ is of particular importance, as it has been shown that it can be computed from
+first-principles non-perturbatively on the lattice. The estimation in Eq. (5.12) is compatible with
+the most recent lattice determinations of this quantity
+
+                                      δRKπ = −0.0126(14)         [6],                             (5.13)
+                                      δRKπ = −0.0086(41)         [7],                             (5.14)
+
+but with a more conservative uncertainty. Despite this fact, as we will see our final result is currently
+completely dominated by the uncertainty in Eq. (4.16).
+   Using the experimental value [5]
+                                    Γ(K → lν l [γ])
+                                                    = 1.3367(32)exp ,                             (5.15)
+                                    Γ(π → lν l [γ])
+together with the QED correction in Eq. (5.11) and the values for mK ± , mπ± , mµ reported in [5],
+following Eq. (1.1) we arrive at
+                                  fK ± |Vus |
+                                              = 0.27604(33)exp (19)EM .                           (5.16)
+                                  fπ± |Vud |
+Finally, from our result in Eq. (5.7), we obtain
+                         |Vus |
+                                = 0.2330(11)stat (17)χ−cont (5)SU(2) (2)EM (3)exp .               (5.17)
+                         |Vud |
+   Employing the value of |Vud | from super-allowed β-decays |Vud | = 0.97367(32)β−dec. [5] and
+neglecting |Vub |, whose value squared is O(10−5 ) [5] and thus negligible to the current precision, we
+obtain
+
+                         |Vus | = 0.2269(13)stat (15)χ−cont (4)SU(2) (2)EM (2)β−dec. (2)exp ,     (5.18)
+                    2        2
+               |Vud | + |Vus | = 0.9995(6)stat (7)χ−cont (2)SU(2) (1)EM (7)β−dec. (1)exp .        (5.19)
+
+
+                                                     16
+    For completeness, we also test employing as input the value |Vus | = 0.22328(58)|Vus | , obtained
+from the experimental determination of |Vus |f+ (0) [40] and the Nf = 2 + 1 + 1 lattice result for
+f+ (0) [8]. Using this input for |Vus | together with our result in Eq. (5.17), we obtain
+
+            |Vud |2 + |Vus |2 = 0.9682(87)stat (134)χ−cont (39)SU(2) (16)EM (50)|Vus | (24)exp ,   (5.20)
+
+which is at 1.8σ from the Standard Model unitarity constraint. If we repeat the same excersise but
+using now the Nf = 2 + 1 lattice result for f+ (0) [8], then |Vus | = 0.22377(75)|Vus | and we find
+
+            |Vud |2 + |Vus |2 = 0.9724(87)stat (180)χ−cont (39)SU(2) (16)EM (65)|Vus | (24)exp ,   (5.21)
+
+which is at 1.5σ from unitarity.
+    We see that our final uncertainty is completely dominated by that of the lattice determination
+of fK /fπ in Eq. (4.16), in spite of the conservative choices we took for the uncertainties related to
+the strong isospin-breaking and QED effects.
+
+
+6    Conclusions
+In this work we have presented results for fK /fπ in pure isoQCD, in addition to |Vus |/|Vud |, where
+strong isospin-breaking and QED effects have been included, which allows to perform a test of the
+unitarity of the first row of the CKM matrix. Two important features of our construction are that
+(i) it is based on a combination of a Wilson unitary action and a mixed action with Wilson twisted
+mass valence fermions [1, 2], and (ii) that it is based on fπ to set the scale. This latter point allows
+to avoid any systematic uncertainty related to the continuum-limit extrapolation of theory scales
+like t0 or w0 . We quote as our main results
+                        fK
+                           = 1.1872(59)stat (84)χ−cont [103],                                       (6.1)
+                        fπ
+                       fK ±
+                             = 1.1848(59)stat (84)χ−cont (24)SU(2) [105],                           (6.2)
+                       fπ ±
+                      |Vus |
+                             = 0.2330(11)stat (17)χ−cont (5)SU(2) (2)EM (3)exp [21],                (6.3)
+                      |Vud |
+the first of which is an unambiguous prediction of Nf = 2 + 1 pure isoQCD and can be directly
+compared to other groups, once the input in Eq. (1.2) has been fixed.
+    Despite the conservative error choices for the strong isospin-breaking effects and QED correc-
+tions, we observe that the uncertainty in these results is still completely dominated by the lattice
+determination of fK /fπ . Increased statistics in the ensembles that contribute more to the statistical
+error in Fig. 4 is expected to help in reducing the error in our results. With respect to the sys-
+tematic uncertainty coming from the model variation in the chiral-continuum extrapolations, it is
+important to note that we have included ensembles as fine as a ≈ 0.039 fm and one (E250, a ≈ 0.063
+fm) at the physical pion mass mπ ≈ 130 MeV. As pointed out in Section 4, we find the systematic
+uncertainty to be dominated by the chiral dependence of fK /fπ . Thus, further ensembles at the
+physical point for finer lattice spacings, in addition to increased statistics in E250, are expected to
+substantially help in constraining the chiral-continuum extrapolation. The inclusion of NNLO χPT
+terms are also relevant in this respect, for which the inclusion of other chiral trajectories than the
+tr(Mq ) ≈ const. one employed here could be of substantial help.
+
+
+                                                    17
+Acknowledgments
+The authors want to thank Alberto Ramos for the very useful discussions and critical reading
+of a previous version of the manuscript. We also want to thank Gregorio Herdoiza and Carlos
+Pena for help in the data generation, fruitful discussions and feedback on a previous version of
+the manuscript. We are grateful to our colleagues in the CLS initiative for sharing ensembles.
+We acknowledge PRACE for awarding us access to MareNostrum at Barcelona Supercomputing
+Center (BSC), Spain and to HAWK at GCSHLRS, Germany. The authors thankfully acknowledge
+the computer resources at MareNostrum and the technical support provided by Barcelona Super-
+computing Center (FI-2020-3-0026). We thank CESGA for granting access to Finis Terrae II. We
+also acknowledge support from the Spanish Research Agency (Agencia Estatal de Investigación)
+through national project CNS2022-136005, AEI/MCIU through grant PID2023-148162NB-C21 and
+ASFAE/2022/020.
+
+
+A      QCD scheme variation and impact
+In this Appendix we test the impact of modifying the definition of isoQCD by taking different values
+of mph        ph
+     π,K and fπ with respect to those in Eq. (1.2). In particular, we take the values given in [41]
+
+
+                mph
+                 π = 134.8(3) MeV,        mph
+                                           K = 494.2(3) MeV,             fπph = 130.4(2) MeV.          (A.1)
+
+Repeating the analysis in Section 4 with this new input, we see no change in the result in Eq. (4.16)
+to the precision obtained. This is expected since the two schemes are very similar in terms of the
+numerical values of the input quantities.
+    For completeness, we also quote the result for the derivatives of fK /fπ with respect to the input
+quantities in Table 4. These derivatives are estimated using the automatic differentiation tools
+implemented in the ADerrors package [16].
+
+                                                      ph
+            ∂(fK /fπ ) mph
+                         π               ∂(fK /fπ ) mK                    ∂(fK /fπ ) fπph
+              ∂mph
+                 π
+                      fK /fπ
+                             Edinburgh     ∂mKph   fK /f π                  ∂fπph   fK /fπ
+                                                                                           Edinburgh
+                                                             Edinburgh
+                    −0.0208                        0.4032                         −0.3824
+
+Table 4: Derivatives of fK /fπ with respect to the input quantities mph         ph
+                                                                         π,K , fπ used to define the
+physical point, which can be used to convert our results for fK /fπ in Eq. (4.16) to any other scheme
+defined by different values of mph     ph
+                                π,K , fπ in isoQCD. The derivatives are evaluated at the isoQCD
+values given by the Edinburgh Consensus in Eq. (1.2).
+
+
+References
+ [1] (ALPHA), A. Bussone, A. Conigli, J. Frison, G. Herdoı́za, C. Pena, D. Preti et al., Hadronic
+     physics from a Wilson fermion mixed-action approach: Setup and scale setting, 2510.20450.
+ [2] (Alpha), A. Bussone, A. Conigli, J. Frison, G. Herdoı́za, C. Pena, D. Preti et al., Hadronic
+     physics from a Wilson fermion mixed-action approach: charm quark mass and D(s) meson
+     decay constants, Eur. Phys. J. C 84 (2024) 506, [2309.14154].
+
+                                                     18
+ [3] W. J. Marciano and A. Sirlin, Radiative corrections to pi(lepton 2) decays, Phys. Rev. Lett.
+     71 (1993) 3629–3632.
+ [4] V. Cirigliano and H. Neufeld, A note on isospin violation in Pl2(gamma) decays, Phys. Lett.
+     B 700 (2011) 7–10, [1102.0563].
+
+ [5] (Particle Data Group), S. Navas et al., Review of particle physics, Phys. Rev. D 110
+     (2024) 030001.
+ [6] M. Di Carlo, D. Giusti, V. Lubicz, G. Martinelli, C. T. Sachrajda, F. Sanfilippo et al.,
+     Light-meson leptonic decay rates in lattice QCD+QED, Phys. Rev. D 100 (2019) 034514,
+     [1904.08731].
+
+ [7] P. Boyle et al., Isospin-breaking corrections to light-meson leptonic decays from lattice
+     simulations at physical quark masses, JHEP 02 (2023) 242, [2211.12865].
+ [8] (Flavour Lattice Averaging Group (FLAG)), Y. Aoki et al., FLAG Review 2024,
+     2411.04268.
+
+ [9] M. Bruno et al., Simulation of QCD with Nf = 2 + 1 flavors of non-perturbatively improved
+     Wilson fermions, JHEP 02 (2015) 043, [1411.3982].
+[10] D. Mohler, S. Schaefer and J. Simeth, CLS 2+1 flavor simulations at physical light- and
+     strange-quark masses, EPJ Web Conf. 175 (2018) 02010, [1712.04884].
+[11] (Alpha), R. Frezzotti, P. A. Grassi, S. Sint and P. Weisz, Lattice QCD with a chirally
+     twisted mass term, JHEP 08 (2001) 058, [hep-lat/0101001].
+[12] C. Pena, S. Sint and A. Vladikas, Twisted mass QCD and lattice approaches to the Delta I =
+     1/2 rule, JHEP 09 (2004) 069, [hep-lat/0405028].
+[13] M. Lüscher, Properties and uses of the Wilson flow in lattice QCD, JHEP 08 (2010) 071,
+     [1006.4518]. [Erratum: JHEP 03, 092 (2014)].
+[14] (BMW), S. Borsányi, S. Dürr, Z. Fodor, C. Hoelbling, S. D. Katz, S. Krieg et al.,
+     High-precision scale setting in lattice QCD, JHEP 09 (2012) 010, [1203.4469].
+[15] (ALPHA), U. Wolff, Monte Carlo errors with less errors, Comput. Phys. Commun. 156
+     (2004) 143–153, [hep-lat/0306017]. [Erratum: Comput.Phys.Commun. 176, 383 (2007)].
+
+[16] A. Ramos, Automatic differentiation for error analysis of Monte Carlo data, Comput. Phys.
+     Commun. 238 (2019) 19–35, [1809.01289].
+[17] M. Bruno, T. Korzec and S. Schaefer, Setting the scale for the CLS 2 + 1 flavor ensembles,
+     Phys. Rev. D 95 (2017) 074504, [1608.08900].
+
+[18] S. Kuberski, Low-mode deflation for twisted-mass and RHMC reweighting in lattice QCD,
+     Comput. Phys. Commun. 300 (2024) 109173, [2306.02385].
+[19] E. T. Neil and J. W. Sitison, Model averaging approaches to data subset selection, Phys. Rev.
+     E 108 (2023) 045308, [2305.19417].
+
+
+
+                                                 19
+[20] M. Luscher and S. Schaefer, Lattice QCD with open boundary conditions and twisted-mass
+     reweighting, Comput. Phys. Commun. 184 (2013) 519–528, [1206.2809].
+[21] A. D. Kennedy, I. Horvath and S. Sint, A New exact method for dynamical fermion
+     computations with nonlocal actions, Nucl. Phys. B Proc. Suppl. 73 (1999) 834–836,
+     [hep-lat/9809092].
+
+[22] M. A. Clark and A. D. Kennedy, The RHMC algorithm for two flavors of dynamical
+     staggered fermions, Nucl. Phys. B Proc. Suppl. 129 (2004) 850–852, [hep-lat/0309084].
+[23] M. A. Clark and A. D. Kennedy, Accelerating dynamical fermion computations using the
+     rational hybrid Monte Carlo (RHMC) algorithm with multiple pseudofermion fields, Phys.
+     Rev. Lett. 98 (2007) 051601, [hep-lat/0608015].
+
+[24] M. Lüscher, “Charm and strange quark in openqcd simulations.”
+     http://luscher.web.cern.ch/luscher/openQCD/, 2019.
+[25] G. Colangelo, A. Fuhrer and C. Haefeli, The pion and proton mass in finite volume, Nucl.
+     Phys. B Proc. Suppl. 153 (2006) 41–48, [hep-lat/0512002].
+
+[26] G. Colangelo, S. Durr and C. Haefeli, Finite volume effects for meson masses and decay
+     constants, Nucl. Phys. B 721 (2005) 136–174, [hep-lat/0503014].
+[27] N. Husung, Logarithmic corrections to O(a) and O(a2 ) effects in lattice QCD with Wilson or
+     Ginsparg–Wilson quarks, Eur. Phys. J. C 83 (2023) 142, [2206.03536]. [Erratum:
+     Eur.Phys.J.C 83, 144 (2023)].
+
+[28] J. Frison, Towards fully bayesian analyses in Lattice QCD, 2302.06550.
+[29] M. Bruno and R. Sommer, On fits to correlated and auto-correlated data, Comput. Phys.
+     Commun. 285 (2023) 108643, [2209.14188].
+[30] V. Cirigliano and I. Rosell, pi/K —> e anti-nu(e) branching ratios to O(e**2 p**4) in Chiral
+     Perturbation Theory, JHEP 10 (2007) 005, [0707.4464].
+[31] (CLQCD), Z.-C. Hu et al., Quark masses and low-energy constants in the continuum from
+     the tadpole-improved clover ensembles, Phys. Rev. D 109 (2024) 054507, [2310.00814].
+[32] (QCDSF–UKQCD), V. G. Bornyakov, R. Horsley, Y. Nakamura, H. Perlt, D. Pleiter,
+     P. E. L. Rakow et al., Flavour breaking effects in the pseudoscalar meson decay constants,
+     Phys. Lett. B 767 (2017) 366–373, [1612.04798].
+[33] S. Dürr et al., Leptonic decay-constant ratio fK /fπ from lattice QCD using 2+1
+     clover-improved fermion flavors with 2-HEX smearing, Phys. Rev. D 95 (2017) 054513,
+     [1601.05998].
+
+[34] (RBC, UKQCD), T. Blum et al., Domain wall QCD with physical quark masses, Phys. Rev.
+     D 93 (2016) 074505, [1411.7017].
+[35] (MILC), A. Bazavov et al., Results for light pseudoscalar mesons, PoS LATTICE2010
+     (2010) 074, [1012.0868].
+
+
+                                                20
+[36] (BMW), S. Durr, Z. Fodor, C. Hoelbling, S. D. Katz, S. Krieg, T. Kurth et al., The ratio
+     FK/Fpi in QCD, Phys. Rev. D 81 (2010) 054507, [1001.4692].
+[37] (HPQCD, UKQCD), E. Follana, C. T. H. Davies, G. P. Lepage and J. Shigemitsu, High
+     Precision determination of the pi, K, D and D(s) decay constants from lattice QCD, Phys.
+     Rev. Lett. 100 (2008) 062002, [0706.1726].
+
+[38] S. Descotes-Genon and B. Moussallam, Radiative corrections in weak semi-leptonic processes
+     at low energy: A Two-step matching determination, Eur. Phys. J. C 42 (2005) 403–417,
+     [hep-ph/0505077].
+[39] B. Ananthanarayan and B. Moussallam, Four-point correlator constraints on electromagnetic
+     chiral parameters and resonance effective Lagrangians, JHEP 06 (2004) 047,
+     [hep-ph/0405206].
+[40] M. Moulson, Experimental determination of Vus from kaon decays, PoS CKM2016 (2017)
+     033, [1704.04104].
+[41] S. Aoki et al., Review of lattice results concerning low-energy particle physics, Eur. Phys. J. C
+     77 (2017) 112, [1607.00299].
+
+
+
+
+                                                 21
+

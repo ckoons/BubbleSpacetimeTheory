@@ -1,0 +1,484 @@
+ 
+ 
+ 
+ 
+ 
+ 
+
+         
+                 MathJax.Hub.Config({
+                    extensions: ["tex2jax.js", "asciimath2jax.js"],
+                    jax: ["input/TeX", "output/HTML-CSS"],
+                    tex2jax: {
+                      inlineMath: [ ['$','$'] ],
+                      displayMath: [ ['$$','$$'] ],
+                      processEscapes: true
+                    },
+                    asciimath2jax: {
+                      delimiters: [ ['@@', '@@'], ]
+                    },
+                    "HTML-CSS": { availableFonts: ["TeX"] }
+                 });
+         
+        <script type="text/javascript" async
+            src="/javascript/mathjax/MathJax.js?config=TeX-MML-AM_CHTML">
+         
+        <script type="text/javascript"
+            src="http://code.jquery.com/jquery-1.10.1.min.js">
+         
+       
+       
+         
+ 
+
+ MainPage - FLAG 
+  
+
+ 
+<!--
+var search_hint = "Search";
+//-->
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+    
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+   
+     
+     
+       
+
+         
+         
+           
+           
+             Toggle sidebar 
+              
+           
+           
+           
+             Toggle navigation 
+              
+              
+              
+           
+           
+
+           
+
+         
+         
+
+           
+           
+
+             
+
+             
+               
+                 Comments 
+               
+             
+
+             
+
+             
+                Immutable Page  
+             
+
+             
+
+           
+             
+               
+                 
+                 
+                 
+                   Search: 
+                   
+                 
+               
+             
+           
+
+             
+
+             
+               
+               
+                Menu    
+               
+               
+               
+                 Navigation 
+                  RecentChanges  
+                  FindPage  
+                  Local Site Map  
+                  
+                 Help 
+                  HelpContents  
+                  HelpOnMoinWikiSyntax  
+                  
+                 Display 
+                  Attachments  
+                  Info  
+                  Raw Text  
+                  Print View  
+                  
+                 Edit 
+                  Load  
+                  Save  
+               
+               
+
+             
+
+             
+               Login 
+             
+
+
+             
+
+           
+         
+       
+     
+
+     
+
+
+       
+       
+         
+           
+ 
+    
+                      
+   FLAG 2027 
+      Submission form         
+   Figures for download 
+      Quark masses        $V_{ud}$ and $V_{us}$        Kaon mixing        $\small{D}$-meson decay constants and form factors        $\small{B}$-meson decay constants, mixing parameters, and form factors        The strong coupling $\alpha_s$        Nucleon matrix elements        Scale setting          
+ 
+
+             
+               Navigation 
+               
+                  RecentChanges                    FindPage                    HelpContents  
+               
+             
+
+
+             
+           
+          
+
+
+
+
+
+ 
+   
+   
+   FLAG Review 2024 
+        
+                         
+  &nbsp;Please note that is is mandatory to cite the original sources when citing a result from FLAG. We facilitate this by providing corresponding bibtex files for each FLAG average and the corresponding plot, see also our paragraph on  citation policy .   
+&nbsp;       The latest version of the FLAG 24 review as of June 2026 is accessible   here . It contains updates of the following sections:       Charm-hadron decay constants and form factors:   updated June 2026      Leptonic decay constants $f_B$ and $f_{B_s}$:     updated June 2026        The version of the FLAG review as of November 2024 is accessible   here  and corresponds to the one published in PRD. The PRD version can be obtained from  PRD  as an Editor's Suggestion.       The separate sections can be downloaded as separate pdf-files following the links in the table of contents below, or via the menu in the sidebar. Clicking on the FLAG logo in the upper left corner links back to this main page.      The latest figures can be downloaded in pdf and png format, together with a bib-file containing the bibtex-entries for the calculations which contribute to the FLAG averages and estimates. The downloads are available via the menu in the sidebar.      In the notes we compile detailed information on the simulations used to calculate the quantities discussed in the review. In the current report we present this information only for results that are new w.r.t. FLAG 21. For all other results the information is available in the corresponding Appendices of the previous reports.      The previous version of the FLAG review was updated as of February 2024 and is accessible at  flag.itp.unibe.ch/2021  where also the original 2021 edition of the FLAG review can be downloaded.   The original complete 2019 review is still accessible from  flag.itp.unibe.ch/2019  and the 2015/2016 review from  EPJC . The 2016/2017 updates are available from   here . The 2013/2014 review is accessible  here  or from  EPJC .          Contents  
+ Introduction   
+ FLAG composition, guidelines and rules   
+ Citation policy     
+ Quality criteria   
+ The low-energy limit of the Standard Model   
+ Quark masses   
+ $\small{V_{ud}}$ and $\small{V_{us}}$   
+ Kaon mixing   
+ $\small{D}$-meson decay constants and form factors   
+ $\small{B}$-meson decay constants, mixing parameters, and form factors   
+ The strong coupling $\alpha_s$   
+ Nucleon matrix elements   
+ Scale setting   
+ Appendix   
+ Notes              Inquiries and suggestions can be sent to the  FLAG Editorial Board .      
+   Introduction 
+   The introduction with the summary tables can be downloaded  here .      We review lattice results related to pion, kaon, $D$-meson, $B$-meson, and nucleon physics with the aim of making them easily accessible to the nuclear and particle physics communities. More specifically, we report on the determination of the light-quark masses, the form factor $f_+(0)$ arising in the semileptonic $K \to \pi$ transition at zero momentum transfer, as well as the decay constant ratio $f_K/f_\pi$ and its   consequences for the CKM matrix elements $V_{us}$ and $V_{ud}$. We review the determination of the $B_K$ parameter of neutral kaon mixing as well as the additional four $B$ parameters that arise in theories of physics beyond the Standard Model.         For the heavy-quark sector, we provide results for $m_c$ and $m_b$ as well as those for the decay constants, form factors, and mixing parameters of charmed and bottom mesons and baryons. These are the heavy-quark quantities most relevant for the determination of CKM matrix elements and the global CKM unitarity-triangle fit. We review the status of lattice determinations of the strong coupling constant $\alpha_s$. We consider nucleon matrix elements, and review the determinations of the axial,  scalar and tensor bilinears, both isovector and flavour diagonal. We also review determinations of   scale-setting quantities. Finally, in this review we have added a new section on the general   definition of the low-energy limit of the Standard Model.      We note that the LEC section is omitted in the current review as progress in that area has slowed. FLAG will keep monitoring the situation and provide updates in future editions, should new results become available.        
+   FLAG composition, guidelines and rules 
+     
+ 
+div.seesaw, span.seesaw, table.seesaw, tr.seesaw, td.seesaw { display: none; }
+div.seesaw.show { display: block; }
+span.seesaw.show { display: inline; }
+table.seesaw.show { display: table; }
+tr.seesaw.show { display: table-row; }
+td.seesaw.show { display: table-cell; }
+ 
+
+ var seesawc,seesaws,seesawfx={toggle:{slide:"slideToggle",fade:"fadeToggle",show:"toggle",hide:"toggle"},show:{slide:"slideDown",fade:"fadeIn",show:"hide",hide:"show"},hide:{slide:"slideUp",fade:"fadeOut",show:"show",hide:"hide"}};function seeSaw(f,b,e,a){var d,c;$.each(["toggle","show","hide"],function(){c=seesawfx[this];c.dflt=this;$.each(f[this],function(){seesawc.filter((d="."+this)).find(".part").not(".seesawed").addClass("seesawed").filter(".seesaw-show")[c.show]().end().filter(".seesaw-hide")[c.hide]();(a?seesaws.filter(d):$(d)).not(".seesawc,.seesawed").addClass("seesawed").each(function(){e?$(this)[c[b]](e):$(this)[c[b]]()})})});$(".seesawed").removeClass("seesawed")}$(document).ready(function(){var a;(seesaws=$(".seesaw")).not(".show").hide();(seesawc=$(".seesawc")).each(function(){if((a=$(this).data())){seesaws.filter("."+a.section+"-bg").css("background-color",a.bg)}})}); 
+
+ 
+
+
+ 
+ Show Text 
+ Hide Text 
+ 
+
+
+ 
+
+                                                                                           FLAG strives to be representative of the lattice community, both in terms of the geographical location of its members and the lattice collaborations to which they belong. We aspire to provide the nuclear- and particle-physics communities with a single source of reliable information on lattice results.      In order to work reliably and efficiently, we have adopted a formal structure and a set of rules by which all FLAG members abide.  The collaboration presently consists of an Advisory Board (AB), an Editorial Board (EB), and eight Working Groups (WG). The role of the Advisory Board is to provide oversight of the content, procedures, schedule and membership of FLAG, to help resolve disputes, to serve as a source of advice to the EB and to FLAG as a whole, and to provide a critical assessment of drafts. They also give their approval of the final version of the preprint before it is rendered public. The Editorial Board coordinates the activities of FLAG, sets priorities and intermediate deadlines, organizes votes on FLAG procedures, writes the introductory sections, and takes care of the editorial work needed to amalgamate the sections written by the individual working groups into a uniform and coherent review. The working groups concentrate on writing the review of the physical quantities for which they are responsible, which is subsequently circulated to the whole collaboration for critical evaluation.      The current list of FLAG members and their Working Group assignments is:              Advisory Board (AB)  
+     M. Golterman, P. Hernandez, T. Onogi, S.R. Sharpe, R. Van de Water  
+ 
+        Editorial Board (EB)  
+    S. Gottlieb, A. Jüttner, U. Wenger  
+ 
+        Working Groups (coordinator listed first)                                                 
+ 
+        Quark masses  
+    T. Blum, A. Portelli, A. Ramos  
+ 
+        $V_{us}, V_{ud}$  
+    T. Kaneko, J.N. Simone, N. Tantalo  
+ 
+        $B_K$  
+    P. Dimopoulos, X. Feng, G. Herdoiza 
+ 
+        $f_{B_{(s)}}$, $f_{D_{(s)}}$, $B_B$  
+    Y. Aoki, M. Della Morte, C. Monahan 
+ 
+        $B_{(s)}$, $D$ semileptonic and radiative decays  
+    E. Lunghi, S. Meinel, A. Vaquero 
+ 
+        $\alpha_s$  
+    S. Sint, L. Del Debbio, P. Petreczky 
+ 
+        Nucleon Matrix Elements  
+    R. Gupta, S. Collins, A. Nicholson, H. Wittig 
+ 
+        Scale setting  
+    R. Sommer, N. Tantalo, U. Wenger 
+ 
+          The most important FLAG guidelines and rules are the following:       the composition of the AB reflects the main geographical areas in which lattice collaborations are active, with members from America, Asia/Oceania, and Europe;     the mandate of regular members is not limited in time, but we expect that a certain turnover will occur naturally;     whenever a replacement becomes necessary this has to keep, and possibly improve, the balance in FLAG, so that different collaborations, from different geographical areas are represented;     in all working groups the members must belong to different lattice collaborations;     a paper is in general not reviewed (nor colour-coded, as described in the next section) by any of its authors;     lattice collaborations will be consulted on the colour coding of their calculation;     there are also internal rules regulating our work, such as voting procedures.        As for FLAG 21, for this review we sought the advice of external reviewers   once a complete draft of the review was available. For each review section, we   have asked one lattice expert (who could be a FLAG alumnus/alumna) and   one nonlattice phenomenologist for a critical assessment. This is similar   to the procedure followed by the Particle Data Group in the creation of the   Review of Particle Physics.  The reviewers provide comments and feedback on   scientific and stylistic matters. They are not anonymous, and enter into a discussion with   the authors of the WG. Our aim with this additional step is to make sure that a wider   array of viewpoints enter into the discussions,    so as to make this review more useful for its intended audience.                   
+   Citation policy 
+   
+ 
+
+
+ 
+ Show Text 
+ Hide Text 
+ 
+
+
+ 
+
+                         We draw attention to this particularly important point.  As stated above, our aim is to make lattice-QCD results easily accessible to those without lattice expertise, and we are well aware that it is likely that some readers will only consult the present paper and not the original lattice literature. It is very important that this paper not be the only one cited when our results are quoted. We strongly suggest that   readers also cite the original sources. In order to facilitate this,   in Tables 1, 2, 3, 4, and 5, besides   summarizing the main results of the present review, we also provide here a bibtex file containing the   original references from which the results have been obtained. In addition, for each figure, we make a corresponding bibtex file available which contains the bibtex entries of all the calculations contributing to the FLAG average or estimate. The bibliography at the end of this paper should also make it easy to cite additional papers. Indeed, we hope that the bibliography will be one of   the most widely used elements of the whole paper.         
+   Quality criteria 
+     The section on the  quality criteria  can be downloaded  here .      
+   The low-energy limit of the Standard Model 
+     The section on  the general definition of the low-energy limit of the Standard Model  including a specific prescription for   the separation of QCD and QED contributions to hadronic observables (Edinburgh consensus) can be downloaded  here .                Edinburgh consensus  
+ 
+                        
+     QCD            
+     isoQCD         
+ 
+        $M_{\pi^+}$     
+     135.0 MeV      
+     135.0 MeV      
+ 
+        $M_{K^+}$       
+     491.6 MeV      
+     494.6 MeV      
+ 
+        $M_{K^0}$       
+     497.6 MeV      
+     494.6 MeV      
+ 
+        $M_{D_s^+}$     
+     1967$\,$  MeV  
+     1967$\,$  MeV  
+ 
+        $M_{B_s^0}$     
+     5367$\,$  MeV  
+     5367$\,$  MeV  
+ 
+        $f_{\pi^+}$     
+     130.5 MeV      
+     130.5 MeV      
+ 
+                                              
+     QCD    
+     isoQCD  
+ 
+        $M_{\pi^+}/f_{\pi^+}$     
+     1.034  
+     1.034   
+ 
+        $M_{K^+}/f_{\pi^+}$       
+     3.767  
+     3.790   
+ 
+        $M_{K^0}/f_{\pi^+}$       
+     3.813  
+     3.790   
+ 
+        $M_{D_s^+}/f_{\pi^+}$     
+     15.07  
+     15.07   
+ 
+        $M_{B_s^0}/f_{\pi^+}$     
+     41.13  
+     41.13   
+ 
+          
+   Quark masses 
+     The section on the  quark masses  can be downloaded  here .      
+   $\small{V_{ud}}$ and $\small{V_{us}}$ 
+     The section on  $V_{ud}$ and $V_{us}$  can be downloaded  here .      
+   Kaon mixing 
+     The section on the  kaon mixing  can be downloaded  here .      
+   $\small{D}$-meson decay constants and form factors 
+   The section on the  $D$-meson decay constants and form factors  can be downloaded  here .      
+   $\small{B}$-meson decay constants, mixing parameters, and form factors 
+   The section on the  $B$-meson decay constants, mixing parameters, and form factors  can be downloaded  here .       
+   The strong coupling $\alpha_s$ 
+   The section on  the strong coupling $\alpha_s$  can be downloaded  here .      
+   Nucleon matrix elements 
+   The section on  nucleon matrix elements  can be downloaded  here .      
+   Scale setting 
+   The section on  scale setting  can be downloaded  here .        
+   Appendix 
+   The Appendix can be downloaded  here .      
+   Notes 
+   Notes to the various sections can be downloaded  here  in reduced form (containing notes to results that are new w.r.t. FLAG 21).        
+    
+   This page has been accessed 168597 times.      
+ 
+          
+
+         
+       
+       
+     
+
+   
+   
+     
+       Flag: MainPage  (last edited 2026-07-03 09:47:37 by   FlagAdmin  ) 
+
+     
+   
+   
+
+
+
+   
+   
+     
+       
+  MoinMoin Powered    Python Powered    GPL licensed    Valid HTML 4.01  
+ 
+
+      
+
+       
+     
+   
+
+   
+   
+    
+   
+    
+   
+    
+   
+
+   
+    +function ($) {
+      // Toggle minified navbar under mobile landscape view
+      $('.navbar-collapse').on('show.bs.collapse', function () {
+        $('.navbar-mobile-toggle').togglejs('show');
+      });
+      $('.navbar-collapse').on('hidden.bs.collapse', function () {
+        $('.navbar-mobile-toggle').togglejs('hide');
+      });
+      
+      //Scroll position fix for hash anchors
+      var mdAnchorFix = {
+        escapeRe: /[ !"#$%&'()*+,.\/:; ?@\[\\\]^`{|}~]/g,
+        escape: function (str) {
+          return str.replace(mdAnchorFix.escapeRe, '\\$&');
+        },
+        rgbRe: /^rgba\(([ \t]*\d{1,3},){3}([ \t]*\d{1,3})\)$/i,
+        isTransparent: function (rgbstr) {
+          if (rgbstr === 'transparent') {
+            return true;
+          }
+          rgbMatch = rgbstr.match(mdAnchorFix.rgbRe);
+          if (rgbMatch) {
+            return (Number(rgbMatch[2]) ? false : true);
+          }
+          return false;
+        },
+        navbarHeight: function () {
+          var height = 0;
+          var $navbar = $('.navbar');
+          if ( !mdAnchorFix.isTransparent($navbar.css('background-color'))
+               && ($navbar.css('display') !== 'none')
+               && ($navbar.css('visibility') !== 'hidden') ) {
+            height = $navbar.height();
+          }
+          return height;
+        },
+        jump: function () {
+          origin = $('#' + mdAnchorFix.escape(location.hash.substr(1))).offset().top;
+          offset = mdAnchorFix.navbarHeight() + 15;
+          setTimeout(function () { window.scrollTo(0, origin - offset); }, 1);
+        },
+        clickWrapper: function () {
+          if ( ($(this).attr('href') === location.hash)
+               || !('onhashchange' in window.document.body) ) {
+            setTimeout(function () { $(window).trigger("hashchange"); }, 1);
+          }
+        },
+      };
+      $('#pagebox a[href^="#"]:not([href="#"])').on("click", mdAnchorFix.clickWrapper);
+      $(window).on("hashchange", mdAnchorFix.jump);
+      if (location.hash) setTimeout(function () { mdAnchorFix.jump(); }, 100);
+    }(jQuery);
+   
+
+   
+ 
+ 
+

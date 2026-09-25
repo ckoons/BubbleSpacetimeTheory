@@ -1,0 +1,531 @@
+                                          Update of kaon semileptonic form factor using
+                                          𝑵 𝒇 = 2 + 1 PACS10 configurations
+
+
+                                          Takeshi Yamazaki,𝑎,𝑏,∗ Ken-ichi Ishikawa,𝑐 Naruhito Ishizuka,𝑏
+
+
+
+
+arXiv:2412.05778v1 [hep-lat] 8 Dec 2024
+                                          Yoshinobu Kuramashi,𝑏 Yusuke Namekawa,𝑑 Yusuke Taniguchi𝑏 and
+                                          Naoya Ukita𝑎
+                                                                                                    (PACS Collaboration)
+                                           𝑎 Institute of Pure and Applied Sciences, University of Tsukuba, Tsukuba, Ibaraki 305-8571, Japan
+
+                                           𝑏 Center for Computational Sciences, University of Tsukuba, Tsukuba, Ibaraki 305-8577, Japan
+
+                                           𝑐 Core of Research for the Energetic Universe, Graduate School of Advanced Science and Engineering,
+
+                                             Hiroshima University, Higashi-Hiroshima, 739-8526, Japan
+                                           𝑑 Education and Research Center for Artificial Intelligence and Data Innovation, Hiroshima University,
+
+                                             Higashi-Hiroshima 739-8521, Japan
+                                             E-mail: yamazaki@het.ph.tsukuba.ac.jp
+
+
+                                             We calculate the form factors for the kaon semileptonic decay process using the PACS10 con-
+                                             figurations, whose physical volume is more than (10 fm)4 very close to the physical point. The
+                                             configurations were generated with the Iwasaki gauge action and 𝑁 𝑓 = 2 + 1 stout-smeared non-
+                                             perturbatively 𝑂 (𝑎)-improved Wilson quark action at the three lattice spacings, 0.085, 0.063, and
+                                             0.041 fm. We present updated results for the form factors, and discuss their continuum extrapola-
+                                             tions, momentum transfer interpolation, and short chiral extrapolation to tune the simulated pion
+                                             and kaon masses to the physical ones. From the results with various analyses, the systematic error
+                                             of the form factor at the zero momentum transfer is estimated. The value of |𝑉𝑢𝑠 | is determined
+                                             using our result, and is compared with those using the previous calculations and also those deter-
+                                             mined through the kaon leptonic decay process.
+
+
+
+
+                                          The 41st International Symposium on Lattice Field Theory (LATTICE2024)
+                                          28 July - 3 August 2024
+                                          Liverpool, UK
+
+                                              ∗ Speaker
+
+
+
+                                          © Copyright owned by the author(s) under the terms of the Creative Commons
+                                          Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).         https://pos.sissa.it/
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations             Takeshi Yamazaki
+
+
+1. Introduction
+
+     The Cabibbo-Kobayashi-Maskawa (CKM) matrix elements in the first row give 2.2 𝜎 violation
+from the CKM unitarity [1]. It could suggest the existence of physics beyond the standard model.
+The value of the violation is essentially evaluated by |𝑉𝑢𝑑 | and |𝑉𝑢𝑠 |. The kaon leptonic (𝐾ℓ2 ) and
+semileptonic (𝐾ℓ3 ) decay processes are adopted to obtain the value of |𝑉𝑢𝑠 |, while it is reported
+that these values have a little tension [1]. To understand the violation of the CKM unitarity, it is
+important to investigate the difference between the two determinations of |𝑉𝑢𝑠 |.
+     For the 𝐾ℓ2 decay determination, |𝑉𝑢𝑠 | is basically given by the decay constant ratio 𝐹𝐾 /𝐹 𝜋 ,
+which is well measured in the lattice QCD calculation. On the other hand, the 𝐾ℓ3 form factor at
+the zero momentum transfer 𝑓+ (0) is necessary to obtain |𝑉𝑢𝑠 | for the 𝐾ℓ3 determination. Since this
+calculation is more complicated than that of the decay constants, various studies have been carried
+out to obtain precise values of the 𝐾ℓ3 form factor [2–11].
+     Using the 𝑁 𝑓 = 2 + 1 PACS10 configurations generated on huge volumes very close to the
+physical point, we also measured the 𝐾ℓ3 form factor [12, 13] at the two larger lattice spacings.
+Although the accuracy of the result is comparable with the previous calculations, our result has
+a large systematic error coming from an estimate of the lattice spacing effect. To reduce the
+systematic error, we performed the calculation at the third lattice spacing [14]. In this report, we
+present updated results in our calculation from the last lattice conference, although all the results
+at the smallest lattice spacing are still preliminary. To obtain 𝑓+ (0) from data of the 𝐾ℓ3 form
+factors in finite momentum transfers at three lattice spacings, we perform a simultaneous fit for the
+momentum transfer interpolation, continuum extrapolation, and also short chiral extrapolation to
+the physical point. A systematic error of 𝑓+ (0) for the continuum extrapolations is estimated by
+using various analyses. We also determine the value of |𝑉𝑢𝑠 | using our preliminary result.
+
+2. Simulation parameters
+
+      The PACS10 configurations were generated using the Iwasaki gauge action [15] and a non-
+perturbative 𝑂 (𝑎)-improved Wilson quark action with the six-stout-smeared link [16]. The simula-
+tion parameters of the PACS10 configurations at the three lattice spacings are tabulated in Table 1.
+      The same quark action is employed in the measurements for the two- and three-point functions
+for the 𝐾ℓ3 form factors. The details of the calculation method in our study are described in Ref. [13].
+
+Table 1: Simulation parameters of the PACS10 configurations at the three lattice spacings. The bare coupling
+(𝛽), lattice size (𝐿 3 · 𝑇), physical spatial extent (𝐿), lattice spacing (𝑎), the number of the configurations
+(𝑁conf ), pion and kaon masses (𝑚 𝜋 , 𝑚 𝐾 ), and the range of the timeslice separation (𝑡sep ) between the source
+and sink operators in the three-point function are tabulated.
+
+
+      Label              𝛽     𝐿3 · 𝑇    𝐿[fm]     𝑎[fm]     𝑁conf    𝑚 𝜋 [MeV]      𝑚 𝐾 [MeV]      𝑡sep [fm]
+   PACS10/L128         2.20    2564      10.5      0.041      20         142            514         3.4-3.9
+   PACS10/L160         2.00    1604      10.1      0.063      20         138            505         2.3-4.1
+   PACS10/L256         1.82    1284      10.9      0.085      20         135            497         3.1-4.0
+
+
+
+                                                       2
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations                      Takeshi Yamazaki
+
+
+Using the correlation functions, the matrix elements for the 𝐾ℓ3 form factors are extracted, which
+are written by the two form factors 𝑓+ (𝑞 2 ) and 𝑓 − (𝑞 2 ) as,
+
+                ⟨𝜋( 𝑝® 𝜋 ) 𝑉𝜇 𝐾 ( 𝑝®𝐾 )⟩ = ( 𝑝 𝐾 + 𝑝 𝜋 ) 𝜇 𝑓+ (𝑞 2 ) + ( 𝑝 𝐾 − 𝑝 𝜋 ) 𝜇 𝑓 − (𝑞 2 ),                    (1)
+
+where 𝑉𝜇 is the weak vector current and 𝑞 2 is the momentum transfer squared. Another form factor
+𝑓0 (𝑞 2 ) is defined with the two form factors as,
+
+                                                                −𝑞 2
+                                  𝑓0 (𝑞 2 ) = 𝑓+ (𝑞 2 ) +               𝑓 − (𝑞 2 ).                                   (2)
+                                                            𝑚 2𝐾 − 𝑚 2𝜋
+
+In this study, we calculate 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ) with six and seven different 𝑞 2 , respectively, around
+𝑞 2 = 0 at each lattice spacing.
+     For the calculation of the two- and three-point functions, we adopt the random source operator
+spread in the spin, color, and spatial spaces proposed in Ref. [17]. The exponentially smeared quark
+operator with the random source is also employed for the calculations of the correlation functions
+at the two smaller lattice spacings. The several time separations, 𝑡sep , between the source and sink
+operators in the three-point function are utilized to investigate excited state contamination of the
+matrix elements. The range of 𝑡sep at each lattice spacing is shown in Table 1. The form factors are
+evaluated with a combined analysis using the correlation functions with the two source operators
+and the different 𝑡sep .
+     The periodic boundary condition is imposed in the spatial directions in the calculation of the
+correlation functions, while in the temporal direction the periodic and anti-periodic boundary condi-
+tions are employed. The average of the two-point correlation functions with the different boundary
+conditions makes the periodicity of the temporal direction effectively doubled. A similar average
+of the three-point functions suppresses the wrapping-around effect [18] in the small momentum
+region [12, 13].
+     Not only the local weak vector current but also the conserved vector one is employed to
+calculate the three-point functions to investigate finite lattice spacing effects in√︃the form factors.
+The renormalization factor of the local vector current is determined from 𝑍𝑉 =                        𝑍𝑉𝜋 𝑍𝑉𝐾 where
+
+                                                                 1
+                                                  𝑍𝑉𝐻 =      bare (0)
+                                                                                                                      (3)
+                                                            𝐹𝐻
+
+for 𝐻 = 𝜋, 𝐾 with 𝐹𝐻 bare (0) being the bare electromagnetic form factor evaluated using the local
+                   2
+vector current at 𝑞 = 0.
+
+3. Preliminary results
+
+     In this section our preliminary results for the 𝐾ℓ3 form factors and also the value of |𝑉𝑢𝑠 |
+determined from our results are presented.
+
+3.1 𝐾ℓ3 form factors
+    Figure 1 shows our preliminary results for the 𝐾ℓ3 form factors, 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ), at 𝑎 = 0.041
+fm including the previous results in Ref. [13] using the renormalized local vector current. The data
+
+
+                                                             3
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations                   Takeshi Yamazaki
+
+
+  1.10                                                         1.10
+                                               2                                                          2
+                                           f+(q )                                                     f0(q )
+  1.05                                     Preliminary         1.05                                   Preliminary
+
+
+  1.00                                                         1.00
+            a=0.041 [fm]                                               a=0.041 [fm]
+            a=0.063 [fm]                                               a=0.063 [fm]
+  0.95      a=0.085 [fm]                                       0.95    a=0.085 [fm]
+            a=0                                                        a=0
+          local current                                               local current
+  0.90                                                         0.90
+
+               -0.1        -0.05       0            0.05                   -0.1       -0.05       0            0.05
+                             2     2                                                    2     2
+                            q [GeV ]                                                   q [GeV ]
+
+Figure 1: Lattice spacing dependences for 𝑓+ (𝑞 2 ) (left) and 𝑓0 (𝑞 2 ) (right) as a function of 𝑞 2 with the
+renormalized local vector current. The different symbols represent data at the different lattice spacings. The
+data at 𝑎 = 0.041 fm are preliminary, while the other two data are presented in Ref. [13]. The dashed curves
+express the result of the simultaneous fit described in the text. The magenta curves correspond to the results
+in the continuum limit at the physical point.
+
+
+for 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ) are measured precisely at all the lattice spacings. Thanks to the huge volume
+of the PACS10 configurations, we can obtain several data near 𝑞 2 = 0 even using the periodic
+boundary condition in the spatial directions. The data with the conserved vector current have a
+similar quality to those for the local vector current.
+      To determine the value of 𝑓+ (0), which is important to obtain |𝑉𝑢𝑠 | through the 𝐾ℓ3 decay, the
+data of the form factors are interpolated to 𝑞 2 = 0 and also extrapolated to 𝑎 = 0 simultaneously. A fit
+form is based on the formulas at the next-to-leading order in the chiral perturbation theory [19, 20],
+and we add correction terms given by (𝑚 2𝐾 −𝑚 2𝜋 ) 2 , 𝑞 2 , and lattice spacing effects. In the simultaneous
+fit, we use the data for 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ) with both the local and conserved vector currents at all
+three lattice spacings. Figure 1 presents that the simultaneous fit works well in our local vector
+current data. The fit results at each lattice spacing are denoted by the curves in the same colors as the
+symbols. Since the simulated 𝑚 𝜋 and 𝑚 𝐾 are different from the physical ones, 𝑚 𝜋 − = 139.57061
+MeV and 𝑚 𝐾 0 = 497.611 MeV, as shown in Table 1, a short chiral extrapolation is carried out using
+the same formulas as in the simultaneous fit. The continuum limit results for 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ) at
+the physical 𝑚 𝜋 and 𝑚 𝐾 are denoted by the magenta curves in the figure.
+
+
+3.2 Continuum extrapolation of 𝑓+ (0)
+
+    The continuum extrapolation of 𝑓+ (0) is discussed in this subsection, which corresponds to the
+simultaneous fit result at 𝑞 2 = 0 explained in the previous subsection.
+     Before discussing the continuum extrapolation, we present the effect of the chiral extrapolation
+in 𝑓+ (0). The effect of the short chiral extrapolation for 𝑓+ (0) is shown in the left panel of Fig. 2.
+At the three lattice spacing, the open circle and square symbols express the data at the simulated
+point with the local and conserved currents, respectively. The closed ones correspond to those at the
+physical point. It is noted that those data are estimated from 𝑞 2 interpolations at each lattice spacing
+for discussing the chiral and continuum extrapolations. The largest effect of the chiral extrapolation
+
+
+                                                           4
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations                               Takeshi Yamazaki
+
+
+          local                                                              conserved
+ 0.980    conserved                        Preliminary               0.980          K                          Preliminary
+            2
+          a fit
+                              f+(0)                                          local ZV
+                                                                                      π K 1/2
+                                                                                                 f+(0)
+          a fit                                                              local (ZVZV )
+ 0.975    w/ sys. error                                              0.975           π
+                                                                             local ZV
+          PACS 22
+ 0.970                                                               0.970
+
+
+ 0.965                                                               0.965
+
+
+ 0.960                                                               0.960
+
+
+ 0.955                                                               0.955
+
+
+ 0.950                                                               0.950
+          0           0.002        0.004    0.006        0.008               0           0.002        0.004      0.006       0.008
+                               2                                                                  2
+                              a [fm]                                                             a [fm]
+
+Figure 2: Left : Preliminary results of 𝑓+ (0) at the physical point with the local (conserved) vector current
+denoted by black circle (red square) symbol as a function of 𝑎. The open circle and square symbols
+represent the results at the simulated meson masses. The dashed-dot and dashed curves express continuum
+extrapolations with quadratic and linear functions of 𝑎, respectively. The blue diamond and violet up triangle
+symbols express our preliminary and previous [13] results. The inner and outer errors express the statistical
+and total errors. The total error is evaluated by adding the statistical and systematic errors in quadrature.
+Right : The same figure as the left one, but includes the local vector current data with 𝑍𝑉𝜋 and 𝑍𝑉𝐾 denoted by
+magenta right and green left triangle symbols, respectively. The corresponding curves represent continuum
+extrapolations for those data with a quadratic function of 𝑎.
+
+
+appears at the smallest lattice spacing. It is mainly caused by 𝑚 𝐾 , which differs from 𝑚 𝐾 0 by about
+3% at the lattice spacing.
+     A continuum extrapolation of 𝑓+ (0) in the simultaneous fit is expressed by black dashed-dot
+curves in the left panel of Fig. 2. In the fit form, the finite lattice spacing effect is expressed by a
+quadratic function of 𝑎, and we constrain that the two data with the local and conserved currents
+should coincide in the continuum limit. We also perform a fit with a linear function of 𝑎 for the
+continuum extrapolation presented by orange dashed curves in the figure. The result is consistent
+with that from the 𝑎 2 extrapolation.
+     Various different analyses are performed to estimate systematic errors of 𝑓+ (0). An example of
+the analyses is using a different renormalization factor in the local vector current data. As explained
+in the last section, the renormalization factor 𝑍𝑉 is determined from a combination of 𝑍𝑉𝜋 and 𝑍𝑉𝐾
+in eq. (3). On the other hand, the renormalization factor can be determined from each 𝑍𝑉𝐻 . In a
+different analysis, the data with the local vector current are replaced by the same data but using a
+different renormalization factor, 𝑍𝑉𝜋 or 𝑍𝑉𝐾 . Those data are presented in the right panel of Fig. 2
+with the magenta right and green left triangle symbols. The results in the continuum limit are well
+consistent with the black cross symbol which is the same one as in the left panel. Using results
+obtained from such different analyses, the systematic error of 𝑓+ (0) is estimated from the maximum
+difference of the central value of the black cross result from those in the different analyses. The
+result with the total error including the systematic one is denoted by the blue diamond symbol in
+both the panels. The result reasonably agrees with our previous result in Ref. [13] denoted by the
+violet up triangle symbol in the panels.
+     For a more precise evaluation of 𝑓+ (0), it is important to include the dynamical charm quark
+effect. We have started to generate 𝑁 𝑓 = 2 + 1 + 1 PACS10 configurations, named PACS10𝑐
+
+
+                                                                 5
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations                                      Takeshi Yamazaki
+
+
+                                             local
+                                             conserved                            Preliminary
+                                               2
+                                             a fit
+                                                                     f+(0)
+                                 0.975       w/ sys. error
+                                             PACS 22
+                                             Nf=2+1+1
+
+                                 0.970
+
+
+
+                                 0.965
+
+
+
+                                 0.960
+
+                                             0           0.002            0.004    0.006           0.008
+                                                                      2
+                                                                     a [fm]
+
+Figure 3: The same figure as Fig. 2, but contains the preliminary result from the PACS10𝑐 configuration
+represented by magenta symbols.
+
+
+                                                 Preliminary
+                                 Nf=2+1+1                                                  FNAL/MILC 19
+                                                                                           ETM 16
+                                                                                           FNAL/MILC 14
+                                                                                           This work (preliminary)
+                                 Nf=2+1                                                    PACS 22
+                                                                                           PACS 20
+                                                                                           JLQCD 17
+                                                                                           RBC-UKQCD 15
+                                                                                           FNAL/MILC 13
+                                                                                           RBC-UKQCD 13
+                                                                                           RBC-UKQCD 08
+                                                                                           ETM 09
+                                 Nf=2                                                      Dawson et al. 06
+
+                         0.940           0.950        0.960           0.970        0.980
+                                                             f+(0)
+
+Figure 4: Comparison of our preliminary result of 𝑓+ (0) with the previous results [2–13]. The inner and
+outer errors express the statistical and total errors. The total error is evaluated by adding the statistical and
+systematic errors in quadrature. The closed (open) symbols represent results in the continuum limit (at a
+finite lattice spacing).
+
+
+configurations, which satisfy the same condition as the PACS10 configurations but contain the
+dynamical charm quark effect. So far only a preliminary result at the largest lattice spacing has
+been obtained. Figure 3 presents a reasonable agreement of the PACS10𝑐 results with those from
+the 𝑁 𝑓 = 2 + 1 PACS10 configuration at a similar lattice spacing. While we will not discuss the
+result further in this report, we continue the calculation with PACS10𝑐 configurations at smaller
+lattice spacings.
+      In Fig. 4, our preliminary result of 𝑓+ (0) is compared with previous lattice calculations [2–11]
+including our previous results [12, 13]. The preliminary result in this work is consistent with those
+in our previous calculations, and also agrees with other lattice results within 2 𝜎.
+
+3.3 |𝑉𝑢𝑠 | in the continuum limit
+
+    The value of |𝑉𝑢𝑠 | is determined using the result of 𝑓+ (0) discussed in the previous subsection
+with the experimental value |𝑉𝑢𝑠 | 𝑓+ (0) = 0.21635(39) [21]. The obtained |𝑉𝑢𝑠 | using our prelimi-
+nary result is plotted in Fig. 5 together with the values using the previous lattice results [6, 8–13].
+
+
+                                                                     6
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations                           Takeshi Yamazaki
+
+
+                                 Kl3 Nf=2+1+1               Preliminary
+
+                                                                              FNAL/MILC 19
+                                                                              ETM 16
+                             Kl3 Nf=2+1                                       phase space (preliminary)
+                                                                              This work (preliminary)
+                                                                              PACS 22
+                                                                              PACS 20
+                                                                              JLQCD 17
+                                                                              RBC-UKQCD 15
+                                                                              FNAL/MILC 13
+                                 Kl2                                          PACS (preliminary)
+                                                                              PDG 22
+
+                         0.220         0.222    0.224        0.226        0.228
+                                                    |Vus|
+
+Figure 5: Comparison of |𝑉𝑢𝑠 | using our preliminary result of 𝑓+ (0) with the previous results [6, 8–13].
+|𝑉𝑢𝑠 | determined from the 𝐾ℓ2 decay are also plotted using 𝐹𝐾 /𝐹 𝜋 of our preliminary result and PDG22 [1]
+together with the one obtained from the phase space integral with our results for 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ). The
+closed (open) symbols represent results in the continuum limit (at a finite lattice spacing). The inner and
+outer errors express the lattice QCD and total errors. The total error is evaluated by adding the errors in the
+lattice QCD and experiment in quadrature. The value of |𝑉𝑢𝑠 | determined from the unitarity of the CKM
+matrix using |𝑉𝑢𝑑 | in Ref. [24] is presented by the grey band.
+
+
+Similar to the results of 𝑓+ (0) in Fig. 4, our result is reasonably consistent with the other results
+through the 𝐾ℓ3 determination.
+      Our result of |𝑉𝑢𝑠 | from 𝑓+ (0) also reasonably agrees with |𝑉𝑢𝑠 | through the 𝐾ℓ2 decay. In this
+determination, |𝑉𝑢𝑠 | is obtained from the ratio of the decay constants 𝐹𝐾 /𝐹 𝜋 and the experimental
+value |𝑉𝑢𝑠 |𝐹𝐾 /|𝑉𝑢𝑑 |𝐹 𝜋 = 0.27683(35) [22]. In Fig. 5, we plot |𝑉𝑢𝑠 | with our preliminary value
+of 𝐹𝐾 /𝐹 𝜋 obtained from the 𝑁 𝑓 = 2 + 1 PACS10 configurations, and the one with 𝐹𝐾 /𝐹 𝜋 in
+PDG22 [1]. Furthermore, |𝑉𝑢𝑠 | can be determined from the phase space integral [23] using our
+preliminary result of 𝑓+ (𝑞 2 ) and 𝑓0 (𝑞 2 ) in the continuum limit at the physical point. The values of
+|𝑉𝑢𝑠 | obtained from the 𝐾ℓ2 determination and phase space integral are consistent with that from
+ 𝑓+ (0) as presented in Fig. 5. On the other hand, |𝑉𝑢𝑠 | estimated from the unitarity of the CKM
+matrix using the value of |𝑉𝑢𝑑 | in Ref. [24] is about 2 𝜎 away from our 𝐾ℓ3 determination, which
+is shown by the grey band in the figure.
+
+
+4. Summary
+
+      We have updated our calculation of the 𝐾ℓ3 form factors using the three ensembles of the
+PACS10 configurations, which have more than (10 fm)4 volumes very close to the physical point.
+The finite lattice spacing effect of 𝑓+ (0) is examined using the data obtained from the local and
+conserved vector currents, and also using the different renormalization factors for the local vector
+current. The systematic error of our preliminary result of 𝑓+ (0) is estimated from results with
+various different analyses. We have observed a reasonable agreement of our preliminary result of
+ 𝑓+ (0) with other lattice calculations. The value of |𝑉𝑢𝑠 | determined with our 𝑓+ (0) is reasonably
+consistent with those using other lattice results of 𝑓+ (0), the 𝐾ℓ2 decay determination, and from the
+phase space integral with our 𝑞 2 dependent form factors. In contrast to them, |𝑉𝑢𝑠 | estimated from
+the CKM unitarity is different by about 2 𝜎 from our preliminary result.
+
+
+                                                             7
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations   Takeshi Yamazaki
+
+
+    For a more precise determination of |𝑉𝑢𝑠 |, an important future work is the inclusion of the
+dynamical charm quark effect. Toward this task, we have started to generate the 𝑁 𝑓 = 2 + 1 + 1
+PACS10𝑐 configurations. We have obtained a consistent result from the PACS10𝑐 configuration
+with the PACS10 result at the largest lattice spacing. We will calculate the 𝐾ℓ3 form factors at
+smaller lattice spacings with PACS10𝑐 configurations.
+
+Acknowledgments
+
+     Numerical calculations in this work were performed on Oakforest-PACS in Joint Center for
+Advanced High Performance Computing (JCAHPC) under Multidisciplinary Cooperative Research
+Program of Center for Computational Sciences, University of Tsukuba. This research also used
+computational resources of Oakforest-PACS by Information Technology Center of the University of
+Tokyo, the Type II subsystem on supercomputer "Flow" at Information Technology Center, Nagoya
+University, and of Fugaku by RIKEN CCS through the HPCI System Research Project (Project
+ID: hp170022, hp180051, hp180072, hp180126, hp190025, hp190081, hp200062, hp200167,
+hp210112, hp220079, hp230199, hp240207). The calculation employed OpenQCD system1. This
+work was supported in part by Grants-in-Aid for Scientific Research from the Ministry of Education,
+Culture, Sports, Science and Technology (Nos. 19H01892, 23H01195, 23K25891) and MEXT as
+“Program for Promoting Researches on the Supercomputer Fugaku” (Search for physics beyond the
+standard model using large-scale lattice QCD simulation and development of AI technology toward
+next-generation lattice QCD; Grant Number JPMXP1020230409). This work was supported by the
+JLDG constructed over the SINET5 of NII.
+
+References
+
+ [1] Particle Data Group collaboration, Review of Particle Physics, PTEP 2022 (2022)
+     083C01.
+
+ [2] C. Dawson, T. Izubuchi, T. Kaneko, S. Sasaki and A. Soni, Vector form factor in K(l3)
+     semileptonic decay with two flavors of dynamical domain-wall quarks, Phys. Rev. D74
+     (2006) 114502 [hep-ph/0607162].
+
+ [3] RBC-UKQCD collaboration, K(l3) semileptonic form-factor from 2+1 flavour lattice QCD,
+     Phys. Rev. Lett. 100 (2008) 141601 [0710.5136].
+
+ [4] ETM collaboration, 𝐾 → 𝜋𝑙𝜈 Semileptonic Form Factors from Two-Flavor Lattice QCD,
+     Phys. Rev. D80 (2009) 111502 [0906.4728].
+
+ [5] Fermilab Lattice, MILC collaboration, Kaon semileptonic vector form factor and
+     determination of |𝑉𝑢𝑠 | using staggered fermions, Phys. Rev. D87 (2013) 073012
+     [1212.4993].
+
+ [6] RBC-UKQCD collaboration, The kaon semileptonic form factor with near physical domain
+     wall quarks, JHEP 08 (2013) 132 [1305.7217].
+   1http://luscher.web.cern.ch/luscher/openQCD/
+
+
+                                                   8
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations   Takeshi Yamazaki
+
+
+ [7] Fermilab Lattice, MILC collaboration, Determination of |𝑉𝑢𝑠 | from a lattice-QCD
+     calculation of the 𝐾 → 𝜋ℓ𝜈 semileptonic form factor with physical quark masses, Phys. Rev.
+     Lett. 112 (2014) 112001 [1312.1228].
+
+ [8] RBC-UKQCD collaboration, The kaon semileptonic form factor in N 𝑓 = 2 + 1 domain wall
+     lattice QCD with physical light quark masses, JHEP 06 (2015) 164 [1504.01692].
+
+ [9] ETM collaboration, 𝐾 → 𝜋 semileptonic form factors with 𝑁 𝑓 = 2 + 1 + 1 twisted mass
+     fermions, Phys. Rev. D93 (2016) 114512 [1602.04113].
+
+[10] JLQCD collaboration, Chiral behavior of 𝐾 → 𝜋𝑙𝜈 decay form factors in lattice QCD with
+     exact chiral symmetry, Phys. Rev. D96 (2017) 034501 [1705.00884].
+
+[11] Fermilab Lattice, MILC collaboration, |𝑉𝑢𝑠 | from 𝐾ℓ3 decay and four-flavor lattice QCD,
+     Phys. Rev. D99 (2019) 114509 [1809.02827].
+
+[12] PACS collaboration, 𝐾𝑙3 form factors at the physical point on a (10.9 𝑓 𝑚) 3 volume, Phys.
+     Rev. D 101 (2020) 094504 [1912.13127].
+
+[13] PACS collaboration, 𝐾ℓ3 form factors at the physical point: Toward the continuum limit,
+     Phys. Rev. D 106 (2022) 094501 [2206.08654].
+
+[14] PACS collaboration, |𝑉𝑢𝑠 | from kaon semileptonic form factor in 𝑁 𝑓 = 2 + 1 QCD at the
+     physical point on (10 fm)4 , PoS LATTICE2023 (2024) 276 [2311.16755].
+
+[15] Y. Iwasaki, Renormalization Group Analysis of Lattice Theories and Improved Lattice
+     Action. II – four-dimensional non-abelian SU(N) gauge model, 1111.7054.
+
+[16] C. Morningstar and M.J. Peardon, Analytic smearing of SU(3) link variables in lattice QCD,
+     Phys. Rev. D69 (2004) 054501 [hep-lat/0311018].
+
+[17] RBC-UKQCD collaboration, The Pion’s electromagnetic form-factor at small momentum
+     transfer in full lattice QCD, JHEP 07 (2008) 112 [0804.3971].
+
+[18] PACS collaboration, Electromagnetic pion form factor near physical point in 𝑁 𝑓 = 2 + 1
+     lattice QCD, PoS LATTICE2016 (2017) 160.
+
+[19] J. Gasser and H. Leutwyler, Low-Energy Expansion of Meson Form-Factors, Nucl. Phys.
+     B250 (1985) 517.
+
+[20] J. Gasser and H. Leutwyler, Chiral Perturbation Theory: Expansions in the Mass of the
+     Strange Quark, Nucl. Phys. B250 (1985) 465.
+
+[21] C.-Y. Seng, D. Galviz, W.J. Marciano and U.-G. Meißner, Update on |Vus| and |Vus/Vud|
+     from semileptonic kaon and pion decays, Phys. Rev. D 105 (2022) 013005 [2107.14708].
+
+[22] M. Di Carlo, D. Giusti, V. Lubicz, G. Martinelli, C.T. Sachrajda, F. Sanfilippo et al.,
+     Light-meson leptonic decay rates in lattice QCD+QED, Phys. Rev. D100 (2019) 034514
+     [1904.08731].
+
+
+                                                   9
+Update of kaon semileptonic form factor using 𝑁 𝑓 = 2 + 1 PACS10 configurations   Takeshi Yamazaki
+
+
+[23] H. Leutwyler and M. Roos, Determination of the Elements V(us) and V(ud) of the
+     Kobayashi-Maskawa Matrix, Z. Phys. C25 (1984) 91.
+
+[24] J.C. Hardy and I.S. Towner, Superallowed 0+ → 0+ nuclear 𝛽 decays: 2020 critical survey,
+     with implications for V𝑢𝑑 and CKM unitarity, Phys. Rev. C 102 (2020) 045501.
+
+
+
+
+                                                  10
+

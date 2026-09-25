@@ -1,0 +1,790 @@
+                                                    FK /Fπ as a precision test of a new four flavor Domain Wall Fermion action
+
+                                                  Renwick J. Hudspith,1 Nicolas Garron,2, 3 Zack Hall,4 Andrew Hanlon,5 Henry Monge-Camacho,6
+                                           Colin Morningstar,1 Amy Nicholson,7 Dimitra A. Pefkou,8, 4 Thomas R. Richardson,8, 4 Fernando Romero-López,9
+                                                 Miguel Salg,9 Wyatt A. Smith,10, 4, 8 Pavlos Vranas,11, 4 André Walker-Loud,4, 8 and Bigeng Wang12, 4
+                                                                1
+                                                                  Department of Physics, Carnegie Mellon University, Pittsburgh, Pennsylvania 15213, USA
+                                          2
+                                              School of Mathematics, Computer Science and Engineering, Liverpool Hope University, Hope Park, Liverpool L16 9JD, UK
+                                                3
+                                                  Theoretical Physics Division, Department of Mathematical Sciences, University of Liverpool, Liverpool L69 3BX, UK
+                                                              4
+                                                                Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+                                                                           5
+                                                                             Department of Physics, Kent State University, Kent, OH 44242, USA
+                                                       6
+                                                         National Center For Computational Sciences Oak Ridge National Laboratory, Oak Ridge, Tennessee, USA
+                                                        7
+                                                          Department of Physics and Astronomy, University of North Carolina, Chapel Hill, NC 27516-3255, USA
+                                                                     8
+                                                                       Department of Physics, University of California, Berkeley, California 94720, USA
+                                                  9
+                                                    Institute for Theoretical Physics, Albert Einstein Center for Fundamental Physics, University of Bern, Switzerland
+                                                                10
+                                                                   Department of Physics, The College of William & Mary, Williamsburg, VA, 23187, USA
+
+
+
+
+arXiv:2605.06560v1 [hep-lat] 7 May 2026
+                                                                 11
+                                                                    Physics Division, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA
+                                                              12
+                                                                 Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506, USA
+                                                                                                    (Dated: May 8, 2026)
+                                                           We present a new set of lattice QCD ensembles with four flavors of smeared Möbius Domain
+                                                         Wall Fermions with good chiral symmetry and small fifth-dimensional extent. A modest amount of
+                                                         computing resources was sufficient to generate 30 publicly-available ensembles spanning five lattice
+                                                         spacings and a broad range of pion masses down to physical. To scrutinize our action we determine
+                                                         FK ± /Fπ± = 1.1962(34), a key quantity for precision CKM unitarity tests, heralding a future of
+                                                         inexpensive high-precision calculations of hadronic observables with chiral fermions.
+
+
+                                             Introduction: Lattice QCD (LQCD) regularization                 whereby small mres can be obtained at very small L5
+                                          methods that respect chiral symmetry [1, 2] are highly             while topological tunneling still occurs at fine lattice
+                                          desirable as chiral symmetry is a near exact symmetry of           spacings down to a ≈ 0.05 fm. This is made possi-
+                                          QCD for light quarks, it suppresses sources of large dis-          ble by performing a judicious amount of smearing for
+                                          cretization errors, and it governs the mixing pattern in           the fermions in combination with a gauge action with a
+                                          Standard Model (SM) and Beyond the Standard Model                  weaker rectangle term than is typically used. We scruti-
+                                          (BSM) matrix element calculations such as K − K̄ mix-              nize this new action with one of the most precisely deter-
+                                          ing. At the same time, they require a significant increase         mined quantities in LQCD, FK ± /Fπ± which is known to
+                                          in numerical cost to utilize.                                      0.16% precision [17], and is in itself a crucial ingredient
+                                             Domain Wall Fermions (DWF) [3–5] are the most                   in parameterizing the SM of particle physics.
+                                          popular method of incorporating (approximate) chiral                  A 2-3σ deficit in the unitarity of the first row of the
+                                          symmetry through the introduction of a fifth dimension             Cabibbo–Kobayashi–Maskawa (CKM) matrix [18, 19]
+                                          of length L5 while binding the left and right handed               has persisted under increasing precision and scrutiny [20–
+                                          fermions at opposite ends. A very successful DWF pro-              22]. A determination of FK ± /Fπ± = FK /Fπ × (1 +
+                                          gram with three flavors of dynamical fermions, a degener-          1
+                                                                                                             2 δSU (2) ) is necessary to relate the ratio of K → ℓν to
+                                          ate pair of light up and down quarks along with a strange          π → ℓν decays to |Vus |/|Vud |, where FK /Fπ is the ratio
+                                          quark (Nf = 2 + 1) has been carried out for decades, see           in the isospin limit and δSU (2) is the strong isospin break-
+                                          for example Refs. [6–9].                                           ing correction. LQCD results that non-perturbatively in-
+                                             At finite L5 , an exponentially small residual chiral           clude δSU (2) [23, 24] are in 1σ agreement with the chiral
+                                          symmetry breaking persists that acts as a small additive           perturbation theory (χPT) [25, 26] estimate [27]. The
+                                          mass renormalization to the quarks, mres ∝ e−L5 [5, 10].           LQCD average [17] values of FK ± /Fπ± are 1.1934(19)
+                                          Keeping mres < ml = 12 (mu + md ) is key to maintain-              and 1.1916(34) from Nf = 2 + 1 + 1 [23, 24, 28, 29]
+                                          ing good chiral symmetry, however the numerical cost of            and Nf = 2 + 1 [9, 30–34] flavor calculations respectively
+                                          simulations grows with L5 . Several strategies to allow for        (with a new result in Ref. [35]).
+                                          both small mres and L5 exist in the literature [11–15], and           Improving the precision of FK /Fπ remains desirable
+                                          can be combined with the Möbius Domain Wall Fermion               as the strong isospin breaking correction uncertainty is
+                                          (MDWF) prescription [16]. Some of these make it more               (marginally) sub-dominant. Further, the Nf = 2 + 1 + 1
+                                          difficult for updating algorithms to change topology, and          results are correlated and only two groups have an un-
+                                          although working at coarser lattice spacing avoids this            certainty σFK /Fπ ≃ 0.0020 [23, 24] with the others
+                                          topological freezing issue this comes at the cost of not           having σFK /Fπ ≳ 0.0040 [28, 29]. Three of these re-
+                                          reaching fine enough lattice spacings to include dynami-           sults [23, 24, 28] use the same fermion (HISQ [36]) and
+                                          cal charm quarks with controlled discretization effects.           gauge action as well as using many of the same configu-
+                                             In this work, we show that a balance can be struck              rations [37, 38]. It is therefore highly desirable to have
+                                                                                                                                                                                       2
+
+  β s.h b        c L5 M5 Ltraj   (ams , amc )  105 amres         t0 units [44], ϕηs = 8t0 m2ηs = 1.989(32). For the charm
+4.008 a12 1.75 0.75 10 1.0 0.7 (0.0725,0.8555)   74(5)           and strange contributions in the HMC we use the Ex-
+4.068 a10 1.50 0.50 8 1.0 1.0 (0.0560,0.6608)    43(3)           act One Flavor algorithm [45]. From this tuned strange
+4.160 a08 1.35 0.35 6 1.0 1.6 (0.0415,0.4897)∗ 22(3)
+                                                                 quark we always set amc = 11.8ams , which is consistent
+4.238 a06 1.20 0.20 4 1.0 2.6 (0.0305,0.3599)    39(1)
+4.333 a05 1.16 0.16 4 1.0 4.0 (0.0230,0.2714)    23(0)
+                                                                 with the current Nf = 2 + 1 and Nf = 2 + 1 + 1 results
+                                                                 in FLAG [17], allowing for a precise and accurate de-
+                                                                 termination of mc /ms in future calculations as we begin
+TABLE I. Gauge action (β) short-hand name (s.h) used later,
+MDWF parameters (b, c, L5 , M5 ), HMC trajectory length          close to the physical value. This leaves the charm quark
+(Ltraj ), and bare strange and charm quark masses (ams , amc )   mass always less than the Pauli-Villars mass (amPV = 1),
+tuned for our ensembles, as well as exemplary light-quark        though at the coarsest β = 4.008, we observe significant
+residual mass values. The masses with a ∗ are our preferred      discretization effects for charmonia. For our choices of
+value but most of our boxes at this β have (0.0425, 0.5015).     β we always have t0 /a2 > 1, see Table I for a list of
+                                                                 parameters for each β.
+
+new results from different LQCD actions that reach the                 20                                                      12
+                                                                                                                               10
+                                                                       15
+same level of precision.                                               10
+                                                                                                                                8
+                                                                                                                                6
+
+   Utilizing a modest amount of computing resources, we                 5
+                                                                                                                                4
+
+
+                                                                 <Q>                                                    <Q>
+                                                                                                                                2
+
+present a LQCD calculation using 30 ensembles with                      0
+                                                                        -5
+                                                                                                                                0
+                                                                                                                               -2
+
+Nf = 2 + 1 + 1 flavors of MDWF and the tree-level                      -10
+                                                                                                                               -4
+                                                                                                                               -6
+
+Symanzik [39] improved gauge action, at five values of                 -15                               β=4.008               -8                                   β=4.160
+                                                                                                                              -10
+
+the lattice spacing ranging from a ∈ [0.05, 0.12] fm and               -20
+                                                                             300 350 400 450 500 550 600 650 700
+                                                                                                                              -12
+                                                                                                                                    100   200   300   400   500   600   700   800
+                                                                                       Configuration                                              Configuration
+pion masses in the range mπ ∈ [135, 460] MeV, with a sin-                 12
+gle ensemble generated at the physical mass point. Our                    10
+                                                                           8
+                                                                                                                                   12
+                                                                                                                                   10                               β=4.333
+final result is:                                                           6
+                                                                           4
+                                                                                                                                    8
+                                                                                                                                    6
+
+
+                                                                   <Q>
+                                                                           2                                                        4
+
+
+                                                                                                                            <Q>
+       FK                                                                  0                                                        2
+
+           = 1.1984(23)s (07)χ (17)a (17)M [34]total ,
+                                                                                                                                    0
+                                                                          -2
+                                                                                                                                   -2
+       Fπ                                                                 -4
+                                                                          -6
+                                                                                                                                   -4
+
+                                                                                                           β=4.238
+                                                                                                                                   -6
+                                                                          -8
+      FK ±                                                               -10
+                                                                                                                                   -8
+                                                                                                                                  -10
+           = 1.1962(34) ,                                 (1)            -12                                                      -12
+      Fπ ±                                                                     0 100 200 300 400 500 600 700 800 900 1000
+                                                                                         Configuration
+                                                                                                                                        300 350 400 450 500 550 600 650 700 750 800
+                                                                                                                                                   Configuration
+
+where statistical (s), chiral extrapolation (χ), continuum
+                                                                 FIG. 1. Typical topological charge at large flow time for the
+extrapolation (a) and Model-variance (M ) uncertainties          coarsest and three finest βs. Lines are drawn to guide the eye.
+combine for a total uncertainty of 0.28%. A common
+estimate of the strong isospin breaking corrections is ap-
+                                                                   Fig. 1 shows our topological charge from the gauge field
+plied to shift to FK ± /Fπ± from the FLAG convention [17]
+                                                                 definition at large flow times t ≈ 1.5w02 vs. the config-
+of the isospin symmetric point. Further details of the
+                                                                 uration index. Only for our finest ensemble do we see
+LQCD action, action parameters, calculational results,
+                                                                 an indication of slowdown with a drift to large negative
+and extrapolation analysis follow.
+                                                                 topology pulling the average away from zero slightly. We
+                                                                 have checked that our results of FK /Fπ are not sensitive
+   Lattice Ensemble and Measurement Details: For the
+                                                                 to positive or negative topology at our current precision.
+gauge action, we use the tree-level Symanzik-improved
+                                                                 Additional details of the ensemble generation and the
+form defined by the rectangle coefficient c1 = −1/12 [39]
+                                                                 topological charges are included in the End Matter and
+and bare coupling strength β. For the MDWF action, we
+                                                                 a more extensive discussion of the new action will be pro-
+use 8 iterations of Stout link smearing [40] with param-
+                                                                 vided in Ref. [46].
+eter ρ = 0.125 (comparable to the flow time of 1 as used
+                                                                   In order to extract the kaon to pion decay constant
+in the mixed-action setup in [41], but more tractable in
+                                                                 ratio, we consider two-point functions of the operators
+dynamical-fermion ensemble generation). A fixed num-
+ber of smearing iterations for each ensemble is used such                                  OP = ϕ̄γ5 ψ,                       OAt = ϕ̄γt γ5 ψ,                                        (2)
+that the smearing radius vanishes as the continuum limit
+is approached. The domain wall height is set to M5 = 1.0         with ψ = u and ϕ = s/d. We construct diagonal two-
+on all ensembles, where it was shown in the free-field limit     point functions of OP , as well as off-diagonal two-point
+that the oscillatory modes decouple [42]. The Möbius            functions with OP at the source and OAt at the sink.
+parameters are set under the constraint b − c = 1.0              As our source/sink setup is symmetric we can simultane-
+such that the Dirac operator is a rescaled Shamir op-            ously fit the correlator corresponding to state “X” using
+erator. We√tune b and the fifth-dimensional length L5            their spectral decomposition in the asymptotic regime
+such that t0 mres ≲ 0.0009 for the light quarks, i.e.            where the source-sink time separation t ≫ 0:
+mres ≲ 1.5 MeV.
+   We work with a fixed strange quark mass per β tuned                         CP P (t/a) = P P (e−amX t/a + e−amX (T −t)/a ),
+                                                                                                                                                                                      (3)
+to the connected part of the unphysical “ηs ” from [43] in                   CAt P (t/a) = AP (e−amX t/a − e−amX (T −t)/a ),
+                                                                                                                                    3
+
+with free fit parameters A, P , and amX . From this fit             leading discretization corrections appearing at N2 LO. We
+we can directly determine the decay constant,                       also consider N3 LO discretization corrections
+                                                                              2
+                                                                           δaN LO = A4s ϵ2a (ξK − ξπ ) ,     ϵ2a = a2 /(4w02 ) ,   (7)
+                             s
+                                 A2
+                   aFX = ZA          .             (4)                        3
+                                amX                                        δaN LO = ϵ2a (ξK − ξP )(A6sK ξK + A6sπ ξπ )
+                                                                                    + A6s ϵ4a (ξK − ξπ ) ,                         (8)
+The chiral nature of DWF means ZA = ZV +O((amres )2 )
+[7] and so we extract ZV from pion three-point functions            where A4,6    are lattice action dependent LECs character-
+                                                                              i
+with a temporal vector current insertion [9] and use this           izing discretization effects where a power counting that
+for ZA . More details about the computation of the two-             treats O(ϵ2a ) ∼ O(ξP ) is assumed.
+and three-point functions are given in the End Matter.                 The periodic finite-volume (FV) induces corrections to
+                                                                    FK and Fπ that are characterized through modifications
+   Chiral Continuum Fit Form: The ratio of the me-                  of the loop diagrams appearing in χPT [49–51]. At NLO
+son decay constants can be computed in χPT [26].                    in ξP , the tadpole integrals can be written as
+At next-to-next-to-leading order (N2 LO), several non-                                                             
+unique choices that are equivalent can be made to ex-                                             X K1 (mP L|n|)
+press the quark/meson mass dependence. A particularly                        ℓFVP = ξP λP + 4
+                                                                                                     cn            ,     (9)
+                                                                                                          mP L|n|
+convenient form is an analytic expression for the full two-                                       |n|
+loop result with the η mass parameterized through the
+leading-order relation m2η = 34 m2K − 13 m2π , with the next-       where cn are multiplicity factors counting the number of
+to-leading order (NLO) corrections to this relation ac-             combinations that (ni , nj , nk ) can form a vector of length
+counted for in the N2 LO corrections to FK /Fπ , resulting          |n| (eg. Table 1 of Ref. [51]). K1 (x) is a modified Bessel
+in [47]                                                             function of the second kind. FV corrections at N2 LO
+                                                                    have been worked out [52] but our data is not precise
+      FK        5    1   3                                          enough to be sensitive to them as discussed below.
+         = 1 + ℓπ − ℓk − ℓη + 4L̄5 (ξK − ξπ )
+      Fπ        8    4   8
+                    2                                                Results: To perform the extrapolation to the physical
+                    mπ
+          + ξK2
+                FF      + K̂1r λ2π + K̂2r λπ λK                     point, we closely follow the strategy described in detail
+                    m2K                                             in Ref. [28] and consider a variety of χPT extrapolation
+            + K̂3r λπ λη + K̂4r λ2K + K̂5r λK λη + K̂6r λ2η         functions that are equivalent at N2 LO, with differences
+                                                                    starting at N3 LO. We also consider models where only
+            + Ĉ1r λπ + Ĉ2r λK + Ĉ3r λη + Ĉ4r .            (5)   the counterterms are added at N2 LO (no ln m2P or ln2 m2P
+                                                                    terms) as well as the inclusion of the full set of N3 LO
+Here, λP = ln(m2P /µ2 ) for P ∈ {π, K, η} and                       counterterms or just the ϵ4a (ξK − ξπ ) one. The results of
+                                                                    FK /Fπ , and chiral parameters ξπ , ξK , mπ L, and ϵ2a nec-
+                    m2P       m2P                                   essary for this extrapolation are listed in the End Matter
+  ℓP = ξP λP =             ln     , L̄5 = (4π)2 Lr5 (µ) . (6)
+                  (4πFπ )2    µ2                                    as well as details of these various extrapolation models.
+                                                                       In total, we use 16 different models to perform this
+In addition to the definition of mη , which is often not            global extrapolation, with details of the model and re-
+computed as it requires disconnected diagrams, the use              sults collected in the End Matter. A Bayesian frame-
+of Fπ rather than F0 appearing in the definition of ξP sim-         work is used to perform the analysis following Ref. [28].
+plifies the analysis. This is because Fπ can be computed            All priors and posteriors are Gaussian allowing for an
+on each ensemble, thus avoiding the need for scale set-             analytic determination of the Bayes Factor which is pro-
+ting, which would otherwise correlate the results across            portional to the relative probability of the model given
+all ensembles. Scale setting is also avoided by setting             a fixed set of data. We utilize this Bayes Factor to con-
+the renormalization scale appearing in the logarithms as            struct weights for performing a model averaging to arrive
+µ = 4πFπ [48] and relating this to a scale µ0 = 4πF0                at our final result in the isospin limit given in Eq. (1). An
+through corrections that appear starting at N2 LO [28].             interesting observation from this analysis is that the non-
+   The low-energy-constants (LECs) that contribute are              analytic ln(mπ ) and ln2 (mπ ) corrections arising at N2 LO
+Lr5 at next-to-leading order (NLO) as well as combina-              are strongly disfavored to describe the results, which was
+tions of the other NLO LECs (Lri ) and LECs appearing               also observed in Ref. [28].
+at N2 LO, encapsulated in the Ĉir terms. The K̂ir terms               In Fig. 2, we display the extrapolation to the physical
+are products of ξP ξP ′ and numerical coefficients. The             point along the three main extrapolation axes, from one
+FF (x) function captures non-analytic contributions from            of the highest weighted extrapolation models. The top
+the double sunset graphs. All of these coefficients are             panel displays the extrapolation in ξπ and illustrates the
+provided in Ref. [47].                                              span of ensembles in the light-quark mass. The middle
+   Discretization errors are flavor blind and so they must          panel shows the continuum extrapolation. In this figure,
+be proportional to (ξK − ξπ ) to some power, with the               the global fit has been used to shift all the data to the
+                                                                                                                                                                                        4
+
+                                                                                                   a05
+                                                                                                                            FK /Fπ
+          1.200
+                                                                                                   a06                                                 (30/30)   all ensembles
+          1.175
+                                                                                                   a08
+                                                                                                                                                       (17/30)   a . 0.10 fm
+          1.150                                                                                    a10
+
+ FK /Fπ
+                                                                                                   a12
+          1.125
+                                                                                                                                                       (15/30)   mπ . 300 MeV
+
+          1.100                                                                                                                                        (20/30)   mπ & 250 MeV, a & 0.08 fm
+
+          1.075
+                                                                                                                                                       (30/30)   no FV corrections
+          1.050       xpt-ratio nnlo FV ct a4 PP
+                                                                                                                 1.194 1.196 1.198 1.200 1.202 1.204
+              0.00    0.02       0.04            0.06           0.08          0.10         0.12       0.14
+
+                                         ξπ = (mπ /4πFπ )2                                                       FIG. 3.    Resulting FK /Fπ in the isospin symmetric limit
+                                                                                                                 under various data cuts. A comparison with the full data but
+           1.21                     a05                 a06             a08          a10           a12           without any FV corrections is also shown.
+           1.20
+
+
+           1.19
+                                                                                                                 TABLE II. Resulting value of 103 L5 (µ = 770 MeV) from
+
+  FK /Fπ
+           1.18                                                                                                  select fit models. The NLO µ dependence was used to evolve
+                                                                                                                 them to the standard scale at the rho mass.
+           1.17
+                                                                                                                     model            103 L5 (µ = 770 MeV)               model
+           1.16
+                                                                                                                       nnlo         -0.11(38)       0.07(38)             nnlo ratio
+           1.15                                                                                                    nnlo a4          -0.10(38)       0.08(38)             nnlo ratio a4
+                        xpt-ratio nnlo FV ct a4 PP                                                                  nnlo ct         -0.04(11)       0.34(16)             nnlo ratio ct
+           1.14
+                                                                                                                 nnlo ct a4         -0.01(12)       0.37(16)             nnlo ratio ct a4
+              0.00      0.02            0.04             0.06             0.08           0.10             0.12
+
+                                               2a = a2/(2w0)2
+
+                                                                                                                    Most of our results come from the coarsest lattice spac-
+           1.16                                                   NLO χPT                                        ing and pion masses heavier than physical, furthest from
+                                                        a12m208: δFV      (ξπ , mπ L)                            the physical point. Therefore, it is important to check
+                                                                              NLO χPT (ξ , m L)                  the sensitivity of our final result to various cuts in the
+                                                         a10m247: δFV
+  FK /Fπ
+           1.14                                                                         π   π
+                                                                                                                 data, which is displayed in Fig. 3. Cutting all the coars-
+                                                                                                                 est data (a ≲ 0.10 fm) leads to an increase in the mean
+           1.12                                                                                                  by ∼ 1/3 σ. Cutting all results with mπ ≳ 300 MeV
+                                                                                                                 (mπ ≲ 300 MeV) barely shifts the central value. Results
+                                                                        NLO χPT (ξ , mπ L)
+                                                                                                                 from both of these data truncations are well contained
+                                                a12m375: δFV
+           1.10                                                                   π
+                                                                                                                 within the quoted final uncertainty demonstrating that
+                                                                                                                 at the current precision, our results are not biased by the
+              0.000      0.001             0.002                0.003            0.004            0.005
+                                                                                                                 ensembles furthest from the physical point.
+                                           e−mπ L/(mπ L)3/2
+                                                                                                                    It is also instructive to cut data closest to the physical
+                                                                                                                 point to see how much influence these ensembles have
+FIG. 2. Extrapolation plots from one of our highest-weight
+chiral-continuum fits. The light quark mass extrapolation                                                        on our final result. We performed an analysis where the
+(top), continuum extrapolation (middle) and infinite volume                                                      finest two lattice spacings and all ensembles with mπ ≲
+extrapolation (bottom) are shown after a global analysis. The                                                    250 MeV are removed (mπ ≳ 250 MeV, a ≳ 0.08 fm).
+top dashed band is the continuum, infinite volume limit. In                                                      From the growth in the final uncertainty, it is clear how
+the middle plot, all x-variables have been shifted to the phys-                                                  valuable these finest lattice spacing and near physical
+ical point except the lattice spacing. In the bottom plot,                                                       pion mass results are for improving the precision.
+a12m208 indicates a ≈ 0.12 fm and mπ ≈ 208 MeV etc.                                                                 We repeat the main analysis without FV corrections.
+                                                                                                                 The result is still compatible with our final result, fur-
+                                                                                                                 ther demonstrating our results are not sensitive to higher-
+physical values of ξπ , ξK and the infinite volume. For                                                          order FV corrections with the present level of precision.
+illustrative purposes, we chose a fit that included the                                                          While compatible, turning off the NLO FV corrections
+ϵ4a (ξK −ξπ ) N3 LO counterterm. Finally, the bottom panel                                                       leads to χ2aug ≥ 2.13 and overall very poor fit quality.
+displays the extrapolation to the infinite volume. In this                                                          For the N2 LO extrapolation models, we list in Ta-
+plot, the data are all shifted to the values of ξπ and ξK                                                        ble II the resulting value of L5 determined. The fit val-
+corresponding to the largest volume. The bands are the                                                           ues are evolved from µ0 = 4πF0 to the standard scale
+FV predictions from NLO. Our results are not precise                                                             µ = 770 MeV using the NLO scale dependence [26]. De-
+enough to be sensitive to higher-order FV corrections.                                                           tails of these models are given in the End Matter.
+                                                                                                                                         5
+
+   In order to correct for strong isospin breaking correc-
+tions, we use the FLAG definition of the isospin sym-                 This Work
+metric point [17] (the “Edinburgh Consensus”). Using a
+definition of the isospin limit suggested in Ref. [27] leads
+                                                                      ETM 2021
+to a difference from Eq. (1) of 0.0003, or 10% of the sta-
+tistical uncertainty. We apply a strong isospin breaking
+                                                                     CalLat 2020
+correction following Ref. [28] which builds upon that of
+Ref. [27], arriving at
+                                                                FNAL/MILC 2017
+              0.5 × δSU (2) = −0.00216(54) ,           (10)
+and our prediction for FK ± /Fπ± in Eq. (1).                        HPQCD 2013
+
+   Conclusions: We have demonstrated that dynamical,                               1.19 1.195   1.2   1.205   1.19 1.195   1.2   1.205
+Nf = 2 + 1 + 1 MDWF ensembles can be used for high-                                     FK / Fπ                   FK± / Fπ±
+precision physics, providing results consistent with the
+world average for the benchmark quantity FK /Fπ at the
+0.3% level of precision. This illustrates that a dynami-       FIG. 4. A comparison of our determinations of FK /Fπ and
+cal, lattice simulation with four flavors of chiral fermions   FK ± /Fπ± with the most-precise Nf = 2 + 1 + 1 results that
+can be performed with relatively modest computational          enter the FLAG 2024 average (shown as a brown dotted line)
+resources. The results presented here, ensemble gener-         [23, 24, 29, 41], statistical and systematic errors have been
+                                                               added in quadrature. Red squares indicate our dynamical
+ation and correlation functions, were generated with a
+                                                               MDWF in the sea, black circles are twisted-mass Wilson, blue
+remarkably small O(40k) Perlmutter-GPU node hours.             diamonds have rooted-staggered quarks.
+We achieved this by using the Symanzik gauge action in
+combination with the Möbius Domain Wall Fermion pre-
+scription and judicious smearing, roughly comparable to
+working at a flow time of 1. Without the smearing it           lattice spacings, significantly reducing the uncertainty of
+would not have been possible to work at the small values       our final result to match that of Refs. [23, 24]. With
+of L5 we do, and would have likely made simulations at         such a result, the theoretical uncertainty in determin-
+the coarse lattice spacing intractable.                        ing |Vus |/|Vud | would become sub-dominant to the ex-
+   Our results indicate no significant problems with sim-      perimental uncertainties for all quantities [53–68] used in
+ulating this action down to O(0.05) fm with periodic           global averages of first row unitarity tests [20–22]. More-
+boundary conditions for the gauge fields, and we observe       over, it would push the community fully into the precision
+small mres even with very short fifth dimension lengths        where non-perturbative isospin breaking corrections from
+of only 4 lattice units. There is no fundamental prob-         md − mu and QED radiative corrections are required for
+lem with generating ensembles at the physical pion mass        which there are already a few LQCD results [69–71].
+point using this action and further ensembles at the phys-
+ical point are planned.                                           The new ensembles we have generated and these results
+   Our final result, Eq. (1), is obtained from 30 ensembles    similarly pave the way for other crucial quantities to be
+with 5 different lattice spacings and a large range of pion    computed with sub-percent precision, such as the Kℓ3
+masses, down to physical. Fig. 4 illustrates our compat-       (K → πℓν) form factor which also plays a significant role
+ibility for FK /Fπ and FK ± /Fπ± with the other LQCD           in first-row CKM unitarity tests, as well as a broad set
+results. Blue points [23, 24, 41] indicate that rooted-        of low-energy nuclear and particle physics quantities that
+staggered quarks were used in the sea, sharing most of the     go into precision tests of the SM, fundamental symmetry
+configurations between the three determinations. The           tests and general hadron interactions and reactions.
+black circle is the determination from ETMC [29] and
+the red square is the present calculation, while the dashed
+line indicates the 2024 FLAG average [17]. The HPQCD
+determination introduces some tension in the average and       DATA AVAILABILITY: The correlation functions
+more recent determinations, including this one, indicate       and bootstrap samples of the ground state masses and
+a slightly larger value of FK ± /Fπ± . By providing a third    overlap factors are available at https://portal.nersc.
+completely independent determination with a different          gov/cfs/m2986/cosmon/mdwf/fk_fpi_2026/.              The
+lattice action, we add further credence to the remarkably      mdwf branch of this git repository [72] can be used to
+consistent high-precision 4-flavor global lattice average.     reproduce the extrapolation analysis presented here.
+   Adding our current result, Eq. (1), to the Nf = 2+1+1       The gauge fields used in this work are all available
+FLAG average [17] reduces the quoted uncertainty by            via Globus. From the Globus “FILE MANAGER”,
+a modest 10%, having minimal impact on the first row           search for the collection “NERSC Gauge Connec-
+CKM unitarity test. With a moderate increase in com-           tion” and then they can be found in the directory
+puting resources, we will be able to generate two ad-          cosmon/mdwf/nf211 8stout. Contact us if you have
+ditional ensembles at the physical pion mass with finer        any difficulty accessing the data or configurations.
+                                                                                                                         6
+
+               ACKNOWLEDGMENTS                                 NSF Faculty Early Career Development Program (CA-
+                                                               REER) under award PHY-2047185 (AN); This work was
+                                                               supported in part by the U.S. Department of Energy
+   We would like to thank Vincenzo Cirigliano for help
+                                                               (DOE), Office of Science, Office of Nuclear Physics un-
+with the first row CKM unitarity analysis and Takeshi
+                                                               der grant contract numbers DE-AC02-05CH11231 (ZH,
+Kaneko for help understanding the FLAG averaging pro-
+                                                               DAP, TRR, WAS, AWL, BW), DE-SC0013065 (BW),
+cedure and Peter Boyle for discussions about using Grid.
+                                                               by Lawrence Livermore National Laboratory (LLNL) un-
+   Ensemble generation was performed in a modified ver-        der Contract DE-AC52-07NA27344 (PV), through the
+sion of Grid [73]. Pure gauge quantities were com-             “Nuclear Theory for New Physics” Topical Collabora-
+puted with GLU [74]. Möbius Domain Wall propa-                tion award No. DE-SC0023663 (ZH, CJM, DAP, TRR,
+gator inversions for meson correlation functions were          AWL), through Scientific Discovery through Advanced
+done with QUDA [75, 76], while contractions were per-          Computing (SciDAC) award “Computing the Proper-
+formed in QDP++ [77]. Fits to the data were partly per-        ties of Matter with Leadership Computing Resources”
+formed using the libraries gvar [78] and lsqfit [79].          (AWL). This research used resources of the Oak Ridge
+This research used resources of the National Energy            Leadership Computing Facility at the Oak Ridge Na-
+Research Scientific Computing Center (NERSC), a De-            tional Laboratory, which is supported by the Office of
+partment of Energy User Facility using NERSC awards            Science of the U.S. Department of Energy under Con-
+NP-ERCAP[0033436,0032885,0036425,0036336], and the             tract No. DE-AC05-00OR22725 (HMC).
+Carnegie Mellon University QCD cluster [80].                      This manuscript has been authored by UT-Battelle,
+   WAS acknowledges support from startup funds at              LLC, under Contract No. DE-AC0500OR22725 with the
+William & Mary provided to Andrew Jackura. The work            U.S. Department of Energy. The United States Govern-
+of FRL and MS was supported in part by the Swiss               ment retains and the publisher, by accepting the arti-
+National Science Foundation (SNSF) through grant No.           cle for publication, acknowledges that the United States
+200021-236432. This work was supported in part by              Government retains a non- exclusive, paid-up, irrevoca-
+the U.S. National Science Foundation (NSF) under grant         ble, world-wide license to publish or reproduce the pub-
+OAC-2311430 (RJH, CM, AWL), through the Mathe-                 lished form of this manuscript, or allow others to do so,
+matical and Physical Sciences Ascending Postdoctoral           for the United States Government purposes. The Depart-
+Research Fellowship under award No. 2402482 (ZH), un-          ment of Energy will provide publicaccess to these results
+der NSF Award PHY-2514831 (CM), by the NSF through             of federally sponsored research in accordance with the
+cooperative agreement 2020275 (TRR), and under the             DOE Public Access Plan.
+
+
+
+
+ [1] P. H. Ginsparg and K. G. Wilson, “A Remnant of Chiral          arXiv:1411.7017 [hep-lat].
+     Symmetry on the Lattice,” Phys. Rev. D 25, 2649 (1982).   [10] T. Blum et al., “Quenched lattice QCD with domain wall
+ [2] M. Luscher, “Exact chiral symmetry on the lattice and          fermions and the chiral limit,” Phys. Rev. D 69, 074502
+     the Ginsparg-Wilson relation,” Phys. Lett. B 428, 342–         (2004), arXiv:hep-lat/0007038.
+     345 (1998), arXiv:hep-lat/9802011.                        [11] Y. Aoki et al., “Domain wall fermions with improved
+ [3] D. B. Kaplan, “A Method for simulating chiral fermions         gauge actions,” Phys. Rev. D 69, 074504 (2004),
+     on the lattice,” Phys. Lett. B 288, 342–347 (1992),            arXiv:hep-lat/0211023.
+     arXiv:hep-lat/9206013.                                    [12] P. M. Vranas, “Gap Domain Wall Fermions,” Phys. Rev.
+ [4] Y. Shamir, “Chiral fermions from lattice bound-                D 74, 034512 (2006), arXiv:hep-lat/0606014.
+     aries,” Nucl. Phys. B 406, 90–106 (1993), arXiv:hep-      [13] H. Fukaya, S. Hashimoto, K.-I. Ishikawa, T. Kaneko,
+     lat/9303005.                                                   H. Matsufuru, T. Onogi, and N. Yamada (JLQCD),
+ [5] V. Furman and Y. Shamir, “Axial symmetries in lattice          “Lattice gauge action suppressing near-zero modes of
+     QCD with Kaplan fermions,” Nucl. Phys. B 439, 54–78            H(W),” Phys. Rev. D 74, 094505 (2006), arXiv:hep-
+     (1995), arXiv:hep-lat/9405004.                                 lat/0607020.
+ [6] C. Allton et al. (RBC-UKQCD), “Physical Results from      [14] A. Bazavov et al. (HotQCD), “The chiral transition and
+     2+1 Flavor Domain Wall QCD and SU(2) Chiral Per-               U (1)A symmetry restoration from lattice QCD using Do-
+     turbation Theory,” Phys. Rev. D 78, 114509 (2008),             main Wall Fermions,” Phys. Rev. D 86, 094503 (2012),
+     arXiv:0804.0473 [hep-lat].                                     arXiv:1205.3535 [hep-lat].
+ [7] Y. Aoki et al. (RBC, UKQCD), “Continuum Limit             [15] S. Hashimoto, S. Aoki, G. Cossu, H. Fukaya, T. Ka-
+     Physics from 2+1 Flavor Domain Wall QCD,” Phys. Rev.           neo, J. Noaki,     and P. A. Boyle, “Residual mass
+     D 83, 074508 (2011), arXiv:1011.0892 [hep-lat].                in five-dimensional fermion formulations,” PoS LAT-
+ [8] R. Arthur et al. (RBC, UKQCD), “Domain Wall QCD                TICE2013, 431 (2014).
+     with Near-Physical Pions,” Phys. Rev. D 87, 094514        [16] R. C. Brower, H. Neff, and K. Orginos, “The Möbius do-
+     (2013), arXiv:1208.4412 [hep-lat].                             main wall fermion algorithm,” Comput. Phys. Commun.
+ [9] T. Blum et al. (RBC, UKQCD), “Domain wall QCD with             220, 1–19 (2017), arXiv:1206.5214 [hep-lat].
+     physical quark masses,” Phys. Rev. D 93, 074505 (2016),   [17] Y. Aoki et al. (Flavour Lattice Averaging Group
+                                                                                                                                7
+
+     (FLAG)), “FLAG review 2024,” Phys. Rev. D 113,                     arXiv:2310.00814 [hep-lat].
+     014508 (2026), arXiv:2411.04268 [hep-lat].                    [35] A. Conigli, J. Frison, and A. Sáez, “fK /fπ in iso-
+[18] N. Cabibbo, “Unitary Symmetry and Leptonic Decays,”                symmetric QCD and the CKM matrix unitarity,” (2025),
+     Phys. Rev. Lett. 10, 531–533 (1963).                               arXiv:2512.19294 [hep-lat].
+[19] M. Kobayashi and T. Maskawa, “CP Violation in the             [36] E. Follana, Q. Mason, C. Davies, K. Hornbostel, G. P.
+     Renormalizable Theory of Weak Interaction,” Prog.                  Lepage, J. Shigemitsu, H. Trottier, and K. Wong
+     Theor. Phys. 49, 652–657 (1973).                                   (HPQCD, UKQCD), “Highly improved staggered quarks
+[20] M. Antonelli et al. (FlaviaNet Working Group on Kaon               on the lattice, with applications to charm physics,” Phys.
+     Decays), “An Evaluation of |Vus | and precise tests of the         Rev. D 75, 054502 (2007), arXiv:hep-lat/0610092.
+     Standard Model from world data on leptonic and semilep-       [37] A. Bazavov et al. (MILC), “Scaling studies of QCD with
+     tonic kaon decays,” Eur. Phys. J. C 69, 399–424 (2010),            the dynamical HISQ action,” Phys. Rev. D 82, 074501
+     arXiv:1005.2323 [hep-ph].                                          (2010), arXiv:1004.0342 [hep-lat].
+[21] M. Moulson, “Experimental determination of Vus                [38] A. Bazavov et al. (MILC), “Lattice QCD Ensembles with
+     from kaon decays,” PoS CKM2016, 033 (2017),                        Four Flavors of Highly Improved Staggered Quarks,”
+     arXiv:1704.04104 [hep-ex].                                         Phys. Rev. D 87, 054505 (2013), arXiv:1212.4768 [hep-
+[22] V. Cirigliano, A. Crivellin, M. Hoferichter, and M. Moul-          lat].
+     son, “Scrutinizing CKM unitarity with a new measure-          [39] K. Symanzik, “Continuum Limit and Improved Action in
+     ment of the Kµ3/Kµ2 branching fraction,” Phys. Lett. B             Lattice Theories. 2. O(N) Nonlinear Sigma Model in Per-
+     838, 137748 (2023), arXiv:2208.11707 [hep-ph].                     turbation Theory,” Nucl. Phys. B 226, 205–227 (1983).
+[23] R. J. Dowdall, C. T. H. Davies, G. P. Lepage, and C. Mc-      [40] C. Morningstar and M. J. Peardon, “Analytic smearing
+     Neile, “Vus from pi and K decay constants in full lattice          of SU(3) link variables in lattice QCD,” Phys. Rev. D
+     QCD with physical u, d, s and c quarks,” Phys. Rev. D              69, 054501 (2004), arXiv:hep-lat/0311018.
+     88, 074504 (2013), arXiv:1303.1670 [hep-lat].                 [41] E. Berkowitz et al., “Möbius domain-wall fermions on
+[24] A. Bazavov et al., “B- and D-meson leptonic decay con-             gradient-flowed dynamical HISQ ensembles,” Phys. Rev.
+     stants from four-flavor lattice QCD,” Phys. Rev. D 98,             D 96, 054513 (2017), arXiv:1701.07559 [hep-lat].
+     074512 (2018), arXiv:1712.09262 [hep-lat].                    [42] S. Syritsyn and J. W. Negele, “Oscillatory terms in the
+[25] J. Gasser and H. Leutwyler, “Chiral Perturbation Theory            domain wall transfer matrix,” PoS LATTICE2007, 078
+     to One Loop,” Annals Phys. 158, 142 (1984).                        (2007), arXiv:0710.0425 [hep-lat].
+[26] J. Gasser and H. Leutwyler, “Chiral Perturbation The-         [43] R. J. Dowdall et al. (HPQCD), “The Upsilon spectrum
+     ory: Expansions in the Mass of the Strange Quark,” Nucl.           and the determination of the lattice spacing from lattice
+     Phys. B 250, 465–516 (1985).                                       QCD including charm quarks in the sea,” Phys. Rev. D
+[27] V. Cirigliano and H. Neufeld, “A note on isospin violation         85, 054509 (2012), arXiv:1110.6887 [hep-lat].
+     in Pl2(gamma) decays,” Phys. Lett. B 700, 7–10 (2011),        [44] M. Lüscher, “Properties and uses of the Wilson flow in
+     arXiv:1102.0563 [hep-ph].                                          lattice QCD,” JHEP 08, 071 (2010), [Erratum: JHEP
+[28] N. Miller et al., “FK /Fπ from Möbius Domain-Wall                 03, 092 (2014)], arXiv:1006.4518 [hep-lat].
+     fermions solved on gradient-flowed HISQ ensembles,”           [45] Y.-C. Chen and T.-W. Chiu (TWQCD), “Exact Pseud-
+     Phys. Rev. D 102, 034507 (2020), arXiv:2005.04795 [hep-            ofermion Action for Monte Carlo Simulation of Domain-
+     lat].                                                              Wall Fermion,” Phys. Lett. B 738, 55–60 (2014),
+[29] C. Alexandrou et al. (Extended Twisted Mass), “Ratio of            arXiv:1403.1683 [hep-lat].
+     kaon and pion leptonic decay constants with Nf=2+1+1          [46] R. Hudspith et al., “Four flavor Möbius Domain Wall
+     Wilson-clover twisted-mass fermions,” Phys. Rev. D 104,            Fermions with 8 steps of stout smearing,” In preparation.
+     074520 (2021), arXiv:2104.06747 [hep-lat].                    [47] B. Ananthanarayan, J. Bijnens, S. Friot, and S. Ghosh,
+[30] E. Follana, C. T. H. Davies, G. P. Lepage, and                     “Analytic representation of FK /Fπ in two loop chiral
+     J. Shigemitsu (HPQCD, UKQCD), “High Precision de-                  perturbation theory,” Phys. Rev. D 97, 091502 (2018),
+     termination of the pi, K, D and D(s) decay constants               arXiv:1711.11328 [hep-ph].
+     from lattice QCD,” Phys. Rev. Lett. 100, 062002 (2008),       [48] S. R. Beane, P. F. Bedaque, K. Orginos, and M. J. Sav-
+     arXiv:0706.1726 [hep-lat].                                         age, “f(K)/f(pi) in Full QCD with Domain Wall Valence
+[31] S. Durr, Z. Fodor, C. Hoelbling, S. D. Katz, S. Krieg,             Quarks,” Phys. Rev. D 75, 094501 (2007), arXiv:hep-
+     T. Kurth, L. Lellouch, T. Lippert, A. Ramos, and K. K.             lat/0606023.
+     Szabo (BMW), “The ratio FK/Fpi in QCD,” Phys. Rev.            [49] J. Gasser and H. Leutwyler, “Light Quarks at Low Tem-
+     D 81, 054507 (2010), arXiv:1001.4692 [hep-lat].                    peratures,” Phys. Lett. B 184, 83–88 (1987).
+[32] S. Dürr et al., “Leptonic decay-constant ratio fK /fπ from   [50] G. Colangelo and C. Haefeli, “An Asymptotic formula for
+     lattice QCD using 2+1 clover-improved fermion flavors              the pion decay constant in a large volume,” Phys. Lett.
+     with 2-HEX smearing,” Phys. Rev. D 95, 054513 (2017),              B 590, 258–264 (2004), arXiv:hep-lat/0403025.
+     arXiv:1601.05998 [hep-lat].                                   [51] G. Colangelo, S. Durr, and C. Haefeli, “Finite volume ef-
+[33] V. G. Bornyakov, R. Horsley, Y. Nakamura, H. Perlt,                fects for meson masses and decay constants,” Nucl. Phys.
+     D. Pleiter, P. E. L. Rakow, G. Schierholz, A. Schiller,            B 721, 136–174 (2005), arXiv:hep-lat/0503014.
+     H. Stüben, and J. M. Zanotti (QCDSF-UKQCD),                  [52] J. Bijnens and T. Rössler, “Finite Volume at Two-loops
+     “Flavour breaking effects in the pseudoscalar meson                in Chiral Perturbation Theory,” JHEP 01, 034 (2015),
+     decay constants,” Phys. Lett. B 767, 366–373 (2017),               arXiv:1411.6384 [hep-lat].
+     arXiv:1612.04798 [hep-lat].                                   [53] M. Eckhause, R. J. Harris, and W. B. Shuler, “A New
+[34] Z.-C. Hu et al. (CLQCD), “Quark masses and low-energy              Measurement of the Lifetime of the Positive Pion,” Phys.
+     constants in the continuum from the tadpole-improved               Lett. 19, 348 (1965).
+     clover ensembles,” Phys. Rev. D 109, 054507 (2024),           [54] M. E. Nordberg, Jr., F. Lobkowicz, and R. L. Burman,
+                                                                                                                               8
+
+     “Remeasurement of the π + Lifetime,” Phys. Lett. B 24,            arXiv:1904.08731 [hep-lat].
+     594–596 (1967).                                              [71] P. Boyle et al., “Isospin-breaking corrections to
+[55] L. B. Auerbach, J. M. Dobbs, A. K. Mann, W. K. Mc-                light-meson leptonic decays from lattice simulations
+     Farlane, D. H. White, R. Cester, P. T. Eschstruth, G. K.          at physical quark masses,” JHEP 02, 242 (2023),
+     O’Neill, and D. Yount, “Measurement of the branching              arXiv:2211.12865 [hep-lat].
+     ratios of K+ (mu2), K+ (pi2), K+ (e3), and K+ (mu3),”        [72] CalLat, “callat-qcd/project fkfpi:mdwf,” (2026), https:
+     Phys. Rev. 155, 1505 (1967), [Erratum: Phys.Rev.D 9,              //github.com/callat-qcd/project_fkfpi.
+     3216–3217 (1974)].                                           [73] P. Boyle, G. Cossu, A. Yamaguchi, and A. Portelli,
+[56] D. S. Ayers, A. M. Cormack, A. J. Greenberg, R. W.                “Grid:     A next generation data parallel C++
+     Kenney, D. O. Caldwell, V. B. Elings, W. P. Hesse, and            QCD library,” PoS LATTICE2015, 023 (2016),
+     R. J. Morrison, “Measurements of the lifetimes of positive        arXiv:1512.03487 [hep-lat].
+     and negative pions,” Phys. Rev. D 3, 1051–1063 (1971).       [74] R. J. Hudspith (RBC, UKQCD), “Fourier Accelerated
+[57] I. H. Chiang, J. L. Rosen, S. Shapiro, R. Handler,                Conjugate Gradient Lattice Gauge Fixing,” Comput.
+     S. Olsen, and L. Pondrom, “K + Decay in Flight,” Phys.            Phys. Commun. 187, 115–119 (2015), arXiv:1405.5812
+     Rev. D 6, 1254 (1972).                                            [hep-lat].
+[58] A. F. Dunaitsev, Y. D. Prokoshkin, E. A. Razuvaev,           [75] M. A. Clark, R. Babich, K. Barros, R. C. Brower,
+     V. A. Sergeev, and Y. N. Simonov, “On measuring the               and C. Rebbi (QUDA), “Solving Lattice QCD sys-
+     mean life-time of pi+ meson with a high-speed multiray            tems of equations using mixed precision solvers on
+     scope,” Yad. Fiz. 16, 524–534 (1972).                             GPUs,” Comput. Phys. Commun. 181, 1517–1528
+[59] A. O. Vaisenberg, O. K. Egorov, Z. V. Minervina,                  (2010), arXiv:0911.3191 [hep-lat].
+     E. A. Pozharova, V. A. Smirnitsky, M. I. Dayon, and          [76] R. Babich, M. A. Clark, B. Joo, G. Shi, R. C. Brower,
+     S. A. Krylov, “Measurement of the Branching Ratios for            and S. Gottlieb (QUDA), “Scaling lattice QCD beyond
+     K+(Mu2), K+(Pi2), K+(Mu3) and K+(e3) Decays Us-                   100 GPUs,” in International Conference for High Per-
+     ing a Magnetic Spectrometer with Streamer Chambers,”              formance Computing, Networking, Storage and Analysis
+     Nucl. Phys. B 115, 55–60 (1976).                                  (2011) arXiv:1109.2935 [hep-lat].
+[60] D. A. Bryman, M. S. Dixit, R. Dubois, J. A. Macdonald,       [77] R. G. Edwards and B. Joo (SciDAC, LHPC, UKQCD),
+     T. Numao, B. Olaniyi, A. Olin, and J. M. Poutissou,               “The Chroma software system for lattice QCD,” Nucl.
+     “Measurement of the π → νe Branching Ratio,” Phys.                Phys. B Proc. Suppl. 140, 832 (2005), arXiv:hep-
+     Rev. D 33, 1211 (1986).                                           lat/0409003.
+[61] D. I. Britton et al., “Measurement of the pi+ —> e+          [78] P. Lepage, “gplepage/gvar,” (2020), https://github.
+     neutrino branching ratio,” Phys. Rev. Lett. 68, 3000–             com/gplepage/gvar.
+     3003 (1992).                                                 [79] P. Lepage, “gplepage/lsqfit,” (2020), https://github.
+[62] T. Usher, M. Fero, M. Gee, N. A. Graf, M. Mandelkern,             com/gplepage/lsqfit.
+     D. Schultz, and J. Schultz, “A Precision measurement         [80] “CMU QCD Cluster,” https://qcd.phys.cmu.edu.
+     of the branching ratio K+ —> pi+ pi0 / K+ —> mu+             [81] C. McNeile and C. Michael (UKQCD), “Decay width of
+     muon-neutrino,” Phys. Rev. D 45, 3961–3964 (1992).                light quark hybrid meson from the lattice,” Phys. Rev.
+[63] G. Czapek et al., “Branching ratio for the rare pion decay        D 73, 074506 (2006), arXiv:hep-lat/0603007.
+     into positron and neutrino,” Phys. Rev. Lett. 70, 17–20      [82] P. Boucaud et al. (ETM), “Dynamical Twisted Mass
+     (1993).                                                           Fermions with Light Quarks: Simulation and Analysis
+[64] T. Numao, J. A. Macdonald, G. M. Marshall, A. Olin,               Details,” Comput. Phys. Commun. 179, 695–715 (2008),
+     and M. C. Fujiwara, “A New pi+ lifetime measurement,”             arXiv:0803.0224 [hep-lat].
+     Phys. Rev. D 52, 4855–4859 (1995).                           [83] P. A. Boyle, A. Juttner, C. Kelly, and R. D. Ken-
+[65] V. P. Koptev et al., “Measurement of the lifetimes of pi+         way, “Use of stochastic sources for the lattice determi-
+     and K+ mesons,” JETP Lett. 61, 877–881 (1995).                    nation of light quark physics,” JHEP 08, 086 (2008),
+[66] F. Ambrosino et al. (KLOE), “Measurement of the ab-               arXiv:0804.1501 [hep-lat].
+     solute branching ratio for the K + → µ+ ν(γ) decay with      [84] G. S. Bali, S. Collins, and A. Schafer, “Effective noise
+     the KLOE detector,” Phys. Lett. B 632, 76–80 (2006),              reduction techniques for disconnected loops in Lattice
+     arXiv:hep-ex/0509045.                                             QCD,” Comput. Phys. Commun. 181, 1570–1583 (2010),
+[67] F. Ambrosino et al. (KLOE), “Measurement of the ab-               arXiv:0910.3970 [hep-lat].
+     solute branching ratio of the K + → π + π 0 (γ) decay with   [85] J. Green, N. Hasan, S. Meinel, M. Engelhardt, S. Krieg,
+     the KLOE detector,” Phys. Lett. B 666, 305–310 (2008),            J. Laeuchli, J. Negele, K. Orginos, A. Pochinsky, and
+     arXiv:0804.4577 [hep-ex].                                         S. Syritsyn, “Up, down, and strange nucleon axial form
+[68] A. Aguilar-Arevalo et al. (PiENu), “Improved Measure-             factors from lattice QCD,” Phys. Rev. D 95, 114502
+     ment of the π → eν Branching Ratio,” Phys. Rev. Lett.             (2017), arXiv:1703.06703 [hep-lat].
+     115, 071801 (2015), arXiv:1506.05845 [hep-ex].               [86] G. Amoros, J. Bijnens, and P. Talavera, “Two point
+[69] D. Giusti, V. Lubicz, G. Martinelli, C. T. Sachrajda,             functions at two loops in three flavor chiral perturbation
+     F. Sanfilippo, S. Simula, N. Tantalo, and C. Tarantino,           theory,” Nucl. Phys. B 568, 319–363 (2000), arXiv:hep-
+     “First lattice calculation of the QED corrections to lep-         ph/9907264.
+     tonic decay rates,” Phys. Rev. Lett. 120, 072001 (2018),     [87] J. Bijnens and T. A. Lahde, “Decay constants of pseu-
+     arXiv:1711.06537 [hep-lat].                                       doscalar mesons to two loops in three-flavor partially
+[70] M. Di Carlo, D. Giusti, V. Lubicz, G. Martinelli,                 quenched (chi)PT,” Phys. Rev. D 71, 094502 (2005),
+     C. T. Sachrajda, F. Sanfilippo, S. Simula,             and        arXiv:hep-lat/0501014.
+     N. Tantalo, “Light-meson leptonic decay rates in lat-        [88] J. Bijnens, N. Danielsson, and T. A. Lahde, “Three-
+     tice QCD+QED,” Phys. Rev. D 100, 034514 (2019),                   flavor partially quenched chiral perturbation theory at
+                                                             9
+
+     NNLO for meson masses and decay constants,” Phys.
+     Rev. D 73, 074509 (2006), arXiv:hep-lat/0602003.
+[89] J. Bijnens and T. Rössler, “Finite Volume for Three-
+     Flavour Partially Quenched Chiral Perturbation Theory
+     through NNLO in the Meson Sector,” JHEP 11, 097
+     (2015), arXiv:1508.07238 [hep-lat].
+                                                                                                                                 10
+
+          END MATTER                                                    FK /Fπ as well as the masses and overlap factors using
+             Appendix A: Details of the lattice computation             Eq. (4), as described in the main text. The final results
+                                                                        are included in Table III.
+   When generating the ensembles, a reference Molecular-                   In addition to the above, we also need to determine the
+Dynamics integration length of 1 was used on the                        axial-vector current renormalization constant ZA = ZV
+β = 4.068 ensembles. We then interpret the fictitious                   for chiral fermions, which is used to determine the quanti-
+Molecular-Dynamics integration time as a quantity to                    ties ξπ and ξK . To that end, we construct the three-point
+                                                                                                                 ¯ 4 u is the tempo-
+                                                                        function CP Vt P (t, p = 0), where Vt = dγ
+be kept constant with a physical length scale for which
+t0 was used. This resulted in integration lengths of                    ral vector current, using the sequential source-through-
+0.75, 1.6, 2.6, and 4.0 on the β = 4.008, 4.160, 4.238 and              the-sink method and performing the thermal correction
+4.333 ensembles respectively. To begin exploring the                    of [85]. ZV is equal to the inverse of the ground state
+landscape, lattices were generated with mπ L ≈ 3.5. In                  matrix element contributing to this three-point function,
+certain places of interest in the space of √β and L, new                which can be easily extracted by a fit to a plateau in the
+boxes with larger mπ L and/or larger L/ t0 were gen-                    large Euclidean operator insertion time region where the
+erated. For each ensemble we have ≥ 100 independent                     source and sink are maximally separated by T /2.
+thermalised configurations. A comprehensive list of all
+relevant information for each ensemble is given in Ta-
+                                                                              Appendix B: Details of the extrapolation
+ble III. Fig. 5 shows the landscape of our ensembles in
+terms of pion mass and lattice spacing.
+                                                                          There are many equivalent forms for FK /Fπ at N2 LO.
+                     0.15     a05     a06      a08      a10      a12
+                                                                        First, the denominator is often Taylor expanded,
+                                            m450                                       NLO     N LO   2
+                                                                            FK   1 + δFK   + δFK      + ···
+                                                                               =                            ,
+
+
+
+ξπ = m2π /(4πFπ )2
+                                            m400                            Fπ                   2
+                                                                                       NLO
+                                                                                 1 + δFπ       N
+                                                                                           + δFπ   LO + ···
+                     0.10                   m350                                        NLO                     2           2
+                                                                                = 1 + δFK   − δFπNLO + δFK
+                                                                                                         N LO
+                                                                                                              − δFπN LO
+                                            m300                                        NLO
+                                                                                    − δFK   δFπNLO + (δFπNLO )2 + · · ·         (B1)
+                     0.05                   m250
+                                                                        producing an expression that is common in the litera-
+                                            m200
+                                                                        ture [47, 52, 86–89]. At the same time, the NLO terms
+                                            m135
+                                                                        are large enough, O(20%), that the difference in the ratio
+                      0.000   0.025   0.050     0.075   0.100   0.125   and Taylor expanded form is larger than the statistical
+                                       2a = (a/2w0)2                   uncertainty of the results. Thus, one could consider an
+                                                                        expression that is equivalent at N2 LO
+FIG. 5. The landscape of pion mass and lattice spacing of                             NLO
+                                                                           FK   1 + δFK       N2 LO       2
+our ensembles, using ξπ and ϵ2a as proxies for these variables.               =       NLO
+                                                                                          + δFK     − δFπN LO + · · ·           (B2)
+                                                                           Fπ   1 + δFπ
+   In order to extract the ratio FK /Fπ , we compute two-               where in both expressions, the · · · represent terms at
+point functions CP P and CAt P , where P refers to the                  N3 LO and higher. In our extrapolation analysis, the key
+pseudoscalar and At to the temporal component of the                    “ ratio” indicates the use of Eq. (B2) while its exclu-
+axial vector current. We use the one-end-trick [81, 82]                 sion indicates Eq. (B1). The N2 LO fits with the label
+and compute the quark propagators by inverting the                      “ ct” means that only the first line of Eq. (5) and the
+Dirac operator on Z2 × Z2 stochastic (Z2PSWall [83])                    Ĉ4r = (ξK − ξπ )(A4K ξK + A4π ξπ ) terms are included. We
+wall sources. A small number of high precision solves                   explore adding the full N3 LO counterterms (nnnlo) as
+at some randomly-selected initial reference time position               well as only including ϵ4a discretization errors from N3 LO
+and then any other exact solves maximally-displaced in                  ( a4). The full list of 16 models considered is provided
+time from this initial point are used. To boost statistics,             in Table IV along with the final result for FK /Fπ .
+several evenly-spaced low-precision solves are performed                    Our results show relatively large discretization effects
+at many different temporal translations on the same con-                in comparison to [23, 24] and [29] and more in line with
+figuration, bias-correcting them with the few (often 1 or               the mixed-action determination of [28], although with
+2) high-precision determinations, as is the prescription                less-pronounced a4 effects. For the HISQ valence deter-
+for the Truncated Solver Method [84]. Because we are                    mination this difference is unsurprising as O(a2 ) correc-
+performing many solves on the same configuration, we                    tions are perturbatively removed. Fortunately, having 5
+find exact deflation in the single-precision part of our                lattice spacings allows us to control our continuum ex-
+mixed-precision Conjugate Gradient solves to be bene-                   trapolation. Whether we use a2 /w02 or a2 /t0 does not
+ficial for the smaller boxes (L ≤ 40). The two-point                    matter, and we arrive at the same continuum result well
+functions CP P and CAt P are then simultaneously fit the                within errors upon removing our coarsest lattice, indicat-
+single-state ansätze defined in Eq. (3) to extract the ratio           ing that our continuum extrapolation is reliable.
+                                                                                                                                            11
+
+
+TABLE III. Volume and light quark mass in lattice units for the ensembles used in this work. Additionally, the gradient flow
+scales (t0 , w0 ), topological charge (Q) and their respective autocorrelation lengths are tabulated. The derived values of FK /Fπ ,
+ξπ = m2π /(4πFπ )2 , ξK = m2K /(4πFπ )2 , mπ L and ϵ2a = a2 /(4w02 ) are listed as well as the number of independent configurations
+used Ncfg and the number of time-translated sloppy solves Nsrc .
+ L3
+                      √
+     T
+ a × a       aml          t0 /a    w0 /a        Q       τ√t , τw0 , τQ   FK /Fπ      ξπ          ξK         mπ L          ϵ2a       Ncfg × Nsrc
+                                                           0
+                                                                 β = 4.008, a ≈ 0.12 fm
+ 163 × 32   0.0300   1.1961(31) 1.4766(82)  0.3(2)        (16,16,16)    1.0800(20) 0.1262(19) 0.2106(28) 4.424(18)     0.1147(13)    173 × 32
+ 163 × 32   0.0270   1.1946(20) 1.4766(82)  0.4(3)        (16,24,24)    1.0898(24) 0.1225(15) 0.2178(24) 4.255(16)     0.1141(15)    179 × 32
+ 163 × 32   0.0235   1.1891(20) 1.4766(82) -0.2(3)        (16,16,16)    1.1012(25) 0.1091(17) 0.2150(27) 3.979(18)     0.1162(11)    118 × 32
+ 163 × 32   0.0195   1.2016(40) 1.5086(132) 0.2(3)        (24,24,16)    1.1109(33) 0.0918(17) 0.2070(30) 3.580(19)     0.1098(20)    106 × 32
+ 203 × 48   0.0195   1.1969(13) 1.5086(132) 0.2(3)        (24,24,16)    1.1061(17) 0.09031(66) 0.2048(12) 4.449(11) 0.11275(67)      204 × 48
+ 243 × 48   0.0195   1.2040(40) 1.5138(57)  0.4(5)         (16,16,8)    1.1007(20) 0.08770(76) 0.2003(16) 5.276(11) 0.10909(85)       95 × 32
+ 163 × 32   0.0190   1.1964(13) 1.4943(39) -0.1(2)          (8,8,12)    1.1198(32) 0.0959(17) 0.2221(30) 3.550(20) 0.11197(59)       235 × 32
+ 203 × 40   0.0120    1.2064(7) 1.5258(27)  0.6(1)          (8,16,8)    1.1382(30) 0.06587(76) 0.2149(19) 3.541(12) 0.10738(39)      353 × 20
+ 243 × 48   0.0090   1.2075(17) 1.5319(46) -0.3(6)        (16,16,16)    1.1520(26) 0.05215(49) 0.2137(16) 3.7086(93) 0.10654(64)     116 × 48
+ 283 × 64   0.0057    1.2138(6) 1.5528(28) -0.6(3)         (12,24,8)    1.1743(28) 0.03752(30) 0.2204(14) 3.5223(73) 0.10368(38)     176 × 64
+ 323 × 64   0.0057    1.2073(6) 1.5639(20)  0.6(5)         (16,16,8)    1.1606(21) 0.03548(23) 0.2118(10) 3.9883(75) 0.10584(28)     154 × 64
+ 323 × 64   0.0040    1.2090(8) 1.5460(22)  0.3(4)        (16,16,16)    1.1792(20) 0.02720(20) 0.2147(11) 3.4247(72) 0.10460(31)     157 × 64
+ 483 × 96   0.0020    1.2120(3) 1.5514(11) -0.1(10)       (12,24,12)    1.1894(36) 0.01733(11) 0.22251(99) 3.9631(74) 0.10386(21)    101 × 48
+                                                                 β = 4.068, a ≈ 0.10 fm
+ 163 × 32   0.0220   1.4076(19) 1.7175(48)    -0.1(1)     (12,12,24)    1.0995(40) 0.1336(25) 0.2236(36) 3.745(22) 0.08475(47)       483 × 32
+ 203 × 40   0.0185   1.4223(21) 1.7589(75)    -0.1(3)     (16,16,40)    1.0963(25) 0.1010(15) 0.1975(24) 4.074(18) 0.08081(75)       128 × 40
+ 203 × 40   0.0135   1.4392(30) 1.8227(106)   -0.5(3)     (16,16,16)    1.1259(51) 0.0822(19) 0.2090(37) 3.430(21) 0.07525(90)       150 × 40
+ 243 × 48   0.0100   1.4319(17) 1.7915(77)    -0.7(5)     (20,40,40)    1.1286(26) 0.06275(79) 0.1938(18) 3.628(14) 0.07789(70)      174 × 24
+ 283 × 64   0.0067   1.4439(11) 1.8276(27)    -0.5(7)     (12,12,24)    1.1495(27) 0.04700(47) 0.1979(13) 3.514(12) 0.07484(22)      115 × 64
+ 323 × 64   0.0067   1.4370(12) 1.8128(38)    -0.5(3)      (16,16,8)    1.1464(31) 0.04659(46) 0.1988(15) 3.998(13) 0.07607(32)      115 × 32
+ 323 × 64   0.0050   1.4430(11) 1.8266(30)    0.5(4)      (12,12,12)    1.1646(39) 0.03770(48) 0.2026(19) 3.497(12) 0.07493(25)      100 × 32
+                                                                 β = 4.160, a ≈ 0.08 fm
+ 203 × 40   0.0170   1.8136(51) 2.2291(146)   0.4(2)      (20,20,30)    1.1242(58) 0.1378(41) 0.2396(62) 3.626(28) 0.05031(67)       233 × 20
+ 243 × 48   0.0165   1.8097(46) 2.2108(118)    0.0(5)     (20,20,30)    1.1195(44) 0.0948(22) 0.2049(38) 3.705(21) 0.05115(58)       112 × 24
+ 323 × 64   0.0090   1.8268(14) 2.2637(35)    -0.6(3)     (15,15,30)    1.1215(14) 0.06837(45) 0.18874(98) 4.1297(83) 0.04879(15)    307 × 64
+ 323 × 64   0.0060   1.8318(24) 2.2767(55)    0.1(5)      (15,15,25)    1.1580(37) 0.05323(80) 0.2003(22) 3.453(13) 0.04823(23)      106 × 32
+323 × 64∗   0.0060   1.8398(29) 2.3017(73)     0.6(7)     (20,20,40)    1.1538(32) 0.05315(65) 0.1972(18) 3.417(12) 0.04719(31)      101 × 64
+ 403 × 80   0.0039   1.8383(12) 2.2304(28)    0.1(8)      (15,15,40)    1.1703(51) 0.03777(38) 0.2028(15) 3.4971(96) 0.04708(12)     147 × 20
+                                                                 β = 4.238, a ≈ 0.06 fm
+ 323 × 64   0.0070 2.3142(49) 2.8498(164)     0.4(3)      (30,40,60)    1.1379(34) 0.0815(14) 0.2023(27) 3.491(15) 0.03078(38)       172 × 64
+ 403 × 80   0.0045 2.3173(20) 2.8617(76)      1.5(5)      (10,20,30)    1.1453(32) 0.05389(67) 0.1879(18) 3.508(13) 0.03053(17)      149 × 40
+                                                                 β = 4.333, a ≈ 0.05 fm
+ 403 × 80 0.0060 2.8964(55) 3.5177(132) 0.8(8)           (30,30,250) 1.1225(43) 0.0827(21) 0.1886(36) 3.675(26) 0.02020(15)          159 × 20
+643 × 128 0.0021 2.9334(23) 3.6199(77) -1.3(12)           (15,20,40)    1.1704(46) 0.03699(51) 0.1914(20) 3.583(15) 0.019078(88)     102 × 16
+
+
+
+
+ TABLE IV. Fit results to full data set. The augmented χ2aug is the usual χ2 plus a sum over contributions from the priors.
+
+           model expansion include ln(mπ ) include N3 LO include N3 LO chi2/dof Q logGBF weight              FK /Fπ
+                   form       @N2 LO?       ϵ4a (ξK − ξπ )? ϵ2a (ξK − ξπ )ξP ?
+    nnlo ratio ct Eq. (B2)        ✗                ✗                ✗          1.219 0.190 123.409 0.205   1.1989(17)
+ nnlo ratio ct a4 Eq. (B2)        ✗                ✓                ✗          1.201 0.207 123.393 0.202   1.2007(30)
+nnnlo ratio ct a4 Eq. (B2)        ✗                ✓                ✓          1.167 0.242 123.049 0.143   1.1989(39)
+  nnnlo ratio ct Eq. (B2)         ✗                ✗                ✗          1.194 0.214 122.912 0.125   1.1971(33)
+      nnlo ct a4 Eq. (B1)         ✗                ✓                ✗          1.207 0.201 122.701 0.101   1.1980(28)
+          nnlo ct Eq. (B1)        ✗                ✗                ✗          1.235 0.176 122.572 0.089   1.1959(16)
+     nnnlo ct a4 Eq. (B1)         ✗                ✓                ✗          1.175 0.234 122.306 0.068   1.1970(37)
+        nnnlo ct Eq. (B1)         ✗                ✗                ✓          1.209 0.200 122.058 0.053   1.1950(32)
+        nnnlo a4 Eq. (B1)        ✓                 ✓                ✗          1.270 0.147 119.476 0.004   1.2006(39)
+           nnnlo Eq. (B1)        ✓                 ✓                ✓          1.300 0.126 119.278 0.003   1.1988(34)
+  nnnlo ratio a4 Eq. (B2)        ✓                 ✓                ✗          1.335 0.104 118.798 0.002   1.2002(39)
+     nnnlo ratio Eq. (B2)        ✓                 ✓                ✓          1.362 0.089 118.652 0.002   1.1985(34)
+         nnlo a4 Eq. (B1)        ✓                 ✓                ✗          1.353 0.094 118.638 0.002   1.2029(32)
+             nnlo Eq. (B1)       ✓                 ✗                ✗          1.375 0.083 118.561 0.002   1.2011(23)
+   nnlo ratio a4 Eq. (B2)        ✓                 ✓                ✗          1.444 0.055 117.446 0.001   1.2027(32)
+       nnlo ratio Eq. (B2)       ✓                 ✗                ✗          1.463 0.049 117.398 0.001   1.2010(23)
+  Bayes average                                                                                          1.1984(29)(17)
+

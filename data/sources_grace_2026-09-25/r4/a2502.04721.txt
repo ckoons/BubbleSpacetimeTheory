@@ -1,0 +1,1040 @@
+                                          Semileptonic kaon decays and the precise
+                                          determination of 𝑽𝒖𝒔
+
+
+
+
+arXiv:2502.04721v2 [hep-ph] 13 Feb 2025
+                                          Chien-Yeah Seng𝑎,𝑏,∗
+                                           𝑎 Facility for Rare Isotope Beams, Michigan State University,
+
+                                             East Lansing, MI 48824, USA
+                                           𝑏 Department of Physics, University of Washington,
+
+                                             Seattle, WA 98195-1560, USA
+                                             E-mail: seng@frib.msu.edu
+
+
+
+                                             I will give a brief overview of the Standard Model theory inputs needed for the precise determi-
+                                             nation of the Cabibbo-Kobayashi-Maskawa matrix element 𝑉𝑢𝑠 from semileptonic kaon decays,
+                                             focusing on the long-distance electromagnetic corrections. I will then describe our recent effort
+                                             to pin down this correction at sub-permille level, which further sharpens the so-called “Cabibbo
+                                             angle anomaly”, an interesting observation which may point towards new physics.
+
+
+
+
+                                          The 11th International Workshop on Chiral Dynamics (CD2024)
+                                          26-30 August 2024
+                                          Ruhr University Bochum, Germany
+
+                                              ∗ Speaker
+
+                                          © Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+                                          4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for
+                                          commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.                                             https://pos.sissa.it/
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                          Chien-Yeah Seng
+
+
+1. Introduction
+
+     The elements of the Cabibbo-Kobayashi-Maskawa (CKM) matrix [1, 2]
+
+
+                                             © 𝑉𝑢𝑑 𝑉𝑢𝑠 𝑉𝑢𝑏 ª
+                                     𝑉CKM = ­­ 𝑉𝑐𝑑 𝑉𝑐𝑠 𝑉𝑐𝑏 ®® ,                                       (1)
+                                             « 𝑉𝑡 𝑑 𝑉𝑡 𝑠 𝑉𝑡 𝑏 ¬
+
+that describe the mixing of quark flavor eigenstates, are among the basic parameters of the Standard
+Model (SM), and the precise determination of their values provide a useful avenue to test the validity
+of the SM and to search for physics beyond the SM (BSM). The unitarity of 𝑉CKM is a definite
+prediction of SM that can be tested against experiment. For instance, it implies the following
+relation between the first-row matrix elements:
+
+                                         |𝑉𝑢𝑑 | 2 + |𝑉𝑢𝑠 | 2 + |𝑉𝑢𝑏 | 2 = 1 .                         (2)
+
+Currently, the relation above is tested at the level of 0.01%. Given that |𝑉𝑢𝑏 | 2 ∼ 10−5 [3] is an
+order of magnitude smaller than even the current uncertainties of both |𝑉𝑢𝑑 | 2 and |𝑉𝑢𝑠 | 2 , dropping it
+                                         2 + 𝑉 2 = 1 or, in other words, 𝑉
+leads to a simpler “Cabibbo unitarity” 𝑉𝑢𝑑     𝑢𝑠                         𝑢𝑑 = cos 𝜃 𝐶 , 𝑉𝑢𝑠 = sin 𝜃 𝐶
+where 𝜃 𝐶 is the Cabibbo angle. Assuming new physics occurs at a heavy scale ΛBSM and affects
+low-energy (𝐸 ≪ 𝑣 H with 𝑣 H ≈ 246 GeV the Higgs vacuum expectation value) charged weak
+interactions through dimension-six operators, a simple dimensional analysis shows that a 0.01%
+precision probes new physics at the scale
+                                        2
+                                   𝑣H
+                                              ∼ 0.01% =⇒ ΛBSM ∼ 20 TeV ,                              (3)
+                                  ΛBSM
+
+which is competitive to high-energy collider experiments.
+     The matrix elements 𝑉𝑢𝑑 and 𝑉𝑢𝑠 can be extracted from charged weak decays of hadrons
+and nuclei. In particular, the best determination of 𝑉𝑢𝑑 (at face value) comes from superallowed
+0+ → 0+ decay of 𝑇 = 1 nuclei [4], whereas 𝑉𝑢𝑠 is best determined from semileptonic decays of
+kaon (𝐾ℓ3 ). Additionally, the ratio 𝑉𝑢𝑠 /𝑉𝑢𝑑 is best determined from the ratio of leptonic decays of
+kaons (𝐾 𝜇2 ) and pions (𝜋 𝜇2 ). Given the central value 𝑉𝑢𝑑2 ∼ 0.95 and 𝑉 2 ∼ 0.05, to test Eq.(2)
+                                                                           𝑢𝑠
+at 0.01% level requires the relative precision of the extraction of 𝑉𝑢𝑑 and 𝑉𝑢𝑠 to reach 0.01% and
+0.1%, respectively. This imposes challenges not only on the experimental side, but also on the
+theory side because one needs to understand all the SM effects in these decay processes to the
+desired level of precision, and for that one needs to overcome the large theory uncertainties from
+the non-perturbative Quantum Chromodynamics (QCD) that binds quarks and gluons into hadrons.
+     In this talk I discuss the SM corrections to semileptonic decays of kaons, with particular em-
+phasis on long-distance radiative corrections (RC), including previous state-of-the-art computation
+with chiral perturbation theory (ChPT) and our recent improvement based on a novel, hybrid for-
+malism. I will conclude by quoting the newly-determined 𝑉𝑢𝑠 and discussing the current status of
+the first-row CKM unitarity.
+
+
+                                                          2
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                                  Chien-Yeah Seng
+
+
+2. SM theory inputs to semileptonic kaon decays
+
+     There are six independent channels of 𝐾ℓ3 decays, all with experimentally measured lifetime
+                                         𝐿 ), 𝐾 𝐿 → 𝜋 − 𝜇 + 𝜈 (𝐾 𝐿 ) [5–8], 𝐾 𝑆 → 𝜋 − 𝑒 + 𝜈 (𝐾 𝑆 ),
+and branching ratio: 𝐾 𝐿 → 𝜋 − 𝑒 + 𝜈𝑒 (𝐾𝑒3                       𝜇     𝜇3                   𝑒  𝑒3
+𝐾 → 𝜋 𝜇 𝜈𝑒 (𝐾 𝜇3 ) [9–17], 𝐾 → 𝜋 𝑒 + 𝜈𝑒 (𝐾𝑒3
+  𝑆       − +       𝑆            +      0           + ), and 𝐾 + → 𝜋 0 𝜇 + 𝜈 (𝐾 + ) [18–24]. Here I
+                                                                                𝑒     𝜇3
+define 𝐾ℓ3 to be inclusive, namely it may include radiations of arbitrary number of real photons.
+                                  2 through the following master formula of the partial decay rate
+From these decays, one extracts 𝑉𝑢𝑠
+Γ𝐾ℓ3 [3]:
+                              2 𝑀5 𝐶2
+                         𝐺 2 𝑉𝑢𝑠                                                     
+                                   𝐾 𝐾          𝐾0 𝜋−      2 (0)
+                  Γ𝐾ℓ3 = 𝐹             𝑆 EW | 𝑓 +     (0)|  𝐼 𝐾ℓ   1 + 𝛿 𝐾𝜋
+                                                                         SU(2) + 𝛿 𝐾ℓ
+                                                                                   EM ,         (4)
+                             192𝜋 3
+where 𝐺 𝐹 = 1.1663787(6) × 10−5 GeV−2 is Fermi’s constant obtained from the muon lifetime [25],
+                                               √
+and 𝐶𝐾 is an isospin factor that equals 1 (1/ 2) for 𝐾 0 (𝐾 + ) decay. There are a number of SM
+inputs appearing at the right hand side of Eq.(4), which we briefly discuss as follows.
+
+
+2.1 𝑆EW
+
+     The quantity 𝑆EW encodes the process-independent electroweak RC not included in definition
+of 𝐺 𝐹 , with the following schematic expression [26]:
+
+                                             2𝛼     𝛼𝑠  𝑀 𝑍      𝛼𝛼 
+                                                                       𝑠
+                                𝑆EW = 1 +         1−     ln    +O        .                                  (5)
+                                              𝜋      4𝜋     𝑀𝜌       𝜋2
+
+In practice, one often adopts the numerical value 𝑆EW = 1.0232(3) [27, 28].
+
+        0    −
+2.2 𝑓+𝐾 𝜋 (0)
+                                                                𝜇†
+     The matrix element of the charged weak current 𝐽𝑊 between 𝐾 and 𝜋 can be parameterized as
+
+                       𝜇†                                                                             
+            ⟨𝜋( 𝑝 𝜋 )|𝐽𝑊 (0)|𝐾 ( 𝑝 𝐾 )⟩ = 𝑉𝑢𝑠 𝐶𝐾 ( 𝑝 𝐾 + 𝑝 𝜋 ) 𝜇 𝑓+𝐾 𝜋 (𝑡) + ( 𝑝 𝐾 − 𝑝 𝜋 ) 𝜇 𝑓 −𝐾 𝜋 (𝑡) ,   (6)
+
+which defines the form factor 𝑓±𝐾 𝜋 (𝑡), with 𝑡 ≡ ( 𝑝 𝐾 − 𝑝 𝜋 ) 2 the squared momentum transfer between
+𝐾 and 𝜋 (it is also customary to define 𝑓0𝐾 𝜋 (𝑡) ≡ 𝑓+𝐾 𝜋 (𝑡) + 𝑡 𝑓 −𝐾 𝜋 (𝑡)/(𝑀𝐾2 − 𝑀 𝜋2 )). In particular,
+the 𝑡 → 0 limit (which is, of course, unphysical) of the 𝐾 0 → 𝜋 − matrix element gives rise to
+                 0 −
+the quantity 𝑓+𝐾 𝜋 (0), which is close to but not exactly 1 due to the approximate SU(3) flavor
+symmetry. It is a fully non-perturbative quantity that must be computed by lattice QCD to per
+mille level in order to satisfy the required precision goal. The Flavor Lattice Averaging Group
+(FLAG) [29] gives the following averaged value [30–33]:
+                                              (
+                               0 −                0.9698(17)         𝑁𝑓 = 2 + 1 + 1
+                            𝑓+𝐾 𝜋 (0)    =                                          .                       (7)
+                                                  0.9677(27)          𝑁𝑓 = 2 + 1
+
+On the other hand, the contribution of 𝑓 −𝐾 𝜋 to the squared amplitude is suppressed by 𝑚 ℓ2 /𝑀𝐾2 , so
+the precision requirement of this form factor is lower.
+
+
+                                                         3
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                         Chien-Yeah Seng
+
+
+                                                                 (0)
+                                                Mode           𝐼 𝐾ℓ
+                                                  0
+                                                𝐾𝑒3        0.15470(15)
+                                                  +
+                                                𝐾𝑒3        0.15915(15)
+                                                  0
+                                                𝐾 𝜇3       0.10247(15)
+                                                   +
+                                                 𝐾 𝜇3      0.10553(16)
+
+Table 1: The tree-level 𝐾ℓ3 phase-space integral with the most recent dispersive parameterization of form
+factors [35].
+
+      (0)
+2.3 𝐼 𝐾ℓ
+     The tree-level decay phase space integral, which encodes the 𝑡-dependence of the decay form
+factors, is expressed as the following quantity [26, 34]1:
+                  ∫ ( 𝑀𝐾 − 𝑀 𝜋 ) 2                  !         !2 "                                 #
+             (0)                   𝑑𝑡 ¯ 3/2    𝑚 ℓ2      𝑚 ℓ2        2
+                                                                              3𝑚 ℓ2 Δ2𝐾 𝜋 2
+           𝐼 𝐾ℓ =                      𝜆    1+        1−           𝑓¯+ (𝑡) +                 𝑓¯ (𝑡) , (8)
+                   𝑚ℓ2             𝑀𝐾8         2𝑡         𝑡                  (2𝑡 + 𝑚 ℓ2 ) 𝜆¯ 0
+
+with 𝜆¯ ≡ [𝑡 − (𝑀𝐾 + 𝑀 𝜋 ) 2 ] [𝑡 − (𝑀𝐾 − 𝑀 𝜋 ) 2 ] and Δ𝐾 𝜋 ≡ 𝑀𝐾2 − 𝑀 𝜋2 ; we have also introduced the
+rescaled form factors, 𝑓¯(𝑡) ≡ 𝑓 𝐾 𝜋 (𝑡)/ 𝑓+𝐾 𝜋 (0).
+     One way to obtain the 𝑡-dependence of the decay form factors is to fit the experimental Dalitz
+plot to specific parameterizations of the form factors, for example the Taylor expansion [34], the 𝑧-
+parameterization [36], the pole parameterization [37] and the dispersive parameterization [38–40].
+Currently the dispersive parameterization, which result is given in Table 1, has claimed the smallest
+uncertainty. Another possibility is to study the 𝑡-dependence through lattice QCD.
+
+2.4 𝛿SU(2)
+     𝐾𝜋
+
+                                                           𝐾 𝜋 defined as:
+     Next, we have the isospin breaking correction factor 𝛿SU(2)
+                                                                        !2
+                                              𝐾𝜋           𝑓+𝐾 𝜋 (0)
+                                             𝛿SU(2) ≡         0   −
+                                                                             −1                      (9)
+                                                          𝑓+𝐾 𝜋 (0)
+which resides only in the 𝐾ℓ3+ channel. Upon neglecting small electromagnetic contributions,
+
+it depends on two combinations of quark mass parameters: 𝑚 𝑠 /𝑚ˆ and (𝑚 2𝑠 − 𝑚ˆ 2 )/(𝑚 2𝑑 − 𝑚 𝑢2 ),
+where 𝑚ˆ = (𝑚 𝑢 + 𝑚 𝑑 )/2. These parameters can be obtained either from lattice QCD [41–49] or
+phenomenology (𝜂 → 3𝜋) [50], however the two return somewhat different results for the isospin
+breaking correction [51]:
+                     + 0                       + 0
+                      𝐾 𝜋                         𝐾 𝜋
+                     𝛿SU(2)     = 0.0457(20) , 𝛿SU(2)        = 0.0522(34) ,                 (10)
+                                   lattice                                   pheno
+
+which reason is yet to be understood.
+
+2.5 𝛿EM
+     𝐾ℓ
+
+                                      𝐾ℓ denotes the “long-distance” electromagnetic (EM) cor-
+     As the last important SM input, 𝛿EM
+rections to the decay rate. Schematically, Feynman diagrams in Fig.1 represent the O (𝐺 𝐹 𝛼)
+                                                                       (0)
+   1Notice that these references have typos in their expression of 𝐼 𝐾ℓ .
+
+
+                                                             4
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                          Chien-Yeah Seng
+
+
+
+
+                       Figure 1: O (𝐺 𝐹 𝛼) diagrams with virtual and real photons.
+
+
+corrections to the decay amplitude involving virtual and real photons, and “long distance” means
+the contribution from these diagrams at the energy scale where the W-boson propagator effectively
+shrinks to a point (Fermi’s interaction). In more rigorous terms, 𝛿EM    𝐾ℓ simply represents all the
+
+remaining electroweak RC that is neither reabsorbed into 𝐺 𝐹 nor included in 𝑆EW .
+     While the bremsstrahlung (real photon emission) contribution is more straightforwardly calcu-
+lable, one-loop diagrams are more complicated because virtual photons with the loop momentum
+𝑞 probe the hadron physics at all scales, including 𝑞 ∼ 1 GeV where QCD becomes fully non-
+perturbative. The rest of this talk will be dedicated to the discussion of this correction.
+
+3. ChPT evaluation of 𝛿EM
+                       𝐾ℓ
+
+
+      ChPT is a low-energy effective field theory (EFT) of the strong interaction, constructed from
+the spontaneously-broken chiral symmetry of QCD. Its Lagrangian consists of infinitely many
+terms, arranged in an increasing power of a small chiral expansion parameter (will be discussed
+below), such that to any given level of precision, only a finite number of terms in the Lagrangian
+need to be included. Terms in the chiral Lagrangian are accompanied by parameters known as
+low-energy constants (LECs); they are non-perturbative quantities which values are not constrained
+by the chiral symmetry, and thus must be deduced either from experiments or computed with
+first-principles methods such as lattice QCD.
+      To describe 𝐾ℓ3 decays and their RC, the degrees of freedom (DOFs) of the chiral Lagrangian
+are chosen to be the pseudoscalar meson octet, leptons and photons. We can split the full chiral
+Lagrangian into:
+                                     L = Llepton + L 𝛾 + LChPT ,                                (11)
+where
+                                      ∑︁
+                        Llepton =           ¯ 𝜕/ + 𝑒 𝐴/ − 𝑚 ℓ )ℓ + 𝜈¯ℓ 𝐿 𝑖 𝜕/𝑣 ℓ 𝐿 ]
+                                           [ℓ(𝑖
+                                       ℓ
+                                   1            1            1
+                            L 𝛾 = − 𝐹𝜇𝜈 𝐹 𝜇𝜈 −    (𝜕 · 𝐴) 2 + 𝑀𝛾2 𝐴 𝜇 𝐴 𝜇                         (12)
+                                   4           2𝜉            2
+are the pure leptonic and photonic pieces, respectively (with a small fictitious photon mass 𝑀𝛾 to
+regularize the infrared (IR)-divergence). To allow a simultaneous expansion of LChPT in both the
+
+
+                                                       5
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                               Chien-Yeah Seng
+
+
+
+
+Figure 2: O (𝑒 2 𝑝 2 ) diagrams with virtual and real photons in ChPT (self-energy diagrams not displayed).
+
+
+small momentum and EM coupling, we define a chiral expansion parameter 𝜖 that scales as:
+
+                                                𝜖 ∼ 𝑝/Λ 𝜒 ∼ 𝑒 ,                                        (13)
+
+where 𝑝 is a typical external momentum of the process, Λ 𝜒 ∼ 1 GeV is the so-called “chiral
+symmetry breaking scale” that signifies the onset of non-perturbative effects, and 𝑒 is the Quantum
+Electrodynamics (QED) coupling constant. With this we can write:
+
+                                          LChPT = L (2) + L (4) + . . .                                (14)
+
+The leading-order (LO) chiral Lagrangian L (2) consists of two terms that scale as O ( 𝑝 2 ) and O (𝑒 2 )
+respectively [52]:
+
+                    2    𝐹02                                             2
+                  L𝑝 =         ⟨𝐷 𝜇 𝑈 (𝐷 𝜇 𝑈) † + 𝜒𝑈 † + 𝑈 𝜒† ⟩ , L 𝑒 = 𝑍 𝐹04 ⟨𝑞 𝐿 𝑈 † 𝑞 𝑅 𝑈⟩ .        (15)
+                         4
+Meanwhile, to compute the long-distance EM correction up to O (𝐺 𝐹 𝛼) requires terms in L (4) that
+scale as O ( 𝑝 4 , 𝑒 2 𝑝 2 ):
+                                         4      2 2       2 2
+                              L (4) = L 𝑝 + L 𝑒{𝐾𝑝} + L 𝑒{𝑋}𝑝 + . . .                        (16)
+          2   2                                                                                         2   2
+where L 𝑒{𝐾𝑝} contains dynamical photon fields (with LECs labeled as {𝐾𝑖 }) [53], while L 𝑒{𝑋}𝑝
+contains dynamical photon and lepton fields (with LECs labeled as {𝑋𝑖 }) [54].
+     In ChPT power counting, the tree-level charged weak matrix element scale as O ( 𝑝 2 ), and thus
+the leading EM corrections scale as O (𝑒 2 𝑝 2 ), which come from the loop + bremsstrahlung diagrams
+                                                               2 2
+in Fig.2 together with the tree-level matrix element of L 𝑒 𝑝 ; the latter is required to cancel the
+ultraviolet (UV)-divergences from the loops. The values of the renormalized LECs {𝐾𝑖𝑟 } and {𝑋𝑖𝑟 }
+were estimated with vector dominance models [55, 56]; in fact, they encode physics not only at the
+hadronic scale but also at the weak scale. In particular, the combination [56]
+                                                phys
+                                              𝑋6       ≡ 𝑋6𝑟 − 4𝐾12
+                                                                 𝑟
+                                                                                                       (17)
+
+can be split into the long distance (LD) and short distance (SD) part, and the latter simply gives rise
+to the universal electroweak factor 𝑆EW in the previous section [57]:
+                                                              phys
+                                           𝑆EW = 1 − 𝑒 2 (𝑋6         )SD .                             (18)
+                                           𝐾ℓ are summarized in Table 2 [58]. There are two main
+    The results of the ChPT evaluation of 𝛿EM
+sources of uncertainties:
+
+   1. Neglected terms at the order O (𝑒 2 𝑝 4 ), which uncertainties are obtained by multiplying the
+      central value of the O (𝑒 2 𝑝 2 ) result by 𝜖 2 ≈ 𝑀𝐾2 /Λ2𝜒 .
+
+
+                                                         6
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                              Chien-Yeah Seng
+
+
+                                      Mode               𝐾ℓ (%)
+                                                        𝛿EM
+                                        0
+                                      𝐾𝑒3         0.99(19)𝑒2 𝑝4 (11)LEC
+                                        +
+                                      𝐾𝑒3         0.10(19)𝑒2 𝑝4 (16)LEC
+                                        0
+                                      𝐾 𝜇3        1.40(19)𝑒2 𝑝4 (11)LEC
+                                         +
+                                       𝐾 𝜇3       0.02(19)𝑒2 𝑝4 (16)LEC
+
+                     Table 2: Results of long-distance EM corrections in ChPT [58].
+
+
+
+
+                                Figure 3: O (𝐺 𝐹 𝛼) “weak” RC diagrams.
+
+
+   2. The poorly-known LECs, which uncertainties are simply taken as 100% of their size.
+
+As a combined result, the ChPT evaluation of 𝛿EM   𝐾ℓ has an absolute uncertainty at the level 10 −3 ,
+
+which marginally satisfies the precision requirement for the first-row CKM unitarity test. To improve
+upon that requires: (1) New theory framework to effectively resum the most important O (𝑒 2 𝑝 𝑛 )
+contributions missed in the fixed-order ChPT calculation, and (2) Appropriate lattice QCD inputs
+to reduce uncertainties from the LECs.
+     A possible future path is to compute the full decay amplitude, including the loop and
+bremsstrahlung diagrams, with lattice QCD; this was successfully performed in 𝐾 𝜇2 decays which
+results in a reduction of uncertainties from electromagnetic and isospin-breaking corrections [59].
+However, a similar calculation for 𝐾ℓ3 is expected to be much more challenging, with a projected
+timeline of ∼ 10 years to reach a 10−3 precision that we need [60].
+
+4. Sirlin’s representation
+
+     To overcome the limitations in ordinary ChPT calculations, one may turn to a classical repre-
+sentation by Sirlin [61] (I will call it “Sirlin’s representation”) which was first constructed to deal
+with the O (𝐺 𝐹 𝛼) electroweak RC in superallowed beta decays, and was later re-introduced to study
+the electroweak RC in general semileptonic decays [62, 63]. It is based on the current algebra
+relation, namely the equal-time commutation relation between electroweak currents:
+
+                                 ( 𝑥®, 𝑡), 𝐽em ( 𝑦®, 𝑡)] = 𝐽𝑊 ( 𝑥®, 𝑡)𝛿 (3) ( 𝑥® − 𝑦®) ,
+                              0†            𝜇                𝜇†
+                            [𝐽𝑊                                                                       (19)
+
+which is an exact mathematical identity. I refer interested readers to more comprehensive reviews
+for details [61, 63], but simply state the most important results here. First, within the formalism, the
+prescription used to differentiate the “weak” and “EM” RC is the following splitting of the photon
+propagator (in Feynman gauge):
+                                                      2
+                                                     𝑀𝑊
+                                    1         1            1
+                                     ′2
+                                        =         +          .                                        (20)
+                                   𝑞      𝑞 − 𝑀𝑊 𝑀𝑊 − 𝑞 𝑞 ′2
+                                           ′2   2   2   ′2
+
+
+
+                                                         7
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                                                     Chien-Yeah Seng
+
+
+One sees that, the first term at the right hand side resembles a heavy propagator with mass 𝑀𝑊 ,
+while the second term is a massless propagator accompanied by a Pauli-Villars regulator. I will
+denote the corresponding propagator line of these two terms in a Feynman diagram as 𝛾> and 𝛾< ,
+respectively. With this, one can identify a subset of the full one-loop Feynman diagrams, namely
+those in Fig.3, as the “weak” RC diagrams, as at O (𝐺 𝐹 𝛼) their corresponding loop integrals are
+only sensitive to loop momenta of the order 𝑞 ′ ∼ 𝑀𝑊 ; this is region the QCD coupling is small
+and the loop integrals are perturbatively calculable. Their effects are either reabsorbed into the
+definition of 𝐺 𝐹 , or contribute to a finite correction to the tree-level amplitude. Subsequently, we
+can write the full Lagrangian as:
+                                             L = LQCD + LQED,𝛾< + L4′ 𝑓 ,                                                        (21)
+where the second term at the right hand side is the usual QED Lagrangian, but with the photon
+propagator accompanied by 𝑀𝑊  2 /(𝑀 2 − 𝑞 ′2 ); the third term is a “modified” Fermi interaction,
+                                     𝑊
+which reads:
+                       (         "                 #)
+                                     𝑀𝑊2
+                ′            𝛼                        𝐺𝐹 𝜇 ¯
+              L4 𝑓 = − 1 −         ln 2 + O (𝛼𝑠 )      √ 𝐽𝑊 ℓ𝛾 𝜇 (1 − 𝛾5 )𝜈 + ℎ.𝑐. .         (22)
+                             2𝜋      𝑀𝑍                  2
+                                                                                                                 𝜇†
+      Denoting the tree-level weak current matrix element as 𝐹 𝜇 ≡ ⟨𝜙 𝑓 ( 𝑝 𝑓 )|𝐽𝑊 (0)|𝜙𝑖 ( 𝑝 𝑖 )⟩ (we
+concentrate on semileptonic decays with ℓ + -emission), we can now write the decay amplitude
+including the O (𝐺 𝐹 𝛼) loop corrections as:
+                                "                          !#
+                                              𝑀𝑊2
+                        √︁             𝛼                              𝐺𝐹
+               M =         𝑍ℓ 1 −          ln 2 + O (𝛼𝑠 ) M0 − √ 𝛿𝐹 𝜇 𝐿 𝜇 + 𝛿M 𝛾𝑊 ,                (23)
+                                      2𝜋      𝑀𝑍                       2
+                                                                                                √
+where 𝐿 𝜇 = 𝑢¯ 𝜈 𝛾 𝜇 (1−𝛾5 )𝑣 ℓ is the leptonic matrix element of the weak current, M0 = −(𝐺 𝐹 / 2)𝐹 𝜇 𝐿 𝜇
+is the tree-level amplitude, and 𝑍ℓ is the known EM-induced ℓ-wavefunction renormalization factor.
+There are only two non-trivial quantities in the expression above: (1) 𝛿𝐹 𝜇 which denotes the EMRC
+to the weak matrix element 𝐹 𝜇 (the second diagram in Fig.1, with 𝛾 → 𝛾< ), and (2) 𝛿M 𝛾𝑊 which
+denotes the 𝛾𝑊-box diagram (the third diagram in Fig.1).
+      Using the on-mass-shell perturbation theory [64] and the current algebra relation (19), one can
+split 𝛿𝐹 𝜇 into two pieces:
+                                                        𝜇      𝜇
+                                             𝛿𝐹 𝜇 = 𝛿𝐹2 + 𝛿𝐹3 ,                                    (24)
+which I will call “two-point function” and “three-point function” respectively (and their correction
+                                                                                                  𝜇
+to the decay amplitude 𝛿M2(3) ). The full dependence on hadron physics in both 𝛿𝐹2 and 𝛿M 𝛾𝑊
+resides in the so-called “generalized Compton tensor”:
+                                     ∫
+                  𝜇𝜈 ′                          ′
+                                       𝑑 4 𝑥𝑒 𝑖𝑞 ·𝑥 ⟨𝜙 𝑓 ( 𝑝 𝑓 )|𝑇 {𝐽em (𝑥)𝐽𝑊
+                                                                     𝜇      𝜈†
+                𝑇 (𝑞 ; 𝑝 𝑓 , 𝑝 𝑖 ) ≡                                           (0)}|𝜙𝑖 ( 𝑝 𝑖 )⟩ ,   (25)
+
+which involves a time-ordered product of the EM and weak current. One may also define another
+                                                                        †
+quantity Γ 𝜇 (𝑞 ′ ; 𝑝 𝑓 , 𝑝 𝑖 ) by simply replacing 𝐽𝑊
+                                                     𝜈†
+                                                        in 𝑇 𝜇𝜈 by 𝜕 · 𝐽𝑊 . The full expression of 𝑇 𝜇𝜈
+requires exact knowledge of non-perturbative QCD; however, one can isolate from it an analytic
+piece known as the “convection term” [65]:
+                                        𝑖𝑍 𝑓 (2𝑝 𝑓 + 𝑞 ′ ) 𝜇 𝐹 𝜈 ( 𝑝 𝑓 , 𝑝 𝑖 )       𝑖𝑍𝑖 (2𝑝 𝑖 − 𝑞 ′ ) 𝜇 𝐹 𝜈 ( 𝑝 𝑓 , 𝑝 𝑖 )
+           𝑇conv (𝑞 ′ ; 𝑝 𝑓 , 𝑝 𝑖 ) =
+             𝜇𝜈
+                                                                                 +                                           ,   (26)
+                                               ( 𝑝 𝑓 + 𝑞 ′ ) 2 − 𝑀 2𝑓                       ( 𝑝 𝑖 − 𝑞 ′ ) 2 − 𝑀𝑖2
+
+
+                                                                  8
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                                    Chien-Yeah Seng
+
+
+which represents the simplest structure satisfying the exact EM Ward identity, and is hence giving
+rise to the full IR-divergent structure.
+      The three-point function, on the other hand, depends on a three-current product:
+                         ∫
+                                          ′
+                             𝑑 4 𝑥𝑑 4 𝑦𝑒 𝑖𝑞 · 𝑥 ⟨𝜙 𝑓 ( 𝑝 𝑓 )|𝑇 {𝐽𝑊 (𝑥)𝐽em
+                  𝜇                                           𝜇†
+                𝛿𝐹3 ∼                                                  𝜈
+                                                                          (𝑦)𝐽𝜈em (0)}|𝜙𝑖 ( 𝑝 𝑖 )⟩ ,        (27)
+
+and vanishes identically if the two conditions below are simultaneously satisfied: (1) The weak
+current is conserved, i.e. 𝜕 · 𝐽𝑊 = 0, and (2) The decay is forward, i.e. 𝑝 𝑖 = 𝑝 𝑓 . We can also split
+the 𝛾𝑊-box diagram into two pieces:
+
+                                                  𝑎       𝑏
+                                       𝛿M 𝛾𝑊 = 𝛿M 𝛾𝑊 + 𝛿M 𝛾𝑊 ,                                              (28)
+
+where 𝛿M 𝛾𝑊𝑏 contains an 𝜖-tensor that comes from 𝐿 while 𝛿M 𝑎 does not. There is a partial
+                                                       𝜇           𝛾𝑊
+                          𝜇          𝑎
+cancellation between 𝛿𝐹2 and 𝛿M 𝛾𝑊       which gets rids of some dependence on non-perturbative
+QCD.
+     With all the above, the virtually-corrected decay amplitude in Sirlin’s representation take the
+following form:
+                         "
+                         (                                 #       )
+                       𝛼     𝑀𝑍2 1 𝑀𝑊     2
+                                                1 𝑚 ℓ2 3 1   1 QED
+           M = M0 1 +      ln 2 − ln 2 + ln 2 − + 𝑎˜ 𝑔 + 𝛿HO
+                      2𝜋     𝑚ℓ      4   𝑚ℓ     2 𝑀𝛾 8 2     2
+                                   𝐺𝐹
+                           𝑎
+               + 𝛿M2 + 𝛿M 𝛾𝑊       − √ 𝛿𝐹3𝜆 𝐿 𝜆 + 𝛿M 𝛾𝑊
+                                                     𝑏
+                                                        ,                                                   (29)
+                               int     2
+
+In the first line, 𝑎˜ 𝑔 represents the O (𝛼𝑠 ) perturbative Quantum Chromodynamics (pQCD) correc-
+tions from all one-loop integrals except 𝛿M 𝛾𝑊     𝑏 ; 𝛿 QED represents the resummation of the leading
+                                                          HO
+higher-order QED corrections.        Both quantities are process-independent and known numerically.
+Meanwhile, 𝛿M2 + 𝛿M 𝛾𝑊        𝑎        represents a “residual integral” after removing the exactly calcu-
+                                   int
+lable piece in the sum of 𝛿M2 and 𝛿M 𝛾𝑊        𝑎 ; this integral is insensitive to the physics at the UV
+
+scale.
+
+
+5. Application to 𝐾ℓ3
+
+     We used Eq.(29) as a starting point to perform a re-analysis of the EM corrections to 𝐾ℓ3 decay
+rate [62, 66–70]. First, it is always possible to recast the loop corrections to the 𝐾ℓ3 decay in terms
+of corrections to the tree-level form factors:
+
+                                    𝑓±𝐾 𝜋 (𝑡) → 𝑓±𝐾 𝜋 (𝑡) + 𝛿 𝑓±𝐾 𝜋 (𝑦, 𝑧) ,                                (30)
+
+where 𝑦 ≡ 2𝑝 𝑖 · 𝑝 ℓ /𝑀𝐾2 , 𝑧 ≡ 2𝑝 𝑖 · 𝑝 𝑓 /𝑀𝐾2 . Similar to tree level, the contribution of 𝛿 𝑓 −𝐾 𝜋 to the
+squared amplitude is suppressed by 𝑚 ℓ2 /𝑀𝐾2 , so its precision requirement is lower than 𝛿 𝑓+𝐾 𝜋 .
+                                                                                                          
+    In Eq.(29), there are only three quantities that require non-perturbative inputs: 𝛿M2 + 𝛿M 𝛾𝑊      𝑎     ,
+                                                                                                               int
+   𝑏 and 𝛿𝐹 𝜆 . We compute their contribution to 𝛿 𝑓 𝐾 𝜋 as follows.
+𝛿M 𝛾𝑊      3                                        ±
+
+
+                                                        9
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                            Chien-Yeah Seng
+
+
+
+
+                    Figure 4: “Pole” contributions to the generalized Compton tensors.
+
+
+5.1 𝛿 𝑓+𝐾 𝜋
+     We split the full 𝛿 𝑓+𝐾 𝜋 into three pieces; the first comes from the “residual integral” and the
+            𝑏 that involves the vector (V) component of 𝐽 𝜇† . It reduces to the extraction of 𝛿 𝑓 𝐾 𝜋
+part of 𝛿M 𝛾𝑊                                                         𝑊                                     +
+from the following integral:
+                                                                         (
+                      ∫
+                            𝑑 4 𝑞′                   1                     2𝑝 ℓ · 𝑞 ′ 𝑞 ′𝜆 𝜇
+         𝐼A𝜆 ≡ −𝑒 2                                                                       𝑇 𝜇 + 2𝑝 ℓ 𝜇 𝑇 𝜇𝜆
+                           (2𝜋) 4 [( 𝑝 ℓ − 𝑞 ′ ) 2 − 𝑚 ℓ2 ] [𝑞 ′2 − 𝑀𝛾2 ] 𝑞 ′2 − 𝑀𝛾2
+                  −( 𝑝 𝑖 − 𝑝 𝑓 ) 𝜇 𝑇 𝜆𝜇 + 𝑖Γ𝜆 − 𝑖𝜖 𝜇𝜈 𝛼𝜆 𝑞 ′𝛼 (𝑇𝜇𝜈 )𝑉   ,                               (31)
+
+which is saturated by the “pole” diagram contribution to the generalized Compton tensors, see
+Fig.4. The inputs here are therefore the 𝐾/𝜋 electromagnetic and charged weak form factors, which
+are readily obtainable from experiment [71–73]. Notice that the use of full form factors effectively
+resum the most important O (𝑒 2 𝑝 𝑛 ) corrections in ChPT.
+     Next, we have the contribution from the part of 𝛿M 𝛾𝑊 𝑏 that involves the axial (A) component
+    𝜇†
+of 𝐽𝑊 . The corresponding integral reads:
+
+                                          𝑑4 𝑞′    2
+                                                             𝜖 𝜇𝜈 𝛼𝜆 𝑞 ′𝛼 (𝑇𝜇𝜈 ) 𝐴
+                                     ∫
+                                                  𝑀𝑊
+                          𝜆
+                         𝐼B ≡ 𝑖𝑒 2               2 − 𝑞 ′2 [( 𝑝 − 𝑞 ′ ) 2 − 𝑚 2 ]𝑞 ′2
+                                                                                     .                  (32)
+                                         (2𝜋) 4 𝑀𝑊            ℓ               ℓ
+
+This integral is sensitive to the loop momentum 𝑞 ′ at all scales, from zero to infinity. For large
+values of 𝑞 ′ the integral can be computed precisely using pQCD, but at 𝑞 ′ ∼ 1 GeV the integrand
+becomes totally non-perturbative. Fortunately, recent improvements in lattice QCD techniques
+allow us to compute 𝑇𝜇𝜈 from first principles in the forward limit (𝑝 𝑖 = 𝑝 𝑓 ) at small 𝑞 ′ [74, 75], so
+the combination of lattice QCD and pQCD yields a precise prediction of 𝐼B        𝜆 ; the uncertainty from
+
+the non-forward (NF) corrections can be estimated with chiral power counting.
+     Finally, the contribution from 𝛿𝐹3𝜆 involves a three-current product which is extremely difficult
+to compute on lattice, so we may resort to a fixed-order ChPT calculation. Nevertheless, we can
+improve the result by requiring the exact cancellation of the IR-divergence between the virtual
+correction and bremsstrahlung processes, and that allows us to resum the numerically-large IR-
+divergent piece to all orders. This amounts to writing:
+                                                n                             o
+                                        𝐾 𝜋 IR        𝐾 𝜋 fin
+                              𝐾𝜋
+                           𝛿 𝑓+,3 = (𝛿 𝑓+,3 ) + (𝛿 𝑓+,3  )𝑒2 𝑝2 + O (𝑒 2 𝑝 4 ) ,                      (33)
+
+where (𝛿 𝑓+,3
+          𝐾 𝜋 ) IR is the IR-divergent piece that is exactly known, while (𝛿 𝑓 𝐾 𝜋 ) fin is the IR-finite
+                                                                              +,3 𝑒2 𝑝 2
+piece computed to O (𝑒 2 𝑝 2 ) in ChPT. In fact, we found that the latter is reabsorbed into the tree-level
+form factor and isospin-breaking corrections according to the standard ChPT classification [26],
+                                        𝐾ℓ .
+and is thus not included as a part of 𝛿EM
+
+
+                                                       10
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                              Chien-Yeah Seng
+
+
+
+
+                                   Figure 5: Bremsstrahlung diagrams.
+
+
+5.2 𝛿 𝑓 −𝐾 𝜋
+    Due to the 𝑚 ℓ2 /𝑀𝐾2 suppression, one needs to compute 𝛿 𝑓 −𝐾 𝜋 only for the 𝐾 → 𝜋𝜇𝜈 channels,
+which was performed in Ref.[70]. We express the result as
+                                                                 fin
+                           𝛿 𝑓 −𝐾 𝜋 = (𝛿 𝑓 −𝐾 𝜋 )IR + (𝛿 𝑓 −𝐾 𝜋 )conv + (𝛿 𝑓 −𝐾 𝜋 )rem .              (34)
+
+The first two terms at the right hand side are analytically-known, IR-divergent and finite pieces
+coming from the first line in Eq.(29) as well as the convection term contribution to the second
+line; they are the numerically largest pieces. On the other hand, (𝛿 𝑓 −𝐾 𝜋 )rem denotes the remaining,
+numerically smaller piece which we compute at fixed order in ChPT, and is therefore subject to the
+usual chiral expansion and LEC uncertainties, but in a suppressed manner.
+
+5.3 Bremsstrahlung
+    To cancel the IR divergence in the loop diagrams, one needs to include the real photon emission
+contribution at tree level, depicted in Fig.5. The corresponding amplitude reads:
+
+                                                           𝑝ℓ · 𝜀∗    𝑞/ ′ 𝜀/ ∗
+                                                                               
+                                    𝐺𝐹 𝑒
+                    Mbrem = − √ 𝑢¯ 𝜈 𝛾 𝜇 (1 − 𝛾5 )                  +             𝑣 ℓ 𝐹𝜇
+                                       2                   𝑝 ℓ · 𝑞 ′ 2𝑝 ℓ · 𝑞 ′
+                                   𝑖𝐺 𝐹 𝑒
+                                  + √ 𝑢¯ 𝜈 𝛾 𝜈 (1 − 𝛾5 )𝑣 ℓ 𝜀 𝜇∗𝑇𝜇𝜈 ,                          (35)
+                                       2
+where 𝑞 ′ here denotes the on-shell outgoing photon momentum, and 𝜀 𝜇∗ is the outgoing photon
+polarization vector. One sees that the first term at the right hand side is fixed by the experimental
+weak form factors, and all the theory uncertainties resides in the second term that contains 𝑇𝜇𝜈 . To
+separate the IR-divergent and IR-finite part of the amplitude, we can split:
+                                      𝜇𝜈             𝜇𝜈
+                             𝑇 𝜇𝜈 = 𝑇conv + (𝑇 𝜇𝜈 − 𝑇conv ) 𝑝2 + O ( 𝑝 4 ) ,                          (36)
+                                                                                            𝜇𝜈
+and correspondingly, Mbrem = M 𝐴 + M 𝐵 , where M 𝐴 sums the first term and the 𝑇conv contribution
+to the second term in Eq.(35); it contains all the IR-divergence but is exactly known. M 𝐵 , on the
+other hand, represents the remaining piece and is expanded to the leading order in ChPT, and hence
+carries a ChPT expansion uncertainty. Requiring the IR-divergence in |M 𝐴 | 2 cancels exactly with
+that in the loop contribution helps resumming the IR-divergent part of 𝛿𝐹3𝜆 , as we described in the
+previous section.
+
+5.4 Final result of 𝛿EM
+                     𝐾ℓ and 𝑉
+                             𝑢𝑠
+                          𝐾ℓ is summarized in Table 3. The sources of uncertainties are:
+     Our final result of 𝛿EM
+
+
+                                                       11
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                                 Chien-Yeah Seng
+
+
+                                   Mode                     𝐾ℓ (%)
+                                                          𝛿EM
+                                     0
+                                   𝐾𝑒3        11.6(2)inel (1)lat (1)NF (2)𝑒2 𝑝4
+                                     +
+                                   𝐾𝑒3         2.1(2)inel (1)lat (4)NF (1)𝑒2 𝑝4
+                                     0
+                                   𝐾 𝜇3    15.4(2)inel (1)lat (1)NF (2)LEC (2)𝑒2 𝑝4
+                                     +
+                                   𝐾 𝜇3     0.5(2)inel (1)lat (4)NF (2)LEC (2)𝑒2 𝑝4
+
+                                     Table 3: Our new determination of 𝛿EM
+                                                                        𝐾ℓ .
+
+
+                                                                   0   −
+                                                           |𝑉𝑢𝑠 𝑓+𝐾 𝜋 (0)|
+                              𝐿
+                            𝐾𝑒3               0.21617(46)exp (10) 𝐼𝐾 (4) 𝛿EM (3)HO
+                              𝑆
+                            𝐾𝑒3               0.21530(122)exp (10) 𝐼𝐾 (4) 𝛿EM (3)HO
+                              +
+                            𝐾𝑒3           0.21714(88)exp (10) 𝐼𝐾 (21) 𝛿SU(2) (5) 𝛿EM (3)HO
+                              𝐿
+                            𝐾 𝜇3              0.21649(50)exp (16) 𝐼𝐾 (4) 𝛿EM (3)HO
+                              𝑆
+                            𝐾 𝜇3               0.21251(466)exp (16) 𝐼𝐾 (4) 𝛿EM (3)HO
+                              +
+                            𝐾 𝜇3          0.21699(108)exp (16) 𝐼𝐾 (21) 𝛿SU(2) (6) 𝛿EM (3)HO
+                        Average: 𝐾𝑒                     0.21626(40) 𝐾 (3)HO
+                        Average: 𝐾 𝜇                    0.21654(48) 𝐾 (3)HO
+                        Average: tot                    0.21634(38) 𝐾 (3)HO
+                0   −
+Table 4: |𝑉𝑢𝑠 𝑓+𝐾 𝜋 (0)| from different 𝐾ℓ3 channels. “HO” denotes the uncertainty from the higher-order
+electroweak RC that resides in 𝑆EW .
+
+
+   1. inel: Inelastic states contribution to the residual integral
+                                   𝜆
+   2. lat: Lattice uncertainty in 𝐼B
+                                  𝜆
+   3. NF: Non-forward effects in 𝐼B
+
+   4. 𝑒 2 𝑝 4 : Higher-order ChPT corrections
+
+   5. LEC: Poorly-determined LECs in 𝛿 𝑓 −𝐾 𝜋
+
+The results in Table 2 and 3 are in good agreement, but the latter has a significant improvement
+                                                               0 −
+in precision from 10−3 to 10−4 . The resultant product |𝑉𝑢𝑠 𝑓+𝐾 𝜋 (0)| are summarized in Table 4,
+where we observe a good consistency between different channels. Applying the lattice result of
+    0 −
+ 𝑓+𝐾 𝜋 (0) in Eq.(7), we obtain:
+                               (
+                                 0.22308(39)lat (39) 𝐾 (3)HO     𝑁𝑓 = 2 + 1 + 1
+                 |𝑉𝑢𝑠 | 𝐾ℓ3 =                                                    .          (37)
+                                 0.22356(62)lat (39) 𝐾 (3)HO       𝑁𝑓 = 2 + 1
+
+The result above can then be used, together with 𝑉𝑢𝑑 obtained from superallowed nuclear decays
+and 𝑉𝑢𝑠 /𝑉𝑢𝑑 obtained from kaon/pion leptonic decays, to test the validity of the Cabibbo unitarity.
+A global fit of several best determinations of 𝑉𝑢𝑑 and 𝑉𝑢𝑠 indicates a 2.8 𝜎 deficit from the Cabibbo
+unitarity [76], which may point towards new physics such as right-handed quark couplings [77].
+This anomaly was first unveiled in the recent years following a re-analysis of the RC to the free
+
+
+                                                         12
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                    Chien-Yeah Seng
+
+
+neutron decay [78, 79], and our high-precision calculation of the 𝐾ℓ3 RC serves to further sharpen
+its status. In addition, there is a long-standing discrepancy between the determination of 𝑉𝑢𝑠
+from kaon/pion leptonic decay + superallowed nuclear decays and from 𝐾ℓ3 directly [3], and the
+speculation was that it could be due to some hidden systematic effects in the 𝐾ℓ3 RC, but our work
+has largely rejected this guess.
+
+
+6. Summary
+
+    To briefly summarize this talk:
+
+    • The first-row CKM unitarity, often simplified as the Cabibbo unitarity, offers precision
+      tests of the SM and sensitive probes for BSM physics competitive to high-energy collider
+      experiments. The test requires precise extractions of 𝑉𝑢𝑑 and 𝑉𝑢𝑠 from weak decays, and 𝐾ℓ3
+      is the primary avenue for the latter.
+
+    • A number of SM theory inputs are needed for the extraction of 𝑉𝑢𝑠 from 𝐾ℓ3 partial decay
+      rate, including the process-independent electroweak RC, the 𝐾 − → 𝜋 0 form factor, the phase
+                                                                                            𝐾ℓ .
+      space integral, the isospin-breaking correction, and the long-distance EM correction 𝛿EM
+
+    • The previous state-of-the-art calculation of 𝛿EM
+                                                    𝐾ℓ was performed using ChPT and reached a
+
+      10−3 precision; the main sources of uncertainties are the neglected higher-order terms in the
+      chiral expansion and the poorly-known LECs.
+
+    • We performed a re-analysis of the 𝐾ℓ3 EM correction by combining Sirlin’s representation
+      and ChPT approaches. The use of kaon and pion form factors and the lattice results of 𝐾𝜋
+      box diagram overcome the limitations in the pure ChPT treatment and improve the precision
+      level to 10−4 .
+
+    • Our work helps to consolidate the 𝑉𝑢𝑠 extraction, and sharpen the so-called “Cabibbo angle
+      anomaly” since its first observation in 2018.
+
+
+7. Acknowledgments
+
+     I thank Xu Feng, Daniel Galviz, Mikhail Gorchtein, Lu-Chang Jin, Peng-Xiang Ma, William J.
+Marciano and Ulf-G. Meißner for collaborations in related topics. This work is supported in part by
+the U.S. Department of Energy (DOE), Office of Science, Office of Nuclear Physics, under award
+DE-FG02-97ER41014, and by the FRIB Theory Alliance award DE-SC0013617.
+
+
+References
+
+ [1] N. Cabibbo, Unitary Symmetry and Leptonic Decays, Phys. Rev. Lett. 10 (1963) 531.
+
+ [2] M. Kobayashi and T. Maskawa, CP Violation in the Renormalizable Theory of Weak
+     Interaction, Prog. Theor. Phys. 49 (1973) 652.
+
+
+                                                   13
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                    Chien-Yeah Seng
+
+
+ [3] Particle Data Group collaboration, Review of particle physics, Phys. Rev. D 110 (2024)
+     030001.
+
+ [4] J.C. Hardy and I.S. Towner, Superallowed 0+ → 0+ nuclear 𝛽 decays: 2020 critical survey,
+     with implications for V𝑢𝑑 and CKM unitarity, Phys. Rev. C 102 (2020) 045501.
+
+ [5] KLOE collaboration, Measurements of the absolute branching ratios for the dominant K(L)
+     decays, the K(L) lifetime, and V(us) with the KLOE detector, Phys. Lett. B 632 (2006) 43
+     [hep-ex/0508027].
+
+ [6] KLOE collaboration, Measurement of the K(L) meson lifetime with the KLOE detector, Phys.
+     Lett. B 626 (2005) 15 [hep-ex/0507088].
+
+ [7] K.G. Vosburgh, T.J. Devlin, R.J. Esterling, B. Goz, D.A. Bryman and W.E. Cleland,
+     Measurement of the k0(l) mean life, Phys. Rev. D 6 (1972) 1834.
+
+ [8] KTeV collaboration, Measurements of K(L) branching fractions and the CP violation
+     parameter |eta+-|, Phys. Rev. D 70 (2004) 092006 [hep-ex/0406002].
+
+ [9] KTeV collaboration, Precise Measurements of Direct CP Violation, CPT Symmetry, and
+     Other Parameters in the Neutral Kaon System, Phys. Rev. D 83 (2011) 092001 [1011.0127].
+
+[10] KLOE collaboration, Precision Measurement of 𝐾𝑆 Meson Lifetime with the KLOE detector,
+     Eur. Phys. J. C 71 (2011) 1604 [1011.2668].
+
+[11] NA48 collaboration, A Measurement of the K(S) lifetime, Phys. Lett. B 537 (2002) 28
+     [hep-ex/0205008].
+
+[12] L. Bertanza et al., Measurement of the K(S) mean lifetime from pi+ pi- and pi0 pi0 decays
+     using K(L) decays to determine the acceptance, Z. Phys. C 73 (1997) 629.
+
+[13] B. Schwingenheuer et al., CPT Tests in the Neutral Kaon System, Phys. Rev. Lett. 74 (1995)
+     4376.
+
+[14] L.K. Gibbons et al., New Measurements of the Neutral Kaon Parameters Δm, 𝜏𝑠 , 𝜙00 − 𝜙00+− ,
+     and 𝜙+− , Phys. Rev. Lett. 70 (1993) 1199.
+
+[15] J.R. Batley et al., Determination of the relative decay rate K(S) —> pi e nu / K(L) —> pi e
+     nu, Phys. Lett. B 653 (2007) 145.
+
+[16] KLOE collaboration, Study of the branching ratio and charge asymmetry for the decay
+     𝐾 (𝑠) → 𝜋𝑒𝜈 with the KLOE detector, Phys. Lett. B 636 (2006) 173 [hep-ex/0601026].
+
+[17] KLOE collaboration, Measurement of the branching fraction for the decay 𝐾 (𝑆) → 𝜋𝑒𝜈,
+     Phys. Lett. B 535 (2002) 37 [hep-ph/0203232].
+
+[18] KLOE collaboration, Measurement of the charged kaon lifetime with the KLOE detector,
+     JHEP 01 (2008) 073 [0712.1112].
+
+
+                                                   14
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                    Chien-Yeah Seng
+
+
+[19] V.P. Koptev et al., Measurement of the lifetimes of pi+ and K+ mesons, JETP Lett. 61 (1995)
+     877.
+
+[20] R.J. Ott and T.W. Pritchard, Precise measurement of the k+ lifetime, Phys. Rev. D 3 (1971) 52.
+
+[21] F. Lobkowicz, A.C. Melissinos, Y. Nagashima, S. Tewksbury, H. Von Briesen and J.D. Fox,
+     Precise measurement of the k+/k- lifetime ratio, Phys. Rev. 185 (1969) 1676.
+
+[22] V.L. Fitch, C.A. Quarles and H.C. Wilkins, Study of the K+ Decay Probability, Phys. Rev.
+     140 (1965) B1088.
+
+[23] KLOE collaboration, Measurement of the absolute branching ratios for semileptonic 𝐾 ±
+     decays with the KLOE detector, JHEP 02 (2008) 098 [0712.3841].
+
+[24] I.H. Chiang, J.L. Rosen, S. Shapiro, R. Handler, S. Olsen and L. Pondrom, 𝐾 + Decay in
+     Flight, Phys. Rev. D 6 (1972) 1254.
+
+[25] MuLan collaboration, Detailed Report of the MuLan Measurement of the Positive Muon
+     Lifetime and Determination of the Fermi Constant, Phys. Rev. D 87 (2013) 052003
+     [1211.0960].
+
+[26] V. Cirigliano, G. Ecker, H. Neufeld, A. Pich and J. Portoles, Kaon Decays in the Standard
+     Model, Rev. Mod. Phys. 84 (2012) 399 [1107.6001].
+
+[27] W.J. Marciano and A. Sirlin, Radiative corrections to pi(lepton 2) decays, Phys. Rev. Lett. 71
+     (1993) 3629.
+
+[28] J. Erler, Electroweak radiative corrections to semileptonic tau decays, Rev. Mex. Fis. 50
+     (2004) 200 [hep-ph/0211345].
+
+[29] Flavour Lattice Averaging Group (FLAG) collaboration, FLAG Review 2024,
+     2411.04268.
+
+[30] N. Carrasco, P. Lami, V. Lubicz, L. Riggio, S. Simula and C. Tarantino, 𝐾 → 𝜋 semileptonic
+     form factors with 𝑁 𝑓 = 2 + 1 + 1 twisted mass fermions, Phys. Rev. D 93 (2016) 114512
+     [1602.04113].
+
+[31] Fermilab Lattice, MILC collaboration, |𝑉𝑢𝑠 | from 𝐾ℓ3 decay and four-flavor lattice QCD,
+     Phys. Rev. D99 (2019) 114509 [1809.02827].
+
+[32] A. Bazavov et al., Kaon semileptonic vector form factor and determination of |𝑉𝑢𝑠 | using
+     staggered fermions, Phys. Rev. D 87 (2013) 073012 [1212.4993].
+
+[33] RBC/UKQCD collaboration, The kaon semileptonic form factor in N 𝑓 = 2 + 1 domain wall
+     lattice QCD with physical light quark masses, JHEP 06 (2015) 164 [1504.01692].
+
+[34] FlaviaNet Working Group on Kaon Decays collaboration, An Evaluation of |𝑉𝑢𝑠 | and
+     precise tests of the Standard Model from world data on leptonic and semileptonic kaon
+     decays, Eur. Phys. J. C 69 (2010) 399 [1005.2323].
+
+
+                                                   15
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                     Chien-Yeah Seng
+
+
+[35] M. Moulson, 𝑉𝑢𝑠 from kaon decays, 11th International Workshop on the CKM Unitarity
+     Triangle (CKM 2021) .
+
+[36] R.J. Hill, Constraints on the form factors for K —> pi l nu and implications for |V(us)|, Phys.
+     Rev. D 74 (2006) 096006 [hep-ph/0607108].
+
+[37] P. Lichard, Some implications of meson dominance in weak interactions, Phys. Rev. D 55
+     (1997) 5385 [hep-ph/9702345].
+
+[38] V. Bernard, M. Oertel, E. Passemar and J. Stern, K(mu3)**L decay: A Stringent test of
+     right-handed quark currents, Phys. Lett. B638 (2006) 480 [hep-ph/0603202].
+
+[39] V. Bernard, M. Oertel, E. Passemar and J. Stern, Dispersive representation and shape of the
+     K(l3) form factors: Robustness, Phys. Rev. D80 (2009) 034034 [0903.1654].
+
+[40] KTeV collaboration, Dispersive analysis of K (L mu3) and K (L e3) scalar and vector form
+     factors using KTeV data, Phys. Rev. D 81 (2010) 052001 [0912.1291].
+
+[41] RBC, UKQCD collaboration, Domain wall QCD with physical quark masses, Phys. Rev. D
+     93 (2016) 074505 [1411.7017].
+
+[42] S. Durr, Z. Fodor, C. Hoelbling, S.D. Katz, S. Krieg, T. Kurth et al., Lattice QCD at the
+     physical point: light quark masses, Phys. Lett. B 701 (2011) 265 [1011.2403].
+
+[43] S. Durr, Z. Fodor, C. Hoelbling, S.D. Katz, S. Krieg, T. Kurth et al., Lattice QCD at the
+     physical point: Simulation and analysis details, JHEP 08 (2011) 148 [1011.2711].
+
+[44] MILC collaboration, MILC results for light pseudoscalars, PoS CD09 (2009) 007
+     [0910.2966].
+
+[45] Z. Fodor, C. Hoelbling, S. Krieg, L. Lellouch, T. Lippert, A. Portelli et al., Up and down
+     quark masses and corrections to Dashen’s theorem from lattice QCD and quenched QED,
+     Phys. Rev. Lett. 117 (2016) 082001 [1604.07112].
+
+[46] A. Bazavov et al., 𝐵- and 𝐷-meson leptonic decay constants from four-flavor lattice QCD,
+     Phys. Rev. D 98 (2018) 074512 [1712.09262].
+
+[47] European Twisted Mass collaboration, Up, down, strange and charm quark masses with
+     N 𝑓 = 2+1+1 twisted mass lattice QCD, Nucl. Phys. B 887 (2014) 19 [1403.4504].
+
+[48] Fermilab Lattice, MILC collaboration, Charmed and Light Pseudoscalar Meson Decay
+     Constants from Four-Flavor Lattice QCD with Physical Light Quarks, Phys. Rev. D 90
+     (2014) 074509 [1407.3772].
+
+[49] D. Giusti, V. Lubicz, C. Tarantino, G. Martinelli, F. Sanfilippo, S. Simula et al., Leading
+     isospin-breaking corrections to pion, kaon and charmed-meson masses with Twisted-Mass
+     fermions, Phys. Rev. D 95 (2017) 114504 [1704.06561].
+
+
+                                                   16
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                       Chien-Yeah Seng
+
+
+[50] G. Colangelo, S. Lanz, H. Leutwyler and E. Passemar, Dispersive analysis of 𝜂 → 3𝜋, Eur.
+     Phys. J. C 78 (2018) 947 [1807.11937].
+
+[51] C.-Y. Seng, D. Galviz, W.J. Marciano and U.-G. Meißner, Update on |𝑉𝑢𝑠 | and |𝑉𝑢𝑠 /𝑉𝑢𝑑 |
+     from semileptonic kaon and pion decays, Phys. Rev. D 105 (2022) 013005 [2107.14708].
+
+[52] J. Gasser and H. Leutwyler, Chiral Perturbation Theory: Expansions in the Mass of the
+     Strange Quark, Nucl. Phys. B250 (1985) 465.
+
+[53] R. Urech, Virtual photons in chiral perturbation theory, Nucl. Phys. B433 (1995) 234
+     [hep-ph/9405341].
+
+[54] M. Knecht, H. Neufeld, H. Rupertsberger and P. Talavera, Chiral perturbation theory with
+     virtual photons and leptons, Eur. Phys. J. C12 (2000) 469 [hep-ph/9909284].
+
+[55] B. Ananthanarayan and B. Moussallam, Four-point correlator constraints on
+     electromagnetic chiral parameters and resonance effective Lagrangians, JHEP 06 (2004)
+     047 [hep-ph/0405206].
+
+[56] S. Descotes-Genon and B. Moussallam, Radiative corrections in weak semi-leptonic
+     processes at low energy: A Two-step matching determination, Eur. Phys. J. C42 (2005) 403
+     [hep-ph/0505077].
+
+[57] V. Cirigliano, M. Knecht, H. Neufeld and H. Pichl, The Pionic beta decay in chiral
+     perturbation theory, Eur. Phys. J. C 27 (2003) 255 [hep-ph/0209226].
+
+[58] V. Cirigliano, M. Giannotti and H. Neufeld, Electromagnetic effects in K(l3) decays, JHEP
+     11 (2008) 006 [0807.4507].
+
+[59] D. Giusti, V. Lubicz, G. Martinelli, C.T. Sachrajda, F. Sanfilippo, S. Simula et al., First
+     lattice calculation of the QED corrections to leptonic decay rates, Phys. Rev. Lett. 120
+     (2018) 072001 [1711.06537].
+
+[60] P. Boyle et al., High-precision determination of 𝑉𝑢𝑠 and 𝑉𝑢𝑑 from lattice QCD, SnowMass
+     2021 .
+
+[61] A. Sirlin, Current Algebra Formulation of Radiative Corrections in Gauge Theories and the
+     Universality of the Weak Interactions, Rev. Mod. Phys. 50 (1978) 573.
+
+[62] C.-Y. Seng, D. Galviz and U.-G. Meißner, A New Theory Framework for the Electroweak
+     Radiative Corrections in 𝐾𝑙3 Decays, JHEP 02 (2020) 069 [1910.13208].
+
+[63] C.-Y. Seng, Radiative Corrections to Semileptonic Beta Decays: Progress and Challenges,
+     Particles 4 (2021) 397 [2108.03279].
+
+[64] L.S. Brown, Perturbation theory and selfmass insertions, Phys. Rev. 187 (1969) 2260.
+
+[65] N. Meister and D. Yennie, Radiative Corrections to High-Energy Scattering Processes, Phys.
+     Rev. 130 (1963) 1210.
+
+
+                                                   17
+Semileptonic kaon decays and the precise determination of 𝑉𝑢𝑠                   Chien-Yeah Seng
+
+
+[66] C.-Y. Seng, X. Feng, M. Gorchtein, L.-C. Jin and U.-G. Meißner, New method for calculating
+     electromagnetic effects in semileptonic beta-decays of mesons, JHEP 10 (2020) 179
+     [2009.00459].
+
+[67] C.-Y. Seng, D. Galviz, M. Gorchtein and U.G. Meißner, High-precision determination of the
+     Ke3 radiative corrections, Phys. Lett. B 820 (2021) 136522 [2103.00975].
+
+[68] C.-Y. Seng, D. Galviz, M. Gorchtein and U.-G. Meißner, Improved 𝐾𝑒3 radiative corrections
+     sharpen the 𝐾 𝜇2 –K𝑙3 discrepancy, JHEP 11 (2021) 172 [2103.04843].
+
+[69] C.-Y. Seng, W.J. Marciano and U.-G. Meißner, Electron Mass Singularities in Semileptonic
+     Kaon Decays, 2206.01513.
+
+[70] C.-Y. Seng, D. Galviz, M. Gorchtein and U.-G. Meißner, Complete theory of radiative
+     corrections to Kℓ3 decays and the V𝑢𝑠 update, JHEP 07 (2022) 071 [2203.05217].
+
+[71] S. Amendolia et al., A Measurement of the Kaon Charge Radius, Phys. Lett. B 178 (1986)
+     435.
+
+[72] NA7 collaboration, A Measurement of the Space - Like Pion Electromagnetic Form-Factor,
+     Nucl. Phys. B 277 (1986) 168.
+
+[73] NA48/2 collaboration, Measurement of the form factors of charged kaon semileptonic
+     decays, JHEP 10 (2018) 150 [1808.09041].
+
+[74] X. Feng, M. Gorchtein, L.-C. Jin, P.-X. Ma and C.-Y. Seng, First-principles calculation of
+     electroweak box diagrams from lattice QCD, Phys. Rev. Lett. 124 (2020) 192002
+     [2003.09798].
+
+[75] P.-X. Ma, X. Feng, M. Gorchtein, L.-C. Jin and C.-Y. Seng, Lattice QCD calculation of the
+     electroweak box diagrams for the kaon semileptonic decays, Phys. Rev. D 103 (2021) 114503
+     [2102.12048].
+
+[76] V. Cirigliano, A. Crivellin, M. Hoferichter and M. Moulson, Scrutinizing CKM unitarity with
+     a new measurement of the K𝜇3/K𝜇2 branching fraction, Phys. Lett. B 838 (2023) 137748
+     [2208.11707].
+
+[77] V. Cirigliano, W. Dekens, J. de Vries, E. Mereghetti and T. Tong, Anomalies in global SMEFT
+     analyses. A case study of first-row CKM unitarity, JHEP 03 (2024) 033 [2311.00021].
+
+[78] C.-Y. Seng, M. Gorchtein, H.H. Patel and M.J. Ramsey-Musolf, Reduced Hadronic
+     Uncertainty in the Determination of 𝑉𝑢𝑑 , Phys. Rev. Lett. 121 (2018) 241804 [1807.10197].
+
+[79] C.Y. Seng, M. Gorchtein and M.J. Ramsey-Musolf, Dispersive evaluation of the inner
+     radiative correction in neutron and nuclear 𝛽 decay, Phys. Rev. D100 (2019) 013001
+     [1812.03352].
+
+
+
+
+                                                   18
+

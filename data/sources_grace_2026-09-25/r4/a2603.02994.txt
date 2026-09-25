@@ -1,0 +1,484 @@
+                                          Kaon leptonic and semileptonic decays with
+                                          𝑵 𝒇 = 2 + 1 + 1 HISQ fermions
+
+                                          Ramón Merino,𝑎,∗ Alexei Bazavov,𝑏 Claude Bernard,𝑐 Carleton DeTar,𝑑 Aida
+                                          El-Khadra,𝑒, 𝑓 Elvira Gámiz,𝑎 Steven Gottlieb,𝑔 Anthony Grebe,ℎ,𝑖 Urs Heller, 𝑗
+                                          Leon Hostetler,𝑔 William Jay 𝑘 and Andreas Kronfeld𝑖
+
+
+
+
+arXiv:2603.02994v1 [hep-lat] 3 Mar 2026
+                                           𝑎 Departamento de Física Teórica y del Cosmos, Universidad de Granada, E-18071, Granada, Spain
+                                           𝑏 Department of Computational Mathematics, Science and Engineering, and Department of Physics and
+
+                                             Astronomy, Michigan State University, East Lansing, Michigan 48824, USA
+                                           𝑐 Department of Physics, Washington University, St. Louis, Missouri 63130, USA
+                                           𝑑 Department of Physics and Astronomy, University of Utah, Salt Lake City, Utah 84112, USA
+                                           𝑒 Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA
+                                           𝑓 Illinois Center for Advanced Studies of the Universe, University of Illinois Urbana-Champaign, Urbana,
+
+                                             Illinois 61801, USA
+                                           𝑔 Department of Physics, Indiana University, Bloomington, Indiana 47405, USA
+                                           ℎ Maryland Center for Fundamental Physics and Department of Physics, University of Maryland, College
+
+                                             Park, MD 20742, USA
+                                           𝑖 Theory Division, Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+                                           𝑗 American Physical Society, Hauppauge, New York 11788, USA
+                                           𝑘 Department of Physics, Colorado State University, Fort Collins, Colorado 80523, USA
+
+                                             E-mail: ramonmr@ugr.es
+                                             Fermilab Lattice and MILC Collaborations
+
+                                             Precision tests of the Standard Model (SM) currently show a deficit in first-row Cabibbo-
+                                             Kobayashi-Maskawa (CKM) unitarity. In this talk, we discuss progress towards a correlated
+                                             analysis of the lattice-QCD inputs needed to test this relation with kaon data using highly im-
+                                             proved staggered quarks (HISQ) on the MILC 𝑁 𝑓 = 2 + 1 + 1 configurations. We present the status
+                                             of a new analysis of light-meson decay constant data where chiral-continuum fits are guided by
+                                             staggered chiral perturbation theory (SChPT). The goal of SChPT is twofold: it allows us to use
+                                             data not only at physical pion mass but also at unphysical masses. Moreover, it provides values of
+                                             ChPT low energy constants (LECs) as well as their correlations. We also present a reanalysis of
+                                             our previous kaon semileptonic form factor calculation, aiming to estimate correlations between
+                                             the form factor and light-meson decay constants. We discuss the new methodology, new data
+                                             included, and present some preliminary results.
+
+                                          The 42nd International Symposium on Lattice Field Theory (LATTICE2025)
+                                          2-8 November 2025
+                                          Tata Institute of Fundamental Research, Mumbai, India
+
+                                               ∗ Speaker
+
+
+                                          © Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+                                          4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for
+                                          commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.                                             https://pos.sissa.it/
+Kaon leptonic and semileptonic decays                                                                 Ramón Merino
+
+
+1. Introduction
+
+    The Cabibbo-Kobayashi-Maskawa (CKM) matrix is unitary in the Standard Model (SM) by
+construction. However, current estimates show a deficit in the unitarity relation for the first row,
+known as the Cabbibo Angle Anomaly. The first-row unitarity condition states that in the SM
+
+                                  |𝑉𝑢𝑑 | 2 + |𝑉𝑢𝑠 | 2 + |𝑉𝑢𝑏 | 2 − 1 = 0 .                                     (1)
+
+At the current level of precision, the only elements that play a significant role in this test are |𝑉𝑢𝑑 |
+and |𝑉𝑢𝑠 |. The most precise determination of |𝑉𝑢𝑑 | comes from superallowed beta decays [1, 2],
+but they are affected by systematic errors coming from nuclear effects that are not fully understood
+yet. Neutron decays are unaffected by these systematics, but experimental errors are still not precise
+enough to be competitive.
+     The most precise determination of |𝑉𝑢𝑠 | relies on kaon semileptonic decays, 𝐾 → 𝜋ℓ𝜈ℓ
+(𝐾ℓ3 ). We can relate the decay width of these processes to the desired CKM element through the
+semileptonic vector form factor at 𝑞 2 = 0
+
+                                       Γ𝐾ℓ3 ∝ |𝑉𝑢𝑠 | 2 𝑓+𝐾 𝜋 (𝑞 2 = 0) 2 .                                     (2)
+
+    If we want to test first-row CKM unitarity without resorting to nuclear inputs, we can use |𝑉𝑢𝑠 |
+from kaon semileptonic decays together with the ratio between the decay widths of the kaon and
+pion leptonic decays 𝐾 → ℓ𝜈ℓ /𝜋 → ℓ𝜈ℓ (𝐾ℓ2 /𝜋ℓ2 ). This ratio is proportional to the ratio of the
+CKM elements |𝑉𝑢𝑠 /𝑉𝑢𝑑 | and the non-perturbative input 𝑓𝐾 / 𝑓 𝜋 , the ratio between kaon and pion
+decay constants
+                                       Γ𝐾ℓ2     |𝑉𝑢𝑠 | 2 𝑓𝐾2
+                                             ∝                .                                  (3)
+                                       Γ 𝜋ℓ2    |𝑉𝑢𝑑 | 2 𝑓 𝜋2
+     Our goal in this work is not only to improve the determination of the non-perturbative inputs
+in this test, 𝑓+𝐾 𝜋 (0) and 𝑓𝐾 / 𝑓 𝜋 , but also to estimate the correlation between these quantities.
+This will help to further reduce the uncertainty in the test of first-row unitarity. To do so, we
+perform the chiral-continuum analysis of both quantities using fit functions based on staggered chiral
+perturbation theory (SChPT), which makes possible the inclusion of both chiral and discretization
+effects specific to the staggered formulation. Moreover, this enables the determination of the
+value of some low energy constants (LECs) of the SChPT lagrangian, which are essential in
+phenomenological studies. This work is based on two previous analysis by the Fermilab Lattice
+and MILC Collaborations, which obtained the ratio of pseudoscalar decay constants [3] and the
+semileptonic form factor at 𝑞 2 = 0 [4].
+
+2. Vector form factor for 𝐾ℓ3 decays
+                                                                                                       0   −
+    We can relate the (photon-inclusive) semileptonic decay rate for 𝐾 0 with |𝑉𝑢𝑠 𝑓+𝐾 𝜋 (0)| by [5]
+
+                                        𝐺 2F 𝑚 5𝐾                0   −                   0        0    −
+           Γ(𝐾 0 → 𝜋 0 ℓ − 𝜈ℓ (𝛾)) =                𝑆EW |𝑉𝑢𝑠 𝑓+𝐾 𝜋 (0)| 2 𝐼 𝐾(0)0ℓ (1 + 𝛿EM
+                                                                                         𝐾 ℓ    𝐾 𝜋
+                                                                                             + 𝛿SU(2) ),       (4)
+                                        128𝜋 3
+where 𝐺 F is the Fermi constant, 𝑆EW a universal short-distance electroweak correction and 𝐼 𝐾(0)0ℓ is
+a phase-space integral that depends on the shape of the form factors defined below in Eq. (5). The
+
+
+                                                          2
+Kaon leptonic and semileptonic decays                                                    Ramón Merino
+
+
+quantities 𝛿EM and 𝛿SU(2) are the long-distance electromagnetic and the strong isospin-breaking
+corrections, respectively, with the latter defined relative to the 𝐾 0 𝜋 − mode. Finally, the vector form
+                                        0 −
+factor at zero momentum transfer, 𝑓+𝐾 𝜋 (𝑞 2 = 0), is a non-perturbative input defined by
+                                     "                            #
+            + 𝜇    0       𝐾0 𝜋− 2       𝜇     𝜇    𝑚 2𝐾 − 𝑚 2𝜋 𝜇         𝐾0 𝜋− 2
+                                                                                    𝑚 2𝐾 − 𝑚 2𝜋 𝜇
+          ⟨𝜋 |𝑉 |𝐾 ⟩ = 𝑓+       (𝑞 ) 𝑝 𝐾 + 𝑝 𝜋 −               𝑞    +  𝑓 0     (𝑞 )            𝑞 ,     (5)
+                                                        𝑞2                              𝑞2
+
+where a kinematic constraint at 𝑞 2 = 0 requires 𝑓+𝐾 𝜋 (0) = 𝑓0𝐾 𝜋 (0).
+     In this work, as in previous Fermilab/MILC calculations, we use the Ward-Takahashi identity
+that relates the matrix element of a vector current to that of a scalar current
+
+                          𝑞 𝜇 ⟨𝜋|𝑉𝜇lat |𝐾⟩ 𝑍𝑉 = (𝑚 𝑠 − 𝑚 𝑢 ) ⟨𝜋|𝑆 lat |𝐾⟩ 𝑍 𝑆 𝑍 𝑚 ,                   (6)
+
+where 𝑚 𝑠 , 𝑚 𝑢 are the masses of the quarks in the currents and 𝑍 𝑆 𝑍 𝑚 = 1 in our lattice setup [4].
+This relation, known as partial conservation of the vector current, makes possible the extraction of
+the desired form factor at zero momentum transfer from correlation functions with a scalar current:
+                                                𝑚 𝑠 − 𝑚𝑢
+                                  𝑓0𝐾 𝜋 (0) =               ⟨𝜋|𝑆|𝐾⟩| 𝑞2 =0 .                          (7)
+                                                𝑚 2𝐾 − 𝑚 2𝜋
+
+Then, the kinematic constraint yields 𝑓+𝐾 𝜋 (0).
+
+2.1 Lattice setup
+     We use the highly-improved staggered quark (HISQ) 𝑁 𝑓 = 2 + 1 + 1 MILC configurations and
+simulate the valence sector also with the HISQ action. The strange and charm quark masses have
+been tuned to the physical values while the light quark masses range from 0.2𝑚 𝑠 to values close to
+the physical ones. Charm and light quark masses are equal in the valence and sea sectors, while
+there are small differences between valence and sea strange quark masses for some ensembles; see
+Table 1.
+     With respect to our previous analysis [4], we have generated data at two new physical quark
+mass ensembles, one at 𝑎 ≈ 0.12 fm and another one at 𝑎 ≈ 0.09 fm, with better tuned quark masses
+than the preexisting ones. Moreover, we have increased statistics for the 0.06 fm physical quark
+mass ensemble, updating the number of configurations used from 692 to 844. A summary of the
+ensembles analyzed can be found in Table 1.
+     We use partially twisted boundary conditions to directly access the kinematic point 𝑞 2 = 0 in
+the generation of the three-point correlation functions. With this approach, we generate three-point
+correlation functions as sketched in Figure 1, where we tune the angle 𝜃 in the propagator between
+the pion and the current. Furthermore, we generate zero-momentum two-point correlation functions
+for pions and kaons, as well as two-point correlation functions for pions with external momentum.
+
+2.2 Correlator fits
+     The fitting strategy is similar to the one followed in our previous analysis [4]. We deal with
+autocorrelations by re-scaling the covariance matrix, choosing a conservative value of 𝑁binsize =
+4 [4].
+
+
+                                                      3
+Kaon leptonic and semileptonic decays                                                                 Ramón Merino
+
+
+
+     ≈ 𝑎(fm)     𝑚 𝑙 /𝑚 sea
+                        𝑠      𝐿3 × 𝐿𝑡        𝑁conf          𝑁src               𝑇                𝑎𝑚 sea
+                                                                                                     𝑠      𝑎𝑚 val
+                                                                                                               𝑠
+       0.15       0.035        323 × 48       1000             4        11,12,14,15,16,17        0.0647   0.06905
+       0.12         0.2        243 × 64       1053             8         15,18,20,21,22         0.0509     0.0535
+                    0.1        243 × 64       1020             8         15,18,20,21,22         0.0507      0.053
+                    0.1        323 × 64        993             4         15,18,20,21,22         0.0507      0.053
+                    0.1        403 × 64       1029             8         15,18,20,21,22         0.0507      0.053
+                  0.035        483 × 64        945             8         15,18,20,21,22         0.0507     0.0531
+        †         0.035        483 × 64        912             4           18,20,21,22          0.05252   0.05252
+       0.09         0.2        323 × 96        773             4         23,27,32,33,34           0.037     0.038
+                    0.1        483 × 96        853             4         23,27,32,33,34         0.0363      0.038
+                  0.035        643 × 96        950             8         23,27,32,33,34         0.0363     0.0363
+        †         0.035        643 × 96       1001             6           27,32,33,34          0.03636   0.03636
+       0.06         0.2       483 × 144       1000             8         34,41,48,49,50           0.024     0.024
+        *         0.035       963 × 192        844             6         31,39,40,48,49           0.022     0.022
+      0.042         0.2       643 × 192        432            12         40,52,53,64,65          0.0158    0.0158
+
+Table 1: Summary of the main parameters of the 𝑁 𝑓 = 2 + 1 + 1 ensembles and 𝐾ℓ3 correlation functions
+used in the semileptonic form factor analysis. 𝑁conf is the number of configurations included in our analysis,
+𝑁src is the number of time sources used on each configuration, and 𝐿(𝐿 𝑡 ) is the spatial(time) size of the
+lattice. The column labeled 𝑇 includes the values of the source-sink separations included in the correlator
+fits. Daggers in the first column indicate the two ensembles that are new since our work in Ref. [4]; an
+asterisk indicates that statistics have been increased. A more detailed explanation can be found in Ref. [4].
+
+                                                       𝑆(𝑡 𝑠𝑟 𝑐 + 𝑡)
+
+                                                  ®
+                                              𝑙 ( 𝜃)         ×            ®
+                                                                       𝑠( 0)
+
+
+                                 𝜋(𝑡 𝑠𝑟 𝑐 )
+                                                                               𝐾 (𝑡 𝑠𝑟 𝑐 + 𝑇)
+
+                                   Random-wall             𝑙 ( ®0)
+
+Figure 1: Sketch of the three-point correlation function for the scalar current ⟨𝜋|𝑆|𝐾⟩. We use partially
+twisted boundary conditions to give external momentum to the pion. The 𝜃 parameter is tuned such that
+𝑞 2 = 0.
+
+
+     One of the main improvements here is the treatment of the small eigenvalues of the covariance
+matrix. In our past analysis, we needed to shorten fit ranges and/or to thin data in order to get
+acceptable fits for the largest ensembles. In this work, we have reanalyzed all ensembles, using
+the shrinkage method to construct a well behaved estimator that does not exhibit problematic small
+eigenvalues [6, 7]. We find that shrinking the covariance matrix leads to fits that are highly stable
+under changes in fit hyperparameters. As a result, data thinning is no longer required, and we are
+able to include data from additional source-sink separations 𝑇, effectively increasing our statistics;
+see Table 1 in these proceedings and Table III in Ref. [4].
+     In order to study the stability with the choice of fit hyperparameters, we perform various fits
+
+
+                                                               4
+Kaon leptonic and semileptonic decays                                                       Ramón Merino
+
+
+
+
+Figure 2: Stability of fit results for the kaon mass 𝑀𝐾 , pion mass 𝑀 𝜋 and the energy of the moving pion
+𝐸 𝜋 as well as the form factor 𝑓+ (𝑞 2 = 0) under the change of 𝑡 min for the physical quark mass 𝑎 ≈ 0.06 fm
+ensemble. Results for different number of exponentials are shown in different colors. Blue bands correspond
+to our central fit. Since the data are preliminary, the vertical scale has been omitted.
+
+
+increasing the number of exponentials in the fit function. We take the conservative choice of
+𝑁exp = 𝑁 + 𝑁osc = 3 + 3, where 𝑁osc refers to the number of opposite-parity states that contribute
+due to the use of staggered quarks. We have also investigated the stability with respect to the change
+of the minimum in the fitting range of two-point correlators, 𝑡min , which also determines the fitting
+range for three-point correlators, [𝑡 min , 𝑇 − 𝑡min ]. We find that a choice of 𝑡 min ∈ [0.6, 0.7] fm
+describes well the data in all ensembles and that neither the central value nor the uncertainty in the
+form factor changes significantly when increasing 𝑡min . We show the stability of fit results under
+𝑡min and 𝑁exp for the physical quark mass ensemble at 0.06 fm in Fig 2. Similar results were found
+for the other ensembles.
+     After stability analysis, we use bootstrap resampling to make a robust estimation of the statistical
+errors. Bootstrap errors are compatible with the error propagation obtained in the central fits. We
+find that, likely due to the shrinkage method, bootstrap fits are more stable compared to our results
+in Ref. [4].
+     For almost all the ensembles we find good agreement with our previous results. In general, we
+also find a small reduction in the uncertainties. However, in those ensembles where data thinning
+was used in Ref. [4], the error reduction is usually more noticeable, since we are including more data
+in the fits. This reduction is especially appreciable in the 0.042 fm ensemble, due to the inclusion
+of data at big source-sink separations, where excited states contamination is milder. We have also
+analyzed the two new physical quark mass ensembles, finding well-behaved results in both cases.
+The comparison between our new results and our previous results in Ref. [4] is shown in Fig. 3, as
+well as the result for the two new ensembles analyzed in this work.
+     One exception to the reduction in the uncertainty is the physical quark mass 𝑎 ≈ 0.12 fm
+
+
+                                                     5
+Kaon leptonic and semileptonic decays                                                       Ramón Merino
+
+
+
+
+Figure 3: Top row: Comparison between our previous results in Ref [4] (circles), our reanalysis of the same
+data (squares) and the analysis of the two new physical quark mass ensembles (triangles). Bottom row: Form
+factor as a function of the light quark mass normalized to the physical strange quark mass. Only data points
+that enter the chiral-continuum fit are shown. Data points have approximately one of the three 𝑚 𝑙 /𝑚 𝑠 values
+shown by the vertical dashed lines, but have been displaced to the right for clarity. The blue band represents
+the continuum extrapolation with only statistical plus LECs errors. We show two different results for the
+physical point, the blue star represents the continuum extrapolation taking the LECs as fixed parameters
+while the blue diamond represents the result when LECs are used as fit parameters as explained in Sec 3.2.
+Since the analysis is preliminary, the vertical scale has been omitted. See the text for further details.
+
+
+ensemble for which we find unstable results, both with respect to the change of fit hyperparameters
+and to the bootstrapping analysis. This could be a sign that perhaps the uncertainty in this ensemble
+was underestimated in our previous work. Nonetheless, we have checked that this point has a very
+small weight in the physical result; therefore, we drop this point in our preliminary chiral-continuum
+analysis. Still, we plan to include it in our systematic error estimation.
+
+2.3 Form factor chiral-continuum analysis
+      Our approach to chiral-continuum analysis is based in SChPT which allows the inclusion of
+chiral, discretization, finite volume and strong isospin breaking effects in a systematic way. The
+fit function is built from next-to-leading order (NLO) partially quenched SChPT (PQSChPT) plus
+next-to-next-to-leading order (NNLO) continuum ChPT along with extra terms that parameterize
+higher order chiral and discretization effects. The fit function used in this work can be sketched as
+                                                                       2
+            𝑓+𝐾 𝜋 (0) = 1 + 𝑓2PQSChPT (𝑎) + 𝑓4cont + 𝑔1,𝑎 + 𝑚 2𝜋 − 𝑚 2𝐾    𝐶˜4 + 𝑔2,𝑎 + ℎ 𝑚 𝜋 ,
+                                                                                             
+                                                                                                  (8)
+
+where 𝑔1,𝑎 and 𝑔2,𝑎 take into account higher order discretization effects and the function ℎ 𝑚 𝜋
+account for higher order chiral effects. More details can be found in Ref. [4].
+     We perform this step of the analysis in the same fashion as in our last work [4], and estimate
+the statistical errors using a bootstrap analysis. The NLO LECs that appear in Eq. (8) are fixed to
+
+
+                                                      6
+Kaon leptonic and semileptonic decays                                                  Ramón Merino
+
+
+the values obtained from the leptonic data fits (see Sec. 3). An alternative to this will be discussed
+in Sec. 3.2. Our preliminary extrapolated value for the form factor is shown in Figure 3 (blue band
+and star). We find good agreement with our previous result with a slight reduction in the statistical
+uncertainty.
+     One difference from our analysis in Ref. [4] is the treatment of the systematic uncertainties. We
+are working on the implementation of a Bayesian Model Averaging (BMA) procedure to account
+for systematic effects [8–10], studying how data subset selection and variations of our fit function
+impact the final result.
+     Another difference is that we have switched from using 𝑟 1 to using the gradient-flow scale 𝑤 0
+as the lattice scale, with the physical value of 𝑤 0 obtained from the Omega baryon mass [11].
+
+3. Kaon and pion decay constants
+
+     Our collaboration has previously computed the ratio of the kaon and pion decay constants in
+the context of a broader project in which the decay constants of heavy-light mesons were the main
+goal [3]. For the work in Ref. [3], hadron masses and decay constants for different combinations
+of valence quark masses were calculated on a total of 24 different ensembles with lattice spacings
+ranging from 𝑎 ≈ 0.15 fm to 𝑎 ≈ 0.03 fm; light quark masses ranging from the physical point
+          phys
+to 0.2𝑚 𝑠 and physical as well as lighter-than-physical strange quark masses. However, the
+calculation of 𝑓𝐾 / 𝑓 𝜋 did not involve a chiral fit and mainly relied on the five ensembles with
+physical quark masses. To overcome this limitation, in this work we perform an alternative chiral-
+continuum analysis using instead a fit function guided by SChPT. This makes it possible to also
+include unphysical quark mass ensembles, which helps to reduce the statistical errors as well as to
+improve the control over the systematic effects in the chiral-continuum fit analysis.
+     Another advantage of the SChPT framework is providing a correlated determination of low
+energy constants (LECs) in the ChPT lagrangian. In particular, all the LECs entering the fit function
+for 𝑓+𝐾 𝜋 (0) at LO and NLO, such as 𝐵0 (which relates squared meson mass to the sum of valence
+quark masses), 𝐿 1−8 , or the taste-violating hairpin parameters, can be extracted from fits to light
+hadron masses and decay constants. This could help to reduce the error in the chiral-continuum
+semileptonic fits. In addition, it provides a way to study the systematic correlations between 𝑓+𝐾 𝜋 (0)
+and 𝑓𝐾 / 𝑓 𝜋 through the common fit parameters.
+     For this analysis, in addition to the ensembles analyzed in Ref. [3], we have produced data for
+three new physical quark mass ensembles at 𝑎 ≈ 0.12 and 0.09 fm, as well as for six ensembles with
+strange quark mass lighter than its physical value at 𝑎 ≈ 0.12, 0.09 and 0.06 fm. More information
+on data generation and correlation function fitting strategies for the leptonic data is detailed in
+Ref. [3].
+
+3.1 Leptonic chiral-continuum analysis
+     Since the strange quark mass is heavy enough to hinder the ChPT convergence, we perform the
+chiral-continuum analysis in two steps. In the first one, we only include the lighter than physical
+quark mass ensembles, at 𝑎 ≈ 0.12, 0.09 and 0.06 fm, allowing a reliable computation of the LECs
+of ChPT. These LECs enter as priors in a second step in which, using the entire set of ensembles,
+we determine the ratio 𝑓𝐾 / 𝑓 𝜋 .
+
+
+                                                   7
+Kaon leptonic and semileptonic decays                                                     Ramón Merino
+
+
+
+
+Figure 4: Left: Correlation matrix from the central fit. Right: correlation matrix reconstructed from the
+resampling analysis posteriors. For clarity, only parameters that are present in both the semileptonic form
+factor and the decay constants analyses are shown.
+
+
+     The chiral-continuum fit function for the first step is built from NLO SChPT plus NNLO
+continuum ChPT with the addition of analytic corrections at O (𝛼𝑠 𝑎 2 ). The lighter-than-physical
+strange quark mass ensembles at different lattice spacings are crucial for extracting the parameters
+of these corrections, which affect all LECs. From this fit, we compute the LO, NLO and NNLO
+SChPT parameters along with their correlation.
+     In the second step, we exploit our full set of ensembles, including both physical and unphysical
+quark mass data. In order to describe the full set of data points, we need to include analytical terms
+of order N3 LO, N4 LO, O (𝑎 4 ) and O (𝛼𝑠2 𝑎 2 ) in the fit function used in the first step. We use the
+LECs determined in the first step to set their corresponding priors. From this fit, we are able to
+extract a precise value of 𝑓𝐾 / 𝑓 𝜋 as well as its correlations with the LECs.
+
+3.2 Correlation matrix for the low energy constants
+     We employ a resampling technique to estimate the statistical error of the extrapolated decay
+constants and the covariance matrix of the fit parameters. In both steps, we use the data covariance
+matrix to create different samples in which we perform the same chiral-continuum fit. At each of
+the sample fits, we vary priors central values and initial points following the posterior distribution
+from the central fit.
+     Preliminary results comparing the correlation matrix obtained from the central fit and the
+resampling analysis in the first step are shown in Fig. 4; for clarity, only the parameters relevant
+to the semileptonic form factor analysis are shown. We see strong correlations between some of
+the LECs, signaling that the resampling technique is able to propagate correlations throughout the
+analysis.
+     The LECs distribution obtained from this step can now be used as input to perform a bootstrap
+analysis for the chiral-continuum fits of the semileptonic kaon form factor. This is different from
+
+
+                                                    8
+Kaon leptonic and semileptonic decays                                                  Ramón Merino
+
+
+
+
+Figure 5: Preliminary correlation between the semileptonic form factor 𝑓+ (𝑞 2 = 0) and the LO and NLO
+ChPT LECs as well as the hairpin parameters 𝛿 𝐴,𝑉 .
+
+
+the bootstrap analysis explained in Sec 2.3 in that now we are using SChPT LECs as fit parameters,
+varying their priors in each of the sample fits. We find good agreement between central values and
+uncertainties in both cases (see Fig 3). However, this second strategy enables us to estimate the
+correlation between the form factor and the LECs, as shown in the example in Fig. 5.
+     We are currently studying the best strategy to estimate the correlations for the second step in the
+decay constant analysis. Since our fit function for this step has a large number of parameters, of order
+100, we find the propagation of parameter correlations throughout the analysis to be challenging.
+Nonetheless, the central values and uncertainties of the parameters are very stable in the resampling
+analysis.
+
+
+4. Summary
+
+      We have described our two-step strategy for the computation of the ratio of decay constants
+ 𝑓𝐾 / 𝑓 𝜋 based on SChPT, and our plan to combine it with the calculation of 𝑓+𝐾 𝜋 (0) to exploit the
+correlations between common fit parameters. We have also detailed the status of our reanalysis of the
+semileptonic kaon form factor 𝑓+𝐾 𝜋 (0) and the improvement over our previous work. Preliminary
+results show a slight reduction in the statistical error due to a small improvement in the statistics,
+the inclusion of more source-sink separations in the correlator fits and the avoidance of thinning.
+A systematic error analysis using model averaging techniques is currently underway.
+      Regarding the calculation of 𝑓𝐾 / 𝑓 𝜋 and its correlation with 𝑓+𝐾 𝜋 (0), we are working on
+the optimal way to propagate correlations between the two steps in our methodology. Another
+improvement we plan for the future is to switch to a scale setting based on 𝑀Ω , so that we can
+independently compute 𝑓 𝜋 and 𝑓𝐾 .
+
+
+Acknowledgments
+
+     Computations for this work were carried out with resources provided by the USQCD Collab-
+oration; by the ALCF and NERSC, which are funded by the U.S. Department of Energy (DOE);
+and by NCAR, NCSA, NICS, TACC, and Blue Waters, which are funded through the U.S. National
+Science Foundation (NSF).
+     This work was supported in part by the U.S. Department of Energy, Office of Science, under
+Awards No. DE-SC0010120 (S.G.) and No. DE-SC0015655 (A.X.K.); by the National Science
+
+
+                                                   9
+Kaon leptonic and semileptonic decays                                               Ramón Merino
+
+
+Foundation under Grants Nos. PHY20-13064 and PHY23-10571 (C.D.), No. PHY23-09946 (A.B.)
+and No. PHY-2402275 (A.V.G.); by the Simons Foundation under their Simons Fellows in Theo-
+retical Physics program (A.X.K.); by MICIU/AEI/10.13039/501100011033 under Grant PID2022-
+140440NB-C21 (E.G., R.M.); by the Junta de Andalucía grant FQM 101 (E.G., R.M); by Consejeria
+de Universidad, Investigación e Innovación, Gobierno de España and EU–NextGenerationEU un-
+der Grant AST22 8.4 (E.G.). This document was prepared by the Fermilab Lattice and MILC
+Collaborations using the resources of the Fermi National Accelerator Laboratory (Fermilab), a
+U.S. Department of Energy, Office of Science, Office of High Energy Physics HEP User Facil-
+ity. Fermilab is managed by Fermi Forward Discovery Group, LLC, acting under Contract No.
+89243024CSC000002.
+
+References
+
+ [1] J.C. Hardy and I.S. Towner, Superallowed 0+ → 0+ nuclear 𝛽 decays: 2020 critical survey,
+     with implications for V𝑢𝑑 and CKM unitarity, Phys. Rev. C 102 (2020) 045501.
+
+ [2] V. Cirigliano, A. Crivellin, M. Hoferichter and M. Moulson, Scrutinizing CKM unitarity with
+     a new measurement of the 𝐾 𝜇3 /𝐾 𝜇2 branching fraction, Phys. Lett. B 838 (2023) 137748.
+
+ [3] A. Bazavov, C. Bernard, N. Brown, C. DeTar, A.X. El-Khadra, E. Gámiz et al., 𝐵- and
+     𝐷-meson leptonic decay constants from four-flavor lattice QCD, Phys. Rev. D 98 (2018) .
+
+ [4] A. Bazavov, C. Bernard, C. DeTar, D. Du, A. El-Khadra, E. Freeland et al., |𝑉𝑢𝑠 | from 𝐾ℓ3
+     decay and four-flavor lattice QCD, Phys. Rev. D 99 (2019) .
+
+ [5] V. Cirigliano, G. Ecker, H. Neufeld, A. Pich and J. Portolés, Kaon decays in the standard
+     model, Rev. Mod. Phys. 84 (2012) 399–447.
+
+ [6] O. Ledoit and M. Wolf, Analytical nonlinear shrinkage of large-dimensional covariance
+     matrices, Annals Stats. 48 (2020) 3043.
+
+ [7] A. Bazavov, C. DeTar, A.X. El-Khadra, E. Gámiz, Z. Gelzer, S. Gottlieb et al., 𝐷-meson
+     semileptonic decays to pseudoscalars from four-flavor lattice QCD, Phys. Rev. D 107 (2023) .
+
+ [8] W.I. Jay and E.T. Neil, Bayesian model averaging for analysis of lattice field theory results,
+     Phys. Rev. D 103 (2021) 114502 [2008.01069].
+
+ [9] E.T. Neil and J.W. Sitison, Improved information criteria for Bayesian model averaging in
+     lattice field theory, Phys. Rev. D 109 (2024) 014510 [2208.14983].
+
+[10] E.T. Neil and J.W. Sitison, Model averaging approaches to data subset selection, Phys. Rev.
+     E 108 (2023) 045308 [2305.19417].
+
+[11] A. Bazavov et al., High-precision scale setting with the Omega-baryon mass and gradient
+     flow, Phys. Rev. D (2025) to appear [2509.14367].
+
+
+
+
+                                                10
+

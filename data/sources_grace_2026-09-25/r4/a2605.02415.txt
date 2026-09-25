@@ -1,0 +1,323 @@
+                                                                    Recent Results from NA62 in Kaon and Dump Mode
+
+
+                                                                                     J.L. Schubert for the NA62 Collaboration a
+
+
+
+
+arXiv:2605.02415v1 [hep-ex] 4 May 2026
+                                                                                          Max Planck Institute for Physics
+                                                                                     Boltzmannstr. 8, 85748 Garching, Germany
+
+                                                      NA62 is a fixed-target kaon experiment at the CERN SPS. The recent measurement of the
+                                                      ultra-rare decay K + → π + ν ν̄, based on data collected between 2016 and 2024 is reported.
+                                                      The measurement is compatible with previous measurements and the Standard Model. The
+                                                      experiment can also be operated in an alternative beam-dump mode. From this mode, a
+                                                      search for new-physics particles with masses in the range of 150 to 2000 MeV, based on data
+                                                      collected in dedicated runs between 2021 and 2024 is reported. The search focuses on their
+                                                      decays to h± ℓ∓ , where h± ∈ (π ± , π ± π 0 , π ± 2π 0 , K ± ), and ℓ ∈ (e, µ), which are expected in
+                                                      heavy neutral lepton scenarios. No event was observed across all considered signal channels,
+                                                      and upper limits were set on the coupling of such particles to the Standard Model.
+
+
+
+                                         1       The NA62 Experiment
+
+                                         The NA62 experiment is a multi purpose fixed-target experiment at the CERN SPS North Area
+                                         which covers a broad kaon and beam-dump physics program. In the standard kaon operating
+                                         mode, a 400 GeV/c proton beam from the SPS impinges on a Be target and produces a secondary
+                                         unseparated hadron beam (6 % K + ) of 75 GeV momentum selected using a set of movable
+                                         copper-iron collimators (TAX).
+                                             Kaons are identified by a differential Cherenkov counter (KTAG), downstream of which the
+                                         beam particles are measured by a silicon pixel detector (GTK). A 117 m long vacuum vessel
+                                         contains a 75 m long fiducial volume (FV) starting 105 m downstream of the Be target. The
+                                         vacuum vessel houses a STRAW spectrometer and is followed by a ring imaging Cherenkov
+                                         counter (RICH) used for particle identification (PID). Further PID is performed by a series of
+                                         calorimeters: the electromagnetic calorimeter (LKr), hadronic calorimeters (MUV1 and MUV2)
+                                         and a muon detector (MUV3), located behind a 80 cm-thick iron wall. The RICH and the
+                                         hodoscopes (CHOD) provide time measurements for the charged tracks. The large angle veto
+                                         system (LAV) is used to detect final states out-of-acceptance of the calorimeters. At low angles
+                                         the calorimeters are complemented by a small angle veto system (SAV). A hodoscope (ANTI0)
+                                         and scintillation counter (CHANTI) located upstream of the FV allow further reduction of
+                                             a
+                                               A. Akmete, R. Aliberti, S. Alibocus, F. Ambrosino, R. Ammendola, A. Antonelli, G. Anzivino, R. Arcidiacono, A. Baeva, D. Baigarashev, L.
+                                         Bandiera, V. Bautin, J. Bernhard, A. Biagioni, L. Bician, C. Biino, A. Bizzeti, T. Blazek, B. Bloch-Devaux, P. Boboc, V. Bonaiuto, M. Boretto, M.
+                                         Bragadireanu, A. Briano Olvera, D. Britton, F. Brizioli, D. Bryman, F. Bucci, N. Canale, A. Ceccucci, P. Cenci, M. Ceoletta, V. Cerny, X. Chang,
+                                         C. Chiarini, M. Cirkovic, J. Cook, P. Cooper, E. Cortina Gil, M. Corvino, F. Costantini, D. Coward, P. Cretaro, J.B. Dainton, H. Danielsson, B. De
+                                         Martino, N. De Simone, M. D’Errico, L. Di Lella, A.E. Diaz Rodarte, N. Doble, B. D¨obrich, F. Duval, V. Duk, D. Emelyanov, J. Engelfried, T. Enik,
+                                         N. Estrada-Tristan, V. Falaleev, R. Fantechi, P. Fedeli, L. Federici, S. Fedotov, A. Filippi, R. Fiorenza, M. Francesconi, O. Frezza, J. Fry, A. Fucci,
+                                         M.D. Galati, E. Gamberini, L.M. Garcia Martin, L. Gatignon, S. Ghinescu, A. Gianoli, R. Giordano, M. Giorgi, S. Giudici, F. Gonnella, K. Gorshanov,
+                                         E. Goudzovski, D. Grewe, R. Guida, E. Gushchin, H. Heath, J. Henshaw, Z. Hives, E.B. Holzer, T. Husek, O. Hutanu, B. Jenninger, J. Jerhot, R.W.
+                                         Jones, K. Kampf, V. Kekelidze, C. Kenworthy, D. Kereibay, S. Kholodenko, A. Khotyantsev, A. Kleimenova, M. Kolesar, A. Korotkova, M. Koval, V.
+                                         Kozhuharov, Z. Kucerova, Y. Kudenko, V. Kurochka, V. Kurshetsov, G. Lamanna, G. Lanfranchi, E. Lari, C. Lazzeroni, G. Lehmann Miotto, M. Lelak,
+                                         M. Lenti, S. Lezki, P. Lichard, L. Litov, P. Lo Chiatto, F. Lo Cicero, R. Lollini, A. Lonardo, E. Long, P. Lubrano, N. Lurkin, D. Madigozhin, I. Mannelli,
+                                         F. Marchetto, R. Marchevski, S. Martellotti, A.E. Mart´ınez Hern´andez, P. Massarotti, K. Massri, A. Mefodev, E. Menichetti, E. Migliore, E. Minucci,
+                                         M. Mirra, M. Misheva, N. Molokanova, M. Moulson, Y. Mukhamejanov, A. Mukhamejanova, M. Napolitano, R. Negrello, I. Neri, A. Norton, M. Noy, T.
+                                         Numao, V. Obraztsov, A. Okhotnikov, I. Panichi, C. Parkinson, E. Pedreschi, M. Pepe, M. Perrin-Terrin, L. Peruzzo, L. Petit, F. Petrucci, R. Piandani,
+                                         M. Piccini, J. Pinzino, L. Plini, I. Polenkevich, C. Polivka, Yu. Potrebenikov, D. Protopopescu, M. Raggi, M. Reyes Santos, C.A. Rico Olvera, K.
+                                         Rodriguez Rivera, M. Romagnoni, A. Romano, I. Rosa, C. Rossi, P. Rubin, G. Ruggiero, V. Ryjov, A. Sadovsky, N. Saduyev, S. Sakhiyev, K. Salamatin,
+                                         A. Salamon, C. Sam, J. Sanders, G. Saracino, F. Sargeni, J. Schubert, S. Schuchmann, A. Sergi, A. Shaikhiev, V. Shang, S. Shkarovskiy, F. Simula, M.
+                                         Soldani, D. Soldi, M. Sozzi, T. Spadaro, F. Spinella, V. Sugonyaev, J. Swallow, A. Sytov, G. Tinti, A. Tomczak, M. Thompson-Walker, M. Turisini, T.
+                                         Velas, B. Velghe, P. Vicini, R. Volpe, H. Wahl, R. Wanke, V. Wong, O. Yushchenko, M. Zamkovsky, A. Zinchenko.
+                                                                              20
+
+                                                                     Events
+                                                                                              Data           KSM
+                                                                                                              πν ν
+                                                                                                                         NA62 Preliminary
+
+                                                                              18              K2π(γ )        Kµ2(γ )
+                                                                                       R1     K3π            Ke4              R2
+                                                                              16
+                                                                                              Kπγ γ          Ups.
+                                                                              14              Tot. Bkg.
+                                                                              12
+
+                                                                              10
+
+                                                                               8
+                                               NA62 Preliminary
+                                                                               6
+
+                                                                               4
+
+                                                                               2
+
+                                                                               0
+                                                                                   0        0.01      0.02     0.03    0.04    0.05    0.06    0.07
+                                          B(K + ! º + ∫ ∫¯) £ 1011                                                                 m2miss [GeV 2/c4]
+
+
+Figure 1 – Left: Measurements of the K + → π + ν ν̄ branching fraction and envelope of theory predictions. Right:
+Data-MC comparison of K + → π + ν ν̄ in Signal Regions R1 and R2 as function of missing mass (assuming
+                      −11
+BRSM
+   K→πν ν̄ = 8.4 × 10     ).
+
+
+background at analysis level. The full description of the NA62 beam line and detector is available
+in reference 1 .
+
+2   Updated branching ratio measurement of K + → π + ν ν̄ in kaon mode
+
+The main goal of the NA62 experiment is to measure the ultra rare decay K + → π + ν ν̄, with
+a Standard Model (SM) expectation BRSM         K→πν ν̄ = (8.60 ± 0.42) × 10
+                                                                             −11 calculated from meson
+
+mixing, and (7.86 ± 0.61) × 10     −11  considering a full CKM parameter fit.2,3 It has been observed
+above 5σ significance in NA62 data recorded between 2016 and 2022 with a value ∼ 1.7σ
+above SM expectation.4 Building on these results, data recorded in 2023 and 2024 was analysed,
+corresponding to a normalisation level statistics increase by a factor ∼ 2 (as measured by the
+                                +
+number of normalisation K2π        events).
+    By reconstructing a KTAG-tagged Kaon’s 4-momentum in the GTK and matching it to a
+downstream pion, the analysis exploits the missing mass m2miss = (PK − pπ )2 , reducing back-
+grounds from other kaon decay channels by O(104 ). The combined calorimetric and RICH PID
+guarantee a O(107 ) µ rejection. Any event with additional activity in the photon vetos SAV,
+LAV or LKr is rejected yielding a combined O(108 ) π 0 rejection. This powerful background
+rejection, combined with an O(10−12 ) single event sensitivity allows NA62 to probe this elusive
+decay with unprecedented precision.
+    Several improvements were implemented for the 2023-2024 data-set in terms of hardware,
+trigger, tracking and PID algorithms, as well as an improved evaluation of the largest source
+of background in the signal regions (so-called ‘upstream’ background). √        For further information
+see reference 5 . As a result, the new data-set features a ratio S + B/S ≃ 0.25; a factor 2
+improvement with respect to previous analyses.
+    The newly measured branching value BR2023−2024  K→πν ν̄   = (7.2+2.3
+                                                                     −2.1 ) × 10
+                                                                                 −11 is compatible with
+
+previous results reported by NA62, as shown in Fig. 1(right). The statistically combined result
+BR2016−2024
+    K→πν ν̄   = (9.6+1.9
+                     −1.8 ) × 10
+                                 −11 is in agreement with SM expectation within 1σ. This agreement
+
+also holds qualitatively at the differential level as shown in Fig. 1(left) vs. the missing mass
+m2miss . The result restricts certain Beyond SM scenarios up to scales of 100 TeV.6
+
+3   Search for semileptonic decays in beam-dump mode
+
+In beam-dump operating mode, the target is lifted, the TAX is closed and used as a dump for
+                                                     √
+the proton beam. With a centre of mass energy of s = 27.3 GeV, it is possible to produce
+particles with masses above what is kinematically accessible in kaon decays.7 Between 2021 and
+2024, data corresponding to (6.3 ± 1.3) × 1017 protons on target was collected during a total of
+31 days of operation.
+                                                                                                                    200
+                           800 NA62 Simulation Preliminary                                                                                                                    100
+
+               rVTX [mm]
+                                                                                                                          NA62 Simulation Preliminary
+
+                                                                                                      CDATAX [mm]
+                              D N     ±  events@6.3×10 PoT
+                                                         17                0.016
+                              m = 700 MeV, U 2 = 10 6                                                               175 D  N ± events@6.3×1017 PoT
+                                                                                                                        mN = 700 MeV, U 2 = 10 6
+                           700 N
+                                                                           0.014
+                                                                                                                    150
+                                                                                                                          99 % signal contour    CR
+
+
+
+                                                                                 Events / [1m×10mm]
+                                                                                                                                                                              10 1
+
+
+
+
+                                                                                                                                                                                Events / [1m×2mm]
+                           600                                             0.012
+                                                                                                                    125
+                           500                                             0.010
+                           400                                                                                      100                                                       10 2
+                                                                           0.008
+                           300                                                                                      75
+                                                                           0.006
+                           200                                                                                      50                                                        10 3
+                                                                           0.004                                                                     SR
+                           100                                             0.002                                    25
+
+                            0100 110 120 130 140 150 160 170 180                                                     0 20       0          20        40          60     80    10 4
+                                                         zVTX [m]                                                                                                zTAX [m]
+                           800                                                                                      250                                                       0.12
+                                  NA62 Preliminary                                                                        NA62 Simulation Perliminary
+
+                                                                                                      CDATAX [mm]
+               rVTX [mm]
+                               Interaction data-sideband                    160                                           Hadron decay MC
+                           700    ID                                                                                       ±    ID
+                                                                            140                                     200                                                       0.10
+
+
+
+
+                                                                              Events / [1.0m×16mm]
+                           600
+
+
+
+
+                                                                                                                                                                                Events / [5m×10mm]
+                                                                            120                                                                                               0.08
+                           500                                                                                      150
+                                                                            100
+                           400                                                                                                                                                0.06
+                                                                            80
+                           300                                                                                      100
+                                                                            60                                                                                                0.04
+                           200
+                                                                            40                                      50
+                                                                                                                                                                              0.02
+                           100                                              20
+
+                            080        100     120    140     160    180                                             0      0    25   50        75   100   125    150   175
+                                                                zVTX [m]                                                                                         zTAX [m]
+
+Figure 2 – Kinematic separation mechanisms in beam-dump analysis shown for Signal MC with representative
+parameters (top), and background (bottom). The left plots show the fiducial volume (red) in transversal and
+longitudinal coordinates of the reconstructed vertex. The right plots show the reconstructed HNL origin with the
+Signal Region in red.
+
+
+     In this mode, NA62 directly probe several long-lived Beyond SM particle scenarios.8 A search
+for such long-lived particles decaying to h± ℓ∓ , with h± ∈ (π ± , π ± π 0 , π ± 2π 0 , K ± ), and ℓ ∈
+(e, µ) was performed. The analysis is model-independent, but can be interpreted in terms
+of aPheavy neutral lepton (HNL) N with Yukawa coupling Fα to the SM leptons Lα as L ⊃
+−i α Fα L̄α σ2 H ∗ N , where H is the Higgs doublet. For this interpretation the phenomenological
+description given by the public tool Alpinist is used.9
+     Signal events in this search are required to feature exactly one charged hadronic and one
+oppositely charged leptonic track. PID is preformed by a classifier developed for this search
+combining information from STRAW, LKr, MUVs 1–3 and RICH. This classifier features a
+> 90% selection efficiency for pions and electrons, and > 99.9 % for muons. Additional neutral
+electromagnetic cluster pairs in the LKr are allowed if their invariant mass is consistent with
+a π 0 . Events with any in time activity in the LAV or any in time activity in either ANTI0 or
+CHANTI geometrically associated with the tracks are vetoed.
+     With the TAX closed, residual charged tracks within the detector are mostly due to single
+muons. To suppress background events stemming from interactions of these muons, the tracks
+must form a high quality vertex inside a fiducial volume subset to the decay vacuum of the
+NA62 detector. Fig. 2(left) shows that the signal events are evenly distributed within this FV
+(top), while background events cluster outside around dense beam line objects such as the final
+collimator at z ≃ 102 m and the LAV stations between z ≃ 120 m and z ≃ 175 m (bottom).
+     A second class of backgrounds is due to decays of hadrons produced upstream and decaying
+within the fiducial volume. Leveraging the closed kinematics of the HNL decay, the likely origin
+of the HNL can be established, by evaluating its closest point of approach with the the SPS
+protons’ line of flight. A Signal Region (SR) is defined in terms of distance (CDATAX ) and
+longitudinal coordinate (ZTAX ) of this point. This SR remained blinded until the analysis was
+finalised. Fig. 2(right) shows that most of the signal events lie within the SR (top), while
+background events cluster around the beginning of the FV at round z = 105 m (bottom) with
+                Ue2            90% CL UL BC6                                       U2             90% CL UL BC7
+                                  past experiments                                                   past experiments
+                      10 5        Expected ±2                                            10 5        Expected ±2
+                                  Expected ±1                                                        Expected ±1
+                                  Observed                                                           Observed
+
+                      10 6                                                               10 6
+
+
+
+
+                      10 7                                                               10 7
+
+                                                           NA62 Preliminary                                                   NA62 Preliminary
+                            4 × 10 1    6 × 10 1     100                 2 × 100               4 × 10 1    6 × 10 1     100                 2 × 100
+                                                                 mN [GeV]                                                           mN [GeV]
+                U2            90% CL UL DKL3a                                      U2           90% CL UL DKL3b
+                                 past experiments                                                  past experiments
+                     10 5        Expected ±2                                            10 5       Expected ±2
+                                 Expected ±1                                                       Expected ±1
+                                 Observed                                                          Observed
+
+                     10 6                                                               10 6
+
+
+
+
+                     10 7                                                               10 7
+
+                                                           NA62 Preliminary                                                   NA62 Preliminary
+                         4 × 10 1       6 × 10 1     100                 2 × 100           4 × 10 1       6 × 10 1      100                 2 × 100
+                                                                 mN [GeV]                                                           mN [GeV]
+
+
+Figure 3 – Single Majorana HNL parameter space excluded at 90 % CL in electrophilic (Uµ2 = Uτ2 = 0, top left),
+muonphilic (Ue2 = Uτ2 = 0, top right), normal hierarchy (Uµ2 = Uτ2 , Ue2 = 0, bottom left), and inverted hierarchy
+(Ue2 = Uµ2 = Uτ2 ,bottom right) coupling scenarios. The parameter
+                                                             √       space is reported in terms of HNL mass mN
+and coupling suppression U 2 = α Uα2 , where Uα2 = |Fα |2 v/( 2mN ).
+                                P
+
+
+
+negligible leakage into the SR.
+    No events were observed across any of the signal channels considered. The result can be
+interpreted to exclude parameter space for Heavy Neutral Leptons for standard benchmark cases,
+as well as neutrino oscillation inspired coupling scenarios.10,11 HNLs with coupling suppressions
+U 2 ∼ 10−6 and masses 0.4 GeV < mN < 1 GeV are 90 % CL excluded as shown in Fig.3.
+
+References
+  1. Eduardo Cortina Gil et al. The Beam and detector of the NA62 experiment at CERN.
+     JINST, 12(05):P05025, 2017.
+  2. Andrzej J. Buras and Elena Venturini. The exclusive vision of rare K and B decays and
+     of the quark mixing in the standard model. Eur. Phys. J. C, 82(7):615, 2022.
+  3. G. D’Ambrosio et al. Anatomy of kaon decays and prospects for lepton flavour universality
+     violation. JHEP, 09:148, 2022.
+  4. Eduardo Cortina Gil et al. Observation of the K + → π + νν decay and measurement of its
+     branching ratio. JHEP, 02:191, 2025.
+  5. Xiafei Cheng et al. New measurement of K + → π + ν ν̄ branching ratio at the NA62
+     experiment. 4 2026.
+  6. Andrzej J. Buras, Julia Harz, and Martin A. Mojahed. Disentangling new physics in
+     K → πνν and B → K (K ∗ ) νν observables. JHEP, 10:087, 2024.
+  7. Eduardo Cortina Gil et al. Search for heavy neutral lepton production in K+ decays to
+     positrons. Phys. Lett. B, 807:135599, 2020.
+  8. Eduardo Cortina Gil et al. Search for hadronic decays of feebly-interacting particles at
+     NA62. Eur. Phys. J. C, 85(5):571, 2025.
+  9. J. L. Schubert et al. On the impact of heavy meson production spectra on searches for
+     heavy neutral leptons. JHEP, 02:140, 2025.
+ 10. Prateek Agrawal et al. Feebly-interacting particles: FIPs 2020 workshop report. Eur.
+     Phys. J. C, 81(11):1015, 2021.
+ 11. Marco Drewes, Juraj Klarić, and Jacobo López-Pavón. New benchmark models for heavy
+     neutral lepton searches. Eur. Phys. J. C, 82(12):1176, 2022.
+
