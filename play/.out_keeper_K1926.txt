@@ -1,0 +1,11 @@
+R1 same rho: True, q differs: True   R2 |q|^2 = tr(rho rho^T): True
+R3 faithful algebra on records: dim 8 (su(3)=8)   R4 also keeping tr(rho rho^T): dim 3 (so(3)=3)
+R5 geometry's so(3)+u(1) acting on records: faithful dim 3 (the u(1) is invisible)
+CONTROL fixing a generic rho0 leaves faithful dim 4 < 8
+PASS R1
+PASS R2
+PASS R3
+PASS R4
+PASS R5
+PASS CONTROL
+SCORE: 6/6
