@@ -1,8 +1,8 @@
 ---
 title: "BST Approaches Register — did we do this before?"
 author: Keeper (instrument-derived)
-date: 2026-09-25 15:25 EDT
-status: "DERIVED by play/keeper_approaches_register.py; 3317 rows; 904 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
+date: 2026-09-25 15:30 EDT
+status: "DERIVED by play/keeper_approaches_register.py; 3318 rows; 905 rows VERIFY_FAIL (evidence not verbatim / vocab) — outcomes on those rows are untrusted"
 ---
 
 # BST Approaches Register
@@ -14,6 +14,7 @@ One row per audit / ruling / note. **Model-drafted fields (lane, approach, outco
 | rubric cell | lane | id | date | coarse | outcome | approach | reason | keywords | amends | evidence (verbatim) | file |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | (no rubric cell) |  | K1922 | 2026-09-25 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1922_Caseys_three_writes_reading_of_the_filling_law_supplies_the_factor_three_as_a_PRODUCT_uniquely_at_D3_owes_cells_vs_bits_and_saturation_plus_Vol5_gate_and_CLAUDE_md_review_2026-09-25.md` |
+| (no rubric cell) |  | K1923 | 2026-09-25 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Keeper_K1923_the_neutron_is_the_instrument_A2_fixes_tau_n_times_1_plus_3gA2_g_A_4_over_pi_fails_jointly_colour_is_the_stabilizer_of_eps_and_h_on_V12_Lane1_rulings_2026-09-25.md` |
 | (no rubric cell) |  | Lyra_LANE2_colour_as_the_axis_a_write_la | 2026-09-25 | LIVE |  ⚠VERIFY_FAIL |  |  |  |  |  | `notes/Lyra_LANE2_colour_as_the_axis_a_write_lands_on_kill_first_what_differs_from_F473_and_can_fail_lines_SU3_mesons_F4_NcD_archive_2026-09-25.md` |
 | Ext-1 Postulates | 3-adic integral | K1870 | 2026-09-06 | DONE | CLOSED_POSITIVE | Direct computation of the 3-adic integral to derive Lyra's spacing 2π/ln 3 exactly | The direct computation passed all controls with split kernels reproducing Gindikin-Karpelevich as rational functions | Gindikin-Karpelevich, Lyra L10, Steinberg, calibration #28, functional-equation normalisation, T2622, Elie 5710 |  | Controls PASS: split ternary at p = 3 and x²+y²+3z² at p = 5 give the Gindikin–Karpelevich factor exactly as rational functions. | `notes/Keeper_K1870_E11_SCORED_direct_3adic_integral_gives_Lyras_spacing_2pi_over_ln3_shared_integer_closed_in_the_primes_favour_Cals_hold_died_lattice_seam_calibration_28_epsilon_lives_in_the_FE_normalisation_T2622_to_claim_2026-09-06.md` |
 | Ext-1 Postulates | 8pi fork | F916 | 2026-08-11 | LIVE | OPEN ⚠VERIFY_FAIL | Computing the heat-kernel coefficient c_R for D² on D_IV⁵ to determine if it carries an explicit 8π factor that would define G via M_Pl² = 16π·c_R | The note describes a forward computation to be performed but does not provide the result of that computation, leaving the outcome undecided. | D_IV⁵, heat-kernel expansion, c_R, M_Pl, M_red, spacetime solid-angle, conformal→Poincaré step, Seeley–DeWitt |  | Compute c_R, the ∫R√g coefficient in the Seeley–DeWitt expansion of D² on D_IV⁵, forward and target-innocent (all π-factors explicit) | `notes/Lyra_F916_the_8pi_fork_a2_coefficient_cR_defines_G_8pi_is_spacetime_solidangle_at_metric_step_forward_test_vs_inversion_force_x2_bra_ket.md` |
@@ -3331,5 +3332,5 @@ One row per audit / ruling / note. **Model-drafted fields (lane, approach, outco
 | WITHDRAWN | Wallach reps / generation address | F321 | 2026-06-25 | STOP | WITHDRAWN ⚠VERIFY_FAIL | Correcting F320's framing of 3 generations as 3 K-types within one rep to align with Grace's Wallach rep correspondence at ν={0,3/2,5} | F320's '3 K-types in one rep' framing was incorrect organization and is being withdrawn | Wallach points, Korányi-Wolf strata, boundary Dirac, Dirac field decomposes, within-rep matter K-type, ν={0,3/2,5} | F320 | F320's '3 K-types in one rep' framing is WITHDRAWN; my standing contribution is the within-rep matter K-type (the spinor/half-form Dirac mode in each Wallach rep) — exactly the 'within-rep K-type pin' | `notes/Lyra_F321_reconcile_addresses_grace_wallach_reps_correct_F320_oneRep_framing_plus_absorb_elie_kappa.md` |
 | WITHDRAWN | f₀(1710) mixing | K513 | 2026-06-24 | STOP | WITHDRAWN ⚠VERIFY_FAIL | Downgrading f₀(1710) from unique identification to consistent with not unique identification in Paper A §7 | The overclaim in Paper A §7 regarding f₀(1710) was explicitly withdrawn as an overclaim | f₀(1710), BST 0⁺⁺ glueball, mixing puzzle, Cal #335, Cal #372 |  | spectrum closed / landed interacting" EXPLICITLY WITHDRAWN as overclaim | `notes/Keeper_K513_Cal_372_SHIP_GATE_OPEN_Papers_A_v0_3_B_v0_6_SIGNED_OFF_actual_text_verified_two_bonus_absorptions_f0_1710_mixing_caveat_C2_footnote_in_2_Casey_ship_decision_standing_2026-06-24.md` |
 
-Counts by outcome: =2, AMENDMENT=40, CLOSED_NEGATIVE=303, CLOSED_POSITIVE=1434, CONDITIONAL=386, OPEN=948, PARKED=7, RETRACTED=151, WITHDRAWN=34
-Unstable rows: 967 / 3317
+Counts by outcome: =3, AMENDMENT=40, CLOSED_NEGATIVE=303, CLOSED_POSITIVE=1434, CONDITIONAL=386, OPEN=948, PARKED=7, RETRACTED=151, WITHDRAWN=34
+Unstable rows: 967 / 3318
