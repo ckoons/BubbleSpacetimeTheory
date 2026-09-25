@@ -1,0 +1,1661 @@
+                                                       Neutrino masses and mixing: Entering the era of subpercent precision
+
+                                                                           Francesco Capozzi,1, 2 William Giarè,3 Eligio Lisi,4
+                                                                   Antonio Marrone,5, 4 Alessandro Melchiorri,6, 7 and Antonio Palazzo5, 4
+                                                       1
+                                                          Dipartimento di Scienze Fisiche e Chimiche, Università degli Studi dell’Aquila, 67100 L’Aquila, Italy
+                                                2
+                                                    Istituto Nazionale di Fisica Nucleare (INFN), Laboratori Nazionali del Gran Sasso, 67100 Assergi (AQ), Italy
+                                                                         3
+                                                                           School of Mathematical and Physical Sciences, University of Sheffield,
+                                                                                  Hounsfield Road, Sheffield S3 7RH, United Kingdom
+                                                              4
+                                                                 Istituto Nazionale di Fisica Nucleare, Sezione di Bari, Via Orabona 4, 70126 Bari, Italy
+                                                          5
+                                                             Dipartimento Interateneo di Fisica “Michelangelo Merlin,” Via Amendola 173, 70126 Bari, Italy
+                                                         6
+                                                            Dipartimento di Fisica, Università di Roma “La Sapienza,” P.le Aldo Moro 2, 00185 Rome, Italy
+                                                           7
+                                                             Istituto Nazionale di Fisica Nucleare, Sezione di Roma I, P.le Aldo Moro 2, 00185 Rome, Italy
+
+
+
+
+arXiv:2503.07752v1 [hep-ph] 10 Mar 2025
+                                                            We perform an updated global analysis of the known and unknown parameters of the standard 3ν
+                                                         framework, using data available at the beginning of 2025. The known oscillation parameters include
+                                                         three mixing angles (θ12 , θ23 , θ13 ) and two squared mass gaps, chosen as δm2 = m22 − m21 > 0
+                                                         and ∆m2 = m23 − 21 (m21 + m22 ), where the discrete parameter α = sign(∆m2 ) distinguishes normal
+                                                         ordering (NO, α = +1) from inverted ordering (IO, α = −1). With respect to our previous 2021
+                                                         update, the combination of accelerator, reactor and atmospheric ν data lead to appreciably reduced
+                                                         uncertainties for θ23 , θ13 and |∆m2 |. In particular, |∆m2 | is the first 3ν parameter to enter the
+                                                         domain of subpercent precision (0.8% at 1σ). We underline some issues about common systematics
+                                                         in combined fits, that might affect (and possibly weaken) this error estimate. Concerning oscillation
+                                                         unknowns, we find a relatively weak preference for NO versus IO (at 2.2σ), for CP violation versus
+                                                         conservation in NO (1.3σ) and for the first θ23 octant versus the second in NO (1.1σ). We discuss the
+                                                         current status and qualitative prospects of the mass ordering hint in the plane charted by the mass
+                                                         parameters (δm2 , ∆m2ee ), where ∆m2ee = |∆m2 |+ 21 α(cos2 θ12 −sin2 θ12 )δm2 , to be jointly measured
+                                                         by the JUNO experiment with subpercent precision. We also discuss upper bounds on nonoscillation
+                                                         observables, including the effective νe mass mβ in β-decay, the effective Majorana mass mββ in
+                                                         0νββ decay, and the total ν mass Σ in cosmology. We report mβ < 0.50 eV (2σ) from 3 H data
+                                                         and mββ < 0.086 eV (2σ) from 76 Ge, 130 Te and 136 Xe data, accounting for parametrized nuclear
+                                                         matrix element covariances. Concerning Σ, current results show tensions within the standard ΛCDM
+                                                         cosmological model, pulling Σ towards unphysical values and suggesting possible model extensions.
+                                                         We discuss representative combinations of data, with or without augmenting the ΛCDM model with
+                                                         extra parameters accounting for possible systematics (lensing anomaly) or new physics (dynamical
+                                                         dark energy). The resulting 2σ upper limits are roughly spread around the bound Σ < 0.2 eV
+                                                         within a factor of three (both upwards and downwards), with different implications for NO and IO
+                                                         scenarios. Bounds from oscillation and nonoscillation data are also discussed in the planes charted
+                                                         by pairs of (mβ , mββ , Σ) parameters.
+
+
+                                                                                              I.   INTRODUCTION
+
+                                             Results from solar, atmospheric, accelerator, and reactor neutrino oscillation experiments have established the stan-
+                                          dard three-neutrino (3ν) framework, where the neutrino states (νe , νµ , ντ ) with definite flavor are mixed with neutrino
+                                          states (ν1 , ν2 , ν3 ) with definite masses (m1 , m2 , m3 ) via a unitary mixing matrix Uαi [1, 2]. The current pillars of
+                                          the 3ν framework are represented by multiple measurements of five parameters: three mixing angles (θ12 , θ13 , θ23 )
+                                          governing oscillation amplitudes, and two independent squared mass differences governing oscillation frequencies, that
+                                          we choose as δm2 = m22 − m21 > 0 and ∆m2 = m23 − 21 (m21 + m22 ). Each of these known parameters has been measured
+                                          at few percent level in at least two different kinds of oscillation experiments, whose combined data analysis allows to
+                                          test their consistency, to improve error estimates, and to constrain subleading effects related to 3ν unknowns. The
+                                          latter include the unsolved θ23 octant ambiguity, the CP-violating phase δ, and the neutrino mass ordering, charac-
+                                          terized by the discrete parameter α = sign(∆m2 ), with α = +1 for normal ordering (NO) and α = −1 for inverted
+                                          ordering (IO). Other unknowns, not affecting oscillations, involve the Dirac or Majorana nature of neutrinos probed
+                                          by neutrinoless double beta decay (0νββ), and the absolute ν mass scale. The latter   Pis constrained    at sub-eV
+                                                                                                                                                        P level by
+                                                                                                                                       2
+                                          laboratory 0νββ and β-decay searches for the effective mass parameters mββ = | i Uei           mi | and m2β = i |Uei |2 m2i ,
+                                          respectively, as well as by cosmological probes of the total ν mass Σ = m1 +m2 +m3 . Updated overviews of oscillation
+                                          and nonoscillation neutrino measurements have been presented at Neutrino 2024 [3].
+                                             In general, the synergy among different experiments probing the same (known and unknown) 3ν parameters would
+                                          be best exploited by combined fits performed by the collaborations themselves, especially when their data share
+                                          common systematics [4]. Recent works in this direction include the joint fit of Super-Kamiokande (SK) atmospheric
+                                                                                                                       2
+
+data and T2K accelerator data [5], as well as the joint fit of T2K and NOvA accelerator data [6], where the effects of
+various common uncertainties are considered. Despite the interest of multi-experiment analyses [7], progress in this
+direction is slow: obvious sequels (e.g., joint data fits by more than two collaborations) and dedicated working groups
+(as those established in collider physics for electroweak precision tests) are not yet envisaged.
+   Over three decades [8], global analyses by phenomenology groups (external to collaborations) have provided alter-
+native and useful ways to compare and combine data from a variety of experiments in terms of known and unknown 3ν
+parameters [9–11], see [12–15] for recent results. In general, such analyses try to construct and reproduce parametric
+likelihoods (χ2 maps) as accurately as possible using available data, error estimates and modelling of neutrino produc-
+tion, propagation and detection for each oscillation experiment, and to extend the statistical analysis to nonoscillation
+observables as well. In some cases, notably for atmospheric neutrino experiments, this task has become prohibitively
+complex for external users, so that related χ2 maps can only be provided by the experimental collaborations. With
+due consideration for unavoidable simplifications or approximations of an external approach, independent global ν
+data analyses have shown remarkable consistency so far, and are expected to yield further useful information in the
+development of the 3ν framework [11].
+   In this context, we present an updated global analysis of oscillation and nonoscillation neutrino data, using recent
+information that became available after our previous work in 2021 [14], including results presented at Neutrino 2024
+[3] and up to the beginning of 2025. It is a particularly interesting time for an update, since the known oscillation
+parameters are entering the era of subpercent precision, currently already reached for |∆m2 | at face value. Very soon
+the JUNO reactor experiment alone [16] is expected to measure with even greater accuracy the related parameter
+∆m2ee = |∆m2 | + 12 α(cos2 θ12 − sin2 θ12 )δm2 [17], as well as δm2 and θ12 [18], and to gain increasing sensitivity
+to the mass ordering options α = ±1 [19]. Combinations of accelerator, reactor and atmospheric data, that have
+already been showing hints (or tensions) in terms of subleading effects, are then expected to become even more
+synergic (or conflicting) in the subpercent precision era [11]. In the next few years, developments in the mass ordering
+discrimination will thus be especially exciting, together with their cascade effects on the likelihood profile of the
+CP-violating phase δ, of the mixing angle θ23 across the two octants, and of the absolute mass observables below
+their upper limits. Concerning the latter, recent cosmological data seem to push Σ towards exceedingly low (or even
+unphysical) values [20], that may be suggestive of either experimental tensions or of new physics beyond standard
+cosmology [21], with potentially interesting—but currently uncertain—effects on present bounds or future claims [22].
+Laboratory searches of neutrino mass signals are experiencing a steady progress on both mβ and mββ , providing
+independent and complementary mass bounds in the sub-eV range, that remains largely to be explored along the
+allowed NO and IO branches, and that also call for theoretical progress on nuclear physics aspects; see the related
+state-of-the-art presentations in [3]. Studying the current interplay among all the above oscillation and nonoscillation
+searches adds further motivations for an updated global neutrino data analysis.
+   Our work is structured as follows. In Sec. II we discuss the updated data inputs and the corresponding     constraints
+                                                                                                                  p
+on known and unknown oscillation parameters, shown in terms of projections of regions allowed at Nσ = ∆χ2
+standard deviations. With respect to [14], we obtain improved constraints on θ23 , θ13 and |∆m2 |, the latter being
+already determined with subpercent accuracy. We discuss some issues about common systematics in combined fits,
+that should be better understood in view of an increasingly high precision. Concerning oscillation unknowns (the
+mass ordering, the θ23 octant, and the CP phase δ), we find slightly weaker hints with respect to [14]. In particular,
+NO is now preferred over IO by 2.2σ. We present the status of this hint and discuss its possible evolution, using
+the plane charted by the two mass (or frequency) parameters that will soon be measured by JUNO, namely, δm2
+and ∆m2ee = |∆m2 | + 12 α(cos2 θ12 − sin2 θ12 )δm2 . In Sec. III we discuss the updated inputs and the corresponding
+constraints on mβ from tritium β decay, and on mββ from 76 Ge, 130 Te and 136 Xe 0νββ data, adapting our previous
+representation of nuclear matrix element (NME) covariances [14] to more recent NME evaluations [23]. Concerning
+Σ, we discuss various combinations of cosmological data within the standard ΛCDM model, including recent data
+that tend to push Σ towards the unphysical region at face value. We discuss how such constraints on Σ are relaxed
+by augmenting the ΛCDM by physically motivated extra parameters, e.g., to account for the lensing anomaly or
+for possible hints of dynamical dark energy. A synopsis of the sub-eV mass bounds emerging from oscillation and
+nonoscillation data is discussed in the planes charted by pairs of (mβ , mββ , Σ) observables. In Sec. III we summarize
+our findings and briefly comment on perspectives.
+
+                II.   GLOBAL 3ν ANALYSIS OF OSCILLATION DATA AND PARAMETERS
+
+  We briefly discuss below the updated oscillation inputs with respect to [14], covering solar, accelerator, reactor, and
+atmospheric datasets (Sec. II A). We emphasize once more some (often overlooked) systematic issues that may affect
+combined analyses of accelerator or atmospheric experiments, with a possible impact on the overall accuracy, e.g., of
+the ∆m2 parameter. Concerning the methodology, we follow the same approach of [14], as originally motivated in [24].
+In Sec. II B, constraints are first derived from long-baseline (LBL) accelerator, solar and LBL reactor (KamLAND)
+                                                                                                                          3
+
+neutrino data, that represent the minimal dat set sensitive to all the 3ν oscillation parameters (δm2 , |∆m2 |, θij , δ, α =
+±1). Then one adds short-baseline (SBL) reactor data, directly sensitive only to (|∆m2 |, θ13 ), but affecting the other
+parameters via correlations. Finally, by adding atmospheric data, one gets a further modulation of the oscillation
+                                 2      2
+      p fit, especially for (δm , |∆m |, θ23 , δ, α = ±1). Oscillation parameters constraints are reported in terms of
+parameter
+            2
+Nσ = ∆χ allowed regions, first for one-parameter projections and then for two-parameter covariances, highlighting
+the impact of various data in constraining knowns and unknowns of 3ν oscillations. We pay particular attention to
+the current determination of ∆m2 at subpercent level and to the (partly related) mass ordering hints from different
+data. In particular (Sec. II C) we use the plane charted by the two frequency parameters (δm2 , ∆m2ee ) to summarize
+the pre-JUNO mass-ordering hint and to discuss its hypothetical post-JUNO evolution, in terms of either growing
+consistency or possible new tensions among future experimental results.
+
+                             A.   Oscillation input update and remarks on systematics
+
+   With respect to the previous analysis in [14], the solar neutrino input is updated by including the SK-IV day
+and night energy spectra [25], a state-of-the-art standard solar model [26, 27], and a very recent reevaluation of the
+Ga ν cross section and of its uncertainties [28]. The LBL accelerator input includes the recent spectra of neutrino
+and antineutrino events measured in the appearance and disappearance oscillation channels by the T2K [5, 29, 30]
+and NOvA [6, 31] experiments. The SBL reactor neutrino input includes the latest results published by Daya
+Bay [32] and the complete results recently presented by RENO [33]. For the above classes of experiments it is
+still feasible—although increasingly complicated—to construct parametric likelihoods (χ2 maps) from the available
+information, with sufficient accuracy for the purposes of a global analysis. As usual, we have verified that our single-
+experiment constraints on oscillation parameters are in good agreement with the official ones, whenever a comparison
+is possible. For atmospheric neutrinos, currently involving hundred of bins, dozens of systematic uncertainties, and
+refined statistical separation of event classes by flavor proxies, the construction of χ2 maps based on public information
+[34] has become eventually unfeasible [35] outside the experimental collaborations. We adopt the χ2 maps officially
+released for the latest published atmospheric ν results by SK [36, 37] and by IceCube (IC) DeepCore [38, 39]. We
+include the official ∆χ2 offset between the SK best-fit point for NO (favored) versus IO [37] (see also [40]). Concerning
+IC, we take the NO-IO offset as null, since it has not been officially disclosed [39] (but see [41] for a related study).
+   Following a previous discussion in [14] (see Secs. II B and II E therein) we emphasize a few important remarks
+about systematic errors shared by different experiments. For solar neutrinos, common uncertainties (e.g., stemming
+from the the standard solar model) can be included in global analyses via a detailed pull approach [42]. However, for
+other classes of experiments, there is not yet enough public information to account for shared systematics. This may
+be a minor issue if one experiment leads the accuracy in its class (e.g., Daya Bay among SBL reactor experiments)
+but may be of some relevance when combining experiments with comparable statistical power, such as the LBL
+accelerator experiments T2K and NOvA. Even if they probe different energy ranges, targets and baselines, and
+perform separate near-far detector comparisons, they are expected to share at least some uncertainties of the adopted
+neutrino interaction model(s). Common errors in the reconstruction of the neutrino energy E would represent, e.g., an
+irreducible uncertainty on ∆m2 (via the ∆m2 /E oscillation phase) in the T2K+NOvA combination. To our knowledge,
+the coupled effects on the joint T2K+NOvA parameter fits have been tentatively evaluated in extreme cases (full
+correlation, no correlation, full anticorrelation), but they have not been precisely quantified in a joint analysis pipeline
+using a common model yet [6]. Concerning atmospheric ν, SK and IC do share significant normalization uncertainties
+related not only to the interaction model (applicable to the same water target for overlapping energies) but also to
+neutrino flux production model (up to corrections for the different geomagnetic latitude and depth). In particular,
+note that the overall normalization factors (neutrino flux times cross section) seem to be pulled in different ways in
+separate fits: upwards in SK [40] and downwards in IC [38]. A joint SK+IC fit, enforcing the common pulls to be
+consistent, might reveal possible effects on precise parameter estimates, that are lost a priori by simply adding the SK
+and IC χ2 maps; see also the comments in [43]. A joint analysis of simulated data (converging by construction) seem to
+suggest that the effect of correlated uncertainties on ∆m2 is small [44]. In this context, the joint fit of accelerator and
+atmospheric T2K+SK data [5, 45] is a relevant test case where common interaction and detector model systematics
+have been officially implemented on real data. To our understanding, such common systematics induce a T2K+SK
+error component of 3.6 × 10−5 eV2 on ∆m2 (1.5%) [45], not much smaller than the E-scale reconstruction uncertainty
+estimated in SK alone (∼ 1.8%) [36], or the overall accuracy of ∆m2 quoted by T2K alone (∼ 2%) [5]. We thus
+surmise that, even with higher statistics, the T2K+SK combined error on ∆m2 might reach an irreducible, common
+systematic “floor” at the level of ∼ 1.5%, in the absence of further improvements. See also recent studies of interaction
+model uncertainties affecting ∆m2 /E at percent level in T2K [46] and NOvA [47] event generators. Summarizing,
+in the era of subpercent precision, the evaluation of (partly) irreducible systematics shared by different experiments
+deserves further attention by the collaboration themselves, as they escape control in global fits by external groups.
+With the above cautionary remark, we proceed with the discussion of our 3ν oscillation analysis results.
+                                                                                                                          4
+
+                                       B.   3ν oscillation parameter constraints
+
+   We discuss the constraints on the oscillation parameters (δm2 , |∆m2 |, sin2 θij , δ) for increasingly rich data sets, in
+terms of allowed ranges at Nσ standard deviations for both NO and IO.
+   Figure 1 shows the results for the combination of solar, KamLAND and LBL accelerator data for NO (blue) and
+IO (red), in terms of individual parameters. Although the separate T2K and NOvA data provide a slight preference
+for NO [5, 6], they tend to favor IO in combination [6], at the level of 2σ in the figure. These findings, stemming
+from a mild but persisting tension between T2K and NOvA data, are slightly more pronounced than in the analysis
+of previous data [14]. The parameters δm2 and sin2 θ12 are rather precisely determined by solar and KamLAND
+constraints, with almost linear and symmetrical (i.e., gaussian) uncertainties, and no significant best-fit difference
+between the NO and IO cases. The parameter |∆m2 | is also well costrained, but with a best-fit value sensitive to
+the mass ordering. The sin2 θ23 and sin2 θ13 parameters show two quasi-degenerate minima, due to the unsolved θ23
+octant ambiguity in νµ disappearance, with cascade effects on θ13 via νe appearance. As further discussed below, the
+leading oscillation amplitude of νµ → νe appearance (∝ sin2 θ23 sin2 θ13 ) anticorrelates the quasi-degenerate best fits
+of θ23 and θ13 , the latter being also noticeably different in NO and IO. Appreciable differences emerge also on the
+phase δ, that appears to be largely consistent with CP conservation in NO (δ ≃ nπ), while being inconsistent with
+it at > 3σ in IO (with a best fit δ ≃ 23 π, see also [6]). This rich interplay between known and unknown parameters
+suggests that further direct constraints on the first ones may indirectly affect the second ones, as it indeed occurs.
+   Figure 2 shows the fit including SBL reactor data, which further constrain both |∆m2 | and sin2 θ13 . With respect to
+the preferred regions in Fig. 1, the additional reactor data tend to prefer relatively high values of |∆m2 | and relatively
+low values of θ13 , which are best reached for NO in the upper θ23 octant. As a consequence, the hints on the mass
+orderings and on θ23 (as well as on δ) also change, despite the fact that SBL reactor data are not directly sensitive to
+such unknowns. In particular, we find that the combination of solar, KamLAND, LBL accelerator and SBL reactor
+data preference for IO is reduced at 1.4σ. Assuming IO, these data provide a preference for the second octant of θ23
+(at 1.9σ) and a strong indication for CP violation (sin δ < 0 at almost 4σ). Assuming NO, the CP violation trend
+appears to be much more diluted, and the preferred octant is even flipped.
+   Figure 3 shows the parameter constraints from the complete oscillation dataset, including atmospheric ν data from
+SK and IC. These data add further sensitivity to |∆m2 |, sin2 θ23 and δ. SK data are also particularly sensitive to
+the mass ordering, preferred to be normal [36]. This preference wins in the overall combination, with NO being
+favored at the level of 2.2σ by all current data (while it was 2.5σ in [14]). The likelihood profiles of δ and θ23 are also
+modified by atmospheric data; in particular, for the NO case, CP conservation is disfavored at 1.2σ level (while it
+was 1.6σ in [14]), and the first octant is preferred at the 1.1σ level (1.6σ in [14]), with respect to the second. So the
+new data, taken altogether, are not reinforcing previous hints about the unknowns, partly because of the slight but
+persisting tension between T2K and NOvA results, as also noted in [6, 15, 48]. The net effect suggests caution in the
+interpretation of current hints on 3ν unknowns. This is particularly evident for mass ordering, where the preference
+for IO by combined LBL accelerator data (Fig. 1) is first reduced by SBL reactor data (Fig. 2) and then flipped to NO
+by atmospheric data (Fig. 3). The current uncertain situation about the 3ν oscillation unknowns may be contrasted
+with past converging hints about nonzero values for the unknown θ13 from the global analysis of solar, KamLAND,
+atmospheric, and LBL accelerator data [49], that consistently reached a cumulative statistical above 3σ [50] before
+the θ13 discovery and precise measurement by SBL reactor experiments [51–53].
+   Table I reports numerically the graphical information of Fig. 3, for the separate cases of NO and IO (whose χ2
+difference is given in the last row). The known parameters δm2 and θ12 are determined at few percent level, with
+minor changes as compared with [14]. Note that we have not included the first published results by the SNO+ reactor
+experiment, as they constrain δm2 with an error larger than in Table I by a factor of ∼ 6, and only by assuming a prior
+on θ12 [54]. However, SNO+ data expectations on (δm2 , θ12 ) are very promising (as indicated by recent preliminary
+results [55]) and will surpass the current δm2 accuracy in a few years, providing a relevant input for future global
+fits. With respect to [14], from Table I we note an appreciable progress in |∆m2 |, that is constrained at 0.8% level
+at present (it was 1.1% in [14]). This is the first oscillation parameter entering the subpercent precision era, as a
+result of improved and combined results from all SBL reactor, LBL accelerator and atmospheric ν data. We remark
+that, as discussed in the previous Sec. II A, possible effects of common systematics among accelerator or atmospheric
+experiments might lead to more conservative fractional uncertainties in a joint fit, that we are unable to evaluate and
+that should be quantified by experimental collaborations. The uncertainty of sin2 θ13 is reduced to 2.4% (from ∼ 3%
+in [14]). Concerning sin2 θ23 , the allowed range is also slightly reduced and, in particular, the two quasi-degenerate
+minima are rather close to each other, differing by only ∼ 15% (∼ 25% in [14]). Concerning δ, the constraints are
+rather similar to those in [14] within large uncertainties but, as noted,
+                                                                        √ with a weaker rejection of CP conservation in
+NO. The overall offset between IO and NO is now reduced to Nσ = 5.0 = 2.2 (from 2.5σ in [14]).
+                                                                                                                                                                 5
+
+                                                                   LBL Acc + Solar + KamLAND
+                 44                                                  4                                                         4
+
+
+
+
+                 33                                                  3                                                         3
+
+
+
+
+            Nσ   22                                                  2                                                         2
+
+
+
+
+                  11                                                 1                                                         1
+
+
+
+
+                 006.5           7.0           7.5    8.0    8.5
+                                                                     0
+                                                                     2.2    2.3           2.4       2.5          2.6    2.7
+                                                                                                                               0
+                                                                                                                               0.0   0.5     1.0     1.5   2.0
+                 6.5            7.0       7.5        8.0     8.5    2.2     2.3      2.4            2.5          2.6   2.7     0.0   0.5     1.0     1.5   2.0
+                                δm2 [10 eV ]-5         2
+                                                                            ∆m      2                -3
+                                                                                                [10 eV ]           2
+                                                                                                                                            δ/ π
+                 44                                                  4                                                         4
+
+                                                                                                                 NO
+                 33                                                  3
+                                                                                                                 IO            3
+
+
+
+
+            Nσ   22                                                  2                                                         2
+
+
+
+
+                  11                                                 1                                                         1
+
+
+
+
+                 00      0.25           0.30          0.35
+                                                                     0
+                                                                     0.01          0.02                   0.03          0.04
+                                                                                                                               0
+                                                                                                                               0.3   0.4     0.5     0.6   0.7
+                       0.25            0.30          0.35           0.01          0.02               0.03              0.04    0.3   0.4     0.5     0.6   0.7
+                                       sin θ12
+                                          2
+                                                                                     sin2θ13                                               sin θ23
+                                                                                                                                              2
+
+
+FIG. 1: Global 3ν oscillation analysis of long-baseline accelerator, solar and KamLAND ν data. Bounds on the parameters δm2 ,
+|∆m2 |, sin2 θij , and δ, for NO (blue) and IO (red). IO is favored at 2.0σ.
+
+
+
+
+                                                     LBL Acc + Solar + KamLAND + SBL Reactors
+                 44                                                  4                                                         4
+
+
+
+
+                 33                                                  3                                                         3
+
+
+
+
+            Nσ   22                                                  2                                                         2
+
+
+
+
+                  11                                                 1                                                         1
+
+
+
+
+                 006.5           7.0           7.5    8.0    8.5
+                                                                     0
+                                                                     2.2    2.3           2.4       2.5          2.6    2.7
+                                                                                                                               0
+                                                                                                                               0.0   0.5     1.0     1.5   2.0
+                 6.5            7.0       7.5        8.0     8.5    2.2     2.3      2.4            2.5          2.6   2.7     0.0   0.5     1.0     1.5   2.0
+                                δm2 [10 eV ]-5         2
+                                                                            ∆m      2                -3
+                                                                                                [10 eV ]           2
+                                                                                                                                            δ/ π
+                 44                                                  4                                                         4
+
+                                                                                                                 NO
+                 33                                                  3
+                                                                                                                 IO            3
+
+
+
+
+            Nσ   22                                                  2                                                         2
+
+
+
+
+                  11                                                 1                                                         1
+
+
+
+
+                 00      0.25           0.30          0.35
+                                                                     0
+                                                                     0.01          0.02                   0.03          0.04
+                                                                                                                               0
+                                                                                                                               0.3   0.4     0.5     0.6   0.7
+                       0.25            0.30          0.35           0.01          0.02               0.03              0.04    0.3   0.4     0.5     0.6   0.7
+                                       sin θ12
+                                          2
+                                                                                     sin θ13    2
+                                                                                                                                           sin θ23
+                                                                                                                                              2
+
+
+                         FIG. 2: As in Fig. 1, but adding short-baseline reactor ν data. IO is favored at 1.4σ.
+                                                                                                                                                                             6
+
+                                                 LBL Acc + Solar + KamLAND + SBL Reactors + Atmos
+                   44                                                  4                                                        4
+
+
+
+
+                   33                                                  3                                                        3
+
+
+
+
+              Nσ   22                                                  2                                                        2
+
+
+
+
+                    11                                                 1                                                        1
+
+
+
+
+                   006.5           7.0           7.5    8.0     8.5
+                                                                       0
+                                                                       2.2     2.3           2.4     2.5          2.6     2.7
+                                                                                                                                0
+                                                                                                                                0.0     0.5     1.0     1.5     2.0
+                   6.5            7.0       7.5        8.0      8.5   2.2     2.3       2.4          2.5          2.6    2.7    0.0     0.5     1.0     1.5   2.0
+                                  δm2 [10 eV ]-5         2
+                                                                              ∆m       2              -3
+                                                                                                   [10 eV ]         2
+                                                                                                                                               δ/ π
+                   44                                                  4                                                        4
+
+                                                                                                                  NO
+                   33                                                  3
+                                                                                                                  IO            3
+
+
+
+
+              Nσ   22                                                  2                                                        2
+
+
+
+
+                    11                                                 1                                                        1
+
+
+
+
+                   00      0.25           0.30          0.35
+                                                                       0
+                                                                       0.01           0.02                 0.03          0.04
+                                                                                                                                0
+                                                                                                                                0.3     0.4     0.5     0.6     0.7
+                         0.25            0.30          0.35           0.01           0.02             0.03              0.04    0.3     0.4     0.5     0.6   0.7
+                                         sin θ12
+                                            2
+                                                                                        sin2θ13                                               sin θ23
+                                                                                                                                                 2
+
+
+        FIG. 3: As in Fig. 2, but adding atmospheric ν data (i.e., with all oscillation data included). NO is favored at 2.2σ.
+
+
+  Summarizing, in the last few years there has been an appreciable progress on three known oscillation parameters
+(|∆m2 |, θ13 , θ23 ), with the first one entering the subpercent precision era. Previous hints about the three oscillation
+unknowns (θ23 octant, CP phase δ, mass ordering) are instead weaker. Finally, we note that our global results (Fig. 3
+and Table I) are in good agreement with ones reported in an independent analysis [15]. The agreement would be even
+better by excluding the recent RENO data [33] appeared after [15]; in particular, we would then obtain a preference
+for NO at 2.5σ as in [15].
+
+
+TABLE I: Global 3ν oscillation analysis: best-fit values and allowed ranges at Nσ = 1, 2, 3, for either NO or IO. The last
+column shows the formal “1σ parameter accuracy,” defined as 1/6 of the 3σ range, divided by the best-fit value (in percent).
+We recall that ∆m2 = m23 − (m21 + m22 )/2 and that δ/π is cyclic (mod 2). Last row: ∆χ2 offset between IO and NO.
+
+ Parameter                        Ordering                 Best fit             1σ range                                  2σ range                3σ range            “1σ” (%)
+ δm2 /10−5 eV2                    NO, IO                    7.37               7.21 – 7.52                               7.06 – 7.71             6.93 – 7.93             2.3
+ sin2 θ12 /10−1                   NO, IO                    3.03               2.91 – 3.17                               2.77 – 3.31             2.64 – 3.45             4.5
+ |∆m2 |/10−3 eV2                    NO                      2.495             2.475 – 2.515                             2.454 – 2.536           2.433 – 2.558            0.8
+                                    IO                      2.465             2.444 – 2.485                             2.423 – 2.506           2.403 – 2.527            0.8
+ sin2 θ13 /10−2                     NO                       2.23              2.17 – 2.27                               2.11 – 2.33             2.06 – 2.38             2.4
+                                    IO                       2.23              2.19 – 2.30                               2.14 – 2.35             2.08 – 2.41             2.4
+ sin2 θ23 /10−1                     NO                       4.73              4.60 – 4.96                               4.47 – 5.68             4.37 – 5.81             5.1
+                                    IO                       5.45              5.28 – 5.60                               4.58 – 5.73             4.43 – 5.83             4.3
+ δ/π                                NO                       1.20              1.07 – 1.37                               0.88 – 1.81             0.73 – 2.03             18
+                                    IO                       1.48              1.36 – 1.61                               1.24 – 1.72             1.12 – 1.83              8
+ ∆χ2IO−NO                         IO−NO                     +5.0
+                                                                                                                                                                                             7
+
+   The above single-parameter results and the interplay of different data sets can be further understood in terms of
+selected two-parameter covariances. Figure 4 shows joint constraints
+                                                                 p        on (sin2 θ23 , sin2 θ13 ) for increasingly rich data
+sets, in both NO (top) and IO (bottom), in terms of Nσ = ∆χ isolines, where the χ2 functions are separately
+                                                                       2
+
+minimized for each mass ordering. In the left panels, the data are consistent with both octants at 1σ, with a slight
+preference for the second octant in NO (first octant in IO). This preference is flipped by adding reactor data (middle
+panel), that constrain directly θ13 and indirectly θ23 via correlations. The octant preference is not changed by adding
+atmospheric data (right panel). In any case, the alternative octant is largely allowed within 2σ.
+   Figure 5 shows the covariance plot for the parameter pair (sin2 θ23 , |∆m2 |). In this case, notice that the LBL
+accelerator constraints on |∆m2 | (left panels) are in better agreement with the SBL reactor constraints in NO than in
+IO (middle panels). This fact reduces the joint LBL accelerator preference for IO, as noted in the comments to Figs. 1
+and 2. The addition of atmospheric data (right panels) reduces the uncertainties on both parameters (sin2 θ23 , |∆m2 |),
+and tends to shift the latter slightly downwards. The slight misalignment of ∆m2 ranges allowed by different data
+sets is more pronounced in IO than NO, leading to an overall preference for the latter in the global fit. The synergy of
+joint data sets in the search for the true mass ordering [11] will be further discussed below in Sec. II C. We emphasize
+that SBL reactor data, despite having no direct sensitivity to sign(∆m2 ) and to θ23 , affect these two variables via
+covariances in combined fits.
+
+                                                          LBL Acc + Solar + KL                    + SBL Reactors                                   + Atmos
+                                              0.04
+                                                 0.04                                    0.04                                       0.04
+
+
+
+
+                                                                                                                         1σ
+
+
+
+
+                                                                                                                                                                         Normal Ordering
+                                                                                                                         2σ
+                                              0.03
+                                                 0.03                                    0.03                                       0.03
+                                                                                                                         3σ
+                             sin2θ13
+                                              0.02
+                                                 0.02                                    0.02                                       0.02
+
+
+
+
+                                              0.01
+                                                 0.01
+                                                    0.3      0.4     0.5     0.6   0.7
+                                                                                         0.01
+                                                                                            0.3    0.4     0.5     0.6        0.7
+                                                                                                                                    0.01
+                                                                                                                                       0.3   0.4      0.5    0.6   0.7
+
+                                              0.04
+                                                 0.04                                    0.04                                       0.04
+
+
+
+
+                                                                                                                                                                         Inverted Ordering
+                                              0.03
+                                                 0.03                                    0.03                                       0.03
+
+
+
+
+                             sin2θ13
+                                              0.02
+                                                 0.02                                    0.02                                       0.02
+
+
+
+
+                                              0.01
+                                                0.01
+                                                   0.3       0.4     0.5     0.6   0.7
+                                                                                         0.01
+                                                                                            0.3    0.4     0.5     0.6        0.7
+                                                                                                                                    0.01
+                                                                                                                                       0.3   0.4      0.5    0.6   0.7
+                                                 0.3         0.4     0.5     0.6   0.7    0.3     0.4      0.5     0.6        0.7    0.3     0.4     0.5     0.6   0.7
+                                                                   sin2θ23                               sin2θ23                                   sin2θ23
+
+         FIG. 4: Regions allowed in the (sin2 θ23 , sin2 θ13 ) plane: Solar + KamLAND + LBL accelerator data (left panels),
+         plus SBL reactor data (middle panels), plus atmospheric data (right panels). Top and bottom panels refer, respectively,
+         to NO and IO as taken separately (i.e., without any relative ∆χ2 offset). In the middle panels, the error bars refer to
+         the ±2σ range for sin2 θ13 arising from SBL reactor data only.
+
+
+
+
+                                                          LBL Acc + Solar + KL                    + SBL Reactors                                   + Atmos
+                                                2.7
+                                                  2.7                                     2.7                                        2.7
+
+
+
+
+                             ∆m2 [10-3 eV2]                                                                                                                              Normal Ordering
+                                                2.6
+                                                  2.6                                     2.6                                        2.6
+
+
+
+
+                                                2.5
+                                                  2.5                                     2.5                                        2.5
+
+
+
+
+                                                2.4
+                                                  2.4                                     2.4                                        2.4
+
+
+                                                                                                                         1σ
+                                                2.32.3                                    2.3                            2σ          2.3
+
+
+                                                                                                                         3σ
+                                                2.2
+                                                  2.2
+                                                    0.3      0.4     0.5     0.6   0.7
+                                                                                          2.2
+                                                                                            0.3    0.4     0.5     0.6        0.7
+                                                                                                                                     2.2
+                                                                                                                                       0.3   0.4      0.5    0.6   0.7
+
+                                                2.7
+                                                  2.7                                     2.7                                        2.7
+
+
+
+
+                             ∆m2 [10-3 eV2]                                                                                                                              Inverted Ordering
+                                                2.6
+                                                  2.6                                     2.6                                        2.6
+
+
+
+
+                                                2.5
+                                                  2.5                                     2.5                                        2.5
+
+
+
+
+                                                2.4
+                                                  2.4                                     2.4                                        2.4
+
+
+
+
+                                                2.3
+                                                  2.3                                     2.3                                        2.3
+
+
+
+
+                                                2.2
+                                                  2.2
+                                                    0.3      0.4     0.5     0.6   0.7
+                                                                                          2.2
+                                                                                            0.3    0.4     0.5     0.6        0.7
+                                                                                                                                     2.2
+                                                                                                                                       0.3   0.4      0.5    0.6   0.7
+                                                  0.3        0.4     0.5     0.6   0.7    0.3     0.4      0.5     0.6        0.7    0.3     0.4     0.5     0.6   0.7
+                                                                   sin θ23
+                                                                      2
+                                                                                                         sin θ23
+                                                                                                            2
+                                                                                                                                                   sin2θ23
+
+         FIG. 5: As in Fig. 4, but in the plane (sin2 θ23 , |∆m2 |). The error bars in the middle panels show the ±2σ range
+         for |∆m2 | arising from SBL reactor data only.
+                                                                                                                                                                                 8
+
+                                             LBL Acc + Solar + KL                     + SBL Reactors                                  + Atmos
+                                  2.0
+                                    2.0                                       2.0                                       2.0
+
+
+
+
+                                                                                                                                                            Normal Ordering
+                                  1.5
+                                    1.5                                       1.5                                       1.5
+
+
+
+
+                           δ/ π   1.0
+                                    1.0                                       1.0                                       1.0
+
+
+
+
+                                                                                                             1σ
+                                  0.5
+                                    0.5                                       0.5                                       0.5
+                                                                                                             2σ
+                                                                                                             3σ
+                                  0.0
+                                    0.0
+                                        .3        0.4     0.5     0.6   0.7
+                                                                              0.0
+                                                                                0.3    0.4     0.5     0.6        0.7
+                                                                                                                        0.0
+                                                                                                                          0.3   0.4      0.5    0.6   0.7
+
+                                  2.0
+                                    2.0                                       2.0                                       2.0
+
+
+
+
+                                                                                                                                                            Inverted Ordering
+                                  1.5
+                                    1.5                                       1.5                                       1.5
+
+
+
+
+                           δ/ π   1.0
+                                    1.0                                       1.0                                       1.0
+
+
+
+
+                                  0.5
+                                    0.5                                       0.5                                       0.5
+
+
+
+
+                                  0.0
+                                    0.0
+                                        .3        0.4     0.5     0.6   0.7
+                                                                              0.0
+                                                                                0.3    0.4     0.5     0.6        0.7
+                                                                                                                        0.0
+                                                                                                                          0.3   0.4      0.5    0.6   0.7
+                                    0.3         0.4       0.5     0.6   0.7   0.3     0.4      0.5     0.6        0.7   0.3     0.4     0.5     0.6   0.7
+                                                        sin2θ23                              sin2θ23                                  sin2θ23
+
+                                                FIG. 6: As in Fig. 4, but in the plane (sin2 θ23 , δ).
+
+
+   Figure 6 shows the covariance of the pair (sin2 θ23 , δ). It can be seen that the almost octant-symmetric contours
+in the left panels become rather asymmetric by adding reactor data (middle panels) and then atmospheric data
+(right panels). The overall parameter correlation appears to be negative in NO and negligible in IO, when all data
+are included; similar results were found previously [14]. These findings imply that, if the octant best fits were
+hypothetically flipped, the current slight preference for CP violation would be weakened in NO, while it would remain
+stable in IO. This figure illustrates that a weak but interesting interplay already emerges among the three oscillation
+unknowns (the CP phase, the θ23 octant and the mass ordering), and that future data may affect these parameters
+in subtly correlated ways.
+
+
+                                             C.         Mass ordering hints in JUNO perspective.
+
+   Reactor ν experiments with a production-detection distance L of tens of kilometers (medium baselines, MBL)
+can probe oscillations driven by both δm2 and ∆m2 , as well as their interference effects depending on the discrete
+parameter α = sign(∆m2 ) = ±1 [56]. This accurate oscillometry program is going to be carried out by the high-
+resolution, large-volume JUNO experiment [16, 17], whose results are expected to reach subpercent precision for the
+(δm2 , ∆m2 ) parameters in less than one year [18], and > 3σ sensitivity to α = ±1 in less than one decade [19].
+   In the context of JUNO (and of reactor ν experiments in general) it is convenient to use, instead of ∆m2 , the
+frequency parameter ∆m2ee [57, 58]. Within JUNO alone, the sensitivity to α emerges from the relative sign between
+the leading phase ∆m2ee L/4E and a modulation phase ϕ not scaling as L/E [58]. Without loss of generality, one can
+attach the sign α = ±1 to ϕ and take a positive ∆m2ee , that in our notation reads (see, e.g., [59–61]):
+
+                                                ∆m2ee = |∆m2 | + 21 α(cos2 θ12 − sin2 θ12 )δm2 .                                                                                (1)
+
+The second term on the r.h.s amounts to ±0.015 eV2 , namely, to a ±0.6% difference between ∆m2ee and |∆m2 |.
+This difference is comparable to both the current 1σ accuracy of |∆m2 | (±0.8%, see Table I) and to the expected 1σ
+accuracy of ∆m2ee in JUNO (±0.8% after just 100 days of operation [18]). Summarizing, JUNO can contribute to the
+NO and IO discrimination (α = ±1) in two ways: (1) through the relative difference between the phases ∆m2ee L/4E
+and ϕ (from JUNO data only); and (2) through the relative difference between ∆m2ee (from JUNO) and |∆m2 | or
+other related mass parameters (from non-reactor data).
+  The second option, namely, the so-called synergy between reactor and non-reactor ν probes of α, has been explored
+and illustrated in many ways, using simulated or real data. An incomplete list includes prospective combinations of
+JUNO-like constraints with LBL accelerator data in disappearance channel [58, 62–68], with atmospheric neutrino
+data in large-volume detectors [69–71] and with both accelerator and atmospheric data [72, 73]; see also the reviews
+[74–78]. Global analyses of real data have also highlighted the interplay between reactor and non-reactor ν data in
+the emerging hints on mass ordering, see, e.g., [35, 79] and the above discussion in Sec. II B. More recently, some
+studies have combined first hypothetical JUNO outcomes with existing (or soon to be expected) rest-of-the-world
+data [66, 80, 81]. The mass parameters (∆m2ee , δm2 ), directly measurable in JUNO, appear to be appropriate [80]
+for a phenomenological discussion of near-future perspectives, as discussed below.
+                                                                                                                               9
+
+
+                                                   Pre-JUNO 3ν mass parameters & ordering
+                                            8
+
+
+
+                                                              IO                  NO
+                                                             (2σ)                 (2σ)
+
+
+
+
+                           δm2 [10-5 eV2]
+                                        7.5
+
+
+
+
+                                            7
+                                                                ∆χ2         = + 5.0
+                                                                    IO-NO
+
+
+
+                                            2.35       2.4      2.45      2.5            2.55   2.6
+                                                               ∆mee [10 eV2]
+                                                                   2   -3
+
+       FIG. 7: Global 3ν oscillation analysis: Current 2σ bounds on the mass parameters (∆m2ee , δm2 ) that will be directly
+       measured by JUNO, for either NO (blue) or IO (red). The global ∆χ2 offset between IO and NO is also reported. The
+       JUNO experiment will provide an independent measurement of both parameters (at subpercent level in less than one
+       year) and an independent offset between IO and NO (at > 3σ in less than one decade). Possible JUNO outcomes and
+       implications are discussed in the text.
+
+
+   In Fig. 7 we project the results of our global analysis in the plane charted by the (∆m2ee , δm2 ) pair, in terms
+of 2σ contours (∆χ2 = 4) for both NO (blue) and IO (red). The best-fit values of ∆m2ee correspond to 2.450 and
+2.510 × 10−3 eV2 for IO and NO, respectively. The best-fit separation by 0.060 × 10−3 eV2 arises from the |∆m2 | fit
+difference (0.030 × 10−3 eV2 ) in Table I, augmented by the intrinsic difference (±0.015 × 10−3 eV2 ) from Eq. (1). In
+Fig. 7 we report, in addition, the offset ∆χ2IO−NO = 5.0 from Table I. The graphical and numerical results in the figure
+summarize the global information on the neutrino mass parameters, that is available from “pre-JUNO” oscillation
+experiments.
+   Let us discuss the implications of possible JUNO outcomes in this plane. JUNO is expected to measure the two
+mass parameters (∆m2ee , δm2 ) with 2σ errors smaller than in Fig. 7, in just a few months of operation [18]. To be
+precise, the ∆m2ee best fit in JUNO will depend also on the assumed mass ordering, with a IO value typically higher
+than the NO value by ∼ 0.02 × 10−3 eV2 , depending on fit details [60, 65, 66, 80]; but this difference may well be
+unresolved in the first JUNO data release, and emerge only with higher statistics. JUNO will also provide its own
+estimate of ∆χ2IO−NO , with a sensitivity that will exceed the value in Fig. 7 in a few years of operation [18]. We
+make no guess about the exposure time and the uncertainties associated to the first JUNO data release, and make
+only qualitative comments on the possible central values of the parameters and on the sign of ∆χ2IO−NO coming from
+JUNO alone, and in comparison with pre-JUNO data. Preliminarily, we note that the currently allowed IO and
+NO regions in Fig. 7 identify three qualitatively different ∆m2ee ranges at ∼ 2σ level: an intermediate one where IO
+and NO results largely overlap (∆m2ee ≃ 2.47 − 2.49 × 10−3 eV2 ), a left one where IO is preferred over NO (below
+∆m2ee ∼ 2.47 × 10−3 eV2 ) and a right one where NO is preferred over IO (above ∆m2ee ∼ 2.49 × 10−3 eV2 ). When
+JUNO will present its first results on ∆m2ee , the position of its central value in one of these three ranges could tell
+at a glance possible synergic effect with rest-of-the-world constraints in Fig. 7: A central value located in the left
+(right) range would imply a marked global preference for IO (NO), while in the intermediate range it would imply a
+rough statistical compatibility with both IO and NO. A possible marked preference for NO would be aligned with the
+current ∆χ2IO−NO = +5.0 offset in Fig. 7; viceversa, a tension would emerge in IO. In addition, JUNO is expected to
+provide its own ∆χ2IO−NO value, which may or may not have the same sign as the one in Fig. 7, generating another
+possible source of (mis)alignment among different indications about mass ordering. Global fits will be useful to gauge
+the related statistical issues.
+                                                                                                                       10
+
+   We thus draw attention to the different degrees of convergence on mass ordering, that might emerge between pre-
+JUNO world data and first JUNO data. The strongest convergence would be reached for ∆m2ee > 2.49 × 10−3 eV2
+and ∆χ2IO−NO > 0 in JUNO, fully consistent with the pre-JUNO data in favor of NO in Fig. 7. A puzzling tension
+would instead emerge for ∆m2ee < 2.47 × 10−3 eV2 and ∆χ2IO−NO > 0 in JUNO, corresponding to two conflicting
+indications: one in favor of IO from the ∆m2ee synergy, and another one in favor of NO from the offsets ∆χ2IO−NO > 0.
+Of course, other (mis)alignments may occur, and novel tensions or biases may emerge at (sub)percent precision
+level, providing further motivations to revisit the correlated systematic issues mentioned in Sec. II A. Possible real-
+data misalignments are usually overlooked in prospective studies, where simulated data agree with the “true” mass
+ordering by construction, and maximally reject the “wrong” one. In real cases the synergy may be more nuanced,
+especially when JUNO will start to resolve the mass ordering issue with its own data alone.
+   We remark that JUNO’s intrinsic sensitivity to mass ordering (i.e., its own ∆χ2IO−NO ) depends on the central
+values of both ∆m2ee and δm2 (and to some extent of θ12 ), as noted in [61] and then in [19, 80]. In particular,
+JUNO discriminates better α = ±1 when the two main oscillation frequencies get closer to each other within current
+uncertainties, namely, when δm2 increases or ∆m2ee decreases [19, 61, 80]. Therefore we expect that, for any fixed
+exposure, JUNO will provide a more significant offset ∆χ2IO−NO for (∆m2ee , δm2 ) values in the upper left part of
+Fig. 7, and a less significant offset in the lower right part. Therefore, the exposure needed to solve the mass ordering
+issue, and the convergence among different bits of informations at any given statistical significance, appear to depend
+on the location of the JUNO’s best-fit point in the plane (∆m2ee , δm2 ), as well as on the corresponding error bars.
+Moreover, the (mis)alignment of current bounds on δm2 with first JUNO results on δm2 will provide further relevant
+information and impact on other oscillation searches (see, e.g., [82, 83]).
+   In conclusion, Fig. 7 summarizes the current information about mass parameters and ordering in the plane
+(∆m2ee , δm2 ) relevant for JUNO. We have discussed how to gauge the qualitative synergy (or misalignment) of
+this information with first JUNO data in this plane, when they will be released. More quantitative statements are
+left to a future global analysis including such data, that will be crucial for the development of the 3ν framework.
+
+
+                    III.   GLOBAL 3ν ANALYSIS OF ABSOLUTE MASS OBSERVABLES
+
+   In this Section we discuss updated bounds on absolute mass observables from nonoscillation data, including: the
+effective νe mass mβ constrained by β decay; the effective Majorana mass mββ probed by 0νββ decay (if neutrinos are
+Majorana); and the sum of neutrino masses Σ constrained by cosmology. We use the same notation and conventions
+of our previous analysis in [14], highlighting the main changes in the input data or output results, and the implications
+for the neutrino mass ordering. A global overview is shown in terms of nonoscillation parameter pairs, following the
+graphical format introduced in [84].
+
+
+                                         A.   Tritium β decay and mβ bounds
+
+   The KATRIN experiment has recently released the combined results of the first five campaigns of β-decay spectral
+measurements with tritium [85]. No neutrino mass signal has been found within the uncertainties, and an upper
+limit on the effective mass parameter mβ < 0.45 eV has been placed at 90% C.L. (namely, 1.645σ). Upper bounds at
+different confidence levels, not reported in [85], will appear in supplementary material; relevant ones include mβ < 0.35,
+0.50 and 0.61 eV at 1, 2 and 3σ level, respectively, according to preliminary estimates [86].
+   To a good approximation, the above nσ bounds can be reproduced in terms of a simple empirical function ∆χ2 =
+66.1(mβ /eV)4 or, equivalently, in terms of an effective 1σ measurement such as m2β = 0 ± 0.123 eV2 . With respect to
+[14] (where KATRIN results were summarized as m2β = 0.1 ± 0.3 eV2 ), the error is appreciably reduced by a factor
+> 2, and the m2β best-fit value is pushed at the border of the physical region. [An allowance for m2β < 0 would provide
+a slightly negative best fit [85].] For graphical purposes, we shall focus on the corresponding 2σ upper bound, namely,
+
+                                                  mβ < 0.5 eV (2σ) .                                                  (2)
+
+
+                                    B.   Neutrinoless ββ decay and mββ bounds
+
+  Searches for 0νββ decay signals are of fundamental importance to assess the Dirac or Majorana nature of neutrinos,
+see [87, 88] for recent reviews. A decay signal Si in a candidate isotope (labelled by the index i) would not only prove
+                                                                                                                                                                11
+
+
+   TABLE II: 0νββ decay: Details of the adopted parametrization ∆χ2 (Si ) = ai Si2 + bi Si + ci for the signal strength Si = 1/Ti ,
+   in units of 10−26 y−1 . The first two columns report the nuclide and the name of the experiment(s). The next three columns
+   report our estimated coefficients (ai , bi , ci ), taken either separately (upper six rows) or in combination for the same nuclide
+   (lower three rows). The fifth column reports our 90% C.L. (∆χ2 = 2.706) half-life limits T90 in units of 1026 y, to be compared
+   with the official experimental limits in the sixth column, as quoted in the references in the last column.
+
+   Nuclide       Experiment(s)                          ai                    bi           ci                T90 /1026 y             T90 (expt.)   References
+     76
+        Ge       GERDA                                 0.000                 4.867        0.000                1.800                     1.8          [89]
+     76
+        Ge       MAJORANA                              0.000                 2.246        0.000                0.830                    0.83          [90]
+    130
+        Te       CUORE                                 0.640                −0.832        0.270                0.370                    0.38          [91]
+    136
+        Xe       KamLAND-Zen                          10.664                 7.412        0.000                3.781                     3.8          [92]
+    136
+        Xe       EXO-200                               0.440                −0.338        0.065                0.350                    0.35          [93]
+     76
+        Ge       GERDA + MAJORANA                      0.000                 7.074        0.000                2.070                     —         This work
+    130
+        Te       CUORE (same as above)                 0.640                −0.832        0.270                0.370                    0.38          [91]
+    136
+        Xe       KamLAND-Zen + EXO-200                11.104                 7.074        0.000                3.718                     —         This work
+
+
+
+the Majorana hypothesis but also provide constraints on the effective Majorana neutrino mass mββ . So far, all
+searched signals are compatible with null values, leading to upper bounds on Si and mββ .
+  In order to quantify such bounds, we follow the methodology of [14] and define the signal strength as
+
+                                                      Si = 1/Ti = Gi |Mi |2 m2ββ ,                                                                              (3)
+
+where Ti is the decay half-life, Gi is the phase space factor, and Mi the nuclear matrix element (NME). To a good
+approximation, the experimental likelihood profile of Si can be parametrized through a quadratic form [14]
+
+                                                     ∆χ2 (Si ) = ai Si2 + bi Si + ci .                                                                          (4)
+
+   Table II reports our numerical evaluation of the coefficients (ai , bi , ci ) for both separate and combined bounds on
+Si , for i = 76 Ge, 130 Te and 136 Xe, updating an analogous Table previously reported in [14]. In particular, our input
+data include the final 76 Ge results from GERDA [89] and MAJORANA [90], the latest 130 Te results from CUORE
+[91], and the complete 136 Xe results from KamLAND-Zen [92] and EXO-200 [93].
+   Figure 8 shows the ∆χ2 functions in terms of 1/T = S (bottom abscissa) and of T (top abscissa), for both separate
+experiments (left panel) and their combinations for the same nuclide (right panel). The EXO-200 and CUORE
+experiments show a small nonzero signal at best fit, that is not statistically significant. The dotted horizontal line
+sets the 90% C.L. upper limits T90 reported in Table II.
+   In order to translate the experimental constraints on Si [Eq. (4)] into constraints on mββ [Eq. (3], one must account
+for the large spread of theoretical NME calculations in each isotope [23]         as well as for their significant correlations
+                                                                       T [10 on
+between pairs of isotopes [94]. We follow the methodology of [14], based
+                                                                             26] y 1
+                                                                                  the only work where—to our knowledge—a
+
+
+                                               T (1026 y)                                       T (1026 y)
+                                    4 42 1     0.5             0.3             0.2 4 4 2 1      0.5              0.3           0.2
+
+
+                                    3                                               3
+                                                90% C.L.                                          90% C.L.
+
+                                2
+                                    2                                KamLAND-Zen
+                                                                                    2
+                                                                     EXO
+                                                                     CUORE
+                                                                     GERDA
+                                                                     MAJORANA
+                                    1                                               1                                  136Xe
+                                                                                                                       130Te
+                                                                                                                        76Ge
+                                    00   1      2          3          4            5 00   1       2          3         4        5
+                                             1/T (10 26 y 1)                                  1/T (10 26 y 1)
+      FIG. 8: 0νββ decay: ∆χ2 functions in terms of the half life T (top abscissa) and of the signal strength S = 1/T (bottom
+      abscissa). Left and right panels: separate experiments and their combinations for the same nuclide, respectively. Dotted
+      horizontal lines intersect the curves at 90% C.L.
+                                                                                                                                          12
+
+
+                                                      TABLE III: 0νββ decay: Adopted input
+                                                      for the NME central values and uncertain-
+                                                      ties, in terms of coefficients qi = Gi |M̄i |2
+                                                      and covariance matrix σij ; see the text for
+                                                      details.
+
+                                                         i Nuclide         σij           qi
+                                                            76
+                                                         1     Ge 0.0790                34.0
+                                                         2 130 Te 0.0920 0.1325        157.5
+                                                         3 136 Xe 0.0975 0.1437 0.1858 73.1
+
+
+
+covariance matrix for the relative errors affecting the |Mi | has been estimated [95]. In particular, the NME central
+values |M̄i | are embedded into the nuclear factors
+
+                                                                          qi = Gi |M̄i |2                                                 (5)
+
+(in units of 10−26 y−1 eV−2 ) while their large multiplicative uncertainties (i.e., the errors on log |Mi |) are embedded
+into a dimensionless covariance matrix σij based on [94]. A χ2 (mββ ) function is then built to account for both
+experimental errors and correlated theoretical uncertainties [14].
+   With respect to [14], we lower the central values qi by factors 0.60 and 0.75 for 64 Ge and 130 Te, respectively, to
+account for the fact that recent NME evaluations for these isotopes [23] are generally lower than older estimates
+considered in [95]. Since the rescaling has no effect on multiplicative errors, we keep the same covariance matrix σij
+as in [14]. For the sake of completeness, in Table III we report the numerical values of qi and σij adopted herein.1
+   We have checked that, with such inputs, most of the recent NME values compiled in the reviews [23, 87, 88] are
+covered within our ±2σ ranges, and a few outliers within ±3σ. We thus surmise that our covariance matrix can
+conservatively cover the large spread of recent NME evaluations. Of course, it would be highly desirable to revisit
+the whole issue of NME covariances, in view of recent theoretical developments (e.g., ab initio methods) [23] that,
+however, are still focused on single NME uncertainties and not yet on pairwise correlations. New covariance estimates
+would lead to an updated Table III with better motivated entries, without necessarily altering the general methodology
+adopted in [14] and herein.
+   Given the experimental input in Table II and p the adopted theoretical NME input in Table III, we can work out
+quantitative bounds at statistical level Nσ = χ2 (mββ ). Figure 9 shows the resulting bounds on mββ from each
+separate isotope (left panel) and their combination (right panel). The dominant bounds are placed by 136 Xe results,
+followed by 76 Ge and 130 Te constraints. The solid lines include experimental and theoretical uncertainties; the dotted
+
+
+
+                                   3                                                   3
+                                       Separate bounds
+                                               76Ge
+                                              130Te                                                          Combined bounds
+                                              136Xe                                                          76Ge+130Te+136Xe
+
+
+                                   2                                                   2
+                               N
+
+                                   1                                                   1
+                                                                   w/ NME errors                     w/ NME errors (correlated)
+                                                                   w/o NME errors                    w/ NME errors (uncorrelated)
+                                                                                                     w/o NME errors
+                                   00.0             0.1            0.2              0.3 00.0   0.1              0.2                 0.3
+                                                          m (eV)                                     m (eV)
+                                                                              √
+      FIG. 9:    0νββ decay: Bounds on mββ , expressed in terms of Nσ = ∆χ2 . The left and right panels refer, respectively,
+      to separate and combined bounds from the three nuclides, with (solid) or without (dotted) NME uncertainties. In the right
+      panel, the case with uncorrelated uncertainties is also shown (dashed).
+
+
+
+
+1 We also report a misprint in Table III of [14], where the σ
+                                                             22 entry was incorrectly typed as 0.0135 instead of 0.1325.
+                                                                                                                    13
+
+lines only the experimental ones. In addition, the dashed line in the right panel shows the effect of including the
+theoretical uncertainties without correlations. The most conservative bounds are obtained by including both NME
+errors and their correlations, leading to the following 2σ upper limit:
+                                                mββ < 0.086 eV (2σ) .                                               (6)
+  The above limit should be compared with the previous analogous estimate mββ < 0.11 eV (2σ) [14], and with
+earlier (less refined) 2σ estimates, such as mββ < 0.14 eV [96] and mββ < 0.18 eV [97], reflecting the overall progress
+on the sensitivity to mββ (by a factor of ∼ 2 in the last few years). A reduction of the NME (co)variances would also
+be beneficial to improve the bounds, as shown by the results in Fig. 9.
+
+
+                                           C.   Cosmology and Σ bounds
+
+   The year 2024 marked a significant turning point for neutrino cosmology. Assuming a minimal ΛCDM+Σ extended
+cosmological model, pre-2024 cosmological constraints on Σ ranged from the conservative 95% confidence level (CL)
+limit of Σ <                                                                                         <
+            ∼ 0.2 eV quoted by the Planck Collaboration in Ref. [98] to the tightest bounds Σ ∼ 0.09 eV [99–101]
+resulting from joint analyses of Cosmic Microwave Background (CMB) data and late-time expansion history probes
+in the form of distance measurements from Baryon Acoustic Oscillations (BAO) and Type Ia Supernovae (SN). While
+the most constraining results placed the IO under some tension with the cosmological upper limits on Σ (which were
+nearing the lower limit of ∼ 0.06 eV set by oscillations for NO), the exact preference for the NO over the IO (and
+more broadly the tightest limits themselves) varied significantly depending on the number of underlying assumptions
+and datasets involved in the different analyses.
+   In April 2024, the Dark Energy Spectroscopic Instrument (DESI) released BAO measurements based on its first year
+of observations [102–106]. DESI BAO provides precise constraints on the transverse comoving distance, the Hubble
+rate, and their combination (all relative to the value of the sound horizon at the drag epoch) that, when combined with
+CMB data from the Planck satellite and the Atacama Cosmology Telescope (ACT) [107–109], generally push the best
+fit to Σ = 0 and set a particularly tight limit Σ < 0.072 eV at 95% CL. This limit is well below the minimum allowed
+by oscillation experiments for IO and close to the minimum for NO [22]. Even more puzzling is that when relaxing the
+well-motivated physical prior Σ > 0 (employed in the DESI analyses) and allowing for the unphysical region Σ < 0,
+negative neutrino masses appear favored by the data, as reported by a few independent groups [110–113].
+   Taken at face value, these results raise important concerns, either pointing to possible undetected observational
+systematics in the DESI BAO data (and/or other probes involved in the analyses) or suggesting the emergence of new
+physics beyond the ΛCDM model, adding to a longstanding series of tensions challenging the validity of the standard
+cosmological framework. Given the current uncertainty, with analyses supporting each direction [102, 110–121], both
+possibilities warrant serious consideration.
+   Regarding observational systematics, a first particularly notable issue arises from the DESI BAO measurement at
+z = 0.71, which exhibits a ∼ 3σ tension with predictions from the Planck best-fit ΛCDM cosmology [111, 122–124].
+More broadly, the overall DESI BAO best-fit ΛCDM cosmology is found to be in ∼ 1.8σ disagreement with the
+best-fit Planck ΛCDM cosmology. This has led many to argue that the observed preference for small Σ may stem
+from a combination of measurements that do not fully align yet are not in significant tension either, representing a
+classic edge-case scenario. Similarly, systematic uncertainties in Planck CMB data could also be crucial. The DESI
+collaboration’s analysis relies on the Plik likelihood for high-ℓ temperature and polarization anisotropies, used in
+Planck 2018 Data Release 3 (PR3). Over time, mild anomalies have been identified in PR3 data, possibly affecting
+the constraints on the total neutrino mass. One notable example is the higher lensing amplitude inferred from Planck
+temperature and polarization spectra, characterized by the parameter Alens [125], which deviates from its expected
+value by about 2.8σ [98, 126–128]. Since massive neutrinos impact the CMB spectra similarly to variations in Alens ,
+this anomaly has significant implications for neutrino mass constraints [14]. To address these concerns, substantial
+reanalyses of Planck data have been conducted since 2018. The 2020 Planck Data Release 4 (PR4) introduced the
+NPIPE CMB maps, incorporating improvements that led to updated likelihoods for temperature and polarization
+spectra. The latest CamSpec [129] and HiLLiPoP [130] likelihoods, now based on PR4 NPIPE maps, reduce small-scale
+noise relative to Plik and enhance cosmological parameter constraints by up to 10%. Both likelihoods indicate a
+shift toward Alens = 1, mitigating the lensing anomaly. Several groups have explored how the DESI collaboration’s
+neutrino mass bounds, derived using the Plik PR3 likelihood, change when adopting PR4-based likelihoods. These
+studies suggest that using CamSpec or HiLLiPoP relaxes the neutrino mass constraints compared to Plik [121] while
+mitigating the shift toward a best-fit Σ = 0 cosmology [111].
+   As for new physics, cosmological constraints on Σ are inherently model-dependent. While most upper limits on Σ
+are derived within the minimal 7-parameter ΛCDM+Σ model, the tensions emerging in the neutrino sector after the
+release of the DESI BAO data may indicate limitations of the standard ΛCDM cosmology in accurately describing these
+                                                                                                                                           14
+
+
+         TABLE IV: Results of the cosmological data analysis under three model assumptions: standard cosmology with neutrino masses
+         (ΛCDM+Σ), an extended model accounting for lensing systematics (ΛCDM+Σ+Alens ), and a nonstandard cosmology with dynam-
+         ical dark energy and neutrino masses (w0 wa CDM+Σ). The datasets used are listed in Section III C. For Planck, we consider both
+         Plik and CamSpec likelihoods, which yield very similar results in all cases (shown explicitly only for ΛCDM+Σ). Upper bounds on
+         Σ are reported at the 2σ level.
+
+         #                        Model                                    Data set                                        Σ (2σ)
+          1                       ΛCDM + Σ                                 Plik                                            < 0.175 eV
+          2                                                                Plik+DESI                                       < 0.065 eV
+          3                                                                Plik+DESI+PP                                    < 0.073 eV
+          4                                                                Plik+DESI+DESy5                                 < 0.091 eV
+          5                                                                camspec                                         < 0.193 eV
+          6                                                                camspec+DESI                                    < 0.064 eV
+          7                                                                camspec+DESI+PP                                 < 0.074 eV
+          8                                                                camspec+DESI+DESy5                              < 0.088 eV
+          9                       ΛCDM+Σ+Alens                             Plik                                            < 0.616 eV
+         10                                                                Plik+DESI                                       < 0.204 eV
+         11                                                                Plik+DESI+PP                                    < 0.255 eV
+         12                                                                Plik+DESI+DESy5                                 < 0.287 eV
+         13                       w0 wa CDM+Σ                              Plik                                            < 0.279 eV
+         14                                                                Plik+DESI                                       < 0.211 eV
+         15                                                                Plik+DESI+PP                                    < 0.155 eV
+         16                                                                Plik+DESI+DESy5                                 < 0.183 eV
+
+
+
+precise observations. The strongest hint of new physics emerging from combining DESI BAO data with other probes
+involves the Dark Energy (DE) sector. In particular, the DESI collaboration, along with independent re-analyses,
+reported moderate to strong evidence for Dynamical Dark Energy (DDE) when combining DESI BAO with Planck
+CMB and Supernovae (SN) distance modulus measurements from three samples: Pantheon-plus [131, 132], Union3
+[133], and DESy5 [134–136]. Under the Chevallier-Polarski-Linder (CPL) parameterization, w(a) = w0 + wa (1 − a),
+these combinations of datasets consistently point toward a present-day quintessence-like equation of state (w0 > −1)
+that crosses the phantom barrier (wa < 0). The evidence for DDE reaches ∼ 3.9σ combining Planck CMB, DESI
+BAO, and DESy5 SN, while it decreases to ∼ 2.5σ (∼ 3.5σ) when replacing DESy5 with Pantheon-plus (Union3)
+[102]. Further studies show that in a 9-parameter w0 wa CDM+Σ model, the bound on Σ is relaxed compared to
+the ΛCDM+Σ model [22, 102, 110]. This emphasizes that it is premature to question our understanding of neutrino
+physics or make definitive claims about mass ordering based on current results. It also highlights that potential models
+of new physics that reconcile cosmology with oscillation experiments involve adjustments to cosmological scenarios
+without altering the standard 3ν paradigm. At the same time, these findings make it imperative to thoroughly
+investigate the potential implications of these hints of new physics for the global analysis conducted in this study.
+   Table IV provides updated cosmological constraints on Σ. These constraints are derived within different cosmolog-
+ical models and using various combinations of cosmological and astrophysical datasets/likelihoods, which have been
+strategically chosen to account for several possible sources of uncertainty, including potential undetected observational
+systematics and signals of new physics discussed thus far. Model-wise we consider three different scenarios:
+
+   • ΛCDM+Σ: We start from the 7-parameter model, which extends the baseline ΛCDM cosmology by including
+     the total neutrino mass Σ as the only additional free parameter. For simplicity and to ensure numerical conver-
+     gence in the analyses, we adopt the degenerate neutrino mass approximation for Σ in this and the other models
+     discussed below. While in the previous global analysis we considered the split masses for NO and IO [14], we
+     anticipate that the variations in the constraints on Σ discussed here are significantly larger than the uncertainties
+     introduced by the degenerate mass assumption. This has been repeatedly verified in the literature, including in
+     recent studies by some of us in relation to the latest data [22].
+   • ΛCDM+Σ+Alens : We consider the 8-parameter model, which extends the baseline ΛCDM cosmology by
+     including the total neutrino mass Σ and the lensing amplitude parameter Alens .
+   • w0 wa CDM+Σ: We consider the 9-parameter model, which extends the baseline ΛCDM cosmology by including
+     the total neutrino mass Σ and promoting the DE equation of state to a dynamical function of the scale factor
+     w(a) = w0 + wa (1 − a) characterized by two additional parameters w0 and wa .
+
+Data-wise our baseline datasets involve:
+                                                                                                                     15
+
+   • Plik: The Plik likelihood for high-ℓ TT, TE, EE PR3 spectra, along with the Commander and SimAll likelihoods
+     for the low-ℓ temperature and polarization TT and EE spectra from the same data release [98], and a combination
+     of Planck PR4 NPIPE and ACT-DR6 lensing likelihoods [108, 109, 137].
+   • Camspec: We replace the Planck-PR3 Plik high-ℓ TTTEEE likelihood with the more recent CamSpec like-
+     lihood [129], based on the Planck-PR4 NPIPE data release [137, 138]. We retain the same low-ℓ and lensing
+     likelihoods from the Plik combination.
+   • DESI: BAO measurements extracted from observations of galaxies and quasars [103], along with Lyman-α [105]
+     tracers from the first year of observations using the Dark Energy Spectroscopic Instrument. These include
+     measurements of the transverse comoving distance, the Hubble horizon, and the angle-averaged distance, as
+     summarized in Tab. I of Ref. [102].
+   • PantheonPlus: Distance modulus measurements of 1701 light curves from 1550 spectroscopically confirmed
+     Type Ia SN, sourced from eighteen different surveys, gathered from the Pantheon-plus sample [131, 132].
+   • DESy5: Distance modulus measurements of 1635 Type Ia SN covering the redshift range 0.10 < z < 1.13,
+     collected during the full five years of the Dark Energy Survey (DES) Supernova Program [134–136], along with
+     194 low-redshift SN in the redshift range 0.025 < z < 0.1, in common with Pantheon-plus.
+
+   Note that we consider different data combinations to assess their impact on constraints on Σ. We first examine
+the case where only CMB observations are included, using either the combination of datasets Plik or Camspec. This
+provides us with a baseline reference case to evaluate how distance measurements from BAO and SN affect the
+constraints on Σ. The second combination we analyze is CMB with DESI BAO, which generally yields the tightest
+limits on Σ. Finally, we consider the full combination of CMB, DESI BAO, and SN. The inclusion of SN data is
+particularly relevant, as much of the preference for DDE is driven by SN measurements and reinforced by DESI BAO
+data [139–141]. This makes SN data crucial for evaluating how neutrino mass constraints evolve in the presence of a
+preference for DDE. We focus on the two Type Ia SN samples, PantheonPlus and DESy5, which exhibit the smallest
+and largest deviations from ΛCDM, respectively. We do not consider the Union3 sample, as it falls between these
+two.
+   To derive cosmological constraints for all the different models and data combinations, we use Markov Chain Monte
+Carlo (MCMC) analyses, computing the theoretical predictions with CAMB [142, 143], and exploring the parameter
+space with the sampler Cobaya [144, 145]. The output from the MCMC analysis (i.e., the posterior probability
+distribution functions of Σ) is converted into equivalent χ2 values. We then quote the corresponding upper bound at
+∆χ2 = 4 (2σ) from the best fit, which is either null or compatible with null values within < 1σ in all cases considered.
+Note that our χ2 translation yields upper bounds on Σ that differ slightly (typically by less than 10%) from those
+obtained directly from the MCMC posterior distributions. This explains the minor differences between our results
+summarized in Table IV and those reported in the literature for the same models and data combinations. Despite
+these small differences, our findings align with expectations based on previous discussions and existing literature.
+   Focusing on the minimal ΛCDM+Σ model, we find that the Planck PR3-based Plik likelihood leads to an upper
+bound of Σ < 0.175 eV. This limit is slightly relaxed to Σ < 0.193 eV when using Camspec. Although, for clarity,
+we show the Plik versus Camspec comparison only for the standard ΛCDM+Σ scenario in Table IV, we have verified
+that the same effect is consistent across all examined models. Among the different data combinations, the tightest
+constraint, Σ < 0.065 eV, comes from combining Planck CMB and DESI BAO. Conversely, introducing SN measure-
+ments (whether PantheonPlus or DESy5) leads to weaker constraints. This is due to the fact that, assuming a ΛCDM
+cosmology, SN data typically favor a higher present-day matter density, Ωm , than BAO measurements [121, 146].
+Consequently, when SN data is included, Ωm shifts to larger values, which allows for a slightly higher total neutrino
+mass.
+   Within the ΛCDM+Alens +Σ model, CMB-only results relax the upper bound to Σ < 0.6 eV. This is approximately
+a factor of ∼ 3.5 larger than in the baseline case, underscoring once again the strong correlation between Σ and
+Alens . The inclusion of DESI BAO tightens this limit to Σ < 0.204 eV, an improvement by a factor of ∼ 3, which
+is comparable to the relative improvement observed within the baseline ΛCDM+Σ scenario. Similarly to that case,
+incorporating either PantheonPlus or DESy5 slightly weakens the bound on Σ for the same reasons outlined earlier.
+   In the dynamical w0 wa CDM+Σ model, where the cosmological constant assumption is relaxed, CMB data alone
+yield a constraint of Σ < 0.279 eV, which is about 1.6 times larger than in the ΛCDM+Σ model. In this case,
+the inclusion of DESI BAO only marginally improves the bound, as BAO data primarily constrains the w0 and wa
+parameters, which significantly affect background expansion but have minimal impact on CMB physics. Notably,
+incorporating SN measurements does not relax the bound on Σ as in other models but instead slightly strengthens
+it: both PantheonPlus and DESy5 push the limit below 0.2 eV. This occurs because SN data favor a deviation from
+ΛCDM, redistributing the preference for higher Ωm and tightening the constraint on Σ.
+                                                                                                                           16
+
+                                            1
+
+
+                                         10 1
+
+                                m (eV)
+                                                                              Normal Ordering (2 )
+                                                                              Inverted Ordering (2 )
+                                         10 2
+
+
+                                         10 3     10 1          1
+                                            1                          1
+
+
+                                         10 1                       10 1
+
+                                m (eV)
+                                         10 2                       10 2
+
+
+                                         10 3     10 1          1   10 10
+                                                                        3
+                                                                          3       10 2      10 1       1
+                                                         (eV)                        m (eV)
+            FIG. 10:    Comparison of separate oscillation and nonoscillation bounds on the absolute mass observables
+            (Σ, mβ , mββ ), in each of the three planes charted by a pair of observables. Bounds are shown at 2σ for NO
+            (blue) and IO (red). For Σ we consider three alternative bounds, corresponding to Σ < 0.2 eV within a factor
+            of 3 (upward and downward), see the text for details. Note that we take ∆χ2IO−NO = 0 in this figure.
+
+
+   In conclusion, it appears rather premature to quote a “consensus” upper bound on Σ from cosmological data at
+present. We prefer to quote a “range” of upper bounds, noticing that the 2σ cosmological limits on Σ from Table IV
+cluster around a reasonable “geometric average” value of Σ < 0.2 eV, with variations up to a factor of 3 (upwards or
+downwards), depending on the specific model and dataset employed. We thus surmise that
+                                                Σ < 0.2 eV at 2σ (within a factor of 3)                                    (7)
+may be considered as a reasonable summary of acceptable and physically motivated current bounds, ranging from
+very conservative (Σ < 0.60 eV) to very aggressive (Σ < 0.07 eV). This interval of limits is essentially supported by
+Planck data alone within standard cosmology, as well as by both Planck and DESI in nonstandard cases. In particular,
+this range also covers representative effects of observational systematics or of new physics, that may affect cosmology
+without altering the standard 3ν framework adopted herein. We note that recent discussions within the neutrino and
+cosmology communities also tend to quote “reasonably safe” upper limits clustered around 0.2 eV, see e.g. [147].
+
+                     D.   Comparison of oscillation and nonoscillation bounds on (mβ , mββ , Σ)
+
+   The constraints derived on the oscillation parameters strongly reduce the phase space available for the three absolute
+mass observables (mβ , mββ , Σ) [84]. Pairs of observables are then constrained within two (NO and IO) correlated
+bands, that tend to merge for relatively high neutrino masses as compared to their splittings (so-called “degenerate”
+mass spectrum), while they branch out for relatively small masses (so-called “hierarchical” mass spectrum). The
+width of the IO and NO bands is determined by the small uncertainty on the oscillation parameters and, for mββ ,
+also by the unknown values of the Majorana phases. In this context, we assume the IO and NO cases on the same
+footing (∆χ2IO−NO = 0).
+   Figure 10 shows the 2σ bands allowed by current oscillation constraints (NO in blue and IO in red) in the planes
+charted by any pair of observables among (mβ , mββ , Σ). Also shown (in grey) are the regions disfavored by the
+upper limits at 2σ from Eqs. (2), (6) and (7). For the latter we distinguish three limits, corresponding to Σ values
+of 0.2, 0.2 × 3 and 0.2/3 eV. In the (mβ , Σ) plane, the constraint mβ < 0.5 eV represents a safe and uncontroversial
+limit that, however, is still relatively weak, as it cuts only the upper part of the NO and IO bands; a stronger cut
+is placed by the conservative upper limit Σ < 0.6 eV. Similar arguments apply to the (mβ , mββ ) plane, where the
+bound mββ < 0.085 eV wins (if neutrinos are Majorana). In any case, all these bounds disfavor a large part of the
+degenerate spectrum region.
+   In the (mββ , Σ) panel of Fig. 10, the intermediate cosmology bound Σ < 0.2 eV and the 0νββ bound mββ < 0.085 eV
+cut the parameter space in the transition region between degenerate and hierarchical, implying individual neutrino
+                                                                                                                      17
+
+masses definitely lighter than one tenth of eV, and leaving open both options for mass ordering (NO and IO). We
+think that this may be considered as a reasonable summary of the current situation about absolute neutrino masses.
+This situation is similar to (and even a bit more conservative than) the case dubbed as “default” in the previous
+analysis [14]: indeed, despite the experimental progress and results on (mβ , mββ , Σ) appeared after the work [14],
+there is currently a more pronounced uncertainty on the dominant limits placed by Σ. Finally, considering the
+aggressive upper limit Σ < 0.067 eV in Fig. 10, cosmology alone would not only cut a large part of the hierarchical
+spectrum region, but also exclude the IO case, leaving only a thin slice of phase space available for NO. In this case,
+β and 0νββ decay searches for absolute neutrino masses should be targeted to values as small as mβ ∼ 10−2 eV
+and mββ < 10−2 eV, respectively. A future determination of the mass ordering via oscillations will be important to
+reduce the variety of possible cases in Fig. 10, but might also reveal tensions with non-oscillation observables (e.g.,
+lack of overall convergence on either NO or IO) that could even point towards new physics beyond the standard 3ν
+framework, see e.g. [148].
+
+                                     IV.   SUMMARY AND PERSPECTIVES
+
+   We have performed an updated global analysis of the known and unknown parameters of the standard 3ν framework,
+using oscillation and nonoscillation data available at the beginning of 2025. Upper and lower bounds on the known
+mixing angles (θ12 , θ23 , θ13 ) and squared mass gaps (δm2 , |∆m2 |) governing ν oscillations are summarized in Fig. 3
+and in Table I for the cases of NO and IO. With respect to the previous 2021 analysis in [14], the combination of
+accelerator, reactor and atmospheric ν data lead to appreciably reduced uncertainties for θ23 , θ13 and |∆m2 |. In
+particular, |∆m2 | is the first 3ν parameter to enter the domain of subpercent precision (0.8% at 1σ). At this level of
+accuracy, issues related to neutrino energy reconstruction, interaction models and correlated systematic uncertainties
+in accelerator and atmospheric neutrino experiments (and in related data analyses) warrant further joint studies by
+the collaborations themselves, possibly leading to more conservative error estimates as argued in Sec. II A. Another
+motivation for these studies is provided by the expected synergy between JUNO and rest-of-the-world oscillation data
+in determining the mass ordering via independent |∆m2 | measurements with subpercent precision. In this context,
+we have mapped current fit results in the plane charted by δm2 and by the effective parameter ∆m2ee (Fig. 7) to be
+directly measured by JUNO, with an immediate impact on the NO vs IO issue (as qualitatively discussed in Sec. II C).
+   The mass ordering, together with the θ23 octant and the CP-violating phase δ, form the set of oscillation unknowns.
+Current hints about such unknowns are all slightly weaker than before [14], and amount to a preference for NO versus
+IO at 2.2σ, for CP violation versus conservation in NO (1.3σ) and for the first θ23 octant versus the second in NO
+(1.1σ). Correlations between such results in increasingly rich data sets have been discussed through Figs. 4-6. The
+current situation about oscillation unknowns appears statistically unstable and quite open to different options in the
+future. We have also discussed the unknown absolute mass observables, including the effective mass mβ from β-decay,
+the Majorana mass mββ from 0νββ decay, and the total ν mass Σ in cosmology. At a C.L. of 2σ we report the bounds
+mβ < 0.50 eV and mββ < 0.086 eV, where the latter includes parametrized nuclear matrix element (co)variances
+for different isotopes. Concerning Σ, an updated discussion of upper bounds necessarily involves a survey of the
+emerging tensions within the standard ΛCDM cosmological model, suggesting possible observational systematics or
+model extensions. We have discussed representative combinations of data, with or without augmenting the ΛCDM
+model with extra parameters accounting for possible systematics (lensing anomaly) or new physics (dynamical dark
+energy). The resulting 2σ upper limits (Table IV) are roughly spread around the bound Σ < 0.2 eV within a factor of
+three (both upwards and downwards), with different implications for NO and IO scenarios, as discussed in the context
+of Fig. 10. Given such large uncertainties, it is premature to endorse definite conclusions about absolute neutrino
+masses, although it is reasonable to assume that their individual values are below one tenth of eV — not much larger
+than their splittings, and compatible with both NO and IO.
+   We are at a very interesting junction in the development of the 3ν paradigm. On the one hand, the five known
+observables (θ12 , θ23 , θ13 ) and (δm2 , |∆m2 |) have been measured with an accuracy ranging from the few-percent level
+of θ23 to the subpercent level of |∆m2 |. On the other hand, the status of the five 3ν unknowns (mass ordering, θ23
+octant, CP violation, absolute masses, Dirac or Majorana nature) remains quite open to different outcomes. The
+next relevant “trait d’union” between knowns and unknowns will be provided by the first JUNO data release, that
+will not only improve the precision of ∆m2 and other parameters, but also affect the relative likelihood of NO and
+IO, first in synergy with other data and then autonomously. On a different time scale, it will also be important to
+clarify the situation of cosmological bounds on Σ, especially in view of a possible detection or claim of Σ > 0 in future
+experiments. Of course, also searching for the unknown CP-violating phase δ remains a high priority. Along this
+path, it should not be given for granted that synergies will clearly emerge, or that different datasets will necessarily
+converge: (new) tensions might affect the comparison of independent data, and redundant information from different
+and complementary experiments will remain crucial to either confirm the 3ν paradigm, or to find new phenomena
+beyond it.
+                                                                                                                              18
+
+                                                     Acknowledgments
+
+  The work of F.C., E.L, A.M., A.M. and A.P. was partially supported by the research grant number 2022E2J4RK
+“PANTHEON: Perspectives in Astroparticle and Neutrino THEory with Old and New messengers” under the program
+PRIN 2022 funded by the Italian Ministero dell’Università e della Ricerca (MUR) and by the European Union –
+Next Generation EU, as well as by the Theoretical Astroparticle Physics (TAsP) initiative of the Istituto Nazionale
+di Fisica Nucleare (INFN). W.G. acknowledges support from the Lancaster-Sheffield Consortium for Fundamental
+Physics through the Science and Technology Facilities Council (STFC) grant ST/X000621/1. W.G. acknowledges
+IT Services at The University of Sheffield for the provision of services for High Performance Computing. We thank
+Eleonora Di Valentino for useful discussions during the preparation of this work.
+
+
+
+
+  [1] S. Navas et al. [Particle Data Group], “Review of Particle Physics,” Phys. Rev. D 110, no.3, 030001 (2024)
+  [2] M. C. Gonzalez-Garcia and M. Yokoyama, “Neutrino Masses, Mixing, and Oscillations,” in [1].
+  [3] Neutrino 2024, XXXI International Conference on Neutrino Physics and Astrophysics (Milan, Italy, 16–22 June 2024).
+      Website: https://agenda.infn.it/event/37867/
+  [4] A. McDonald, “Opening talk: Where are we?,” in [3].
+  [5] C. Giganti [T2K], “T2K recent results and plans,” in [3].
+  [6] J. Wolcott [NOvA], “New NOvA Results with 10 Years of Data,” in [3].
+  [7] Multi-experiment oscillation measurements, NuFACT Satellite Workshop (Argonne Nat. Lab., US, 15-Sept. 2024). Web-
+      site: https://indico.global/event/3065/
+  [8] G. L. Fogli, E. Lisi and D. Montanino, “A comprehensive analysis of solar, atmospheric, accelerator and reactor neutrino
+      experiments in a hierarchical three generation scheme,” Phys. Rev. D 49, 3626-3642 (1994).
+  [9] M. Tortola, “Global analysis of three-neutrino oscillations,” in [3].
+ [10] E. Lisi, “Outlook on ν theory and phenomenology,” in [3].
+ [11] T. Schwetz, “Global analyses now and in the future,” Concluding Talk at NOW 2024, International Neutrino Oscillation
+      Workshop (Otranto, Lecce, Italy, 2–8 Sept. 2024). Website: https://agenda.infn.it/event/39753/
+ [12] P. F. de Salas, D. V. Forero, S. Gariazzo, P. Martı́nez-Miravé, O. Mena, C. A. Ternes, M. Tórtola and J. W. F. Valle,
+      “2020 global reassessment of the neutrino oscillation picture,” JHEP 02, 071 (2021) [arXiv:2006.11237 [hep-ph]].
+ [13] I. Esteban, M. C. Gonzalez-Garcia, M. Maltoni, T. Schwetz and A. Zhou, “The fate of hints: updated global analysis of
+      three-flavor neutrino oscillations,” JHEP 09, 178 (2020) [arXiv:2007.14792 [hep-ph]].
+ [14] F. Capozzi, E. Di Valentino, E. Lisi, A. Marrone, A. Melchiorri and A. Palazzo, “Unfinished fabric of the three neutrino
+      paradigm,” Phys. Rev. D 104, no.8, 083031 (2021) [arXiv:2107.00532 [hep-ph]].
+ [15] I. Esteban, M. C. Gonzalez-Garcia, M. Maltoni, I. Martinez-Soler, J. P. Pinheiro and T. Schwetz, “NuFit-6.0: updated
+      global analysis of three-flavor neutrino oscillations,” JHEP 12, 216 (2024) [arXiv:2410.05380 [hep-ph]].
+ [16] J. Cao, “Status of JUNO,” in [3]
+ [17] F. An et al. [JUNO], “Neutrino Physics with JUNO,” J. Phys. G 43, no.3, 030401 (2016) [arXiv:1507.05613 [physics.ins-
+      det]].
+ [18] A. Abusleme et al. [JUNO], “Sub-percent precision measurement of neutrino oscillation parameters with JUNO,” Chin.
+      Phys. C 46, no.12, 123001 (2022) [arXiv:2204.13249 [hep-ex]].
+ [19] A. Abusleme et al. [JUNO], “Potential to Identify the Neutrino Mass Ordering with Reactor Antineutrinos in JUNO,”
+      [arXiv:2405.18008 [hep-ex]].
+ [20] W. Elbers, “First neutrino results from the Dark Energy Spectroscopic Instrument (DESI),” in [3].
+ [21] S. Gariazzo, “Neutrino nonstandard scenarios and cosmology,” in [3].
+ [22] J. Q. Jiang, W. Giarè, S. Gariazzo, M. G. Dainotti, E. Di Valentino, O. Mena, D. Pedrotti, S. S. da Costa and S. Vagnozzi,
+      “Neutrino cosmology after DESI: tightest mass upper limits, preference for the normal ordering, and tension with terres-
+      trial observations,” [arXiv:2407.18047 [astro-ph.CO]].
+ [23] J. Menendez, “Neutrinoless ββ decay searches: theory of nuclear matrix elements,” in [3].
+ [24] G. L. Fogli, E. Lisi, A. Marrone, D. Montanino, A. Palazzo and A. M. Rotunno, “Global analysis of neutrino masses,
+      mixings and phases: entering the era of leptonic CP violation searches,” Phys. Rev. D 86, 013012 (2012) [arXiv:1205.5254
+      [hep-ph]].
+ [25] K. Abe et al. [Super-Kamiokande], “Solar neutrino measurements using the full data period of Super-Kamiokande-IV,”
+      Phys. Rev. D 109, no.9, 092001 (2024) [arXiv:2312.12907 [hep-ex]].
+ [26] Y. Herrera and A. Serenelli, “Standard Solar Models B23/SF-III” (2023), available at the website:
+      https://doi.org/10.5281/zenodo.10174170
+ [27] We adopt the solar model denoted as “MB22m” in [26], based on the solar meteoritic composition in: E. Magg et al.,
+      “Observational constraints on the origin of the elements. IV. Standard composition of the Sun,” Astronomy & Astrophysics
+      661, A140 (2022) [arXiv:2203.02255 [astro-ph]]
+ [28] W. C. Haxton and E. Rule, “The gallium solar neutrino capture cross section revisited,” Phys. Lett. B 861, 139259 (2025)
+      [arXiv:2501.03528 [nucl-ex]].
+                                                                                                                            19
+
+[29] K. Abe et al. [T2K], “Measurements of neutrino oscillation parameters from the T2K experiment using 3.6 × 1021 protons
+     on target,” Eur. Phys. J. C 83, no.9, 782 (2023) [arXiv:2303.03222 [hep-ex]].
+[30] K. Abe et al. [T2K], “Updated T2K measurements of muon neutrino and antineutrino disappearance using 3.6 × 1021
+     protons on target,” Phys. Rev. D 108, no.7, 072011 (2023) [arXiv:2305.09916 [hep-ex]].
+[31] For NOvA results, see also B. J. Jargowsky, “A Measurement of νe Appearance and νµ Disappearance Us-
+     ing 10 Years of Data from the NOvA Experiment,” PhD Thesis (U. of California, Irvine, 2024), available at
+     https://escholarship.org/uc/item/8t19p34n
+[32] F. P. An et al. [Daya Bay], “Precision Measurement of Reactor Antineutrino Oscillation at Kilometer-Scale Baselines by
+     Daya Bay,” Phys. Rev. Lett. 130, no.16, 161802 (2023) [arXiv:2211.14988 [hep-ex]]. See also the Supplemental Material
+     available at http://link.aps.org/supplemental/10.1103/PhysRevLett.130.161802
+[33] S. Jeon et al. [RENO], “Measurement of reactor antineutrino oscillation amplitude and frequency using 3800 days of
+     complete data sample of the RENO experiment,” [arXiv:2412.18711 [hep-ex]].
+[34] G. L. Fogli, E. Lisi, A. Marrone and D. Montanino, “Status of atmospheric νµ → ντ oscillations and decoherence after
+     the first K2K spectral data,” Phys. Rev. D 67, 093006 (2003) [arXiv:hep-ph/0303064 [hep-ph]].
+[35] F. Capozzi, E. Lisi, A. Marrone and A. Palazzo, “Current unknowns in the three neutrino framework,” Prog. Part. Nucl.
+     Phys. 102, 48-72 (2018) [arXiv:1804.09678 [hep-ph]].
+[36] T. Wester et al. [Super-Kamiokande], “Atmospheric neutrino oscillation analysis with neutron tagging and an expanded
+     fiducial volume in Super-Kamiokande I–V,” Phys. Rev. D 109, no.7, 072014 (2024) [arXiv:2311.05105 [hep-ex]].
+[37] Super-Kamiokande Collaboration, Data Release for [36] (2023), available at https://zenodo.org/records/8401262
+[38] R. Abbasi et al. [IceCube], “Measurement of atmospheric neutrino oscillation parameters using convolutional neural
+     networks with 9.3 years of data in IceCube DeepCore,” [arXiv:2405.02163 [hep-ex]].
+[39] IceCube Collaboration, Data Release for [38] (2024), available at https://doi.org/10.7910/DVN/U20MMB
+[40] T. Wester, “Discerning the neutrino mass ordering using atmospheric neutrinos in Super-Kamiokande I–V,” PhD Thesis
+     (Boston U., 2023), available at https://open.bu.edu/handle/2144/46427
+[41] M. Prado Rodriguez, “Measurement of the Neutrino Mass Ordering with 9.28 Years of IceCube DeepCore Data,” PhD
+     Thesis (U. of Wisconsins–Madison, 2024), available at https://digital.library.wisc.edu/1711.dl/24CPK3B2BJYH586
+[42] G. L. Fogli, E. Lisi, A. Marrone, D. Montanino and A. Palazzo, “Getting the most from the statistical analysis of solar
+     neutrino oscillations,” Phys. Rev. D 66, 053010 (2002) [arXiv:hep-ph/0206162 [hep-ph]].
+[43] E. Lisi, “Global analysis of neutrino mass-mixing parameters: What Next?,” in NPB 2024, International Symposium on
+     Neutrino Physics and Beyond (Hong Kong, China, 19-21 Feb. 2024). Website: https://indico.ihep.ac.cn/event/20514/
+[44] C. A. Argüelles, P. Fernández, I. Martı́nez-Soler and M. Jin, “Measuring Oscillations with a Million Atmospheric Neutri-
+     nos,” Phys. Rev. X 13, no.4, 041055 (2023) [arXiv:2211.02666 [hep-ph]].
+[45] K. Abe et al. [T2K and Super-Kamiokande], “First Joint Oscillation Analysis of Super-Kamiokande Atmospheric and
+     T2K Accelerator Neutrino Data,” Phys. Rev. Lett. 134, no.1, 011801 (2025) [arXiv:2405.12488 [hep-ex]].
+[46] S. Abe, “Implementation and investigation of electron-nucleus scattering in the NEUT neutrino event generator,” Phys.
+     Rev. D 111, no.3, 033006 (2025) [arXiv:2412.07466 [hep-ph]].
+[47] N. M. Coyle, S. W. Li and P. A. N. Machado, “Neutrino-Nucleus Cross Section Impacts on Neutrino Oscillation Mea-
+     surements,” [arXiv:2502.19467 [hep-ph]].
+[48] S. S. Chatterjee and A. Palazzo, “Status of tension between NOvA and T2K after Neutrino 2024 and possible role of
+     nonstandard neutrino interactions,” Phys. Rev. D 110, no.11, 113002 (2024) [arXiv:2409.10599 [hep-ph]].
+[49] G. L. Fogli, E. Lisi, A. Marrone, A. Palazzo and A. M. Rotunno, “Hints of θ13 > 0 from global neutrino data analysis,”
+     Phys. Rev. Lett. 101, 141801 (2008) [arXiv:0806.2649 [hep-ph]].
+[50] G. L. Fogli, E. Lisi, A. Marrone, A. Palazzo and A. M. Rotunno, “Evidence of θ13 >0 from global neutrino data analysis,”
+     Phys. Rev. D 84, 053007 (2011) [arXiv:1106.6028 [hep-ph]].
+[51] F. P. An et al. [Daya Bay], “Observation of electron-antineutrino disappearance at Daya Bay,” Phys. Rev. Lett. 108,
+     171803 (2012) [arXiv:1203.1669 [hep-ex]].
+[52] J. K. Ahn et al. [RENO], “Observation of Reactor Electron Antineutrino Disappearance in the RENO Experiment,” Phys.
+     Rev. Lett. 108, 191802 (2012) [arXiv:1204.0626 [hep-ex]].
+[53] Y. Abe et al. [Double Chooz], “Reactor electron antineutrino disappearance in the Double Chooz experiment,” Phys.
+     Rev. D 86, 052008 (2012) [arXiv:1207.6632 [hep-ex]].
+[54] A. Allega et al. [SNO+], “Initial measurement of reactor antineutrino oscillation at SNO+,” Eur. Phys. J. C 85, no.1, 17
+     (2025) [arXiv:2405.19700 [hep-ex]].
+[55] J. Maneira, “Solar Neutrinos: Recent Results and Prospects,” in [3].
+[56] S. T. Petcov and M. Piai, “The LMA MSW solution of the solar neutrino problem, inverted neutrino mass hierarchy and
+     reactor neutrino experiments,” Phys. Lett. B 533, 94-106 (2002) [arXiv:hep-ph/0112074 [hep-ph]].
+[57] H. Nunokawa, S. J. Parke and R. Zukanovich Funchal, “Another possible way to determine the neutrino mass hierarchy,”
+     Phys. Rev. D 72, 013009 (2005) [arXiv:hep-ph/0503283 [hep-ph]].
+[58] H. Minakata, H. Nunokawa, S. J. Parke and R. Zukanovich Funchal, “Determination of the Neutrino Mass Hierarchy
+     via the Phase of the Disappearance Oscillation Probability with a Monochromatic ν̄e Source,” Phys. Rev. D 76, 053004
+     (2007) [erratum: Phys. Rev. D 76, 079901 (2007)] [arXiv:hep-ph/0701151 [hep-ph]].
+[59] F. Capozzi, E. Lisi and A. Marrone, “Neutrino mass hierarchy and electron neutrino oscillation parameters with one
+     hundred thousand reactor events,” Phys. Rev. D 89, no.1, 013001 (2014) [arXiv:1309.1638 [hep-ph]].
+[60] F. Capozzi, E. Lisi and A. Marrone, “Neutrino mass hierarchy and precision physics with medium-baseline reactors:
+     Impact of energy-scale and flux-shape uncertainties,” Phys. Rev. D 92, no.9, 093011 (2015) [arXiv:1508.01392 [hep-ph]].
+                                                                                                                                20
+
+[61] F. Capozzi, E. Lisi and A. Marrone, “Mapping reactor neutrino spectra from TAO to JUNO,” Phys. Rev. D 102, no.5,
+     056001 (2020) [arXiv:2006.01648 [hep-ph]].
+[62] A. de Gouvea, J. Jenkins and B. Kayser, “Neutrino mass hierarchy, vacuum oscillations, and vanishing |Ue3 |,” Phys. Rev.
+     D 71, 113009 (2005) [arXiv:hep-ph/0503079 [hep-ph]].
+[63] H. Minakata, H. Nunokawa, S. J. Parke and R. Zukanovich Funchal, “Determining neutrino mass hierarchy by precision
+     measurements in electron and muon neutrino disappearance experiments,” Phys. Rev. D 74, 053008 (2006) [arXiv:hep-
+     ph/0607284 [hep-ph]].
+[64] X. Qian, D. A. Dwyer, R. D. McKeown, P. Vogel, W. Wang and C. Zhang, “Mass Hierarchy Resolution in Reactor
+     Anti-neutrino Experiments: Parameter Degeneracies and Detector Energy Response,” Phys. Rev. D 87, no.3, 033005
+     (2013) [arXiv:1208.1551 [physics.ins-det]].
+[65] Y. F. Li, J. Cao, Y. Wang and L. Zhan, “Unambiguous Determination of the Neutrino Mass Hierarchy Using Reactor
+     Neutrinos,” Phys. Rev. D 88, 013008 (2013) [arXiv:1303.6733 [hep-ex]].
+[66] A. Cabrera, Y. Han, M. Obolensky, F. Cavalier, J. Coelho, D. Navas-Nicolás, H. Nunokawa, L. Simard, J. Bian and
+     N. Nayak, et al. “Synergies and prospects for early resolution of the neutrino mass ordering,” Sci. Rep. 12, no.1, 5393
+     (2022) [arXiv:2008.11280 [hep-ph]].
+[67] S. Cao, A. Nath, T. V. Ngoc, P. T. Quyen, N. T. Hong Van and N. K. Francis, “Physics potential of the combined
+     sensitivity of T2K-II, NOνA extension, and JUNO,” Phys. Rev. D 103, no.11, 112010 (2021) [arXiv:2009.08585 [hep-ph]].
+[68] S. Choubey, M. Ghosh and D. Raikwal, “Neutrino mass ordering: Circumventing the challenges using synergy between
+     T2HK and JUNO,” Phys. Rev. D 106, no.11, 115013 (2022) [arXiv:2207.04784 [hep-ph]].
+[69] M. Blennow and T. Schwetz, “Determination of the neutrino mass ordering by combining PINGU and Daya Bay II,”
+     JHEP 09, 089 (2013) [arXiv:1306.3988 [hep-ph]].
+[70] M. G. Aartsen et al. [IceCube-Gen2], “Combined sensitivity to the neutrino mass ordering with JUNO, the IceCube
+     Upgrade, and PINGU,” Phys. Rev. D 101, no.3, 032006 (2020) [arXiv:1911.06745 [hep-ex]].
+[71] S. Aiello et al. [KM3NeT and JUNO], “Combined sensitivity of JUNO and KM3NeT/ORCA to the neutrino mass
+     ordering,” JHEP 03, 055 (2022) [arXiv:2108.06293 [hep-ex]].
+[72] A. Ghosh, T. Thakore and S. Choubey, “Determining the Neutrino Mass Hierarchy with INO, T2K, NOvA and Reactor
+     Experiments,” JHEP 04, 009 (2013) [arXiv:1212.1305 [hep-ph]].
+[73] D. Raikwal, S. Choubey and M. Ghosh, “Determining neutrino mass ordering with ICAL, JUNO and T2HK,” Eur. Phys.
+     J. Plus 138, no.2, 110 (2023) [erratum: Eur. Phys. J. Plus 138, no.6, 485 (2023)] [arXiv:2207.06798 [hep-ph]].
+[74] X. Qian and P. Vogel, “Neutrino Mass Hierarchy,” Prog. Part. Nucl. Phys. 83, 1-30 (2015) [arXiv:1505.01891 [hep-ex]].
+[75] X. Qian and J. C. Peng, “Physics with Reactor Neutrinos,” Rept. Prog. Phys. 82, no.3, 036201 (2019) [arXiv:1801.05386
+     [hep-ex]].
+[76] P. F. De Salas, S. Gariazzo, O. Mena, C. A. Ternes and M. Tórtola, “Neutrino Mass Ordering from Oscillations and
+     Beyond: 2018 Status and Future Prospects,” Front. Astron. Space Sci. 5, 36 (2018) [arXiv:1806.11051 [hep-ph]].
+[77] V. Antonelli, L. Miramonti and G. Ranucci, “Present and Future Contributions of Reactor Experiments to Mass Ordering
+     and Neutrino Oscillation Studies,” Universe 6, no.4, 52 (2020)
+[78] O. A. Akindele et al. [CHANDLER, CONNIE, CONUS, Daya Bay, JUNO, MTAS, NEOS, NuLat, PROSPECT, RENO,
+     Ricochet, ROADSTR Near-Field Working Group, SoLid, Stereo, Valencia-Nantes TAGS, vIOLETA and WATCHMAN],
+     “Particle physics using reactor antineutrinos,” J. Phys. G 51, no.8, 080501 (2024) [arXiv:2203.07214 [hep-ex]].
+[79] I. Esteban, M. C. Gonzalez-Garcia, M. Maltoni, I. Martinez-Soler and T. Schwetz, “Updated fit to three neutrino mixing:
+     exploring the accelerator-reactor complementarity,” JHEP 01, 087 (2017) [arXiv:1611.01514 [hep-ph]].
+[80] D. V. Forero, S. J. Parke, C. A. Ternes and R. Z. Funchal, “JUNO’s prospects for determining the neutrino mass ordering,”
+     Phys. Rev. D 104, no.11, 113004 (2021) [arXiv:2107.12410 [hep-ph]].
+[81] S. J. Parke and R. Zukanovich-Funchal, “A Mass Ordering Sum Rule for the Neutrino Disappearance Channels in T2K,
+     NOvA and JUNO,” [arXiv:2404.08733 [hep-ph]].
+[82] F. Capozzi, S. W. Li, G. Zhu and J. F. Beacom, “DUNE as the Next-Generation Solar Neutrino Experiment,” Phys. Rev.
+     Lett. 123, no.13, 131803 (2019) [arXiv:1808.08232 [hep-ph]].
+[83] P. B. Denton and J. Gehrlein, “Solar parameters in long-baseline accelerator neutrino oscillations,” JHEP 06, 090 (2023)
+     [arXiv:2302.08513 [hep-ph]].
+[84] G. L. Fogli, E. Lisi, A. Marrone, A. Melchiorri, A. Palazzo, P. Serra and J. Silk, “Observables sensitive to absolute neutrino
+     masses: Constraints and correlations from world neutrino data,” Phys. Rev. D 70, 113003 (2004) [arXiv:hep-ph/0408045
+     [hep-ph]].
+[85] M. Aker et al. [Katrin], “Direct neutrino-mass measurement based on 259 days of KATRIN data,” [arXiv:2406.13516
+     [nucl-ex]].
+[86] A. Lokhov, private communication.
+[87] J. J. Gómez-Cadenas, J. Martı́n-Albo, J. Menéndez, M. Mezzetto, F. Monrabal and M. Sorel, “The search for neutrinoless
+     double-beta decay,” Riv. Nuovo Cim. 46, no.10, 619-692 (2023).
+[88] M. Agostini, G. Benato, J. A. Detwiler, J. Menéndez and F. Vissani, “Toward the discovery of matter creation with
+     neutrinoless ββ decay,” Rev. Mod. Phys. 95, no.2, 025002 (2023) [arXiv:2202.01787 [hep-ex]].
+[89] M. Agostini et al. [GERDA], “Final Results of GERDA on the Search for Neutrinoless Double-β Decay,” Phys. Rev. Lett.
+     125, no.25, 252502 (2020) [arXiv:2009.06079 [nucl-ex]].
+[90] I. J. Arnquist et al. [Majorana], “Final Result of the Majorana Demonstrator’s Search for Neutrinoless Double-β Decay
+     in Ge76,” Phys. Rev. Lett. 130, no.6, 062501 (2023) [arXiv:2207.07638 [nucl-ex]].
+[91] D. Q. Adams et al. [CUORE], “With or without ν? Hunting for the seed of the matter-antimatter asymmetry,”
+                                                                                                                           21
+
+      [arXiv:2404.04453 [nucl-ex]].
+ [92] S. Abe et al. [KamLAND-Zen], “Search for Majorana Neutrinos with the Complete KamLAND-Zen Dataset,”
+      [arXiv:2406.11438 [hep-ex]].
+ [93] G. Anton et al. [EXO-200], “Search for Neutrinoless Double-β Decay with the Complete EXO-200 Dataset,” Phys. Rev.
+      Lett. 123, no.16, 161802 (2019) [arXiv:1906.02723 [hep-ex]].
+ [94] E. Lisi and A. Marrone, “Majorana neutrino mass constraints in the landscape of nuclear matrix elements,” Phys. Rev.
+      D 106, no.1, 013009 (2022) [arXiv:2204.09569 [hep-ph]].
+ [95] A. Faessler, G. L. Fogli, E. Lisi, V. Rodin, A. M. Rotunno and F. Simkovic, “QRPA uncertainties and their correlations
+      in the analysis of 0νββ decay,” Phys. Rev. D 79, 053001 (2009) [arXiv:0810.5733 [hep-ph]].
+ [96] F. Capozzi, E. Di Valentino, E. Lisi, A. Marrone, A. Melchiorri and A. Palazzo, “Addendum to: Global constraints on
+      absolute neutrino masses and their ordering,” Phys. Rev. D 101, no.11, 116013 (2020) [arXiv:2003.08511 [hep-ph]].
+ [97] F. Capozzi, E. Di Valentino, E. Lisi, A. Marrone, A. Melchiorri and A. Palazzo, “Global constraints on absolute neutrino
+      masses and their ordering,” Phys. Rev. D 95, no.9, 096014 (2017) [arXiv:2003.08511 [hep-ph]].
+ [98] N. Aghanim et al. [Planck], “Planck 2018 results. VI. Cosmological parameters,” Astron. Astrophys. 641, A6 (2020)
+      [erratum: Astron. Astrophys. 652, C4 (2021)] [arXiv:1807.06209 [astro-ph.CO]].
+ [99] N. Palanque-Delabrouille, C. Yèche, N. Schöneberg, J. Lesgourgues, M. Walther, S. Chabanier and E. Armengaud, “Hints,
+      neutrino bounds and WDM constraints from SDSS DR14 Lyman-α and Planck full-survey data,” JCAP 04, 038 (2020)
+      [arXiv:1911.09073 [astro-ph.CO]].
+[100] E. Di Valentino, S. Gariazzo and O. Mena, “Most constraining cosmological neutrino mass bounds,” Phys. Rev. D 104,
+      no.8, 083504 (2021) [arXiv:2106.15267 [astro-ph.CO]].
+[101] S. Brieden, H. Gil-Marı́n and L. Verde, “Model-agnostic interpretation of 10 billion years of cosmic evolution traced by
+      BOSS and eBOSS data,” JCAP 08, no.08, 024 (2022) [arXiv:2204.11868 [astro-ph.CO]].
+[102] A. G. Adame et al. [DESI], “DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscil-
+      lations,” [arXiv:2404.03002 [astro-ph.CO]].
+[103] A. G. Adame et al. [DESI], “DESI 2024 III: Baryon Acoustic Oscillations from Galaxies and Quasars,” [arXiv:2404.03000
+      [astro-ph.CO]].
+[104] K. Lodha et al. [DESI], “DESI 2024: Constraints on physics-focused aspects of dark energy using DESI DR1 BAO data,”
+      Phys. Rev. D 111, no.2, 023532 (2025) [arXiv:2405.13588 [astro-ph.CO]].
+[105] A. G. Adame et al. [DESI], “DESI 2024 IV: Baryon Acoustic Oscillations from the Lyman alpha forest,” JCAP 01, 124
+      (2025) [arXiv:2404.03001 [astro-ph.CO]].
+[106] R. Calderon et al. [DESI], “DESI 2024: reconstructing dark energy using crossing statistics with DESI DR1 BAO data,”
+      JCAP 10, 048 (2024) [arXiv:2405.04216 [astro-ph.CO]].
+[107] S. Aiola et al. [ACT], “The Atacama Cosmology Telescope: DR4 Maps and Cosmological Parameters,” JCAP 12, 047
+      (2020) [arXiv:2007.07288 [astro-ph.CO]].
+[108] M. S. Madhavacheril et al. [ACT], “The Atacama Cosmology Telescope: DR6 Gravitational Lensing Map and Cosmological
+      Parameters,” Astrophys. J. 962, no.2, 113 (2024) [arXiv:2304.05203 [astro-ph.CO]].
+[109] F. J. Qu et al. [ACT], “The Atacama Cosmology Telescope: A Measurement of the DR6 CMB Lensing Power Spectrum
+      and Its Implications for Structure Growth,” Astrophys. J. 962, no.2, 112 (2024) [arXiv:2304.05202 [astro-ph.CO]].
+[110] W. Elbers, C. S. Frenk, A. Jenkins, B. Li and S. Pascoli, “Negative neutrino masses as a mirage of dark energy,”
+      [arXiv:2407.10965 [astro-ph.CO]].
+[111] D. Naredo-Tuero, M. Escudero, E. Fernández-Martı́nez, X. Marcano and V. Poulin, “Critical look at the cosmological
+      neutrino mass bound,” Phys. Rev. D 110, no.12, 123537 (2024) [arXiv:2407.13831 [astro-ph.CO]].
+[112] N. Craig, D. Green, J. Meyers and S. Rajendran, “No νs is Good News,” JHEP 09, 097 (2024) [arXiv:2405.00836
+      [astro-ph.CO]].
+[113] D. Green and J. Meyers, “The Cosmological Preference for Negative Neutrino Mass,” [arXiv:2407.07878 [astro-ph.CO]].
+[114] L. Herold and M. Kamionkowski, “Revisiting the impact of neutrino mass hierarchies on neutrino mass constraints in
+      light of recent DESI data,” [arXiv:2412.03546 [astro-ph.CO]].
+[115] H. G. Escudero and K. N. Abazajian, “The Status of Neutrino Cosmology: Standard ΛCDM, Extensions, and Tensions,”
+      [arXiv:2412.05451 [astro-ph.CO]].
+[116] S. Roy Choudhury and T. Okumura, “Updated Cosmological Constraints in Extended Parameter Space with Planck PR4,
+      DESI Baryon Acoustic Oscillations, and Supernovae: Dynamical Dark Energy, Neutrino Masses, Lensing Anomaly, and
+      the Hubble Tension,” Astrophys. J. Lett. 976, no.1, L11 (2024) [arXiv:2409.13022 [astro-ph.CO]].
+[117] A. G. Adame et al. [DESI], “DESI 2024 VII: Cosmological Constraints from the Full-Shape Modeling of Clustering
+      Measurements,” [arXiv:2411.12022 [astro-ph.CO]].
+[118] J. Rebouças, D. H. F. de Souza, K. Zhong, V. Miranda and R. Rosenfeld, “Investigating Late-Time Dark Energy and
+      Massive Neutrinos in Light of DESI Y1 BAO,” [arXiv:2408.14628 [astro-ph.CO]].
+[119] A. Upadhye, M. R. Mosbech, G. Pierobon and Y. Y. Y. Wong, “Everything hot everywhere all at once: Neutrinos and
+      hot dark matter as a single effective species,” [arXiv:2410.05815 [astro-ph.CO]].
+[120] H. Shao, J. J. Givans, J. Dunkley, M. Madhavacheril, F. Qu, G. Farren and B. Sherwin, “Cosmological limits on the
+      neutrino mass sum for beyond-ΛCDM models,” [arXiv:2409.02295 [astro-ph.CO]].
+[121] I. J. Allali and A. Notari, “Neutrino mass bounds from DESI 2024 are relaxed by Planck PR4 and cosmological super-
+      novae,” JCAP 12, 020 (2024) [arXiv:2406.14554 [astro-ph.CO]].
+[122] Z. Wang, S. Lin, Z. Ding and B. Hu, “The role of LRG1 and LRG2’s monopole in inferring the DESI 2024 BAO cosmology,”
+      Mon. Not. Roy. Astron. Soc. 534, no.4, 3869-3875 (2024) [arXiv:2405.02168 [astro-ph.CO]].
+                                                                                                                             22
+
+[123] E. Ó. Colgáin, M. G. Dainotti, S. Capozziello, S. Pourojaghi, M. M. Sheikh-Jabbari and D. Stojkovic, “Does DESI 2024
+      Confirm ΛCDM?,” [arXiv:2404.08633 [astro-ph.CO]].
+[124] D. Sapone and S. Nesseris, “Outliers in DESI BAO: robustness and cosmological implications,” [arXiv:2412.01740 [astro-
+      ph.CO]].
+[125] E. Calabrese, A. Slosar, A. Melchiorri, G. F. Smoot and O. Zahn, “Cosmic Microwave Weak lensing data as a test for
+      the dark universe,” Phys. Rev. D 77, 123531 (2008) [arXiv:0803.2309 [astro-ph]].
+[126] E. Di Valentino, A. Melchiorri and J. Silk, “Cosmological hints of modified gravity?,” Phys. Rev. D 93, no.2, 023513
+      (2016) [arXiv:1509.07501 [astro-ph.CO]].
+[127] F. Renzi, E. Di Valentino and A. Melchiorri, “Cornering the Planck Alens anomaly with future CMB data,” Phys. Rev.
+      D 97, no.12, 123534 (2018) [arXiv:1712.08758 [astro-ph.CO]].
+[128] G. Domènech, X. Chen, M. Kamionkowski and A. Loeb, “Planck residuals anomaly as a fingerprint of alternative scenarios
+      to inflation,” JCAP 10, 005 (2020) [arXiv:2005.08998 [astro-ph.CO]].
+[129] E. Rosenberg, S. Gratton and G. Efstathiou, “CMB power spectra and cosmological parameters from Planck PR4 with
+      CamSpec,” Mon. Not. Roy. Astron. Soc. 517, no.3, 4620-4636 (2022) [arXiv:2205.10869 [astro-ph.CO]].
+[130] M. Tristram, A. J. Banday, M. Douspis, X. Garrido, K. M. Górski, S. Henrot-Versillé, L. T. Hergt, S. Ilić, R. Keskitalo
+      and G. Lagache, et al. “Cosmological parameters derived from the final Planck data release (PR4),” Astron. Astrophys.
+      682, A37 (2024) [arXiv:2309.10034 [astro-ph.CO]].
+[131] D. Scolnic, D. Brout, A. Carr, A. G. Riess, T. M. Davis, A. Dwomoh, D. O. Jones, N. Ali, P. Charvu and R. Chen,
+      et al. “The Pantheon+ Analysis: The Full Data Set and Light-curve Release,” Astrophys. J. 938, no.2, 113 (2022)
+      [arXiv:2112.03863 [astro-ph.CO]].
+[132] D. Brout, D. Scolnic, B. Popovic, A. G. Riess, J. Zuntz, R. Kessler, A. Carr, T. M. Davis, S. Hinton and D. Jones,
+      et al. “The Pantheon+ Analysis: Cosmological Constraints,” Astrophys. J. 938, no.2, 110 (2022) [arXiv:2202.04077
+      [astro-ph.CO]].
+[133] D. Rubin, G. Aldering, M. Betoule, A. Fruchter, X. Huang, A. G. Kim, C. Lidman, E. Linder, S. Perlmutter and
+      P. Ruiz-Lapuente, et al. “Union Through UNITY: Cosmology with 2,000 SNe Using a Unified Bayesian Framework,”
+      [arXiv:2311.12098 [astro-ph.CO]].
+[134] T. M. C. Abbott et al. [DES], “The Dark Energy Survey: Cosmology Results with ∼1500 New High-redshift Type Ia
+      Supernovae Using the Full 5 yr Data Set,” Astrophys. J. Lett. 973, no.1, L14 (2024) [arXiv:2401.02929 [astro-ph.CO]].
+[135] B. O. Sánchez et al. [DES], “The Dark Energy Survey Supernova Program: Light Curves and 5 Yr Data Release,”
+      Astrophys. J. 975, no.1, 5 (2024) [arXiv:2406.05046 [astro-ph.CO]].
+[136] M. Vincenzi et al. [DES], “The Dark Energy Survey Supernova Program: Cosmological Analysis and Systematic Uncer-
+      tainties,” Astrophys. J. 975, no.1, 86 (2024) [arXiv:2401.02945 [astro-ph.CO]].
+[137] J. Carron, M. Mirmelstein and A. Lewis, “CMB lensing from Planck PR4 maps,” JCAP 09, 039 (2022) [arXiv:2206.07773
+      [astro-ph.CO]].
+[138] Y. Akrami et al. [Planck], “P lanck intermediate results. LVII. Joint Planck LFI and HFI data processing,” Astron.
+      Astrophys. 643, A42 (2020) [arXiv:2007.04997 [astro-ph.CO]].
+[139] A. Notari, M. Redi and A. Tesi, “BAO vs. SN evidence for evolving dark energy,” [arXiv:2411.11685 [astro-ph.CO]].
+[140] W. Giarè, T. Mahassen, E. Di Valentino and S. Pan, “An overview of what current data can (and cannot yet) say about
+      evolving dark energy,” [arXiv:2502.10264 [astro-ph.CO]].
+[141] G. Efstathiou, “Evolving Dark Energy or Supernovae Systematics?,” [arXiv:2408.07175 [astro-ph.CO]].
+[142] A. Lewis, A. Challinor and A. Lasenby, “Efficient computation of CMB anisotropies in closed FRW models,” Astrophys.
+      J. 538, 473-476 (2000) [arXiv:astro-ph/9911177 [astro-ph]].
+[143] C. Howlett, A. Lewis, A. Hall and A. Challinor, “CMB power spectrum parameter degeneracies in the era of precision
+      cosmology,” JCAP 04, 027 (2012) [arXiv:1201.3654 [astro-ph.CO]].
+[144] A. Lewis and S. Bridle, “Cosmological parameters from CMB and other data: A Monte Carlo approach,” Phys. Rev. D
+      66, 103511 (2002) [arXiv:astro-ph/0205436 [astro-ph]].
+[145] A. Lewis, “Efficient sampling of fast and slow cosmological parameters,” Phys. Rev. D 87, no.10, 103529 (2013)
+      [arXiv:1304.4473 [astro-ph.CO]].
+[146] E. Ó. Colgáin and M. M. Sheikh-Jabbari, “DESI and SNe: Dynamical Dark Energy, Ωm Tension or Systematics?,”
+      [arXiv:2412.12905 [astro-ph.CO]].
+[147] Contributions to the Workshop “CERN Neutrino Platform Pheno Week” (CERN, Geneva, Feb. 2025), website:
+      https://indico.cern.ch/event/1454726/
+[148] E. Lisi, “Towards a global analysis of absolute neutrino masses,” in NeuTel 2023 , XX International Workshop on Neutrino
+      Telescopes (Venice, Italy, Oct. 2023). Website: https://agenda.infn.it/event/33107/
+

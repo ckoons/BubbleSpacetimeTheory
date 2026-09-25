@@ -1,0 +1,595 @@
+                                                 Reanalysis of the β − ν¯e Angular Correlation Measurement from the aSPECT
+                                                           Experiment with New Constraints on Fierz Interference
+
+                                                       M. Beck,1 W. Heil,1, ∗ Ch. Schmidt,1 S. Baeßler,2 F. Glück,3 G. Konrad,4 and U. Schmidt5
+                                                                   1
+                                                                       Institut für Physik, Johannes Gutenberg-Universität, 55128 Mainz, Germany
+                                                                              2
+                                                                                Department of Physics, University of Virginia, Charlottesville,
+                                                                                     Virginia 22904, USA and Oak Ridge National Lab,
+                                                                                   Bethel Valley Road, Oak Ridge, Tennessee 37831, USA
+                                           3
+                                             Institut für Astroteilchenphysik (IAP), Karlsruhe Institute of Technology (KIT), 76344 Eggenstein-Leopoldshafen, Germany
+                                                                             4
+                                                                               Technische Universität Wien, Atominstitut, 1020 Wien, Austria
+                                                                    5
+                                                                      Physikalisches Institut, Ruprecht-Karls-Universität, 69120 Heidelberg, Germany
+                                                                                                  (Dated: March 19, 2024)
+                                                           On the basis of revisions of some of the systematic errors, we reanalyzed the electron-antineutrino
+
+
+
+
+arXiv:2308.16170v2 [nucl-ex] 16 Mar 2024
+                                                        angular correlation (a coefficient) in free neutron decay inferred from the recoil energy spectrum of
+                                                        the protons which are detected in 4π by the aSPECT spectrometer. With a = −0.10402(82) the new
+                                                        value differs only marginally from the one published in 2020. The experiment also has sensitivity
+                                                        to b, the Fierz interference term. From a correlated (b, a) fit to the proton recoil spectrum, we
+                                                        derive a limit of b = −0.0098(193) which translates into a somewhat improved 90% CL region of
+                                                        −0.041 ≤ b ≤ 0.022 on this hypothetical term. Tighter constraints on b can be set from a combined(c)
+                                                        analysis of the PERKEO III (β asymmetry) and aSPECT measurement which suggests a finite value
+                                                        of b with b(c) = -0.0181 ± 0.0065 deviating by 2.82σ from the standard model.
+
+
+                                             The free neutron presents a unique system to investi-           and are used for its determination. The SM dependence of
+                                           gate the standard model (SM) of particle physics. While           the electron-antineutrino angular correlation coefficient a
+                                           the neutron lifetime gives the overall strength of the weak       on λ is given by [4, 7, 8]
+                                           semileptonic decay, neutron decay correlation coefficients
+                                           depend on the ratio of the coupling constants involved,                                       1 − |λ|2
+                                                                                                                                    a=             .                  (2)
+                                           and hence determine its internal structure. The aSPECT                                        1 + 3|λ|2
+                                           experiment [1–3] has the goal to determine the ratio
+                                                                                                             In short, at aSPECT the a coefficient is inferred from
+                                           of the weak axial-vector and vector coupling constants
+                                                                                                             the energy spectrum of the recoiling protons from the
+                                           λ = gA /gV from a measurement of the β − ν¯e angular
+                                                                                                             β decay of free neutrons. The shape of this spectrum is
+                                           correlation in neutron decay. The β-decay rate when ob-
+                                                                                                             sensitive to a and it is measured in 4π by the aSPECT
+                                           serving only the electron and neutrino momenta and the
+                                                                                                             spectrometer using magnetic adiabatic collimation with
+                                           neutron spin and neglecting a T -violating term is given
+                                                                                                             an electrostatic filter (MAC-E filter) [9, 10]. This tech-
+                                           by [4]
+                                                                                                             nique in general offers a high luminosity combined with a
+                                            d3 Γ =G2F Vud
+                                                        2
+                                                          1 + 3λ2 pe Ee (E0 − Ee )
+                                                                                   2                        well-defined energy resolution at the same time. In order
+                                                                                                         to extract a reliable value of a, any effect that changes
+                                                           p⃗e · p⃗ν    me   σ⃗n      p⃗e    p⃗ν             the shape of the proton energy spectrum, or to be more
+                                                  · 1+a              +b    +     · A      +B
+                                                            Ee Eν       Ee   σn       Ee     Eν              specific - the integral of the product of the recoil energy
+                                                   · dEe dΩe dΩν                                     (1)     spectrum and the spectrometer transmission function -
+                                                                                                             has to be understood and quantified precisely. With the
+                                           with p⃗e , p⃗ν , Ee , Eν being the momenta and total energies     analysis of all known sources of systematic errors at that
+                                           of the beta electron and the electron-antineutrino, me            time and their inclusion in the final result by means of a
+                                           the mass of the electron, GF the Fermi constant, Vud the          global fit, the aSPECT Collaboration published the value
+                                           first element of the Cabbibo-Kobayashi-Maskawa (CKM)              a = −0.10430(84) [11]. From this, the ratio of axial-
+                                           matrix, E0 the total energy available in the transition,          vector to vector coupling constants was derived giving
+                                           and σ⃗n the spin of the neutron. The quantity b is the            |λ| = 1.2677(28). This value deviates by ≈ 3σ from the
+                                           Fierz interference coefficient. It vanishes in the purely         most precise PERKEO III result [5], determined via the
+                                           vector axial-vector (V − A) interaction of the SM since           β-asymmetry parameter A. One possible explanation for
+                                           it requires left-handed scalar (S) and tensor (T ) inter-         this discrepancy are hypothetical scalar or tensor cou-
+                                           actions (see below). The correlation coefficients a and A         plings in addition to the V − A interaction of the SM.
+                                           (β-asymmetry parameter [5, 6]) are most sensitive to λ            In this case, the overall decay probability may be modi-
+                                                                                                             fied by the Fierz interference term b according to Eq. (1)
+                                                                                                             which would also change the measured values of many of
+                                                                                                             the correlation coefficients; see also Refs. [12, 13]. On the
+                                           ∗ Corresponding author: wheil@uni-mainz.de
+                                                                                                             other hand, SM differences might be of experimental ori-
+                                                                                                                                               2
+
+gin, which generally requires a critical reexamination of
+
+                                                                      relative loss
+the systematics in the respective datasets. Consequently,                             0.0055
+the aSPECT data were reanalyzed as it could not be
+ruled out that previously overlooked systematics in i)
+backscattering and below threshold losses in the detector                             0.0050
+and ii) the retardation voltage UAP of the electrostatic fil-
+ter could be the reason for the discrepancies in the λ val-                           0.0045
+ues. With these revised systematics included in the global
+data fit, a new SM analysis of the correlation parameter                                           pad 2     pad 3
+                                                                                      0.0040
+a is performed as well as a combined (a, b) analysis in
+order to put a direct constraint on the Fierz interference
+                                                                                               0    100    200   300   400   500   600    700
+term from a single measurement. Tighter constraints on                                                                                   UAP [V]
+b can be set by using the PERKEO III data, where limits
+on b have been derived via a combined (b, A) fit to their             FIG. 1. Simulated fraction of undetected protons (both for
+data.                                                                 pad 2 and pad 3 of the SDD) of the integral proton spectrum
+   Backscattering and below threshold losses:                         whose corresponding pulse heights fall below the threshold of
+Whereas the amount of electron-hole pair production in                the DAQ system. The UAP dependence of the simulated losses
+amorphous solids by a penetrating proton can be deter-                can be described by a cubic spline function (solid line) and is
+mined rather accurately with the binary collision code                shown together with the 1σ error predicted by the global fit
+                                                                      (green band).
+TRIM [14] (used in [11]), the calculation of the ionization
+depth profile in crystalline solids is more complicated due
+to channeling effects that TRIM does not attempt to take              total, channeling and the inclusion of charge exchange
+into account. In our reanalysis we simulated the slow-                reactions do not significantly influence the spectral
+ing down of protons in our silicon drift detector (SDD)               shape of the undetected protons, as seen by comparison
+(processed on a ⟨100⟩-oriented Si wafer) by the program               with Fig. 22 in [11]. The obvious higher fractional losses
+Crystal-TRIM originally developed in order to describe                of ≈ 35% (shape independent), which can be attributed
+ion implantation into crystalline solids with several amor-           to the equilibrium charge ratio of backscattered protons
+phous overlayers [15, 16] (in our case: a 30 nm thick alu-            from the alumina layer, have no effect on the final result
+minum overlayer including its 4 nm thick alumina layer                due to normalization (N0 ).
+[17] on top). The range of applicability of this code was
+studied by comparing with existing molecular dynamics                    Effective retardation voltage ⟨UA ⟩:
+simulations.1 With Crystal-TRIM good agreement (5%)                   Like the magnetic field ratio rB = BA /B0 , where B0
+was obtained for the parameter Cel = 0.65 in the semiem-              and BA are the respective magnetic fields at the place
+pirical formula for the local electronic energy loss [16].            of emission and retardation, the retardation voltage UAP
+   Together with the charge collection efficiency for this            directly enters the spectrometer’s adiabatic transmission
+type of detector [19] at depth z and further taking                   function [2]2 given by
+into account charge exchange reactions of backscattered
+protons at the topmost detector layer (not considered so                       Ftr (T, UAP , rB )
+far) [20], we derive our simulated pulse height spectra.                              
+                                                                                                          if T ≤ eUAP
+The latter ones are in excellent agreement with the                                   0 q
+                                                                                      
+                                                                                                                              , (3)
+                                                                                                  T −eUAP
+                                                                                    = 1 − 1 − rB T        if eUAP < T < eU AP
+experimental pulse height spectra at different accelera-                                                                1−r B
+
+                                                                                                          if T > eU
+                                                                                      
+                                                                                         1                          AP
+                                                                                      
+tion voltages Uacc and retardation voltages UAP . This                                                           1−rB
+procedure allows us to calculate the below-threshold
+                                                                         where T is the kinetic energy of the isotropically emit-
+losses including the events with no energy deposition
+                                                                      ted protons. The inhomogeneities of the potential in the
+inside the detector. More details are presented in the
+                                                                      decay volume (DV) and the analyzing plane (AP) region
+Appendix.
+                                                                      result in a slight shift (determined from particle track-
+Figure 1 shows the fractional losses for the two detector
+                                                                      ing simulation) of the effective retardation voltage ⟨UA ⟩
+pads. In both cases a cubic spline interpolation was used
+                                                                      from the applied voltage UAP due to spatial and tem-
+to describe their retardation voltage dependence. In
+                                                                      poral variations of the work function of the DV and AP
+
+
+1 Molecular dynamics (MD) methods are well suited to study ion        2 The transmission function determined from particle tracking sim-
+
+  penetration in materials at energies where also multiple simulta-             ulations [11] (with the only input variable: the precisely known
+  neous collisions may be significant. The MDRANGE code [18],                   electromagnetic field of aSPECT) agrees with the analytical de-
+  however, requires too extensive computation time given the high               scription of the spectrometer properties, i.e., protons move adi-
+  number of particle tracking simulations (≈ 2 · 107 protons).                  abatically through the MAC-E filter.
+                                                                                                                               3
+
+electrodes. This shift and its functional dependence on              radiative corrections are neglected(∗)4 . To add the b term
+UAP is described in detail in [11]. A further source of              to the complete spectrum ωp (T, a), we define ωp (T, a, b)
+                                               Agilent
+uncertainty is the measurement precision σAP           of the        by adding an additional term 4/(1 + 3a)me Ee (E2m −
+applied voltage by means of the Agilent 3458A multi-                 Ee /2) · b to the right-hand side of Eq. (3.12) in [21], and
+meter. In the previous analysis this uncertainty was not             replace ∆ = mn − mp by E2m = ∆ − (∆2 − m2e )/(2mn ).
+correctly incorporated in the fit function as an error of            For the final result, we performed a global fit as described
+the horizontal axis in the UAP dependence of the inte-               in Sec. V of [11]. Table I summarizes the results on a from
+gral proton spectrum. Instead, it was treated as part of             the purely SM approach, i.e., ωp (T, a) as well as the si-
+                 ⟨UA ⟩                                               multaneous (b, a) fit results if the proton recoil spectrum
+an offset error coffset common to all ⟨UA ⟩ values. We now
+improve our analysis by replacing Eq. (3) through                    ωp (T, a, b) would be modified by the Fierz interference
+                                                                     term b.
+                                            ∂Ftr       Agilent       The error onpa from the respective fit is the total error
+Ftr (T, UAP , rB ) −→ Ftr (T, ⟨UA ⟩ , rB ) +      ∆UAP          .
+                                           ∂UAP                      scaled with χ2 /ν. Besides the statistical error, it con-
+                                                             (4)     tains the uncertainties of the systematic corrections and
+         Agilent
+Here, σAP        enters the transmission function via the            the correlations among the fit parameters which enter the
+partial derivative ∆FtrAgilent = (∂Ftr /∂UAP )∆UAP     Agilent
+                                                                .    variance-covariance matrix to calculate the error on the
+                          Agilent                                    derived quantity from the fit. In [11] we stated that the
+In the fit procedure, ∆UAP        is a restricted fit parame-
+ter, Gaussian distributed with zero mean and σAP      Agilent
+                                                               =     elevated χ2 /ν values of the global-a fit most likely arise
+13 mV.                                                               due to the nonwhite reactor power noise and/or high-
+                                                                     voltage induced background fluctuations (cf. Sec. IV A
+                                                                     there). The reanalysis of the aSPECT data now leads to
+                  GLOBAL FIT RESULTS                                 a reduced χ2 /ν = 1.25 (p = 4.1 · 10−3 for ν = 264). The
+                                                                     revision of the UAP error is the main driver for this and
+   In the ideal case without any systematic effect, the fit          for the corresponding changes to a.
+to the proton integral count rate spectrum would be a χ2             Our new value for the a coefficient only differs marginally
+minimization of the fit function                                     from the one published in [11] (see Table I) and is given
+                              Z Tmax                                 by
+ffit (UAP , rB ; a, N0 ) = N0        ωp (T, a)Ftr (T, UAP , rB )dT                    a = −0.10402 ± 0.00082 .               (6)
+                                0
+                                                            (5)
+                                                                     Using Eq. (2) we derive for λ the value λ = −1.2668(27).
+with the overall prefactor N0 and a as free fit param-
+eters. The way to include all systematic corrections to
+                                                                       If one allows for b as free parameter, we obtain from
+the global fit, the reader is advised to refer to the rele-
+                                                                     the measurement of the proton recoil spectrum a limit at
+vant Sec. III C of [11] for details. The theoretical proton
+                                                                     68.27% CL for the Fierz interference term of
+recoil spectrum ωp (T, a) is given by Eqs. (3.11,3.12) in
+[21] with λ replaced by a [Eq. (2)]. This spectrum in-                                  b = −0.0098 ± 0.0193 .               (7)
+cludes relativistic recoil and higher order Coulomb cor-
+rections, as well as order-α radiative corrections [21, 22]3 .       In the combined fit, the error on a increases by a factor
+For the precise computation of the F (Z = 1, Ee ) Fermi              of 1.7 as compared to the SM analysis with b ≡ 0 (Table
+function (Coulomb corrections), we have used formula                 1), since the two fit parameters show a fairly strong cor-
+(ii) in Appendix 7 of Ref. [23]. The weak magnetism                  relation: the off-diagonal element ρa,b of the correlation
+κ = (µp − µn )/2 (conserved vector current value) is in-             matrix is ρa,b = 0.808 as a result of the global fit. Our
+cluded in the (Ep , Ee ) Dalitz distribution, but essentially        limit can be rewritten as −0.041 ≤ b ≤ 0.022 (90% CL)
+drops out in the proton-energy spectrum after integration            which is currently the most precise one from neutron β
+over the electron energy Ee [24]. All corrections taken to-          decay [27].
+gether are precise to a level of ∆a/a ≈ 0.1%.
+The aSPECT experiment also has sensitivity to b, the
+Fierz interference term [see Eq. (1)]. The 1/Ee depen-                     COMBINED ANALYSIS OF RECENT
+                                                                          MEASUREMENTS OF PERKEO III AND
+dency results in small deviations from the SM proton re-
+                                                                                     ASPECT
+coil spectrum. In Eqs. (4.10, 4.11) of [25] an analytical ex-
+pression of ωp∗ (T, a) is given where recoil-order effects and
+                                                                      Further constraints on b can be set by using the
+                                                                     PERKEO III data, where comparable limits on b have
+3 In contrast to [21], the relative radiative correction r
+                                                    p [22] to the
+  proton energy spectrum contains additional decimal places that
+  have no effect on the measurement accuracy of a achieved [11].     4 In complete agreement with Eqs.(9-15) of Ref. [12].
+                                                                                                                                                      4
+
+
+                                     a       ∆a       b      ∆b        χ2 /ν      p-value
+                Results from [11] −0.10430 0.00084    -       -   1.440(ν = 268) 3.1 · 10−6
+                Reanalysis        −0.10402 0.00082    -       -   1.245(ν = 264) 4.1 · 10−3
+                (a, b) analysis   −0.10459 0.00139 −0.0098 0.0193 1.249(ν = 263) 3.7 · 10−3
+
+TABLE I. Global fit results (at 68.27% CL) on a assuming the SM vector and axial-vector couplings only, together with an
+analysis
+     p allowing nonzero scalar or tensorR ∞
+                                          interactions in order to derive limits on b. The error bars on a and b were scaled
+with χ2 /ν whenever the condition p = χ2 /ν fν (χ2 )dχ2 < 0.05 was met with fν (χ2 ) being the χ2 -distribution function with
+ν degrees of freedom [26].
+
+
+been derived from the measurement of the β asymmetry            and the 4-vector V T = (b(P ) − b(c) , λ(P ) − λ(c) , b(A) −
+in neutron decay via a combined (b, A) fit to their data        b(c) , λ(A) − λ(c) ), χ2 = V T Ω−1 V was minimized with b(c)
+(see Fig. 3 in [28]). Including other measurements like         and λ(c) as free parameters (ν = 2). As input, we took
+UCNA [29, 30], aCORN [31, 32], and PERKEO II [33]               the known quantities b(P ) , λ(P ) , Σ(P ) and b(A) , λ(A) ,
+would not add substantial information. Besides, error el-       Σ(A) from the respective measurements with Σ denoting
+lipse data (see Fig. 2) are not (or not yet) published. To      the 2×2 variance-covariance matrix. With χ2ν=2 = 3.6
+allow a direct comparison, the neutron decay parameters         (goodness of fit test), we arrive at the same results as in
+A and a are expressed in terms of λ (see e.g. [8]). Figure      Eq. (8). The resulting p-value is p = 0.16 and is above
+2 shows the error ellipses in the (b, λ) plane which repre-     the threshold of significance (typically 0.05 [26]). In Fig.
+sent the iso-contours of the respective bivariate Gaussian      2, the error ellipses with the respective confidence level
+probability distributions (PDF) to visualize a 2D confi-        pcl (A) = 0.31 and pcl (P ) = 0.76 are drawn which both
+dence interval [34]. Both experiments on their own show         touch in the center of the combined error ellipse. The p-
+a value of b compatible with zero in the 1σ range of their      value of 0.16 is reproduced by taking the product (1 −
+error ellipses (pcl = 39.35%). With ρA,b = −0.985, the          pcl (A)) · (1 − pcl (P )) [36].
+PERKEO III ellipses have a very strong negative corre-
+lation and are almost orthogonal to the ones from the
+aSPECT (b, a) analysis. This orthogonality in turn leads
+                                                                  b                                         (39.3% conﬁdence level) √Δ c2 = 1 s
+                                                                  0.04                                      (76.2% conﬁdence level) √Δ c2 = 1.69 s
+to a stronger constraint in b as can be seen directly from
+                                                                                                            (30.8% conﬁdence level) √Δ c2 = 0.86 s
+the overlap of error ellipses their assigned confidence lev-
+                                                                                                            (98.1% conﬁdence level) √Δ c2 = 2.82 s
+els (pcl ) are beyond pcl > 40%. From the combined error                            PE
+                                                                  0.02                   R
+                                                                                             KE
+ellipse, which represents the iso-contour of the product of                                       O
+the respective PDFs, we can deduce that the case b = 0                                                III
+
+lies on the edge of its 98.1% confidence region. The re-          0.00
+sulting values for (b, λ) at 68% CL in combining(c) the                                                                                    T
+                                                                                                                                  P   EC
+independent datasets of PERKEO III and aSPECT are                                                                              aS
+                                                                  -0.02
+                    (c)
+                b         = −0.0181 ± 0.0065
+                     (c)
+                                                         (8)
+                λ          = −1.2724 ± 0.0013 .                           -1.285    -1.280                   -1.275          -1.270
+                                                                                                                                               l -1.265
+With 2.82σ, the Fierz interference term b(c) obtained de-
+                                                                FIG. 2. Confidence region for the ratio λ = gA /gV and the
+viates from zero while λ(c) lies in between the derived
+                                                                Fierz interference parameter b. The results of a correlated
+PERKEO III and aSPECT values for λ from the prior               (b, λ) analysis of the PERKEO III and aSPECT measure-
+SM analysis [5, 11]. Note that the most accurate results        ments are shown as error ellipses representing specified confi-
+for A and a differ in their derived λ values by 3.4 stan-       dence levels. The combined(c) result from the two independent
+dard deviations within the SM approach (see Fig.2).             datasets suggests a finite value of b with b(c) = −0.0181(65)
+In order to check that the PERKEO III (P ) and aSPECT           which deviates by 2.82σ from the SM (shown by the green
+(A) measurements of (b, λ) are statistically compatible         error ellipse). The 90% CL interval of −0.012 < b < +0.144
+with the combined result given in Eq. (8), we used the          from UCNA [30] is consistent with b(c) or a vanishing b value.
+                                                                For the SM analysis (b ≡ 0) of the two measurements, the λ
+generalized least squares (GLS) method [35] for fitting.
+                                                                values of PERKEO III and aSPECT disagree by 3.4 standard
+Taking the 4×4 covariance matrix                                deviations (blue vertical bars: 1σ error).
+                                       !
+                               Σ(P ) 0                            The nonzero value of the Fierz interference term b(c)
+                      Ω=                                 (9)
+                                0 Σ(A)                          in neutron β decay is in tension with constraints from
+                                                                                                                         5
+
+low energy precision β-decay measurements (pion [37–           get backscattered due to scattering off the nuclei of
+39], neutron, and nuclei [40, 41] ) as well as Large           the detector material. Consequently, these protons
+Hadron Collider (LHC) constraints through the reaction         deposit only a fraction of their kinetic energy inside
+pp → eν + X and pp → e+ e− + X [42]. The b(c) and              the active detector volume and the resulting pulse
+λ(c) values of Eq. (8) predict the neutron lifetime value      height may fall below the threshold of the DAQ system.
+     (c)                                                       Backscattering depends on the energy of the incident
+of τn = (894.2 ± 4.2) s using the master formula from
+[43]5 multiplied by the factor (1 + ⟨me /Ee ⟩ · b)−1 [44] on   proton, 15 keV < (Ekin = 15 keV + T ) < 15.75 keV, and
+the right-hand side. This differs by 3.7 σ from the PDG        its impact angle. The distribution of both quantities is
+value for the neutron lifetime τn = (878.4 ± 0.5) s [27].      affected by the applied retardation voltage, UAP · The
+   As shown by Falkowski et al. [40], the SM difference        UAP dependence of the detection efficiency may change
+could also be attributed to right-handed couplings for         the value of the β − ν¯e angular correlation coefficient a
+tensor currents (CT = −CT′ and bFierz = 0). By tak-            extracted from the integral proton spectrum [11].
+ing the PDG values for the neutron lifetime and the de-
+cay parameters A and B [27], including our result on              The protons relevant for aSPECT have a very short
+a [Eq. (6)], a (λ, |CT /CA |) fit to the data expressed in     range in the SDD (516 nm: extreme case of channeling),
+terms of the Lee-Yang Wilson coefficients [40] shows a         thus the efficiency for proton detection is extremely sensi-
+striking preference for a nonzero value of the beyond-         tive to the detector properties near the surface. A proton
+SM parameter |CT /CA | with |CT /CA | = 0.047 ± 0.018 .        penetrating the detector first has to pass the amorphous
+While this result lies within the recent low energy limits     entrance window, which is comprised of a ∆z = 30 nm
+|CT /CA | < 0.087 (95.5% CL) of [45], the LHC bounds           thick aluminum overlayer including its 4 nm thick alu-
+|CT /CA | = 4gT |ϵ˜T /gA | < 1.3 · 10−3 from pp → eν + X       mina layer [17] on top. Free charge carriers produced by
+[42, 46] are more stringent than those from β decays.          the proton in this region will not be detected. Even af-
+                                                               ter the entrance window, not all charge carriers will be
+                                                               collected in the central anode of the SDD. The charge-
+              CONCLUSION AND OUTLOOK                           collection efficiency at the border (z’ = 0) between the
+                                                               entrance window and active silicon bulk is ≈ 50% and
+  In this paper, we presented a reanalysis of the aSPECT       rises with increasing depth (z ′ > 0) according to the fol-
+data with an improved tracking of some of the system-          lowing equation [19]:
+atic errors. The value a = −0.10402(82) differs only
+marginally from the one published in [11]. The aSPECT                      0                   for z ′ = z − ∆z < 0
+                                                                                    ′ c
+experiment has sensitivity to b. We extract a limit of                            z
+                                                                fCCE (z) = S + B( L )          for 0 ≤ z ′ ≤ L
+                                                                                         ′
+b = −0.0098(193) on the Fierz interference term from                       1 − A exp (− z −L              ′
+                                                                                           τ ) for L < z ≤ D
+a combined (b, a) analysis of the proton recoil spectrum.                                                       (S.1)
+The apparent tension to the PERKEO III result [5] based
+on the SM analysis can be resolved by combining the                                   τc                     τc
+                                                                with A = (1 − S)           B = (1 − S)(1 −        ).
+results of the (b, λ) analyses from these two measure-                              L + τc                 L + τc
+ments. The finite value for the Fierz interference term
+                                                               The total thickness D of the detector is about 450 µm,
+of b(c) = −0.0181(65) deviates by 2.82σ from the SM.
+                                                               much thicker than the maximum penetration depth of
+The goodness of fit test shows that the (b, λ) data from
+                                                               low energy protons. In order to determine the four
+PERKEO III and aSPECT are statistically compatible
+                                                               remaining parameters, S, c, τ, and L of the charge-
+with the combined result. The upcoming Nab experi-
+                                                               collection efficiency function, one has to calculate the ef-
+ment [47] and the next generation instruments like PERC
+                                                               fective deposited ionization energy of each proton,
+[48, 49] will allow the measurement of decay correlations
+with strongly improved statistical uncertainties to under-              C-TRIM
+                                                                                   X
+                                                                                         C-TRIM
+                                                                      Edep       =     Eion.    (zi )fCCE (zi ) ,     (S.2)
+pin these findings or to establish that the SM differences
+                                                                                   i
+are of experimental origin.
+                                                               a quantity which is proportional to the measured pulse
+                                                                                                    C-TRIM
+                                                               height. Hence, the histogram of Edep         from many
+APPENDIX: BACKSCATTERING AND BELOW                             simulated proton events reproduces our pulse height
+          THRESHOLD LOSSES
+                                                               spectra, if the parameters of fCCE are correct.
+
+  Protons reaching the silicon drift detector (SDD)               In [11], the ionization depth profile was determined by
+(processed on a ⟨100⟩-oriented Si wafer [50, 51]) can          the TRIM code [14] a standard method to calculate the
+                                                               interactions of energetic ions with amorphous targets;
+                                                               here in particular the amount of electron-pair production
+5 For |V
+           ud | we took the PDG value [27].                    in silicon by a penetrating proton. Due to the crystalline
+                                                                                                                                                                        6
+
+structure of silicon, the underlying assumption for amor-
+phous targets that the impact parameter distribution                                90
+                                                                                                       75               10 keV proton on silicon
+is independent of the relative orientation of the target                           25
+to the beam direction is not valid any more. Thus,                                                                 60        azimuthal angle ϕ (°)
+when energetic ions are moving in crystals, they may
+penetrate much deeper if they happen to be directed in
+
+
+
+                                                               polar angle θ (°)
+                                                                                   20
+                                                                                                                                 45
+                                                                                         [3 1 0]
+some specific crystal directions. This ‘channeling’ effect                                                                                             230
+
+influences the overall trajectory of the impinging particle                                                                                            220
+
+
+
+
+                                                                                                                                                             mean ranges (nm)
+                                                                                   15
+and causes a strong reduction of the backscattering
+                                                                                                                                        30             210
+yield from the lattice atoms [52]. An issue that may lead                                                          [4 1 1]
+to an as yet unidentified systematic in the extraction of a.                                                                                           200
+                                                                                   10
+
+                                                                                                                                                       190
+   In our reanalysis of the data, the ionization depth pro-                                                                                       15
+      C-TRIM
+file Eion.    (zi ) [see Eq. (S.2)] is determined by the bi-                       5                                                                   180
+nary collision code Crystal-TRIM which describes ion im-
+                                                                                                                                                       170
+plantation into crystalline solids with several amorphous                               [1 0 0]
+                                                                                                                             [3 0 1]
+overlayers [15, 16]. The respective penetration depths                             0                                                               0
+                                                                                    0              5         10         15         20        25
+were divided into bins of 3 nm and the deposited ioniza-                                                    polar angle θ (°)
+tion energy per bin was determined including the amor-
+phous overlayer with fCCE (zi < 30 nm) = 0. The range of
+applicability of this code was studied by comparing with       FIG. S1. Channeling effects (simulated by Crystal-TRIM) in
+existing molecular dynamics simulations [53] which re-         the range distribution of 10 keV H-ions in Si if they happen to
+produce the experimental ion penetration depth profiles        be directed in some specific crystal directions (polar diagram).
+                                                               Miller indices are shown for some of the principal crystal direc-
+in materials like Si at ion energies where also multiple       tions. The colors show the mean ranges of the H-ions (white:
+simultaneous collisions may be significant. In order to fix    beyond the displayed color range). For symmetry reasons,
+the empirical parameter Cel in the formula for the local       only the first quadrant is depicted. In order to compare the
+electronic energy loss [16], Crystal-TRIM simulations on       penetration depth profiles with those from MDRANGE sim-
+a Si-cell (diamond structure) with a [100] surface normal      ulations (Fig. 6 in [53]), our values were scaled with 1/ cos θ,
+were performed, whereby tilting (θ) and twisting (φ) the       since the mean ranges there do not refer to the direction of
+direction of the incomimg 10 keV H-ions in the angular         the surface normal, but correspond to the projection onto the
+                                                               direction of the incident H-ions.
+range relevant to us (0o ≤ θ ≤ 25o and 0o ≤ φ ≤ 90o ).
+We have chosen 10 keV H-ions to allow a direct compari-
+son to existing MDRANGE code depth profiles in Si and
+to be as close as possible to the true kinetic energy Ekin     spans the range of 0 < θ < 20◦ , channeling occurs
+of the protons incident on our SDD. Figure S1 shows the        preferentially on high-index axial and planar channels
+mean range of the H-ions depicted in a polar diagram           though the probability for the individual process is
+where channeling effects are clearly visible: the imping-      greatly reduced due to multiple scattering in the 30 nm
+ing beam sees different crystalline planes and axis as the     thick Al/Al2 O3 overlayer. The influence of the thickness
+polar and azimuthal angle changes. With Crystal-TRIM,          of the passivation layer on proton channeling is decisive,
+good agreement (5%) is achieved with the correspond-           as W. Khalid [55] has shown for detectors with thinner
+ing MDRANGE code profiles (see Fig. 6 in [53]) for the         cover layers, e.g. 1 nm of Al2 O3 or 3 nm of SiO2 , when
+empirical parameter Cel = 0.65. About the same value           using incident protons in the same energy range.
+is determined by extrapolation to Z=1 (H-ion) from rec-
+ommended values of Cel for B-, F- and As-ions with 15             In our simulation of fractional losses [11] we have also
+keV incident energy [54].                                      stated that backscattered protons may return to the
+                                                               detector after motion reversal due to the electrostatic
+   The physical (UAP , θ) distributions of protons im-         potential of the analyzing plane electrode of the aSPECT
+pinging on pad 2 and pad 3 of the SDD are extracted            spectrometer. Those protons hit the detector again with
+from particle tracking simulations (see Fig. S2). Protons      the energy and angle to the normal they had when
+with ⟨100⟩ axial channeling incidence (θ ≈ 0) are rare.        leaving the top layer. Therefore, all possible hits of a
+Moreover, they have to pass the amorphous overlayer            proton due to backscattering were taken into account by
+of 30 nm before hitting the active area of the SDD.            adding the collected charge from all hits in the active
+As a consequence of beam spread due to multiple                region of the detector. In the meantime, we have realized
+scattering [55], protons experiences a reduced channeling      that this is only partially correct. As J. Phillips [20]
+(critical channeling angles in silicon for 15 keV protons      has shown, when low-energy hydrogen ions (H+ ) pass
+   ⟨100⟩
+: αcrit ≤ 3o [52, 56]). As the impact angle of protons         through materials such as aluminum or more precisely:
+                                                                                                                                                                7
+
+
+                                                 UAP = 50V
+                                                                                                   corresponds to the intrinsic energy resolution derived in
+                                                                                                   Ref. [57] for this type of SDD and includes the fluctua-
+                                 0.15            UAP = 200V
+
+
+
+
+normalized events (1/ °)
+                                                                                                   tions of the charge collection efficiency parameters [see
+                                                 UAP = 400V                                        Eq. (S.1)] from their mean values. From the parameter
+                                                                                                   fit to the experimental pulse height spectra we obtain the
+                                 0.10            UAP = 600V
+                                                                                                   two global parameters for all spectra, i.e., the conversion
+                                                                                                   factor for converting ADC channels to deposit energy in-
+                                                                                                   side the detector and the scaling factor for the y-axis
+                                 0.05
+                                                                                                   (detected counts). Furthermore, we determine from the
+                                                                                                   fit the parameters of the charge-collection efficiency be-
+                                 0.00                                                              ing S = 0.4616(21), L = 7.57(43) nm, c = 1.746(50),
+                                        0             5             10             15              and τ = 37.35(37) nm. These values differ to a certain
+                                        angle θ between proton momentum and surface normal (o)     extent from the ones published in [11], where the ioniza-
+                                                                                                   tion depth profiles used were determined by the TRIM
+FIG. S2. Angular distributions of protons at given retarda-                                        code.
+tion voltages UAP impinging on pad 2 and pad 3 of the SDD.
+θ is the angle between the proton momentum and the surface                                            Finally, this procedure allows us to calculate the
+normal. The total number of events for the individual UAP                                          below-threshold losses (threshold ADC channel for pad
+settings are normalized for better visibility.                                                     2: 37.6; dashed line in Fig. S3) including the events with
+                                                                                                   no energy deposition inside the detector. Figure 1 in
+                                                                                                   the main text shows the fraction of undetected protons
+the 4 nm thin alumina top layer, electrons are captured                                            of the integral proton spectrum whose corresponding
+or lost from the ions and particles of positive (H+ ), neu-                                        pulse heights fall below the threshold of the DAQ system.
+tral (H0 ), and negative charge (H− ) arise. The two latter
+ones do not hit the detector a second time. The energy
+dependence of the percentage of positive components
+(H+ ) is tabulated in [20] and can be approximated by
+                                 ′
+a straight line (H+ = 8% + Ekin · 1.674%/keV) in the
+                          ′
+energy range 4 keV < Ekin < 16 keV of interest.                                                     [1] S. Baeßler, F. Ayala Guardia, M. Borg, F. Glück, W. Heil,
+                                                                                                        G. Konrad, I. Konorov, R. Muñoz Horta, G. Petzoldt, D.
+                                                                                                        Rich et al., Eur. Phys. J. A 38, 17 (2008).
+                                                                                                    [2] F. Glück, S. Baeßler, J. Byrne, M. G. D. van der Grinten,
+                                         5kV      7kV     9kV      11kV                                 F. J. Hartmann, W. Heil, I. Konorov, G. Petzoldt, Y.
+                                         (0 V)    (0 V)   (0 V)    (0 V)              15kV(50 V)
+                                  10.                                                                   Sobolev, and O. Zimmer, Eur. Phys. J. A 23, 135 (2005).
+
+
+
+
+      counts (1/s/ADC channel)
+                                                                                                    [3] O. Zimmer, J. Byrne, M. van der Grinten, W. Heil, and
+                                                                                                        F. Glück, Nucl. Instrum. Methods Phys. Res. Sect. A
+                                    1                                                                   440, 548 (2000).
+                                                                              15kV(400 V)           [4] J. Jackson, S. Treiman, and H. Wyld, Phys. Rev. 106,
+                                                                                                        517 (1957).
+                                  0.1                                                               [5] B. Märkisch et al. (PERKEO III Collaboration), Phys.
+                                                                                                        Rev. Lett. 112, 242501 (2019).
+                                                                                                    [6] M.-P. Brown et al. (UCNA Collaboration), Phys. Rev. C
+                                 0.01                                                                   97, 035505 (2018).
+                                                                                                    [7] M. Fierz, Z. Phys. 104, 553 (1937).
+                                    20            50              100         150           200     [8] H. Abele, Prog. Part. Nucl. Phys. 60, 1 (2008).
+                                                                   ADC channel                      [9] V. Lobashev and P. Spivak, Nucl. Instrum. Methods
+                                                                                                        Phys. Res. Sect. A 240, 305 (1985).
+FIG. S3. Measured pulse height spectra (pad 2) at different                                        [10] A. Picard et al., Nucl. Instrum. Methods Phys. Res. Sect.
+acceleration voltages Uacc and retardation voltages (UAP ).                                             B 63, 345 (1992).
+The data were taken with a linear shaper (for more details                                         [11] M. Beck et al. (aSPECT Collaboration), Phys. Rev. C
+see Ref.[11]). The corresponding histograms of the calculated                                           101, 055506 (2020).
+                   C-TRIM
+pulse heights ∝ Edep      are shown as continuous lines to im-                                     [12] M. González-Alonso and O. Naviliat-Cuncic, Phys. Rev.
+prove readability. For pad 2, the proper threshold is indicated                                         C 94, 035503 (2016).
+by the dashed line (ADC channel: 37.6). For the sake of com-                                       [13] M. González-Alonso, O. Naviliat-Cuncic, and N. Severi-
+pleteness: the threshold ADC channel for pad 3 is 34.5 .                                                jns, Prog. Part. Nucl. Phys. 104, 165 (2019).
+                                                                                                   [14] J. F. Ziegler, M. Ziegler, and J. Biersack, Nucl. Instrum.
+                                                                                                        Methods Phys. Res. Sect. A 268, 1818 (2010).
+  In Fig. S3, the experimental and simulated pulse                                                 [15] M. Posselt and J.P. Biersack, Nucl. Instrum. Methods
+height spectra are compared. The theoretical spectra                                                    Phys. Res. Sect. B 64, 706 (1992).
+were folded with a normalized Gaussian distribution                                                [16] M. Posselt, Radiat. Effects Def. Solids 130/131, 87
+(120 eV FWHM : 2.52 ADC channels). The FWHM-value                                                       (1994).
+                                                                                                                              8
+
+[17] P.Dumas, J.P. Dubarry-Barbe, D. Riviere, Y.Levy, and             M. González-Alonso, M.L. Graesser, R. Gupta, and H.-
+     J. Corset, J. Phys. Colloque 44, C10-205 (1983).                 W. Lin, Phys. Rev D 85, 054512 (2012).
+[18] K. Nordlund, Comput. Mater. Sci. 3, 448 (1995).             [39] V. Cirigliano, D. Dı́az-Calderón, A. Falkowski, M.
+[19] M. Popp, R. Hartmann, H. Soltau, L. Strüder, N. Mei-            González-Alonso, and A. Rodrı́guez-Sánchez, J. High En-
+     dinger, P. Holl, N. Krause, and C. von Zanthier, Nucl.           ergy Phys. 2022, 152 (2022).
+     Instrum. Methods Phys. Res. Sect. A 439, 567 (2000).        [40] A. Falkowski, M. González-Alonso, and O. Naviliat-
+[20] J.A. Phillips, Phys. Rev. 97, 404 (1955).                        Cuncic, J. High Energy Phys. 2021, 126 (2021).
+[21] F. Glück, Phys. Rev. D 47, 2840 (1993).                    [41] J. C. Hardy and I. S. Towner, Phys. Rev. C 91, 025501
+[22] F. Glück, Radiative corrections to neutron and nuclear          (2015).
+     β-decays: a serious kinematics problem in the literature,   [42] R. Gupta, Y.-C. Jang, B.Yoon, H.-W. Lin,V. Cirigliano,
+     J. High Energy Phys. 2023, 188 (2023).                           and T. Bhattacharya, Phys. Rev. D 98, 034503 (2018).
+[23] D.H. Wilkinson, Nucl. Phys. A377, 474 (1982) and ref-       [43] A. Czarnecki, W.J. Marciano, and A. Sirlin, Phys. Rev.
+     erences therein.                                                 Lett. D 100, 073008 (2019).
+[24] S. Weinberg, Phys. Rev. 115, 481 (1959).                    [44] A.N. Ivanov, R. Höllwieser, N.I. Troitskaya, M. Wellen-
+[25] F. Glück, I. Joo, and J. Last, Nucl. Phys. A593, 125            zahn, and Ya.A. Berdnikov, Phys. Rev. C 98, 035503
+     (1995).                                                          (2018).
+[26] J. Beringer et al. (Particle Data Group), Phys. Rev. D      [45] M.T. Burkey et al., Phys. Rev. Lett. 128 , 202502 (2022).
+     86, 010001 (2012).                                          [46] V. Cirigliano, M. González-Alonso, and M. L. Graesser,
+[27] R.L. Workman et al. (Particle Data Group), Prog. Theor.          J. High Energy Phys. 2013, 46 (2013).
+     Exp. Phys. 2022, 083C01 (2022) and 2023 update.             [47] J. Fry et al., EPJ Web Conf. 219, 04002 (2019).
+[28] H. Saul, C. Roick, H. Abele, H. Mest, M. Klopf, A.          [48] D. Dubbers, H. Abele, S. Baeßler, B. Märkisch, M. Schu-
+     K. Petukhov, T. Soldner, X. Wang, D. Werder, and B.              mann, T. Soldner, and O. Zimmer, Nucl. Instrum. Meth-
+     Märkisch, Phys. Rev. Lett. 125, 112501 (2020).                  ods Phys. Res. Sect. A 596, 238 (2008).
+[29] K. P. Hickerson et al. (UCNA collaboration), Phys. Rev.     [49] G. Konrad et al. (PERC Collaboration), J. Phys. 340,
+     C 96, 042501(R) (2017).                                          012048 (2012).
+[30] X. Sun et al., Phys. Rev. C 101, 035503 (2020).             [50] M. Simson, Ph.D. thesis, Technische Universität
+[31] M.T. Hassan et al., Phys. Rev. C 103, 045502 (2021).             München, 2010.
+[32] F.E. Wietfeldt et al., Recoil-Order and Radiative Cor-      [51] M. Simson, P. Holl, A. Miller, A. Niculae, G. Petzoldt, K.
+     rections to the aCORN Experiment, arXiv: 2306.15042v2            Schreckenbach, H. Soltau, L. Strüder, H.-F. Wirth, and
+     (2024).                                                          0. Zimmer, Nucl. Instrum. Methods Phys. Res. A 581,
+[33] D. Mund, B. Märkisch, M. Deissenroth, J. Krempel, M.            772 (2007).
+     Schumann, H. Abele, A.K. Petukhov, and T. Soldner,          [52] H. Grahmann, A. Feuerstein, and S. Kalbitzer, Radiat.
+     Phys. Rev. Lett. 110, 172502 (2013).                             Effects 29, 117 (1976).
+[34] O. Erten and C.V. Deutsch, Combination of multivariate      [53] K. Nordlund, F. Djurabekova, and G. Hobler, Phys. Rev.
+     Gaussian distributions through error ellipses. Geostatis-        B 94 ,214109 (2016) .
+     tics Lessons (2020).                                        [54] M.      Posselt,   Crystal-TRIM       Manual       (2004),
+[35] N. Orsini, R. Bellocco, and S. Greenland, The Stata Jour-        https://www.hzdr.de/db/Cms?pOid=66817.
+     nal 6 (1), 40 (2006).                                       [55] W. Khalid, Ph.D. thesis, Technische Universität Wien,
+[36] N.M. Blachman, On combining target-location ellipses,            2023.
+     IEEE Trans. Aerosp. Electron. Syst. 25(2), 284 (1989).      [56] G. Hobler, Radiat. Effects Def. Solids 139, 21 (1996).
+[37] M. Bychkov et al., Phys. Rev. Lett. 103, 051802 (2009).     [57] P. Lechner, A. Pahlke, and H. Soltau, X-Ray Spectrom.
+[38] T. Bhattacharya, V. Cirigliano, S.D. Cohen, A. Filipuzzi,        33, 256 (2004).
+

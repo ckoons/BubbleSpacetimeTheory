@@ -1,0 +1,1428 @@
+                                                                                                                                               CALT-TH-2025-032
+                                                                                                                                     FERMILAB-PUB-25-0773-T
+                                                                                                                                                CERN-TH-2025-20
+
+
+                                                           The Zα2 correction to superallowed beta decays
+                                                          in effective field theory and implications for |Vud |
+
+                                             Zehua Cao1 , Richard J. Hill1,2 , Ryan Plestid3,4 , and Peter Vander Griend1,2
+                                         1
+                                         University of Kentucky, Department of Physics and Astronomy, Lexington, KY 40506 USA
+                                                     2
+                                                       Fermilab, Theoretical Physics Department, Batavia, IL 60510 USA
+                                             3
+                                               Walter Burke Institute for Theoretical Physics, California Institute of Technology,
+
+
+
+
+arXiv:2511.05446v1 [hep-ph] 7 Nov 2025
+                                                                           Pasadena, CA 91125 USA
+                                         4
+                                           Theoretical Physics Department, CERN, 1 Esplanade des Particules, CH-1211 Geneva 23,
+                                                                                  Switzerland
+
+                                                                                          November 10, 2025
+
+
+                                                                                                 Abstract
+
+                                                Superallowed (0+ → 0+ ) beta decays currently provide the most precise extraction of quark mixing in
+                                                the Standard Model. Their interpretation as a measurement of |Vud | relies on a reliable first-principles
+                                                computation of QED radiative corrections expressed as a series in Zα and α. In this work, we provide the
+                                                first model-independent result for two-loop, O(Zα2 ), long-distance radiative corrections where the nuclei
+                                                are treated as heavy point-like particles. We use renormalization group analysis to obtain new results at
+                                                O(Zα3 ) for the coefficient of double-logarithms in the ratio of the maximal beta energy to the inverse
+                                                nuclear size, Em /R−1 . We use the Kinoshita-Lee-Nauenberg theorem to obtain new results at O(Z 2 α3 ) for
+                                                the coefficient of logarithms in the ratio of maximal beta energy to the electron mass, log(2Em /m). We
+                                                identify a structure-dependent, and therefore short-distance, contribution to the traditional Zα2 correction
+                                                that should be revisited. We provide the first comprehensive update to the long-distance corrections in
+                                                almost forty years and comment on the impact of our findings for extractions of |Vud |. We find that shifts in
+                                                the long-distance corrections are 2.5× larger than past estimates of their uncertainty, 1.5× larger than the
+                                                statistical uncertainty from the combined fit of superallowed decays, and about 1/2 the size of estimated
+                                                systematic error, which stems dominantly from nuclear structure effects.
+
+
+
+
+                                                                                                      1
+1    Introduction
+The lifetimes of superallowed (0+ → 0+ ) beta emitters have an immediate connection to fundamental constants
+of Nature, and in particular |Vud | [1, 2]. Due to a number of approximate symmetries and small expansion
+parameters [1], |Vud | can be extracted with a high level of precision (currently estimated at ∼ 3 × 10−4 ) [2].
+An important set of inputs for this program are long-distance QED radiative corrections, which are required
+at high perturbative order. Recently, two of us have found an error in the O(Z 2 α3 ) correction [3, 4], which
+results in sizable shifts to |Vud | (e.g., an estimated shift of 3.2 × 10−4 in the Ft value for 26m Al [3]).
+   It has recently been realized that all long-distance electromagnetic effects can be computed using a heavy
+particle effective field theory (EFT), including the Fermi function and other radiative corrections [3–8]. This
+provides a model independent definition of the corrections (supplanting previous estimates based on the inde-
+pendent particle model [9–11]), and allows the full machinery of renormalization-group improved perturbation
+theory to be employed. For superallowed decays only one composite operator appears at leading power,
+
+                              Leff = −C(µ)(ϕ[A,Z]
+                                            v     )∗ ϕ[A,Z+1]
+                                                      v       ν̄e v/(1 − γ5 )e + H.c. .                      (1)
+
+For given final states, the matrix element
+                                        D                                    E
+                                  M(µ) = (ϕ[A,Z]
+                                           v     )∗ ϕ[A,Z+1]
+                                                     v       ν̄e v/(1 − γ5 )e ,                              (2)
+
+can be computed perturbatively using heavy particle Feynman rules [3, 4, 6] (see [7, 8, 12–16] for related work
+on neutron beta decay using heavy-baryon theories). Physical, and therefore µ-independent, amplitudes are
+given by the product of C(µ) and M(µ).
+    A complementary program based on both chiral effective theory [15–19] and dispersion relations [20–26] has
+been launched examining short-distance modes, and allows for control over the resummation of electroweak
+logarithms, and nuclear structure dependent effects; lattice QCD can also play an important role at the
+hadronic scale [23, 27, 28]. When matching onto Eq. (1), all such short distance effects (including those
+stemming from nuclear structure) are subsumed into C(µ) at leading power. At subleading power other
+Wilson coefficients multiplying higher dimensional operators appear, but are numerically subleading.
+    To compute the lifetime of a beta emitter through O(Zα2 ) we require corrections to the rate for A → Bνe
+through O(Zα2 ), and corrections to the rate for A → Bνeγ through relative O(Zα). In this work we present
+two new theoretical results. First, we compute relative O(Zα) virtual corrections to the real photon spectrum,
+finding that the result factorizes into the product of the first-order Fermi function and the tree-level real
+photon spectrum. Second, we obtain the two-loop virtual corrections at O(Zα2 ) in the limit of a massless
+electron by making use of recently obtained results for neutron decay [7]. These two results are combined with
+existing analyses of the operator’s anomalous dimension to supply a new numerical evaluation of long-distance
+QED corrections to nuclear beta decay. We include terms enhanced by logarithms in the ratio of the maximal
+beta energy to the inverse nuclear size, L = log(Λ/Em ) with Λ ∼ 1/R−1 , up to O(Z 2 α4 L) [4]. Using our
+O(Zα2 ) result, we apply the Kinoshita-Lee-Nauenberg (KLN) theorem [29, 30] to further control terms at
+O(Z 2 α3 , Zα3 , α2 ) that are enhanced by logarithms in the ratio of maximal beta energy to the electron mass,
+log(Em /m).
+    The rest of the paper is organized as follows: In Section 2, we explain why there are no O(Zα2 ) corrections
+from real emission beyond those captured by the Fermi function. Section 3 presents the extraction of the
+O(Zα2 ) double-virtual correction to A → Be+ νe . In Section 4, we combine these results and integrate over
+phase space to provide the O(Zα2 ) radiative correction to the lifetime of a superallowed emitter A. We provide
+an update for the long-distance corrections computed using Eq. (1), including an exploration of the numerical
+impact of some known higher order corrections. We conclude with a summary and discussion in Section 5.
+
+
+
+
+                                                         2
+                               (a)                               (b)                              (c)
+
+Figure 1: Feynman diagrams that correct the real-photon amplitude at O(Zα). The circle denotes the weak
+vertex, and we use the Feynman rules discussed in [4, 6] that make Z-counting manifest.
+
+
+2      O(Zα2 ) correction to the photon spectrum
+In this section, we demonstrate that real-virtual corrections at O(Zα2 ) are given by the product of the
+Fermi function and the Sirlin g function (more precisely its EFT analog).1 This factorization stems not from
+a separation of scales, but because most of the virtual corrections are out of phase (i.e., they are “pure
+imaginary”) with the leading order real emission amplitude and, therefore, do not contribute to the rate at
+this order; at higher orders, we do not expect this factorization to hold.
+    Real photon emission contributes to the lifetime of any β-emitter beginning at O(α). The relative O(Zα)
+correction to real photon emission then influences the decay rate at O(Zα2 ). Let us consider
+
+                                                      A → Bνe e+ (p)γ(q) ,                                   (3)
+
+and write the matrix element as a Dirac structure to be contracted as ūνe v/(1 − γ5 )Mve . The matrix element
+is then expanded as
+                                         M = M(0) + M(1) + . . . ,                                         (4)
+The tree level matrix element for single-photon emission is given by the sum of two terms,
+                                                               −p
+                                                                / − q/ + m ∗
+                                                   M(0)
+                                                    a =e                  /ϵ ,
+                                                                  2p · q
+                                                      (0)         v · ϵ∗
+                                                   Mb = −e               ,                                   (5)
+                                                                 −v · q
+                                                                         (0)         (0)
+where vµ = (1, 0, 0, 0) is the four-velocity of the nucleus (Ma and Mb correspond to diagrams (a) and (b)
+in Fig. 1, without the additional background field attachment). At one loop order, three diagrams contribute,
+(cf. Fig. 1)
+
+                                          dD L (−1)    / + q/ + /
+                                                       p        L−m
+                                     Z
+                   M(1)
+                    a = Ze
+                           2
+                                                                                v/M(0)
+                                                                                   a ,
+                                         (2π) L 2(p + q) · L + L2 − 2p · q − i0
+                                             D   2
+
+
+                                                    p+ /
+                                          dD L (−1) /    L−m
+                                     Z
+                    (1)                                               (0)
+                   Mb = Ze2                                        v/Mb ,
+                                         (2π)D L2 2p · L + L2 − i0
+
+                                          dD L (−1)    / + /q + /
+                                                       p        L−m               /+ /
+                                                                                  p   L−m
+                                     Z
+                                                                                ∗
+                   M(1)
+                    c = Ze
+                           3
+                                                                              /ϵ                v/ .         (6)
+                                         (2π) L 2(p + q) · L + L − 2p · q − i0 2p · L + L2 − i0
+                                             D   2              2
+
+
+The loop integrations are Euclidean, performed in D = 3 − 2ϵ dimensions, and the background field Feynman
+rule enforces L0 = v · L = 0.
+    At O(Zα2 ) we need only consider the real part of the interference between M(0) and M(1) . It turns out that
+due to the structure of the one-loop integrals, almost all contributions to the matrix element are imaginary.
+This simple observation stems from the fact that three-dimensional Euclidean integrals yield a prefactor of
+    1 Real photons were not explicitly discussed in past calculations of the Zα2 correction [9–11].
+
+
+
+
+                                                                 3
+1/(−E 2 − i0)n/2+ϵ with n an odd integer and E 2 a positive number. For ϵ → 0 this gives i(−1)(n−1)/2 /E n
+such that M(1) is out-of-phase with M(0) . Real contributions arise only in the presence of divergences, where
+                              n/2+ϵ                                                 
+                          1            1          (n−1)/2 −n    i
+                                      × = (−1)           E        − 2i log E − π + O(ϵ) .                  (7)
+                     −E 2 − i0         ϵ                       ϵ
+The product (i) × log(−1 − i0) supplies a real part proportional to π. Indeed, this is the source of the O(Zα)
+term in the expansion of the Fermi function (for a final-state positron),
+
+
+
+                                                                dD L 1  −2Ee − L / v/
+                                                           Z
+                                                   = Ze2           D  2         2
+                                                               (2π) L 2p · L + L − i0
+                                                                       ϵ 
+                                                                µ2
+                                                                                                 
+                                                     iZ ᾱ                  1      m      1
+                                                   =                           + 1 + v/
+                                                      β      −4p2 − i0      2ϵ      E   2(1 − 2ϵ)
+                                                        πZ ᾱ
+                                                   →−         .                                                          (8)
+                                                         2β
+where in the last line we have kept only the real-piece. Notice that this logarithmic contribution is tied to the
+infrared divergence as |L| → 0. The same result is obtained by retaining only the IR divergent contribution
+to the amplitude: (“∼” denotes equality up to finite, pure imaginary, parts)
+
+
+                                                                                             ϵ  
+                                                dD L 1                                µ2
+                                                                                 
+                                                              −2Ee
+                                           Z
+                                       2                                   iZ ᾱ                 1     πZ ᾱ
+                                ∼ Ze                                     =                          →−       .           (9)
+                                               (2π)D L2 2p · L + L2 − i0    β      −4p2 − i0     2ϵ     2β
+
+
+
+Real contributions to M(1) occur only when a 1/ϵ divergence is present. Each of the integrals is UV finite,
+and their IR limits are given by:2
+                                    M(1)
+                                     a ∼ 0,
+
+                                                dD L 1
+                                                                   
+                                                          −2Ee
+                                             Z
+                                     (1)                               (0)
+                                    Mb ∼ Ze2                          Mb ,
+                                               (2π)D L2 2p · L + L2
+
+                                                dD L 1
+                                                                   
+                                                          −2Ee
+                                             Z
+                                     (1)   2
+                                    Mc ∼ Ze                           M(0)
+                                                                       a .                                              (10)
+                                               (2π)D L2 2p · L + L2
+Using the integral (9), we see that
+                                                               πZ ᾱ 
+                                              πZ ᾱ  (0)  (0)
+                               M(1) ∼       −        Ma + Mb    = −        M(0) ,                                       (11)
+                                               2β                   2β
+and hence after performing spin/polarization sums and phase space averages,
+                             ⟨|M1γ |2 ⟩            πZα
+                                (0)
+                                           =1−         + O(Z 2 α2 ) = F (Zα, E) + O(Z 2 α2 ) .                          (12)
+                             ⟨|M1γ |2 ⟩             β
+
+We expect this simple factorization to break at relative O(Z 2 α2 ). The result (12) holds for massive electrons
+(i.e., for arbitrary values of m/E). We have checked this result by explicitly computing the relevant master
+integrals.
+   2 The amplitudes represent hard matching coefficients, and the IR divergences are canceled by corresponding UV divergences
+
+in the soft function.
+
+
+                                                                  4
+3     O(Zα2 ) corrections without photon emission
+Next, consider the double-virtual O(Zα2 ) correction to the decay rate. We can extract the result in the limit
+of a massless electron from our recent work on neutron beta decay [7, 8].3 In what follows we neglect terms of
+O(m2 /Ee2 ).
+    Consider the matrix element for [Z + 1] → [Z]e+ νe , as a Dirac structure to be contracted as ūνe v/(1 −
+γ5 )M[Z+1]→[Z]e+ νe ve . This can be related to the amplitude for the related process [−Z − 1] → [−Z]e− ν¯e
+contracted as ūe M[−Z−1]→[−Z]e− ν̄e v/ (1 + γ5 )vνe . The relation, to all orders in QED is
+
+                                      M[Z+1]→[Z]e+ νe = CM∗ [−Z−1]→[−Z]e− ν̄e C −1 ,                                       (13)
+
+where M = γ 0 M† γ 0 , and C satisfies C = C −1 = C T = C ∗ , Cγ µ C −1 = −(γ µ )∗ . Using a “blob” for all diagrams
+not involving the background field (which is denoted by ×), the amplitude for [−Z − 1] → [−Z]e− ν¯e can be
+expanded as
+
+
+
+M[−Z−1]→[−Z]e− ν̄e =
+
+
+
+
+                         + (−Z) ×                               +    (−Z)2 ×                                               (14)
+
+                                      -
+                                  
+                               
+                               
+                               
+                      + (−Z) × 
+                                                               +                              +
+                               
+                               
+
+
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                         +                                  +                                    + ... ,
+                                                                                                
+                                                                                                
+                                                                                                
+
+
+
+where the double line denotes a heavy particle with charge −1, the solid line with arrow denotes an electron,
+and the cross denotes insertion of a background field with charge +1. In particular, at Z = −1, this expression
+reduces to the neutron decay amplitude that we have computed in Ref. [7, 8]. Solving for the contributions of
+interest, we have diagrammatically,
+
+
+
+
+                                          +                            +    ...
+
+
+   3 We have recently been informed of an explicit calculation by O. Crosas and E. Mereghetti for finite lepton mass [31]. Their
+
+result agrees with our extraction in the small electron-mass limit.
+
+
+
+                                                                5
+                                                                                                               
+                                                                                                               
+                                                                                                               
+                                                                                                               
+            = MH − MH |v→−v − 
+                                                                   +                                  +        .
+                                                                                                            ...           (15)
+                                                                                                               
+                                                                                                               
+
+
+In Eq. (15), the left-hand side (i.e., the first line) denotes all contributions containing at least one background
+field photon and one non-background field photon. The quantity MH is the hard function describing neutron
+beta decay [7]. The final term in parentheses contains terms with only background field photons. Diagrams
+representing wavefunction renormalization have not been displayed, but are included when computing physical
+amplitudes. At one-loop order, the left-hand side of Eq. (15) vanishes by definition, and the right-hand side
+is verified to vanish using Eq. (8) of Ref. [7] for MH − MH |v→−v , and Eq. (37) of Ref. [5] for the one-loop
+background field diagram. At two-loop order, we compute in the small-m limit,
+                         ᾱ  (1)             ᾱ 2 h                                                     i
+                                        (1)                (2)      (2)     (2)    (2)     (1)   (1)    (1)
+   MH − MH |v→−v =           FH − F̃H +                  (FR − F̃R ) + (FH − F̃H ) + FJ (FH − F̃H ) , (16)
+                         4π                       4π
+where F̃ = F |v→−v and FH is the hard function, FJ the jet function, and FR the remainder function for
+neutron decay defined in Eq. (16) of Ref. [7]. The background field diagrams in this limit are
+
+                                                                             
+                                                              i
+                                                         = ᾱ   (2LE − iπ − 1) ,
+                                                              2
+
+
+
+
+                                                                            5 π2
+                                                                                
+                                                              2 1         2
+                                                         = ᾱ − (2LE − iπ) + −     ,                                       (17)
+                                                                8           4 12
+
+
+where LE = log(2E/µ). Using Eqs. (16), (17) in Eq. (15) thus determines the O(Zα2 ) contributions to the
+nuclear amplitude in Eqs. (13) and (14). Together with the Zα2 contribution including real photon emission
+from Eq. (12), and the known O(α) correction, the total electron spectrum for [Z + 1] → [Z]e+ νe is
+                                                                                                                  
+  dΓ       dΓ                                   ᾱ1               11         2     2ne                8ne   11
+      =            × F̃ (Z ᾱ1 , E, µ)× 1 +            ĝ(E, µ) +      + Z ᾱ1 −       + 1 LE +           +    − ζ2 + . . . ,
+  dE       dE tree                              2π                 4                3                  9    4
+                                                                                                                          (18)
+where F̃ (Z ᾱ1 , E) is the all-orders expression containing the leading Z dependence, cf. Eq. (22) below,4 and
+ĝ(E, µ) is the Sirlin g-function but with mp replaced by the MS subtraction point µ (cf. Eq. (53) below;
+the term 11/4 converts between MS and Sirlin’s scheme [3]). Here ne is the number of massless fermions
+(i.e., electrons) in the theory; in practice we will always take ne = 1. We have expressed the result in
+terms ofthe MS coupling with ne = 1 electron                 flavor. This is related
+                                                                                   to onshell α (or equivalently ᾱ0 ) by
+                ne               ne
+                                                     
+α = ᾱ1 1 − 3π     ᾱ1 Lm + ( 3π    ᾱ1 Lm )2 + . . . , where Lm = log m2 /µ2 . We remark that the Z ᾱ12 correction
+remains finite as m → 0. This finite m → 0 limit is guaranteed by the KLN theorem [29, 30] (see Section B
+and related discussion in [9]) and provides a non-trivial check of our result.
+    Conventionally, the O(Zα2 ) correction is defined via a multiplicative factor,5
+                                           
+                            dΓ          dΓ                                                          
+                                  =            × F̃ (Zα, E, µ)× 1 + δ (1,0) (E) + δ (2,1) (E) + . . . ,                   (19)
+                            dE          dE tree
+  4 The definition (22) includes the additional factor 4η/(1 + η)2 = O((Zα)4 ) appearing in the complete MS hard function [3].
+  5 Our notation tracks powers of Z and α separately. The notation used by Sirlin and Zucchini is related by δ (E) = δ (2,1) (E)
+                                                                                                              2
+and δ3 = δ (3,2) (E).
+
+
+                                                               6
+with the series defined in terms of onshell α. Translating from Eq. (18), we have
+                                                                            
+                                                          α               11
+                                           δ (1,0) (E) =       ĝ(E, µ) +      ,                             (20)
+                                                          2π               4
+                                                                                        2 
+                                        ne            2ne              8ne    11           m
+                   δ (2,1) (E) = Zα2       Lm −           + 1 LE +         +     − ζ2 + O        .           (21)
+                                        3              3                9     4            E2
+We note that the energy dependence and the dependence on the electron mass match the existing calculation
+by Sirlin and Zucchini [9]. The finite contribution differs, as expected, since our calculation is performed in a
+(model-independent) point-like EFT as opposed to the independent particle model used in [9].
+    Using our observation that real-virtual corrections factorize at O(Zα2 ), the relation (15) for the O(Zα2 )
+virtual corrections, and the result from Ref. [7] for the two-loop correction at Z = −1, we thus obtain the
+new result (21) for δ (2,1) (E), representing the complete result for the long-distance QED corrections through
+O(Zα2 ) in the limit of a massless electron. Our recent work on neutron beta decay also supplies the virtual
+corrections at O(α2 ) in the limit of a massless electron, but O(α2 ) real-virtual and real-real corrections are
+currently unknown (as are the finite parts of the O(Z 2 α3 ) corrections).
+
+Comment on short-distance terms
+The correction derived in Eq. (21) is computed in the low-energy effective theory where nuclear structure is
+not explicitly present. In past literature it has been emphasized that nuclear structure modifies the resulting
+correction [9–11], and so before proceeding we comment on how these effects appear in the EFT formalism.
+    First, logarithms of the form log(Λ/2Em ) (where Λ is a nuclear scale) are captured by RG evolution, and
+specifically the O(Zα2 ) coefficient of the anomalous dimension; these terms are included in our results. Second,
+there can be finite corrections induced at the nuclear scale. These are absorbed as O(Zα2 ) corrections to the
+Wilson coefficient C(µ) and depend on nuclear structure.
+    In the context of the present paper, it is sufficient to show that these corrections factorize from the long-
+distance matrix element. This is guaranteed because they are absorbed inside the Wilson coefficient C(µ) which
+appears as the tree-level vertex at the heart of every diagram (at arbitrary order in perturbation theory). They
+are therefore not a part of the long-distance corrections that we discuss below, but instead arise from short-
+distance regions that probe the scale of nuclear structure. They should be properly booked as a O(Zα2 )
+contribution to the nuclear-structure dependent corrections (sometimes called δNS in the literature).
+    For the present work, we have taken an ansatz for the short distance correction from the work of Sirlin and
+Zucchini as implemented by Towner and Hardy [2, 32]. After subtracting the MS low-energy matrix element
+this may be interpreted
+                         as their estimate for the structure-dependent short-distance region. We write this as
+                      (2,1)              (2,1)
+C(Λ) → C(Λ) 1 + 12 δNS,TH , where δNS,TH is defined in Section C.
+
+
+4    Correction to the lifetime
+Let us now combine the above results and obtain a prediction for the decay rate. We are interested in long-
+distance QED corrections that are typically defined after extracting the leading result containing powers of
+Zα. In the EFT approach we follow here this is given by [3, 5] (all expressions are for positron emitters)
+                                         4η     2(1 + η)
+                        F̃ (Zα, E, µ) =                    |Γ(η + iξ)|2 eπξ (2pr)2(η−1) ,           (22)
+                                      (1 + η) [Γ(2η + 1)]2
+                                             2
+
+                                                                         √
+where r = 1/(eγE µ) (with γE the Euler-Mascheroni constant), and η = 1 − Z 2 α2 , ξ = −ZαE/p. We define
+                                                                          q 
+                                 ′                                            ext
+                            1 + δR (µH ) ≡ R(µH , µL )M (µL , Em , m) + O          ,                (23)
+                                                                              Λ
+                       ′
+with (notice that 1 + δR (µH ) is independent of µL ),
+                                                "                          #2
+                                                       C(µL ) C(µH )
+                                   R(µH , µL ) =                               ,                            (24)
+                                                 exp [(1 − η) log(µH /µL )]
+
+
+                                                         7
+                                                            dΠ |M(µL )|2
+                                                        R
+                                 M (µL , E, m) = R                          ,                                  (25)
+                                                       dΠ F̃ (Zα, E, µL )
+
+Rwhere Em ∼ 10 MeV is set by the nuclear mass splitting, Λ ∼ 100 MeV represents a short distance scale, and
+   dΠ denotes integration over electron, neutrino, and photon phase space (when considering real emission).
+ We do not consider terms suppressed by qext /Λ, where qext denotes the external lepton momentum, which
+ arise from higher dimensional operators in the point-like effective theory.
+                                                        ′
+     We have split the long-distance correction (1+δR     ) into a piece induced by renormalization group (RG) flow,
+ R(µH , µL ), and the low-energy matrix element contribution M (µL , Em , m). The denominators are the full
+ amplitude in the limit that α → 0 with Zα held fixed. The RG term is governed by the anomalous dimension
+ and QED beta function, contains all large logarithms, and does not depend on energy. The matrix-element
+ term is evaluated at a low-scale µL ∼ qext and does not contain large logarithms. With the above definition,
+ we may write the decay rate as
+                       Z Em                                    !
+                    1                                                                                q 
+                                              2                              2          ′              ext
+             Γ=             dE   pE(E m −  E)   F̃ (Z, E, µ H )   × |C(µ H )|  × (1 + δR  (µH )) + O       ,    (26)
+                    π3 m                                                                               Λ
+
+where Em = MA − MB = QEC − m is the energy emitted in the beta decay (we neglect nuclear recoil).
+                                                                                     ′
+Comparing to the typical parameterization, written as (1 + ∆R )(1 + δNS − δC )(1 + δR  ), we see that C(µH )
+has subsumed all short distance corrections (including nuclear structure dependence) as well as fundamental
+constants GF and |Vud |.
+   The factor R(µH , µL ) accounts for RG evolution from µH ∼ Λ down to the dynamical scale of the beta
+decay µL ∼ Em . It can be computed to high accuracy and controls contributions that are enhanced by
+logarithms of the form log(µH /µL ) ∼ log(Em R) (see Section A for details). It is conventional in the beta
+decay literature to include the Fermi function in the phase space measure. We implement this as
+                                           R Em
+                                            m
+                                                 dE pE(Em − E)2 F̃ (Z, E, µ) × (. . .)
+                              ⟨. . .⟩F =        R Em                                   .                       (27)
+                                                 m
+                                                     dE pE(Em − E)2 F̃ (Z, E, µ)
+
+The µ dependence in F̃ (Z, E, µ) cancels to all orders in Zα between numerator and denominator in Eq. (27).
+
+Comment on one-loop corrections
+In this work we restrict ourself to an analysis at leading power, which is equivalent to taking ER → 0 (and
+by extension mR → 0 and |p|R → 0). At subleading power, it is well known that one encounters structure
+dependent terms that can depend on lepton energy. For example, as we discuss in Section D, if one includes
+certain structure dependent terms in the shape factor or definition of the Fermi function, this can slightly alter
+the phase-space average of the one-loop radiative corrections.
+    The appropriate quantity to use at leading power is the point-like Fermi function or equivalently (for
+the purposes of phase space averaging) the resummation of all leading-in-Zα diagrams in the EFT. Any
+structure dependence that depends on E or p will correspond to higher dimensional operators in the point-
+like effective theory, beyond the single operator listed in Eq. (1). The one-loop renormalization of these
+operators, and their contribution to the real photon spectrum, is not guaranteed to be captured by the ansatz
+of dΦF (Z, E) → dΦF (Z, E) × (1 + δ (1,0) (E)).
+    In Section D, we find that in order to reproduce Towner and Hardy’s phase space averages of the one-loop
+corrections through three digits, structure dependent corrections must be included. We account for these
+effects using the analytic expressions taken from Ref. [33] (see Section D for a discussion). The numerical size
+of
+                                            α                      α
+                                               ⟨g(E, Em , m)⟩F −      ḡ,                                    (28)
+                                            2π                     2π
+with ḡ taken from Table V of [32], gives a sense for the error induced by the factorization ansatz dΦF (Z, E) ×
+(1 + δ (1,0) (E)) at sub-leading power. We estimate the uncertainty due to this effect in Section D.
+
+
+
+                                                              8
+                                                                                                  ′
+           Beta emitter     Zdaughter   Λ [MeV]      2Em [MeV]      R(µH , µL )   M (µL )    1 + δR (µH )
+                10
+                    C           5         199.1         2.794        1.01634      0.99793    1.01424(5)
+                14
+                    O           7         188.9         4.641        1.01464      0.99805    1.01266(3)
+               26m
+                    Al         12         159.3         7.443        1.01309      0.99826    1.01133(1)
+                34
+                   Cl          16         147.2         9.961        1.01226      0.99842    1.01066(2)
+                34
+                   Ar          17         142.6        11.102        1.01181      0.99844    1.01023(2)
+               38m
+                    K          18         142.0        11.066        1.01199      0.99851    1.01048(3)
+                42
+                   Sc          20         137.8        11.831        1.01191      0.99860    1.01050(4)
+                 46
+                    V          22         134.0        13.083        1.01166      0.99869    1.01033(6)
+               50
+                  Mn           24         132.1        14.247        1.01152      0.99878    1.01029(7)
+                54
+                   Co          26         130.9        15.467        1.01141      0.99888    1.01027(9)
+
+Table 1: Radiative corrections computed using the conventions
+                                                            √        described in the main text for the ten nuclei
+with the lowest Ft errors in [2]. We fix µH = Λ = 6/⟨r2 ⟩1/2 with the root-mean-square radius of the
+daughter, ⟨r2 ⟩1/2 , taken from [34] (except for 34 Cl for which we use ⟨r2 ⟩1/2 = 3.39 fm [35]) to match [2], while
+scale variation errors show dependence on different choices of µL . We take a central value of µL = 2Em and
+vary µL → 2µL and µL → 12 µL (for 26m Al there is an accidental cancellation and we inflate the error estimate
+by hand to 10−5 ). The RG factor is computed using Eq. (37) while the matrix element factor is computed
+using the contributions under the integral in Eq. (46).
+
+
+4.1    New results for outer corrections
+                                                                                ′
+Here we present our results for the point-like long-distance corrections, (1 + δR (µH )) defined in this work. We
+present results for R(µH , µL ) and M (µL ) separately, and use the residual
+                                                                          √   dependence    on µL as an estimate
+of neglected higher-order perturbative corrections. We fix µH = Λ = 6/⟨r2 ⟩1/2 , where ⟨r2 ⟩1/2 is the root-
+mean-square radius of the daughter nucleus, and vary µL = Em . . . 4Em We use the form of the expressions in
+terms of ᾱL given in Eqs. (37) and (46), with central value µL = 2Em .
+
+Finite mass corrections
+The scale variation used in Table 2 is an estimate of missing finite terms at O(Z 2 α3 ), i.e., those without a
+logarithmic enhancement, and other higher order effects. It does not account for any error incurred from the
+small-mass expansion of δ (2,1) (E), nor does it account for the point-like approximation used herein.
+    To estimate these missing uncertainties, we simply assign an error of Zα2 m2 /Em   2
+                                                                                          for finite-mass corrections
+     (2,1)                    2   2                                  10    14         26m
+to δ       (E). The size of m /Em is largest for the lightest nuclei C, O, and             Al; however, the modest
+values of Z for these nuclei help keep this error under control:
+                   2                              2                                     2
+                 m               −4 14            m                −4 26m                m
+ 10
+    C : Zα   2
+                       = 0.36×10 , O : Zα     2
+                                                        = 0.18×10 ,         Al : Zα 2
+                                                                                                 = 0.12×10−4 . (29)
+                 Em                               Em                                     Em
+This quantity is smaller than 1 × 10−5 for all other nuclei. The estimated error is thus smaller than the
+perturbative error estimated in Table 1, except for the three lightest beta emitters where the two uncertainties
+are comparable.
+
+Mixing of structure-dependent and radiative corrections
+Structure dependent terms that depend on the electron’s energy at tree-level can be identified with higher
+dimensional operators in the effective theory used here. These operators receive different radiative corrections
+than the leading order operator in Eq. (1). To the best of our knowledge, these corrections have not been
+calculated. We estimate, on the basis of the results in Section D, that these terms are ∼ 10−5 for light nuclei
+but can grow to become ∼ 10−4 for larger-Z beta emitters. These are smaller than the perturbative error
+estimated in Table 1.
+
+
+                                                         9
+                                                                                                      (2,1)
+       Beta emitter      Zdaughter    Convention shift      Long-distance shift      Total-shift    δNS,TH [10−4 ]
+            10
+                C             5            1.000105                0.999967            1.00007                2.1
+            14
+                O             7            1.00012                 1.00000             1.00012                2.9
+           26m
+                Al           12            1.00013                 1.00006             1.00019                4.3
+            34
+               Cl            16            1.00013                 1.00014             1.00027                5.5
+            34
+               Ar            17            1.00013                 1.00016             1.00029                5.8
+           38m
+                K            18            1.00015                 1.00017             1.00032                6.2
+            42
+               Sc            20            1.000154                1.000214            1.00037                6.8
+             46
+                V            22            1.00015                 1.00027             1.00042                7.2
+           50
+              Mn             24            1.00015                 1.00033             1.00048                7.6
+            54
+               Co            26            1.00016                 1.00039             1.00055                8.0
+
+Table 2: Update to the long-distance radiative corrections from Towner and Hardy using the procedure
+described in Section C for the ten nuclei considered in this work. Additional digits are shown when they affect
+the final digit displayed in the “Total-shift” column. The convention shift stems from a reorganization of
+                                           ′
+Towner and Hardy’s calculation of (1 + δR    )TH . The total shift includes both the effects of this rearrangement
+and the incorporation of the higher order terms calculated in this work. The long-distance shift does not
+                                           (2,1)
+alter the Zα2 short-distance correction, δNS,TH , whose size we estimate using Towner and Hardy’s calculation.
+This quantity is sizeable and should be revisited (in addition to uncertainties on δNS − δC ) in a consistent
+microscopic theory of the nucleus.
+
+
+4.2     Comparison to Towner and Hardy
+In order to take the above analysis and infer the associated shift in |Vud |, we reinterpret the analysis of Towner
+and Hardy [2]. The details are discussed in Section C, and we simply quote the main results here. Towner and
+                           (TH)
+Hardy’s calculation of δ2       contains the sum of the short- and long-distance contributions. We do not adjust
+                 (TH)
+their value of δ2 , and rather interpret it as a long-distance piece that precisely matches our formulae, and
+a short-distance piece that we then infer from their calculation. This short distance piece is interpreted as a
+Zα2 shift to C(µ), or equivalently to an O(Zα2 ) contribution to the nuclear-structure dependent correction
+                        (2,1)
+which we denote as δNS .
+    We first reorganize the existing ingredients of Towner and Hardy’s calculation according to the factorization
+theorem that can be derived from Eq. (1) (see [3] for details). This leads to the shift denoted “convention
+shift” in Table 2. Next we compare the results of the present paper with the long-distance corrections of
+Towner and Hardy defined in this new convention. This leads to the quantity denoted “long-distance shift”.
+The product of “convention shift” and “long-distance shift” gives the total shift.
+    In Fig. 2, we plot the total shifts from Table 2 as applied to the Ft values from Fig. 3 of [2]; we do not
+adjust the error bars. The shifts are sizeable. Our analysis incorporates many terms that are not present in
+Towner and Hardy’s analysis. Let us list these for illustration: i) sub-leading logarithms at O(ᾱ2 L) from the
+RG evolution [+0.4], ii) the coefficient at Z 2 ᾱ3 L [-0.7] and Z 2 ᾱ3 LLm [+1.9], iii) the coefficient at O(Z ᾱ3 L2 )
+[+0.3], iv) the coefficient at O(Z 2 ᾱ4 L3 ) [+0.02], and v) the coefficient of log(m) singularity at O(Z 2 ᾱ3 ) [-1.0].
+                                                                                            ′
+The numbers in square brackets give the shift to the total radiative correction, 1 + δR       (µH = Λ), for 26m Al (in
+            −4
+units of 10 ) relative to a “baseline” where this term is set to zero by hand.
+    If we perform a weighted average of the Ft values of the ten nuclei6 considered here we find ⟨F t⟩ =
+(3072.1 ± 0.6) s. If the updated radiative corrections are applied using the shift discussed above, we instead
+                                                                                                       ′
+obtain ⟨Ft⟩ = (3073.0 ± 0.6) s. This shift is 2.5× larger than the estimated uncertainty from δR          in [2], is 1.5×
+larger than the statistical error, and is roughly half the estimated error from δNS ; the shift exacerbates the
+first-row CKM unitarity deficit (however see e.g., [36] for nuclear structure effects which do the opposite).
+   6 Towner and Hardy take the fifteen most precise superallowed emitters and obtain ⟨F t⟩ = (3072.24 ± 0.57) s [2]. The 0.57
+                                                                                                 ′ [±0.36].
+error is statistical and should be compared to the estimated theory errors from δNS [±1.72] and δR
+
+
+
+                                                             10
+                         3080
+
+                         3078                                            V -46
+                                                       Ar -34
+                                                                K -38m
+                         3076
+                                    C -10    Al -26m                        Mn -50
+
+              ℱt [ s ]
+                         3074
+
+                         3072
+
+                         3070
+                                        O-14     Cl -34
+                         3068                                    Sc -42
+                                                                           Co -54
+                         3066
+                                5           10          15         20            25
+
+                                                   Z daughter
+
+Figure 2: A reproduction of Fig. 3 of Towner and Hardy [2] for the Ft values of the ten nuclei considered in
+this work. Error bars show purely experimental errors, and do not account for theoretical uncertainties related
+to radiative corrections. The data points of Towner and Hardy are shown in blue (dark gray). The same data
+points multiplied by the “total shift” column of Table 2 are shown in orange (light gray).
+
+
+5     Summary and discussion
+In this work, we have provided a comprehensive update to the long-distance radiative corrections for superal-
+lowed beta decays. Our results are derived using a rigorous factorization of the decay amplitude at leading-
+power (i.e., neglecting the interference of structure-dependent higher dimensional operators and O(α) radiative
+corrections). This factorization of the amplitude has allowed us to quantify errors incurred by Towner and
+Hardy’s factorization ansatz, as well as to control higher-order radiative corrections proportional to logarithms
+of the form log(Λ/(2Em )) and log(2Em /m). We replace Sirlin’s heuristic estimate for the Z 2 α3 correction
+with a systematic determination of logarithmic enhancements using renormalization group methods.
+    Our three main theoretical result are:
+    • The amplitude factorizes at leading-power, and this factorization theorem constrains the possible form
+      of higher order radiative corrections.
+    • The virtual corrections to real-photon radiation are captured by the Fermi function at O(Zα).
+    • The O(Zα2 ) matrix element of the point-like effective theory has been presented. Combined with the
+      results from [3–5], this allows us to control all effects of O(Zα2 ) including logarithmic enhancements
+      which we count numerically as log(Λ/2Em ) ∼ log(2Em /m) ∼ Z.
+
+The relevant formulae for these results are given by Eqs. (23) to (25) for the factorization theorem, Eq. (12)
+for real-photon corrections, and Eqs. (18) and (37) (or Eqs. (21) and (36) in terms of onshell α) for the ana-
+lytic formulae for long-distance radiative corrections. Our scale variation uncertainty suggests that currently
+                                                                                                          (2,1)
+unknown Z 2 α3 corrections and finite mass effects are ∼ 3 × 10−5 in size. This is much smaller than δNS,TH ,
+and this quantity should be revisited in light of its sizeable impact on |Vud |.
+    Future work will involve a careful merger of the long-distance EFT calculations presented here with short-
+distance results. Ideally, both theories will be formulated using minimal subtraction or another closely related
+scheme. The results presented here are sufficient for ∼ 10−4 precision, which we expect to be sufficient for the
+near-term and medium-term future of precision beta decay experiments.
+
+
+
+                                                         11
+    Motivated by this goal, and given that the long-distance region is perturbatively calculable, we list some
+open questions in the low-energy theory whose answers would reduce theoretical uncertainty. These include:
+finite electron-mass corrections to the long-distance Zα2 results presented here; the proper one-loop renormal-
+ization of higher dimensional operators; a calculation of the Z 2 α3 matrix element in the small electron-mass
+limit; and an analysis of O(α2 ) corrections including real-virtual corrections and double-real emission. Most
+                                                                                           (2,1)
+pressing, however, is the control of the Zα2 contribution to the short-distance matching, δNS , and the control
+of one-loop radiative corrections sensitive to nuclear structure. We look forward to future progress on these
+open questions and towards a consistent implementation of the results presented above with a short-distance
+matching calculation.
+
+
+Acknowledgments
+RP thank Eric Laenen for helpful discussions, and Roberto Zucchini for correspondences relating to Ref. [9].
+RJH thanks Susan Gardner for discussions. RP thanks the Ohio State University, the University of Illinois
+Urbana Champaign, the Jožef Stefan Institute, the Kavli Institute for Theoretical Physics, and the Facility
+for Rare Isotopes and Beams for their hospitality. KITP is supported by the National Science Foundation
+under Grant No. NSF PHY-1748958. FRIB is a DOE Office of Science User Facility under Award Number
+DE-SC0023633 RP was supported for large portions of this work by the Neutrino Theory Network under
+Award Number DEAC02-07CH11359, the U.S. Department of Energy, Office of Science, Office of High Energy
+Physics under Award Number DE-SC0011632, and by the Walter Burke Institute for Theoretical Physics. PVG
+acknowledges support from the Visiting Scholars Award Program of the Universities Research Association. This
+work was supported by the U.S. Department of Energy, Office of Science, Office of High Energy Physics, under
+Award DE-SC0019095. This work was produced by Fermi Forward Discovery Group, LLC under Contract No.
+89243024CSC000002 with the U.S. Department of Energy, Office of Science, Office of High Energy Physics.
+
+
+   Note added: After the completion of this work the authors of Ref. [31] informed us of their own in-
+dependent calculation of the Zα2 correction. Their analysis includes full electron mass dependence (going
+beyond the result derived herein), and furthermore includes corrections to correlation coefficients. Our work
+provides an independent extraction of the small-m limit of the Zα2 correction, a novel analysis of real-virtual
+corrections which explains their factorization, higher order renormalization group evolution, and supplies KLN
+constraints on the amplitude at three-loop order.
+
+
+A     Resummation of logarithms
+For convenience we provide here a discussion of the renormalization group flow (see also Ref. [3]). The
+renormalization group equation governing the flow of C(µ) is
+
+                                                   d log C
+                                                           = γO .                                         (30)
+                                                   d log µ
+
+Since ᾱ(µ) flows with µ, it is convenient to express the solution to this equation as
+                                                     Z ᾱH
+                                              C(µH )           γO (ᾱ)
+                                        log            =               dᾱ ,                              (31)
+                                              C(µL )       ᾱL  β(ᾱ)
+
+where the β function is defined via
+
+                                         d
+                                                          
+                                                            ᾱ       ᾱ 2           
+                            β(ᾱ) ≡           ᾱ(µ) = −2α      β0 +         β1 + . . . .                  (32)
+                                      d log µ               4π       4π
+
+
+
+
+                                                         12
+For QED7 the relevant values are β0 = −(4/3)ne and β1 = −4ne . One expands the anomalous dimension as
+        ᾱ h (1) i  ᾱ 2 h 2 (0)   (1)  (2)
+                                              i  ᾱ 3 h
+                                                              (1)
+                                                                       i  ᾱ 4 h
+                                                                                        (0)
+                                                                                                 i
+ γO =       γ0 +            Z γ1 + Zγ0 + γ0 +            Z 2 γ2 + . . . +          Z 4 γ3 + . . . + . . . , (33)
+        4π          4π                           4π                       4π
+where we have retained only the terms needed for the present analysis, which can be found in Ref. [4].
+    Next, introduce the parameter λ and count α ∼ λ2 and Z ∼ 1/λ. The RG equations may be expanded
+and integrated order-by-order in λ. This yields an expression for the ratio C(µH )/C(µL ) as a function of
+ᾱH ≡ ᾱ(µH ) and ᾱL ≡ ᾱ(µL ) as given explicitly in [3]. Integrating Eq. (32) we obtain
+
+                            ᾱH         ᾱL         ᾱ 2           β1
+                                                                          
+                                                       L
+                                  =1−       β0 L +            β02 L2 − L + O(λ4 ) ,                    (34)
+                             ᾱL         2π          2π                2
+
+where we assign the scaling L = log(µH /µL ) ∼ 1/λ. The MS and onshell couplings are given by8
+                                                   µ   α 2                µ             
+                                         α             L                          L
+                      ᾱ(µL ) = α 1 −       β0 log         +          β02 log2        + O(λ3 ) ,       (35)
+                                         2π          m          2π               m
+                                                                            
+where we take log(µL /m) ≲ 1/λ.9 Introducing Lm = log m2 /µ2L , we obtain the renormalization factor in
+Eq. (24), expressed in terms of onshell α,
+                                                                                              
+                                       3         2           13 2         1     35           1
+                R(µH , µL ) = 1 + α       L + α ZL + 2 L +                   −         L − 2 LLm
+                                      2π                    8π            3 48π 2           2π
+                                                            
+                                        2 2 2         π     3              13          221 3
+                                + α3       Z L +         −       Z 2L +       ZL2 +         L
+                                       3π              6    π             6π         144π 3
+                                                                                                       (36)
+                                                                                 13L2
+                                                                                                   
+                                                               2Z(Z + 1)                         L 2
+                                                          −                  L+          Lm + 3 Lm
+                                                                    3π           12π 3         6π
+                                        13 2 3 5Z 2 2                 Z2
+                                                                               
+                                + α4        Z  L   −       L  L m +        LL2m + O(λ4 ) ,
+                                       9π 2           3π 2           3π 2
+
+where we have allowed Lm ∼ 1/λ (given that 2Em /m is often numerically comparable to Λ/2Em for the nuclei
+of interest) and truncated our expansion at O(λ3 ). Equation (36) generalizes the equivalent expression given
+in the Supplementary Material of Ref. [3] for Lm ̸= 0. We also supply the result for R(µH , µL ) in terms of ᾱL ,
+                                                                          
+                                       3       2         13         1     35
+              R(µH , µL ) = 1 + ᾱL      L + ᾱL  ZL + 2 L2 +          −       L
+                                      2π                8π          3 48π 2
+                                                                                               
+                                  3    2 2 2       π   3           13         221 3      2 2
+                              + ᾱL      Z L +       −     Z 2L +     ZL2 +         L −    Z LL m           (37)
+                                      3π           6   π          6π         144π 3     3π
+                                       13 2 3 Z 2 2           Z2
+                                                                       
+                                  4
+                              + ᾱL        Z L − 2 L Lm − 2 LLm + O(λ4 ) .
+                                                                      2
+                                      9π 2         π          3π
+Note that the explicit dependence on Lm arises from the conventional definition of R involving onshell α.
+   The analysis written above can be readily extended to O(λ4 ) with currently available ingredients; this
+pushes well beyond the O(10−4 ) precision target of superallowed beta decays. Therefore, logarithmic enhance-
+ments are completely controlled for the purposes of |Vud | extractions.
+   7 In principle, we could also include a dynamical muon for µ ≥ m and dynamical pions for µ ≥ m . For simplicity, we opt
+                                                                        µ                                π
+instead to work exclusively in ne = 1 QED. The price of this choice is that matching from a microscopic theory at the scale µH = Λ
+will involve small-logarithms at O(α2 ) and O(Zα3 ) of the form log(Λ/mµ ) ≈ 0.5, log(mπ /mµ ) ≈ 0.25 and log(Λ/mπ ) ≈ 0.35
+with numerical values obtained using Λ = 190 MeV; these count as O(λ4 ) (see discussion above Eq. (34)) in our counting and are
+absorbed into the matching calculation that defines the short-distance correction.
+   8 The largest corrections in our counting are all O(λ), e.g., O(Zα) and Z 2 α2 L. Therefore, when relating α and ᾱ one need
+
+only work through O(λ2 ) when a global error of O(λ3 ) is desired.
+   9 Higher order terms can be obtained from Eqs. (29)-(32) of [37].
+
+
+
+
+                                                               13
+B     Kinoshita-Lee-Nauenberg constraints
+The KLN theorem [29, 30] guarantees that the inclusive decay rate for a superallowed beta decay has a finite
+limit as m → 0. This implies that corrections of the form ᾱ12 (µ) log(µ/m) (for example) are forbidden for some
+fixed µ as m → 0. As a result, we can guarantee that our perturbative expressions are free of any electron-mass
+logarithms to all-orders in perturbation theory if the result is expressed in terms of ᾱL rather than α. This
+proves to be a powerful constraint on the amplitude as was already appreciated by Sirlin and Zuchinni in their
+work at O(Zα2 ) [9].
+    Let us consider the full amplitude
+                                        2Z
+                                                                          |M1γ (µL )|2
+                                                                                           
+                               2 C(µL )
+                                                                    Z
+                                                           2
+                  Γ = |C(µH )|             dΦe |M0γ (µL )| 1 + dΦ1γ                    + ... ,               (38)
+                                 C(µH )                                   |M0γ (µL )|2
+
+where dΦe = pE(Em − E)2 dE, while dΦ1γ is the additional phase space of a single photon defined at fixed
+electron energy.
+    We know the full leading-in-Zα expression for |M0γ (µL )|2 [5], and can readily express the result in terms
+of ᾱL . We may then define corrections as a series in ᾱL ,
+                        2Z                                                                          
+             2 C(µL )                                  ᾱL                11         2   5   8 11
+ Γ = |C(µH )|              dΦe F̃ (Z ᾱL , E, µL ) 1 +       ĝ(E, µL ) +      + Z ᾱL − LE + +    − ζ2
+                 C(µH )                                2π                 4              3   9   4
+                                                                                                           (39)
+                                                                          + Z 2 ᾱL
+                                                                                  3 (3,2)
+                                                                                    f         2 (2,0)
+                                                                                          + ᾱL f     + ...   ,
+
+where the functions f (2,3) are currently undetermined, but whose log(m) terms will be constrained by the
+KLN theorem. The function ĝ(E, µ) contains electron mass singularities (see e.g., [38]),
+
+                                                            (1 − x)2
+                                                                                
+                      11           2Em     4(1 − x)                            1−x
+           ĝ(E, µ) +     = log                     −3+              + 4 log
+                       4            m         3x               6x2              x
+                                                    2π 2
+                                                                                           
+                                         µ                                 1−x 3           1−x
+                             + 3 log          +2−         + 4(log x − 1)        − + log              (40)
+                                       2Em           3                      3x    2         x
+                                                    2
+                                (1 − x)2
+                                                                
+                                                    m        m
+                             +           log x + O       log       ,
+                                   6x2              E2       E
+
+where x = E/Em . The electron mass singularity cancels (as is guaranteed by the KLN theorem) when
+integrated over tree-level phase space,
+                       Z 1
+                                                         (1 − x)2
+                                                                              
+                                            4(1 − x)                        1−x
+                           dx x2 (1 − x)2            −3+          + 4 log          =0.        (41)
+                        0                      3x           6x2              x
+
+This observation, and the fact that the Fermi function becomes energy independent at O(Zα) for a massless
+electron, fixes the log(m) dependence of δ (2,1) as was first noticed by Sirlin and Zucchini [9].
+    We may now play the same game to fix the log(m) dependence of the O(α2 ) and O(Z 2 α3 ) terms. This is
+most easily phrased in terms of ᾱL because this quantity is fixed as m → 0. We demand that Γ be given by
+                                           ᾱL (1)  ᾱL 2 (2)  ᾱL 3 (3)
+                              Γ = Γ(0) +      Γ +          Γ +          Γ + ...,                                  (42)
+                                           2π        2π           2π
+where Γ(n) may contain powers of Z m with m ≤ n and logarithmic enhancements of the form log(Λ/2Em )
+but, crucially, does not contain any terms of the form log(2Em /m) or log(Λ/m).
+   Let us compare to the factorized form of Eq. (39) prior to integration over phase space. Since ĝ(E, µ)
+contains a term proportional to log(m), its cancellation in Eq. (42) is non-trivial. At O(ᾱL ), the cancellation
+                                  2
+proceeds via Eq. (41). At O(Z ᾱL   ), in the small electron mass limit, the Fermi function reads F̃ (Z ᾱL , E, µL ) =
+(1 − πZ ᾱL + . . .), and Eq. (41) thus implies that the log(m) cross term between F̃ (Z ᾱL , E, µL ) and ĝ(E, µ)
+
+
+                                                          14
+                                                                                             2
+again vanishes. A corollary of this observation is that the function appearing at O(Z ᾱL      ) in Eq. (42) is free of
+any log(m) singularity, in agreement with explicit computation.
+    Let us now turn to the undetermined functions f (3,2) and f (2,0) . We may immediately conclude that f (2,0)
+contains no log(m) singularities f (2,0) = 0 + . . . with the ellipsis denoting O(1) terms as m → 0. For f (3,2) , we
+instead find that a log(m) singularity must be present to cancel against the associated singularity generated
+by the cross-term between the Z 2 ᾱL   2
+                                           term in the Fermi function, and the log(m) singularity from ᾱ2πL ĝ(E, µ).
+This arises because of the logarithmic energy dependence from
+                                                                   2                
+                                                                   π     11       2E
+                       F̃ (Z ᾱL , E, µL ) = 1 − πZ ᾱL + Z 2 ᾱL
+                                                                2
+                                                                      +     − log      + ... ,                     (43)
+                                                                    3     4        µ
+leads to the non-vanishing integral
+            Z 1
+                                                (1 − x)2                                     π2
+                                                                        
+                    2        2 4(1 − x)                             1−x                            1
+                dx x (1 − x)               −3+        2
+                                                          + 4 log            ×  [− log(x)] =    −    .                     (44)
+             0                    3x               6x                 x                      45   12
+                                                                R1
+which implies that10 (recall the tree-level phase space gives 0 dx x2 (1 − x)2 = 1/30)
+
+                                                                     π2
+                                                                     
+                                     (3,2)   30       2Em       1
+                                   f       =    log                −      + ...
+                                             2π         m      12 45
+                                                     2  2                                                              (45)
+                                              1       m      2π      5
+                                           =    log               −      + ... ,
+                                             4π        µ2      3     2
+where the ellipses represent terms that are O(1) in the m → 0 limit, including log(2Em /µ) (hence why the
+two forms written above are equivalent). We have thus predicted the coefficient of log(m) in f (2,3) and f (2,0)
+(which vanishes) as introduced in Eq. (39) on the basis of the KLN theorem.
+   Counting log(2Em /m) ∼ log(Λ/2Em ) ∼ Z ∼ 1/λ and ᾱL ∼ λ2 as above, we have
+                        2Z                                                                            
+              2 C(µL )                                  ᾱL              11         2   5     8 11
+  Γ = |C(µH )|              dΦe F̃ (Z ᾱL , E, µL ) 1 +       ĝ(E, µ) +      + Z ᾱL − LE + +       − ζ2
+                C(µH )                                  2π                4             3     9    4
+                                                                                        2                (46)
+                                                                            1 2 3       2π   5        4
+                                                                        +     Z ᾱL Lm     −     + O(λ ) .
+                                                                           4π            3   2
+                                                                                                     2
+Since we know F̄ (Z ᾱL , E, µL ) to all-orders in perturbation theory and |C(µL )/C(µH )| through O(λ3 ) (with
+the ability to compute through O(λ4 ) if desired), this result is complete through O(λ3 ). One can use the
+relation between ᾱL and α to re-write this expression in terms of the onshell coupling; however, we find it
+convenient to use the running coupling in our computations.
+                                         ′
+    We use Eq. (46) to compute 1 + δR      (µH ) as presented in Table 1, evaluating F̃ (Z ᾱL , E, µL ) at µL = 2Em ,
+and using                                                                          
+                                             2       µ 
+                                                       L       4         µ 
+                                                                            L
+                             ᾱL = α 1 +       α log       + 2 α2 log2         + ... .                            (47)
+                                            3π        m      9π            m
+Unknown corrections stem from the finite contributions to f (2,0) and f (3,2) which cannot be inferred from the
+general arguments given above.
+   Although not used explicitly in this work, it is useful to note that if one were to use an expansion in onshell
+α rather than ᾱL , then higher order terms must be kept to retain a complete O(λ3 ) counting.
+                                2Z                     
+                         C(µL )
+         Γ = |C(µH )|2              dΦe F̃ (Zα, E, µL ) 1 + δ (1,0) (E) + δ (2,1) (E) + δ (3,2) (E)
+                         C(µH )
+                                                                                                              (48)
+                                                                        + δ (2,0) (E) + δ (3,1) (E) + O(λ4 ) ,
+
+  10 Strictly speaking we can only conclude that the integral of f (3,2) over phase space yields 1/12 − π 2 /45, however for the
+
+purposes of computing the superallowed lifetimes these two statements are equivalent.
+
+
+                                                              15
+where, through O(λ3 ), we have
+                                                                 
+                     D            E          −ne                 11
+                       δ (2,0) (E) = α2 Lm           ĝ(E,  µ) +      ,
+                                   0         6π 2                 4 0
+
+                                                                        π2
+                                                                              
+                     D
+                         (3,2)
+                                  E
+                                      2 3       π    5      2ne              11
+                       δ       (E) = Z α Lm       −       −       −LE +    −         ,
+                                   0            6   8π       3π         3     4    0
+                                              2
+                     D            E            −ne
+                       δ (3,1) (E) = Zα3 L2m            ,                                                  (49)
+                                   0            9π 0
+which can be inferred from the above expressions after relating ᾱL to α. The angle brackets denote averages
+over tree-level phase space in the m/E → 0 limit,
+                                                  Z Em
+                                               30
+                                    ⟨. . .⟩0 = 5       E 2 (Em − E)2 [. . .] .                          (50)
+                                              Em 0
+For completeness, we tabulate also the corrections to the quantity M through O(λ3 ), collecting terms at first,
+second and third order in onshell α as
+                                  M = 1 + ∆(1,0) + ∆(2,1) + ∆(2,0) + ∆(3,2) + ∆(3,1) + . . . ,             (51)
+with
+                                                          
+                      (1,0)     α                     11
+                  ∆           →            ĝ(E, µ) +
+                                2π                     4       0
+
+                                               217 4π 2
+                                                         
+                                  α     µ
+                              =            3 log
+                                            +       −         ,
+                                  2π  2Em       20     3
+                                                                                          
+                                 ne          2ne                2Em      47     8ne     11
+                  ∆(2,1) → Zα2      Lm −           +1     log         −       +      +     − ζ2 ,
+                                  3            3                  µ      60      9       4
+                                             217 4π 2
+                                                      
+                                    −ne
+                  ∆(2,0) → α2 Lm                   −        ,                                              (52)
+                                    6π 2      20      3
+                                                                            π2
+                                                                               
+                    (3,2)    2 3         2ne             2Em        47           11
+                  ∆       → Z α Lm −             − log           −       +     +      ,
+                                          3                µ        60      3     4
+                                     2
+                                      −ne
+                  ∆(3,1) → Zα3 L2m           .
+                                       9π
+where the arrow denotes the limit m/Em → 0.
+
+
+C      Relating schemes from Towner and Hardy to this work
+The calculation done in this work has been performed in the MS scheme in a point-like effective theory that
+uses the physical nuclei as external degrees of freedom. Past calculations of radiative corrections have been
+performed using models that include spectator protons with a relativistic scalar propagator [9, 11, 39] (we will
+refer to this as “Sirlin’s scheme” in what follows). This leads to some differences that must be accounted for
+when comparing results. For example, the Sirlin g-function (which arises naturally in the Sirlin-scheme) is
+defined by,
+                                                                              (Em − E)2
+                           m  1                                                       
+                               p
+                                  + tanh−1 (β) 2 β 2 + 1 − 4 tanh−1 (β) +
+                                                           
+    g(E, Em , m) = 3 log
+                             m      β                                             6E 2
+                                                                                                         (53)
+                                                                                   4Li      2β
+                              tanh−1 (β)
+                                                           
+                                                    2(Em − E)       Em − E      3        2 β+1      3
+                       +4                −1    log               +           −      −             − ,
+                                  β                     m             3E        2          β        4
+
+                                                                   16
+with β = |p|/E the electron velocity. In the EFT, no proton mass appears, and one instead finds the
+combination g(E, Em , m) + 3 log (µ/mp ) + 11
+                                            4 where the additive constant 11/4 is specific to the MS scheme.
+Finite pieces, like +11/4, must be properly accounted for when comparing schemes.
+   Towner and Hardy define their total set of radiative corrections as
+                                                      ′
+                                     (1 + RC) = (1 + δR )TH (1 + δNS − δC )(1 + ∆VR ) ,                                     (54)
+                                                                           ′
+where we have added a subscript of TH to distinguish from our (1 + δR        (µH )). Of particular interest in the
+present context is their “outer correction”, as defined in Eq. (37) of [2] motivated by the factorization ansatz
+from Eq. (15) of [40]
+                                                    n
+                  ′              α                 mp                           α  (TH)     (TH)
+                                                                                                  o
+           (1 + δR  )TH = 1 +        ḡ − 3 log            × L(2Em , mp ) +         δ2   + δ3        ,        (55)
+                                2π                2Em                          2π
+      α
+where 2π ḡ is taken from Table V of [32]. It is convenient to define
+                                                                          
+                                  (1,0)        α                 mp     11
+                                  δ       TH
+                                             ≡       ḡ − 3 log         +      ,                                            (56)
+                                                2π                2Em     4
+
+which involves only Towner and Hardy inputs, and is closely related11 to our ⟨δ (1,0 (E)⟩F . The term
+                                                                              9/4
+                                                           2               2Em
+                              L(2Em , mp ) = 1.026725 1 −    α̂(µ = m) log          ,                                       (57)
+                                                          3π                m
+
+is analogous to R(µH , µL ) discussed above, but containing only terms of O(αn Ln ). The coupling with a hat
+is related to α by α̂−1 (µ = m) = α−1 + 1/(6π) [40]; following Towner and Hardy we take α̂(m) = 1/137.089.
+          α (TH)
+Parts of 2π δ2    (taken from Table V of [32]) contain logarithms involving the nuclear scale Λ. Let us define
+  (2,1)
+δNS,TH via,
+                                                      D
+                             α (TH)       2        Λ                  E
+                                                                           (2,1)
+                                δ2   = Zα log            + δ (2,1) (E) + δNS,TH ,                        (58)
+                             2π                  2Em                   F
+
+        (2,1)
+where δNS,TH is an energy-independent constant related to the model calculation of Sirlin and Zucchini [9, 10].
+                                     (2,1)
+We have chosen the notation δNS,TH because it may be interpreted as the short-distance region of Towner and
+Hardy’s calculation [32] and, therefore, as their estimate for the Zα2 correction to |C(µ)|2 .
+    We may decompose δ3 using formulae from Sirlin and Zucchini [9, 10], which are given in terms of an
+energy dependent correction. Averaging over phase space, and isolating logarithms of Λ and m we find,
+                                                                                            
+ α (SZ)                     Λ                2Em           Λ                 Λ               2Em
+    δ3  = Z 2 α3 c1 log2          + c2 log          log          + c3 log         + c4 log         + c5 , (59)
+ 2π                        2Em                m           2Em               2Em                m
+
+where “SZ” stands for Sirlin-Zucchini, c5 is O(λ4 ) in our counting and can be neglected, whereas c1 = 2/(3π),
+c2 = 4/(3π),
+
+                                     6π 2 − 67 − 12 log(10)
+                              c3 =                          ,
+                                              18π
+                                       20π 2 + 48γE + 24 log(10) − 177     D  E
+                              c4 = −                                   − c2 log EEm   .                                     (60)
+                                                    36π                             0
+                                 2
+We have used (2π)−1 ( 52 − 2π3 ) ≈ −0.649 for Sirlin and Zucchini’s h from [9]. We have also accounted for the
+updates described in the footnotes of [10] which include adjusting to the 1986 Jaus-Rasche updated logarithmic
+coefficient a = π/3 − 3/(2π) [11] (which is erroneous [4]), and using log(E/m) rather than log(Em /m) for the
+term multiplying h as given in [9].
+  11 The numerical size of the difference ranges from 6 × 10−6 for 10 C to 1 × 10−4 for 54 Co. It stems from logarithmic terms in
+
+the Fermi function, (µH /µL )2(η−1) ∼ 1 + Z 2 α2 log(µH /µL ), that are included in R(µH , µL ) in our analysis.
+
+
+                                                               17
+   Towner and Hardy’s tabulation [32] disagrees with the tabulation found in Sirlin [10]. We have calculated
+α
+2π δ3 using the above formula and find that if we set c4 = c5 = 0 we reproduce all of Towner and Hardy’s
+                                50       50                               −4
+tabulated results [32] except for Mn → Co for which we obtain 6.3 × 10 as compared to Towner and
+                                                                              α (TH)
+Hardy’s 6.2 × 10−4 . We therefore conclude that the tabulated values in [32], 2π δ3 , are equivalent to,
+                                                                                    
+              α (TH)       2 3       2    Λ               2Em          Λ                 Λ
+                 δ     ↔ Z α c1 log            + c2 log         log          + c3 log          ,         (61)
+             2π 3                        2Em               m          2Em               2Em
+which may be interpreted as part of the renormalization group flow.
+   Without using any new inputs, it is then natural to re-organize Towner and Hardy’s results as
+                                                                                       
+                                                              (2,1)                   11
+            (1 + δNS − δC )(1 + ∆VR ) → L(Λ, mp ) 1 + δNS + δNS,TH − δC     1 + ∆VR −    α ,                              (62)
+                                                                                      8π
+                                         |                        {z                      }
+                                                                        Short−distance
+                                           n                              o
+                                    ′
+                                      )TH → 1 + δ (1,0) TH + δ (2,1) (E) F R(2Em , Λ) ,
+                                                      
+                              (1 + δR                                                                                     (63)
+                                           |                   {z                   }
+                                                                   Long−distance
+
+where we have split up L(2Em , mp ) = L(2Em , Λ)L(Λ, mp ) and introduce the analog of our RG factor,
+                                                                     α (TH)
+                          R(2Em , Λ) = L(2Em , Λ) + Zα2 log 2EΛm +        δ     ,                                         (64)
+                                                                       2π 3
+which now contains the Zα2 L term and Towner and Hardy’s estimate for the Z 2 α3 logarithmic terms taken
+explicitly from Table V of [32]. The quantity δ (2,1) (E) F is expanded in terms of the onshell coupling α, and
+evaluated at µL = 2Em . The RG-running factor from Λ to 2Em is computed following [40] for self-consistency
+with the Towner and Hardy result,12
+                                                          9/4                            27/44
+                                         2             2Em                    1
+              L(2Em , Λ) = 1.01882 1 −      α̂(m) log                 22                           ,       (65)
+                                        3π              m         1 − 9π α̂(mµ ) log(Λ/mµ )
+where α̂(mµ ) = 1/135.7896. While Eq. (65) matches [40] and includes constituent quarks and a dynamical
+muon, we have checked that the same numerical value is obtained, up to corrections of 10−5 if one includes
+only dynamical electrons in the theory. The result, and therefore our comparison to Towner and Hardy, is
+insensitive to the detailed implementation.
+    The replacement rules defined above do not introduce any new ingredients to Towner and Hardy’s analysis.
+Instead, they simply re-arrange existing inputs in accord with expectations from the factorization theorems
+discussed in the main text. We, therefore, refer to the resulting change as a “convention shift” defined via,
+                                                      (Long-distance) × (Short-distance)
+                             Convention shift =             ′ )                         V
+                                                                                            ,                             (66)
+                                                      (1 + δR   TH (1 + δNS − δC )(1 + ∆R )
+
+where the long- and short-distance pieces are defined by Eqs. (62) and (63). The convention shift receives
+a contribution of ∼ 0.85 × 10−4 from induced cross terms between 8π    11
+                                                                          α and ∆VR or L(2Em , mp ). Other
+                                4
+contributions are formally O(λ ) in our counting if log(mp /Λ) is counted as O(1), such as the cross term of
+                   mp
+(Zα2 L) × ( 3α
+            2π log Λ ) with the log(mp ) term coming from L(Λ, mp ).
+    Next, we measure the impact of our new inputs by taking the ratio of our model-independent calculation
+of the long-distance corrections to that defined using Towner and Hardy inputs,
+                                                                         ′
+                                                                    1 + δR (µH = Λ)
+                                       Long-distance shift =                        .                                     (67)
+                                                                    (Long-distance)
+This comparison accounts for new information provided by our analysis beyond the structure of the amplitude’s
+factorization. For example, the coefficient of the log(Λ/2Em ) term in Eq. (64) should read ( π6 − π3 ) [4]. Similarly
+     13
+the 6π  Zα2 L2 term in Eq. (37) is a new effect not included in past analyses.
+  12 The numerical coefficient 1.01882 is obtained using Eq. (56) of Ref. [40], and includes the running from the electron mass
+
+threshold up to the muon mass threshold in their given formalism.
+
+
+                                                              18
+D     Structure dependent effects
+
+  Beta Emitter    F0 (Z, E)   FBJ (Z, E)   FBJ (Z, E) × C(Z, E)     Towner & Hardy    Error estimate [10−4 ]
+      10
+          C        1.467        1.467             1.467                   1.468                0.1
+      14
+          O        1.286        1.285             1.285                   1.286                0.1
+      18
+         Ne        1.204        1.204             1.203                   1.204                0.1
+      22
+         Mg        1.122        1.121             1.121                   1.122                0.1
+       26
+          Si       1.056        1.055             1.054                   1.055                0.1
+        30
+          S        1.007        1.005             1.005                   1.005                0.2
+      34
+         Ar        0.966        0.963             0.962                   0.963                0.3
+      38
+         Ca        0.932        0.929             0.928                   0.929                0.3
+       42
+         Ti        0.911        0.907             0.906                   0.906                0.5
+     26
+        Alm        1.110        1.109             1.109                   1.110                0.1
+      34
+         Cl        1.004        1.002             1.002                   1.002                0.2
+      38 m
+        K          0.967        0.964             0.963                   0.964                0.3
+       42
+         Sc        0.943        0.940             0.939                   0.939                0.4
+       46
+          V        0.909        0.905             0.903                   0.903                0.6
+      50
+        Mn         0.880        0.875             0.873                   0.873                0.7
+      54
+         Co        0.854        0.847             0.844                   0.844                1.0
+      62
+         Ga        0.820        0.810             0.806                   0.805                1.5
+      66
+         As        0.808        0.797             0.792                   0.791                1.7
+      70
+         Br        0.796        0.783             0.777                   0.776                2.0
+      74
+         Rb        0.785        0.770             0.763                   0.761                2.4
+                             α
+Table 3: Calculation of 2π     g(Em ), in units of percent, with the conventions and inputs used for Table V
+of [32] (taken from [35]). The first column uses the point-like Fermi function as defined in Eq. (68). The
+second column uses instead FBJ (Z, E), the Behrens and Jänecke Fermi function defined in Eq. (69). The third
+column uses the product of FBJ (Z, E) and the shape function C(Z, E) as given in Ref. [33]. We find that
+agreement between our implementation and that tabulated in Towner and Hardy is, in general, improved after
+structure-dependent corrections are included, with this improvement more pronounced for heavier nuclei. The
+radiative corrections to higher dimensional operators are not guaranteed to be captured by multiplication with
+the Sirlin-g function. We therefore use the difference between the Towner and Hardy values and our point-like
+calculation as an estimate of the uncertainty due to the standard factorization ansatz used in the beta decay
+literature; if the difference is zero, we take the largest fluctuation in the row.
+
+    As a check of our averaging procedure, we have taken all of the numerical inputs listed in Towner and
+Hardy’s 2004 review [35], and attempted to reproduce the value of ḡ quoted in their 2007 article [32]. This
+both validates that the averaging procedure used here is consistent with Towner and Hardy’s analysis, and
+allows us to estimate errors associated with the factorization ansatz for one-loop corrections typically used
+in the literature. As discussed in Section 4, this ansatz turns out to be exact at leading-power but is not
+guaranteed when including energy-dependent terms proportional to the nuclear radius which correspond to
+the inclusion of higher dimensional operators in the effective theory.
+    Towner and Hardy compute their phase space averages with numerical solutions of the Dirac equation [35].
+In our comparison we do not solve the Dirac equation numerically and instead use analytic formulae taken
+from [33]. The first step is to use the conventional point-like Fermi function,
+
+                                                                 |Γ(η − iξ)|2
+                                 F0 (Z, E) = 4(2pR)2(η−1) e−πξ                .                          (68)
+                                                                 |Γ(1 + 2η)|2
+
+
+                                                     19
+The radius R is defined by R = (5/3)1/2√⟨r2 ⟩1/2 and we use the same root-mean-square radii as above (these
+can be inferred from Λ using ⟨r2 ⟩1/2 = 6/Λ). As we show in Table 3, and discuss below, this does a good
+job of replicating Towner and Hardy’s calculations, with some discrepancies at the level of ∼ 10−4 for heavier
+nuclei.
+   To investigate the origin of these discrepancies, we have tried three different methods for computing phase
+space averages. The first involves only the Fermi function F0 (Z, E) as describe above. Second, we replace F0
+by the “Behrens and Jänecke” [41] Fermi function as given in Eq. (10) of [33],
+                                                                         
+                                                                13
+                                    FBJ (Z, E) = F0 (Z, E) 1 + ZαER ,                                     (69)
+                                                                15
+
+which incorporates some nuclear structure effects. As a third approach we multiply FBJ (Z, E) by the shape
+factor, C(Z, E), as parameterized in Eqs. (100) and (101) of [33].
+    The numerical results of these three averaging procedures are shown in Table 3. The point-like Fermi
+                                                                                     α
+function, F0 (Z, E), fails to reproduce the full set of Towner and Hardy’s values of 2π ḡ with discrepancies of
+     −4
+∼ 10 . Inclusion of structure dependent effects, parameterized with the analytic formulae discussed above,
+improves agreement to ∼ 10−5 . We conclude that there is a ∼ 10−4 uncertainty for heavier nuclei, due to the
+conventional factorization ansatz for radiative corrections.
+
+
+References
+ [1] J. F. Donoghue, E. Golowich, and B. R. Holstein, Dynamics of the standard model , Vol. 2 (CUP, 2014).
+ [2] J. C. Hardy and I. S. Towner, Phys. Rev. C 102, 045501 (2020).
+ [3] R. J. Hill and R. Plestid, Phys. Rev. Lett. 133, 021803 (2024), arXiv:2309.07343 [hep-ph] .
+
+ [4] K. Borah, R. J. Hill, and R. Plestid, Phys. Rev. D 109, 113007 (2024), arXiv:2402.13307 [hep-ph] .
+ [5] R. J. Hill and R. Plestid, Phys. Rev. D 109, 056006 (2024), arXiv:2309.15929 [hep-ph] .
+ [6] R. Plestid, JHEP 07, 216 (2024), arXiv:2402.14769 [hep-ph] .
+ [7] P. Vander Griend, Z. Cao, R. J. Hill, and R. Plestid, Phys. Lett. B 868, 139678 (2025), arXiv:2501.17916
+     [hep-ph] .
+ [8] Z. Cao, R. J. Hill, R. Plestid, and P. Vander Griend, (2025), arXiv:2508.05741 [hep-ph] .
+ [9] A. Sirlin and R. Zucchini, Phys. Rev. Lett. 57, 1994 (1986).
+[10] A. Sirlin, Phys. Rev. D 35, 3423 (1987).
+
+[11] W. Jaus and G. Rasche, Phys. Rev. D 35, 3420 (1987).
+[12] V. Bernard, S. Gardner, U. G. Meißner, and C. Zhang, Phys. Lett. B 593, 105 (2004), [Erratum:
+     Phys.Lett.B 599, 348–348 (2004)], arXiv:hep-ph/0403241 .
+[13] S. Ando, H. W. Fearing, V. P. Gudkov, K. Kubodera, F. Myhrer, S. Nakamura, and T. Sato, Phys. Lett.
+     B 595, 250 (2004), arXiv:nucl-th/0402100 .
+[14] V. Cirigliano, J. de Vries, L. Hayen, E. Mereghetti, and A. Walker-Loud, Phys. Rev. Lett. 129, 121801
+     (2022), arXiv:2202.10439 [nucl-th] .
+[15] V. Cirigliano, W. Dekens, E. Mereghetti,        and O. Tomalak, Phys. Rev. D 108, 053003 (2023),
+     arXiv:2306.03138 [hep-ph] .
+[16] V. Cirigliano, W. Dekens, E. Mereghetti,        and O. Tomalak, Phys. Rev. D 111, 053005 (2025),
+     arXiv:2410.21404 [nucl-th] .
+
+
+                                                      20
+[17] V. Cirigliano, W. Dekens, J. de Vries, S. Gandolfi, M. Hoferichter, and E. Mereghetti, Phys. Rev. C 110,
+     055502 (2024), arXiv:2405.18464 [nucl-th] .
+[18] V. Cirigliano, W. Dekens, J. de Vries, S. Gandolfi, M. Hoferichter, and E. Mereghetti, Phys. Rev. Lett.
+     133, 211801 (2024), arXiv:2405.18469 [hep-ph] .
+[19] G. B. King, J. Carlson, A. R. Flores, S. Gandolfi, E. Mereghetti, S. Pastore, M. Piarulli, and R. B.
+     Wiringa, (2025), arXiv:2509.07310 [nucl-th] .
+[20] C.-Y. Seng, M. Gorchtein, H. H. Patel, and M. J. Ramsey-Musolf, Phys. Rev. Lett. 121, 241804 (2018),
+     arXiv:1807.10197 [hep-ph] .
+[21] C. Y. Seng, M. Gorchtein, and M. J. Ramsey-Musolf, Phys. Rev. D 100, 013001 (2019), arXiv:1812.03352
+     [nucl-th] .
+[22] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. D 100, 073008 (2019), arXiv:1907.06737 [hep-ph]
+     .
+[23] C.-Y. Seng, X. Feng, M. Gorchtein, and L.-C. Jin, Phys. Rev. D 101, 111301 (2020), arXiv:2003.11264
+     [hep-ph] .
+[24] K. Shiells, P. G. Blunden, and W. Melnitchouk, Phys. Rev. D 104, 033003 (2021), arXiv:2012.01580
+     [hep-ph] .
+[25] C.-Y. Seng and M. Gorchtein, Phys. Rev. C 107, 035503 (2023), arXiv:2211.10214 [nucl-th] .
+[26] M. Gennari, M. Drissi, M. Gorchtein, P. Navratil, and C.-Y. Seng, Phys. Rev. Lett. 134, 012501 (2025),
+     arXiv:2405.19281 [nucl-th] .
+[27] X. Feng, M. Gorchtein, L.-C. Jin, P.-X. Ma, and C.-Y. Seng, Phys. Rev. Lett. 124, 192002 (2020),
+     arXiv:2003.09798 [hep-lat] .
+[28] P.-X. Ma, X. Feng, M. Gorchtein, L.-C. Jin, K.-F. Liu, C.-Y. Seng, B.-G. Wang, and Z.-L. Zhang, Phys.
+     Rev. Lett. 132, 191901 (2024), arXiv:2308.16755 [hep-lat] .
+[29] T. Kinoshita, J. Math. Phys. 3, 650 (1962).
+[30] T. D. Lee and M. Nauenberg, Phys. Rev. 133, B1549 (1964).
+[31] O. Crosas and E. Mereghetti, To appear (2025).
+[32] I. S. Towner and J. C. Hardy, Phys. Rev. C 77, 025501 (2008), arXiv:0710.3181 [nucl-th] .
+[33] L. Hayen, N. Severijns, K. Bodek, D. Rozpedzik, and X. Mougeot, Rev. Mod. Phys. 90, 015008 (2018),
+     arXiv:1709.07530 [nucl-th] .
+[34] I. Angeli and K. P. Marinova, Atom. Data Nucl. Data Tabl. 99, 69 (2013).
+[35] J. C. Hardy and I. S. Towner, Phys. Rev. C 71, 055501 (2005), arXiv:nucl-th/0412056 .
+[36] M. Gorchtein, V. Katyal, B. Ohayon, B. K. Sahoo, and C.-Y. Seng, Phys. Rev. Res. 7, L042002 (2025),
+     arXiv:2502.17070 [nucl-th] .
+[37] P. A. Baikov, K. G. Chetyrkin, J. H. Kuhn, and C. Sturm, Nucl. Phys. B 867, 182 (2013), arXiv:1207.2199
+     [hep-ph] .
+[38] A. Sirlin, Phys. Rev. D 84, 014021 (2011), arXiv:1105.2842 [hep-ph] .
+[39] A. Sirlin, Phys. Rev. 164, 1767 (1967).
+[40] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. D 70, 093006 (2004), arXiv:hep-ph/0406324 .
+[41] H. Schopper, ed., Numerical Tables for Beta-Decay and Electron Capture / Numerische Tabellen für Beta-
+     Zerfall und Elektronen-Einfang, Landolt-Boernstein - Group I Elementary Particles, Nuclei and Atoms,
+     Vol. 4 (Springer, 1969).
+
+
+                                                     21
+

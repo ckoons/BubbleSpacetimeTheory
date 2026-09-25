@@ -1,0 +1,1910 @@
+Prepared for submission to JCAP
+
+arXiv:2505.22066v1 [astro-ph.CO] 28 May 2025
+
+Cosmic Strings as Dynamical Dark
+Energy: Novel Constraints
+Hanyu Chenga,b , Eleonora Di Valentinob , and Luca Visinellic,d
+a Tsung-Dao Lee Institute & School of Physics and Astronomy, Shanghai Jiao Tong Univer-
+
+sity, Shanghai 201210, China
+b School of Mathematics and Statistics, University of Sheffield, Hounsfield Road, Sheffield S3
+
+7RH, United Kingdom
+c Dipartimento di Fisica “E.R. Caianiello”, Università degli Studi di Salerno,
+
+Via Giovanni Paolo II, 132 - 84084 Fisciano (SA), Italy
+d Istituto Nazionale di Fisica Nucleare - Gruppo Collegato di Salerno - Sezione di Napoli,
+
+Via Giovanni Paolo II, 132 - 84084 Fisciano (SA), Italy
+E-mail: hcheng19@sheffield.ac.uk, e.divalentino@sheffield.ac.uk, lvisinelli@unisa.it
+
+Abstract. Cosmic strings, topological defects predicted by high-energy theories, may contribute to the late-time expansion of the Universe, effectively mimicking dynamical dark
+energy. We investigate four phenomenological extensions of the ΛCDM model involving
+a residual string network: (i) a non-relativistic component with positive energy density
+(Model 1), (ii) a velocity-dependent extension (Model 2), (iii) a non-relativistic string network with energy density allowed to take both positive and negative values (Model 3), and
+(iv) a general scenario with free energy and velocity parameters (Model 4). These models
+are constrained using Planck CMB data, SDSS or DESI baryon acoustic oscillations, and
+Type Ia supernovae observations. Models 1 and 2 yield strong upper bounds on the string
+density, for example, Ωs < 0.00901 at 95% CL from the CMB+DESI+DESY5 combination
+for Model 2, and mildly shift the inferred value of H0 upward, though they are not favored
+by Bayesian evidence. For the same combination, the bulk velocity is bound as vs < 0.569.
+Models 3 and 4 exhibit a consistent preference for slightly negative values of Ωs , with CMBonly data yielding Ωs = −0.038+0.029
+−0.022 and vs < 0.574 in Model 4, and a best-fit improvement
+of ∆χ2 = −6.07. However, these improvements are not sufficient to overcome the Occam
+penalty, and the Bayesian evidence continues to favor ΛCDM. These findings demonstrate the
+power of current data to constrain exotic energy components and encourage further exploration of string-inspired extensions to ΛCDM, particularly those involving negative-tension
+networks.
+
+Contents
+1 Introduction
+
+1
+
+2 Model
+
+3
+
+3 Methodology and Data
+
+4
+
+4 Results
+4.1 Constraints on Model 1: Positive energy, non-relativistic string network.
+4.2 Constraints on Model 2: Positive energy, velocity-dependent string network.
+
+5
+5
+9
+
+5 Discussion
+5.1 Negative energy density?
+5.2 Results for unconstrained energy and velocity of the string network
+
+12
+12
+14
+
+6 Conclusions
+
+15
+
+1
+
+Introduction
+
+Cosmic strings are one-dimensional topological defects that may have formed during symmetrybreaking phase transitions in the early universe, as predicted by various grand unified theories
+(GUTs) and extensions of the Standard Model [1–5]. These objects are characterized by a
+large energy per unit length, or tension µ, and exhibit relativistic dynamics due to their high
+tension. The gravitational effects of cosmic strings are typically parametrized by the dimensionless quantity Gµ, where G is Newton’s constant. Observational efforts aim to constrain
+this parameter through a variety of astrophysical and cosmological probes. A network of
+cosmic strings is expected to evolve towards a scaling regime, where the statistical properties
+of the network remain constant relative to the Hubble scale [6, 7]. This evolution includes
+the production of closed loops through string intercommutations. These loops oscillate and
+lose energy predominantly via gravitational radiation, leading to a stochastic gravitational
+wave background (SGWB), as well as occasional bursts from localized features such as cusps
+and kinks [8, 9].
+Confronting experimental CMB data with numerical simulations of cosmic string networks leads to an upper bound on the string tension of Gµ ≲ 10−7 [10–13]. These constraints
+arise from the imprint of long strings on the CMB anisotropy power spectrum, which rules
+out models where strings dominate structure formation. In the realm of GW searches, the
+LIGO and Virgo collaborations have searched for burst-like signals from cosmic string cusps
+and kinks. The null results from Advanced LIGO’s first observing run (O1) have been used
+to place upper bounds on Gµ for a variety of cosmic string loop models, with typical constraints reaching Gµ ≲ 10−11 –10−8 , depending on the assumed parameters and reconnection
+probabilities [14]. The next generation of gravitational wave detectors is expected to further enhance sensitivity to cosmic string signals. Space-based interferometers such as LISA
+will be sensitive to lower-frequency gravitational waves, making them well-suited to probing
+cosmic string loops formed in the early universe [15, 16]. Ground-based third-generation
+detectors like the Einstein Telescope (ET) and Cosmic Explorer (CE) will extend sensitivity
+
+–1–
+
+to a broader frequency range, potentially accessing string tensions as low as Gµ ∼ 10−16 [17–
+19]. Pulsar timing arrays (PTAs), including the North American Nanohertz Observatory for
+Gravitational Waves (NANOGrav) and the European Pulsar Timing Array (EPTA) collaborations, also provide complementary constraints at nanohertz frequencies and may already
+be hinting at a stochastic background consistent with cosmic string origins [20, 21]. These
+future observations will enable a multi-band approach to test the existence of cosmic strings
+across a vast range of energy and length scales [22–25]. Non-standard cosmic string scenarios,
+in which the string network radiates energy not only through gravitational waves but also via
+light gauge bosons, can be probed through multimessenger observations. In these models, the
+coupling between the strings and hidden-sector fields leads to additional radiation channels,
+giving rise to a gravitational wave spectrum and other novel signatures [26–30].
+It remains a possibility that a subdominant fraction of cosmic strings, with energy density ρs , has survived until the present epoch and contributes to the overall expansion rate
+of the Universe. While this scenario has been previously considered [13, 31–34], it has not
+been systematically excluded. The release of recent cosmological datasets with improved
+control over systematics, such as those from Planck and large-scale structure surveys, offers
+an opportunity to revisit and constrain this hypothesis with greater precision. If present,
+cosmic strings would constitute an exotic form of energy density beyond the standard dark
+matter and dark energy components, whose presence is well established by multiple cosmological probes. The inclusion of strings could modify the late-time expansion history and the
+growth of structure, potentially alleviating persistent cosmological tensions such as the Hubble tension or the S8 discrepancy [35–37]. To enable a fully general analysis unconstrained
+by priors on the sign of the energy density, we allow the cosmic string density parameter to
+assume both positive and negative values. This approach is inspired by previous studies of
+negative energy density components in cosmology [38, 39], and is supported by theoretical
+constructions in which cosmic strings with negative energy density arise [40].
+Geometries involving negative-tension cosmic strings, corresponding to a negative mass
+per unit length, have been proposed in the literature [41–43]. While such configurations
+violate standard energy conditions and are typically regarded as unphysical within general
+relativity, they open intriguing possibilities in the context of exotic matter and non-trivial
+spacetime topologies. A particularly compelling proposal is that negative-mass strings could
+stabilize traversable wormholes [41, 44, 45]. If such strings wrapped around a wormhole throat
+in the early Universe, they could provide the negative energy density needed to prevent collapse, potentially allowing the wormhole to survive to the present day. Although speculative,
+such scenarios motivate continued efforts to test the limits of classical energy conditions.
+Violations of the weak and null energy conditions are being probed through cosmological observations [46, 47], semi-classical quantum field theory [48, 49], and high-precision laboratory
+experiments [50–52]. Negative-energy components can naturally emerge in string-inspired setups. For example, in some brane-world scenarios, negative-tension branes arise as consistent
+solutions in flux compactifications [53]. Additionally, effective negative energy densities may
+result from ghost condensates [54] or modified couplings between strings and hidden-sector
+fields [55], both capable of violating classical energy conditions. These constructions provide
+further motivation for exploring negative Ωs in a cosmological context.
+This paper is structured as follows. In section 2, we introduce the theoretical framework
+and model definitions. Section 3 describes the methodology and datasets. Section 4 presents
+the results for models with positive energy density, while section 5 discusses the case where
+negative energy contributions are allowed. Conclusions are summarized in section 6.
+
+–2–
+
+2
+
+Model
+
+We describe the relation between the pressure and energy density of a cosmic string network
+as ps = ws ρs [56], where the parameter ws depends on the root-mean squared velocity of
+long strings vs through the relation [57–59]
+ws =
+
+2vs2 − 1
+.
+3
+
+(2.1)
+
+This effective equation of state arises from averaging over the dynamics of a network of
+long strings. The parameter ws varies within the range −1/3 ≤ ws ≤ 1/3, reflecting the
+transition from non-relativistic to ultra-relativistic motion. For example, ultra-relativistic
+strings with vs2 ≈ 1 behave like a radiation fluid with ws = 1/3. Conversely, slowly moving
+strings with vs2 ≈ 0 yield ws = −1/3, corresponding to a network whose energy density dilutes
+more slowly than radiation or matter and can potentially dominate the energy density of the
+Universe. The evolution of the string energy density for a network of non-interacting and
+non-intercommutating strings [60–62] is governed by the continuity equation
+dρs
++ 3H(1 + ws )ρs = 0,
+dt
+
+(2.2)
+
+which has the solution ρs ∝ a−3(1+ws ) , where a is the scale factor. In the limiting case
+ws = −1/3, the evolution simplifies to ρ̇s + 2Hρs = 0, where the factor of two arises from the
+combination of dilution due to expansion and the string stretching term, such that the energy
+per unit length remains constant under Hubble expansion. In this case, the energy density
+evolves as ρs ∝ a−2 , meaning that a free-string network with ws = −1/3 would rapidly
+dominate the expansion. However, realistic string networks do not evolve freely. Numerical
+simulations and analytic modeling within the velocity-dependent one-scale framework [58,
+59] show that long strings interact through intercommutation and self-intersections, leading
+to the formation of loops that decay via gravitational radiation or other channels such as
+Goldstone boson emission. These mechanisms introduce energy loss terms into the evolution
+equations, modifying the scaling behavior and preventing the string network from dominating
+the energy budget of the Universe. Here, we do not include the possibility for emissions and
+we assume that the strings dilute according to their cosmological abundance as in eq. (2.2).
+The combined equation of state for a two-component dark fluid consisting of a cosmological constant and a string network is given by
+2
+
+wDE =
+
+−ΩΛ + 31 (2vs2 − 1)Ωs a−2(1+vs )
+,
+ΩΛ + Ωs a−2(1+vs2 )
+
+(2.3)
+
+where ΩΛ and Ωs are the present-day density parameters for the cosmological constant and
+string network, respectively. These quantities are expressed in units of the critical density
+today, ρcrit = 3H02 /(8πG). With this parametrization, the energy density components at the
+present time in a flat Universe must satisfy the constraint
+ΩΛ + Ωm + Ωr + Ωs = 1 ,
+
+(2.4)
+
+where Ωm and Ωr are the density parameters for matter and radiation, respectively. In what
+follows, we analyze the cosmological consequences of this string-inspired dark fluid scenario
+and derive observational constraints on the parameters Ωs and vs .
+
+–3–
+
+For the sake of clarity, we derive a general expression for the dark fluid density as a
+function of the scale factor, using the continuity equation. This is
+ Z a
+
+wDE (a′ ) ′
+−3
+ρDE (a) = ρDE (a0 ) a exp −3
+(2.5)
+da ,
+a′
+1
+where ρDE (a0 ) is the value of the density at present when the scale factor is a0 . For future
+use, we also introduce the present abundance of the dark fluid ΩDE,0 ≡ ρDE (a0 )/ρcrit . After
+integration, the energy density of the dark fluid is
+2
+
+ΩΛ + Ωs a−2(1+vs )
+ρDE (a) = ρDE (a0 )
+.
+ΩΛ + Ωs
+
+(2.6)
+
+Parameter
+
+Model 1
+
+Model 2
+
+Model 3
+
+Model 4
+
+Ωb h2
+Ω c h2
+τreio
+100θs
+ln(1010 As )
+ns
+Ωs
+vs
+
+[0.005, 0.1]
+[0.001, 0.99]
+[0.01, 0.8]
+[0.5, 10]
+[1.61, 3.91]
+[0.8, 1.2]
+[0, 1]
+—
+
+[0.005, 0.1]
+[0.001, 0.99]
+[0.01, 0.8]
+[0.5, 10]
+[1.61, 3.91]
+[0.8, 1.2]
+[0, 1]
+[0, 0.9]
+
+[0.005, 0.1]
+[0.001, 0.99]
+[0.01, 0.8]
+[0.5, 10]
+[1.61, 3.91]
+[0.8, 1.2]
+[−0.5, 1]
+—
+
+[0.005, 0.1]
+[0.001, 0.99]
+[0.01, 0.8]
+[0.5, 10]
+[1.61, 3.91]
+[0.8, 1.2]
+[−0.5, 1]
+[0, 0.9]
+
+Table 1. Prior ranges for free cosmological parameters. See the text for the descriptions.
+
+3
+
+Methodology and Data
+
+To perform parameter inference, we employ the Cobaya framework [63], which implements
+a Markov Chain Monte Carlo (MCMC) sampler tailored for cosmological applications. This
+is used in conjunction with a modified version of CAMB [64], a Boltzmann solver that we
+adapt to include the DDE parametrization. Dark energy perturbations are modeled using
+the default parameterized post-Friedmann (PPF) approach implemented in CAMB [64]. We
+assess the convergence of the MCMC chains using the Gelman–Rubin statistic R − 1 [65],
+adopting a convergence threshold of R − 1 < 0.01. The posterior distributions and parameter
+contours are analyzed and visualized using the getdist package [66].
+To systematically compare the cosmic string models under consideration, we make use
+of the following observational datasets:
+• CMB: Measurements of the Cosmic Microwave Background (CMB) from the Planck
+2018 legacy release, including the high-ℓ Plik TT, TE, and EE likelihoods, the low-ℓ
+TT-only Commander likelihood, and the low-ℓ EE-only SimAll likelihood [67–69]. We
+also incorporate lensing data from the Atacama Cosmology Telescope (ACT) DR6,
+specifically the actplanck baseline likelihood [70, 71]. This combined dataset is
+referred to collectively as CMB.
+• BAO: Baryon Acoustic Oscillation (BAO) and Redshift-Space Distortion (RSD) measurements from the completed SDSS-IV eBOSS survey [72], which includes isotropic
+
+–4–
+
+and anisotropic distance indicators and expansion rate constraints across a wide redshift range, incorporating Lyman-α BAO measurements. This is referred to as SDSS.
+We also use BAO data from the first three years of the Dark Energy Spectroscopic
+Instrument (DESI DR2) [73–75], labeled as DESI.
+• Type Ia Supernovae: Distance modulus measurements from Type Ia Supernovae
+(SNe Ia) provided by the PantheonPlus sample [76, 77], consisting of 1701 light curves
+from 1550 unique SNe Ia over the redshift range z ∈ [0.001, 2.26]. This dataset is
+denoted as PantheonPlus. Additionally, we include the complete five-year data release
+from the Dark Energy Survey (DES), comprising 1635 SNe Ia with redshifts in the range
+0.1 < z < 1.13 [78–80], referred to as DESY5.
+In our study, we employ flat and uniform priors as detailed in table 1. The extended
+cosmic string models are formulated as extensions of the standard six-parameter ΛCDM
+framework. This baseline model includes the baryon density Ωb h2 , cold dark matter density
+Ωc h2 , optical depth to reionization τreio , the scalar fluctuation amplitude and spectral index
+ln(1010 As ) and ns , and the angular size of the sound horizon at recombination θs . To this,
+we add the cosmic string energy density Ωs , which is allowed to take only positive values in
+prior sets 1 and 2, and both positive and negative values in prior sets 3 and 4. Additionally,
+the string network’s bulk velocity is introduced as a free parameter in prior sets 2 and 4.
+Finally, we perform Bayesian model comparison by computing the logarithm of the
+Bayesian evidence ln Z using MCEvidence [81], accessed via the Cobaya wrapper provided in
+the wgcosmo repository [82]. For each model Mi with parameter vector Θ, Bayes’ theorem
+gives the posterior as:
+L(D|Θ, Mi ) π(Θ|Mi )
+P (Θ|D, Mi ) =
+,
+(3.1)
+Zi
+where L is the likelihood, π the prior, and the evidence Zi is given by:
+Z
+Zi = L(D|Θ, Mi ) π(Θ|Mi ) dΘ .
+(3.2)
+To compare models, we compute the Bayes factor Zij = Zi /Zj and define the relative
+log-evidence as:
+∆ ln Zij ≡ ln Zi − ln Zj ,
+(3.3)
+where i refers to one of the cosmic string models and j to the baseline ΛCDM case. Positive
+values of ∆ ln Zij indicate a preference for the extended model.
+We interpret ∆ ln Zij using the revised Jeffreys’ scale [83]: values in the range [0, 1] are
+inconclusive, [1, 2.5] indicate weak evidence, [2.5, 5] moderate, [5, 10] strong, and values above
+10 indicate very strong evidence in favor of the preferred model.
+
+4
+4.1
+
+Results
+Constraints on Model 1: Positive energy, non-relativistic string network.
+
+We first discuss the results for a non-relativistic string network with positive energy density,
+Model 1, which extends the baseline ΛCDM framework by including a positive contribution
+from non-relativistic cosmic strings, parametrized by the energy density Ωs . The results
+for this model, derived from various combinations of datasets, are summarized in table 2.
+The posterior distributions place increasingly stringent upper bounds on Ωs as additional
+
+–5–
+
+Parameters
+
+CMB
+
+CMB
++SDSS
+
+CMB
++PantheonPlus
+
+CMB+SDSS
++PantheonPlus
+
+CMB
++DESI
+
+CMB
++DESI+DESY5
+
+CMB+DESI
++PantheonPlus
+
+Ωb h2
+
+0.02235 ± 0.00015
+
+0.02247 ± 0.00014
+
+0.02235 ± 0.00014
+
+0.02245 ± 0.00013
+
+0.02257 ± 0.00013
+
+0.02254 ± 0.00013
+
+0.02255 ± 0.00012
+
+Ωc h2
+
+0.1205 ± 0.0012
+
+0.11890 ± 0.00091
+
+0.1203 ± 0.0011
+
+0.11915 ± 0.00090
+
+0.11751 ± 0.00069
+
+0.11781+0.00075
+−0.00067
+
+0.11767 ± 0.00068
+
+100 θs
+
+1.04088 ± 0.00031
+
+1.04109 ± 0.00029
+
+1.04089 ± 0.00030
+
+1.04105 ± 0.00029
+
+1.04126 ± 0.00027
+
+1.04124 ± 0.00028
+
+1.04125 ± 0.00028
+
+τreio
+
+0.0557 ± 0.0075
+
+0.0602+0.0066
+−0.0080
+
+0.0554+0.0069
+−0.0077
+
+0.0597+0.0069
+−0.0078
+
+0.0634+0.0071
+−0.0082
+
+0.0626+0.0069
+−0.0081
+
+0.0629+0.0071
+−0.0079
+
+ns
+
+0.9645 ± 0.0042
+
+0.9685 ± 0.0037
+
+0.9647 ± 0.0040
+
+0.9678 ± 0.0037
+
+0.9719 ± 0.0034
+
+0.9711 ± 0.0034
+
+0.9714 ± 0.0034
+
+3.050 ± 0.014
+
+3.056+0.012
+−0.014
+
+3.049 ± 0.014
+
+3.055 ± 0.014
+
+3.061+0.013
+−0.015
+
+3.060+0.013
+−0.015
+
+3.060+0.013
+−0.014
+
+Ωs
+
+< 0.0465
+
+< 0.0103
+
+< 0.0257
+
+< 0.0113
+
+< 0.00824
+
+< 0.0114
+
+< 0.00942
+
+H0 [km/s/Mpc]
+
+65.9+1.5
+−0.72
+
+67.56 ± 0.46
+
+66.35+0.83
+−0.66
+
+67.40 ± 0.45
+
+68.26 ± 0.32
+
+68.00 ± 0.33
+
+68.13+0.32
+−0.29
+
+σ8
+
+0.800+0.014
+−0.0067
+
+0.8093 ± 0.0060
+
+0.8037+0.0092
+−0.0069
+
++0.0064
+0.8091−0.0056
+
+0.8080 ± 0.0060
+
+0.8071+0.0066
+−0.0059
+
+0.8076 ± 0.0061
+
+S8
+
+0.839 ± 0.013
+
+0.8242 ± 0.0097
+
+0.837 ± 0.011
+
+0.8267 ± 0.0094
+
+0.8108 ± 0.0079
+
+0.8137 ± 0.0079
+
+0.8122 ± 0.0078
+
+Ωm
+
+0.3306+0.0087
+−0.018
+
+0.3112 ± 0.0058
+
+0.3258+0.0081
+−0.0095
+
+0.3132 ± 0.0056
+
+0.3020 ± 0.0039
+
+0.3050 ± 0.0037
+
+0.3035 ± 0.0037
+
+ln 1010 As
+
+
+
+∆χ2min, ΛCDM
+
+−0.31
+
+1.09
+
+−0.64
+
+0.65
+
+0.98
+
+0.04
+
+0.84
+
+∆ ln Z ΛCDM
+
+−3.94
+
+−5.4
+
+−4.13
+
+−5.23
+
+−5.69
+
+−5.2
+
+−5.53
+
+Table 2. Observational constraints at 68% CL and upper limits at 95% CL obtained for Model 1
+using various datasets. Negative values of ∆χ2min, ΛCDM favor our model over the standard ΛCDM
+scenario, while positive values of ∆ ln Z ΛCDM indicate a preference for our model.
+
+data are incorporated. Using CMB data alone, we find Ωs < 0.0465 at 95% confidence level
+(CL), while the combination of CMB with DESI reduces this bound to Ωs < 0.00824. These
+constraints demonstrate the power of large-scale structure data in limiting non-standard
+sources of anisotropies and density perturbations, particularly those that enhance small-scale
+clustering or modify the background expansion history.
+The inclusion of a string component does not significantly shift the posterior distributions of the standard cosmological parameters. In fact, the constraints from CMB-only
+data are fully consistent with those of the ΛCDM model, owing to the data’s preference
+for a null value of Ωs . However, a strong negative correlation between Ωs and H0 is evident in figure 1, leading to a lower bound on the Hubble constant from CMB-only data:
+−1 Mpc−1 at 68% CL. As a consequence, the matter density shifts toward
+H0 = 65.9+1.5
+−0.72 km s
+higher values, with Ωm = 0.3306+0.0087
+−0.018 at 68% CL, due to its strong anticorrelation with H0 .
+The addition of SDSS data not only strengthens the constraints on Ωs by nearly a factor
+of four but also increases the Hubble constant and decreases the matter density, bringing them
+back into agreement with a Planck ΛCDM cosmology. While the inclusion of PantheonPlus
+alongside CMB has similar effects, they are milder; moreover, adding PantheonPlus to the
+CMB+SDSS combination yields negligible impact, with constraints essentially unchanged
+from the CMB+SDSS case.
+Notably, the scalar spectral index ns increases slightly with the addition of DESI data,
+reaching ns = 0.9719 ± 0.0034, consistent with the mild degeneracy between Ωs and the
+tilt of the primordial spectrum. The Hubble constant H0 also shifts to higher values across
+dataset combinations, with CMB+DESI yielding H0 = 68.26±0.32 km s−1 Mpc−1 . This trend
+moves in the direction of alleviating the tension between Planck and local distance ladder
+measurements [84–86], although the shift remains insufficient to fully resolve the discrepancy.
+p
+The derived matter clustering amplitude, S8 ≡ σ8 Ωm /0.3, is similarly affected. We
+observe a downward trend from S8 = 0.839 ± 0.013 (CMB-only) to S8 = 0.8108 ± 0.0079
+(CMB+DESI), indicating improved agreement with weak lensing measurements, which typically favor lower values of S8 than those predicted by Planck under ΛCDM. While the addition
+of PantheonPlus does not affect the results in this case either, the inclusion of DESY5 leads
+
+–6–
+
+Figure 1. One-dimensional posterior distributions and two-dimensional marginalized contours for
+Model 1, obtained using different combinations of cosmological datasets.
+
+to a slightly lower Hubble constant and a relaxed upper bound on Ωs , suggesting a possible
+tension among these datasets within this scenario, likely due to DESY5’s preference for a
+higher matter density.
+Despite these improvements, the overall statistical preference for Model 1 is not compelling. The difference in minimum χ2 relative to ΛCDM, ∆χ2min, ΛCDM , is small and compatible with one additional degree of freedom, indicating that the extended model does not
+provide a better fit to the data. Moreover, the difference in Bayesian evidence, ∆ ln Z ΛCDM ,
+is negative in all cases, with values ranging from −3.94 to −5.69. These results correspond to
+moderate to strong Bayesian preference for the standard ΛCDM model, suggesting that the
+data do not justify the inclusion of an additional degree of freedom such as Ωs . Thus, while
+Model 1 remains consistent with current observations and yields marginal improvements in
+derived parameters relevant to known cosmological tensions, the statistical evidence does not
+support the presence of a positive-energy cosmic string component in the cosmological model.
+The features of the cosmic string contribution in Model 1 are illustrated in figure 2.
+
+–7–
+
+Figure 2. Model 1: Non-relativistic cosmic string network. Top panel: The equation of
+state wDE from eq. (2.3) (left) and the energy density ratio ρDE (a)/ρDE (a0 ) from eq. (2.6) (right),
+shown as functions of the scale factor a. For illustration, the present-day DE contribution is fixed at
+ΩDE,0 = 0.7. Bottom panel: The impact of varying the modified DE parameter Ωs on the CMB TT
+power spectrum.
+
+The top panels show the evolution of the dark energy equation of state, wDE (a), and the normalized energy density, ρDE (a)/ρDE (a0 ), assuming a fixed present-day value of ΩDE,0 = 0.7.
+For positive values of Ωs , the effective equation of state deviates from that of a cosmological
+constant (w = −1), becoming less negative at early times and asymptotically approaching
+w = −1/3 as a → 0. This behavior reflects the scaling of the string energy density with the
+scale factor and its role as an early dark energy component, whose relative importance diminishes over time. The bottom panel quantifies the observable imprint of this modification on
+the CMB temperature power spectrum. Non-zero Ωs enhances power at large angular scales
+(low multipoles), primarily due to the Integrated Sachs–Wolfe (ISW) effect, while also modifying the acoustic peak structure. These changes are tightly constrained by precision CMB
+measurements, which explains the strong bounds on Ωs reported in table 2. The geometrical
+degeneracies between Ωs , ns , and H0 , discussed above, manifest as shifts in the peak positions and amplitudes, highlighting the importance of combining CMB with low-redshift data
+to isolate string-induced deviations. This behavior is further illustrated in figure 1, which
+shows one-dimensional posterior distributions and two-dimensional marginalized contours for
+Model 1 using various combinations of cosmological datasets. The addition of complementary
+data progressively breaks parameter degeneracies and tightens the constraints on Ωs , while
+also inducing shifts in H0 , ns , and Ωc h2 .
+
+–8–
+
+Figure 3. One-dimensional posterior distributions and two-dimensional marginalized contours for
+Model 2, derived using different combinations of cosmological datasets. The contours illustrate parameter degeneracies and the progressive tightening of constraints as additional data are included.
+
+4.2
+
+Constraints on Model 2: Positive energy, velocity-dependent string network.
+
+Model 2 extends the baseline cosmological scenario by introducing a cosmic string component with positive energy density and allowing the root-mean squared velocity of the string
+network, vs , to vary as a free parameter. This generalization captures the dynamics of
+more realistic string networks and enables a test of potential deviations from the assumption of non-relativistic strings. The constraints in table 3 show that current cosmological
+data tightly constrain both the energy density and the velocity of the string network. Using
+Planck CMB data alone, we obtain the upper bounds Ωs < 0.0363 and vs < 0.557 at 95%
+CL. These bounds improve significantly when large-scale structure and supernova data are
+included. The most stringent constraints come from the Planck +DESI combination, yielding Ωs < 0.00663 and vs < 0.592 at 95% CL. Interestingly, treating vs as a free parameter
+
+–9–
+
+Figure 4. Model 2: Velocity-dependent string network. Top panel: The equation of state
+wDE from eq. (2.3) as a function of the scale factor a. Middle panel: The energy density ratio
+ρDE (a)/ρDE (a0 ) from eq. (2.6), also shown as a function of a. For both the top and middle panels,
+the left side shows fixed vs = 0.3 with varying Ωs as indicated in the legend, while the right side
+shows fixed Ωs = 0.1 with varying vs . The present-day DE contribution is fixed at ΩDE,0 = 0.7
+for illustration. Bottom panel: The impact on the CMB TT power spectrum when varying Ωs with
+fixed vs = 0.3 (left), and when varying vs with fixed Ωs = 0.1 (right), where ΩDE,0 is defined as
+ΩDE,0 = 1 − Ωm − Ωk − Ωr .
+
+does not weaken the bounds on Ωs . On the contrary, it strengthens them due to the strong
+anticorrelation between the two parameters, as illustrated in figure 3. This indicates that
+the datasets efficiently constrain both parameters simultaneously. It is also noteworthy that
+the constraints on vs remain nearly unchanged regardless of the dataset combination used,
+implying that low-redshift data have little to no effect on this parameter.
+The impact on standard cosmological parameters is similar to that observed for Model 1.
+Due to the strong anticorrelation between Ωs and H0 , the CMB-only analysis yields a lower
+value of the Hubble constant and, consequently, a higher matter density. However, the
+
+– 10 –
+
+Parameters
+
+CMB
++SDSS
+
+CMB
++PantheonPlus
+
+0.02235 ± 0.00015
+
+0.02247 ± 0.00013
+
+0.1205 ± 0.0012
+
+0.11895 ± 0.00091
+
+100 θs
+
+1.04088 ± 0.00031
+
+τreio
+ns
+
+h2
+
+Ωc h2
+
+Ωb
+
+CMB
+
+CMB+SDSS
++PantheonPlus
+
+CMB
++DESI
+
+CMB
++DESI+DESY5
+
+CMB+DESI
++PantheonPlus
+
+0.02235 ± 0.00014
+
+0.02245 ± 0.00013
+
+0.02257 ± 0.00013
+
+0.02253 ± 0.00013
+
+0.02255 ± 0.00013
+
+0.1204 ± 0.0011
+
+0.11916 ± 0.00089
+
+0.11752 ± 0.00069
+
+0.11788 ± 0.00069
+
+0.11770 ± 0.00068
+
+1.04108 ± 0.00029
+
+1.04088 ± 0.00030
+
+1.04105 ± 0.00029
+
+1.04126 ± 0.00028
+
+1.04123 ± 0.00028
+
+1.04125 ± 0.00028
+
+0.0559+0.0069
+−0.0080
+
+0.0603+0.0070
+−0.0079
+
+0.0557+0.0068
+−0.0077
+
+0.0596+0.0068
+−0.0080
+
+0.0634+0.0069
+−0.0083
+
+0.0622+0.0071
+−0.0080
+
+0.0629+0.0070
+−0.0079
+
+0.9644 ± 0.0042
+
+0.9683 ± 0.0037
+
+0.9644 ± 0.0040
+
+0.9678 ± 0.0037
+
+0.9720 ± 0.0034
+
+0.9710 ± 0.0034
+
+0.9714 ± 0.0034
+
+3.050+0.013
+−0.014
+
+3.056+0.013
+−0.014
+
+3.049+0.012
+−0.014
+
+3.055+0.012
+−0.014
+
+3.061+0.013
+−0.015
+
+3.059 ± 0.014
+
+3.060 ± 0.014
+
+Ωs
+
+< 0.0363
+
+< 0.00854
+
+< 0.0232
+
+< 0.00961
+
+< 0.00663
+
+< 0.00901
+
+< 0.00779
+
+vs
+
+< 0.557
+
+< 0.604
+
+< 0.570
+
+< 0.577
+
+< 0.592
+
+< 0.569
+
+< 0.588
+
+H0 [km/s/Mpc]
+
+66.1+1.4
+−0.66
+
+67.57 ± 0.45
+
+66.35+0.86
+−0.64
+
+67.43 ± 0.44
+
+68.28 ± 0.32
+
+68.03 ± 0.32
+
+68.16 ± 0.32
+
+0.801+0.013
+−0.0065
+
+0.8095 ± 0.0060
+
+0.8038+0.0096
+−0.0066
+
+0.8091 ± 0.0061
+
+0.8082 ± 0.0060
+
+0.8074 ± 0.0062
+
+0.8079 ± 0.0061
+
+ln 1010 As
+
+
+
+σ8
+S8
+
+0.838 ± 0.013
+
+0.8244 ± 0.0096
+
+0.838 ± 0.011
+
+0.8264 ± 0.0095
+
+0.8107 ± 0.0080
+
+0.8139 ± 0.0079
+
+0.8123 ± 0.0079
+
+Ωm
+
+0.3287+0.0083
+−0.016
+
+0.3112 ± 0.0057
+
+0.3260+0.0081
+−0.0098
+
+0.3130 ± 0.0055
+
+0.3019 ± 0.0038
+
+0.3048 ± 0.0038
+
+0.3033 ± 0.0037
+
+∆χ2min, ΛCDM
+
+−0.53
+
+0.84
+
+0.4
+
+0.54
+
+1.29
+
+−0.1
+
+1.33
+
+∆ ln Z ΛCDM
+
+−4.93
+
+−6.18
+
+−5.05
+
+−6.22
+
+−6.64
+
+−6.3
+
+−6.2
+
+Table 3. Observational constraints at 68% CL and upper limits at 95% CL obtained for Model 2
+using various datasets. Negative values of ∆χ2min, ΛCDM favor Model 2 over the standard ΛCDM
+scenario, while positive values of ∆ ln Z ΛCDM indicate a preference for our model.
+
+Planck ΛCDM constraints are recovered once SDSS or PantheonPlus are included in the
+dataset combination. The scalar spectral index increases slightly with the inclusion of lowredshift data such as DESI, reaching ns = 0.9720 ± 0.0034 for Planck +DESI. The Hubble
+parameter also shifts upward, reaching H0 = 68.28 ± 0.32 km s−1 Mpc−1 , again hinting at a
+mild alleviation of the Hubble tension. Similarly, the clustering amplitude S8 is suppressed
+to 0.8107±0.0080, in better agreement with weak lensing surveys. Despite these phenomenological advantages, statistical model comparison remains unfavorable to Model 2. While the
+changes in the minimum χ2 relative to ΛCDM are small and compatible with two additional degree of freedom, the Bayesian evidence consistently disfavors this extended model.
+All dataset combinations yield ∆ ln Z ΛCDM < −5, with the strongest result obtained for
+Planck +DESI. These values indicate a strong Bayesian preference for the standard ΛCDM
+model over the velocity-dependent cosmic string scenario.
+The bounds derived for the root-mean squared string velocity can be compared to theoretical expectations from recent high-resolution simulations of Nambu–Goto and Abelian–Higgs
+string networks, which predict velocities in the range vs ∼ 0.3–0.6 during both the radiationand matter-dominated eras [15, 59, 87]. This results in a scaling of the energy density slightly
+faster than ρs ∝ a−2 , helping ensure the subdominance of the string network at late times.
+The upper limits obtained in our analysis, with vs ≲ 0.6 at 95% CL across different dataset
+combinations, are consistent with this predicted range. This agreement suggests that cosmological observations are compatible with a scaling string network, provided its energy density
+remains sufficiently small to evade current constraints.
+To better understand the phenomenology of Model 2, we illustrate in figure 4 the behavior of the effective DE component associated with the cosmic string network. The top and
+middle panels show, respectively, the effective equation of state wDE (a) and the normalized
+energy density ρDE (a)/ρDE (a0 ) as functions of the scale factor a, derived from Eqs. (2.3)
+and (2.6). For illustrative purposes, we fix the present-day dark energy contribution to
+ΩDE,0 = 0.7. In the top-left and middle-left panels, we fix the root-mean squared string
+velocity to vs = 0.3 and vary the present-day string contribution Ωs , which quantifies the
+fraction of the effective dark energy density sourced by the string network. As Ωs increases,
+
+– 11 –
+
+the equation of state wDE (a) becomes less negative at early times due to the increasing con2
+tribution from the string component, ρs (a) ∝ a−2(1+vs ) . This causes the total DE density to
+decay more rapidly than that of a cosmological constant and approach the scaling behavior
+of strings, resulting in wDE (a) → 13 (2vs2 − 1) as a → 0. The corresponding energy density
+ratio ρDE (a)/ρDE (a0 ) exhibits stronger evolution with a for higher absolute values of Ωs , deviating significantly from the cosmological constant solution. The top-right and middle-right
+panels fix Ωs = 0.1 while varying vs . Increasing the string velocity enhances the dynamical
+impact of the network by making the effective equation of state less negative at earlier times.
+Since relativistic strings behave more like radiation, this leads to an earlier departure from
+w = −1 and causes a steeper decay of ρDE (a) with redshift. The bottom panel of figure 4
+shows the resulting effect on the CMB temperature power spectrum. In the left panel, we
+fix vs = 0.3 and vary Ωs ; in the right panel, we fix Ωs = 0.1 and vary vs . In both cases,
+increasing absolute value of either parameter enhances the late-time Integrated Sachs–Wolfe
+(ISW) effect, leading to excess power at low multipoles. Simultaneously, the early ISW effect
+and the shift in the angular diameter distance to last scattering modify the acoustic peak
+structure.
+Figure 3 presents the one-dimensional posterior distributions and two-dimensional marginalized contours for Model 2, using various combinations of cosmological datasets. The inclusion of low-redshift data such as SDSS, PantheonPlus, and DESI clearly reduces the allowed
+parameter volume in the (Ωs , vs ) plane. In particular, the addition of DESI breaks the degeneracies involving Ωs and significantly tightens the constraints on Ωc h2 and ns . Notably,
+vs does not exhibit correlations with the standard cosmological parameters, but only with
+Ωs .
+Parameters
+
+CMB
+
+CMB
++SDSS
+
+CMB
++PantheonPlus
+
+CMB+SDSS
++PantheonPlus
+
+CMB
++DESI
+
+CMB
++DESI+DESY5
+
+CMB+DESI
++PantheonPlus
+
+Ωb h2
+
+0.02249 ± 0.00016
+
+0.02239 ± 0.00014
+
+0.02235 ± 0.00014
+
+0.02238 ± 0.00014
+
+0.02242 ± 0.00013
+
+0.02246 ± 0.00014
+
+0.02245 ± 0.00014
+
+Ωc h2
+
+0.1186 ± 0.0015
+
+0.11993 ± 0.00098
+
+0.1204 ± 0.0011
+
+0.11999 ± 0.00099
+
+0.11943 ± 0.00094
+
+0.11887 ± 0.00094
+
+0.11910 ± 0.00094
+
+100 θs
+
+1.04108 ± 0.00032
+
+1.04093 ± 0.00030
+
+1.04088 ± 0.00030
+
+1.04094 ± 0.00030
+
+1.04100 ± 0.00029
+
+1.04110 ± 0.00029
+
+1.04106 ± 0.00030
+
+τreio
+
+0.0504+0.0083
+−0.0072
+
+0.0528 ± 0.0077
+
+0.0540 ± 0.0076
+
+0.0542 ± 0.0075
+
+0.0537 ± 0.0076
+
+0.0573 ± 0.0078
+
+0.0558 ± 0.0078
+
+ns
+
+0.9690 ± 0.0047
+
+0.9656 ± 0.0039
+
+0.9645 ± 0.0039
+
+0.9655 ± 0.0038
+
+0.9669 ± 0.0037
+
+0.9684 ± 0.0038
+
+0.9678 ± 0.0037
+
+3.030+0.017
+−0.015
+
+3.040 ± 0.014
+
+3.045 ± 0.014
+
+3.044 ± 0.014
+
+3.041 ± 0.014
+
+3.049 ± 0.014
+
+3.046 ± 0.014
+
+−0.050+0.020
+−0.030
+
+−0.0193 ± 0.0090
+
+0.002 ± 0.012
+
+−0.0106 ± 0.0083
+
+−0.0207 ± 0.0081
+
+−0.0082 ± 0.0080
+
+−0.0133 ± 0.0079
+
+ln 1010 As
+
+
+
+Ωs
+
+73.4 ± 3.6
+
+69.12 ± 0.77
+
+67.0 ± 1.1
+
+68.29 ± 0.64
+
+69.48 ± 0.53
+
+68.59 ± 0.48
+
+68.95 ± 0.49
+
+σ8
+
+0.865 ± 0.031
+
+0.8302 ± 0.0097
+
+0.811 ± 0.012
+
+0.8224 ± 0.0092
+
+0.8309 ± 0.0098
+
+0.8188 ± 0.0094
+
+0.8237 ± 0.0096
+
+S8
+
+0.811 ± 0.018
+
+0.8292 ± 0.0096
+
+0.837 ± 0.011
+
+0.8314 ± 0.0097
+
+0.8242 ± 0.0091
+
+0.8212 ± 0.0092
+
+0.8224 ± 0.0094
+
+Ωm
+
+0.265+0.024
+−0.032
+
+0.2994 ± 0.0072
+
+0.320 ± 0.011
+
+0.3067 ± 0.0062
+
+0.2952 ± 0.0044
+
+0.3018 ± 0.0041
+
+0.2991 ± 0.0042
+
+∆χ2min, ΛCDM
+
+−6.77
+
+−2.46
+
+0.53
+
+−1.56
+
+−4.06
+
+−0.61
+
+−0.92
+
+∆ ln Z ΛCDM
+
+−0.93
+
+−2.31
+
+−4.07
+
+−3.81
+
+−1.95
+
+−4.3
+
+−3.59
+
+H0 [km/s/Mpc]
+
+Table 4. Observational constraints at 68% CL and upper limits at 95% CL obtained for Model 3
+using various datasets. Negative values of ∆χ2min, ΛCDM favor Model 3 over the standard ΛCDM
+scenario, while positive values of ∆ ln Z ΛCDM indicate a preference for Model 3.
+
+5
+5.1
+
+Discussion
+Negative energy density?
+
+We consider a generalization of the previous scenarios by allowing the effective energy density
+of the string network, Ωs , to take both positive and negative values. This setup accommodates
+
+– 12 –
+
+Figure 5. One-dimensional posterior distributions and two-dimensional marginalized contours for
+Model 3, based on various combinations of cosmological datasets. The parameter Ωs is allowed to
+take both positive and negative values, corresponding to a non-relativistic network of cosmic strings.
+
+a broader class of dynamical dark energy behaviors, including the possibility that the stringlike component acts as a negative energy fluid at late times, thereby contributing to an
+enhanced expansion rate. In this context, the study of negative energy density states may
+be complemented by cosmological tools, which could indirectly probe violations of standard
+energy conditions. To this end, we allow the prior on the cosmic string energy density
+parameter to span both positive and negative initial values, as reported in the last two
+columns of table 1. We begin by discussing the results from the run with Model 3, where the
+string network is assumed to be non-relativistic.
+As shown in table 4, the posterior distributions for Ωs are significantly shifted toward
+negative values across all dataset combinations, particularly when CMB data are used alone or
+in combination with low-redshift measurements, except in the case of CMB+PantheonPlus,
+where Ωs remains fully consistent with zero. For example, Planck -only data yield Ωs =
+−0.050+0.020
+−0.030 at 68% CL, with the negative mean value persisting even after the inclusion of
+
+– 13 –
+
+SDSS or DESI data. This trend suggests a mild statistical preference for models in which
+the effective dark energy component includes a negative-energy contribution beyond that
+of a cosmological constant. The inclusion of this negative-energy component impacts several derived cosmological parameters. Most notably, the Hubble constant is significantly
+increased, thereby reducing the Hubble tension relative to ΛCDM. With CMB-only data, we
+find H0 = 73.4 ± 3.6 km s−1 Mpc−1 , while the addition of other datasets yields values in the
+range H0 = 68–70 km s−1 Mpc−1 , with the lowest value observed for CMB+PantheonPlus,
+H0 ∼ 67 km s−1 Mpc−1 . Similarly, the S8 parameter is slightly lower in the CMB-only analysis, but becomes consistent with low-redshift observations once SDSS, DESI, and supernova
+datasets are included.
+However, although Model 3 leads to improved best-fit likelihoods and a partial alleviation of the Hubble tension, it remains disfavored from a Bayesian perspective due to its additional parameter freedom. The difference in minimum chi-square values relative to ΛCDM is
+consistently negative across nearly all dataset combinations, with the largest improvement,
+∆χ2 = −6.77, achieved for CMB-only data. This indicates that the extended model provides
+a statistically better fit to the data in those cases. Nevertheless, the difference in Bayesian
+evidence is negative for all dataset combinations, suggesting that the improvement in fit is
+insufficient to overcome the Occam’s razor penalty associated with the extra freedom in Ωs ,
+which is allowed to vary over both positive and negative values. To sum up, while Model 3 is
+compatible with current data and offers a marginal improvement in the likelihood, it is not
+statistically preferred over the standard ΛCDM model.
+The parameter constraints for Model 3 are shown in Fig. 5, including the one-dimensional
+posterior distributions and two-dimensional marginalized contours for Ωs and the relevant
+cosmological parameters. Different dataset combinations highlight their respective roles in
+constraining the extended parameter space. In particular, the inclusion of large-scale structure data and SNe Ia significantly narrows the posterior distributions, breaking degeneracies
+present in the CMB-only case. The results indicate a preference for slightly negative values of
+Ωs across multiple datasets, consistent with the values reported in table 4. This behavior is
+also linked to the geometrical degeneracy between Ωs , H0 , and Ωm , leading to slightly higher
+Hubble constant values and lower matter density values. However, the overlap with Ωs = 0
+within the 2σ level confirms the statistical compatibility of the model with ΛCDM.
+5.2
+
+Results for unconstrained energy and velocity of the string network
+
+Model 4 represents the most general scenario considered in this work, allowing both the string
+energy density parameter and the network velocity to vary freely, as specified in table 1.
+This extended framework accommodates a broad class of string-inspired dark energy models, including those with negative energy contributions and relativistic dynamics. As shown
+in table 5, the constraints on Ωs continue to favor slightly negative values across all dataset
+combinations—except for CMB+PantheonPlus, consistent with the findings for Model 3. For
+example, CMB-only data yield Ωs = −0.038+0.029
+−0.022 , while the inclusion of DESI and PantheonPlus tightens the bounds to Ωs = −0.0080+0.0075
+−0.0029 . The bulk velocity of the string network
+remains largely unconstrained at the 95% CL for most dataset combinations, with upper
+bounds ranging from vs < 0.574 (CMB-only) to vs < 0.706 (CMB+DESI). However, when
+SN data are added to CMB+DESI, the velocity becomes constrained at 68% CL, yielding
++0.30
+vs = 0.48+0.32
+−0.15 for CMB+DESI+DESY5 and vs = 0.44−0.18 for CMB+DESI+PantheonPlus.
+These results are consistent with theoretical expectations from string simulations, which
+predict velocities in the range vs ∼ 0.3–0.6. However, the data do not show a statistically
+
+– 14 –
+
+significant preference for non-zero values, as even in the cases where vs is bounded at 68%
+CL, vs remains consistent with zero at 95% CL, as shown in figure 6. Model comparison
+indicates a consistent improvement in fit relative to ΛCDM, with ∆χ2 reaching values as
+low as −6.58 for the CMB+DESI combination. Nonetheless, the Bayesian evidence remains
+negative across all dataset combinations, with values ranging from −1.74 to −4.75, implying
+that the data do not justify the additional parameter complexity of this extended model.
+The inclusion of the string network velocity does not significantly affect the other parameters of the model. For example, in the CMB-only case, the Hubble constant remains consis−1 Mpc−1 at 68% CL. The addition of lowtent with the local value, with H0 = 72.7+3.0
+−3.7 km s
+redshift data shifts this estimate toward lower values, around 68–69 km s−1 Mpc−1 . As a consequence, the matter density is relatively low in the CMB-only case, with Ωm = 0.270 ± 0.027
+at 68% CL, but converges toward the ΛCDM value when low-redshift data are included.
+Figure 6 presents the one-dimensional posterior distributions and two-dimensional marginalized contours for Model 4, obtained using various combinations of cosmological datasets. The
+figure illustrates the effects of allowing both the string energy density and the bulk velocity
+to vary freely. As in Model 3, the posteriors for Ωs show a mild preference for negative values
+across all dataset combinations, with tighter constraints obtained when low-redshift data are
+included. The contours reveal parameter degeneracies, particularly between Ωs and H0 , as
+well as between vs and Ωc h2 , which become more pronounced with the inclusion of additional
+datasets. Despite these correlations, the string network dynamics remain weakly constrained,
+as the posterior distribution for vs remains broad, limiting the statistical significance of any
+detection.
+Parameters
+
+CMB
+
+CMB
++SDSS
+
+CMB
++PantheonPlus
+
+CMB+SDSS
++PantheonPlus
+
+CMB
++DESI
+
+CMB
++DESI+DESY5
+
+CMB+DESI
++PantheonPlus
+0.02245 ± 0.00013
+
+Ωb h2
+
+0.02250 ± 0.00017
+
+0.02241 ± 0.00014
+
+0.02236 ± 0.00014
+
+0.02240 ± 0.00014
+
+0.02244 ± 0.00014
+
+0.02245 ± 0.00014
+
+Ωc h2
+
+0.1185 ± 0.0015
+
+0.1197 ± 0.0011
+
+0.1203 ± 0.0012
+
+0.1198 ± 0.0010
+
+0.1192+0.0011
+−0.00092
+
+0.1187+0.0012
+−0.00086
+
+0.1189+0.0011
+−0.00087
+
+100 θs
+
+1.04109 ± 0.00033
+
+1.04096 ± 0.00032
+
+1.04089 ± 0.00031
+
+1.04096 ± 0.00030
+
+1.04105+0.00029
+−0.00033
+
+1.04115+0.00028
+−0.00038
+
+1.04111+0.00028
+−0.00034
+
+τreio
+
+0.0503 ± 0.0083
+
+0.0524 ± 0.0078
+
+0.0537 ± 0.0075
+
+0.0534 ± 0.0076
+
+0.0527 ± 0.0078
+
+0.0541 ± 0.0080
+
+0.0534 ± 0.0079
+
+ns
+
+0.9691 ± 0.0047
+
+0.9660 ± 0.0038
+
+0.9646 ± 0.0040
+
+0.9657 ± 0.0038
+
+0.9671 ± 0.0037
+
+0.9677 ± 0.0037
+
+0.9675 ± 0.0037
+
+3.030 ± 0.017
+
+3.039 ± 0.015
+
+3.044 ± 0.014
+
+3.042 ± 0.014
+
+3.039 ± 0.015
+
+3.042 ± 0.015
+
+3.040 ± 0.015
+
+Ωs
+
+−0.038+0.029
+−0.022
+
+−0.0141+0.011
+−0.0068
+
+0.0005+0.0081
+−0.0098
+
+−0.0074+0.0072
+−0.0045
+
+−0.0135+0.011
+−0.0054
+
+−0.0054+0.0053
+−0.0025
+
+−0.0080+0.0075
+−0.0029
+
+vs
+
+< 0.574
+
+< 0.657
+
+< 0.656
+
+< 0.705
+
+< 0.706
+
+0.48+0.32
+−0.15
+
+0.44+0.30
+−0.18
+
+H0 [km/s/Mpc]
+
+72.7+3.0
+−3.7
+
+69.05 ± 0.77
+
+67.2 ± 1.1
+
+68.31 ± 0.62
+
+69.31 ± 0.53
+
+68.60+0.49
+−0.42
+
+68.87 ± 0.48
+
+σ8
+
+0.860+0.027
+−0.031
+
+0.8302 ± 0.0098
+
+0.813 ± 0.013
+
+0.8236 ± 0.0092
+
+0.8311 ± 0.0095
+
+0.8246 ± 0.0094
+
+0.8270 ± 0.0092
+
+S8
+
+0.813 ± 0.017
+
+0.8295 ± 0.0099
+
+0.837 ± 0.011
+
+0.8321 ± 0.0098
+
+0.8258 ± 0.0093
+
+0.8266 ± 0.0097
+
+0.8262 ± 0.0094
+
+Ωm
+
+0.270 ± 0.027
+
+0.2996 ± 0.0072
+
+0.318 ± 0.012
+
+0.3062 ± 0.0062
+
+0.2962 ± 0.0042
+
+0.3015 ± 0.0039
+
+0.2995 ± 0.0039
+
+∆χ2min, ΛCDM
+
+−6.07
+
+−2.95
+
+0.36
+
+−2.44
+
+−6.58
+
+−5.47
+
+−5.99
+
+∆ ln Z ΛCDM
+
+−1.74
+
+−2.94
+
+−4.75
+
+−4.12
+
+−2.18
+
+−3.88
+
+−3.06
+
+ln 1010 As
+
+
+
+Table 5. Observational constraints at 68% CL and upper limits at 95% CL obtained for Model 4
+using various datasets. Negative values of ∆χ2min, ΛCDM favor Model 4 over the standard ΛCDM
+scenario, while positive values of ∆ ln Z ΛCDM indicate a preference for Model 4.
+
+6
+
+Conclusions
+
+The four phenomenological models explored in this work represent progressively more general
+extensions of the standard ΛCDM framework, incorporating a cosmic string network with increasing degrees of freedom. Model 1, featuring a positive energy density and non-relativistic
+
+– 15 –
+
+Figure 6. One-dimensional posterior distributions and two-dimensional marginalized contours for
+Model 4, based on various combinations of cosmological datasets. Both the energy density and the
+bulk velocity of the strings are allowed to vary freely within the ranges defined in table 1. The legend
+indicates the colors corresponding to different dataset combinations.
+
+scaling, constitutes a minimal extension and yields tight upper bounds on the string contribution, with Ωs < 0.00824 at 95% CL from the CMB+DESI dataset. Model 2 introduces
+velocity dependence, resulting in Ωs < 0.00663 and vs < 0.592 for CMB+DESI at 95% CL,
+but shows no preference for relativistic string dynamics. In both cases, the best-fit values
+of H0 and S8 shift slightly in the direction of alleviating known cosmological tensions, although the changes are insufficient, and neither model is favored from a Bayesian perspective.
+Model 3 allows the string energy density to take both positive and negative values, enabling
+a broader class of exotic energy contributions. Across all datasets, we find a consistent preference for slightly negative values of Ωs , with CMB-only data yielding Ωs = −0.050+0.020
+−0.030 and
+2
+an improvement in the best-fit likelihood of ∆χ = −6.77. However, this improved fit comes
+at the cost of increased model complexity, resulting in negative Bayesian evidence. Model 4
+generalizes this further by allowing both Ωs and vs to vary freely. The most stringent con-
+
+– 16 –
+
+straints are obtained for the combination CMB+DESI+DESY5, with Ωs = −0.0054+0.0053
+−0.0025
+and vs = 0.48+0.32
+at
+68%
+CL.
+While
+the
+data
+continue
+to
+favor
+mildly
+negative
+energy
+densi−0.15
+ties and a broad range of string velocities, the Bayesian evidence does not support the added
+complexity of the model. In summary, although cosmic string-inspired extensions of ΛCDM
+can yield improved fits and partially alleviate cosmological tensions, there is currently no
+strong statistical evidence favoring their inclusion over the standard model. Future CMB
+and large-scale structure surveys with improved sensitivity to late-time dynamics may offer
+sharper insights into the viability of such exotic energy components.
+
+Acknowledgments
+HC acknowledges the support of the China Scholarship Council (CSC) program (Project
+ID No. 202406230341). HC and LV acknowledge support by the National Natural Science
+Foundation of China (NSFC) through the grant No. 12350610240 “Astrophysical Axion Laboratories”. EDV is supported by a Royal Society Dorothy Hodgkin Research Fellowship.
+LV also thanks Istituto Nazionale di Fisica Nucleare (INFN) through the “QGSKY” Iniziativa Specifica project. This article is based upon work from COST Action CA21136
+“Addressing observational tensions in cosmology with systematics and fundamental physics”
+(CosmoVerse), supported by COST (European Cooperation in Science and Technology). The
+authors acknowledge the use of High-Performance Computing resources from the IT Services
+at the University of Sheffield.
+
+References
+[1] T.W.B. Kibble, Topology of Cosmic Domains and Strings, J. Phys. A 9 (1976) 1387.
+[2] A. Vilenkin, Gravitational radiation from cosmic strings, Phys. Lett. B 107 (1981) 47.
+[3] A. Vilenkin, Cosmic Strings and Domain Walls, Phys. Rept. 121 (1985) 263.
+[4] E. Witten, Superconducting Strings, Nucl. Phys. B 249 (1985) 557.
+[5] A. Vilenkin and E.P.S. Shellard, Cosmic Strings and Other Topological Defects, Cambridge
+University Press (7, 2000).
+[6] D.P. Bennett and F.R. Bouchet, High resolution simulations of cosmic string evolution. 1.
+Network evolution, Phys. Rev. D 41 (1990) 2408.
+[7] A. Albrecht and N. Turok, Evolution of Cosmic String Networks, Phys. Rev. D 40 (1989) 973.
+[8] T. Damour and A. Vilenkin, Gravitational wave bursts from cosmic strings, Phys. Rev. Lett. 85
+(2000) 3761 [gr-qc/0004075].
+[9] X. Siemens, V. Mandic and J. Creighton, Gravitational wave stochastic background from cosmic
+(super)strings, Phys. Rev. Lett. 98 (2007) 111101 [astro-ph/0610920].
+[10] Planck collaboration, Planck 2013 results. XXV. Searches for cosmic strings and other
+topological defects, Astron. Astrophys. 571 (2014) A25 [1303.5085].
+[11] S. Henrot-Versille et al., Improved constraint on the primordial gravitational-wave density using
+recent cosmological data and its impact on cosmic string models, Class. Quant. Grav. 32 (2015)
+045003 [1408.5299].
+[12] A. Lazanu and P. Shellard, Constraints on the Nambu-Goto cosmic string contribution to the
+CMB power spectrum in light of new temperature and polarisation data, JCAP 02 (2015) 024
+[1410.5046].
+
+– 17 –
+
+[13] J. Lizarraga, J. Urrestilla, D. Daverio, M. Hindmarsh and M. Kunz, New CMB constraints for
+Abelian Higgs cosmic strings, JCAP 10 (2016) 042 [1609.03386].
+[14] LIGO Scientific, Virgo collaboration, Constraints on cosmic strings using data from the
+first Advanced LIGO observing run, Phys. Rev. D 97 (2018) 102002 [1712.01168].
+[15] P. Auclair et al., Probing the gravitational wave background from cosmic strings with LISA,
+JCAP 04 (2020) 034 [1909.00819].
+[16] LISA Cosmology Working Group collaboration, Cosmology with the Laser Interferometer
+Space Antenna, Living Rev. Rel. 26 (2023) 5 [2204.05434].
+[17] M. Punturo et al., The Einstein Telescope: A third-generation gravitational wave observatory,
+Class. Quant. Grav. 27 (2010) 194002.
+[18] B. Sathyaprakash et al., Scientific Objectives of Einstein Telescope, Class. Quant. Grav. 29
+(2012) 124013 [1206.0331].
+[19] M. Maggiore et al., Science Case for the Einstein Telescope, JCAP 03 (2020) 050
+[1912.02622].
+[20] NANOGrav collaboration, The NANOGrav 15 yr Data Set: Search for Signals from New
+Physics, Astrophys. J. Lett. 951 (2023) L11 [2306.16219].
+[21] EPTA collaboration, The second data release from the European Pulsar Timing Array: V.
+Implications for massive black holes, dark matter and the early Universe, Astron. Astrophys.
+685 (2024) A94 [2306.16227].
+[22] Y. Cui, M. Lewicki, D.E. Morrissey and J.D. Wells, Cosmic Archaeology with Gravitational
+Waves from Cosmic Strings, Phys. Rev. D 97 (2018) 123505 [1711.03104].
+[23] Y. Cui, M. Lewicki, D.E. Morrissey and J.D. Wells, Probing the pre-BBN universe with
+gravitational waves from cosmic strings, JHEP 01 (2019) 081 [1808.08968].
+[24] C.-F. Chang and Y. Cui, Stochastic Gravitational Wave Background from Global Cosmic
+Strings, Phys. Dark Univ. 29 (2020) 100604 [1910.04781].
+[25] Y. Gouttenoire, G. Servant and P. Simakachorn, Kination cosmology from scalar fields and
+gravitational-wave signatures, 2111.01150.
+[26] J.A. Dror, K. Harigaya and V. Narayan, Parametric Resonance Production of Ultralight Vector
+Dark Matter, Phys. Rev. D 99 (2019) 035036 [1810.07195].
+[27] N. Ramberg and L. Visinelli, Probing the Early Universe with Axion Physics and Gravitational
+Waves, Phys. Rev. D 99 (2019) 123513 [1904.05707].
+[28] A.J. Long and L.-T. Wang, Dark Photon Dark Matter from a Network of Cosmic Strings,
+Phys. Rev. D 99 (2019) 063529 [1901.03312].
+[29] N. Ramberg and L. Visinelli, QCD axion and gravitational waves in light of NANOGrav
+results, Phys. Rev. D 103 (2021) 063031 [2012.06882].
+[30] H. Cheng and L. Visinelli, Future targets for light gauge bosons from cosmic strings, Phys.
+Dark Univ. 46 (2024) 101667 [2408.16334].
+[31] R.A. Battye and A. Moss, Anisotropic perturbations due to dark energy, Phys. Rev. D 74
+(2006) 041301 [astro-ph/0602377].
+[32] L. Pogosian, S.H.H. Tye, I. Wasserman and M. Wyman, Cosmic Strings as the Source of
+Small-Scale Microwave Background Anisotropy, JCAP 02 (2009) 013 [0804.0810].
+[33] R.P. Silva, L. Sousa and I.Y. Rybak, Cosmic microwave background anisotropies generated by
+cosmic strings with small-scale structure, JCAP 07 (2023) 016 [2303.07548].
+[34] I.Y. Rybak, C.J.A.P. Martins, P. Peter and E.P.S. Shellard, Cosmic microwave background
+signatures from current-carrying cosmic strings, Phys. Rev. D 110 (2024) 023534 [2403.16332].
+
+– 18 –
+
+[35] E. Di Valentino, O. Mena, S. Pan, L. Visinelli, W. Yang, A. Melchiorri et al., In the realm of
+the Hubble tension—a review of solutions, Class. Quant. Grav. 38 (2021) 153001 [2103.01183].
+[36] E. Abdalla et al., Cosmology intertwined: A review of the particle physics, astrophysics, and
+cosmology associated with the cosmological tensions and anomalies, JHEAp 34 (2022) 49
+[2203.06142].
+[37] E. Di Valentino et al., The CosmoVerse White Paper: Addressing observational tensions in
+cosmology with systematics and fundamental physics, 2504.01669.
+[38] R.J. Nemiroff, R. Joshi and B.R. Patla, An exposition on Friedmann Cosmology with Negative
+Energy Densities, JCAP 06 (2015) 006 [1402.4522].
+[39] L. Visinelli, S. Vagnozzi and U. Danielsson, Revisiting a negative cosmological constant from
+low-redshift data, Symmetry 11 (2019) 1035 [1907.07953].
+[40] R.O. Aros and N. Zamorano, A Wormhole at the core of an infinite cosmic string, Phys. Rev.
+D 56 (1997) 6607 [gr-qc/9711044].
+[41] M. Visser, Traversable wormholes: Some simple examples, Phys. Rev. D 39 (1989) 3182
+[0809.0907].
+[42] S.V. Sushkov, Wormholes supported by a phantom energy, Phys. Rev. D 71 (2005) 043520
+[gr-qc/0502084].
+[43] K.A. Bronnikov, L.N. Lipatova, I.D. Novikov and A.A. Shatskiy, Example of a stable wormhole
+in general relativity, Grav. Cosmol. 19 (2013) 269 [1312.6929].
+[44] M. Visser, S. Kar and N. Dadhich, Traversable wormholes with arbitrarily small energy
+condition violations, Phys. Rev. Lett. 90 (2003) 201102 [gr-qc/0301003].
+[45] M.S. Morris and K.S. Thorne, Wormholes in space-time and their use for interstellar travel: A
+tool for teaching general relativity, Am. J. Phys. 56 (1988) 395.
+[46] C. Barcelo and M. Visser, Twilight for the energy conditions?, Int. J. Mod. Phys. D 11 (2002)
+1553 [gr-qc/0205066].
+[47] V.A. Rubakov, The Null Energy Condition and its violation, Phys. Usp. 57 (2014) 128
+[1401.4024].
+[48] L.H. Ford and T.A. Roman, Averaged energy conditions and quantum inequalities, Phys. Rev.
+D 51 (1995) 4277 [gr-qc/9410043].
+[49] C.J. Fewster and T.A. Roman, On wormholes with arbitrarily small quantities of exotic matter,
+Phys. Rev. D 72 (2005) 044023 [gr-qc/0507013].
+[50] P.C.W. Davies and A.C. Ottewill, Detection of negative energy: 4-dimensional examples, Phys.
+Rev. D 65 (2002) 104014 [gr-qc/0203003].
+[51] E.G. Adelberger, J.H. Gundlach, B.R. Heckel, S. Hoedl and S. Schlamminger, Torsion balance
+experiments: A low-energy frontier of particle physics, Prog. Part. Nucl. Phys. 62 (2009) 102.
+[52] C. Burrage and J. Sakstein, Tests of Chameleon Gravity, Living Rev. Rel. 21 (2018) 1
+[1709.09071].
+[53] S. Kachru, R. Kallosh, A.D. Linde and S.P. Trivedi, De Sitter vacua in string theory, Phys.
+Rev. D 68 (2003) 046005 [hep-th/0301240].
+[54] N. Arkani-Hamed, H.-C. Cheng, M.A. Luty and S. Mukohyama, Ghost condensation and a
+consistent infrared modification of gravity, JHEP 05 (2004) 074 [hep-th/0312099].
+[55] S.M. Carroll, M. Hoffman and M. Trodden, Can the dark energy equation-of-state parameter w
+be less than −1?, Phys. Rev. D 68 (2003) 023509 [astro-ph/0301273].
+[56] T. Vachaspati and A. Vilenkin, Evolution of cosmic networks, Phys. Rev. D 35 (1987) 1131.
+
+– 19 –
+
+[57] S. Kumar, A. Nautiyal and A.A. Sen, Deviation from ΛCDM with cosmic strings networks,
+Eur. Phys. J. C 73 (2013) 2562 [1207.4024].
+[58] C.J.A.P. Martins and E.P.S. Shellard, Quantitative string evolution, Phys. Rev. D 54 (1996)
+2535 [hep-ph/9602271].
+[59] C.J.A.P. Martins and E.P.S. Shellard, Extending the velocity dependent one scale string
+evolution model, Phys. Rev. D 65 (2002) 043514 [hep-ph/0003298].
+[60] D. Spergel and U.-L. Pen, Cosmology in a string dominated universe, Astrophys. J. Lett. 491
+(1997) L67 [astro-ph/9611198].
+[61] L. Sousa and P.P. Avelino, The cosmological evolution of p-brane networks, Phys. Rev. D 84
+(2011) 063502 [1107.4582].
+[62] L. Sousa and P.P. Avelino, Impact of string and monopole-type junctions on domain wall
+dynamics: implications for dark energy, Phys. Lett. B 689 (2010) 145 [0911.3902].
+[63] J. Torrado and A. Lewis, Cobaya: Code for Bayesian Analysis of hierarchical physical models,
+JCAP 05 (2021) 057 [2005.05290].
+[64] A. Lewis, A. Challinor and A. Lasenby, Efficient computation of CMB anisotropies in closed
+FRW models, Astrophys. J. 538 (2000) 473 [astro-ph/9911177].
+[65] A. Gelman and D. Rubin, Inference from iterative simulation using multiple sequences,
+Statistical Science 7 (1992) 457.
+[66] A. Lewis, GetDist: a Python package for analysing Monte Carlo samples, 1910.13970.
+[67] Planck collaboration, Planck 2018 results. I. Overview and the cosmological legacy of Planck,
+Astron. Astrophys. 641 (2020) A1 [1807.06205].
+[68] Planck collaboration, Planck 2018 results. V. CMB power spectra and likelihoods, Astron.
+Astrophys. 641 (2020) A5 [1907.12875].
+[69] Planck collaboration, Planck 2018 results. VIII. Gravitational lensing, Astron. Astrophys.
+641 (2020) A8 [1807.06210].
+[70] ACT collaboration, The Atacama Cosmology Telescope: DR6 Gravitational Lensing Map and
+Cosmological Parameters, Astrophys. J. 962 (2024) 113 [2304.05203].
+[71] ACT collaboration, The Atacama Cosmology Telescope: A Measurement of the DR6 CMB
+Lensing Power Spectrum and Its Implications for Structure Growth, Astrophys. J. 962 (2024)
+112 [2304.05202].
+[72] eBOSS collaboration, Completed SDSS-IV extended Baryon Oscillation Spectroscopic Survey:
+Cosmological implications from two decades of spectroscopic surveys at the Apache Point
+Observatory, Phys. Rev. D 103 (2021) 083533 [2007.08991].
+[73] DESI collaboration, DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and
+Cosmological Constraints, 2503.14738.
+[74] DESI collaboration, Extended Dark Energy analysis using DESI DR2 BAO measurements,
+2503.14743.
+[75] DESI collaboration, Validation of the DESI DR2 Measurements of Baryon Acoustic
+Oscillations from Galaxies and Quasars, 2503.14742.
+[76] D. Scolnic et al., The Pantheon+ Analysis: The Full Data Set and Light-curve Release,
+Astrophys. J. 938 (2022) 113 [2112.03863].
+[77] D. Brout et al., The Pantheon+ Analysis: Cosmological Constraints, Astrophys. J. 938 (2022)
+110 [2202.04077].
+[78] DES collaboration, The Dark Energy Survey Supernova Program: Cosmological Analysis and
+Systematic Uncertainties, Astrophys. J. 975 (2024) 86 [2401.02945].
+
+– 20 –
+
+[79] DES collaboration, The Dark Energy Survey: Cosmology Results with ∼1500 New
+High-redshift Type Ia Supernovae Using the Full 5 yr Data Set, Astrophys. J. Lett. 973 (2024)
+L14 [2401.02929].
+[80] DES collaboration, The Dark Energy Survey Supernova Program: Light Curves and 5 Yr Data
+Release, Astrophys. J. 975 (2024) 5 [2406.05046].
+[81] A. Heavens, Y. Fantaye, A. Mootoovaloo, H. Eggers, Z. Hosenie, S. Kroon et al., Marginal
+Likelihoods from Monte Carlo Markov Chains, 1704.03472.
+[82] W. Giare, “wgcosmo: Cosmological analysis tools.”
+https://github.com/williamgiare/wgcosmo, 2025.
+[83] R.E. Kass and A.E. Raftery, Bayes Factors, J. Am. Statist. Assoc. 90 (1995) 773.
+[84] A.G. Riess et al., A Comprehensive Measurement of the Local Value of the Hubble Constant
+with 1 km s−1 Mpc−1 Uncertainty from the Hubble Space Telescope and the SH0ES Team,
+Astrophys. J. Lett. 934 (2022) L7 [2112.04510].
+[85] Y.S. Murakami, A.G. Riess, B.E. Stahl, W.D. Kenworthy, D.-M.A. Pluck, A. Macoretta et al.,
+Leveraging SN Ia spectroscopic similarity to improve the measurement of H 0 , JCAP 11 (2023)
+046 [2306.00070].
+[86] L. Breuval, A.G. Riess, S. Casertano, W. Yuan, L.M. Macri, M. Romaniello et al., Small
+Magellanic Cloud Cepheids Observed with the Hubble Space Telescope Provide a New Anchor
+for the SH0ES Distance Ladder, Astrophys. J. 973 (2024) 30 [2404.08038].
+[87] J.J. Blanco-Pillado, K.D. Olum and B. Shlaer, Large parallel cosmic string simulations: New
+results on loop production, Phys. Rev. D 83 (2011) 083514 [1101.5173].
+
+– 21 –
+
+

@@ -1,0 +1,1820 @@
+                                                   Joint neutrino oscillation analysis from the T2K and NOvA experiments
+                                                                                   (The T2K and NOvA Collaborations)
+
+                                          S. Abubakar,1 M. A. Acero,2 B. Acharya,3 P. Adamson,4 N. Anfimov,5 A. Antoshkin,5 E. Arrieta-Diaz,6 L. Asquith,7
+                                          A. Aurisano,8 D. Azevedo,9 A. Back,10, 11 N. Balashov,5 P. Baldi,12 B. A. Bambah,13 E. F. Bannister,7 A. Barros,2
+                                          A. Bat,14, 1 K. Bays,15 R. Bernstein,4 T. J. C. Bezerra,7 V. Bhatnagar,16 B. Bhuyan,17 J. Bian,12, 15 A. C. Booth,18, 7
+                                               R. Bowles,10 B. Brahma,19 C. Bromberg,20 N. Buchanan,21 A. Butkevich,22 S. Calvez,21 J. M. Carceller,23
+                                                 T. J. Carroll,24, 25 E. Catano-Mur,26 J. P. Cesar,24 R. Chirco,27 B. C. Choudhary,28 A. Christensen,21
+                                              M. F. Cicala,23 T. E. Coan,29 T. Contreras,4 A. Cooleybeck,25 D. Coveyou,30 L. Cremonesi,18 G. S. Davies,3
+                                            P. F. Derwent,4 P. Ding,4 Z. Djurcic,31 K. Dobbs,32 M. Dolce,33 D. Dueñas Tonguino,8 E. C. Dukes,30 A. Dye,3
+                                          R. Ehrlich,30 E. Ewart,10 P. Filip,34 M. J. Frank,35 H. R. Gallagher,36 A. Giri,19 R. A. Gomes,9 M. C. Goodman,31
+                                              R. Group,30 A. Habig,37 F. Hakl,38 J. Hartnell,7 R. Hatcher,4 J. M. Hays,18 M. He,32 K. Heller,15 V Hewes,8
+                                          A. Himmel,4 T. Horoho,30 A. Ivanova,5 B. Jargowsky,12 I. Kakorin,5 A. Kalitkina,5 D. M. Kaplan,27 A. Khanam,39
+
+
+
+
+arXiv:2510.19888v2 [hep-ex] 24 Oct 2025
+                                          B. Kirezli,1 J. Kleykamp,3 O. Klimov,5 L. W. Koerner,32 L. Kolupaeva,5 R. Kralik,7 A. Kumar,16 C. D. Kuruppu,40
+                                          V. Kus,41 T. Lackey,4, 10 K. Lang,24 P. Lasorak,7 J. Lesmeister,32 A. Lister,25 J. Liu,12 J. A. Lock,7 M. MacMahon,23
+                                           S. Magill,31 W. A. Mann,36 M. T. Manoharan,42 M. Manrique Plata,10 M. L. Marshak,15 M. Martinez-Casales,4, 11
+                                           V. Matveev,22 B. Mehta,16 M. D. Messier,10 H. Meyer,33 T. Miao,4 W. H. Miller,15 S. R. Mishra,40 R. Mohanta,13
+                                               A. Moren,37 A. Morozova,5 W. Mu,4 L. Mualem,43 M. Muether,33 K. Mulder,23 D. Myers,24 D. Naples,44
+                                           S. Nelleri,42 J. K. Nelson,26 R. Nichol,23 E. Niner,4 A. Norman,4 A. Norrick,4 H. Oh,8 A. Olshevskiy,5 T. Olson,32
+                                             M. Ozkaynak,23 A. Pal,45 J. Paley,4 L. Panda,45 R. B. Patterson,43 G. Pawloski,15 R. Petti,40 R. K. Plunkett,4
+                                            J. C. C. Porter,7 L. R. Prais,8, 3 A. Rafique,31 V. Raj,43 M. Rajaoalisoa,8 B. Ramson,4 B. Rebel,25 E. Robles,12
+                                             P. Roy,33 O. Samoylov,5 M. C. Sanchez,46, 11 S. Sánchez Falero,11 P. Shanahan,4 P. Sharma,16 A. Sheshukov,5
+                                             Shivam,17 A. Shmakov,12 W. Shorrock,7 S. Shukla,47 I. Singh,28 P. Singh,28, 18 V. Singh,47 S. Singh Chhibra,18
+                                            D. K. Singha,13 A. Smith,15 J. Smolik,41 P. Snopok,27 N. Solomey,33 A. Sousa,8 K. Soustruznik,48 M. Strait,4, 15
+                                          L. Suter,4 A. Sutton,46, 11 K. Sutton,43 S. Swain,45 C. Sweeney,23 A. Sztuc,23 N. Talukdar,40 P. Tas,48 T. Thakore,8
+                                              J. Thomas,23 E. Tiras,1, 11 M. Titus,42 Y. Torun,27 D. Tran,32 J. Trokan-Tenorio,26 J. Urheim,10 P. Vahle,26
+                                          Z. Vallari,49 K. J. Vockerodt,18 A. V. Waldron,18 M. Wallbank,8, 4 T. K. Warburton,11 C. Weber,15 M. Wetstein,11
+                                                  D. Whittington,10, 39 D. A. Wickremasinghe,4 J. Wolcott,36 S. Wu,15 W. Wu,12 W. Wu,44 Y. Xiao,12
+                                              B. Yaeggy,8 A. Yahaya,33 A. Yankelevich,12 K. Yonehara,4 S. Zadorozhnyy,22 J. Zalesak,34 and R. Zwaska4
+                                                                                        (The NOvA Collaboration)
+
+                                             K. Abe,50 S. Abe,50 H. Adhkary,51 R. Akutsu,52 H. Alarakia-Charles,53 Y.I. Alj Hakim,54 S. Alonso Monsalve,55
+                                           L. Anthony,56 S. Aoki,57 K.A. Apte,56 T. Arai,58 T. Arihara,59 S. Arimoto,60 Y. Ashida,61 E.T. Atkin,56 N. Babu,62
+                                              V. Baranov,5 G.J. Barker,63 G. Barr,64 D. Barrow,64 P. Bates,65 L. Bathe-Peters,64 M. Batkiewicz-Kwasniak,66
+                                               N. Baudis,64 V. Berardi,67 L. Berns,61 S. Bhattacharjee,62 A. Blanchet,68 A. Blondel,69, 70 P.M.M. Boistier,71
+                                              S. Bolognesi,71 S. Bordoni,70 S.B. Boyd,63 C. Bronner,72 A. Bubak,73 M. Buizza Avanzini,74 J.A. Caballero,75
+                                                F. Cadoux,70 N.F. Calabria,67 S. Cao,76 S. Cap,70 D. Carabadjac,74, 77 S.L. Cartwright,54 M.P. Casado,78, 79
+                                              M.G. Catanesi,67 J. Chakrani,80 A. Chalumeau,69 D. Cherdack,32 A. Chvirova,22 J. Coleman,65 G. Collazuol,81
+                                             F. Cormier,82 A.A.L. Craplet,56 A. Cudd,83 D. D’ago,81 C. Dalmazzone,69 T. Daret,71 P. Dasgupta,84 C. Davis,85
+                                          Yu.I. Davydov,5 P. de Perio,86 G. De Rosa,87 T. Dealtry,53 C. Densham,88 A. Dergacheva,22 R. Dharmapal Banerjee,89
+                                          F. Di Lodovico,90 G. Diaz Lopez,69 S. Dolan,68 D. Douqa,70 T.A. Doyle,91 O. Drapier,74 K.E. Duffy,64 J. Dumarchez,69
+                                           P. Dunne,56 K. Dygnarowicz,92 A. Eguchi,58 J. Elias,93 S. Emery-Schrenk,71 G. Erofeev,22 A. Ershova,74 G. Eurin,71
+                                                D. Fedorova,22 S. Fedotov,22 M. Feltre,81 L. Feng,60 D. Ferlewicz,58 A.J. Finch,53 M.D. Fitton,88 C. Forza,81
+                                          M. Friend,52, 94 Y. Fujii,52 Y. Fukuda,95 Y. Furui,59 J. Garcı́a-Marcos,96 A.C. Germer,85 L. Giannessi,70 C. Giganti,69
+                                                 M. Girgus,97 V. Glagolev,5 M. Gonin,98 R. González Jiménez,75 J. González Rosa,75 E.A.G. Goodman,99
+                                          K. Gorshanov,22 P. Govindaraj,97 M. Grassi,81 M. Guigue,69 F.Y. Guo,91 D.R. Hadley,63 S. Han,60, 100 D.A. Harris,101
+                                             R.J. Harris,53, 88 T. Hasegawa,52, 94 C.M. Hasnip,68 S. Hassani,71 N.C. Hastings,52 Y. Hayato,50, 86 I. Heitkamp,61
+                                             D. Henaff,71 Y. Hino,52 J. Holeczek,73 A. Holin,88 T. Holvey,64 N.T. Hong Van,102 T. Honjo,103 M.C.F. Hooft,96
+                                              K. Hosokawa,50 J. Hu,60 A.K. Ichikawa,61 K. Ieki,50 M. Ikeda,50 T. Ishida,52, 94 M. Ishitsuka,104 A. Izmaylov,22
+                                          N. Jachowicz,96 S.J. Jenkins,65 C. Jesús-Valls,86 M. Jia,91 J.J. Jiang,91 J.Y. Ji,91 T.P. Jones,53 P. Jonsson,56 S. Joshi,71
+                                                C.K. Jung,91 M. Kabirnezhad,56 A.C. Kaboth,105 H. Kakuno,59 J. Kameda,50 S. Karpova,70 V.S. Kasturi,70
+                                                                                                                      2
+
+   Y. Kataoka,50 T. Katori,90 Y. Kawamura,103 M. Kawaue,60 E. Kearns,106, 86 M. Khabibullin,22 A. Khotjantsev,22
+T. Kikawa,60 S. King,90 V. Kiseeva,5 J. Kisiel,73 A. Klustová,56 L. Kneale,54 H. Kobayashi,58 L. Koch,107 S. Kodama,58
+M. Kolupanova,22 A. Konaka,82 L.L. Kormos,53 Y. Koshio,86, 108 K. Kowalik,109 Y. Kudenko,22 Y. Kudo,72 A. Kumar
+       Jha,96 R. Kurjata,92 V. Kurochka,22 T. Kutter,62 L. Labarga,110 M. Lachat,93 K. Lachner,55 J. Lagoda,109
+   S.M. Lakshmi,73 M. Lamers James,63 A. Langella,87 D.H. Langridge,105 J.-F. Laporte,71 D. Last,93 N. Latham,90
+      M. Laveder,81 L. Lavitola,87 M. Lawe,53 D. Leon Silverio,111 S. Levorato,81 S.V. Lewis,90 B. Li,55 C. Lin,56
+      R.P. Litchfield,99 S.L. Liu,91 W. Li,64 A. Longhin,81 A. Lopez Moreno,90 L. Ludovici,112 X. Lu,63 T. Lux,78
+        L.N. Machado,99 L. Magaletti,67 K. Mahn,20 K.K. Mahtani,91 M. Mandal,109 S. Manly,93 A.D. Marino,83
+   D.G.R. Martin,56 D.A. Martinez Caicedo,111 L. Martinez,78 M. Martini,69, 113 T. Matsubara,52 R. Matsumoto,114
+    V. Matveev,22 C. Mauger,85 K. Mavrokoridis,65 N. McCauley,65 K.S. McFarland,93 C. McGrew,91 J. McKean,56
+    A. Mefodiev,22 G.D. Megias,75 L. Mellet,20 C. Metelko,65 M. Mezzetto,81 S. Miki,50 V. Mikola,99 E.W. Miller,78
+     A. Minamino,72 O. Mineev,22 S. Mine,50, 115 J. Mirabito,106 M. Miura,86, 50 S. Moriyama,86, 50 S. Moriyama,72
+     P. Morrison,99 Th.A. Mueller,74 D. Munford,32 A. Muñoz,74, 98 L. Munteanu,68 Y. Nagai,84 T. Nakadaira,52, 94
+K. Nakagiri,58 M. Nakahata,50, 86 Y. Nakajima,58 K.D. Nakamura,61 Y. Nakano,116 S. Nakayama,50, 86 T. Nakaya,60, 86
+K. Nakayoshi,52, 94 C.E.R. Naseby,56 D.T. Nguyen,117 V.Q. Nguyen,74 K. Niewczas,96 S. Nishimori,52 Y. Nishimura,118
+Y. Noguchi,50 T. Nosek,109 F. Nova,88 J.C. Nugent,56 H.M. O’Keeffe,53 L. O’Sullivan,107 R. Okazaki,118 W. Okinaga,58
+          K. Okumura,86, 100 T. Okusawa,103 N. Onda,60 N. Ospina,67 L. Osu,74 Y. Oyama,52, 94 V. Paolone,119
+          J. Pasternak,56 D. Payne,65 T. Peacock,54 M. Pfaff,56 L. Pickering,88 B. Popov,5, 69 A.J. Portocarrero
+      Yrey,52 M. Posiadala-Zezula,97 Y.S. Prabhu,97 H. Prasad,89 F. Pupilli,81 B. Quilain,74, 98 P.T. Quyen,76, 120
+   E. Radicioni,67 B. Radics,101 M.A. Ramirez,85 R. Ramsden,90 P.N. Ratoff,53 M. Reh,83 G. Reina,107 C. Riccio,91
+         D.W. Riley,99 E. Rondio,109 S. Roth,121 N. Roy,101 A. Rubbia,55 L. Russo,69 A. Rychter,92 W. Saenz,69
+      K. Sakashita,52, 94 S. Samani,70 F. Sánchez,70 E.M. Sandford,65 Y. Sato,104 T. Schefke,62 C.M. Schloesser,70
+      K. Scholberg,122, 86 M. Scott,56 Y. Seiya,103, 123 T. Sekiguchi,52, 94 H. Sekiya,86, 50 T. Sekiya,59 D. Seppala,20
+          D. Sgalaberna,55 A. Shaikhiev,22 M. Shiozawa,50, 86 Y. Shiraishi,108 A. Shvartsman,22 N. Skrobova,22
+     K. Skwarczynski,105 D. Smyczek,121 M. Smy,115 J.T. Sobczyk,89 H. Sobel,115, 86 F.J.P. Soler,99 A.J. Speers,53
+   R. Spina,67 A. Srivastava,107 P. Stowell,54 Y. Stroke,22 I.A. Suslov,5 A. Suzuki,57 S.Y. Suzuki,52, 94 M. Tada,52, 94
+  S. Tairafune,61 A. Takeda,50 Y. Takeuchi,57, 86 H.K. Tanaka,86, 50 H. Tanigawa,52 A. Teklu,91 V.V. Tereshchenko,5
+      N. Thamm,121 C. Touramanis,65 N. Tran,60 T. Tsukamoto,52, 94 M. Tzanov,62 Y. Uchida,56 M. Vagins,86, 115
+        M. Varghese,78 I. Vasilyev,5 G. Vasseur,71 E. Villa,68, 70 U. Virginet,69 T. Vladisavljevic,88 T. Wachala,66
+      D. Wakabayashi,61 H.T. Wallace,54 J.G. Walsh,20 L. Wan,106 D. Wark,88, 64 M.O. Wascko,64, 88 A. Weber,107
+R. Wendell,60 M.J. Wilking,124 C. Wilkinson,80 J.R. Wilson,90 K. Wood,80 C. Wret,56 J. Xia,125 K. Yamamoto,103, 123
+ T. Yamamoto,103 C. Yanagisawa,91, 126 Y. Yang,64 T. Yano,50 N. Yershov,22 U. Yevarouskaya,91 M. Yokoyama,86, 58
+       Y. Yoshimoto,58 N. Yoshimura,60 R. Zaki,101 A. Zalewska,66 J. Zalipska,109 G. Zarnecki,66 J. Zhang,82, 127
+   X.Y. Zhao,55 H. Zheng,91 H. Zhong,57 T. Zhu,56 M. Ziembicki,92 E.D. Zimmerman,83 M. Zito,69 and S. Zsoldos90
+                                                (The T2K Collaboration)
+                          1
+                                  Department of Physics, Erciyes University, Kayseri 38030, Turkey
+                 2
+                     Universidad del Atlantico, Carrera 30 No. 8-49, Puerto Colombia, Atlantico, Colombia
+                                    3
+                                      University of Mississippi, University, Mississippi 38677, USA
+                               4
+                                 Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+                          5
+                            Joint Institute for Nuclear Research, Dubna, Moscow region 141980, Russia
+                            6
+                              Universidad del Magdalena, Carrera 32 No 22-08 Santa Marta, Colombia
+       7
+         Department of Physics and Astronomy, University of Sussex, Falmer, Brighton BN1 9QH, United Kingdom
+                        8
+                          Department of Physics, University of Cincinnati, Cincinnati, Ohio 45221, USA
+                    9
+                      Instituto de Fı́sica, Universidade Federal de Goiás, Goiânia, Goiás, 74690-900, Brazil
+                                       10
+                                          Indiana University, Bloomington, Indiana 47405, USA
+                  11
+                     Department of Physics and Astronomy, Iowa State University, Ames, Iowa 50011, USA
+         12
+            Department of Physics and Astronomy, University of California at Irvine, Irvine, California 92697, USA
+                             13
+                                School of Physics, University of Hyderabad, Hyderabad, 500 046, India
+                             14
+                                Bandirma Onyedi Eylül University, Faculty of Engineering and Natural
+                        Sciences, Engineering Sciences Department, 10200, Bandirma, Balıkesir, Turkey
+      15
+         School of Physics and Astronomy, University of Minnesota Twin Cities, Minneapolis, Minnesota 55455, USA
+                             16
+                                Department of Physics, Panjab University, Chandigarh, 160 014, India
+                                 17
+                                    Department of Physics, IIT Guwahati, Guwahati, 781 039, India
+                           18
+                              Particle Physics Research Centre, Department of Physics and Astronomy,
+                               Queen Mary University of London, London E1 4NS, United Kingdom
+                                                                                                                           3
+
+                           19
+                                              Department of Physics, IIT Hyderabad, Hyderabad, 502 205, India
+         20
+                 Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, USA
+                          21
+                              Department of Physics, Colorado State University, Fort Collins, CO 80523-1875, USA
+22
+   Institute for Nuclear Research of Russia, Academy of Sciences 7a, 60th October Anniversary prospect, Moscow 117312, Russia
+    23
+       Physics and Astronomy Department, University College London, Gower Street, London WC1E 6BT, United Kingdom
+                               24
+                                  Department of Physics, University of Texas at Austin, Austin, Texas 78712, USA
+                       25
+                          Department of Physics, University of Wisconsin-Madison, Madison, Wisconsin 53706, USA
+                                  26
+                                     Department of Physics, William & Mary, Williamsburg, Virginia 23187, USA
+                                                  27
+                                                     Illinois Institute of Technology, Chicago IL 60616, USA
+                               28
+                                  Department of Physics and Astrophysics, University of Delhi, Delhi 110007, India
+                              29
+                                  Department of Physics, Southern Methodist University, Dallas, Texas 75275, USA
+                             30
+                                 Department of Physics, University of Virginia, Charlottesville, Virginia 22904, USA
+                                               31
+                                                  Argonne National Laboratory, Argonne, Illinois 60439, USA
+                                    32
+                                       Department of Physics, University of Houston, Houston, Texas 77204, USA
+          33
+             Department of Mathematics, Statistics, and Physics, Wichita State University, Wichita, Kansas 67260, USA
+                            34
+                               Institute of Physics, The Czech Academy of Sciences, 182 21 Prague, Czech Republic
+                             35
+                                 Department of Physics, University of South Alabama, Mobile, Alabama 36688, USA
+                     36
+                        Department of Physics and Astronomy, Tufts University, Medford, Massachusetts 02155, USA
+             37
+                Department of Physics and Astronomy, University of Minnesota Duluth, Duluth, Minnesota 55812, USA
+                    38
+                       Institute of Computer Science, The Czech Academy of Sciences, 182 07 Prague, Czech Republic
+                                        39
+                                           Department of Physics, Syracuse University, Syracuse NY 13210, USA
+          40
+             Department of Physics and Astronomy, University of South Carolina, Columbia, South Carolina 29208, USA
+                             41
+                                 Czech Technical University in Prague, Brehova 7, 115 19 Prague 1, Czech Republic
+                       42
+                          Department of Physics, Cochin University of Science and Technology, Kochi 682 022, India
+                                         43
+                                             California Institute of Technology, Pasadena, California 91125, USA
+                          44
+                              Department of Physics, University of Pittsburgh, Pittsburgh, Pennsylvania 15260, USA
+                           45
+                               National Institute of Science Education and Research, Khurda, 752050, Odisha, India
+                                                46
+                                                   Florida State University, Tallahassee, Florida 32306, USA
+                  47
+                     Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, 221 005, India
+48
+   Charles University, Faculty of Mathematics and Physics, Institute of Particle and Nuclear Physics, Prague, Czech Republic
+                                                     49
+                                                        Ohio State University, Columbus, Ohio 43210, USA
+                   50
+                      University of Tokyo, Institute for Cosmic Ray Research, Kamioka Observatory, Kamioka, Japan
+                                               51
+                                                  Faculty of Physics, University of Warsaw, Warsaw, Poland
+                                 52
+                                    High Energy Accelerator Research Organization (KEK), Tsukuba, Ibaraki, Japan
+                                        53
+                                           Lancaster University, Physics Department, Lancaster, United Kingdom
+                   54
+                      University of Sheffield, School of Mathematical and Physical Sciences, Sheffield, United Kingdom
+                                55
+                                   ETH Zurich, Institute for Particle Physics and Astrophysics, Zurich, Switzerland
+                                    56
+                                        Imperial College London, Department of Physics, London, United Kingdom
+                                                                 57
+                                                                    Kobe University, Kobe, Japan
+                                                58
+                                                   University of Tokyo, Department of Physics, Tokyo, Japan
+                                         59
+                                            Tokyo Metropolitan University, Department of Physics, Tokyo, Japan
+                                                  60
+                                                     Kyoto University, Department of Physics, Kyoto, Japan
+                                  61
+                                      Tohoku University, Faculty of Science, Department of Physics, Miyagi, Japan
+                62
+                   Louisiana State University, Department of Physics and Astronomy, Baton Rouge, Louisiana, U.S.A.
+                                     63
+                                        University of Warwick, Department of Physics, Coventry, United Kingdom
+                                          64
+                                             Oxford University, Department of Physics, Oxford, United Kingdom
+                                    65
+                                        University of Liverpool, Department of Physics, Liverpool, United Kingdom
+                                        66
+                                           H. Niewodniczanski Institute of Nuclear Physics PAN, Cracow, Poland
+       67
+          INFN Sezione di Bari and Università e Politecnico di Bari, Dipartimento Interuniversitario di Fisica, Bari, Italy
+                           68
+                               CERN European Organization for Nuclear Research, CH-1211 Genéve 23, Switzerland
+   69
+      Sorbonne Université, CNRS/IN2P3, Laboratoire de Physique Nucléaire et de Hautes Energies (LPNHE), Paris, France
+                                       70
+                                          University of Geneva, Section de Physique, DPNC, Geneva, Switzerland
+                                         71
+                                            IRFU, CEA, Université Paris-Saclay, F-91191 Gif-sur-Yvette, France
+                                      72
+                                         Yokohama National University, Department of Physics, Yokohama, Japan
+                                               73
+                                                  University of Silesia, Institute of Physics, Katowice, Poland
+                             74
+                                 Ecole Polytechnique, IN2P3-CNRS, Laboratoire Leprince-Ringuet, Palaiseau, France
+                 75
+                    Departamento de Fı́sica Atómica, Molecular y Nuclear, Universidad de Sevilla, 41080 Sevilla, Spain
+             76
+                Institute For Interdisciplinary Research in Science and Education (IFIRSE), ICISE, Quy Nhon, Vietnam
+                                                  77
+                                                     Université Paris-Saclay, F-91191 Gif-sur-Yvette, France
+                                          78
+                                             Institut de Fisica d’Altes Energies (IFAE) - The Barcelona Institute
+                                         of Science and Technology, Campus UAB, Bellaterra (Barcelona) Spain
+                              79
+                                 Departament de Fisica de la Universitat Autonoma de Barcelona, Barcelona, Spain
+                                          80
+                                             Lawrence Berkeley National Laboratory, Berkeley, California, U.S.A.
+                        81
+                           INFN Sezione di Padova and Università di Padova, Dipartimento di Fisica, Padova, Italy
+                                                                                                                      4
+
+                                   82
+                                                   TRIUMF, Vancouver, British Columbia, Canada
+                 83
+                            University of Colorado at Boulder, Department of Physics, Boulder, Colorado, U.S.A.
+                              84
+                                 Eötvös Loránd University, Department of Atomic Physics, Budapest, Hungary
+             85
+                University of Pennsylvania, Department of Physics and Astronomy, Philadelphia, Pennsylvania, U.S.A.
+                       86
+                          Kavli Institute for the Physics and Mathematics of the Universe (WPI), The University
+                           of Tokyo Institutes for Advanced Study, University of Tokyo, Kashiwa, Chiba, Japan
+                        87
+                           INFN Sezione di Napoli and Università di Napoli, Dipartimento di Fisica, Napoli, Italy
+      88
+         STFC, Rutherford Appleton Laboratory, Harwell Oxford, and Daresbury Laboratory, Warrington, United Kingdom
+                                 89
+                                    Wroclaw University, Faculty of Physics and Astronomy, Wroclaw, Poland
+                    90
+                       King’s College London, Department of Physics, Strand, London WC2R 2LS, United Kingdom
+   91
+      State University of New York at Stony Brook, Department of Physics and Astronomy, Stony Brook, New York, U.S.A.
+          92
+             Warsaw University of Technology, Institute of Radioelectronics and Multimedia Technology, Warsaw, Poland
+                   93
+                      University of Rochester, Department of Physics and Astronomy, Rochester, New York, U.S.A.
+                                           94
+                                              Japan Proton Accelerator Research Complex, Tokai, Japan
+                                   95
+                                      Miyagi University of Education, Department of Physics, Sendai, Japan
+               96
+                  Ghent University, Department of Physics and Astronomy, Proeftuinstraat 86, B-9000 Gent, Belgium
+                                          97
+                                             University of Warsaw, Faculty of Physics, Warsaw, Poland
+          98
+             ILANCE, CNRS – University of Tokyo International Research Laboratory, Kashiwa, Chiba 277-8582, Japan
+                          99
+                             University of Glasgow, School of Physics and Astronomy, Glasgow, United Kingdom
+      100
+          University of Tokyo, Institute for Cosmic Ray Research, Research Center for Cosmic Neutrinos, Kashiwa, Japan
+                          101
+                              York University, Department of Physics and Astronomy, Toronto, Ontario, Canada
+                             102
+                                 International Centre of Physics, Institute of Physics (IOP), Vietnam Academy
+                                 of Science and Technology (VAST), 10 Dao Tan, Ba Dinh, Hanoi, Vietnam
+                                   103
+                                       Osaka Metropolitan University, Department of Physics, Osaka, Japan
+         104
+             Tokyo University of Science, Faculty of Science and Technology, Department of Physics, Noda, Chiba, Japan
+                  105
+                      Royal Holloway University of London, Department of Physics, Egham, Surrey, United Kingdom
+                                106
+                                    Boston University, Department of Physics, Boston, Massachusetts, U.S.A.
+              107
+                  Institut für Physik, Johannes Gutenberg-Universität Mainz, Staudingerweg 7, 55128 Mainz, Germany
+                                       108
+                                            Okayama University, Department of Physics, Okayama, Japan
+                                            109
+                                                National Centre for Nuclear Research, Warsaw, Poland
+                       110
+                            University Autonoma Madrid, Department of Theoretical Physics, 28049 Madrid, Spain
+     111
+         South Dakota School of Mines and Technology, 501 East Saint Joseph Street, Rapid City, SD 57701, United States
+                              112
+                                  INFN Sezione di Roma and Università di Roma “La Sapienza”, Roma, Italy
+                                                         113
+                                                             IPSA-DRII, Ivry-sur-Seine, France
+                                           114
+                                               Institute of Science Tokyo, Department of Physics, Tokyo
+                115
+                    University of California, Irvine, Department of Physics and Astronomy, Irvine, California, U.S.A.
+                                       116
+                                           University of Toyama, Department of Physics, Toyama, Japan
+                                117
+                                    VNU University of Science, Vietnam National University, Hanoi, Vietnam
+                                         118
+                                              Keio University, Department of Physics, Kanagawa, Japan
+                119
+                    University of Pittsburgh, Department of Physics and Astronomy, Pittsburgh, Pennsylvania, U.S.A.
+       120
+           Graduate University of Science and Technology, Vietnam Academy of Science and Technology, Hanoi, Vietnam
+                                 121
+                                     RWTH Aachen University, III. Physikalisches Institut, Aachen, Germany
+                                122
+                                    Duke University, Department of Physics, Durham, North Carolina, U.S.A.
+                            123
+                                Nambu Yoichiro Institute of Theoretical and Experimental Physics, Osaka, Japan
+                    124
+                        School of Physics and Astronomy, University of Minnesota, Minneapolis, Minnesota, U.S.A.
+                    125
+                        SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California, U.S.A.
+126
+    Science Department, Borough of Manhattan Community College, City Univerisity of New York, New York, New York, U.S.A.
+        127
+            University of British Columbia, Department of Physics and Astronomy, Vancouver, British Columbia, Canada
+
+
+
+                      ABSTRACT                                ments also probe the mass-squared differences between
+                                                              the different neutrino mass states (∆m2 ), whether there
+   The landmark discovery that neutrinos have mass and        are two light states and a heavier one (normal ordering)
+can change type (or “flavor”) as they propagate—a pro-        or vice versa (inverted ordering), and the structure of
+cess called neutrino oscillation [1–6]—has opened up a        neutrino mass and flavor mixing [12]. Here, we carry out
+rich array of theoretical and experimental questions be-      the first joint analysis of data sets from NOvA [13] and
+ing actively pursued today. Neutrino oscillation remains      T2K [14], the two currently operating long-baseline neu-
+the most powerful experimental tool for addressing many       trino oscillation experiments (hundreds of kilometers of
+of these questions, including whether neutrinos violate       neutrino travel distance), taking advantage of our com-
+charge-parity (CP) symmetry, which has possible con-          plementary experimental designs and setting new con-
+nections to the unexplained preponderance of matter over      straints on several neutrino sector parameters. This anal-
+antimatter in the universe [7–11]. Oscillation measure-       ysis provides new precision on the ∆m232 mass difference,
+                                                                                                                        5
+
+finding 2.43+0.04       +0.03      −3
+                                      eV2 in the normal
+                              
+            −0.03 −2.48−0.04 × 10                             ments are well suited to address the above questions. In
+(inverted) ordering, as well as a 3σ interval on δCP of       these, a high-intensity neutrino beam enriched in muon
+[−1.38π, 0.30π] ([−0.92π, −0.04π]) in the normal (in-         neutrinos (νµ ) or muon antineutrinos (ν̄µ ) is produced at
+verted) ordering. The data show no strong preference          a particle accelerator and directed through the Earth’s
+for either mass ordering, but notably if inverted order-      crust towards a massive far detector located hundreds of
+ing were assumed true within the three-flavor mixing          kilometers away. Note that the word “neutrino” is used
+paradigm, then our results would provide evidence of CP       to mean both neutrino and antineutrino unless stated
+symmetry violation in the lepton sector.                      otherwise. The far detector measures the event rates of
+                                                              νµ and νe —the latter primarily from νµ →νe oscillation—
+                                                              as a function of neutrino energy, from which the oscilla-
+                         MAIN                                 tion parameters above can be determined. These experi-
+                                                              ments employ near detectors, sited a short distance from
+   The Standard Model of particle physics, extended to        the beam source, where oscillation effects are negligible
+include neutrino mass, describes three flavor eigenstates     and a very high neutrino event rate can be measured.
+of neutrinos (νe , νµ , ντ ) that are related to three mass   The near detectors provide vital control measurements
+eigenstates (ν1 , ν2 , ν3 ) by a 3×3 complex unitary mixing   that significantly mitigate large systematic uncertainties
+matrix UPMNS [15–17]. This mixing, together with non-         in the initial neutrino flux, neutrino-on-nucleus interac-
+zero neutrino mass, allows for the phenomenon of neu-         tion cross sections, and in some cases detector response
+trino oscillation whereby, during propagation, the flavor     (e.g., energy reconstruction and event selection efficien-
+content of a neutrino evolves at a rate that depends on       cies).
+neutrino mass-squared splittings (∆m2ij ≡ m2i − m2j ) and        Two such experiments are in operation today, T2K
+the UPMNS matrix elements. In addition to these oscilla-      and NOvA. Each experiment uses a narrow-band off-axis
+tion parameters, the rate depends on neutrino energy Eν       beam [23, 24] whose peak      energy
+                                                                                                   is near the first os-
+                                                                                               2
+and neutrino propagation distance L (“baseline”). While       cillation maximum, sin     2 ∆m32 L
+                                                                                                    ≈ 1, at the far de-
+                                                                                              4E
+experiments studying this process in recent decades have
+                                                              tector. Note that natural units, where h̄ = c = 1, are
+yielded great insights into the details of neutrino masses
+                                                              used throughout. T2K uses an ∼0.6 GeV neutrino beam
+and mixings [12], many open questions remain.
+                                                              from J-PARC in Tokai, Japan, and the 50-kt Super-
+   The mixing matrix UPMNS is typically parameterized
+                                                              Kamiokande water Cherenkov detector for its far detector
+in terms of three mixing angles (θ12 , θ13 , θ23 ) and at
+                                                              located 295 km away [25]. In the U.S., NOvA’s ∼2 GeV
+least one complex phase δCP [12]. It is unknown whether
+                                                              beam is produced at Fermilab near Chicago, and the 14-
+sin δCP is non-zero; if it is, neutrinos—and thus leptons—
+                                                              kt tracking calorimeter far detector is located 810 km
+violate charge-parity (CP) symmetry and thereby pro-
+                                                              away in northern Minnesota [26]. Additional details on
+vide a source of matter/antimatter asymmetry in na-
+                                                              the designs of NOvA, T2K, and on long-baseline exper-
+ture [17], which is of great interest given the connection
+                                                              iments generally can be found in the Methods and in
+between CP violation and the unexplained matter dom-
+                                                              Refs. [25–27].
+inance in the universe [7–11]. Separately, oscillation ex-
+periments have established that the mass-squared split-          We report here a combined analysis of the data sets
+ting ∆m232 is roughly thirty times larger in magnitude        from T2K and NOvA previously analyzed independently
+than ∆m221 , but the sign of the former is currently un-      in Refs. [13, 14]. This combination takes advantage of
+known. That is, ν3 may be heavier or lighter than the         significant complementarity in the two experiments’ sen-
+ν1 /ν2 pair, with these two options termed respectively       sitivities to the oscillation parameters. In particular, the
+the normal (∆m232 >0) and inverted (∆m232 <0) mass or-        νµ →νe oscillation probability is a function of (among
+derings. Knowledge of the mass ordering can constrain         other things) both δCP and the neutrino mass ordering,
+experimental searches and theory development in a wide        and these two effects must be teased apart.
+range of physics, including absolute neutrino mass mea-          Figure 1 illustrates the complementarity between the
+surements [18], neutrinoless double beta decay searches       experiments in a simplified case. Sets of oval curves in-
+to investigate the nature of neutrino mass [19], models of    dicate the energy-integrated total νe and ν̄e event counts
+supernova explosion and detection [20, 21], and the cos-      expected in the far detectors under various mass ordering
+mological evolution evidenced in cosmic microwave back-       and δCP scenarios, with other oscillation parameters held
+ground and large scale structure measurements [22]. For       fixed. The measured event counts in NOvA and T2K are
+the mixing angles, current data suggest θ23 is near 45◦ ,     shown as black points with error bars.
+a notable value hinting at a µ/τ flavor symmetry [17].           As shown in the top panel, there is stronger separa-
+Improved precision on this and other mixing angles is es-     tion between the mass ordering ovals for NOvA, due to
+sential in gaining a clearer view of flavor mixing and to     higher beam energies, but since NOvA’s data lie near
+probe the validity of the three-flavor paradigm.              the overlap of the ellipses, there can be ambiguity as to
+   Long-baseline accelerator neutrino oscillation experi-     which ordering is the correct one and (in a correlated
+                                                                                                                             6
+
+                                                                   neutrino energy estimators, near detector measurements,
+                                                                   and systematic uncertainties, all within a unified frame-
+                                               Normal              work for statistical inference. This level of integration is
+                                               Inverted            a first for accelerator neutrino experiments.
+                                               Data                   The posterior calculation is based on detailed parame-
+                40                                                 terized models of the neutrino flux, cross sections, and de-
+                                                                   tectors that predict the binned spectra of neutrino events
+                                                                   in each of our selected samples as a function of the os-
+
+
+
+
+νe candidates
+                                                                   cillation parameters and a large number of nuisance pa-
+                                                                   rameters mostly related to systematic uncertainties in
+                30                                                 the models. A likelihood is constructed from Poisson
+                     NOvA                             a
+                                                                   probability terms describing the compatibility between
+                                                                   the prediction and the observed data in bins of relevant
+                     T2K                              b            variables. Prior probabilities are set on all parameters as
+                                                                   detailed in the Methods.
+                20                                                    Both T2K and NOvA have software that explores
+                                                                   the posterior using Markov chain Monte Carlo (MCMC)
+                                                                   methods [28, 29] (ARIA for NOvA [30] and MaCh3 for
+                       δ CP = -π/2                                 T2K [31]). By containerizing [32] the likelihood and prior
+                       δ CP = 0                                    portions of the code, we are able to construct and ana-
+                10     δ CP = π/2                                  lyze the joint posterior using either of the original MCMC
+                                                                   frameworks, despite the very different software environ-
+                       δ CP = π
+                                                                   ments involved. For each fitting framework, ARIA or
+                                                                   MaCh3, the fitter’s native likelihood and priors are cal-
+                      60         80      100          120          culated directly while the other experiment’s likelihood
+                               νe candidates                       and priors are accessed via the software container. In
+                                                                   this way, either framework can be used, providing valu-
+FIG. 1. The impact of mass ordering and δCP on event               able redundancy and thus cross checks of all statistical
+rates. A “bi-event” plot that illustrates experimental sensi-      inferences.
+tivity to neutrino mass ordering and δCP , with panels repre-         While a single set of oscillation parameters naturally
+senting the NOvA (a) and T2K (b) cases. Black points with          applies to both experiments in the joint posterior, the
+1σ Poisson statistical error bars show the total number of νe      treatment of the many nuisance parameters related to
+and ν̄e candidates selected in the far detectors. The oval para-
+                                                                   systematic uncertainties is more subtle. Both measure-
+metric curves trace out predicted numbers of events under the
+normal (blue) or inverted (orange) mass ordering assumption        ments of the oscillation parameters currently have sta-
+as the parameter δCP varies from −π to π. Four specific δCP        tistical uncertainties larger than the systematic uncer-
+values are labeled for reference. All other oscillation parame-    tainties, but the latter are not negligible. We thoroughly
+ters are kept fixed in this graphic, set to their most probable    surveyed the flux, cross-section, and detector models and
+values from the joint analysis (Extended Data Table III.)          their systematic uncertainties to determine whether cor-
+                                                                   relations between the experiments affect the analysis at
+                                                                   a significant level. Our conclusions from this effort are
+way) which values of δCP are preferred. In contrast, T2K           summarized in the following paragraphs.
+has less sensitivity to the mass ordering, but points with            Both T2K and NOvA use beams produced by di-
+similar values of δCP in each hierarchy sit close to one           recting accelerated protons onto graphite targets. The
+another, and the data lie closest to δCP = − π2 regard-            hadrons are charge selected with magnetic horns: posi-
+less of mass ordering. Combining these data sets can               tively charged hadrons decay to produce neutrinos and
+provide simultaneous mass ordering and δCP information             negatively charged to produce antineutrinos. Many un-
+with substantially less ambiguity, maximizing the utility          certainties on these beam fluxes stem from processes un-
+of current data and informing data-taking strategies for           related between the two experiments, e.g., alignment of
+current and future experiments.                                    beam components. Yet, uncertainties on the rate of
+   This discussion points to a more general observation            hadron production in the graphite targets are significant,
+that the oscillation parameters of interest represent a            and the underlying physics is the same. However, the
+highly correlated multidimensional space. The analysis             two experiments use proton beams of different energies
+reported here calculates a joint Bayesian posterior, using         (30 GeV for T2K, 120 GeV for NOvA), and the external
+the experiments’ likelihoods defined over the full parame-         data sets used to tune the hadron production models of
+ter space. Additionally, we utilize the full suite of analysis     both experiments are different [33–35]. Additionally, the
+tools from both experiments: detector response models,             ultimate impact of flux uncertainties on far detector pre-
+                                                                                                                      7
+
+dictions in NOvA is much smaller than other uncertain-       fects from a mix of systematic parameter variations that
+ties. We therefore conclude that at current experimental     combine to produce a net effect that is larger and possi-
+exposures the two experiments’ flux uncertainties need       bly more degenerate with oscillation effects, representing
+not be correlated.                                           a potential worst-case scenario for the analyses. Rather
+   Given the different detector technologies involved,       than seeking such a set of variations, we directly iden-
+most detector-related uncertainties are independent be-      tified, or in some cases constructed, single systematic
+tween the experiments. Furthermore, the very different       parameters for each experiment that have effects simi-
+energy estimation techniques used, combined with model       lar to each oscillation parameter of interest. We then
+tuning and uncertainty estimation using in-situ calibra-     adjusted the size of the priors on these “nightmare” pa-
+tion samples in each experiment, including for the lep-      rameters such that their impact on the measurements
+ton and neutron energy scales, leads to independence be-     is comparable to that of statistical errors and therefore
+tween the two detector uncertainty models. We conclude       larger than the net effect of all our regular systematic
+that there are no significant correlations in the detector   parameters combined. These nightmare parameters were
+models.                                                      added to our nominal uncertainty models to create “aug-
+   For neutrino-on-nucleus cross sections, the underlying    mented models” allowing us to study a case where sys-
+physics is the same, and in many cases the same external     tematic effects are comparable to statistical uncertainty.
+data sets are used by both experiments to tune and set       Next, we constructed simulated pseudo-data sets with
+prior uncertainties on model parameters. Thus, cross-        the nightmare parameters increased in both experiments
+section model correlations are expected. However, in the     by one standard deviation above their prior central val-
+specific case of NOvA and T2K, the description of this       ues. These simulated pseudo-data were then fit three
+physics differs in significant ways. The simulation pack-    times using the augmented model: once with the experi-
+ages differ [36, 37], the physical models implemented in     ments’ nightmare parameters fully correlated (matching
+them differ in many places, the parameterizations dif-       the pseudo-data), once fully anticorrelated, and finally
+fer almost entirely, and customized tunings are necessary    uncorrelated. We find that the oscillation parameter con-
+and applied given the experiments’ specific energies, de-    straints extracted in the fully correlated and uncorrelated
+tector technologies, and approaches to systematic uncer-     cases have negligible differences. However, the incorrect
+tainty mitigation.                                           anticorrelated case yields a large bias. We expect that
+   Proper correlations between experiments could be im-      with even larger systematic uncertainties, differences be-
+plemented by starting from a common cross-section            tween the correlated and uncorrelated case would eventu-
+model spanning different energy ranges and able to de-       ally become relevant. However, this study indicates that
+scribe both the leptonic and hadronic parts of the final     we are not in such a regime with the current exposures
+state. Such a joint description is not yet mature and        and systematic uncertainties. See Methods for further
+is one of the focuses of the community in the years to       results.
+come [38]. Given the differences in the models, a direct        Given that no significant biases are seen from neglect-
+mapping of their parameters was deemed not practical at      ing correlations between actual systematic parameters,
+this time. Instead, we studied whether neglecting these      and the only bias seen with the nightmare parameters
+correlations could appreciably affect our measurements       comes not from neglecting a correlation but by adding
+of the oscillation parameters. The studies are limited       an incorrect one, we choose in most cases to neglect the
+to our current experimental exposures and models and         correlations between the two experiments’ systematic un-
+would need reevaluation if applied to any other context.     certainties. The one exception relates to the ≈ 2% nor-
+   First, we assessed whether correlations between sin-      malization uncertainties on all νe and ν̄e events described
+gle systematic parameters in our models could have a         in [39]. In this case, the uncertainties are implemented
+significant impact on our results. For each of ∆m232 ,       identically by T2K and NOvA, and we have correlated
+θ23 and δCP , we identified the systematic parameter on      them.
+each experiment with the largest impact on that oscil-          We also perform studies wherein the joint fit is tested
+lation parameter’s measurement. Then, regardless of          against pseudo-data constructed with a set of discrete
+whether those two systematic parameters made physical        model variations not directly accessible using the experi-
+sense to correlate, we performed fits to simulated pseudo-   ments’ nominal uncertainty models. This procedure was
+data with the parameters fully correlated, uncorrelated,     used in the earlier independent T2K analysis [14], and
+and fully anticorrelated. Details of these studies includ-   we include in the present analysis those model variations
+ing how we identified the most impactful parameters are      seen as most impactful previously. Similarly, we stud-
+shown in the Methods. In summary, we saw no case             ied a secondary set of variations based on extrapolating
+where the choice of correlation of individual systematic     each experiment’s cross-section model to the other ex-
+parameters significantly affected the oscillation parame-    periment’s context. Predefined thresholds were used to
+ter measurements.                                            establish that no substantive changes in the oscillation
+   Checking individual parameters does not rule out ef-      parameters’ central values or interval widths were seen
+                                                                                                                               8
+
+under these tests, as described in the Methods. For all                                 Inverted ordering
+tested alternative models, all observed changes in cred-       NOvA+T2K                                             2.48 +0.04
+                                                                                                                         −0.03 1.4%
+
+ible intervals were within thresholds. See Methods for         T2K                                                  2.53 ±0.05 2.0%
+further details. Each experiment naturally continues to        NOvA                                                 2.44 ±0.05 2.0%
+investigate improvements in their cross-section models,        MINOS+                                               2.45 +0.07
+                                                                                                                         −0.08 3.1%
+and the studies described here would warrant repeating         IceCube                                              2.40 +0.05
+                                                                                                                         −0.04 1.9%
+for larger data exposures and/or updated theoretical un-       SuperK+T2K                                           2.48 ±0.06 2.4%
+derstanding. Continued theoretical and experimental ef-        SuperK                                               2.48 +0.06
+                                                                                                                         −0.12 3.6%
+fort in this direction is important.                           Daya Bay nGd                                         2.571±0.060 2.3%
+   With the joint likelihood and systematic uncertainty        RENO      nGd                                        2.62 +0.11
+                                                                                                                         −0.12 4.4%
+model defined, we use our fitting frameworks to analyze        Daya Bay nH                                          2.83 +0.14
+                                                                                                                         −0.15 5.1%
+the combined data sets of Refs. [13, 14], finding consis-                         2.4           2.6        2.8
+tent results between the two frameworks. Unless stated                                     2
+                                                                                        |∆m32 | (10−3 eV2)
+otherwise, we report results using an external constraint
+on θ13 (named the “reactor constraint” below) and ex-          FIG. 2. Experimental measurements of |∆m232 |. The
+ternal constraints on ∆m221 and θ12 . The values used for      measurements assume the inverted ordering preferred by this
+these constraints correspond to the 2020 Particle Data         analysis. Sources for the results from top to bottom starting
+Group summary values [40] and are given in Methods.            with the second line are as follows: [13, 14, 42–48]. The normal
+                                                               ordering case is available in Extended Data Fig. 9.
+   We tested the goodness-of-fit (see Methods) of our
+model to data using the p-value method [41], both overall
+and for each individual sample in the far detectors. All
+                                                               oscillation parameters are more consistent in the inverted
+the p-values are within an acceptable range (>0.05 af-
+                                                               ordering, leading to a different ordering preference in the
+ter the look-elsewhere-effect adjustment described in the
+                                                               joint fit, though still not statistically significant. The
+Methods). The overall p-value to describe all NOvA and
+                                                               effect on mass ordering preference when additionally in-
+T2K samples is 0.75 (0.40) for full spectral (rate-only)
+                                                               corporating reactor ∆m232 measurements is discussed in
+analysis, marginalized over both mass orderings. Similar
+                                                               the Methods.
+results were obtained without the reactor constraint and
+                                                                  With no assumption on the true mass ordering,
+in each mass ordering. Thus the joint oscillation model
+                                                               we find the 1σ credible interval on δCP to contain
+simultaneously fits T2K and NOvA data well. The p-
+                                                               [−0.81π, −0.26π] with the highest posterior probability
+values are also consistent with those of previous T2K-
+                                                               value being −0.47π. We also find that values of δCP
+only and NOvA-only analyses.
+                                                               around +π/2, an extremum of sin δCP , are outside our
+   We produce parameter estimations via highest-               3σ (99.73%) credible intervals, which also holds for either
+posterior-density credible intervals and perform discrete      mass ordering separately. Figure 3 shows the joint fit re-
+hypothesis tests using the Bayes factor formalism. Con-        sult compared to NOvA and T2K’s individual measure-
+clusions related to CP conservation/violation, ∆m232 ,         ments in the sin2 θ23 -δCP plane as well as 1D uniformly
+sin2 θ23 and mass ordering have been tested to be robust       binned posterior probability distributions for both mass
+under the alternative model variations described previ-        ordering cases. Assuming the normal ordering, the joint
+ously. For the measured oscillation parameters we report       analysis allows a wide range of δCP values giving a 3σ
+1σ (68.27%) credible intervals unless noted.                   credible interval of δCP ∈ [−1.38π, 0.30π]. In the case of
+   We find sin2 θ23 = 0.56+0.03
+                            −0.05 without any assumptions      the inverted ordering δCP ∈ [−0.92π, −0.04π], excluding
+on the ordering of the neutrino masses. The fit weakly         56% of the parameter space; the CP-conserving values of
+prefers the upper octant of θ23 (sin2 θ23 > 0.5) over          δCP = 0 and π are outside the 3σ credible interval. A
+the lower octant with a Bayes factor of 3.5. Remov-            consistent picture is seen when analyzing the Jarlskog in-
+ing the reactor constraint gives no statistically signifi-     variant, JCP [49], which is a parametrization-independent
+cant preference for either octant (Bayes factor 1.2 for        measure of CP-violation. The CP-conserving value of
+lower octant vs upper octant). We also find ∆m232 =           JCP = 0 falls outside the 3σ credible interval for the
+2.43+0.04          +0.03
+     −0.03 −2.48−0.04 × 10
+                               −3
+                                  eV2 assuming the normal      inverted ordering, and the above statements are true
+(inverted) ordering. This is currently the smallest exper-     whether the prior used is uniform in δCP or sin δCP
+imental uncertainty on |∆m232 | (Fig. 2). This conclusion      (Fig. 4). This analysis therefore provides evidence for
+also applies when the reactor constraint is replaced by a      CP violation in the lepton sector if the inverted ordering
+flat prior.                                                    is assumed to be true. However, we do not currently see
+   There is no statistically significant preference obtained   a significant preference for either mass ordering. Future
+for either of the mass orderings with a Bayes factor of        mass ordering measurements will therefore influence the
+1.3 (2.5) in favor of the inverted ordering with (without)     interpretation of these results. See Methods for addi-
+reactor θ13 constraint. While the two experiments indi-        tional data projections and comparisons.
+vidually prefer the normal ordering, the values of other
+                                                                                                                                                                   9
+
+
+
+                                                     Normal Ordering                                                        Inverted Ordering
+                                              10−1                                                                                              10−1
+                                                                                             d          e
+                                           10−2                                                                                                 10−2
+                               Posterior
+                               Probability 10−3                                                                                                 10−3
+                                              10−4                                                                                              10−4
+                             10−110−210−310−4                                                                                                     10−410−310−2 10−1
+
+                        0.6
+
+
+
+
+sin2 θ 23               0.5
+
+                                                                                                                                T2K-only 1σ
+                                                                                                                                NOvA-only 1σ
+                        0.4                               NOvA+T2K:         1σ     2σ     3σ             1σ      2σ    3σ
+                                              c       a                                                                                     b     f
+                                                           −π           0         +π                             −π         0        +π
+                                                            2                      2                              2                   2
+                                                                                                 δ CP
+
+FIG. 3. Constraints on sin2 θ23 and δCP . Marginalized posterior probabilities and 1D or 2D Bayesian credible regions of
+sin2 θ23 and δCP in the case of the normal (blue, left side) and inverted (orange, right side) neutrino mass ordering with the
+reactor constraint applied. Shaded areas correspond to 1σ, 2σ, and 3σ credible regions. 2D panels of sin2 θ23 vs δCP (a, b) are
+overlaid with 1σ credible regions from the T2K-only (dark red) and NOvA-only (dark blue) data fits assuming normal (a) and
+inverted ordering (b). 1D panels show the posterior probabilities of sin2 θ23 (c) and δCP (d) in the normal ordering, and δCP
+(e) and sin2 θ23 (f) in the inverted ordering.
+
+
+
+
+                                    Normal Ordering                                                                                         Inverted Ordering
+
+                             10−1                                           1σ   2σ     3σ                  1σ   2σ    3σ                                       10−1
+
+                             10−2                                                                                                                               10−2
+
+
+
+
+     Posterior Probability
+                             10−3                                                                                                                               10−3
+
+                             10−4    Flat in δ CP                                                       Flat in δ CP                                            10−4
+                                                                                          a                                                             c
+                             10−4    Flat in sin(δ CP)                                    b             Flat in sin(δ CP)                               d       10−4
+
+                             10−3                                                                                                                               10−3
+
+                             10−2                                                                                                                               10−2
+
+                             10−1                                                                                                                               10−1
+                                             −0.05                    0                      0.05           −0.05                       0                   0.05
+                                                          J CP = sin(θ 13) cos2(θ 13) sin(θ 12) cos(θ 12) sin(θ 23) cos(θ 23) sin(δ CP)
+
+FIG. 4. Constraints on the Jarlskog invariant. Marginalized posterior probabilities of the Jarlskog invariant, JCP , in the
+case of the normal (blue; a, b) and inverted (orange; c, d) neutrino mass ordering with the reactor constraint applied. The
+posterior distributions use prior distributions either flat in δCP (a, c) or sin δCP (b, d). Shaded areas show the 1σ, 2σ, and 3σ
+Bayesian credible intervals.
+                                                                                                                       10
+
+                       METHODS                                 ther into νµ /ν̄µ charged current and νe /ν̄e charged cur-
+                                                               rent candidate samples using a convolutional neural net-
+                The NOvA Experiment                            work [51] whose inputs are the calibrated event images
+                                                               recorded by the detector cells. Subsequent reconstruc-
+                                                               tion of tracks and showers within each event provide kine-
+   The NOvA experiment measures neutrino oscillations          matic information such as estimated neutrino energy. Far
+using two detectors of functionally identical construction     detector νµ /ν̄µ samples are analyzed in bins of neutrino
+located along the NuMI neutrino beam [50] produced at          energy and hadronic energy fraction. The νe /ν̄e samples
+Fermi National Accelerator Laboratory (Fermilab).              are analyzed in bins related to event containment, event
+   The smaller 0.3-kt near detector is located on the Fer-     classification score, and neutrino energy. More details on
+milab campus 1 km downstream from the neutrino pro-            the analysis techniques, simulation packages, systematic
+duction target, while the 14-kt far detector is located        uncertainties, and the overall NOvA experimental design
+810 km away in northern Minnesota. The detectors               can be found in Ref. [13] and the references therein.
+themselves are highly segmented tracking calorimeters
+consisting of long PVC cells filled with a mineral-oil-
+based liquid scintillator. Each cell measures 6.6 cm ×                          The T2K Experiment
+3.9 cm in cross section, runs the full height or width of
+the detector (15.5 m for the far detector and 3.9 m for the       The T2K experiment is composed of the J-PARC neu-
+near detector), and is instrumented with a wavelength-         trino beam, a near site with multiple detectors, and the
+shifting fiber and avalanche photodiode to detect the          water Cherenkov detector Super-Kamiokande (SK) as the
+scintillation light produced when charged particles pass       far detector. Full details of the experiment can be found
+through the cell. The cells are arranged in a series of        in Ref. [25].
+layers, each with either horizontal or vertical orienta-          The primary detector at the near site, 280 m from the
+tion, with the direction alternating between layers to         target, is a magnetized off-axis (centered at 43.6 mrad)
+provide 3D event reconstruction. This segmented de-            tracking detector called ND280. While taking the data
+sign offers the excellent muon and electron classification     used in this analysis, ND280 consisted of a π 0 detector
+needed for tagging the incoming neutrino flavor. In par-       followed by a tracker consisting of three time-projection
+ticular, electromagnetic showers at typical NOvA ener-         chambers (TPCs) interleaved with two hydrocarbon fine-
+gies are much larger than the detector cell widths and         grained detectors (FGD1 and FGD2), all surrounded by
+thus are well-imaged and distinct from many potential          an electromagnetic calorimeter. The stability and direc-
+backgrounds. NOvA’s detectors are centered 14.6 mrad           tion of the neutrino beam are monitored using the on-axis
+off the NuMI beam’s central axis, yielding a narrow-band       near detector INGRID.
+neutrino beam peaked at 1.8 GeV.                                  SK is situated 295 km downstream of the neutrino pro-
+   As is typical for particle physics experiments, NOvA        duction target, 43.6 mrad off-axis, and contains 50 kt of
+makes use of detailed simulations of beam production,          water. An inner detector (ID) using 11,129 inward-facing
+neutrino interaction physics, and detector response as         20-inch photomultiplier tubes (PMTs) detects Cherenkov
+part of the analysis. Given the matching near and far          radiation from charged particles traversing the detector.
+detectors, NOvA forms its oscillation-dependent predic-        An optically separated outer detector uses 1885 outward-
+tions of the far detector event rates directly from data       facing 8-inch PMTs to reject interactions originating out-
+using the millions of neutrino interactions recorded in        side the ID volume. SK is able to discriminate between
+the near detector. This near-to-far “extrapolation” pro-       electrons and muons by their Cherenkov ring profiles.
+cess is carried out as a function of multiple kinematic           T2K uses a “forward-fitting” analysis strategy. First, a
+and event classification variables. Uncertainties from the     model that predicts the event spectra at the near and far
+simulations have greatly reduced impact as they enter the      detectors is defined and tuned to external experimental
+oscillation fit only to the extent that they affect the map-   data. The predictions are generated by simulating the
+ping between expected near and far event rates, not the        neutrino flux and cross section as well as the detector
+individual detectors’ event rates themselves. Uncertain-       response. The model, with variable parameters, is fit to
+ties on the simulations are taken as the a priori uncertain-   the ND280 data to obtain tuned values of the parameters
+ties from, for instance, the external model constraints or     with uncertainties. The constrained model resulting from
+other external data and are supplemented by additional         this near detector fit is then used to make SK predictions,
+model uncertainties where a priori coverage was deemed         which are fit to the SK data to extract oscillation param-
+unsatisfactory.                                                eters. Complete details for this analysis, including model
+   Far detector data are fitted to the corresponding far       details, are in Ref. [14].
+detector predictions to extract oscillation parameter con-        T2K splits data at the near and far detectors into
+straints. These data are separated by beam mode (i.e.,         mutually exclusive samples defined by particle identifi-
+neutrino- or antineutrino-dominated running) and fur-          cation in each beam mode. At ND280, events are cate-
+                                                                                                                      11
+
+gorized into 18 samples, nine samples in each of FGD1         the other hand, T2K uses thin and replica-target data
+and FGD2. In neutrino-mode, data with one negatively          from NA61/SHINE to reweight the multiplicities of par-
+charged muon is split into three samples in each FGD          ticles exiting the target. Given these differences in data
+corresponding to the number of pions (0, 1, or >1). In        collection and tuning methodology, and given that flux
+antineutrino mode data are first split by whether a neg-      uncertainties have greatly suppressed influence after ND
+atively or positively charged muon is present, and then       data constraints are considered, there is no expectation
+divided by number of pions as in the neutrino-mode data,      of significant correlations between flux systematic param-
+forming six samples in each FGD. For all samples, the         eters for NOvA and T2K in the joint fit.
+data are fit in a 2D space of the muon momentum and
+the angle between the muon and the average beam direc-
+tion. The exclusive samples allow the near detector fit to              Correlations in Detector Modeling
+better constrain parameters related to different neutrino-
+nucleus interaction modes. At SK, the data are divided           The experiments use different detector technologies as
+into three samples in neutrino-mode: 1-ring muon-like, 1-     well as strategies for forming data samples, which re-
+ring electron-like, and 1-ring electron-like with one decay   moves most opportunities for correlation. However, the
+electron; in antineutrino mode, only the 1-ring muon-like     modeling of particle propagation through the detectors
+and 1-ring electron-like samples are used. The data are       derives from the same underlying physics. This propaga-
+binned in reconstructed neutrino energy. All electron-like    tion is called secondary interaction (SI), and the case of
+samples are additionally binned in a second dimension,        pion SI is noteworthy, as this process is expected to occur
+the angle between the reconstructed electron direction        in both experiments and for T2K is an important effect.
+and the beam direction.                                       T2K’s selection uses exclusive samples where a change in
+   Detector systematic uncertainties are evaluated using      reconstructed pion multiplicity can cause migration be-
+a variety of sideband samples and calibrations, covering      tween samples. NOvA, on the other hand, uses inclusive
+effects such as particle identification, particle momentum    selections, and pion SI has minimal effect on NOvA’s
+reconstruction, secondary particle interactions, and fidu-    calorimetric energy estimation. Thus, we do not expect
+cial volume effects.                                          significant correlations due to pion SI.
+
+
+            Correlations in Flux Modeling                          Tests of Individual Parameter Correlations
+
+   The modeling of the neutrino flux depends on many             Neutrino-on-nucleus scattering plays a central role in
+details relating to the incident proton beam, the hadron      both experiments, but the modeling of this physics has
+production target, and the magnetic focusing horns. As        significant differences between the two individual anal-
+these details are specific to each experiment, flux sys-      yses. These differences, together with the presence of
+tematic uncertainties due to magnetic field variations,       different nuclear targets, neutrino energies, and near de-
+component alignment, and other beamline properties are        tector strategies, means that direct estimation of system-
+uncorrelated between the experiments.                         atic uncertainty correlations in the neutrino scattering
+   The only possible correlation identified was the pion      models is highly non-trivial. As part of this analysis,
+and kaon production models and the use of hadron in-          we tested how significant inter-experimental systematic
+teraction experiments to tune them [52, 53]. In the           uncertainty correlations could be, starting by identifying
+case of NOvA, the primary data are from the NA49              T2K’s and NOvA’s most impactful systematic uncertain-
+experiment [33], which collected thin-target (slices of       ties and exploring correlations between them.
+the target material) data at 158 GeV/c, which is then            To determine an impactful systematic parameter, we
+scaled to the NuMI beam energy. The NA61/SHINE ex-            carry out a fit to pseudo-data generated with all parame-
+periment, which collected data for T2K, uses some of          ters at their prior values from our nominal model. Then
+the same detectors and the same beamline as NA49.             for each parameter in turn, we reweight all steps from the
+NA61/SHINE [34, 35] collected both thin-target and            obtained MCMC chain to have a tight (“shrunk”) prior
+replica-target (a full-sized target) data for T2K at          for that parameter around a different value (“pulled”)
+31 GeV/c, the J-PARC beam momentum. Checking the              to that used to generate the pseudo-data and study the
+consistency of the NA49 and NA61/SHINE data used is           change in the extracted oscillation parameter intervals.
+difficult since the data are collected at different beam      This procedure mocks up the result of an external exper-
+energies.                                                     iment providing a strong constraint on each systematic
+   The NOvA experiment primarily uses thin-target             parameter at a different value to that preferred by sim-
+NA49 hadron production data to tune the particle mul-         ulated pseudo-data. This “shrink and pull” study allows
+tiplicities, reweighting interactions and particle propaga-   for assessing the single-parameter impact on the system-
+tion inside the target and other beamline materials. On       atic uncertainty and the estimated credible intervals of
+                                                                                                                        12
+
+                                                                the respective collaborations and are given in Extended
+Extended Data Table I. Default oscillation parameters
+for simulation. Sets of oscillation parameter values used to
+                                                                Data Table I.
+generate pseudo-data. For all sets, sin2 θ13 is 2.18 × 10−2 ,     As an example, Extended Data Fig. 1 shows the re-
+∆m221 is 7.53 × 10−5 eV2 , and sin2 θ12 is 0.307.               sults in terms of the posterior probability distributions
+                                                                and credible regions of the parameters of interest from
+                   T2K-like NOvA-like NuFit-like                the set of fits with the largest single-parameter impact
+    ∆m 232 (eV2 ) 2.51 × 10−3 2.41 × 10−3 −2.45 × 10−3          on sin2 θ23 . We conclude that the choice of correlation
+    sin2 θ23         0.528       0.570       0.550              between single parameters does not significantly change
+    δCP             −0.51π       0.83π      −0.50π              the oscillation parameter constraints derived from the
+                                                                current version of the joint analysis.
+
+the individual neutrino oscillation parameters’ measure-
+ment.                                                                          “Nightmare” Parameters
+   First, we identify both NOvA’s and T2K’s systematic
+parameters with the largest impact on δCP , sin2 θ23 and           As described in the main text, we study correlations
+∆m232 in the joint fit.                                         in more extreme situations using so-called “nightmare”
+   For both experiments the largest change in δCP cred-         parameters, which are either artificially constructed pa-
+ible interval comes from uncertainties on νe and ν̄e nor-       rameters or existing parameters with highly inflated un-
+malizations. As discussed, these uncertainties are im-          certainties chosen to be deliberately problematic for the
+plemented identically in both experiments, and we have          individual analyses. The parameters’ prior uncertain-
+correlated them in the joint analysis. No additional in-        ties are set so that they are comparable in impact to
+teraction uncertainties in our models have any significant      the statistical uncertainties on the measurements under
+impact on the resulting credible intervals of δCP .             study. We carry out this procedure separately for sim-
+   For sin2 θ23 , all the individual interaction systematic     ulated measurements of ∆m232 and θ23 . No nightmare
+parameters have very small effects, changing the width          study was carried out for δCP as its total systematic un-
+of the 1σ interval by less than 2% when shrunk by 50%           certainty compared to the statistical uncertainty is much
+and pulled 1σ away from the nominal value. The largest          smaller than for the other two cases.
+change in credible interval comes from the uncertainty on          We construct pseudo-data sets with both the NOvA
+neutron visible energy for NOvA and 2p2h C/O cross-             and T2K nightmare parameters shifted by one standard
+section scale for T2K (2p2h C/O cross-section scale al-         deviation from their prior values, inducing a systematic
+lows the 2p2h cross-section on carbon to differ from that       bias representing a simultaneous and coordinated shift
+for oxygen). For ∆m232 , all the individual interaction pa-     in both NOvA and T2K data. We fit this pseudo-data
+rameters have a negligible effect on the resulting ∆m232        while treating the NOvA and T2K nightmare parame-
+credible intervals. Hence, we widened the list of con-          ters as either fully correlated, uncorrelated, or anticor-
+sidered parameters and identified NOvA’s calorimetric           related. The results of the nightmare parameters corre-
+energy scale uncertainty and T2K’s SK energy scale un-          lation study are presented as 1σ credible 2D regions of
+certainty as the most impactful for ∆m232 .                     ∆m232 -sin2 θ23 in Extended Data Fig. 2 for both night-
+   Second, despite there being no a priori reason to expect     mare scenarios. We conclude that there is no significant
+correlations between these specific parameters, we test         difference in treating the nightmare parameters as either
+whether or not correlating the most impactful T2K pa-           fully correlated (matching the pseudo-data) or uncorre-
+rameter with the most impactful NOvA parameter mod-             lated between the experiments, while the incorrect anti-
+ifies oscillation parameter constraints in the joint fit in     correlated case yields a clear bias. We note that these are
+a significant way. We simulate pseudo-data to which we          not general conclusions but are specific to the T2K and
+perform a joint fit while treating the T2K and NOvA             NOvA analysis versions and cumulative beam exposures
+parameters described above as either uncorrelated, fully        used here. The construction of the nightmare parameters
+correlated, or fully anticorrelated. We repeat the study        is also not a unique choice, and other formulations of the
+for each pair of T2K’s and NOvA’s most impactful pa-            parameters could be considered.
+rameters with respect to δCP , sin2 θ23 , and ∆m232 . In the
+case of ∆m232 , we further inflate the original SK energy
+scale uncertainty from 2% to 7% to amplify the effect. Fi-                     Out-of-Model Variations
+nally, we check the extracted 1σ and 2σ credible regions
+for any substantial differences between the three corre-          As described in the main text, we use a set of dis-
+lation configurations. These tests are repeated for three       crete changes to the base cross-section model to test the
+sets of pseudo-data generated with oscillation parameter        robustness of our analysis. For each test, pseudo-data
+values that are T2K-like, NOvA-like, and NuFit-like [54],       are generated assuming the specific model variation, and
+which are chosen to be close to recent data results from        these pseudo-data are then fit either with the default
+                                                                                                                                                                                                                                13
+
+
+                                 θ 23 Correlation Study                       Both MO                                                                    θ 23 Correlation Study           Both MO
+
+
+
+
+                                                                                             With Reactor Constraint                                                                                  With Reactor Constraint
+                          0.03                                                                                                                    0.03
+                                                                  Fully Correlated                                                                            Fully Correlated
+                                                                  Uncorrelated                                                                                Uncorrelated
+
+
+
+
+  Posterior Probability                                                                                                   Posterior Probability
+                                                                  Anticorrelated                                                                              Anticorrelated
+                          0.02                                    Sim.Value                                                                       0.02        Sim.Value
+                                                                 1σ           2σ                                                                              1σ
+                                                                                                                                                              2σ
+                          0.01                                                                                                                    0.01
+
+
+
+                                                                                     a                                                                                                          b
+                                           −π                             π
+                            0                                                                                                                       0
+                            −π                            0                              π                                                                     0.4               0.5      0.6
+                                            2                             2
+                                                          δ CP                                                                                                                 sin θ 23
+                                                                                                                                                                                  2
+
+
+
+                                 θ 23 Correlation Study                       Both MO                                                                    θ 23 Correlation Study 1σ Contours Both MO
+
+
+
+
+                                                                                             With Reactor Constraint                                                                                  With Reactor Constraint
+                                                                      Fully Correlated
+                          0.06          Sim.Value                                                                                          0.002
+                                                                                                                                              2.5
+                          0.02                                        Uncorrelated
+                                      1σ        2σ
+
+
+
+
+  Posterior Probability
+                                                                      Anticorrelated                                                               2.4
+
+
+
+                                                                                                                        ∆m232 (1032
+                                                                                                                                 -3
+
+
+                                                                                                                                    eV2)
+                                                                                                                                                              Sim. Point
+                   0.015                                                                                                                           2.3
+                          0.04
+                                                                                                                                                              Fully Correlated
+
+                          0.01                                                                                         ∆m2                          0
+                                                                                                                                                              Uncorrelated
+                                                                                                                                                  −2.3
+                          0.02                                                                                                                                Anticorrelated
+                                                                                                                                                  −2.4
+                   0.005
+                                                                                                                               − − 2.5
+                                                                                                                                0.002
+                                                                                     c                                                                                                          d
+                             0
+                           0.0022−2.5 −2.4 −2.3
+                                           0.0024                 2.3    2.4  2.5
+                                                                         0.0026                                                                                0.4               0.5      0.6
+                                                 ∆m232 (10-3 eV2)
+                                                                                                                                                                               2
+                                                                                                                                                                                 θ2323
+                                                                                                                                                                             sin2θ
+                                                                                                                                                                           sin
+Extended Data Fig. 1. Correlation study comparison plots. Posterior probability distributions of δCP (a), sin2 θ23 (b), and
+∆m232 (c) and 1σ credible regions in ∆m232 -sin2 θ23 (d), marginalized over both neutrino mass ordering hypotheses (“Both MO”)
+from fits to pseudo-data simulated with the NuFit-like oscillation parameter values. The fits were run in three configurations
+while treating the systematic uncertainties with the largest impact on sin2 θ23 (visible neutron energy and 2p2h C/O scale)
+as either 100% correlated (gray), uncorrelated (teal), or 100% anticorrelated (magenta). Overlaid with the corresponding 1σ
+(dark shaded areas, dashed) and 2σ (light shaded areas, dash-dotted) credible intervals.
+
+
+analysis directly which has no knowledge of the model                                                                      sions on CP-violation or mass ordering determination for
+variation (“out-of-model” case) or with a modified anal-                                                                   the analysis.
+ysis that has had its nominal event spectra altered to                                                                        Three variations were chosen to perform the out-of-
+match the spectra expected under the varied model (“in-                                                                    model studies.
+model” case). Between these two cases, we require that
+the width of each of the extracted oscillation parameter                                                                                          • MINERvA 1π: This model’s suppression of charged
+intervals changes by no more than 10% (representing a                                                                                               current (CC) and neutral current (NC) resonant
+small “error on the error”) and that the center of the in-                                                                                          pion production at low Q2 that was implemented
+terval does not move by more than 50% of the systematic                                                                                             to ensure good agreement between the MINERvA
+uncertainty (indicating adequate systematic uncertainty                                                                                             data [55] and the implementation of the Rein-
+coverage of the tested out-of-model variation). We ad-                                                                                              Seghal model in the GENIE v2 neutrino interaction
+ditionally require that taking the largest changes seen                                                                                             simulation software [37].
+across these studies does not impact the stated conclu-                                                                                           • Non quasi-elastic (non-QE): In the T2K oscillation
+                                                                                                                                                          14
+
+                                                                                                    • Pion SI: The pion secondary interaction model in
+                           ∆m2 Nightmare Data 1σ Contours    Both MO
+                                                                                                      the GEANT4 detector simulation toolkit [56] was
+
+
+
+
+                                                                       With Reactor Constraint
+                                                                                                      replaced with the Salcedo–Oset model [57] imple-
+           0.002
+              2.5                                                                                     mented in the NEUT generator [36], tuned to π–A
+                     2.4                                                                              scattering data [58].
+
+
+
+ ∆m232 (1032
+          -3
+
+
+             eV2)
+                               Sim. Point
+                     2.3                                                                            We also used this process to study what happens when
+                               Fully Correlated                                                  fitting pseudo-data constructed for both experiments us-
+∆m2                   0
+                               Uncorrelated
+                                                                                                 ing one or the other experiment’s nominal cross-section
+                    −2.3                                                                         model (“T2K-like” and “NOvA-like” studies).
+                               Anticorrelated                                                       We show example results here for the MINERvA 1π
+                    −2.4                                                                         case. Extended Data Fig. 3(a) and (b) illustrate the ef-
+                                                                                                 fect of this alternative model on event spectra used in
+      − − 2.5
+       0.002
+                                                                   a                             the analysis (note, not all event spectra are uniformly
+                                                                                                 binned). Extended Data Figs. 3(c)–(g) and 4 compare
+                                0.4               0.5        0.6
+                                                                                                 the in-model and out-of-model fit results. No failures of
+                                                  θ2323
+                                                  22
+                                              sin θ
+                                            sin                                                  our criteria are seen in any of the cases. More generally,
+                                                                                                 no significant bias is seen in this joint fit for any of the
+                           θ 23 Nightmare Data 1σ Contours   Both MO                             model variations studied across any of the three tested
+
+
+
+
+                                                                       With Reactor Constraint
+                                                                                                 sets of oscillation parameter values.
+           0.002
+              2.5                                                                                   Some more recent T2K analyses [44] did see criteria
+                                                                                                 failures when considering an alternative nuclear model,
+                     2.4                                                                         HF-CRPA [59], and as a result widened their ∆m232 in-
+
+
+ ∆m232 (1032
+          -3
+
+
+             eV2)
+                               Sim. Point
+                     2.3                                                                         tervals. Both NOvA and T2K have independently stud-
+                               Fully Correlated                                                  ied the impact of the HF-CRPA model on the analyses
+∆m2                   0
+                               Uncorrelated
+                                                                                                 used in this joint result, and we estimate that any poten-
+                                                                                                 tial effects in the context of this joint fit are within the
+                    −2.3
+                               Anticorrelated                                                    thresholds set for our out-of-model variation tests.
+                    −2.4
+
+      − − 2.5
+       0.002                                                                                                         Goodness-of-Fit
+                                                                   b
+                                0.4             0.5          0.6
+                                                                                                    The posterior-predictive p-value [41] technique is used
+                                              sin θ
+                                                  22
+                                            sin   θ 23                                           to determine whether a model provides a good fit to the
+                                                    23
+                                                                                                 data it is confronted with. We require that the poste-
+Extended Data Fig. 2. “Nightmare” study comparisons.                                             rior predictive p-value to obtain the far detector data in
+1σ credible regions in ∆m232 -sin2 θ23 posterior probability dis-                                all samples given the joint post-fit model is greater than
+tributions marginalized over both neutrino mass ordering hy-                                     0.05. We also check the p-values for individual far de-
+potheses (“Both MO”) from fits to pseudo-data simulated                                          tector samples and require that they are greater than
+with the NuFit-like oscillation parameter values and a fully
+                                                                                                 0.05 after allowing for the look-elsewhere effect, using
+symmetric systematic bias to affect (a) ∆m232 (“∆m2 night-
+mare”) and (b) sin2 θ23 (“θ23 nightmare”). The fits were run                                     the Bonferroni correction [60]. All the p-values from the
+while treating the NOvA and T2K nightmare parameters as                                          joint fit are shown in Extended Data Table II. All the p-
+either 100% correlated (gray), uncorrelated (teal), or 100%                                      values (both total and split sample-by-sample) are within
+anticorrelated (magenta).                                                                        our acceptable range (> 0.05), even without taking the
+                                                                                                 look-elsewhere effect into account. This means that the
+                                                                                                 model used in this joint fit—that is, the individual ex-
+                                                                                                 periments’ systematic models with a shared oscillation
+                    analysis [14], the ND280 data samples with a muon                            parameter model—fits our data well, even when look-
+                    candidate and zero pion candidates are underpre-                             ing at individual samples. The p-values are consistent
+                    dicted by the pre-fit T2K nominal model by 10% in                            with previous T2K-only and NOvA-only analyses. The
+                    both FGDs, which the fit accounts for by enhancing                           p-value considering rate and shape for all T2K samples
+                    the charged current quasi-elastic (CCQE) interac-                            in a T2K-only fit is 0.73, while the p-value considering
+                    tion rate. To check this large freedom does not                              all T2K samples in the joint fit is 0.75. Similarly, the
+                    cause bias, an alternate model is produced where                             p-values for all NOvA samples are 0.56 (NOvA-only fit)
+                    this under-prediction is attributed to only non-QE                           and 0.64 (joint fit).
+                    processes.                                                                      Example posterior predictions [61] of the spectra for
+                                                                                                                                                                                                                                    15
+
+
+                                              T2K νµ disappearance                                                                                                      NOvA νµ disappearance
+
+                                Events                                                                                                                   Events
+                                               a                                                    FD spectrum
+                                                                                                    MINERvA 1π                                                     40    b                                   FD spectrum
+                                                                                                                                                                                                             MINERvA 1π
+                                         15                                                         Nominal Model                                                                                            Nominal Model
+                                                                                                    Prediction from                                                                                          Prediction from
+                                                                                                    ND (MINERvA 1π)                                                30                                        ND (MINERvA 1π)
+
+                                         10
+                                                                                                                                                                   20
+
+
+                                          5
+                                                                                                                                                                   10
+
+
+
+                                          0                                                                                                                         0
+                                           0         0.5        1         1.5                           2        2.5        3                                        0            1              2      3            4          5
+                                                           Reconstructed Neutrino Energy (GeV)                                                                                        Reconstructed Neutrino Energy (GeV)
+                                               MINERvA 1π model                                                                                                          MINERvA 1π model
+                                                 c         In-model                                         Normal MO                                                                 In-model                 Inverted MO
+                                                                                                                                                                           d
+
+
+
+
+            Posterior Probability                                                                                                     Posterior Probability
+                                    0.06                   Out-of-model                                                                                       0.06                    Out-of-model
+                                                                                                                  1σ                                                                                                       1σ
+                                                                                                                  2σ                                                                                                       2σ
+                                    0.04                                                                                                                      0.04
+                                                                                                                  3σ                                                                                                       3σ
+
+
+                                    0.02                                                                                                                      0.02
+
+
+                                          0                                                                                                                         0
+                                                   2.3              2.4                           2.5             2.6                                                          −2.6         −2.5        −2.4             −2.3
+                                                            ∆m232 (× 10-3 eV2)                                                                                                         ∆m232 (× 10-3 eV2)
+                                               MINERvA 1π model                                                                                                          MINERvA 1π model
+                                                 e         In-model                                             Both MO                                                               In-model                      Both MO
+                                                                                                                                                                           f
+
+
+
+
+            Posterior Probability                                                                                                     Posterior Probability
+                                                           Out-of-model                                                                                                               Out-of-model
+                                                                                                                                                              0.03
+                                    0.02                                                                          1σ                                                              1σ
+                                                                                                                  2σ                                                              2σ
+                                                                                                                  3σ                                          0.02                3σ
+                                     0.01
+                                                                                                                                                                  0.01
+
+
+                                          0−π                                                                                                                       0
+                                                           −π                  0                            π               π                                                            0.08               0.09
+                                                            2             δCP                               2
+                                                                                                                                                                                                 sin22θ 13
+                                                                                                         MINERvA 1π model
+                                                                                                            g          In-model                                                Both MO
+
+
+
+
+                                                                          Posterior Probability
+                                                                                                                       Out-of-model
+                                                                                                  0.02            1σ
+                                                                                                                  2σ
+                                                                                                                  3σ
+
+                                                                                                  0.01
+
+
+
+                                                                                                    0
+                                                                                                                 0.4                  0.5                                       0.6
+                                                                                                                                  sin2θ 23
+
+Extended Data Fig. 3. Out-of-model study spectra and comparison plots in 1D. NOvA+T2K out-of-model study
+with suppressed pion production at low Q2 (“MINERvA 1π” case). The change on the FD pseudo-data and prediction with
+systematic uncertainties after incorporating the alternate data at the ND is shown for for T2K (a) and NOvA (b). Central
+value of the nominal model is shown for comparison. 1D posterior probability distributions from a fit to pseudo-data generated
+at the NuFit-like oscillation parameter values are shown for ∆m232 marginalized separately over the normal (c) and inverted
+(d) mass orderings, and for δCP (e), sin2 2θ13 (f), and sin2 θ23 (g) marginalized over both mass orderings. The in-model (blue
+shaded) and out-of-model (red curve) scenarios are displayed.
+                                                                                                                                                  16
+
+
+
+
+                           MINERvA 1π model                                                        MINERvA 1π model
+                                In-model              Normal MO                                         In-model              Inverted MO
+                                Out-of-model                                                            Out-of-model
+
+
+
+
+∆m232 (×10-3 eV2)                                                       ∆m232 (×10-3 eV2)
+                     2.6                                                                    −2.3
+
+                     2.5                                                                    −2.4
+
+                     2.4                                                                    −2.5
+
+                     2.3        68% C.I.                                                    −2.6        68% C.I.
+                                90% C.I.                     a                                          90% C.I.                       b
+                               0.4             0.5         0.6                                         0.4             0.5           0.6
+                                           sin2θ 23                                                                sin2θ 23
+                           MINERvA 1π model                                                        MINERvA 1π model
+                                In-model                  Both MO                                       In-model                    Both MO
+                    0.12        Out-of-model                                                            Out-of-model
+                                                                                             0.6
+
+                     0.1
+
+sin22θ 13           0.08                                                sin2θ 23             0.5
+
+
+                    0.06        68% C.I.                                                                68% C.I.
+                                                                                             0.4
+                                90% C.I.                     c                                          90% C.I.                       d
+                       −π            −π         0     π             π                          −π            −π         0       π             π
+                                      2        δCP    2                                                       2        δCP      2
+
+
+
+
+Extended Data Fig. 4. Out-of-model study comparison plots in 2D NOvA+T2K out-of-model study with suppressed pion
+production at low Q2 (“MINERvA 1π” case). 68% and 90% contours are shown on the sin2 θ23 - ∆m232 surface marginalized
+separately over the normal (a) and inverted (b) mass orderings, and on the surfaces of δCP -sin2 2θ13 (c) and δCP -sin2 θ23 (d)
+parameters, marginalized over both mass orderings, from a fit to pseudo-data generated at the NuFit-like oscillation parameter
+values. The in-model (blue shaded) and out-of-model (red curve) scenarios are shown.
+                                                                                                                                    17
+
+
+Extended Data Table II. Posterior predictive p-values.          Extended Data Table III. NOvA+T2K measurements of
+Posterior predictive p-values extracted from the joint fits,    oscillation parameters. Values assume normal and in-
+marginalized over both mass orderings, normal mass order-       verted ordering with the reactor constraint applied.
+ing and inverted mass ordering with the reactor constraint.
+                                                                 Parameter         Normal Ordering              Inverted Ordering
+                      Rate + Shape
+                               Subsamples p-value                |∆m 232 |             2.43+0.04
+                                                                                           −0.03                      2.48+0.04
+                                                                                                                          −0.03
+Channel Joint p-value      NOvAa             T2Kb                sin2 θ23    0.561+0.021          +0.016 a
+                                                                                  −0.039 and 0.470−0.008             0.563+0.021
+                                                                                                                          −0.039
+       Both NO IO Both NO IO Both NO IO                                                    +0.35π                         +0.17π
+                                                                 δCP                 −0.87π−0.21π                   −0.47π−0.15π
+     c                                0.19 0.18 0.20(νe )
+  νe    0.62 0.53 0.69 0.90 0.83 0.95
+                                      0.79 0.78 0.79(νe 1π)      sin2 2θ13         0.0855 ± 0.0027                  0.0859+0.0027
+                                                                                                                          −0.0025
+
+  ν̄e   0.40 0.38 0.42 0.21 0.18 0.24 0.67 0.67 0.67            a Local extremum in lower octant of sin2 θ
+                                                                                                             23 .
+  νµ    0.62 0.62 0.62 0.68 0.65 0.70 0.48 0.50 0.47
+  ν̄µ   0.72 0.73 0.71 0.38 0.38 0.37 0.87 0.87 0.87
+ Total 0.75 0.73 0.76 0.64 0.60 0.68 0.72 0.73 0.71                In addition, the experiments define priors for all of the
+                                                                systematic parameters in their models. These definitions
+                          Rate
+                                                                are detailed in the individual experiment analyses under-
+                               Subsamples p-value
+                                                                lying this work.
+Channel Joint p-value      NOvA              T2K
+       Both NO IO Both NO IO Both NO IO
+  νe    0.40 0.14 0.57 0.48 0.16 0.71 0.39 0.43 0.36(νe )       Highest posterior probability values and 1σ credible
+                                      0.11 0.12 0.11(νe 1π)                          intervals
+  ν̄e   0.33 0.31 0.34 0.55 0.42 0.64 0.57 0.60 0.55
+  νµ    0.15 0.17 0.14 0.24 0.23 0.25 0.11 0.10 0.12               Extended Data Table III summarizes the highest pos-
+  ν̄µ   0.93 0.94 0.93 0.90 0.89 0.90 0.72 0.72 0.72            terior probability values and credible intervals measured
+ Total 0.40 0.28 0.49 0.58 0.39 0.70 0.24 0.27 0.22             jointly by NOvA and T2K.
+a NOvA: NOvA sample by sample from the joint fit.
+b T2K: T2K sample by sample from the joint fit, ν
+                                                e and νe 1π
+  samples treated independently.                                         Additional Oscillation Parameter Plots
+c Joint: ν channel p-value includes T2K ν , T2K ν 1π and
+          e                              e       e
+  NOvA νe .
+                                                                   The main text shows the 1D posterior distributions
+                                                                and credible intervals for the Jarlskog invariant, δCP ,
+both experiments’ νµ and νe subsamples overlaid over            and sin2 θ23 , as well as 2D distributions and credible re-
+the observed data are shown in Extended Data Fig. 5.            gions for the latter two. In this section, we present the
+                                                                1D distributions and credible intervals for δCP , sin2 θ23 ,
+                                                                sin2 2θ13 , and |∆m232 |, and 2D distributions and credible
+                           Priors                               regions for all pairwise combinations of these parameters.
+                                                                These are shown in Extended Data Figs. 6, 7, and 8, for
+   The default priors on the oscillation parameters for         the cases of marginalized over both mass orderings, con-
+this analysis are: flat between −π and π in δCP , flat          ditional on the normal ordering, and conditional on the
+between 0 and 1 in sin2 θ23 , flat in ∆m232 , and Gaussian      inverted ordering, respectively. The distributions and in-
+with µ ± σ = (2.18 ± 0.007) × 10−2 in sin2 θ13 . Where          tervals are shown in a “triangle” plot, where a lower tri-
+alternate priors are used, this is stated in the text.          angular matrix of plots shows the 1D distributions along
+   This analysis is not sensitive to the oscillation parame-    the diagonal and the 2D distributions in each of the off-
+ters sin2 θ12 and ∆m221 beyond existing experimental con-       diagonal positions.
+straints; their Gaussian priors are set to be sin2 θ12 =
+0.307 ± 0.013, and ∆m221 = (7.53 ± 0.18) × 10−5 eV2 .
+These values, along with a Gaussian prior on sin2 θ13 ,                                Reactor ∆m232
+when it is used, come from the 2020 version of the Parti-
+cle Data Group (PDG) summary tables [40], which was               The energy-dependent ν̄e → ν̄e oscillation probability
+current at the time of the original analyses. Updates to        measured by reactor experiments is sensitive to |∆m232 |,
+these constraints in more recent versions of the PDG do         and reactor measurements of this parameter are expected
+not change any conclusions.                                     to agree with long-baseline measurements only under the
+   As well as the standard prior flat in δCP , we also stud-    correct mass ordering assumption. Under the incorrect
+ied the effect of a prior flat in sin δCP and saw no signifi-   ordering assumption, these two techniques are expected
+cant changes in conclusions.                                    to measure incorrect values that differ from one another
+                                                                                                                                                                          18
+
+                    NOvA νe appearance                             With reactor constraint                 NOvA νµ disappearance                With reactor constraint
+
+                     a             Ι                          ΙΙ                 ΙΙΙ                        b    Far detector data:
+               40
+                              Far detector data:                                                      50          Posterior range:    1σ   2σ   3σ
+                               Posterior range:    1σ    2σ        3σ
+
+               30                                                                                     40
+
+
+
+      Events                                                                                 Events
+                                                                                                      30
+               20
+
+                                                                                                      20
+
+               10
+                                                                                                      10
+
+
+               0                                                                                      0
+                         1     2       3     4     1     2         3    4                              0           1            2           3            4            5
+                               Reconstructed neutrino energy (GeV)                                                Reconstructed neutrino energy (GeV)
+
+                    T2K νe appearance                              With reactor constraint                 T2K νµ disappearance                 With reactor constraint
+
+                     c        Far detector data:
+                                                                                                            d    Far detector data:
+               15
+                               Posterior range:    1σ    2σ        3σ                                 25          Posterior range:    1σ   2σ   3σ
+
+                                                                                                      20
+
+
+
+      Events                                                                                 Events
+               10
+                                                                                                      15
+
+
+                                                                                                      10
+               5
+
+                                                                                                      5
+
+
+               0                                                                                      0
+                0            0.2           0.4     0.6         0.8          1          1.2             0           1            2           3            4            5
+                               Reconstructed neutrino energy (GeV)                                                Reconstructed neutrino energy (GeV)
+
+
+Extended Data Fig. 5. NOvA and T2K post-fit spectra. NOvA (a, b) and T2K (c, d) posterior spectra compared to
+observed data for the largest νe -like (a, c) and νµ -like (b, d) event samples with the beam running enriched in νµ (as opposed
+to ν̄µ ) extracted from a fit with reactor constraint, marginalized over both mass orderings. The NOvA νe -like sample (a) is
+divided into three subsets as shown here: events with a lower (I) or higher (II) event classification score and events lying near
+the periphery of the detector (III). Note that T2K also has a νe -like sample targeting events with single π not shown here.
+
+
+by ∼2–3% [62]. Thus, comparing |∆m232 | measurements                                                              Additional Global Comparisons
+from accelerator and reactor experiments under both
+mass ordering hypotheses can inform mass ordering dis-                                              In Extended Data Fig. 9 results of the analysis using
+crimination. The Daya Bay experiment [46] provides                                               the default priors are compared with other experimen-
+the tightest constraints on θ13 and also reports a two-                                          tal measurements. The statement on ∆m232 precision is
+dimensional θ13 -∆m232 likelihood that we can directly in-                                       still valid for the normal ordering assumption. As in the
+corporate into our joint fit instead of the θ13 -only prior                                      case of the sin2 2θ13 result (Extended Data Fig. 9(b) and
+discussed elsewhere in this article.                                                             (c)), the long-baseline measurements (in this comparison,
+                                                                                                 without applying the prior from reactor measurements)
+                                                                                                 are consistent with reactor experiments, with larger con-
+                                                                                                 sistency in the normal ordering than the inverted order-
+                                                                                                 ing. We do not strongly prefer either octant of sin2 θ23
+   The mass ordering Bayes factor obtained when using                                            (Extended Data Fig. 9(d) and (e)) which is consistent
+this two-dimensional reactor constraint is 1.4 in favor of                                       with other modern experiments. The joint analysis δCP
+the normal ordering, in contrast to 1.3 in favor of the                                          result (Extended Data Fig. 9(f) and (g)) is consistent
+inverted ordering when using the θ13 -only reactor con-                                          with all experiments and their combinations although the
+straint. This slight pull toward a preference for the nor-                                       uncertainty remains large.
+mal ordering is expected given the relative agreement of
+the Daya Bay and NOvA+T2K |∆m232 | measurements
+shown in Fig. 2 (inverted ordering) and Extended Data
+Fig. 9(a) (normal ordering.) However, there remains no
+statistically significant mass ordering preference in this
+combination.
+                                                                                                                                         19
+
+
+
+
+                                          a
+  Posterior
+
+  probability
+
+
+                      0.6   0.08 0.09 e                              b     Both Orderings
+                                                                                   1σ
+   sin2θ23            0.5
+                                                                                   2σ
+                      0.4
+                          ×10−3           ×10−3
+                                                                                   3σ
+
+
+
+   ∆m232 (10-3 eV2)
+                      2.6    0.08 0.092.6
+                                       h 0.4 0.5                  0.6f                            c
+
+                      2.5               2.5
+                      2.4               2.4
+                      2.3               2.3
+                                                                                                      ×10−3
+                            0.08 0.09 j 0.4              0.5      0.6i 2.3 2.4 2.5 2.6
+                                                                                    g                                        d
+                      +π             +π                            +π
+                       2              2                              2
+  δCP                  0              0                              0
+                      −π             −π                            −π
+                       2              2                              2
+                                                                                           ×10−3
+                            0.08 0.09           0.4      0.5      0.6      2.3 2.4 2.5 2.6    −π 0 +π
+                                                                                               2     2
+                             sin22θ13                  sin2θ23             ∆m32 (10 eV )
+                                                                              2      -3  2
+                                                                                                 δCP
+
+
+Extended Data Fig. 6. Constraints on PMNS oscillation parameters in 1D and 2D for both orderings. The 1D
+posterior probability distributions of sin2 2θ13 (a), sin2 θ23 (b), |∆m232 | (c), δCP (d), and corresponding 1σ, 2σ, 3σ 2D contours
+sin2 θ23 -sin2 2θ13 (e), ∆m232 -sin2 θ23 (f), δCP -∆m232 (g), ∆m232 -sin2 2θ13 (h), δCP -sin2 θ23 (i), and δCP -sin2 2θ13 (j) from the joint
+fit with reactor constraints marginalized over both mass orderings.
+                                                                                                      20
+
+
+
+
+                                        a
+ Posterior
+
+ probability
+
+
+                     0.6   0.08 0.09 e                         b    Normal Ordering
+                                                                           1σ
+  sin2θ23            0.5
+                                                                           2σ
+                     0.4
+                         ×10−3           ×10−3
+                                                                           3σ
+
+
+
+  ∆m232 (10-3 eV2)
+                     2.6    0.08 0.092.6
+                                      h 0.4 0.5              0.6f               c
+
+                     2.5               2.5
+                     2.4               2.4
+                     2.3               2.3
+                                                                                    ×10−3
+                           0.08 0.09 j 0.4          0.5      0.6i 2.3 2.4 2.5 2.6
+                                                                               g                  d
+                     +π             +π                        +π
+                      2              2                          2
+  δCP                 0              0                          0
+                     −π             −π                        −π
+                      2              2                          2
+                                                                                    ×10−3
+                           0.08 0.09         0.4    0.5      0.6    2.3 2.4 2.5 2.6    −π 0 +π
+                                                                                        2     2
+                            sin22θ13               sin2θ23          ∆m32 (10 eV )
+                                                                       2      -3  2
+                                                                                          δCP
+
+
+Extended Data Fig. 7. Constraints on PMNS oscillation parameters in 1D and 2D for normal ordering. As in
+Extended Data Fig. 6, but conditional on the assumption of normal ordering.
+                                                                                                       21
+
+
+
+
+                                        a
+ Posterior
+
+ probability
+
+
+                     0.6   0.08 0.09 e                         b    Inverted Ordering
+                                                                             1σ
+  sin2θ23            0.5
+                                                                             2σ
+                     0.4
+                         ×10−3           ×10−3
+                                                                             3σ
+
+
+
+  ∆m232 (10-3 eV2)
+                     2.6    0.08 0.092.6
+                                      h 0.4 0.5              0.6f               c
+
+                     2.5               2.5
+                     2.4               2.4
+                     2.3               2.3
+                                                                                    ×10−3
+                           0.08 0.09 j 0.4          0.5      0.6i 2.3 2.4 2.5 2.6
+                                                                               g                  d
+                     +π             +π                        +π
+                      2              2                          2
+  δCP                 0              0                          0
+                     −π             −π                        −π
+                      2              2                          2
+                                                                                    ×10−3
+                           0.08 0.09         0.4    0.5      0.6    2.3 2.4 2.5 2.6    −π 0 +π
+                                                                                        2     2
+                            sin22θ13               sin2θ23          ∆m32 (10 eV )
+                                                                       2      -3  2
+                                                                                          δCP
+
+
+Extended Data Fig. 8. Constraints on PMNS oscillation parameters in 1D and 2D for inverted ordering. As in
+Extended Data Fig. 6, but conditional on the assumption of inverted ordering.
+                                                                                                                                                                                      22
+
+
+
+
+                                                                                            d                                Normal ordering
+                                                                                          NOvA+T2K           0.470+0.016
+                                                                                                                  −0.008                                                  0.561+0.021
+                                                                                                                                                                               −0.039 5.3%
+  a                               Normal ordering                                         NOvA               0.465+0.031
+                                                                                                                  −0.011                                                  0.559+0.023
+                                                                                                                                                                               −0.045 6.1%
+ NOvA+T2K                                                           2.43 +0.04
+                                                                         −0.03     1.4%   T2K                                                                             0.555+0.025
+                                                                                                                                                                               −0.053 7.0%
+ T2K                                                                2.48 ±0.05 2.0%       MINOS+                                                                          0.43 +0.20
+                                                                                                                                                                               −0.04 27.9%
+ NOvA                                                               2.39 ±0.05 2.1%       SuperK+T2K         0.485+0.020                                                  0.549+0.019
+                                                                                                                  −0.026                                                       −0.028 4.3%
+ MINOS+                                                             2.40 +0.08
+                                                                         −0.09 3.5%       IceCube                                                                         0.54 +0.04
+                                                                                                                                                                               −0.03 6.5%
+ IceCube                                                            2.40 +0.05
+                                                                         −0.04 1.9%       SuperK                                                                          0.45 +0.06
+                                                                                                                                                                               −0.03 10.0%
+ SuperK+T2K                                                         2.51 ±0.06 2.4%                       0.35      0.40   0.45   0.50       0.55         0.60     0.65
+ SuperK                                                             2.40 +0.07
+                                                                         −0.09 3.3%
+                                                                                                                                  sin2 θ23
+ Daya Bay nGd                                                       2.466±0.060 2.4%
+ RENO       nGd                                                     2.52 +0.11
+                                                                         −0.12 4.6%
+                                                                                            e                                Inverted ordering
+ Daya Bay nH                                                        2.72 +0.14
+                                                                         −0.15 5.3%       NOvA+T2K                                                                        0.563+0.021
+                                                                                                                                                                               −0.039 5.3%
+                        2.4               2.6        2.8                                  T2K                                                                             0.557+0.025
+                                                                                                                                                                               −0.043 6.1%
+                                     2
+                                  |∆m32 | (10−3 eV2)
+                                                                                          NOvA               0.465+0.027
+                                                                                                                  −0.005                                                  0.557+0.027
+                                                                                                                                                                               −0.047 6.6%
+
+                                                                                          MINOS+                                                                          0.42 +0.07
+                                                                                                                                                                               −0.03 11.9%
+        b                             Normal ordering                                     IceCube                                                                         0.54 +0.04
+                                                                                                                                                                               −0.03 6.5%
+    NOvA+T2K                                                 8.92+1.58
+                                                                 −1.25 15.9%              SuperK+T2K                                                                      0.558+0.023
+                                                                                                                                                                               −0.050 6.5%
+    T2K                                                     10.03+1.23
+                                                                 −1.24 12.3%              SuperK                                                                          0.45 +0.08
+                                                                                                                                                                               −0.03 12.2%
+    NOvA                                                     8.4 +1.9
+                                                                 −1.6 20.8%                               0.35      0.40   0.45   0.50       0.55         0.60     0.65
+    Daya Bay nGd+nH                                             8.33±0.22 2.6%                                                    sin2 θ23
+
+    Daya Bay nGd                                                8.51±0.24 2.8%
+    Daya Bay nH                                                 7.59+0.50
+    RENO          nGd
+                                                                    −0.49 6.5%
+                                                                9.20+0.60
+                                                                    −0.59 6.5%
+                                                                                                     f                        Normal Ordering
+                                                                                                    NOvA+T2K                                                       −0.87+0.35
+                                                                                                                                                                        −0.21
+    Double CHOOZ                                            10.5 ±1.4 13.3%
+                                  8               10       12                                       NOvA                                                           0.89+0.18
+                                                                                                                                                                       −0.9
+                                         2
+                                       sin 2θ13 (10−2)                                              T2K                                                            −0.63+0.27
+                                                                                                                                                                        −0.21
+                                                                                                    SuperK                                                         −0.557+0.242
+                                                                                                                                                                         −0.398
+                                                                                                    SuperK+T2K                                                     −0.596+0.212
+        c                         Inverted ordering                                                                −1.0    −0.5       0.0           0.5          1.0
+                                                                                                                                                                         −0.188
+
+
+                                                                                                                                    δCP(π)
+    NOvA+T2K                                                10.08+1.62
+                                                                 −1.25 14.2%
+    T2K                                                     11.09+0.55
+                                                                 −1.34 8.5%
+    NOvA                                                        9.2 +2.3
+                                                                    −1.4 20.1%
+    Daya Bay nGd+nH                                             8.33±0.22 2.6%
+    Daya Bay nGd                                                8.51±0.24 2.8%
+                                                                                                     g                        Inverted Ordering
+                                                                                                    NOvA+T2K                                                       −0.47+0.17
+    Daya Bay nH                                                 7.59+0.50
+                                                                    −0.49   6.5%                                                                                        −0.15
+                                                                                                    NOvA                                                           −0.56+0.26
+    RENO          nGd                                           9.20+0.60
+                                                                    −0.59   6.5%                                                                                        −0.24
+
+    Double CHOOZ                                            10.5 ±1.4 13.3%                         T2K                                                            −0.45+0.17
+                                                                                                                                                                        −0.19
+
+                              8                    10      12                                       SuperK                                                         −0.557+0.283
+                                                                                                                                                                         −0.388
+                                       sin2 2θ13 (10−2)                                             SuperK+T2K                                                     −0.470+0.159
+                                                                                                                                                                         −0.168
+                                                                                                                   −1.0    −0.5       0.0           0.5          1.0
+                                                                                                                                    δCP(π)
+
+
+
+
+Extended Data Fig. 9. Experimental measurements of oscillation parameters |∆m232 | assuming normal ordering (a),
+with sources for the results from top to bottom starting with the second line as follows: [13, 14, 42–48]. sin2 2θ13 assuming
+normal (b) and inverted (c) ordering, with sources for the results from top to bottom starting with the second line as follows:
+[13, 14, 46–48, 63]. NOvA+T2K measurement here does not use the reactor constraint. sin2 θ23 assuming normal (d) and
+inverted (e) ordering, with sources for the results from top to bottom starting with the second line as follows: [13, 14, 42–45].
+Open circles denote a local minima position in lower octant. δCP assuming normal (f) and inverted (g) ordering, with sources
+for the results from top to bottom starting with the second line as follows: [13, 14, 44, 45].
+                                                                                                                       23
+
+               DATA AVAILABILITY                             UK; the DOE, USA, including through the U.S.-Japan
+                                                             Science and Technology Cooperation Program in HEP;
+  Inquiries regarding the data and posteriors used in this   and NAFOSTED (103.99-2023.144,IZVSZ2.203433),
+result may be directed to the collaborations.                Vietnam. We also thank CERN for the UA1/NOMAD
+                                                             magnet, DESY for the HERA-B magnet mover system,
+                                                             the BC DRI Group, Prairie DRI Group, ACENET,
+               CODE AVAILABILITY                             SciNet, and CalculQuebec consortia in the Digital
+                                                             Research Alliance of Canada, and GridPP in the United
+   The NOvA and T2K collaborations develop and main-         Kingdom, the CNRS/IN2P3 Computing Center in
+tain the code used for the simulation of the experimental    France and NERSC, USA. In addition, the participation
+apparatus and statistical analysis of the raw data used in   of individual researchers and institutions has been
+this result. This code is shared among the collaborations    further supported by funds from the ERC (FP7), “la
+but, due to the size and complexity of the codebases, is     Caixa” Foundation, the European Union’s Horizon
+not publicly distributed. Inquiries regarding the algo-      2020 Research and Innovation Programme under the
+rithms and methods used in this result may be directed       Marie Sklodowska-Curie grant; the JSPS, Japan; the
+to the collaborations.                                       Royal Society, UK; French ANR and Sorbonne Uni-
+                                                             versité Emergences programmes; the VAST-JSPS (No.
+                                                             QTJP01.02/20-22); and the DOE Early Career program,
+              ACKNOWLEDGEMENTS                               USA.
+                                                                For the purpose of open access, the authors have ap-
+   The NOvA collaboration thanks Fermi National Ac-          plied a Creative Commons Attribution (CC BY) license
+celerator Laboratory (Fermilab), a U.S. Department of        to any Author Accepted Manuscript version arising.
+Energy, Office of Science, HEP User Facility. Fermilab is
+managed by Fermi Forward Discovery Group, LLC, act-
+ing under Contract No. 89243024CSC000002. This work                      AUTHOR CONTRIBUTIONS
+was supported by the U.S. Department of Energy, in-
+cluding through the U.S.-Japan Science and Technology           The operation, Monte Carlo simulation, and data anal-
+Cooperation Program in HEP; the U.S. National Science        ysis of the T2K and NOvA experiments are carried out
+Foundation; the Department of Science and Technology,        by the T2K and NOvA Collaborations with contribu-
+India; the European Research Council; the MSMT CR,           tions from all collaborators listed as authors on this
+GA UK, Czech Republic; the RAS, the Ministry of Sci-         manuscript. The scientific results presented here have
+ence and Higher Education, and RFBR, Russia; CNPq            been presented to and discussed by the full collabora-
+and FAPEG, Brazil; UKRI, STFC and the Royal Soci-            tions, and all authors have approved the final version of
+ety, United Kingdom; and the state and University of         the manuscript.
+Minnesota. We are grateful for the contributions of the
+staffs of the University of Minnesota at the Ash River
+Laboratory, and of Fermilab.                                              COMPETING INTERESTS
+   The T2K collaboration would like to thank the
+J-PARC staff for superb accelerator performance.               The authors declare no competing interests.
+We thank the CERN NA61/SHINE Collaboration
+for providing valuable particle production data. We
+acknowledge the support of MEXT, JSPS KAK-                              ADDITIONAL INFORMATION
+ENHI and bilateral programs, Japan; NSERC, the
+NRC, and CFI, Canada; the CEA and CNRS/IN2P3,                  Correspondence and requests for materials should be
+France; the Deutsche Forschungsgemeinschaft (DFG             addressed to the T2K and NOvA collaborations.
+397763730, 517206441), Germany; the NKFIH (NKFIH
+137812 and TKP2021-NKTA-64), Hungary; the INFN,
+Italy; the Ministry of Science and Higher Education
+(2023/WK/04) and the National Science Centre (UMO-
+2018/30/E/ST2/00441,        UMO-2022/46/E/ST2/00336           [1] Y. Fukuda et al. (Super-Kamiokande), Evidence for os-
+and UMO-2021/43/D/ST2/01504), Poland; the RSF                     cillation of atmospheric neutrinos, Phys. Rev. Lett. 81,
+                                                                  1562 (1998).
+(RSF 24-12-00271) and the Ministry of Science and
+                                                              [2] S. Fukuda et al. (Super-Kamiokande), Determination of
+Higher Education, Russia; MICINN, ERDF and Eu-                    solar neutrino oscillation parameters using 1496 days of
+ropean Union NextGenerationEU funds and CERCA                     Super-Kamiokande I data, Phys. Lett. B 539, 179 (2002).
+program and Generalitat de Catalunya, Spain; the              [3] Q. R. Ahmad et al. (SNO), Measurement of the rate of
+SNSF and SERI, Switzerland; the STFC and UKRI,                    νe + d → p + p + e− interactions produced by 8 B solar
+                                                                                                                               24
+
+     neutrinos at the Sudbury Neutrino Observatory, Phys.         [25] K. Abe et al. (T2K), The T2K experiment, Nucl. In-
+     Rev. Lett. 87, 071301 (2001).                                     strum. Meth. A 659, 106 (2011).
+ [4] Q. R. Ahmad et al. (SNO), Direct evidence for neutrino       [26] D. S. Ayres et al. (NOvA), The NOvA technical design
+     flavor transformation from neutral current interactions in        report, Tech. Rep. FERMILAB-DESIGN-2007-01 (Fer-
+     the Sudbury Neutrino Observatory, Phys. Rev. Lett. 89,            milab National Accelerator Laboratory, 2007).
+     011301 (2002).                                               [27] F. Di Lodovico, R. B. Patterson, M. Shiozawa, and
+ [5] K. Eguchi et al. (KamLAND), First results from Kam-               E. Worcester, Experimental considerations in long-
+     LAND: Evidence for reactor anti-neutrino disappearance,           baseline neutrino oscillation measurements, Ann. Rev.
+     Phys. Rev. Lett. 90, 021802 (2003).                               Nucl. Part. Sci. 73, 69 (2023).
+ [6] F. P. An et al. (Daya Bay), Observation of electron-         [28] N. Metropolis, A. W. Rosenbluth, M. N. Rosenbluth,
+     antineutrino disappearance at Daya Bay, Phys. Rev.                A. H. Teller, and E. Teller, Equation of state calcula-
+     Lett. 108, 171803 (2012).                                         tions by fast computing machines, J. Chem. Phys. 21,
+ [7] M. Fukugita and T. Yanagida, Baryogenesis without                 1087 (1953).
+     grand unification, Phys. Lett. B 174, 45 (1986).             [29] W. K. Hastings, Monte Carlo sampling methods using
+ [8] W. Buchmuller, R. D. Peccei, and T. Yanagida, Leptoge-            Markov chains and their applications, Biometrika 57, 97
+     nesis as the origin of matter, Ann. Rev. Nucl. Part. Sci.         (1970).
+     55, 311 (2005), arXiv:hep-ph/0502169.                        [30] M. A. Acero et al. (NOvA), Expanding neutrino oscilla-
+ [9] S. Pascoli, S. T. Petcov, and A. Riotto, Connecting low           tion parameter measurements in NOvA using a Bayesian
+     energy leptonic CP violation to leptogenesis, Phys. Rev.          approach, Phys. Rev. D 110, 012005 (2024).
+     D 75, 083511 (2007).                                         [31] The MaCh3 Collaboration, MaCh3 (2024).
+[10] G. C. Branco, R. Gonzalez Felipe, and F. R. Joaquim,         [32] G. M. Kurtzer, V. Sochat, and M. W. Bauer, Singularity:
+     Leptonic CP violation, Rev. Mod. Phys. 84, 515 (2012).            Scientific containers for mobility of compute, PloS one
+[11] C. Hagedorn, R. Mohapatra, E. Molinaro, C. Nishi, and             12, e0177459 (2017).
+     S. Petcov, CP violation in the lepton sector and implica-    [33] C. Alt et al. (NA49), Inclusive production of charged pi-
+     tions for leptogenesis, Int. J. Mod. Phys. A 33, 1842006          ons in p+C collisions at 158-GeV/c beam momentum,
+     (2018).                                                           Eur. Phys. J. C 49, 897 (2007).
+[12] R. L. Workman et al. (Particle Data Group), Review of        [34] N. Abgrall et al. (NA61/SHINE), Measurements of
+     particle physics, PTEP 2022, 083C01 (2022).                       π ± differential yields from the surface of the T2K
+[13] M. A. Acero et al. (NOvA), Improved measurement of                replica target for incoming 31 GeV/c protons with the
+     neutrino oscillation parameters by the NOvA experi-               NA61/SHINE spectrometer at the CERN SPS, Eur.
+     ment, Phys. Rev. D 106, 032004 (2022).                            Phys. J. C 76, 617 (2016).
+[14] K. Abe et al. (T2K), Measurements of neutrino oscilla-       [35] N. Abgrall et al. (NA61/SHINE), Measurements of π ± ,
+     tion parameters from the T2K experiment using 3.6×1021            K ± , KS0 , Λ and proton production in proton–carbon in-
+     protons on target, Eur. Phys. J. C 83, 782 (2023).                teractions at 31 GeV/c with the NA61/SHINE spectrom-
+[15] Z. Maki, M. Nakagawa, and S. Sakata, Remarks on the               eter at the CERN SPS, Eur. Phys. J. C 76, 84 (2016).
+     unified model of elementary particles, Prog. Theor. Phys.    [36] Y. Hayato and L. Pickering, The NEUT neutrino inter-
+     28, 870 (1962).                                                   action simulation program library, Eur. Phys. J. ST 230,
+[16] B. Pontecorvo, Neutrino experiments and the problem of            4469 (2021).
+     conservation of leptonic charge, Zh. Eksp. Teor. Fiz. 53,    [37] C. Andreopoulos et al., The GENIE neutrino Monte
+     1717 (1967).                                                      Carlo generator, Nucl. Instrum. Meth. A 614, 87 (2010).
+[17] R. N. Mohapatra et al., Theory of neutrinos: a white         [38] A. B. Balantekin et al., Snowmass Neutrino Frontier:
+     paper, Rep. Prog.Phys. 70, 1757 (2007).                           Neutrino Interaction Cross Sections (NF06) Topical
+[18] J. Formaggio, A. de Gouvea, and R. G. H. Robertson,               Group Report (2022) arXiv:2209.06872 [hep-ex].
+     Direct measurements of neutrino mass, Phys. Rep. 914,        [39] M. Day and K. S. McFarland, Differences in quasielastic
+     1 (2021).                                                         cross sections of muon and electron neutrinos, Phys. Rev.
+[19] M. J. Dolinski, A. W. P. Poon, and W. Rodejohann, Neu-            D 86, 053003 (2012).
+     trinoless double-beta decay: status and prospects, Annu.     [40] P. A. Zyla et al. (Particle Data Group), Review of particle
+     Rev. Nucl. Part. Sci. 69, 219 (2019).                             physics, PTEP 2020, 083C01 (2020).
+[20] R. S. L. Hansen, M. Lindner, and O. Scholer, Timing          [41] A. Gelman, X. Meng, and H. Stern, Posterior predic-
+     the neutrino signal of a galactic supernova, Phys. Rev. D         tive assessment of model fitness via realized discrepan-
+     101, 123018 (2020).                                               cies, Stat. Sin. 6, 733 (1996).
+[21] S. Horiuchi and J. P. Kneller, What can be learned from      [42] P. Adamson et al. (MINOS+), Precision constraints
+     a future supernova neutrino detection?, J. Phys. G 45,            for three-flavor neutrino oscillations from the full MI-
+     043002 (2018).                                                    NOS+ and MINOS dataset, Phys. Rev. Lett. 125, 131802
+[22] J. Lesgourgues and S. Pastor, Neutrino mass from cos-             (2020).
+     mology, Adv. High Energy Phys. 2012, 608515 (2012).          [43] R. Abbasi et al. (IceCube Collaboration), Measurement
+[23] D. Beavis, A. Carroll, and I. Chiang, Long baseline neu-          of Atmospheric Neutrino Oscillation Parameters Using
+     trino oscillation experiment at the AGS. Physics design           Convolutional Neural Networks with 9.3 Years of Data in
+     report, Tech. Rep. 52459 (Brookhaven National Lab.,               IceCube DeepCore, Phys. Rev. Lett. 134, 091801 (2025).
+     1995).                                                       [44] K. Abe et al. (Super-Kamiokande Collaboration and T2K
+[24] R. L. Helmer, A new long baseline neutrino oscillation            Collaboration), First joint oscillation analysis of Super-
+     experiment at Brookhaven, in 9th Lake Louise Winter In-           Kamiokande atmospheric and T2K accelerator neutrino
+     stitute: Particle Physics and Cosmology (1994) pp. 0291–          data, Phys. Rev. Lett. 134, 011801 (2025).
+     301.
+                                                                                                                                25
+
+[45] T. Wester et al. (The Super-Kamiokande Collabora-                  High Energy Phys. 2020 (178).
+     tion), Atmospheric neutrino oscillation analysis with neu-    [55] P. Stowell et al. (MINERvA), Tuning the GENIE Pion
+     tron tagging and an expanded fiducial volume in Super-             Production Model with MINERνA Data, Phys. Rev. D
+     Kamiokande I–V, Phys. Rev. D 109, 072014 (2024).                   100, 072005 (2019).
+[46] F. P. An et al. (Daya Bay), Precision measurement of re-      [56] S. Agostinelli et al. (GEANT4), GEANT4–a simulation
+     actor antineutrino oscillation at kilometer-scale baselines        toolkit, Nucl. Instrum. Meth. A 506, 250 (2003).
+     by Daya Bay, Phys. Rev. Lett. 130, 161802 (2023).             [57] L. L. Salcedo, E. Oset, M. J. Vicente-Vacas, and
+[47] S. Jeon et al. (RENO), Measurement of reactor antineu-             C. Garcia-Recio, Computer simulation of inclusive pion
+     trino oscillation amplitude and frequency using 3800 days          nuclear reactions, Nucl. Phys. A 484, 557 (1988).
+     of complete data sample of the RENO experiment, Phys.         [58] E. S. P. Guerra et al., Using world π ± -nucleus scattering
+     Rev. D 111, 112006 (2025).                                         data to constrain an intranuclear cascade model, Phys.
+[48] F. P. An et al. (Daya Bay), Measurement of Electron                Rev. D 99, 052007 (2019).
+     Antineutrino Oscillation Amplitude and Frequency via          [59] V. Pandey, N. Jachowicz, T. Van Cuyck, J. Ryckebusch,
+     Neutron Capture on Hydrogen at Daya Bay, Phys. Rev.                and M. Martini, Low-energy excitations and quasielas-
+     Lett. 133, 151801 (2024).                                          tic contribution to electron-nucleus and neutrino-nucleus
+[49] C. Jarlskog, A basis independent formulation of the con-           scattering in the continuum random-phase approxima-
+     nection between quark mass matrices, CP violation and              tion, Phys. Rev. C 92, 024606 (2015).
+     experiment, Z. Phys. C 29, 491 (1985).                        [60] O. J. Dunn, Multiple comparisons among means, J. Am.
+[50] P. Adamson et al., The NuMI Neutrino Beam, Nucl. In-               Stat. Assoc. 56, 52 (1961).
+     strum. Meth. A 806, 279 (2016).                               [61] A. Gelman, J. B. Carlin, H. S. Stern, D. B. Dunson,
+[51] A. Aurisano et al., A convolutional neural network neu-            A. Vehtari, and D. B. Rubin, Bayesian Data Analysis,
+     trino event classifier, JINST 11 (09), P09001.                     Third Edition (CRC Press, 2013).
+[52] K. Abe et al. (T2K), T2K neutrino flux prediction, Phys.      [62] S. J. Parke and R. Zukanovich-Funchal, Mass ordering
+     Rev. D 87, 012001 (2013), [Addendum: Phys.Rev.D 87,                sum rule for the neutrino disappearance channels in T2K,
+     019902 (2013)].                                                    NOvA, and JUNO, Phys. Rev. D 111, 013008 (2025),
+[53] L. Aliaga et al. (MINERvA), Neutrino Flux Predictions              arXiv:2404.08733 [hep-ph].
+     for the NuMI Beam, Phys. Rev. D 94, 092005 (2016),            [63] H. de Kerret et al. (Double Chooz), Double Chooz θ13
+     [Addendum: Phys.Rev.D 95, 039903 (2017)].                          measurement via total neutron capture detection, Nature
+[54] I. Esteban, M. C. Gonzalez-Garcia, M. Maltoni,                     Phys. 16, 558 (2020).
+     T. Schwetz, and A. Zhou, The fate of hints: updated
+     global analysis of three-flavor neutrino oscillations, J.
+

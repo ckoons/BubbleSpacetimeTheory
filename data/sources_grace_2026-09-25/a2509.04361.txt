@@ -1,0 +1,1444 @@
+                                                                                                                                      FERMILAB-PUB-25-0619-PPD
+
+                                         Precision measurement of neutrino oscillation parameters with 10 years of data from
+                                                                      the NOvA experiment
+
+                                            S. Abubakar,12 M. A. Acero,2 B. Acharya,32 P. Adamson,13 N. Anfimov,27 A. Antoshkin,27 E. Arrieta-Diaz,28
+                                                 L. Asquith,41 A. Aurisano,7 D. Azevedo,15 A. Back,21, 25 N. Balashov,27 P. Baldi,26 B. A. Bambah,18
+                                             E. F. Bannister,41 A. Barros,2 A. Bat,3, 12 R. Bernstein,13 T. J. C. Bezerra,41 V. Bhatnagar,35 B. Bhuyan,16
+                                              J. Bian,26, 31 A. C. Booth,37, 41 R. Bowles,21 B. Brahma,19 C. Bromberg,29 N. Buchanan,9 A. Butkevich,23
+                                              S. Calvez,9 T. J. Carroll,43, 49 E. Catano-Mur,48 J. P. Cesar,43 S. Chaudhary,16 R. Chirco,20 S. Choate,50
+                                                B. C. Choudhary,11 O. T. K. Chow,37 A. Christensen,9 M. F. Cicala,45 T. E. Coan,40 T. Contreras,13
+                                         A. Cooleybeck,49 D. Coveyou,46 L. Cremonesi,37 G. S. Davies,32 P. F. Derwent,13 P. Ding,13 Z. Djurcic,1 K. Dobbs,17
+                                         M. Dolce,47 D. Dueñas Tonguino,7 E. C. Dukes,46 A. Dye,32 R. Ehrlich,46 E. Ewart,21 G. J. Feldman,51 P. Filip,24
+                                          M. J. Frank,38 H. R. Gallagher,44 F. Gao,36 A. Giri,19 R. A. Gomes,15 M. C. Goodman,1 R. Group,46 A. Habig,30
+                                          F. Hakl,22 J. Hartnell,41 R. Hatcher,13 J. M. Hays,37 M. He,17 K. Heller,31 V Hewes,7 A. Himmel,13 T. Horoho,46
+                                         X. Huang,32 A. Ivanova,27 B. Jargowsky,26 I. Kakorin,27 A. Kalitkina,27 D. M. Kaplan,20 A. Khanam,42 B. Kirezli,12
+
+
+
+
+arXiv:2509.04361v2 [hep-ex] 9 Mar 2026
+                                             J. Kleykamp,32 O. Klimov,27 L. W. Koerner,17 L. Kolupaeva,27 R. Kralik,41 A. Kumar,35 C. D. Kuruppu,39
+                                              V. Kus,10 T. Lackey,13, 21 K. Lang,43 J. Lesmeister,17 A. Lister,49 J. Liu,26 J. A. Lock,41 M. MacMahon,45
+                                          S. Magill,1 W. A. Mann,44 M. T. Manoharan,8 M. Manrique Plata,21 M. L. Marshak,31 M. Martinez-Casales,13, 25
+                                            V. Matveev,23 A. Medhi,16 B. Mehta,35 M. D. Messier,21 H. Meyer,47 T. Miao,13 V. Mikola,45 W. H. Miller,31
+                                          S. R. Mishra,39 A. Mislivec,31 R. Mohanta,18 A. Moren,30 A. Morozova,27 W. Mu,13 L. Mualem,5 M. Muether,47
+                                             K. Mulder,45 C. Murthy,43 D. Myers,43 J. Nachtman,50 D. Naples,36 S. Nelleri,8 J. K. Nelson,48 O. Neogi,50
+                                              R. Nichol,45 E. Niner,13 A. Norman,13 A. Norrick,13 H. Oh,7 A. Olshevskiy,27 T. Olson,17 M. Ozkaynak,45
+                                           A. Pal,34 J. Paley,13 L. Panda,34 R. B. Patterson,5 G. Pawloski,31 R. Petti,39 R. K. Plunkett,13 L. R. Prais,32, 7
+                                               A. Rafique,1 V. Raj,5 M. Rajaoalisoa,7 B. Ramson,13 B. Rebel,49 C. Reynolds,37 E. Robles,26 P. Roy,47
+                                                O. Samoylov,27 M. C. Sanchez,14, 25 S. Sánchez Falero,25 P. Shanahan,13 P. Sharma,35 A. Sheshukov,27
+                                         A. Shmakov,26 W. Shorrock,41 S. Shukla,4 I. Singh,11 P. Singh,37, 11 V. Singh,4 S. Singh Chhibra,37 D. K. Singha,18
+                                            E. Smith,21 J. Smolik,10 P. Snopok,20 N. Solomey,47 A. Sousa,7 K. Soustruznik,6 M. Strait,13, 31 C. Sullivan,44
+                                               L. Suter,13 A. Sutton,14, 25 K. Sutton,5 S. K. Swain,34 A. Sztuc,45 N. Talukdar,39 P. Tas,6 T. Thakore,7
+                                              J. Thomas,45 E. Tiras,12, 25 M. Titus,8 Y. Torun,20 D. Tran,17 J. Trokan-Tenorio,48 J. Urheim,21 B. Utt,31
+                                           P. Vahle,48 Z. Vallari,33 K. J. Vockerodt,37 A. V. Waldron,37 M. Wallbank,7, 13 T. K. Warburton,25 C. Weber,31
+                                         M. Wetstein,25 D. Whittington,42 D. A. Wickremasinghe,13 J. Wolcott,44 S. Wu,31 W. Wu,26 W. Wu,36 Y. Xiao,26
+                                            B. Yaeggy,7 A. Yahaya,47 A. Yankelevich,26 K. Yonehara,13 S. Zadorozhnyy,23 J. Zalesak,24 and R. Zwaska13
+                                                                                       (The NOvA Collaboration)
+                                                                        1
+                                                                                  Argonne National Laboratory, Argonne, Illinois 60439, USA
+                                                          2
+                                                                 Universidad del Atlantico, Carrera 30 No. 8-49, Puerto Colombia, Atlantico, Colombia
+                                                                         3
+                                                                           Bandirma Onyedi Eylül University, Faculty of Engineering and Natural
+                                                                     Sciences, Engineering Sciences Department, 10200, Bandirma, Balıkesir, Turkey
+                                                        4
+                                                          Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, 221 005, India
+                                                                           5
+                                                                             California Institute of Technology, Pasadena, California 91125, USA
+                                          6
+                                            Charles University, Faculty of Mathematics and Physics, Institute of Particle and Nuclear Physics, Prague, Czech Republic
+                                                                    7
+                                                                      Department of Physics, University of Cincinnati, Cincinnati, Ohio 45221, USA
+                                                            8
+                                                              Department of Physics, Cochin University of Science and Technology, Kochi 682 022, India
+                                                               9
+                                                                 Department of Physics, Colorado State University, Fort Collins, CO 80523-1875, USA
+                                                                 10
+                                                                    Czech Technical University in Prague, Brehova 7, 115 19 Prague 1, Czech Republic
+                                                                  11
+                                                                     Department of Physics and Astrophysics, University of Delhi, Delhi 110007, India
+                                                                            12
+                                                                               Department of Physics, Erciyes University, Kayseri 38030, Turkey
+                                                                          13
+                                                                             Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+                                                                                 14
+                                                                                    Florida State University, Tallahassee, Florida 32306, USA
+                                                               15
+                                                                  Instituto de Fı́sica, Universidade Federal de Goiás, Goiânia, Goiás, 74690-900, Brazil
+                                                                             16
+                                                                                Department of Physics, IIT Guwahati, Guwahati, 781 039, India
+                                                                      17
+                                                                         Department of Physics, University of Houston, Houston, Texas 77204, USA
+                                                                         18
+                                                                            School of Physics, University of Hyderabad, Hyderabad, 500 046, India
+                                                                            19
+                                                                               Department of Physics, IIT Hyderabad, Hyderabad, 502 205, India
+                                                                                  20
+                                                                                     Illinois Institute of Technology, Chicago IL 60616, USA
+                                                                                    21
+                                                                                       Indiana University, Bloomington, Indiana 47405, USA
+                                                         22
+                                                            Institute of Computer Science, The Czech Academy of Sciences, 182 07 Prague, Czech Republic
+                                         23
+                                            Institute for Nuclear Research of Russia, Academy of Sciences 7a, 60th October Anniversary prospect, Moscow 117312, Russia
+                                                                                                                         2
+
+                  24
+                        Institute of Physics, The Czech Academy of Sciences, 182 21 Prague, Czech Republic
+                 25
+                      Department of Physics and Astronomy, Iowa State University, Ames, Iowa 50011, USA
+          26
+             Department of Physics and Astronomy, University of California at Irvine, Irvine, California 92697, USA
+                           27
+                              Joint Institute for Nuclear Research, Dubna, Moscow region 141980, Russia
+                             28
+                                Universidad del Magdalena, Carrera 32 No 22-08 Santa Marta, Colombia
+           29
+              Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, USA
+           30
+              Department of Physics and Astronomy, University of Minnesota Duluth, Duluth, Minnesota 55812, USA
+       31
+          School of Physics and Astronomy, University of Minnesota Twin Cities, Minneapolis, Minnesota 55455, USA
+                                    32
+                                       University of Mississippi, University, Mississippi 38677, USA
+                           33
+                              Department of Physics, Ohio State University, Columbus, Ohio 43210, USA
+                                  34
+                                     National Institute of Science Education and Research, An OCC
+                                   of Homi Bhabha National Institute, Bhubaneswar, Odisha, India
+                              35
+                                 Department of Physics, Panjab University, Chandigarh, 160 014, India
+                    36
+                       Department of Physics, University of Pittsburgh, Pittsburgh, Pennsylvania 15260, USA
+                             37
+                                Particle Physics Research Centre, Department of Physics and Astronomy,
+                                 Queen Mary University of London, London E1 4NS, United Kingdom
+                      38
+                         Department of Physics, University of South Alabama, Mobile, Alabama 36688, USA
+       39
+           Department of Physics and Astronomy, University of South Carolina, Columbia, South Carolina 29208, USA
+                       40
+                          Department of Physics, Southern Methodist University, Dallas, Texas 75275, USA
+         41
+            Department of Physics and Astronomy, University of Sussex, Falmer, Brighton BN1 9QH, United Kingdom
+                              42
+                                 Department of Physics, Syracuse University, Syracuse NY 13210, USA
+                       43
+                          Department of Physics, University of Texas at Austin, Austin, Texas 78712, USA
+                44
+                   Department of Physics and Astronomy, Tufts University, Medford, Massachusetts 02155, USA
+   45
+      Physics and Astronomy Department, University College London, Gower Street, London WC1E 6BT, United Kingdom
+                      46
+                         Department of Physics, University of Virginia, Charlottesville, Virginia 22904, USA
+        47
+           Department of Mathematics, Statistics, and Physics, Wichita State University, Wichita, Kansas 67260, USA
+                          48
+                             Department of Physics, William & Mary, Williamsburg, Virginia 23187, USA
+                 49
+                    Department of Physics, University of Wisconsin-Madison, Madison, Wisconsin 53706, USA
+                   50
+                      Department of Physics and Astronomy, University of Iowa, Iowa City, Iowa 52242, USA
+                      51
+                         Department of Physics, Harvard University, Cambridge, Massachusetts 02138, USA
+                This Letter reports measurements of muon-neutrino disappearance and electron-neutrino appear-
+             ance and the corresponding antineutrino processes between the two NOvA detectors in the NuMI
+             neutrino beam. These measurements use a dataset with double the neutrino mode beam exposure
+             that was previously analyzed, along with improved simulation and analysis techniques. A joint fit
+             to these samples in the three-flavor paradigm results in the most precise single-experiment con-
+                                                                                                            −3
+             straint on the atmospheric neutrino mass splitting, ∆m232 = 2.431+0.036          +0.036
+                                                                                −0.034 (−2.479−0.036 ) × 10    eV2
+             if the mass ordering is normal (inverted). In both orderings, a region close to maximal mixing
+             with sin2 θ23 = 0.55+0.02
+                                  −0.06 is preferred. The NOvA data show a mild preference for the normal mass
+             ordering with a Bayes factor of 2.4 (corresponding to 70% of the posterior probability), indicating
+             that the normal ordering is 2.4 times more probable than the inverted ordering. When incorporating
+             a 2D ∆m232 –sin2 2θ13 constraint based on Daya Bay data, this preference strengthens to a Bayes
+             factor of 6.6 (87%).
+
+
+   Neutrino oscillations [1, 2] describe the phenomenon             Resolving these open questions and achieving precise
+by which a neutrino produced in a particular flavor at           measurements of the mixing parameters have broad im-
+one point in spacetime can subsequently be detected as a         plications for fundamental particle physics. The neutrino
+different flavor. This flavor transformation occurs due to       mass ordering (MO), i.e., whether the third mass eigen-
+mixing [3] between the flavor eigenstates (νe , νµ , ντ ) and    state is heavier (normal MO) or lighter (inverted MO)
+the mass eigenstates (ν1 , ν2 , ν3 ). For a unitary mixing       than the others, is crucial for neutrino mass generation
+matrix, neutrino oscillation probabilities can be charac-        models, understanding supernova neutrino fluxes, and
+terized by three mixing angles (θ12 , θ13 , θ23 ), the charge-   the search for neutrinoless double beta-decay (see [15–17]
+parity (CP) violation phase (δCP ), and two nonzero mass         and references therein). The mixing angle θ23 governs the
+splittings (∆m221 and ∆m232 , where ∆m2ij ≡ m2i − m2j ).         potential symmetry between the νµ and ντ components
+Although intensively studied for over 25 years [4–14], key       of ν3 . The value of δCP is relevant to theories explain-
+aspects of neutrino oscillations remain poorly constrained       ing the matter-antimatter asymmetry of the Universe via
+or entirely unknown. These include the determination of          leptogenesis [18, 19].
+the neutrino mass ordering (whether ∆m232 is positive or            The NuMI Off-axis νe Appearance (NOvA) experi-
+negative), the octant of θ23 (whether θ23 is less than or        ment [20] is designed to study neutrino oscillations using
+greater than π/4), and the existence of CP violation in          Fermilab’s NuMI beam [21] and two functionally identi-
+the neutrino sector (quantified by δCP ).                        cal detectors separated by a long baseline. NOvA mea-
+                                                                                                                        3
+
+sures P (νµ → νµ ) and P (νµ → νe ), along with their an-          The neutrino flux is predicted at the ND and FD us-
+tineutrino counterparts, by comparing unoscillated neu-         ing Geant4 (v4.10) [27, 28], which simulates particle
+trino interactions observed at the Near Detector (ND)           production and transport through the NuMI beamline
+with oscillated interactions at the Far Detector (FD). The      components, and reweighted using the Package to Predict
+ND and FD are located 1 km and 810 km, respectively,            the FluX(PPFX) [29] to incorporate external constraints
+from the neutrino beam target, with both detectors po-          from hadron production measurements [30–48]. Neutrino
+sitioned 14.6 mrad off axis, resulting in a narrow energy       interactions are simulated using a custom model configu-
+band peaked at 1.8 GeV.                                         ration of Genie 3.0.6 [49, 50] tuned to NOvA ND as well
+   The Fermilab Main Injector accelerator delivers              as external data. This tuning creates a NOvA-specific
+120 GeV protons that strike a 1.2 m graphite target, pro-       version of the València MEC model [51, 52], which de-
+ducing a secondary hadron beam. The hadrons are fo-             scribes charged-current (CC) neutrino scattering from
+cused by magnetic horns and directed into a decay pipe,         correlated nucleon pairs via meson exchange. The tune
+where they decay into neutrinos. Integrated over the 1–         also uses pion–nucleus scattering data [53–59] to improve
+5 GeV energy range, the unoscillated beam is 94% pure           the simulation of final-state interactions modeled with
+νµ in neutrino mode and 93% pure ν̄µ in antineutrino            the Genie hN intranuclear cascade model [50]. Outgoing
+mode. The wrong-sign (WS) component, i.e., antineu-             final-state particles from neutrino interactions are then
+trinos in neutrino mode and neutrinos in antineutrino           propagated through the detectors using Geant4 and a
+mode, is 5% (6%) contamination in the neutrino (an-             custom readout simulation [60].
+tineutrino) mode. The remaining flux is less than 1%               Energy distributions of neutrino candidates are built
+intrinsic νe and ν̄e for both modes.                            from reconstructed interactions in both detectors, and
+   Both detectors are low-Z tracking calorimeters com-          for both beam modes, in data and simulation. Detector
+posed of PVC cells with a cross-sectional area of               cells with energy deposits above threshold are grouped
+6.6×3.9 cm2 , corresponding to a depth of 0.18 radia-           into events and subsequently classified as νe CC, νµ CC,
+tion lengths and, in the transverse direction, 0.4 Molière     neutral-current (NC), or cosmic candidates. This identi-
+radii [22] with lengths of 15.5 m (3.9 m) in the FD (ND).       fication combines classical algorithms and deep-learning
+These cells are assembled into planes alternating between       techniques such as a convolutional neural network, fol-
+vertical and horizontal orientations, enabling 3D event         lowing the procedure established in the previous analy-
+reconstruction. Cells are filled with an organic scintilla-     sis [25]. The νe and νµ candidate samples include both
+tor (62% of total detector mass) based on mineral oil with      beam-intrinsic and oscillated neutrinos in the FD, as well
+5% admixture of pseudocumene [23]. Scintillation light,         as WS neutrinos in each beam mode. They also contain
+along with a smaller amount of Cherenkov light, is col-         misidentified events, primarily from NC interactions, cos-
+lected by wavelength-shifting fibers looping through each       mic rays, and other reconstruction failures. For brevity,
+cell with both fiber ends connected to a single pixel on        νµ (ν̄µ ) is used to indicate the dominant component in
+an avalanche photodiode. The ND, located 100 m under-           the neutrino (antineutrino) beam mode, although both
+ground, consists of 192 planes and features an additional       modes contain a mix of νµ and ν̄µ .
+downstream muon catcher composed of alternating steel              The FD νµ (ν̄µ ) samples primarily probe the atmo-
+and scintillator layers for a total active mass of 193 t. The   spheric oscillation parameters θ23 and |∆m232 |. The sen-
+14 kt FD consists of 896 planes. Located on the surface         sitivity from these samples depends on resolving the po-
+with an overburden of 3.6 m water equivalent, the FD ex-        sition and depth of the oscillation minimum (the “dip”)
+periences a cosmic-ray flux of 130 kHz which constitutes        in the reconstructed muon-neutrino energy spectrum,
+                                                                             (−)    (−)
+the primary background. Data are recorded in a window           driven by νµ → ντ oscillations. Accurate estimation
+centered around the 10 µs NuMI beam spill [24]. In addi-        of the neutrino energy and careful choice of binning are
+tion, cosmic-ray data are recorded for use in calibration       critical to this measurement. This structure is visible in
+and background estimation.                                      Fig. 1b, which shows the energy distribution for neutrino
+   The results presented in this Letter use data collected      beam mode. The neutrino energy is estimated as the sum
+from February 6, 2014 to March 13, 2024, correspond-            of the muon energy, determined from track length, and
+ing to a total FD neutrino (antineutrino) beam exposure         hadronic energy, estimated from calorimetry. The mean
+of 26.61 ×1020 (12.50 ×1020 ) protons-on-target (POT)           energy resolution is 6–13% for muon neutrinos and 5–11%
+over 885.53 s (322.59 s) of beam-on time. This is equiva-       for muon antineutrinos, where the variation depends on
+lent to a 96% increase in the neutrino-mode beam expo-          the relative contribution of the hadronic energy compo-
+sure relative to previous NOvA results [25, 26], while the      nent. To improve sensitivity to the dip structure, control
+antineutrino-mode exposure remains unchanged.                   systematic uncertainties, and account for acceptance dif-
+   This analysis builds on previous NOvA work [25],             ferences between detectors, we use finer energy bins near
+incorporating updated simulation, improved systematic           the dip and divide the samples into bins of hadronic en-
+uncertainty treatments, and reoptimized energy recon-           ergy fraction and muon transverse momentum (pT ) [25].
+struction and event selection.                                     The FD νe (ν̄e ) samples primarily probe the MO, δCP
+                                                                                                                                                                                                                                      4
+
+
+                            ν-beam                                                                      ν-beam                                                         ν-beam
+                       6                                                                                                                                                                Low PID             High PID
+                                                      ND Data                                                                  FD data
+                                                                                                                                                                                        FD Data             Best-Fit
+                                                                                                   40                          Best-Fit Prediction                80
+
+
+
+
+106 Events / 0.1 GeV
+                                                      Best-Fit Prediction                                                                                                                                   Prediction
+                                                                                                                               1-σ syst. range                                          Wrong Sign
+                                                                                                                                                                                                            1-σ syst.
+
+
+
+
+                                                                                Events / 0.1 GeV
+                                                      1-σ syst. range                                                          Background                                               bkgd.               range
+
+
+
+                                                                                                                                                                           Low-energy
+                       4
+                                                      Wrong Sign bkgd.
+                                                                                                   30                          Wrong Sign bkgd.                   60                    Beam
+                                                                                                                                                                                        bkgd.
+                                                                                                                                                                                                                           Core
+
+                                                                                                                                                         Events
+                                                                                                                               Cosmic bkgd.
+                                                                                                                                                                                        Cosmic
+                                                                                                                                                                                                                         Peripheral
+                                                                                                                                                                                        bkgd.
+                                                                                                   20                                                             40
+                       2
+
+                                                                                                   10                                                             20
+
+
+                       0
+                        0         1       2       3              4          5
+                                                                                                   0                                                              0
+                                                                                                    0        1       2        3          4           5                 0.5 1.5 1         2   3    4     1    2    3      4
+                             Reconstructed Neutrino Energy (GeV)                                         Reconstructed Neutrino Energy (GeV)                             Reconstructed Neutrino energy (GeV)
+                                          (a)                                                                         (b)                                                                         (c)
+
+FIG. 1. Observed and predicted energy spectra, for νµ CC selected events in the ND (a) and FD (b), and for νe CC selected
+events in the FD (c). In the νµ spectra all subsamples have been combined, while in the νe spectra the four selections (Low-
+energy, low PID, high PID and peripheral) are shown separated. The best-fit prediction is extracted from the frequentist fit
+to the data with the Daya Bay 1D constraint on sin2 2θ13 [61]. The predicted FD spectra have smaller systematic errors than
+the ND spectrum as a result of the extrapolation procedure. The corresponding antineutrino spectra and quartile-separated
+samples are shown in the supplemental material [62].
+
+
+value, and θ23 octant. Electron-neutrino energy is es-                                                                      teractions. To recover these events, candidates that fail
+timated using a quadratic function of the hadronic and                                                                      the core selection are passed through a boosted decision
+electromagnetic shower calorimetric energies. The overall                                                                   tree optimized to identify events with low-energy elec-
+energy resolution is approximately 11% for electron neu-                                                                    tromagnetic showers from primary electrons. Current
+trinos and 9% for electron antineutrinos. The νe appear-                                                                    statistics in antineutrino mode are insufficient to define
+ance measurement is sensitive to separating signal from                                                                     a similar selection.
+background due to a higher relative background contri-                                                                         Similar reconstruction and selection techniques are ap-
+bution than in the νµ samples. As a result, in addition                                                                     plied at the ND to construct candidate samples. In the
+to binning in reconstructed energy, two sub-samples of                                                                      neutrino beam mode, the νµ ND candidate distributions
+differing purities are constructed by grouping candidates                                                                   are used to constrain both the surviving νµ and appearing
+into higher confidence (High PID) and lower confidence                                                                      νe FD signal events while the νe ND candidates are used
+(Low PID) bins, where PID denotes the particle iden-                                                                        to constrain the various FD beam backgrounds in the νe
+tification score. These core bins are dominated by νe                                                                       sample. An analogous process is used for antineutrino
+CC events, arising either from beam-intrinsic νe or from                                                                    beam samples. This data-driven method for building FD
+oscillated νµ .                                                                                                             predictions prior to fitting the FD data to infer oscillation
+   The core bins are supplemented by the Peripheral and,                                                                    parameters is referred to as extrapolation and remains
+in neutrino beam mode, Low-energy samples. As in the                                                                        unchanged from the previous analysis [25]. This proce-
+previous analysis [25], the Peripheral selection adds high-                                                                 dure is essential for mitigating the impact of systematic
+confidence νe events with vertices outside the fiducial                                                                     uncertainties at the FD through the use of high-statistics
+volume that may not deposit all their energy in the de-                                                                     ND data.
+tector. This sample is treated as a single bin per beam                                                                        Systematic uncertainties are evaluated by varying
+mode rather than an energy distribution. Including these                                                                    model parameters in the simulation. The resulting
+events increases the overall selection efficiency, which in                                                                 shifted samples are processed through the same recon-
+turn provides a small improvement in sensitivity for cer-                                                                   struction, selection, and extrapolation procedures to as-
+tain combinations of δCP and mass ordering, despite the                                                                     sess their impact on the analysis. In this work, system-
+higher cosmic background expected from their positions                                                                      atic uncertainties are grouped into categories including:
+in the detector. The Low-energy sample, introduced in                                                                       neutrino flux, neutrino interaction cross sections, detec-
+this analysis, covers the 0.5 to 1.5 GeV energy range,                                                                      tor simulation, calibrations, lepton reconstruction, un-
+a previously underexplored region with significant sensi-                                                                   correlated effects between the ND and FD, and neutron
+tivity to the MO, now accessible due to the cumulative                                                                      propagation in the detector. Most uncertainty estimates
+increase in neutrino beam exposure. Although statistics                                                                     are unchanged from the previous analysis [25], although
+in this region remain limited, they are sufficient to im-                                                                   several new sources are now included.
+prove the oscillation constraints. The sample is expected                                                                      In the cross-section category, new uncertainties are in-
+to suffer from high backgrounds, primarily because Low-                                                                     troduced to address potential mismodeling of pion pro-
+energy νe events are difficult to distinguish from NC in-                                                                   duction in the transition region between resonant (RES)
+                                                                                                                             5
+
+and deep inelastic scattering (DIS), which is particularly
+                                                                TABLE I. Systematic and statistical uncertainties on the os-
+challenging to model accurately [63]. Genie’s implemen-         cillation parameters ∆m232 , sin2 θ23 , and δCP are evaluated
+tation assumes, as an ansatz, a fixed relationship be-          at the best-fit point extracted from a frequentist fit with the
+tween charged and neutral final states in this region.          Daya Bay 1D constraint on sin2 2θ13 [61]. These predicted
+It also does not include uncertainties on the relative          ±1σ ranges are given as absolute error on the best-fit val-
+production rates of ∆ and higher resonances. There-             ues. Asymmetric errors on δCP and sin2 θ23 arise from limited
+fore, additional uncertainties are included to account for      sensitivity and degeneracy in parameters, leading to several
+possible variations in these quantities consistent with         highly probable regions that vary with the best-fit values.
+the current data [64, 65]. For the detector model, the                             |∆m232 |          sin2 θ23        δCP
+Geant4Reweight package [66] is used to address un-              Source           (×10−5 eV2 )       (×10−3 )      (×10−2 π)
+certainties in the inelastic scattering of protons and pions    Beam flux         +0.06/-0.12      +0.40/-0.75    +0.16/-1.00
+produced during both primary neutrino interactions and          Calibration       +1.40/-1.80      +3.20/-16.0    +1.70/-17.0
+                                                                Detector model    +0.17/-0.27      +0.36/-3.90    +0.37/-3.30
+subsequent secondary interactions [67]; these uncertain-
+                                                                Lepton Reco.      +0.90/-1.40      +2.70/-4.50    +0.61/-2.90
+ties are incorporated using principal component analy-          ND – FD Uncor. +0.25/-0.34         +2.40/-2.50    +0.79/-4.00
+sis [68]. In the neutron model category, a supplemen-           Cross Sections    +0.65/-1.10      +3.10/-5.10    +2.00/-9.70
+tary model, Menate [69, 70], is introduced to evaluate          Neutron model     +0.25/-0.39      +2.70/-0.49    +0.43/-1.30
+neutron detection uncertainties based on its differences        Systematic Unc. +1.70/-2.30        +6.60/-18.0    +2.90/-21.0
+with the default Geant4 model [71]. Menate provides             Statistical Unc.  +3.20/-4.40      +22.0/-85.0    +6.60/-74.0
+improved modeling of neutron interactions in the 20–
+200 MeV range, where Geant4 tends to underestimate
+energy deposition in scintillator detectors. Finally, fol-      plementary analyses – a Bayesian Markov Chain Monte
+lowing the update to NOvA’s custom light model, two             Carlo (MCMC) method to compute posterior probabil-
+sets of systematic uncertainties are applied: a ±5% vari-       ity density distributions, and a frequentist analysis that
+ation in the overall light yield and a ±6.2% scaling of the     yields consistent results. The Bayesian fits use uniform
+Cherenkov light-collection efficiency.                          priors in the oscillation parameters as plotted (e.g., flat
+    The extrapolation method reduces the impact of sys-         in sin2 θ23 and δCP ) and Gaussian priors for the system-
+tematic uncertainties that are correlated between the de-       atic parameters, as detailed in [26]. The results from
+tectors, particularly those related to flux and cross sec-      these fits can be marginalized (in the Bayesian frame-
+tion. To provide a scale of this improvement, system-           work) or profiled (in the frequentist framework), either
+atic uncertainties on the predicted total FD event rates        simultaneously over both MO (non-conditional) or sep-
+drop from 12–18% to 3–6.5%, depending on the sample.            arately for each MO (conditional). Unless stated other-
+Among the systematic uncertainties, those related to de-        wise, the results reported in the main text are conditional
+tector calibration contribute most to the uncertainties in      on the MO and incorporate the 1D Daya Bay constraint
+∆m232 and sin2 θ23 , while cross-section systematics, espe-     on θ13 . A comprehensive set of results, including different
+cially those associated with the uncertainty in νe /νµ and      marginalizations over MO and variations in constraints
+ν̄e /ν̄µ cross section, primarily affect the δCP measure-       from Daya Bay, is provided in the supplemental materi-
+ment. Table I summarizes the statistical and systematic         als [62].
+contributions to the oscillation parameter uncertainties,
+showing that statistical errors are the dominant source            With the increased statistics and updated analysis,
+of uncertainty for all measured parameters.                     NOvA recorded 181 νe and 384 νµ candidates in neu-
+                                                                trino mode, and 32 ν̄e and 106 ν̄µ candidates in antineu-
+    Oscillation parameters are inferred using a Poisson
+                                                                trino mode at the FD. The FD spectra resulting from
+likelihood with a log-likelihood difference test statistic to
+                                                                the fitting procedure are shown in Fig. 1 for the neu-
+compare the data and the corrected simulated FD spectra
+                                                                trino beam, and Table II presents the observed neutrino
+across various oscillation and systematic hypotheses. The
+                                                                counts alongside the Monte-Carlo predictions. These
+analysis constrains sin2 θ23 , sin2 2θ13 , ∆m232 , and δCP ,
+                                                                predicted values, separated into signal and background
+with both hypotheses of neutrino MO tested against the
+                                                                sub-components, are derived from the frequentist best-
+data. Because the sensitivity to θ13 is limited when fitting
+                                                                fit oscillation and systematic parameters. These fits
+multiple oscillation parameters simultaneously, external
+                                                                yield ∆m232 = 2.441+0.035
+                                                                                        −0.031 × 10
+                                                                                                      −3
+                                                                                                         eV2 in the normal
+input from the Daya Bay experiment [61] is incorporated                                        +0.034
+to improve precision. Three treatments of θ13 are consid-       MO and ∆m32 = −2.481−0.034 × 10−3 eV2 in the in-
+                                                                               2
+
+ered: no constraint (using only NOvA data), the Daya            verted MO. The inverted MO is disfavored at 1.4 σ con-
+Bay sin2 2θ13 constraint (1D Daya Bay), and the two-            fidence level. The best-fit point for δCP is 0.87+0.30
+                                                                                                                    −0.90 π
+dimensional Daya Bay constraint on sin2 2θ13 and ∆m232          and sin2 θ23 = 0.55+0.02
+                                                                                       −0.06 .   The   Feldman–Cousins  ap-
+(2D Daya Bay). All other oscillation parameters are fixed       proach [73, 74] is used to determine frequentist confidence
+to their values from PDG 2023 [72].                             intervals for the oscillation parameters.
+    In this Letter, results are extracted using two com-          The Bayesian MCMC fits report ∆m232 = 2.431+0.036
+                                                                                                             −0.034 ×
+                                                                                                                                                                      6
+
+
+TABLE II. Observed and predicted numbers of νµ , νe and
+                                                                                           2.8                                            Marginalized separately
+Low-energy νe events in the neutrino beam, and ν̄µ and ν̄e                                               90% CI (B) or CL (F)
+                                                                                                                                          over orderings, Normal MO
+events in the antineutrino beam. The low PID, high PID,
+                                                                                                            NOvA HPD
+and Peripheral samples have been combined in the νe (ν̄e )                                 2.6
+
+
+
+
+                                                                      ∆ m232 (10-3 eV2)
+columns, while the Low-energy sample is shown separately
+due to its novel status in this analysis. WS is considered sig-                            2.4
+nal in the νµ and ν̄µ samples, but background in the νe and
+ν̄e samples. We denote as Others the sum of all remaining                                  2.2
+oscillation channels that are not listed explicitly in this table.
+The best-fit point for the prediction is extracted from a fre-                                      2           NOvAB                             NOvA+T2KB
+quentist fit to the data with the Daya Bay 1D constraint on                                                     NOvA (previous result)B           T2KF
+                                                                                                                T2K+SuperKB                       MINOSF
+sin2 2θ13 [61].                                                                                                 SuperKF                           IceCubeF
+                                                                                           1.8
+                          Neutrino               Antineutrino                                                 0.4                0.5                  0.6
+                           Beam                     Beam                                                                        sin θ23
+                                                                                                                                    2
+
+                                        Low-
+Sample              νµ          νe                ν̄µ       ν̄e
+                                       energy                        FIG. 2. Comparisons of the 90% intervals for ∆m232 – sin2 θ23
+                                                                     in the normal MO with NOvA 2020 results and superimposed
+νµ →νµ            372.3         4.3      0.3     24.4      0.2
+                                                                     contours from other experiments [76–80], including the 2024
+ν̄µ →ν̄µ           24.5         0.1      0.0     71.5       0.2
+                                                                     joint NOvA-T2K analysis [81].The NOvA results are with the
+νµ →νe             0.4        125.3      3.4     0.0       2.1
+                                                                     1D Daya Bay constraint on θ13 applied [61]. Contours la-
+ν̄µ →ν̄e           0.0          1.8      0.1      0.0      18.9
+                                                                     beled B are from Bayesian analyses, while those labeled F are
+Beam νe + ν̄e      0.1         26.1      0.8     0.0       6.5
+                                                                     from frequentist analyses, used when Bayesian results were
+NC                 5.5         16.8      5.3     0.8       2.0
+                                                                     not available.
+Cosmic              4.4         5.5      0.5      0.7      1.1
+Others              1.5         0.8      0.1     0.2       0.1
+Signal          397.6+26.8      +5.1    +1.0     +5.2     +0.8
+                     −24.2 125.3−5.1 3.4−0.8 96.0−5.7 18.9−0.9       over CP conservation were extracted using the Savage-
+Background       11.0−1.2 55.4−1.7 7.1−1.1 1.7−0.2 12.2+0.5
+                     +1.3      +2.6     +1.3    +0.2
+                                                          −0.7       Dickey method [82, 83] based on the Jarlskog invari-
+Predicted         408.6       180.7     10.5     97.7      31.1
+                                                                     ant [84], with Jarlskog invariant of 0 representing CP
+Observed           384         169       12      106        32       conservation. The Bayes factors for CP violation are 1.1
+                                                                     (containing 51% of the posterior probability) in the nor-
+                                                                     mal MO and 4.3 (81%) in the inverted MO, and remain
+                                                                     compatible with both CP conservation and CP violation.
+10−3 eV2 in the normal MO or ∆m232 = −2.479+0.036      −0.036
+×10−3 eV2 in the inverted MO. The highest posterior
+density (HPD) for δCP is 0.93+0.21
+                                −0.89 π in the normal MO.                                           50
+For both MO, the data favor regions of parameter space                                                              1σ posterior range               Both MO
+close to maximal mixing, sin2 θ23 = 0.55+0.02−0.06 , with no                                        45              FD Data
+significant preference for octant. Fig. 2 shows the 90%
+
+
+
+
+                                                                                All νe candidates
+credible regions in the ∆m232 –sin2 θ23 plane extracted                                                                                         Normal MO
+from this analysis compared to other experiments and                                                40                                          Inverted MO
+previous NOvA results. Good agreement is seen across
+all the experiments. The goodness of fit is estimated us-                                           35
+ing posterior-predictive p-values (PPP), where sampled
+models that describe the data well will have values close                                           30         δ CP = 0, 2π
+to 0.5 [75]. With the 1D Daya Bay constraint on θ13 ,                                                          δ CP = π/2
+the total PPP across all data samples is 0.48, indicating                                           25         δ CP = 3π/2
+good agreement between the data and the model. The
+                                                                                                               δ CP = π
+PPP does not change significantly when either no exter-                                             20
+nal constraint on θ13 is used or when the two-dimensional                                            100                  150               200             250
+sin2 2θ13 –∆m232 constraint from Daya Bay is applied [62].                                                             All νe candidates
+  The NOvA data lie in the degenerate region of pa-
+rameter space which can be accommodated within either                FIG. 3. Bi-event plot showing the posterior probability for
+MO by varying the preferred values of δCP , as shown                 the predicted number of νe and ν̄e events in purple, with the
+in Fig. 3. Bayes factors, representing ratios of posterior           1 σ credible interval and the FD data point marked. The two
+probabilities between two hypotheses, are used here to               ovals, red for the inverted MO and blue for the normal MO,
+represent how much more probable one model is over an-               show the prediction with all the parameters fixed at the NOvA
+other. Bayes factors for the preference of CP violation              best-fit, varying only δCP , with four δCP points marked.
+                                                                                                                                                                                                  7
+
+   This analysis reports the most precise single-                                                                                       accelerator and reactor experiments to be leveraged by
+experiment measurements of ∆m232 , achieving a frac-                                                                                    incorporating a 2D sin2 θ13 –∆m232 constraint from Daya
+tional uncertainty of 1.5%. This improved precision                                                                                     Bay, strengthening the preference for the normal MO to
+provides an additional lever for probing the neutrino                                                                                   87%. Additional data from current and upcoming neu-
+MO [85, 86]. Reactor and long-baseline accelerator mea-                                                                                 trino oscillation experiments will help resolve degenera-
+surements of ∆m232 should agree only under the correct                                                                                  cies, enabling a definitive determination of the MO and
+MO hypothesis. Fig. 4 shows a comparison of the NOvA                                                                                    the potential discovery of CP violation in the lepton sec-
+and the 2D Daya Bay constraints in the sin2 2θ13 –∆m232                                                                                 tor. High-precision measurements of mixing parameters
+plane under the two MO hypotheses, with somewhat bet-                                                                                   across multiple oscillation channels will also provide a ro-
+ter agreement in the normal MO. Without any external                                                                                    bust test of the three-flavor paradigm in neutrino physics.
+θ13 constraint, NOvA data show a slight preference for
+normal MO vs inverted MO, with a Bayes factor of 2.4
+(70% of posterior probability in favor of normal MO over
+inverted MO hypothesis). Applying the 1D sin2 θ13 con-                                                                                                ACKNOWLEDGEMENTS
+straint from Daya Bay [61], this preference increases to
+3.3 (77%). When a 2D sin2 θ13 –∆m232 constraint from                                                                                       This document was prepared by the NOvA collabora-
+Daya Bay is applied, the preference strengthens further                                                                                 tion using the resources of the Fermi National Accelera-
+to 6.6 (87%). The posterior probability distributions for                                                                               tor Laboratory (Fermilab), a U.S. Department of Energy,
+each are shown in the supplemental materials [62], and                                                                                  Office of Science, HEP User Facility. Fermilab is man-
+the data release is available at [87].                                                                                                  aged by Fermi Forward Discovery Group, LLC, acting
+                                                                                                                                        under Contract No. 89243024CSC000002. This research
+                    2.7                                                                                                                 used resources of the National Energy Research Scientific
+                                                Marginalized jointly
+                                                over orderings, Normal MO
+                                                                                                                                        Computing Center, a DOE Office of Science User Facility
+
+
+
+ ∆m232 (10-3 eV2)
+                    2.6                                                                                                                 supported by the Office of Science of the U.S. Department
+                                                                                                                                        of Energy under Contract No. DE-AC02-05CH11231 us-
+                    2.5
+                                                                                                                                        ing NERSC award HEP-ERCAP0028967. This work was
+                    2.4                                                                                                                 supported by the U.S. Department of Energy; the U.S.
+                                                                              1σ                                                        National Science Foundation; the Department of Science
+                    2.3                                                       2σ
+                                                                              3σ
+                                                                                                         no constraints                 and Technology, India; the European Research Council;
+                                                                                                         2D constraint
+                                                                                                                                        the MSMT CR, GA UK, Czech Republic; the RAS, the
+                          0.04    0.06   0.08    0.1        0.12    0.14   0.16    0.18   0       0.02               0.04        0.06
+
+                          Bayesian CI       sin 2 θ    2
+                                         Marginalized jointly
+                                                           13
+                                                                                                         Daya Bay, 1σ
+                                                                                                         Posterior Probability
+                                                                                                                                        Ministry of Science and Higher Education, and RFBR,
+                          no constraints over orderings, Inverted MO                                     no constraints
+                −2.3                                                                                                                    Russia; CNPq and FAPEG, Brazil; UKRI, STFC and
+
+
+∆ m232 (10-3 eV2)
+                                                                                                         2D constraint
+                                                                                                                                        the Royal Society, United Kingdom; and the State and
+               −2.4                                                                                                                     University of Minnesota. We are grateful for the contri-
+                                                                                                                                        butions of the staffs of the University of Minnesota at
+                −2.5
+                                                                                                                                        the Ash River Laboratory, and of Fermilab. For the pur-
+                −2.6                                                                                                                    pose of open access, the authors have applied a Creative
+                                                                   NOvA
+                                                                   Daya Bay 2023                                                        Commons Attribution (CC BY) license to any Author
+               −2.7                                                                                                                     Accepted Manuscript version arising.
+                                 0.06           0.1                0.14           0.18           0.02 0.04 0.06
+                                                sin22θ13                                      Posterior Probability
+
+
+FIG. 4. A comparison of the NOvA and Daya Bay constraints
+in the sin2 2θ13 – ∆m232 plane under the assumption of normal                                                                            [1] B. Pontecorvo, Sov. Phys. JETP 26, 984 (1968).
+(top) or inverted (bottom) MO. The 2D binned NOvA poste-                                                                                 [2] S. Bilenky and B. Pontecorvo, Physics Reports 41, 225
+rior shown in color in the left panels is without any external                                                                               (1978).
+constraints on θ13 . Panels on the right illustrate the effect of                                                                        [3] Z. Maki, M. Nakagawa, and S. Sakata, Prog. Theor.
+applying a 2D sin2 θ13 –∆m232 constraint from Daya Bay [61]                                                                                  Phys. 28, 870 (1962).
+on the MO preference.                                                                                                                    [4] Y. Fukuda et al. (Super-Kamiokande), Phys. Rev. Lett.
+                                                                                                                                             81, 1562 (1998), arXiv:hep-ex/9807003 [hep-ex].
+   To conclude, NOvA has reported improved constraints                                                                                   [5] S. Fukuda et al. (Super-Kamiokande), Phys. Lett. B 539,
+on δCP , θ13 , θ23 and ∆m232 with 10 years of data col-                                                                                      179 (2002), arXiv:hep-ex/0205075 [hep-ex].
+lected with neutrino and antineutrino beams using en-                                                                                    [6] Q. R. Ahmad et al. (SNO), Phys. Rev. Lett. 89, 011301
+                                                                                                                                             (2002), arXiv:nucl-ex/0204008 [nucl-ex].
+hanced analysis techniques. Notably, NOvA now pro-                                                                                       [7] K. Eguchi et al. (KamLAND), Phys. Rev. Lett. 90,
+vides the most precise measurement of ∆m232 to date,                                                                                         021802 (2003), arXiv:hep-ex/0212021 [hep-ex].
+with a precision of 1.5%. This enhanced precision in                                                                                     [8] D. G. Michael et al. (MINOS), Phys. Rev. Lett. 97,
+measuring ∆m232 enables the complementarity between                                                                                          191801 (2006), arXiv:hep-ex/0607088 [hep-ex].
+                                                                                                                              8
+
+ [9] M. H. Ahn et al. (K2K), Phys. Rev. D74, 072003 (2006),            arXiv:1207.6520 [hep-ex].
+     arXiv:hep-ex/0606032 [hep-ex].                               [38] P. Skubic et al., Phys. Rev. D18, 3115 (1978).
+[10] K. Abe et al. (T2K), Phys. Rev. Lett. 107, 041801 (2011),    [39] S. P. Denisov, S. V. Donskov, Yu. P. Gorin, R. N. Kras-
+     arXiv:1106.2822 [hep-ex].                                         nokutsky, A. I. Petrukhin, Yu. D. Prokoshkin, and D. A.
+[11] Y. Abe et al. (Double Chooz), Phys. Rev. Lett. 108,               Stoyanova, Nucl. Phys. B61, 62 (1973).
+     131801 (2012), arXiv:1112.6353 [hep-ex].                     [40] A. S. Carroll et al., Phys. Lett. 80B, 319 (1979).
+[12] F. P. An et al. (Daya Bay), Phys. Rev. Lett. 108, 171803     [41] K. Abe et al. (T2K), Phys. Rev. D87, 012001 (2013),
+     (2012), arXiv:1203.1669 [hep-ex].                                 [Addendum: Phys. Rev. D87, no.1, 019902 (2013)],
+[13] J. K. Ahn et al. (RENO), Phys. Rev. Lett. 108, 191802             arXiv:1211.0469 [hep-ex].
+     (2012), arXiv:1204.0626 [hep-ex].                            [42] T. K. Gaisser, G. B. Yodh, V. D. Barger, and F. Halzen,
+[14] N. Agafonova et al. (OPERA), Phys. Rev. Lett. 120,                in 14th International Cosmic Ray Conference (ICRC
+     211801 (2018), [Erratum: Phys.Rev.Lett. 121, 139901               1975) Munich, Germany, August 15-29, 1975 (1975) pp.
+     (2018)], arXiv:1804.04912 [hep-ex].                               2161–2166.
+[15] S. F. King, A. Merle, S. Morisi, Y. Shimizu, and M. Tan-     [43] J. W. Cronin, R. Cool, and A. Abashian, Phys. Rev.
+     imoto, New J. Phys. 16, 045018 (2014), arXiv:1402.4271            107, 1121 (1957).
+     [hep-ph].                                                    [44] J. V. Allaby et al. (IHEP-CERN), Phys. Lett. 30B, 500
+[16] K. Scholberg, J. Phys. G 45, 014002 (2018),                       (1969).
+     arXiv:1707.06384 [hep-ex].                                   [45] M. J. Longo and B. J. Moyer, Phys. Rev. 125, 701 (1962).
+[17] M. J. Dolinski, A. W. P. Poon,            and W. Rode-       [46] B. M. Bobchenko et al., Sov. J. Nucl. Phys. 30, 805
+     johann, Ann. Rev. Nucl. Part. Sci. 69, 219 (2019),                (1979), [Yad. Fiz. 30, 1553 (1979)].
+     arXiv:1902.04097 [nucl-ex].                                  [47] V. B. Fedorov, Y. G. Grishuk, M. V. Kosov, G. A. Leksin,
+[18] S. Pascoli, S. T. Petcov, and A. Riotto, Phys. Rev. D             N. A. Pivnyuk, S. V. Shevchenko, V. L. Stolin, A. V.
+     75, 083511 (2007), arXiv:hep-ph/0609125.                          Vlasov, and L. S. Vorobev, Sov. J. Nucl. Phys. 27, 222
+[19] G. C. Branco, R. Gonzalez Felipe, and F. R. Joaquim,              (1978).
+     Phys. Lett. B 645, 432 (2007), arXiv:hep-ph/0609297.         [48] R. J. Abrams, R. L. Cool, G. Giacomelli, T. F. Kycia,
+[20] D. S. Ayres et al. (NOvA), Report No. FERMILAB-                   B. A. Leontic, K. K. Li, and D. N. Michael, Phys. Rev.
+     DESIGN-2007-01 (2007).                                            D 1, 1917 (1970).
+[21] P. Adamson et al., Nucl. Instrum. Meth. A 806, 279           [49] C. Andreopoulos et al., Nucl. Instrum. Meth. A 614, 87
+     (2016), arXiv:1507.06690 [physics.acc-ph].                        (2010), arXiv:0905.2517 [hep-ph].
+[22] R. L. Talaga, J. J. Grudzinski, S. Phan-Budd, A. Pla-        [50] C. Andreopoulos, C. Barry, S. Dytman, H. Gallagher,
+     Dalmau, J. E. Fagan, C. Grozis, and K. M. Kephart,                T. Golan, R. Hatcher, G. Perdue, and J. Yarba, (2015),
+     Nucl. Instrum. Meth. A 861, 77 (2017), arXiv:1601.00908           arXiv:1510.05494 [hep-ph].
+     [physics.ins-det].                                           [51] J. Nieves et al., Phys. Rev. C 83, 045501 (2011).
+[23] S. Mufson et al., Nucl. Instrum. Meth. A799, 1 (2015),       [52] R. Gran, J. Nieves, F. Sanchez, and M. J. Vicente Vacas,
+     arXiv:1504.04035 [physics.ins-det].                               Phys. Rev. D 88, 113007 (2013), arXiv:1307.8105 [hep-
+[24] A. Norman (NOvA), J. Phys. Conf. Ser. 396, 012035                 ph].
+     (2012).                                                      [53] B. W. Allardyce et al., Nucl. Phys. A 209, 1 (1973).
+[25] M. A. Acero et al. (NOvA), Phys. Rev. D 106, 032004          [54] A. Saunders, S. Hoeibraten, J. J. Kraushaar, B. J. Kriss,
+     (2022), arXiv:2108.08219 [hep-ex].                                R. J. Peterson, R. A. Ristinen, J. T. Brack, G. Hofman,
+[26] M. A. Acero et al. (NOvA), Phys. Rev. D 110, 012005               E. F. Gibson, and C. L. Morris, Phys. Rev. C 53, 1745
+     (2024), arXiv:2311.07835 [hep-ex].                                (1996).
+[27] S. Agostinelli et al. (GEANT4), Nucl. Instrum. Meth. A       [55] O. Meirav, E. Friedman, R. R. Johnson, R. Olszewski,
+     506, 250 (2003).                                                  and P. Weber, Phys. Rev. C 40, 843 (1989).
+[28] Geant4             Collaboration,          https://geant4-   [56] S. M. Levenson et al., Phys. Rev. C 28, 326 (1983).
+     data.web.cern.ch/ReleaseNotes/ReleaseNotes4.10.4.html        [57] D. Ashery, I. Navon, G. Azuelos, H. K. Walter, H. J.
+     (2017).                                                           Pfeiffer, and F. W. Schleputz, Phys. Rev. C 23, 2173
+[29] L. Aliaga et al. (MINERvA), Phys. Rev. D 94, 092005               (1981).
+     (2016), [Addendum: Phys. Rev.D95,no.3,039903(2017)],         [58] D. Ashery et al., Phys. Rev. C 30, 946 (1984).
+     arXiv:1607.00704 [hep-ex].                                   [59] E. S. Pinzon Guerra et al. (DUET), Phys. Rev. C 95,
+[30] J. M. Paley et al. (MIPP), Phys. Rev. D90, 032001                 045203 (2017), arXiv:1611.05612 [hep-ex].
+     (2014), arXiv:1404.5882 [hep-ex].                            [60] A. Aurisano, C. Backhouse, R. Hatcher, N. Mayer,
+[31] C. Alt et al. (NA49), Eur. Phys. J. C49, 897 (2007),              J. Musser, R. Patterson, R. Schroeter, and A. Sousa
+     arXiv:hep-ex/0606028 [hep-ex].                                    (NOvA), J. Phys. Conf. Ser. 664, 072002 (2015).
+[32] N. Abgrall et al. (NA61/SHINE), Phys. Rev. C84,              [61] F. P. An et al. (Daya Bay), Phys. Rev. Lett. 130, 161802
+     034604 (2011), arXiv:1102.0983 [hep-ex].                          (2023), arXiv:2211.14988 [hep-ex].
+[33] D. S. Barton et al., Phys. Rev. D27, 2580 (1983).            [62] See           Supplemental           Material         at
+[34] S. M. Seun, Measurement of π–K ratios from the NuMI               http://link.aps.org/supplemental/10.1103/x53y-2b86 for
+     target, Ph.D. thesis, Harvard U. (2007).                          the energy distributions, posterior-predictive p-values,
+[35] G. M. Tinti, Sterile neutrino oscillations in MINOS and           Bayesian highest-posterior and Frequentist best-fit
+     hadron production in pC collisions, Ph.D. thesis, Oxford          oscillation parameters,1D and 2D posterior probabil-
+     U. (2010).                                                        ity densities, and for further comparisons with other
+[36] A. V. Lebedev, Ratio of pion kaon production in proton            experiments. Includes Refs. [88–95].
+     carbon interactions, Ph.D. thesis, Harvard U. (2007).        [63] L. Alvarez-Ruso et al. (NuSTEC), Prog. Part. Nucl.
+[37] B. Baatar et al. (NA49), Eur. Phys. J. C73, 2364 (2013),          Phys. 100, 1 (2018), arXiv:1706.03621 [hep-ph].
+                                                                                                                            9
+
+[64] M. Martinez Casales, Constraining neutrino interaction           (2024), arXiv:2406.01007 [hep-ex].
+     uncertainties for oscillation measurements in the NOvA      [91] I. Yu, “New Results from RENO,” presented at Neutrino-
+     experiment using Near Detector data, Ph.D. thesis, Iowa          2018 (June 2018).
+     State U. (2023).                                            [92] M. Gonchar, L. Kolupaeva,           and Y. Malyshkin,
+[65] M. Dolce, Constraining neutrino oscillation and interac-         Neutrino       oscillation   parameter      comparisons,
+     tion parameters with the NOvA Near Detector and Far              https://git.jinr.ru/nu/osc (2024).
+     Detector data using Markov Chain Monte Carlo, Ph.D.         [93] R. E. Kass and A. E. Raftery, Journal of the American
+     thesis, Tufts U. (2023).                                         Statistical Association 90, 773 (1995).
+[66] J. Calcutt, C. Thorpe, K. Mahn, and L. Fields, JINST        [94] H. Jeffreys, Theory of Probability, 3rd ed. (Oxford, Ox-
+     16, P08042 (2021), arXiv:2105.01744 [physics.data-an].           ford, England, 1961).
+[67] C. Sweeney, Measurement of the muon neutrino charged-       [95] F. James, MINUIT Function Minimization and Er-
+     current single charged pion production cross-section in          ror Analysis: Reference Manual Version 94.1 (1994),
+     the NOvA Near Detector, Ph.D. thesis, University Coll.           CERNLIB-D506.
+     London (2023).
+[68] B. J. Jargowsky (NOvA), A Measurement of νe Appear-
+     ance and νµ Disappearance Using 10 Years of Data from
+     the NOvA Experiment, Ph.D. thesis, UC, Irvine (2024).
+[69] B. Roeder, EURISOL Design Study, Report No. 10-25-
+     2008-006-In-beamvalidations.pdf, pp 31-44 (2008).
+[70] Z. Kohley et al., Nucl. Instrum. Meth. A 682, 59 (2012).
+[71] M. J. Rabelhofer, Study of neutron detector response and
+     related systematic uncertainties in the NOvA oscillation
+     analysis, Ph.D. thesis, Iowa State U. (2023).
+[72] R. L. Workman et al. (Particle Data Group), PTEP
+     2022, 083C01 (2022).
+[73] G. J. Feldman and R. D. Cousins, Phys. Rev. D57, 3873
+     (1998), arXiv:physics/9711021 [physics.data-an].
+[74] M. A. Acero et al. (NOvA), JINST 20, T02001 (2025),
+     arXiv:2207.14353 [hep-ex].
+[75] A. Gelman, X.-L. Meng, and H. Stern, Statistica Sinica
+     6, 733 (1996).
+[76] K. Abe et al. (T2K, Super-Kamiokande), Phys. Rev.
+     Lett. 134, 011801 (2025), arXiv:2405.12488 [hep-ex].
+[77] R. Abbasi et al. (IceCube), Phys. Rev. Lett. 134, 091801
+     (2025), arXiv:2405.02163 [hep-ex].
+[78] P. Dunne et al. (T2K), Oscillation results from Neutrino
+     2022, Data release (2022), 10.5281/zenodo.6908532.
+[79] P. Adamson et al. (MINOS+), Phys. Rev. Lett. 125,
+     131802 (2020), arXiv:2006.15208 [hep-ex].
+[80] T. Wester et al. (Super-Kamiokande), Phys. Rev. D 109,
+     072014 (2024), arXiv:2311.05105 [hep-ex].
+[81] S. Abubakar et al. (NOvA and T2K), Nature 646, 818
+     (2025), arXiv:2510.19888 [hep-ex].
+[82] J. M. Dickey, The Annals of Mathematical Statistics 42,
+     204 (1971).
+[83] J. Mulder, E. J. Wagenmakers, and M. Marsman,
+     (2020), 10.48550/arxiv.2004.09899.
+[84] The magnitude of CP violation is dependent on all the
+     neutrino mixing angles, rather than δCP alone, and is de-
+     pendent on the parametrization of the PMNS matrix.
+     Jarlskog invariant is a rephase-invariant measure, and
+     therefore more useful in determining non-conservation of
+     the CP symmetry.
+[85] H. Nunokawa, S. J. Parke, and R. Zukanovich Funchal,
+     Phys. Rev. D 72, 013009 (2005), arXiv:hep-ph/0503283.
+[86] S. J. Parke and R. Z. Funchal, Phys. Rev. D 111, 013008
+     (2025), arXiv:2404.08733 [hep-ph].
+[87] S. Abubakar et al. (NOvA), NOvA 2024 official data re-
+     lease (2025), 10.5281/zenodo.17822359.
+[88] D. Carabadjac, “T2K Neutrino Oscillation Analysis,”
+     presented at ICHEP 2024 (July 2024).
+[89] S. Jeon et al. (RENO), (2024), arXiv:2412.18711 [hep-
+     ex].
+[90] F. P. An et al. (Daya Bay), Phys. Rev. Lett. 133, 151801
+                                                                                                                                                                                                                                     S1
+
+                                      SUPPLEMENTAL MATERIAL FOR:
+                PRECISION MEASUREMENT OF NEUTRINO OSCILLATION PARAMETERS WITH 10 YEARS OF
+                                    DATA FROM THE NOVA EXPERIMENT
+
+  This supplemental material provides additional details supporting the main results presented in the Letter. Sec. I
+presents further NOvA data distributions used in the analysis. Sec. II provides a detailed presentation of the Bayesian
+analysis, with Table S1 summarizing the highest posterior density points and 1σ intervals under various assumptions.
+Sec. II:1 enumerates the goodness of fit using posterior-predictive p-values, split by FD data sample and reactor
+constraints. Sec. II:2 provides one- and two-dimensional posterior probability distributions, while Sec. II:3 compares
+results across several other experiments. Sec. II:4 briefly discusses the MO and θ23 octant preferences derived from
+the analysis. Finally, Sec. III presents results obtained using an alternative frequentist statistical treatment of the
+dataset.
+
+
+                                                                                                                  I.   NOvA Data
+
+  The data collected by the NOvA experiment used for the analysis shown in the associated Letter are described in
+the analysis section, with Fig. 1 showing the observed and predicted energy spectra in the neutrino beam mode. For
+completeness, Fig. S1 shows the observed and predicted energy spectra in the antineutrino beam mode, and Fig. S2
+further splits the νµ and ν̄µ spectra into the four hadronic energy fractions used in the analysis.
+
+
+                             ν-beam                                                                      ν-beam                                                           ν-beam
+                       1.5                                                                                                                                           20
+                                                                                                    14                                                                         Low PID            High PID
+                                                       ND Data                                                                    FD data
+                                                                                                                                                                                FD Data             Best-Fit
+                                                                                                    12                            Best-Fit Prediction
+
+
+
+
+106 Events / 0.1 GeV
+                                                       Best-Fit Prediction                                                                                                                          Prediction
+                                                                                                                                  1-σ syst. range                    15         Wrong Sign
+                                                                                                                                                                                                    1-σ syst.
+
+
+
+
+                                                                                 Events / 0.1 GeV
+                                                       1-σ syst. range                                                            Background                                    bkgd.
+                         1                                                                          10                                                                                              range
+
+
+
+                                                                                                                                                                                                                        Peripheral
+                                                                                                                                                                                Beam
+                                                       Wrong Sign bkgd.
+                                                                                                                                  Wrong Sign bkgd.                              bkgd.
+                                                                                                                                                                                                                 Core
+                                                                                                                                                            Events
+                                                                                                    8                             Cosmic bkgd.                                  Cosmic
+                                                                                                                                                                     10         bkgd.
+                                                                                                    6
+                       0.5
+                                                                                                    4                                                                5
+                                                                                                    2
+
+                        0
+                         0         1       2       3              4          5
+                                                                                                    0                                                                0
+                                                                                                     0        1         2         3         4           5                 1     2   3     4   1     2     3      4
+                              Reconstructed Neutrino Energy (GeV)                                         Reconstructed Neutrino Energy (GeV)                                 Reconstructed Neutrino Energy (GeV)
+                                           (a)                                                                              (b)                                                               (c)
+
+FIG. S1. Observed and predicted energy spectra, for ν̄µ CC selected events in the ND (left) and FD (middle), and for ν̄e CC
+selected events in the FD (right). In the ν̄µ spectra all hadronic energy fraction quartiles and transverse momentum quantiles
+have been combined, while in the ν̄e spectra the three selections (low PID, high PID, and peripheral) are shown separated. The
+best-fit prediction is extracted from a frequentist fit to the data (best-fit values in Table S4) with the Daya Bay 1D constraint
+on sin2 2θ13 [61].
+                                                                                                                       S2
+
+
+
+
+                                       ν-beam
+                                         Best-Fit Prediction
+                                   5     1-σ syst. range     HadE Fraction 1   FD data
+                                                                                            HadE Fraction 2
+                                         Wrong Sign bkgd. best resolution
+                                                                               Background
+                                   4     Cosmic bkgd.
+
+                                   3
+                                   2
+
+
+
+
+                Events / 0.1 GeV
+                                   1
+                                   0
+                                                                                            HadE Fraction 4
+                                                            HadE Fraction 3
+                                                                                            worst resolution
+                                   4
+                                   3
+                                   2
+                                   1
+                                   0
+                                    0      1       2     3     4     0     1    2       3    4                 5
+                                                       Reconstructed Neutrino Energy ([GeV])
+
+FIG. S2. Observed and predicted energy spectra for νµ (left) and ν̄µ (right) CC selected events in the FD, split into four
+hadronic energy fractions but with the transverse momentum quantiles combined. The best-fit prediction is extracted from a
+frequentist fit to the data (best-fit values in Table S4) with the Daya Bay 1D constraint on sin2 2θ13 [61].
+                                                                                                                      S3
+
+                                                  II.   Bayesian Results
+
+   A summary of the neutrino oscillation parameters measured in the associated Letter is shown in Table S1. These
+numbers are obtained from the Bayesian MCMC sampling and represent the highest posterior density areas and 1 σ
+credible intervals. The constraints are shown for both Normal and Inverted MOs, and for each of the three treatments
+of the reactor constraint: no external constraints; one-dimensional reactor constraint on θ13 from Daya Bay; and the
+two-dimensional reactor constraint on θ13 and ∆m232 from Daya Bay [61].
+
+
+                                                   II:1.   Goodness of fit
+
+   The posterior-predictive p-values [75] are obtained from the Bayesian MCMC fit to evaluate the goodness of the
+fit. The posterior-predictive p-values, split by FD data sample and reactor constraints used for θ13 , are presented in
+Table S2, with a good fit seen across all the data samples. The differences in goodness of fit between the fits with
+and without the external reactor constraints are minimal. The electron-antineutrino sample has the largest deviation
+from 0.5, and the new Low-energy electron-neutrino sample has the largest posterior-predictive p-value. These are
+the two FD data samples containing the fewest events.
+
+
+                                          II:2.   Posterior Probability Densities
+
+   This section presents one- and two-dimensional marginalized posterior distributions for the measured oscillation
+parameters. The 68% and 90% credible intervals for the marginalized posterior probability densities of |∆m232 |,
+sin2 θ23 , and δCP , obtained using the 1D Daya Bay constraint on sin2 2θ13 , are summarized in Fig. S3. All posteriors
+are marginalized jointly over both mass orderings.
+   One-dimensional constraints on the CP violation phase δCP , marginalized jointly over both MOs, are presented in
+Fig. S4. The two MOs exhibit highest posterior probability densities in different regions of parameter space. Credible
+intervals for the Jarlskog invariant, with priors uniform in δCP and in sin δCP , are shown in Fig. S5. Probabilities are
+marginalized over both MOs, with individual MO plots also provided. In the Inverted ordering, which is less favored
+by the NOvA analysis, the majority of the probability density is away from the CP-conserving point at JCP = 0. The
+posterior probability density for sin2 θ23 is shown in Fig. S6, with probabilities shown for both MO and marginalized
+separately for each MO. The favored parameter regions are compatible in all cases.
+   Figure S7 presents the two-dimensional posterior distribution in the plane of sin2 θ23 versus δCP , incorporating
+the one-dimensional Daya Bay constraint on θ13 . Three versions are shown: marginalized jointly over both MOs, or
+separately for each of the two MO. The NOvA data prefer different δCP regions for the two MOs. Posterior probability
+densities in the plane of ∆m232 versus sin2 θ23 are shown in Fig. S8, with the MOs marginalized separately. The favored
+region is consistent with maximal mixing, with no strong octant preference.
+   Figure S9 shows the strong correlations between sin2 2θ13 and sin2 θ23 in long-baseline oscillation measurements,
+along with a comparison to the reactor neutrino measurement of θ13 , which places a strong constraint on this param-
+eter. The consistency between the measurements supports its use as a constraint in this analysis and highlights the
+effectiveness of the three-flavor description of neutrinos.
+                                                              Normal MO                                 Inverted MO
+Reactor Constraint   Fit Constraint           Parameter      HPD       1σ range                        HPD          1σ range
+
+
+                                                  δCP (π)    0.89    [0.00, 0.24] ∪ [0.50, 1.15]       1.57     [1.32, 1.78]
+                                                                                                                                                  TABLE S1. Summary of the oscillation parameters measured by NOvA for various reactor constraint options. The indicated
+
+
+                                                  sin2 θ23   0.547   [0.465, 0.509] ∪ [0.517, 0.562]   0.474    [0.453, 0.537]
+                     Conditional
+                                       ∆m232 (×10−3 eV2 )    2.431   [2.392, 2.467]                    -2.476   [-2.515, -2.440]
+                                        sin2 2θ13 (×10−2 )    8.5    [7.1, 10.0]                        9.6     [8.3, 11.2]
+      None
+
+                                                  δCP (π)    0.89    [0.00, 0.24] ∪ [0.50, 1.15]       N/A      [1.33, 1.78]
+                                                  sin2 θ23   0.547   [0.450, 0.576]                    N/A      [0.466, 0.482]
+                     Non-Conditional
+                                       ∆m232 (×10−3 eV2 )    2.431   [2.392, 2.480]                    N/A      [-2.491, -2.456]
+                                        sin2 2θ13 (×10−2 )    8.5    [6.6, 10.6]                       N/A      [9.0, 10.3]
+                                                                                                                                                  regions correspond to 1σ intervals for the highest posterior density values. All other parameters are fixed at the PDG 2023
+
+
+                                                  δCP (π)    0.93    [0.04, 0.29] ∪ [0.62, 1.14]       1.50     [1.30, 1.69]
+                     Conditional                  sin2 θ23   0.548   [0.484, 0.566]                    0.545    [0.489, 0.565]
+                                       ∆m232 (×10−3 eV2 )    2.431   [2.397, 2.467]                    -2.479   [-2.515, -2.443]
+       1D
+
+                                                  δCP (π)    0.93    [0.02, 0.34] ∪ [0.58, 1.15]       N/A      [1.37, 1.63]
+                                                     2
+                     Non-Conditional              sin θ23    0.548   [0.459, 0.575]                    N/A      ∅
+                                       ∆m232 (×10−3 eV2 )    2.431   [2.376, 2.485]                    N/A      [-2.480, -2.472]
+
+                                                                                                                                                  central values. The results for marginalizing over both MOs and for marginalizing separately over each MO are shown, though
+
+                                                  δCP (π)    0.92    [0.09, 0.28] ∪ [0.59, 1.14]       1.55     [1.33, 1.72]
+                                                     2
+                     Conditional                  sin θ23    0.550   [0.473, 0.498] ∪ [0.508, 0.569]   0.554    [0.472, 0.492] ∪ [0.510, 0.574]
+                                       ∆m232 (×10−3 eV2 )    2.439   [2.408, 2.472]                    -2.497   [-2.531, -2.467]
+       2D
+
+                                                  δCP (π)    0.92    [0.05, 0.36] ∪ [0.53, 1.16]       N/A      ∅
+                     Non-Conditional              sin2 θ23   0.550   [0.470, 0.571]                    N/A      ∅
+                                       ∆m232 (×10−3 eV2 )    2.439   [2.400, 2.477]                    N/A      ∅
+
+
+
+
+                                                                                                                                                                                                                                                                                 S4
+                                                                                                                                                  the HPD is always in the Normal Ordering under non-conditional marginalization (we denote it with N/A in Inverted Ordering).
+                                                                                                                            S5
+
+
+TABLE S2. Posterior-predictive p-values extracted from the Bayesian MCMC fit of the real data with different types of reactor
+constraint applied to θ13 .
+                                   Constraint type νµ νe Low-energy ν̄µ ν̄e Total
+                                   Unconstrained 0.59 0.57  0.72    0.40 0.17 0.48
+                                   1D Daya Bay 0.59 0.58    0.72    0.39 0.19 0.48
+                                   2D Daya Bay 0.58 0.58    0.72    0.40 0.18 0.49
+
+
+
+
+FIG. S3. Marginalized posterior probability densities from a Bayesian fit with the 1D Daya Bay constraint on sin2 2θ13 applied.
+The two-dimensional posteriors have 68% and 90% credible levels indicated. The one-dimensional posterior probability densities
+are normalized to 1, and have 68% and 90% credible intervals indicated in different shades. These plots are calculated by
+marginalizing over both MOs.
+                                                                                                                                                                                                                         S6
+
+
+
+                                                                                               Bayesian Cred. Int.                                          Marginalized jointly
+                                                                      0.012
+
+
+
+
+                                                  Posterior density
+                                                                                               With 1D Daya Bay constraint                                  over orderings
+                                                                          0.01                                                                              Both MO             1σ
+                                                                      0.008                                                                                 Inverted MO         2σ
+                                                                                                                                                            Normal MO           3σ
+                                                                      0.006
+                                                                      0.004
+                                                                      0.002
+
+                                                  Both MO
+                                                       Inverted
+
+                                                             Normal
+                                                                                          0                    π                      π                          3π                  2π
+                                                                                                               2                                                  2
+                                                                                                                                 δCP
+
+FIG. S4. Posterior probability densities for δCP marginalized jointly over the MOs, shown for both MO (purple), Inverted MO
+(red), and Normal MO (blue), with the 1, 2, and 3 σ intervals shown below. Posterior extracted from a fit with an external 1D
+constraint on θ13 from the Daya Bay experiment.
+
+
+
+
+                                                                                          0.02          1σ
+                                                                                                        2σ
+
+
+
+
+                                                                      Posterior Density
+                                                                                          0.01          3σ
+
+                                                                                                   Flat in δCP
+                                                                                               0
+                                                                                                   Flat in sin(δCP)
+                                                                                          0.01
+
+                                                                                          0.02     Bayesian Cred. Int.
+                                                                                                                                                                  Both MO
+                                                                                                   With 1D Daya Bay constraint
+
+                                                                                                             −0.05                                    0                       0.05
+                                                                                                             JCP=s13c213s12c12s23c23sinδCP
+
+
+                      0.1        1σ                                                                                                                  0.02        1σ
+                                 2σ                                                                                                              0.015           2σ
+
+
+
+
+ Posterior Density                                                                                                               Posterior Density
+                     0.05        3σ                                                                                                                  0.01        3σ
+
+                            Flat in δCP                                                                                                          0.005  Flat in δCP
+                       0                                                                                                                              0
+                            Flat in sin(δCP)                                                                                                            Flat in sin(δCP)
+                                                                                                                                                 0.005
+                     0.05                                                                                                                          0.01
+                                                                                                                                                 0.015
+                            Bayesian Cred. Int.                                  Marginalized separately                                                    Bayesian Cred. Int.           Marginalized separately
+                      0.1   With 1D Daya Bay constraint                          over orderings, Inverted MO                                      0.02      With 1D Daya Bay constraint   over orderings, Normal MO
+                                      −0.05                                                0                         0.05                                             −0.05                   0                   0.05
+                                      JCP=s13c213s12c12s23c23sinδCP                                                                                                   JCP=s13c213s12c12s23c23sinδCP
+
+FIG. S5. Posterior probability densities for the Jarlskog invariant, marginalized separately over each ordering, and shown for
+the both MO (purple, top), Inverted MO (red, left) and Normal MO (blue, right). On each plot, the top panel shows the
+posterior with a prior uniform in δCP , and the prior uniform in sin(δCP ) in the upside-down canvas. Jarlskog invariant of 0
+represents CP conservation, and non-zero values represent CP violation. The posterior is extracted from a fit with an external
+1D constraint on θ13 from the Daya Bay experiment.
+                                                                                                                                                                                                                       S7
+
+
+                                                                                  0.025
+                                                                                            Bayesian Cred. Int.
+                                                                                            With 1D Daya Bay constraint                                      Both MO
+
+                                                                                   0.02             1σ
+
+
+
+
+                                                              Posterior density
+                                                                                                    2σ
+                                                                                  0.015             3σ
+
+
+                                                                                   0.01
+
+
+                                                                                  0.005
+
+
+                                                                                     0
+                                                                                     0.35         0.4      0.45       0.5                       0.55         0.6       0.65
+
+                                                                                                                   sin θ23
+                                                                                                                       2
+
+
+
+
+                                Bayesian Cred. Int.                Marginalized separately                                                              Bayesian Cred. Int.             Marginalized separately
+                      0.025     With 1D Daya Bay constraint        over orderings, Inverted MO                                                          With 1D Daya Bay constraint     over orderings, Normal MO
+                                                                                                                                               0.02
+                                        1σ                                                                                                                      1σ
+
+
+
+
+  Posterior density                                                                                                       Posterior density
+                       0.02
+                                        2σ                                                                                                                      2σ
+                                                                                                                                              0.015
+                                        3σ                                                                                                                      3σ
+                      0.015
+
+                                                                                                                                               0.01
+                       0.01
+
+
+                      0.005                                                                                                                   0.005
+
+
+                         0                                                                                                                       0
+                         0.35         0.4      0.45       0.5                       0.55         0.6      0.65                                   0.35         0.4       0.45      0.5        0.55      0.6      0.65
+
+                                                       sin θ23
+                                                           2
+                                                                                                                                                                               sin2θ23
+
+FIG. S6. Posterior probability densities for sin2 θ23 marginalized separately over the MOs, shown for both MO (purple, top),
+Inverted MO (red, left), and Normal MO (blue, right). The posterior is from a fit with an external 1D constraint on θ13 from
+the Daya Bay experiment.
+                                                                                                                                                                                                            S8
+
+
+                                                                              Bayesian Cred. Int.
+                                                                              With 1D Daya Bay constraint                                      Both MO
+
+                                                                        0.6
+
+
+
+
+                                                              sin2θ23   0.5
+
+
+
+
+                                                                        0.4
+                                                                                           1σ                   2σ                            3σ
+
+                                                                          0               π                 π                            3π                2π
+                                                                                          2                                               2
+                                                                                                       δCP
+
+
+                            Bayesian Cred. Int.               Marginalized separately                                                    Bayesian Cred. Int.               Marginalized separately
+                            With 1D Daya Bay constraint       over orderings, Inverted MO                                                With 1D Daya Bay constraint       over orderings, Normal MO
+
+                      0.6                                                                                                          0.6
+
+
+
+
+    sin2θ23           0.5                                                                                       sin2θ23            0.5
+
+
+
+
+                      0.4                                                                                                          0.4
+                                         1σ                   2σ                   3σ                                                                 1σ                   2σ              3σ
+
+                        0               π                 π                   3π                2π                                   0               π                 π              3π               2π
+                                        2                                      2                                                                     2                                 2
+                                                     δCP                                                                                                          δCP
+
+FIG. S7. Posterior probability density in the plane sin2 θ23 vs δCP , marginalized separately over the MOs, shown for both MO
+(purple, top), Inverted MO (red, left) and Normal MO (blue, right). Posteriors are from the fits to NOvA data with an external
+constraint on θ13 from the Daya Bay experiment.
+
+
+
+
+                     −2.2                                                                                                          2.7
+                            Bayesian Cred. Int.               Marginalized separately                                                    Bayesian Cred. Int.               Marginalized separately
+                            With 1D Daya Bay constraint       over orderings, Inverted MO                                                With 1D Daya Bay constraint       over orderings, Normal MO
+                     −2.3                                                                                                          2.6
+
+
+
+
+  ∆ m232 ×10-3 eV2                                                                                              ∆ m232 ×10-3 eV2
+                     −2.4                                                                                                          2.5
+
+
+                     −2.5                                                                                                          2.4
+
+
+                     −2.6                                                                                                          2.3
+                                         1σ                   2σ                   3σ                                                                 1σ                   2σ              3σ
+
+                     −2.7                                                                                                          2.2
+                                 0.4                0.5                        0.6                                                            0.4                0.5                   0.6
+
+                                                   sin θ23
+                                                       2
+                                                                                                                                                                sin θ23
+                                                                                                                                                                    2
+
+
+
+FIG. S8. Posterior probability density in the plane ∆m232 vs sin2 θ23 , marginalized separately over the MOs, shown for the
+Inverted (red, left) and Normal MO (blue, right). The posteriors are from the fits to NOvA data with an external constraint
+on θ13 from the Daya Bay experiment.
+                                                                                                                                                                                  S9
+
+
+                                                              0.25
+                                                                     Bayesian Cred. Int.
+                                                                     No Daya Bay constraint                                   Both MO
+
+                                                               0.2
+
+
+
+
+                                                   sin22θ13
+                                                              0.15
+
+
+                                                               0.1
+
+
+                                                              0.05
+                                                                                  1σ     2σ              3σ            Reactor
+                                                                0
+                                                                            0.4               0.5                       0.6
+
+                                                                                              sin θ23
+                                                                                                 2
+
+
+
+             0.25                                                                                               0.25
+                    Bayesian Cred. Int.             Marginalized separately                                            Bayesian Cred. Int.            Marginalized separately
+                    No Daya Bay constraint          over orderings, Inverted MO                                        No Daya Bay constraint         over orderings, Normal MO
+              0.2                                                                                                0.2
+
+
+
+
+  sin22θ13                                                                                           sin22θ13
+             0.15                                                                                               0.15
+
+
+              0.1                                                                                                0.1
+
+
+             0.05                                                                                               0.05
+                               1σ       2σ             3σ            Reactor                                                        1σ     2σ          3σ        Reactor
+               0                                                                                                  0
+                         0.4                 0.5                      0.6                                                     0.4               0.5               0.6
+
+                                             sin2θ23                                                                                            sin2θ23
+
+FIG. S9. Posterior probability density in the plane sin2 2θ13 vs sin2 θ23 , marginalized jointly over the MOs, shown for both MO
+(purple, top), Inverted MO (red, left) and Normal MO (blue, right). Posteriors are from the fits to NOvA data without any
+external constraints, with results from the Daya Bay experiment overlaid as green 1 σ band [61].
+                                                                                                                                                                                                     S10
+
+                                                                                        II:3.     Comparisons
+
+  This section provides a global comparison of NOvA measurements with those from other neutrino experiments.
+Figure S10 compares the measurements of sin2 θ23 versus δCP from NOvA with corresponding results from other
+experiments for the Normal (left) and Inverted (right) MOs. T2K data tend to favor values of δCP near 3π/2 in
+the Normal MO. However, the 68% credible intervals of NOvA and T2K show substantial overlap, indicating that
+current data are insufficient to draw strong conclusions about the value of δCP , even when combining results across
+experiments.
+  A comparison of the NOvA ∆m232 vs sin2 θ23 measurement with similar measurements from other experiments in
+the Normal MO is shown in Fig. 2. For completeness, Fig. S11 shows the same plot together with a version in the
+Inverted MO.
+  Figure S12 shows the central values and 1σ credible intervals of ∆m232 from NOvA alongside recent results from
+accelerator (green), atmospheric (blue), and reactor (red) experiments, as well as combined fits (purple). Agreement
+among experiments is stronger in the Normal MO, contributing to the increased preference for this ordering in the
+NOvA analysis when the 2D reactor constraint from Daya Bay is included.
+
+
+                      0.7       Bayesian Cred. Int.              Marginalized separately                                   0.7       Bayesian Cred. Int.              Marginalized separately
+                                68% CI                           over orderings, Normal MO                                           68% CI                           over orderings, Inverted MO
+                                   NOvA HPD
+                      0.6                                                                                                  0.6
+
+
+
+  sin2θ23             0.5                                                                             sin2θ23              0.5
+
+
+
+                      0.4              NOvA                               NOvA+T2K                                         0.4              NOvA                               NOvA+T2K
+                                       NOvA (previous result)             T2K                                                               NOvA (previous result)             T2K
+                                       T2K+SuperK                                                                                           T2K+SuperK
+
+                            0               π              π                3π               2π                                  0               π              π                3π             2π
+                                            2                                2                                                                   2                                2
+                                                          δCP                                                                                                  δCP
+
+FIG. S10. New NOvA results for δCP – sin2 θ23 in the Normal (left) and Inverted (right) MOs, compared with previous NOvA
+results [25, 26] and results from other experiments [76, 78, 80], including the 2024 joint NOvA-T2K analysis [81]. All 90%
+credible intervals are from Bayesian analyses.
+
+
+
+
+                      2.8                                        Marginalized separately                                                                              Marginalized separately
+                                90% CI (B) or CL (F)                                                                       −2        90% CI (B) or CL (F)
+                                                                 over orderings, Normal MO                                                                            over orderings, Inverted MO
+                                   NOvA HPD
+                      2.6
+
+
+
+
+  ∆ m232 (10-3 eV2)                                                                                   ∆ m232 (10-3 eV2)
+                                                                                                                          −2.2
+
+                      2.4
+                                                                                                                          −2.4
+
+                      2.2
+                                                                                                                          −2.6
+                                             B                                      B
+                       2               NOvA                              NOvA+T2K                                                           NOvAB                              NOvA+T2KB
+                                       NOvA (previous result)B           T2KF                                             −2.8              NOvA (previous result)B            T2KF
+                                       T2K+SuperKB                       MINOSF                                                             T2K+SuperKB                        MINOSF
+                                       SuperKF                           IceCubeF                                                           SuperKF                            IceCubeF
+                      1.8
+                                     0.4                0.5                  0.6                                                          0.4                0.5                  0.6
+
+                                                       sin2θ23                                                                                              sin2θ23
+
+FIG. S11. New NOvA results for ∆m232 – sin2 θ23 in the Normal (left) and Inverted (right) MOs, compared with previous
+NOvA results [25, 26] and results from other experiments [76–80], including the 2024 joint NOvA-T2K analysis [81]. Contours
+labeled B are from Bayesian analyses, while those labeled F are from frequentist analyses, used when Bayesian results were not
+available.
+                                                                                                                                                           S11
+
+                                                     Normal mass ordering
+             NOvA 2D RC                                                                         2.439+0.033
+                                                                                                     −0.031 1.3%
+             NOvA 1D RC                                                                         2.431+0.036
+                                                                                                     −0.034 1.4%
+             NOvA no RC                                                                         2.431+0.036
+                                                                                                     −0.039 1.5%
+             NOvA+T2K                                                                           2.43 +0.04
+                                                                                                     −0.03     1.4%
+
+
+
+
+                                                                                                                       v14.1 2025.02: git.jinr.ru/nu/osc
+             T2K                                                                                2.521+0.037
+                                                                                                     −0.050    1.7%
+             IceCube                                                                            2.40 +0.05
+                                                                                                     −0.04     1.9%
+             SuperK+T2K                                                                         2.51 ±0.06     2.4%
+             Daya Bay nGd                                                                       2.466±0.060 2.4%
+             Super-Kamiokande                                                                   2.40 +0.07
+                                                                                                     −0.09     3.3%
+             MINOS+                                                                             2.40 +0.08
+                                                                                                     −0.09     3.5%
+             RENO         nGd                                                                          +0.11
+                                                                                                2.52   −0.12   4.6%
+             Daya Bay      nH                                                                          +0.14
+                                                                                                2.72   −0.15   5.3%
+             RENO          nH                                                                          +0.28
+                                                                                                2.48   −0.32   12.1%
+                                   2.2         2.3     2.4      2.5     2.6    2.7     2.8
+                                                       |∆m232 | (10−3 eV2 )
+
+                                                     Inverted mass ordering
+             NOvA 2D RC                                                                         2.499±0.032 1.3%
+             NOvA 1D RC                                                                         2.479±0.036 1.5%
+             NOvA no RC                                                                         2.477+0.038
+                                                                                                     −0.037 1.5%
+             NOvA+T2K                                                                           2.48 +0.04
+                                                                                                     −0.03     1.4%
+
+
+
+
+                                                                                                                       v14.1 2025.02: git.jinr.ru/nu/osc
+             T2K                                                                                2.561+0.043
+                                                                                                     −0.044    1.7%
+             IceCube                                                                            2.40 +0.05
+                                                                                                     −0.04     1.9%
+             SuperK+T2K                                                                         2.48 ±0.06     2.4%
+             Daya Bay nGd                                                                       2.571±0.060 2.3%
+             MINOS+                                                                             2.45 +0.07
+                                                                                                     −0.08     3.1%
+             Super-Kamiokande                                                                          +0.06
+                                                                                                2.48   −0.12   3.6%
+             RENO         nGd                                                                          +0.11
+                                                                                                2.62   −0.12   4.4%
+             Daya Bay      nH                                                                          +0.14
+                                                                                                2.83   −0.15   5.1%
+             RENO          nH                                                                          +0.28
+                                                                                                2.58   −0.32   11.6%
+                                         2.2             2.4           2.6       2.8
+                                                        |∆m232 | (10−3 eV2 )
+
+
+FIG. S12. Comparison of central values and 1 σ intervals for absolute value of ∆m232 in the Normal MO (top) and Inverted
+MO (bottom) from various accelerator (green), reactor (red), atmospheric (blue) experiments, and the two joint fits (purple).
+Sources for the results from top to bottom starting with the fourth line are as follows: [61, 76, 77, 79, 80, 88–91]. Comparisons
+for other oscillation parameters, can be found in [92].
+                                                                                                                                                                                                                       S12
+
+                                                                      II:4.                      Mass ordering and θ23 octant preferences
+
+   Table S3 shows NOvA’s preferences for the Normal MO and the upper octant of θ23 , quantified using Bayes factors
+and the integrated posterior probabilities associated with these hypotheses. Results are presented for three treatments
+of external reactor constraint: no constraint, and the 1D and 2D Daya Bay constraints, with no strong preferences
+are found for either the mass ordering or octant of θ23 . Guidance on the traditional interpretation of Bayes factors
+can be found in [93, 94].
+   Figure S13 further illustrates how different constraints on θ13 and ∆m232 from Daya Bay affect the MO preference,
+presenting the 1D posterior probabilities for ∆m232 in both Normal and Inverted orderings across the three choices on
+external constraint.
+
+TABLE S3. Bayes factors, with percentage posterior probability preference reported in parentheses, illustrating the preference
+for the Normal MO over the Inverted MO (top row) and for the upper octant over the lower octant (bottom row).Values are
+derived from fits using no external constraint on θ13 , 1D and 2D constraints from Daya Bay.
+                                                          Bayes Factors              Unconstrained 1D Daya Bay 2D Daya Bay
+                                                          Normal Ordering Preference   2.4 (70%)    3.3 (77%)   6.6 (87%)
+                                                          Upper Octant Preference      1.3 (56%)    2.1 (68%)   2.0 (66%)
+
+
+
+
+                             Bayesian Credible Interval                                                   Inverted MO                  Normal MO
+                      0.03                                                                    0.03   1σ          2σ          3σ   1σ         2σ         3σ
+                                                                                                                                                                            0.03
+
+
+
+
+  Posterior density                                                       Posterior density                                                             Posterior density
+                                   No Daya Bay                                                       With 1D Daya Bay                                                              With 2D Daya Bay
+                                    Constraint                                                          Constraint                                                                    Constraint
+                      0.02                                                                    0.02                                                                          0.02
+
+
+
+
+                      0.01                                                                    0.01                                                                          0.01
+
+
+
+
+                        0                                                                       0                                                                             0
+                                   −2.5       −2.4            2.4   2.5                                   −2.5        −2.4             2.4        2.5                                −2.5   −2.4           2.4   2.5
+                                               ∆m232 (10-3 eV2)                                                        ∆m232 (10-3 eV2)                                                       ∆m232 (10-3 eV2)
+
+
+FIG. S13. Marginalized posterior probability densities for ∆m232 from a fit to data with different options of the Daya Bay
+constraint applied (left panels without any constraint, middle panels with θ13 constraint, right panels with θ13 –∆m232 constraint).
+                                                                                                                                S13
+
+                                                   III.   Frequentist results
+
+   NOvA has employed both frequentist and, more recently, Bayesian statistical frameworks to extract oscillation
+parameters. The tools that facilitate NOvA’s Bayesian treatment, as presented in the main letter, are relatively
+new and were first exercised in [26] to re-analyze the dataset from [25]. All previous NOvA oscillation results,
+including those in the original analysis of that dataset, used a frequentist approach to inference. In this framework,
+a minimization of the Poisson log-likelihood ratio between simulation and data is performed using Minuit [95]. The
+Profiled Feldman-Cousins Method [73, 74] is then employed to correct confidence intervals to ensure proper coverage.
+   Here we present updated frequentist results based on the latest dataset, provided for complementarity with the
+Bayesian analysis in the main text. A summary of the frequentist fits using the 1D Daya Bay external constraint on
+sin2 θ13 can be found in Table S4. The Inverted MO rejection significance is 1.41 σ, which corresponds to a p-value of
+0.16. The 2D Daya Bay constraint on sin2 θ13 –∆m232 yields an Inverted MO rejection significance of 1.6 σ (p-value of
+0.11).
+
+
+TABLE S4. A summary of NOvA’s constraints on oscillation parameters using a frequentist approach to inference. The
+results using two different fit constraints are shown. In the conditional fit, ∆m232 is restricted to be either positive or negative,
+corresponding to the Normal or Inverted MO, respectively. In the non-conditional fit, ∆m232 is allowed to take either sign. In
+this fit case the global Best Fit is denoted and N/A is used in Inverted MO to mark that this case is not preferred.
+                                                           Normal MO                             Inverted MO
+   Reactor Constraint Fit Constraint           Parameter Best Fit 1σ range                      Best Fit 1σ range
+                                                  δCP (π) 0.87 [-0.03, 0.16] ∪ [0.58, 1.17]       1.53 [1.26, 1.76]
+           1D
+                        Conditional               sin2 θ23 0.547 [0.482, 0.488] ∪ [0.497, 0.566] 0.541 [0.477, 0.561]
+                                        ∆m232 (×10−3 eV2 ) 2.441 [2.410, 2.476]                  -2.481 [-2.515, -2.447]
+                                                  δCP (π) 0.87 [-0.04, 0.15] ∪ [0.58, 1.17]       N/A ∅
+                        Non-Conditional           sin2 θ23 0.547 [0.483, 0.570]                   N/A ∅
+                                        ∆m232 (×10−3 eV2 ) 2.441 [2.407, 2.480]                   N/A ∅
+
