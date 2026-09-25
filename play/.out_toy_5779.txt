@@ -1,0 +1,11 @@
+PASS rule-R ceiling rho/rho_c = 4 ln2 (>1, excluded)
+PASS S_BH-bit ceiling rho/rho_c = 1 exactly
+PASS matter era rho ~ H^4 a^6 = const
+PASS radiation rho ~ a^-2
+PASS radiation f ~ a^2
+   once-only exclusion  (X = 1-f): w = [-1]
+   no exclusion         (X = 1)  : w = [1/(2*f - 1)]
+PASS exclusion form gives w = -1 identically
+PASS no-exclusion form gives w = 1/(2f-1) < -1 for 0<f<1/2 (phantom)
+PASS control: quotient reading fails in matter era
+SCORE 8/8
