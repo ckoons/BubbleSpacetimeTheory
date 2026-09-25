@@ -40,7 +40,7 @@ Key integers active in Vol 3:
 | 8 | **Hyperfine + Lamb Shift** — α^{n_C} substrate-coordinate count (T2476) | ~70% (Toy 3496 I-tier PATH ARTICULATED; T2476 partial Mode 5 lift) | T2476 substrate-mechanism; Lamb shift 0.4% via Welton-Bethe |
 | 9 | **Atomic Spectroscopy via BST** — Rydberg, Klein-Nishina, Compton at α^{rank=2} | ~60% (T2476 multi-observable verification) | T2476 + Penning trap 2030+ falsifier |
 | 10 | **Atomic Clocks + Time Granularity** — SP-30 H1 Sr-clock falsifier | ~40% (Lyra T2360 prediction) | Koons tick t_Planck·α^(C₂²) ≈ 10⁻¹²⁰ s + Sr-clock precision falsifier |
-| 11 | **Nuclear Decay (substrate-mediated)** — Casey neutron decay winding rearrangement framework | ~40% (Task #58 + #72 W-32) | τ_n = 878.1 s + g_A = 4/π (Fermi + BST inputs) |
+| 11 | **Nuclear Decay (substrate-mediated)** — Casey neutron decay winding rearrangement framework | ~40% (Task #58 + #72 W-32) | ~~τ_n = 878.1 s + g_A = 4/π (Fermi + BST inputs)~~ **[RETIRED 2026-09-25, K1923: g_A = 4/π fails — 5.7σ PERKEO III, 6.4σ jointly with A2 on UCNτ. Anchor now: A2's g_A-free τ_n(1 + 3λ²) = 20K/19 (0.87σ, free neutron). Structural λ: OPEN.]** |
 | 12 | **Connections — Vol 2 inputs + Vol 4 BBN outputs** — bridge chapter | ~50% (cross-volume map) | input from Vol 2 m_p, m_n, α; output to Vol 4 cosmological abundances |
 
 **Approximately 60% existing BST coverage** maps to specific chapters above. **40% to develop** — primarily Ch 5 (halo nuclei detail), Ch 10 (Sr-clock falsifier development), Ch 11 (full neutron decay mechanism).
