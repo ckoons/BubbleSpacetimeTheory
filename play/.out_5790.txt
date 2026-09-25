@@ -1,0 +1,15 @@
+Toy 5790 — 16/3 and 3/19 across CMB datasets (NOT BLIND)
+
+dataset                      R=wc/wb     sig  16/3 pull       rho+-0.5 |      f_b      sig 3/19 pull
+Planck TTTEEE+lowE+lens       5.3643  0.0646      -0.48 [-0.65,-0.40] |  0.15713  0.00159     +0.48
+Planck +BAO(SDSS)             5.3225  0.0525      +0.21 [+0.17,+0.29] |  0.15817  0.00131     -0.21
+ACT DR6 alone                 5.4803  0.1017      -1.45 [-1.82,-1.23] |  0.15431  0.00242     +1.48
+P-ACT                         5.3022  0.0593      +0.52 [+0.44,+0.67] |  0.15867  0.00149     -0.52
+P-ACT-L                       5.2910  0.0553      +0.77 [+0.64,+1.00] |  0.15896  0.00140     -0.76
+P-ACT-LB (+DESI DR1)          5.2261  0.0455      +2.36 [+1.95,+3.22] |  0.16062  0.00117     -2.32
+
+  [PASS] (control) control: Planck rows reproduce toy 5788 (-0.48, +0.21)
+  [FAIL] 16/3 within 2 sigma of every dataset
+  [PASS] 16/3 within 2 sigma of the two INDEPENDENT CMB experiments alone (Planck, ACT)
+
+SCORE 2/3  (can-fail 1/2; 1 controls) — NOT BLIND
