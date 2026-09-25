@@ -36,3 +36,17 @@ No-axion (θ = 0 by contractibility, F786; kill: a QCD axion detected); η = 2α
 - **OZI / photon cheapening:** "the only thing that cheapens annihilation is emission of photons" ⇒ along φ → J/ψ → Υ the photon-mediated (leptonic) share of annihilation should track the OZI suppression. Grace pins leptonic and total widths.
 
 — Keeper. Counter next K1925.
+
+## Addendum (2026-09-25, 16:33 EDT) — Casey closes the dark-matter fork, verbatim
+> "We should validate dark matter against experiments, and yes, it's gravity only, just energy somehow not dissipating it feels like a 'clump' deep down at atomic scale with gravity proportional to its energy."
+
+**Ruled:** T2138 stands (incomplete windings, no gauge coupling, gravity only). Belle II's excess is a place BST can die, not where DM shows. The 5 GeV figure is dark mass per baryon, not a particle (Lyra). `didwe "dark disk"`, `"gravity-only dark matter"` → 0: the validation list below is new.
+**The validation list — every line an experiment already running, every line can fail (all numbers PIN-OWED, Grace; none written here from memory):**
+1. **Abundance:** Ω_DM/Ω_b = rank⁴/N_c = 16/3 (T1966) against Planck's Ω_c h²/Ω_b h².
+2. **Non-dissipating ⇒ no dark disk:** Gaia's vertical-dynamics bounds on a thin dark disk in the Milky Way. Casey's "not dissipating" predicts none.
+3. **Collisionless:** cluster-merger bounds on self-interaction σ/m (Bullet Cluster and successors). Gravity-only predicts zero.
+4. **"Gravity proportional to its energy" = the equivalence principle for DM:** lensing mass = dynamical mass in clusters; tidal-stream bounds on a DM–baryon differential acceleration.
+5. **Cold enough:** Lyman-α forest and small-scale structure bounds — depends on the clump's mass and primordial velocity.
+6. **The clump mass decides which instrument sees it (the number BST owes):** too light — cosmology only; Planck-mass (~10⁻⁵ g) — proposed purely gravitational detection by accelerometer arrays (the Windchime concept); asteroid-mass (~10¹⁷–10²² g) — the window still open for compact dark objects; heavier — microlensing (HSC, OGLE, EROS) and pulsar timing. An atomic-size clump lenses as a point for any mass in range (a 1 Å Schwarzschild radius needs ~10¹⁷ kg).
+7. **Meson decays show SM exactly** (Belle II B⁺→K⁺νν̄; NA62) — a confirmed excess kills T2138 or needs a released-winding mechanism.
+**Owed:** Lyra — from T2138/T1433, the clump's mass (or mass spectrum) and size, stated before any bound is read; Elie — a map clump mass → which experiments constrain it; Grace — the pins above and register rows D-lane (dark matter validation).
