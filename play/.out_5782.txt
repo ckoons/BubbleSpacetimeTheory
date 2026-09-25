@@ -1,0 +1,56 @@
+Toy 5782 — stabilizer real dimensions (exact ranks)
+  none (gl(3,C))  : 18   (expected 18)
+  eps             : 16   (expected 16)
+  h               :  9   (expected 9)
+  eps+h           :  8   (expected 8)
+  q               :  6   (expected 6)
+  q+h             :  3   (expected 3)
+  eps+h+q         :  3   (expected 3)
+  eps+q           :  6   (expected 6)
+  [PASS] (control) gl(3,C) = 18 (instrument sanity)
+  [PASS] stab(eps) = 16 matches K1923 Part B
+  [PASS] stab(h) = 9 matches K1923 Part B
+  [PASS] stab(eps+h) = 8 matches K1923 Part B
+  [PASS] stab(q) = 6 matches K1923 Part B
+  [PASS] stab(q+h) = 3 matches K1923 Part B
+  [PASS] stab(eps+h+q) = 3 matches K1923 Part B
+  [PASS] eps adds nothing once q is kept (o(3,C) already traceless)
+
+  INCOMPATIBLE q (Takagi values 1,2,3 w.r.t. h): dim stab(q,h) = 0
+  [PASS] SO(3) = 3 needs q compatible with h; generic q gives a smaller stabilizer
+
+(i) Branching of SU(3)'s 3 under SO(3) = stab(eps,h,q)
+  Casimir L^2 on the triplet = [[2, 0, 0], [0, 2, 0], [0, 0, 2]]
+  j(j+1) = 2 -> j = [1]
+  [PASS] the 3 restricted to stab(eps,h,q) is irreducible spin-1 (L^2 = 2*I)
+  [PASS] so the triplet is NOT spin-1/2 under this SO(3) (Lyra's 2(b) can-fail line is live)
+  contrast, SU(2) fixing one axis: Casimir diag = [3/4, 3/4, 0]  (2 + 1: j = 1/2, 0)
+  [PASS] (control) control: the SU(2)xU(1) embedding does carry j=1/2 — it is NOT stab(q,h)
+
+(ii) U(3) = (SU(3) x U(1))/Z3
+  centre of SU(3): w^k I, det = [1, 1, 1]
+  [PASS] w^k I has det 1 for k=0,1,2 (centre = Z3)
+  [PASS] kernel of SU(3)xU(1) -> U(3) has exactly 3 elements
+  singlets in 3^n (x) 3bar^m:  (n,m): count, triality (n-m) mod 3
+    (0,1): 0, 2
+    (0,2): 0, 1
+    (0,3): 1, 0
+    (1,0): 0, 1
+    (1,1): 1, 0
+    (1,2): 0, 2
+    (1,3): 0, 1
+    (2,0): 0, 2
+    (2,1): 0, 1
+    (2,2): 2, 0
+    (2,3): 0, 2
+    (3,0): 1, 0
+    (3,1): 0, 2
+    (3,2): 0, 1
+    (3,3): 6, 0
+    (4,0): 0, 1
+    (4,1): 3, 0
+    (4,2): 0, 2
+  [PASS] singlet exists iff triality n-m = 3B = 0 mod 3 (all n+m <= 6)
+  [PASS] qqq has exactly one singlet (eps) and q qbar exactly one (delta)
+
+SCORE 16/16  (can-fail 14/14; 2 controls)
