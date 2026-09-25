@@ -1,0 +1,27 @@
+4/pi = 1.27324;  PERKEO III 1.27641(56): 5.66 sigma
+
+lambda implied by each (V_ud route, tau) pair; sigma of 4/pi from it:
+  A2 exact (19/20)               | bottle UCNtau 877.82(22) [PDG2026 input] | lambda = 1.27575 +- 0.00033 | 4/pi at +7.6 sigma
+  A2 exact (19/20)               | bottle UCNtau 877.75(34) [K1923 input]   | lambda = 1.27581 +- 0.00040 | 4/pi at +6.4 sigma
+  A2 exact (19/20)               | beam 887.7(2.2) [unpinned]               | lambda = 1.26717 +- 0.00191 | 4/pi at -3.2 sigma
+  unitarity, Vus K_l3 0.22330    | bottle UCNtau 877.82(22) [PDG2026 input] | lambda = 1.27565 +- 0.00033 | 4/pi at +7.3 sigma
+  unitarity, Vus K_l3 0.22330    | bottle UCNtau 877.75(34) [K1923 input]   | lambda = 1.27572 +- 0.00040 | 4/pi at +6.2 sigma
+  unitarity, Vus K_l3 0.22330    | beam 887.7(2.2) [unpinned]               | lambda = 1.26707 +- 0.00191 | 4/pi at -3.2 sigma
+  unitarity, Vus avg 0.22431     | bottle UCNtau 877.82(22) [PDG2026 input] | lambda = 1.27602 +- 0.00033 | 4/pi at +8.5 sigma
+  unitarity, Vus avg 0.22431     | bottle UCNtau 877.75(34) [K1923 input]   | lambda = 1.27608 +- 0.00040 | 4/pi at +7.1 sigma
+  unitarity, Vus avg 0.22431     | beam 887.7(2.2) [unpinned]               | lambda = 1.26744 +- 0.00191 | 4/pi at -3.0 sigma
+  superallowed HT 0.97367        | bottle UCNtau 877.82(22) [PDG2026 input] | lambda = 1.27735 +- 0.00033 | 4/pi at +12.5 sigma
+  superallowed HT 0.97367        | bottle UCNtau 877.75(34) [K1923 input]   | lambda = 1.27741 +- 0.00040 | 4/pi at +10.4 sigma
+  superallowed HT 0.97367        | beam 887.7(2.2) [unpinned]               | lambda = 1.26876 +- 0.00192 | 4/pi at -2.3 sigma
+
+P1: is 4/pi between bottle- and beam-route lambda (A2 route)?
+  bottle 1.27575  beam 1.26717  -> between: True
+
+P2: product tau(1+3l^2) = K/V_ud^2 for each route:
+  A2 exact (19/20)                 5163.9 +- 1.8   diff from A2 +0.0 s = +0.00 sigma_K
+  unitarity, Vus K_l3 0.22330      5163.2 +- 1.8   diff from A2 -0.7 s = -0.37 sigma_K
+  unitarity, Vus avg 0.22431       5165.7 +- 1.8   diff from A2 +1.8 s = +1.00 sigma_K
+  superallowed HT 0.97367          5174.6 +- 1.8   diff from A2 +10.7 s = +5.97 sigma_K
+  measured (UCNtau 877.82, PERKEO III): 5168.3 +- 4.0
+
+P3: separation A2 vs unitarity-K_l3 is -0.66 s; tau error contributes 5.89*dtau; K error alone 1.8 s -> 3-sigma separation needs total < -0.22 s
