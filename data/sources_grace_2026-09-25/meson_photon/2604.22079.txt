@@ -1,0 +1,245 @@
+                                                               b → sℓ+ ℓ− (ℓ = e, µ, τ ) and b → sν ν̄ at Belle and Belle II
+
+
+                                                                                         Meihong Liu
+
+
+
+
+arXiv:2604.22079v1 [hep-ex] 23 Apr 2026
+                                                                       on behalf of the Belle and Belle II collaborations
+                                                               Jilin University, Changchun 130012, People’s Republic of China;
+                                                                Deutsches Elektronen–Synchrotron, Hamburg 22607, Germany.
+
+                                                    The Belle and Belle II experiments have accumulated a combined data set of 1.2 ab−1 of
+                                                    e+ e− → B B̄ collisions at the Υ(4S) resonance. Owing to the clean event environment and the
+                                                    well-constrained initial-state kinematics, these data are particularly well suited for studying
+                                                    channels involving missing energy from neutrinos. This includes the reinterpretation of B + →
+                                                    K + ν ν̄ and the first inclusive measurement of B → Xs ν ν̄ with the missing energy directly from
+                                                    B decays, as well as searches involving missing energy from τ decays, such as B 0 → K ∗0 τ + τ − ,
+                                                    B 0 → KS0 τ + τ − , and B + → K + τ + τ − .
+
+
+                                          1    Introduction
+
+                                          The quark transition b → s, mediated by a flavour-changing neutral current (FCNC), is a
+                                          sensitive probe of physics beyond the Standard Model (SM). In the SM, FCNC processes occur
+                                          only through loop diagrams such as the electroweak penguin amplitudes in Fig. 1a, leading to
+                                          small branching fractions of O(10−7 )–O(10−5 ). Searches at Belle and Belle II aim to reveal
+                                          possible New Physics (NP) effects via modified rates, either from new tree-level interactions
+                                          (Fig. 1b) or reduced GIM suppression in loops (Fig. 1c).
+
+
+
+
+                                              (a) SM contributions                          (b) Leptoquark                             (c) Charged Higgs
+
+                                          Figure 1 – Diagrams representing b → s transitions: Example of SM contributions (a) and
+                                          possible NP scenarios (b, c).
+
+                                              The Belle experiment 1 operated at the KEKB asymmetric e+ e− collider 2 in Tsukuba,
+                                          Japan. Its successor, Belle II 3 , runs at SuperKEKB, designed to reach about forty times higher
+                                          instantaneous luminosity 4 . (Super)KEKB collides e+ e− at the Υ(4S) resonance, producing
+                                          almost exclusively B B̄ pairs in a low-background environment compared to hadron colliders.
+                                          The data samples used here correspond to 711 fb−1 from Belle and 365 fb−1 from Belle II. Since
+                                          Υ(4S) → B B̄ produces no additional particles, missing energy from neutrinos in the signal decay
+                                          can be inferred from the reconstruction of the accompanying B meson (Btag ). The large solid-
+                                          angle coverage and well-constrained initial kinematics of Belle and Belle II make it particularly
+well suited for analyses with missing energy, using the two tagging methods described below.
+
+Inclusive tagging: this method exploits the inclusive properties of the accompanying B decay
+by exploiting distinct signal features with machine-learning. It offers high efficiency, but suffers
+from large background and a strong reliance on simulation.
+
+Exclusive tagging: This approach employs the machine-learning-based Full Event Interpreta-
+tion (FEI) algorithm 5 to reconstruct the tag-side B meson using either hadronic or semileptonic
+decay modes. By applying a stringent requirement on the FEI output probability, a high-purity
+sample can be obtained.
+
+      • Hadronic tagging fully reconstructs specific hadronic B decays. It strongly suppresses
+        combinatorial background and provides tight kinematic constraints on Bsig via p⃗Bsig =
+        −⃗pBtag in the Υ(4S) rest frame. However, the reconstruction efficiency is typically below
+        1%.
+
+      • Semileptonic tagging reconstructs B → Dℓν and B → D∗ ℓν decays, where the neutrino
+        is treated as missing energy. The presence of a high-momentum lepton enables efficient
+        identification, resulting in higher efficiency than hadronic tagging due to large semilep-
+        tonic branching fractions. However, the undetected neutrino leads to reduced kinematic
+        constraints and lower sample purity.
+
+    This report is organized as follows. Sections 2.1, 2.2, and 2.3 present the latest results on
+b → sℓℓ transitions in B 0 → K ∗0 τ + τ − 7 , B 0 → KS0 τ + τ − , and B + → K + τ + τ − 8 decays,
+respectively. Sections 3.1 and 4 discuss the reinterpretation of B + → K + ν ν̄ evidence 9 and the
+search for inclusive B → Xs ν ν̄ decay 10 .
+
+2     b → sℓ+ ℓ− (b → sτ + τ − ) transitions
+
+In this report, we concentrate on final states containing τ -lepton pairs. The b → sτ + τ − pro-
+cesses involve third-generation leptons, which makes them particularly sensitive to potential
+new physics contributions 6 . Furthermore, the ability of Belle II to reconstruct final states with
+undetectable neutrinos from τ decays provides a significant experimental advantage.
+
+2.1    B 0 → K ∗0 τ + τ − search using hadronic B-tagging at Belle II
+Signal candidates are categorized into ℓℓ, ℓπ, ππ, and ρX categories according to the τ decay
+products (tτ ). The excellent photon efficiency and resolution enable a clean reconstruction of
+π 0 mesons, allowing ρ+ → π + π 0 decays to be included as τ prong candidates.
+    Among these, the ℓℓ category provides the highest sensitivity and purity due to the excel-
+lent lepton identification at Belle II and the strong suppression of q q̄ background. The latter
+originates from the fact that continuum q q̄ events hadronize into jet-like topologies dominated
+by light hadrons, resulting in event shapes that differ significantly from the more spherical B B̄
+topology. A boosted decision tree (BDT) is trained to further suppress background using vari-
+ables such as residual calorimeter energy in the electromagnetic calorimeter (Eextra ), the K ∗0 tτ
+invariant mass, q 2 , etc. A simultaneous fit to the BDT outputs (Fig. 2) shows no significant
+signal. We obtain a limit of B UL > 1.8 × 10−3 at 90% confidence limit (CL), which improves
+the Belle constraint by approximately a factor of two while using only half of its data.
+
+2.2    First B 0 → KS0 τ + τ − search using hadronic B-tagging at Belle and Belle II
+Signal candidates are divided into ℓℓ, ℓc hu , ℓu hc , ρℓ, and no-ℓ categories to account for different
+background compositions and purities. BDTs are used for background suppression based on
+Figure 2 – Distributions of η(BDT) in signal region for the four signal categories. The signal,
+fitted with B = [−0.15 ± 1.01] × 10−3 and scaled assuming B = 10−2 , is shown as a reference.
+
+
+variables such as Eextra , invariant-mass combinations of KS0 and τ -prong, τ -prong kinematics,
+event-shape observables, and q 2 , etc. A simultaneous fit to the transformed BDT output O′
+across all categories and datasets (Fig. 3) show no significant signal. An upper limit of B UL <
+8.4 × 10−4 at 90% CL is set, representing the first search result on the B 0 → KS0 τ + τ − decay.
+
+
+
+
+Figure 3 – Post-fit distributions of O′ for Belle II (as example). The red filled histogram
+represents the measured B(B 0 → KS0 τ + τ − ), red step histogram shows the signal B excluded at
+the obtained upper limit multiplied by 10.
+
+
+2.3   B + → K + τ + τ − search using hadronic B-tagging at Belle and Belle II
+On the signal side, only leptonic τ decays (τ → eν ν̄ and τ → µν ν̄) are considered, providing
+a low-background environment. Instead of a multivariate approach, a cut-based strategy is
+adopted: the dominant B → Dℓν background is suppressed by requiring the Kℓ invariant mass
+to exceed the D-meson threshold, the lepton momentum, and the q 2 .
+     The signal yield is extracted from the distribution of Eextra , using a Poisson event-counting
+method optimized in a signal-enhanced region. Signal peaks at 0 in Eextra as it doesn’t have extra
+photons in the calorimeter and backrgound distributes far from 0. The background expectation
+is validated with sideband data. No significant excess is observed, and an upper limit of B(B + →
+K + τ + τ − ) < 5.6 × 10−4 at 90% CL is set (the upper limit has been updated compared to the
+result presented at the conference 8 ), representing the most stringent constraint on this channel
+to date.
+Figure 4 – Distributions of Eextra after final selections in (left) Belle and (right) Belle II data.
+Expectations based on corrected simulation for backgrounds and for 104 ×-enhanced SM signal
+are overlaid.
+
+
+3     b → sν ν̄ transitions
+
+3.1    B + → K + ν ν̄ reinterpretation
+
+We recently determined of the B(B + → K + ν ν̄) decay at Belle II under the assumption of SM
+kinematics, providing the first evidence fo this decay using combined inclusive and hadronic B-
+tagging method 12 . In this analysis, backgrounds are suppressed using two consecutive classifiers:
+BDT1 and BDT2 . The signal yield is extracted using a two-dimensional binning scheme in
+the transformed BDT2 output, ηBDT2 , and the reconstructed momentum-transfer squared, qrec      2 ,
+
+which is divided into 4 × 3 bins.
+    The reinterpretation strategy is straightforward 13 . We start with simulated SM signal events
+and construct a model-agnostic number density, n0 (x), where x denotes the fit observables,
+namely ηBDT2 and qrec 2 as shown in Eq. 1. The expected event yield in a given point x is
+
+obtained from the selection efficiency and the model prediction. For a new model, we reweight
+the SM events in each q 2 bin by the ratio of the new-model prediction to the SM one, σσ10 , which
+provides the predicted distribution for that model.
+                                                     "        #
+                                  X                   σ1 (q 2 )         
+                                                                         2
+                                                                                   
+                      n1 (x) =              n0,q2 (x)           ,   x ≡ qrec , ηBDT2 .          (1)
+                                                      σ0 (q 2 )
+                                 q 2 bins
+
+    The Weak Effective Theory (WET) provides a unified framework for studying possible NP
+effects, as it describes contributions from both the SM and NP through effective operators. In
+this formalism, vector, scalar, and tensor Wilson coefficients (C) contribute to the differential
+branching fraction of the B + → K + ν ν̄ decay as predicted by the WET is given by 14 . We
+extract the marginal posterior distributions for the unconstrained combinations CV L + CV R ,
+CSL + CSR , and CT , which are treated as the parameters of interest together with the relevant
+hadronic form factors. The posterior maximum is located at (11.3, 0.0, 8.2) in this parameter
+space. As shown in Fig. 5, our work obtains that an enhanced vector contribution, together
+with a non-zero tensor one, provide a better description of data.
+
+
+4     First B → Xs ν ν̄ search at Belle II using hadronic B-tagging at Belle II
+
+The Belle II experiment search for the inclusive FCNC decay B → Xs ν ν̄ targets a precisely
+predicted SM branching fraction 15 of [(3.35 − 3.62) ± 0.11] × 10−5 , providing a complementary
+probe to B → Kν ν̄. The hadronic B-tagging is used for tag side reconstruction, and Xs in
+the signal side is reconstructed in a broad set of final states containing a kaon, including Knπ
+Figure 5 – The marginalized posterior for the Wilson coefficients. Dashed black lines indicate
+the SM predictions, and the yellow lines correspond to the posterior modes.
+
+
+(n = 0, 1, 2, 3, 4), 3K, and 3Kπ modes. This is the first time to study the channel with double
+ν in the final states using sum of exclusive method.
+    Background suppression relies on a BDT calibrated with B → Xs J/ψ(→ µ+ µ− ) control
+samples, while normalization is constrained using off-resonance data and sidebands. A two-
+dimensional fit in BDT output and Xs mass is performed across three regions: Region 1, enriched
+in K; Region 2, enriched in K ∗ ; and Region 3, corresponding to the non-resonant modes. No
+signal is observed, Table 1 summarizes the selection efficiencies (ϵ) and fit results for the three
+mass regions, together with the corresponding upper limits (ULs). Combining the three mass
+regions, an inclusive upper limit of 3.2 × 10−4 at 90% CL is set to B → Xs ν ν̄ for the first time.
+
+                     Table 1 – B → Xs ν ν̄ fit results in three mass regions.
+
+    MXs [GeV/c2 ]   ϵ [10−3 ]     Nsig     central value B[10−5 ]   ULobs [10−5 ]   ULexp [10−5 ]
+       [0, 0.6]       2.93      6+18+19
+                                  −17−16       0.3 ± 0.8+0.9
+                                                         −0.7          2.2              2.0
+      [0.6, 1.0]      1.32      36+27+31
+                                  −26−26        3.5+2.6+3.1
+                                                    −2.5−2.6           9.5              6.6
+     [1.0, mB ]       0.62      24+44+62
+                                  −43−53        5.1+9.2+12.9
+                                                   −8.8−11.0           31.2            26.7
+
+
+
+5   Conclusion
+
+The Belle II detector, with its large solid-angle coverage and well-constrained initial-state kine-
+matics, provides an excellent environment for studying B decays with missing energy using
+various tagging techniques. Current results demonstrate that Belle II can already achieve com-
+petitive—and in some cases world-leading—precision with relatively modest data samples.
+    We present a model-agnostic reinterpretation of the B + → K + ν ν̄ result 12 within the WET
+framework, providing the first credible intervals for b → s Wilson coefficients from Belle II data.
+By releasing the corresponding likelihood 16 , this work enables rigorous tests of new-physics
+scenarios and establishes a framework for future Belle II reinterpretations.
+    In addition, using the same dataset and hadronic B-tagging, we study the FCNC processes
+B → Xs ν ν̄ and B 0 → K ∗0 τ + τ − . We set 90% CL upper limits of 3.2 × 10−4 and 1.8 × 10−3 ,
+respectively, with the former representing the most stringent constraint to date.
+    Figure 6 – The bin index distribution after the fit, for data and histogram templates.
+
+
+   Furthermore, by combining Belle and Belle II datasets, we perform the first search for
+B 0 → KS0 τ + τ − and a search for B + → K + τ + τ − using hadronic B-tagging. We obtain the most
+stringent upper limits of 8.4 × 10−4 and 5.6 × 10−4 at 90% CL, respectively.
+
+References
+
+  1. A. Abashian et al. (Belle Collaboration), Nucl. Instrum. Meth. A 479, 117 (2002).
+  2. S. Kurokawa and E. Kikutani, Nucl. Instrum. Meth. A 499, 1 (2003). T. Abe et al, Prog.
+     Theor. Exp. Phys. (2013) 03A001-03A011.
+  3. T. Abe et al. (Belle II Collaboration), arXiv:1011.0352.
+  4. K. Akai, K. Furukawa, and H. Koiso, Nucl. Instrum. Meth. A 907, 188 (2018).
+  5. T. Keck et al., Comput. Software Big Sci. 1, 6 (2019).
+  6. B. Capdevilaet al., Phys. Rev. Lett. 120, 181802 (2018).
+  7. I. Adachi et al. (Belle II Collaboration), Phys. Rev. Lett. 135, 151801 (2025).
+  8. I. Adachi et al. (Belle II Collaboration), arXiv: 2603.24437.
+  9. M. Abumusabh et al. (Belle II Collaboration), Phys. Rev. D 112, 092016 (2025).
+ 10. M. Abumusabh et al. (Belle II Collaboration), arXiv:2511.10980.
+ 11. T. V. Dong et al. (Belle Collaboration), Phys. Rev. D 108, L011102 (2023).
+ 12. I. Adachi et al. (Belle II Collaboration), Phys. Rev. D 109, 112006 (2024).
+ 13. L. Gärtner, N. Hartmann, L. Heinrich, M. Horstmann, T. Kuhr, M. Reboud, S. Stefkova,
+     and D. van Dyk, Eur. Phys. J. C 84, 693 (2024)
+ 14. J. Gratrex, M. Hopfer, and R. Zwicky, Phys. Rev. D 93, 054008 (2016).
+ 15. M. Fael, J. Jenkins, E. Lunghi, Z. Polonsky, arXiv:2512.19138.
+ 16. HEPDATA: https://www.hepdata.net/record/146803
+

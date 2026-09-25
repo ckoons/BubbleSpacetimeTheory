@@ -1,0 +1,1228 @@
+                                           Dispersion relation analysis of the radiative corrections to gA in the neutron β-decay
+
+                                                                                   Mikhail Gorchtein1 and Chien-Yeah Seng2
+                                                                              1
+                                                                              Institut für Kernphysik, PRISMA Cluster of Excellence
+                                                                                 Johannes Gutenberg-Universität, Mainz, Germany∗
+                                                           2
+                                                             Helmholtz-Institut für Strahlen- und Kernphysik and Bethe Center for Theoretical Physics,
+                                                                                      Universität Bonn, 53115 Bonn, Germany
+                                                                                               (Dated: August 24, 2021)
+                                                           We present the first and complete dispersion relation analysis of the inner radiative corrections
+                                                        to the axial coupling constant gA in the neutron β-decay. Using experimental inputs from the
+                                                        elastic form factors and the spin-dependent structure function g1 , we determine the contribution
+                                                        from the γW -box diagram to a precision better than 10−4 . Our calculation indicates that the inner
+                                                        radiative corrections to the Fermi and the Gamow-Teller matrix element in the neutron β-decay
+                                                        are almost identical, i.e. the ratio λ = gA /gV is almost unrenormalized. With this result, we
+
+
+
+
+arXiv:2106.09185v3 [hep-ph] 23 Aug 2021
+                                                        predict the bare axial coupling constant to be g̊A = −1.2754(13)exp (2)RC based on the PDG average
+                                                        λ = −1.2756(13).
+
+                                                        PACS numbers:
+
+
+
+
+                                                                                              I.   INTRODUCTION
+
+                                          The recent emergence of an apparent deficit in the top-row Cabibbo-Kobayashi-Maskawa (CKM) matrix unitarity [1],
+
+                                                                                        |Vud |2 + |Vus |2 + |Vub |2 = 0.9985(5)                                        (1)
+
+                                          has triggered a renewed interest in precise experimental studies of various β-decay processes giving access to |Vud |.
+                                          Superallowed 0+ − 0+ nuclear decays have long been regarded as the best avenue for such purpose. Recent works,
+                                          however, pointed out that current theory uncertainties in the nuclear-structure corrections may have been significantly
+                                          underestimated [2–5]. Reducing these uncertainties requires novel ab-initio nuclear theory calculations that are not
+                                          yet available. As a consequence, the role of alternative channels such as the β-decays of the free neutron, mirror nuclei
+                                          and pion becomes increasingly important. With the future improvement in the experimental precision, these other
+                                          β decay processes will offer competitive determinations of |Vud | and complementary sensitivity to possible beyond
+                                          standard model (BSM) signals.
+                                            Free neutron β-decay currently provides the second best determination of |Vud | through the following master for-
+                                          mula [6, 7]:
+
+                                                                                                          4903.1(1.1) s
+                                                                                              |Vud |2 =                  ,                                             (2)
+                                                                                                           τn (1 + 3λ2 )
+
+                                          where the uncertainty in the numerator arises from the Standard Model (SM) theory input. The two required
+                                          experimental inputs are the neutron lifetime τn , and the decay parameter λ ≡ gA /gV which is the ratio between
+                                          the neutron axial and vector coupling constant. This parameter is renormalized by electroweak radiative corrections
+                                          (RCs), and these latter are the primary focus of this article.
+                                             The parameter λ can be measured either via the P-even correlation p~e ·~     pν (the a coefficient), or the P-odd ês ·~
+                                                                                                                                                                    pe (the
+                                          A coefficient) and ês · p~ν (the B coefficient) ones, with ês the unit 3-vector along the neutron polarization. The current
+                                          best measurement reported by the PERKEO III collaboration λ = −1.27641(45)stat (33)sys , with a 0.04% precision [8]
+                                          (in this paper we pick the sign convention λ < 0, also adopted in the Particle Data Group (PDG) review). However,
+                                          the current PDG average reads λ = −1.2756(13) [1], where the much larger uncertainty is due to a scale factor of
+                                          2.6 that accounts for the large discrepancy between the results before [9–12] and after 2002 [8, 13–16] (see Ref.[17]
+                                          for more discussions). Future improvements are expected from the Nab [18] and PERC [19, 20] collaborations, both
+                                          aiming at an accuracy level of 10−4 .
+                                             The exact value of λ not only serves for extracting Vud , but is also interesting in itself. The “bare” (i.e. without
+                                          electroweak corrections) neutron axial coupling g̊A is one of the simplest hadronic matrix elements and has received
+
+
+
+                                          ∗ Electronic address: gorshtey@uni-mainz.de
+                                                                                                                                  2
+
+much attention. Unlike its vector counterpart g̊V which remains non-renormalized due to the conserved vector current
+(CVC), the bare axial coupling is not protected and must be calculated, e.g. using lattice Quantum Chromodynamics
+(QCD) [21–42]. The most recent FLAG average [43] reads:
+
+                                           Nf = 2 + 1 + 1 :      g̊A = −1.251(33)
+                                              Nf = 2 + 1 :       g̊A = −1.254(16)(30)
+                                                  Nf = 2 :       g̊A = −1.278(86) ,                                             (3)
+
+but individual calculations have achieved higher precision. For instance, Ref.[40] reported a percent-level determi-
+nation of g̊A = −1.271(10)(7) using an unconventional method inspired by the Feynman-Hellmann theorem, and
+follow-up works are aiming for sub-percent precision [42]. Such a rapid development makes λ a powerful tool for
+searching for redBSM physics. By comparing first-principles calculations of g̊A to the experimental results for λ one
+thereby constraints the strength of possible BSM contributions that could modify gA , in particular the right-handed
+currents [44–47].
+   When the lattice precision reaches 10−3 , a valid comparison between g̊A and λ will require precise O(αem /π) RCs
+that bring g̊A /g̊V to gA /gV . In particular, we need to deal with sizable hadronic uncertainties originating from the
+γW -box diagram. The latter can be written as a Q2 -integral, and performing operator product expansion (OPE) it
+is well-known that the corrections to gV and gA coming from large Q2 (which carries a large electroweak logarithm)
+are the same. Therefore, it was believed that the difference between g̊A and λ is numerically small [48–51]. However,
+for a long time there was no serious attempt to understand the RC to gA from the low-Q2 part of the integral
+which is also of the order 10−3 , comparable to the high-Q2 contribution. It includes the elastic contributions that
+are fixed by the nucleon form factors, as well as the inelastic contributions that are governed by non-perturbative
+QCD. The first attempt for a complete analysis was performed recently in Refs.[52, 53]. Anticipating the results
+of this work, we found that those Refs. originally contained algebraic mistakes in the computation of the elastic
+contribution, invalidating their numerical results. These mistakes were later corrected in the published version of
+Ref.[52]. Additionally, the inelastic contribution residing at low Q2 was obtained based on a holographic QCD model,
+following Ref.[54] where the RC to gV was addressed. The model-dependent nature of this approach makes a rigorous
+estimation of the theoretical uncertainty complicated.
+
+   In this article we improve on both points. We perform a novel analysis of the RC to gA based on the dispersion
+relation (DR) approach. It is a powerful tool which has proved successful in the treatment of the RCs to the Fermi
+amplitude in the free neutron and superallowed β-decays [2–4, 7]. In this formalism, the γW -box diagram is expressed
+as a dispersion integral over structure functions that are directly or indirectly related to experimental data. This
+ultimately allows for a fully data-driven analysis of this RC. For gA , the required input relies on the spin-dependent
+structure functions g1 and g2 , well-studied quantities in deep inelastic scattering (DIS) experiments. We utilize high-
+precision world data on g1,2 to evaluate the dispersion integral, and fix the forward γW -box diagram correction to gA
+to an unprecedented precision better than 10−4 . We observe that the RCs to gV and gA are numerically very close
+and largely cancel in the ratio, which practically removes any distinction between g̊A and λ down to 2 × 10−4 .
+   The contents in this paper are arranged as follows. In Section II we define our notation and introduce the starting
+point for the discussion of the RC. We introduce the γW -box diagram in Section III, and derive its dispersive
+representation in Section IV. The elastic (Born) and inelastic contributions to the box diagram are computed in
+Section V and VI respectively. The final results and discussions are presented in Section VII.
+
+
+                                              II.   GENERAL FRAMEWORK
+
+  We start by defining the hadronic currents relevant to the β-decay of the free neutron:
+                                                           2 µ         1 µ
+                                                     µ
+                                                    Jem =    ūγ u − ¯    dγ d
+                                                           3           3
+                                                     µ
+                                                    JW   = ūγ µ (1 − γ5 )d .                                                   (4)
+
+Their single-nucleon matrix elements are given by:
+                                                                                   
+                   µ                                          i
+   hN (pf , sf )|Jem   |N (pi , si )i = ūsf (pf ) F1N γ µ +    F2N σ µν (pf − pi )ν usi (pi )
+                                                             2M
+                                                                                                                   
+                     µ                                        i                                    GP
+      hp(pf , sf )|JW   |n(pi , si )i = ūsf (pf ) F1W γ µ +    F2W σ µν (pf − pi )ν + GA γ µ γ5 −    γ5 (pf − pi )µ usi (pi ) , (5)
+                                                             2M                                    2M
+                                                                                                                       3
+
+where N = p, n and M = (Mp + Mn )/2 ≈ 939 MeV. All the form factors above are functions of −(pi − pf )2 .
+                                                   S       p       n      V      p         n
+We may also define the isospin combinations F1,2       = F1,2 + F1,2 and F1,2 = F1,2 − F1,2  . The values of the vector
+and the axial charged weak form factors at zero momentum transfer define the “bare” vector and axial coupling
+constants: F1W (0) = g̊V , GA (0) = g̊A , which represent the Fermi and Gamow-Teller matrix element in neutron
+β-decay respectively. In particular, g̊V = 1 from isospin symmetry, and the correction due to the strong isospin-
+breaking effects is negligible due to the Behrends-Sirlin-Ademollo-Gatto theorem [55, 56]. On the other hand, g̊A is
+not protected by any exact symmetry. We do not include the isospin-breaking correction to g̊A separately because it
+is already included in the respective first-principles calculations.
+   The nucleon mass difference ∆ = Mn − Mp ≈ 1.3 MeV and the electron mass me ≈ 0.511 MeV are much smaller
+than M . Therefore, the tree-level amplitude of the decay process n(pn ) → p(pp )e(pe )ν̄e (pν ) is given by:
+                                          GF
+                                Mtree = − √ Lλ ūs0 (p)γ µ (g̊V + g̊A γ5 )us (p) + O(∆2 ) ,                          (6)
+                                           2
+where GF = 1.1663787(6) × 10−5 GeV−2 is the Fermi constant measured from the muon decay [1], p = (pn + pp )/2
+is the average nucleon momentum, and Lλ = ū(pe )γλ (1 − γ5 )v(pν ) is the lepton piece. The recoil corrections scale as
+∆/M ∼ 10−3 , which are small but important in precision physics. They were studied in detail with both conventional
+methods and effective field theory (EFT) [57–62], and will not be discussed here.
+   RCs of the order O(αem /π) must be included for a precise extraction of the weak coupling parameters. In the
+usual nomenclature, they are divided into the “outer” and “inner” corrections The former is a function of {Ee , me }
+calculable within Quantum Electrodynamics (QED) and independent of details of strong interaction. The latter is
+instead a constant in Ee but depends on details of the hadronic structure. The squared amplitude for the decay of a
+polarized neutron (to unpolarized final states) after the inclusion of the O(αem /π) RCs reads:
+                                                                                   
+           2        2      2                      2         2
+                                                                        αem (1)           αem (2)  p~e · p~ν
+       |M| = 16GF |Vud | Mn Mp Ee (Em − Ee )gV (1 + 3λ )F (β) 1 +            δ       1+ 1+       δ     a0
+                                                                          2π                  2π          Ee Eν
+                                                      
+                             αem (2)     p~e       p~ν
+                +ês · 1 +       δ     A0     + B0         + O(∆3 ) ,                                                (7)
+                              2π          Ee        Eν
+with
+                                      1 − λ2               2λ(λ + 1)            2λ(λ − 1)
+                               a0 =           ,   A0 = −             ,   B0 =             .                          (8)
+                                      1 + 3λ2               1 + 3λ2              1 + 3λ2
+Here, Ee = pe · p/M is the electron energy, Em = (Mn2 − Mp2 + m2e )/(2Mn ) ≈ Mn − Mp is the electron end-point
+                   p
+energy, and β = 1 − m2e M 2 /(pe · p)2 is the electron speed, all in the nucleon’s rest frame. With these notations, the
+functions δ (1,2) describe the outer corrections [48, 63]:
+                                                                                                     
+                       (1)         Mp      3       1       −1              2(Em − Ee ) Em − Ee        3
+                     δ     = 3 ln      − +4           tanh β − 1       ln              +           −
+                                   me      4       β                           me           3Ee       2
+                                                                                         2
+                                                                                                     
+                                4          2β        1      −1            2   (Em − Ee )           −1
+                              − Li2              + tanh β 2 + 2β +                         − 4 tanh β
+                                β        1+β        β                             6Ee2
+                                  1 − β2                  4(Em − Ee )(1 − β 2 ) 1
+                                                                                              
+                       (2)                       −1                                     −1
+                     δ     = 2               tanh β +                              tanh β − 1
+                                    β                           3β 2 Ee          β
+                                (Em − Ee )2 1 − β 2
+                                                                     
+                              +                          tanh−1 β − 1 ,                                              (9)
+                                   6β 2 Ee2        β
+whereas F (β) ≈ 1 + αem π/β is the Fermi’s function that incorporates the Coulomb interaction between the final-state
+proton and the electron [64]. The function δ (1) is also known as Sirlin’s function g(Ee , Em ).
+  The axial to vector coupling constants’ ratio, parameter λ = gA /gV , is understood as fully renormalized by the
+inner RCs. In near-degenerate semileptonic β-decay processes, the inner RCs are most conveniently studied in Sirlin’s
+representation [65] (see also Refs.[66–68] for a detailed account). In this formalism, most of the O(αem /π) electroweak
+RCs are either exactly known from current algebra, or give rise to the outer corrections in Eq.(9) and the Fermi’s
+function. As a result, the renormalized vector and axial coupling constants read:
+                                                                                         
+                                            αem         MZ      MZ             1 QED
+                          gV = g̊V 1 +             3 ln    + ln      + ãg + δHO     + VγW
+                                             4π         Mp      MW             2
+                                                                                         
+                                           αem          MZ      MZ             1 QED
+                          gA = g̊A 1 +            3 ln     + ln      + ãg + δHO     + AγW     ,                    (10)
+                                            4π          Mp      MW             2
+                                                                                                                                      4
+
+
+
+
+                                 FIG. 1: The forward γW -box diagrams in the free neutron β-decay.
+
+
+                                              QED
+where ãg is a pQCD correction factor and δHO      summarizes the leading-log higher-order QED effects [69, 70]. One
+observes that the fractional corrections to g̊V and g̊A are mostly identical and cancel in the ratio gA /gV . The only
+exceptions are the constants VγW and A  γW that describe the inner RCs originated from the γW -box diagrams (see
+Fig.1), which are the focus of this paper1 . With the above, we obtain:
+
+                                                          g̊A 
+                                                               1 + A     V
+                                                                             
+                                                   λ=               γW − γW   .                                                   (11)
+                                                          g̊V
+
+
+                                                   III.   γW -BOX DIAGRAM
+
+   The γW -box correction is of the natural size αem /π ∼ 10−3 . Taking into account recoil corrections ∼ ∆/M, me /M
+on top of the overall αem /π factor would bring us to accounting for effects in the 10−6 range that exceed the precision
+goal by two or three orders of magnitude. This defines the level of the detalization that is needed in our analysis. We
+will consistently set ∆ = me = 0 throughout the calculation below, as well as the proton recoil. This approximation
+also leads to the neglect of the pion pole due to the partially-conserved axial current (PCAC) hypothesis: the pion
+pole contribution, when contracted with the lepton tensor, results in lepton mass terms which, as stated are neglected.
+This precision level is supported by the fact that the lowest hadronic state is separated by the pion mass ∼ 140 MeV
+which is about hundred times larger than ∆. Notice however that this approximation may not be as safe for nuclear
+β-decay where the available Q-values may be as large as 15-20 MeV which are comparable to the energy level of
+nuclear excitations.
+   The part of the γW -box diagram amplitude that contributes to the inner correction must involve an antisymmetric
+tensor that stems from the lepton spinor structure. It reads:
+                                                              GF
+                                                      Minner        λ
+                                                       γW = − √ Lλ IγW ,                                                           (12)
+                                                               2
+where
+                                                                                   d4 q     2
+                                                                                                µναλ qα γW
+                                                                              Z
+                       λ                                                                  MW
+                          = ūs (p)γ λ g̊V VγW + g̊A A                 2
+                                                           
+                      IγW                              γW γ5 us (p) = ie                                T                          (13)
+                                                                                  (2π) MW − q (q 2 )2 µν
+                                                                                        4 2   2
+
+
+with 0123 = −1 in our convention. The forward generalized Compton tensor describing the W + n → γp process, is
+defined as:
+                                           Z
+                                     µν
+                                    TγW = dxeiqx hp|T [Jemµ     ν
+                                                            (x)JW (0)]|ni.                                (14)
+
+  To extract VγW and A
+                       γW , we use following identities:
+
+                                         1                          1
+                                           ūs (p)γ µ us (p) = pµ , ūs (p)γ µ γ5 us (p) = S µ ,                                   (15)
+                                         2                          2
+
+
+1 In the existing literature, e.g.
+                                 Refs.[2, 3, 67], the quantity V                  VA
+                                                                γW was written as γW , where the superscript indicates that it involves
+  the product of a vector current and an axial current. In this paper, the superscript carries a different meaning, namely which weak
+  coupling constant (vector or axial) they are correcting.
+                                                                                                                      5
+
+where the spin vector S µ is fixed by S 2 = −M 2 and S · p = 0, we obtain:
+                                                                 2
+                                            ie2        d4 q            µναλ qα pλ γW
+                                                   Z
+                                                              MW
+                                VγW =        2             4 2      2
+                                                                                   Tµν
+                                          2M g̊V      (2π) MW − q         (q 2 )2
+                                              ie2        d4 q      2
+                                                                         µναλ qα Sλ γW
+                                                     Z
+                                  A                             MW
+                                γW = −                         2                    Tµν .                          (16)
+                                            2M 2 g̊A    (2π)4 MW − q 2 (q 2 )2
+                                                                                                        −3
+In what follows, we use g̊A ≈ λ = −1.2756 as a normalization in the second expression. Since A γW ∼ 10    , the error
+induced by the ambiguity of g̊A is well below our precision goal.
+                               µν
+  Only those components in TγW      that contain an antisymmetric tensor contribute to Eq.(16). These are
+
+                                  iµναβ qα pβ      iµναβ qα
+                                                                                     
+                        µν                                                  (S · q)
+                      TγW = −                  T3 +            Sβ S1 + Sβ −         pβ S2 + ...                   (17)
+                                     2(p · q)         (p · q)                p·q
+The spin-independent, parity-violating amplitude T3 and spin-dependent, parity-conserving amplitudes S1,2 are func-
+tions of two invariants, ν = (p · q)/M and Q2 = −qµ q µ . Plugging Eq.(17) into Eq.(16) gives:
+                                       e2      d4 q      2
+                                                                 1 ν 2 + Q2
+                                           Z
+                                                      MW
+                          VγW =                      2 + Q2 (Q2 )2         T3
+                                     2Mg̊V    (2π)4 MW                 ν
+                                                       2
+                                                                    2
+                                      e2      d4 q                  ν − 2Q2         Q2
+                                          Z                                               
+                                                     MW        1
+                          AγW   =                   2 + Q2 (Q2 )2            S 1 −    S2   ,                  (18)
+                                     Mg̊A    (2π)4 MW                   3ν          ν
+where we have used the following identities:
+                         d4 q                     d4 q ν
+                    Z                          Z
+                              q α F (ν, Q2
+                                           ) =           pα F (ν, Q2 )
+                       (2π)4                     (2π)4 M
+                      d4 q                                               4ν 2 + Q2 pα pβ
+                                                        2
+                                                  d4 q    ν + Q2
+                  Z                            Z                                         
+                                         2
+                            qα qβ F (ν, Q ) =           −          gαβ +                   F (ν, Q2 )               (19)
+                     (2π)4                       (2π)4       3                3     M2
+that hold for any Lorentz scalar function F (ν, Q2 ).
+  To evaluate the loop integrals, we need to discuss the symmetry properties of the Compton amplitudes. We start
+by considering the isospin structure of amplitudes Ti , Si . Electromagnetic interaction does not conserve isospin and
+contains both isoscalar (I = 0) and isovector (I = 1) components. Therefore, each amplitude A = Ti , Si can be
+decomposed into components contributed by the isoscalar and isovector electromagnetic current respectively:
+                                                   A = A(0) + A(1) .                                                (20)
+The two isospin amplitudes have a different behavior under ν → −ν:
+                                             (I)             (I)   (I)
+                                           Ai (−ν, Q2 ) = ξi Ai (ν, Q2 ),                                           (21)
+        (I)           (0)      (1)                           (0)
+with ξi = ±1 and ξi = −ξi . It is easy to show that ξi             = −1 for T3 and S1,2 , so only the I = 0 component of
+these amplitudes survives in the integrals in Eq.(18).
+
+
+          IV.   DISPERSION REPRESENTATION OF THE FORWARD COMPTON AMPLITUDES
+
+  Forward Compton amplitudes have singularities along the real axis ν: poles due to a single nucleon intermediate
+state in the s− and u-channels at ν = ±νB = ±Q2 /(2M ), respectively, and unitarity cuts at ν ≥ νπ and ν ≤ −νπ
+where νπ = (2M mπ + m2π + Q2 )/(2M ) is the pion production threshold (see Fig.2). The discontinuity of the forward
+Compton tensor in the s−channel (i.e. ν ≥ νB ) is given by the generalization of the on-shell hadronic tensor to the
+γW -interference:
+                                     γW        γW             γW               γW
+                                DiscTµν (ν) ≡ Tµν (ν + iε) − Tµν (ν − iε) = 4πWµν ,                                 (22)
+where
+                       γW       1 X
+                      Wµν =           (2π)4 δ (4) (p + q − pX )hp|Jµem (0)|XihX|JνW (0)|ni
+                               4π
+                                   X
+                                 iµναβ q α pβ       iµναβ q α
+                                                                                        
+                                                                  β         β  (S · q) β
+                             = −               F3 +              S g1 + S −           p g2 + ...                    (23)
+                                   2(p · q)            (p · q)                   p·q
+                                                                                                                        6
+
+
+
+
+FIG. 2: The singularities of the forward Compton amplitudes on the complex-ν plane, and the contour chosen to derive the
+DRs in Eq.(24).
+
+
+The structure functions F3 and g1,2 can be decomposed similarly to I = 0, 1 components just like Eq.(20).
+  According to the crossing behavior established earlier and noticing that they cannot diverge faster than ν when
+ν → ∞, the amplitudes entering Eq. (18) have the following dispersion representation:
+                                          Z ∞         (0)
+                        (0)                         F (ν 0 , Q2 )
+                              2
+                      T3 (ν, Q ) = −4iν        dν 0 3 02
+                                            0         ν − ν2
+                                          Z ∞        (0) 0
+                        (0)                         g (ν , Q2 )
+                      S1 (ν, Q2 ) = −4iν       dν 0 1 02
+                                            0         ν − ν2
+                                          Z ∞        (0) 0      2          Z ∞        (0) 0      2
+                        (0)   2                   0 g2 (ν , Q )          3        0 g2 (ν , Q )
+                      S2 (ν, Q ) = −4iν        dν                 = −4iν       dν                     ,       (24)
+                                            0         ν 02 − ν 2            0      ν 02 (ν 02 − ν 2 )
+where the ν-integration is extended down to 0 to include the Born contribution. Notice that in the last line we have
+                              (0)
+slightly modified the DR of S2 using the Burkhardt-Cottingham (BC) sum rule [71]:
+                                               Z 1
+                                                   dxg2 (x, Q2 ) = 0 ,                                          (25)
+                                                   0
+             2       0
+where x = Q /(2M ν ) is the Bjorken variable. This sum rule is a superconvergence relation and is expected to hold
+at all Q2 . The benefit of this treatment will become apparent in the later section. Substituting Eq.(24) into Eq.(18)
+and using the following Wick rotation formula [72],
+                                                     Z ∞       Z +1 p
+                                d4 q
+                           Z
+                                                  i
+                                            2
+                                     F (ν, Q ) =           2 2
+                                                         dQ Q       du 1 − u2 F (iQu, Q2 ) ,                      (26)
+                               (2π)4             8π 3 0         −1
+                                                                                                    γW
+we can integrate the variable u analytically to obtain our final dispersive representation of δgV,A    as follows:
+
+                        αem ∞ dQ2
+                              Z               2    Z 1
+                                            MW             1 + 2r (0)
+             VγW =                         2 + Q2     dx          F (x, Q2 )
+                                                                  2 3
+                        πg̊V 0 Q2 MW                0     (1 + r)
+                                Z ∞                   Z 1
+                                          2      2
+                                                                                          4M 2 x2 (0)
+                                                                                                          
+               A          2α em        dQ      M W           dx       5 + 4r (0)    2                    2
+             γW = −                          2 + Q2                        g1 (x, Q ) −         g2 (x, Q ) ,         (27)
+                           πg̊A 0 Q2 MW                0 (1 + r)
+                                                                  2     3                   Q2
+           p
+with r = 1 + 4M 2 x2 /Q2 . As a useful crosscheck, the two-photon exchange correction to the hyperfine splitting
+in ordinary and muonic atoms is expressed through analogous two-fold integrals over electromagnetic spin structure
+functions [73, 74].
+   The quantity VγW , relevant for the extraction of Vud from superallowed β-decays is well-studied within the dispersive
+approach [2, 3, 7, 75] and is not addressed here. The main obstacle in those studies is the absence of direct experimental
+                                   (0)
+data of the structure function F3 . This forces one to either rely on data of F3 from a different isospin channel (whose
+             (0)
+relation to F3 contains a residual model-dependence), or from indirect lattice QCD data. On the other hand, despite
+having received much less attention, a high-precision dispersive analysis of A    γW is in fact much more robust because
+                                                                             (0)
+it depends on the parity-conserving, spin-dependent structure functions g1,2 . The isospin symmetry unambiguously
+                 N
+relates them to g1,2 measured in ordinary DIS:
+                                                  (0)    1 p   n
+                                                g1,2 =     g − g1,2     ,                                            (28)
+                                                         2 1,2
+                                                                                                                                   7
+
+
+
+
+                                                                                                µν
+                            FIG. 3: The pole (a,b) and seagull (c) diagrams that contribute to TγW .
+
+
+the latter are defined via
+                                        1 X
+                             γγ,N
+                            Wµν   =            (2π)4 δ (4) (p + q − pX )hN |Jµem (0)|XihX|Jνem (0)|N i
+                                       4π
+                                            X
+                                       iµναβ q α
+                                                                               
+                                                     β N          β   (S · q) β
+                                     =             S g1 + S −                p g2N + ...                                        (29)
+                                         (p · q)                        p·q
+
+Therefore, it is possible to perform a fully data-driven analysis of A
+                                                                      γW without introducing further model-dependence
+at low Q2 . We will perform such an analysis in the sections below. Following Sirlin’s notation [48], we express our
+result as
+                                                   αem     αem
+                                          AγW =       d=        [dB + d1 + d2 ] ,                               (30)
+                                                    2π      2π
+                                                                                                              (0)
+where dB , d1 and d2 represent the elastic (Born) contribution, the inelastic contributions from g1                 and the inelastic
+                    (0)
+contributions from g2 respectively, which we will evaluate separately in the following sections.
+
+
+                                        V.   ELASTIC (BORN) CONTRIBUTION
+
+  Substituting X = p into Eq.(23) and using the elastic form factors defined in Eq.(5) give us the Born contribution
+to the spin structure functions needed for the evaluation of the box correction:
+
+                    (0),B       F1W GSM + F1S GW
+                                               M                (0),B           F2W GSM + F2S GW
+                                                                                               M
+                  g1        =                    δ(1 − x) ,    g2        = −τ                    δ(1 − x) ,                     (31)
+                                        8                                               8
+where GE ≡ F1 − τ F2 and GM ≡ F1 + F2 are the usual electric and magnetic Sachs form factors defined for both the
+electromagnetic and charged weak form factors, with τ = Q2 /(4M 2 ). All the form factors above are functions of Q2
+that drop at high Q2 , therefore one can neglect the Q2 dependence of the W -boxon propagator ∼ Q2 /MW2
+                                                                                                        . With this
+the Born contribution reads,
+                            Z ∞
+                                 dQ2
+                                                                                                
+                         1                1       5 + 4rB  W S        S W
+                                                                              W S        S W
+                                                                                                
+               dB = −                                      F 1 GM + F 1 G M  +  F2 G M + F 2 GM     ,          (32)
+                        2g̊A 0 Q2 (1 + rB )2         3
+                                       W       V
+where rB ≡ r|x=1 . We notice that F1,2    = F1,2 by isospin symmetry, which means Eq.(32) is fully determined by the
+four nucleon electromagnetic form factors: {GpE , GpM , GnE , GnM }. Different parameterizations of these form factors [76–
+81] all give consistent results within their respective error bars. In particular, the parametrization of Ref. [79] leads
+to
+
+                                       dB = 1.216(6)GpE (9)GpM (1)GnE (2)GnM = 1.22(1)FF .                                      (33)
+
+                                                                 (0),B          (0),B
+In particular, the central values of the contribution from g1   and g2      are 1.17 and 0.04 respectively. We observe
+that the latter is much smaller, which turns out to also be the case for the inelastic contributions.
+   We pause here to comment on the Born contribution before moving on to the inelastic contributions. One may
+also try to derive it by calculating the Compton amplitudes from the first two Feynman diagrams in Fig.3 (the “pole
+                                                                                                                                    8
+
+diagrams”) using the form factors in Eq.(5) as effective vertex functions, and then plugging them into Eq.(18). The
+pole diagrams give:
+
+                 (0),B                iM νQ2                             iν W S
+                         (ν, Q2 ) = −
+                                                     W S
+                                                     F1 GM + F1S GW
+                                                                    
+               S1                                                 M +      F F
+                                   4      2 2
+                                  Q − 4M ν − iε                         2M 2 2
+                (0),B                   iνQ4             W S               iν  W S
+                      (ν, Q2 ) =                         F G + GW     S
+                                                                                F G + GW  S
+                                                                                           
+               S2                                                  M F2 −              M F2   .                                  (34)
+                                 4M (Q4 − 4M 2 ν 2 − iε) 2 M               4M 2 M
+
+We split each expression into two term, where the first term contains a singularity at ν 2 = νB   2
+                                                                                                     and vanishes as 1/ν
+when ν → ∞, while the second term is regular and diverges as ν when ν → ∞. It is easy to see that, retaining only
+the first term leads again to Eq.(32), apart from a numerically small difference originating from our accounting for
+the BC sum rule in the DRs, effectively redefining the g2 contribution to dB . The regular terms in Eq.(34) lead to an
+extra small deviation from Eq.(32). The origin of this deviation lies in the Gerasimov-Drell-Hearn sum rule [82, 83]
+and its extension to finite Q2 [84] which relate the regular low-energy term to an integral over the inelastic part of g1 .
+   This discussion simply means that the definition of the “elastic” contribution is not exactly the same in the
+diagrammatic and the dispersive representation. Of course, if we were able to calculate the full (i.e. pole + seagull)
+  µν
+TγW   exactly at all values of {ν, Q2 } with the diagrammatic approach, then the outcome must be identical to the DR
+analysis. But since this is impossible, the dispersive representation provides a much better starting point. We want
+to also point out that Refs.[52, 53] attempted to calculate the Born contribution from the pole diagrams in Fig.3 (let
+us call it d0B ). 2 Should all terms be retained, they would have obtained the following result:
+                     Z ∞
+                         dQ2
+                                                                                                                   
+                  1                1      5 + 4rB  W S                                    3τ
+     d0B = −                                                    S W
+                                                                       W S          S W                  2 W S
+                                                    F 1 GM +  F1 G M  +  F2 G M  +  F2 GM   −     (1 + rB ) F 2 F 2
+                 2g̊A 0 Q2 (1 + rB )2         3                                                2
+         = 1.23(1)                                                                                                    (35)
+
+which only differs from the DR’s definition of dB in Eq.(32) by a numerically small term. For the benefit of interested
+readers, we also provide in Appendix A an alternative derivation of Eq.(35) without making use of the invariant
+amplitudes.
+
+
+                                          VI.    INELASTIC CONTRIBUTIONS
+
+   Extensive measurements of the structure function g1N were carried out in SLAC [85–87], CERN [88–91], DESY [92]
+and JLab [93–97]. In particular, we utilize the results from the EG1b experiment at JLab that measured the g1p [97]
+and g1n [96] in a wide range of {x, Q2 }, from which the moments ΓN                                          2
+                                                                   i (i = 1, 3, 5) were computed in bins of Q , common
+                              2             2
+for p and n, from 0.05 GeV to 3.5 GeV . Full results are available in the supplementary material of each respective
+paper3 . Data on g2 are generally scarce [94, 97, 99–102] and insufficient for a fully data-based analysis. Fortunately,
+its contribution is generally expected to be small due to the BC sum rule that forces the first moment of g2 to vanish
+identically when accounting for elastic and inelastic contributions.
+   Since the data do not extend to an arbitrarily large Q2 needed to evaluate the integrals, we make use of perturbative
+QCD results which are well under control theoretically above a separation scale Q20 , while directly using the exper-
+imental data that contains both perturbative and nonperturbative physics below that scale. Following our earlier
+works on the vector RC [2, 3] we take Q20 = 2 GeV2 . For the vector RC case, not only does Q20 = 2 GeV2 mark the
+onset of pQCD regime, it also corresponds to the scale, below which the quality of data deteriorates severely leading
+to some sensitivity to Q20 . In the case of the axial RC, this scale lies well within the region covered by data, hence
+shifting it to a slightly higher value (not lower because pQCD description starts to break down) does not change the
+result.
+
+
+
+2 In the earlier versions of these Refs., the author made some algebraic mistakes when dealing with the symmetric loop integral of the
+
+  form d4 qqα qβ F (ν, Q2 ) (i.e. Eq.(19)). As a consequence, an incorrect analytic formula which gave an unexpectedly large value of
+        R
+   0
+  dB = 2.64(3) was obtained. The published version of Ref.[52] corrected these mistakes, but retained only the term proportional to
+  (5 + 4rB )/3.
+3 There is a more recent measurement of g p from JLab at low Q2 [98], but unfortunately it does not measure g n simultaneously.
+                                            1                                                                1
+                                                                                                                                 9
+
+                                                                                    (0)
+                                                  A.    Contribution of g1
+
+                                                                  (0)
+  As shown in Eq.(28), the polarized structure function g1 is simply related to {g1N } that are measurable in DIS
+experiments. We define their moments as:
+                                                     Z xπ
+                                         ΓN
+                                          i (Q 2
+                                                 ) ≡      xi−1 g1N (x, Q2 ) ,                                 (36)
+                                                             0
+                                          
+where xπ = Q2 / (M + mπ )2 − M 2 + Q2 is the pion production threshold. Notice that the definition above excludes
+the elastic contribution at x = 1, which is a general convention adopted by most of the experimental papers. The
+first moment Γ1p−n ≡ Γp1 − Γn1 is of particular interest because it satisfies the polarized Bjorken sum rule [103, 104] at
+Q2 → ∞. However, at large but finite Q2 it receives a number of corrections [105]:
+                                                                      ∞
+                                                 |g̊A |               X µp−n
+                                    Γp−n    2
+                                     1,th (Q ) =        CBj (Q2 ) +            2i
+                                                                                          ,       large Q2                    (37)
+                                                    6                 i=2
+                                                                          Q2i−2
+
+here the subscript “th” denotes the theory prediction (at large Q2 ). The first term at the right hand side is the
+Bjorken sum rule with a pQCD correction factor4 , while the second term summarizes the higher-twist (HT) effects
+starting from twist-four. The pQCD correction factor is written as:
+                                                                  ∞            α n
+                                                                                s
+                                                                  X
+                                                CBj (Q2 ) = 1 −         c̃n                   ,                               (38)
+                                                                  n=1
+                                                                               π
+
+where αs is the running strong coupling constant in the MS scheme, while the coefficients {c̃n } are calculated at
+present to n = 4 [106, 107]:
+
+                                       c̃1 = 1
+                                       c̃2 = 4.583 − 0.333nf
+                                       c̃3 = 41.44 − 7.607nf + 0.177n2f
+                                       c̃4 = 479.4 − 123.4nf + 7.697n2f − 0.1037n3f ,                                         (39)
+
+with nf the number of active quark flavors, and we refer the reader to Refs. [2, 3] for full detail of the pQCD
+contribution and relevant discussions and references. In the meantime, only the twist-four term among all the HT
+corrections needs to be included for our precision goal. There are several recent determinations of the coefficient
+µp−n
+  4   [108–110] that are largely consistent with each other. In this work we quote the value µp−n
+                                                                                              4    = (−0.047±0.020)M 2
+                                     2                                                                  p−n
+in Ref.[109]. We find that at 2 GeV , the inclusion of the twist-four correction reduces the size of Γ1,th   by about 13%,
+but its total contribution to d1 through the integral at Q2 > 2 GeV2 is only about 1%. Coming back to our problem,
+we write
+                   Z ∞                                             Z xπ
+                3       dQ2    MW 2
+                                         p−n           p−n                 4(5 + 4r)  p
+      d1 = −                   2 + Q2 Γ̄1
+                                               2
+                                             (Q ) , Γ̄1 (Q ) ≡2
+                                                                        dx            g (x, Q2 ) − g1n (x, Q2 ) .      (40)
+              2g̊A 0 Q2 MW                                           0     9(1 + r)2 1
+
+When Q2 → ∞ the function Γ̄p−n   1    reduces to Γ1p−n , but at low Q2 the two are not identical
+                                                                                            p        due to target mass
+corrections ∼ M /Q contained in the factor f (x, Q2 ) = 4(5 + 4r)/(9(1 + r)2 ), where r = 1 + 4x2 M 2 /Q2
+                 2   2
+
+   We use the following strategy to reconstruct the full Γ̄p−n
+                                                           1   at low Q2 from data. We fit f (x, Q2 ) as function of x at
+fixed Q2 as
+
+                               f (x, Q2 ) = a(Q2 ) + b(Q2 )x2 + c(Q2 )x4 + . . . ,                 0 < x < xπ ,               (41)
+
+and obtain the three fitting parameters a(Q2 ), b(Q2 ) and c(Q2 ) by first dividing 0 < x < xπ into, say, 1000 equal
+intervals, evaluating the 1000 respective discrete values for f (x, Q2 ), and performing a three-parameter fit with these
+
+
+
+4 Please be reminded that one should not consider again the running effect of the QED coupling constant in V          A
+                                                                                                             γW and γW , because
+                                         QED
+  it is already contained in the factor δHO in Eq.(10). So, throughout this paper we always take αem = 7.2973525693(11) × 10−3 as a
+  constant.
+                                                                                                                          10
+
+                                                                 0.20
+
+
+
+                                                                 0.15
+
+
+
+                                                                 0.10
+
+
+
+                                                                 0.05
+
+
+
+                                                                 0.00
+
+                                                                    0        1        2            3      4      5
+                                                                                          2    2
+                                                                                      Q (GeV )
+
+FIG. 4: Left panel: Comparison between the function 4(5 + 4r)/(9(1 + r)2 ) (blue solid curve), its global fit approximation
+(orange dashed curve) and the Taylor-expansion approximation (red solid curve) at Q2 = 1 GeV2 , 0 < x < xπ . Right panel:
+Data points of Γ̄p−n
+                 1   reconstructed from the EG1b experiment [96, 97] versus the theory prediction at large Q2 with (red band)
+and without (brown curve) the twist-four correction.
+
+
+discrete points using, e.g. Mathematica. We find that this procedure allows for a very precise reproduction of the
+entire curve at 0 < x < xπ , where the difference between the original and the fitted curve is negligible for all practical
+purposes. Contrarily, a simple Taylor expansion in powers of x2 M 2 /Q2 ,
+
+                                                                        10M 2 x2   7M 4 x4
+                                  a(Q2 ) + b(Q2 )x2 + c(Q2 )x4  1 −             +                                      (42)
+                                                                          9Q2      3(Q2 )2
+
+is only applicable at high Q2 and low x but significantly deviates for larger x. It breaks down completely at Q2 = 0
+where it becomes divergent, whereas f (x, 0) remains finite. As an illustration, the two approximated expressions
+evaluated at a representative value of Q2 = 1 GeV2 are plotted together with the analytic form in the left panel of
+Fig.4, and we clearly see that Eq.(41) nicely reproduces the latter for the full range of x.
+   We thus reconstruct the full Γ̄p−n
+                                  1   in each bin of Q2 in terms of the lowest Mellin moments,
+
+                        Γ̄p−n
+                          1   (Q2 ) = a(Q2 )Γp−n
+                                             1   (Q2 ) + b(Q2 )Γp−n
+                                                                3   (Q2 ) + c(Q2 )Γ5p−n (Q2 ) + . . . ,                 (43)
+
+where Γp−n
+         i    (i = 1, 3, 5) are obtained from Refs.[96, 97]. We find that the difference between Γ̄1p−n and Γ1p−n (i.e., the
+effect of higher moments) does not exceed 3.5% for Q2 = 2 GeV2 , which implies a negligible difference in the integral
+at Q2 > 2 GeV2 . Therefore we will not distinguish between the two above 2 GeV2 . In contrast, the higher-twist
+correction due to µp−n4    reaches 13% and needs to be kept along.
+   The right panel in Fig.4 shows the reconstructed Γ̄1p−n data points versus the large-Q2 theory prediction using
+Eq.(37). We find that the theory and experiment match well at Q2 > 2 GeV2 (observe how the twist-four correction
+is needed to reconcile the two), which justifies our choice of Q20 = 2 GeV2 as the separation scale between the
+perturbative and non-perturbative regime. We therefore evaluate d1 separately in these two regions. At Q2 < Q20 ,
+we fit three curves that correspond to the upper bounds, central values and lower bounds of the discrete data points
+respectively, and evaluate the Q2 -integral and its uncertainty by integrating these three curves. Since the uncertainties
+of the data points are mainly systematics, this prescription takes into account the possible positive correlation effects.
+The resulting uncertainty is thus a conservative one; it is likely that it can further be reduced, but this would
+require a dedicated study of the systematic uncertainties of the data which lies beyond the scope of the present work.
+Meanwhile, at Q2 > Q20 we evaluate the integral using the theory prediction in Eq.(37). The results are as follows:
+                                        Z Q20
+                                  3     dQ2   MW 2    p−n 2 
+                        d<
+                         1   = −          2   2    2
+                                                       Γ̄1 (Q ) data = 0.30(4)data
+                                 2g̊A
+                                    0    Q MW + Q
+                                                     "                        #
+                                   Z ∞     2    2                         p−n
+                                3       dQ   M         |g̊A |            µ
+                        d>
+                         1 = −
+                                                W
+                                             2 + Q2           CBj (Q2 ) + 4 2   = 1.83(1)HT ,                           (44)
+                               2g̊A Q20 Q2 MW            6                Q
+
+where we neglected the uncertainty associated with the leading twist contribution compared to those coming from
+the data at low Q2 and the HT correction (i.e. the coefficient µp−n
+                                                                4   ) at high Q2 . The total contribution of g1 reads,
+
+                                                d1 = d<    >
+                                                      1 + d1 = 2.14(4)data (1)HT .                                      (45)
+                                                                                                                      11
+
+We note that the integral below Q2 ≤ 0.05 GeV2 not covered by the data but making part of d<     1 is controlled by the
+isovector GDH sum rule [82, 83], dΓp−n
+                                    1   (Q2
+                                            = 0)/dQ 2
+                                                      = (κ 2
+                                                           n − κ 2
+                                                                 p )/8M 2
+                                                                          , with κp,n denoting the proton’s (neutron’s)
+anomalous magnetic moment, respectively. Connecting the GDH-fixed value at Q2 = 0 to the lowest data point
+                           Q2
+produces a negligible dlow
+                       1      . 0.003 contribution which is safely accommodated within the uncertainty.
+
+
+                                                                             (0)
+                                               B.     Contribution of g2
+
+                                                                                            (0)
+   In fact, we have already implemented this sum rule in the derivation of the DR of S2 . We emphasize the importance
+                                                                  (0)
+of this procedure for a reliable estimate of the contribution of g2 to A
+                                                                        γW : since experimental data typically only cover
+                                                                                   (0)
+the inelastic region, enforcing an exact vanishing of the first moment of g2 while operating with phenomenological
+parametrizations of different pieces can be a delicate matter. The explicit use of the BC sum rule thus precludes
+any numerically significant mistake caused by an imperfection of these parametrizations. As a result, the dispersive
+                                                              (0)
+representation of A γW only contains higher moments of g2 , in which the non-perturbative physics at small x is
+                                                                                                            (0)
+suppressed. Additionally, since every extra power of x2 is accompanied by 1/Q2 , the contribution of g2 bears no
+large logarithms. Due to the smallness of the g2 contribution, we opt for an approximate treatment and include this
+result in the estimate of the systematic uncertainty.
+                                             (0)
+   The inelastic contribution coming from g2 reads,
+                                Z ∞                Z xπ
+                             2      dQ2    MW  2
+                                                          dx 4M 2 x2  p
+                                                                         g2 (x, Q2 ) − g2n (x, Q2 ) ,
+                                                                                                   
+                     d2 =             2    2     2             2    2
+                                                                                                               (46)
+                            g̊A 0 Q MW + Q 0 (1 + r)              Q
+where the isospin relation in Eq.(28) is used. Rather than relying on data on g2N , we decompose g2 into twist-two and
+twist-three (and higher) components [1], g2N = g2,tw2
+                                                  N       N
+                                                       + g2,tw3+ , and use the Wandzura-Wilczek relation [111] for the
+former,
+                                                                      Z1
+                                                                           dy N
+                                   N
+                                  g2,tw2 (x, Q2 ) = −g1N (x, Q2 ) +          g (y, Q2 ) .                           (47)
+                                                                           y 1
+                                                                      x
+
+Notice that the relation above should be understood to not contain the elastic contribution at x = 1, because otherwise
+one could take xπ < x < 1 at both sides, and then the left hand side and the first term at the right hand side would
+vanish but the second term at the right hand side would not, which is a contradiction. With this in mind, we multiply
+both sides by xi−1 and integrate them at 0 < x < xπ to obtain:
+                                       Z xπ
+                                                                   1−n N 2
+                                            xn−1 g2,tw2
+                                                  N
+                                                        (x, Q2 ) =    Γn (Q ) ,                                    (48)
+                                        0                           n
+where ΓNn is defined in Eq.(36). Therefore, we may use the available information of g1 to evaluate the twist-two
+contribution to d2 .
+  Again, we discuss the integral at large and small Q2 separately. For Q2 > Q20 , we keep the leading term,
+                                                 Z ∞
+                                              4       dQ2   MW 2
+                                                                     M 2 p−n 2
+                                 d>2,tw2 ≈ −                            Γ   (Q ) ,                          (49)
+                                             3g̊A Q20 Q MW + Q Q2 3
+                                                        2   2      2
+
+
+where we have used Eq.(48) and set r → 1. The Q2 dependence of the W propagator can also be safely neglected as
+the integral converges. There is no simple sum rule for Γp−n
+                                                          3   at large Q2 , but we may adopt a naı̈ve valence quark
+picture that assumes each valence quark carries 1/3 of the nucleon’s momentum. This gives:
+                                                      |g̊A |
+                                        g1p−n (x) ≈          δ (x − 1/3) ,   large Q2                               (50)
+                                                        6
+which automatically reproduces the free polarized Bjorken sum rule. This naı̈ve picture predicts Γ3p−n ≈ 0.11Γp−n
+                                                                                                               1  ,
+which we may check against the experimental data: At Q2 ≈ 3.4 GeV2 , Refs.[96, 97] give Γ1p−n ≈ 0.1558, Γp−n 3   ≈
+0.0128, i.e. Γp−n
+              3    ≈ 0.08Γp−n
+                           1   . So our naı̈ve picture overestimates the size of Γ3p−n by some 30%, an acceptable
+uncertainty given our precision goal. With the above, we obtain:
+                                                Z ∞
+                                              2     dQ2 M 2     2M 2
+                                   d>2,tw2 ≈                =        = 0.010(3) .                              (51)
+                                             81 Q20 Q2 Q2      81Q20
+                                                                                                                        12
+
+   Next we turn to the small-Q2 region where accounting for the leading twist may not be sufficient. As before, the
+leading twist contribution
+                                       Z Q20         Z xπ
+                                 2             dQ2                dx 4M 2 x2  p
+                     d<                                                       g2,tw2 (x, Q2 ) − g2,tw2
+                                                                                                 n
+                                                                                                       (x, Q2 ) ,
+                                                                                                               
+                      2,tw2 =                                                                                          (52)
+                                g̊A     0      Q2     0        (1 + r)2 Q2
+
+
+is reconstructed by using the WW relation and the x-integral related to measured moments of g1 by performing a two
+parameter fit of the kinematical function f 0 (x, Q2 ) for fixed Q2 (since the first moment is removed by the BC sum
+rule, a two-parameter fit is already sufficient for our precision goal).
+
+                                          1     4M 2 x2
+                      f 0 (x, Q2 ) =          2
+                                                        = b0 (Q2 )x2 + c0 (Q2 )x4 + . . . ,             0 < x < xπ .   (53)
+                                       (1 + r)   Q2
+
+Using Eq.(48), we obtain
+          Z xπ
+                   dx 4M 2 x2  p                                   2                     4
+                               g2,tw2 (x, Q2 ) − g2,tw2
+                                                  n
+                                                        (x, Q2 ) ≈ − b0 (Q2 )Γ3p−n (Q2 ) − c0 (Q2 )Γ5p−n (Q2 ) .
+                                                                
+                        2  2
+                                                                                                                       (54)
+           0    (1 + r)   Q                                         3                     5
+
+With Γp−n
+      i   taken from Refs.[96, 97], this gives,
+                                       Z Q20
+                                               dQ2 2 0 2 p−n 2
+                                                                                 
+                                 2                                  4 0 2 p−n 2
+                     d<
+                      2,tw2 ≈ −                      b (Q )Γ3 (Q ) + c (Q )Γ5 (Q ) = 0.01(1) ,                         (55)
+                                g̊A      0      Q2 3                5
+
+where we assigned a conservative 100% uncertainty to the entire contribution.
+  To quantify higher twist contributions we recall the definition of the “color polarizability” [112, 113]
+                                                Z 1
+                                   d2 (Q2 ) = 3     dxx2 [g2 (x, Q2 ) − g2,tw2 (x, Q2 )],                              (56)
+                                                           0
+
+of which we only consider the inelastic part d̄2 (Q2 ) coming from the interval 0 ≤ x ≤ xπ [114] since the elastic
+part is already taken into account. In terms of this polarizability and neglecting higher moments, we obtain for the
+contribution of twist-three and higher,
+                                                                  Z Q20
+                                                          2M 2            dQ2 p 2
+                                        d<
+                                         2,tw3+ =                            [d̄ (Q ) − d̄n2 (Q2 )] .                  (57)
+                                                          3g̊A     0       Q4 2
+For numerical estimates, we rely on the recent analysis of generalized spin polarizabilities of the nucleon in baryon
+chiral effective theory [114]. We obtain, assigning a conservative 100% uncertainty,
+
+                                                            d<
+                                                             2,tw3+ = 0.03(3) .                                        (58)
+
+  Combining the various pieces we finally arrive at
+
+                                                                  d2 = 0.05(3)                                         (59)
+                                                                          (0)
+as our estimate of the total inelastic contribution from g2 . We observe that it is two orders of magnitude smaller
+than d1 , following the same hierarchy as in dB .
+   The inelastic contribution in our DR analysis then reads d1 + d2 = 2.19(4)data (1)HT (3)g2 . This is to be compared
+with 2.31(9) from Refs. [52, 53], and we see that the two do not quite agree within error bars. While being identical in
+the large-Q2 treatment, their estimation of the low-Q2 contribution is largely model-based, raising questions about the
+reliability of the uncertainty. In contrast, in our treatment the low-Q2 contribution is completely fixed by experimental
+data without any further assumption, apart from the small g2 correction for which only few assumption were made,
+which will become testable as soon as new, higher-quality low-Q2 data for g2 will become available.
+
+
+                                                 VII.          FINAL DISCUSSIONS
+
+  Collecting all the results from Sec.V and VI gives:
+                                                                     −3
+                             A
+                              γW = 3.96(1)FF (5)data (1)HT (3)g2 × 10   = 3.96(6) × 10−3 ,                             (60)
+                                                                                                                      13
+
+where the uncertainties come from the elastic form factors, the low-Q2 g1 data, the HT-correction to g1 and g2 ,
+respectively. We compare this to our recent update of VγW using indirect lattice inputs: VγW = 3.83(11) × 10−3 [7].
+These two numbers are very close to each other, and in fact their difference is consistent with zero:
+                                                                        −3
+                                        A     V
+                                         γW − γW = 0.13(11)V (6)A × 10    .                                        (61)
+
+Using Eqs.(11), (61) and the PDG average λ = −1.2756(13) [1], we obtain:
+
+                                              g̊A = −1.2754(13)exp (2)RC ,                                          (62)
+
+which is consistent with the result from the current best lattice QCD determination. Our result indicates that there
+is no practical distinction between λ and g̊A , unless the experimental precision of the former and the lattice precision
+of the latter have reached 3 × 10−4 or better.
+   We wrap up with some discussions of the future prospects. Within the same DR framework, a much better
+precision is achieved for A              V
+                            γW than for γW thanks to the existence of high-quality data of the structure function g1
+at Q < 2 GeV . On the other hand, the precision of VγW is limited by the low-quality data of the structure function
+      2         2
+
+F3 from neutrino (antineutrino)-nucleus scattering experiments in the 80s [115, 116]. Better-quality data may come
+from the Deep Underground Neutrino Experiment (DUNE) in the next decade [117, 118].
+   It was pointed out that a direct lattice QCD calculation of VγW is a promising way to proceed at the present
+stage [119]. Several exploratory calculations of mesonic γW -box diagrams have shown great success [67, 120] and
+the same technology is directly applicable to nucleon. At present, no such direct calculation on the nucleon is
+available yet. A more involved comparison of the DR result for VγW with the lattice computation of the respective
+quantity on the pion, amended with further phenomenological ingredients shows a nearly perfect agreement [7]. Even
+with this reassuring agreement, it is not unthinkable of that a direct lattice calculation could still disagree with the
+phenomenological, DR-based evaluation. Examples of such an unexpected disagreement are the pion-nucleon sigma
+term σπN (see Ref.[43] and references therein) and, more recently, the hadronic vacuum polarization contribution to
+gµ −2 [121, 122]. They show that even carefully-performed first-principles calculations or fully data-driven analysis may
+still contain unknown, previously unanticipated systematic effects which may seriously affect the implications of the
+corresponding precision experiments. Given these precedents, it is always useful to cross-check the lattice calculations
+with alternative methods. Our new result of A      γW is perfectly up to this task as it is a solid phenomenological
+determination with the uncertainty very well under control.
+   Further effort from the DR side should be dedicated to RCs to the GT strength in nuclear mirror decays where a
+recent study [123] revealed inconsistencies in the previous analyses. Removing these inconsistencies led to a better
+agreement for the Vud extracted across mirror and superallowed nuclear decays, as well as neutron decay. However,
+Ref. [123] only partially accounted for the γW -box contribution. The dispersion formulation of the A     γW correction
+developed in this work can be directly applied to mirror systems. Following Refs. [3, 4], nuclear modifications of the
+universal free-neutron γW -box correction can be computed, and we defer this task to future work.
+
+
+                                                  Acknowledgements
+
+  We are extremely thankful to Alexandre Deur and Xiaochao Zheng for their detailed explanations of the JLab
+experiments. We also appreciate Leendert Hayen for many inspiring discussions. We are furthermore grateful to
+Vadim Lensky and Vladimir Pascalutsa for providing their code for computing the generalized spin polarizabilities.
+This work is supported in part by EU Horizon 2020 research and innovation programme, STRONG-2020 project under
+grant agreement No 824093 and by the German-Mexican research collaboration Grant No. 278017 (CONACyT) and
+No. SP 778/4-1 (DFG) (M.G), by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) and
+the NSFC through the funds provided to the Sino-German Collaborative Research Center TRR110 “Symmetries
+and the Emergence of Structure in QCD” (DFG Project-ID 196253076 - TRR 110, NSFC Grant No. 12070131001)
+(C.Y.S).
+
+
+                                  Appendix A: Alternative derivation of Eq.(35)
+
+   In this Appendix we outline a derivation of Eq.(35), namely the elastic contribution in the diagrammatic repre-
+                                      γW
+sentation, directly from the tensor Tµν  without going through its invariant amplitudes. It involves some interesting
+tricks to deal with fermionic spinors and thus is worthwhile to be displayed for pedagogical purposes.
+                                                                                                                           14
+
+                               γW
+  We start by computing Tµν        from the direct (D) and crossed (C) pole diagrams in Fig.3. Using the elastic form
+factors as effective vertices, we obtain:
+
+                                             γW,B
+                                                       ūs (p)ΓD
+                                                               µν us (p)   ūs (p)ΓC
+                                                                                   µν us (p)
+                                            Tµν   =                  2
+                                                                         +                                               (A1)
+                                                          2M ν − Q          −2M ν − Q2
+where
+                                iF p                                    iF2W
+                                                                                                            
+                                                                                                    GP
+               ΓD     F1p γµ − 2 σµα q α i p
+                                                          W                       β
+                µν =                              +
+                                                 / /q + M   F1  γ ν +        σ νβ q   + G   γ γ
+                                                                                           A ν 5 −       γ  q
+                                                                                                           5 ν
+                                2M                                       2M                         2M
+                                 iF2W                                                             iF2n
+                                                                                                             
+                                                           GP
+               ΓC       W                    β
+                                                                                      n                     α
+                µν =  F 1  γ ν +      σ νβ q   +  G γ γ
+                                                   A ν 5 −     γ  q
+                                                                 5 ν   i  p −
+                                                                           / /q +  M      F γ
+                                                                                           1 µ −       σ µα q            (A2)
+                                  2M                       2M                                     2M
+
+are matrices in the Dirac space.
+                                                                               γW,B
+   We can get rid of the nucleon spinors ūs (p), us (p) in the expression of Tµν   using the following trick. First, we
+recall that any Dirac structure Γ can be decomposed in terms of standard Dirac basis 1, γ5 , γ α , γ α γ5 , σ αβ using the
+following identity:
+                           1        1            1             1                   1
+                      Γ=     Tr[Γ] + Tr[γ5 Γ]γ5 + Tr[γα Γ]γ α − Tr[γα γ5 Γ]γ α γ5 + Tr[σαβ Γ]σ αβ .                      (A3)
+                           4        4            4             4                   8
+Next, we have the following identities when a Dirac basis is sandwiched between ūs (p) and us (p):
+
+                                                        ūs (p)us (p) = 2M
+                                                     ūs (p)γ5 us (p) = 0
+                                                    ūs (p)γ α us (p) = 2pα
+                                                ūs (p)γ α γ5 us (p) = 2S α
+                                                                         2 αβρσ
+                                                  ūs (p)σ αβ us (p) =         pρ Sσ .                                  (A4)
+                                                                        M
+Combining Eqs.(A3) and (A4), we obtain:
+
+                                     M             pα                Sα                    1 αβρσ
+              ūs (p)Γiµν us (p) =     Tr[Γiµν ] +    Tr[γα Γiµν ] −    Tr[γα γ5 Γiµν ] +        pρ Sσ Tr[σαβ Γiµν ],   (A5)
+                                     2              2                 2                   4M
+where i = D, C. The right hand side is free from the nucleon spinors. The trace of the Dirac matrices can be performed
+using various Mathematica packages, so we do not display the explicit results here.
+                                    γW,B
+   We then plug our expression of Tµν     , now free from nucleon spinors, into Eq.(16) and use Eq.(19) to simplify the
+integrals. Finally, we perform the Wick rotation using Eq.(26) and integrate out the variable u analytically. This
+brings us exactly to Eq.(35).
+
+
+
+
+  [1] P. Zyla et al. (Particle Data Group), PTEP 2020, 083C01 (2020).
+  [2] C.-Y. Seng, M. Gorchtein, H. H. Patel, and M. J. Ramsey-Musolf, Phys. Rev. Lett. 121, 241804 (2018), 1807.10197.
+  [3] C. Y. Seng, M. Gorchtein, and M. J. Ramsey-Musolf, Phys. Rev. D100, 013001 (2019), 1812.03352.
+  [4] M. Gorchtein, Phys. Rev. Lett. 123, 042503 (2019), 1812.04229.
+  [5] J. C. Hardy and I. S. Towner, Phys. Rev. C 102, 045501 (2020).
+  [6] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. D 70, 093006 (2004), hep-ph/0406324.
+  [7] C.-Y. Seng, X. Feng, M. Gorchtein, and L.-C. Jin, Phys. Rev. D 101, 111301 (2020), 2003.11264.
+  [8] B. Märkisch et al., Phys. Rev. Lett. 122, 242501 (2019), 1812.04666.
+  [9] P. Bopp, D. Dubbers, L. Hornig, E. Klemt, J. Last, H. Schutze, S. J. Freedman, and O. Scharpf, Phys. Rev. Lett. 56,
+      919 (1986), [Erratum: Phys.Rev.Lett. 57, 1192 (1986)].
+ [10] B. Erozolimsky, I. Kuznetsov, I. Stepanenko, and Y. A. Mostovoi (1997), [Erratum: Phys.Lett.B 412, 240–241 (1997)].
+ [11] P. Liaud, K. Schreckenbach, R. Kossakowski, H. Nastoll, A. Bussiere, J. P. Guillaud, and L. Beck, Nucl. Phys. A 612, 53
+      (1997).
+ [12] Y. A. Mostovoi et al., Phys. Atom. Nucl. 64, 1955 (2001).
+ [13] M. Schumann, M. Kreuz, M. Deissenroth, F. Gluck, J. Krempel, B. Markisch, D. Mund, A. Petoukhov, T. Soldner, and
+      H. Abele, Phys. Rev. Lett. 100, 151801 (2008), 0712.2442.
+                                                                                                                         15
+
+[14] D. Mund, B. Maerkisch, M. Deissenroth, J. Krempel, M. Schumann, H. Abele, A. Petoukhov, and T. Soldner, Phys. Rev.
+     Lett. 110, 172502 (2013), 1204.0013.
+[15] G. Darius et al., Phys. Rev. Lett. 119, 042502 (2017).
+[16] M. A. P. Brown et al. (UCNA), Phys. Rev. C 97, 035505 (2018), 1712.00884.
+[17] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. Lett. 120, 202002 (2018), 1802.01804.
+[18] J. Fry et al., EPJ Web Conf. 219, 04002 (2019), 1811.10047.
+[19] D. Dubbers, H. Abele, S. Baessler, B. Maerkisch, M. Schumann, T. Soldner, and O. Zimmer, Nucl. Instrum. Meth. A
+     596, 238 (2008), 0709.4440.
+[20] X. Wang et al. (PERC), EPJ Web Conf. 219, 04007 (2019), 1905.10249.
+[21] A. A. Khan et al., Phys. Rev. D 74, 094508 (2006), hep-lat/0603028.
+[22] H.-W. Lin, T. Blum, S. Ohta, S. Sasaki, and T. Yamazaki, Phys. Rev. D 78, 014505 (2008), 0802.0863.
+[23] S. Capitani, M. Della Morte, G. von Hippel, B. Jager, A. Juttner, B. Knippschild, H. B. Meyer, and H. Wittig, Phys.
+     Rev. D 86, 074502 (2012), 1205.0180.
+[24] R. Horsley, Y. Nakamura, A. Nobile, P. E. L. Rakow, G. Schierholz, and J. M. Zanotti, Phys. Lett. B 732, 41 (2014),
+     1302.2233.
+[25] G. S. Bali, S. Collins, B. Glässle, M. Göckeler, J. Najjar, R. H. Rödl, A. Schäfer, R. W. Schiel, W. Söldner, and
+     A. Sternbeck, Phys. Rev. D 91, 054501 (2015), 1412.7336.
+[26] A. Abdel-Rehim et al., Phys. Rev. D 92, 114513 (2015), [Erratum: Phys.Rev.D 93, 039904 (2016)], 1507.04936.
+[27] C. Alexandrou, M. Constantinou, K. Hadjiyiannakou, K. Jansen, C. Kallidonis, G. Koutsou, and A. Vaquero Aviles-Casco,
+     Phys. Rev. D 96, 054507 (2017), 1705.03399.
+[28] S. Capitani, M. Della Morte, D. Djukanovic, G. M. von Hippel, J. Hua, B. Jäger, P. M. Junnarkar, H. B. Meyer, T. D.
+     Rae, and H. Wittig, Int. J. Mod. Phys. A 34, 1950009 (2019), 1705.06186.
+[29] R. G. Edwards, G. T. Fleming, P. Hagler, J. W. Negele, K. Orginos, A. V. Pochinsky, D. B. Renner, D. G. Richards, and
+     W. Schroers (LHPC), Phys. Rev. Lett. 96, 052001 (2006), hep-lat/0510062.
+[30] T. Yamazaki, Y. Aoki, T. Blum, H. W. Lin, M. F. Lin, S. Ohta, S. Sasaki, R. J. Tweedie, and J. M. Zanotti
+     (RBC+UKQCD), Phys. Rev. Lett. 100, 171602 (2008), 0801.4016.
+[31] T. Yamazaki, Y. Aoki, T. Blum, H.-W. Lin, S. Ohta, S. Sasaki, R. Tweedie, and J. Zanotti, Phys. Rev. D 79, 114505
+     (2009), 0904.2039.
+[32] J. D. Bratt et al. (LHPC), Phys. Rev. D 82, 094502 (2010), 1001.3620.
+[33] J. R. Green, M. Engelhardt, S. Krieg, J. W. Negele, A. V. Pochinsky, and S. N. Syritsyn, Phys. Lett. B 734, 290 (2014),
+     1209.1687.
+[34] N. Yamanaka, S. Hashimoto, T. Kaneko, and H. Ohki (JLQCD), Phys. Rev. D 98, 054516 (2018), 1805.10507.
+[35] J. Liang, Y.-B. Yang, T. Draper, M. Gong, and K.-F. Liu, Phys. Rev. D 98, 074505 (2018), 1806.08366.
+[36] K.-I. Ishikawa, Y. Kuramashi, S. Sasaki, N. Tsukamoto, A. Ukawa, and T. Yamazaki (PACS), Phys. Rev. D 98, 074510
+     (2018), 1807.03974.
+[37] K. Ottnad, T. Harris, H. Meyer, G. von Hippel, J. Wilhelm, and H. Wittig, PoS LATTICE2018, 129 (2018), 1809.10638.
+[38] T. Bhattacharya, V. Cirigliano, S. Cohen, R. Gupta, H.-W. Lin, and B. Yoon, Phys. Rev. D 94, 054508 (2016), 1606.07049.
+[39] E. Berkowitz et al. (2017), 1704.01114.
+[40] C. C. Chang et al., Nature 558, 91 (2018), 1805.12130.
+[41] R. Gupta, Y.-C. Jang, B. Yoon, H.-W. Lin, V. Cirigliano, and T. Bhattacharya, Phys. Rev. D 98, 034503 (2018),
+     1806.09006.
+[42] A. Walker-Loud et al., PoS CD2018, 020 (2020), 1912.08321.
+[43] S. Aoki et al. (Flavour Lattice Averaging Group) (2019), 1902.08191.
+[44] M. González-Alonso and J. Martin Camalich, JHEP 12, 052 (2016), 1605.07114.
+[45] S. Alioli, V. Cirigliano, W. Dekens, J. de Vries, and E. Mereghetti, JHEP 05, 086 (2017), 1703.04751.
+[46] M. Gonzalez-Alonso, O. Naviliat-Cuncic, and N. Severijns, Prog. Part. Nucl. Phys. 104, 165 (2019), 1803.08732.
+[47] A. Falkowski, M. González-Alonso, and O. Naviliat-Cuncic (2020), 2010.13797.
+[48] A. Sirlin, Phys. Rev. 164, 1767 (1967).
+[49] A. Garcia and A. Queijeiro, Phys. Rev. D 27, 2101 (1983).
+[50] A. Kurylov, M. J. Ramsey-Musolf, and P. Vogel, Phys. Rev. C 65, 055501 (2002), nucl-th/0110051.
+[51] A. Kurylov, M. J. Ramsey-Musolf, and P. Vogel, Phys. Rev. C 67, 035502 (2003), hep-ph/0211306.
+[52] L. Hayen, Phys. Rev. D 103, 113001 (2021), 2010.07262.
+[53] L. Hayen (2021), 2102.03458.
+[54] A. Czarnecki, W. J. Marciano, and A. Sirlin (2019), 1907.06737.
+[55] R. E. Behrends and A. Sirlin, Phys. Rev. Lett. 4, 186 (1960).
+[56] M. Ademollo and R. Gatto, Phys. Rev. Lett. 13, 264 (1964).
+[57] B. R. Holstein, Rev. Mod. Phys. 46, 789 (1974), [Erratum: Rev.Mod.Phys. 48, 673–673 (1976)].
+[58] D. H. Wilkinson, Nucl. Phys. A 377, 474 (1982).
+[59] S. Ando, H. W. Fearing, V. P. Gudkov, K. Kubodera, F. Myhrer, S. Nakamura, and T. Sato, Phys. Lett. B 595, 250
+     (2004), nucl-th/0402100.
+[60] V. P. Gudkov, Phys. Rev. C 77, 045502 (2008), 0801.4896.
+[61] A. N. Ivanov, M. Pitschmann, and N. I. Troitskaya, Phys. Rev. D 88, 073002 (2013), 1212.0332.
+[62] A. N. Ivanov, R. Höllwieser, N. I. Troitskaya, M. Wellenzohn, and Y. A. Berdnikov, Results Phys. 21, 103806 (2021),
+     2010.14336.
+                                                                                                                          16
+
+ [63] A. Garcia and M. Maya, Phys. Rev. D 23, 2603 (1981).
+ [64] E. Fermi, Z. Phys. 88, 161 (1934).
+ [65] A. Sirlin, Rev. Mod. Phys. 50, 573 (1978), [Erratum: Rev. Mod. Phys.50,905(1978)].
+ [66] C.-Y. Seng, D. Galviz, and U.-G. Meißner, JHEP 02, 069 (2020), 1910.13208.
+ [67] X. Feng, M. Gorchtein, L.-C. Jin, P.-X. Ma, and C.-Y. Seng, Phys. Rev. Lett. 124, 192002 (2020), 2003.09798.
+ [68] C.-Y. Seng, X. Feng, M. Gorchtein, L.-C. Jin, and U.-G. Meißner, JHEP 10, 179 (2020), 2009.00459.
+ [69] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 71, 3629 (1993).
+ [70] J. Erler, Rev. Mex. Fis. 50, 200 (2004), hep-ph/0211345.
+ [71] H. Burkhardt and W. N. Cottingham, Annals Phys. 56, 453 (1970).
+ [72] W. Marciano and A. Sirlin, Nucl. Phys. B 88, 86 (1975).
+ [73] C. E. Carlson, V. Nazaryan, and K. Griffioen, Phys. Rev. A 78, 022517 (2008), 0805.2603.
+ [74] C. E. Carlson, V. Nazaryan, and K. Griffioen, Phys. Rev. A 83, 042509 (2011), 1101.3239.
+ [75] K. Shiells, P. Blunden, and W. Melnitchouk (2020), 2012.01580.
+ [76] D. Drechsel, B. Pasquini, and M. Vanderhaeghen, Phys. Rept. 378, 99 (2003), hep-ph/0212124.
+ [77] I. T. Lorenz, H. W. Hammer, and U.-G. Meißner, Eur. Phys. J. A 48, 151 (2012), 1205.6628.
+ [78] I. T. Lorenz, U.-G. Meißner, H. W. Hammer, and Y. B. Dong, Phys. Rev. D 91, 014023 (2015), 1411.1704.
+ [79] Z. Ye, J. Arrington, R. J. Hill, and G. Lee, Phys. Lett. B 777, 8 (2018), 1707.09063.
+ [80] Y.-H. Lin, H.-W. Hammer, and U.-G. Meißner, Phys. Lett. B 816, 136254 (2021), 2102.11642.
+ [81] Y.-H. Lin, H.-W. Hammer, and U.-G. Meißner (2021), 2106.06357.
+ [82] S. B. Gerasimov, Yad. Fiz. 2, 598 (1965).
+ [83] S. D. Drell and A. C. Hearn, Phys. Rev. Lett. 16, 908 (1966).
+ [84] A. Deur, S. J. Brodsky, and G. F. De Téramond (2018), 1807.05250.
+ [85] P. L. Anthony et al. (E142), Phys. Rev. Lett. 71, 959 (1993).
+ [86] K. Abe et al. (E143), Phys. Rev. Lett. 74, 346 (1995).
+ [87] K. Abe et al. (E154), Phys. Rev. Lett. 79, 26 (1997), hep-ex/9705012.
+ [88] D. Adams et al. (Spin Muon (SMC)), Phys. Lett. B 329, 399 (1994), [Erratum: Phys.Lett.B 339, 332–333 (1994)],
+      hep-ph/9404270.
+ [89] V. Y. Alexakhin et al. (COMPASS), Phys. Lett. B 647, 8 (2007), hep-ex/0609038.
+ [90] M. G. Alekseev et al. (COMPASS), Phys. Lett. B 690, 466 (2010), 1001.4654.
+ [91] M. Aghasyan et al. (COMPASS), Phys. Lett. B 781, 464 (2018), 1710.01014.
+ [92] K. Ackerstaff et al. (HERMES), Phys. Lett. B 404, 383 (1997), hep-ex/9703005.
+ [93] A. Deur et al., Phys. Rev. Lett. 93, 212001 (2004), hep-ex/0407007.
+ [94] F. R. Wesselmann et al. (RSS), Phys. Rev. Lett. 98, 132003 (2007), nucl-ex/0608003.
+ [95] A. Deur et al., Phys. Rev. D 78, 032001 (2008), 0802.3198.
+ [96] N. Guler et al. (CLAS), Phys. Rev. C 92, 055201 (2015), 1505.07877.
+ [97] R. Fersch et al. (CLAS), Phys. Rev. C 96, 065208 (2017), 1706.10289.
+ [98] X. Zheng et al. (CLAS), Nature Physics, https://doi.org/10.1038/s41567-021-01198-z, (2021), 2102.02658.
+ [99] P. L. Anthony et al. (E155), Phys. Lett. B 458, 529 (1999), hep-ex/9901006.
+[100] P. L. Anthony et al. (E155), Phys. Lett. B 553, 18 (2003), hep-ex/0204028.
+[101] M. Amarian et al. (Jefferson Lab E94-010), Phys. Rev. Lett. 92, 022301 (2004), hep-ex/0310003.
+[102] K. Kramer et al., Phys. Rev. Lett. 95, 142002 (2005), nucl-ex/0506005.
+[103] J. D. Bjorken, Phys. Rev. 148, 1467 (1966).
+[104] J. D. Bjorken, Phys. Rev. D 1, 1376 (1970).
+[105] X.-D. Ji and P. Unrau, Phys. Lett. B 333, 228 (1994), hep-ph/9308263.
+[106] P. A. Baikov, K. G. Chetyrkin, and J. H. Kuhn, Nucl. Phys. B Proc. Suppl. 205-206, 237 (2010), 1007.0478.
+[107] P. Baikov, K. Chetyrkin, and J. Kuhn, Phys. Rev. Lett. 104, 132004 (2010), 1001.3606.
+[108] A. Deur, Y. Prok, V. Burkert, D. Crabb, F. X. Girod, K. A. Griffioen, N. Guler, S. E. Kuhn, and N. Kvaltine, Phys. Rev.
+      D 90, 012009 (2014), 1405.7854.
+[109] D. Kotlorz, S. V. Mikhailov, O. V. Teryaev, and A. Kotlorz, Phys. Rev. D 96, 016015 (2017), 1704.04253.
+[110] C. Ayala, G. Cvetič, A. V. Kotikov, and B. G. Shaikhatdenov, Eur. Phys. J. C 78, 1002 (2018), 1812.01030.
+[111] S. Wandzura and F. Wilczek, Phys. Lett. B 72, 195 (1977).
+[112] E. V. Shuryak and A. I. Vainshtein, Nucl. Phys. B 201, 141 (1982).
+[113] R. L. Jaffe, Comments Nucl. Part. Phys. 19, 239 (1990).
+[114] J. M. Alarcón, F. Hagelstein, V. Lensky, and V. Pascalutsa, Phys. Rev. D 102, 114026 (2020), 2006.08626.
+[115] T. Bolognese, P. Fritze, J. Morfin, D. H. Perkins, K. Powell, and W. G. Scott (Aachen-Bonn-CERN-Democritos-London-
+      Oxford-Saclay), Phys. Rev. Lett. 50, 224 (1983).
+[116] D. Allasia et al., Z. Phys. C28, 321 (1985).
+[117] R. Acciarri et al. (DUNE) (2016), 1601.05471.
+[118] L. Alvarez-Ruso et al. (NuSTEC), Prog. Part. Nucl. Phys. 100, 1 (2018), 1706.03621.
+[119] C.-Y. Seng and U.-G. Meißner, Phys. Rev. Lett. 122, 211802 (2019), 1903.07969.
+[120] P.-X. Ma, X. Feng, M. Gorchtein, L.-C. Jin, and C.-Y. Seng (2021), 2102.12048.
+[121] S. Borsanyi et al. (2020), 2002.12347.
+[122] T. Aoyama et al., Phys. Rept. 887, 1 (2020), 2006.04822.
+[123] L. Hayen and N. Severijns (2019), 1906.09870.
+

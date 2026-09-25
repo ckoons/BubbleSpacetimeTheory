@@ -1,0 +1,300 @@
+                                                New measurement of K + → π + ν ν̄ branching ratio at the NA62 experiment
+
+
+                                                                                        Xiafei Chang a
+
+
+
+
+arXiv:2604.12649v3 [hep-ex] 7 May 2026
+                                                                     Laboratoire de Physique des Hautes Energies, EPFL,
+                                                                                  1015 Lausanne, Switzerland
+
+
+
+
+                                                   The ultra-rare decay K + → π + ν ν̄ is a golden mode in flavor physics. The Standard Model
+                                                   prediction for its branching ratio is below 10−10 . This decay mode is highly sensitive to
+                                                   new physics models at mass scales up to O(100 TeV). The NA62 experiment at CERN SPS is
+                                                   designed to measure this decay mode. A preliminary result of the branching ratio measurement
+                                                   using data collected in 2023–2024 is presented. With the new dataset, the NA62 experiment
+                                                   doubled its signal sample while reducing the background in proportion. Combining the data
+                                                   collected in 2016–2024, the branching ratio is measured to be B(K + → π + ν ν̄) = 9.6+1.9
+                                                                                                                                             
+                                                                                                                                         −1.8 ×
+                                                     −11
+                                                   10    . The result is compatible with the Standard Model prediction with a precision better
+                                                   than 20 %.
+                                            a
+                                             for the NA62 Collaboration: A. Akmete, R. Aliberti, S. Alibocus, F. Ambrosino, R. Ammendola, A. Antonelli,
+                                         G. Anzivino, R. Arcidiacono, A. Baeva, D. Baigarashev, L. Bandiera, V. Bautin, J. Bernhard, A. Biagioni, L. Bi-
+                                         cian, C. Biino, A. Bizzeti, T. Blazek, B. Bloch-Devaux, P. Boboc, V. Bonaiuto, M. Boretto, M. Bragadireanu,
+                                         A. Briano Olvera, D. Britton, F. Brizioli, D. Bryman, F. Bucci, N. Canale, A. Ceccucci, P. Cenci, M. Ceoletta,
+                                         V. Cerny, X. Chang, C. Chiarini, M. Cirkovic, J. Cook, P. Cooper, E. Cortina Gil, M. Corvino, F. Costantini,
+                                         D. Coward, P. Cretaro, J.B. Dainton, H. Danielsson, B. De Martino, N. De Simone, M. D’Errico, L. Di Lella,
+                                         A.E. Dı́az Rodarte, N. Doble, B. Döbrich, F. Duval, V. Duk, D. Emelyanov, J. Engelfried, T. Enik, N. Estrada-
+                                         Tristan, V. Falaleev, R. Fantechi, P. Fedeli, L. Federici, S. Fedotov, A. Filippi, R. Fiorenza, M. Francesconi,
+                                         O. Frezza, J. Fry, A. Fucci, M.D. Galati, E. Gamberini, L.M. Garcı́a Martı́n, L. Gatignon, S. Ghinescu, A. Gi-
+                                         anoli, R. Giordano, M. Giorgi, S. Giudici, F. Gonnella, K. Gorshanov, E. Goudzovski, D. Grewe, R. Guida,
+                                         E. Gushchin, H. Heath, J. Henshaw, Z. Hives, E.B. Holzer, T. Husek, O. Hutanu, B. Jenninger, J. Jerhot,
+                                         R.W. Jones, K. Kampf, V. Kekelidze, C. Kenworthy, D. Kereibay, S. Kholodenko, A. Khotyantsev, A. Kleimen-
+                                         ova, M. Kolesar, A. Korotkova, M. Koval, V. Kozhuharov, Z. Kucerova, Y. Kudenko, V. Kurochka, V. Kur-
+                                         shetsov, G. Lamanna, G. Lanfranchi, E. Lari, C. Lazzeroni, G. Lehmann Miotto, M. Lelak, M. Lenti, S. Lezki,
+                                         P. Lichard, L. Litov, P. Lo Chiatto, F. Lo Cicero, R. Lollini, A. Lonardo, E. Long, P. Lubrano, N. Lurkin,
+                                         D. Madigozhin, I. Mannelli, F. Marchetto, R. Marchevski, S. Martellotti, A.E. Martı́nez Hernández, P. Massarotti,
+                                         K. Massri, A. Mefodev, E. Menichetti, E. Migliore, E. Minucci, M. Mirra, M. Misheva, N. Molokanova, M. Moul-
+                                         son, Y. Mukhamejanov, A. Mukhamejanova, M. Napolitano, R. Negrello, I. Neri, A. Norton, M. Noy, T. Numao,
+                                         V. Obraztsov, A. Okhotnikov, I. Panichi, C. Parkinson, E. Pedreschi, M. Pepe, M. Perrin-Terrin, L. Peruzzo,
+                                         L. Petit, F. Petrucci, R. Piandani, M. Piccini, J. Pinzino, L. Plini, I. Polenkevich, C. Polivka, Yu. Potrebenikov,
+                                         D. Protopopescu, M. Raggi, M. Reyes Santos, C.A. Rico Olvera, K. Rodriguez Rivera, M. Romagnoni, A. Ro-
+                                         mano, I. Rosa, C. Rossi, P. Rubin, G. Ruggiero, V. Ryjov, A. Sadovsky, N. Saduyev, S. Sakhiyev, K. Salamatin,
+                                         A. Salamon, C. Sam, J. Sanders, G. Saracino, F. Sargeni, J. Schubert, S. Schuchmann, A. Sergi, A. Shaikhiev,
+                                         V. Shang, S. Shkarovskiy, F. Simula, M. Soldani, D. Soldi, M. Sozzi, T. Spadaro, F. Spinella, V. Sugonyaev,
+                                         J. Swallow, A. Sytov, G. Tinti, A. Tomczak, M. Thompson-Walker, M. Turisini, T. Velas, B. Velghe, P. Vicini,
+                                         R. Volpe, H. Wahl, R. Wanke, V. Wong, O. Yushchenko, M. Zamkovsky, A. Zinchenko.
+1       Introduction
+
+The decay K + → π + ν ν̄ is a Flavor Changing Neutral Current (FCNC) process. This decay
+proceeds at the lowest order in the Standard Model (SM) through electroweak box and penguin
+diagrams and is therefore highly suppressed by the Glashow-Iliopoulos-Maiani (GIM) mechanism
+and the Cabibbo-Kobayashi-Maskawa (CKM) matrix element governing t → d quark transitions.
+Since the decay is dominated by the short-distance t-quark exchange and the hadronic matrix
+element can be extracted from the precisely measured decay of K + → π 0 e+ ν 1,2,3 , the SM predicts
+the branching ratio of K + → π + ν ν̄ with a precision better than 8 % 4,5,6 . The uncertainty is
+dominated by the CKM parameters Vcb and γ, while the intrinsic theoretical uncertainty is
+approximately 3 % 1 . The prediction of the branching ratio was B(K + → π + ν ν̄) = (8.4 ± 1.0) ×
+10−11 , using CKM matrix elements extracted from tree-level decays b 7 . More recent works
+predict (8.60 ± 0.42) × 10−11 , using only meson mixing to eliminate |Vcb | dependence 4 , and
+(7.86 ± 0.61) × 10−11 , using a full CKM parameter fit 8 .
+      The K + → π + ν ν̄ decay is among the most promising channels to search for physics beyond
+the Standard Model (BSM). It probes new physics at mass scales up to O(100 TeV). Several
+BSM scenarios predict significant deviations from the SM branching ratio, correlations with
+other flavor observables, as well as correlations with the corresponding neutral mode KL →
+π 0 ν ν̄ 9,10,11,12 . A model-independent relationship between the charged and neutral modes is
+provided by the Grossman-Nir bound 13 : B(KL → π 0 ν ν̄) ≲ 4.3 · B(K + → π + ν ν̄). The direct
+measurement of the neutral mode is conducted by the KOTO experiment at J-PARC, providing
+the latest upper limit B(KL → π 0 ν ν̄) < 2.2 × 10−9 at 90 % CL 14 .
+      The first K + → π + ν ν̄ candidate event was reported by the E787 and E949 experiments at
+BNL, using the kaon decay-at-rest technique, with a measured 15 B(K + → π + ν ν̄) = 17.3+11.5−10.5 ×
+10−11 . The NA62 experiment at CERN was designed to measure the K + → π + ν ν̄ decay
+with a kaon decay-in-flight technique. It provided evidence at the 3.4σ level using its 2016–
+2018 dataset and has achieved 5σ observation with the combined 2016–2022 dataset 16,17 . The
+measured branching ratio was B(K + → π + ν ν̄) = 13.0+3.3 −3.0 × 10
+                                                                    −11 , from an observation of 51
+
+events with 18+3     −2 expected background events. The NA62 experiment continues to collect data
+until 2026. The preliminary result of the K + → π + ν ν̄ measurement with the dataset collected
+by the NA62 experiment in 2023–2024 are reported below.
+
+2       The NA62 experiment
+
+A detailed description of the NA62 beam line and detector can be found in Ref. 18 . Fig. 1
+displays the setup upgraded from 2021 onwards. A 75 GeV momentum secondary beam, with
+a 6 % K + component, is produced by directing the 400 GeV proton beam from CERN SPS
+onto a beryllium target. The kaons are identified by a differential Cherenkov counter (KTAG).
+A silicon pixel detector based beam spectrometer (GTK) provides tracking of the beam parti-
+cles. After the final collimator (COL) and the last station of GTK, the beam enters a vacuum
+tank, which includes the fiducial decay volume (FV). Downstream of it, the decay product π +
+is measured with a magnetic spectrometer (STRAW) for tracking, a ring-imaging Cherenkov
+counter (RICH) for particle identification, and two scintillator hodoscopes (CHOD) for timing
+and triggering. Additional particle identification is provided by a set of calorimeters consisting
+of a liquid krypton electromagnetic calorimeter (LKr), 2 hadronic iron/scintillator-strip sam-
+pling calorimeters (MUV1,2), and an array of scintillator tiles (MUV3) behind an iron wall. To
+reject any additional activity, comprehensive veto systems are employed. Upstream of the FV,
+scintillator-based veto detectors VC, CHANTI, and ANTI0 are designed to reject events with
+K + decays upstream of the fiducial volume, interactions between beam particles and materials,
+and beam halo muons, respectively. A photon veto system is composed of 12 large-angle veto
+    b
+        Used as benchmark value in this analysis to compare with the previous results.
+                                                                                      B
+
+
+
+
+          Figure 1 – Schematic side view of the NA62 detector for data-taking from 2021 onwards.
+
+
+(LAV) stations, an intermediate-ring calorimeter (IRC), and a small-angle calorimeter (SAC),
+and the LKr, covering angles from 0 to 50 mrad. Other veto detectors, including MUV0 for
+multi-track event suppression and HASC for photon conversion veto, are not visible in the side
+view of Fig. 1.
+    In 2021–2022 data-taking, NA62 was operating under its maximum design intensity. Studies
+showed that the performance of the experiment saturates at high intensity 19 . From August 2023,
+the beam intensity is reduced to 75 % of the maximum intensity, which provides the optimal
+performance according to the studies. Since 2023, the radiator gas of KTAG was changed from
+N2 to H2 , lowering the material budget from 3.9 % X0 to 0.7 % X0 20 .
+    The KTAG, GTK, RICH, and CHOD provide excellent timing resolution at O(100 ps). The
+combined RICH and calorimetric particle identification (PID) suppresses µ+ ⇒ π + misidentifi-
+cation at O(107 ). The comprehensive photon veto system rejects π 0 at O(108 ). The excellent
+performance of the NA62 detector provides the sensitivity to the ultra-rare K + → π + ν ν̄ signal.
+
+
+3   Event selections
+
+The analysis uses K + → π + π 0 as the normalization channel. The normalization sample is
+selected from a dedicated trigger line (NORM) with a downscaling factor DNORM = 400 and
+requires signatures consistent with a single π + track with in-time signal in KTAG. Offline the
+downstream π + track is matched to an upstream K + candidate in space and time. A vertex
+is defined as the mid-point of the Closest Distance of Approach (CDA) segment between the
+two extrapolated tracks. Any upstream activity is rejected using the upstream veto detectors
+described above, as well as information from GTK. A Boosted Decision Tree (BDT) classifier
+based on the spatial information of the two tracks is used to further reject events with the π +
+coming upstream of the FV. Finally, the full PID based on RICH and calorimeters is applied.
+    The signal is selected from the signal trigger line (PNN) with no downscaling and applies
+trigger level photon and multi-track vetos in addition to the NORM trigger. In offline selections,
+in addition to the normalization selection, full photon veto and multi-track veto are applied.
+    In the 2023–2024 dataset analysis, a transformer-based 4D GTK beam-tracking algorithm is
+developed, reducing the probability that the true K + is not reconstructed in the GTK from 6 %
+to 4 % with no significant loss of efficiency. Furthermore, a Convolutional Neural Network (CNN)
+based calorimetric PID is developed using information from the LKr and MUV1,2, significantly
+improving the performance against µ+ ⇒ π + misidentification, especially when a photon cluster
+overlaps with the µ+ track in LKr.
+    In PNN trigger line, the LAV is used to apply a trigger-level photon veto at large angles.
+Table 1: Summary of the preliminary results of the 2023–2024 dataset analysis. Left: Summary of single event
+sensitivity inputs. NK = DNORM Nππ /B(K + → π + π 0 )Aππ is the number of effective K + decays in this sample.
+  SM       SM
+Nπν ν̄ = B    (K + → π + ν ν̄)/BSES is the expected number of SM K + → π + ν ν̄ events in SR. Right: the expected
+number of background events in SR, summed over the six π + momentum bins.
+                Factor              Value                   Background       Events
+                                                              +     +   0
+                 Nππ             3.927 × 108                K → π π (γ)       1.19 ± 0.10
+                 Aππ         (12.971 ± 0.009)%              K + → µ+ ν(γ)     1.39 ± 0.29
+                 NK         (5.93 ± 0.02) × 1012            K + → π+π+π−      0.25 ± 0.05
+                 Aπν ν̄        (7.36 ± 0.33)%               K → π π e ν 1.59+0.51
+                                                              +     +   −  +
+                                                                                  −0.43
+                 εtrig          (86.4 ± 1.2)%               K + → π + γγ      0.04 ± 0.04
+                 εRV            (72.3 ± 0.7)%               K + → π 0 ℓ+ ν    < 0.001
+                 BSES      (3.67 ± 0.18) × 10−12            Upstream          7.4+2.8
+                                                                                 −2.2
+                   SM
+                 Nπν ν̄           22.9 ± 1.1                Total            11.9+2.9
+                                                                                 −2.3
+
+
+Since 2023, this trigger condition was changed from vetoing the event with any signal in LAV
+stations 2–11 within a 6 ns time window to vetoing events within 4 ns time window and only
+using LAV stations downstream of the vertex between the π + track and the nominal beam
+direction. This change keeps K + → π + π 0 background under control, but significantly increases
+the number of events with the π + coming from beam-material interactions upstream of the FV.
+To suppress these upstream background events, an offline veto using the first station of LAV
+within 2 ns time window is applied. This offline veto provides a much stronger suppression of
+these events than the previous trigger-level veto.
+
+4   Signal sensitivity
+
+The analysis exploits the kinematic variable squared missing mass, m2miss = (PK − Pπ )2 , where
+PK and Pπ are the 4-momenta of the K + and π + candidates. In the m2miss distribution, signal
+regions are defined to suppress the main kaon decay modes at O(104 ) 21,16 . The analysis is
+performed in six categories of 5 GeV/c wide bins of π + momentum between 15–45 GeV/c. For
+a specific π + momentum bin pi , the observed number of events in signal region (SR) is given by
+                obs
+               NSR  (pi ) = Nπν ν̄ (pi ) + Nbg (pi ) = B(K + → π + ν ν̄)/BSES (pi ) + Nbg (pi ),             (1)
+
+where Nbg (pi ) is the expected number of background events in SR in bin pi , and BSES is the
+Single Event Sensitivity:
+                                              B(K + → π + π 0 )Aππ (pi )
+                           BSES (pi ) =                                                .                     (2)
+                                          DNORM · Nππ (pi )εRV εtrig (pi )Aπν ν̄ (pi )
+Here Nππ is the selected number of normalization events, B(K + → π + π 0 ) = (20.67 ± 0.08) %
+is the branching ratio of the normalization channel 22 , Aππ and Aπν ν̄ are the acceptances of the
+normalization and signal selections, εtrig is the trigger efficiency ratio of the PNN and NORM
+trigger lines, and εRV is the efficiency of the additional selections applied for signal channel
+with respect to the normalization channel. The inefficiency of the additional selections on signal
+events comes from unrelated activity which only depends on the beam intensity.
+    A detailed evaluation procedure of these factors is presented in Ref. 17 . All of the factors,
+summed or averaged over momentum bins, are shown in Table 1 left. The reduced intensity
+mentioned in Sec. 2 results in a 14 % higher εRV and therefore better signal sensitivity.
+
+5   Background evaluation
+
+Backgrounds from K + → π + π 0 , K + → µ+ ν, and K + → π + π + π − decays in the FV, which
+are highly suppressed kinematically, are evaluated by multiplying the number of events passing
+Figure 2 – Background validation of the 2023–2024 dataset analysis. Left: control regions (defined in Ref. 17 )
+with expectation (colored numbers) and observation (black numbers). Signal regions are blinded. Overall p-value
+= 0.65. Right: upstream validation samples, developed by inverting different upstream veto conditions to enhance
+different mechanisms 17 . Overall p-value = 0.79.
+
+
+signal selection in their corresponding background regions by a kinematic tail fraction. The tail
+fraction is evaluated using a background control sample, by reconstructing π 0 and matching
+the vertices, by requiring µ+ PID, or using K + → π + π + π − Mote Carlo (MC) simulation,
+respectively. Other K + decays in the FV are evaluated with MC simulations, following the
+same procedure as computing Nπν     SM in Table 1. The details of the evaluation procedures for
+                                      ν̄
+background from K + decays in the FV can be found in Refs. 17,21 .
+     The upstream background, in which the π + is coming from upstream of the FV, is evaluated
+using the CDA distribution. An Upstream Reference Sample (URS) is developed by removing
+the K/π matching criteria from the signal selection and inverting the requirement on CDA to
+CDA > 4 mm. The number of upstream events in the signal region is extrapolated from the URS
+with a template fit using two templates developed by enhancing the two different mechanisms:
+beam-material interaction, and upstream decay with the π + matching to an accidental beam
+particle. The effect of the K/π matching criteria requirement is recovered by applying a mis-
+matching probability factor, P match , as described in Ref. 17 . A correction factor for this method
+is evaluated to account for the different behavior of the upstream background in the signal region
+and the URS in K/π matching.
+     A summary of the expected background is presented in Table 1 right. The validation of
+background evaluations are shown in Fig. 2.
+
+6   Results
+
+After unmasking the signal regions, 33 candidate events are observed in the 2023–2024 dataset,
+shown in Fig. 3 left. By fitting Eq. (1) to the 6 categories, the branching ratio is measured to
+be
+                                                                       −11                   −11
+        B2023−2024 (K + → π + ν ν̄) = (7.2+2.2       +0.9
+                                          −1.9 |stat −0.9 |syst ) × 10     = (7.2+2.3
+                                                                                 −2.1 ) × 10     . (3)
+By combining these 6 categories with the 15 categories from the 2016–2022 data 17 , a total of 84
+candidate events are observed in the 2016–2024 dataset with 30+4−3 background events expected.
+By fitting the 21 categories, the measured branching ratio gives
+                                                                         −11                   −11
+          B2016−2024 (K + → π + ν ν̄) = (9.6+1.8       +0.8
+                                            −1.6 |stat −0.6 |syst ) × 10     = (9.6+1.9
+                                                                                   −1.8 ) × 10     .        (4)
+
+    The branching ratios measured by the NA62 experiment with different datasets as well as
+the combined results from 2016–2024 dataset are shown in Fig. 3 right.
+Figure 3 – Left: The observed events in the 2023–2024 dataset satisfying the signal selection criteria. Right: sum-
+mary of K + → π + ν ν̄ branching ratio measurements, compared to an envelope of the recent SM predictions 4,5,6 .
+
+
+7     Conclusion
+
+The NA62 2023–2024 dataset doubled the effective sample size of the previous dataset while
+significantly reducing the background in proportion, bringing a major boost in sensitivity. The
+combined NA62 2016–2024 dataset provides a measured branching ratio B(K + → π + ν ν̄) =
+(9.6+1.9
+    −1.8 ) × 10
+                −11 , achieving a precision of 20 %, excluding the background-only hypothesis with
+
+a significance exceeding 6σ. The NA62 results are self-consistent and compatible with the results
+from the BNL E787 and E949 experiments 15 , and are in good agreement with SM predictions.
+The NA62 experiment continues to take data until 2026. Based on the number of days of
+data-taking, the whole dataset is extrapolated to increase by about 50 %.
+
+References
+
+     1. J. Brod et al, Phys. Rev. D 83, 034030 (2011).
+     2. G. Isidori et al, Nucl. Phys. B 718, 319–338 (2005).
+     3. F. Mescia and C. Smith, Phys. Rev. D 76, 034017 (2007).
+     4. A.J. Buras and E. Venturini, Eur. Phys. J. C 82(7), 615 (2022).
+     5. G. Anzivino et al, Eur. Phys. J. C 84(4), 377 (2024).
+     6. L. Allwicher et al, Phys. Lett. B 861, 139295 (2025).
+     7. A.J. Buras et al, JHEP 11, 033 (2015).
+     8. G. D’Ambrosio et al, JHEP 09, 148 (2022).
+     9. A.J. Buras et al, JHEP 11, 166 (2015).
+    10. F.F. Deppisch et al, JHEP 12, 186 (2020).
+    11. Ò.L. Crosas et al, Phys. Lett. B 835, 137525 (2022).
+    12. A.J. Buras et al JHEP 10, 087 (2024).
+    13. Y. Grossman and Y. Nir, Phys. Lett. B 398, 163–168 (1997).
+    14. J.K. Ahn et al [KOTO Collaboration], Phys. Rev. Lett. 134(8), 081802 (2025).
+    15. A.V. Artamonov et al [BNL-E949 Collaboration], Phys. Rev. D 79, 092004 (2009).
+    16. E. Cortina Gil et al [NA62 Collaboration], JHEP 06, 093 (2021).
+    17. E. Cortina Gil et al [NA62 Collaboration], JHEP 02, 191 (2025).
+    18. E. Cortina Gil et al [NA62 Collaboration], JINST 12(05), P05025 (2017).
+    19. [NA62 Collaboration], CERN-SPSC-2024-012; SPSC-SR-345 , CERN, Geneva (2024).
+    20. A. Bethani et al [NA62 Collaboration], JINST 19(05), P05005 (2024).
+    21. E. Cortina Gil et al [NA62 Collaboration], JHEP 11, 042 (2020).
+    22. S. Navas et al [Particle Data Group], Phys. Rev. D 110(3), 030001 (2024).
+

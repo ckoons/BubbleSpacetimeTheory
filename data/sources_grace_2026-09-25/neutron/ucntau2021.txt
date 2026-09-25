@@ -1,0 +1,483 @@
+                                                                    Improved neutron lifetime measurement with UCNτ
+
+                                           F. M. Gonzalez,1, 2, 3 E. M. Fries,4 C. Cude-Woods,5, 6 T. Bailey,5, 6 M. Blatnik,4 L. J. Broussard,3 N. B. Callahan,7
+                                                 J. H. Choi,5, 6 S. M. Clayton,8 S. A. Currie,8 M. Dawid,1, 2 E. B. Dees,5, 6 B. W. Filippone,4 W. Fox,1, 2
+                                              P. Geltenbort,9 E. George,10 L. Hayen,5, 6 K. P. Hickerson,4 M. A. Hoffbauer,8 K. Hoffman,10 A. T. Holley,10
+                                               T. M. Ito,8 A. Komives,11 C.-Y. Liu,1, 2 M. Makela,8 C. L. Morris,8 R. Musedinovic,5, 6 C. O’Shaughnessy,8
+                                            R. W. Pattie, Jr.,12 J. Ramsey,3 D. J. Salvat,1, 2 A. Saunders,8, 3 E. I. Sharapov,13 S. Slutsky,4 V. Su,4 X. Sun,4
+                                              C. Swank,4 Z. Tang,8 W. Uhrich,8 J. Vanderwerp,1, 2 P. Walstrom,8 Z. Wang,8 W. Wei,4 and A. R. Young5, 6
+                                                                                          (UCNτ collaboration)
+                                                                    1
+                                                                       Department of Physics, Indiana University, Bloomington, IN, 47405, USA
+                                                       2
+                                                           Center for Exploration of Energy and Matter, Indiana University, Bloomington, IN, 47405, USA
+                                                                               3
+                                                                                 Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA
+                                                            4
+                                                              Kellogg Radiation Laboratory, California Institute of Technology, Pasadena, CA 91125, USA
+
+
+
+
+arXiv:2106.10375v2 [nucl-ex] 21 Sep 2021
+                                                                  5
+                                                                    Department of Physics, North Carolina State University, Raleigh, NC 27695, USA
+                                                                          6
+                                                                            Triangle Universities Nuclear Laboratory, Durham, NC 27708, USA
+                                                                                   7
+                                                                                     Argonne National Laboratory, Lemont, IL 60439, USA
+                                                                        8
+                                                                          Los Alamos National Laboratory, Los Alamos, NM, USA, 87545, USA
+                                                                          9
+                                                                            Institut Laue-Langevin, CS 20156, 38042 Grenoble Cedex 9, France
+                                                                            10
+                                                                               Tennessee Technological University, Cookeville, TN 38505, USA
+                                                                                      11
+                                                                                         DePauw University, Greencastle, IN 46135, USA
+                                                                            12
+                                                                               East Tennessee State University, Johnson City, TN 37614, USA
+                                                                               13
+                                                                                  Joint Institute for Nuclear Research, 141980 Dubna, Russia
+                                                                                                  (Dated: September 23, 2021)
+                                                          We report an improved measurement of the free neutron lifetime τn using the UCNτ apparatus at
+                                                        the Los Alamos Neutron Science Center. We count a total of approximately 38×106 surviving ultra-
+                                                        cold neutrons (UCN) after storing in UCNτ ’s magneto-gravitational trap over two data acquisition
+                                                        campaigns in 2017 and 2018. We extract τn from three blinded, independent analyses by both pair-
+                                                        ing long and short storage-time runs to find a set of replicate τn measurements and by performing a
+                                                        global likelihood fit to all data while self-consistently incorporating the β-decay lifetime. Both tech-
+                                                        niques achieve consistent results and find a value τn = 877.75 ± 0.28 stat + 0.22/ − 0.16 syst s. With
+                                                        this sensitivity, neutron lifetime experiments now directly address the impact of recent refinements
+                                                        in our understanding of the standard model for neutron decay.
+
+
+                                              Introduction.— The decay n → p + e− + ν̄e is the                model and experiments has sparked a renewed urgency
+                                           simplest example of nuclear β-decay. The mean neutron              to independently examine these corrections. Studies of
+                                           lifetime τn provides a key input for predicting primor-            neutron decay, with increasing precision, are becoming a
+                                           dial light element abundances [1]. The lifetime, com-              theoretically and experimentally robust standard model
+                                           bined with decay correlations, tests the V -A structure of         test [7, 8].
+                                           the weak interaction in the standard model (SM) at low                The current puzzle [9] due to the discrepancy between
+                                           energy while avoiding nuclear structure corrections [2].           “beam” [10] and “bottle” [11–16] methods of τn mea-
+                                           Recent and forthcoming neutron β-decay experiments                 surement indicates either the existence of new physics
+                                           can be used to extract the magnitude of the Cabibbo-               leading to a neutron decay channel without protons in
+                                           Kobayashi-Maskawa (CKM) matrix element Vud with a                  the final state or the presence of inadequately assessed
+                                           precision approaching that from studies of superallowed            or unidentified systematic effects in either of the tech-
+                                           0+ → 0+ nuclear transitions. Furthermore, these tests              niques. The former could be induced by the decay of
+                                           can probe the existence of beyond-SM interactions at en-           neutrons to dark-matter particles [17], though such the-
+                                           ergy scales higher than 10 TeV which can evade detection           ories are constrained by astrophysical and cosmological
+                                           at colliders [3, 4].                                               signatures [18–21] and by direct searches for specific de-
+                                              The so-called inner electroweak radiative correction            cay signatures [22, 23]. Meanwhile, novel space-based
+                                           to τn contains model-dependent hadronic structure and              and neutron-beam-based techniques aim to provide com-
+                                           short-distance QCD physics and is the dominant source              plementary τn measurements [24? –26]. This motivates
+                                           of theoretical uncertainty in the prediction [5]. A recent         a blinded measurement of τn with high statistical preci-
+                                           re-assessment of the inner correction using a data-driven          sion with multiple independent assessments of systematic
+                                           dispersion relation approach shifts the value of |Vud | ex-        effects and uncertainties.
+                                           tracted from superallowed 0+ → 0+ decays resulting in                 In this Letter, we report a measurement of τn with
+                                           a ∼ 3σ deviation from unitarity in the top row of the              0.34 s (0.039%) uncertainty, improving upon our past
+                                           CKM matrix [6–8]. This tension between the standard                results by a factor of 2.25 [27–29] using two blinded
+                                                                                                                        2
+
+datasets from 2017 and 2018. The new result incorpo-
+rates improved experimental and analysis techniques over
+Ref. [29]. This is the first τn measurement precise enough
+to confront SM theoretical uncertainties.
+   Experiment.— The experimental apparatus is de-
+picted in Fig. 1. During a given run cycle, ultra-
+cold neutrons (UCNs) with kinetic energy E . 180 neV
+from the Los Alamos Neutron Science Center’s proton-
+beam-driven solid deuterium UCN source [30] are trans-
+ported to the UCNτ apparatus through a combination
+of NiP- and NiMo-coated guides. The UCNs are polar-
+ized by a 5.5 T superconducting solenoid, spin-flipped       FIG. 1. The UCNτ apparatus configuration for the 2018 cam-
+to the trappable, low-field-seeking spin state via adia-     paign, with the volumes occupied by UCNs, cleaner surfaces,
+batic fast-passage spin-flipper [31], and introduced into    primary detector, and monitors highlighted. The polarizing
+                                                             magnet selects the high-field-seeking UCNs. UCNs are then
+UCNτ ’s NdFeB bowl-shaped Halbach array [32] over a
+                                                             “precleaned” in the buffer volume, spin-flipped to the trap-
+time tload = 150 s (300 s) in the 2017 (2018) campaign.      pable low-field-seeking spin state, and loaded into the trap.
+A ∼ 15 × 15 cm2 section of the Halbach array is then         The 2017 configuration was the same as that of Ref. [29].
+raised to close the bottom of the trap, magnetogravita-
+tionally confining the UCNs. A toroidal arrangement of
+electromagnetic coils provides a 60-120 G ambient field      ground runs measure the vertical position-dependent pri-
+to prevent UCN depolarization. UCNs with E & 38 neV          mary counter background variations, likely due to the
+are then removed (“cleaned”) [27–29, 33] during a pe-        position-dependent probability of ZnS scintillation light
+riod tclean = 50 s; they are either up-scattered by hor-     reflecting from the apparatus into the PMTs.
+izontal polyethylene sheets, or captured by 10 B-coated-        UCNs within the loading volume are counted by a
+ZnS surfaces via the capture reaction 10 B+n → α+7 Li.       set of monitor detectors M1 -M4 (Fig. 1). The monitor
+The cleaners are then retracted, and UCNs are stored         detectors are 10 B-coated-ZnS sheets coupled directly to
+in the trap for tstore varying from 20 to 1550 s. The        PMTs [34]. The monitor detectors provide data to nor-
+surviving neutrons are then counted by the primary 10 B-     malize the primary detector counts, correcting for varia-
+coated-ZnS scintillator UCN counter [28] over time in-       tions in UCN source intensity and the energy spectrum of
+terval tcount = 210 s. The primary detector collects the     UCNs. Detectors at different heights relative to the beam
+n-capture-induced ZnS scintillation light in an array of     line have differing sensitivity to the energy spectrum, and
+wavelength shifting fibers, which route the light to two     analyzing the full ensemble of monitor detectors captures
+photomultiplier tubes (PMTs). The counting phase oc-         changes to the spectrum. For example, heat load on the
+curs in three stages, with the detector first lowered just   UCN source during operation gradually reduces the solid
+into the trap, but at the height of the cleaners for 40 s,   deuterium crystal quality, hardening the spectrum [35].
+then lowered into the middle for 20 s, and finally lowered   This changes the relationship between the monitor counts
+to the bottom for 150 s. This procedure constrains both      and the number of initially-trapped UCNs in a given run.
+the number of remaining uncleaned UCNs and the pres-         We periodically melt and refreeze the D2 source to restore
+ence of tstore -dependent changes to the energy spectrum     source quality
+of the trapped UCNs.                                            The single photoelectron (PE) primary counter PMT
+   The smaller cleaner (rightmost in Fig. 1) was viewed      signals are split into low (∼ 1/6 PE) and high (∼ 1/3 PE)
+by four PMTs, and scintillation light from the UCN cap-      threshold channels and discriminated with 16 ns dead
+tured by the 10 B coating were counted during the clean-     time. Monitor detector signals exhibit higher light yield
+ing process similar to the primary counter. Further, this    per neutron, and are shaped and discriminated with a
+cleaner was relowered during the counting phase to search    threshold that selects UCN captures and rejects back-
+for any uncleaned higher-energy UCNs.                        ground [34]. All channels are read by a 1.25 GHz multi-
+   A buffer volume was introduced in 2018 that precleans     channel scaler. Data are blinded as in Ref. [29], shifting
+the loaded UCNs and smooths over any temporal fluctu-        τn by an unknown factor within a ±15 s window.
+ations in the UCN production rate while loading.                Analysis.— We performed three analyses A, B, and
+   Run cycles are performed in short (tstore ≤ 500 s)        C. Initially, no extracted values of τn were shared be-
+and long (tstore > 500 s) pairs. Backgrounds are mea-        tween analyzers so that analyses developed separately.
+sured by performing runs with the same sequencing but        After sharing blinded values, we performed run-by-run
+with no protons on target, with protons on target but        comparisons of extracted monitor counts, primary detec-
+the UCN source valved off from UCNτ , and with the           tor counts, and background estimates between analyzers.
+UCNτ trap door closed. Additional background runs are        The data were unblinded when the three extracted τn val-
+acquired during facility downtime. These latter back-        ues agreed to within 0.1 s. Each analysis separately as-
+                                                                                                                         3
+
+                                                                an initial 1000 ns (600 ns) window. All analyses varied
+                                                                these parameters to test the sensitivity of τn . Reference
+                                                                [29] used the raw PE rates (referred to as a “singles anal-
+                                                                ysis” therein) to determine the number of UCNs, which
+                                                                had the advantage of smaller rate-dependent effects and
+                                                                the disadvantage of poorer signal to background. This
+                                                                treatment is inappropriate for the current data due to
+                                                                slow drifts in single PE background rates over the course
+                                                                of the measurement campaign.
+                                                                   This coincidence method gives signal to background for
+                                                                short tstore runs as high as 103 . However, ZnS[Ag]’s long
+                                                                scintillation time constants makes this method subject to
+                                                                rate-dependent systematic effects from dead time, pileup,
+                                                                and accidental event retriggering due to delayed scintil-
+                                                                lation light. Analysis C maintained a time-averaged rate
+                                                                from previous UCN events within a given run and var-
+                                                                ied np event by event using the known time distribution
+                                                                of the ZnS scintillation. This reduces the possibility of
+FIG. 2. (a) Primary detector coincidence counts from analysis   a previous event contributing delayed PEs to the cur-
+A for a typical tstore = 20 s run cycle. From left to right,    rent event, thereby selecting an otherwise underthreshold
+the dotted vertical lines mark the time windows for filling,    event. Upon time binning events during tcount , analysis
+cleaning, storing, and three counting stages. (b) The count     C tabulates the sum of tevent in each bin and performs
+rate during the run cycle for the monitors deployed in the      an analytic correction to the number of counts in the bin
+2018 analysis.
+                                                                as a function of instantaneous event rate. Analyses A
+                                                                and B used the measured ZnS scintillation time depen-
+                                                                dence and typical UCN count rates to generate pseudo-
+sessed systematic effects and potential statistical biases.     datasets. These pseudo-data were analyzed and com-
+   All analyses proceeded in the following stages. Run          pared to the true number of simulated counts to develop
+quality criteria are developed to reject runs with poor or      corrections for rate-dependent effects.
+abnormal experimental conditions. For each remaining               The choices of w(t) and f (Mk,j ) for each analysis are
+run j, primary detector events are formed. These events         given in Table I. In general, the given choices of w(t)
+and monitor counts are time binned as in Fig. 2, and            deweight counts early in the filling phase, which better
+rate-dependent corrections are applied to counts in each        predicts the number of trapped UCNs. Indeed, because
+bin. Corrected primary detector counts dj (t) are summed        the duration of the filling phase is several times longer
+during the counting phase to give an UCN signal Dj . A          than the characteristic time for UCNs to fill the guides
+combination of the rates from background runs proximal          and apparatus, a fluctuation in UCN source output oc-
+in time to j, as well as counts during storage and af-          curring early in the filling phase is less likely to influ-
+ter counting, are used to estimate background counts Bj         ence the number occupying the trap by time tfill . Runs
+during the three counting stages. The monitor detector          are generally grouped into week- or month-long subsets
+counts mk,j (t) are time weighted by a function w(t) and        between melt and refreezes and other discrete changes
+summed for 0 < t < tfill to find monitor signals Mk,j .         to the apparatus or the source. The coefficients c thus
+These are reduced to a single normalization factor using        vary among subsets. Analysis B uses a principal com-
+a regression model f (Mk,j ) → Nj . The quantities Dj ,         ponent analysis of the z-scored monitor signals for all
+Bj , and Nj are then used to find τn as discussed below.        monitors [36]. In practice, two components dominate
+   Analyses identified and removed runs with significant        and are used in the normalization: the first component
+fluctuations of the LANSCE proton beam during filling           tracks the coarse, overall changes in source output, while
+and excessive electronic noise while moving the cleaners        the second captures changes in the relative amount of
+and primary detector.                                           trappable lower-energy UCNs compared to untrappable
+   An UCN event in the primary detector is characterized        higher-energy UCNs.
+by the presence of coincident single PEs between the two           As was done inR Ref. [29], all analyses use the mean ar-
+PMTs within time tc (ranging from 50 to 100 ns among            rival time t̄j = tdj (t)dt over the counting phase rather
+analyzers). Thereafter, subsequent PE are counted for a         than the nominal tstore . This corrects for potential run-
+time tw ranging from 600 to 1400 ns, and this time win-         by-run or tstore -dependent variation of the characteristic
+dow extended if additional PEs are found in the current         timescale with which UCNs are absorbed by the primary
+window. Total counting times vary between tevent ∼ 500          detector during counting. Using the nominal tstore shifts
+and 4000 ns. Analysis A (B) requires np ≥ 8 (6) PEs in          τn by 0.01–0.03 s.
+                                                                                                                                    4
+
+    Analysis                   w(t)                               f                                Comments
+       A                  exp (κt)                        c1A Ml,j + c2A Mu,j         l = 1(2) and u = 4(3) in 2017 (2018)
+                  h                       i−1
+       B           1 + exp − t−(t fill /α)
+                               tfill /β
+                                                       c0B + c1B M̃1,j + c2B M̃2,j α = 2, β = 10, M̃k,j from PCA of z-scored Mk,j
+               P20
+       C         m=1 Am U (t|(m − 1)tfill , mtfill )      c1C Ml,j + c2C Mu,j       Am chosen to minimize variance in Mk,j
+
+TABLE I. The monitor detector weighting functions w(t) and function f (Mk,j ) used to find run-by-run normalization factor Nj .
+Analysis B z-scores the Mk,j over a range of j and performs a principal component analysis (PCA) to find the two dominant
+principal components M̃1/2,j . U (t|a, b) is the uniform distribution over (a, b). Note that the coefficients c vary over different
+subsets of runs (see text).
+
+
+                Effect            Correction uncertainty                between analyses. Analysis A computed the Poisson-
+       UCN event definition                 ...        ±0.13            distributed probability of observing the primary detec-
+      Normalization weighting               ...        ±0.06            tor counts Dj for a predicted mean number of counts
+          Depolarization                    ...        +0.07
+                                                                        Nj exp(−λt̄j ) + Bj . The EMCEE Markov-chain Monte
+                                                                        Carlo algorithm [37] was used to marginalize over c1A,j ,
+         Uncleaned UCN                      ...        +0.11
+                                                                        c2A,j , and Bj to find τn with uncertainty [? ]. Analysis B
+           Heated UCN                       ...        +0.08
+                                                                        modeled the Dj as quasi-Poisson distributed [38] with the
+             Al block                   +0.06          ±0.05
+                                                                        parameters in the normalization model and extra scaling
+      Residual gas scattering           +0.11          ±0.06            parameter in the variance to account for non-statistical
+         Uncorrelated sum                0.17+0.22
+                                               −0.16 s                  fluctuations treated as free nuisance parameters. A pro-
+                                                                        file likelihood provides τn with uncertainty [? ]. Analysis
+TABLE II. Systematic corrections with uncertainties to τn
+in seconds. The total is an uncorrelated combination of all
+                                                                        C instead minimizes the χ2 of the yields Yj with un-
+systematic corrections. The non-zero corrections here are ap-           certainties over τn , normalization parameters, and a free
+plied to the final result. Only the UCN event definition and            scaling parameter in the variance of the yields. Correla-
+normalization effects can decrease the measured τn .                    tions in the parameter uncertainties are incorporated to
+                                                                        find τn with uncertainty.
+                                                                           Systematic effects.— All systematic corrections and
+   Extraction of τn .— We determine τn by both a                        their uncertainties are summarized in Table II. During
+“paired” and a “global” analysis. In the former, pairs                  2017, accounting for ∼ 34% of the full dataset, a block-
+of short (j ≡ s) and long (j ≡ l) storage time runs prox-               shaped 2.5 × 2.5 × 1.3 cm3 aluminum structural com-
+imal in time are used to compute                                        ponent from one of the cleaning surfaces fell into the
+                                                                        trapping volume, leading to an additional loss channel
+                                 t̄l − t̄s
+                     τn(p) =                                    (1)     for UCNs due to up-scattering and absorption on the Al
+                               log (Ys /Yl )
+                                                                        surface. The effect of the aluminum block’s additional
+with Yj = (Dj − Bj ) /Nj , and uncertainties propagated                 material loss was assessed in a separate, dedicated run
+            (p)                                                         wherein the block was covered in polyethylene foil and
+to find δτn . A bias-corrected weighted average over
+                                                                        reinserted into the same location in the trap. Polyethy-
+pairs p gives the final result. This method is less sensi-
+                                                                        lene up scatters virtually all UCNs incident upon the
+tive to potential time drifts in backgrounds or detector
+                                                                        surface, thus providing an estimate of the rate of UCNs
+response. However, the paired method is less statistically
+                                                                        impinging upon the aluminum block. This introduces an
+sensitive to τn than the global method discussed below,
+                                                                        additional ∼ 424 s decay component to the yields Yj ver-
+as the pairing process reduces the number of runs used
+                                                                        sus t̄j . Analysis B uses an estimate of UCN velocity-and-
+in the analyses. This method finds τn in agreement with
+                                                                        angle-averaged loss per bounce of (2 ± 1) × 10−4 for alu-
+that of the global analysis.
+                                                                        minum, leading to a 0.15±0.07 s correction to this subset
+   The global method instead maximizes the likelihood of
+                                                                        of data. The other analyses perform similar assessments,
+observing the data O = {Dj , Bj , Mk,j , t̄j } given param-
+                                                                        and independent checks using our Monte Carlo frame-
+eters τn , p:
+                                                                        work [39] are consistent with this estimate. Further, this
+                       Y               Y                                is consistent with a comparison of paired τn during this
+        L (O|τn , p) =    P (λj , p|O)   πh,j (ph,j )    (2)
+                         j
+                                                                        period to the rest of the paired τn values. The value in
+                                               h
+                                                                        Table II is this correction’s contribution to the final τn
+with λj = τn−1 + λup,j + λdp + λescape the loss rate in-                for all data.
+cluding β decay, residual gas up-scattering rate λup,j , de-               If UCNs with E > 51 neV (corresponding to the 50 cm
+polarization rate λdp , and escape rate λescape described               height of the trap) are not removed during the cleaning
+below. The probability distribution P, the collection of                phase, and yet reside in the trap for times λ−1escape similar
+nuisance parameters p, and their constraints π(ph ) vary                to τn before escaping, the extracted τn will be system-
+                                                                                                                              5
+
+atically lower. Data were obtained in 2018 wherein the             Analysis          A              B              C
+cleaner was never lowered into the trap. For these runs,           Paired   877.77 ± 0.31 877.87 ± 0.32 877.60 ± 0.29
+the cleaner detector and primary detector both register            2017     877.68 ± 0.30 877.78 ± 0.34 877.74 ± 0.33
+counts at positions above the cleaning height during the
+                                                                   2018     878.06 ± 0.49 877.80 ± 0.46 877.55 ± 0.55
+counting phase, and the extracted τn lowered by ∼ 15 s,
+                                                                   With Al 877.17 ± 0.38 876.81 ± 0.43 877.69 ± 0.40
+implying an escape rate λescape = 2 × 10−5 s−1 . As-
+                                                                   Full     877.78 ± 0.26 877.79 ± 0.27 877.69 ± 0.28
+suming a linear relation between λescape and observed
+counts in either the cleaner or primary detector, we use           Combined               877.75 ± 0.28
+the nonobservation of counts in the first counting phase
+                                                               TABLE III. The resulting τn (s) for the three analyses with
+in the primary datasets to constrain the size of the effect.   statistical uncertainties. The first row shows paired results for
+Similarly, as was done in Ref. [29], the nonobservation        the full dataset. Below are the global fit results for the 2017
+of counts at the highest primary detector position for         and 2018 subsets, and the subset for which the Al component
+tstore > 500 s runs in the primary data are used to con-       was present in the trap. “Full” refers to the global maximum
+strain the effect of initially trappable UCNs, increasing      likelihood fit of all production data. An unweighted average
+their total energy due to vibration of the Halbach array       of the three global analyses and largest uncertainty gives the
+                                                               final result.
+or any other time dependence in the trapping potential.
+   The choice of UCN event definition can change the
+extracted τn . Each analysis reextracted τn for a range of
+                                                               ing run selection, UCN event definition, normalization
+np , tw , and any other adjustable parameters to assess the
+                                                               models, and background estimates, the statistical uncer-
+associated systematic uncertainty. The three analyses
+                                                               tainties between the analyses are not 100% correlated.
+observe a variance similar in magnitude (see Table II).
+                                                               We explored multiple ways of averaging the three anal-
+   The sensitivity of the extracted lifetime to choice of
+                                                               yses, with little benefit or difference when using opti-
+weighting function w(t) was assessed by defining appro-
+                                                               mized estimator averaging procedures (similar to Ref.
+priate model parameter ranges consistent with accurately
+                                                               [42]). Ultimately, as in our previous result [29], we per-
+modeling the initially loaded UCN populations (e.g., α,
+                                                               form an unweighted average of the three central val-
+β for analysis B), and varying the parameters within
+                                                               ues and choose the largest statistical uncertainty, giving
+these ranges to probe the effect on the extracted lifetime.
+                                                               τn = 877.75 ± 0.28 stat + 0.22/ − 0.16 syst s, in agreement
+Taking the most conservative assessment among analy-
+                                                               with Ref. [29].
+ses results in an uncertainty in the lifetime of 0.090 s
+in 2017 and 0.047 s in 2018 for a combined uncertainty            With 0.039% total uncertainty, this is the first ex-
+0.06 s. The nearly 50% reduction in uncertainty in 2018        periment to determine the neutron lifetime with uncer-
+is largely due to the buffer volume smoothing over vari-       tainty smaller than the average 0.09(2)% shift predicted
+ations in UCN production while filling.                        from recent theoretical work [6–8] on radiative correc-
+   Depolarization and residual gas up-scattering losses        tions. This result, combined with forthcoming experi-
+and associated uncertainties were treated as in Ref.           mental and lattice QCD determinations of the axial cou-
+[29]. The toroidal ambient magnetic field strength is          pling constant, will independently probe the disagree-
+unchanged from Ref. [29], and we assign a depolariza-          ment in first-row CKM unitarity while avoiding nuclear
+tion rate of λdp = 0.0+1.0          −7 −1                      structure corrections required for superallowed nuclear
+                          −0.0 × 10    s . The residual
+gas up-scattering rate was computed run by run using           decays.
+the measured absolute pressure and periodic residual gas          We thank W. Pettus for a thorough reading of this
+analysis of the trap. The relative amounts of water, air,      manuscript. This work is supported by the LANL LDRD
+and hydrocarbon molecules were tracked throughout the          program; the U.S. Department of Energy, Office of Sci-
+run campaigns. The up-scattering rate is computed from         ence, Office of Nuclear Physics under Awards No. DE-
+these data and from the known UCN-gas molecule cross           FG02-ER41042, No. DE-AC52-06NA25396, No. DE-
+sections measured in Refs. [40, 41]. We assign a con-          AC05-00OR2272, and No. 89233218CNA000001 under
+servative 15% uncertainty on the absolute pressure and         proposal LANLEEDM; NSF Grants No. 1614545, No.
+cross section uncertainty on water and air from the un-        1914133, No. 1506459, No. 1553861, No. 1812340, No.
+certainties in Refs. [40, 41]. Because of uncertainty in       1714461, and No. 1913789; and NIST precision measure-
+the relative abundance of hydrocarbons, we apply a 70%         ments grant.
+uncertainty, which spans the full range of measured cross
+sections in Refs. [40, 41].
+   Results and conclusions.— The extracted τn values
+with statistical uncertainties for 2017 and 2018 for the        [1] G. J. Mathews, T. Kajino, and T. Shima, arXiv [astro-
+different analyses are shown in Table III. Table II shows           ph] (2004), 10.1103/PhysRevD.71.021302.
+the systematic corrections and most conservative uncer-         [2] D. Dubbers and M. G. Schmidt, Rev. Mod. Phys. 83,
+tainties among the three analyses. Because of differ-               1111 (2011).
+                                                                                                                            6
+
+ [3] A. N. Ivanov, M. Pitschmann, and N. I. Troitskaya,                Clayton, C. Cude-Woods, S. Currie, D. E. Fellers, E. M.
+     Phys. Rev. D 88, 073002 (2013).                                   Fries, P. Geltenbort, F. Gonzalez, K. P. Hickerson, T. M.
+ [4] M. Gonzalez-Alonso, O. Naviliat-Cuncic, and N. Sever-             Ito, C.-Y. Liu, S. W. T. MacDonald, M. Makela, C. L.
+     ijns, Progress in Particle and Nuclear Physics 104, 165           Morris, C. M. O’Shaughnessy, R. W. Pattie, B. Plaster,
+     (2019).                                                           D. J. Salvat, A. Saunders, Z. Wang, A. R. Young, and
+ [5] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 96, 032002         B. A. Zeck, Phys. Rev. Lett. 121, 022505 (2018).
+     (2006).                                                      [24] J. T. Wilson, D. J. Lawrence, P. N. Peplowski, V. R.
+ [6] C.-Y. Seng, M. Gorchtein, and M. J. Ramsey-Musolf,                Eke, and J. A. Kegerreis, Phys. Rev. Research 2, 023316
+     Phys. Rev. D 100, 013001 (2019).                                  (2020).
+ [7] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev.      [25] D. J. Lawrence, J. T. Wilson, and P. N. Peplowski, Nu-
+     D 100, 073008 (2019).                                             clear Instruments and Methods in Physics Research Sec-
+ [8] L. Hayen, Phys. Rev. D 103, 113001 (2021).                        tion A: Accelerators, Spectrometers, Detectors and As-
+ [9] G. L. Greene and P. Geltenbort, Scientific American 314           sociated Equipment 988, 164919 (2021).
+     (2016).                                                      [26] N. Sumi, K. Hirota, G. Ichikawa, T. Ino, Y. Iwashita,
+[10] A. T. Yue, M. S. Dewey, D. M. Gilliam, G. L. Greene,              S. Kajiwara, Y. Kato, M. Kitaguchi, K. Mishima,
+     A. B. Laptev, J. S. Nico, W. M. Snow, and F. E. Wiet-             K. Morikawa, T. Mogi, H. Oide, H. Okabe,
+     feldt, Phys. Rev. Lett. 111, 222501 (2013).                       H. Otono, T. Shima, H. M. Shimizu, Y. Sugi-
+[11] A. Serebrov, V. Varlamov, A. Kharitonov, A. Fomin,                sawa, T. Tanabe, S. Yamashita, K. Yano,               and
+     Y. Pokotilovski, P. Geltenbort, J. Butterworth,                   T. Yoshioka, “Precise neutron lifetime measure-
+     I. Krasnoschekova, M. Lasakov, R. Tal’daev, A. Vassiljev,         ment using pulsed neutron beams at j-parc,” in
+     and O. Zherebtsov, Physics Letters B 605, 72 (2005).              Proceedings of the 3rd J-PARC Symposium (J-PARC2019),
+[12] A. Pichlmaier, V. Varlamov, K. Schreckenbach, and                 https://journals.jps.jp/doi/pdf/10.7566/JPSCP.33.011056.
+     P. Geltenbort, Physics Letters B 693, 221 (2010).            [27] D. J. Salvat, E. R. Adamek, D. Barlow, J. D. Bowman,
+[13] A. Steyerl, J. M. Pendlebury, C. Kaufman, S. S. Malik,            L. J. Broussard, N. B. Callahan, S. M. Clayton, C. Cude-
+     and A. M. Desai, Phys. Rev. C 85, 065503 (2012).                  Woods, S. Currie, E. B. Dees, W. Fox, P. Geltenbort,
+[14] S. Arzumanov, L. Bondarenko, S. Chernyavsky, P. Gel-              K. P. Hickerson, A. T. Holley, C.-Y. Liu, M. Makela,
+     tenbort, V. Morozov, V. Nesvizhevsky, Y. Panin, and               J. Medina, D. J. Morley, C. L. Morris, S. I. Penttilä,
+     A. Strepetov, Physics Letters B 745, 79 (2015).                   J. Ramsey, A. Saunders, S. J. Seestrom, E. I. Shara-
+[15] V. F. Ezhov, A. Z. Andreev, G. Ban, B. A. Bazarov,                pov, S. K. L. Sjue, B. A. Slaughter, J. Vanderwerp,
+     P. Geltenbort, A. G. Glushkov, V. A. Knyazkov, N. A.              B. VornDick, P. L. Walstrom, Z. Wang, T. L. Womack,
+     Kovrizhnykh, G. B. Krygin, O. Naviliat-Cuncic, and                and A. R. Young, Phys. Rev. C 89, 052501 (2014).
+     V. L. Ryabov, JETP Letters 107, 671 (2018).                  [28] C. L. Morris, E. R. Adamek, L. J. Broussard, N. B.
+[16] A. P. Serebrov, E. A. Kolomensky, A. K. Fomin, I. A.              Callahan, S. M. Clayton, C. Cude-Woods, S. A. Cur-
+     Krasnoshchekova, A. V. Vassiljev, D. M. Prudnikov,                rie, X. Ding, W. Fox, K. P. Hickerson, M. A. Hoffbauer,
+     I. V. Shoka, A. V. Chechkin, M. E. Chaikovskiy, V. E.             A. T. Holley, A. Komives, C.-Y. Liu, M. Makela, R. W.
+     Varlamov, S. N. Ivanov, A. N. Pirozhkov, P. Gel-                  Pattie, J. Ramsey, D. J. Salvat, A. Saunders, S. J. See-
+     tenbort, O. Zimmer, T. Jenke, M. Van der Grinten, and             strom, E. I. Sharapov, S. K. Sjue, Z. Tang, J. Vander-
+     M. Tucker, Phys. Rev. C 97, 055503 (2018).                        werp, B. Vogelaar, P. L. Walstrom, Z. Wang, W. Wei,
+[17] B. Fornal and B. Grinstein, Phys. Rev. Lett. 120, 191801          J. W. Wexler, T. L. Womack, A. R. Young, and B. A.
+     (2018).                                                           Zeck, Review of Scientific Instruments 88, 053508 (2017),
+[18] G. Baym, D. H. Beck, P. Geltenbort, and J. Shelton,               https://doi.org/10.1063/1.4983578.
+     Phys. Rev. Lett. 121, 061801 (2018).                         [29] R. W. Pattie, N. B. Callahan, C. Cude-Woods, E. R.
+[19] D. McKeen, A. E. Nelson, S. Reddy, and D. Zhou, Phys.             Adamek, L. J. Broussard, S. M. Clayton, S. A.
+     Rev. Lett. 121, 061802 (2018).                                    Currie, E. B. Dees, X. Ding, E. M. Engel, D. E.
+[20] J. Ellis, G. Hütsi, K. Kannike, L. Marzola, M. Raidal,           Fellers, W. Fox, P. Geltenbort, K. P. Hickerson,
+     and V. Vaskonen, Phys. Rev. D 97, 123007 (2018).                  M. A. Hoffbauer, A. T. Holley, A. Komives, C.-Y.
+[21] D. McKeen, M. Pospelov, and N. Raj, Phys. Rev. D                  Liu, S. W. T. MacDonald, M. Makela, C. L. Morris,
+     103, 115002 (2021).                                               J. D. Ortiz, J. Ramsey, D. J. Salvat, A. Saunders,
+[22] X. Sun, E. Adamek, B. Allgeier, M. Blatnik, T. J. Bowles,         S. J. Seestrom, E. I. Sharapov, S. K. Sjue, Z. Tang,
+     L. J. Broussard, M. A.-P. Brown, R. Carr, S. Clay-                J. Vanderwerp, B. Vogelaar, P. L. Walstrom, Z. Wang,
+     ton, C. Cude-Woods, S. Currie, E. B. Dees, X. Ding,               W. Wei, H. L. Weaver, J. W. Wexler, T. L. Womack,
+     B. W. Filippone, A. Garcı́a, P. Geltenbort, S. Hasan,             A. R. Young, and B. A. Zeck, Science 360, 627 (2018),
+     K. P. Hickerson, J. Hoagland, R. Hong, G. E. Hogan,               https://science.sciencemag.org/content/360/6389/627.full.pdf.
+     A. T. Holley, T. M. Ito, A. Knecht, C.-Y. Liu, J. Liu,       [30] T. M. Ito, E. R. Adamek, N. B. Callahan, J. H. Choi,
+     M. Makela, R. Mammei, J. W. Martin, D. Melconian,                 S. M. Clayton, C. Cude-Woods, S. Currie, X. Ding,
+     M. P. Mendenhall, S. D. Moore, C. L. Morris, S. Nepal,            D. E. Fellers, P. Geltenbort, S. K. Lamoreaux, C.-Y. Liu,
+     N. Nouri, R. W. Pattie, A. Pérez Galván, D. G. Phillips,        S. MacDonald, M. Makela, C. L. Morris, R. W. Pattie,
+     R. Picker, M. L. Pitt, B. Plaster, J. C. Ramsey, R. Rios,         J. C. Ramsey, D. J. Salvat, A. Saunders, E. I. Sharapov,
+     D. J. Salvat, A. Saunders, W. Sondheim, S. Sjue, S. Slut-         S. Sjue, A. P. Sprow, Z. Tang, H. L. Weaver, W. Wei,
+     sky, C. Swank, G. Swift, E. Tatar, R. B. Vogelaar,                and A. R. Young, Phys. Rev. C 97, 012501 (2018).
+     B. VornDick, Z. Wang, W. Wei, J. Wexler, T. Wom-             [31] A. T. Holley, L. J. Broussard, J. L. Davis, K. Hickerson,
+     ack, C. Wrede, A. R. Young, and B. A. Zeck (UCNA                  T. M. Ito, C.-Y. Liu, J. T. M. Lyles, M. Makela, R. R.
+     Collaboration), Phys. Rev. C 97, 052501 (2018).                   Mammei, M. P. Mendenhall, C. L. Morris, R. Mortensen,
+[23] Z. Tang, M. Blatnik, L. J. Broussard, J. H. Choi, S. M.           R. W. Pattie, R. Rios, A. Saunders, and A. R. Young,
+                                                                                                                              7
+
+     Review of Scientific Instruments 83, 073505 (2012),              Slaughter, B. VornDick, P. L. Walstrom, Z. Wang, T. L.
+     https://doi.org/10.1063/1.4732822.                               Womack, A. R. Young, and B. A. Zeck (UCNτ Collab-
+[32] P. Walstrom, J. Bowman, S. Penttila, C. Morris, and              oration), Phys. Rev. C 92, 065501 (2015).
+     A. Saunders, Nuclear Instruments and Methods in             [41] S. J. Seestrom, E. R. Adamek, D. Barlow, M. Blatnik,
+     Physics Research Section A: Accelerators, Spectrometers,         L. J. Broussard, N. B. Callahan, S. M. Clayton, C. Cude-
+     Detectors and Associated Equipment 599, 82 (2009).               Woods, S. Currie, E. B. Dees, W. Fox, M. Hoffbauer,
+[33] R. Picker, I. Altarev, P. Amos, B. Franke, P. Geltenbort,        K. P. Hickerson, A. T. Holley, C.-Y. Liu, M. Makela,
+     E. Gutsmiedl, F. Hartmann, A. Mann, S. Materne,                  J. Medina, D. J. Morley, C. L. Morris, R. W. Pattie,
+     A. Müller, S. Paul, R. Stoepler, and H.-F. Wirth, Nu-           J. Ramsey, A. Roberts, D. J. Salvat, A. Saunders, E. I.
+     clear Instruments and Methods in Physics Research Sec-           Sharapov, S. K. L. Sjue, B. A. Slaughter, P. L. Wal-
+     tion A: Accelerators, Spectrometers, Detectors and Asso-         strom, Z. Wang, J. Wexler, T. L. Womack, A. R. Young,
+     ciated Equipment 611, 297 (2009), particle Physics with          J. Vanderwerp, and B. A. Zeck, Phys. Rev. C 95, 015501
+     Slow Neutrons.                                                   (2017).
+[34] Z. Wang, M. Hoffbauer, C. Morris, N. Callahan,              [42] T. Albahri, A. Anastasi, A. Anisenkov, K. Badgley,
+     E. Adamek, J. Bacon, M. Blatnik, A. Brandt, L. Brous-            S. Baeßler, I. Bailey, V. A. Baranov, E. Barlas-Yucel,
+     sard, S. Clayton, C. Cude-Woods, S. Currie, E. Dees,             T. Barrett, A. Basti, F. Bedeschi, M. Berz, M. Bhat-
+     X. Ding, J. Gao, F. Gray, K. Hickerson, A. Holley, T. Ito,       tacharya, H. P. Binney, P. Bloom, J. Bono, E. Bottalico,
+     C.-Y. Liu, M. Makela, J. Ramsey, R. Pattie, D. Sal-              T. Bowcock, G. Cantatore, R. M. Carey, B. C. K. Casey,
+     vat, A. Saunders, D. Schmidt, R. Schulze, S. Seestrom,           D. Cauz, R. Chakraborty, S. P. Chang, A. Chapelain,
+     E. Sharapov, A. Sprow, Z. Tang, W. Wei, J. Wexler,               S. Charity, R. Chislett, J. Choi, Z. Chu, T. E. Chupp,
+     T. Womack, A. Young, and B. Zeck, Nuclear Instruments            S. Corrodi, L. Cotrozzi, J. D. Crnkovic, S. Dabagov,
+     and Methods in Physics Research Section A: Acceler-              P. T. Debevec, S. Di Falco, P. Di Meo, G. Di Sciascio,
+     ators, Spectrometers, Detectors and Associated Equip-            R. Di Stefano, A. Driutti, V. N. Duginov, M. Eads, J. Es-
+     ment 798, 30 (2015).                                             quivel, M. Farooq, R. Fatemi, C. Ferrari, M. Fertl, A. T.
+[35] A. Anghel, T. L. Bailey, G. Bison, B. Blau, L. J.                Fienberg, A. Fioretti, D. Flay, E. Frlež, N. S. Froem-
+     Broussard, S. M. Clayton, C. Cude-Woods, M. Daum,                ming, J. Fry, C. Gabbanini, M. D. Galati, S. Ganguly,
+     A. Hawari, N. Hild, P. Huffman, T. M. Ito, K. Kirch,             A. Garcia, J. George, L. K. Gibbons, A. Gioiosa, K. L.
+     E. Korobkina, B. Lauss, K. Leung, E. M. Lutz,                    Giovanetti, P. Girotti, W. Gohn, T. Gorringe, J. Grange,
+     M. Makela, G. Medlin, C. L. Morris, R. W. Pat-                   S. Grant, F. Gray, S. Haciomeroglu, T. Halewood-
+     tie, D. Ries, A. Saunders, P. Schmidt-Wellenburg,                Leagas, D. Hampai, F. Han, J. Hempstead, A. T. Her-
+     V. Talanov, A. R. Young, B. Wehring, C. White,                   rod, D. W. Hertzog, G. Hesketh, A. Hibbert, Z. Hodge,
+     M. Wohlmuther, and G. Zsigmond, The European Phys-               J. L. Holzbauer, K. W. Hong, R. Hong, M. Iaco-
+     ical Journal A 54 (2018), 10.1140/epja/i2018-12594-2.            vacci, M. Incagli, P. Kammel, M. Kargiantoulakis,
+[36] H.     Abdi      and     L.     J.  Williams,     WIREs          M. Karuza, J. Kaspar, D. Kawall, L. Kelton, A. Ke-
+     Computational        Statistics    2,     433     (2010),        shavarzi, D. Kessler, K. S. Khaw, Z. Khechadoorian,
+     https://onlinelibrary.wiley.com/doi/pdf/10.1002/wics.101.        N. V. Khomutov, B. Kiburg, M. Kiburg, O. Kim, Y. I.
+[37] D. Foreman-Mackey, D. W. Hogg, D. Lang, and J. Good-             Kim, B. King, N. Kinnaird, E. Kraegeloh, A. Kuchib-
+     man, Publications of the Astronomical Society of the Pa-         hotla, N. A. Kuchinskiy, K. R. Labe, J. LaBounty,
+     cific 125, 306 (2013).                                           M. Lancaster, M. J. Lee, S. Lee, S. Leo, B. Li, D. Li,
+[38] J.      M.        Ver       Hoef      and      P.       L.       L. Li, I. Logashenko, A. Lorente Campos, A. Lucà, G. Lu-
+     Boveng,        Ecology        88,       2766      (2007),        kicov, A. Lusiani, A. L. Lyon, B. MacCoy, R. Madrak,
+     https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/07- K. Makino, F. Marignetti, S. Mastroianni, J. P. Miller,
+     0043.1.                                                          S. Miozzi, W. M. Morse, J. Mott, A. Nath, H. Nguyen,
+[39] N. Callahan, C.-Y. Liu, F. Gonzalez, E. Adamek,                  R. Osofsky, S. Park, G. Pauletta, G. M. Piacentino, R. N.
+     J. D. Bowman, L. Broussard, S. M. Clayton, S. Currie,            Pilato, K. T. Pitts, B. Plaster, D. Počanić, N. Pohlman,
+     C. Cude-Woods, E. B. Dees, X. Ding, W. Fox, P. Gel-              C. C. Polly, J. Price, B. Quinn, N. Raha, S. Ramachan-
+     tenbort, K. P. Hickerson, M. A. Hoffbauer, A. T. Hol-            dran, E. Ramberg, J. L. Ritchie, B. L. Roberts, D. L.
+     ley, A. Komives, S. W. T. MacDonald, M. Makela, C. L.            Rubin, L. Santi, C. Schlesier, A. Schreckenberger, Y. K.
+     Morris, J. D. Ortiz, R. W. Pattie, J. Ramsey, D. J. Sal-         Semertzidis, D. Shemyakin, M. W. Smith, M. Sorbara,
+     vat, A. Saunders, E. I. Sharapov, S. K. L. Sjue, Z. Tang,        D. Stöckinger, J. Stapleton, C. Stoughton, D. Stratakis,
+     J. Vanderwerp, B. Vogelaar, P. L. Walstrom, Z. Wang,             T. Stuttard, H. E. Swanson, G. Sweetmore, D. A.
+     H. Weaver, W. Wei, J. Wexler, and A. R. Young, Phys.             Sweigart, M. J. Syphers, D. A. Tarazona, T. Teubner,
+     Rev. C 100, 015501 (2019).                                       A. E. Tewsley-Booth, K. Thomson, V. Tishchenko, N. H.
+[40] S. J. Seestrom, E. R. Adamek, D. Barlow, L. J. Brous-            Tran, W. Turner, E. Valetov, D. Vasilkova, G. Venan-
+     sard, N. B. Callahan, S. M. Clayton, C. Cude-Woods,              zoni, T. Walton, A. Weisskopf, L. Welty-Rieger, P. Win-
+     S. Currie, E. B. Dees, W. Fox, P. Geltenbort, K. P. Hick-        ter, A. Wolski, and W. Wu (Muon g − 2 Collaboration),
+     erson, A. T. Holley, C.-Y. Liu, M. Makela, J. Medina,            Phys. Rev. D 103, 072002 (2021).
+     D. J. Morley, C. L. Morris, J. Ramsey, A. Roberts, D. J.
+     Salvat, A. Saunders, E. I. Sharapov, S. K. L. Sjue, B. A.
+

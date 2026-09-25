@@ -1,0 +1,599 @@
+                                           Measurement of the 2νββ decay rate and spectral shape of 100 Mo from the CUPID-Mo
+                                                                              experiment
+                                                                                           (CUPID-Mo collaboration)
+
+                                              C. Augier,1 A. S. Barabash,2 F. Bellini,3, 4 G. Benato,5, 6 M. Beretta,7 L. Bergé,8 J. Billard,1 Yu. A. Borovlev,9
+                                             L. Cardani,4 N. Casali,4 A. Cazes,1 E. Celi,5, 6 M. Chapellier,8 D. Chiesa,10, 11 I. Dafinei,4 F. A. Danevich,12, 13
+                                             M. De Jesus,1 T. Dixon,8, 14, ∗ L. Dumoulin,8 K. Eitel,15 F. Ferri,14 B. K. Fujikawa,16 J. Gascon,1 L. Gironi,10, 11
+                                            A. Giuliani,8 V. D. Grigorieva,9 M. Gros,14 D. L. Helis,14, 5 H. Z. Huang,17 R. Huang,7 L. Imbert,8 J. Johnston,18
+                                                  A. Juillard,1 H. Khalife,8 M. Kleifges,19 V. V. Kobychev,12 Yu. G. Kolomensky,7, 16 S.I. Konovalov,20
+                                           J. Kotila,21, 22, 23 P. Loaiza,8 L. Ma,17 E. P. Makarov,9 P. de Marcillac,8 R. Mariam,8 L. Marini,7, 16, 5 S. Marnieros,8
+                                           X.-F. Navick,14 C. Nones,14 E. B. Norman,7 E. Olivieri,8 J. L. Ouellet,18 L. Pagnanini,6, 5 L. Pattavina,5, 24 B. Paul,14
+                                            M. Pavan,10, 11 H. Peng,25 G. Pessina,11 S. Pirro,5 D. V. Poda,8 O. G. Polischuk,12, 4 S. Pozzi,11 E. Previtali,10, 11
+                                               Th. Redon,8 A. Rojas,26 S. Rozov,27 V. Sanglard,1 J. A. Scarpaci,8 B. Schmidt,14 Y. Shen,17 V. N. Shlegel,9
+
+
+
+
+arXiv:2307.14086v1 [nucl-ex] 26 Jul 2023
+                                                F. Šimkovic,28, 29 V. Singh,7 C. Tomei,4 V. I. Tretyak,12, 5 V. I. Umatov,20 L. Vagneron,1 M. Velázquez,30
+                                                B. Ware,31 B. Welliver,7 L. Winslow,18 M. Xue,25 E. Yakushev,27 M. Zarytskyy,12 and A. S. Zolotarova8
+                                                           1
+                                                                  Univ Lyon, Université Lyon 1, CNRS/IN2P3, IP2I-Lyon, F-69622, Villeurbanne, France
+                                                                                            2
+                                                                                              National Research Centre “Kurchatov Institute”,
+                                                                   Kurchatov Complex of Theoretical and Experimental Physics, 117218 Moscow, Russia
+                                                            3
+                                                              Dipartimento di Fisica, Sapienza Università di Roma, P.le Aldo Moro 2, I-00185, Rome, Italy
+                                                                                4
+                                                                                  INFN, Sezione di Roma, P.le Aldo Moro 2, I-00185, Rome, Italy
+                                                                           5
+                                                                             INFN, Laboratori Nazionali del Gran Sasso, I-67100 Assergi (AQ), Italy
+                                                                                    6
+                                                                                      INFN, Gran Sasso Science Institute, I-67100 L’Aquila, Italy
+                                                                                      7
+                                                                                        University of California, Berkeley, California 94720, USA
+                                                                              8
+                                                                                Université Paris-Saclay, CNRS/IN2P3, IJCLab, 91405 Orsay, France
+                                                                             9
+                                                                               Nikolaev Institute of Inorganic Chemistry, 630090 Novosibirsk, Russia
+                                                                        10
+                                                                           Dipartimento di Fisica, Università di Milano-Bicocca, I-20126 Milano, Italy
+                                                                                       11
+                                                                                          INFN, Sezione di Milano-Bicocca, I-20126 Milano, Italy
+                                                                                  12
+                                                                                     Institute for Nuclear Research of NASU, 03028 Kyiv, Ukraine
+                                                              13
+                                                                 INFN, Sezione di Roma Tor Vergata, Via della Ricerca Scientifica 1, I-00133, Rome, Italy
+                                                                             14
+                                                                                IRFU, CEA, Université Paris-Saclay, F-91191 Gif-sur-Yvette, France
+                                                          15
+                                                             Karlsruhe Institute of Technology, Institute for Astroparticle Physics, 76021 Karlsruhe, Germany
+                                                                         16
+                                                                             Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA
+                                               17
+                                                  Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University, Shanghai 200433, PR China
+                                                                              18
+                                                                                 Massachusetts Institute of Technology, Cambridge, MA 02139, USA
+                                                    19
+                                                       Karlsruhe Institute of Technology, Institute for Data Processing and Electronics, 76021 Karlsruhe, Germany
+                                            20
+                                               National Research Centre Kurchatov Institute, Institute of Theoretical and Experimental Physics, 117218 Moscow, Russia
+                                                              21
+                                                                 Department of Physics, University of Jyväskylä, PO Box 35, FI-40014, Jyväskylä, Finland
+                                                  22
+                                                     Finnish Institute for Educational Research, University of Jyväskylä, P.O. Box 35, FI-40014 Jyvaäskylä, Finland
+                                                                                     23
+                                                                                        Center for Theoretical Physics, Sloane Physics Laboratory,
+                                                                                     Yale University, New Haven, Connecticut 06520-8120, USA
+                                                                   24
+                                                                      Physik Department, Technische Universität München, Garching D-85748, Germany
+                                                      25
+                                                         Department of Modern Physics, University of Science and Technology of China, Hefei 230027, PR China
+                                                                                 26
+                                                                                    LSM, Laboratoire Souterrain de Modane, 73500 Modane, France
+                                                                      27
+                                                                         Laboratory of Nuclear Problems, JINR, 141980 Dubna, Moscow region, Russia
+                                                                                           28
+                                                                                              Faculty of Mathematics, Physics and Informatics,
+                                                                                   Comenius University in Bratislava, 842 48 Bratislava, Slovakia
+                                                                                             29
+                                                                                                Institute of Experimental and Applied Physics,
+                                                                              Czech Technical University in Prague, 128 00 Prague, Czech Republic
+                                                           30
+                                                              Université Grenoble Alpes, CNRS, Grenoble INP, SIMAP, 38420 Saint Martin d’Hères, France
+                                                     31
+                                                        John de Laeter Centre for Isotope Research, GPO Box U 1987, Curtin University, Bentley, WA, Australia
+                                                                                                            (Dated: July 27, 2023)
+                                                           Neutrinoless double beta decay (0νββ) is a yet unobserved nuclear process which would demon-
+                                                        strate Lepton Number violation, a clear evidence of beyond Standard Model physics. The process
+                                                        two neutrino double beta decay (2νββ) is allowed by the Standard Model and has been measured
+                                                        in numerous experiments. In this letter, we report a measurement of 2νββ decay half-life of 100 Mo
+                                                        to the ground state of 100 Ru of (7.07 ± 0.02 (stat.) ± 0.11 (syst.)) × 1018 yr by the CUPID-Mo
+                                                        experiment. With a relative precision of ± 1.6 % this is the most precise measurement to date of a
+                                                        2νββ decay rate in 100 Mo. In addition, we constrain higher-order corrections to the spectral shape
+                                                        which provides complementary nuclear structure information. We report a novel measurement of
+                                                        the shape factor ξ3,1 = 0.45 ±0.03 (stat.) ±0.05 (syst.), which is compared to theoretical predictions
+                                                                                                                              2
+
+              for different nuclear models. We also extract the first value for the effective axial vector coupling
+              constant obtained from a spectral shape study of 2νββ decay.
+
+
+   For more than 20 years it has been known that                  necessary condition to obtain reliable estimates of M0ν .
+neutrinos have mass via measurements of neutrino                  These measurements are often used to tune the parame-
+oscillations[1, 2]. This raises the question of the nature        ters of the nuclear models. However, they cannot alone
+of this mass. If the neutrino is its own antiparticle, a Ma-      answer questions about the value of gA,eff since only the
+                                                                                   2
+jorana particle, then a decay mode of some nuclei would           product M2ν · gA,eff  is measured.
+become possible, neutrinoless double beta decay (0νββ)               The 2νββ decay spectrum is typically described using
+(see reviews [3–5]). This decay could be observed in nu-          two approximations, the single and higher state dom-
+clei for which single beta decay is energetically disallowed      inance hypotheses (SSD/HSD) [15]. In these approxi-
+(or disfavored by angular momentum). Two neutrons                 mations, the decay is supposed to proceed via a single
+would be transformed into two protons, with the emis-             intermediate 1+ state. For the HSD model this state is
+sion of only two electrons. The observation of this decay         an average higher energy state from the region of the
+would have profound consequences for particle physics by          Gamow-Teller resonance, while for SSD it is the lowest
+showing that the Lepton Number is not a fundamental               energy 1+ state.
+symmetry of nature and providing clear evidence of be-               The description of the 2νββ decay spectrum was im-
+yond Standard Model physics.                                      proved in [16, 17]. In this approach, a Taylor expansion is
+   The measurement of the decay rate could also provide a         performed in terms of the Lepton energies. The differen-
+method to measure the effective neutrino mass [6]. Under          tial decay rate relates to phase space factors and NMEs
+the light Majorana neutrino exchange mechanism the de-            as:
+cay rate would be related to the effective Majorana mass
+⟨mββ ⟩ by:                                                            dΓ     4
+                                                                                              dG
+                                                                                                 0        dG2
+                                                                         = gA,eff |MGT −1 |2       + ξ3,1                   (3)
+                                                                      dE                       dE         dE
+            0ν           4
+         1/T1/2 = G0ν · gA · |M0ν |2 · ⟨mββ ⟩2 /m2e ,      (1)                          1 2 dG22        1 2          dG4 
+                                                                                      + ξ3,1        + ξ3,1   + ξ5,1         .
+                                                                                        3       dE      3             dE
+where G0ν is the phase space factor, M0ν the nuclear
+matrix element (NME), gA the effective axial-vector cou-          Here G0 , G2 , G22 , G4 are the phase space factors for
+pling constant and me the electron mass. While G0ν can            different terms in the Taylor expansion.             ξ3,1 =
+be calculated almost exactly [7], the NME is the result           MGT −3 /MGT −1 and ξ5,1 = MGT −5 /MGT −1 are ratios of
+of complex many-body nuclear physics calculations (see            NMEs. By fitting the energy distribution of electrons to
+the review [8]) and is only known to a factor of a few.           this model, constraints on ξ3,1 , ξ5,1 can be obtained which
+To interpret the results of next-generation experiments           can be compared to theoretical predictions. MGT −3 and
+these calculations must be improved. In addition, it has          MGT −5 are expected to be dominated by contributions
+been observed that nuclear models often over-predict the          from lower-lying states due to the higher power of the
+decay rate of β − and 2νββ. To account for this gA can be         energy denominators so measurement of ξ3,1 ,ξ5,1 provide
+replaced with an effective value gA,eff [9–11]. Therefore         complementary nuclear structure information to the half-
+there is still a possibility the 0νββ decay rate could be         life. Within this model the HSD spectrum can be recov-
+much lower than expected for an unrenormalized value              ered by fixing ξ3,1 , ξ5,1 to zero, and the SSD approxima-
+of gA (1.27). This would have significant impact on               tion can be used to predict non-zero ξ3,1 , ξ5,1 as in [16]. ξ
+the discovery probability of next generation experiments          values larger than the SSD values would indicate mutual
+[12, 13]. To constrain this possibility new measurements          cancellation between lower and higher lying states.
+are needed.                                                          As described in [16], a measurement of ξ3,1 and the
+   Two neutrino double beta decay (2νββ) conserves Lep-           half-life can be used to extract a value for gA,eff of:
+ton Number and is allowed within the Standard Model.
+                                                                                                  −1     2
+It has been observed in a number of nuclei [14]. The
+                                                                                       4
+                                                                                                 T1/2 × ξ3,1
+decay rate of 2νββ decay can be described to a good                                   gA,eff =    2            ,            (4)
+                                                                                                 MGT −3 G
+approximation as:
+                                                                                              2             2
+                    2ν
+                 1/T1/2          4
+                        = G2ν · gA · |M2ν |2 ,             (2)    where G = G0 + ξ3,1 G2 + ξ3,1  G22 /3 + (ξ3,1 /3 + ξ5,1 )G4 .
+                                                                  MGT −3 can be computed reliably within the *interacting
+where G2ν is the phase space factor, M2ν is the NME.              shell model (ISM) which describes accurately low lying
+Since 0νββ and 2νββ share the same initial and final              states of nuclei.
+                                            2ν                      So far the analysis to extract the ξ factors has only
+nuclear states, an accurate prediction of T1/2  and there-
+fore an accurate description of the nuclear structure, is a       been performed by the KamLAND-Zen experiment [18]
+                                                                  which established an upper bound on ξ3,1 in 136 Xe
+                                                                  decays, which is still compatible with both the ISM and
+                                                                  pn-QRPA calculations.
+∗ toby.dixon@ijclab.in2p3.fr
+                                                                    We compute 2νββ NMEs MGT −1 , MGT −3 , and
+                                                                                                                      3
+
+MGT −5 within the proton-neutron quasi-particle               However, background events induced by γ quanta are
+random-phase approximation (pn-QRPA) [19] and                 more likely to deposit energy in multiple crystals. As
+described in more detail in Appendix A 1.             These   such we define the multiplicity (M) of an event as the
+calculations are performed for a range of gA,eff values.      number of LMO detectors with a pulse above the 40
+We compute the phase space factors G0 , G2 , G4 , G22         keV energy threshold within a ±10 ms window. In
+considering Dirac wave functions with finite nuclear size     addition, muon induced events are excluded using a
+and electron screening as in [7].                             dedicated muon veto system [39]. We select β, γ like
+   The experimental signature of 2νββ decay is a              events using the scintillation light signal as described
+continuous spectrum in the summed energies of the             in detail in [34]. We also remove events with a trigger
+electrons. Differentiation of the signal from background      in one LD with high 60 Co contamination as described
+is more challenging than for 0νββ decay: the decay rate       in [35, 36]. Multiplicity one γ/β (M1,γ /β) events are
+must be extracted from a fit to the full spectrum using       used to extract the signal rates while M2 are used to
+detailed simulations of the various contributions to the      constrain the γ background. We also extract the spectra
+experimental background (see for example [20–23]).            at high energy without any α rejection, this dataset
+   Therefore a very low background is imperative to           (M1,α ) is used to constrain the radioactivity of the
+make a precise measurement. Scintillating cryogenic           LMO crystals and other nearby components.
+calorimeters provide a technique to reach very low back-         The energy resolution and bias in the energy scale are
+ground rates [24–26]. In particular, a scintillation light    measured using γ lines. The efficiency of all selection
+signal in coincidence with a heat signal in the calorimeter   cuts has been estimated as 88.9 ± 1.1 % for M1,γ/β
+can be used to remove α particle backgrounds [26–29].         [34, 36]. No evidence of energy dependence was found,
+   In this letter we describe a measurement of the            over the range of the fit, and our cuts are normalized to
+2νββ decay rate and spectral shape of 100 Mo using            have an energy-independent efficiency.
+the CUPID-Mo experiment, a demonstrator for the                  To extract the rate of 2νββ decay we construct
+next-generation 0νββ decay experiment CUPID [30].             a model of the data described in detail in [36]. We
+A detailed description of the experiment can be found         simulate using GEANT4 [40] the 2νββ signal, using
+in [31]. It consisted of an array of 20 lithium molyb-        both the SSD and HSD models parameterised from [7]
+date (LMO) cryogenic calorimeters, enriched in 100 Mo         and the contributions to the improved 2νββ model from
+(96.6 ± 0.2 % isotope abundance) each of around 200 g         Eq. 3 [16]. We also simulate radioactive contaminations
+mass. In addition, 20 germanium light detectors (LD),         in the various components of the experimental setup.
+also operated as cryogenic calorimeters, were employed        These simulations are then convolved with a detector
+to readout the scintillation light signal used for particle   response model consisting of the energy resolution of
+identification to remove the α particle background.           the detectors, energy threshold, coincidences, and dead
+An individual module of CUPID-Mo consists of an               times of the detectors.
+LMO crystal attached to a copper holder and a Ge                 We use a Bayesian analysis based on JAGS [41, 42] to
+LD. Both the LMO and LD signals are readout using             fit our three experimental spectra (M1,γ/β , M1,α , M2 )
+Neutron Transmutation Doped Germanium thermistors             to a sum of MC simulations. The details of the choices
+(NTD-Ge) [32]. These modules are then arranged into           of the model components are given in [36]. The fit to
+5 towers of four LMOs each and was installed in the           the M1,γ/β spectrum uses a range of 100 − 4000 keV. A
+EDELWEISS cryostat [33] at the Laboratoire Soutterain         variable binning is used so that at minimum 15 keV bins
+de Modane (LSM), France. It collected a total exposure        are used in the continuum region. Each γ or α peak is
+of 1.48 kg × yr of 100 Mo between 2019 and 2020. The          placed in one bin and then bins are combined so at-least
+scintillation light signal allowed a complete rejection       15 events are in each bin, to avoid the systematic effect
+of α particles, while an excellent energy resolution of       of the peak line-shape. We show the M1,γ/β fit in Fig. 1.
+7.7 ± 0.4 keV FWHM was measured at 3034 keV [34].             We call this fit our reference fit: we see that this model
+This performance lead to a limit on 0νββ in 100 Mo of         is able to describe all the features of the experimental
+  0ν
+T1/2  > 1.8 × 1024 yr (90% c.i.) [34].                        data, and that the data is dominated by 2νββ decay
+   For this analysis we use the full data collected by        events. While in [36] the SSD model of 2νββ was used
+CUPID-Mo. A detailed description of the data process-         by default, for this work we instead use the improved
+ing is given in [34] and was also used for [35, 36]. An       2νββ model, and consider SSD as a cross check. By
+optimal filter based analysis chain [37], which maximizes     using the improved model, which allows the spectral
+the signal to noise ratio, is used to select physics events   shape to vary during the fit, we marginalize over the
+and estimate pulse amplitudes. Spurious events, such          theoretical uncertainty in the spectral shape.
+as pileup or spikes induced by electronics, are removed          We study the consistency between our model and data
+using a Principal Component Analysis based pulse shape        using pseudo-experiments. We generate from the best fit
+cut [34, 38], normalized to ensure an energy independent      model a set of 1000 pseudo-experiments, and for each we
+efficiency. Due to the relatively short range of electrons    perform the background model fit and extract − log (L).
+in LMO, both 0νββ and 2νββ to ground states are               The value obtained for the M1,γ/β data is consistent
+likely to deposit energy in just a single LMO detector.       with the expected distribution. In particular, we extract
+                                                                                                                                                4
+
+                      700
+                                                                                       of Th/U radioactivity leading to a higher rate (+0.22%).
+
+
+
+  Counts/keV/kg/yr
+                                                               Data
+                      600
+                                                               Model                   In principle, this uncertainty is already marginalized over
+                                                                                       in our analysis. However, our fit favours far sources of
+                      500
+                                                               2νββ
+                      400                                                              radioactivity, possibly due to some other effects such as
+                                                               Background
+                      300
+                                                                                       pure β decays, so we take a conservative approach consid-
+                                                                                       ering an uncertainty of ±0.83% from the first test. This
+                      200
+                                                                                       is assigned a Gaussian posterior to account for the possi-
+                      100
+                                                                                       bility of even further sources than those included in our
+                        0
+                        4   500   1000   1500   2000   2500    3000     3500    4000   model.
+
+           Residual
+                        3
+                        2
+                        1
+                                                                      Energy [keV]        In our background model we include a source of
+                        0
+                       −1
+                                                                                       90
+                                                                                          Sr+90 Y, consisting of two pure β − decays with Q-
+                       −2
+                       −3
+                       −4
+                                                                                       values 546, 2276 keV and around 60 hrs delay. In partic-
+                            500   1000   1500   2000   2500    3000      3500   4000
+                                                                                       ular, the 90 Y anti-correlates to the 2νββ, in our model
+                                                              Energy [keV]             the activity is constrained as 179+36
+                                                                                                                           −32 µBq/kg. Again this
+                                                                                       uncertainty is in principle marginalized over already in
+FIG. 1. Fit of the M1,γ/β spectrum showing the main contri-                            our analysis. However, since the convergence of this pa-
+butions to the model and the residuals. The model describes                            rameter is driven by events at low energy we repeat the
+well the experimental data and the spectrum above ∼ 500                                fit without the 90 Sr+90 Y contribution. We obtain a half-
+keV is dominated by 2νββ events.                                                       life value +1.0% higher than the reference and we assign
+                                                                                       a uniform posterior between the reference and this fit.
+                                                                                          We next repeat the fit removing any contributions
+TABLE I. Systematic uncertainties in the determination of                              where the smallest 68% interval contains zero activity,
+the 2νββ decay rate and ξ3,1 . All uncertainties are assigned                          which we call the minimal model. In our analysis, all
+either a Gaussian or asymmetric-Gaussian (for asymmetric                               the contributions are assigned non-negative uniform pri-
+uncertainties) posterior distribution with the exception of the                        ors therefore a large number of parameters could bias
+90
+   Sr+90 Y where we assign a uniform distribution.                                     the fit leading to a smaller 2νββ rate. We find a small
+      Systematic test Uncert. T1/2 [%] Uncert. ξ3,1 [%]                                shift of +0.24% in the 2νββ decay rate for this fit. We
+      Source location           0.83             0.9                                   assign a Gaussian posterior distribution with 0.24% un-
+         90
+            Sr+90 Y            +1.0a            −4.9a                                  certainty for this systematic. We also check that our fit
+      Minimal model             0.24             7.7                                   is not biased using our set of pseudo-experiments. The
+          Binning               0.37             1.4                                   distribution of obtained T1/2 is consistent with the fit to
+                               +0.11             +3.5
+        Energy bias            −0.16             −3.7
+                               +0.13             +6.0                                  data.
+      Bremsstrahlung           −0.22             −6.8                                     Next we perform fits varying the energy scale by ∓1
+       MC statistics            0.11             1.4
+         Efficiency              1.2              -                                    keV resulting in a 2νββ decay rate shifted by +0.11 −0.16 %
+    Isotopic abundance           0.2              -                                    which we assign an asymetric-Gaussian posterior.
+a Uniform distribution.                                                                   Our reference fit uses a variable binning described in
+                                                                                       [36]. We repeat the fit using fixed binning of 1, 2, 10,
+                                                                                       20 and 30 keV. The largest effect is for a binning of 2
+                                                                                       keV where the rate is reduced by −0.37%. We take a
+a p-value, or the probability of observing equal or larger
+                                                                                       conservative approach considering a Gaussian posterior
+fluctuations of 0.54.
+                                                                                       with ±0.37% standard deviation.
+   From the background model fit we extract the 2νββ
+                                                                                          To assess the dependence on the accuracy of the MC
+decay rate. We consider systematic uncertainties related                               simulations we generate simulations of 2νββ decay where
+to the number of reconstructed events and the efficiency                               we vary the Bremsstrahlung cross section by ±10%.
+and isotopic abundance conversion factors. We have per-                                These lead to +0.13
+                                                                                                        −0.22 % change in the 2νββ rate, which
+formed a series of tests varying the assumptions of our                                we assign an asymmetric-Gaussian posterior.
+background model to assess the dependence of T1/2 on                                      To account for the statistical uncertainty in the MC
+these choices. For each test a posterior distribution is as-                           simulations we perform a fit adding nuisance parameters
+sumed for the systematic uncertainty based on the change                               to the model as is done in [20]. This leads to a −0.11%
+in the best fit value with respect to our reference fit. We                            smaller 2νββ rate, which we consider a systematic with
+then compute a convolution of these distributions and                                  a Gaussian posterior.
+the posterior distribution from the fit to obtain the pos-                                The final systematic uncertainties are on selection ef-
+terior distribution considering all systematic uncertain-                              ficiency and 100 Mo abundance which are 1.2% and 0.2%
+ties. This can be considered a generalization of adding                                respectively and are assigned Gaussian posteriors. These
+in quadrature to non-Gaussian uncertainties.                                           systematic uncertainties are summarized in Tab. I.
+   First we perform tests to check the dependence of our                                  Computing the convolution of all systematic uncertain-
+results on the γ radioactivity source location. We remove                              ties in Tab. I and converting to the decay rate we com-
+far sources of Th/U radioactivity leading to a slightly                                pute the posterior distributions shown in Fig. 3 for both
+lower 2νββ rate (−0.83%) and then close (10 mK) sources
+                                                                                                                                                                             5
+
+the statistical only uncertainty and the combined uncer-        As mentioned previously an analysis of ξ3,1 and the half-
+tainty. From the central 68% credible interval we extract       life can be used to extract a measurement of gA,eff if
+a measurement of:                                               MGT −3 is known (see Eq. 4). Using the value of MGT −3
+  2ν                                                            from the ISM [43, 44] and our fit we reconstruct:
+ T1/2 = (7.07 ± 0.02 (stat.) ± 0.11 (syst.)) × 1018 yr. (5)
+With a relative uncertainty of ±1.6% this is one the most            gA,eff (ISM) = 1.11 ± 0.03 (stat.) ± 0.05 (syst.).                                                     (8)
+precise determinations of a 2νββ decay half-life. The
+                                                                The statistical uncertainty is obtained by sampling from
+half-life is in agreement with our previous result obtained
+                                                                the Markov chain, therefore combining the uncertainties
+with a much smaller exposure [22] and compatible with
+                                                                on T1/2 and ξ3,1 , the systematic uncertainty is obtained
+one obtained using the SSD 2νββ spectral shape model.
+                                                                from the same tests as previously considered. This is the
+   Next, we extract the values of the shape factors from
+                                                                first measurement of gA,eff from a spectral shape study
+the fit. We find that the parameters ξ3,1 and ξ5,1 are
+                                                                of 2νββ decay.
+strongly anti-correlated (ρ = −0.92 - see more details in
+supplementary material). ξ5,1 /ξ3,1 is poorly constrained
+by our data with a best fit value of 1.6 and a 90% c.i. limit
+of < 40. Within nuclear structure calculations the value
+
+
+
+
+                                                                  Prob. [arb. units]
+                                                                                                                                               Statistical
+                                                                                       712
+of ξ5,1 /ξ3,1 can be calculated reliably since MGT −3 and
+MGT −5 depend on contribution from low lying states.                                                                                           Stat. 68% c.i.
+                                                                                       10
+The value of ξ5,1 /ξ3,1 within pn-QRPA is 0.364 − 0.368                                6                                                       Stat+ Systematic
+depending on gA,eff and the nuclear potential. Within                                      8
+the SSD hypothesis the value is 0.367 [16] and within the                                                                                      Stat. +Syst. 68% c.i.
+
+ISM it is 0.349 [43, 44]. To reduce the degeneracy in our                              56
+model we perform a fit with a Gaussian prior on ξ5,1 /ξ3,1
+with a mean of the SSD prediction and a conservative                                   4
+                                                                                           4
+5% uncertainty.
+   From this fit we extract the value of ξ3,1 to compare to                                2
+theoretical predictions. We consider the same systematic                               3
+                                                                                           0
+uncertainties as for the half-life (also shown in Tab. I).                  A,eff      1.30.2 0.25   0.3   0.35   0.4     0.45   0.5    0.55      0.6        0.65     0.7
+                                                                                                                                                               ξ3,1+ξ5,1
+The largest effects are found to be from the MC Brem-             g                    1.2
+                                                                                       21.1
+stralhlung cross section and the choice of parameters of                                                                                       CD-Bonn
+the model. The posterior distribution of this observable                                  1
+                                                                                       0.9                                                     Argonne V18
+both before and after convolution with the systematics                                  1
+                                                                                       0.8                                                     SSD
+is shown in Fig. 2. From this posterior distribution we                                0.7
+extract a measurement:                                                                 0.6                                                     ISM
+                                                                                       0.5
+        ξ3,1 = 0.45 ± 0.03 (stat.) ± 0.05 (syst.).       (6)                              0.2 0      0.30.2         0.4
+                                                                                                                  0.4             0.6
+                                                                                                                                 0.5              0.8
+                                                                                                                                                 0.6
+                                                                                                                                                         ξ +ξξ
+                                                                                                                                                                     1
+                                                                                                                                                                    0.7
+                                                                                                                                                             3,1   5,1
+                                                                                                                                                                   3,1
+We compare our measurement of ξ3,1 to pn-QRPA theo-
+retical predictions in the lower panel of Fig. 2. Within
+pn-QRPA the gpp parameter (the strength of the particle-        FIG. 2. Posterior distribution of ξ3,1 both with and without
+                                                                convolution with the systematic uncertainties (upper figure).
+particle interaction) is tuned using our measurement of
+                                                                In the lower panel we compare to the pn-QRPA, ISM and
+the half-life. Since the calculated values of ξ3,1 depend on    SSD theoretical values as a function of gA,eff for two potentials
+gA,eff , our measurement of ξ3,1 provides complimentary         (CD-Bonn and Argonne V18 - see supplementary material for
+information on gA,eff . We find the experimental value is       details).
+incompatible (∼ 8σ) with the prediction of the HSD hy-
+pothesis of ξ3,1 = 0, somewhat incompatible with that
+                                                                   In this letter we have reported a measurement of the
+from the ISM (∼ 2.1σ) but mostly compatible with that
+                                                                2νββ decay half-life of 100 Mo. Utilizing excellent back-
+from the SSD hypothesis (∼ 1.4σ) and the pn-QRPA
+                                                                ground rejection an almost background free spectrum is
+predictions if the value of gA,eff is moderately quenched
+                                                                obtained which allows to obtain the most precise ever
+(> 0.8) or unquenched. We encourage computation of
+                                                                measurement of a 2νββ decay rate in this isotope. Spe-
+ξ3,1 and ξ5,1 in additional theoretical frameworks such as
+                                                                cial attention was paid to the systematic uncertainties
+the interacting Boson model [45]. To extract a value for
+                                                                affecting the result, particularly to the source location,
+gA,eff within the pn-QRPA framework, we sample from
+                                                                model choices and MC accuracy.
+the distribution of ξ3,1 from our fit and for each sample we
+                                                                   In addition, we obtained a first of its kind measure-
+extract the corresponding gA,eff values. Assigning equal
+                                                                ment of a novel nuclear structure observable ξ3,1 based
+weights to the CD-Bonn and Argonne V-18 nuclear po-
+                                                                on an improved description of the 2νββ decay process.
+tientals we extract a posterior distribution on gA,eff and
+                                                                The value of this observable is found to be incompatible
+thus we extract a value:
+                                                                with an HSD prediction, mildly incompatible with pre-
+   gA,eff (pn-QRPA) = 1.0 ± 0.1 (stat.) ± 0.2(syst).     (7)    dictions from the ISM, but compatible with pn-QRPA
+                                                                                                                               6
+
+predictions and a moderately quenched or unquenched                ment Agency. Additionally the work is supported by the
+             eff
+value of gA      . Finally, we report two novel measurements       Istituto Nazionale di Fisica Nucleare (INFN), by the US
+of gA,eff , the first of their kind obtained from a spectral       Department of Energy (DOE) Office of Science. This
+shape study of a 2νββ decay.                                       work makes use of the Diana data analysis software and
+   This work has been performed in the framework of                the background model based on JAGS, developed by the
+the CUPID-1 and P2IO LabEx programs, funded by the                 CUORICINO, CUORE, LUCIFER, and CUPID-0 Col-
+Agence Nationale de la Recherche (ANR, France). F.A.               laborations. Russian and Ukrainian scientists have given
+Danevich, V.V. Kobychev, V.I. Tretyak and M.M. Zaryt-              and give crucial contributions to CUPID-Mo. For this
+skyy were supported in part by the National Research               reason, the CUPID-Mo collaboration is particularly sen-
+Foundation of Ukraine. A.S. Barabash, S.I. Konovalov,              sitive to the current situation in Ukraine. The position of
+I.M. Makarov, V.N. Shlegel and V.I. Umatov were sup-               the collaboration leadership on this matter, approved by
+ported by the Russian Science Foundation. J. Kotila is             majority, is expressed at https://cupid-mo.mit.edu/
+supported by Academy of Finland. Fedor Šimkovic was               collaboration#statement . Majority of the work de-
+partly supported by the Slovak Research and Develop-               scribed here was completed before February 24, 2022.
+
+
+
+
+ [1] Y. Fukuda et al. (Super-Kamiokande Collaboration),                 171801 (2021), arXiv:2012.11749 [nucl-ex].
+     Phys. Rev. Lett. 81, 1562 (1998).                             [22] E. Armengaud et al., Eur. Phys. J. C 80, 674 (2020),
+ [2] Q. R. Ahmad et al., Phys. Rev. Lett. 89, 011301 (2002).            arXiv:1912.07272 [nucl-ex].
+ [3] S. Dell’Oro, S. Marcocci, M. Viel, and F. Vissani, Ad-        [23] M. Agostini et al. (GERDA), JHEP 03, 139 (2020).
+     vances in High Energy Physics 2016, 2162659 (2016).           [24] S. Pirro, J. W. Beeman, S. Capelli, M. Pavan, E. Previ-
+ [4] M. Agostini, G. Benato, J. A. Detwiler, J. Menéndez,              tali, and P. Gorla, Phys. Atom. Nucl. 69, 2109 (2006).
+     and F. Vissani, Rev. Mod. Phys. 95, 025002 (2023),            [25] D. Poda, Physics 3, 473 (2021).
+     arXiv:2202.01787 [hep-ex].                                    [26] E. Armengaud et al., Eur. Phys. J. C 77, 785 (2017).
+ [5] M. J. Dolinski, A. W. Poon, and W. Rodejohann, Annu.          [27] L. Cardani et al., JINST 8, P10002 (2013),
+     Rev. Nucl. Part. Sci. 69, 219 (2019).                              arXiv:1307.0134 [physics.ins-det].
+ [6] G. Benato, Eur. Phys. J. C 75, 563 (2015),                    [28] O. Azzolini et al. (CUPID), Eur. Phys. J. C 78, 428
+     arXiv:1510.01089 [hep-ph].                                         (2018), arXiv:1802.06562 [physics.ins-det].
+ [7] J. Kotila and F. Iachello, Phys. Rev. C 85, 034316 (2012),    [29] J. W. Beeman et al. (LUCIFER), Eur. Phys. J. C 75,
+     arXiv:1209.5722 [nucl-th].                                         591 (2015), arXiv:1508.01709 [physics.ins-det].
+ [8] J. Engel and J. Menéndez, Rept. Prog. Phys. 80, 046301       [30] W. R. Armstrong et al. (CUPID),                   (2019),
+     (2017), arXiv:1610.06548 [nucl-th].                                arXiv:1907.09376 [physics.ins-det].
+ [9] J. T. Suhonen, Front. in Phys. 5, 55 (2017),                  [31] E. Armengaud et al., Eur. Phys. J. C 80, 44 (2020),
+     arXiv:1712.01565 [nucl-th].                                        arXiv:1909.02994 [physics.ins-det].
+[10] H. Ejiri, J. Suhonen, and K. Zuber, Physics Reports           [32] E. E. Haller, N. P. Palaio, M. Rodder, W. L. Hansen, and
+     797, 1 (2019).                                                     E. Kreysa, in Neutron Transmutation Doping of Semi-
+[11] G. Martı́nez-Pinedo, A. Poves, E. Caurier, and A. P.               conductor Materials, edited by R. D. Larrabee (Springer
+     Zuker, Phys. Rev. C 53, R2602 (1996), arXiv:nucl-                  US, Boston, MA, 1984) pp. 21–36.
+     th/9603039.                                                   [33] E. Armengaud et al. (EDELWEISS), JINST 12, P08010
+[12] M. Agostini, G. Benato, and J. Detwiler, Phys. Rev. D              (2017), arXiv:1706.01070 [physics.ins-det].
+     96, 053001 (2017), arXiv:1705.02996 [hep-ex].                 [34] C. Augier et al., Eur. Phys. J. C 82, 1033 (2022),
+[13] M. Ettengruber, M. Agostini, A. Caldwell, P. Eller,                arXiv:2202.08716 [nucl-ex].
+     and O. Schulz, Phys. Rev. D 106, 073004 (2022),               [35] C. Augier et al. (CUPID-Mo), Phys. Rev. C 107, 025503
+     arXiv:2208.09954 [hep-ph].                                         (2023), arXiv:2207.09577 [nucl-ex].
+[14] A. Barabash, Universe 6, 159 (2020), arXiv:2009.14451         [36] C. Augier et al. (CUPID-Mo), (2023), arXiv:2305.01402
+     [nucl-ex].                                                         [hep-ex].
+[15] F. Šimkovic, P. Domin, and S. V. Semenov, J. Phys. G         [37] E. Gatti and P. F. Manfredi, Riv. Nuovo Cim. 9N1, 1
+     27, 2233 (2001), arXiv:nucl-th/0006084.                            (1986).
+[16] F. Šimkovic, R. Dvornický, D. Stefánik, and A. Faessler,   [38] R. Huang et al. (CUPID), JINST 16, P03032 (2021),
+     Phys. Rev. C 97, 034315 (2018), arXiv:1804.04227 [nucl-            arXiv:2010.04033 [physics.data-an].
+     th].                                                          [39] B. Schmidt et al. (EDELWEISS), Astropart. Phys. 44,
+[17] O. Niţescu, R. Dvornický, S. Stoica, and F. Šimkovic,           28 (2013), arXiv:1302.7112 [astro-ph.CO].
+     Universe 7, 147 (2021).                                       [40] J. Allison et al., Nuclear Instruments and Methods in
+[18] A. Gando et al. (KamLAND-Zen), Phys. Rev. Lett. 122,               Physics Research A 835, 186 (2016).
+     192501 (2019), arXiv:1901.03871 [hep-ex].                     [41] M. Plummer, 3rd International Workshop on Distributed
+[19] F. Šimkovic, V. Rodin, A. Faessler, and P. Vogel, Phys.           Statistical Computing (DSC 2003) , 124 (2003).
+     Rev. C 87, 045501 (2013), arXiv:1302.1509 [nucl-th].          [42] M. Plummer, JAGS version 3.3.0 user manual (2012).
+[20] O. Azzolini et al. (CUPID), Eur. Phys. J. C 79, 583           [43] L. Coraggio, N. Itaco, G. De Gregorio, A. Gargano,
+     (2019), arXiv:1904.10397 [nucl-ex].                                R. Mancino, and F. Nowacki, Phys. Rev. C 105, 034312
+[21] D. Q. Adams et al. (CUORE), Phys. Rev. Lett. 126,                  (2022), arXiv:2203.01013 [nucl-th].
+                                                                 7
+
+[44] L. Coraggio and G. De Gregorio, Private communication
+     (2023).
+[45] K. Nomura, Phys. Rev. C 105, 044301 (2022),
+     arXiv:2203.13042 [nucl-th].
+[46] F. Šimkovic, L. Pacearescu, and A. Faessler, Nucl. Phys.
+     A 733, 321 (2004), arXiv:nucl-th/0308037.
+                                                                                                                                                                                                                            8
+
+                                                                                                                                        slightly renormalized so that experimental pairing gaps
+                                                                                                                                        are correctly reproduced. The pn-QRPA equations con-
+
+
+
+
+   Probability [arb. units]
+                       1000                                                      Statistical
+                                                                                                                                        tain three renormalization adjustable parameters: gph
+                                                                                                                                                                            T =1       T =0
+                              800                                                Stat. 68% c.i.                                         for the particle-hole interaction, gpp   and gpp    for the
+                                                                                                                                        isovector and isoscalar parts of the particle-particle in-
+                                                                                 Stat+ Systematic                                                                                            T =1
+                              600                                                                                                       teraction. While gph = 1.0 is typically used [19], gpp    is
+                                                                                 Stat. +Syst. 68% c.i.
+                                                                                                                                        fixed by the requirement that the 2νββ Fermi matrix el-
+                                                                                                                                                                                      T =1
+                              400                                                                                                       ement vanishes, as it should. It was found gpp      = 1.008
+
+                              200
+
+
+
+
+                                                                                                                                         Prob. [arb. units]
+                                                                                                                                                              6
+                                                                                                                                                                    ISM
+                                0
+                               0.134    0.136     0.138    0.14     0.142     0.144     0.146 0.148                                                           5
+                                                                                      -1    -18
+                                                                              (T ) [10
+                                                                                1/2
+                                                                                                     yrs]                                                           pn-QRPA
+                                                                                                                                                              4
+
+
+FIG. 3. Posterior distribution on the inverse half-life (T1/2 )−1                                                                                             3
+for 2νββ decay of 100 Mo both for the statistical only uncer-
+tainty and including all systematics.                                                                                                                         2
+
+
+                                                                                                                                                              1
+
+                                 1                                                                       50
+
+
+
+
+                                                                                                              Probaility [arb. units]
+ ξ5,1                          0.9
+                                                                                                                                                              0
+                                                                                                                                                                  0.6    0.7    0.8   0.9   1   1.1   1.2   1.3
+                                                                                                                                                                                                                  g
+                                                                                                                                                                                                                      1.4
+
+                               0.8                                                                       40                                                                                                       A,eff
+                               0.7
+                               0.6                                                                       30                             FIG. 5. Posterior distribution on gA,eff base on the analysis
+                               0.5                                                                                                      within the pn-QRPA and the ISM frameworks. For the pn-
+                               0.4                                                                       20                             QRPA analysis, the posterior features a sharp peak around
+                               0.3                                                                                                      gA,eff ∼ 0.55 due to the non linear relationship between gA,eff
+                               0.2                                                                       10                             and ξ3,1 .
+                               0.1
+                                 0                                                                       0
+                                  0         0.1   0.2     0.3     0.4   0.5    0.6     0.7                                                                                                 T =0
+                                                                                                                                        (0.9330) for Argonne (CD-Bonn) potential. gpp           is ad-
+                                                                                           ξ
+                                                                                               3,1                                      justed so that the half-life of the 2νββ decay of 100 Mo is
+                                                                                                                                        correctly reproduced to the value previously measured for
+FIG. 4. Two-dimensional posterior distribution of ξ3,1 vs ξ5,1 .                                                                                                     eff
+                                                                                                                                        each considered value of gA      . Unlike earlier QRPA cal-
+We observe a clear contribution from higher order terms and                                                                             culations of 2νββ NMEs the Bardeen-Cooper-Schrieffer
+a strong but nonlinear correlation between ξ3,1 and ξ5,1 .                                                                              (BCS) overlap of the initial and final vacua is taken into
+                                                                                                                                                                                                 eff
+                                                                                                                                        account leading to a reduction by factor 0.87 [46]. gA       =
+                                                                                                                                                                                        T =0
+                                                                                                                                        0.8, 1.00 and 1.27 was reproduced with gpp = 0.817
+                                    Appendix A: Supplementary material                                                                  (0.746), 0.837 (0.767) and 0.846 (0.776) for Argonne (CD-
+                                                                                                                                        Bonn) potential, respectively.
+                                       1.     QRPA theoretical predictions
+
+   Our pn-QRPA predictions were obtained considering                                                                                                                    2.     Posterior distributions
+the same large model space (21 subshells of N = 05 os-
+cillator shells) and mean fields as in [19]. The pairing                                                                                   We provide for reference the posterior distribution on
+and residual interactions are derived from the same mod-                                                                                the inverse half-life of 2νββ (in Fig. 3), a two dimensional
+ern realistic nucleon-nucleon potentials, namely, from the                                                                              posterior distributions showing the correlation between
+charge-dependent Bonn potential (CD-Bonn) and the                                                                                       the various observables of the spectral shape ξ3,1 against
+Argonne V18 potential. When solving the BCS pair-                                                                                       ξ5,1 (in Fig. 4) and posterior distributions on gA,eff for
+ing equations the strength of pairing interactions are                                                                                  the analysis within the ISM and pn-QRPA (Fig. 5).
+

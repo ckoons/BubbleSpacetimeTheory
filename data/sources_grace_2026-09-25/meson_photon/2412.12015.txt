@@ -1,0 +1,1539 @@
+                                          EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH
+
+
+
+                                                                                                                                CERN-EP-2024-343
+                                                                                                                                 16 December 2024
+                                                                                                                                                  –
+                                                                                                                                   Revised version:
+                                                                                                                                  25 February 2025
+
+
+
+
+arXiv:2412.12015v2 [hep-ex] 27 Feb 2025
+                                                               Observation of the K + → π + ν ν̄ decay
+                                                              and measurement of its branching ratio
+
+
+                                                                            The NA62 Collaboration ∗
+
+
+
+                                                                                           Abstract
+
+                                              A measurement of the K + → π + ν ν̄ decay by the NA62 experiment at the CERN SPS is
+                                          presented, using data collected in 2021 and 2022. This dataset was recorded, after modifica-
+                                          tions to the beamline and detectors, at a higher instantaneous beam intensity with respect to
+                                          the 2016–2018 data taking. Combining NA62 data collected in 2016–2022, a measurement of
+                                          B(K + → π + ν ν̄) = 13.0+3.3      −11 is reported. With 51 signal candidates observed and an
+                                                                       
+                                                                  −3.0 × 10
+                                                                     +3
+                                          expected background of 18−2 events, B(K + → π + ν ν̄) becomes the smallest branching ratio
+                                          measured with a signal significance above 5 σ.
+
+
+
+
+                                                                             Accepted for publication in JHEP
+
+
+
+
+                                             ∗
+                                             Corresponding authors: F. Brizioli, R. Fiorenza, J. Swallow,
+                                          email: francesco.brizioli@cern.ch, renato.fiorenza@cern.ch, joel.christopher.swallow@cern.ch
+
+
+
+
+                                                                                                1
+Contents
+
+1 Introduction                                    3
+
+2 Beamline and detector                           3
+
+3 Data sample and trigger                         5
+
+4 Selection                                       6
+  4.1 Common selection criteria                   6
+  4.2 Specific signal selection conditions        8
+  4.3 Kinematic regions                           9
+
+5 Signal sensitivity                              9
+  5.1 Acceptances                                10
+  5.2 Random veto efficiency                     10
+  5.3 Trigger efficiencies                       11
+
+6 Background evaluation                          12
+  6.1 Background from main K + decay modes       12
+  6.2 Other K + decay backgrounds                15
+  6.3 Upstream background                        15
+
+7 Results                                        16
+  7.1 Data sample 2021–2022                      16
+  7.2 Combination of data samples 2016–2022      18
+
+8 Conclusions                                    20
+
+
+
+
+                                             2
+1   Introduction
+
+The K + → π + ν ν̄ decay is a golden mode for flavour physics because of a high precision
+Standard Model (SM) description and a high sensitivity to new physics beyond the Stan-
+dard Model (BSM). This decay is a flavour changing neutral current process, short-distance
+dominated, and proceeds at lowest order in the SM through electroweak box and penguin
+diagrams dominated by t-quark exchange. The decay is highly suppressed due to the GIM
+mechanism and the CKM suppression of the t → d quark transition. Using tree-level measure-
+ments of the CKM matrix elements as external inputs, the SM branching ratio is predicted
+to be B(K + → π + ν ν̄) = (8.4 ± 1.0) × 10−11 [1], while using only meson mixing processes
+to eliminate the strong dependence on |Vcb |, the predicted branching ratio is found to be
+(8.60 ± 0.42) × 10−11 [2]. Using a full CKM parameter fit, a value of (7.86 ± 0.61) × 10−11
+is predicted [3]. The precision is limited by the CKM parametric uncertainties coupled with
+the intrinsic theoretical uncertainty of approximately 3%. The latter arises from QCD cor-
+rections to the top (charm) quark contribution at NLO (NNLO) [4, 5], NLO electroweak
+corrections [6], and the hadronic matrix element for the K → π transition extracted from
+K + → π 0 e+ ν decay measurements [6–8].
+      The K + → π + ν ν̄ decay is sensitive to a variety of BSM effects, probing new physics
+at mass scales up to O(100 TeV) [1]. Several BSM scenarios predict significant deviations
+of the branching ratio from the SM prediction, as well as correlations with other flavour
+observables and the corresponding decay mode of the neutral kaon KL → π 0 ν ν̄ [9–21]. A
+model-independent relationship between the branching ratios of the two decay modes is pro-
+vided by the Grossman-Nir bound [22, 23]: B(KL → π 0 ν ν̄) ≲ 4.3·B(K + → π + ν ν̄). The direct
+upper limit of B(KL → π 0 ν ν̄) < 2.2 × 10−9 at 90% CL [24], set by the KOTO experiment, is
+two orders of magnitude above the SM predictions [2, 3].
+      The first K + → π + ν ν̄ branching ratio measurement was provided by the E787 and E949
+experiments at BNL, using kaon decays at rest: B(K + → π + ν ν̄) = (17.3+11.5  −10.5 ) × 10
+                                                                                           −11 [25].
+
+The NA62 experiment at CERN was designed to study the K + → π + ν ν̄ decay with a decay-
+in-flight technique using a high-intensity secondary hadron beam. The 2016–2018 dataset
+collected by NA62 produced the first evidence for this decay with a significance of 3.4 σ,
+measuring B(K + → π + ν ν̄) = (10.6+4.1−3.5 ) × 10
+                                                  −11 [26]. In the following, the branching ratio
+
+measurement using the data collected in 2021–2022 is presented as well as the combined result
+including 2016–2018 data.
+
+2   Beamline and detector
+
+A description of the NA62 beamline and detector is presented in [27]. The upgraded setup
+used from 2021 onwards is displayed in figure 1. An unseparated secondary beam of 70% π + ,
+23% protons and 6% K + is created by directing 400 GeV protons extracted from the CERN
+SPS onto a beryllium target in spills of 4.8 s duration. The target defines the origin of a right-
+handed coordinate system shown in figure 1. The beam central momentum is 75 GeV/c, with
+
+
+
+
+                                                 3
+                                                                              B
+
+
+
+
+Figure 1. Schematic side view of the NA62 detector for data-taking from 2021 onwards. The MUV0
+and HASC detectors are not visible in this view.
+
+
+a momentum spread of 1% (rms). In the 2021–2022 dataset, each spill typically contains
+3 × 1012 protons.
+     Beam kaons are tagged by a differential Cherenkov counter (KTAG) with a 70 ps time
+resolution. The KTAG used N2 gas at 1.75 bar as a radiator medium within a 5 m long
+vessel, and Cherenkov photons are detected by 384 photomultiplier tubes (PMTs) grouped
+in eight sectors. The three-momenta of beam particles are measured by the Gigatracker
+(GTK), a spectrometer formed from four silicon pixel detector stations (with 300 × 300 µm2
+pixels arranged in matrices with dimensions of 27 × 60 mm2 ) and two pairs of dipole magnets
+forming an achromat. The GTK provides track momentum, direction and time resolutions of
+0.15 GeV/c, 16 µrad, and 100 ps, respectively. The GTK0 station was added prior to the 2021
+data-taking to improve tracking performance and pileup rejection. In addition, the GTK2
+station was moved to be upstream of the scraper magnet (SCR) to reduce the background
+from beam interactions. The GTK3 station is preceded by the final collimator (COL), 1.2 m
+thick and made of steel with outer dimensions of 1.7 × 1.8 m2 and a central race-track shaped
+46×76 mm2 bore containing the beam. The collimator absorbs hadrons which are produced in
+upstream K + decays and not contained in the beam pipe. A veto counter (VC) was installed
+in 2021 to detect particles produced in upstream K + decays. The VC consists of three planes
+of 14 cm wide and 1 cm thick horizontal scintillator bars each read out by a PMT at either
+end. Two planes (VC1 and VC2, with a 25 mm = 4.5X0 thick lead plate in between) are
+located immediately upstream of COL, while VC3 is immediately downstream. There are 11
+scintillator bars in VC1 and VC2 (3 above and 8 below the beam pipe) and 10 scintillator
+bars in VC2 (3 above and 7 below the beam pipe); each bar is 4 cm high except those adjacent
+to the beam pipe, which are 2 cm high.
+     This arrangement enables basic particle identification: muons traverse all stations, charged
+hadrons are detected in VC1 and VC2, and photons are detected in VC2 after converting in
+the lead plate. Products of inelastic interactions in GTK3 are detected by six stations of
+plastic scintillator bars (CHANTI) read out by silicon photomultipliers (SiPMs). The ANTI0
+
+
+
+
+                                               4
+hodoscope, installed in 2021 and formed of scintillator tiles read out by SiPMs, detects charged
+particles from the upstream region outside of the CHANTI acceptance.
+     The beam is delivered into a vacuum tank evacuated to a pressure of 10−6 mbar, con-
+taining a fiducial volume (FV) defined as the region 105 < Z < 170 m. The probability of
+beam K + decay in the FV is 11.5%. Charged particle momenta are measured with a resolu-
+tion σp /p = (0.30 ⊕ 0.005 · p)%, with the momentum p expressed in GeV/c, by a magnetic
+spectrometer (STRAW) consisting of four straw chambers and a 0.9 T m dipole magnet (M),
+which bends positively charged particles towards X < 0. A 17 m long ring-imaging Cherenkov
+detector (RICH), filled with neon gas at atmospheric pressure and read out with two arrays of
+PMTs, measures charged particle times with a typical resolution of 70 ps, provides the trigger
+reference time and is used for particle identification. Two scintillator hodoscopes (labelled
+CHOD in figure 1) comprising a matrix of tiles (CHOD) and two planes of slabs (NA48-
+CHOD), both arranged in four quadrants, provide trigger signals and time measurements
+with 1 ns and 200 ps precision, respectively.
+     A set of photon veto detectors is designed to provide hermetic coverage of polar angles
+up to 50 mrad from the beam axis, for photons emitted, for instance, in the decay chain
+K + → π + π 0 , π 0 → γγ. Twelve large-angle veto (LAV) stations, ring-shaped electromagnetic
+calorimeters made of lead-glass blocks read out with PMTs, are arranged from Z = 121
+to 238 m to detect photons emitted at 8.5–50 mrad. A 27 radiation-length thick, quasi-
+homogeneous liquid krypton electromagnetic calorimeter (LKr) detects photons emitted at
+angles from 1 to 8.5 mrad. The LKr is also used for particle identification, with energy
+                          √
+resolution σE /E = (4.8/ E ⊕ 11/E ⊕ 0.9)% with E expressed in GeV, spatial resolution of
+1 mm, and time resolution between 0.5 and 1 ns, depending on the energy deposited. The
+intermediate-ring (IRC) and small-angle (SAC) lead/scintillator shashlik calorimeters are
+designed to detect photons emitted down to zero degrees in the forward direction. The IRC
+is located in front of the LKr, covering an annular region between 65 and 135 mm from the
+Z axis. The SAC is located on-axis after a dipole magnet (B) which bends undecayed beam
+particles towards X < 0 and into a beam dump.
+     Additional pion/muon discrimination capability is provided by two hadronic sampling
+calorimeters (MUV1,2) made from alternating layers of iron plates and scintillator strips, and
+an array of scintillator tiles (MUV3) with 400 ps time resolution, located behind an 80 cm
+iron wall. Other veto detectors (MUV0 and HASC, located immediately downstream of the
+RICH and upstream of the SAC, respectively) provide additional background rejection. A
+HASC station located at X < 0 was augmented in 2021 by a second station at X > 0 to
+enhance rejection capabilities.
+
+3   Data sample and trigger
+
+The 2016, 2017 and 2018 data were collected with mean instantaneous intensities of 240, 330
+and 400 MHz, respectively, as measured by counting out-of-time GTK signals. The 2021 and
+2022 data, used for this analysis, were collected at the design mean intensity of 580 MHz. Data
+collected during the first second of the spill in 2021 are removed because of the systematic
+
+
+
+
+                                               5
+                       Table 1. Summary of trigger lines and trigger conditions.
+
+    Conditions   Requirements                                                     MB   NORM   PNN
+                                                     L0
+          RICH   at least two signals in RICH                                     ✓     ✓     ✓
+            Q1   at least one signal in the CHOD                                  ✓     ✓     ✓
+          MUV3   no signals in MUV3                                                     ✓     ✓
+          UTMC   fewer than five signals in the CHOD                                          ✓
+            QX   no signals in diagonally-opposite CHOD quadrants                             ✓
+         LKr40    total < 40 GeV and fewer than two LKr clusters with E > 5 GeV
+                 ELKr                                                                         ✓
+                                                     L1
+          KTAG   signals in at least five KTAG sectors                                  ✓     ✓
+    STRAW-1TRK   at least one positively charged STRAW track with p < 65 GeV/c          ✓     ✓
+         STRAW   isolated p < 65 GeV/c STRAW track in geometric acceptance                    ✓
+           LAV   fewer than two signals in LAV2–11                                            ✓
+
+
+presence of spikes in instantaneous intensity, up to 10 GHz. In 2022, following improvements
+to the beam delivery systems, good quality data were collected consistently throughout the
+spills.
+     A two-stage trigger system is employed with successive hardware (L0) and software (L1)
+levels. Three trigger lines are used:
+
+      • Minimum Bias (MB), to collect control samples of K + → µ+ ν decays.
+      • Normalisation (NORM), to collect a normalisation sample of K + → π + π 0 decays.
+      • Signal (PNN), to collect signal K + → π + ν ν̄ candidates.
+
+A summary of the trigger conditions is given in table 1 and further details can be found
+in [28]. The RICH provides a reference time; coincidences are required to be within 6.3 ns of
+this reference time. Downscaling factors of DNORM and DMB are applied at L0 to the NORM
+and MB trigger lines, respectively.
+     Monte Carlo simulations of particle interactions with the detector and its response are
+performed using a software package based on the GEANT4 toolkit [29].
+
+4     Selection
+
+The signal selection for K + → π + ν ν̄ decays is applied to the sample collected by the PNN
+trigger line, while the selection for K + → π + π 0 decays, used for normalisation, is applied to
+the sample collected by the NORM trigger line.
+
+4.1     Common selection criteria
+A candidate beam K + is tagged by the KTAG and its momentum is measured by the GTK.
+There must be coincident signals in at least five KTAG sectors, and the GTK momentum
+
+
+
+
+                                                         6
+                  ε(π+ ID)                       P(µ+⇒π+ misID)                                                 ε(π+ ID)                       P(µ+⇒π+ misID)
+              1                                                   ×10−6                                     1
+
+ ε(π+ ID)                                                                                      ε(π+ ID)
+
+
+                                                                          P(µ+⇒π+ misID)                                                                               P(µ+⇒π+ misID)
+                                                                                                                                                                0.12
+        0.95                                                      25                                  0.95
+
+            0.9                                                                                           0.9
+                                                                                                                                                                0.1
+        0.85                                                      20                                  0.85
+
+            0.8                                                                                           0.8                                                   0.08
+                                                                  15
+        0.75                                                                                          0.75
+                                                                                                                                                                0.06
+            0.7                                                                                           0.7
+                                                                  10
+        0.65                                                                                          0.65                                                      0.04
+
+            0.6                                                   5                                       0.6
+                                                                                                                                                                0.02
+        0.55                                                                                          0.55
+
+            0.5                                                   0                                       0.5                                                   0
+                  15         20   25   30   35      40    45                                                    15         20   25   30   35      40    45
+                                            Momentum [GeV/c]                                                                              Momentum [GeV/c]
+Figure 2. Particle identification performance as a function of momentum, using information from
+LKr, MUV1,2 and MUV3 (left), and from RICH (right). The π + identification efficiency is shown as
+blue circles (left vertical axis) and the probability of misidentifiaction of a µ+ as a π + is shown as red
+squares (right vertical axis).
+
+
+measurement must be in the range 72.7–77.2 GeV/c.
+      The momentum of a π + candidate, pπ+ , measured by the STRAW is required to be
+in the range 15–45 GeV/c. The π + candidate is identified using the RICH, LKr, MUV1,2
+and MUV3 information; the RICH additionally provides a time measurement with a 100 ps
+time resolution. A boosted decision tree (BDT) classifier uses calorimeter (LKr, MUV1,2)
+information for particle identification (PID) information. No signals in MUV3 should be
+associated to the π + candidate. The PID performance, quantified by the π + identification
+efficiency ε(π + ID) and the probability of misidentifying a µ+ as a π + , P(µ+ ⇒ π + misID),
+is shown in figure 2 as a function of momentum. The PID criteria are optimised in each
+momentum bin, leading to a non-monotonic variation. Signals in the CHOD and NA48-
+CHOD associated with the π + candidate provide an additional time measurement.
+      The candidate π + is matched to a candidate beam K + using spatial and time informa-
+tion. By extrapolating the K + and π + trajectories from the GTK and STRAW, a vertex
+is defined as the mid-point of the closest distance of approach (CDA) segment between the
+two extrapolated tracks. The CDA must be less than 4 mm and the longitudinal position of
+the vertex must be inside the FV. The KTAG, GTK and RICH times must all agree within
+500 ps, while the NA48-CHOD and GTK times must agree within 1.1 ns. Finally, a Bayesian
+discriminant is used to match the candidate π + to the K + . This discriminant uses: a proba-
+bility density function of the CDA; a probability density function of ∆Tmatch , proportional to
+the difference between the time of the GTK track and the average of the KTAG and RICH
+times; a prior based on NGTK , the number of GTK tracks within 3 ns of the average of the
+RICH and KTAG times. If NGTK > 1, the likelihood values are used to select the best match
+and reject events with overlapping GTK tracks. The squared missing mass is evaluated as
+m2miss = (PK − Pπ )2 , where PK and Pπ are the 4-momenta of the K + and π + candidates. No
+in-time STRAW tracks forming a vertex with the π + candidate are allowed.
+      A set of veto conditions is applied against interactions and decays upstream of the FV.
+
+
+
+
+                                                                                           7
+π0 rejection inefficiency,η 0
+                                                                               m2miss = (P − Pπ)2 [GeV2/c4]
+                  π                                                                                           0.12                                    Signal regions
+                                −7
+                            10                                                                                 0.1                                    Control regions
+                                                                                                                                     K3πR
+                                                                                                              0.08                                    Background regions
+                                                                                                                      CR3pi
+                                                                                                   K          0.06
+
+                                                                                                              0.04
+                                                                                                                                 (CR3D)          R2
+                            10−8                                                                                          CR2
+                                                                                                              0.02
+                                                                                                                          CR1
+                                                                                                                                     K2πR
+                                                                                                                0
+                                                                                                                                 (CR3D)    R1            CRmu3
+                                                                                                                           CRmu2
+                                                                                                     −0.02            CRmu           Kµ2R
+                                                                                                     −0.04
+                            10−9     15   20   25   30      35   40    45                                            15         20    25    30     35       40          45
+                                                         π+ momentum [GeV/c]                                                                     π+ momentum [GeV/c]
+
+
+Figure 3. Left: π 0 rejection inefficiency as a function of the π + momentum. Right: definitions of
+kinematic regions in the (pπ+ , m2miss ) plane. Region CR3D is the same as the signal region in this
+projection, but contains events outside the 3-dimensional signal regions definition.
+
+
+This includes rejecting GTK track segments and excluding events where π + candidates are
+consistent with originating from inside the beam pipe at GTK3. No VC signals should be
+present within 2 ns of the K + time, except if a muon-like signature is observed with coincident
+signals in all three VC stations. No CHANTI signals should be present within 3 ns of the K +
+or π + times. No ANTI0 signals geometrically compatible with the extrapolated π + candidate
+position should be present within 3 ns of the K + time. In addition, a condition is applied
+based on a BDT classifier, which uses spatial information from the K + and π + candidates,
+trained against interactions and decays upstream of the FV.
+     A set of kinematic and calorimetric conditions to veto K + → µ+ νγ events is described
+in section 6.1.
+
+4.2                              Specific signal selection conditions
+Photon veto criteria are applied to select signal candidates as follows: no signals are allowed in
+the LAV stations downstream of the vertex within 3 ns of the π + time; no signals from the IRC
+or SAC are allowed within 5 ns of the π + time; no energy clusters in the LKr are allowed at a
+distance exceeding 100 mm from the π + candidate impact point within an energy-dependent
+time window (with a width varying between 5 and 10 ns) of the π + time.
+      Multiplicity veto criteria are applied as follows: no additional coincident signals (not
+associated to the π + candidate) are allowed in any two of the CHOD, NA48-CHOD and
+LKr detectors; no MUV0 or HASC signals coincident with the π + candidate are allowed; no
+additional STRAW track segments are allowed which form a vertex with the π + candidate.
+      The π 0 rejection inefficiency, defined as the probability that a normalisation K + →
+π + π 0 decay is not rejected by the photon or multiplicity veto criteria, depends on the π +
+momentum, as shown in figure 3-left; on average it is measured to be ηπ0 = (1.72±0.07)×10−8 .
+
+
+
+
+                                                                               8
+4.3    Kinematic regions
+Normalisation K + → π + π 0 candidates are selected in the m2miss range 0.010–0.026 GeV2 /c4 ,
+centred at the π 0 mass squared [23], which has a resolution of 0.001 GeV2 /c4 [26].
+     The definitions of the kinematic regions [26, 30] are shown in figure 3-right. In the
+signal selection, two signal regions are defined: R1 with m2miss of 0.000–0.010 GeV2 /c4 and
+pπ+ of 15–35 GeV/c; R2 with m2miss of 0.026–0.068 GeV2 /c4 and pπ+ of 15–45 GeV/c. The
+definition of the signal regions includes additional constraints based on squared missing mass
+observables calculated analogously to m2miss after replacing: the GTK K + momentum with
+the average beam momentum; the STRAW π + momentum with the RICH π + momentum
+(using the RICH as a velocity spectrometer and the π + direction measured by the STRAW).
+     A set of control regions is established (CR1, CR2, CRmu, CRmu2, CRmu3, CR3pi,
+CR3D), located between the signal regions and three background regions, Kµ2 R, K2π R and
+K3π R, which contain K + → µ+ ν, K + → π + π 0 and K + → π + π + π − decays, respectively.
+The control regions are used to validate the background estimates.
+
+5     Signal sensitivity
+
+The effective number of K + decays is evaluated as
+                                       P i      i
+                             (1 − εB ) i Nππ  DNORM  N eff · 400
+                       NK =                         = ππ         ,                                  (5.1)
+                                      Bππ Aππ         Bππ Aππ
+        i is the number of normalisation events selected in spill i, D i
+where Nππ                                                              NORM is the downscaling
+of the NORM trigger line (typically 400), Bππ is the branching ratio of the normalisation
+K + → π + π 0 , π 0 → γγ decay chain [23], and Aππ is the normalisation selection acceptance.
+The quantity εB is the background contamination of the normalisation sample, dominated by
+the K + → π + π 0 , π 0 → e+ e− γ decay chain, and estimated with simulations to be (0.2±0.2)%.
+    The single event sensitivity is the K + → π + ν ν̄ branching ratio which would lead to an
+expectation of a single signal event, and is evaluated as
+                                                        1
+                                     BSES =                          .                              (5.2)
+                                               NK Aπν ν̄ εtrig εRV
+
+Here Aπν ν̄ is the signal selection acceptance; εtrig = εPNN /εNORM is the trigger efficiency ratio
+of the PNN and NORM trigger lines for the signal and normalisation samples, respectively;
+and 1 − εRV is the probability that a signal event is rejected by the veto conditions due to
+the presence of unrelated activity (εRV is referred to as random veto efficiency).
+      The analysis is performed in six 5 GeV/c wide bins of π + momentum in the range 15–
+45 GeV/c. The single event sensitivity is converted to the number of expected SM K + →
+π + ν ν̄ events, assuming a given value for the SM branching ratio Bπν             SM , in a momentum bin
+                                                                                      ν̄
+pi , as
+                                    SM
+                                  Bπν          SM N eff (p ) · 400
+                                              Bπν
+                   SM                  ν̄         ν̄ ππ i
+                 Nπν ν̄ (p i ) =            =                      Aπν ν̄ (pi ) εtrig (pi ) εRV .    (5.3)
+                                 BSES (pi )   Bππ     Aππ (pi )
+
+
+
+
+                                                    9
+                                                                                             SM
+Table 2. Signal sensitivity inputs for the total 2021–2022 data sample. Using equation 5.3, Nπν ν̄ is
+                     SM             −11
+evaluated assuming Bπν ν̄ = 8.4 × 10 .
+
+                 Factor                                                     Value
+         eff
+        Nππ      Effective number of normalisation events           (1.953 ± 0.005) × 108
+        Aππ      Normalisation acceptance                            (13.410 ± 0.005)%
+         NK      Effective number of K + decays                     (2.85 ± 0.01) × 1012
+        Aπν ν̄   Signal acceptance                                     (7.62 ± 0.22)%
+        εtrig    Trigger efficiency ratio                               (85.9 ± 1.4)%
+         εRV     Random veto efficiency                                 (63.2 ± 0.6)%
+        BSES     Single event sensitivity                           (8.48 ± 0.29) × 10−12
+         SM
+        Nπν      Number of expected SM K + → π + ν ν̄ events             9.91 ± 0.34
+            ν̄
+
+
+
+The evaluation of each factor is described in the following and results, summed or averaged
+over momentum bins, are summarised in table 2. The precision of the BSES estimation is
+3.5%, which is a significant improvement with respect to the 2018 analysis. The improvement
+is due to the higher precision of the trigger efficiency and the better εRV evaluation strategy.
+The expected number of SM signal events per SPS spill in 2022 data is 2.5 × 10−5 , to be
+compared to 1.7 × 10−5 in the 2018 data analysis [26].
+
+5.1   Acceptances
+The acceptances are measured using simulated samples without pileup, of SM signal K + →
+π + ν ν̄ and normalisation K + → π + π 0 , π 0 → γγ decays. Results are shown as a function of
+π + momentum in figure 4-left. Systematic uncertainties in Aππ and Aπν ν̄ , associated with the
+simulation of K + –π + matching and particle identification, cancel in the ratio in equation 5.3.
+A relative systematic uncertainty of 2.8% is applied to Aπν ν̄ in each π + momentum bin,
+accounting for the effects that do not cancel in the acceptance ratio, mainly due to the
+photon and multiplicity veto conditions (see section 4.2).
+
+5.2   Random veto efficiency
+The random veto efficiency, εRV , accounts for that part of the selection specific to the signal, as
+the contribution from the normalisation selection cancels in the ratio. The additional activity,
+and hence εRV , is not associated with the π + track and depends only on the instantaneous
+beam intensity, and is therefore independent of pπ+ . A control sample of K + → µ+ ν decays
+is used to measure εRV as the fraction of these single-track events which are rejected due
+to the photon and multiplicity veto conditions described in section 4.2. To avoid bias due
+to additional signals in veto detectors from the µ+ , the random veto efficiency is calculated
+as εRV = εdata    MC          data      MC
+            RV /εRV where εRV and εRV are measured in data and in a simulated sample
+of K + → µ+ ν decays without pileup, respectively. Results are shown in figure 4-right as a
+function of instantaneous beam intensity.
+
+
+
+
+                                                 10
+                                     Normalisation, K+→π+π0             Signal, K+→π+νν
+                                                                                                                           1
+
+
+
+
+ Selection acceptance
+                                                                                           Random veto efficiency, εRV
+                        0.025
+                                                                                                                         0.8
+                         0.02
+                                                                                                                         0.6
+                        0.015
+                                                                                                                         0.4
+                         0.01                                                                                                        IRC+SAC veto
+                                                                                                                                     LAV veto
+                                                                                                                         0.2         LKr veto
+                        0.005                                                                                                        Photon veto
+                                                                                                                                     Photon + multiplicity veto
+
+                           0                                                                                              0
+                                15      20      25       30        35       40      45                                     0   200     400         600            800   1000   1200
+                                                              π momentum [GeV/c]
+                                                               +                                                                               Instantaneous intensity [MHz]
+
+
+Figure 4. Left: selection acceptances, Aππ and Aπν ν̄ , as functions of π + candidate momentum
+displayed as blue squares and red circles, respectively. Right: random veto efficiency as a function of
+the instantaneous beam intensity.
+
+
+5.3                        Trigger efficiencies
+The efficiencies of common trigger conditions cancel in the ratio εtrig . The remaining ineffi-
+ciency, mostly arising from the LKr40 condition at L0 (10%) and the LAV (2.5%) condition
+at L1, is measured using the NORM trigger line, following the procedure described in [30].
+Results of the εtrig measurement are displayed as a function of momentum in figure 5-left.
+The strong dependence of εtrig on the π + candidate momentum arises from the LKr40 con-
+dition, since at larger pπ+ the probability to reach the 40 GeV energy threshold is higher.
+Conversely, the LAV inefficiency is primarily dependent on the instantaneous beam intensity.
+     The accuracy and precision of the trigger efficiency measurements are tested by comparing
+the expected and observed numbers of K + → µ+ ν decays collected by the PNN trigger
+and satisfying the signal selection, without applying RICH PID criteria and selecting the
+K + → µ+ ν background kinematic region (figure 3-right: Kµ2 R). The expected number of
+events is calculated as
+                                     PNN      MB        εPNN
+                                   Nµν    = Nµν    DMB       .                           (5.4)
+                                                        εMB
+Here NµνMB is the number of K + → µ+ ν events collected by the MB trigger and satisfying the
+
+same selection criteria, DMB = 600 is the downscaling factor of the MB trigger, and the last
+term is the ratio of trigger efficiencies for the PNN and MB trigger lines. There are fewer
+common components between the MB and PNN trigger lines than between NORM and PNN,
+meaning the cancellation in this ratio is less significant. Results of the validation are shown
+in figure 5-right. The expected and observed numbers of events are found to be consistent,
+given the uncertainties in the measurements. Therefore, no additional systematic uncertainty
+is applied.
+
+
+
+
+                                                                                          11
+        0.94                                                                          ×103
+εtrig
+
+
+
+                                                             Number of events
+                                                                                                                         Observed
+        0.92                                                                    400
+                                                                                                                         Expected
+
+         0.9                                                                    350
+
+        0.88                                                                    300
+        0.86
+                                                                                250
+        0.84
+                                                                                200
+        0.82
+                                                                                150
+         0.8
+
+        0.78                                                                    100
+               15   20   25   30        35   40   45                                    15   20   25   30     35    40       45
+                                   π momentum [GeV/c]
+                                    +
+                                                                                                            µ+ momentum [GeV/c]
+
+
+Figure 5. Left: trigger efficiency ratio εtrig as a function of the of π + momentum. Right: expected
+and observed numbers of K + → µ+ ν events in trigger efficiency validation samples, as a function of
+the µ+ momentum.
+
+
+6       Background evaluation
+
+Background from K + decays in the FV arises if: (1) the m2miss is (mis)reconstructed to be
+inside the signal regions; (2) a charged track is misidentified as a π + or additional particles
+from the decay are not detected. In addition, there is an ‘upstream background’ due to decays
+and interactions upstream of the FV with misreconstruction or mismatching of the candidate
+π + downstream.
+
+6.1       Background from main K + decay modes
+For the K + → µ+ ν, K + → π + π 0 and K + → π + π + π − decays the numbers of expected
+background events are given by multiplying the number of events satisfying the full signal
+selection in the corresponding background region R = Kµ2 R, K2π R, K3π R by the kinematic
+tail fraction, fkin , defined as the ratio between the number of events in the signal region and
+the number of events in the background region R, evaluated in a dedicated control sample.
+     For K + → π + π 0 decays, the control sample is selected by reconstructing a π 0 → γγ
+decay by detecting exactly two photons in the LKr [30], and applying the conditions of the
+normalisation selection. The m2miss distribution of this control sample is shown in figure 6-left.
+The obtained values of fkin (K + → π + π 0 ) as functions of the π + momentum are shown in
+figure 6-right. The average value is fkin (K + → π + π 0 ) = (1.20 ± 0.01) × 10−3 , and the total
+expected background is Nb (K + → π + π 0 ) = 0.76 ± 0.04. Similarly, the background for each
+control region is estimated using the corresponding fkin values.
+     For K + → µ+ ν decays, the control sample is selected by requiring calorimetric µ+ PID
+criteria are satisfied with a signal present in the MUV3 associated with the track. However,
+the RICH π + PID conditions must also be satisfied to take into account the correlation with
+the signal region definition. The average value is fkin (K + → µ+ ν) = (1.6 ± 0.6) × 10−5 , and
+
+
+
+
+                                                        12
+  Number of events                                                          Kinematic tail fraction, fkin
+                                               All regions
+                     106                       R1, R2
+                                               K2πR
+                     105
+                                               CR1, CR2
+                                                                                                        10−2
+                     104                       CRmu3                                                                      Signal regions (R1+R2)   CR1   CRmu3
+                                               CR3D                                                                       R1                       CR2   CR3D
+                     103
+                                                                                                                          R2
+
+                     102
+
+                      10
+                                                                                                        10−3
+                       1
+
+                     10−1 −0.02   0   0.02   0.04      0.06      0.08                                          15   20   25      30         35     40    45
+                                                    m2miss [GeV2/c4]                                                                    π+ momentum [GeV/c]
+
+
+Figure 6. Left: distribution of m2miss of the kinematic tails data control sample for K + → π + π 0
+decays. The colours show the contributions from the kinematic regions defined in figure 3-right. The
+average value of fkin (K + → π + π 0 ) is calculated as the ratio between the red area and the yellow area
+(and similarly for the control regions). Right: fkin (K + → π + π 0 ) as a function of the π + momentum,
+evaluated for signal regions (red) and for control regions (by exchanging the signal region with the
+corresponding control region).
+
+
+the total expected background is Nb (K + → µ+ ν) = 0.87 ± 0.19. The background from the
+K + → µ+ ν, µ+ → e+ ν ν̄ decay chain is found from simulations to be negligible.
+     For K + → π + π + π − decays, the kinematic tail fraction is evaluated using simulations:
+the average value is fkin (K + → π + π + π − ) = (6±2)×10−6 , and the total expected background
+is Nb (K + → π + π + π − ) = 0.11 ± 0.03.
+     The procedure described above does not fully include the contributions from the respec-
+tive radiative decays, and therefore corrections are applied as described in the following.
+     Because of the veto on photons other than those from π 0 → γγ decays, the K + → π + π 0
+kinematic-tails control sample does not include events where a radiative photon is detected
+in LAV, LKr, IRC or SAC. Independent studies [30] of single photon rejection capabilities
+demonstrate that such radiative decays have an additional factor 30 rejection due to the extra
+photon. A simulation-driven estimation of the kinematic tail fraction of such radiative decays
+leads to an expected background of 0.07 ± 0.01.
+     Radiative K + → µ+ νγ decays are included in the K + → µ+ ν control sample (where
+the same photon veto conditions as in the signal selection are applied) except for the specific
+case in which a high-momentum (p ≳ 35 GeV/c) muon and a photon (with energy Eγ ≳
+5 GeV) overlap in the LKr forming a single energy cluster that may lead to a calorimetric
+misidentification as a π + . This misidentification probability is found to be higher in the
+2021–2022 data than in the previous 2016–2018 analysis, due to a performance degradation
+of the PID at higher intensities (particularly because of the higher occupancy in MUV1,2).
+A significant excess of events in R2 in the 2021–2022 data, relative to the 2016–2018 data,
+was observed at pπ+ > 35 GeV/c. Data control samples and simulations were then used to
+identify and study this additional background to enable a veto to be applied.
+
+
+
+
+                                                                       13
+                                             0.1
+
+
+
+
+  m2miss,µνγ = (P − Pµ − Pγ )2 [GeV2/c4]                                                                              Number of events
+                                                                       R1            R2                       105
+                                                                                                                                   60                                Observed     Expected
+
+                                            0.05                                                                                                                     Kµ2γ         K µ2
+                                                                                                                                   50
+                                                                                                              104                                                    Upstream
+
+                                              0
+                                                                                                                                   40
+                            K
+                                                                                                              103
+                                                                                                                                   30
+                                           −0.05                                                                  2
+                                                                                                              10
+                                                                                                                                   20
+                                            −0.1                                                              10
+                                                                                                                                   10
+
+                                           −0.15                                                              1                          0
+                                                   −0.06 −0.04 −0.02   0    0.02 0.04 0.06 0.08 0.1                                          0.1   0.2   0.3   0.4   0.5    0.6   0.7    0.8
+                                                                              m2miss = (P − Pπ)2 [GeV 2/c4]                                              Calorimetric pion probability
+                                                                                       K
+
+
+
+
+Figure 7. Left: event distribution in the (m2miss , m2miss,µνγ ) plane for a minimum bias data control
+sample with MUV3 associated signals and no calorimetric BDT condition applied. The K + → µ+ νγ
+candidates are clearly visible as a horizontal line around m2miss,µνγ = 0 extending towards high m2miss
+values including R2. Right: K + → µ+ νγ background validation samples, four bins in sidebands of
+the calorimetric BDT pion probability. Expectations include contributions from K + → µ+ νγ (Kµ2γ ),
+K + → µ+ ν (Kµ2 ) and upstream (section 6.3) events.
+
+
+    A squared missing mass variable is used to isolate the K + → µ+ νγ events with µ+ and
+γ overlapping in the LKr:
+                             m2miss,µνγ = (PK − Pµ − Pγ )2 .                         (6.1)
+Here PK is the K + 4-momentum measured by the GTK, Pµ is constructed from the STRAW
+3-momentum measurement and the µ+ mass, and Pγ is the 4-momentum of the photon
+reconstructed using the position and energy ELKr of the LKr cluster (subtracting the nominal
+µ+ MIP energy deposit, 0.6 GeV), and the decay vertex position. A K + → µ+ νγ control
+sample is selected in minimum bias data by applying the K + → µ+ ν kinematic tails selection
+(including a signal in the MUV3) but without applying any calorimetric BDT constraints: its
+distribution in the (m2miss , m2miss,µνγ ) plane is shown in figure 7-left. The K + → µ+ νγ events
+form a peak at m2miss,µνγ = 0 with a measured resolution of 2.3 × 10−3 GeV2 /c4 . Events with
+|m2miss,µνγ | < 0.01 GeV2 /c4 , ELKr > 5 GeV, and not satisfying strict π + RICH PID criteria
+are rejected in the signal and normalisation selection. This leads to a suppression of the
+background by a factor of 20 with a 0.4% relative loss in signal acceptance.
+     Using the K + → µ+ νγ control sample, the expected background from the process de-
+scribed above is calculated as
+                                                                                                                      εPNN
+                                                                Nb (K + → µ+ νγ) = Nµνγ
+                                                                                    MB
+                                                                                        DMB                                PmisID = 0.82 ± 0.43 ,                                         (6.2)
+                                                                                                                      εMB
+          MB is the number of events in the K + → µ+ νγ control sample with |m2
+where: Nµνγ                                                                        miss,µνγ | <
+         2 4
+0.01 GeV /c ; DMB is the downscaling factor of the MB trigger; εPNN /εMB is the ratio of
+the PNN and MB trigger efficiencies; and PmisID is the probability of misidentifying the LKr
+cluster as one produced by a π + . To confirm this prediction a set of validation samples,
+
+
+
+
+                                                                                                              14
+                                                Expected       Observed                                               Expected   Observed
+
+
+
+
+ Number of events                                                            Number of events
+                                                                                                102
+                     2
+                    10
+
+
+                                                                                                10
+                    10
+
+
+
+                                                                                                  1
+                     1
+
+                          CR1   CR2   CRmu   CRmu2 CRmu3    CR3pi   CR3D                              SR V1 V2 V3 V4 V5 V6 V7 V8 V9 V10
+                                                           Control Region                                                   Upstream sample
+
+
+Figure 8. Left: expected and observed numbers of events in the control regions shown in figure 3-
+right. The global p-value of the comparison is 0.80, the lowest single-region p-value is 0.24. Right:
+expected and observed numbers of events in the upstream validation samples. The first bin is the
+signal region and therefore only the expectation is displayed. The global p-value is 0.97, the lowest
+single-sample p-value is 0.14.
+
+
+dominated by K + → µ+ νγ decays, is used. These are obtained by applying the signal
+selection to PNN trigger line data except for the K + → µ+ νγ veto criteria and selecting
+sidebands in the calorimetric BDT pion probability (figure 7-right).
+     Background estimates for the main kaon decay modes in the FV are validated using the
+control regions defined in the (pπ+ , m2miss ) plane, such that they are primarily populated by
+the relevant kaon decays (figure 3-right). Results are shown in figure 8-left.
+
+6.2                      Other K + decay backgrounds
+For other backgrounds from K + decays in the FV there are no clean control samples in data,
+therefore simulations are used to evaluate background expectations. The primary background
+of this type is from K + → π + π − e+ ν decays. From a sample of 2 × 109 simulated events, the
+overall acceptance is Aππeν = (1.3 ± 0.3) × 10−8 and the background expectation is
+
+                         Nb (K + → π + π − e+ ν) = NK εRV εtrig B(K + → π + π − e+ ν) Aππeν = 0.89+0.33
+                                                                                                  −0.27 .                                   (6.3)
+
+The asymmetry in the uncertainty arises from the small numbers of simulated K + → π + π − e+ ν
+events that satisfy the signal selection in individual π + momentum bins.
+    Other K + decay backgrounds are found to be negligible. The largest of these is from
+K + → π + γγ decays, estimated to be 0.01 ± 0.01. The next largest is from K + → π 0 ℓ+ ν
+decays, estimated to be less than 10−3 .
+
+6.3                      Upstream background
+Upstream background events populate the signal region if a decay or beam interaction up-
+stream of the FV produces a π + which is detected downstream, and a fake vertex is re-
+
+
+
+
+                                                                            15
+constructed in the FV. This constitutes the largest background, and is estimated with a
+data-driven strategy.
+     An upstream reference sample (URS) is selected by applying the full signal selection
+except for the K + –π + matching criteria and requiring CDA > 4 mm. The URS contains
+NURS = 51 events from all types of upstream background. A factor fCDA is used to extrap-
+olate the CDA distribution of the URS (figure 9-left) to the signal region (CDA < 4 mm).
+Assuming that the distribution is flat for CDA < 12 mm (validated within uncertainties in
+alternative samples) leads to fCDA = 0.20 ± 0.03. The probability of an event satisfying
+the K + –π + matching criteria based on the Bayesian discriminant described in section 4.1,
+Pmatch (∆Tmatch , NGTK ), is measured using K + → π + π 0 normalisation data events, weighted
+to produce a flat CDA distribution between 0 and 4 mm. Results are given in figure 9-right.
+Finally, the upstream background expectation is evaluated as
+                                            X
+                      Nb (Upstream) = fCDA      NiURS Pimatch = 7.4+2.1
+                                                                   −1.8 ,                (6.4)
+                                               i
+
+where the sum runs over the 2-dimensional (∆Tmatch , NGTK ) bins shown in figure 9-right.
+The average matching probability, given the distribution of URS events, is 73%. The uncer-
+tainty quoted is primarily statistical, with a sub-leading systematic contribution due to the
+assumption of flatness of the CDA distribution.
+     The upstream background estimate is validated using a set of samples, defined by loos-
+ening and inverting individual upstream veto conditions to enhance certain mechanisms re-
+sponsible for particular upstream backgrounds. Interaction-enriched samples V1 and V7 are
+defined by selecting events with π + pointing to the candidate K + position at the GTK3 and
+events with signals in the CHANTI, respectively. Accidental-enriched samples V3, V5 and
+V9 are defined by inverting GTK pileup rejection, VC conditions and upstream BDT criteria,
+respectively. The samples V1, V3, V5, V7 and V9 require events to be in the kinematic signal
+regions; samples V2, V4, V6, V8 and V10 are defined similarly except selecting the kinematic
+region m2miss < −0.05 GeV2 /c4 , which does not include well-reconstructed K + decays in the
+FV. Results of the validation are shown in figure 8-right. All these samples are statistically
+independent, and the good agreement across them validates the background evaluation pro-
+cedure. The VC is essential to control the upstream background, reducing the background
+expectation by a factor of 2. Removing the VC conditions from the signal selection leads to
+9 additional observed events, in agreement with the prediction of 6.9 ± 1.4.
+     A summary of the background expectations is given in table 3.
+
+7     Results
+
+7.1    Data sample 2021–2022
+Figure 10-left shows the distribution of the observed data events satisfying the signal selection
+criteria in the (pπ+ , m2miss ) plane. In total, 6 events are observed in R1 and 25 in R2. The
+m2miss projection including the background spectra and SM signal expectation is shown in
+figure 10-right.
+
+
+
+
+                                               16
+                                                                                                                              1
+
+
+
+
+Number of events
+                                                                                                                                    Pmatch
+                                                                            25
+                   14                                                NGTK
+                                                                                                                              0.9
+                   12                                                       20                                                0.8
+                                                                                                                              0.7
+                   10
+                                                                            15                                                0.6
+                   8
+                                                                                                                              0.5
+                   6                                                        10                                                0.4
+                                                                                                                              0.3
+                   4
+                                                                             5                                                0.2
+                   2
+                                                                                                                              0.1
+                   0                                                                                                          0
+                    0      10      20      30        40      50              0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5
+                                                        CDA [mm]                                            |∆Tmatch| [ns]
+
+
+Figure 9. Left: distribution of the CDA variable for events in the upstream reference sample (URS).
+Right: matching probability Pmatch measured in the K + → π + π 0 normalisation sample in bins of
+∆Tmatch and NGTK .
+
+
+      Table 3. Background expectations for 2021–2022 data, summed over the six π + momentum bins.
+
+                                                Background                  Events
+                                                K + → π + π 0 (γ)           0.83 ± 0.05
+                                                K + → µ+ ν(γ)               1.70 ± 0.47
+                                                K + → π+π+π−                0.11 ± 0.03
+                                                K + → π + π − e+ ν          0.89+0.33
+                                                                                −0.27
+                                                K + → π + γγ                0.01 ± 0.01
+                                                K + → π 0 ℓ+ ν              < 0.001
+                                                Upstream                    7.4+2.1
+                                                                               −1.8
+                                                Total                   11.0+2.1
+                                                                            −1.9
+
+
+
+                    The branching ratio measurement is performed using a profile likelihood ratio test statistic
+                                                                           !
+                                                                       ˆ
+                                                                 L(θ; ν̂)
+                                             q(θ|n; ν) = −2 ln               ,                            (7.1)
+                                                                 L(θ̂; ν̂)
+                    SM (signal strength) is the parameter of interest and the nuisance pa-
+where θ = Bπν ν̄ /Bπν ν̄
+rameters ν take into account the uncertainties in the signal and background expectations.
+The analysis is performed using Ncat categories, considered independent. The likelihood
+function L(θ; ν) takes into account the Poissonian fluctuations of the observed counts, the
+Gaussian uncertainty of the signal expectation, and the asymmetric uncertainty of the back-
+ground estimate. The best fit value of θ is at the minimum of the function q(θ), with the
+one standard deviation range (68% confidence interval) defined by q(θ) < 1. The statisti-
+cal uncertainty is evaluated by performing a similar procedure but assuming that the sig-
+nal and background expectations are known exactly, and therefore using as a test statistic
+
+
+
+
+                                                                   17
+                     0.12
+
+
+
+
+                                                                           Events / (0.0020 GeV 2/c4)
+  m2miss [GeV2/c4]
+                                                                                                                                                 SM
+                                                                                                                                       Data    Kπ ν ν
+                                                                                                        104
+                      0.1                                                                                                              K2π     K µ2
+                                                                                                          3                            Kµ2γ    K3π
+                     0.08                                                                               10
+                                                                                                                                       Ke4     Upstream
+                     0.06
+                                                                                                        102                            Total background
+
+                     0.04                                                                                                  R1                 R2
+                     0.02                                                                                10
+
+                       0
+                                                                                                          1
+                −0.02
+                                                                                                        10−1
+                −0.04
+
+                −0.06                                                                                        −0.04 −0.02   0    0.02    0.04       0.06    0.08     0.1
+                            15   20   25   30     35     40     45
+                                                π+ momentum [GeV/c]                                                                                       m2miss [GeV 2/c4]
+
+
+Figure 10. Left: distribution of the observed data events satisfying the signal selection criteria in
+the (pπ+ , m2miss ) plane. Events in the background, control and signal regions are shown by small grey,
+small black and large black markers, respectively. Right: m2miss projection including SM signal [1]
+                              −11
+(assuming Bπν SM
+                ν̄ = 8.4 × 10     ) and background expectations from K + → π + π 0 (K2π ), K + → µ+ ν
+(Kµ2 ), K → µ νγ (Kµ2γ ), K + → π + π + π − (K3π ), K + → π + π − e+ ν (Ke4 ) and upstream. The total
+           +       +
+
+expected background and its uncertainty is shown by the black line and hatched bars, respectively. In
+the signal region R1, events in the momentum range 35–45 GeV/c are excluded.
+
+
+q ′ (θ) = −2 ln (L′ (θ)/L′ (θ̂)), where L′ is the likelihood function in the hypothesis of inde-
+pendent Poisson distributed observations [23]. The systematic uncertainty is derived as the
+contribution to be added in quadrature with the statistical uncertainty to reach the total
+uncertainty.
+       The analysis of 2021–2022 data is performed using Ncat = 6, corresponding to the six π +
+momentum bins defined above. The test statistic is displayed as a function of the branching
+ratio in figure 11-left. The resulting measurement of the branching ratio is
+                                                                         
+                                                                               −11
+                   B2021−2022 (K + → π + ν ν̄) = 16.2 +4.9       +1.4
+                                                       −4.3 stat −1.4 syst × 10
+                                                                                           (7.2)
+                                                                  −11
+                                               = 16.2+5.1
+                                                           
+                                                      −4.5   × 10     .
+The comparison between the numbers of events observed and expected in each category is
+shown in figure 11-right, where the expectations are based on the measured value of the
+                                                       ′ /ndf = 1.1/5, where q ′
+branching ratio. The goodness of fit is quantified by qmin                       min is the
+                   ′
+minimum value of q (θ), and ndf = (Ncat − 1) is the number of degrees of freedom.
+
+7.2                    Combination of data samples 2016–2022
+The six categories of the 2021–2022 data have been combined with the nine categories span-
+ning the 2016–2018 data [26, 30, 31] for a more precise measurement of the branching ratio.
+The numbers of observed and expected SM signal and background events for each category
+are summarised in table 4.
+     The combined branching ratio measurement is obtained using the procedure described
+in section 7.1. The resulting test statistic as a function of the branching ratio is shown in
+
+
+
+
+                                                                      18
+                                                10
+                                                                                                3σ                                                               Nobs    Nexp(s(θ)+b)   Nexp(b)
+
+
+
+
+ Test statistic, q(θ) = -2ln( L(θ,ν)/L(θ,ν) )
+                                                                                                              Number of events
+                                                9                                                                                10
+                                                8
+                                                                      SM [JHEP 09 (2022) 148]                                     8
+                                                7
+                                                                      SM [EPJC 82 (2022) 615]
+                                                6                     NA62: 2021-2022
+                                                                                                                                  6
+                                                5
+                                                                                                2σ
+                                                4
+                                                                                                                                  4
+                                                3
+                                                2
+                                                                                                1σ                                2
+                                                 1
+                                                0                                                                                 0 15-20
+                                                 0        5   10     15       20        25      30      35                                     20-25     25-30   30-35      35-40       40-45
+                                                                                    B(K+→π+νν) × 1011                                      Category ( π+ momentum range [GeV/c])
+
+Figure 11. Left: test statistic q as a function of the K + → π + ν ν̄ branching ratio for 2021–2022
+data. Right: numbers of expected and observed events in the six categories used for the statistical
+analysis of 2021–2022 data. The background expectation is shown in blue, while the signal (using the
+measured value of the branching ratio) plus background expectation is shown in green.
+
+
+Table 4. Inputs to the statistical combination of the 2016–2022 data: analysis category, data sample,
+π + momentum range, numbers of observed and expected SM signal and background events. Results
+from the 2016 [31], 2017 [30] and 2018 [26] data are combined with those from the present 2021–2022
+                                     SM                          SM              −11
+data analysis. Using equation 5.3, Nπν ν̄ is evaluated assuming Bπν ν̄ = 8.4 × 10    .
+
+                                                Category           Sample          pπ+ range (GeV/c)                                  Nobs              SM
+                                                                                                                                                       Nπν                    Nb
+                                                                                                                                                           ν̄
+                                                     1              2016                        15–35                                  1       0.267 ± 0.020            0.152+0.093
+                                                                                                                                                                             −0.035
+                                                     2              2017                        15–35                                  2        2.16 ± 0.13             1.46 ± 0.33
+                                                     3             2018 S1                      15–45                                  2        1.56 ± 0.10              1.11+0.40
+                                                                                                                                                                             −0.22
+                                                     4                                          15–20                                  1        0.56 ± 0.04              1.14+0.78
+                                                                                                                                                                             −0.30
+                                                     5                                          20–25                                  4        1.43 ± 0.09              1.02+0.67
+                                                                                                                                                                             −0.28
+                                                     6                                          25–30                                  2        1.53 ± 0.10              0.41+0.32
+                                                                                                                                                                             −0.10
+                                                                   2018 S2
+                                                     7                                          30–35                                  6        1.32 ± 0.09              1.09+0.52
+                                                                                                                                                                             −0.30
+                                                     8                                          35–40                                  1        0.69 ± 0.04              0.29+0.31
+                                                                                                                                                                             −0.10
+                                                     9                                          40–45                                  1        0.48 ± 0.03              0.35+0.41
+                                                                                                                                                                             −0.12
+                                                     10                                         15–20                                  4        1.20 ± 0.04              1.12+0.46
+                                                                                                                                                                             −0.34
+                                                     11                                         20–25                                  6        2.21 ± 0.07              2.23+0.90
+                                                                                                                                                                             −0.71
+                                                     12                                         25–30                                  6        2.41 ± 0.07              1.32+0.68
+                                                                                                                                                                             −0.51
+                                                              2021–2022
+                                                     13                                         30–35                                  6        2.03 ± 0.06              2.26+0.81
+                                                                                                                                                                             −0.64
+                                                     14                                         35–40                                  3        1.26 ± 0.04              1.51+0.59
+                                                                                                                                                                             −0.46
+                                                     15                                         40–45                                  6        0.80 ± 0.03              2.63+0.86
+                                                                                                                                                                             −0.69
+
+
+
+figure 12-left. The comparison of expectation (based on the measured branching ratio value)
+                                                                             ′ /ndf = 8.0/14.
+and observations across the 15 categories is shown in figure 12-right, with qmin
+
+
+
+
+                                                                                                             19
+                                                   10
+                                                                                           3σ                                                               Nobs   Nexp(s(θ)+b)   Nexp(b)
+
+
+
+
+    Test statistic, q(θ) = -2ln( L(θ,ν)/L(θ,ν) )
+                                                                                                      Number of events
+                                                   9                                                                     10
+                                                   8
+                                                                 SM [JHEP 09 (2022) 148]                                  8
+                                                   7
+                                                                 SM [EPJC 82 (2022) 615]
+                                                   6             NA62: 2016-2022
+                                                                                                                          6
+                                                   5
+                                                                                           2σ
+                                                   4
+                                                                                                                          4
+                                                   3
+                                                   2
+                                                                                           1σ                             2
+                                                    1
+                                                   0                                                                      0
+                                                    0   5   10   15      20        25      30   35                            1 2   3   4   5   6   7   8   9 10 11 12 13 14 15
+                                                                               B(K+→π+νν) × 1011                                                                            Category
+
+Figure 12. Left: test statistic q as a function of the K + → π + ν ν̄ branching ratio for 2016–2022 data.
+Right: numbers of expected and observed events in the 15 categories used for the statistical analysis
+of 2016–2022 data (table 4). The background expectation is shown in blue, while the signal (using the
+measured value of the branching ratio) plus background expectation is shown in green.
+
+
+The result is
+                                                                                                                 
+                                                                                                                       −11
+                                                            B2016−2022 (K + → π + ν ν̄) = 13.0 +3.0      +1.3
+                                                                                               −2.7 stat −1.3 syst × 10
+                                                                                                                                                                                       (7.3)
+                                                                                                          −11
+                                                                                        = 13.0+3.3
+                                                                                                   
+                                                                                              −3.0 × 10       .
+
+This result includes an additional systematic uncertainty of 0.5 × 10−11 , which arises from the
+combination of the different datasets, analysed with different strategies, in particular with
+different background estimation procedures.
+     For the full 2016–2022 dataset, with an expectation of 18+3 −2 background events and an
+observation of 51 events, the p-value of the background-only hypothesis is evaluated to be
+2 × 10−7 . Therefore, for the first time, the background-only hypothesis is rejected with a
+significance above 5 σ, which marks the first observation of the K + → π + ν ν̄ decay.
+     The K + → π + ν ν̄ branching ratio measurements and the updated experimental and
+theoretical status are summarised in figure 13.
+
+8                                                  Conclusions
+
+The K + → π + ν ν̄ decay is observed with a significance above 5 σ, and its branching ratio
+is measured to be B(K + → π + ν ν̄) = 13.0+3.3           −11 . As a result, B(K + → π + ν ν̄)
+                                                  
+                                              −3.0 × 10
+becomes the smallest branching ratio measured with a signal significance above 5 σ. The
+relative precision in the branching ratio measurement has been improved from 40% (2016–
+2018) to 25% (2016–2022). The NA62 measurements are self-consistent and compatible with
+the results from the BNL E787 and E949 experiments. The 2016–2022 NA62 measurement
+agrees with the SM predictions within 1.7 σ, with the central value approximately 50% larger
+than the SM expectation. With more data to be analysed, NA62 aims to reach a K + → π + ν ν̄
+branching ratio measurement with a relative precision better than 20%.
+
+
+
+
+                                                                                                     20
+                                                                     10−8
+
+
+                                                        B(KL → π 0ν ν̄)
+                                      BNL
+                                                                            KOTO direct exclusion @ 90% CL
+
+
+                               NA62: 2016-2018                       10−9                                                                      ir   bound
+                                                                                                                                    Grossman-N
+
+
+                               NA62: 2021-2022
+
+                                                                                                             NA62 (2016–2022)
+                                                                   10−10
+                               NA62: 2016-2022
+               SM [JHEP 09 (2022) 148]                                                       SM [EPJC 82 (2022) 615]
+                                                                                           SM [JHEP 09 (2022) 148]
+                   SM [EPJC 82 (2022) 615]
+                                                                   10−11
+    0    5    10    15    20    25   30      35   40                           5.0     7.5    10.0 12.5 15.0 17.5 20.0 22.5 25.0
+                                                                                                                          B(K + → π +ν ν̄) × 1011
+
+
+Figure 13. Left: summary of K + → π + ν ν̄ branching ratio measurements from the BNL E787 and
+E949 experiments [25], and the NA62 experiment using the 2016–2018 [26], 2021–2022 (equation 7.2)
+and 2016–2022 (equation 7.3) data. Statistical and total uncertainties are shown by thinner and thicker
+vertical bars, respectively. These are compared to the two recent SM predictions [2, 3]. Right: global
+status of the K → πν ν̄ decay modes, showing the most stringent B(KL → π 0 ν ν̄) upper limit [24], the
+Grossman-Nir bound [22, 23], the two recent SM predictions [2, 3], and the B(K + → π + ν ν̄) result
+from the combined 2016–2022 NA62 dataset (the 1 σ and 2 σ ranges are displayed in darker and lighter
+shaded areas, respectively).
+
+
+
+
+                                                       21
+Acknowledgements
+
+It is a pleasure to express our appreciation to the staff of the CERN laboratory and the tech-
+nical staff of the participating laboratories and universities for their efforts in the operation
+of the experiment and data processing.
+     The cost of the experiment and its auxiliary systems was supported by the funding agen-
+cies of the Collaboration Institutes. We are particularly indebted to: F.R.S.-FNRS (Fonds de
+la Recherche Scientifique - FNRS), under Grants No. 4.4512.10, 1.B.258.20, Belgium; CECI
+(Consortium des Equipements de Calcul Intensif), funded by the Fonds de la Recherche Sci-
+entifique de Belgique (F.R.S.-FNRS) under Grant No. 2.5020.11 and by the Walloon Region,
+Belgium; NSERC (Natural Sciences and Engineering Research Council), funding SAPPJ-
+2018-0017, Canada; MEYS (Ministry of Education, Youth and Sports) funding LM 2018104,
+Czech Republic; BMBF (Bundesministerium für Bildung und Forschung), Germany; INFN
+(Istituto Nazionale di Fisica Nucleare), Italy; MIUR (Ministero dell’Istruzione, dell’Università
+e della Ricerca), Italy; CONACyT (Consejo Nacional de Ciencia y Tecnologı́a), Mexico; IFA
+(Institute of Atomic Physics) Romanian CERN-RO Nr. 06/03.01.2022 and Nucleus Pro-
+gramme PN 19 06 01 04, Romania; MESRS (Ministry of Education, Science, Research and
+Sport), Slovakia; CERN (European Organization for Nuclear Research), Switzerland; STFC
+(Science and Technology Facilities Council), United Kingdom; NSF (National Science Foun-
+dation) Award Numbers 1506088 and 1806430, U.S.A.; ERC (European Research Council)
+“UniversaLepto” advanced grant 268062, “KaonLepton” starting grant 336581, Europe.
+     Individuals have received support from: Charles University (grants UNCE 24/SCI/016,
+PRIMUS 23/SCI/025), Ministry of Education, Youth and Sports (project FORTE CZ.02.01.01
+/00/22-008/0004632), Czech Republic; Czech Science Foundation (grant 23-06770S); Agence
+Nationale de la Recherche (grant ANR-19-CE31-0009), France; Ministero dell’Istruzione,
+dell’Università e della Ricerca (MIUR “Futuro in ricerca 2012” grant RBFR12JF2Z, Project
+GAP), Italy; the Royal Society (grants UF100308, UF0758946), United Kingdom; STFC
+(Rutherford fellowships ST/J00412X/1, ST/M005798/1), United Kingdom; ERC (grants
+268062, 336581 and starting grant 802836 “AxScale”); EU Horizon 2020 (Marie Sklodowska-
+Curie grants 701386, 754496, 842407, 893101, 101023808).
+
+
+
+
+                                               22
+References
+
+ [1] A.J. Buras, D. Buttazzo, J. Girrbach-Noe and R. Knegjens, K + → π + νν and KL → π 0 νν in
+     the Standard Model: status and perspectives, JHEP 11 (2015) 033 [1503.02693].
+ [2] A.J. Buras and E. Venturini, The exclusive vision of rare K and B decays and of the quark
+     mixing in the standard model, Eur. Phys. J. C 82 (2022) 615 [2203.11960].
+ [3] G. D’Ambrosio, A.M. Iyer, F. Mahmoudi and S. Neshatpour, Anatomy of kaon decays and
+     prospects for lepton flavour universality violation, JHEP 09 (2022) 148 [2206.14748].
+ [4] G. Buchalla and A.J. Buras, The rare decays K → πν ν̄, B → Xν ν̄ and B → l+ l− : An Update,
+     Nucl. Phys. B 548 (1999) 309 [hep-ph/9901288].
+ [5] A.J. Buras, M. Gorbahn, U. Haisch and U. Nierste, The Rare decay K + → π + ν ν̄ at the
+     next-to-next-to-leading order in QCD, Phys. Rev. Lett. 95 (2005) 261805 [hep-ph/0508165].
+ [6] J. Brod, M. Gorbahn and E. Stamou, Two-Loop Electroweak Corrections for the K → πν ν̄
+     Decays, Phys. Rev. D 83 (2011) 034030 [1009.0947].
+ [7] G. Isidori, F. Mescia and C. Smith, Light-quark loops in K + → π + ν ν̄, Nucl. Phys. B 718
+     (2005) 319 [hep-ph/0503107].
+ [8] F. Mescia and C. Smith, Improved estimates of rare K decay matrix-elements from Kl3 decays,
+     Phys. Rev. D 76 (2007) 034017 [0705.2025].
+ [9] C.-H. Chen and T. Nomura, Re(ϵ′K /ϵK ) and K → πν ν̄ in a two-Higgs doublet model, JHEP 08
+     (2018) 145 [1804.06017].
+[10] C. Bobeth and A.J. Buras, Leptoquarks meet ε′ /ε and rare Kaon processes, JHEP 02 (2018)
+     101 [1712.01295].
+[11] C. Bobeth, A.J. Buras, A. Celis and M. Jung, Patterns of Flavour Violation in Models with
+     Vector-Like Quarks, JHEP 04 (2017) 079 [1609.04783].
+[12] M. Endo, T. Kitahara, S. Mishima and K. Yamamoto, Revisiting Kaon Physics in General Z
+     Scenario, Phys. Lett. B 771 (2017) 37 [1612.08839].
+[13] M. Endo, T. Goto, T. Kitahara, S. Mishima, D. Ueda and K. Yamamoto, Gluino-mediated
+     electroweak penguin with flavor-violating trilinear couplings, JHEP 04 (2018) 019 [1712.04959].
+[14] A. Crivellin, G. D’Ambrosio, T. Kitahara and U. Nierste, K → πνν in the MSSM in light of the
+     ϵ′K /ϵK anomaly, Phys. Rev. D 96 (2017) 015023 [1703.05786].
+[15] M. Blanke, A.J. Buras and S. Recksiegel, Quark flavour observables in the Littlest Higgs model
+     with T-parity after LHC Run 1, Eur. Phys. J. C 76 (2016) 182 [1507.06316].
+[16] M. Bordone, D. Buttazzo, G. Isidori and J. Monnard, Probing Lepton Flavour Universality with
+     K → πν ν̄ decays, Eur. Phys. J. C 77 (2017) 618 [1705.10729].
+[17] J. Aebischer, A.J. Buras and J. Kumar, Another SMEFT story: Z ′ facing new results on ϵ′ /ϵ,
+     ∆MK and K → πνν, JHEP 12 (2020) 097 [2006.01138].
+[18] S. Fajfer, J.F. Kamenik, A. Korajac and N. Košnik, Correlating New Physics Effects in
+     Semileptonic ∆C = 1 and ∆S = 1 Processes, JHEP 07 (2023) 029 [2305.13851].
+[19] M. Gorbahn, U. Moldanazarova, K.H. Sieja, E. Stamou and M. Tabet, The anatomy of
+     K + → π + ν ν̄ distributions, Eur. Phys. J. C 84 (2024) 680 [2312.06494].
+
+
+
+
+                                                 23
+[20] F.F. Deppisch, K. Fridell and J. Harz, Constraining lepton number violating interactions in rare
+     kaon decays, JHEP 12 (2020) 186 [2009.04494].
+[21] A.J. Buras, J. Harz and M.A. Mojahed, Disentangling new physics in K → πνν and
+     B → K (K ∗ ) νν observables, JHEP 10 (2024) 087 [2405.06742].
+[22] Y. Grossman and Y. Nir, KL → π 0 ν ν̄ beyond the Standard Model, Phys. Lett. B 398 (1997) 163
+     [hep-ph/9701313].
+[23] Particle Data Group collaboration, Review of particle physics, Phys. Rev. D 110 (2024)
+     030001.
+[24] KOTO collaboration, Search for the KL → π 0 ν ν̄ Decay at the J-PARC KOTO Experiment,
+     2411.11237.
+[25] BNL-E949 collaboration, Study of the decay K + → π + ν ν̄ in the momentum region
+     140 < Pπ < 199 MeV/c, Phys. Rev. D 79 (2009) 092004 [0903.0030].
+[26] NA62 collaboration, Measurement of the very rare K+ → π + νν decay, JHEP 06 (2021) 093
+     [2103.15389].
+[27] NA62 collaboration, The Beam and detector of the NA62 experiment at CERN, JINST 12
+     (2017) P05025 [1703.08501].
+[28] NA62 collaboration, Performance of the NA62 trigger system, JHEP 03 (2023) 122
+     [2208.00897].
+[29] J. Allison et al., Recent developments in Geant4, Nucl. Instrum. Meth. A 835 (2016) 186.
+[30] NA62 collaboration, An investigation of the very rare K + → π + νν decay, JHEP 11 (2020) 042
+     [2007.08218].
+[31] NA62 collaboration, First search for K + → π + ν ν̄ using the decay-in-flight technique, Phys.
+     Lett. B 791 (2019) 156 [1811.08508].
+
+
+
+
+                                                  24
+                              The NA62 Collaboration
+
+
+
+
+Université Catholique de Louvain, Louvain-La-Neuve, Belgium
+E. Cortina Gil , J. Jerhot 1 , N. Lurkin
+
+TRIUMF, Vancouver, British Columbia, Canada
+T. Numao , B. Velghe , V. W. S. Wong
+
+University of British Columbia, Vancouver, British Columbia, Canada
+D. Bryman 2
+
+Charles University, Prague, Czech Republic
+Z. Hives , T. Husek 3 , K. Kampf , M. Kolesar , M. Koval
+
+Aix Marseille University, CNRS/IN2P3, CPPM, Marseille, France
+B. De Martino , M. Perrin-Terrin , L. Petit 4
+
+Max-Planck-Institut für Physik (Werner-Heisenberg-Institut), Garching,
+Germany
+B. Döbrich , S. Lezki , J. Schubert 5
+
+Institut für Physik and PRISMA Cluster of Excellence, Universität Mainz,
+Mainz, Germany
+A. T. Akmete , R. Aliberti 6 , M. Ceoletta 7 , L. Di Lella , N. Doble , L. Peruzzo ,
+C. Polivka , S. Schuchmann , H. Wahl , R. Wanke
+
+Dipartimento di Fisica e Scienze della Terra dell’Università e INFN, Sezione di
+Ferrara, Ferrara, Italy
+P. Dalpiaz, R. Negrello , I. Neri , F. Petrucci , M. Soldani
+
+INFN, Sezione di Ferrara, Ferrara, Italy
+L. Bandiera , N. Canale , A. Cotta Ramusino , A. Gianoli , M. Romagnoni , A. Sytov
+
+Dipartimento di Fisica e Astronomia dell’Università e INFN, Sezione di
+Firenze, Sesto Fiorentino, Italy
+M. Lenti , P. Lo Chiatto , I. Panichi , G. Ruggiero
+
+INFN, Sezione di Firenze, Sesto Fiorentino, Italy
+A. Bizzeti 8 , F. Bucci
+
+
+
+
+                                           25
+Laboratori Nazionali di Frascati, Frascati, Italy
+A. Antonelli , V. Kozhuharov 9 , G. Lanfranchi , S. Martellotti , M. Moulson ,
+T. Spadaro , G. Tinti
+
+Dipartimento di Fisica “Ettore Pancini” e INFN, Sezione di Napoli, Napoli,
+Italy
+F. Ambrosino , M. D’Errico , R. Fiorenza ∗, 10 , M. Francesconi , R. Giordano ,
+P. Massarotti , M. Mirra , M. Napolitano , I. Rosa , G. Saracino
+
+Dipartimento di Fisica e Geologia dell’Università e INFN, Sezione di Perugia,
+Perugia, Italy
+G. Anzivino
+
+INFN, Sezione di Perugia, Perugia, Italy
+P. Cenci , V. Duk , R. Lollini , P. Lubrano , M. Pepe , M. Piccini
+
+Dipartimento di Fisica dell’Università e INFN, Sezione di Pisa, Pisa, Italy
+F. Costantini , M. Giorgi , S. Giudici , G. Lamanna , E. Lari , E. Pedreschi ,
+J. Pinzino , M. Sozzi
+
+INFN, Sezione di Pisa, Pisa, Italy
+R. Fantechi , F. Spinella
+
+Scuola Normale Superiore e INFN, Sezione di Pisa, Pisa, Italy
+I. Mannelli
+
+Dipartimento di Fisica, Sapienza Università di Roma e INFN, Sezione di Roma
+I, Roma, Italy
+M. Raggi
+
+INFN, Sezione di Roma I, Roma, Italy
+A. Biagioni , P. Cretaro , O. Frezza , A. Lonardo , M. Turisini , P. Vicini
+
+INFN, Sezione di Roma Tor Vergata, Roma, Italy
+R. Ammendola , V. Bonaiuto 11 , A. Fucci, A. Salamon , F. Sargeni 12
+
+Dipartimento di Fisica dell’Università e INFN, Sezione di Torino, Torino, Italy
+R. Arcidiacono 13 , B. Bloch-Devaux 3, 14 , E. Menichetti , E. Migliore
+
+INFN, Sezione di Torino, Torino, Italy
+C. Biino 15 , A. Filippi , F. Marchetto , D. Soldi
+
+
+
+
+                                            26
+Institute of Nuclear Physics, Almaty, Kazakhstan
+Y. Mukhamejanov , A. Mukhamejanova 16 , N. Saduyev , S. Sakhiyev
+
+Instituto de Fı́sica, Universidad Autónoma de San Luis Potosı́, San Luis Potosı́,
+Mexico
+A. Briano Olvera , J. Engelfried , N. Estrada-Tristan 17 , R. Piandani ,
+M. A. Reyes Santos 17 , K. A. Rodriguez Rivera
+
+Horia Hulubei National Institute for R&D in Physics and Nuclear Engineering,
+Bucharest-Magurele, Romania
+P. Boboc , A. M. Bragadireanu, S. A. Ghinescu , O. E. Hutanu
+
+Faculty of Mathematics, Physics and Informatics, Comenius University,
+Bratislava, Slovakia
+T. Blazek , V. Cerny , T. Velas , R. Volpe 18
+
+CERN, European Organization for Nuclear Research, Geneva, Switzerland
+J. Bernhard , L. Bician 19 , M. Boretto , F. Brizioli ∗, 20 , A. Ceccucci , M. Corvino ,
+H. Danielsson , F. Duval, L. Federici , E. Gamberini , R. Guida , E. B. Holzer ,
+B. Jenninger, Z. Kucerova , G. Lehmann Miotto , P. Lichard , K. Massri 21 ,
+E. Minucci 22 , M. Noy, V. Ryjov, J. Swallow ∗, 23 , M. Zamkovsky
+
+Ecole Polytechnique Fédérale Lausanne, Lausanne, Switzerland
+X. Chang , A. Kleimenova , R. Marchevski
+
+School of Physics and Astronomy, University of Birmingham, Birmingham,
+United Kingdom
+J. R. Fry , F. Gonnella , E. Goudzovski , J. Henshaw , C. Kenworthy , C. Lazzeroni ,
+C. Parkinson , A. Romano , C. Sam , J. Sanders , A. Sergi 24 , A. Shaikhiev 21 ,
+A. Tomczak
+
+School of Physics, University of Bristol, Bristol, United Kingdom
+H. Heath
+
+School of Physics and Astronomy, University of Glasgow, Glasgow, United
+Kingdom
+D. Britton , A. Norton , D. Protopopescu
+
+Physics Department, University of Lancaster, Lancaster, United Kingdom
+J. B. Dainton, L. Gatignon , R. W. L. Jones
+
+
+
+
+                                            27
+Physics and Astronomy Department, George Mason University, Fairfax,
+Virginia, USA
+P. Cooper, D. Coward 25 , P. Rubin
+
+Authors affiliated with an international laboratory covered by a cooperation
+agreement with CERN
+A. Baeva, D. Baigarashev 26 , V. Bautin , D. Emelyanov, T. Enik , V. Falaleev 18 ,
+V. Kekelidze , D. Kereibay, A. Korotkova, L. Litov 9 , D. Madigozhin , M. Misheva 27 ,
+N. Molokanova, I. Polenkevich, Yu. Potrebenikov , K. Salamatin , S. Shkarovskiy
+
+Authors affiliated with an Institute formerly covered by a cooperation
+agreement with CERN
+S. Fedotov, K. Gorshanov , E. Gushchin , S. Kholodenko 28 , A. Khotyantsev,
+Y. Kudenko , V. Kurochka, V. Kurshetsov , A. Mefodev, V. Obraztsov , A. Okhotnikov ,
+A. Sadovskiy , V. Sugonyaev , O. Yushchenko
+∗
+  Corresponding authors: F. Brizioli, R. Fiorenza, J. Swallow,
+email: francesco.brizioli@cern.ch, renato.fiorenza@cern.ch, joel.christopher.swallow@cern.ch
+1 Present address: Max-Planck-Institut für Physik (Werner-Heisenberg-Institut), D-85748
+
+Garching, Germany
+2 Also at TRIUMF, Vancouver, British Columbia, V6T 2A3, Canada
+3 Also at School of Physics and Astronomy, University of Birmingham, Birmingham, B15 2TT,
+
+UK
+4 Also at Université de Toulon, Aix Marseille University, CNRS, IM2NP, F-83957 La Garde,
+
+France
+5 Also at Department of Physics, Technical University of Munich, München, D-80333, Ger-
+
+many
+6 Present address: Institut für Kernphysik and Helmholtz Institute Mainz, Universität Mainz,
+
+Mainz, D-55099, Germany
+7 Also at CERN, European Organization for Nuclear Research, CH-1211 Geneva 23, Switzer-
+
+land
+8 Also at Dipartimento di Scienze Fisiche, Informatiche e Matematiche, Università di Modena
+
+e Reggio Emilia, I-41125 Modena, Italy
+9 Also at Faculty of Physics, University of Sofia, BG-1164 Sofia, Bulgaria
+10 Present address: Scuola Superiore Meridionale e INFN, Sezione di Napoli, I-80138 Napoli,
+
+Italy
+11 Also at Department of Industrial Engineering, University of Roma Tor Vergata, I-00173
+
+Roma, Italy
+12 Also at Department of Electronic Engineering, University of Roma Tor Vergata, I-00173
+
+Roma, Italy
+13 Also at Università degli Studi del Piemonte Orientale, I-13100 Vercelli, Italy
+14 Present address: Université Catholique de Louvain, B-1348 Louvain-La-Neuve, Belgium
+
+
+
+
+                                             28
+15 Also at Gran Sasso Science Institute, I-67100 L’Aquila, Italy
+16 Also at al-Farabi Kazakh National University, 050040 Almaty, Kazakhstan
+17 Also at Universidad de Guanajuato, 36000 Guanajuato, Mexico
+18 Present address: INFN, Sezione di Perugia, I-06100 Perugia, Italy
+19 Present address: Charles University, 116 36 Prague 1, Czech Republic
+20 Also at INFN, Sezione di Perugia, I-06100 Perugia, Italy
+21 Present address: Physics Department, University of Lancaster, Lancaster, LA1 4YB, UK
+22 Present address: Syracuse University, Syracuse, NY 13244, USA
+23 Present address: Laboratori Nazionali di Frascati, I-00044 Frascati, Italy
+24 Present address: Dipartimento di Fisica dell’Università e INFN, Sezione di Genova, I-16146
+
+Genova, Italy
+25 Also at SLAC National Accelerator Laboratory, Stanford University, Menlo Park, CA 94025,
+
+USA
+26 Also at L. N. Gumilyov Eurasian National University, 010000 Nur-Sultan, Kazakhstan
+27 Present address: Institute of Nuclear Research and Nuclear Energy of Bulgarian Academy
+
+of Science (INRNE-BAS), BG-1784 Sofia, Bulgaria
+28 Present address: INFN, Sezione di Pisa, I-56100 Pisa, Italy
+
+
+
+
+                                              29
+

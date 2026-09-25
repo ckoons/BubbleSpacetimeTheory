@@ -1,0 +1,574 @@
+                                                                                                                                              PSI-PR-23-46, ZU-TH 77/23
+
+                                                                                   Light New Physics in B → K (∗) ν ν̄?
+                                                                                                Wolfgang Altmannshofer∗
+                                                                        Santa Cruz Institute for Particle Physics and Department of Physics,
+                                                                              University of California, Santa Cruz, CA 95064, USA
+
+                                                                                                    Andreas Crivellin†
+                                                          Physik-Institut, Universität Zürich, Winterthurerstrasse 190, CH–8057 Zürich, Switzerland and
+                                                                            Paul Scherrer Institut, CH–5232 Villigen PSI, Switzerland
+
+                                                                                            Huw Haigh‡ and Gianluca Inguglia§
+                                                                               Institute of High Energy Physics, 1050, Vienna, Austria
+
+                                                                                                 Jorge Martin Camalich¶
+                                                        Instituto de Astrofı́sica de Canarias, C/ Vı́a Láctea, s/n E38205 - La Laguna, Tenerife, Spain and
+                                                                Universidad de La Laguna, Departamento de Astrofı́sica, La Laguna, Tenerife, Spain
+
+                                                            The study of the rare decays B → K (∗) ν ν̄ offers a window into the dynamics operating at the
+                                                         electroweak scale, allowing studies of the Standard Model and searches for heavy new physics.
+
+
+
+
+arXiv:2311.14629v1 [hep-ph] 24 Nov 2023
+                                                         However, the analysis of these decays is also potentially sensitive to the on-shell production of new
+                                                         light bosons X through the process B → K (∗) X. In particular, Belle II has recently measured
+                                                         B + → K + ν ν̄, finding a 2.8σ excess under the assumption of heavy new physics. Since this excess is
+                                                         rather localized in the kaon energy, a fit that includes the decay mode B + → K + X to the kinematic
+                                                         distributions prefers mX ≈ 2 GeV with branching fraction Br[B → KX] = (8.8 ± 2.5) × 10−6 and a
+                                                         significance of ≈ 3.6σ. However, no excess was found in the BaBar measurements of B → K (∗) ν ν̄,
+                                                         and a global analysis of the Belle II and BaBar data leads to Br[B → KX] = (5.1 ± 2.1) × 10−6
+                                                         with a reduced significance of ≈ 2.4σ. We then study various simplified dark-flavoured models and
+                                                         present a possible UV completion based on a gauged B3 − L3 symmetry, highlighting the discovery
+                                                         potential of dedicated searches for B → K (∗) X at Belle II.
+
+
+                                                             I.   INTRODUCTION                                 oretical uncertainties as well as suppressed rates, making
+                                                                                                               them sensitive probes of beyond-the-SM physics. In fact,
+                                                                                                               an interesting number of anomalies, i.e. deviations from
+                                             The Cabibbo-Kobayashi-Maskawa (CKM) mecha-                        the SM predictions arose [8]. In particular, global fits to
+                                          nism [1] of the Standard Model (SM) was established                  semileptonic B decays involving b → cτ ν and b → sℓ+ ℓ−
+                                          by the B factories Belle [2] and BaBar [3] to be the lead-           transitions show interesting hints for NP (see Refs. [9–11]
+                                          ing source of quark flavour violation. Furthermore, the              for recent reviews).
+                                          discovery of the Higgs boson [4, 5] at the Large Hadron
+                                                                                                                  Recently, the Belle II collaboration released an analy-
+                                          Colider (LHC) at CERN [6, 7] completed the SM. How-
+                                                                                                               sis of the closely related flavour-changing-neutral-current
+                                          ever, this does not exclude the existence of beyond-the-
+                                                                                                               (FCNC) process B + → K + ν ν̄ [12, 13] finding an ex-
+                                          SM physics but rather only limits its possible size and
+                                                                                                               cess of 2.8σ over the SM hypothesis. This significance
+                                          strongly motivates the experimental search for it, both at
+                                                                                                               was obtained under the assumption of heavy NP [14],
+                                          the high-energy frontier and with precision observables.
+                                                                                                               allowing a connection to the anomalies in b → cτ ν and
+                                             Historically, indirect evidence for new particles often           b → sℓ+ ℓ− [15–19]. However, we will pursue a different
+                                          preceded direct discoveries. In particular, the existence            path here: The B → K + ν ν̄ measurement can be rein-
+                                          of the charm quark, the W boson, the top quark, and also             terpreted as a search for the two-body B → KX decay
+                                          the Higgs were expected due to indirect measurements of              if the undetected particle X is stable (approximately) or
+                                          the Fermi interactions, kaon mixing, electroweak preci-              decays invisibly [20–25]. [74] For this, X must be quite
+                                          sion observables, etc. In this context, semi-leptonic B              light, with mX ≤ mB − mK , such that it would result
+                                          meson decays are a particularly useful tool for indirect             in a resonant feature in the spectrum of the squared in-
+                                          new physics (NP) searches: they have distinct and clean              variant mass of the di-neutrino system (denoted by q 2 )
+                                          experimental signatures and, in general, controllable the-           of B → Kν ν̄. This is different from the case of the SM,
+                                                                                                               or any heavy NP contribution, where all q 2 dependence
+                                                                                                               arises from the form factors, phase space, and the exper-
+                                                                                                               imental efficiency. [75]
+                                          ∗ Electronic address: waltmann@ucsc.edu
+                                          † Electronic address: andreas.crivellin@cern.ch                         Actually, the study of these types of experimental sig-
+                                          ‡ Electronic address: huw.haigh@oeaw.ac.at                           natures has recently intensified in the context of dark-
+                                          § Electronic address: gianluca.inguglia@oeaw.ac.at                   flavoured sectors, which are new light particles weakly
+                                          ¶ Electronic address: jcamalich@iac.es                               coupled to the SM fermions with a rich flavour struc-
+2
+
+ture that can induce FCNC (see [26, 27] for reviews).         (0.497 ± 0.037) × 10−5 (excluding the contribution from
+This includes a QCD axion emerging from the breaking          B + → τ + ν with τ + → K + ν̄) [60] (see also [61, 62] for
+of horizontal flavour symmetries [20, 28–35], axion-like      other recent SM predictions that agree well with the re-
+particles (ALPs) [36–43] and new neutral gauge bosons         sult that we are using).[77]
+such as light Z ′ bosons in the closely related process          This result is interesting because it might indicate not
+b → sℓ+ ℓ− [44–53].                                           only the presence of NP in the b → sν ν̄ transitions but
+  Fortunately, Belle II provides information on the q 2       even the presence of new light states. This can be seen
+spectrum in their analysis, and, in fact, it shows a peak,    by looking at the supplemental material that accompa-
+localized around q 2 = 4 GeV2 , suggesting that the possi-    nies the Belle II result [14]. The post-fit distributions
+ble excess might be better described by a new light medi-     of events as a function of q 2 indicate that the observed
+ator than with heavy NP. Therefore, in the next section,      excess clusters in the region around q 2 = 4 GeV2 , as can
+we will consider the experimental status of the b → sν ν̄     be seen in the right plot of Fig. 3 in the appendix, show-
+transitions, including previous data from BaBar [54], and     ing the data and SM yields from the Belle II search for
+perform a global analysis and recast of the data under the    B + → K + ν ν̄ [14]. However, to evaluate the significance
+hypothesis of light NP. In Sec. III, we will then study a     of such an excess, a fit taking into account the experimen-
+series of simplified models that could be searched for by     tal resolution and all available data, including BaBar’s
+dedicated analyses of b → sX and propose an example of        where no excess has been observed, has to be performed.
+a possible UV completion before we conclude in Sec. IV.          Therefore, we use the differential distributions of the
+                                                              B 0,+ → K 0,+ ν ν̄ measurements of Belle II [14] and
+                                                              BaBar [54] under the assumption that a light resonance
+       II.   EXPERIMENTAL STATUS AND                          escaping detection is present (i.e. X is either stable, suf-
+              STATISTICAL ANALYSIS                            ficiently long-lived or decays invisibly) to evaluate the
+                                                              combined significance for NP. Furthermore, we will use
+   Due to the challenges in reconstructing the events in      the B → K ∗ ν ν̄ measurement of BaBar [54] to set an
+which the visible final state only involves a kaon (for       upper limit on Br[B → K ∗ X].
+charged B meson decays) or its decay products (for neu-          We fit the NP signal to the reconstructed data by
+tral B meson decays), searches for B → K (∗) ν ν̄ have only   modelling the resonance X with a Gaussian distribution.
+been performed at the B-factories Belle and BaBar.[76]        This is done via a binned maximum likelihood fit, us-
+Here, B mesons are produced in pairs from the decay           ing the pyhf software package [63]. In the combined fit
+of a Υ(4S) resonance and various analysis techniques          to B + → K + ν ν̄ (Belle and Babar) and B 0 → K 0 ν ν̄
+to search for B → K (∗) ν ν̄ are available. In semilep-       (BaBar) data, each measurement constitutes a channel
+tonic tagged analyses (STA), one of the B mesons is re-       in the statistical pyhf model with a fully correlated sig-
+constructed via its semileptonic decay while the other        nal. Similarly, in the fit to the BaBar B 0 → K 0,∗ ν ν̄ and
+one is used to search for B → K (∗) ν ν̄. Similarly,          B + → K +,∗ ν ν̄ distributions, the relative signal is fixed
+hadronic-tagged analyses (HTA) use the hadronic decay         by isospin invariance to be (approximately) equal.
+of one of the B mesons and study the decay of inter-             While we assume that the particle X has a negligible
+est of the other one. BaBar and Belle have searched for       intrinsic (physical) width, we nonetheless assign a Gaus-
+B → K (∗) ν ν̄ using both techniques [54–57]. The BaBar       sian standard deviation of 1.5 GeV2 to its q 2 distribution
+                                           +1.7+0.4
+experiment found Br[B + → K + ν ν̄]=1.5−0.8−0.2     × 10−5    to capture the detector resolution.[78]
+                ∗         +2.9    −5                             The fit to the Belle-II data alone results in Br[B + →
+and Br[B → K ν ν̄]=3.8−2.6 × 10 [54], while Belle pro-
+                                                              K X = (8.8 ± 2.5) × 10−6 for mX ≈ 2 GeV, with a
+                                                                 +
+vided 90% CL upper limits to the same process at the
+                                                              significance of 3.6σ. The inclusion of BaBar data in the
+level of 2.7 × 10−5 .
+                                                              fit reduces the significance to 2.4σ and
+   An additional analysis technique, referred to as inclu-
+sive tag analysis (ITA), already adopted by Belle and                    Br[B → KX] = (5.1 ± 2.1) × 10−6 ,            (1)
+Belle II in previous studies [58, 59], allows one to re-
+construct inclusively the decay B + → K + ν ν̄ from the       is preferred (see Fig. 5 in the appendix for details). For
+charged kaon. This alternative methodology negates            B → K ∗ X, only BaBar data is available, and since there
+the requirement of a coincidental fully reconstructed         is no excess seen, an upper limit of a few times 10−5 ,
+hadronic (or semileptonic) B-decay to tag the event,          depending on mX , can be obtained. The results of the
+thereby providing a higher signal efficiency at the cost of   B → KX and B → K ∗ X fits are depicted in the left and
+reduced signal purity due to increased background lev-        right panels of Fig. 1, respectively.
+els. In the recently released results obtained by Belle II,
+both ITA and HTA techniques are used [14], and the re-
+sults are combined. Driven by the ITA technique with its          III.   MODELS OF LIGHT NEW PHYSICS
+higher statistics, Belle II obtained the first evidence for
+the decay B + → K + ν ν̄ with 3.6σ significance, measur-         Here, we consider two options of light particles that can
+ing Br[B + → K + ν ν̄]=(2.4 ± 0.7) × 10−5 . This is in 2.8σ   lead to B → KX, a light neutral vector (i.e. a Z ′ ) and
+tension with the SM prediction of Br[B + → K + ν ν̄]SM =      flavoured axions and ALPs [20, 28–43]. In both cases, X
+                                                                                                                                                                3
+
+                      1.0                                                                          6
+                                     Best fit                                                                 Best fit
+                                     ±2                                                                       ±2
+                      0.8            ±1                                                            5          ±1
+
+
+
+
+                                                                               105 x Br[B K * X]
+                                                                                                   4
+
+
+
+     105 x Br[B KX]
+                      0.6
+                                                                                                   3
+                      0.4
+                                                                                                   2
+                      0.2                                                                          1
+
+                      0.0                                                                          0
+                         0.0        0.5     1.0     1.5      2.0   2.5   3.0                        0.0      0.5     1.0         1.5      2.0   2.5   3.0
+                                                  mX [GeV]                                                                     mX [GeV]
+FIG. 1: Left: Combined fit to Br[B → KX] from Belle II and BaBar as a function of the mass of X. Right: Same for
+Br[B → K ∗ X] (only BaBar data available).
+
+
+should not decay to charged SM fermions as those decays                                 In this setup, we find the following B → KZ ′ decay
+would give prominent resonant signals in e.g. b → sℓ+ ℓ−                              rates if only one of the couplings is switched on at a time
+decays. Couplings to electrons, muons, and light quarks
+should be absent or sufficiently small such that the new
+boson is long-lived enough to decay outside the detector                                                                 (4)
+                                                                                                       (4)    |gV |2 m3B 3
+or has a dominant invisible decay width. [79]                                                       ΓB→KZ ′ =            λ 2 f+ ,                  (3)
+   Since a flavour-changing bottom-strange coupling (gsb )                                                     64π m2Z ′
+                                                                                                                (5)                   −2
+is needed to obtain the desired decay mode, in principle                                                      |gV |2 mB m2Z ′
+                                                                                                                              
+                                                                                                     (5)                           mK       3
+constraints from Bs − B̄s mixing have to be considered.                                             ΓB→KZ ′ =                   1+        λ 2 fT , (4)
+                                                                                                               16π     Λ2          mB
+In fact, for a light Z ′ or ALP, one can set up an oper-                                                                 (6)
+ator product expansion in mX /mb to calculate this new                                                 (6)          |gV |2 m3B m2Z ′ 3
+                                                                                                    ΓB→KZ ′ =                       λ 2 f+ ,                  (5)
+physics contribution and obtain bounds on the flavour                                                                64π     Λ4
+changing couplings gsb [20]. However, these limits are
+typically weaker than the ones obtained from decays such
+as B → K (∗) X because (in contrast to the case of heavy                              with the phase space function
+NP) the decay rate is proportional to the quadratic (not
+quartic) power of the couplings which is the same scaling
+as for the neutral-meson mixing amplitude.                                                                   m4K m4Z ′
+                                                                                                                                 
+                                                                                                                                     m2K  m2 ′ m2 m2 ′
+                                                                                                                                                         
+                                                                                          λ = 1+                 + 4 −2                  + Z2 + K 4 Z        . (6)
+                                                                                                             m4B  mB                 mB2  mB    mB
+                               A.     Light vectors (Z ′ )
+
+                                                                                      The B → K form factors f+ and fT can be found in
+  Including couplings up to dimension 6, the interaction
+                                                                                      Refs. [61, 64, 65] and have to be evaluated at q 2 = m2Z ′ .
+Lagrangian is [47]
+                                                                                               Similarly, we find for the B → K ⋆ Z ′ decay rates
+                                   (5)
+          n
+              (4)                g
+  LZ ′ ⊃ gL Zµ′ (s̄γ µ PL b) + L Zµν   ′
+                                         (s̄σ µν PR b)
+                                  Λ
+          (6)                                                                                          (4)      mB 21 h (4) 2         (4)
+                                                                                                                                                 i
+        g                                                                                          ΓB→K ∗ Z ′ =     λ∗ |gV | FV + |gA |2 FA ,              (7)
+                                       o
+                  ′
+     + L2 ∂ ν Zµν   (s̄γ µ PL b) + h.c. + {L ↔ R} ,                      (2)                                    32π
+        Λ
+                                                                                                    (5)         mB m2B 12 h (5) 2           (5) 2
+                                                                                                                                                       i
+where Zµν′
+            = ∂µ Zν′ − ∂ν Zµ′ is the Z ′ field strength tensor.                                    ΓB→K ∗ Z ′ =         λ ∗ |gV | F T +  |gA   |  FT 5   , (8)
+                                                                                                                8π Λ2
+For later convenience, we also introduce vector and axial-                                                      mB m4Z ′ 12 (6) 2
+                                                                                                                            h                          i
+                                                                                                    (6)                                      (6)
+                    (d)    (d)     (d)        (d)
+vector couplings gV = gR + gL and gA = gR − gL .
+                                                     (d)   (d)                                     ΓB→K ∗ Z ′ =         λ∗ |gV | FV + |gA |2 FA , (9)
+                                                                                                                32π Λ4
+4
+
+                                                                   3
+
+
+
+                                                                   2
+
+
+
+                                                                   1
+
+
+
+                                                                   0
+
+
+
+                                                                  -1
+
+
+
+
+                                                                  -2
+
+
+
+
+                                                                  -3
+                                                                   -3       -2        -1      0          1          2          3
+
+
+
+
+FIG. 2: Left: Correlations between B → KZ ′ and B → K ∗ Z ′ (colored lines) for the different s̄bZ ′ operators considered
+in this work. These are compared to the experimental data stemming from the combination of Belle-II, Babar and Belle
+measurements,which is represented by the red regions correspondingto ∆χ2 = 2.3 and ∆χ2 = 6.18. Belle’s upper limit
+(hatched region at 2σ) and the new Belle II measurement (blue vertical band at 1σ and 2σ). Right: preferred regions in the
+gL − gR plane. One can see that (approximately) vectorial couplings of the order of 10−8 are suggested by current data.
+
+
+with                                                                             B.   Axion like particle
+                    −2
+                mK ∗
+    FV = λ∗ 1 +          V2,                           (10)      We consider now a massive pseudoscalar or axion-like
+                mB
+                     2                                        particle (ALP) a coupled with a derivative coupling to
+                              32m2K ∗ 2
+           
+                mK ∗                                           the bs current,
+    FA = λ∗ 1 +         A21 +        A12 ,             (11)
+                mB             m2Z ′
+                                                                                  ∂µ a
+     FT = λ∗ T12 ,                                (12)                  LALP ⊃         (s̄γ µ (gV + gA γ5 )b) + h.c.               (14)
+                      2                                                          2f
+                    2              2    2
+          
+                  m ∗            8mK ∗ mZ ′
+    FT 5 = 1 − K2        T22 + 2              T 2 .(13)        where f is the ALP decay constant and where we have
+                   mB         mB (mB + mK ∗ )2 23
+                                                               started from the vectorial basis for the couplings. Note
+The phase space function λ∗ is defined equivalently to         that this also covers the case of neutral (pseudo)scalars
+the B → KZ ′ decay, with the replacement mK → mK ∗ .           with (effective) gS s̄b + gP s̄γ5 b couplings (without a
+The B → K ∗ form factors V , A1 , A12 , T1 , T2 , T23 can      derivative), by identifying gV (A) mb /2f = gS(P ) as per
+be found in Refs. [65, 66].                                    the equations of motion.
+   The results can be seen in the plots of Fig. 2 that show      In this setup, the B → Ka and B → K ∗ a decay rates
+the correlation between the B → KZ ′ and B → K ∗ Z ′           are given by,
+branching ratios (left plot) and the best-fit regions in the
+plane of Z ′ couplings to left-handed and right-handed
+                                                                                                              2
+                                                                                |gV |2 m3B              m2
+                                                                                                  
+                                                                                                                     1
+quark currents (right plot). In both plots, the mass of                 ΓB→Ka =                       1− K         λ 2 f02 ,       (15)
+                                                                                  64πf 2                m2B
+the Z ′ is fixed to the best-fit value ∼ 2 GeV, c.f. the
+discussion in section II. One can see that couplings only                             |gA |2 m3B 32 2
+                                                                        ΓB→K ∗ a =              λ ∗ A0 ,                           (16)
+                                             (4/6)
+to left-handed or right-handed quarks, gL/R , generate                                  64πf 2
+B → K ∗ Z ′ branching ratios that exceed the experimental      where λ and λ∗ are now the same as for B → KZ ′ and
+bounds by a factor of few. The dimension-5 dipole cou-         B → K ∗ Z ′ , respectively, but replacing mZ ′ by ma . The
+         (5)
+plings, gL/R , lead to even larger B → K ∗ Z ′ . Couplings     form factors f0 and A0 did not enter the expressions for
+that are dominantly vectorial are needed for explaining        the B → K (∗) Z ′ rates but can also be found in Refs. [61,
+the enhanced B → Kν ν̄ branching ratio without violat-         64–66]. They are evaluated at q 2 = m2a .
+ing the constraints from B → K ∗ ν ν̄. The size of the Z ′       As is evident from equations (15) and (16) above, only
+couplings is very small, at the order of 10−8 .                vectorial couplings are capable of explaining B → Kν ν̄
+                                                                                                                                                   5
+
+
+              0.92         0.94
+                                  Signal discriminator
+                                          0.96         0.98           1.0        200                                     continuum
+                                                                                                                         charged BB
+                                                         continuum               175                                     neutral BB
+         3000                                            B+B                                                             SM B + K +
+                                                         B0 B0                   150                                     Gaussian resonance
+         2500                                            SM B + K +                                                      Data
+                                                         Data
+                                                                                 125
+         2000
+                                                                            Counts
+    Counts
+                                                                                 100
+         1500
+                                                                                     75
+         1000                                                                        50
+             500                                                                     25
+              0-1    4    8 25 4       8 25 4       8 25 4       8 25                0    0     2   4   6    8      10       12     14        16
+                                       q2 [GeV2]                                                        q2 [GeV2]
+
+FIG. 3: Left: Histogram showing Belle II data and MC [14] used in the NP fit, with four signal regions of the discriminator
+output, each containing 2% signal efficiency across three q 2 bins. Right: The highest sensitivity bin (i.e. with signal discriminator
+0.98 − 1) split into finer q 2 bins, showing the resonant characteristics of the observed excess for which the red line shows the
+best fit. Note that these data were not used for the fit but are only shown as illustrations.
+
+
+while axial vector couplings are constrained by B →                            since 2 GeV is below the bottom and tau thresholds, such
+K ∗ ν ν̄. The corresponding constraints on the couplings                       a Z ′ boson naturally decays invisibly to tau neutrinos and
+are qualitatively similar to the Z ′ . In terms of the                         thus escapes detection.
+ALP decay constant, Eq. (1) implies FV ≡ 2f /|gV | =
+3.1+1.0      8
+   −0.5 × 10 for ma = 2 GeV, while the upper limit from
+          ∗
+B → K a leads to FA ≡ 2f /|gA | ≳ 1.7 × 108 GeV at 2σ.                                    IV.   CONCLUSIONS AND OUTLOOK
+
+                                                                                  Motivated by the recently observed excess of 2.8σ
+                     C.    B3 − L3 Symmetry                                    (w.r.t. the SM prediction) in B + → K + ν ν̄ by Belle II,
+                                                                               we studied the option of light new physics, i.e. B → KX
+  Let us outline one possible UV complete model that                           where the new boson X escapes detection. In fact,
+could give rise to B → KX, which is based on a gauged                          since the excess is localized around 4 GeV2 , the inves-
+B3 − L3 symmetry. This means we assume that third-                             tigation of light NP hypothesis is motivated. Assum-
+generation baryon and lepton numbers are oppositely                            ing that the “effective” width of the particle is given by
+charged under a new gauged U (1)X symmetry. This                               the detector resolution (i.e. the physical width is small
+charge assignment is anomaly-free and can provide an                           compared to the detector resolution), we found a sig-
+explanation of the smallness of the CKM elements Vcb,ts                        nificance of ≈ 2.4σ and a preferred branching ratio of
+and Vub,td . The reason for this is that in unbroken U (1)X ,                  Br[B → KX] = (5.1 ± 2.1) × 10−6 for mX ≈ 2 GeV
+no 1−3 and 2−3 elements in the quark Yukawa couplings                          once the Belle II data is combined with the correspond-
+are allowed. This means that while all quark masses and                        ing BaBar result.[81] Similarly we performed a fit to
+the Cabibbo angle can be obtained from the SM Higgs af-                        B → K ∗ ν ν̄ where no excess is observed.
+ter it acquires its vacuum expectation value (VEV) from                           We studied the two simplified NP physics models with
+renormalizable dim-4 couplings, Vcb,ts and Vub,td are zero                     a light vector and a light pseudoscalar with derivative
+at this level. One option to obtain non-zero Vcb,ts and                        couplings (i.e. an ALP). It is found that the flavour-
+Vub,td is to introduce additional Higgs doublets charged                       changing coupling to bottom and strange quarks should
+under U (1)X to generate Vcb,ts and Vub,td via their VEVs                      be dominantly vectorial to explain the excesses. Finally,
+(possibly in conjunction with vector-like quarks [67]).                        we proposed an example of a UV complete model, a
+  Since the U (1)X gauge boson needs to have both left-                        gauged B3 − L3 symmetry, broken by three additional
+handed and right-handed bs coupling to explain B →                             scalars (two SU (2)L doublets and one singlet) that nat-
+KX without violating the bounds from B → K ∗ X, we                             urally leads to the desired signature.
+have to add two additional Higgs doublets charged under                           One should note that while our fitting approach pro-
+B3 − L3 with opposite U (1)X charges [68].[80] Further-                        vides insightful information on possible underlying pro-
+more, a singlet under SU (2)L charged under U (1)X is                          cesses in B + → K + ν ν̄, it leaves room for improvements.
+needed to obtain the preferred Z ′ mass mZ ′ ≃ 2 GeV                           The reason is that while the B + → K + X carries kine-
+without overshooting Br[B → KX]. Finally, note that                            matic information typical of a two-body decay, the orig-
+6
+
+
+                               16       Background MC                                               Background MC
+                                        SM B + K +                                                  SM B0 K0
+                               14       X                                                           X
+                                        MC error                                                    MC error
+                               12       Data                                                        Data
+                               10
+                                8
+                                6
+                                4
+                                2
+                                0
+                                0.0       0.2        0.4          0.6         0.8         1.0 0.0    0.2       0.4        0.6   0.8      1.0
+                                                           SB                                                        SB
+FIG. 4: BaBar data and simulated MC [54], showing B + → K + ν ν̄ (left) and B 0 → K 0 ν ν̄ (right), provided in bins of
+SB = q 2 /m2B . The distribution of the fitted resonance is shown in green.
+
+
+                                                                                              experimental systematic uncertainties, based on those
+                     1.2         BaBar K+/0 combined
+                                                                                              quoted in the Belle II analysis, as nuisance parame-
+                                 BaBar K+/0 & Belle K+ combined
+                                 Belle II K+                                                  ters. The signal is fit to data using binned templates of
+                     1.0                                                                      the q 2 distributions, derived from post-fit Monte Carlo
+                                                                                              (MC) distributions, including individual contributions
+                                                                                              from B B̄ and continuum SM background and the pre-
+
+
+
+
+    105 x Br[B KX]
+                     0.8                                                                      dictions of the SM contribution to B → K (∗) νν. The
+                                                                                              corresponding templates are shown in Fig. 3 (left) for the
+                                                                                              Belle II analysis. They contain 12 bins in total: Three
+                     0.6                                                                      q 2 bins which are repeated in four bins of the signal dis-
+                                                                                              criminator output. These are constructed such that the
+                                                                                              expected signal efficiency is a constant 2% in the four
+                     0.4                                                                      regions.
+                                                                                                 For each of the four fit templates shown on the left
+                     0.2                                                                      in Fig. 3, we include an overall normalization uncer-
+                                                                                              tainty of 10% and the associated statistical uncertainty
+                                                                                              obtained from the measured number of events. The con-
+                     0.0
+                        0.0      0.5      1.0      1.5      2.0         2.5         3.0       tinuum background template has an additional uncer-
+                                                mX [GeV]                                      tainty of 10% from shape systematics, which we allow for
+                                                                                              each bin to fluctuate individually.[82] To validate these
+                                                                                              choices, a fit including only the SM contribution, and
+FIG. 5: Best fit and associated 1σ errors for Br[B → K (∗) X]                                 no injected NP signal, is first conducted. From this,
+as a function of mX , for the fit to the BaBar distributions                                  Br[B + → K + ν ν̄] = (2.8 ± 0.7) × 10−5 is found, which
+(green), the Belle II distribution (blue) and the combined fit                                is in good agreement with the result of the Belle II anal-
+to all data (red).
+                                                                                              ysis.
+                                                                                                 The BaBar data are provided in bins of SB = q 2 /m2B
+                                                                                              and the distributions are shown in Fig. 4 with contribu-
+inal search is not optimized for such a case, and a dedi-
+                                                                                              tions from the background, the SM to B → Kνν and
+cated experimental analysis will provide a better sensitiv-
+                                                                                              the NP signal. The associated signal efficiency in each
+ity. However, we hope that our work motivates dedicated
+                                                                                              bin is provided and considered in the fit via scaling of
+analyses by the B factories.
+                                                                                              the resonance template. Only statistical uncertainties
+                                                                                              are accounted for in templates of the BaBar fit. In the
+                                                                                              case of the simultaneous fit to the Belle and BaBar data,
+                              Appendix A: Details on the fit                                  the normalisation of the B → Kνν templates are fixed
+                                                                                              by the SM expectations to the channels.
+  We perform maximum likelihood fits to the BaBar [54]                                           The NP signal is modelled with a Gaussian distribu-
+and Belle II [14] data using the pyhf software pack-                                          tion, with the initial pre-fit yield of the template defined
+age [63]. For this, we include the essential estimated                                        as the number of excess events observed in the Belle II
+                                                                                                                              7
+
+data. We assume a standard deviation of 1.5 GeV2                 National Science Foundation (No. PP00P21 76884).
+for this distribution, the result of this can be seen in         G.I. and H.H. acknowledge support by the European Re-
+Fig. 3, where the NP contribution is scaled to the best-         search Council under the grant agreement No. 947006
+fit branching fraction. This assumption is also true of the      - InterLeptons. The research of W.A. is supported
+fits to BaBar distributions, where the Gaussian mean and         by the U.S. Department of Energy grant number DE-
+standard deviation are scaled as the other distributions         SC0010107. J.M.C. thanks MICINN for funding through
+(SB = q 2 /m2B ).                                                the grant “DarkMaps” PID2022-142142NB-I00.
+   Note that the look-elsewhere effect here is considered
+negligible since the fit only takes into account three (in-
+dependent) q 2 bins (see left panel of Fig. 3).
+
+
+                    Acknowledgments
+
+  A.C. gratefully acknowledges support by the Swiss
+
+
+
+
+ [1] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49,         [23] S. Bruggisser, L. Grabitz, and S. Westhoff (2023),
+     652 (1973).                                                      2308.11703.
+ [2] A. Abashian et al. (Belle), Nucl. Instrum. Meth. A 479,     [24] M. Abdughani and Y. Reyimuaji (2023), 2309.03706.
+     117 (2002).                                                 [25] A. Berezhnoy and D. Melikhov (2023), 2309.17191.
+ [3] B. Aubert et al. (BaBar), Nucl. Instrum. Meth. A 479,       [26] J. F. Kamenik and C. Smith, JHEP 03, 090 (2012),
+     1 (2002), hep-ex/0105044.                                        1111.6402.
+ [4] P. W. Higgs, Phys. Lett. 12, 132 (1964).                    [27] E. Goudzovski et al., Rept. Prog. Phys. 86, 016201
+ [5] F. Englert and R. Brout, Phys. Rev. Lett. 13, 321 (1964).        (2023), 2201.07805.
+ [6] G. Aad et al. (ATLAS), Phys. Lett. B 716, 1 (2012),         [28] F. Wilczek, Phys. Rev. Lett. 49, 1549 (1982).
+     1207.7214.                                                  [29] J. L. Feng, T. Moroi, H. Murayama, and E. Schnapka,
+ [7] S. Chatrchyan et al. (CMS), Phys. Lett. B 716, 30 (2012),        Phys. Rev. D 57, 5875 (1998), hep-ph/9709411.
+     1207.7235.                                                  [30] L. Calibbi, F. Goertz, D. Redigolo, R. Ziegler, and J. Zu-
+ [8] A. Crivellin and B. Mellado (2023), 2309.03870.                  pan, Phys. Rev. D 95, 095009 (2017), 1612.08040.
+ [9] J. Albrecht, D. van Dyk, and C. Langenbruch, Prog.          [31] Y. Ema, K. Hamaguchi, T. Moroi, and K. Nakayama,
+     Part. Nucl. Phys. 120, 103885 (2021), 2107.04822.                JHEP 01, 096 (2017), 1612.05492.
+[10] D. London and J. Matias, Ann. Rev. Nucl. Part. Sci. 72,     [32] F. Arias-Aragon and L. Merlo, JHEP 10, 168 (2017),
+     37 (2022), 2110.13270.                                           [Erratum: JHEP 11, 152 (2019)], 1709.07039.
+[11] B. Capdevila, A. Crivellin, and J. Matias (2023),           [33] K. Choi, S. H. Im, C. B. Park, and S. Yun, JHEP 11,
+     2309.01311.                                                      070 (2017), 1708.00021.
+[12] W. Altmannshofer, A. J. Buras, D. M. Straub, and            [34] L. Calibbi, D. Redigolo, R. Ziegler, and J. Zupan, JHEP
+     M. Wick, JHEP 04, 022 (2009), 0902.0160.                         09, 173 (2021), 2006.04795.
+[13] A. J. Buras, J. Girrbach-Noe, C. Niehoff, and D. M.         [35] L. Di Luzio, A. W. M. Guerrera, X. P. Dı́az, and
+     Straub, JHEP 02, 184 (2015), 1409.4557.                          S. Rigolin, JHEP 06, 046 (2023), 2304.04643.
+[14] E. Ganiev, (On behalf of the Belle II Collabora-            [36] B. Gripaios, A. Pomarol, F. Riva, and J. Serra, JHEP
+     tion). Talk given at EPS-HEP 2023 “On Radiative                  04, 070 (2009), 0902.1483.
+     and Electroweak Penguin Decays”, Hamburg, DESY              [37] E. Izaguirre, T. Lin, and B. Shuve, Phys. Rev. Lett. 118,
+     (https://indico.desy.de/event/34916/contributions/-              111802 (2017), 1611.09355.
+     146877/attachments/84380/111798/-                           [38] M. J. Dolan, T. Ferber, C. Hearty, F. Kahlhoefer, and
+     EWP@Belle2 EPS.pdf) (2023).                                      K. Schmidt-Hoberg, JHEP 12, 094 (2017), [Erratum:
+[15] L. Allwicher, D. Becirevic, G. Piazza, S. Rosauro-               JHEP 03, 190 (2021)], 1709.00009.
+     Alcaraz, and O. Sumensari (2023), 2309.02246.               [39] F. Björkeroth, E. J. Chun, and S. F. King, JHEP 08, 117
+[16] P. Athron, R. Martinez, and C. Sierra (2023), 2308.13426.        (2018), 1806.00660.
+[17] T. Felkl, A. Giri, R. Mohanta, and M. A. Schmidt (2023),    [40] M. B. Gavela, R. Houtz, P. Quilez, R. Del Rey,
+     2309.02940.                                                      and O. Sumensari, Eur. Phys. J. C 79, 369 (2019),
+[18] C.-H. Chen and C.-W. Chiang (2023), 2309.12904.                  1901.02031.
+[19] X.-G. He, X.-D. Ma, and G. Valencia (2023), 2309.12741.     [41] A. Carmona, C. Scherb, and P. Schwaller, JHEP 08, 121
+[20] J. Martin Camalich, M. Pospelov, P. N. H. Vuong,                 (2021), 2101.07803.
+     R. Ziegler, and J. Zupan, Phys. Rev. D 102, 015023          [42] M. Bauer, M. Neubert, S. Renner, M. Schnubel, and
+     (2020), 2002.04623.                                              A. Thamm, JHEP 09, 056 (2022), 2110.10698.
+[21] A. W. M. Guerrera and S. Rigolin, Fortsch. Phys. 71,        [43] T. Ferber, A. Filimonova, R. Schäfer, and S. Westhoff,
+     2200192 (2023), 2211.08343.                                      JHEP 04, 131 (2023), 2201.06580.
+[22] A. Datta, A. Hammad, D. Marfatia, L. Mukherjee, and         [44] F. Sala and D. M. Straub, Phys. Lett. B 774, 205 (2017),
+     A. Rashed, JHEP 03, 108 (2023), 2210.15662.                      1704.06188.
+8
+
+[45] M. K. Mohapatra and A. Giri, Phys. Rev. D 104, 095012        [69] H. K. Dreiner, J. Y. Günther, and Z. S. Wang (2023),
+     (2021), 2109.12382.                                               2309.03727.
+[46] A. Datta, J. Kumar, J. Liao, and D. Marfatia, Phys. Rev.     [70] I. Adachi et al. (Belle-II), Phys. Rev. Lett. 124, 141801
+     D 97, 115038 (2018), 1705.08423.                                  (2020), 1912.11276.
+[47] W. Altmannshofer, M. J. Baker, S. Gori, R. Harnik,           [71] T. E. Browder et al. (CLEO), Phys. Rev. Lett. 86, 2950
+     M. Pospelov, E. Stamou, and A. Thamm, JHEP 03, 188                (2001), hep-ex/0007057.
+     (2018), 1711.07494.                                          [72] X.-G. He, G. C. Joshi, H. Lew, and R. R. Volkas, Phys.
+[48] F. Sala, Nucl. Part. Phys. Proc. 303-305, 14 (2018),              Rev. D 44, 2118 (1991).
+     1809.11061.                                                  [73] A. Crivellin, A. Kokulu, and C. Greub, Phys. Rev. D 87,
+[49] F. Bishara, U. Haisch, and P. F. Monni, Phys. Rev. D              094031 (2013), 1303.5877.
+     96, 055002 (2017), 1705.03465.                               [74] Ref. [69] considered light NP. However, the interactions
+[50] D. Borah, L. Mukherjee, and S. Nandi, JHEP 12, 052                are still mediated by heavy particles, such that no peak
+     (2020), 2007.13778.                                               in the q 2 spectrum occurs.
+[51] L. Darmé, M. Fedele, K. Kowalska, and E. M. Sessolo,        [75] A light Z ′ boson in b → sℓ+ ℓ− has been proposed and
+     JHEP 03, 085 (2022), 2106.12582.                                  studied in the literature [44–52], however it cannot ex-
+[52] A. Greljo, Y. Soreq, P. Stangl, A. E. Thomsen, and J. Zu-         plain the b → sℓ+ ℓ− anomalies because of di-muon invari-
+     pan, JHEP 04, 151 (2022), 2107.07518.                             ant mass distribution in Drell-Yan production close to the
+[53] A. Crivellin, C. A. Manzari, W. Altmannshofer, G. In-             Z mass [49] or e+ e− → µ+ µ− +invisible at Belle II [70]
+     guglia, P. Feichtinger, and J. Martin Camalich, Phys.             and B → K (∗) ν ν̄ [57].
+     Rev. D 106, L031703 (2022), 2202.12900.                      [76] Also a CLEO [71] analysis exists which is however not
+[54] J. P. Lees et al. (BaBar), Phys. Rev. D 87, 112005 (2013),        competitive.
+     1303.7465.                                                   [77] If one considers specifically the Belle II ITA, which is
+[55] P. del Amo Sanchez et al. (BaBar), Phys. Rev. D 82,               the most sensitive of the two presented, the signifi-
+     112002 (2010), 1009.1529.                                         cance of the signal is slightly higher, providing Br[B + →
+[56] O. Lutz et al. (Belle), Phys. Rev. D 87, 111103 (2013),           K + ν ν̄]=(2.8 ± 0.7) × 10−5 , which is in tension with the
+     1303.3719.                                                        SM predictions at the 3.3 σ level. We assume that the
+[57] J. Grygier et al. (Belle), Phys. Rev. D 96, 091101 (2017),        two analyses, ITA and HTA, select two independent pop-
+     [Addendum: Phys.Rev.D 97, 099902 (2018)], 1702.03224.             ulations of events; in other words, we assume no sta-
+[58] M. T. Prim et al. (Belle), Phys. Rev. D 101, 032007               tistical correlation between the two individual ITA and
+     (2020), 1911.03186.                                               HTA measurements, which is justified by the small sam-
+[59] F. Abudinén et al. (Belle-II), Phys. Rev. Lett. 127,             ple overlap.
+     181802 (2021), 2104.12624.                                   [78] We checked that the significance is to a good approxima-
+[60] W. G. Parrott, C. Bouchard, and C. T. H. Davies                   tion independent of the function used to parameterize the
+     (HPQCD), Phys. Rev. D 107, 014511 (2023), [Erratum:               resonance X as long as its width captures the resolution
+     Phys.Rev.D 107, 119903 (2023)], 2207.13371.                       of the detector. However, if e.g. a Crystal-ball function is
+[61] D. Bečirević, G. Piazza, and O. Sumensari, Eur. Phys. J.        used instead, a slightly lower mass of X is obtained.
+     C 83, 252 (2023), 2301.06990.                                [79] This requirement excludes the often studied Lµ − Lτ Z ′
+[62] Y. Amhis, M. Kenzie, M. Reboud, and A. R. Wiederhold              boson [67, 72].
+     (2023), 2309.11353.                                          [80] Note that in case the new CP-odd and CP-even Higgses
+[63] L. Heinrich, M. Feickert, G. Stark, and K. Cranmer, J.            of each doublet are quasi-degenerate, the effect in Bq − B̄q
+     Open Source Softw. 6, 2823 (2021).                                mixing is suppressed [73].
+[64] W. G. Parrott, C. Bouchard, and C. T. H. Davies              [81] This differs from the results found in Ref. [19] where a
+     ((HPQCD collaboration)§, HPQCD), Phys. Rev. D 107,                mass of X of a few hundred GeV was proposed.
+     014510 (2023), 2207.12468.                                   [82] Note that this does not fully capture the systematic
+[65] N. Gubernari, M. Reboud, D. van Dyk, and J. Virto                 uncertainty associated with the Belle-II measurement,
+     (2023), 2305.06301.                                               which includes other sources attributed to experimental
+[66] A. Bharucha, D. M. Straub, and R. Zwicky, JHEP 08,                effects that cannot be included in this study. Further-
+     098 (2016), 1503.05534.                                           more, the fit conducted here has larger statistical uncer-
+[67] W. Altmannshofer, S. Gori, M. Pospelov, and I. Yavin,             tainties due to the lack of access to full Monte Carlo sam-
+     Phys. Rev. D 89, 095033 (2014), 1403.1269.                        ples. However, it should provide a reasonable estimate.
+[68] A. Crivellin, G. D’Ambrosio, and J. Heeck, Phys. Rev. D
+     91, 075006 (2015), 1503.03477.
+

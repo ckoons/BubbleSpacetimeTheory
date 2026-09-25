@@ -1,0 +1,812 @@
+                                                                            First search for B → Xs ν ν̄ decays
+
+                                          M. Abumusabh , I. Adachi , K. Adamczyk , L. Aggarwal , H. Ahmed , Y. Ahn , H. Aihara , N. Akopov ,
+                                                 S. Alghamdi , M. Alhakami , A. Aloisio , N. Althubiti , K. Amos , N. Anh Ky , C. Antonioli ,
+                                             D. M. Asner , H. Atmacan , T. Aushev , M. Aversano , R. Ayad , V. Babu , H. Bae , N. K. Baghel ,
+                                           S. Bahinipati , P. Bambade , Sw. Banerjee , M. Barrett , M. Bartl , J. Baudot , A. Baur , A. Beaubien ,
+                                           F. Becherer , J. Becker , J. V. Bennett , F. U. Bernlochner , V. Bertacchi , M. Bertemes , E. Bertholet ,
+                                            M. Bessner , S. Bettarini , V. Bhardwaj , B. Bhuyan , F. Bianchi , T. Bilka , D. Biswas , A. Bobrov ,
+                                            D. Bodrov , A. Bondar , G. Bonvicini , J. Borah , A. Boschetti , A. Bozek , M. Bračko , P. Branchini ,
+                                               R. A. Briere , T. E. Browder , A. Budano , S. Bussino , Q. Campagna , M. Campajola , L. Cao ,
+                                            G. Casarosa , C. Cecchi , M.-C. Chang , P. Chang , P. Cheema , L. Chen , B. G. Cheon , C. Cheshta ,
+                                              H. Chetri , K. Chilikin , J. Chin , K. Chirapatpimol , H.-E. Cho , K. Cho , S.-J. Cho , S.-K. Choi ,
+                                             S. Choudhury , J. A. Colorado-Caicedo , I. Consigny , L. Corona , J. X. Cui , E. De La Cruz-Burelo ,
+                                           S. A. De La Motte , G. de Marino , G. De Nardo , G. De Pietro , R. de Sangro , M. Destefanis , S. Dey ,
+                                              A. Di Canto , J. Dingfelder , Z. Doležal , I. Domı́nguez Jiménez , T. V. Dong , X. Dong , K. Dugic ,
+
+
+
+
+arXiv:2511.10980v2 [hep-ex] 12 Jun 2026
+                                            G. Dujany , P. Ecker , R. Farkas , P. Feichtinger , T. Ferber , T. Fillinger , C. Finck , G. Finocchiaro ,
+                                           F. Forti , A. Frey , B. G. Fulsom , A. Gabrielli , A. Gale , E. Ganiev , M. Garcia-Hernandez , R. Garg ,
+                                            L. Gärtner , G. Gaudino , V. Gaur , V. Gautam , A. Gaz , A. Gellrich , G. Ghevondyan , D. Ghosh ,
+                                           H. Ghumaryan , G. Giakoustidis , R. Giordano , A. Giri , P. Gironella Gironell , A. Glazov , B. Gobbo ,
+                                                 R. Godang , O. Gogota , P. Goldenzweig , W. Gradl , E. Graziani , D. Greenwald , Y. Guan ,
+                                               K. Gudkova , I. Haide , Y. Han , C. Harris , H. Hayashii , S. Hazra , C. Hearty , M. T. Hedges ,
+                                              A. Heidelbach , G. Heine , I. Heredia de la Cruz , M. Hernández Villanueva , T. Higuchi , M. Hoek ,
+                                               M. Hohmann , R. Hoppe , P. Horak , X. T. Hou , C.-L. Hsu , A. Huang , T. Humair , T. Iijima ,
+                                                K. Inami , G. Inguglia , N. Ipsita , A. Ishikawa , R. Itoh , M. Iwasaki , P. Jackson , D. Jacobi ,
+                                                 W. W. Jacobs , D. E. Jaffe , E.-J. Jang , Q. P. Ji , S. Jia , Y. Jin , A. Johnson , K. K. Joo ,
+                                              A. B. Kaliyar , J. Kandra , K. H. Kang , S. Kang , G. Karyan , T. Kawasaki , F. Keil , C. Ketter ,
+                                            C. Kiesling , C.-H. Kim , D. Y. Kim , J.-Y. Kim , K.-H. Kim , Y.-K. Kim , H. Kindo , K. Kinoshita ,
+                                           P. Kodyš , T. Koga , S. Kohani , K. Kojima , A. Korobov , S. Korpar , E. Kovalenko , R. Kowalewski ,
+                                               P. Križan , P. Krokovny , T. Kuhr , Y. Kulii , D. Kumar , K. Kumara , T. Kunigo , A. Kuzmin ,
+                                          Y.-J. Kwon , S. Lacaprara , K. Lalwani , T. Lam , J. S. Lange , T. S. Lau , M. Laurenza , R. Leboucher ,
+                                                F. R. Le Diberder , H. Lee , M. J. Lee , C. Lemettais , P. Leo , P. M. Lewis , C. Li , H.-J. Li ,
+                                             L. K. Li , Q. M. Li , S. X. Li , W. Z. Li , Y. Li , Y. B. Li , Y. P. Liao , J. Libby , J. Lin , S. Lin ,
+                                             Z. Liptak , M. H. Liu , Q. Y. Liu , Y. Liu , Z. Liu , D. Liventsev , S. Longo , A. Lozar , T. Lueck ,
+                                                T. Luo , C. Lyu , J. L. Ma , Y. Ma , M. Maggiora , S. P. Maharana , R. Maiti , G. Mancinelli ,
+                                             R. Manfredi , E. Manoni , M. Mantovano , D. Marcantonio , S. Marcello , C. Marinas , C. Martellini ,
+                                            A. Martens , T. Martinov , L. Massaccesi , M. Masuda , D. Matvienko , S. K. Maurya , M. Maushart ,
+                                            J. A. McKenna , Z. Mediankin Gruberová , R. Mehta , F. Meier , D. Meleshko , M. Merola , C. Miller ,
+                                          M. Mirra , S. Mitra , K. Miyabayashi , H. Miyake , R. Mizuk , G. B. Mohanty , S. Mondal , S. Moneta ,
+                                          A. L. Moreira de Carvalho , H.-G. Moser , M. Mrvar , H. Murakami , R. Mussa , I. Nakamura , M. Nakao ,
+                                            Y. Nakazawa , M. Naruki , Z. Natkaniec , A. Natochii , M. Nayak , M. Neu , S. Nishida , R. Nomaru ,
+                                           S. Ogawa , R. Okubo , H. Ono , Y. Onuki , F. Otani , G. Pakhlova , A. Panta , S. Pardi , K. Parham ,
+                                                 J. Park , S.-H. Park , B. Paschen , A. Passeri , S. Patra , S. Paul , T. K. Pedlar , I. Peruzzi ,
+                                            R. Pestotnik , M. Piccolo , L. E. Piilonen , P. L. M. Podesta-Lerma , T. Podobnik , C. Praz , S. Prell ,
+                                              E. Prencipe , M. T. Prim , S. Privalov , I. Prudiiev , H. Purwar , P. Rados , G. Raeuber , S. Raiz ,
+                                                V. Raj , K. Ravindran , J. U. Rehman , M. Reif , S. Reiter , L. Reuter , D. Ricalde Herrmann ,
+                                              I. Ripp-Baudot , G. Rizzo , S. H. Robertson , J. M. Roney , A. Rostomyan , N. Rout , L. Salutari ,
+                                          D. A. Sanders , S. Sandilya , L. Santelj , C. Santos , V. Savinov , B. Scavino , C. Schmitt , S. Schneider ,
+                                           M. Schnepf , K. Schoenning , C. Schwanda , Y. Seino , A. Selce , K. Senyo , J. Serrano , M. E. Sevior ,
+                                             C. Sfienti , W. Shan , G. Sharma , X. D. Shi , T. Shillington , T. Shimasaki , J.-G. Shiu , D. Shtol ,
+                                           B. Shwartz , A. Sibidanov , F. Simon , J. B. Singh , J. Skorupa , R. J. Sobie , M. Sobotzik , A. Soffer ,
+                                          A. Sokolov , E. Solovieva , S. Spataro , K. Špenko , B. Spruck , M. Starič , P. Stavroulakis , S. Stefkova ,
+                                            R. Stroili , M. Sumihama , K. Sumisawa , N. Suwonjandee , H. Svidras , M. Takahashi , M. Takizawa ,
+                                                                                                                               2
+
+  U. Tamponi , S. Tanaka , S. S. Tang , K. Tanida , F. Tenchini , F. Testa , A. Thaller , T. Tien Manh ,
+    O. Tittel , R. Tiwary , E. Torassa , F. F. Trantou , I. Tsaklidis , M. Uchida , I. Ueda , T. Uglov ,
+    K. Unger , Y. Unno , K. Uno , S. Uno , P. Urquijo , Y. Ushiroda , S. E. Vahsen , R. van Tonder ,
+K. E. Varvell , M. Veronesi , V. S. Vismaya , L. Vitale , V. Vobbilisetti , R. Volpe , M. Wakai , S. Wallner ,
+   M.-Z. Wang , X. L. Wang , Z. Wang , A. Warburton , S. Watanuki , C. Wessel , E. Won , X. P. Xu ,
+ S. Yamada , W. Yan , S. B. Yang , J. Yelton , K. Yi , J. H. Yin , K. Yoshihara , C. Z. Yuan , J. Yuan ,
+L. Zani , F. Zeng , M. Zeyrek , B. Zhang , V. Zhilich , J. S. Zhou , Q. D. Zhou , L. Zhu , and R. Žlebčı́k
+                                         (The Belle II Collaboration)
+
+                We report the first search for the flavor-changing neutral-current decays B → Xs ν ν̄, where Xs
+             is a hadronic system with strangeness equal to 1, in data collected with the Belle II detector at
+             the SuperKEKB asymmetric-energy e+ e− collider. The data sample corresponds to an integrated
+             luminosity of 365 fb−1 collected at the Υ (4S) resonance and 43 fb−1 collected at a center-of-mass
+             energy 60 MeV below resonance for estimation of e+ e− → q q̄ continuum background. One of the
+             B mesons from the Υ (4S) → BB decay is fully reconstructed in a hadronic decay mode. The
+             B → Xs ν ν̄ decay is reconstructed with a sum-of-exclusives approach that uses 30 Xs decay modes.
+             This approach provides high sensitivity to the inclusive decay, despite the presence of two undetected
+                                                                                           true
+             neutrinos. The search is performed in three regions of the Xs mass, MX          s
+                                                                                                , chosen to separate
+                                       ∗
+             contributions from K, K (892), and heavier strange final states. We do not observe a significant
+             signal and set upper limits at 90% confidence level on the partial branching fractions for the regions
+             0.0 < MX  true
+                         s
+                            < 0.6 GeV/c2 , 0.6 < MX  true
+                                                       s
+                                                          < 1.0 GeV/c2 , and 1.0 GeV/c2 < MX      true
+                                                                                                    s
+                                                                                                       of 2.2 × 10−5 ,
+                     −5                −5
+             9.3 × 10 , and 30.9 × 10 , respectively. Combining the three mass regions, we obtain the upper
+             limit on the branching fraction, B(B → Xs ν ν̄) < 3.3 × 10−4 .
+
+
+   Flavor changing neutral current b → sν ν̄ decays are            B + → τ + (→ Xs+ ν̄)ν decay. The inclusive B → Xs ν ν̄
+suppressed in the Standard Model (SM) due to the GIM               and exclusive B → Kν ν̄ branching fractions have differ-
+mechanism [1], and occur only via loop diagrams (Fig. 1).          ent dependence on the parameters of physics beyond the
+The absence of charged leptons in the final state allows           SM and can be related with a sum rule [6, 11], which
+precise theoretical predictions, in contrast to b → sℓ+ ℓ−         provides strong motivation for the inclusive search. The
+decays, which have contributions from photon exchange              ALEPH collaboration searched for b-hadrons decaying
+between charged particles and a charm loop [2]. The de-            with large missing energy at the Z-pole and set an up-
+cay rates can be enhanced by physics beyond the SM; for            per limit on B(b → sν ν̄) of 6.4 × 10−4 at 90% confidence
+example, virtual contributions from heavy particles such           level (C.L.) [12]. However, unlike for B mesons, there is
+                            ′
+as leptoquarks [3] or a Z boson [4]. The experimental              no established theoretical framework that provides reli-
+signature is also sensitive to new invisible particles, such       able predictions for inclusive b-hadron decays.
+as invisible light scalars [5] or fermionic dark matter [6].          In this Letter, we report the first search for B → Xs ν ν̄,
+                                                                   where B and Xs denote both charged and neutral states.
+                                                                   The data sample consists of 365.4 ± 1.7 fb−1 and con-
+                                                                   tains (387.1 ± 5.6) × 106 Υ (4S) → BB decays col-
+                                                                   lected by the Belle II [13] detector at the SuperKEKB
+                                                                   asymmetric-energy e+ e− collider [14]. An additional
+                                                                   sample of 42.7 ± 0.2 fb−1 collected at an energy 60 MeV
+                                                                   below the Υ (4S) peak (off-resonance data) is used for as-
+   (a) Penguin diagram                 (b) Box diagram             sessing the background from the continuum e+ e− → q q̄
+FIG. 1: The leading order SM diagrams for quark-level b →
+                                                                   process, where q is a u, d, s, or c quark.
+sν ν̄ decays.                                                         The Belle II detector consists of a two-layer sil-
+                                                                   icon pixel detector (PXD), a four-layer silicon ver-
+   The Belle II collaboration found evidence for the ex-           tex detector, a central drift chamber (CDC), a
+clusive decay B + → K + ν ν̄, measuring a branching frac-          time of propagation (TOP) counter, an aerogel ring-
+tion B(B + → K + ν ν̄) = (2.3 ± 0.7) × 10−5 [7], which             imaging Cherenkov detector (ARICH), an electromag-
+is 2.7 standard deviations above the SM prediction,                netic calorimeter (ECL), a superconducting solenoid, and
+(5.04 ± 0.40) × 10−6 [8, 9]. Inclusive B → Xs ν ν̄ decays,         a KL0 and muon detector (KLM). The symmetry axis of
+where Xs denotes a hadronic system with strangeness                these detectors, defined as the z-axis, is approximately
+equal to 1, have not been studied. The branching fraction          in the direction of the electron beam [13].
+B(B → Xs ν ν̄) is predicted to be (2.9 ± 0.3) × 10−5 in the          The Belle II software framework (basf2) [15, 16] is
+SM [10], excluding the long-distance contribution from             used for event reconstruction. Monte Carlo simulated
+                                                                                                                               3
+
+samples are used to optimize the analysis. B-meson pro-           KL0 contribution is equal to that of KS0 . In total, the
+duction and decay are simulated using the EvtGen [17]             reconstructed modes constitute 93% of the B → Xs ν ν̄
+program; q q̄ background samples are generated with the           branching fraction in the signal simulation samples.
+Pythia8 [18] and KKMC [19] software; photon radia-                   The Xs -candidate reconstruction proceeds as follows.
+tion from charged particles is simulated using the PHO-           Except for π ± from KS0 candidates, the distance of clos-
+TOS [20] package; and the Geant4 program is used to               est approach of a track to the interaction point (IP) is
+simulate the detector response to the passage of parti-           required to satisfy dr < 0.5 cm in the transverse plane
+cles [21].                                                        and |dz| < 2 cm along the z-axis. The numbers of hits
+    We produce signal simulation samples consisting of in-        in the PXD and CDC must be greater than 0 and 20,
+dividually generated contributions: exclusive B → Kν ν̄           respectively. Kaon and pion candidates are selected us-
+and B → K ∗ ν ν̄ decays, where K ∗ denotes the K ∗ (892)          ing charged particle identification (PID) likelihoods, built
+resonance, and non-resonant B → Xs ν ν̄ decays. The               using information from the SVD, CDC, TOP, ARICH,
+B → Kν ν̄ and B → K ∗ ν ν̄ decays are generated us-               ECL, and KLM subsystems.
+ing form factors calculated in lattice QCD computa-                  Photon candidates are reconstructed from ECL clus-
+tions [8, 22] or light-cone sum rules [23]. The non-              ters not geometrically matched to charged tracks; to
+resonant B → Xs ν ν̄ sample is generated with the re-             guarantee that clusters do not originate from charged
+quirement that the mass MX        true
+                                         of the Xs system be      particles, their polar angle θ must be within the CDC
+                                    s
+greater than 1.1 GeV/c2 . This requirement is motivated           acceptance, 17◦ < θ < 150◦ . The energy of a photon can-
+by the study of the B → Xs γ decay [24], as well as               didate must be greater than 80 MeV, 30 MeV, or 60 MeV
+B 0 → K + π − µ+ µ− and B + → K + π + π − µ+ µ− decays,           for candidates detected in the forward, barrel, and back-
+which do not show clear components below this mass                ward regions of the ECL, respectively.
+threshold except K ∗ resonance [25, 26]. The exclusive               We reconstruct π 0 candidates from pairs of photon can-
+K ∗ ν ν̄ samples are generated without restrictions on the        didates with invariant mass in the range 120 < mγγ <
+mass MX    true
+                . To simulate the MX  true
+                                           distribution, we use   145 MeV/c2 . The momentum of π 0 candidates must be
+             s                          s
+the Fermi motion model [27–29], assuming the momen-               larger than 0.4 GeV/c. We require the absolute difference
+tum of the b-quark follows a Gaussian distribution. The           in azimuthal angle between the two photons to be less
+fragmentation of the final-state hadrons is simulated us-         than 1.5 rad in the laboratory frame. Additionally, the
+ing Pythia8. The invariant mass squared of the neu-               opening angle must be smaller than 1.4 rad.
+trino pair, q 2 , is simulated according to the SM [30]. The         We reconstruct KS0 candidates from two oppositely
+long-distance B + → τ + (→ Xs+ ν̄)ν decays are treated as         charged tracks, for which a vertex fit [32] is performed
+background and included in the background sample.                 and required to converge. The significance of the dis-
+    One B meson, denoted Btag , is fully reconstructed            tance from this vertex to the IP must be larger than 50.
+in a hadronic decay mode by the full event interpre-              We require the invariant mass of KS0 -candidates to be
+tation (FEI) algorithm [31]. The FEI assigns a prob-              within 10 MeV/c2 of the nominal KS0 mass [33].
+ability to each Btag candidate based on a multivari-                 To suppress combinatorial background, the recon-
+                                                                                                                      reco
+ate classifier, indicating how likely the candidate is            structed invariant mass of the Xs candidate (MX       s
+                                                                                                                           ) must
+                                                                                              2
+to be properly reconstructed in a given mode. Can-                be lower than 2.0 GeV/c . A decay-chain vertex fit [32]
+didates with a probability greater than 0.001 are se-             is required to converge for Xs candidates in decay modes
+lected. We require Btag candidates to satisfy selec-              with two or more charged tracks. The c.m.-frame mo-
+tions on the beam-energy-constrained mass, Mbc ≡                  mentum of the Xs must satisfy 0.5 < p∗Xs < 2.96 GeV/c.
+q
+     √       2         2                                          To suppress backgrounds from D mesons, Xs candidates
+    ( s/2) − |p∗B c| /c2 > 5.27 GeV/c2 , and the energy           with MX    reco
+                                                                                  in the range [1.84, 1.89] GeV/c2 are rejected.
+                          ∗
+                               √                           √                   s
+difference, |∆E| ≡ |EB      − ( s/2)| < 0.2 GeV. Here, s,                   0
+                                                                  The Xs flavor is assigned based on the net charge of
+  ∗            ∗
+pB , and EB are the SuperKEKB center-of-mass (c.m.)               the associated kaons; if zero, the flavor is undetermined.
+energy, and the momentum and energy of the B meson                Pairs of Xs and Btag candidates are further considered
+in the c.m. system, respectively.                                 only if they have total charge zero and opposite flavor
+    Particle candidates not used to reconstruct the Btag          (where determined).
+are used to form the Xs candidate. We use a sum-of-                  The dineutrino system can be mimicked by particles
+exclusive decays method to reconstruct the Xs candidate,          outside the detector acceptance. Therefore, we require
+which provides high sensitivity to the inclusive decay,           the polar angleP of the missing momentum p⃗miss = p⃗e+ e− −
+                                                                      p⃗track − p⃗γ to be in the detector acceptance, 17◦ <
+                                                                  P
+despite the presence of two undetected neutrinos. The
+Xs candidate is reconstructed in 30 decay modes: Knπ              θmiss < 150◦ . Here, p⃗track and p⃗γ are the momenta of
+(0 ≤ n ≤ 4) with at most two π 0 , and 3Knπ (0 ≤ n ≤ 1)           charged tracks and photon candidates.
+with at most one π 0 and one KS0 , where K indicates K ±             For each combination of Xs and Btag candidates, the
+or KS0 . These decay modes cover 83% of the non-resonant          tracks or photon candidates not used in the reconstruc-
+Xs decay in the signal simulation samples, assuming the           tion of these candidates form the rest-of-event. The num-
+                                                                                                                               4
+
+bers of tracks from the IP, π 0 , and KS0 candidates in the     0.986, 0.993, 1.0], [0.86, 0.8925, 0.925, 0.95, 0.975, 1.0],
+rest-of-event are required to be zero. The rest-of-event        and [0.86, 0.9, 0.94, 0.96, 0.98, 1.0], respectively. These
+is allowed to contain photon candidates and tracks with         bin boundaries are chosen to maximize sensitivity with-
+dr > 2 cm or |dz| > 4 cm. We calculate the total lab-           out introducing fit bias, which is verified by a pseudo-
+frame energy Eextra as the sum of all photon candidates         experiment study. For simplicity, bin indices are assigned
+with energies greater than 100, 60, and 150 MeV in the          from 1 to 15. The indices range from 1 to 5 in MR1, from
+forward, barrel, and backward regions of the ECL, re-           6 to 10 in MR2, and from 11 to 15 in MR3, increasing
+spectively. Eextra is required to be less than 1.3 GeV, and     along the positive OBDT axis within each mass region.
+is further used for background suppression, as explained           We perform a binned maximum likelihood fit to the
+later.                                                             reco
+                                                                MX   s
+                                                                        × OBDT distribution to determine the signal yields
+                                                                               true                       true
+   After these selections, the average multiplicity of          in three MX      s
+                                                                                     regions; 0.0 < MX      s
+                                                                                                               < 0.6 GeV/c2 ,
+Btag Xs candidates per event is 1.71 in simulated sig-          0.6 ≤ MXs < 1.0 GeV/c and 1.0 GeV/c2 ≤ MX
+                                                                            true                2                          true
+                                                                                                                             s
+                                                                                                                                ,
+nal samples and 1.45 in data. In each event, we retain                     true
+                                                                where MXs is the true mass of the Xs system, obtained
+only the candidates with the highest Btag FEI probabil-         from the simulation. The relationship between recon-
+ity. After this, the average multiplicity is reduced to 1.06    structed and true mass, including cross-feed between re-
+for simulated signal samples and 1.13 for data, with neg-       gions, is derived from the signal simulation. We use the
+ligible statistical uncertainty. Multiple candidates arise      HistFactory [36] package to construct the probability
+from the exchange of photons or tracks that are displaced       density function (PDF) as the product of Poisson distri-
+from the IP, which are not vetoed in the rest-of-event. If      butions and auxiliary terms. The expected numbers of
+multiple signal candidates remain, we select one at ran-        events for the Poisson distributions are determined from
+dom.                                                            simulation and includes correction factors and system-
+   The dominant background contributions arise from             atic uncertainties, described below. We introduce nui-
+continuum e+ e− → q q̄ processes and non-signal BB de-          sance parameters to the likelihood with Gaussian con-
+cays. To suppress them, we use a boosted decision tree          straints and parametrize systematic uncertainties as aux-
+(BDT) [34]. The BDT uses 32 input variables: 26 vari-           iliary terms. The values of the nuisance parameters and
+ables related to kinematics, the rest-of-event, and event       the signal branching fractions are determined by the fit.
+shape, selected for their separation power and good data-          Data-driven corrections are applied to the modeling.
+simulation agreement, and 6 variables specifically de-          The B + → K + ν ν̄ analysis [7] observed a mismodeling
+signed to suppress backgrounds from D mesons. The               of the photon multiplicity in Belle II. This mismodel-
+list of input variables is provided in the Supplemental         ing likely arises from beam-related backgrounds and en-
+Material [35].                                                  ergy deposits from hadrons. To address this, we compare
+   Among the 32 BDT-input variables, Eextra provides            the photon multiplicity distributions in data and simu-
+                                                                                   ±
+the largest signal-background discrimination. We re-            lation using Btag    Xs0 candidates formed by combining a
+quire the BDT output, denoted OBDT and ranging from             charged Btag candidate and a neutral Xs candidate. Cor-
+0 to 1, to be greater than 0.86. This criterion is cho-         rection factors are derived from the ratio of data to sim-
+sen to include the point thatpmaximizes the figure of           ulation. We reweight simulation samples as a function
+merit (FOM), defined as Nsig / Nsig + Nbkg where Nsig           of the photon multiplicity to correct for the disagree-
+and Nbkg are the expected numbers of signal and back-           ment. The simulation of the fragmentation of the Xs
+ground events. According to the simulation, the OBDT            system is corrected using results from a measurement of
+                                                                                              true
+requirement retains 68% of signal events while rejecting        B → Xs γ [37] in three MX       s
+                                                                                                   regions: [1.15, 1.5] GeV/c2 ,
+97% of background. The expected background yield is             [1.5, 2.0] GeV/c , and [2.0, 2.4] GeV/c2 . Corrections are
+                                                                                   2
+
+3338 events, comprising 1568 q q̄ and 1770 BB events.           applied to nine decay mode categories: Kπ without π 0 ,
+This total includes 4.0±0.9 events from the B + → τ + (→        Kπ with one π 0 , K2π without π 0 , K2π with one π 0 , K3π
+Xs+ ν̄)ν background. In the simulated signal sample, the        without π 0 , K3π with one π 0 , K4π with at most one π 0 ,
+ratio of charged to neutral B decay modes is approxi-           decay modes including 2π 0 , and decay modes including
+mately 2.7:1.                                                   3K. The B → Xs nn̄ and B → Xs KL0 KL0 decays consti-
+                                      reco
+   A signal region is defined in MX     s
+                                           × OBDT space and     tute peaking backgrounds and require accurate modeling.
+divided into 3 × 5 bins. The bin boundaries along the           For the modeling of B → K (∗) nn̄ decays, branching frac-
+   reco
+MX   s
+        axis, [0.0, 0.6, 1.0, 2.0] GeV/c2 , correspond to re-   tions are corrected using measurements of B → K (∗) pp̄
+gions dominated by K, K ∗ , and higher-mass Xs states,          decays [38–40], and the distribution of neutron-pair in-
+labeled MR1, MR2, and MR3. The boundary between                 variant mass, Mnn̄ , is modeled using the distribution of
+MR2 and MR3 is set to 1.0 GeV/c2 , slightly below the           proton-pair mass, Mpp̄ , from these decays. To correct the
+non-resonant generation threshold of 1.1 GeV/c2 , to min-       remaining B → Xs nn̄ simulation samples, we reconstruct
+imize sensitivity to the modeling of the non-resonant Xs        B → Xs pp̄ events in data and use the measured Mpp̄
+generation point. In MR1, MR2, and MR3, the bin                 distribution to reweight the simulated Mnn̄ shape. The
+boundaries along the OBDT axis are [0.86, 0.9195, 0.979,        kinematics and branching fractions of B + → K + KL0 KL0
+                                                                                                                               5
+
+and B 0 → KS0 KL0 KL0 are corrected based on the observed
+                                                                  TABLE I: Summary of the dominant systematic uncertain-
+B + → K + KS0 KS0 [41] and B 0 → KS0 KS0 KS0 [42, 43] dis-        ties and the total contribution from subdominant uncertain-
+tributions, respectively. The modeling of B → K ∗ KL0 KL0         ties on B(B → Xs ν ν̄) in the entire MXtrue
+                                                                                                              range. The impact
+                                                                                                           s
+and the remaining B → Xs KL0 KL0 decays is corrected              on the branching fraction uncertainty σB from each source is
+using reconstructed B → K ∗ KS0 KS0 and B → Xs KS0 KS0            estimated by fixing the corresponding nuisance parameter in
+decays.                                                           the minimization procedure and subtracting its uncertainty
+   Four samples are used for corrections to and validation        in quadrature from the total uncertainty. Due to correlations
+                                                                  among sources, the quadrature sum of individual uncertain-
+of the PDFs, and for estimating the PDF-related system-
+                                                                  ties does not equal the total uncertainty.
+atic uncertainties: the off-resonance data, an Mbc side-
+band, an OBDT sideband, and a B → J/ψXs sample. To                Source                                Impact on σB [10−5 ]
+estimate the systematic uncertainty for the OBDT distri-          Simulated-sample size                         6.0
+bution for e+ e− → q q̄ background, a BDT with the same           Background normalization                      5.7
+input variables is trained to distinguishp off-resonance          Branching fractions of major B-decays         2.3
+data from simulation [44]. A weight t/(1 − t), where              Non-resonant Xs ν ν̄ generation range         2.1
+t is the BDT output, is applied to each event of the on-          OBDT selection efficiency                     2.1
+resonance e+ e− → q q̄ simulation sample. The resulting           Photon multiplicity correction                1.8
+OBDT distribution is used in the fit, and the changes in          q q̄ background efficiency                    1.8
+the signal branching fractions are taken as systematic            Other subdominant contributions               3.1
+uncertainties. Additionally, data-to-simulation efficiency        Total systematic sources                     11.7
+ratios are measured to be 1.21 ± 0.13, 0.90 ± 0.20, and
+0.78± 0.10 for MR1, MR2, and MR3, respectively. These
+ratios are applied as correction factors to the q q̄ efficien-
+cies, and their statistical uncertainties are assigned as         tion factor, we compare the photon multiplicity distri-
+systematic uncertainties. The OBDT distribution for BB            butions in data and simulation with Btag     0
+                                                                                                                  Xs± candidates.
+events is validated with the Mbc sideband, defined as             The residual difference is assigned as the systematic un-
+5.20 GeV/c2 < Mbc < 5.26 GeV/c2 , and with the OBDT               certainty of photon multiplicity correction factor. The
+                                                                                              true
+sideband, defined as 0.80 < OBDT < 0.86. We com-                  lower bound on the MX         s
+                                                                                                   mass when generating the
+pare the efficiencies of the OBDT requirement between             non-resonant B → Xs ν ν̄ component is set to 1.1 GeV/c2 .
+data and simulation samples using B → J/ψXs events                We assign a systematic uncertainty of ±0.1 GeV/c2 to
+with J/ψ → µ+ µ− . The reconstruction and selection               this value, which is conservatively estimated from the
+procedures are the same as for the B → Xs ν ν̄ analysis,          MX true
+                                                                       s
+                                                                          distribution of B → Xs γ, B 0 → K + π − µ+ µ− , and
+except for the selection of a J/ψ → µ+ µ− candidate.              B → K + π + π − µ+ µ− decays [24–26]. The impact of an
+                                                                    +
+                                                                                                         true
+We require the invariant mass of the J/ψ candidate to             S-wave Kπ component in the MX            s
+                                                                                                              < 1.0 GeV/c2 region
+be within 0.05 GeV/c2 of the nominal mass [33]. The               was determined with simulation to have a negligible ef-
+B candidate from the B → J/ψXs decay must satisfy                 fect. The impact of varying the branching fractions of
+Mbc > 5.25 GeV/c2 and |∆E| < 0.1 GeV. The event                   the leading B meson decays [33] is also included as a sys-
+is then treated as a B → Xs ν ν̄ event by ignoring the            tematic uncertainty. The full list of contributions to the
+muons from J/ψ → µ+ µ− . We verified using simula-                systematic uncertainty, including subdominant contribu-
+tion that the OBDT selection efficiencies are consistent          tions, is included in the Supplemental Material [35].
+between B → J/ψXs and signal decays for MR1 and                      The post-fit distribution of the bin index is shown
+MR2. The data-to-simulation OBDT selection efficiency             in Fig. 2. The branching fractions, given in Table II,
+ratios are 1.00±0.04, 1.05±0.08, and 0.97±0.14 for MR1,           are calculated as B = Nsig /(2 × NBB × ϵ), where NBB
+MR2, and MR3, respectively. These ratios are used as              is determined as in Ref. [45]. The signal distribution
+correction factors, and their statistical uncertainties are       is shown separately in the Supplemental Material [35].
+assigned as systematic uncertainties.                             The observed signal yields are not significant, and up-
+   Table I shows a summary of the dominant system-                per limits (ULs) on the branching fractions are deter-
+atic uncertainties. The finite size of the simulation sam-        mined using the CLs method [46]. The CLs values are
+ples used to determine the PDF shapes is included as              shown in the Supplemental Material [35]. The central
+a source of systematic uncertainty, and is dominated by           value of B(B → Kν ν̄) determined from the fit results is
+the limited statistics of the background simulation sam-          [0.3±0.8(stat)+0.8
+                                                                                  −0.7 (syst)]×10
+                                                                                                   −5
+                                                                                                      , consistent with the value
+                                                                       +0.9      +0.8
+ples. The ratio of data to simulation in the Mbc and              [1.1−0.8 (stat)−0.5 (syst)] × 10−5 obtained in the dedicated
+OBDT sideband regions shows a maximum deviation of                B + → K + ν ν̄ analysis [7].
+12%. A conservative systematic uncertainty of ±20% is                After unveiling the signal region, which had not been
+                                                           reco
+assigned to the background normalization in each MX          s
+                                                                  examined during the optimization of the analysis, we
+region: MR1, MR2, and MR3. To estimate the sys-                   identified and corrected an error in the single-candidate
+tematic uncertainty of the photon multiplicity correc-            selection. This resulted in a 2.6% change in the mean up-
+                                                                                                                                6
+
+                                                                        and set a corresponding 90% C.L. upper limit
+                                                                                      B(B → Xs ν ν̄) < 3.3 × 10−4 .
+                                                                        This branching fraction and upper limit do not include
+                                                                        the contribution from long-distance B + → τ + (→ Xs+ ν̄)ν
+                                                                        decays. This is the first search for inclusive B → Xs ν ν̄
+                                                                        decays and can be used to constrain potential contribu-
+                                                                        tions from physics beyond the SM [11].
+                                                                           This work, based on data collected using the
+                                                                        Belle II detector, which was built and commissioned
+                                                                        prior to March 2019, was supported by Higher Ed-
+                                                                        ucation and Science Committee of the Republic of
+                                                                        Armenia Grant No. 23LCG-1C011; Australian Re-
+                                                                        search Council and Research Grants No. DP200101792,
+                                                                        No. DP210101900, No. DP210102831, No. DE220100462,
+                                                                        No. LE210100098, and No. LE230100085; Aus-
+FIG. 2: The bin index distribution after the fit, for data
+and histogram templates. The background templates are                   trian Federal Ministry of Education, Science and
+separated into 6 categories: charged B meson decay, neu-                Research, Austrian Science Fund (FWF) Grants
+tral B meson decay, and four types of e+ e− → q q̄ back-                DOI:     10.55776/P34529,       DOI:      10.55776/J4731,
+ground (q = u, d, s, c).                                                DOI: 10.55776/J4625, DOI: 10.55776/M3153, and
+                                                                        DOI: 10.55776/PAT1836324, and Horizon 2020 ERC
+                                                                        Starting Grant No. 947006 “InterLeptons”; Natural
+TABLE II: Efficiencies (ϵ), signal yields (Nsig ), and                  Sciences and Engineering Research Council of Canada,
+branching-fraction (B) central values and upper limits, where           Digital Research Alliance of Canada, and Canada
+the subscripts obs and exp indicate observed and expected               Foundation for Innovation; National Key R&D Program
+values, respectively. The efficiencies are determined from the          of China under Contract No. 2024YFA1610503, and
+fit, since they depend on nuisance parameters. The expected             No. 2024YFA1610504 National Natural Science Founda-
+upper limit is calculated from the background-only hypoth-
+                                                                        tion of China and Research Grants No. 11575017,
+esis. The first and second uncertainties are statistical and
+systematic, respectively.                                               No. 11761141009, No. 11705209, No. 11975076,
+                                                                        No. 12135005, No. 12150004, No. 12161141008,
+                                                   B [10−5 ]            No. 12405099, No. 12475093, and No. 12175041,
+   true
+            GeV/c2 ϵ 10−3
+                       
+M Xs                            Nsig      central value ULobs ULexp     and Shandong Provincial Natural Science Foundation
+[0, 0.6]             2.93     6+18 +19          +0.8
+                               −17 −16 0.3 ± 0.8−0.7       2.2    2.0   Project ZR2022JQ02; the Czech Science Foundation
+[0.6, 1.0]           1.32     36+27 +31
+                                −26 −26    3.5+2.7 +3.1
+                                              −2.5 −2.6    9.3    6.4   Grant No. 22-18469S, Regional funds of EU/MEYS:
+[1.0, mB ]           0.63       +45 +63
+                              25−43 −53      +9.2 +12.9
+                                          5.1−8.8 −11.0   30.9   27.3   OPJAK FORTE CZ.02.01.01/00/22 008/0004632 and
+                                                                        Charles University Grant Agency project No. 246122;
+Full range           0.97     66+64 +95
+                                −61 −81   8.8+8.5 +12.6
+                                             −8.2 −10.7   32.7   24.2
+                                                                        European Research Council, Seventh Framework
+                                                                        PIEF-GA-2013-622527, Horizon 2020 ERC-Advanced
+                                                                        Grants No. 267104 and No. 884719, Horizon 2020
+per limit expected from the simulation and a 0.6% change                ERC-Consolidator Grant No. 819127, Horizon 2020
+in the observed upper limit from data.                                  Marie Sklodowska-Curie Grant Agreement No. 700525
+   In summary, we search for B → Xs ν ν̄ decay using                    “NIOBE” and No. 101026516, and Horizon 2020 Marie
+365.4 fb−1 of Υ (4S) and 42.7 fb−1 of off-resonance data                Sklodowska-Curie RISE project JENNIFER2 Grant
+collected by the Belle II experiment. The analysis re-                  Agreement No. 822070 (European grants); L’Institut
+constructs one B meson in a hadronic decay mode and                     National de Physique Nucléaire et de Physique des
+considers 30 exclusive channels in the reconstruction of                Particules (IN2P3) du CNRS and L’Agence Nationale
+the Xs system. No significant signal is observed, and                   de la Recherche (ANR) under Grant No. ANR-23-CE31-
+we set 90% C.L. upper limits on the partial branching                   0018 (France); BMFTR, DFG, HGF, MPG, and AvH
+fractions of 2.2 × 10−5 for 0.0 < MX      true
+                                               < 0.6 GeV/c2 ,           Foundation (Germany); Department of Atomic Energy
+                                            s
+9.3 × 10 for 0.6 < MXs < 1.0 GeV/c , and 3.1 × 10−4
+         −5                true             2                           under Project Identification No. RTI 4002, Department
+for 1.0 GeV/c2 < MX true
+                          . We calculate the branching frac-            of Science and Technology, and UPES SEED funding
+                      s
+tion for the entire MX  true
+                              region by summing the partial             programs No. UPES/R&D-SEED-INFRA/17052023/01
+                          s
+branching fractions to find                                             and No. UPES/R&D-SOE/20062022/06 (India); Israel
+                                                                        Science Foundation Grant No. 2476/17, U.S.-Israel
+                                                       −5
+                                                                        Binational Science Foundation Grant No. 2016113,
+    B(B → Xs ν ν̄) = [8.8+8.5       +12.6
+                         −8.2 (stat)−10.7 (syst)] × 10    ,             and Israel Ministry of Science Grant No. 3-16543;
+                                                                                                                      7
+
+Istituto Nazionale di Fisica Nucleare and the Research     No. DE-SC0010073, No. DE-SC0010118, No. DE-
+Grants BELLE2, and the ICSC – Centro Nazionale             SC0010504, No. DE-SC0011784, No. DE-SC0012704,
+di Ricerca in High Performance Computing, Big Data         No. DE-SC0019230, No. DE-SC0021274, No. DE-
+and Quantum Computing, funded by European Union            SC0021616, No. DE-SC0022350, No. DE-SC0023470;
+– NextGenerationEU; Japan Society for the Promo-           and the Vietnam Academy of Science and Technology
+tion of Science, Grant-in-Aid for Scientific Research      (VAST) under Grants No. NVCC.05.02/25-25 and
+Grants No. 16H03968, No. 16H03993, No. 16H06492,           No. DL0000.05/26-27.
+No. 16K05323, No. 17H01133, No. 17H05405,                     These acknowledgements are not to be interpreted as
+No. 18K03621, No. 18H03710, No. 18H05226,                  an endorsement of any statement made by any of our
+No. 19H00682, No. 20H05850, No. 20H05858,                  institutes, funding agencies, governments, or their repre-
+No. 22H00144, No. 22K14056, No. 22K21347,                  sentatives.
+No. 23H05433, No. 26220706, and No. 26400255, and             We thank the SuperKEKB team for delivering high-
+the Ministry of Education, Culture, Sports, Science, and   luminosity collisions; the KEK cryogenics group for the
+Technology (MEXT) of Japan; National Research Foun-        efficient operation of the detector solenoid magnet and
+dation (NRF) of Korea Grants No. 2021R1-F1A-1064008,       IBBelle on site; the KEK Computer Research Center
+No. 2022R1-A2C-1003993, No. 2022R1-A2C-1092335,            for on-site computing support; the NII for SINET6 net-
+No. RS-2016-NR017151,         No. RS-2018-NR031074,        work support; and the raw-data centers hosted by BNL,
+No. RS-2021-NR060129, No. RS-2023-00208693, No. RS-        DESY, GridKa, IN2P3, INFN, and the University of Vic-
+2024-00354342 and No. RS-2025-02219521, Radiation          toria.
+Science Research Institute, Foreign Large-Size Re-
+                                                              Data availability — Numerical data corresponding to
+search Facility Application Supporting project, the
+                                                           the results presented are available as HEPData [47]. The
+Global Science Experimental Data Hub Center, the
+                                                           full Belle II data are not publicly available. The collab-
+Korea Institute of Science and Technology Information
+                                                           oration will consider requests for access to the data that
+(K25L2M2C3 ) and KREONET/GLORIAD; Universiti               support this article.
+Malaya RU grant, Akademi Sains Malaysia, and Ministry
+of Education Malaysia; Frontiers of Science Program
+Contracts No. FOINS-296, No. CB-221329, No. CB-
+236394, No. CB-254409, and No. CB-180023, and
+SEP-CINVESTAV Research Grant No. 237 (Mexico);              [1] S. L. Glashow, J. Iliopoulos, and L. Maiani, Phys. Rev.
+the Polish Ministry of Science and Higher Education             D 2, 1285 (1970).
+and the National Science Center; the Ministry of Science    [2] A. Khodjamirian, T. Mannel, A. A. Pivovarov, and Y. M.
+and Higher Education of the Russian Federation and              Wang, JHEP 09, 089 (2010).
+                                                            [3] S. Sahoo, R. Mohanta, and A. K. Giri, Phys. Rev. D 95,
+the HSE University Basic Research Program, Moscow;              035027 (2017).
+University of Tabuk Research Grants No. S-0256-1438         [4] A. J. Buras, F. De Fazio, and J. Girrbach, JHEP 02, 116
+and No. S-0280-1439 (Saudi Arabia), and Researchers             (2013).
+Supporting Project number (RSPD2025R873), King              [5] Z. Calcuttawala, A. Kundu, S. Nandi, and S. K. Patra,
+Saud University, Riyadh, Saudi Arabia; Slovenian                Eur. Phys. J. C 77, 650 (2017).
+Research Agency and Research Grants No. J1-50010 and        [6] A. J. Buras, J. Harz, and M. A. Mojahed (2024),
+No. P1-0135; Ikerbasque, Basque Foundation for Science,         arXiv:2405.06742.
+                                                            [7] I. Adachi et al. (Belle II Collaboration), Phys. Rev. D
+State Agency for Research of the Spanish Ministry of
+                                                                109, 112006 (2024).
+Science and Innovation through Grant No. PID2022-           [8] W. G. Parrott, C. Bouchard, and C. T. H. Davies
+136510NB-C33, Spain, Agencia Estatal de Investigacion,          (HPQCD Collaboration), Phys. Rev. D 107, 014511
+Spain Grant No. RYC2020-029875-I and Generalitat Va-            (2023), [Erratum: Phys.Rev.D 107, 119903 (2023)].
+lenciana, Spain Grant No. CIDEGENT/2018/020; The            [9] M. Abumusabh et al. (Belle II Collaboration) (2025),
+Knut and Alice Wallenberg Foundation (Sweden), Con-             2507.12393.
+tracts No. 2021.0174, No. 2021.0299, and No. 2023.0315;    [10] A. J. Buras, J. Girrbach-Noe, C. Niehoff, and D. M.
+                                                                Straub, JHEP 02, 184 (2015).
+National Science and Technology Council, and Ministry      [11] T. Felkl, S. L. Li, and M. A. Schmidt, JHEP 12, 118
+of Education (Taiwan); Thailand Center of Excellence in         (2021).
+Physics; TUBITAK ULAKBIM (Turkey); National Re-            [12] R. Barate et al. (ALEPH Collaboration), Eur. Phys. J.
+search Foundation of Ukraine, Project No. 2020.02/0257,         C 19, 213 (2001).
+and Ministry of Education and Science of Ukraine; the      [13] T. Abe (Belle II collaboration) (2010), arXiv:1011.0352.
+U.S. National Science Foundation and Research Grants       [14] K. Akai, K. Furukawa, and H. Koiso, Nucl. Instrum.
+No. PHY-1913789 and No. PHY-2111604, and the                    Meth. A907, 188 (2018).
+                                                           [15] T. Kuhr, C. Pulvermacher, M. Ritter, T. Hauth, and
+U.S. Department of Energy and Research Awards                   N. Braun (Belle II Framework Software Group), Comput.
+No. DE-AC06-76RLO1830, No. DE-SC0007983, No. DE-                Softw. Big Sci. 3, 1 (2019).
+SC0009824, No. DE-SC0009973, No. DE-SC0010007,             [16] Belle II collaboration, Belle II Analysis Software
+                                                                                                                    8
+
+     Framework (basf2), https://doi.org/10.5281/zenodo.            cays, HEPData (collection) (2026), https://doi.org/
+     5574115.                                                      10.17182/hepdata.169553.
+[17] D. J. Lange, Nucl. Instrum. Meth. A462, 152 (2001).
+[18] T. Sjöstrand, S. Ask, J. R. Christiansen, R. Corke, N. De-
+     sai, P. Ilten, S. Mrenna, S. Prestel, C. O. Rasmussen, and
+     P. Z. Skands, Comput. Phys. Commun. 191, 159 (2015).
+[19] S. Jadach, B. F. L. Ward, and Z. Wa̧s, Comput. Phys.
+     Commun. 130, 260 (2000).
+[20] E. Barberio, B. van Eijk, and Z. Wa̧s, Comput. Phys.
+     Commun. 66, 115 (1991).
+[21] S. Agostinelli et al. (GEANT4 collaboration),
+     Nucl.Instrum.Meth. A506, 250 (2003).
+[22] W. G. Parrott, C. Bouchard, and C. T. H. Davies
+     (HPQCD collaboration), Phys. Rev. D 107, 014510
+     (2023).
+[23] A. Bharucha, D. M. Straub, and R. Zwicky, JHEP 08,
+     098 (2016).
+[24] T. Saito et al. (Belle Collaboration), Phys. Rev. D 91,
+     052004 (2015).
+[25] R. Aaij et al. (LHCb Collaboration), JHEP 11, 047
+     (2016), [Erratum: JHEP 04, 142 (2017)], 1606.04731.
+[26] R. Aaij et al. (LHCb), JHEP 10, 064 (2014), 1408.1137.
+[27] A. Ali, G. Hiller, L. T. Handoko, and T. Morozumi, Phys.
+     Rev. D 55, 4105 (1997).
+[28] C. S. Kim, Y. G. Kim, and K. Y. Lee, Phys. Rev. D 57,
+     4002 (1998).
+[29] Y. Amhis et al. (Heavy Flavor Averaging Group) (2022),
+     updated results and plots available at https://hflav.
+     web.cern.ch/, arXiv:2206.07501.
+[30] W. Altmannshofer, A. J. Buras, D. M. Straub, and
+     M. Wick, JHEP 04, 022 (2009).
+[31] T. Keck et al., Comput. Softw. Big Sci. 3, 6 (2019).
+[32] J.-F. Krohn et al. (Belle II Analysis Software Group),
+     Nucl. Instrum. Meth. A976, 164269 (2020).
+[33] S. Navas et al. (Particle Data Group), Phys. Rev. D 110,
+     030001 (2024).
+[34] T. Keck, Comput. Softw. Big Sci. 1, 2 (2017).
+[35] See Supplemental Material for details of the BDT input
+     variables, systematic uncertainties, and supplementary
+     figures.
+[36] K. Cranmer, A. Shibata, W. Verkerke, L. Moneta, and
+     G. H. Lewis, CERN Report No. CERNOPEN-2012-016
+     (2012).
+[37] S. Watanuki et al. (Belle Collaboration), Phys. Rev. D
+     99, 032012 (2019).
+[38] B. Aubert et al. (BaBar Collaboration), Phys. Rev. D
+     76, 092004 (2007).
+[39] J. H. Chen et al. (Belle Collaboration), Phys. Rev. Lett.
+     100, 251801 (2008).
+[40] J. T. Wei et al. (Belle Collaboration), Phys. Lett. B 659,
+     80 (2008).
+[41] J. P. Lees et al. (BaBar Collaboration), Phys. Rev. D 85,
+     112010 (2012).
+[42] J. P. Lees et al. (BaBar Collaboration), Phys. Rev. D 85,
+     054023 (2012).
+[43] M. Gronau and J. L. Rosner, Phys. Rev. D 72, 094031
+     (2005).
+[44] D. Martschei, M. Feindt, S. Honc, and J. Wagner-
+     Kuhr, Journal of Physics: Conference Series 368, 012028
+     (2012).
+[45] M. Abumusabh et al. (Belle and Belle II Collaborations),
+     Phys. Rev. D 112, L051101 (2025).
+[46] A. L. Read, J. Phys. G 28, 2693 (2002).
+[47] Belle-II Collaboration, First search for B → Xs ν ν̄ de-
+                                      First search for B → Xs ν ν̄ decays
+
+
+        I.    LIST OF BDT INPUT VARIABLES                              C.     Variables related to the event shape
+
+   Superscripts ∗ denote variables calculated in the c.m.        Event shape variables are obtained using all tracks and
+frames. Otherwise, they are calculated in the laboratory       photons. The tracks must satisfy |dz| < 3 cm, dr <
+frame.                                                         0.5 cm, and be within the CDC acceptance region. Their
+                                                               transverse momentum must be greater than 0.1 GeV/c.
+                                                               The photons must also be within the CDC acceptance
+  A.     Variables related to Xs and Btag candidates           region. The ECL cluster time and the event time must
+                                                               not differ by more than 200 ns. The photon energy must
+   • The magnitude of momentum |⃗
+                                p∗Xs | of the Xs can-          be greater than 50 MeV.
+     didate
+                                                                    • |⃗
+                                                                       pmiss |
+   • The polar angle θB
+                      ∗
+                        tag
+                            of the Btag candidate
+                                                                    • θmiss
+   • The magnitude of the thrust vector |T⃗X
+                                           ∗
+                                             s
+                                               | for Xs
+                                                                    • The third and fourth normalized Fox-Wolfram mo-
+                                                                      ments in the c.m. frame [3]
+   B.        Variables related to rests of event (ROE)
+                                                                    • The first and second-order harmonic moments with
+  We define rests of the event (ROE) for three systems.               respect to the thrust axis in the c.m. frame [3]
+Each ROE(S) with S = Xs , Btag , Xs + Btag contains
+photon candidates, KLM clusters, and tracks that are not
+used in the reconstruction of the S system. If a track has
+the highest PID likelihood for a kaon, proton, electron,       D.    Variables related to background from D mesons
+or muon, it is identified as that particle; otherwise, it is
+identified as a pion. Tracks included in the ROEs must            To suppress background from D mesons, we form D
+satisfy dr < 0.5 cm and |dz| < 2 cm, and to be within the      meson candidates from a kaon from the Xs candidate
+CDC acceptance region. Additionally, tracks must have          and pions from the entire event, in three categories. The
+more than 20 hits in the CDC. The energy of photon             first category is D+ decays without a π 0 : D+ → KS0 π + ,
+candidates in the ROE must be greater than 100, 60, and        D+ → K − π + π + . The second category is D0 decays
+150 MeV in the forward, barrel, and backward regions of        without a π 0 : D0 → K − π + , D0 → KS0 π + π − , and D0 →
+the ECL, respectively.                                         K − π + π − π + . The third category is D0 decay modes with
+                                                               or without π 0 : D0 → K − π + , D0 → KS0 π + π − , D0 →
+    • θ of
+           P
+              p⃗ of photon candidates used for Eextra          K − π + π 0 , D0 → KS0 π + π − π 0 , and D0 → K − π + π 0 π 0 .
+                                                               After the reconstruction, a vertex fit is performed and is
+   • The cosine T̂X
+                  ∗
+                    s
+                          ∗
+                      · T̂ROE(X s)
+                                   of the angle between the    required to converge. We use the following six variables
+     thrust axes of the Xs candidate and the ROE(Xs )          as D-veto inputs for the BDT. If no D meson candidate
+                                                               is found, a value of 0 is assigned:
+   • T̂B∗ tag · T̂ROE(B
+                  ∗
+                        tag )
+
+                                                                    • The standard deviation of the vertex-fit p-values
+   • Modified Fox-Wolfram moments [1] in the c.m.                     among D meson candidates for each category
+     frame for particles in Btag and ROE(Btag )
+
+   • Modified Fox-Wolfram moments [1] in the c.m.                   • The mass of the D-meson candidate that has the
+     frame for particles in Xs and ROE(Xs )                           highest vertex-fit p-value in each category
+
+   • The first, second, and third CLEO cones in the c.m.
+     frame [2] for particles in Btag and ROE(Btag )                                 E.   Other variable
+   • The number of photon candidates in the ROE(Xs +
+     Btag )                                                         • The number of tracks not consistent with originat-
+                                                                      ing from the IP and not used for the Xs or Btag
+   • Eextra                                                           candidates
+                                                                                                                              2
+
+                                                                                  true
+TABLE I: Summary of systematic uncertainties on the B(B → Xs ν ν̄) in each MX       s
+                                                                                       range. The impact on the branching
+fraction uncertainty σB from each source is estimated by fixing the corresponding nuisance parameter in the minimization
+procedure and subtracting its uncertainty in quadrature from the total uncertainty. Due to correlations among sources, the
+                                                                                                         max
+quadrature sum of individual systematic uncertainties does not equal the total systematic uncertainty. MX s
+                                                                                                             is the mass of
+the B meson.
+                                                                                         Impact on σB [10−5 ]
+Source                                           Uncertainty size Full range [0, 0.6] GeV/c2 [0.6, 1.0] GeV/c2 [1.0, MX
+                                                                                                                      max
+                                                                                                                        s
+                                                                                                                          ] GeV/c2
+Simulated-sample size                                O(1%)            6.0          0.4              1.5               6.3
+Background normalization                               20%            5.7          0.6              2.0               6.6
+Branching fraction of major B-decay                O(1-100%)          2.3          0.1              0.6               2.0
+Non-resonant Xs ν ν̄ generation range                 9.1%            2.1          0.0              0.0               2.2
+OBDT selection efficiency                           O(1-10%)          2.1          0.0              0.4               2.3
+Photon multiplicity correction                       O(1%)            1.8          0.0              0.2               1.6
+q q̄ background efficiency                           O(10%)           1.8          0.1              0.2               1.8
+Fitting bias                                         O(5%)            1.6          0.2              0.1               1.7
+Tagging efficiency                                  O(1-30%)          1.1          0.1              0.3               0.8
+Tagging efficiency from B → K (∗) J/ψ decay        O(20-100%)         1.0          0.1              0.4               1.0
+OBDT distribution shape for q q̄ background      100% of weight       1.0          0.1              0.2               0.7
+Branching fraction for B → Xs KL0 KL0                 100%            0.9          0.0              0.3               0.6
+The number of BB pair                                 1.45%           0.7          0.0              0.1               0.6
+Fermi motion momentum                                O(8%)            0.7          0.0              0.0               0.7
+Fragmentation                                      O(1-100%)          0.6          0.0              0.1               0.7
+B → K ∗ form factor                                  O(10%)           0.6          0.0              0.5               0.6
+Branching fraction for B → Xs nn̄                     100%            0.5          0.1              0.4               0.2
+Fraction of Kν ν̄, K ∗ ν ν̄ decays                   O(5%)            0.4          0.1              0.3               0.4
+b-quark mass parameter                                3.2%            0.3          0.0              0.0               0.3
+Branching fraction for D → XKL0 from B meson          7.7%            0.3          0.0              0.1               0.2
+Charged pion identification                          O(1%)            0.2          0.0              0.1               0.2
+B → K form factor                                    O(1%)            0.2          0.1              0.0               0.2
+Tracking efficiency                                   0.27%           0.2          0.0              0.0               0.1
+π 0 reconstruction efficiency                        O(1%)            0.1          0.0              0.0               0.1
+Charged kaon identification                          O(1%)            0.1          0.0              0.0               0.1
+KS0 reconstruction efficiency                        O(5%)            0.1          0.0              0.0               0.1
+KL0 efficiency in the ECL                              17%            0.1          0.0              0.0               0.1
+Total systematic sources                                             11.7          0.8              2.8               12.0
+Statistical uncertainty                                               8.3          0.8              2.6               9.0
+
+
+
+II.   CORRECTIONS AND MINOR SYSTEMATIC                           using 10000 simulated samples. Based on the mean shifts
+              UNCERTAINTY                                        between the fitted and input values, branching fraction
+                                                                 uncertainties of 18.4%, 3.5%, and 9.4% are assigned for
+                                                                                      reco
+   Table I summarizes the systematic uncertainties in            the mass regions MX    s
+                                                                                           < 0.6 GeV/c2 , 0.6 < MXreco
+                                                                                                                    s
+                                                                                                                       <
+                                                                           2               reco            2
+each MX true
+             region. In the main text, the following sources     1.0 GeV/c , and 1.0 < MXs < 2.0 GeV/c , respectively.
+          s
+of systematic uncertainties are discussed: simulated-            Additionally, based on the discrepancy between the fit
+sample size, background normalization, branching frac-           errors and the observed spread of fitted values, uncer-
+tion of major B-decay, non-resonant Xs ν ν̄ generation           tainties of 1.1%, 0.9%, and 2.9% are assigned for the
+point, OBDT selection efficiency, photon multiplicity cor-       same mass regions.
+rection, q q̄ background efficiency, and OBDT distribu-            To correct discrepancies in the FEI algorithm between
+tion shape for q q̄ background. The remaining systematic         data and simulation, B → Xℓν decays are studied [4].
+sources are discussed here.                                      Correction factors and their associated uncertainties are
+   The systematic uncertainty from fit bias is estimated         applied as functions of Btag decay modes.
+                                                                                                                           3
+
+   The FEI correction factor is estimated from B → Xℓν             According to the study of B + → K + ν ν̄ decay, apply-
+decays. Since the signal-side B meson decays differ, the        ing a correction factor of 1.3 ± 0.1 to decays involving
+Btag efficiency may vary. To account for this, we compare       the B → D → KL0 transition reduces the discrepancy
+the data-to-simulation efficiency ratio using B → K ∗ J/ψ       between data and simulations [13]. We adopt this correc-
+events. The difference between the FEI calibration fac-         tion factor and its associated uncertainty in our analysis.
+tors obtained from B → Xℓν and B → K ∗ J/ψ is as-                  The efficiency and misidentification rates for pions are
+signed as an additional systematic uncertainty. The sta-        obtained using the D∗+ → D0 (→ K − π + )π + decay. Cor-
+tistical uncertainty from the B → K ∗ J/ψ sample is also        rection factors and their associated uncertainties are ap-
+included as a systematic uncertainty.                           plied.
+   A systematic uncertainty of ±100% is assigned to the            The uncertainties of the SM B → K form factors are
+branching fractions of the B → Xs KL0 KL0 decays to cover       taken from Refs. [10], and are used to estimate the sys-
+mismodeling.                                                    tematic uncertainties associated with the form factors in
+   The simulated samples are scaled using NΥ(4S) =              the B → Kν ν̄ decay.
+(387.1 ± 5.6) × 106 , and a 1.5% relative uncertainty is           The systematic uncertainty from the tracking efficiency
+assigned from the number of BB pairs.                           is estimated using e+ e− → τ + τ − events, in which one τ
+   In the Fermi motion model, the Fermi momentum                lepton decays into three charged tracks and the other
+pF = 0.461+0.036
+             −0.039 GeV/c[5, 6] is used as a parameter. We      decays into a single charged track.
+vary pF within its uncertainty, and this variation is taken        To correct the π 0 reconstruction efficiency, the D0 →
+as the systematic uncertainty.                                  K π π and D0 → K − π + decays are studied. Correc-
+                                                                   − + 0
+   The systematic uncertainty of the fragmentation is           tion factors and their associated uncertainties are applied
+estimated from the differences between fragmentation            as functions of π 0 momentum.
+in B → Xs γ [7] and B → Xs J/ψ [8] decays.
+                                                true               The efficiency and misidentification rates for kaons are
+These uncertainties are evaluated in two MX          regions,
+                  2                  2
+                                                  s             obtained using the D∗+ → D0 (→ K − π + )π + decay. Cor-
+[1.15, 1.5] GeV/c , [1.5, 2.0] GeV/c , and for seven decay
+                                                                rection factors and their associated uncertainties are ap-
+mode categories: Kπ without π 0 , Kπ with one π 0 , K2π
+                                                                plied.
+without π 0 , K2π with one π 0 , K3π without π 0 , K3π
+                                                                   The systematic uncertainty associated with the KS0 re-
+with one π 0 , and K4π at most one π 0 . To estimate the
+                                                                construction efficiency is estimated using D∗+ → D0 (→
+systematic uncertainty for the remaining decay modes,
+                                                                KS0 π + π − )π + decays.
+Pythia parameters are varied such that the simulated
+fragmentation in the seven categories remains within               From the study of the B + → K + ν ν̄ decay, a system-
+twice the observed differences between the B → Xs γ             atic uncertainty on the efficiency of ECL clusters from
+and B → Xs J/ψ results. The maximum deviation under             KL0 is required to account for the observed discrepancy
+these variations is taken as the systematic uncertainty for     between data and simulations [13]. We adopt this sys-
+the remaining reconstructed decay modes and for unre-           tematic uncertainty and assign a ±17% uncertainty to
+constructed modes.                                              the efficiency of ECL clusters from KL0 .
+   The uncertainties of the SM B → K ∗ form factors
+are taken from Refs. [9], and are used to estimate the
+systematic uncertainties associated with the form factors                III.   SUPPLEMENTAL FIGURES
+in the B → K ∗ ν ν̄ decay.
+   A systematic uncertainty of ±100% is assigned to the
+branching fractions of the B → Xs nn̄ decays to cover
+mismodeling.
+   There is an uncertainty associated with the relative
+fractions of B → Kν ν̄ and B → K ∗ ν ν̄ within the total         [1] S. H. Lee et al. (Belle Collaboration), Phys. Rev. Lett.
+B → Xs ν ν̄ decay. Since the uncertainties from the form             91, 261801 (2003).
+                                                                 [2] D. M. Asner et al. (CLEO Collaboration), Phys. Rev. D
+factors are treated separately, we evaluate the branch-              53, 1039 (1996).
+ing fraction uncertainties from other parameters. Rela-          [3] G. C. Fox and S. Wolfram, Nucl. Phys. B 149, 413 (1979),
+tive uncertainties of 5.7% and 5.4% are assigned to the              [Erratum: Nucl.Phys.B 157, 543 (1979)].
+branching fractions of B → Kν ν̄ and B → K ∗ ν ν̄, re-           [4] F. Abudinén et al. (Belle II Collaboration) (2020),
+spectively [9, 10].                                                  arXiv:2008.06096.
+   The b-quark mass is used in the calculation of the q 2        [5] C. S. Kim, Y. G. Kim, and K. Y. Lee, Phys. Rev. D 57,
+distribution for the B → Xs ν ν̄ decay. We use mb =                  4002 (1998).
+                                                                 [6] Y. Amhis et al. (Heavy Flavor Averaging Group) (2022),
+4.68 ± 0.15 GeV/c2 , which covers the central values used            updated results and plots available at https://hflav.
+in the theoretical calculations of B → Xs ν ν̄ [11] and B →          web.cern.ch/, arXiv:2206.07501.
+K (∗) ℓℓ [12] decays. We vary mb within its uncertainty,         [7] S. Watanuki et al. (Belle Collaboration), Phys. Rev. D
+and the variation of q 2 distribution is applied.                    99, 032012 (2019).
+                                                                   4
+
+
+
+
+FIG. 1: The bin index distribution after the fit, for the signal
+template.
+
+
+
+
+FIG. 2: CLs values as a function of the assumed branching
+                                    true
+fraction for B → Xsν ν̄ in each MX    s
+                                         region. The red line
+indicates the 90% confidence level upper limits.
+
+
+ [8] Y. Sato et al. (Belle Collaboration), Phys. Rev. D 93,
+     032008 (2016), [Addendum: Phys.Rev.D 93, 059901
+     (2016)].
+ [9] A. Bharucha, D. M. Straub, and R. Zwicky, JHEP 08,
+     098 (2016).
+[10] W. G. Parrott, C. Bouchard, and C. T. H. Davies
+     (HPQCD collaboration), Phys. Rev. D 107, 014510
+     (2023).
+[11] W. Altmannshofer, A. J. Buras, D. M. Straub, and
+     M. Wick, JHEP 04, 022 (2009).
+[12] A. Ali, P. Ball, L. T. Handoko, and G. Hiller, Phys. Rev.
+     D 61, 074024 (2000).
+[13] I. Adachi et al. (Belle II Collaboration), Phys. Rev. D
+     109, 112006 (2024).
+

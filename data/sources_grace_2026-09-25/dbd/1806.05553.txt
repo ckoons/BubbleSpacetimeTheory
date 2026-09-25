@@ -1,0 +1,1166 @@
+                                          Final results on 82Se double beta decay to the ground state of
+                                          82
+                                             Kr from the NEMO-3 experiment
+                                          R. Arnold1 , C. Augier2 , A.S. Barabash3 , A. Basharina-Freshville4 , S. Blondel2 , S. Blot5 , M. Bongrand2 ,
+                                          D. Boursette2 , V. Brudanin6,7 , J. Busto8 , A.J. Caffrey9 , S. Calvez2 , M. Cascella4 , C. Cerna10 , J.P. Cesar11 ,
+                                          A. Chapon12 , E. Chauveau10 , A. Chopra4 , L. Dawson4 , D. Duchesneau13 , D. Durand12 , V. Egorov6 , G. Eurin2,4 ,
+                                          J.J. Evans5 , L. Fajt14 , D. Filosofov6 , R. Flack4 , X. Garrido2 , H. Gómez2 , B. Guillon12 , P. Guzowski5 , R. Hodák14 ,
+                                          A. Huber10 , P. Hubert10 , C. Hugon10 , S. Jullian2 , A. Klimenko6 , O. Kochetov6 , S.I. Konovalov3 , V. Kovalenko6 ,
+
+
+
+
+arXiv:1806.05553v2 [hep-ex] 15 Sep 2018
+                                          D. Lalanne2 , K. Lang11 , Y. Lemière12 , T. Le Noblet13 , Z. Liptak11 , X.R. Liu4 , P. Loaiza2 , G. Lutter10 , C. Macolino2 ,
+                                          F. Mamedov14 , C. Marquet10 , F. Mauger12 , B. Morgan15 , J. Mott4,27 , I. Nemchenok6 , M. Nomachi16 , F. Nova11 ,
+                                          F. Nowacki1 , H. Ohsumi17 , R.B. Pahlka11 , C. Patrick4 , F. Perrot10 , F. Piquemal10,18 , P. Povinec19 , P. Přidal14 ,
+                                          Y.A. Ramachers15 , A. Remoto13 , J.L. Reyss20 , C.L. Riddle9 , E. Rukhadze14 , N.I. Rukhadze6 , R. Saakyan4 ,
+                                          R. Salazar11 , X. Sarazin2 , Yu. Shitov6,21 , L. Simard2,22 , F. Šimkovic19 , A. Smetana14 , K. Smolek14 , A. Smolnikov6 ,
+                                          S. Söldner-Rembold5 , B. Soulé10 , I. Štekl14 , J. Suhonen23 , C.S. Sutton24 , G. Szklarz2 , J. Thomas4 , V. Timkin6 ,
+                                          S. Torre4 , Vl.I. Tretyak25 , V.I. Tretyak6 , V.I. Umatov3 , I. Vanushin3 , C. Vilela4 , V. Vorobel26 , D. Waters4 , F. Xie4 ,
+                                          and A. Žukauskas26
+                                          1
+                                             IPHC, ULP, CNRS/IN2P3, F-67037 Strasbourg, France
+                                          2
+                                             LAL, Université Paris-Sud, CNRS/IN2P3, Université Paris-Saclay, F-91405 Orsay, France
+                                           3
+                                             NRC “Kurchatov Institute”, ITEP, 117218 Moscow, Russia
+                                           4
+                                             UCL, London, WC1E 6BT, United Kingdom
+                                           5
+                                             University of Manchester, Manchester, M13 9PL, United Kingdom
+                                           6
+                                             JINR, 141980 Dubna, Russia
+                                           7
+                                             National Research Nuclear University MEPhI, 115409 Moscow, Russia
+                                           8
+                                             Aix Marseille Université, CNRS, CPPM, F-13288 Marseille, France
+                                           9
+                                             Idaho National Laboratory, Idaho Falls, ID 83415, U.S.A.
+                                          10
+                                             CENBG, Université de Bordeaux, CNRS/IN2P3, F-33175 Gradignan, France
+                                          11
+                                             University of Texas at Austin, Austin, TX 78712, U.S.A.
+                                          12
+                                             LPC Caen, ENSICAEN, Université de Caen, CNRS/IN2P3, F-14050 Caen, France
+                                          13
+                                             LAPP, Université de Savoie, CNRS/IN2P3, F-74941 Annecy-le-Vieux, France
+                                          14
+                                             Institute of Experimental and Applied Physics, Czech Technical University in Prague, CZ-12800 Prague, Czech Republic
+                                          15
+                                             University of Warwick, Coventry, CV4 7AL, United Kingdom
+                                          16
+                                             Osaka University, 1-1 Machikaneyama Toyonaka, Osaka 560-0043, Japan
+                                          17
+                                             Saga University, Saga 840-8502, Japan
+                                          18
+                                             Laboratoire Souterrain de Modane, F-73500 Modane, France
+                                          19
+                                             FMFI, Comenius University, SK-842 48 Bratislava, Slovakia
+                                          20
+                                             LSCE, CNRS, F-91190 Gif-sur-Yvette, France
+                                          21
+                                             Imperial College London, London, SW7 2AZ, United Kingdom
+                                          22
+                                             Institut Universitaire de France, F-75005 Paris, France
+                                          23
+                                             Jyväskylä University, FIN-40351 Jyväskylä, Finland
+                                          24
+                                             MHC, South Hadley, MA 01075, U.S.A.
+                                          25
+                                             Institute for Nuclear Research, 03028 Kyiv, Ukraine
+                                          26
+                                             Charles University in Prague, Faculty of Mathematics and Physics, CZ-12116 Prague, Czech Republic
+                                          27
+                                             Present Address: Boston University, Boston, MA 02215, U.S.A.
+
+                                                    Date: August 26, 2018
+
+                                                    Abstract. Using data from the NEMO-3 experiment, we have measured the two-neutrino double beta decay
+                                                    (2νββ) half-life of 82 Se as T1/2
+                                                                                  2ν
+                                                                                      = [9.39 ± 0.17 (stat) ± 0.58 (syst)]×1019 y under the single-state dominance
+                                                    hypothesis for this nuclear transition. The corresponding nuclear matrix element is M 2ν = 0.0498±0.0016.
+                                                    In addition, a search for neutrinoless double beta decay (0νββ) using 0.93 kg of 82 Se observed for a total
+                                                    of 5.25 y has been conducted and no evidence for a signal has been found. The resulting half-life limit
+                                                         0ν
+                                                    of T1/2  > 2.5 × 1023 y (90% C.L.) for the light neutrino exchange mechanism leads to a constraint on
+                                                    the effective Majorana neutrino mass of hmν i < (1.2 − 3.0) eV, where the range reflects 0νββ nuclear
+                                                    matrix element values from different calculations. Furthermore, constraints on lepton number violating
+                                                    parameters for other 0νββ mechanisms, such as right-handed currents, majoron emission and R-parity
+                                                    violating supersymmetry modes have been set.
+2    R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+
+1 Introduction                                                       The isotope of 82 Se was in fact the first nucleus in
+                                                                 which 2νββ was directly observed in a counter experi-
+The observation of neutrino oscillations has provided proof      ment in 1987 [22]. A total of 36 candidate 2νββ events
+that the neutrino has non-zero mass [1–3]. However the           were observed yielding a half-life of 1.1+0.8           20
+                                                                                                              −0.3 × 10 y. A
+absolute mass of the neutrino and its fundamental Dirac          more precise direct measurement was later carried out by
+or Majorana nature remain undetermined. Neutrinoless             NEMO-2, [8.3 ± 1.0 (stat) ± 0.7 (syst)] × 1019 y [23]. The
+double beta decay (0νββ) is the only practical way to es-        most precise result to date was obtained by NEMO-3 after
+tablish the full lepton number violation required by many        analysing a subset of its data, [9.6 ± 0.3 (stat) ± 1.0 (syst)]×
+grand unification models and if the decay proceeds via a         1019 y [24]. The same data set was also used to obtain a
+light neutrino exchange mechanism, would be one of the           stringent lower limit on the half-life for the 0νββ decay of
+most sensitive probes of absolute neutrino mass [4].             82      0ν
+                                                                    Se, T1/2 > 1.0 × 1023 y at 90% C.L.
+    The half-life of 0νββ is given by:
+                                                                     We present the results of the 82 Se 2νββ measurement
+                 0ν −1
+               [T1/2 ] = G0ν gA
+                              4
+                                |M 0ν |2 hξi2 ,           (1)    and 0νββ searches with the full data set collected by the
+                                                                 NEMO-3 detector, representing a five-fold increase in ex-
+where gA is the axial-vector coupling constant, G0ν is           posure compared to the previously published result [24].
+a phase-space factor, M 0ν is a nuclear matrix element
+(NME) and hξi is a lepton number violating parameter.
+In the most commonly discussed mechanism of 0νββ, the
+decay proceeds via the exchange of a light Majorana neu-
+                                                                 2 NEMO-3 Detector and 82 Se Source
+trino (hξi ≡ hmν i/me , where me is the mass of the elec-
+tron). However, other mechanisms are possible, such as the       NEMO-3 was a detector composed of a tracker and a
+admixture of right-handed currents in the electroweak in-        calorimeter capable of reconstructing the full topology of
+teraction, majoron emission and R-parity violating super-        ββ events. It was installed in the Modane Underground
+symmetry (SUSY). In all mechanisms, 0νββ violates lep-           Laboratory (LSM) with an overburden of 4800 m.w.e. to
+ton number conservation and is a direct probe of physics         shield against cosmic rays. The detector housed seven en-
+beyond the Standard Model. To date, no evidence for              riched ββ isotopes in the form of thin (about 50 mg/cm2 )
+0νββ has been found, with the best half-life limits in the       source foils. These were arranged in a cylindrical geometry
+1024 − 1026 y range [5–11].                                      subdivided into 20 identical sectors. The two isotopes with
+     Two-neutrino double beta decay (2νββ) is a rare sec-        the largest mass were 100 Mo (6.91 kg) and 82 Se (0.93 kg)
+ond order process that is allowed in the Standard Model.         with smaller quantities of 48 Ca, 96 Zr, 116 Cd, 130 Te and
+                                                                 150
+It has been observed in 12 isotopes with half-lives ranging          Nd [8, 24–28]. Charged particle ionisation tracks are
+from 1019 to 1024 y [12,13]. Measurement of the 2νββ half-       reconstructed from hits in 50 cm deep and 270 cm long
+life provides experimental determination of the NME for          wire chambers on each side of the source foils composed
+this process, M 2ν , which can be used to improve NME cal-       of 6180 Geiger cells operating in helium with the addi-
+culations for the 0νββ mode. The precision with which hξi        tion of ethanol as a quencher (4%), argon (1%) and water
+can be measured depends crucially on knowledge of M 0ν .         vapour (0.15%). The transverse and longitudinal resolu-
+In addition, 2νββ is an irreducible background component         tion of individual tracker cells was 0.5 mm and 8.0 mm
+to 0νββ and therefore precise measurements of 2νββ rates         (σ) respectively. The tracker was enclosed by calorimeter
+and spectral shapes are important.                               walls assembled from plastic scintillator blocks coupled
+     One of the most promising double beta decay (ββ) can-       to low background photomultipliers (PMT). The detector
+didates is 82 Se due to its high Q-value (2997.9(3) keV [14]),   was calibrated by deploying 207 Bi, 90 Sr and 232 U sources
+above most common backgrounds from natural radioactiv-           during the course of data collection. The energy resolu-
+ity, relatively high isotopic abundance (8.83% [15]) and ex-     tion of the calorimeter blocks was 5.8 − 7.2% and the time
+isting robust technologies of isotopic enrichment through        resolution was 250 ps, both σ at 1 MeV. The detector was
+centrifugation. It has been selected as the isotope of choice    surrounded by a solenoid which generated a 25 G magnetic
+for a number of planned 0νββ decay experiments [16, 17].         field parallel to the cell wires. The magnetic field allows
+     The first measurement of ββ in 82 Se was made in            the rejection of approximately 95% of positrons at 1 MeV.
+1967 with a geochemical        experiment, extracting a half-    The detector was placed in passive shielding consisting of a
+life of 0.6+0.6
+                  
+                    × 10 20
+                            y [18]. This result was later con-   19 cm thick layer of iron to suppress the external gamma
+             −0.3
+firmed by many other geochemical measurements (see re-           ray background, as well as borated water, paraffin and
+views [19–21]). Such geochemical experiments are not able        wood to moderate and absorb the environmental neutron
+to distinguish between 0νββ and 2νββ modes and the               background. A detailed description of the detector and its
+conclusion that 2νββ had been observed was drawn using           calibration and performance can be found in [8, 29].
+complementary theoretical and experimental arguments.                The 82 Se source foils had a composite structure. En-
+Whilst the precision of any individual measurement was           riched 82 Se powder was mixed with polyvinyl alcohol (PVA)
+reasonably good, the spread of the results was quite high.       glue and deposited between 23 µm (2.2 mg/cm2 ) thick My-
+Nevertheless, the combination of many experiments led to         lar foils. Enriched selenium from two production runs was
+a half-life value of (1.0 − 1.3) × 1020 y [19–21].               used, attaining enrichment factors of 97.02 ± 0.05% for
+                                                                 run 1 and 96.82 ± 0.05% for run 2. Selenium from run 1,
+Correspondence to: jmott@hep.ucl.ac.uk, r.saakyan@ucl.ac.uk      which was also used in the NEMO-2 experiment [23], was
+    R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment   3
+
+
+placed in a single detector sector, while the isotope from     tracks in the event. The timing of the calorimeter hits
+run 2 was in an adjacent sector. The total mass of the 82 Se   must be consistent with an internal event defined as two
+isotope in NEMO-3 was (0.932 ± 0.005) kg, with 0.464 kg        electrons simultaneously emitted from a common vertex
+from run 1 and 0.468 kg from run 2.                            in the foil [8].
+    NEMO-3 took data from February 2003 to January                 Backgrounds are constrained using specific event topolo-
+2011. A standard set of criteria define high quality runs,     gies and timing characteristics. Single electron candidate
+where the detector was operating stably and the calorime-      events (1e) must have one electron track originating from
+ter was calibrated [8]. The accepted live-time of the de-      a 82 Se source foil. The position of these intersections are
+tector is 5.252 y, resulting in an exposure of 4.90 kg·y for   used to identify areas in the source foils with higher than
+82
+   Se.                                                         average contaminations as shown in Figure 1. Areas with
+    During the first 18 months of data-taking, the radon       an event rate more than 5σ higher than the mean rate for
+(222 Rn) level inside the detector was higher than antici-     the foil strip in which it is housed are excluded from the
+pated. This was caused by the diffusion of radon from the      data analysis.
+air of the laboratory into the tracking gas. To lower the          The 1e1αN γ channel events contain a single electron
+radon level inside the detector, an anti-radon tent con-       track and a delayed α-particle track emitted from a com-
+taining filtered air was built around the detector reducing    mon vertex, with no constraints on the number of γ-rays
+the radon level in the tracker volume by a factor of about     present. The α-particle track must be registered in the
+6 [30]. The higher radon activity data-taking period, last-    range of (10 − 650) µs after the electron track, such that
+ing 1.06 y, is referred to as phase 1 and the lower activity   it is consistent with 214 Bi → 214 Po → 210 Pb sequential
+period, with a duration of 4.19 y, as phase 2.                 decays from the 238 U radioactive series. These decays pre-
+                                                               dominantly originate from radon in the tracker as outlined
+                                                               in Section 4.
+3 Particle Identification and Event Selection                      Events with a single electron track and a number of
+                                                               γ-ray hits (1eN γ) are used to constrain different back-
+One of the major strengths of the NEMO-3 approach              grounds depending on the number of γ-rays and their tim-
+amongst ββ experiments is its ability to use multiple ob-      ing characteristics. As with electron candidates, γ-ray hits
+servables and a combination of tracking and calorimetry        must have an energy deposit > 300 keV to be accepted.
+information for particle identification and reconstruction     Events containing electron and γ-ray hits consistent with
+of different event topologies. By separating data events       simultaneous emission from the same location in a 82 Se foil
+into different channels based on the number of electrons,      are used to measure internal contamination by radioactive
+γ-rays and α-particles that they contain, a pure ββ signal     isotopes. Conversely, those containing hit times consistent
+channel can be defined along with a series of background       with a γ-ray first interacting with a calorimeter block be-
+channels that may be used to normalise the different back-     fore producing an electron in the foil are used to measure
+ground contributions to this signal channel.                   the external γ-ray flux. Finally, crossing-electron events,
+    Electrons and positrons are identified by ionisation       where a single electron crosses from one side of the de-
+traces that can be extrapolated to an energy deposit in        tector to the other, are selected using the same cuts as
+the calorimeter, and are distinguished by their curvature      for the ββ channel but with a requirement that the tim-
+in the magnetic field. By contrast, γ-rays are identified      ing of the calorimeter hits be consistent with an external
+as an energy deposit in the calorimeter without an asso-       origin of the event. Further details on using topological,
+ciated track. A 1 MeV photon has a 50% probability of          timing and energy cuts for background identification can
+interaction with a scintillator block. Therefore neighbour-    be found in [30].
+ing calorimeter hits are clustered together and attributed
+to a single γ-ray interaction event with an energy equal to
+the energy sum of the individual hits. Due to their heavy      4 Background and Control Measurements
+ionisation energy losses, α-particles from radioactive de-
+cays can not travel more than about 35 cm in the NEMO-3        Any event containing two reconstructed electrons from
+tracker and are identified by their short, straight tracks.    an origin other than the decay of 82 Se can be misidenti-
+    Both data and Monte Carlo simulations (MC) of signal       fied as a ββ event. The main source of background events
+and background are processed by the same reconstruction        are trace amounts of naturally-occurring radioactive iso-
+algorithm. The DECAY0 event generator [31] is used for         topes that come from the 238 U and 232 Th radioactive se-
+generation of initial kinematics and particles are tracked     ries. Only (β, γ)-emitting radioactive isotopes with high
+through a detailed GEANT3 based detector simulation            Q-values are potential backgrounds to a 0νββ search. The
+[32].                                                          two main isotopes of concern are 214 Bi and 208 Tl with Q-
+    Candidate ββ signal events are selected to contain two     values of 3.27 and 4.99 MeV respectively.
+electron tracks, each with an energy deposit > 300 keV.            The largest background contribution comes from in-
+The tracks must originate from the 82 Se source foil and       ternal contamination of the source foils. Isotopes that un-
+have a common vertex (i.e. the distance between the track      dergo β-decay can mimic two electron events via the pro-
+intersections with the foil should be ∆XY < 2 cm (trans-       cesses of β-decay with Møller scattering, β-decay to an
+versely) and ∆Z < 4 cm (vertically), set by the resolution     excited state followed by internal conversion, or by subse-
+of the tracking detector). There should be no α-particle       quent Compton scattering of the de-excitation photon.
+4          R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+
+
+                                                                     300                                                                                            300
+
+Z / cm                                                                                            Z / cm
+
+
+
+
+                                                                           No. Entries / 0.5 cm                                                                           No. Entries / 0.5 cm
+         150                                     Entries   9235391                                         150                                  Entries   5629591
+
+
+         100                                                         250                                   100                                                      250
+
+
+
+          50                                                         200                                    50                                                      200
+
+
+           0                                                         150                                     0                                                      150
+
+
+          -50                                                        100                                    -50                                                     100
+
+
+         -100                                                        50                                    -100                                                     50
+
+
+         -150                                                                                              -150
+                6     6.5      7      7.5        8           8.5                                                  6   6.5     7      7.5        8           8.5
+                                                     Sector Number                                                                                  Sector Number
+
+                            (a) Before Removal                                                                              (b) After Removal
+
+Fig. 1: The sectors of the detector containing the 82 Se source foils, imaged in the 1e channel. Figure (a) shows the
+reconstructed vertex from all single electron events. Figure (b) shows the same region after removing events originating
+from neighbouring foils, calibration tubes and areas with activity more than 5σ higher than the mean for the particular
+82
+   Se foil strip. This is the fiducial area used in the analysis. The higher activity strip in sector 8 is contaminated with
+210
+    Bi which does not affect the ββ analyses due to its low Q-value.
+
+
+     Other background events may be classified as coming nels. In the former, a γ-ray deposits energy in the calorime-
+from an origin external to the source foils. These usually ter before interacting with the source foil to produce an
+involve a γ-ray that interacts with the source foil causing outgoing electron. In the latter, the γ-ray interacts close
+pair production, Compton interaction followed by Møller to the surface of a calorimeter, producing an electron that
+scattering or double Compton scattering. The sources of crosses the whole tracking chamber including the source
+external γ-rays are predominantly radioactive decays within foil. Data from these channels constrain the number of
+the rock surrounding the laboratory, neutron capture and events in the ββ channel from the external γ-ray flux.
+decays within the detector components or shielding.                The external background model is an effective model of
+     A subset of the external backgrounds is identified as the γ-ray flux incident on the detector, with components
+radon backgrounds, coming from 222 Rn, which is a gaseous similar to the model in [30]. It is dominated by 40 K, 208 Tl
+isotope in the 238 U chain. Due to its long half-life of 3.82 and 214 Bi contamination in the calorimeter PMT glass and
+days 222 Rn can be introduced via a number of mecha- by 208 Tl, 214 Bi and 60 Co in the iron shielding surrounding
+nisms, notably emanation from detector materials, con- the detector.
+tamination of the tracker gas or of other detector surfaces,       The model reproduces the data accurately as can be
+or via diffusion through detector seals. Once inside the de- seen from the distributions of energy deposited in the
+tector, the radon decays to predominantly positive ions. calorimeter for the external 1γ1e and crossing-electron
+These charged progenies drift towards the source foils or channels shown in Figure 2.
+tracker wires where they settle, leaving deposits of 214 Bi        The external background model presented here is con-
+near the source material [30]. Once on or near the source structed using data from the 82 Se sectors only. It is consis-
+foils, this 214 Bi is then capable of producing background tent with the average external background model in [30],
+events in the same way as internal contaminants.               where all sectors are used, within 10% − 20%. This is the
+     The background model is defined by the activity of expected level of sector-to-sector variation in the external
+each isotope in specific locations. In all background sources, background model.
+214
+    Pb is assumed to be in secular equilibrium with 214 Bi
+and likewise for 228 Ac, 212 Bi and 208 Tl. The fitting proce-
+dure extracts the different isotope activities using a binned 4.2 Radon backgrounds
+log-likelihood maximisation. The distributions from the
+six background channels (1e, 1e1αN γ, 1e1γ, 1e2γ, exter- The radon level inside the detector can be measured by
+nal 1γ1e and crossing-electron) and a ββ signal channel studying 214 Bi → 214 Po → 210 Pb sequential decay events
+are fitted simultaneously to extract the most likely activ- in the 1e1αN γ channel. The distribution of the length of
+ity parameters.                                                the α-particle tracks is used to reconstruct the location
+                                                               of 214 Bi. For example, the α track length is sensitive to
+4.1 External backgrounds                                       whether    the α-particle originated from the surface of a
+                                                               tracker wire or inside the bulk of the source foil.
+The external γ-ray flux incident on the detector is quan-          Using the reconstructed position of the events, an ex-
+tified using the external 1γ1e and crossing-electron chan- tensive radon model has been developed with 214 Bi on the
+                          R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment                                                                               5
+
+
+                               NEMO-3 - 82Se - 932 g, 5.25 y                                                                               NEMO-3 -
+                                                                                                                                                      82
+                                                                                                                                                        Se - 932 g, 5.25 y
+
+
+
+
+No. Events / 0.05 MeV                                                                                       No. Events / 0.05 MeV
+                                                                                Data (45807)                                                                                                 Data (233040)
+
+                                                                                Other MC                                                                                                     Other MC
+                        2500                                                    60
+                                                                                                                         10000                                                               210
+                                                                                     Co External BGs                                                                                              Bi External BGs
+                                                                                40                                                                                                           234m
+                                                                                     K External BGs                                                                                                Pa External BGs
+                                                                                214
+                        2000                                                          Bi External BGs                               8000                                                     60
+                                                                                                                                                                                                  Co External BGs
+                                                                                208                                                                                                          40
+                                                                                     Tl External BGs                                                                                              K External BGs
+                                                                                                                                                                                             214
+                                                                                                                                                                                                  Bi External BGs
+                        1500                                                                                                        6000
+                                                                                                                                                                                             208
+                                                                                                                                                                                                  Tl External BGs
+
+
+                        1000                                                                                                        4000
+
+
+
+                        500                                                                                                         2000
+
+
+
+
+           Data/MC                                                                                                      Data/MC
+                                                                                                                                        0         0.5           1        1.5   2       2.5               3           3.5
+                         1.5                                                                                                         1.5
+                           1                                                                                                           1
+                         0.5                                                                                                         0.5
+
+                           0           0.5        1            1.5   2    2.5              3          3.5                              0          0.5           1        1.5   2       2.5              3          3.5
+                                                                                          Ee + Eγ / MeV                                                                                                E1 + E2 / MeV
+
+                                                      (a) External 1γ1e                                                                                        (b) Crossing-electron
+
+Fig. 2: (a) Distribution of the sum of the energies of the electron and γ-ray in the external 1γ1e channel. (b) Distribution
+of the sum of the incoming and outgoing electron energies in the crossing-electron channel. In both figures, the
+energy spectra from data are compared to the total MC prediction (top panels) and as a ratio of data to the total
+MC prediction (bottom panels). The Other MC histograms contain the small contributions from internal and radon
+background sources.
+
+
+surface of the tracker wires, source foils and scintillators tive to these small changes in decay location and so the
+varying from sector-to-sector and, in the case of the sur- systematic uncertainty from this discrepancy that propa-
+face of the wires, with tracker layer [30].                     gates through to the ββ channel is negligible.
+    Distributions of α-particle track length from the 1e1αN γ      In addition to the 214 Bi components that are measured
+channel, which are used to extract the 214 Bi activities, can with 214 Bi → 214 Po → 210 Pb delayed events, there are
+be seen in Figure 3. The contribution from internal foil other background events from 208 Tl and 210 Bi. The for-
+contamination has the shortest track lengths as these α- mer is a product of 220 Rn decay and was measured using
+particles must traverse the most material before entering 1e2γ and 1e3γ channels where the electron track starts
+the tracking gas while the surface of tracker wires sample away from the foil [30]. The latter is caused by 210 Pb from
+has the longest tracks. The shape of the distributions is 222 Rn deposited on the surfaces of detector components
+an artefact of the tracker geometry. The lower number of during construction. This isotope has a half-life of 22.3 y
+events between 20 and 30 cm is a result of a gap in the and supplies 210 Bi over the lifetime of the experiment.
+layers of tracker cells at this distance due to the presence It is therefore not in equilibrium with 222 Rn observed in
+of calorimeter blocks in the detector end caps [29].            the detector. In a similar manner to the 214 Bi activities,
+                                                                                   210
+    The difference between phases 1 and 2 is apparent, a map of relative               Bi activities divided by sector and
+with a higher proportion of events from surfaces of the tracker layer has been developed [30].
+tracker wires and source foils during phase 1. In these
+cases, 214 Bi has been deposited on exposed surfaces as a
+result of radon decay in the tracker gas. In phase 2 there 4.3 Internal backgrounds
+is a larger contribution from the internal and Mylar com-
+ponents. This originates from 214 Bi decays from contam- The main backgrounds in the low energy region come from
+ination with 226 Ra and has therefore remained constant β-decaying isotopes. The 1e channel electron energy dis-
+whilst the radon level inside the tracker gas has decreased. tributions, shown in Figure 4a, are dominated by 210 Bi,
+    The small discrepancies observed between MC and data 40 K and 234m Pa. In the higher energy region, the contri-
+distributions are due to a strong sensitivity of the α-particle butions from the external 208 Tl and 214 Bi backgrounds
+range to the location of the 214 Bi. For example, the distri- become significant and at energies above 2.7 MeV, 214 Bi
+butions can be altered significantly by transferring 214 Bi from the internal and surface of tracker wire contamina-
+between the surface of the foils and the surface of the wires tions are the only remaining contributions.
+or between different wires within the tracker. The detec-          The 1e1γ channel constrains isotopes decaying to ex-
+tion efficiency for electrons from 214 Bi is much less sensi- cited states, most notably 214 Bi and 208 Tl as shown in Fig-
+6                  R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+
+                                 82                                                                                               82
+                        NEMO-3 - Se - 932 g, Phase 1, 1.06 y                                                             NEMO-3 - Se - 932 g, Phase 2, 4.19 y
+
+
+
+
+No. Events / cm                                                                              No. Events / cm
+                  700                                                Data (5953)                                400                                                        Data (4806)
+                                                                     82                                                                                                    82
+                  600
+                                                                         Se Foils                               350                                                            Se Foils
+                                                                     Mylar Backing                                                                                         Mylar Backing
+                                                                                                                300
+                  500
+                                                                     Tracker Wires                                                                                         Tracker Wires
+                                                                                                                250
+                  400                                                Foil Surfaces                                                                                         Foil Surfaces
+                                                                                                                200
+                  300
+                                                                                                                150
+
+                  200
+                                                                                                                100
+
+                  100                                                                                            50
+
+
+
+
+        Data/MC                                                                                      Data/MC
+                  1.5                                                                                           1.5
+                    1                                                                                                1
+                  0.5                                                                                           0.5
+
+                    0                 10        20             30   40            50                                 0                 10        20             30        40            50
+                                                                         Alpha Length / cm                                                                                     Alpha Length / cm
+
+                                                 (a) Phase 1                                                                                      (b) Phase 2
+
+Fig. 3: Distributions of the length of α-particle tracks from the 1e1αN γ channel, which contains events with one
+electron track and one delayed α-particle track, with no constraints on the number of γ-rays present. The length is
+measured as the distance from the electron vertex on the foil to the furthest hit in the α-particle track. Figure (a) shows
+data from phase 1, which had a higher radon level in the tracker and Figure (b) shows the same distribution for phase
+2 data. In the top panels, data are overlaid on stacked histograms of the MC prediction from 214 Bi contaminations
+in the source foils (red), Mylar backing film (yellow), deposits on the tracker wires (green) and on the surface of the
+source foils (blue). The activities of the source foil and Mylar film contaminations are the same in both phases. The
+bottom panels show the ratio of data to the total MC prediction.
+
+
+ure 4b. At energies below 2.5 MeV the channel serves as                                           Table 1: Measurements of the specific activity of 82 Se
+a cross-check on the number of external γ-ray flux events                                         source foils for different isotopes, made with the NEMO-3
+that have calorimeter timings consistent with an event of                                         detector and independently with an HPGe detector. Equal
+internal origin. At high energies, the distribution contains                                      numbers of 82 Se foils from enrichment runs 1 and 2 were
+events from internal contamination with 208 Tl.                                                   measured together in the HPGe detector, so the NEMO-3
+    A more sensitive probe for the 208 Tl internal contami-                                       combined values are the mean values of the specific activi-
+nation is the 1e2γ channel with one γ-ray above 1.7 MeV,                                          ties from each enrichment run. All error bars are statistical
+shown in Figure 5. Any contributions from 214 Bi are heav-                                        only and are at the 1σ level. The limit shown is at the 2σ
+ily suppressed by this cut on the γ energy such that the                                          level. The HPGe measurements are taken from [29].
+channel is dominated by the internal contributions of 208 Tl,
+with a 10% contribution from the 208 Tl in the tracker                                                                                      NEMO-3 (mBq/kg)                              HPGe
+                                                                                                  Isotope
+wires.                                                                                                                             Run 1        Run 2     Combined                     (mBq/kg)
+    The measured activities for the internal contamina-                                                        214
+                                                                                                         Bi                    1.57 ± 0.05        1.42 ± 0.05        1.50 ± 0.04        1.2 ± 0.5
+tions are summarised in Table 1. The levels of contami-                                                        208
+                                                                                                         Tl                    0.34 ± 0.01        0.44 ± 0.01        0.39 ± 0.01        0.4 ± 0.1
+nation are similar for both enrichment runs with the ex-                                            234m
+                                                                                                         Pa                     7.5 ± 0.1          27.0 ± 0.1        17.3 ± 0.1           < 18
+ception of 234m Pa where there is a four-fold increase in                                             40
+                                                                                                         K                      58.1 ± 0.1        59.3 ± 0.2         58.7 ± 0.1          55 ± 5
+the activity in run 2. The results are compared with mea-
+surements made with a high purity germanium (HPGe)
+detector carried out prior to the installation of the 82 Se
+foils in the detector. The results are consistent across all                                      were selected, with 4350 and 4586 from source foils from
+isotopes in Table 1.                                                                              enrichment runs 1 and 2 respectively. Table 2 shows the
+                                                                                                  contribution expected from simulations of individual back-
+                                                                                                  ground sources to the ββ signal channel, with the lower
+5 Two-neutrino double beta decay                                                                  energy threshold column relevant to a 2νββ measurement.
+                                                                                                     The largest background contribution comes from in-
+Candidate ββ signal events are selected using the criteria                                        ternal contamination of the source foils with 15.1% of the
+outlined in Section 3. A total of 8936 candidate events                                           total number of events for run 1 foils and 29.1% of those
+                          R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment                                                                                               7
+
+
+                                            82                                                                                                                 82
+                                 NEMO-3 -    Se - 932 g, 5.25 y                                                                                     NEMO-3 -    Se - 932 g, 5.25 y
+
+
+
+
+No. Events / 0.05 MeV                                                                                                 No. Events / 0.05 MeV
+                                                                                   Data (5629591)                                                                                                       Data (113527)
+                        106                                                        40        60                                                                                                         40        60
+                                                                                        K&        Co Ext BGs                                  104                                                            K&        Co Ext BGs
+                                                                                   214         208                                                                                                      214         208
+                                                                                        Bi &         Tl Ext BGs                                                                                              Bi &         Tl Ext BGs
+                        105                                                        214
+                                                                                        Bi Int & Rad BGs                                                                                                214
+                                                                                                                                                                                                             Bi Int & Rad BGs
+                                                                                   208                                                                                                                  208
+                                                                                        Tl Int & Rad BGs                                                                                                     Tl Int & Rad BGs
+                                                                                   210
+                                                                                                                                              103
+                          4                                                             Bi Tracker Wires
+                        10
+                                                                                   210
+                                                                                        Bi Foil Surfaces
+                                                                                   234m
+                                                                                         Pa Internal BGs
+                          3
+                        10                                                         40                                                         102
+                                                                                        K Internal BGs
+
+
+                        102
+                                                                                                                                              10
+
+                        10
+
+
+                          1                                                                                                                     1
+
+
+
+            Data/MC                                                                                                               Data/MC
+                           0          0.5         1       1.5       2       2.5    3                 3.5          4                              0      0.5         1   1.5     2    2.5      3   3.5          4            4.5        5
+                        1.5                                                                                                                   1.5
+                             1                                                                                                                  1
+                        0.5                                                                                                                   0.5
+
+                              0       0.5         1       1.5       2       2.5    3                 3.5        4                                   0   0.5         1   1.5     2    2.5      3   3.5          4           4.5      5
+                                                                                                        Ee / MeV                                                                                                       Ee + Eγ / MeV
+
+                                                         (a) 1e Channel                                                                                                   (b) 1e1γ Channel
+
+Fig. 4: (a) Energy spectrum of electrons in events containing a single electron selected in the 1e channel compared to
+the MC prediction. At energies below 1 MeV the dominant contributions are from 40 K contamination and from 210 Bi
+deposited on the surfaces of the source foils and tracker wires. The contribution from 234m Pa becomes significant in
+an intermediate region at 1.2 − 2.2 MeV. Above this energy the spectrum is composed of events from 214 Bi originating
+from source foil contamination and radon backgrounds. The small numbers of events at the highest energies are a
+result of external neutron flux. They do not contribute significantly to any other channel. (b) Distribution of the sum
+of electron and γ-ray energies for events selected in the 1e1γ channel comparing data to the MC prediction. Below
+2.5 MeV the distributions are mainly composed of events from the external γ-ray flux. Above this energy the spectrum
+contains events from contamination of the source foil with 208 Tl.
+
+Table 2: Predicted number of events in the two electron channel for different event sources. The expected numbers of
+events in the energy region relevant to 0νββ are also given. Isotopes denote the internal contaminations of the 82 Se
+foils and the numbers are assigned to whether the tracks originated from foils from enrichment run 1 or 2. Multiple
+isotopes listed on the same line indicates the assumption of secular equilibrium.
+
+                                                                                Etot > 0.6 MeV                                                                                    2.6 MeV < Etot < 3.2 MeV
+Event Source                                                         Expected Events              % of Total                                                                  Expected Events        % of Total
+                                                                  Run 1          Run 2         Run 1     Run 2                                                                Run 1 & Run 2       Run 1 & Run 2
+214
+    Bi, 214 Pb                                               102.2 ± 2.7            86.2 ± 2.2                              2.4                                1.9               4.1 ± 0.1                                  34
+208
+    Tl, 212 Bi, 228 Ac                                        56.8 ± 1.3            65.1 ± 1.4                              1.3                                1.4               3.1 ± 0.1                                  25
+234m
+     Pa                                                      341.7 ± 2.1          1061.4 ± 6.6                              7.9                               23.0                 < 0.1
+40
+   K                                                         154.1 ± 2.2           131.6 ± 1.8                              3.5                                2.8                 < 0.1
+Radon                                                        86.2 ± 2.6             75.6 ± 2.3                              2.0                                1.6               3.0 ± 0.1                                  25
+External                                                     133.6 ± 8.6           123.5 ± 8.0                              3.1                                2.7               0.1 ± 0.1                                   1
+All Backgrounds                                              874.6 ± 7.6          1543.4 ± 13.3                       20.1                                    33.4               10.3 ± 0.1                                 84
+82
+   Se 2νββ Signal                                             3472 ± 49             3079 ± 43                         79.9                                    66.6               1.9 ± 0.1                                  16
+Signal + Background                                             4347 ± 45          4622 ± 48                          100.0                               100.0                  12.2 ± 0.2                               100
+Data                                                              4350               4586                             N/A                                 N/A                        15                                   N/A
+8                       R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+                             NEMO-3 - 82Se - 932 g, 5.25 y
+                                                                                                       5.1 Higher-state vs single-state dominated transistions
+
+
+
+No. Events / 0.1 MeV
+                       80                                              Data (455)
+
+
+                       70
+                                                                       214
+                                                                             Bi Int & Rad BGs          For the purpose of the nuclear matrix element calcula-
+                                                                       208
+                                                                             Tl Tracker Wires
+                                                                                                       tion, the decay of 82 Se to 82 Kr is modelled as two virtual
+                       60                                                                              β transitions: one between the ground state of 82 Se and
+                                                                                                       the 1+ states of the intermediate nucleus of 82 Br, and
+                                                                       208
+                                                                             Tl Internal
+                       50
+                                                                                                       one between the 1+ states of 82 Br and the ground state
+                       40
+                                                                                                       of 82 Kr. If one single intermediate 1+ state dominates
+                                                                                                       the transition, then the process is said to be single-state
+                       30                                                                              dominated (SSD). Alternatively, if the process proceeds
+                                                                                                       through many higher intermediate excited states, it is said
+                       20                                                                              to be higher-state dominated (HSD). Previously, it has
+                                                                                                       been assumed that 82 Se decay occurs in the HSD scenario.
+                       10
+                                                                                                       However, a strong transition in the 82 Se(3 He,3 H)82 Br re-
+                                                                                                       action via the 1+ (75 keV) excited level of 82 Br was re-
+           Data/MC
+                       1.5                                                                             cently identified [35], suggesting that the SSD scenario
+                         1                                                                             could be realised. The shape of the distribution of the
+                       0.5                                                                             sum of electron energies, which is used for the 2νββ half-
+                         0             0.5          1        1.5   2             2.5               3   life measurement, is very similar in both scenarios. How-
+                                                                                           Ee / MeV
+                                                                                                       ever, the sub-division of energy between the electrons is
+                                                                                                       different in the two cases and therefore a precise high-
+Fig. 5: Energy spectrum of electrons selected in the 1e2γ
+                                                                                                       statistics study of single-electron energy distributions can
+channel, which contains an electron and two γ-rays. The
+                                                                                                       be used to distinguish between the two models [36]. More-
+channel is designed to allow a measurement of the source
+                                                                                                       over, the choice of the model affects the measured half-life
+foil contamination with 208 Tl. Data are compared to the
+                                                                                                       of the 2νββ transition. This is because the increased num-
+MC prediction, which is dominated by internal 208 Tl con-
+                                                                                                       ber of lower energy electrons in the SSD model reduces
+tamination with a small contribution from 208 Tl in the
+                                                                                                       the detection efficiency and therefore the extracted half-
+tracker wires.
+                                                                                                       life. The selection efficiency for the 2νββ signal calculated
+                                                                                                       from MC using the event selection criteria described above
+                                                                                                       is [2.971 ± 0.002 (stat)] % under the HSD hypothesis and
+from run 2 foils. Among the internal contaminants, 234m Pa                                             [2.623 ± 0.002 (stat)] % in the SSD case.
+is the most prominent, accounting for 7.9% of events orig-                                                  The largest difference between the SSD and HSD single-
+inating in run 1 foils and 23.0% of events from run 2 foils.                                           electron energy spectra is at the low end of the distribu-
+The external backgrounds account for 3% of the total with                                              tion [36]. However, due to the previously identified issues
+the majority of events from γ-ray transitions of 208 Tl and                                            with the 234m Pa conversion electron branching ratios, the
+214
+    Bi. The radon backgrounds make up 2% with a dom-                                                   individual electron energy distributions for the HSD and
+inant contribution from 214 Bi, and a secondary contribu-                                              SSD models were compared to data after applying a cut
+tion from 210 Bi. The majority of these events come from                                               on the sum of the electron energy of Etot > 1.6 MeV. This
+the surface of the tracker wires, but some are also present                                            reduces the contamination from 234m Pa to below 2%. Fig-
+on the surface of the foil. There are more expected radon                                              ure 7 shows a good agreement with data for the SSD hy-
+background events in phase 1 compared to phase 2 despite                                               pothesis (χ2 /ndf = 12.3/16) while the HSD hypothesis
+its much shorter exposure period.                                                                      is disfavoured (χ2 /ndf = 35.3/16) at a level equivalent
+                                                                                                       to 2.1σ. The SSD scenario is therefore assumed for the re-
+    NEMO-3 has the unique capability of reconstructing                                                 mainder of the analysis, unless explicitly stated otherwise.
+the full kinematics of the ββ decay final states. The indi-
+vidual energies of each electron can be seen in Figure 6,
+where the higher degree of contamination from 234m Pa in                                               5.2 Extraction of 2νββ half-life
+the run 2 foils leads to a much larger contribution from the
+internal backgrounds. There is a discrepancy between data                                              A binned log-likelihood fit to the distribution of the sum
+and MC in the region of 0.5 − 0.7 MeV caused by a peak                                                 of the two electron energies of the 4350 ββ events selected
+from the emission of a 694 keV internal conversion electron                                            from the data and originating from enrichment run 1 foils
+from 234m Pa. This discrepancy is significantly stronger in                                            is performed together with a fit to the six background
+the run 2 foils due to their higher contamination with                                                 channels, as described in Section 4. The fit assuming the
+234m
+      Pa. The discrepancy is most likely caused by inaccura-                                           SSD hypothesis, shown in Figure 8, yields 3472.4 ± 75.7
+cies in the internal conversion electron transition probabil-                                          signal events, with a signal-to-background ratio of 4.0. The
+ities obtained from the existing nuclear data sheets [33,34].                                          distribution of the opening angle between the two tracks
+Given this large uncertainty associated with the 234m Pa                                               is shown in Figure 9.
+background contribution, the enrichment run 2 foils are                                                    In addition to the statistical uncertainty obtained from
+excluded from the analysis to enable a more precise mea-                                               the log-likelihood fit, the 2νββ half-life measurement is af-
+surement of the 2νββ half-life, as further discussed in 5.2.                                           fected by a number of systematic uncertainties. The most
+                            R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment                                                                  9
+
+
+                                          82                                                                                                      82
+                                 NEMO-3 - Se (Run 1) - 464 g, 5.25 y                                                                     NEMO-3 - Se (Run 2) - 468 g, 5.25 y
+
+
+
+
+No. Electrons / 0.05 MeV                                                                                No. Electrons / 0.05 MeV
+                                                                              Data (8700)                                          900                                                Data (9172)
+                           800                                                External BGs                                                                                            External BGs
+                                                                                                                                   800
+                                                                              Radon BGs                                                                                               Radon BGs
+                           700
+                                                                              Internal BGs                                         700                                                Internal BGs
+                           600
+                                                                              2νββ Signal                                                                                             2νββ Signal
+                                                                                                                                   600
+                                                                              χ2 / ndf = 45.19 / 32                                                                                   χ2 / ndf = 53.23 / 31
+                           500                                                S/B = 4.0                                            500
+                                                                                                                                                                                      S/B = 2.0
+
+                           400
+                                                                                                                                   400
+
+                           300                                                                                                     300
+
+                           200                                                                                                     200
+
+                           100                                                                                                     100
+
+
+
+
+             Data/MC                                                                                                 Data/MC
+                              0                 0.5               1     1.5          2            2.5                                 0                 0.5               1     1.5          2            2.5
+                           1.5                                                                                                     1.5
+                             1                                                                                                       1
+                           0.5                                                                                                     0.5
+
+                             0                  0.5               1     1.5          2            2.5                                0                  0.5               1     1.5          2            2.5
+                                                                                           Ee / MeV                                                                                                Ee / MeV
+
+                                                      (a) Enrichment Run 1 Foils                                                                              (b) Enrichment Run 2 Foils
+
+Fig. 6: Energy distribution of individual electrons in the ββ channel for foils from each enrichment run, showing a
+comparison of the data to the predicted spectrum from MC. The two electrons in each event are entered separately
+into this distributions. The higher level of 234m Pa contamination in the run 2 foils leads to a larger contribution from
+the internal backgrounds. These foils are removed from the 2νββ analysis due to poor modelling of this isotope (see
+text).
+
+                                          82                                                                                                      82
+                                 NEMO-3 - Se (Run 1) - 464 g, 5.25 y                                                                     NEMO-3 - Se (Run 1) - 464 g, 5.25 y
+
+
+
+
+No. Electrons / 0.1 MeV                                                                                 No. Electrons / 0.1 MeV
+                                                                              Data (2050)                                                                                             Data (2050)
+                           200                                                                                                     200
+                                                                              External BGs                                                                                            External BGs
+                           180                                                Radon BGs                                            180                                                Radon BGs
+                           160
+                                                                              Internal BGs                                         160
+                                                                                                                                                                                      Internal BGs
+                                                                              2νββ Signal                                                                                             2νββ Signal
+                           140                                                                                                     140
+                                                                              χ2 / ndf = 35.32 / 16                                                                                   χ2 / ndf = 12.34 / 16
+                           120                                                S/B = 6.1                                            120                                                S/B = 6.2
+
+                           100                                                                                                     100
+
+                            80                                                                                                      80
+
+                            60                                                                                                      60
+
+                            40                                                                                                      40
+
+                            20                                                                                                      20
+
+
+
+
+             Data/MC                                                                                                 Data/MC
+                              0                 0.5               1     1.5          2            2.5                                 0                 0.5               1     1.5          2            2.5
+                           1.5                                                                                                     1.5
+                             1                                                                                                       1
+                           0.5                                                                                                     0.5
+
+                             0                  0.5               1     1.5          2            2.5                                0                  0.5               1     1.5          2            2.5
+                                                                                           Ee / MeV                                                                                                Ee / MeV
+
+                                               (a) Higher-state Dominated (HSD)                                                                        (b) Single-state Dominated (SSD)
+
+Fig. 7: Energy distribution of individual electrons in the ββ channel for foils from enrichment run 1, after removing
+events where ΣEe < 1.6 MeV to reduce the effect of contamination by 234m Pa. The data are compared to the predicted
+spectrum from MC under the HSD and SSD hypotheses. There is good agreement between the data and SSD hypothesis
+(χ2 /ndf = 12.3/16), but the HSD hypothesis is disfavoured (χ2 /ndf = 35.3/16).
+10                      R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+                                      82
+                             NEMO-3 - Se (Run 1) - 464 g, 5.25 y                                                     Table 3: Systematic errors contributing to the uncertainty
+
+
+
+No. Events / 0.1 MeV
+                                                                                     Data (4350)                     on the 2νββ half-life measurement. The uncertainty on
+                       450
+                                                                                     External BGs                    each source is given and its effect on the uncertainty on
+                       400                                                           Radon BGs                       the 2νββ half-life is shown. The uncertainty for 234m Pa is
+                                                                                     Internal BGs
+                       350                                                           2νββ Signal
+                                                                                                                     shown for enrichment run 1 foils only and for enrichment
+                                                                                                                     runs 1 and 2 combined.
+                       300                                                     T1/2 = (9.39 ± 0.17) x 1019 yrs
+                                                                               χ2 / ndf = 9.61 / 20
+                       250                                                     S/B = 4.0                                                            Systematic         2νββ half-life
+                                                                                                                     Systematic cause               uncertainty         uncertainty
+                       200
+
+                       150
+                                                                                                                     2νββ efficiency                  ±5.0%            ±5.0%
+                                                                                                                     234m                                          ±2.3% (Run 1)
+                                                                                                                            Pa modelling             ±30.0%
+                       100                                                                                                                                        ±4.5% (Runs 1+2)
+                                                                                                                             −
+                        50
+                                                                                                                     Min. e energy             (0.3 − 0.8) MeV         ±2.5%
+                                                                                                                     Energy calibration             ±1.0%              ±1.25%
+                                                                                                                     Int. BG activities             ±4.0%              ±0.8%
+           Data/MC
+                          0            0.5          1          1.5       2           2.5           3         3.5
+                       1.5                                                                                           Ext. BG activities             ±10.0%             ±0.6%
+                         1
+                                                                                                                     Radon BG activities            ±10.0%             ±0.25%
+                       0.5                                                                                           82
+                                                                                                                        Se mass                     ±0.5%              ±0.5%
+                          0            0.5          1          1.5       2           2.5           3          3.5
+                                                                                                  E1 + E2 / MeV                                                    ±6.3% (Run 1)
+                                                                                                                     Total syst. error                 N/A
+                                                                                                                                                                  ±7.3% (Runs 1+2)
+Fig. 8: Distribution of the summed energy of the two elec-
+trons in the ββ channel originating from enrichment run
+1 foils. Data are compared to the MC prediction, where
+the activities of both signal and background components                                                              important source of systematic error is the uncertainty on
+are taken from the binned log-likelihood fit. The numbers                                                            the detector acceptance and reconstruction and selection
+of events in the histogram are as shown in Table 2. The                                                              efficiency. This uncertainty is quantified using dedicated
+largest background category is internal contamination of                                                             runs with 207 Bi sources introduced into the detector and
+the source foil (blue), but this is still much smaller than                                                          is compared with activities independently measured by an
+the contribution from the 2νββ signal, with a signal-to-                                                             HPGe detector. Taking into account the systematic error
+background ratio of 4.0.                                                                                             on the HPGe measurement (5%) the uncertainty on the
+                                                                                                                     signal efficiency is determined to be 5% [8].
+                                      82
+                             NEMO-3 - Se (Run 1) - 464 g, 5.25 y                                                          Other sources of systematic uncertainty are listed in
+
+No. Events
+                                                                                     Data (4350)                     Table 3. The systematic error due to the background mod-
+                                                                                     External BGs                    elling is dominated by the uncertainty on the 234m Pa con-
+                       500
+                                                                                     Radon BGs                       version electron branching ratio discussed above. This un-
+                                                                                     Internal BGs                    certainty translates into a 2.3% error on the 2νββ half-life
+                       400
+                                                                                     2νββ Signal                     for the run 1 foils and increases to 4.5% if the analysis is
+                                                                               T1/2 = (9.39 ± 0.17) x 1019 yrs
+                                                                                                                     performed on both enrichment samples due to the higher
+                                                                               χ2 / ndf = 24.99 / 19                 234m
+                       300                                                     S/B = 4.0
+                                                                                                                           Pa levels in the run 2 foils. The uncertainty on the
+                                                                                                                     2νββ half-life measurement is systematics dominated and
+                                                                                                                     therefore the overall precision of the measurement is im-
+                       200                                                                                           proved by excluding the run 2 foils.
+                                                                                                                          The individual systematic errors are assumed to be
+                       100                                                                                           uncorrelated and are added in quadrature to obtain the
+                                                                                                                     total systematic uncertainty of 6.3%. This yields the final
+                                                                                                                     measurement of N = 3472 ± 76 (stat) ± 218 (syst) for the
+
+           Data/MC
+                          -1       -0.8      -0.6   -0.4    -0.2     0       0.2    0.4     0.6        0.8       1   number of signal events obtained with (0.464 ± 0.002) kg
+                       1.5
+                         1                                                                                           of 82 Se from enrichment run 1 over 5.25 y of observation.
+                       0.5                                                                                           This can be converted to the 82 Se 2νββ half-life using
+                         -1        -0.8      -0.6   -0.4    -0.2     0       0.2    0.4     0.6        0.8     1
+                                                                                                          cos(θ)
+                                                                                                                                                     NA m
+                                                                                                                                           T1/2 =          ln (2)t ,                    (2)
+Fig. 9: Distribution of the cosine of the angle between two                                                                                         N A
+electron tracks at the point of emission from the run 1
+source foil in the ββ channel. As expected, more events are                                                          where  is the selection efficiency (2.623%), NA is Avo-
+observed with electrons emitted to back-to-back than with                                                            gadro’s number, mA is the number of moles of
+                                                                                                                                                                   82
+                                                                                                                                                                      Se and t is
+smaller opening angles. This angular distribution has been                                                           the total exposure time. The resulting half-life, assuming
+reweighted based on data from 207 Bi calibration sources.                                                            the SSD hypothesis, is
+
+                                                                                                                         2ν
+                                                                                                                        T1/2 = [9.39 ± 0.17 (stat) ± 0.58 (syst)] × 1019 y .            (3)
+     R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment     11
+
+
+An identical analysis under the HSD hypothesis gives            Table 4: Values of the 1σ systematic errors included when
+                                                                setting limits on 0νββ decay modes using the COLLIE soft-
+   2ν
+  T1/2 = [10.63 ± 0.19 (stat) ± 0.66 (syst)] × 1019 y .   (4)   ware package [40]. The estimated errors shown are on the
+   The half-life measurement allows the experimental de-        systematic quantity and are therefore significantly reduced
+termination of the NME for the 2νββ decay mode of 82 Se         when transferred through the ββ selection, with the ex-
+using the equation                                              ception of the dominating 0νββ efficiency uncertainty.
+                −1                        2
+             2ν
+            T1/2     = G2ν (Qββ , Z) gA
+                                      4
+                                        M 2ν ,       (5)                                 Systematic
+                                                                Systematic cause         uncertainty      Source of estimate
+where gA is the axial-vector coupling constant and G2ν          0νββ efficiency            ±5.0%           207
+                                                                                                             Bi vs. HPGe
+is the phase space for the 82 Se 2νββ 0+ → 0+ ground                                                       Variation from
+state transition. Taking G2ν (Qββ , Z) = 1.6 × 10−18 y−1        Ext. BG activities         ±10.0%
+                                                                                                            model in [30]
+as calculated in [37, 38] and assuming gA = 1.27 [3] we         Radon BG activities        ±10.0%         1e1αN γ vs. 1e1γ
+obtain for the matrix element under the SSD hypothesis          Int. BG activities                        207
+                                                                                           ±4.0%                Bi 1eN γ vs. 2e
+                     2ν                                         (excl. Tl, Bi & Pa)
+                 M        = 0.0498 ± 0.0016 ,             (6)
+                                                                Int. 214 Bi activity       ±10.0%         1e1αN γ vs. 1e1γ
+and under the HSD hypothesis                                    Int. 208 Tl activity       ±10.0%          232
+                                                                                                               U vs. HPGe
+                                                                Int. 234m Pa activity      ±30.0%         Old vs. new MC
+                 M 2ν = 0.0468 ± 0.0015 ,                 (7)   2νββ activity              ±1.0%           Statistical error
+where the quoted errors include both statistical and sys-
+tematic uncertainties, which are assumed to be uncorre-
+lated.                                                          6.1 Light Majorana Neutrino Exchange
+
+                                                                Light Majorana neutrino exchange is the most commonly
+6 Neutrinoless double beta decay                                discussed mechanism of 0νββ decay. It has an experimen-
+                                                                tal signature characterised by a peak in the distribution
+A search for 0νββ is carried out by selecting ββ events as      of the electron energy sum at the Qββ value.
+outlined in Section 3. Due to the higher energies of elec-           The background, signal and data distributions shown
+trons emitted in the 0νββ decay the uncertainties due to        in Figure 10a are used to set the limit. There are 7.20
+the 234m Pa background model reported earlier are negligi-      [5.09 − 10.66] events expected to be excluded at the 90%
+ble. Consequently, both enrichment samples are included         C.L., where the ±1σ range is given in brackets. The sys-
+in the 0νββ analysis. Alongside backgrounds from natural        tematic errors from Table 4 are included in the expected
+radioactivity, 0νββ has an additional background contri-        limit and only reduce it by 2%. Taking into account the
+bution from 2νββ events. The following results assume           detector efficiency of 9.80% for this 0νββ mechanism and
+the SSD hypothesis, but the same results are also found         the 82 Se exposure of 4.90 kg·y, the 90% C.L. expected half-
+if the HSD case is taken. We considered four lepton num-        life limit is 3.39 [2.29−4.80]×1023 y. From the data sample,
+ber violating mechanisms for 0νββ: light Majorana neu-          9.67 events are excluded at 90% C.L. leading to an upper
+trino exchange, the admixture of right-handed currents          limit on the half-life of
+in electroweak interactions, 0νββ decay accompanied by
+a majoron emission and R-parity violating SUSY mod-                            0ν
+                                                                              T1/2 > 2.5 × 1023 y (90% C.L.) ,              (8)
+els. No evidence for a 0νββ signal is found for any of
+these mechanisms and therefore corresponding limits on          which is within the 1σ range of the expected sensitivity.
+the half-lives are set. The background contributions to             Equation 1 is used to convert the half-life limit into
+0νββ in the [2.6 − 3.2] MeV energy region, where most of        an upper bound on the effective Majorana neutrino mass.
+the signal from the light Majorana neutrino exchange and        The phase space is taken as G0ν = 1.016 × 10−14 y−1 [37]
+right-handed current mechanisms is expected, are shown          (in agreement with G0ν = 1.014 × 10−14 y−1 from [38]).
+in Table 2.                                                         Several nuclear models are used to calculate the NME
+    The electron energy sum distribution is used to set         for the 82 Se 0νββ transition to the ground state. The most
+the limits using a modified frequentist method based on         recent calculations from [41–46] have been used and gA
+a binned log-likelihood ratio test statistic (CLs ) [39]. The   is taken in the range 1.25 − 1.27 to correspond with the
+statistic is calculated over the entire energy range above      assumptions of the different calculations. As a result, the
+0.6 MeV and takes into account the shape of the energy          constraint on the effective neutrino mass is
+distribution.
+    In order to estimate the effect of systematic uncertain-                hmν i < (1.2 − 3.0) eV (90% C.L.) .             (9)
+ties on the limit, the background and signal distributions
+are scaled by random factors drawn from Gaussian distri-
+butions with widths defined by the systematic errors of         6.2 Right-handed Currents
+the experiment [40], which are given in Table 4. Similarly
+to 2νββ, the most significant contribution comes from the       Right-left symmetric models can provide an alternative
+error on the selection efficiency.                              mechanism for 0νββ due to the presence of right-handed
+12                       R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+
+                                NEMO-3 - 82Se - 932 g, 5.25 y                                                                                       NEMO-3 - 82Se - 932 g, 5.25 y
+
+
+
+
+No. Events / 0.1 MeV                                                                                                No. Events / 0.1 MeV
+                       103                                      14                            Data (8936)                                  103                                      14                            Data (3590)
+                                                                                              External BGs                                                                                                        External BGs
+                                                                12                            Radon BGs                                                                             12                            Radon BGs
+                                                                10                            Internal 234mPa                                                                       10                            Internal 234mPa
+                                                                                              Internal 214Bi                                                                                                      Internal 214Bi
+                         2                                          8                                                                        2                                          8
+                       10                                                                     Internal 208Tl                               10                                                                     Internal 208Tl
+                                                                                                   82                                                                                                                  82
+                                                                    6                         2νββ Se                                                                                   6                         2νββ Se
+                                                                                              0νββ Limit                                                                                                          0νββ Limit
+                                                                    4                                                                                                                   4
+                                                                    2                                                                                                                   2
+                       10                                                                                                                  10
+                                                                    0                                                                                                                   0
+                                                                        2.6         2.8   3     3.2      3.4                                                                                2.6         2.8   3     3.2      3.4
+
+
+
+                         1                                                                                                                   1
+
+
+
+
+           Data/MC                                                                                                             Data/MC
+                         1.5             2        2.5           3             3.5         4        4.5          5                            1.5             2        2.5           3             3.5         4        4.5          5
+                       1.5                                                                                                                 1.5
+                            1                                                                                                                   1
+                       0.5                                                                                                                 0.5
+
+                         1.5             2        2.5           3             3.5         4       4.5          5                             1.5             2        2.5           3             3.5         4       4.5          5
+                                                                                                  E1 + E2 / MeV                                                                                                       E1 + E2 / MeV
+
+                                              (a) Light Neutrino Exchange                                                                                        (b) Right-handed Current hλi
+
+Fig. 10: Distribution of the summed electron energies in the ββ channel and the ratio between the observed and MC
+predicted data. The inset plot shows the highest energy events on a linear scale. The solid histograms represent the
+backgrounds and 2νββ predictions and the open histogram shows a hypothetical 0νββ signal corresponding to the
+limit at 90% C.L. Figure (a) contains events selected in the ββ channel and Figure (b) contains a subset of these
+events that also pass the energy asymmetry cut for the right-handed current hλi mode, A > 0.26, where A is defined
+in the text.
+
+
+currents (RHC) in the electroweak Lagrangian [47, 48].                                                                 These half-life limits are translated into upper bound
+The lepton number violation mechanism is characterised                                                              on the coupling between right-handed quark and lepton
+by the coupling between right-handed currents of quarks                                                             currents, hλi < (2.2 − 2.6) × 10−6 , and into the coupling
+and leptons, hλi, and right-handed quark and left-handed                                                            between right-handed quark and left-handed lepton cur-
+lepton currents, hηi.                                                                                               rents, hηi < (1.7−2.1)×10−8 . The constraints are obtained
+    The hλi mechanism leads to very different angular and                                                           using NME calculations from [48–50].
+single energy distributions of the final state electrons and
+can therefore be distinguished from other mechanisms in
+an experiment capable of reconstructing the full topology
+of the process, such as NEMO-3 [16]. In addition to the                                                             6.3 Majoron Emission
+electron energy sum, further discrimination between the
+RHC hλi mechanism and background can be achieved with
+the energy asymmetry between the individual electron en-
+ergies, A, defined as A = (Emax − Emin ) / (Emax + Emin ).                                                          A 0νββ decay accompanied by a majoron, a light or mass-
+                                                                                                                    less boson that weakly couples to the neutrino, has a
+    The expected sensitivity in the RHC hλi mode has                                                                continuous spectrum of the energy sum of the two de-
+been studied by MC and is maximised with a cut of A >                                                               cay electrons, Etot , up to Qββ [51]. The phase space of
+0.26. This selection is therefore applied when searching                                                            the process depends on the spectral index n, as G0ν ∝
+for this particular decay mode as shown in Figure 10b.                                                                            n
+                                                                                                                    (Qββ − Etot ) , and determines the shape of the distribu-
+Cutting on the energy asymmetry variable provides no                                                                tion. Decays with higher n have broader Etot distributions
+improvement in sensitivity for the hηi mode and so the                                                              peaking at lower energy values. Such events are harder
+standard ββ selection criteria are used in this case.                                                               to separate from 2νββ and other backgrounds. Therefore
+     For the hλi mode, 7.34 events are excluded from the                                                            only the result of the search for majoron induced 0νββ de-
+data sample leading to a lower limit on the half-life of                                                            cay with n = 1 is shown here. The corresponding half-life
+                                                                                                                              0ν
+1.63 × 1023 y at 90% C.L. This result is in agreement                                                               limit is T1/2 > 3.7 × 1022 y at 90% C.L., which translates
+with the median expected sensitivity of the experiment                                                              into an upper limit on the majoron-neutrino coupling of
+of 2.16 [1.46 − 3.01] × 1023 y. For the hηi mode, the half-                                                         hgee i < (3.2 − 8.0) × 10−5 . The range is due to a spread
+life lower limit is 2.19 × 1023 y at 90% C.L. and also agrees                                                       in NME calculations, which are taken from [41–46], while
+with the expected sensitivity.                                                                                      the phase space is taken from [52].
+     R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment        13
+
+
+6.4 Supersymmetry Models                                             average reported in [12,13]. The SuperNEMO experiment
+                                                                     is based on the same design principles as the NEMO-3
+R-parity violating SUSY models can trigger 0νββ decay                detector and will have lower backgrounds and improved
+via short range exchange of heavy superpartners, such as             energy resolution. A demonstrator module is currently be-
+gluino or neutralino, or long range exchange of squarks              ing commissioned, which will house 7 kg of 82 Se. The Su-
+and neutrinos [53, 54]. The kinematics of the electrons              perNEMO demonstrator module will have the sensitivity
+emitted in the decay are the same as in the light neutrino           to distinguish between the SSD and HSD scenarios at a
+exchange mechanism and therefore the same half-life limit            > 5σ level.
+can be used to set limits on SUSY parameters. Taking the                  A search for 0νββ decay has been carried out for a
+phase space from [37] and the NME from [55, 56], the fol-            number of different mechanisms, with foils from both en-
+lowing constraints are obtained for the short range gluino           richment runs, giving an exposure of 4.9 kg·y. No evidence
+and neutralino exchange mechanisms:                                  for any neutrinoless double beta decay transition is found
+                                 m 2  m 1/2                      and therefore upper limits on the corresponding lepton
+                                    q̃     g̃                        number violating parameters have been set. The results
+ λ0111 ≤ (7.68−8.32)×10−2                       , (10)
+                                 1 TeV  1 TeV                        of the 0νββ search are summarised in Table 5. The most
+                                                                     stringent half-life limit for 82 Se is obtained for the light
+                                                                                                                 0ν
+                                 m 2  m 1/2                      neutrino exchange mechanism of 0νββ, T1/2       > 2.5×1023 y
+                                    ẽ     χ̃
+ λ0111 ≤ (5.33 − 5.78) × 10−1                   , (11)               at 90% C.L. corresponding to an effective Majorana neu-
+                                 1 TeV  1 TeV                        trino mass of hmν i < (1.2 − 3.0) eV. It should be noted
+where mq̃ , mg̃ , mẽ and mχ̃ are the masses of squark,              that the CUPID-0 collaboration recently published their
+gluino, selectron and neutralino respectively. The corre-            first limit for 0νββ of 82 Se with a value T1/2
+                                                                                                                 0ν
+                                                                                                                     > 2.4×1024 y
+sponding limits for the long range squark exchange mech-             [9].
+anism are:                                                                The constraints on the RHC parameters, hλi and hηi,
+                                              3                    on the majoron-neutrino coupling constant, hgee i, and on
+                                         ΛSUSY                       R-parity violating SUSY parameters, λ01ij , shown in Ta-
+    λ0111 λ0111 ≤ (3.17 − 3.22) × 10−2            ,  (12)
+                                         1 TeV                       ble 5 are the best for 82 Se and are comparable with the
+                                                                     best available limits from other isotopes [8] despite a much
+                                                    3              lower exposure.
+                                             ΛSUSY
+    λ0112 λ0121 ≤ (1.66 − 1.68) × 10−3                    ,   (13)
+                                             1 TeV
+                                                                     We thank the staff of the Modane Underground Laboratory
+                                                                     for their technical assistance in running the experiment. We
+                                                    3              acknowledge support by the grants agencies of the Czech Re-
+                                             ΛSUSY
+    λ0113 λ0131 ≤ (6.88 − 6.98) × 10−5                    ,   (14)   public, CNRS/IN2P3 in France, RFBR in Russia, STFC in the
+                                             1 TeV                   UK and NSF in the USA.
+
+where ΛSUSY is a general SUSY breaking scale parameter.
+The above limits assume gA = 1.25. The spread in the lim-
+its is due to NME uncertainties associated with differences          References
+in the form of the Argonne and Charge Dependent Bonn
+(CD-Bonn) nucleon-nucleon potentials [55].                            1. Y. Fukuda et al., Phys. Rev. Lett. 81, 1562 (1998)
+                                                                      2. Q.R. Ahmad et al., Phys. Rev. Lett. 89, 011301 (2002)
+                                                                      3. K.A. Olive et al., Chin. Phys. C38, 090001 (2014)
+7 Summary and Conclusions                                             4. S. Dell’Oro, S. Marcocci, M. Viel, F. Vissani, Adv. High
+                                                                         Energy Phys. 2016, 2162659 (2016)
+The results of 82 Se ββ decay studies obtained with the full          5. A. Gando et al., Phys. Rev. Lett. 117, 082503 (2016)
+                                                                      6. M. Agostini et al., Phys. Rev. Lett. 120, 132503 (2018)
+set of NEMO-3 data are presented. The 82 Se 2νββ decay
+                                                                      7. C. Alduino et al., Phys. Rev. Lett. 120, 132501 (2018)
+half-life for the ground state transition has been measured
+                                                                      8. R. Arnold et al., Phys. Rev. D92, 072011 (2015)
+using foils from the first enrichment run only, due to higher
+                                                                      9. O. Azzolini et al., Phys. Rev. Lett. 120, 232502 (2018)
+levels of 234m Pa contamination in the foils from the sec-
+                                                                     10. J.B. Albert et al., Phys. Rev. Lett. 120, 072701 (2018)
+ond run and associated uncertainties in the 234m Pa con-
+                                                                     11. C.E. Aalseth et al., Phys. Rev. Lett. 120, 132502 (2018)
+version electron branching ratios. With the correspond-
+                                                                     12. R. Saakyan, Annu. Rev. Nucl. Part. Sci. 63, 503 (2013)
+ing exposure of 2.4 kg·y, the HSD transition hypothesis is
+                                                                     13. A.S. Barabash, Nucl. Phys. A935, 52 (2015)
+disfavoured at the 2.1σ level, whilst the SSD hypothesis             14. D.L. Lincoln et al., Phys. Rev. Lett. 110, 012501 (2013)
+is supported. In the SSD scenario, the half-life has been            15. J. Meija et al., Pure Appl. Chem. 88, 293 (2016)
+                     2ν
+measured to be T1/2     = [9.39 ± 0.17 (stat) ± 0.58 (syst)] ×       16. R. Arnold et al., Eur. Phys. J. C70, 927 (2010)
+1019 y. This is the most precise measurement for this iso-           17. J. Beeman et al., Adv. High Energy Phys. 2013, 23793
+tope to date and allows the experimental extraction of the               (2013)
+corresponding NME, M 2ν = 0.0498 ± 0.0016. This single               18. T. Kirsten, W. Gentner, O.A. Schaeffer, Z. Phys. 202, 273
+result is more precise than and consistent with the world                (1967)
+14   R. Arnold et al.: Final results on 82 Se double beta decay to the ground state of 82 Kr from the NEMO-3 experiment
+
+Table 5: Limits from 0νββ searches for different decay modes in 82 Se. The signal efficiency and the 90% C.L. limits
+for half-lives and lepton number violating (LNV) parameters are shown. The ranges in the expected half-life limits
+are the ±1σ range of systematic uncertainties on the background model and signal efficiency. The ranges in the LNV
+parameter are due to the spread in NME calculations. The R-parity violating SUSY LNV parameters correspond to
+sparticle masses and energy scale ΛSUSY in TeV.
+
+                                                                  0ν
+                                                                      90% C.L. 1023 y
+                                                                                     
+                                            Efficiency           T1/2                                  LNV parameter
+0νββ mechanism                 Mode
+                                               (%)              Expected       Observed                  90% C.L.
+Light neutrino exchange         hmν i          9.80         > 2.29 − 4.80         > 2.53               < (1.2 − 3.0) eV
+                                 hλi           4.79         > 1.46 − 3.01         > 1.63             < (2.2 − 2.6) × 10−6
+Right-handed currents
+                                 hηi           8.70         > 1.99 − 4.20         > 2.19             < (1.7 − 2.1) × 10−8
+Majoron emission              hgee in=1        7.03         > 0.23 − 0.48         > 0.37             < (3.2 − 8.0) × 10−5
+                                                                                                                             1/2
+                                  λ0111                                                         ≤ (7.68 − 8.32) × 10−2 m2q̃ mg̃
+                                                                                                                             1/2
+                                  λ0111                                                         ≤ (5.33 − 5.78) × 10−1 m2ẽ mχ̃
+R-parity violating SUSY       λ111 λ0111
+                                0              9.80         > 2.29 − 4.80         > 2.53                             −2 3
+                                                                                                ≤ (3.17 − 3.22) × 10 ΛSUSY
+                              λ0112 λ0121                                                       ≤ (1.66 − 1.68) × 10−3 Λ3SUSY
+                              λ0113 λ0131                                                       ≤ (6.88 − 6.98) × 10−5 Λ3SUSY
+
+
+
+19. T. Kirsten, E. Heusser, D. Kather, J. Ohm, E. Pernicka,      46. J. Yao, L. Song, K. Hagino, P. Ring, J. Meng, Phys. Rev.
+    H. Richter, in Nuclear Beta Decays and Neutrino. Proc.           C91, 024316 (2015)
+    Int. Symp. Osaka, 1986 (1986), p. 71                         47. M. Doi, T. Kotani, E. Takasugi, Prog. Theor. Phys. Suppl.
+20. O.K. Manuel, in Nuclear Beta Decays and Neutrino. Proc.          83, 1 (1985)
+    Int. Symp. Osaka, 1986 (1986), p. 81                         48. T. Tomoda, Rept. Prog. Phys. 54, 53 (1991)
+21. O.K. Manuel, J. Phys. G17, S221 (1991)                       49. M. Aunola, J. Suhonen, Nucl. Phys. A643, 207 (1998)
+22. S. Elliott, A. Hahn, M. Moe, Phys. Rev. Lett. 59, 2020       50. K. Muto, E. Bender, H. Klapdor, Z. Phys. A334, 187
+    (1987)                                                           (1989)
+23. R. Arnold et al., Nucl. Phys. A636, 209 (1998)               51. P. Bamert, C.P. Burgess, R.N. Mohapatra, Nucl. Phys.
+24. R. Arnold et al., Phys. Rev. Lett. 95, 182302 (2005)             B449, 25 (1995)
+25. R. Arnold et al., Phys. Rev. D93, 112008 (2016)              52. J. Kotila, J. Barea, F. Iachello, Phys. Rev. C91, 064310
+26. J. Argyriades et al., Nucl. Phys. A847, 168 (2010)               (2015), [Erratum: Phys. Rev. C92, 029903 (2015)]
+27. R. Arnold et al., Phys. Rev. Lett. 107, 062504 (2011)        53. A. Faessler, S. Kovalenko, F. Simkovic, Phys. Rev. D58,
+28. R. Arnold et al., Phys. Rev. D94, 072003 (2016)                  055004 (1998)
+29. R. Arnold et al., Nucl. Instrum. Meth. A536, 79 (2005)       54. A. Faessler, T. Gutsche, S. Kovalenko, F. Simkovic, Phys.
+30. J. Argyriades et al., Nucl. Instrum. Meth. A606, 449             Rev. D77, 113012 (2008)
+    (2009)                                                       55. A. Faessler, G.L. Fogli, E. Lisi, A.M. Rotunno,
+31. O. Ponkratenko, V. Tretyak, Y. Zdesenko, Phys. Atom.             F. Šimkovic, Phys. Rev. D83, 113015 (2011)
+    Nucl. 63, 1282 (2000)                                        56. A. Faessler, A. Meroni, S.T. Petcov, F. Šimkovic, J. Ver-
+32. R. Brun, F. Bruyant, M. Maire, A. McPherson, P. Za-              gados, Phys. Rev. D83, 113003 (2011)
+    narini, CERN-DD-EE-84-1 (1987)
+33. Y.A. Akovali, Nucl. Data Sheets 71, 181 (1994)
+34. E. Browne, J.K. Tuli, Nucl. Data Sheets 108, 681 (2007)
+35. D. Frekers et al., Phys. Rev. C94, 014614 (2016)
+36. P. Domin, S. Kovalenko, F. Ŝimkovic, S.V. Semenov, Nucl.
+    Phys. A753, 337 (2005)
+37. J. Kotila, F. Iachello, Phys. Rev. C85, 034316 (2012)
+38. M. Mirea, T. Pahomi, S. Stoica, Rom. Rep. Phys. 67, 872
+    (2015)
+39. T. Junk, Nucl. Instrum. Meth. A434, 435 (1999)
+40. W. Fisher, FERMILAB-TM-2386-E (2006)
+41. J. Menendez, A. Poves, E. Caurier, F. Nowacki, Nucl.
+    Phys. A818, 139 (2009)
+42. F. Ŝimkovic, V. Rodin, A. Faessler, P. Vogel, Phys. Rev.
+    C87, 045501 (2013)
+43. J. Hyvärinen, J. Suhonen, Phys. Rev. C91, 024613 (2015)
+44. J. Barea, J. Kotila, F. Iachello, Phys. Rev. C91, 034304
+    (2015)
+45. T.R. Rodriguez, G. Martinez-Pinedo, Phys. Rev. Lett.
+    105, 252503 (2010)
+

@@ -1,0 +1,1018 @@
+                                         BABAR-PUB-13/002
+                                         SLAC-PUB-15411
+
+
+                                                              Search for B → K (∗) νν and invisible quarkonium decays
+                                               J. P. Lees,1 V. Poireau,1 V. Tisserand,1 E. Grauges,2 A. Palanoab,3 G. Eigen,4 B. Stugu,4 D. N. Brown,5
+                                           L. T. Kerth,5 Yu. G. Kolomensky,5 M. Lee,5 G. Lynch,5 H. Koch,6 T. Schroeder,6 C. Hearty,7 T. S. Mattison,7
+                                              J. A. McKenna,7 R. Y. So,7 A. Khan,8 V. E. Blinov,9 A. R. Buzykaev,9 V. P. Druzhinin,9 V. B. Golubev,9
+                                             E. A. Kravchenko,9 A. P. Onuchin,9 S. I. Serednyakov,9 Yu. I. Skovpen,9 E. P. Solodov,9 K. Yu. Todyshev,9
+                                                A. N. Yushkov,9 D. Kirkby,10 A. J. Lankford,10 M. Mandelkern,10 B. Dey,11 J. W. Gary,11 O. Long,11
+                                                G. M. Vitug,11 C. Campagnari,12 M. Franco Sevilla,12 T. M. Hong,12 D. Kovalskyi,12 J. D. Richman,12
+                                           C. A. West,12 A. M. Eisner,13 W. S. Lockman,13 A. J. Martinez,13 B. A. Schumm,13 A. Seiden,13 D. S. Chao,14
+
+
+
+
+arXiv:1303.7465v2 [hep-ex] 11 Jun 2013
+                                         C. H. Cheng,14 B. Echenard,14 K. T. Flood,14 D. G. Hitlin,14 P. Ongmongkolkul,14 F. C. Porter,14 R. Andreassen,15
+                                         Z. Huard,15 B. T. Meadows,15 M. D. Sokoloff,15 L. Sun,15 P. C. Bloom,16 W. T. Ford,16 A. Gaz,16 U. Nauenberg,16
+                                               J. G. Smith,16 S. R. Wagner,16 R. Ayad,17, ∗ W. H. Toki,17 B. Spaan,18 K. R. Schubert,19 R. Schwierz,19
+                                               D. Bernard,20 M. Verderi,20 S. Playfer,21 D. Bettonia ,22 C. Bozzia ,22 R. Calabreseab,22 G. Cibinettoab ,22
+                                         E. Fioravantiab ,22 I. Garziaab ,22 E. Luppiab ,22 L. Piemontesea ,22 V. Santoroa,22 R. Baldini-Ferroli,23 A. Calcaterra,23
+                                             R. de Sangro,23 G. Finocchiaro,23 S. Martellotti,23 P. Patteri,23 I. M. Peruzzi,23, † M. Piccolo,23 M. Rama,23
+                                           A. Zallo,23 R. Contriab ,24 E. Guidoab ,24 M. Lo Vetereab ,24 M. R. Mongeab ,24 S. Passaggioa,24 C. Patrignaniab,24
+                                         E. Robuttia ,24 B. Bhuyan,25 V. Prasad,25 M. Morii,26 A. Adametz,27 U. Uwer,27 H. M. Lacker,28 P. D. Dauncey,29
+                                            U. Mallik,30 C. Chen,31 J. Cochran,31 W. T. Meyer,31 S. Prell,31 A. E. Rubin,31 A. V. Gritsan,32 N. Arnaud,33
+                                              M. Davier,33 D. Derkach,33 G. Grosdidier,33 F. Le Diberder,33 A. M. Lutz,33 B. Malaescu,33 P. Roudeau,33
+                                             A. Stocchi,33 G. Wormser,33 D. J. Lange,34 D. M. Wright,34 J. P. Coleman,35 J. R. Fry,35 E. Gabathuler,35
+                                            D. E. Hutchcroft,35 D. J. Payne,35 C. Touramanis,35 A. J. Bevan,36 F. Di Lodovico,36 R. Sacco,36 G. Cowan,37
+                                         J. Bougher,38 D. N. Brown,38 C. L. Davis,38 A. G. Denig,39 M. Fritsch,39 W. Gradl,39 K. Griessinger,39 A. Hafner,39
+                                               E. Prencipe,39 R. J. Barlow,40, ‡ G. D. Lafferty,40 E. Behn,41 R. Cenci,41 B. Hamilton,41 A. Jawahery,41
+                                               D. A. Roberts,41 R. Cowan,42 D. Dujmic,42 G. Sciolla,42 R. Cheaib,43 P. M. Patel,43, § S. H. Robertson,43
+                                              P. Biassoniab ,44 N. Neria ,44 F. Palomboab,44 L. Cremaldi,45 R. Godang,45, ¶ P. Sonnek,45 D. J. Summers,45
+                                             X. Nguyen,46 M. Simard,46 P. Taras,46 G. De Nardoab ,47 D. Monorchioab,47 G. Onoratoab ,47 C. Sciaccaab ,47
+                                            M. Martinelli,48 G. Raven,48 C. P. Jessop,49 J. M. LoSecco,49 K. Honscheid,50 R. Kass,50 J. Brau,51 R. Frey,51
+                                              N. B. Sinev,51 D. Strom,51 E. Torrence,51 E. Feltresiab ,52 M. Margoniab ,52 M. Morandina ,52 M. Posoccoa,52
+                                                 M. Rotondoa ,52 G. Simia ,52 F. Simonettoab ,52 R. Stroiliab ,52 S. Akar,53 E. Ben-Haim,53 M. Bomben,53
+                                         G. R. Bonneaud,53 H. Briand,53 G. Calderini,53 J. Chauveau,53 Ph. Leruste,53 G. Marchiori,53 J. Ocariz,53 S. Sitt,53
+                                            M. Biasiniab ,54 E. Manonia ,54 S. Pacettiab ,54 A. Rossiab ,54 C. Angeliniab ,55 G. Batignaniab ,55 S. Bettariniab ,55
+                                         M. Carpinelliab ,55, ∗∗ G. Casarosaab,55 A. Cervelliab ,55 F. Fortiab ,55 M. A. Giorgiab ,55 A. Lusianiac ,55 B. Oberhofab ,55
+                                               E. Paoloniab,55 A. Pereza ,55 G. Rizzoab ,55 J. J. Walsha ,55 D. Lopes Pegna,56 J. Olsen,56 A. J. S. Smith,56
+                                              R. Facciniab ,57 F. Ferrarottoa,57 F. Ferroniab ,57 M. Gasperoab ,57 L. Li Gioia ,57 G. Pireddaa,57 C. Bünger,58
+                                            O. Grünberg,58 T. Hartmann,58 T. Leddig,58 C. Voß,58 R. Waldi,58 T. Adye,59 E. O. Olaiya,59 F. F. Wilson,59
+                                             S. Emery,60 G. Hamel de Monchenault,60 G. Vasseur,60 Ch. Yèche,60 F. Anullia ,61 D. Aston,61 D. J. Bard,61
+                                               J. F. Benitez,61 C. Cartaro,61 M. R. Convery,61 J. Dorfan,61 G. P. Dubois-Felsmann,61 W. Dunwoodie,61
+                                              M. Ebert,61 R. C. Field,61 B. G. Fulsom,61 A. M. Gabareen,61 M. T. Graham,61 C. Hast,61 W. R. Innes,61
+                                               P. Kim,61 M. L. Kocian,61 D. W. G. S. Leith,61 P. Lewis,61 D. Lindemann,61 B. Lindquist,61 S. Luitz,61
+                                           V. Luth,61 H. L. Lynch,61 D. B. MacFarlane,61 D. R. Muller,61 H. Neal,61 S. Nelson,61 M. Perl,61 T. Pulliam,61
+                                             B. N. Ratcliff,61 A. Roodman,61 A. A. Salnikov,61 R. H. Schindler,61 A. Snyder,61 D. Su,61 M. K. Sullivan,61
+                                          J. Va’vra,61 A. P. Wagner,61 W. F. Wang,61 W. J. Wisniewski,61 M. Wittgen,61 D. H. Wright,61 H. W. Wulsin,61
+                                           V. Ziegler,61 W. Park,62 M. V. Purohit,62 R. M. White,62, †† J. R. Wilson,62 A. Randle-Conde,63 S. J. Sekula,63
+                                          M. Bellis,64 P. R. Burchat,64 T. S. Miyashita,64 E. M. T. Puccio,64 M. S. Alam,65 J. A. Ernst,65 R. Gorodeisky,66
+                                           N. Guttman,66 D. R. Peimer,66 A. Soffer,66 S. M. Spanier,67 J. L. Ritchie,68 A. M. Ruland,68 R. F. Schwitters,68
+                                                B. C. Wray,68 J. M. Izen,69 X. C. Lou,69 F. Bianchiab ,70 F. De Moriab ,70 A. Filippia ,70 D. Gambaab ,70
+                                              S. Zambitoab ,70 L. Lanceriab ,71 L. Vitaleab ,71 F. Martinez-Vidal,72 A. Oyanguren,72 P. Villanueva-Perez,72
+                                           H. Ahmed,73 J. Albert,73 Sw. Banerjee,73 F. U. Bernlochner,73 H. H. F. Choi,73 G. J. King,73 R. Kowalewski,73
+                                             M. J. Lewczuk,73 T. Lueck,73 I. M. Nugent,73 J. M. Roney,73 R. J. Sobie,73 N. Tasneem,73 T. J. Gershon,74
+                                                 P. F. Harrison,74 T. E. Latham,74 H. R. Band,75 S. Dasu,75 Y. Pan,75 R. Prepost,75 and S. L. Wu75
+                                                                                                                              2
+
+                                             (The BABAR Collaboration)
+                          1
+                                       Laboratoire d’Annecy-le-Vieux de Physique des Particules (LAPP),
+                                   Université de Savoie, CNRS/IN2P3, F-74941 Annecy-Le-Vieux, France
+                   2
+                     Universitat de Barcelona, Facultat de Fisica, Departament ECM, E-08028 Barcelona, Spain
+                     3
+                       INFN Sezione di Baria ; Dipartimento di Fisica, Università di Barib , I-70126 Bari, Italy
+                                     4
+                                       University of Bergen, Institute of Physics, N-5007 Bergen, Norway
+           5
+             Lawrence Berkeley National Laboratory and University of California, Berkeley, California 94720, USA
+                     6
+                       Ruhr Universität Bochum, Institut für Experimentalphysik 1, D-44780 Bochum, Germany
+                            7
+                              University of British Columbia, Vancouver, British Columbia, Canada V6T 1Z1
+                                     8
+                                       Brunel University, Uxbridge, Middlesex UB8 3PH, United Kingdom
+                                 9
+                                   Budker Institute of Nuclear Physics SB RAS, Novosibirsk 630090, Russia
+                                      10
+                                         University of California at Irvine, Irvine, California 92697, USA
+                                  11
+                                     University of California at Riverside, Riverside, California 92521, USA
+                          12
+                             University of California at Santa Barbara, Santa Barbara, California 93106, USA
+        13
+           University of California at Santa Cruz, Institute for Particle Physics, Santa Cruz, California 95064, USA
+                                    14
+                                       California Institute of Technology, Pasadena, California 91125, USA
+                                              15
+                                                 University of Cincinnati, Cincinnati, Ohio 45221, USA
+                                              16
+                                                 University of Colorado, Boulder, Colorado 80309, USA
+                                        17
+                                           Colorado State University, Fort Collins, Colorado 80523, USA
+                          18
+                             Technische Universität Dortmund, Fakultät Physik, D-44221 Dortmund, Germany
+            19
+               Technische Universität Dresden, Institut für Kern- und Teilchenphysik, D-01062 Dresden, Germany
+                 20
+                    Laboratoire Leprince-Ringuet, Ecole Polytechnique, CNRS/IN2P3, F-91128 Palaiseau, France
+                                        21
+                                           University of Edinburgh, Edinburgh EH9 3JZ, United Kingdom
+22
+   INFN Sezione di Ferrara ; Dipartimento di Fisica e Scienze della Terra, Università di Ferrarab , I-44122 Ferrara, Italy
+                                       a
+                                         23
+                                            INFN Laboratori Nazionali di Frascati, I-00044 Frascati, Italy
+              24
+                 INFN Sezione di Genovaa ; Dipartimento di Fisica, Università di Genovab , I-16146 Genova, Italy
+                               25
+                                  Indian Institute of Technology Guwahati, Guwahati, Assam, 781 039, India
+                                           26
+                                              Harvard University, Cambridge, Massachusetts 02138, USA
+              27
+                 Universität Heidelberg, Physikalisches Institut, Philosophenweg 12, D-69120 Heidelberg, Germany
+                28
+                   Humboldt-Universität zu Berlin, Institut für Physik, Newtonstr. 15, D-12489 Berlin, Germany
+                                        29
+                                           Imperial College London, London, SW7 2AZ, United Kingdom
+                                                  30
+                                                     University of Iowa, Iowa City, Iowa 52242, USA
+                                               31
+                                                  Iowa State University, Ames, Iowa 50011-3160, USA
+                                          32
+                                             Johns Hopkins University, Baltimore, Maryland 21218, USA
+                           33
+                              Laboratoire de l’Accélérateur Linéaire, IN2P3/CNRS et Université Paris-Sud 11,
+                                     Centre Scientifique d’Orsay, B. P. 34, F-91898 Orsay Cedex, France
+                              34
+                                 Lawrence Livermore National Laboratory, Livermore, California 94550, USA
+                                          35
+                                             University of Liverpool, Liverpool L69 7ZE, United Kingdom
+                                  36
+                                     Queen Mary, University of London, London, E1 4NS, United Kingdom
+     37
+        University of London, Royal Holloway and Bedford New College, Egham, Surrey TW20 0EX, United Kingdom
+                                            38
+                                               University of Louisville, Louisville, Kentucky 40292, USA
+                   39
+                      Johannes Gutenberg-Universität Mainz, Institut für Kernphysik, D-55099 Mainz, Germany
+                                      40
+                                         University of Manchester, Manchester M13 9PL, United Kingdom
+                                         41
+                                            University of Maryland, College Park, Maryland 20742, USA
+     42
+        Massachusetts Institute of Technology, Laboratory for Nuclear Science, Cambridge, Massachusetts 02139, USA
+                                             43
+                                                McGill University, Montréal, Québec, Canada H3A 2T8
+               44
+                  INFN Sezione di Milanoa ; Dipartimento di Fisica, Università di Milanob , I-20133 Milano, Italy
+                                         45
+                                            University of Mississippi, University, Mississippi 38677, USA
+                       46
+                          Université de Montréal, Physique des Particules, Montréal, Québec, Canada H3C 3J7
+                                           47
+                                              INFN Sezione di Napolia ; Dipartimento di Scienze Fisiche,
+                                               Università di Napoli Federico IIb , I-80126 Napoli, Italy
+48
+   NIKHEF, National Institute for Nuclear Physics and High Energy Physics, NL-1009 DB Amsterdam, The Netherlands
+                                         49
+                                            University of Notre Dame, Notre Dame, Indiana 46556, USA
+                                                50
+                                                   Ohio State University, Columbus, Ohio 43210, USA
+                                                 51
+                                                    University of Oregon, Eugene, Oregon 97403, USA
+              52
+                 INFN Sezione di Padovaa ; Dipartimento di Fisica, Università di Padovab , I-35131 Padova, Italy
+                                            53
+                                               Laboratoire de Physique Nucléaire et de Hautes Energies,
+                                               IN2P3/CNRS, Université Pierre et Marie Curie-Paris6,
+                                               Université Denis Diderot-Paris7, F-75252 Paris, France
+             54
+                INFN Sezione di Perugiaa ; Dipartimento di Fisica, Università di Perugiab , I-06100 Perugia, Italy
+                                                   55
+                                                      INFN Sezione di Pisaa ; Dipartimento di Fisica,
+                                Università di Pisab ; Scuola Normale Superiore di Pisac , I-56127 Pisa, Italy
+                                            56
+                                               Princeton University, Princeton, New Jersey 08544, USA
+                                                                                                                                          3
+
+                                        57
+                                            INFN Sezione di Romaa ; Dipartimento di Fisica,
+                                        Università di Roma La Sapienzab , I-00185 Roma, Italy
+                                           58
+                                              Universität Rostock, D-18051 Rostock, Germany
+                   59
+                      Rutherford Appleton Laboratory, Chilton, Didcot, Oxon, OX11 0QX, United Kingdom
+                              60
+                                 CEA, Irfu, SPP, Centre de Saclay, F-91191 Gif-sur-Yvette, France
+                           61
+                              SLAC National Accelerator Laboratory, Stanford, California 94309 USA
+                             62
+                                University of South Carolina, Columbia, South Carolina 29208, USA
+                                     63
+                                        Southern Methodist University, Dallas, Texas 75275, USA
+                                    64
+                                       Stanford University, Stanford, California 94305-4060, USA
+                                 65
+                                    State University of New York, Albany, New York 12222, USA
+                       66
+                          Tel Aviv University, School of Physics and Astronomy, Tel Aviv, 69978, Israel
+                                    67
+                                       University of Tennessee, Knoxville, Tennessee 37996, USA
+                                     68
+                                        University of Texas at Austin, Austin, Texas 78712, USA
+                                 69
+                                    University of Texas at Dallas, Richardson, Texas 75083, USA
+        70
+           INFN Sezione di Torinoa ; Dipartimento di Fisica Sperimentale, Università di Torinob , I-10125 Torino, Italy
+              71
+                 INFN Sezione di Triestea ; Dipartimento di Fisica, Università di Triesteb , I-34127 Trieste, Italy
+                                  72
+                                     IFIC, Universitat de Valencia-CSIC, E-46071 Valencia, Spain
+                            73
+                               University of Victoria, Victoria, British Columbia, Canada V8W 3P6
+                   74
+                      Department of Physics, University of Warwick, Coventry CV4 7AL, United Kingdom
+                                    75
+                                       University of Wisconsin, Madison, Wisconsin 53706, USA
+                  We search for the flavor-changing neutral-current decays B → K (∗) νν, and the invisible decays
+               J/ψ → νν and ψ(2S) → νν via B → K (∗) J/ψ and B → K (∗) ψ(2S) respectively, using a data sample
+               of 471 × 106 BB pairs collected by the BABAR experiment. We fully reconstruct the hadronic decay
+               of one of the B mesons in the Υ (4S) → BB decay, and search for the B → K (∗) νν decay in the
+               rest of the event. We observe no significant excess of signal decays over background and report
+               branching fraction upper limits of B(B + → K + νν) < 3.7 × 10−5 , B(B 0 → K 0 νν) < 8.1 × 10−5 ,
+               B(B + → K ∗+ νν) < 11.6 × 10−5 , B(B 0 → K ∗0 νν) < 9.3 × 10−5 , and combined upper limits of
+               B(B → Kνν) < 3.2 × 10−5 and B(B → K ∗ νν) < 7.9 × 10−5 , all at the 90% confidence level. For the
+               invisible quarkonium decays, we report branching fraction upper limits of B(J/ψ → νν) < 3.9×10−3
+               and B(ψ(2S) → νν) < 15.5 × 10−3 at the 90% confidence level. Using the improved kinematic
+               resolution achieved from hadronic reconstruction, we also provide partial branching fraction limits
+               for the B → K (∗) νν decays over the full kinematic spectrum.
+
+               PACS numbers: 13.20.He, 13.20.Gd, 14.40.Nd
+
+
+                   I.   INTRODUCTION                                                        ν                       ν                 ν
+                                                                                        Z                                    ℓ
+                                                                                                ν
+                                                                            W−                                W−                 W+
+   Flavor-changing neutral-current transitions, such as                 b                       s         b                           s
+b → sνν, are prohibited in the standard model (SM) at                         u, c, t                              u, c, t
+tree-level. However, they can occur via one-loop box or
+electroweak penguin diagrams, as shown in Fig. 1. They                 FIG. 1: Lowest-order SM Feynman diagrams for b → sνν
+can occur also in the SM via a quarkonium resonance                    transitions. The virtual top quark provides the dominant con-
+state b → scc, cc → νν, where the cc decay is mediated                 tribution in each case.
+by a virtual Z 0 boson (Fig. 2). This latter decay process
+has the same final state as b → sνν with an additional
+constraint from the on-shell cc mass. Both the b → sνν                 within the SM, with branching fractions estimated to be
+and cc → νν decay rates are expected to be small                       B(B + → K + νν) = B(B 0 → K 0 νν) = (4.5 ± 0.7) × 10−6 ,
+                                                                       B(B + → K ∗+ νν) = B(B 0 → K ∗0 νν) = (6.8+1.0
+                                                                                                                   −1.1 ) × 10
+                                                                                                                               −6
+                                                                                                          −7               + −
+                                                                       [1], and B(J/ψ → νν) = (4.54 × 10 ) · B(J/ψ → e e )
+                                                                       [2]. The b → sνν rates are predicted with smaller the-
+∗ Now at the University of Tabuk, Tabuk 71491, Saudi Arabia
+† Also with Università di Perugia, Dipartimento di Fisica, Perugia,
+                                                                       oretical uncertainties than those in the corresponding
+                                                                       b → sℓ+ ℓ− modes due to the absence of long-distance
+Italy
+‡ Now at the University of Huddersfield, Huddersfield HD1 3DH,         hadronic effects from electromagnetic penguin contribu-
+UK                                                                     tions.
+§ Deceased
+                                                                          Various new-physics scenarios exist that could signif-
+¶ Now at University of South Alabama, Mobile, Alabama 36688,
+                                                                       icantly enhance the b → sνν branching fractions, as
+USA
+∗∗ Also with Università di Sassari, Sassari, Italy                    well as modify the expected SM decay distributions of
+†† Now at Universidad Técnica Federico Santa Maria, Valparaiso,       sB ≡ q 2 /m2B , where q 2 is the squared magnitude of
+Chile 2390123                                                          the four-momentum transferred from the B meson to
+                                                                                                                        4
+
+                                                                determined using semileptonic-tag reconstruction, which
+                        c          g̃                           produces samples that are statistically larger and inde-
+   c            ν                         c           g̃        pendent of those produced using the hadronic-tag recon-
+                              c̃                                struction employed in this search. The B(B → K ∗ νν)
+         Z0                                    Z0               limit was a combination of two BABAR analyses, one us-
+   c           ν        c          g̃     c          g̃         ing semileptonic-tag reconstruction and the other using
+                                                                hadronic-tag reconstruction.
+                                                                   A J/ψ → νν search via ψ(2S) → π + π − J/ψ was per-
+FIG. 2: Lowest-order Feynman diagrams of (from left to          formed by the BES collaboration, which set an upper
+right) the SM decay cc → νν, the SUSY decay cc into a pair of   limit at 90% CL of B(J/ψ → νν) < 1.2 × 10−2 · B(J/ψ →
+goldstinos (g̃) via a c-squark in the t-channel, and the SUSY   µ+ µ− ) [20]. This article presents the first search for
+decay cc → g̃g̃ via a virtual Z 0 in the s-channel.
+                                                                J/ψ → νν using the hadronic-tag reconstruction of a
+                                                                B meson decay. A search for ψ(2S) → νν has not been
+                                                                performed previously.
+the neutrino pair, and mB is the B meson mass. Some
+of these scenarios predict massive particles that could
+contribute additional loop diagrams with similar ampli-
+tudes as those in the SM, such as nonstandard Z 0 cou-              II.   THE BABAR DETECTOR AND DATA
+plings with supersymmetric (SUSY) particles [1], fourth-                           SAMPLE
+generation quarks [3], anomalous top-charm transitions
+[4], or a massive U(1) gauge boson Z ′ [1, 5]. Since               This search uses a data sample of 471 ± 3 million
+b → sνν has two final-state neutrinos, other sources of         BB pairs, corresponding to an integrated luminosity of
+new physics can also contribute to the experimental sig-        429 fb−1 collected at the Υ (4S) resonance [21]. The data
+nature of a kaon and missing four-momentum, such as             were recorded with the BABAR detector [22] at the PEP-
+low-mass dark-matter (LDM) candidates [1, 6–8], unpar-          II asymmetric-energy e+ e− storage rings. The charged-
+ticles [9], right-handed neutrinos [5], or SUSY particles       particle tracking system consists of a five-layer double-
+[10]. Models with a single universal extra dimension also       sided silicon vertex tracker and a 40-layer drift cham-
+predict higher decay rates [11].                                ber, both coaxial with a 1.5 T solenoidal magnetic field.
+   The decays J/ψ → νν and ψ(2S) → νν pro-                      Charged kaons and pions are distinguished by specific
+vide additional windows for new-physics searches. In            ionization energy-loss measurements from the tracking
+spontaneously-broken SUSY, a cc resonance can decay             system for lower momentum particles, and by measure-
+into a pair of goldstinos via either a virtual Z 0 in the       ments from a ring-imaging Cherenkov radiation detector
+s-channel or a c-squark exchange in the t-channel [2]           for higher momentum particles. A CsI(Tl) electromag-
+(Fig. 2). The contribution of a massive SU(2) gauge bo-         netic calorimeter is used to reconstruct photons of energy
+son Z ′ , introduced in the left-right SUSY model, could        greater than 20 MeV and to identify electrons. Muon
+suppress the decay rates up to an order of magnitude [2].       identification is provided by the instrumented flux re-
+Conversely, a low-mass U(1) gauge boson U could en-             turn of the magnet. Particle identification (PID) algo-
+hance the invisible decay rates of quarkonium states by         rithms are trained to identify charged particle types by
+several orders of magnitude by coupling to LDM particles        using 36 input parameters including momentum, polar
+[12, 13]. The U boson could decay into a pair of spin-1/2       and azimuthal angles, the Cherenkov angle, and energy-
+Majorana (χχ), spin-1/2 Dirac (χχ), or spin-0 (ϕϕ) LDM          loss measurements [23]. We employ PID criteria that
+particles.                                                      select K + mesons with an efficiency greater than 85%
+   We search for B → Kνν and B → K ∗ νν, and for                and with approximately 1% misidentification probability
+J/ψ → νν and ψ(2S) → νν via B → K (∗) J/ψ and                   for pions and muons.
+B → K (∗) ψ(2S) respectively, where K (∗) signifies a              Signal and background decays are studied using Monte
+charged or neutral K or K ∗ meson [14]. We use a tech-          Carlo (MC) samples simulated with Geant4 [24]. The
+nique in which one B meson is exclusively reconstructed         simulation includes a detailed model of the BABAR detec-
+in a hadronic final state before looking for a signal decay     tor geometry and response. Beam-related background
+within the rest of the event. Since the four-momentum of        and detector noise are extracted from data and are
+one B meson is fully determined, the missing mass reso-         overlaid on the MC simulated events. Large MC sam-
+lution on the two final-state neutrinos and the suppres-        ples of generic BB and continuum (e+ e− → τ + τ − or
+sion of background are improved with respect to other           e+ e− → qq, where q = u, d, s, c) events provide ten times
+reconstruction techniques.                                      the number of Υ (4S) → BB and e+ e− → cc events as in
+   Several previous searches for B → Kνν and B →                the data sample, and four times the number of other con-
+K ∗ νν have been performed by both the BABAR and                tinuum decays. The Υ (4S) → BB signal MC samples are
+BELLE collaborations [15–19]. Currently, the most strin-        generated with one B meson decaying via B → K (∗) νν,
+gent published upper limits at 90% confidence level (CL)        with and without the cc resonances, while the other B
+are B(B + → K + νν) < 1.3 × 10−5 [15] and B(B →                 meson decays according to a model tuned to world av-
+K ∗ νν) < 8 × 10−5 [16]. The B(B + → K + νν) limit was          erages of allowed decay channels. The sB distributions
+                                                                                                                                                              5
+
+for B → K (∗) νν decays within signal MC samples are                                                    ×103
+
+
+
+
+                                                                               Entries/(1 MeV/c2)
+generated initially using a phase-space model, and then                                        35
+reweighted using the model from Ref. [1], henceforth re-
+                                                                                                30
+ferred to as ABSW. Within B → K ∗ νν decays, this
+                                                                                               25                                                 Signal
+model is also used to reweight the helicity-angle distri-                                                      Sideband Region                    Region
+bution between the signal B and the K + or K 0 flight                                           20
+directions in the K ∗ rest frame. The helicity amplitudes
+for the decay channels B → K ∗ J/ψ and B → K ∗ ψ(2S)                                           15
+are generated using values taken from a BABAR measure-                                          10
+ment [25].
+                                                                                                    5
+                                                                                                    05.2   5.21 5.22   5.23 5.24 5.25 5.26 5.27   5.28 5.29
+                                                                                                                                           mES [GeV/c2]
+
+                 III.   ANALYSIS METHOD
+                                                                            FIG. 3: (color online) The mES distribution for the Btag can-
+                                                                            didates in data (points) and in the expected combinatorial
+   Event selection for both the B → K (∗) νν and B →                        background as predicted by the MC (shaded). This distribu-
+   (∗)                                                                      tion includes only the charged and neutral Btag candidates
+K cc, cc → νν searches begins by fully reconstructing
+                                                                            that pass the purity restrictions, the multivariate continuum
+a B meson (Btag ) in one of many hadronic final states,                     suppression, and a requirement of one to three signal-side
+          −
+B → SXhad     , where S is a “seed” meson (D(∗)+ , D(∗)0 ,                  tracks. The data within the mES sideband region is used
+  (∗)+                      −
+Ds , or J/ψ) and Xhad             is a collection of at most five           to extrapolate the expected number of combinatorial back-
+mesons, composed of charged and neutral kaons and pi-                       ground events within the signal region.
+ons with a net charge of −1. This method, which was
+used also in Ref. [26], reconstructs additional modes with
+respect to previous hadronic-tag B → K (∗) νν analyses                      was optimized by maximizing the figure of merit [27]
+[16, 17], and results in approximately twice the recon-
+struction efficiency. The D seeds are reconstructed in                                                                     εsig
+                                                                                                                             i
+                                                                                                                              q       ,                    (1)
+the decay modes D+ → KS0 π + , KS0 π + π 0 , KS0 π + π + π − ,                                                         1
+                                                                                                                         n +    N bkg
+                                                                                                                       2 σ        i
+K − π+ π+ , K − π+ π+ π0 , K + K − π+ , K + K − π+ π0 ; D0 →
+K − π + , K − π + π 0 , K − π + π + π − , KS0 π + π − , KS0 π + π − π 0 ,   where the number of sigmas nσ = 1.28 corresponds to a
+K + K − , π + π − , π + π − π 0 , and KS0 π 0 . Additional seeds            one-sided Gaussian limit at 90% CL, εsig i is the total sig-
+are reconstructed as D∗+ → D0 π + , D+ π 0 ; D∗0 → D0 π 0 ,
+                                                                            nal efficiency, and Nibkg is the expected number of back-
+D0 γ; Ds∗+ → Ds+ γ; Ds+ → φ[→ K + K − ]π + , KS0 K + ;
+                                                                            ground events, with i representing one of the signal decay
+and J/ψ → e+ e− , µ+ µ− . The KS0 candidates are re-
+                                                                            channels. All other selection criteria discussed henceforth
+constructed via their decay to π + π − .
+                                                                            were optimized simultaneously using this same figure of
+   Well-reconstructed Btag candidates are    √ selected using               merit.
+two kinematic variables: ∆E = EBtag − s/2 and mES =                            The signal region of the Btag candidate is defined as
+                                                                            5.273 < mES < 5.290 GeV/c2 (Fig. 3), since correctly re-
+q
+   s/4 − p~B2 tag , where EBtag and p~Btag are the energy and
+                                                                            constructed B mesons produce a peak in this region near
+momentum vector of the Btag candidate, respectively,
+                                               √            in              the nominal B-meson mass. The Btag candidates that
+the e+ e− center-of-mass (CM) frame and s is the total                      are incorrectly reconstructed (“combinatorial” events),
+energy of the e+ e− system. The value of ∆E, which                          which result from continuum events or are due to par-
+peaks at zero for correctly reconstructed B mesons, is                      ticles assigned to the wrong B meson, produce a distri-
+required to be between −0.12 and 0.12 GeV or within two                     bution that is relatively uniform below the mES signal
+                                                           −
+standard deviations around the mean for a given Xhad                        region and decreases toward the kinematic limit within
+mode, whichever is the tighter constraint. If more than                     it. Approximately 0.3% of signal MC events and 12.0
+one Btag candidate is reconstructed, the one in the mode                    million data events contain a Btag that is reconstructed
+with the highest purity (fraction of candidates that are                    using the above requirements and found to be within the
+correctly reconstructed within a given Btag decay mode)                     mES signal region.
+is chosen. If there are multiple candidates with the same                      Since B mesons are spin zero and are produced with
+purity, the one with the smallest |∆E| is selected.                         low momentum in the CM frame (∼ 0.32 GeV/c), their
+   After requiring that the event contains between one                      decay products are more isotropically distributed than
+and three charged tracks not used in the Btag recon-                        non-BB background. For example, |cos θT |, where θT is
+struction (“signal-side” tracks), the purity of each mode                   the angle in the CM frame between the Btag thrust [28]
+is recalculated, and only the Btag modes that have a re-                    axis and the thrust axis of all other particles in the event,
+calculated purity greater than 68% are retained. This                       has a uniform distribution for BB events but peaks near
+results in a total of 448 final states. This purity value                   one for continuum events. Continuum background is sup-
+                                                                                                                                   6
+
+pressed by using a multivariate likelihood selector based       candidate combines one track that satisfies the PID crite-
+on six event-shape variables. These consist of |cos θT |, the   ria for a kaon with one that is inconsistent with the PID
+cosine of the angle between p~Btag and the beam axis, the       criteria for an electron, muon, or kaon. In an event con-
+magnitude of the Btag thrust, the component of the Btag         taining a K + (KS0 ) candidate and no additional signal-
+thrust along the beam axis, the angle between the miss-         side tracks, K ∗ → K + π 0 (KS0 π 0 ) candidates are recon-
+ing momentum vector (~  pmiss ) and the beam axis, and the      structed if the invariant mass of a π 0 candidate and the
+ratio of the second-to-zeroth Fox-Wolfram moment [29]           K + (KS0 ) candidate falls within the K ∗ mass window;
+computed using all charged and neutral particles in the         otherwise the event is considered for the K + (KS0 ) signal
+event. The multivariate selector requires                       channel. If more than one K ∗+ → K + π 0 or K ∗0 → KS0 π 0
+                       Q                                        candidate can be reconstructed, the one with the highest
+                         j PB (xj )                             energy π 0 candidate is chosen.
+          LB ≡ Q               Q            > 53%,        (2)      Once the Btag and K (∗) are identified, the signal events
+                  j PB (xj ) +   j Pq (xj )
+                                                                are expected to contain little or no additional energy
+where Pq (xj ) and PB (xj ) are probability density func-       within the calorimeter. However, additional energy de-
+tions determined from MC that describe continuum and            posits can result from beam-related photons, hadronic
+signal-like BB events, respectively, for the six event-         shower fragments that were not reconstructed into the
+shape variables xj . The LB requirement, which was op-          primary particle deposit, and photons from unrecon-
+timized with other selection criteria using Eq. (1), also       structed D∗ → Dγ/π 0 transitions in the Btag candidate.
+improves the agreement between data and MC by sup-              Only deposits with energy greater than 50 MeV in the rest
+pressing unmodeled continuum backgrounds.                       frame of the detector are considered, and the sum of all
+   In the sample of selected Btag candidates, signal events     such additional energy deposits (Eextra ) is required to be
+                                                                less than a threshold value (Ei ). The values of Ei , given
+are chosen such that a single K (∗) candidate can be re-
+                                                                in Table I and depicted in Fig. 4, were optimized with the
+constructed within the rest of the event and no additional
+                                                                other selection criteria but were allowed to differ between
+charged tracks remain in the event. The sum of the K (∗)
+                                                                signal channels. For events within the K + signal channel,
+and Btag candidate charges must equal zero. Since signal
+                                                                calorimeter deposits identified as kaon shower fragments
+decays have two final-state neutrinos, these events are re-
+                                                                are not included in the Eextra sum. A fragment candidate
+quired to have missing energy greater than zero, where
+                                                                is defined as a neutral calorimeter deposit whose momen-
+the missing energy is defined as the CM energy minus
+                                                                tum vector, when compared to that of the signal track,
+all detected calorimeter deposits from charged and neu-
+                                                                is separated by polar and azimuthal angles (relative to
+tral particles in the event. For B → K (∗) νν, the signal
+                                                                the beam axis and in the rest frame of the detector) of
+decays are reconstructed in six channels: B + → K + νν;
+                                                                ∆θ andq∆φ, respectively, such that rclus < 15◦ , where
+B 0 → K 0 νν where K 0 → KS0 ; B + → K ∗+ νν, where
+K ∗+ → K + π 0 and K ∗+ → KS0 π + ; and B 0 → K ∗0 νν,          rclus ≡   (∆θ)2 + 23 (QK · ∆φ − 8◦ )2 and QK = ±1 is the
+where K ∗0 → K + π − and K ∗0 → KS0 π 0 . For cc → νν,            ±
+                                                                K charge. The rclus and fragment candidate definitions
+the same six signal channels are employed with an ad-           were optimized using studies of truth information in the
+ditional requirement that the K (∗) momentum is consis-         signal MC samples. The recovery of these kaon shower
+tent with a two-body decay, either B → K (∗) J/ψ or B →         fragments improves the final signal efficiency in the K +
+K (∗) ψ(2S). The J/ψ and ψ(2S) mesons then decay into           channel by about 13%. This procedure was explored for
+a pair of neutrinos, thus yielding the same final states as     the other signal tracks, but the effect was small.
+for B → K (∗) νν.
+   We reconstruct KS0 → π + π − decay candidates using
+two tracks of opposite charge, which originate from a           TABLE I: Threshold values Ei for the Eextra variable in each
+common vertex and produce an invariant mass within              of the signal channels, determined using Eq. (1). The channels
+                                                                in brackets refer to the K ∗ decay products.
+±7 MeV/c2 of the nominal KS0 mass [30]. The PID for
+each track must be inconsistent with that for an electron,      Channel K +       K0     [K + π 0 ] [KS0 π + ] [K + π − ] [KS0 π 0 ]
+muon, or kaon. The π 0 candidates are reconstructed             Ei [GeV] 0.11     0.28     0.18       0.29       0.31      0.33
+from pairs of photon candidates with individual ener-
+gies greater than 30 MeV, a total CM energy greater
+than 200 MeV, and a γγ invariant mass between 100 and
+160 MeV/c2 . All K + candidates must satisfy the PID               The searches for B → K (∗) νν and for cc → νν via
+criteria for a kaon.                                            B → K (∗) cc diverge in the final step of the signal selec-
+   Reconstructed K ∗ candidates are required to have an         tion, which involves restricting the kinematics of the de-
+invariant mass within ±70 MeV/c2 of the nominal K ∗             cay. The value of sB is calculated as (pBsig −pK (∗) )2 /m2B ,
+mass [30]. A K ∗+ → KS0 π + candidate combines a KS0            where pK (∗) is the four-momentum of the K (∗) candidate,
+candidate with a track that satisfies the PID criteria for      and pBsig is the
+                                                                               √ expected signal B four-momentum with
+a pion. If more than one K ∗+ → KS0 π + candidate can           an energy of s/2, the nominal B-meson mass, and a
+be reconstructed in an event, the one with the mass clos-       momentum vector pointing opposite the Btag momen-
+est to the nominal K ∗+ mass is chosen. A K ∗0 → K + π −        tum. For B → K (∗) νν, the signal region optimized for
+                                                                                                                                     7
+
+                                                                              IV.    BACKGROUND AND BRANCHING
+
+
+
+
+      Entries/(0.25 GeV)
+                                                                                      FRACTION EXTRACTION
+                                K+
+                           20
+
+                           10
+                                                                             The total number of background events Nibkg in the
+                                                                          signal region has two components: Nipeak is the num-
+                            0                                             ber of expected background events having a correctly
+                           15   K0                                        reconstructed Btag candidate and hence peaking within
+                           10
+                                                          Eextra [GeV]    the mES signal region, and Nicomb is the number of ex-
+                            5
+                                                                          pected combinatorial background events, including both
+                                                                          continuum events and BB events with an incorrectly re-
+                            0                                             constructed Btag candidate. To reduce the dependence
+                           15   K* +
+                                                          Eextra [GeV]    on MC simulations, the number of Nicomb events is ex-
+                           10                                             trapolated directly from the observed data events within
+                            5                                             the mES sideband region, defined as 5.200 < mES <
+                                                                          5.265 GeV/c2 and depicted in Fig. 3. The shape of the
+                           20                                             combinatorial mES distribution is estimated using MC
+                                K* 0
+                           15                             Eextra [GeV]    samples of continuum events and of BB events recon-
+                           10                                             structed with the wrong charge.
+                            5                                                The number of Nipeak events is estimated from generic
+                            0                                             BB MC samples. Over half of Nipeak is found to be from
+                            0     0.1   0.2   0.3   0.4     0.5     0.6   B → D(∗) ℓν (ℓ = e or µ) decays in which no lepton
+                                                          Eextra [GeV]
+                                                                          candidate is identified in the event and the K (∗) is a
+                                                                          daughter of the D or D∗ meson. One particular peaking
+                                                                          background in the B → K (∗) νν search is B + → τ + ντ ,
+FIG. 4: (color online) The Eextra distribution over the full              with τ + → K (∗)+ ν τ , which has the same final state as the
+sB spectrum in the (from top to bottom) K + , K 0 , K ∗+ , and            signal decay [31]. Exclusive B + → τ + ντ MC samples,
+K ∗0 channels after applying all other signal selection crite-            assuming a branching fraction of (1.65 ± 0.34) × 10−4
+ria. The expected combinatorial (shaded) plus mES -peaking                [30], indicate that this background constitutes less than
+(solid) background contributions are overlaid on the data                 15 (5)% of the total background in the B + → K + νν
+(points). The B → K (∗) νν signal MC distributions (dashed)               (B + → K ∗+ νν) channel.
+have arbitrary normalization. Both the B → K (∗) νν and
+cc → νν searches select events to the left of the vertical line              Since both Nipeak and εsig i  are determined from MC
+that corresponds to the Ei value of that channel, as given in             samples, we normalize the MC yields to the data to ac-
+Table I.                                                                  count for differences between data and MC, such as from
+                                                                          the Btag reconstruction and the modeled branching frac-
+                                                                          tions of Btag modes within the MC. This normalization
+                                                                          is performed before applying the full signal selection in
+maximum SM sensitivity is 0 < sB < 0.3 for all six sig-                   order to have a large background-to-signal ratio; looser
+nal channels. This corresponds to a K (∗) momentum                        K (∗) mass windows and Eextra selection requirements are
+greater than about 1.8 (1.7) GeV/c in the signal B rest                   used such that the number of background events is ap-
+frame for B → Kνν (B → K ∗ νν) events. Partial branch-                    proximately 60 times larger than the final background
+ing fractions over the full sB spectrum are also provided                 contribution, over the full sB spectrum. The peaking
+for sensitivity to new-physics scenarios that modify the                  background component in the BB MC is then normal-
+kinematic distributions for B → K (∗) νν. For cc → νν                     ized to the number of data events that peak within the
+via B → K (∗) pcc, the invariant mass of the two neutri-                  mES signal region. This peaking yield normalization is
+nos mνν ≡       sB m2B is expected to correspond to the                   performed separately for charged and neutral Btag can-
+mass of the J/ψ (3.097 GeV/c2 ) meson or to that of the                   didates, and results in the scaling of all signal and back-
+ψ(2S) (3.686 GeV/c2 ) meson. Signal events are selected                   ground MC samples by 1.027 ± 0.039 (1.017 ± 0.044) for
+within three standard deviations around the nominal cc                    charged (neutral) Btag candidates.
+masses, which results in windows of 3.044 < mνν < 3.146                      The signal branching fractions are calculated using
+(3.019 < mνν < 3.175) GeV/c2 for the B → KJ/ψ
+(B → K ∗ J/ψ ) channels, and 3.650 < mνν < 3.724                                              Niobs − (Nipeak + Nicomb )
+(3.627 < mνν < 3.739) GeV/c2 for the B → Kψ(2S)                                        Bi =                                ,       (3)
+                                                                                                      εsig
+                                                                                                       i NBB
+(B → K ∗ ψ(2S)) channels.
+   To avoid experimenter bias, all the above selection cri-               where NBB = 471 × 106 is the total number of B me-
+teria and values were optimized using the MC before                       son pairs in the data sample and Niobs is the number of
+looking at any data events within the Eextra and mES                      data events within the signal region. The total signal ef-
+signal regions.                                                           ficiency εsig
+                                                                                    i includes that of the Btag reconstruction and
+                                                                                                                                       8
+
+is determined separately for each of the signal channels i.   tions and to sB or mνν differ between the B → K (∗) νν,
+Since misreconstructed events from other signal channels      J/ψ → νν, and ψ(2S) → νν searches. The systematic
+contribute to Nipeak , the branching fractions of all sig-    uncertainties are summarized in Tables II and III; the for-
+nal channels are determined simultaneously by inverting       mer lists the uncertainties shared by the searches, while
+a 6 × 6 efficiency matrix εij , which describes the prob-     the latter lists those that differ.
+ability that a signal event of process i is reconstructed
+in signal channel j. Branching fraction limits and uncer-
+                                                              TABLE II: Summary of systematic uncertainties that are
+tainties are computed using a mixed frequentist-Bayesian      shared by the B → K (∗) νν, J/ψ → νν, and ψ(2S) → νν
+approach described in Ref. [32], with the systematic un-      searches. All values are relative uncertainties in %. The chan-
+certainties on Nibkg and εsig
+                           i modeled using Gaussian dis-      nels in brackets refer to the K ∗ decay products.
+tributions. To combine the results of signal decay chan-
+nels, we find the Bi value that maximizes a likelihood        Source              K + [K + π 0 ] [KS0 π + ] K 0 [K + π − ] [KS0 π 0 ]
+                                                               sig
+function defined as the product of the Poisson probabil-      εi normalization 3.5 3.5             3.5 8.9 8.9               8.9
+ities of observing Niobs events.                              Nibkg normalization 2.3 2.3          2.3 6.0 6.0               6.0
+                                                              KS0 reconstruction   –     –         1.4 1.4         –         1.4
+                                                              K ∗ reconstruction   –    2.8        2.8       –    2.8        2.8
+            V.   SYSTEMATIC STUDIES                           π 0 reconstruction   –    3.0         –        –     –         3.0
+                                                              Eextra              4.5 6.0          6.5 6.0 6.0               6.5
+   To verify the modeling of εsig i  and Nibkg , a control
+sample of B → Dℓν events is selected. In place of
+a signal K ∗ candidate, the events are required to con-       TABLE III: Summary of systematic uncertainties that dif-
+tain a reconstructed D0 → K − π + , D− → K + π − π − , or     fer between the B → K (∗) νν, J/ψ → νν, and ψ(2S) → νν
+D− → KS0 π − candidate with an invariant mass within          searches, and the total systematic uncertainties for each sig-
+±35 MeV/c2 of the nominal D-meson mass values [30].           nal channel. All values are relative uncertainties in %. The
+The event must have one additional track that satis-          total systematic uncertainties are determined by adding in
+fies the PID criteria of either an electron or muon. All      quadrature each relevant uncertainty, including those listed
+other reconstruction and signal selection requirements        in Table II.
+are retained. The resulting yields in the data agree with     Source                K + [K + π 0 ] [KS0 π + ] K 0 [K + π − ] [KS0 π 0 ]
+MC expectations, assuming the well-measured branching
+                                                                                          B → K (∗) νν
+fractions of B → Dℓν [30], within the 7% (12%) statisti-
+                                                              Nipeak B ’s        2.8       2.8     2.8       2.8       2.8       2.8
+cal uncertainty of the data in the 0 < sB < 0.3 (J/ψ or
+ψ(2S) mass) region.                                           sB resolution      3.6       3.6     3.6       3.6      3.6       3.6
+   The control sample is used to determine the system-        Total Nipeak syst. 6.8       8.9     8.8       9.7      10.0      10.9
+atic uncertainties due to the MC modeling of the Eextra       Total Nicomb syst. 2.3       2.3     2.3       6.0       6.0       6.0
+variable within data. Additional uncertainties on Nipeak      Total εsig
+                                                                     i   syst.   6.7       8.8     8.8       11.4     11.7      12.4
+and εsig
+      i  are due to the KS0 and K ∗ mass reconstruction                                    J/ψ → νν
+windows, the π 0 reconstruction, and the uncertainties in     Nipeak B ’s        3.5       3.5     3.5       3.5      3.5       3.5
+the branching fractions [30] of the dominant backgrounds      mνν resolution     1.1       2.1     0.4       0.7      0.3       1.3
+contributing to Nipeak. The uncertainty on Nicomb is dom-     Total Nipeak syst. 6.2       8.6     8.4       9.3      9.6       10.5
+inated by the sideband data statistics. Other systematic      Total Nicomb syst. 2.3       2.3     2.3       6.0      6.0        6.0
+uncertainties, such as those from PID, tracking, Btag re-     Total εsig syst.   5.8       8.3     8.0       10.8     11.1      11.9
+                                                                     i
+construction, NBB , and the assumption that charged and
+                                                                                          ψ(2S) → νν
+neutral BB pairs are produced at equal rates, are all
+                                                              Nipeak B ’s        2.8       2.8     2.8       2.8      2.8       2.8
+accounted for by the normalization of the MC peaking
+yields. Because the peaking yield in data depends on          mνν resolution     0.8       2.4     1.0       0.9      1.8       3.1
+the extrapolated shape of the combinatorial Btag back-        Total Nipeak syst. 5.8       8.5     8.1       9.1      9.5       10.7
+ground, the normalization scale factors are re-evaluated      Total Nicomb syst. 2.3       2.3     2.3       6.0      6.0        6.0
+by varying the method used to extrapolate this shape.         Total εsig
+                                                                     i   syst.   5.8       8.4     8.1       10.9     11.2      12.2
+The resulting variations on the final Nibkg and εsig
+                                                   i  val-
+ues are taken as the systematic uncertainties due to the
+normalization.
+   Due to the approximately 1.0% resolution on the sB
+measurement around sB = 0.3, an uncertainty is eval-
+uated within the B → K (∗) νν signal region. Similarly,                  VI.     RESULTS FOR B → K (∗) νν
+the resolution on mνν contributes to uncertainties within
+the J/ψ → νν and ψ(2S) → νν signal regions. Only the            Figure 5 shows the observed data yields, expected
+systematic uncertainties due to the Nipeak branching frac-    background contributions, and SM signal distributions
+                                                                                                                                9
+
+                                                                    upper limits at the 90% CL of
+
+
+
+       Entries/(0.1)
+                       15
+                                                                               B(B + → K + νν) < 1.6 × 10−5 ,
+                       10 B → K ν ν
+                           +   +
+
+
+                                                                                B(B 0 → K 0 νν) < 4.9 × 10−5 , and            (4)
+                        5
+                                                                                                             −5
+                                                                                  B(B → Kνν) < 1.7 × 10           .
+                        0
+                       15
+                            B →K ν ν
+                             0     0
+
+
+                       10
+                                                                    The combined central value is B(B → Kνν) =
+                                                                    (0.8+0.7
+                                                                        −0.6 ) × 10
+                                                                                    −5
+                                                                                       , where the uncertainty includes both
+                        5                                           statistical and systematic uncertainties. These combined
+                        0                                           results reweight the sB distribution to that of the ABSW
+                       15 B → K* ν ν
+                           +    +                                   theoretical model (dashed curve in Fig. 5), which de-
+                                                                    creases the signal efficiencies published in Ref. [15] by
+                       10
+                                                                    approximately 10%. The B → K ∗ νν central values also
+                        5                                           can be combined with the semileptonic-tag results from
+                        0
+                       20
+                                                                    a previous BABAR search [16]. In order to obtain approxi-
+                            B 0→ K* 0ν ν                            mate frequentist intervals, the likelihood functions in the
+                       15
+                                                                    previous search are extended to include possibly negative
+                       10
+                                                                    signals. We obtain combined BABAR upper limits at the
+                        5
+                                                                    90% CL of
+                        0
+                        0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+                                                             sB               B(B + → K ∗+ νν) < 6.4 × 10−5 ,
+                                                                                B(B 0 → K ∗0 νν) < 12 × 10−5 , and            (5)
+                                                                                             ∗                −5
+                                                                                  B(B → K νν) < 7.6 × 10           .
+FIG. 5: (color online) The sB distribution for (from top
+to bottom) B + → K + νν, B 0 → K 0 νν, B + → K ∗+ νν,               The combined central value is B(B → K ∗ νν) =
+and B 0 → K ∗0 νν events after applying the full signal selec-      (3.8+2.9        −5
+                                                                        −2.6 ) × 10    .
+tion. The expected combinatorial (shaded) plus mES -peaking            Since certain new-physics models suggest that en-
+(solid) background contributions are overlaid on the data
+                                                                    hancements are possible at high sB values, we also
+(points). The signal MC distributions (dashed) are normal-
+ized to branching fractions of 20 × 10−5 for B + → K + νν and       report model-independent partial branching fractions
+50 × 10−5 for the other channels. Events to the left of the ver-    (∆Bi ) over the full sB spectrum by removing the low-sB
+tical lines are selected to obtain SM-sensitive limits, while the   requirement. The ∆Bi values are calculated in intervals
+full spectra are used to determine partial branching fractions.     of sB = 0.1, using Eq. (3) (with the Niobs , Nipeak , Nicomb ,
+                                                                    and εsig
+                                                                          i values found within the given interval) multiplied
+                                                                    by the fraction of the signal efficiency distribution inside
+                                                                    that interval. Figure 6 shows the partial branching frac-
+                                                                    tions. The signal efficiency distributions are relatively
+over the full sB spectrum. Tables IV and V summa-                   independent of sB , which are also illustrated in Fig. 6.
+rize the number of observed data events within the sB               To compute model-specific values from these results, one
+signal region (0 < sB < 0.3), expected backgrounds,                 can sum the central values within the model’s dominant
+B → K (∗) νν signal efficiencies, branching fraction cen-           interval(s) (with uncertainties added in quadrature) and
+tral values, and branching fraction limits at the 90% CL.           divide the sum by the fraction of the model’s distribu-
+Combining the signal channels, we determine upper lim-              tion that is expected to lie within the same sB intervals.
+its of B(B → Kνν) < 3.2 × 10−5 and B(B → K ∗ νν) <                  These partial branching fractions provide branching frac-
+7.9 × 10−5 . Since we see a small excess over the expected          tion upper limits for several new-physics scenarios at the
+background in the K + channel, we report a two-sided                level of 10−5 .
+90% confidence interval. However, the probability of ob-               The B → K (∗) νν decays are also sensitive to the short-
+                                                                                                    ν
+serving such an excess within the signal region, given              distance Wilson coefficients |CL,R  | for the left- and right-
+the uncertainty on the background, is 8.4% which cor-               handed weak currents, respectively. These couple two
+responds to a one-sided Gaussian significance of about              quarks to two neutrinos via an effective field theory point
+                                                                                                  ν
+1.4 σ. Therefore, this excess is not considered significant.        interaction [33]. Although |CR  | = 0 within the SM, right-
+                                                                    handed currents from new physics, such as non-SM Z 0
+  Using the same procedure as when combining signal                 penguin couplings, could produce non-zero values. Using
+decay channels, the B → Kνν branching fraction cen-                 the parameterization from Ref. [1],
+tral values are combined with a previous semileptonic-tag                    p ν
+                                                                              |CL |2 + |CRν |2
+BABAR analysis that searched within a statistically inde-                                                 −Re(CLν CRν∗
+                                                                                                                       )
+                                                                          ǫ≡       ν           ,     η≡     ν       ν    ,    (6)
+pendent data sample [15]. We obtain combined BABAR                              |CL,SM  |                 |CL | + |CR |2
+                                                                                                               2
+                                                                                                                                                                                                               10
+
+
+TABLE IV: Expected B → K ∗ νν background yields Nibkg = Nipeak + Nicomb , signal efficiencies εsigi , number of observed data
+events Niobs , resulting branching fraction upper limits at 90% CL, and the combined upper limits and central values, all within
+the 0 < sB < 0.3 region. Uncertainties are statistical and systematic, respectively. The channels in brackets refer to the K ∗
+decay products.
+
+                                                                       B + → [K + π 0 ]νν                                                 B + → [KS0 π + ]νν          B 0 → [K + π − ]νν        B 0 → [KS0 π 0 ]νν
+     Nipeak                                                            1.2 ± 0.4 ± 0.1              1.3 ± 0.4 ± 0.1              5.0 ± 0.8 ± 0.5             0.2 ± 0.2 ± 0.0
+     Nicomb                                                            1.1 ± 0.4 ± 0.0              0.8 ± 0.3 ± 0.0              2.0 ± 0.5 ± 0.1             0.5 ± 0.3 ± 0.0
+     Nibkg                                                             2.3 ± 0.5 ± 0.1              2.0 ± 0.5 ± 0.1              7.0 ± 0.9 ± 0.5             0.7 ± 0.3 ± 0.0
+     εsig
+      i   (×10−5 )                                                     4.9 ± 0.2 ± 0.4              6.0 ± 0.2 ± 0.5             12.2 ± 0.3 ± 1.4             1.2 ± 0.1 ± 0.1
+        obs
+     Ni                                                                       3                            3                            7                           2
+     Limit                                                              < 19.4 × 10−5                < 17.0 × 10−5                < 8.9 × 10−5                 < 86 × 10−5
+     B(B +/0 → K ∗+/0 νν)                                                         (3.3+6.2 +1.7
+                                                                                      −3.6 −1.3 ) × 10
+                                                                                                      −5
+                                                                                                                                           (2.0+5.2 +2.0
+                                                                                                                                               −4.3 −1.7 ) × 10
+                                                                                                                                                               −5
+
+                                                                                                   −5                                                       −5
+     Limit                                                                           < 11.6 × 10                                               < 9.3 × 10
+     B(B → K ∗ νν)                                                                                            (2.7+3.8 +1.2
+                                                                                                                  −2.9 −1.0 ) × 10 −5
+
+     Limit                                                                                                        < 7.9 × 10−5
+
+
+
+                              2                                                                      8
+
+
+
+
+Branching Fraction (×10-5)                                             Branching Fraction (×10-5)
+                                    (a) B +→ K +ν ν                                                        (b) B 0→ K 0ν ν                        TABLE V: Expected B → Kνν background yields Nibkg =
+                                                                                                     6
+                             1.5
+                                                                                                                                                  Nipeak + Nicomb , signal efficiencies εsig
+                                                                                                                                                                                         i , number of observed
+                                                                                                     4
+                               1                                                                                                                  data events Niobs , resulting branching fraction upper limits
+                                                                                                     2                                            at 90% CL, the central values Bi , and the combined upper
+                             0.5
+                                                                                                     0                                            limits and central value, all within the 0 < sB < 0.3 region.
+                              0                                                                      -2                                           Lower limits at 90% CL are also reported, as discussed in
+                      -0.5                                                                           -4                                           the text. Uncertainties are statistical and systematic, respec-
+                                                                                                     -6
+                                                                                                                                                  tively. The B 0 → K 0 νν efficiency accounts for B(K 0 → KS0 )
+                                                                                                                                                  and B(KS0 → π + π − ) [30].
+
+εsig (×10-4)                                                           εsig (×10-4)
+                                                                                                      6
+                             10
+                                                                                                     4
+                              5                                                                      2                                                            B + → K + νν                B 0 → K 0 νν
+                              0                                                                      0                                             Nipeak        1.8 ± 0.4 ± 0.1            2.0 ± 0.5 ± 0.2
+                               0       0.2     0.4    0.6   0.8    1                                  0       0.2     0.4     0.6   0.8      1
+                                                                  sB                                                                       sB      Nicomb        1.1 ± 0.4 ± 0.0            0.9 ± 0.4 ± 0.1
+                                                                                                                                                   Nibkg         2.9 ± 0.6 ± 0.1            2.9 ± 0.6 ± 0.2
+                                                                                                                                                   εsig (×10−5 )43.8 ± 0.7 ± 3.0            10.3 ± 0.2 ± 1.2
+
+
+
+
+Branching Fraction (×10-5)                                             Branching Fraction (×10-5)
+                              8 (c) B +→ K* +ν ν                                                           (d) B 0→ K* 0ν ν                         i
+                                                                                                     6                                                obs
+                              6                                                                                                                    Ni                   6                           3
+                                                                                                     4                                                                                        +6.0 +1.7
+                              4                                                                                                                    Bi         (1.5+1.7 +0.4
+                                                                                                                                                                  −0.8 −0.2 ) × 10−5
+                                                                                                                                                                                        (0.14 −1.9 −0.9 ) × 10
+                                                                                                                                                                                                              −5
+
+                                                                                                     2                                             Limits     (> 0.4, < 3.7) × 10−5           < 8.1 × 10−5
+                              2
+                                                                                                                                                                                +1.4 +0.3
+                              0
+                                                                                                     0                                             B(B → Kνν)               (1.4−0.9 −0.2 ) × 10−5
+                              -2
+                                                                                                     -2                                            Limits                  (> 0.2, < 3.2) × 10−5
+                                                                                                     -4
+                              -4
+
+
+
+εsig (×10-4)                                                           εsig (×10-4)
+                             1.5                                                                    0.4
+                                                                                                    0.3
+                               1
+                                                                                                    0.2                                           the B → K ∗ νν upper limits from this search improve
+                             0.5                                                                    0.1                                           the constraints from previous searches on the Wilson-
+                               0                                                                      0
+                                0      0.2     0.4    0.6   0.8    1                                   0      0.2     0.4     0.6   0.8      1    coefficient parameter space, as shown in Fig. 7. The B →
+                                                                  sB                                                                       sB     Kνν lower limit provides the first upper bound on η and
+                                                                                                                                                  lower bound on ǫ. These constraints are consistent with
+FIG. 6: The central values (points with 1σ error bars)
+                                                                                                                                                  the expected SM values of ǫ = 1 and η = 0.
+of the partial branching fractions ∆Bi versus sB , for (a)
+B + → K + νν, (b) B 0 → K 0 νν, (c) B + → K ∗+ νν, and (d)
+B 0 → K ∗0 νν. The subplots show the distribution of the fi-                                                                                                   VII.    RESULTS FOR cc → νν
+nal signal efficiencies within each sB interval (histogram with
+error bars) and over the full sB spectra (dotted line). The par-
+                                                                                                                                                    In the search for cc → νν, Fig. 8 shows the mνν
+tial branching fractions are provided only within the intervals
+that are unaffected by the kinematic limit at large sB .
+                                                                                                                                                  distribution of the observed data yields, expected back-
+                                                                                                                                                  ground contributions, and SM signal distributions. Ta-
+                                                                                                                                                  bles VI and VII summarize the background contribution
+                                                                                                                                                  values and signal efficiencies within the J/ψ and ψ(2S)
+                                                                                                                                  11
+
+
+TABLE VI: Expected J/ψ → νν background yields Nipeak and Nibkg , signal efficiencies εsig  i , number of observed data events
+Niobs , and the resulting branching fraction central value and upper limit at 90% CL, all within the mνν invariant mass region
+corresponding to the J/ψ mass. Uncertainties are statistical and systematic, respectively. The Nicomb yields are calculable as
+Nibkg − Nipeak .
+
+                                                                    J/ψ → νν
+Channel               K+                     K0           K ∗+ → K + π 0  K ∗+ → KS0 π +            K ∗0 → K + π −    K ∗0 → KS0 π 0
+Nipeak           0.4 ± 0.2 ± 0.0        0.7 ± 0.3 ± 0.1    0.8 ± 0.3 ± 0.1       0.4 ± 0.2 ± 0.0    2.6 ± 0.5 ± 0.3   0.6 ± 0.2 ± 0.1
+Nibkg            0.5 ± 0.2 ± 0.0        0.7 ± 0.3 ± 0.1    0.8 ± 0.3 ± 0.1       0.8 ± 0.3 ± 0.0    2.8 ± 0.5 ± 0.3   0.6 ± 0.2 ± 0.1
+εsig
+ i   (×10−8 )   95.3 ± 4.4 ± 5.5       19.3 ± 1.0 ± 2.1   20.9 ± 1.5 ± 1.7      12.4 ± 0.8 ± 1.0   36.2 ± 1.9 ± 4.0   1.8 ± 0.2 ± 0.2
+   obs
+Ni                      1                      0                  1                     0                  0                 1
+B(J/ψ → νν)                                                       (0.2+2.7 +0.5
+                                                                      −0.9 −0.4 ) × 10
+                                                                                      −3
+
+Limit                                                                 < 3.9 × 10−3
+
+
+
+TABLE VII: Expected ψ(2S) → νν background yields Nipeak and Nibkg , signal efficiencies εsigi , number of observed data events
+Niobs , and the resulting branching fraction central value and upper limit at 90% CL, all within the mνν invariant mass region
+corresponding to the ψ(2S) mass. Uncertainties are statistical and systematic, respectively. The Nicomb yields are calculable
+as Nibkg − Nipeak .
+
+                                                                   ψ(2S) → νν
+Channel               K+                      K0           K ∗+ → K + π 0 K ∗+ → KS0 π +           K ∗0 → K + π −     K ∗0 → KS0 π 0
+Nipeak         1.4 ± 0.4 ± 0.1          0.6 ± 0.3 ± 0.1    1.4 ± 0.4 ± 0.1     1.0 ± 0.3 ± 0.1      3.5 ± 0.7 ± 0.3   0.6 ± 0.2 ± 0.1
+Nibkg          1.6 ± 0.4 ± 0.1          0.7 ± 0.3 ± 0.1    1.4 ± 0.4 ± 0.1     1.5 ± 0.4 ± 0.1      3.9 ± 0.7 ± 0.3   0.6 ± 0.2 ± 0.1
+εsig
+ i   (×10−8 ) 57.2 ± 3.5 ± 3.3         13.1 ± 1.2 ± 1.4    8.1 ± 1.7 ± 0.7     4.9 ± 1.1 ± 0.4     14.2 ± 1.2 ± 1.6   0.6 ± 0.1 ± 0.1
+   obs
+Ni                    3                        1                  1                   3                    5                 1
+                                                                     +7.4 +1.6       −3
+B(ψ(2S) → νν)                                                    (5.6−4.6 −1.4 ) × 10
+Limit                                                                < 15.5 × 10−3
+
+
+
+        0.5                                                           ing fraction upper limits at 90% CL for J/ψ → νν and
+        0.4                                                           ψ(2S) → νν. The signal efficiencies account for the
+        0.3                                                           B → K (∗) J/ψ and B → K (∗) ψ(2S) branching fractions
+        0.2                                                           and their errors, which are taken from Ref. [30]. The
+        0.1                                                           data yield is consistent with zero observed cc → νν sig-
+   η      0                                                           nal events in all channels.
+       -0.1                                                             The combined upper limits for the charmonium
+       -0.2                                                           branching fraction values are determined to be
+       -0.3
+       -0.4
+       -0.5                                                                         B(J/ψ → νν)
+                 1       2         3         4        5                                            < 6.6 × 10−2 and
+                               ∈                                                   B(J/ψ → e+ e− )
+                                                                                                                                  (7)
+                                                                                    B(ψ(2S) → νν)
+                                                                                                     < 2.0,
+FIG. 7: (color online) The constraints at 90% CL on ǫ and                          B(ψ(2S) → e+ e− )
+η of Eq. (6) for sensitivity to new physics with right-handed
+currents. The B → Kνν (diagonal shading) and B → K ∗ νν
+                                                                      where B(J/ψ → e+ e− ) and B(ψ(2S) → e+ e− ) are taken
+(grey shading) excluded areas are determined from the up-
+                                                                      from Ref. [30]. With the addition of a new-physics U
+per and lower limits of this B → K (∗) νν analysis (solid
+curves) and from the most-stringent upper limits from pre-            boson, these ratios would be proportional to |fcV cχ,ϕ |,
+vious semileptonic-tag analyses [15, 16] (dashed curves). The         where cχ,ϕ and fcV are the U couplings to the LDM
+dot shows the expected SM value.                                      particles χ or ϕ and to the c-quark respectively [13].
+                                                                      The J/ψ decay ratio yields upper limits at 90% CL of
+                                                                      |fcV cχ,ϕ | < (3.0, 2.1, 1.5) × 10−2 for spin-0, Majorana,
+                                                                      and Dirac LDM particles respectively. These limits are
+invariant mass regions. The tables also report the com-               comparable with those obtained by BES for J/ψ → νν,
+bined branching fraction central values and the branch-               in ψ(2S) → π + π − J/ψ [20].
+                                                                                                                              12
+
+                                                                   nificant signal in any of the channels and obtain upper
+                                                                   limits at the 90% CL of B(B → Kνν) < 3.2 × 10−5 ,
+
+
+
+
+      Entries/(0.2 GeV/c2)
+                         10
+                                 B +→ K +c c
+                                                                   B(B → K ∗ νν) < 7.9 × 10−5 , B(J/ψ → νν) < 3.9 × 10−3 ,
+                             5                                     and B(ψ(2S) → νν) < 15.5 × 10−3 . The branching frac-
+                                                                   tion central values and upper limits are consistent with
+                             0
+                                                                   SM predictions. We report B → K (∗) νν branching frac-
+                                 B 0→ K 0cc                        tion limits in Tables IV and V, and cc → νν branch-
+                         10
+                                                                   ing fraction limits in Tables VI and VII. These results
+                             5
+                                                                   include the first lower limit in the B + → K + νν de-
+                                                                   cay channel, the most stringent published upper limits
+                             0                                     using the hadronic-tag reconstruction technique in the
+                         10
+                                 B +→ K* +cc                       B 0 → K 0 νν, B + → K ∗+ νν, and B 0 → K ∗0 νν chan-
+                                                                   nels, and the first upper limit for ψ(2S) → νν. We also
+                             5                                     present partial branching fraction values for B → K (∗) νν
+                                                                   over the full sB spectrum in Fig. 6 in order to enable ad-
+                             0                                     ditional tests of new-physics models.
+                                 B 0→ K* 0cc                                   IX.    ACKNOWLEDGMENTS
+                         10
+
+                             5                                        We are grateful for the extraordinary contributions of
+                             0                                     our PEP-II colleagues in achieving the excellent luminos-
+                             0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 5       ity and machine conditions that have made this work pos-
+                                                  mν ν [GeV/c2]    sible. The success of this project also relies critically on
+                                                                   the expertise and dedication of the computing organiza-
+                                                                   tions that support BABAR. The collaborating institutions
+                                      p                            wish to thank SLAC for its support and the kind hospi-
+FIG. 8: (color online) The mνν ≡ sB m2B distribution for
+(from top to bottom) B + → K + cc, B 0 → K 0 cc, B + →             tality extended to them. This work is supported by the
+K ∗+ cc, and B 0 → K ∗0 cc events after applying the full signal   US Department of Energy and National Science Foun-
+selection. The expected combinatorial (shaded) plus mES -          dation, the Natural Sciences and Engineering Research
+peaking (solid) background contributions are overlaid on the       Council (Canada), the Commissariat à l’Energie Atom-
+data (points). The signal MC distributions (dashed) are nor-       ique and Institut National de Physique Nucléaire et de
+malized to B(cc → νν) values of 2% for the K + channel, 10%        Physique des Particules (France), the Bundesministerium
+for the K 0 channel, and 5% for the K ∗ channels.                  für Bildung und Forschung and Deutsche Forschungsge-
+                                                                   meinschaft (Germany), the Istituto Nazionale di Fisica
+                                                                   Nucleare (Italy), the Foundation for Fundamental Re-
+                                         VIII.   SUMMARY           search on Matter (The Netherlands), the Research Coun-
+                                                                   cil of Norway, the Ministry of Education and Science of
+  In conclusion, we have searched for the decays B →               the Russian Federation, Ministerio de Economı́a y Com-
+Kνν and B → K ∗ νν, as well as J/ψ → νν and                        petitividad (Spain), and the Science and Technology Fa-
+ψ(2S) → νν via B → K (∗) J/ψ and B → K (∗) ψ(2S), re-              cilities Council (United Kingdom). Individuals have re-
+coiling from a hadronically reconstructed B meson within           ceived support from the Marie-Curie IEF program (Eu-
+a data sample of 471 × 106 BB pairs. We observe no sig-            ropean Union) and the A. P. Sloan Foundation (USA).
+
+
+
+
+ [1] W. Altmannshofer, A. J. Buras, D. M. Straub, and M.                Rev. D 85, 115019 (2012).
+     Wick, JHEP 0904, 022 (2009).                                   [9] T. M. Aliev, A. S. Cornell, and N. Gaur, JHEP 0707,
+ [2] L. N. Chang, O. Lebedev, and J. N. Ng, Phys. Lett. B               072 (2007).
+     441, 419 (1998).                                              [10] J. F. Kamenik and C. Smith, JHEP 1203, 090 (2012).
+ [3] G. Buchalla, G. Hiller, and G. Isidori, Phys. Rev. D 63,      [11] P. Colangelo, F. De Fazio, R. Ferrandes, and T. N. Pham,
+     014015 (2000).                                                     Phys. Rev. D 73, 115006 (2006).
+ [4] X. -Q. Li, Y. -D. Yang, and X. -B. Yuan, JHEP 1203,           [12] B. McElrath, Phys. Rev. D 72, 103508 (2005).
+     018 (2012).                                                   [13] P. Fayet, Phys. Rev. D 74, 054034 (2006).
+ [5] J. H. Jeon, C. S. Kim, J. Lee, and C. Yu, Phys. Lett. B       [14] The use of charge conjugate processes is implied through-
+     636, 270 (2006).                                                   out this article.
+ [6] C. Bird, R. V. Kowalewski, and M. Pospelov, Mod. Phys.        [15] P. del Amo Sanchez et al. [BABAR Collaboration], Phys.
+     Lett A 21, 457 (2006).                                             Rev. D 82, 112002 (2010).
+ [7] D. McKeen, Phys. Rev. D79, 114001 (2009).                     [16] B. Aubert et al. [BABAR Collaboration], Phys. Rev. D
+ [8] H. Davoudiasl, H.- S. Lee, and W. J. Marciano, Phys.               78, 072007 (2008).
+                                                                                                                             13
+
+[17] B. Aubert et al. [BABAR Collaboration], Phys. Rev. Lett.     [26] J. P. Lees et al. [BABAR Collaboration], Phys. Rev. Lett.
+     94, 101801 (2005).                                                109, 101802 (2012).
+[18] O. Lutz et al. [BELLE Collaboration], arXiv:1303.3719.       [27] G. Punzi, eConf C030908, MODT002 (2003);
+[19] K.- F. Chen et al. [BELLE Collaboration], Phys. Rev.              arXiv:physics/0308063.
+     Lett. 99, 221802 (2007).                                     [28] E. Farhi, Phys. Rev. Lett. 39, 1587 (1977).
+[20] M. Ablikim et al. [BES Collaboration], Phys. Rev. Lett.      [29] G. C. Fox and S. Wolfram, Phys. Rev. Lett. 41, 1581
+     100, 192001 (2008).                                               (1978).
+[21] J. P. Lees et al. [BABAR Collaboration], arXiv:1301.2703     [30] K. Nakamura et al. [Particle Data Group], J. Phys. G
+     [Nucl. Instr. Meth. A (in press)].                                37, 075021 (2010), and 2011 partial update for the 2012
+[22] B. Aubert et al. [BABAR Collaboration], Nucl. Instr.              edition.
+     Meth. A 479, 1 (2002).                                       [31] M. Bartsch, M. Beylich, G. Buchalla, and D.- N. Gao,
+[23] B. Aubert et al. [BABAR Collaboration], arXiv:1305.3560           JHEP 0911, 011 (2009).
+     [Nucl. Instr. Meth. A (in press)].                           [32] R. Barlow, Comput. Phys. Commun. 149, 97 (2002).
+[24] S. Agostinelli et al. [Geant4 Collaboration], Nucl. Instr.   [33] G. Buchalla, A. J. Buras, and M. E. Lautenbacher, Rev.
+     Meth. A 506, 250 (2003).                                          Mod. Phys. 68, 1125 (1996).
+[25] B. Aubert et al. [BABAR Collaboration], Phys. Rev. D
+     76, 031102 (2007).
+

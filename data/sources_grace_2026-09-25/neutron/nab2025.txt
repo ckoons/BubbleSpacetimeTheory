@@ -1,0 +1,917 @@
+                                           First Full Dalitz Plot Measurement in Neutron β-Decay using the Nab Spectrometer
+                                                                     and Implications for New Physics
+                                               Francisco M. Gonzalez,1, ∗ Jin Ha Choi,2, 3 Himal Acharya,4 Skylar Clymer,5 Andrew Hagemeier,6 David G.
+                                           Mathews,1, 4 August Mendelsohn,7 Austin Nelsen,4 Hitesh Rahangdale,8 Love Richburg,8 Ricardo Alarcon,5 Ariella
+                                               Atencio,9 Stefan Baeßler,6, 1 Thomas Bailey,2, 3 Noah Birge,8 Dennis Borissenko,6 Michael Bowler,6 Leah J.
+                                            Broussard,1 Albert T. Bryant,6 Jimmy Caylor,8 Tim Chupp,10 Christopher Crawford,4 R. Alston Croley,4 Micah
+                                           Cruz,8 George Dodson,11 Wenjiang Fan,6 Deion Fellers,12 Nadia Fomin,8 Emil Frlež,6 Matthew Frost,13 Jason Fry,14
+                                            Duncan Fuehne,15 Michael T. Gericke,7 Michelle Gervais,4 Corey Gilbert,1 Ferenc Glück,16 Rebecca Godri,8 Geoff
+                                           L. Greene,8, 1 William Greene,8 Josh Hamblen,17 Paul Harmston,8, † Leendert Hayen,18, 2 Carter Hedinger,6 Chelsea
+                                            Hendrus,10 Sean Hollander,1 Kavish Imam,8 Erik B. Iverson,13 Aaron Jezghani,19 Chenyang Jiang,13 Huangxing
+                                            Li,6 Nick Macsai,7 Mark Makela,20 Russell Mammei,21 Ricky Marshall,6 Madelyn Martinez,5 Mark McCrea,4 Pat
+                                              McGaughey,20 Sean McGovern,6 David McLaughlin,6 Jacqueline Mirabal-Martinez,20 Paul Mueller,1 Andrew
+
+
+
+
+arXiv:2508.16045v1 [nucl-ex] 22 Aug 2025
+                                            Mullins,4 William Musk,6 Jordan O’Kronley,8 Seppo I. Penttilä,1 D. Elliot Perryman,8, ‡ Josh Pierce,22 Jason A.
+                                           Pioquinto,6 Dinko Počanić,6 Hunter Presley,8 John Ramsey,1 Glenn Randall,5 Zachary Raney,6 Jackson Ricketts,17
+                                                Grant Riley,20, 8 Americo Salas-Bacci,6 Sepehr Samiei,6 Alexander Saunders,1 Wolfgang Schreyer,1 E. Mae
+                                             Scott,8, § Thomas Shelton,4 Aryaman Singh,6 Alexander Smith,6 Erick Smith,20 Eric Stevens,6 R. J. Taylor,2, 3
+                                               Leonard Tinius,6 Isaiah Wallace,8 Jonathan Wexler,2, 3 W. Scott Wilburn,20 A. R. Young,2, 3 and B. Zeck2, 3
+                                                                                           (Nab Collaboration)
+                                                                   1
+                                                                     Physics Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA
+                                                               2
+                                                                  Department of Physics, North Carolina State University, Raleigh, NC 27695, USA
+                                                                     3
+                                                                       Triangle Universities Laboratory, Duke University, Durham, NC 27708, USA
+                                                           4
+                                                             Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506, USA
+                                                                       5
+                                                                         Department of Physics, Arizona State University, Tempe, AZ 85287, USA
+                                                                   6
+                                                                     Department of Physics, University of Virginia, Charlottesville, VA 22904, USA
+                                                                 7
+                                                                   Department of Physics, University of Manitoba, Winnipeg, MB R3T 2N2, Canada
+                                                          8
+                                                             Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37996, USA
+                                                                         9
+                                                                           Department of Physics, Drexel University, Philadelphia, PA 19104, USA
+                                                                    10
+                                                                       Department of Physics, University of Michigan, Ann Arbor, MI 48109, USA
+                                                                            11
+                                                                               Massachusetts Institute of Technology, Cambridge, MA 02139, USA
+                                                                             12
+                                                                                Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+                                                         13
+                                                             Neutron Technologies Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA
+                                                                                     14
+                                                                                        Department of Physics, Geosciences, and Astronomy,
+                                                                                   Eastern Kentucky University, Richmond, KY 40475, USA
+                                                                        15
+                                                                           Department of Physics, University of Chicago, Chicago, IL 60637, USA
+                                                                  16
+                                                                     Karlsruhe Institute of Technology, IAP, 76021 Karlsruhe, POB 3640, Germany.
+                                                17
+                                                   Department of Physics and Astronomy, University of Tennessee at Chattanooga, Chattanooga, TN 37403, USA
+                                                                      18
+                                                                         LPC Caen, ENSICAEN, Université de Caen, CNRS/IN2P3, Caen, France
+                                                        19
+                                                           Partnership for an Advanced Computing Environment, Georgia Tech, Atlanta, GA 30332, USA
+                                                                               20
+                                                                                  Los Alamos National Laboratory, Los Alamos, NM 87545, USA
+                                                                21
+                                                                   Department of Physics, University of Winnipeg, Winnipeg, MB R3B 2E9, Canada
+                                                            22
+                                                               Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA
+                                                           Precision measurements of observables in neutron β-decay are used to test the Standard Model
+                                                        description of the weak interaction and search for evidence of new physics. The Nab experiment at
+                                                        the Fundamental Neutron Physics Beamline at the Spallation Neutron Source was constructed to
+                                                        measure correlations in neutron decay by utilizing an asymmetric spectrometer and novel detection
+                                                        system to accurately reconstruct the proton momentum and electron energy for each β-decay. This
+                                                        work describes the detection of neutron β-decay products in the Nab spectrometer and presents the
+                                                        first full Dalitz plot representation of the phase space of neutron β-decay for all electrons > 100 keV.
+                                                        In addition, new constraints are placed on a possible excited neutron state, hypothesized to explain
+                                                        the disagreement between the appearance and disappearance neutron lifetime techniques.
+
+
+
+
+                                                                                                              ‡ Now at: Institut Laue-Langevin, Grenoble, France
+                                           ∗ Email: gonzalezfm@ornl.gov                                       § Now at: Centre College, 600 West Walnut Street, Danville, KY
+                                           † Now at:
+                                                   Department of Physics, University of Illinois at Urbana-     40422
+                                            Champaign, Urbana IL, 61801, USA                                    Notice: This manuscript has been authored by UT-Battelle,
+                                                                                                                                 2
+
+                                                                        from the asymmetry A [25, 26], which correlates the mo-
+                   I.   INTRODUCTION                                    mentum of the produced electron with the spin of the
+                                                                        decaying neutron, and from the correlation parameter
+   Neutron β-decay, the simplest example of nuclear β-                  a [27–30], which correlates the momenta of the electron
+decay, provides a unique suite of precise tests of the Stan-            and neutrino produced in the decay. Currently, there is
+dard Model (SM) of particle and nuclear physics. An                     some tension between the measurements of λ using the
+important constraint of our understanding of the weak                   two techniques [12]. As the precision in calculations of
+interaction is the unitarity of the quark-mixing Cabibbo-               the axial vector coupling constant gA [31, 32] and under-
+Kobayashi-Maskawa (CKM) matrix, with the most pre-                      standing of relevant corrections improve [33–35], directly
+cise test of unitarity utilizing the first row of matrix                comparing determinations of λ experimental results with
+elements. Recent progress in calculating the radiative                  improved lattice calculations can also be used to con-
+corrections in nuclear decays have led to re-evaluations                strain BSM physics.
+in the CKM matrix element Vud extracted from super-                        Beyond extracting Vud , precision nuclear and neutron
+allowed 0+ → 0+ Fermi nuclear decays[1–3]. This has                     decay experiments can probe exotic couplings in the weak
+led to significant tension between the SM prediction of                 interaction [36, 37]. The existence of a non-zero Fierz
+CKM unitarity and the leading experimental extractions                  interference term b would be indicative of exotic, pos-
+of the CKM matrix elements Vud and Vus used in the                      sibly right-handed, scalar or tensor couplings beyond
+first-row test [4, 5]. Resolving this anomaly, also known               the known V − A structure of the weak interaction.
+as the Cabbibo Angle Anomaly, has implications for                      This term can be measured precisely in β-decays, in-
+physics Beyond the Standard Model (BSM) [6], including                  cluding that of the neutron, with sensitivity comparable
+right-handed hadronic currents [7], lepton flavor univer-               to high-energy limits established at the Large Hadron
+sality [8], and the W -boson mass [9].                                  Collider [5]. Scalar currents are presently most tightly
+   Neutron β-decay provides a complementary method of                   constrained by the set of superallowed Fermi decays [3].
+extracting the Vud matrix element, free from nuclear-                   Tensor currents have recently been precisely probed in
+structure-dependent theoretical corrections that domi-                  nuclei such as 8 Li and 8 B [38, 39], and future precision
+nate the uncertainty when using superallowed Fermi nu-                  studies will use cyclotron radiation emission spectroscopy
+clear decays. Two neutron-decay parameters need to be                   with 6 He and 19 Ne [40, 41]. Neutron correlation experi-
+determined more precisely to directly probe the Cab-                    ments have also placed limits on b in neutron decay com-
+bibo Angle Anomaly: the neutron lifetime τn and the                     petitive with nuclei [29, 42, 43]. Recently, a combined
+ratio of the Gamow-Teller and Fermi coupling constants                  analysis from two neutron decay correlation experiments
+λ = gA /gV .                                                            measuring different asymmetry parameters found a non-
+   While recent measurements of the neutron lifetime ap-                zero value of b [29], deviating from the SM prediction
+proach the required precision to compete with 0+ → 0+                   by 2.8σ. A non-zero value of b of that size had been
+decays [10, 11], there is a more than 4σ discrepancy                    proposed earlier as part of a resolution of the neutron
+between experiments that measure the disappearance                      lifetime discrepancy involving dark decays [44].
+of stored neutrons and the appearance of decay prod-                       Rather than relying on detecting the antineutrino, the
+ucts [12]. This discrepancy has motivated exotic expla-                 neutron decay correlation parameters can be reframed in
+nations, such as dark decays [13], mirror matter [14–16],               terms of the more experimentally accessible decay elec-
+excited state neutrons [17], and a second flavor of atomic              tron and proton energies. The values of a and b can be
+hydrogen [18]. Experimental searches for these exotic de-               then determined by measuring the energy of the electron
+cays, species, and transitions have been ongoing but thus               produced in β-decay and the momentum of its coinci-
+far have not seen evidence for new physics [19–23], and                 dent proton, with the kinematically available phase space
+exotic solutions to the neutron lifetime discrepancy are                seen in Fig. 1. This plot is analogous to the commonly
+constrained by the consistency of Vud as extracted from                 used Dalitz plot in high-energy particle physics for recon-
+neutron β-decay and nuclear β-decay [24].                               structing three-body kinematics and looking for resonant
+   The other free parameter in neutron decay, λ, can be                 decay modes [45]. The proton yield for slices of constant
+extracted by measuring correlations in neutron decay.                   electron kinetic energy Ee has a slope proportional to a,
+The λ parameter has been determined most precisely                      and the proton momenta of its sharp edges are deter-
+                                                                        mined entirely by the decay kinematics. Changes in b
+                                                                        will cause a distortion of the electron energy spectrum.
+  LLC, under contract DE-AC05-00OR22725 with the US Depart-             Exotic decays may appear as deviations from the kine-
+  ment of Energy (DOE). The US government retains and the pub-          matically allowed edges of the Dalitz plot.
+  lisher, by accepting the article for publication, acknowledges that      As previous neutron β-decay experiments have not
+  the US government retains a nonexclusive, paid-up, irrevocable,
+                                                                        measured the complete range of pp and Ee simultane-
+  worldwide license to publish or reproduce the published form of
+  this manuscript, or allow others to do so, for US government          ously, the full Dalitz plot of neutron β-decay has not yet
+  purposes. DOE will provide public access to these results of fed-     been experimentally reconstructed. Experiments mea-
+  erally sponsored research in accordance with the DOE Public           suring correlations with the neutron spin typically pre-
+  Access Plan (https://www.energy.gov/doe-public-access-plan).          cisely measure only Ee [25, 26]. Measurements of the
+                                                                                                                             3
+
+
+
+
+FIG. 1. Analytical calculation, neglecting radiative and re-
+coil corrections, showing the phase space of neutron decay
+kinematics as a function of electron kinetic energy Ee and
+proton momentum pp . The central plot shows the available
+phase space. The blue space represents decays with the elec-
+tron and antineutrino momenta aligned within the same hemi-
+sphere, and the red space represents decays with the electron
+and antineutrino momenta antialigned. The right plot shows
+the relative proton yield for slices of constant Ee . The lower
+plot shows the overall electron distribution summing over all
+values of p2p . (Color online)
+
+                                                                  FIG. 2. Elevation view of the Nab experiment showing key
+                                                                  subsystems, including the beamline, magnet, and detector
+electron-neutrino correlation, a, measured the proton re-
+                                                                  systems. Detailed descriptions of the subsystems are provided
+coil spectrum [28] or narrow slices of phase space [27].          in the text.
+Other neutron decay searches have measured proton
+kinematics by using the time-of-flight between protons
+and electrons, but these have not provided a precise              flight determines the proton momentum. An overview
+measurement of the electron energy or proton momen-               of the apparatus is depicted in Fig. 2, and major compo-
+tum [46, 47]. In this work, we present a first recon-             nents as implemented for this work are described in more
+struction of the full neutron β-decay Dalitz plot above           detail below.
+thresholds and place constraints on possible excited de-
+cay modes of the neutron.
+                                                                    A.    Neutron Beam, Spectrometer, and Magnet
+
+        II.   EXPERIMENTAL APPARATUS                                 The Nab apparatus is installed at the Fundamen-
+                                                                  tal Neutron Physics Beamline 13-B (FNPB) [52] of the
+   The measurement reported here utilizes the Nab spec-           SNS. Neutrons were produced via spallation by a 60 Hz,
+trometer, located at the Spallation Neutron Source (SNS)          1.7 MW proton beam impinging upon a mercury tar-
+at Oak Ridge National Laboratory, designed to accept              get. The beamline monochromator was inserted dur-
+the full phase space of neutron β-decay. The Nab ap-              ing data-taking for these measurements to share beam
+paratus was developed to determine λ with high pre-               with experiments on the adjacent Beamline 13-A, re-
+cision through a measurement of the electron-neutrino             sulting in a modest reduction in flux. At the exit of
+correlation, a, and set strong constraints on a possible          the biological shielding of the FNPB, the Nab beam-
+Fierz term, b [48–51]. To measure Ee and pp for each              line consisted of an upstream section, the path through
+decay event, the spectrometer’s magnetic field captures           the spectrometer, a downstream section, and the neu-
+the charged decay products from the unpolarized neu-              tron beam stop. For this measurement, the upstream
+trons and guides them to two detection systems. After             section included a spin flipper [53] which was not oper-
+the fast decay electron is detected and its energy mea-           ated, but provided a vacuum environment for the neu-
+sured directly, the lower-velocity coincident proton has          trons to reduce neutron-generated background radiation.
+to travel along the long arm of the spectrometer before           Thin 0.3 mm magnesium-alloy windows separate the up-
+being detected several microseconds later. This time of           stream and downstream rough beamline vacuum from
+                                                                                                                       4
+
+the spectrometer’s ultra-high vacuum, with a residual gas     excellent linearity and resolution for electron energy re-
+pressure below 10−8 Torr. Inside the spectrometer mag-        construction; fast timing to resolve backscattered elec-
+net1 , the beam is surrounded by 6 Li-loaded glass channels   trons and reduce biases in reconstructing the proton time
+upstream and downstream of the decay volume. Addi-            of flight; and high segmentation to reduce noise and back-
+tional collimators made of 6 Li3 PO4 are mounted in the       grounds in coincidence detection. The detection system
+upstream section. The collimators nominally result in a       is based on thick, large-area, highly segmented silicon
+rectangular beam with a width of 5.4 cm and a height of       detectors with custom-designed electronics and a com-
+7 cm in the decay volume. Upon exiting the spectrome-         pact assembly providing electrical power, data acquisi-
+ter, the beam passes a second magnesium-alloy window          tion, and cryogenic cooling while floating on a −30 kV ac-
+and follows an evacuated vacuum tube until it is absorbed     celerating potential. Two detector systems are used, one
+in a shielded enclosure containing the neutron beam stop.     at each end of the Nab spectrometer. The performance
+   A tiny fraction, less than 10−6 , of the total neutrons    of a prototype detector system has been demonstrated
+passing through the spectrometer decay inside of a small      in [47] and the final design with full instrumentation has
+decay volume within the ∼ 1.7 T magnetic field of the         been described in Ref. [54].
+spectrometer. The charged decay products gyrate inside           This measurement used 2 mm thick silicon detectors
+this magnetic field and are guided by it to silicon detec-    with 11 cm diameter and an active area segmented into
+tors at either end. The magnetic field of the spectrometer    127 hexagons, each with 70 mm2 area, manufactured by
+and the agreement of its measurement with calculation         Micron Semiconductor Ltd.2 A detailed charge transport
+were described in Ref. [51]. Above the decay volume,          simulation model of the detector has been developed [55].
+the magnetic field strength increases to ∼ 4 T to reject      The detector thickness ensures the highest energy elec-
+protons emitted at an angle far from the spectrometer         trons from neutron β-decay and from calibration sources
+axis which would take a long time to reach the detector.      are fully stopped in the detector. These detectors have
+This produces a sensitive response function between the       been demonstrated to have a ∼100 nm dead layer, suf-
+proton time of flight tp and its momentum pp . Beyond         ficiently thin to allow efficient detection of 30 keV pro-
+this pinch, the field drops to a low value of ∼ 0.2 T to      tons [56]. The upper detector used for proton detection in
+longitudinalize the momentum of the protons. At either        this measurement was successfully tested using a separate
+end of the spectrometer, the magnetic field again rises to    30 keV proton beam at the University of Manitoba [57].
+∼ 1.3 T to guide the charged particles into the detector         For this measurement, the detectors were cooled to
+system.                                                       temperatures between 110 K and 150 K (depending on
+   Since the mass of the proton is significantly greater      the study) to reduce dark noise and the detector charge-
+than the mass of the electron, conservation of energy         collection rise time. The upper detector was typically
+and momentum, combined with the more than 5 m path            operated with a bias voltage exceeding −200 V, the nom-
+length of the proton, causes at least a 12 µs difference in   inal voltage to fully deplete the 2 mm thick bulk silicon.
+the time of flight between the proton and electron. Since     On the lower detector, an abnormally high leakage cur-
+we do not observe the initial conditions (e.g. position or    rent (∼ 100 µA at ∼ 130 K) and the resulting excessive
+momentum) of the neutron decay, we must rely on co-           noise limited the bias voltage to −50 V, below full deple-
+incidences between protons and electrons close to where       tion, which has implications for both timing and energy
+the same field lines intersect the detector. The guiding      reconstruction.
+fields between detectors ensure that the electron and pro-       Each detector system was supported by a custom elec-
+ton from a given decay hit the detectors within ∼ 2 cm        tronics package to provide high gain while maintaining
+of one another. In this work, we define the time of flight    the fast timing intrinsic to the silicon detector response,
+tpe as the time difference between electron and proton        with 127 channels each reading a hexagonal pixel of the
+triggers.                                                     detector. The circuit used in this measurement is de-
+                                                              scribed in Ref. [55]. During this measurement, mechan-
+                                                              ical and electrical failures resulted in a reduction to the
+                 B.   Detection System                        number of operating pixels, such that there were no pix-
+                                                              els with all adjacent neighbors operational.
+  The goal of the detection system is to detect the de-          The detector system [54] included the mounting struc-
+cay proton with up to 0.751 keV and the decay electron        ture for the Si detector, the detector electronics, instru-
+with up to 782 keV in coincidence, whether in the same        mentation for gaseous helium flow cooling for the Field
+or different detectors. The requirements for the system       Effect Transistors and detector [58], water cooling to sta-
+include: low noise; a dead layer thin enough to detect the    bilize the temperature of the amplification stages of the
+protons after accelerating them to no more than 30 keV;       electronics [59], and vacuum services for the cold section
+                                                              of the electronics. It also provided for -30 kV high volt-
+                                                              age isolation of the detector, needed to accelerate protons
+
+1 https://www.cryogenic.co.uk/news-and-events/news/
+
+  actively-shielded-nab-spectrometer                          2 https://www.micronsemiconductor.co.uk/
+                                                                                                                            5
+
+past the detector dead layer. The associated detector                D.     Data Acquisition and Signal Processing
+electronics chain, including the frontend data acquisition
+(DAQ) system, the detector bias voltage power supply               The data acquisition system used in this measurement
+and pulser, and instruments for monitoring and network-         was described in detail in Ref. [62]. The signal waveform
+ing, was held at the -30 kV potential as well. During the       outputs from the detector electronics were recorded by
+data acquisition described here, the upper detector was         National Instruments 8-channel 250 MS/s 14-bit PXIe-
+set to −30 kV, while the lower detector was grounded.           5171 reconfigurable oscilloscope modules [63]. At each
+The applied voltage was characterized by studying the           detector, 16 of these modules were installed in a PXIe-
+energy shift due to the varying voltage on the mono-            1085 chassis [64]. Each detector channel was attached
+energetic conversion electron lines from 113 Sn. The de-        to a dedicated Analog-Digital Converter (ADC) channel,
+cay volume in the section of the spectrometer at neutron        such that signals from each detector pixel could be read
+beam height was grounded by an electrode system to              out individually.
+maintain a constant electric field for all decaying parti-         As part of the DAQ startup, the internal clocks of each
+cles [60]. In the lower section of the spectrometer, a sec-     module are synchronized with one another. During this
+ond electrode system created up to a 1 kV potential dif-        synchronization routine, ADC modules within one chas-
+ference perpendicular to the spectrometer magnetic field.       sis were synchronized at the better than 1 ns level. Be-
+This was operated for some datasets to sweep downward-          tween the two chassis there was a potential timing off-
+going, wrong-direction protons far enough away from the         set due to how the synchronization logic managed their
+electrons that they would no longer be considered co-           cable length differences. With the firmware used dur-
+incident even if they were backscattered from the lower         ing this dataset, synchronization between the two chassis
+detector and subsequently detected in the upper one.            was found to be inconsistent. Using the observed offsets
+                                                                in the time of flight of backscattered electrons traveling
+                                                                down-to-up and up-to-down compared to simulation, the
+                                                                timing offset averaged over all runs was determined to be
+                                                                260 ± 5 ns where the ±5 ns uncertainty was dominated
+                C.    Calibration System                        by timing drift between individual runs.
+                                                                   Charged particle events are detected by convolving
+                                                                the raw ADC data stream with a double trapezoid re-
+  The response of the silicon detector and electronics          sponse function on each oscilloscope module’s FPGA.
+chain was characterized and the energy response cali-           The double trapezoid, which uses a delayed second neg-
+brated in situ using radioactive sources. Conversion elec-      ative trapezoid in addition to the more typical positive
+tron sources were selected to encompass the range of            first trapezoid, cancels baseline drifts that might other-
+neutron β-decay energies. These sources included 207 Bi,        wise lead to compromised trigger efficiency. It also pro-
+which has prominent monoenergetic peaks at 481.7 keV            vides a zero-crossing, similar to a constant fraction dis-
+and 975.7 keV; 113 Sn, which has its most prominent peak        criminator, for better timing. The double-trapezoid trig-
+at 363.8 keV; and 109 Cd, with its most prominent peak          ger filter had a rise time of 1.6 µs and a flat top of 0.4 µs.
+at 62.5 keV [61]. 148 Gd, a monoenergetic 3.18 MeV α            During this dataset, the DAQ applied a threshold with
+emitter, was also used as an in situ probe of the silicon       voltage corresponding to approximately 9 keV for the up-
+dead layer, important in characterizing the energy lost         per detector (the only detector able to see protons) and
+by the decay protons.                                           90 keV for the lower detector.
+  To reduce the energy lost by decay electrons in the
+radioactive sources themselves, the isotopes were pre-
+                                                                          III.   EXPERIMENTAL APPROACH
+pared as a liquid solution, applied in a series of microliter
+droplets onto thin foils, and installed in the spectrometer
+after the solvent had evaporated. An electroplated 148 Gd                          A.   Data Collection
+source was used for studies requiring α particles. The
+sources were mounted onto a custom radioactive source             Data were collected during commissioning of the ex-
+insertion system, which allowed sources to be exchanged         perimental apparatus during a period of three weeks in
+and inserted into the ultra-high vacuum of the magnet.          the summer of 2023, with the intent to demonstrate the
+This insertion system was located at the nominal mid-           working principles of the experiment. All major subsys-
+point of the neutron decay volume along the neutron             tems were operational. Approximately 20 % of all data
+beam travel axis and was retracted when the neutron             taken during this commissioning period, 101 hours, were
+beam was on. For these measurements, the insertion sys-         taken in nominal “production” mode, while the remain-
+tem could only be actuated along an axis perpendicular          der of time was used to explore variations in operat-
+to the neutron beam. The electron sources were used             ing parameters. “Production” data were selected from
+to calibrate individual pixels on the detector by inserting     measurement runs with the SNS accelerator power at
+them so that each source illuminated one cluster of about       1.7 MW, with the magnet running at the designed field,
+three pixels of each detector at a time.                        and the upper detector having an accelerating potential
+                                                                                                                       6
+
+of -30 kV. While data were being recorded, the uptime          energies. The detector was calibrated across a range of
+of neutron data taking was 75 %, with losses primar-           bias voltages and detector temperatures. On the cali-
+ily due to planned and unplanned accelerator outages,          brated pixels, the uncertainty in the electron endpoint
+time for reconfiguration of the experiment and DAQ,            was calculated by evaluating the 1-σ uncertainty of this
+and periods where increased electronics noise temporar-        polynomial at 782 keV. This led to a 6.7 × 10−3 rela-
+ily paused data acquisition. Systematic studies explored       tive uncertainty for the energy of the endpoint of the
+in this dataset included detector characterizations using      calibrated pixels, dominated by gain variations from the
+radioactive sources, studies of backgrounds, and studies       varied run conditions. The observed gain distribution on
+with varying operating parameters of the detectors and         calibrated pixels was used to provide a systematic uncer-
+data acquisition.                                              tainty on this calibration technique for the uncalibrated
+   Several limitations caused deviations from the ideal op-    pixels. The gain distribution on calibrated pixels was fit
+erating conditions expected for the final implementation       to a Gaussian with a σ of 3.1%, which was taken as the
+of the experiment, summarized here. The limited number         calibration uncertainty for the uncalibrated pixels. The
+of operational pixels reduced the observed coincidence         6.7 × 10−3 uncertainty on the endpoint energy for well
+rate and also distorted the energy spectrum due to missed      calibrated pixels, combined with a 3.1×10−2 uncertainty
+backscattered electrons. The implemented version of the        on the endpoint energy of uncalibrated pixels, provides
+timing synchronization routine for the DAQ resulted in         an overall calibration uncertainty at the endpoint energy
+a larger than expected uncertainty in the timing offset        of β-decay electrons of 2.5%.
+between the clocks of the upper and lower systems. The
+conditions of the neutron beam varied, both due to vari-
+ations in the moderator and to accommodate other ex-                            2.    Coincidence events
+periments utilizing BL-13A. A lower-than-expected pro-
+ton energy on the upper detector caused reduced trig-             In this dataset, waveforms from all triggered hits were
+ger efficiency and an increased timing jitter. The lower       stored, so that grouping of coincidences could be studied
+detector could only be operated with partial depletion,        in offline analysis after applying the energy calibration.
+which affected the precision of time-of-flight extraction      In analysis, the timestamps of events on the lower detec-
+and the energy reconstruction. Finally, the detector tem-      tor were shifted by 260 ns to account for the synchroniza-
+peratures and bias voltages were not held in a consistent      tion offset between the two DAQ chassis. All triggered
+and stable configuration for long periods during produc-       events depositing an energy less than 50 keV in the upper
+tion mode due to emphasis on optimizing and studying           detector were flagged as possible protons. These protons
+performance, which also increased these detection uncer-       were grouped with all events that preceded the proton
+tainties.                                                      by its expected time of flight of 10 µs to 80 µs, which
+                                                               were subsequently defined as electrons. A spatial cut was
+                                                               applied to separate foreground from background, where
+                 1.   Detector Calibration                     foreground events occurred within two pixels of the pro-
+                                                               ton hit, mapped to either the upper or lower detector.
+   With the neutron beam off, the detection systems            The rate of coincidence events was 60 cps.
+were characterized through the use of radioactive sources         Fig. 3 shows the time of flight between protons and
+113
+    Sn, 207 Bi, and 109 Cd. The radioactive source insertion   electrons histogrammed over all coincidences. In this
+system used for these measurements was used to calibrate       dataset, the proton peak appeared at 10 keV, lower than
+29% of the total pixels. Pixels that did not have enough       the amplitude of 20 keV predicted by simulation and ob-
+counts in the peaks to calibrate were instead calibrated       served using the same detector at the proton source at the
+by assuming that their gain and nonlinearity had the           University of Manitoba [57]. The peak reduction would
+same mean values as the well-characterized pixels of the       lead to a bias of several percent in the reconstruction of
+detector. To take into account backscattered electrons in      the main physics observable, the neutrino electron corre-
+both calibration and neutron-decay data sets, the energy       lation coefficient a, due to selectively removing protons
+of events arriving within 1 µs in active nearest-neighbor      with lower momentum. This was a consequence of acci-
+or next-nearest-neighbor pixels on the upper and lower         dental contamination after the testing at the University
+detector were summed together. Simulations show neg-           of Manitoba. The bias in the physics observable depends
+ligible (< 10−5 ) backscattered electrons have a time of       on the specific deposit properties, which have not been
+flight longer than 1 µs. Prominent peaks corresponding         precisely characterized.
+to mono-energetic decay electrons in the spectrum of each
+pixel were fit with a Gaussian added on top of an expo-
+nential, which represented electron downscattering, and                          3.   Background rates
+flat background. The data points relating the centroids
+to the corresponding known electron energies were fit to         Both silicon detectors are susceptible to unwanted
+a polynomial to determine the gain, offset, and nonlin-        backgrounds originating from electronic noise, cosmic
+earity of the detector across the range of β-decay electron    muons, as well as neutron-beam-generated particles.
+                                                                                                                          7
+
+                                                              dence data. This background timing window was chosen
+                                                              for the ease of having one contiguous coincidence time
+                                                              window, from 10 to 150 µs, that could be subdivided into
+                                                              equal parts foreground and background. Approximately
+                                                              2% of proton-electron coincidences from neutron decay
+                                                              appear between 80 and 150 µs, slightly inflating the ob-
+                                                              served background rate. Furthermore, protons backscat-
+                                                              tering off the lower detector would appear at high tpe ,
+                                                              also contributing to backgrounds. The measured back-
+                                                              ground coincidence rate was 20 cps, leading to a back-
+                                                              ground subtracted rate of 40 cps.
+                                                                 The backgrounds ultimately caused systematic uncer-
+                                                              tainties in neutron decay kinematic reconstruction. The
+                                                              background due to false coincidences was roughly con-
+                                                              stant in tpe , but the real proton time of flight distribu-
+                                                              tion was nearly flat in 1/t2pe . Protons backscattering off
+                                                              the lower detector would have a similar time profile as
+FIG. 3. The two-dimensional histogram of the “proton” en-
+                                                              the decays of interest, but would appear at higher tpe .
+ergy vs. the time of flight between the “proton” and “elec-
+tron” shown with backgrounds subtracted as discussed in the
+                                                              An incorrect estimation of the background rate would
+text.                                                         introduce nonlinearities in the slope of the 1/t2pe distri-
+                                                              bution on the Dalitz plot. Furthermore, electron energy
+                                                              reconstruction was biased as a result of detector back-
+Backgrounds in the lower detector were ∼11000 cps above       grounds being mistakenly counted as backscattered elec-
+the DAQ threshold of ∼90 keV, significantly higher than       trons. This bias was mitigated by choosing a 1 µs integra-
+the backgrounds in the upper detector, which were only        tion window for counting backscattered events. Scanning
+∼200 cps above the DAQ threshold of ∼9 keV. Some of           this integration window from 0.5 µs to 2 µs showed no
+the differences in background rates between the detectors     statistically significant variation in the slope of the Dalitz
+are expected. The upper detector has a much lower sen-        plot.
+sitivity to beam-induced backgrounds, as the lower de-
+tector is much closer to the neutron beam and the shape
+of the spectrometer magnetic field rejects many charged                     B.   Simulated Performance
+particles from reaching the upper detector. The back-
+ground rate in the lower detector was exacerbated by the         The response of the spectrometer has been modeled in
+much larger than expected electronics noise rate from         a detailed Monte Carlo simulation using Geant4 includ-
+the leakage current. The beam-induced background was          ing an analytical description of the electric and magnetic
+measured by varying the magnetic fields and the high          fields as described in [51]. 108 coincidence decay proton
+voltage applied to the upper detector. Real decay events      and electron events with momenta following the expected
+required both magnetic fields and high voltage to detect      neutron decay distributions, neglecting recoil order cor-
+the proton and electron in coincidence. Beam-induced          rections, were generated in a cylinder in the center of
+backgrounds are not expected to have the same coinci-         the decay volume. The decay volume used in these sim-
+dence structure, and can thus be isolated. A significant      ulations was a vertical cylinder with radius 3.4 cm and
+fraction of backgrounds in the lower detector were neu-       height 8 cm aligned along the magnet axis and centered
+tron beam related, such as from neutrons interacting with     in the magnet 13.2 cm below the field maximum. A cylin-
+the magnesium window separating the ultra-high vacuum         drical geometry was chosen because electrons and protons
+bore from the neutron beamline.                               far from the central magnet axis predominately scatter
+   The long coincidence window, from 10 µs up to 80 µs,       off internal components of the spectrometer rather than
+means that background events can form accidental co-          reaching the detectors. The simulation tracked decay
+incidences. The impact of backgrounds was mitigated           particles through the spectrometer and recorded their
+by requiring coincidences between the upper and lower         arrival time, energy, and position in each silicon detec-
+detector spatially located within 2 rings of pixels, cor-     tor past a 100 nm dead layer. For events where multiple
+responding to an area of ∼ 17 cm2 for each detector.          backscattered electrons hit on the same pixel, the en-
+This corresponds to about 18% of the total active area        ergy of those hits was summed and the time of those
+of the detectors. Background events with a similar tim-       events was averaged. Each pixel had a simulated 10 keV
+ing structure to the neutron decay signal of interest were    threshold on the upper detector or a 100 keV threshold
+generated by applying the coincidence time criteria using     on the lower detector. Pixels that were off during the
+a time of flight window between 80 and 150 µs. The mea-       measurement were also turned off in simulation. Coin-
+sured time of flight of these backgrounds were shifted by     cidences were reconstructed by selecting proton events
+70 µs. Then these events were subtracted from the coinci-     on the upper detector and grouping them with electron
+                                                                                                                            8
+
+
+
+
+FIG. 4. Reconstructed energy as a function of true initial    FIG. 5. The proton time of flight tp shown as a function of the
+energy for decay electrons generated in a Geant4 simulation   initial momentum of the decay proton expected for the Nab
+of the Nab experiment. (Color online)                         spectrometer response simulated in Geant4. (Color online)
+
+
+events preceding the proton by 10 to 80 µs. The proton        a 30 keV shift due to the upper detector high voltage.
+time of flight tpe was defined as the elapsed time between       A challenge unique to the Nab experiment due to the
+the first electron event and the proton event, and the to-    spectrometer response is the assignment of proton mo-
+tal electron energy Ee was defined as the sum of energies     mentum given the measurement of the proton’s time of
+deposited in all electron events.                             flight tp . Assuming adiabatic transport along the mag-
+   Several factors impacted the energy assigned to the        netic field, the initial momentum of the proton, pp , can
+electron compared to its initial energy in the decay. The     be related to the time of flight of the proton tp between
+electron has a significant energy- and angle-dependent        the initial decay coordinate z0 and position of the upper
+probability to backscatter from the detector [65], and all    detector l, across the magnetic field region, with [50, 66]:
+hits must be summed to assemble the full energy. That
+                                                                           mp l
+                                                                               Z
+                                                                                                 dz
+summation is complicated by the fact that one detec-                 tp =          q                              , (1)
+tor is held at -30 kV and the difficulty in determining                    pp z0 1 − B(z) sin2 θ + q(V (z)−V0 )
+                                                                                          B0        0      E0
+bounce order due to the fast (∼ 50 ns) electron travel
+time between detectors, shorter than the rise time of         where θ0 is the angle of the initial momentum with re-
+electron waveforms. If the final electron hit is on the up-   spect to the initial magnetic field B0 , V0 is the initial elec-
+per detector, 30 keV must be added to the reconstructed       trostatic potential, and E0 is the proton’s initial kinetic
+electron energy to account for energy lost in the proton-     energy. The simulated time of flight of protons as a func-
+accelerating potential. The electron energy reconstruc-       tion of initial proton momentum due to the spectrometer
+tion is imperfect due to missed backscattered electrons,      response, cf. Eq. 1, is shown in Fig. 5. The length of
+exacerbated by the missing detector pixels. The electron      the spectrometer was measured to ±5 cm. Since protons
+energy reconstruction also must account for energy loss       travel more than 5 m, this corresponds to a < 1% uncer-
+due to bremsstrahlung and due to the small fraction of its    tainty in the simulated length of travel. This does not
+energy deposited in the inactive dead layer of the silicon    include small biases in the assignment of particle time
+detector.                                                     stamps by the detection system, such as described in
+   Finally, the calibration of the detector response must     Ref. [55]. The Nab spectrometer magnetic fields were
+be exceptionally well understood. The simulated detec-        optimized to produce a narrow width in tp for accepted
+tor response is shown in Fig. 4. Most events are recon-       protons, resulting in the narrow distribution with an in-
+structed correctly and fall within the diagonal line where    verse proportionality between proton time of flight and
+initial and reconstructed energy match. Events below          momentum. The events at longer time of flight than the
+this line on the y-axis have experienced electron energy      main band are protons backscattered from the lower de-
+losses as described above, and events above this line on      tector to the upper detector. For the remainder of this
+the y-axis have a misidentified bounce order resulting in     work, we report the decay distribution in terms of tpe ,
+                                                                                                                         9
+
+which incorporates the electron time of flight, rather than    on data taken in Ref. [54]. The energy of events was de-
+mapping tp to pp using Eq. 1. This intentionally blinds        termined using a “long trapezoid,” with a rising edge of
+us to the true slope of Dalitz plot, and thus the value of     1.6 µs and a flat top of 0.4 µs. The timing of events was
+the a coefficient.                                             determined with a “short trapezoid,” with a rising edge
+  The coincidence rate in the detector, Rdet , can be used     of 80 ns and no flat top. Raw waveforms with a rise time
+to estimate the neutron decay rate, Rtot , in the exper-       - defined as the time for the amplitude going from 10%
+iment during typical operation with the monochroma-            to 90% of the peak - greater than 400 ns were considered
+tor [52] inserted:                                             to be noise or non-backscattered-electron pileup and re-
+                                                               jected. The reconstructed energies and timings were used
+               Rdet = ff ilt fthresh fpix Rtot .        (2)    to generate coincidences as described above. Background
+                                                               subtraction used the shifted time window procedure, also
+The counting efficiencies ff ilt , fthresh , and fpix can be   described previously. The reconstructed Dalitz plot from
+determined through these Geant4 [67] simulations. The          the measured dataset can be seen in Fig. 6 (right).
+presence of the 4 T magnetic field above the decay vol-           Several features are apparent when comparing the
+ume allows only ff ilt ≈ 12% of the protons to reach the       measured and simulated Dalitz plots in Fig. 6. Qualita-
+upper detector. Simulated particle detection thresholds        tively, the agreement in the “teardrop” shape indicates no
+of 100 keV on the lower detector and 10 keV on the upper       severe systematic biases in the measurement. A nonuni-
+detector provide an fthresh ≈ 90%. The reduction in the        formly reduced count rate in the region between 10 keV
+total number of available pixels due to hardware failures      to 100 keV is apparent in the measured data. The events
+meant that we saw a reduced number of these protons.           in Fig. 6 between 10 keV and 100 keV correspond to both
+By turning off the pixels in simulation which were off         the electron and proton only hitting the upper detector.
+in the experiment, we simulate a counting efficiency of        The reduction is caused in part by fast protons hitting the
+fpix ≈ 32%. Since we observed Rdet ≈ 40 cps the sim-           same pixel as an electron, such that they are on the tail of
+ulated proton detection efficiencies allow us to estimate      the electron pulse and are missed by the analysis routine.
+Rtot ≈ 1200 decays s−1 in the Nab spectrometer decay           The reduced proton trigger efficiency for these events is
+volume during the commissioning data-taking, averaging         worsened by the degraded proton energy. Another visible
+over beam conditions.                                          difference is evident at small 1/t2pe . The lower electrode
+   In Nab, the neutron decay phase space depicted in           was operated intermittently in the measured dataset pre-
+Fig. 1 is related to the experimentally accessible param-      sented in Fig. 6, which has two competing effects that are
+eters of electron energy and proton time-of-flight as de-      poorly characterized. For periods where it was not op-
+picted in Figs. 4 and 5. The simulated Dalitz plot as          erated, backscattered protons were expected appear at
+a function the observables of t−2pe and reconstructed elec-    a delayed time which appear as an excess in low 1/t2pe .
+tron energy in the Nab apparatus is shown in Fig. 6 (left).    Delayed protons also contribute to over-subtraction of
+The simulation was scaled to a neutron decay rate of           backgrounds which produces the deficit at very low 1/t2pe
+1200 decays s−1 , and included an applied threshold on         corresponding to tpe = 70 − 80 µs.
+the total energy in each pixel of 10 keV on the upper de-
+tector and 100 keV on the lower detector. Additionally,           The difference between the simulation and measure-
+pixels which were not active during the measurements           ment is shown in Fig. 7. The simulated teardrop has
+reported here were excluded from the simulation. Data          been scaled to the estimated rate of 1200 decays s−1 . Be-
+taken at the Manitoba proton source demonstrated that          low Ee = 200 keV, the simulation has more counts than
+the lower-than-expected proton signal-to-noise observed        the data. Imperfect reconstruction of the electron en-
+in the dataset here introduces a ∼ 250 ns timing jitter on     ergy changes both the central value of the reconstructed
+proton events as the noise makes finding the rising edge       electron energy, and broadens the teardrop across the
+of the proton waveform less precise. The simulated re-         horizontal axis. The effect of electron energy loss, as
+sponse is blurred by randomly adding a gaussian-sampled        in Fig. 4, is most noticeable at lower energies. Mea-
+time to protons with σ = 250 ns to account for this.           sured events near the threshold have a variable trigger
+                                                               efficiency, which contribute to a bias in reconstruction of
+                                                               energies in the lower electron energy section of the Dalitz
+                                                               plot. Missed backscattered electrons, particularly due to
+                       C.    Results
+                                                               missing pixels, exacerbate this distortion. Vertical bands
+                                                               near 10 and 100 keV indicate a mismatch between the
+             1.   Neutron β Decay Dalitz Plot                  simulated and real threshold, partially due to the lack of
+                                                               electronic noise in simulation. The observed discrepan-
+   The Nab experiment recorded 1.6 × 107 background-           cies at low energies also indicate potential inaccuracies in
+subtracted neutron decay events over 101 hours of pro-         the simulated energy deposition, backscattering probabil-
+duction data-taking, which corresponds to a live-time of       ities, or backgrounds affecting the energy reconstruction.
+81 hours of data. The raw waveforms were convolved of-         Furthermore, the impact of the underdepleted lower de-
+fline with a trapezoidal filter with settings chosen from      tector on electron energy and timing reconstruction was
+Table 1 of Ref. [68], which tuned its parameters based         not well characterized.
+                                                                                                                           10
+
+
+
+
+FIG. 6. (Left) The Dalitz plot of neutron β-decay phase space expected for the Nab spectrometer. (Right) The neutron Dalitz
+plot measured in the Nab apparatus. Details are discussed in the text.
+
+
+
+
+FIG. 7. Difference between the Dalitz plots expected from      FIG. 8. (Top) Histogram of 1/t2pe for background subtracted
+simulation and from measurement in Fig. 6.                     p-e coincidence events with a reconstructed electron kinetic
+                                                               energy of 440-460 keV, for both data and simulation. The
+                                                               histograms are each scaled so that the integral is one. The
+                                                               blue and red vertical lines indicate the midpoint of the edges,
+   Additional tpe blurring (vertical axis) beyond the          and the black vertical line indicates 40 µs. (Bottom) Differ-
+noise-induced jitter of 250 ns measured at the University      ences between measured data and simulation histograms.
+of Manitoba appears to be present in Fig. 7. The jitter
+in extracting the proton timing from a waveform strongly
+increases as the signal-to-noise decreases. Because the in-    then determining the value of 1/t2pe corresponding to the
+cident proton energies were so near the threshold, small       midpoint in the rising and falling edges for each bin. A
+variations in the signal-to-noise during the run led to        representative example of one of these energy slices, 440-
+large changes in the jitter of tpe . A smaller disagreement    460 keV, can be seen in Fig. 8. The resulting midpoints
+in tpe can be attributed to uncertainties in the DAQ syn-      for upper and lower edges of the Dalitz plots for sim-
+chronization between the chassis. The simulations used         ulation and measurement as a function of electron en-
+in this result neglect variation in charge collection time,    ergy, along with residuals, is shown in Fig. 9. The max-
+which manifest as a timing bias. These have not been           imum observed fractional deviation between simulation
+quantified but are expected to be smaller than the 5 ns        and measurement for the upper edge is 7.8 × 10−3 and
+DAQ synchronization uncertainty [55].                          for the lower edge is 5.6 × 10−2 . For an extraction of
+   To quantify the level of agreement between simulation       a, the slope of the distribution will be fitted between
+and measurement, the edges of the measured and sim-            tpe = 10 µs and tpe = 40 µs, a narrower timing window
+ulated Dalitz plots in Fig. 6 were defined by first bin-       than this work. The area of greatest discrepancy along
+ning into 20 keV wide bins in electron energy Ee , and         the lower edge corresponds to an area outside this in-
+                                                                                                                             11
+
+
+
+
+FIG. 9. (Top) Mid-point of the upper and lower edges of
+                                                                  FIG. 10. (Top) Distribution of proton times of flight for mea-
+the Dalitz plots in Fig. 6 as a function of electron energy for
+                                                                  sured data and simulation, scaled such that the integral from
+measured data and simulation (without uncertainties). The
+                                                                  10 µs to 60 µs is 1. (Bottom) Differences between measured
+orange point and associated box illustrates the maximum Ee
+                                                                  data and simulation histograms.
+and pp point as determined in Sec. III C 2, with their cor-
+responding uncertainties. (Bottom) Absolute differences be-
+tween data and simulation for both the upper and lower edges
+as a function of electron energy.                                 spontaneous emission of a γ ray with energy ∆Eγ , a pro-
+                                                                  cess with a characteristic lifetime τγ . Alternatively, this
+                                                                  excited neutron can decay directly to a proton, electron,
+tended a analysis window of 40 µs. Due to the reduced             and antineutrino, albeit with extra energy in the decay
+proton energy, the fast protons (the upper edge) are more         products. This extra energy would appear in the Nab
+likely to be counted than slow protons (the lower edge),          spectrometer as either an increase in the maximum pro-
+which biases the count rate at the edges of the Dalitz plot.      ton momentum or an increase in the maximum electron
+The data set described here is systematically limited pri-        energy beyond the SM prediction.
+marily by three effects, each on the order several percent:          The agreement of the maximum pp with the SM pre-
+the missing pixels due to hardware and electronics fail-          diction can be determined by comparing the observed
+ures which greatly increased the calibration uncertainty;         tpe in the Nab spectrometer with the simulated tpe . The
+the uncertainty in the proton tpe due to a combination of         tpe distribution was summed over all electron energies to
+noise-induced jitter and the DAQ synchronization; and             remove the effect of calibration uncertainties. This com-
+the bias in the teardrop edges due to the degraded proton         parison can be seen in Fig. 10. A shift ∆t between the
+peak.                                                             measured and simulated tpe distributions can be inter-
+                                                                  preted as a measurement of excess proton momentum in
+                                                                  neutron decay. The front edge of the tpe distribution,
+                                                                  tfront , for both measured data and simulation was deter-
+               2.   Limits on Excited Neutrons
+                                                                  mined through a fit to an empirical function f (tpe ):
+
+   We now use the observed Dalitz plot from free neu-                                            e−(tpe −tfront )/k1
+tron decay to place a limit on an exotic excited neutron                        f (tpe ) = A                           ,    (3)
+                                                                                               1 + e−(tpe −tfront )/k2
+state and decay mode proposed in Ref. [17]. The excited
+neutron was suggested as an explanation for the higher            where A is the number of decays and k1 and k2 charac-
+value for the neutron lifetime observed in cold neutron           terize the sharpness of the falling and rising components
+beam experiments compared to ultracold neutron stor-              of the function. The tfront from the data was found to be
+age experiments [12]. In a beam experiment, the protons           17 ns longer than the simulated tfront . The fitting uncer-
+from decaying neutrons are observed much closer in time           tainties of both the measured and simulated tfront , com-
+to neutron production in a fission or spallation process          bined in quadrature with the 5 ns uncertainty in the DAQ
+than in a storage experiment. As a result, a much higher          timing synchronization, provide an overall uncertainty on
+proportion of these decaying neutrons may be in their hy-         the timing discrepancy between measurement and simu-
+pothetical excited state. The difference between the two          lation of 21 ns. To validate the empirical fit function of
+measured neutron lifetimes could be due to a difference           Eq. 3, the upper limit of the fit was varied from 20 µs to
+in lifetimes between the SM neutron and excited neutron.          60 µs. The difference in tfront between measurement and
+The key observable of such an excited neutron would be            simulation was consistent across this fit range within this
+additional available decay energy or a higher mass than           21 ns uncertainty.
+the SM neutron. This energy can be released through the              The proton time of flight in simulation depends on the
+                                                                                                                       12
+
+accuracy of the modeled position of the collimators defin-   assumed the Fierz interference term b = 0; a non-zero
+ing the neutron beam position and the position of the        b would distort the shape of the spectrum but not af-
+ground electrode system surrounding the upper detec-         fect the endpoint. Fig. 11 shows a χ2 fit of the measured
+tor. The individual components were physically mea-          data to simulation along with the absolute residuals. The
+sured with few mm precision with respect to the spec-        total normalization, energy calibration factor, and con-
+trometer. Surveys were also performed using laser track-     stant background were free parameters in the function.
+ing of multiple permanent fiducial markers on the spec-      The distortion of the spectrum due to imperfect energy
+trometer bore and flanges and optical targets inside vac-    reconstruction is evident at low energies below 300 keV.
+uum before and after cooling the magnet. The total un-       Above the endpoint the constant background fit param-
+certainty in the length of the spectrometer, taking into     eter accounted for a small over-subtraction of measured
+account thermal contraction, is conservatively estimated     background, likely due to the timing window used for
+at 5 cm, as determined from the center of the neutron        estimating the background.
+beam to region where the electric field below the upper         The uncertainty in the determination of the endpoint
+detector becomes large. This corresponds to an uncer-        energy from the fit method was conservatively taken to
+tainty of 150 ns, consistent with the agreement observed     be 1.5% by varying fit parameters and fit range, in par-
+here. Adding a 5 cm positional uncertainty to account        ticular the normalization parameter to capture possible
+for potential systematics due to the simulation in quadra-   impact of missed backscatters. Adding in quadrature the
+ture with the observed 17 ± 21 ns discrepancy leads to       2.5% uncertainty from the calibration, the total system-
+an overall shift ∆t = 17 ± 151 ns. Combining this with       atic uncertainty in the endpoint energy of the decay elec-
+the ≈ 13 µs minimum arrival time between protons and         tron was 2.9%. The measured endpoint energy from the
+electrons corresponds to a (2 ± 13) × 10−3 fractional dis-   best fit was found to be 795 ± 23 keV, or a measurement
+crepancy on the momentum of the fastest protons from         of the neutron mass of mn = 939.578 ± 0.023 MeV. This
+the simulation.                                              determination is consistent with the approach using the
+   When applied to the proton momentum at the end-           minimum proton time of flight.
+point pp,max , this observed discrepancy corresponds to         If the travel time between neutron generation due to
+a measurement pp,max = 1188 ± 13 keV c−1 . This mo-          spallation and decay in our spectrometer ttr is much less
+mentum can be related to the endpoint energy by kine-        than the hypothetical de-excitation time τγ , we will have
+matics, as at the endpoint pp,max = −pe,max . Since the      a sample of almost pure excited neutrons. The converse
+total available energy in this process at the endpoint is    is true as well; if ttr ≫ τγ , our ability to measure ex-
+given by mn − mp − me , where the masses of the electron     cited neutrons is reduced as most excited neutrons decay
+(me = 0.511 MeV) and proton (mp = 938.272 MeV) are           to SM neutrons in transit. The number of excited neu-
+well known [12], this measurement of pp,max is equiv-        trons NE (τγ ) and SM neutrons NSM (τγ ) starting from
+alent to a measurement of the neutron mass mn =              an initial number N0 can be written as:
+939.566 ± 0.012 MeV. As described in Ref. [17], previ-
+ous measurements of mn are of the SM neutron. At                           NE (τγ ) = N0 e−ttr /τγ
+90% C.L., our measurement of the neutron mass gives
+                                                                                                                    (4)
+                                                                          NSM (τγ ) = N0 1 − e−ttr /τγ .
+mn < 939.565 + 0.021 MeV, placing a limit on the avail-
+able extra energy in neutron decay.
+                                                             The Nab magnet is installed about 17 m from the mod-
+   The available energy in neutron decay was also de-
+                                                             erator, and the peak flux in the neutron spectrum occurs
+termined using the measured endpoint of the β-energy
+                                                             at about ∼ 5 Å(790 m/s) [52]. This suggests a travel
+spectrum, with similar precision. We do not character-
+                                                             time ttr = 22 ms between the neutron generation and
+ize the uncertainty in the β-energy reconstruction due
+                                                             decay. The Geant4 simulation of the Nab spectrometer
+to the underdepleted lower detector and the missing pix-
+                                                             was used to determine the sensitivity of the tpe extrac-
+els. However, as high-energy electrons are used for cal-
+                                                             tion to the mixing of neutrons and excited neutrons in
+ibration and the maximum energy of the β-spectrum is
+                                                             the decay volume. Two simulations were used: one with
+used to determine the available energy in neutron decay,
+                                                             only SM neutrons and one with only excited neutrons
+sensitivity to spectral distortion is reduced. Because of
+                                                             (with 23 keV of extra energy). These two simulations
+these systematic considerations, we used the β-spectrum
+                                                             were used to find tfront,SM and tfront,E where the sub-
+endpoint only as an independent check of the available
+                                                             scripts indicate the SM or excited neutron simulations.
+energy in the decay.
+                                                             Intermediate admixtures were studied by scaling the tpe
+   To find the endpoint energy, the expected spectrum        histograms of these two simulations by Eq. 4 for a range
+shape from the Geant4 simulation was used as a fit func-     of τγ using ttr = 22 ms and added together. The com-
+tion. An additional cut was applied to keep only coinci-     bined histogram was then also fit to Eq. 3 to produce a
+dences with 12.5 µs < tpe < 40 µs. The simulated energy      tfront,τ . For each τγ this produced a scaling factor S(τγ ):
+spectrum was histogrammed with 5 keV bins and a cu-
+bic spline was used for interpolation to obtain a smooth
+function. Recoil order corrections have a negligible ef-                               tfront,τ − tfront,SM
+                                                                            S(τγ ) =                        .         (5)
+fect on the endpoint and were neglected. The simulation                                tfront,E − tfront,SM
+                                                                                                                        13
+
+
+
+
+FIG. 11. (Left) Energy spectrum of electron events from neutron decays measured in the Nab spectrometer (black dots) and
+the fitted simulated response (red line) in the range [200, 1000] keV with absolute residuals below. (Right) Zoom of energy
+spectrum, fit, and residuals near the endpoint. Uncertainties are statistical.
+
+
+This scaling factor was subsequently applied to the mea-       scribed in [17].
+sured ∆t = 17 ns described above for each sampled τγ to
+account for intermediate admixtures of the possible ex-
+cited neutron decay. The systematic uncertainty due to                            IV.   CONCLUSIONS
+the 5 cm positional uncertainty was added in quadrature
+with the scaled ∆t to produce a combined final limit.             The Nab apparatus was developed to precisely probe
+From this result we can place experimental limits on the       BSM physics by looking for CKM matrix non-unitarity,
+proposed excited neutron state as shown in Fig. 12. The        scalar and tensor currents, and exotic new physics such
+vertical grey bands indicate values of τγ that would not       as dark couplings. The novel asymmetric spectrome-
+explain the neutron lifetime discrepancy. The red, blue,       ter enables a high precision determination of the elec-
+and teal colored bands show direct searches for photons        tron energy and proton momentum from neutron decay.
+at neutron sources. Our limit uses the measurement of          This work presents the first measurement reconstructing
+the neutron mass to exclude the available energy of the        the full Dalitz plot of unpolarized neutron decay above
+de-excitation gamma, ∆Eγ , as shown. Conservation of           thresholds. The edges of the “teardrop” shape indicate
+energy requires that the photon energy cannot be larger        agreement with simulated expectation at the several per-
+than the measured mass difference. The horizontal grey         cent level. This result was used to determine directly the
+bands indicate other indirect limits using the neutron         mass of the free neutron. While this is not competitive
+mass, as described in [17].                                    with the traditional method that determines the neutron
+   To check the sensitivity of our ∆Eγ limits to the neu-      mass in a nuclear environment and corrects for binding
+tron time of flight, this procedure was repeated for times     energy, it places a limit on the hypothesized excited state
+of flight between ttr = 16.5 ms and ttr = 27.5 ms, cor-        of the neutron, which was proposed as a possible resolu-
+responding to a 25% uncertainty in ttr . In the region         tion to the neutron lifetime anomaly.
+uniquely excluded by this work, the change in the limit           The Dalitz plot produced here contains the kinematic
+in ∆Eγ is not visible in Fig. 12. The position of the left     data for all practical methods of extracting the electron-
+edge of our reported limit shifts inside the red “beam         neutrino correlation parameter a. Subsequent high-
+coincidence” exclusion region and the left vertical grey       quality Nab data sets will allow for a robust suite of
+band.                                                          benchmarking tests for various experimental techniques,
+   On its own, this measurement of mn is not competitive       and for studies of radiative corrections without relying
+with independent neutron mass measurements from the            on integrated observables [71].
+binding energy of deuterium [70]. However, the measure-           The primary goal of the Nab apparatus is a high pre-
+ment described in this work uses free neutrons and would       cision measurement of the electron-neutrino correlation
+be sensitive to a hypothesized excited neutron mass. This      a in neutron decay. The statistics collected in this com-
+produces more stringent limits on the available energy in      missioning correspond to a 1.1% result, but systematic
+neutron decay than those from other measurements de-           effects present in the commissioning data set are the ma-
+                                                                                                                             14
+
+                                                                  could potentially exploit a polarized neutron beam to
+                                                                  produce independent measurements of A or other neu-
+                                                                  tron decay correlations [72], or utilize the Nab spectrom-
+                                                                  eter to search for decay correlations in nuclear systems.
+                                                                  The common goal is to build a more robust dataset for
+                                                                  the CKM unitarity test and searches for new physics.
+
+
+
+                                                                              V.   ACKNOWLEDGEMENTS
+
+
+                                                                     This work is dedicated to the memory of J. David Bow-
+                                                                  man, who passed away in 2024, and Yu Qian, who passed
+                                                                  away in 2019. David was the originator of the idea for
+                                                                  the Nab experiment and through his storied career made
+                                                                  many contributions to fundamental nuclear physics. Yu
+FIG. 12. Available parameter space for the energy of the          was a graduate student whose career was tragically cut
+gamma emitted by excited neutrons, assuming the spallation        short.
+process produces purely excited neutrons that travel to the          This work was supported through the US Department
+Nab spectrometer with a travel time ttr = 22 ms. Other ex-        of Energy (DOE) (Contracts DE-AC05-00OR22725 in-
+clusion regions are described in [17]. The neutron lifetime       cluding KB0401072 and Early Career Research Program
+discrepancy can be explained by excited neutrons for values       Awards KB0401022 and KC0402010, DE-SC0019309,
+of τγ between the vertical grey bands. See also Ref. [69] for a
+                                                                  DE-SC0008107, DE-SC0014622, DE-FG02-03ER41258,
+slightly tighter upper limit for this region. The orange band
+is the region directly excluded by the measurement of the free
+                                                                  DE-FG02-97ER41042, and 89233218CNA000001 un-
+neutron mass in β-decay described in this work. The top end       der proposal LANLEEDM), through the National Sci-
+of the plot is the approximate energy released per neutron        ence Foundation (NSF) (Contracts PHY-2213411, PHY-
+in a fission or spallation process; if ∆Eγ is too high, excited   2412846, PHY-2209590, PHY-0855584, PHY-2412782,
+neutrons cannot be generated.                                     PHY-2111363, and PHY-1126683), by the Natural Sci-
+                                                                  ences and Engineering Research Council of Canada
+                                                                  (NSERC) (Contracts NSERC-SAPPJ-2019-00043 and
+jor limitation. This work does not extract a value for this       NSERC-SAPPJ-2022-00024), and in part by the US De-
+correlation. Disagreements between simulations and the            partment of Energy, Office of Science, Office of Workforce
+measured data reported here are due primarily to three            Development for Teachers and Scientists (WDTS) Grad-
+dominant systematic uncertainties: (1) insufficient cali-         uate Student Research (SCGSR) program, and the Sci-
+bration data; (2) missing pixels distorting energy recon-         ence Undergraduate Laboratory Internship (SULI) pro-
+struction; and (3) the low proton signal-to-noise and its         gram. This research was supported through research cy-
+resultant uncertainty in timing. The use of pristine detec-       berinfrastructure resources and services provided by the
+tors, redesigns of electronics components, and improved           Partnership for an Advanced Computing Environment
+synchronization routines substantially reduced the im-            (PACE) at the Georgia Institute of Technology, Atlanta,
+pact of these effects in follow-up measurements which             Georgia, USA. This research used resources at the Spal-
+are not reported here. Beyond the immediate goals to              lation Neutron Source, a DOE Office of Science User Fa-
+determine a to test CKM non-unitarity and search for              cility operated by the Oak Ridge National Laboratory.
+a nonzero b not present in the SM, future experiments             We thank K. Borah for useful discussions.
+
+
+
+
+ [1] C.-Y. Seng, M. Gorchtein,          and M. J. Ramsey-          [5] A. Falkowski, M. González-Alonso, and O. Naviliat-
+     Musolf, Physical Review D 100, 013001 (2019),                     Cuncic, JHEP 04, 126 (2021), arXiv:2010.13797.
+     arXiv:1812.03352.                                             [6] V. Cirigliano, W. Dekens, J. de Vries, E. Mereghetti, and
+ [2] M. Gorchtein, Phys. Rev. Lett. 123, 042503 (2019),                T. Tong, JHEP 03, 033 (2024), arXiv:2311.00021 [hep-
+     arXiv:1812.04229.                                                 ph].
+ [3] J. C. Hardy and I. S. Towner, Physical Review C 102,          [7] V. Cirigliano, A. Crivellin, M. Hoferichter, and M. Moul-
+     045501 (2020).                                                    son, Phys. Lett. B 838, 137748 (2023), arXiv:2208.11707
+ [4] S. Aoki, Y. Aoki, D. Bečirević, T. Blum, G. Colangelo,          [hep-ph].
+     S. Collins, M. Della Morte, P. Dimopoulos, S. Dürr,          [8] A. Crivellin and M. Hoferichter, Phys. Rev. Lett. 125,
+     H. Fukaya, et al., The European Physical Journal C 80,            111801 (2020), arXiv:2002.07184.
+     113 (2020), arXiv:1902.08191.                                 [9] V. Cirigliano, W. Dekens, J. de Vries, E. Mereghetti, and
+                                                                                                                               15
+
+     T. Tong, Phys. Rev. D 106, 075001 (2022).                         Lett. 132, 191901 (2024), arXiv:2308.16755 [hep-lat].
+[10] F. Gonzalez et al. (UCNτ ), Phys. Rev. Lett. 127, 162501     [33] V. Cirigliano, J. de Vries, L. Hayen, E. Mereghetti, and
+     (2021), arXiv:2106.10375.                                         A. Walker-Loud, Phys. Rev. Lett. 129, 121801 (2022),
+[11] R. Musedinovic et al., Phys. Rev. C 111, 045501 (2025),           arXiv:2202.10439 [nucl-th].
+     arXiv:2409.05560.                                            [34] C.-Y. Seng, JHEP 07, 175 (2024), arXiv:2403.08976 [hep-
+[12] S. Navas et al. (Particle Data Group), Phys. Rev. D 110,          ph].
+     030001 (2024).                                               [35] V. Cirigliano, W. Dekens, E. Mereghetti, and O. Toma-
+[13] B. Fornal and B. Grinstein, Phys. Rev. Lett. 120, 191801          lak, Phys. Rev. D 111, 053005 (2025), arXiv:2410.21404
+     (2018), [Erratum: Phys.Rev.Lett. 124, 219901 (2020)],             [nucl-th].
+     arXiv:1801.01124.                                            [36] T. Bhattacharya, V. Cirigliano, S. D. Cohen, A. Fil-
+[14] Z. Berezhiani, European Physical Journal C 79 (2019),             ipuzzi, M. González-Alonso, M. L. Graesser, R. Gupta,
+     10.1140/epjc/s10052-019-6995-x, arXiv:1807.07906.                 and H.-W. Lin, Phys. Rev. D 85, 054512 (2012).
+[15] Z. Berezhiani, R. Biondi, Y. Kamyshkov, and L. Var-          [37] M. González-Alonso, O. Naviliat-Cuncic, and N. Sev-
+     riano, MDPI Physics 1, 271 (2019), arXiv:1812.11141               erijns, Prog. Part. Nucl. Phys. 104, 165 (2019),
+     [nucl-th].                                                        arXiv:1803.08732.
+[16] W. Tan, Universe 9, 180 (2023), arXiv:2302.07805.            [38] M. T. Burkey et al., Phys. Rev. Lett. 128, 202502 (2022),
+[17] B. Koch and F. Hummel, Phys. Rev. D 110, 073004                   arXiv:2205.01865.
+     (2024), arXiv:2403.00914.                                    [39] B. Longfellow et al., Phys. Rev. Lett. 132, 142502 (2024).
+[18] E. Oks, Nucl. Phys. B 1014, 116879 (2025).                   [40] G. B. King, A. Baroni, V. Cirigliano, S. Gandolfi,
+[19] Z. Tang et al., Phys. Rev. Lett. 121, 022505 (2018),              L. Hayen, E. Mereghetti, S. Pastore, and M. Piarulli,
+     arXiv:1802.01595.                                                 Phys. Rev. C 107, 015503 (2023), arXiv:2207.11179.
+[20] X. Sun et al. (UCNA), Phys. Rev. C 97, 052501 (2018),        [41] W. Byron et al. (He6-CRES), Phys. Rev. Lett. 131,
+     arXiv:1803.10890.                                                 082502 (2023), arXiv:2209.02870.
+[21] M. Klopf, E. Jericha, B. Märkisch, H. Saul, T. Soldner,     [42] X. Sun, E. Adamek, B. Allgeier, Y. Bagdasarova, D. B.
+     and H. Abele, Phys. Rev. Lett. 122, 222503 (2019),                Berguno, M. Blatnik, T. J. Bowles, L. J. Broussard,
+     arXiv:1905.01912.                                                 M. A.-P. Brown, R. Carr, et al., Physical Review C 101,
+[22] L. J. Broussard, J. L. Barrow, L. DeBeer-Schmitt,                 035503 (2020), arXiv:1911.05829.
+     T. Dennis, M. R. Fitzsimmons, M. J. Frost, C. E. Gilbert,    [43] H. Saul, C. Roick, H. Abele, H. Mest, M. Klopf,
+     F. M. Gonzalez, L. Heilbronn, E. B. Iverson, et al., Phys.        A. K. Petukhov, T. Soldner, X. Wang, D. Werder,
+     Rev. Lett. 128 (2022), 10.1103/physrevlett.128.212503,            and B. Märkisch, Phys. Rev. Lett. 125, 112501 (2020),
+     arXiv:2111.05543.                                                 arXiv:1911.01766.
+[23] M. Le Joubioux et al., Phys. Rev. Lett. 132, 132501          [44] A. N. Ivanov, R. Höllwieser, N. I. Troitskaya, M. Wellen-
+     (2024), arXiv:2308.16536.                                         zohn, and Y. A. Berdnikov, Nucl. Phys. B 938, 114
+[24] D. Dubbers, H. Saul, B. Märkisch, T. Soldner, and                (2019), arXiv:1808.09805.
+     H. Abele, Phys. Lett. B 791, 6 (2019), arXiv:1812.00626      [45] R. H. Dalitz, Phil. Mag. Ser. 7 44, 1068 (1953).
+     [nucl-ex].                                                   [46] T. E. Chupp et al., Phys. Rev. C 86, 035505 (2012),
+[25] B. Märkisch, H. Mest, H. Saul, X. Wang, H. Abele,                arXiv:1205.6588.
+     D. Dubbers, M. Klopf, A. Petoukhov, C. Roick,                [47] L. J. Broussard, B. A. Zeck, E. R. Adamek, S. Baeßler,
+     T. Soldner, and D. Werder, Phys. Rev. Lett. 122, 242501           N. Birge, M. Blatnik, J. D. Bowman, A. E. Brandt,
+     (2019), arXiv:1812.04666.                                         M. Brown, J. Burkhart, et al., Nucl. Instrum. Meth. A
+[26] M. A. Brown, E. B. Dees, E. R. Adamek, B. Allgeier,               849, 83 (2017), arXiv:1607.02656.
+     M. Blatnik, T. J. Bowles, L. J. Broussard, R. Carr, S. M.    [48] J. D. Bowman, Journal of Research of NIST 110, 054
+     Clayton, C. B. Cude-Woods, et al., Physical Review C              (2005).
+     97, 035505 (2018), arXiv:1712.00884.                         [49] D. Počanić, R. Alarcon, L. P. Alonzi, S. Baeßler, S. Bal-
+[27] M. Hassan, W. A. Byron, G. Darius, C. Deangelis, F. Wi-           ascuta, J. D. Bowman, M. A. Bychkov, J. Byrne, J. R.
+     etfeldt, B. Collett, G. L. Jones, A. Komives, G. Noid,            Calarco, T. V. Cianciolo, et al., Nucl. Instrum. Meth. A
+     E. J. Stephenson, F. Bateman, M. S. Dewey, T. R. Gen-             611, 211 (2009).
+     tile, M. P. Mendenhall, and J. S. Nico, Physical Review      [50] S. Baeßler, J. D Bowman, S. Penttilä, and D. Počanić,
+     C 103, 045502 (2021), arXiv:2012.14379.                           Journal of Physics G: Nuclear and Particle Physics 41,
+[28] M. Beck, F. Ayala Guardia, M. Borg, J. Kahlenberg,                114003 (2014).
+     R. Muñoz Horta, C. Schmidt, A. Wunderle, W. Heil,           [51] J. Fry, R. Alarcon, S. Baeßler, S. Balascuta, L. B. Palos,
+     R. Maisonobe, M. Simson, et al., Physical Review C 101,           T. L. Bailey, K. Bass, N. Birge, A. Blose, D. Borissenko,
+     055506 (2020), arXiv:1908.04785.                                  et al., EPJ Web of Conferences 219, 04002 (2019).
+[29] M. Beck, W. Heil, C. Schmidt, S. Baeßler, F. Glück,         [52] N. Fomin, G. L. Greene, R. R. Allen, V. Cianciolo,
+     G. Konrad, and U. Schmidt, Phys. Rev. Lett. 132,                  C. Crawford, T. M. Tito, P. R. Huffman, E. B. Iverson,
+     102501 (2024), arXiv:2308.16170.                                  R. Mahurin, and W. M. Snow, Nucl. Instrum. Meth. A
+[30] F. E. Wietfeldt, W. A. Byron, B. Collett, M. S. Dewey,            773, 45 (2015), arXiv:1408.0753.
+     T. R. Gentile, F. Glück, M. T. Hassan, G. L. Jones,         [53] C. Hendrus, A Polarimetry Measurement for the Nab Ex-
+     A. Komives, J. S. Nico, and E. J. Stephenson, Phys.               periment, Ph.D. thesis, University of Michigan (2023).
+     Rev. C 110, 015502 (2024).                                   [54] L. J. Broussard et al., J. Phys. Conf. Ser. 876, 012005
+[31] C. C. Chang et al., Nature 558, 91 (2018),                        (2017).
+     arXiv:1805.12130 [hep-lat].                                  [55] L. Hayen, J. H. Choi, D. Combs, R. J. Taylor, S. Baeßler,
+[32] P.-X. Ma, X. Feng, M. Gorchtein, L.-C. Jin, K.-F. Liu,            N. Birge, L. J. Broussard, C. B. Crawford, N. Fomin,
+     C.-Y. Seng, B.-G. Wang, and Z.-L. Zhang, Phys. Rev.               M. Gericke, et al., Physical Review C 107, 1 (2023),
+                                                                                                                             16
+
+     arXiv:2212.03438.                                                 pxie-5171.html (), accessed: 2022-09-08.
+[56] A. Salas-Bacci et al., Nucl. Instrum. Meth. A 735, 408       [64] National Instruments, “PXIe-1085 PXI Chassis,” https:
+     (2014).                                                           //www.ni.com/en-us/support/model.pxie-1085.html
+[57] N. Macsai, Silicon Detector Testing for Neutron Beta De-          (), accessed: 2022-09-08.
+     cay Experiment Nab, Ph.D. thesis, University of Mani-        [65] J. W. Martin, J. Yuan, S. A. Hoedl, B. W. Filippone,
+     toba (2023).                                                      D. Fong, T. M. Ito, E. Lin, B. Tipton, and A. R. Young,
+[58] L. Richburg et al., To be Submitted to NIM A (2025).              Phys. Rev. C 68, 055503 (2003), arXiv:nucl-ex/0310002.
+[59] A. W. Nelsen, Techniques for Optimizing Neutron Beta         [66] F. Glück, S. Baeßler, J. Byrne, M. G. D. van der Grin-
+     Decay Particle Detection, Ph.D. thesis, University of             ten, F. J. Hartmann, W. Heil, I. Konorov, G. Petzoldt,
+     Kentucky (2024).                                                  Y. Sobolev, and O. Zimmer, The European Physical
+[60] H. Li, The Main Electrode System of the Nab Experiment            Journal A - Hadrons and Nuclei 23, 135 (2005).
+     and the Analysis of the Performance in the Measurement       [67] S. Agostinelli et al., Nucl. Instrum. Meth. A 506, 250
+     of the Fierz Term b, Ph.D. thesis, University of Virginia,        (2003).
+     Charlottesville (2021).                                      [68] A. P. Jezghani, L. J. Broussard, and C. B. Crawford,
+[61] National Nuclear Data Center, “Nudat database,”                   (2020), arXiv:2012.05937.
+     (2025).                                                      [69] M. F. Blatnik et al., (2024), arXiv:2406.10378 [nucl-ex].
+[62] D. Mathews, H. Acharya, C. Crawford, M. Gervais,             [70] E. Kessler, Jr, M. Dewey, R. Deslattes, A. Henins,
+     A. Jezghani, M. McCrea, A. Nelsen, A. Atencio, N. Birge,          H. Börner, M. Jentschel, C. Doll, and H. Lehmann,
+     L. Broussard, J. Choi, F. Gonzalez, H. Li, N. Macsai,             Physics Letters A 255, 221 (1999).
+     A. Mendelsohn, R. Mammei, G. Riley, and R. White-            [71] F. Glück, JHEP 09, 188 (2023), arXiv:2205.05042 [hep-
+     head, Nucl. Instrum. Meth. A 1071, 170079 (2025),                 ph].
+     arXiv:2407.17606.                                            [72] S. Baeßler et al. (pNAB), Proceedings of Science
+[63] National Instruments, “PXIe-5171 PXI Oscillo-                     PSTP2024, 066 (2025).
+     scope,”    https://www.ni.com/en-us/support/model.
+

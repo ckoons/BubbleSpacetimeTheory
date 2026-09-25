@@ -1,0 +1,781 @@
+                                                                                                                                          Alberta Thy 7-19
+
+                                               Radiative Corrections to Neutron and Nuclear Beta Decays Revisited
+                                                                                          Andrzej Czarnecki
+                                                      Department of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2E1
+
+                                                                                       William J. Marciano
+                                                     Department of Physics, Brookhaven National Laboratory, Upton, New York 11973, USA
+
+                                                                                            Alberto Sirlin
+                                                                          Department of Physics, New York University,
+                                                                        726 Broadway, New York, New York 10003, USA
+
+
+
+
+arXiv:1907.06737v1 [hep-ph] 15 Jul 2019
+                                                   The universal radiative corrections common to neutron and super-allowed nuclear beta decays
+                                                (also known as “inner” corrections) are revisited in light of a recent dispersion relation study that
+                                                found +2.467(22)%, i.e. about 2.4σ larger than the previous evaluation. For comparison, we consider
+                                                several alternative computational methods. All employ an updated perturbative QCD four-loop
+                                                Bjorken sum rule (BjSR) defined QCD coupling supplemented with a nucleon form factor based
+                                                Born amplitude to estimate axial-vector induced hadronic contributions. In addition, we now include
+                                                hadronic contributions from low Q2 loop effects based on duality considerations and vector meson
+                                                resonance interpolators. Our primary result, 2.426(32)% corresponds to an average of a Light
+                                                Front Holomorphic QCD approach and a three resonance interpolator fit. It reduces the dispersion
+                                                relation discrepancy to approximately 1.1σ and thereby provides a consistency check. Consequences
+                                                of our new radiative correction estimate, along with that of the dispersion relation result, for CKM
+                                                unitarity are discussed. The neutron lifetime-gA connection is updated and shown to suggest a
+                                                shorter neutron lifetime < 879 s. We also find an improved bound on exotic, non-Standard Model,
+                                                neutron decays or oscillations of the type conjectured as solutions to the neutron lifetime problem,
+                                                BR(n → exotics) < 0.16%.
+
+
+
+                                                                                     I.    INTRODUCTION
+
+
+                                          Precision tests of the Standard Model (SM) require accurate calculations of electroweak radiative correc-
+                                          tions (RC) [1–7]. For example, unitarity of the Cabibbo-Kobayashi-Maskawa (CKM) quark mixing matrix
+                                          leads to orthonormal relationships among row and column matrix elements and provides a means to search
+                                          for indications of “New Physics” via departures from SM expectations. However, for those searches to be
+                                          credible, strong interaction effects must be reliably evaluated.
+                                          Consider the precise CKM first row unitarity condition
+                                                                                   |Vud |2 + |Vus |2 + |Vub |2 = 1.                                     (1)
+                                                                                                             +     +
+                                          Employing the PDG 2018 average based on super-allowed 0 → 0 nuclear beta decays [8, 9],
+                                                                                  |Vud | = 0.97420(10)N P (18)RC ,                                      (2)
+                                          as extracted by Hardy and Towner [9], using a universal electroweak radiative correction [10] (also known
+                                          as the “inner” correction),
+                                                                                          ∆VR = 0.02361(38),                                            (3)
+                                          along with the Kµ2 /πµ2 and Kl3 weighted average [8] of |Vus | = 0.2253(7) and |Vus | = 0.2231(8) respec-
+                                          tively,
+                                                                                          |Vus | = 0.2243(9),                                           (4)
+                                          (where the uncertainty has been increased by a scale factor S = 1.8 to account for Kµ2 and Kl3 inconsis-
+                                          tencies) and negligible |Vub |2 ∼ O(10−5 ) implies
+                                                                           |Vud |2 + |Vus |2 + |Vub |2 = 0.9994(4)ud (4)us ,                            (5)
+                                                                                                            2
+
+Alternatively, one may employ the updated [11] Kµ2 /πµ2 constraint |Vus |/|Vud | = 0.2313(5) to derive the
+unitarity condition [12],
+
+                         |Vud | = 0.97427(11) Unitarity condition from Kµ2 /πµ2 .                       (6)
+
+Both eq. (2) and eq. (5) are in good accord with those Standard Model (SM) expectations. However,
+that confirmation has recently been questioned. A new analysis of the universal radiative corrections to
+neutron and super-allowed nuclear beta decays based on a dispersion relations (DR) study of hadronic
+effects by Seng, Gorchtein, Patel, and Ramsey-Musolf [13] finds a roughly 0.1% larger
+
+                                           ∆VR = 0.02467(22),                                           (7)
+
+with reduced uncertainty. It leads to a smaller more precise [13]
+
+                                   |Vud | = 0.97370(14) DR result [13],                                 (8)
+                                |Vud |2 + |Vus |2 + |Vub |2 = 0.9984(3)(4).                             (9)
+
+Both eq. (8) and eq. (9) exhibit an apparent roughly 3.2σ violation of unitarity. Taken literally, it could
+be interpreted as a strong hint of “new physics.” However, nuclear structure effects and other corrections
+to Vud and Vus are still being investigated [14, 15].
+Although the use of DR for such an analysis represents a major advancement in the calculation of elec-
+troweak radiative corrections, it is important to reexamine the input leading to eq. (7) and compare with
+other computational approaches. In that way, one can better assess their consistency and individual reli-
+abilities. Close examination may reveal issues with the RC or other inputs. For that reason, we update
+here an alternative study of the radiative corrections to neutron and super-allowed nuclear beta decays,
+estimate hadronic uncertainties and discuss various possible implications.
+Before going into detail, let us briefly preview our study. We first recall the lowest order one loop
+universal radiative corrections to neutron and super-allowed nuclear beta decay rates in the framework
+of the SM. Leading log QED effects, beyond one loop order, controlled by the renormalization group
+are included. Overall, they increase the RC by about 0.1%. However, some care must be exercised in
+examining compound effects, particularly since the DR result to be compared with differs from the earlier
+calculations by a similar ∼ 0.1%. That difference could be offset by smaller changes in several other
+contributions to the decay rates.
+Consider the weak vector amplitude stemming from tree and loop level effects. At very low momentum
+transfer, vector current induced effects are protected from strong interactions by vector current conser-
+vation (CVC). Hadronic effects, nevertheless, enter the vector amplitude via γW box diagrams (and to
+a lesser extent ZW box diagrams), see Fig. 1, where the operator product expansion of quark axial and
+vector currents can produce a vector amplitude. In that way, short-distance QCD and long-distance
+hadronic structure dependence are induced by the non-conserved axial current.
+
+  νe                            e     νe                            e         νe                        e
+
+       W                  γ                W                   Z                   Z              W
+
+
+ n                             p     n                              p         n                        p
+
+                          Figure 1. γW and ZW box corrections to neutron decay.
+
+Up until 2006 [10], only the lowest order, O (αs ), QCD perturbative correction to the box diagrams was
+considered [16–18]. Non-perturbative long distance hadronic corrections, were estimated by evaluating
+a Born amplitude parameterized by inserting axial and vector nucleon dipole form factors in Fig. 1, an
+approach introduced in ref. [19].
+                                                                                                              3
+
+Those order α/π (with α ≃ 1/137.036) vector and axial-vector induced corrections, universal to all beta
+decays, were estimated to be
+                                                                            
+                                       α             mZ      mZ
+                               ∆VR =            3 ln    + ln    + 2CBorn + Ag ,                            (10)
+                                       2π            mp      mA
+
+The 3 ln(mZ /mp ) short-distance vector current induced contribution is free of QCD corrections, while the
+remaining terms, due to axial-vector current, exhibit strong interaction effects. In eq. (10), mA ∼ 1.2
+GeV is a hadronic short-distance cutoff as employed in [20], Ag ∼ −0.34 represents its perturbative
+QCD corrections and CBorn ∼ 0.86 denotes the Born (elastic) amplitude contribution. All three terms
+depend on hadronic structure and/or perturbative QCD. Collectively, those axial-vector induced loop
+contributions increase the decay rate by about 2.9α/π ∼ 6.7×10−3 . Although such contributions represent
+a relatively minor part of the full one loop universal radiative corrections, they carry most of the theoretical
+uncertainty.
+A strategy for improving strong interaction effects emerged, when it was shown [10] that the perturbative
+QCD corrections to beta decays and the Bjorken sum rule (BjSR) [21, 22], the latter now known to four
+loop QCD order [23–25], are identical in the chiral + isospin symmetry limits modulo small singlet con-
+tributions that we do not consider [26, 27]. Therefore, one can make use of theoretical and experimental
+BjSR results to define an effective physical QCD coupling [28] that spans the perturbative and (as more re-
+cently argued) non-perturbative loop momentum domains and is continuous throughout the Q2 transition
+region (see for example [29–34]). An identical perturbative situation arises for the Gross-Llewellyn-Smith
+(GLS) non-singlet sum rule [35]. In fact that sum rule is closer in structure to the γW box diagram and
+the leading twist term in its operator product expansion. However, accessing relevant low Q2 data in that
+case is less straightforward.
+Employing the known BjSR or equivalent GLS non-singlet sum rule four loop QCD corrections as input
+allows a precise evaluation of the perturbative QCD corrections to the γW box diagrams for loop mo-
+mentum above the demarcation scale Q20 (see below eq. (12)), Q20 < Q2 < ∞, with little uncertainty.
+Below Q2 = Q20 , a non-perturbative evaluation of hadronic loop effects is required. For that purpose, we
+depend primarily on a nucleon-based form factor Born amplitude contribution. In addition, one of our
+new approaches, employs a somewhat speculative analytic extension of the BjSR coupling based on Light
+Front Holographic QCD (LFHQCD) [36, 37] (see also [38] for a pedagogical introduction). Our use of
+that non-perturbative interpolator represents a novel application and fundamental test of that approach.
+It introduces a nonperturbative αg1 (Q2 ) given by
+
+                                 αg1 (Q2 )
+                                           = exp(−Q2 /Q20 ) for 0 < Q2 < Q20 ,                             (11)
+                                     π
+
+where g1 designates its dependence on the polarized structure function g1 (x, Q2 ) from which it is derived
+(see eq. (20)). The transition scale we use,
+
+                                                 Q20 = 1.10(10) GeV2 ,                                     (12)
+
+is fixed by matching non-perturbative and perturbative couplings [39, 40] using αs (mZ ) = 0.1181(10)
+and the four-loop QCD code in [39, 40]. The matching is quite smooth and leads to additional Q2 < Q20
+nonperturbative loop effects that were neglected in 2006 [10] under the assumption that they were included
+via the Born amplitude. However, as demonstrated by the DR study [13] such effects are distinct and
+should be separately included. Fortunately, they are relatively small. Nevertheless, they are a source
+of some uncertainty and estimates of their magnitude represent the main difference between distinct
+calculations. In that regard, the DR uses the GLS non-singlet sum rule data at low Q2 for guidance
+while our method follows ideas developed from BjSR studies [10]. Both have the same perturbative QCD
+corrections modulo singlet contributions (although the DR approach applies only three of the known four
+loop effects [13]) and include similar estimates of the Born amplitude; but differ in the low Q2 evaluation
+of other hadronic effects. In addition to the AdS based LFHQCD approach, we also evaluate hadronic
+                                                                                                           4
+
+effects using a three resonance interpolator function fixed by boundary conditions. Consistency of the
+two approaches reinforces their individual credibility. The results are subsequently averaged to give our
+current best estimate of the radiative corrections.
+After presenting our updated evaluation of the RC to neutron decay, we take this opportunity to discuss
+its implications for our recent analysis of the neutron lifetime-gA connection [41] in light of the new very
+precise Perkeo III [42, 43] experimental result
+
+                                gA = 1.2764(6) Perkeo III (2018) [42, 43],                              (13)
+
+which increases the average of post 2002 experiments to
+
+                                  ave
+                                 gA   = 1.2762(5) Post 2002 Experiments.                                (14)
+
+That value, taken together with the average trap neutron lifetime, τntrap = 879.4(6) s is used to (conser-
+vatively) improve our previous bound on exotic neutron decays from < 0.27% to < 0.16%. It actually
+suggests, as we later discuss, that one should probably anticipate a future reduction in the neutron lifetime
+to the range 878-879 s or a decrease in the value of gA .
+
+
+
+                    II.   RADIATIVE CORRECTIONS TO NEUTRON DECAY
+
+
+We begin by reviewing the electroweak radiative corrections for neutron decay and then isolate a subset
+that is also universal to super-allowed Fermi decays called ∆VR . The inclusive neutron decay rate or inverse
+lifetime τn−1 in the SM is predicted to be
+
+                                  1   G2µ |Vud |2 5       2
+                                                            
+                                    =            me 1 + 3gA   (1 + RC) f,                               (15)
+                                 τn      2π 3
+
+where Gµ = 1.1663787(6) × 10−5 GeV−2 is the Fermi constant obtained from the muon lifetime and gA
+                                                                                                         2
+is the axial-current coupling obtained from the neutron decay asymmetry, A0 = 2gA (1 − gA )/(1 + 3gA       ).
+f = 1.6887(1) is a phase space factor that includes the Fermi function, a relatively large roughly +3% final
+state enhancement due to Coulomb interactions. RC stands for Radiative Corrections which have been
+taken, up until recently, to be +0.03886(38) based on a study [10] in 2006. The more recent DR approach
+[13] found +0.03992(22), a significant increase outside of the error budgets. In the case of neutron decay,
+                                                                                                          2
+RC are computed explicitly for the vector current amplitude and gA is defined via eq. (15) so that gA       ,
+  2
+gV and f have the same and factorable RC [20]. That gA as defined via eq. (15) is measured in neutron
+decay asymmetry studies, after correcting for residual recoil, weak magnetism and small O (α) corrections
+as discussed by Wilkinson [44] and Shann [45]. Corrections to the asymmetry reduce its magnitude by
+about 1% and correspondingly decrease gA by about 0.25% [42, 43].
+The purpose of this paper is to update and improve the 2006 RC calculation approach [10], compare it to
+the recent DR result [13], and try to understand any remaining difference. It is predicated in part by the
+DR finding that non-perturbative low Q2 effects not covered by the Born contribution are present and
+should be included along with a post 2006 four loop calculation of perturbative QCD corrections to the
+non-singlet Bj [25] and GLS sum rules.
+The factorized components of the lowest order RC to neutron decay are given by
+                                                                        
+                               α                 mZ      mZ
+                          RC =     g(Em ) + 3 ln    + ln    + 2CBorn + Ag ,                             (16)
+                               2π                mp      mA
+                                                                                                         5
+
+where g(Em ) represents long distance loop corrections as well as bremsstrahlung effects averaged over the
+neutron decay beta decay electron spectrum, and Em = 1.292581 MeV is the end point electron energy
+specific to neutron decay. We find its updated value is slightly shifted to
+
+                                           α
+                                              g(Em ) = 0.015035.                                      (17)
+                                           2π
+
+which reduces RC by 2 × 10−5 . That contribution to the neutron decay RC in eq. (17) is specific to the
+neutron spectrum and is not maintained for other beta decays, although the function g(E) used to derive
+it is universal to all beta decays (see however [15]). It, along with the 3 ln(mZ /mp ) term in eq. (10),
+are independent of strong interaction effects [46]. The rest of that RC expression represents axial current
+induced effects that are dependent on strong interactions. They provide the main focus for this paper.
+
+
+                    III.   AXIAL CURRENT LOOP CONTRIBUTIONS TO RC
+
+
+The complete radiative corrections to neutron decay in eq. (10), including axial-current induced and QED
+leading log summation effects can be written to a good approximation as [20]
+
+                                   RC = 0.03186 + 1.017AN P + 1.08AP ,                                (18)
+
+where the +0.03186 corresponds to the pure vector current induced part of the RC including higher
+order effects. AN P and AP represent lowest order α long distance non-perturbative (NP) and short
+distance perturbative (P) contributions to RC from axial current effects in γW and ZW box diagrams
+(see Fig. 1). Coefficients of the O (α) contributions in eq. (18) follow from QED leading log enhancements
+and interference with other parts of the vector current induced RC. The short-distance parts in our
+approach correspond to loop momentum Q2 > Q20 (see eq. (12)) while long distance parts correspond to
+Q2 < Q20 .
+For the universal ∆VR used by Hardy and Towner in their analysis of super-allowed beta decays [9, 47],
+one finds a corresponding approximate relationship
+
+                                   ∆VR = 0.01671 + 1.022AN P + 1.065AP .                              (19)
+
+The terms in eq. (18) and (19) were derived using the leading log QED summation described in Appendix
+1 of ref. [20].
+We subsequently employ eqs. (18) and (19) to present updated radiative corrections for the neutron and
+super-allowed beta decays. Note, when applied to the DR O (α) corrections, eqs. (18) and (19) give
+somewhat larger effects than those reported in ref. [13]. However, for the most part, whenever we refer
+to DR results, values cited correspond to the original literature [13].
+The short-distance axial current γW box diagram is the primary source of AP . It is well described using
+an effective QCD coupling αg1 (Q2 ) defined for Q2 > Q20 via the isovector BjSR,
+                           Z 1
+                                                                         αg (Q2 )
+                                                                                   
+                                                             gA
+                              dx g1p (x, Q2 ) − g1n (x, Q2 ) =
+                                
+                                                                       1− 1             ,             (20)
+                            0                                  6            π
+
+where g1 is the polarized structure function at Bjorken x. That prescription incorporates the leading
+O (α) axial-current induced amplitude from the γW box diagram, given by
+
+                                                   Z∞
+                                              α                  m2W
+                                 Box(γW )VA =           dQ2           F (Q2 ),                        (21)
+                                              8π              Q + m2W
+                                                               2
+                                                   0
+                                                                                                                  6
+
+where the asymptotic behavior of F (Q2 ),
+
+                                                            αg1 (Q2 )
+                                                                     
+                                              2   1
+                                         F (Q ) → 2      1−             ,                                      (22)
+                                                 Q              π
+
+will be called the Bjorken (Bj) function, and αg1 is defined to be the sum of the four loop (or more if
+known) QCD corrections to the BjSR [25],
+
+                            αg1 (Q2 )
+                                      = as + (4.583 − 0.3333nf )a2s
+                                π
+                                      + (41.44 − 7.607nf + 0.1775n2f )a3s
+                                      + (479.4 − 123.4nf + 7.697n2f − 0.1037n3f )a4s ,                         (23)
+             α    (Q2 )
+where as = M Sπ      and nf denotes the number of (effectively massless) quark flavors. That expression
+defines a coupling αg1 which is valid perturbatively for Q2 > Q20 .
+
+
+
+
+Figure 2. Effective coupling αg1 [33] as a function of Q2 . The nonperturbative exponential form of eq. (24) is used
+for low Q2 (dashed red), and the perturbative QCD expression (23) for high Q2 (solid blue). Note the remarkably
+smooth matching between the two regimes. The discontinuities are caused by decoupling of heavy quarks [39, 40].
+
+The behavior of αg1 with Q2 is shown in Fig. 2. Discontinuities
+                                                       p        in that plot are caused by changes in the
+                                                           2
+number of active flavors in eq. (23): we change nf when Q crosses a quark decoupling threshold. Note
+however that eq. (23) is derived in massless QCD. There are very small singlet contributions [26, 27] to
+the BjSR that enter the four loop QCD corrections. However, at the level of precision we consider their
+effect is negligible.
+                                                                                                          7
+
+In our first LFHQCD approach, for the non-perturbative domain Q2 < Q20 , we employ the following
+prescription which is supported by low Q2 experimental studies of the BjSR (down to about Q2 =
+0.2 GeV2 ) [48]. We continue to use the expression in eq. (22) but with [33]
+
+                                    αg1
+                                        = exp(−Q2 /Q20 ) for Q2 < Q20 ,                                (24)
+                                     π
+
+and F Q20 = 1.10(10) GeV2 = 0.575(50)GeV−2 , based on matching with the perturbative prediction
+                             
+
+obtained from αsMS (m2Z ), evolved using a five loop beta function [39]. Its functional exponential form
+is consistent with low Q2 BjSR data and normalization αg1 (Q2 = 0) = π as suggested by AdS duality
+studies [33, 49]. The Born (elastic) contributions to the hadronic corrections are computed separately
+using form factors for loop momenta Q2 < Q20 .
+In 2006 [10], when only three loop QCD corrections to the BjSR were known and considered, the transition
+Q20 turned out to be close to 0.7 GeV2 . The use of four loop based αg1 , charm and bottom threshold masses,
+and improved low Q2 data have increased the transition Q20 value (see eq. (12)) and better establish the
+AdS duality interpretation, features central to our update.
+We can use the Bj function defined by eqs. (22-24) to evaluate the integral over Q2 in eq. (21) for the
+different domains of the γW box diagram using αs (m2Z ) = 0.1181(10), mc = 1.5 GeV, mb = 4.8 GeV
+(as decoupling thresholds of heavy quarks; see [50] for an up-to-date discussion of quark masses) and
+mt = 173.2 GeV with the results:
+                                                 α
+                                    I1 = 0.199       0 < Q2 < Q20 ,                                    (25)
+                                                 π
+                                                     α
+                                    I2 = 1.965(21)       Q20 < Q2 < ∞,                                 (26)
+                                                     π
+where Ii = 2×the γW integrated box amplitude contribution, as appropriate for the radiative corrections.
+To those loop effects, we must add the ZW box diagram contribution [7],
+
+                                                         α
+                                              IZW = 0.060 ,                                            (27)
+                                                         π
+
+and the Born [10] integral
+
+                                                     α
+                                      IBorn = 0.85       0 < Q2 < Q20 .                                (28)
+                                                     π
+
+Contributions of QED vacuum polarization are incorporated via the coefficients in eq. (18) and (19).
+Our first estimate which follows the 2006 evaluation [10] but with a four loop BjSR coupling definition
+and higher Q20 value, does not include the contribution in eq. (25). The Born contribution in eq. (28)
+leads to
+                                                     α
+                                       AN P = 0.85     = 1.97 × 10−3 ,                                 (29)
+                                                     π
+
+while the sum of eqs. (26) and (27) gives
+
+                                                     α
+                                   AP = 2.025(21)      = 4.70(5) × 10−3 .                              (30)
+                                                     π
+
+Plugging those values into eq. (18) and (19) gives
+
+                                  RC = 0.03895, First Approximation,                                   (31)
+                                  ∆VR = 0.02374, ,   First Approximation,                              (32)
+                                                                                                             8
+
+for our updated First Approximation radiative corrections to neutron and super-allowed nuclear beta
+decays.
+In our next more complete AdS [33] motivated approach, we retain the non-perturbative low Q2 contri-
+bution from eq. (25) and find AN P = 2.44 × 10−3 which leads to
+
+                                  RC = 0.03942(32) AdS BjSR Approach,                                     (33)
+                                  ∆VR = 0.02421(32) AdS BjSR Approach.                                    (34)
+
+The two methods differ by 0.00047 with the latter about midway between our First Approximation and
+the DR results [13]. The generic error attached to eqs. (33) and (34) as well as to later alternative
+approaches, ±3.2 × 10−4 corresponds to ±2.5 × 10−4 from a 10% non-perturbative uncertainty combined
+in quadrature with a ±2.0 × 10−4 perturbative error that includes QCD effects as well as uncalculated two
+loop electroweak corrections and other small effects. Further reduction of that error is likely to require a
+first principle’s lattice calculation along with a more complete two loop electroweak comparison between
+neutron beta decay and muon decay.
+The values and uncertainties given above should be compared with the DR results [13],
+
+                                     RC = 0.03992(22) DR result [13],                                     (35)
+                                     ∆VR = 0.02467(22).                                                   (36)
+
+It is interesting to contrast the AdS (34) based value,
+
+                                  Vud = 0.97391(18) AdS BjSR Approach,                                    (37)
+
+with
+
+                                     Vud = 0.97370(14) DR result [13].                                    (38)
+
+We note that the value of Vud in eq. (37) has moved closer to unitarity expectations (∼ 0.9742). An
+additional shift of about −0.0006 in the universal radiative corrections to super-allowed decays or an
+equivalent change in another part of those studies would fully restore unitarity.
+To examine the sensitivity of our estimate to the specific Bj function interpolator used to integrate through
+the non-perturbative Q2 < Q20 region, we consider the resonance sum interpolator approach introduced in
+2006 [10] but with somewhat modified matching conditions used to determine F (Q2 ) in the low momentum
+domain. The new conditions allow us to better specify the non-perturbative constraints implied by the
+very precise perturbative requirements. In that way we can match the non-perturbative and perturbative
+values of F (Q2 ).
+The underlying model of our next interpolator is large N for SU(N ) QCD, which predicts F (Q2 ) should
+correspond to an infinite sum of vector and axial-vector resonances. As an approximation to that model,
+we can use a finite sum of resonances with residues set by the boundary and matching conditions. We can
+then integrate over Q2 between 0 and Q20 i.e. including the non-perturbative domain in an approximation
+to that model. For that purpose, we chose the sum of three resonances with residues determined using
+three matching or boundary conditions. We impose conditions:
+
+   1. We require that in the domain Q20 ≤ Q2 < ∞ the three resonance interpolator lead to the same
+      perturbative corrections to the decay rates as the BjSR approach. This implies that the three
+                                                                    R ∞ m2W          2     2
+      resonance F (Q2 ) function satisfies the integral condition Q2 Q2 +m    2 F (Q )dQ     = 7.86, four times
+                                                                       0      W
+      the coefficient of α/π in I2 (cf. eq. (26)). We apply a condition on the integral rather than asymptotic
+      matching in order to better reflect the effect of perturbative QCD;
+   2. No 1/Q4 terms in expansion of F (Q2 ) for Q2 large or (see eq. (39)) m21 A + m22 B + m23 C = 0. That
+      condition enforces chiral symmetry asymptotically;
+                                                                                                            9
+
+   3. We employ F (0) = A/m21 + B/m22 + C/m23 with F (0) arbitrary until we consider two possible ways
+      to fix its value, i.e. using either the perturbative value of F (Q20 ) or the AdS value of F (0) as a
+      normalization condition for the three resonance interpolator.
+
+These conditions are similar to those imposed in 2006 [10] with some improvements. Because of the larger
+Q20 employed, the integral in condition 1 is extended down to Q20 . More importantly, as pointed out in
+the DR analysis, the condition F (0) = 0 used in 2006 was not justified. Instead, we use the perturbative
+value of F (Q20 ) to normalize the three resonance interpolator and determine its underlying uncertainty.
+After solving the three coupled condition equations, one finds (for the three resonance form of F (Q2 ) with
+given vector and axial vector masses)
+
+                                    A          B            C
+                       F (Q2 ) =         + 2         + 2        ,                                        (39)
+                                Q2 + m21   Q + m22      Q + m23
+                           m1 = 0.776 GeV, m2 = 1.230 GeV, m3 = 1.465 GeV,                               (40)
+                            A = −1.511(9) + 1.422(3)F (0),
+                            B = 6.951(40) − 3.533(10)F (0),
+                            C = −4.476(21) + 2.092(7)F (0).                                              (41)
+
+That interpolator, integrated over 0 < Q2 < Q20 , leads to
+                                                                             α
+                            I1 (three resonance) = [0.094(9) + 0.103(3)F (0)] .                          (42)
+                                                                             π
+With that change in I1 the radiative corrections become a function of F (0),
+
+                                     RC = 0.03917 + 2.43 × 10−4 F (0),
+                                     ∆VR = 0.02396 + 2.45 × 10−4 F (0).                                  (43)
+
+If we match the interpolator in eq. (39) with the perturbative value F (Q20 ) = 0.575(50), we find F (0) =
+1.42(15) and the radiative corrections which we adopt as the three resonance solution,
+                                                 
+                              RC = 0.03952(32)
+                                                    three resonance solution,                         (44)
+                              ∆VR = 0.02431(32)
+
+where a small uncertainty, ±4 × 10−5 , is accounted for in the ±32 × 10−5 overall errors. To test the
+sensitivity of our results to the specific resonance mass scales employed, we have redone the three resonance
+interpolator with each of m1,2,3 reduced by 5%, one mi at a time. Although the values of A, B and C
+are significantly modified, the different interpolators, value of I1 and radiative corrections are essentially
+unchanged, as illustrated in Fig. 3. Indeed, our results are rather insensitive to reasonable changes in the
+mi values.
+As an alternative prescription, we evaluate the radiative corrections resulting from the three resonance
+interpolator for the AdS boundary condition F (0) = Q12 = 0.91 GeV−2 and find
+                                                         0
+
+
+
+                                            RC = 0.03939(32),
+                                            ∆VR = 0.02418(32).                                           (45)
+
+Those values are in very good agreement with the AdS BjSR results in eqs. (33) and (34). They provide
+a nice consistency check on the AdS BjSR approach. We do not consider them as independent since both
+employ the same F (0) boundary condition.
+The Q2 dependences of the various interpolators are illustrated in Fig. 4. The band surrounding the
+F (0) = 0.575(50) curve corresponds to the uncertainty associated with the error in αs (m2Z ) = 0.1181(10).
+                                                                                                             10
+
+
+
+
+Figure 3. Interpolators as in eq. (39), with m1,2,3 as in eq. (40) (solid brown line); and with mi decreased by
+5%: i = 1 (blue, dash-dotted), i = 2 (red, dashed), i = 3 (green, dotted). Lower panel: differences between an
+interpolator with a decreased value of mi and the interpolator with mass values given in eq. (40) (the same line
+styles as in the upper panel).
+
+
+Similar bands (not shown) exist for the other curves as well but all are small in comparison with our
+overall uncertainty, ±32 × 10−5 for the radiative corrections. The good agreement between the AdS and
+three resonance solution for F (0) = 0.91 GeV−2 helps validate the AdS approach. In all cases the radiative
+corrections are proportional to areas under the curves.
+The dashed curve in Fig. 4 corresponds to an example of a two resonance interpolating function given by
+                                                     1.66      0.66
+                                      F2 (Q2 ) =            − 2      ,                                     (46)
+                                                   Q2 + m21  Q + m22
+which exhibits the following features,
+                          F2 (0) = 2.32,   F2 (Q20 ) = 0.732,   F2 (2 GeV2 ) = 0.450.                      (47)
+                                                                                        2        2
+It roughly represents our approximation of an effective DR interpolator for 0 < Q < 2 GeV . Integrating
+ α      2
+4π F2 (Q ) over that domain leads to 0.47α/π, in good agreement with the 0.48(7)α/π found in the DR
+study [13]. Those contributions are to be compared with the roughly 0.35α/π coming from our three
+resonance interpolator when integrated over that same Q2 domain. That 0.13α/π difference combined
+with the 0.06α/π Born difference = 0.19α/π is responsible for about a 4 × 10−4 difference between the
+DR result and our three resonance interpolator finding.
+The 1.1σ difference between the DR and our results may therefore be traced primarily to our use of
+a larger αs (m2Z ), four loops rather than three in the QCD sum rule corrections, different perturbative-
+nonperturbative matching and three rather than two vector/axial vector poles in the interpolator. More
+                                                                                                                11
+
+specifically, to reproduce the DR low Q2 contribution requires an interpolator with an F (0) central value
+near 2.3 GeV−2 while our matching conditions and interpolator imply F (0) = 1.42(15) GeV−2 . From
+that perspective it would be interesting if a more first principles method, such as Lattice QCD, could be
+employed to directly compute the value of F (0).
+
+
+
+
+                                                 α (Q2 )
+                                                        
+Figure 4. Examples of F (Q2 ) at low Q2 : Q12 1 − g1π      (solid blue line); three resonance interpolator based on
+F (Q2 ) in eq. (39) with two choices of F (0): F (0) = 1.42(15) (gray band) and F (0) = 1/Q20 (dash-dotted, green);
+and two resonance interpolator from eq. (46) (dashed red line), meant to approximate the low Q2 DR findings
+modulo the Born contribution. The area under each curve is proportional to the size of the radiative corrections.
+
+In Table I we compare the universal and neutron specific radiative corrections obtained from a dispersion
+relation approach (line 1) with an earlier calculation from 2006 (line 2) as well as the AdS BjSR result
+(line 3), three resonance interpolator (line 4), and the average of 3 and 4 in line 5.
+We take the average on line 5 as representative of our study and use it in discussing implications. Although
+it is somewhat smaller than the earlier DR result [13], they are fairly consistent. In fact, the agreement
+can be viewed as a validation of the LFHQCD and three resonance interpolator approaches.
+Although we are consistent with the DR results at about the 1.1σ level, i.e. ∼ 4 × 10−4 , the remaining
+difference is important for interpreting CKM unitarity and making predictions for neutron decay. In that
+regard, we speculate on the basis of our analysis that the central value difference may decrease if the DR
+approach is extended to include four loop QCD corrections, low Q2 corrections are parametrized using
+three rather than two vector meson mass scales and perturbation theory matching is extended below
+2 GeV2 .
+We also note that the radiative corrections on lines 3, 4 and 5 of Table I are reduced somewhat if larger
+values of αs (m2Z ) are employed as input. For example, using αs (m2Z ) = 0.1200, a preferred value for some
+                                                                                                           12
+
+experimental inputs into the world average [8], leads to a reduction by roughly 1 × 10−4 which increases
+our Vud , as currently extracted from super-allowed Fermi decays [9], from 0.97389(18) to 0.97394(18).
+
+
+                IV.   IMPLICATIONS OF LARGER RADIATIVE CORRECTIONS
+
+
+For our discussion of implications from larger radiative corrections, we employ our averages given in line
+5 of Table I, ∆VR = 0.02426(32) and RC = 0.03947(32). That scenario leads to Vud = 0.97389(18) which
+comes closer to CKM unitarity expectations than the DR value Vud = 0.97370(14). Combined with
+|Vus | = 0.2243(9) from eq. (4), they correspond to roughly 2.3 and 3.3 σ deviations respectively. The 3.3
+σ deviation is large enough to start taking “New Physics” extensions of the SM seriously [51] while the
+2.3 σ effect is more suggestive of missing SM effects. For example, nuclear physics quenching of the Born
+corrections to super-allowed beta decays has been suggested as a way of increasing Vud by about 0.00022
+[14].
+More specifically, if the quenching correction, as evaluated in ref. [14], is applied to our Vud = 0.97389(18)
+                      Q
+result, it leads to Vud = 0.97414(28) where the increased error is due to a nuclear quenching uncertainty.
+                                                       Q 2
+Using it together with Vus = 0.2243(9), one finds |Vud  | + |Vus |2 + |Vub |2 − 1 = −0.00074(68), so that the
+first CKM row sum is consistent with unity at close to the 1σ level.
+If instead we employ the relation [11, 12]
+                                                     Q
+                                           |Vus |/|Vud | = 0.2313(5),                                    (48)
+
+the deviation from unity is further reduced to −0.00028(62), or −0.45σ, in excellent agreement with CKM
+unitarity.
+As a further application, we consider the RC to neutron decay. Using 1+RC = 1.03947(32) in the neutron
+lifetime formula [41], one finds a master formula relating |Vud |, τn and gA
+
+                                     |Vud |2 τn (1 + 3gA
+                                                       2
+                                                         ) = 4906.4(1.7) s.                              (49)
+
+Employing τntrap = 879.4(6) s and post 2002 average gA =1.2762(5) leads to
+
+                                               Vud = 0.9736(5).                                          (50)
+
+The uncertainty in Vud from neutron decay measurements is starting to become competitive in accuracy
+with super-allowed beta decay determinations. In addition, its central value may also be indicating a
+deviation from unitarity. A central value shift to unitarity and Vud ∼ 0.9742 would require a reduction
+in either τn or gA . Given the recent precision of Perkeo III, we consider gA fixed at the new post 2002
+average 1.2762(5) which then suggests a τn < 879 s.
+An alternate interpretation of the apparent violation of CKM unitarity in eq. (9) resulting from larger
+universal radiative corrections, consistent with |Vus |/|Vud | = 0.2313 from Kµ2 /πµ2 , suggests the solution
+
+
+                         Table I. Universal and neutron specific radiative corrections.
+                Line number    ∆VR         RC       Source
+                      1     0.02467(22) 0.03992(22) [13] DR Result
+                      2     0.02361(38) 0.03886(38) [10] 2006 Result
+                      3     0.02421(32) 0.03942(32) AdS BjSR Approach, eqs. (33) and (34)
+                      4     0.02431(32) 0.03952(32) Three Resonance Interpolator, eq. (44)
+                      5     0.02426(32) 0.03947(32) Average of lines 3 and 4
+                                                                                                              13
+
+Vud = 0.9735 and Vus = 0.2252 which requires “new physics.” One possible explanation could be the
+existence of a 0.1% increase in the muon decay rate from “new physics” which shifts Gµ to a value larger
+than the real GF . Alternatively, it could stem from an opposite sign effect in nuclear beta decay. That
+solution agrees with the current central value in eq. (50). Of course, such a scenario would be very exciting.
+It will also be well tested by the next generation of precise τn and gA measurements.
+Recently, we discussed [41] a resolution of the neutron lifetime problem (the beam τnbeam = 888.0(2.0) s
+and trap τntrap = 879.4(0.6) s lifetime discrepancy) based on a precise connection between τn and gA , the
+axial coupling measured in neutron decay asymmetries. We note that a shift in the universal beta decay
+radiative corrections alone makes a negligible change in the relationship
+                                                   2
+                                         τn (1 + 3gA ) = 5172.0(1.1) s,                                      (51)
+
+used for that study due to a cancelation of uncertainties and common shifts between super-allowed and
+neutron beta decay rates. Similarly, a change in GF will not change eq. (51). However, a shift in the
+nuclear theory corrections as suggested in [14] will modify it. For example, a shift in Vud by +0.0002
+by further quenching of the Born contribution would lower the 5172.0 s in eq. (51) to 5169.9 s. More
+                                                     average
+important is the recent increase in the post 2002 gA         from 1.2755(11) to 1.2762(5) with the addition of
+the Perkeo III result [42, 43] in eq. (13). That shift reduces the predicted neutron lifetime from 879.5(1.3)
+s to
+
+                          τn = 878.7(0.6) s (prediction based on gA = 1.2762(5)).                            (52)
+
+That prediction is further reduced if Vud were to increase to respect CKM unitarity. Indeed, one would
+expect τn closer to 878 s.
+We conclude by noting that the new post 2002 gA average in eq. (14) can be used in the analysis of [41]
+to reduce the bound on exotic neutron decays (such as n → dark particles [52, 53]) from < 0.27% to
+
+                         BR(exotic neutron decays) < 0.16% (95% one-sided CL),                               (53)
+
+where we have not allowed for negative exotic branching ratios in the statistical distribution. That bound
+leaves little chance for a 1% dark particle decay as the solution to the neutron lifetime problem (unless
+one modifies the neutron asymmetry with new physics, e.g. ref. [54]).
+We have presented an updated analysis of the radiative corrections to neutron and super-allowed nuclear
+beta decays. It extends the BjSR function into the non-perturbative low loop momentum region, incorpo-
+rating four loop QCD effects as well as LFHQCD ideas and their confirmation by low energy experimental
+data. The value obtained was averaged with a slightly larger three resonance result. On the basis of
+our considerations, we advocate the universal value ∆VR = +2.426(32)% as a competitive result about
+midway between earlier estimates [10] and the recent dispersion relation result [13]. Further study of the
+remaining small difference is warranted. Tests of both approaches will result from the next generation of
+neutron lifetime and gA asymmetry measurements that aim for 10−4 sensitivity. Lattice calculations of
+F (Q2 ) may be possible [55]. Will CKM unitarity be violated and “New Physics” uncovered? Time will
+tell.
+Acknowledgement:
+We thank Konstantin Chetyrkin for helpful remarks on the manuscript. W. J. M. thanks C. Y. Seng,
+M. Gorchtein and M. J. Ramsey-Musolf for discussions. The work of A. C. was supported by the Natural
+Sciences and Engineering Research Council of Canada. The work of W. J. M. was supported by the U.S.
+Department of Energy under grant de-sc0012704. The work of A. S. was supported in part by the National
+Science Foundation under Grant PHY-1620039.
+
+
+
+
+ [1] T. Kinoshita and A. Sirlin, Radiative corrections to Fermi interactions, Phys. Rev. 113, 1652 (1959).
+                                                                                                                  14
+
+ [2] S. M. Berman, Radiative corrections to muon and neutron decay, Phys. Rev. 112, 267–270 (1958).
+ [3] S. Berman and A. Sirlin, Some considerations on the radiative corrections to muon and neutron decay, Ann.
+     Phys. 20, 20 (1962).
+ [4] J. D. Bjorken, Applications of the Chiral U (6)×U (6) Algebra of Current Densities, Phys. Rev. 148, 1467–1478
+     (1966).
+ [5] E. S. Abers, R. E. Norton, and D. A. Dicus, Electromagnetic Corrections to the Weak ∆S = 0 Vector Coupling
+     Constant, Phys. Rev. Lett. 18, 676–680 (1967).
+ [6] E. S. Abers, D. A. Dicus, R. E. Norton, and H. R. Quinn, Radiative Corrections to the Fermi Part of
+     Strangeness-Conserving beta Decay, Phys. Rev. 167, 1461–1478 (1968).
+ [7] A. Sirlin, Radiative Corrections To GV /Gµ In Simple Extensions Of The SU (2) × U (1) Gauge Model, Nucl.
+     Phys. B71, 29–51 (1974).
+ [8] M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D98, 030001 (2018).
+ [9] J. Hardy and I. S. Towner, |Vud | from nuclear β decays, PoS CKM2016, 028 (2016).
+[10] W. J. Marciano and A. Sirlin, Improved calculation of electroweak radiative corrections and the value of Vud ,
+     Phys. Rev. Lett. 96, 032002 (2006), hep-ph/0510099.
+[11] S. Aoki et al., FLAG Review 2019 (2019), 1902.08191.
+[12] W. J. Marciano, Precise determination of |V(us)| from lattice calculations of pseudoscalar decay constants,
+     Phys. Rev. Lett. 93, 231803 (2004), hep-ph/0402299.
+[13] C.-Y. Seng, M. Gorchtein, H. H. Patel, and M. J. Ramsey-Musolf, Reduced Hadronic Uncertainty in the
+     Determination of Vud , Phys. Rev. Lett. 121, 241804 (2018), 1807.10197.
+[14] C. Y. Seng, M. Gorchtein, and M. J. Ramsey-Musolf, Dispersive Evaluation of the Inner Radiative Correction
+     in Neutron and Nuclear β-decay (2018), 1812.03352.
+[15] M. Gorchtein, γW -box Inside-Out: Nuclear Polarizabilities Distort the Beta Decay Spectrum (2018),
+     1812.04229.
+[16] A. Sirlin, Current algebra formulation of radiative corrections in gauge theories and the universality of the
+     weak interactions, Rev. Mod. Phys. 50, 573 (1978).
+[17] S. L. Adler and W.-K. Tung, Bjorken limit in perturbation theory, Phys. Rev. D1, 2846–2859 (1970),
+     [,297(1970)].
+[18] M. A. B. Beg, Anomalous Algebras and Neutrino Sum Rules, Phys. Rev. D11, 1165 (1975).
+[19] W. J. Marciano and A. Sirlin, Radiative corrections to beta decay and the possibility of a fourth generation,
+     Phys. Rev. Lett. 56, 22 (1986).
+[20] A. Czarnecki, W. J. Marciano, and A. Sirlin, Precision measurements and CKM unitarity, Phys. Rev. D70,
+     093006 (2004), hep-ph/0406324.
+[21] J. D. Bjorken, Inequality for Backward electron-Nucleon and Muon-Nucleon Scattering at High Momentum
+     Transfer, Phys. Rev. 163, 1767–1769 (1967).
+[22] J. D. Bjorken, Inelastic Scattering of Polarized Leptons from Polarized Nucleons, Phys. Rev. D1, 1376–1379
+     (1970).
+[23] S. A. Larin, F. V. Tkachov, and J. A. M. Vermaseren, The αs3 correction to the Bjorken sum rule, Phys. Rev.
+     Lett. 66, 862–863 (1991).
+[24] S. A. Larin and J. A. M. Vermaseren, The αs3 corrections to the Bjorken sum rule for polarized electroproduction
+     and to the Gross-Llewellyn Smith sum rule, Phys. Lett. B259, 345–352 (1991).
+[25] P. A. Baikov, K. G. Chetyrkin, and J. H. Kühn, Adler Function, Bjorken Sum Rule, and the Crewther Relation
+     to Order αs4 in a General Gauge Theory, Phys. Rev. Lett. 104, 132004 (2010), 1001.3606.
+[26] S. A. Larin, The singlet contribution to the Bjorken sum rule for polarized deep inelastic scattering, Phys.
+     Lett. B723, 348–350 (2013), 1303.4021.
+[27] P. A. Baikov, K. G. Chetyrkin, and J. H. Kühn, Massless Propagators, R(s) and Multiloop QCD, Nucl. Part.
+     Phys. Proc. 261-262, 3–18 (2015), 1501.06739.
+[28] G. Grunberg, Renormalization Group Improved Perturbative QCD, Phys. Lett. 95B, 70 (1980), [Erratum:
+     Phys. Lett.110B,501(1982)].
+[29] J. R. Ellis and M. Karliner, Determination of αs and the nucleon spin decomposition using recent polarized
+     structure function data, Phys. Lett. B341, 397–406 (1995), hep-ph/9407287.
+[30] J. R. Ellis, E. Gardi, M. Karliner, and M. A. Samuel, Pade approximants, Borel transforms and renormalons:
+     The Bjorken sum rule as a case study, Phys. Lett. B366, 268–275 (1996), hep-ph/9509312.
+[31] S. J. Brodsky, G. T. Gabadadze, A. L. Kataev, and H. J. Lu, The Generalized Crewther relation in QCD and
+     its experimental consequences, Phys. Lett. B372, 133–140 (1996), hep-ph/9512367.
+[32] A. Deur, V. Burkert, J.-P. Chen, and W. Korsch, Experimental determination of the effective strong coupling
+     constant, Phys. Lett. B650, 244–248 (2007), hep-ph/0509113.
+[33] A. Deur, S. J. Brodsky, and G. F. de Teramond, The QCD Running Coupling, Prog. Part. Nucl. Phys. 90,
+     1–74 (2016), 1604.08082.
+                                                                                                                15
+
+[34] C. Ayala, G. Cvetic, A. V. Kotikov, and B. G. Shaikhatdenov, Bjorken sum rule in QCD frameworks with
+     analytic (holomorphic) coupling, Int. J. Mod. Phys. A33, 1850112 (2018), 1708.06284.
+[35] D. J. Gross and C. H. Llewellyn Smith, High-energy neutrino - nucleon scattering, current algebra and partons,
+     Nucl. Phys. B14, 337–347 (1969).
+[36] S. J. Brodsky and G. F. de Téramond, Light-front hadron dynamics and AdS/CFT correspondence, Phys.
+     Lett. B582, 211–221 (2004), hep-th/0310227.
+[37] S. J. Brodsky, G. F. de Teramond, H. G. Dosch, and J. Erlich, Light-Front Holographic QCD and Emerging
+     Confinement, Phys. Rept. 584, 1–105 (2015), 1407.8131.
+[38] L. Zou and H. G. Dosch, A very Practical Guide to Light Front Holographic QCD (2018), 1801.00607.
+[39] F. Herren and M. Steinhauser, Version 3 of RunDec and CRunDec, Comput. Phys. Commun. 224, 333–345
+     (2018), 1703.03751.
+[40] K. G. Chetyrkin, J. H. Kuhn, and M. Steinhauser, RunDec: A Mathematica package for running and decou-
+     pling of the strong coupling and quark masses, Comput. Phys. Commun. 133, 43–65 (2000), hep-ph/0004189.
+[41] A. Czarnecki, W. J. Marciano, and A. Sirlin, Neutron Lifetime and Axial Coupling Connection, Phys. Rev.
+     Lett. 120, 202002 (2018), 1802.01804.
+[42] B. Märkisch et al., Measurement of the Weak Axial-Vector Coupling Constant in the Decay of Free Neutrons
+     Using a Pulsed Cold Neutron Beam, Phys. Rev. Lett. 122, 242501 (2019), 1812.04666.
+[43] D. Dubbers, H. Saul, B. Märkisch, T. Soldner, and H. Abele, Exotic decay channels are not the cause of the
+     neutron lifetime anomaly, Phys. Lett. B791, 6–10 (2019), 1812.00626.
+[44] D. H. Wilkinson, Analysis of neutron beta decay, Nucl. Phys. A377, 474–504 (1982).
+[45] R. T. Shann, Electromagnetic effects in the decay of polarized neutrons, Nuovo Cim. A5, 591–596 (1971).
+[46] A. Sirlin, General Properties of the Electromagnetic Corrections to the Beta Decay of a Physical Nucleon,
+     Phys. Rev. 164, 1767–1775 (1967).
+[47] J. C. Hardy and I. S. Towner, Superallowed 0+ → 0+ nuclear β decays: 2014 critical survey, with precise
+     results for Vud and CKM unitarity, Phys. Rev. C91, 025501 (2015), 1411.5987.
+[48] A. Deur, Y. Prok, V. Burkert, D. Crabb, F. X. Girod, K. A. Griffioen, N. Guler, S. E. Kuhn, and N. Kval-
+     tine, High precision determination of the Q2 evolution of the Bjorken Sum, Phys. Rev. D90, 012009 (2014),
+     1405.7854.
+[49] A. Deur, S. J. Brodsky, and G. F. de Teramond, On the Interface between Perturbative and Nonperturbative
+     QCD, Phys. Lett. B757, 275–281 (2016), 1601.06568.
+[50] K. G. Chetyrkin, J. H. Kuhn, A. Maier, P. Maierhofer, P. Marquard, M. Steinhauser, and C. Sturm, Addendum
+     to “Charm and bottom quark masses: An update”, Phys. Rev. D96, 116007 (2017), 1710.04249.
+[51] B. Belfatto, R. Beradze, and Z. Berezhiani, The CKM unitarity problem: A trace of new physics at the TeV
+     scale? (2019), 1906.02714.
+[52] B. Fornal and B. Grinstein, Dark Matter Interpretation of the Neutron Decay Anomaly, Phys. Rev. Lett. 120,
+     191801 (2018), 1801.01124.
+[53] Z. Berezhiani, Neutron lifetime and dark decay of the neutron and hydrogen (2018), 1812.11089.
+[54] A. N. Ivanov, R. Höllwieser, N. I. Troitskaya, M. Wellenzohn, and Y. A. Berdnikov, Neutron Dark Matter
+     Decays (2018), 1806.10107.
+[55] C.-Y. Seng and U.-G. Meißner, Toward a First-Principles Calculation of Electroweak Box Diagrams, Phys.
+     Rev. Lett. 122, 211802 (2019), 1903.07969.
+

@@ -1,0 +1,552 @@
+                                       PHYSICAL REVIEW D 114, 032003 (2026)
+
+
+
+                              Constraints on invisible B + → K + X decays from the
+                                       Belle II B + → K + νν̄ measurement
+                     Lorenz Gärtner ,1,* Nikolai Krug,1,† Thomas Kuhr ,1,‡ Michael A. Schmidt ,2,§
+                                      Slavomira Stefkova,3,∥ and Bruce Yabsley 4,¶
+                                       1
+                                           Ludwig Maximilians University, 80539 Munich, Germany
+                                             2
+                                              University of New South Wales, Sydney, Australia
+                                                3
+                                                  University of Bonn, 53115 Bonn, Germany
+                                                   4
+                                                     University of Sydney, Sydney, Australia
+
+                             (Received 13 February 2026; accepted 13 July 2026; published 7 August 2026)
+
+                 The Belle II measurement of the branching fraction for Bþ → K þ νν̄ shows a 2.7σ excess over the Standard
+              Model prediction and motivates new-physics explanations such as axionlike particles, Higgs-like scalars, or
+              beyond Standard Model gauge bosons. A two-body decay Bþ → K þ X with an invisible X provides a natural
+              candidate explanation. This work provides a comprehensive test of this hypothesis using Belle II’s public
+              model-agnostic likelihood. Posterior distributions are derived for the resonance mass mX and the branching
+              fraction, and a modified frequentist upper-limit mass scan is performed. The data favor a resonance with mass
+                          þ0.2
+              mX ¼ 2.1−0.1     GeV and the product BðBþ → K þ XÞ · P X;inv ¼ 9.2þ1.8          −6
+                                                                                    −3.4 × 10 , where P X;inv is the proba-
+              bility that X (and its decay products) are undetected. Bayes’s factors indicate a very strong preference for the
+              Standard Model plus resonance over the Standard Model-only hypothesis. A frequentist likelihood-ratio test
+              favors the Standard Model plus resonance hypothesis by 3.0σ. A light invisible resonance plus the Standard
+              Model therefore provides a compelling description of the Belle II data.
+
+              DOI: 10.1103/ggtk-gkx4
+
+
+
+                    I. INTRODUCTION                                     studies explored this model [2,3,10–14], they assumed a
+                                                                        negligible width (ΓX ≪ mX ) and relied on approximations,
+   Flavor-changing neutral current processes are sensitive              as detailed experimental information was unavailable.
+probes of physics beyond the Standard Model (SM)
+                                                                           This work provides the first rigorous test of this
+because they are suppressed in the SM. Rare meson decays
+                                                                        hypothesis by exploiting the model-agnostic likelihood
+with missing energy are particularly interesting because
+                                                                        of the Bþ → K þ νν̄ measurement published by the Belle
+they are sensitive to new light particles that escape
+detection. One such process is Bþ → K þ νν̄, for which                  II Collaboration [15,16]. This allows a quantification of the
+the Belle II Collaboration has reported evidence [1] for a              preferred parameter space for an invisible resonant con-
+2.7σ excess over the SM.                                                tribution, described by a Breit-Wigner distribution with
+   A two-body decay Bþ → K þ X [2,3], involving a new                   mass mX and decay width ΓX .
+light boson X, provides an attractive explanation for this                 In Sec. II the theoretical background is presented.
+observed excess.1 This scenario is defined by the boson                 Section III describes the Belle II analysis, the reinterpre-
+mass mX and the bsX interaction strength. While previous                tation method, and the resonance model. Bayesian credible
+                                                                        intervals are derived in Sec. IV, and modified frequentist
+  *                                                                     upper limits from a mass scan are derived in Sec. V. Finally,
+     Contact author: lorenz.gaertner@lmu.de
+  †                                                                     goodness-of-fit and model comparison are assessed in
+     Contact author: nikolai.hartmann@physik.uni-muenchen.de
+   ‡
+     Contact author: thomas.kuhr@lmu.de                                 Secs. VI and VII, respectively, before concluding in
+   §
+     Contact author: m.schmidt@unsw.edu.au                              Sec. VIII.
+   ∥
+     Contact author: slavomira.stefkova@uni-bonn.de
+   ¶
+     Contact author: bruce.yabsley@sydney.edu.au                                  II. THEORETICAL BACKGROUND
+   1
+     A light resonance has also been proposed as an explanation
+for the deviation from the SM prediction in b → sll; see, e.g.,            Models explaining the excess with a two-body decay can
+Refs. [4–9] for early references.                                       be distinguished by the spin of the boson X, its decay width
+                                                                        ΓX , and the bsX coupling. Among spin-0 bosons, axionlike
+Published by the American Physical Society under the terms of           particles (ALPs) provide a well-motivated explanation for
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to          the excess [2,17–20]. The decay width is model dependent,
+the author(s) and the published article’s title, journal citation,      and one must distinguish cases in which X decays to
+and DOI. Funded by SCOAP3.                                              undetectable particles inside the detector from cases in
+
+
+
+2470-0010=2026=114(3)=032003(8)                                  032003-1                      Published by the American Physical Society
+LORENZ GÄRTNER et al.                                                                         PHYS. REV. D 114, 032003 (2026)
+
+which it decays outside the detector. The branching fraction        width Γundet
+                                                                            X    into undetectable final states is given
+BðB → KXÞ is determined by the vector coupling bsX,                 by [18,39]
+while the axial-vector coupling determines its contribution
+to B → K  X. As the ALP-fermion coupling is proportional                                    αX mX N ν ΓðZ → νν̄ÞmX
+                                                                                  Γundet ≃        ≲                 ;              ð2Þ
+to the fermion mass, ALP decays to neutrinos are negli-                            X
+                                                                                               6         4mZ ϵ2Z
+gible. Flavor-violating axion couplings naturally occur in
+flavor models [21,22] and their phenomenology has been              where αX is the dark fine structure constant and
+studied in detail in Ref. [23].                                     N ν ¼ 2.9963  0.0074 [40,41] is the number of neutrinos.
+   Higgs-like scalars [24–27] acquire the bsX coupling through      Due to the small X − Z mixing angle ϵZ ≃ 10−4.6 [18]
+their mixing with the SM Higgs boson, which also determines         required to explain the excess, the constraint from the
+their decays to SM particles. Decays to SM neutrinos are thus       number of neutrinos N ν is weaker than the requirement of a
+negligible. This results in strong constraints from searches with   perturbative dark gauge coupling.
+displaced vertices, such as B → K ðÞ Xð→ μþ μ− Þ [28–30].             In conclusion, the X partial width into undetectable final
+These constraints can be avoided by introducing an additional       states, Γundet
+                                                                             X     , can be as large as 0.4 GeV for a Higgs-like
+decay channel to SM-singlet fermions [24], which suppresses         scalar and even comparable to the mass for a dark gauge
+BðX → μþ μ− Þ. In multi-Higgs models, the scalar X can mix          boson mixing with the Z boson. X decays to neutrinos are
+with different Higgs bosons, which removes the tight relation-      negligible and hence the interference of the two-body decay
+ship between the couplings of X and avoids constraints from         with the SM can be neglected. Consequently, the analysis
+visible decays [13,31–33]. Similarly, no tight relationship is      considers both narrow and broad decay widths and does not
+present in models that induce the bsX coupling through the          consider interference with the SM. Note that the large decay
+mixing of SM quarks with a heavy vectorlike fermion [34].           width has to arise predominantly from decays to undetect-
+   The proposed models with vector bosons include τ-philic          able particles, and hence contributes to the invisible
+gauge bosons [2,35] and dark gauge bosons [18,36]. τ-philic         Bþ → K þ X signature.
+gauge bosons predominantly decay into undetectable τ
+neutrinos, which escape the Belle II detector. Dark gauge                    III. ANALYSIS AND REINTERPRETATION
+bosons acquire a bsX coupling by mixing with the Z boson.                                   METHOD
+Avoiding constraints from visible decays into SM fermions                         A. Belle II B + → K + νν̄ analysis
+requires a large decay width into undetectable dark sector
+particles and thus decays to neutrinos are negligible. A               The Belle II Bþ → K þ νν̄ analysis [1] uses two comple-
+detailed discussion of the flavor phenomenology of light            mentary strategies on nearly orthogonal datasets from
+dark vector bosons is provided in Ref. [37].                        eþ e− → ϒð4SÞ → Bþ B− : an inclusive tagging analysis
+   All discussed models have a small bsX coupling; for              (ITA) and a hadronic tagging analysis (HTA). The ITA
+example, the dimensionless bsX gauge coupling of the                reconstructs the K þ and infers missing energy using two
+B3 − L3 gauge boson is Oð10−8 Þ [2] and the effective decay         boosted decision trees (BDT1 , BDT2 ) for background
+                                                                    suppression, achieving high efficiency. The HTA fully
+constant in the axionlike particle scenario is Oð108 GeVÞ
+                                                                    reconstructs the companion B and applies one classifier
+[2,18]. Similarly, existing models have only considered a
+                                                                    (BDTh), yielding lower background at the price of a
+small decay width with ΓX ≪ mX . For a strongly coupled
+                                                                    reduced efficiency.
+dark sector boson, the decay width ΓX could be comparable
+                                                                       The Bþ → K þ νν̄ signal is based on a SM kinematic
+to the mass, ΓX ∼ mX .
+                                                                    prediction [42], scaled by a normalization factor μSM.
+   To illustrate this point, consider two scenarios: a Higgs-
+                                                                    A HISTFACTORY [43] likelihood implemented in PYHF
+like scalar and a dark gauge boson mixing with the Z
+                                                                    [44,45] uses 4 × 3 bins in ηðBDT2 Þ × q2rec (ITA)3 and
+boson, where the X partial decay width into undetectable
+                                                                    6 bins in ηðBDThÞ (HTA), with an off-resonance
+final states, denoted Γundet
+                         X    , is constrained by invisible Higgs
+                                                                    control region (ITA) constraining continuum backgrounds.
+and Z boson decays, respectively.2 The Higgs-like scalar            The combined fit with 231 nuisance parameters4 yielded
+partial width Γundet
+                 X     is constrained to [24]                       μSM ¼ 4.6  1.3, corresponding to BðBþ → K þ νν̄Þ ¼
+                                                                ð2.3  0.5ðstatÞþ0.5             −5
+                                                                                    −0.4 ðsystÞÞ × 10 , with 3.5σ significance
+                            4 × 10−3 2 Bðh → invÞ                   over background-only and 2.7σ over the SM [based on
+          Γundet ≲ 0.2mX                                     ð1Þ
+           X
+                              sin θ      0.107
+                                                                                                                                pﬃﬃ
+                                                                         3
+                                                                        Thepreconstructed
+                                                                              ﬃﬃ            q2 is defined as q2rec ¼ 4s þ M 2K − sEK ,
+in terms of the scalar mixing angle θ and the invisible             where s is the center-of-mass collision energy, M K is the
+branching ratio of the SM Higgs, Bðh → invÞ ≤ 0.107 at              nominal kaon mass, and EK is the reconstructed energy of the
+95% CL [38]. Similarly, the dark-gauge-boson partial                kaon in the collision center-of-mass frame. The signal B meson is
+                                                                    assumed to be at rest in the eþ e− center-of-mass frame.
+                                                                       4
+                                                                        A full list of systematic uncertainties and corresponding
+  2
+      See Appendix A for details.                                   nuisance parameters can be found in Ref. [1].
+
+
+
+                                                              032003-2
+CONSTRAINTS ON INVISIBLE Bþ → K þ X DECAYS …                                                    PHYS. REV. D 114, 032003 (2026)
+
+High Precision Quantum Chromodynamics (HPQCD) form
+factors [46]].
+
+              B. Model-agnostic likelihood
+    The measurement is reinterpreted using a model-agnos-
+tic likelihood that isolates reconstruction effects from
+kinematic variations [15,47]. The key ingredient is the
+joint number density ν0 ðx; zÞ, which represents the
+expected event distribution in reconstructed bins x for a
+kinematic variable z under a null hypothesis σ 0 ðzÞ. This
+density encodes everything from detector response to
+analysis procedure, effectively folding theoretical distribu-
+tions into reconstructed ones.                                       FIG. 1. Predicted differential branching fraction from Eq. (5)
+    For an alternative theory with kinematic prediction              for two resonance widths at μX ¼ 10−6 and mX ¼ 2 GeV. Bands
+σ 1 ðzÞ, expected
+          R        rates are obtained by reweighting:                include hadronic form factor and 5% SM normalization uncer-
+ν1 ðxÞ ¼ dzν0 ðx; zÞwðzÞ, with
+                             P wðzÞ ¼ σ 1 ðzÞ=σ 0 ðzÞ. A
+                                                                     tainties. Form factor uncertainties on the resonance contribution
+discrete sum is used, ν1;x ¼ z ν0;xz wz , which is computa-          are not considered.
+tionally fast and requires only the precomputed joint
+density and the ratio of predictions.                                                                          dBSM
+    The variable z ¼ q2 represents the true dineutrino                                       σ 0 ðq2 Þ ¼ μSM        ;             ð4Þ
+                                                                                                                dq2
+invariant mass squared, and x corresponds to the analysis
+bins: ηðBDT2 Þ × q2rec (ITA) and ηðBDThÞ (HTA). The joint            the total differential branching fraction is
+density uses 100 q2 bins (plus one negative-q2 bin for
+events outside this range due to issues with Monte Carlo                                dB       dB
+                                                                          σ 1 ðq2 Þ ¼       ¼ μSM SM  þ μX f BW ðq2 jmX ; ΓX Þ;   ð5Þ
+truth matching) derived from SM signal simulation. The                                  dq2       dq2
+reweighting is implemented as a custom modifier in the
+PYHF/HISTFACTORY framework, combined with the pub-                   with the SM signal strength μSM . The new-physics signal
+lished Bþ → K þ νν̄ likelihood.                                      strength is μX , such that BðBþ → K þ XÞP X;inv ¼ μX , where
+    The method’s main limitation arises when σ 1 ðzÞ is              P X;inv ¼ P X;out þ ð1 − P X;out Þ · BðX → undetÞ is the sum
+substantially larger than σ 0 ðzÞ, inflating weights and             of the probability for the particle to decay outside the
+reducing effective precision. In this analysis, all weights          detector coverage, P X;out , and the probability to decay into
+satisfy wðzÞ < 5, and hence show no sign of excessive                undetectable final states inside the detector coverage (see,
+inflation.                                                           e.g., Ref. [48]). Here BðX → undetÞ denotes the branching
+                                                                     fraction for X decays to undetectable final states. For the
+                                                                     large X decay widths into undetectable final states consid-
+                     C. Signal model
+                                                                     ered in this analysis, P X;inv ≈ BðX → undetÞ.
+   To test a light invisible resonance contributing to the               The Bþ → K þ νν̄ SM contribution is treated as back-
+Bþ → K þ νν̄ signal, the decay Bþ → K þ X with X invisible           ground. Interference effects with the new-physics signal are
+is modeled. A two-body resonance produces a peak at                  neglected following the discussion in Sec. II. The SM
+q2 ¼ m2X , described by a relativistic Breit-Wigner density:         prediction is based on the HPQCD form factors, and their
+                                                                     uncertainties are included as systematic uncertainties [46].
+                                           k                         In addition, μSM is constrained around unity by an extra 5%
+       f BW ðq2 jmX ; ΓX Þ ¼     2
+                                                          ;          normalization uncertainty, applied on top of the other
+                               ðq    − m2X Þ2 þ m2X Γ2X
+                                                                     systematics. This accounts for the 4.4% uncertainty on
+                                      mX ΓX
+                       k¼                            ;        ð3Þ    jV ts V tb j2 and the 2.3% uncertainty on the SM Wilson
+                               π=2 þ arctanðmX =ΓX Þ                 coefficient jCSM      2
+                                                                                       VL j [42].
+                                                                         The parameters μX and mX are inferred for two fixed
+where mX is the resonance mass, ΓX is the decay width, and           widths, ΓX ∈ f0.1; 0.5g GeV. The coarse q2rec binning used
+k ensures normalization. Since both the B and K mesons               in the Belle II analysis [1] limits the sensitivity to narrow
+are spinless, the decay kinematics do not depend on the              structures in the spectrum. As a result, widths below
+spin of the boson X. Consequently, the analysis is insensi-          ∼0.1 GeV produce bin-averaged distributions that are
+tive to this quantity.                                               indistinguishable from the case ΓX ¼ 0.1 GeV. This value
+   Adding the two-body model to the Bþ → K þ νν̄ SM                  effectively represents the narrow-width limit and covers all
+expectation,                                                         narrow-width models discussed above. The broader width
+
+
+                                                               032003-3
+LORENZ GÄRTNER et al.                                                                       PHYS. REV. D 114, 032003 (2026)
+
+TABLE I. Prior ranges for the new-physics signal strength μX
+and resonance mass mX , for the two resonance widths.
+
+ΓX ¼                       0.1 GeV                      0.5 GeV
+μX                        [0.0, 24.0]                  [0.0, 32.0]
+mX [GeV]                   [1.5, 3.0]                   [1.5, 3.2]
+
+
+ΓX ¼ 0.5 GeV tests a strongly coupled boson which can be
+realized in scenarios such as Higgs-like scalars or dark
+gauge bosons. A future Belle II analysis with finer q2rec
+binning would significantly improve the mass resolution.
+Figure 1 shows the predicted differential branching fraction
+for both widths, assuming μX ¼ 10−6 and mX ¼ 2 GeV.
+
+  IV. POSTERIOR AND CREDIBLE INTERVALS
+   This section presents the Bayesian reinterpretation of the
+                                                                     FIG. 2. Marginalized posterior distributions for Bþ → K þ X
+Belle II Bþ → K þ νν̄ measurement using the signal model
+                                                                     model parameters from Eq. (5) for two resonance widths
+described in Eq. (5). Posterior distributions and credible           ΓX ¼ 0.1 and 0.5 GeV. Diagonal panels show 1-dimensional
+intervals are derived for the signal strength μX and mass            densities; the off-diagonal panel shows 2-dimensional densities
+mX , assuming fixed resonance widths of ΓX ¼ 0.1 GeV                 (linear scale). Contours enclose 68% and 95% credible regions.
+and 0.5 GeV.                                                         The dash-dotted yellow lines and cross mark the posterior mode.
+   The HISTFACTORY likelihood [43] is translated into
+a Bayesian posterior for inference,5
+                                                                     Bþ → K þ X (ΓX ¼ 0.1 GeV) models is illustrated in
+           fðη; χ jn; aÞ ∝ fðnjνðη; χ ÞÞfðχ jaÞfðηÞ:          ð6Þ    Fig. 3, for the highest sensitivity region of the analysis
+                                                                     (ITA, ηðBDT2 Þ > 0.98). The Bþ → K þ X model fits the
+Here, fðnjνðη; χ ÞÞ is the likelihood, given observed and            data significantly better than the unconstrained SM pre-
+expected bin yields n and νðη; χ Þ, respectively; fðχ jaÞ            diction, as indicated by the smaller pull values.
+encodes priors for nuisance parameters χ using auxiliary                For the considered widths, mX peaks sharply at
+data a (normally distributed), and fðηÞ specifies priors for         2.1–2.2 GeV with an extended tail toward higher masses.
+unconstrained parameters η. Prior distributions for the              The peak location is consistent across widths, indicating the
+parameters of interest are chosen to be uniform over the             data favor a resonance in this range regardless of the
+ranges specified in Table I. Ranges are chosen to cover              assumed width. This agrees with the excess observed in
+the full posterior, as verified a posteriori. Appendix B             Ref. [1] and its interpretations presented in Refs. [2,3,11].
+examines the robustness of the results with respect to                  The new-physics signal strength μX deviates clearly from
+alternative prior choices. The posterior is implemented and          zero for both widths, indicating a preference for a nonzero
+sampled with BAYESIAN PYHF [49] using PYMC [50] as the               Bþ → K þ X contribution. Posterior modes increase with
+back end.                                                            width: μX × 106 ¼ 9.2 and 11.1 for ΓX ¼ 0.1 and 0.5 GeV,
+   Marginal posteriors for μX and mX are obtained by                 respectively. This is expected because broader resonances
+sampling the joint posterior with Markov chain                       distribute the same total rate over a larger q2 range,
+Monte Carlo and marginalizing over nuisance parameters.              requiring higher normalization to match the observed
+Figure 2 shows 1- and 2-dimensional marginal distributions           excess.
+for the two widths, with contours enclosing 68% and 95%
+credible regions.
+   From 1-dimensional marginal distributions, highest-               TABLE II. Posterior mode and HDIs at 68% and 95% credible
+density intervals (HDIs) are calculated at 68% and 95%               levels for Bþ → K þ X model parameters from Eq. (5), derived
+probability. Table II summarizes posterior modes and                 from Fig. 2. The product of branching fractions is
+                                                                     BðBþ → K þ XÞ · P X;inv ¼ μX .
+credible intervals.
+   Direct comparison of the observed data with the pre-              Parameter     ΓX ½GeV     Mode       68% HDI       95% HDI
+dicted yields at the posterior mode for the unconstrained                      6
+Bþ → K þ νν̄ SM (μSM unconstrained, μX ¼ 0) and                      μX × 10          0.1         9.2     [5.8, 11.0]    [3.4, 14.0]
+                                                                                      0.5        11.1     [7.8, 15.0]    [4.2, 20.2]
+  5
+                                                                     mX [GeV]         0.1         2.1      [2.0, 2.3]     [1.9, 2.7]
+   Throughout this work, f denotes the relevant probability                           0.5         2.2      [2.1, 2.5]     [2.0, 2.8]
+density or likelihood, identified by its arguments.
+
+
+
+                                                               032003-4
+CONSTRAINTS ON INVISIBLE Bþ → K þ X DECAYS …                                                  PHYS. REV. D 114, 032003 (2026)
+
+
+
+
+FIG. 3. Observed and predicted best-fit yields in the highest      FIG. 4. Modified frequentist 95% CLs upper limit on
+sensitivity region. Signal predictions are for the unconstrained   BðBþ → K þ XÞ · P X;inv as a function of mX (solid black),
+Bþ → K þ νν̄ SM (left) and Bþ → K þ X with ΓX ¼ 0.1 GeV            compared to the expected SM limit (dashed black) with 1σ
+(right). For Bþ → K þ X, the constrained Bþ → K þ νν̄ SM back-     (green) and 2σ (yellow) bands.
+ground is shown separately. Background yields include neutral
+and charged B-meson decays and summed continuum categories.
+Lower panels show pulls.                                              At higher masses (mX > 3.5 GeV), sensitivity degrades
+                                                                   due to reduced experimental efficiency. Localized features
+                                                                   in the expected limit near 2 and 3 GeV correspond to
+  The narrow resonance (ΓX ¼ 0.1 GeV) yields                       analysis bin boundaries.
+                                                                      These results are compared to the preliminary dedicated
+         BðBþ → K þ XÞ · P X;inv ¼ 9.2þ1.8     −6
+                                      −3.4 × 10 ;           ð7Þ    search for B → KX using 711 fb−1 Belle data [52]. This
+                                                                   reinterpretation yields stronger constraints in the low-mass
+roughly twice the Bþ → K þ νν̄ SM expectation BSM ¼                region and uniquely retains sensitivity around
+ð4.97  0.37Þ × 10−6 [42].                                         mX ≈ 2 GeV, a region excluded in the dedicated search.
+                                                                   Conversely, the dedicated analysis achieves superior sen-
+            V. UPPER LIMIT MASS SCAN                               sitivity at high masses.
+
+   A modified frequentist scan over the resonance mass
+mX is performed to derive upper limits at the 95% con-                                 VI. GOODNESS OF FIT
+fidence level on the product of branching fractions                  The fit quality of the Bþ → K þ X hypothesis is assessed
+BðBþ → K þ XÞ · P X;inv . The confidence limit is determined       with a saturated-likelihood statistic:
+using the CLs criterion [51],
+                                                                            Z ∞
+                          þ       þ                                                                                 fðn; ajη̂; χ̂ Þ
+              pðqobs jB → K X þ SMÞ                                pgof ¼          dtgof fðtgof Þ;   tgof ¼ −2 ln                    ;   ð9Þ
+        CLs ¼                       ¼ 0.05:                 ð8Þ             tobs                                    f sat ðn; ajχ̄ Þ
+                      pðqobs jSMÞ
+
+Here qobs is the upper limit test statistic evaluated on data,     where fðn; ajη̂; χ̂ Þ is the likelihood at the global best fit, and
+and pðqobs jBþ → K þ X þ SMÞ and pðqobs jSMÞ are the               f sat is the saturated likelihood that represents a perfect fit to
+corresponding p-values under the Bþ → K þ X þ SM and               the observed data.
+SM-only hypotheses, respectively.                                      The sampling distribution fðtgof Þ is obtained from fits to
+   Figure 4 shows the observed and expected limits.                toy data generated at the best fit of each Bþ → K þ X width
+The observed limit exceeds the SM expectation by over 2            [53], and pgof is the fraction with t > tobs .
+standard deviations in the mass range mX ∈ ½1.8; 2.8 GeV for          The goodness-of-fit values, summarized in Table III, are
+ΓX ¼ 0.1 GeV, and mX ∈ ½1.7; 3.0 GeV for ΓX ¼ 0.5 GeV.            high and nearly width independent: pgof ¼ 0.83, 0.82 for
+   These numerical results agree well with the upper               ΓX ¼ 0.1 and 0.5 GeV, respectively. Thus about 80% of
+credible intervals from Sec. IV. The observed upper limits         toys yield worse fits than the data, indicating excellent fit
+exhibit a similar shape to the contours of the 2-dimensional       quality. The weak dependence on ΓX reflects the limited
+posterior in Fig. 2.                                               resolution due to the coarse q2rec binning.
+
+
+                                                             032003-5
+LORENZ GÄRTNER et al.                                                                           PHYS. REV. D 114, 032003 (2026)
+
+TABLE III. Bayes’s factors relative to the background-only                Bþ → K þ X shape matches the observed excess better than
+model (BKG) and the constrained SM, and goodness-of-fit                   an overall enhancement of the SM distribution.
+p-values for Bþ → K þ X at the two considered widths.                        The look-elsewhere effect in mX is included, as toys are
+                                                                          drawn under the constrained Bþ → K þ νν̄ SM and each fit
+Model                  ΓX        log10 BBKG        log10 BSM      pgof
+                                                                          floats μX and mX .
+ þ       þ
+B →K X            0.1 GeV           2.82              1.71        0.83
+Bþ → K þ X        0.5 GeV           2.93              1.83        0.82                      VIII. CONCLUSION
+unconst. SM                      2.02              0.92        0.58
+                                                                             This work presents a reinterpretation of the Belle II
+                                                                          measurement of Bþ → K þ νν̄ using the published model-
+  For comparison, the unconstrained SM yields                             agnostic likelihood to test the hypothesis of a two-body
+pgof ¼ 0.58, which also indicates a good fit to the data.                 decay Bþ → K þ X into a light invisible boson X. The data
+                                                                          strongly prefer the resonance hypothesis, with a posterior
+              VII. MODEL COMPARISON                                       mode for the mass at mX ¼ 2.1þ0.2   −0.1 GeV and a product
+                                                                          BðBþ → K þ XÞ · P X;inv ¼ 9.2þ1.8        −6
+                                                                                                         −3.4 × 10 . A modified fre-
+   Model comparison quantifies the relative support for                   quentist mass scan confirms the excess is localized around
+competing hypotheses. The Bþ → K þ X model is assessed                    mX ≈ 2.1 GeV, consistent with the Bayesian results, and
+against two references: background only (μSM ¼ μX ¼ 0)                    provides the most stringent upper limits for the mX <
+and the constrained SM (μSM constrained, μX ¼ 0), using                   2.1 GeV region to date.
+Bayes’s factors and frequentist hypothesis testing.                          Bayesian model comparison indicates a very strong
+   Bayesian comparison uses the Bayes’s factor (ratio of                  preference for the Bþ → K þ X model over the constrained
+marginal likelihoods) [54] shown in Table III. For ΓX ¼ 0.1               SM and a decisive preference over the background-only
+and 0.5 GeV the values are log10 BSM ¼ 1.71 and 1.83                      hypothesis. A complementary frequentist hypothesis test
+(very strong preference over the constrained SM on                        favors Bþ → K þ X over the constrained SM with a global
+Jeffreys’s scale [55]) and log10 BBKG ¼ 2.82 and 2.93                     significance of 3.0σ. This significance exceeds the 2.7σ
+(decisive preference over the background-only hypothesis).                reported by the Belle II Collaboration [1] because the
+The Bþ → K þ X model is preferred over the unconstrained                  kinematic shape of the resonance better matches the
+SM, consistent with a resonance better capturing the excess               observed excess than an overall enhancement of the SM
+near q2rec ∼ 3–7 GeV2.6 Because the marginal likelihood                   distribution.
+integrates over the full parameter space, these Bayes’s                      The central values for the mass and branching fraction
+factors already include the look-elsewhere effect [56] and                are consistent with previous reinterpretations based on
+thus represent global, not merely local, preference                       simplified likelihoods [2,3,11]. While uncertainty intervals
+for Bþ → K þ X.                                                           vary across studies, this analysis uniquely incorporates full
+   To complement the Bayesian comparison, Bþ → K þ X is                   experimental uncertainties, providing the most robust
+tested against the constrained SM with a likelihood-ratio                 estimates to date.
+statistic and toy-based p-values:                                            The analysis demonstrates that a light invisible reso-
+              Z ∞                                                         nance provides an excellent description of the Belle II data,
+                                           fðn;ajη ¼ 0; χ̂ˆ Þ             significantly outperforming the SM. This motivates further
+         p¼           dtfðtÞ;   t ¼ −2ln                      ;   ð10Þ
+               tobs                          fðn;ajη̂; χ̂ Þ               measurements to clarify the presence of contributions
+                                                                          beyond the SM.
+where fðn; ajη̂; χ̂ Þ is the global best fit and fðn; ajη ¼ 0; χ̂ˆ Þ
+fixes the parameters of interest to their null values while                               ACKNOWLEDGMENTS
+optimizing nuisances. The sampling distribution fðtÞ is                      The authors thank Danny van Dyk and Méril Reboud for
+obtained from toys generated under the SM hypothesis, and                 their contributions during the initial stages of this project.
+p is the fraction with t > tobs .                                         We thank Emmanuel Stamou for reviewing the manuscript.
+   For Bþ → K þ X with ΓX ¼ 0.1 GeV, the resulting global                 L. G. is funded by the Deutsche Forschungsgemeinschaft
+p-value is 1.4 × 10−3 ,–a global 3.0σ deviation from                      (DFG,       German      Research       Foundation)—Project
+the SM. This exceeds the 2.7σ in Ref. [1] because the                     No. 460248186 (PUNCH4NFDI). N. K. is supported by
+                                                                          the Excellence Cluster ORIGINS, which is funded by the
+  6
+    The preference of the Bþ → K þ X model over the uncon-                Deutsche Forschungsgemeinschaft (DFG, German
+strained SM can be quantified by the difference between the               Research Foundation) under Germany’s Excellence
+logarithms of the Bayes’s factors given in Table III. This is             Strategy Grant No. EXC-2094-39078331. T. K. acknowl-
+log10 BðBþ → K þ XÞ − log10 Bðunconst: SMÞ ¼ 0.8 and 0.9 for
+ΓX ¼ 0.1 and 0.5 GeV, respectively, indicating a substantial              edges the support of the German Federal Ministry of
+preference for Bþ → K þ X over the unconstrained SM on                    Research, Technology and Space (BMFTR). S. S. acknowl-
+Jeffreys’s scale.                                                         edges the support of the German Federal Ministry of
+
+
+                                                                    032003-6
+CONSTRAINTS ON INVISIBLE Bþ → K þ X DECAYS …                                                     PHYS. REV. D 114, 032003 (2026)
+
+Research, Technology and Space (BMFTR) and Excellence            TABLE IV. Posterior modes and 68%=95% HDIs for
+Cluster Color Meets Flavor, which is funded by DFG Grant         Bþ → K þ X model [Eq. (5)] with ΓX ¼ 0.1 GeV based on
+No. EXC-3107-533766364. B. Y. acknowledges the sup-              alternative priors (compare Table II).
+port of The University of Sydney Physics Foundation.
+                                                                 Priors              Parameter      Mode     68% HDI          95% HDI
+                                                                                             6
+                                                                 Eq. (B1)         μX × 10            9.0    [5.7, 10.8]       [3.4, 13.8]
+                DATA AVAILABILITY                                                 mX [GeV]           2.1     [2.0, 2.4]        [1.9, 2.7]
+   Posterior samples for the results presented in this work      Eq. (B2)         μX × 106           9.0    [5.7, 11.0]       [3.0, 14.4]
+are publicly available on Zenodo [57]. A lightweight code                         mX [GeV]           2.1     [2.0, 2.4]        [1.9, 2.7]
+repository for performing simple fits and reproducing the
+posterior plots is also available [58].
+                                                                                X
+                                                                      J μNC ¼    ðT 3f − 2Qf sin2 θw Þf̄γ μ f − T 3f f̄γ μ f;      ðA3Þ
+     APPENDIX A: DETAILS FOR EXAMPLE                                             f
+    MODELS WITH A LARGE DECAY WIDTH                                             X
+                                                                      J μem ¼    Qf f̄γ μ f;                                       ðA4Þ
+   For completeness, we provide the relevant parts of the
+                                                                                 f
+Lagrangians for the two example models in Sec. II with a
+large decay width of the boson X.                                where ϵ denotes the kinetic mixing, ϵZ parametrizes the
+   The minimal model of the Higgs-like real scalar X             coupling of X to the weak neutral current, f labels SM
+requires the additional interactions [24]                        fermions, Qf is its electric charge, and T 3 is the third generator
+              1                                                  of SUð2ÞL . See Sec. III in Ref. [18] for further details.
+L ⊃ − κH† HX − λHX H † HX2
+              2
+                                                                    APPENDIX B: PRIOR SENSITIVITY STUDY
+       1 T
+    −    N CðμN þ yX XÞN þ yν L̄HN þ H:c:               ðA1Þ
+       2                                                            Bayesian inference depends on prior distributions.
+                                                                 Robustness is assessed by comparing baseline uniform
+where H denotes the SM Higgs doublet and N is a                  priors to two alternative specifications for the Bþ → K þ X
+SM-singlet fermion that allows X to decay into undetect-         model [Eq. (5)] with ΓX ¼ 0.1 GeV.
+able SM-singlet fermions N. The terms in the first line             The first alternative uses a truncated-normal prior for μX
+introduce mixing between the Higgs boson h and X,                and a uniform prior for mX :
+parametrized by sin θ, and contribute to invisible Higgs
+                                                                                     
+decays h → XX. The mass of N is given by yX hXi. The                                     N ðμX jμ ¼ 0; σ ¼ 20Þ μX ≥ 0
+SM-singlet fermion can further decay to neutrinos through             fðμX Þ ¼                                            ;
+                                                                                         0                       μX < 0
+the neutrino Yukawa interaction L̄HN. For simplicity, we
+take the N mass to be negligible and set κ ¼ 0 in Eq. (1).            fðmX Þ ¼ Uð½1.5; 3.0 GeVÞ;                                  ðB1Þ
+Nonzero κ relaxes the relationship between sin θ and
+h → XX. See Sec. V in Ref. [24] for further details.             where U denotes a uniform distribution.
+   An example model for a dark gauge boson X has been              The second alternative adopts a uniform prior in squared
+introduced in Ref. [18]. The model additionally introduces       mass m2X , yielding a triangular prior in mX :
+a dark fermion χ, which is a dark matter candidate and
+provides an efficient way for X to decay into undetectable                        fðμX Þ ¼ Uð½0; 24Þ;
+dark fermions, a dark Higgs boson ϕ, which gives mass to                                   
+                                                                                             mX mX ≤ 4.8 GeV
+the dark gauge boson X, and an electroweak doublet scalar                         fðmX Þ ∝                                         ðB2Þ
+                                                                                             0     mX > 4.8 GeV:
+η, which introduces mass mixing between the dark gauge
+boson X and the SM Z boson. The additional contribution             Table IV summarizes posterior modes and credible
+to the mixing of X with the Z boson is important to enhance      intervals for both alternatives. The mass mX is robustly
+the coupling of X to the weak neutral current JμNC relative to   determined: the posterior mode (mX ¼ 2.1 GeV) and
+the coupling to the electromagnetic current J μem in             credible intervals show minimal prior sensitivity. The
+                                                               new-physics signal strength μX shifts slightly from 9.2
+               μ         g       μ
+     L ⊃ eϵJem þ             ϵ J      X ;                ðA2Þ    (uniform) to 9.0 (truncated-normal and triangular), with
+                     2 cos θw Z NC μ                             similarly robust credible intervals.
+
+
+
+
+                                                           032003-7
+LORENZ GÄRTNER et al.                                                                       PHYS. REV. D 114, 032003 (2026)
+
+ [1] I. Adachi et al. (Belle II Collaboration), Phys. Rev. D 109,    [32] A. Berezhnoy and D. Melikhov, Europhys. Lett. 145, 14001
+     112006 (2024).                                                       (2024).
+ [2] W. Altmannshofer, A. Crivellin, H. Haigh, G. Inguglia, and      [33] A. Datta, D. Marfatia, and L. Mukherjee, Phys. Rev. D 109,
+     J. M. Camalich, Phys. Rev. D 109, 075008 (2024).                     L031701 (2024).
+ [3] K. Fridell, M. Ghosh, T. Okui, and K. Tobioka, Phys. Rev. D     [34] H. Davoudiasl and M. Schnubel, Phys. Rev. D 110, 075014
+     109, 115006 (2024).                                                  (2024).
+ [4] A. Datta, J. Liao, and D. Marfatia, Phys. Lett. B 768, 265      [35] L. Di Luzio, M. Nardecchia, and C. Toni, Phys. Rev. D 112,
+     (2017).                                                              055031 (2025).
+ [5] F. Sala and D. M. Straub, Phys. Lett. B 774, 205 (2017).        [36] P. D. Bolton, J. F. Kamenik, and M. Novoa-Brunet, Phys.
+ [6] D. Ghosh, Eur. Phys. J. C 77, 694 (2017).                            Rev. D 113, 115001 (2026).
+ [7] A. K. Alok, B. Bhattacharya, A. Datta, D. Kumar, J. Kumar,      [37] J. F. Eguren, S. Klingel, E. Stamou, M. Tabet, and R.
+     and D. London, Phys. Rev. D 96, 095009 (2017).                       Ziegler, J. High Energy Phys. 08 (2024) 111.
+ [8] A. Datta, J. Kumar, J. Liao, and D. Marfatia, Phys. Rev. D      [38] G. Aad et al. (ATLAS Collaboration), Phys. Lett. B 842,
+     97, 115038 (2018).                                                   137963 (2023).
+ [9] W. Altmannshofer, M. J. Baker, S. Gori, R. Harnik, M.           [39] H. Davoudiasl, H.-S. Lee, and W. J. Marciano, Phys. Rev. D
+     Pospelov, E. Stamou, and A. Thamm, J. High Energy Phys.              85, 115019 (2012).
+     03 (2018) 188.                                                  [40] S. Schael et al. (ALEPH, DELPHI, L3, OPAL, SLD, LEP
+[10] P. D. Bolton, S. Fajfer, J. F. Kamenik, and M. Novoa-                Electroweak Working Group, SLD Electroweak Group,
+     Brunet, Phys. Rev. D 110, 055001 (2024); 111, 039903                 SLD Heavy Flavour Group), Phys. Rep. 427, 257 (2006).
+     (E) (2025).                                                     [41] P. Janot and S. Jadach, Phys. Lett. B 803, 135319 (2020).
+[11] P. D. Bolton, S. Fajfer, J. F. Kamenik, and M. Novoa-           [42] W. G. Parrott, C. Bouchard, and C. T. H. Davies (HPQCD
+     Brunet, Phys. Rev. D 112, 035010 (2025).                             Collaboration), Phys. Rev. D 107, 014511 (2023); 107,
+[12] A. Berezhnoy, W. Lucha, and D. Melikhov, Phys. Rev. D                119903(E) (2023).
+     111, 075035 (2025).                                             [43] K. Cranmer, G. Lewis, L. Moneta, A. Shibata, and W.
+[13] A. Berezhnoy, W. Lucha, and D. Melikhov, Eur. Phys. J.               Verkerke (ROOT), HistFactory: A Tool for Creating Stat-
+     Plus 141, 495 (2026).                                                istical Models for Use with RooFit and RooStats, Tech. Rep.
+[14] M. Abumusabh, G. Dujany, D. Guadagnoli, A. Iohner, and               (New York University, New York, 2012).
+     C. Toni, Phys. Rev. Res. 8, 023129 (2026).                      [44] L. Heinrich, M. Feickert, G. Stark, and K. Cranmer, J. Open
+[15] M. Abumusabh et al. (Belle II Collaboration), Phys. Rev. D           Source Softwaare 6, 2823 (2021).
+     112, 092016 (2025).                                             [45] L. Heinrich, M. Feickert, and G. Stark, pyhf: v0.7.6 (2024),
+[16] Belle II Collaboration, A model-agnostic likelihood for the          see also the GitHub webpage.
+     reinterpretation of the Bþ → K þ νν̄ measurement at Belle II,   [46] W. G. Parrott, C. Bouchard, and C. T. H. Davies (HPQCD
+     HEPData (collection), 10.17182/hepdata.166082 (2025).                Collaboration), Phys. Rev. D 107, 014510 (2023).
+[17] W. Altmannshofer and S. Roy, Phys. Rev. D 111, 075029           [47] L. Gärtner, N. Hartmann, L. Heinrich, M. Horstmann, T.
+     (2025).                                                              Kuhr, M. Reboud, S. Stefkova, and D. van Dyk, Eur. Phys.
+[18] L. Calibbi, T. Li, L. Mukherjee, and M. A. Schmidt, Phys.            J. C 84, 693 (2024).
+     Rev. D 112, 075020 (2025).                                      [48] T. Ferber, A. Filimonova, R. Schäfer, and S. Westhoff, J.
+[19] Q.-Y. Hu, Eur. Phys. J. C 85, 556 (2025).                            High Energy Phys. 04 (2023) 131.
+[20] X. Gao and U. Nierste, Phys. Rev. D 112, 055008                 [49] M. Feickert, L. Heinrich, and M. Horstmann, EPJ Web
+     (2025).                                                              Conf. 295, 06004 (2024).
+[21] A. Davidson and K. C. Wali, Phys. Rev. Lett. 48, 11 (1982).     [50] O. Abril-Pla, V. Andreani, C. Carroll, L. Dong, C. J.
+[22] F. Wilczek, Phys. Rev. Lett. 49, 1549 (1982).                        Fonnesbeck, M. Kochurov, R. Kumar, J. Lao, C. C.
+[23] J. Martin Camalich, M. Pospelov, P. N. H. Vuong, R.                  Luhmann, O. A. Martin et al., PeerJ Comput. Sci. 9 (2023).
+     Ziegler, and J. Zupan, Phys. Rev. D 102, 015023 (2020).         [51] A. L. Read, J. Phys. G 28, 2693 (2002).
+[24] M. Ovchynnikov, M. A. Schmidt, and T. Schwetz, Eur.             [52] Belle and Belle II Collaborations, Presented at the 13th
+     Phys. J. C 83, 791 (2023).                                           International Workshop on the CKM Unitarity Triangle
+[25] D. McKeen, J. N. Ng, and D. Tuckler, Phys. Rev. D 109,               (CKM 2025), Cagliari, Italy (2025).
+     075006 (2024).                                                  [53] K. Cranmer, in 2011 European School of High-Energy
+[26] S.-Y. Ho, J. Kim, and P. Ko, Phys. Rev. D 111, 055029                Physics (2014), pp. 267–308, arXiv:1503.07622.
+     (2025).                                                         [54] A. Gelman, J. Carlin, H. Stern, D. Dunson, A. Vehtari, and
+[27] J. Kim and P. Ko, Phys. Rev. D 113, 075023 (2026).                   D. Rubin, Bayesian Data Analysis, Third Edition, Chapman
+[28] R. Aaij et al. (LHCb Collaboration), Phys. Rev. Lett. 115,           & Hall/CRC Texts in Statistical Science (Taylor & Francis,
+     161802 (2015).                                                       London, 2013).
+[29] R. Aaij et al. (LHCb Collaboration), Phys. Rev. D 95,           [55] H. Jeffreys, The Theory of Probability, 3rd ed. (Oxford
+     071101 (2017).                                                       University Press, Oxford, 1961).
+[30] I. Adachi et al. (Belle II Collaboration), Phys. Rev. D 108,    [56] E. Gross and O. Vitells, Eur. Phys. J. C 70, 525 (2010).
+     L111104 (2023).                                                 [57] L. Gärtner, N. Krug, T. Kuhr, M. Schmidt, S. Stefkova, and
+[31] M. Abdughani and Y. Reyimuaji, Phys. Rev. D 110, 055013              B. Yabsley, 10.5281/zenodo.20509926 (2026).
+     (2024).                                                         [58] L. Gärtner, 10.5281/zenodo.20528556 (2026).
+
+
+
+
+                                                               032003-8
+

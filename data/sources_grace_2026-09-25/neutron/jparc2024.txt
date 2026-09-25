@@ -1,0 +1,467 @@
+                                               Improved measurements of neutron lifetime with cold neutron beam at J-PARC
+
+                                                 Y. Fuwa,1, 2 T. Hasegawa,3 K. Hirota,4 T. Hoshino,5 R. Hosokawa,6 G. Ichikawa,4, 2 S. Ieki,7 T. Ino,4, 2
+                                                Y. Iwashita,8 M. Kitaguchi,3, 9 R. Kitahara,10, 11 S. Makise,5 K. Mishima,9, 4, ∗ T. Mogi,7 N. Nagakura,7
+                                                H. Oide,4 H. Okabe,3 H. Otono,12 Y. Seki,13 D. Sekiba,14 T. Shima,15 H. E. Shimizu,16 H. M. Shimizu,3
+                                              N. Sumi,4 H. Sumino,17 M. Tanida,5 H. Uehara,5 T. Yamada,7 S. Yamashita,18 K. Yano,5 and T. Yoshioka19
+                                                                               1
+                                                                                     Japan Atomic Energy Agency, Tokai 319-1195, Japan
+                                                                                           2
+                                                                                             J-PARC Center, Tokai 319-1195, Japan
+                                                        3
+                                                          Department of Physics, Graduate School of Science, Nagoya University, Nagoya 464-8602, Japan
+                                                                        4
+                                                                          High Energy Accelerator Research Organization, Tsukuba 305-0801, Japan
+                                                        5
+                                                          Department of Physics, Graduate School of Science, Kyushu University, Fukuoka 819-0395, Japan
+                                                                   6
+                                                                     Faculty of Science and Engineering, Iwate University, Morioka 020-8551, Japan
+                                                                                     7
+                                                                                       Department of Physics, Graduate School of Science,
+                                                                                       The University of Tokyo, Tokyo 113-0033, Japan
+
+
+
+
+arXiv:2412.19519v1 [nucl-ex] 27 Dec 2024
+                                                        8
+                                                          Institute for Integrated Radiation and Nuclear Science, Kyoto University, Osaka 590-0494, Japan
+                                                                       9
+                                                                         Kobayashi-Maskawa Institute, Nagoya University, Nagoya 464-8602, Japan
+                                                                            10
+                                                                               Department of Physics, Kyoto University, Kyoto, 606-8502, Japan
+                                                            11
+                                                               Technology Research Center, Sumitomo Heavy Industries, Ltd., Yokosuka, 237-8555, Japan
+                                                             12
+                                                                Department of Physics, Fuculty of Sciences, Kyushu University, Fukuoka 819-0395, Japan
+                                                  13
+                                                     Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Sendai 980-8577, Japan
+                                                                    14
+                                                                       Institute of Applied Physics, University of Tsukuba, Tsukuba 305-8573, Japan
+                                                                  15
+                                                                     Research Center for Nuclear Physics, Osaka University, Ibaraki 567-0047, Japan
+                                                                                  16
+                                                                                     SOKENDAI, Shonan Village, Hayama 240-0193, Japan
+                                                                                  17
+                                                                                     Research Center for Advanced Science and Technology,
+                                                                                       The University of Tokyo, Tokyo 153-0041, Japan
+                                                       18
+                                                          Research and Regional Cooperation Office, Iwate Prefectural University, Takizawa 020-0693, Japan
+                                                          19
+                                                             Research Center for Advanced Particle Physics, Kyushu University, Fukuoka 819-0395, Japan
+                                                                                                  (Dated: December 30, 2024)
+                                                          The “neutron lifetime puzzle” arises from the discrepancy between neutron lifetime measurements
+                                                        obtained using the beam method, which measures decay products, and the bottle method, which
+                                                        measures the disappearance of neutrons. To resolve this puzzle, we conducted an experiment using a
+                                                        pulsed cold neutron beam at J-PARC. In this experiment, the neutron lifetime is determined from the
+                                                        ratio of neutron decay counts to 3 He(n,p)3 H reactions in a gas detector. This experiment belongs
+                                                        to the beam method but differs from previous experiments that measured protons, as it instead
+                                                        detects electrons, enabling measurements with distinct systematic uncertainties. By enlarging the
+                                                        beam transport system and reducing systematic uncertainties, we achieved a fivefold improvement in
+                                                        precision. Analysis of all acquired data yielded a neutron lifetime of τn = 877.2 ± 1.7(stat.) +4.0
+                                                                                                                                                       −3.6 (sys.) s.
+                                                        This result is consistent with bottle method measurements but exhibits a 2.3σ tension with the
+                                                        average value obtained from the proton-detection-based beam method.
+
+
+                                              Introduction– A neutron decays into three particles, a            of gA [7].
+                                           proton, an electron, and an antineutrino via weak inter-                Neutron lifetime has been measured using two primary
+                                           actions. The neutron β decay lifetime, τn , is a crucial             methods. The first is the beam method [8, 9], where
+                                           parameter that determines the neutron-to-proton ratio                neutron β decay products, specifically protons in these
+                                           at the onset of Big Bang nucleosynthesis (BBN) [1, 2].               references, are counted relative to the number of inci-
+                                           The combination of the BBN model and the baryon-to-                  dent neutrons, yielding an average lifetime of τnbeam =
+                                           photon ratio derived from the cosmic microwave back-                 888.0 ± 2.0 s. The second is the bottle method [10–
+                                           ground observations [3, 4] provides an accurate predic-              17], which measures the disappearance of ultra-cold neu-
+                                           tion of the abundance of light elements, allowing tests              trons (UCNs) confined in a container over time, produc-
+                                           of physical phenomena in the early universe. Addition-               ing an average value of τnbottle = 878.4 ± 0.5 s. The 9.5-s
+                                           ally, the Vud term in the Cabibbo-Kobayashi-Maskawa                  (4.6σ) discrepancy between the two methods is known as
+                                           (CKM) matrix can be determined using τn and λ, which                 the “neutron lifetime puzzle” [18], raising concerns about
+                                           is the ratio of axial-vector to vector coupling constants,           the reliability of neutron lifetime measurements.
+                                           gA /gV , independently of nuclear models. Revised radia-
+                                           tive corrections in 2018 [5] suggested the CKM unitarity               Possible causes for this discrepancy include unac-
+                                           violation exceeding 2σ [6], emphasizing the importance               counted systematic uncertainties, such as protons from
+                                           of the measurement of the neutron lifetime. Precise data             neutron decay undergoing charge exchange with residual
+                                           on τn is also valuable for testing lattice QCD calculations          gas [19], though this effect is considered negligible [20].
+                                                                                                                The 9.5-s, approximately 1% discrepancy between beam
+                                                                                                                                    2
+
+and bottle methods has caused discussions of theories
+such as UCN inelastic scattering with dark matter [21],                                                   Time Projection Chamber
+                                                                        Spin Flip Chopper
+hydrogen atom formation [22], mirror neutron transi-
+                                                                                                                       e-
+tions [23], or neutron decay into dark matter [24]. Up-
+coming experiments [25–28], including space neutron de-
+tections [29, 30], may help resolve this issue.                                   Magnetic Super Mirror
+   To address the neutron lifetime puzzle, we conducted            Spin Flipper                           Neutron beam bunch
+
+neutron lifetime measurements using the high-intensity
+pulsed neutron beamline at Japan Proton Accelerator
+Research Complex (J-PARC), adopting the method of              FIG. 1. The top view of BL05/NOP. Pulsed neutrons enter-
+Kossakowski et al. [31]. This experiment detects elec-         ing from the beam port on the left are shaped into bunches
+                                                               by the spin flip chopper and then directed into the time pro-
+trons from neutron β decay, offering a distinct observ-        jection chamber.
+able compared to previous proton-counting beam meth-
+ods [8, 9], and thus provides an alternative approach to
+verify the neutron lifetime puzzle. Our first result in
+2020, τn = 898 ± 10(stat.) +15                                 The neutron lifetime is calculated from their count ra-
+                              −18 (sys.) s [32], was consis-
+tent with both beam and bottle methods. Through im-            tio and detection efficiencies, determined by using Monte
+proved neutron intensity by a new neutron transport and        Carlo simulations (MCs) based on Geant4.9.6 [40].
+reduced systematic uncertainties, we achieved a fivefold          Updates– We conducted experiments with improve-
+improvement in precision, as discussed in this paper.          ments to the apparatus and analysis based on the 2020
+   Principle of the experiment– The experiment, con-           results [32]. A major source of systematic uncertainties
+ducted at the polarized neutron beam branch of                 was background γ rays from the absorption reactions of
+BL05/NOP at J-PARC Materials and Life Science Ex-              neutrons scattered by the TPC working gas. To address
+perimental Facility [33, 34], is illustrated schematically     this, we reduced the gas pressure to mitigate neutron
+in Fig. 1. The pulsed neutron beam is shaped into 40-          scattering and its associated effects. Lower pressures
+cm-long bunches using a spin flip chopper (SFC) [35–37]        made the TPC more prone to electrical discharge, ne-
+and introduced into a 1-m-long time projection chamber         cessitating reduced signal amplification. By minimizing
+(TPC) [38]. Measuring β decay events while the neutron         electrical noise and optimizing the operating conditions,
+bunch is fully within the TPC reduces uncertainties in         we successfully obtained stable measurements at 50 kPa,
+detection efficiency and effects from the background.          reduced from the original pressure of 100 kPa. In addi-
+   The TPC is filled with an He+CO2 gas with a mixture         tion, simulations were developed to reproduce these low-
+of 85:15, optimized for low neutron scattering and effi-       pressure conditions, incorporating specific wire efficiency
+cient electron multiplication. This setup achieves a trig-     and space charge. These simulations thereby enable re-
+ger efficiency of over 99.9% for neutron β decay events.       liable measurements at 50 kPa. The low-pressure mea-
+A precise amount of 3 He, corresponds to the pressure of       surements further improved the accuracy of determin-
+50 mPa, is added using a volumetric expansion method,          ing the 3 He content in the working gas and also reduced
+and 3 He(n,p)3 H reactions are used to determine the num-      background events caused by nuclear reactions with CO2 ,
+ber of incident neutrons. The inner walls of the beam          namely 12 C(n,γ)13 C and 17 O(n,α)14 C.
+duct and TPC are covered with a shielding material made           The TPC operating gas used is commercially avail-
+of a mixture of 6 Li-enriched LiF and polytetrafluoroethy-     able high-grade He gas (G1He) containing 0.1 ppm of
+                                                               3
+lene (PTFE) in a 30:70 weight ratio [39]. This cover             He [32]. Previously, the amount of 3 He was determined
+effectively reduces background γ radiation produced by         by analyzing G1He using a mass spectrometer [41, 42].
+neutron capture.                                               After measuring the 14 N(n,p)14 C reaction cross section
+   The neutron lifetime is derived using the detected β        with a precision of 0.4% [43], we established a method
+decay count Sβ , the 3 He(n,p)3 H reaction count SHe , their   to determine the 3 He/4 He ratio in G1He with an accu-
+respective detection efficiencies εβ and εHe , the number      racy of better than 0.8% by performing measurements
+density of 3 He in the detector ρ, and the 3 He(n,p)3 H        with He+CO2 gas mixed with N2 gas [44]. We also im-
+reaction cross-section σ0 at the neutron velocity v0 =         proved the method for determining the amount of 3 He
+2200 m/s, according to the following equation [32]:            introduced into the TPC vacuum vessel. In this exper-
+                                                               iment, 50 mPa of 3 He gas is precisely injected using a
+                                                             buffer vessel with a known volume ratio to the vacuum
+                         1          SHe /εHe                   chamber. By employing two pressure gauges with dif-
+                τn =                               .    (1)
+                       ρσ0 v0        Sβ /εβ                    ferent dynamic ranges and an optimized buffer volume,
+                                                               the measurement precision of the volume ratio improved
+   The β decay events and 3 He(n,p)3 H events are identi-      from 0.34% to 0.12%. Consequently, the accuracy of ρ
+fied using waveform and track information from the TPC.        determination at 50 kPa was enhanced to 0.13% [44].
+                                                                                                                            3
+
+These methods have been adopted since 2019.
+                                                                                                                   Anodes
+   We use an SFC to bunch neutrons incident to the
+TPC. The neutron intensity was previously limited by
+the size of the neutron mirrors of the SFC [35]. The up-
+graded SFC, featuring larger magnetic supermirrors and
+spin flippers, increased the neutron intensity to the TPC
+by a factor of 2.8 while maintaining a signal-to-noise ra-                  Neutron beam
+tio of 250–400 [35–37]. Measurements were performed                             Far endpoint
+                                                                                                 Drift direction
+under four conditions: two gas pressures (100 kPa and
+                                                                                                  Near endpoint
+50 kPa) and two SFC configurations (old and new SFC).
+                                                                                   Closest hit
+Table I summarizes the dataset, comprising 49 gas fills                                                            TPC
+
+measured between 2014 and 2023. Each gas fill represents
+a measurement of approximately one week, including en-          FIG. 2. Conceptual downstream view of the TPC illustrating
+ergy calibration with a 55 Fe source, drift time calibra-       XE (distance from the near endpoint of a track to central
+tion using cosmic rays, neutron lifetime measurements           wire) and XC (distance from closest hit to center). Number
+                                                                of wires and beam size are not to scale.
+with beam passage, and background measurements with
+a beam shutter closed. During the measurement, the
+beam alternated periodically between a beam pass run
+(1000–1200 s) and a beam dump run (800–1000 s).                 method [32] could not reproduce the background shape
+                                                                or the energy loss per unit length (dE/dx) distribution,
+                                                                we constructed MCs with γ rays with two energy compo-
+TABLE I. Measurements for each condition, presented as the      nents. The γ ray energies were determined to reproduce
+number of gas fills and beam cycles (defined as one beam pass   the two-dimensional distribution of XE and XC outside
+run and one dump run).                                          the signal region. The origins of the γ rays were con-
+        Conditions          Year     Gas fill Beam cycle        sidered: “Internal,” for neutron absorption within the
+     100 kPa/old SFC 2014–2019         29        4660           6
+                                                                  LiF tile shielding, and “Internal-external,” for absorp-
+     50 kPa/old SFC 2017–2018           6        1044           tion within and outside the shielding. The “Internal-
+    100 kPa/new SFC 2021–2023           5         671
+                                                                external” model, with 200 keV contributing 91.9(8)% and
+     50 kPa/new SFC 2021–2023           9        1729
+                                                                5000 keV contributing 8.1(8)%, showed the best fit to the
+                                                                experimental data with the χ2 per degrees of freedom
+  Analysis– The analysis follows the method of previ-
+                                                                (DOF) of 208.8/202.
+ous measurements [32]. Two parameters, XE and XC
+are introduced to separate β decay events from the back-           Signal cut uncertainties were evaluated by varying the
+ground. Here, XE is the distance between the near end-          XE cut from 4 ch to 11 ch (5 ch as baseline), with a
+point of a track and the central wire, while XC indi-           maximum variation of 0.2% in the data-to-MC event ra-
+cates the distance from the closest hit to the center, ex-      tio (Fig. 3). Energy cut uncertainties, estimated from
+pressed in wire spacing units (Fig.2). Since neutron β          dE/dx differences for cosmic rays, contributed less than
+decay events originate from the beam region (40 mm),            0.1%. These improvements ensured accurate background
+the signal region was defined as XE < 5 (< 60 mm). On           subtraction and enhanced the reliability of neutron β de-
+the other hand, the region XC ≥ 5 contains almost no            cay measurements.
+events originating from neutron β decay and was there-             The W-value, the average energy required for single-
+fore defined as the background region.                          electron ionization, in the He+CO2 gas of a proton (Wp )
+  The primary background in this experiment arises from         increases as proton energy decreases below 1 keV un-
+(n, γ) events caused by neutrons scattered by the TPC           like electron ionization (We ) [45]. We previously ad-
+working gas. The number of background events to be              dressed the effect by simplifying the quenching factor as
+subtracted can be obtained by multiplying the number of         q(E) = We (E)/Wp (E) = 1 with kinetic energy E, while
+events in the background region by the ratio of those en-       accounting for the impact of q(E) = 0 as a 0.6% sys-
+tering the signal region to those in the background region.     tematic uncertainty. Improved statistics now make this
+This ratio is determined using MCs. A larger background         effect significant, thus q(E) value from SRIM [46], rang-
+than predicted by MC simulations was observed, amount-          ing from 0.2 to 0.6 for 25–750 eV protons, were adopted.
+ing to 4.9–5.4% of Sβ at 100 kPa (vs. 1.2–1.3% pre-             This adjustment reduced MC detection efficiency εβ by
+dicted) and 3.1–3.3% at 50 kPa (vs. 0.65–0.67%). While          up to 0.3%, with a systematic uncertainty of 0.1% based
+the cause remains unclear, leakage of scattered neutrons        on differences between W-values from SRIM and at which
+through gaps in the 6 LiF tile is suspected. To model this      MCs give best fits.
+background, we selected MCs assuming discrete γ ray                Pileup events were estimated based on count rates.
+energies that best reproduced the experimental results.         The full pileup rate corresponds to a lifetime change of
+Since the single-energy distribution used in the previous       0.4%. We evaluated the classification of primary pileup
+                                                                                                                            4
+
+         106
+
+Counts
+                                                                  TABLE III. List of uncertainties with units in seconds.
+         105                                                                   Effect                           Uncertainty
+                                                                              Statistic                                 1.7
+                                                                           Cut position                                 0.9
+         104
+                                                                     Gas-induced background                      +1.1/-2.0
+                                                                               Pile up                           +1.5/-0.6
+         103                                                     Contamination from 12 C(n,γ)13 C                +1.7/-0.0
+                                                                  γ-ray scattering at LiF shutter                       1.3
+                                                                  Unbunched neutron from SFC                     +1.1/-1.0
+         102                                                                 Inject 3 He                                1.2
+                                                                           3
+                                                                             He in G1He                          +1.5/-1.4
+                                                                     3
+                                                                       He(n,p)3 H cross section                         1.2
+               0   2    4       6       8        10         12
+                                                      DCValue
+                                                           !             Total systematic                        +4.0/-3.6
+                                                            !
+
+
+FIG. 3. XE distribution for 50 kPa/new SFC. Black points
+represent measured data, and colored regions represent the       imental results. The 12 C(n,γ)13 C reaction, where 12 C
+stacked MC distributions. From top to bottom: red (β),           in the CO2 gas absorbs neutrons, produces 13 C with
+yellow (gas-scattered 5000 keV γ rays), green (gas-scattered
+200 keV γ rays), magenta (γ rays scattered by the 6 LiF tile
+                                                                 a 4946 keV γ ray and a 1.0 keV recoil. Misclassifica-
+shutter), and blue (β events from gas-scattered neutrons).       tion of these events as β decay was evaluated using MC
+                                                                 simulations, with uncertainties near the energy thresh-
+                                                                 old included in the systematic uncertainty. The effect
+events, triggered by a β decay electron and a 3 He event         due to scattering of γ rays at the 6 LiF tile shutter was
+follows, by developing a dedicated MC simulation that            modeled using PHITS3.20 [47] and NaI detector mea-
+generates events at different timings. This improved the         surements. This contributed to a 1.3 s systematic un-
+classification accuracy, reducing the pileup uncertainty         certainty. The effect of unbunched neutrons caused by
+to +0.17/-0.07%.                                                 SFC imperfections, leading to detection efficiency mis-
+   Results– To mitigate human bias, a random variation           matches for β and 3 He(n,p)3 H events at the TPC edges,
+of ±10% has been applied to ρ during the updated anal-           was simulated to evaluate their impact and incorporated
+ysis, which was removed only after the analysis method           as systematic uncertainties. The uncertainties in intro-
+and parameters had been finalized. Data were grouped             duced 3 He and G1He-contained 3 He were incorporated
+into four conditions based on gas pressure (100 kPa and          into ρ. For 50 kPa operations, 14 N-based measurements
+50 kPa) and SFC type (old and new), with average neu-            limited the uncertainty to 0.5 s, while mass spectrom-
+tron lifetimes summarized in Table II. For each condi-           eter data increased it to 1.5 s. The 3 He(n,p)3 H cross-
+tion, uncertainties related to cut positions were evalu-         section, 5333 ± 7 barn [48] obtained by averaging two
+ated independently, while globally correlated uncertain-         experiments [49, 50], contributed 1.2 s of uncertainty.
+ties were applied as common shifts. The overall neutron             The neutron lifetime obtained in this study, with sta-
+lifetime result from J-PARC, combining all conditions, is        tistical and systematic uncertainties combined in quadra-
+τn = 877.2 ± 1.7(stat.) +4.0
+                        −3.6 (sys.) . The combining average      ture is shown in Fig.4, along with results from previous
+yielded χ2 /DOF = 15.8/3, though the underlying cause            experiments [6]. Our value is consistent with the bottle
+of this deviation remains undetermined.                          method but shows a 2.3σ tension with the average of the
+                                                                 proton-counting beam method. Combining our results
+TABLE II. Neutron lifetime values for each gas pressure          with other beam measurements gives τnbeam = 886.0±1.8,
+(100 kPa, 50 kPa) and SFC configuration (new, old), with         reducing the discrepancy with the bottle method to 4.0σ.
+averages. Units in seconds.                                         Conclusion and outlook– To address the “neutron life-
+         Conditions  Value Stat. Cut position Other sys.         time puzzle,” arising from discrepancies between neu-
+     100 kPa/old SFC 870.9 3.5    +1.8/-2.8 +5.5/-4.9            tron lifetimes measured by the beam method (via decay
+     100 kPa/new SFC 868.3 4.0    +1.5/-2.9 +3.8/-3.2            products) and the bottle method (via disappearance), we
+      50 kPa/old SFC 868.2 7.7    +2.7/-0.9 +4.8/-3.9            measured the neutron lifetime from the ratio of electrons
+      50 kPa/new SFC 884.8 2.4    +0.8/-1.3 +3.2/-3.0            from neutron decay to 3 He(n,p)3 H reactions. Unlike pre-
+         Combined    877.2 1.7                +4.0/-3.6          vious beam method experiments that detected protons,
+                                                                 this experiment introduced distinct systematic uncertain-
+  The main uncertainties in this measurement are sum-            ties.
+marized in Table III, with the largest contribution from            By enlarging the SFC aperture, the neutron inten-
+the gas-scattering neutron background. The effect due            sity increased by a factor of 2.8, enabling high-statistics
+to the cut position uncertainties are small (0.9 s) due          data acquisition and achieving a statistical precision of
+to good agreement between MC simulations and exper-              1.7 s. Systematic uncertainties were reduced to 4 s by
+                                                                                                                                           5
+
+                                                                             KEK IPNS.
+                      895                                    Beam method
+
+
+
+
+Neutron lifetime[s]
+                                                             Bottle method
+                      890                                    J-PARC
+
+                                                                                ∗
+                                                                                  Corresponding author: kmishima@kmi.nagoya-u.ac.jp
+                      885
+                                                                              [1] G. J. Mathews, T. Kajino, and T. Shima, Big bang nu-
+                                                                                  cleosynthesis with a new neutron lifetime, Phys. Rev. D
+                      880                                                         71, 021302 (2005).
+                                                                              [2] T. Chowdhury and S. Ipek, Neutron lifetime anomaly and
+                                                                                  Big Bang nucleosynthesis, Can. J. Phys. 102, 96 (2024).
+                      875
+                                                                              [3] C. L. Bennett, D. Larson, J. L. Weiland, N. Jarosik,
+                                                                                  G. Hinshaw, N. Odegard, K. Smith, R. Hill, B. Gold,
+                        1995   2000   2005   2010   2015   2020   2025
+                                                                      Year        M. Halpern, et al., Nine-year Wilkinson Microwave
+                                                                                  Anisotropy Probe (WMAP) observations: final maps and
+FIG. 4. Measured neutron lifetimes in this work and previous                      results, Astrophys. J., Suppl. Ser. 208, 20 (2013).
+experiments [6]. Red circles represent measurements using the                 [4] N. Aghanim, Y. Akrami, F. Arroja, M. Ashdown, J. Au-
+proton-detection-based beam method, blue squares represent                        mont, C. Baccigalupi, M. Ballardini, A. J. Banday,
+the bottle method, and the red and blue bands indicate the                        R. Barreiro, N. Bartolo, et al., Planck 2018 results-I.
+averages of these two methods. The open circle represents the                     Overview and the cosmological legacy of Planck, Astron.
+measurement from this work at J-PARC.                                             Astrophys. 641, A1 (2020).
+                                                                              [5] C.-Y. Seng, M. Gorchtein, H. H. Patel, and M. J.
+                                                                                  Ramsey-Musolf, Reduced Hadronic Uncertainty in the
+                                                                                  Determination of Vud , Phys. Rev. Lett. 121, 241804
+accurately modeling gas-scattered neutron backgrounds.                            (2018).
+Combining all data, the neutron lifetime was determined                       [6] S. Navas et al. (Particle Data Group Collaboration),
+                            +4.0
+as τn = 877.2 ± 1.7(stat.) −3.6  (sys.) s. This result aligns                     Review of Particle Physics, Phys. Rev. D 110, 030001
+with the bottle method and is 10.8 s shorter than the av-                         (2024).
+eraged value of proton-counting beam method, exhibiting                       [7] C.-C. Chang, A. N. Nicholson, E. Rinaldi, E. Berkowitz,
+2.3σ tension in the results of the beam method.                                   N. Garron, D. A. Brantley, H. Monge-Camacho, C. J.
+                                                                                  Monahan, C. Bouchard, M. A. Clark, et al., A per-cent-
+   The primary limitation of this experiment is the γ ray                         level determination of the nucleon axial coupling from
+background from gas-scattered neutrons in the TPC. To                             quantum chromodynamics, Nature 558, 91 (2018).
+suppress this background, the upcoming LiNA experi-                           [8] J. Byrne, P. Dawber, C. G. Habeck, S. J. Smidt, J. Spain,
+ment [51, 52] will apply a solenoidal magnetic field to                           and A. P. Williams, A revised value for the neutron life-
+the TPC. This setup is expected to reduce background                              time measured using a Penning trap, Europhys. Lett. 33,
+events by a factor of 50. Furthermore, the reduction                              187 (1996).
+                                                                              [9] A. T. Yue, M. S. Dewey, D. M. Gilliam, G. L. Greene,
+of background will decrease the required measurement
+                                                                                  A. B. Laptev, J. S. Nico, W. M. Snow, and F. E. Wiet-
+time to one-third, while the uncertainty due to pileup is                         feldt, Improved Determination of the Neutron Lifetime,
+also anticipated to decrease to one-third as a result of its                      Phys. Rev. Lett. 111, 222501 (2013).
+shorter drift length.                                                        [10] A. Serebrov, V. Varlamov, A. Kharitonov, A. Fomin,
+   We sincerely thank Prof. Y. Namito and H. Hi-                                  Y. Pokotilovski, P. Geltenbort, J. Butterworth,
+rayama for the discussions on Geant4 specifications,                              I. Krasnoschekova, M. Lasakov, R. Tal’Daev, A. Vassil-
+                                                                                  jev, and O. Zherebtsov, Measurement of the neutron life-
+and Prof. M. Hino for fabricating the neutron su-
+                                                                                  time using a gravitational trap and a low-temperature
+permirror for the SFC. This work was supported                                    Fomblin coating, Phys. Lett. B 605, 72 (2005).
+by JSPS KAKENHI Grant Numbers (JP19GS0210,                                   [11] A. Pichlmaier, V. Varlamov, K. Schreckenbach, and
+23244047, 24654058, 26247035, 16H02194, 18H01231,                                 P. Geltenbort, Neutron lifetime measurement with the
+19H00690, 21H04475, and 22H00140), and JST, the                                   UCN trap-in-trap MAMBO II, Phys. Lett. B 693, 221
+establishment of university fellowships towards the                               (2010).
+creation of science technology innovation, Grant Num-                        [12] A. Steyerl, J. Pendlebury, C. Kaufman, S. S. Malik, and
+                                                                                  A. Desai, Quasielastic scattering in the interaction of ul-
+ber JPMJFS2136. The neutron experiment at the
+                                                                                  tracold neutrons with a liquid wall and application in a
+Materials and Life Science Experimental Facility of                               reanalysis of the Mambo I neutron-lifetime experiment,
+J-PARC was performed under user programs (Proposal                                Phys. Rev. C: Nucl. Phys. 85, 065503 (2012).
+Nos. 2014B0271, 2015A0316, 2016A0168, 2016B0272,                             [13] S. Arzumanov, L. Bondarenko, S. Chernyavsky, P. Gel-
+2017A0230,      2017B0332,     2018A0297,        2018B0272,                       tenbort, V. Morozov, V. Nesvizhevsky, Y. Panin, and
+2019A0223,      2019B0341,     2020A0223,        2021B0287,                       A. Strepetov, A measurement of the neutron lifetime us-
+2022A0117, 2022B0325, 2023A0184, 2023B0253, and                                   ing the method of storage of ultracold neutrons and de-
+                                                                                  tection of inelastically up-scattered neutrons, Phys. Lett.
+2024A0331) and an S-type projects of KEK IMSS
+                                                                                  B 745, 79 (2015).
+(Proposal Nos. 2014S03 and 2019S03). This experiment                         [14] A. P. Serebrov, E. A. Kolomensky, A. K. Fomin, I. A.
+is supported as stage-1 status (E100) of J-PARC-PAC
+                                                                                                                                6
+
+     Krasnoshchekova, A. V. Vassiljev, D. M. Prudnikov, I. V.          Prospector mission, Phys. Rev. C 104, 045501 (2021).
+     Shoka, A. V. Chechkin, M. E. Chaikovskiy, V. E. Var-         [30] N. Tsuji, T. Enoto, H. Nagaoka, Y. Kato, K. Taniguchi,
+     lamov, et al., Neutron lifetime measurements with a large         M. Hareyama, Y. Otake, Y. Wakabayashi, T. Takanashi,
+     gravitational trap for ultracold neutrons, Phys. Rev. C           C. Iwamoto, et al., Moon Moisture Targeting Observa-
+     97, 055503 (2018).                                                tory (MoMoTarO) for basic science application to neu-
+[15] R. W. Pattie, N. B. Callahan, C. Cude-Woods, E. R.                tron lifetime measurement, in Proceedings of 38th Inter-
+     Adamek, L. J. Broussard, S. M. Clayton, S. A. Currie,             national Cosmic Ray Conference (ICRC2023) - Cosmic-
+     E. B. Dees, X. Ding, E. M. Engel, et al., Measurement of          Ray Physics (Indirect, CRI), Vol. 444 (2023) p. 296.
+     the neutron lifetime using a magneto-gravitational trap      [31] R. Kossakowski, P. Grivot, P. Liaud, K. Schreckenbach,
+     and in situ detection, Science 360, 627 (2018).                   and G. Azuelos, Neutron lifetime measurement with a
+[16] V. F. Ezhov, A. Andreev, G. Ban, B. Bazarov, P. Gel-              helium-filled time projection chamber, Nucl. Phys. A
+     tenbort, A. Glushkov, V. Knyazkov, N. A. Kovrizhnykh,             503, 473 (1989).
+     G. Krygin, O. Naviliat-Cuncic, et al., Measurement of        [32] K. Hirota, G. Ichikawa, S. Ieki, T. Ino, Y. Iwashita,
+     the neutron lifetime with ultracold neutrons stored in a          M. Kitaguchi, R. Kitahara, J. Koga, K. Mishima,
+     magneto-gravitational trap, JETP Lett. 107, 671 (2018).           T. Mogi, K. Morikawa, A. Morishita, N. Nagakura,
+[17] F. M. Gonzalez, E. Fries, C. Cude-Woods, T. Bailey,               H. Oide, H. Okabe, H. Otono, Y. Seki, D. Sek-
+     M. Blatnik, L. Broussard, N. Callahan, J. Choi, S. Clay-          iba, T. Shima, H. M. Shimizu, N. Sumi, H. Sum-
+     ton, S. Currie, et al. (UCNτ Collaboration), Improved             ino, T. Tomita, H. Uehara, T. Yamada, S. Yamashita,
+     neutron lifetime measurement with UCNτ , Phys. Rev.               K. Yano, M. Yokohashi, and T. Yoshioka, Neutron life-
+     Lett. 127, 162501 (2021).                                         time measurement with pulsed cold neutrons, Prog.
+[18] G. Greene and P. Geltenbort, A puzzle lies at the heart           Theor. Exp. Phys. 2020, 123C02 (2020).
+     of the atom, Sci. Am. 314, 36 (2016).                        [33] K. Mishima, T. Ino, K. Sakai, T. Shinohara, K. Hirota,
+[19] A. Serebrov, M. Chaikovskii, G. Klyushnikov,                      K. Ikeda, H. Sato, Y. Otake, H. Ohmori, S. Muto, et al.,
+     O. Zherebtsov, and A. Chechkin, Search for expla-                 Design of neutron beamline for fundamental physics at
+     nation of the neutron lifetime anomaly, Phys. Rev. D              J-PARC BL05, Nucl. Instrum. Methods Phys. Res., Sect.
+     103, 074010 (2021).                                               A 600, 342 (2009).
+[20] F. E. Wietfeldt, R. Biswas, J. Caylor, B. Crawford, M. S.    [34] K. Nakajima, Y. Kawakita, S. Itoh, J. Abe, K. Aizawa,
+     Dewey, N. Fomin, G. L. Greene, C. C. Haddock, S. F.               H. Aoki, H. Endo, M. Fujita, K. Funakoshi, W. Gong,
+     Hoogerheide, H. P. Mumm, et al., Comment on “Search               et al., Materials and Life Science Experimental Facility
+     for explanation of the neutron lifetime anomaly”, Phys.           (MLF) at the Japan Proton Accelerator Research Com-
+     Rev. D 107, 118501 (2023).                                        plex II: Neutron Scattering Instruments, Quantum Beam
+[21] S. Rajendran and H. Ramani, Composite solution to the             Sci. 1, 9 (2017).
+     neutron lifetime anomaly, Phys. Rev. D 103, 035014           [35] K. Taketani, T. Ebisawa, M. Hino, K. Hirota, T. Ino,
+     (2021).                                                           M. Kitaguchi, K. Mishima, S. Muto, H. Oide, T. Oku,
+[22] E. Oks, New results on the two-body decay of neu-                 et al., A high S/N ratio spin flip chopper system for a
+     trons shed new light on neutron stars, New Astron. 113,           pulsed neutron source, Nucl. Instrum. Methods Phys.
+     102275 (2024).                                                    Res., Sect. A 634, S134 (2011).
+[23] Z. Berezhiani, Neutron lifetime puzzle and neutron–          [36] G. Ichikawa, Y. Fuwa, T. Hasegawa, M. Hino, K. Hirota,
+     mirror neutron oscillation, Eur. Phys. J. C 79, 1 (2019).         T. Ino, Y. Iwashita, M. Kitaguchi, J. Koga, S. Matsuzaki,
+[24] B. Fornal and B. Grinstein, Dark matter interpretation of         et al., Neutron lifetime experiment with pulsed cold neu-
+     the neutron decay anomaly, Phys Rev. Lett. 120, 191801            trons at J-PARC, in Proceedings of Particles and Nu-
+     (2018).                                                           clei International Conference 2021 — PoS(PANIC2021),
+[25] S. Materne, R. Picker, I. Altarev, H. Angerer, B. Franke,         Vol. 380 (2022) p. 457.
+     E. Gutsmiedl, F. Hartmann, A. Müller, S. Paul, and          [37] K. Mishima, G. Ichikawa, Y. Fuwa, T. Hasegawa,
+     R. Stoepler, PENeLOPE—on the way towards a new                    M. Hino, R. Hosokawa, T. Ino, Y. Iwashita,
+     neutron lifetime experiment with magnetic storage of              M. Kitaguchi, S. Matsuzaki, et al., Performance of the
+     ultra-cold neutrons and proton extraction, Nucl. Instrum.         Fully Equipped Spin Flip Chopper for the Neutron Life-
+     Methods Phys. Res., Sect. A 611, 176 (2009).                      time Experiment at J-PARC, Prog. Theor. Exp. Phys.
+[26] W. Wei, A new neutron lifetime experiment with cold               2024, 093G01 (2024).
+     neutron beam decay in superfluid helium-4, J. Phys.          [38] Y. Arimoto, N. Higashi, Y. Igarashi, Y. Iwashita, T. Ino,
+     G:Nucl. Part. Phys. 47, 125101 (2020).                            R. Katayama, M. Kitaguchi, R. Kitahara, H. Matsumura,
+[27] J. Auler, M. Engler, K. Franz, J. Kahlenberg, J. Karch,           K. Mishima, et al., Development of time projection cham-
+     N. Pfeifer, K. Roß, C. Strid, N. Yazdandoost, E. Adamek,          ber for precise neutron lifetime measurement using pulsed
+     et al., τ SPECT: a spin-flip loaded magnetic ultracold            cold neutron beams, Nucl. Instrum. Methods Phys. Res.,
+     neutron trap for a determination of the neutron lifetime,         Sect. A 799, 187 (2015).
+     J. Phys. G:Nucl. Part. Phys. 51, 115103 (2024).              [39] J. Koga, S. Ieki, A. Kimura, M. Kitaguchi, R. Kita-
+[28] M. Krivoš, N. Floyd, Z. Tang, C. Morris, M. Blatnik,             hara, K. Mishima, N. Nagakura, T. Okudaira, H. Otono,
+     S. Clayton, C. Cude-Woods, A. Holley, D. Hooks, T. Ito,           H. Shimizu, et al., Measurement of gamma rays from
+                                                                       6
+     et al., Cerium doped yttrium aluminum perovskite scin-              LiF tile as an inner wall of a neutron-decay detector, J.
+     tillator as an absolute ultracold neutron detector, Review        Instrum. 16, P02001 (2021).
+     of Scientific Instruments 95, 10.1063/5.0211059 (2024).      [40] J. Allison, K. Amako, J. Apostolakis, P. Arce, M. Asai,
+[29] J. T. Wilson, D. J. Lawrence, P. N. Peplowski, V. R. Eke,         T. Aso, E. Bagli, A. Bagulya, S. Banerjee, G. Barrand,
+     and J. A. Kegerreis, Measurement of the free neutron life-        et al., Recent developments in Geant4, Nucl. Instrum.
+     time using the neutron spectrometer on NASA’s Lunar               Methods Phys. Res., Sect. A 835, 186 (2016).
+                                                                                                                              7
+
+[41] H. Sumino, K. Nagao, and K. Notsu, Highly sensitive               The stopping and range of ions in matter (2010), Nucl.
+     and precise measurement of helium isotopes using a mass           Instrum. Methods Phys. Res., Sect. B 268, 1818 (2010).
+     spectrometer with double collector system, J. Mass Spec-     [47] Tatsuhiko Sato and Yosuke Iwamoto and Shintaro
+     trom. Soc. Jpn. 49, 61 (2001).                                    Hashimoto and Tatsuhiko Ogawa and Takuya Furuta
+[42] K. Mishima, H. Sumino, T. Yamada, S. Ieki, N. Na-                 and Shin-ichiro Abe and Takeshi Kai and Pi-En Tsai
+     gakura, H. Otono, and H. Oide, Accurate determination             and Norihiro Matsuda and Hiroshi Iwase and Nobuhiro
+     of the absolute 3He/4He ratio of a synthesized helium             Shigyo and Lembit Sihver and Koji Niita, Features of
+     standard gas (helium standard of Japan, HESJ): toward             Particle and Heavy Ion Transport code System (PHITS)
+     revision of the atmospheric 3He/4He ratio, Geochem.               version 3.02, J. Nucl. Sci. Technol. 55, 684 (2018).
+     Geophys. Geosyst. 19, 3995 (2018).                           [48] S. F. Mughabghab, Atlas of Neutron Resonances: Reso-
+[43] R. Kitahara, K. Hirota, S. Ieki, T. Ino, Y. Iwashita,             nance Parameters and Thermal Cross Sections. Z= 1-100
+     M. Kitaguchi, J. Koga, K. Mishima, A. Morishita, N. Na-           (Elsevier, Amsterdam, 2006).
+     gakura, et al., Improved accuracy in the determination       [49] J. Als-Nielsen and O. Dietrich, Slow Neutron Cross Sec-
+     of the thermal cross section of 14 N(n, p)14 C for neutron        tions for He3 , B, and Au, Phys. Rev. 133, B925 (1964).
+     lifetime measurement, Prog. Theor. Exp. Phys. 2019,          [50] V. P. Alfimenkov, G. G. Akopyan, J. Wierzbicki, A. M.
+     093C01 (2019).                                                    Govorov, L. B. Pikel’ner, and E. Sharapov, Neutron scat-
+[44] T. Mogi, T. Hasegawa, K. Hirota, G. Ichikawa, S. Ieki,            tering lengths for 3 He, Yad. Fiz. 25, 1145 (1977), [Sov.
+     T. Ino, Y. Iwashita, S. Kajiwara, Y. Kato, M. Kitaguchi,          J. Nucl. Phys. 25, 1145 (1977) (English translation)].
+     et al., Improvement of systematic uncertainties for the      [51] H. Otono, LiNA–Lifetime of neutron apparatus with time
+     neutron lifetime experiment at J-PARC, in Proceedings             projection chamber and solenoid coil, Nucl. Instrum.
+     of Particles and Nuclei International Conference 2021 —           Methods Phys. Res., Sect. A 845, 278 (2017).
+     PoS(PANIC2021), Vol. 380 (2022) p. 458.                      [52] N. Sumi, G. Ichikawa, K. Mishima, Y. Makida,
+[45] I. Katsioulas, P. Knights, and K. Nikolopoulos, Ionisation        M. Kitaguchi, S. Makise, S. Matsuzaki, T. Nagano,
+     quenching factors from w-values in pure gases for rare            M. Tanida, H. Uehara, et al., The LiNA experiment:
+     event searches, Astropart. Phys. 141, 102707 (2022).              Development of multi-layered time projection chamber,
+[46] J. F. Ziegler, M. D. Ziegler, and J. P. Biersack, SRIM–           Nucl. Instrum. Methods Phys. Res., Sect. A 1045,
+                                                                       167586 (2023).
+

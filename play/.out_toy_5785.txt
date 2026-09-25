@@ -1,0 +1,54 @@
+=== primaries: printed strings present ===
+  [PASS] neutron/2501.17916.txt: '5263.284(17) s'
+  [PASS] neutron/2501.17916.txt: '0.97393(41)'
+  [PASS] neutron/2501.17916.txt: '45.37(27)'
+  [PASS] neutron/cms2018.txt: '4908.6(1.9)s'
+  [PASS] neutron/cms2019.txt: '4906.4(1.7) s'
+  [PASS] neutron/gorchteinseng2021.txt: '4903.1(1.1) s'
+  [PASS] neutron/wietfeldt2024.txt: '4905.7(1.7)s'
+  [PASS] vv26.txt: '5099.33 s'
+  [PASS] vv26.txt: '0.03983(27)'
+  [PASS] 2501.17916 does NOT print 4905.7 (K1923's attribution)
+
+=== A2 predicts tau(1+3 lambda^2) = 20K/19; compare (read last) ===
+  K =  4902.29(1.3) s  [Vander Griend-Cao-Hill-Plestid 2025, Eq. 28 (arith)]  ->  20K/19 = 5160.3 ± 1.4 s
+        measured 5167.9 ± 4.3  [UCNtau 2021 877.75(34) + PERKEO III 1.27641(56)]  ->  +1.69 sigma
+        measured 5168.3 ± 4.2  [UCNtau all-data 877.82(30) + PERKEO III]  ->  +1.83 sigma
+        measured 5160.9 ± 8.9  [UCNtau all-data + PDG 2026 lambda 1.2753(13)]  ->  +0.06 sigma
+  K =  4903.10(1.1) s  [Gorchtein-Seng 2021, Eq. 2]  ->  20K/19 = 5161.2 ± 1.2 s
+        measured 5167.9 ± 4.3  [UCNtau 2021 877.75(34) + PERKEO III 1.27641(56)]  ->  +1.53 sigma
+        measured 5168.3 ± 4.2  [UCNtau all-data 877.82(30) + PERKEO III]  ->  +1.66 sigma
+        measured 5160.9 ± 8.9  [UCNtau all-data + PDG 2026 lambda 1.2753(13)]  ->  -0.03 sigma
+  K =  4904.00(1.3) s  [PDG 2026 Eq. 67.5 with Delta_R 0.03983(27) (arith)]  ->  20K/19 = 5162.1 ± 1.3 s
+        measured 5167.9 ± 4.3  [UCNtau 2021 877.75(34) + PERKEO III 1.27641(56)]  ->  +1.30 sigma
+        measured 5168.3 ± 4.2  [UCNtau all-data 877.82(30) + PERKEO III]  ->  +1.42 sigma
+        measured 5160.9 ± 8.9  [UCNtau all-data + PDG 2026 lambda 1.2753(13)]  ->  -0.14 sigma
+  K =  4905.70(1.7) s  [Wietfeldt 2024 Eq. 3 (secondary; credits CMS PRD 2019)]  ->  20K/19 = 5163.9 ± 1.8 s
+        measured 5167.9 ± 4.3  [UCNtau 2021 877.75(34) + PERKEO III 1.27641(56)]  ->  +0.87 sigma
+        measured 5168.3 ± 4.2  [UCNtau all-data 877.82(30) + PERKEO III]  ->  +0.98 sigma
+        measured 5160.9 ± 8.9  [UCNtau all-data + PDG 2026 lambda 1.2753(13)]  ->  -0.33 sigma
+  K =  4906.40(1.7) s  [Czarnecki-Marciano-Sirlin PRD 100 (2019) arXiv v1 Eq. 49]  ->  20K/19 = 5164.6 ± 1.8 s
+        measured 5167.9 ± 4.3  [UCNtau 2021 877.75(34) + PERKEO III 1.27641(56)]  ->  +0.71 sigma
+        measured 5168.3 ± 4.2  [UCNtau all-data 877.82(30) + PERKEO III]  ->  +0.81 sigma
+        measured 5160.9 ± 8.9  [UCNtau all-data + PDG 2026 lambda 1.2753(13)]  ->  -0.42 sigma
+  K =  4908.60(1.9) s  [Czarnecki-Marciano-Sirlin PRL 120 (2018) Eq. 2]  ->  20K/19 = 5166.9 ± 2.0 s
+        measured 5167.9 ± 4.3  [UCNtau 2021 877.75(34) + PERKEO III 1.27641(56)]  ->  +0.20 sigma
+        measured 5168.3 ± 4.2  [UCNtau all-data 877.82(30) + PERKEO III]  ->  +0.30 sigma
+        measured 5160.9 ± 8.9  [UCNtau all-data + PDG 2026 lambda 1.2753(13)]  ->  -0.67 sigma
+  [PASS] K1923's 0.87 sigma reproduced on its own inputs (K 4905.7, UCNtau 2021 + PERKEO)
+  [PASS] on the newest K (2501.17916) and newest UCNtau the tension exceeds K1923's 0.87 sigma
+
+  newest-on-newest: +1.83 sigma
+  sqrt(19/20) = 0.974679 vs 2501.17916's neutron |V_ud| 0.97393(41): +1.83 sigma
+
+=== E7: g_A = 4/pi jointly with A2, per K (tau = 20K/19 / (1+3(4/pi)^2)) ===
+  K  4902.29: tau = 880.09 ± 0.24 s vs UCNtau all-data 877.82(30) -> +5.94 sigma
+  K  4903.10: tau = 880.23 ± 0.20 s vs UCNtau all-data 877.82(30) -> +6.71 sigma
+  K  4904.00: tau = 880.39 ± 0.23 s vs UCNtau all-data 877.82(30) -> +6.82 sigma
+  K  4905.70: tau = 880.70 ± 0.31 s vs UCNtau all-data 877.82(30) -> +6.72 sigma
+  K  4906.40: tau = 880.82 ± 0.31 s vs UCNtau all-data 877.82(30) -> +7.02 sigma
+  K  4908.60: tau = 881.22 ± 0.34 s vs UCNtau all-data 877.82(30) -> +7.48 sigma
+  4/pi vs PERKEO III 1.27641(56): +5.66 sigma; vs PDG 2026 1.2753(13) S=2.7: +1.58 sigma
+  [PASS] g_A = 4/pi excluded jointly with A2 at > 5 sigma on every pinned K
+
+SCORE 13/13

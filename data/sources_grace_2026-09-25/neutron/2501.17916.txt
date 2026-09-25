@@ -1,0 +1,827 @@
+                                                                                                                                               CALT-TH-2025-001
+                                                                                                                                     FERMILAB-PUB-25-0028-T
+
+
+
+                                                             The Fermi function and the neutron’s lifetime
+
+                                               Peter Vander Griend1,2 , Zehua Cao1 , Richard J. Hill1,2 , and Ryan Plestid3
+                                          1
+                                              University of Kentucky, Department of Physics and Astronomy, Lexington, KY 40506 USA
+                                                         2
+                                                           Fermilab, Theoretical Physics Department, Batavia, IL 60510 USA
+                                                 3
+                                                   Walter Burke Institute for Theoretical Physics, California Institute of Technology,
+                                                                               Pasadena, CA 91125 USA
+
+
+
+
+arXiv:2501.17916v2 [hep-ph] 18 Aug 2025
+                                                                                            August 19, 2025
+
+
+                                                                                                 Abstract
+
+                                                 The traditional Fermi function ansatz for nuclear beta decay describes enhanced perturbative effects in
+                                                 the limit of large nuclear charge Z and/or small electron velocity β. We define and compute the quantum
+                                                 field theory object that replaces this ansatz for neutron beta decay, where neither of these limits hold.
+                                                 We present a new factorization formula that applies in the limit of small electron mass, analyze the
+                                                 components of this formula through two loop order, and resum perturbative corrections that are enhanced
+                                                 by large logarithms. We apply our results to the neutron lifetime, supplying the first two-loop input to the
+                                                 long-distance corrections. Our result can be summarized as
+
+                                                                                                               5263.284(17) s
+                                                                           τn × |Vud |2 1 + 3λ2 1 + ∆R =
+                                                                                                   
+                                                                                                                                ,
+                                                                                                            1 + 27.04(7) × 10−3
+
+                                                 with |Vud | the up-down quark mixing parameter, τn the neutron’s lifetime, λ the ratio of axial to vector
+                                                 charge, and ∆R the short-distance matching correction. We find a shift in the long-distance radiative
+                                                 corrections compared to previous work, and discuss implications for extractions of |Vud | and tests of the
+                                                 Standard Model.
+
+
+
+
+                                                                                                      1
+1    Introduction
+The neutron’s lifetime τn is an important precision observable within the Standard Model [1–12], offering a
+theoretically clean determination of the CKM matrix element |Vud | and probing physics beyond the Standard
+Model [13–23]. Unambiguous conclusions require control over radiative corrections [24–34]. It is well known
+that the neutron decay rate receives a large, ∼ 7%, first order QED radiative correction [7, 35], two orders
+of magnitude larger than the naive expectation of α/(2π) ≈ 10−3 . While a portion of this correction arises
+from electroweak logarithms and can be resummed by standard means, the largest contributions arise from
+the low-energy matrix element.
+   These numerically large long-distance contributions have historically been estimated using a Fermi function
+ansatz; after integrating over phase space, the estimated corrections to the rate behave as [26, 35, 36]
+
+                                        1 + 4.6 α + 16 α2 + 35 α3 + . . . .                                   (1)
+
+As we discuss below, the Fermi function does not give a controlled approximation to the complete decay
+amplitude beyond first order in α. Nevertheless, the ansatz in Eq. (1) predicts a permille-level contribution from
+the second-order term (16α2 ), which is larger than the precision goals for |Vud | determinations from neutron
+beta decay. What object should replace the ansatz in Eq. (1) and its associated second-order correction?
+    The Fermi function for beta decay [36] describes a class of enhanced radiative corrections arising from
+electron or positron propagation in a nuclear Coulomb field. The corrections are parametrically enhanced at
+large Z and/or at small electron velocity β. However, neither limit holds for neutron beta decay: Z is equal
+to 0 or 1 for the neutron or proton, and the region of small electron velocity is kinematically suppressed. In
+detail, the electron velocity spectrum is given by (for simplicity in this illustration we compute at tree level
+and in the heavy nucleon limit)
+                                                             "                 #2
+                                dΓ(n → peν)       β2             ∆      1
+                                            ∝            5         −p               ,                         (2)
+                                    dβ        (1 − β 2 ) 2       m    1 − β2
+
+where m is the electron’s mass, ∆ = mn − mppis the difference between the neutron mass mn and the proton
+mass mp , and the allowed range is 0 ≤ β ≤ 1 − m2 /∆2 . The spectrum is strongly suppressed at small β:
+the mean velocity is ⟨β⟩ ≈ 0.73, and less than 0.1% of the total decay rate involves electron velocity β < 0.1
+(less than 10% involves β < 0.5).
+    In Refs. [30, 31], two of us showed how the traditional Fermi function for nuclear beta decay may be
+identified as the leading-in-Z contribution to a well-defined quantum field theory object (the hard contribution
+in the factorization formula for the process). Here, we show how the large first-order correction appearing in
+this quantum field theory object, and in Eq. (1), arises from large logarithms | log[(−E − i0)/E]| = π, where
+E is the electron energy. We show how these large logarithms are resummed using renormalization group
+(RG) methods. Moreover, in the limit of small electron mass (recall m2 /∆2 ≈ 0.16), we show that the Fermi
+function enhancement for neutron beta decay is governed by the universal cusp anomalous dimension for QED
+scattering amplitudes [37, 38].
+    In what follows, we construct a systematic description to replace Eq. (1), identifying the object that
+replaces the traditional Fermi function ansatz for neutron beta decay as a component of a quantum field
+theory factorization formula. We decompose this object in the limit of small electron mass and compute the
+associated hard and jet functions through two loop order. Using these results, we present a new analysis of the
+long-distance radiative corrections to neutron beta decay, apply our formalism to obtain improved predictions
+for τn and |Vud |, and comment on application of our results to nuclear beta decay.
+
+
+2    Renormalization analysis
+In what follows, we will write the matrix element for neutron decay as a Dirac structure that acts between
+the electron and neutrino spinors. For an electron with momentum p and a neutrino with momentum k, this
+object appears in the leptonic part of the amplitude as ū(p)Mγµ (1 − γ5 )v(k), and is normalized to unity at
+tree level, M = 1 + O(α). The matrix element including virtual photon corrections can be decomposed in
+
+
+                                                        2
+terms of soft and hard virtual photon contributions i.e., M ∼ MS × MH [30]. The product MS × MH
+thus encodes the long-distance contributions associated with physics below the scale of the nucleon masses;
+short-distance contributions are encoded in the Wilson coefficient obtained by matching onto the UV theory
+and are proportional to the weak vector and axial vector couplings gV,A . The matching onto the UV theory
+is performed at the scale µUV . Both the ratio of the vector and axial vector couplings and the product of the
+Wilson coefficient and the long-distance matrix element are independent of µUV . Real photon contributions
+are discussed after Eq. (17). The soft factor is known to all orders in perturbation theory [39, 40]. The hard
+matrix element can be computed order-by-order in perturbation theory.
+    Let us decompose the hard amplitude MH in the static limit (defined as ∆/mp → 0 with ∆ held fixed).
+In this limit, we can label the proton and neutron with a conserved four-velocity vµ . With vµ as an available
+reference vector, the amplitude can be written as
+                                                                          1
+                                        MH (w, µ2 ) = AH (w, µ2 ) +         v/ BH (w, µ2 ) ,                (3)
+                                                                          w
+where pµ is the electron four-momentum, v µ = (1, 0, 0, 0) in the neutron rest frame, w = v · p/m, and µ is the
+renormalization scale. Amplitudes computed in the static limit have certain simple properties. For instance
+taking v → −v (implying w → −w) is equivalent to crossing (this follows immediately from the Feynman rules
+of the heavy-particle effective theory). Writing
+
+                                     MH (w) = MH (−w) + [MH (w) − MH (−w)] ,                                (4)
+
+we recognize the first object, MH (−w), as the amplitude for the spacelike process where a heavy particle of
+charge −1 converts to an electron.1 At one loop order, explicit calculation yields
+
+                                            µ2UV       µ2
+                                                                                      
+                                    α 3
+                  AH (−w) = 1 +          log 2 + log 2 (wj(w) − 1) + wj(w) − wJ(w) ,
+                                   2π 4      m         m
+                                           
+                               α
+                   BH (−w) =        − wj(w) ,                                                            (5)
+                               2π
+
+where (for w > 1) the functions j(w) and J(w) are defined by
+                              p                p        
+                  wj(w) =[w/ w2 − 1] log w + w2 − 1 ,
+                               p                   p                   p
+                     wJ(w) =[w/ w2 − 1] Li2 1 − (w − w2 − 1)2 + log2 (w + w2 − 1) .
+                                                                                
+                                                                                                            (6)
+
+    Again using properties of heavy-particle amplitudes, we observe that MH (w) can be computed as the sum
+of the first object MH (−w) plus all possible insertions of a Z = +1 background field [32, 41]
+                                                                     
+                                                                                      
+         MH (w) ≡                             =
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                           v→−v
+                                                                                             
+                                                                                             
+                                                                                             
+                                                                                             
+                   =                                 +                                 +     
+                                                                                             
+                                                                                             
+                                                                                             
+
+
+  1 An example is the anti-particle analog of inverse beta decay i.e., ν p̄ → e− n̄.
+                                                                        e
+
+
+
+
+                                                                 3
+                   +                          +                           +                                 (7)
+
+
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                   +                              +                              + ... .
+                                                                                
+                                                                                
+                                                                                
+
+
+
+
+The second object in Eq. (4), MH (w, µ2 ) − MH (−w, µ2 ), contains all diagrams with at least one background
+field insertion. At one loop order,
+                                                                  −4p2 − i0
+                                                                             
+                                             α      iπw
+                         AH (w) − AH (−w) =       √           log             −1     ,
+                                             2π     w2 − 1            µ2
+                                                          
+                                             α      iπw
+                          BH (w) − BH (−w) =      √          ,                                            (8)
+                                             2π     w2 − 1
+where we use
+                                                 p
+                            w̃j(w̃) =wj(w) − iπw/ w2 − 1,
+                                                  p
+                           w̃J(w̃) =wJ(w) − iπ(w/ w2 − 1) log −4(w2 − 1) − i0 ,
+                                                                             
+                                                                                                            (9)
+with w̃ = −w − i0.          √
+    When E/p = β −1 = w/ w2 − 1 and E/m = w are order unity, there is no large ratio of physical scales,
+and naively no large logarithms in perturbation theory. However, even when there are no large ratios of scales,
+the difference of amplitudes MH (w) − MH (−w) contains factors of log(−1 − i0) log[(−4p2 − i0)/µ2 ] ∼ −π 2 ,
+cf. Eq. (8). Such large logarithms are minimized by choosing µ2 = −4p2 − i0 as opposed to, for example,
+µ2 = +4p2 [42, 43]. Since the µ2 dependence of the amplitude is known to all orders, such enhancements can
+be resummed to all orders by RG methods, leading to the expression [30]
+                                                          
+                                                   πα
+                              MH (w, µ2 ) = exp       + iαϕ MH (w, −µ2 − i0) ,                            (10)
+                                                   2β
+where
+                                                                          
+                                      1               1        1     1+β
+                                 ϕ=     [wj(w) − 1] =            log     −1 .                             (11)
+                                      2               2       2β     1−β
+In the sections that follow, we show how the expression (10) emerges, to all orders in perturbation theory, in
+the small-m limit. Furthermore, this same analysis relates the Fermi function to enhancements that stem from
+the RG evolution of the universal gauge theory cusp anomalous dimension. We compute MH (w, −µ2 − i0),
+including virtual contributions through two-loop order, and estimating residual corrections from real radiation
+and m2 /∆2 power corrections. We include relevant recoil corrections and the UV matching coefficient to arrive
+at updated predictions for τn and |Vud | from the neutron lifetime.
+
+
+3    Factorization and small mass expansion
+Using the expression (10) and the complete one-loop result for MH (w, −µ2 −i0), we find remaining corrections
+are of order α2 , without logarithmic enhancements arising from the scale µ2 ∼ −4p2 . In order to investigate
+
+
+                                                      4
+the numerical convergence of perturbation theory for the object MH (w, −µ2 − i0) and to further clarify the
+physical meaning of a “Fermi function” for neutron beta decay, let us work to leading power in the small-m
+expansion, m2 /∆2 ≈ 0.156, where ∆ is the maximal electron energy in the static limit. In the small-m limit,
+the virtual corrections to neutron beta decay factorize [44, 45]
+                                  MH (w) ≈ AH (w) ≈ FR (w, m)FJ (m)FH (E) .                                     (12)
+Apart from the small correction from the “remainder” function FR , which converts between ne = 1 and ne = 0
+dynamical electrons in the low-energy effective theory, the amplitude factorizes into a collinear or “jet” function
+FJ depending only on the mass scale m, and a “hard” function FH depending only on the energy scale E.
+   In terms of the well-behaved AH (−w), enhancements are contained in the ratio
+                                              AH (w)     FH (E)
+                                                      ≈         ,                                               (13)
+                                              AH (−w)   FH (−E)
+where we use that FR (w)/FR (−w) is a pure phase [44], cf. Eq. (16). Since FH (upon setting µUV = µ)
+depends only on the dimensionless ratio E/µ and since the µ dependence is determined by renormalization,
+we can resum enhancements in this ratio [45]. At the scale µ = µ∗ = 2E,
+                2                     2                              ᾱ 2   8 2 4  ᾱ 3
+                                                                                                  
+    FH (E, µ∗ )         FH (E, µ∗ )                 2 ᾱ    32    2
+                  =                     = exp − X∗        + ne X∗           − ne X∗         + . . . , (14)
+   FH (−E, µ∗ )      FH (E, −µ∗ − i0)                 4π     9       4π      27      4π
+                     µ2
+where X∗ = log (−µ∗ −i0)2 = 2πi. Here α is the ne = 1 flavor MS coupling and is given in terms of ne = 0
+                    ∗
+
+
+(on-shell) α as
+                                                          m2
+                                                                  
+                                               4ne α
+                                   α=α 1−             log 2 + . . . .                                (15)
+                                                3 4π      µ
+We thus recover the exponential factor in Eq. (10), together with a series of subleading logarithms.
+    After isolating the factor (14), we may use explicit two-loop results extracted [45] from the literature [44, 46–
+50] to compute the remaining components of the factorization formula through two-loop order:
+                          ᾱ 2                     
+                                                          4 2       40      112
+                                                                                
+  FR (−w, m, µ) = 1 +             (log(2w) − 1) ne − Lm − Lm −                     ,
+                           4π                             3          9       27
+                                                       π2
+                                                         
+                          ᾱ 1 2         1
+       FJ (m, µ) = 1 +           Lm − Lm + 2 +
+                          4π 2           2             12
+                        ᾱ 2 1                                                 9 π2
+                                                                                     
+                                           1    4         3           1 52
+                     +              L4m −      − ne +          L3m −       ne − −           L2m
+                         4π       8        6    3         2           4 9        2     6
+                                    154 8π 2          7 23π 2
+                                                                     
+                       1
+                     −     ne −          −        + −             + 24ζ3 Lm
+                       2             27      9        2      12
+                                              41π 2                          331π 4
+                                                                                                
+                             4435 2                          2      2                         209
+                     + ne           − ζ3 −             + 2π − 4π log 2 −             − 3ζ3 +        ,
+                              324      9       54                             1440             16
+                                                       5π 2
+                                                           
+                          ᾱ
+     FH (−E, µ) = 1 +          −2L2E + 2LE − 2 −
+                          4π                            12
+                                     "
+                        ᾱ 2                                    304 16π 2                          113π 2
+                                                                                                           
+                                          16        64                                  656 2
+                     +            ne − L3E + L2E + −                   −         LE +        + ζ3 +
+                         4π                9         9              27     9             81     9       54
+                                                                                                             )
+                                            5π 2                       11π 2            65π 2   167π 4
+                                                                          
+                   + 2L4E − 4L3E +       6+            L2E +    24ζ3 −         LE − 8 +       −        − 15ζ3 , (16)
+                                             6                           2                6      288
+                        
+where Lm ≡ log m2 /µ2 and LE = log(2E/µ). The above components of the factorization formula can be
+expressed in terms of on-shell α using Eq. (15).
+
+
+                                                                5
+4    Radiative corrections in the static limit
+We first present radiative corrections in the static limit, in terms of the tree-level decay rate. These corrections
+are our main focus; in the following section, we combine these corrections with known recoil corrections and
+express the tree-level rate in terms of weak-interaction couplings to determine the neutron lifetime.
+   The differential neutron beta decay rate (including final state photons) can be expressed as
+                                                  
+                                      dΓ        dΓ
+                                           =             S(εγ , µ2 ) H(εγ , µ2 ) ,                              (17)
+                                      dE       dE tree
+
+where εγ is a soft-photon energy cutoff defined in the rest frame of the neutron. Dependence on εγ cancels
+between S and H order-by-order in α when all real and virtual photon effects are included. When εγ is
+assumed small, the soft function exponentiates
+                                                                                           
+               α        2εγ 2      1+β           1     2   1+β      2       2β      1    1+β
+  log S(εγ ) =      log        log      −4 −       log           − Li2            + log        + 2 . (18)
+               2π        µ   β     1−β          2β         1−β      β      1+β      β    1−β
+
+Employing Eq. (10), we write
+                                            α (1)  α 2 (2)
+                      H(εγ , µ2 ) = 1 +       H +           H + ...
+                                           2π          2π
+                                            
+                                            πα
+                                     = exp      H(εγ , −µ2 − i0)                                                (19)
+                                             β
+                                             πα π 2 α2
+                                                                              
+                                                                α (1)  α 2 (2)
+                                     = 1+       +          1 +    Ĥ +      Ĥ     + ... .
+                                              β   2β 2         2π      2π
+
+The quantities H (n) and Ĥ (n) are expansion coefficients for H(εγ , µ2 ) and H(εγ , −µ2 − i0) respectively. We
+may further consider the expansion in electron mass
+                                                                                        2
+                                                        m2                         m2
+                                                                             
+                          H (n) = H (n) 0 +
+                                                                (n)                       (n) 
+                                                                  H        +                  H       + ... ,
+                                                        ∆2               1         ∆2               2
+
+                                                                                        2
+                                                        m2                         m2
+                                                                             
+                               (n)
+                                     = Ĥ (n) 0 +
+                                                                (n)                       (n) 
+                          Ĥ                                      Ĥ       +                  Ĥ      + ... .   (20)
+                                                        ∆2               1         ∆2               2
+
+
+For H (1) and Ĥ (1) , we use the well known exact result [24]
+                                                                       (1)     (1)
+                                                    H (1) = HV + HR ,                                           (21)
+
+with the virtual and real photon contributions
+
+                                                             2π 2
+                                                                                             
+    (1)        µUV         µ 2      1+β               1+β           2       2β       1        1+β
+  HV = 3 log        + log       log       − 4 + β log     +       − Li2           −    log2         ,
+                m         m β       1−β               1−β     β     β      1+β      2β        1−β
+                                               1 + β (∆ − E)2
+                                                                           
+    (1)         εγ         2    1+β        1                      2(∆ − E)        4(∆ − E)
+  HR = log             4 − log          + log                 +            −3 −             + 6.   (22)
+              ∆−E          β    1−β       β    1−β     12E 2         3E              3E
+                                             (2)                 (2)
+For virtual photon contributions to [HV ]0 and [ĤV ]0 we equate the small mass limit of Eq. (19) with the
+expression obtained using Eq. (12).
+     Table 1 examines the convergence of perturbation theory for the hard function, comparing the direct
+expansion (i.e., H (n) ) with the expansion after extracting exp(πα/β) (i.e., Ĥ (n) ). In both cases, the complete
+soft function is included to all orders. We estimate the impact of omitted real radiation contributions at two-
+loop order by including the known εγ dependence as log[εγ /Λγ ]. The resulting hard function is independent of
+εγ , and finite terms are estimated by varying Λγ = ∆/2 . . . 2∆. For comparison, Table 1 shows the analogous
+
+
+                                                                       6
+                      Without Resummation           With Resummation                     Quantity        Value [10−3 ]
+ 1                        0.3 ± 3.5 ± 2.1          34.5    ± 3.6 ± 2.2                   ∆R               45.37 ± 0.27
+       (1)
+ 1 + HV                  32.6 ± 0.1 ± 2.2          33.2    ± 0.004 ± 2.2                 δR,static        29.18 ± 0.07
+ 1 + H (1)               28.8 ± 0.08 ± 0.05        29.32   ± 0.02 ± 0.01                 δrecoil         − 2.06
+              (2)
+ 1 + H (1) + HV          29.04 ± 0.05 ± 0.05       29.31   ± 0.02 ± 0.01                 δrad.rec.       − 0.08
+
+Table 1: (Left) Long-distance radiative correction (δR,static ) to the neutron decay rate, computing the hard
+function at different orders in perturbation theory, in units of 10−3 . The first column of numbers shows direct
+expansion of the hard function, and the second column shows the expansion after extracting exp(πα/β) as
+in Eq. (19). Central values are evaluated at µ2 = m∆, Λγ = ∆, and µUV = ∆ while the errors denote scale
+variation µ = m/2..2∆, and Λγ = ∆/2..2∆ as discussed beneath Eq. (22). (Right) Summary of radiative
+and recoil corrections to neutron decay rate. Electroweak and QED corrections ∆R and δR are evaluated at
+renormalization scale µUV = ∆, in the MS scheme with ne = 1 dynamical electron. The power correction
+given in Eq. (23) accounts for the shift 29.31 → 29.18 in going from the left table to the right table for δR,static .
+
+
+exercise at one-loop order. Neglected higher-order perturbative corrections are estimated by renormalization
+scale variation: µ = m/2 . . . 2∆. Finally, for an estimate of neglected power corrections [H (2) ]i , [Ĥ (2) ]i , for
+i ≥ 1, we first observe that these corrections contribute to the difference between left and right columns in the
+last row of the table: 29.31 − 29.04 = 0.27.
+    For a more refined estimate of power corrections, we consider the inclusion of a gauge invariant subclass
+of power corrections represented by the first two-loop diagram on the right hand side of Eq. (7). This class of
+diagrams (photon exchange with an external field) contains the leading 1/β 2 dependence of the hard function
+at β → 0, amounting to the following power correction
+
+                                             2π 4    m2         2π 4 m2      m4
+                                                                                        
+                           (2)   (2) 
+                         ĤV − ĤV 0 ≈ −                   =  −            +     + . . .   ,                      (23)
+                                               3 E 2 − m2        3     E2    E4
+
+and shifts the central value for the “With Resummation” column of Table 1 as 29.31 → 29.18. We assign a
+residual power correction uncertainty as 1/2 of this shift. The remaining two-loop diagrams in Eq. (7) have
+been estimated to contribute at a numerically small (10−5 ) level [27], after including the iteration of one-loop
+subdiagrams, which are automatically incorporated in our resummed analysis by employing Ĥ in place of H.
+    We define the radiative corrections in the static limit, δR,static , by Γstatic = (1 + δR,static ) × (Γstatic )tree and
+take as our final result (at a renormalization scale µUV = ∆),
+
+                             δR,static (µUV = ∆) = (29.18 ± 0.07 ± 0.01 ± 0.02) × 10−3 .                              (24)
+
+The uncertainties are, respectively, from neglected power corrections in m2 /∆2 at two-loop order, from ne-
+glected real radiation at two-loop order, and from perturbative corrections at three-loop order. We now turn
+to the application of our result to the neutron’s lifetime.
+
+
+5     Neutron lifetime
+The neutron lifetime is given by
+
+                 G2F |Vud |2 ∆5
+                                                                                                       
+                                               2
+            Γn =                fstatic (1 + 3λ ) 1 + ∆R (µUV ) 1 + δR,static (µUV ) + δrecoil + δrad.rec. ,          (25)
+                      2π 3
+
+where λ = gA /gV is the ratio of axial to vector weak-couplings of the nucleon, and the phase space factor in
+the static limit is given by
+                                       Z 1              q         2
+                             fstatic =     dy y (1 − y)2 y 2 − m∆    ≃ 0.0157528 .                       (26)
+                                          m/∆
+
+
+                                                            7
+The short-distance radiative correction
+                                                   ∆R (µUV ) ≡ gV2 (µUV ) − 1,                                                   (27)
+encodes short-distance electroweak and hadronic physics above the scale µUV [4, 5, 7, 35, 51]; we do not
+include an estimate for isospin breaking in ∆R since its numerical value (∼ −4 × 10−5 [52]) is roughly six
+times smaller than the current error estimate on ∆R . The term δR,static encodes the long-distance radiative
+corrections (as given above), and δrecoil and δrad.rec. are recoil and radiative recoil corrections. The recoil
+corrections are computed as described in Refs. [2, 26], and we include the effect of the induced pseudoscalar
+form factor (i.e., one-pion exchange) [26]. The radiative-recoil correction includes the dominant interference
+between recoil terms and the first-order πα/β correction, and the shift between the electron velocity in the
+proton versus neutron rest frame [26]. A summary of recoil and radiative recoil corrections is given in the
+Supplemental Material.
+    In terms of |Vud |, λ, and ∆R (µUV = ∆) the neutron lifetime is thus given by (restoring ℏ for SI units and
+using inputs for mn , mp , GF from the Particle Data Group (2024) [53])2
+                                                                           2π 3 ℏ
+                                                                 
+     τn × |Vud |2 (1 + 3λ2 ) 1 + ∆R (µUV = ∆) 1 + 27.04(7) × 10−3 = 2 5              = 5263.284(17) s .     (28)
+                                                                        GF ∆ fstatic
+As an illustrative example, let us take the lifetime of the neutron from the most recent UCNτ average,
+τn = 877.82(30) s [54] and the measurement of λ from the PERKEO-III experiment [55], λ = −1.27641(56).
+Using ∆R (µUV = ∆) = 45.37(27) × 10−3 [51],3 we obtain
+                                            |Vud | = 0.97393(17)τ (35)λ (13)∆R (3)δR
+                                                                                                                                 (29)
+                                                  = 0.97393(41) ,
+where in the final line, errors have been added in quadrature. Using average values from Ref. [53] for τn
+(878.4(5)s excluding beam measurements or 878.6(6)s including beam measurements) in place of the most
+precise measurement (τn = 877.82(30)s [54]) yields a similar result in Eq. (29) (∼ 1σ downward shift in
+|Vud | and similar total error). Using the average from Ref. [53] for λ (−1.2754(13)) in place of the most
+precise measurement (λ = −1.27641(56) [55]) yields a consistent central value, and approximately two times
+larger total error. An in-beam measurement of τn [56] is ∼ 4σ discrepant with the ultracold neutrons (UCN)
+measurements, which dominate the average.4 For a discussion of the discrepancy between in-beam and UCN
+measurements of τn , see Refs. [58, 59]. We have computed radiative corrections to the decay rate for the process
+n → peν̄(γ). This rate determines the neutron lifetime in the Standard Model, but should be interpreted as a
+partial rate if neutron decay modes beyond the Standard Model are present.
+
+
+6     Discussion
+Our new result, Eq. (24), modifies the long-distance radiative correction to neutron beta decay. Compared to
+previous work [7, 51], the largest effect corresponds to the replacement of the Fermi function ansatz,
+                                                (2πα/β)                  π 2 α2
+                                 FNR =                     −−−→ 1 + πα +        + ... ,                                          (30)
+                                           1 − exp(−2πα/β) m→0              3
+with the resummation (10),
+                                                     2
+                                 MH (µ2 )                                               π 2 α2
+                                                                       
+                                                                     πα
+                                                         = exp            −−−→ 1 + πα +        + ... .                           (31)
+                              MH (w, −µ2 − i0)                        β    m→0             2
+   2 The normalization factor ∆5 f                                                                                         5
+                                   static is defined in the static limit, cf. Eq. (26), and differs from the quantity me f0 used in
+Ref. [51], Eq. (4). We combine this difference with other recoil corrections in our δrecoil . The total effect of recoil corrections is
+the same in our accounting as in Ref. [51] up to subleading corrections, cf. the discussion after Eq. (33) below.
+   3 This value for ∆ is taken from Ref. [51] (see also Table 2 of Ref. [23] and Refs. [4, 5, 7–9, 12]). We have converted between
+                     R
+the renormalization scheme of Ref. [51] and conventional MS at renormalization scale µ = ∆.
+   4 The in-beam-measurement of τ also yields a value for |V | that is discrepant with determinations from superallowed beta
+                                    n                            ud
+decays [57].
+
+
+                                                                      8
+We have presented the first complete analysis of the two-loop virtual corrections in the limit of small m2 /∆2 ,
+included leading contributions and uncertainties associated with power corrections and real radiation at two
+loop order, and included all relevant recoil and radiative recoil corrections. Keeping full mass dependence at
+tree-level and one-loop, and upon including these corrections, the decay spectrum has the correct β → 0 and
+(m2 /E 2 ) → 0 limits through two-loop order.
+    Let us return to the ansatz (1) (evaluated at R = 1.0 fm [26]),
+                                         2                              
+                                 π           π     11
+                           1+        α+          +    − log(2pR exp{γE }) α2 + . . .
+                                 β          3β 2    4
+
+                              ≈ 1 + 4.6 α + 8.3 + 2.8 + 4.6 α2 + . . . ,
+                                                            
+                                                                                                            (32)
+
+where angle brackets denote averaging over phase space. We may now clarify the contributions to the coef-
+ficient of α2 . First, we note that the contribution involving log(2p/µR ) (µR = exp(−γE )R−1 ) represents the
+renormalization between scales p ∼ ∆ and µR ∼ mp arising from the Z 2 part of the anomalous dimension:
+                                       (0)       (1)     (2)                                                    (0)
+in the notation of Ref. [32], γ1 = γ1 Z 2 + γ1 Z + γ1 , the coefficient of log R−1 corresponds to 32π 2 γ1 .
+                                                                                       
+                                                                                         (2)
+For neutron beta decay however, only the local heavy-light current contribution γ1 survives (Z = 0 for
+the neutron), so that this contribution is spurious; the complete renormalization group running is known to
+high precision and included in our analysis (cf. Ref. [51] for a related discussion). The remaining two-loop
+contributions, π 2 /(3β 2 ) + 11/4, are replaced by our systematic analysis of the low-energy matrix element.
+     Our results provide the first O(α2 ) input (beyond the Fermi-function ansatz) to neutron beta decay. Let us
+compare to existing results in the literature. For example, in Eqs. (107) and (113) of Ref. [51], the long-distance
+contribution in Eq. (25) is given by
+                                                               CDMT
+                     1 + δR,static (µUV ) + δrecoil + δrad.rec.       = 1 + 26.934(50) × 10−3 .               (33)
+
+which represents a shift of 1.1 × 10−4 (2.1σ) compared to our central value for the long-distance correction,
+27.04 × 10−3 in Eq. (28). We note that the majority of this difference originates from the replacement of
+the nonrelativistic Fermi function (30) by the resummation factor (31); smaller differences arise from other
+two-loop contributions included in the present analysis, and from subleading radiative recoil terms of similar
+size included in the factorization ansatz of Ref. [51]. In Eq. (15) and line 5 of Table 1 of Ref. [7],
+                                                                 CMS
+                       1 + δR,static (µUV ) + δrecoil + δrad.rec.      = 1 + 26.33(33) × 10−3 ,               (34)
+
+which represents a shift of 7.1 × 10−4 (2.2σ) compared to our result given in Eq. (28).
+   In order to compare with alternative determinations of the short-distance corrections from the literature [7]
+we use the conversion formula,
+                                                                            
+                                                                         11α
+                               1 + ∆R (µU V = ∆) = R(∆, mp ) 1 + ∆VR −         ,                           (35)
+                                                                          8π
+
+where ∆VR is defined in the convention of Ref. [7], R(∆, mp ) = 1.0234650 relates renormalization scales µ = ∆
+and µ = mp , and the factor −11α/(8π) converts the Sirlin convention for one-loop corrections to MS [30].
+Taking ∆VR = 0.02426(32) from Ref. [7] yields ∆R (µUV = ∆) = 45.03(33) × 10−3 ; with the same inputs for τn
+and λ, this translates to |Vud | = 0.97409(17)τ (35)λ (15)∆R (3)δR .
+    We have provided the first two-loop input to the long-distance radiative corrections to neutron beta decay.
+The result, Eq. (28), sets a target for uncertainty reductions in the experimental and short-distance inputs.
+Existing determinations of the neutron’s lifetime τn and axial-vector charge ratio λ have already reached a
+level where errors on |Vud | are competitive with, albeit still larger than, superallowed beta decays. In order to
+surpass superallowed data, measurements of τn must reduce their errors by a factor of roughly two, while a
+reduction in the uncertainty on λ requires a reduction in uncertainty by at least a factor of three [60]. Proposals
+at the European Spallation Source suggest that the necessary reduction in the error on λ is achievable [61],
+
+
+                                                         9
+while the UCNτ + upgrade will offer the necessary reduction in uncertainty on τn [60]. In fact, a recent
+update from UCNτ [54] has already achieved a small reduction in the uncertainty on the neutron lifetime
+as compared to their 2021 dataset average [11]. In conjunction with these experimental advances, progress
+towards a lattice-QCD determination of ∆R has recently been undertaken [9, 62–64].
+    We note that our two-loop analysis can also be applied to other observables (such as asymmetry coefficients)
+for future precision determinations of λ; currently radiative corrections are not a dominant source of uncertainty
+for extractions of λ [55]. Finally, let us note that Eqs. (7) and (16) can be used to a determine the low-energy
+Zα2 matrix element in the recently developed effective field theory framework [30–32, 34, 41, 65] that is
+currently an important source of uncertainty in the analysis of superallowed beta decays. This would supplant
+previous estimates computed in the independent particle model [25, 27, 28, 65, 66].
+
+
+Acknowledgments
+We thank Vincenzo Cirigliano and Bradley Filippone for helpful discussions. We thank Susan Gardner,
+Martin Hoferichter, and Andreas Kronfeld for comments on the manuscript. PVG acknowledges support from
+the Visiting Scholars Award Program of the Universities Research Association. RP thanks the Institute for
+Nuclear Theory at the University of Washington for its kind hospitality and stimulating research environment
+during program INT 23-1b. This research was supported in part by the INT’s U.S. Department of Energy grant
+No. DE-FG02-00ER41132. Part of the research of RP was performed at the Kavli Institute for Theoretical
+Physics which is supported by the National Science Foundation under Grant No. NSF PHY-1748958. RP is
+supported by the Neutrino Theory Network under Award Number DEAC02-07CH11359, the U.S. Department
+of Energy, Office of Science, Office of High Energy Physics under Award Number DE-SC0011632, and by the
+Walter Burke Institute for Theoretical Physics. This work was supported by the U.S. Department of Energy,
+Office of Science, Office of High Energy Physics, under Award DE-SC0019095. This work was produced by
+Fermi Forward Discovery Group, LLC under Contract No. 89243024CSC000002 with the U.S. Department
+of Energy, Office of Science, Office of High Energy Physics. RJH gratefully acknowledges support from the
+HEP Theory Group at Argonne National Laboratory, where a part of this work was completed. Argonne is
+operated under Contract No. DE-AC02-06CH11357.
+
+
+
+
+                                                       10
+                                          Supplemental Material
+
+Recoil corrections at tree level
+Consider the matrix element of the weak current at tree level,
+                                                                                         
+       ′   +µ           (p) ′               i µν          2    µ       2    1 µ
+                                µ     2
+   ⟨p(p )|JW |n(p)⟩ ∝ ū (p ) γ F1 (q ) +     σ qν F2 (q ) + γ γ5 FA (q ) +   q γ5 FP (q ) u(n) (p) ,
+                                                                                        2
+                                                                                                                          (36)
+                                          2M                                M
+
+where q µ = p′µ − pµ , M = (mn + mp )/2, and we will use ∆ = mn − mp . We have neglected form factors that
+violate time-reversal invariance isospin symmetry [67]. A straightforward computation for the neutron beta
+decay process up to O(1/m2p ), yields5
+          X                                        p cos θ
+              |M|2 ∝ |CV |2 + 3|CA |2 + |CV |2 − |CA |2
+                                                       E
+                                 m2                                       m2
+                                                                                                
+                        ∆                                         2E                ∗
+                                      |CV |2 + |CA |2 + 2 1 −
+                                                     
+                      +      1−                                       +        Re [CA (CV + F2 (0))]
+                        mp      E∆                                ∆      E∆
+
+                        ∆2 m 2
+                                                                      
+                                    E   p cos θ         ∗
+                      + 2        1−   +           Re [CA  FP (0)] + . . . ,                                               (37)
+                        mp E∆       ∆      ∆
+
+where cos θ is the angle between the neutrino and electron in the lab frame, and we retain the leading depen-
+dence on FP in the second order correction. The ellipses denote O(1/m2p ) corrections besides the pseudoscalar
+form factor which is enhanced by m2p /m2π , and which we therefore include in our numerical estimates. At tree
+level we take F1 (0) = CV = 1, FA (0) = CA = λ, F2 (0) = µp − µn − 1, and the pion pole approximation
+FP (0) = (2m2p /m2π+ )λ. We use central values λ = −1.2764, µp − µn − 1 = 3.7059.
+    The neutron decay rate is                     Z    X
+                                              Γ ∝ dΦ       |M|2 ,                                         (38)
+
+where the phase space (including finite nucleon mass, i.e. beyond the static limit) is
+                                                              
+                                    d cos θ        mp                          2
+                           dΦ ∝ dE                              [Eν (E, cos θ)] pE ,                                      (39)
+                                       2      mn − E + p cos θ
+
+where
+                                                         m2n − m2p + m2 − 2Emn
+                                       Eν (E, cos θ) =                         .                                          (40)
+                                                          2 (mn − E + p cos θ)
+Expressing mn = mp + ∆, and systematically expanding both phase space and matrix element in powers of
+1/mp , we have up to O(1/mp )
+
+                      dΦ |M|2
+                    R   P
+   1 + δrecoil ≃ R    P          = 1 − 2.068 × 10−3 + (0.005 × 10−3 + . . . ) ≃ 1 − 2.063 × 10−3 , (41)
+                   dΦ |M|2 M →∞
+
+where the successive terms are from the (∆/mp )0 , (∆/mp )1 and (∆/mp )2 expansion of Eq. (38). The (∆2 /m2p )
+term includes only the contribution from the pseudoscalar form factor which is enhanced by m2p /m2π ; other
+O(1/m2p ) corrections from both the matrix element and the phase space have been dropped.
+
+
+
+
+  5   |M|2 is here interpreted using “nonrelativistic” normalization of states i.e., dividing the expression using relativistic
+      P
+normalization by 16mn Ep Ee Eν .
+
+
+                                                              11
+Radiative recoil
+The leading radiative recoil correction (i.e., including only π-enhanced terms) is given by
+                                             h i
+                                dΦ |M|2 πα
+                              R     P
+                                                β
+                δrad.rec.,1 = R    P                = −0.0703 × 10−3 + (0.0048 × 10−3 + . . .) ,       (42)
+                                dΦ |M|2 M →∞
+
+where the successive terms are from the (∆/mp )1 and (∆/mp )2 terms in Eq. (38). As above the ∆2 /m2p
+correction contains only the contribution from the pseudoscalar form factor. We include also the correction
+accounting for the difference between Coulomb corrections in the neutron and proton rest frame:
+                                                 h          i
+                                         dΦ |M|2 πα β1′ − β1
+                                       R   P
+                         δrad.rec.,2 =     R   P                = −0.0122 × 10−3 ,                    (43)
+                                             dΦ |M|2 M →∞
+
+For the sum,
+                               δrad.rec. = δrad.rec.,1 + δrad.rec.,2 = −0.078 × 10−3 .                  (44)
+
+
+References
+ [1] P. Bopp, D. Dubbers, L. Hornig, E. Klemt, J. Last, H. Schutze, S. J. Freedman, and O. Scharpf, Phys.
+     Rev. Lett. 56, 919 (1986), [Erratum: Phys.Rev.Lett. 57, 1192 (1986)].
+
+ [2] S. Ando, H. W. Fearing, V. P. Gudkov, K. Kubodera, F. Myhrer, S. Nakamura, and T. Sato, Phys. Lett.
+     B 595, 250 (2004), arXiv:nucl-th/0402100 .
+ [3] G. Darius et al., Phys. Rev. Lett. 119, 042502 (2017).
+ [4] C.-Y. Seng, M. Gorchtein, H. H. Patel, and M. J. Ramsey-Musolf, Phys. Rev. Lett. 121, 241804 (2018),
+     arXiv:1807.10197 [hep-ph] .
+ [5] C. Y. Seng, M. Gorchtein, and M. J. Ramsey-Musolf, Phys. Rev. D 100, 013001 (2019), arXiv:1812.03352
+     [nucl-th] .
+ [6] J. Fry et al., EPJ Web Conf. 219, 04002 (2019), arXiv:1811.10047 [nucl-ex] .
+
+ [7] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. D 100, 073008 (2019), arXiv:1907.06737 [hep-ph]
+     .
+ [8] L. Hayen, Phys. Rev. D 103, 113001 (2021), arXiv:2010.07262 [hep-ph] .
+ [9] C.-Y. Seng, X. Feng, M. Gorchtein, and L.-C. Jin, Phys. Rev. D 101, 111301 (2020), arXiv:2003.11264
+     [hep-ph] .
+
+[10] M. Gorchtein and C.-Y. Seng, JHEP 10, 053 (2021), arXiv:2106.09185 [hep-ph] .
+[11] F. M. Gonzalez et al. (UCNτ ), Phys. Rev. Lett. 127, 162501 (2021), arXiv:2106.10375 [nucl-ex] .
+[12] K. Shiells, P. G. Blunden, and W. Melnitchouk, Phys. Rev. D 104, 033003 (2021), arXiv:2012.01580
+     [hep-ph] .
+
+[13] V. Cirigliano, S. Gardner, and B. Holstein, Prog. Part. Nucl. Phys. 71, 93 (2013), arXiv:1303.6953
+     [hep-ph] .
+[14] A. Glick-Magid, Y. Mishnayot, I. Mukul, M. Hass, S. Vaintraub, G. Ron, and D. Gazit, Phys. Lett. B
+     767, 285 (2017), arXiv:1609.03268 [nucl-ex] .
+
+
+
+                                                         12
+[15] M. González-Alonso, O. Naviliat-Cuncic, and N. Severijns, Prog. Part. Nucl. Phys. 104, 165 (2019),
+     arXiv:1803.08732 [hep-ph] .
+[16] A. Glick-Magid, C. Forssén, D. Gazda, D. Gazit, P. Gysbers, and P. Navrátil, Phys. Lett. B 832, 137259
+     (2022), arXiv:2107.10212 [nucl-th] .
+[17] A. Falkowski, M. González-Alonso, A. Palavrić, and A. Rodrı́guez-Sánchez, (2021), arXiv:2112.07688
+     [hep-ph] .
+[18] M. Brodeur et al. (2023) arXiv:2301.03975 [nucl-ex] .
+[19] A. Crivellin, F. Kirk, C. A. Manzari, and M. Montull, JHEP 12, 166 (2020), arXiv:2008.01113 [hep-ph] .
+[20] A. M. Coutinho, A. Crivellin, and C. A. Manzari, Phys. Rev. Lett. 125, 071802 (2020), arXiv:1912.08823
+     [hep-ph] .
+[21] A. Crivellin, M. Hoferichter, and C. A. Manzari, Phys. Rev. Lett. 127, 071801 (2021), arXiv:2102.02825
+     [hep-ph] .
+[22] A. Crivellin and M. Hoferichter, Phys. Rev. Lett. 125, 111801 (2020), arXiv:2002.07184 [hep-ph] .
+[23] V. Cirigliano, A. Crivellin, M. Hoferichter,    and M. Moulson, Phys. Lett. B 838, 137748 (2023),
+     arXiv:2208.11707 [hep-ph] .
+[24] A. Sirlin, Phys. Rev. 164, 1767 (1967).
+[25] W. Jaus, Phys. Lett. B 40, 616 (1972).
+[26] D. H. Wilkinson, Nucl. Phys. A 377, 474 (1982).
+[27] A. Sirlin and R. Zucchini, Phys. Rev. Lett. 57, 1994 (1986).
+[28] W. Jaus and G. Rasche, Phys. Rev. D 35, 3420 (1987).
+[29] V. Cirigliano, J. de Vries, L. Hayen, E. Mereghetti, and A. Walker-Loud, Phys. Rev. Lett. 129, 121801
+     (2022), arXiv:2202.10439 [nucl-th] .
+[30] R. J. Hill and R. Plestid, Phys. Rev. Lett. 133, 021803 (2024), arXiv:2309.07343 [hep-ph] .
+[31] R. J. Hill and R. Plestid, Phys. Rev. D 109, 056006 (2024), arXiv:2309.15929 [hep-ph] .
+[32] K. Borah, R. J. Hill, and R. Plestid, Phys. Rev. D 109, 113007 (2024), arXiv:2402.13307 [hep-ph] .
+[33] C.-Y. Seng, JHEP 07, 175 (2024), arXiv:2403.08976 [hep-ph] .
+[34] V. Cirigliano, W. Dekens, E. Mereghetti, and O. Tomalak, (2024), arXiv:2410.21404 [nucl-th] .
+[35] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. D 70, 093006 (2004), arXiv:hep-ph/0406324 .
+[36] E. Fermi, Z. Phys. 88, 161 (1934).
+[37] G. P. Korchemsky and A. V. Radyushkin, Nucl. Phys. B 283, 342 (1987).
+[38] I. A. Korchemskaya and G. P. Korchemsky, Phys. Lett. B 287, 169 (1992).
+[39] D. R. Yennie, S. C. Frautschi, and H. Suura, Annals Phys. 13, 379 (1961).
+[40] S. Weinberg, Phys. Rev. 140, B516 (1965).
+[41] R. Plestid, JHEP 07, 216 (2024), arXiv:2402.14769 [hep-ph] .
+[42] V. Ahrens, T. Becher, M. Neubert, and L. L. Yang, Phys. Rev. D 79, 033013 (2009), arXiv:0808.3008
+     [hep-ph] .
+
+
+                                                     13
+[43] V. Ahrens, T. Becher, M. Neubert, and L. L. Yang, Eur. Phys. J. C 62, 333 (2009), arXiv:0809.4283
+     [hep-ph] .
+[44] R. J. Hill, Phys. Rev. D 95, 013001 (2017), arXiv:1605.02613 [hep-ph] .
+
+[45] Z. Cao, R. J. Hill, R. Plestid, and P. Vander Griend, “Factorization and resummation of QED radiative
+     corrections for neutron beta decay,” In preparation (2024).
+[46] D. J. Broadhurst and A. G. Grozin, Phys. Rev. D 52, 4082 (1995), arXiv:hep-ph/9410240 .
+[47] A. G. Grozin, Phys. Lett. B 445, 165 (1998), arXiv:hep-ph/9810358 .
+
+[48] S. Bekavac, A. G. Grozin, P. Marquard, J. H. Piclum, D. Seidel, and M. Steinhauser, Nucl. Phys. B 833,
+     46 (2010), arXiv:0911.3356 [hep-ph] .
+[49] M. Beneke, T. Huber, and X. Q. Li, Nucl. Phys. B 811, 77 (2009), arXiv:0810.1230 [hep-ph] .
+[50] R. Bonciani and A. Ferroglia, JHEP 11, 065 (2008), arXiv:0809.4687 [hep-ph] .
+
+[51] V. Cirigliano, W. Dekens, E. Mereghetti,        and O. Tomalak, Phys. Rev. D 108, 053003 (2023),
+     arXiv:2306.03138 [hep-ph] .
+[52] N. Kaiser, Phys. Rev. C 64, 028201 (2001), arXiv:nucl-th/0105043 .
+[53] S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024).
+
+[54] R. Musedinovic et al., (2024), arXiv:2409.05560 [nucl-ex] .
+[55] B. Märkisch et al., Phys. Rev. Lett. 122, 242501 (2019), arXiv:1812.04666 [nucl-ex] .
+[56] A. T. Yue, M. S. Dewey, D. M. Gilliam, G. L. Greene, A. B. Laptev, J. S. Nico, W. M. Snow, and F. E.
+     Wietfeldt, Phys. Rev. Lett. 111, 222501 (2013), arXiv:1309.2623 [nucl-ex] .
+
+[57] J. C. Hardy and I. S. Towner, Phys. Rev. C 102, 045501 (2020).
+[58] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev. Lett. 120, 202002 (2018), arXiv:1802.01804
+     [hep-ph] .
+[59] B. Fornal and B. Grinstein, Phys. Rev. Lett. 120, 191801 (2018), [Erratum: Phys.Rev.Lett. 124, 219901
+     (2020)], arXiv:1801.01124 [hep-ph] .
+[60] R. Alarcon et al., (2023), arXiv:2308.09059 [nucl-ex] .
+[61] H. Abele et al., Phys. Rept. 1023, 1 (2023), arXiv:2211.10396 [physics.ins-det] .
+[62] C.-Y. Seng and U.-G. Meißner, Phys. Rev. Lett. 122, 211802 (2019), arXiv:1903.07969 [hep-ph] .
+
+[63] X. Feng, M. Gorchtein, L.-C. Jin, P.-X. Ma, and C.-Y. Seng, Phys. Rev. Lett. 124, 192002 (2020),
+     arXiv:2003.09798 [hep-lat] .
+[64] P.-X. Ma, X. Feng, M. Gorchtein, L.-C. Jin, K.-F. Liu, C.-Y. Seng, B.-G. Wang, and Z.-L. Zhang, Phys.
+     Rev. Lett. 132, 191901 (2024), arXiv:2308.16755 [hep-lat] .
+
+[65] V. Cirigliano, W. Dekens, J. de Vries, S. Gandolfi, M. Hoferichter, and E. Mereghetti, Phys. Rev. C 110,
+     055502 (2024), arXiv:2405.18464 [nucl-th] .
+[66] A. Sirlin, Phys. Rev. D 35, 3423 (1987).
+[67] B. Bhattacharya, R. J. Hill, and G. Paz, Phys. Rev. D 84, 073006 (2011), arXiv:1108.0423 [hep-ph] .
+
+
+
+
+                                                      14
+

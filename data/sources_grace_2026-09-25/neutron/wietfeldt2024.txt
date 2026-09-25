@@ -1,0 +1,855 @@
+ SS symmetry
+Review
+The Neutron Lifetime Discrepancy and Its Implications for
+Cosmology and Dark Matter
+Fred E. Wietfeldt
+
+
+                                         Department of Physics and Engineering Physics, Tulane University, New Orleans, LA 70118, USA;
+                                         few@tulane.edu
+
+
+                                         Abstract: Free neutron decay is the prototype for nuclear beta decay and other semileptonic weak
+                                         particle decays. It provides important insights into the symmetries of the weak nuclear force. Neutron
+                                         decay is important for understanding the formation and abundance of light elements in the early
+                                         universe. The two main experimental approaches for measuring the neutron lifetime, the beam
+                                         method and the ultracold neutron storage method, have produced results that currently differ by
+                                         9.8 ± 2.0 s. While this discrepancy probably has an experimental origin, a more exciting prospect is
+                                         that it may be explained by new physics, with possible connections to dark matter. The experimental
+                                         status of the neutron lifetime is briefly reviewed, with an emphasis on its implications for cosmology,
+                                         astrophysics, and dark matter.
+
+                                         Keywords: neutron decay; neutron lifetime; beta decay
+
+
+
+
+                                         1. Introduction
+                                              The neutron is an ubiquitous particle in the world around us. The atomic nuclei
+                                         of all atoms except for light hydrogen contain neutrons. In a stable nucleus, the energy
+                                         associated with nuclear structure prevents neutrons and protons from decaying via the
+                                         weak force, but a free neutron may decay because its rest energy exceeds that of the particles
+                                         in their final state. This process, where a free neutron decays into a proton, electron, and
+                                         antineutrino with a mean lifetime of about 880 s, is the simplest example of nuclear beta
+Citation: Wietfeldt, F.E. The Neutron
+                                         decay. It has important consequences in cosmology and astrophysics. While the dynamical
+Lifetime Discrepancy and Its
+                                         theory of the Standard Model of particle physics is well established, currently available
+Implications for Cosmology and Dark
+                                         theoretical methods are not able to accurately calculate the neutron decay lifetime. The
+Matter. Symmetry 2024, 16, 956.
+https://doi.org/10.3390/sym16080956
+                                         neutron lifetime has been measured in many major experiments over the past 75 years.
+                                         Two very different methods have dominated these measurements: free neutron beam
+Academic Editors: Abraham A. Ungar       experiments and ultracold neutron storage experiments. Unfortunately, the most precise
+and Alberto Ruiz Jimeno                  versions of these experiments disagree by about 10 s, a discrepancy of almost five standard
+Received: 6 June 2024                    deviations. This is most likely due to unknown systematic effects in one or more of the
+Revised: 8 July 2024                     experiments, but it is conceivable that new physics is responsible, which would have many
+Accepted: 18 July 2024                   important ramifications.
+Published: 26 July 2024
+                                         2. Theoretical Discussion
+                                               Free neutron decay is a manifestation of the charged current weak interaction whereby
+                                         a negatively charged down quark is transformed into a positively charged up quark,
+Copyright: © 2024 by the author.         emitting a charged W boson that immediately decays into an electron and antineutrino, as
+Licensee MDPI, Basel, Switzerland.       illustrated in Figure 1. The reaction is as follows:
+This article is an open access article
+distributed under the terms and                                                      n → p + e + νe                                         (1)
+conditions of the Creative Commons
+Attribution (CC BY) license (https://         The quantum mechanical matrix element for neutron decay follows that for bare quarks:
+creativecommons.org/licenses/by/
+                                                                                          
+4.0/).                                                      M = GV p γµ n − G A p γ5 γµ n [e γµ (1 + γ5 )ν],                     (2)
+
+
+
+Symmetry 2024, 16, 956. https://doi.org/10.3390/sym16080956                                             https://www.mdpi.com/journal/symmetry
+Symmetry 2024, 16, 956                                                                                         2 of 12
+
+
+
+                         but with constants GV and G A that give the relative strengths of the vector and axial
+                         vector contributions to the decay amplitude. According to the Conservation of Vector
+                         Current (CVC) hypothesis [1,2] GV = GF Vud , where GF is the universal weak coupling
+                         strength measured from muon decay and Vud = 0.97373 ± 0.00031 [3] is the first element
+                         of the Cabibbo–Kobayashi–Maskawa (CKM) quark mixing matrix in the Standard Model.
+                         However, the axial current is not conserved, so the value of G A is influenced by the strong
+                         interaction of quarks within the neutron. Therefore, G A must be determined experimentally
+                         from the neutron lifetime and neutron decay angular correlations. Including the latest
+                         radiative and other theoretical corrections, Czarnecki, Marciano, and Sirlin [4] found the
+                         relationship between G A /GV and the free neutron lifetime to be
+
+                                                                       4905.7(1.7)s
+                                                        τn =                              .                       (3)
+                                                               |Vud   |2 (1 + 3( G     2
+                                                                                A /GV ) )
+
+                              The neutron decay matrix element M, expressed in Equation (2), determines more
+                         than just the neutron decay lifetime. It also governs many other charged-current weak
+                         interactions between free protons and neutrons that are important in astrophysics, solar
+                         physics, and cosmology. Therefore, the experimental value of the neutron lifetime plays an
+                         important role throughout physics.
+
+                                u                                                                 u
+                           n    d                                                                 d    p
+                                d                                                                 u
+
+                                                                                  ±
+                                                                             W                    e
+
+
+
+
+                                                                                                  νe
+                         Figure 1. The Feynman diagram for free neutron decay.
+
+                         3. Neutron Lifetime Experiments
+                              The most precise experiments that measure the neutron lifetime fall into two main
+                         categories: beam experiments, where a slow neutron beam passes through an apparatus that
+                         simultaneously measures the rate of neutron decay via the decay products and the neutron
+                         beam density; and ultracold neutron storage experiments, where neutrons are slowed to a
+                         velocity that allows them to be stored, and the number that remains after some time is
+                         counted. Detailed historical reviews of neutron lifetime experiments can be found in [5,6].
+
+                         3.1. Beam Method
+                               The beam method is the oldest, presented by Robson in the first serious neutron
+                         lifetime measurement at the Chalk River reactor in 1950 [7], and improved and refined by
+                         later experiments over many decades. The most precise of these so far is the NIST BL1
+                         experiment [8,9], producing the result τn = 887.7 ± 2.2 s (2013). The neutron decay rate Ṅ
+                         of a beam containing N neutrons in the fiducial decay region of the apparatus is given by
+                         the differential form of the exponential decay law
+
+                                                                               N
+                                                                      Ṅ = −      .                               (4)
+                                                                               τn
+Symmetry 2024, 16, 956                                                                                             3 of 12
+
+
+
+                              The decay particles, protons and/or electrons, are counted by detectors in the appara-
+                         tus at rate R p , which is
+                                                                           A      L ρn
+                                                        R p = −ε p Ṅ = ε p beam                                 (5)
+                                                                               τn
+                         where ε p is the detector counting efficiency, Abeam is the beam cross-sectional area, L is the
+                         length of the fiducial decay region, and ρn is the neutron density in the beam. To simplify
+                         this discussion, the beam is assumed here to have a uniform density and cross section. The
+                         density can be related to the neutron flux ϕn , the number of neutrons per unit area per unit
+                         time passing through some point in the beam, and the beam velocity v, using the usual
+                         formula ϕn = ρn v. A typical high-flux slow-neutron beam has a broad velocity spectrum,
+                         so this becomes an integral:
+                                                                         ϕn (v)
+                                                                     Z
+                                                                ρn =            dv.                                   (6)
+                                                                           v
+                         where ϕn (v) is the spectral flux, i.e., the flux per neutron velocity.            Combining
+                         Equations (5) and (6) provides
+
+                                                                  A     L         ϕn (v)
+                                                                              Z
+                                                         R p = ε p beam                  dv.                          (7)
+                                                                    τn              v
+
+                              Neutrons in the beam pass through a thin absorbing material downstream of the appa-
+                         ratus decay region and are either counted in real time via an (n, α) reaction in the absorber
+                         by detecting the alpha particles or by later measuring the neutron-induced radioactivity.
+                         Neutron absorption cross sections generally obey the 1/v law [10], with the few exceptions
+                         being materials with a very low energy absorption resonance, so the velocity-dependent
+                         absorption cross section can be written as
+                                                                           σth vth
+                                                                 σabs =                                               (8)
+                                                                              v
+                         where σth is the tabulated thermal absorption cross section at the reference thermal velocity
+                         vth ≡ 2200 m/s. The neutron count rate is then
+
+                                                                                  ϕn (v)
+                                                                              Z
+                                                         Rn = ε 0 Abeam vth              dv.                          (9)
+                                                                                    v
+                         where ε 0 is defined as the probability that a neutron at the reference velocity vth that passes
+                         through the absorber will produce a detected count. It contains the thermal cross section
+                         σth and other efficiency factors such as the absorber thickness and the geometric efficiency
+                         of the alpha detectors. Combining Equations (7) and (9) provides
+
+                                                                        Rn ε p L
+                                                                 τn =               .                                (10)
+                                                                        R p ε 0 vth
+
+                               Note that the spectral flux integrals divide out in this expression. In essence, the 1/v
+                         dependence of the neutron absorption cross section precisely compensates for the 1/v
+                         probability that the same neutron will decay inside the fiducial region, and so to excellent
+                         approximation the neutron lifetime result is independent of neutron velocity. Equation (10)
+                         seems simple enough, but precise absolute measurements of ε p and ε 0 are very challenging.
+                         The fiducial length L is complicated by end effects where ε p can be difficult to determine.
+                               A schematic of the NIST BL1 experiment is shown in Figure 2. The neutron beam
+                         passed through a quasi-Penning trap, and when a neutron decayed inside it, the proton
+                         was trapped by the magnetic field and the electrostatic potential of the electrode array. At
+                         a specified frequency, typically about 100 Hz, the trap was opened by lowering the door
+                         electrodes to ground. Protons were then transported through a 9.5◦ bend in the magnetic
+                         field and accelerated into a silicon detector to be counted. The neutron rate was measured
+                         by counting alphas and tritons from the (n, α) reaction in a deposit of isotopically enriched
+Symmetry 2024, 16, 956                                                                                                 4 of 12
+
+
+
+                         6 LiF on a thin silicon crystal wafer. An important feature of this experiment, along with
+
+                         its predecessor that ran at the Institut Laue-Langevin in France [11], is the segmented
+                         trap. The ratio Rn /R p was measured as a function of trap length, and because the end
+                         effect was approximately constant for all trap lengths, it could be removed by means of
+                         extrapolation, greatly simplifying the determination of L. The neutron counting efficiency
+                         ε 0 was measured separately using an absolute neutron counting apparatus installed on a
+                         monochromatic neutron beam. Further details of the experiment and a thorough discussion
+                         of the systematic effects can be found in [8,9].
+
+                              alpha, triton
+                                detector
+                                         precision                                                               proton
+                                                                    B = 4.6 T
+                                         aperture                                                               detector
+
+
+
+                                                                                                            neutron beam
+                                             6
+                                             Li
+                                                      mirror      trap electrodes    door open
+                                           deposit
+                                                     (+800 V)                         (ground)
+
+
+
+                         Figure 2. Scheme of the NIST BL1 beam neutron lifetime experiment [8,11]. The neutron beam
+                         passes through a proton trap. Decay protons are trapped axially by the door and mirror electrostatic
+                         potentials and radially by the axial magnetic field. They are counted periodically by lowering the
+                         door to the ground, as shown here. Neutrons are counted by detecting the alphas and tritons from
+                         the 6 Li (n, α) reaction in a thin deposit.
+
+                              A new generation of the NIST beam experiment, called BL3, is currently being con-
+                         structed and tested. It is a larger version of the apparatus that accommodates a much
+                         larger neutron beam (a factor of 25 larger area), with a new large-area segmented silicon
+                         proton detector. With these increases, the proton counting rate will be more than 100 times
+                         that of BL1. It incorporates several new features to improve, explore, and test systematic
+                         effects. BL3 is expected to complete commissioning in 2026 and begin running at NIST
+                         soon thereafter.
+                              Another beam neutron lifetime experiment is currently running at J-PARC in Japan,
+                         with a method quite different from that of the NIST experiments. A pulsed neutron beam is
+                         admitted into a 3 He time projection chamber (TPC), where neutron decays are detected via
+                         ionization by the beta electrons, and the number of neutrons in the pulse is simultaneously
+                         measured via the 3 He(n, p)3 H reaction. The latest J-PARC result τn = 898 ± 19 s [12] agrees
+                         with the NIST BL1 result but with a large uncertainty. The J-PARC group is currently
+                         analyzing an improved dataset with an expectation of 3 s uncertainty, which could have a
+                         significant impact.
+
+                         3.2. Ultracold Neutron Storage Method
+                              Ultracold neutrons (UCNs) are neutrons with a kinetic energy at the order of 100 neV
+                         (velocity ∼4 m/s). This is less than the neutron effective potential energy in some material
+                         surfaces, so UCNs will completely reflect from the walls of a suitably constructed bottle
+                         and can be stored for many minutes (various loss mechanisms limit the ultimate storage
+                         time). The gravitational potential energy of a neutron is 100 neV per meter, so UCNs can
+                         be confined vertically by gravity. The neutron magnetic dipole moment is 60 neV/T, so
+                         UCNs can be trapped in a strong inhomogeneous magnetic field. This ability to trap and
+                         store UCNs for long periods enables the measurement of the neutron decay lifetime by
+                         comparing the UCN population at different storage times. UCNs are admitted into the
+                         storage apparatus, the “UCN bottle”, in a highly reproducible manner. After a storage time
+                         ∆t, the surviving neutrons are extracted and counted by a neutron detector. At least two
+Symmetry 2024, 16, 956                                                                                             5 of 12
+
+
+
+                         storage times ∆t1 and ∆t2 , typically one short and one long, are used. If neutron beta decay
+                         is the only means of losing neutrons from the bottle, then the neutron lifetime is obtained
+                         from the ratio N1 /N2 of neutron counts following extraction.
+
+                                                                             ∆t2 − ∆t1
+                                                          τn = τstorage =                .                           (11)
+                                                                            ln( N1 /N2 )
+
+                               In the presence of additional loss mechanisms, the observed neutron storage time
+                         τstorage will be smaller than the beta decay lifetime τn , i.e.,
+
+                                                        1       1     1        1        1
+                                                              =    +       +        +                                (12)
+                                                     τstorage   τn   τwall   τquasi   τother
+
+                         where τwall accounts for losses due to inelastic scattering and absorption on the bottle
+                         walls; τquasi is the average lifetime of “quasitrapped” UCNs that are not trapped but have
+                         trajectories that persist in the trap for a long time before escaping; and τother is due to other
+                         possible losses such as residual gas interactions. Many previous UCN storage experiments
+                         used material bottles, typically with hydrogen-free coatings such as Fomblin oil to reduce
+                         wall scattering. Still, elastic scattering from the walls dominated τstorage , which as a result
+                         was much smaller than τn . By systematically varying the surface/volume ratio of the bottle
+                         and/or the UCN energy spectrum, both of which modulate the wall interaction rate, an
+                         extrapolation could be made to the zero scattering point.
+                               More recent UCN storage experiments have used a magnetic “bottle”, where perma-
+                         nent magnets are installed in a pattern that creates a strong field gradient near the wall.
+                         UCNs of one spin state (low field seekers) are strongly repelled by the field gradient and
+                         reflect off the wall with no material interaction, greatly reducing wall losses. Quasitrapped
+                         UCNs can be removed by means of a “cleaning” process that removes neutrons with kinetic
+                         energy close to the minimum trap potential. The most well known and successful of these
+                         is the UCNτ experiment at Los Alamos National Lab [13–15]. A schematic is shown in
+                         Figure 3. UCNs were polarized in a 5.5 T solenoidal magnet and spin-flipped into the
+                         low-field seeker state. They were then introduced through a trap door at the bottom of
+                         the storage volume to fill it. The storage volume, about 3 m long and 1 m high, was lined
+                         with a Halbach array of permanent magnets to reflect neutrons at the walls. UCNs were
+                         trapped vertically by gravity. An array of electromagnetic coils was used to maintain UCN
+                         polarization throughout the storage volume—a zero field point inside the volume can flip
+                         the spin of a neutron that passes through it, which will cause it to be ejected instead of
+                         reflected at the wall. After filling the storage volume, a cleaner was lowered to a speci-
+                         fied height to remove, by means of scattering or absorption, all neutrons with sufficient
+                         mechanical energy to reach that height, in order to eliminate quasitrapped UCNs prior to
+                         commencing the storage period. Storage times from 20 s to over 1000 s were used. At the
+                         end of the storage period, surviving UCNs were counted in situ using a 10 B-coated ZnS
+                         scintillator detector lowered into the volume. The latest UCNτ result is the most precise
+                         reported neutron lifetime value to date: τn = 877.75 ± 0.34 s [15]. Systematic UCN loss
+                         mechanisms were sufficiently small that τstorage (Equation (12)) was dominated by τn and
+                         no extrapolation was needed. An upgrade to the experiment, called UCNτ+, will introduce
+                         an adiabatic neutron “elevator” to load the trap more efficiently. It promises a factor of two
+                         reduction in uncertainty.
+                          ambient field to prevent UCN depolarization. UCNs with                                                   the
+                          E ≳ 38 neV are then removed (“cleaned”) [28–30,34]                                                       grou
+                          during a period tclean ¼ 50 s; they are either up-scattered                                              prob
+Symmetry 2024, 16, 956
+                          by horizontal polyethylene sheets, or captured by                                                6 of 12
+                                                                                                                                   appa
+                                                                                                                                      UC
+                                                                                                                                   mon
+                                                                                                                                   10B-c
+
+                                                                                                                                   moni
+                                                                                                                                   detec
+                                                                                                                                   inten
+                                                                                                                                   diffe
+                                                                                                                                   sensi
+                                                                                                                                   ensem
+                                                                                                                                   spect
+                                                                                                                                   opera
+                                                                                                                                   quali
+                                                                                                                                   relati
+                          FIG.3. 1.
+                         Figure           The
+                                     The Los AlamosUCNτ       apparatus[15].configuration
+                                                       UCNτ experiment           UCNs are polarized  forin a the    2018
+                                                                                                              superconducting
+                         solenoid (left), pass through a spin-flipper (center), and are admitted through a trap door into of in
+                          campaign, with the volumes occupied by UCNs, cleaner surfaces,
+                         the storage volume (right) that is lined with a Halbach magnet array. UCNs are reflected only by melt
+                          primary
+                         magnetic        detector, fields
+                                    and gravitational   andduring
+                                                               monitors        highlighted.
+                                                                   the storage period,             The
+                                                                                       thus avoiding        polarizing
+                                                                                                     material   interactions that
+                          magnet
+                         result        selects
+                                in neutron losses. the high-field-seeking UCNs. UCNs are then
+                                                                                                                                      Th
+                          “precleaned”
+                         3.3. The Discrepancyin the buffer volume, spin-flipped to the trappable
+                                                                                                                                   signa
+                          low-field-seeking           spin state,
+                               Figure 4 shows a summary               and loaded
+                                                              of all neutron  lifetime into
+                                                                                        resultsthe
+                                                                                                withtrap.    The uncertainty
+                                                                                                      a reported    2017           thres
+                         ofconfiguration
+                            less than 10 s. The was
+                                                  threethe
+                                                        beamsame
+                                                               methodas results
+                                                                          that ofare Ref.
+                                                                                     in good   agreement and their average Mon
+                                                                                            [30].
+                         τn = 888.1 ± 2.0 s is dominated by the updated NIST BL1 result [9]. There are nine UCN
+                         storage experiments represented here, with six using material bottles [16–21] and three
+                         using magnetic/gravitational storage [14,15,22], two of which are different runs of the
+                         UCNτ experiment described above. The nine UCN results are not in good agreement,       162501-2
+                                                           2
+                         with a reduced chi-squared   p χν = 3.34, so the average τn = 878.36 ± 0.45 s has an error
+                         expanded by a factor of χ2ν = 1.83. However the three magnetic/gravitational UCN
+                         storage experiments are in much better agreement; they average to τn = 878.15 ± 0.20 s.
+                         The difference between the beam method average and the UCN storage average (all nine
+                         experiments) is 9.8 ± 2.1 s, a discrepancy of more than four standard deviations. The
+                         difference between the beam method average and the magnetic/gravitational UCN storage
+                         average (three experiments) is 10.0 ± 2.0 s, which is slightly worse. Much has been written
+                         about this quite serious problem in the neutron lifetime. It is widely assumed that unknown
+                         or underestimated systematic errors in one or more of the experiments are responsible.
+                         However an exotic physics explanation remains possible (see Section 5). In particular, the
+                         NIST BL1 experiment has been carefully scrutinized due to its controlling effect on the
+                         beam average, but no smoking gun has been found so far (see [23–26] for more details). It
+                         is hoped that future experiments, both in progress and planned, will solve this problem
+                         and lead to a fully reliable value for the neutron lifetime.
+                               Since 2019, the Particle Data Group has included only the "best eight" UCN storage results
+                         in their average for the recommended value of the neutron lifetime, τn = 878.4 ± 0.5 s [3],
+                         equivalent to the UCN average in Figure 4, but they note that if the NIST BL1 beam result
+                         is included in thepaverage, the shift is rather small, to τn = 878.6 ± 0.6 s. In both cases, the
+                         errors include a χ2ν scale factor. As a practical matter, this is a reasonable approach, but
+                         it does not obviate the importance of resolving the discrepancy, which might result in a
+                         significant change to the recommended value.
+Symmetry 2024, 16, 956                                                                                              7 of 12
+
+
+
+
+                                                 905
+
+                                                                                                        NIST BL1
+                                                                                                        LANL UCNτ
+                                                 900
+
+
+
+
+                          neutron lifetime (s)
+                                                 895
+
+
+
+                                                 890                     beam average = 888.1 ± 2.0 s
+
+
+                                                 885
+
+
+                                                 880
+
+                                                       UCN average = 878.36 ± 0.45 s
+                                                 875
+                                                         1990              2000               2010          2020
+                                                                                       Year
+
+                         Figure 4. A summary of neutron lifetime experimental results with a reported uncertainty of less
+                                                                               p method results disagree by 9.8 ± 2.1 s.
+                         than 10 s. The averages of the beam method and UCN storage
+                         The UCN average uncertainty has been expanded by χ2ν due to poor agreement between the
+                         experiments. Beam experiment references: [9,11,27]. UCN storage experiment references: [14–22].
+
+                         4. The Neutron Lifetime in Cosmology and Astrophysics
+                              The Standard Big Bang Nucleosynthesis (SBBN) theory describes the formation of
+                         primordial light isotopes in the first few minutes following the Big Bang. Using the well-
+                         established Standard Model (SM) of particle physics, general relatively (GR), Λ cold dark
+                         matter Big Bang cosmology (ΛCDM), and only one free parameter, the baryon/photon
+                         ratio of the universe η, the SBBN theory predicts the relative abundances of 2 H and 4 He in
+                         very good agreement with modern astrophysical measurements. This success provides a
+                         remarkable confirmation of the SM, GR, and Big Bang cosmology. The basic ideas of the
+                         SBBN theory are described beautifully in the book The First Three Minutes by Weinberg [28].
+                         For a recent scientific review, see Cyburt, Fields, Olive, and Yeh [29].
+                              In the SBBN theory, free neutrons and protons condensed from the quark-gluon plasma
+                         in the period t = 0.1–100 ms, at a temperature T ≈ 1011 K. By t = 100 ms, essentially all free
+                         muons and pions had decayed. Protons and neutrons remained in thermal equilibrium
+                         with free leptons via weak interactions.
+
+                                                                           p+e      ←→ n + νe                         (13)
+                                                                                +
+                                                                          n+e       ←→ p + νe .
+
+                               When the reaction rates of Equation (13), which scale with temperature as T 5 , became
+                         less than the Hubble parameter, which scales as T 2 , the density of particles was insufficient
+                         to maintain thermal equilibrium and nucleon “freeze out” occurred. This happened at
+                         t ≈ 1 s, Tfreeze ≈ 1010 K (k B Tfreeze ≈ 0.8 MeV). At the time of nucleon freeze out, the ratio
+                         of neutrons to protons was set by the Boltzmann factor at the point just prior to leaving
+                         thermal equilibrium, i.e.,
+                                                                                        !
+                                                                       ( m n − m p ) c2
+                                                      n/p ≈ exp −                         = 0.17.                   (14)
+                                                                          k B Tfreeze
+Symmetry 2024, 16, 956                                                                                                  8 of 12
+
+
+
+                              Neutrons and protons proceeded to form deuterons (2 H nuclei) via the reaction
+
+                                                           n + p −→ d + γ (2.22 MeV)                                      (15)
+
+                         but due to the high value of the photon/baryon ratio η −1 ≈ 109 , the disintegration rate of
+                         deuterons exceeded the production rate until
+                                                                           
+                                                           −1      2.2 MeV
+                                                          η exp −             ≈1                                 (16)
+                                                                      kB T
+
+                         or T ≈ 109 K, at t ≈ 10 s. After that, as the free deuteron density increased, the dominant
+                         reaction due to its large cross section was the formation of alpha particles via
+
+                                                           d + d −→ α + γ (23.9 MeV).                                     (17)
+
+                              Other reactions also occured, but at much lower rates:
+                                                                         3
+                                                          d+p   −→           He + γ (5.49 MeV)                            (18)
+                                                                          3
+                                                          d + n −→            H + γ (6.26 MeV)
+                                                       α + 3 He −→        7
+                                                                              Be + γ (1.59 MeV)
+                                                        α + 3 H −→        7
+                                                                              Li + γ (2.47 MeV)
+
+                               By t ≈ 5 min, virtually all primordial neutrons were bound within alpha particles
+                         (4 He nuclei), with trace amounts in the other nuclei on the right side of Equation (18). It
+                         took another 380,000 years for the universe to cool to the era where these nuclei could
+                         combine with free electrons to make neutral atoms. During that time, the primordial
+                         3 H (τ = 12.3 y) and 7 Be (τ = 53.3 d) had all beta decayed into 3 He and 7 Li, respectively,
+
+                         leaving light hydrogen plus four primordial isotopes: 2 H, 3 He, 4 He and 7 Li. Due to the
+                         expansion/cooling rate of the universe, the mass 5, 8 barriers (there are no stable A = 5 or
+                         A = 8 isotopes), and the large Coulomb barriers for other reactions, nuclei heavier than
+                         the above did not form in the early universe; they had to wait millions of years for stellar
+                         processes to begin.
+                               The primordial isotope abundance ratios, relative to hydrogen, have historically
+                         been calculated as a function of η. The latest measurements of the cosmic microwave
+                         background (CMB) by the Plank spacecraft have provided a sufficiently precise and robust
+                         value, η = 6.104 ± 0.055 × 10−10 [30,31], for it to now be treated as an input parameter.
+                         Using this value, the abundances in Table 1 follow from the SBBN theory. Yp and D/H are in
+                         excellent agreement with the observed ratios from astronomical measurements of emission
+                         lines in low-metallicity galactic and extragalactic clouds, which are expected to contain near-
+                         primordial abundances [32]. The agreement in D/H is particularly impressive and provides
+                         a powerful confirmation of the validity of the SBBN theory. The problem with 7 Li may
+                         be due to the stellar depletion of lithium. From the abundances in Table 1, we see that by
+                         t ≈ 5 min, more than 99.99% of primordial neutrons were bound within 4 He nuclei.
+                         Therefore, the 4 He abundance ratio Yp depends almost entirely on the n/p ratio during Big
+                         Bang nucleosynthesis.
+
+                         Table 1. SBBN primordial isotope abundance ratios, using the latest CMB results for the baryon/photon
+                         ratio of the universe η, and a comparison to recent astronomical measurements [32].
+
+                          Isotope Ratio                     SBBN Prediction                  Observed
+                          Yp = 4 He/H                       0.24691 ± 0.00018                0.2449 ± 0.0040
+                          D/H                               2.57 ± 0.13 × 10−5               2.55 ± 0.03 × 10−5
+                          3 He/H                            10.03 ± 0.90 × 10−6              no data
+                          7 Li/H                            4.72 ± 0.72 × 10−10              1.6 ± 0.3 × 10−10
+Symmetry 2024, 16, 956                                                                                                             9 of 12
+
+
+
+                               The neutron decay lifetime plays a key role here. The n/p ratio during nucleosynthesis
+                         depends strongly on the neutron lifetime in two ways: (1) the coupling constant factor
+                         1 + 3( G A /GV )2 in Equation (3) gives the rate at which neutrons decay and also determines
+                         the strength of the reactions in Equation (13), and hence the temperature at which nucleon
+                         freeze out occurs which is the denominator in Equation (14); and (2) the n/p ratio decreases
+                         from freeze out to t = 5 min due to the decay of neutrons to protons. This dependence is
+                         nicely illustrated in Figure 5, which shows a scatter plot of SBBN-calculated Yp values with
+                         input parameters varied according to their Gaussian uncertainties [32]. The 10 s neutron
+                         lifetime discrepancy covers almost the full horizontal range of this plot, so it is the biggest
+                         obstacle for a precise SBBN prediction for Yp .
+                                                                       Cyburt et al.: Big bang nucleosynthesis: Present status
+
+
+                                                                                                              TABLE IV. Constraints on the ba
+                                                                                                              ent combinations of observational
+                                                                                                              over Y p to create 1D η likelihood
+
+                                                                                                              Constraints used                     η
+                                                                                                              CMB only                         6.108
+                                                                                                              BBN þ Y p                           4.
+                                                                                                              BBN þ D                          6.180
+                                                                                                              BBN þ Y p þ D                    6.172
+                                                                                                              CMB þ BBN                        6.098
+                                                                                                              CMB þ BBN þ Y p                  6.098
+                                                                                                              CMB þ BBN þ D                    6.102
+                                                                                                              CMB þ BBN þ Y p þ D              6.101
+
+
+                         Figure  2. Results
+                           FIG. 5.          of a SBBN calculation
+                                      The sensitivity of the 4 He(Cyburt,   Fields,
+                                                                    abundance    toOlive,  and Yeh [29]) showing the sensitivity
+                                                                                      the neutron      example, in row 2, the value
+                         ofmean
+                            the primordial  helium abundance
+                                 lifetime, as shown through a pY  to the neutron  lifetime.
+                                                                scatter plot of our Monte Carlo               uncertainty. This is due to t
+                           error propagation.
+                                Another interesting approach to BBN is to treat the number ofobservational       neutrino species  abundance
+                                                                                                                                        as a     (7) a
+                         free parameter rather than fixed at the Standard Model values Nν = 3 pand Neff = 3.046,of Y    on  η.  We    see again  that B
+                         where    Nν is the
+                           nonstandard     BBN  number
+                                                     (NBBN),of actual    neutrinos
+                                                                  where we      allowandthe N  eff includes
+                                                                                             number      of the This is  describedtointhe
+                                                                                                                   contribution            more deta
+                         radiation
+                           neutrinodensity
+                                       flavorsoftothe   universe
+                                                      differ        caused
+                                                              from 3.        by the
+                                                                          There       distortion of
+                                                                                   are many                     BBNenergy
+                                                                                                       the neutrino
+                                                                                                 possible              relation           by η and Y
+                                                                                                                                    between
+                                                                                                                                spectra
+                         charged
+                           choiceslepton     annihilation
+                                      that could      be made  and forother possible
+                                                                        using    Planckdegrees
+                                                                                          data sets.of freedom
+                                                                                                         In      suchYas
+                                                                                                                from     p light   WIMPs.
+                                                                                                                            is used.    This is close
+                         Adding,     hypothetically,      the  presence     of  more    neutrino
+                           particular, Planck offers results based on several combinations           species  increases  the    expansion
+                                                                                                                found in Table 4 and Eq. (72)
+                         rate
+                           of of  thedata
+                               their    universe,
+                                            such aswhich       leads to an
+                                                        including              increased
+                                                                      polarization,         freeze
+                                                                                       lensing,                 here Y p T
+                                                                                                      out temperature
+                                                                                                   baryon                 wasfreeze ,
+                                                                                                                                 takenwhich
+                                                                                                                                         to be free an
+                         in turn
+                           acousticshifts n/p     and Y
+                                       oscillations,      p to
+                                                        etc.    larger
+                                                             Here    we values
+                                                                          chooseasthe per  Equation
+                                                                                         CMB             (14). Using
+                                                                                                  data set             the   Plank    result
+                                                                                                                result of marginalization over
+                                                        −10 , the PDG-recommended neutron lifetime τ = 878.4 ± 0.5 s,
+                         η =     uses ±both
+                           that6.104      0.055 × 10
+                                               temperature      and polarization (E-mode) data,                 smalln difference in the results
+                                                                               Ypþand
+                         and   the astronomical
+                           corresponding      to the measurements
+                                                        Planck TT; TE;ofEE           lowPD/H
+                                                                                                                η10 ¼±6.10
+                                                                                                   This Nisν = 2.898
+                                                                                             set.gives                   0.141 [31] and
+                                                                                                                                 (Table IV). Row
+                                         ±
+                           labeled as plikHM_TTTEEE_lowTEB in the Planck archive.
+                         Neff   = 2.94      0.19   [29],  both   in good    agreement     with     the  Standard   Model     values. The
+                                                                                                                determinations of 4 He, D, and
+                         neutron
+                           Using thelifetime
+                                         Planckdiscrepancy
+                                                    Markov chainhas andata
+                                                                         unfortunate     effect here as well. The 10 s discrepancy
+                                                                             (Planck Collaboration,             see, the inclusion of the observ
+                           2015), weto ∆Neff
+                         translates               ≈ 0.19,
+                                        constructed     thewhich    is comparable
+                                                             multidimensional         to the present
+                                                                                    likelihoods          uncertainty in the calculation.
+                                                                                                    for the     affect the determination of η an
+                                The neutron
+                           following            lifetime
+                                         extended          also plays
+                                                       parameter        an important
+                                                                     chains,    base_yhe roleand
+                                                                                               in stellar
+                                                                                                     base_nucleosynthesis.      In particu-
+                                                                                                                fiducial baryon-to-photon ratio
+                         lar, the weak    fusion    reaction,
+                           nnu_yhe, for the plikHM_TTTEEE_lowTEB                           data set. As
+                                                                             →2 H
+                                                                      p + p base      + e+as+itνassumes
+                                                                                                                   The        three-dimensional
+                           noted earlier, we do not use the Planck                 chain,        e,                                      (19)
+                                                                                                              LPLA−base nnu yhe ðωb ; Y p ; N ν Þ is
+                         isaaBBN      relationship
+                              Gamow–Teller        (∆Jbetween
+                                                       = 1) weakthe transition;
+                                                                     helium abundance      and the
+                                                                                a free proton   in the by,
+                                                                                                      initiala state transforms
+                                                                                                               simple 3D     correlated G
+                           baryon    density.   base_yhe    refers to the  data chain
+                         into a neutron inside the spin-1 deuteron. The cross section  that allows
+                                                                                                 contains  the matrix
+                                                                                                        these            element
+                                                                                                               distributions  are single pe
+                         inthe   helium (2)
+                             Equation      abundance     to vary independently
+                                              and is proportional      to the factorwhile    G A /GV )2 can
+                                                                                     1 + 3(fixing        in Equation
+                                                                                                              correct for theit non-Ga
+                                                                                                                        (3), so
+                           N eff ¼ the
+                         requires   3.046,    and lifetime
+                                          neutron    base_nnu_yhe
+                                                               value asallows   both The
+                                                                          an input.   the value
+                                                                                            heliumof G Aexpansion
+                                                                                                          /GV also about
+                                                                                                                     appears    in correlat
+                                                                                                                             a 3D
+                           abundance ofand
+                         calculations           thelight
+                                            other    number    of effective
+                                                         element             degrees
+                                                                   processes that are of  freedomin stellar
+                                                                                      important             physics,  such   as 8B
+                                                                                                        Details of this prescription are
+                           to vary
+                         beta  decay,   responsible for the 8 B neutrino flux detected by the Homestake
+                                     independently.                                                               solar neutrino
+                                                                                                           The calculated      mean value
+                              From hese
+                         experiment      [33]. two parameter sets we have the following                 these distributions are as follo
+                          two- and three-dimensional likelihoods from the CMB:
+                          LPLA−base yhe ðωb ; Y p Þ and LPLA−base nnu yhe ðωb ; Y p ; N ν Þ. The                                  ωb ¼ 0.022 21
+                          two-dimensional base_yhe likelihood LPLA−base yhe ðωb ; Y p Þ
+                          is well represented by a 2D correlated Gaussian distribution,                                              N eff ¼ 2.754
+                          with means and standard deviations for the baryon density and
+                          4
+                            He mass fraction                                                                                        Y p ¼ 0.261 1
+
+                                               ωb ¼ 0.022 305  0.000 225;                         ð18Þ       These values correspond to
+Symmetry 2024, 16, 956                                                                                                            10 of 12
+
+
+
+                                  5. The Neutron Lifetime and Dark Matter
+                                        Over the past decade, a number of very interesting ideas involving new physics have
+                                  been proposed that could potentially explain the neutron lifetime discrepancy. Many of
+                                  these rely on the fact that beam experiments measure the partial lifetime of Standard Model
+                                  neutron beta decay, while UCN storage experiments measure the total lifetime of all neutron
+                                  decay or disappearance modes, both known and unknown. If the neutron has an exotic,
+                                  previously undetected, decay mode, then the UCN experiments would tend to measure a
+                                  smaller lifetime. A prominent example is the suggestion by Fornal and Grinstein [34] that
+                                  the neutron could decay into dark sector particles without inconsistency with previous
+                                  experimental constraints. They considered the possibilities n → χγ, n → χe+ e− , or
+                                  n → χϕ, where χ and ϕ are fermion and boson dark matter particles, respectively. The
+                                  existence of massive neutron stars puts some pressure on this proposal [35–38], and the
+                                  semi-visible modes with a photon or electron–positron pair in the final state have been
+                                  excluded by subsequent experiments [39–41]. Another interesting suggestion [42] is that
+                                  stored UCNs could be upscattered by the dark matter halo of the galaxy, which has a
+                                  velocity relative to the Earth of ≈250 km/s. Very little energy transfer, ∼100 neV, is needed
+                                  to remove UCNs from the storage volume, which would lead to an observed lifetime
+                                  shorter than the beam neutron’s lifetime.
+                                        Finally, mirror neutron oscillation has been considered as a possible explanation for
+                                  the neutron lifetime discrepancy. A mirror sector that consists of a duplication of the
+                                  known Standard Model particles, with minimal coupling with them other than gravity,
+                                  has been proposed to explain the existence of dark matter [43]. If mirror neutrons n′ have
+                                  equal mass to ordinary neutrons n, and they couple very weakly, the oscillation transition
+                                  time for n ←→ n′ may be resonantly enhanced in a strong magnetic field by the dipole
+                                  potential energy. The proton trap in the NIST BL1 experiment resides in a 4.6 T field, but
+                                  the neutron absorber is in a low-field region, and therefore a resonant n-n′ transition could
+                                  cause the density of neutrons inside the trap to be lower than in the absorber, decreasing
+                                  R p relative to Rn in Equation (10) to produce a larger measured τn . A likely model for this
+                                  was excluded by a recent experiment at Oak Ridge National Lab [44], but in general this
+                                  idea remains viable.
+
+                                  6. Conclusions
+                                        The nearly 5-sigma beam-UCN discrepancy in the value of the free neutron lifetime
+                                  is a significant outstanding problem that limits the precision of SBBN calculations and
+                                  affects other astrophysical quantities. This problem is most likely due to underestimated
+                                  systematic effects in the experiments and it will hopefully be resolved by current and future
+                                  experimental efforts. But we should not neglect the possibility that this disagreement
+                                  could be caused by new physics. While perhaps unlikely, a new physics explanation for
+                                  the neutron lifetime discrepancy would have enormous consequences and may provide
+                                  important clues as to the nature of dark matter.
+
+                                  Funding: This work was supported by National Science Foundation grant PHY-2309938.
+                                  Conflicts of Interest: The author declares no conflicts of interest in this work.
+
+References
+1.   Feynman, R.P.; Gell-Mann, M. Theory of the Fermi Interaction. Phys. Rev. 1958, 109, 193. [CrossRef]
+2.   Gell-Mann, M. Test of the Nature of the Vector Interaction in Beta Decay. Phys. Rev. 1958, 111, 362. [CrossRef]
+3.   Particle Data Group; Workman, R.L.; Burkert, V.D.; Crede, V.; Klempt, E.; Thoma, U.; Tiator, L.; Agashe, K.; Aielli, G.; Allanach,
+     B.C.; et al. Review of Particle Physics. Prog. Theor. Exp. Phys. 2022, 2022, 083C01.
+4.   Czarnecki, A.; Marciano, W.J.; Sirlin, A. Radiative corrections to neutron and nuclear beta decays revisited. Phys. Rev. D 2019, 100,
+     073008. [CrossRef]
+5.   Wietfeldt, F.E.; Greene, G.L. The neutron lifetime. Rev. Mod. Phys. 2011, 83, 1173. [CrossRef]
+6.   Wietfeldt, F.E. Measurements of the Neutron Lifetime. Atoms 2018, 6, 70. [CrossRef]
+7.   Robson, J.M. The Radioactive Decay of the Neutron. Phys. Rev. 1951, 83, 349. [CrossRef]
+Symmetry 2024, 16, 956                                                                                                             11 of 12
+
+
+
+8.  Nico, J.S.; Dewey, M.S.; Gilliam, D.M.; Wietfeldt, F.E.; Fei, X.; Snow, W.M.; Greene, G.L.; Pauwels, J.; Eykens, R.; Lamberty, A.;
+    et al. Measurement of the neutron lifetime by counting trapped protons in a cold neutron beam. Phys. Rev. C 2005, 71, 055502.
+    [CrossRef]
+9. Yue, A.T.; Dewey, M.S.; Gilliam, D.M.; Greene, G.L.; Laptov, A.B.; Nico, J.S.; Snow, W.M.; Wietfeldt, F.E. Improved Determination
+    of the Neutron Lifetime. Phys. Rev. Lett. 2013, 111, 222501. [CrossRef]
+10. Amaldi, E.; D’Agostino, O.; Fermi, E.; Pontecorvo, B.; Rasetti, F.; Segré, E. Artificial Radioactivity produced by Neutron Bombard-
+    ment. Proc. R. Soc. Lond. 1935, 149, 522.
+11. Byrne, J.; Dawber, P.G.; Habeck, C.G.; Smidt, S.J.; Spain, J.A.; Williams, A.P. A revised value for the neutron lifetime measured
+    using a Penning trap. Europhys. Lett. 1996, 33, 187. [CrossRef]
+12. Hirota, K.; Ichikawa, G.; Ieki, S.; Ino, T.; Iwashita, Y.; Kitaguchi, M.; Kitahara, R.; Koga, J.; Mishima, K.; Mogi, T.; et al. Neutron
+    lifetime measurement with pulsed cold neutrons. Prog. Theor. Exp. Phys. 2020, 2020, 123C02. [CrossRef]
+13. Morris, C.L.; Adamek, E.R.; Broussard, L.J.; Callahan, N.B.; Clayton, S.M.; Cude-Woods, C.; Currie, S.A.; Ding, X.; Fox, W.;
+    Hickerson, K.P.; et al. A new method for measuring the neutron lifetime using an in situ neutron detector. Rev. Sci. Instr. 2017,
+    88, 053598. [CrossRef] [PubMed]
+14. Pattie, R.W., Jr.; Callahan, N.B.; Cude-Woods, C.; Adamek, E.R.; Broussard, L.J.; Clayton, S.M.; Currie, S.A.; Dees, E.B.; Ding, X.;
+    Engel, E.M.; et al. Measurement of the neutron lifetime using a magneto-gravitational trap and in situ detection. Science 2018, 360,
+    627–632. [CrossRef] [PubMed]
+15. Gonzalez, F.M.; Fries, E.M.; Cude-Woods, C.; Bailey, T.; Blatnik, M.; Broussard, L.J.; Callahan, N.B.; Choi, J.H.; Clayton, S.M.;
+    Currie, S.A.; et al. Improved Neutron Lifetime Measurement with UCNτ. Phys. Rev. Lett. 2021, 127, 162501. [CrossRef] [PubMed]
+16. Serebrov, A.P.; Kolomensky, E.A.; Fomin, A.K.; Krasnoshchekova, I.A.; Vassiljev, A.V.; Prudnikov, D.M.; Shoka, I.V.; Chechkin, A.V.;
+    Chaikovskiy, M.E.; Varlamov, V.E.; et al. Neutron lifetime measurements with a large gravitational trap for ultracold neutrons.
+    Phys. Rev. C 2018, 97, 055503. [CrossRef]
+17. Mampe, W.; Bondarenko, L.; Morozov, V.; Panin, Y. Fomin, Measuring neutron lifetime by storing ultracold neutrons and detecting
+    inelastically scattered neutrons. J. Exp. Theor. Phys. Lett. 1993, 57, 82.
+18. Serebrov, A.; Varlamov, V.; Kharitonov, A.; Fomin, A.; Pokotilovski, Y.; Geltenbort, P.; Butterworth, J.; Krasnoschekova, I.; Lasakov,
+    M.; Taldaev, R.; et al. Measurement of the neutron lifetime using a gravitational trap and a low-temperature Fomblin coating. Phys.
+    Lett. B 2005, 605, 72. [CrossRef]
+19. Pichlmaier, A.; Varlamov, V.; Schreckenbach, K.; Geltenbort, P. Neutron lifetime measurement with the UCN trap-in-trap MAMBO
+    II. Phys. Lett. B 2010, 693, 221. [CrossRef]
+20. Steyerl, A.; Pendlebury, J.; Kaufman, C.; Malik, S.; Desai, A. Quasielastic scattering in the interaction of ultracold neutrons with a
+    liquid wall and application in a reanalysis of the Mambo I neutron-lifetime experiment. Phys. Rev. C 2012, 85, 065503. [CrossRef]
+21. Arzumanov, S.; Bondarenko, L.; Chernyavsky, S.; Geltenbort, P.; Morozov, V.; Nesvizhevsky, V.; Panin, Y.; Strepetov, A. A
+    measurement of the neutron lifetime using the method of storage of ultracold neutrons and detection of inelastically up-scattered
+    neutrons. Phys. Lett. B 2015, 745, 79. [CrossRef]
+22. Ezhov, V.F.; Andreev, A.; Ban, G.; Bazarov, B.; Geltenbort, P.; Glushkov, A.; Knyazkov, V.; Kovrizhnykh, N.; Krygin, G.; Naviliat-
+    Cuncic, O.; et al. Measurement of the neutron lifetime with ultra-cold neutrons stored in a magneto-gravitational trap. J. Exp.
+    Theor. Phys. Lett. 2018, 107, 707. [CrossRef]
+23. Byrne, J.; Worcester, D.L. The neutron lifetime anomaly and charge exchange collisions of trapped protons. J. Phys. G Nucl. Part.
+    Phys. 2019, 46, 085001. [CrossRef]
+24. Byrne, J.; Worcester, D.L. The neutron lifetime anomaly: Analysis of charge exchange and molecular reactions in a proton trap. Eur.
+    Phys. J. A 2022, 58, 151. [CrossRef]
+25. Serebrov, A.P.; Chaikovskii, M.E.; Klyushnikov, G.N.; Zherebtsov, O.M.; Chechkin, A.V. Search for explanation of the neutron
+    lifetime anomaly. Phys. Rev. D 2021, 103, 074010. [CrossRef]
+26. Wietfeldt, F.E.; Biswas, R.; Caylor, J.; Crawford, B.; Dewey, M.S.; Fomin, N.; Greene, G.L.; Haddock, C.C.; Hoogerheide, S.F.;
+    Mumm, H.P.; et al. Comment on “Search for explanation of the neutron lifetime anomaly”. Phys. Rev. D 2023, 107, 118501.
+    [CrossRef]
+27. Spivak, P.E. Neutron lifetime obtained from Atomic-Energy-Institute experiment. J. Exp. Theor. Phys. 1988, 67, 1735.
+28. Weinberg, S.L. The First Three Minutes; Basic Books: New York, NY, USA, 1993.
+29. Cyburt, R.H.; Fields, B.D.; Olive, K.A.; Yeh, T.-H. Big Bang nucleosynthesis: Present status. Rev. Mod. Phys. 2016, 88, 15004.
+    [CrossRef]
+30. Planck Collaboration; Aghanim, N.; Akrami, Y.; Ashdown, M.; Aumont, J.; Baccigalupi, C.; Ballardini, M.; Banday, A.J.; Barreiro,
+    R.B.; Bartolo, N.; et al. Planck 2018 results. VI. Cosmological parameters. Astron. Astrophys. 2020, 641, A6.
+31. Yeh, T.H.; Shelton, J.; Olive, K.A.; Fields, B. Probing physics beyond the standard model: Limits from BBN and the CMB
+    independently and combined. JCAP 2022, 10, 46. [CrossRef]
+32. Fields, B.D.; Olive, K.A.; Yeh, T.H.; Young, C. Big-Bang Nucleosynthesis after Planck. JCAP 2020, 3, 10. [CrossRef]
+33. Bahcall, J.N.; Davis, R., Jr. Solar Neutrinos: A Scientific Puzzle. Science 1976, 191, 264. [CrossRef]
+34. Fornal, B.; Grinstein, B. Dark Matter Interpretation of the Neutron Decay Anomaly. Phys. Rev. Lett. 2018, 120, 191801. [CrossRef]
+    [PubMed]
+35. Cline, J.M.; Cornell, J.M. Dark decay of the neutron. J. High Energy Phys. 2018, 2018, 81. [CrossRef]
+Symmetry 2024, 16, 956                                                                                                                12 of 12
+
+
+
+36. Motta, T.F.; Guichon, P.A.; Thomas, A.W. Implications of neutron star properties for the existence of light dark matter. J. Phys. G
+    2018, 45, 05LT01. [CrossRef]
+37. Baym, G.; Heck, D.H.; Geltenbort, P.; Shelton, J. Testing Dark Decays of Baryons in Neutron Stars. Phys. Rev. Lett. 2018, 121, 061801.
+    [CrossRef]
+38. McKeen, D.; Nelson, A.E.; Reddy, S.; Zhou, D. Neutron Stars Exclude Light Dark Baryons. Phys. Rev. Lett. 2018, 121, 061802.
+    [CrossRef] [PubMed]
+39. Tang, Z.; Blatnik, M.; Broussard, L.J.; Choi, J.H.; Clayton, S.M.; Cude-Woods, C.; Currie, S.; Fellers, D.E.; Fries, E.M.; Geltenbort, P.;
+    et al. Search for the Neutron Decay n → X + γ, Where X is a Dark Matter Particle. Phys. Rev. Lett. 2018, 121, 022505. [CrossRef]
+    [PubMed]
+40. Sun, X.; Adamek, E.; Allgeier, B.; Blatnik, M.; Bowles, T.J.; Broussard, L.J.; Brown, M.A.-P.; Carr, R.; Clayton, S.; Cude-Woods, C.; et
+    al. Search for dark matter decay of the free neutron from the UCNA experiment: n → χ + e+ e− . Phys. Rev. C 2018, 97, 052501R.
+    [CrossRef]
+41. Klopf, M.; Jericha, E.; Märkisch, B.; Saul, H.; Soldner, T.; Abele, H. Constraints on the Dark Matter Interpretation n → χ + e+ e− of
+    the Neutron Decay Anomaly with the PERKEO II Experiment. Phys. Rev. Lett. 2019, 122, 222503. [CrossRef]
+42. Dawid, M. APS April Meeting 2022, session T12. Neutron-Axion Scattering and the Neutron Lifetime Puzzle. Bull. Am. Phys. Soc.
+    2022, 67, 6.
+43. Berezhiani, Z.; Comelli, D.; Villante, F.L. The early mirror universe: Inflation, baryogenesis, nucleosynthesis and dark matter. Phys.
+    Lett. B 2001, 503, 362. [CrossRef]
+44. Broussard, L.J.; Barrow, J.L.; DeBeer-Schmitt, L.; Dennis, T.; Fitzsimmons, M.R.; Frost, M.J.; Gilbert, C.E.; Gonzalez, F.M.; Heilbronn,
+    L.; Iverson, E.B.; et al. Experimental Search for Neutron to Mirror Neutron Oscillations as an Explanation of the Neutron Lifetime
+    Anomaly. Phys. Rev. Lett. 2022, 128, 212503. [CrossRef] [PubMed]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

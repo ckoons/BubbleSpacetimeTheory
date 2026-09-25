@@ -1,0 +1,580 @@
+                                               Precision Analysis of the 136 Xe Two-Neutrino ββ Spectrum in KamLAND-Zen
+                                                       and Its Impact on the Quenching of Nuclear Matrix Elements
+
+                                          A. Gando,1 Y. Gando,1 T. Hachiya,1 M. Ha Minh,1 S. Hayashida,1 Y. Honda,1 K. Hosokawa,1 H. Ikeda,1 K. Inoue,1, 2
+                                           K. Ishidoshiro,1 Y. Kamei,1 K. Kamizawa,1 T. Kinoshita,1 M. Koga,1, 2 S. Matsuda,1 T. Mitsui,1 K. Nakamura,1, 2
+                                          A. Ono,1 N. Ota,1 S. Otsuka,1 H. Ozaki,1 Y. Shibukawa,1 I. Shimizu,1 Y. Shirahata,1 J. Shirai,1 T. Sato,1 K. Soma,1
+                                               A. Suzuki,1 A. Takeuchi,1 K. Tamae,1 K. Ueshima,1 H. Watanabe,1 D. Chernyak,2 A. Kozlov,2 S. Obara,3
+                                          S. Yoshida,4 Y. Takemoto,5 S. Umehara,5 K. Fushimi,6 S. Hirata,7 B.E. Berger,2, 8 B.K. Fujikawa,2, 8 J.G. Learned,9
+                                          J. Maricic,9 L.A. Winslow,10 Y. Efremenko,2, 11 H.J. Karwowski,12 D.M. Markoff,12 W. Tornow,2, 12 T. O’Donnell,13
+                                           J.A. Detwiler,2, 14 S. Enomoto,2, 14 M.P. Decowski,2, 15 J. Menéndez,16 R. Dvornický,17, 18 and F. Šimkovic17, 19, 20
+                                                                                     (KamLAND-Zen Collaboration)
+                                                             1
+                                                                   Research Center for Neutrino Science, Tohoku University, Sendai 980-8578, Japan
+
+
+
+
+arXiv:1901.03871v2 [hep-ex] 15 May 2019
+                                                         2
+                                                              Kavli Institute for the Physics and Mathematics of the Universe (WPI), The University of
+                                                           Tokyo Institutes for Advanced Study, The University of Tokyo, Kashiwa, Chiba 277-8583, Japan
+                                                                              3
+                                                                                Kyoto University, Department of Physics, Kyoto 606-8502, Japan
+                                                                   4
+                                                                     Graduate School of Science, Osaka University, Toyonaka, Osaka 560-0043, Japan
+                                                              5
+                                                                Research Center for Nuclear Physics, Osaka University, Ibaraki, Osaka 567-0047, Japan
+                                                                        6
+                                                                          Department of Physics, Tokushima University, Tokushima 770-8506, Japan
+                                                       7
+                                                         Graduate School of Integrated Arts and Sciences, Tokushima University, Tokushima 770-8502, Japan
+                                                        8
+                                                          Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA
+                                                     9
+                                                       Department of Physics and Astronomy, University of Hawaii at Manoa, Honolulu, Hawaii 96822, USA
+                                                                     10
+                                                                        Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA
+                                                       11
+                                                          Department of Physics and Astronomy, University of Tennessee, Knoxville, Tennessee 37996, USA
+                                                                   12
+                                                                      Triangle Universities Nuclear Laboratory, Durham, North Carolina 27708, USA;
+                                                                     Physics Departments at Duke University, Durham, North Carolina 27708, USA;
+                                                                          North Carolina Central University, Durham, North Carolina 27707, USA;
+                                                           and The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA
+                                               13
+                                                  Center for Neutrino Physics, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061, USA
+                                            14
+                                               Center for Experimental Nuclear Physics and Astrophysics, University of Washington, Seattle, Washington 98195, USA
+                                                                15
+                                                                   Nikhef and the University of Amsterdam, Science Park, Amsterdam, the Netherlands
+                                                                      16
+                                                                          Center for Nuclear Study, The University of Tokyo, Tokyo 113-0033, Japan
+                                           17
+                                              Department of Nuclear Physics and Biophysics, Comenius University, Mlynská dolina F1, SK-842 48 Bratislava, Slovakia
+                                                                          18
+                                                                             Dzhelepov Laboratory of Nuclear Problems, JINR 141980 Dubna, Russia
+                                                                       19
+                                                                           Bogoliubov Laboratory of Theoretical Physics, JINR 141980 Dubna, Russia
+                                                                           20
+                                                                              Czech Technical University in Prague, 128-00 Prague, Czech Republic
+                                                                                                    (Dated: May 16, 2019)
+                                                          We present a precision analysis of the 136 Xe two-neutrino ββ electron spectrum above 0.8 MeV,
+                                                       based on high-statistics data obtained with the KamLAND-Zen experiment. An improved formalism
+                                                       for the two-neutrino ββ rate allows us to measure the ratio of the leading and subleading 2νββ
+                                                       nuclear matrix elements (NMEs), ξ31  2ν
+                                                                                               = −0.26+0.31
+                                                                                                       −0.25 . Theoretical predictions from the nuclear shell
+                                                       model and the majority of the quasiparticle random-phase approximation (QRPA) calculations are
+                                                                                                                            2ν
+                                                       consistent with the experimental limit. However, part of the ξ31        range allowed by the QRPA
+                                                       is excluded by the present measurement at the 90% confidence level. Our analysis reveals that
+                                                                  2ν
+                                                       predicted ξ31 values are sensitive to the quenching of NMEs and the competing contributions from
+                                                       low- and high-energy states in the intermediate nucleus. Because these aspects are also at play in
+                                                                                2ν
+                                                       neutrinoless ββ decay, ξ31  provides new insights toward reliable neutrinoless ββ NMEs.
+
+
+                                             Introduction.—Double-beta (ββ) decay is a rare nu-             definite benchmarks toward the discovery of 0νββ decay
+                                          clear process. The ββ decay emitting two electron an-             in experiments.
+                                          tineutrinos and two electrons (2νββ) is described within             The 0νββ rate, however, also depends on nuclear ma-
+                                          the standard model of the electroweak interaction. In             trix elements (NMEs) which are poorly known [3], as
+                                          contrast, the ββ mode without neutrino emission (0νββ)            0νββ NME estimates vary between the many-body ap-
+                                          implies new physics, and can only occur if neutrinos are          proaches used to calculate them. In addition, NMEs
+                                          Majorana particles. While 2νββ decay has been mea-                may be affected by a possible “quenching” or, equiva-
+                                          sured in 12 isotopes [1], an observation of 0νββ decay            lently, an effective value of the axial-vector coupling g eff
+                                                                                                                                                                      A
+                                          remains elusive. In the standard scenario, the 0νββ rate          in the decay. Overall, the NME uncertainty can reduce
+                                          is proportional to the square of the effective Majorana           the experimental sensitivity on mββ by up to a factor of
+                                          neutrino mass, mββ [2], allowing the establishment of             5 [4]. To mitigate this, nuclear many-body predictions
+                                                                                                                            2
+
+need to be tested in other observables. Several nuclear            tions and can discriminate between those that reproduce
+structure [5–8] and Gamow-Teller (GT) properties [9–11]            the 2νββ rate.
+have been proposed as 0νββ decay probes. Because 2νββ                 In this Letter, we analyze the high-statistics 2νββ de-
+and 0νββ decays share initial and final nuclear states,            cay of 136 Xe with KamLAND-Zen [36] and compare the
+and the transition operators are similar, a reproduction                        2ν        2ν
+                                                                   measured T1/2    and ξ31  values with the predictions from
+of 2νββ decay is key to reliable 0νββ NME predictions.             the QRPA and nuclear shell model. In KamLAND-Zen,
+Nonetheless, few nuclear many-body methods are well                                                   2ν
+                                                                   the spectral distortion due to ξ31     could be up to 8%
+suited for both ββ modes, because nuclei with even and             based on the theoretical predictions. Such effect is
+odd numbers of neutrons and protons up to high exci-               testable with accumulated statistics of ∼ 105 2νββ de-
+tation energies need to be described consistently. The             cays. Because 0νββ NMEs also show a competition be-
+most notable approaches are the quasiparticle random-              tween contributions from low- and high-energy interme-
+phase approximation (QRPA) [12–16] and the nuclear                                                          2ν
+                                                                   diate states [15], testing theoretical ξ31  predictions can
+shell model [17–22].                                               provide new insights on 0νββ calculations, including the
+   The 2νββ rate is usually expressed as                           possible quenching of the NMEs.
+                                                                      Experiment and results.—The KamLAND-Zen
+                 2ν −1     eff 4  2ν 2 2ν
+               (T1/2 ) ≃ (gA  ) |MGT | G0 ,                 (1)    (KamLAND Zero-Neutrino Double-Beta Decay) de-
+                                                                   tector consists of 13 tons of Xe-loaded liquid scintilla-
+          2ν
+where MGT     is the 2νββ NME and G2ν     0 a known phase-         tor (Xe-LS) contained in a 3.08-m-diameter spherical
+                                 eff
+space factor [23]. As a result, gA   can be determined from        inner balloon (IB). The IB is constructed from 25-µm-
+                   2ν         2ν
+the measured T1/2      once MGT  is theoretically evaluated,       thick transparent nylon film and is suspended at the
+a strategy followed in Ref. [24]. While a similar approach         center of the KamLAND detector [41, 42]. The IB is
+has been used in the nuclear shell model, especially for           surrounded by 1 kton of liquid scintillator (LS) which
+136                                           eff
+    Xe [20, 25], it is more common to take gA      from GT β       acts as an active shield. The scintillation photons are
+decay and electron-capture (EC) rates [25, 26], assuming           viewed by 1879 photomultiplier tubes mounted on the
+a common quenching for all weak processes. Likewise, the           inner surface of the containment vessel. The Xe-LS
+                                                    eff
+QRPA can also use β decay and EC to obtain gA           [27–29],   consists of 80.7% decane and 19.3% pseudocumene
+                                                  eff
+even though the standard approach is to fix gA first, and          (1,2,4-trimethylbenzene) by volume, 2.29 g/L of the
+                                                2ν
+then adjust the nuclear interaction so that MGT       describes    fluor PPO (2,5-diphenyloxazole), and (2.91 ± 0.04)% by
+the 2νββ half-life [30]. In this way, the nuclear shell            weight of enriched xenon gas. The isotopic abundances
+model and QRPA typically reproduce experimental 2νββ               in the enriched xenon were measured by a residual gas
+rates and predict nonmeasured ones [17, 18, 31–33].                analyzer to be (90.77 ± 0.08)% 136 Xe, (8.96 ± 0.02)%
+   Recently, the 2νββ decay of several isotopes has been           134
+                                                                       Xe.
+observed with high statistics by the NEMO-3 [34],                     We report on data collected between December 11,
+EXO [35], KamLAND-Zen [36], GERDA [37],                            2013 and October 27, 2015, which is the same data set
+Majorana [38] and CUORE [39] collaborations.                       analyzed for the 0νββ search in Ref. [36] with a total live
+These achievements demand an improved theoretical                  time of 534.5 days. The selection to reduce the back-
+description.      Reference [40] gives a more accurate             ground contributions is the same as in Ref. [36], but we
+expression for the 2νββ decay rate                                 apply a tightened 2νββ event selection for this work in
+                                                                   order to avoid systematic uncertainties arising from back-
+   2ν −1     eff 4    2ν 2 2ν         2ν   2ν      2ν
+ (T1/2 ) ≃ (gA  ) (MGT  ) G0 + MGT        MGT −3 G2                grounds. The fiducial volume for the reconstructed event
+             eff 4  2ν     2    1      2ν    2ν 2ν                 vertices is defined as a 1-m-radius spherical shape at the
+         = (gA  ) |MGT −3 |    2ν |2 G0 + ξ31 G2 , (2)             detector center, which gives a fiducial exposure for this
+                             |ξ31
+                                                                   analysis of (126.3±3.9) kg yr in 136 Xe. We perform a like-
+where the phase-space factor G2ν  2 has a different depen-         lihood fit to the binned energy spectrum of the selected
+dence on lepton energies than G2ν   0 , and the subleading         candidates between 0.8 and 4.8 MeV, tightened relative
+                             2ν                                    to the 2νββ analysis in Ref. [36]. The systematic uncer-
+nuclear matrix element MGT      −3 enters the (real-valued)
+       2ν       2ν       2ν              2ν                        tainties on the 2νββ rate are evaluated identically as in
+ratio ξ31 = MGT    −3 /M GT  .  While  M GT is sensitive to
+contributions from high-lying states in the intermedi-             Ref. [36] and are summarized in Table I.
+ate odd-odd nucleus, for MGT −3 only the lowest-energy
+states are relevant due to rapid suppression in the en-
+                                      2ν
+ergy denominator. Consequently ξ31       probes additional,
+complementary physics to the 2νββ half-life. This novel              A detailed energy calibration is essential for the ex-
+                                                                                2ν
+observable can be determined experimentally by fitting             traction of ξ31 . The energy scale was determined using
+the 2νββ electron energy spectrum to extract the lead-             γ rays from Co, 68 Ge, and 137 Cs radioactive sources, γ
+                                                                                60
+
+ing and second order contributions in Eq. (2). Hence,              rays from the capture of spallation neutrons on protons
+                        2ν
+the measurement of ξ31      challenges theoretical calcula-        and 12 C, and β + γ-ray emissions from 214 Bi, a daugh-
+                                                                                                                                                    3
+
+                  20     2ν
+                        ξ31 = − 0.4
+                                         2ν
+                                        ξ31 = 0.0
+                                                        2ν
+                                                       ξ31 = 0.4
+                                                                                                 1
+                                                                                                      68.3% C.L.
+
+
+Deviation (%)
+                         2ν              2ν
+                  10    ξ31 = − 0.2     ξ31 = 0.2                                                     90.0% C.L.
+                                                                                                      95.4% C.L.
+                    0                                                                                 99.7% C.L.
+                                                                                                0.5
+                 −10
+                 −20
+                                                                   110m
+                                                     Data             Ag                   31
+                                                                                      2ν
+                 10 4
+                                                     Total
+                                                     136
+                                                                   238
+                                                                     U+232Th+210Bi    ξ          0
+                                                        Xe 2ν ββ   +40K
+
+
+
+
+Events/0.05MeV
+                 103                                               IB/External
+                                                                   Spallation
+
+                 102                                                                       −0.5
+                  10
+
+                   1
+                                                                                                −1
+                 10−1
+                                                                                                       96        98     100     102      104
+                        1                  1.5           2                      2.5                         136
+                                                                                                               Xe 2νββ Events (ton day)-1
+                                      Visible Energy (MeV)
+                                                                                      FIG. 2: Allowed region for the joint variation of the 136 Xe
+FIG. 1: Bottom panel: Observed energy spectrum of se-                                 2νββ decay rate and the ratio of the matrix elements ξ31   2ν
+                                                                                                                                                    at
+lected 2νββ candidates within a 1-m-radius spherical volume                           the 68.3%, 90%, 95.4%, and 99.7% confidence levels (C.L.).
+(dotted) drawn together with best-fit backgrounds and the                                                                                     2ν
+                                                                                      The dot represents the best-fit point. The profile for ξ31 gives
+                                             2ν
+2νββ decay spectrum floating the value of ξ31   . Top panel:                                         2ν
+                                                                                      a best-fit of ξ31 = −0.26+0.31 and  a 90%  C.L. upper   limit of
+                                                                                                               −0.25
+Deviation of the observed spectrum (dotted) from the best-                             2ν
+      2ν                                                                              ξ31 < 0.26.
+fit (ξ31 = −0.26). The lines indicate the expectation for
+  2ν
+ξ31 = −0.4, −0.2, 0.0, 0.2, 0.4. The shaded band represents
+the systematic uncertainty due to the energy scale error.
+                                                                                         The energy spectrum of selected candidate events be-
+                                                                                      tween 0.8 and 2.5 MeV together with the best-fit spec-
+ter of 222 Rn (lifetime 5.5 day) that was introduced dur-                             tral decomposition is shown in Fig. 1. In the fit, the
+ing the Xe-LS purification. Uncertainties from the non-                               contributions from 2νββ and major backgrounds in the
+linear energy response due to scintillator quenching and                              Xe-LS, such as 40 K, 210 Bi, and the 228 Th-208 Pb subchain
+Cherenkov light production are constrained by the cal-                                of the 232 Th series are free parameters and are left un-
+ibrations. The most important calibration is the high-                                constrained. The background contribution from 110m Ag,
+statistics 214 Bi from the initial 222 Rn distributed uni-                            which is important for the 0νββ analysis, is also a free
+formly over the Xe-LS volume. To ensure that the cali-                                parameter in the fit. The contributions from the 222 Rn-
+bration with 214 Bi can be applied to the entire data set,                            210
+                                                                                          Pb subchain of the 238 U series, and from 11 C and 10 C
+we confirmed that the time variation of the energy scale                              (muon spallation products), as well as the detector en-
+is less than 0.5% based on the spectral fit to the 2νββ                               ergy response model parameters, are allowed to vary but
+decays for each time period. This uncertainty is reduced                              are constrained by their independent estimations [36].
+relative to the previous analysis [36], and is added to the
+energy scale error, which is the dominant error source for                               The 2νββ spectrum is computed with Eq. (2), con-
+      2ν
+the ξ31  measurement, as discussed later.                                             volved with the detector response function. It is char-
+                                                                                      acterized by two free parameters: the total 2νββ rate
+                                                                                                                                2ν
+                                                                                      and the ratio of the matrix elements ξ31     . We obtained
+                                                                                                      2ν            +0.31
+                                                                                      a best fit of ξ31 = −0.26−0.25 and a 90% C.L. upper
+TABLE I: Estimated systematic uncertainties used for the                                         2ν
+                                                                                      limit of ξ31   < 0.26. The systematic uncertainty on
+136
+    Xe 2νββ decay rate measurement.                                                   the energy scale limits the sensitivity of the ξ31 2ν
+                                                                                                                                            mea-
+Source                                              Systematic uncertainty (%)        surement, because an energy scale shift introduces a
+Fiducial volume                                                 3.0                   shape distortion similar to the change generated by a
+                                                                                                2ν
+Enrichment factor of 136 Xe                                    0.09                   nonzero ξ31   . The best-fit total 2νββ rate in the Xe-
+Xenon mass                                                     0.8                    LS mass is 99.7+1.2−1.4 (ton day)
+                                                                                                                        −1
+                                                                                                                           . Figure 2 shows the
+                                                                                                                                              2ν
+Detector energy scale                                          0.3                    joint confidence intervals for the 2νββ rate and ξ31       ,
+                                                                                      which exhibit only a slight positive correlation. It in-
+Detection efficiency                                            0.2
+                                                                                      dicates that the effect on the total 2νββ rate estimate
+Total                                                          3.1
+                                                                                      by the introduction of the second order contribution is
+                                                                                                                                                      4
+
+small. The effect on the 0νββ analysis is also negligi-
+                                                                             1.2                                        shell model (GCN)
+bly small. Considering the systematic uncertainties in
+Table I, the 2νββ decay half-life of 136 Xe is estimated                                                                shell model (MC)
+                                                                              1.1
+            2ν                                                                                                          QRPA (CD-Bonn)
+to be T1/2      = 2.23 ± 0.03(stat) ± 0.07(syst) × 1021 yr.
+                                                                             1.0                                        QRPA (Argonne)
+This result is consistent with our previous result based
+                       2ν
+on phase-II data, T1/2      = 2.21 ± 0.02(stat) ± 0.07(syst) ×               0.9                       excluded, KamLAND-Zen
+1021 yr [36], and with the result obtained by EXO-200,                                                                (90% C.L.)
+   2ν                                                                        0.8
+T1/2   = 2.165 ± 0.016(stat) ± 0.059(syst) × 1021 yr [35].             eff
+Our analysis neglects counts from decays to excited states
+                                                                        gA   0.7
+in 136 Ba, for which our shell model calculations predict
+   2ν           +                                                            0.6
+T1/2  (0+                26
+         gs → 01 ) > 10 yr. Even a very conservative half-
+                   24
+life of 8.7 × 10 yr that assumes the same NME for the                        0.5
+                                                                                                                                      ξ 2ν = 0
+decay to the ground (gs) and excited 0+ states does not                                                                                 31     .26
+                                                                             0.4               (1σ)
+                                                                                                                                         2ν
+                                                                                                                                       ξ 31 = 0.1
+affect our results. This issue might need to be revis-                                                                                            7
+                                                                                                      ξ 2ν =
+ited in the case of an unexpectedly short half-life close                    0.3                       31      0.05
+                                                                                                                               2ν
+                                                                                                                              ξ 31 = 0.10
+to the present 90% C.L. lower limit of 8.3 × 1023 yr [43].
+                                                        2ν                   0.2
+The correction to 2νββ decay represented by ξ31            impacts                 0   0.005     0.01           0.015       0.02     0.025        0.03
+KamLAND-Zen analyses of spectral distortions, includ-                                                            2ν
+                                                                                                               M GT-3
+ing extraction of half-lives to excited states as well as
+searches for beyond-standard-model physics, such as for
+                                                 2ν
+Majoron emission modes. Considering ξ31              as a free pa-                                              eff
+                                                                       FIG. 3: Effective axial-vector coupling gA   as a function of
+rameter, we find the additional uncertainty comparable                                        2ν
+                                                                       the matrix element MGT −3 for   136
+                                                                                                           Xe 2νββ decay. The yel-
+to the energy scale error. Updated spectral analyses will                                         2ν
+                                                                       low (light yellow) region ξ31  > 0.26 (0.05) is excluded by
+be presented in future publications.                                   the present KamLAND-Zen measurement at 90% (1σ) C.L.
+    Theoretical calculations.—We obtain the 2νββ decay                 Nuclear shell model results are displayed by the black cir-
+             2ν         2ν                                  2ν         cle (GCN interaction) and blue square (MC). QRPA results
+NMEs MGT        and MGT     −3 to compare calculated ξ31 val-
+                                                                       are shown by the dashed orange (Argonne interaction) and
+ues to the KamLAND-Zen limit. The NMEs are defined
+                                                                       dashed-dotted green (CD-Bonn) curves.
+as [40]
+                X h0+
+                         P        − +      + P        − +
+         2ν           f|    l σl τl |1j ih1j |  l σl τl |0i i
+      MGT =                                                   , (3)    decays as well. Around 136 Xe, GT transitions with GCN
+                 j
+                                        ∆
+                                                                       are best fit with q = 0.57 [25], and with the same adjust-
+                X 4h0+
+                          P        − +      + P        − +
+      2ν               f|    l σl τl |1j ih1j |  l σl τl |0i i         ment the 136 Xe GT strength into 136 Cs [10], available up
+  MGT −3 =                                                     , (4)   to energy E . 4.5 MeV, is well reproduced by both in-
+                j
+                                       ∆3
+                                                                       teractions. However, the experimental 2νββ half-life sug-
+with energy denominator ∆ = [Ej −(Ei +Ef )/2]/me . Ek                  gests different quenching factors q = 0.42(0.68) for GCN
+                                                                                                          2ν
+is the energy of the nuclear state |Jkπ i with total angular           (MC). The calculations yield MGT      −3 = 0.011(0.0025).
+                                                                                                                  2ν         2ν
+momentum J and parity π, and me is the electron mass.                  We assume a common quenching for MGT           and MGT   −3
+The labels i, j, f refer to the initial, intermediate and              because the shell model reproduces well GT strengths at
+final nuclear states, respectively, while σ is the spin and            low and high energies up to the GT resonance [9]. This
+                                                                                     2ν                        2ν
+τ − the isospin lowering operator.                                     gives ratios ξ31 = 0.17 for GCN and ξ31    = 0.10 for MC,
+   We perform nuclear shell model calculations in the con-             both consistent with the present experimental analysis.
+figuration space comprising the 0g7/2 , 1d5/2 , 1d3/2 , 2s1/2 ,           We also perform 2νββ decay QRPA calculations with
+and 0h11/2 single-particle orbitals for both neutrons and              partial restoration of isospin symmetry [16]. We con-
+protons, using the shell model code NATHAN [44]. We                    sider a configuration space of 23 single-particle orbitals
+               2ν
+reproduce MGT       = 0.064 from Ref. [25] with the GCN                (the six lowest harmonic oscillator shells with the ad-
+interaction [19], and also use the alternative MC interac-             dition of the 0i13/2 and 0i11/2 orbitals). We take as
+                                      2ν
+tion from Ref. [45], which yields MGT     = 0.024. Both in-            nuclear interactions two different G matrices, based on
+teractions have been used in 0νββ decay studies [11, 46].              the charge-dependent Bonn (CD-Bonn) and the Ar-
+Shell model NMEs for β and 2νββ decays are typically                   gonne V18 nucleon-nucleon potentials. We fix the isovec-
+too large, due to a combination of missing correlations                tor proton-neutron interaction imposing the restora-
+beyond the configuration space, and neglected two-body                 tion of isospin [16]. Finally, we adjust the isoscalar
+currents in the transition operator [3]. This is phe-                  neutron-proton interaction to reproduce the 2νββ de-
+                                                                                                                            eff
+nomenologically corrected with a “quenching” factor q,                 cay half-life for different values in the range gA       ≤
+     eff
+or gA    = q gA . In general, the quenching that fits GT β             gA = 1.269. We obtain the following ranges of re-
+                                                                                 2ν                       2ν
+decays and ECs in the same mass region is valid for 2νββ               sults: MGT    = (0.011, 0.164), MGT   −3 = (0.0031, 0.019)
+                                                                                                                                                     5
+
+         2ν
+and ξ31      = (0.11, 0.29) for the Argonne potential; and                                                                               2ν
+    2ν
+MGT = (0.011, 0.157), MGT            2ν                                                                                                 MGT
+                                        −3 = (0.0036, 0.018) and                                     6
+  2ν                                                                                                                                     2ν
+
+
+
+
+                                                                          Running Σ (geff
+                                                                                          2 2ν
+ξ31 = (0.11, 0.35) using the CD-Bonn potential. Except                                                                                  MGT-3
+                    2ν
+for the larger ξ31      values, especially with CD-Bonn, most                                        5
+of the QRPA predictions are consistent with the present                                                                    QRPA geff
+                                                                                                                                 A =1.269
+
+
+
+
+                                                                                      A ) M [x100]
+experimental analysis.                                                                                                     QRPA geff
+                                                                                                                                 A =0.800
+                                                                                                     4
+   Discussion.—Figure 3 shows the effective axial-vector                                                                   shell model GCN
+                           eff
+coupling constant gA            as a function of the matrix ele-                                     3                     shell model MC
+ment MGT −3 for the 2νββ decay of 136 Xe. A large re-
+            2ν
+                eff       2ν                                                                         2
+gion in the gA      −MGT     −3 plane is excluded by the present
+                       2ν
+90% C.L. limit ξ31 < 0.26. The two nuclear shell model
+GCN and MC results, indicated by points, are consis-                                                 1
+tent with the KamLAND-Zen limit. The QRPA Argonne
+and CD-Bonn results are presented by curves, which ac-                                               0
+                              eff
+commodate 0.33 ≤ gA               ≤ 1.269 values (the lower end                                          0   5   10       15       20           25
+corresponds to vanishing isoscalar interactions). Both                                                                Eexc [MeV]
+curves are very similar, because QRPA ratios of matrix
+elements with the same initial and final states are weakly                FIG. 4: Running sum of the 136 Xe MGT     2ν
+                                                                                                                        (solid lines) and
+sensitive to the nucleon-nucleon interaction [30]. Figure 3                   2ν
+                                                                          MGT −3 (dashed) 2νββ NMEs, as a function of the excitation
+shows that, even though most QRPA predictions are con-                    energy of the 1+ states in 136 Cs. Nuclear shell model results
+                                           eff
+sistent with our measurement, gA                & 1.14(1.00) for the      with the GCN (MC) interaction, indicated by black (blue)
+Argonne (CD-Bonn) potential is excluded at 90% C.L.                       lines, are compared to the QRPA Argonne running sum with
+                                                                            eff           eff
+by the KamLAND-Zen ξ31            2ν
+                                     limit.                               gA    = 1.269 (gA   = 0.80), shown by red (orange) lines.
+                                              eff
+   Figure 3 also shows that for gA                  & 0.7 the QRPA
+                      2ν                                                     By contrast, Fig. 4 shows that in both shell model
+predicts larger ξ31 values than the nuclear shell model.
+Elsewhere, the QRPA ratios lie between those of the                       and QRPA the lowest 1+ state component dominates the
+                                                                              2ν
+GCN and MC shell model interactions. Interestingly, for                   MGT    −3 NME. Such contribution is more salient for the
+  eff                                                                                                          eff
+gA    ∼ 0.5, the QRPA and shell model GCN results are                     shell model GCN and QRPA gA              = 1.269 calculations,
+                                                eff                                                                   2ν
+close. While such relatively small gA               values are not al-    which explains the larger associated ξ31         value compared
+ways considered in 2νββ QRPA calculations of 136 Xe,                      to the shell model MC and QRPA gA            eff
+                                                                                                                            = 0.8 results,
+                                                                                                                   2ν
+they are favored by QRPA statistical analyses that take                   respectively. The contrast in the MGT       −3   running   sum at
+                                                                                                                                          2ν
+into account experimental EC and β rates [27, 47].                        low energies is ultimately responsible for the different ξ31
+   To illustrate the origin of the differences between the                values predicted by the QRPA and nuclear shell model.
+theoretical calculations, Fig. 4 compares the nuclear shell                  In 0νββ decay, the running sum of the NME can ex-
+                                                              2ν          tend to even higher energies, because in this case there is
+model and QRPA Argonne running sums of MGT                        and
+    2ν                                                           eff 2    no dependence on the energy of the intermediate states in
+MGT −3 [25, 40], multiplied by the corresponding (gA                ) .
+The sums run over the excitation energy of the spin-                      the denominator; see Eqs. (3) and (4). Therefore, a com-
+parity 1+ states in the intermediate nucleus 136 Cs. The                  petition between contributions from low- and high-energy
+                   2ν                                                     states similar to 2νββ decay is expected [15, 49, 50]. Con-
+theoretical MGT         running sums differ: while the shell
+                                                                                              2ν
+model converges at Eexc ≃ 8 MeV, QRPA terms con-                          sequently, fixing ξ31  in 2νββ decay will allow one to iden-
+tribute until Eexc ≃ 20 MeV. Moreover, at Eexc ∼                          tify the most promising 0νββ NME predictions.
+                                                2ν                                                        2ν
+10 MeV the accumulated QRPA MGT                      exceeds the shell       Further experimental ξ31         sensitivity improvements
+                                               eff
+model significantly, with a strong gA sensitivity. While                  may distinguish between various scenarios. On the one
+       eff                                                                                                 2ν
+for gA     = 1.269 the maximum of the QRPA running sum                    hand, measured values of ξ31         ≥ 0.11 will allow QRPA
+                                                                                                                          eff
+is almost four times larger than the shell model one, for                 calculations to fix the quenched value of gA        , reducing un-
+  eff
+gA    ∼ 0.5 —not shown in Fig. 4— the difference is only                  certainties in QRPA 0νββ NMEs [30, 51, 52]. Likewise, a
+                                                            2ν                                2ν
+about 20%, consistent with the more similar ξ31                values     measured value ξ31     ≃ 0.17(0.10) would suggest that the
+predicted. Eexc ∼ 10 MeV shell-model contributions may                    GCN (MC) shell model interaction, with its associated
+                                                                            eff
+be too small due to missing spin-orbit partner orbitals,                  gA    value, leads to a more reliable 0νββ NME. Because
+but the QRPA may also overestimate them. Measure-                         the QRPA and shell model rely on different assumptions,
+ments of charge-exchange reactions up to the 136 Xe GT                    and for 2νββ decay they can exhibit contrasting sensitiv-
+                                                                                     eff                                                  2ν
+resonance, currently limited to lower energy [10, 48], can                ities on gA    —as shown in Fig. 4— a measurement of ξ31
+                                                                                                      eff
+clarify this picture. Above Eexc & 10 MeV, the QRPA                       could lead to different gA values for each model. Fur-
+excess with respect to the shell model is canceled. The                   thermore, the quenching may not be the same in 2νββ
+final value, set by the 2νββ half-life, is common to all                  and 0νββ decays, especially in the light of the differences
+calculations.                                                             in the two-body [53–55] and contact [56] corrections to
+                                                                                                                                6
+
+the two ββ transition operators. On the other hand, a                  Phys. 80, 481 (2008).
+                 2ν                                                [3] J. Engel and J. Menéndez, Rep. Prog. Phys. 80, 046301
+small ratio ξ31     < 0.11, which cannot be accommodated
+in the present QRPA calculations, or a determination of                (2017).
+  2ν
+ξ31  very different to the GCN and MC predictions, would           [4] S. Dell’Oro, S. Marcocci, M. Viel, and F. Vissani, Adv.
+                                                                       High Energy Phys. 2016, 37 (2016).
+demand improved theoretical developments.                          [5] J. P. Schiffer et al., Phys. Rev. Lett. 100, 112501 (2008).
+   Summary.—We have presented a precision analysis                 [6] B. P. Kay et al., Phys. Rev. C 79, 021301(R) (2009).
+of the 136 Xe 2νββ electron spectrum shape with the                [7] S. J. Freeman and J. P. Schiffer, J. Phys. G 39, 124004
+KamLAND-Zen experiment. For the first time, we set a                   (2012).
+limit on the ratio of nuclear matrix elements ξ31   2ν
+                                                       < 0.26      [8] B. A. Brown, M. Horoi, and R. A. Sen’kov, Phys. Rev.
+                                                                       Lett. 113, 262501 (2014).
+(90% C.L.). The experimental limit is consistent with the
+                                                                   [9] K. Yako et al., Phys. Rev. Lett. 103, 012503 (2009).
+predictions from the nuclear shell model and most QRPA            [10] D. Frekers, P. Puppe, J. H. Thies, and H. Ejiri, Nucl.
+calculations, but excludes QRPA Argonne (CD-Bonn) re-                  Phys. A 916, 219 (2013).
+             eff
+sults for gA     & 1.14(1.00). The allowed theoretical values     [11] N. Shimizu, J. Menéndez, and K. Yako, Phys. Rev. Lett.
+                       2ν                                  2ν
+vary in the range ξ31     = (0.10 − 0.26), so that future ξ31          120, 142502 (2018).
+measurements will be required to further test 2νββ cal-           [12] P. Vogel and M. R. Zirnbauer, Phys. Rev. Lett. 57, 3148
+culations, and select the most successful ones. The asso-              (1986).
+         eff                                                      [13] J. Engel, P. Vogel, and M. R. Zirnbauer, Phys. Rev. C
+ciated gA     value, or NME quenching, would also be iden-
+                                                                       37, 731 (1988).
+tified. Future experiments such as KamLAND2-Zen [57]              [14] J. Suhonen and O. Civitarese, Phys. Rep. 300, 123
+and others with improved resolution and reduced back-                  (1998).
+grounds promise enhanced sensitivity to reach this goal.          [15] F. Šimkovic, R. Hodak, A. Faessler, and P. Vogel, Phys.
+                                2ν
+Our analysis reveals that ξ31      is sensitive to competing           Rev. C 83, 015502 (2011).
+contributions to the NME from low- and high-energy in-            [16] F. Šimkovic, V. Rodin, A. Faessler, and P. Vogel, Phys.
+termediate states. Because a similar competition is also               Rev. C 87, 045501 (2013).
+                                                                  [17] E. Caurier, A. P. Zuker, and A. Poves, Phys. Lett. B
+relevant for 0νββ decay, studies of this observable pro-
+                                                                       252, 13 (1990).
+vide new insights for identifying reliable 0νββ NMEs.             [18] A. Poves, R. P. Bahukutumbi, K. Langanke, and P. Vo-
+                                                                       gel, Phys. Lett. B 361, 1 (1995).
+                                                                  [19] E. Caurier, F. Nowacki, A. Poves, and K. Sieja, Phys.
+                                                                       Rev. C 82, 064304 (2010).
+   We thank P. Vogel for useful discussions.        The           [20] M. Horoi and B. A. Brown, Phys. Rev. Lett. 110, 222502
+KamLAND-Zen experiment is supported by JSPS KAK-                       (2013).
+ENHI Grants No. 21000001 and 26104002; the World                  [21] L. Coraggio, L. De Angelis, T. Fukui, A. Gargano, and
+Premier International Research Center Initiative (WPI                  N. Itaco, Phys. Rev. C 95, 064324 (2017).
+Initiative), MEXT, Japan; Netherlands Organisation for            [22] Y. Iwata et al., Phys. Rev. Lett. 116, 112502 (2016).
+Scientific Research; and under the U.S. Department of             [23] J. Kotila and F. Iachello, Phys. Rev. C 85, 034316 (2012).
+                                                                  [24] J. Barea, J. Kotila, and F. Iachello, Phys. Rev. C 87,
+Energy (DOE) Award No. DE-AC02-05CH11231, as well
+                                                                       014315 (2013).
+as other DOE and NSF grants to individual institu-                [25] E. Caurier, F. Nowacki, and A. Poves, Phys. Lett. B 711,
+tions. The Kamioka Mining and Smelting Company                         62 (2012).
+has provided service for activities in the mine. We ac-           [26] A. Neacsu and M. Horoi, Phys. Rev. C 91, 024309 (2015).
+knowledge the support of NII for SINET4. J.M. is sup-             [27] A. Faessler et al., J. Phys. G 35, 075104 (2008).
+ported by the JSPS KAKENHI Grant No. 18K03639,                    [28] J. Suhonen, Phys. Lett. B 607, 87 (2005).
+MEXT as ”Priority issue on post-K computer” (Elucida-             [29] J. Suhonen and O. Civitarese, Phys. Lett. B 725, 153
+                                                                       (2013).
+tion of the fundamental laws and evolution of the uni-
+                                                                  [30] V. A. Rodin, A. Faessler, F. Šimkovic, and P. Vogel,
+verse), JICFuS, the CNS-RIKEN joint project for large-                 Nucl. Phys. A 766, 107 (2006).
+scale nuclear structure calculations, and the U.S. DOE            [31] M. Horoi and A. Neacsu, Phys. Rev. C 93, 024308 (2016).
+(Award No. DE-FG02-00ER41132). J.M. thanks the In-                [32] P. Pirinen and J. Suhonen, Phys. Rev. C 91, 054309
+stitute for Nuclear Theory at the University of Wash-                  (2015).
+ington for its hospitality. F. S. is supported by the             [33] E. A. Coello Pérez, J. Menéndez, and A. Schwenk, nucl-
+Slovak Research and Development Agency under Con-                      th/1809.04443v1.
+                                                                  [34] R. Arnold et al., (NEMO-3 Collaboration), Phys. Rev.
+tract No. APVV-14-0524 and European Regional Devel-
+                                                                       D 92, 072011 (2015).
+opment Fund-Project ”Engineering applications of mi-              [35] J. B. Albert et al., (EXO Collaboration), Phys. Rev. C
+croworld physics” (CZ.02.1.01/0.0/0.0/16 019/0000766).                 89, 015502 (2014).
+                                                                  [36] A. Gando et al., (KamLAND-Zen Collaboration), Phys.
+                                                                       Rev. Lett. 117, 082503 (2016).
+                                                                  [37] M. Agostini et al., (GERDA Collaboration), Nature
+                                                                       (London) 544, 47 (2017).
+ [1] A. S. Barabash, Nucl. Phys. A 935, 52 (2015).                [38] C. E. Aalseth et al., (MAJORANA Collaboration), Phys.
+ [2] F. T. Avignone III, S. R. Elliott, and J. Engel, Rev. Mod.        Rev. Lett. 120, 132502 (2018).
+                                                                                                                                 7
+
+[39] K. Alfonso et al., (CUORE Collaboration), Phys. Rev.           [48] P. Puppe et al., Phys. Rev. C 84, 051305(R) (2011).
+     Lett. 115, 102502 (2015).                                      [49] R. A. Sen’kov and M. Horoi, Phys. Rev. C 88, 064312
+[40] F. Šimkovic, R. Dvornický, D. Štefánik, and A. Faessler,        (2013).
+     Phys. Rev. C 97, 034315 (2018).                                [50] R. A. Sen’kov and M. Horoi, Phys. Rev. C 90, 051301(R)
+[41] A. Gando et al., (KamLAND Collaboration), Phys. Rev.                (2014).
+     C 92, 055808 (2015).                                           [51] H. Ejiri, J. Suhonen, and K. Zuber, Phys. Rep. 797, 1
+[42] A. Gando et al., (KamLAND Collaboration), Phys. Rev.                (2019).
+     D 88, 033001 (2013).                                           [52] J. Terasaki, Phys. Rev. C 93, 024317 (2016).
+[43] K. Asakura et al., (KamLAND Collaboration), Nucl.              [53] J. Menéndez, D. Gazit, and A. Schwenk, Phys. Rev. Lett.
+     Phys. A 946, 171 (2016).                                            107, 062501 (2011).
+[44] E. Caurier, G. Martinez-Pinedo, F. Nowacki, A. Poves,          [54] J. Engel, F. Šimkovic, and P. Vogel, Phys. Rev. C 89,
+     and A. P. Zuker, Rev. Mod. Phys. 77, 427 (2005).                    064308 (2014).
+[45] C. Qi and Z. X. Xu, Phys. Rev. C 86, 044323 (2012).            [55] L.-J. Wang, J. Engel, and J. M. Yao, Phys. Rev. C 98,
+[46] J. Menendez, A. Poves, E. Caurier, and F. Nowacki,                  031301(R) (2018).
+     Nucl. Phys. A 818, 139 (2009).                                 [56] V. Cirigliano et al., Phys. Rev. Lett. 120, 202001 (2018).
+[47] F. F. Deppisch and J. Suhonen, Phys. Rev. C 94, 055501         [57] K. Inoue, Nucl. Phys. B Proc. Sup. 235, 249 (2013).
+     (2016).
+

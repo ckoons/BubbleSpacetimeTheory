@@ -1,0 +1,346 @@
+                                               Determination of the Parity of the Neutral Pion via the Four-Electron Decay
+
+                                                  E. Abouzaid,4 M. Arenton,11 A.R. Barker,5, ∗ L. Bellantoni,7 E. Blucher,4 G.J. Bock,7 E. Cheu,1
+                                               R. Coleman,7 M.D. Corcoran,9 B. Cox,11 A.R. Erwin,12 C.O. Escobar,3 A. Glazov,4 A. Golossanov,11
+                                                 R.A. Gomes,3 P. Gouffon,10 Y.B. Hsiung,7 D.A. Jensen,7 R. Kessler,4 K. Kotera,8 A. Ledovskoy,11
+                                                    P.L. McBride,7 E. Monnier,4, † H. Nguyen,7 R. Niclasen,5 D.G. Phillips II,11 E.J. Ramberg,7
+                                                   R.E. Ray,7 M. Ronquest,11 E. Santos,10 W. Slater,2 D. Smith,11 N. Solomey,4 E.C. Swallow,4, 6
+                                                 P.A. Toale,5, ‡ R. Tschirhart,7 Y.W. Wah,4 J. Wang,1 H.B. White,7 J. Whitmore,7 M. J. Wilking,5
+                                              B. Winstein,4 R. Winston,4 E.T. Worcester,4 T. Yamanaka,8 E. D. Zimmerman,5 and R.F. Zukanovich10
+                                                                                    (The KTeV Collaboration), §
+                                                                                  1
+                                                                                    University of Arizona, Tucson, Arizona 85721
+                                                                  2
+                                                                   University of California at Los Angeles, Los Angeles, California 90095
+                                                                     3
+                                                                       Universidade Estadual de Campinas, Campinas, Brazil 13083-970
+
+
+
+
+arXiv:0802.2064v2 [hep-ex] 11 May 2008
+                                                              4
+                                                                The Enrico Fermi Institute, The University of Chicago, Chicago, Illinois 60637
+                                                                                5
+                                                                                  University of Colorado, Boulder, Colorado 80309
+                                                                                     6
+                                                                                       Elmhurst College, Elmhurst, Illinois 60126
+                                                                       7
+                                                                         Fermi National Accelerator Laboratory, Batavia, Illinois 60510
+                                                                              8
+                                                                                Osaka University, Toyonaka, Osaka 560-0043 Japan
+                                                                                        9
+                                                                                          Rice University, Houston, Texas 77005
+                                                                          10
+                                                                             Universidade de São Paulo, São Paulo, Brazil 05315-970
+                                                                    11
+                                                                       The Department of Physics and Institute of Nuclear and Particle
+                                                                       Physics, University of Virginia, Charlottesville, Virginia 22901
+                                                                             12
+                                                                                University of Wisconsin, Madison, Wisconsin 53706
+                                                                                               (Dated: February 14, 2008)
+                                                         We present a new determination of the parity of the neutral pion via the double Dalitz decay
+                                                      π 0 → e+ e− e+ e− . Our sample, which consists of 30 511 candidate decays, was collected from KL →
+                                                      π 0 π 0 π 0 decays in flight at the KTeV-E799 experiment at Fermi National Accelerator Laboratory.
+                                                      We confirm the negative π 0 parity, and place a limit on scalar contributions to the π 0 → e+ e− e+ e−
+                                                      decay amplitude of less than 3.3% assuming CPT conservation. The π 0 γ ∗ γ ∗ form factor is well
+                                                      described by a momentum-dependent model with a slope parameter fit to the final state phase
+                                                      space distribution. Additionally, we have measured the branching ratio of this mode to be B(π 0 →
+                                                      e+ e− e+ e− ) = (3.26 ± 0.18) × 10−5 .
+
+                                                      PACS numbers: 14.40.Aq, 13.40.Gp
+
+
+                                            The parity of the neutral pion has been determined
+                                         indirectly by studying negative pions captured on deu-
+                                         terium [1, 2]. The observed reactions imply that the π −
+                                         is a pseudoscalar and that the parities of the π − and
+                                         the π 0 are the same. It has long been known that the
+                                         decay π 0 → γγ in principle offers a direct means of de-
+                                         termining the π 0 parity through the polarizations of the
+                                         photons [3, 4]. Given that there are no available meth-
+                                         ods for measuring the polarization of a high-energy pho-
+                                         ton, this measurement has never been performed. How-
+                                         ever, it was soon noted that the double Dalitz decay              FIG. 1: Lowest order Feynman diagram for π 0 → e+ e− e+ e− .
+                                         π 0 → e+ e− e+ e− , which proceeds through an interme-            The direct contribution is shown; a second diagram exists
+                                         diate state with two virtual photons (see Fig. 1), is sen-        with e+      +
+                                                                                                                 1 and e2 exchanged.
+
+                                         sitive to the parity of the pion since the plane of a Dalitz
+                                         pair is correlated with the polarization of the virtual pho-
+                                         ton [5, 6]. This process was studied in a 1962 hydro-             produced a measurement of the branching ratio of this
+                                         gen bubble chamber experiment using stopping negative             decay, which remains the most precise result to date.
+                                         pion capture (π − p → nπ 0 ). That group observed 206               Using a sample of more than 30 000 π 0 → e+ e− e+ e−
+                                         π 0 → e+ e− e+ e− events and reported that the observed           decays, we report new precise measurements of the prop-
+                                         distribution of the e+ e− planes was consistent with a            erties of this decay. Our modeling of the decay includes
+                                         pseudoscalar pion and disfavored a scalar pion at the             for the first time a proper treatment of the exchange
+                                         level of 3.6 standard deviations [7]; this experiment also        contribution to the matrix element, and consideration
+                                                                                                                             2
+
+of full O(α2 ) radiative corrections. With these advances,           The π 0 decays used in this analysis are the result of
+we have tested for a scalar contribution in the π 0 γ ∗ γ ∗       fully-reconstructed KL → π 0 π 0 π 0 decays in flight col-
+coupling with a sensitivity of a few percent. We have             lected by the KTeV-E799 experiment at Fermilab. The
+also measured for the first time the momentum depen-              E799-II experiment and the KTeV detector are described
+dence of the form factor in this decay mode. In addition,         elsewhere [14, 15]. This analysis relies on two core
+we present a new measurement of the π 0 → e+ e− e+ e−             systems of the KTeV detector: a drift chamber-based
+branching ratio, taking into account radiative effects.           charged particle spectrometer and a cesium iodide (CsI)
+   The most general interaction Lagrangian for the π 0 →          electromagnetic calorimeter. Electrons are identified as
+ ∗ ∗
+γ γ transition can be written [8]:                                charged particles whose entire energy is deposited in
+                                                                  the CsI, while photons are reconstructed from electro-
+                   L ∝ Cµνρσ F µν F ρσ Φ                    (1)   magnetic showers in the CsI with no associated charged
+                                                                  tracks.
+where F µν and F ρσ are the photon fields, Φ is the pion
+                                                                     The signal mode, denoted by KL → π 0 π 0 πDD   0
+                                                                                                                         where
+field, and the coupling has the form                                0              0       + − + −
+                                                                  πDD refers to π → e e e e , has a signature of four
+      Cµνρσ ∝f (x1 , x2 )[cos ζµνρσ                              charged particles identified as electrons and with a com-
+                                                            (2)   bined invariant mass consistent with the π 0 mass, plus
+                        + sin ζeiδ (gµρ gνσ − gµσ gνρ )].         four photons that are compatible with two additional
+                                                                  π 0 ’s. Furthermore, the eight-particle state has an invari-
+The first term in Cµνρσ is the expected pseudoscalar cou-
+                                                                  ant mass consistent with the KL and total momentum
+pling and the second term introduces a scalar coupling
+                                                                  vector in the direction of the kaon line of flight.
+with a mixing angle ζ and a phase difference δ. Nu-
+clear parity violation would introduce a nonzero ζ, while            The branching ratio measurement, which we describe
+CP T violation would cause the phase δ to be nonzero.             here first, makes use of a normalization mode in which
+We assume the standard parity-conserving form for the             two pions decay via π 0 → e+ e− γ and the third π 0 →
+γ ∗ → e+ e− conversion.                                           γγ. This “double single-Dalitz” mode, denoted KL →
+   The form factor f (x1 , x2 ) is expressed in terms of the      π 0 πD0 0
+                                                                          πD where πD0
+                                                                                        refers to π 0 → e+ e− γ, has the same
+momentum transfer of each of the virtual photons, or              final state particles as the signal mode and is again iden-
+equivalently the invariant masses of the two Dalitz pairs:        tified by finding the proper combinations of particles to
+x1 ≡ (me+ e− /Mπ0 )2 ; x2 ≡ (me+ e− /Mπ0 )2 . In calculating      make three pions with a total momentum consistent with
+          1 1                      2 2                            the kaon. The similarity of these modes allows cancel-
+the phase space variables for an individual event, there
+                                                                  lation of most detector-related systematic effects in the
+is an intrinsic ambiguity in assigning each electron to a
+                                                                  branching ratio measurement, but also allows each mode
+positron to form a Dalitz pair. Our analysis uses a matrix
+                                                                  to be a background to the other.
+element model that includes the exchange diagrams and
+                                                                     Radiative corrections complicate the definition of the
+therefore avoids the need to enforce a pairing choice.
+                                                                  Dalitz decays in general. We define the signal mode
+   The π 0 γ ∗ γ ∗ form factor has been studied previously in
+                                                                  π 0 → e+ e− e+ e− to be inclusive of radiative final states
+the decay π 0 → e+ e− γ [9, 10, 11], where the quantity of
+                                                                  where the squared ratio of the invariant mass of the four
+interest has been the slope parameter a of the first-order
+                                                                  electrons to the neutral pion mass x4e ≡ (M4e /Mπ0 )2
+Taylor expansion f (x, 0) = 1+ax, with x ≡ m2e+ e− /Mπ20 .
+                                                                  is greater than 0.9, while events with x4e < 0.9 (ap-
+Here we use a form factor parametrizaton based on the
+                                                                  proximately 6% of the total rate) are treated as π 0 →
+model of D’Ambrosio, Isidori, and Portolés (DIP) [12],
+                                                                  e+ e− e+ e− γ. For normalization, the decay π 0 → e+ e− γ
+but with an additional constraint that ensures the cou-
+                                                                  is understood to include all radiative final states, for con-
+pling vanishes at large momenta [13]. In terms of the
+                                                                  sistency with previous measurements of this decay [16].
+remaining free parameters, the form factor is:
+                                                                  Radiative corrections in this analysis are taken from an
+                               1 − µ(1 + α)(x1 + x2 )             analytic calculation to order O(α2 ) [8].
+        fDIP (x1 , x2 ; α) =                          ,     (3)      Other final states of the KL → π 0 π 0 π 0 decay can
+                                 (1 − µx1 )(1 − µx2 )
+                                                                  become backgrounds to either the signal or normaliza-
+where µ = Mπ20 /Mρ2 ≈ 0.032. In the limit of small x, this        tion mode if one or more photons convert to an e+ e−
+coincides with the Taylor expansion provided a = −µα.             pair in the detector material: KL → π 0 π 0 πD  0
+                                                                                                                    where one
+                                                                                                                 0 0 0
+   The parity properties of the decay can be extracted            of the five photons converts, or KL → π π π → 6γ
+from the angle φ between the planes of the two Dalitz             where two photons convert. These modes again have
+pairs in Fig. 1, where pair 1 is defined as having the            the same final state as the signal, but can be distin-
+smaller invariant mass. The distribution of this an-              guished statistically since the externally produced pairs
+gle from the dominant direct contribution has the form            tend to have smaller invariant masses than those from
+dΓ/dφ ∼ 1−A cos(2φ)+B sin(2φ), where A ≈ 0.2 cos(2ζ)              internal conversions. The most significant of these back-
+and B ≈ 0.2 sin(2ζ) cos δ. A pure pseudoscalar coupling,          grounds is KL → π 0 π 0 πD  0
+                                                                                                 with one external conversion
+therefore, would produce a negative cos(2φ) dependence.           in material. The photon must convert upstream of the
+                                                                                                                                3
+
+                                                                 Beeγ of the π 0 → e+ e− γ mode:
+                                                                                                                             
+                                                                 Beeee · Bγγ     N KL → π 0 π 0 πDD0
+                                                                                                            KL → π 0 πD 0 0
+                                                                                                                           πD
+                                                                       2
+                                                                     Beeγ
+                                                                              =
+                                                                                  N (KL → π 0 πD 0 π 0 ) ·  (K → π 0 π 0 π 0 ) ,
+                                                                                                    D          L           DD
+                                                                                                                             (4)
+                                                                 where N is the number of events and  is the combined
+                                                                 geometric acceptance and detection efficiency for a given
+                                                                 mode.
+                                                                    The statistical error on the ratio in Eq. 4 is 0.62%.
+                                                                 Systematic errors on the efficiencies were determined
+                                                                 through data studies as well as variations in the param-
+                                                                 eters of the Monte Carlo simulation. Because the final
+                                                                 state particles in the signal and normalization mode are
+                                                                 the same, detector-related quantities substantially cancel
+                                                                 in the ratio, which is generally insensitive to the details
+                                                                 of the simulation. The dominant systematic errors came
+FIG. 2: Invariant e+ e− e+ e− mass for data events identified    from variation of the analysis cuts (0.21%) and Monte
+by the preferred pairing as KL → π 0 π 0 πDD
+                                          0
+                                             (upper panel) and   Carlo simulation statistics (0.25%). Other systematic er-
+KL → π 0 πD0 0
+            πD (lower panel).                                    rors were from uncertainties in the amount of material
+                                                                 in the spectrometer (0.15%), uncertainty in the back-
+                                                                 ground levels in the two samples (0.15%), modeling of the
+first drift chamber for the resulting tracks to be recon-        drift chamber resolutions (0.11%), and radiative correc-
+structed. The material in this region sums to 2.8 × 10−3         tions (0.04%). The total systematic error on the relative
+radiation lengths. With five photons available, the prob-        branching ratio is 0.41%.
+ability of one converting is 1.08 %, close to the single-           The final result for the ratio of decay rates is:
+Dalitz branching ratio. The distinguishing characteristic           x>0.9
+of these events is the small value of the e+ e− invariant          Beeee   · Bγγ
+                                                                         2
+                                                                                 =0.2245 ± 0.0014(stat) ± 0.0009(syst).
+mass, or similarly, the small value of the opening angle              Beeγ
+of the pair. Requiring a track separation at the first drift                                                          (5)
+chamber of greater than 2 mm removes 99.74 % of the
+remaining simulated background while preserving 74.3 %           The π 0 → e+ e− e+ e− branching ratio can be calculated
+of signal and 72.7 % of normalization events.                    from the double ratio using the known values Bγγ =
+                                                                 0.9880 ± 0.0003 and Beeγ = (1.198 ± 0.032) × 10−2 [17].
+   The final selection criterion separates KL → π 0 π 0 πDD
+                                                         0
+                                                                               x>0.9
+                                                                 This yields Beeee   = (3.26 ± 0.18) × 10−5 , where the er-
+from KL → π πD πD events. This is accomplished by a χ2
+              0 0 0
+                                                                 ror is dominated by the uncertainty in the π 0 → e+ e− γ
+formed of the three reconstructed π 0 masses. This serves
+                                                                 branching ratio. Using our radiative corrections model
+to identify the best pairing of particles for a given decay
+                                                                 [8] to extrapolate to all radiative final states, we find:
+hypothesis, as well as to select the more likely hypothesis
+of the two. The event is tagged as the mode with the               Beeee(γ) · Bγγ
+smaller χ2 , which is further required to be less than 12                2
+                                                                                  =0.2383 ± 0.0015(stat) ± 0.0010(syst),
+                                                                       Beeγ
+(with three degrees of freedom). This technique correctly
+identifies more than 99.5 % of events (Fig. 2).                                                                       (6)
+
+  The final event sample contains 30 511 signal candi-           and Beeee(γ) = (3.46 ± 0.19) × 10−5 . Our branching ratio
+dates with 0.6 % residual background and 141 251 nor-            result is in agreement with previous measurements [7].
+malization mode candidates with 0.5 % background (de-               The parameters of the π 0 γ ∗ γ ∗ coupling are found by
+termined from the Monte Carlo simulation). The back-             maximizing an unbinned likelihood function composed
+ground in the signal sample is dominated by mistagged            of the differential decay rate in terms of ten phase-space
+events from the normalization mode.                              variables. The first five are (x1 , x2 , y1 , y2 , φ), where x1 ,
+   The branching ratio is measured from the ratio of re-         x2 , and φ are described above and the remaining vari-
+constructed signal mode events to normalization mode             ables y1 and y2 describe the energy asymmetry between
+events. This ratio must be corrected by the ratio of ac-         the electrons in each Dalitz pair in the π 0 center of mass
+ceptances, which has been determined using a detailed            [8]. The remaining five are the same variables, but cal-
+Monte Carlo simulation of the beam distribution and de-          culated with the opposite choice of e+ e− pairings. The
+tector response. The resulting double ratio is directly re-      likelihood is calculated from the full matrix element in-
+lated to the branching ratio Beeee of the π 0 → e+ e− e+ e−      cluding the exchange diagrams and O(α2 ) radiative cor-
+mode normalized to the square of the branching ratio             rections.
+                                                                                                                                                          4
+
+   The fit yields the DIP α parameter and the (complex)
+
+
+                                                                    Events/0.02
+ratio of the scalar to the pseudoscalar coupling. For rea-
+                                                                               104                                                    Data
+sons of fit performance, the parity properties are fit to the
+                                                                                                                                      MC
+equivalent parameters κ and η, where κ + iη ≡ tan ζeiδ .                       103
+The shape of the minimum of the likelihood function in-
+                                                                               102
+dicates that the three parameters α, κ, and η are uncor-
+related. Acceptance-dependent effects are included as a                           10
+normalization factor calculated from Monte Carlo simu-                             1
+lations.
+                                                                                       0   0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8   0.9     x11
+   Systematic error sources on α and κ are similar to those
+for the branching ratio measurement. The dominant er-
+
+
+                                                                    Events/0.02
+ror is due to variation of cuts, resulting in a total system-                  104
+atic error of 0.9 and 0.011 on α and κ respectively. For
+the η parameter, the primary uncertainty results from                          103
+the resolution on the angle φ between the two lepton                           102
+pairs, which produces an effective flattening of the angu-
+lar distribution without inducing a phase shift. The fitter                       10
+interprets this as a small scalar contribution with a phase
+                                                                                   1
+difference of 90 degrees, and therefore a larger value of                           0      0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8   0.9     x21
+η, particularly for η ≈ 0. This behavior was studied with
+Monte Carlo simulation and a correction was calculated.
+The uncertainty on this correction results in a systematic      FIG. 3: Distribution of the kinematic variables x1 and x2
+                                                                for signal event candidates (points) and signal Monte Carlo
+error of 0.031.                                                 simulation with best fit form factor parameters (histogram).
+   The distributions of x1 and x2 , overlaid with the Monte
+Carlo simulation, are shown in Fig. 3. The φ distribution
+is shown in Fig. 4. For plotting the data a unique pair-                       900
+
+
+                                                                 Events/0.04
+ing of the four electrons is chosen such that x1 < x2 and                      800
+the product x1 x2 is minimized: this choice represents the                     700
+dominant contribution to the matrix element. It is clear                       600
+that the pseudoscalar coupling dominates, as expected,                         500
+with no evidence for a scalar component. The distribu-                         400
+tions of all five phase space variables agree well with the                    300                                                    Data
+Monte Carlo simulation.                                                        200
+                                                                                                                                      MC
+   The final results for the three parameters are α =                          100
+
+1.3 ± 1.0(stat) ± 0.9(syst), κ = −0.011 ± 0.009(stat) ±                           00       0.2   0.4   0.6   0.8    1    1.2   1.4   1.6     1.8      2
+                                                                                                                                                   φ/ π
+0.011(syst), and η = 0.051 ± 0.026(stat) ± 0.031(syst).
+The DIP α parameter is related to the standard slope            FIG. 4: Distribution of the angle φ, in units of π, between
+parameter by a = −0.032α, yielding a = −0.040 ± 0.040.          the planes of the two e+ e− pairs. The solid histogram shows
+This result is in agreement with recent direct measure-         the Monte Carlo expectation for negative parity.
+ments.
+   The parameters κ and η are transformed into limits
+on the pseudoscalar-scalar mixing angle ζ under two hy-         the previous result, and places tight limits on nonstan-
+potheses. If CPT violation is allowed, then the limit is        dard scalar and CPT -violating contributions to the π 0 →
+set by the uncertainties in η, resulting in ζ < 6.9◦ at         e+ e− e+ e− decay. We have also measured the momentum
+the 90% confidence level. If instead, CPT conservation          dependent form factor in this decay for the first time, and
+is enforced, η must be zero, and the limit derives from         made the first improvement in its branching ratio since
+the uncertainties on κ, resulting in ζ < 1.9◦ , at the same     1962. This measurement is limited at present by the cur-
+confidence level. These limits on ζ limit the magnitude         rent large uncertainty in the branching ratio of the single
+of the scalar component of the decay amplitude, relative        Dalitz decays used for normalization, but we expect that
+to the pseudoscalar component, to less than 12.1% in the        uncertainty to be reduced in the near future at which
+presence of CPT violation, and less than 3.3% if CPT is         point the present measurement can be recalculated using
+assumed conserved. The limits on scalar contributions           the more precise double ratio measurement.
+apply to all π 0 decays with two-photon intermediate or            We gratefully acknowledge the support and effort of
+final states.                                                   the Fermilab staff and the technical staffs of the par-
+   This analysis confirms the negative parity of the neu-       ticipating institutions for their vital contributions. This
+tral pion with much higher statistical significance than        work was supported in part by the U.S. Department of
+                                                                                                                         5
+
+Energy, the National Science Foundation, the Ministry          [4] J. Bernstein and L. Michel, Phys. Rev. 118, 871 (1950).
+of Education and Science of Japan, Fundao de Amparo            [5] N. M. Kroll and W. Wada, Phys. Rev. 98, 1355 (1955).
+a Pesquisa do Estado de S Paulo-FAPESP, Conselho               [6] R. H. Dalitz, Proc. Phys. Soc. (London) A64, 667 (1951).
+Nacional de Desenvolvimento Cientifico e Tecnologico-          [7] N. P. Samios, R. Plano, A. Prodell, M. Schwartz, and
+                                                                   J. Steinberger, Phys. Rev. 126, 1844 (1962).
+CNPq and CAPES-Ministerio Educao.                              [8] A. R. Barker, H. Huang, P. A. Toale, and J. Engle, Phys.
+                                                                   Rev. D 67, 033008 (2003).
+                                                               [9] H. Fonvieille et al., Phys. Lett. B 233, 65 (1989).
+                                                              [10] F. Farzanpay et al., Phys. Lett. B 278, 413 (1992).
+                                                              [11] R. M. Drees et al., Phys. Rev. D 45, 1439 (1992).
+  ∗
+    Deceased.                                                 [12] G. D’Ambrosio, G. Isidori, and J. Portolés, Phys. Lett.
+  †
+    Permanent address C.P.P. Marseille/C.N.R.S., France            B 423, 385 (1998).
+  ‡
+    Current address: Pennsylvania State University, Univer-   [13] P. A. Toale, Ph.D. dissertation, The University of Col-
+    sity Park, Pennsylvania 16802                                  orado (2004).
+  §
+    Correspondence should be addressed to P. A. Toale         [14] E. Abouzaid et al. (KTeV), Phys. Rev. D 75, 012004
+    or    E.   D.   Zimmerman.     Electronic    addresses:        (2007).
+    toale@phys.psu.edu, edz@colorado.edu                      [15] A. Alavi-Harati et al. (KTeV), Phys. Rev. D 67, 012005
+[1] W. K. H. Panofsky, R. L. Aamodt, and J. Hadley, Phys.          (2003).
+    Rev. 81, 565 (1951).                                      [16] M. A. Schardt et al., Phys. Rev. D 23, 639 (1981).
+[2] W. Chinowsky and J. Steinberger, Phys. Rev. 95, 1561      [17] W.-M. Yao et al., J. Phys. G 33, 1 (2006).
+    (1951).
+[3] C. N. Yang, Phys. Rev. 77, 242 (1950).
+

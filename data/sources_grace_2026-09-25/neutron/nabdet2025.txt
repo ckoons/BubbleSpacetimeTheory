@@ -1,0 +1,262 @@
+                                                   From Commissioning to Precision Data-Taking: Resolving
+
+
+
+
+arXiv:2511.16678v1 [physics.ins-det] 10 Nov 2025
+                                                   Operational Challenges in the Nab Detector Systems
+
+                                                   L. J. Broussard1,∗ , H. Acharya2 , R. Alarcon3 , S. Baeßler4,1 , M. Benoit1 , K. Borah2 , C. L.
+                                                   Britton1 , E. Brown5 , J. Choi6,7 , S. Clymer3 , C. Crawford2 , N. Ericson1 , L. Fabris1 , N.
+                                                   Fomin5 , J. Fry8 , R. Godri5 , F. M. Gonzalez1 , A. Hagemeier4 , J. Hamblen9 , S. Hollander1 ,
+                                                   A. Jezghani10 , K. Leung11 , N. Macsai13 , M. Makela12 , D. Mathews1 , P. L. McGaughey12 ,
+                                                   A. Mendelsohn13 , J. Mirabal12 , P. E. Mueller1 , A. Nelsen2 , S. I. Penttilä1 , D. Počanić4 , J.
+                                                   C. Ramsey1 , K. Reed1 , L. Richburg5 , A. Saunders1 , W. Schreyer1 , A. Shelby6,7 , and A. R.
+                                                   Young6,7
+                                                   1
+                                                     Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA
+                                                   2
+                                                     University of Kentucky, Lexington, KY 40506, USA
+                                                   3
+                                                     Arizona State University, Tempe, AZ 85287, USA
+                                                   4
+                                                     University of Virginia, Charlottesville, VA 22904, USA
+                                                   5
+                                                     University of Tennessee, Knoxville, TN 37996, USA
+                                                   6
+                                                     North Carolina State University, Raleigh, NC 27695, USA
+                                                   7
+                                                     Triangle Universities Laboratory, Duke University, Durham, NC 27708, USA
+                                                   8
+                                                     Eastern Kentucky University, Richmond, KY 40475, USA
+                                                   9
+                                                     University of Tennessee at Chattanooga, Chattanooga, TN 37403, USA
+                                                   10
+                                                      Partnership for an Advanced Computing Environment, Georgia Tech, Atlanta, GA 30332, USA
+                                                   11
+                                                      Montclair State University, Montclair, NJ 07043, USA
+                                                   12
+                                                      Los Alamos National Laboratory, Los Alamos, NM 87545, USA
+                                                   13
+                                                      University of Manitoba, Winnipeg, MB R3T 2N2, Canada
+
+                                                                Abstract. Our understanding of the weak mixing of quarks, described by the
+                                                                Cabibbo Kobayashi Maskawa (CKM) matrix, currently presents an anomaly.
+                                                                Thanks to major strides in both theory and experiment, improved precision in
+                                                                determinations of the first row of matrix elements has revealed disagreement
+                                                                with the expectation of unitarity. The Nab experiment at the Spallation Neutron
+                                                                Source is designed to precisely extract the first matrix element Vud and shed
+                                                                light on experimental tensions within the neutron beta decay dataset. Nab’s
+                                                                asymmetric spectrometer allows coincident reconstruction of the decay proton
+                                                                and electron energies, which will be used to determine the electron-neutrino
+                                                                correlation coefficient, and thus (with the neutron lifetime) determine Vud . This
+                                                                unique approach has provided a more comprehensive view of neutron beta de-
+                                                                cay, including a first observation of the full momentum phase space of the decay
+                                                                above detector thresholds and limits on exotic neutron states. Recent upgrades
+                                                                to the Nab detector system have improved the robustness and stability of the de-
+                                                                tector performance in terms of proton detection efficiency, noise performance,
+                                                                and detector segment availability, setting the stage for high precision physics
+                                                                data-taking.
+
+
+                                                       ∗ e-mail: broussardlj@ornl.gov
+1 Introduction
+The standard model’s description of the mixing of quarks in the weak interaction must obey a
+simple yet powerful principle—it must be unitary. The mixing of quarks is represented by the
+Cabibbo-Kobayashi-Maskawa (CKM) matrix, and the most precise test of its unitarity relies
+on the first two elements: Vud , which describes up-down quark transitions in nuclear systems,
+and Vus , primarily determined from kaon decays. Currently there is a discrepancy with uni-
+tarity, which now stands in tension by a few standard deviations [1]. Internal inconsistencies
+are observed within the systems used to determine Vud and Vus and must be resolved before
+the unitarity test can be applied.
+     The achievable precision of Vud determined using the set of superallowed Fermi nu-
+clear decays is limited by uncertainty in the nuclear structure corrections, which may be
+challenging to improve [2]. The neutron system offers a compelling opportunity to in-
+form the situation in the near term, via a determination of both the lifetime plus the ratio
+λ = gA /gV of axial-vector (gA ) and vector (gV ) couplings, if experimental inconsistencies
+within those datasets can be addressed. There is a long-standing discrepancy between dif-
+ferent techniques for measuring the neutron lifetime [1]. The most precise determinations of
+λ = −1.27641 ± 0.00056 [3] from the beta-asymmetry and λ = −1.2668 ± 0.0027 [4] from the
+electron-neutrino correlation disagree by about 3 σ. The Nab experiment is pursuing a new
+measurement of the electron-neutrino correlation with goal sensitivity of ∆λ/|λ| = 0.04%.
+This result would lay the groundwork for the neutron to provide an independent and precise
+determination of Vud without the uncertainties of nuclear corrections, and shed light on hints
+of interactions not in the standard model.
+
+2 Experimental Approach
+Nab uses a powerful experimental approach that allows for the reconstruction of the full mo-
+mentum phase space of neutron beta decay accessible above detection thresholds, from which
+the electron-neutrino correlation can be extracted [5–7]. The novel asymmetric magnetic
+spectrometer captures charged beta decay products from the nominally unpolarized neutron
+beam to one of two detector systems. The magnet profile ensures upward-going protons are
+nearly parallel to the magnetic field, which enables an accurate determination of the proton’s
+energy from its observed time of flight relative to the electron.
+    The Nab experiment began collecting commissioning data in 2023 with results reported
+in [8]. This first data-taking campaign had the primary goal to ensure operation of the exper-
+imental subsystems and understand the optimal data-taking conditions. The measured phase
+space of the decay from this dataset provided a clear demonstration of the working principles
+of the spectrometer. The tight kinematic constraints available in Nab also enabled new exper-
+imental limits on a hypothesized excited state of the neutron, proposed as an explanation of
+the long-standing discrepancy observed between neutron lifetime measurements made with a
+cold neutron beam versus trapped ultracold neutrons [9].
+
+3 Commissioning Challenges
+The commissioning data-taking demonstrated the robustness of the general experimental ap-
+proach, but also revealed challenges which endangered the ultimate physics goals of the ex-
+periment. As a result of the data-taking campaign, three issues were identified as priorities.
+   1. Protons were detected at ∼10 keV instead of ∼20 keV as expected.
+   2. The detector electronics became unstable when fully powered.
+   3. Loss of connections in the electronics resulted in many unreporting detector segments.
+
+We report here on the outcome of improvements to the detector system and associated oper-
+ations and impact for Nab physics data-taking. Later datasets also benefited from a corrected
+timing synchronization routine, utilization of the full-scale calibration system, and greater
+stability of data-taking conditions, which are not described in this work.
+
+
+3.1 Unexpected Reduction of Proton Energy
+
+
+
+
+Figure 1. Detected events as a function of proton Time Of Flight (TOF) and proton energy during com-
+missioning in 2023 (left) and after improvements to detector qualification procedures in 2024 (right),
+assuming a rough energy calibration, and mean proton energy as observed in 2023 (left line) and the
+range of means expected based on 50–100 nm deadlayer (right hatch).
+
+
+    In Nab, protons are expected to deposit roughly 20 keV in the active region of the de-
+tector, with few keV variation depending on detector deadlayer [10]. While accurate energy
+calibration of protons is not needed, efficient detection of protons is required to avoid system-
+atic bias in the electron-neutrino correlation [7]. The detector used for proton detection was
+originally characterized using a proton beam facility [11] which confirmed the detector re-
+sponse matched expectations. However, during the 2023 data-taking at ORNL, an unexpect-
+edly low proton energy of ∼10 keV was observed (Figure 1 left). Several possible causes for
+lost proton energy were investigated, including temporary formation of ice layers, deposits
+from contamination, deposits or detector damage from high voltage breakdown, and mis-
+calibration. As a result of these investigations, more robust detector qualification procedures
+were implemented, detector test environments were improved to achieve ultrahigh vacuum,
+and provision for silicon “witness” samples was added for more detailed surface analyses. In
+data-collection campaigns in 2024 and 2025, use of pristine detectors under these procedures
+resulted in protons having detectable energy within the expected range (Figure 1 right).
+
+
+3.2 Detector Electronics Instability
+
+The electronics circuit used in the Nab experiment has been demonstrated to meet the per-
+formance requirements for Nab [12]. However, when scaled to the fully instrumented 127
+channel system, the entire system became unstable and could not be operated with all chan-
+nels powered. In testing at the Manitoba proton facility and during the 2023 commissioning
+campaign, the problem was mitigated simply by shutting off power to some of the preampli-
+fier circuit boards. The original design mapped these 6 channel boards to a roughly radial
+slice of the detector (Figure 2 left), evenly distributing signal rate across boards. A conse-
+quence was that unpowering any board removed some central pixels which primarily see beta
+decay events. The new mapping instead allows boards containing only outer ring pixels that
+detect backgrounds to be unpowered (Figure 2 center). The layout of the most complicated
+adapter board is shown in Figure 2 (right).
+
+
+
+
+Figure 2. (Left) Mapping of preamplifier circuit board to detector segment during the 2023 commis-
+sioning dataset and (center) the redesigned mapping used in 2024 and later. Colors separate different
+boards. Hexagonal segments are enumerated by board identifier letter plus channel number. (Right)
+Updated layout of the 6.54 in diameter adapter board which maps the 6 channel circuit boards and ther-
+mometers (23 + 1 outer red connectors) to a vacuum feedthrough (12 inner blue connectors). Different
+colored traces reside on different board layers. (color online)
+
+
+     Additional modifications were implemented which enhanced the overall stability of the
+full-scale system. The total power draw of the preamplifiers was reduced by about 1/3 by re-
+moving the optional shaping circuit. The redesigned mapping in the adapter boards reduced
+the total trace length of many channels and reduced cross-talk. New circuit boards were fab-
+ricated including a slightly thicker ground layer. These changes effectively eliminated the
+rail-to-rail oscillations of the electronics during data collection campaigns after commission-
+ing. Further refinements to the power delivery and ground planes intended to boost stability
+and reduce noise have shown promising results in bench testing.
+
+3.3 Loss of detector segments
+In Nab, electron energy cannot be properly reconstructed without accounting for backscatter-
+ing events which may appear in neighboring detector segments. Thus, loss of any segment
+dramatically reduces the effectiveness of the neighbors as well. Loss of reporting segments
+during installation procedures proved to be a persistent challenge through the 2023 com-
+missioning data collection (Figure 3 left), primarily due to connector damage, accidental
+disconnects, and unpowering of preamplifier boards required for stability. After the 2023
+commissioning data-collection, a series of modifications were implemented to reduce risk
+during the installation procedure and increase the robustness of the electronics package (Fig-
+ure 4). The 2024 and 2025 data-collection campaigns saw significant recovery of the number
+of operational central pixels (Figure 3 right).
+
+4 Summary
+The first data-collection campaign in Nab has provided first physics results and demonstrated
+the principles of operation of the experiment. Thanks to a series of upgrades relevant to the
+Figure 3. The detected total trigger rate (color scale) for detector segments for typical runs during the
+2023 commissioning data-collection (left) and during the 2025 data-collection (right). Darker colors
+indicate segments which are non-reporting. Noise and threshold conditions varied among pixels and
+datasets, in particular in 2023.
+
+
+
+
+Figure 4. Updated electronics package including 8 channel circuit boards with Field Effect Transistors
+(FET), 6 channel boards with amplification stages, adapter boards, and cabling.
+
+
+
+detection system, three critical areas have been addressed. In the physics data-taking cam-
+paigns of 2024 and 2025, we have maintained operation of the most important central pix-
+els, eliminated noise instability, and demonstrated the expected detector response to protons.
+Thanks to these and other operational improvements, the Nab experiment is well positioned
+to deliver much needed input on the tension observed in determinations of λ from the neutron
+dataset. This will enable a robust and precise determination of the CKM parameter Vud , used
+in one of the most precise tests of our understanding of the weak mixing of quarks.
+
+
+5 Acknowledgements
+This work was supported through the US Department of Energy (DOE) (Contracts DE-
+AC05-00OR22725, DE-SC0008107, DE-SC0014622, 89233218CNA000001 under proposal
+LANLEEDM, DE-SC0019309, DE-FG02-97ER41042, DE-FG02-03ER41258), and through
+the National Science Foundation (NSF) (Contracts PHY-0855584, PHY-2412782, PHY-
+2111363, PHY-1126683, PHY-2232117, PHY-2209590, PHY-2213411, and PHY-2412846),
+by the Natural Sciences and Engineering Research Council of Canada (NSERC) (Contracts
+NSERC-SAPPJ-2019-00043 and NSERC-SAPPJ-2022-00024), and in part by the US De-
+partment of Energy, Office of Science, Office of Workforce Development for Teachers and
+Scientists (WDTS) Graduate Student Research (SCGSR) program. This research was sup-
+ported through research cyberinfrastructure resources and services provided by the Partner-
+ship for an Advanced Computing Environment (PACE) at the Georgia Institute of Technol-
+ogy, Atlanta, Georgia, USA. This research used resources at the Spallation Neutron Source,
+a DOE Office of Science User Facility operated by the Oak Ridge National Laboratory.
+
+
+References
+ [1] S. Navas et al. (Particle Data Group), Review of particle physics, Phys. Rev. D 110,
+     030001 (2024). 10.1103/PhysRevD.110.030001
+ [2] L. Hayen, Opportunities and open questions in modern β decay, Ann. Rev. Nucl. Part.
+     Sci. 74, 497 (2024). 10.1146/annurev-nucl-121423-100730
+ [3] B. Märkisch et al., Measurement of the Weak Axial-Vector Coupling Constant in the
+     Decay of Free Neutrons Using a Pulsed Cold Neutron Beam, Phys. Rev. Lett. 122,
+     242501 (2019). 10.1103/PhysRevLett.122.242501
+ [4] M. Beck, W. Heil, C. Schmidt, S. Baeßler, F. Glück, G. Konrad, U. Schmidt, Reanalysis
+     of the β−ν¯e Angular Correlation Measurement from the aSPECT Experiment with New
+     Constraints on Fierz Interference, Phys. Rev. Lett. 132, 102501 (2024). 10.1103/Phys-
+     RevLett.132.102501
+ [5] D. Pocanic et al. (Nab), Nab: Measurement Principles, Apparatus and Uncertainties,
+     Nucl. Instrum. Meth. A 611, 211 (2009). 10.1016/j.nima.2009.07.065
+ [6] S. Baeßler et al. (Nab), Neutron Beta Decay Studies with Nab, AIP Conf. Proc. 1560,
+     114 (2013). 10.1063/1.4826731
+ [7] J. Fry et al., The Nab Experiment: A Precision Measurement of Unpolarized Neutron
+     Beta Decay, EPJ Web Conf. 219, 04002 (2019). 10.1051/epjconf/201921904002
+ [8] F.M. Gonzalez et al. (Nab), First Full Dalitz Plot Measurement in Neutron β-
+     Decay using the Nab Spectrometer and Implications for New Physics (2025),
+     arXiv:2508.16045.
+ [9] B. Koch, F. Hummel, An exciting hint towards the solution of the neutron lifetime
+     puzzle?, Phys. Rev. D 110, 073004 (2024). 10.1103/PhysRevD.110.073004
+[10] A. Salas-Bacci et al., Characterization of large area, thick, and segmented silicon de-
+     tectors for neutron β-decay experiments, Nucl. Instrum. Meth. A 735, 408 (2014).
+     10.1016/j.nima.2013.09.059
+[11] N. Macsai et al., A novel, steerable, low-energy proton source for detector characteriza-
+     tion, https://arxiv.org/abs/2510.03654
+[12] L.J. Broussard et al., Detection system for neutron β decay correlations in the
+     UCNB and Nab experiments, Nucl. Instrum. Meth. A 849, 83 (2017), 1607.02656.
+     10.1016/j.nima.2016.12.030
+

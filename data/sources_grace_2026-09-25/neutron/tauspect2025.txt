@@ -1,0 +1,949 @@
+                                                   Ultra-cold neutron simulation framework for the free neutron lifetime
+                                                                          experiment τ SPECT
+                                                   J. Auler1 , U. Bajpai1 , M. Engler2 , V. Ermuth1 , M. Fertl1,b , K. Franz2 , W. Heil1 , S. Kaufmann2 ,
+                                                                B. Lauss3 , N. Pfeifer1 , D. Ries2,3,c , S. Vanneste1,a , and N. Yazdandoost2,3
+                                                                                                The τ SPECT collaboration
+
+
+
+
+arXiv:2503.15239v3 [physics.ins-det] 29 Aug 2025
+                                                                      1
+                                                                      Institute of Physics, Johannes Gutenberg University Mainz, 55099 Mainz, Germany
+                                                          2
+                                                              Department of Chemistry - TRIGA site, Johannes Gutenberg University Mainz, 55099 Mainz, Germany
+                                                                                   3
+                                                                                     Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland
+
+                                                                                       a
+                                                                                           Corresponding author: svannest@uni-mainz.de
+                                                                                           b
+                                                                                             Corresponding author: mfertl@uni-mainz.de
+                                                                                            c
+                                                                                              Corresponding author: dieter.ries@psi.ch
+
+
+                                                                                                    September 24, 2025
+
+                                                                                                           Abstract
+                                                       The precise determination of the free neutron lifetime is of great significance in modern precision physics. This key
+                                                   observable is linked to the mixing of up and down quarks via the Cabibbo-Kobayashi-Maskawa matrix element Vud ,
+                                                   and the abundance of primordial elements after the Big-Bang Nucleosynthesis. However, the two leading measurement
+                                                   techniques for the neutron lifetime currently yield incompatible results, a discrepancy referred to as the neutron lifetime
+                                                   puzzle. To address the systematic uncertainties arising from neutron interactions with material walls, the τ SPECT
+                                                   experiment employs a fully magnetic trap for ultra-cold neutrons (UCNs).
+                                                       UCNs are extremely low-energy neutrons with typical velocities below 8 m/s, which can be manipulated using mag-
+                                                   netic fields, gravity, and suitable material guides, whose surface can reflect them at any angle of incidence. To precisely
+                                                   study and characterize UCN behavior during production, guidance, storage, and detection in τ SPECT, we have developed
+                                                   a dedicated simulation framework. This framework is built upon the externally developed UCN Monte Carlo software
+                                                   package PENTrack and is enhanced with two companion tools: one for flexible and parametrizable upstream configuration
+                                                   of PENTrack such that the simulation’s input settings can be adjusted to reproduce the experimental observations. The
+                                                   second package is used for analyzing, visualizing, and animating simulation data.
+                                                       The simulation results align well with experimental data obtained with τ SPECT at the Paul Scherrer Institute and
+                                                   serve as a powerful resource for identifying systematic uncertainties and guiding future improvements to the current
+                                                   experimental setup.
+
+
+
+
+                                                                                                               1
+1    Introduction and motivation                                     2      Framework components
+The free neutron lifetime, τn , is fundamentally connected           The framework was implemented using the C++ UCN
+to fundamental parameters of the Standard Model (SM)                 Monte Carlo simulation software PENTrack [22]. It simu-
+of particle physics and cosmological observables. Regard-            lates dynamics of UCNs and their decay products in com-
+ing the SM, a precise measurement of τn , in combination             plex geometries and electromagnetic fields. A wide number
+with the ratio of axial-vector to vector coupling λ ≡ gA /gV ,       of parameters and properties can be tracked over time, to
+can provide a determination of the first element of the              mention a few: particle position, speed, kinetic and poten-
+Cabibbo–Kobayashi–Maskawa (CKM) quark mixing ma-                     tial energies, spin orientation, surface hits.
+trix, Vud , without the nuclear structure corrections needed            PENTrack is extensively customized internally to fit
+for the interpretation of 0+ → 0+ super-allowed decays [1–           τ SPECT requirements. Among others, we implemented the
+3]. In cosmology, the lifetime τn directly influences the num-       following options: multi-threading; virtual spin-flip surfaces
+ber of available neutrons during Big-Bang Nucleosynthesis.           that reverse the polarization of passing neutrons; adiabatic
+A precise measurement of τn is required to estimate the              fast passage flipping of the neutron spin; sampling an exter-
+primordial nuclei abundances in the early Universe, which            nal source file of initial parameters for the UCNs; loading
+sets the initial conditions for large scale structures forma-        of multiple wire segments accepting alternating and direct
+tion and evolution, i.e. [4, 5].                                     currents for generating magnetic fields.
+   Most measurements of τn are achieved using either of                 Moreover, two python companion software packages have
+two distinct techniques. The beam method relies on count-            been developed and used to produce the results presented in
+ing the number of β-decaying neutrons through the process            this document, discussed in Sec. 3: penconf1 , from which
+n → p+ + e− + ν̄e . This is typically achieved by counting           the τ SPECT experimental settings were virtually recon-
+the number of charged particles, electrons e− , or protons           structed, and which offers flexible upstream generation of
+p+ , exiting from a predetermined volume through which a             PENTrack configuration files; and penplot2 , working down-
+neutron beam is passing. Those counts are then compared              stream, and focusing on simulation output handling, filter-
+to the neutron flux of the beam for determining τn .                 ing, analysis, geometry visualization, 3D plots and anima-
+   The bottle method relies on counting and comparing the            tions.
+number of remaining neutrons after trapping and storing                 Magnetic field meshes are built externally, using the
+them in a volume for different time periods. Those measure-          magpylib python package [23], further discussed in Sec. 2.3.
+ments rely on ultra-cold neutrons (UCNs), whose velocities              Material properties for each surface and volume are as-
+are below 8 m/s, which can be manipulated using magnetic             signed in a configuration file loaded in PENTrack, see Ap-
+fields, gravity, and suitable material guides, whose surface         pendix A.1.
+can reflect them at any angle of incidence.
+                                                                        The framework includes the Paul Scherrer Institute (PSI)
+   As of today, both experimental techniques provide in-             UCN source [24, 25]. τ SPECT is connected to the beam-
+compatible results, giving rise to the so-called free neutron        port West 1 (W1) since summer 2023, as shown in Fig. 1,
+lifetime puzzle [6–17]. The current most precise determi-            and detailed in Sec. 2.1.
+nation of τn is given by the magneto-gravitational trap,
+                                                                        UCNs are guided from the PSI source to τ SPECT using
+UCNτ , with τn,UCNτ = 877.82 s ± 0.22−0.17
+                                         +0.20
+                                               s [18–20]. Com-
+                                                                     a mirror beamline (discussed in Sec. 2.2, shown in Fig. 4)
+pared to material bottles, systematic uncertainties due to
+                                                                     using stainless steel and quartz tubes. A monitoring de-
+UCN up-scattering or absorption on material walls during
+                                                                     tector in the beamline counts a small subset of neutrons
+storage in magnetic traps are avoided, leading to a more
+                                                                     for each run. The main components of the τ SPECT ap-
+comprehensive and precise measurement of τn . The experi-
+                                                                     paratus are shown in Fig. 2. Two spin-flipping (SF) units
+ment τ SPECT, whose simulation framework is presented in
+                                                                     consist of coils fed by radio-frequency (RF) signals, dis-
+this document, relies on a fully magnetic bottle experiment
+                                                                     cussed in Sec. 2.4. They manipulate the neutron spin along
+to confine neutrons and to measure τn [21]. τ SPECT aims
+                                                                     the neutron path, converting UCNs into a storable state
+to provide an independent cross-check measurement of τn ,
+                                                                     relative to the magnetic trap potential formed by super-
+with a sensitivity reach of στn ≤ 0.3 s in the near future.
+                                                                     conducting coils and a permanent Halbach octupole mag-
+Reaching this goal requires both an overall high number of
+                                                                     net, as described in Sec. 2.3. After a filling period, the SF
+trapped UCNs, and precise identifications of sources of sys-
+                                                                     units attached to a translation stage are retracted from the
+tematic uncertainties. With this ambitious goal in mind, an
+                                                                     trap volume, leaving UCNs in a material-free environment.
+end-to-end simulation framework encapsulating the process
+                                                                     After a defined storage time, the remaining neutrons are
+of UCN production, guiding, trapping, and detection inside
+                                                                     counted (and absorbed) using an in-situ detector that can
+τ SPECT has been developed, and is being presented here.
+                                                                     be translated in and out of the trap. Measurement runs are
+   In Sec. 2, a description of the τ SPECT experiment and            then repeated for different storage intervals. The resulting
+the integration of its various subsystems in the simulation          (exponential) decay curve over the storage time can then
+framework is presented. A selection of end-to-end simula-            be fitted to extract the free neutron lifetime.
+tion results are then presented in Sec. 3. We conclude in
+Sec. 4 with a summary and a discussion of potential future               1 https://gitlab.rlp.net/tauSPECT/penconf
+
+applications of the simulation framework.                                2 https://gitlab.rlp.net/tauSPECT/penplot
+
+
+
+
+                                                                 2
+       Cryopump
+
+
+
+                      Storage vessel                        Beamport               Beamport
+                                                            South                  West 2
+                  Storage Flaps
+                                                                                                    UCN shutter                   𝜏SPECT
+
+                                                                             Monitoring detector
+                          NLK flap W1                             UCN mirrors
+                                            West 1 guide
+
+
+                      Vertical guide                                                                                                  z
+                                                                                                            Quartz guide
+                     Aluminium lid                           AlMg3 foil                                                                   y
+                                                                            Beamport W1 Steel guides
+                    Solid deuterium                                       & reduction flange                                                  x
+
+                                                                                 ~ 13 m
+
+Figure 1: Cut-view of the τ SPECT experiment attached to the UCN source at PSI. In the simulations, neutrons originate
+from the solid deuterium, pass through an aluminum lid, and are guided vertically up before entering the storage vessel,
+which is then closed by mechanical flappers. UCNs are delivered using a horizontal guide to the beamport West 1 (W1),
+to which a reduced diameter flange is connected. UCNs are guided upward via a stainless steel beamline featuring two
+UCN mirrors, before passing a UCN shutter and finally reaching τ SPECT.
+
+
+
+
+                                                                                        Cryostat
+                                                     Magnetic flux return yoke
+
+                                          Superconducting coils
+                                                                                 Spin-flipper 2
+                                                                Compensation                              Halbach octupole
+                    Spin-flipper 1
+                                                                  octupole
+                                                                                                                              Detector surface
+
+
+
+
+    Neutron trajectory
+                                   Copper junction
+                    Quartz guide                         Magnet segments
+                                            Octupole rings
+             -600                                                                  Copper shield
+                                                                                                                                Light cone
+                                                                                                          Trapped neutron                    Silicon
+                                     0
+                                                                                                                                          photomultiplier
+                                                      500
+                                                                           900
+                                                                                                   1300
+                                                                                                                                                   x (mm)
+                                                                                                                       1600
+                                                                                                                                                  2000
+
+
+Figure 2: Cut view representation of τ SPECT. The axial magnetic field is generated by super conducting coils in
+a cryostat. The transverse magnetic field is generated by a permanent Halbach octupole magnet. UCNs enter the
+experiment from the left, and are guided in quartz tubes. Their polarization is adiabatically reversed, bringing them
+into a storable state, using spin-flipper units installed around the guides which can be moved in and out of the storage
+volume. A second octupole is installed around the spin-flipper 2 for compensating the main octupole and assure better
+spin-flip efficiency. A neutron detector is mounted on a translation stage that can enter the storage volume from the
+right to absorb and count neutrons in the trap.
+
+
+
+                                                                            3
+2.1     PSI UCN source                                                                                                     MCUCN
+                                                                                           10 1                              = 24.95 ± 0.54s
+
+
+                                                                          rel. UCN count
+Over the years, the UCN group at PSI has developed a de-                                                                   PENTrack                      Beamport W1
+tailed Monte-Carlo simulation framework, MCUCN [26], that                                  10 3                              = 26.70 ± 0.52s
+                                                                                                                                                    vr                      z
+has been optimized to reflect the operation behavior of the                                10 5                                              v
+                                                                                                                                                         r              x
+UCN source [24, 25]                                                                                                                          vx    UCN 𝜓
+   Under nominal conditions, the 2.2 mA 590 MeV pro-                                                 0     100 200 300                                        𝜓>0       y
+                                                                                                                 t (s)
+                                                                                                                                                     <0
+ton beam from PSI’s High Intensity Proton Accelerator
+                                                                                               1.0
+
+
+                                                                              rel. UCN count
+(HIPA) [27] is directed towards a neutron spallation target
+                                                                                                                                     0.010
+for 8 s. The neutrons are first moderated in heavy water be-
+fore they are down-converted to UCNs in solid deuterium                                        0.5                                   0.005
+(sD2 ). After leaving the sD2 , UCNs traverse an AlMg3 lid
+and are guided vertically up into a storage vessel. After                                      0.0                                   0.000
+                                                                                                     0       1             2                       100        200       300
+those 8 s, flappers are closed, preventing UCNs to leave the                                                logt (s)                                     Ek (neV)
+storage vessel toward the bottom. Three UCN guides lead
+
+
+
+                                                                              rel. UCN count
+from the storage vessel to three different beamports and                                                                               0.2
+UCN experiments.                                                                               0.2
+                                                                                                                                       0.1
+   We integrated the PSI UCN source into our simula-
+tion framework to accurately reproduce its well-established                                    0.0                                     0.0
+properties, as documented in [24, 25, 28, 29]. The simu-                                             0.0   2.5       5.0       7.5           0.0        2.5       5.0       7.5
+lation starts with UCNs exiting the sD2 surface, during a
+                                                                                                            vx (m/s)                                     vr (m/s)
+                                                                                       0.015                                          0.18
+
+
+                                                                      rel. UCN count
+period of 8 s. Experimentally, the distribution of the ini-
+tial neutron kinetic energy, Ek , has been shown to follow a                                                                          0.16
+power law Ek2.7 [24]. When exiting the sD2 bulk material,                              0.010
+each UCN gets an additional kinetic energy boost of about                                                                             0.14
+105 neV as its potential energy is converted into kinetic en-                                         0    25        50        75                   2         0         2
+ergy [30]. UCNs re-entering the sD2 volume are considered                                                   r2 (cm2)                                          (rad)
+to be lost.
+   A comparison of the results3 of the UCN source from
+                                                                                       Figure 3: Comparison between MCUCN 3 and τ SPECT
+both simulation frameworks has been performed. Fig. 3
+                                                                                       simulation frameworks (using PENTrack) of the neu-
+shows characteristic properties of the UCNs arriving at the
+                                                                                       tron distributions at beamport West 1, for a UCN pro-
+beamport West 1. Both frameworks provide similar dis-
+                                                                                       duction cycle (starting at t = 0 s) in the PSI source.
+tributions of UCN arrival positions, time, velocities, and
+                                                                                       UCNs reaching the exit are recorded and terminated.
+energy. After the source storage vessel is filled, the arrival
+                                                                                       Their positions and velocities are shown in polar co-
+time distribution of UCNs at the beamport, N (t), and the
+                                                                                       ordinates (r-ψ). The velocity v is decomposed into
+storage time constant, τs , can be described by an exponen-
+                                                                                       a longitudinal component vx and perpendicular com-
+tial law,
+                                                                                       ponent vr . Ek is the kinetic energy. The storage time
+                      N (t) = N0 e−t/τs ,                  (1)                         constant, τs , is defined in Eq. (1).
+with N0 the initial number of UCNs at the time t = 0.
+The minute differences in the distributions and the storage      Simulations of UCN dynamics can thus be started be-
+time constants, τMCUCN = 24.95 s ± 0.54 s and τPENTrack = fore the bottom mirror of the beamline connecting τ SPECT
+26.70 s ± 0.52 s, could be explained by the slightly different with the beamport. To do so, the computation is split into
+geometries, small gap locations, and material properties.      two steps:
+
+2.1.1   Virtual source                                                           1. Virtual detector recording: an initial global simula-
+                                                                                    tion is computed, which features the source, the beam-
+Starting UCNs from the sD2 crystal for each simulation                              line, and τ SPECT. A virtual detector plane placed at
+run is computationally cumbersome and expensive, as only                            the separation between the source and the beamline
+a very small fraction of them ultimately reach τ SPECT.                             records the relevant properties of all passing neutrons
+Moreover, we have verified in the simulations that modi-                            without interfering with their dynamics.
+fications of τ SPECT’s configuration, e.g., its height rela-
+tive to the beamport, barely influences the dynamics of the                      2. Virtual source sampling: the resulting UCN distribu-
+neutrons in the source. We can therefore separate both vol-                         tion at the virtual detector can then be sampled for
+umes, the UCN source and τ SPECT, and consider them as                              simulations focusing on τ SPECT only. In that case,
+independent. This separation is applied after the beamport                          the PSI source volume is removed. We verified with the
+and the diameter reduction flange, see Fig. 4.                                      global simulation that most UCNs that get reflected
+                                                                                    to the PSI source do not go back into τ SPECT for a
+  3 MCUCN results provided by Geza Zsigmond, private communication.                 second time. The few neutrons that do get back into
+
+
+                                                                      4
+      τ SPECT are nevertheless counted for each new pass
+      during the step 1 (virtual detector recording), and their                     UCN NiMo mirror
+      statistics are therefore also accounted for during the                                                   Monitoring detector flange
+      virtual source sampling phase. Consequently, we can                       NiMo coated
+                                                                                glass guides
+      add a neutron absorbing plane right before the virtual
+                                                                                                                        Detector surface
+      detector. This ensures that neutrons that get reflected
+      from τ SPECT back to the PSI source are terminated.             Grid
+
+
+   UCNs generally undergo some amount of diffuse scatter-              AlMg3 foil
+                                                                                                      Steel
+ing on surfaces, which is implemented into PENTrack as a                                              guides
+random process. After a few reflections, neutrons starting            Reduction flange
+with the same initial conditions will end up in completely                                               Pump connection
+different positions in the UCN phase space volume. The                 Virtual detector/source
+virtual source sampling technique introduced above allows
+for the same initial conditions to be sampled several times
+(within reasonable limits) during a simulation, while still              Figure 4: CAD cut view of beamport W1, the mirror
+leading to a variety of different final neutron states.                  beamline, and the monitoring detector. The virtual
+                                                                         detector plane records every neutron pass, which are
+2.2     Beamline and monitoring detector                                 later sampled for starting UCN simulations directly
+                                                                         from the beamport.
+The τ SPECT apparatus is mounted on four vertical lifters.
+By varying the height of τ SPECT relative to the beam-
+port exit, thus slowing down UCNs gravitationally (about              seekers (HFS). The storage volume of τ SPECT is a three-
+102 neV/m), different parts of the initial neutron energy             dimensional magnetic potential well for LFS, depicted in
+spectrum, shown in Fig. 3, can be loaded. The beamline,               Fig. 6. All magnetic field sources are simulated externally
+displayed in Fig. 4, consists of vertical and horizontal stain-       using the open source python package magpylib [23]. For
+less steel tubes with an inner diameter of 66 mm connect-             each source, a mesh is computed containing the field compo-
+ing beamport W1 to the entrance of τ SPECT. Both 90°                  nents and derivatives relevant for the tricubic interpolation
+turns comprise mirror plates 58 NiMo (85:15 weight ratio)             integrated in PENTrack [31]. For that purpose, we extended
+coated, which assure a high UCN reflectivity. The simu-               PENTrack for accepting external tricubic components as pa-
+lation framework can account for any beamline height (de-             rameters.
+fined as centerline offset between top and bottom horizontal
+guides), ranging from 0 m up to 2 m in practice. New de-              2.3.1    Superconducting coils
+signs of beamline geometries and materials can be tested
+and optimized as well.                                                The longitudinal field is produced by a series of supercon-
+                                                                      ducting coils in a cryostat. It features two characteristic
+   A monitoring detector is installed after the top mirror
+                                                                      peaks (x ≃ 0 mm and x ≃ 2200 mm) which confine UCNs
+and before the UCN shutter. It tracks fluctuations in the
+                                                                      longitudinally. The global amplitude of the field can be
+total number of UCNs produced for each individual pulse
+                                                                      shifted by varying the electric current in the coils (see Ap-
+of the PSI source. The number of neutrons counted after
+                                                                      pendix A.2). In addition, two independent gradient coils
+storage inside τ SPECT can then be normalized based on
+                                                                      are used to change the slope of the magnetic field around
+the monitoring detector counts. The monitoring detector
+                                                                      x ≃ 0 mm (see Fig. 2), which is relevant for the SF of UCNs
+consists of a stainless steel flange with a 4 mm diameter
+                                                                      discussed in Sec. 2.4. The simulation framework incorpo-
+pinhole that allows a small fraction of the UCNs to reach a
+                                                                      rates those various coil settings. The iron yoke surrounding
+detector surface.
+                                                                      the cryostat reduces the fringe field outside. It is not in-
+   The monitoring detector counting distributions over time
+                                                                      cluded in the simulation framework, but it has been shown
+are compared between simulation and experimental mea-
+                                                                      that the shape and the high homogeneity of the magnetic
+surement in Fig. 5. Both distributions are in excellent
+                                                                      fields at the center of the cryostat is unaffected by the mag-
+agreement, and show similar UCN storage time constants τ
+                                                                      netic flux return yoke [32].
+of the beamline after the UCN shutter in front of τ SPECT
+(see Fig. 1) is closed.
+                                                                      2.3.2    Halbach octupole
+
+2.3     Magnetic trap                                        The transversal field is produced by a Halbach array made
+                                                             from permanent magnets in an octupole configuration in-
+Neutrons with their magnetic moment oriented antiparal- stalled inside the cryostat [21]. The octupole is 1.38 m long,
+lel to a magnetic field are decelerated by an increasing segmented into 24 rings with an inner radius of Ri = 54 mm
+magnetic field amplitude, and are called low field seek- and outer radius of Ro = 84.1 mm. Each ring is formed of
+ers (LFS). Neutrons having a magnetic moment parallel to 32 Sm2 Co17 segments, with a nominal remanence of 1.1 T
+the magnetic field are accelerated and are called high field and a relative permeability of µr = 1.1.
+
+
+                                                                  5
+                          2500
+
+
+
+
+Monitor detector counts
+                                                UCN shutter closes
+                          2000                  Measured, = 37.22 ± 0.36 s
+                                                Simulation, = 37.82 ± 0.45 s                      2.0
+                          1500                                                         |B| (T)
+                                                                                                  1.5
+                                                                                                  1.0
+                          1000                                                                    0.5
+
+                           500                                                                    60
+                                                                                            m)
+                                                                                                  40
+                                                                                        r (m       20                                               2.0    2.5
+                             0                                                                       0    -1.0 -0.5     0.0     0.5 1.0       1.5
+                                 0   20   40 60 80 100 120 140                                                                     x (m)
+                                          Time after UCN kick (s)
+                                                                                        Figure 6: Magnetic field amplitude |B|,
+                                                                                                                              ⃗ along the lon-
+                  Figure 5: Comparison between simulation and mea-
+                                                                                        gitudinal direction x, and radial direction r. The lon-
+                  sured time distributions of UCNs counted by the mon-
+                                                                                        gitudinal field is produced by superconducting coils,
+                  itoring detector, with a bin size of 3 s. In this example,
+                                                                                        while most of the contribution to the transversal field
+                  two measurement cycles are stacked to increase statis-
+                                                                                        comes from the permanent Halbach octupole magnet.
+                  tics. τ SPECT is at a height of 43 cm. Its UCN shutter
+                                                                                        The edge of the UCN trapping region is indicated by
+                  closes after 20 s, after which neutrons stay confined in
+                                                                                        a red line.
+                  the beamline which is still exchanging neutrons with
+                  the PSI UCN source. The corresponding storage time
+                  constant τ is extracted by fitting an exponential func-                                       Perfect Halbach array                 Measured
+                                                                                            875
+                  tion starting at 25 s as Eq. (1).
+                                                                                   B (mT)   850
+                                                                                            825
+   In order to mimic small misalignments inherent to the
+Halbach array construction, each simulated segment un-                                      875                                                       Simulation
+                                                                                   B (mT)
+dergoes a small random Gaussian perturbation of its mag-
+                                                                                            850
+netization orientation and amplitude, its position, and its
+dimensions. Those perturbations have been tuned in the                                      825
+simulation code to match the patterns observed during                                               600   800    1000         1200     1400    1600       1800   2000
+                                                                                                                              x (mm)
+measurements of the octupole magnetic field4 , as shown
+in Fig. 7. The standard deviation of the perturbations were                             Figure 7: Magnetic field amplitude | ⃗
+                                                                                                                             B| of the octupole
+chosen as 11 mT and 2 ° for the magnetization amplitude                                 along the longitudinal direction x. The scan is done
+and orientation, 0.03 mm for the position, 0.2 ° for the ori-                           at a fixed angle, and a radius of 52.5 mm. For clarity,
+entation, and 0.2 % for the dimension of each segment.                                  uncertainty ranges are not displayed.
+
+2.3.3                        Trap energy potential
+The total energy E of the UCNs in the trapping volume            with a value of about 0.21 T, corresponding to a minimum
+must be below the potential depth Vtrap so that they are         magnetic potential for LFS of Vmin = min(Vmagnetic ) ≃
+confined fully magnetically. Vtrap is limited by the octupole    12.5 neV.
+field, as its amplitude near its surface is lower than the          In practice, some orbits allow UCNs with higher energy
+two longitudinal field peaks formed by the superconducting       than Vtrap to remain in the trapping volume for durations
+coils. Therefore, the trapping potential corresponds to the      of the same order as the free neutron lifetime τn , before
+minimum value of the sum of the neutron magnetic and             leaking out. Those so-called marginally trapped neutrons
+gravitational potential energies computed at the octupole        are one of the main sources of systematic uncertainties for
+surface. From the simulated octupole, we find                    UCN lifetime bottle experiments, as the loss rate related to
+                                                                 their escape of the trap adds up to the decay rate of the
+     Vtrap = min(Vmagnetic + Vgravity )|r=Ri ≃ 48 neV,      (2) neutron.
+                                                                    In order to remove this source of bias, τ SPECT cur-
+where                                                            rently relies on a cleaning method for removing marginally
+                                                                 trapped UCNs. After neutrons are filled into the trap, and
+         Vgravity (x, y, z) ≃ z · 102.4 neV/m,
+                                                                 before the storage period begins, the in-situ neutron detec-
+         Vmagnetic (x, y, z) ≃ |B(x, y, z)| · 60.3 neV/T,        tor is partially inserted in the trapping volume, but remains
+                                                                 in the slope of the second magnetic peak (see Fig. 6). Ide-
+and B is the combined magnetic field of the superconduct- ally, mostly marginally trapped neutrons, thus having an
+ing coils and the octupole. The exact value of Vtrap in energy higher than fully storable UCNs, can reach it and
+τ SPECT is unknown. The minimum magnetic field am- be absorbed on its surface.
+plitude of the trap is at its center (x, y, z) = (1.26 m, 0, 0),
+                                                                    As shown in Fig. 8, the spatial distribution of the UCN
+   4 Reanalysis of [33]                                          detection derived from simulations is in agreement with the
+
+
+                                                                               6
+potential energy computed on the surface of the detector                                            700
+plate, for a simulated cleaning position of xclean = 1850 mm.                                                                                  Without cleaning
+                                                                                                                                               With cleaning
+
+
+
+
+                                                                    Counted neutron after storage
+                                                                                                    600                                        Vclean
+                                                                                                    500                                        Vtrap
+                60
+                                                                                                    400
+                40                                                                                  300
+
+                20              neV                                                                 200
+                           45
+                                                                                                    100
+       z (mm)    0                     42 neV                                                         0
+                                                                                                       10     20     30       40       50      60      70
+                20                               V
+                                                ne                                                                        Total energy (neV)
+                                                48
+                                                                                             Figure 9: Total energy spectrum of detected neutrons.
+                40                     V
+                                      ne
+                                      40                                                     τ SPECT is at a height of 59 cm, UCNs are filled into
+                                                                                             the trap until t = 25 s, and stored for 50 s before be-
+                60                                                                           ing counted by the detector. For the cleaning sim-
+                     50   25        0   25           50                                      ulation, the detector is positioned at x = 1820 mm
+                                 y (mm)                                                      until t = 100 s before being retracted for the stor-
+                                                                                             ing phase. Marginally trapped neutrons have energies
+   Figure 8: Spatial distribution of the UCN detection                                       above Vtrap = 48 neV (filled region).
+   on the τ SPECT detector during a cleaning phase at
+   xclean = 1850 mm, derived from simulations. The                  of those HFS, Vmagnetic |xSF2 ≃ −12.5 neV, is reversed once
+   equipotential lines are computed from the combina-               spin-flipped into LFS, this method increases those UCNs
+   tion of magnetic and gravitational potential energy.             total energy by
+
+   Simulations show that a fraction of the marginally                                                       ∆EsSF = 2 |Vmagnetic |xSF2 ≃ +25 neV.             (3)
+trapped UCN population keeps a predominantly transverse               For these neutrons to be fully storable, their total energy
+momentum, and therefore lack longitudinal momentum to               range allowed before being spin-flipped must therefore be
+reach the detector. To remove this marginally trapped pop-
+ulation, the absorbing surface of the detector can be moved                                                 E ∈ [0, Vtrap − ∆EsSF ] ≃ [0, 23] neV.            (4)
+deeper into the trap, at the cost of removing a significant
+fraction of the storable population as well, as shown in            Double spin-flip In addition, another SFU can be acti-
+Fig. 9. Based on simulations, improvements of the cleaning          vated, located at xSF1 , in the middle of the first magnetic
+technique for sharpening the cut in the energy spectrum are         field peak. In that case, initially LFS UCNs are slowed
+still being investigated.                                           down before reaching SF1, get spin-flipped into HFS, and
+                                                                    continue to be slowed down as they reach SF2. This tech-
+2.4    UCN filling and spin-flipping units                          nique is referred to as the double spin-flip (dSF), and re-
+                                                                    duces those UCNs total energy by
+On the path to the storage volume, neutrons undergo a
+kinetic energy shift due to the magnetic amplitude varia-                             ∆EdSF = −2 |Vmagn |xSF1 + 2 |Vmagn |xSF2 ≃ −96 neV. (5)
+tion in the longitudinal direction, whose sign depends on           The total energy range (before SF1) allowed for being
+their polarization state (HFS or LFS). In order for UCNs            storable is here
+to be storable, they must be in the LFS state in the trap-
+ping region, and have a total energy below V trap . This is                          E ∈ [Vmin − ∆EdSF , Vtrap − ∆EdSF ] ≃ [108, 144] ner V.
+achieved by using either one or both adiabatic spin flipping                                                                               (6)
+units (SFUs) [34, 35] installed along the neutron path (see        Each SF scheme allows for storing UCNs extracted from
+Fig. 2). Their purpose is to reverse the neutron polariza-      a different part of the energy spectrum. Combined with
+tion at two defined longitudinal positions, xSF1 = 50 mm        τ SPECT height variations, the neutron loading can be op-
+and xSF2 = 980 mm. When passing a SFU, a LFS is trans-          timized to maximize the number of confined UCNs.
+formed into HFS, and vice versa. Fig. 10 summarizes the            In addition to the theoretical calculations based on the
+approximate potential energy shift experienced by neutrons      magnetic field potentials shown in Fig. 10, we also dis-
+for two SF setups:                                              play the UCN kinetic energy shift sampled from a dSF
+                                                                simulation. It is computed as the difference between the
+Single spin-flip After passing the first magnetic peak, neutron kinetic energy at the longitudinal position x and
+HFS are spin-flipped around xSF2 into LFS, making them the position x = −2 m (i.e., before entering τ SPECT),
+storable. This technique is referred to as the single spin-flip ∆Ek (x) = Ek (x)−Ek (x = −2 m). The simulations confirm
+(sSF) technique. Because the magnetic potential energy the theoretical predictions ∆Vmagnetic ≃ −∆Ek .
+
+
+                                                                7
+                                Coils field              LFS            2.0
+                  100.0            Ek, dSF sim.
+                                                                        1.5
+                                           HFS
+                             dSF                         EdSF                                                                   z
+
+                               LFS                                      1.0
+
+
+Vmagnetic (neV)
+                   48.0                                         Vtrap                                                               y
+
+
+                                                                         Bx (T)
+                                                                        0.5                                                             x
+
+                   12.5
+                    0.0                                  EsSF           0.0
+                   12.5                                                                     40                                              0.10
+                                                         LFS
+                             sSF                                                            30
+                   50.0                 HFS                                                                                                 0.08
+                                                                                            20
+                          1.00       0.05         0.98          2.00                        10
+                                              x (m)                                                                                         0.06
+                                                                                  z (mm)                                                           |B| (mT)
+                                                                                             0
+            Figure 10: Magnetic potential curves (solid green for                           10                                              0.04
+            dSF, and dashed blue for sSF) seen by UCNs as they
+            enter the τ SPECT trap (filled purple) from the left,                           20                                              0.02
+            and get spin-flipped (⇄). Dotted orange: longitudi-                             30
+            nal coil magnetic field amplitude. sSF UCNs, follow-
+            ing the HFS→LFS bottom path, undergo an increase                                40 40        20      0   20             40      0.00
+            of total energy of ∆EsSF ≃ +25 neV. dSF UCNs,
+            following the LFS→HFS→LFS top path, undergo a                                                     y (mm)
+            reduction of total energy of ∆EdSF ≃ −96 neV. The
+            brown crosses correspond to the opposite of the ki-
+            netic energy shift, −∆Ek , sampled along the UCN                             Figure 11: Top: 3D view of the two saddle coils for
+            trajectories for a double spin-flip simulation (see dis-                     the second spin-flipper unit. The arrows indicate the
+            cussion in the text).                                                        RF electrical current circulation at a given time. Bot-
+                                                                                         tom: simulated magnetic field amplitude | ⃗ B| and field
+                                                                                         lines the y-z plane at the center of the SFU. As the
+2.4.1                 Spin-flip simulations                                              current oscillates at the RF, the orientation of the
+                                                                                         field rotates about the central x axis. The UCN guide
+Both SFUs currently consist of two orthogonal saddle coils,                              tube boundary is indicated by the white circle. The 8
+fed by RF current with a π/2 phase offset. This pro-                                     points on the plane trough which the coil wires pass
+duces a homogeneous magnetic field in the y-z plane of                                   are visible in black.
+the UCN guides, that rotates around the longitudinal x
+axis, as shown in Fig. 11. By matching the RF with the
+neutron spin precession frequency, their spin can be manip-
+ulated and ultimately adiabatically reversed as they exit
+the SFUs [34, 35]. After a defined filling time, the SFU and                          are being fed by RF current. The initial neutron parameters
+guide tube assembly is retracted from the storing region,                             like velocity and position before entering the SFU region are
+leaving UCNs in a material free environment.                                          first sampled. Multiple SFU coil designs can be tested and
+   Because the second SFU position is in the octupole field                           optimized, by counting the number of neutron successfully
+region during the filling process, it is integrated into a com-                       spin-flipped, the SF efficiency can be deduced, as shown in
+pensation Halbach octupole which counters the storage oc-                             Fig. 12. By varying the amplitude of the current, various
+tupole, ensuring that the magnetic field gradient is domi-                            magnetic field configurations from the coils of the cryostat
+nant in the longitudinal direction. The compensation oc-                              (see Appendix A.2) can also be tested.
+tupole is implemented in the simulation framework similarly
+as for the storage octupole field, discussed in Sec. 2.3.2. As                           Future studies employing spin-flip (SF) simulations will
+it is attached to the SFU translation assembly, and because                           assess SF efficiency as a function of UCN incoming posi-
+PENTrack does not yet implement moving magnetic fields,                               tion, velocity, direction, magnetic field gradient, and SF
+the amplitude of the simulated compensation octupole field                            coil current. These calculated SF probabilities can then
+is simply scaled down to zero once the filling phase ends.                            be incorporated directly into our full measurement cycle
+   Because spin-tracking in PENTrack is computationally                               simulations, eliminating the need for explicit spin tracking
+expensive, dedicated simulations have been developed for                              during the spin-flip process. The results of these full simu-
+characterizing the SFU efficiency only. A series of longitu-                          lations can then be compared with measurement data from
+dinal current segments, approximating the SFU coil paths,                             the τ SPECT detector.
+
+
+                                                                                  8
+                                                                              The framework can thus handle end-to-end simulations of
+             100                                                            UCNs produced by the PSI source, guided in the beamline,
+                                                                            up to the filling, storage and ultimately detection inside
+                 80                                                         the trapping region. For those full simulations, the process
+                                                                            of neutron spin-flip is carried out by surfaces in the y-z
+                 60
+
+    SF eff (%)
+                                                                            plane, positioned at both SFU positions, xSF1 and xSF2 ,
+                                                                            that instantaneously reverse the polarization of UCNs go-
+                 40
+                                                                            ing through them. Various spin-flip probabilities can be
+                                                                            attributed to those surfaces, which thus reproduces the non
+                 20                                saddle coils             100% efficiency of the actual SFUs.
+                                                   cos-theta coil
+                  0
+                      0   1        2           3          4         5
+                                                                            3.2    Measurement run
+                                       I (A)                                A characteristic counting spectrum of the main detector of
+                                                                            τ SPECT for a single storage measurement cycle is shown
+        Figure 12: Spin-flip efficiency from simulations of the             in Fig. 13. It consists of mainly four phases.
+        SFU located at xSF2 depending on the coil input cur-
+        rent I. Here, two coil designs are compared, a pair                   • Filling: The UCN shutter is open, allowing UCNs to
+        of saddle coils, as pictured in Fig. 11, and a single                   enter τ SPECT. The SFUs assembly is already inserted
+        cos-theta coil with four loops.                                         in the trap and active. During that period, the detector
+                                                                                is at a cleaning position, and counting UCNs. Many
+                                                                                neutrons are detected, mostly high energetic ones, fly-
+3                End-to-end simulation                                          ing through the trap.
+
+                                                                              • Cleaning: The UCN shutter is closed, the SFUs are
+3.1               Configurations                                                deactivated, and the SFU assembly is removed from the
+All subsystems introduced in previous sections have been                        trap. The detector keeps its cleaning position for re-
+assembled into a full simulation setup. The framework in-                       moving marginally trapped neutrons. A few remaining
+corporates the most relevant degrees of freedom for setting                     high energetic UCNs are still pouring from the guides
+the experiment (height relative to the beamport, SF tech-                       into the trap, and get detected as well.
+nique, SF and detector assembly positions and speed, tim-                     • Storing: The detector is retracted from its cleaning
+ing, field amplitude, beamline geometry, ...). For this pur-                    position, leaving UCNs in a material free environment
+pose, a dedicated companion software, penconf, has been                         and confined solely by the magnetic field. At that
+developed. Written in Python, it offers an additional con-                      stage, mostly background signals are detected.
+figuration level to PENTrack. Custom experimental settings
+can be assigned to variables, for example, the UCN filling                    • Counting:    The detector is pushed deep inside the
+and storage times, cleaning duration and position, etc. For                     trap, removing and counting the remaining UCNs.
+each new configuration, penconf can then automatically
+generate a PENTrack configuration file, eliminating the need                    The shape of the counting spectrum of the τ SPECT main
+to manually write it. With penconf, a pre-configuration                     detector depends on the whole simulations settings: the
+must first be constructed, where all the possible geometries,               initial conditions of the UCNs, the material properties of all
+fields, and UCN sources are defined. CAD volumes can                        the geometries, and the magnetic field configuration. One
+be grouped together as being part of a single geometrical                   can appreciate the accuracy of the simulation framework in
+entity which have multiple states (for example, a shutter,                  reproducing the counting spectrum. A Poisson background
+that can be closed or open). At the time of developing the                  of 0.9 count per second is added to the simulation spectrum,
+framework, moving geometries were not yet implemented in                    close to what is measured.
+PENTrack. However, volumes can be (de)activated for peri-                       With nominal material properties of τ SPECT geome-
+ods of time, and we therefore currently rely on that feature                tries, the simulations predict almost three times more
+to mimic their movement and change of state. From a CAD                     counted (and stored) UCNs than what is measured. This
+software, we first export each component into several pre-                  is visible as a higher counting peak amplitude (green dot-
+defined positions, which are then loaded into PENTrack as                   ted line in Fig. 13) compared to the measured spectrum
+separate volumes, which are be alternatively (de)activated                  (solid blue). In order for the simulation to match the ob-
+during the simulation. The automation of this complex task                  served amplitude (dashed orange), the loss per bounce of
+is also carried out by penconf. The impact of this mov-                     the copper shield (Fig. 2) had to be drastically increased
+ing geometries approximation will be studied in the future,                 compared to the expected nominal UCN property of copper
+once Dopper-shift will be implemented in the simulation en-                 (see Appendix A.1). Indeed, since the copper shield is the
+gine. We expect minor effects from the moving spin-flipper                  main geometry in contact with trapped UCNs during the
+assembly (24mm/s), detector surface (10mm/s), or UCN                        filling phase, its material properties can influence the total
+shutter.                                                                    number of stored and thus counted UCNs after the storage
+
+
+                                                                        9
+phase. The UCNs detected during the filling phase are high                           4   Conclusion
+energetic ones that fly straight through the trap, and are
+not in contact with the copper shield. Hence, the filling              In this paper, we have introduced a comprehensive UCN
+peak is not impacted by its material property. Although                simulation framework tailored for the neutron lifetime ex-
+it is not yet clear whether the copper shield is to blame,             periment τ SPECT. This framework has been crucial in
+this calls for a future inspection of any loss mechanisms to           characterizing the experiment and has yielded results con-
+explain this discrepancy between measurements and simu-                sistent with preliminary analyses from measurements con-
+lations. In 2025, after re-polishing the copper shield, new            ducted by τ SPECT at PSI in 2024. We demonstrated that
+measurements will be compared again with simulations to                the framework effectively handles complex features, such as
+clarify this point.                                                    realistic magnetic fields and moving geometries, within a
+                                                                       unified structure built on the Monte Carlo simulation soft-
+                                                                       ware PENTrack. Additionally, we developed two companion
+   105 fill    clean         store                      count          tools, penconf and penplot, designed to streamline the
+                                                                       configuration and analysis of PENTrack simulations. These
+   104                             Measured                            tools  are anticipated to significantly aid the development
+
+
+
+
+SPECT detector counts
+                                   Simulation, nominal copper shield   of similar frameworks for other UCN experiments. A clean
+   103
+                                   Simulation, lossy copper shield     version of the simulation framework itself will be made pub-
+                                                                       lic on GitLab in the near future.
+                                                                          The simulations have not only validated the UCN storage
+   102                                                                 design of τ SPECT but have also provided valuable insights
+                                                                       for guiding future improvements and identifying systematic
+   10 1
+                                                                       uncertainties associated with the free neutron lifetime mea-
+                                                                       surement of the current setup. For example, techniques to
+                                                                       enhance neutron loading efficiency or to mitigate effects of
+   100                                                                 marginally trapped UCNs can be evaluated through simu-
+         0    50        100        150         200       250  300
+                                     time (s)                          lations prior to hardware implementation.
+                                                                          During the second half of 2024 and 2025, τ SPECT un-
+   Figure 13: Comparison between measurement and                       derwent an extensive commissioning phase, during which
+   simulations of τ SPECT main detector counts during                  various parameter scans were performed. Based on those
+   a single measurement cycle consisting of 27 s of filling,           measurements, we plan to fine-tune the simulation frame-
+   a cleaning from 0 to 100 s, followed by 50 s of storage,            work using large-scale computer grid to increase statistics.
+   and finally 200 s of counting. See Appendix A.1 for                    During the second half of 2024 and throughout 2025, the
+   the nominal and lossy copper shield material proper-                τ SPECT    experiment underwent an extensive commission-
+   ties.                                                               ing  phases  involving detailed parameter scans. Leveraging
+                                                                       these measurements, we plan to fine-tune the simulation
+  As a more advanced example, Fig. 14 shows a filling time framework using large-scale computing grids to significantly
+scan performed at PSI in 2024, and a comparison with sim- enhance statistics. Systematic studies will focus on several
+ulations. Both simulation and measurement agree on an non-exhaustive aspects, beginning with poorly constrained
+optimal filling time of about 25 s.                                    UCN surface loss parameters, and extending the charac-
+                                                                       terization of the marginally trapped UCN population, in-
+                                                                       cluding their cleaning efficiency, and phase-space evolution
+    2000      Measured                                                 and randomization. We will further investigate the detector
+              Simulation
+
+
+
+
+   Counted trapped UCNs
+                                                                       surface properties such as its Fermi potential and rough-
+    1500                                                               ness, alongside counting window effects like incomplete de-
+    1000
+                                                                       tection during finite windows or background accumulation
+                                                                       during extended counting periods. Source-related effect,
+     500                                                               particularly fluctuations in initial UCN numbers and en-
+                                                                       ergy spectrum drift, will be studied as well. Magnetic trap
+        0                                                              performance will be inspected through depolarization rates,
+           5      10        15          20       25       30  35    40 spin-flip losses, field inhomogeneities, and adiabaticity vio-
+                                   Filling duration (s)
+                                                                       lations.
+                     Figure 14: Comparison between simulation and mea-
+                     surement at PSI of a filling time parameter scan using
+                     the dSF technique at a height of 59 cm. The cleaning
+                     phase is applied from t = 0 s to t = 100 s at a position
+                     xclean = 1800 mm, followed by a 50 s storage.
+
+
+
+
+                                                                                10
+Acknowledgements                                               A      Appendix
+This work has been supported by the Cluster of Excellence
+                                                               A.1     Simulation material properties
+Precision Physics, Fundamental Interactions, and Structure
+of Matter (PRISMA+ EXC 2118/1) funded by the German
+Research Foundation (DFG) within the German Excellence         Material            V (neV)     W (neV)   PLamb.   PSF
+Strategy (Project ID 39083149).                                AlMg3               54          0.0054    0.1      10−5
+   We thank Dr. Georg Bison for providing the CAD model        NiMo                220         0.0660    0.05     2 · 10−6
+of the PSI UCN source, and Dr. Geza Zsigmond for the           DLC                 230         0.253     0.5      2 · 10−6
+useful discussions and for providing MCUCN comparison data.    Polished steel      174         0.0592    0.4      10−5
+                                                               Steel loss          174         1         0.4      10−5
+                                                               Steel loss 100      174         100       0.4      10−5
+Author contributions                                           58
+                                                                  NiMo (85:15)     308         0.02755   0.05     2 · 10−6
+S.V. built the simulation framework, wrote the software        Sm2 Co17            44          0.01      0.1      10−5
+                                                               Cu (nominal)        171         0.0726    0.2      10−5
+packages, performed the main analysis, and wrote this doc-
+                                                               Cu W70 (lossy)      171         70        0.2      10−5
+ument; N.P. performed the spin-flipping simulations and
+                                                               Quartz              103         0.038     0.2      2 · 10−6
+analysis; U.B. tested the simulation and analysis software;
+                                                               Spin flipper        0           0         0        1
+J.A., M.E., V.E., M.F., K.F., S.K., B.L., N.P., D.R.,          UCN det V0          10−5        1         0        0
+S.V., and N.Y. contributed to the reassembly and data          UCN det V10         10          1         0        0
+taking of τ SPECT at PSI; All authors discussed the results
+and commented on the manuscript.
+                                                                   Table 1: Material properties. V and W refer to
+                                                                   the real (Fermi) and imaginary part of the potential.
+                                                                   PLamb. and PSF respectively refer to the probability
+                                                                   of non-specular (Lambertian) reflection, and of spin-
+                                                                   flipping
+
+
+                                                                             Geometry           Material
+                                                                             Aluminum lid       AlMg3
+                                                                             Vertical guide     NiMo
+                                                                             Storage vessel     DLC
+                                                                             Central tube       DLC
+                                                                             Cryopump           UCN det
+                                                                             Storage flaps      DLC
+                                                                             NLK flap           DLC
+                                                                             Source guides      NiMo
+                                                                             AlMg3 foil grid    Polished steel
+                                                                             AlMg3 foil         AlMg3
+
+
+                                                                   Table 2: Materials used for PSI UCN source geome-
+                                                                   tries.
+
+
+
+
+                                                          11
+        Geometry                              Material                         References
+        Reduction flange                      Polished steel
+        Beamline guides                       Polished steel                    [1]   J. C. Hardy and I. S. Towner. In: Phys. Rev. C 102.4
+        Beamline UCN mirror                   58
+                                                 NiMo (85:15)                         (Oct. 2, 2020), p. 045501. doi: 10.1103/PhysRevC.
+        Monitoring detector flange            Polished steel                          102.045501. url: https://link.aps.org/doi/10.
+        Monitoring detector surface           UCN det V0                              1103/PhysRevC.102.045501.
+        Quartz guide 1st part                 Cu                                [2]   Chien-Yeah Seng, Daniel Galviz, William J. Mar-
+        Quartz guide 2nd part                 Quartz                                  ciano, and Ulf-G. Meißner. In: Phys. Rev. D 105.1
+        SF surfaces                           Spin flipper                            (Jan. 7, 2022), p. 013005. doi: 10.1103/PhysRevD.
+        Halbach segments                      Sm2 Co17                                105.013005. url: https://link.aps.org/doi/10.
+        UCN shutter, source side              Steel loss                              1103/PhysRevD.105.013005.
+        UCN shutter, τ SPECT side             Steel loss 100
+                                                                                [3]   DOE/NSF Nuclear Science Advisory Committee &
+        Copper junction                       Cu
+                                                                                      Long Range Plan Working Group. 2280968. Oct. 1,
+        Copper shield                         Cu W70
+                                                                                      2023, p. 2280968. doi: 10 . 2172 / 2280968. url:
+        τ SPECT detector surface              UCN det V10
+                                                                                      https://www.osti.gov/servlets/purl/2280968/.
+                                                                                [4]   G. J. Mathews, T. Kajino, and T. Shima. In: Phys.
+      Table 3: Materials used for τ SPECT geometries.                                 Rev. D 71.2 (Jan. 3, 2005), p. 021302. doi: 10.1103/
+                                                                                      PhysRevD . 71 . 021302. arXiv: astro - ph / 0408523.
+                                                                                      url: http://arxiv.org/abs/astro-ph/0408523.
+A.2      Coils
+                                                                                [5]   Tammi Chowdhury and Seyda Ipek. In: Can. J. Phys.
+ Coil    ro − ri (m)   xf − xi (m)   ri        xi (m)    Current (A)
+                                                                                      102.2 (Feb. 1, 2024), pp. 96–99. doi: 10 . 1139 /
+ 1       0.0048        0.2866        0.129     -0.4294   256.53 · Imain               cjp-2023-0188. arXiv: 2210.12031 [hep-ph]. url:
+ 2a      0.016         0.0715        0.2548    -0.137    146.85 · Imain               http://arxiv.org/abs/2210.12031.
+ 2b      0.007         0.0715        0.2708    -0.137    189.81 · Imain
+                                                                                [6]   Stephan Paul. In: Nuclear Instruments and Meth-
+ 2c      0.02622       0.0715        0.2778    -0.137    256.46 · Imain
+ 4a      0.0176        0.0468        0.2428    0.0673    146.90 · Imain               ods in Physics Research Section A: Accelerators,
+ 4b      0.0126        0.0468        0.2604    0.0673    189.26 · Imain               Spectrometers, Detectors and Associated Equipment
+ 4c      0.0348        0.0468        0.273     0.0673    256.41 · Imain               611.2–3 (Dec. 2009), pp. 157–166. doi: 10.1016/j.
+ 6       0.0048        0.1397        0.1408    0.1396    256.41 · Imain               nima . 2009 . 07 . 095. arXiv: 0902 . 0169 [hep-ex].
+ 7       0.0078        0.1781        0.15      0.2954    256.50 · Imain
+                                                                                      url: http://arxiv.org/abs/0902.0169.
+ 8       0.009         0.3159        0.15      0.4741    256.41 · Imain
+ 9       0.0018        0.6689        0.1928    0.9906    256.41 · Imain         [7]   Fred E. Wietfeldt and Geoffrey L. Greene. In: Rev.
+ 10      0.0198        0.3029        0.12      1.9       256.39 · Imain               Mod. Phys. 83.4 (Nov. 3, 2011), pp. 1173–1192. doi:
+ 11      0.027         0.1502        0.12      2.2029    256.32 · Imain               10 . 1103 / RevModPhys . 83 . 1173. url: https : / /
+ 3       0.0042        0.00455       0.1312    -0.1178   256.41 · Ic3
+ 5       0.0042        0.00455       0.1312    0.1132    256.41 · Ic5
+                                                                                      link.aps.org/doi/10.1103/RevModPhys.83.1173.
+                                                                                [8]   Geoffrey L. Greene and Peter Geltenbort. In: Sci Am
+                                                                                      314.4 (Mar. 15, 2016), pp. 36–41. doi: 10 . 1038 /
+  Table 4: Coil properties used to generate longitudi-                                scientificamerican0416- 36. url: https://www.
+  nal field in τ SPECT [32]. ri and ro are respectively                               scientificamerican . com / article / a - puzzle -
+  inner and outer radii. xi and xf are respectively the                               lies-at-the-heart-of-the-atom.
+  starting and ending longitudinal positions. Most of
+  the coils are connected in series, and typically receive                      [9]   V. F. Ezhov et al. In: Jetp Lett. 107.11 (June 2018),
+  a current Imain = 32.5 A. Coils n°3 and n°5 control                                 pp. 671–675. doi: 10 . 1134 / S0021364018110024.
+  the field gradient at the SF1 position.                                             url: http : / / link . springer . com / 10 . 1134 /
+                                                                                      S0021364018110024.
+                                                                               [10]   A P Serebrov et al. In: KEn 3.1 (Apr. 9, 2018),
+                                                                                      p. 121. doi: 10.18502/ken.v3i1.1733. url: https:
+                                                                                      / / knepublishing . com / index . php / KnE - Energy /
+                                                                                      article/view/1733.
+                                                                               [11]   L.J. Broussard et al. In: EPJ Web Conf. 219 (2019).
+                                                                                      Ed. by T. Jenke et al., p. 07002. doi: 10 . 1051 /
+                                                                                      epjconf / 201921907002. url: https : / / www .
+                                                                                      epj - conferences . org / 10 . 1051 / epjconf /
+                                                                                      201921907002.
+                                                                               [12]   Zurab Berezhiani. In: Eur. Phys. J. C 79.6 (June
+                                                                                      2019), p. 484. doi: 10 . 1140 / epjc / s10052 - 019 -
+                                                                                      6995 - x. url: http : / / link . springer . com / 10 .
+                                                                                      1140/epjc/s10052-019-6995-x.
+
+
+                                                                          12
+[13] K Hirota et al. In: Progress of Theoretical and Exper- [26] G. Zsigmond. In: Nuclear Instruments and Methods
+     imental Physics 2020.12 (Dec. 15, 2020), p. 123C02.         in Physics Research Section A: Accelerators, Spec-
+     doi: 10 . 1093 / ptep / ptaa169. url: https : / /           trometers, Detectors and Associated Equipment 881
+     academic.oup.com/ptep/article/doi/10.1093/                  (Feb. 2018), pp. 16–26. doi: 10.1016/j.nima.2017.
+     ptep/ptaa169/6020274.                                       10.065. url: https://linkinghub.elsevier.com/
+[14] A. P. Serebrov, M. E. Chaikovskii, G. N. Klyushnikov,       retrieve/pii/S0168900217311476.
+     O. M. Zherebtsov, and A. V. Chechkin. In: Phys. Rev. [27] Joachim Grillenberger, Christian Baumgarten, and
+     D 103.7 (Apr. 16, 2021), p. 074010. doi: 10.1103/           Mike Seidel. In: SciPost Physics Proceedings 5
+     PhysRevD.103.074010. url: https://link.aps.                 (Sept. 6, 2021), p. 002. doi: 10 . 21468 /
+     org/doi/10.1103/PhysRevD.103.074010.                        SciPostPhysProc.5.002. url: https://scipost.
+[15] F. E. Wietfeldt et al. Sept. 29, 2022. arXiv: 2209 .        org/10.21468/SciPostPhysProc.5.002.
+       15049 [nucl-ex, physics:physics]. url: http:// [28] F. Atchison et al. In: Nuclear Instruments and Meth-
+       arxiv.org/abs/2209.15049. Pre-published.                      ods in Physics Research Section A: Accelerators,
+[16]   Fred E. Wietfeldt. In: Symmetry 16.8 (July 26, 2024),         Spectrometers, Detectors and Associated Equipment
+       p. 956. doi: 10 . 3390 / sym16080956. url: https :            608.1 (Sept. 2009), pp. 144–151. doi: 10 . 1016 / j .
+       //www.mdpi.com/2073-8994/16/8/956.                            nima  . 2009 . 06 . 047. url: https : / / linkinghub .
+                                                                     elsevier.com/retrieve/pii/S0168900209013047.
+[17]   Benjamin Koch and Felix Hummel. Sept. 20, 2024.
+       arXiv: 2403.00914 [hep-ph]. url: http://arxiv. [29] G. Bison et al. In: Phys. Rev. C 107.3 (Mar. 7, 2023),
+       org/abs/2403.00914. Pre-published.                            p. 035501. doi: 10 . 1103 / PhysRevC . 107 . 035501.
+                                                                     url: https : / / link . aps . org / doi / 10 . 1103 /
+[18]   R. W. Pattie et al. In: Science 360.6389 (May 11,             PhysRevC.107.035501.
+       2018), pp. 627–632. doi: 10.1126/science.aan8895.
+       url: https : / / www . science . org / doi / 10 . 1126 / [30] I. Altarev et al. In: Phys. Rev. Lett. 100.1 (Jan. 10,
+       science.aan8895.                                              2008), p. 014801. doi: 10.1103/PhysRevLett.100.
+                                                                     014801. url: https : / / link . aps . org / doi / 10 .
+[19]   F. M. Gonzalez et al. In: Phys. Rev. Lett. 127.16
+                                                                     1103/PhysRevLett.100.014801.
+       (Oct. 13, 2021), p. 162501. doi: 10 . 1103 /
+       PhysRevLett . 127 . 162501. url: https : / / link . [31] F. Lekien and J. Marsden. In: Int. J. Numer. Meth.
+       aps.org/doi/10.1103/PhysRevLett.127.162501.                   Engng 63.3 (May 21, 2005), pp. 455–471. doi: 10 .
+                                                                     1002 / nme . 1296. url: https : / / onlinelibrary .
+[20]   R. Musedinovic et al. Sept. 9, 2024. doi: 10.48550/
+                                                                     wiley.com/doi/10.1002/nme.1296.
+       arXiv.2409.05560. arXiv: 2409.05560 [nucl-ex].
+       url: http : / / arxiv . org / abs / 2409 . 05560. Pre- [32] Gertrud Konrad et al. In: Nuclear Instruments and
+       published.                                                    Methods in Physics Research Section A: Accelerators,
+                                                                     Spectrometers, Detectors and Associated Equipment
+[21]   Julian Auler et al. In: J. Phys. G: Nucl. Part. Phys.
+                                                                     767 (Dec. 2014), pp. 475–486. doi: 10.1016/j.nima.
+       (Aug. 22, 2024). doi: 10.1088/1361- 6471/ad727b.
+                                                                     2014 . 09 . 014. arXiv: 1405 . 0957 [physics]. url:
+       url: https://iopscience.iop.org/article/10.
+                                                                     http://arxiv.org/abs/1405.0957.
+       1088/1361-6471/ad727b.
+                                                                [33] Jan Haack. Masterarbeit in Physik. Mainz: Johannes
+[22]   W. Schreyer, T. Kikawa, M.J. Losekamm, S. Paul, and
+                                                                     Gutenberg-Universität Mainz, Nov. 23, 2016.
+       R. Picker. In: Nuclear Instruments and Methods in
+       Physics Research Section A: Accelerators, Spectrom- [34] A. Abragam and L. C. Hebel. In: American Journal
+       eters, Detectors and Associated Equipment 858 (June           of Physics 29.12 (Dec. 1, 1961), pp. 860–861. doi:
+       2017), pp. 123–129. doi: 10.1016/j.nima.2017.03.              10 . 1119 / 1 . 1937646. url: https : / / pubs . aip .
+       036. url: https : / / linkinghub . elsevier . com /           org / ajp / article / 29 / 12 / 860 / 1037384 / The -
+       retrieve/pii/S0168900217303765.                               Principles-of-Nuclear-Magnetism.
+[23] Michael Ortner and Lucas Gabriel Coliado Ban- [35] V.I. Luschikov and Yu.V. Taran. In: Nuclear Instru-
+     deira. In: SoftwareX 11 (Jan. 2020), p. 100466. doi:  ments and Methods in Physics Research Section A:
+     10 . 1016 / j . softx . 2020 . 100466. url: https :   Accelerators, Spectrometers, Detectors and Associ-
+     / / linkinghub . elsevier . com / retrieve / pii /    ated Equipment 228.1 (Dec. 1984), pp. 159–160. doi:
+     S2352711020300170.                                    10 . 1016 / 0168 - 9002(84 ) 90025 - 1. url: https :
+                                                           / / linkinghub . elsevier . com / retrieve / pii /
+[24] G. Bison et al. In: Eur. Phys. J. A 56.2 (Feb. 2020),
+                                                           0168900284900251.
+     p. 33. doi: 10.1140/epja/s10050- 020- 00027- w.
+     url: http://link.springer.com/10.1140/epja/
+     s10050-020-00027-w.
+[25]   G. Bison et al. In: Eur. Phys. J. A 58.6 (June 2022),
+       p. 103. doi: 10.1140/epja/s10050- 022- 00747- 1.
+       url: https://link.springer.com/10.1140/epja/
+       s10050-022-00747-1.
+
+
+                                                            13
+

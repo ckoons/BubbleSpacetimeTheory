@@ -1,0 +1,277 @@
+                                                                      Improved Determination of the Neutron Lifetime
+
+                                                                       A.T. Yue,1, 2, 3, ∗ M.S. Dewey,2 D.M. Gilliam,2 G.L. Greene,3, 4
+                                                                       A.B. Laptev,5, 6 J.S. Nico,2 W.M. Snow,7 and F.E. Wietfeldt5
+                                                                            1
+                                                                               Institute for Research in Electronics and Applied Physics,
+                                                                                University of Maryland, College Park, Maryland 20742
+                                                                  2
+                                                                    National Institute of Standards and Technology, Gaithersburg, Maryland 20899
+                                                                                 3
+                                                                                   University of Tennessee, Knoxville, Tennessee 37996
+                                                                            4
+                                                                              Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831
+                                                                                   5
+                                                                                     Tulane University, New Orleans, Louisiana 70118
+                                                                         6
+                                                                           Los Alamos National Laboratory, Los Alamos, New Mexico 87545
+                                                                                    7
+                                                                                      Indiana University, Bloomington, Indiana 47408
+
+
+
+
+arXiv:1309.2623v2 [nucl-ex] 27 Nov 2013
+                                                          The most precise determination of the neutron lifetime using the beam method was completed
+                                                       in 2005 and reported a result of τn = (886.3 ± 1.2 [stat] ± 3.2 [syst]) s. The dominant uncertainties
+                                                       were attributed to the absolute determination of the fluence of the neutron beam (2.7 s). The
+                                                       fluence was measured with a neutron monitor that counted the neutron-induced charged particles
+                                                       from absorption in a thin, well-characterized 6 Li deposit. The detection efficiency of the monitor was
+                                                       calculated from the areal density of the deposit, the detector solid angle, and the evaluated nuclear
+                                                       data file, ENDF/B-VI 6 Li(n,t)4 He thermal neutron cross section. In the current work, we have
+                                                       measured the detection efficiency of the same monitor used in the neutron lifetime measurement with
+                                                       a second, totally-absorbing neutron detector. This direct approach does not rely on the 6 Li(n,t)4 He
+                                                       cross section or any other nuclear data. The detection efficiency is consistent with the value used
+                                                       in 2005 but was measured with a precision of 0.057 %, which represents a fivefold improvement in
+                                                       the uncertainty. We have verified the temporal stability of the neutron monitor through ancillary
+                                                       measurements, allowing us to apply the measured neutron monitor efficiency to the lifetime result
+                                                       from the 2005 experiment. The updated lifetime is τn = (887.7 ± 1.2 [stat] ± 1.9 [syst]) s.
+
+                                                       PACS numbers: 21.10.Tg,14.20.Dh,23.40.-s,26.35.+c
+
+
+                                             The accurate determination of the mean lifetime of the         to not only improve the experimental limits on τn but
+                                          free neutron addresses fundamentally important ques-              to also carefully study systematic effects in all methods.
+                                          tions in particle physics, astrophysics, and cosmology            We have completed an investigation into the dominant
+                                          [1, 2]. To date, two distinct experimental strategies have        systematic uncertainty in the most precise beam neu-
+                                          been used to accurately measure the neutron lifetime.             tron lifetime measurement, resulting in confirmation of
+                                          In the first, or beam method, the rate of neutron decay           the accuracy of the fluence measurement technique and
+                                          dN/dt and the number of neutrons N in a well-defined              a reduction in the total uncertainty in the lifetime result.
+                                          volume of a neutron beam are determined. The neutron
+                                          lifetime is determined from the differential form of the ex-                              896
+                                          ponential decay function dN/dt = −N/τn . In the second,                                                                                Bottle
+                                          or bottle method, neutrons of sufficiently low energy are                                 892                                          Beam
+
+
+
+
+                                                                                                             Neutron lifetime (s)
+                                          confined in a trap or bottle established by some combi-
+                                          nation of material walls, magnetic fields, and/or gravity.                                888
+                                                                                                                                          Ref. [3]
+                                          The number of neutrons in the bottle at various times                                                                                  [8] [9]
+                                          t is measured and fit to the exponential decay function                                   884              [4]                        [7]
+                                                                                                                                                                        [6]
+                                          N (t) = N (0)e−t/τn in order to extract τn .
+                                                                                                                                    880
+                                             Measurements used to form the 2013 Particle Data
+                                          Group (PDG) world average value for τn include the five                                                                      [5]
+                                                                                                                                    876
+                                          bottle and two beam measurements shown in Fig. 1 [10].                                                 1995      2000       2005    2010
+                                          While there is currently reasonable internal consistency                                                          Date published
+                                          among the bottle and among the beam determinations,
+                                          the two sets differ from each other by 2.6 σ (where σ is          FIG. 1. (Color online) The neutron lifetime measurements
+                                          one standard deviation). Historical discrepancies among           used in the 2013 PDG world average. The pweighted mean and
+                                          independent bottle experiments and between bottle and             1 σ uncertainty (inflated by scale factor χ2 /d.o.f. = 1.53,
+                                          beam measurements suggest that it is highly desirable             following PDG procedures) of the data set is represented by
+                                                                                                            the dashed line and shaded band.
+
+                                                                                                              The beam neutron lifetime measurement with the low-
+                                          ∗ andrew.yue@nist.gov
+                                                                                                            est quoted uncertainty was performed at the National In-
+                                                                                                                           2
+
+stitute of Standards and Technology (NIST) Center for           time result be adjusted each time a new evaluation of
+Neutron Research (NCNR) in Gaithersburg, MD [6, 11].            the 6 Li(n,t)4 He cross section is adopted. In order to avoid
+The experiment used an electromagnetic proton trap to           this, and eliminate all systematic effects associated with
+determine the absolute rate of neutron decay with known         the evaluated cross section, we have performed a direct,
+absolute efficiency in a well-defined volume of the beam        first-principles measurement of the neutron monitor effi-
+and a neutron fluence monitor to measure the absolute           ciency. This measurement serves several purposes:
+density of neutrons in the proton trap. A detailed de-
+scription of the decay detection method is given in refer-         • It can be used to improve the neutron fluence de-
+ence [6].                                                            termination in the 2005 lifetime result;
+   The neutron density in the proton trap was deter-
+                                                                   • It reduces the overall uncertainty on the 2005 life-
+mined by measuring the rate of charged particle prod-
+                                                                     time result;
+ucts from the 6 Li(n,t)4 He reaction. The neutron beam
+passed through a thin deposit of 6 LiF and the rate of re-         • It removes the necessity to alter the 2005 lifetime
+action products was measured by surface barrier detec-               result each time there is a change in the accepted
+tors masked by precision apertures. Ignoring backscat-               value of the 6 Li(n,t)4 He cross section;
+tering and below-energy threshold events (< 10−4 of all
+incident charged particles), incident alphas and tritons           • When combined with proton detection improve-
+are detected with unit efficiency, and thus the detection            ments learned in a similar experiment [18], it im-
+efficiency for charged particles is given by the solid angle         proves the achievable uncertainty in a future run of
+subtended by the apertures. The solid angle was mea-                 the neutron lifetime experiment to approximately
+sured to a precision of 0.1 % by both contacting metrol-             1 s [19].
+ogy and, independently, using a calibrated α-source. The
+geometry of the detector array is such that the solid an-          Direct measurement of the neutron monitor efficiency
+gle is first-order insensitive to shifts in source position.    is accomplished by operating the neutron monitor on a
+The amount of 6 Li evaporated on the target deposit was         monochromatic beam with total neutron rate Rn and
+determined by comparison of thermal neutron-induced             wavelength λmono . The observed rate of alphas and tri-
+charged particle reaction rates to two deposits of the          tons (rα,t ) in the monitor is
+same nominal mass [12]. These two comparison deposits
+were later destructively analyzed by isotope dilution mass                                      λmono
+                                                                                    rα,t = ǫ0         Rn ,               (1)
+spectrometry [13], establishing the neutron-induced ac-                                          λ0
+tivity per 6 Li atom in the deposit. The distribution           where ǫ0 is the detection efficiency of the neutron monitor
+of 6 Li on the deposit was calculated from the geome-           for a thermal neutron (wavelength λ0 = 0.1798 nm). By
+try of the evaporator and verified through a combination        running the neutron monitor with a device that directly
+of mechanical and optical techniques. The sharpness of          measures Rn and a device that measures λmono , one can
+the deposit edge was measured by Talystep profilome-            determine ǫ0 without reference to the 6 Li thermal neu-
+ter and the deposit diameter was measured by traveling          tron cross section or the amount of 6 Li present in the
+microscope and Abbe comparator [14]. These measure-             target. The total neutron rate is measured in the Alpha-
+ments were used to determine an average areal density           Gamma device, which is an absolute counter for cold
+ρ̄ = (39.30 ± 0.10) µg/cm2 , where the symbol ± here and        and thermal neutrons based on the counting of prompt
+throughout the text corresponds to the standard (1 σ)           gamma rays from a totally absorbing, thick 10 B4 C tar-
+uncertainty. The 6 Li thermal neutron cross section used        get. As shown in Fig. 2, the 10 B4 C target is positioned to
+in the 2005 measurement is (941.0 ± 1.3) b and comes            face a passivated implanted planar silicon (PIPS) detec-
+from the evaluated nuclear data file ENDF/B-VI [15].            tor, and is viewed from above and below by high-purity
+The total uncertainty in the determination of the average       germanium (HPGe) detectors. The gamma detection ef-
+neutron density was approximately 0.3 %. This uncer-            ficiency is determined in a calibration procedure in which
+tainty dominates the reported uncertainty on τn [6, 11].        the well known activity of a 239 Pu α-source is successively
+We note the other beam lifetime measurement quoted in           transferred through a series of intermediate steps [20].
+the PDG performed the neutron density determination
+                                                                   The neutron monitor efficiency measurement was com-
+in similar fashion [4, 16].
+                                                                pleted in 2011 on beam line NG-6m at the NCNR [21, 22].
+   The quoted 6 Li(n,t)4 He cross section represents a best     The measurement was performed at a beam wavelength
+fit to a very large set of nuclear data parameters. A new       of λmono = (0.49605 ± 0.00012) nm with a measured de-
+evaluation (ENDF/B-VII.0) was released shortly after            tection efficiency of ǫmeas = (8.5797±0.0048)×10−5 . The
+publication of the 2005 lifetime result [17]. The updated       thermal neutron detection efficiency is
+6
+  Li(n,t)4 He cross section is σ0 = (938.5 ± 1.3) b, which is
+in slight disagreement with the ENDF/B-VI value. This                             λmono
+unsatisfactory situation requires that the neutron life-          ǫmeas
+                                                                   0    = ǫmeas         = (3.1098 ± 0.0017) × 10−5 .     (2)
+                                                                                   λ0
+                                                                                                                          3
+
+                                                                ball resting within the apertures. The recent dimensional
+                                                                metrology results found that the aperture diameters were
+                                                                0.06 % larger than the diameters used in the 2005 life-
+                                                                time experiment, which accounts for essentially all of the
+                                                                discrepancy between the two solid angle determinations.
+                                                                A plausible explanation for the underasseessment of the
+                                                                aperture diameters in the previous campaign is that small
+                                                                (≈ 10−6 m) mechanical imperfections on the upper edge
+                                                                of the apertures kept the tooling ball from making con-
+                                                                tact with the apertures. In addition to determining the
+                                                                aperture diameters to an order of magnitude higher preci-
+FIG. 2. (Color online) Neutron monitor efficiency measure-      sion, the new metrology result is not affected by the pres-
+ment setup and Alpha-Gamma detection geometry.                  ence of small mechanical imperfections. The discrepancy
+                                                                in Ω is attributed to measurement error in the previous,
+                                                                less precise dimensional metrology and α-counting. We
+This is in agreement with the calculated value of ǫ0 used
+                                                                conclude that ∆Ω = 0 and assign no additional system-
+in the 2005 lifetime result
+                                                                atic uncertainty to the lifetime.
+                    NA                                             A direct measurement of ∆ρ for the deposit used in the
+            ǫcalc
+             0    =2    Ω (0, 0) ρ (0, 0) σ0                    lifetime experiment requires destructive analysis. This
+                     A                                   (3)
+                 = (3.1148 ± 0.0094) × 10−5 ,                   was not an acceptable option, so a non-destructive com-
+                                                                parison technique was used to set bounds on ∆ρ. Four-
+where NA is the Avogadro constant, A is the atomic              teen 6 Li deposits of three areal densities of approximately
+weight of 6 Li, Ω (0, 0) is the detector solid angle to the     20, 30, and 40 µg/cm2 were produced for the lifetime ex-
+center of the target, and ρ (0, 0) is the areal density at      periment. The neutron induced activity for each deposit
+the center of the target.                                       was measured on the same test beam with the same ge-
+   The fivefold improvement in the determination of the         ometry [12]. Three deposits (one of each density) were
+neutron monitor efficiency significantly reduces the to-        measured with the Alpha-Gamma device. The measured
+tal uncertainty in the updated lifetime. As noted pre-          detection efficiencies and the 1995 measurements of neu-
+viously, the neutron monitor that was measured in the           tron induced activity (recorded in Table I) are propor-
+process described above was the same one used to as-            tional to the areal density of the deposits. The two mea-
+sess the neutron fluence in the 2005 lifetime experiment.       surement sets can be related by a conversion constant
+Nonetheless, it cannot be excluded that the efficiency of       K and a density change ∆ρ in one of three models: 1)
+the neutron monitor has changed since the lifetime exper-       a surface loss model in which each deposit has lost an
+iment was carried out. The change would be attributable         equivalent density ∆ρ that is proportional to the surface
+to a change in the solid angle subtended by the apertures       area of the deposit; 2) a handling loss model in which
+(∆Ω) and/or the areal density of the 6 Li target deposit        only the 39.30 µg/cm2 deposit used in the lifetime exper-
+(∆ρ). While we expect no change in these parameters,            iment has lost density; 3) a no-loss model. A Bayesian
+our ability to retroactively correct the 2005 lifetime result   analysis [23] was performed in which the observed data
+depends on the ability to verify that they have remained        were simultaneously fit to the three models in order to
+unchanged.                                                      determine the relative likelihood of each model. The ob-
+   The solid angle subtended by the neutron monitor             servables were assumed to be normally distributed and
+apertures was measured by an α-source prior to the              the prior distribution of ∆ρ was restricted to negative
+monitor efficiency measurement and was measured by α-           values (deposit density gain is unphysical). At the 90 %
+source and dimensional metrology after the completion of        confidence level, the data favor the no loss model (3). For
+the monitor efficiency measurement. The α-source mea-           the less likely models (1 & 2) that assumed some loss, the
+sured solid angle was Ωα = (4.2021 ± 0.0014) × 10−3 .           analysis found, on average, ∆ρ = 0.1 % of the lifetime
+The solid angle as measured by dimensional metrol-              foil density. We conclude that ∆ρ = 0 but include, in
+ogy was ΩDM = (4.2024 ± 0.0010) × 10−3 . These re-              our overall uncertainty budget, an uncertainty of 0.1 %
+sults are in slight disagreement with the value of Ω =          on ∆ρ.
+(4.196 ± 0.004) × 10−3 used in the 2005 lifetime exper-            The neutron lifetime is updated by applying the mea-
+iment. In the new metrology campaign, the aperture              sured monitor efficiency and the two corrections for tem-
+diameters were determined by direct probe contact with          poral drifts in the monitor components
+the aperture cylinders at several bore depths. In the pre-
+vious campaign, the aperture diameters were determined                                 ǫcalc
+                                                                                        0
+                                                                           τn = τn2005 meas  (1 + ∆Ω) (1 + ∆ρ)
+from the intersection of the best-fit functions to measure-                           ǫ0                                (4)
+ments of the aperture backplanes and a precision tooling                      = (887.7 ± 2.3) s.
+                                                                                                                             4
+
+                                                                   We thank W.F. Guthrie for developing and perform-
+        TABLE I. Data used to determine limits on ∆ρ.
+                                                                 ing the Bayesian analysis used to set limits on ∆ρ. We
+     Deposit areal                                               thank J.R. Stoup for performing the dimensional metrol-
+                         Measured ǫ0       rα,t from ref.
+       density                                                   ogy on the neutron monitor aperture rig. We gratefully
+                          ( × 10−5 )         [12] (s−1 )
+      (µg/cm2 )                                                  acknowledge the support of NIST (U.S. Department of
+     19.94 ± 0.05       1.5731 ± 0.0014   600.83 ± 0.33          Commerce), the U.S. Department of Energy Office of
+     28.58 ± 0.07       2.2689 ± 0.0025   862.23 ± 0.68          Nuclear Physics (Grants No. de-sc0005925 and No. DE-
+     39.30 ± 0.10       3.1098 ± 0.0017   1186.77 ± 0.44         FG02-03ER41258), and the National Science Foundation
+                                                                 (Grants No. PHY-0855310, No. PHY-1068712, and No.
+                                                                 PHY-1205266). W.M.S. acknowledges support from the
+TABLE II. The new uncertainty budget for the neutron life-       Indiana University Center for Spacetime Symmetries.
+time. Corrections shown are relative to the 2005 beam lifetime
+result.
+Source of uncertainty         Correction (s) Uncertainty (s)
+Improved neutron fluence                                          [1] D. Dubbers and M. Schmidt, Rev. Mod. Phys. 83, 1111
+                                   +1.4             0.5
+determination                                                         (2011).
+Change in 6 Li deposit mass        +0.0             0.9           [2] F. E. Wietfeldt and G. L. Greene, Rev. Mod. Phys. 83,
+                                                                      1173 (2011).
+Systematics unassociated                                          [3] W. Mampe, L. N. Bondarenko, V. I. Morozov, and Y. N.
+                                                    1.7
+with neutron fluence                                                  Panin, JETP Lett. 57, 77 (1993).
+Proton counting statistics                          1.2           [4] J. Byrne, P. G. Dawber, C. G. Habeck, S. J. Smidt,
+Neutron counting statistics                         0.1               J. A. Spain, and A. P. Williams, Europhys. Lett. 33,
+                                                                      187 (1996).
+Total                              +1.4             2.3           [5] A. P. Serebrov et al., Phys. Lett. B 605, 72 (2005).
+                                                                  [6] J. S. Nico et al., Phys. Rev. C 71, 055502 (2005).
+                                                                  [7] A. Pichlmaier, V. Varlamov, K. Schreckenbach, and
+                                                                      P. Geltenbort, Phys. Lett. B 693, 221 (2010).
+The updated uncertainty budget for the neutron lifetime           [8] S. S. Arzumanov, L. N. Bondarenko, V. I. Morozov, Y. N.
+is presented in Table II. The improved lifetime value is              Panin, and S. M. Chernyavsky, JETP Lett. 95, 224
+in agreement with the 2005 result. Because the neutron                (2012).
+fluence determination from the 2005 result and from this          [9] A. Steyerl, J. M. Pendlebury, C. Kaufman, S. S. Malik,
+work are independent, a weighted average of the two                   and A. M. Desai, Phys. Rev. C 85, 065503 (2012).
+could be performed to further reduce the uncertainty.            [10] J. Beringer et al., Phys. Rev. D 86, 010001 (2012), and
+However, this small reduction would come at the cost                  2013 partial update for the 2014 edition.
+                                                                 [11] M. S. Dewey et al., Phys. Rev. Lett. 91, 152302 (2003).
+of continued dependence on the ENDF-determined value             [12] R. D. Scott, P. D’hondt, R. Eykens, P. Robouch, D. F. G.
+for the 6 Li(n,t)4 He cross section. As such, we do not ad-           Reher, G. Sibbens, J. Pauwels, and D. M. Gilliam, Nucl.
+just our uncertainty in this fashion and simply make use              Instrum. Methods A 362, 151 (1995).
+of the new neutron fluence determination. Note that the          [13] A. Lamberty and P. D. Bièvre, Int. J. of Mass Spectrom.
+updated neutron lifetime from this work does not include              Ion Processes 108, 189 (1991).
+corrections for any proton counting systematic effects be-       [14] J. Pauwels, R. D. Scott, R. Eykens, P. Robouch,
+yond those already addressed in Ref. [6].                             J. Van Gestel, J. Verdonck, D. M. Gilliam, and G. L.
+                                                                      Greene, Nucl. Instrum. Methods A 362, 104 (1995).
+   After replacing the 2005 lifetime result with the im-         [15] A. D. Carlson, W. P. Poentiz, G. M. Hale, R. W. Peelle,
+proved result, weighted fits to the beam and bottle life-             D. C. Doddler, C. Y. Fu, and W. Mannhart, NIST In-
+time results included in the 2013 PDG world average find              teragency Report 5177 (1993).
+that ∆τn = τnbeam − τnbottle = (888.0 ± 2.1) s − (879.6 ±        [16] J. Byrne et al., Phys. Rev. Lett. 65, 289 (1990).
+0.8) s = (8.4 ± 2.2) s, a 3.8 σ discrepancy. It is important     [17] A. D. Carlson et al., Nucl. Data Sheets 110, 3215 (2009).
+that this discrepancy be resolved with additional neu-           [18] R. L. Cooper et al., Phys. Rev. C 81, 035503 (2010).
+tron lifetime measurements at increased precision using          [19] M. S. Dewey et al., Nucl. Instrum. Methods A 611, 189
+                                                                      (2009).
+multiple techniques. To that end, work has begun on              [20] D. M. Gilliam, G. L. Greene, and G. P. Lamaze, Nucl.
+improvements to the beam lifetime apparatus toward a                  Instrum. Methods A 284, 220 (1989).
+goal of 1 s uncertainty in a new measurement. While we           [21] A. T. Yue, Ph.D. thesis, University of Tennessee (2011).
+believe the proton counting systematics to be accurate to        [22] A. T. Yue, M. S. Dewey, G. L. Greene, D. M. Gilliam,
+the level of uncertainty quoted in Ref. [6], further inves-           J. S. Nico, and A. B. Laptev, (unpublished).
+tigation into these systematic effects will be conducted         [23] B. P. Carlin and S. Chib, J. R. Stat. Soc. B 57, 473
+as part of this new measurement [19].                                 (1995).
+

@@ -1,0 +1,1712 @@
+                                                                                                Preprint number:         KYUSHU-RCAPP-2020-01
+
+
+
+                                          Neutron lifetime measurement with pulsed cold
+                                          neutrons
+                                          K. Hirota1 , G. Ichikawa2,3 , S. Ieki4† , T. Ino2,3 , Y. Iwashita5 ,M. Kitaguchi1,6 ,
+                                          R. Kitahara7‡ , J. Koga8 , K. Mishima§2,3∗ , T. Mogi4 , K. Morikawa1 , A. Morishita8 ,
+                                          N. Nagakura4 , H. Oide4¶ , H. Okabe1 , H. Otono9 , Y. Seki10 , D. Sekiba11 , T. Shima12 ,
+
+
+
+
+arXiv:2007.11293v2 [hep-ex] 25 Nov 2020
+                                          H. M. Shimizu1 , N. Sumi2,3,8 , H. Sumino13 , T. Tomita8k , H. Uehara8 , T. Yamada4 ,
+                                          S. Yamashita14 , K. Yano8 , M. Yokohashi1 , and T. Yoshioka9
+                                          1
+                                            Department of Physics, Nagoya University, Nagoya, 464-8602, Japan
+                                          2
+                                            High Energy Accelerator Research Organization (KEK), Tsukuba, 305-0802, Japan
+                                          3
+                                            J-PARC Center, Tokai, 319-1195, Japan
+                                          4
+                                            Department of Physics, The University of Tokyo, Tokyo 113-0033, Japan
+                                          5
+                                            Institute of Chemical Research, Kyoto University, Uji, 611-0011, Japan
+                                          6
+                                            Kobayashi-Maskawa Institute for the Origin of Particles and the Universe (KMI), Nagoya
+                                          University, Nagoya, 464-8602, Japan
+                                          7
+                                            Department of Physics, Kyoto University, Kyoto, 606-8502, Japan
+                                          8
+                                            Department of Physics, Graduate School of Science, Kyushu University, Fukuoka, 819-0395, Japan
+                                          9
+                                            Research Center for Advanced Particle Physics (RCAPP), Kyushu University, Fukuoka, 819-0395,
+                                          Japan
+                                          10
+                                             Center for Physics and Mathematics, Osaka Electro-Communication University, Neyagawa,
+                                          572-8530, Japan
+                                          11
+                                             Institute of Applied Physics, University of Tsukuba, Tsukuba, 305-8573, Japan
+                                          12
+                                             Research Center for Nuclear Physics (RCNP), Osaka University, Ibaraki, 567-0047, Japan
+                                          13
+                                             Department of General Systems Studies, Graduate School of Arts and Sciences, The University of
+                                          Tokyo, Tokyo, 153-8902, Japan
+                                          14
+                                             International Center for the Elementary Particle Physics (ICEPP), The University of Tokyo,
+                                          Tokyo, 113-0033, Japan
+                                          ∗
+                                            E-mail: kenji.mishima@kek.jp
+                                          26/11/2020
+
+                                                        ...............................................................................
+                                                         The neutron lifetime has been measured by comparing the decay rate with the reaction
+                                                        rate of 3 He nuclei of a pulsed neutron beam from the spallation neutron source at
+                                                        the Japan Proton Accelerator Research Complex (J-PARC). The decay rate and the
+                                                        reaction rate were determined by simultaneously detecting electrons from the neutron
+                                                        decay and protons from the 3 He(n,p)3 H reaction using a gas chamber of which working
+                                                        gas contains diluted 3 He. The measured neutron lifetime was 898 ± 10 stat +15
+                                                                                                                                   −18 sys s.
+                                                        ..............................................................................................
+                                                        Subject Index     C02, C30, D02, D40
+
+
+
+
+                                              †
+                                                Present address : Research Center for Neutrino Science, Tohoku University
+                                              ‡
+                                                Present address : Sumitomo Heavy Industries, Ltd.
+                                              §
+                                                Corresponding author                         1                     typeset using P T P TEX.cls
+                                              ¶
+                                                Present address : Department of Physics, Tokyo Institute of Technology
+                                              k
+                                                Present address : Tokyo Tatemono Co.,Ltd.
+1. Introduction
+A neutron decays into a proton, an electron, and an antineutrino through the weak inter-
+action. The decay lifetime is an important parameter for both cosmology and elementary
+particle physics. The Big Bang Nucleosynthesis (BBN) is considered to create light elements,
+and the comparison of the observational data and the theoretical prediction for light element
+abundances provides a good opportunity to test cosmological models [1, 2, 3, 4]. The neutron
+lifetime determines the number ratio of protons to neutrons at the beginning of the BBN,
+which affects the BBN yields of light elements, especially 4 He [5].
+   In the Standard Model of particle physics, the neutron lifetime is described with a matrix
+element of Vud in the Cabibbo-Kobayashi-Maskawa matrix. The neutron lifetime and the
+ratio of the weak axial-vector to vector coupling constants make it possible to determine
+the Vud [1, 6, 7, 8, 9]. The neutron lifetime is also demanded in the calculation of the cross
+section of the antineutrino capture reaction by a proton, which is the inverse reaction of the
+neutron beta decay [10].
+   The neutron lifetime has been measured by many groups over the past fifty years [11]. The
+recent measurements were performed by two different experimental methods. One is a so-
+called bottle method; the number of the surviving ultra-cold neutrons (UCNs) contained in
+a storage bottle is measured as a function of the elapsed time, and the lifetime is determined
+by fitting the data with an exponential decay curve [12, 13, 14, 15, 16, 17, 18]. On the
+other hand, the beam method determines the neutron lifetime from the decay probability
+of the neutron obtained from the measured ratio of the decay rate to the incident neutron
+flux [19, 20]. The averaged neutron lifetimes are 879.4 ± 0.4 s and 888.0 ± 2.0 s for the bottle
+method and the beam method, respectively. The central values differ by 8.5 s, corresponding
+to the deviation of 4.0 σ using quoted uncertainties.
+   The discrepancy is called the “neutron lifetime puzzle”, and it is still unsettled whether
+it is due to any unconsidered systematic effect or any new physics. As a solution for the
+neutron lifetime puzzle, several scenarios of exotic decay modes of neutron have recently
+been discussed. If a neutron decays into some undetectable particles with a branching ratio
+of about 1%, for example, a mirror neutron [21] or dark particles [22], the puzzle can be
+solved. Note that some models with dark particles were already excluded [23, 24, 25] and
+the characteristics of the dark particles are restricted by the astronomical data on massive
+neutron stars [26, 27, 28, 29].
+   In the current situation, it is important to verify the puzzle by experiments in which dif-
+ferent systematic errors dominate. We performed a new experiment with the beam method;
+the neutron lifetime was measured by the counting rate of the decay electrons relative to the
+3 He(n,p)3 H reaction rate in a 3 He-diluted gas detector. A great benefit is that this method
+
+is free from some systematic uncertainties thanks to the simultaneous measurement of the
+neutron flux and the neutron decay in the same detector volume, in contrast to the con-
+ventional beam methods which counted the decay protons [20, 30]. It should be mentioned
+that our experiment measures the decay electrons but not decay protons, therefore, it has a
+sensitivity to the decay mode with no proton emission which is discussed in Ref. [22].
+   This method was originally developed by Kossakowski et al. [31]. In their experiment, the
+diffracted neutron beam from a nuclear reactor was chopped into monochromatized bunches
+
+
+
+                                               2
+in order to separate the γ-ray background induced by neutron capture reactions on transmis-
+sion through detector windows and the beam catcher. Our experiment was performed with
+the high-intensity pulsed neutron beam provided at the Japan Proton Accelerator Research
+Complex (J-PARC), which enables one to deliver such neutron bunches without loss due to
+monochromatization.
+
+2. Experiment
+2.1. Principle
+In this experiment, electrons from the neutron decays are counted by observing the ionization
+tracks induced in the gas of a time projection chamber (TPC), because it is sensitive to
+electrons but not to γ-rays. A thin 3 He gas (50–200 mPa) was admixed in the working gas
+in order to simultaneously measure the neutron flux by counting protons of 572 keV and
+tritons of 191 keV from the 3 He(n,p)3 H reactions. The neutron lifetime, τn , can be expressed
+as follows [31],
+                                                         
+                                           1     SHe /εHe
+                                  τn =                      ,                               (1)
+                                        ρσ0 v0    Sβ /εβ
+where SHe and Sβ are the numbers of observed events of the 3 He(n,p)3 H reactions and the
+decay electrons, respectively; εHe and εβ are the detection efficiency of each reaction; ρ is
+the number density of the 3 He nuclei in the TPC. Since the neutron absorption cross section
+is inversely proportional to the neutron velocity at low energies (known as the 1/v law), the
+product of the cross section and the velocity is constant. Therefore, we can represent the
+reaction rate as σ0 v0 , where σ0 is the cross section of the 3 He(n,p)3 H reaction, known as
+5333 ± 7 barn [32] at the thermal neutron velocity of v0 = 2200 m/s. The number density,
+ρ, is controlled by diluting the 3 He gas at the calibrated conditions of volume, pressure,
+and temperature. The efficiencies, εHe and εβ in Eq. (1), are evaluated by Monte Carlo
+simulations which reproduce the responses of the TPC with sufficient accuracy.
+  The numbers of events, SHe and Sβ , are obtained by analyzing detected events in the TPC.
+The signal and possible background events in this experiment are schematically shown in
+Fig. 1. Since events caused by neutrons occur when the neutrons are inside the TPC, they
+make a peak structure on the time-of-flight, t, and the number of events in the peak is
+denoted as Sn . The TPC detects background events by cosmic-rays or natural radiations.
+These t-independent backgrounds is denoted as Sconst . Events caused by neutrons, which
+is t-dependent, can be extracted by subtracting Sconst by using the neutron-free region on
+t. Neutron capture reactions at the neutron mirrors during the beam transport produce
+γ-rays. The number of backgrounds caused by the γ-rays is denoted as Sγmirror . Because
+this background is t-dependent, it is evaluated by switching the beam to the TPC on and
+off using a neutron shutter. The neutron captures also create radioactive isotopes, and we
+denote the number of backgrounds coming from them as Srad . It depends on the lifetimes of
+the radioactive isotopes. If their lifetimes are longer enough than the period of the shutter-
+switching, their events are subtracted as well as Sconst . Thus the radioactive isotopes with
+short lives only appear when the shutter is open. Subtraction with/without the beam on
+t-regions and with open/closed of the shutter is applied to derive Sn , which consists of SHe ,
+Sβ , and other background events caused by the TPC working gas. Finally, SHe and Sβ are
+derived by applying some cuts and corrections to Sn . Note that the S’s are defined as the
+                                              3
+                                  Background time region              Foreground time region
+                                                           Sγmirror                Sn
+
+
+
+
+                 TPC count rate
+
+
+                                                                                         Srad
+                                                                                         Sconst
+
+
+                                                     t (time-of-flight)
+
+
+
+Fig. 1     Schematic illustration of the distribution of charged particles reaching or produced
+in the sensitive region of the TPC as a function of time-of-flight, in case of a single bunch
+per pulse.
+
+
+
+
+number of events by each component in the foreground time region with the beam shutter
+open.
+  The experimental apparatus and procedure of the measurements are described in the rest
+of Sec. 2, and the analysis is described in Sec. 3.
+
+
+
+2.2. Neutron source and beamline
+A spallation neutron source at the Materials and Life Science Experimental Facility (MLF) in
+the J-PARC produces pulsed neutron beams by using 3 GeV protons with a repetition rate of
+25 Hz. The neutron source emits fast neutrons on the injection of the primary proton beam,
+and the timing is defined as zero on t. The neutrons are cooled down with liquid hydrogen
+moderators and transported to beamlines at the experimental halls of MLF. This experiment
+is conducted at “Polarized-beam branch” of the beamline BL05 (NOP) [33]. A schematic
+view of the beamline and experimental apparatus is illustrated in Fig. 2 [34]. Neutrons are
+transported from a moderator to the experimental area through a polarizing neutron bender
+of 3.5 m filled with He gas, and vacuum guides of 4 m. The time-averaged beam intensity
+at the exit of the vacuum guide (E in Fig. 2) corresponds to (4.0 ± 0.3) × 107 s−1 cm−2 at
+1 MW operation [35, 36] with the beam polarization of 97–94% in the wavelength of 0.2–
+0.9 nm [37]. The coordinate system used in this paper is depicted in the figure; the z-axis
+is in the beam direction at the TPC, y-axis is the vertical upward axis, and the x-axis is
+perpendicular to these so as to form a right-handed frame.
+                                                                4
+2.3. Devices for the beam transport
+The experimental apparatus consists of two sections: the beam shaping section (b)-(e) and
+the detector section (f)-(m). In this experiment, the neutron beam is shaped to the spin flip
+chopper (SFC). Because the SFC requires polarized neutrons, the apparatus was installed
+downstream of Polarized-beam branch. The SFC can create monochromatic bunches by
+combining the pulsed neutrons while avoiding γ-rays from upstream by shifting the beam
+axis. The SFC consists of magnetic super mirrors and neutron spin flippers [38], shown in
+(b)-(d) in Fig. 2.
+  The neutron spin is controlled by switching RF current of the flippers. The spin flipped
+neutrons are passing through the magnetic mirrors and dumped, while the non-flipped ones
+are reflected by the mirrors to be transported downstream. The neutron beam is formed
+into bunches whose lengths are about half (40 cm) of the TPC. Because the bunch intervals
+were set to 3.3 m to avoid overlapping of signal and background from the SFC or beam
+catcher, the number of bunches per pulse was adjusted to the allowable maximum of five.
+The contrast of the SFC ran into ∼ 400 [36].
+  Then neutron bunches are transported into the TPC (k) in Fig. 2, after passing through
+a beam monitor [39] (e), a 50-µm-thick Zr window (f), and the neutron switching shutter
+(g). The shutter is a 5-mm-thick tile which is made of polytetrafluoroethylene (PTFE)
+containing 95% isotopically enriched 6 LiF with 30 wt%. The neutron transmission of the
+switching shutter is calculated as 3 × 10−6 . The tiles are used to cover the inside of the
+beam duct (D) and the TPC, whose cross section is 40 × 40 mm2 for the inlet of the TPC,
+and 60 × 60 mm2 for the outlet. A very small part of the neutrons (10−5 –10−6 ) make the
+neutron decays or 3 He(n,p)3 H in the TPC, and the rest of the beam is dumped at a beam
+catcher (l), which is a box filled with 6 LiF powder with a 0.5 mm PTFE window.
+
+
+
+
+2.4. Detector
+The TPC with polyether ether ketone (PEEK) and 6 LiF tiles was developed to detect neutron
+decays with a low background environment in the long-term operation [34]. The schematic
+view of the TPC is shown in Fig. 3. Since the count rate for the neutron decay is 1 cps at
+200 kW in the beam bunches, that of the natural background (Sconst ) should be kept at the
+same level or smaller for statistics. The PEEK frame is a substance with small radioactive
+material contamination. Thanks to this property, the background rate from the TPC support
+structure is suppressed to 4 cps.
+   The inside of the TPC and the beam transport duct are covered with the 6 LiF tiles in order
+to avoid the background of γ-rays generated by neutrons hitting the wall. This 6 LiF tile can
+suppress the γ-ray generation against a neutron absorption to 2.3 × 10−4 [40]. The 6 LiF
+tiles are packed in 100-µm-thick PTFE sheets to prevent the ions emitted by the 6 Li(n,α)3 H
+reaction from entering the fiducial volume of the TPC. Almost all the scattered neutrons
+are absorbed by the 6 LiF tiles, therefore, possible β-nuclei produced in the TPC structure
+materials, which are the origins of Srad , are only 8 Li (half-life 839.9 ms, Q-value 16004 keV)
+and 20 F (half-life 11.07 s, Q-value 7025 keV) [41]. Because the neutron absorption by the 6 LiF
+tile creates 8 Li and 20 F with probabilities of 2.5 × 10−6 and 3.5 × 10−5 , respectively [34], the
+difference of Srad between t-foreground and background is estimated to be 2 × 10−3 . These
+                                                5
+Fig. 2 Schematic top view of experimental apparatus installed at Polarized neutron beam
+branch of NOP beamline: (A) concrete shield, (B) lead shields, (C) iron shield, (D) 6 LiF beam
+collimator, (E) Polarized-beam branch, (F) Unpolarized-beam branch, (G) Low-divergence
+branch, (a) short-wavelength pass filter, (b) guide coil, (c) resonance spin flipper coils, (d)
+magnetic super mirrors, (e) neutron beam monitor, (f) 50-µm-thick Zr window, (g) neutron
+switching shutter, (h) cosmic-ray veto counters, (i) lead shield, (j) vacuum chamber, (k)
+TPC, (l) 6 LiF beam catcher, and (m) turbo molecular pump.
+
+
+
+                                                   Cathode wires (top)           6
+                                                                                     LiF tiles
+                                                Anode/ﬁeld wires                                 Beam catcher
+                                   Cathode wires (bottom)
+
+
+                                                                e-
+
+                                                  Drift
+                                                  direction
+
+                     Drift wires
+
+
+
+
+                                                                      Neutron beam bunch
+               Beam axis
+                                                              Drift cathode
+
+
+
+                              Fig. 3 Schematic view of the TPC [34].
+
+
+
+advantages enable us to achieve better statistical uncertainties than that of the previous
+measurement performed by Kossakowski et al.
+  The TPC is installed in a vacuum chamber which is sealed with fluorocarbon O-rings. A
+mixture of He and CO2 of 85 and 15 kPa as the TPC working gas was chosen because both
+of them have relatively small capture and scattering cross sections of the neutron. A few
+                                                               6
+ppm of 3 He is accurately admixed for the simultaneous measurement of the neutron flux.
+The working gas is used in the sealed condition during a series of measurements.
+  The TPC has a drift volume and a multi-wire proportional chamber (MWPC) placed above
+the drift volume. An aluminized PET film is placed on the 6 LiF tile at the bottom surface of
+the TPC and the drift voltage of −9000 V is applied. On the surface of the 6 LiF tile at the
+top, additional aluminized PET films are placed and kept +150 and +100 V to prevent the
+back-drifting of electrons outside the drift volume. The MWPC consists of an anode plane
+sandwiched with cathode planes. The anode plane is made of anode and field wires which
+are stretched alternately in the z-direction with a spacing of 6 mm. Each cathode plane has
+162 wires stretched in the x-direction with a spacing of 6 mm. The gaps between the anode
+and cathode planes are 6 mm. The charge distribution of a particle track is projected onto
+the anode and cathode planes, and its two-dimensional image is obtained by measuring the
+signals from the anode/field wires and the cathode wires. Table 1 shows the specification
+of the TPC and each wire. The details of the TPC are described in Ref. [34]. A 55 Fe X-ray
+
+
+                Table 1 Specification of the TPC and operating condition
+                Sensitive region   290 mm (x) × 300 mm (y) × 960 mm (z)
+                Anode                 24 wires (z-direction), 20 µm AuW
+                Field                 24 wires (z-direction), 50 µm BeCu
+                Cathode             162 wires ×2 (x-direction), 50 µm BeCu
+                Gas mixture        4 He : CO : 3 He = 85% : 15% : 0.5–2 ppm
+                                            2
+                Pressure                             100 kPa
+                Anode voltage                       +1720 V
+                Drift voltage                       −9000 V
+
+
+source on a rotation stage is equipped at the side of the drift cage, and the 5.9 keV X-rays
+are injected from two slits on the 6 LiF tile at 75 and 225 mm from the MWPC for calibration
+of the TPC.
+  The vacuum chamber is surrounded by a lead shield (i in Fig. 2) to reduce the environ-
+mental background radiation emitted from radioisotopes such as 40 K, uranium-series, and
+thorium-series which are contained in the concrete of the building. The thickness of the
+lead is 5 cm, which shields 98% of environmental γ-rays. Because γ-rays caused by neutron
+capture at the mirrors of the SFC produce considerable backgrounds, the shield thickness
+on the upstream side is 10 cm. Besides, 20-cm-thick iron walls (C in Fig. 2) are placed at
+the front and sides to shield γ-rays from the neighboring beamlines.
+  A veto system using plastic scintillators (h in Fig. 2) is placed on the lead shield. It consists
+of 7 pairs of 12-mm-thick scintillator layers with wavelength-shifter fibers connected to 14
+photomultiplier tubes. The scintillators are arranged to surround all sides of the lead shields,
+except the bottom side. The coincidence of pairs of scintillators is used as a veto to cosmic-
+ray events. The veto efficiency is estimated to be 99%. Finally, the whole count rate of Sconst
+is suppressed to 8 cps without any cuts [34].
+  A diagram of the data acquisition system (DAQ) is given in Fig. 4. Signals of wires of
+the TPC are amplified and converted to voltages by preamplifiers. The preamplifiers with
+two different gains are used to obtain a wide dynamic range; the anode and the bottom
+                                                7
+layer of the cathode wires with high gain, and the field and the top layer of the cathode
+wires with low gain. The conversion factors of the high- and low-gain amplifiers are 1.3 and
+0.23 V/pC, respectively. While each anode or field wire is connected to a readout channel,
+the four adjacent cathode wires are bundled into one readout channel. A trigger for the
+DAQ is generated when at least one of the anode wire signals exceeds the threshold voltage
+of 20 mV. The waveforms are recorded using a flash analog-to-digital converter (FADC) as
+data of 100 µs length with 100 ns resolution. The waveforms of 70 µs after the trigger were
+treated as an event. Note that the number of triggers was recognized as the number of events.
+The measured time from the primary proton beam pulse (kicker pulse in Fig. 4), which is
+referred to as t, is recorded by a time-to-digital converter (TDC). The set of the FADC
+and TDC data is sent to a PC through the COPPER-Lite board, developed in KEK [42].
+The information of the beam monitor, hit-timings of anode wires, cosmic-veto counters, and
+proton beam pulses is recorded in parallel by an ADC/TDC system (Nikiglass A3100).
+
+
+
+
+                                                                                                            !"##$%&'()$
+                                                                 97:$;"%<
+
+
+
+                                                                                        !>",?
+        0N!
+                                                                                                   0%(==$%      ./*!
+         /8"C$&&&&&&12,3             *(+,%(-     12,3&45       67)$&6$8-   67)$&6$8-   67)$&6$8-
+         .($>C&&&&&&&&&12,3
+                                                                A$)"
+         !7)3"C$D&2I,3                                                                              KB+@
+         !7)3"C$'&&2I,3
+                              /<#-                                                                  67)$                  N!
+
+         !"+<(,&57@
+         A$)"&!"B8)$%+                          /8"C$&D()                                           O)"#
+
+                                                0%(==$%&A$)"
+
+                                                A$)"&,"B8)$%&D()                                    O)"#        0*!
+                                     P,3&45
+
+                                                                                                    O)7%)
+
+
+
+
+                                                Q7,3&A$)"&,"B8)$%&D()
+                                                                                                             /*!E0*!      N!
+          K$7<&L"8()"%
+                                                                                                             F/GHIIJ
+           M(,?$%&NB>+$
+
+
+
+
+                                               Fig. 4 Diagram of the DAQ.
+
+
+
+
+2.5. Detector simulation
+A Monte Carlo code GEANT4 release 4.9.6.04 [43] is used for this experiment. The physics lists
+of FTFP_BERT_PEN and QGSP_BIC_HP were employed to take into account the interaction of
+the low energy particles and the neutron capture reactions, respectively. The TPC, vacuum
+chamber, lead and iron shields, and cosmic-veto counters were included in the geometric
+                                                                       8
+                    Count [1/2keV]   104
+
+
+
+                                     103
+
+
+
+
+                                       0   10 20 30 40 50 60 70 80 90 100
+                                                         Energy deposit [keV]
+
+Fig. 5 Energy deposit distribution of the cosmic-ray data (black dots) and simulation
+which was normalized by the total number of the measured histogram (red hatch).
+
+
+
+condition of the simulation. The waveforms of the signals obtained from the anode, field,
+and cathode wires were simulated by calculating the drift motion of the ionized electrons
+which were liberated along the trajectories of the charged particles. Here, the number of
+ionized electrons was obtained from the local energy deposit and the W value (40.9 eV) for
+the gas mixture of 85% He and 15% CO2 . The non-linearity of the pulse heights due to
+the space charge effect in the electron avalanche process was taken into account using the
+saturation model [34, 44]. The calculated event data were recorded and analyzed with the
+same procedure as the real experimental data.
+  The conversion between the signal amplitude and the energy deposit was validated by
+comparing the measured and simulated spectra of cosmic muons. The cosmic-ray veto signal
+from the coincidence of a pair of scintillators was occasionally inverted so that clear cosmic-
+ray events were acquired for monitoring the operating condition of the TPC by comparing
+the observed and simulated energy spectra of cosmic-rays as shown in Fig. 5. The energy was
+calibrated by the 55 Fe X-ray source, described in Sec. 2.7. The discrepancy of the energy
+calibration in all of the measurement series was estimated to be 5–9%, which is used to
+evaluate systematic uncertainties in cut energies of the event selection.
+
+
+2.6. Gas handling and 3 He number density
+Commercially available high purity He of 99.99995% (G1He) and CO2 of 99.999% are used
+as the TPC working gas. The neutron flux is measured by counting the 3 He(n,p)3 H reactions
+with 3 He gas diluted in the working gas. As shown in Eq. (1), since the measured neutron
+lifetime is a function of the number density of 3 He, ρ, it should be determined with high
+accuracy. The partial pressure of 3 He was adjusted to 50–200 mPa in order to obtain sufficient
+statistical accuracy in the neutron flux measurement through the detection of the 3 He(n,p)3 H
+reaction events. The maximum pressure of 200 mPa was determined by the pileup of the
+3 He(n,p)3 H, which was estimated as ∼ 0.4% with 200 kW. Because it is not easy to directly
+
+measure such a small pressure accurately, isotopically pure 3 He gas (> 99.95%) was injected
+                                                        9
+into a smaller container with high pressure (∼ 3 kPa), and then released into the vacuum
+chamber of the TPC. The gas handling system for the procedure is shown in Fig. 6, where
+the details are described in Ref. [45, 46]1 . Here, the volume ratio of the vacuum chamber for
+the TPC to the small container was determined as (1.497 ± 0.028) × 104 by measuring the
+pressure change when G1He gas was released from the container to the vacuum chamber.
+Corrections to the ideal gas law using the second virial coefficient and thermal transpiration
+effect on the transducer were taken into account. The uncertainty of the ratio was evaluated
+based on the measurements of the pressure and the temperature, isotopic and chemical
+purity of 3 He.
+
+                                                              1L Buffer
+                                       Baratron
+                                                               Bottle
+                                            V2                      V3
+                                                                                G1He gas
+
+                                  V0                    V1
+                     Transducer                                                CO2 gas
+
+                                                                                3
+                                                                                    He gas
+                           Sampling
+                            Bottle                  V4
+
+                                                  TPC         TMP
+
+
+
+                  Fig. 6 Schematic view of the gas handling system [45, 46].
+
+
+  Since ρ in the working gas is a sum of the admixed 3 He, ρad , and 3 He in the G1He gas,
+ρG1 , we denote ρVE as
+                                            ρVE = ρad + ρG1 .                                (2)
+We determined ρG1 by the ratio of 3 He/4 He measured by a mass spectrometer [47] with
+accuracies of 1.5–3.0% for all bottles used in this work. The working gases after the operation
+were sampled and their 3 He/4 He ratios were measured by the mass spectrometer to confirm
+whether the ρ’s were properly controlled. Putting the number density of 3 He measured with
+the mass spectrometer as ρMS , the relation between ρVE and ρMS is shown in Fig. 7 for
+eight independent gas fillings. The values of ρVE and ρMS are consistent with the accuracy
+of 0.4%. Because ρVE has better accuracy than ρMS , we employ the ρVE as ρ.
+  The determined value of ρVE needs small corrections to be converted into ρ during the
+operation. The vessel deformation due to the pressure and the temperature change was
+evaluated from the mechanical strengths and thermal expansion coefficients of structure
+materials of the chamber: stainless steel and aluminum. We budgeted the correction as
+half of the maximum deformations with the symmetric uncertainty. Another correction is
+for temperature non-uniformity. A temperature gradient due to local heating around the
+preamplifiers at the top of the TPC was observed. It decreased the gas density of the high-
+temperature region and increased the others. The increased amount of the 3 He number
+density at the beam axis of the TPC was approximately 0.02% [48]. The number density
+ρ was evaluated for each gas filling and applied for the analysis, and that of a typical gas
+
+
+  1
+      These works have been done as an application of this experimental apparatus.
+                                                         10
+filling is shown in Table 2. As a result, the uncertainty of ρ in the table was derived to be
+0.42%.
+
+
+
+          Table 2                      Value, correction, and uncertainty budgets of ρ (Series 6)
+
+                   Term                                 3 He number density         Correction (%)   Uncertainty (%)
+                                                            (1016 m−3 )
+                ρad                                            2089 ± 7                                    0.3
+                ρG1                                             202 ± 6                                    3.0
+                ρVE                                            2291 ± 9                                    0.4
+   Vessel Deformation (Pressure)                                                          −0.15           0.15
+ Vessel Deformation (Temperature)                                                         −0.02           0.02
+      Temperature uniformity                                                                              0.02
+                               ρ                            2287 ± 10                                     0.42
+
+
+
+
+                                   7
+
+
+
+               [10 atoms/m ]
+               3
+
+                                   6
+                                   5
+               19                  4
+                                   3
+                         MS
+              ρ                    2
+                                   1
+                                   0
+                                    0        1      2      3        4         5          6      7
+                                                                          ρ       [1019 atoms/m3]
+                                                                          VE
+
+
+
+                        VE
+              /ρ               1.04
+                        MS
+              ρ                1.02
+                                   1
+                               0.98
+                               0.96
+                               0.94
+                                   0         1      2      3        4         5          6      7
+                                                                          ρ       [1019 atoms/m3]
+                                                                          VE
+
+
+
+
+Fig. 7    The 3 He number densities of ρVE on x-axis and ρMS on y-axis (top), and the ratio
+of the two methods (bottom).
+
+
+
+                                                               11
+                     Pulse height [mV]
+                                         540
+
+
+                                         530
+
+
+                                         520
+
+
+                                         510
+
+
+                                         500
+                                               Jun/05        Jun/12
+
+
+Fig. 8     Pulse heights of the X-rays from the 55 Fe source over time with fitting curves. The
+red circles and blue squares correspond to the source at 75 and 225 mm from the MWPC,
+respectively.
+
+
+
+2.7. Measurement
+Six series of measurements were performed during the years of 2014 and 2016. At the begin-
+ning of every series, the TPC was refilled with fresh gas. In each series, the measurements
+with the beam shutter open and closed were repeated alternately. The period of each mea-
+surement was 1000 s. The total measurement times are summarized in Table 3. Note that ρ
+values of Series 4 and 5 were intentionally changed to double and half, respectively, to check
+the systematic effect due to the ρ values.
+  The fluctuation of the TPC gain was checked by the calibration runs with the 55 Fe source
+placed at two positions on y-axis to measure attenuation in y-direction. Figure 8 shows the
+peak heights of the 5.9 keV X-rays as a function of the elapsed date from the beginning of
+a measurement series. It is expected that the fluctuation of the gain was caused by that of
+the temperature of the TPC. The drift velocity of the TPC was monitored by measuring
+the tracks of the cosmic-rays traversing from the top to the bottom of the TPC, which was
+stable at 0.3% in a measurement series. The time differences of the earliest and latest signals
+in such events correspond to the maximum drift length, and the drift velocity averaged over
+the whole drift length was obtained as 1.0 cm/µs with 4% accuracy.
+
+
+3. Analysis
+3.1. Procedure
+In this section, we describe the procedure to obtain the ratio of Sβ , SHe , εβ , and εHe in Eq. (1).
+The numbers of events, Sβ and SHe , are derived from the experimental data, schematically
+shown in Fig. 1, by using the time-of-flight, open/closed of the neutron shutter, signal ampli-
+tude distribution, and track geometry together with the simulation of the detector response.
+The efficiencies, εHe and εβ , which are dependent on the cut conditions, are calculated by
+the simulation.
+                                                        12
+                         Table 3 Summary of the measurement series
+
+        Year    Series   Beam power        Measurement time         3 He number density (ρ)
+
+                            (kW)           open/closed (hour)              (1016 /m3 )
+        2014       1         300                35 / 33                    2417 ± 12
+        2015       2         500                16 / 16                     2084 ± 7
+                   3         200                18 / 18                     2348 ± 8
+        2016       4         200                73 / 69                    4176 ± 13
+                   5         200                69 / 63                     1194 ± 8
+                   6         200                71 / 71                    2287 ± 10
+
+
+   The neutrons arrived at the TPC generate the neutron decay and 3 He(n,p)3 H events.
+The CO2 in the TPC working gas and nitrogen contamination in it cause 12 C(n,γ)13 C,
+17 O(n,α)14 C, and 14 N(n,p)14 C events, and, we denote them as S , S , and S , respectively.
+                                                                 C   O       N
+                                                                   6
+Neutrons scattered by the working gas or at the surface of the LiF tile downstream the
+switching shutter additionally induce γ-rays by neutron captures of the structure materials.
+We define the number of these events as Snγ . These events appear accompanying the neutron
+bunches. Finally, the number of the neutron-induced events in the TPC, Sn , is given as
+                              Sn = Sβ + SHe + SC + SO + SN + Snγ .                                   (3)
+  The numbers of events observed in the foreground/background time region with the switch-
+ing shutter open/closed are denoted as SFG-OPEN , SFG-CLOSE , SBG-OPEN , and SBG-CLOSE ,
+respectively, which are normalized with the dead-time corrected time-windows and the inci-
+dent neutron intensity measured with the beam monitor to match SFG-OPEN . The contents
+of S’s for these measurement modes are related to individual S components via
+                                                                            
+  SFG-OPEN             1                        1                        1           1
+ S               η SFC                  η SFC                 η short       1 
+ BG-OPEN          n                        γ           mirror  rad 
+            =                  Sn +                   Sγ    +  long  Srad +   Sconst , (4)
+                                                                                  
+ SFG-CLOSE   ηnshutter               ηγshutter                  ηrad          1 
+
+                                                        
+                                                                        long
+  SBG-CLOSE     ηnSFC ηnshutter          ηγSFC ηγshutter             ηrad            1
+
+where η’s are ratios for each component to SFG-OPEN ; ηnSFC is the ratio of incident neutrons
+in the background to the foreground time region, and ηγSFC is the same one for neutron-
+induced γ-rays. The ratios, ηnshutter and ηγshutter , are the transmission of the switching shutter
+for the neutrons and γ-rays, respectively. The ratios, ηrad   short and η long , represent the residual
+                                                                         rad
+radioactive isotopes, of which the background to foreground time region and shutter closed
+to open, respectively.
+  In this analysis, the following subtraction is performed to obtain Sn ;
+    Ssubt = (SFG-OPEN − SBG-OPEN ) − (SFG-CLOSE − SBG-CLOSE )
+                                                                                          short
+          = (1 − ηnSFC )(1 − ηnshutter )Sn + (1 − ηγSFC )(1 − ηγshutter )Sγmirror + (1 − ηrad   )Srad(.5)
+Here, ηnshutter is negligibly small as described in Sec. 2.3, in contrast, ηγshutter is ∼ 0.95. We
+can reasonably assume as ηnSFC ≃ ηγSFC , and ηnSFC is less than 5 × 10−3 (see Fig. 13), thus,
+we neglect them in this analysis. According to the discussion in Sec. 2.4, (1 − ηrad       short ) is
+
+estimated to be 2 × 10−3 , then (1 − ηrad short )S
+                                                   rad can be negligible because Srad is ∼ 1/10 of
+Sβ (see Fig.13 and later discussion). Consequently, Eq. (5) can be written as
+                                                  13
+                                   shutter-open run                             shutter-close run
+                 foreground time       background time          foreground time      background time
+                  SFG−OPEN              SBG−OPEN               SFG−CLOSE             SBG−CLOSE
+
+
+                  procedure (A)              separation by maximum pulse height
+                 E+                                                E−
+                                                                                                  foreground time region
+                                                                                                                           background time region
+         (Emax ≥ Ethres)                                   (Emax < Ethres)
+           field    field                                    field    field
+
+                                                                                                                                                    foreground time region
+                                                                                                                                                                             background time region
+                                                                                                  shutter-open run
+            procedure (B+)                       procedure (B-)
+
+                                                                                                                           shutter-open run
+            rejection of irrelevant events       rejection of irrelevant events
+
+
+                                                                                                                                                    shutter-close run
+                                                 event selection with energy and track geometry
+
+
+                                                                                                                                                                             shutter-close run
+
+
+                                                                           ηγshutter Correction
+                                             subtraction
+                             +                                          S−
+                         S
+           procedure (C)                                  procedure (D)
+           correction for contamination events            correction for irrelevant events
+           correction for irrelevant events               subtraction of n-induced backgrounds
+
+
+
+                         SHe                                             Sβ
+
+
+Fig. 9   Flowchart of the analysis procedure. Grey boxes stand for analysis procedures and
+white boxes for the event data.
+
+                                        Ssubt ≃ Sn + (1 − ηγshutter )Sγmirror .                                                                                                                       (6)
+Here, the term with ηγshutter will be corrected by using simulations of the γ-rays from the
+neutron mirrors in the neutron transport in further analysis described in Sec. 3.4.
+  A schematic diagram for the analysis procedures with cuts and corrections is shown in
+Fig. 9. The procedures are as follows:
+ (1) First, the events are classified to high-energy group (E+ ) and low-energy group (E− ) by
+     using maximum pulse heights. The group E+ mainly consists of the 3 He(n,p)3 H events,
+     and E− contains the neutron decay events, described in procedure (A) in Sec. 3.3.
+ (2) Individual cuts are applied to E+ and E− to extract the 3 He(n,p)3 H and the neutron
+     decay events with higher purities, described as procedure (B+ ) and (B− ) in Sec. 3.4,
+     respectively.
+ (3) The subtractions of FG-OPEN, FG-CLOSE, BG-OPEN, and BG-CLOSE in Eq. 5 are
+     performed for E+ and E− with the cuts to obtain S + and S − .
+ (4) Corrections to exclude SN and SO are applied to S + in order to extract SHe , described
+     as procedure (C) in Sec. 3.5.
+ (5) A correction to exclude Snγ is applied to S − in order to extract Sβ , described as
+     procedure (D) in Sec. 3.6.
+The detail of each procedure will be described below.
+                                                                  14
+3.2. Region of the time-of-flight
+Since the tracks of the 3 He(n,p)3 H events are observed clearly in the TPC, the event distri-
+bution observed with the low-gain amplifier outputs reflects the neutron distribution in the
+TPC. Here, we define the weighted z-position as
+                                                        P
+                                                           Q i Zi
+                                                     Z = Pi       ,                                               (7)
+                                                            i Qi
+
+
+where i is the channel number of a cathode wire, Zi is the z-coordinate of i-th cathode
+channel, and Qi is the charge on the low-gain amplifier of the i-th cathode channel. Figure 10
+shows the distribution of experimentally observed events on the Zt-plane. The propagation
+of the five neutron bunches is clearly visualized as five bands. The slope on the Zt-plane,
+which corresponds to the neutron velocity, decreased with t. Also, the time interval between
+bunches increased with t since the bunches were made to be equally spaced as described in
+Sec. 2.3.
+
+
+
+
+                   Z [cm]                                                                                 Count
+                             40
+                             30
+                             20                                                                      10
+                             10
+                              0
+                            −10                                                                      1
+                            −20
+                            −30
+                            −40
+                                                                                                     10−1
+                               0         5      10      15        20      25     30        35   40
+                                                                                            t [ms]
+                                   Background time region         Foreground time region
+
+
+                   Count    7000
+                            6000
+                            5000
+                            4000
+                            3000
+                            2000
+                            1000
+                              0
+                               0         5      10      15        20      25     30        35   40
+                                                                                            t [ms]
+
+
+Fig. 10    Event distribution on the Zt-plane (top) and its projection on to t-axis (bottom).
+The foreground and background time regions are hatched by green and yellow, respectively.
+
+
+
+  We defined the region of −34 cm ≤ Z ≤ 34 cm as the foreground region, which corre-
+sponded to the t-regions centered at 17.4, 20.5, 24.3, 28.8, and 34.2 ms. The total foreground
+time width was 2.3 ms. We defined the background region as 4 ms ≤ t ≤ 10 ms to minimize
+Sγmirror.
+                                                             15
+3.3. Procedure (A): Separation by maximum pulse height
+In further analysis, Ssubt in Eq. (6) is divided into two groups; ion-emission events and the
+others, defined as E+ and E− classes, respectively. In the derivation process, some cuts are
+applied to remove the background and increase the purity of the signal, which are discussed
+in Sec. 3.4. Here,
+                                                   ′
+                                                  Ssubt = S+ + S−                                 (8)
+is defined, where S + and S − are the numbers of events in E+ and E− after the cuts,
+respectively.
+  Since the ion events have relatively higher energy deposits than electrons, each event
+is classified according to the maximum energy deposit among all the field wires, Emax          field .
+                           field distribution of S ′
+Figure 11 shows the Emax                          subt together with the simulated distributions of
+SHe and Sβ . The results of simulations show that the physical processes responsible for each
+event can be roughly classified and are mixed in the vicinity of their boundaries. We set a
+               field = 25 keV to minimize the admixtures between the two kinds of events as
+threshold Ethres
+shown in Fig. 11. Because of the ambiguity of the 3 He(n,p)3 H simulation, the cut threshold
+was set lower than the valley of the measured spectrum. The events with Emax          field ≥ E field
+                                                                                               thres
+   field < E field ) were classified as E+ (E− ).
+(Emax        thres
+
+
+
+
+                     Count [1/2keV]
+                                      104
+
+
+
+                                      103
+
+
+
+                                      102
+
+
+
+                                            20      40   60        80   100   120 140
+                                              E field
+                                                thres                         E field
+                                                                                max [keV]
+
+
+
+Fig. 11                                                                          field ) with
+             Distribution of the maximum energy deposit among all field wires (Emax
+                                                                      3        3
+that of the simulation of the neutron decay (left red hatch) and the He(n,p) H reaction
+events occurring (right blue hatch). The cut threshold (25 keV) is also shown as a green
+vertical line.
+
+  For the sake of simplicity, here we consider SHe and Sβ only, and they are described as
+                         "      # "                      #"      #
+                                             He    β
+                            S+         1 − ξsep   ξsep      SHe
+                                   =      He          β            ,                    (9)
+                            S−           ξsep   1 − ξsep     Sβ
+                                                         He is the fraction of S
+where ξ’s are the fraction of unfavored classification; ξsep                     He mixed into
+         β
+S− and ξsep is the fraction of Sβ mixed into S+ . Note that the effects of them were less than
+0.6% for all measurements in this work.
+                                                              16
+                   Count [1/keV]
+                                   800
+
+
+                                   600
+
+                                   400
+
+                                   200
+
+                                    0
+                                     0       10    20         30      40      50
+                                         E anode
+                                           thres
+                                                             Enegy deposit [keV]
+
+
+Fig. 12    Energy distribution of S − of Series 6 (black circle) and that of the simulation of
+the neutron decay events normalized by the total events (red hatch). The green vertical line
+shows the cut threshold of 5 keV.
+
+
+
+
+3.4. Procedure (B+ ) and (B− ): Event selections for E+ and E− classes
+Respective cuts were applied to E+ and E− classes as shown in Fig. 9. Thanks to the low
+radioactive TPC, the event rate caused by backgrounds other than the neutron bunch ones
+in E+ was suppressed to 0.15 cps, which is 3 × 10−3 of S + . Therefore only a cut for electric
+noise was applied to E+ , where the effect was negligibly small.
+  Three cuts were applied to E− described as follows. The first cut is to remove the event
+by recoil nuclei from the 12 C(n,γ)13 C reaction occurring in the TPC working gas which
+has the kinetic energy of 1.0 keV. We set a cut on the energy deposit with threshold level
+  anode = 5 keV to eliminate S from E− . The distribution of the energy deposit on the anode
+Ethres                         C
+wires for E− is shown in Fig. 12 together with the simulated spectrum of the neutron decay.
+The ratio of the residual of SC after the energy cut to S − , denoted as ξC , was estimated to
+be less than 0.3% by the Monte Carlo simulation.
+  The other two cuts were applied for statistical advantage by reducing Sconst and Srad com-
+ponents. Since the neutron decay events occur in the neutron beam region which is the center
+of the TPC, their spatial distribution in the TPC is different from that of the background
+events. Thus, we can select the neutron decay events among various spatially distributed
+tracks using the waveform and/or distribution over the anode wires. For y-direction, we
+required that the drift length is less than 190 mm, which corresponds to the sum of the half-
+length of the TPC and the beam size, for removing charged particles generated outside of the
+beam region. For another background, β-decays of the tritiums (half-life 12.33 years, Q-value
+18.6 keV) [41] were observed, which had been produced by the 6 Li(n,α)3 H reactions in the
+TPC, and accumulated after a gas filling. Since those decay electrons have short tracks and
+low energies, they have peaky shapes in their waveforms. Therefore, they can be identified
+by taking the ratio of the energy deposit around the highest peak to the full integration of
+the waveform. Events which had 80% of the energy deposit in the peak region were rejected.
+                                                        17
+  The t-spectra of S + and S − after applying the cuts are shown in Fig.13. A simulation
+spectrum is plotted together with S − . In the simulation, the γ-rays produced from the
+neutron mirrors in the beam transport were calculated by PHITS 2.88 [49] and the interactions
+of the γ-rays were simulated by GEANT4. The time-independent component was added to
+match the simulated γ-ray and BG-CLOSED. The shielding effect of γ-rays by the neutron
+shutter, (1 − ηγshutter )Sγmirror in Eq. (6), was compensated here by using the simulation. The
+difference between experimental data of FG-CLOSE and the simulation was budgeted as
+the uncertainty of the correction. The correction, denoted as ξγshutter , was calculated to be
+(0.3 ± 0.3)%.
+
+
+                                                                                        8 ×10
+                                                                                             3
+                    105
+
+
+
+
+ Count [1/0.2 ms]                                                    Count [1/0.2 ms]
+                                                                                        7
+                    104                                                                 6
+                                                                                        5
+
+                    103                                                                 4
+                                                                                        3
+                                                                                        2
+                    102
+                                                                                        1
+                                                                                        0
+                         0   5   10   15   20   25   30   35 40                          0       5   10   15   20   25   30   35 40
+                                                           t [ms]                                                              t [ms]
+
+Fig. 13     Time-of-flight spectra of the experimental data for S + (left) and S − (right). The
+red-solid and black-dotted lines represent the shutter open and closed data, respectively, and
+the blue-dashed one shows the difference between them. The hatched regions by green and
+yellow show the foreground and background time regions, respectively. The pink-hatched
+histogram is Sγmirror calculated by the simulations.
+
+
+
+3.5. Procedure (C): Event selection and corrections for S +
+Contaminations of SN and SO are included in S + . Here, we define SHecand as
+                                            SHecand = SHe + SN + SO = (1 + ξN + ξO )SHe                                                 (10)
+with ξN = SN /SHe and ξO = SO /SHe . Because lowering the gain of the TPC was necessary to
+avoid the saturation of the pulse heights due to the space charge effect, measurements with a
+reduced gain were performed every other day to monitor the influence of 14 N(n,p)14 C. Figure
+14 shows the pulse height spectrum of a low-gain operation and the ratio of the event rates
+of 14 N(n,p)14 C to 3 He(n,p)3 H as a function of the elapsed time. Because the outgas rate was
+roughly constant, the accumulated N2 in the working gas proportionally increased over time.
+Using the data for the time dependence of the 14 N(n,p)14 C event rate, ξN was estimated as
+(0.50 ± 0.05)%. This contamination level was consistent with a value expected from the N2
+concentration in the working gas which had been measured by gas chromatography.
+  Since the 17 O(n,α)14 C reaction occurs with 17 O nuclei contained in CO2 , which is the
+quenching gas of the TPC, its event rate can be estimated using the existing data of the
+isotopic abundance of 17 O [50] and the 17 O(n,α)14 C reaction cross section [32]. The event
+rate ratio of 17 O(n,α)14 C to 3 He(n,p)3 H was evaluated as (0.51 ± 0.03)%.
+                                                                    18
+                                                                                            ×10−3
+
+
+
+
+Count [1/20keV]
+                                                                           S N/ S He
+                                         3
+                                                                                       12
+                                         He(n,p)3H
+                  103                                                                  10
+                                                                                       8
+                  102
+                        14
+                             N(n,p)14C                                                 6
+                                                 17
+                                                     O(n,α)14C & Pile up               4
+                  10
+                                                                                       2
+                   1                                                                    0
+                                                                                       −2                                    ×106
+                    0           500      1000    1500      2000                               0     0.5              1
+                                         Energy deposit [keV]                                             Elapsed time [s]
+
+Fig. 14     Pulse height spectrum of a low-gain operation (left) and ratio of event rates of
+the N(n,p)14 C to those of the 3 He(n,p)3 H versus the elapsed time after gas filling (right).
+   14
+
+The red line and the hatched region show fitted curve and its error, respectively.
+
+
+  The incident neutrons were partially scattered (∼ 1%) by the working gas or the entrance
+window of the vessel. The scattered neutrons are captured by the 6 LiF tiles on the inner
+surface of the TPC or 3 He, or decay in the path. Here, we define the average x-position of
+each event weighted by the energy deposit as
+                                                                     P field
+                                                                      i Ei     Xi
+                                                                   X= P    field
+                                                                                  ,                                            (11)
+                                                                        i Ei
+
+
+where Xi is x-position of i-th field wire with respect to the beam center. The X distribution is
+shown in Fig. 15 and compared with the simulation of the 3 He(n,p)3 H events using the beam
+profile. The shape of the neutron beam was defined by the SFC geometry and collimators.
+The incident neutrons went into the beam catcher and were distributed in the 4 cm × 4 cm
+at z = −34 cm and 6 cm × 6 cm at z = 34 cm. The blue hatched area shows the simulation
+of the scattered neutrons, where the scattering distribution was calculated with the semi-
+classical model [51, 52]. Both simulations were scaled to the experimental data; the simulation
+for the scattered neutrons was normalized in the region of |X| > 54 mm, and the simulation
+for the incident neutrons was scaled so as to reproduce the experimental data together with
+the contribution of the scattered neutrons in the region of |X| ≤ 54 mm. The ratio of the
+                                                 He , was 0.39 ± 0.04%, of which uncertainty is
+scattered neutrons to the incident neutrons, ξscat
+statistical error. We selected the events of the inside region of |X| ≤ 54 mm for the further
+analysis.
+  A pileup event is defined as two or more events detected in the same time window (70 µs).
+In this analysis, we classify an event to a type of event which caused the trigger, and the
+effect of the pileup is corrected so that the event number represents the trigger rate. For
+the pileup correction of SHe , there are three combinations of events; E+ to E+ , E+ to E− ,
+and E− to E+ . We classified these combinations as E+ events because of their large energy
+deposit. The former two do not affect the result, because the event classification is correct.
+                                                 He
+The last requires a small negative correction, ξpileup . For conservative analysis, the magnitude
+and the uncertainty of it were set to be 0.08% which corresponds to E− to E+ pileup event
+rate.
+                                                                           19
+                    Count [1/12mm]
+                                     105
+
+                                     104
+
+                                     103
+
+                                     102
+
+                                     10
+
+                                       1
+                                                 −100   −50         0      50       100
+                                                                                     X [mm]
+
+
+Fig. 15      Experimental data of X distribution (black dot) and simulations of incident
+neutrons (top red hatch) and scattered neutrons (bottom blue hatch). The green vertical
+lines show the boundaries of the incident and scattered neutrons.
+
+
+ Finally, SHe after the corrections described above is given as
+                                                                                 β
+                                            SHecand
+                                                                He
+                                                          (1 + ξpileup )(S + − ξsep Sβ )
+                   SHe                 =                =                          He )
+                                                                                                               (12)
+                                         (1 + ξN + ξO )    (1 + ξN + ξO )(1 + ξscat
+                                                                                   
+                                               β Sβ                  He       He
+                                       ≃  1 − ξsep + − ξN − ξO − ξscat + ξpileup S + .
+                                                  S
+                                                                                        He
+Corrections and uncertainties for SHe in Series 6 are summarized in Table 4. Note that ξsep
+is not included because it is budgeted in εHe .
+
+
+              Table 4 Correction and uncertainty budgets of SHe (Series 6)
+                          Term                                          Correction (%)   Uncertainty (%)
+                     Statistics of S +                                                     ±0.18 stat
+                                       β                                                       +0.05
+      Misclassified neutron decay (−ξsep   Sβ /S + )                        −0.05              −0.00
+                                14
+            Contamination of N (−ξN )                                       −0.50               0.05
+            Contamination of 17 O (−ξO )                                    −0.51               0.03
+                                      He )
+              Scattered neutron (−ξscat                                     −0.39               0.04
+                             He                                                                +0.08
+                    Pileup (ξpileup )                                       −0.08              −0.00
+                                           SHe                                           0.18 stat +0.11
+                                                                                                   −0.06 sys
+
+
+
+
+3.6. Procedure (D): Background estimation and correction for S −
+Here, we define the event candidates of the neutron decay in S − , Sβcand as
+
+                                                   Sβcand = Sβ + Sβscat + Snγ ,                                (13)
+                                                               20
+                                           y               TPC
+
+                                                                    MWPC
+                        Discontinued            XE=XC
+                         trajectory      XE     XC=0
+
+
+
+
+                                                                    x
+
+                                                     Neutron beam
+                        Far endpoint
+                                       XC=0
+
+                                  Closest hit
+                                                Near endpoint
+
+
+Fig. 16      Schematic figure of tracks and anode hit positions to illustrate the variables XC
+and XE . The outermost dotted square region, inner blue-colored region, and upper black
+circles indicate the TPC, neutron beam region, and anode wires, respectively. The closed
+and open circles correspond to near and far endpoints from the central wire, and the star
+does the nearest hit position for each track. The number of wires and the geometric scale are
+not the same as those of the experiment. XC is the distance along x-axis between the origin
+and the nearest hit anode wire, and XE is that between the origin and the nearer endpoint
+of the track.
+
+
+
+
+where Sβscat is the number of neutron decay events caused by the scattered neutrons, which
+                        He obtained in Sec. 3.5. The neutron-induced γ-ray background, S ,
+can be estimated by ξscat                                                                nγ
+is estimated by applying an analysis of track geometry and subtracted from the neutron
+decay candidate events. Variables for the x-position of the anode wires, XC and XE , are
+introduced for this analysis. A schematic figure for them is shown in Fig. 16, where XC
+is the distance along x-axis between the origin and the nearest hit anode wire, and XE is
+that between the origin and the near endpoint of a track. The continuity of each track is
+not required in the analysis. The distributions of XC and XE of S − are shown in Fig. 17
+with scaled simulations of the neutron decay without scattering, the decay of the scattered
+neutron, and the neutron-induced γ-ray background. Since the number of the anode wires
+is odd, the space for the 0-th channel is half of those for the other channels.
+  Using these variables, we classified the tracks as the central (XE ≤ w), the peripheral
+(XC > w), and the rest (XE > w and XC ≤ w) components. The relation XC ≤ XE is always
+satisfied by definition. Because tracks of the neutron decays in the beam have a hit within
+the neutron beam width, the neutron decay events without scattering are mainly classified
+in the central, and little (< 0.02%) exist in the peripheral. We can estimate Snγ from the
+peripheral component with Sβscat determined by ξscat He . Ignoring the neutron decay without
+
+scattering in the peripheral, the central and peripheral components of Sβcand are described
+                                                21
+                         Peripheral                                   Central
+
+Count                                                 Count
+           4                                                     4
+        10                                                    10
+
+        103                                                   103
+
+        102                                                   102
+
+         10                                                    10
+
+          1                                                     1
+
+        10−1                                                  10−1
+            0   2    4     6     8       10     12                0     2       4   6   8   10     12
+                                          X C [ch]                                           X E [ch]
+
+
+Fig. 17     Distribution of XC (left) and XE (right) of S − (Series 6). Black circles with error
+bars show the experimental data, where the negative data points were turned up to show
+in the log plot as open circles with dotted error bars. The green vertical lines show the cut
+position and the green arrows indicate the central and peripheral components mentioned
+in the text. Simulated spectra of the neutron decays without scattering (red upper hatch),
+neutron-induced background (green middle one), and decay events of scattered neutrons
+(blue lower one) are plotted together.
+
+as
+                                       cent          cent     cent
+                                      Sβcand = Sβ + Sβscat + Snγ   ,                                    (14)
+                                       per      per      per
+                                      Sβcand = Sβscat + Snγ  ,
+         cent , S per , S cent , and S per , are the central and peripheral components of S
+where Sβscat     βscat   nγ           nγ                                                      βscat and
+Snγ , respectively. Note that Sβ represents the neutron decay without scattering. Though a
+small part of the Sβ were truncated by selections, the effects are compensated by the εβ ,
+                                                  cent is estimated by the simulation of S
+discussed in Sec. 3.7. In this analysis, Snγ                                               nγ which is
+                   per       per
+scaled so that Sβscat + Snγ matches the peripheral component of S − . Here, we define κ as
+                                              cent     per
+                                             Snγ   = κSnγ  ,                                            (15)
+                                         cent can be described as
+where κ = 1.29 by the simulation, then, Sβcand
+                     cent          cent      per          β            cent
+                    Sβcand = Sβ + Sβscat + κSnγ  = Sβ + (ξscat + ξnγ )Sβcand ,                          (16)
+        β       cent /S cent and ξ        per  cent
+where ξscat = Sβscat   βcand       nγ = κSnγ /Sβcand . The statistics of the peripheral compo-
+nent of S − and the systematics of κ were budgeted as an uncertainty of ξnγ .
+  As the average of all measurement series, ξnγ was 4.1 ± 0.8%, which is 3.2-times of the
+expected value by the originally simulated (n,γ) reactions. The origin of the difference is
+unknown but may be caused by extra neutron captures outside the neutron shield of 6 LiF.
+The unknown γ-rays which account (1 − 1/3.2) = 0.69 of Snγ may obey different energy and
+position distributions from the simulation and result in a different κ. Therefore, we used
+further track information in the peripheral component to estimate the systematic devia-
+tion of κ. In this estimation, we used the two sets of the simulations of γ-rays: one is the
+energy contrast distribution with the monochromatic energy Eγ = 0.1, 0.2, 0.4, 0.8, 1.6, · · · ,
+12.8 MeV and the same position distribution as the original simulation, the other is the posi-
+tion contrast distribution which has the same energy distribution as the original simulation
+                                                     22
+and the initial position is the point where from the TPC center moved on to the lead shield
+surface along one of the axis direction x±, y±, or z±, which were selected to be the most
+biased position inside the shielding.
+  The κ values calculated by the simulations shown in Fig. 18, and the anode wire hits
+distribution in the peripheral components shown in Fig. 19, are used to estimate the possible
+deviation of κ from the original simulation. In the case of Eγ = 0.1 MeV, κ is 0.51 ± 0.05
+but the spectrum of the anode distribution is unlikely from the experimental data as shown
+in the energy contrast simulation of Fig. 19. Hence, the contamination fraction of the γ-rays
+with that energy is constrained with the statistical range from the experimental data. The
+maximum possible value in 1 σ error of the contamination fraction, varied in the range of 0 to
+0.69, was calculated by the minimum χ2 estimation. The results of the possible κ values are
+shown in Fig. 18 as the blue squares. Since the energy contrast simulations of Eγ ≥ 1.6 MeV
+and the position ones of z+ and z− have almost the same κ as that of the original one, we
+ignored them. By taking the worst cases, the 1 σ deviation of κ was obtained as
+
+                         κ = 1.29 ± 0.04 stat +0.00        +0.08
+                                              −0.37 energy −0.34 position                                       (17)
+                            = 1.29+0.09
+                                  −0.51 ,
+
+where statistical and systematic errors were summed in quadrature.
+
+
+ κ   1.8                                         κ     1.8
+     1.6                                               1.6
+     1.4                                               1.4
+     1.2                                               1.2
+       1                                                 1
+     0.8                                               0.8
+     0.6                                               0.6
+     0.4                                               0.4
+     0.2                                               0.2
+       0                                                 0
+               10−1          1           10         Offset [mm]
+                                                                  x+
+                                                                  +480
+                                                                         x-
+                                                                         -480
+                                                                                y+
+                                                                                +540
+                                                                                       y-
+                                                                                       -620
+                                                                                              z+
+                                                                                              +710
+                                                                                                      z-
+                                                                                                     -720
+                                    Eγ (MeV)                                                         Position
+
+
+Fig. 18 Comparison of κ of the original and energy contrast simulations (left) and position
+contrast ones with offset lengths of the source positions (right). The red line indicates κ of the
+original simulation of 1.29 ± 0.04 stat and black circles does that of the contrast simulations.
+Blue squares correspond to the possible 1 σ deviations from the original κ calculated by the
+minimum χ2 estimation. The resulting uncertainty on κ is calculated using the maximum
+distance between blue square and red line.
+
+
+  The pileup for Sβ was corrected in the same manner as described in Sec. 3.5. If the neutron
+decay and the 3 He(n,p)3 H events were detected in the same time window, the events are
+possibly recognized as the 3 He(n,p)3 H events, and it reduces the number of neutron decay
+events. The probability calculated by the event rates was corrected. We also evaluated the
+pileups of events of E− to E− , which might change the classification of the neutron decay
+events, or the other classes to the neutron decay events by changing its energy deposit and/or
+event topology. Thus, we budgeted the pileup probability of E− to E− as the systematic
+                                                    β
+uncertainty. We denote this pileup correction as ξpileup .
+                                               23
+                     0.7                                                                          0.7
+
+
+
+
+ Normalized counts                                                            Normalized counts
+                                              Experiment   Original MC                                                  Experiment         Original MC
+                     0.6                      12.8 MeV     6.4 MeV
+                                                                                                  0.6                   x+                 x-
+                     0.5                      3.2 MeV      1.6 MeV                                0.5                   y+                 y-
+
+                     0.4                      0.8 MeV      0.4 MeV                                0.4                   z+                 z-
+                                              0.2 MeV      0.1 MeV
+                     0.3                                                                          0.3
+                     0.2                                                                          0.2
+                     0.1                                                                          0.1
+                      0                                                                            0
+                           1   2      3      4      5      6         7                                   1    2     3   4       5      6          7
+                                             Number of anode hits                                                       Number of anode hits
+
+
+Fig. 19 Number of anode hits distributions of the experiment, the original, and energy
+contrast simulations (left) and position contrast ones (right) of the peripheral tracks. Black
+circles correspond to the distribution of the experiment. Black lines indicate that of the
+original simulation and other colored lines do that of contrast ones.
+
+  Finally, Sβ after corrections described above is given as
+                                          β            cent
+                               Sβ = (1 − ξscat − ξnγ )Sβcand                                                                                             (18)
+                                                                                     β
+                                                  β            (1 + ξγshutter )(1 + ξpileup          He S )
+                                                                                            )(S − − ξsep He
+                                      =     (1 − ξscat − ξnγ )
+                                                                                  (1 + ξC )
+                                                                                          
+                                              He SHe        shutter    β             β
+                                      ≃  1 − ξsep − − ξC + ξγ       − ξscat − ξnγ + ξpileup S − .
+                                                 S
+                                                                                       β
+Corrections and uncertainties for Sβ in Series 6 are summarized in Table 5. Note that ξsep
+is budgeted in εβ .
+
+
+                                   Table 5 Correction and uncertainty budgets of Sβ (Series 6)
+                                               Term                                                     Correction(%)   Uncertainty (%)
+                                          Statistic of S −                                                                  1.7 stat
+                                                      He S          −                                                               +0.0
+                       Misclassified ion events (−ξsep     Hecand /S )                                        0.0                   −0.3
+                                                                                                                                    +0.0
+                          Contamination of 12 C(n,γ)13 C (−ξC )                                               0.0                   −0.3
+                       γ-ray shielding by neutron shutter (ξγshutter )                                       −0.3                    0.3
+                                                         β
+                                Scattered neutron (−ξscat    )                                               −0.2                   0.02
+                              Neutron-induced γ-ray (−ξnγ )                                                  −1.3           2.0 stat +0.5
+                                                                                                                                     −0.1 sys
+                                               β                                                                                  +0.4
+                                      Pileup (ξpileup )                                                      +0.2                 −1.2
+                                                 Sβ                                                                         2.6 stat +0.6
+                                                                                                                                     −1.3 sys
+
+
+
+
+3.7. Efficiency εHe and εβ
+The detection efficiencies, εHe and εβ in Eq. (1), were calculated by the simulation. Since the
+trigger inefficiencies for the neutron decay and 3 He(n,p)3 H without scattering were estimated
+to be small enough from the simulation (< 10−3 and < 10−4 , respectively), the systematic
+uncertainties of the efficiencies were evaluated for the event selections described in the former
+                                                                         24
+subsections. We summarized the results of the cut efficiencies and uncertainties of εHe and
+εβ in Table 6 and 7. The value in the efficiency column for each cut means the ratio of the
+neutron decay which was rejected when only the corresponding cut was applied.
+  The uncertainties of the cut efficiencies were estimated by taking into account possible
+deviations of the cut thresholds. For instance, the discrepancy between the measurement
+and the simulation in the energy spectra of the cosmic-rays for all measurement series was
+5–9% as shown in Fig. 5. Hence we accounted for a change when the cut threshold in energy
+was shifted by the discrepant value as a cut uncertainty. The uncertainties for the Emax field
+                                 anode were obtained in this way. For the track geometry (y-
+cut and the low energy cut at Ethres
+direction), the non-uniformity of 9.5% of the drift velocity was considered. The uncertainty
+for the tritium cut was estimated by the standard deviation of the peak/full-integration
+ratio distribution of the 5.9 keV X-ray waveforms. The uncertainty of the threshold of XE
+could be caused by the misalignment of the beam position, which was estimated to be less
+than 2 mm. We budgeted 12 mm, which corresponds to 1 wire width, for the conservative
+estimation.
+  Some other systematic effects on εβ are discussed here. The electrons emitted from the
+neutron decay have an angle distribution around the neutron polarization. The angular
+distribution, W (θ), can be described as
+
+                                           v
+                                W (θ) = 1 + P A cos(θ),                                    (19)
+                                           c
+
+where θ is an angle between the direction of the electron and neutron polarization, v is
+the velocity of the electron, c is the speed of light, P is the polarization of the neutron,
+and A is the asymmetry parameter for the neutron decay, A = −0.1184 ± 0.0010 [1]. The
+polarized neutron beam at BL05 was used for this experiment to produce bunches by the
+SFC. Although we used the polarized neutron from the SFC, there was no magnetic field
+to keep the polarization. Thus, the polarization direction of the neutron is unknown and
+the detection efficiency of electrons in the TPC may change due to the unexpected bias
+of the momentum direction of the electron. We compared the detection efficiencies when
+neutrons were completely polarized along x-, y-, or z-axis, as well as unpolarized using the
+simulation. The maximum deviation was +0.13% when neutrons were polarized in the −y
+direction, which goes to the bottom of the drift direction. The value was budgeted as an
+uncertainty.
+  It is known that W value increases for low energy charged particles [53], although this effect
+was not implemented in the current simulation. This may be significant for protons from
+the neutron decay (the kinetic energy is below 1 keV), leading to a decrease in the detection
+efficiency. The upper limit of this effect can be estimated by forcibly setting the proton
+kinetic energy as zero in the simulation, i.e., assuming an infinite W value for the proton.
+The loss of efficiency was consistent with zero, (0.06 ± 0.35)% for the neutron lifetime with
+an uncertainty originating from the statistical error of the simulation.
+  A part of the neutron decays emit not only an electron and a proton but also a γ-ray. The
+probability of the radiative decay is (9.2 ± 0.7) × 10−3 for γ-rays with energy of more than
+0.4 keV [54]. This reaction is expected to give less effect because the TPC is insensitive to γ-
+rays and an electron is produced as well though its energy is reduced. The effect of the energy
+reduction was calculated using the theoretical formulation in Ref. [55]. The probability that
+                                              25
+the electron energy becomes less than the cut off energy (5 keV) due to the radiative decay
+is expected to be 6.5 × 10−7 , therefore we ignored this effect.
+
+
+                  Table 6 Efficiency (εHe ) uncertainty budgets (Series 6)
+                        Cut name          Efficiency (%)     Uncertainty (%)
+                      field cut (ξ He )                           +0.01
+                     Emax         sep          −0.01              −0.00
+                                                                  +0.01
+                            εHe               99.99               −0.00
+
+
+
+
+                  Table 7 Efficiency (εβ ) uncertainty budgets (Series 6)
+                        Cut name                Efficiency (%)     Uncertainty (%)
+                      field cut (ξ β )
+                     Emax                            −1.3                 +0.5
+                                  sep                                     −0.7
+                                   anode                                  +0.1
+              Low energy cut at Ethresh              −0.3                 −0.2
+               Tritium decay rejection               −0.6                 0.06
+             Track geometry (y-direction)            −1.3                 0.2
+                Track geometry (XE )                 −3.2                 0.03
+                 Neutron polarization                                     0.13
+              W value for decay proton                                    0.35
+                                                                          +0.6
+                            εβ                        93.9                −0.8
+
+
+
+
+4. Result and Discussion
+From the results and discussions in the former sections, the number of events of the
+3 He(n,p)3 H (S ) and neutron decay (S ), the extraction efficiencies of the 3 He(n,p)3 H
+                He                            β
+reactions (εHe ) and neutron decay (εβ ), and the number density of 3 He in the TPC (ρ), were
+obtained with uncertainties and provided in Table 2, 4, 5, 6, and 7 for a typical measurement
+series (Series 6), respectively. The neutron lifetime derived by Eq. (1) is listed in Table 8
+with all values and uncertainties.
+   Note that some uncertainties are not independent; Sβ and SHe , εβ and εHe have nega-
+tive correlations through Emaxfield cut, which bring underestimation of the uncertainty of τ .
+                                                                                                n
+                                                                                 He
+However, the effects were negligible (¡0.1%) because the uncertainties of ξsep and εHe were
+                                         β           He
+small enough. The uncertainties of ξpileup     and ξpileup , which describe how the pileup events
+were identified, also have a negative correlation, while this effect is also less than 0.1% and
+                                                                      β                      He ,
+negligible. There are more parameters which have correlations; ξscat      was determined by ξscat
+                                             field and E anode , were both determined by the dis-
+and the uncertainty of the energy cuts, Ethres            thres
+crepancy between the measurement and the simulation of the cosmic-ray. A part of these
+uncertainties cancel each other out in the estimation of the neutron lifetime. We adopted
+the quadratic sum of them in Table 8 for a conservative and simple estimation.
+   For each series of the measurement, a value of the neutron lifetime with uncertainties was
+derived in the same manner. The results are shown in Table 9. We observed no systematic
+effects due to the ρ values described in Sec. 2.7 in the present sensitivity. The average was
+                                                26
+                     Table 8 Values and Uncertainty budgets (Series 6)
+  Term                    Value                             Unit     Relative uncertainty(%)
+   SHe      (3.581 ± 0.006 stat +0.004
+                                −0.002 sys ) × 10
+                                                 5         events        0.18 stat +0.11
+                                                                                   −0.06 sys
+                                +0.011                                             +0.8
+   Sβ       (1.441 ± 0.039 stat −0.018 sys ) × 104         events         2.7 stat −1.3 sys
+   εHe                99.99 +0.01
+                             −0.00 sys                       %               +0.01
+                                                                             −0.00 sys
+    εβ                 93.9 +0.6
+                             −0.8 sys                        %               +0.7
+                                                                             −0.9 sys
+     ρ                 2287 ±10 sys                   10 atoms/m3
+                                                        16                    0.4 sys
+   σ0                  5333 ± 7 sys                      1028 m2             0.13 sys
+    v0                     2200                             m/s               exact
+    τn             869 ± 24 stat +13
+                                 −11 sys                    s            2.6 stat +1.5
+                                                                                  −1.1 sys
+
+
+
+calculated by fitting only with statistical uncertainties, where χ2 /ndf = 5.8/5. The systematic
+uncertainties of all measurement series were expected to correlate with each other. Thus,
+we treated them as to be fully correlated as conservative estimation; the upper and lower
+systematic uncertainties were determined by taking averages of the data points shifted to
+1 σ. By combining all measurement series, we obtained a neutron lifetime of
+
+
+         Table 9 Neutron lifetimes for each measurement series and those combined
+                               Series          τn (s)
+                                 1       951 ± 27 stat +22
+                                                       −34 sys
+                                 2       906 ± 20 stat +13
+                                                       −12 sys
+                                 3       908 ± 49 stat +13
+                                                       −34 sys
+                                 4       890 ± 24 stat +16
+                                                       −15 sys
+                                 5       882 ± 25 stat +12
+                                                       −19 sys
+                                 6       869 ± 23 stat +13
+                                                       −11 sys
+                                                      +15
+                            Combined 898 ±10 stat −18 sys
+
+
+
+                                     τn = 898 ± 10 stat +15
+                                                        −18 sys s.                           (20)
+
+  By simply summing the statistic and systematic uncertainties in quadratic, it gave us τn =
+898 +18
+    −20 s, which is shown in Fig. 20 to compare with previously published results obtained
+with the bottle method [12, 13, 14, 15, 16, 17, 18] and the beam method [19, 20]. Both of
+the previously published results are within the uncertainty of our measurement. Because the
+uncertainty of this work is still larger than the difference between the two methods, further
+improvements are required to resolve the neutron lifetime puzzle by our experiment.
+  Improvements in the experimental accuracy are in progress for the statistics and the major
+systematic uncertainties mentioned below. The beam transport with larger acceptance, which
+is expected to increase the neutron intensity 8-fold, will be installed to improve the present
+statistical error of 10 s. The systematic uncertainty in this work was dominated by ξnγ ,
+which corresponds to +2/-14 s in τn . Reduction or identification of the unknown background
+simultaneously occurred with the neutron decay, discussed in Sec. 3.6, reduce the systematic
+uncertainty. Higher statistics by the new beam transport will help the identification because
+                                                     27
+               τn [s]   915
+                        910
+                        905
+                        900
+                        895
+                        890
+                        885
+                        880
+                        875
+                              1995   2000   2005     2010 2015 2020
+                                                         Publication year
+
+
+Fig. 20 Data of neutron lifetime obtained with the bottle method (blue square) [12, 13,
+14, 15, 16, 17, 18] and the beam method (red circle) [19, 20]. The blue and red bands show
+the global average and error of each method. The result of this work is shown by the open
+circle.
+
+the present statistical error in the peripheral region was dominated by the environmental
+backgrounds and the increase of the beam intensity improves the signal to noise ratio. Addi-
+tional measurements with lower pressure gas would enable us to reduce ξnγ ; for instance, 50
+kPa operation, which is reasonably performed, makes it half of the present value.
+                            β
+  The pileup correction ξpileup   on Sβ shown in Table 5 is another dominant systematic
+uncertainty, which corresponds to +11/-4 s. This is mostly due to the cosmic-rays coming
+after the triggers. It can be rejected by implementing a software veto using the signals of
+the cosmic-ray veto counter recorded in the TDC, and it will reduce the uncertainty to +4/-
+0.5 s. The uncertainty of εβ was mainly caused by the Emax  field cut as shown in Table 7, which
+
+corresponds to +4/-6 s. The separation of the neutron decay and 3 He(n,p)3 H is currently
+performed by only one parameter (Emax  field ) but it is possible to reduce the uncertainty by
+
+using another parameter of the particle trajectories, e.g. the full-waveform integration. A
+cut with the two parameters is expected to reduce the uncertainty to 1 s.
+  The uncertainty of ρ corresponds to 4 s in this work as shown in Table 2. The main
+source of the uncertainty in ρad was caused by the volume-ratio measurement of the vacuum
+chamber because the ratio was so large that it was measured in 3 steps. Employing a pressure
+gauge with a larger dynamic range will suppress the uncertainty of ρad to 1/3 (∼1 s). The
+uncertainty of ρG1 was limited by the accuracy of the mass spectroscopy. Measurements
+with nitrogen gas proposed in Ref. [46] can reduce it to 1/10 of the current value (∼0.4 s) in
+principle. With those improvements, the uncertainty of ρ is expected to be reduced to ∼1 s.
+
+5. Summary
+The neutron lifetime puzzle, the discrepancy of 8.5 s (4.0 σ) between the experimental data
+obtained with the bottle and beam methods, is still unsolved. We have launched a new
+experiment using the pulsed cold neutron beam at J-PARC. In this experiment, the neutron
+beam was formed into bunches of 40 cm using a spin-flip chopper, and was injected to the
+                                              28
+TPC of 1-m length. The TPC simultaneously counted the events of the neutron β-decay
+and the (n,p) reaction on 3 He whose number density was accurately controlled. The neutron
+lifetime was derived from the ratio of those counting rates. This experiment is classified as
+the beam method but dominated by the different systematic uncertainties from the previous
+experiments. As the first result of this experiment, we obtained the neutron lifetime of
+898 ± 10 stat +15
+              −18 sys s. The present value of the neutron lifetime does not contradict with
+the other recent results within the range of its uncertainty. Further improvements in the
+statistical and systematic uncertainties are underway.
+
+
+Acknowledgments
+We wish to thank Prof. S. Ikeda for his efforts to encourage the starting up of the experiment.
+We are grateful to Drs. M. Tanaka, Y. Igarashi, and S. Sato for helpful discussions of the
+DAQ circuits. This research was supported by JSPS KAKENHI Grant Number 19GS0210,
+23244047, 24654058, 26247035, 16H02194, and 19H00690. The neutron experiment at the
+Materials and Life Science Experimental Facility of the J-PARC was performed under user
+programs (Proposal No. 2012A0075, 2012B0219, 2014A0244, 2014B0271, and 2015A0316)
+and S-type project of KEK (Proposal No. 2014S03 and 2019S03).
+
+References
+ [1]   M. Tanabashi et al. (Particle Data Group), Phys. Rev. D, 98, 030001 (2018).
+ [2]   Y. I. Izotov, G. Stasińska, and N. G. Guseva, Astron. Astrophys., 558, A57 (2013).
+ [3]   E. Aver, K. A. Olive, and E. D. Skillman, J. Cosmol. Astropart. Phys., 2015(07), 011 (2015).
+ [4]   R. Adam, P. A. R. Ade, N. Aghanim, Y. Akrami, M. I. R. Alves, F. Argüeso, M. Arnaud, F. Arroja,
+       M. Ashdown, J. Aumont, et al., Astron. Astrophys., 594, A1 (2016).
+ [5]   G. Mathews, T. Kajino, and T. Shima, Phys. Rev. D, 71(2), 021302 (2005).
+ [6]   D. Mund, B. Märkisch, M. Deissenroth, J. Krempel, Marc Schumann, H. Abele, A. Petoukhov, and
+       T. Soldner, Phy. Rev. Lett., 110(17), 172502 (2013).
+ [7]   M. P. Mendenhall, R. W. Pattie Jr, Y. Bagdasarova, D. B. Berguno, L. J. Broussard, R. Carr, S. Currie,
+       X. Ding, B. W. Filippone, A. Garcı́a, et al., Phys. Rev. C, 87(3), 032501 (2013).
+ [8]   G. Darius, W. A. Byron, C. R. DeAngelis, M. T. Hassan, F. E. Wietfeldt, B. Collett, G. L. Jones, M. S.
+       Dewey, M. P. Mendenhall, J. S. Nico, et al., Phys. Rev. Lett., 119(4), 042502 (2017).
+ [9]   B. Märkisch, H. Mest, H. Saul, X. Wang, H. Abele, D. Dubbers, M. Klopf, A. Petoukhov, C. Roick,
+       T. Soldner, and D. Werder, Phys. Rev. Lett., 122, 242501 (2019).
+[10]   G. Mention, M. Fechner, Th. Lasserre, Th. A. Mueller, D. Lhuillier, M. Cribier, and A. Letourneau,
+       Phys. Rev. D, 83(7), 073006 (2011).
+[11]   F. E. Wietfeldt and G. L. Greene, Rev. Mod. Phys., 83(4), 1173 (2011).
+[12]   W. Mampe, L. N. Bondarenko, V. I. Morozov, Yu. N. Panin, and A. I. Fomin, JETP Lett., 57, 82–87,
+       [Pisma Zh. Eksp. Teor. Fiz.57,77(1993)] (1993).
+[13]   A. Pichlmaier, V. Varlamov, K. Schreckenbach, and P. Geltenbort, Phys. Lett. B, 693(3), 221–226
+       (2010).
+[14]   A. Steyerl, J. M. Pendlebury, C. Kaufman, S. S. Malik, and A. M. Desai, Phys. Rev. C, 85(6), 065503
+       (2012).
+[15]   S. Arzumanov, L. Bondarenko, S. Chernyavsky, P. Geltenbort, V. Morozov, V. V. Nesvizhevsky, Yu.
+       Panin, and A. Strepetov, Phys. Lett., B745, 79–89 (2015).
+[16]   A. P. Serebrov, E. A. Kolomenskiy, A. K. Fomin, I. A. Krasnoschekova, A. V. Vassiljev, D. M. Prudnikov,
+       I. V. Shoka, A .V. Chechkin, et al., JETP Letters, 106(10), 623–629 (2017).
+[17]   R. W. Pattie, N. B. Callahan, C. Cude-Woods, E. R. Adamek, Leah J. Broussard, S. M. Clayton, S. A.
+       Currie, E. B. Dees, Xinjian Ding, E. M. Engel, et al., Science, 360(6389), 627–632 (2018).
+[18]   V. F. Ezhov, A. Z. Andreev, G. Ban, B. A. Bazarov, P. Geltenbort, A. G. Glushkov, V. A. Knyazkov,
+       et al., JETP Letters, 107(11), 671–675 (2018).
+[19]   J. Byrne and P. G. Dawber, Europhys. Lett., 33, 187 (1996).
+[20]   A. T. Yue, M. S. Dewey, D. M. Gilliam, G. L. Greene, A. B Laptev, J. S. Nico, William M. Snow, and
+       F. E. Wietfeldt, Phys. Rev. Lett., 111(22), 222501 (2013).
+[21]   A. P. Serebrov, E. B. Aleksandrov, N. A. Dovator, S. P. Dmitriev, A. K. Fomin, P. Geltenbort, A. G.
+
+                                                      29
+     Kharitonov, I. A. Krasnoschekova, et al., Phys. Lett. B, 663(3), 181–185 (2008).
+[22] B. Fornal and B. Grinstein, Phys. Rev. Lett., 120(19), 191801 (2018).
+[23] Z. Tang, M. Blatnik, L. J. Broussard, J. H. Choi, S. M. Clayton, C. Cude-Woods, S. Currie, D. E.
+     Fellers, E. M. Fries, P. Geltenbort, et al., Phys. Rev. Lett., 121(2), 022505 (2018).
+[24] X. Sun, E. Adamek, B. Allgeier, M. Blatnik, T. J. Bowles, L. J. Broussard, M. A. P. Brown, R. Carr,
+     S. Clayton, C. Cude-Woods, et al., Phys. Rev. C, 97(5), 052501 (2018).
+[25] M. Klopf, E. Jericha, B. Märkisch, H. Saul, T. Soldner, and H. Abele, Phys. Rev. Lett., 122, 222503
+     (2019).
+[26] D. McKeen, A. E. Nelson, S. Reddy, and D. Zhou, Phys. Rev. Lett., 121, 061802 (2018).
+[27] T. F. Motta, P. A. M. Guichon, and A. W. Thomas, Journal of Physics G: Nuclear and Particle Physics,
+     45(5), 05LT01 (2018).
+[28] G. Baym, D. H. Beck, P. Geltenbort, and J. Shelton, Phys. Rev. Lett., 121, 061801 (2018).
+[29] B. Grinstein, C. Kouvaris, and N. G. Nielsen, Phys. Rev. Lett., 123, 091601 (2019).
+[30] J. S. Nico, Maynard S. Dewey, D. M. Gilliam, F. E. Wietfeldt, X. Fei, W. M. Snow, G. L. Greene,
+     J. Pauwels, R. Eykens, A. Lamberty, et al., Phys. Rev. C, 71(5), 055502 (2005).
+[31] R. Kossakowski, P. Grivot, P. Liaud, K. Schreckenbach, and G. Azuelos, Nucl. Phys. A, 503(2), 473–500
+     (1989).
+[32] S.F. Mughabghab, Atlas of Neutron Resonances: Resonance Parameters and Thermal Cross Sections,
+     Z = 1-100. , (Elsevier, 5th edition edition, 2006).
+[33] K. Mishima, T. Ino, K. Sakai, T. Shinohara, K. Hirota, K. Ikeda, H. Sato, Y. Otake, H. Ohmori,
+     S. Muto, et al., Nucl. Instrum. Methods Phys. Res. A, 600(1), 342–345 (2009).
+[34] Y. Arimoto, N. Higashi, Y. Igarashi, Y. Iwashita, T. Ino, R. Katayama, M. Kitaguchi, R. Kitahara,
+     H. Matsumura, K. Mishima, et al., Nucl. Instrum. Methods Phys. Res. A, 799, 187–196 (2015).
+[35] K. Nakajima, Y. Kawakita, S. Itoh, J. Abe, K. Aizawa, H. Aoki, H. Endo, M. Fujita, K. Funakoshi,
+     W. Gong, et al., Quantum Beam Science, 1(3), 9 (2017).
+[36] K. Mishima, Hamon neutron network news, 25(2), 156–160 (2015).
+[37] T. Ino, Y. Arimoto, T. Yoshioka, K. Mishima, K. Taketani, S. Muto, H. M. Shimizu, H. Kira,
+     Y. Sakaguchi, T. Oku, et al., Physica B, 406(12), 2424–2428 (2011).
+[38] K. Taketani, T. Ebisawa, M. Hino, K. Hirota, T. Ino, M. Kitaguchi, K. Mishima, S. Muto, H. Oide,
+     T. Oku, et al., Nucl. Instrum. Methods Phys. Res. A, 634(1), S134–S137 (2011).
+[39] T. Ino, H. Otono, K. Mishima, and T. Yamada, J. Phys. Conf. Ser., 528(1), 012039 (2014).
+[40] J Koga, S Ieki, A Kimura, M Kitaguchi, R Kitahara, K Mishima, N Nagakura, T Okudaira, H Otono,
+     HM Shimizu, et al., arXiv preprint arXiv:2007.15302 (2020).
+[41] Richard B Firestone and Virginia S Shirley, Table of isotopes, version 1.0, (Wiley-Interscience
+     Publication, 1996).
+[42] Y. Igarashi, H. Fujii, T. Higuchi, M. Ikeno, E. Inoue, T. Murakami, Y. Nagasaka, M. Nakao,
+     K. Nakayoshi, M. Saitoh, et al., IEEE transactions on nuclear science, 52(6), 2866–2871 (2005).
+[43] J. Allison, K. Amako, J. Apostolakis, P. Arce, M. Asai, T. Aso, E. Bagli, A. Bagulya, S. Banerjee,
+     G. Barrand, et al., Nucl. Instrum. Methods Phys. Res. A, 835, 186–225 (2016).
+[44] N. Nagakura, K. Fujii, I. Harayama, Y. Kato, D. Sekiba, Y. Watahiki, and S. Yamashita, Prog. Theor.
+     Exp. Phys., 2018(1), 013C01 (2018).
+[45] K. Mishima, H. Sumino, T. Yamada, S. Ieki, N. Nagakura, H. Otono, and H. Oide, Geochemistry,
+     Geophysics, Geosystems, 19(10), 3995–4005 (2018), arXiv:1804.0804.
+[46] R. Kitahara, K. Hirota, S. Ieki, T. Ino, Y. Iwashita, M. Kitaguchi, J. Koga, K. Mishima, A. Morishita,
+     N. Nagakura, et al., Prog. Theor. Exp. Phys., 2019(9), 093C01 (2019).
+[47] H. Sumino, K. Nagao, and K. Notsu, Journal of the Mass Spectrometry Society of Japan, 49(2), 61–68
+     (2001).
+[48] JSME Data Book, Tokyo, Japan, Japanese Society of Mechanical Engineers (2009).
+[49] T. Sato, Y. Iwamoto, S. Hashimoto, T. Ogawa, T. Furuta, S. Abe, T. Kai, P. E. Tsai, N. Matsuda,
+     H. Iwase, et al., Journal of Nuclear Science and Technology, 55(6), 684–690 (2018).
+[50] M. Berglund and M. E. Wieser, Pure and applied chemistry, 83(2), 397–410 (2011).
+[51] N. Z. Alcock and D. G. Hurst, Phys. Rev., 75(10), 1609 (1949).
+[52] N. Z. Alcock and D. G. Hurst, Phys. Rev., 83(6), 1100 (1951).
+[53] W. Blum, W. Riegler, and L. Rolandi, Particle detection with drift chambers, (Springer Science &
+     Business Media, 2008).
+[54] M. J. Bales, R. Alarcon, C. D. Bass, E. J. Beise, H. Breuer, J. Byrne, T. E. Chupp, K. J. Coakley,
+     R. L. Cooper, M. S. Dewey, et al., Phys. Rev. Lett, 116(24), 242501 (2016).
+[55] Yu. V. Gaponov and R. U. Khafizov, Phys. Lett. B, 379(1), 7–12 (1996).
+
+
+
+
+                                                   30
+

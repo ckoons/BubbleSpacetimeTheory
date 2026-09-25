@@ -1,0 +1,774 @@
+                                                              Measurement of the 2νββ Decay Half-life of 130 Te with CUORE
+
+                                                   D. Q. Adams,1 C. Alduino,1 K. Alfonso,2 F. T. Avignone III,1 O. Azzolini,3 G. Bari,4 F. Bellini,5, 6
+                                                   G. Benato,7 M. Biassoni,8 A. Branca,9, 8 C. Brofferio,9, 8 C. Bucci,7 J. Camilleri,10 A. Caminata,11
+                                              A. Campani,12, 11 L. Canonica,13, 7 X. G. Cao,14 S. Capelli,9, 8 L. Cappelli,7, 15, 16 L. Cardani,6 P. Carniti,9, 8
+                                               N. Casali,6 D. Chiesa,9, 8 M. Clemenza,9, 8 S. Copello,12, 11 C. Cosmelli,5, 6 O. Cremonesi,8 R. J. Creswick,1
+                                                     A. D’Addabbo,17, 7 I. Dafinei,6 C. J. Davis,18 S. Dell’Oro,9, 8 S. Di Domizio,12, 11 V. Dompè,17, 7
+                                               D. Q. Fang,14 G. Fantini,5, 6 M. Faverzani,9, 8 E. Ferri,9, 8 F. Ferroni,17, 6 E. Fiorini,8, 9 M. A. Franceschi,19
+                                               S. J. Freedman,16, 15, ∗ S.H. Fu,14 B. K. Fujikawa,16 A. Giachero,9, 8 L. Gironi,9, 8 A. Giuliani,20 P. Gorla,7
+                                                 C. Gotti,8 T. D. Gutierrez,21 K. Han,22 K. M. Heeger,18 R. G. Huang,15 H. Z. Huang,2 J. Johnston,13
+                                                G. Keppel,3 Yu. G. Kolomensky,15, 16 C. Ligi,19 L. Ma,2 Y. G. Ma,14 L. Marini,15, 16 R. H. Maruyama,18
+                                              D. Mayer,13 Y. Mei,16 N. Moggi,23, 4 S. Morganti,6 T. Napolitano,19 M. Nastasi,9, 8 J. Nikkel,18 C. Nones,24
+
+
+
+
+arXiv:2012.11749v2 [nucl-ex] 19 May 2021
+                                           E. B. Norman,25, 26 A. Nucciotti,9, 8 I. Nutini,9, 8 T. O’Donnell,10 J. L. Ouellet,13 S. Pagan,18 C. E. Pagliarone,7, 27
+                                                 L. Pagnanini,17, 7 M. Pallavicini,12, 11 L. Pattavina,7 M. Pavan,9, 8 G. Pessina,8 V. Pettinacci,6 C. Pira,3
+                                              S. Pirro,7 S. Pozzi,9, 8 E. Previtali,9, 8 A. Puiu,17, 7 C. Rosenfeld,1 C. Rusconi,1, 7 M. Sakai,15 S. Sangiorgio,25
+                                                    B. Schmidt,16 N. D. Scielzo,25 V. Sharma,10 V. Singh,15 M. Sisti,8 D. Speller,28 P.T. Surukuchi,18
+                                                   L. Taffarello,29 F. Terranova,9, 8 C. Tomei,6 K. J. Vetter,15, 16 M. Vignati,6 S. L. Wagaarachchi,15, 16
+                                            B. S. Wang,25, 26 B. Welliver,16 J. Wilson,1 K. Wilson,1 L. A. Winslow,13 S. Zimmermann,30 and S. Zucchelli23, 4
+                                                      1
+                                                         Department of Physics and Astronomy, University of South Carolina, Columbia, SC 29208, USA
+                                                          2
+                                                           Department of Physics and Astronomy, University of California, Los Angeles, CA 90095, USA
+                                                                       3
+                                                                         INFN – Laboratori Nazionali di Legnaro, Legnaro (Padova) I-35020, Italy
+                                                                                     4
+                                                                                       INFN – Sezione di Bologna, Bologna I-40127, Italy
+                                                                      5
+                                                                        Dipartimento di Fisica, Sapienza Università di Roma, Roma I-00185, Italy
+                                                                                        6
+                                                                                          INFN – Sezione di Roma, Roma I-00185, Italy
+                                                                   7
+                                                                     INFN – Laboratori Nazionali del Gran Sasso, Assergi (L’Aquila) I-67100, Italy
+                                                                                 8
+                                                                                   INFN – Sezione di Milano Bicocca, Milano I-20126, Italy
+                                                                      9
+                                                                        Dipartimento di Fisica, Università di Milano-Bicocca, Milano I-20126, Italy
+                                              10
+                                                 Center for Neutrino Physics, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061, USA
+                                                                                     11
+                                                                                        INFN – Sezione di Genova, Genova I-16146, Italy
+                                                                           12
+                                                                              Dipartimento di Fisica, Università di Genova, Genova I-16146, Italy
+                                                                            13
+                                                                               Massachusetts Institute of Technology, Cambridge, MA 02139, USA
+                                                                          14
+                                                                             Key Laboratory of Nuclear Physics and Ion-beam Application (MOE),
+                                                                         Institute of Modern Physics, Fudan University, Shanghai 200433, China
+                                                                     15
+                                                                        Department of Physics, University of California, Berkeley, CA 94720, USA
+                                                          16
+                                                             Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+                                                                                    17
+                                                                                       Gran Sasso Science Institute, L’Aquila I-67100, Italy
+                                                            18
+                                                               Wright Laboratory, Department of Physics, Yale University, New Haven, CT 06520, USA
+                                                                        19
+                                                                           INFN – Laboratori Nazionali di Frascati, Frascati (Roma) I-00044, Italy
+                                                                          20
+                                                                             Université Paris-Saclay, CNRS/IN2P3, IJCLab, 91405 Orsay, France
+                                                        21
+                                                           Physics Department, California Polytechnic State University, San Luis Obispo, CA 93407, USA
+                                                                                        22
+                                                                                           INPAC and School of Physics and Astronomy,
+                                               Shanghai Jiao Tong University; Shanghai Laboratory for Particle Physics and Cosmology, Shanghai 200240, China
+                                                 23
+                                                    Dipartimento di Fisica e Astronomia, Alma Mater Studiorum – Università di Bologna, Bologna I-40127, Italy
+                                                                          24
+                                                                             IRFU, CEA, Université Paris-Saclay, F-91191 Gif-sur-Yvette, France
+                                                                          25
+                                                                             Lawrence Livermore National Laboratory, Livermore, CA 94550, USA
+                                                             26
+                                                                Department of Nuclear Engineering, University of California, Berkeley, CA 94720, USA
+                                                                                        27
+                                                                                           Dipartimento di Ingegneria Civile e Meccanica,
+                                                                  Università degli Studi di Cassino e del Lazio Meridionale, Cassino I-03043, Italy
+                                                                         28
+                                                                            Department of Physics and Astronomy, The Johns Hopkins University,
+                                                                                        3400 North Charles Street Baltimore, MD, 21211
+                                                                                     29
+                                                                                        INFN – Sezione di Padova, Padova I-35131, Italy
+                                                             30
+                                                                Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+                                                                                                      (Dated: May 20, 2021)
+                                                          We measured two-neutrino double beta decay of 130 Te using an exposure of 300.7 kg·yr accumu-
+                                                       lated with the CUORE detector. Using a Bayesian analysis to fit simulated spectra to experimental
+                                                       data, it was possible to disentangle all the major background sources and precisely measure the
+                                                       two-neutrino contribution. The half-life is in agreement with past measurements with a strongly
+                                                                                                                            2
+
+                                                             +0.12
+                                    2ν
+             reduced uncertainty: T1/2  = 7.71+0.08
+                                                −0.06 (stat.)−0.15 (syst.) × 10
+                                                                                20
+                                                                                   yr. This measurement is the most
+                                          130
+             precise determination of the     Te 2νββ decay half-life to date.
+
+
+                   INTRODUCTION                                   energy resolution is second only to that of Ge detectors.
+                                                                  Si heaters are used to inject regular reference pulses for
+   Two-neutrino double beta (2νββ) decay is a nuclear             a detector-based correction of thermal gain drifts from
+transition with the longest lifetime experimentally mea-          long term temperature variations.
+sured. This process occurs when two neutrons in a nu-                The detector is housed in a large cryogen-free cryostat,
+cleus simultaneously decay emitting two anti-neutrinos            cooled to ∼10 mK by a dilution refrigerator [32]. The
+and two electrons. This decay can act as background               cryostat and the detector were constructed with strict
+for a hypothetical process called neutrinoless double beta        radiopurity controls [30] in order to reduce the α and γ
+(0νββ) decay [1], which may occur if the neutrino were a          backgrounds seen in Cuoricino [33], and further reduce
+Majorana fermion [2], and which violates lepton number            the γ background seen in CUORE-0 [34]. The cryostat
+conservation [3]. 0νββ decay would be new physics and             is equipped with two lead shields: a 6-cm thick shield
+could explain the origin and nature of the neutrino mass          of ancient Roman lead [35] at ∼4 K around and below
+states [4–7].                                                     the detector, and a 30-cm thick shield at ∼50 mK lo-
+   Precision measurements of the 2νββ decay half-life             cated above the detector. An additional external shield
+and studies of the 2νββ decay spectral shape can pro-             is comprised of a 25-cm thick layer of lead surrounded
+vide important input for nuclear models [8–11]. Mea-              by a 20-cm thick layer of polyethylene. A layer (2 cm
+surements are available in literature for the 2νββ de-            thick) of boric acid that absorbs thermalized neutrons is
+cay of various isotopes such as 116 Cd (Aurora [12]), 76 Ge       located between the two shields.
+(GERDA [13]), 100 Mo (CUPID-Mo [14]), 150 Nd (NEMO-                  When 2νββ decay occurs inside a bolometer the neu-
+3 [15]), 82 Se (NEMO-3 [16], CUPID-0 [17]), 136 Xe (EXO-          trinos escape without interacting, thus we detect the two
+200 [18], KamLAND-Zen [19, 20]), and 96 Zr (NEMO-                 electrons sum kinetic energy forming a continuous, β-
+3 [21]). This paper will discuss the first measurement            like spectrum from 0 keV up to the Q-value of the decay
+of the 130 Te 2νββ decay half-life performed with the un-         (Qββ = 2527 keV [36–38]). Background contributions to
+precedented statistics of the Cryogenic Underground Ob-           this spectrum originate from radioactivity in the detec-
+servatory for Rare Events (CUORE) experiment.                     tor and cryostat components. These backgrounds can be
+   The CUORE experiment primarily searches for neutri-            disentangled and quantified via careful analysis of the ob-
+noless double beta decay (0νββ) of 130 Te →130 Xe + 2e−           served spectral shape and topological information in the
+[22, 23], however other searches are possible [24–27]. This       segmented CUORE detector in comparison to a detailed
+letter will outline first the CUORE detector, the data            background model [39, 40].
+collection, and the analysis of the 2νββ decay of 130 Te.
+Thereafter, we provide a description of the technique
+used to fit the experimental data (comprised of events                              DATA COLLECTION
+from both the 2νββ decay and the background sources),
+and finally we present a discussion of the fit results.              CUORE began taking data in early 2017. The data
+                                                                  collected through mid 2019 are analyzed in this work
+                                                                  and are grouped into 7 datasets (physics data bounded
+                 CUORE DETECTOR                                   by 232 Th and 60 Co calibration data). The 2νββ decay
+                                                                  analysis requires high quality data over the whole en-
+   CUORE is located underground at the Gran Sasso                 ergy range, specifically channels need to be both well-
+National Laboratory of INFN, Italy, with ∼3600 meter              performing and well-calibrated. This led us to exclude 2
+water equivalent overburden to shield from cosmogenic             datasets from the analysis given that the large majority
+backgrounds [28, 29]. The CUORE detector consists of              of channels did not satisfy these criteria. With this choice
+988 TeO2 crystals [30] arranged in 19 towers made of 13           of dataset-channel we have 300.7 kg·yr of TeO2 exposure
+floors of 4 crystals, read out as individual channels. Each       (102.7 kg·yr of 130 Te exposure).
+crystal is 5×5×5 cm3 in size and ∼750 g in mass, with a              The data itself are a collection of events, corresponding
+natural abundance of ∼34% for 130 Te. The crystals are            to a triggered waveform on a single bolometer. The mod-
+cooled to ∼10 mK at which point they have a low heat              ularity of the detector allows us to reconstruct the event
+capacity and can be operated as cryogenic bolometers.             topology via a time based coincidence analysis. Events
+The energy deposited in the crystal by particle inter-            are grouped into multiplets, Mi (i = number of trig-
+action causes a temperature increase which is measured            gered bolometers) if they occur within a ±30 ms window
+via a neutron transmutation doped (NTD) Ge thermis-               on bolometers that are ≤ 15 cm apart from each other,
+tor [31]. The signal rise time is ∼100 ms, and the high           with a minimum energy of 70 keV. Given the extremely
+                                                                                                                              3
+
+
+
+
+      Counts/keV
+                                                            40
+                                             60
+                                                  Co 60Co        K             CUORE data, M1 (300.7 kg•y)
+                                                                                  Te 2νββ Fit reconstruction
+                                                                               130
+                                    228
+                   103                Ac
+                                                                               M1 Fit reconstruction
+                                                                                                             208
+                                                                                                               Tl
+                                                                        214
+                                                                          Bi
+
+                   102
+                                                                                           214
+                                                                                             Bi
+                                                                                     208
+                                                                                       Tl
+                                                                                                  214
+                                                                                                        Bi
+
+                   10
+
+
+
+
+                         500          1000                  1500                2000               2500
+                                                                                                    Energy (keV)
+
+
+FIG. 1. The observed M1 spectrum (black ) compared with its reconstruction as obtained by the background model (blue). The
+reconstructed 2νββ decay component is shown in yellow for comparison. We observe that from 900 to 2000 keV more than 50%
+of the M1 spectrum counts originate from the 2νββ decay process. The experimental data and the spectra reconstructed by the
+fit have been converted back to 1 keV binning for illustrative purposes. Selected gamma lines from background contaminants
+are labeled.
+
+
+low trigger rate of CUORE bolometers (∼1 mHz) and the                structed peak position and its nominal value, is measured
+distance requirement, multiplets with i > 1 contain prac-            in calibration data for γ lines that span from 511 keV to
+tically no accidental coincidence events and are mainly              2.6 MeV. The resulting bias is well below 0.5 keV for
+induced by particles depositing energy in multiple crys-             all the datasets. A similar result is obtained by fitting γ
+tals.                                                                peaks due to background sources. The signal efficiency,
+                                                                     defined as the probability of a signal being triggered, as-
+   We split the data into three types of spectra: a mul-             signed to a correct energy and multiplicity, and finally
+tiplicity 1 (M1 ) spectrum comprised of events where                 passing data selection cuts, has an energy dependent be-
+energy was deposited into a single bolometer, a mul-                 havior and is asymptotic to ∼95%.
+tiplicity 2 (M2 ) spectrum comprised of the single en-
+ergies detected by each of the two bolometers simulta-
+neously triggered, and a Σ2 spectrum comprised of the
+sum energy of the M2 events. The energy of a 2νββ                                          SPECTRAL FIT
+decay event is deposited into a single bolometer with a
+probability obtained from Monte Carlo simulations of ∼                  We analyze the events with energies from a thresh-
+90%. The majority of backgrounds deposit energy across               old of 350 keV to 2.8 MeV, where the M1 spectrum is
+two or more bolometers (such as γ’s that scatter from one            dominated by 2νββ decay (between 900 to 2000 keV the
+crystal into another or α decays that occur on a surface             contribution exceeds 50% of total M1 events) along with
+between two crystals), making the M2 and Σ2 spectra                  γ/β emissions from radioactive contaminants. To disen-
+useful for understanding backgrounds. Events with mul-               tangle the 2νββ decay signal we construct a background
+tiplicity higher than 2 are not considered in this analysis          model (BM) that describes the data via a comprehen-
+since they do not add new information. The specific steps            sive list of possible sources. Guidelines for this work are
+of the data processing and selection criteria are found in           taken from the CUORE-0 BM [39] and the CUORE back-
+[23]. These steps include a dataset dependent evaluation             ground budget [41]. The background sources are radioac-
+of the energy calibration bias, and of the signal efficiency.        tive contaminations located both in the bulk of the detec-
+The former, defined as the difference between the recon-             tor and cryostat components, on the surfaces of crystals,
+                                                                                                                         4
+
+and materials with a line of sight to them. We also in-        become dominant, and is used to extract a Gaussian prior
+clude cosmogenic muons.                                        for the BM fit. The fit result is a joint posterior PDF for
+   We developed a Geant4 [42] Monte Carlo (MC) sim-            the 62 parameters from which we extract the marginal-
+ulation [39, 41] which outputs the spectra produced by         ized posterior PDF for the 2νββ decay rate. The fitting
+each source in the detector, reproducing all relevant fea-     procedure closely follows the description in [39] and a
+tures of the experimental data (e.g., multiplicity, time       paper detailing the CUORE BM is in preparation.
+resolution, energy dependent trigger efficiencies, etc.).
+The elements of the CUORE experiment, including the
+cryostat, are grouped into 9 geometric entities used in                       MODEL SYSTEMATICS
+the model as background source positions: the crystals,
+the copper structure holding the towers, the copper ves-          The background model is able to reproduce the ma-
+sel enclosing the detector, the Roman lead, the internal       jor features of the observed spectra (see Fig. 1) with
+and external shields made of modern lead, the cryostat         a global χ2 /d.o.f of 681/365 (χ2red = 1.87). The sub-
+thermal shields (grouped into two elements: the copper         optimal agreement between the data and the MC likely
+shields inside the Roman lead and those outside), and fi-      arises from an imperfect modelling of source position and
+nally the internal lead suspension system. The BM uses         distribution. Increased statistics from more data will al-
+62 simulated sources to fit the experimental data. One is      low for refinement of the background model by better
+the 2νββ decay in the crystals, and 60 others refer to dif-    identifying source locations or additional sub-dominant
+ferent contaminants in the 9 elements listed above. These      contaminants. This fit makes very limited use of the
+include bulk and surface 238 U and 232 Th contaminations       data and it is based on a simplified description of sources,
+(allowing for secular equilibrium breaks), bulk 60 Co, 40 K,   therefore the result is not particularly informative on the
+and a few other long lived isotopes, as indicated in Fig. 1.   specific position and intensity of a source. Overall the
+All these isotopes are identified from the presence of one     background composition matches very well the expecta-
+or more characteristic γ lines in the observed spectra.        tion discussed in [41] with a few exceptions. We see an
+The only exception is 90 Sr, a long-lived pure β emitter,      excess of 238 U in the cryostat elements. The localization
+that could be present due to a hypothesized contami-           is not clear, but the 2νββ decay result is insensitive to
+nation by radioactive fallout. The remaining simulation        the source position. We also have a quite evident 210 Pb
+(number 62) is the cosmogenic muon flux. As described          surface contamination of the copper of the tower holding
+in [39] a variable binning is applied to all the spectra:      structure that is ∼100 times higher than in CUORE-0.
+the minimum bin size is 15 keV, and bins with less than        Its major contribution to the measured spectra is the α
+30 counts are merged. All counts belonging to a single γ       peak at 5.3 MeV due to 210 Po. The shape of the peak
+line are combined into a single bin to avoid systematics       proves that the contamination is right at the surface of
+from the modeling of the γ peak shapes in MC simula-           the copper, likely due to 222 Rn exposure. We observe
+tions. Finally, the trigger efficiency vs. energy and the      an excess in the 60 Co crystal contamination compared
+efficiency of quality cuts are included in the analysis as     with the expected 1 nBq/kg [41]. However, this is anti-
+global parameters.                                             correlated with 60 Co in the copper of the tower holding
+   The observed spectrum is reconstructed by simultane-        structure. Increased statistics and a more extensive use
+ously fitting a linear combination of the 62 MC simu-          of coincidences will allow to clarify this point.
+lated spectra to the M1 , M2 , and Σ2 data. The fit is            In order to check the stability of the 2νββ decay half-
+done with a Bayesian approach using a Markov-Chain             life result we run multiple fits over the whole dataset
+Monte Carlo (MCMC), implemented in the JAGS soft-              varying aspects of the background model. In particular
+ware package, to sample the joint posterior probability        we test two different models for the 2νββ decay spectral
+density function (PDF) of the fit parameters [43–46]. The      shape, we alter the list of background sources used and
+likelihood is a product, over bins and spectra, of Poisson     we remove the 90 Sr source. As additional probes of our
+distributions that give the probability of drawing the ex-     sensitivity to various aspects of the BM sources we fit
+perimental counts as a function of the MC spectra nor-         subsets of data in which we split the detector in half in
+malizations. To prevent bias while tuning data quality         different ways (see Fig. 2) and perform the fit on single
+cuts and setting the fitting procedure, the MC normaliza-      datasets.
+tion coefficient was blinded to keep the extracted 2νββ
+decay half-life in terms of a nonphysical ratio that could        – 2νββ Decay Model There are two competing
+not be compared to previous results.                                models for 2νββ decay, yielding slightly different
+   For each source, except cosmogenic muons, a uniform              spectral shapes [10, 11, 47]. The Single State Dom-
+prior is used (the activity can span from zero to 10 times          inance (SSD) is the default used in this analysis.
+the maximum activity compatible with the measured                   It results in a better fit quality, and might be the
+spectrum). For muons, additional information is gained              first experimental hint for SSD dominance in 130 Te
+from the high multiplicity spectra (M > 5) where muons              2νββ decay. The alternate mechanism, Higher
+                                                                                                                                                                                  5
+
+                      ×1021                                                                                                allow us to constrain its activity [17]. The 2νββ de-
+2ν T1/2 (yr)
+                0.8
+                              Channel                            Floor                          Tower
+                                                                                                                           cay result is weakly sensitive to this contaminant,
+               0.79                                                                                                        as upon its removal the counts ascribed to 2νββ
+               0.78
+                                                                                                                           decay increase resulting in a slightly shorter half-
+                                                                                                                           life. Since 90 Sr has no clear signature we use it as a
+               0.77
+                                                                                                                           proxy for the removal or addition of components to
+               0.76
+                                                                                                                           the BM. We take the systematic to be symmetric
+               0.75                                                                                                        and 68% of the difference between the best fit and
+               0.74                        4        9
+                                                                                                                           the fit without, giving ±0.3%.
+                      Eve
+                         n     Odd igit: 0- igit: 5- irst half nd half   Eve
+                                                                            n   Odd irst half nd half   Eve
+                                                                                                           n   Odd
+                                  td       td         F   Sec
+                                                              o                    F     Sec
+                                                                                             o
+                              Las      Las
+
+                                                                                                                         – Datasets We investigated the 2νββ decay result
+FIG. 2. Results of the 2νββ decay half-life from the tests in                                                              stability in time by fitting separately each of the
+which data are fit by splitting the detector in half in different                                                          5 datasets used in this analysis and observed only
+ways Channel: Detector split based on channel numbers as-
+signed to the individual crystals (even, odd, last digits: 0-4,
+                                                                                                                           statistical variations in the fit result. We also fit the
+5-9). Floor: Detector split based on tower floor number (first                                                             two excluded datasets and use the result to quantify
+and second halves, even, odd). Tower: Detector split based                                                                 the bias introduced by their removal. This yields
+on tower number (first and second halves, even, odd). The                                                                  an asymmetric uncertainty of +0.3% and -1.1%.
+results are compared to the one obtained in the full statistics
+fit (red solid line) and its statistical uncertainty range (red                                                          – List of background sources In the reference
+dashed lines)                                                                                                              fit we use 62 sources, selected to be comprehen-
+                                                                                                                           sive, as extracted from the CUORE-0 background
+                                                                                                                           model [39]. Given the limited statistics used in
+                      State Dominance (HSD), yields a slightly worse fit                                                   this work and the choice of fitting only the γ re-
+                      and a few percent increase of the 2νββ half-life. As                                                 gion some of the sources could be degenerate with
+                      this is the only shape test we perform on the 2νββ                                                   each other while others cannot be identified eas-
+                      decay spectrum, we conservatively assume this sys-                                                   ily. To check how the fit performs with a different
+                      tematic to be double-sided and estimate the uncer-                                                   background source list, all components with con-
+                      tainty as 68% of the difference between the fits with                                                tributions compatible with 0, including 90 Sr, are
+                      HSD and SSD: ±1.3%.                                                                                  removed. This reduces the number of distinct back-
+                                                                                                                           ground source components down to 25. This has an
+                – Energy Threshold The energy threshold used in                                                            impact on the 2νββ decay fit result compatible to
+                  this analysis is 350 keV. If we vary this threshold                                                      that resulting from the removal of the 90 Sr alone.
+                  in the range of 300–800 keV we observe an increase
+                  of the 2νββ decay rate. We assume this systematic
+                                                                                                                        As a result of this study we can conclude that all the
+                  to be uniform between the best fit and the value
+                                                                                                                     systematics we explored are at most in the range of 1%.
+                  that deviates the most. We symmetrize this uncer-
+                                                                                                                     The dominant contribution comes from the uncertainty
+                  tainty around the best fit to account for possible
+                                                                                                                     in the decay model (SSD vs HSD) which may be improved
+                  deviations given by untested threshold values, with
+                                                                                                                     with increased statistics or theoretical input. Finally,
+                  a result of ±0.4%.
+                                                                                                                     other sources of uncertainties such as the efficiency of our
+                                                                                                                     coincidence selection, the chance of mixing up M1 with
+                – Geometrical effect All contaminants in the
+                                                                                                                     M2 events, or the efficiency of pulse shape cuts, have an
+                  model are uniformly distributed in the 9 simulated
+                                                                                                                     overall impact on the final error that is lower than 0.1%.
+                  elements. To investigate possible biases we com-
+                                                                                                                     The Monte Carlo statistics, though optimized to yield
+                  pare fits done by splitting the detector according to
+                                                                                                                     negligible error, is properly accounted for in the fitting
+                  crystal, floor, or tower number (see Fig. 2). Each
+                                                                                                                     procedure.
+                  pair of results are statistically compatible with each
+                  other to within two sigma. We take the pair with
+                  the largest splitting, subtract the statistical error
+                  and interpret the result as the 1σ uncertainty of a                                                    2νββ DECAY RESULTS AND DISCUSSION
+                  flat distribution: ±0.8%
+                                                                                                                        To extract a robust estimate of the 2νββ decay half-
+                – 90 Sr As mentioned, a background source due to                                                     life, we combine our systematics in quadrature. Through
+                  possible crystal contamination with 90 Sr was intro-                                               the unblinding of the correct normalization coefficient for
+                  duced. This is the only long-lived pure β emitter                                                  the MC spectrum, we obtain the measurement of the
+                  produced by fission that produces a background                                                     2νββ decay half-life of 130 Te. Though the posterior for
+                  (via its daughter 90 Y) extending up to 2.2 MeV,                                                   90
+                                                                                                                        Sr is compatible with null activity, the insertion of 90 Sr
+                  without any associated gamma emission that would                                                   in the BM does weakly distort the 2νββ decay posterior.
+                                                                                                                              6
+
+Removal of the 90 Sr source results in a symmetric poste-          Nucleare (INFN); the National Science Foundation
+rior, however we choose to include this source due to the          under Grant Nos.          NSF-PHY-0605119, NSF-PHY-
+high anti-correlation with 2νββ decay.                             0500337, NSF-PHY-0855314, NSF-PHY-0902171, NSF-
+   We use an isotopic abundance of 130 Te of (34.167               PHY-0969852, NSF-PHY-1307204, NSF-PHY-1314881,
+± 0.002)% [48]. From this, and the systematic un-                  NSF-PHY-1401832, and NSF-PHY-1913374; and Yale
+certainties described previously, we obtain a half-life            University. This material is also based upon work
+                             +0.12
+      2ν
+of T1/2  = 7.71+0.08
+                −0.06 (stat.)−0.15 (syst.) × 10
+                                                20
+                                                   yr, a value     supported by the US Department of Energy (DOE)
+consistent with previous measurements (see Table I).               Office of Science under Contract Nos.          DE-AC02-
+This result is the most precise measurement of the 2νββ            05CH11231 and DE-AC52-07NA27344; by the DOE Of-
+decay half-life of 130 Te to date and one of the most pre-         fice of Science, Office of Nuclear Physics under Contract
+cise measurements of a 2νββ decay half-life. It repre-             Nos. DE-FG02-08ER41551, DE-FG03-00ER41138, DE-
+sents a substantial improvement over previous measure-             SC0012654, DE-SC0020423, DE-SC0019316; and by the
+ments from NEMO-3 [49] and CUORE-0 [39] owing to                   EU Horizon2020 research and innovation program un-
+the CUORE strict radiopurity controls, the improved                der the Marie Sklodowska-Curie Grant Agreement No.
+signal-to-noise ratio, the increased statistics, and the ro-       754496. This research used resources of the National
+bust background model.                                             Energy Research Scientific Computing Center (NERSC).
+                                                                   This work makes use of both the DIANA data anal-
+                                                                   ysis and APOLLO data acquisition software packages,
+                              2ν
+TABLE I. Chronology of T1/2       measurement in 130 Te. The       which were developed by the CUORICINO, CUORE,
+relative uncertainty refers to statistical and systematic errors   LUCIFER and CUPID-0 Collaborations.
+summed in quadrature.
+            2ν
+          T1/2  (1020 yr) Relative Uncert.     Ref.
+  MiBeta  6.1 ± 1.4 +2.9
+                     −3.5       57%          2003  [50]
+  NEMO-3 7.0 ± 0.9 ± 1.1        20%          2011 [49]
+                                                                      ∗
+  CUORE-0 8.2 ± 0.2 ± 0.6       7.7%         2016 [39]                  Deceased
+  CUORE 7.71+0.08+0.12
+               −0.06−0.15       2.0%       (this result)            [1] W. H. Furry, Phys. Rev. 56, 1184 (1939).
+                                                                    [2] J. D. Vergados, H. Ejiri,            and F. Šimkovic,
+                                                                        Rep. Prog. Phys. 75, 106301 (2012).
+                                                                    [3] M. Fukugita and T. Yanagida, Phys. Lett. B 174, 45
+                                                                        (1986).
+                      CONCLUSION                                    [4] T. Kajita, Rev. Mod. Phys. 88, 030501 (2016).
+                                                                    [5] A. B. McDonald, Rev. Mod. Phys. 88, 030502 (2016).
+   In this paper we described the analysis of the 130 Te            [6] K. Eguchi et al., Phys. Rev. Lett. 90, 021802 (2003).
+                                                                    [7] F. P. An et al., Phys. Rev. D 95, 072006 (2017).
+2νββ decay measured with CUORE. We exploit the ge-
+                                                                    [8] J. T. Suhonen, Front. Phys. 5, 55 (2017).
+ometry of the CUORE detector to tag single scatter and              [9] F. Šimkovic, R. Dvornický, D. c. v. Štefánik, and
+multiple scatter events to obtain separate spectra dom-                 A. Faessler, Phys. Rev. C 97, 034315 (2018).
+inated by 2νββ decay and background events, respec-                [10] O. Moreno, R. Álvarez-Rodrı́guez, P. Sarriguren, E. M.
+tively. The 130 Te 2νββ decay half-life is measured to be               de Guerra, F. Šimkovic, and A. Faessler, J. Phys. G 36,
+  2ν        +0.08        +0.12
+T1/2  = 7.71−0.06 (stat.)−0.15 (syst.) × 1020 yr. Compared              015106 (2008).
+to previous results (Table I) this is the most precise de-         [11] P. Domin, S. Kovalenko, F. Šimkovic, and S. Semenov,
+                                                                        Nucl. Phys. A 753, 337 (2005).
+termination of the 2νββ decay half-life in 130 Te. The             [12] A. S. Barabash et al., Phys. Rev. D 98, 092007 (2018).
+present result is dominated by a ∼2% systematic uncer-             [13] M. Agostini et al., Eur. Phys. J. C 75, 416 (2015).
+tainty. Further improvement will require a better un-              [14] Armengaud, E. et al., Eur. Phys. J. C 80, 674 (2020).
+derstanding of the background sources localization, as             [15] R. Arnold et al., Phys. Rev. D 94, 072003 (2016).
+indicated by the observed BM variations with different             [16] R. Arnold et al., Eur. Phys. J. C 79, 440 (2019).
+geometrical detector splittings. This refinement, as well          [17] O. Azzolini et al., Phys. Rev. Lett. 123, 262501 (2019).
+as an improved study of the SSD vs HSD models, is feasi-           [18] J. B. Albert et al., Phys. Rev. C 89, 015502 (2014).
+                                                                   [19] A. Gando et al., Phys. Rev. Lett. 117, 082503 (2016).
+ble in the near future given the increased statistics being        [20] A. Gando et al., Phys. Rev. Lett. 122, 192501 (2019).
+collected by CUORE.                                                [21] J. Argyriades et al., Nucl. Phys. A 847, 168 (2010).
+                                                                   [22] C. Alduino et al., Phys. Rev. Lett. 120, 132501 (2018).
+                                                                   [23] D. Q. Adams et al., Phys. Rev. Lett. 124, 122501 (2020).
+                ACKNOWLEDGMENTS                                    [24] C. Alduino et al., Phys. Rev. C 97, 055502 (2018).
+                                                                   [25] C. Alduino et al., Int. J. Mod. Phys. A 33, 1843002
+                                                                        (2018).
+  The CUORE Collaboration thanks the directors and
+                                                                   [26] C. Alduino et al., Eur. Phys. J. C 79, 795 (2019).
+staff of the Laboratori Nazionali del Gran Sasso and               [27] C. Alduino et al., Eur. Phys. J. C 77, 857 (2017).
+the technical staff of our laboratories.   This work               [28] M. Aglietta et al., Phys. Rev. D 58, 092005 (1998).
+was supported by the Istituto Nazionale di Fisica
+                                                                  7
+
+[29] F. Bellini, C. Bucci, S. Capelli, O. Cremonesi, L. Gironi,
+     M. Martinez, M. Pavan, C. Tomei, and M. Vignati, As-
+     tropart. Phys. 33, 169 (2010).
+[30] C. Arnaboldi et al., J. Cryst. Growth 312, 2999 (2010).
+[31] E. E. Haller, N. P. Palaio, M. Rodder, W. L. Hansen,
+     and E. Kreysa, “NTD Germanium: A Novel Material for
+     Low Temperature Bolometers,” in Neutron Transmuta-
+     tion Doping of Semiconductor Materials, edited by R. D.
+     Larrabee (Springer US, Boston, MA, 1984) pp. 21–36.
+[32] C. Alduino et al., Cryogenics 102, 9 (2019).
+[33] E. Andreotti et al., Astropart. Phys. 34, 822 (2011).
+[34] C. Alduino et al., J. Instrum. 11, P07009 (2016).
+[35] A. Alessandrello et al., Nucl. Instrum. Methods
+     Phys. Res. B 142, 163 (1998).
+[36] M. Redshaw, B. J. Mount, E. G. Myers, and F. T. Avi-
+     gnone, Phys. Rev. Lett. 102, 212502 (2009).
+[37] N. D. Scielzo et al., Phys. Rev. C 80, 025501 (2009).
+[38] S. Rahaman, V.-V. Elomaa, T. Eronen, J. Hakala,
+     A. Jokinen, A. Kankainen, J. Rissanen, J. Suhonen,
+     C. Weber, and J. Äystö, Phys. Lett. B 703, 412 (2011).
+[39] C. Alduino et al., Eur. Phys. J. C 77, 13 (2017).
+[40] O. Azzolini et al., Eur. Phys. J. C 79, 583 (2019).
+[41] C. Alduino et al., Eur. Phys. J. C 77, 543 (2017).
+[42] S. Agostinelli et al., Nucl. Instrum. Methods Phys. Res. A
+     506, 250 (2003).
+[43] A. Gelman, J. B. Carlin, H. S. Stern, and D. B. Rubin,
+     Bayesian Data Analysis, 2nd ed., Texts in Statistical Sci-
+     ence (Chapman and Hall/CRC Press, Boca Raton, FL,
+     2014).
+[44] M. Plummer, JAGS User’s Manual version 3.3.0 (2012).
+[45] D. Chiesa, E. Previtali, and M. Sisti, Ann. Nucl. Energy
+     70, 157 (2014).
+[46] M. Plummer, 3rd International Workshop on Distributed
+     Statistical Computing (DSC 2003) 124 (2003).
+[47] J. Barea, J. Kotila, and F. Iachello, Phys. Rev. C 87,
+     014315 (2013).
+[48] M. A. Fehr, M. Rehkämper, and A. N. Halliday,
+     Int. J. Mass Spectrom. 232, 83 (2004).
+[49] R. Arnold et al., Phys. Rev. Lett. 107, 062504 (2011).
+[50] C. Arnaboldi et al., Phys. Lett. B 557, 167 (2003).
+                                                                                                                           8
+
+                Supplemental Materials                          ther improvement in source localization throughout the
+                                                                detector.
+                                                                   The reconstruction of the spectrum of events with mul-
+  Here we present additional plots to illustrate key re-
+                                                                tiplicity 3 (not used in the fit) is shown in Fig.6. The blue
+sults from the CUORE background model fits with re-
+                                                                histogram is the spectrum of experimental data, the red
+spect to the 2νββ decay half-life result. In particular we
+                                                                histogram its reconstruction according to the background
+show the fit results for the 3 spectra used in the fits (M1 ,
+                                                                model. The black histogram is the M1 spectrum, which
+M2 , Σ2 ) which show good agreement between data and
+                                                                is used as reference.
+model. We also include a comparison of the 2νββ decay
+                                                                   There is a possible contribution to the background
+posterior with and without the 90 Sr source to illustrate
+                                                                from a fission product, 90 Sr. This is a pure β emitter with
+that, while there is some slight distortion, the overall im-
+                                                                a decay energy of 0.564 MeV to 90 Y , which is another
+pact is quite negligible. This is further supported by the
+                                                                nearly pure β emitter with a 2.28 MeV endpoint allow-
+posterior of the 90 Sr contribution.
+                                                                ing the decay chain to contribute to the background up
+   The M1 spectrum (Fig. 3) is comprised of single-             through this energy. The net effect is an anti-correlation
+crystal events which contain a significant contribution         in the fit between the 90 Sr rate and the 2νββ decay rate.
+from 2νββ decay. The fit residuals show that in the re-         Systematics checks (described earlier) show that toggling
+gion of 1-2 MeV the reconstructed spectrum matches the          this potential source off alters the 2νββ decay rate by
+observed data quite well.                                       ∼0.6%. The inclusion of the 90 Sr source causes a slight
+  In Figs. 4 and 5 we show two views of the M2 data:            asymmetry in the 2νββ decay posterior (Fig. 7(a)). By
+a spectrum from the individual components of the M2             fitting this distribution with a 2-sided Gaussian we get
+multiplets (i.e. the M2 spectrum), and a spectrum from          the left and right uncertainty range. Without 90 Sr the
+the sum of the two components (i.e., the Σ2 spectrum).          posterior is far more symmetric requiring only a single
+The M2 spectrum shown in Fig. 4 displays the energy             Gaussian to fit. The half-life from this analysis with the
+spectra from individual components of M2 multiplets.            90
+                                                                   Sr source is 7.71+0.08
+                                                                                     −0.06 ×10
+                                                                                                 20
+                                                                                                     yr, compared to the re-
+Events in the M2 spectrum provide useful information            sult without the source: 7.67±0.05×1020 yr. As there
+on the localization of contaminations, as the strict coinci-    is an anti-correlation between the 2νββ and 90 Sr decay
+dence criterion described earlier limits these to the near-     rates we keep this source in the final fit to get a conser-
+est neighbor crystals. The Σ2 spectrum in Fig. 5 shows          vative result. An examination of the 90 Sr posterior itself
+the summed energy of each member of an M2 multiplet.            (Fig. 7(b)) shows that this is a conservative approach as
+The Σ2 events show more clearly the γ lines that produce        the posterior indicates a most probable value of zero.
+the physical interactions in two crystals. We see here,            We close this section with two more technical plots
+that in the γ region the background model accurately re-        that show the energy calibration bias (Fig.8(a)) of a typ-
+constructs the observed spectrum. Minor disagreements           ical dataset and the signal efficiency of our data selection
+in some of the peaks is attributed to a potential for fur-      criteria vs. energy. (Fig.8(b))
+                                                                                                                             9
+
+
+
+
+      Counts/keV
+                                                                                     CUORE data (300.7 kgy)
+                           3
+                         10                                                          JAGS reconstruction
+
+
+
+                         102
+
+
+                         10
+
+
+
+
+      Data/Model ratio
+                                  500Data/Model ratio   1000   1500          2000                2500
+                         1.6                                                                       Energy [keV]
+                                     1σ
+                         1.4         2σ
+                                     3σ
+                         1.2
+                              1
+                         0.8
+                         0.6
+                                   500                  1000   1500           2000               2500
+                                                                                                  Energy (keV)
+
+FIG. 3. Top: The measured M1 spectrum (blue) and its reconstruction (red ). The spectra are binned with an adaptive
+binning to contain peaks into a single bin (to avoid dependence on the peak shape), while also achieving good resolution of the
+continuum shape. Bottom: The ratio of the data to the reconstructed model with 1σ, 2σ and 3σ error bars. It is clear from
+the data that we are able to faithfully reconstruct the continuum and peaks from sources.
+
+
+
+
+      Counts/keV
+                                                                                     CUORE data (300.7 kgy)
+                                                                                     JAGS reconstruction
+                         102
+
+
+                         10
+
+
+                          1
+
+
+
+
+      Data/Model ratio
+                         2.2      500
+                                    Data/Model ratio    1000   1500          2000                2500
+                           2                                                                       Energy [keV]
+                                    1σ
+                         1.8        2σ
+                         1.6
+                                    3σ
+                         1.4
+                         1.2
+                           1
+                         0.8
+                         0.6
+                         0.4
+                         0.2
+                                   500                  1000   1500          2000               2500
+                                                                                                 Energy (keV)
+
+FIG. 4. The M2 spectrum provides an indication of the localization of sources as they are populated by coincident events
+from neighboring crystals. Top: The measured M2 spectrum (blue) and its reconstruction (red ). The spectra are binned with
+an adaptive binning to contain peaks into a single bin (to avoid dependence on the peak shape), while also achieving good
+resolution of the continuum shape. Bottom: The ratio of the data to the reconstructed model with 1σ, 2σ and 3σ error bars.
+                                                                                                                           10
+
+
+
+
+      Counts/keV
+                                                                                           CUORE data (300.7 kgy)
+                          2                                                                JAGS reconstruction
+                         10
+
+
+                         10
+
+
+                          1
+
+
+
+
+      Data/Model ratio
+                         2.2   800Data/Model
+                                         1000ratio   1200   1400   1600   1800   2000   2200   2400    2600     2800
+                           2      1σ                                                                     Energy [keV]
+                         1.8      2σ
+
+                         1.6      3σ
+
+                         1.4
+                         1.2
+                           1
+                         0.8
+                         0.6
+                         0.4
+                         0.2
+                               800         1000      1200   1400   1600   1800   2000   2200   2400 2600 2800
+                                                                                                  Total energy (keV)
+
+FIG. 5. The Σ2 spectrum better indicates the contributions to the background that originate from various γ lines as a result
+of interactions with two crystals. Top: The measured Σ2 spectrum (blue) and its reconstruction (red ). The spectra are binned
+with an adaptive binning to contain peaks into a single bin (to avoid dependence on the peak shape), while also achieving good
+resolution of the continuum shape. Bottom: The ratio of the data to the reconstructed model with 1σ, 2σ and 3σ error bars.
+                                                                                                                                                                                         11
+
+
+
+
+       Counts/10keV
+                                                                                                                                CUORE data - M1 (300.7 kgy)
+                                                                                                                                CUORE data - M3 (300.7 kgy)
+                          104
+                                                                                                                                JAGS reconstruction
+
+
+
+
+                          103
+
+
+
+
+                          102
+
+
+
+
+                          10
+
+
+
+
+                            1
+                                   500                        1000                    1500                           2000                       2500
+                                                                                                                                                Energy (keV)
+
+FIG. 6. Spectrum of events with multiplicity three shown within the fit range. Though these data are not used in the fit, they
+are well reconstructed.
+
+
+
+
+                                                                                                             0.12
+    p.d.f.                                                                                          p.d.f.
+                0.1
+                                                              2νββ
+                                                              2νββ - no 90Sr                                  0.1
+             0.08
+
+                                                                                                             0.08
+             0.06
+
+                                                                                                             0.06
+             0.04
+                                                                                                             0.04
+
+             0.02
+                                                                                                             0.02
+
+                      0                                                                                                                                                                 −6
+                                                                                           × 1021              0                                                                 × 10
+                          0.74   0.75   0.76   0.77    0.78     0.79     0.8   0.81                             0   0.2   0.4     0.6   0.8         1   1.2      1.4   1.6    1.8
+                                                                                                                                                          90
+                                                                   130
+                                                                       Te 2νββ T1/2 (yr)                                                                      Sr activity (Bq/kg)
+
+                                                      (a)                                                                                     (b)
+
+
+FIG. 7. (a) Posterior of the 2νββ decay reference fit (red line) compared with the posterior of the 2νββ decay fit with the 90 Sr
+source turned off (blue line). The latter posterior is far more symmetric due to the anti-correlation between the two sources
+causing a distortion in the reference fit. (b) Posterior for the contribution from 90 Sr in the reference fit, with the 90% C.I. in
+yellow. The posterior peaks at a value consistent with 0 activity, indicating that the contribution from this source on the 2νββ
+decay half-life measurement is negligible. Since there is a slight anti-correlation and distortion of the 2νββ posterior we make
+a conservative choice to include it in the model for the 2νββ decay fit result.
+                                                                                                                                                  12
+
+
+                                                                                                  Efficiency vs. energy
+                      0.8
+
+
+
+    Residual [keV]
+                                                                                     1
+
+                                                                      Efficiency
+                      0.6
+
+                                                                                   0.9
+                      0.4
+
+
+                      0.2                                                          0.8
+
+
+                       0
+                                                                                   0.7
+                     −0.2
+                                                                                                                    Dataset 3522
+                                                                                                                    Dataset 3552
+                     −0.4                                                          0.6                              Dataset 3555
+                                                                                                                    Dataset 3564
+                                                                                                                    Dataset 3567
+                     −0.6
+                                                                                   0.5
+
+                     −0.8                                                                500   1000      1500      2000             2500
+                            500   1000   1500   2000    2500                                                                       Energy (keV)
+                                                       Energy [keV]
+                                                                                                          (b)
+                                          (a)
+
+
+FIG. 8. (a) Example of the energy bias as measured in a dataset: the plot shows the difference between a reconstructed peak
+position and its nominal value for some of the more intense γ lines observed in a dataset. (b) Signal efficiency, defined as the
+probability of a signal being triggered, assigned to a correct energy and multiplicity, and finally passing data selection cuts, as
+obtained fitting experimental data. The efficiency approaches a constant value as energy increases but in some datasets the
+convergence to the asymptotic value is faster than in others.
+

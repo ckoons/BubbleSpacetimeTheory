@@ -1,0 +1,491 @@
+                                                   Design of the Magnet System of the Neutron Decay Facility PERC
+
+                                                   Xiangzun Wang1,2 , Carmen Ziener3 , Hartmut Abele1 , Stefan Bodmaier2 , Dirk Dubbers3 , Jaqueline Erhart1 , Alexander
+                                                   Hollering2 , Erwin Jericha1 , Jens Klenke4 , Harald Fillunger1 , Werner Heil5 , Christine Klauser1,2,7 , Gertrud Konrad1,6 ,
+                                                   Max Lamparth2,3 , Thorsten Lauer4 , Michael Klopf1 , Reinhard Maix1,2,3 , Bastian Märkisch2,3,∗ , Wilfried Mach1 , Holger
+
+
+
+
+arXiv:1905.10249v1 [physics.ins-det] 24 May 2019
+                                                   Mest3 , Daniel Moser6 , Alexander Pethoukov7 , Lukas Raffelt2,3 , Nataliya Rebrova3 , Christoph Roick2,3 , Heiko Saul1,2,4 ,
+                                                   Ulrich Schmidt3 , Torsten Soldner7 , Romain Virot7 , and Oliver Zimmer7 (PERC Collaboration)
+                                                   1
+                                                     Technische Universität Wien, Atominstitut, Stadionallee 2, 1020 Wien, Austria
+                                                   2
+                                                     Physik-Department, Technische Universität München, James-Franck-Str. 1, 85748 Garching, Germany
+                                                   3
+                                                     Physikalisches Institut, Universität Heidelberg, Im Neuenheimer Feld 226, 69120 Heidelberg, Germany
+                                                   4
+                                                     Forschungs Neutronenquelle Heinz Maier-Leibnitz, Technische Universität München, Lichtenbergstr. 1, 85748 Garching, Germany
+                                                   5
+                                                     Johannes-Gutenberg Universität, Staudingerweg 7, 55128 Mainz, Germany
+                                                   6
+                                                     Stefan-Meyer-Institut, Boltzmanngasse 3, 1090 Vienna, Austria
+                                                   7
+                                                     Institut Laue-Langevin, 71 avenue des Martyrs, CS 20156, 38042 Grenoble Cedex 9, France
+
+                                                                Abstract. The PERC (Proton and Electron Radiation Channel) facility is currently under construction at the
+                                                                research reactor FRM II, Garching. It will serve as an intense and clean source of electrons and protons from
+                                                                neutron beta decay for precision studies. It aims to contribute to the determination of the Cabibbo-Kobayashi-
+                                                                Maskawa quark-mixing element Vud from neutron decay data and to search for new physics via new effective
+                                                                couplings.
+                                                                PERC’s central component is a 12 m long superconducting magnet system. It hosts an 8 m long decay region
+                                                                in a uniform field. An additional high-field region selects the phase space of electrons and protons which can
+                                                                reach the detectors and largely improves systematic uncertainties. We discuss the design of the magnet system
+                                                                and the resulting properties of the magnetic field.
+
+
+
+                                                   1 Introduction                                                              of the experimentally determined λ to lattice QCD results
+                                                                                                                               limits right handed couplings [11].
+                                                   Free neutron β-decay provides a clean platform for preci-
+                                                   sion searches for physics beyond the standard model [1, 2].                      Observables in neutron decay are the lifetime τn , (an-
+                                                   This is enabled by the absence of nuclear structure effects                 gular) correlation coefficients (see [1, 12]), and the en-
+                                                   and small and well-known radiative corrections1 . Within                    ergy spectra of the decay protons and electrons. There
+                                                   the standard model, free neutron decay is completely de-                    are currently strong world-wide efforts to measure the
+                                                   scribed by only three parameters which have to be deter-                    beta asymmetry A [6, 7, 13], the neutrino asymmetry B
+                                                   mined experimentally. These are the ratio of axial- and                     [13, 14], the proton asymmetry C [13, 15], the electron-
+                                                   vector- coupling constants λ = gA /gV , the element Vud                     neutrino correlation a [16–18], the Fierz interference term
+                                                   of the Cabibbo-Kobayashi-Maskawa quark mixing matrix,                       b [13, 14, 17, 19, 20] and several coefficients related to
+                                                   and the Fermi coupling constant GF . The latter is known                    the transverse electron polarisation [21]. A non-zero Fierz
+                                                   with very high precision from muon decay [4]. λ is most                     interference term would be of special interest as it would
+                                                   precisely determined from a measurement of the parity-                      directly imply novel scalar or tensor interactions. More
+                                                   violating beta asymmetry [5–7]. In combination with a                       experiments are proposed at the upcoming European Spal-
+                                                   measurement of the neutron lifetime τn , the matrix ele-                    lation Source (ESS) using a new intense beam line for par-
+                                                   ment Vud can be determined. The precision reached is                        ticle physics [22].
+                                                   competitive with single measurements entering the most
+                                                   precise determination from superallowed nuclear decays                          In this manuscript we discuss the facility PERC (Pro-
+                                                   and the results are in agreement [7, 8]. Within the frame-                  ton and Electron Radiation Channel) [13, 23], which is
+                                                   work of effective field theories [2, 9, 10], neutron beta de-               currently under construction at the new MEPHISTO beam
+                                                   cay experiments test for deviations from the V−A theory of                  site [24] at the research reactor FRM II, Garching, Ger-
+                                                   the standard model, i.e. hypothetical scalar and tensor in-                 many. The aim of PERC is to provide a clean, bright and
+                                                   teractions, as well as right handed currents. A comparison                  versatile source of neutron decay products (electrons and
+                                                                                                                               protons) to enable measurements which improve on the
+                                                       ∗ e-mail: maerkisch@ph.tum.de                                           results of Perkeo II [5] by at least an order of magnitude
+                                                       1 We note that the common radiative corrections changed recently [3].   using specialised secondary spectrometers.
+                                           decay region                                         selector region detector region
+                                              (8m)                                                  (2.1 m)          (1 m)
+
+
+
+
+                                                                                           superconducting coils
+
+Figure 1. Sketch of the PERC magnet system. Three sections are identified: the long upstream solenoid contains the decay volume,
+the selector region contains the magnetic filter and separates charged decay products from the neutron beam, and the detector section
+contains detector systems or serves for transport to specialised spectrometers downstream.
+
+
+
+                                                                                                    selector region
+    The concept of PERC, as well as a study of system-                                                 filter coils
+                                                                                   e-/p+-beam
+atic effects is described in detail in [13]. Its main features                                                          detector region
+are a large active volume of 5 × 5 × 800 cm3 inside a neu-
+tron guide to observe the decay of free cold neutrons and
+a magnetic filter which limits the phase space of electrons                                        Neutron beamstop
+and protons and strongly improves systematics. Together
+this enables distortion-free measurements on the level of
+10−4 [13].                                                             decay volume neutron beam    bending coils
+
+    Developments by the collaboration that are important
+                                                                     Figure 2. Close-up of the selector region: coils are drawn in
+for PERC include non-depolarising supermirror neutron
+                                                                     red, simulated e−/p+ -trajectories in orange. The remaining cold
+guides [25], precision neutron polarimetry [26–28], elec-
+                                                                     neutron beam (blue) coming from the left side is absorbed in the
+tron and proton detection systems based on existing tech-            beamstop.
+niques [15, 29] and novel concepts [30, 31], calibration
+sources for proton spectroscopy [32] and calibration tech-
+niques for electron detection [33], refined data analysis
+and understanding of the detector response [7, 15, 20, 34],          to transport the electrons and protons to specialised spec-
+and the transport of particles in the magnetic field [35].           trometers downstream.
+    In this paper we focus on the design of PERC’s magnet                 The decay region consists of an 8 m long supercon-
+system and give insight on its optimisation. An in depth             ducting solenoid that features a homogeneous magnetic
+discussion of the design decisions can be found in [36, 37]          field of up to B0 = 1.5 T. A non-depolarising m = 2 super-
+and the design was briefly introduced in [23]. The field             mirror neutron guide is located inside the warm bore of the
+optimisation was partially performed using the commer-               solenoid and contains the actual decay volume. In order
+cial package CST Studio [38], the RADIA [39] add-on to               not to alter measurements of the beta and proton asym-
+Wolfram Mathematica, as well as the magfield3 code de-               metry significantly, this guide must preserve the neutron
+veloped by F. Glück [40].                                            polarisation at the 10−4 level per bounce and will hence
+                                                                     be based on copper and titanium [25]. While only a small
+                                                                     fraction of the neutrons decay within the guide, the major-
+2 The PERC magnet system
+                                                                     ity is absorbed by the neutron beamstop, which is located
+The main component of PERC is a 12 m long supercon-                  in the subsequent selector region. The charged decay prod-
+ducting magnet system. The strong magnetic field defines             ucts follow the magnetic field lines towards both ends of
+a quantisation axis and guides the neutron spin in case of           the solenoid.
+measurements with a polarised beam. Electrons and pro-                    In the selector region, three tilted coils create a curved
+tons are guided by the field towards detector systems at the         magnetic field of maximum strength B1 . This decouples
+rear end and are separated from the cold neutron beam in             the e−/p+ -beam from the neutron beam as illustrated in
+a curved magnetic field section.                                     Fig. 2. Behind the neutron beamstop, the e−/p+ are guided
+    PERC will be installed at the new MEPHISTO beam-                 back to the central axis. This is different to the original
+line for cold neutrons currently under construction at the           design described in [13]. It enables varying the B1 field
+FRM II. The beamline will provide several optional fea-              over a wide range without drastically affecting the particle
+tures such as a wavelength selector, chopper, polariser and          trajectories and to implement an efficient “two pinhole”
+spin flipper to allow for different measurement modes. The           shielding scheme to suppress background created by the
+projected neutron capture flux density is 2 · 1010 s−1 cm−2 .        internal guide or neutron beam components upstream of
+    The PERC magnet consists of three different sections             PERC. Since the e−/p+ -beam in the detector region is on-
+as illustrated in Fig. 1: the decay region, the selector             axis with the magnet system, it can be coupled to addi-
+region which contains the magnetic filter and separates              tional magnet systems downstream.
+charged decay products from the neutron beam, and the                     The field B1 = 3 . . . 6 T in the selector region acts as
+detector section which contains detector systems or serves           a magnetic mirror. This allows to filter electrons and pro-
+tons according to their angle of emission θ0 relative to the                     determined from electron count rates for the two opposite
+magnetic field direction, with the critical angle θc in the                      directions of the neutron beam polarisation:
+adiabatic limit only being dependent on the magnetic field:
+                                                                                                                  N ↑ (Ee ) − N ↓ (Ee )
+                                                                                                  Aexp (Ee ) =                          ,                (4)
+                                                                                                                  N ↑ (Ee ) + N ↓ (Ee )
+                                   r
+                                     Bloc
+                  θ0 ⩽ θc = arcsin                       (1)
+                                      B1                                         where ↑ refers to the average neutron polarisation pointing
+where Bloc ≈ B0 is the magnetic field at the location of the                     to the detector and ↓ pointing away. This method has been
+decay. Hence θc ≈ 30◦ for B0 = 1.5 T and B1 = 6 T.                               successfully applied in previous measurements of the beta
+    After the selector region, the field strength decreases                      asymmetry, including the currently most precise determi-
+to B2 = 0.1 . . . 1 T. For a typical value of B2 = 0.5 T,                        nation of λ [7]. However, in these measurements no mag-
+the maximum pitch angle of electrons and protons hence                           netic filter has been applied. Taking into account the new
+decreases to                                                                     PERC feature of phase space filtering, the relation between
+                              r                                                  the experimental asymmetry and the beta asymmetry can
+                                B2                                               be written as:
+                θdet ⩽ arcsin       = 16.8◦ .            (2)
+                                B1                                                                                 r           
+                                                                                                        1                  B0  pe
+                                                                                            Aexp (Ee ) = A Pn 1 + 1 −  ,
+                                                                                                               
+This reduces backscatter effects from the detector by a fac-                                                                              (5)
+                                                                                                        2                  B1 Ee
+tor of ≈ 2 compared to Perkeo.
+    Different detector systems specialised on measure-                           where we have neglected theoretical corrections. Note that
+ments of certain observables will be attached here in or-                        the phase space filtering increases the measured asymme-
+der to detect electrons or protons, or both simultaneously.                      try, while lowering the rate of detected events.
+An example of such a spectrometer is the R × B momen-
+tum spectrometer NoMoS currently under development                               3 Magnets and Field Properties
+[30, 31].
+                                                                                 The magnet system of PERC consists of 10 different super-
+                                                                                 conducting solenoids, not counting correction windings.
+                       6            B1 = 3 T                                     The most complex magnet assembly is the selector which
+
+
+
+
+  magnetic field (T)
+                       5            B1 = 4 T
+                                    B1 = 5 T
+                                                                                 alone consists of 5 solenoids, see Fig. 2. Four individual
+                       4            B1 = 6 T                                     power supplies allow to tune the fields in the long solenoid
+                       3                                                         B0 , the selector region B1 and the detector region B2 sepa-
+                       2
+                                                                                 rately. The selector region is driven by two power supplies:
+                                      B0                       B1     B2         one creates the 3 T base field and the other drives the split
+                       1
+                                                                                 pair configuration (filter coils) to increase the field up to
+                       0                                                         6 T, see Fig. 2.2 in the decay and selector regions.
+                           0       200     400    600    800      1000 1200
+                                           position (cm)
+                                                                                 3.1 Decay region
+Figure 3. Magnetic field strength along the central field line, for
+                                                                                 The 8 m long solenoid generates the magnetic field B0 in
+different values of B1 between 3 and 6 T, and B0 = 1.5 T and
+B2 = 0.5 T fixed.
+                                                                                 the decay volume. Additional windings or small gaps in
+                                                                                 the winding package at both ends of the solenoid improve
+                                                                                 the magnetic field uniformity.
+     Fig. 3 shows the magnetic field strength along the cen-                          The magnetic field of PERC must not have local min-
+tral field line. The effect of the magnetic filter can be var-                   ima where charged particles may be trapped temporar-
+ied by adjusting both B0 and B1 such that 2 < B1 /B0 < 12                        ily. Within the decay volume the resulting unpredictable
+to either optimise for a specific measurement or to test the                     losses and delays would hamper any high precision mea-
+corresponding systematic effect. This extends the range                          surement. But even outside the neutron beam such traps
+envisaged in [13].                                                               could be filled by rest gas interaction leading to undesired
+                                                                                 background. Fig. 4 shows the field strength along field
+                                                                                 lines originating in the center and at the edges of the neu-
+Beta asymmetry
+                                                                                 tron guide (with a cross section of 60 × 60 mm2 ) for the
+An important quantity to be measured with PERC is the                            critical B1 = 3 T configuration, i.e. with the minimum
+beta asymmetry parameter A in neutron decay. This parity                         field change between the decay and selector regions. Field
+violating observable describes an asymmetry in the direc-                        minima are absent.
+tion of the momentum pe of the decay electron with re-                                In order to avoid decay particles staying within the de-
+spect to the neutron spin:                                                       cay region for extended periods of time, the field in the
+                                                                                 decay region is not completely uniform, but slightly in-
+                                                     pe
+                               dΓn (Ee ) ∝ 1 + APn      cos (θ0 ) ,        (3)   creases towards the downstream end, see Fig. 3. This in-
+                                                     Ee                          homogeneity of B0 within the decay volume influences the
+where Pn is the neutron polarisation and Ee is the electron                          2 The technical reason for the fourth power supply is the use of differ-
+
+energy. With PERC, an experimental asymmetry will be                             ent types of superconducting wire
+emission angle selection for the e−/p+ . Thus the measured                                                         16
+                                                                                                                                  B1 = 3 T
+asymmetry changes according to Eq. (5). This effect is                                                                            B1 = 6 T
+
+
+
+
+                                                                                          vertical position (cm)
+shown in Fig. 5. We note that the field uniformity perpen-                                                         14
+dicular to the beam is much better, so only the direction
+along the beam axis counts.                                                                                        12
+    For measurements with a continuous beam, this cor-
+rection to the asymmetry would have to be integrated over                                                          10
+the decay volume taking the neutron density into account.
+This would also include the strong contributions (and re-                                                           8
+lated uncertainties) at the ends of the long solenoid. A
+                                                                                                                        -4       -2      0      2     4
+pulsed neutron beam can be used to minimise and control
+                                                                                                                             horizontal position (cm)
+this effect as shown in Refs. [7, 41] leading to a 10−4 effect
+only.
+                                                                              Figure 6. Simulated e−/p+ -beam cross-section at the center plane
+                                                                              of the selector coil, with B1 = 3 T and 6 T. Dots represent simu-
+3.2 Selector region                                                           lated electrons tracks, while the frames correspond to field lines
+                                                                              from the edges of the neutron beam. The vertical zero position
+The purpose of the selector region is two-fold: it separates                  corresponds to the axis of the long solenoid.
+the e−/p+ -beam from the neutron beam and provides the
+high field region for the phase space selection. The filter
+coils allow to change the magnetic field strength from 3 to                       The e−/p+ -beam is decoupled from the neutron beam
+6 T in order to vary the filter effect. This split-pair design                using two tilted bending coils and guided to the selector
+ensures a very good field uniformity over the entire field                    coil assembly, as shown in Fig. 2. The region from the
+range. A pair of correction coils at both ends of the selec-                  end of the neutron guide to the point where the e−/p+ -beam
+tor improves the uniformity of B1 and eliminates minima                       is separated from the neutrons is situated in an increasing
+between the selector and bending coils.                                       magnetic field. This leads to large corrections with sizable
+                                                                              uncertainties to an asymmetry measurement with a con-
+                                                                              tinuous beam. Thus the decoupling distance is designed
+                             2
+                                        center
+                                                                              to be as short as reasonably possible, while any local field
+                                        upper left edge
+                                                                              minima must be avoided. Assuming an m = 2 neutron
+
+
+
+       magnetic field (T)
+                            1.9         lower left edge
+                                                                              supermirror inside PERC, the neutron beam will have a
+                            1.8                                               divergence of ≈ 2◦ at a mean wavelength of λ = 0.5 nm.
+                            1.7                                               The resulting decoupling distance then is 40 cm.
+                                                                                  In order to accommodate the neutron beamstop with its
+                            1.6                                               radiation shielding in the selector, the separation distance
+                            1.5                                               between the e−/p+ -beam and the neutron beam centers is
+                               760      780      800     820      840   860   required to be larger than 10 cm. As a consequence of the
+                                        distance to end of guide (cm)         asymmetry in the magnet layout and as a compromise to
+                                                                              the complexity of the set-up, this beam separation is al-
+Figure 4. Magnetic field strength B along the center and edges                lowed to vary with a change in the B1 field strength. Fig. 6
+of the e−/p+ -beam from the decay volume in the neutron guide to              shows the simulated e−/p+ -beam distribution in the center
+the selector for B1 = 3 T.                                                    plane of the selector for B1 = 3 T and 6 T. The e−/p+ -beam
+                                                                              shifts by as much as 2 cm. We note that this requires the
+                                                                              e−/p+ -diaphragm, which is located there to limit edge ef-
+                             3                                                fects, to be adjustable in size and position, see [13] for
+                                                          B1 = 3 T
+
+
+  fractional change
+                             2                                                details.
+                                                          B1 = 6 T
+                             1
+                                                                                  In order to guarantee the required field uniformity in
+                                                                              the center plane on the 10−4 level, the magnet design has
+                             0                                                to match this shift with B1 in the e−/p+ -beam trajectory.
+
+ in asymmetry (10-3)
+                            -1                                                The point of the field minimum in this plane must shift
+                            -2                                                accordingly using the additional filter coils. Fig. 7 shows
+                                                                              the relative deviation of the B1 field over the e−/p+ -beam
+                            -3
+                                  0   100 200 300 400 500 600 700 800         cross-section. The maximum effect is 1.3 × 10−4 for B1 =
+                                              position (cm)                   3 T and 7 × 10−5 for B1 = 6 T.
+                                                                                  The e−/p+ -transport has to fulfill the adiabatic condition
+Figure 5. Fractional change of the measured asymmetry calcu-                  γ = ∆B/B  1, with the field gradient ∆B over one helical
+lated for a point source located on the central axis at position z.           pitch. Within the decay volume γ ≈ 0.003 is negligibly
+The reference point is the centre of the long solenoid at z = 4 m.            small. Only in a small region at the end of the filter region
+(Field calculation without return yoke.)                                      γ reaches a still tolerable value of 0.017. At the rear end
+                                                                              of PERC γ increases due to the drop of the magnetic field.
+                                                                                          3
+                                                                                                                               critical current
+                                     12
+
+
+
+
+            vertical position (cm)
+                                                                                                                                       T = 4.5 K
+                                                                                         2.5                                           T = 5.0 K
+                                                                                                                                       T = 5.5 K
+                                     11                                                                                                T = 6.0 K
+
+
+
+
+                                                                          current (kA)
+                                                                                          2                                 coil configuration
+                                                                                                                                    conductor 1
+                                     10                                                  1.5        conductor 1
+                                                                                                                                    conductor 2
+
+
+                                      9                  2×10-5
+                                                           4×10-5                         1
+                                                                                                                                   conductor 2
+                                                                                                      long
+                                                             6×10-5                                 solenoid
+                                                               8×10-5
+                                      8                                                  0.5
+                                                                                                   connector bending    filter               separator
+
+                                          -2   -1    0       1      2                     0
+                                          horizontal position (cm)                             1        2      3    4    5      6      7                 8
+                                                                                                            maximum magnetic field (T)
+
+
+Figure 7. Contour plot of the relative change of the field B1 =         Figure 8. Critical current Ic versus magnetic field B at differ-
+6 T in the center plane of the selector. The black dashed frame         ent temperatures T , calculated according to [44] using the nom-
+indicates the cross-section of the e−/p+ -beam.                         inal wire specification of the two coductors used [42, 46]. The
+                                                                        markers denote the configuration of the different coils of PERC
+                                                                        at B1 = 6 T.
+
+We note that detector systems are either placed inside the
+detector region or the adiabatic transport must be ensured
+by additional connecting magnet systems.                                by steel plates. As a result, the magnetic field strength de-
+                                                                        creases to the cardiac pacemaker limit of 0.5 mT within
+                                                                        5 m from the central magnet axis.
+4 Technical Aspects                                                         The non-linear material of the shielding also influences
+                                                                        the magnetic field inside PERC. The maximal change of
+A number of technical aspects influence the magnet de-                  the field is 3.7% at the ends of PERC. The field in the cen-
+sign. For the production of PERC copper strands enclos-                 ter of PERC changes by less than 0.5%. These changes
+ing the superconducting wire with a rectangular cross sec-              do not induce local field minima. The homogeneity in the
+tion are used (wire-in-channel). Due to the helical wind-               e−/p+ -beam cross-section in the selector coil is not influ-
+ing scheme, the effective length of a solenoid is about one             enced significantly [36].
+turn shorter than the coil former. Also the coils require
+enough space between them for the necessary mechanical
+supports. In the following we discuss some selected tech-               5 Conclusion, Outlook
+nical aspects.
+                                                                        With the design discussed in this paper the magnet system
+                                                                        of PERC fulfils all criteria outlined in the instrument pro-
+4.1 Quench safety                                                       posal which also includes an analysis of systematics [13].
+                                                                        In addition, the range of possible field configurations B0 ,
+We use a superconducting wire based on Niobium Tita-                    B1 , B2 has been extended considerably, albeit at a lower
+nium alloy (NbTi). It consists of a bunch of twisted fila-              nominal field due to superconductor constraints.
+ments with diameters of 78 µm or 42 µm embedded in a                         The improved separator design allows for excellent
+copper matrix. This round wire is soldered in a rectangular             shielding of the main detectors downstream from beam-
+copper strand [42].                                                     related background. It also ensures stable particle trajecto-
+    The quenching of a superconductor wire is a function                ries and the possibility to couple secondary spectrometers
+of the temperature T , the local magnetic field B, the cur-             to PERC. The drawback of this scheme is that it is more
+rent density J, and other factors like mechanical distur-               difficult to monitor the neutron polarisation behind PERC
+bances. Empirical formulae for the critical current density             since detector systems and beamstop have to be removed
+Jc (B, T ) can for example be found in [43–45]. The highest             first. Using polarised 3 He target cells, neutron polarisa-
+magnetic field at the wire of the magnet is < 7.2 T and oc-             tion can be measured at the 10−4 level required for PERC
+curs at the inner surface of the selector coil. Fig. 8 shows            [28, 47].
+the critical current Ic as a function of B and T , and the con-              It is foreseen that PERC will be equipped with an ac-
+figuration of the different PERC solenoids. We note that                tive particle dump at the upstream end to detect particles
+the actual measured critical current of the wires exceed the            reflected by the magnet filter or backscattered from the
+nominal specification by 10 to 20 % [46].                               downstream detector [37]. In addition, this enables a time-
+                                                                        of-flight technique for detector calibration [33].
+4.2 Magnetic shielding                                                       The technical design of the PERC magnet system is
+                                                                        described in [42]. The magnet system is currently in pro-
+In order to contain its high magnetic field, PERC will be               duction and the delivery is expected in spring 2020.
+equipped with a magnetic field return made of iron and                   The authors gratefully acknowledge the excellent support by the
+steel. Four long iron bars are mounted alongside the mag-               FRM II and the engineers and workshops at the various institu-
+net. At the high-field region, the field return is enforced             tions. We thank in particular K. Lehmann (FRM), M. Horvath
+(ATI), and B. Windelband and his team (HD). We thank F. Glück       [17] S. Baeßler, R. Alarcon, L.P. Alonzi, S. Balas-
+for providing his magnetic field codes. This work is supported by        cuta, L. Barrón-Palos, J.D. Bowman, M.A. Bychkov,
+the Priority Programme SPP 1491 of German Research Founda-               J. Byrne, J.R. Calarco, T. Chupp et al., AIP Conf.
+tion (DFG), contracts No. MA4944/1-1, MA4944/1-2, AB128/5-               Proc. 1560, 114 (2013)
+2 HE2308/9-1, SCH2708/1-1, SO1058/1-1, SO1058/2-1 and               [18] G. Konrad, F. Ayala Guardia, S. Baeßler, M. Borg,
+ZI816/1-1, the Austrian Science Fund (FWF), contracts No.                F. Glück, W. Heil, I. Konorov, K. Leung, R. Muñoz
+I 528-N20, I 534-N20 and P 26636-N20, the University of Hei-             Horta, M. Simson et al., Nucl. Phys. A 827, 529c
+delberg, the FRM II, and the DFG cluster of excellence Origin            (2009)
+and Structure of the Universe.                                      [19] K.P. Hickerson, X. Sun, Y. Bagdasarova, D. Bravo-
+                                                                         Berguño, L.J. Broussard, M.A.P. Brown, R. Carr,
+References                                                               S. Currie, X. Ding, B.W. Filippone et al. (UCNA Col-
+                                                                         laboration), Phys. Rev. C 96, 042501 (2017)
+ [1] D. Dubbers, M.G. Schmidt, Rev. Mod. Phys. 83,
+                                                                    [20] H. Saul, Ph.D. thesis, Technische Universität Wien,
+     1111 (2011)
+                                                                         Technische Universität München (2018)
+ [2] M. González-Alonso, O. Naviliat-Cuncic, N. Severi-
+                                                                    [21] K. Bodek, Acta Phys. Polon. B47, 349 (2016)
+     jns, Progr. Part. Nucl. Phys. 104, 165 (2019)
+                                                                    [22] T. Soldner, H. Abele, G. Konrad, B. Märkisch, F.M.
+ [3] C.Y. Seng, M. Gorchtein, H.H. Patel, M.J. Ramsey-
+                                                                         Piegsa, U. Schmidt, C. Theroine, P. Torres Sánchez,
+     Musolf, Phys. Rev. Lett. 121, 241804 (2018)
+                                                                         ANNI - A pulsed cold neutron beam facility for par-
+ [4] D.M. Webber, V. Tishchenko, Q. Peng, S. Battu,
+                                                                         ticle physics at the ESS, in International Workshop
+     R.M. Carey, D.B. Chitwood, J. Crnkovic, P.T. De-
+                                                                         on Particle Physics at Neutron Sources 2018 (PPNS
+     bevec, S. Dhamija, W. Earle et al. (MuLan Collabo-
+                                                                         2018) Grenoble, France, May 24-26, 2018 (2018),
+     ration), Phys. Rev. Lett. 106, 041803 (2011)                        1811.11692
+ [5] D. Mund, B. Märkisch, M. Deissenroth, J. Krempel,
+                                                                    [23] G. Konrad, H. Abele, M. Beck, C. Drescher, D. Dub-
+     M. Schumann, H. Abele, A. Petoukhov, T. Soldner,
+                                                                         bers, J. Erhart, H. Fillunger, C. Gösselsberger,
+     Phys. Rev. Lett. 110, 172502 (2013)
+                                                                         W. Heil, M. Horvath et al., J. Phys: Conf. Ser. 340,
+ [6] M.A.P. Brown, E.B. Dees, E. Adamek, B. Allgeier,                    012048 (2012)
+     M. Blatnik, T.J. Bowles, L.J. Broussard, R. Carr,              [24] FRM II, Garching, MEPHISTO, Facility for particle
+     S. Clayton, C. Cude-Woods et al. (UCNA Collabo-
+                                                                         physics with cold neutrons, DOI: 10.17815/jlsrf-1-48
+     ration), Phys. Rev. C 97, 035505 (2018)
+                                                                    [25] N. Rebrova, Ph.D. thesis, Universität Heidelberg
+ [7] B. Märkisch, H. Mest, H. Saul, W. X., H. Abele,                     (2014), DOI: 10.11588/heidok.00017029
+     D. Dubbers, M. Klopf, A. Petoukhov, C. Roick,
+                                                                    [26] O. Zimmer, T.M. Müller, W. Heil, H. Humblot,
+     T. Soldner et al., Phys. Rev. Lett. (2019), accepted,
+                                                                         P. Hautle, Phys. Lett. B 455, 62 (1999)
+     1812.04666
+                                                                    [27] C. Klauser, J. Chastagnier, D. Jullien, A. Petoukhov,
+ [8] D. Dubbers, H. Saul, B. Märkisch, T. Soldner,
+                                                                         T. Soldner, J. Phys: Conf. Ser. 340, 012011 (2012)
+     H. Abele, Phys. Lett. B791, 6 (2019), 1812.00626
+                                                                    [28] C. Klauser, T. Bigault, N. Rebrova, T. Soldner, Phys.
+ [9] T. Bhattacharya, V. Cirigliano, S.D. Cohen, A. Fil-
+                                                                         Proc. 42, 99 (2013), 9th International Conference on
+     ipuzzi, M. González-Alonso, M.L. Graesser,
+                                                                         Polarised Neutrons in Condensed Matter Investiga-
+     R. Gupta, H.W. Lin, Phys. Rev. D 85, 054512 (2012)
+                                                                         tions
+[10] V. Cirigliano, S. Gardner, B.R. Holstein, Progr. Part.
+                                                                    [29] L. Raffelt, Ph.D. thesis, Universität Heidelberg
+     Nucl. Phys. 71, 93 (2013)
+                                                                         (2016), DOI: 10.11588/heidok.00022095
+[11] C.C. Chang, A.N. Nicholson, E. Rinaldi,
+                                                                    [30] X. Wang, G. Konrad, H. Abele, Nucl. Instr. Meth. A
+     E. Berkowitz, N. Garron, D.A. Brantley, H. Monge-
+                                                                         701, 254 (2013)
+     Camacho, C.J. Monahan, C. Bouchard, M.A. Clark
+     et al., Nature 558, 91 (2018)                                  [31] G. Konrad, PoS EPS-HEP2015, 592 (2015)
+                                                                    [32] R. Virot, Ph.D. thesis, Université Grenoble Alpes
+[12] J.D. Jackson, S.B. Treiman, H.W. Wyld, Phys. Rev.
+     106, 517 (1957)                                                     (2017), https://tel.archives-ouvertes.fr/
+                                                                         tel-01731369
+[13] D. Dubbers, H. Abele, S. Baeßler, B. Märkisch,
+     M. Schumann, T. Soldner, O. Zimmer, Nucl. Instr.               [33] C. Roick, D. Dubbers, B. Märkisch, H. Saul,
+                                                                         U. Schmidt, Phys. Rev. C 97, 035502 (2018)
+     Meth. A 596, 238 (2008)
+[14] L. Broussard, B. Zeck, E. Adamek, S. Baeßler,                  [34] C. Roick, H. Saul, H. Abele, B. Märkisch, Unde-
+     N. Birge, M. Blatnik, J. Bowman, A. Brandt,                         tected Electron Backscattering in Perkeo III, in In-
+     M. Brown, J. Burkhart et al., Nucl. Instr. Meth. A                  ternational Workshop on Particle Physics at Neutron
+                                                                         Sources 2018 (PPNS 2018) Grenoble, France, May
+     849, 83 (2017)
+                                                                         24-26, 2018 (2019)
+[15] C. Roick, Ph.D. thesis, Technische Universität
+     München (2018)                                                 [35] D. Dubbers, L. Raffelt, B. Märkisch, F. Friedl,
+                                                                         H. Abele, Nucl. Instr. Meth. A 763, 112 (2014)
+[16] G. Darius, W.A. Byron, C.R. DeAngelis, M.T. Has-
+     san, F.E. Wietfeldt, B. Collett, G.L. Jones, M.S.              [36] X. Wang, Ph.D. thesis, Technical University of Mu-
+     Dewey, M.P. Mendenhall, J.S. Nico et al., Phys. Rev.                nich (2013), http://mediatum.ub.tum.de?id=
+     Lett. 119, 042502 (2017)                                            112129
+[37] C. Ziener, Ph.D. thesis, Universität Heidelberg        [43] M. Lubell, IEEE. T. Magn. 19, 754 (1983)
+     (2015), DOI: 10.11588/heidok.00017949                  [44] R. Maix, D. Salathé, Practical Scaling Formulas for
+[38] CST Computer Simulation Technology AG                       the Determination of the Critical currents in NbTi
+[39] O. Chubar, P. Elleaume, J. Chavanne, J. Synchrotron         Superconductors, in Proceedings at the 9th Inter-
+     Rad. 5, 481 (1998)                                          national Conference on Magnet Technology (Zürich,
+[40] F. Glück, Prog. Electromagn. Res. B 32, 351 (2011)          Switzerland, 1985)
+[41] B. Märkisch, H. Abele, D. Dubbers, F. Friedl, A. Ka-   [45] L. Bottura, IEEE Trans. Appl. Supercond. 10, 1054
+     plan, H. Mest, M. Schumann, T. Soldner, D. Wilkin,          (2000)
+     Nucl. Instr. Meth. A 611, 216 (2009)                   [46] Bruker EAS GmbH, Tech. rep. (2015)
+[42] Babcock-Noell GmbH, Tech. Rep. S911051-ED–             [47] C. Klauser, T. Bigault, P. Böni, P. Courtois, A. De-
+     BNG-00004 (2017)                                            vishvili, N. Rebrova, M. Schneider, T. Soldner, Nucl.
+                                                                 Inst. & Meth. A 840, 181 (2016)
+

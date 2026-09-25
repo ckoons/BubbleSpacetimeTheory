@@ -1,0 +1,361 @@
+                                                                                                                                                          Alberta Thy 1-18
+
+                                                                   Neutron Lifetime and Axial Coupling Connection
+                                                                                               Andrzej Czarnecki
+                                                            Department of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2E1
+
+                                                                                              William J. Marciano
+                                                          Department of Physics, Brookhaven National Laboratory, Upton, New York 11973, USA
+
+                                                                                                  Alberto Sirlin
+                                                                                Department of Physics, New York University,
+                                                                              726 Broadway, New York, New York 10003, USA
+
+                                                         Experimental studies of neutron decay, n → peν̄, exhibit two anomalies. The ﬁrst is a 8.6(2.1)s,
+
+
+
+
+arXiv:1802.01804v3 [hep-ph] 9 May 2018
+                                                      roughly 4σ diﬀerence between the average beam measured neutron lifetime, τnbeam = 888.0(2.0)s, and
+                                                      the more precise average trapped ultra cold neutron determination, τntrap = 879.4(6)s. The second
+                                                      is a 5σ diﬀerence between the pre2002 average axial coupling, gA , as measured in neutron decay
+                                                                       pre2002                                                           post2002
+                                                      asymmetries gA           = 1.2637(21), and the more recent, post2002, average gA            = 1.2755(11),
+                                                      where, following the UCNA collaboration division, experiments are classiﬁed by the date of their
+                                                      most recent result. In this study, we correlate those τn and gA values using a (slightly) updated
+                                                                           2
+                                                      relation τn (1 + 3gA   ) = 5172.0(1.1)s. Consistency with that relation and better precision suggest
+                                                      τnfavored = 879.4(6)s and gAfavored
+                                                                                          = 1.2755(11) as preferred values for those parameters. Comparisons
+                                                            favored
+                                                      of gA         with recent lattice QCD and muonic hydrogen capture results are made. A general
+                                                      constraint on exotic neutron decay branching ratios, < 0.27%, is discussed and applied to a recently
+                                                      proposed solution to the neutron lifetime puzzle.
+
+
+                                                                                                                              2
+                                         The neutron lifetime, τn , and its axial-current coupling,         tionship τn (1+3gA  ) = constant, with the constant deter-
+                                         gA = GA /GV , are important weak interaction parame-               mined by the Standard Model (SM) neutron decay rate
+                                         ters used in nuclear, particle and astro physics as well           prediction. Thus, τn and gA experimental values can be
+                                         as cosmology [1–6]. Employed together, they can deter-             expected to move together. Here, we review and update
+                                         mine the quark mixing matrix element Vud , at a level              (very slightly) the origin, uncertainty and status of that
+                                         that could eventually become competitive with the cur-             constant, by updating the inputs, checking the analysis,
+                                         rent super-allowed Fermi transition nuclear beta decay             and assigning an uncertainty to the theory prediction.
+                                         method for determining Vud [7] and constraining “New
+                                         Physics” via CKM unitarity |Vud |2 + |Vus |2 + |Vub |2 = 1.        Currently, there are two competing values for τn and two
+                                         Neutron decays have the advantage of no nuclear physics            for gA (see Table I). Although the values in each set are
+                                         uncertainties [8].                                                 generally averaged by the PDG with errors increased by
+                                                                                                            a scale factor based on the χ2 , we keep them separate.
+                                         On its own, gA provides necessary input for the
+                                                                                                            The average beam measurements τnbeam = 888.0(2.0)s
+                                         Goldberger-Treiman relation, Bjorken Sum Rule, so-
+                                                                                                            differ by about 4σ from the newer more precise ultra cold
+                                         lar and reactor neutrino fluxes, neutrino-nucleon quasi-
+                                                                                                            trapped neutron average τntrap = 879.4(6)s. That dif-
+                                         elastic scattering cross-sections, muon capture rates and
+                                                                                                            ference is sometimes referred to as the neutron lifetime
+                                         various other weak interaction phenomena. An area
+                                                                                                            puzzle, enigma or problem. Similarly, an earlier set of
+                                         of particular importance is the dependence of primor-                                                               pre2002
+                                                                                                            gA measurements labeled pre2002 averages to gA           =
+                                         dial nucleosynthesis and Cosmic Microwave Background
+                                                                                                            1.2637(21) while determinations completed after 2002, la-
+                                         Anisotropies on τn and gA [9, 10].                                                               post2002
+                                                                                                            beled post2002, average to gA          = 1.2755(11), a 5σ
+                                         Despite their central role in weak interaction phe-                difference, even more pronounced than the neutron life-
+                                         nomenology, τn and gA values have changed, sometimes               time problem. A notable difference [1, 11], between pre
+                                         dramatically, with time. Indeed, the accepted τn has               and post 2002 experiments is that the earlier efforts re-
+                                         decreased over the Particle Data Group (PDG) lifespan              quired larger corrections to the measured asymmetries.
+                                         from about 1000s → 932s → 917s → 896s → 886s while                 As a result, those corrections and their systematic un-
+                                         over a similar time span gA has increased from roughly             certainties may have been more difficult to properly es-
+                                         1.20 → 1.23 → 1.25 → 1.26 → 1.27. The correlated                   timate. The two gA values are generally PDG averaged
+                                         movement with time of τn and gA is nicely illustrated              and the uncertainty is increased by a scale factor of ap-
+                                         in the introduction figures of ref. [7]. As we shall argue         proximately 2, primarily due to pre2002 χ2 contribu-
+                                         in this paper, further change in both quantities appears           tions. Here, we keep the method dependent τn as well
+                                         to be in progress. Although the most precise τn and gA             as the pre and post 2002 gA values separate and argue
+                                         experimental measurements have generally been carried              in favor of the more recent values in both cases, because
+                                         out independently of one another, prevailing values at a           of their better precision and, more important, their re-
+                                         given time were known to be correlated through the rela-           markable consistency with our evaluation of the constant
+                                                                                                                             2
+
+in the τn -gA relation previewed above. On that basis,             gA is given by [31]
+we will argue that, within the SM, τnfavored = 879.4(6)s
+and gAfavored
+              = 1.2755(11) currently represent our recom-                   1   G2µ |Vud |2 5       2
+                                                                                                      
+                                                                              =            me 1 + 3gA   (1 + RC) f,        (1)
+mended “favored values”. They may be the final word,                       τn      2π 3
+
+within errors.
+                                                                   where Gµ is the Fermi constant determined from the
+                                                                   muon lifetime [33–42], Gµ = 1.1663787(6) × 10−5 GeV−2 ,
+                                                    post2002
+Table I. Input data used for the τntrap , τnbeam , gA        and   Vud is the CKM mixing element generally obtained
+ pre2002
+gA       averages. Values and methodology were based on            from super-allowed nuclear beta decays [7, 43], RC rep-
+PDG2016 but with updates from [12–15]. The error in τntrap         resents electroweak radiative corrections [44–50] which
+average was scaled by a factor of 1.5 in accordance with PDG       were most recently evaluated [32] to be +0.03886(38) and
+protocol. Statistical and systematic uncertainties were added      f is a phase space factor [30]. The electroweak radia-
+in quadrature and kept to two signiﬁcant ﬁgures before aver-       tive corrections in eq. (1) have been factorized to be the
+aging. Averages have not been sanctioned by the PDG.               same for vector and axial-vector contributions [31]. That
+   τntrap          Source                                          prescription defines gA as determined by the neutron life-
+   881.5(0.92)s    [12]                                            time. Expressing the polarized neutron spin-electroncor-
+                                                                                                                         2
+   877.7(0.76)s    [13]                                            relation coefficient, A0 (gA ) = 2gA (1 − gA )/ 1 + 3gA , in
+                                                                   terms of that gA will, therefore, induce small O (0.1%)
+   878.3(1.9)s     [14]
+                                                                   radiative corrections [51] along with the O (1%) residual
+   880.2(1.2)s     [16]
+                                                                   Coulomb, recoil and weak magnetism corrections to the
+   882.5(2.1)s     [17]                                            measured asymmetry that must be corrected for before
+   880.7(1.8)s     [18]                                            extracting gA [5, 30].
+   878.5(0.76)s    [19]
+                                                                   Employing masses [7] (with highly correlated uncertain-
+   882.6(2.7)s     [20]
+                                                                   ties due to atomic mass units to MeV translation) mn =
+   879.4(6)s       Average (includes scale factor S = 1.5)         939.5654133(58) MeV, mp = 938.2720813(58) MeV, and
+   τnbeam          Source                                          me = 0.5109989461(31) MeV leads to f = 1.6887(1)
+   887.7(2.2)s     [21]                                            [30, 31], where we have redone the numerical evaluation
+   889.2(4.9)s     [22]                                            of Wilkinson’s perturbative analysis and employed a con-
+   888.0(2.0)s     Average                                         servative error consistent with his assessment [52]. Using
+    post2002
+                                                                   the above input parameters, but keeping Vud , τn and gA
+   gA              Source                                          arbitrary, produces the SM master formula
+   1.2772(20)      [15]
+   1.2748+13
+          −14      [23]                                                        |Vud |2 τn (1 + 3gA
+                                                                                                 2
+                                                                                                   ) = 4908.6(1.9)s        (2)
+   1.2750(160)     [24]
+                                                                   where the uncertainty comes primarily from the RC.
+   1.2755(11)      Average                                         That formula can be used to determine Vud from inde-
+    pre2002
+   gA              Source                                          pendent experimental measurements of τn and gA . Fu-
+   1.2686(47)      [25]                                            ture experiments optimistically hope to eventually reach
+   1.2660(40)      [26]                                            ±0.01% sensitivity for those input parameters. At that
+   1.2594(38)      [27]                                            level, the RC theory uncertainty will be dominant.
+   1.2620(50)      [28]                                            Our intention is to correlate τn and gA rather than de-
+   1.2637(21)      Average                                         termine Vud . To that end, we employ the super-allowed
+                                                                   0+ → 0+ nuclear transitions current best value Vud =
+                                                                   0.97420(10)(18)RC, a value consistent with CKM unitar-
+Relating τn and gA begins with a very precise SM predic-           ity [7], where the first error (10) results from experiment,
+tion for the total (radiative inclusive) neutron decay rate.       nuclear structure and nucleus dependent radiative correc-
+That inverse lifetime formula includes Fermi Function              tions, while the second error (18)RC represents universal
+final state electron-proton Coulomb interactions, elec-            radiative corrections common to both neutron and nu-
+troweak radiative corrections (normalized relative to the          clear beta decays. Importantly, the RC error in |Vud |2
+muon lifetime [29]) and a number of smaller effects in-            and in eq. (1) are anticorrelated and effectively cancel.
+cluding proton recoil, finite nuclear size etc. Overall,           For that reason, one finds the following very precise re-
+those corrections are rather large, > +7%. A very de-              lation between τn and gA
+tailed analysis of those corrections was given in the clas-
+                                                                                            2
+sic study by Wilkinson [30]. Later, that relationship was                         τn (1 + 3gA ) = 5172.0(1.1)s             (3)
+checked, updated and refined in [31] where higher order
+O(α2 ) contributions were properly included. The radia-            where the uncertainty stems primarily from nuclear and
+tive corrections uncertainty was reduced in [32].                  experimental uncertainties in Vud . That connection al-
+                                                                   lows one to translate between τn and gA with high pre-
+In the SM, the inverse lifetime equation relating τn and           cision and thereby test their mutual consistency.
+                                                                                                                        3
+
+                                                                                                             pre2002
+In that way, lifetime and axial-charge measurements can       τnbeam differs from τntrap by about 4σ and gA          dif-
+be directly compared or for some purposes even averaged.                  post2002
+                                                              fers from gA         by 5σ. So, a case can be made that
+Toward that end, it is useful to divide the lifetime aver-    one should not continue to include in averaging outly-
+ages into trap, which includes bottle and magnetic con-       ing values based on older techniques when a significant
+finement trap experiments, and beam measurements, the         disagreement arises. Indeed, the history of τn and gA
+two areas of disagreement. Similarly, following the clas-     experimental shifts, indicates they come in pairs as new
+sification introduced by the UCNA Collaboration [15],         technological methods emerge. In this case, the 2002 con-
+asymmetry values of gA naturally separate into pre2002        firmation [11, 53] of a relatively large gA with small er-
+and post2002, where 2002 represents the year when larger      rors may be viewed as the harbinger of a shorter lifetime
+values of gA , seen earlier, were confirmed with improved     which several years later began to be directly observed
+errors [11, 53]. Experiments are arranged by the year         in trapped lifetime experiments.
+of their last result (see Table I). The post2002 mea-
+surements of gA tended to have larger central values and      One might ask whether theory or some other weak inter-
+better controlled systematics. That approach leads to         action phenomenon can be used to determine gA (and τn
+the following direct and indirect averages, connected by      indirectly)? On the theory side there is the promise of
+arrows representing the relationship in eq. (3),              lattice QCD [54, 55]. The lattice approach is, in principle,
+                                                              an ideally suited first principles method for computing a
+            τntrap = 879.4(6)s → gA = 1.2756(5)        (4)    relatively pure strong interaction effect such as gA . How-
+                                                              ever, early lattice attempts to compute gA generally ob-
+          τnbeam = 888.0(2.0)s → gA = 1.2681(17)       (5)    tained smaller than expected values with large systematic
+        post2002                                              uncertainties. Recently, the situation has been improv-
+       gA        = 1.2755(11) → τn = 879.5(1.3)s       (6)
+         pre2002                                              ing. Indeed, a recent study [56] found the preliminary
+        gA       = 1.2637(21) → τn = 893.1(2.4)s       (7)    result gAlattice
+                                                                               = 1.285(17), in good agreement with our
+                             post2002
+                                                              “favored” value at about the ±1% level. How much fur-
+One notices that τntrap and gA        provide the most pre-   ther the lattice precision can improve remains to be seen.
+cise direct and indirect lifetimes, respectively, and they    Fortunately, the current uncertainty is statistics domi-
+are remarkably consistent. Those features are illustrated     nated; so, long dedicated lattice running can potentially
+in Fig. 6 of Ref. [15]. That agreement is exactly the type    reduce the error. Perhaps our suggestion of a favored
+of consistency one expects of the true parameters. On         value with small uncertainty may help motivate a heroic
+the other hand, the beam and pre2002 gA determined            effort.
+lifetimes disagree with those more precise values and are
+not particularly consistent with one another. Because of      An alternative independent experimental gA determina-
+their better precision and relationship consistency, we re-   tion using muon capture in Muonic Hydrogen was re-
+fer to the trap lifetime and post2002 gA as our favored       cently examined [57]. Using theory and experimental in-
+values,                                                       put for other parameters, the measured capture rate gave
+                                                              gA = 1.276(11) i.e. somewhat better than 1% agreement
+                  τnfavored = 879.4(6)s                (8)    with our favored value. It was suggested in that study
+                   favored                                    that a future factor of 3 improvement in the measured
+                  gA       = 1.2755(11).               (9)    capture rate combined with a better lattice determina-
+                                                              tion of the axial charge radius could provide a gA deter-
+These favored experimental averages, in conjunction with
+                                                              mination at the level of ±0.2-0.3%. That would be a nice
+the indirect determination of gA in Eq. (4), provide stan-    check on our favored values, but it would appear difficult
+dards for comparison with future lifetime and asymme-
+                                                              to improve that approach much further.
+try measurements which will aim at the long term goal of
+0.01% precision in τn and gA . Our current favored values     To illustrate an application of the favored values, we end
+in Eqs. (8) and (9) should be compared with our updates       our discussion by deriving a general constraint on possi-
+of the 2016 PDG averages based on recent results [12–15]      ble exotic (beyond the standard model) neutron decays
+in Table I,                                                   and applying it to an interesting scenario recently put
+                                                              forward by Fornal and Grinstein (FG) [58] in an effort
+  τnupdate16 = 879.7(8)s (with scale factor S = 2) (10)       to solve the neutron lifetime puzzle. Those authors sug-
+   update16                                                   gest that the BR=Branching Ratio for radiative inclusive
+  gA        = 1.2731(23) (with S = 2.3).              (11)
+                                                              n → peν̄(γ) could be 0.99 rather than 1 due to a specu-
+Those updates are consistent with our preferred values        lated 1% exotic neutron branching ratio into dark particle
+in Eqs. (8,9); but, have larger errors due to scale factors   decay modes (e.g. n → dark n + scalar) without protons
+that represent inconsistencies in the experiments aver-       and electrons. In that case beam experiments that only
+aged. They are useful as a conservative perspective on        detect decays with final state protons or electrons would
+the current τn and gA situation.                              actually measure a partial lifetime τnfull /BR with BR < 1
+                                                              while trapped neutron experiments that count the num-
+                                     pre2002
+Regarding our neglect of τnbeam and gA       in deriving      ber of neutrons as a function of time measure the full
+our favored values, we make the following observations.       inclusive lifetime τnfull . Although throughout this work,
+                                                                                                                            4
+
+we tacitly conclude that the beam lifetime is an outlier        about a 9s lifetime difference. Any axial coupling roughly
+whose value will shift in future more precise follow-up ex-     in the range 1.268 < gA < 1.272 could account for a good
+periments and eventually agree with our favored trapped         part of the puzzle. Unfortunately, there would be a price
+τntrap = 879.4(6)s, addressing the Fornal-Grinstein solu-       to pay for a smaller gA in that range. Those values are in
+                                                                                                     post2002
+tion is an instructive exercise that we will use to conclude    disagreement with the most recent gA          = 1.2755(11)
+this paper.                                                     by 3 or more σ. Thus, the lifetime puzzle would be re-
+                                                                placed by a gA inconsistency.
+We begin by generalizing our analysis to the case where
+the BR for n → peν̄(γ) can be < 1 due to exotic de-             The Fornal-Grinstein scenario will be tested by new mea-
+cays such as n → dark particles. In that case, eqs. (1, 2       surements of τn both beam and trap to see if the current
+and 3) are modified by replacing τn with τnfull /BR where       puzzle survives and needs a solution. If so, the next step
+τnfull = 1/(total neutron decay rate). That replacement         will be more precise determinations of gA via neutron de-
+leads via eq. (3) to (assuming Vud extracted from super-        cay asymmetries or perhaps lattice gauge theories. Will
+allowed beta decays and CKM unitarity agreement are             gA revert back to a smaller value? Updates of gA in the
+negligibly affected by the exotic new physics)                  past have almost always led to larger values, but the past
+                                                                is not always a good predictor for the future.
+            BR = τnfull (1 + 3gA
+                               2
+                                 )/5172.0(1.1)s.        (12)    A scenario similar to that of Fornal and Grinstein was
+                                                                envisioned by K. Green and D. Thompson [59] for the
+Accepting τntrap = 879.4(6)s as the full lifetime in eq. (12)   rare decay n → hydrogen + ν̄. They used the different
+and expanding BR in gA about gA = 1.2755, the directly          effects of that decay on beam and trap lifetimes to obtain
+measured axial coupling post2002 central value, leads to        a bound of < 3% for that branching ratio (to be compared
+                                                                with the 4·10−6 prediction [60–63]). Our general analysis
+                                                                                        post2002
+     BR = 0.9999(7) + 1.30(gA − 1.2755) + . . .         (13)    employing τntrap and gA          in eq. (12) can be used to
+                                                                reduce that bound by an order of magnitude to < 0.27%.
+That formula demonstrates the closeness of BR to 1 for
+ favored                                                        Our 0.27% bound in eq. (14) also applies to neutron oscil-
+gA       = 1.2755(11). It suggests a degree of tension
+                                        post2002                lations into mirror or dark neutrons [64–66], exotic phe-
+between the recent determinations of gA          and the        nomena proposed to explain the neutron lifetime puzzle.
+Fornal-Grinstein solution to the neutron lifetime puzzle.
+In fact, phrased as a one sided 95% CL bound it requires        Future expected order of magnitude improvements in
+                                                                τntrap and asymmetry measurements, should improve the
+1 − BR = Total Exotic Neutron Decay Branching Ratio             sensitivity of our bound in eq. (14) to roughly 3 · 10−4 for
+                                                                the exotic phenomena described above.
+       < 0.27% for gA = 1.2755(11).            (14)
+                                                                Acknowledgement: The work of A. C. was supported by
+That bound implies that satisfying more than 2.4s of the        the Natural Sciences and Engineering Research Council
+8.6s lifetime puzzle difference has less than a 5% chance       of Canada. The work of W. J. M. was supported by the
+of being realized. One can overcome such a likelihood re-       U.S. Department of Energy under grant DE-SC0012704.
+striction by assuming a smaller gA in eq. (13). For exam-       The work of A.S. was supported in part by the National
+ple, gA = 1.268 leads to BR = 0.99 which corresponds to         Science Foundation under Grant PHY-1620039.
+
+
+
+
+ [1] H. Abele, Prog. Part. Nucl. Phys. 60, 1 (2008).                 [hep-ph].
+ [2] D. Dubbers and M. G. Schmidt, Rev. Mod. Phys. 83,           [9] G. J. Mathews, T. Kajino, and T. Shima, Phys. Rev.
+     1111 (2011), arXiv:1105.3694 [hep-ph].                          D71, 021302 (2005), arXiv:astro-ph/0408523 [astro-ph].
+ [3] F. E. Wietfeldt and G. L. Greene, Rev. Mod. Phys. 83,      [10] C. Pitrou, A. Coc, J.-P. Uzan, and E. Vangioni, “Pre-
+     1173 (2011).                                                    cision big bang nucleosynthesis with improved Helium-4
+ [4] N. Severijns and O. Naviliat-Cuncic, Ann. Rev. Nucl.            predictions,” (2018), arXiv:1801.08023 [astro-ph.CO].
+     Part. Sci. 61, 23 (2011).                                  [11] H. Abele et al., Phys. Rev. Lett. 88, 211801 (2002), hep-
+ [5] A. N. Ivanov, M. Pitschmann, and N. I. Troitskaya,              ex/0206058.
+     Phys. Rev. D88, 073002 (2013), arXiv:1212.0332 [hep-       [12] A. P. Serebrov et al., “Neutron lifetime measurements
+     ph].                                                            with the big gravitational trap for ultracold neutrons,”
+ [6] G. L. Greene and P. Geltenbort, Scientiﬁc American 314,         (2017), arXiv:1712.05663 [nucl-ex].
+     36 (2016).                                                 [13] R. W. Pattie, Jr. et al., “Measurement of the neutron
+ [7] C. Patrignani et al. (Particle Data Group), Chin. Phys.         lifetime using an asymmetric magneto- gravitational trap
+     C40, 100001 (2016).                                             and in situ detection,” (2017), arXiv:1707.01817 [nucl-
+ [8] H. Abele, E. Barberio, D. Dubbers, F. Gluck, J. C.              ex].
+     Hardy, W. J. Marciano, A. Serebrov, and N. Severi-         [14] V. F. Ezhov et al., “Measurement of the neutron life-
+     jns, Eur. Phys. J. C33, 1 (2004), arXiv:hep-ph/0312150          time with ultra-cold neutrons stored in a magneto-
+                                                                                                                               5
+
+     gravitational trap,” (2014), arXiv:1412.7434 [nucl-ex].     [41] I. Blokland, A. Czarnecki, M. Ślusarczyk,              and
+[15] M. A. P. Brown et al. (UCNA), Phys. Rev. C97, 035505             F. Tkachov, Phys. Rev. Lett. 93, 062001 (2004), hep-
+     (2018), arXiv:1712.00884 [nucl-ex].                              ph/0403221.
+[16] S. Arzumanov, L. Bondarenko, S. Chernyavsky, P. Gel-        [42] A. Pak and A. Czarnecki, Phys. Rev. Lett. 100, 241807
+     tenbort, V. Morozov, V. V. Nesvizhevsky, Yu. Panin,              (2008), arXiv:0803.0960 [hep-ph].
+     and A. Strepetov, Phys. Lett. B745, 79 (2015).              [43] J. Hardy and I. S. Towner, Proceedings, 9th International
+[17] A. Steyerl, J. M. Pendlebury, C. Kaufman, S. S. Malik,           Workshop on the CKM Unitarity Triangle (CKM2016):
+     and A. M. Desai, Phys. Rev. C85, 065503 (2012).                  Mumbai, India, November 28-December 3, 2016, PoS
+[18] A. Pichlmaier, V. Varlamov, K. Schreckenbach, and                CKM2016, 028 (2016).
+     P. Geltenbort, Phys. Lett. B693, 221 (2010).                [44] A. Sirlin, Phys. Rev. 164, 1767 (1967).
+[19] A. Serebrov et al., Phys. Lett. B605, 72 (2005),            [45] A. Sirlin, In P. Urban (ed.), Particles, Currents, Symme-
+     arXiv:nucl-ex/0408009 [nucl-ex].                                 tries, Acta Physica Austriaca, Suppl. V (Springer Verlag,
+[20] W. Mampe, L. N. Bondarenko, V. I. Morozov, Yu. N.                New York, 1968) p. 353.
+     Panin, and A. I. Fomin, JETP Lett. 57, 82 (1993),           [46] A. Sirlin, Nucl. Phys. B71, 29 (1974).
+     [Pisma Zh. Eksp. Teor. Fiz.57,77(1993)].                    [47] A. Sirlin, Rev. Mod. Phys. 50, 573 (1978).
+[21] A. T. Yue, M. S. Dewey, D. M. Gilliam, G. L.                [48] R. Blin-Stoyle and J. M. Freeman, Nucl. Phys. A150,
+     Greene, A. B. Laptev, J. S. Nico, W. M. Snow, and                369 (1970).
+     F. E. Wietfeldt, Phys. Rev. Lett. 111, 222501 (2013),       [49] A. Sirlin, AIP Conf. Proc. 698, 385 (2004), hep-
+     arXiv:1309.2623 [nucl-ex].                                       ph/0309187.
+[22] J. Byrne and P. G. Dawber, Europhys. Lett. 33, 187          [50] A. Sirlin and A. Ferroglia, Rev. Mod. Phys. 85, 263
+     (1996).                                                          (2013), arXiv:1210.5296 [hep-ph].
+[23] D. Mund, B. Maerkisch, M. Deissenroth, J. Krempel,          [51] R. T. Shann, Nuovo Cim. A5, 591 (1971).
+     M. Schumann, H. Abele, A. Petoukhov, and T. Soldner,        [52] D. H. Wilkinson, Nucl. Instrum. Meth. A404, 305 (1998).
+     Phys. Rev. Lett. 110, 172502 (2013), arXiv:1204.0013        [53] H. Abele et al., Phys. Lett. B407, 212 (1997).
+     [hep-ex].                                                   [54] S. Capitani, M. Della Morte, D. Djukanovic, G. M. von
+[24] M. Schumann, T. Soldner, M. Deissenroth, F. Gluck,               Hippel, J. Hua, B. Jäger, P. M. Junnarkar, H. B. Meyer,
+     J. Krempel, M. Kreuz, B. Markisch, D. Mund,                      T. D. Rae, and H. Wittig, “Iso-vector axial form fac-
+     A. Petoukhov, and H. Abele, Phys. Rev. Lett. 99, 191803          tors of the nucleon in two-ﬂavour lattice QCD,” (2017),
+     (2007), arXiv:0706.3788 [hep-ph].                                arXiv:1705.06186 [hep-lat].
+[25] Yu. A. Mostovoi et al., Phys. Atom. Nucl. 64, 1955          [55] E. Shintani and H. Wittig, Proceedings, 10th Interna-
+     (2001), [Yad. Fiz.64,2040(2001)].                                tional Workshop on the Physics of Excited Nucleons
+[26] P. Liaud, K. Schreckenbach, R. Kossakowski, H. Nastoll,          (NSTAR 2015): Osaka, Japan, May 25-28, 2015, JPS
+     A. Bussiere, J. P. Guillaud, and L. Beck, Nucl. Phys.            Conf. Proc. 10, 062001 (2016).
+     A612, 53 (1997).                                            [56] C. C. Chang et al., in 35th International Symposium on
+[27] B. Erozolimsky, I. Kuznetsov, I. Stepanenko, and Yu. A.          Lattice Field Theory (Lattice 2017) Granada, Spain, June
+     Mostovoi, Phys. Lett. B412, 240 (1997).                          18-24, 2017 (2017) arXiv:1710.06523 [hep-lat].
+[28] P. Bopp, D. Dubbers, L. Hornig, E. Klemt, J. Last,          [57] R. J. Hill, P. Kammel, W. J. Marciano, and A. Sirlin,
+     H. Schutze, S. J. Freedman, and O. Scharpf, Phys.                “Nucleon Axial Radius and Muonic Hydrogen,” (2017),
+     Rev. Lett. 56, 919 (1986), [Erratum: Phys. Rev.                  arXiv:1708.08462 [hep-ph].
+     Lett.57,1192(1986)].                                        [58] B. Fornal and B. Grinstein, “Dark Matter Interpre-
+[29] W. J. Marciano, Fifty years of electroweak physics. Pro-         tation of the Neutron Decay Anomaly,”               (2018),
+     ceedings, Symposium in Honour of Professor Alberto Sir-          arXiv:1801.01124 [hep-ph].
+     lin’s 70th Birthday, New York, USA, October 27-28,          [59] K. Green and D. Thompson, J. Phys. 16, L75 (1990).
+     2000, J. Phys. G29, 23 (2003).                              [60] J. N. Bahcall, Phys. Rev. 124, 495 (1961).
+[30] D. H. Wilkinson, Nucl. Phys. A377, 474 (1982).              [61] P. K. Kabir, Phys. Lett. 24B, 601 (1967).
+[31] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev.     [62] J. McAndrew, S. Paul, R. Engels, P. Fierlinger,
+     D70, 093006 (2004), hep-ph/0406324.                              E. Gutsmiedl, J. Schön, and W. Schott, Proceedings, ESS
+[32] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 96, 032002        Science Symposium on Neutron Particle Physics at Long
+     (2006), hep-ph/0510099.                                          Pulse Spallation Sources, (NPPatLPS 2013): Grenoble,
+[33] T. Kinoshita and A. Sirlin, Phys. Rev. 113, 1652 (1959).         France, March 25-27, 2013, Phys. Procedia 51, 37 (2014).
+[34] S. M. Berman, Phys. Rev. 112, 267 (1958).                   [63] R. Daudel, M. Jean, and M. Lecoin, J. Phys. Radium 8,
+[35] S. Berman and A. Sirlin, Ann. Phys. 20, 20 (1962).               238 (1947).
+[36] E. S. Abers, D. A. Dicus, R. E. Norton, and H. R. Quinn,    [64] Z. Berezhiani and L. Bento, Phys. Rev. Lett. 96, 081801
+     Phys. Rev. 167, 1461 (1968).                                     (2006), arXiv:hep-ph/0507031 [hep-ph].
+[37] T. van Ritbergen and R. G. Stuart, Phys. Rev. Lett. 82,     [65] A. P. Serebrov et al., Phys. Lett. B663, 181 (2008),
+     488 (1999), hep-ph/9808283.                                      arXiv:0706.3600 [nucl-ex].
+[38] M. Steinhauser and T. Seidensticker, Phys. Lett. B467,      [66] A. P. Serebrov, R. M. Samoilov, I. A. Mitropolsky, and
+     271 (1999), hep-ph/9909436.                                      A. M. Gagarsky, “Neutron lifetime, dark matter and
+[39] A. Ferroglia, G. Ossola, and A. Sirlin, Nucl. Phys. B560,        search for sterile neutrino,” (2018), arXiv:1802.06277
+     23 (1999), hep-ph/9905442.                                       [nucl-ex].
+[40] W. J. Marciano, Phys. Rev. D60, 093006 (1999),
+     arXiv:hep-ph/9903451.
+

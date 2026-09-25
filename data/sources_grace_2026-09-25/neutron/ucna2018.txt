@@ -1,0 +1,733 @@
+                                                      New result for the neutron β-asymmetry parameter A0 from UCNA
+
+                                              M. A.-P. Brown,1 E. B. Dees,2, 3 E. Adamek,4 B. Allgeier,1 M. Blatnik,5 T. J. Bowles,6 L. J. Broussard,6, ∗
+                                             R. Carr,5 S. Clayton,6 C. Cude-Woods,2 S. Currie,6 X. Ding,7 B. W. Filippone,5 A. Garcı́a,8 P. Geltenbort,9
+                                           S. Hasan,1 K. P. Hickerson,5 J. Hoagland,2 R. Hong,8 G. E. Hogan,6 A. T. Holley,2, 4, † T. M. Ito,6 A. Knecht,8, ‡
+                                               C.-Y. Liu,4 J. Liu,10 M. Makela,6 J. W. Martin,5, 11 D. Melconian,12 M. P. Mendenhall,5, § S. D. Moore,2
+                                           C. L. Morris,6 S. Nepal,1 N. Nouri,1, ¶ R. W. Pattie, Jr.,2, 3 A. Pérez Galván,5, ∗∗ D. G. Phillips II,2 R. Picker,5, ††
+                                                  M. L. Pitt,7 B. Plaster,1 J. C. Ramsey,6 R. Rios,6, 13 D. J. Salvat,8 A. Saunders,6 W. Sondheim,6
+                                                  S. J. Seestrom,6 S. Sjue,6 S. Slutsky,5 X. Sun,5 C. Swank,5 G. Swift,3 E. Tatar,13 R. B. Vogelaar,7
+                                                  B. VornDick,2 Z. Wang,6 J. Wexler,2 T. Womack,6 C. Wrede,8, 14 A. R. Young,2, 3 and B. A. Zeck2
+                                                                                         (UCNA Collaboration)
+                                                      1
+                                                       Department of Physics and Astronomy, University of Kentucky, Lexington, Kentucky 40506, USA
+                                                        2
+
+
+
+
+arXiv:1712.00884v2 [nucl-ex] 14 Aug 2018
+                                                          Department of Physics, North Carolina State University, Raleigh, North Carolina 27695, USA
+                                                                   3
+                                                                     Triangle Universities Nuclear Laboratory, Durham, North Carolina 27708, USA
+                                                                   4
+                                                                     Department of Physics, Indiana University, Bloomington, Indiana 47408, USA
+                                                  5
+                                                    W. K. Kellogg Radiation Laboratory, California Institute of Technology, Pasadena, California 91125, USA
+                                                                        6
+                                                                          Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+                                                                       7
+                                                                         Department of Physics, Virginia Tech, Blacksburg, Virginia 24061, USA
+                                                              8
+                                                                Department of Physics and Center for Experimental Nuclear Physics and Astrophysics,
+                                                                               University of Washington, Seattle, Washington 98195, USA
+                                                                                9
+                                                                                  Institut Laue-Langevin, 38042 Grenoble Cedex 9, France
+                                                                 10
+                                                                    Department of Physics, Shanghai Jiao Tong University, Shanghai, 200240, China
+                                                             11
+                                                                Department of Physics, University of Winnipeg, Winnipeg, Manitoba R3B 2E9, Canada
+                                                                  12
+                                                                     Cyclotron Institute, Texas A&M University, College Station, Texas 77843, USA
+                                                                    13
+                                                                       Department of Physics, Idaho State University, Pocatello, Idaho 83209, USA
+                                                          14
+                                                             Department of Physics and Astronomy and National Superconducting Cyclotron Laboratory,
+                                                                             Michigan State University, East Lansing, Michigan 48824, USA
+                                                                                                  (Dated: 26 March 2018)
+                                                       Background: The neutron β-decay asymmetry parameter A0 defines the angular correlation
+                                                       between the spin of the neutron and the momentum of the emitted electron. Values for A0 permit
+                                                       an extraction of the ratio of the weak axial-vector to vector coupling constants, λ ≡ gA /gV , which
+                                                       under assumption of the conserved vector current (CVC) hypothesis (gV = 1) determines gA .
+                                                       Precise values for gA are important as a benchmark for lattice QCD calculations and as a test of
+                                                       the standard model.
+
+                                                       Purpose: The UCNA experiment, carried out at the Ultracold Neutron (UCN) source at the
+                                                       Los Alamos Neutron Science Center, was the first measurement of any neutron β-decay angular
+                                                       correlation performed with UCN. This article reports the most precise result for A0 obtained
+                                                       to date from the UCNA experiment, as a result of higher statistics and reduced key systematic
+                                                       uncertainties, including from the neutron polarization and the characterization of the electron
+                                                       detector response.
+
+                                                       Methods: UCN produced via the downscattering of moderated spallation neutrons in a solid
+                                                       deuterium crystal were polarized via transport through a 7 T polarizing magnet and a spin flipper,
+                                                       which permitted selection of either spin state. The UCN were then contained within a 3-m long
+                                                       cylindrical decay volume, situated along the central axis of a superconducting 1 T solenoidal
+                                                       spectrometer. With the neutron spins then oriented parallel or anti-parallel to the solenoidal field,
+                                                       an asymmetry in the numbers of emitted decay electrons detected in two electron detector packages
+                                                       located on both ends of the spectrometer permitted an extraction of A0 .
+
+                                                       Results:    The UCNA experiment reports a new 0.67% precision result for A0 of
+                                                       A0 = −0.12054(44)stat (68)syst , which yields λ = gA /gV = −1.2783(22). Combination with
+                                                       the previous UCNA result and accounting for correlated systematic uncertainties produces
+                                                       A0 = −0.12015(34)stat (63)syst and λ = gA /gV = −1.2772(20).
+
+                                                       Conclusions: This new result for A0 and gA /gV from the UCNA experiment has provided confir-
+                                                       mation of the shift in values for gA /gV that has emerged in the published results from more recent
+                                                       experiments, which are in striking disagreement with the results from older experiments. Individ-
+                                                       ual systematic corrections to the asymmetries in older experiments (published prior to 2002) were
+                                                       > 10%, whereas those in the more recent (published after 2002) have been of the scale of < 2%. The
+                                                                                                                            2
+
+              impact of these older results on the global average will be minimized should future measurements
+              of A0 reach the 0.1% level of precision with central values near the most recent results.
+
+
+                     I.   INTRODUCTION                             ing corrections from recoil order and radiative effects,
+                                                                   A(Ee ) may be expressed as A0 , where [10]
+   Precision measurements of A0 , the correlation between
+the electron momentum and the initial spin of the neu-                                       −2(λ2 − |λ|)
+                                                                                      A0 =                .               (2)
+tron in neutron β-decay, remain vital as they determine                                        1 + 3λ2
+with highest sensitivity λ ≡ ggVA , the ratio of the weak
+                                                                      The UCNA Experiment, located at the Los Alamos
+axial-vector to vector coupling constants present in the
+                                                                   Neutron Science Center, is the first to measure a neu-
+hadronic current. Although a0 , the correlation between
+                                                                   tron angular correlation coeffecient using ultracold neu-
+the electron momentum and the neutrino momentum,
+                                                                   trons (UCN). The 800 MeV LANSCE linear accelerator
+and A0 offer comparable sensitivity to λ, measurements
+                                                                   strikes a tungsten spallation target. The resulting spal-
+of a0 require the difficult task of reconstruction of the
+                                                                   lation neutrons are moderated by cold polyethylene, and
+neutrino momentum via detection of electron-proton co-
+                                                                   are subsequently down-scattered to UCN energies by a
+incidences [1] or measurement of the proton energy spec-
+                                                                   solid ortho-deuterium crystal [13]. The UCN are guided
+trum [2]. Under assumption of the conserved vector cur-
+                                                                   through a 7 T polarizing magnet and through an adi-
+rent (CVC) hypothesis, experimentally determined val-
+                                                                   abatic fast passage (AFP) spin flipper [14] allowing for
+ues for λ directly determine gA . This serves as a bench-
+                                                                   selection of either + (spin flipper “on”) or − (spin flip-
+mark for lattice QCD calculations and determines the
+                                                                   per “off”) spin states. The UCN, held within a 3 m
+relationship among parameters of the weak hadronic cur-
+                                                                   long superconducting spectrometer (SCS) [15], have spins
+rent. Recent improvements in lattice QCD calculations
+                                                                   aligned (+) or anti-aligned (−) with a 1 T field about
+[3–5] show promising agreement between theory and ex-
+                                                                   which the decay electrons spiral while heading towards
+periment, and thus further motivate precision measure-
+                                                                   one of two detectors placed at each end of the SCS. The
+ments of neutron correlation parameters, as a comparison
+                                                                   electron detector packages consist of a multiwire propor-
+of experimental values for gA with lattice values by itself
+                                                                   tional chamber (MWPC) [16] for position reconstruction
+constitutes a new physics test of non-standard couplings
+                                                                   and backscattering identification and a plastic scintilla-
+[6] and the lattice value for gA serves as an important
+                                                                   tor for timing and energy reconstruction. We also de-
+constraint in recent limits placed on right-handed cur-
+                                                                   tect background muons using a combination of plastic
+rents [7]. Also, results for λ when combined with results
+                                                                   scintillator paddles and Ar/ethane drift tubes [17] and
+for the neutron lifetime permit a test of the standard
+                                                                   15 cm diameter, 25 mm thick scintillators placed directly
+model [8, 9] via, for example, an extraction of the CKM
+                                                                   behind the electron detectors (the “backing veto”). A
+matrix element Vud .
+                                                                   schematic of the experimental apparatus is presented in
+   The decay rate of polarized neutrons can be written in
+                                                                   Fig. 1.
+a simplified manner as [10]
+                                                                      In this work, we present a more precise determination
+                                                                 of the average polarization of the neutrons in the decay
+       dW = Γ(Ee ) 1 + hP iA(Ee )β cos θ dEe dΩe       (1)         volume, a new method for quantifying the uncertainty in
+                                                                   energy reconstruction, and a more robust determination
+where Γ(Ee ) is the unpolarized neutron differential de-           of the systematic uncertainties from Monte Carlo correc-
+cay rate, hP i is the average polarization, β = vc , v is the      tions to the electron detector response. These improve-
+electron velocity, θ is the angle between the neutron spin         ments coupled with better statistics reduce the overall
+and the emitted electron momentum, and A(E) is the en-             uncertainty relative to previous UCNA results [18–21].
+ergy dependent asymmetry parameter [11, 12]. Neglect-
+
+                                                                                    II.   POLARIMETRY
+∗ Present address:   Oak Ridge National Laboratory, Oak Ridge,
+   TN 37831, USA                                                      UCNA utilizes a run-by-run monitor of the depolariza-
+ † Present address: Dept. of Physics, Tennessee Tech University,
+                                                                   tion of the neutron populations in the decay volume, with
+   Cookeville, TN, USA
+ ‡ Present address: Paul Scherrer Institut, 5232 Villigen PSI,     a statistics-limited uncertainty in the extracted polariza-
+   Switzerland                                                     tion [14, 18–21]. For this work, we present an update of
+ § Present address:    Physical and Life Sciences Directorate,     our polarimetry method based on the implementation of
+   Lawrence Livermore National Laboratory, Livermore, CA 94550,    a shutter between the decay volume and polarizer/AFP
+   USA                                                             magnet (see Fig. 1), with further details in prepara-
+ ¶ Present address: Department of Pathology, Yale University
+
+   School of Medicine, New Haven, CT 06510, USA                    tion as a forthcoming publication. Our methodology for
+∗∗ Present address: Vertex Pharmaceuticals, 11010 Torreyana Rd.,   preparing the spin state is essentially identical to previ-
+   San Diego, CA 92121, USA                                        ous versions of the experiment, in that the UCN are first
+†† Present address: TRIUMF, Vancouver, BC V6T 2A3 Canada
+                                                                   polarized by traversing a 7 T magnetic field region. The
+                                                                                                                                      3
+
+
+                          Hall Probe    Calibration Source                 DLC-coated
+                            Array            Insertion                    Copper Decay
+                                                                             Volume
+                         MWPC
+
+
+
+
+                                                                                         Spin-ﬂipper
+                     Scintillator             Polarimetry
+                                                                                        Polarizer-AFP
+                                                Shutter
+                                Thin Foil                                                  Magnet
+                                                    UCN Detector
+                                                                                            Switcher
+                                                       Iron Foil UCN
+                           Superconducting                Detector       UCN ﬂow
+                          Spectrometer (SCS)                              during
+                           1 T Central Field                           depolarization        UCN ﬂow during
+                                                                       measurement             beta-decay
+                                                                                              measurement
+
+                                                                          Switcher UCN Detector
+
+
+
+  FIG. 1. Schematic of the UCNA experimental apparatus. The external muon veto and “backing veto” are not pictured.
+
+
+potential energy barrier to the low field-seeking spin state
+                                                                       TABLE I. Results for average polarization fractions for each
+ensures UCN are essentially 100% polarized immediately
+                                                                       dataset in spin-flipper off (−) and spin-flipper on (+) states.
+after passing through this region. Beyond the high-field
+region, the adiabatic spin flipper is used to select the                           2011-2012                       2012-2013
+spin state loaded into the decay volume, operating with                       P−               P+             P−               P+
+single-pass spin-flip efficiency in excess of 99.9%.
+                                                                          0.9970(30)       0.9939(25)   0.9979(15)       0.9952(20)
+   The run-cycle was composed of a 50 min interval in
+which beta decay data was obtained with neutrons pre-
+pared in a given spin state (the spin state for successive
+runs alternates in such a way so as to cancel linear drifts            tably the use of 130 nm and 180 nm 6F6F thick [22]
+in subtracted backgrounds and detector efficiencies [19]),             decay trap foils on the east and west sides respectively in
+followed by a procedure to measure the equilibrium pop-                2012–2013, which replaced 500 nm thick mylar foils used
+ulation of depolarized UCN in the decay volume. This                   in 2011–2012, all of which were coated with 150 nm thick
+“in situ” procedure utilized the shutter to store UCN in               layer of beryllium. Such changes affect the backscattering
+the decay volume while guides were emptied of UCN,                     of the electrons and angular acceptance of the detectors,
+and a UCN detector located below the switcher to mea-                  which allows for further exploration of the systematic ef-
+sure the depolarized UCN. Because the polarization is                  fects from the decay trap foils, a leading uncertainty in
+close to unity, it is sufficient for us to measure the de-             past analyses. This required separate simulations of both
+polarized fraction with modest precision. For the results              calibration and β-decay data, calling for development of
+we present here, our measured polarization is indepen-                 separate Monte Carlo systematic corrections and energy
+dent of detector efficiencies and UCN transport to first               uncertainties for each dataset. The resulting electron en-
+order. The results of our polarimetry measurements for                 ergy spectrum averaged over both datasets can be seen
+the 2011-2012 and 2012-2013 run-cycles are presented in                in Fig. 2 along with the Monte Carlo spectrum and the
+Table I, with a more detailed overview of our polarimetry              subtracted background distribution, with the residuals
+analysis presented in the Appendix.                                    between the Monte Carlo spectrum and data plotted un-
+                                                                       derneath.
+
+              III.     β-DECAY DATA SET
+                                                                                 IV.      DETECTOR CALIBRATION
+  The β-decay data were separated into 2011-2012 and
+2012-2013 datasets. There were minor changes in spec-                    The detector calibration for the current result begins
+trometer design between the two run periods, most no-                  with pedestal subtraction and removal of time dependent
+                                                                                                                                                                             4
+
+
+
+
+  Event Rate (mHz/keV)
+                          50
+                                                                                                                             20
+                                                                       Data
+                          40                                                                                                                              2011-2012
+                                                                       Monte Carlo                                           15
+
+
+
+
+                                                                                               Calibration Residual [keV]
+                                                                       Background                                                                         2012-2013
+                          30                                                                                                 10
+
+                                                                                                                              5
+                          20
+                                                                                                                              0
+                          10
+                                                                                                                             −5
+
+                           00    100    200      300     400     500        600   700   800                                 −10
+
+
+
+
+   MC-Data (mHz/keV)
+                          0.5
+                            0                                                                                               −15
+                         −0.5
+                           −1                                                                                               −20
+                                                                                                                               0   200   400      600    800          1000
+                         −1.5
+                          −2                                                                                                              Erecon [keV]
+                             0   100    200      300     400     500        600   700   800
+                         −0.1          2011-2012: A0 = -0.12026 ± 0.00054
+                       −0.11                                                                  FIG. 3. Plot of energy uncertainty vs. reconstructed energy.
+ A0
+                       −0.12                                                                  The points plotted are the mean and σ of the residual distri-
+                       −0.13                                                                  butions from reconstructed calibration peaks of Ce, Sn, and
+                            0    100    200      300     400     500        600   700   800   the lower and upper Bi peaks in that order. The bands rep-
+                         −0.1          2012-2013: A0 = -0.12111 ± 0.00074                     resent the energy uncertainty at any given electron energy for
+                       −0.11                                                                  the two data sets.
+ A0
+                       −0.12
+                       −0.13
+                            0    100    200      300     400     500        600   700   800
+
+                                                 Erecon (keV)
+                                                                                              [19].
+FIG. 2. Top: Electron energy spectrum from 2011-2013 with
+background-subtracted data (open circles), GEANT4 Monte                                          Upon completion of the calibration procedure, we then
+Carlo (solid line), and background (solid circles) included.                                  analyze each of the conversion electron source runs using
+Residuals between Monte Carlo and data (units of mHz/keV)                                     these calibrations to determine a reconstructed peak en-
+are below. Bottom: Fully corrected asymmetry as a function                                    ergy. Concurrently we apply the detector response model
+of energy for the two separate run periods. The fit is over                                   to simulations of these conversion electron runs, and from
+190-740 keV, as determined via minimization of the total un-                                  this extract a simulated reconstructed energy. A compar-
+certainty. The errors on the indicated fitted values are purely                               ison of the reconstructed energies from data and simula-
+statistical.                                                                                  tion in the form of a residual (Residual = Edata − EMC )
+                                                                                              then provides a measure of the efficacy of our calibration
+                                                                                              procedure at the discrete conversion electron energies,
+gain fluctuations as measured by a 207 Bi gain monitoring                                     which are the points plotted in Fig. 3.
+system [23]. We then determine the position dependent
+light transport of each scintillator during several periods                                      The error bands in Fig. 3 represent our assessment of
+of each run cycle by filling the decay volume with neu-                                       the accuracy to which we reconstruct the initial energy
+tron activated xenon gas and fitting the endpoint of the                                      of an event as a continuous function of the true initial en-
+         +
+135
+    Xe 23 β-decay spectrum in position bins determined                                        ergy, where the error band is determined by allowing for
+using the MWPC. Then the position dependent response                                          all quadratic calibration curves which could produce the
+factors are calculated by normalizing the response in each                                    1σ residuals extracted from calibration of the source runs
+position bin to the response at the center of the scintil-                                    [24]. This method inherently yields an asymmetric error
+lator. Upon correction of the position dependence, we                                         band due to the residuals being nonzero, so the worst
+utilize the conversion electron lines from (with dominant                                     case uncertainty as shown in the figure is one where at
+K-shell energies listed) 137 Ce (130.3 keV), 113 Sn (363.8                                    every energy the largest deviation from zero residual is
+keV), and 207 Bi (481.7 keV and 975.7 keV) sources. At                                        taken and plotted symmetrically about the zero residual
+intermittent periods during the run cycle, these sources                                      line. When weighted by the observed β-decay electron
+were translated in a calibration fixture inserted through                                     energy spectrum, following the edge of the energy un-
+a side port in the SCS across the detector face, provid-                                      certainty curve produces fractional uncertainties on A0
+ing a linearity mapping from detector response to ex-                                         of 0.17% and 0.25% for 2011-2012 and 2012-2013 respec-
+pected light output as provided by simulation of each                                         tively, with the difference attributed mainly to the offset
+run. Combination of the linearity mapping and the po-                                         of the 113 Sn peak reconstruction which causes the energy
+sition dependent light transport values converts detector                                     uncertainty band to broaden in the region of our final
+ADC response to reconstructed electron energy, Erecon                                         energy analysis window.
+                                                                                                                            5
+
+             3
+                                                                 form Acorr = (1 + ∆)A, where a measured asymme-
+                                               2011-2012         try A is corrected for some systematic effect ∆. The
+             2
+                                               2012-2013         energy-dependent Monte Carlo correction consists of a
+             1
+                                                                 missed backscattering correction, ∆backscatter , and what
+
+
+ ∆A/A (%)
+             0                                                   we call the cosθ correction, ∆cosθ . The missed backscat-
+                                                                 tering correction accounts for events that are assigned
+            −1
+                                                                 the wrong initial direction based on the detector trigger
+            −2                                                   logic, a result of either the efficiency of the detector or
+            −3
+                                                                 backscattering from components not part of the detec-
+                                                                 tors. Application of this correction increases the magni-
+            −4                                                   tude of the asymmetry, as the misidentified backscatter-
+            −5
+                                                                 ing events act as a dilution to the measured asymmetry.
+              0        100   200   300   400   500   600   700   The cos θ correction addresses experimental bias towards
+                                   Erecon (keV)                  high energy, low pitch angle events, which are more apt
+                                                                 to trigger the detectors. The correction is named for the
+FIG. 4. Total Monte Carlo corrections vs. energy, where          deviation of hcos θi over one hemisphere of the spectrom-
+∆backscatter and ∆cosθ have been combined. The correction        eter from its nominal value of 1/2. Because low pitch
+has been averaged over 50 keV increments for plotting pur-       angle, high energy events carry more asymmetry infor-
+poses, while the correction is actually applied on a 10 keV      mation as seen in Eq. 1, preferentially selecting them
+bin basis. The uncertainty band reflects the effective statis-   will increase the measured asymmetry, thus the ∆cos θ
+tical fluctuations on a bin-by-bin basis, as well as the true
+                                                                 correction acts to reduce the magnitude of the measured
+Monte Carlo statistical uncertainty and the uncertainty on
+the correction as determined by spectral agreement between       asymmetry. The improvement in quantifying the uncer-
+data and simulation for each event type.                         tainty in Monte Carlo corrections results from work done
+                                                                 to separate both ∆backscatter and ∆cosθ into their relative
+                                                                 contributions from each
+                                                                                       Q3 individual event type, such that
+                  V.    SYSTEMATIC CORRECTIONS                   (1 + ∆backscatter ) = i=0 (1 + ∆backscatter,i ) and similarly
+                                                                 for the cosθ correction, where the subscript i runs over all
+                                                                 event types. Then, for each event type, we conservatively
+   Backscattering identification plays an important role
+                                                                 apply the maximal spectral deviations between Monte
+in our Monte Carlo corrections and asymmetry extrac-
+                                                                 Carlo and data within the final analysis energy window
+tion. Based on which detector components trigger, we
+                                                                 in conjunction with an effective statistical fluctuation in
+classify events into those that do not backscatter (Type
+                                                                 the corrections as the contribution to the total uncer-
+0) and those that do backscatter (Types 1, 2, and 3) [19].
+                                                                 tainty. The effective statistical uncertainty comes from a
+Type 0 events trigger one scintillator and one MWPC on
+                                                                 functional fit to the binned correction, where the rms be-
+the same side, while Type 1 events trigger both scintil-
+                                                                 tween the correction and the fit defines the uncertainty.
+lators and both MWPCs. For such events, we assign
+                                                                 One should note that the actual Monte Carlo statistical
+the initial direction to the triggering detector for Type 0
+                                                                 uncertainties are also included, but they are small rela-
+and to the earlier triggering detector for Type 1. Type
+                                                                 tive to the correction and did not account for bin-by-bin
+2/3 events comprise a class of events that backscatter
+                                                                 variations in the correction. These individual contribu-
+and trigger both MWPCs, but only trigger a single scin-
+                                                                 tions can be further propagated into a single uncertainty
+tillator. An important distinction, however, does exist
+                                                                 on ∆backscatter and ∆cosθ . Figure 4 shows the combined
+between Type 2 and Type 3 events: Type 2 events only
+                                                                 corrections for ∆backscatter and ∆cosθ for each data set.
+pass through the MWPC on the triggering scintillator
+                                                                 While the final uncertainty on the combined Monte Carlo
+side once, whereas Type 3 events scatter from the scin-
+                                                                 corrections is consistent with the uncertainty from the
+tillator, and therefore pass through the MWPC twice on
+                                                                 previous UCNA result [18], this method allows for im-
+the triggering side. We can consequently apply a cut
+                                                                 proved understanding of individual contributions to the
+on the energy deposited in the MWPC on the triggering
+                                                                 overall uncertainty.
+side to statistically assign Type 2/3 events to the correct
+side. This drastically reduces Monte Carlo corrections
+for such backscattering events as simulation indicates we
+properly identify > 80% of all Type 2/3 events across                    VI.    ASYMMETRY EXTRACTION
+all energies using this technique, a marked improvement
+over the roughly 50% misidentification rate without sep-
+aration.                                                           The asymmetry was extracted using a super-ratio tech-
+   With much improved energy reconstruction and de-              nique utilizing counts in each detector for spin flipped
+polarization uncertainties, we revisited the conservative        configurations, defined as
+25% uncertainty on the Monte Carlo corrections from                                 √
+the previous analysis [18–21] in search of a more quan-                           1− R
+                                                                            ASR =   √ = hP iA(Ee )βhcos θi                (3)
+titative method. Our systematic corrections take the                              1+ R
+                                                                                                                                       6
+
+
+             −0.02
+                                                2011-2012                  TABLE II. Uncertainty Table reported as % correction on
+                      −0.12                           Uncorrected Data     |A0 |. The uncertainties reported are the combined uncertain-
+             −0.04
+                     −0.122
+                                                      Corrected Data       ties from the two data sets as determined based on the re-
+             −0.06                                                         spective weights of each data set and treating the systematic
+
+
+ Asymmetry
+                     −0.124                                                uncertainties from the two years as correlated.
+             −0.08
+                     −0.126
+              −0.1
+                              0,1 0,1,2,3   0                                                             % Corr.             % Unc.
+                                                                                                   2011-2012   2012-2013
+             −0.12
+                                                                            ∆cosθ                      -1.53       -1.51        0.33
+             −0.14                                                          ∆backscattering             1.08       0.88         0.30
+             −0.16                                                          Energy Recon.                                       0.20
+                     0,1      0,1,2,3       0    1     2,3     2       3
+                                                                            Depolarization             0.45         0.34        0.17
+                                                                            Gain                                                0.16
+                                        Event Types Included
+                                                                            Field Nonunif.                                      0.12
+                                                                            Muon Veto                                           0.03
+             −0.02
+                                                2012-2013
+                      −0.12
+                                                                            UCN Background             0.01         0.01        0.02
+                                                      Uncorrected Data      MWPC Efficiency            0.13         0.11        0.01
+             −0.04   −0.122                           Corrected Data
+             −0.06
+                                                                            Statistics                                          0.36
+
+
+
+ Asymmetry
+                     −0.124
+                                                                                         Theory Corrections [11, 12, 26–29]
+             −0.08   −0.126
+
+                              0,1 0,1,2,3   0                               Recoil Order               -1.68       -1.67        0.03
+              −0.1
+                                                                            Radiative                  -0.12       -0.12        0.05
+             −0.12
+
+             −0.14
+
+             −0.16
+                                                                           event types (0, 1, 2, and 3 with 2 and 3 separated us-
+                                                                           ing the aforementioned MWPC energy deposition) sub-
+                     0,1      0,1,2,3       0    1     2,3     2       3
+                                                                           ject to a fiducial cut selecting events within 50 mm of
+                                        Event Types Included
+                                                                           the center of the decay trap. The fiducial cut removes
+                                                                           events that could have potentially interacted with the
+FIG. 5. Corrected and uncorrected asymmetries for various                  decay trap wall, as the maximum radius of the electron’s
+combinations of event types. Only ∆backscattering and ∆cos θ               spiral around the magnetic field is 7.76 mm and the wall
+are applied and error bars are statistical only. The first three           of the decay trap is 62.2 mm from the center. Inclusion
+combinations include Type 0 events which are identified as                 of any combination of the aforementioned event types
+having not backscattered and make up roughly 95% of the
+                                                                           yields separate asymmetries, as can be seen in Fig. 5.
+data. The remaining four asymmetries include only the var-
+ious backscattering events. The inset shows a closer view of
+                                                                           The agreement between the asymmetries extracted using
+the first three points whose error bars are smaller than the               non-backscattering events (Type 0) and backscattering
+markers in the larger plot. Top: 2011-2012. Bottom: 2012-                  events only (Types 1, 2, or 3) highlights the credence of
+2013.                                                                      the Monte Carlo corrections for backscattering.
+
+
+where R = (r1+ r2− )/(r2+ r1− ) and r1,2
+                                      ±
+                                          refers to the rate                                    VII.    RESULTS
+in one of the two detectors (subscript 1, 2) with spin-
+flipper on/off (superscript +/−). Separating the data                         The systematic errors for the two data sets are listed
+into 10 keV energy bins, we divide out β, hP i, and hcos θi                in Table II. The asymmetries from 2011-2012 and 2012-
+and subsequently apply Monte Carlo corrections from                        2013 are combined to produce a single result utiliz-
+Fig. 4 and radiative and recoil order theory corrections                   ing a weighting method [25] that considers the statis-
+[11, 12, 26–29], which produces A0 as a function of energy                 tics of each result and treats the systematics as com-
+as seen in Fig. 2. The analysis was blinded using altered                  pletely correlated, producing weights for the 2011–2012
+time stamps which are spin-state and detector dependent                    and 2012–2013 asymmetries of 0.67 and 0.33 respec-
+and do not cancel in the super-ratio. This requires using                  tively. Fitting over an analysis window of 190–740
+two blinding factors, f1,2 , such that t± 1,2 = (1 ± f1,2 ) · t            keV, which minimizes the total uncertainty, yields A0 =
+where t is the global time and t± 1,2 are  the blinded times               −0.12054(44)stat (68)syst corresponding to a value for the
+for each detector in each spin state. We completed de-                     ratio of the axial-vector to vector coupling constants of
+tector calibrations, all systematic corrections, and the                   λ ≡ ggVA = −1.2783(22), where the statistical and system-
+polarimetry analysis prior to unblinding, at which point                   atic uncertainties have been added in quadrature.
+all rates were recalculated using the proper global time                      We also report a combined result using our previ-
+t, generating the asymmetries reported in Fig. 2.                          ous measurement [18] and a similar weighting method
+   For the asymmetry as reported here, we utilized all                     as above, where all systematic uncertainties were set
+                                                                                                                                                                                                     7
+
+to the smallest reported value between the two mea-                                                                               work) with all systematic corrections < 2%. For the fu-
+surements and treated as completely correlated so as to                                                                           ture, we note that if the precision level of measurements
+avoid artificially small combined systematic uncertain-                                                                           of the beta asymmetry achieve the roughly 0.1% level
+ties. We obtain the values A0 = −0.12015(34)stat (63)syst                                                                         required for direct comparison with Vud extracted from
+and λ ≡ ggVA = −1.2772(20), with weights of 0.39 for                                                                              0+ → 0+ superallowed decays [47], the pre-2002 measure-
+the previous result [18] and 0.61 for the result from this                                                                        ments will not contribute to the Particle Data Group’s
+analysis.                                                                                                                         scatter calculations for the beta asymmetry, setting the
+                                                                                                                                  precision level for evaluating scatter and the global aver-
+                                                                                                                                  ages at the scale of the recent measurements and those
+       0.982                                                                                         2020
+                Be                                  UC
+                                                                                                                                  to come 1 .
+                  am                                     N
+        0.98           τ                                     τ
+                       n                                     n                                       2010
+
+       0.978                                                                                                                                      ACKNOWLEDGMENTS
+
+
+
+
+                                                                                                            Year of Publication
+                               Pre-2002 λ                                       Post-2002 λ
+                                                                                                     2000
+       0.976                                                                                                                        This work is supported in part by the U.S. Depart-
+ Vud                   +
+               PDG 0 →0+                                                                             1990                         ment of Energy, Office of Nuclear Physics (DE-FG02-
+       0.974
+                                                                                                                                  08ER41557, DE-SC0014622, DE-FG02-97ER41042) and
+       0.972    A0 measurements                                                                      1980                         the National Science Foundation (NSF-0700491, NSF-
+                      Brown et al. (this work)                                                                                    1002814, NSF-1005233, NSF-1102511, NSF-1205977,
+                      Mund et al.
+        0.97
+                      Liaud et al.             Other measurements                                    1970
+                                                                                                                                  NSF-1306997, NSF-1307426, NSF-1506459, and NSF-
+                      Yerozolimsky et al.            Schumann et al.
+                      Bopp et al.                    Mostovoi et al.
+                                                                                                                                  1615153). We gratefully acknowledge the support of
+       0.968
+                                                                                                     1960
+                                                                                                                                  the LDRD program (20110043DR), and the LANSCE
+               1.255       1.26             1.265                1.27   1.275                 1.28
+                                                                                                                                  and AOT divisions of the Los Alamos National Labo-
+                                                    |λ |
+                                                                                                                                  ratory. We thank M. González-Alonso for comments on
+                                                                                                                                  this work.
+FIG. 6. Status of Vud , the neutron lifetime, and λ measure-
+ments. The λ result bands (vertical) are divided into pre-2002
+[40–42] and post-2002 [18, 44–46] results, where the distinc-                                                                                              APPENDIX
+tion is made using the date of the most recent result from each
+experiment. The right axis shows publication year for the in-                                                                        During β-decay running, an equilibrium population of
+dividual lambda measurements included in the calculation of
+                                                                                                                                  spins develops. We characterize this equilibrium spin
+the λ bands (closed markers for post-2002, open markers for
+pre-2002). Note that the result of this work (Brown et al.) is
+                                                                                                                                  population by a depolarized fraction at time t, with
+the combined UCNA result from [18] and the current analysis,                                                                      t = 0 s at the beginning of a polarimetry measurement:
+and the Mund et al. result is the combined PERKEOII result                                                                        ξ(t) = [Ndepol (t)/Nload (t)], where “load” indicates the
+from [43, 44]. The diagonal bands are derived from neutron                                                                        equilibrium population of neutron spin states that devel-
+lifetime measurements and are separated into neutron beam                                                                         oped in the decay trap (mainly the spin state chosen by
+[31, 32] and UCN bottle experiments, which consist of mate-                                                                       the spin flipper with a small depolarized contribution),
+rial bottle storage [34–38] and magnetic bottle storage [33].                                                                     and “depol” indicates neutrons which have the opposite
+The Vud band (horizontal) comes from superallowed 0+ → 0+                                                                         spin state (nominally depolarized). The polarization at
+nuclear β-decay measurements [39]. The error bands include                                                                        time t is then P (t) = 1−2ξ(t). We determine the fraction
+scale factors as prescribed by the Particle Data Group [39].                                                                      of depolarized neutrons in a given β-decay run by per-
+                                                                                                                                  forming depolarization or “D” runs at the end of each 50
+   As shown in Fig. 6, one can constrain Vud using                                                                                min. β-decay run. In these runs, the loaded spin popula-
+λ [18, 40–46] and neutron lifetime measurements [31–                                                                              tions are determined by direct measurement of the UCN
+38] and compare to direct measurements of Vud from                                                                                population in the spectrometer decay volume just before
+0+ → 0+ superallowed decays [39]. When considering                                                                                the beginning of a depolarization measurement. Because
+the discrepancy between neutron lifetime measurements                                                                             depolarized populations are small (smaller than 1 %), the
+using neutron beams [31, 32] versus UCN storage experi-                                                                           β-decay rate or the rate in a UCN monitor attached to
+ments (performed with material bottles [34–38] and mag-                                                                           the SCS is sufficient to provide a reliable measure pro-
+                                                                                                                                                                              SCS
+netic bottles [33]) and the shift in λ measurements after                                                                         portional to the loaded spin population, Nload  (t = 0 s),
+2002, one observes a striking landscape. The older pre-
+2002 results contribute significantly to the χ2 of the en-
+tire datapset, leading the Particle Data Group (PDG) to
+                                                                                                                                  1 The PDG only includes in the calculation of the scale factor those
+apply a χ2 /(N − 1) = 2.2 scale factor to the current λ                                                                                                                 √
+                                                                                                                                    measurements that satisfy δxi < 3 N δ x̄, where xi refers to one
+error [39]. A common theme between the majority of the
+                                                                                                                                    measurement of quantity x out of N measurements and δ x̄ is the
+pre- and post-2002 results for λ concerns the size of the                                                                           non-scaled error on the weighted average x̄ [39]. Inclusion of a
+systematic corrections, where the pre-2002 measurements                                                                             0.1% result for A0 (yielding a 0.025% result for λ), removes the
+([40–42]) have individual systematic corrections > 10%                                                                              pre-2002 results for λ from those that enter the calculation of the
+compared to those from post-2002 ([18, 43, 44] and this                                                                             scale factor.
+                                                                                                                                                          8
+
+where the superscript “SCS” indicates measurement with
+
+                                                                 Log(Counts)
+                                                                                       (1)              (3)                     (4)               (5)
+either the UCN monitor or electron detectors in the β-                         5
+                                                                                             (2)
+
+decay spectrometer.
+   The depolarized spin population is isolated and mea-                        4
+
+sured in a procedure with five steps. In step (1), we
+utilize a new component for the UCNA experiment: a                             3
+
+shutter at the exit of the decay trap (see Fig. 1). The
+                                                                               2
+shutter dramatically improves the signal-to-background
+ratio in our measurement of the depolarized fraction, and                      1
+permits a very clean assessment of the systematic errors
+in our polarimetry analysis. At time t = 0 s, the shutter                      0
+                                                                                   0               50         100   150   200         250   300     350
+is closed, preventing UCN in the decay volume from ex-                                                                                      Time (sec)
+iting the system. When the shutter closes, the state of
+the switcher also changes, routing UCN that exit from
+the decay trap through the polarizer/AFP magnet to a           FIG. 7. Switcher signal as a function of time, during “D”-type
+UCN detector located below the switcher. The signal            runs: (1) the shutter closes and the switcher state changes,
+in the switcher detector during a polarimetry run is de-       permitting UCN in the guide outside the decay volume to
+                                                               drain to the switcher UCN detector, (2) the AFP spin-flipper
+picted in Fig. 7. After the shutter is closed, the loaded
+                                                               changes state, allowing depolarized neutrons in the guides
+spin population in the guides between the shutter and the      outside the decay volume to drain to the switcher, (3) the
+switcher detector are permitted to drain to the switcher       shutter opens, permitting depolarized neutrons within the de-
+detector, producing a large pulse in the switcher detec-       cay volume to drain to the switcher detector, (4) the AFP
+tor. In step (2), at t = 25 s, the state of the spin flipper   spin-flipper returns to its initial state, allowing the initially
+is changed, permitting depolarized UCN in the guides           loaded spin state to drain from the decay volume, (5) back-
+beyond the spin-flipper to also exit to the switcher de-       grounds are measured after the UCN population in the decay
+tector. Note that, prior to this time, the depolarized         volume has drained away. The presented data were taken in
+population is in a state which can not pass the high field     2011 and UCN loaded into the decay volume with the spin-
+region of the polarizer/AFP magnet. In step (3), at time       flipper off.
+t = 30 s, the shutter is opened, permitting only depolar-
+ized UCN from the decay trap to traverse the high field
+region in the polarizer/AFP magnet and be counted in           TABLE III. Results from measured raw depolarization frac-
+the switcher detector. After background subtraction, the       tions and the range of Monte Carlo correction values for each
+number of UCN counted in this phase by the switcher            dataset in spin-flipper off (−) and spin-flipper on (+) states.
+             SWT
+detector, Ndepol  (t = 30 s), is proportional to the depo-
+                                                                                                      2011-2012                         2012-2013
+larized population at time t = 30 s (“SWT” stand for                                                    −                               −
+                                                                                                    P         P+                      P         P+
+switcher detector). In step (4), at t = 130 s, the spin-
+flipper is changed again, permitting the initially loaded       ξraw (t = 0 s) 0.0062(4) 0.0099(3) 0.0045(5) 0.0070(3)
+spin population to drain from the decay trap. Finally, in       MC Corr.       0.15-0.275 0.275-0.375 0.15-0.30 0.25-0.375
+step (5) at t = 310 s, when all UCN have drained from
+the trap, we take background data in the switcher UCN
+detector for 50 s.                                             can be continuously fed by depolarization of the initially
+   A set of dedicated, “ex situ” measurements called “P ”      loaded spin population. We refer to this as the “DE”
+runs are performed for both flipper on-loaded and off-         or depolarization evolution correction, which can affect
+loaded UCN to determine the ratio of UCN measured              both flipper-on and flipper-off loaded β-decay runs. The
+at t = 0 s in the SCS to those measured after storing          second is due to the finite spin flipper efficiency, and is
+them for 30 s behind the shutter and then unloading            referred to as the “SFE” correction. This causes a sys-
+them to the switcher detector. This ratio is used (for the     tematic error only for flipper-off loaded runs, because it
+spin state corresponding to depolarized UCN in a given         produces a continuous leakage of UCN from the initially
+D run) to correct the switcher signal measured in the          loaded spin population through the spin flipper when the
+D runs for storage behind the shutter and transport to         flipper is on (trapping the initially loaded spin popula-
+the switcher. The resultant “raw” depolarized fraction         tion and nominally preventing them from being counted
+ξraw (t = 0 s) is nominally independent of spin-transport      in the switcher detector). Our simulations permit us
+and detection efficiencies.                                    to systematically explore the guide transport parame-
+   A systematic multiplicative correction to the measured      ters (guide specularity, Fermi potentials, and loss per
+value of ξraw (t = 0 s) is determined via Monte Carlo          bounce) as well as the magnitude and correlations be-
+simulation of the signals in our switcher UCN detector.        tween the DE and SFE corrections. The measured val-
+This correction arises from two effects, the first being       ues of ξraw (t = 0 s) and the Monte Carlo correction fac-
+that while the depolarized spin population is stored be-       tors are shown in Table III, and the polarization for the
+hind the shutter during a D-type run (t = 0–30 s), it          2011 and 2012 LANL run cycles are tabulated in Table
+                                                                                                                             9
+
+I. The uncertainties for the polarization determined for          in the fitting procedures used to determine the Monte
+this work were dominated by the statistical uncertainties         Carlo corrections. In addition to the resultant statisti-
+in the fitting procedures used to determine the DE and            cal uncertainty in the Monte Carlo correction factors, we
+SFE corrections, with these determined by the counting            also assigned a 15 % overall systematic uncertainty to the
+statistics for UCNs in the switcher detector.                     Monte Carlo correction factor due to the worst case dis-
+   The uncertainties for the polarization determined for          agreement between the switcher signal simulations and
+this work were dominated by the statistical uncertainties         Monte Carlo predictions.
+
+
+
+
+ [1] G. Darius, W. A. Byron, C. R. DeAngelis, M. T. Hassan,       [22] S. Hoedl, “Novel Proton Detectors, Ultra-Cold Neutron
+     F. E. Wietfeldt, B. Collett, G. L. Jones, M. S. Dewey, M.         Decay and Electron Backscatter,” Ph.D. Thesis, Prince-
+     P. Mendenhall, J. S. Nico, H. Park, A. Komives, and E.            ton University, (2003).
+     J. Stephenson, Phys. Rev. Lett. 119, 042502 (2017).          [23] C. L. Morris, W. J. Braithwaite, and C. F. Moore, Nucl.
+ [2] J. Byrne et al., J. Phys. G: Nucl. Part. Phys. 28, 1325           Instrum. Methods 136, 197 (1976).
+     (2002).                                                      [24] K. P. Hickerson et al., Phys. Rev. C 96, 042501 (2017).
+ [3] T. Bhattacharya et al., Phys. Rev. D 94, 054508 (2016).      [25] M. P. Mendenhall, “Measurement of the neutron beta de-
+ [4] K. Berkowitz et al., “An accurate calculation of                  cay asymmetry using ultracold neutrons,” Ph.D. Thesis,
+     the nucleon axial charge with lattice QCD,” (2017),               California Institute of Technology, (2014).
+     arXiv:1704.01114 [hep-lat].                                  [26] S. M. Bilen’kiı̆ et al., Sov. Phys. JETP USSR 10, 1241
+ [5] S. Capitani et al., “Iso-vector axial form factors                (1960) [Zh. Eksp. Teor. Fiz. 37, 1758 (1960)].
+     of the nucleon in two-flavour lattice QCD,” (2017),          [27] B. R. Holstein, Rev. Mod. Phys. 46, 789 (1974).
+     arXiv:1705.06186 [hep-lat].                                  [28] R. T. Shann, Il Nuovo Cimento 5 A, 591 (1971).
+ [6] M. González-Alonso and J. M. Camalich, JHEP 1612            [29] F. Glück and K. Tóth, Phys. Rev. D 46, 2090 (1992)
+     (2016) 052.                                                  [30] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 96,
+ [7] S. Alioli, V. Cirigliano, W. Dekens, J. de Vries, and E.          032002 (2006).
+     Mereghetti, JHEP 1705 (2017) 086.                            [31] A. T. Yue et al., Phys. Rev. Lett. 111, 222501 (2013).
+ [8] V. Cirigliano, S. Gardner, and B. Holstein, Prog. Part.      [32] J. Byrne et al., EPL (Europhysics Letters) 33, 187
+     Nucl. Phys. 71, 93 (2013).                                        (1996).
+ [9] T. Bhattacharya et al., Phys. Rev. D 85, 054512 (2012)       [33] R. W. Pattie Jr. et al., “Measurement of the neutron
+[10] J. D. Jackson, S. B. Treiman, and H. W. Wyld Jr. Phys-            lifetime using an asymmetric magneto-gravitational trap
+     ical Review 106, 517 (1957).                                      and in situ detection,” (2017), arXiv:1707.01817 [nucl-
+[11] S. Gardner and C. Zhang, Phys. Rev. Lett. 86, 5666                ex].
+     (2001)                                                       [34] A. Serebrov et al., Phys. Lett. B 605, 72 (2005).
+[12] D. H. Wilkinson, Nucl. Phys. A 377, 474 (1982)               [35] S. Arzumanov et al., Phys. Lett. B 745, 79 (2015).
+[13] A. Saunders et al. (UCNA Collaboration), Rev. Sci. Instr.    [36] A. Steyerl et al., Phys. Rev. C 85, 065503 (2012).
+     84, 013304 (2013).                                           [37] A. Pichlmaier et al., Phys. Lett. B 693, 221 (2010).
+[14] A. T. Holley et al., Rev. Sci. Instrum. 83, 073505 (2012).   [38] W. Mampe et al., Soviet Physics JETP 57, 82 (1993).
+[15] B. Plaster et al., Nucl. Instrum. Methods Phys. Res. A       [39] C. Patrignani et al. (Particle Data Group), Chin. Phys.
+     595, 587 (2008).                                                  C 40, 100001 (2016).
+[16] T. Ito et al., Nucl. Instrum. Methods Phys. Res. A 571,      [40] P. Bopp et al., Phys. Rev. Lett. 56, 919 (1986).
+     676 (2007).                                                  [41] B. Yerozolimsky et al., Phys. Lett. B 412, 240 (1997).
+[17] R. Rios et al., Nucl. Instrum. Methods Phys. Res. A 637,     [42] P. Liaud et al., Nucl. Phys. A 612, 53 (1997).
+     105 (2011).                                                  [43] H. Abele et al., Phys. Rev. Lett. 88, 211801 (2002).
+[18] M. P. Mendenhall et al. (UCNA Collaboration), Phys.          [44] D. Mund et al., Phys. Rev. Lett. 110, 172502 (2013).
+     Rev. C 87, 032501 (2013).                                    [45] M. Schumann et al., Phys. Rev. Lett. 100, 151801 (2008).
+[19] B. Plaster et al. (UCNA Collaboration), Phys. Rev. A         [46] Y. A. Mostovoi et al., Physics of Atomic Nuclei 64, 1955
+     86, 055501 (2012).                                                (2001).
+[20] R. W. Pattie et al. (UCNA Collaboration), Phys. Rev.         [47] J. C. Hardy and I. S. Towner, Phys. Rev. C 91, 025501
+     Lett. 102, 012301 (2009).                                         (2015)
+[21] J. Liu et al. (UCNA Collaboration), Phys. Rev. Lett.
+     105, 181803 (2010).
+

@@ -1,0 +1,423 @@
+                                      Improved Calculation of Electroweak Radiative Corrections and
+                                                                          the Value of Vud
+
+                                                                William J. Marciano 1 and Alberto Sirlin 2
+                                                        1
+                                                            Brookhaven National Laboratory, Upton, NY 11973
+                                                            2
+                                                                New York University, Department of Physics,
+                                                                4 Washington Place, New York, NY 10003
+
+
+
+
+arXiv:hep-ph/0510099v2 18 Oct 2005
+                                                                          (Dated: September 2005)
+
+                                                                                Abstract
+                                       A new method for computing hadronic effects on electroweak radiative corrections to low-energy
+                                     weak interaction semileptonic processes is described. It employs high order perturbative QCD re-
+                                     sults originally derived for the Bjorken sum rule along with a large N QCD-motivated interpolating
+                                     function that matches long and short-distance loop contributions. Applying this approach to the
+                                     extraction of the CKM matrix element Vud from superallowed nuclear beta decays reduces the the-
+                                     oretical loop uncertainty by about a factor of 2 and gives Vud = 0.97377(11)(15)(19). Implications
+                                     for CKM unitarity are briefly discussed.
+
+
+
+
+                                                                                    1
+   Precision studies of low-energy semileptonic weak-charged and neutral current processes
+can be used to test the SU(3)c × SU(2)L × U(1)Y Standard Model at the quantum loop level
+and probe for potential “new physics” effects. Examples for which a fraction of a percent
+experimental sensitivity has already been achieved include: pion, neutron and nuclear beta
+decays [1], as well as atomic parity violation [2]. In those cases, electroweak radiative
+corrections (RC) have been computed [3, 4, 5] and found to be significant (of order several
+percent). They must be included in any meaningful confrontation between theory and
+experiment.
+   Of course, inherent to any low-energy semileptonic process are uncertainties due to strong
+interactions, since quarks are involved. To minimize such effects, one often focuses on weak
+vector current-induced reactions, where CVC (conserved vector current) protects those am-
+plitudes at tree level from strong interaction corrections in the limit of zero momentum
+transfer. However, even for those amplitudes, electroweak loop corrections can involve weak
+axial-vector effects not protected by CVC, which give rise to hadronic (strong interaction)
+uncertainties in their evaluation [3, 4]. In this paper, we focus on the best known and tested
+examples of that phenomenon, the electroweak radiative corrections to neutron and corre-
+spondingly superallowed nuclear beta decays along with their implications for the extraction
+of the CKM matrix element Vud . However, the method we describe is quite general and can
+be easily applied to other charged and neutral current semileptonic low-energy reactions.
+   The extraction of Vud (in fact all CKM matrix elements) entails normalizing a semileptonic
+reaction rate with respect to the muon lifetime, or equivalently the Fermi constant derived
+from it
+                                  Gµ = 1.16637(1) × 10−5 GeV −2                            (1)
+
+For high precision, electroweak radiative corrections to both processes must be included
+and hadronic as well as environmental effects (e.g., nuclear structure) must be controlled.
+Toward that end, super-allowed (0+ → 0+ ) nuclear beta decay transitions are very special
+since they only involve the weak vector current at tree level. Small violations of CVC due
+to the up-down mass difference or non-zero momentum transfer are small ∼ O(10−5) and
+can generally be neglected (or incorporated). Such an analysis leads to the very accurate
+relationship [6, 7]
+
+                                  2984.48(5)sec
+                      |Vud |2 =                 (Superallowed β − decays)                  (2)
+                                   f t(1 + RC)
+
+                                               2
+where ft is the product of a phase space statistical decay rate factor f (which depends on
+the Q value of a specific nuclear beta decay) and its measured half-life t. RC designates the
+total effect of all radiative corrections relative to muon decay as well as QED-induced nuclear
+structure isospin violating effects. It is nucleus dependent, ranging from about +3.1% to
++3.6% for the nine best-measured super-allowed decays. So, measuring Q and t combined
+with computing RC determines Vud . A similar formula will be given later for neutron beta
+decay. In that case, the Q value = mn − mp is very precisely known, but in addition to the
+neutron lifetime, gA ≡ GA /GV must be accurately measured because both weak axial and
+vector currents contribute at tree level [1, 6].
+   Our main goal in this paper is to reduce the hadronic uncertainty in the radiative correc-
+tions to super-allowed nuclear beta decays and thereby improve the determination of Vud .
+The need for such an improvement is well illustrated by a survey of ft values and RC for
+super-allowed beta decays by Hardy and Towner [7], more recently updated by G. Savard
+et al. [8], which found
+                                     Vud = 0.9736(2)(4)EW                                  (3)
+
+where the first uncertainty stems primarily from nuclear structure corrections (including
+O(Z 2 α3 ) effects) and very small ft value errors while the second, dominant error is due
+to hadronic uncertainties in electroweak loop effects. Although, as we mention later, the
+first error may currently be an underestimate and the central value of Vud could shift due to
+future Q value updates, it is clear that the hadronic loop uncertainty, which comes from weak
+axial-current loop effects, currently limits the determination of Vud and must be improved
+if further progress is to be made.
+   Here, we describe a new method for controlling hadronic uncertainties in the radiative
+corrections to neutron and super-allowed nuclear beta decays. It validates our previous
+results [4, 6] increasing Vud by only a small +0.00007, but reduces the loop uncertainty by
+about a factor of 2, (0.0004)EW → (0.0002)EW as we now demonstrate.
+   The one-loop electroweak radiative corrections to the neutron (vector current contribu-
+tion) and super-allowed nuclear beta decays are given by [3, 4, 9]
+                                (                                         )
+                         α               mZ      mZ
+                  RCEW =    g(Em ) + 3ln    + ln    + Ag + 2CBorn                          (4)
+                         2π              mp      mA
+The first two terms result from loop corrections and bremsstrahlung involving electromag-
+netic and weak vector current interactions, with g(Em ) a universal function [9] integrated
+
+                                              3
+over phase space and 3ln mZ
+                         mp
+                            a short-distance loop effect. They are not affected by strong
+interactions up to O( απ Emmp ) ≃ 10−5 corrections which can be neglected at our present level
+of accuracy. Higher order leading logs of order αn lnn (mZ /mp ) etc. can be summed via a
+renormalization group analysis [4] and O(Zα2 ) as well as O(Z 2 α3 ) contributions have been
+computed for high Z nuclei [10]. They will not be explicitly discussed here, but are included
+in our final results.
+   The last three terms in eq. (4) are induced by weak axial-vector current loop effects.
+Their primary source is the γW box diagram which involves the time-ordered product of
+the electromagnetic and weak axial-vector currents. That product contains a leading vector
+current component which contributes to 0+ → 0+ nuclear transition elements. Employing
+the current algebra formulation, one finds [3]
+                                             Z∞
+                                       α                  m2W
+                         Box(γW )V A =            dQ2            F (Q2 )                   (5)
+                                       8π               Q2 + m2W
+                                             0
+
+where Q is a Euclidean loop momentum integration variable.
+   Previous estimates of eq. (5) employed the operator product expansion plus lowest order
+QCD correction to obtain the leading effect [3, 4]
+                                             αs (Q2 )
+                                            "               #
+                              2        1                   1
+                         F (Q ) −−2−−→ 2 1 −          + O( 4 )                             (6)
+                                 Q →∞ Q         π         Q
+
+Integrating over the range m2A ≤ Q2 < ∞ and combining with smaller vertex corrections
+and ZW box diagrams, that prescription gave a short-distance amplitude contribution
+                                  α     mZ
+                                                 
+                                     ln    + Ag , Ag ≃ −0.34                               (7)
+                                  4π    mA
+In the numerical estimate, the low energy cutoff was chosen to be mA = 1.2GeV , roughly
+the mass of the A1 resonance, and the error was estimated by allowing mA to vary up or
+down by a factor of 2. Such a heuristic, albeit crude procedure led to a ±0.0004 uncertainty
+in Vud . For the long-distance γW box diagram contribution, nucleon electromagnetic and
+axial-vector dipole form factors were used to find for neutron decay [4, 5]
+
+                          CBorn (neutron) ≃ 0.8gA (µn + µp ) ≃ 0.89                        (8)
+
+where gA ≃ 1.27 and µn + µp = 0.88 is the nucleon isoscalar magnetic moment. In the case
+of superallowed nuclear decays, nuclear quenching modifies CBorn (neutron) and nucleon-
+nucleon electromagnetic effects must be included [11]. Overall, in the case of a neutron,
+
+                                             4
+axial-vector-induced one-loop RC to the decay rate amount to 0.67(8)%. Roughly the same
+uncertainty ±0.08% applies to superallowed nuclear decays.
+   To reduce the hadronic uncertainty in RC, we have carried out a new analysis of the
+γW box diagram axial-vector-induced radiative corrections that incorporates the following
+F (Q2 ) improvements [12]:
+
+
+   1) Short Distances (1.5GeV )2 ≤ Q2 < ∞, a domain where QCD corrections remain
+perturbative.
+
+                            αs (Q2 )M S        αs (Q2 )M S 2       αs (Q2 )M S 3
+                         "                                                         #
+                      1
+            F (Q2 ) = 2 1 −             − C2 (            ) − C3 (            )          (9)
+                     Q           π                  π                   π
+
+
+                             C2 = 4.583 − 0.333NF                                      (10)
+
+                             C3 = 41.440 − 7.607NF + 0.177NF2                          (11)
+
+where NF = number of effective quark flavors.
+
+
+2) Intermediate Distances ((0.823GeV )2 ≤ Q2 < (1.5GeV )2 )
+
+                                    −1.490    6.855     4.414
+                        F (Q2 ) =           + 2       − 2                              (12)
+                                    Q + mρ Q + mA Q + m2ρ′
+                                     2    2         2
+
+
+
+
+                                       mρ = 0.776GeV                                   (13)
+                                       mA = 1.230GeV                                   (14)
+
+                                      mρ′ = 1.465GeV                                   (15)
+
+3) Long Distances: 0 ≤ Q2 ≤ (0.823GeV )2
+   Integrating the long-distance amplitude up to Q2 = (0.823GeV )2 , where the integrand
+matches the interpolating function, and using an update of the nucleon electromagnetic and
+axial-current dipole form factors, we find
+
+                                    CBorn (neutron) ≃ 0.829                            (16)
+
+a reduction from our own previous result in eq. (8), where the integration was carried up to
+Q2 = ∞.
+
+                                             5
+   Details of the above calculations will be given in a subsequent publication [12]. Here, we
+briefly discuss the results of the above analysis and its implications.
+   The QCD corrections to the asymptotic form of F (Q2 ) have been given in eq. (9) to
+O(αs3 ). The additional terms are identical (in the chiral limit) to QCD corrections to the
+Bjorken sum rule [13] for polarized electroproduction and can be read off from well-studied
+calculations [14, 15] for that process. Their validity has been well tested experimentally [16].
+   The interpolating function in eq. (12) is motivated by large N QCD which predicts it
+should correspond to an infinite sum of vector and axial-vector resonances [17]. We impose
+three conditions that determine the residues: i) The integral of eqs. (5) and (12) should
+equal that of eqs. (5) and (9) in the asymptotic domain (1.5GeV )2 ≤ Q2 ≤ ∞, which
+amounts to a matching requirement between domains 1 and 2, ii) In the large Q2 limit,
+the coefficient of the 1/Q4 term in the expansion of eq. (12) should vanish as required by
+chiral symmetry [18], iii) The interpolator should vanish at Q2 = 0 as required by chiral
+perturbation theory. Three conditions limit us to three resonances.
+   The Q2 = (0.823GeV )2 match between domains 2 and 3 was chosen to be the value at
+which eq. (12) equals the integrand of the long-distance contribution. Interestingly, that
+matching occurs near the ρ mass. A novel technical point in the formulation is that in
+the evaluation of the Feynman diagrams associated with the long-distance contributions the
+integral over the auxiliary variables is carried out first. This leads to integrands that depend
+on Q2 and can therefore be matched with eq. (12).
+   Using this approach, we find that at the one-loop electroweak level the last three terms
+in eq. (4) are effectively replaced by 2.82 απ in the case of neutron decay. Comparison with
+eqs. (4) and (8) in conjunction with mA = 1.2GeV , Ag = −0.34 shows that in the new
+formulation these corrections are reduced by 1.4 × 10−4 , which increases Vud by 7 × 10−5 .
+The smallness of that shift is a validation of our previous result [4, 6].
+   More important than the small reduction in the radiative corrections, our new method
+provides a more systematic estimate of the hadronic uncertainties as well as experimental
+verification of its validity [16]. Allowing for a ±10% uncertainty for the CBorn correction in
+eq. (16), a ±100% uncertainty for the interpolator contribution in the (0.823GeV )2 ≤ Q2 <
+(1.5GeV )2 region and ±0.0001 uncertainty from neglected higher order effects, we find the
+total uncertainty in the electroweak radiative corrections is ≃ ±0.00038 which leads to ≃ a
+±0.00019 uncertainty in Vud . That corresponds to more than a factor of 2 reduction in the
+
+                                              6
+loop uncertainty from hadronic effects.
+   Employing our new analysis, we find the improved relationship between Vud , the neutron
+lifetime and gA ≡ GV /GA
+
+                                         4908.7(1.9)sec
+                             |Vud |2 =                   (neutron)                      (17)
+                                          τn (1 + 3gA2 )
+
+Future precision measurements of τn and gA used in conjunction with eq. (17) will ultimately
+be the best way to determine Vud , but for now it is not competitive [6].
+   In the case of superallowed (0+ → 0+ transitions) nuclear β-decays, there are a number
+of corrections, some nucleus dependent, that must be applied to the ft values. They are
+collectively called RC in eq. (2). To make contact with previous studies [1, 7], we factorize
+them as follows:
+                            1 + RC = (1 + δR )(1 − δC )(1 + ∆)                          (18)
+
+The first two factors are nucleus dependent while ∆ is roughly nucleus independent, coming
+primarily from short-distance loop effects. The axial-vector contributions discussed above
+are included in the product (1 + δR )(1 + ∆). Because we include leading logs from higher
+orders as well as some next-to-leading logs [4, 6], the factorization is not exact and ∆ will
+exhibit some small nucleus dependence. In Table 1, we give the decomposition of RC along
+with their uncertainties, using the results from Hardy and Towner [1, 7] for nuclear effects.
+The uncertainty in 1 + δR comes from Z 2 α3 and nuclear structure contributions while a
+common ±0.03% error in the Coulomb distortion effect is assigned to 1 − δC . The entire
+loop uncertainty decribed in this paper is assigned to 1 + ∆, even though much of it comes
+from medium and long-distance effects and might better be attributed to 1 + δR . We have
+not made such a distribution, since it is common to all decays.
+   Employing the corrections in Table 1 together with eqs. (2) and (18) leads to the Vud
+values illustrated in Table 2. One finds for the weighted average
+
+                   Vud = 0.97377(11)(15)(19) (Superallowed β − decays)                  (19)
+
+Comparing with eq. (3) we see that our analysis gives a somewhat larger Vud due to a
+±0.00007 increase from our new prescription along with refinements from ref. [6] which
+were not included in Savard et al. [8]. Also, Savard et al. rounded down in their analysis.
+
+
+
+
+                                               7
+   Table 1.    Decomposition of the RC for the nine best-measured superallowed nuclear
+β-decays. Coulomb corrections in 1 − δC are taken directly from ref. [1, 7] while 1 + δR
+has been somewhat modified due to our new results. The short-distance 1 + ∆ factor is
+based on the recent update in ref. [6] which includes higher order leading logs and some
+next-to-leading logs.
+
+                   Nucleus            1 + δR        1 − δC      1+∆
+                        10
+                             C    1.01298(5)(35)   0.9983(3) 1.02389(38)
+                        14
+                             O    1.01274(8)(50)   0.9976(3) 1.02385(38)
+                        26
+                             Al   1.01468(21)(20) 0.9971(3) 1.02380(38)
+                        34
+                             Cl   1.01343(34)(15) 0.9939(3) 1.02379(38)
+                        38
+                             K    1.01322(41)(15) 0.9939(3) 1.02378(38)
+                        42
+                             Sc   1.01469(49)(20) 0.9954(3) 1.02377(38)
+                        46
+                             V    1.01392(57)(7)   0.9959(3) 1.02377(38)
+                    50
+                         Mn       1.01394(65)(7)   0.9957(3) 1.02376(38)
+                        54
+                             Co   1.01398(73)(7)   0.9947(3) 1.02376(38)
+
+
+
+
+                                               8
+  Table 2. Values of Vud implied by various precisely measured superallowed nuclear beta
+decays. The ft values are taken from Savard et al. [8]. Uncertainties in Vud correspond to:
+1) nuclear structure and Z 2 α3 uncertainties added in quadrature with the ft error [10, 11],
+2) a common error assigned to nuclear coulomb distortion effects [11], and 3) a common
+uncertainty from quantum loop effects. Only the first error is used to obtain the weighted
+average.
+
+            Nucleus        ft(sec)          1+RC                    Vud
+              10
+                   C     3039.5(47) 1.03542(36)(30)(38) 0.97381(77)(15)(19)
+               14
+                    0    3043.3(19) 1.03441(52)(30)(38) 0.97368(39)(15)(19)
+              26
+                   Al    3036.8(11) 1.03582(30)(30)(38) 0.97406(23)(15)(19)
+              34
+                   Cl    3050.0(12) 1.03121(38)(30)(38) 0.97412(26)(15)(19)
+              38
+                   K     3051.1(10) 1.03099(44)(30)(38) 0.97404(26)(15)(19)
+              42
+                   Sc    3046.8(12) 1.03403(54)(30)(38) 0.97330(32)(15)(19)
+              46
+                   V     3050.7(12) 1.03376(59)(30)(38) 0.97280(34)(15)(19)
+             50
+                  Mn     3045.8(16) 1.03357(67)(30)(38) 0.97367(41)(15)(19)
+              54
+                   Co    3048.4(11) 1.03257(75)(30)(38) 0.97373(40)(15)(19)
+                                      Weighted Average      0.97377(11)(15)(19)
+
+
+
+
+                                            9
+   We note that 46 V gives a somewhat low value for Vud . It differs from the average by 2.7
+sigma. That particular nucleus recently underwent a Q value revision [8] which lowered its
+Vud . It may be indicating problems with other Q values. If the other nuclear Q values follow
+the lead of 46 V , we could see a fairly significant reduction in the weighted average for Vud .
+Clearly, remeasurements of Q values and half-lives of the superallowed decays are highly
+warranted.
+   Employing the value of Vud in eq. (19) and the Kl3 average [19] for Vus
+
+                         Vus = 0.2257(9)(0.961/f+(0)), Kl3 average                         (20)
+
+with f+ (0) = 0.961(8) [20] leads to the unitarity test
+
+                     |Vud |2 + |Vus |2 + |Vub |2 = 0.9992(5)Vud (4)Vus (8)f+ (0)           (21)
+
+Good agreement with unitarity is found, with the dominant uncertainty coming now from
+the theory error in the form factor f+ (0). Eq. (21) provides an important test of the standard
+model at the quantum loop level and a constraint on new physics beyond the standard model
+at the ±0.09% level. We note, however, that some other calculations [19, 21] of f+ (0) and
+studies of other strangeness changing decays [22] suggest a lower Vus value. Combined with
+further Q value revisions possibly leading to a smaller Vud , they could cause a significant
+reduction in eq. (21). A future violation of unitarity is still possible. However, for it to be
+significant, the theoretical uncertainty in f+ (0) must be further reduced.
+
+
+ACKNOWLEDGMENTS
+
+
+   The work of W.J.M. was authored under Contract No. DE-AC02-98CH1086 with the
+U.S. Department of Energy. The work of A.S. was supported by NSF Grant PHY-0245068.
+Both authors would like to thank the Institute for Advanced Study for support and its
+hospitality during the time this work was carried out.
+
+
+
+
+ [1] I. S. Towner and J. C. Hardy, Experiment and Theory,” J. Phys. G 29, 197 (2003)
+    [arXiv:nucl-th/0308001]; D. H. Wilkinson, Nucl. Phys. A 377, 474 (1982); D. Pocanic et
+    al., Phys. Rev. Lett. 93, 181803 (2004) [arXiv:hep-ex/0312030].
+
+                                               10
+ [2] S. C. Bennett and C. E. Wieman, Phys. Rev. Lett. 82, 2484 (1999) [arXiv:hep-ex/9903022].
+ [3] A. Sirlin, Rev. Mod. Phys. 50, 573 (1978) [Erratum-ibid. 50, 905 (1978)]; A. Sirlin, Nucl.
+    Phys. B 71, 29 (1974); A. Sirlin, Nucl. Phys. B 196, 83 (1982).
+ [4] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 56, 22 (1986).
+ [5] W. J. Marciano and A. Sirlin, Phys. Rev. D 27, 552 (1983); W. J. Marciano and A. Sirlin,
+    Phys. Rev. D 29, 75 (1984) [Erratum-ibid. D 31, 213 (1985)].
+ [6] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. D 70, 093006 (2004)
+    [arXiv:hep-ph/0406324].
+ [7] J. C. Hardy and I. S. Towner, Phys. Rev. Lett. 94, 092502 (2005) [arXiv:nucl-th/0412050];
+    J. C. Hardy and I. S. Towner, Phys. Rev. C 71, 055501 (2005) [arXiv:nucl-th/0412056].
+ [8] G. Savard et al., Phys. Rev. Lett. 95, 102501 (2005).
+ [9] A. Sirlin. Phys. Rev. 164,1767 (1967).
+[10] A. Sirlin, Phys. Rev. D 35, 3423 (1987); W. Jaus and G. Rasche, Phys. Rev. D 35, 3420
+    (1987); A. Sirlin and R. Zucchini, Phys. Rev. Lett. 57, 1994 (1986).
+[11] I. S. Towner, Phys. Lett. B 333, 13 (1994) [arXiv:nucl-th/9405031].
+    I. S. Towner and J. C. Hardy, Phys. Rev. C 66, 035501 (2002) [arXiv:nucl-th/0209014].
+[12] W. Marciano and A. Sirlin, a detailed account of our numerical and analytical work will be
+    presented in a later, longer manuscript.
+[13] J. D. Bjorken, Phys. Rev. 148, 1467 (1966).
+[14] M. A. B. Bég, Phys. Rev. D 11, 1165 (1975); S. L. Adler and W. K. Tung, Phys. Rev. D 1,
+    2846 (1970); W. A. Bardeen, A. J. Buras, D. W. Duke and T. Muta, Phys. Rev. D 18, 3998
+    (1978).
+[15] S. G. Gorishnii and S. A. Larin, Phys. Lett. B 172, 109 (1986); S. A. Larin and J. A. M. Ver-
+    maseren, Phys. Lett. B 259, 345 (1991).
+[16] A. Deur et al., Phys. Rev. Lett. 93, 212001 (2004) [arXiv:hep-ex/0407007].
+[17] E. Witten, Nucl. Phys. B 160, 57 (1979);
+    M. Knecht, S. Peris and E. de Rafael, Nucl. Phys. Proc. Suppl. 86, 279 (2000)
+    [arXiv:hep-ph/9910396].
+[18] Small 1/Q4 asymptotic contributions allowed by the data in ref. (16) would have negligible
+    effects on our analysis; see ref. (12) for a detailed discussion.
+[19] E. Blucher and W. Marciano to appear in PDG (2006).
+
+
+                                                11
+[20] H. Leutwyler and M. Roos, Z. Phys. C 25, 91 (1984); D. Becirevic et al., Nucl. Phys. B 705,
+    339 (2005).
+[21] M. Jamin, J. A. Oller and A. Pich, JHEP 0402, 047 (2004) [arXiv:hep-ph/0401080]; J. Bijnens
+    and P. Talavera, Nucl. Phys. B 669, 341 (2003) [arXiv:hep-ph/0303103].
+[22] W. J. Marciano, Phys. Rev. Lett. 93, 231803 (2004) [arXiv:hep-ph/0402299];
+    E. Gamiz, M. Jamin, A. Pich, J. Prades and F. Schwab, Phys. Rev. Lett. 94, 011803 (2005)
+    [arXiv:hep-ph/0408044].
+
+
+
+
+                                             12
+

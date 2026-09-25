@@ -1,0 +1,1226 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+  n                                                    I (J P ) = 21 ( 21 + ) Status:           ∗∗∗∗
+            We have omitted some results that have been superseded by later
+            experiments. See our earlier editions.
+            Anyone interested in the neutron should look at these two review
+            articles: D. Dubbers and M.G. Schmidt, “The neutron and its role
+            in cosmology and particle physics,” Reviews of Modern Physics 83
+            1111 (2011); and F.E. Wietfeldt and G.L. Greene, “The neutron
+            lifetime,” Reviews of Modern Physics 83 1173 (2011).
+
+                                n MASS (atomic mass units u)
+            The mass is known much more precisely in u (atomic mass units) than in
+            MeV. See the next data block.
+
+VALUE (u)                                       DOCUMENT ID             TECN      COMMENT
+1.00866491606± 0.00000000040            MOHR          25 RVUE 2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.00866491595± 0.00000000049                    TIESINGA         21     RVUE      2018 CODATA value
+1.00866491588± 0.00000000049                    MOHR             16     RVUE      2014 CODATA value
+1.00866491600± 0.00000000043                    MOHR             12     RVUE      2010 CODATA value
+1.00866491597± 0.00000000043                    MOHR             08     RVUE      2006 CODATA value
+1.00866491560± 0.00000000055                    MOHR             05     RVUE      2002 CODATA value
+1.00866491578± 0.00000000055                    MOHR             99     RVUE      1998 CODATA value
+1.008665904 ± 0.000000014                       COHEN            87     RVUE      1986 CODATA value
+
+
+                                           n MASS (MeV)
+            The mass is known more precisely in u (atomic mass units) than in MeV.
+            The conversion is: 1 u = 931.494 103 72(29) MeV/c2 (2022 CODATA
+            value, MOHR 25).
+
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+939.56542194± 0.00000048            MOHR            25 RVUE 2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+939.56542052± 0.00000054           TIESINGA     21 RVUE 2018 CODATA value
+939.5654133 ± 0.0000058            MOHR         16 RVUE 2014 CODATA value
+939.565379 ± 0.000021              MOHR         12 RVUE 2010 CODATA value
+939.565346 ± 0.000023              MOHR         08 RVUE 2006 CODATA value
+939.565360 ± 0.000081              MOHR         05 RVUE 2002 CODATA value
+939.565331 ± 0.000037            1 KESSLER      99 SPEC n p → d γ
+939.565330 ± 0.000038              MOHR         99 RVUE 1998 CODATA value
+939.56565     ± 0.00028        2,3 DIFILIPPO    94 TRAP Penning trap
+939.56563     ± 0.00028            COHEN        87 RVUE 1986 CODATA value
+939.56564     ± 0.00028        3,4 GREENE       86 SPEC n p → d γ
+939.5731      ± 0.0027           3 COHEN        73 RVUE 1973 CODATA value
+  1 We use the 1998 CODATA u-to-MeV conversion factor (see the heading above) to
+    get this mass in MeV from the much more precisely measured KESSLER 99 value of
+    1.00866491637 ± 0.00000000082 u.
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  2 The mass is known much more precisely in u: m = 1.0086649235 ± 0.0000000023 u.
+    We use the 1986 CODATA conversion factor to get the mass in MeV.
+  3 These determinations are not independent of the m − m measurements below.
+                                                     n    p
+  4 The mass is known much more precisely in u: m = 1.008664919 ± 0.000000014 u.
+
+
+                                                n MASS
+
+VALUE (MeV)                  EVTS           DOCUMENT ID               TECN      COMMENT
+939.485± 0.051               59     1 CRESTI       86 HBC         pp → nn
+  1 This is a corrected result (see the erratum). The error is statistical. The maximum
+    systematic error is 0.029 MeV.
+
+                                         (m n − m n )/ m n
+         A test of CPT invariance. Calculated from the n and n masses, above.
+
+VALUE                                       DOCUMENT ID
+(9± 5) × 10−5 OUR EVALUATION
+
+
+                                               mn − mp
+
+VALUE (MeV)                                 DOCUMENT ID               TECN      COMMENT
+1.29333251± 0.00000038              MOHR            25 RVUE 2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.29333236± 0.00000046            1 TIESINGA        21 RVUE 2018 CODATA value
+1.29333205± 0.00000051            2 MOHR            16 RVUE 2014 CODATA value
+1.29333217± 0.00000042            3 MOHR            12 RVUE 2010 CODATA value
+1.29333214± 0.00000043            4 MOHR            08 RVUE 2006 CODATA value
+1.2933317 ± 0.0000005             5 MOHR            05 RVUE 2002 CODATA value
+1.2933318 ± 0.0000005             6 MOHR            99 RVUE 1998 CODATA value
+1.293318 ± 0.000009               7 COHEN           87 RVUE 1986 CODATA value
+1.2933328 ± 0.0000072           GREENE                         86     SPEC n p → d γ
+1.293429 ± 0.000036             COHEN                          73     RVUE 1973 CODATA value
+  1 The 2018 CODATA mass diﬀerence in u is m                          = 1.388 449 33(49) × 10−3 u.
+                                              n − mp
+  2 The 2014 CODATA mass diﬀerence in u is m                                 −3
+                                              n − m p = 1.388 449 00(51) × 10 u.
+  3 The 2010 CODATA mass diﬀerence in u is m − m = 1.388 449 19(45) × 10−3 u.
+                                              n     p
+  4 Calculated by us from the MOHR 08 ratio m /m = 1.00137841918(46). In u, m −
+                                              n   p                             n
+    m p = 1.38844920(46) × 10−3 u.
+  5 Calculated by us from the MOHR 05 ratio m /m = 1.00137841870 ± 0.00000000058.
+                                             n   p
+    In u, m n − m p = (1.3884487 ± 0.0000006) × 10−3 u.
+  6 Calculated by us from the MOHR 99 ratio m /m = 1.00137841887 ± 0.00000000058.
+                                             n   p
+    In u, m n − m p = (1.3884489 ± 0.0000006) × 10−3 u.
+  7 Calculated by us from the COHEN 87 ratio m /m = 1.001378404 ± 0.000000009. In
+                                               n p
+    u, m n − m p = 0.001388434 ± 0.000000009 u.
+
+
+
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                            n MEAN LIFE
+            Limits on lifetimes for bound neutrons are given in the section“p PARTIAL
+            MEAN LIVES.”
+            We average eight of the best nine measurements, those made with ultra-
+            cold neutrons (UCN’s). If we include the one in-beam measurement with
+            a comparable error (YUE 13), we get 878.6 ± 0.6 s, where the scale factor
+            is now 2.2.
+            For a recent discussion of the long-standing disagreement between in-
+            beam and UCN results, see CZARNECKI 18 (Physical Review Letters 120
+            202002 (2018)). For a full review of all matters concerning the neu-
+            tron lifetime until about 2010, see WIETFELDT 11, F.E. Wietfeldt and
+            G.L. Greene, “The neutron lifetime,” Reviews of Modern Physics 83 1173
+            (2011).
+
+VALUE (s)                              DOCUMENT ID               TECN      COMMENT
+878.3 ± 0.4 OUR AVERAGE Error includes scale factor of 1.8. See the ideogram
+below.
+877.82± 0.22 +  0.20
+             − 0.17
+                              1 MUSEDINOVIC25 CNTR UCN magneto-gravit. trap
+
+878.3 ± 1.6 ± 1.0               EZHOV           18 CNTR UCN magneto-gravit. trap
+             +  0.4
+877.7 ± 0.7 − 0.2             2 PATTIE          18 CNTR UCN asym. magnetic trap
+881.5 ± 0.7 ± 0.6               SEREBROV        18 CNTR UCN gravitational trap
+880.2 ± 1.2                   3 ARZUMANOV 15 CNTR UCN double bottle
+882.5 ± 1.4 ± 1.5             4 STEYERL         12 CNTR UCN material bottle
+880.7 ± 1.3 ± 1.2               PICHLMAIER 10 CNTR UCN material bottle
+878.5 ± 0.7 ± 0.3               SEREBROV        05 CNTR UCN gravitational trap
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+
+877.75± 0.28 + 0.22
+             − 0.16
+                                     5 GONZALEZ           21     CNTR UCN asym. magnetic trap
+
+887    ± 14 + 7                      6 WILSON             21     CNTR space-based n rate
+            − 3
+887.7 ± 1.2 ± 1.9                    7 YUE       13              CNTR      In-beam n, trapped p
+881.6 ± 0.8 ± 1.9                    8 ARZUMANOV 12              CNTR      See ARZUMANOV 15
+886.3 ± 1.2 ± 3.2                     NICO         05            CNTR      See YUE 13
+886.8 ± 1.2 ± 3.2                     DEWEY        03            CNTR      See NICO 05
+885.4 ± 0.9 ± 0.4                     ARZUMANOV 00               CNTR      See ARZUMANOV 12
+889.2 ± 3.0 ± 3.8                     BYRNE        96            CNTR      Penning trap
+882.6 ± 2.7                         9 MAMPE        93            CNTR      UCN material bottle
+888.4 ± 3.1 ± 1.1                  10 NESVIZHEV... 92            CNTR      UCN material bottle
+888.4 ± 2.9                           ALFIMENKOV 90              CNTR      See NESVIZHEVSKII 92
+893.6 ± 3.8 ± 3.7                     BYRNE        90            CNTR      See BYRNE 96
+878 ± 27 ± 14                         KOSSAKOW... 89             TPC       Pulsed beam
+887.6 ± 3.0                           MAMPE        89            CNTR      See STEYERL 12
+877 ± 10                              PAUL         89            CNTR      Magnetic storage ring
+876 ± 10 ± 19                         LAST         88            SPEC      Pulsed beam
+891 ± 9                               SPIVAK       88            CNTR      Beam
+903 ± 13                              KOSVINTSEV 86              CNTR      UCN material bottle
+937 ± 18                           11 BYRNE        80            CNTR
+875 ± 95                              KOSVINTSEV 80              CNTR
+881 ± 8                               BONDAREN... 78             CNTR      See SPIVAK 88
+918 ± 14                              CHRISTENSEN72              CNTR
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 MUSEDINOVIC 25 result is the average value of the previously published data of
+    2018–2019 in GONZALEZ 21 with the new 2020–2022 data. The new data alone yields
+    a value of 877.96 ± 0.37 s. GONZALEZ 21 results are thus superseded.
+  2 PATTIE 18 uses a new technique, with a semi-toroidal magneto-gravitational asymmetric
+    trap and a novel in situ n-detector.
+  3 ARZUMANOV 15 is a reanalysis of their 2008–2010 dataset, with improved systematic
+    corrections of of ARZUMANOV 00 and ARZUMANOV 12.
+  4 STEYERL 12 is a detailed reanalysis of neutron storage loss corrections to the raw data
+    of MAMPE 89, and it replaces that value.
+  5 Superseded by MUSEDINOVIC 25.
+  6 WILSON 21 extract the value from the ﬂux of n escaping the moon using data from the
+    Lunar Prospector Neutron Spectrometer.
+  7 YUE 13 diﬀers from NICO 05 in that a diﬀerent and better method was used to measure
+    the neutron density in the ﬁducial volume. This shifted the lifetime by +1.4 seconds and
+    reduced the previously largest source of systematic uncertainty by a factor of ﬁve.
+  8 ARZUMANOV 12 reanalyzes its systematic corrections in ARZUMANOV 00 and obtains
+    this corrected value.
+  9 IGNATOVICH 95 calls into question some of the corrections and averaging procedures
+    used by MAMPE 93. The response, BONDARENKO 96, denies the validity of the
+    criticisms.
+ 10 The NESVIZHEVSKII 92 measurement has been withdrawn by A. Serebrov.
+ 11 The BYRNE 80 measurement has been withdrawn (J. Byrne, private communication,
+    1990).
+
+          WEIGHTED AVERAGE
+          878.3±0.4 (Error scaled by 1.8)
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                          MUSEDINOVIC 25             CNTR       3.2
+                                                          EZHOV       18             CNTR       0.0
+                                                          PATTIE      18             CNTR       0.7
+                                                          SEREBROV    18             CNTR      11.7
+                                                          ARZUMANOV 15               CNTR       2.4
+                                                          STEYERL     12             CNTR
+                                                          PICHLMAIER 10              CNTR  1.8
+                                                          SEREBROV    05             CNTR  0.0
+                                                                                          19.7
+                                                                     (Confidence Level = 0.0031)
+
+        874      876      878      880      882      884      886      888
+
+          neutron mean life (s)
+
+                                   n MAGNETIC MOMENT
+         See the “Quark Model” review.
+
+VALUE (µN )                                 DOCUMENT ID               TECN      COMMENT
+− 1.91304276± 0.00000045                    MOHR               25     RVUE 2022 CODATA value
+
+https://pdg.lbl.gov                          Page 4                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 1.91304273± 0.00000045             TIESINGA       21 RVUE 2018 CODATA value
+− 1.91304273± 0.00000045             MOHR           16 RVUE 2014 CODATA value
+− 1.91304272± 0.00000045             MOHR           12 RVUE 2010 CODATA value
+− 1.91304273± 0.00000045             MOHR           08 RVUE 2006 CODATA value
+− 1.91304273± 0.00000045             MOHR           05 RVUE 2002 CODATA value
+− 1.91304272± 0.00000045             MOHR           99 RVUE 1998 CODATA value
+− 1.91304275± 0.00000045             COHEN          87 RVUE 1986 CODATA value
+− 1.91304277± 0.00000048           1 GREENE         82 MRS
+  1 GREENE 82 measures the moment to be (1.04187564 ± 0.00000026) × 10−3 Bohr
+    magnetons. The value above is obtained by multiplying this by m p /m e = 1836.152701 ±
+    0.000037 (the 1986 CODATA value from COHEN 87).
+
+                              n ELECTRIC DIPOLE MOMENT
+         A nonzero value is forbidden by both T invariance and P invariance. A
+         number of early results have been omitted. See RAMSEY 90, GOLUB 94,
+         and LAMOREAUX 09 for reviews.
+
+         The results are upper limits on dn .
+
+VALUE (10−25 e cm)    CL%           DOCUMENT ID                TECN      COMMENT
+< 0.18            90         1 ABEL           20 MRS UCN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 0.22            95         2 SAHOO          17             199 Hg atom EDM + theory
+< 0.16            95           GRANER         16 MRS 199 Hg atom EDM + theory
+< 0.30            90         3 PENDLEBURY 15 MRS Supersedes BAKER 06
+< 0.55               90          SEREBROV        15 MRS UCN’s, hν = 2µn B ± 2dn E
+< 0.55               90        4 SEREBROV        14 MRS See SEREBROV 15
+< 0.29               90        5 BAKER           06 MRS See PENDLEBURY 15
+< 0.63               90        6 HARRIS          99 MRS d = (− 0.1 ± 0.36) × 10−25
+< 0.97               90          ALTAREV         96 MRS See SEREBROV 14
+< 1.1                95          ALTAREV         92 MRS See ALTAREV 96
+< 1.2                95          SMITH           90 MRS See HARRIS 99
+< 2.6                95          ALTAREV         86 MRS d = (− 1.4 ± 0.6) × 10−25
+  0.3 ± 4.8                      PENDLEBURY 84 MRS Ultracold neutrons
+< 6                  90          ALTAREV         81 MRS d = (2.1 ± 2.4) × 10−25
+<16                  90          ALTAREV         79 MRS d = (4.0 ± 7.5) × 10−25
+ 1 ABEL 20 reports d = (0.0 ± 1.1 ± 0.2) × 10−26 e cm value corresponding to the listed
+   limit.
+ 2 SAHOO 17 develops theory to calculate this limit from the measured limit by GRANER 16
+   of the 199 Hg atom EDM.
+ 3 PENDLEBURY 15 reports d = (− 0.21 ± 1.82) × 10−26 e cm value corresponding to
+   the listed limit.
+ 4 SEREBROV 14 includes the data of ALTAREV 96.
+ 5 LAMOREAUX 07 faults BAKER 06 for not including in the estimate of systematic error
+   an eﬀect due to the Earth’s rotation. BAKER 07 replies (1) that the eﬀect was included
+   implicitly in the analysis and (2) that further analysis conﬁrms that the BAKER 06 limit
+   is correct as is. See also SILENKO 07.
+ 6 This HARRIS 99 result includes the result of SMITH 90. However, the averaging of the
+   results of these two experiments has been criticized by LAMOREAUX 00.
+
+
+
+https://pdg.lbl.gov                          Page 5                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                          n MEAN-SQUARE CHARGE RADIUS
+         The mean-square charge radius of the neutron, r2 , is related to the
+                                                             n
+         neutron-electron scattering length bn e by r2 = 3(m e a0 /m n )bn e ,
+                                                        n
+         where m e and m n are the masses of the electron and neutron, and a0 is
+         the Bohr radius. Numerically, r2 = 86.34 bn e , if we use a0 for a nucleus
+                                        n
+         with inﬁnite mass.
+
+VALUE (fm2 )                                DOCUMENT ID               COMMENT
+− 0.1155± 0.0017 OUR AVERAGE
+− 0.115 ± 0.002 ± 0.003             KOPECKY         97 n e scattering (Pb)
+− 0.124 ± 0.003 ± 0.005             KOPECKY         97 n e scattering (Bi)
+− 0.114 ± 0.003                     KOESTER         95 n e scattering (Pb, Bi)
+− 0.115 ± 0.003                   1 KROHN           73 n e scattering (Ne, Ar, Kr, Xe)
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.1101± 0.0089                  2 HEACOCK         21 n interferometry
+        + 0.007
+− 0.106 −                                 3 FILIN              20     chiral EFT analysis
+          0.005
+        + 0.007
+− 0.117 −                                   BELUSHKIN          07     Dispersion analysis
+          0.011
+− 0.113 ± 0.003 ± 0.004                KOPECKY         95 n e scattering (Pb)
+− 0.134 ± 0.009                        ALEKSANDR...86 n e scattering (Bi)
+− 0.114 ± 0.003                        KOESTER         86 n e scattering (Pb, Bi)
+− 0.118 ± 0.002                        KOESTER         76 n e scattering (Pb)
+− 0.120 ± 0.002                        KOESTER         76 n e scattering (Bi)
+− 0.116 ± 0.003                        KROHN           66 n e scattering (Ne, Ar, Kr, Xe)
+  1 KROHN 73 measured − 0.112 ± 0.003 fm2 . This value is as corrected by KOESTER 76.
+  2 HEACOCK 21 extract the value from Pendelloesung interferometry to measure the neu-
+    tron structure factors of silicon. This value is strongly anti-correlated with the mean-
+    square thermal atomic displacement.
+  3 FILIN 20 extract the value based on their chiral-EFT calculation of the deuteron structure
+    radius and use as input the atomic data for the diﬀerence of the deuteron and proton
+    charge radii.
+
+                                     n MAGNETIC RADIUS
+                                                  q
+         This is the rms magnetic radius,             r2 .
+                                                       M
+VALUE (fm)                                  DOCUMENT ID               COMMENT
+      + 0.009 OUR AVERAGE
+0.864 − 0.008
+0.89 ± 0.03                                 EPSTEIN            14     Using e p, e n, π π data
+      + 0.009
+0.862 −                                     BELUSHKIN          07     Dispersion analysis
+        0.008
+
+                            n ELECTRIC POLARIZABILITY αn
+         Following is the electric polarizability αn deﬁned in terms of the induced
+         electric dipole moment by D = 4πǫ0 αn E . For a review, see SCHMIED-
+         MAYER 89.
+         For a very complete reviews of the polarizability of the nucleon and Comp-
+         ton scattering, see SCHUMACHER 05, updated in SCHUMACHER 19,
+         and GRIESSHAMMER 12.
+
+
+https://pdg.lbl.gov                          Page 6                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+VALUE (10−4 fm3 )                   DOCUMENT ID            TECN COMMENT
+11.8 ± 1.1 OUR AVERAGE
+11.55± 1.25 ± 0.8                   MYERS           14 CNTR γ d → γ d
+            + 1.6
+12.5 ± 1.8 − 1.3                  1 KOSSERT         03 CNTR γ d → γ p n
+12.0 ± 1.5 ± 2.0                    SCHMIEDM... 91 CNTR n Pb transmission
+     +  3.3
+10.7 − 10.7                         ROSE            90B CNTR γ d → γ n p
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 8.8 ± 2.4 ± 3.0                  2 LUNDIN          03 CNTR γ d → γ d
+13.6                              3 KOLB            00 CNTR γ d → γ n p
+ 0.0 ± 5.0                        4 KOESTER         95 CNTR n Pb, n Bi transmission
+11.7 +  4.3
+     − 11.7                                 ROSE               90     CNTR See ROSE 90B
+ 8 ± 10                              KOESTER          88 CNTR n Pb, n Bi transmission
+12 ± 10                              SCHMIEDM... 88 CNTR n Pb, n C transmission
+  1 KOSSERT 03 gets α − β =(9.8 ± 3.6 + 2.1 ± 2.2) × 10−4 fm3 , and uses α + β
+                         n      n             − 1.1                                 n     n
+    = (15.2 ± 0.5) × 10   −4    3
+                              fm from LEVCHUK 00. Thus the errors on αn and βn are
+    anti-correlated.
+  2 LUNDIN 03 measures α − β = (6.4 ± 2.4) × 10−4 fm3 and uses accurate values
+                             N    N
+    for αp and αp and a precise sum-rule result for αn + βn . The second error is a model
+    uncertainty, and errors on αn and βn are anticorrelated. The data from this paper aer
+    included in the analysis of MYERS 14.
+  3 KOLB 00 obtains this value with a lower limit of 7.6 × 10−4 fm3 but no upper limit from
+    this experiment alone. Combined with results of ROSE 90, the 1-σ range is (7.6–14.0) ×
+    10−4 fm3 .
+  4 KOESTER 95 uses natural Pb and the isotopes 208, 207, and 206. See this paper for a
+    discussion of methods used by various groups to extract αn from data.
+
+
+                           n MAGNETIC POLARIZABILITY βn
+
+VALUE (10−4 fm3 )                           DOCUMENT ID               TECN      COMMENT
+3.7 ± 1.2 OUR AVERAGE
+3.65± 1.25 ± 0.8                    MYERS           14 CNTR γ d → γ d
+           + 1.3
+2.7 ± 1.8 − 1.6                   1 KOSSERT         03 CNTR γ d → γ p n
+6.5 ± 2.4 ± 3.0                   2 LUNDIN          03 CNTR γ d → γ d
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.6                               3 KOLB            00 CNTR γ d → γ n p
+  1 KOSSERT 03 gets α − β =(9.8 ± 3.6 + 2.1 ± 2.2) × 10−4 fm3 , and uses α + β
+                          n    n             − 1.1                                 n     n
+    = (15.2 ± 0.5) × 10−4 fm3 from LEVCHUK 00. Thus the errors on αn and βn are
+    anti-correlated.
+  2 LUNDIN 03 measures α − β = (6.4 ± 2.4) × 10−4 fm3 and uses accurate values
+                             N     N
+    for αp and αp and a precise sum-rule result for αn + βn . The second error is a model
+    uncertainty, and errors on αn and βn are anticorrelated.
+  3 KOLB 00 obtains this value with an upper limit of 7.6×10−4 fm3 but no lower limit from
+    this experiment alone. Combined with results of ROSE 90, the 1-σ range is (1.2–7.6) ×
+    10−4 fm3 .
+
+
+
+
+https://pdg.lbl.gov                          Page 7                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                              n CHARGE
+            See also “ qp + qe /e” in the proton Listings.
+
+VALUE (10−21 e)                             DOCUMENT ID               TECN      COMMENT
+− 0.2± 0.8 OUR AVERAGE
+− 0.1± 1.1                        1 BRESSI          11              Neutrality of SF6
+− 0.4± 1.1                        2 BAUMANN         88              Cold n deﬂection
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 15 ± 22                         3 GAEHLER         82 CNTR Cold n deﬂection
+  1 As a limit, this BRESSI 11 value is < 1 × 10−21 e.
+  2 The BAUMANN 88 error ± 1.1 gives the 68% CL limits about the the value − 0.4.
+  3 The GAEHLER 82 error ± 22 gives the 90% CL limits about the the value − 15.
+
+
+                               LIMIT ON n n OSCILLATIONS
+Mean Time for n n Transition
+      A test of ∆B=2 baryon number nonconservation. MOHAPATRA 80 and MOHAPA-
+      TRA 89 discuss the theoretical motivations for looking for n n oscillations. DOVER 83
+      and DOVER 85 give phenomenological analyses. The best limits come from looking
+      for the decay of neutrons bound in nuclei. However, these analyses require model-
+      dependent corrections for nuclear eﬀects. See KABIR 83, DOVER 89, ALBERICO 91,
+      and GAL 00 for discussions. Direct searches for n → n transitions using reactor neu-
+      trons are cleaner but give somewhat poorer limits. We include limits for both free and
+      bound neutrons in the Summary Table. See MOHAPATRA 09 and PHILLIPS 16 for
+      recent reviews.
+VALUE (s)                  CL%           DOCUMENT ID               TECN      COMMENT
+>4.7 × 108            90        1 ABE            21 CNTR n bound in oxygen
+>8.6 × 10 7           90          BALDO-...      94 CNTR Reactor (free) neutrons
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+>1.37 × 108           90        2 AHARMIM        17 SNO          n bound in deuteron
+>2.7 × 10 8           90          ABE            15C CNTR n bound in oxygen
+>1.3 × 108            90          CHUNG          02B SOU2 n bound in iron
+>1    × 107           90          BALDO-...      90 CNTR See BALDO-CEOLIN 94
+>1.2 × 108            90          BERGER         90 FREJ n bound in iron
+>4.9 × 10 5           90          BRESSI         90 CNTR Reactor neutrons
+>4.7 × 105            90          BRESSI         89 CNTR See BRESSI 90
+>1.2 × 108            90          TAKITA         86 CNTR n bound in oxygen
+>1    × 106           90          FIDECARO       85 CNTR Reactor neutrons
+>8.8 × 107            90          PARK           85B CNTR
+>3    × 107                       BATTISTONI 84 NUSX
+> 0.27–1.1 × 108                  JONES          84 CNTR
+>2    × 107                       CHERRY         83 CNTR
+  1 ABE 21 supersedes ABE 15C.
+  2 The AHARMIM 17 value is an unbounded limit (it does not assume a positive lifetime).
+    The bounded limit is 1.23 × 108 sec.
+
+
+
+
+https://pdg.lbl.gov                          Page 8                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                               LIMIT ON n n′ OSCILLATIONS
+            Lee and Yang (LEE 56) proposed the existence of mirror world in an
+            attempt to restore global parity symmetry. A possible candidate for dark
+            matter. Limits depend on assumptions about ﬁelds B and B ′ . See the
+            papers for details. See BEREZHIANI 18 for a recent discussion.
+
+VALUE (s)               CL%           DOCUMENT ID                TECN       COMMENT
+>448               90          SEREBROV        09A CNTR Assumes B ′ < 100 nT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+> 1                95        1 BAN             23 CNTR UCN, scan of B ﬁeld
+                             2 ALMAZAN         22 CNTR STEREO, hidden neutron
+                                                                  search m n − m ′ ≥ 0.
+                                                                                n
+> 9                95        3 ABEL            21 CNTR UCN, scan of B ﬁeld
+> 17               95        4 BEREZHIANI 18 CNTR UCN, scan of B ﬁeld
+> 12               95        5 ALTAREV         09A CNTR UCN, scan 0 ≤ B ≤ 12.5 µT
+>414                   90          SEREBROV      08 CNTR UCN, B ﬁeld on & oﬀ
+>103                   95          BAN           07 CNTR UCN, B ﬁeld on & oﬀ
+ 1 BAN 23 determine limits on the oscillation time for the δm(nn’) range of 2–59 peV.
+                                p
+   The quoted value is τ nn′ / cos(β) > 1 sec. for B in 30–1143 µT, for the case β = 0.
+ 2 ALMAZAN 22 reports an experimental constraint on the probability for neutron conver-
+   sion into a hidden neutron, p < 3.1 × 10−11 at 95% CL, which may be used to set a
+   limit on the n n′ oscillation time.
+ 3 ABEL 21 determine several limits on the oscillation time as a function of the mirror
+   magnetic ﬁeld B ′ , and of the ﬁxed angle, β, between the applied magnetic ﬁeld and B ′ .
+   The latter is assumed  p to be bound to Earth. Two values are quoted from two analysis
+   methods: (i) τ nn′ / cos(β) > 9 sec for B ′ in 5–25.4 µT, and (ii) for any angle β,
+   τ nn′ > 6 sec for B ′ in 0.4–25.7 µT. The authors also quote a limit of 352 sec for the
+   case B ′ = 0 T.
+ 4 The B ﬁeld was set to (0.09, 0.12, 0.21) G. Limits on oscillation time are valid for any
+   mirror ﬁeld B ′ in (0.08–0.17) G, and for aligned ﬁelds B and B ′ . For larger values of
+   B ′ , the limits are signiﬁcantly reduced.
+ 5 Losses of neutrons due to oscillations to mirror neutrons would be maximal when the
+   magnetic ﬁelds B and B ′ in the two worlds were equal. Hence the scan over B by
+   ALTAREV 09A: the limit applies for any B ′ over the given range. At B ′ = 0, the limit
+   is 141 s (95% CL).
+
+                                        n DECAY MODES
+            See the proton listings for many other neutron decay modes.
+
+       Mode                                                     Fraction (Γi /Γ)          Conﬁdence level
+
+Γ1     p e− νe                                                      100           %
+Γ2        p e− νe γ                                       [a]       (   9.2± 0.7) × 10−3
+Γ3        hydrogen-atom ν e                                     <       2.7       × 10−3               95%
+
+                         Charge conservation (Q) violating mode
+Γ4     p νe ν e                                 Q               <       8          × 10−27             68%
+
+
+
+
+https://pdg.lbl.gov                          Page 9                         Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                Baryon number violating decay
+Γ5      e + e − invisible
+Γ6      γ invisible
+
+     [a] This limit is for γ energies between 0.4 and 782 keV.
+
+                                     n BRANCHING RATIOS
+Γ p e − ν e γ /Γtotal
+             
+                                                                                                        Γ2 /Γ
+VALUE (units 10−3 )            CL%           DOCUMENT ID               TECN      COMMENT
+  9.17± 0.24 ± 0.64               1 BALES           16 RDK2 Two diﬀerent set-ups
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  3.09± 0.11 ± 0.30               2 COOPER          10 CNTR See BALES 16
+ 3.13± 0.11 ± 0.33                  NICO            06 CNTR See COOPER 10
+<6.9                     90       3 BECK            02 CNTR γ, p, e − coincidence
+ 1 BALES 16 gets a branching fraction of (5.82 ± 0.23 ± 0.62) × 10−3 for a photon energy
+   range 0.4 to 14.0 keV, and with a diﬀerent detector array, (3.35 ± 0.05 ± 0.15) × 10−3
+   for 14.1 to 782 keV. Our result above is the sum; the error on the sum is completely
+   dominated by the error on the lower range.
+ 2 This COOPER 10 result is for γ energies between 15 and 340 keV.
+ 3 This BECK 02 limit is for γ energies between 35 and 100 keV.
+                   
+Γ hydrogen-atom ν e /Γtotal                                                                             Γ3 /Γ
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+<0.27 × 10−2            95        1 CZARNECKI 18                    Lifetime analysis
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<3    × 10−2            95        2 GREEN           90 RVUE
+  1 CZARNECKI 18 limit from an analysis of experimental discrepancies on the neutron
+    lifetime and axial coupling applies as well to other possible exotic neutron decays.
+  2 GREEN 90 infers that τ (hydrogen-atomν ) > 3 × 104 s by comparing neutron lifetime
+                                               e
+    measurements made in storage experiments with those made in β-decay experiments.
+    However, the result depends sensitively on the lifetime measurements, and does not of
+    course take into account more recent measurements of same.
+          
+Γ p νe ν e /Γtotal                                                                                      Γ4 /Γ
+        Forbidden by charge conservation.
+VALUE                        CL%           DOCUMENT ID               TECN       COMMENT
+<8 × 10−27             68        1 NORMAN         96 RVUE 71 Ga → 71 Ge neutrals
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<9.7 × 10−18           90          ROY            83 CNTR 113 Cd → 113m In neut.
+<7.9 × 10−21                       VAIDYA         83 CNTR 87 Rb → 87m Sr neut.
+<9 × 10  −24           90          BARABANOV 80 CNTR 71 Ga → 71 Ge X
+<3 × 10−19                         NORMAN         79 CNTR 87 Rb → 87m Sr neut.
+  1 NORMAN 96 gets this limit by attributing SAGE and GALLEX counting rates to the
+    charge-nonconserving transition 71 Ga → 71 Ge+neutrals rather than to solar-neutrino
+    reactions.
+
+
+
+
+https://pdg.lbl.gov                          Page 10                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ e + e − invisible /Γtotal
+                   
+                                                                                                        Γ5 /Γ
+        Baryon number violating decay
+VALUE                          CL%           DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<0.01                       90        1 KLOPF            19 CNTR re-interpretation of
+                                                                          MUND 13
+<1      × 10−4              90        2 SUN              18 SPEC Ultracold n, polarized
+  1 KLOPF 19 value is for baryon number violating decay of neutron to electrons plus an
+    invisible state, χ. The limit is valid for KE(e + e − ) range between 32 keV and 664 keV,
+    strengthening to few × 10−4 above approximately 100 keV.
+  2 SUN 18 value is for baryon number violating decay of neutron to electrons plus an invisible
+    state, χ. The limit is valid for 100 keV < KE(e + e − ) < 644 keV. Assuming this decay
+    χ e e is the only allowed χ decay channel, a 0.01 BR is ruled out for 100 keV < E(e + e − )
+    < 644 keV at over 5σ.
+             
+Γ γ invisible /Γtotal                                                                                   Γ6 /Γ
+VALUE                            DOCUMENT ID               TECN      COMMENT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+not seen                1 LE-JOUBIOUX 24 SPEC 6 He → 4 He + n
+not seen                2 TANG             18 SPEC Ultracold n, in NiP-coated bottle
+  1 LE-JOUBIOUX 24 search for the baryon number violating decay of n to invisible dark
+    matter candidate, using the 6 He → 4 He + n + χ reaction, looking for a coincident
+    neutron signal.
+  2 TANG 18 search for the baryon number violating decay of n to γ plus an invisible dark
+    matter candidate. They exclude the presence of a monoenergetic γ ray in the E(γ) range
+    782–1664 keV with branching ratio ≃ 1% at 97% CL or greater.
+
+
+See the related review(s):
+  Baryon Decay Parameters
+
+                           n → p e − ν e DECAY PARAMETERS
+          See the above “Note on Baryon Decay Parameters.” For discussions of
+          recent results, see the references cited at the beginning of the section on
+          the neutron mean life. For discussions of the values of the weak cou-
+          pling constants g A and g V obtained using the neutron lifetime and asym-
+          metry parameter A, comparisons with other methods of obtaining these
+          constants, and implications for particle physics and for astrophysics, see
+          DUBBERS 91 and WOOLCOCK 91. For tests of the V −A theory of
+          neutron decay, see EROZOLIMSKII 91B, MOSTOVOI 96, NICO 05, SEV-
+          ERIJNS 06, and ABELE 08.
+
+λ ≡ gA / gV
+        In the Standard Model λ ≡ gA /gV is related to parameter a, e-ν e angular correlation
+        coeﬃcient, by a = (1 − λ2 ) / (1 + 3λ2 ); this assumes that gA and gV are real. The
+        relationship between a and λ is further modiﬁed once recoil corrections are included,
+        see WIETFELDT 24.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+− 1.2753 ± 0.0013 OUR AVERAGE Error includes scale factor of 2.7. See the ideogram
+below.
+− 1.2712 ± 0.0061           1 WIETFELDT 24 SPEC Cold n, unpolarized
+
+https://pdg.lbl.gov                          Page 11                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+− 1.2677 ± 0.0028                        2 BECK               20     SPEC Proton recoil spectrum
+− 1.27641± 0.00045 ± 0.00033             3 MAERKISCH          19     SPEC pulsed cold n, polarized
+− 1.2772 ± 0.0020                        4 BROWN              18     UCNA Ultracold n, polarized
+− 1.2748 ± 0.0008 −+ 0.0010              5 MUND               13     SPEC      Cold n, polarized
+                     0.0011
+− 1.275 ± 0.006 ± 0.015                    SCHUMANN           08
+                                                           CNTR Cold n, polarized
+− 1.2686 ± 0.0046 ± 0.0007               6 MOSTOVOI           01
+                                                           CNTR A and B × polariza-
+                                                                       tions
+− 1.266 ± 0.004                     LIAUD           97 TPC          Cold n, polarized, A
+− 1.2594 ± 0.0038                 7 YEROZLIM... 97 CNTR Cold n, polarized, A
+− 1.262 ± 0.005                     BOPP            86 SPEC Cold n, polarized, A
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 1.2796 ± 0.0062                 8 HASSAN          21 SPEC Cold n, unpolarized
+− 1.27607± 0.00068                9 SAUL            20 SPEC Cold n, polarized, A
+− 1.284 ± 0.014                  10 DARIUS          17 SPEC Cold n, unpolarized
+− 1.2755 ± 0.0030                11 MENDENHALL13 UCNA See BROWN 18
+                   + 0.00331
+− 1.27590± 0.00239 −                   12 PLASTER             12     UCNA See MENDENHALL 13
+                     0.00377
+          + 0.00409
+− 1.27590 −                               LIU                 10     UCNA See PLASTER 12
+            0.00445
+− 1.2739 ± 0.0019                      13 ABELE        02            SPEC      See MUND 13
+− 1.274 ± 0.003                            ABELE       97D           SPEC      Cold n, polarized, A
+− 1.266 ± 0.004                            SCHRECK... 95             TPC       See LIAUD 97
+− 1.2544 ± 0.0036                          EROZOLIM... 91            CNTR      See YEROZOLIM-
+                                                                                  SKY 97
+− 1.226 ± 0.042                        MOSTOVOY 83 RVUE
+− 1.261 ± 0.012                        EROZOLIM... 79 CNTR Cold n, polarized, A
+− 1.259 ± 0.017                     14 STRATOWA 78 CNTR p recoil spectrum, a
+− 1.263 ± 0.015                        EROZOLIM... 77 CNTR See EROZOLIMSKII 79
+− 1.250 ± 0.036                     14 DOBROZE... 75 CNTR See STRATOWA 78
+− 1.258 ± 0.015                     15 KROHN           75 CNTR Cold n, polarized, A
+− 1.263 ± 0.016                     16 KROPF           74 RVUE n decay alone
+− 1.250 ± 0.009                     16 KROPF           74 RVUE n decay + nuclear ft
+  1 WIETFELDT 24 updates HASSAN 21, see footnote to HASSAN 21. The value is
+    extracted from the angular correlation coeﬃcient.
+  2 BECK 20 calculates this value from the measurement of the β-decay e–ν angular
+                                                                                 e
+    correlation coeﬃcient a.
+  3 MAERKISCH 19 gets A = − 0.11985 ± 0.00017 ± 0.00012.
+  4 BROWN 18 gets A = − 0.12054 ± 0.00044 ± 0.00068 and λ = − 1.2783 ± 0.0022.
+    We quote the combined values that include the earlier UCNA measurements (MENDEN-
+    HALL 13).
+  5 This MUND 13 value includes earlier PERKEO II measurements (ABELE 02 and
+    ABELE 97D).
+  6 MOSTOVOI 01 measures the two P-odd correlations A and B, or rather SA and SB,
+    where S is the n polarization, in free neutron decay.
+  7 YEROZOLIMSKY 97 makes a correction to the EROZOLIMSKII 91 value.
+  8 HASSAN 21 include earlier data of DARIUS 17. The value is extracted from the angular
+    correlation coeﬃcient a.
+  9 SAUL 20 quote this value of λ under the SM assumption of the Fierz term b = 0. In a
+    combined ﬁt authors extract a value of λ = − 1.2792 ± 0.0060.
+ 10 DARIUS 17 calculates this value from the measurement of the a parameter (see below).
+    Data is included in HASSAN 21.
+ 11 MENDENHALL 13 gets A = − 0.11954 ± 0.00055 ± 0.00098 and λ = − 1.2756 ±
+    0.0030. We quote the nearly identical values that include the earlier UCNA measurement
+    (PLASTER 12), with a correction to that result.
+
+https://pdg.lbl.gov                        Page 12                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 12 This PLASTER 12 value is identical with that given in LIU 10, but the experiment is
+    now described in detail.
+ 13 This is the combined result of ABELE 02 and ABELE 97D.
+ 14 These experiments measure the absolute value of g /g only.
+                                                     A V
+ 15 KROHN 75 includes events of CHRISTENSEN 70.
+ 16 KROPF 74 reviews all data through 1972.
+
+           WEIGHTED AVERAGE
+           -1.2753±0.0013 (Error scaled by 2.7)
+
+
+
+
+                                                                                                      2
+                                                                                                  χ
+                                                           WIETFELDT             24 SPEC
+                                                           BECK                  20 SPEC      7.4
+                                                           MAERKISCH             19 SPEC      3.7
+                                                           BROWN                 18 UCNA      0.9
+                                                           MUND                  13 SPEC      0.2
+                                                           SCHUMANN              08 CNTR
+                                                           MOSTOVOI              01 CNTR
+                                                           LIAUD                 97 TPC       5.4
+                                                           YEROZLIM...           97 CNTR 17.6
+                                                           BOPP                  86 SPEC
+                                                                                             35.2
+                                                                        (Confidence Level < 0.0001)
+
+         -1.29       -1.28       -1.27        -1.26        -1.25         -1.24
+
+           λ ≡ gA / gV
+
+e − ASYMMETRY PARAMETER A
+        This is the neutron-spin electron-momentum correlation coeﬃcient. The coeﬃcient
+        itself is not well deﬁned in any measurement once higher-order radiative and recoil cor-
+        rections, which are experiment dependent, are included. By contrast, measurements
+        of the ratio λ ≡ gA /gV (see data block above) incorporate such higher-order eﬀects.
+        For this reason, and in order to meaningfully compare results from diﬀerent measure-
+        ments, we list here the zero-recoil-order A-coeﬃcient, which in the Standard Model
+        and at zero recoil order, is related to λ ≡ gA /gV by A = − 2 λ (λ + 1) / (1 + 3λ2 );
+        this assumes that gA and gV are real. See e.g. MAERKISCH 19 and BROWN 18.
+VALUE                                        DOCUMENT ID                 TECN         COMMENT
+− 0.11958± 0.00021 OUR AVERAGE Error includes scale factor of 1.2. See the ideogram
+below.
+− 0.11985± 0.00017 ± 0.00012 1 MAERKISCH 19 SPEC pulsed cold n, polarized
+− 0.12015± 0.00034 ± 0.00063 2 BROWN          18 UCNA Ultracold n, polarized
+                   + 0.00036
+− 0.11926± 0.00031 −                       3 MUND                  13    SPEC         Cold n, polarized
+                     0.00042
+− 0.1160 ± 0.0009 ± 0.0012          LIAUD            97 TPC         Cold n, polarized
+− 0.1135 ± 0.0014                 4 YEROZLIM... 97 CNTR Cold n, polarized
+− 0.1146 ± 0.0019                   BOPP             86 SPEC Cold n, polarized
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.11972± 0.00025                5 SAUL             20 SPEC Cold n, polarized
+
+https://pdg.lbl.gov                          Page 13                       Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+− 0.11952± 0.00110                          6 MENDENHALL13               UCNA See BROWN 18
+                   + 0.00123
+− 0.11966± 0.00089 −                        7 PLASTER             12     UCNA See MENDENHALL 13
+                     0.00140
+                   + 0.00123
+− 0.11966± 0.00089 − 0.00140                  LIU                 10     UCNA See PLASTER 12
+− 0.1138 ± 0.0046 ± 0.0021                    PATTIE      09             SPEC Ultracold n, polarized
+− 0.1189 ± 0.0007                           8 ABELE       02             SPEC See MUND 13
+− 0.1168 ± 0.0017                           9 MOSTOVOI    01             CNTR Inferred
+− 0.1189 ± 0.0012                             ABELE       97D            SPEC Cold n, polarized
+− 0.1160 ± 0.0009 ± 0.0011                    SCHRECK... 95              TPC  See LIAUD 97
+− 0.1116 ± 0.0014                             EROZOLIM... 91             CNTR See YEROZOLIM-
+                                                                                 SKY 97
+− 0.114     ± 0.005                        10 EROZOLIM... 79             CNTR Cold n, polarized
+− 0.113     ± 0.006                        10 KROHN       75             CNTR Cold n, polarized
+
+            WEIGHTED AVERAGE
+            -0.11958±0.00021 (Error scaled by 1.2)
+
+
+
+
+                                                                                                      2
+                                                                                                  χ
+                                                            MAERKISCH          19      SPEC       1.7
+                                                            BROWN              18      UCNA       0.6
+                                                            MUND               13      SPEC       0.4
+                                                            LIAUD              97      TPC
+                                                            YEROZLIM...        97      CNTR
+                                                            BOPP               86      SPEC
+                                                                                              2.7
+                                                                         (Confidence Level = 0.261)
+
+      -0.122       -0.121     -0.12     -0.119     -0.118    -0.117     -0.116
+
+            e − asymmetry parameter A
+  1 MAERKISCH 19 further derive a value for the CKM-element V
+                                                                   ud = 0.97351 ± 0.00060,
+    using τ n = 879.7(8) sec and the relation from CZARNECKI 18.
+  2 BROWN 18 gets A = − 0.12054 ± 0.00044 ± 0.00068 and λ = − 1.2783 ± 0.0022.
+    We quote the combined values that include the earlier UCNA measurements (MENDEN-
+    HALL 13).
+  3 This MUND 13 value includes earlier PERKEO II measurements (ABELE 02 and
+    ABELE 97D), with a correction to those results.
+  4 YEROZOLIMSKY 97 makes a correction to the EROZOLIMSKII 91 value.
+  5 Under the SM assumption that the Fierz term b = 0, SAUL 20 obtain the quoted
+    asymmetry parameter A and λ = − 1.27607 ± 0.00068. In a combined ﬁt authors extract
+    the values A = − 0.1209 ± 0.0015, λ = − 1.2792 ± 0.0060, and b = 0.017 ± 0.021.
+  6 MENDENHALL 13 gets A = − 0.11954 ± 0.00055 ± 0.00098 and λ = − 1.2756 ±
+    0.0030. We quote the nearly identical values that include the earlier UCNA measurement
+    (PLASTER 12), with a correction to that result.
+
+
+https://pdg.lbl.gov                           Page 14                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  7 This PLASTER 12 value is identical with that given in LIU 10, but the experiment is
+    now described in detail.
+  8 This is the combined result of ABELE 02 and ABELE 97D.
+  9 MOSTOVOI 01 calculates this from its measurement of λ=g /g above.
+                                                                A V
+ 10 These results are not corrected for radiative eﬀects and weak magnetism, but the cor-
+    rections are small compared to the errors.
+
+ν e ASYMMETRY PARAMETER B
+        This is the neutron-spin antineutrino-momentum correlation coeﬃcient. In the Stan-
+        dard Model, B is related to λ ≡ gA /gV by B = 2λ(λ − 1) / (1 + 3λ2 ); this assumes
+        that gA and gV are real.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+0.9807± 0.0030 OUR AVERAGE
+0.9802± 0.0034 ± 0.0036             SCHUMANN 07 CNTR Cold n, polarized
+0.967 ± 0.006 ± 0.010               KREUZ           05 CNTR Cold n, polarized
+0.9801± 0.0046                      SEREBROV        98 CNTR Cold n, polarized
+0.9894± 0.0083                      KUZNETSOV 95 CNTR Cold n, polarized
+1.00 ± 0.05                         CHRISTENSEN70 CNTR Cold n, polarized
+0.995 ± 0.034                       EROZOLIM... 70C CNTR Cold n, polarized
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.9876± 0.0004                    1 MOSTOVOI        01 CNTR Inferred
+  1 MOSTOVOI 01 calculates this from its measurement of λ=g /g above.
+                                                           A V
+
+PROTON ASYMMETRY PARAMETER C
+        Describes the correlation between the neutron spin and the proton momentum. In the
+        Standard Model, C is related to λ ≡ gA /gV by C = −xc (A + B) = xc 4λ/(1 +
+        3λ2 ), where xc = 0.27484 is a kinematic factor; this assumes that gA and gV are
+        real.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+− 0.2377± 0.0010 ± 0.0024                    SCHUMANN           08     CNTR Cold n, polarized
+
+e-ν e ANGULAR CORRELATION COEFFICIENT a0
+        For a review of past measurements of the a-coeﬃcient, see WIETFELDT 05. The
+        a-coeﬃcient itself is not well deﬁned in any measurement once higher-order radiative
+        and recoil corrections, which are experiment dependent, are included. By contrast,
+        measurements of the ratio λ ≡ gA /gV (see data block above) incorporate such
+        higher-order eﬀects. For this reason, and in order to meaningfully compare results for
+        the angular correlation coeﬃcient from measurements of diﬀerent observables, we list
+        here the zero-recoil-order a-coeﬃcient, denoted a0 , which in the Standard Model and
+        at zero recoil order, is related to λ by a0 = (1 − λ2 ) / (1 + 3λ2 ); this assumes that
+        gA and gV are real. See also the discussion in WIETFELDT 24.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
+− 0.1044 ± 0.0007 OUR AVERAGE
+− 0.1053 ± 0.0018                 1 WIETFELDT 24 SPEC Cold n, unpolarized
+− 0.10430± 0.00084                  BECK            20 SPEC Proton recoil spectrum
+− 0.1054 ± 0.0055                   BYRNE           02 SPEC Proton recoil spectrum
+− 0.1017 ± 0.0051                   STRATOWA 78 CNTR Proton recoil spectrum
+− 0.091 ± 0.039                     GRIGOREV        68 SPEC Proton recoil spectrum
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.10782± 0.00124 ± 0.00133      2 HASSAN          21 SPEC Cold n, unpolarized
+− 0.1090 ± 0.0030 ± 0.0028        3 DARIUS          17 SPEC Cold n, unpolarized
+− 0.1045 ± 0.0014                 4 MOSTOVOI        01 CNTR Inferred
+
+https://pdg.lbl.gov                          Page 15                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 WIETFELDT 24 updates HASSAN 21. Includes radiative and recoil corrections to ﬁrst
+    order, and is averaged over the full Fermi neutron beta spectrum. Supersedes HAS-
+    SAN 21.
+  2 HASSAN 21 includes the data of DARIUS 17. Uses the asymmetry in time-of-ﬂight
+    between the beta electron and recoil proton in delayed coincidence. Supersedes DAR-
+    IUS 17.
+  3 DARIUS 17 exploits a ”wishbone” correlation, where the p time of ﬂight is correlated with
+    the momentum of the electron in delayed coincidence. Data is included in HASSAN 21.
+  4 MOSTOVOI 01 calculates this from its measurement of λ=g /g above.
+                                                                A V
+φAV , PHASE OF g A RELATIVE TO g V
+        Time reversal invariance requires this to be 0 or 180◦ . This is related to D given in
+        the next data block and λ ≡ gA /gV by sin(φAV ) ≡ D(1+3λ2 )/2 λ ; this assumes
+        that gA and gV are real.
+VALUE (◦ )                   CL%           DOCUMENT ID               TECN       COMMENT
+180.017± 0.026 OUR AVERAGE
+180.012± 0.028         68         CHUPP           12 CNTR Cold n, polarized > 91%
+180.04 ± 0.09                     SOLDNER         04 CNTR Cold n, polarized
+180.08 ± 0.13                     LISING          00 CNTR Polarized > 93%
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+180.013± 0.028                    MUMM                         11    CNTR       See CHUPP 12
+179.71 ± 0.39                     EROZOLIM...                  78    CNTR       Cold n, polarized
+180.35 ± 0.43                     EROZOLIM...                  74    CNTR       Cold n, polarized
+181.1 ± 1.3                     1 KROPF                        74    RVUE       n decay
+180.14 ± 0.22                     STEINBERG                    74    CNTR       Cold n, polarized
+  1 KROPF 74 reviews all data through 1972.
+
+TRIPLE CORRELATION COEFFICIENT D
+        These are measurements of the component of n spin perpendicular to the decay plane
+        in β decay. Should be zero if T invariance is not violated.
+VALUE (units 10−4 )                        DOCUMENT ID               TECN       COMMENT
+− 1.2 ± 2.0 OUR AVERAGE
+− 0.94± 1.89± 0.97                CHUPP           12 CNTR Cold n, polarized > 91%
+− 2.8 ± 6.4 ± 3.0                 SOLDNER         04 CNTR Cold n, polarized
+− 6 ± 12 ± 5                      LISING          00 CNTR Polarized > 93%
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.96± 1.89± 1.01                    MUMM         11 CNTR See CHUPP 12
++ 22 ± 30                             EROZOLIM... 78 CNTR Cold n, polarized
+− 27 ± 50                           1 EROZOLIM... 74 CNTR Cold n, polarized
+− 11 ± 17                             STEINBERG 74 CNTR Cold n, polarized
+  1 EROZOLIMSKII 78 says asymmetric proton losses and nonuniform beam polarization
+    may give a systematic error up to 30 × 10−4 , thus increasing the EROZOLIMSKII 74
+    error to 50 × 10−4 . STEINBERG 74 and STEINBERG 76 estimate these systematic
+    errors to be insigniﬁcant in their experiment.
+
+TRIPLE CORRELATION COEFFICIENT R
+        Another test of time-reversal invariance. R measures the polarization of the electron in
+        the direction perpendicular to the plane deﬁned by the neutron spin and the electron
+        momentum. R = 0 for T invariance.
+VALUE                                        DOCUMENT ID               TECN      COMMENT
++ 0.004± 0.012 ± 0.005            1 KOZELA          12 CNTR Mott polarimeter
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
++ 0.008± 0.015 ± 0.005                       KOZELA             09     CNTR See KOZELA 12
+
+https://pdg.lbl.gov                          Page 16                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 KOZELA 12 also measures the polarization of the electron along the direction of the
+    neutron spin. This is nonzero in the Standard Model; the correlation coeﬃcient is N =
+    + 0.067 ± 0.011 ± 0.004.
+
+FIERZ INTERFERENCE TERM b
+        The coeﬃcient of the Fierz interference term, b, probes additional contributions to
+        the diﬀerential decay rate of the neutron from scalar or tensor current interactions,
+        beyond the Standard Model.
+VALUE                                        DOCUMENT ID                TECN       COMMENT
+0.017± 0.020 ± 0.003              1 SAUL             20 SPEC Cold n, polarized
+  1 In a combined ﬁt SAUL 20 extract this best ﬁt value of the Fierz interference term b and
+    the values A = − 0.1209 ± 0.0015 and λ = − 1.2792 ± 0.0060. For b it translates into
+    a 90% CL region of − 0.018 ≤ b ≤ 0.052 as a function of A.
+
+                                           n REFERENCES
+          We have omitted some papers that have been superseded by later experi-
+          ments. See our earlier editions.
+
+MOHR        25        RMP 97 025002             P.J. Mohr et al.                                       (NIST)
+MUSEDINOVIC 25        PR C111 045501            R. Musedinovic et al.                       (UCNtau Collab.)
+LE-JOUBIOUX 24        PRL 132 132501            M. Le Joubioux et al.                                 (GANIL)
+WIETFELDT 24          PR C110 015502            F.E. Wietfeldt et al.                        (aCORN Collab)
+BAN         23        PRL 131 191801            G. Ban et al.               (CAEN, ZURI, ISNG, SORB+)
+ALMAZAN     22        PRL 128 061801            H. Almazan et al.                         (STEREO Collab.)
+ABE         21        PR D103 012008            K. Abe et al.                  (Super-Kamiokande Collab.)
+ABEL        21        PL B812 135993            C. Abel et al.                                (nEDM Collab.)
+GONZALEZ    21        PRL 127 162501            F.M. Gonzalez et al.                       (UCNtau Collab.)
+HASSAN      21        PR C103 045502            M.T. Hassan et al.                           (aCORN Collab)
+HEACOCK     21        SCI 373 1239              B. Heacock et al.                (NIST, RIKEN, NAGO+)
+TIESINGA    21        RMP 93 025010             E. Tiesinga et al.                                     (NIST)
+WILSON      21        PR C104 045501            J.T. Wilson et al.                              (JHU, DURH)
+ABEL        20        PRL 124 081803            C. Abel et al.                                (nEDM Collab.)
+BECK        20        PR C101 055506            M. Beck et al.                             (aSPECT Collab.)
+FILIN       20        PRL 124 082501            A.A. Filin et al.
+SAUL        20        PRL 125 112501            H. Saul et al.                        (PERKEO III Collab.)
+KLOPF       19        PRL 122 222503            M. Klopf et al.                        (PERKEO II Collab.)
+MAERKISCH 19          PRL 122 242501            B. Maerkisch et al.                            (TUM, ILL, +)
+SCHUMACHER 19         LHEP 4 4                  M. Schumacher                                         (GOET)
+BEREZHIANI 18         EPJ C78 717               Z. Berezhiani et al.                 (AQUI, INFN, ILLG+)
+BROWN       18        PR C97 035505             M.A.-P. Brown et al.                          (UCNA Collab.)
+CZARNECKI   18        PRL 120 202002            A. Czarnecki, W.J. Marciano, A. Sirlin               (ALBE+)
+EZHOV       18        JETPL 107 671             V.F. Ezhov et al.                (PNPI, LENSU, CAEN+)
+PATTIE      18        SCI 360 627               R.W. Pattie Jr. et al.               (LASL, IND, NCSU+)
+SEREBROV    18        PR C97 055503             A.P. Serebrov et al.                     (PNPI, ILLG, RAL)
+    Also              JETPL 106 623             A.P. Serebrov et al.                     (PNPI, ILLG, RAL)
+SUN         18        PR C97 052501             X. Sun et al.                                 (UCNA Collab.)
+TANG        18        PRL 121 022505            Z. Tang et al.               (Los Alamos UCNtau Collab.)
+AHARMIM     17        PR D96 092005             B. Aharmin et al.                               (SNO Collab.)
+DARIUS      17        PRL 119 042502            G. Darius et al.                          (aCORN at NIST)
+SAHOO       17        PR D95 013002             B.K. Sahoo                                          (AHMEB)
+BALES       16        PRL 116 242501            M.J. Bales et al.                            (RDK II Collab.)
+GRANER      16        PRL 116 161601            B. Graner et al.                                      (WASH)
+    Also              PRL 119 119901 (errat.)   B. Graner et al.                                      (WASH)
+MOHR        16        RMP 88 035009             P.J. Mohr, D.B. Newell, B.N. Taylor                    (NIST)
+PHILLIPS    16        PRPL 612 1                D.G. Phillips II et al.
+ABE         15C       PR D91 072006             K. Abe et al.                  (Super-Kamiokande Collab.)
+ARZUMANOV 15          PL B745 79                S. Arzumanov et al.                              (ILLG, KIAE)
+PENDLEBURY 15         PR D92 092003             J.M. Pendlebury et al.                  (ETHZ, PSI, SUSS)
+SEREBROV    15        PR C92 055501             A.P. Serebrov et al.                    (PNPI, ILLG, IOFF)
+EPSTEIN     14        PR D90 074027             Z. Epstein, G. Paz, J. Roy                     (UMD, WAYN)
+MYERS       14        PRL 113 262506            L.S. Myers et al.          (COMPTON/MAX-lab Collab.)
+SEREBROV    14        JETPL 99 4                A.P. Serebrov et al.                      (PNPI, ILL, IOFF)
+MENDENHALL 13         PR C87 032501             M.P. Mendenhall et al.                        (UCNA Collab.)
+MUND        13        PRL 110 172502            D. Mund et al.                                   (HEID, ILLG)
+
+
+https://pdg.lbl.gov                          Page 17                       Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+YUE       13     PRL 111 222501           A.T. Yue et al.              (UMD, NIST, TENN, ORNL+)
+ARZUMANOV 12     JETPL 95 224             S.S. Arzumanov et al.                                   (KIAE)
+                 Translated from ZETFP 95 248.
+CHUPP        12  PR C86 035505            T.E. Chupp et al.                    (MICH, UCB, WASH+)
+GRIESSHAM... 12  PPNP 67 841              H.W. Griesshammer et al.                    (GWU, MCHS+)
+KOZELA       12  PR C85 045501            A. Kozela et al.                              (nTRV Collab.)
+MOHR         12  RMP 84 1527              P.J. Mohr, B.N. Taylor, D.B. Newell                     (NIST)
+PLASTER      12  PR C86 055501            B. Plaster et al.                            (UCNA Collab.)
+STEYERL      12  PR C85 065503            A. Steyerl et al.                                 (URI, SUSS)
+BRESSI       11  PR A83 052101            G. Bressi et al.            (LEGN, PAVII, PADO, TRST+)
+DUBBERS      11  RMP 83 1111              D. Dubbers, M.G. Schmidt                                (HEID)
+MUMM         11  PRL 107 102301           H.P. Mumm et al.               (NIST, WASH, MICH, LBL+)
+WIETFELDT 11     RMP 83 1173              F.E. Wietfeldt, G.L. Greene                  (TULA, TENN)
+COOPER       10  PR C81 035503            R.L. Cooper et al.                   (MICH, NIST, TULA+)
+LIU          10  PRL 105 181803           J. Liu et al.                                (UCNA Collab.)
+    Also         PRL 105 219903 (errat.) J. Liu et al.                                 (UCNA Collab.)
+PICHLMAIER 10    PL B693 221              A. Pichlmaier et al.                     (TUM, PNPI, ILLG)
+ALTAREV      09A PR D80 032003            I. Altarev et al.                     (TUM, RAL, CAEN+)
+KOZELA       09  PRL 102 172301           A. Kozela et al.                (JAGL, CRAC, PSI, CAEN+)
+LAMOREAUX 09     JP G36 104002            S.K. Lamoreaux, R. Golub                      (YALE, NCSU)
+MOHAPATRA 09     JP G36 104006            R.N. Mohapatra                                          (UMD)
+PATTIE       09  PRL 102 012301           R.W. Pattie Jr. et al.           (Los Alamos UCNA Collab.)
+SEREBROV     09A NIM A611 137             A.P. Serebrov et al.                   (PNPI, IOFF, ILLG+)
+ABELE        08  PPNP 60 1                H. Abele                                                (HEID)
+MOHR         08  RMP 80 633               P.J. Mohr, B.N. Taylor, D.B. Newell                     (NIST)
+SCHUMANN     08  PRL 100 151801           M. Schumann et al.                    (HEID, ILLG, KARL+)
+SEREBROV     08  PL B663 181              A.P. Serebrov et al.                   (PNPI, IOFF, ILLG+)
+BAKER        07  PRL 98 149102            C.A. Baker et al.                         (RAL, SUSS, ILLG)
+BAN          07  PRL 99 161603            G. Ban et al.                    (CAEN, JAGL, PSI, JINR+)
+BELUSHKIN    07  PR C75 035202            M.A. Belushkin, H.W. Hammer, U.-G. Meissner (BONN+)
+LAMOREAUX 07     PRL 98 149101            S.K. Lamoreaux, R. Golub                      (YALE, NCSU)
+SCHUMANN     07  PRL 99 191803            M. Schumann et al.                    (HEID, ILLG, KARL+)
+SILENKO      07  PPNL 4 468               A.Ya. Silenko                                (Belarussian U.)
+                 Translated from PFECAY 6 784.
+BAKER        06  PRL 97 131801            C.A. Baker et al.                         (RAL, SUSS, ILLG)
+NICO         06  NAT 444 1059             J.S. Nico et al.              (NIST, TULN, MICH, UMD+)
+SEVERIJNS    06  RMP 78 991               N. Severijns, M. Beck, O. Naviliat-Cuncic            (LEUV+)
+KREUZ        05  PL B619 263              M. Kreuz et al.             (HEID, ILLG, MAINZ, KARL+)
+MOHR         05  RMP 77 1                 P.J. Mohr, B.N. Taylor                                  (NIST)
+NICO         05  PR C71 055502            J.S. Nico et al.               (NIST, TULN, IND, TENN+)
+SCHUMACHER 05    PPNP 55 567              M. Schumacher                                         (GOET)
+SEREBROV     05  PL B605 72               A.P. Serebrov et al.                     (PNPI, JINR, ILLG)
+    Also         SPU 48 867               A.P. Serebrov et al.                     (PPNI, JINR, ILLG)
+                 Translated from UFN 175 905.
+WIETFELDT 05     MPL A20 1783             F.E. Wietfeldt                                         (TULN)
+SOLDNER      04  PL B581 49               T. Soldner et al.                                (ILLG, TUM)
+DEWEY        03  PRL 91 152302            M.S. Dewey et al.                      (NIST, TULN, IND+)
+KOSSERT      03  EPJ A16 259              K. Kossert et al.                     (Mainz MAMI Collab.)
+    Also         PRL 88 162301            K. Kossert et al.                     (Mainz MAMI Collab.)
+LUNDIN       03  PRL 90 192501            M. Lundin et al.
+ABELE        02  PRL 88 211801            H. Abele et al.                         (PERKEO-II Collab.)
+BECK         02  JETPL 76 332             M. Beck et al.                   (LEUV, SUSS, KIAE, PNPI)
+                 Translated from ZETFP 76 392.
+BYRNE        02  JP G28 1325              J. Byrne et al.
+CHUNG        02B PR D66 032004            J. Chung et al.                         (SOUDAN-2 Collab.)
+MOSTOVOI     01  PAN 64 1955              Yu.A. Mostovoi et al.
+                 Translated from YAF 64 2040.
+ARZUMANOV 00     PL B483 15               S. Arzumanov et al.
+GAL          00  PR C61 028201            A. Gal
+KOLB         00  PRL 85 1388              N.R. Kolb et al.
+LAMOREAUX 00     PR D61 051301            S.K. Lamoreaux, R. Golub
+LEVCHUK      00  NP A674 449              M.I. Levchuk, A.I. L’vov                      (BELA, LEBD)
+LISING       00  PR C62 055501            L.J. Lising et al.                      (NIST emiT Collab.)
+HARRIS       99  PRL 82 904               P.G. Harris et al.
+KESSLER      99  PL A255 221              E.G. Kessler Jr et al.
+MOHR         99  JPCRD 28 1713            P.J. Mohr, B.N. Taylor                                  (NIST)
+    Also         RMP 72 351               P.J. Mohr, B.N. Taylor                                  (NIST)
+SEREBROV     98  JETP 86 1074             A.P. Serebrov et al.
+                 Translated from ZETF 113 1963.
+ABELE        97D PL B407 212              H. Abele et al.                                (HEIDP, ILLG)
+KOPECKY      97  PR C56 2229              S. Kopecky et al.
+LIAUD        97  NP A612 53               P. Liaud et al.                                 (ILLG, LAPP)
+YEROZLIM... 97   PL B412 240              B.G. Erozolimsky et al.                (HARV, PNPI, KIAE)
+
+https://pdg.lbl.gov                          Page 18                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ALTAREV       96    PAN 59 1152              I.S. Altarev et al.                                  (PNPI)
+                    Translated from YAF 59 1204.
+BONDAREN... 96      JETPL 64 416             L.N. Bondarenko et al.                               (KIAE)
+                    Translated from ZETFP 64 382.
+BYRNE         96    EPL 33 187               J. Byrne et al.                                (SUSS, ILLG)
+MOSTOVOI      96    PAN 59 968               Y.A. Mostovoy                                        (KIAE)
+                    Translated from YAF 59 1013.
+NORMAN        96    PR D53 4086              E.B. Norman, J.N. Bahcall, M. Goldhaber             (LBL+)
+IGNATOVICH    95    JETPL 62 1               V.K. Ignatovich                                       (JINR)
+                    Translated from ZETFP 62 3.
+KOESTER       95    PR C51 3363              L. Koester et al.                       (TUM, JINR, LATV)
+KOPECKY       95    PRL 74 2427              S. Kopecky et al.
+KUZNETSOV     95    PRL 75 794               I.A. Kuznetsov et al.               (PNPI, KIAE, HARV+)
+SCHRECK...    95    PL B349 427              K. Schreckenbach et al.                 (TUM, ILLG, LAPP)
+BALDO-...     94    ZPHY C63 409             M. Baldo-Ceolin et al.               (HEID, ILLG, PADO+)
+DIFILIPPO     94    PRL 73 1481              F. DiFilippo et al.                                    (MIT)
+    Also            PRL 71 1998              V. Natarajan et al.                                    (MIT)
+GOLUB         94    PRPL 237C 1              R. Golub, K. Lamoreaux                      (HAHN, WASH)
+MAMPE         93    JETPL 57 82              B. Mampe et al.                                      (KIAE)
+                    Translated from ZETFP 57 77.
+ALTAREV      92     PL B276 242              I.S. Altarev et al.                                  (PNPI)
+NESVIZHEV... 92     JETP 75 405              V.V. Nesvizhevsky et al.                       (PNPI, JINR)
+                    Translated from ZETF 102 740.
+ALBERICO      91    NP A523 488              W.M. Alberico, A. de Pace, M. Pignone                (TORI)
+DUBBERS       91    NP A527 239c             D. Dubbers                                            (ILLG)
+   Also             EPL 11 195               D. Dubbers, W. Mampe, J. Dohner                (ILLG, HEID)
+EROZOLIM...   91    PL B263 33               B.G. Erozolimsky et al.                        (PNPI, KIAE)
+   Also             SJNP 52 999              B.G. Erozolimsky et al.                        (PNPI, KIAE)
+                    Translated from YAF 52 1583.
+EROZOLIM...   91B   SJNP 53 260              B.G. Erozolimsky, Y.A. Mostovoy                      (KIAE)
+                    Translated from YAF 53 418.
+SCHMIEDM... 91      PRL 66 1015              J. Schmiedmayer et al.                        (TUW, ORNL)
+WOOLCOCK 91         MPL A6 2579              W.S. Woolcock                                       (CANB)
+ALFIMENKOV 90       JETPL 52 373             V.P. Alﬁmenkov et al.                          (PNPI, JINR)
+                    Translated from ZETFP 52 984.
+BALDO-...     90    PL B236 95               M. Baldo-Ceolin et al.             (PADO, PAVI, HEIDP+)
+BERGER        90    PL B240 237              C. Berger et al.                          (FREJUS Collab.)
+BRESSI        90    NC 103A 731              G. Bressi et al.                       (PAVI, ROMA, MILA)
+BYRNE         90    PRL 65 289               J. Byrne et al.               (SUSS, NBS, SCOT, CBNM)
+GREEN         90    JP G16 L75               K. Green, D. Thompson                                  (RAL)
+RAMSEY        90    ARNPS 40 1               N.F. Ramsey                                         (HARV)
+ROSE          90    PL B234 460              K.W. Rose et al.                 (GOET, MPCM, MAINZ)
+ROSE          90B   NP A514 621              K.W. Rose et al.                           (GOET, MPCM)
+SMITH         90    PL B234 191              K.F. Smith et al.                     (SUSS, RAL, HARV+)
+BRESSI        89    ZPHY C43 175             G. Bressi et al.              (INFN, MILA, PAVI, ROMA)
+DOVER         89    NIM A284 13              C.B. Dover, A. Gal, J.M. Richard             (BNL, HEBR+)
+KOSSAKOW...   89    NP A503 473              R. Kossakowski et al.                (LAPP, SAVO, ISNG+)
+MAMPE         89    PRL 63 593               W. Mampe et al.                   (ILLG, RISL, SUSS, URI)
+MOHAPATRA     89    NIM A284 1               R.N. Mohapatra                                       (UMD)
+PAUL          89    ZPHY C45 25              W. Paul et al.               (BONN, WUPP, MPIK, ILLG)
+SCHMIEDM...   89    NIM A284 137             J. Schmiedmayer, H. Rauch, P. Riehs                 (WIEN)
+BAUMANN       88    PR D37 3107              J. Baumann et al.                      (BAYR, MUNI, ILLG)
+KOESTER       88    ZPHY A329 229            L. Koester, W. Waschkowski, J. Meier          (MUNI, TUM)
+LAST          88    PRL 60 995               I. Last et al.                          (HEIDP, ILLG, ANL)
+SCHMIEDM...   88    PRL 61 1065              J. Schmiedmayer, H. Rauch, P. Riehs                  (TUW)
+    Also            PRL 61 2509 (errat.)     J. Schmiedmayer, H. Rauch, P. Riehs                  (TUW)
+SPIVAK        88    JETP 67 1735             P.E. Spivak                                          (KIAE)
+                    Translated from ZETF 94 1.
+COHEN        87     RMP 59 1121              E.R. Cohen, B.N. Taylor                         (RISC, NBS)
+ALEKSANDR... 86     SJNP 44 900              Yu.A. Aleksandrov et al.
+                    Translated from YAF 44 1384.
+ALTAREV       86    JETPL 44 460             I.S. Altarev et al.                                  (PNPI)
+                    Translated from ZETFP 44 360.
+BOPP          86    PRL 56 919               P. Bopp et al.                          (HEIDP, ANL, ILLG)
+   Also             ZPHY C37 179             E. Klempt et al.                        (HEIDP, ANL, ILLG)
+CRESTI        86    PL B177 206              M. Cresti et al.                                    (PADO)
+   Also             PL B200 587 (errat.)     M. Cresti et al.                                    (PADO)
+GREENE        86    PRL 56 819               G.L. Greene et al.                              (NBS, ILLG)
+KOESTER       86    Physica B137 282         L. Koester et al.
+KOSVINTSEV    86    JETPL 44 571             Y.Y. Kosvintsev, V.I. Morozov, G.I. Terekhov         (KIAE)
+                    Translated from ZETFP 44 444.
+TAKITA        86    PR D34 902               M. Takita et al.                            (KEK, TOKY+)
+DOVER         85    PR C31 1423              C.B. Dover, A. Gal, J.M. Richard                      (BNL)
+FIDECARO      85    PL 156B 122              G. Fidecaro et al.                  (CERN, ILLG, PADO+)
+
+https://pdg.lbl.gov                        Page 19                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+PARK       85B      NP B252 261               H.S. Park et al.                            (IMB Collab.)
+BATTISTONI 84       PL 133B 454               G. Battistoni et al.                      (NUSEX Collab.)
+JONES      84       PRL 52 720                T.W. Jones et al.                           (IMB Collab.)
+PENDLEBURY 84       PL 136B 327               J.M. Pendlebury et al.              (SUSS, HARV, RAL+)
+CHERRY     83       PRL 50 1354               M.L. Cherry et al.                          (PENN, BNL)
+DOVER      83       PR D27 1090               C.B. Dover, A. Gal, J.M. Richard                     (BNL)
+KABIR      83       PRL 51 231                P.K. Kabir                                        (HARV)
+MOSTOVOY   83       JETPL 37 196              Y.A. Mostovoy                                       (KIAE)
+                    Translated from ZETFP 37 162.
+ROY           83    PR D28 1770               A. Roy et al.                                      (TATA)
+VAIDYA        83    PR D27 486                S.C. Vaidya et al.                                 (TATA)
+GAEHLER       82    PR D25 2887               R. Gahler, J. Kalus, W. Mampe               (BAYR, ILLG)
+GREENE        82    Metrologia 18 93          G.L. Greene et al.                  (YALE, HARV, ILLG+)
+ALTAREV       81    PL 102B 13                I.S. Altarev et al.                                (PNPI)
+BARABANOV     80    JETPL 32 359              I.R. Barabanov et al.                              (PNPI)
+                    Translated from ZETFP 32 384.
+BYRNE      80       PL 92B 274                J. Byrne et al.                                (SUSS, RL)
+KOSVINTSEV 80       JETPL 31 236              Y.Y. Kosvintsev et al.                              (JINR)
+                    Translated from ZETFP 31 257.
+MOHAPATRA 80        PRL 44 1316               R.N. Mohapatra, R.E. Marshak                 (CUNY, VPI)
+ALTAREV   79        JETPL 29 730              I.S. Altarev et al.                                (PNPI)
+                    Translated from ZETFP 29 794.
+EROZOLIM...   79    SJNP 30 356               B.G. Erozolimsky et al.                             (KIAE)
+                    Translated from YAF 30 692.
+NORMAN      79      PRL 43 1226               E.B. Norman, A.G. Seamster                        (WASH)
+BONDAREN... 78      JETPL 28 303              L.N. Bondarenko et al.                              (KIAE)
+                    Translated from ZETFP 28 328.
+   Also             Smolenice Conf.           P.G. Bondarenko                                     (KIAE)
+EROZOLIM...   78    SJNP 28 48                B.G. Erozolimsky et al.                             (KIAE)
+                    Translated from YAF 28 98.
+STRATOWA      78    PR D18 3970               C. Stratowa, R. Dobrozemsky, P. Weinzierl           (SEIB)
+EROZOLIM...   77    JETPL 23 663              B.G. Erozolimsky et al.                             (KIAE)
+                    Translated from ZETFP 23 720.
+KOESTER       76    PRL 36 1021               L. Koester et al.
+STEINBERG     76    PR D13 2469               R.I. Steinberg et al.                       (YALE, ISNG)
+DOBROZE...    75    PR D11 510                R. Dobrozemsky et al.                               (SEIB)
+KROHN         75    PL 55B 175                V.E. Krohn, G.R. Ringo                               (ANL)
+EROZOLIM...   74    JETPL 20 345              B.G. Erozolimsky et al.
+                    Translated from ZETFP 20 745.
+KROPF       74      ZPHY 267 129              H. Kropf, E. Paul                                   (LINZ)
+   Also             NP A154 160               H. Paul                                            (VIEN)
+STEINBERG   74      PRL 33 41                 R.I. Steinberg et al.                       (YALE, ISNG)
+COHEN       73      JPCRD 2 664               E.R. Cohen, B.N. Taylor                       (RISC, NBS)
+KROHN       73      PR D8 1305                V.E. Krohn, G.R. Ringo
+CHRISTENSEN 72      PR D5 1628                C.J. Christensen et al.                             (RISO)
+CHRISTENSEN 70      PR C1 1693                C.J. Christensen, V.E. Krohn, G.R. Ringo             (ANL)
+EROZOLIM... 70C     PL 33B 351                B.G. Erozolimsky et al.                             (KIAE)
+GRIGOREV    68      SJNP 6 239                V.K. Grigoriev et al.                               (ITEP)
+                    Translated from YAF 6 329.
+KROHN         66    PR 148 1303               V.E. Krohn, G.R. Ringo
+LEE           56    PR 104 254                T.D. Lee, C.N. Yang                         (COLU, BNL)
+
+
+
+
+https://pdg.lbl.gov                         Page 20                      Created: 6/1/2026 16:25
+

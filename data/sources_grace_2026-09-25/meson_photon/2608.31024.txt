@@ -1,0 +1,895 @@
+                                           First-principles determination of anomaly-induced pion decay beyond the chiral limit
+
+                                                              Tian Lin,1 Xu Feng,1, 2, 3, 4 Lu-Chang Jin,5 Chuan Liu,1, 2, 3 and Qi-Yuan Luo1
+                                                                          1
+                                                                            School of Physics, Peking University, Beijing 100871, China
+                                                                  2
+                                                                   Collaborative Innovation Center of Quantum Matter, Beijing 100871, China
+                                                                  3
+                                                                    Center for High Energy Physics, Peking University, Beijing 100871, China
+                                                                       4
+                                                                         Southern Center for Nuclear-Science Theory (SCNT), Institute of
+                                                                   Modern Physics, Chinese Academy of Sciences, Guangdong 516000, China
+                                                                  5
+                                                                    Department of Physics, University of Connecticut, Storrs, CT 06269, USA
+                                                                                            (Dated: September 1, 2026)
+                                                          The two-photon decay of the neutral pion is fixed in the chiral limit by the Adler-Bell-Jackiw
+                                                        anomaly, while nonzero quark masses induce few-percent corrections that must be determined for
+                                                        precision tests of QCD beyond the chiral limit. Using the anomalous PCAC relation, we compute
+                                                        them in lattice QCD as deviations from the exact anomaly condition at q 2 = 0, thereby avoiding
+                                                        both four-point functions and the cancellation of chiral logarithms that limits conventional ap-
+
+
+
+
+arXiv:2608.31024v1 [hep-lat] 31 Aug 2026
+                                                        proaches. Because the correction is proportional to the light-quark masses, both statistical and
+                                                        systematic uncertainties are correspondingly suppressed, making a precision calculation feasible.
+                                                        On two nearly-physical domain-wall ensembles we achieve ∼ 1% statistical precision each for the
+                                                        decay width, obtaining Γ(π 0 → γγ) = 8.09(22) eV after continuum extrapolation. The 2.3(1.4)%
+                                                        mass correction to the decay amplitude, positive and isospin-breaking dominated, provides the first
+                                                        ab initio confirmation of the π 0 -η-η ′ mixing enhancement.
+
+
+                                              Introduction The neutral pion π 0 is the lightest            decays), and a strong-interaction observable, making it a
+                                           hadron and plays a singular role in our understanding           rare, exact bridge across sectors of the Standard Model.
+                                           of quantum chromodynamics (QCD). With a mean life-                 The real world contains quarks with finite masses, and
+                                           time of only τ ≈ 8.4 × 10−17 s, it decays almost exclusively    these introduce corrections to Eq. (1). Based on Chi-
+                                           (≈ 98.8% branching ratio) into two photons via the elec-        ral Perturbation Theory (ChPT), the dominant effect
+                                           tromagnetic interaction [1]. Far from being a mundane           arises from π 0 -η-η ′ mixing driven by isospin breaking
+                                           low-energy process, this decay is governed entirely by          (mu ≠ md ), which enhances the decay width by approxi-
+                                           the chiral anomaly—a purely quantum mechanical phe-             mately 4.5% relative to the chiral limit [4–6]. On the ex-
+                                           nomenon in which a symmetry of the classical QCD La-            perimental side, a dramatic improvement came from the
+                                           grangian is violated by quantum fluctuations of the quark       PrimEx program at Jefferson Lab. Combining PrimEx-
+                                           and gluon fields [2, 3], causing π 0 to decay on a timescale    I [7] and PrimEx-II [8] phases yields the most precisely
+                                           about eight orders of magnitude shorter than that of π ± .      measured Γ(π 0 →γγ) to date:
+                                           As a consequence, Γ(π 0 → γγ) serves as one of the most
+                                           fundamental and precisely testable predictions of quan-                       Γ(π 0 →γγ)exp = 7.802(117) eV,          (2)
+                                           tum field theory, making the precise measurement and
+                                           theoretical computation of Γ(π 0 →γγ) a cornerstone test        with a total uncertainty of 1.5%. Crucially, this result
+                                           of QCD.                                                         is in agreement with the ABJ anomaly prediction (1)
+                                              In the chiral limit with massless up and down quarks,        but shows a 1.8-σ tension with the NNLO ChPT pre-
+                                           the chiral anomaly yields an exact, parameter-free pre-         diction [6]. An energy upgrade to 22 GeV of electron
+                                           diction for Γ(π 0 →γγ)                                          beam at JLab will enable measurements of Γ(π 0 → γγ)
+                                                                                                           with sub-percent uncertainties [9], making the quantita-
+                                                                      πm3π α2 K02                          tive understanding of Γ(π 0 →γγ) both timely and essen-
+                                                 Γ(π 0 →γγ)ABJ =                  = 7.743(16) eV,   (1)
+                                                                        4Fπ2                               tial.
+                                                                                                              Lattice QCD is uniquely positioned to provide a sys-
+                                           where K0 = Nc (Q2u − Q2d )/(4π 2 ) = 1/(4π 2 ) is the ABJ       tematically improvable, first-principles computation of
+                                           anomaly constant, with Qu = 2/3 and Qd = −1/3. Here α           QCD observables without relying on model assumptions
+                                           is the fine-structure constant, mπ is the π 0 mass, Nc = 3      or truncating a perturbative expansion. The first lat-
+                                           is the number of colors, and Fπ = 92.320(97) MeV is the         tice QCD calculation of Γ(π 0 → γγ) was performed in
+                                           pion decay constant extracted from the weak decay of            2012 [10], shortly after PrimEx-I experiment released
+                                           charged pions [1]. This is essentially unique in QCD: al-       its measurements. So far, various calculations have ap-
+                                           most all other low-energy observables require either phe-       peared with different methodologies [11–18]. These cal-
+                                           nomenological model input or nonperturbative numerical          culations determine the full decay amplitude directly in
+                                           methods to compute. Eq. (1) provides a direct link be-          the isospin-symmetric (IS) limit, mu = md , and there-
+                                           tween the non-Abelian gauge structure of QCD (through           fore cannot access the isospin-breaking (IB) contributions
+                                           Nc ), electroweak physics (through α and Fπ from weak           that ChPT predicts to dominate the mass correction.
+                                                                                                                                      2
+
+Moreover, their uncertainties, at the level of 4%-12%,           SM [19]. Eq. (3) then yields the Ward identity
+span a range covering both the ABJ anomaly prediction
+and the ChPT expectation, making the small mass cor-                       W(−q 2 ) = F̂ (3) (−q 2 ) + F̂ (0) (−q 2 ) − K0 .         (4)
+rection difficult to resolve. The central values of some
+calculations even lie below the ABJ prediction, in con-          Details on the AVV and PVV amplitudes are provided
+trast to the ∼ 4.5% enhancement expected from ChPT;              in the SM [19].
+see the Supplemental Material (SM) [19].                            With the momentum set
+   Rather than simply devoting more computational ef-                                                    E                  E
+fort to the full decay amplitude, we change the quantity                    q = (iE, 0),        p = (i     , p) ,   ∣p∣ =     ,      (5)
+                                                                                                         2                  2
+computed on the lattice and determine the mass correc-
+tions themselves, including both IS and IB contributions.        F̂ (a) (−q 2 ) can be evaluated as
+Since both are only at the few-percent level, determin-
+                                                                                             e−Etz j1 ( 2 ∣x∣) (a)
+                                                                                                                    E
+ing them to ∼ 10% already yields a sub-percent deter-
+mination of Γ(π 0 → γγ). A straightforward lattice im-            F̂ (a) (−q 2 ) = ∫ d4 x ∫ dtz               Ĥ (tz ; x),
+                                                                                               E      E∣x∣
+plementation, however, requires introducing the IS and                                                                  (6)
+IB quark-mass operators perturbatively, converting the           with the three-point correlator in Euclidean space
+usual three-point functions into four-point functions. Be-
+sides the increased computational cost, this approach                    Ĥ (a) (tz ; x) = ϵµνα0 xα ×
+suffers from two major challenges. First, the IS oper-
+                                                                                ∫ d z ⟨T [Jµ ( 2 )Jν (− 2 )P̂ (z, tz )]⟩ (7)
+                                                                                   3       em x    em   x    (a)
+            ¯ generates disconnected diagrams with poor
+ator ūu + dd
+signal-to-noise ratios. Second, the mass derivatives of
+pion decay constant and the π 0 → γγ transition form fac-        as inputs. Since the AVV amplitude is regular at q 2 = 0
+tor, dFπ /dm2π and dFπ0 γγ /dm2π , each contain chiral log-      for nonzero pion mass, W(0) = 0 gives the exact anomaly
+arithms that cancel only after the two contributions are         boundary condition
+combined. Computing them separately therefore leads to
+                                                                                       F̂ (3) (0) + F̂ (0) (0) = K0 ,                (8)
+large logarithmically enhanced contributions that largely
+cancel in the final result, while the associated statisti-       which holds to all orders in the strong coupling by
+cal uncertainties do not cancel correspondingly, result-         anomaly non-renormalization [20].
+ing in substantially amplified relative uncertainties. To          Rather than using the chiral-limit relation directly, we
+overcome these difficulties, we develop a novel method           take Eq. (8) as the reference point. At the pion pole
+to compute the IS and IB corrections directly through            −q 2 = m2π , the decay width is
+three-point functions as described below, which reduces
+the uncertainties induced by the IS and IB contributions                                                 πm3π α2 K 2
+to the total Γ(π 0 →γγ) to 0.5-0.7% and 0.8-1.0%, respec-                          Γ(π 0 → γγ) =                     ,               (9)
+                                                                                                           4Fπ2
+tively, on the used gauge ensembles.
+   Methodology Introducing the isovector axial current           where
+                      ¯ µ γ5 d) and the pseudoscalar bilin-
+A3µ = 21 (ūγµ γ5 u − dγ
+                                                                                      q 2 + m2π
+ears P = 2 (ūγ5 u − dγ
+        3    1          ¯ 5 d) and P 0 = 1 (ūγ5 u + dγ
+                                                     ¯ 5 d) in       K =        lim2            (F̂ (3) (−q 2 ) + F̂ (0) (−q 2 ))
+                                         2                                    2
+                                                                             q +mπ →0    m2π
+Euclidean space, the anomalous PCAC relation in QCD
+reads                                                                     = K̂(3) (m2π ) + K̂(0) (m2π ).                            (10)
+                                                                                          q 2 +m2
+            ∂µ A3µ = P̂ 3 + P̂ 0 − πK0 αFµν
+                                         em em
+                                            F̃µν ,        (3)    with K̂(a) (−q 2 ) ≡ m2 π F̂ (a) (−q 2 ), which is regular at
+                                                                                       π
+                                                                 −q 2 = m2π .
+with P̂ 3 = 2ml P 3 and P̂ 0 = δmP 0 , where ml =                  The mass correction is therefore
+(mu +md )/2, δm = mu −md , and F̃µν      em
+                                             = 12 ϵµνρσ Fρσ
+                                                         em
+                                                            .
+Throughout this paper, we use the notation ˆ for oper-              ∆K = K − K0
+ators and correlators carrying explicit quark-mass inser-                  = K̂(3) (m2π ) + K̂(0) (m2π ) − K̂(3) (0) − K̂(0) (0).(11)
+tions, while ordinary operators and correlators are writ-
+ten without it.                                                  In ChPT, electromagnetic corrections to the decay am-
+   The scalar invariants W and F̂ (a) (a = 3, 0) are de-         plitude start at O(e2 p4 ) and have been estimated to
+fined by projecting the axial-vector-vector (AVV) ampli-         be about 0.3% [5]. In our formulation, however, the
+tude ⟨T [Jρem Jσem A3µ ]⟩ and the pseudoscalar-vector-vector     anomaly constraint (8) remains exact in the presence
+(PVV) amplitudes ⟨T [Jρem Jσem P̂ a ]⟩ onto the ϵρσλα pλ qα      of QED. Consequently, electromagnetic effects cancel in
+tensor structure (with momenta p carried by one pho-             the anomaly reference quantity, leaving only corrections
+ton and q carried by A3µ or P̂ a ). The Wick topologies          of O(α ml ) or O(α δm) to ∆K. Thus, when both the
+of the PVV three-point functions are summarized in the           light-quark mass difference and electromagnetic effects
+                                                                                                                                            3
+
+are regarded as IB effects, the residual electromagnetic                          1.378(5) GeV. We use 92 configurations for 24D and
+contributions enter only at higher order in the IB expan-                         49 for 32Dfine. Although we previously computed the
+sion.                                                                             π 0 → γγ amplitude using Coulomb-gauge wall-source
+   Separating the IS and IB contributions, the mass de-                           pion operators [17], the PCAC formulation adopted here
+pendence of ∆K is decomposed as                                                   requires local pion interpolating operators. We therefore
+                                                                                  reconstruct the contractions using point-source propaga-
+                      ∆K = ∆K IS + ∆K IB                                (12)      tors, with 1024 randomly chosen space-time origins per
+                                                                                  gauge configuration. The resulting π 0 → γγ amplitude
+with
+                                                                                  agrees with the wall-source result within statistical un-
+   ∆K = (K̂ (mπ ) − K̂ (0)) ∣
+        IS       (3)    2        (3)                                              certainties. For the disconnected IB contributions, we
+                                          δm=0                                    additionally employ stochastic volume-source propaga-
+   ∆K = −δm (K (0)∣
+        IB              (0)
+                                     )                                            tors, using 64 sources per configuration on 24D and 256
+                                δm=0                                              on 32Dfine. Combining the gauge configurations with the
+    + (K̂ (mπ ) − K̂ (0)) − (K̂ (mπ ) − K̂ (0)) ∣
+           (3)    2       (3)            (3)     2          (3)                   stochastic sources, we accumulate roughly 5, 000-10, 000
+                                                                        δm=0      measurements per ensemble for IB contributions. Both
+    +δm (K (mπ ) − (K (0) − K (0)∣
+               (0)    2         (0)         (0)
+                                                              ))                  electromagnetic currents are implemented as local vec-
+                                                      δm=0                        tor currents, with renormalization factors taken from
+           = ∆K IB,(0) + ∆K IB,(1) + ∆K IB,(2) .                         (13)     Ref. [22]. The evaluation of the π-state contribution to
+                                                                                  ∆K IB,(1) requires four-point correlation functions. For
+Here ∆K IB,(0) is the leading IB contribution, while                              these, the pion interpolating operator is constructed from
+∆K IB,(1) and ∆K IB,(2) arise at O(ml δm) and O(δm2 ),                            a Coulomb-gauge-fixed wall source, while the isospin-
+respectively.                                                                     breaking scalar density and one electromagnetic current
+   The computation of F̂ (3) (m2π ) yields a pion-pole sin-                       are inserted using point-source propagators; the second
+gularity. This pion pole can be subtracted by defining                            current is treated as the sink operator.
+  ̃ (tz , −ts ; x) = Ĥ (tz ; x) − e π s z Ĥ (−ts ; x),
+                                          m                                          The calculation requires both bare quark mass ml and
+  H (3)                    (3)                (t  +t  )    (3)
+                                                                                  δm. The lattice ensembles are generated in the isospin
+                                                                        (14)
+                                                                                  limit, where ml includes the residual mass contribu-
+for a reference time ts , which is chosen sufficiently
+                                                                                  tion from domain-wall fermions. To match the conven-
+large to guarantee the pion ground-state dominance in
+                                                                                  tion of the isospin-symmetric pion mass, we rescale the
+Ĥ (tz ; x) for tz ≤ −ts . Then the IS contribution can be
+  (3)
+                                                                                                                   2
+                                                                                  quark-mass insertion by miso  π /mπ , where mπ = 0.135
+                                                                                                                       2           iso
+given by
+                                                                                  GeV denotes the pion mass in the isospin-symmetric
+             2e mπ ts
+                            4 ⎛ 1
+                                 j ( 2 ∣x∣) 1 ⎞ (3)
+                                     mπ                                           world [21, 23], and mπ is the lattice-determined pion
+∆K IS =               ∫   d  x                 −        Ĥ     (−t  s ; x)∣                                                                MS
+               m2π             ⎝ mπ ∣x∣            6⎠                       δm=0 mass. The δm is determined from the PDG input mu,d
+                                                                                  at the renormalization scale µ = 2 GeV and converted to
+                           0      tz ̃ (3)
+            + ∫ d4 x ∫ dtz H               (tz , −ts ; x)∣        ,          (15) the bare lattice parameter through
+                         −ts       3                        δm=0
+
+while the leading IB contribution is given by                                                                  mMS − mMS
+                                                                                                    δm = 2ml u           d
+                                                                                                                            .             (17)
+                                  0
+                                                                                                               m MS
+                                                                                                                 u   + m MS
+                                                                                                                         d
+                                         tz
+  ∆K IB,(0) = δm ∫ d4 x ∫ dtz (H (0) (tz , x)∣                          ).
+                                         3
+                                                                                                                u /md      = 0.462(12), corre-
+                                                                δm=0
+                                 −∞
+                                                                        (16)      The PDG input used is mMS            MS
+
+The detailed derivations are given in the SM [19].                                sponding  to (m MS
+                                                                                                  u  −m   MS
+                                                                                                          d  )/(m MS
+                                                                                                                  u  +m  d ) = −0.368(11) [1].
+                                                                                                                         MS
+
+   The subleading IB contributions ∆K                        IB,(1)
+                                                                         and      The FLAG average, mu /md = 0.485(20) [24], differs
+                                                                                                            MS   MS
+
+∆K IB,(2) can be evaluated by explicitly inserting the IB                         from the PDG value by about 1σ. This difference is in-
+mass operators. A complete calculation of these terms is                          cluded as a systematic uncertainty in our final results.
+substantially more complicated. Given that they are al-                              We first discuss the IS contribution. For connected
+ready suppressed relative to ∆K IB,(0) , we instead retain                        contributions, ∆K1IS,conn and ∆K2IS,conn refer to the two
+only the pion ground-state contribution to obtain an es-                          terms in Eq. (15) and are shown in Fig. 1 as a function of
+timate of their magnitude. The detailed expressions used                          the reference time ts . The two terms are individually siz-
+in this estimate are given in the SM [19].                                        able and of opposite sign, amounting to −1.6% and +2.0%
+   Numerical results We use two 2+1-flavor domain-wall                            of K0 , and each develops a clear plateau for ts ≳ 1.4 fm
+fermion ensembles, 24D and 32Dfine, generated by the                              on both ensembles, while their cancellation leads to a
+RBC-UKQCD Collaboration [21]. The two ensembles                                   much smaller net contribution, namely ∆K IS,conn /K0 =
+have nearly physical pion masses, mπ = 143.1(3) and                               0.36(16)% on 24D and 0.31(19)% on 32Dfine. The dis-
+142.9(7) MeV [17], comparable spatial volumes (L ≃ 4.6                            connected contribution to the IS term, shown in Fig. 2,
+fm), and different lattice spacings, a−1 = 1.023(2) and                           is the noisiest ingredient. ∆K IS,disc /K0 = −0.14(20)%
+                                                                                                                                                                                                4
+
+(24D) and 0.04(31)% (32Dfine) are both consistent with                                      linear fits. More details are given in the SM [19]. Fig. 3
+zero.                                                                                       shows this decomposition. As ts increases the SD part
+                                                                                            rises and the reconstructed long-distance (LD) parts fall,
+                       4        24D ∆K1IS,conn        32Dfine ∆K1IS,conn
+                                                                                            with the η ′ LD piece dying out fastest. We quote the to-
+                                24D ∆K2IS,conn        32Dfine ∆K2IS,conn                    tal at ts ≃ 0.58 fm (24D) and 0.57 fm (32Dfine), marked
+                       3                                                                    by the vertical lines. At this matching point the η tail
+
+
+
+ ∆K IS,conn /K0 [%]
+                       2                                                                    accounts for 40(8)% (24D) and 31(13)% (32Dfine) of the
+                                                                                            total, and the η ′ tail for a further 6(1)% and 8(5)%, re-
+                       1                                                                    spectively. This gives ∆K IB,(0) /K0 = 3.30(42)% on 24D
+                       0                                                                    and 2.61(48)% on 32Dfine, roughly an order of magni-
+                                                                                            tude larger than the IS term.
+                      −1
+
+                      −2                                                                                          SD (t < ts )           η LD (t ≥ ts )         η 0 LD (t ≥ ts )      total
+                                                                                                                                   24D                                     32Dfine
+                        1.0     1.2       1.4     1.6       1.8           2.0   2.2   2.4                    6
+                                                     ts [fm]
+                                                                                                             5
+
+                                                                                                             4
+Figure 1. The two terms of Eq. (15), ∆K1IS and ∆K2IS as
+
+                                                                                             ∆K IB /K0 [%]
+a function of the reference time ts , for the 24D and 32Dfine                                                3
+ensembles. The bands indicate the plateau averages used in
+the final analysis. The two terms cancel to about 90%.                                                       2
+
+                                                                                                             1
+
+
+                       2.0                                                                                   0
+                                 24D ∆K1IS,disc      32Dfine ∆K1IS,disc
+                                                                                                                 0.0             0.5             1.0      0.0              0.5         1.0
+                       1.5       24D ∆K2IS,disc      32Dfine ∆K2IS,disc
+                                                                                                                                 ts [fm]                                    ts [fm]
+
+
+
+
+ ∆K IS,disc /K0 [%]
+                       1.0
+                                                                                            Figure 3. Leading IB contribution ∆K IB as a function of the
+                       0.5                                                                  matching time ts for 24D (left) and 32Dfine (right). Shown
+                                                                                            are the short-distance lattice part (t < ts ), the η- and η ′ -
+                       0.0                                                                  dominated reconstructed long-distance parts (t ≥ ts ), and
+                                                                                            their total. The vertical lines mark the chosen ts ; the hor-
+                      −0.5                                                                  izontal bands give the quoted results.
+
+                      −1.0
+                          1.0    1.2        1.4    1.6      1.8           2.0   2.2   2.4      The subleading IB terms are evaluated on 24D in the π-
+                                                      ts [fm]                               state approximation described above. Both are found to
+                                                                                            be negligible, ∆K IB,(1) /K0 = −0.010(84)% at O(ml δm)
+Figure 2. Disconnected contribution ∆K IS,disc , decomposed                                 and ∆K IB,(2) /K0 = −0.0039(15)% at O(δm2 ), i.e. two
+in the same way as in Fig. 1. Both ensembles are consistent                                 orders of magnitude below ∆K IB,(0) and statistically in-
+with zero within the statistical precision.                                                 distinguishable from zero. This confirms the expected
+                                                                                            suppression pattern. We do not include their central val-
+   We now turn to the IB contribution, which dominates                                      ues, and instead retain their uncertainties as additional
+∆K. The leading term ∆K IB,(0) of Eq. (16) involves                                         systematics on the 24D ∆K total.
+the isoscalar correlator H (0) integrated over the whole                                       The individual contributions and their totals are col-
+negative-time region. The integrand at large ∣tz ∣ is rel-                                  lected in Table I. Summing the IS and IB pieces together
+atively noisy. Instead of performing a temporal trunca-                                     with the disconnected pieces gives ∆K/K0 = 3.52(50)%
+tion, we split the integral at a matching time ts : the                                     on 24D and 2.96(60)% on 32Dfine. The two ensembles
+short-distance region is taken directly from the lattice                                    differ by lattice spacing at nearly identical pion mass and
+correlator (SD), while the long-distance tail is recon-                                     volume, and agree well within errors, with no obvious ev-
+structed from η and η ′ contributions. To this end, we per-                                 idence for significant discretization effects at the current
+form a combined two-state fit to the two-point correlation                                  statistical precision. A linear extrapolation in a2 yields
+functions using wall-source operators. The interpolating                                    the continuum value
+basis consists of the light axial-vector current and the                                                                                   ∆K
+strange pseudoscalar density. The two-point fit provides                                                                                      = 2.3(1.4)%,                                    (18)
+                                                                                                                                           K0
+the η (′) masses and overlaps; with these parameters fixed
+on each jackknife sample, the matrix elements ⟨η (′) ∣P 0 ∣0⟩                               whose enlarged uncertainty simply reflects the lever arm
+and ⟨0∣T [J em J em ]∣η (′) ⟩ are obtained from uncorrelated                                between the two available lattice spacings.
+                                                                                                                                                       5
+
+                         24D      32Dfine continuum             isospin breaking, providing, for the first time, a lattice-
+ ∆K IS,conn /K0 [%]    0.36(16)   0.31(19)  0.25(46)            QCD confirmation of the enhancement over the ABJ pre-
+ ∆K IB /K0 [%]         3.30(42)   2.61(48)  1.8(1.1)            diction anticipated from π 0 -η-η ′ mixing. Both the sign
+ ∆K IS,disc /K0 [%]   −0.14(20)   0.04(31)  0.25(73)            and magnitude agree with the ChPT predictions [4–6].
+ ∆K IB,disc /K0 [%]   0.016(27) −0.003(42)      –               The continuum result lies 1.2σ above the PrimEx I+II
+ ∆K O(ml δm) /K0 [%] −0.010(84)       –         –               measurement [8]. A third lattice spacing is needed not
+    O(δm2 )
+ ∆K          /K0 [%] −0.0039(15)      –         –               only to strengthen the continuum extrapolation, but also
+ ∆K/K0 [%]             3.52(50)  2.96(60)   2.3(1.4)            to reduce the uncertainty in the comparison with exper-
+ ∆ΓIS [eV]            0.056(24)  0.048(29) 0.039(70)            iment.
+ ∆ΓIB [eV]            0.511(65)  0.404(74) 0.27(17)
+ ∆ΓIS,disc [eV]      −0.021(31) 0.006(48) 0.04(11)                           9.0
+ ∆ΓIB,disc [eV]      0.0025(42) −0.0005(65)     –
+ ∆Γ [eV]              0.545(77)  0.458(93) 0.35(22)
+                                                                             8.5
+                                                                                                  KM NNLO             GBH, NLO
+
+
+
+                                                                 Γ(π 0 → γγ) [eV]
+Table I. Contributions to the quark-mass correction, quoted                         IO, QCD sum
+                                                                                                            AM, NLO
+
+as the relative shift ∆K/K0 of the anomaly constant, and to                  8.0
+the corresponding decay-width shift ∆Γ. The IS and IB terms
+use the m2π -rescaled central values and are combined before
+                                                                             7.5
+the errors are propagated; the IS-disconnected term enters
+with its central value, while the IB-disconnected contribu-
+tion is an order of magnitude smaller and can be neglected;                  7.0
+the two higher-order IB terms, computed on 24D only, en-
+                                                                                                                                      Chiral anomaly
+ter through their uncertainties alone. The uncertainty in the                6.5
+input mMSu /md
+               MS
+                   propagates to K/K0 , giving an uncertainty                         RN      AL rnel
+                                                                                                      l   A
+                                                                                                            Ex
+                                                                                                               -I   x-I
+                                                                                                                        I
+                                                                                                                          ina
+                                                                                                                              l   m    ne   24
+                                                                                                                                              D
+                                                                                    CE     CB           ET                      uu 2Dfi
+of 0.1-0.2%, which is included in quadrature in the IB uncer-                                   Co PIB Prim rimE Ex F ntin          3
+                                                                                                             P       i m   c o
+                                                                                                                  Pr
+tainty.
+
+                                                                Figure 4. Comparison of Γ(π 0 → γγ) from this work (24D,
+   Since ∆K/K0 ≪ 1, the width shift follows from                32Dfine and continuum) with experimental measurements [7,
+∆Γ/ΓABJ = 2∆K/K0 , giving ∆Γ = 0.35(22) eV in the               8, 25–28] and with ChPT predictions (IO QCD sum rule [29];
+                                                                KM NNLO [6]; AM NLO [5]; GBH NLO [4]). The horizontal
+continuum, i.e. a 4.5(2.8)% enhancement over the chiral-
+                                                                line is the chiral-anomaly prediction of Eq. (1).
+limit prediction. Adding this to Eq. (1) yields our final
+result
+                                                                   Since the correction we compute is proportional to the
+                Γ(π 0 → γγ) = 8.09(22) eV,              (19)    light-quark masses, ml or δm, its statistical and system-
+                                                                atic uncertainties are correspondingly suppressed. This
+where the error is dominated by the continuum extrap-           is a key advantage over the conventional approach and
+olation; the individual ensembles give the more precise         is what makes the sign and magnitude of the small cor-
+values 8.29(8) eV (24D) and 8.20(9) eV (32Dfine).               rection accessible with useful precision. A dimensional
+   Conclusion We have presented a first-principles lat-         estimate based on a2 Λ2QCD suggests relative discretiza-
+tice QCD determination of the quark-mass corrections            tion effects at the ∼ 20% level, consistent with the ob-
+to the anomaly-induced decay π 0 → γγ. The central              served ∼ 20% difference between the 24D and 32Dfine
+methodological point is that the anomalous PCAC re-             results for ∆K/K0 . Eliminating this positive correction
+lation allows the correction to be defined relative to          would require an O(100%) discretization effect acting co-
+the exact anomaly condition F̂ (3) (0) + F̂ (0) (0) = K0 at     herently at both lattice spacings. Residual discretization
+q 2 = 0, which holds to all orders in the strong coupling       effects are therefore unlikely to alter our conclusion of
+and also in the presence of QED. This reformulation re-         a positive, predominantly isospin-breaking mass correc-
+places the four-point functions required by a direct mass-      tion. Other systematic effects, including finite-volume
+insertion calculation with three-point functions, and si-       corrections and the distinction between Fπ0 and Fπ± , are
+multaneously avoids the cancellation between dFπ /dm2π          subleading at the current precision; see the SM [19].
+and dFπ0 γγ /dm2π that inflates the relative uncertainty           Our methodology provides a direct path toward a
+when the two contributions are computed separately.             future sub-percent determination of the decay width.
+   Fig. 4 compares our lattice determination with the ex-       Such a precision calculation can be confronted with the
+perimental results and ChPT predictions. We achieve a           new measurements enabled by the 22 GeV upgrade at
+statistical precision of about 1% for the π 0 → γγ decay        JLab [9], opening the way to a precision test of the chiral
+width on each ensemble. The continuum extrapolation             anomaly beyond the chiral limit.
+from two lattice spacings enlarges the final uncertainty           X.F., T.L., C.L. and Q.Y.L. were supported in part
+to 2.7%. The correction is positive and dominated by            by NSFC of China under Grants No. 12125501, No.
+                                                                                                                            6
+
+12550007, No. 12293060 and No. 12293063. L.J.                         C. Jung, A. Jüttner, C. Lehner, A. Portelli, and J. T.
+acknowledges the support of DOE Office of Science                     Tsang (RBC, UKQCD), Phys. Rev. Lett. 121, 022003
+Early Career Award DE-SC0021147, DOE grant DE-                        (2018), arXiv:1801.07224 [hep-lat].
+SC0010339 and DE-SC0026314. The research reported                [24] Y. Aoki et al. (Flavour Lattice Averaging Group
+                                                                      (FLAG)), Phys. Rev. D 113, 014508 (2026),
+in this work was carried out using the computing facilities           arXiv:2411.04268 [hep-lat].
+at Chinese National Supercomputer Center in Tianjin. It          [25] H. W. Atherton et al., Phys. Lett. B 158, 81 (1985).
+also made use of computing and long-term storage facil-          [26] D. Williams et al. (Crystal Ball), Phys. Rev. D 38, 1365
+ities of the USQCD Collaboration, which are funded by                 (1988).
+the Office of Science of the U.S. Department of Energy.          [27] A. Browman, J. DeWire, B. Gittelman, K. M. Hanson,
+                                                                      D. Larson, E. Loh, and R. Lewis, Phys. Rev. Lett. 33,
+                                                                      1400 (1974).
+                                                                 [28] M. Bychkov et al., Phys. Rev. Lett. 103, 051802 (2009),
+                                                                      arXiv:0804.1815 [hep-ex].
+ [1] S. Navas et al. (Particle Data Group), Phys. Rev. D 110,    [29] B. L. Ioffe and A. G. Oganesian, Phys. Lett. B 647, 389
+     030001 (2024).                                                   (2007), arXiv:hep-ph/0701077.
+ [2] S. L. Adler, Phys. Rev. 177, 2426 (1969).                   [30] R. Frezzotti, G. Gagliardi, V. Lubicz, G. Martinelli,
+ [3] J. S. Bell and R. Jackiw, Nuovo Cim. A 60, 47 (1969).            F. Sanfilippo, and S. Simula, Phys. Rev. D 104, 074513
+ [4] J. L. Goity, A. M. Bernstein, and B. R. Holstein, Phys.          (2021), arXiv:2107.11895 [hep-lat].
+     Rev. D 66, 076014 (2002), arXiv:hep-ph/0206007.             [31] C. Bonanno et al., Phys. Rev. D 113, 074510 (2026),
+ [5] B. Ananthanarayan and B. Moussallam, JHEP 05, 052                arXiv:2512.09880 [hep-lat].
+     (2002), arXiv:hep-ph/0205232.                               [32] G. Amoros, J. Bijnens, and P. Talavera, Nucl. Phys. B
+ [6] K. Kampf and B. Moussallam, Phys. Rev. D 79, 076005              602, 87 (2001), arXiv:hep-ph/0101127.
+     (2009), arXiv:0901.4688 [hep-ph].                           [33] H. Neufeld and H. Rupertsberger, Z. Phys. C 71, 131
+ [7] I. Larin et al. (PrimEx), Phys. Rev. Lett. 106, 162303           (1996), arXiv:hep-ph/9506448.
+     (2011), arXiv:1009.1681 [nucl-ex].                          [34] R. Baur and R. Urech, Nucl. Phys. B 499, 319 (1997),
+ [8] I. Larin et al. (PrimEx-II), Science 368, 506 (2020).            arXiv:hep-ph/9612328.
+ [9] A. Accardi et al., Eur. Phys. J. A 60, 173 (2024),
+     arXiv:2306.09360 [nucl-ex].
+[10] X. Feng, S. Aoki, H. Fukaya, S. Hashimoto, T. Kaneko,
+     J.-i. Noaki, and E. Shintani, Phys. Rev. Lett. 109,
+     182001 (2012), arXiv:1206.1375 [hep-lat].
+[11] A. Gérardin, H. B. Meyer, and A. Nyffeler, Phys. Rev.
+     D 94, 074507 (2016), arXiv:1607.08174 [hep-lat].
+[12] A. Gérardin, H. B. Meyer, and A. Nyffeler, Phys. Rev.
+     D 100, 034520 (2019), arXiv:1903.09471 [hep-lat].
+[13] N. Christ, X. Feng, L. Jin, C. Tu, and Y. Zhao, Phys.
+     Rev. Lett. 130, 191901 (2023), arXiv:2208.03834 [hep-
+     lat].
+[14] A. Gérardin, W. E. A. Verplanke, G. Wang, Z. Fodor,
+     J. N. Guenther, L. Lellouch, K. K. Szabo, and L. Varn-
+     horst, (2023), arXiv:2305.04570 [hep-lat].
+[15] C. Alexandrou et al. (Extended Twisted Mass), Phys.
+     Rev. D 108, 094514 (2023), arXiv:2308.12458 [hep-lat].
+[16] J. Koponen, A. Gérardin, H. B. Meyer, K. Ottnad,
+     and G. von Hippel, PoS LATTICE2023, 254 (2024),
+     arXiv:2311.07330 [hep-lat].
+[17] T. Lin, M. Bruno, X. Feng, L.-C. Jin, C. Lehner, C. Liu,
+     and Q.-Y. Luo, Rept. Prog. Phys. 88, 080501 (2025),
+     arXiv:2411.06349 [hep-lat].
+[18] S. Su, L. Liu, and P. Sun, (2026), arXiv:2607.27868
+     [hep-lat].
+[19] See Supplemental Material, which includes the formula
+     derivation and a detailed discussion of the numerical
+     analysis, together with Refs. [32–34], for additional in-
+     formation..
+[20] S. L. Adler and W. A. Bardeen, Phys. Rev. 182, 1517
+     (1969).
+[21] T. Blum et al. (RBC, UKQCD), Phys. Rev. D 93, 074505
+     (2016), arXiv:1411.7017 [hep-lat].
+[22] X. Feng, L. Jin, and M. J. Riberdy, Phys. Rev. Lett.
+     128, 052003 (2022), arXiv:2108.05311 [hep-lat].
+[23] T. Blum, P. A. Boyle, V. Gülpers, T. Izubuchi, L. Jin,
+                                                                                                                                              Supplementary Information – S1
+
+                      SUPPLEMENTARY MATERIAL                                                         where the experimental value Fπ = 92.320(97) MeV is
+                                                                                                     used as input. This is √
+                                                                                                                            consistent with the FLAG consen-
+         Lattice-QCD determinations of Γ(π 0 → γγ) in the                                            sus value FπIS = 130.5/ 2 = 92.277 MeV [24], differing by
+                    isospin-symmetric limit                                                          only 5 × 10−4 .
+
+   Fig. S 1 first collects previous lattice QCD determi-
+nations (black dotted points) together with the ChPT
+                                                                                                                               Contraction topologies
+predictions and the PrimEx I+II measurement. Since
+the lattice calculations were performed in the IS limit,
+their direct comparison with the physical result is in-                                                 The four topologies are shown in Fig. S 2. For the
+complete, as they do not include IB effects. Nevertheless,                                           isovector correlator ⟨T [Jρem Jσem P 3 ]⟩, which enters the IS
+the figure illustrates both the precision attainable in di-                                          contribution, topologies (I) and (III) are included in our
+rect lattice calculations of the full decay amplitude and                                            calculation. Topologies (II) and (IV) do not contribute
+the spread of the resulting central values. It highlights                                            in the isospin limit, since the pseudoscalar density P 3
+the challenge of obtaining a lattice determination that                                              forms an isolated quark loop in both cases. The corre-
+can resolve the few-percent mass correction and directly                                             sponding u- and d-quark contributions are identical in the
+discriminate between the ChPT prediction and experi-                                                 isospin limit and cancel in the u − d combination defining
+ment. This motivates our new strategy of computing the                                               P 3 . For the isoscalar correlator ⟨T [Jρem Jσem P 0 ]⟩, which
+finite-mass correction itself, using the anomalous PCAC                                              enters the IB contribution, topologies (I), (II) and (III)
+relation to reduce the required four-point functions to                                              are included in our calculation. Topology (IV) is omitted
+three-point functions and thereby achieve substantially                                              because it is doubly suppressed by the SU(3)-flavor struc-
+improved precision.                                                                                  ture and, in addition, involves three disconnected quark
+                                                                                                     loops, making it particularly noisy. Topology (III) in the
+             9.5                                                                                     IB contribution is suppressed relative to its IS counter-
+                                                                                                     part by the charge factor (Qu + Qd )/(Qu − Qd ) = 1/3 and
+                                                              PrimEx 2020         Chiral anomaly
+
+             9.0
+                                                                                                     by the additional factor δm/ml . It is therefore an order
+
+ Γ(π 0 → γγ) [eV]
+             8.5                                                                                     of magnitude smaller and numerically negligible at our
+                                  KM NNLO                     GBH, NLO
+                    IO, QCD sum                    AM, NLO
+             8.0                                                                                     current precision
+             7.5
+
+             7.0
+
+             6.5
+
+             6.0
+                      JLQCD    Mainz   Mainz/CLS   BMW    ETMC RBC/UKQCD continuum 32Dfine   24D
+                       2012    2016      2019      2023    2023   2024
+                                                                                                       (I): Connected         (II): P-disconnected   (III): V-disconnected   (IV): Fully disconnected
+
+
+Figure S 1. Lattice QCD determinations of Γ(π 0 → γγ) in
+the IS limit, together with ChPT predictions (IO QCD sum                                             Figure S 2.   The four Wick topologies of the PVV three-
+rule [29]; KM NNLO [6]; AM NLO [5]; GBH NLO [4]) and                                                 point function: (I) Connected, (II) P-disconnected, (III) V-
+the PrimEx I+II experimental measurement [7, 8]. The lat-                                            disconnected, and (IV) Fully disconnected.
+tice results include JLQCD (2012) [10], Mainz (2016) [11],
+Mainz/CLS (2019) [12], BMW (2023) [14], ETMC (2023) [15],
+RBC/UKQCD (2024) [17] and this work. For Mainz (2016)
+and Mainz/CLS (2019), Γ(π 0 → γγ) is obtained from the re-
+ported π 0 → γγ transition form factors; the other lattice re-
+sults are taken directly from the respective references. The                                                      Derivations of Eqs. (6), (15) and (16)
+red horizontal line denotes the chiral-anomaly prediction of
+Eq. (1), and the pink band shows the combined PrimEx I+II                                              To turn the local identity (3) into a relation among the
+measurement.
+                                                                                                     amplitudes entering π 0 → γγ, we first define the AVV and
+                                                                                                     PVV three-point functions. The axial and pseudoscalar
+       For comparison, our IS result in the continuum limit
+                                                                                                     amplitudes are the direct Euclidean Fourier transform
+is
+                              Γ(π 0 → γγ)IS = 7.82(13) eV                                    (S 1)             Aµ5ρσ (p, q) = −i ∫ d4 x d4 z e−ip⋅x eiq⋅z
+                                                                                                                   (3)
+
+
+with 7.78(4) and 7.80(6) eV on the 24D and 32Dfine en-                                                                                     ⟨T [Jρem (x)Jσem (0)A3µ (z)]⟩ ,
+sembles, respectively. The corresponding transition form
+                                                                                                                 A5ρσ (p, q) = ∫ d4 x d4 z e−ip⋅x eiq⋅z
+                                                                                                                        (a)
+factor is
+                              FπIS0 γγ = 0.2757(24) GeV−1 .                                  (S 2)                                         ⟨T [Jρem (x)Jσem (0)P̂ a (z)]⟩ .                   (S 3)
+                                                                                                                  Supplementary Information – S2
+
+Parity and electromagnetic gauge invariance                                 Using the antisymmetry of Ĥ (a) (tz ; x) under tz → −tz ,
+                                                                          one finds
+                           pρ Aµ5ρσ (p, q) = 0
+                                 (3)
+
+                                                                                 F̂ (a) (−q 2 )
+                    (pσ − qσ )Aµ5ρσ (p, q) = 0
+                                 (3)
+
+                                                                                                             sinh(Etz ) j1 ( 2 ∣x∣) (a)
+                                                                                                                             E
+
+                             pρ A5ρσ (p, q)
+                                 (a)
+                                               = 0                           = − ∫ d4 x ∫ dtz                                      Ĥ (tz ; x)
+                                                                                                                 E         E∣x∣
+                     (pσ − qσ )A5ρσ (p, q)     = 0                                                                sinh(Etz ) j1 ( 2 ∣x∣) (a)
+                                                                                                                                  E
+                                (a)
+                                                                  (S 4)                                 0
+                                                                             = −2 ∫ d4 x ∫                  dtz                         Ĥ (tz ; x).
+                                                                                                   −∞                 E         E∣x∣
+strongly constrain the tensor structures of these ampli-
+tudes. With these amplitude definitions, the scalar in-                                                                                       (S 10)
+variant functions are defined by
+                                                                          For F̂ (0) (−q 2 ), taking the limit of E → 0 yields Eq. (16).
+       Aµ5ρσ (p, q) = qµ ϵρσλα pλ qα W1 (−q 2 )
+         (3)                                                                 For the computation of F̂ (3) (−q 2 ), the hadronic func-
+                                                                          tion Ĥ (3) (tz ; x) is split into two terms
+               +[(ϵµρλα pσ − ϵµσλα (qρ − pρ ))qλ pα
+                                                                                             ̃ (3) (tz , −ts ; x) + emπ (ts +tz ) Ĥ (3) (−ts ; x),
+                                                                           Ĥ (3) (tz ; x) = H
+                    −ϵµρσλ (2pλ − qλ )(q − p) ⋅ p]W2 (−q 2 ),
+                                                                                                                                             (S 11)
+       q µ Aµ5ρσ (p, q) = ϵρσλα pλ qα W(−q 2 ),
+            (3)
+                                                                          and F̂ (3) (−q 2 ) can be written as
+       A5ρσ (p, q) = ϵρσλα pλ qα F̂ (a) (−q 2 ).
+         (a)
+                                                                  (S 5)
+                                                                                F̂ (3) (−q 2 )
+                                                                                                              sinh(Etz ) j1 ( 2 ∣x∣) ̃ (3)
+                                                                                                                              E
+For the two-real-photon kinematics, only one invariant                                             0
+variable remains, namely q 2 , since the two photon virtu-                 = −2 ∫ d4 x ∫                dtz                          H (tz , −ts ; x)
+                                                                                                  −∞              E         E∣x∣
+alities are fixed to zero. In this kinematics we have
+                                                                                                  emπ ts j1 ( 2 ∣x∣) (3)
+                                                                                                              E
+                                                                                −2 ∫ d4 x                           Ĥ (−ts ; x)              (S 12)
+               W(−q ) = q W1 (−q ) + q W2 (−q ).
+                      2      2           2    2         2
+                                                                  (S 6)                          E 2 − m2π E∣x∣
+                                                                                                                             0
+For non-zero pion mass, there is no singularity in                        where the Euclidean integral ∫−∞ dtz sinh(Et   E
+                                                                                                                             z ) mπ tz
+                                                                                                                                e      in
+W1 (−q 2 ) and W2 (−q 2 ). This relation proves                           the second line is formally divergent. This divergence
+                                                                          arises from the Euclidean correlator at large ∣tz ∣ and is
+                           W(0) = 0.                              (S 7)                                               1
+                                                                          removed properly, yielding the factor E 2 −m   2 . For fixed tx
+                                                                                                                         π
+This leads to the core relation Eq. (8) of this work. The                 and sufficiently large ts > 0, ground-state dominance in
+anomaly amplitude arising from the PCAC substitution                      Ĥ (3) (tz ; x) for tz < −ts is assumed. Under this condition,
+takes the form                                                            H̃ (3) (tz , −ts ; x) = 0 and
+
+                  Aanom
+                   ρσ   (p, q) = −ϵρσλα pλ qα K0 .                              F̂ (3) (−q 2 )
+                                                                                                              sinh(Etz ) j1 ( 2 ∣x∣) ̃ (3)
+                                                                                                   0                          E
+    Defining k = p − 2q = (0, p), the scalar amplitude                     = −2 ∫ d4 x ∫                dtz                          H (tz , −ts ; x)
+                                                                                                                  E         E∣x∣
+F̂ (a) (−q 2 ) can be computed by projecting the PVV am-                                          −ts
+
+                                                                                                  emπ ts j1 ( 2 ∣x∣) (3)
+                                                                                                              E
+plitudes onto the ϵρσλα kλ qα tensor structure
+                                                                                −2 ∫ d4 x                           Ĥ (−ts ; x).             (S 13)
+                                                                                                 E 2 − m2π E∣x∣
+                     ϵρσλα kλ qα
+ F̂ (a) (−q 2 ) =
+                  2(k 2 q 2 − (k ⋅ q)2 )                                  At E = mπ and E = 0, we have
+                      4
+                   ∫ d xe
+                          −ik⋅x
+                                ∫ dtz e
+                                        −Etz
+                                             Ĥρσ
+                                               (a)
+                                                   (tz ; x)                                             m2π − E 2 (3)
+                                                                             K̂(3) (m2π ) =         lim          F̂ (−q 2 )
+                      ϵρσλ0           ∂      E                                                     E→mπ    m2π
+               = 2i         ∫ d x (i
+                               4
+                                         j0 ( ∣x∣))
+                       E 3           ∂xλ     2                                                     2emπ ts         j1 ( m2π ∣x∣) (3)
+                                                                                             =             ∫ d 4
+                                                                                                                 x              Ĥ (−ts ; x)
+                           ∫ dtz e
+                                   −Etz
+                                        Ĥρσ
+                                          (a)
+                                              (tz ; x)                                               m2π              mπ ∣x∣
+                                                                                                                                        (S 14)
+                                       e−Etz j1 ( 2 ∣x∣) (a)
+                                                  E
+               = ∫ d4 x ∫ dtz                           Ĥ (tz ; x)       and
+                                         E      E∣x∣
+                                                              (S 8)                                                   0
+                                                                                                                   tz ̃ (3)
+                                                                                 K̂(3) (0) = − ∫ d4 x ∫               H (tz , −ts ; x)
+                                                                                                                           dtz
+                                                                                                                    3−ts
+where the hadronic tensor Ĥρσ (tz ; x) is defined as
+                                       (a)
+                                                                                                     2emπ ts    4 1 (3)
+                                                                                                   +    2    ∫ d x Ĥ (−ts ; x). (S 15)
+                                                                                                       mπ         6
+ Ĥρσ
+   (a)
+       (tz ; x) = ∫ d3 z ⟨T [Jρem ( x2 )Jσem (− x2 )P̂ (a) (z, tz )]⟩.
+                                                                  (S 9)   Combining the above two expressions yields Eq. (15).
+                                                                                                                 Supplementary Information – S3
+
+             Subleading IB contributions                                                      24D                                          32Dfine
+                                                                                                                         104
+
+
+  To estimate the subleading IB contributions, we intro-               103
+duce the IB scalar operator
+                                                                                                                         103
+                         1
+                      S = (ūu − ¯
+                        3
+                                 dd)                        (S 16)
+                         2                                             102
+
+The π-state contribution to the O(ml δm) IB term is                                                                      102
+
+                  2                     ⎛ j1 ( m2π ∣x∣)   1⎞
+∆K IB,(1) ≈ δm            4
+                       ∫ d x∫ d y
+                                  4
+                                                        −              101
+                 mπ 2                ⎝ mπ ∣x∣             6⎠
+                                                                                   Cll                                               Cll
+                   ϵµνα0 xα                                                                                              101
+                 ×          ⟨0∣T [Jµem ( x2 )Jνem (− x2 )S 3 (y)∣π⟩                Cls
+                                                                                   Css
+                                                                                                                                     Cls
+                                                                                                                                     Css
+                      2mπ                                              100
+                 ×⟨π∣P̂ (3) (0)∣0⟩.                         (S 17)           0.0   0.5         1.0
+                                                                                              t [fm]
+                                                                                                       1.5         2.0         0.0   0.5     1.0
+                                                                                                                                           t [fm]
+                                                                                                                                                     1.5     2.0
+
+
+Evaluating the matrix element
+                                                                      Figure S 3. The two-point correlation functions Cll (t), Cls (t),
+             ⟨0∣T [Jµem ( x2 )Jνem (− x2 )S 3 (y)∣π⟩        (S 18)    and Css (t) constructed from the Coulomb-gauge-fixed wall-
+                                                                      source operators Ol and Os , together with the results of the
+requires the construction of a four-point correlation func-
+                                                                      combined two-state fit, yielding the masses mη and mη′ and
+tion.                                                                                                      (′)
+
+   The π-state contribution to the O(δm2 ) IB term is
+                                                                                           η
+                                                                      the matrix elements Zl,s = ⟨0∣Ol,s ∣η (′) ⟩.
+
+                    2       4 ⎛ 1
+                                 j ( m2π ∣x∣) 1 ⎞
+∆K IB,(2) ≈ δm2        ∫  d   x                  −                       We first determine the η and η ′ masses using Coulomb-
+                  m2π           ⎝ mπ ∣x∣           6⎠
+                                                                      gauge-fixed wall-source operators. We tested pseu-
+                   ϵµνα0 xα
+                 ×           ⟨0∣T [Jµem ( x2 )Jνem (− x2 )]∣π⟩        doscalar and axial-current operators for both the light-
+                      2mπ                                             and strange-quark sectors and found that the light-
+                       ∞
+                 ×∫         dty ∫ d3 y ⟨π∣T [S 3 (y)P (0) (0)]∣0⟩.    quark axial-current and strange-quark pseudoscalar op-
+                      −∞                                              erators provide the best signals. We therefore define
+                                                            (S 19)    Ol = √12 (ūγ4 γ5 u + ¯
+                                                                                            dγ4 γ5 d) and Os = s̄γ5 s. A combined
+Here, P (0) does not have a quark-mass insertion. The                 fit to the corresponding two-point correlation functions,
+associated quark-mass dependence has already been ac-                 shown in Fig. S 3, determines the η and η ′ masses. Us-
+                                                                                                             η (′)
+counted for explicitly through the overall factor δm2 .               ing the resulting matrix elements Zl,s       = ⟨0∣Ol,s ∣η (′) ⟩, we
+  The integrated two-point function appearing in the ex-              construct optimized interpolating operators
+pression for ∆K IB,(2) above is governed by the isoscalar–                                ′            ′
+pion overlap ϵπ ≡ ⟨0∣P 0 ∣π⟩IB /⟨0∣P 3 ∣π⟩IS , for which                 Oηopt = Zsη Ol − Zlη Os ,                  Oηopt
+                                                                                                                       ′  = Zsη Ol − Zlη Os .              (S 22)
+                                           ⟨π∣P 3 (0)∣0⟩              The fit window used to determine the η and η ′ masses
+  ∫ d y ⟨π∣T [S (y)P (0)]∣0⟩ = −ϵπ
+     4         3    0
+                                                         . (S 20)
+                                               δm                     and matrix elements is indicated in Fig. S 3, with the
+Comparing with the pion-pole (first) term of Eq. (15),                extracted masses given in Table S I.
+∆K1IS , then gives
+                                                                                                 mη [GeV] mη′ [GeV] χ2 /dof
+                                 δm                                                      24D     0.585(26) 1.11(15) 0.387
+               ∆K IB,(2) = −         ϵπ ∆K1IS .             (S 21)                       32Dfine 0.578(51) 0.87(12) 0.724
+                                 2ml
+                                                                                         PDG     0.54786(2) 0.95778(6) –
+Using the direct 24D estimate ϵπ = 0.0067(25), together
+with ∆K1IS /K0 = −1.580(58)%, this gives ∆K IB,(2) /K0 =              Table S I. Masses of the η and η ′ mesons extracted from a
+−0.0039(15)%. In SU (2) chiral perturbation theory the                two-state fit to the two-point correlation functions.
+overlap ratio is also related to the low-energy constant
+ℓ7 [30, 31].                                                             As a next step, we use the optimized operators to de-
+                                                                      termine the η → γγ and η ′ → γγ transition form factors.
+                                                                      Fig. S 4 shows the time dependence of the corresponding
+          Intermediate-state reconstruction                           transition form factors, with t = min{tJ1 , tJ2 }−topt , where
+                                                                      tJ1 and tJ2 denote the insertion times of the two electro-
+  The long-distance part of the leading isospin-breaking              magnetic currents. We enlarge t to suppress excited-state
+(IB) contribution ∆K IB,(0) is reconstructed from the η               contamination. The η ′ → γγ transition form factor has
+and η ′ intermediate states.                                          a larger statistical uncertainty, but its contribution to
+                                                                                                                                                                                     Supplementary Information – S4
+
+                                                        24D                                         32Dfine                         Table S III.
+                                           PDG Fηγγ                                         PDG Fηγγ
+                                                                                                                                                                                     ml Gη′ χ2 /dof (η/η ′ )
+                        1.50
+                                           PDG Fη0 γγ                                       PDG Fη0 γγ                                                                     ml Gη
+                        1.25               Fηγγ                                             Fηγγ
+                                           Fη0 γγ                                           Fη0 γγ                                                               24D     −0.670(50) −0.59(19) 0.97/0.73
+                        1.00                                                                                                                                     32Dfine −0.58(10) −0.35(24) 0.80/0.39
+ [GeV−1 ]
+                        0.75
+
+                        0.50                                                                                                        Table S III. Matrix elements Gη(′) = ⟨η (′) ∣P 0 ∣0⟩ extracted from
+                        0.25                                                                                                        the two-point correlation functions. The matrix elements are
+                        0.00                                                                                                        given in units of 10−3 GeV3 .
+                               0.0                 0.5                1.0       0.0                 0.5                 1.0
+                                                       t [fm]                                            t [fm]
+
+
+
+Figure S 4. Transition form factors for η → γγ and η ′ → γγ
+                                                                                                                                                                          Finite-volume effects
+as a function of t, with t = min{tJ1 , tJ2 } − topt denoting the
+temporal separation between the pseudoscalar operator and                                                                              An earlier RBC-UKQCD study [13] investigated the
+the two electromagnetic-current insertions.                                                                                         FV dependence of π 0 → e+ e− and π 0 → γγ by compar-
+                                                                                                                                    ing the 24D and 32D ensembles, which have otherwise
+                                                                                                                                    identical parameters but spatial extents corresponding
+∆K/K0 is only ∼ 6% and ∼ 8% on the 24D and 32Dfine                                                                                  to L = 4.2 and 5.6 fm, respectively. A FV effect of about
+ensembles, respectively, making its impact on the final                                                                             3% was found for π 0 → γγ amplitude. The dominant
+result marginal. The resulting transition form factors                                                                              contribution to our result comes from ∆K IB , whose long-
+are obtained from constant fits and are summarized in                                                                               distance part is dominated by η and η ′ exchange and is
+Table S II.                                                                                                                         therefore expected to be less sensitive to FV effects. Even
+                                                                                                                                    conservatively assuming a 3% FV effect, its impact is well
+                                              Fηγγ [GeV−1 ] Fη′ γγ [GeV−1 ] χ2 /dof (η/η ′ )
+                          24D                   0.367(61)    0.623(112)       0.67/0.40                                             below the current 10-15% uncertainties on the individual
+                          32Dfine               0.339(71)    0.488(163)       0.59/0.35                                             ensembles and the ∼ 50% uncertainty after the contin-
+                          PDG                  0.2746(18)    0.3413(76)           –                                                 uum extrapolation. For ∆K IS , the long-distance contri-
+                                                                                                                                    bution is instead dominated by pion exchange. Moreover,
+Table S II. Transition form factors of η → γγ and η ′ → γγ                                                                          while the IB contribution depends only on K̂(0) (0), the IS
+extracted from the three-point correlation functions.                                                                               contribution involves the difference K̂(3) (m2π ) − K̂(3) (0),
+                                                                                                                                    potentially enhancing the relative FV effect through the
+                                                                                                                                    subtraction. We therefore explicitly evaluated ∆K1IS on
+                                                       24D                                           32Dfine                        the 32D ensemble and found a FV effect at the 10% level
+                         0.5                                                   0.5
+                                                                                                                                    (See Fig. S 6), corresponding to only about a 6% rela-
+                         0.0                                                   0.0                                                  tive effect on ∆K/K0 . This remains subleading at our
+
+
+
+ ml Geff [10−3 GeV3 ]
+                        −0.5                                                 −0.5                                                   current level of precision.
+                        −1.0                                                 −1.0
+                                                                                                                                                           0.0
+                        −1.5                                                 −1.5                                                                                                                                   24D
+
+
+
+
+                                                                                                                                     ∆K1IS,conn /K0 [%]
+                                                                                                                                                                                                                    32D
+                        −2.0                η                                −2.0             η                                                           −0.5
+                                            η0                                                η0
+                        −2.5                                                  −2.5
+                                     0.0         0.5            1.0         1.5       0.0          0.5            1.0         1.5                         −1.0
+                                                       t [fm]                                            t [fm]
+
+                                                                                                                                                          −1.5
+Figure S 5. Matrix elements Gη(′) = ⟨η (′) ∣P 0 ∣0⟩ from two-point
+correlation functions constructed from P 0 and the optimized                                                                                              −2.0
+operators Oηopt
+              (′) .
+                                                                                                                                                                  0.0   0.5    1.0      1.5       2.0   2.5   3.0         3.5
+                                                                                                                                                                                          tJ [fm]
+
+
+   Finally, we determine the matrix elements Gη(′) =                                                                                Figure S 6. Lattice results of ∆K1IS,conn /K0 for 24D and 32D.
+⟨η ∣P 0 ∣0⟩ from two-point correlation functions con-
+              (′)
+
+structed from P 0 and the optimized operators Oηopt (′) . The
+
+corresponding time dependence is shown in Fig. S 5. We
+multiply the matrix elements by the light-quark mass to                                                                                                     Distinction between pion decay constants
+eliminate the dependence on the renormalization factor
+of the pseudoscalar density. The final results are obtained                                                                           A further source of uncertainty is the decay constant
+from fits over the plateau region and are summarized in                                                                             entering Eq. (9). The decay width depends on Fπ0 ,
+                                                                                          Supplementary Information – S5
+
+whereas the experimentally determined Fπ± is conven-              and
+tionally used. The decay constant Fπ used in this work
+is Fπ0 , with leading order effects from QED interaction
+and up/down-quark mass difference, is defined as
+
+                ⟨0∣A3µ (0)∣π 0 (p)⟩ = Fπ pµ ,            (S 23)                       ml =(mu +md )/2,
+                                                                                                                      (S 27)
+                                                                                      δm =mu − md .
+which implies
+
+          ⟨0∣P̂ 3 (0) + P̂ 0 (0)∣π 0 (p)⟩ = −iFπ m2π ,   (S 24)
+
+where the operators A3µ , P̂ 3 , P̂ 0 are defined near Eq. (3).   The leading QCD IB correction is suppressed to
+We repeat them here                                               O(δm2 /Λ2QCD ) by the mu ↔ md symmetry of both decay
+                                                                  constants, yielding Fπ0 /Fπ± − 1 = 2.1 × 10−4 in two-loop
+                       1
+                 A3µ = (ūγµ γ5 u − ¯
+                                    dγµ γ5 d),                    ChPT [32]. Electromagnetic effects arise at O(e2 p2 );
+                       2                                          resonance-saturation estimates give ∣δEM Fπ ∣ ∼ 0.1 MeV,
+                 P̂ 3 =2ml P 3 ,                         (S 25)
+                                                                  corresponding to a relative effect of order 10−3 [33, 34].
+                 P̂ 0 =δmP 0 ,                                    These estimates are therefore too small to account for the
+                                                                  tension with experiment, but they rest on ChPT conver-
+where                                                             gence and model input; a direct lattice determination
+                                                                  of Fπ0 , including its electromagnetic corrections, would
+                         1          ¯ 5 d),
+                    P 3 = (ūγ5 u − dγ                            be needed to remove this model dependence at the sub-
+                         2                               (S 26)   percent level.
+                         1
+                    P 0 = (ūγ5 u + ¯
+                                    dγ5 d),
+                         2
+

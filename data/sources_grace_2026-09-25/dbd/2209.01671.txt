@@ -1,0 +1,1462 @@
+                                          Prepared for submission to JCAP
+
+
+
+
+                                          Search for exotic physics in
+                                          double-β decays with Gerda
+                                          Phase II
+                                          The Gerda collaboration, 1
+
+
+
+
+arXiv:2209.01671v1 [nucl-ex] 4 Sep 2022
+                                          M. Agostini,j A. Alexander,j G. Araujo,v A.M. Bakalyarov,p
+                                          M. Balata,a I. Barabanov,n L. Baudis,v C. Bauer,i
+                                          S. Belogurov,o,n,2 A. Bettini,s,t L. Bezrukov,n V. Biancacci,s,t
+                                          E. Bossio,r V. Bothe,i R. Brugnera,s,t A. Caldwell,q S. Calgaro,s,t
+                                          C. Cattadori,l A. Chernogorov,o,p T. Comellato,r V. D’Andrea,c
+                                          E.V. Demidova,o A. Di Giacinto,a N. Di Marco,b
+                                          E. Doroshkevich,n F. Fischer,q M. Fomina,g A. Gangapshev,n,i
+                                          A. Garfagnini,s,t C. Gooch,q P. Grabmayr,u V. Gurentsov,n
+                                          K. Gusev,g,p,r J. Hakenmüller,i S. Hemmer,t W. Hofmann,i
+                                          J. Huang,v M. Hult,h L.V. Inzhechik, n,3 J. Janicskó Csáthy,r,4
+                                          J. Jochum,u M. Junker,a V. Kazalov,n Y. Kermaïdic,i
+                                          H. Khushbakht,u T. Kihm,i K. Kilgus,u I.V. Kirpichnikov,o
+                                          A. Klimenko,i,g,5 K.T. Knöpfle,i O. Kochetov,g
+                                          V.N. Kornoukhov,o,n P. Krause,r V.V. Kuzminov,n
+                                          M. Laubenstein,a M. Lindner,i I. Lippi,t A. Lubashevskiy,g
+                                          B. Lubsandorzhiev,n G. Lutter,h C. Macolino,c B. Majorovits,q
+                                          W. Maneschg,i L. Manzanillas,q G. Marshall,j M. Miloradovic,v
+                                          R. Mingazheva,v M. Misiaszek,e M. Morella,b Y. Müller,v
+                                          I. Nemchenok,g,5 L. Pandola,d K. Pelczar,h L. Pertoldi,r,t
+                                          P. Piseri,m A. Pullia,m C. Ransom,v L. Rauscher,u
+                                          M. Redchuk,s,t S. Riboldi,m N. Rumyantseva,p,g C. Sada,s,t
+                                          S. Sailer,i F. Salamida,c S. Schönert,r J. Schreiner,i M. Schütt,i
+                                          A-K. Schütz,u,6 O. Schulz,q M. Schwarz,r B. Schwingenheuer,i
+                                          O. Selivanenko,n E. Shevchik,g M. Shirchenko,g L. Shtembari,q
+                                            1
+                                              email: gerda-eb@mpi-hd.mpg.de
+                                            2
+                                              also at: NRNU MEPhI, Moscow, Russia
+                                            3
+                                              also at: Moscow Inst. of Physics and Technology, Russia
+                                            4
+                                              present address: Leibniz-Institut für Kristallzüchtung, Berlin, Germany
+                                            5
+                                              also at: Dubna State University, Dubna, Russia
+                                            6
+                                              present address: Nuclear Science Division, Berkeley, USA
+H. Simgen,i A. Smolnikov,i,g D. Stukov,p A.A. Vasenko,o
+A. Veresnikova,n C. Vignoli,a K. von Sturm,s,t T. Wester,f
+C. Wiesinger,r M. Wojcik,e E. Yanovich,n B. Zatschler,f
+I. Zhitnikov,g S.V. Zhukov,p D. Zinatulina,g A. Zschocke,u
+A.J. Zsigmond,q K. Zuber,f and G. Zuzel.e
+a INFN Laboratori Nazionali del Gran Sasso, Assergi, Italy
+b INFN Laboratori Nazionali del Gran Sasso and Gran Sasso Science Institute, Assergi, Italy
+c INFN Laboratori Nazionali del Gran Sasso and Università degli Studi dell’Aquila, L’Aquila,
+
+ Italy
+d INFN Laboratori Nazionali del Sud, Catania, Italy
+e Institute of Physics, Jagiellonian University, Cracow, Poland
+f Institut für Kern- und Teilchenphysik, Technische Universität Dresden, Dresden, Germany
+g Joint Institute for Nuclear Research, Dubna, Russia
+h European Commission, JRC-Geel, Geel, Belgium
+i Max-Planck-Institut für Kernphysik, Heidelberg, Germany
+j Department of Physics and Astronomy, University College London, London, UK
+k Dipartimento di Fisica, Università Milano Bicocca, Milan, Italy
+ l INFN Milano Bicocca, Milan, Italy
+m Dipartimento di Fisica, Università degli Studi di Milano and INFN Milano, Milan, Italy
+n Institute for Nuclear Research of the Russian Academy of Sciences, Moscow, Russia
+o Institute for Theoretical and Experimental Physics, NRC “Kurchatov Institute”, Moscow,
+
+ Russia
+p National Research Centre “Kurchatov Institute”, Moscow, Russia
+q Max-Planck-Institut für Physik, Munich, Germany
+r Physik Department, Technische Universität München, Germany
+s Dipartimento di Fisica e Astronomia, Università degli Studi di Padova, Padua, Italy
+t INFN Padova, Padua, Italy
+u Physikalisches Institut, Eberhard Karls Universität Tübingen, Tübingen, Germany
+v Physik-Institut, Universität Zürich, Zurich, Switzerland
+
+
+
+Abstract. A search for Beyond the Standard Model double-β decay modes of 76Ge has
+been performed with data collected during the Phase II of the GERmanium Detector Array
+(Gerda) experiment, located at Laboratori Nazionali del Gran Sasso of INFN (Italy). Im-
+proved limits on the decays involving Majorons have been obtained, compared to previous
+experiments with 76Ge, with half-life values on the order of 1023 yr. For the first time with
+76
+   Ge, limits on Lorentz invariance violation effects in double-β decay have been obtained.
+                            (3)
+The isotropic coefficient åof , which embeds Lorentz violation in double-β decay, has been
+constrained at the order of 10−6 GeV. We also set the first experimental limits on the search
+for light exotic fermions in double-β decay, including sterile neutrinos.
+Contents
+
+1 Introduction                                                                              1
+
+2 The Gerda experiment                                                                      2
+
+3 Data selection and modeling                                                               3
+
+4 Statistical analysis and systematic uncertainties                                         5
+
+5 Results                                                                                   7
+  5.1 Search for Majoron-involving decays                                                   7
+  5.2 Search for Lorentz and CPT violation                                                  9
+  5.3 Search for light exotic fermions                                                     11
+
+6 Conclusions                                                                              15
+
+A 2νββ decay to the 0+
+                     1 excited state                                                       17
+
+B Impact of systematic uncertainties                                                       18
+
+C Comparison of Majoron results from this and other works                                  18
+
+
+1   Introduction
+
+The Standard Model (SM) of particle physics allows for double-β decay, a nuclear transition in
+which the atomic number increases by two units with the number of nucleons staying constant,
+as long as two anti-neutrinos and two electrons are also emitted, (A, Z) → (A, Z+2)+2e− +2ν̄.
+This is called two-neutrino double-β (2νββ) decay and is one of the rarest radioactive pro-
+cesses ever observed [1]. Double-β decays are powerful probes of physics Beyond the Standard
+Model (BSM). The most popular BSM double-β decay mode in which no anti-neutrinos are
+emitted, the so-called neutrinoless double-β (0νββ) decay, violates lepton number and, if ob-
+served, would imply that neutrinos have a Majorana mass component [2]. The existence of
+new particles in BSM theories can lead to double-β decay modes with different final states,
+in which the exotic particles are emitted along with the two electrons. More exotic double-β
+decay modes can also be considered, in which the final state is the same as in 2νββ decay,
+but the decay kinematics is affected by the BSM physics effect.
+      The experimental quantity that allows distinguishing exotic decays from the SM 2νββ
+decay is the shape of the predicted distribution of the summed energy of the two emitted
+electrons. The shape for 0νββ decay, in which the two electrons carry all the available decay
+energy, the Q-value (Qββ ) of the decay, is simply a peak at this energy value, broadened by
+the experimental energy resolution. Decays that involve other particles in the final state,
+which escape detection by the experiment, like the anti-neutrinos in the SM 2νββ decay or
+other exotic particles, are characterized by a continuous distribution between 0 and Qββ . As
+a first approximation, the shape of this distribution can be characterized by a spectral index
+n, that appears in the phase space of the decays G ∼ (Qββ − E)n , where E is the summed
+energy of the two electrons. For instance, the SM 2νββ decay shape is defined by spectral
+
+
+
+
+                                            –1–
+                                Standard Model 2 decay           Sterile neutrino emission, mN=600 keV
+                                Majoron emission (n=1,2,3,7)     Double fermions emission, m =300keV
+                                Lorentz violation
+                                2.5                n=7
+
+                                      GERDA 2022               n=3            n=1
+                                2.0                                  n=2
+
+
+
+
+             Intensity (a.u.)
+                                1.5
+
+                                1.0
+
+                                0.5
+
+                                0.0 0              500       1000      1500             2000
+                                                          Energy (keV)
+Figure 1. Energy distribution of different BSM double-β decay modes shown in comparison to the
+SM 2νββ decay distribution. The normalization of the distributions is arbitrary and adjusted for
+better visualization.
+
+
+index n = 5. Massive exotic particles can also be produced in double-β decay if kinematically
+allowed, i.e. if their mass is smaller than the Qββ . Also in this case, a continuous spectrum is
+expected, whose end-point is now shifted at (Qββ − mX ), where mX is the mass of the exotic
+particle X. In figure 1 the energy distribution predicted for different BSM double-β decay
+modes is shown compared to the SM 2νββ decay distribution.
+      In this paper, we report on the search for new physics with 76Ge double-β decays per-
+formed in Gerda Phase II, in the energy region dominated by 2νββ decay, between 560 keV
+and 2000 keV. Results on the search for 0νββ decay with the full Gerda data set have been
+published in [3]. Here we focus on BSM processes that manifest as a deformation of the
+continuous 2νββ decay spectrum, such as decays involving Majorons, light exotic fermions,
+and Lorentz violation.
+      The Gerda experiment is briefly described in section 2. In section 3, we discuss the
+data selection criteria and the methods used to model signal and background events in the
+analysis. The statistical analysis and the systematic uncertainties that contribute to this
+analysis are discussed in section 4. In section 5, we present our results on the search for
+exotic double-β decay modes. The search for neutrinoless double-β decay with Majorons
+emission is discussed in 5.1, the search for Lorentz and CPT violation in 5.2, and the search
+for light exotic fermions in 5.3. Finally, we summarize our conclusions in section 6.
+
+
+2   The Gerda experiment
+
+The Gerda experiment was located at the Laboratori Nazionali del Gran Sasso (LNGS) of
+INFN, in Italy, where a rock overburden of 3500 m water equivalent reduces the flux of cosmic
+
+
+
+
+                                                               –2–
+muons by six orders of magnitude [4]. High-purity germanium (HPGe) detectors, isotopically
+enriched in 76Ge, were operated inside a 64 m3 liquid argon (LAr) cryostat [5].
+      In the second phase of the experiment, 10 coaxial (including 3 detectors with natural
+isotopic abundance) and 30 Broad Energy Germanium (BEGe) detectors were used [6]. After
+an upgrade in May 2018, the three natural coaxial detectors were removed, and 5 additional
+inverted coaxial (IC) detectors were installed. Detectors were mounted on 7 strings, and each
+string was placed inside a nylon cylinder to limit the collection of radioactive potassium ions
+on the detector surfaces [7].
+      The LAr volume around the detectors was instrumented with a curtain of wavelength-
+shifting fibers connected to silicon photo-multipliers (SiPM) and 16 cryogenic photo-multiplier
+tubes (PMTs) to detect scintillation light in the LAr [6, 8]. During the upgrade, the geo-
+metrical coverage of the fibers was improved, more SiPM channels were added, and their
+radiopurity increased.
+      The cryostat was surrounded by a water tank containing 590 m3 of pure water, equipped
+with PMTs to detect the Cherenkov light of residual cosmic muons reaching the detector site.
+The instrumented water tank formed, together with scintillator panels on the top of the
+experiment, the muon veto system [9].
+      Data have been processed following the procedures and digital signal processing algo-
+rithms described in [10]. The energy of an event is reconstructed using a zero-cusp-area
+filter [11]. Weekly calibration runs with 228 Th sources are performed to determine the en-
+ergy scale and resolution. A resolution better than 3 keV(4 keV) full-width half maximum
+is achieved with BEGe and IC(coaxial) detectors over a wide energy range extending up to
+Qββ [12].
+
+3       Data selection and modeling
+
+The data used for this analysis were collected between December 2015 and April 2018, before
+the upgrade of the experimental setup in the summer of 2018. Of the 40 HPGe detectors de-
+ployed in the Gerda array during this period, only data collected with the 30 BEGe detectors
+have been used for this analysis. The corresponding data set exposure is 32.8 kg yr. This data
+set was selected among the full exposure to minimize the systematic uncertainties. In fact,
+the BEGe detectors are better understood and have been characterized more accurately than
+the coaxial detectors, and the LAr veto instrumentation underwent major changes during the
+upgrade that are not included in the modeling of the LAr veto system [13]. The information
+of the LAr veto system and its Monte Carlo simulation are crucial elements of the analysis,
+as will be explained in the following.
+      The event topology of all the considered double-β decays is the same, and it is a localized
+energy deposition within one germanium detector. The total decay energy is shared among
+the two electrons and either the two anti-neutrinos or one or more exotic particles produced
+in the process. The electrons release all their energy within a few millimeters from the decay
+vertex in germanium. Both anti-neutrinos and the exotic particles escape the detector car-
+rying away part of the decay energy. Thus, in all the considered decays, the reconstructed
+energy varies between zero and the Q-value of the decay, Qββ = 2039.061(7) keV [14].1 Sev-
+eral background sources are also expected to generate events in this energy region [15]. While
+an energy deposition of a double-β decay is fully contained in one germanium detector, γ
+    1
+    If a massive exotic particle is produced in the process, the maximum energy is shifted to a lower value by
+the mass of the particle for a single production or twice the mass for pair production.
+
+
+
+
+                                                    –3–
+                                    Data             2       decay         212Bi / 208Tl   40K    214Bi / 214Pb
+                                    Total model      228Ac                 60Co            42K      model
+                     104                                                                                    GERDA 2022
+
+
+
+
+Counts / (15 keV)
+                     102
+
+                     100
+
+                    10 2
+
+
+  Residuals
+                    +2
+                          0
+                     -2
+                              600    800          1000           1200       1400           1600     1800            2000
+                                                                  Energy (keV)
+   Figure 2. Background decomposition of the 32.8 kg yr of BEGe data from Gerda Phase II after the
+   application of the LAr veto cut, as derived in [13]. The shaded bands represent the uncertainty of the
+   LAr veto modeling. In the bottom panel, the difference between data and the total model normalized
+   over the expected statistical fluctuation in each bin is shown.
+
+
+   radiation, mostly interacting via Compton scattering, can undergo multiple separated energy
+   depositions in more than one germanium detector. To reduce the γ background, an anti-
+   coincidence cut between different germanium detectors is applied. In addition, γ rays can
+   release part of their energy in the LAr volume surrounding the detector array and trigger the
+   LAr veto system. An anti-coincidence cut between germanium detectors and the LAr veto
+   system is also applied (LAr veto cut). This reduces the γ background by a factor of ∼10 in
+   the energy region dominated by the 2νββ decay, as it was shown in [13], while double-β decay
+   events are accepted with an efficiency of about 98%, estimated from the accidental coinci-
+   dences of randomly triggered events. Events preceded by a trigger in the muon-veto system
+   within 10 µs are also discarded, with negligible induced dead time (<0.01%). In addition,
+   each event has to pass several quality cuts based on the flatness of the baseline, polarity, and
+   time structure of the pulse to reject non-physical events. The acceptance efficiency of physical
+   events by quality cuts is larger than 99.9%. The pulse shape discrimination (PSD), success-
+   fully used in the search for 0νββ decay [3], was not used in this analysis. In fact, despite
+   the possibility of discriminating between single-site signal events and multi-site background
+   events, the efficiency of the PSD cut below 1 MeV is poorly understood [16], and its energy
+   dependence could introduce distortion of the energy spectrum thus, additional systematic
+   uncertainties in the analysis.
+         The energy range chosen for the analysis extends from 560 keV to 2 MeV. At low energy,
+   the event rate of Gerda is dominated by the decay of 39 Ar, a cosmogenically produced argon
+   isotope. Above 2 MeV, the contribution due to 2νββ decay or any other exotic decay vanishes.
+         The background model used in this analysis is a simplified version of the background
+   model derived in [15]. In the latter, where data before the LAr veto cut are used, contributions
+   for a given background source at different locations are treated independently. In this analysis,
+   where the LAr veto cut is applied, only a subset of these components is used. The expected
+
+
+
+
+                                                                     –4–
+background model after LAr veto cut, as derived from the modeling of the LAr veto in [13],
+is shown in figure 2 for the 32.8 kg yr of BEGe data from Gerda Phase II. Above the Q-
+value of 39 Ar β decay at 565 keV, the dominant contribution to the energy spectrum is due
+to 76Ge 2νββ decay. Minor contributions are due to 228 Ac, 228 Th, 214 Bi, 60 Co and 40 K
+decays in structural materials. One component for each source is included in the background
+model, with the source of the decay located close to the detector array. 42 K decays in LAr are
+modeled with two independent components, one relative to decays in the LAr volume and one
+to decays very close to the detectors’ surfaces. Finally, a minor contribution to the background
+budget is expected from α decays on the p+ electrode of the detectors. These decays do not
+generate detectable scintillation light, and no significant differences are therefore expected
+from the model in [15]. The distribution of α decays in the energy range of this analysis is
+well approximated by a linear function.
+      The probability distributions of signal and background events are obtained from Monte
+Carlo simulations, performed using the MaGe simulation framework [17], as detailed in [15].
+Finite energy resolution, detector active volume model, and individual exposure of the detec-
+tors are considered. The simulation of the LAr scintillation light production and detection
+chain has also been implemented in the same framework [13]. This is used to determine the
+effect of the LAr veto cut on the probability distribution functions, not included in previous
+works [15].
+
+
+4   Statistical analysis and systematic uncertainties
+
+To search for exotic decays, a binned maximum-likelihood fit is performed in the energy
+window between 560 keV and 2000 keV, using a 10 keV binning. It was checked that the fit
+results are stable for different sizes of the binning. Assuming that the number of events in
+each bin is Poisson distributed, the likelihood function is given by the product of Poisson
+probabilities for all bins. The likelihood is then used to construct a frequentist test statistic
+based on the profile likelihood ratio [18].
+      The distribution of the test statistic is evaluated with Monte Carlo techniques for the
+background-only hypothesis, corresponding to the parameter of interest being equal to zero,
+and for a discrete set of non-zero values of the parameter of interest. The test statistic
+distributions are used to extract the p-value of the data and the experimental sensitivity [19].
+      The parameter of interest on which the statistical inference is made depends on the
+considered new physics process. In the search for 0νββ decay with the emission of Majorons
+or pairs of light exotic fermions, the parameter of interest is the strength of the exotic decay
+signal, proportional to the inverse of the decay half-life and expressed in number of events in
+the fit range. In the search for sterile neutrinos and Lorentz-violating effects, the parameter
+of interest is an internal parameter that defines the 2νββ decay distribution and is responsible
+for its distortion compared to the SM prediction. Additional parameters of the fits are the
+number of background and 2νββ decay events observed in the fit range. These are treated
+as nuisance parameters and left unconstrained, and their uncertainties are propagated by
+profiling [20].
+      Systematic uncertainties that affect the signal and background energy distribution and,
+in turn, the fit result are folded into the analysis during the computation of the test statistic
+distribution. This procedure implies a broadening of the test statistic distribution that is used
+for statistical inference. Consequently, systematic uncertainties are naturally incorporated in
+the result [20].
+
+
+
+
+                                             –5–
+      Uncertainties on the signal and background shape distributions are generally related to
+the modeling of the background and the detector response. Given a γ decay in the vicinity of
+a detector, this can deposit the full energy in the detector, resulting in a peak in the energy
+spectrum, or undergo Compton scattering, resulting in a continuous energy distribution up
+to the Compton edge. The ratio between the two classes of events is expected to change for
+γ decays very close to the detector or far from it, as well as for different models of the LAr
+veto response.
+      Different locations of the background sources have been identified in [15], but this picture
+is changed by the LAr veto cut since the suppression efficiency is expected to be different for
+the different background components. On the other hand, without the introduction of prior
+knowledge, the low background level does not allow to distinguish between different locations
+of a background source in the fit. As previously mentioned, the fit model contains only one
+component for each isotope, except for 42 K, for which two components are used to separate the
+contributions from the decays near and far from the surface of the detectors. The systematic
+uncertainty introduced by this choice is accounted for in the Monte Carlo generation of
+the pseudo-experiments used to compute the test statistic distribution. When the pseudo-
+experiments are generated, the location of each background contribution is uniformly sampled
+among the full set of locations identified in [15].
+      The modeling of the LAr veto response is affected by uncertainties in the optical pa-
+rameters used in the Monte Carlo simulations, such as the LAr attenuation length and the
+reflectivity of different materials in the detector array, among others. A complete treatment
+of this topic can be found in [13], where the methodology used to model systematic uncertain-
+ties of the LAr veto response is discussed. This model is used in the Monte Carlo generation
+of the pseudo-experiments to account for the systematic uncertainty affecting the LAr veto
+response.
+      Modeling of germanium detector response can lead to additional systematic uncertainty.
+In the fully-active volume of the detector, where the charge collection efficiency is maximal,
+the deposited energy is always well reconstructed. The charge collection efficiency degrades
+in a ∼1 mm deep transition region at the n+ contact lithiated surface [21]. Energy deposition
+in this region is only partially reconstructed, depending on the efficiency profile and the size
+of the transition region. In turn, both these parameters affect the energy distribution of
+different fit components, in particular the lower tail of intense γ peaks and the low energy
+region of the 2νββ decay. The charge collection efficiency is assumed to decrease linearly
+in the transition region, whose average size for the BEGe detector is about 50% of the full
+dead layer region [21]. In the probability distributions, the transition layer size is assigned
+individually to each detector. In the Monte Carlo generation of the pseudo-experiments,
+the transition layer size of each detector is varied in a conservative range of ±5 standard
+deviations from the central value.
+      In all the previous discussions, we referred to the SM 2νββ decay as the transition to the
+ground state of the daughter nucleus. In addition to the ground state, the 2νββ decay of 76Ge
+can also proceed to the excited states of 76 Se. To date, none of these excited state transitions
+have been observed with 76Ge. Limits on the decay rate to the first three excited states have
+been set in Gerda Phase I [22], and more recently by the Majorana Demonstrator [23].
+Among these excited states transitions, the decay to the 0+     1 state is expected to dominate,
+                                                               24
+with the most recent half-life prediction of (2.6 ± 0.13) · 10 yr [24]. The experimental lower
+limit on the half-life of this process lies at 7.5 · 1023 yr [23]. If the 2νββ decay of 76Ge to
+the 0+                                                                 24
+      1 excited state happens with a half-life of the order of 10 yr, it could introduce a
+
+
+
+
+                                              –6–
+systematic uncertainty in the search for additional sub-dominant contributions to the energy
+spectrum. Nevertheless, this decay is accompanied by the emission of two γs with energies
+of 563.2 keV and 559.1 keV, which can be detected with high probability in the surrounding
+detectors or in the nearby LAr volume producing an event topology that does not survive the
+data selection discussed above. For this reason, the 2νββ decay of 76Ge to the 0+      1 excited
+state was not considered in the background model. The systematic uncertainty in the search
+for exotic double-β decays was estimated to be negligible. A more quantitative justification
+is presented in Appendix A.
+      Finally, uncertainties in the theoretical calculations of the shape of 2νββ decay are
+considered. Different shapes of 2νββ decay are predicted if the calculations assume the
+Higher-State Dominance (HSD) or the Single-State Dominance (SSD) model. The HSD
+model is based on the assumption that all the intermediate states of the intermediate nucleus
+contribute to decay rate [25]. This hypothesis has always been assumed in the calculations
+of the shape of the 76Ge 2νββ decay. The SSD model, on the other hand, assumes that the
+2νββ decay is governed by a virtual two-steps transition through the first 1+ state of the
+intermediate nucleus [26]. This model has been observed to describe better the 2νββ decay
+of several nuclei [27–29]. In 76Ge, the difference between the two models is maximal (about
+10%) in the tail of the distribution, but less than 0.5% around the peak of the distribution.2
+In both cases, the calculations have been performed using exact Dirac wave functions with
+finite nuclear size and electron screening as described in [25]. The 2νββ distribution is equally
+sampled from both models in the Monte Carlo generation of the pseudo-experiments.
+
+
+5       Results
+
+5.1       Search for Majoron-involving decays
+Many theories of BSM physics predict the emission of massless or light bosons, the so-called
+Majoron (J), in double-β decay. In early models, the Majoron is introduced as a Goldstone
+boson arising from the spontaneous breaking of the global B − L symmetry [30–33]. Precision
+measurements of the width of the Z 0 boson decay to invisible channels [34] ruled out these
+old models. In the following years, new models were proposed in which the term Majoron
+is used in a more general sense to refer to a massless boson that couples with neutrinos and
+gives rise to neutrinoless double-β decay accompanied by Majoron emission (0νββJ decay),
+(A, Z) → (A, Z +2)+2e− +J [35–37]. The emission of two Majorons is also predicted in some
+models (0νββJJ decay), (A, Z) → (A, Z + 2) + 2e− + 2J [38]. Following the classification
+in [39, 40], the massless Majorons models can be grouped into 4 different classes according
+to the spectral index n = 1, 2, 3 or 7, which defines the energy distribution of the decay. The
+energy distributions for different 0νββ decays with Majorons emission in 76Ge are shown in
+figure 1, compared to the distribution of the SM 2νββ decay.
+      To search for 0νββ decay with the emission of Majorons, the energy distribution of
+the decay is added to the fit as an independent component that constitutes the signal. The
+parameter of interest in this analysis is the number of signal events observed in the data set,
+which is proportional to the inverse of the decay half-life.
+      No evidence of a positive signal is found for any of the considered Majorons models. In
+the analysis data set, 46430 events are associated with the SM 2νββ decay, whereas 4610
+events are associated with the other backgrounds. The best-fit value for the n = 1 and n = 7
+    2
+        Private communications with J. Kotila and F. Iachello.
+
+
+
+
+                                                      –7–
+           100                             GERDA 2022              100                                 GERDA 2022
+
+          10 1                                                    10 1
+
+p-value   10 2                                          p-value   10 2
+                         0     J n=1                                            0      J n=2
+          10 3     Observed        68% interval                   10 3     Observed         68% interval
+                   Expected        90% interval                            Expected         90% interval
+          10 4 0   100       200 300       400     500 10 0
+                                                                     4
+                                                                             200          400           600
+                               Nevents                                                Nevents
+           100                             GERDA 2022   100                                            GERDA 2022
+
+          10 1                                                    10 1
+
+p-value   10 2                                          p-value   10 2
+                    0    J/0      JJ n=3                                        0     JJ n=7
+          10 3     Observed        68% interval                   10 3     Observed         68% interval
+                   Expected        90% interval                            Expected         90% interval
+          10 4 0         500             1000                     10 4 0       500              1000          1500
+                           Nevents                                                    Nevents
+ Figure 3. p-value as a function of the number of events in the fit range for the indicated Majoron
+ decay modes. The dashed black line shows the median of the p-value distributions for several Monte
+ Carlo realizations of the Gerda experiment with no signal. The colored bands indicate the spread
+ of the distributions, given by the central 68% and 90% probability intervals. The observed p-value
+ for the Gerda data is represented by the solid black line. The 90% C.L. limit (sensitivity) on the
+ number of events in the fit range is given by the intersection of the solid (dashed) black line with the
+ dotted line, corresponding to a p-value of 0.1.
+
+
+ models lies at zero. A non-zero best-fit value is found in the case of n = 2 and 3, but the
+ 68% C.L. interval includes zero. Therefore, a 90% C.L. limits has been set on the strength of
+ each considered decay. The observed p-value has been evaluated for a discrete set of values
+ of the parameter of interest, using the test statistic distribution computed with Monte Carlo
+ methods. The resulting p-value distributions are shown in figure 3 for all the considered
+ Majoron-involving decays. The median of the distribution of the expected p-value, which
+ gives the experimental sensitivity, and the 68% and 90% C.L. intervals are also shown in the
+ same figure.
+       The impact of the systematic uncertainties has been studied by repeating the hypothesis
+ test without including the systematic uncertainties in the distribution of the test statistic.
+ In Appendix B, figure 9, the p-value distributions obtained without including the systematic
+ uncertainties in the generation of the pseudo-experiments are shown, in comparison to the
+ distributions shown in figure 3. The contribution of the systematic uncertainties to the limits
+ is about 12%, 15%, 14%, and 25% respectively for the Majoron decay modes with spectral
+ index n = 1, 2, 3, and 7.
+       The one-sided intervals on the number of events are converted to lower limits on the
+ half-life of the decays. The latter can be related to the neutrino-Majoron coupling constant
+ gJ through the relation:
+                                  [T1/2 ]−1 = gJ2m |gA
+                                                     2
+                                                       Mα |2 Gα ,                          (5.1)
+
+
+
+
+                                                    –8–
+               Decay mode                  T1/2 (yr)                      gJ
+                                 Sensitivity Observed limit
+              0νββJ (n = 1)        3.5·1023       > 6.4·1023      < (1.8 – 4.4)·10−5
+              0νββJ (n = 2)        2.5·1023       > 2.9·1023              –
+              0νββJ (n = 3)        1.3·1023       > 1.2·1023           < 0.017
+             0νββJJ (n = 3)        1.3·1023       > 1.2·1023            < 1.2
+             0νββJJ (n = 7)        5.8·1022       > 1.0·1023            < 1.0
+
+Table 1. Sensitivities and observed lower limits on the half-life and upper limits on the coupling
+constant at 90% C.L. for the different Majorons-involving decay modes.
+
+
+where gA = 1.27 is the free-nucleon value of the axial vector coupling constant, m is the
+number of emitted Majorons, Mα is the nuclear matrix element, and Gα is the phase space
+of the decay. The nuclear matrix elements for the decay mode with n = 1 are the same as for
+0νββ decay. We use the full set of available calculations, which lie in the range 2.66 – 6.34
+for 76Ge [41–51]. The nuclear matrix elements for the decay modes with n = 3 and n = 7
+have been calculated in [40] and the phase space factors for all the decay modes in [52] – for
+a compilation see table 5 in appendix C. For n = 2, there are no nuclear matrix elements and
+phase space calculations available thus, only the limit on the half-life is given. For all the
+considered decays, table 1 presents a summary of the observed T1/2 limits and the associated
+sensitivities, as well as of the deduced neutrino-Majoron coupling constant gJ .
+      The obtained limits represent an improvement of factor ∼ 2 compared to Gerda Phase I
+results [53]. Table 5 in appendix C shows a comparison with the results from other double-
+β decay isotopes [28, 54–57]. For a consistent comparison, the neutrino-Majoron coupling
+constants have been recalculated for these isotopes using the phase space factors and nuclear
+matrix elements of the authors quoted above. A major deviation from the published gJ values
+occurred for the 0νββJ (n = 3) decay mode of 136Xe, where the limit improved by more than
+a factor of 2. For n = 7, our limit on the half-life of the 76Ge decay is a factor of 2 better
+than the current best limit [57], despite a factor of ∼7 lower exposure used in this work. This
+result can be attributed to the particularly low background achieved in the energy region
+where the bulk of the 2νββ decay distribution lies and where the deformation introduced by
+the n = 7 model is expected. Nevertheless, the corresponding limits on the coupling constant
+are comparable since the phase space of the decay in 76Ge is only 0.42·10−18 yr−1 , compared
+to 12.5·10−18 yr−1 in 136Xe [52]. Similarly, despite largely different half-life limits, comparable
+coupling constants are reported for the various isotopes also in the case of the other decay
+modes.
+
+5.2   Search for Lorentz and CPT violation
+The violation of Lorentz and CPT symmetries is an interesting feature of many BSM theories
+that aim to unify quantum mechanics and general relativity. The Standard Model Extension
+(SME) is the general framework that embodies effective quantum field operators that violate
+Lorentz and CPT symmetries in the SM. The size of the breaking is regulated by the respective
+SME coefficients. Experimental constraints on these coefficients have been set from different
+sectors of physics, including matter, photon, neutrino, and gravity [58]. In the neutrino sector,
+oscillation experiments and observation of very-high-energy neutrinos have been setting the
+most stringent constraints on many of the SME coefficients [59–64]. The effects of the
+
+
+
+
+                                              –9–
+so-called counter-shaded operator, which is independent of the momentum of the neutrino,
+escape detection through measurement of neutrino oscillations and time of flight and can be
+uniquely accessed by studies of weak decays [65, 66].
+     If the Lorentz symmetry is violated in the neutrino sector, the differential element of
+the anti-neutrino momentum modifies from its standard expression d3 q = 4πω 2 dω to d3 q =
+           (3)              (3)
+4π(ω 2 +2åof ω)dω, where åof is the isotropic component of the SME coefficient corresponding
+to the above mentioned counter-shaded operator. In the 2νββ decay, this induces a change
+in the total decay rate that can be written as the sum of two terms:
+
+                                      Γ2ν = ΓSM + dΓLV ,                                     (5.2)
+
+where the first term is the SM decay rate and the second term an additional perturbation
+                                     (3)
+due to Lorentz violation. In fact, åof only affects the kinematics of the decay, i.e. the phase
+space factor G2ν , while the nuclear matrix element M2ν stays the same:
+
+                               Γ2ν = |gA
+                                       2
+                                         M2ν |2 (G2ν
+                                                  SM + dGLV ) ,                              (5.3)
+                                                                 (3)
+where the phase space factor dGLV contains the coefficient åof . The energy distribution of
+the perturbation has a softer spectral index, n = 4. This is shown in figure 1, in comparison
+                                                            (3)
+to the SM 2νββ decay distribution. The quantity dGLV /åof is independent of the Lorentz
+                                                                (3)
+violating coefficient and needs to be calculated to constrain åof experimentally. Defining
+w as the ratio between the integral of the Lorentz violating perturbation’s distribution and
+the integral of the SM 2νββ decay distribution, which is the measured quantity, this can be
+                             (3)                                              (3)
+related to the coefficient åof through the computed ratio R = G2ν /(dGLV /åof ):
+                                           (3)
+                                          åof = w · R .                                     (5.4)
+
+We used the calculation in [67], performed using exact electron wave functions for building
+the Fermi functions and with the inclusion of finite nuclear size and screening effects:
+
+                                     R = 1.19 · 10−4 GeV .                                   (5.5)
+
+      In the search for Lorentz violation, the parameter of interest is the parameter w defined
+                                                                                 (3)
+above, which is directly proportional to the Lorentz violating coefficient åof .
+      No evidence of deviation from the SM 2νββ decay distribution has been observed. A non-
+                         (3)
+zero best-fit value of åof is found, but the 68% C.L. interval contains zero. Therefore, a 90%
+                              (3)                                               (3)
+C.L. limit has been set on åof . Since both positive and negative values of åof are theoretically
+allowed, a two-sided interval is extracted for this parameter. The observed p-value has been
+                                   (3)
+evaluated for a set of values of åof , using the test statistic distribution computed with Monte
+Carlo methods. The resulting p-value distribution is shown in figure 4. The median of the
+distribution of the expected p-value, which gives the experimental sensitivity, and the 68%
+and 90% C.L. intervals are also shown in the same figure.
+      In Appendix B, figure 10, the p-value distribution obtained without systematic uncer-
+tainties is shown, in comparison to the distribution shown in figure 4. The impact of the
+systematic uncertainties on the limit is about 34%.
+                                                                   (3)
+      We obtained a two-sided 90% C.L. interval of (−2.7 < åof < 6.2) ·10−6 GeV on the SME
+coefficient responsible for Lorentz violation in 2νββ decay. The expected sensitivity for the
+                                                                    (3)
+Gerda experiment under no signal hypothesis is (−3.8 < åof < 4.9) ·10−6 GeV. The limit
+obtained in this work with 76Ge 2νββ decay is competitive with the existing limits obtained
+
+
+
+
+                                                 – 10 –
+                               100                                                               GERDA 2022
+
+
+
+                              10 1
+
+                    p-value
+                              10 2
+                                                     Lorentz-violating 2       decay
+                                                         Observed          68% interval
+                                                         Expected          90% interval
+                              10 3      0.6    0.4   0.2 0.0 0.2 0.4                 0.6    0.8      1.0
+                                                            aof(3) (GeV)                            1e 5
+
+                                                                                           (3)
+Figure 4. p-value as a function of the Lorentz-violating coefficient åof . For details of the graphical
+representation, see caption of figure 3.
+
+                                                           (3)
+                 Isotope                      Limits on åof (GeV) at 90% C.L.                                Ref.
+                                                                 (3)
+                   76
+                     Ge                          (−2.7 < åof < 6.2) ·10−6                          this work
+                                                                 (3)
+                  136
+                      Xe                       −2.65 · 10−5 < åof < 7.6 · 10−6                   EXO-200 [68]
+                                                         (3)
+                  116 Cd                               åof < 4.0 · 10−6                          AURORA [56]
+                                                             (3)
+                  100 Mo                         (−4.2 < åof < 3.5) ·10−7                        NEMO-3 [28]
+                                                         (3)
+                   82 Se                               åof < 4.1 · 10−6                          CUPID-0 [69]
+                                                           (3)
+           3 H (single-β decay)                         |åof | < 2 · 10−8                        Díaz et al. [65]
+                                                           (3)
+                                                        |åof | < 3 · 10−8                        KATRIN [70]
+
+Table 2. Comparison between the results obtained by different double-β decay experiments in the
+search for Lorentz violation. In the last two rows, constraints obtained with tritium β decay are
+reported. The first was derived in [65] using published results from the Mainz and Troitsk experiments.
+The second is a recent result of the KATRIN experiment [70].
+
+                                                                                                                     (3)
+with other isotopes [28, 56, 68, 69], summarized in table 2. The current best limit on åof , of
+the order of 10−7 GeV, was obtained with a very large statistic data set with the NEMO-3
+experiment, with about 4.9·105 100 Mo 2νββ decay events [28].
+     Stringent limits on the counter-shaded Lorentz and CPT violation can be set with β
+                                             (3)
+decay experiments. In [65], a constrain on åof was derived using tritium β decay published
+data from the Mainz and Troitsk experiments, at the level of 10−8 GeV. Recently, the KA-
+TRIN experiment has obtained a new limit, using data collected during the first measurement
+             (3)
+campaign: |åof | < 3.0 · 10−8 GeV at 90% C.L. [70]. This limit is expected to further improve
+up to a sensitivity of 10−9 GeV or more, with the full KATRIN exposure [71].
+
+5.3   Search for light exotic fermions
+Sterile neutrinos are neutral and right-handed singlets under the SM gauge group, postulated
+concerning the problem of neutrino masses and dark matter [72]. If sterile neutrinos (N )
+exist they can be emitted in double-β decays (νN ββ decay), (A, Z) → (A, Z + 2) + 2e− +
+ν + N [73, 74]. The total decay rate can be written as the sum of two terms:
+
+                                     Γtot = cos4 θ · Γ2ν,SM + 2 sin2 θ cos2 θ · ΓN ν ,                                (5.6)
+
+
+
+
+                                                           – 11 –
+where the first term is the SM 2νββ decay with two active neutrinos and the second term is the
+decay in which one sterile neutrino with mass mN is emitted. The parameter θ represents the
+mixing angle between active and sterile neutrinos.3 The decay in which two sterile neutrinos
+are emitted (Γ2N ) would also be possible. Nevertheless, this would be strongly suppressed
+by a factor of sin4 θ and can be neglected in the experimental search [74]. Like in the case
+of Lorentz violation, the emission of sterile neutrinos in double-β decay only affects the
+kinematics of the decay, while the nuclear matrix element M2ν stays the same:
+
+                        Γtot = |gA
+                                 2
+                                   M2ν |2 (cos4 θ · G2ν + 2 sin2 θ cos2 θ · GN ν ) ,                         (5.7)
+
+where G2ν and GN ν are the phase space for the emission of two active neutrinos and one
+active and one sterile neutrino, respectively.
+      The energy distribution of the decay with the emission of a sterile neutrino is shown
+in figure 1 for a mass of 600 keV. The endpoint of the distribution is shifted by the mass of
+the sterile neutrino compared to the SM 2νββ decay distribution. Given the Qββ of 76Ge, a
+sterile neutrino with a mass up to 2 MeV could be emitted. Nevertheless, as the mass of the
+emitted sterile neutrino increases, the energy distribution moves to the left, finally ending up
+below the energy threshold of the analysis so that no deformation of the shape is expected in
+the fit range. In fact, in the analysis, the emission of sterile neutrinos with masses between
+100 keV and 900 keV was investigated.
+      To search for sterile neutrinos, the energy distribution of 2νββ decay is modified accord-
+ing to Formula 5.6, using the calculations for ΓN ν given in [74]. The parameter of interest
+is the mixing angle sin2 θ. The energy distribution also depends on the mass of the sterile
+neutrino, mN . Different masses have been analyzed independently, fixing the value of the
+mass in the energy distribution.
+      No evidence of deviation from the SM 2νββ decay distribution has been observed. The
+best-fit value of sin2 θ lies at zero for all the considered masses. Therefore, a 90% C.L. limit
+has been set on sin2 θ. The observed p-value has been evaluated for a set of values of sin2 θ,
+using the test statistic distribution computed with Monte Carlo methods. The resulting
+p-value distribution is shown in figure 5 for sterile neutrinos with a mass of 600 keV. The
+median of the distribution of the expected p-value, which gives the experimental sensitivity,
+and the 68% and 90% C.L. intervals are also shown in the same figure.
+      The 90% C.L. interval obtained on the mixing between sterile and active neutrinos is
+    2
+sin θ < 0.013, for a mass of the sterile neutrino of 600 keV. The expected sensitivity for the
+Gerda experiment under the no signal hypothesis is sin2 θ < 0.029. Limits on the mixing
+sin2 θ and the corresponding sensitivities for the different sterile neutrino masses considered
+are summarized in table 3. The limits on sin2 θ are also shown as a function of the sterile
+neutrino mass in figure 5. The best limit is obtained for a mass of 500–600 keV. The sensitivity
+to smaller masses is limited by the correlation between the SM 2νββ decay and the decay
+with a sterile neutrino. For low masses, the distribution of the decay into sterile neutrinos
+becomes indistinguishable from the SM 2νββ decay distribution, where two anti-neutrino are
+emitted. Existing bounds on the sterile neutrino mixing from β decay experiments [75–78]
+and solar neutrinos [79] are also shown in figure 5. The limits obtained in this work are
+still not competitive, but they demonstrate the potential of double-β decay experiments to
+   3
+     Different works use equivalently sin2 θ and |VeN |2 to define the mixing between active and sterile neutrinos.
+The expression of the total decay rate in Eq. 5.6 was taken from [74], but it is equivalent to that obtained
+in [73], where |VeN |2 is used and the factor 2, which appears explicitly in Eq. 5.6, is absorbed in ΓN ν .
+
+
+
+
+                                                     – 12 –
+           100                                     GERDA 2022
+                                                                                          GERDA Phase II - 32.8 kg yr
+                                                                        10 1               -decay and solar experiments
+
+          10 1
+p-value                                                          sin2   10 2
+          10 2
+                 Sterile neutrino mN= 600 keV
+                     Observed       68% interval
+                     Expected       90% interval
+          10 0.00
+             3
+                      0.01      0.022      0.03           0.04          10 3 GERDA
+                                                                               200
+                                                                                   2022
+                                                                                          400      600          800
+                                sin                                                         mN (keV)
+ Figure 5. (left) p-value as a function of the mixing angle sin2 θ for a sterile neutrino with a mass of
+ 600 keV. For details of the graphical representation, see caption of figure 3. (right) Results at 90%
+ C.L. on the mixing angle sin2 θ as a function of the sterile neutrino mass. The excluded region is
+ indicated by the orange shadowed area. Existing bounds from single-β decay experiments [75–78] and
+ solar neutrinos [79] are also shown.
+
+
+                                  mN (keV)                      sin2 θ
+                                                     Sensitivity Observed limit
+                                        100              0.19                  < 0.15
+                                        200              0.056                 < 0.037
+                                        300              0.035                 < 0.021
+                                        400              0.028                 < 0.014
+                                        500              0.026                 < 0.013
+                                        600              0.029                 < 0.013
+                                        700              0.035                 < 0.016
+                                        800              0.047                 < 0.026
+                                        900              0.087                 < 0.050
+
+ Table 3. Sensitivities and upper limits on the mixing angle sin2 θ between active and sterile neutrinos,
+ for different sterile neutrino masses mN .
+
+
+ search for sterile neutrino, with larger exposure data sets and good control of the systematic
+ uncertainties.
+       The impact of the systematic uncertainties on the limits is about 17 – 40 %, depending on
+ the sterile neutrino mass. The p-value distribution obtained without systematic uncertainties
+ is shown in Appendix B, figure 11, in comparison to the distribution shown in figure 5 for
+ mN = 600 keV. The limits on sin2 θ as a function of the sterile neutrino mass obtained without
+ systematic uncertainties are also shown in Appendix B, figure 11.
+       In [74], an extension of the sterile neutrino model is considered, in which the neutral
+ singlet fermion χ, potentially a dark matter candidate, is introduced in the theory furnished
+ with a discrete Z2 symmetry to make it stable. Such a fermion would interact with the
+ neutrino through an effective four-fermion scalar interaction and can be produced in pair in
+ double-β decays (0νββχχ decay), (A, Z) → (A, Z + 2) + 2e− + 2χ. Given the additional
+ Z2 symmetry, such a fermion cannot be produced in single-β decay. Hence, single-β decay
+
+
+
+
+                                                            – 13 –
+           100                                     GERDA 2022                                   GERDA Phase II - 32.8 kg yr
+                                                                            10 2
+          10 1
+
+p-value                                                         g (MeV 2)
+          10 2
+
+          10 3     0          m = 300 keV                                   10 3
+                   Observed         68% interval
+                   Expected         90% interval                                   GERDA 2022
+          10 4 0       500     1000 1500              2000                     100 200 300 400 500 600 700
+                                Nevents                                                   m (keV)
+
+ Figure 6. (left) p-value as a function of the number of 0νββχχ decay events in the fit range for a
+ mass of the fermions of 300 keV. For details of the graphical representation, see caption of figure 3.
+ (right) Results at 90% C.L. on the coupling gχ as a function of the exotic fermion mass. The excluded
+ region is indicated by the red shadowed area. The spread of the limits, indicated by the colored band,
+ is given by the uncertainties on the nuclear matrix element calculations [41–51].
+
+
+ experiments that set the most stringent bounds on sterile neutrinos in the keV – MeV mass
+ range cannot test these kinds of models.
+       The energy distribution expected for this decay is analogous to the sterile neutrino case,
+ with the difference that the endpoint of the distribution is shifted by twice the mass of the
+ exotic fermion since two particles are emitted. This is shown for 76Ge and a mass of 300 keV
+ in figure 1. Given the Qββ of 76Ge at around 2 MeV, only particles with mass below 1 MeV
+ can be produced in pairs. Nevertheless, as for the emission of sterile neutrinos, for high
+ masses, the energy distribution moves below the energy threshold of the fit, and no shape
+ deformation is expected in the fit range. We searched for pair production of χ fermions with
+ masses between 100 keV and 700 keV.
+       The energy distribution of the exotic decay is added to the fit as an independent com-
+ ponent that constitutes the signal. The number of signal events observed in the fit range,
+ which is proportional to the inverse of the decay half-life, is the parameter of interest in this
+ analysis. The signal energy distribution also depends on the mass of the fermions, mχ . Dif-
+ ferent masses have been analyzed independently, fixing the value of the mass in the energy
+ distribution.
+       No evidence of a positive signal is found for any considered mass. The best fit for
+ the number of exotic decay events is always zero for all the considered masses. Therefore,
+ a 90% C.L. limit has been set on the strength of each considered decay. The observed
+ p-value has been evaluated for a discrete set of values of the parameter of interest, using
+ the test statistic distribution computed with Monte Carlo methods. The resulting p-value
+ distribution is shown in figure 6, for a mass of the fermion χ of 300 keV. The median of the
+ distribution of the expected p-value, which gives the experimental sensitivity, and the 68%
+ and 90% C.L intervals are also shown in the same figure.
+       The impact of the systematic uncertainties on the limits is about 10 – 34 %, depending
+ on the fermion mass. The p-value distribution obtained without systematic uncertainties is
+ shown in Appendix B, figure 12, for mχ = 300 keV, in comparison to the distribution shown
+ in figure 6 for the same mass.
+
+
+
+
+                                                             – 14 –
+               mχ         Gχχ                 T1/2 (1023 yr)             Observed gχ
+              (keV)   (10−20 yr−1 )    Sensitivity Observed limit       (10−3 MeV−2 )
+               100         4.2            0.15            > 0.18         < (1.4 – 3.2)
+               200         3.3            0.44            > 0.67         < (0.8 – 1.8)
+               300         2.3            0.77            > 1.6          < (0.6 – 1.4)
+               400         1.4             1.1            > 2.5          < (0.6 – 1.4)
+               500         0.75           1.2             > 2.1          < (0.9 – 2.2)
+               600         0.32           1.0             > 1.1          < (2.0 – 4.6)
+               700         0.10           0.16            > 0.25         < (7.4 – 17)
+
+Table 4. Phase space factors Gχχ , expected sensitivities and lower limits on the half-life T1/2 , and
+upper limits on the coupling constant gχ at 90% C.L., for different fermion masses mχ .
+
+
+      The one-sided intervals on the number of events are converted to lower limits on the
+half-life of the decays. The latter can be related to the coupling constant between the exotic
+fermions and neutrinos gχ through the relation:
+
+                                  [T1/2 ]−1 = gχ2 C |gA
+                                                      2
+                                                        M0ν |2 Gχχ ,                            (5.8)
+
+where C = m2e /(8π 2 R2 ) is a constant factor that contains the electron mass me and the nuclear
+radius R = 1.2 A1/3 fm, which in natural units (1/fm = 197.3 MeV) is R = 0.026 MeV−1 for
+76
+   Ge, M0ν is the nuclear matrix element, that is the same as for 0νββ decay, and Gχχ the
+phase space for the emission of two light exotic fermions. For each fermion mass, we use all
+the available calculations of the nuclear matrix element of 0νββ decay, that are in the range
+2.66 – 6.04 for 76Ge [41–51] and compute the phase space factors according to [74], to convert
+the lower limit on the half-life in an upper limit on gχ . The lower limits on the half-life,
+the expected sensitivities, and the upper limits on the coupling constant at 90% C.L. for the
+0νββχχ decays and the different fermion masses considered are summarized in table 4. In
+the same table, also the computed phase space factors for the different masses are reported.
+      The limits on the coupling gχ are also shown as a function of the fermions mass in figure 6.
+The limits obtained without systematic uncertainties are shown in Appendix B, figure 12.
+The best limit is obtained for masses of 300 – 400 keV. The sensitivity to smaller masses
+is limited by the correlation between the energy distribution of this decay with the 2νββ
+decay distribution. For low masses, the distribution predicted for 0νββχχ decay becomes
+indistinguishable from the SM 2νββ decay distribution, where two anti-neutrinos are emitted.
+At higher masses, the sensitivity on gχ is weaker because of the limited space phase factor
+available for the decay. The width of the band is due to uncertainties in the nuclear matrix
+element calculations. This result represents the first experimental constraint on the pair
+production of two light exotic fermions in double-β decays.
+
+6   Conclusions
+
+We presented the search for BSM double-β decay modes of 76Ge, performed on a selected
+data set collected during Phase II of the Gerda experiment. No indication of deviations from
+the SM 2νββ decay distribution was found for any of the considered decay modes. Limits
+on the different models have been set with a frequentist hypothesis test based on the profile
+likelihood test statistic, whose distributions have been evaluated with Monte Carlo methods.
+
+
+
+
+                                                 – 15 –
+                                BEGe detectors - 32.8 kg yr                 0 J / 0 JJ (n=3) 90% C.L.
+                                Best-fit model (no exotic physics signal)   0 JJ (n=7) 90% C.L.
+                                Standard Model 2 decay                      0        (m =300 keV) 90% C.L.
+                                Background                                  Sterile neutrino (mN=600 keV) 90% C.L.
+                                0 J (n=1) 90% C.L.                          Lorentz Violation 90% C.L.
+                                0 J (n=2) 90% C.L.
+
+                                                                                   40K                        GERDA 2022
+                      103                                                                42K
+
+                      102
+
+
+ Counts / (10 keV)
+                                                                                                      214Bi
+                      101
+                      100
+                     10 1
+                     10 2 600     800            1000            1200       1400           1600        1800           2000
+                                                                  Energy (keV)
+Figure 7. Data energy spectrum and best-fit model, corresponding to the absence of any new physics
+signal. The contributions from the SM 2νββ decay and other backgrounds are also shown separately
+by the solid red line and the shadowed area, respectively. The most prominent γ-lines are labeled. The
+90% C.L. limits on the different new physics contributions obtained in this work are also visualized
+with different colors.
+
+
+     In figure 7 the analyzed data set is shown, together with the best fit model, corresponding
+to the absence of any new physics signal. The contributions from the SM 2νββ decay and other
+backgrounds are also shown separately. The limits at 90% C.L. on the different new physics
+contributions obtained from the individual analysis are shown. All the results presented in
+this work represent the most stringent limits obtained with 76Ge to date.
+     The search for 0νββ decay with the emission of Majorons with 76Ge was already per-
+formed in Phase I of the Gerda experiment [53]. The improvement of a factor of ∼ 2 obtained
+in this work, with only slightly higher exposure, can be attributed to the lower background
+and smaller impact of the systematic uncertainties. In this work, we searched for hints of
+violation of the Lorentz symmetry in 2νββ decay for the first time with 76Ge and the first
+experimental search for the emission of light exotic fermions, including sterile neutrinos, in
+2νββ decay.
+     The impact of the systematic uncertainties on the limits presented here has been studied
+by repeating the hypothesis test, where the distributions of the test statistic do not include any
+systematic uncertainties. This showed that the contribution of the systematic uncertainties
+to the limits is about 10 – 40%, depending on the considered decay mode.
+     The LEGEND experiment [80], the future of double-β decay physics with 76Ge, will
+provide in the next decade a large statistic data set of 2νββ decays. A substantial improve-
+ment of the sensitivity to BSM searches still requires a further reduction of the systematic
+uncertainties that will become dominant as the statistics increases. For instance, a better
+understanding of the background model after the LAr veto cut would be beneficial. The
+uncertainty of the location of the background sources is indeed one of the dominant contri-
+
+
+
+
+                                                                   – 16 –
+butions to the systematic uncertainty of the results presented in this work. With increased
+statistics and reduction of the systematic uncertainties, the LEGEND experiment would have
+the possibility to test unexplored regions of the parameter space, for example, in the search
+for sterile neutrino with masses of hundreds of keV [74].
+
+Acknowledgments
+
+We would like to thank F. Iachello and J. Kotila for the useful discussions and for providing
+the calculations of the 2νββ energy spectrum under the different theoretical assumptions
+considered in this work.
+      The Gerda experiment is supported financially by the German Federal Ministry for
+Education and Research (BMBF), the German Research Foundation (DFG), the Italian Is-
+tituto Nazionale di Fisica Nucleare (INFN), the Max Planck Society (MPG), the Polish
+National Science Centre (NCN), the Foundation for Polish Science (TEAM/2016-2/17), the
+Russian Foundation for Basic Research, and the Swiss National Science Foundation (SNF).
+This project has received funding/support from the European Union’s Horizon 2020 re-
+search and innovation programme under the Marie Sklodowska-Curie grant agreements No
+690575 and No 674896. This work was supported by the Science and Technology Facili-
+ties Council, part of the U.K. Research and Innovation (Grant No. ST/T004169/1). The
+institutions also acknowledge internal financial support.
+      The Gerda collaboration thanks the directors and the staff of the LNGS for their
+continuous strong support of the Gerda experiment.
+
+A    2νββ decay to the 0+
+                        1 excited state
+
+The 2νββ decay of 76Ge to the 0+   1 excited state of
+                                                      76 Se is predicted with a half-life of (2.6 ±
+          24
+0.13) · 10 yr and a branching ratio (b.r.) of 0.074% [24]. This transition has not been
+observed in Gerda data. A lower limit on the half-life was set with Gerda Phase I data:
+T1/2 > 3.7 · 1023 yr at 90% C.L. [22]. A more stringent limit was set by the Majorana
+Demonstrator: T1/2 > 7.5 · 1023 yr at 90% C.L. [23].
+      Here, we discuss the possible systematic uncertainty that the existence of the transition
+to the 0+                                                     24
+         1 excited state with a half-life of the order of 10 yr would introduce in the search
+for exotic double-β decay modes. The transition to the 0+      1 excited state is followed by the
+emission of two γs with energies of 563.2 keV and 559.1 keV. Given the decay in one germanium
+detector, the two γs can be detected in the same detector, travel in the detector array, and
+be detected in one of the surrounding germanium detectors, or escape the detectors and
+deposit their energy in the nearby LAr volume. Only in the first case, the event topology
+is the same as the 2νββ decay to the ground state, and the event would pass the data
+selection. To estimate the detection efficiency of the 0+    1 transition relative to the ground
+state transition, we used Monte Carlo simulations performed with the MaGe framework [17].
+After detector anti-coincidence cut and LAr veto cut, the efficiency of the 0+       1 transition,
+relative to the ground state transition, is  = 8.88% in the energy range of the analysis.
+Given the number of events associated with the 2νββ decay to the ground state obtained
+from the fit (N2νββ, g.s. = 46430 events), and the predicted b.r., we can calculate the number
+of expected events in the analysis range from the 2νββ decay to the 0+    1 excited state:
+
+             N2νββ, 0+ = N2νββ, g.s. ·  · b.r. = 46430 · 0.0888 · 0.00074 ≃ 3 events .      (A.1)
+                     1
+
+
+
+
+                                              – 17 –
+                                                                                GERDA 2022
+                             101
+
+
+
+
+         Counts / (1 keV)
+                            10 1
+
+                            10 3
+                                         2 (g.s. g.s.)
+                            10 5         2 (g.s. 01+ ) b.r. = 0.074%
+                                         0 J (n = 1) 90% C.L. limit
+                                   600    800 1000 1200 1400           1600   1800     2000
+                                                        Energy (keV)
+Figure 8. Simulated 2νββ decay energy distributions in the BEGe detectors after detector anti-
+coincidence cut and LAr veto cut. The transition to the ground state is shown in black and normalized
+to the number of events extracted from the fit in this work. The transition to the 0+1 excited state is
+shown in red and normalized considering the predicted b.r. For comparison, the energy distribution
+of the 0νββJ decay (n = 1) normalized to the 90% C.L. limit is also shown.
+
+
+In figure 8, the simulated 2νββ decay energy distribution in the BEGe detectors after anti-
+coincidence cut and LAr veto cut is shown for the ground state transition and the 0+1 excited
+state transition. The first is normalized to the number of events obtained from the fit in the
+analysis range, the second is normalized by taking into account the predicted b.r.
+      To estimate the systematic uncertainty that ignoring such a contribution in the back-
+ground model would introduce in the analysis, we consider, for instance, the Majoron-
+involving decay mode with n = 1. The 90% C.L. limit obtained on the number of 0νββJ
+decay events lies at 210 events. The number of expected events from the 0+    1 excited state
+transition is, thus, only ∼ 1% of the number of 0νββJ decay events from which the 90% C.L.
+limit is extracted. For this reason, the exclusion of the 2νββ decay to the 0+1 excited state
+from the background model is retained to have a negligible impact on the limits obtained in
+this work.
+
+B    Impact of systematic uncertainties
+The impact of the systematic uncertainties on the limits presented in this work has been
+studied. To do so, the hypothesis test has been repeated using distributions of the test
+statistic calculated without including the systematic uncertainties in the generation of the
+pseudo-experiments. A comparison between the p-value distributions obtained in the two
+cases is shown in figures 9, 10, 11, 12, respectively for the Majoron decay modes, Lorentz
+violation, sterile neutrino with mN = 600 keV, and 0νββχχ decay with mχ = 300 keV.
+
+C    Comparison of Majoron results from this and other works
+In table 5, a comparison between the results obtained by different double-β decay experiments,
+with different isotopes, in the search for double-β decay with the emission of Majorons is
+
+
+
+
+                                                        – 18 –
+                              Observed w/o Sys. Unc.                    Observed w/ Sys. Unc.
+                              Expected w/o Sys. Unc.                    Expected w/ Sys. Unc.
+                              68% interval w/o Sys. Unc.                68% interval w/ Sys. Unc.
+           100                                 GERDA 2022              100                                      GERDA 2022
+
+          10 1                                                        10 1
+
+p-value   10 2                                              p-value   10 2
+          10 3                                                        10 3
+                   0      J n=1                                                 0     J n=2
+          10 4 0       100 200 300            400      500 10 0
+                                                              4
+                                                                                      200          400           600
+                                Nevents                                                        Nevents
+           100                                 GERDA 2022              100                                      GERDA 2022
+
+          10 1                                                        10 1
+
+p-value   10 2                                              p-value   10 2
+          10 3                                                        10 3
+                   0     J / 0 JJ n=3                                           0     JJ n=7
+          10 4 0              500       1000                          10 4 0            500              1000          1500
+                                Nevents                                                        Nevents
+ Figure 9. p-value as a function of the number of events in the fit range for the indicated Majorons
+ decay modes obtained without including the systematic uncertainties in the test statistic distributions.
+ The median of the p-value distribution for the Gerda experiment under the no signal hypothesis
+ and the observed p-value for the Gerda data are shown by the black continuous and dashed lines,
+ respectively. The spread of the p-value distribution, given by the central 68% probability interval,
+ is also shown by the gray band. For comparison, the same curves obtained with all the systematic
+ uncertainties included in the test statistic distributions are also shown by the colored lines.
+
+
+ presented.
+
+
+
+
+                                                           – 19 –
+                            100                                                                             GERDA 2022
+
+
+
+                           10 1
+
+                 p-value
+                           10 2
+                                                           Lorentz-violating 2          decay
+                                              Observed w/o Sys. Unc.                    Observed w/ Sys. Unc.
+                                              Expected w/o Sys. Unc.                    Expected w/ Sys. Unc.
+                           10 3               68% interval w/o Sys. Unc.                68% interval w/ Sys. Unc.
+                                      0.6       0.4       0.2 0.0 0.2 0.4                        0.6     0.8     1.0
+                                                                 aof(3) (GeV)                                   1e 5
+                                                                                                  (3)
+ Figure 10. p-value as a function of the Lorentz violating coefficient åof obtained without including
+ the systematic uncertainties in the test statistic distributions. For details of the graphical represen-
+ tation see caption of figure 9.
+
+
+
+
+           100                                                             GERDA 2022                                    GERDA 2022
+                                                                                                10 1
+          10 1
+
+p-value                                                                                  sin2
+          10 2                                                                                  10 2
+                                      Sterile neutrino mN= 600 keV
+                           Observed w/o Sys. Unc.           Observed w/ Sys. Unc.
+                           Expected w/o Sys. Unc.           Expected w/ Sys. Unc.                         Observed w/o Sys. Unc.
+                           68% interval w/o Sys. Unc.       68% interval w/ Sys. Unc.                     Observed w/ Sys. Unc.
+          10 0.00
+             3
+                                  0.01            0.022          0.03             0.04                  200 400 600 800
+                                                  sin                                                       mN (keV)
+ Figure 11. (left) p-value as a function of the mixing sin2 θ obtained for a sterile neutrino mass
+ of 600 keV without including the systematic uncertainties in the test statistic distributions. For
+ details of the graphical representation see caption of figure 9. (right) Comparison of the results at
+ 90% C.L. on the mixing angle sin2 θ as a function of the sterile neutrino mass obtained when the
+ systematic uncertainties are included (colored line) or not included (black line). The excluded region
+ is indicated by the shadowed areas.
+
+
+
+
+                                                                  – 20 –
+           100                                                   GERDA 2022
+                                                                                                   Observed w/o Sys. Unc.
+                                                                                          10 2     Observed w/ Sys. Unc.
+          10 1
+
+p-value                                                                       g (MeV 2)
+          10 2
+                                   0       m =300 keV
+          10 3     Observed w/o Sys. Unc.         Observed w/ Sys. Unc.                   10 3
+                   Expected w/o Sys. Unc.         Expected w/ Sys. Unc.
+                   68% interval w/o Sys. Unc.     68% interval w/ Sys. Unc.                                     GERDA 2022
+          10 4 0        500            1000        1500            2000                          200    400 600
+                                        Nevents                                                        m (keV)
+ Figure 12. (left) p-value as a function of the number of events in the fit range for 0νββχχ decay
+ obtained for a mass of the fermion χ of 300 keV without the inclusion of the systematic uncertainties
+ in the test statistic distributions. For details of the graphical representation see caption of figure 9.
+ (right) Comparison of the results at 90% C.L. on the coupling gχ as a function of the exotic fermion
+ mass obtained when the systematic uncertainties are included (colored band) or not included (black
+ band). The spread of the bands in both cases is given by the uncertainties on the nuclear matrix
+ element calculations [41–51]. The excluded region is indicated by the shadowed areas.
+
+
+
+
+                                                        – 21 –
+  Decay mode /          T1/2        Ref.          G                NME                   gJ
+     Isotope            (yr)                  (10−18 yr−1 )
+        0νββJ (n = 1)
+       76
+         Ge         > 6.4·1023    present         44.2         (2.66 – 6.64)    < (1.8 – 4.4)·10−5
+      136
+          Xe        > 2.6·1024      [54]          409          (1.11 – 4.77)    < (0.4 – 1.7)·10−5
+      136
+          Xe        > 4.3·1024      [57]          409          (1.11 – 4.77)    < (0.3 – 1.3)·10−5
+      100 Mo        > 4.4·1022      [55]          598          (3.84 – 6.59)    < (1.8 – 3.1)·10−5
+      116 Cd        > 8.2·1021      [56]          569         (3.105 – 5.43)    < (5.3 – 9.2)·10−5
+        0νββJ (n = 2)
+       76
+         Ge         > 2.9·1023    present           –                –                    –
+      136
+          Xe        > 1.0·1024      [54]            –                –                    –
+      136
+          Xe        > 9.8·1023      [57]            –                –                    –
+      100 Mo        > 9.9·1021      [28]            –                –                    –
+      116 Cd        > 4.1·1021      [56]            –                –                    –
+        0νββJ (n = 3)
+       76
+         Ge         > 1.2·1023    present        0.073             0.381           < 1.7 ·10−2
+      136
+          Xe        > 4.5·1023      [54]          1.47             0.160           < 0.47 ·10−2
+      136
+          Xe        > 6.3·1023      [57]          1.47             0.160           < 0.40 ·10−2
+      100 Mo        > 4.4·1021      [28]          2.42             0.263           < 2.3 ·10−2
+      116 Cd        > 2.6·1021      [56]          2.28             0.144           < 5.6 ·10−2
+       0νββJJ (n = 3)
+       76
+         Ge         > 1.2·1023    present         0.22            0.0026               < 1.21
+      136
+          Xe        > 4.5·1023      [54]          3.05            0.0011               < 0.69
+      136
+          Xe        > 6.3·1023      [57]          3.05            0.0011               < 0.64
+      100 Mo        > 4.4·1021      [28]          6.15            0.0019               < 1.41
+      116 Cd        > 2.6·1021      [56]          5.23           0.000945              < 2.37
+       0νββJJ (n = 7)
+       76
+         Ge         > 1.0·1023    present         0.42            0.0026               < 1.08
+      136
+          Xe        > 1.1·1022      [54]          12.5            0.0011               < 1.23
+      136
+          Xe        > 5.1·1022      [57]          12.5            0.0011               < 0.84
+      100 Mo        > 1.2·1021      [28]          50.8            0.0019               < 1.15
+      116 Cd        > 8.9·1020      [56]          33.9           0.000945              < 1.94
+
+Table 5. Present results of the search for single (0νββJ) and double (0νββJJ) Majoron-involving
+decays of 76Ge in comparison with results for the other indicated isotopes. The lower limits on
+the half-life T1/2 are converted into upper limits on the neutrino-Majoron coupling constant gJ using
+equation 5.1 with the axial vector coupling constant gA = 1.27 and the phase space factors G from [52].
+The nuclear matrix element (NME) calculations for the spectral index n = 1 are taken from [81] and
+references therein, and for n = 3 and n = 7 from [40].
+
+
+
+
+                                                – 22 –
+References
+ [1] A. Barabash, Precise Half-Life Values for Two-Neutrino Double-β Decay: 2020 Review,
+     Universe 6 (2020) 159 [2009.14451].
+ [2] J. Schechter and J.W.F. Valle, Neutrinoless Double beta Decay in SU(2) × U(1) Theories,
+     Phys. Rev. D 25 (1982) 2951.
+ [3] Gerda collaboration, Final Results of Gerda on the Search for Neutrinoless Double-β Decay,
+     Phys. Rev. Lett. 125 (2020) 252502 [2009.06079].
+ [4] Gerda collaboration, The Gerda experiment for the search of 0νββ decay in 76 Ge, Eur. Phys.
+     J. C 73 (2013) 2330 [1212.4067].
+ [5] K.T. Knöpfle and B. Schwingenheuer, Design and performance of the Gerda low-background
+     cryostat for operation in water, JINST 17 (2022) P02038 [2202.03847].
+ [6] Gerda collaboration, Upgrade for Phase II of the Gerda experiment, Eur. Phys. J. C 78
+     (2018) 388 [1711.01452].
+ [7] A. Lubashevskiy et al., Mitigation of 42 Ar / 42 K background for the Gerda Phase II
+     experiment, Eur. Phys. J. C 78 (2018) 15 [1708.00226].
+ [8] J. Janicskó-Csáthy, H.A. Khozani, X. Liu, B. Majorovits and A. Caldwell, Development of an
+     anti-Compton veto for HPGe detectors operated in liquid argon using Silicon Photo-Multipliers,
+     Nucl. Instrum. Meth. A 654 (2011) 225 [1011.2748].
+ [9] K. Freund et al., The Performance of the Muon Veto of the Gerda Experiment, Eur. Phys. J.
+     C 76 (2016) 298 [1601.05935].
+[10] M. Agostini, L. Pandola and P. Zavarise, Off-line data processing and analysis for the Gerda
+     experiment, J. Phys. Conf. Ser. 368 (2012) 012047 [1111.3582].
+[11] Gerda collaboration, Improvement of the energy resolution via an optimized digital signal
+     processing in Gerda Phase I, Eur. Phys. J. C 75 (2015) 255 [1502.04392].
+[12] Gerda collaboration, Calibration of the Gerda experiment, Eur. Phys. J. C 81 (2021) 682
+     [2103.13777].
+[13] Gerda collaboration, “Light collection and veto modeling in Gerda Phase II.” paper in
+     preparation.
+[14] B.J. Mount, M. Redshaw and E.G. Myers, Double-β-decay Q values of 74 Se and 76 Ge, Phys.
+     Rev. C 81 (2010) 032501.
+[15] Gerda collaboration, Modeling of Gerda Phase II data, JHEP 03 (2020) 139 [1909.02522].
+[16] Gerda collaboration, Pulse shape analysis in Gerda Phase II, Eur. Phys. J. C 82 (2022) 284
+     [2202.13355].
+[17] M. Boswell et al., MaGe-a Geant4-based Monte Carlo Application Framework for
+     Low-background Germanium Experiments, IEEE Trans. Nucl. Sci. 58 (2011) 1212 [1011.3827].
+[18] G. Cowan, K. Cranmer, E. Gross and O. Vitells, Asymptotic formulae for likelihood-based tests
+     of new physics, Eur. Phys. J. C 71 (2011) 1554 [1007.1727].
+[19] Gerda collaboration, Background-free search for neutrinoless double-β decay of 76 Ge with
+     Gerda, Nature 544 (2017) 47 [1703.00570].
+[20] P.Z. et al. (Particle Data Group), Prog. Theor. Exp. Phys., PTEP 2020 (2020) 083C01.
+[21] B. Lehnert, Search for 2νββ Excited State Transitions and HPGe Characterization for Surface
+     Events in Gerda Phase II, Ph.D. thesis, Technischen Universität Dresden, 2016.
+[22] Gerda collaboration, 2νββ decay of 76 Ge into excited states with Gerda Phase I, J. Phys. G
+     42 (2015) 115201 [1506.03120].
+
+
+
+
+                                              – 23 –
+[23] MAJORANA collaboration, Search for double-β decay of 76 Ge to excited states of 76 Se with
+     the Majorana Demonstrator, Phys. Rev. C 103 (2021) 015501 [2008.06014].
+[24] J. Kostensalo, J. Suhonen and K. Zuber, The first large-scale shell-model calculation of the
+     two-neutrino double beta decay of 76 Ge to the excited states in 76 Se, Phys. Lett. B 831 (2022)
+     137170 [2203.00109].
+[25] J. Kotila and F. Iachello, Phase space factors for double-β decay, Phys. Rev. C 85 (2012)
+     034316 [1209.5722].
+[26] P. Domin, S. Kovalenko, F. Šimkovic and S.V. Semenov, Neutrino accompanied β ± β ± , β + /EC
+     and EC/EC processes within single state dominance hypothesis, Nucl. Phys. A 753 (2005) 337.
+[27] O. Azzolini et al., Evidence of Single State Dominance in the Two-Neutrino Double-β Decay of
+     82
+        Se with CUPID-0, Phys. Rev. Lett. 123 (2019) 262501.
+[28] NEMO-3 collaboration, Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3,
+     Eur. Phys. J. C 79 (2019) 440 [1903.08084].
+[29] E. Armengaud et al., Precise measurement of 2νββ decay of 100 Mo with the CUPID-Mo
+     detection technology, Eur. Phys. J. C 80 (2020) 674.
+[30] Y. Chikashige, R.N. Mohapatra and R.D. Peccei, Spontaneously Broken Lepton Number and
+     Cosmological Constraints on the Neutrino Mass Spectrum, Phys. Rev. Lett. 45 (1980) 1926.
+[31] G.B. Gelmini and M. Roncadelli, Left-Handed Neutrino Mass Scale and Spontaneously Broken
+     Lepton Number, Phys. Lett. B 99 (1981) 411.
+[32] H.M. Georgi, S.L. Glashow and S. Nussinov, Unconventional Model of Neutrino Masses, Nucl.
+     Phys. B 193 (1981) 297.
+[33] R.N. Mohapatra and E. Takasugi, Neutrinoless Double Beta Decay With Double Majoron
+     Emission, Phys. Lett. B 211 (1988) 192.
+[34] ALEPH, DELPHI, L3, OPAL, SLD, LEP Electroweak Working Group, SLD
+     Electroweak Group, SLD Heavy Flavour Group collaboration, Precision electroweak
+     measurements on the Z resonance, Phys. Rept. 427 (2006) 257 [hep-ex/0509008].
+[35] Z.G. Berezhiani, A.Y. Smirnov and J.W.F. Valle, Observable Majoron emission in neutrinoless
+     double beta decay, Phys. Lett. B 291 (1992) 99 [hep-ph/9207209].
+[36] C.P. Burgess and J.M. Cline, Majorons without Majorana masses and neutrinoless double beta
+     decay, Phys. Lett. B 298 (1993) 141 [hep-ph/9209299].
+[37] C.D. Carone, Double beta decay with vector majorons, Phys. Lett. B 308 (1993) 85
+     [hep-ph/9302290].
+[38] P. Bamert, C.P. Burgess and R.N. Mohapatra, Multi - Majoron modes for neutrinoless double
+     beta decay, Nucl. Phys. B 449 (1995) 25 [hep-ph/9412365].
+[39] M. Hirsch, H. Klapdor-Kleingrothaus, S. Kovalenko and H. Päs, On the observability of
+     Majoron emitting double beta decays, Phys. Lett. B 372 (1996) 8–14.
+[40] J. Kotila and F. Iachello, Nuclear matrix elements for Majoron-emitting double-β decay, Phys.
+     Rev. C 103 (2021) [2104.02327].
+[41] T.R. Rodríguez and G. Martínez-Pinedo, Energy Density Functional Study of Nuclear Matrix
+     Elements for Neutrinoless ββ Decay, Phys. Rev. Lett. 105 (2010) 252503.
+[42] M.T. Mustonen and J. Engel, Large-scale calculations of the double-β decay of 76 Ge, 130 Te,
+     136
+         Xe, and 150 Nd in the deformed self-consistent Skyrme quasiparticle random-phase
+     approximation, Phys. Rev. C 87 (2013) 064302.
+[43] N.L. Vaquero, T.R. Rodríguez and J.L. Egido, Shape and Pairing Fluctuation Effects on
+     Neutrinoless Double Beta Decay Nuclear Matrix Elements, Phys. Rev. Lett. 111 (2013) 142501.
+
+
+
+
+                                               – 24 –
+[44] M. Horoi and A. Neacsu, Shell model predictions for 124 Sn double-β decay, Phys. Rev. C 93
+     (2016) 024308.
+[45] J. Hyvärinen and J. Suhonen, Nuclear matrix elements for 0νββ decays with light or heavy
+     Majorana-neutrino exchange, Phys. Rev. C 91 (2015) 024613.
+[46] J. Barea, J. Kotila and F. Iachello, 0νββ and 2νββ nuclear matrix elements in the interacting
+     boson model with isospin restoration, Phys. Rev. C 91 (2015) 034304.
+[47] J. Menéndez, Neutrinoless ββ decay mediated by the exchange of light and heavy neutrinos:
+     The role of nuclear structure correlations, J. Phys. G 45 (2018) 014003 [1804.02105].
+[48] L.S. Song, J.M. Yao, P. Ring and J. Meng, Nuclear matrix element of neutrinoless double-β
+     decay: Relativity and short-range correlations, Phys. Rev. C 95 (2017) 024305.
+[49] F. Šimkovic, A. Smetana and P. Vogel, 0νββ and 2νββ nuclear matrix elements evaluated in
+     closure approximation, neutrino potentials and SU(4) symmetry, Phys. Rev. C 98 (2018)
+     064325.
+[50] D.-L. Fang, A. Faessler and F. Šimkovic, 0νββ-decay nuclear matrix element for light and
+     heavy neutrino mass mechanisms from deformed quasiparticle random-phase approximation
+     calculations for 76 Ge,82 Se,130 Te,136 Xe, and 150 Nd with isospin restoration, Phys. Rev. C 97
+     (2018) 045503.
+[51] L. Coraggio, A. Gargano, N. Itaco, R. Mancino and F. Nowacki, Calculation of the neutrinoless
+     double-β decay matrix element within the realistic shell model, Phys. Rev. C 101 (2020) 044315.
+[52] J. Kotila, J. Barea and F. Iachello, Phase-space factors and half-life predictions for
+     Majoron-emitting β − β − decay, Phys. Rev. C 91 (2015) 064310 [1509.05154].
+[53] Gerda collaboration, Results on ββ decay with emission of two neutrinos or Majorons in 76 Ge
+     from Gerda Phase I, Eur. Phys. J. C 75 (2015) 416 [1501.02345].
+[54] A. Gando et al., Limits on Majoron-emitting double-β decays of 136 Xe in the KamLAND-Zen
+     experiment, Phys. Rev. C 86 (2012) .
+[55] NEMO-3 collaboration, Results of the search for neutrinoless double-β decay in 100 Mo with the
+     NEMO-3 experiment, Phys. Rev. D 92 (2015) 072011 [1506.05825].
+[56] A.S. Barabash et al., Final results of the Aurora experiment to study 2β decay of 116 Cd with
+     enriched 116 CdWO4 crystal scintillators, Phys. Rev. D 98 (2018) 092007 [1811.06398].
+[57] S. Al Kharusi et al., Search for Majoron-emitting modes of 136 Xe double beta decay with the
+     complete EXO-200 dataset, Phys. Rev. D 104 (2021) 112002.
+[58] V.A. Kostelecký and N. Russell, Data tables for Lorentz and CPT violation, Reviews of Modern
+     Physics 83 (2011) 11–31 [0801.0287v15].
+[59] V.A. Kostelecký and M. Mewes, Lorentz and CPT violation in the neutrino sector, Phys. Rev.
+     D 70 (2004) 031902 [hep-ph/0308300].
+[60] MINOS collaboration, Search for Lorentz invariance and CPT violation with muon
+     antineutrinos in the MINOS Near Detector, Phys. Rev. D 85 (2012) 031101 [1201.2631].
+[61] Super-Kamiokande collaboration, Test of Lorentz invariance with atmospheric neutrinos,
+     Phys. Rev. D 91 (2015) 052003 [1410.4267].
+[62] MiniBooNE collaboration, Test of Lorentz and CPT violation with Short Baseline Neutrino
+     Oscillation Excesses, Phys. Lett. B 718 (2013) 1303 [1109.3480].
+[63] IceCube collaboration, Search for a Lorentz-violating sidereal signal with atmospheric
+     neutrinos in IceCube, Phys. Rev. D 82 (2010) 112003 [1010.4096].
+[64] J.S. Díaz, A. Kostelecký and M. Mewes, Testing Relativity with High-Energy Astrophysical
+     Neutrinos, Phys. Rev. D 89 (2014) 043005 [1308.6344].
+
+
+
+
+                                                – 25 –
+[65] J.S. Díaz, A. Kostelecký and R. Lehnert, Relativity violations and beta decay, Phys. Rev. D 88
+     (2013) 071902 [1305.4636].
+[66] J.S. Díaz, Limits on Lorentz and CPT violation from double beta decay, Phys. Rev. D 89
+     (2014) 036002 [1311.0930].
+[67] O. Nitescu, S. Ghinescu and S. Stoica, Lorentz violation effects in 2νββ decay, J. Phys. G 47
+     (2020) 055112 [2001.04859].
+[68] EXO-200 collaboration, First Search for Lorentz and CPT Violation in Double Beta Decay
+     with EXO-200, Phys. Rev. D 93 (2016) 072001 [1601.07266].
+[69] O. Azzolini et al., First search for Lorentz violation in double beta decay with scintillating
+     calorimeters, Phys. Rev. D 100 (2019) 092002 [1911.02446].
+[70] KATRIN collaboration, Search for Lorentz-Invariance Violation with the first KATRIN data,
+     2207.06326.
+[71] R. Lehnert, Beta-decay spectrum and Lorentz violation, Phys. Lett. B 828 (2022) 137017
+     [2112.13803].
+[72] B. Dasgupta and J. Kopp, Sterile Neutrinos, Phys. Rept. 928 (2021) 63 [2106.05913].
+[73] P.D. Bolton, F.F. Deppisch, L. Gráf and F. Šimkovic, Two-Neutrino Double Beta Decay with
+     Sterile Neutrinos, Phys. Rev. D 103 (2021) 055019 [2011.13387].
+[74] M. Agostini, E. Bossio, A. Ibarra and X. Marcano, Search for Light Exotic Fermions in
+     Double-Beta Decays, Phys. Lett. B 815 (2021) 136127 [2012.09281].
+[75] E. Holzschuh, L. Palermo, H. Stussi and P. Wenk, The beta-spectrum of S-35 and search for the
+     admixture of heavy neutrinos, Phys. Lett. B 482 (2000) 1.
+[76] K. Schreckenbach, G. Colvin and F. Von Feilitzsch, Search for Mixing of Heavy Neutrinos in
+     the β + and β − Spectra of the 64 Cu Decay, Phys. Lett. B 129 (1983) 265.
+[77] J. Deutsch, M. Lebrun and R. Prieels, Searches for admixture of massive neutrinos into the
+     electron flavor, Nucl. Phys. A 518 (1990) 149.
+[78] A.V. Derbin, I.S. Drachnev, I.S. Lomskaya, V.N. Muratova, N.V. Pilipenko, D.A. Semenov
+     et al., Search for a Neutrino with a Mass of 0.01–1.0 MeV in Beta Decays of 144 Ce–144 Pr
+     Nuclei, JETP Lett. 108 (2018) 499.
+[79] Borexino collaboration, New limits on heavy sterile neutrino mixing in 8 B decay obtained
+     with the Borexino detector, Phys. Rev. D 88 (2013) 072010 [1311.5347].
+[80] LEGEND collaboration, The Large Enriched Germanium Experiment for Neutrinoless ββ
+     Decay: LEGEND-1000 Preconceptual Design Report, 2107.11462.
+[81] J. Engel and J. Menéndez, Status and Future of Nuclear Matrix Elements for Neutrinoless
+     Double-Beta Decay: A Review, Rept. Prog. Phys. 80 (2017) 046301 [1610.06548].
+
+
+
+
+                                                – 26 –
+

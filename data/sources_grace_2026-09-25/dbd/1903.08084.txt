@@ -1,0 +1,914 @@
+                                          Eur. Phys. J. C manuscript No.
+                                          (will be inserted by the editor)
+
+
+
+
+                                          Detailed studies of 100Mo two-neutrino double beta decay in
+                                          NEMO-3
+                                          R. Arnold1 , C. Augier2 , A.S. Barabash3 , A. Basharina-Freshville4 , S. Blondel2 , S. Blot5 , M. Bongrand2 ,
+                                          D. Boursette2 , V. Brudanin6,7 , J. Busto8 , A.J. Caffrey9 , S. Calvez2 , M. Cascella4 , C. Cerna10 , J.P. Cesar11 ,
+                                          A. Chapon12 , E. Chauveau10 , A. Chopra4 , L. Dawson4 , D. Duchesneau13 , D. Durand12 , R. Dvornický6,19 , V. Egorov6 ,
+                                          G. Eurin2,4 , J.J. Evans5 , L. Fajt14 , D. Filosofov6 , R. Flack4 , X. Garrido2 , C. Girard-Carillo2 , H. Gómez2 , B. Guillon12 ,
+                                          P. Guzowski5 , R. Hodák14 , A. Huber10 , P. Hubert10 , C. Hugon10 , S. Jullian2 , O. Kochetov6 , S.I. Konovalov3 ,
+                                          V. Kovalenko6 , D. Lalanne2 , K. Lang11 , Y. Lemière12 , T. Le Noblet13 , Z. Liptak11 , X.R. Liu4 , P. Loaiza2 , G. Lutter10 ,
+
+
+
+
+arXiv:1903.08084v2 [nucl-ex] 2 May 2019
+                                          M. Macko10,14 , C. Macolino2 , F. Mamedov14 , C. Marquet10 , F. Mauger12 , A. Minotti13 , B. Morgan15 , J. Mott4,27 ,
+                                          I. Nemchenok6 , M. Nomachi16 , F. Nova11 , F. Nowacki1 , H. Ohsumi17 , G. Oliviéro12 , R.B. Pahlka11 , C. Patrick4 ,
+                                          F. Perrot10 , A. Pin10 , F. Piquemal10,18 , P. Povinec19 , P. Přidal14 , Y.A. Ramachers15 , A. Remoto13 , J.L. Reyss20 ,
+                                          C.L. Riddle9 , E. Rukhadze14 , R. Saakyan4 , A. Salamatin6 , R. Salazar11 , X. Sarazin2 , J. Sedgbeer21 , Yu. Shitov6 ,
+                                          L. Simard2,22 , F. Šimkovic6,19 , A. Smetana14 , K. Smolek14 , A. Smolnikov6 , S. Söldner-Rembold5 , B. Soulé10 ,
+                                          I. Štekl14 , J. Suhonen23 , C.S. Sutton24 , G. Szklarz2 , H. Tedjditi8 , J. Thomas4 , V. Timkin6 , S. Torre4 , Vl.I. Tretyak25 ,
+                                          V.I. Tretyak6 , V.I. Umatov3 , I. Vanushin3 , C. Vilela4 , V. Vorobel26 , D. Waters4 , F. Xie4 , and A. Žukauskas26
+                                          1
+                                             IPHC, ULP, CNRS/IN2P3, F-67037 Strasbourg, France
+                                          2
+                                             LAL, Université Paris-Sud, CNRS/IN2P3, Université Paris-Saclay, F-91405 Orsay, France
+                                           3
+                                             NRC “Kurchatov Institute”, ITEP, 117218 Moscow, Russia
+                                           4
+                                             UCL, London, WC1E 6BT, United Kingdom
+                                           5
+                                             University of Manchester, Manchester, M13 9PL, United Kingdom
+                                           6
+                                             JINR, 141980 Dubna, Russia
+                                           7
+                                             National Research Nuclear University MEPhI, 115409 Moscow, Russia
+                                           8
+                                             Aix Marseille Université, CNRS, CPPM, F-13288 Marseille, France
+                                           9
+                                             Idaho National Laboratory, Idaho Falls, ID 83415, U.S.A.
+                                          10
+                                             CENBG, Université de Bordeaux, CNRS/IN2P3, F-33175 Gradignan, France
+                                          11
+                                             University of Texas at Austin, Austin, TX 78712, U.S.A.
+                                          12
+                                             LPC Caen, ENSICAEN, Université de Caen, CNRS/IN2P3, F-14050 Caen, France
+                                          13
+                                             LAPP, Université de Savoie, CNRS/IN2P3, F-74941 Annecy-le-Vieux, France
+                                          14
+                                             Institute of Experimental and Applied Physics, Czech Technical University in Prague, CZ-12800 Prague, Czech Republic
+                                          15
+                                             University of Warwick, Coventry, CV4 7AL, United Kingdom
+                                          16
+                                             Osaka University, 1-1 Machikaneyama Toyonaka, Osaka 560-0043, Japan
+                                          17
+                                             Saga University, Saga 840-8502, Japan
+                                          18
+                                             Laboratoire Souterrain de Modane, F-73500 Modane, France
+                                          19
+                                             FMFI, Comenius University, SK-842 48 Bratislava, Slovakia
+                                          20
+                                             LSCE, CNRS, F-91190 Gif-sur-Yvette, France
+                                          21
+                                             Imperial College London, London, SW7 2AZ, United Kingdom
+                                          22
+                                             Institut Universitaire de France, F-75005 Paris, France
+                                          23
+                                             Jyväskylä University, FIN-40351 Jyväskylä, Finland
+                                          24
+                                             MHC, South Hadley, MA 01075, U.S.A.
+                                          25
+                                             Institute for Nuclear Research, 03028 Kyiv, Ukraine
+                                          26
+                                             Charles University in Prague, Faculty of Mathematics and Physics, CZ-12116 Prague, Czech Republic
+                                          27
+                                             Present Address: Boston University, Boston, MA 02215, U.S.A.
+
+                                                    Received: date / Accepted: date
+
+                                                    Abstract. The full data set of the NEMO-3 experiment has been used to measure the half-life of the two-
+                                                    neutrino double beta decay of 100 Mo to the ground state of 100 Ru, T1/2 = 6.81 ± 0.01 (stat)+0.38
+                                                                                                                                                             
+                                                                                                                                                 −0.40 (syst) ×
+
+                                                    1018 y. The two-electron energy sum, single electron energy spectra and distribution of the angle between
+                                                    the electrons are presented with an unprecedented statistics of 5 × 105 events and a signal-to-background
+                                                    ratio of ∼80. Clear evidence for the Single State Dominance model is found for this nuclear transition.
+                                                    Limits on Majoron emitting neutrinoless double beta decay modes with spectral indices of n=2,3,7, as well
+                                                    as constraints on Lorentz invariance violation and on the bosonic neutrino contribution to the two-neutrino
+                                                    double beta decay mode are obtained.
+2                 R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3
+
+
+1 Introduction                                                their origin and end points. The electron energies and ar-
+                                                              rival times are measured with a plastic scintillator calorime-
+Spontaneous nuclear double beta decay is a second order ter. The cylindrical detector measuring 3 m in height and
+weak interaction process that was theoretically considered 5 m in diameter is made up of 20 wedge-shaped sectors
+for the first time by M. Goeppert-Mayer in 1935 [1]. It can of identical size. Each sector hosts 7 thin foil strips con-
+occur in some even-even nuclei when two bound neutrons taining a ββ isotope. The source foils are positioned in
+simultaneously undergo beta decay and are transformed the middle of the tracking detector at a radius of 1 m and
+into two bound protons emitting two electrons and two have a height of 2.48 m.
+(anti)neutrinos. Two-neutrino double beta decay, 2νββ,            The tracking detector is based on a wire chamber made
+is one of the rarest directly observed radioactive processes of 6180 open drift cells operating in Geiger mode with he-
+with half-lives ranging from 7×1018 to 2×1021 years [2,3]. lium as the main working gas with the addition of ethanol
+    The decay rate of 2νββ decay can be expressed as          (4%), argon (1%) and water vapour (0.15%). The wire
+                      2ν      4 2ν                            cells are strung vertically parallel to the source foils and
+                   1/T1/2 = gA G |M 2ν |2 ,               (1) have average transverse and longitudinal resolutions of 0.5
+                                                              mm and 0.8 cm (σ) respectively. The tracking volume is
+where gA is the axial-vector coupling constant, G2ν is a surrounded by a segmented calorimeter composed of 1940
+phase space factor, and M 2ν is a nuclear matrix element optical modules made of 10 cm thick polystyrene scintil-
+(NME). Measurement of the 2νββ half-life gives direct ac- lator blocks coupled to low radioactivity photomultiplier
+cess to the value of the NME for this process and therefore tubes (PMT). The energy resolution of optical modules for
+provides experimental input into nuclear models that are 1 MeV electrons ranges from 5.8% to 7.2% and the time
+used to evaluate NMEs. Moreover, 2νββ may provide an- resolution is 250 ps (σ). The detector was calibrated by
+swers to the question of gA quenching in nuclear matter deploying 207 Bi, 90 Sr and 232 U sources during the course
+that is currently being actively discussed [4–7]. Detailed of data collection. The stability of the PMT gains was
+studies of 2νββ may therefore be useful to improve NME monitored by a dedicated light injection system that was
+calculations for the neutrinoless mode of double beta de- run every 12 hours.
+cay, 0νββ, the process which violates total lepton num-
+                                                                  The NEMO-3 detector is supplied with a solenoid which
+ber and is one of the most sensitive probes of physics be-
+                                                              generates a 25 G magnetic field parallel to the tracking
+yond the Standard Model. A recent review of the 0νββ
+                                                              detector wires and provides charge identification by track
+NME calculation methods, challenges and prospects can
+                                                              curvature. The detector is surrounded by passive shielding
+be found in [8].
+                                                      100     consisting of a 19 cm thick iron plates to suppress the ex-
+    Previous measurements have shown that the             Mo
+                                                              ternal gamma ray flux, and of borated water, paraffin and
+2νββ half-life is shorter compared to other ββ isotopes
+                                                              wood to moderate and absorb environmental neutrons.
+[9–16], and it is therefore a promising nucleus for precise
+studies of the process. Here we present the most accu-            One of the unique advantages of the NEMO-3 tech-
+rate to date study of   100
+                            Mo 2νββ decay including single    nology   is the ability to unambiguously identify electrons,
+electron energy and angular distributions of the electrons    positrons,   gamma- and delayed alpha-particles. This ap-
+emitted in the decay with an unprecedented statistics of      proach    leads to a strong suppression of backgrounds by
+5 × 105 events. The impact of the single electron energy eliminating events that do not exhibit a ββ topology. In
+spectra on nuclear models that are used to calculate the addition, it allows for an efficient background evaluation
+NME is also presented.                                        by selecting event topologies corresponding to specific back-
+    Searches for most commonly discussed 0νββ mecha- ground channels. An electron is identified by a recon-
+nisms (exchange of a light Majorana neutrino, right-handed structed prompt track in the drift chamber matching to
+currents, super-symmetry) with NEMO-3 have been re- a calorimeter deposit. Extrapolating the track to the foil
+ported earlier in [17, 18]. In this paper we present results plane defines the event vertex in the source. The track ex-
+obtained for 100 Mo 0νββ decay accompanied by the emis- trapolation to the calorimeter identifies the impact point
+sion of Majoron bosons with spectral indices n ≥ 2, as of the electron track with the corresponding optical mod-
+well as constraints on contributions from bosonic neutri- ule and is used to correct the reconstructed energy of the
+nos and from Lorentz invariance violation to 2νββ spectra electron deposited in the scintillator. The track curvature
+of 100 Mo.                                                    in the magnetic field is used to distinguish electrons from
+                                                              positrons. A γ-ray is identified as an energy deposit in the
+                                                              calorimeter without an associated track in the drift cham-
+                                                              ber. An α-particle is identified by a short straight track
+2 The NEMO-3 detector                                         delayed with respect to the prompt electron in order to
+                                                              tag 214 Bi → 214 Po delayed coincidences.
+The NEMO-3 detector, its calibration and performance
+are described in detail in [19] and more recently in [18].        The NEMO-3 detector took data at the Modane Un-
+A combination of tracking and calorimetric approaches         derground     Laboratory (LSM) in the Frejus tunnel at a
+allows for a full reconstruction of ββ event topology. A depth of 4800 m w.e. enabling       6
+                                                                                                 the cosmic muon flux sup-
+tracking chamber is used to reconstruct electron tracks,      pression   by a factor of > 10   . The detector hosted source
+                                                              foils of 7 different ββ isotopes. The two isotopes with the
+Correspondence to: tretyak@jinr.ru                            largest mass were 100 Mo (6.914 kg) [18] and 82 Se (0.932
+                    R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3                         3
+
+
+kg) [20] with smaller amounts of 48 Ca, 96 Zr, 116 Cd, 130 Te
+and 150 Nd [21–25].
+    Two types of purified molybdenum foils were installed
+in NEMO-3, metallic and composite. Both foil types were
+enriched in 100 Mo with the isotopic enrichment factor rang-                           γ
+ing from 95.14 ± 0.05% to 98.95 ± 0.05%. The average en-
+richment factor was 97.7% for metallic foils and 96.5% for
+composite foils. The metallic foils contained 2479 ± 5 g
+of 100 Mo. The mean metallic foil density is 58 mg/cm2
+with a total foil surface of 43924 cm2 . The composite foils
+contained 4435 ± 13 g of 100 Mo. They were produced by                                             /
+mixing a fine molybdenum powder with polyvinyl alco-
+hol (PVA) glue and deposited between Mylar foils of 19                                        (a) Internal
+µm thickness. The average surface density of the compos-
+ite foils is 66 mg/cm2 and the total foil surface area is
+84410 cm2 .
+    Monte Carlo (MC) simulations are performed with a
+GEANT-3 based [26] program using the DECAY0 [27]
+event generator. The time-dependent status and perfor-
+mance of the detector are taken into account in modelling
+the detector response.
+    The data presented here were collected between Febru-
+ary 2003 and October 2010 with a live time of 4.96 y and a
+total exposure of 34.3 kg·y of 100 Mo. This is the same ex-
+posure as that used for 0νββ results published earlier [18].                                                          /
+
+                                                                                             (b) External
+3 Background model
+                                                                     Fig. 1: Mechanisms of internal (a) and external (b) back-
+Trace quantities of naturally-occurring radioactive isotopes         ground production in the source foil
+can occasionally produce two-electron events and thus can
+mimic ββ-decay events. The largest contributions come
+from isotopes that are progenies of 238 U (234m Pa, 214 Pb,
+214
+    Bi, 210 Bi) and of 232 Th (228 Ac, 212 Bi, 208 Tl), as well as   low energy region of the 100 Mo 2νββ spectrum were not
+40
+   K.                                                                relevant for the 0νββ analysis in [18] and are therefore dis-
+     The background is categorised as internal if it origi-          cussed in more detail below. The background in question
+nates from radioactive decays inside the ββ source foils,            comes from traces of β-decaying isotopes 210 Bi, 40 K and
+                                                                     234m
+see Fig. 1(a). Two electrons can be produced via β-decay                   Pa in 100 Mo foils. In addition, 100 Mo 2νββ decay to
+followed by a Møller scattering, β-decay to an excited state         the 0+1 excited state of
+                                                                                               100
+                                                                                                   Ru is also taken into account as
+with the subsequent internal conversion or due to Comp-              a source of internal background. The experimental half-
+ton scattering of the de-excitation photon. Decays inside            life value of T1/2 = 6.7+0.5
+                                                                                              −0.4 × 10
+                                                                                                        20
+                                                                                                           y [3] is used to evaluate
+the tracking detector volume form a separate background              this contribution.
+category. The main source of this background is radon,                    The activities of β-emitters in 100 Mo foils are deter-
+222
+    Rn. The decay of radon progenies near the source foil            mined from the fit to the electron energy distribution for
+can produce signal-like events in an analogous manner to             a single electron event sample, which is shown in Fig. 2
+internal background decays.                                          separately for metallic and composite foils. To disentangle
+     The last background category is due to the external             the 210 Bi contribution from the source foils and the surface
+γ-ray flux produced by decay of radioactive isotopes in              of the tracker wires the activity measured in [28] is used
+detector components, the surrounding area and due to                 for the latter. Fig. 2 shows the sum of both contributions.
+neutron interactions in the shield and material of the de-           Secular equilibrium is assumed between 214 Pb and 214 Bi.
+tector. The PMT glass is the main source of these γ-rays.            The same is done between 228 Ac, 212 Bi and 208 Tl, where
+They can produce two-electron events due to e+ e− pair               the branching ratio of 35.94% is taken into account. There
+creation in the source foil and subsequent charge misiden-           is sufficiently good agreement between data and MC for
+tification, double Compton scattering or Compton scat-               the single electron energy spectrum. The observed devi-
+tering followed by Møller scattering, see Fig. 1(b).                 ations of MC from data are within 6% and are not sig-
+     A detailed discussion of the NEMO-3 background model            nificant when the systematic uncertainty on the external
+is presented in [28] and results of screening measurements           background is taken into account.
+can be found in [18,19,28]. Here we follow the same back-                 The results of the internal 100 Mo foil contamination
+ground model as that presented for the 100 Mo 0νββ analy-            measurements carried out with the NEMO-3 detector are
+sis [18]. However, radioactive isotopes contributing to the          shown in Table 1.
+4                   R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3
+
+
+
+
+Fig. 2: Single electron events energy spectra for metallic and composite molybdenum. The error bars correspond to
+statistical uncertainty only.
+
+
+Table 1: 100 Mo source foil contamination activities mea-               After the above event selection there are 501534 100 Mo
+sured with the NEMO-3 detector. Activities of 214 Bi and            two-electron candidate events, with 193699 coming from
+208
+    Tl are from [28].                                               the metallic foils and 307835 from the composite foils.
+                                                                    Table 2 shows the number of expected background and
+Source                     100
+                                 Mo metallic   100
+                                                     Mo composite   candidate signal events in 100 Mo foils. The number of
+214                                                                 2νββ events is obtained from a binned log-likelihood fit to
+    Bi internal, mBq/kg    0.060 ± 0.019        0.305 ± 0.038
+214                                                                 the two-electron energy sum distribution under the Single
+    Bi mylar, mBq/kg             −               1.05 ± 0.06
+208                                                                 State Dominance (SSD) nuclear model, as detailed below.
+    Tl, mBq/kg             0.087 ± 0.004        0.128 ± 0.003
+                                                                    The average signal-to-background ratio is S/B=79, with
+234m
+       Pa, mBq/kg           11.40 ± 0.06          2.10 ± 0.03       S/B=63 for the metallic foils and S/B=94 for the compos-
+40
+     K , mBq/kg              8.67 ± 0.05         13.57 ± 0.04       ite foils. The detector acceptance and selection efficiency
+210                                                                 for 2νββ 100 Mo events calculated using MC simulations
+      Bi, mBq/m2             5.51 ± 0.03         19.42 ± 0.03
+                                                                    is  = (2.356 ± 0.002)%, with met = (2.472 ± 0.003)%
+                                                                    and com = (2.292 ± 0.002)% for the metallic and compos-
+                                                                    ite molybdenum foils respectively. Using the above values
+4 Two-neutrino double beta decay of 100 Mo                          gives the 100 Mo 2νββ-decay half-life of T1/2 = (6.65 ±
+                                                                    0.02) × 1018 y for the metallic foils and T1/2 = (6.91 ±
+                                                                    0.01) × 1018 y for the composite foils. The difference be-
+Candidate ββ events are selected by requiring two recon-            tween the two sample measurements may be explained by
+structed electron tracks, each associated with an energy            inaccuracy of the thin foil modelling and is taken into ac-
+deposited in an individual optical module. The energy de-           count in estimation of the systematic uncertainty in Sec-
+posited by the electron in a single optical module should           tion 4.2. We consider the mean value over the two data
+be greater than 300 keV. Each PMT must be flagged as                samples as the more reliable half-life estimation
+stable according to the light injection survey [18]. The
+tracks must both originate from the 100 Mo source foil, and                       T1/2 = (6.81 ± 0.01) × 1018 y.            (2)
+their points of intersection with the plane of the source foil
+must be within 4cm transverse to and 8cm along the di-                  The two-electron energy sum spectra and the distribu-
+rection of the tracker wires, in order to ensure that the           tions of cosine of the angle between two electrons emitted
+two tracks are associated to a common event vertex. The             from 100 Mo foil are shown in Fig. 3, separately for the
+track curvatures must be consistent with electrons moving           metallic and composite foils as well as for the total 100 Mo
+outwards from the source foil. The timing and the path              sample.
+length of the electrons must be consistent with the hy-                 The electron energy measured in the calorimeter is
+pothesis of simultaneous emission of two electrons from a           smaller than the energy at the point of origin due to energy
+common vertex in the 100 Mo source foil [18]. There should          losses in the foil and in the drift chamber. For instance in
+be no γ-ray hits and α-particle tracks in the event.                the case of 100 Mo 2νββ decay the mean electron track
+                                        R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3                                                                       5
+
+                                                        100                                                                                         100
+                                              NEMO-3          Mo metallic                                                                 NEMO-3          Mo metallic
+
+
+
+
+      Events/0.1 MeV
+                                                                                                          Events
+                                                                                                                                25000
+                            20000                                                        Data (193699)                                                                            Data (193699)
+                                                                                              100                                                                                      100
+                                                                                         2νββ Mo                                                                                  2νββ Mo
+                                                                                                                                20000
+                                                                                         Tot bkg                                                                                  Tot bkg
+                            15000
+                                                                               2                                                                                           2
+                                                                              χ /ndf= 13.5/21 = 0.64                            15000                                     χ /ndf= 26.60/19 = 1.40
+
+                            10000
+                                                                                                                                10000
+
+                            5000
+                                                                                                                                5000
+
+
+                                0                                                                                                   0
+
+
+
+
+      Residual(σ) Data/MC                                                                                 Residual(σ) Data/MC
+                             1.05                                                                                                1.05
+                                1                                                                                                   1
+                             0.95                                                                                                0.95
+                                2                                                                                                   2
+                                0                                                                                                   0
+                               -2                                                                                                  -2
+                                    0   0.5     1        1.5            2          2.5       3      3.5                              -1   -0.5                   0               0.5            1
+                                                                                             ESUM (MeV)                                                                                    cos(Θ)
+
+                                                       100                                                                                         100
+                                              NEMO-3         Mo composite                                                                 NEMO-3         Mo composite
+                                                                                                                                40000
+
+
+
+
+      Events/0.1 MeV
+                                                                                                          Events
+                            35000
+                                                                                         Data (307835)                                                                            Data (307835)
+                            30000                                                             100                                                                                      100
+                                                                                         2νββ Mo                                                                                  2νββ Mo
+                                                                                         Tot bkg                                30000                                             Tot bkg
+                            25000
+                                                                               2                                                                                           2
+                                                                              χ /ndf= 36.5/21 = 1.74                                                                      χ /ndf= 15.41/19 = 0.81
+                            20000
+                                                                                                                                20000
+                            15000
+
+                            10000
+                                                                                                                                10000
+                            5000
+
+                                0                                                                                                   0
+
+
+
+
+      Residual(σ) Data/MC                                                                                 Residual(σ) Data/MC
+                             1.05                                                                                                1.05
+                                1                                                                                                   1
+                             0.95                                                                                                0.95
+                                2                                                                                                   2
+                                0                                                                                                   0
+                               -2                                                                                                  -2
+                                    0   0.5     1        1.5            2          2.5       3      3.5                              -1   -0.5                   0               0.5            1
+                                                                                             ESUM (MeV)                                                                                    cos(Θ)
+
+                                                             100                                                                                         100
+                                                NEMO-3             Mo total                                                                 NEMO-3             Mo total
+
+
+
+
+      Events/0.1 MeV
+                                                                                                          Events
+                                                                                         Data (501534)                          60000                                             Data (501534)
+                            50000                                                             100                                                                                      100
+                                                                                         2νββ Mo                                                                                  2νββ Mo
+                                                                                         Tot bkg                                50000                                             Tot bkg
+                            40000
+                                                                               2                                                                                           2
+                                                                              χ /ndf= 21.0/22 = 0.95                            40000                                     χ /ndf= 22.2/19 = 1.17
+                            30000
+                                                                                                                                30000
+                            20000
+                                                                                                                                20000
+
+                            10000                                                                                               10000
+
+                                0                                                                                                   0
+
+
+
+
+      Residual(σ) Data/MC                                                                                 Residual(σ) Data/MC
+                             1.05                                                                                                1.05
+                                1                                                                                                   1
+                             0.95                                                                                                0.95
+                                2                                                                                                   2
+                                0                                                                                                   0
+                               -2                                                                                                  -2
+                                    0   0.5     1        1.5            2          2.5       3      3.5                              -1   -0.5                   0               0.5            1
+                                                                                             ESUM (MeV)                                                                                    cos(Θ)
+
+
+Fig. 3: Distributions of two-electron summed kinetic energy and the opening angle between two electron tracks in
+100
+    Mo foils after an exposure of 34.3 kg·y. Data are compared to the MC prediction of the SSD model (see text), where
+the resulting event numbers are taken from a binned log-likelihood fit.
+6                       R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3
+
+Table 2: Expected number of background events in the                 reaction [32]. It was estimated that this transition could
+two-electron channel and the number of 100 Mo 2νββ can-              contribute as much as 80% to the total value of the 100 Mo
+didate events in molybdenum foils.                                   2νββ matrix element.
+                                                                         It was shown in [30] that SSD and HSD models can be
+    Source             Metallic       Composite      Total 100 Mo    directly distinguished by making high precision kinematics
+    228                                                              measurements of 2νββ decay products. The distribution
+        Ac,212 Bi,
+    208
+        Tl             49.5 ± 0.5     142.3 ± 1.3     191.8 ± 1.4
+                                                                     of the individual electron energies was shown to have the
+    214
+        Pb,214 Bi      14.2 ± 0.1     177.2 ± 0.7     191.3 ± 0.7    most discriminating power, especially in the low energy
+    40
+       K              101.4 ± 2.5     296.0 ± 7.3     397.5 ± 7.7    part of the spectrum. Fig 4 shows the individual electron
+    234m
+         Pa          1783.8 ± 11.8    656.7 ± 4.3    2440.5 ± 12.5   energy spectra for three nuclear models, with SSD-3 being
+    210
+        Bi             25.6 ± 1.4      90.3 ± 2.8      115.9 ± 3.1   a modification of the SSD model where a finer structure
+    Radon             434.3 ± 6.2     590.3 ± 5.2     1024.6 ± 8.1   of intermediate states is accounted for [33].
+    Ext Bkg           562.7 ± 9.7    1238.6 ± 14.7   1801.3 ± 17.6
+    ββ 0+1             48.6 ± 0.8      71.1 ± 1.0      119.7 ± 1.3
+
+
+
+                                                                              dN/dTe (a.u.)
+    Tot bkg           3020 ± 17        3263 ± 18       6283 ± 25
+                                                                                                                          HSD
+    ββ g.s.          190683 ± 117    304571 ± 144    495254 ± 186                              1
+                                                                                                                          SSD
+    Data                193699          307835          501534                                                            SSD-3
+                                                                                              0.8
+
+                                                                                              0.6
+length from the source foil to the calorimeter is 75 cm and
+the mean energy loss of electrons in the drift chamber is                                     0.4
+43 keV. The single and summed electron energy distribu-
+                                                                                              0.2
+tions are presented for the measured values of the electron
+kinetic energy Ee and sum of the measured electron ki-                                         0
+netic energies ESU M , respectively, i.e., without correction                                       0   0.5   1   1.5    2        2.5
+for the energy loss.                                                                                                    Te (MeV)
+    The angular distribution is corrected with the well-
+measured distribution of the opening angle between two               Fig. 4: Theoretical distributions of the individual elec-
+electrons emitted in 207 Bi decay. The MC distribution of            tron kinetic energy for three models of 100 Mo 2νββ decay:
+the cosine of the angle between two electron tracks has              HSD, SSD and SSD-3.
+been reweighted based on data collected in the regular
+energy calibration runs performed with 207 Bi sources. The
+correction is biggest for small opening angles, and is at the
+level of 4% on average.                                                  Fig. 5 shows the energy sum and angular distribu-
+                                                                     tion of the final state electrons where the data are fit-
+                                                                     ted with the HSD model. The tension between the data
+4.1 Role of intermediate nuclear states in 100 Mo 2νββ               and the model is evident already from these distributions
+transition                                                           with χ2 /ndf=4.57 (p-value=5.3·10−12 ) and χ2 /ndf=1.98
+                                                                     (p-value=0.007) for the energy sum and angular distribu-
+The nuclear ββ decay (A,Z) → (A,Z+2) is realized via two             tions respectively. However, the strongest evidence comes
+subsequent virtual β transitions through the complete set            from the single electron energy distributions shown in
+of states of intermediate nucleus (A,Z+1). In the case of            Fig. 6 for the three models, HSD, SSD and SSD-3, fitted
+100
+    Mo 2νββ transition between the ground states of the              to the data. It is clear from the distributions and χ2 values
+parent (100 Mo) and daughter (100 Ru) nuclei with spin-              that the HSD model can be ruled out with high confidence
+parity 0+ the process is governed by two Gamow-Teller                while SSD and SSD-3 provide a fairly good description of
+transitions through 1+ states of 100 Tc. Nuclear theory              the data.
+does not predict a priori whether there is a dominance                   The difference between SSD and SSD-3 in describing
+of transition through the 1+ ground state (SSD hypothe-              the data is maximised with a cut on the electron energy
+sis [29, 30]) or through higher lying excited states, namely         sum of ESU M > 1.4 MeV as shown in Fig. 7, which
+from the region of the Gamow-Teller resonance (HSD hy-               also increases the signal-to-background ratio. There is a
+pothesis). The SSD versus HSD analysis is feasible as the            slight preference of the SSD-3 model over SSD in this case,
+ground state of 100 Tc has spin-parity J P = 1+ and is lying         contrary to the results obtained without this cut demon-
+close to the ground state of 100 Mo.                                 strated at Fig. 6. Due to systematic effects connected to
+    The evidence in favour of SSD in 100 Mo 2νββ de-                 the energy reconstruction and electron energy loss simu-
+cay was already observed at the beginning of NEMO-3                  lations discussed below these two models cannot be dis-
+data analysis [31]. Further hints for the SSD model in the           criminated against each other. The SSD is chosen as the
+100
+    Mo 2νββ decay were obtained in charge-exchange ex-               baseline model and is used to estimate the 100 Mo 2νββ
+periments by observing a strong Gamow-Teller transition              half-life (see Section 4 and Fig. 3). We note that differ-
+to the 1+ ground state of 100 Tc in the 100 Mo(3 He,t)100 Tc         ences in the low energy part of the single electron spec-
+                   R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3                     7
+
+
+tra (Fig. 4) affect the selection efficiency of 100 Mo 2νββ     Table 3: Summary of systematic uncertainties on the mea-
+events. Consequently, the measured half-life for the SSD        sured 2νββ 100 Mo half-life
+model is 14% shorter than the analogous result for the
+                                                                                                                      2ν
+HSD model. The SSD-3 model would give a 1.8% shorter            Source of uncertainty                      Effect on T1/2 (%)
+half-life than that of the SSD model.
+                                                                Absolute normalization of 2e                     ±5
+                                                                Thin source foil modelling                    [+1.5, −2.3]
+                                                                100
+                                                                    Mo decay model                               ±1.8
+4.2 Systematic uncertainties on 100 Mo 2νββ half-life           Energy calibration                               ±0.6
+                                                                100
+                                                                    Mo mass                                      ±0.2
+Apart from the statistical uncertainties on the fitted num-     Background uncertainty                           ±0.2
+ber of signal events, the measurement of the 2νββ decay
+half-life is subject to a number of systematic uncertainties.   Total                                         [+5.6, −5.8]
+     The uncertainty on the reconstruction and selection
+efficiency including the detector acceptance effects is eval-
+uated by carrying out dedicated calibrations with 207 Bi        5 Search for new physics with continuous
+sources whose activities were known with a 5% uncer-            100
+                                                                    Mo ββ energy spectra
+tainty. Consequently, the systematic error on the signal
+efficiency is taken to be 5%.                                   Deviations in the shape of the 2νββ energy spectra can
+     Limited presision of MC simulation program in mod-         provide hints of new physics. Below we report on results
+elling of multiple scattering processes and electron energy     of searches for physics beyond the Standard Model that
+losses in molybdenum ββ source foils also contribute to the     can modify the two-electron energy sum distribution of the
+total systematic error. Corresponding uncertainty is eval-      100
+                                                                    Mo 2νββ decay due to emission of Majoron bosons, the
+uated as the difference between the mean half-life value        existence of a bosonic component in the neutrino states
+and the values obtained with metallic (-2.3%) and com-          and possible Lorentz invariance violation.
+posite (+1.5%) foils.
+                                                                    The shape of the two-electron energy sum distribution
+     The 1.8% half-life value difference between the SSD        in various types of decays is characterized by the spec-
+and SSD-3 nuclear models is taken as a systematic error         tral index n [36], being determined by the phase space
+due to the 100 Mo 2νββ decay model.                             G ∼ (Qββ − T )n , where Qββ is the the full energy released
+     The uncertainty on the energy scale translates into an     in the decay minus two electron masses and T is the sum
+error on the half-life measurement of 0.6%.                     of kinetic energies of two emitted electrons. The ordinary
+     The 100 Mo mass uncertainty gives directly the corre-      2νββ decay has a spectral index of n = 5. Any modifica-
+sponding uncertainty of the half-life value and is estimated    tion from this functional form can be an indication of new
+to be 0.2%.                                                     physics.
+     The error on the activities of external backgrounds,           A number of grand unification theories predict the
+radon and the foil contamination with 214 Bi and 208 Tl         existence of a massless or light boson which couples to
+is 10% as shown in [18]. The uncertainty on the back-           the neutrino. Neutrinoless ββ decay can proceed with the
+grounds from 40 K in the source foils as well as from 210 Bi    emission of one or two Majoron bosons resulting in a con-
+is estimated to be 4%. The observed discrepancy in the          tinuous energy sum spectrum with spectral index n 6= 5.
+234m
+      Pa decay scheme reported in [34] and [35] lead to a       The decay accompanied by a single Majoron emission has
+30% normalisation uncertainty on the activity from this         n = 1, 2 and 3, while models with two Majoron emissions
+isotope. The 7.5% error on the rate of the 100 Mo 2νββ          predict n = 3 and 7 (see [37] and references therein). The
+decay to the excited states [3] is also taken into account.     results for the neutrinoless ββ decay with the emission
+Overall, due to a high signal-to-background ratio the un-       of a Majoron corresponding to the spectral index n = 1
+certainty on all background contributions produces only a       have already been published in [17, 18]. The Majoron-
+0.2% systematic uncertainty on the 100 Mo 2νββ half-life        accompanied 0νββ decay modes with spectral indices n =
+determination.                                                  2, 3 and 7 are considered here.
+     The systematic uncertainties on the measured 2νββ              It was noted in [38] that violation of the Pauli exclusion
+100
+    Mo half-life are summarised in Table 3. The individ-        principle resulting in a bosonic component in the neutrino
+ual sources of the systematic error are assumed to be           states can be tested by looking at the shape of the energy
+uncorrelated and the total uncertainty is obtained to be        and angular distributions of the electrons emitted in ββ
+[+5.6, −5.8]%. The final value of the half-life for the 2νββ    decay. For the two-electron energy sum distribution the
+decay of 100 Mo under the SSD model is:                         corresponding index would be n = 6.
+              h
+                               +0.38
+                                           i                        Lorentz invariance is a fundamental symmetry. How-
+    T1/2 = 6.81 ± 0.01 (stat)−0.40 (syst) × 1018 y. (3)         ever, new physics at very high energies close to the Planck
+                                                                scale can manifest itself in small effects at low energies, in-
+This value is in good agreement with the world average          cluding Lorentz invariance violation. Consequently, searches
+value of (7.1 ± 0.4) × 1018 y [3] and with a recent result      for non-Lorentz invariant effects have attracted active the-
+obtained using low-temperature scintillating bolometers         oretical and experimental effort [39–42]. The possibility
+(Li2 100 MoO4 ), [6.90±0.15(stat)±0.37(syst)]×1018 y [16].      to test Lorentz invariance with ββ decay was discussed
+8                                                                R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3
+
+                                                                                         100                                                                                                                                           100
+                                                                             NEMO-3            Mo total                                                                                                 NEMO-3                               Mo total
+
+
+
+
+                            Events / 0.1 MeV
+                                                                                                                                                          Events
+                                                                                                                                   Data (501534)                                60000                                                                             Data (501534)
+                                                  50000                                                                                 100                                                                                                                            100
+                                                                                                                                   2νββ Mo HSD                                                                                                                    2νββ Mo HSD
+                                                                                                                                   Tot bkg                                      50000                                                                             Tot bkg
+                                                  40000
+                                                                                                           2                                                                                                                                              2
+                                                                                                          χ /ndf= 100.5/22 = 4.57                                               40000                                                                    χ /ndf= 37.6/19 = 1.98
+                                                  30000
+                                                                                                                                                                                30000
+                                                  20000
+                                                                                                                                                                                20000
+
+                                                  10000                                                                                                                         10000
+
+                                                      0                                                                                                                             0
+
+
+
+
+                            Residual(σ) Data/MC                                                                                                           Residual(σ) Data/MC
+                                                   1.05                                                                                                                          1.05
+                                                      1                                                                                                                             1
+                                                   0.95                                                                                                                          0.95
+                                                    2.5                                                                                                                             2
+                                                      0                                                                                                                             0
+                                                   -2.5                                                                                                                            -2
+                                                          0      0.5         1          1.5         2                            2.5         3      3.5                              -1               -0.5                                     0                  0.5                 1
+                                                                                                                                             ESUM (MeV)                                                                                                                          cos(Θ)
+
+
+                          Fig. 5: Two-electron events. Energy sum and cosine of the angle between the two electrons for HSD model.
+
+
+                           x 10 2                             NEMO-3
+                                                                       100
+                                                                             Mo                                                   x 10 2         NEMO-3
+                                                                                                                                                                100
+                                                                                                                                                                                Mo                                                  x 10 2          NEMO-3
+                                                                                                                                                                                                                                                                  100
+                                                                                                                                                                                                                                                                        Mo
+                          1400                                                                                                   1400                                                                                              1400
+
+
+
+
+    N entries/0.075 MeV                                                                                    N entries/0.075 MeV                                                                               N entries/0.075 MeV
+                                                                                      Data                                                                                               Data                                                                                    Data
+                          1200                                                        2νββ 100Mo                                 1200                                                    2νββ 100Mo                                1200                                          2νββ 100Mo
+                          1000                                                        Tot bkg                                    1000                                                    Tot bkg                                   1000                                          Tot bkg
+                           800                                                   HSD                                              800                                                SSD                                            800                                     SSD-3
+                           600                                               χ2/ndf= 42.91                                        600                                            χ2/ndf= 1.54                                       600                                 χ2/ndf= 1.84
+                           400                                                                                                    400                                                                                               400
+                           200                                                                                                    200                                                                                               200
+                             0                                                                                                          0                                                                                              0
+
+
+
+    Residual (σ)                                                                                           Residual (σ)                                                                                      Residual (σ)
+                            10                                                                                                          2                                                                                              2
+                             0                                                                                                          0                                                                                              0
+                           -10                                                                                                         -2                                                                                             -2
+                              0                       0.5        1     1.5        2     2.5   3                                          0    0.5    1             1.5               2     2.5   3                                      0       0.5       1       1.5        2     2.5   3
+                                                                                       Ee (MeV)                                                                                           Ee (MeV)                                                                                Ee (MeV)
+
+Fig. 6: Distribution of individual electron kinetic energy in the ββ channel from 100 Mo foils compared with MC spectra
+under the HSD, SSD and SSD-3 nuclear models. The HSD hypothesis is excluded (χ2 /ndf = 1159/27) while the data
+are consistent with the SSD and SSD-3 models (χ2 /ndf = 41.5/27 and χ2 /ndf = 49.7/27 respectively).
+
+
+                                                  NEMO-3 100Mo, Esum > 1.4 MeV                                                           NEMO-3 100Mo, Esum > 1.4 MeV                                                                     NEMO-3 100Mo, Esum > 1.4 MeV
+
+
+
+
+    N entries/0.075 MeV                                                                                    N entries/0.075 MeV                                                                               N entries/0.075 MeV
+                          35000                                                       Data                                       35000                                                   Data                                      35000                                         Data
+                                                                                      2νββ 100Mo                                                                                         2νββ 100Mo                                                                              2νββ 100Mo
+                          30000                                                                                                  30000                                                                                             30000
+                                                                                      Tot bkg                                                                                            Tot bkg                                                                                 Tot bkg
+                          25000                                                                                                  25000                                                                                             25000
+                                                                                 HSD                                                                                                 SSD                                                                                    SSD-3
+                          20000                                                                                                  20000                                                                                             20000
+                                                                             χ2/ndf= 55.86                                                                                       χ2/ndf= 1.45                                                                           χ2/ndf= 1.13
+                          15000                                                                                                  15000                                                                                             15000
+                          10000                                                                                                  10000                                                                                             10000
+                           5000                                                                                                   5000                                                                                              5000
+                              0                                                                                                       0                                                                                                 0
+
+
+
+    Residual (σ)                                                                                           Residual (σ)                                                                                      Residual (σ)
+                             10                                                                                                     2.5                                                                                               2.5
+                              0                                                                                                       0                                                                                                 0
+                            -10                                                                                                    -2.5                                                                                              -2.5
+                               0                          0.5    1     1.5        2     2.5   3                                        0       0.5    1                 1.5          2     2.5   3                                       0         0.5        1    1.5       2     2.5   3
+                                                                                       Ee (MeV)                                                                                           Ee (MeV)                                                                                Ee (MeV)
+
+Fig. 7: Distribution of individual electron kinetic energy in the ββ channel from 100 Mo foils with the cut on the
+summed electron energy ESU M > 1.4 MeV to maximise the signal-to-background ratio. The data are compared with
+MC spectra under the HSD, SSD and SSD-3 nuclear models. The HSD hypothesis is excluded (χ2 /ndf = 1508/27)
+while the data are consistent with the SSD and SSD-3 models (χ2 /ndf = 39/27 and χ2 /ndf = 30.6/27 respectively).
+                                R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3                            9
+
+
+in [43, 44]. In case of 2νββ decay the Lorentz invari-                       Table 4: Lower bounds on half-lives (×1021 y) at 90%
+ance violation may be manifested as a modification of the                    C.L. from 0νββ searches with Majoron emission (spectral
+conventional electron sum spectrum due to an additional                      indices n = 2, 3, 7), and searches for the bosonic neutrino
+contribution of the Lorentz-violating perturbation with a                    admixture. The ranges in the expected half-life limits are
+spectral shape of n = 4.                                                     from the ±1σ range of the systematic uncertainties on the
+                                                                             background model, signal efficiency and distortions in the
+                                                                             shape of the energy spectrum.
+
+
+
+ dN/dT (a.u.)
+                 1                                                2νββ                                          Expected
+                                                                  0νM2       Decay mode            −1σ           Median        +1σ     Observed
+                0.8                                               0νM3
+                                                                  0νM7
+                                                                             Majoron n=2            13            9.2           6.2      9.9
+                0.6                                               2ν-LIV     Majoron n=3           6.1            4.3           2.9      4.4
+                                                                  2ν-Boson
+                                                                             Majoron n=7           1.8            1.3          0.88      1.2
+                0.4                                                          2νββ Bosonic ν        1.7            1.2          0.83      1.2
+                0.2
+
+                 0
+                      0   0.5    1      1.5    2      2.5     3        3.5
+                                                                             are translated into the upper limits on the lepton number
+                                                                  T (MeV)    violating parameter gee , which is proportional to the cou-
+                                                                             pling between the neutrino and the Majoron boson, using
+Fig. 8: Spectrum of the of kinetic energy sum of two elec-                   the relation,
+trons for the standard 100 Mo 2νββ decay (spectral in-
+                                                                                               1/T1/2 = |hgee i|m G|M |2 ,                     (4)
+dex n = 5) compared to the spectra for neutrinoless ββ
+decay with the emission of one or two Majorons 0νM n
+                                                                             where G is the phase space (which includes the axial-
+(n = 2, 3, 7); shape of the perturbation to the standard
+                                                                             vector coupling constant gA ), M is the nuclear matrix
+2νββ decay due to Lorentz invariance violation 2ν-LIV
+                                                                             element, and m = 2(4) is the mode with the emission
+(n = 4) and spectrum for 2νββ decay with bosonic neu-
+                                                                             of one (two) Majoron particle(s). The M and G values
+trino 2ν-Boson (n = 6).
+                                                                             are taken from [47]. For the single Majoron emission and
+                                                                             n = 3, M and G are taken from [48]. There are no NME
+                                                                             and phase space calculations available for n = 2.
+    The theoretical distributions of the two-electron en-                        The upper limits on the Majoron-neutrino coupling
+ergy sum for different modes of 100 Mo ββ decay discussed                    constant gee are shown in Table 5. One can see that the
+above are shown in Fig 8. The difference in the shape                        NEMO-3 results presented here are the current best limits
+of the distributions due to different spectral indices n is                  for n = 3 and the single Majoron emission mode and are
+used to evaluate possible contributions from physics be-                     comparable with the world’s best results from the EXO-
+yond the Standard Model. No significant deviations from                      200 [49] and GERDA [50] experiments for the other two
+the expected 100 Mo 2νββ spectral shape (n = 5) have                         modes.
+been observed and therefore limits on new physics param-
+eters have been set using the full energy sum spectrum                       Table 5: Upper limits on the Majoron-neutrino coupling
+of the full 100 Mo data set. The contributions of the ββ                     constant gee from NEMO-3 (100 Mo, this work) and EXO-
+decay modes with spectral indices n = 2, 3, 6, 7 are con-                    200 (136 Xe) [49] and GERDA (76 Ge) [50] experiments. All
+strained with a modified frequentist CLs method [45]                         limits are at 90% C.L. The ranges are due to uncertainties
+using a profile likelihood fitting technique (COLLIE soft-                   in NME calculations.
+ware package [46]). A profile likelihood scan is used for
+the distribution with the spectral index n = 4 in order to                   n        Mode           100
+                                                                                                           Mo          136
+                                                                                                                             Xe [49]   76
+                                                                                                                                            Ge [50]
+explore possibility of negative as well as positive Lorentz-
+violating perturbation.                                                      n=3       χ0         0.013 − 0.035          0.06            0.047
+    The systematic uncertainties on background contribu-                     n=3      χ0 χ0         0.59 − 5.9         0.6 − 5.5       0.7 − 6.6
+tions discussed in Section 4.2, the 5% uncertainty on the                    n=7      χ0 χ0         0.48 − 4.8         0.4 − 4.7       0.8 − 7.1
+detector acceptance and selection efficiency for signal, a
+possible distortion in the shape of the two-electron energy
+sum spectrum due to the energy calibration accuracy, as                         The contribution of bosonic neutrinos to the 2νββ-
+well as a 5% error on the modelling of the energy loss of                    decay rate can be parametrised as [38]:
+electrons are taken into account in limit setting without
+imposing a constraint on the normalization of standard                                        Wtot = cos4 χWf + sin4 χWb ,                     (5)
+2νββ contribution.
+    The limits on the half-lives for different 0νββ modes                    where Wf and Wb are the weights in the neutrino wave-
+with Majoron(s) emission, and for the bosonic neutrino                       function expression corresponding to the two fermionic
+admixture obtained with the CLs method are given in                          and two bosonic antineutrino emission respectively. The
+                                                                                                f                          b
+Table 4. The half-life limits on the Majoron 0νββ modes                      purely fermionic, T1/2 , and purely bosonic, T1/2 , half-lives
+10                  R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3
+
+
+are calculated under the SSD model to be [38] :
+                                                                            ∆ln(L)
+                                                                                     1.8
+  f
+ T1/2 (0+ g.s.) = 6.8 · 1018 y,    b
+                                  T1/2 (0+ g.s.) = 8.9 · 1019 y.                     1.6
+                                                       (6)                           1.4
+                                       b
+Using the NEMO-3 half-life limit of T1/2  (0+ g.s.) > 1.2 ·                          1.2
+1021 y (Table 4) an upper limit on the bosonic neutrino                                1
+contribution to the 100 Mo 2νββ decay to the ground state                            0.8
+can be evaluated as:                                                                 0.6
+                                                                                     0.4
+                  sin2 χ < 0.27 (90% C.L.).                  (7)                     0.2
+Although this limit is stronger than the bound obtained                                0
+                                                                                           -2000   -1000   0     1000   2000
+earlier in [38], the 2νββ transition of 100 Mo to the ground
+                                                                                                               LIV ββ counts
+state is not very sensitive to bosonic neutrino searches due
+to a small value of the expected bosonic-to-fermionic de-
+cay branching ratio r0 (0+ g.s.) = 0.076. The 100 Mo 2νββ          Fig. 9: Profile likelihood scan over observed two-electron
+decay to the first excited 2+     1 state has a branching ra-
+                                                                   LIV counts in 100 Mo 2νββ energy sum spectrum. The 90%
+tio of r0 (2+  ) = 7.1  [38]  and  is therefore potentially more   CL exclusion limit is shown with the dashed line.
+             1
+promising despite a lower overall decay rate. The current
+best experimental limit for this process is T1/2 (2+       1) >
+2.5 · 1021 y [51]. This bound is still an order of magni-          A summary of the best available constraints on LIV and
+tude lower than the theoretically expected half-life value         CPT violation parameters can be found in compilation [39].
+      b
+of T1/2 (2+1 ) = 2.4 · 10
+                          22
+                             y for purely bosonic neutrino, and
+two orders of magnitude lower than the corresponding ex-
+pected value for purely fermionic neutrino, T1/2      f
+                                                         (2+
+                                                           1) =
+                                                                   6 Summary
+        23
+1.7 · 10 y [38].                                                   The results of the 2νββ decay of 100 Mo with the full
+     The Standard Model Extension (SME) provides a gen-            data set of the NEMO-3 experiment corresponding to a
+eral framework for Lorentz invariance violation (LIV) [39].        34.3 kg·y exposure are presented. The summed energy of
+In this model, the size of the Lorentz symmetry breakdown          two electrons, the single electron energy and the angular
+is controlled by SME coefficients that describe the cou-           distributions between the two electrons have been stud-
+pling between standard model particles and background              ied with an unprecedented statistical precision (5 × 105
+fields. Experimental limits have been set on hundreds of           events). The single electron energy distribution has been
+these SME coefficients from constraints in the matter,             used to discriminate between different nuclear models pro-
+photon, neutrino and gravity sectors [39]. The first search        viding direct experimental input into NME calculations.
+for LIV in 2νββ decay was carried out in [52]. The two-            The HSD model is excluded with high confidence, while
+electron energy sum spectrum of 136 Xe was used to set a           the SSD model is consistent with the NEMO-3 data. The
+                              (3)
+limit on the parameter åof , which is related to a time-like      corresponding half-life for the 2νββ decay of 100 Mo is
+component of this LIV operator. The value of this param-           found to be
+                                                            (3)
+eter was constrained to be −2.65 × 10−5 GeV < åof <                          h
+                                                                                                 +0.38
+                                                                                                            i
+                                                                       T1/2 = 6.81 ± 0.01 (stat)−0.40 (syst) × 1018 y. (9)
+7.6×10−6 GeV by looking at deviations from the predicted
+energy spectrum of 136 Xe 2νββ decay [52].
+                                                                   Deviations from the expected shape of the 100 Mo 2νββ
+     In this work we adopt the same method, using the
+                                                                   energy sum spectrum have been studied to obtain con-
+phase space calculations from [53], and perform a profile
+                                                                   straints on parameters for physics beyond the Standard
+likelihood scan over positive and negative contributions of
+                                                                   Model. The most stringent upper limit to date has been
+LIV to two-electron events by altering the 100 Mo 2νββ
+                                                                   obtained for the Majoron-neutrino coupling parameter gee
+energy sum spectrum with positive and negative values of
+  (3)                                                              for the decay mode with a single Majoron particle emis-
+åof . The result of this scan is shown in Fig. 9.                 sion and the spectral index n = 3. For other 0νββ modes
+     The minimum of the profile log-likelihood function cor-       with two Majoron bosons emission a comparable sensi-
+responds to −135 counts and is not statistically significant       tivity with the world’s best limits has been achieved. The
+even at 1σ level. The 90% CL exclusion limit is shown in           most stringent constraints on the bosonic neutrino admix-
+Fig. 9 with the dashed line and gives −1798 and 1527               ture and Lorentz invariance violation in 2νββ decay have
+events for negative and positive contributions to the devi-        been set.
+ation from the 100 Mo 2νββ energy sum spectrum respec-
+                                                 (3)
+tively. The corresponding constraint on åof is calculated
+using equations (2)-(6) in [52]. The result for 100 Mo ob-         Acknowledgements
+tained with a full set of NEMO-3 data is
+                         (3)
+                                                                   We thank the staff of the Modane Underground Labo-
+ −4.2 × 10−7 GeV < åof < 3.5 × 10−7 GeV (90% C.L.).               ratory for their technical assistance in running the ex-
+                                                  (8)              periment. We are grateful to S.V. Semenov for providing
+                   R. Arnold et al.: Detailed studies of 100 Mo two-neutrino double beta decay in NEMO-3                   11
+
+
+the spectra of SSD-3 model. We acknowledge support by           39. V.A. Kostelecky, N. Russell, Rev. Mod. Phys. 83, 11 (2011)
+the grants agencies of the Czech Republic (grant num-           40. S. Liberati, Classical and Quantum Gravity 30, 133001
+ber EF16 013/0001733), CNRS/IN2P3 in France, RFBR                   (2013)
+in Russia (Project No.19-52-16002 NCNIL a), APVV in             41. J. Ellis, N.E. Mavromatos, Astropart. Phys. 43, 50 (2013)
+Slovakia (Project No. 15-0576), STFC in the UK and NSF          42. J.D. Tasson, Rep. Prog. Phys. 77, 062901 (2014)
+in the USA.                                                     43. J.S. Diaz, V.A. Kostelecky, R. Lehnert, Phys. Rev. D 88,
+                                                                    071902 (2013)
+                                                                44. J.S. Diaz, Phys. Rev. D 89, 036002 (2014)
+                                                                45. T. Junk, Nucl. Instr. and Meth. A 434, 435 (1999);
+References                                                          A. L. Read, J. Phys. G 28, 2693 (2002)
+                                                                46. W. Fisher, FERMILAB-TM-5595 (2010)
+ 1. M. Goeppert-Mayer. Phys. Rev. 48, 512 (1935)                47. M. Hirsch, et al., Phys. Lett. B 372, 8 (1996)
+ 2. M. Tanabashi et al. (Particle Data Group), Phys. Rev. D     48. C. Barbero, et al., Phys. Lett. B 392, 419 (1997)
+    98, 030001 (2018)                                           49. J. B. Albert et al., Phys. Rev. D 90, 092004 (2014)
+ 3. A. Barabash, Nucl. Phys. A 935, 52 (2015)                   50. M. Agostini, et al., Eur. Phys. J. C 75, 416 (2015)
+ 4. J. Barea, J. Kotila and F. Iachello, Phys. Rev. C 91,       51. R. Arnold et al., Nucl. Phys. A 925, 25 (2014)
+    034304 (2015)                                               52. J. B. Albert et al., Phys. Rev. D 93, 072001 (2016)
+ 5. P. Pirinen and J. Suhonen, Phys. Pev. C 91, 054309          53. S. Stoica, AIP Conf. Proc., Vol. 1894, 020023 (2017)
+    (2015)
+ 6. J. Kostensalo, M. Haaranen, and J. Suhonen, Phys. Rev.
+    C 95, 044313 (2017)
+ 7. J. Suhonen, Phys. Rev. C 96, 055501 (2017);
+    J. Suhonen, Frontiers in Phys. 5, 55 (2017)
+ 8. J. Engel and J. Menéndez, Rep.Prog.Phys. 80, 046301
+    (2017)
+ 9. H. Ejiri et al., Phys. Lett. B 258, 17 (1991)
+10. D. Dassie et al., Phys. Rev. D 51, 2090 (1995)
+11. A. De Silva, M.K. Moe, M.A. Nelson, M.A. Vient, Phys.
+    Rev. C 56, 2451 (1997)
+12. M. Alston-Garnjost, et al., Phys. Rev. C 55, 474 (1997)
+13. V.D. Ashitkov et al., JETP Lett. 74, 529 (2001)
+14. R. Arnold et al., Phys. Rev. Lett. 95, 182302 (2005)
+15. L. Cardani et al., J. Phys. G 41, 075204 (2014)
+16. E. Armengaud et al., Eur. Phys. J. C 77, 785 (2017)
+17. R. Arnold et al. , Phys. Rev. D 89, 111101(R) (2014)
+18. R. Arnold et al. , Phys. Rev. D 92, 072011 (2015)
+19. R. Arnold et al., Nucl. Instr. and Meth. A 536, 79 (2005)
+20. R. Arnold et al., Eur. Phys. J. C 78, 821 (2018)
+21. R. Arnold et al., Phys. Rev. D 93, 112008 (2016)
+22. J. Argyriades et al., Nucl. Phys. A 847, 168 (2010)
+23. R. Arnold et al., Phys. Rev. D 95, 012007 (2017)
+24. R. Arnold et al., Phys. Rev. Lett. 107, 062504 (2011)
+25. R. Arnold et al., Phys. Rev. D 94, 072003 (2016)
+26. geant Detector Description and Simulation Tool, CERN
+    Program Library Long Writeup W5013 (1995)
+27. O.A. Ponkratenko, V.I. Tretyak, and Yu.G. Zdesenko,
+    Phys. Atom. Nucl. 63, 1282 (2000)
+28. R. Argyriades et al., Nucl. Instr. and Meth. A 606, 449
+    (2009)
+29. J. Abad et al., Ann. Fis. A 80, 9 (1984)
+30. F. Šimkovic et al., J. Phys. G 27, 2233 (2001);
+    P. Domin, S. Kovalenko, F. Šimkovic, S.V. Semenov, Nucl.
+    Phys. A 753, 337 (2005)
+31. Yu. A. Shitov, Phys. At. Nucl., 69, 2090 (2006)
+32. J. H. Thies et.al., Phys. Rev. C 86, 044309 (2012)
+33. S.V. Semenov, Phys. Part. Nuclei 48, 1018 (2017);
+    S.V. Semenov, Phys. Part. Nuclei 49, 698 (2018)
+34. E. Browne, J. K. Tuli, Nucl. Data Sheets 108, 681 (2007)
+35. Y.A. Akovali, Nucl. Data Sheets 71, 181 (1994)
+36. P. Barnet, C.P. Burgess, R.N. Mohapatra, Nucl. Phys. B
+    449, 25 (1995)
+37. R. Arnold et al., Nucl. Phys. A 765, 483 (2006)
+38. A.S. Barabash et al., Nucl. Phys. B 783, 90 (2007)
+

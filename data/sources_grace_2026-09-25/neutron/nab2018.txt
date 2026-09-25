@@ -1,0 +1,516 @@
+                                          The Nab Experiment: A Precision Measurement of Unpolarized Neutron Beta
+                                          Decay
+
+                                          J. Fry1,∗ , R. Alarcon2 , S. Baeßler1,3 , S. Balascuta2 , L. Barrón Palos4 , T. Bailey5 , K. Bass6 , N. Birge6 , A. Blose7 , D.
+                                          Borissenko1 , J. D. Bowman3 , L. J. Broussard3 , A. T. Bryant1 , J. Byrne8 , J. R. Calarco3,6 , J. Caylor6 , K. Chang1 , T.
+                                          Chupp9 , T. V. Cianciolo3 , C. Crawford7 , X. Ding1 , M. Doyle1 , W. Fan1 , W. Farrar1 , N. Fomin6 , E. Frlež1 , M. T. Gericke10 ,
+                                          M. Gervais7 , F. Glück11 , G. L. Greene3,6 , R. K. Grzywacz6 , V. Gudkov12 , J. Hamblen13 , C. Hayes14 , C. Hendrus9 , T.
+                                          Ito15 , A. Jezghani7 , H. Li1 , M. Makela15 , N. Macsai10 , J. Mammei10 , R. Mammei16 , M. Martinez2 , D. G. Mathews7 , M.
+
+
+
+
+arXiv:1811.10047v3 [nucl-ex] 7 Jan 2020
+                                          McCrea7 , P. McGaughey15 , C. D. McLaughlin1 , P. Mueller3 , D. van Petten1 , S. I. Penttilä3 , D. E. Perryman6 , R. Picker17 ,
+                                          J. Pierce3 , D. Počanić1 , Y. Qian1 , J. Ramsey3 , G. Randall2 , G. Riley6 , K. P. Rykaczewski3 , A. Salas-Bacci1 , S. Samiei1 , E.
+                                          M. Scott6 , T. Shelton7 , S. K. Sjue15 , A. Smith1 , E. Smith15 , E. Stevens1 , J. Wexler14 , R. Whitehead6 , W. S. Wilburn15 , A.
+                                          Young14 , and B. Zeck14
+                                          1
+                                            Department of Physics, University of Virginia, Charlottesville, VA 22904-4714
+                                          2
+                                            Department of Physics, Arizona State University, Tempe, AZ 85287-1504
+                                          3
+                                            Physics Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831
+                                          4
+                                            Universidad Nacional Autónoma de México, México, D.F. 04510, México
+                                          5
+                                            Department of Physics, North Carolina State University, Raleigh, NC 27695-8202
+                                          6
+                                            Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37996
+                                          7
+                                            Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506
+                                          8
+                                            Department of Physics and Astronomy, University of Sussex, Brighton BN19RH, UK
+                                          9
+                                            University of Michigan, Ann Arbor, MI 48109
+                                          10
+                                             Department of Physics, University of Manitoba, Winnipeg, Manitoba, R3T 2N2, Canada
+                                          11
+                                             KIT, Universität Karlsruhe (TH), Kaiserstraße 12, 76131 Karlsruhe, Germany
+                                          12
+                                             Department of Physics and Astronomy, University of South Carolina, Columbia, SC 29208
+                                          13
+                                             Department of Chemistry and Physics, University of Tennessee at Chattanooga, Chattanooga, TN 37403
+                                          14
+                                             Department of Physics, North Carolina State University, Raleigh, NC 27695-8202
+                                          15
+                                             Los Alamos National Laboratory, Los Alamos, NM 87545
+                                          16
+                                             Department of Physics, University of Winnipeg, Winnipeg, Manitoba R3B2E9, Canada
+                                          17
+                                             TRIUMF, Vancouver, Canada, V6T 2A3
+
+                                                       Abstract. Neutron beta decay is one of the most fundamental processes in nuclear physics and provides sen-
+                                                       sitive means to uncover the details of the weak interaction. Neutron beta decay can evaluate the ratio of axial-
+                                                       vector to vector coupling constants in the standard model, λ = gA /gV , through multiple decay correlations. The
+                                                       Nab experiment will carry out measurements of the electron-neutrino correlation parameter a with a precision
+                                                       of δa/a = 10−3 and the Fierz interference term b to δb = 3 × 10−3 in unpolarized free neutron beta decay. These
+                                                       results, along with a more precise measurement of the neutron lifetime, aim to deliver an independent determi-
+                                                       nation of the ratio λ with a precision of δλ/λ = 0.03% that will allow an evaluation of Vud and sensitively test
+                                                       CKM unitarity, independent of nuclear models. Nab utilizes a novel, long asymmetric spectrometer that guides
+                                                       the decay electron and proton to two large area silicon detectors in order to precisely determine the electron
+                                                       energy and an estimation of the proton momentum from the proton time of flight. The Nab spectrometer is
+                                                       being commissioned at the Fundamental Neutron Physics Beamline at the Spallation Neutron Source at Oak
+                                                       Ridge National Lab. We present an overview of the Nab experiment and recent updates on the spectrometer,
+                                                       analysis, and systematic effects.
+
+
+
+                                          1 Introduction and Motivation                                          the SM [1]. To leading order, Jackson et al. [2] describes
+                                                                                                                 the differential neutron decay rate parametrized by corre-
+                                          Free neutron decay is one of the most fundamental and                  lation coefficients a, b, A, B, D etc. as
+                                          simplest weak interaction processes and serves as an il-
+                                          luminating tool to test our understanding of the Standard
+                                          Model (SM). Much theoretical work has been done on
+                                          neutron beta decay and its sensitivity to physics beyond
+                                              ∗ e-mail: jaf2qc@virginia.edu
+                                                                                                                                        Yield (arb. units)
+                                                                                  1.5   proton phase space
+
+                                                                                                           =1
+        dw                                                                                          θ eν                                                     Ee =
+                                                                                              cos
+               ∝ pe Ee (E0 − Ee )2 ξ                                                                                                                           100 keV
+   dEe dΩe dΩν                                                                     1
+
+
+                                                                 p 2p (MeV2/c2)
+                                                                                                                                                               300 keV
+      ~pe · ~pν             ~pe ~pν  ~pe × ~pν i
+                                              !
+ h                me                                                                        cos θeν = 0
+× 1+a           +b +h~
+                     σn i· A + B + D                                                                                           -1
+                                                                                                                             eν =
+                                                                                                                                                               500 keV
+       Ee Eν      Ee        Ee  Eν     Ee Eν                                      0.5
+                                                                                                                         sθ                                    700 keV
+                                                (1)                                                                     co
+
+
+                                                                                   0
+where pe , pν , Ee , and Eν are the momenta and energy                                  0           0.2         0.4          0.6      0.8
+                                                                                                            E e (MeV)
+of the decay electron and neutrino and E0 is the end-
+point energy of the electron spectrum. In the SM, ξ =
+                                                                 Figure 1. Plot of the phase space of cos(θeν ) as a function of p2p
+G2F Vud
+      2
+        (1+3|λ|2 ), where GF is the Fermi constant, Vud is the
+                                                                 and Ee with projections of the squared proton momentum distri-
+first diagonal term in the CKM matrix, and λ is the ratio of
+                                                                 bution P(p2p ) for a fixed electron energy Ee and an ideal detection
+the axial vector to vector coupling constants, λ = gA /gV .      system of p2p ∝ 1/tp2 (denoted trapeziums in the text).
+Lastly, σn is the neutron spin and the correlation coeffi-
+cients a, b, A, B, and D are to be determined from ex-
+periment. In the Nab experiment, we study unpolarized
+neutron beta decay, which can access the coefficients a          2 Measurement Principles
+and b. All the correlation coefficients other than b de-
+pend on λ, specifically the electron-neutrino coefficient        The electron-neutrino correlation coefficient a requires an
+a = (1 − |λ|2 )/(1 + 3|λ|2 ). In the SM, the Fierz interfer-     extraction of the opening angle between the electron and
+ence term is defined as b = 0 and a non-zero determination       neutrino, cos(θeν ). If we consider the relativistic kinemat-
+of b is sensitive to scalar and tensor non-SM processes,         ics, conservation of momentum yields
+competitive with muon decay and LHC [3].
+                                                                                                                                p2p − p2e − p2ν
+     The total neutron decay rate w or the neutron lifetime                                                 cos(θeν ) =                           .                 (2)
+τn , depends on Vud and λ, as w = 1/τn ∝ |Vud |2G2F (1 +                                                                            2pe pν
+3|λ|2 ). Over the last few years, efforts of the UCNA and        When radiative corrections and recoil corrections are ne-
+PERKEO II groups have measured the beta asymmetry                glected, cos(θeν ) is linearly related to p2p for a fixed Ee
+A = −2|λ|(|λ|+1)/(1+3|λ|2 ) and found λ = -1.2772(20) and        since the neutrino energy can be related to the electron
+-1.2761(+14
+          −17 ), respectively [4, 5], which is in some tension   energy (Ee + Eν = E0 ). Thus a measurement of p2p and
+with the previous experiments [6]. The PERKEO III ex-            Ee can determine cos(θeν ). Figure 1 shows allowed values
+periment announced preliminary results at this conference        of p2p and Ee from the phase space of neutron beta decay.
+with an error of ∆λ/λ = 0.06%, and the final results will        If we assume b = 0 in the SM and h~     σn i = 0, equation 1
+be published soon [7]. The future polarized experiments          simplifies to dw ∝ 1 + aβ cos(θeν ), where a is the electron-
+PERC [8] and UCNA+ (an upgrade of [4]), as well as a             neutrino correlation coefficient in question and β = ve /c.
+polarized version of Nab, aim to improve the precision of        For a fixed Ee , the decay rate will have a slope of a in
+A. Independent extractions of λ from different correlation       the distribution of p2p as shown in figure 1. The fact that a
+coefficients offer a different set of systematic uncertainties   value of a can be extracted for each electron energy gives
+and consistency checks and are necessary to entangle Vud         consistency checks for systematic effects that depend on
+from the neutron lifetime. Measurements of the neutron           electron energy. The Fierz interference term b is measured
+lifetime in the beam [9] and bottle method [10–15] pro-          both simultaneously in the Nab-a configuration (explained
+duce a 3σ discrepancy. Both methods are pursuing higher          below) and in a separate Nab-b configuration through the
+precision measurements to resolve this discrepancy. Addi-        shape of the electron energy spectrum. The remainder of
+tionally, the recent updated universal radiative correction      this paper focuses on the extraction of a.
+∆VR [16] shifts Vud extracted from 0+ → 0+ decays [17]                To extract a, the proton momentum pp and electron
+downward from 0.97417(21) to 0.97366(15), a 4σ devi-             energy Ee must be determined. Since the endpoint of the
+ation from CKM unitarity [18]. Extracting Vud from the           proton energy spectrum from neutron beta decay is 751 eV,
+neutron lifetime and neutron beta decay correlations is im-      a direct determination of its momentum is difficult. Thus,
+portant as neutron beta decay carries no nuclear structure       we use a long, asymmetric magnetic spectrometer to esti-
+uncertainties. The neutron sector must measure the neu-          mate pp from the time of flight (TOF) of the proton, tp , and
+tron lifetime to ∼ 0.3 s and λ to ∼ 3×10−4 to competitively      reconstruct Ee from energy deposited in Si detectors. We
+test the most precise determination of Vud from 0+ → 0+          will apply a Monte-Carlo correction for the small electron
+decays [17].                                                     TOF and this effect is addressed in the systematics table.
+     The Nab experiment aims for a high precision mea-           Figure 2 shows the Nab magnetic spectrometer with de-
+surement of a with an expected error of ∆a/a ∼ 1 × 10−3          tails of the magnetic and electric field profiles. Note that
+or ∆λ/λ ∼ 3 × 10−4 , about a factor of 40 more precise           z = 0 is defined as the magnetic filter peak and the center
+than the most precise extractions to date [19–21] and a          of the decay volume is z = -13.2 cm. The electrons and
+factor of 9 more precise than the preliminary results of the     protons produced from neutron beta decay spiral along the
+aSPECT experiment announced at this conference [7].              field lines and are guided to detectors at each end of the
+                                                                                       HV Cage
+spectrometer, ∼-1.1 m below and ∼5.1 m above the decay                                                    DAQ Fiber         Φ (kV)
+volume.                                                                                                               -10                -1
+    Both detectors are placed in a 1.3 T field and an ac-                                                                                         600
+celerating potential of -30 kV and -1 kV is maintained at                   Preamps
+the top and bottom detectors, respectively, by cylindrical                       FETs
+                                                                                                                                                  500
+electrodes. For the Nab-a configuration, the accelerating                   Detector
+potential in the upper detector is required for the protons
+to be detected, while electrons can be detected in either de-                                                                                     400
+
+tector. The -1 kV potential on the bottom detector and the                Flux
+                                                                        Return
+E × B electrodes between the decay volume and lower de-
+                                                                                                                                                  300
+tector prevent protons from being reflected from the lower
+
+                                                                                                                                     TOF Region
+                                                                    Superconducting
+to upper detector. The Si detectors were developed for Nab                  Magnet
+                                                                                                                                                         z (cm)
+by Micron Semiconductor Ltd [20] to detect electrons and                                                                                          200
+
+protons (with the accelerating potential). The detectors
+are segmented into 127 pixels for position determination,                                                                                         100
+with observed energy resolution of 3 keV (FWHM) and                   Main Electrode                           Magnetic
+a 40 ns rise time (10%-90% amplitude). Detectors will                 Neutrons
+                                                                                                                Filter
+                                                                                                                                                  0
+undergo full system testing at LANL and the University
+of Manitoba in the next few months. Electron backscat-                 ExB Electrodes
+
+                                                                                                                                                  -100
+                                                                            Detector
+tering is mitigated as the magnetic field lines will always
+                                                                                 FETs
+guide bouncing electrons to one of the detectors. Elec-
+tron backscattering and energy reconstruction has been                      Preamps
+                                                                                                                                                  -200
+studied within the collaboration, and remains an impor-                                                        4      3     2    1                0
+                                                                                                                       Bz (T)
+tant topic of continued study. The initial characterization
+                                                                                       HV Cage
+                                                                                                         DAQ Fiber
+of the detectors at the Triangle Universities Nuclear Labo-
+ratory (TUNL) proton accelerator showed a dead layer of                                                     Isolation Transformer
+100 nm and a resolution near 3 kV [23, 24], meeting the
+needs of the Nab experiment. Another recent update of the        Figure 2. A diagram of the Nab spectrometer with details of the
+Nab detectors and electronics can be found here [25].            electronics, detector system, electrodes, and electric and mag-
+                                                                 netic field profiles.
+
+3 Details of the Nab Spectrometer and
+  Proton Time of Flight                                          momentum and magnetic field vectors, and the size of the
+                                                                 neutron beam in the decay volume, as well as other smaller
+Neutrons from the FnPB beamline [26] at the SNS at               systematic effects. For an adiabatically expanding field, t p
+ORNL pass through the spectrometer decay volume. Elec-           is given by an integral along the guiding center:
+trons and protons from neutron beta decay are born in a
+magnetic field of 1.7 T. Above the decay volume, a strong                        Z l
+magnetic curvature (with peak field of 4 T) acts as a mag-                mp                                 dz
+                                                                     tp =                                                                                     (3)
+netic filter to accept only protons with momentum within a
+                                                                                          r
+                                                                          pp      z0                B(z) 2       q(V(z) − V0 )
+narrow upward cone along the spectrometer axis, creating                                         1−     sin θ0 +
+                                                                                                     B0              E0
+a minimum accepted angle θ0,min . Subsequently, the field
+expansion from the magnetic filter to the long TOF region        where z0 , θ0 , B0 , V0 , p p , and E0 are the decay coordinate,
+(0.2 T) largely longitudinalizes the momentum and adia-          angle of the proton momentum with respect to the mag-
+batically guides the charged particles to the upper detector.    netic field vector, magnetic field magnitude, electric po-
+Figure 2 shows a diagram of the Nab spectrometer and the         tential, and magnitudes of the momentum and energy at
+electric and magnetic field profiles. The shortest TOF for       birth, respectively. B(z) and V(z) are the magnetic field
+an upward proton is about 13 µs and the shortest TOF for         and potential as a function of z, and l is the length from the
+a downward electron is about 5 ns. At 1.4 MW SNS pri-            center of the decay volume to the upper detector. The un-
+mary beam power, we estimate 1600 decays/s, equivalent           observed quantities z0 and θ0 lead to imperfect knowledge
+to 200 protons/s in the upper detector. Nab plans to collect     of the reconstruction of p2p from 1/t2p . These properties
+several samples of 109 coincidence events in several runs        form what we call the spectrometer response function of
+over ∼2 years running cycle at the SNS to accomplish the         the 1/t2p distribution. An ideal spectrometer response is
+statistical demands of the experiment. The magnet is now         a one-to-one delta function between p p and t p , but the ac-
+installed on the FnPB beamline and commissioning of the          tual spectrometer response will have nonzero width in 1/t2p
+magnet and subsystems is ongoing.                                for a fixed p2p . This results in a smearing of the edges in
+    Nab will make an estimate of p p from t p . The rela-        the 1/t2p distributions (trapeziums, as shown in figure 3).
+tionship between p p and t p depends on the guiding cen-         The analysis strategies for Nab need to understand or pa-
+ter of the field lines, electrostatic potential experienced in   rameterize the spectrometer response function to extract a
+the spectrometer, the unobserved angle between the born          reliable value of a.
+                                                                                                                                                                                     h1
+                                                                                                                                                                           Entries     7614897
+                                                                                                                                                                           Mean           27.79
+                    Ee = (100 ± 10) keV                    Ee = (200 ± 10) keV    14000                                                                                    RMS            1.162
+   14000                                  14000                                                         Ee = (300 ± 10) keV
+                                                                                  12000                                       104
+   12000                                  12000
+                                                                                  10000
+   10000                                  10000
+                                                                                                                              103
+                                                                                   8000
+Yield
+    8000                                   8000
+
+                                                                                   6000
+                                                                                                                              102
+    6000                                   6000
+
+    4000                                   4000                                    4000                                       10
+                                                                                                                                      Without Electric Field
+    2000                                   2000                                    2000
+                                                                                                                               1
+        0                                    0                                       0                                                           30         32       34   36          38
+            0.001   0.003        0.005            0.001    0.003          0.005           0.001         0.003         0.005          26    28
+                                                                                                                                                      pp2tp2/mp2 [m2]                h1
+                                                                                                                                                                           Entries        7745645
+                                                                                                                                                                           Mean             27.84
+                    Ee = (400 ± 10) keV   10000            Ee = (500 ± 10) keV     7000                                                                                    RMS              1.134
+   12000
+
+                                                                                   6000
+                                                                                                                              104
+   10000                                   8000
+                                                                                   5000
+    8000                                                                                                                      103
+                                           6000
+Yield
+                                                                                   4000
+    6000                                                                                                                      102
+                                           4000                                    3000                                               With Electric Field
+    4000
+                                                                                   2000                                       10      & Correction
+                                           2000                                                   Ee = (600 ± 10) keV
+    2000                                                                           1000
+                                                                                                                               1
+        0                                    0                                       0
+            0.001   0.003        0.005            0.001    0.003          0.005           0.001         0.003         0.005          26    28    30         32       34   36          38
+                                                          1/t'2p [µs-2]                                                                               pp2tp'2/mp2 [m2]
+
+                                              0                                                                                                                                                0
+Figure 3. ( Left) Simulated 1/t p2 distributions for different electron energies (for a = −0.103). The red lines are fits to the 1/t p2
+which take into account the detector response function through analysis ‘Method A’ as described in the text. (Right) Simulated detector
+                                                                                                               0
+response function for without electric field (p2p · t2p /m2p ) and with electric field and corrections (p2p · t p2 /m2p ).
+
+
+
+    To fully understand the spectrometer response and
+other systematic effects, a detailed Monte Carlo simulation                                                     mp
+                                                                                                                      Z
+                                                                                                                                    dz
+in Geant4 has been written and benchmarked. Charged                                                  pp =                                                        (4)
+                                                                                                                t0p
+                                                                                                                          r
+                                                                                                                           B(z) 2
+particles from neutron decay are stepped through mag-                                                                1−         sin (θ0 )
+netic and electric fields using the Geant4 Cash-Karp 4/5th -                                                                B0
+order Runge-Kutta-Fehlberg method [27]. The magnetic                                                       mp             cos(θ0 ) − cos(θ0,min )
+                                                                                                         = 0 L − ηA ln                            + αA (1 − cos(θ0 ))
+and electric fields are analytically determined using the                                                   tp                1 − cos(θ0,min )
+method and code in reference [28] and a 1D Radial Se-                                                                                              
+                                                                                                         + βA (1 − cos(θ0 ))2 + γA (1 − cos(θ0 ))3 .
+ries Expansion (RSE) [29] is used to expand the field into
+cylindrically symmetric 2D coordinates to speed up run-                                             Here, L is the effective length of the spectrometer, the η
+time (see equation 6 below). The final kinematics of the                                            term is an analytic expression for the TOF through the fil-
+protons and electrons at the detector are stored for further                                        ter, and αA , βA , and γA are Taylor series expansion coef-
+analysis.                                                                                           ficients in (1 − cos(θ0 )). To obtain the parameters ηA , αA ,
+                                                                                                                                                             0
+                                                                                                    βA , and γA , we either fit the simulated data of p p · t p /m p ,
+                                                                                                                            0
+                                                                                                    fit the edges of the 1/t p2 distributions [3], or a combination
+                                                                                                                              0
+                                                                                                    of both. Then the 1/t p2 distributions are fit to extract a.
+                                                                                                                                                0
+    We use these realistic simulation data to test our anal-                                        Figure 3 (left) shows the simulated 1/t p2 distributions for
+ysis algorithms, which are described in [3, 30]. One                                                different energy slices as well as the fit results using the
+method, called ‘Method A’ used to treat the integral in                                             method described above (in red).
+equation 3, utilizes Monte Carlo simulations with and
+without electric field to find a mapping between the two so                                         3.1 The Magnetic Field of the Spectrometer and
+that distributions in a simulation with electric field can be                                           Associated Systematics
+corrected for the electrostatic term. Figure 3 (right) shows
+the detector response function, p2p · t2p /m2p , distributions for                                  Details of the magnetic field dependence on z play an im-
+no electric field and with electric field and corrections. We                                       portant role in the extraction of a. For systematic uncer-
+find the mapping gives sufficient precision to carry out the                                        tainties, γ = −(1/B)(d2 B/dz2 ), the field curvature in the
+analysis procedure. We denote primed variables such as t0p                                          filter, and ratios rB = BTOF /B0 and rB,DV = BDV /B0 , of
+as the electrostatic corrected variables using such a map-                                          the magnetic field in the time-of-flight section (TOF) and
+ping. This approximation eliminates the electrostatic term                                          the decay volume (DV), respectively, to the filter peak (0),
+and leaves us with the second term in the integral contain-                                         address the largest systematics uncertainties [30]. The re-
+ing the magnetic field and sin(θ0 )2 . For small angles, this                                       quired sensitivity is:
+can be expanded into a Taylor series expansion including
+an additional term that is needed for particles with θ0 close                                             ∆rB                 ∆rB,DV                     ∆γ
+to the critical angle θ0,min :                                                                                = 10−2 ,               = 10−2 ,               < 2 × 10−2                     (5)
+                                                                                                          rB                  rB,DV                       γ
+          4.5                                                                                               1.4
+                                                               |B| at 137 A                                                       |B| at 137 A
+           4                                                   Analytic at 137 A                                                  Analytic at 137 A
+                                                                                                            1.2
+          3.5
+                                                                                                              1
+           3
+
+          2.5                                                                                               0.8
+|B| [T]                                                                                          |B| [T]
+           2                                                                                                0.6
+          1.5
+                                                                                                            0.4
+           1
+                                                                                                            0.2
+          0.5
+
+           0                                                                                                  0
+                  -150        -100         -50          0            50            100     150                 200   250    300       350      400    450   500   550   600
+                                                    z [cm]                                                                                   z [cm]
+
+
+
+Figure 4. Magnetic field on-axis measured during acceptance testing at the SNS (data in red, prediction in blue). The result agrees
+with prediction at the level of precision of this preliminary measurement.
+
+
+
+     In addition, the field needs to be known everywhere                                                       The acceptance tests for the Nab spectrometer mag-
+to a similar precision for input into detailed Geant4 sim-                                                 net were conducted at the SNS in March, 2018. During
+ulations. A detailed on-axis measurement, followed by                                                      the tests, the first measurements of the field were taken
+an off-axis measurement will be performed in the next                                                      on-axis and compared with the analytical prediction. The
+few months using a Group3 Hall probe calibrated to bet-                                                    measurement procedure had an error of about 1-2% due to
+ter than 10−3 . We use the on-axis measurement to ex-                                                      the positioning of the probe. The results are shown in fig-
+pand the field off-axis and use the off-axis measurement                                                   ure 4 and agree well with prediction at the precision of this
+as a consistency check. We use two analyses to expand                                                      measurement. More detailed magnetic field mapping will
+the field off-axis: an RSE and a modified Bessel func-                                                     be carried out to achieve the ultimate required precision.
+tion expansion (MBFE) approach. Cylindrical symmetry                                                           The important systematics in Nab have been discussed
+is required for these analyses and we expect this symme-                                                   in references [3, 30, 31]. Below in table 1 is an updated list
+try to a large degree. The principle is the same for each                                                  of the systematics from these references. Please see these
+method – use data from a non-equispaced grid on-axis,                                                      references for more details.
+B(r = 0, z) and expand off-axis to obtain B(r, z). The RSE
+originates from work in understanding axisymmetric fields
+for electron transport [29], among other applications. For                                                 4 Summary
+an axisymmetric configuration of coils, an off-axis expan-
+sion can be performed using only the on-axis vertical field                                                The Nab experiment aims for a measurement of a, the
+Bz (r = 0, z) ≡ B0,z and its derivatives dn B0,z /dzn . We have                                            electron-neutrino correlation parameter, in neutron beta
+found that including up to the 6th derivative satisfies the                                                decay, with ∼ 10−3 relative precision. This result will en-
+required precision. The general expansion is:                                                              able an independent precise determination of λ = gA /gV .
+                                                                                                           Once the neutron lifetime is measured with an uncertainty
+                              ∞                                                                            < 0.3 s the expected Nab value of λ will provide competi-
+                                (−1)n d2n B0,z
+                                                                                                           tive precision to nuclear superallowed 0+ → 0+ decays in
+                              X
+                Bz (r, z) =                                  r2n
+                              n=0
+                                  (2n n! )2 dz2n                                                           determining Vud and testing CKM unitarity.
+                                ∞                                                                               The magnet is installed on the FnPB at the SNS and
+                                X        (−1)n     d2n+1 B0,z 2n+1
+                Br (r, z) = −                                r     .                     (6)               initial tests of the magnetic field show that the results
+                                n=0
+                                    n! (n + 1)22n+1 dz2n+1
+                                                                                                           are consistent with expectations. Detailed measurements
+    The MBFE can be derived from a separable magnetic                                                      of the field will commence shortly. Installation of other
+potential φ(r, z) = k ak eikz f (r). Solving Laplace’s equa-
+                   P
+                                                                                                           beamline components is underway and commissioning of
+tion and taking the divergence, one obtains f (r) = I0 (kr),                                               the experiment will begin soon. In parallel, simulation
+the modified Bessel’s function. Letting k = 2π j/L, we                                                     studies of systematics remain an ongoing area of intense
+have:                                                                                                      work.
+                                                                                                                We acknowledge the support of the U.S. Department
+                                     X                !
+                                                  2π j i2π jz   2π jr
+                                                                      !                                    of Energy, the National Science Foundation, the Univer-
+                    Bz (r, z) =          ia j           e L I0                                             sity of Virginia, Arizona State University, and the Natural
+                                     j
+                                                   L              L
+                                                     !               !                                     Sciences and Engineering Research Council of Canada.
+                                     X           2π j i2π jz   2π jr
+                    Br (r, z) =          aj            e L I1          .                 (7)
+                                     j
+                                                  L              L
+                                                                                                           References
+To obtain the a j coefficients, we use the on-axis field map
+of Bz at r = 0 since the modified Bessel function is zero.                                                  [1] M. González-Alonso, O. Naviliat-Cuncic, N. Sever-
+Then, the off-axis expansion for Bz (r, z) and Br (r, z) is sim-                                                ijns, Progress in Particle and Nuclear Physics 104,
+ply a multiplicative factor by the modified Bessel function.                                                    165 (2019)
+  Table 1. Updated table of systematics from references [3, 30, 31]. The (*) indicates a fit parameter. Small in the third column
+                                                indicates (∆a/a)SYST < 1 × 10−4 .
+
+
+               Experimental parameter                    Principal specification (comment)             (∆a/a)SYST
+
+               Magnetic field:
+                 curvature at pinch                  ∆γ/γ = 2% with γ = (d2 Bz (z)/dz2 )/Bz (0)        5.3 × 10−4
+                 ratio rB = BTOF /B0                            (∆rB )/rB = 1%                         2.2 × 10−4
+                 ratio rB,DV = BDV /B0                       (∆rB,DV )/rB,DV = 1%                      1.8 × 10−4
+               LTOF , length of TOF region                                                                 (*)
+               U inhomogeneity:
+                 in decay / filter region                       |UF − UDV | < 10 mV                     5 × 10−4
+                 in TOF region                                 |UF − UTOF | < 200 mV                   2.2 × 10−4
+               Neutron beam:
+                 position                                         ∆hz DV i < 2 mm                      1.7 × 10−4
+                 profile (incl. edge effect)                 slope at edges < 10%/cm                   2.5 × 10−4
+                 Doppler effect                                (analytical correction)                    small
+                 unwanted beam polarization             ∆hPn i < 2 · 10−5 (with spin flipper)           1 × 10−4
+               Adiabaticity of proton motion                                                            1 × 10−4
+               Detector effects:
+                  Ee calibration                                  ∆Ee < 200 eV                          2 · 10−4
+                  shape of Ee response                           ∆Ntail /Ntail < 1%                    4.4 × 10−4
+                  proton trigger efficiency                     p < 100 ppm/keV                       3.4 × 10−4
+                  TOF shift (det./electronics)                     ∆tp < 0.3 ns                         3 × 10−4
+               TOF in accel. region                    ∆rGROUND EL. < 0.5 mm (preliminary)             3.4 × 10−4
+               electron TOF                                   (analytical correction)                     small
+               BGD/accid. coinc’s                        (will subtract out of time coinc)                small
+               Residual gas                                      p < 2 · 10−9 torr                     3.8 × 10−4
+               Overall sum                                                                             1.2 × 10−3
+
+
+
+[2] J.D. Jackson, S.B. Treiman, H.W. Wyld, Phys. Rev.               [10] A. Serebrov, V. Varlamov, A. Kharitonov, A. Fomin,
+    106, 517 (1957)                                                      Y. Pokotilovski, P. Geltenbort, J. Butterworth,
+[3] S. Baeßler, J.D. Bowman, S. Penttilä, D. Počanić,                  I. Krasnoschekova, M. Lasakov, R. Tal’daev et al.,
+    Journal of Physics G: Nuclear and Particle Physics                   Physics Letters B 605, 72 (2005)
+    41, 114003 (2014)                                               [11] A. Pichlmaier, V. Varlamov, K. Schreckenbach,
+[4] M.A.P. Brown, E.B. Dees, E. Adamek, B. Allgeier,                     P. Geltenbort, Physics Letters B 693, 221 (2010)
+    M. Blatnik, T.J. Bowles, L.J. Broussard, R. Carr,               [12] A. Steyerl, J.M. Pendlebury, C. Kaufman, S.S. Ma-
+    S. Clayton, C. Cude-Woods et al. (UCNA Collabo-                      lik, A.M. Desai, Phys. Rev. C 85, 065503 (2012)
+    ration), Phys. Rev. C 97, 035505 (2018)                         [13] S. Arzumanov, L. Bondarenko, S. Chernyavsky,
+[5] D. Mund, B. Märkisch, M. Deissenroth, J. Krempel,                    P. Geltenbort, V. Morozov, V. Nesvizhevsky,
+    M. Schumann, H. Abele, A. Petoukhov, T. Soldner,                     Y. Panin, A. Strepetov, Physics Letters B 745, 79
+    Phys. Rev. Lett. 110, 172502 (2013)                                  (2015)
+[6] Neutron pdg (2018), http://pdg.lbl.gov/2018/                    [14] R.W. Pattie, N.B. Callahan, C. Cude-Woods, E.R.
+    listings/rpp2018-list-n.pdf                                          Adamek, L.J. Broussard, S.M. Clayton, S.A. Currie,
+[7] International workshop on particle physics at                        E.B. Dees, X. Ding, E.M. Engel et al., Science 360,
+    neutron sources 2018, https://indico.ill.fr/                         627 (2018)
+    indico/event/87/                                                [15] A.P. Serebrov, E.A. Kolomensky, A.K. Fomin, I.A.
+[8] D. Dubbers, H. Abele, S. Baeßler, B. Märkisch,                       Krasnoshchekova, A.V. Vassiljev, D.M. Prudnikov,
+    M. Schumann, T. Soldner, O. Zimmer, Nuclear In-                      I.V. Shoka, A.V. Chechkin, M.E. Chaikovskiy, V.E.
+    struments and Methods in Physics Research Section                    Varlamov et al., Phys. Rev. C 97, 055503 (2018)
+    A 596, 238 (2008)                                               [16] C.Y. Seng, M. Gorchtein, H.H. Patel, M.J. Ramsey-
+[9] A.T. Yue, M.S. Dewey, D.M. Gilliam, G.L. Greene,                     Musolf, Phys. Rev. Lett. 121, 241804 (2018)
+    A.B. Laptev, J.S. Nico, W.M. Snow, F.E. Wietfeldt,              [17] J.C. Hardy, I.S. Towner, Phys. Rev. C 91, 025501
+    Phys. Rev. Lett. 111, 222501 (2013)                                  (2015)
+[18] CKM       quark-mixing       matrix,    pdg    2018,         (2017)
+     http://pdg.lbl.gov/2018/reviews/                        [25] L.J. Broussard, R. Alarcon, S. Baeßler, L.B. Palos,
+     rpp2018-rev-ckm-matrix.pdf                                   N. Birge, T. Bode, J.D. Bowman, T. Brunst, J.R.
+[19] C. Stratowa, R. Dobrozemsky, P. Weinzierl, Phys.             Calarco, J. Caylor et al., Journal of Physics: Con-
+     Rev. D 18, 3970 (1978)                                       ference Series 876, 012005 (2017)
+[20] J. Byrne, P.G. Dawber, M.G.D. van der Grinten,          [26] N. Fomin, G. Greene, R. Allen, V. Cianciolo,
+     C.G. Habeck, F. Shaikh, J.A. Spain, R.D. Scott, C.A.         C. Crawford, T. Tito, P. Huffman, E. Iverson,
+     Baker, K. Green, O. Zimmer, Journal of Physics G:            R. Mahurin, W. Snow, Nuclear Instruments and
+     Nuclear and Particle Physics 28, 1325 (2002)                 Methods in Physics Research Section A 773, 45
+[21] G. Darius, W.A. Byron, C.R. DeAngelis, M.T. Has-             (2015)
+     san, F.E. Wietfeldt, B. Collett, G.L. Jones, M.S.       [27] Geant4 simulation toolkit, http://geant4.web.
+     Dewey, M.P. Mendenhall, J.S. Nico et al., Phys. Rev.         cern.ch/geant4/
+     Lett. 119, 042502 (2017)                                [28] F. Glück, Progress In Electromagnetics Research B
+[22] Micron        semiconductor,           http://www.           32, 351 (2011)
+     micronsemiconductor.co.uk/                              [29] B. Paszkowski, Electron Optics (London Eliffe
+[23] A. Salas-Bacci, P. McGaughey, S. Baeßler, L. Brous-          Books, 1968)
+     sard, M. Makela, J. Mirabal, R. Pattie, D. Počanić,   [30] R. Alarcon et al., Nab proposal update (2010),
+     S. Sjue, S. Penttila et al., Nuclear Instruments and         http://nab.phys.virginia.edu/nab_doe_
+     Methods in Physics Research Section A 735, 408               fund_prop.pdf
+     (2014)                                                  [31] D. Počanić, R. Alarcon, L. Alonzi, S. Baeßler,
+[24] L. Broussard, B. Zeck, E. Adamek, S. Baeßler,                S. Balascuta, J. Bowman, M. Bychkov, J. Byrne,
+     N. Birge, M. Blatnik, J. Bowman, A. Brandt,                  J. Calarco, V. Cianciolo et al., Nuclear Instruments
+     M. Brown, J. Burkhart et al., Nuclear Instruments            and Methods in Physics Research Section A 611, 211
+     and Methods in Physics Research Section A 849, 83            (2009)
+

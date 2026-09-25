@@ -1,0 +1,527 @@
+                                                                                                                                        Belle Preprint 2017-10
+                                                                                                                                         KEK Preprint 2017-6
+
+
+
+
+                                                          Search for B → hν ν̄ decays with semileptonic tagging at Belle
+
+                                          J. Grygier,27 P. Goldenzweig,27 M. Heck,27 I. Adachi,15, 12 H. Aihara,71 S. Al Said,64, 30 D. M. Asner,56 T. Aushev,44
+                                            R. Ayad,64 T. Aziz,65 V. Babu,65 I. Badhrees,64, 29 S. Bahinipati,18 A. M. Bakich,63 V. Bansal,56 E. Barberio,41
+                                           P. Behera,20 B. Bhuyan,19 J. Biswal,25 A. Bobrov,4, 54 A. Bondar,4, 54 G. Bonvicini,76 A. Bozek,51 M. Bračko,39, 25
+                                               T. E. Browder,14 D. Červenkov,5 P. Chang,50 V. Chekelian,40 A. Chen,48 B. G. Cheon,13 K. Chilikin,35, 43
+                                           R. Chistov,35, 43 K. Cho,31 Y. Choi,62 D. Cinabro,76 N. Dash,18 S. Di Carlo,76 Z. Doležal,5 Z. Drásal,5 D. Dutta,65
+                                                  S. Eidelman,4, 54 H. Farhat,76 J. E. Fast,56 T. Ferber,8 B. G. Fulsom,56 V. Gaur,65 N. Gabyshev,4, 54
+
+
+
+
+arXiv:1702.03224v3 [hep-ex] 31 Oct 2017
+                                          A. Garmash,4, 54 M. Gelb,27 R. Gillard,76 B. Golob,36, 25 O. Grzymkowska,51 E. Guido,24 J. Haba,15, 12 T. Hara,15, 12
+                                                  K. Hayasaka,53 H. Hayashii,47 M. T. Hedges,14 C.-L. Hsu,41 T. Iijima,46, 45 K. Inami,45 G. Inguglia,8
+                                                A. Ishikawa,69 R. Itoh,15, 12 Y. Iwasaki,15 W. W. Jacobs,21 I. Jaegle,9 H. B. Jeon,33 Y. Jin,71 D. Joffe,28
+                                           K. K. Joo,6 T. Julius,41 J. Kahn,37 A. B. Kaliyar,20 K. H. Kang,33 G. Karyan,8 P. Katrenko,44, 35 T. Kawasaki,53
+                                              T. Keck,27 H. Kichimi,15 C. Kiesling,40 D. Y. Kim,61 H. J. Kim,33 J. B. Kim,32 K. T. Kim,32 M. J. Kim,33
+                                               S. H. Kim,13 K. Kinoshita,7 P. Kodyš,5 S. Korpar,39, 25 D. Kotchetkov,14 P. Križan,36, 25 P. Krokovny,4, 54
+                                                T. Kuhr,37 R. Kulasiri,28 T. Kumita,73 A. Kuzmin,4, 54 Y.-J. Kwon,78 J. S. Lange,10 C. H. Li,41 L. Li,59
+                                                Y. Li,75 L. Li Gioi,40 J. Libby,20 D. Liventsev,75, 15 M. Lubej,25 T. Luo,57 M. Masuda,70 T. Matsuda,42
+                                                   D. Matvienko,4, 54 F. Metzner,27 K. Miyabayashi,47 H. Miyake,15, 12 H. Miyata,53 R. Mizuk,35, 43, 44
+                                            G. B. Mohanty,65 H. K. Moon,32 T. Mori,45 R. Mussa,24 E. Nakano,55 M. Nakao,15, 12 T. Nanut,25 K. J. Nath,19
+                                           Z. Natkaniec,51 M. Nayak,76, 15 N. K. Nisar,57 S. Nishida,15, 12 S. Ogawa,68 S. Okuno,26 H. Ono,52, 53 Y. Onuki,71
+                                               G. Pakhlova,35, 44 B. Pal,7 C.-S. Park,78 C. W. Park,62 H. Park,33 S. Paul,67 T. K. Pedlar,38 L. Pesántez,3
+                                               L. E. Piilonen,75 M. Prim,27 C. Pulvermacher,15 M. Ritter,37 A. Rostomyan,8 Y. Sakai,15, 12 S. Sandilya,7
+                                            L. Santelj,15 T. Sanuki,69 Y. Sato,45 V. Savinov,57 T. Schlüter,37 O. Schneider,34 G. Schnell,1, 17 C. Schwanda,23
+                                          A. J. Schwartz,7 Y. Seino,53 K. Senyo,77 I. S. Seong,14 M. E. Sevior,41 V. Shebalin,4, 54 C. P. Shen,2 T.-A. Shibata,72
+                                               J.-G. Shiu,50 B. Shwartz,4, 54 F. Simon,40, 66 E. Solovieva,35, 44 M. Starič,25 J. F. Strube,56 T. Sumiyoshi,73
+                                                M. Takizawa,60, 16, 58 U. Tamponi,24, 74 F. Tenchini,41 K. Trabelsi,15, 12 T. Tsuboyama,15, 12 M. Uchida,72
+                                          T. Uglov,35, 44 Y. Unno,13 S. Uno,15, 12 P. Urquijo,41 Y. Ushiroda,15, 12 C. Van Hulse,1 G. Varner,14 V. Vorobyev,4, 54
+                                           A. Vossen,21 E. Waheed,41 B. Wang,7 C. H. Wang,49 M.-Z. Wang,50 P. Wang,22 M. Watanabe,53 Y. Watanabe,26
+                                              S. Wehle,8 K. M. Williams,75 E. Won,32 H. Yamamoto,69 Y. Yamashita,52 H. Ye,8 Y. Yook,78 C. Z. Yuan,22
+                                               Y. Yusa,53 Z. P. Zhang,59 V. Zhilich,4, 54 V. Zhukova,43 V. Zhulanov,4, 54 M. Ziegler,27 and A. Zupanc36, 25
+                                                                                         (The Belle Collaboration)
+                                                                       1
+                                                                            University of the Basque Country UPV/EHU, 48080 Bilbao
+                                                                                          2
+                                                                                            Beihang University, Beijing 100191
+                                                                                            3
+                                                                                              University of Bonn, 53115 Bonn
+                                                                      4
+                                                                        Budker Institute of Nuclear Physics SB RAS, Novosibirsk 630090
+                                                                  5
+                                                                    Faculty of Mathematics and Physics, Charles University, 121 16 Prague
+                                                                                  6
+                                                                                    Chonnam National University, Kwangju 660-701
+                                                                                 7
+                                                                                   University of Cincinnati, Cincinnati, Ohio 45221
+                                                                                8
+                                                                                  Deutsches Elektronen–Synchrotron, 22607 Hamburg
+                                                                                  9
+                                                                                    University of Florida, Gainesville, Florida 32611
+                                                                                  10
+                                                                                     Justus-Liebig-Universität Gießen, 35392 Gießen
+                                                                                             11
+                                                                                                Gifu University, Gifu 501-1193
+                                                            12
+                                                               SOKENDAI (The Graduate University for Advanced Studies), Hayama 240-0193
+                                                                                         13
+                                                                                            Hanyang University, Seoul 133-791
+                                                                                   14
+                                                                                      University of Hawaii, Honolulu, Hawaii 96822
+                                                                15
+                                                                   High Energy Accelerator Research Organization (KEK), Tsukuba 305-0801
+                                              16
+                                                 J-PARC Branch, KEK Theory Center, High Energy Accelerator Research Organization (KEK), Tsukuba 305-0801
+                                                                        17
+                                                                           IKERBASQUE, Basque Foundation for Science, 48013 Bilbao
+                                                                      18
+                                                                         Indian Institute of Technology Bhubaneswar, Satya Nagar 751007
+                                                                            19
+                                                                               Indian Institute of Technology Guwahati, Assam 781039
+                                                                            20
+                                                                               Indian Institute of Technology Madras, Chennai 600036
+                                                                                                               2
+
+                         21
+                                   Indiana University, Bloomington, Indiana 47408
+        22
+            Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049
+                                 23
+                                    Institute of High Energy Physics, Vienna 1050
+                                      24
+                                         INFN - Sezione di Torino, 10125 Torino
+                                            25
+                                               J. Stefan Institute, 1000 Ljubljana
+                                     26
+                                        Kanagawa University, Yokohama 221-8686
+ 27
+    Institut für Experimentelle Kernphysik, Karlsruher Institut für Technologie, 76131 Karlsruhe
+                            28
+                               Kennesaw State University, Kennesaw, Georgia 30144
+                     29
+                        King Abdulaziz City for Science and Technology, Riyadh 11442
+      30
+         Department of Physics, Faculty of Science, King Abdulaziz University, Jeddah 21589
+              31
+                 Korea Institute of Science and Technology Information, Daejeon 305-806
+                                             32
+                                                Korea University, Seoul 136-713
+                                 33
+                                    Kyungpook National University, Daegu 702-701
+                  34
+                     École Polytechnique Fédérale de Lausanne (EPFL), Lausanne 1015
+      35
+         P.N. Lebedev Physical Institute of the Russian Academy of Sciences, Moscow 119991
+           36
+              Faculty of Mathematics and Physics, University of Ljubljana, 1000 Ljubljana
+                                  37
+                                     Ludwig Maximilians University, 80539 Munich
+                                         38
+                                             Luther College, Decorah, Iowa 52101
+                                          39
+                                             University of Maribor, 2000 Maribor
+                                40
+                                   Max-Planck-Institut für Physik, 80805 München
+                        41
+                           School of Physics, University of Melbourne, Victoria 3010
+                                     42
+                                        University of Miyazaki, Miyazaki 889-2192
+                           43
+                              Moscow Physical Engineering Institute, Moscow 115409
+                 44
+                    Moscow Institute of Physics and Technology, Moscow Region 141700
+                   45
+                      Graduate School of Science, Nagoya University, Nagoya 464-8602
+                  46
+                     Kobayashi-Maskawa Institute, Nagoya University, Nagoya 464-8602
+                                     47
+                                         Nara Women’s University, Nara 630-8506
+                                   48
+                                       National Central University, Chung-li 32054
+                                    49
+                                       National United University, Miao Li 36003
+                   50
+                      Department of Physics, National Taiwan University, Taipei 10617
+                    51
+                       H. Niewodniczanski Institute of Nuclear Physics, Krakow 31-342
+                                    52
+                                       Nippon Dental University, Niigata 951-8580
+                                          53
+                                             Niigata University, Niigata 950-2181
+                                54
+                                   Novosibirsk State University, Novosibirsk 630090
+                                       55
+                                           Osaka City University, Osaka 558-8585
+                 56
+                    Pacific Northwest National Laboratory, Richland, Washington 99352
+                          57
+                             University of Pittsburgh, Pittsburgh, Pennsylvania 15260
+             58
+                Theoretical Research Division, Nishina Center, RIKEN, Saitama 351-0198
+                      59
+                         University of Science and Technology of China, Hefei 230026
+                               60
+                                  Showa Pharmaceutical University, Tokyo 194-8543
+                                            61
+                                               Soongsil University, Seoul 156-743
+                                      62
+                                         Sungkyunkwan University, Suwon 440-746
+                    63
+                       School of Physics, University of Sydney, New South Wales 2006
+           64
+              Department of Physics, Faculty of Science, University of Tabuk, Tabuk 71451
+                         65
+                             Tata Institute of Fundamental Research, Mumbai 400005
+          66
+             Excellence Cluster Universe, Technische Universität München, 85748 Garching
+              67
+                 Department of Physics, Technische Universität München, 85748 Garching
+                                         68
+                                             Toho University, Funabashi 274-8510
+                       69
+                          Department of Physics, Tohoku University, Sendai 980-8578
+                 70
+                    Earthquake Research Institute, University of Tokyo, Tokyo 113-0032
+                      71
+                         Department of Physics, University of Tokyo, Tokyo 113-0033
+                                 72
+                                    Tokyo Institute of Technology, Tokyo 152-8550
+                                 73
+                                    Tokyo Metropolitan University, Tokyo 192-0397
+                                           74
+                                              University of Torino, 10124 Torino
+          75
+             Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061
+                               76
+                                  Wayne State University, Detroit, Michigan 48202
+                                      77
+                                         Yamagata University, Yamagata 990-8560
+                                             78
+                                                Yonsei University, Seoul 120-749
+  We present the results of a search for the rare decays B → hν ν̄, where h stands for
+K + , KS0 , K ∗+ , K ∗0 , π + , π 0 , ρ+ and ρ0 . The results are obtained with 772 × 106 BB pairs collected
+with the Belle detector at the KEKB e+ e− collider. We reconstruct one B meson in a semileptonic
+decay and require a single h meson but nothing else on the signal side. We observe no signifi-
+cant signal and set upper limits on the branching fractions. The limits set on the B 0 → KS0 ν ν̄,
+                                                                                                                               3
+
+             B 0 → K ∗0 ν ν̄, B + → π + ν ν̄, B 0 → π 0 ν ν̄, B + → ρ+ ν ν̄, and B 0 → ρ0 ν ν̄ channels are the world’s
+             most stringent.
+
+             PACS numbers: 13.25.Hw, 12.15.Mm, 14.40.Nd
+
+
+   The decays B → hν ν̄ [1] can proceed only via a                  as the off-resonance sample. We model the decays with
+penguin or a box diagram at leading order in the stan-              the EVTGEN package [12] and simulate the detector re-
+dard model (SM), as shown in Fig. 1, and are thus highly            sponse with the GEANT3 package [13]. We include a
+suppressed [2]. Theoretical calculations for the branching          randomly-triggered sample to account for beam-related
+fractions cover the range from 1.2×10−7 [3] (B 0 → π 0 ν ν̄)        background. The signal process is modeled according to
+to 9.2 × 10−6 [2] ( B + → K ∗ + ν ν̄ ). Recent results by           three-body phase space.
+LHCb [4, 5] show evidence for a deviation of experimen-                The Belle detector [14] is a large-solid-angle magnetic
+tal data from expected values in the angular observable             spectrometer that consists of a silicon vertex detector
+P50 in B 0 → K ∗0 µ+ µ− decays, and in the ratio of the             (SVD), a 50-layer central drift chamber (CDC), an array
+B + → K + µ+ µ− to B + → K + e+ e− branching fractions.             of aerogel threshold Cherenkov counters (ACC), a barrel-
+A measurement of P50 by Belle [6] is compatible with                like arrangement of time-of-flight scintillation counters
+both, the SM prediction and the LHCb result. Differ-                (TOF), and an electromagnetic calorimeter comprised of
+ent new physics models proposed to explain these obser-             CsI(Tl) crystals (ECL) located inside a super-conducting
+vations can also influence B → K (∗) νν decays. There-              solenoid coil that provides a 1.5 T magnetic field. An iron
+fore, B → hν ν̄ channels provide an important test for              flux-return located outside of the coil is instrumented to
+any model proposed to solve these tensions. Addition-               detect KL0 mesons and to identify muons (KLM). The
+ally, B → hν ν̄ channels are theoretically clean due to             detector is described in detail elsewhere [14]. Two inner
+the mediation of the transition by a Z boson alone, in              detector configurations were used. A 2.0 cm beampipe
+contrast to B → K (∗) l+ l− decays [2] where the photon             and a 3-layer silicon vertex detector were used for the first
+contributes.                                                        sample of 152 × 106 BB pairs, while a 1.5 cm beampipe, a
+   B → hν ν̄ decays have been studied previously by Belle           4-layer silicon detector and a small-cell inner drift cham-
+with a hadronic tagging algorithm [7], and by BaBar                 ber were used to record the remaining 620 × 106 BB
+utilizing both hadronic [8] and semileptonic tagging [9].           pairs [15].
+Recent results by Belle [10] have shown that the usage                 The three-body B → hν ν̄ decay, with two invis-
+of semileptonic tagging enhances the sensitivity of some            ible particles in the final state, does not convey suffi-
+analyses significantly. The semileptonically tagged sam-            cient kinematic information to isolate the signal. Thus,
+ple provides a statistically independent and more effi-             we first reconstruct the accompanying B meson (Btag )
+ciently tagged data set of reconstructed BB events as               in the semileptonic decay channels B → D(∗) lνl (l =
+compared to the hadronically tagged sample.                         e, µ), where neutral (charged) D candidates are recon-
+   We search for B → hν ν̄ decays with the full Belle               structed in 10 (7) different decay channels. This amounts
+data sample produced by the KEKB collider [11] at the               to 108 different decay channels. The tagging algo-
+Υ(4S) center-of-mass (CM) energy with an integrated lu-             rithm, described elsewhere [16, 17], uses multiple in-
+minosity of 711 fb−1 , corresponding to (772 ± 11) × 106            stances of neural network classifiers built using the Neu-
+BB pairs. A data set of 89 fb−1 taken at an en-                     roBayes package [18] in a hierarchical approach to find
+ergy 60 MeV/c2 below the resonance energy is used to                Btag candidates. The output of the neural network used
+study background from e+ e− → qq processes (contin-                 to identify real Btag candidates transformed into the in-
+uum), where q ∈ u, d, s, c. We refer to this data set               terval [0, 1] is referred to as Ntag and can be interpreted
+                                                                    as the probability of the Btag meson to be a true B in
+                                                                    a generic sample. We combine Btag candidates with our
+                                                                    signal selection to form signal event candidates. We sep-
+                                                     -              arate charged pion and kaon candidates based on parti-
+                                                                    cle identification (PID) selection criteria utilizing CDC,
+                                                                    ACC and TOF information. We combine the PID in-
+                                                                    formation in a likelihood ratio PKπ = LK / (LK + Lπ ),
+                                                                    where PKπ is a function of the polar angle and the
+                                                                    momentum of the track in the laboratory system. We
+         (a) penguin                       (b) box
+                                                                    require PKπ > 0.6 (< 0.4) for K ± (π ± ) candidates.
+                                                                    The kaon (pion) identification efficiency is 88 % − 93 %
+FIG. 1: Lowest-order SM quark level diagrams for the
+                                                                    (86 % − 93 %) with a π (K) misidentification probability
+B + → K + ν ν̄ channel; the diagrams for other channels
+                                                                    of 10 % − 12 % (8 % − 11 %).
+                    are analogous.
+                                                                       We reduce the number of poor quality tracks by re-
+                                                                                                                       4
+
+quiring that dz (dr) < 4 (2) cm, where dz (dr) is the         of this selection is between 65 % (B + → ρ+ ν ν̄) and 92 %
+distances of closest approach of a track to the inter-        (B 0 → KS0 ν ν̄).
+action point along (transverse to) the z axis, which is          We reconstruct tagged B + → D0 (K + π − ) π + and
+antiparallel to the positron beam. Signal B daugh-            B 0 → D− (K + π − π − ) π + decays to correct for experi-
+ter candidates are reconstructed through the decays           mental data–MC efficiency differences. Both channels
+K ∗0 → K + π − , K ∗+ → K + π 0 and KS0 π + , ρ+ →            can be reconstructed with negligible background and are
+π + π 0 , ρ0 → π + π − , KS0 → π + π − , and π 0 → γγ.        well described in MC. We bin Ntag equally in 4 (3) bins
+KS0 candidates are selected following Ref. [19]. Pho-         for charged (neutral) B mesons and calculate the num-
+tons used for π 0 reconstruction are required to have a       ber of reconstructed events in data and MC. We assign
+minimal energy of 50 MeV/c2 , 100 MeV/c2 , 150 MeV/c2         the ratio as a weight in each bin of Ntag. This calibra-
+for the barrel (θ ∈ [32◦ , 129◦ ]), forward ([17◦ , 32◦ ]),   tion includes a correction of the tagging efficiency × the
+and backward ([129◦ , 150◦ ]) region of the ECL, respec-      number of BB pairs produced (NBB ) × the branching
+tively, where θ is taken with respect to the z axis.          fraction of Υ(4S) to charged and neutral B meson pairs,
+The invariant mass of the two γ candidates is required        as we have a separate calibration for B + and B 0 . We
+to fulfill Mγγ ∈ [118, 150] MeV/c2 , while the invari-        train one neural network per channel to suppress con-
+ant mass of the K ∗ (ρ) candidates is required to be          tinuum events. We use 16 modified Fox-Wolfram mo-
+within 150 MeV/c2 (250 MeV/c2 ) of the nominal mass           ments [22], nine CLEO cones [23], the cosine of the angle
+from Ref. [20]. The mass requirements are subsequently        of the thrust axis relative to the z axis, and the angle of
+optimized using Monte Carlo (MC)   √ simulations by max-      the momentum of the Btag candidate with respect to the
+imizing the figure of merit NR / NR + NF , where NR           z axis. We refer to the output of this neural network as
+is the number of correctly reconstructed mesons and           NCS.
+NF the number of fake candidates, both passing the re-           To optimally separate signal from background, another
+quirement. We combine a Btag candidate with the re-           neural network is trained for each reconstructed chan-
+constructed signal-B decay product (hsig ) to form an         nel. We optimize the requirement on the network √   output
+Υ(4S) candidate.                                              (Nsel ) by maximizing a figure-of-merit ε/( n2σ + NB ),
+    Events with additional charged tracks or π 0 candidates   which is independent of the signal-to-background ratio
+that satisfy our selection criteria are rejected. Further-    and optimized for searches [24]. Here, ε is the signal
+more, we remove events with two or more tracks not ful-       efficiency while NB denotes the number of background
+filling our requirement on dr or dz “raw tracks.” We veto     events passing the requirement on Nsel. Both values are
+events with reconstructed KL0 candidates and weight           determined from MC. We choose a desired significance
+our background simulations to account for known data–         nσ = 3. The most powerful variables to identify the sig-
+MC differences, as described in Ref. [21]. An important       nal are pcms , NCS , the cosine between the momentum of
+variable to identify correctly–reconstructed signal events    the D(∗) l system and the momentum of the Btag in the
+is the extra energy, EECL. We sum all ECL clusters            CM system [25], the cosine of the angle of the missing
+not used in the reconstruction of the Υ(4S) candidate,        momentum relative to the z axis, the cosine of the angle
+not associated with a track, and fulfilling the same en-      of the thrust axis, pltag, and, for the ρ and K ∗ channels,
+ergy requirements as the clusters used to form π 0 can-       the reconstructed invariant mass. The number of input
+didates. We require EECL < 1.2 GeV/c2 . We also re-           variables varies for each channel, spanning a range from
+quire the momentum of the hsig candidate in the CM            17 to 31.
+system to fulfill pcms ∈ [0.5, 2.96] GeV/c2 , the missing        We evaluate the description of the data by our MC by
+energy in the CM system Emiss > 2.5 GeV/c2 , the mo-          looking into an EECL sideband (EECL > 0.3 GeV/c2 ), by
+mentum of the Btag lepton candidate in the CM sys-            reconstructing tagged B → D∗ lνl decays, and by utiliz-
+tem pltag < 2.5 GeV/c2 , and a minimal tag quality of         ing the off-resonance sample. We find good agreement
+Ntag > 0.005. These requirements are motivated by             between data and MC in the EECL sidebands for six of
+kinematic boundaries, data–MC differences in case of          the eight channels. However, we find an underestimation
+low–momentum hsig , and badly reconstructed tag candi-        of continuum background in MC in the B + → K + ν ν̄
+dates. To suppress pions from D decays misreconstructed       and the B + → π + ν ν̄ channels, which we correct by scal-
+as muons, we veto events where the invariant mass of          ing the continuum component in the background model
+the K (K ∗ 0 ) candidate and the tag–side lepton fulfill      by the observed data–MC ratio in the off-resonance sam-
+MKl ∈ [1.85, 1.87] GeV/c2 . The channel–dependent frac-       ple.
+tion of events with more than one Υ(4S) candidate can            To extract the signal yield in each channel, we per-
+be as large as 20 %, dominated by candidate exchange          form an extended binned maximum likelihood (ML) fit
+between signal– and tag–side. In such cases, we select        to the EECL distribution. We use histogram templates to
+the candidate with the highest Ntag value, i.e., the can-     model signal as well as backgrounds from charm B-decay
+didate with the highest probability of being correctly re-    (b → c), charmless B-decay (b → s, u, d), and continuum.
+constructed. In MC studies, we find that the efficiency       We fix the relative fractions of the background compo-
+                                                                                                                             5
+
+nents to MC expectations and leave only the signal and          and background models. The fit yields no significant sig-
+the overall background yields as freely floating parame-        nal in any channel. The largest signal contribution is
+ters. We perform extensive toy MC studies to estimate           observed in the B + → K ∗ + ν ν̄ channel with a signif-
+the sensitivity of our procedure. For this purpose, we          icance of 2.3 σ. The significance is defined by evaluat-
+simulate 1000 background-only samples for each channel                                                 p Lmax and the
+                                                                ing the likelihood of the complete model
+and calculate an expected limit on the signal yield by          background-only likelihood L0 : S = 2 log (Lmax /L0 ).
+integrating the profile likelihood up to the point where        Both are evaluated at their respective best fitting point.
+it includes 90 % of the positive region. We also simulate       We calculate the branching
+                                                                                          fraction of the i-th mode by
+samples with various numbers of signal events to test for       B i = Nsig
+                                                                         i
+                                                                            / εirec × NBB , where the reconstruction ef-
+a possible bias. We find a non-negligible but modest bias       ficiency εirec includes all daughter branching fractions.
+in almost all investigated channels. We fit this bias with      These efficiencies, along with the expected and measured
+a linear function, whose slope is consistent with 1.0 and       90 % confidence level (C.L.) upper limit [26] for each
+whose intercept lies between 0 and −2 events. We correct        channel, are displayed in Table Ib.
+for this bias in our fit to data.
+                                                                                    TABLE I: Results
+
+                                                                (a) Observed signal yield (corrected for fitting bias) in each
+                                                                   channel. The first error is statistical and the second is
+                                                                                         systematic.
+
+                                                                Channel          Observed signal yield           Significance
+                                                                  +
+                                                                K ν ν̄             17.7 ± 9.1 ± 3.4                      1.9 σ
+      (a) B   +        +
+                  → K ν ν̄         (b) B   0
+                                               → KS0 ν ν̄       KS0 ν ν̄            0.6 ± 4.2 ± 1.4                      0.0 σ
+                                                                K ∗+ ν ν̄          16.2 ± 7.4 ± 1.8                      2.3 σ
+                                                                K ∗0 ν ν̄          −2.0 ± 3.6 ± 1.8                      0.0 σ
+                                                                π + ν ν̄            5.6 ± 15.1 ± 5.9                     0.0 σ
+                                                                π 0 ν ν̄            0.2 ± 5.6 ± 1.6                      0.0 σ
+                                                                ρ+ ν ν̄             6.2 ± 12.3 ± 2.4                     0.3 σ
+                                                                ρ0 ν ν̄            11.9 ± 9.0 ± 3.6                      1.2 σ
+
+                                                                 (b) Expected (median) and observed upper limits on the
+             +         ∗+                0          ∗0
+                                                                branching fraction at 90 % C.L. The observed limits include
+     (c) B        →K        ν ν̄   (d) B → K             ν ν̄                   the systematic uncertainties.
+
+                                                                Channel     Efficiency     Expected limit     Observed limit
+                                                                                     −3                  −5
+                                                                  +
+                                                                K ν ν̄      2.16 × 10           0.8 × 10           1.9 × 10−5
+                                                                KS0 ν ν̄    0.91 × 10−3         1.2 × 10−5         1.3 × 10−5
+                                                                K ∗+ ν ν̄   0.57 × 10−3         2.4 × 10−5         6.1 × 10−5
+                                                                K ∗0 ν ν̄   0.51 × 10−3         2.4 × 10−5         1.8 × 10−5
+                                                                π + ν ν̄    2.92 × 10−3         1.3 × 10−5         1.4 × 10−5
+      (e) B + → π + ν ν̄           (f) B 0 → π 0 ν ν̄           π 0 ν ν̄    1.42 × 10−3         1.0 × 10−5         0.9 × 10−5
+                                                                ρ+ ν ν̄     1.11 × 10−3         2.5 × 10−5         3.0 × 10−5
+                                                                ρ0 ν ν̄     0.82 × 10−3         2.2 × 10−5         4.0 × 10−5
+
+
+                                                                   We estimate the uncertainty on the fixed fractions, the
+                                                                KL0 veto efficiency, the continuum scaling, the tagging ef-
+                                                                ficiency, and the fit bias correction by refitting the data
+                                                                with each of these quantities varied by ±1 σ. We estimate
+      (g) B + → ρ+ ν ν̄            (h) B 0 → ρ0 ν ν̄            the shape uncertainty by simulating 1000 toy templates
+                                                                obtained by drawing a random number from a Gaussian
+   FIG. 2: EECL distributions for all eight B → hν ν̄           distribution with the mean and error of the respective
+                       channels.                                bin of our fit model as the central value and deviation.
+                                                                The ±1 σ quantiles of the resulting distribution are used
+                                                                as estimators of the uncertainty. We estimate the uncer-
+  The fit results are listed in Table Ia; Fig. 2 shows the      tainty on the π 0 and charged track vetoes by comparing
+distributions of the data together with the fitted signal       the respective efficiency differences between data and MC
+                                                                                                                                                                    6
+
+for the B → Dπ sample with and without the veto ap-                                                   of the limit and obtain the following values at 90 % C.L.:
+plied. We obtain a value of 4 % in both cases for charged
+and neutral channels alike. We evaluate the influence                                                                 B(B → Kνν) < 1.6 × 10−5 ,
+of the requirement on the number of raw tracks via the                                                               B(B → K ∗ νν) < 2.7 × 10−5 ,
+same sample by setting it to two and zero, respectively.
+We subsequently average the contributions and obtain a                                                                 B(B → πνν) < 0.8 × 10−5 ,
+value of 1 %. The uncertainty on the calibration (9.6%)                                                                B(B → ρνν) < 2.8 × 10−5 .
+includes the uncertainty on the correction of NBB (1.4%)
+and the uncertainty on B (B → Dπ). Based on studies                                                      Based on the values and theoretical uncertainties from
+using dedicated control samples, we assign 2.0 %, 4.0 %,                                              Ref. [2], we also give a limit on the ratios between the
+and 2.2 % for the uncertainties on PID efficiency, π 0 ef-                                            measured branching fractions of B → Kνν and of B →
+ficiency and KS0 efficiency, respectively. The systematic                                             K ∗ νν and the respective SM prediction RK ∗ . We obtain
+uncertainty is included by convolving the likelihood func-                                            values of RK < 3.9 and RK ∗ < 2.7, respectively, where
+tion with a Gaussian with zero mean and a width equal to                                              we included the theoretical uncertainty. Both values are
+the square root of the quadratic sum of the additive and                                              quoted at 90 % C.L.
+multiplicative error. The additive uncertainty is defined                                                In summary, we report the results of a search for eight
+as the uncertainty on the signal yield, and contributions                                             different B decay channels with a pair of neutrinos in
+are summarized in Table II. A comparison of our results                                               the final state, where the second B is reconstructed in
+with previous ones is presented in Fig. 3.                                                            one of 108 semileptonic decay channels. No significant
+                                                                                                      signal is observed and limits are set on the respective
+                                                                                                      branching fractions at a confidence level of 90 %. The
+                                 BaBar hadronic                      SM prediction                    limits on the branching fraction for the B 0 → KS0 ν ν̄ ,
+                                 Belle hadronic                      Belle semileptonic
+                                                                                                      B 0 → K ∗ 0 ν ν̄, B + → π + ν ν̄, B 0 → π 0 ν ν̄, B + → ρ+ ν ν̄,
+                                 BaBar semileptonic
+                                                                                                      and B 0 → ρ0 ν ν̄ channels are the most stringent to
+                                                                                                      date. Although our analysis yields important improve-
+                                                                                                      ments, none of these limits excludes SM predictions
+                      10−4                                                                            and all of them leave room for contributions from new
+
+
+
+
+limit on B @ 90% CL
+                                                                                                      physics.
+
+                                                                                                         We thank the KEKB group for the excellent opera-
+                                                                                                      tion of the accelerator; the KEK cryogenics group for
+                                                                                                      the efficient operation of the solenoid; and the KEK
+                      10−5
+                                                                                                      computer group, the National Institute of Informatics,
+                                                                                                      and the PNNL/EMSL computing group for valuable
+                                                                                                      computing and SINET5 network support.            We ac-
+                                                                                                      knowledge support from the Ministry of Education,
+                                                                                                      Culture, Sports, Science, and Technology (MEXT) of
+                      10−6                                                                            Japan, the Japan Society for the Promotion of Science
+                             K +ν ν̄ KS0 ν ν̄ K ∗+ν ν̄ K ∗0ν ν̄ π +ν ν̄   π 0ν ν̄   ρ0ν ν̄   ρ+ν ν̄
+                                                     B decay channel                                  (JSPS), and the Tau-Lepton Physics Research Center
+                                                                                                      of Nagoya University; the Australian Research Council;
+ FIG. 3: Observed limits for all channels in comparison                                               Austrian Science Fund under Grant No. P 26794-N20;
+  to previous results for the BaBar measurement with                                                  the National Natural Science Foundation of China under
+  semileptonic [9] and hadronic tag [8], as well as the                                               Contracts No. 10575109, No. 10775142, No. 10875115,
+ Belle measurement utilizing hadronic tagging [7]. The                                                No. 11175187, No. 11475187, No. 11521505 and
+     theoretical predictions are taken from Ref. [2].                                                 No. 11575017; the Chinese Academy of Science Center
+                                                                                                      for Excellence in Particle Physics; the Ministry of Edu-
+                                                                                                      cation, Youth and Sports of the Czech Republic under
+   The systematic uncertainties are evaluated using in-                                               Contract No. LTT17020; the Carl Zeiss Foundation,
+dependent samples of MC and data control samples for                                                  the Deutsche Forschungsgemeinschaft, the Excellence
+charged and neutral modes. They can therefore be con-                                                 Cluster Universe, and the VolkswagenStiftung; the De-
+sidered uncorrelated. Thus, we combine charged and                                                    partment of Science and Technology of India; the Istituto
+neutral modes by adding the negative log likelihoods. We                                              Nazionale di Fisica Nucleare of Italy; the WCU program
+scale the branching fraction of the neutral modes by a                                                of the Ministry of Education, National Research Foun-
+factor of τB + /τB 0 since the lifetime difference is the only                                        dation (NRF) of Korea Grants No. 2011-0029457,
+factor distinguishing charged from neutral B → hν ν̄ de-                                              No. 2012-0008143,        No. 2014R1A2A2A01005286,
+cays in the SM. We subsequently repeat the calculation                                                No.                             2014R1A2A2A01002734,
+                                                                                                                                               7
+
+                          TABLE II: Additive systematic uncertainties. All values are event yields.
+
+                                   K + ν ν̄       KS0 ν ν̄       K ∗+ ν ν̄           K ∗0 ν ν̄     π + ν ν̄     π 0 ν ν̄    ρ+ ν ν̄      ρ0 ν ν̄
+KL0 veto                               0.2            0.2                0.1              0.2         0.6          0.4         0.6         0.0
+Fixed fractions                        0.4            0.3                0.1              0.2         1.3          0.1         0.1         1.0
+Continuum scaling                      2.0            0.0                0.0              0.0         3.1          0.0         0.0         0.0
+Tag efficiency correction              0.5            0.2                0.1              0.1         1.9          0.1         0.2         0.5
+Shape uncertainty                      2.6            1.3                1.8              1.7         4.5          1.5         2.3         3.4
+Fit bias                               0.2            0.1                0.2              0.1         0.2          0.1         0.2         0.2
+Total                                  3.4            1.4                1.8              1.8         5.9          1.6         2.4         3.6
+
+
+
+No.                             2015R1A2A2A01003280,                           [10] Y. Sato et al. (Belle Collaboration), Phys. Rev. D 94,
+No. 2015H1A2A1033649, No. 2016R1D1A1B01010135,                                      072007 (2016).
+No.                             2016K1A3A7A09005603,                           [11] S. Kurokawa and E. Kikutani, Nucl. Instr. and Meth. A
+No.                             2016K1A3A7A09005604,                                499, 1 (2003) and other papers included in this volume;
+                                                                                    See also T. Abe et al., Prog. Theor. Exp. Phys. 2013,
+No.                             2016R1D1A1B02012900,                                03A001 (2013).
+No.      2016K1A3A7A09005606,             No.     NRF-                         [12] D. J. Lange, Nucl. Instr. and Meth. A 462, 152 (2001).
+2013K1A3A7A06056592; the Brain Korea 21-Plus                                   [13] R. Brun et al., GEANT, CERN Report No. DD/EE/84-1
+program, Radiation Science Research Institute, Foreign                              (1984).
+Large-size Research Facility Application Supporting                            [14] A. Abashian et al. (Belle Collaboration), Nucl. Instr. and
+project and the Global Science Experimental Data Hub                                Meth. A 479, 117 (2002); also see detector section in
+Center of the Korea Institute of Science and Technology                             J.Brodzicka et al., Prog. Theor. Exp. Phys. 2012 04D001
+                                                                                    (2012).
+Information; the Polish Ministry of Science and Higher                         [15] Z. Natkaniec et al. (Belle SVD2 Group), Nucl. Instr. and
+Education and the National Science Center; the Ministry                             Meth. A 560, 1 (2006); Y. Ushiroda (Belle SVD2 Group),
+of Education and Science of the Russian Federation and                              Nucl. Instr. and Meth. A 511 6 (2003).
+the Russian Foundation for Basic Research; the Slove-                          [16] M. Feindt, F. Keller, M. Kreps, T. Kuhr, S. Neubauer, D.
+nian Research Agency; Ikerbasque, Basque Foundation                                 Zander, and A. Zupanc, Nucl. Instrum. Methods Phys.
+for Science and MINECO (Juan de la Cierva), Spain;                                  Res., Sect. A 654, 432 (2011).
+the Swiss National Science Foundation; the Ministry of                         [17] B. Kronenbitter et al. (Belle Collaboration), Phys. Rev.
+                                                                                    D 92, 051102 (2015).
+Education and the Ministry of Science and Technology                           [18] M. Feindt and U. Kerzel, Nucl. Instr. and Meth. A 559,
+of Taiwan; and the U.S. Department of Energy and the                                190-194 (2006).
+National Science Foundation.                                                   [19] K. F. Chen et al. (Belle Collaboration), Phys. Rev. D 72,
+                                                                                    012004 (2005).
+                                                                               [20] C. Partignani et al. (Particle Data Group), Chin. Phys.
+                                                                                    C 40, 100001 (2016).
+                                                                               [21] K. Hara et al. (Belle Collaboration), Phys. Rev. Lett.
+ [1] Throughout this letter, h refers to one of the following                       110, 131801 (2013).
+     charmless states: K + , KS0 , K ∗+ , K ∗0 , π + , π 0 , ρ+ , ρ0 .         [22] S. H. Lee et al. (Belle Collaboration), Phys. Rev. Lett.
+     Charge-conjugate channels are implied throughout this                          91, 261801 (2003).
+     paper unless explicitly stated otherwise.                                 [23] D. M. Asner et al. (CLEO Collaboration), Phys. Rev. D
+ [2] A. Buras, J. Girrbach-Noe, C. Niehoff, and D. Straub,                          53, 1039 (1996).
+     JHEP 02, 184 (2015).                                                      [24] G. Punzi, eConf C030908, 235 (2004).
+ [3] C. Hambrock, A. Khodjamirian, Alexander, and A.                           [25] The cosine of the angle between the B and
+     Rusov, Phys. Rev. D 92, 074020 (2015).                                         the D(∗) l system is defined as cos θB, D(∗) l            =
+ [4] R. Aaij et al. (LHCb Collaboration), JHEP 02, 104                                                2 4      2     4                    2
+                                                                                                                                           
+                                                                                     2EB ED(∗) l − MB c − MD(∗) l c / 2 |pB | |pD(∗) l |c
+     (2016).                                                                        where M , E, and p are the invariant mass, energy, and
+ [5] R. Aaij et al. (LHCb Collaboration), Phys. Rev. Lett.                          momentum of the B (D(∗) l ) system.
+     113, 151601 (2014).                                                       [26] As we use a Bayesian method, this is formally a “cred-
+ [6] S. Wehle et al. (Belle Collaboration), Phys. Rev. Lett.                        ibility level.” However, we use “confidence level” here
+     118, 111801 (2017).                                                            following common convention.
+ [7] O. Lutz et al. (Belle Collaboration), Phys. Rev. D 87,
+     111103 (2013).
+ [8] J.P. Lees et al. (BaBar Collaboration), Phys. Rev. D 87,
+     112005 (2013).
+ [9] J.P. Lees et al. (BaBar Collaboration), Phys. Rev. D 82,
+     112002 (2010).
+

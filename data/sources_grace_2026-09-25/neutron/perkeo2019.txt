@@ -1,0 +1,428 @@
+                                               Measurement of the Weak Axial-Vector Coupling Constant in the Decay of Free
+                                                              Neutrons Using a Pulsed Cold Neutron Beam
+
+                                                                   B. Märkisch,1, 2, ∗ H. Mest,2 H. Saul,1, 3, 4 X. Wang,1, 3 H. Abele,1, 2, 3, †
+                                                              D. Dubbers,2 M. Klopf,3 A. Petoukhov,5 C. Roick,1, 2 T. Soldner,5 and D. Werder2
+                                                    1
+                                                        Physik-Department, Technische Universität München, James-Franck-Straße 1, 85748 Garching, Germany
+                                                        2
+                                                          Physikalisches Institut, Universität Heidelberg, Im Neuenheimer Feld 226, 69120 Heidelberg, Germany
+                                                                     3
+                                                                       Technische Universität Wien, Atominstitut, Stadionallee 2, 1020 Wien, Austria
+                                                                         4
+                                                                           Forschungs-Neutronenquelle Heinz Maier-Leibnitz (FRM II), Technische
+                                                                            Universität München, Lichtenbergstraße 1, 85748 Garching, Germany
+                                                             5
+                                                               Institut Laue-Langevin, 71 avenue des Martyrs, CS 20156, 38042 Grenoble Cedex 9, France
+                                                                                                (Dated: December 13, 2018)
+                                                             We present a precision measurement of the axial-vector coupling constant gA in the decay of
+                                                           polarized free neutrons. For the first time, a pulsed cold neutron beam was used for this purpose.
+                                                           By this method, leading sources of systematic uncertainty are suppressed. From the electron spectra
+                                                           we obtain λ = gA /gV = −1.27641(45)stat (33)sys which confirms recent measurements with improved
+                                                           precision. This corresponds to a value of the parity violating beta asymmetry parameter of A0 =
+                                                           −0.11985(17)stat (12)sys . We discuss implications on the CKM matrix element Vud and derive a limit
+
+
+
+
+arXiv:1812.04666v1 [nucl-ex] 11 Dec 2018
+                                                           on left-handed tensor interaction.
+
+                                                           PACS numbers: 13.30.Ce, 12.15.Ji, 12.15.Hh, 14.20.Dh, 23.40.Bw
+
+
+                                              Measurements in muon and neutron decay link weak                  sitive tools for searches for new physics [15]. Experimen-
+                                           leptonic and semileptonic decays to the underlying La-               tally, unitarity is verified at the 10−4 level for the first
+                                           grangian of the standard model with coupling constants               row of the matrix using nuclear decays [16]. The possible
+                                           based on the SU (3)c ×SU (2)L ×U (1) gauge structure [1–             observation of non-standard model couplings is another
+                                           3]. The Fermi coupling constant GF measured in muon                  example how new physics could emerge and is typically
+                                           decay [4] provides a low energy value for the weak cou-              tested in the framework of effective field theories, for re-
+                                           pling and was historically used to predict the masses of             cent reviews and surveys see [14, 17–21].
+                                           the W and Z bosons [5–7]. The Lagrange density in                       In neutron decay, the probability that an electron is
+                                           semileptonic neutron decay includes a hadronic vector                emitted with angle ϑ with respect to the neutron spin
+                                           (V ) and an axial vector current (A). The vector cou-                polarization vector P = hσi/σ is [22]
+                                           pling constant for quarks gV is related to that for lep-                                         v
+                                           tons via gV = GF Vud , with the matrix element Vud of                                 W (ϑ) = 1 + P A cos ϑ,                 (1)
+                                                                                                                                            c
+                                           the Cabbibo-Kobayashi-Maskawa (CKM) quark mixing
+                                           matrix. The axial vector current is renormalized by the              where v is the electron velocity. A is the parity violating
+                                           strong interaction at low energy. This is quantified by              beta asymmetry parameter which depends on λ.
+                                           the parameter λ = gA /gV , the ratio of the axial vector                In this letter we present the first determination of
+                                           and vector coupling constants. If the weak interaction is            λ from a measurement of the beta asymmetry using a
+                                           invariant under time reversal, the parameter λ is real.              pulsed neutron beam. The method is described in Ref.
+                                                                                                                [23, 24] and effectively eliminates or controls leading
+                                              The most precise experimental determination of the                sources of systematic uncertainty: beam related back-
+                                           parameter λ is from the beta asymmetry in neutron decay              ground, edge effects [25], and the magnetic mirror effect.
+                                           but older experimental results [8–10] are not consistent             Yet, one order of magnitude more data was collected com-
+                                           with newer experiments [11, 12] with smaller systematic              pared to the previously most precise experiment [11]. In
+                                           corrections. This discrepancy prevails since the first re-           order to ensure a blind analysis, the beta decay data and
+                                           sult of Perkeo II [13] and one aim of this work is to                two major systematic corrections (neutron beam polar-
+                                           clarify the situation.                                               ization and magnetic mirror effect) were analyzed sep-
+                                              The ratio of coupling constants λ is important in many            arately by independent teams. Results were combined
+                                           fields [14]: it enters in the prediction for the energy con-         once the analyses were complete.
+                                           sumption in the sun via the primary reaction in the pp-                 The spectrometer Perkeo III [23, 24] is the succes-
+                                           chain and the solar neutrino flux, the production of light           sor to the spectrometer Perkeo II, which was used to
+                                           elements in primordial nucleosynthesis, and neutron star             measure the beta asymmetry parameter A [11, 13, 27],
+                                           formation. λ is also used for the calibration of neutrino            the neutrino asymmetry parameter B [28, 29], and the
+                                           detectors and as an input for the unitarity check of the             proton asymmetry parameter C [30] in polarized neutron
+                                           quark-mixing CKM matrix. Within the standard model                   beta decay. The main component of the spectrometer is
+                                           the CKM matrix is unitary, and unitarity tests are sen-              an 8 m long magnet system, consisting of 54 short con-
+                                                                                                                                                                                           2
+
+
+
+
+FIG. 1. Schematic of the spectrometer setup Perkeo III installed at PF1B. The magnetic field is indicated in red. The cold
+neutron beam from the reactor source enters the beam line on the left hand side. Picture from [26].
+
+
+ventional coils with rectangular cross section. The shape                                                                      band of 4.5 . . . 5.5 Å to enter the instrument’s beam line.
+of the magnetic field and the beam line set-up are shown                                                                       The neutron beam was subsequently polarized by a sin-
+in Fig. 1. Electrons from neutron decay in the (nearly)                                                                        gle supermirror (SM) coated bender polarizer [35]. The
+homogeneous field in the center of the spectrometer are                                                                        adjustment of the polarizer was optimized for transmis-
+separated from the neutron beam and guided to two de-                                                                          sion which also yields a rather symmetrical beam inten-
+tectors installed upstream and downstream. By using a                                                                          sity and polarization. An adiabatic fast passage flipper
+pulsed beam neutrons are temporarily stored in-flight,                                                                         allowed to reverse the neutron spin direction. A series
+fully contained in the decay volume without any contact                                                                        of five apertures made out of 6 LiF were used to shape
+to material. The solid angle coverage of the detectors                                                                         the neutron beam. Before the neutron beam entered the
+is thus truly 2×2π, without edge effects. The magnetic                                                                         Perkeo III spectrometer, a rotating disc chopper with
+field has its maximum of Bmax = 152.5 mT in the center                                                                         a maximum frequency of 6000 rpm was used to pulse the
+of the active region. The field decreases towards the de-                                                                      beam as described in Ref. [23]. 6 LiF ceramics embed-
+tectors to reduce backscatter effects from the detectors.                                                                      ded in the chopper disc made of fiber reinforced plastic
+Details on electron backscatter suppression can be found                                                                       were used to absorb the neutron beam. The geometri-
+in Refs. [13, 27, 31].                                                                                                         cal opening of the chopper disc was 7.3 %. After pass-
+   The spectrometer was installed at the PF1B cold neu-                                                                        ing the spectrometer, remaining neutrons were dumped
+tron beam position at the Institut Laue-Langevin (ILL)                                                                         in a 10 B4 C beam stop. Data from neutron decay were
+[32, 33]. Neutrons moderated by a cold source are trans-                                                                       taken at two different frequencies of the chopper, 83 Hz
+ported to the beam site via a supermirror guide. The                                                                           and 94 Hz. Both datasets have similar size. The number
+capture flux density measured at the guide’s exit was                                                                          of detected decay events as a function of time after the
+Φ = 2 × 1010 s−1 cm−2 . A Dornier neutron velocity se-                                                                         chopper opens is shown in Fig. 2.
+lector [34] allowed only neutrons within a wavelength                                                                            When used with a polarized continuous neutron beam,
+                                                                                                                               Perkeo III can detect up to 5 × 104 decay events/s [23].
+                      detector(s)
+                                                                                                                               In the current set-up – using a pulsed neutron beam –
+              7          upstream
+                         downstream
+                                                                                                                               the instantaneous decay rate was reduced to 2 × 103 s−1
+              6
+                                                                                                                               during the signal time interval and 1.4 × 102 s−1 on time
+                                                                             4
+                         both
+
+                                                                (104 ms-1)
+                                                                             2
+              5                                                              0
+                                                                                                                               average. In total 6 × 108 neutron decay events were used
+ (107 ms-1)
+                                                                             -2
+              4
+
+              3                                                                   9   9.5   10   10.5    11   11.5   12
+                                                                                                                               for the extraction of the results.
+              2                                                                                                                   The polarization of the neutron beam was measured
+                      83 Hz
+              1                                                                                                                for several rotational speeds of the velocity selector using
+              0                                                                                                                opaque 3 He spin filter cells. Regular in-situ flipping of the
+                                                                                                                               3
+                  0           2            4               6            8                           10                    12     He spins served to separate neutron flipping efficiency
+                                      time of flight of the neutron pulse (ms)
+                                                                                                                               and polarization. Flat and parallel neutron entrance and
+                                                                                                                               exit windows of the filter cells and homogeneous neu-
+FIG. 2. Number of decay events in the electron energy window
+                                                                                                                               tron detectors assured a correct spatial averaging over
+300 . . . 700 keV as a function of time of flight of the neutron
+pulse through the spectrometer for a chopper frequency of                                                                      the rectangular aperture used to define the sensitive area.
+83 Hz. Background is subtracted. The insert zooms in on                                                                        The beam averaged polarization was determined from po-
+the background time window. The shape of the curves for                                                                        larization and intensity scans with step sizes equal to the
+the detectors is caused by the magnetic mirror effect. The                                                                     dimensions of this aperture, avoiding interpolation uncer-
+vertical lines indicate the time windows used for signal and                                                                   tainties. Scans performed from a shifted reference point
+background extraction.                                                                                                         yielded consistent results. The derived systematic uncer-
+                                                                                                                         3
+
+tainty of spatial averaging of 3.4 × 10−4 is dominated by       point-spread. The overall non-uniformity correction also
+the limited statistical precision of these tests. Measure-      includes the effect of energy-loss in the carbon foil back-
+ments in front and behind the Perkeo III spectrometer           ings which only needs to be considered for calibration
+gave consistent results. Later measurements behind the          measurements.
+spectrometer, in between and after the beta decay runs,            Despite the suppression of backscattering from the de-
+were used to derive the limit of 3.9 × 10−4 on a poten-         tectors by the magnetic field, about 6 % of the electrons
+tial time variation of the beam polarization. The third         are reflected onto the opposite detector. Full energy re-
+leading systematic uncertainty stems from the measured          construction is possible as both detectors are always read
+correction for neutron depolarization by the spectrom-          out simultaneously. If the deposited energy during the
+eter exit window of 2.7(2.2) × 10−4 . The background            first incidence is not sufficient for a trigger, the wrong
+was determined from regions outside the neutron pulse           emission direction would be assigned to the event. The
+in the time of flight spectra and results in a correction       correction for this effect is calculated based on Monte
+of 2.3(9) × 10−4 . All other individual corrections and         Carlo backscattering simulations using GEANT4, which
+uncertainties, including that for the averaging over the        have been verified using measured backscattering data
+wavelength band, are below 1 × 10−4 . The resulting av-         [31].
+erage neutron polarization of the pulses at the reference          Neutron decay data was only taken while the neutron
+selector speed is P = 0.99100(60) and the flipping effi-        pulse was fully contained in the homogeneous part of
+ciency is > 0.99964 (68.3% C.L.). The combined error of         the magnetic field and the chopper was closed. Back-
+these two effects on the asymmetry is 6.4 × 10−4 . Since        ground was measured at the end of every chopper cycle
+we do not use two SM bender polarizers in crossed (X-           when the neutron beam had been fully absorbed by the
+SM) geometry [36] the resulting neutron polarization is         neutron beam dump, see Fig. 2. Signal and background
+lower than in Ref. [11], but the accuracy is improved by        are thus measured under the same condition, i.e. with
+about a factor of two due to the limited wavelength band        the chopper closed. The time dependence of the am-
+and improved systematic uncertainties [37–40].                  bient background and that created by the closed chop-
+   Electrons were detected using two plastic scintillators      per was checked using 3 He neutron counter tubes, NaI
+of size 43 × 45 cm2 which were each read out by six             γ-detectors and the Perkeo detector systems. Effects
+fine mesh photomultiplier tubes. Mono-energetic con-            were found to be smaller than ∆A/A = 2 × 10−4 . In pre-
+version electron sources (139 Ce, 113 Sn, 137 Cs, and 207 Bi)   vious experiments [11] a significant amount of data had
+were used to calibrate and characterize the detectors.          to be discarded due to the variation of background from
+The sources were supported by thin carbon foil backings         external sources like neighboring instruments. In this ex-
+(< 20 µg/cm2 ) and could be moved in two dimensions             periment these sources were tracked without significant
+across the cross-section of the neutron beam in the de-         delay. The uncertainty on the background measurement
+cay volume. Detector drifts were checked and accounted          was reduced by more than an order of magnitude. The
+for with a single source every hour. Twice a day, a full        two datasets with different chopper frequencies were used
+calibration with all sources was performed. The non-            to investigate possible beam dependent background. The
+linearity of the detector systems was determined using          signal-to-background ratio in the fit region was better
+the calibration sources and off-line measurements of the        than 4 : 1.
+electronics and the scintillator. While calibration with           Electrons are reflected on an increasing magnetic field
+sources works very well at energies larger than 200 keV,        if the opening angle of gyration with respect to pthe mag-
+future measurements will also employ a time-of-flight           netic field exceeds the critical angle θc = arcsin B1 /B0 ,
+technique to improve calibration at low energies [41, 42].      were B0 is the maximum of the magnetic field and B1 is
+The uniformity of the detectors was measured about once         the field at the place of the neutron decay. This modifies
+a week. As a major improvement over previous Perkeo             the solid angle coverage of the two detectors and hence
+measurements, the variation of the detector amplitude           changes the measured asymmetry. This expected mir-
+over the area covered by decay electrons was < ±2.5 %.          ror effect is calculated from measurements of the shape
+The effect of the detector non-uniformity on our result         of the neutron cloud in space and time and magnetic
+is dominated by the dependence of the magnetic point-           field distributions. The field in the active region was
+spread function on the beta asymmetry [25, 43] and the          measured with Hall probes on a 3 × 3 × 27 grid with a
+difference in detector coverage of beta asymmetry and           spacing of 10 cm. Measurements were performed before
+calibration measurements. After unblinding we corrected         and after the neutron decay measurements and with dif-
+the geometrical coverage of the detector using a pre-           ferent sensors and yield consistent results. The neutron
+viously unapplied analysis, which shifted the result by         pulse shape in space and time was measured at several
+less than ∆λ/10. The corresponding corrections are cal-         positions downstream of the chopper using different de-
+culatued using photon transport simulations performed           tection techniques ((n, γ) reactions in aluminum foils or
+with GEANT4 [44]. The resulting detector model fits the         absorbtion in boron and gamma detectors, copper foil ac-
+measured uniformity under consideration of the electron         tivation and scanning with neutron detectors). Results
+                                                                                                                                             4
+
+             -0.09                      chopper frequency 94 Hz                   Effect on                      Relative        Relative
+             -0.10                                                              Asymmetry A                     Correction      Uncertainty
+             -0.11
+                                                                                                                   10−4            10−4
+                                                                                                                                       
+ Aexp        -0.12
+             -0.13                                                              Neutron beam
+                                            upstream detector
+             -0.14                       downstream detector                      Polarization and                  90.7             6.4
+                                                       average
+             -0.15
+                                       calculated mirror effect
+                                                                                  Spinflip efficiency
+                                                                                Background
+             0.01
+                                                                                  Time variation                    −0.8             0.8
+ residuals
+             0.00                                                                 Chopper                           −1.9             0.7
+                                              p = 70.7%                         Electrons
+             -0.01
+                                                                                  Magn. mirror effect               46.1             4.5
+                 2.5   3.0       3.5           4.0           4.5   5.0   5.5      Undetected backscattering          5.0             1.5
+                                              time (ms)
+                                                                                  Lost backscatter energy             0              1.4
+                                                                                Electron detector
+FIG. 3. Measured asymmetry Aexp for both detectors as a                           Deadtime                          (5)*             0.35
+function of time of flight of the neutron pulse. When averag-                     Temporal stability                                 3.7
+ing over both detectors, the dominant effect of the magnetic                      Non-uniformity                    4.2              2.1
+mirror effect cancels and only a small correction remains, see                    Non-linearity                     −1*               4
+Tab. I. The vertical dashed lines indicate the time window                        Calibration (input data)                            1
+used for the asymmetry analysis, the dashed lines indicate                      Theory
+the calculated mirror effect.
+                                                                                  Ext. radiative corr.            (−10)*              1
+                                                                                Total systematics                  138.1             10.3
+are consistent with each other and agree with calculations                      Statistical uncertainty                              14.0
+and McStas [45, 46] simulations based on the geometri-                          Total                                               17.4
+cal properties of selector and chopper. Most of the mirror
+effect on the asymmetry A cancels by averaging the re-
+                                                                                TABLE I. Summary of corrections to the measured experi-
+sults of the upstream and downstream detectors, which
+                                                                                mental asymmetry and uncertainties. All quantities are given
+can be seen in Fig. 3. The remaining average correc-                            as fractions ∆A/A of the asymmetry parameter. The fit pa-
+tion of both detectors on the time-averaged asymmetry                           rameter actually is λ, but we list corrections on A for compa-
+is (49.7±4.5)×10−4 for the 83 Hz and (42.5±4.5)×10−4                            rability with earlier measurements.
+                                                                                *
+for the 94 Hz chopper frequencies. We note that this cor-                         Already included in result Eq. (4): measured by the data
+rection is independent of the electron energy.                                  acquisition system or included in the fit function.
+   The electron spectra for both spin states and detectors
+(Ni↑↓ (E), i = 1, 2) were used to obtain the experimental
+asymmetry, which is directly related to the asymmetry                           sources only instead of relying on electron spectra from
+parameter A of Eq. (1). Omitting some further correction                        neutron beta decay. The result is independent of the
+terms, we obtain:                                                               choice of the fit range within the statistical error. The
+                                                                                fit range of ≈ 300 keV . . . 700 keV was chosen in order to
+                             Ni↑ (E)−Ni↓ (E)               1v     M             optimize the combined systematic and statistical uncer-
+              Aexp,i (E) =                            =       AP     ,    (2)
+                             Ni↑ (E)+Ni↓ (E)               2c    1±k            tainties.
+                                                                                   We apply remaining corrections listed in Table I and
+where the factor hcos θi = 1/2 results from solid angle                         obtain the final result:
+integration of Eq. (1). The neutron polarization P , the
+magnetic mirror correction M/(1 ± k) [47] and the beta                                          λ = −1.27641(45)stat (33)sys
+decay data were all analyzed by independent teams.
+                                                                                                  = −1.27641(56)                            (4)
+   The asymmetry parameter A includes order 1% cor-
+rections for weak magnetism, gV − gA interference, and                                         A = −0.11985(17)stat (12)sys
+nucleon recoil [48]. For λ real, the uncorrected asymme-                                          = −0.11985(21).
+try A0 is given by
+                                                                                The result of this blinded analysis confirms recent mea-
+                                             λ(λ + 1)
+                               A0 = −2                .                   (3)   surements using cold and ultra-cold neutrons [11, 12]
+                                             1 + 3λ2                            with 2.5 times higher precision compared to [11]. We
+An additional small radiative correction [49–51] of order                       note that all recent measurements have much smaller
+0.1% must be applied.                                                           corrections on the percent level only compared to older
+  Fig. 4 shows fits to the experimental asymmetry of the                        measurements, see also [14].
+available four datasets with the ratio of coupling con-                           The transition amplitude Vud of the CKM matrix
+stants λ as single free parameter. We note that the cali-                       [52, 53] can be derived using our result Eq. (4) and the
+brations of the detectors were obtained using calibration                       updated world-average of the neutron lifetime measure-
+                                                                                                                                                  5
+
+                                                                                      providing us with ultra-thin carbon foils, and U. Schmidt,
+          0.06
+                                                                                      Heidelberg, for countless valuable discussions. This work
+          0.05
+                                                                                      was supported by the Priority Programme SPP 1491 of
+          0.04                                                                        the German Research Foundation (DFG), contract nos.
+|Aexp |
+          0.03                                                                        MA 4944/1-2, AB 128/5-2, SO 1058/1-1, the Austrian
+                               detector 1, 83 Hz                 detector 2, 83 Hz
+          0.02                 Χ2 = 113 / 130                    Χ2 = 121 / 130       Science Fund (FWF) contract no. P 26636-N20, the Ger-
+                               p = 85.8%                         p = 69.7%
+                                                                                      man Federal Ministry for Research and Education, con-
+          0.01
+                                                                                      tract nos. 06HD153I and 06HD187, and the DFG cluster
+                                                                                      of excellence ‘Origin and Structure of the Universe’. The
+          0.06                                                                        computational results presented have been achieved in
+          0.05                                                                        part using the Vienna Scientific Cluster (VSC).
+          0.04
+|Aexp |
+          0.03
+                               detector 1, 94 Hz                 detector 2, 94 Hz
+          0.02                 Χ2 = 128 / 130                    Χ2 = 140 / 130
+                               p = 54.5%                         p = 26.2%
+                                                                                        ∗
+          0.01                                                                             maerkisch@ph.tum.de
+                                                                                        †
+                                                                                           abele@ati.ac.at
+                 100 200 300 400 500 600 700       100 200 300 400 500 600 700         [1] S. L. Glashow, Nucl. Phys. 22, 579 (1961).
+                       electron energy (keV)             electron energy (keV)         [2] S. Weinberg, Phys. Rev. Lett. 19, 1264 (1967).
+                                                                                       [3] A. Salam, 8th Nobel Symposium Lerum, Sweden, May
+                                                                                           19-25, 1968, Conf. Proc. C680519, 367 (1968).
+FIG. 4. The experimental asymmetry |Aexp,i (Ee )| and fits                             [4] D. M. Webber, V. Tishchenko, Q. Peng, S. Battu,
+with a single free parameter λ for both detectors and both                                 R. M. Carey, D. B. Chitwood, J. Crnkovic, P. T. De-
+chopper frequencies. The solid part of the line indicates the fit                          bevec, S. Dhamija, W. Earle, A. Gafarov, K. Giovanetti,
+interval which was chosen to balance statistics and effects due                            T. P. Gorringe, F. E. Gray, Z. Hartwig, D. W. Hert-
+to detector non-linearity and unrecognized backscattering.                                 zog, B. Johnson, P. Kammel, B. Kiburg, S. Kizilgul,
+                                                                                           J. Kunkle, B. Lauss, I. Logashenko, K. R. Lynch, R. Mc-
+                                                                                           Nabb, J. P. Miller, F. Mulhauser, C. J. G. Onderwa-
+ments [54], which includes the new measurements [55–57]                                    ter, J. Phillips, S. Rath, B. L. Roberts, P. Winter, and
+                                                                                           B. Wolfe (MuLan Collaboration), Phys. Rev. Lett. 106,
+                                  τn = 879.7(8) s                               (5)        041803 (2011).
+                                                                                       [5] A. Sirlin, Phys. Rev. D 22, 971 (1980).
+using Eq. (2) from [58]:                                                               [6] W. J. Marciano and A. Sirlin, Phys. Rev. D 22, 2695
+                                                                                           (1980).
+                                                   1/2                               [7] C. L. Smith and J. Wheater, Physics Letters B 105, 486
+                                   4908.6(1.9)                                             (1981).
+                     Vud =
+                                  τn · (1 + 3λ2 )                                      [8] P. Bopp, D. Dubbers, L. Hornig, E. Klemt, J. Last,
+                                                                                           H. Schütze, S. J. Freedman, and O. Schärpf, Phys. Rev.
+                           = 0.97351(19)RC (44)τn (35)λ ,
+                                                                                           Lett. 56, 919 (1986).
+                           = 0.97351(60),                                       (6)    [9] B. Yerozolimsky, I. Kuznetsov, Y. Mostovoy,          and
+                                                                                           I. Stepanenko, Phys. Lett. B 412, 240 (1997).
+where the error denoted RC stems from radiative cor-                                  [10] P. Liaud, K. Schreckenbach, R. Kossakowski, H. Nastoll,
+rections [59]. This neutron result is in agreement with                                    A. Bussière, J. Guillaud, and L. Beck, Nucl. Phys. A
+the average result from super-allowed beta decays of                                       612, 53 (1997).
+                                                                                      [11] D. Mund, B. Märkisch, M. Deissenroth, J. Krempel,
+Vud = 0.97417(21) [16] and only 2.9 times less precise,
+                                                                                           M. Schumann, H. Abele, A. Petoukhov, and T. Soldner,
+see also [54]. We note that here we do not use the new                                     Phys. Rev. Lett. 110, 172502 (2013).
+common radiative correction with reduced uncertainty                                  [12] M. A.-P. Brown, E. B. Dees, E. Adamek, B. Allgeier,
+from [60] as theoretical discussions are ongoing.                                          M. Blatnik, T. J. Bowles, L. J. Broussard, R. Carr,
+   As a first application of our result to searches for new                                S. Clayton, C. Cude-Woods, S. Currie, X. Ding, B. W.
+physics, we derive an improved limit on hypothetical                                       Filippone, A. García, P. Geltenbort, S. Hasan, K. P.
+left-handed tensor interactions. Following the scheme                                      Hickerson, J. Hoagland, R. Hong, G. E. Hogan, A. T.
+                                                                                           Holley, T. M. Ito, A. Knecht, C.-Y. Liu, J. Liu,
+of [61, 62] and using our result of the beta asymmetry
+                                                                                           M. Makela, J. W. Martin, D. Melconian, M. P. Menden-
+Eq. (4), our average of the neutron lifetime Eq. (5) and                                   hall, S. D. Moore, C. L. Morris, S. Nepal, N. Nouri,
+the average nuclear Ft value [16], we obtain:                                              R. W. Pattie, A. Pérez Galván, D. G. Phillips, R. Picker,
+                                                                                           M. L. Pitt, B. Plaster, J. C. Ramsey, R. Rios, D. J. Sal-
+            − 0.0044 < CT /CA < 0.00023,                 (95% C.L.).            (7)        vat, A. Saunders, W. Sondheim, S. J. Seestrom, S. Sjue,
+                                                                                           S. Slutsky, X. Sun, C. Swank, G. Swift, E. Tatar, R. B.
+  The authors acknowledge the excellent support of the                                     Vogelaar, B. VornDick, Z. Wang, J. Wexler, T. Wom-
+services of the Physikalisches Institut, Heidelberg Uni-                                   ack, C. Wrede, A. R. Young, and B. A. Zeck (UCNA
+versity, and the ILL. We thank D. Rechten, TUM, for                                        Collaboration), Phys. Rev. C 97, 035505 (2018).
+                                                                                                                              6
+
+[13] H. Abele, S. Baeßler, D. Dubbers, C. Metz, T. Müller,            ILL03SO10T (Institut Laue-Langevin, 2002).
+     V. Nesvizhevsky, C. Raven, O. Schärpf, and O. Zimmer,       [36] M. Kreuz, V. Nesvizhevsky, A. Petoukhov,               and
+     Phys. Lett. B 407, 212 (1997).                                   T. Soldner, Nucl. Inst. & Meth. A 547, 583 (2005).
+[14] D. Dubbers and M. G. Schmidt, Rev. Mod. Phys. 83,           [37] T. Soldner et al., Towards polarisation analysis with 10−4
+     1111 (2011).                                                     accuracy, Report No. 3-07-235 (Institut Laue-Langevin,
+[15] V. Cirigliano, J. P. Jenkins, and M. González-Alonso,            2011).
+     Nuclear Physics B 830, 95 (2010).                           [38] C. Klauser, J. Chastagnier, D. Jullien, A. Petoukhov,
+[16] J. C. Hardy and I. S. Towner, Phys. Rev. C 91, 025501            and T. Soldner, Journal of Physics: Conference Series
+     (2015).                                                          340, 012011 (2012).
+[17] M. González-Alonso, O. Naviliat-Cuncic, and N. Sever-       [39] C. Klauser, T. Bigault, N. Rebrova, and T. Soldner,
+     ijns, Prog. Part. Nucl. Phys. 104, 165 (2019).                   Physics Procedia 42, 99 (2013), 9th International Con-
+[18] B. R. Holstein, Journal of Physics G: Nuclear and Parti-         ference on Polarised Neutrons in Condensed Matter In-
+     cle Physics 41, 110301 (2014).                                   vestigations.
+[19] T. Bhattacharya, V. Cirigliano, S. D. Cohen, A. Fil-        [40] C. Klauser, T. Bigault, P. Böni, P. Courtois, A. De-
+     ipuzzi, M. González-Alonso, M. L. Graesser, R. Gupta,            vishvili, N. Rebrova, M. Schneider, and T. Soldner, Nucl.
+     and H.-W. Lin, Phys. Rev. D 85, 054512 (2012).                   Inst. & Meth. A 840, 181 (2016).
+[20] V. Cirigliano, S. Gardner, and B. R. Holstein, Prog.        [41] D. Dubbers, H. Abele, S. Baeßler, B. Märkisch, M. Schu-
+     Part. Nucl. Phys. 71, 93 (2013).                                 mann, T. Soldner, and O. Zimmer, Nucl. Inst. & Meth.
+[21] K. K. Vos, H. W. Wilschut, and R. G. E. Timmermans,              A 596, 238 (2008), arXiv:0709.4440 [nucl-ex].
+     Rev. Mod. Phys. 87, 1483 (2015).                            [42] C. Roick, D. Dubbers, B. Märkisch, H. Saul, and
+[22] J. D. Jackson, S. B. Treiman, and H. W. Wyld, Phys.              U. Schmidt, Phys. Rev. C 97, 035502 (2018).
+     Rev. 106, 517 (1957).                                       [43] D. Dubbers, Physics Letters B 748, 306 (2015).
+[23] B. Märkisch, H. Abele, D. Dubbers, F. Friedl, A. Kaplan,    [44] S. Agostinelli et al. (GEANT4), Nucl. Instrum. Meth.
+     H. Mest, M. Schumann, T. Soldner, and D. Wilkin, Nucl.           A506, 250 (2003).
+     Inst. & Meth. A 611, 216 (2009), Particle Physics with      [45] K. Lefmann and K. Nielsen, Neutron News 10, 20 (1999).
+     Slow Neutrons.                                              [46] P. Willendrup, E. Farhi, and K. Lefmann, Physica B:
+[24] B. Märkisch, Phys. Proc. 51, 41 (2014), ESS Science              Condensed Matter 350, E735 (2004), proceedings of the
+     Symposium on Neutron Particle Physics at Long Pulse              Third European Conference on Neutron Scattering.
+     Spallation Sources, NPPatLPS 2013.                          [47] C. Raven, Erste Messungen mit Perkeo II: β-Asymmetrie
+[25] D. Dubbers, L. Raffelt, B. Märkisch, F. Friedl, and              im Neutron-Zerfall, Diploma thesis, Universität Heidel-
+     H. Abele, Nucl. Inst. & Meth. A 763, 112 (2014).                 berg (1995).
+[26] H. Mest, Measurement of the β-Asymmetry in the De-          [48] D. H. Wilkinson, Nucl. Phys. A377, 474 (1982).
+     cay of Free Polarized Neutrons with the Spectrome-          [49] R. T. Shann, Il Nuovo Cimento 5A, 591 (1971).
+     ter PERKEO III, Ph.D. thesis, Universität Heidelberg        [50] F. Glück and K. Toth, Phys. Rev. D 46, 2090 (1992).
+     (2011).                                                     [51] A. N. Ivanov, M. Pitschmann, and N. I. Troitskaya,
+[27] H. Abele, M. Astruc Hoffmann, S. Baeßler, D. Dubbers,            Phys. Rev. D 88, 073002 (2013).
+     F. Glück, U. Müller, V. Nesvizhevsky, J. Reich, and         [52] N. Cabibbo, Phys. Rev. Lett. 10, 531 (1963).
+     O. Zimmer, Phys. Rev. Lett. 88, 211801 (2002).              [53] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49,
+[28] M. Kreuz, T. Soldner, S. Baeßler, B. Brand, F. Glück,            652 (1973).
+     U. Mayer, D. Mund, V. Nesvizhevsky, A. Petoukhov,           [54] D. Dubbers, H. Saul, B. Märkisch, and H. Abele, (2018),
+     C. Plonka, J. Reich, C. Vogel, and H. Abele, Phys. Lett.         submitted, arXiv:1812.00626 [nucl-ex].
+     B 619, 263 (2005).                                          [55] A. P. Serebrov, E. A. Kolomensky, A. K. Fomin, I. A.
+[29] M. Schumann, T. Soldner, M. Deissenroth, F. Glück,               Krasnoschekova, A. V. Vassiljev, D. M. Prudnikov, I. V.
+     J. Krempel, M. Kreuz, B. Märkisch, D. Mund,                      Shoka, A. V. Chechkin, M. E. Chaikovskiy, V. E. Var-
+     A. Petoukhov, and H. Abele, Phys. Rev. Lett. 99, 191803          lamov, S. N. Ivanov, A. N. Pirozhkov, P. Geltenbort,
+     (2007).                                                          O. Zimmer, T. Jenke, M. V. der Grinten, and M. Tucker,
+[30] M. Schumann, M. Kreuz, M. Deissenroth, F. Glück,                 KnE Energy & Physics 3, 121 (2018), arXiv:1712.05663
+     J. Krempel, B. Märkisch, D. Mund, A. Petoukhov,                  [nucl-ex].
+     T. Soldner, and H. Abele, Phys. Rev. Lett. 100, 151801      [56] R. W. Pattie, N. B. Callahan, C. Cude-Woods, E. R.
+     (2008).                                                          Adamek, L. J. Broussard, S. M. Clayton, S. A. Currie,
+[31] C. Roick, H. Saul, H. Abele, and B. Märkisch, in Particle        E. B. Dees, X. Ding, E. M. Engel, D. E. Fellers, W. Fox,
+     Physics at Neutron Sources (2018) submitted.                     P. Geltenbort, K. P. Hickerson, M. A. Hoffbauer, A. T.
+[32] H. Häse, A. Knöpfler, K. Fiederer, U. Schmidt, D. Dub-           Holley, A. Komives, C.-Y. Liu, S. W. T. MacDonald,
+     bers, and W. Kaiser, Nucl. Inst. & Meth. A 485, 453              M. Makela, C. L. Morris, J. D. Ortiz, J. Ramsey, D. J.
+     (2002).                                                          Salvat, A. Saunders, S. J. Seestrom, E. I. Sharapov, S. K.
+[33] H. Abele, D. Dubbers, H. Häse, M. Klein, A. Knöpfler,            Sjue, Z. Tang, J. Vanderwerp, B. Vogelaar, P. L. Wal-
+     M. Kreuz, T. Lauer, B. Märkisch, D. Mund,                        strom, Z. Wang, W. Wei, H. L. Weaver, J. W. Wexler,
+     V. Nesvizhevsky, A. Petoukhov, C. Schmidt, M. Schu-              T. L. Womack, A. R. Young, and B. A. Zeck, Science
+     mann, and T. Soldner, Nucl. Inst. & Meth. A 562, 407             360, 627 (2018), arXiv:1707.01817 [nucl-ex].
+     (2006).                                                     [57] V. F. Ezhov, A. Z. Andreev, G. Ban, B. A. Bazarov,
+[34] V. Wagner, H. Friedrich, and P. Wille, Physica B: Con-           P. Geltenbort, A. G. Glushkov, V. A. Knyazkov, N. A.
+     densed Matter 180-181, 938 (1992).                               Kovrizhnykh, G. B. Krygin, O. Naviliat-Cuncic, and
+[35] T. Soldner, A. Petoukhov, and C. Plonka, Installation            V. L. Ryabov, Pisma Zh. Eksp. Teor. Fiz. 107, 707
+     and first tests of the new PF1b polariser, Report No.            (2018).
+                                                                                                                         7
+
+[58] A. Czarnecki, W. J. Marciano, and A. Sirlin, Phys. Rev.          arXiv:1807.10197 [hep-ph].
+     Lett. 120, 202002 (2018).                                   [61] R. W. Pattie, K. P. Hickerson, and A. R. Young, Phys.
+[59] W. J. Marciano and A. Sirlin, Phys. Rev. Lett. 96, 032002        Rev. C 88, 048501 (2013).
+     (2006).                                                     [62] R. W. Pattie, K. P. Hickerson, and A. R. Young, Phys.
+[60] C.-Y. S. Seng, M. Gorchtein, H. H. Patel, and M. J.              Rev. C 92, 069902 (2015).
+     Ramsey-Musolf, Phys. Rev. Lett. (2018), accepted,
+
