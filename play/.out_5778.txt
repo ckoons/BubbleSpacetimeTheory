@@ -1,0 +1,56 @@
+Toy 5778 — K1922 exponent table, independent re-derivation
+
+Required matter-era exponent of N (rho_DE constant):
+  D=1: 1   [D(D+1)/2 = 1]
+  D=2: 3   [D(D+1)/2 = 3]
+  D=3: 6   [D(D+1)/2 = 6]
+  D=4: 10   [D(D+1)/2 = 10]
+  D=5: 15   [D(D+1)/2 = 15]
+  D=6: 21   [D(D+1)/2 = 21]
+  D=7: 28   [D(D+1)/2 = 28]
+  [PASS] required exponent equals D(D+1)/2 for D=1..7
+  [PASS] required exponent at D=3 is 6 (epsilon = 2 in d ln N/dt = 2H(1+eps))
+
+Table: supplied exponent vs required, D = 1..10
+  D | req  | prod/area | prod/fixed | quot/area | quot/fixed
+   1|    1 |      0    |      2     |      0    |      2 
+   2|    3 |      2    |      4     |      1    |      2 
+   3|    6 |      6*   |      6*    |      2    |      2 
+   4|   10 |     12    |      8     |      3    |      2 
+   5|   15 |     20    |     10     |      4    |      2 
+   6|   21 |     30    |     12     |      5    |      2 
+   7|   28 |     42    |     14     |      6    |      2 
+   8|   36 |     56    |     16     |      7    |      2 
+   9|   45 |     72    |     18     |      8    |      2 
+  10|   55 |     90    |     20     |      9    |      2 
+  (* = matches requirement)
+  product-area   : matches at D = [3]
+  product-fixed  : matches at D = [3]
+  quotient-area  : matches at D = []
+  quotient-fixed : matches at D = []
+  [PASS] PRODUCT under G_area matches only at D = 3 (D=1..10)
+  [PASS] PRODUCT under G_fixed matches only at D = 3 (D=1..10)
+  [PASS] QUOTIENT matches at no D (either generalisation)
+  [PASS] (control) control: literal ledger at D=3 (N ∝ a^2) fails the requirement
+  [PASS] both matching conditions reduce to D(D-3)=0 (analytic, all D>=1)
+
+Adversarial (for Cal's read 2): what 'only at D=3' is a statement about.
+  Product reading with per-write exponent p: need D*p = D(D+1)/2  ->  p(D) = (D+1)/2
+    D=1: p = 1   (G_area gives 0, G_fixed gives 2)
+    D=2: p = 3/2   (G_area gives 1, G_fixed gives 2)
+    D=3: p = 2   (G_area gives 2, G_fixed gives 2)
+    D=4: p = 5/2   (G_area gives 3, G_fixed gives 2)
+    D=5: p = 3   (G_area gives 4, G_fixed gives 2)
+    D=6: p = 7/2   (G_area gives 5, G_fixed gives 2)
+    D=7: p = 4   (G_area gives 6, G_fixed gives 2)
+  [PASS] a product reading matches at EVERY D for p(D)=(D+1)/2; D=3 is where p=2=D-1
+  -> 'only at D=3' is about the two generalisations of the ledger's 2, not the
+     product mechanism alone: the mechanism fixes N = N1^D; the ledger's per-write
+     exponent must be (D+1)/2, and the ledger's 2 is that value only at D = 3.
+
+Radiation era, product reading, D = 3:
+  rho_DE ∝ a^-2  ->  w = -1/3;  fraction rho_DE/rho_rad ∝ a^2
+  [PASS] radiation era: rho_DE ∝ a^-2, w = -1/3, fraction grows as a^2
+  [PASS] matter era, product, D=3: rho_DE ∝ a^0 (w = -1)
+
+SCORE 10/10  (can-fail 9/9; 1 control)
