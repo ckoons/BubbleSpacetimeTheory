@@ -1,0 +1,2176 @@
+1                           89. Axions and Other Similar Particles
+
+
+                     89. Axions and Other Similar Particles
+
+Revised August 2025 by C.A.J. O’Hare (Sydney U.), G. Rybka (U. Washington), B. Safdi (UC
+Berkeley) and L. Winslow (MIT).
+89.1 Introduction
+     In this section, we list coupling-strength and mass limits for light axion-like particles (ALPs)
+and QCD axions [1–4]. Such bosons may arise from the spontaneous breaking of a global U(1)
+Peccei-Quinn (PQ) symmetry, resulting in a massless Nambu-Goldstone (NG) boson. If there is a
+small explicit symmetry breaking, either already in the Lagrangian or due to quantum effects such
+as anomalies, the boson acquires a mass and is called a pseudo-NG boson. Axions may also arise
+in extra dimension constructions as the zero-modes of higher-dimensional gauge fields compactified
+on internal manifolds; in this case, the absence of a local contribution to the axion mass is due to
+the higher-dimensional gauge symmetry [5, 6].
+     A common feature of these light bosons a is that their coupling to Standard-Model particles is
+suppressed by the energy scale that characterizes the symmetry breaking, i.e., the decay constant
+fa . For example, in models where the axion arises as a Goldstone boson, the interaction Lagrangian
+at energy scales below fa is
+                                            L = fa−1 J µ ∂µ a ,                                 (89.1)
+where J µ is the Noether current of the spontaneously broken global symmetry. If fa is very large,
+these new particles interact very weakly. Detecting them would provide a window to physics far
+beyond what can be probed at accelerators.
+    The QCD axions is of particular interest because it provides a compelling scheme to preserve
+CP -symmetry in QCD. Moreover, the cold dark matter (CDM) of the Universe may well consist
+of axions and they are searched for in dedicated experiments with a realistic chance of discovery.
+    Originally it was assumed
+                         √        that the PQ scale fa was related to the electroweak symmetry-
+breaking scale vEW = ( 2GF )−1/2 = 246.22 GeV. However, the associated “standard” and “variant”
+axions were quickly excluded—we refer to the Listings for detailed limits. Here we focus on “invisible
+axions” with fa  vEW as the main possibility.
+    Axions have a characteristic two-photon vertex, inherited from their mixing with π 0 and η.
+This coupling allows for the main search strategy based on axion-photon conversion in external
+magnetic fields [7], an effect that also can be of astrophysical interest. While for axions the product
+“aγγ interaction strength × mass” is essentially fixed by the corresponding π 0 properties, one
+may consider a more general class of ALPs where the two parameters (coupling and mass) are
+independent. A number of experiments explore this more general ALP parameter space. ALPs
+populating the latter are predicted to arise generically, in addition to the axion, in low-energy
+effective field theories emerging from string theory [5, 6, 8–14].
+89.2 Theory
+89.2.1 Peccei-Quinn mechanism and axions
+    The QCD Lagrangian includes a CP -violating term LΘ = −Θ̄ (αs /8π) Gµνa G̃aµν , where −π ≤
+Θ̄ ≤ +π is the effective Θ parameter after diagonalizing quark masses, Gaµν is the color field strength
+tensor, and G̃a,µν ≡ µνλρ Gaλρ /2, with ε0123 = 1, its dual. This term induces an electric dipole mo-
+ment (EDM) of the neutron of strength dn = CEDM e Θ̄.              The coefficient CEDM is calculated
+using QCD sum rules as CEDM = 2.4(1.0) × 10−16 cm [15], while lattice QCD computations find
+CEDM = 1.48(14)(31) × 10−16 cm [16] including statistical and systematic uncertainties. Experi-
+mental upper bounds on the latter, |dn | < 1.8 × 10−26 e cm [17, 18], imply |Θ̄| . 10−10 even though
+
+                F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                               1st June, 2026 11:06am
+2                          89. Axions and Other Similar Particles
+
+
+Θ̄ = O(1) is otherwise completely satisfactory. Note that the proton has a similar EDM as the
+neutron, but it is less strongly constrained at present; this could change in the future [19]. The
+                                        p               p
+proton EDM may be written as dp = CEDM      e Θ̄, with CEDM  = −3.8(11)(8) [16]. The opposite signs
+of the neutron and proton EDMs may be understood from the opposite signs of their magnetic
+moments.     The spontaneously broken global PQ symmetry U(1)PQ was introduced to solve the
+“strong CP problem” [1, 2] of small Θ , the axion being the pseudo-NG boson of U(1)PQ [3, 4].
+This symmetry is broken due to the axion’s anomalous triangle coupling to gluons,
+                                             a       αs µνa a
+                                                   
+                                    L=          − Θ̄    G G̃µν ,                                 (89.2)
+                                             fa      8π
+where a is the axion field and fa the axion decay constant. Color anomaly factors have been
+absorbed in the normalization of fa which is defined by this Lagrangian. Thus normalized, fa is
+the quantity that enters all low-energy phenomena [20]. Non-perturbative topological fluctuations
+of the gluon fields in QCD induce a potential for a whose minimum is at a = Θ̄ fa , thereby canceling
+the Θ̄ term in the QCD Lagrangian and thus restoring CP symmetry.
+    The resulting axion mass, in units of the PQ scale fa , is identical to the square root of the topo-
+                                        √
+logical susceptibility in QCD, ma fa = χ. The latter can be evaluated further [21, 22], exploiting
+the chiral limit (masses of up and down quarks much smaller than the scale of QCD), yielding
+          √
+ma fa = χ ≈ fπ mπ , where mπ ≈ 135 MeV and fπ ≈ 92 MeV . In more detail one finds, by
+including O(α) QED corrections and next-to-next-to-leading order (NNLO) corrections in chiral
+perturbation theory [23],                                     !
+                                                    109 GeV
+                                 ma = 5.691(51)                  meV .                            (89.3)
+                                                       fa
+A direct calculation of the topological susceptibility via QCD lattice simulations finds almost the
+same central value, albeit with an about five times larger error bar [24].
+    The QCD axion acquires a variety couplings to low-energy Standard Model observables, as we
+discuss in detail in this review. The most model-independent couplings are those of the axion to
+the neutron and proton EDM operators. While the axion removes the static neutron and proton
+EDMs, displacements of the axion field a from its vacuum expectation value induce field-dependent
+EDMs, which are characterized through the operator
+                                          i
+                                 LaN γ = − gaN γ a Ψ N σµν γ5 ΨN F µν ,                          (89.4)
+                                          2
+with N = n, p for neutrons or protons, respectively. The coupling ganγ is related to CEDM by
+ganγ = eCEDM /fa and similarly for gapγ . Direct probes of the axion-EDM operators are difficult,
+though by studying the thermal production of axions in the early universe one can broadly constrain,
+using Planck and Baryon Acoustic Oscillation (BAO) data, ma . 0.3 eV [25]. In the presence of an
+oscillatory relic axion DM field, this operator induces an oscillating neutron EDM; this effect forms
+the basis of the CASPEr experiment [26,27] that is discussed more later in this review. Non-linearly
+realized discrete-symmetries may be used to suppress the QCD axion mass below the prediction
+in Eq. (89.3), in which case a variety of cosmological and terrestrial constraints on the operator in
+Eq. (89.4) are also relevant [28–35]
+    Axions with fa  vEW evade almost all current experimental limits. Given that the axion
+interacts with ordinary matter through higher-dimensional operators, it requires an ultraviolet
+(UV) completion at an energy scale of order fa . Broadly speaking, there are two distinct classes of
+UV scenarios that give rise to axions in the infrared (IR) low-energy effective field theory (EFT)
+(see [36] for a review of UV axion models): (i) 4d field theory models that realize the axion as
+
+                                             1st June, 2026
+3                          89. Axions and Other Similar Particles
+
+
+a Goldstone mode of a spontaneously broken but also anomalous abelian U (1)PQ symmetry, (ii)
+extra-dimensional models where the axion arises as the zero-mode of a higher-dimensional gauge
+field. Within the first category, one generic class of models is that of “hadronic axions,” where new
+heavy quarks carry U(1)PQ charges, leaving ordinary quarks and leptons without tree-level axion
+couplings. The archetype is the KSVZ model [37, 38], where in addition the heavy new quarks
+are electrically neutral. Another generic class of field theory axion models requires at least two
+Higgs doublets and ordinary quarks and leptons carry PQ charges, the archetype being the DFSZ
+model [39, 40]; in this case the quarks and leptons may have tree-level axion couplings. All of these
+models contain at least one electroweak singlet scalar that acquires a vacuum expectation value and
+thereby breaks the PQ symmetry. The KSVZ and DFSZ models are frequently used as benchmark
+examples, but other field theory models exist where both heavy quarks and Higgs doublets carry
+PQ charges [36].
+    The field theory axion constructions, like KSVZ, DFSZ, and related variants, suffer from the
+so-called PQ quality problem [41–45]. The issue is that global symmetries are not expected to be
+respected in quantum gravity (see, e.g., [46]); in particular, PQ-violating operators at the Planck
+scale spoil the quality of the U (1)PQ symmetry, generating a neutron EDM in conflict with the
+experimental constraints. On the other hand, the axion quality is naturally exponentially better
+in the second class of UV completions mentioned in the previous paragraph, when the axion arises
+as the zero mode of an extra dimensional gauge field. In this case, the axion potential is protected
+by the gauge symmetry of the higher-dimensional theory, instead of a global symmetry. (More
+technically, the axion quality in extra dimensional constructions is best understood through the
+language of generalized global symmetries [47–49].) Contributions to the axion potential must
+be non-local and are thus naturally exponentially suppressed. Extra dimensional axions arise
+naturally in string theory constructions, as string theory has a plethora of higher-form gauge fields
+and lives most naturally in 10 or 11 dimensions, which requires some of those dimensions to be
+compactified. The presence of multiple distinct and non-trivial cycles in the compact manifold and
+higher-form gauge fields leads to a plethora of axions, which is known as the axiverse [6,10,12]—one
+of these axions can be the QCD axion. While field theory axions can have any fa . Mpl and thus
+any mass larger than roughly 10−12 eV, axions in string theory most naturally have ma . 10−8
+eV [6, 50], though higher QCD axion masses are also possible in these constructions at the cost of
+fine tuning [51, 52].
+89.2.2 Model-dependent axion couplings
+    Although the generic axion interactions scale approximately with fπ /fa from the corresponding
+π 0 couplings, there are non-negligible model-dependent factors and uncertainties. The axion’s
+two-photon interaction plays a key role for many searches,
+                                           gaγγ
+                              Laγγ = −          a Fµν F̃ µν = gaγγ a E · B ,                  (89.5)
+                                            4
+
+where F is the electromagnetic field-strength tensor and F̃ µν ≡ µνλρ Fλρ /2, with ε0123 = 1, its
+dual. The coupling constant is [53]
+
+                            α         E                     E                       ma
+                                                                            
+                  gaγγ =                − 1.92(4) = 0.203(3) − 0.39(1)                  ,     (89.6)
+                           2πfa       N                     N                      GeV2
+where E and N are the electromagnetic and color anomalies of the axial current associated with
+the axion, and α is the low-energy fine structure constant. In grand unified models, and notably
+for DFSZ [39, 40], E/N = 8/3, whereas for KSVZ [37, 38] E/N = 0 if the electric charge of the new
+heavy quark is taken to vanish. In general, a broad range of E/N values is possible [36, 54–56],
+
+                                              1st June, 2026
+4                                     89. Axions and Other Similar Particles
+
+
+as indicated by the diagonal yellow band in Fig. 89.1, whose width is roughly determined by
+the boundary values E/N = 44/3 and E/N = 5/3, respectively. However, this band still does
+not exhaust all the possibilities. In fact, there exist classes of QCD axion models whose photon
+couplings populate the entire still-allowed region outside the yellow band in Fig. 89.1 [57–62],
+motivating axion search efforts over a wide range of masses and couplings.
+    The two-photon decay width is
+                                                                2 m3
+                                                               gaγγ
+                                                                                                                                                         5
+                                                                                                                                               ma
+                                                                                                                                          
+                                                                      a
+                                       Γa→γγ =                          ≈ 1.1 × 10−24 s−1                                                                         .                            (89.7)
+                                                                 64 π                                                                          eV
+
+The second expression uses Eq. (89.6) with E/N = 0. Axions decay faster than the age of the
+Universe if ma & 20 eV.
+
+                       10−6
+                       10−7
+                       10−8
+                       10−9
+
+
+
+
+         | gaγγ | [GeV−1]
+                     10−10                                          MWD X-rays Neutron stars
+                                                                                                                                  WINERED
+                                                                                                          NuSTAR
+
+                     10−11
+                                                                                                         ORGAN
+                     10−12                                                              RBF+UF
+                                                                     ADMX SLIC
+                                                                                                                                              DESI
+                                               BASE
+                                                                                                  QUAX
+                     10−13
+                                                                                                                                            MUSE   HST
+
+                     10−14                                                       ADMX                                                                    Le
+                                                                                                                                                         oT
+                                                                                         CAPP
+                     10−15
+                     10−16
+                                                            Z
+                     10−17                                SV        FS
+                                                                       Z
+                                                      K         D
+                     10−18                                                                                                                    XMM-Newton
+                                                                                                                                                  NuSTAR
+                                                                                                                                                   INTEGRAL
+                     10−19
+                              −12 −11 −10 0−9         −8        −7                −6         −5      −4           −3    −2    −1
+                                                                                                                                     10
+                                                                                                                                        0
+                                                                                                                                               10
+                                                                                                                                                     1
+                                                                                                                                                         10
+                                                                                                                                                              2        3
+                                                                                                                                                                      10
+                                                                                                                                                                            4
+                                                                                                                                                                           10
+                                                                                                                                                                                 5
+                                                                                                                                                                                10
+                                                                                                                                                                                      6
+                                                                                                                                                                                     10
+                                                                                                                                                                                           7
+                                                                                                                                                                                          10
+                            10   10   10   1      10           10            10         10        10             10    10    10
+
+                                                                                                     m a [eV]
+Figure 89.1: Exclusion plot for the ALP-photon coupling. Figure from [63], contains exclusions
+from refs. [64–182]. Constraints in red are from terrestrial experiments. Haloscope searches assume
+all local dark matter is axions. Those shown in green are astrophysical but make no assumption
+about axions being DM. See text for details regarding the diagonal yellow band expectation for the
+QCD axion and assumptions for blue high mass axion astrophysical limits.
+
+    The interaction with fermions f has derivative form and is invariant under a shift a → a + a0
+as behooves a NG boson,
+                                           Cf
+                                   Laf f =     ∂µ a Ψ̄f γ µ γ5 Ψf .                        (89.8)
+                                           2fa
+Here, Ψf is the fermion field, mf its mass, and Cf a model-dependent coefficient. The dimensionless
+combination gaf f ≡ Cf mf /fa plays the role of a Yukawa coupling and αaf f ≡ gaf  2 /4π of a “fine-
+                                                                                     f
+structure constant.” The often-used pseudoscalar form Laf f = −i (Cf mf /fa ) a Ψ̄f γ5 Ψf need not be
+equivalent to the appropriate derivative structure, for example when two NG bosons are attached
+to one fermion line as in axion emission by nucleon bremsstrahlung [183–185].
+
+                                                                                   1st June, 2026
+5                           89. Axions and Other Similar Particles
+
+
+   In hadronic axion models, Ce vanishes at tree level, but is then generated radiatively at one
+loop [186, 187],
+                               3α2 E         fa                Λχ
+                                                              
+                        Ce ≃           log        − 1.92 log         ,                    (89.9)
+                               4π 2 N        me                me
+where Λχ ≃ 1 GeV is the chiral symmetry breaking scale. In the DFSZ model [39,40], the tree-level
+coupling coefficient to electrons is [186]
+
+                                                      sin2 β
+                                               Ce =          ,                                  (89.10)
+                                                         3
+where tan β is the ratio of the vacuum expectation values of the two Higgs doublets giving masses
+to the up- and down-type quarks, respectively: tan β = vu /vd . As a cautionary note, many of the
+original axion references, such as [186], defined tan β = vd /vu , but the choice tan β = vu /vd adopted
+here and in more modern axion works is a reflection of the choice taken in the two-Higgs-doublet
+literature [188]. The resulting prediction for the axion-electron coupling, as a function of the axion
+mass, for the KSVZ axion (E/N = 0), hadronic axions, with 5/3 ≤ E/N ≤ 44/3, and the DFSZ
+axion is displayed in Fig. 89.2. For the DFSZ range we have taken into account the constraint
+0.28 . tan β . 140 [189] arising from the requirement of perturbative unitarity of the Yukawa
+couplings of Standard Model fermions.
+    For nucleons, Cp,n have been determined as [53]
+
+                     Cp = −0.47(3) + 0.88(3)Cu − 0.39(2)Cd − 0.038(5)Cs
+                                       − 0.012(5)Cc − 0.009(2)Cb − 0.0035(4)Ct ,
+                                                                                                (89.11)
+                     Cn = −0.02(3) + 0.88(3)Cd − 0.39(2)Cu − 0.038(5)Cs
+                                       − 0.012(5)Cc − 0.009(2)Cb − 0.0035(4)Ct ,
+
+in terms of the corresponding model-dependent quark couplings Cq , q = u, d, s, c, b, t. For hadronic
+axions, the latter vanish at tree-level, which means that Cn is expected to be much smaller than
+Cp . In the DFSZ model, Cu = Cc = Ct = 13 cos2 β and Cd = Cs = Cb = 31 sin2 β, and Cp and Cn ,
+as functions of β,
+                              Cp = −0.435 sin2 β + (−0.182 ± 0.025) ,
+                                                                                              (89.12)
+                              Cn = 0.414 sin2 β + (−0.160 ± 0.025) .
+The resulting prediction for the axion-neutron coupling, as a function of the axion mass, for the
+KSVZ axion and the DFSZ axion is displayed in Fig. 89.3. Note, however, that these couplings
+receive in-medium corrections, which may be important when considering compact stars [190].
+    The axion-pion interaction is given by the Lagrangian [187, 191]
+
+                             Caπ                                                        
+                    Laπ =          ∂µ a π 0 π + ∂µ π − + π 0 π − ∂µ π + − 2π + π − ∂µ π 0 ,     (89.13)
+                            2fπ fa
+
+where Caπ = 2(Cp − Cn )/(3gA ) and gA = 1.2723(23) is the nucleon axial charge.
+   Additionally, there are axion-pion-nucleon interactions of the form
+
+                                        CaπN                                  
+                             LaπN =            ∂µ a iπ + p̄γ µ n − iπ − n̄γ µ p ,               (89.14)
+                                        2fπ fa
+                            √
+where CaπN = (Cap − Can ) /( 2gA ). Axion-kaon interactions are also present.
+
+                                              1st June, 2026
+6                          89. Axions and Other Similar Particles
+
+
+89.3 Laboratory Searches
+89.3.1 Light shining through walls
+    Searching for “invisible axions” is extremely challenging due to their extraordinarily feeble
+coupling to normal matter and radiation. Currently, the most promising approaches rely on the
+axion-two-photon interaction, allowing for axion-photon conversion in external electric or magnetic
+fields [7]. For the Coulomb field of a charged particle, the conversion can be viewed as a scattering
+process, γ + Ze ↔ Ze + a, called the Primakoff effect [192]. In the other extreme of a macroscopic
+field, usually a large-scale B-field, the momentum transfer is small, the interaction is coherent over
+a large distance, and the conversion can be viewed as an axion-photon oscillation phenomenon in
+analogy to neutrino flavor oscillations [193].
+    Photons propagating through a transverse magnetic field, with incident Eγ and magnetic field B
+parallel, may convert into axions. For m2a L/2ω  2π, where L is the length of the B field region and
+ω the photon energy, the resultant axion beam is coherent with the incident photon beam and the
+conversion probability is Π ∼ (1/4)(gaγγ BL)2 . One such realization uses a laser beam propagating
+down the bore of a superconducting dipole magnet (like, say, the bending magnets in high-energy
+accelerators). If another magnet is in line with the first, but shielded by an optical barrier, then
+photons may be regenerated from the pure axion beam [194,195]. The overall probability is P (γ →
+A → γ) = Π 2 .
+    The first such Light-Shining-through-Walls (LSW) experiment was performed by the BFRT
+(Brookhaven-Fermilab-Rochester-Trieste) collaboration. It utilized two magnets of length L =
+4.4 m and B = 3.7 T and found |gaγγ | < 6.7 × 10−7 GeV−1 at 95% CL for ma < 1 meV [196, 197].
+More recently, several such experiments were performed (see Listings) [99, 102, 198–202]. The
+current best limit, |gaγγ | < 3.5 × 10−8 GeV−1 at 95% CL for ma . 0.3 meV (see Fig. 89.1), has
+been achieved by the OSQAR (Optical Search for QED Vacuum Birefringence, Axions, and Photon
+Regeneration) experiment, which exploited two 9 T LHC dipole magnets and an 18.5 W continuous
+wave laser emitting at the wavelength of 532 nm [102]. The ALPS I (Any Light Particle Search
+I) experiment achieved a similar sensitivity [99], see Fig. 89.1. Some of these experiments have
+also reported limits for scalar bosons where the photon Eγ must be chosen perpendicular to the
+magnetic field B.
+    The concept of resonantly enhanced photon regeneration may open unexplored regions of cou-
+pling strength [203–205]. In this scheme, both the production and detection magnets are within
+Fabry-Perot optical cavities and actively locked in frequency. The γ → a → γ rate is enhanced by
+a factor FF 0 /π 2 relative to a single-pass experiment, where F and F 0 are the finesses of the two
+cavities. The resonant enhancement could be of order 10(10−12) , improving the gaγγ sensitivity by
+10(2.5−3) . The experiment ALPS II (Any Light Particle Search II) is based on this concept and
+aims at an improvement of the current laboratory bound on gaγγ by a factor ∼ 103 [206]. ALPS II
+began operations in 2023, the regeneration cavity has been characterized [207], and a result from
+the first data taking campaign is pending.
+    Resonantly enhanced photon regeneration has already been exploited in experiments searching
+for “radiowaves shining through a shielding” [208–211]. For ma . 10−5 eV, the upper bound on
+gaγγ established by the CROWS (CERN Resonant Weakly Interacting sub-eV Particle Search)
+experiment [101] is slightly less stringent than the one set by OSQAR, see Fig. 89.1.
+89.3.2 Long-range forces
+    New bosons would mediate new long-range forces, which are severely constrained by “fifth
+force” experiments [212]. Those looking for new mass-spin couplings provide significant constraints
+on pseudoscalar bosons [213–218], see for example in Fig. 89.3 the limit on the axion-neutron
+coupling [219] from torsion balance tests of the gravitational inverse square law [220]. Presently,
+
+                                           1st June, 2026
+7                          89. Axions and Other Similar Particles
+
+
+the most restrictive limits are obtained from combining long-range force measurements with stellar
+cooling arguments [221, 222]. For the moment, any of these limits are far from realistic values
+expected for the QCD axion. Still, these efforts provide constraints on more general low-mass
+bosons.
+    In Ref. [223], a method was proposed that can extend the search for axion-mediated spin-de-
+pendent forces by several orders of magnitude. By combining techniques used in nuclear magnetic
+resonance and short-distance tests of gravity, this method appears to be sensitive to the QCD
+axion in the µeV – meV mass range, independent of the cosmic axion abundance, if axions have
+a CP -violating interaction with nuclei as large as the current experimental bound on the electric
+dipole moment of the neutron allows. (Note that the CP -violation already present in the Standard
+Model is sufficient for generating an axion-mediated force, though in this case the signal appears too
+small to be detectable for the QCD axion in the foreseeable future [223].) The ARIADNE (Axion
+Resonant InterAction DetectioN Experiment) is under development and employs this approach to
+search for axion-mediated spin-dependent short-range interactions between a hyper-polarized 3 He
+sample and an unpolarized tungsten source mass [224]. The method relies on superconducting
+magnetic shielding to screen the sample from ordinary magnetic field noise. Experimental tests
+to demonstrate the requirements of ARIADNE, including characterization of the magnetic field
+backgrounds, are under way [225, 226].
+89.4 Axions from Astrophysical Sources
+89.4.1 Stellar energy-loss limits
+   Axions are produced in hot astrophysical plasmas, and can thus transport energy out of stars.
+The coupling strength of these particles with normal matter and radiation is bounded by the
+constraint that stellar lifetimes or energy-loss rates are not in conflict with observation [227, 228].
+   We begin this discussion with our Sun and concentrate first on the axion-photon coupling. In
+the Sun axions are produced by the Primakoff process γ + Ze → Ze + a. Integrating this process
+over a standard solar model yields the axion luminosity [229]
+                                           2
+                                     La = g10 × 1.85 × 10−3 L ,                                (89.15)
+
+where g10 = |gaγγ | × 1010 GeV. The maximum of the spectrum is at 3.0 keV, the average at 4.2 keV,
+and the number flux at Earth is g102 × 3.75 × 1011 cm−2 s−1 . The solar photon luminosity is fixed,
+
+so energy losses due to the Primakoff process require enhanced nuclear energy production and thus
+enhanced neutrino fluxes. The all-flavor measurements by SNO (Sudbury Neutrino Observatory),
+together with a standard solar model, imply La . 0.10 L , corresponding to g10 . 7 [230], mildly
+superseding a similar limit from helioseismology (sound speed, surface helium and convective radius)
+[231]. In Ref. [148], this limit was improved to g10 < 4.1 (at 3 σ), see Fig. 89.1, exploiting a
+new statistical analysis that combined helioseismology and solar neutrino observations, including
+theoretical and observational errors, and accounting for tensions between input parameters of solar
+models, in particular the solar element abundances. Going beyond the axion-photon coupling,
+Ref. [230] considered also a non-zero axion-electron coupling and obtained the bound on the latter
+displayed in Fig. 89.2.
+    A more restrictive limit derives from globular-cluster (GC) stars that allow for detailed tests of
+stellar-evolution theory. The stars on the horizontal branch (HB) in the color-magnitude diagram
+have reached helium burning with a core-averaged energy release of about 80 erg g−1 s−1 , compared
+to Primakoff axion losses of g102 30 erg g−1 s−1 . The accelerated consumption of helium reduces
+
+the HB lifetime by about 80/(80 + 30 g10  2 ). In contrast, the red giant (RG) branch stars are not
+
+strongly affected by Primakoff losses, since unlike for the HB stars the plasma frequency in the
+RG stellar cores is below the temperature. Thus, Primakoff production reduces the R-parameter,
+
+                                            1st June, 2026
+8                                    89. Axions and Other Similar Particles
+
+
+                           µHz            mHz             Hz             kHz         MHz       GHz      THz         PHz
+             10−4
+             10−5
+             10−6
+             10−7
+             10−8
+             10−9
+            10−10
+            10−11
+       | gae |
+            10−12
+            10−13
+            10−14                                                                                                            XENON
+            10−15                                                                                                                     X-ra
+            10−16                                                                                                                      ys (E
+
+            10−17                                                                                                                       M-a
+                                                                                                                                             nom
+            10−18
+                                                                                                                                               aly f
+            10−19
+                                                                                                                                                ree)
+            10−20
+                      22   21   20   19   18    17   16   15   14   13   12   11    10 −9 −8 −7 −6 −5 −4 −3 −2 −1    0   1    2   3      4         5
+                      − − − − − − − − − − − − −
+                    10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10                               10 10 10 10 10 10
+
+                                                                                   m a [eV]
+Figure 89.2: Exclusion plot for ALP-electron coupling as described in the text. Figure from [63],
+contains data from refs. [169, 230, 232–243]. The hadronic QCD axion-electron coupling arises at
+one loop and is given in Eq. (89.9); varying E/N between 5/3 and 44/3 gives the indicated hadronic
+axion band. The KSVZ axion has E/N = 0, while the DFSZ axion-electron coupling has the tree-
+level coupling given in Eq. (89.10) that depends on the unknown but bounded value of tan β (see
+text for details).
+
+
+which is the number of observed HB branch stars to RG branch stars in a GC. Measurements of
+the R-parameter in a large sample of 39 Galactic GCs give a weak indication of non-standard losses
+which may be accounted by Primakoff-like axion emission, if the photon coupling is in the range
+|gaγγ | = (2.9 ± 1.8) × 10−11 GeV−1 [123, 244]. Still, the upper bound found in this analysis,
+
+                                               |gaγγ | < 6.6 × 10−11 GeV−1 (95% CL),                                                                   (89.16)
+
+represents one of the strongest limits on gaγγ for a wide mass range. More recently, the R2 -
+parameter has emerged as a potentially more sensitive probe of axions; the R2 -parameter is defined
+as the ratio of the asymptotic giant branch (AGB) stars to the HB stars in a GC. AGB stars have
+more efficient Primakoff production than HB stars, meaning that R2 is expected to decrease for
+increasing |gaγγ |. Ref. [124] used an R2 measurement based off of 48 GCs as observed by the Hubble
+Space Telescope [245] to constrain
+
+                                               |gaγγ | < 4.7 × 10−11 GeV−1 (95% CL) .                                                                  (89.17)
+
+The constraint above on gaγγ may be translated to fa > 4.8 × 107 GeV (ma < 0.12 eV) , using
+E/N = 0 as in the KSVZ model, or to fa > 1.8 × 107 GeV (ma < 0.32 eV) , for the DFSZ axion
+model, with E/N = 8/3, see Fig. 89.1.
+
+                                                                    1st June, 2026
+9                          89. Axions and Other Similar Particles
+
+
+    If axions couple directly to electrons, the dominant emission processes are atomic axio-recom-
+bination and axio-deexcitation, axio-bremsstrahlung in electron-ion or electron-electron collisions,
+and Compton scattering [246]. Stars in the RG branch of the color-magnitude diagram of GCs
+are particularly sensitive to these processes: they would lead to an extension of the RG branch to
+larger brightness. In fact, the tip of the RG branch (TRGB) – the brightest point of the RG
+branch – provides the currently most sensitive method to test the axion coupling to electrons. The
+strongest bounds on it are derived from analyses of the TRGB in several GCs [247] and in the
+Galactic GC ω Centauri [239]. The two analyses lead to very similar results,
+
+              |gaee | < 1.48 × 10−13 (95% CL) and |gaee | < 1.3 × 10−13 (95% CL),             (89.18)
+
+respectively, see Fig. 89.2. Reference [247] finds also a small hint for extra cooling, corresponding
+to |gaee | = 0.60+0..32
+                 −0.58 × 10
+                           −13 , while Ref. [239] does not find any evidence for exotic cooling.
+
+    Bremsstrahlung is also efficient in white dwarfs (WDs), where the Primakoff and Compton
+processes are suppressed by the large plasma frequency. A comparison of the predicted and observed
+luminosity function of WDs can be used to put limits on |gaee | [248, 249]. An analysis based on
+detailed WD cooling treatment and data on the WD luminosity function (WDLF) of the Galactic
+disk found that electron couplings above |gaee | & 3 × 10−13 are disfavoured [250]. Lower couplings
+cannot be discarded from the current knowledge of the WDLF of the Galactic disk [250–252]. These
+probes may be improved by the Rubin Observatory Large Synoptic Survey Telescope (LSST), which
+is expected to increase the sample of WDs in the Galactic halo to hundreds of thousands [253]. For
+pulsationally unstable WDs (ZZ Ceti stars), the period decrease Ṗ /P is a measure of the cooling
+speed. The corresponding observations of a handful pulsating WDs imply additional cooling that
+can be interpreted in terms of axion energy losses [254–258], though with axion-electron coupling
+values likely incompatible with other constraints [259].
+    Analogous constraints derive from neutron star (NS) cooling. Broadly speaking, there are two
+classes of NS cooling searches for axions. One approach uses the proto-NS formed after SN 1987A to
+constrain the axion luminosity produced during the first seconds of the proto-NS when the neutrino
+luminosity is measured with terrestrial experiments. The second class of NS cooling constraints
+consider older NSs, typically much older than ∼100 yr, and constrains the axion luminosity using
+the surface temperature as measured with photons versus the age of NS as measured through e.g.
+kinematic considerations. We begin with a discussion of the limits from SN 1987A.
+    Numerical simulations reveal that the energy-loss rate due to axions in a nuclear medium at the
+density 3 × 1014 g cm−3 and temperature 30 MeV should not exceed about 1 × 1019 erg g−1 s−1 to
+be consistent with the neutrino signal observed from SN 1987A [274]. The energy-loss rate from
+nucleon bremsstrahlung, N + N → N + N + a, is (CN /2fa )2 (T 4 /π 2 mN ) F . Here F is a numerical
+factor that represents an integral over the dynamical spin-density structure function because axions
+couple to the nucleon spin. For realistic conditions, even after considerable effort, one is limited
+to a heuristic estimate leading to F ≈ 1 [228]. The SN 1987A limits are of particular interest for
+hadronic axions where the bounds on |gaee | are moot. Using a proton fraction of 0.3, gann = 0,
+F = 1, and T = 30 MeV, one finds fa > 4 × 108 GeV and ma < 16 meV [228]. A more detailed
+numerical calculation [275] with state of the art SN models, again assuming gann = 0, found that
+a coupling larger than |gapp | & 6 × 10−10 , would shorten significantly the timescale of the neutrino
+emission. This result is, not surprisingly, rather close to the estimate in Ref. [228]. Improving
+the calculation of axion emission via nucleon-nucleon bremsstrahlung beyond the basic one-pion
+exchange approximation appears to loosen the bound [276,277]. The latter analysis finds a reduction
+of the axion emissivity by an order of magnitude if one takes into account the non-vanishing mass of
+the exchanged pion, the contribution from two-pion exchange, effective in-medium nucleon masses
+
+                                           1st June, 2026
+10                            89. Axions and Other Similar Particles
+
+
+                        µHz         mHz          Hz             kHz       MHz           GHz           THz
+             10−1
+             10−2
+             10−3
+             10−4
+             10−5
+             10−6
+             10−7
+
+       | gan |
+             10−8
+             10−9
+            10−10
+            10−11
+            10−12
+            10−13
+            10−14
+            10−15
+            10−16
+                    −22 −21 −20 −19 −18 −17 −16 −15 −14 −13 −12 −11 −10 0−9 0−8 0−7 0−6 0−5 0−4 0−3 0−2
+                 10 10 10 10 10 10 10 10 10 10 10 10 10               1    1    1   1    1    1   1    1
+
+                                                      m a [eV]
+Figure 89.3: Exclusion plot for ALP-neutron coupling as described in the text. Figure from [63],
+includes data from refs. [31, 33, 219, 260–273]. The hadronic axion model prediction is given in
+Eq. (89.11) with vanishing quark couplings, while the DFSZ model prediction depends on tan β as
+is found in Eq. (89.12), giving the shaded yellow region above. Note that for a fine-tuned value
+of tan β gan can be taken to zero. On the other hand, the neutron star cooling constraints [269]
+also probe the axion-proton coupling gap at a comparable level (not shown), and both gan and gap
+cannot simultaneously be taken to zero in the DFSZ model.
+
+and multiple nucleon scattering, leading to the result [277]
+                             2
+                            gann         2
+                                 + 0.61 gapp + 0.53 gann gapp < 8.26 × 10−19 ,                              (89.19)
+which is consistent with the original estimate in [228]. This analysis, however, still neglects another
+very efficient mechanism for axion production in a SN: the pion production process, π − +p → a+n,
+also induced by the axion coupling to nucleons. Pion production was recognized long ago as being
+competitive with nucleon bremsstrahlung [278–280]. However, only recently it was shown that the
+pion abundance in the early stages of a SN is much larger than previously expected [281]. It was
+shown in Ref. [282] that pion induced processes dominate over bremsstrahlung and so strengthen
+the bound on the axion-nucleon coupling. On the other hand, given the modeling uncertainties
+and the sparse data from SN 1987A, the constraint on the axion-nucleon couplings from SN 1987A
+should be considered more as indicative than as a sharp bound [275]. Furthermore, note that if
+axions interact sufficiently strongly they are trapped. Only about three orders of magnitude in
+gaN N , where N = n, p, or ma are excluded. For even larger couplings, the axion flux would have
+been negligible, yet it would have triggered additional events in the detectors, excluding a further
+range [283].
+    Further bounds on the axion-nucleon coupling can be derived from observations of the cooling of
+older NSs. Recently, strong constraints were obtained by modeling the cooling of the “Magnificent
+
+                                               1st June, 2026
+11                          89. Axions and Other Similar Particles
+
+
+Seven” (M7) NSs in the presence of axions [269]. Axion emission would accelerate NS cooling.
+Thus, if the age and temperature of a NS are independently known, then by modeling axion-induced
+cooling in conjunction with the standard NS cooling mechanisms, in particular cooling via neutrino
+emission from the bulk of the NS and thermal emission from the NS surface, one is able to constrain
+the axion’s coupling strength. Ref. [269] used a sample of four of the M7 along with PSR J0659 to
+constrain ma < 16 meV for the KSVZ QCD axion at 95% CL and ma . 5 meV (ma . 30 meV) in the
+DFSZ scenario for asymptotically large (small) tan β. For axions that couple exclusively to neutrons
+(protons) Ref. [269] constrains |gann | < 1.3 × 10−9 (|gapp | < 1.5 × 10−9 ), as illustrated in Fig. 89.3.
+The five NSs used in that work are unique in that their ages, all in the range 0.1−1 Myr, are known
+by kinematic measurements (e.g., tracing back to the SN remnant), while their surface temperatures
+are measured in the X-ray band. Beyond statistical uncertainties on these measurements, there
+are a number of confounding systematic uncertainties that must be accounted for in NS cooling
+analyses, including uncertainties related to the core-surface temperature relation, which involves
+the chemical composition of the NS envelope. The NS equation of state and the superfluid critical
+temperatures of the dense nuclear matter are also sources of uncertainty. Note that axions are
+predominantly produced by nuclear bremsstrahlung [284, 285] except for temperatures near the
+superfluid critical temperature, when Cooper pair breaking and formation (PBF) processes may
+efficiently produce axions [286, 287]. Given the large densities it is crucial to account for medium
+dependent couplings when computing the axion luminosities [288, 289].
+     The young NS in the supernova remnant Cassiopeia A (Cas A) was previously thought to
+strongly constrain axions, at a level similar to the NS cooling bound described above, due to PBF
+axion production [290]. This is because it was observed that Cas A was cooling rapidly, which may
+be explained by neutrino cooling with neutron superfluidity and proton superconductivity [291,292].
+However, it is possible that the excessive cooling of Cas A is at least in part instrumental in
+origin [293]. Fully accounting for uncertainties on both the NS properties and the data, constraints
+from young NSs such as Cas A and the NS in the supernova remnant HESS J1731-347 [294] appear
+to be sub-dominant compared to the limits from SN 1987A and the M7 [269].
+     Finally, let us note that if ma ∼ meV, SNe would lose a large fraction of their energy as axions.
+This would lead to a diffuse SN axion background in the Universe with an energy density comparable
+to the extra-galactic background light [295]. However, there is no apparent way of detecting it or
+the axion burst from the next nearby SN. On the other hand, neutrino detectors such as IceCube,
+Super-Kamiokande or a future mega-ton water Cherenkov detector will probe exactly the mass
+region of interest by measuring the neutrino pulse duration of the next Galactic SN [275].
+89.4.2 Searches for solar axions and ALPs
+    Instead of using stellar energy losses to derive axion limits, one can also search directly for these
+fluxes, notably from the Sun. The main focus has been on ALPs with a two-photon vertex. They
+are produced by the Primakoff process with a flux given by Eq. (89.15) and an average energy of
+4.2 keV, and can be detected at Earth with the reverse process in a macroscopic B-field (“axion
+helioscope”) [7]. In order to extend the sensitivity in mass towards larger values, one can endow the
+photon with an effective mass in a gas, ωplas , and tune the mass to match the axion’s dispersion
+relation (ωplas = ma ) [296].
+    An early implementation of these ideas used a conventional dipole magnet, with a conversion
+volume of variable-pressure gas with a xenon proportional chamber as x-ray detector [297]. The
+conversion magnet was fixed in orientation and collected data for about 1000 s/day. Axions were
+excluded for |gaγγ | < 3.6 × 10−9 GeV−1 for ma < 0.03 eV, and |gaγγ | < 7.7 × 10−9 GeV−1 for
+0.03 < ma < 0.11 eV at 95% CL.
+    Later, the Tokyo axion helioscope used a superconducting magnet on a tracking mount, viewing
+
+                                             1st June, 2026
+12                         89. Axions and Other Similar Particles
+
+
+the Sun continuously. They reported |gaγγ | < 6 × 10−10 GeV−1 for ma < 0.3 eV [298, 299]. This
+experiment was recommissioned and a similar limit for masses around 1 eV was reported [300].
+    The most recent helioscope CAST (CERN Axion Solar Telescope) uses a decommissioned LHC
+dipole magnet on a tracking mount. The hardware includes grazing-incidence x-ray optics with
+solid-state x-ray detectors, as well as x-ray Micromegas position-sensitive gaseous detectors. Ex-
+ploiting an IAXO (see below) pathfinder system, CAST has established the limit
+
+                              |gaγγ | < 5.8 × 10−11 GeV−1       (95% CL),                       (89.20)
+
+for ma < 0.02 eV [100, 182]. To cover larger masses, the magnet bores are filled with a gas at
+varying pressure. The runs with 4 He cover masses up to about 0.4 eV [301], providing the high-
+mass component of the CAST limits shown in Fig. 89.1. To cover yet larger masses, 3 He was used
+to achieve a larger pressure at cryogenic temperatures. Limits up to 1.17 eV allowed CAST to
+“cross the axion line” for the KSVZ model [302–304], see Fig. 89.1.
+    Sensitivity to significantly smaller values of gaγγ can be achieved with a next-generation axion
+helioscope with a much larger magnetic-field cross section. Realistic design options for this “Inter-
+national Axion Observatory” (IAXO) have been studied in some detail [305], as well as its physics
+potential [306]. Such a next-generation axion helioscope may also push the sensitivity in the prod-
+uct of couplings to photons and to electrons, gaγγ gaee , into a range beyond stellar energy-loss limits
+and test the hypothesis that WD, RG, and HB cooling is dominated by axion emission [307, 308].
+As a first step towards IAXO, an intermediate experimental stage called BabyIAXO is currently
+under preparation at DESY [309].
+    Direct detection experiments searching for dark matter (DM) consisting of weakly interacting
+massive particles have also the capability to search for solar axions and ALPs. For low masses,
+ma . 100 eV, the XENONnT experiment [310] has provided the most stringent bound among those
+experiments on the axion-electron coupling constant,
+
+                                  |gaee | < 1.9 × 10−12      (90% CL),                          (89.21)
+
+see Fig. 89.2, by exploiting the axio-electric effect in liquid xenon. Limits at approximately the
+same value have been set by PandaX-4T [311] and LZ [312]. However, this technique has not
+reached the sensitivity of energy-loss considerations in stars.
+89.4.3 Conversion of astrophysical axion fluxes
+    Large-scale B fields exist in astrophysics that can induce axion-photon oscillations. In practical
+cases, the strength of B is much smaller than in the laboratory, whereas the conversion region L
+is much larger. Therefore, while the product BL can be large, realistic sensitivities are usually
+restricted to very low-mass particles, far away from the “QCD axion band” in a plot like Fig. 89.1.
+    One example of this is SN 1987A, which would have emitted a burst of ALPs due to the
+Primakoff production in its core. It was pointed out shortly after the SN that the ALPs could have
+partially converted into γ-rays in the Galactic B-field. The lack of a gamma-ray signal in the GRS
+instrument of the SMM satellite in coincidence with the observation of the neutrinos emitted from
+SN 1987A therefore provides a strong bound on their coupling to photons [313, 314]. This bound
+has been revisited and the underlying physics has been brought to the current state-of-the-art, as
+far as modeling of the supernova and the Milky-Way along with stellar magnetic field are concerned,
+resulting in the limit [152, 153] |gaγγ | < 5.2 × 10−12 GeV−1 for ma . 5 × 10−10 eV. More recently,
+it has been understood that the axions could convert to gamma-rays in the stellar magnetic fields
+of the progenitor star, extending the SN1987A limits to higher masses and potentially allowing
+gamma-ray observations of future SN to probe the QCD axion [315].
+
+                                            1st June, 2026
+13                         89. Axions and Other Similar Particles
+
+
+    Reference [120] reports no evidence of a γ-ray burst in observations of extragalactic SNe with
+the Fermi Large Area Telescope (LAT). Under the assumption that at least one SN was contained
+within the LAT field of view, the authors derive an upper bound on the axion photon coupling
+which is about a factor of 5 weaker than the one from SN 1987A, see Fig. 89.1.
+    The cumulative emission of ALPs from all past core-collapse SNe would lead to a diffuse gamma-
+ray flux peaked at energies ∼ 50 − 100 MeV which can convert in the Galactic magnetic field into
+photons. Using Fermi-LAT measurements of the diffuse γ-ray flux, Ref. [316] obtains a conservative
+bound on the photon coupling, |gaγγ | < 5 × 10−10 GeV−1 , for ma . 10−11 eV, see see Fig. 89.1,
+which can be decreased by nearly three orders of magnitude, if an ALP-nucleon coupling of maximal
+phenomenologically allowed strength, |gaN N | ∼ 10−9 , is allowed.
+    Hot, young stars, such as Wolf-Rayet stars, efficiently produce ALPs with energies ∼ 10−100 keV
+via the Primakoff effect. Large numbers of those stars are hosted by the Galactic Quintuplet and
+Westerlund 1 super star clusters (SSCs). The non-observation of hard X-rays originating from
+axion-photon conversion in the Galactic magnetic field in archival NuSTAR (Nuclear Spectroscopic
+Telescope Array) data from these SSCs leads to a bound on the axion-photon coupling [160],
+|gaγγ | < 3.6 × 10−12 GeV−1 , for ma . 5 × 10−11 eV, see Fig. 89.1. A somewhat weaker bound
+in the same mass range was established exploiting NuSTAR data on Betelgeuse [106]. Stronger
+constraints at low axion masses are found with NuSTAR data by considering axion production and
+conversion (or decay) in nearby galaxies, such as M82 and M87, accounting for production in all of
+the stellar members of the galaxies [317–319] (see Fig. 89.1).
+    A hard X-ray excess in data from the nearby M7 isolated NSs [320] may be explained by
+ALPs produced in the cores of those stars and converted in the surrounding magnetic fields, with
+|gaN N gaγγ | ∈ (2 × 10−21 , 10−18 ) GeV−1 , for ma . 10−5 eV [321]. The non-observation of an X-ray
+excess from the magnetic WD RE J0317-853 [322] by Chandra yields the constraint |gaee gaγγ | .
+1.3 × 10−25 GeV−1 , for ma  10−5 eV [129], which provides a non-trivial constraint on the ratio
+gaee /gaN N for axion models explaining the M7 X-ray excess.
+    In addition to being produced in NS cores, axions may also be produced in NS magnetospheres.
+In particular, it has recently been shown that axions could be copiously produced in the polar-cap
+regions of NS magnetospheres due to time-varying, un-screened electric fields [146]. Those axions
+could then convert to photons in the outer regions of the NS magnetosphere, leading to observable,
+broadband radio flux. The absence of such radio flux sets competitive constraints on ALPs, as
+indicated by the “pulsars” constraint in Fig. 89.1.
+89.4.4 Conversion of astrophysical photon fluxes
+    Magnetically induced oscillations between photons and ALPs can modify the photon fluxes
+from distant sources in various ways, featuring (i) frequency-dependent dimming, (ii) modified
+polarization, and (iii) avoiding absorption by propagation in the form of axions. For example,
+dimming of SNe Ia could influence the interpretation in terms of cosmic acceleration [323], although
+it has become clear that photon-ALP conversion could only be a subdominant effect [324].
+    Polarization measurements are particularly powerful probes of photon-to-axion conversion since
+only photons polarized parallel to astrophysical magnetic fields may convert into axions, meaning
+that in the presence of large-scale ordered magnetic fields axions tend to leave distinct polarization
+signatures in passing radiation. Searches for linear polarization from radio galaxies (see, e.g.,
+Ref. [325]) and quasars [326] may approach in sensitivity |gaγγ | ∼ few × 10−13 GeV−1 , albeit with
+uncertainties related to the underlying modeling assumptions. Recently, robust limits at the level
+|gaγγ | ≤ 1.7 × 10−12 GeV−1 at 95% CL have been derived from optical polarization measurements
+of nearby magnetic WDs [130, 327] (see also [328]), see Fig. 89.1. The magnetic fields of magnetic
+WDs may be well-measured through the Zeeman splitting of bound-bound transitions in the WD
+
+                                           1st June, 2026
+14                         89. Axions and Other Similar Particles
+
+
+atmospheres.
+    It appears that the Universe could be too transparent to TeV γ-rays that should be absorbed
+by pair production on the extra-galactic background light [110, 329–332]. The situation is not
+conclusive at present [333–336], but the possibility of axions playing a role has been suggested [337–
+339]. On the other hand, much of this parameter space is excluded by the previously-discussed
+WD polarization probes. The region in ALP parameter space, gaγγ ∼ 10−12 − 10−10 GeV−1 for
+ma . 10−7 eV [340], required to explain the anomalous TeV transparency of the Universe, could
+be conceivably probed by the next generation of laboratory experiments (ALPS II) and helioscopes
+(IAXO) mentioned above.
+    This parameter region can also be probed by searching for an irregular behavior of the gamma
+ray spectrum of distant active galactic nuclei (AGN), expected to arise from photon-ALP mixing
+in a limited energy range. In these type of studies, the uncertainty in the magnetic field around the
+source needs to be taken into account. This typically leads to a range of limits on the ALP-photon
+coupling that depend on the modeling assumptions. The H.E.S.S. collaboration has set a limit of
+|gaγγ | . 2.1 × 10−11 GeV−1 , for 1.5 × 10−8 eV . ma . 6.0 × 10−8 eV, from the non-observation of an
+irregular behavior of the spectrum of the AGN PKS 2155-304 [341]. The Fermi-LAT collaboration
+has put an even more stringent limit on the ALP-photon coupling [119] from observations of the
+gamma ray spectrum of NGC 1275, the central galaxy of the Perseus cluster, see Fig. 89.1. A
+similar analysis has been carried out in Ref. [342], using Fermi-LAT data of PKS 2155-304, and
+in Ref. [132], using ARGO-YBJ and Fermi-LAT data of Mrk 421, see Fig. 89.1. However, these
+constraints were obtained under certain theoretical assumptions about magnetic fields surrounding
+the sources, not confirmed yet by direct astronomical observations in these particular directions;
+this introduces large systematic uncertainties in the reported constraints [343].
+    Evidence for spectral irregularities has been reported in Galactic sources, such as pulsars and
+supernova remnants, and has been interpreted as hints for ALPs [344, 345] (see also discussion in
+Ref. [346] and references therein). However, the inferred ALP parameters, |gaγγ | ∼ 10−10 GeV−1 ,
+ma ∼ neV, are in tension with the CAST helioscope bounds. Reference [346] updated the analysis
+of the pulsar signal region including astrophysical nuisance parameters and correctly deriving con-
+fidence intervals on ALP parameters by means of Monte Carlo simulations. The tension with the
+CAST bounds can be evaded if environmental effects in matter, which would suppress the ALP
+production in dense astrophysical plasmas like the solar interior, are invoked. If this explanation is
+correct, the claimed ALP signal would be in reach of the next-generation LSW experiment ALPS
+II. Other ways to make the CAST bound compatible with photon-ALP conversions in the low-
+density Galactic medium are invoking photon-ALP-dark photon oscillations [347] or the existence
+of a number of ‘hidden’ ALPs [348].
+    At smaller masses, ma . 10−12 eV, galaxy clusters become highly efficient at interconverting
+ALPs and photons at X-ray energies. Constraints on spectral irregularities in the spectra of lu-
+minous X-ray sources (Hydra A, M87, NGC 1275, NGC 3862, Seyfert galaxy 2E3140; taken by
+Chandra and XMM-Newton) located in or behind galaxy clusters then lead to stringent upper
+limits on the ALP-photon coupling [111–113,349–351] (for the limits exploiting spectra from Hydra
+and M87 from Refs. [111] and [112], respectively, see Fig. 89.1). Reference [113] recently performed
+the most sensitive x-ray searches for ALPs to date by employing Chandra’s High-Energy Trans-
+mission Gratings that allow for an unsurpassed spectral resolution. New observations of the AGN
+NGC 1275 then led to the bound |gaγγ | < 8 × 10−13 GeV−1 at 99.7% C.L. for ultra-light ALPs, as
+illustrated in Fig. 89.1. On the other hand, magnetic field modeling uncertainties in the clusters
+may not be fully accounted for in these analyses [343].
+
+                                           1st June, 2026
+15                         89. Axions and Other Similar Particles
+
+
+89.4.5 Finite density effects for the QCD axion
+    If the QCD axion sector has a discrete, ZN , shift symmetry, its potential is much shallower, and
+its mass, in units of its decay constant, ma fa ≃ (3π)−1/4 N 3/4 2−N /2 mπ fπ , is smaller than the one
+of the canonical QCD axion by an exponential factor ∝ 2−N /2 [59,60]. This opens up the parameter
+space over which one should search for a QCD axion towards the left of the yellow canonical QCD
+axion band in Fig. 89.1, Fig. 89.2, and Fig. 89.3. Novel bounds apply to this exceptionally light
+QCD axion due to finite density effects [352–354]. In fact, in dense stellar media, the minimum of
+the axion potential may be shifted to π. This has a number of phenomenological consequences that
+span from the modification of nuclear processes in stars due to θ = O(π) to modifications in the
+orbital decay of binary systems (and subsequently in the emitted gravitational waves). Recently
+strong constraints have been set using the modification of the WD mass-radius relation due to such
+axions [355].
+    In fact, θ ∼ 1 in the solar core would lead to an increased proton-neutron mass difference,
+which would prohibit the neutrino line corresponding to the 7 Be-7 Li mass difference observed by
+Borexino [356].
+    Moreover, the fact that the position of the minimum of the axion potential depends on the
+nuclear density of the medium may also source a long-range force between dense stars [352]. This
+new long-range force sourced by the axion can be constrained by the measurement of the orbital
+decay of double pulsar or NS-pulsar binaries [352]. The gravitational wave signal of NS-NS mergers
+or black hole (BH) - NS mergers would also be modified by these axionic long-range forces [352,353].
+There is also a corresponding bound [354] exploiting the gravitational waves observation from
+the binary NS inspiral GW170817 detected by LIGO (Laser Interferometer Gravitational-Wave
+Observatory) and Virgo [357].
+89.4.6 Superradiance of black holes
+    Light bosonic fields such as axions or ALPs can affect the dynamics and gravitational wave
+emission of rapidly rotating astrophysical BHs through the superradiance mechanism. When the
+boson’s Compton wavelength is of order of the size of the BH’s ergoregion, they form gravitational
+bound states around the BH. Their occupation number grows exponentially by extracting energy
+and angular momentum from the black hole, forming a coherent axion or ALP bound state emitting
+gravitational waves. When accretion cannot replenish the spin of the BH, superradiance dominates
+the BH spin evolution; this is true for both supermassive and stellar mass BHs. The existence
+of destabilizing light bosonic fields thus leads to exclusion regions in the mass versus spin plot of
+rotating BHs. Stellar BH spin measurements exploiting well-studied binaries and two independent
+techniques exclude a mass range – up to self-interaction caveats discussed below – 6 × 10−13 eV <
+ma < 2×10−11 eV at 2 σ, which for the axion excludes 3×1017 GeV < fa < 1×1019 GeV [10,358,359],
+see Fig. 89.4. These bounds apply when gravitational interactions dominate over the axion self-
+interaction, which is largely true for the QCD axion in this mass range. On the other hand,
+Refs. [360,361] considered superradiance bounds for string theory ALPs with a quartic self-coupling
+(of either sign) given by λ = m2a /fa2 , using the bosenova model of Ref. [359], and found that for
+ma ∼ 10−12 eV the superradiant cloud, and thus the constraints, are destroyed for fa . 1011 − 1012
+GeV, depending precisely on the mass and the source.
+    Reference [362] used a more advanced model for the effect of self-interactions on superradiant
+evolution, and a different (frequentist) statistical methodology, leading to more conservative bounds
+from stellar mass BHs (region near 10−12 eV). In particular, Ref. [362] found that QCD axions
+are only excluded for ma . 6 × 10−12 eV instead of the 2 × 10−11 eV, as claimed in [360, 361].
+Reference [362] also vetoed supermassive BHs (SMBHs) with spins measured at low significance,
+and thus found no ALP bounds in the SMBH region (near 10−18 eV); Ref. [360,361,363], in contrast,
+
+                                            1st June, 2026
+                                                   Haloscopes (future)
+
+
+
+                  Black hole spi
+       102                                                                                                          IA
+Caγ                                                                                                                      XO
+  16 1                                        89. Axions and Other Similar Particles
+       10
+                                     KSVZ
+       0
+  included
+    10     SMBHs in a (quasi-)Bayesian analysis with a flat prior on the spin and found non-trivial
+                         DFSZ
+  constraints. In summary,       it appears likely that the lower end of the QCD axion mass range is
+  excluded by superradiance, with the requirement ma & 10−11 eV, but the exact location of this
+  10−1
+  limit is still debated. It is also too early to claim that ultra-light ALP parameter space is excluded
+  by SMBHs, though this may change with future work.
+      10−2
+                                            10−3        10−2                  10−1            π/6            π/2     π − 0.1 = |θi |
+                                                                                                                            ...
+                                                                                                                                     HI
+                                                                    108 GeV                         107 GeV                   = max GeV (Isocurvature)
+
+
+
+
+                  Black hole spins
+                                                                                            SMASH, 2016
+                                                        Models:                            Cogenesis, 2020
+                                                                                            VISHν, 2022                                                  Hot dark
+                                                                                        Wantz, 2009
+                                                                                 Berkowitz, 2015                                                          matter
+                                                                              Bonati, 2016
+                                                        Lattice/χ( T ):                    Borsanyi, 2016
+                                                                                           Dine, 2017                                                       +
+                                                                                                           Kim, 2024
+                                                        Strings:                          Benabou, 2024                                                   ∆Neff
+                                                                                              Saikawa, 2024
+                                                                                                      Gorghetto, 2020
+                                                                                                 Kawasaki, 2012
+                                                                                            Kawasaki, 2014
+                                                        Strings+Walls:                Fleury, 2015
+                                                                                         Klaer, 2017
+                                                                                          Benabou, 2024
+                                                                                                        Kawasaki, 2014
+                                                        NDW > 1:                                                               Beyer 2023
+                                                                                                                   Gorghetto, 2020
+
+
+        10−13 10−12 10−11 10−10 10−9                   10−8        10−7       10−6         10−5          10−4            10−3          10−2    10−1        100   101
+                                                     QCD axion mass, m a [eV]
+  Figure 89.4: QCD axion mass predictions for obtaining the correct DM abundance assuming the
+  PQ symmetry is and is not restored after inflation and, in the case the PQ symmetry is restored
+  after inflation, depending on the domain wall number N . Figure from [63], includes data from
+  refs. [24, 364–378]. The lower-end of the possible mass range is bounded by BH superradiance
+  constraints and the theoretical requirement that fa be below the Planck scale, while the upper end
+  is bounded by the somewhat model-dependent NS cooling constraints (not shown), which exclude
+  QCD axion masses above roughly ∼15-30 meV, depending on the UV completion. At even higher
+  masses there are strong constraints from the production of DM in the early universe, which behaves
+  as hot DM and contributes to ∆Neff .
+
+      Long lasting, monochromatic gravitational wave signals, which can be distinguished from or-
+  dinary astrophysical sources by their clustering in a narrow frequency range, are expected to be
+  produced by axions or ALPs annihilating to gravitons. Gravitational waves could also be sourced
+  by axions/ALPs transitioning between energy levels of the effective gravitational atom. Accord-
+  ingly, the gravitational wave detector Advanced LIGO should be sensitive to the axion in the
+  ma . 10−10 eV region. LIGO measurements of BH spins in binary merger events could also provide
+  statistical evidence for the presence of an axion [379, 380]. Similar signatures could arise for super-
+  massive and intermediate mass BHs for particles with masses . 10−15 eV. Gravitational waves from
+  such sources could be detected at lower-frequency observatories such as LISA (Laser Interferometer
+  Space Antenna). First attempts to use LIGO/Virgo data to search for monochromatic signatures
+  of axion superradiance were recently made in [381, 382].
+  89.5 Cosmic Axions
+  89.5.1 Cosmic axion populations
+      There are two distinct populations of cosmic relic axion populations: a non-thermal one behav-
+  ing as CDM, and a thermal one comprising a hot DM (HDM) component, in analogy to massive
+  neutrinos. For ma . 0.01 eV, thermal axions are dominantly produced by processes involving
+  quarks and gluons [383, 384], while, for larger masses, the dominant thermalization process is
+  π + π ↔ π + a [187, 385, 386]. A number of evaluations exploiting cosmological precision data
+
+                                                                   1st June, 2026
+17                        89. Axions and Other Similar Particles
+
+
+have found restrictive constraints on a possible HDM fraction that translate into an upper bound
+on the axion mass, ma . 1 eV, if a leading order (LO) axion-pion chiral effective field theory
+(EFT) analysis of the axion-pion thermalization rate is used [387–390]. Recently, it was found
+that the next leading order (NLO) contribution exceeds the LO contributions for masses below
+ma . 1.2 (0.12/Caπ ) eV [391]. Therefore, in order to assess the reach in sensitivity of future cos-
+mological data sets, one has to improve the EFT description or to compute axion-pion scattering
+via lattice QCD techniques. Alternatively, recently Ref. [392] used pion-pion scattering data to
+overcome the EFT description issues and found the constraint ma . 0.24 eV, see Fig. 89.4.
+    For ma & 10 eV, axions may decay faster than the age of the Universe (see Eq. (89.7)), depending
+on the decay constant, which would remove the cosmic axion population while injecting photons.
+If the axions were in thermal equilibrium in the early Universe, which depends on the inflationary
+reheat temperature and assumptions about the pre-BBN cosmology [393,394], this excess radiation
+provides additional limits on the axion- or ALP-photon coupling up to very large masses [393,394].
+Such photons could contribute to the extragalactic background light (EBL), could ionize primordial
+hydrogen and thus contribute to the optical depth after recombination, or could spoil the agreement
+of big bang nucleosynthesis (BBN) with observations. The corresponding up-to-date bounds from
+Refs. [167, 168] are displayed in Fig. 89.1. It has recently been shown that there is an irreducible
+axion background [169] that arises from axion freeze-in before BBN; decays of that axion population
+provide strong constraints on axions with masses above roughly 100 eV (see Fig. 89.1). For high
+enough decay constants, high-mass axions (ma & 10 eV) can account for the DM abundance through
+the misalignment mechanism, described in more detail below, though additional entropy dilution
+or fine-tuning is needed to avoid overproducing the DM abundance [395] (see also [396] for heavy
+axion production through lepton-flavor-violating decays). The decay of such high-mass axions to
+photon pairs could leave narrow spectral features in e.g. optical or X-ray backgrounds [127, 139–
+141, 162, 164, 397, 398] (see Fig. 89.1).
+    The main cosmological interest in axions at present derives from their possible role as CDM.
+In addition to thermal processes, axions are abundantly produced by the misalignment (MIS)
+mechanism [399–401]. The axion DM abundance crucially depends on the cosmological history.
+Let us first consider the so called pre-inflationary PQ symmetry breaking scenario, in which the PQ
+symmetry is broken before and during inflation and not restored afterwards. This is the cosmological
+scenario most naturally realized for string theory axions from the open-string sector [47,402]. After
+the breakdown of the PQ symmetry, the axion field relaxes somewhere in the bottom of the “wine-
+bottle-bottom” potential. Near the QCD epoch, topological fluctuations of the gluon fields such as
+instantons explicitly break the PQ symmetry. This tilting of the “wine-bottle-bottom” drives the
+axion field toward the CP -conserving minimum, thereby exciting coherent oscillations of the axion
+field that ultimately represent a condensate of CDM. The fractional cosmic mass density in this
+homogeneous field mode, created by the MIS mechanism, is [24, 403–405],
+                                                            1.165
+                                                   fa
+                                                           
+                            ΩaMIS h2 ≈ 0.12                       F Θi2
+                                              9 × 1011 GeV
+                                                                                             (89.22)
+                                              6 µeV 1.165
+                                                   
+                                     ≈ 0.12               F Θi2 ,
+                                               ma
+
+where h is the present-day Hubble expansion parameter in units of 100 km s−1 Mpc−1 , and −π ≤
+Θi ≤ π is the initial “misalignment angle” relative to the CP -conserving position attained in
+the causally connected region which evolved into today’s observable Universe. F = F (Θi , fa )
+is a factor accounting for anharmonicities in the axion potential. For F Θi2 = O(1), ma should
+be above ∼ 6 µeV in order that the cosmic axion density does not exceed the observed CDM
+
+                                           1st June, 2026
+18                         89. Axions and Other Similar Particles
+
+
+density, ΩCDM h2 = 0.12. However, much smaller axion masses (much higher PQ scales) are still
+possible if entropy is diluted for example by the late decay of a scalar condensate (see for example
+[406] and references therein) or the initial value Θi just happens to be small enough in today’s
+observable Universe (“anthropic axion window” [407]). In the latter cosmological scenario, however,
+quantum fluctuations of the axion field during inflation are expected to lead to isocurvature density
+fluctuations which get imprinted to the temperature fluctuations of the CMB [408,409]. Their non-
+observation puts severe constraints on the Hubble expansion rate HI during inflation [410–415],
+which read, in the simplest cosmological inflationary scenario,
+                                                                   0.4175
+                                                   5 neV
+                                                         
+                                                8
+                                 HI . 5.7 × 10 GeV                             ,                (89.23)
+                                                    ma
+if axions represent all of DM. In Ref. [416] an alternative to the MIS mechanism was proposed: the
+so-called kinetic MIS mechanism. In this case, the axion field is assumed to have an initial velocity
+which may be generated, e.g., by a hypothesized explicit breaking of the axion shift symmetry in the
+early universe. The amount of QCD axion dark matter generated by the kinetic MIS mechanism
+can fit the observed dark matter abundance for any fa . 1.5 × 1011 GeV, down to the minimum
+value allowed by the SN 1987A constraint.
+    In the above prediction of the fractional cosmic mass density in axions, the exponent, 1.165,
+arises from the non-trivial temperature dependence of the topological susceptibility χ(T ) = m2A (T )fA2
+at temperatures slighty above the QCD quark-hadron phase transition. Lattice QCD calculations
+of this exponent [24, 367, 369, 417–419], but also Ref. [368], found it to be close to the prediction
+of the dilute instanton gas approximation [420] which was previously exploited. Therefore, the
+state-of-the-art prediction of the axion mass relevant for DM for a fixed initial misalignment angle
+Θi differs from the previous prediction by just a factor of order one.
+    In the post-inflationary PQ symmetry breaking scenario, on the other hand, Θi will take on
+different values in different patches of the present Universe. The average contribution is [24,403–405]
+                                                                  1.165
+                                                         30 µeV
+                                                     
+                                   ΩaMIS h2 ≈ 0.12                         .                    (89.24)
+                                                           ma
+The decay of cosmic strings and domain walls gives rise to a further population of CDM axions,
+whose abundance suffers from significant uncertainties [365, 371–373, 404, 405, 421–432] which arise
+from the difficulty in understanding the energy loss process of topological defects and the generated
+axion spectrum in a quantitative way. In fact, in the present state-of-the-art it is still possible that
+the CDM contribution from the decay of topological defects is subdominant [371] or overwhelmingly
+large [372] in comparison to the one from the MIS mechanism. Correspondingly, the plausible range
+of axion masses providing all of CDM in scenarios with postinflationary PQ symmetry breaking is
+still rather large, namely [371, 372]
+
+                                      ma ≈ 26 µeV − 0.5 meV,                                    (89.25)
+
+for models with short-lived (requiring unit color anomaly N = 1) domain walls, such as the KSVZ
+model. On the other hand, the most recent adaptive mesh refinement axion string simulations,
+which are able to evolve over larger dynamic ranges than static lattice simulations, suggest the mass
+range ma ≈ 45 − 300 µeV, with domain wall decay providing the dominant contribution to DM on
+the upper end of the uncertainty range [432]. For models with long-lived (N > 1) domain walls,
+such as an accidental DFSZ model [433], where the PQ symmetry is broken by higher dimensional
+Planck suppressed operators, the mass is predicted to be significantly higher [306, 373, 433–435],
+
+                                       ma ≈ (0.58 − 130) meV .                                  (89.26)
+
+                                            1st June, 2026
+19                           89. Axions and Other Similar Particles
+
+
+However, the upper part of the predicted range is in conflict with stellar energy-loss limits on the
+axion. The pre- and post-inflationary mass predictions are summarized in Fig. 89.4.
+    In this post-inflationary PQ symmetry breakdown scenario, the spatial axion density variations
+are large at the QCD transition, and they are not erased by free streaming. Gravitationally bound
+“axion miniclusters” form before and around matter-radiation equality [436–438]. A significant
+fraction of CDM axions can reside in these bound objects [426,439]. The minicluster fraction can be
+bounded by gravitational lensing [440–442], although more simulations are required to understand
+whether miniclusters are dense enough and survive in sufficient quantities for lensing bounds to
+apply.
+89.5.1.1 Ultralight cosmological ALP relics
+    The non-thermal production mechanisms attributed to axions are generic to light bosonic weakly
+interacting particles such as ALPs [376]. The relic abundance is set by the epoch when the axion
+mass becomes significant, 3H(t) ≈ ma (t), and ALP field oscillations begin. For ALPs to contribute
+to the DM density this epoch must precede that of matter radiation equality. For a temperature
+independent ALP mass this leads to the bound:
+                                                               !1/2                 3/2
+                                            −28        Ωm h2             1 + zeq
+                            ma & 7 × 10           eV                                        .                      (89.27)
+                                                        0.15            3.4 × 103
+
+ALPs lighter than this bound are allowed if their cosmic energy density is small, but they are
+quite distinct from other forms of DM [443]. Ignoring anharmonicities in the ALP potential, and
+taking the ALP mass to be temperature independent, the relic density in DM ALPs due to the
+MIS mechanism is given by
+                                         1/2               2             !3/4                −3/4
+                              ma                     fa             Ωm h2             1 + zeq
+                    
+      MIS 2
+     ΩALP h =0.12                                                                                          Θi2 .   (89.28)
+                        4.7 × 10−19 eV              16
+                                                  10 GeV            0.15             3.4 × 103
+
+An ALP decay constant near the GUT scale gives the correct relic abundance for ultralight ALPs
+(ULAs) with mULA ≈ 10−19 eV [444, 445]. ULAs encompass the entire Earth in a single Compton
+wavelength, and for large occupation numbers are modelled as a coherent classical field. The
+coherence time is determined by the mass and virial velocity in the Milky Way, τcoh ∼ 1/mULA vvir2 ,
+
+with the detailed properties described by a stochastic model with an approximately Rayleigh Jeans
+distribution [446]. Natural models for ULAs can be found in string and M-theory compactifications
+[5, 6, 8–13], in field theory with accidental symmetries [447, 448], or new hidden strongly coupled
+sectors [449, 450].
+     In addition to the gravitational potential energy, the ULA field also carries gradient energy.
+On scales where the gradient energy is non-negligible, ULAs acquire an effective pressure and do
+not behave as CDM. The gradient energy opposes gravitational collapse, leading to a Jeans scale
+below which perturbations are stable [451]. The Jeans scale suppresses linear cosmological structure
+formation relative to CDM [452–454]. The Jeans scale at matter-radiation equality in the case that
+ULAs make up all of CDM is:
+                                                       −1/4                !1/4               1/2
+                                            1 + zeq               h2 ΩALP
+                                                                      MIS             mULA
+                                       
+                                  −1                                                                               (89.29)
+                kJ,eq = 8.7 Mpc                                                                        .
+                                           3.4 × 103                0.12             10−22 eV
+
+On non-linear scales the gradient energy leads to the existence of a class of pseudo-solitons known
+as oscillatons, or axion stars [455]. Axion stars are expected to form in all cosmological scenarios,
+and for all types of ALPs, including the QCD axion [456–458]. Some axion stars may explode into
+radio photons, heating the interstellar medium [105].
+
+                                                   1st June, 2026
+20                         89. Axions and Other Similar Particles
+
+
+    Cosmological and astrophysical observations are consistent with the CDM model, and de-
+partures from it are only allowed on the scales of the smallest observed DM structures with
+M ∼ 106−8 M . The CMB power spectrum and galaxy auto-correlation power spectrum limit
+the ULA mass to mULA & O(few) × 10−24 eV from linear theory of structure formation [443, 459].
+Analytic models [460] and N -body simulations [461] for non-linear structures show that halo for-
+mation is suppressed in ULA models relative to CDM. This leads to constraints on the ULA mass
+of mULA > 10−22 eV from observations of high-z galaxies [461–463], and mULA > 2 × 10−20 eV
+from the Lyman-alpha forest flux power spectrum [464]. Including the effects of anharmonicities on
+structure formation with ALPs can weaken these bounds if the misalignment angle Θi ≈ π [465].
+A comprehensive study of Milky Way satellites by the DES collaboration resulted in the bound
+mULA > 2.9 × 10−21 eV [466].
+    Cosmological simulations that treat gradient energy in the ULA field beyond the N -body ap-
+proximation have just recently become available [456, 467–469], and show, among other things,
+evidence for the formation of axion stars in the centres of ULA halos (various consequences of
+axion stars are considered in Refs. [470]). These central axion stars have been conjectured to play a
+role in the apparently cored density profiles of dwarf spheroidal galaxies, and other central galactic
+regions [128, 456, 471–475]. However, the relationship between the halo mass and the axion star
+mass [476] leads to problems with this scenario in some galaxies [477–479]. It should be emphasized
+that many of the conclusions about the role of ULA axion stars in galactic dynamics are based on
+use of simulation results that do not contain baryons and feedback could be important [480–482].
+    Inside DM halos the axion gradient energy causes coherence on the de Broglie wavelength and
+fluctuations on the coherence time [456, 483]. These fluctuations can be thought of as short-lived
+quasiparticles and lead to relaxation processes that can be described statistically [445, 484] (this
+relaxation processes also leads to the gravitational condensation of axion stars [457]). The typical
+relaxation time is:
+                                                  3                 2            4
+                                        mULA                  v                r
+                                     
+                            10
+                      t ∼ 10     years                                                    ,    (89.30)
+                                       10−22 eV          100 km s−1          5 kpc
+
+where v and r are the velocity and radius of the orbit in the host DM halo.
+    Relaxation processes such as these are not observed in galaxies, though there are some cir-
+cumstances where they may be desirable [445]. An absence of observed relaxation can be used
+to set limits on the ULA mass. An absence of Milky Way disk thickening excludes mULA >
+0.6 × 10−22 eV [485], while stellar streams give the stronger bound mULA > 1.5 × 10−22 eV [486].
+The survival of the old star cluster in Eridanus II [487] excludes the range of masses 10−21 eV .
+mULA . 10−19 eV [488]. Recently Ref. [489] found that ULA DM is excluded for mULA . 3 × 10−19
+eV at 99% CL because such DM would kinematically heat the stars in the Segue I and Segue II
+ultra-faint dwarf galaxies to a level inconsistent with their observed dynamics.
+    Finally, one should note that the beyond-CDM physics of ULAs (Jeans scale, relaxation, axion
+star formation) of course also applies to the QCD axion on smaller length scales. This is of particular
+interest inside axion miniclusters [436, 437, 457, 458].
+89.5.2 Electron recoil searches
+   In a DM direct detection experiment, a DM ALP featuring a coupling to the electron can
+be absorbed by the target material, leading to a mono-energetic electronic recoil signal peaked
+at ma . This mechanism allowed the EDELWEISS [490], PandaX [234], SuperCDMS [235] and
+XENON1T [491] collaborations to put the bounds on the axion-electron coupling displayed in
+Fig. 89.2 in the keV mass range.    As discussed in the last sub-section, additionally dynamics
+beyond the standard misalignment mechanism are needed to explain the axion DM abundance for
+
+                                            1st June, 2026
+21                          89. Axions and Other Similar Particles
+
+
+keV-scale axion masses (e.g., [395,396]). Moreover, such models are subject to stringent constraints
+from axion decays to photons [395].
+89.5.3 Telescope searches
+    The two-photon decay is extremely slow for axions with masses in the CDM regime, but could
+be detectable for eV masses. The signature would be a quasi-monochromatic emission line from
+galaxies and galaxy clusters. The expected optical line intensity for DFSZ axions is similar to the
+continuum night emission. A search for optical line emission in two Abell clusters using spectra
+from the VIMOS (Visible Multi-Object Spectrograph) integral field unit at the Very Large Telescope
+(VLT) excludes axions and ALPs with a two photon coupling bigger than ∼ 5 × 10−12 GeV−1 in the
+mass range between 4.5 and 5.5 eV [164], see Fig. 89.1. Spectral data on the dwarf spheroidal galaxy
+Leo T from the Multi Unit Spectroscopic Explorer (MUSE) at the VLT improve these constraints
+by more than an order of magnitude for ALP masses between 2.7 and 5.3 eV [163], see Fig. 89.1.
+More recently, as shown in Fig. 89.1, James Webb Space Telescope (JWST) data has been used to
+constrain axion decays in the mass range between roughly 0.1 - 4 eV [492, 493].
+    Very low-mass axions in halos produce a weak quasi-monochromatic radio line. Virial velocities
+in undisrupted dwarf galaxies are very low, and the axion decay line would therefore be extremely
+narrow. A search with the Haystack radio telescope on three nearby dwarf galaxies gave a limit
+|gaγγ | < 1.0 × 10−9 GeV−1 at 96% CL for 298 < ma < 363 µeV [162]. However, this combination
+of ma and gaγγ does not exclude plausible axion models.
+    A monochromatic signal is also produced in the conversion of DM axions in the background of
+slowly varying galactic B-fields [494]. The signal is, however, sensitive to magnetic field power on
+the scale of the axion mass [495]. Present and future radio telescopes appear to be able to probe
+ALP DM in the mass range 0.1 − 100 µeV for couplings gaγγ & 10−13 GeV−1 [495] – several orders
+of magnitude above the KSVZ benchmark coupling for this mass range.
+    Resonant conversion of QCD axion or ALP DM in NS magnetospheres may give a detectable
+signal from individual NSs and populations of NSs for axion masses in the µeV range [496, 497].
+Recent analyses of radio data in the frequency range 1-40 GHz from several NSs have found no
+evidence for a narrow peak predicted from this mechanism and therefore put bounds on the axi-
+on-photon coupling around 10−11 GeV−2 for ma ∼ 10 µeV [134–137], see Fig. 89.1. However, these
+limits may still suffer from uncertainties because the line intensity is difficult to predict in detail in
+the complicated environments of NSs [136, 498–501]. Still, next-generation radio telescopes such as
+the Square Kilometer Array (SKA) may reach sensitivity to QCD axion-strength couplings [137].
+Stimulated ALP decays in high radiation environments may be detectable, by e.g. the future SKA,
+down to gaγγ & 10−11 GeV−1 , for masses between µeV and 0.1 meV [502]. Furthermore, in condensed
+ALP dark matter structures such as ALP stars, a parametric instability may lead      h to anRexponentiali
+                                                                                                  1/2
+enhancement of the photon flux from ALP-photon conversion by a factor ∼ exp |gaγγ | dsρa (s) ,
+where the integral is along any photon trajectory through the ALP overdensity [503, 504].
+    Photon propagation on an ULA DM background can induce birefringence that can be compared
+with upper limits from the CMB [107, 142, 505] and may also be probed with other sources such as
+pulsars [506].
+89.5.4 Microwave cavity experiments
+    Galactic halo axions in the 1-100 µeV mass range may be detected by their resonant con-
+version into a quasi-monochromatic microwave signal in a high-Q electromagnetic cavity perme-
+ated by a strong, static B field [7, 507, 508]. The signal should appear as excess electromag-
+netic power in the cavity at a frequency of the total axion energy, rest mass plus kinetic energy,
+ν = (ma /2π) [1 + O(10−6 )], with a width representing the axions’ virial distribution in the galaxy
+near Earth (though the frequency spectrum may also contain narrower components from e.g. DM
+
+                                             1st June, 2026
+22                               89. Axions and Other Similar Particles
+
+
+streams or other substructure; cavity experiments have enhanced sensitivity to these narrow sig-
+nals [509]). If the cavity resonant frequency is tuned to the axion frequency then the signal is
+enhanced by the Q of the cavity. Cavity experiments are thus tuning experiments, typically right
+circular cylindrical cavities in solenoidal magnets tuned through mechanical motion of conductive
+or dielectric rods in the hopes of aligning the resonant frequency with the unknown axion mass.
+    A number of cavity experiments have been executed, and have historically most successful
+for 1-100 µeV axion masses, where the length scale of the detected photons are at laboratory
+length scales. At present, the ADMX [69, 70, 510, 511] and CAPP [170, 172] cavity experiments
+have explored CDM axions with sensitivity to the DFSZ benchmark model over much of the 2.7-
+4.91 µeV mass range, with the expectation of continuing to scan upwards. A number of other
+cavity experiments with sensitivity at or near KSVZ coupling have been operated over narrow
+mass ranges, notably HAYSTAC [175], TASEH [94], QUAX aγ [90], and a higher-order mode of a
+DMAG (formerly CAPP) cavity [512]. Exclusions are shown in Fig. 89.5.
+
+                                                          0
+                                                   Frequency [MHz]
+                                        103                                                                          104
+                     10−9
+
+
+                   10−10
+
+
+                                                                                                                               GigaBREAD   ORGAN   MADMAX
+                   10−11
+
+
+       | gaγγ | [GeV−1]
+                                                                                                   ORGAN                                                     ORGAN
+                                                                                      ADMX
+
+
+
+
+                                                                                   CAST-CAPP
+                   10−12                                                                                     RADES                                                                  3
+                                                                                                    GrAHal
+                                                                                                                                                                            = 44/
+
+                                                                                                                     QUAX-aγ
+                                                                                                                                                                     E/ N
+
+                                                                     CAPP
+
+                                                                                               HAYSTAC
+                   10−13                                                                                                                                                     KSVZ
+
+                                                                                 TASEH CAPP
+                                                                       HAYSTAC
+                                                       CAPP
+                                                CAPP                                                                                                                         DFSZ
+                   10−14                                      CAPP
+                                                                                                                                                                            = 5/3
+                                                                                                                                                                     E/ N
+
+
+                   10−15
+                                                                                                                                           ρ0 = 0.45 GeV cm−3
+
+                          10−6                         10−5                                                                                                 10−4
+                                                              m a [eV]
+Figure 89.5: Exclusion plot for ALP-photon coupling with closeup on the parameter space of RF
+cavity experiments as described in the text. This is a zoom-in of Fig. 89.1 that highlights regions
+probed by axion DM direct detection experiments. In particular, note that all of the terrestrial ex-
+periments shaded in red, except that of CAST, assume that the axion is Figure from [63], including
+data from Refs. [34, 66, 68–70, 79, 82–85, 87, 88, 92, 94, 100, 123, 124, 146, 170, 170–180, 229, 513–518]
+
+89.5.5 Lower Mass Direct Axion Searches
+    The mass range ma < 0.1 µeV is increasingly of interest because of the strong theoretical
+motivations to prefer fa near the GUT scale (see Sec. 89.2.1). As summarized in Fig. 89.1, there
+are currently no bounds in this region that reach the QCD axion parameter space. Compared to
+
+                                              1st June, 2026
+23                        89. Axions and Other Similar Particles
+
+
+the cavity searches, the wavelength of these axions is much longer than the size of the experiments.
+When converted to electromagnetic fields in a strong laboratory magnetic field, the resulting signal
+can be modeled as currents in an equivalent “lumped” element or LC circuit [519–521]. A number
+of small-scale pathfinder experiments have implemented this approach focusing on the ∼neV region.
+Some examples are: ABRACADABRA-10cm [64, 65] used a broadband configuration in a toroidal
+magnet for a broadband search, ADMX-SLIC [72] used a resonant configuration in a solenoid
+magnet for a narrowband search, BASE [81] used the field of a penning trap for a similar search, and
+SHAFT [93] used a broadband configuration in a toroidal magnet enhanced with a ferromagnetic
+core. Future work in this direction is expected to have much more competitive sensitivity [522,523].
+There are several efforts using laser interferometry techniques to access the ∼ neV parameter space:
+LIDA [86] and DANCE [524]. The ADBC experiment uses an optical bow-tie cavity to search for
+axion-induced birefringence [67].
+89.5.6 Higher Mass Direct Axion Searches
+    For axion masses where the Compton wavelength is much smaller than the characteristic labo-
+ratory scale, the conversion volume becomes smaller, the characteristic resonator Q decreases, and
+the standard quantum noise limit increases. Techniques beyond the standard microwave cavity
+experiments are necessary to probe QCD axion dark matter. No experiment yet has explored a
+wide range of masses for high masses, beyond ∼25 µeV, at QCD axions couplings, but a number
+of promising techniques have been proposed and demonstrated. Only a small representative subset
+of these demonstrations and proposals can be cataloged here.
+    One path is to build a resonant structure with a characteristic dimension much longer than
+the converted photon wavelength. This has been proposed with subwavelength metamaterial-
+like conductive structure such as ALPHA [525], or VERA [526], and demonstrated with periodic
+dielectrics as in Orpheus [527], LAMPOST [528], and MADMAX [176]. Another option is to forgo
+resonance entirely and use a single conversion surface that is many wavelengths in dimension. [529]
+Experiments working on this concept include BRASS [530] and BREAD [174].
+    Due to the standard quantum limit readout for these higher-mass detectors to transition to
+quantum sensors and techniques beyond linear amplifiers [526,531]. Benefits of quantum squeezing
+have been demonstrated in HAYSTAC [84, 532], and single photon counters have been shown to be
+beneficial in QUAX [533] and in dark photon searches using both qubit devices [534] and nanowire
+detectors [528], among others.
+89.5.7 Non-photon Coupling Axion Searches
+    In Fig. 89.2 and Fig. 89.3, the status of the non-photon couplings are discussed in the context
+of the astrophysical ALP searches. These same non-photon couplings can also be used in direct
+searches for DM. Much of the recent focus is on the induced oscillating nuclear electric dipole
+moments (EDMs) [26]. An analysis of the ratio of spin-precession frequencies of stored ultracold
+neutrons and 199 Hg atoms measured by neutron EDM experiments excludes a sizeable region of
+parameter space in the mass region 10−24 eV ≤ ma ≤ 10−17 eV [31], which surpass the limits on
+anomalous energy loss of SN 1987A by more than seven orders of magnitude and are competitive
+with the ones from the requirement of successful BBN established in [29].
+    The oscillating EDMs can also be studied with the precession of nuclear spins in a nucleon
+spin polarized sample in the presence of an electric field. The resulting transverse magnetization
+can be searched for by exploiting magnetic-resonance (MR) techniques, which are most sensitive
+to the low frequencies of the sub-neV axion masses. There are two interactions probed through
+MR: the electric dipole coupling as searched for by CASPEr-electric (with first result presented
+in [30]) and an interaction between the axion field gradient and the nuclear spin, which is aimed for
+by CASPEr-Gradient. The latter has been explored through comagnetometry between a variety
+
+                                           1st June, 2026
+24                        89. Axions and Other Similar Particles
+
+
+of nuclei: H-12 C in CASPEr-ZULF [261, 262], Xe-Rb in NASDUCK [535], K-3 He [265–267] and
+K-3 He-Rb [273]. The exclusions from these searches are shown in Fig. 89.3.
+    Sub-µeV ALP masses can also be probed by using the storage ring EDM method proposed
+in Ref. [536] which exploits a combination of B and E-fields to produce a resonance between the
+g − 2 spin precession frequency and the DM ALP field oscillation frequency. This method, however,
+does not reach the sensitivity to probe the QCD axion prediction for gaN γ . An non-zero axion
+electron coupling gaee will lead to an electron spin precession about the axion DM wind [537, 538].
+The QUAX a-e experiment exploits MR inside a magnetized material [539]. Because of the higher
+Larmor frequency of the electron, it is sensitive to masses above 1µeV. Its first run established the
+bound in the mass range 42.4 to 43.2 µeV [240], slightly better than the solar ν bound, shown in
+Fig. 89.2. Updated sensitivity projections for MR techniques are detailed in [540], and examples of
+potential technological improvements in [541, 542].
+89.6 Conclusions
+    There is a strengthening physics case for very weakly coupled light particles beyond the Standard
+Model. The elegant solution of the strong CP problem proposed by Peccei and Quinn yields a par-
+ticularly strong motivation for the axion. In many theoretically appealing ultraviolet completions
+of the Standard Model axions and ALPs occur automatically. Moreover, they are natural CDM
+candidates. Interestingly, a significant portion of previously unexplored, but phenomenologically
+interesting and theoretically very well motivated, axion and ALP parameter space can be explored
+in the foreseeable future by a number of terrestrial experiments and astrophysical observations.
+89.7 Acknowledgements
+   It is a pleasure to thank Masha Baryakhtar, Francesca Calore, Luca Di Luzio, Andrew Geraci,
+Maurizio Giannotti, Igor Irastorza, David J.E. Marsh, Alessandro Mirizzi, Georg Raffelt, Ken’ichi
+Saikawa, Yannis Semertzidis, Guenter Sigl, and Sergey Troitsky for discussions, suggestions, and
+comments on this review.
+References
+ [1] R. D. Peccei and H. R. Quinn, Phys. Rev. Lett. 38, 1440 (1977).
+  [2] R. D. Peccei and H. R. Quinn, Phys. Rev. D16, 1791 (1977).
+  [3] S. Weinberg, Phys. Rev. Lett. 40, 223 (1978).
+  [4] F. Wilczek, Phys. Rev. Lett. 40, 279 (1978).
+  [5] E. Witten, Phys. Lett. B 149, 351 (1984).
+  [6] P. Svrcek and E. Witten, JHEP 06, 051 (2006), [hep-th/0605206].
+  [7] P. Sikivie, Phys. Rev. Lett. 51, 1415 (1983) and Erratum ibid., 52, 695 (1984).
+  [8] J. P. Conlon, JHEP 05, 078 (2006), [hep-th/0602233].
+  [9] K.-S. Choi et al., Phys. Lett. B675, 381 (2009), [arXiv:0902.3070].
+ [10] A. Arvanitaki et al., Phys. Rev. D81, 123530 (2010), [arXiv:0905.4720].
+ [11] B. S. Acharya, K. Bobkov and P. Kumar, JHEP 11, 105 (2010), [arXiv:1004.5138].
+ [12] M. Cicoli, M. Goodsell and A. Ringwald, JHEP 10, 146 (2012), [arXiv:1206.0819].
+ [13] J. Halverson, C. Long and P. Nath, Phys. Rev. D96, 5, 056025 (2017), [arXiv:1703.07779].
+ [14] M. Demirtas et al., JHEP 04, 138 (2020), [arXiv:1808.01282].
+ [15] M. Pospelov and A. Ritz, Nucl. Phys. B573, 177 (2000), [hep-ph/9908508].
+ [16] J. Liang et al. (χQCD Collaboration), Phys. Rev. D 108, 094512 (2023), URL https://
+      link.aps.org/doi/10.1103/PhysRevD.108.094512.
+
+                                           1st June, 2026
+25                        89. Axions and Other Similar Particles
+
+
+ [17] C. A. Baker et al., Phys. Rev. Lett. 97, 131801 (2006), [hep-ex/0602020].
+ [18] C. Abel et al. (nEDM), Phys. Rev. Lett. 124, 8, 081803 (2020), [arXiv:2001.11966].
+[19] J. Alexander et al. (2022), [arXiv:2205.00830].
+[20] H. Georgi, D. B. Kaplan and L. Randall, Phys. Lett. 169B, 73 (1986).
+[21] R. J. Crewther, Phys. Lett. 70B, 349 (1977).
+[22] P. Di Vecchia and G. Veneziano, Nucl. Phys. B171, 253 (1980).
+[23] M. Gorghetto and G. Villadoro, JHEP 03, 033 (2019), [arXiv:1812.01008].
+[24] S. Borsanyi et al., Nature 539, 7627, 69 (2016), [arXiv:1606.07494].
+[25] L. Caloni et al., JCAP 09, 021 (2022), [arXiv:2205.01637].
+[26] P. W. Graham and S. Rajendran, Phys. Rev. D88, 035023 (2013), [arXiv:1306.6088].
+[27] D. Budker et al., Phys. Rev. X4, 2, 021030 (2014), [arXiv:1306.6089].
+[28] I. Schulthess et al., Phys. Rev. Lett. 129, 19, 191801 (2022), [arXiv:2204.01454].
+[29] K. Blum et al., Phys. Lett. B 737, 30 (2014), [arXiv:1401.6460].
+[30] D. Aybas et al., Phys. Rev. Lett. 126, 14, 141802 (2021), [arXiv:2101.01241].
+[31] C. Abel et al., Phys. Rev. X7, 4, 041034 (2017), [arXiv:1708.06367].
+[32] T. S. Roussy et al., Phys. Rev. Lett. 126, 17, 171301 (2021), [arXiv:2006.15787].
+[33] S. Karanth et al. (JEDI Collaboration), Phys. Rev. X 13, 031004 (2023), URL https://
+     link.aps.org/doi/10.1103/PhysRevX.13.031004.
+[34] X. Zhang et al., Phys. Rev. Lett. 130, 251002 (2023), URL https://link.aps.org/doi/
+     10.1103/PhysRevLett.130.251002.
+[35] G. Lucente et al., Phys. Rev. D 105, 12, 123020 (2022), [arXiv:2203.15812].
+[36] L. Di Luzio et al., Phys. Rept. 870, 1 (2020), [arXiv:2003.01100].
+[37] J. E. Kim, Phys. Rev. Lett. 43, 103 (1979).
+[38] M. A. Shifman, A. I. Vainshtein and V. I. Zakharov, Nucl. Phys. B166, 493 (1980).
+[39] M. Dine, W. Fischler and M. Srednicki, Phys. Lett. 104B, 199 (1981).
+[40] A. R. Zhitnitsky, Sov. J. Nucl. Phys. 31, 260 (1980), [Yad. Fiz.31,497(1980)].
+[41] H. M. Georgi, L. J. Hall and M. B. Wise, Nucl. Phys. B 192, 409 (1981).
+[42] M. Dine and N. Seiberg, Nucl. Phys. B 273, 109 (1986).
+[43] M. Kamionkowski and J. March-Russell, Phys. Lett. B 282, 137 (1992), [hep-th/9202003].
+[44] S. M. Barr and D. Seckel, Phys. Rev. D 46, 539 (1992).
+[45] R. Holman et al., Phys. Lett. B 282, 132 (1992), [hep-ph/9203206].
+[46] D. Harlow and H. Ooguri, Commun. Math. Phys. 383, 3, 1669 (2021), [arXiv:1810.05338].
+[47] M. Reece, JHEP 07, 130 (2025), [arXiv:2406.08543].
+[48] N. Craig and M. Kongsore, Phys. Rev. D 111, 1, 015047 (2025), [arXiv:2408.10295].
+[49] P. Agrawal, M. Nee and M. Reig, JHEP 02, 188 (2025), [arXiv:2410.03820].
+[50] J. N. Benabou et al., Phys. Rev. D 112, 6, 066003 (2025), [arXiv:2505.15884].
+[51] V. Loladze, A. Platschorre and M. Reig, JHEP 08, 182 (2025), [arXiv:2503.18707].
+[52] R. Petrossian-Byrne and G. Villadoro, JHEP 07, 049 (2025), [arXiv:2503.16387].
+[53] G. Grilli di Cortona et al., JHEP 01, 034 (2016), [arXiv:1511.02867].
+[54] J. E. Kim, Phys. Rev. D58, 055006 (1998), [hep-ph/9802220].
+
+                                         1st June, 2026
+26                        89. Axions and Other Similar Particles
+
+
+ [55] L. Di Luzio, F. Mescia and E. Nardi, Phys. Rev. Lett. 118, 3, 031801 (2017),
+      [arXiv:1610.07593].
+ [56] L. Di Luzio, F. Mescia and E. Nardi, Phys. Rev. D 96, 7, 075003 (2017), [arXiv:1705.05370].
+ [57] M. Farina et al., JHEP 01, 095 (2017), [arXiv:1611.09855].
+ [58] P. Agrawal et al., JHEP 02, 006 (2018), [arXiv:1709.06085].
+ [59] A. Hook, Phys. Rev. Lett. 120, 26, 261802 (2018), [arXiv:1802.10093].
+ [60] L. Di Luzio et al., JHEP 05, 184 (2021), [arXiv:2102.00012].
+ [61] A. V. Sokolov and A. Ringwald, JHEP 06, 123 (2021), [arXiv:2104.02574].
+ [62] J. Diehl and E. Koutsangelas, Phys. Rev. D 107, 9, 095020 (2023), [arXiv:2302.04667].
+ [63] C. O’Hare, cajohare/AxionLimits: AxionLimits (2023), URL https://doi.org/10.5281/
+      zenodo.3932430.
+ [64] J. L. Ouellet et al. (ABRACADABRA), Phys. Rev. Lett. 122, 12, 121802 (2019),
+      [arXiv:1810.12257].
+ [65] C. P. Salemi et al., Phys. Rev. Lett. 127, 8, 081801 (2021), [arXiv:2102.06722].
+ [66] S. J. Asztalos et al. (ADMX), Phys. Rev. Lett. 104, 041301 (2010), [arXiv:0910.5914].
+ [67] S. Pandey, E. D. Hall and M. Evans, Phys. Rev. Lett. 133, 11, 111003 (2024),
+      [arXiv:2404.12517].
+ [68] N. Du et al. (ADMX), Phys. Rev. Lett. 120, 15, 151301 (2018), [arXiv:1804.05750].
+ [69] T. Braine et al. (ADMX), Phys. Rev. Lett. 124, 10, 101303 (2020), [arXiv:1910.08638].
+ [70] C. Bartram et al. (ADMX Collaboration), Phys. Rev. Lett. 127, 261803 (2021), URL https:
+      //link.aps.org/doi/10.1103/PhysRevLett.127.261803.
+ [71] C. Bartram et al., Review of Scientific Instruments 94, 4, 044703 (2023), ISSN 0034-6748,
+      URL https://doi.org/10.1063/5.0122907.
+ [72] N. Crisosto et al., Phys. Rev. Lett. 124, 24, 241101 (2020), [arXiv:1911.05772].
+ [73] S. Lee et al., Phys. Rev. Lett. 124, 10, 101802 (2020), [arXiv:2001.05102].
+ [74] J. Jeong et al., Phys. Rev. Lett. 125, 22, 221302 (2020), [arXiv:2008.10141].
+ [75] O. Kwon et al. (CAPP), Phys. Rev. Lett. 126, 19, 191802 (2021), [arXiv:2012.10764].
+ [76] Y. Lee et al., Phys. Rev. Lett. 128, 24, 241805 (2022), [arXiv:2206.08845].
+ [77] J. Kim et al., Phys. Rev. Lett. 130, 091602 (2023), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.130.091602.
+ [78] B. Yang et al., Phys. Rev. Lett. 131, 081801 (2023), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.131.081801.
+ [79] C. M. Adair et al., Nature Commun. 13, 1, 6180 (2022), [arXiv:2211.02902].
+ [80] Y. Oshima et al., Phys. Rev. D 108, 072005 (2023), URL https://link.aps.org/doi/10.
+      1103/PhysRevD.108.072005.
+ [81] J. A. Devlin et al., Phys. Rev. Lett. 126, 4, 041301 (2021), [arXiv:2101.11290].
+ [82] T. Grenet et al. (2021), [arXiv:2110.14406].
+ [83] L. Zhong et al. (HAYSTAC), Phys. Rev. D 97, 9, 092001 (2018), [arXiv:1803.03690].
+ [84] K. M. Backes et al. (HAYSTAC), Nature 590, 7845, 238 (2021), [arXiv:2008.01853].
+ [85] M. J. Jewell et al. (HAYSTAC), Phys. Rev. D 107, 7, 072007 (2023), [arXiv:2301.09721].
+ [86] J. Heinze et al., Phys. Rev. Lett. 132, 19, 191002 (2024), [arXiv:2307.01365].
+
+                                          1st June, 2026
+27                        89. Axions and Other Similar Particles
+
+
+ [87] B. T. McAllister et al., Phys. Dark Univ. 18, 67 (2017), [arXiv:1706.00209].
+ [88] A. P. Quiskamp et al., Sci. Adv. 8, 27, abq3765 (2022), [arXiv:2203.12152].
+ [89] D. Alesini et al., Phys. Rev. D 99, 10, 101101 (2019), [arXiv:1903.06547].
+ [90] D. Alesini et al., Phys. Rev. D 103, 10, 102004 (2021), [arXiv:2012.09498].
+ [91] D. Alesini et al., Phys. Rev. D 106, 5, 052007 (2022), [arXiv:2208.12670].
+ [92] S. De Panfilis et al., Phys. Rev. Lett. 59, 839 (1987).
+ [93] A. V. Gramolin et al., Nature Phys. 17, 1, 79 (2021), [arXiv:2003.03348].
+ [94] H. Chang et al. (TASEH), Phys. Rev. Lett. 129, 11, 111802 (2022), [arXiv:2205.05574].
+ [95] A. Arza et al., Phys. Rev. D 105, 9, 095007 (2022), [arXiv:2112.09620].
+ [96] C. Hagmann et al., Phys. Rev. D42, 1297 (1990).
+ [97] C. A. Thomson et al., Phys. Rev. Lett. 126, 8, 081803 (2021), [Erratum: Phys.Rev.Lett. 127,
+      019901 (2021)], [arXiv:1912.07751].
+ [98] C. A. Thomson et al., Phys. Rev. D 107, 112003 (2023), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.107.112003.
+ [99] K. Ehret et al. (ALPS), Phys. Lett. B689, 149 (2010), [arXiv:1004.1313].
+[100] V. Anastassopoulos et al. (CAST), Nature Phys. 13, 584 (2017), [arXiv:1705.02290].
+[101] M. Betz et al., Phys. Rev. D88, 7, 075014 (2013), [arXiv:1310.8098].
+[102] R. Ballou et al. (OSQAR), Phys. Rev. D92, 9, 092002 (2015), [arXiv:1506.08082].
+[103] F. Della Valle et al., Eur. Phys. J. C76, 1, 24 (2016), [arXiv:1510.08052].
+[104] Y. Kirita et al. (SAPPHIRES), JHEP 10, 176 (2022), [arXiv:2208.09880].
+[105] M. Escudero et al., Phys. Rev. D 109, 4, 043018 (2024), [arXiv:2302.10206].
+[106] M. Xiao et al., Phys. Rev. Lett. 126, 3, 031101 (2021), [arXiv:2009.09059].
+[107] P. A. R. Ade et al. (BICEP/Keck Collaboration), Phys. Rev. D 105, 022006 (2022), URL
+      https://link.aps.org/doi/10.1103/PhysRevD.105.022006.
+[108] A. Keller et al., Astrophys. J. 927, 1, 71 (2022), [arXiv:2112.03439].
+[109] M. H. Chan, Sci. Rep. 11, 20087 (2021), [arXiv:2109.11734].
+[110] K. Kohri and H. Kodama, Phys. Rev. D96, 5, 051701 (2017), [arXiv:1704.05189].
+[111] D. Wouters and P. Brun, Astrophys. J. 772, 44 (2013), [arXiv:1304.0989].
+[112] M. C. D. Marsh et al., JCAP 1712, 12, 036 (2017), [arXiv:1703.07354].
+[113] C. S. Reynolds et al., Astrophys. J. 890, 1, 59 (2020), [arXiv:1907.05475].
+[114] J. S. Reynés et al., Mon. Not. Roy. Astron. Soc. 510, 1, 1264 (2021), [arXiv:2109.03261].
+[115] F. Capozzi et al., Journal of Cosmology and Astroparticle Physics 2023, 06, 060 (2023), URL
+      https://dx.doi.org/10.1088/1475-7516/2023/06/060.
+[116] H. Liu et al., Phys. Rev. D 108, 043531 (2023), URL https://link.aps.org/doi/10.1103/
+      PhysRevD.108.043531.
+[117] B. Bolliet, J. Chluba and R. Battye, Mon. Not. Roy. Astron. Soc. 507, 3, 3148 (2021),
+      [arXiv:2012.07292].
+[118] M. A. Buen-Abad, J. Fan and C. Sun, Journal of High Energy Physics 2022, 2, 103 (2022),
+      ISSN 1029-8479, URL https://doi.org/10.1007/JHEP02(2022)103.
+[119] M. Ajello et al. (Fermi-LAT), Phys. Rev. Lett. 116, 16, 161101 (2016), [arXiv:1603.06978].
+
+                                           1st June, 2026
+28                        89. Axions and Other Similar Particles
+
+
+[120] M. Meyer and T. Petrushevska, Phys. Rev. Lett. 124, 23, 231101 (2020), [Erratum:
+      Phys.Rev.Lett. 125, 119901 (2020)], [arXiv:2006.06722].
+[121] J. Davies, M. Meyer and G. Cotter, Phys. Rev. D 107, 8, 083027 (2023), [arXiv:2211.03414].
+[122] J. L. Bernal et al., Phys. Rev. D 107, 10, 103046 (2023), [arXiv:2208.13794].
+[123] A. Ayala et al., Phys. Rev. Lett. 113, 19, 191302 (2014), [arXiv:1406.6053].
+[124] M. J. Dolan, F. J. Hiskens and R. R. Volkas, JCAP 10, 096 (2022), [arXiv:2207.03102].
+[125] S. Jacobsen, T. Linden and K. Freese, JCAP 10, 009 (2023), [arXiv:2203.04332].
+[126] A. Abramowski et al. (H.E.S.S.), Phys. Rev. D 88, 10, 102003 (2013), [arXiv:1311.3148].
+[127] F. Calore et al., Mon. Not. Roy. Astron. Soc. 520, 3, 4167 (2023), [arXiv:2209.06299].
+[128] D. Wadekar and G. R. Farrar, Phys. Rev. D 103, 123028 (2021), URL https://link.aps.
+      org/doi/10.1103/PhysRevD.103.123028.
+[129] C. Dessert, A. J. Long and B. R. Safdi, Phys. Rev. Lett. 128, 071102 (2022), URL https:
+      //link.aps.org/doi/10.1103/PhysRevLett.128.071102.
+[130] C. Dessert, D. Dunsky and B. R. Safdi, Phys. Rev. D 105, 10, 103034 (2022),
+      [arXiv:2203.04319].
+[131] M. M. Ivanov et al., JCAP 02, 059 (2019), [arXiv:1811.10997].
+[132] H.-J. Li et al., Phys. Rev. D 103, 8, 083003 (2021), [arXiv:2008.09464].
+[133] H.-J. Li, X.-J. Bi and P.-F. Yin, Chin. Phys. C 46, 8, 085105 (2022), [arXiv:2110.13636].
+[134] J. W. Foster et al., Phys. Rev. Lett. 125, 17, 171301 (2020), [arXiv:2004.00011].
+[135] J. Darling, Astrophys. J. Lett. 900, 2, L28 (2020), [arXiv:2008.11188].
+[136] R. A. Battye et al., Phys. Rev. D 105, L021305 (2022), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.105.L021305.
+[137] J. W. Foster et al., Phys. Rev. Lett. 129, 25, 251102 (2022), [arXiv:2202.08274].
+[138] R. A. Battye et al., Phys. Rev. D 108, 063001 (2023), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.108.063001.
+[139] K. Perez et al., Phys. Rev. D 95, 12, 123002 (2017), [arXiv:1609.00667].
+[140] K. C. Y. Ng et al., Phys. Rev. D 99, 083005 (2019), [arXiv:1901.01262].
+[141] B. M. Roach et al., Phys. Rev. D 107, 2, 023009 (2023), [arXiv:2207.04572].
+[142] M. A. Fedderke, P. W. Graham and S. Rajendran, Phys. Rev. D100, 1, 015040 (2019),
+      [arXiv:1903.02666].
+[143] S. Adachi et al. (POLARBEAR Collaboration), Phys. Rev. D 108, 043017 (2023), URL
+      https://link.aps.org/doi/10.1103/PhysRevD.108.043017.
+[144] A. Castillo et al., JCAP 06, 06, 014 (2022), [arXiv:2201.03422].
+[145] T. Liu, X. Lou and J. Ren, Phys. Rev. Lett. 130, 121401 (2023), URL https://link.aps.
+      org/doi/10.1103/PhysRevLett.130.121401.
+[146] D. Noordhuis et al., Phys. Rev. Lett. 131, 111004 (2023), URL https://link.aps.org/
+      doi/10.1103/PhysRevLett.131.111004.
+[147] C. Severino and I. Lopes, The Astrophysical Journal 943, 2, 95 (2023), URL https://dx.
+      doi.org/10.3847/1538-4357/aca897.
+[148] N. Vinyoles et al., JCAP 1510, 10, 015 (2015), [arXiv:1501.01639].
+
+                                          1st June, 2026
+29                        89. Axions and Other Similar Particles
+
+
+[149] N. H. Nguyen, E. H. Tanin and M. Kamionkowski, Journal of Cosmology and Astroparticle
+      Physics 2023, 11, 091 (2023), URL https://dx.doi.org/10.1088/1475-7516/2023/11/
+      091.
+[150] J. Jaeckel, P. C. Malta and J. Redondo, Phys. Rev. D 98, 5, 055032 (2018),
+      [arXiv:1702.02964].
+[151] E. Müller et al., Journal of Cosmology and Astroparticle Physics 2023, 07, 056 (2023), URL
+      https://dx.doi.org/10.1088/1475-7516/2023/07/056.
+[152] A. Payez et al., JCAP 1502, 02, 006 (2015), [arXiv:1410.3747].
+[153] S. Hoof and L. Schulz, JCAP 03, 054 (2023), [arXiv:2212.09764].
+[154] G. Lucente et al., JCAP 12, 008 (2020), [arXiv:2008.04918].
+[155] A. Caputo, G. Raffelt and E. Vitagliano, Phys. Rev. D 105, 3, 035022 (2022),
+      [arXiv:2109.03244].
+[156] A. Caputo et al., Phys. Rev. Lett. 128, 22, 221103 (2022), [arXiv:2201.09890].
+[157] M. Diamond et al., Phys. Rev. D 107, 10, 103029 (2023), [arXiv:2303.11395].
+[158] W. DeRocco et al., Phys. Rev. Lett. 129, 10, 101101 (2022), [arXiv:2205.05700].
+[159] C. Beaufort et al., Phys. Rev. D 108, L081302 (2023), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.108.L081302.
+[160] C. Dessert, J. W. Foster and B. R. Safdi, Phys. Rev. Lett. 125, 26, 261102 (2020),
+      [arXiv:2008.03305].
+[161] K. R. Ferguson et al. (SPT-3G), Phys. Rev. D 106, 4, 042011 (2022), [arXiv:2203.16567].
+[162] B. D. Blout et al., Astrophys. J. 546, 825 (2001), [arXiv:astro-ph/0006310].
+[163] M. Regis et al., Phys. Lett. B 814, 136075 (2021), [arXiv:2009.01310].
+[164] D. Grin et al., Phys. Rev. D 75, 105018 (2007), [arXiv:astro-ph/0611502].
+[165] K. Nakayama and W. Yin, Phys. Rev. D 106, 10, 103505 (2022), [arXiv:2205.01079].
+[166] P. Carenza, G. Lucente and E. Vitagliano, Phys. Rev. D 107, 8, 083032 (2023),
+      [arXiv:2301.06560].
+[167] D. Cadamuro and J. Redondo, JCAP 1202, 032 (2012), [arXiv:1110.2895].
+[168] P. F. Depta, M. Hufnagel and K. Schmidt-Hoberg, JCAP 05, 009 (2020), [arXiv:2002.08370].
+[169] K. Langhoff, N. J. Outmezguine and N. L. Rodd, Phys. Rev. Lett. 129, 24, 241101 (2022),
+      [arXiv:2209.06216].
+[170] A. K. Yi et al., Phys. Rev. Lett. 130, 071002 (2023), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.130.071002.
+[171] S. Bae et al., Phys. Rev. Lett. 133, 21, 211803 (2024), [arXiv:2403.13390].
+[172] S. Ahn et al., Phys. Rev. X 14, 031023 (2024), URL https://link.aps.org/doi/10.1103/
+      PhysRevX.14.031023.
+[173] Y. Kim et al., Phys. Rev. Lett. 133, 051802 (2024), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.133.051802.
+[174] G. Hoshino et al. (GigaBREAD Collaboration), Phys. Rev. Lett. 134, 171002 (2025), URL
+      https://link.aps.org/doi/10.1103/PhysRevLett.134.171002.
+[175] X. Bai et al. (HAYSTAC Collaboration), Phys. Rev. Lett. 134, 151006 (2025), URL https:
+      //link.aps.org/doi/10.1103/PhysRevLett.134.151006.
+
+                                          1st June, 2026
+30                        89. Axions and Other Similar Particles
+
+
+[176] B. Ary dos Santos Garcia et al. (MADMAX Collaboration), Phys. Rev. Lett. 135, 041001
+      (2025), URL https://link.aps.org/doi/10.1103/c749-419q.
+[177] A. P. Quiskamp et al., Phys. Rev. D 111, 095007 (2025), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.111.095007.
+[178] A. Rettaroli et al. (QUAX), Phys. Rev. D 110, 2, 022008 (2024), [arXiv:2402.19063].
+[179] S. Ahyoune et al., Journal of High Energy Physics 2025, 4, 113 (2025), ISSN 1029-8479, URL
+      https://doi.org/10.1007/JHEP04(2025)113.
+[180] M. Friel et al., Phys. Rev. D 110, 115036 (2024), URL https://link.aps.org/doi/10.
+      1103/PhysRevD.110.115036.
+[181] Y. Kirita et al., Journal of High Energy Physics 2025, 6, 138 (2025), ISSN 1029-8479, URL
+      https://doi.org/10.1007/JHEP06(2025)138.
+[182] K. Altenmüller et al. (CAST Collaboration), Phys. Rev. Lett. 133, 221005 (2024), URL
+      https://link.aps.org/doi/10.1103/PhysRevLett.133.221005.
+[183] G. Raffelt and D. Seckel, Phys. Rev. Lett. 60, 1793 (1988).
+[184] M. Carena and R. D. Peccei, Phys. Rev. D40, 652 (1989).
+[185] K. Choi, K. Kang and J. E. Kim, Phys. Rev. Lett. 62, 849 (1989).
+[186] M. Srednicki, Nucl. Phys. B260, 689 (1985).
+[187] S. Chang and K. Choi, Phys. Lett. B316, 51 (1993), [hep-ph/9306216].
+[188] G. C. Branco et al., Phys. Rept. 516, 1 (2012), [arXiv:1106.0034].
+[189] C.-Y. Chen and S. Dawson, Phys. Rev. D87, 055016 (2013), [arXiv:1301.0309].
+[190] R. Balkin et al., JHEP 07, 221 (2020), [arXiv:2003.04903].
+[191] K. Choi et al., JHEP 02, 143 (2022), [arXiv:2110.01972].
+[192] D. A. Dicus et al., Phys. Rev. D18, 1829 (1978).
+[193] G. Raffelt and L. Stodolsky, Phys. Rev. D37, 1237 (1988).
+[194] A. A. Anselm, Yad. Fiz. 42, 1480 (1985).
+[195] K. van Bibber et al., Phys. Rev. Lett. 59, 759 (1987).
+[196] G. Ruoso et al., Z. Phys. C56, 505 (1992).
+[197] R. Cameron et al., Phys. Rev. D47, 3707 (1993).
+[198] M. Fouche et al., Phys. Rev. D78, 032013 (2008), [arXiv:0808.2800].
+[199] P. Pugnat et al. (OSQAR), Phys. Rev. D78, 092003 (2008), [arXiv:0712.3362].
+[200] A. S. Chou et al. (GammeV (T-969)), Phys. Rev. Lett. 100, 080402 (2008), [arXiv:0710.3783].
+[201] A. Afanasev et al., Phys. Rev. Lett. 101, 120401 (2008), [arXiv:0806.2631].
+[202] P. Pugnat et al. (OSQAR), Eur. Phys. J. C74, 8, 3027 (2014), [arXiv:1306.0443].
+[203] F. Hoogeveen and T. Ziegenhagen, Nucl. Phys. B358, 3 (1991).
+[204] P. Sikivie, D. B. Tanner and K. van Bibber, Phys. Rev. Lett. 98, 172002 (2007), [hep-
+      ph/0701198].
+[205] G. Mueller et al., Phys. Rev. D80, 072004 (2009), [arXiv:0907.5387].
+[206] M. Diaz Ortiz et al., Physics of the Dark Universe 35, 100968 (2022), ISSN 2212-6864, URL
+      https://www.sciencedirect.com/science/article/pii/S2212686422000115.
+[207] T. Kozlowski et al., Opt. Express 33, 5, 11153 (2025), URL https://opg.optica.org/oe/
+      abstract.cfm?URI=oe-33-5-11153.
+
+                                          1st June, 2026
+31                        89. Axions and Other Similar Particles
+
+
+[208] F. Hoogeveen, Phys. Lett. B288, 195 (1992).
+[209] J. Jaeckel and A. Ringwald, Phys. Lett. B659, 509 (2008), [arXiv:0707.2063].
+[210] F. Caspers, J. Jaeckel and A. Ringwald, JINST 4, P11013 (2009), [arXiv:0908.0759].
+[211] R. Povey, J. Hartnett and M. Tobar, Phys. Rev. D82, 052003 (2010), [arXiv:1003.0964].
+[212] E. Fischbach and C. Talmadge, Nature 356, 207 (1992).
+[213] J. E. Moody and F. Wilczek, Phys. Rev. D30, 130 (1984).
+[214] A. N. Youdin et al., Phys. Rev. Lett. 77, 2170 (1996).
+[215] W.-T. Ni et al., Phys. Rev. Lett. 82, 2439 (1999).
+[216] D. F. Phillips et al., Phys. Rev. D63, 111101 (2001), [arXiv:physics/0008230].
+[217] B. R. Heckel et al., Phys. Rev. Lett. 97, 021603 (2006), [hep-ph/0606218].
+[218] S. A. Hoedl et al., Phys. Rev. Lett. 106, 041801 (2011).
+[219] E. G. Adelberger et al., Phys. Rev. Lett. 98, 131104 (2007), [hep-ph/0611223].
+[220] D. J. Kapner et al., Phys. Rev. Lett. 98, 021101 (2007), [hep-ph/0611184].
+[221] G. Raffelt, Phys. Rev. D86, 015001 (2012), [arXiv:1205.1776].
+[222] C. A. J. O’Hare and E. Vitagliano, Phys. Rev. D 102, 11, 115026 (2020), [arXiv:2010.03889].
+[223] A. Arvanitaki and A. A. Geraci, Phys. Rev. Lett. 113, 16, 161801 (2014), [arXiv:1403.1290].
+[224] A. A. Geraci et al. (ARIADNE), Springer Proc. Phys. 211, 151 (2018), [arXiv:1710.05413].
+[225] H. Fosbinder-Elkins et al. (2017), [arXiv:1710.08102].
+[226] N. Aggarwal et al. (ARIADNE Collaboration), Phys. Rev. Res. 4, 013090 (2022), URL https:
+      //link.aps.org/doi/10.1103/PhysRevResearch.4.013090.
+[227] M. S. Turner, Phys. Rept. 197, 67 (1990).
+[228] G. G. Raffelt, Lect. Notes Phys. 741, 51 (2008), [,51(2006)], [hep-ph/0611350].
+[229] S. Andriamonje et al. (CAST), JCAP 0704, 010 (2007), [hep-ex/0702006].
+[230] P. Gondolo and G. G. Raffelt, Phys. Rev. D79, 107301 (2009), [arXiv:0807.2926].
+[231] H. Schlattl, A. Weiss and G. Raffelt, Astropart. Phys. 10, 353 (1999), [hep-ph/9807476].
+[232] P. Agnes et al. (DarkSide), Phys. Rev. Lett. 130, 10, 101002 (2023), [arXiv:2207.11968].
+[233] M. Agostini et al. (GERDA), Phys. Rev. Lett. 125, 1, 011801 (2020), [arXiv:2005.14184].
+[234] C. Fu et al. (PandaX), Phys. Rev. Lett. 119, 18, 181806 (2017), [arXiv:1707.07921].
+[235] T. Aralis et al. (SuperCDMS), Phys. Rev. D 101, 5, 052008 (2020), [Erratum: Phys.Rev.D
+      103, 039901 (2021)], [arXiv:1911.11905].
+[236] E. Aprile et al. (XENON), Phys. Rev. D 102, 7, 072004 (2020), [arXiv:2006.09721].
+[237] E. Aprile et al. (XENON Collaboration), Phys. Rev. Lett. 129, 161805 (2022), URL https:
+      //link.aps.org/doi/10.1103/PhysRevLett.129.161805.
+[238] K. Van Tilburg, Phys. Rev. D 104, 2, 023019 (2021), [arXiv:2006.12431].
+[239] F. Capozzi and G. Raffelt, Phys. Rev. D 102, 8, 083007 (2020), [arXiv:2007.03694].
+[240] N. Crescini et al. (QUAX), Phys. Rev. Lett. 124, 17, 171801 (2020), [arXiv:2001.08940].
+[241] R. Z. Ferreira, M. C. D. Marsh and E. Müller, Phys. Rev. Lett. 128, 22, 221302 (2022),
+      [arXiv:2202.08858].
+[242] T. Li et al. (PandaX), Phys. Rev. Lett. 134, 7, 071004 (2025), [arXiv:2409.00773].
+
+                                          1st June, 2026
+32                        89. Axions and Other Similar Particles
+
+
+[243] A. Berlin et al., Journal of High Energy Physics 2024, 5, 314 (2024), ISSN 1029-8479, URL
+      https://doi.org/10.1007/JHEP05(2024)314.
+[244] O. Straniero et al., in “Proceedings, 11th Patras Workshop on Axions, WIMPs and WISPs
+      (Axion-WIMP 2015): Zaragoza, Spain, June 22-26, 2015,” 77–81 (2015).
+[245] T. Constantino et al. .
+[246] J. Redondo, Journal of Cosmology and Astroparticle Physics 2013, 12, 008 (2013).
+[247] O. Straniero et al., Astron. Astrophys. 644, A166 (2020), [arXiv:2010.03833].
+[248] G. G. Raffelt, Phys. Lett. 166B, 402 (1986).
+[249] S. I. Blinnikov and N. V. Dunina-Barkovskaya, Mon. Not. Roy. Astron. Soc. 266, 289 (1994).
+[250] M. M. Miller Bertolami et al., JCAP 1410, 10, 069 (2014), [arXiv:1406.7712].
+[251] J. Isern et al., Astrophys. J. 682, L109 (2008), [arXiv:0806.2807].
+[252] J. Isern et al., J. Phys. Conf. Ser. 172, 012005 (2009), [arXiv:0812.3043].
+[253] A. Drlica-Wagner et al. (LSST Dark Matter Group) (2019), [arXiv:1902.01055].
+[254] J. Isern et al., Astron. & Astrophys. 512, A86 (2010).
+[255] A. H. Corsico et al., Mon. Not. Roy. Astron. Soc. 424, 2792 (2012), [arXiv:1205.6180].
+[256] A. H. Corsico et al., JCAP 1212, 010 (2012), [arXiv:1211.3389].
+[257] A. H. Córsico et al., The Astronomy and Astrophysics Review 27, 1, 7 (2019), URL https:
+      //doi.org/10.1007/s00159-019-0118-4.
+[258] M. J. Dolan, F. J. Hiskens and R. R. Volkas, Journal of Cosmology and Astroparticle Physics
+      2021, 09, 010 (2021), URL https://doi.org/10.1088/1475-7516/2021/09/010.
+[259] J. Isern, S. Torres and A. Rebassa-Mansergas, Front. Astron. Space Sci. 9, 815517 (2022),
+      [arXiv:2202.02052].
+[260] V. M. Mostepanenko and G. L. Klimchitskaya, Universe 6, 9, 147 (2020), [arXiv:2009.04517].
+[261] T. Wu et al., Phys. Rev. Lett. 122, 19, 191302 (2019), [arXiv:1901.10843].
+[262] A. Garcon et al., Sci. Adv. 5, 10, eaax4539 (2019), [arXiv:1902.04644].
+[263] K. Wei et al., Reports on Progress in Physics 88, 5, 057801 (2025), URL https://dx.doi.
+      org/10.1088/1361-6633/adca52.
+[264] M. Jiang et al., Nature Phys. 17, 12, 1402 (2021), [arXiv:2102.01448].
+[265] I. M. Bloch et al., Nature Communications 14, 1, 5784 (2023), ISSN 2041-1723, URL https:
+      //doi.org/10.1038/s41467-023-41162-4.
+[266] I. M. Bloch et al., JHEP 01, 167 (2020), [arXiv:1907.03767].
+[267] G. Vasilakis et al., Physical Review Letters 103, 26 (2009), ISSN 1079-7114, URL http:
+      //dx.doi.org/10.1103/PhysRevLett.103.261801.
+[268] J. Lee et al., Phys. Rev. X 13, 011050 (2023), URL https://link.aps.org/doi/10.1103/
+      PhysRevX.13.011050.
+[269] M. Buschmann et al., Phys. Rev. Lett. 128, 9, 091102 (2022), [arXiv:2111.09892].
+[270] A. Bhusal, N. Houston and T. Li, Phys. Rev. Lett. 126, 9, 091601 (2021), [arXiv:2004.02733].
+[271] H. Su et al., Phys. Rev. Lett. 133, 191801 (2024), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.133.191801.
+[272] Z. Xu et al., Communications Physics 7, 1, 226 (2024), ISSN 2399-3650, URL https://doi.
+      org/10.1038/s42005-024-01713-7.
+
+                                           1st June, 2026
+33                        89. Axions and Other Similar Particles
+
+
+[273] D. Gavilan-Martin et al., Nature Commun. 16, 1, 4953 (2025), [arXiv:2408.02668].
+[274] G.G. Raffelt, Stars as Laboratories for Fundamental Physics, (Univ. of Chicago Press,
+      Chicago, 1996).
+[275] T. Fischer et al., Phys. Rev. D94, 8, 085012 (2016), [arXiv:1605.08780].
+[276] J. H. Chang, R. Essig and S. D. McDermott, JHEP 09, 051 (2018), [arXiv:1803.00993].
+[277] P. Carenza et al., JCAP 10, 10, 016 (2019), [Erratum:              JCAP 05, E01 (2020)],
+      [arXiv:1906.11844].
+[278] M. S. Turner, Phys. Rev. D 45, 1066 (1992).
+[279] G. Raffelt and D. Seckel, Phys. Rev. D 52, 1780 (1995), [arXiv:astro-ph/9312019].
+[280] W. Keil et al., Phys. Rev. D 56, 2419 (1997), [arXiv:astro-ph/9612222].
+[281] B. Fore and S. Reddy, Phys. Rev. C 101, 3, 035809 (2020), [arXiv:1911.02632].
+[282] P. Carenza et al., Phys. Rev. Lett. 126, 7, 071102 (2021), [arXiv:2010.02943].
+[283] J. Engel, D. Seckel and A. C. Hayes, Phys. Rev. Lett. 65, 960 (1990).
+[284] N. Iwamoto, Phys. Rev. Lett. 53, 1198 (1984).
+[285] N. Iwamoto, Phys. Rev. D 64, 043002 (2001).
+[286] A. Sedrakian, Phys. Rev. D93, 6, 065044 (2016), [arXiv:1512.07828].
+[287] J. Keller and A. Sedrakian, Nucl. Phys. A897, 62 (2013), [arXiv:1205.6940].
+[288] T. Fischer, Astron. Astrophys. 593, A103 (2016), [arXiv:1608.05004].
+[289] K. Springmann et al., JHEP 02, 138 (2025), [arXiv:2410.10945].
+[290] K. Hamaguchi et al., Phys. Rev. D98, 10, 103015 (2018), [arXiv:1806.07151].
+[291] D. Page et al., Phys. Rev. Lett. 106, 081101 (2011), [arXiv:1011.6142].
+[292] P. S. Shternin et al., Mon. Not. Roy. Astron. Soc. 412, L108 (2011), [arXiv:1012.0045].
+[293] B. Posselt and G. G. Pavlov, Astrophys. J. 864, 2, 135 (2018), [arXiv:1808.00531].
+[294] M. V. Beznogov et al., Phys. Rev. C98, 3, 035802 (2018), [arXiv:1806.07991].
+[295] G. G. Raffelt, J. Redondo and N. Viaux Maira, Phys. Rev. D84, 103008 (2011),
+      [arXiv:1110.6397].
+[296] K. van Bibber et al., Phys. Rev. D39, 2089 (1989).
+[297] D. M. Lazarus et al., Phys. Rev. Lett. 69, 2333 (1992).
+[298] S. Moriyama et al., Phys. Lett. B434, 147 (1998), [hep-ex/9805026].
+[299] Y. Inoue et al., Phys. Lett. B536, 18 (2002), [arXiv:astro-ph/0204388].
+[300] Y. Inoue et al., Phys. Lett. B668, 93 (2008), [arXiv:0806.2230].
+[301] E. Arik et al. (CAST), JCAP 0902, 008 (2009), [arXiv:0810.4482].
+[302] S. Aune et al. (CAST), Phys. Rev. Lett. 107, 261302 (2011), [arXiv:1106.3919].
+[303] M. Arik et al. (CAST), Phys. Rev. Lett. 112, 9, 091302 (2014), [arXiv:1307.1985].
+[304] M. Arik et al. (CAST), Phys. Rev. D92, 2, 021101 (2015), [arXiv:1503.00610].
+[305] E. Armengaud et al., JINST 9, T05002 (2014), [arXiv:1401.3233].
+[306] E. Armengaud et al. (IAXO), JCAP 1906, 06, 047 (2019), [arXiv:1904.09155].
+[307] M. Giannotti et al., JCAP 1710, 10, 010 (2017), [arXiv:1708.02111].
+[308] K. Barth et al., JCAP 1305, 010 (2013), [arXiv:1302.6283].
+[309] A. Abeln et al. (BabyIAXO), JCAP 2105, 05, 137 (2021), [arXiv:2010.12076].
+
+                                          1st June, 2026
+34                        89. Axions and Other Similar Particles
+
+
+[310] E. Aprile et al. (XENON), Phys. Rev. Lett. 129, 16, 161805 (2022), [arXiv:2207.11330].
+[311] X. Zeng et al. (PandaX), Phys. Rev. Lett. 134, 4, 041001 (2025), [arXiv:2408.07641].
+[312] J. Aalbers et al. (LZ), Phys. Rev. D 108, 7, 072006 (2023), [arXiv:2307.15753].
+[313] J. W. Brockway, E. D. Carlson and G. G. Raffelt, Phys. Lett. B383, 439 (1996), [arXiv:astro-
+      ph/9605197].
+[314] J. A. Grifols, E. Masso and R. Toldra, Phys. Rev. Lett. 77, 2372 (1996), [arXiv:astro-
+      ph/9606028].
+[315] C. A. Manzari et al., Phys. Rev. Lett. 133, 21, 211002 (2024), [arXiv:2405.19393].
+[316] F. Calore et al., Phys. Rev. D 102, 12, 123005 (2020), [arXiv:2008.11741].
+[317] O. Ning and B. R. Safdi (2025), [arXiv:2503.09682].
+[318] O. Ning and B. R. Safdi, Phys. Rev. Lett. 134, 17, 171003 (2025), [arXiv:2404.14476].
+[319] F. R. Candón et al., Phys. Rev. Lett. 134, 17, 171004 (2025), [arXiv:2412.03660].
+[320] C. Dessert, J. W. Foster and B. R. Safdi, Astrophys. J. 904, 1, 42 (2020), [arXiv:1910.02956].
+[321] M. Buschmann et al., Phys. Rev. Lett. 126, 2, 021102 (2021), [arXiv:1910.04164].
+[322] C. Dessert, A. J. Long and B. R. Safdi, Phys. Rev. Lett. 123, 6, 061104 (2019),
+      [arXiv:1903.05088].
+[323] C. Csaki, N. Kaloper and J. Terning, Phys. Rev. Lett. 88, 161302 (2002), [hep-ph/0111311].
+[324] A. Mirizzi, G.G. Raffelt, and P.D. Serpico, Lect. Notes Phys. 741, 115 (2008).
+[325] D. Horns et al., Phys. Rev. D85, 085021 (2012), [arXiv:1203.2184].
+[326] A. Payez, J. R. Cudell and D. Hutsemekers, JCAP 1207, 041 (2012), [arXiv:1204.6187].
+[327] J. N. Benabou et al. (2025), [arXiv:2504.12377].
+[328] R. Gill and J. S. Heyl, Phys. Rev. D84, 085001 (2011), [arXiv:1105.2083].
+[329] A. Dominguez, M. A. Sanchez-Conde and F. Prada,                 JCAP 1111,        020 (2011),
+      [arXiv:1106.1860].
+[330] W. Essey and A. Kusenko, Astrophys. J. 751, L11 (2012), [arXiv:1111.0815].
+[331] D. Horns and M. Meyer, JCAP 1202, 033 (2012), [arXiv:1201.4711].
+[332] G. I. Rubtsov and S. V. Troitsky, JETP Lett. 100, 6, 355 (2014), [Pisma Zh. Eksp. Teor.
+      Fiz.100,no.6,397(2014)], [arXiv:1406.0239].
+[333] D. A. Sanchez, S. Fegan and B. Giebels, Astron. Astrophys. 554, A75 (2013),
+      [arXiv:1303.5923].
+[334] J. Biteau and D. A. Williams, Astrophys. J. 812, 1, 60 (2015), [arXiv:1502.04166].
+[335] A. Domínguez and M. Ajello, Astrophys. J. 813, 2, L34 (2015), [arXiv:1510.07913].
+[336] A. Korochkin, G. Rubtsov and S. Troitsky, JCAP 12, 002 (2019), [arXiv:1810.03443].
+[337] A. De Angelis, G. Galanti and M. Roncadelli, Phys. Rev. D84, 105030 (2011), [Erratum:
+      Phys. Rev.D87,no.10,109903(2013)], [arXiv:1106.1132].
+[338] M. Simet, D. Hooper and P. D. Serpico, Phys. Rev. D77, 063001 (2008), [arXiv:0712.2825].
+[339] M. A. Sanchez-Conde et al., Phys. Rev. D79, 123511 (2009), [arXiv:0905.3270].
+[340] M. Meyer, D. Horns and M. Raue, Phys. Rev. D87, 3, 035027 (2013), [arXiv:1302.1208].
+[341] A. Abramowski et al. (H.E.S.S.), Phys. Rev. D88, 10, 102003 (2013), [arXiv:1311.3148].
+[342] C. Zhang et al., Phys. Rev. D97, 6, 063009 (2018), [arXiv:1802.08420].
+
+                                          1st June, 2026
+35                        89. Axions and Other Similar Particles
+
+
+[343] M. Libanov and S. Troitsky, Phys. Lett. B 802, 135252 (2020), [arXiv:1908.03084].
+[344] Z.-Q. Xia et al., Phys. Rev. D97, 6, 063003 (2018), [arXiv:1801.01646].
+[345] J. Majumdar, F. Calore and D. Horns, JCAP 1804, 04, 048 (2018), [arXiv:1801.08813].
+[346] G. A. Pallathadka et al., JCAP 11, 036 (2021), [arXiv:2008.08100].
+[347] K. Choi et al., Phys. Rev. D 101, 4, 043007 (2020), [arXiv:1806.09508].
+[348] F. Chadha-Day, Journal of Cosmology and Astroparticle Physics 2022, 01, 013 (2022), URL
+      https://dx.doi.org/10.1088/1475-7516/2022/01/013.
+[349] M. Berg et al., Astrophys. J. 847, 2, 101 (2017), [arXiv:1605.01043].
+[350] J. P. Conlon et al., JCAP 1707, 07, 005 (2017), [arXiv:1704.05256].
+[351] L. Chen and J. P. Conlon, Mon. Not. Roy. Astron. Soc. 479, 2, 2243 (2018),
+      [arXiv:1712.08313].
+[352] A. Hook and J. Huang, JHEP 06, 036 (2018), [arXiv:1708.08464].
+[353] J. Huang et al., Phys. Rev. D 99, 6, 063013 (2019), [arXiv:1807.02133].
+[354] J. Zhang et al., Phys. Rev. Lett. 127, 161101 (2021), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.127.161101.
+[355] R. Balkin et al., Phys. Rev. D 109, 095032 (2024), URL https://link.aps.org/doi/10.
+      1103/PhysRevD.109.095032.
+[356] G. Bellini et al. (Borexino), Phys. Rev. D 89, 11, 112007 (2014), [arXiv:1308.0443].
+[357] B. P. Abbott et al. (LIGO Scientific, Virgo), Phys. Rev. Lett. 119, 16, 161101 (2017),
+      [arXiv:1710.05832].
+[358] A. Arvanitaki and S. Dubovsky, Phys. Rev. D83, 044026 (2011), [arXiv:1004.3558].
+[359] A. Arvanitaki, M. Baryakhtar and X. Huang, Phys. Rev. D91, 8, 084011 (2015),
+      [arXiv:1411.2263].
+[360] V. M. Mehta et al. (2020), [arXiv:2011.08693].
+[361] V. M. Mehta et al., JCAP 07, 033 (2021), [arXiv:2103.06812].
+[362] M. Baryakhtar et al., Phys. Rev. D 103, 9, 095019 (2021), [arXiv:2011.11646].
+[363] M. J. Stott (2020), [arXiv:2009.07206].
+[364] G. Ballesteros et al., Phys. Rev. Lett. 118, 071802 (2017), URL https://link.aps.org/
+      doi/10.1103/PhysRevLett.118.071802.
+[365] M. Buschmann et al., Nature Commun. 13, 1, 1049 (2022), [arXiv:2108.05368].
+[366] C. Bonati et al., JHEP 03, 155 (2016), [arXiv:1512.06746].
+[367] E. Berkowitz, M. I. Buchoff and E. Rinaldi, Phys. Rev. D92, 3, 034507 (2015),
+      [arXiv:1505.07455].
+[368] M. Dine et al., Phys. Rev. D96, 9, 095001 (2017), [arXiv:1705.00676].
+[369] P. Petreczky, H.-P. Schadler and S. Sharma, Phys. Lett. B762, 498 (2016), [arXiv:1606.03145].
+[370] L. Fleury and G. D. Moore, Journal of Cosmology and Astroparticle Physics 2016, 01, 004
+      (2016), URL https://dx.doi.org/10.1088/1475-7516/2016/01/004.
+[371] V. B. Klaer and G. D. Moore, JCAP 1711, 11, 049 (2017), [arXiv:1708.07521].
+[372] M. Gorghetto, E. Hardy and G. Villadoro, SciPost Phys. 10, 050 (2021), [arXiv:2007.04990].
+[373] M. Kawasaki, K. Saikawa and T. Sekiguchi, Phys. Rev. D91, 6, 065014 (2015),
+      [arXiv:1412.0789].
+
+                                          1st June, 2026
+36                        89. Axions and Other Similar Particles
+
+
+[374] R. T. Co, L. J. Hall and K. Harigaya, Journal of High Energy Physics 2021, 1, 172 (2021),
+      ISSN 1029-8479, URL https://doi.org/10.1007/JHEP01(2021)172.
+[375] N. Blinov et al., Phys. Rev. D 100, 015049 (2019), URL https://link.aps.org/doi/10.
+      1103/PhysRevD.100.015049.
+[376] P. Arias et al., JCAP 1206, 013 (2012), [arXiv:1201.5902].
+[377] C. A. J. O’Hare et al., Phys. Rev. D 105, 055025 (2022), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.105.055025.
+[378] L. D. Luzio et al., Journal of Cosmology and Astroparticle Physics 2021, 10, 001 (2021),
+      URL https://dx.doi.org/10.1088/1475-7516/2021/10/001.
+[379] A. Arvanitaki et al., Phys. Rev. D95, 4, 043001 (2017), [arXiv:1604.03958].
+[380] K. K. Y. Ng et al., Phys. Rev. D 103, 6, 063010 (2021), [arXiv:1908.02312].
+[381] C. Palomba et al., Phys. Rev. Lett. 123, 171101 (2019), [arXiv:1909.08854].
+[382] L. Sun, R. Brito and M. Isi, Phys. Rev. D 101, 6, 063020 (2020), [Erratum: Phys.Rev.D 102,
+      089902 (2020)], [arXiv:1909.11267].
+[383] E. Masso, F. Rota and G. Zsembinszki, Phys. Rev. D 66, 023004 (2002), [hep-ph/0203221].
+[384] P. Graf and F. D. Steffen, Phys. Rev. D 83, 075011 (2011), [arXiv:1008.4528].
+[385] Z. G. Berezhiani, A. S. Sakharov and M. Y. Khlopov, Sov. J. Nucl. Phys. 55, 1063 (1992).
+[386] S. Hannestad, A. Mirizzi and G. Raffelt, JCAP 07, 002 (2005), [hep-ph/0504059].
+[387] S. Hannestad et al., JCAP 08, 001 (2010), [arXiv:1004.0695].
+[388] M. Archidiacono et al., JCAP 10, 020 (2013), [arXiv:1307.0615].
+[389] E. Di Valentino et al., Phys. Lett. B 752, 182 (2016), [arXiv:1507.08665].
+[390] W. Giarè et al., Mon. Not. Roy. Astron. Soc. 505, 2, 2703 (2021), [arXiv:2011.14704].
+[391] L. Di Luzio, G. Martinelli and G. Piazza, Phys. Rev. Lett. 126, 24, 241801 (2021),
+      [arXiv:2101.10330].
+[392] A. Notari, F. Rompineve and G. Villadoro, Phys. Rev. Lett. 131, 1, 011004 (2023),
+      [arXiv:2211.03799].
+[393] E. Masso and R. Toldra, Phys. Rev. D 52, 1755 (1995), [hep-ph/9503293].
+[394] E. Masso and R. Toldra, Phys. Rev. D55, 7967 (1997), [hep-ph/9702275].
+[395] J. W. Foster et al., JHEP 12, 119 (2022), [arXiv:2208.10504].
+[396] P. Panci et al., Phys. Lett. B 841, 137919 (2023), [arXiv:2209.03371].
+[397] M. Regis et al., Physics Letters B 814, 136075 (2021), ISSN 0370-2693, URL https://www.
+      sciencedirect.com/science/article/pii/S0370269321000150.
+[398] J. W. Foster et al., Phys. Rev. Lett. 127, 5, 051101 (2021), [arXiv:2102.02207].
+[399] J. Preskill, M. B. Wise and F. Wilczek, Phys. Lett. B120, 127 (1983).
+[400] L. F. Abbott and P. Sikivie, Phys. Lett. B120, 133 (1983).
+[401] M. Dine and W. Fischler, Phys. Lett. B120, 137 (1983).
+[402] J. N. Benabou et al., Phys. Rev. D 110, 3, 035021 (2024), [arXiv:2312.08425].
+[403] K. J. Bae, J.-H. Huh and J. E. Kim, JCAP 0809, 005 (2008), [arXiv:0806.0497].
+[404] O. Wantz and E. P. S. Shellard, Phys. Rev. D82, 123508 (2010), [arXiv:0910.1066].
+[405] G. Ballesteros et al., JCAP 1708, 08, 001 (2017), [arXiv:1610.01639].
+[406] R. T. Co, F. D’Eramo and L. J. Hall, Phys. Rev. D 94, 7, 075001 (2016), [arXiv:1603.04439].
+
+                                          1st June, 2026
+37                        89. Axions and Other Similar Particles
+
+
+[407] M. Tegmark et al., Phys. Rev. D73, 023505 (2006), [arXiv:astro-ph/0511774].
+[408] A. D. Linde, Phys. Lett. 158B, 375 (1985).
+[409] D. Seckel and M. S. Turner, Phys. Rev. D32, 3178 (1985).
+[410] M. Beltran, J. Garcia-Bellido and J. Lesgourgues, Phys. Rev. D75, 103507 (2007), [hep-
+      ph/0606107].
+[411] M. P. Hertzberg, M. Tegmark and F. Wilczek, Phys. Rev. D78, 083507 (2008),
+      [arXiv:0807.1726].
+[412] J. Hamann et al., JCAP 0906, 022 (2009), [arXiv:0904.0647].
+[413] P. A. R. Ade et al. (Planck), Astron. Astrophys. 571, A22 (2014), [arXiv:1303.5082].
+[414] P. A. R. Ade et al. (Planck), Astron. Astrophys. 594, A20 (2016), [arXiv:1502.02114].
+[415] B. Bolliet, J. Chluba and R. Battye, Monthly Notices of the Royal Astronomical Society 507,
+      3, 3148 (2021), ISSN 0035-8711, URL https://doi.org/10.1093/mnras/stab1997.
+[416] R. T. Co, L. J. Hall and K. Harigaya, Phys. Rev. Lett. 124, 25, 251802 (2020),
+      [arXiv:1910.14152].
+[417] S. Borsanyi et al., Phys. Lett. B752, 175 (2016), [arXiv:1508.06917].
+[418] R. Kitano and N. Yamada, JHEP 10, 136 (2015), [arXiv:1506.00370].
+[419] Y. Taniguchi et al., Phys. Rev. D95, 5, 054502 (2017), [arXiv:1611.02411].
+[420] R. D. Pisarski and L. G. Yaffe, Phys. Lett. 97B, 110 (1980).
+[421] S. Chang, C. Hagmann and P. Sikivie, Phys. Rev. D59, 023505 (1999), [hep-ph/9807374].
+[422] C. Hagmann, S. Chang and P. Sikivie, Phys. Rev. D63, 125018 (2001), [hep-ph/0012361].
+[423] T. Hiramatsu et al., Phys. Rev. D83, 123531 (2011), [arXiv:1012.5502].
+[424] T. Hiramatsu et al., Phys. Rev. D85, 105020 (2012), [Erratum: Phys. Rev.D86,089902(2012)],
+      [arXiv:1202.5851].
+[425] M. Gorghetto, E. Hardy and G. Villadoro, JHEP 07, 151 (2018), [arXiv:1806.04677].
+[426] M. Buschmann, J. W. Foster and B. R. Safdi, Phys. Rev. Lett. 124, 16, 161103 (2020),
+      [arXiv:1906.00967].
+[427] M. Hindmarsh et al., Phys. Rev. Lett. 124, 2, 021301 (2020), [arXiv:1908.03522].
+[428] M. Dine et al., Journal of Cosmology and Astroparticle Physics 2021, 11, 041 (2021), URL
+      https://dx.doi.org/10.1088/1475-7516/2021/11/041.
+[429] M. Hindmarsh et al., Phys. Rev. D 103, 10, 103534 (2021), [arXiv:2102.07723].
+[430] K. Saikawa et al., JCAP 10, 043 (2024), [arXiv:2401.17253].
+[431] H. Kim and M. Son, JHEP 07, 052 (2025), [arXiv:2411.08455].
+[432] J. N. Benabou et al., Phys. Rev. Lett. 134, 24, 241003 (2025), [arXiv:2412.08699].
+[433] A. Ringwald and K. Saikawa, Phys. Rev. D93, 8, 085031 (2016), [Addendum: Phys.
+      Rev.D94,no.4,049908(2016)], [arXiv:1512.06436].
+[434] T. Hiramatsu et al., JCAP 1301, 001 (2013), [arXiv:1207.3166].
+[435] K. A. Beyer and S. Sarkar, SciPost Phys. 15, 003 (2023), [arXiv:2211.14635].
+[436] C. J. Hogan and M. J. Rees, Phys. Lett. B205, 228 (1988).
+[437] E. W. Kolb and I. I. Tkachev, Phys. Rev. Lett. 71, 3051 (1993), [hep-ph/9303313].
+[438] B. Eggemeier et al., Phys. Rev. Lett. 125, 4, 041301 (2020), [arXiv:1911.09417].
+
+                                          1st June, 2026
+38                        89. Axions and Other Similar Particles
+
+
+[439] A. Vaquero, J. Redondo and J. Stadler, Journal of Cosmology and Astroparticle Physics
+      2019, 04, 012 (2019), URL https://dx.doi.org/10.1088/1475-7516/2019/04/012.
+[440] E. W. Kolb and I. I. Tkachev, Astrophys. J. 460, L25 (1996), [arXiv:astro-ph/9510043].
+[441] M. Fairbairn, D. J. E. Marsh and J. Quevillon, Phys. Rev. Lett. 119, 2, 021101 (2017),
+      [arXiv:1701.04787].
+[442] A. Katz et al., JCAP 1812, 005 (2018), [arXiv:1807.11495].
+[443] R. Hlozek et al., Phys. Rev. D91, 10, 103512 (2015), [arXiv:1410.2896].
+[444] D. J. E. Marsh, Phys. Rept. 643, 1 (2016), [arXiv:1510.07633].
+[445] L. Hui et al., Phys. Rev. D95, 4, 043541 (2017), [arXiv:1610.08297].
+[446] G. P. Centers et al., Nature Communications 12, 1, 7321 (2021), ISSN 2041-1723, URL
+      https://doi.org/10.1038/s41467-021-27632-7.
+[447] A. G. Dias et al., JHEP 06, 037 (2014), [arXiv:1403.5760].
+[448] J. E. Kim and D. J. E. Marsh, Phys. Rev. D93, 2, 025027 (2016), [arXiv:1510.01701].
+[449] H. Davoudiasl and C. W. Murphy,             Phys. Rev. Lett. 118,       14,   141801 (2017),
+      [arXiv:1701.01136].
+[450] L. Di Luzio et al., JCAP 10, 001 (2021), [arXiv:2102.01082].
+[451] M. Khlopov, B. A. Malomed and I. B. Zeldovich, Mon. Not. Roy. Astron. Soc. 215, 575
+      (1985).
+[452] W. Hu, R. Barkana and A. Gruzinov, Phys. Rev. Lett. 85, 1158 (2000), [arXiv:astro-
+      ph/0003365].
+[453] L. Amendola and R. Barbieri, Phys. Lett. B642, 192 (2006), [hep-ph/0509257].
+[454] D. J. E. Marsh and P. G. Ferreira, Phys. Rev. D82, 103528 (2010), [arXiv:1009.3501].
+[455] E. Seidel and W. M. Suen, Phys. Rev. Lett. 66, 1659 (1991).
+[456] H.-Y. Schive, T. Chiueh and T. Broadhurst, Nature Phys. 10, 496 (2014), [arXiv:1406.6586].
+[457] D. G. Levkov, A. G. Panin and I. I. Tkachev, Phys. Rev. Lett. 121, 15, 151301 (2018),
+      [arXiv:1804.05857].
+[458] B. Eggemeier and J. C. Niemeyer, Phys. Rev. D 100, 6, 063528 (2019), [arXiv:1906.01348].
+[459] R. Hlozek, D. J. E. Marsh and D. Grin, Mon. Not. Roy. Astron. Soc. 476, 3, 3063 (2018),
+      [arXiv:1708.05681].
+[460] D. J. E. Marsh and J. Silk, Mon. Not. Roy. Astron. Soc. 437, 3, 2652 (2014),
+      [arXiv:1307.1705].
+[461] H.-Y. Schive et al., Astrophys. J. 818, 1, 89 (2016), [arXiv:1508.04621].
+[462] B. Bozek et al., Mon. Not. Roy. Astron. Soc. 450, 1, 209 (2015), [arXiv:1409.3544].
+[463] P. S. Corasaniti et al., Phys. Rev. D95, 8, 083512 (2017), [arXiv:1611.05892].
+[464] K. K. Rogers and H. V. Peiris, Phys. Rev. Lett. 126, 7, 071302 (2021), [arXiv:2007.12705].
+[465] H.-Y. Schive and T. Chiueh, Mon. Not. Roy. Astron. Soc. 473, 1, L36 (2018),
+      [arXiv:1706.03723].
+[466] E. O. Nadler et al. (DES), Phys. Rev. Lett. 126, 091101 (2021), [arXiv:2008.00022].
+[467] B. Schwabe, J. C. Niemeyer and J. F. Engels, Phys. Rev. D94, 4, 043513 (2016),
+      [arXiv:1606.05151].
+[468] J. Veltmaat and J. C. Niemeyer, Phys. Rev. D94, 12, 123523 (2016), [arXiv:1608.00802].
+
+                                          1st June, 2026
+39                        89. Axions and Other Similar Particles
+
+
+[469] P. Mocz et al., Mon. Not. Roy. Astron. Soc. 471, 4, 4559 (2017), [arXiv:1705.05845].
+[470] D. G. Levkov, A. G. Panin and I. I. Tkachev, Phys. Rev. Lett. 118, 011301 (2017); T. Helfer
+      et al., JCAP 1703, 03, 055 (2017), [arXiv:1609.04724]; J. Eby et al., Journal of High
+      Energy Physics 2018, 1, 66 (2018), ISSN 1029-8479, URL https://doi.org/10.1007/
+      JHEP01(2018)066.
+[471] D. J. E. Marsh and A.-R. Pop, Mon. Not. Roy. Astron. Soc. 451, 3, 2479 (2015),
+      [arXiv:1502.03456].
+[472] S.-R. Chen, H.-Y. Schive and T. Chiueh, Mon. Not. Roy. Astron. Soc. 468, 2, 1338 (2017),
+      [arXiv:1606.09030].
+[473] A. X. González-Morales et al., Mon. Not. Roy. Astron. Soc. 472, 2, 1346 (2017),
+      [arXiv:1609.05856].
+[474] I. De Martino et al., Phys. Dark Univ. 28, 100503 (2020), [arXiv:1807.08153].
+[475] T. Broadhurst et al., Phys. Rev. D 101, 8, 083012 (2020), [arXiv:1902.10488].
+[476] H.-Y. Schive et al., Phys. Rev. Lett. 113, 26, 261302 (2014), [arXiv:1407.7762].
+[477] V. H. Robles, J. S. Bullock and M. Boylan-Kolchin, Mon. Not. Roy. Astron. Soc. 483, 1, 289
+      (2019), [arXiv:1807.06018].
+[478] V. Desjacques and A. Nusser, Monthly Notices of the Royal Astronomical Society 488, 4,
+      4497 (2019), ISSN 0035-8711, URL https://doi.org/10.1093/mnras/stz1978.
+[479] M. Safarzadeh and D. N. Spergel, The Astrophysical Journal 893, 1, 21 (2020), URL https:
+      //dx.doi.org/10.3847/1538-4357/ab7db2.
+[480] A. Pontzen and F. Governato, Nature 506, 171 (2014), [arXiv:1402.1764].
+[481] P. Mocz et al., Phys. Rev. Lett. 123, 14, 141301 (2019), [arXiv:1910.01653].
+[482] J. Veltmaat, B. Schwabe and J. C. Niemeyer, Phys. Rev. D 101, 8, 083518 (2020),
+      [arXiv:1911.09614].
+[483] J. Veltmaat, J. C. Niemeyer and B. Schwabe, Phys. Rev. D98, 4, 043509 (2018),
+      [arXiv:1804.09647].
+[484] B. Bar-Or, J.-B. Fouvry and S. Tremaine, Astrophys. J. 871, 1, 28 (2019), [arXiv:1809.07673].
+[485] B. V. Church, P. Mocz and J. P. Ostriker, MNRAS 485, 2861 (2019), [arXiv:1809.04744].
+[486] N. C. Amorisco and A. Loeb (2018), [arXiv:1808.00464].
+[487] T. S. Li et al. (DES), Astrophys. J. 838, 1, 8 (2017), [arXiv:1611.05052].
+[488] D. J. E. Marsh and J. C. Niemeyer, Phys. Rev. Lett. 123, 5, 051103 (2019),
+      [arXiv:1810.08543].
+[489] N. Dalal and A. Kravtsov, Phys. Rev. D 106, 6, 063517 (2022), [arXiv:2203.05750].
+[490] E. Armengaud et al. (EDELWEISS), Phys. Rev. D 98, 8, 082004 (2018), [arXiv:1808.02340].
+[491] E. Aprile et al. (XENON), Phys. Rev. Lett. 123, 25, 251801 (2019), [arXiv:1907.11485].
+[492] S. Roy et al., Phys. Rev. Lett. 134, 7, 071003 (2025), [arXiv:2311.04987].
+[493] E. Pinetti (2025), [arXiv:2503.11753].
+[494] K. Kelley and P. J. Quinn, Astrophys. J. 845, 1, L4 (2017), [arXiv:1708.01399].
+[495] G. Sigl, Phys. Rev. D96, 10, 103014 (2017), [arXiv:1708.08908].
+[496] A. Hook et al., Phys. Rev. Lett. 121, 24, 241102 (2018), [arXiv:1804.03145].
+[497] B. R. Safdi, Z. Sun and A. Y. Chen, Phys. Rev. D 99, 12, 123021 (2019), [arXiv:1811.01020].
+
+                                          1st June, 2026
+40                        89. Axions and Other Similar Particles
+
+
+[498] S. J. Witte et al., Phys. Rev. D 104, 103030 (2021), URL https://link.aps.org/doi/10.
+      1103/PhysRevD.104.103030.
+[499] R. A. Battye et al., Journal of High Energy Physics 2021, 9, 105 (2021), ISSN 1029-8479,
+      URL https://doi.org/10.1007/JHEP09(2021)105.
+[500] A. J. Millar et al., Journal of Cosmology and Astroparticle Physics 2021, 11, 013 (2021),
+      URL https://dx.doi.org/10.1088/1475-7516/2021/11/013.
+[501] J. McDonald, B. Garbrecht and P. Millington, Journal of Cosmology and Astroparticle
+      Physics 2023, 12, 031 (2023), URL https://dx.doi.org/10.1088/1475-7516/2023/12/
+      031.
+[502] A. Caputo et al., JCAP 1903, 03, 027 (2019), [arXiv:1811.08436].
+[503] P. Carenza, A. Mirizzi and G. Sigl, Phys. Rev. D 101, 10, 103016 (2020), [arXiv:1911.07838].
+[504] D. G. Levkov, A. G. Panin and I. I. Tkachev, Phys. Rev. D 102, 2, 023501 (2020),
+      [arXiv:2004.05179].
+[505] T. Fujita et al., Phys. Rev. D 103, 4, 043509 (2021), [arXiv:2011.11894].
+[506] T. Liu, G. Smoot and Y. Zhao, Phys. Rev. D 101, 6, 063012 (2020), [arXiv:1901.10981].
+[507] P. Sikivie, Phys. Rev. D32, 2988 (1985), [Erratum: Phys. Rev.D36,974(1987)].
+[508] R. Bradley et al., Rev. Mod. Phys. 75, 777 (2003).
+[509] C. Bartram et al. (ADMX Collaboration), Phys. Rev. D 109, 083014 (2024), URL https:
+      //link.aps.org/doi/10.1103/PhysRevD.109.083014.
+[510] C. Goodman et al. (ADMX Collaboration), Phys. Rev. Lett. 134, 111002 (2025), URL https:
+      //link.aps.org/doi/10.1103/PhysRevLett.134.111002.
+[511] G. C. e. al., Phys. Rev. Lett. – (2025), URL https://link.aps.org/doi/10.1103/
+      d7mg-6sqq.
+[512] S. Bae et al., Phys. Rev. Lett. 135, 091804 (2025), URL https://link.aps.org/doi/10.
+      1103/f11t-qy8z.
+[513] C. Boutan et al. (ADMX), Phys. Rev. Lett. 121, 26, 261302 (2018), [arXiv:1901.00920].
+[514] C. Bartram et al. (ADMX), Phys. Rev. D 103, 3, 032002 (2021), [arXiv:2010.06183].
+[515] R. Khatiwada et al., Review of Scientific Instruments 92, 12, 124502 (2021), ISSN 0034-6748,
+      URL https://doi.org/10.1063/5.0037857.
+[516] W. Wuensch et al., Phys. Rev. D40, 3153 (1989).
+[517] A. A. Melcón et al. (CAST), JHEP 21, 075 (2020), [arXiv:2104.13798].
+[518] B. T. McAllister et al., Annalen der Physik n/a, n/a, 2200622 (2022), URL https:
+      //onlinelibrary.wiley.com/doi/abs/10.1002/andp.202200622.
+[519] Unpulished work by P. Sikivie, N. Sullivan, and D. B. Tanner in the early 2000s and indepen-
+      dent work by B. Cabrera and S. Thomas. presented in a talk at the Axions 2010 Conference in
+      Gainesville, Florida, January 15–17., URL http://www.physics.rutgers.edu/~scthomas/
+      talks/Axion-LC-Florida.pdf.
+[520] P. Sikivie, N. Sullivan, and D. B. Tanner, Phys. Rev. Lett. 112, 131301 (2014).
+[521] Y. Kahn, B. R. Safdi and J. Thaler, Phys. Rev. Lett. 117, 14, 141801 (2016),
+      [arXiv:1602.01086].
+[522] L. Brouwer et al. (DMRadio), Phys. Rev. D 106, 10, 103008 (2022), [arXiv:2204.13781].
+[523] L. Brouwer et al. (DMRadio), Phys. Rev. D 106, 11, 112003 (2022), [arXiv:2203.11246].
+
+                                          1st June, 2026
+41                        89. Axions and Other Similar Particles
+
+
+[524] Y. Oshima et al., Phys. Rev. D 108, 072005 (2023), URL https://link.aps.org/doi/10.
+      1103/PhysRevD.108.072005.
+[525] A. J. Millar et al. (Endorsers), Phys. Rev. D 107, 055013 (2023), URL https://link.aps.
+      org/doi/10.1103/PhysRevD.107.055013.
+[526] S. K. Lamoreaux et al., Phys. Rev. D 88, 035020 (2013), URL https://link.aps.org/doi/
+      10.1103/PhysRevD.88.035020.
+[527] R. Cervantes et al., Phys. Rev. Lett. 129, 201301 (2022), URL https://link.aps.org/doi/
+      10.1103/PhysRevLett.129.201301.
+[528] J. Chiles et al., Phys. Rev. Lett. 128, 231802 (2022), URL https://link.aps.org/doi/10.
+      1103/PhysRevLett.128.231802.
+[529] D. Horns et al., JCAP 1304, 016 (2013), [arXiv:1212.2970].
+[530] F. Bajjali et al., Journal of Cosmology and Astroparticle Physics 2023, 08, 077 (2023), URL
+      https://dx.doi.org/10.1088/1475-7516/2023/08/077.
+[531] C.-L. Kuo et al., Phys. Rev. D 111, 123018 (2025), URL https://link.aps.org/doi/10.
+      1103/pgtg-3lhd.
+[532] M. J. Jewell et al. (HAYSTAC Collaboration), Phys. Rev. D 107, 072007 (2023), URL https:
+      //link.aps.org/doi/10.1103/PhysRevD.107.072007.
+[533] C. Braggio et al., Phys. Rev. X 15, 021031 (2025), URL https://link.aps.org/doi/10.
+      1103/PhysRevX.15.021031.
+[534] A. V. Dixit et al., Phys. Rev. Lett. 126, 141302 (2021), URL https://link.aps.org/doi/
+      10.1103/PhysRevLett.126.141302.
+[535] I. M. Bloch et al., Sci. Adv. 8, 5, abl8919 (2022), [arXiv:2105.04603].
+[536] S. P. Chang et al., Phys. Rev. D99, 8, 083002 (2019), [arXiv:1710.05271].
+[537] L. Krauss et al., Phys. Rev. Lett. 55, 1797 (1985).
+[538] R. Barbieri et al., Phys. Lett. B 226, 357 (1989).
+[539] R. Barbieri et al., Phys. Dark Univ. 15, 135 (2017), [arXiv:1606.02201].
+[540] J. A. Dror et al., Phys. Rev. Lett. 130, 181801 (2023), URL https://link.aps.org/doi/
+      10.1103/PhysRevLett.130.181801.
+[541] E. Boyers, G. Goldstein and A. O. Sushkov, Phys. Rev. D 111, 052004 (2025), URL https:
+      //link.aps.org/doi/10.1103/PhysRevD.111.052004.
+[542] M. Galanis et al., Toward 48 dB Spin Squeezing and 96 dB Signal Magnification for Cosmic
+      Relic Searches with Nuclear Spins (2025), [arXiv:2508.20520], URL https://arxiv.org/
+      abs/2508.20520.
+
+
+
+
+                                           1st June, 2026
+
