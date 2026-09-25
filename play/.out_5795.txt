@@ -1,0 +1,44 @@
+Toy 5795 — dark-mode mass map + coldness
+
+DIRECTION: P1 >20 orders below every window; P2 thermal-birth never killed by Ly-a; P3 x_max > 100 at 0.313 GeV; P4 control = 1
+
+(1) mass map (grams, log10)
+   Windchime target (reduced Planck mass)   [  -5.4,   -5.4]
+   Carney+ grav. detection (>~ m_Pl)        [  -4.7, inf]
+   asteroid window (Carr+2021)              [  17.0,   23.0]
+   HSC M31                                  [  22.3,   27.3]
+   EROS-2                                   [  26.1,   34.5]
+   OGLE (f<10%)                             [  28.4,   36.2]
+   m_p/3 (selected)       m = 0.3128 GeV = 5.575e-25 g  ->  18.9 orders below the lightest window
+   16/9 m_p               m = 1.6680 GeV = 2.974e-24 g  ->  18.2 orders below the lightest window
+   16/3 m_p (ceiling)     m = 5.0041 GeV = 8.921e-24 g  ->  17.7 orders below the lightest window
+  [FAIL] P1 every mass > 20 orders below every pinned window (cosmology-only bin)
+  [FAIL] M_sun flag: a factor-10 error moves no window edge within 20 orders of the masses
+
+(2) coldness
+   rho_DM = 2.254e-27 kg/m^3 ; T0 = 2.3487e-04 eV ; FD <p>/T = 3.1514
+   thermal relic m_th = 5.7 keV: T_x0 = 2.105e-05 eV (T_x0/T0 = 0.090), v0 = 1.164e-08 c
+   thermal relic m_th = 5.3 keV: T_x0 = 2.157e-05 eV (T_x0/T0 = 0.092), v0 = 1.282e-08 c
+   thermal relic m_th = 4.1 keV: T_x0 = 2.350e-05 eV (T_x0/T0 = 0.100), v0 = 1.806e-08 c
+   thermal relic m_th = 3.1 keV: T_x0 = 2.579e-05 eV (T_x0/T0 = 0.110), v0 = 2.622e-08 c
+  [PASS] (control) P4 control: velocity ratio of a 5.7 keV relic to itself = 1
+   dark mode, x = 1 (thermal-size birth):
+     m_p/3 (selected)       g*s(T_c) =  10.75: v0 = 1.689e-12 c, ratio to 5.7 keV bound = 1.45e-04
+     m_p/3 (selected)       g*s(T_c) =  61.75: v0 = 9.432e-13 c, ratio to 5.7 keV bound = 8.10e-05
+     m_p/3 (selected)       g*s(T_c) = 106.75: v0 = 7.859e-13 c, ratio to 5.7 keV bound = 6.75e-05
+     16/9 m_p               g*s(T_c) =  10.75: v0 = 3.167e-13 c, ratio to 5.7 keV bound = 2.72e-05
+     16/9 m_p               g*s(T_c) =  61.75: v0 = 1.769e-13 c, ratio to 5.7 keV bound = 1.52e-05
+     16/9 m_p               g*s(T_c) = 106.75: v0 = 1.474e-13 c, ratio to 5.7 keV bound = 1.27e-05
+     16/3 m_p (ceiling)     g*s(T_c) =  10.75: v0 = 1.056e-13 c, ratio to 5.7 keV bound = 9.07e-06
+     16/3 m_p (ceiling)     g*s(T_c) =  61.75: v0 = 5.895e-14 c, ratio to 5.7 keV bound = 5.07e-06
+     16/3 m_p (ceiling)     g*s(T_c) = 106.75: v0 = 4.912e-14 c, ratio to 5.7 keV bound = 4.22e-06
+  [PASS] P2 thermal-size birth is colder than the 5.7 keV bound for all masses and all g*s(T_c)
+   maximum birth-momentum factor x_max (Ly-a 5.7 keV edge), g*s(T_c) = 10.75 (most conservative):
+     m_p/3 (selected)       x_max = 6.890e+03   (birth <p> up to 2.17e+04 T_c)
+     16/9 m_p               x_max = 3.675e+04   (birth <p> up to 1.16e+05 T_c)
+     16/3 m_p (ceiling)     x_max = 1.102e+05   (birth <p> up to 3.47e+05 T_c)
+  [PASS] P3 x_max > 100 at m = 0.313 GeV
+   Reading: T_c drops out; only a birth momentum ~x_max times thermal is killable. A decay-born mode with
+   p_b ~ m would need T_c < m/x_max to be dangerous — this is where Lyra's commit mechanism must say p_b.
+
+SCORE 3/5  (can-fail 2/4; 1 controls)
